@@ -710,7 +710,17 @@ function slot0.ShouldShowOfficeTip(slot0)
 end
 
 function slot0.ShouldShowTechTip(slot0)
-	return slot0:getActiveTechnologyGroup() and slot1:isMaxLevel()
+	return slot0:getActiveTechnologyGroup() and slot1:isMaxLevel() and not slot0:IsFinishAllTechnologyGroup()
+end
+
+function slot0.IsFinishAllTechnologyGroup(slot0)
+	for slot4, slot5 in pairs(slot0.technologyGroups) do
+		if not slot5:isMaxLevel() then
+			return false
+		end
+	end
+
+	return true
 end
 
 function slot0.ShouldShowSupplyTip(slot0)

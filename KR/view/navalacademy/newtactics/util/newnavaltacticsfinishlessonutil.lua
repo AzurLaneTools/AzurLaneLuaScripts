@@ -24,12 +24,16 @@ function slot0.Enter(slot0, slot1, slot2)
 end
 
 function slot0.Excute(slot0)
-	slot1 = slot0.queue[1]
-
-	pg.m02:sendNotification(GAME.CANCEL_LEARN_TACTICS, {
-		shipId = slot1[1],
-		type = slot1[2]
-	})
+	if slot0.queue[1][2] == Student.CANCEL_TYPE_QUICKLY then
+		pg.m02:sendNotification(GAME.QUICK_FINISH_LEARN_TACTICS, {
+			shipId = slot1[1]
+		})
+	else
+		pg.m02:sendNotification(GAME.CANCEL_LEARN_TACTICS, {
+			shipId = slot1[1],
+			type = slot1[2]
+		})
+	end
 end
 
 function slot0.NextOne(slot0)

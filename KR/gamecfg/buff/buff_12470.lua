@@ -37,10 +37,13 @@ return {
 				"onSubmarineRaid"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				buff_id = 12472,
-				target = "TargetSelf",
 				maxTargetNumber = 0,
+				target = "TargetSelf",
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Albacore"
 				}
@@ -52,10 +55,13 @@ return {
 				"onSubmarineRaid"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				buff_id = 12473,
+				target = "TargetSelf",
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Albacore"
 				}

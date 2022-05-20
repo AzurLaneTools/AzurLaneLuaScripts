@@ -223,6 +223,7 @@ function slot0.ShipExitArch(slot0, slot1)
 
 		slot3:RemoveChild(slot1)
 		slot0:DispatchEvent(CourtYardEvent.UN_CHILD_ITEM, slot1, slot3)
+		slot0:DispatchEvent(CourtYardEvent.EXIT_ARCH, slot1, slot3)
 		slot0:LockPosition(slot2)
 		slot1:UnClear(true)
 		slot1:Move(slot2)
@@ -237,6 +238,7 @@ function slot0.ShipEnterArch(slot0, slot1)
 	function slot2(slot0, slot1)
 		uv0:RemoveItem(uv1)
 		uv0:DispatchEvent(CourtYardEvent.CHILD_ITEM, uv1, slot0)
+		uv0:DispatchEvent(CourtYardEvent.ENTER_ARCH, uv1, slot0)
 		slot0:AddChild(uv1)
 		uv1:Move(slot1)
 	end
@@ -289,14 +291,18 @@ function slot0.DragShip(slot0, slot1)
 
 	slot4 = slot2:GetPosition()
 
-	if slot2:GetState() == CourtYardShip.STATE_INTERACT then
-		slot2:GetInterActionData():Stop()
-	elseif slot2:HasParent() then
-		slot5 = slot2:GetParent()
+	if slot2:GetInterActionData() ~= nil or slot2:GetState() == CourtYardShip.STATE_INTERACT then
+		if isa(slot5, CourtYardFollowerSlot) then
+			slot0:RemoveItem(slot2)
+		end
 
-		slot5:RemoveChild(slot2)
+		slot5:Stop()
+	elseif slot2:HasParent() then
+		slot6 = slot2:GetParent()
+
+		slot6:RemoveChild(slot2)
 		slot2:ChangeState(CourtYardShip.STATE_IDLE)
-		slot0:DispatchEvent(CourtYardEvent.UN_CHILD_ITEM, slot2, slot5)
+		slot0:DispatchEvent(CourtYardEvent.UN_CHILD_ITEM, slot2, slot6)
 	else
 		slot0:RemoveItem(slot2)
 	end
@@ -327,6 +333,12 @@ function slot0.DragShipEnd(slot0, slot1, slot2)
 	slot7 = nil
 
 	if not slot0:LegalPosition(slot2, slot3) and slot5 then
+		if isa(slot5, CourtYardFollowerFurniture) then
+			slot0:RemoveItemAndRefresh(slot5)
+			slot0:ResetShip(slot3, slot2)
+			slot3:ChangeState(CourtYardShip.STATE_MOVE)
+		end
+
 		slot5:GetInteractionSlot():Occupy(slot5, slot3, slot0)
 	elseif not slot4 and slot6 then
 		slot3:SetPosition(slot2)
@@ -404,7 +416,6 @@ function slot0.AddShipExp(slot0, slot1, slot2)
 		return
 	end
 
-	slot0:GetPlaceableArea(slot3):_ClearLockPosition(slot3)
 	slot3:AddExp(slot2)
 end
 

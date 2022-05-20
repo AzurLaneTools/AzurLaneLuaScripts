@@ -19,7 +19,15 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.longPressEvent = slot1:GetComponent("UILongPressTrigger").onLongPressed
 end
 
+function slot0.GetCenterPos(slot0)
+	return slot0.chatTf.parent:InverseTransformPoint(slot0.container.position)
+end
+
 function slot0.IsLoading(slot0)
+	return slot0.state == uv0
+end
+
+function slot0.IsLoaded(slot0)
 	return slot0.state == uv0
 end
 
@@ -112,7 +120,7 @@ function slot0._TriggerEvent(slot0, slot1)
 end
 
 function slot0.TriggerEvent(slot0, slot1)
-	if slot0.isFoldState then
+	if slot0.isDragAndZoomState then
 		return
 	end
 
@@ -234,6 +242,10 @@ function slot0.AdjustChatPosition(slot0)
 	else
 		slot0.chatTextBg.sizeDelta = Vector2.New(slot0.chatTextBg.sizeDelta.x, slot0.initChatBgH)
 	end
+
+	if slot0.isFoldState then
+		slot0.chatTf.localPosition = Vector3(slot0:GetCenterPos().x, -190, 0)
+	end
 end
 
 function slot0.StartChatAnimtion(slot0, slot1, slot2)
@@ -317,17 +329,44 @@ function slot0.IsExited(slot0)
 	return slot0.isExited
 end
 
-function slot0.Fold(slot0, slot1)
+function slot0.Fold(slot0, slot1, slot2)
 	slot0.isFoldState = slot1
+
+	slot0:RemoveMoveTimer()
+
+	if slot1 and slot2 > 0 then
+		slot3 = LeanTween.value(slot0.container.gameObject, 0, 1, slot2)
+
+		slot3:setOnUpdate(System.Action_float(function (slot0)
+			uv0.chatTf.localPosition = Vector3(uv0:GetCenterPos().x, -190, 0)
+		end))
+	end
+
+	slot0:OnFold(slot1)
+end
+
+function slot0.RemoveMoveTimer(slot0)
+	if slot0.moveTimer then
+		slot0.moveTimer:Stop()
+
+		slot0.moveTimer = nil
+	end
+end
+
+function slot0.EnableOrDisableMove(slot0, slot1)
+	slot0.isDragAndZoomState = slot1
+
+	slot0:RemoveMoveTimer()
 
 	if slot1 then
 		slot0:StopChatAnimtion()
 		slot0:RemoveTimer()
+		slot0.cvLoader:Stop()
 	else
 		slot0:TriggerNextEventAuto()
 	end
 
-	slot0:OnFold(slot1)
+	slot0:OnEnableOrDisableDragAndZoom(slot1)
 end
 
 function slot0.GetOffset(slot0)
@@ -339,6 +378,7 @@ function slot0.IslimitYPos(slot0)
 end
 
 function slot0.Puase(slot0)
+	slot0:RemoveMoveTimer()
 	slot0:StopChatAnimtion()
 	slot0:RemoveTimer()
 	slot0.cvLoader:Stop()
@@ -364,6 +404,7 @@ function slot0.Dispose(slot0)
 	slot0.cvLoader = nil
 
 	slot0:RemoveTimer()
+	slot0:RemoveMoveTimer()
 end
 
 function slot0.OnLoad(slot0, slot1)
@@ -389,6 +430,9 @@ function slot0.OnDisplayWorld(slot0)
 end
 
 function slot0.OnFold(slot0)
+end
+
+function slot0.OnEnableOrDisableDragAndZoom(slot0)
 end
 
 function slot0.OnPuase(slot0)

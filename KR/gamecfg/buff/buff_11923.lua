@@ -28,9 +28,12 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				check_target = "TargetShipTag",
-				skill_id = 11920,
 				target = "TargetSelf",
+				skill_id = 11920,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Cleveland-Class"
 				}
@@ -42,10 +45,13 @@ return {
 				"onAllInStrikeSteady"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				maxTargetNumber = 0,
-				skill_id = 11921,
 				target = "TargetSelf",
+				skill_id = 11921,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Cleveland-Class"
 				}

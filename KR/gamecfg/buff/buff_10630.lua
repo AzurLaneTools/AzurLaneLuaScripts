@@ -77,10 +77,13 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				minTargetNumber = 2,
-				skill_id = 10630,
 				target = "TargetSelf",
+				skill_id = 10630,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Division 6"
 				}

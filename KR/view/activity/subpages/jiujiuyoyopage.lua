@@ -310,27 +310,27 @@ function slot0.setForbidMaskStatus(slot0, slot1)
 	end
 end
 
-function slot0.canFinishTask(slot0)
-	slot1 = pg.activity_template[ActivityConst.JIUJIU_YOYO_ID]
-	slot5 = pg.TimeMgr.GetInstance():DiffDay(pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1.time[2]), pg.TimeMgr.GetInstance():GetServerTime()) + 1
-	slot6 = false
-	slot7 = getProxy(TaskProxy)
+function slot0.canFinishTask()
+	slot0 = pg.activity_template[ActivityConst.JIUJIU_YOYO_ID]
+	slot4 = pg.TimeMgr.GetInstance():DiffDay(pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.time[2]), pg.TimeMgr.GetInstance():GetServerTime()) + 1
+	slot5 = false
+	slot6 = getProxy(TaskProxy)
 
-	for slot11, slot12 in pairs(pg.activity_template[slot1.config_client.taskActID].config_data) do
-		slot13 = slot5 < slot11
+	for slot10, slot11 in pairs(pg.activity_template[slot0.config_client.taskActID].config_data) do
+		slot12 = slot4 < slot10
 
-		if (slot7:getTaskById(slot12) or slot7:getFinishTaskById(slot12)):getTaskStatus() == 1 and not slot13 then
-			slot6 = true
+		if (slot6:getTaskById(slot11) or slot6:getFinishTaskById(slot11)):getTaskStatus() == 1 and not slot12 then
+			slot5 = true
 
 			break
 		end
 	end
 
-	return slot6
+	return slot5
 end
 
-function slot0.IsShowRed(slot0)
-	return getProxy(ActivityProxy):getActivityById(ActivityConst.JIUJIU_YOYO_ID).data1 > 0 or slot0:canFinishTask()
+function slot0.IsShowRed()
+	return getProxy(ActivityProxy):getActivityById(ActivityConst.JIUJIU_YOYO_ID).data1 > 0 or uv0.canFinishTask()
 end
 
 return slot0

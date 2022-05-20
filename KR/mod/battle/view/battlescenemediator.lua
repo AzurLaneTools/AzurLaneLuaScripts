@@ -43,6 +43,8 @@ function slot5.Init(slot0)
 	slot0:InitPlayerAntiAirArea()
 	slot0:InitPlayerAntiSubArea()
 	slot0:InitFlagShipMark()
+	pg.CameraFixMgr.GetInstance():Adapt()
+	pg.CameraFixMgr.GetInstance():SetMaskAsTopLayer(true)
 end
 
 function slot5.InitCamera(slot0)
@@ -143,6 +145,10 @@ function slot5.AddEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_CAMERA_FX, slot0.onAddCameraFX)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_AIM_BIAS, slot0.onAddAimBias)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_AIM_BIAS, slot0.onRemoveAimBias)
+
+	slot0._camEventId = pg.CameraFixMgr.GetInstance():bind(pg.CameraFixMgr.ASPECT_RATIO_UPDATE, function ()
+		uv0._dataProxy:OnCameraRatioUpdate()
+	end)
 end
 
 function slot5.RemoveEvent(slot0)
@@ -168,6 +174,7 @@ function slot5.RemoveEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_AIM_BIAS)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.CAMERA_FOCUS_RESET)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.BULLET_TIME)
+	pg.CameraFixMgr.GetInstance():disconnect(slot0._camEventId)
 end
 
 function slot5.onStageInitFinish(slot0, slot1)
@@ -716,6 +723,8 @@ function slot5.Clear(slot0)
 	uv0.Battle.BattleArrowManager.GetInstance():Clear()
 
 	slot0._anitSubAreaTFList = nil
+
+	pg.CameraFixMgr.GetInstance():SetMaskAsTopLayer(false)
 end
 
 function slot5.Dispose(slot0)

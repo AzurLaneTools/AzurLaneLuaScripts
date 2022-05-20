@@ -57,8 +57,6 @@ end
 function slot4.ActiveUnitDetail(slot0, slot1)
 	SetActive(slot0._detailContainer, slot1)
 
-	slot0._state:GetUI()._tf:GetComponent(typeof(RectMask2D)).enabled = not slot1
-
 	if slot1 and not slot0._detailViewActive then
 		for slot5, slot6 in ipairs(slot0._dataProxy:GetFleetList()) do
 			for slot11, slot12 in ipairs(slot6:GetUnitList()) do

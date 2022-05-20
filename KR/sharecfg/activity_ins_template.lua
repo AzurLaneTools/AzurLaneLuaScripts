@@ -7713,73 +7713,161 @@ pg.activity_ins_template = {
 		ship_group = 40207,
 		name = "Emden ",
 		sculpture = "aimudeng",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_295",
+		picture_persist = "https://blcdn.imtxwy.com/pic/20220428_aimudeng_UOmYzTlqkcx52luR.png",
 		group_id = 295,
 		id = 295,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				5,
+				5
+			},
+			{
+				13,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2650,
+			2653,
+			2655
+		}
 	},
 	[296] = {
 		ship_group = 40404,
 		name = "Lützow ",
 		sculpture = "lvzuofu",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_296",
+		picture_persist = "https://blcdn.imtxwy.com/pic/20220428_lvzuofu_Wx3vpMwpTWU5E0bw.png",
 		group_id = 296,
 		id = 296,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				5,
+				6
+			},
+			{
+				15,
+				32,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2660,
+			2664
+		}
 	},
 	[297] = {
 		ship_group = 40208,
 		name = "Elbing ",
 		sculpture = "aierbin",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_297",
+		picture_persist = "https://blcdn.imtxwy.com/pic/20220428_aierbin_o7MjHaDCob1sxVZG.png",
 		group_id = 297,
 		id = 297,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				5,
+				7
+			},
+			{
+				11,
+				27,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2670,
+			2672,
+			2674
+		}
 	},
 	[298] = {
 		ship_group = 40311,
 		name = "Yorck ",
 		sculpture = "yueke_ger",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_298",
+		picture_persist = "https://blcdn.imtxwy.com/pic/20220428_yueke_MmI5W4iHqehuYlMt.png",
 		group_id = 298,
 		id = 298,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				5,
+				8
+			},
+			{
+				10,
+				6,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2679,
+			2682
+		}
 	},
 	[299] = {
 		ship_group = 40504,
 		name = "Thüringen ",
 		sculpture = "tulingen",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_299",
+		picture_persist = "https://blcdn.imtxwy.com/pic/20220428_tulingen_6zCbg67Xr364DM7v.png",
 		group_id = 299,
 		id = 299,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				5,
+				8
+			},
+			{
+				16,
+				5,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2687,
+			2689,
+			2691
+		}
 	},
 	[300] = {
 		ship_group = 40403,
 		name = "Seydlitz ",
 		sculpture = "saidelici",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_300",
+		picture_persist = "https://blcdn.imtxwy.com/pic/20220428_saidelici_xiBDMg7j1Y7jhalG.png",
 		group_id = 300,
 		id = 300,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				5,
+				9
+			},
+			{
+				8,
+				41,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2698,
+			2700,
+			2702
+		}
 	},
 	all = {
 		1,

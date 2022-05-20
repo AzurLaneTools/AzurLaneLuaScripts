@@ -3,6 +3,7 @@ slot0.WAIT = 1
 slot0.ATTEND = 2
 slot0.CANCEL_TYPE_AUTO = 0
 slot0.CANCEL_TYPE_MANUAL = 1
+slot0.CANCEL_TYPE_QUICKLY = 2
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id or slot1.room_id

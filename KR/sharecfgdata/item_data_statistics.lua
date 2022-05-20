@@ -1,4 +1,4 @@
-_G.pg.item_data_statistics[1] = {
+_G.pg.base.item_data_statistics[1] = {
 	display = "533mm 5연장 어뢰 T1 설계도",
 	name = "533mm 5연장 어뢰 T1 설계도",
 	max_num = 0,
@@ -19,7 +19,7 @@ _G.pg.item_data_statistics[1] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[2] = {
+_G.pg.base.item_data_statistics[2] = {
 	display = "전동식 양탄기 T3 설계도",
 	name = "전동식 양탄기 T3 설계도",
 	max_num = 0,
@@ -40,7 +40,7 @@ _G.pg.item_data_statistics[2] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[3] = {
+_G.pg.base.item_data_statistics[3] = {
 	display = "유압식 조타장치 T3 설계도",
 	name = "유압식 조타장치 T3 설계도",
 	max_num = 0,
@@ -61,7 +61,7 @@ _G.pg.item_data_statistics[3] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[4] = {
+_G.pg.base.item_data_statistics[4] = {
 	display = "위장 도색 T3 설계도",
 	name = "위장 도색 T3 설계도",
 	max_num = 0,
@@ -82,7 +82,7 @@ _G.pg.item_data_statistics[4] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[5] = {
+_G.pg.base.item_data_statistics[5] = {
 	display = "소화장치 T3 설계도",
 	name = "소화장치 T3 설계도",
 	max_num = 0,
@@ -103,7 +103,7 @@ _G.pg.item_data_statistics[5] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[6] = {
+_G.pg.base.item_data_statistics[6] = {
 	display = "533mm 3연장 어뢰 T3 설계도",
 	name = "533mm 3연장 어뢰 T3 설계도",
 	max_num = 0,
@@ -124,7 +124,7 @@ _G.pg.item_data_statistics[6] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[7] = {
+_G.pg.base.item_data_statistics[7] = {
 	display = "12.7mm 대공 기관총 T3 설계도",
 	name = "12.7mm 대공 기관총 T3 설계도",
 	max_num = 0,
@@ -145,7 +145,7 @@ _G.pg.item_data_statistics[7] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[8] = {
+_G.pg.base.item_data_statistics[8] = {
 	display = "152mm 단장포 T3 설계도",
 	name = "152mm 단장포 T3 설계도",
 	max_num = 0,
@@ -166,7 +166,7 @@ _G.pg.item_data_statistics[8] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[9] = {
+_G.pg.base.item_data_statistics[9] = {
 	display = "76mm 함포 T3 설계도",
 	name = "76mm 함포 T3 설계도",
 	max_num = 0,
@@ -187,7 +187,7 @@ _G.pg.item_data_statistics[9] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10] = {
+_G.pg.base.item_data_statistics[10] = {
 	display = "152mm 연장포 T3 설계도",
 	name = "152mm 연장포 T3 설계도",
 	max_num = 0,
@@ -208,7 +208,7 @@ _G.pg.item_data_statistics[10] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11] = {
+_G.pg.base.item_data_statistics[11] = {
 	display = "203mm 3연장포 T3 설계도",
 	name = "203mm 3연장포 T3 설계도",
 	max_num = 0,
@@ -229,7 +229,7 @@ _G.pg.item_data_statistics[11] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[12] = {
+_G.pg.base.item_data_statistics[12] = {
 	display = "356mm 3연장포 T3 설계도",
 	name = "356mm 3연장포 T3 설계도",
 	max_num = 0,
@@ -250,7 +250,7 @@ _G.pg.item_data_statistics[12] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13] = {
+_G.pg.base.item_data_statistics[13] = {
 	display = "20mm 엘리콘 기관포 T3 설계도",
 	name = "20mm 엘리콘 기관포 T3 설계도 ",
 	max_num = 0,
@@ -271,7 +271,7 @@ _G.pg.item_data_statistics[13] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[14] = {
+_G.pg.base.item_data_statistics[14] = {
 	display = "F2A 버팔로 T3 설계도",
 	name = "F2A 버팔로 T3 설계도",
 	max_num = 0,
@@ -292,7 +292,7 @@ _G.pg.item_data_statistics[14] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15] = {
+_G.pg.base.item_data_statistics[15] = {
 	display = "TBD 데버스테이터 T3 설계도",
 	name = "TBD 데버스테이터 T3 설계도",
 	max_num = 0,
@@ -313,7 +313,7 @@ _G.pg.item_data_statistics[15] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16] = {
+_G.pg.base.item_data_statistics[16] = {
 	display = "SBD 돈틀리스 T3 설계도",
 	name = "SBD 돈틀리스 T3 설계도",
 	max_num = 0,
@@ -334,7 +334,7 @@ _G.pg.item_data_statistics[16] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17] = {
+_G.pg.base.item_data_statistics[17] = {
 	display = "102mm 단장 부포 T3 설계도",
 	name = "102mm 단장 부포 T3 설계도",
 	max_num = 0,
@@ -355,7 +355,7 @@ _G.pg.item_data_statistics[17] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18] = {
+_G.pg.base.item_data_statistics[18] = {
 	display = "102mm 연장 부포 T3 설계도",
 	name = "102mm 연장 부포 T3 설계도",
 	max_num = 0,
@@ -376,7 +376,7 @@ _G.pg.item_data_statistics[18] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[19] = {
+_G.pg.base.item_data_statistics[19] = {
 	display = "120mm 단장포 T3 설계도",
 	name = "120mm 단장포 T3 설계도",
 	max_num = 0,
@@ -397,7 +397,7 @@ _G.pg.item_data_statistics[19] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20] = {
+_G.pg.base.item_data_statistics[20] = {
 	display = "152mm 단장포 T3 설계도",
 	name = "152mm 단장포 T3 설계도",
 	max_num = 0,
@@ -418,7 +418,7 @@ _G.pg.item_data_statistics[20] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21] = {
+_G.pg.base.item_data_statistics[21] = {
 	display = "40mm 연장 폼폼 포 T3 설계도",
 	name = "40mm 연장 폼폼 포 T3 설계도",
 	max_num = 0,
@@ -439,7 +439,7 @@ _G.pg.item_data_statistics[21] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[22] = {
+_G.pg.base.item_data_statistics[22] = {
 	display = "스쿠아 T3 설계도",
 	name = "스쿠아 T3 설계도",
 	max_num = 0,
@@ -460,7 +460,7 @@ _G.pg.item_data_statistics[22] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[23] = {
+_G.pg.base.item_data_statistics[23] = {
 	display = "120mm 단장포 T3 설계도",
 	name = "120mm 단장포 T3 설계도",
 	max_num = 0,
@@ -481,7 +481,7 @@ _G.pg.item_data_statistics[23] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[24] = {
+_G.pg.base.item_data_statistics[24] = {
 	display = "140mm 단장포 T3 설계도",
 	name = "140mm 단장포 T3 설계도",
 	max_num = 0,
@@ -502,7 +502,7 @@ _G.pg.item_data_statistics[24] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[25] = {
+_G.pg.base.item_data_statistics[25] = {
 	display = "356mm 연장포 T3 설계도",
 	name = "356mm 연장포 T3 설계도",
 	max_num = 0,
@@ -523,7 +523,7 @@ _G.pg.item_data_statistics[25] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[26] = {
+_G.pg.base.item_data_statistics[26] = {
 	display = "610mm 연장 어뢰 T3 설계도",
 	name = "610mm 연장 어뢰 T3 설계도",
 	max_num = 0,
@@ -544,7 +544,7 @@ _G.pg.item_data_statistics[26] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[27] = {
+_G.pg.base.item_data_statistics[27] = {
 	display = "25mm 대공 기관총 T3 설계도",
 	name = "25mm 대공 기관총 T3 설계도",
 	max_num = 0,
@@ -565,7 +565,7 @@ _G.pg.item_data_statistics[27] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[28] = {
+_G.pg.base.item_data_statistics[28] = {
 	display = "96식 함상전투기 T3 설계도",
 	name = "96식 함상전투기 T3 설계도",
 	max_num = 0,
@@ -586,7 +586,7 @@ _G.pg.item_data_statistics[28] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[29] = {
+_G.pg.base.item_data_statistics[29] = {
 	display = "97식 함상뇌격기 T3 설계도",
 	name = "97식 함상뇌격기 T3 설계도",
 	max_num = 0,
@@ -607,7 +607,7 @@ _G.pg.item_data_statistics[29] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30] = {
+_G.pg.base.item_data_statistics[30] = {
 	display = "127mm 단장포 T3 설계도",
 	name = "127mm 단장포 T3 설계도",
 	max_num = 0,
@@ -628,7 +628,7 @@ _G.pg.item_data_statistics[30] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[31] = {
+_G.pg.base.item_data_statistics[31] = {
 	display = "20mm 4연장 MG 기관포 T3 설계도",
 	name = "20mm 4연장 MG 기관포 T3 설계도",
 	max_num = 0,
@@ -649,7 +649,7 @@ _G.pg.item_data_statistics[31] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[32] = {
+_G.pg.base.item_data_statistics[32] = {
 	display = "37mm 기관포 T3 설계도",
 	name = "37mm 기관포 T3 설계도",
 	max_num = 0,
@@ -670,7 +670,7 @@ _G.pg.item_data_statistics[32] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[33] = {
+_G.pg.base.item_data_statistics[33] = {
 	display = "128mm SKC41 연장 양용포 T2 설계도",
 	name = "128mm SKC/41 연장 양용포 T2 설계도",
 	max_num = 0,
@@ -691,7 +691,7 @@ _G.pg.item_data_statistics[33] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[34] = {
+_G.pg.base.item_data_statistics[34] = {
 	display = "283mm SKC28 3연장포 T2 설계도",
 	name = "283mm SKC/28 3연장포 T2 설계도",
 	max_num = 0,
@@ -712,7 +712,7 @@ _G.pg.item_data_statistics[34] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[35] = {
+_G.pg.base.item_data_statistics[35] = {
 	display = "283mm SKC34 3연장포 T2 설계도",
 	name = "283mm SKC/34 3연장포 T2 설계도",
 	max_num = 0,
@@ -733,7 +733,7 @@ _G.pg.item_data_statistics[35] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[36] = {
+_G.pg.base.item_data_statistics[36] = {
 	display = "533mm 3연장 자기 어뢰 T2 설계도",
 	name = "533mm 3연장 자기 어뢰 T2 설계도",
 	max_num = 0,
@@ -754,7 +754,7 @@ _G.pg.item_data_statistics[36] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[37] = {
+_G.pg.base.item_data_statistics[37] = {
 	display = "BF-109T 함상전투기 T2 설계도",
 	name = "BF-109T 함상전투기 T2 설계도",
 	max_num = 0,
@@ -775,7 +775,7 @@ _G.pg.item_data_statistics[37] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[38] = {
+_G.pg.base.item_data_statistics[38] = {
 	display = "Ju-87C 급강하 폭격기 T2 설계도",
 	name = "Ju-87C 급강하 폭격기 T2 설계도",
 	max_num = 0,
@@ -796,7 +796,7 @@ _G.pg.item_data_statistics[38] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[39] = {
+_G.pg.base.item_data_statistics[39] = {
 	display = "렛푸 T1 설계도",
 	name = "렛푸 T1 설계도",
 	max_num = 0,
@@ -817,7 +817,7 @@ _G.pg.item_data_statistics[39] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40] = {
+_G.pg.base.item_data_statistics[40] = {
 	display = "류세이 T1 설계도",
 	name = "류세이 T1 설계도",
 	max_num = 0,
@@ -838,7 +838,7 @@ _G.pg.item_data_statistics[40] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41] = {
+_G.pg.base.item_data_statistics[41] = {
 	display = "즈이운 T2 설계도",
 	name = "즈이운 T2 설계도",
 	max_num = 0,
@@ -859,7 +859,7 @@ _G.pg.item_data_statistics[41] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42] = {
+_G.pg.base.item_data_statistics[42] = {
 	display = "씨 글래디에이터 함상전투기 T3 설계도",
 	name = "씨 글래디에이터 함상전투기 T3 설계도",
 	max_num = 0,
@@ -880,7 +880,7 @@ _G.pg.item_data_statistics[42] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43] = {
+_G.pg.base.item_data_statistics[43] = {
 	display = "550mm 연장 어뢰 발사관T3 설계도",
 	name = "550mm 연장 어뢰 발사관T3 설계도",
 	max_num = 0,
@@ -901,7 +901,7 @@ _G.pg.item_data_statistics[43] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[44] = {
+_G.pg.base.item_data_statistics[44] = {
 	display = "100mm 연장 고사포T3 설계도",
 	name = "100mm 연장 고사포T3 설계도",
 	max_num = 0,
@@ -922,7 +922,7 @@ _G.pg.item_data_statistics[44] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[45] = {
+_G.pg.base.item_data_statistics[45] = {
 	display = "기본형 소나 T2 설계도",
 	name = "기본형 소나 T2 설계도",
 	max_num = 0,
@@ -943,7 +943,7 @@ _G.pg.item_data_statistics[45] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[46] = {
+_G.pg.base.item_data_statistics[46] = {
 	display = "개량형 소나 T1 설계도",
 	name = "개량형 소나 T1 설계도",
 	max_num = 0,
@@ -964,7 +964,7 @@ _G.pg.item_data_statistics[46] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[47] = {
+_G.pg.base.item_data_statistics[47] = {
 	display = "기본형 폭뢰 발사기 T3 설계도",
 	name = "기본형 폭뢰 발사기 T3 설계도",
 	max_num = 0,
@@ -985,7 +985,7 @@ _G.pg.item_data_statistics[47] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[48] = {
+_G.pg.base.item_data_statistics[48] = {
 	display = "개량형 폭뢰 발사기 T2 설계도",
 	name = "개량형 폭뢰 발사기 T2 설계도",
 	max_num = 0,
@@ -1006,7 +1006,7 @@ _G.pg.item_data_statistics[48] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[49] = {
+_G.pg.base.item_data_statistics[49] = {
 	display = "잠수함용 Mark 14 어뢰 T2 설계도",
 	name = "잠수함용 Mark 14 어뢰 T2 설계도",
 	max_num = 0,
@@ -1027,7 +1027,7 @@ _G.pg.item_data_statistics[49] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50] = {
+_G.pg.base.item_data_statistics[50] = {
 	display = "잠수함용 Mark 16 어뢰 T1 설계도",
 	name = "잠수함용 Mark 16 어뢰 T1 설계도",
 	max_num = 0,
@@ -1048,7 +1048,7 @@ _G.pg.item_data_statistics[50] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51] = {
+_G.pg.base.item_data_statistics[51] = {
 	display = "잠수함용 92식 중어뢰 T2 설계도",
 	name = "잠수함용 92식 중어뢰 T2 설계도",
 	max_num = 0,
@@ -1069,7 +1069,7 @@ _G.pg.item_data_statistics[51] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52] = {
+_G.pg.base.item_data_statistics[52] = {
 	display = "잠수함용 95식 산소 어뢰 T1 설계도",
 	name = "잠수함용 95식 산소 어뢰 T1 설계도",
 	max_num = 0,
@@ -1090,7 +1090,7 @@ _G.pg.item_data_statistics[52] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53] = {
+_G.pg.base.item_data_statistics[53] = {
 	display = "잠수함용 G7a 어뢰 T2 설계도",
 	name = "잠수함용 G7a 어뢰 T2 설계도",
 	max_num = 0,
@@ -1111,7 +1111,7 @@ _G.pg.item_data_statistics[53] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54] = {
+_G.pg.base.item_data_statistics[54] = {
 	display = "잠수함용 G7e 음향 유도 어뢰 T1 설계도",
 	name = "잠수함용 G7e 음향 유도 어뢰 T1 설계도",
 	max_num = 0,
@@ -1132,7 +1132,7 @@ _G.pg.item_data_statistics[54] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55] = {
+_G.pg.base.item_data_statistics[55] = {
 	display = "잠수함용 550mm 24V 어뢰 T2 설계도",
 	name = "잠수함용 550mm 24V 어뢰 T2 설계도",
 	max_num = 0,
@@ -1153,7 +1153,7 @@ _G.pg.item_data_statistics[55] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56] = {
+_G.pg.base.item_data_statistics[56] = {
 	display = "130mm 단장포 Mle 1924 T3 설계도",
 	name = "130mm 단장포 Mle 1924 T3 설계도",
 	max_num = 0,
@@ -1174,7 +1174,7 @@ _G.pg.item_data_statistics[56] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57] = {
+_G.pg.base.item_data_statistics[57] = {
 	display = "152mm 3연장포 Mle 1930 T3 설계도",
 	name = "152mm 3연장포 Mle 1930 T3 설계도",
 	max_num = 0,
@@ -1195,7 +1195,7 @@ _G.pg.item_data_statistics[57] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58] = {
+_G.pg.base.item_data_statistics[58] = {
 	display = "330mm 4연장포 Mle 1931 T2 설계도",
 	name = "330mm 4연장포 Mle 1931 T2 설계도",
 	max_num = 0,
@@ -1216,7 +1216,7 @@ _G.pg.item_data_statistics[58] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59] = {
+_G.pg.base.item_data_statistics[59] = {
 	display = "381mm 3연장포 Model1934T1 설계도",
 	name = "381mm 3연장포 Model1934T1 설계도",
 	max_num = 0,
@@ -1237,7 +1237,7 @@ _G.pg.item_data_statistics[59] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60] = {
+_G.pg.base.item_data_statistics[60] = {
 	display = "90mm 단장 고각포 Model1939T1 설계도",
 	name = "90mm 단장 고각포 Model1939T1 설계도",
 	max_num = 0,
@@ -1258,7 +1258,7 @@ _G.pg.item_data_statistics[60] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[61] = {
+_G.pg.base.item_data_statistics[61] = {
 	display = "203mm 연장포 Model1927T1 설계도",
 	name = "203mm 연장포 Model1927T1 설계도",
 	max_num = 0,
@@ -1279,7 +1279,7 @@ _G.pg.item_data_statistics[61] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[62] = {
+_G.pg.base.item_data_statistics[62] = {
 	display = "203mm 연장포 Model1924T2 설계도",
 	name = "203mm 연장포 Model1924T2 설계도",
 	max_num = 0,
@@ -1300,7 +1300,7 @@ _G.pg.item_data_statistics[62] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[63] = {
+_G.pg.base.item_data_statistics[63] = {
 	display = "120mm 연장포 Model1936T2 설계도",
 	name = "120mm 연장포 Model1936T2 설계도",
 	max_num = 0,
@@ -1321,7 +1321,7 @@ _G.pg.item_data_statistics[63] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[64] = {
+_G.pg.base.item_data_statistics[64] = {
 	display = "120mm 연장포 Model1933T0 설계도",
 	name = "120mm 연장포 Model1933T0 설계도",
 	max_num = 0,
@@ -1342,7 +1342,7 @@ _G.pg.item_data_statistics[64] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[65] = {
+_G.pg.base.item_data_statistics[65] = {
 	display = "320mm 3연장포 Model1934T0 설계도",
 	name = "320mm 3연장포 Model1934T0 설계도",
 	max_num = 0,
@@ -1363,7 +1363,7 @@ _G.pg.item_data_statistics[65] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[66] = {
+_G.pg.base.item_data_statistics[66] = {
 	display = "37mm 연장 기관포 Model1932T2 설계도",
 	name = "37mm 연장 기관포 Model1932T2 설계도",
 	max_num = 0,
@@ -1384,7 +1384,7 @@ _G.pg.item_data_statistics[66] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[67] = {
+_G.pg.base.item_data_statistics[67] = {
 	display = "알바코어 T2 설계도",
 	name = "알바코어 T2 설계도",
 	max_num = 0,
@@ -1405,7 +1405,7 @@ _G.pg.item_data_statistics[67] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[68] = {
+_G.pg.base.item_data_statistics[68] = {
 	display = "152mm 연장포 T2 설계도 ",
 	name = "152mm 연장포 T2 설계도 ",
 	max_num = 0,
@@ -1426,7 +1426,7 @@ _G.pg.item_data_statistics[68] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70] = {
+_G.pg.base.item_data_statistics[70] = {
 	display = "B-38 3연장 152mm 주포 MK5 T1 설계도",
 	name = "B-38 3연장 152mm 주포 MK5 T1 설계도",
 	max_num = 0,
@@ -1447,7 +1447,7 @@ _G.pg.item_data_statistics[70] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[71] = {
+_G.pg.base.item_data_statistics[71] = {
 	display = "B-54 100mm 연장 대공포 T2 설계도",
 	name = "B-54 100mm 연장 대공포 T2 설계도",
 	max_num = 0,
@@ -1468,7 +1468,7 @@ _G.pg.item_data_statistics[71] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[73] = {
+_G.pg.base.item_data_statistics[73] = {
 	display = "B-37 3연장 406mm 주포 MK-1 T1 설계도",
 	name = "B-37 3연장 406mm 주포 MK-1 T1 설계도",
 	max_num = 0,
@@ -1489,7 +1489,7 @@ _G.pg.item_data_statistics[73] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[74] = {
+_G.pg.base.item_data_statistics[74] = {
 	display = "B-34 100mm 연장 대공포 MZ-14 T2 설계도",
 	name = "B-34 100mm 연장 대공포 MZ-14 T2 설계도",
 	max_num = 0,
@@ -1510,7 +1510,7 @@ _G.pg.item_data_statistics[74] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[75] = {
+_G.pg.base.item_data_statistics[75] = {
 	display = "3연장 305mm 주포 Model1907 T3 설계도",
 	name = "3연장 305mm 주포 Model1907 T3 설계도",
 	max_num = 0,
@@ -1531,7 +1531,7 @@ _G.pg.item_data_statistics[75] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[76] = {
+_G.pg.base.item_data_statistics[76] = {
 	display = "연장 152mm 주포 Model1892 T3 설계도",
 	name = "연장 152mm 주포 Model1892 T3 설계도",
 	max_num = 0,
@@ -1552,7 +1552,7 @@ _G.pg.item_data_statistics[76] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[77] = {
+_G.pg.base.item_data_statistics[77] = {
 	display = "37mm 대공포 70-K T2 설계도",
 	name = "37mm 대공포 70-K T2 설계도",
 	max_num = 0,
@@ -1573,7 +1573,7 @@ _G.pg.item_data_statistics[77] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[78] = {
+_G.pg.base.item_data_statistics[78] = {
 	display = "138.6mm 단장포 Mle1927 T2 설계도",
 	name = "138.6mm 단장포 Mle1927 T2 설계도",
 	max_num = 0,
@@ -1594,7 +1594,7 @@ _G.pg.item_data_statistics[78] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[79] = {
+_G.pg.base.item_data_statistics[79] = {
 	display = "2연장 155mm 주포 Mle1920 T0 설계도",
 	name = "2연장 155mm 주포 Mle1920 T0 설계도",
 	max_num = 0,
@@ -1615,7 +1615,7 @@ _G.pg.item_data_statistics[79] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[80] = {
+_G.pg.base.item_data_statistics[80] = {
 	display = "단장 155mm 부포 Mle1920 T0 설계도",
 	name = "단장 155mm 부포 Mle1920 T0 설계도",
 	max_num = 0,
@@ -1636,7 +1636,7 @@ _G.pg.item_data_statistics[80] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[81] = {
+_G.pg.base.item_data_statistics[81] = {
 	display = "GL.2 함재 전투기 T0 설계도",
 	name = "GL.2 함재 전투기 T0 설계도",
 	max_num = 0,
@@ -1657,7 +1657,7 @@ _G.pg.item_data_statistics[81] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[82] = {
+_G.pg.base.item_data_statistics[82] = {
 	display = "PL.7 함재 뇌격기 T0 설계도",
 	name = "PL.7 함재 뇌격기 T0 설계도",
 	max_num = 0,
@@ -1678,7 +1678,7 @@ _G.pg.item_data_statistics[82] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[83] = {
+_G.pg.base.item_data_statistics[83] = {
 	display = "2연장 203mm 주포 Mle1931 T1 설계도",
 	name = "2연장 203mm 주포 Mle1931 T1 설계도",
 	max_num = 0,
@@ -1699,7 +1699,7 @@ _G.pg.item_data_statistics[83] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1001] = {
+_G.pg.base.item_data_statistics[1001] = {
 	display = "콜라와 감자칩의 조합은 정의야!",
 	name = "감자칩 세트",
 	max_num = 0,
@@ -1720,7 +1720,7 @@ _G.pg.item_data_statistics[1001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1002] = {
+_G.pg.base.item_data_statistics[1002] = {
 	display = "무세를 꺾는 행운, 흔들림 없는 의지, 필승을 믿는 정의──깃발을 높이 치켜들고, 전장으로 향한다!",
 	name = "Z의 신념",
 	max_num = 0,
@@ -1741,7 +1741,7 @@ _G.pg.item_data_statistics[1002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1003] = {
+_G.pg.base.item_data_statistics[1003] = {
 	display = "Z23이 소중하게 여기는 훈장",
 	name = "Z23의 훈장",
 	max_num = 0,
@@ -1762,7 +1762,7 @@ _G.pg.item_data_statistics[1003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1004] = {
+_G.pg.base.item_data_statistics[1004] = {
 	display = "성스러운 밤──크리스마스이브. 바라노니 모든 이들에게 평안과 행복이 함께하기를...",
 	name = "성야의 선물",
 	max_num = 0,
@@ -1783,7 +1783,7 @@ _G.pg.item_data_statistics[1004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1005] = {
+_G.pg.base.item_data_statistics[1005] = {
 	display = "새해 복 많이 받으세요!",
 	name = "새해의 소원",
 	max_num = 0,
@@ -1804,7 +1804,7 @@ _G.pg.item_data_statistics[1005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1006] = {
+_G.pg.base.item_data_statistics[1006] = {
 	display = "야마시로의 방울. 열심히 모으면......",
 	name = "야마시로의 방울",
 	max_num = 0,
@@ -1825,7 +1825,7 @@ _G.pg.item_data_statistics[1006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1007] = {
+_G.pg.base.item_data_statistics[1007] = {
 	display = "모으면 좋은 일이 생길지도…?",
 	name = "벨의 메달",
 	max_num = 0,
@@ -1846,7 +1846,7 @@ _G.pg.item_data_statistics[1007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1008] = {
+_G.pg.base.item_data_statistics[1008] = {
 	display = "정의와 탐욕은 동전의 앞뒷면과도 같고, 그릇된 신념은 망각을 초래할지니.",
 	name = "수호의 의지",
 	max_num = 0,
@@ -1867,7 +1867,7 @@ _G.pg.item_data_statistics[1008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1009] = {
+_G.pg.base.item_data_statistics[1009] = {
 	display = "정의와 탐욕은 동전의 앞뒷면과도 같고, 그릇된 신념은 망각을 초래할지니.",
 	name = "수호의 의지",
 	max_num = 0,
@@ -1888,7 +1888,7 @@ _G.pg.item_data_statistics[1009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1010] = {
+_G.pg.base.item_data_statistics[1010] = {
 	display = "상세 작전 과정이 기록된 정식 문서. 사령부가 작전을 결정할 때 참고하는 중요한 문서. (이벤트 종료 후 회수됨) ",
 	name = "작전 보고서 ",
 	max_num = 0,
@@ -1909,7 +1909,7 @@ _G.pg.item_data_statistics[1010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1011] = {
+_G.pg.base.item_data_statistics[1011] = {
 	display = "상세한 작전 과정이 기록되어 있는 정식 문건. 사령부가 결정을 내리는 데 있어 중요한 참고 사항. (이벤트 종료 시 회수됨)",
 	name = "작전 보고서 ",
 	max_num = 0,
@@ -1930,7 +1930,7 @@ _G.pg.item_data_statistics[1011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1013] = {
+_G.pg.base.item_data_statistics[1013] = {
 	display = "야마시로의 방울. 열심히 모으면......",
 	name = "야마시로의 방울",
 	max_num = 0,
@@ -1951,7 +1951,7 @@ _G.pg.item_data_statistics[1013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[1014] = {
+_G.pg.base.item_data_statistics[1014] = {
 	display = "크리스마스 이브, 모두가 행복하고 안녕하길.",
 	name = "크리스마스의 선물",
 	max_num = 0,
@@ -1972,7 +1972,7 @@ _G.pg.item_data_statistics[1014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10000] = {
+_G.pg.base.item_data_statistics[10000] = {
 	display = "함정수리설비 T2 설계도",
 	name = "함정 수리설비 T2 설계도",
 	max_num = 0,
@@ -1993,7 +1993,7 @@ _G.pg.item_data_statistics[10000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10001] = {
+_G.pg.base.item_data_statistics[10001] = {
 	display = "대공 레이더 T3 설계도",
 	name = "대공 레이더 T3 설계도",
 	max_num = 0,
@@ -2014,7 +2014,7 @@ _G.pg.item_data_statistics[10001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10002] = {
+_G.pg.base.item_data_statistics[10002] = {
 	display = "화기 관제 레이더 T3 설계도",
 	name = "화기 관제 레이더 T3 설계도",
 	max_num = 0,
@@ -2035,7 +2035,7 @@ _G.pg.item_data_statistics[10002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10003] = {
+_G.pg.base.item_data_statistics[10003] = {
 	display = "방뢰 벌지 T3 설계도",
 	name = "방뢰 벌지 T3 설계도",
 	max_num = 0,
@@ -2056,7 +2056,7 @@ _G.pg.item_data_statistics[10003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10004] = {
+_G.pg.base.item_data_statistics[10004] = {
 	display = "유압식 캐터펄트 T2 설계도",
 	name = "유압식 캐터펄트 T2 설계도",
 	max_num = 0,
@@ -2077,7 +2077,7 @@ _G.pg.item_data_statistics[10004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10005] = {
+_G.pg.base.item_data_statistics[10005] = {
 	display = "SG 레이더 T2 설계도",
 	name = "SG 레이더 T2 설계도",
 	max_num = 0,
@@ -2098,7 +2098,7 @@ _G.pg.item_data_statistics[10005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10006] = {
+_G.pg.base.item_data_statistics[10006] = {
 	display = "개량형 보일러 T3 설계도",
 	name = "개량형 보일러 T3 설계도",
 	max_num = 0,
@@ -2119,7 +2119,7 @@ _G.pg.item_data_statistics[10006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10007] = {
+_G.pg.base.item_data_statistics[10007] = {
 	display = "연료 필터 T3 설계도",
 	name = "연료 필터 T3 설계도",
 	max_num = 0,
@@ -2140,7 +2140,7 @@ _G.pg.item_data_statistics[10007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10008] = {
+_G.pg.base.item_data_statistics[10008] = {
 	display = "외부 연료탱크 T3 설계도",
 	name = "외부 연료탱크 T3 설계도",
 	max_num = 0,
@@ -2161,7 +2161,7 @@ _G.pg.item_data_statistics[10008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10009] = {
+_G.pg.base.item_data_statistics[10009] = {
 	display = "자동 장전장치 T3 설계도",
 	name = "자동 장전장치 T3 설계도",
 	max_num = 0,
@@ -2182,7 +2182,7 @@ _G.pg.item_data_statistics[10009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10010] = {
+_G.pg.base.item_data_statistics[10010] = {
 	display = "자이로스코프 T3 설계도",
 	name = "자이로스코프 T3 설계도",
 	max_num = 0,
@@ -2203,7 +2203,7 @@ _G.pg.item_data_statistics[10010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10011] = {
+_G.pg.base.item_data_statistics[10011] = {
 	display = "응급수리장비 T3 설계도",
 	name = "응급수리장비 T3 설계도",
 	max_num = 0,
@@ -2224,7 +2224,7 @@ _G.pg.item_data_statistics[10011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10012] = {
+_G.pg.base.item_data_statistics[10012] = {
 	display = "93식 산소어뢰 T1 설계도",
 	name = "93식 산소어뢰 T1 설계도",
 	max_num = 0,
@@ -2245,7 +2245,7 @@ _G.pg.item_data_statistics[10012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10013] = {
+_G.pg.base.item_data_statistics[10013] = {
 	display = "533mm 자기 어뢰 T2 설계도",
 	name = "533mm 자기 어뢰 T2 설계도",
 	max_num = 0,
@@ -2266,7 +2266,7 @@ _G.pg.item_data_statistics[10013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10014] = {
+_G.pg.base.item_data_statistics[10014] = {
 	display = "533mm 4연장 어뢰 T3 설계도",
 	name = "533mm 4연장 어뢰 T3 설계도",
 	max_num = 0,
@@ -2287,7 +2287,7 @@ _G.pg.item_data_statistics[10014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10015] = {
+_G.pg.base.item_data_statistics[10015] = {
 	display = "533mm 5연장 어뢰 T2 설계도",
 	name = "533mm 5연장 어뢰 T2 설계도",
 	max_num = 0,
@@ -2308,7 +2308,7 @@ _G.pg.item_data_statistics[10015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10016] = {
+_G.pg.base.item_data_statistics[10016] = {
 	display = "127mm 단장포 T3 설계도",
 	name = "127mm 단장포 T3 설계도",
 	max_num = 0,
@@ -2329,7 +2329,7 @@ _G.pg.item_data_statistics[10016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10017] = {
+_G.pg.base.item_data_statistics[10017] = {
 	display = "127mm 연장 양용포 T2 설계도",
 	name = "127mm 연장 양용포 T2 설계도",
 	max_num = 0,
@@ -2350,7 +2350,7 @@ _G.pg.item_data_statistics[10017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10018] = {
+_G.pg.base.item_data_statistics[10018] = {
 	display = "152mm 3연장포 T3 설계도",
 	name = "152mm 3연장포 T3 설계도",
 	max_num = 0,
@@ -2371,7 +2371,7 @@ _G.pg.item_data_statistics[10018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10019] = {
+_G.pg.base.item_data_statistics[10019] = {
 	display = "개량형 203mm 3연장포 T3 설계도",
 	name = "개량형 203mm 3연장포 T3 설계도",
 	max_num = 0,
@@ -2392,7 +2392,7 @@ _G.pg.item_data_statistics[10019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10020] = {
+_G.pg.base.item_data_statistics[10020] = {
 	display = "305mm 3연장포 MK8 T2 설계도",
 	name = "305mm 3연장포 MK8 T2 설계도",
 	max_num = 0,
@@ -2413,7 +2413,7 @@ _G.pg.item_data_statistics[10020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10021] = {
+_G.pg.base.item_data_statistics[10021] = {
 	display = "406mm 연장포 MK5 T3 설계도",
 	name = "406mm 연장포 MK5 T3 설계도",
 	max_num = 0,
@@ -2434,7 +2434,7 @@ _G.pg.item_data_statistics[10021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10022] = {
+_G.pg.base.item_data_statistics[10022] = {
 	display = "406mm 3연장포 MK6 T3 설계도",
 	name = "406mm 3연장포 MK6 T3 설계도",
 	max_num = 0,
@@ -2455,7 +2455,7 @@ _G.pg.item_data_statistics[10022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10023] = {
+_G.pg.base.item_data_statistics[10023] = {
 	display = "406mm 3연장포 MK7 T2 설계도",
 	name = "406mm 3연장포 MK7 T2 설계도",
 	max_num = 0,
@@ -2476,7 +2476,7 @@ _G.pg.item_data_statistics[10023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10024] = {
+_G.pg.base.item_data_statistics[10024] = {
 	display = "20mm 연장 오리콘 기관포 T3 설계도",
 	name = "20mm 연장 오리콘 기관포 T3 설계도",
 	max_num = 0,
@@ -2497,7 +2497,7 @@ _G.pg.item_data_statistics[10024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10025] = {
+_G.pg.base.item_data_statistics[10025] = {
 	display = "28mm 4연장 「시카고 피아노」 T3 설계도",
 	name = "28mm 4연장 「시카고 피아노」 T3 설계도",
 	max_num = 0,
@@ -2518,7 +2518,7 @@ _G.pg.item_data_statistics[10025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10026] = {
+_G.pg.base.item_data_statistics[10026] = {
 	display = "40mm 연장 보포스 기관포 T3 설계도",
 	name = "40mm 연장 보포스 기관포 T3 설계도",
 	max_num = 0,
@@ -2539,7 +2539,7 @@ _G.pg.item_data_statistics[10026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10027] = {
+_G.pg.base.item_data_statistics[10027] = {
 	display = "40mm 4연장 보포스 기관포 T2 설계도",
 	name = "40mm 4연장 보포스 기관포 T2 설계도",
 	max_num = 0,
@@ -2560,7 +2560,7 @@ _G.pg.item_data_statistics[10027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10028] = {
+_G.pg.base.item_data_statistics[10028] = {
 	display = "F4F 와일드캣 T3 설계도",
 	name = "F4F 와일드캣 T3 설계도",
 	max_num = 0,
@@ -2581,7 +2581,7 @@ _G.pg.item_data_statistics[10028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10029] = {
+_G.pg.base.item_data_statistics[10029] = {
 	display = "F4U 콜세어 T3 설계도",
 	name = "F4U 콜세어 T3 설계도",
 	max_num = 0,
@@ -2602,7 +2602,7 @@ _G.pg.item_data_statistics[10029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10030] = {
+_G.pg.base.item_data_statistics[10030] = {
 	display = "F6F 헬캣 T2 설계도",
 	name = "F6F 헬캣 T2 설계도",
 	max_num = 0,
@@ -2623,7 +2623,7 @@ _G.pg.item_data_statistics[10030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10031] = {
+_G.pg.base.item_data_statistics[10031] = {
 	display = "TBF 어벤져 T3 설계도",
 	name = "TBF 어벤져 T3 설계도",
 	max_num = 0,
@@ -2644,7 +2644,7 @@ _G.pg.item_data_statistics[10031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10032] = {
+_G.pg.base.item_data_statistics[10032] = {
 	display = "SB2C 헬다이버 T3 설계도",
 	name = "SB2C 헬다이버 T3 설계도",
 	max_num = 0,
@@ -2665,7 +2665,7 @@ _G.pg.item_data_statistics[10032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10033] = {
+_G.pg.base.item_data_statistics[10033] = {
 	display = "BTD-1 디스트로이어 T2 설계도",
 	name = "BTD-1 디스트로이어 T2 설계도",
 	max_num = 0,
@@ -2686,7 +2686,7 @@ _G.pg.item_data_statistics[10033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10034] = {
+_G.pg.base.item_data_statistics[10034] = {
 	display = "102mm 3연장 부포 T3 설계도",
 	name = "102mm 3연장 부포 T3 설계도",
 	max_num = 0,
@@ -2707,7 +2707,7 @@ _G.pg.item_data_statistics[10034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10035] = {
+_G.pg.base.item_data_statistics[10035] = {
 	display = "120mm 연장포 T3 설계도",
 	name = "120mm 연장포 T3 설계도",
 	max_num = 0,
@@ -2728,7 +2728,7 @@ _G.pg.item_data_statistics[10035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10036] = {
+_G.pg.base.item_data_statistics[10036] = {
 	display = "134mm 연장 고사포 T3 설계도",
 	name = "134mm 연장 고사포 T3 설계도",
 	max_num = 0,
@@ -2749,7 +2749,7 @@ _G.pg.item_data_statistics[10036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10037] = {
+_G.pg.base.item_data_statistics[10037] = {
 	display = "152mm 연장포 T3 설계도",
 	name = "152mm 연장포 T3 설계도",
 	max_num = 0,
@@ -2770,7 +2770,7 @@ _G.pg.item_data_statistics[10037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10038] = {
+_G.pg.base.item_data_statistics[10038] = {
 	display = "203mm 연장포 T3 설계도",
 	name = "203mm 연장포 T3 설계도",
 	max_num = 0,
@@ -2791,7 +2791,7 @@ _G.pg.item_data_statistics[10038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10039] = {
+_G.pg.base.item_data_statistics[10039] = {
 	display = "356mm 4연장포 T2 설계도",
 	name = "356mm 4연장포 T2 설계도",
 	max_num = 0,
@@ -2812,7 +2812,7 @@ _G.pg.item_data_statistics[10039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10040] = {
+_G.pg.base.item_data_statistics[10040] = {
 	display = "381mm 연장포 T3 설계도",
 	name = "381mm 연장포 T3 설계도",
 	max_num = 0,
@@ -2833,7 +2833,7 @@ _G.pg.item_data_statistics[10040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10041] = {
+_G.pg.base.item_data_statistics[10041] = {
 	display = "406mm 3연장포 T2 설계도",
 	name = "406mm 3연장포 T2 설계도",
 	max_num = 0,
@@ -2854,7 +2854,7 @@ _G.pg.item_data_statistics[10041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10042] = {
+_G.pg.base.item_data_statistics[10042] = {
 	display = "40mm 4연장 폼폼 포 T3 설계도",
 	name = "40mm 4연장 폼폼 포 T3 설계도",
 	max_num = 0,
@@ -2875,7 +2875,7 @@ _G.pg.item_data_statistics[10042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10043] = {
+_G.pg.base.item_data_statistics[10043] = {
 	display = "40mm 8연장 폼폼 포 T2 설계도",
 	name = "40mm 8연장 폼폼 포 T2 설계도",
 	max_num = 0,
@@ -2896,7 +2896,7 @@ _G.pg.item_data_statistics[10043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10044] = {
+_G.pg.base.item_data_statistics[10044] = {
 	display = "76mm 고사포 T3 설계도",
 	name = "76mm 고사포 T3 설계도",
 	max_num = 0,
@@ -2917,7 +2917,7 @@ _G.pg.item_data_statistics[10044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10045] = {
+_G.pg.base.item_data_statistics[10045] = {
 	display = "102mm 고사포 T3 설계도",
 	name = "102mm 고사포 T3 설계도",
 	max_num = 0,
@@ -2938,7 +2938,7 @@ _G.pg.item_data_statistics[10045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10046] = {
+_G.pg.base.item_data_statistics[10046] = {
 	display = "113mm 연장 고사포 T2 설계도",
 	name = "113mm 연장 고사포 T2 설계도",
 	max_num = 0,
@@ -2959,7 +2959,7 @@ _G.pg.item_data_statistics[10046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10047] = {
+_G.pg.base.item_data_statistics[10047] = {
 	display = "시파이어 T3 설계도",
 	name = "시파이어 T3 설계도",
 	max_num = 0,
@@ -2980,7 +2980,7 @@ _G.pg.item_data_statistics[10047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10048] = {
+_G.pg.base.item_data_statistics[10048] = {
 	display = "시팽 T2 설계도",
 	name = "시팽 T2 설계도",
 	max_num = 0,
@@ -3001,7 +3001,7 @@ _G.pg.item_data_statistics[10048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10049] = {
+_G.pg.base.item_data_statistics[10049] = {
 	display = "소드피쉬 T3 설계도",
 	name = "소드피쉬 T3 설계도",
 	max_num = 0,
@@ -3022,7 +3022,7 @@ _G.pg.item_data_statistics[10049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10050] = {
+_G.pg.base.item_data_statistics[10050] = {
 	display = "바라쿠다 T2 설계도",
 	name = "바라쿠다 T2 설계도",
 	max_num = 0,
@@ -3043,7 +3043,7 @@ _G.pg.item_data_statistics[10050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10051] = {
+_G.pg.base.item_data_statistics[10051] = {
 	display = "풀머 T3 설계도",
 	name = "풀머 T3 설계도",
 	max_num = 0,
@@ -3064,7 +3064,7 @@ _G.pg.item_data_statistics[10051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10052] = {
+_G.pg.base.item_data_statistics[10052] = {
 	display = "98식 100mm 연장 고사포 T2 설계도",
 	name = "98식 100mm 연장 고사포 T2 설계도",
 	max_num = 0,
@@ -3085,7 +3085,7 @@ _G.pg.item_data_statistics[10052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10053] = {
+_G.pg.base.item_data_statistics[10053] = {
 	display = "127mm 연장포 T3 설계도",
 	name = "127mm 연장포 T3 설계도",
 	max_num = 0,
@@ -3106,7 +3106,7 @@ _G.pg.item_data_statistics[10053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10054] = {
+_G.pg.base.item_data_statistics[10054] = {
 	display = "140mm 연장포 T3 설계도",
 	name = "140mm 연장포 T3 설계도",
 	max_num = 0,
@@ -3127,7 +3127,7 @@ _G.pg.item_data_statistics[10054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10055] = {
+_G.pg.base.item_data_statistics[10055] = {
 	display = "155mm 3연장포 T2 설계도",
 	name = "155mm 3연장포 T2 설계도",
 	max_num = 0,
@@ -3148,7 +3148,7 @@ _G.pg.item_data_statistics[10055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10056] = {
+_G.pg.base.item_data_statistics[10056] = {
 	display = "203mm 연장포 T3 설계도",
 	name = "203mm 연장포 T3 설계도",
 	max_num = 0,
@@ -3169,7 +3169,7 @@ _G.pg.item_data_statistics[10056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10057] = {
+_G.pg.base.item_data_statistics[10057] = {
 	display = "410mm 연장포 T3 설계도",
 	name = "410mm 연장포 T3 설계도",
 	max_num = 0,
@@ -3190,7 +3190,7 @@ _G.pg.item_data_statistics[10057] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10058] = {
+_G.pg.base.item_data_statistics[10058] = {
 	display = "460mm 3연장포 T1 설계도",
 	name = "460mm 3연장포 T1 설계도",
 	max_num = 0,
@@ -3211,7 +3211,7 @@ _G.pg.item_data_statistics[10058] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10059] = {
+_G.pg.base.item_data_statistics[10059] = {
 	display = "610mm 3연장 어뢰 T3 설계도",
 	name = "610mm 3연장 어뢰 T3 설계도",
 	max_num = 0,
@@ -3232,7 +3232,7 @@ _G.pg.item_data_statistics[10059] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10060] = {
+_G.pg.base.item_data_statistics[10060] = {
 	display = "610mm 4연장 어뢰 T2 설계도",
 	name = "610mm 4연장 어뢰 T2 설계도",
 	max_num = 0,
@@ -3253,7 +3253,7 @@ _G.pg.item_data_statistics[10060] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10061] = {
+_G.pg.base.item_data_statistics[10061] = {
 	display = "610mm 5연장 어뢰 T1 설계도",
 	name = "610mm 5연장 어뢰 T1 설계도",
 	max_num = 0,
@@ -3274,7 +3274,7 @@ _G.pg.item_data_statistics[10061] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10062] = {
+_G.pg.base.item_data_statistics[10062] = {
 	display = "25mm 연장 대공 기관총 T3 설계도",
 	name = "25mm 연장 대공 기관총 T3 설계도",
 	max_num = 0,
@@ -3295,7 +3295,7 @@ _G.pg.item_data_statistics[10062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10063] = {
+_G.pg.base.item_data_statistics[10063] = {
 	display = "25mm 3연장 대공 기관총 T3 설계도",
 	name = "25mm 3연장 대공 기관총 T3 설계도",
 	max_num = 0,
@@ -3316,7 +3316,7 @@ _G.pg.item_data_statistics[10063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10064] = {
+_G.pg.base.item_data_statistics[10064] = {
 	display = "비식 40mm 연장 기관포 T3 설계도",
 	name = "비식 40mm 연장 기관포 T3 설계도",
 	max_num = 0,
@@ -3337,7 +3337,7 @@ _G.pg.item_data_statistics[10064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10065] = {
+_G.pg.base.item_data_statistics[10065] = {
 	display = "127mm 연장 고사포 T3 설계도",
 	name = "127mm 연장 고사포 T3 설계도",
 	max_num = 0,
@@ -3358,7 +3358,7 @@ _G.pg.item_data_statistics[10065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10066] = {
+_G.pg.base.item_data_statistics[10066] = {
 	display = "제로센 21형 T3 설계도",
 	name = "제로센 21형 T3 설계도",
 	max_num = 0,
@@ -3379,7 +3379,7 @@ _G.pg.item_data_statistics[10066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10067] = {
+_G.pg.base.item_data_statistics[10067] = {
 	display = "제로센 52형 T2 설계도",
 	name = "제로센 52형 T2 설계도",
 	max_num = 0,
@@ -3400,7 +3400,7 @@ _G.pg.item_data_statistics[10067] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10068] = {
+_G.pg.base.item_data_statistics[10068] = {
 	display = "텐잔 T3 설계도",
 	name = "텐잔 T3 설계도",
 	max_num = 0,
@@ -3421,7 +3421,7 @@ _G.pg.item_data_statistics[10068] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10069] = {
+_G.pg.base.item_data_statistics[10069] = {
 	display = "99식 함상폭격기 T3 설계도",
 	name = "99식 함상폭격기 T3 설계도",
 	max_num = 0,
@@ -3442,7 +3442,7 @@ _G.pg.item_data_statistics[10069] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10070] = {
+_G.pg.base.item_data_statistics[10070] = {
 	display = "스이세이 T2 설계도",
 	name = "스이세이 T2 설계도",
 	max_num = 0,
@@ -3463,7 +3463,7 @@ _G.pg.item_data_statistics[10070] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10071] = {
+_G.pg.base.item_data_statistics[10071] = {
 	display = "150mm SKC/28 단장포 T3 설계도",
 	name = "150mm SKC/28 단장포 T3 설계도",
 	max_num = 0,
@@ -3484,7 +3484,7 @@ _G.pg.item_data_statistics[10071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10072] = {
+_G.pg.base.item_data_statistics[10072] = {
 	display = "150mm SKC/25 3연장포 T3 설계도",
 	name = "150mm SKC/25 3연장포 T3 설계도",
 	max_num = 0,
@@ -3505,7 +3505,7 @@ _G.pg.item_data_statistics[10072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10073] = {
+_G.pg.base.item_data_statistics[10073] = {
 	display = "150mm TbtsKC/36 연장포 T3 설계도",
 	name = "150mm TbtsKC/36 연장포 T3 설계도",
 	max_num = 0,
@@ -3526,7 +3526,7 @@ _G.pg.item_data_statistics[10073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10074] = {
+_G.pg.base.item_data_statistics[10074] = {
 	display = "203mm SKC 연장포 T2 설계도",
 	name = "203mm SKC 연장포 T2 설계도",
 	max_num = 0,
@@ -3547,7 +3547,7 @@ _G.pg.item_data_statistics[10074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10075] = {
+_G.pg.base.item_data_statistics[10075] = {
 	display = "283mm SKC/34 3연장포 T3 설계도",
 	name = "283mm SKC/34 3연장포 T3 설계도",
 	max_num = 0,
@@ -3568,7 +3568,7 @@ _G.pg.item_data_statistics[10075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10076] = {
+_G.pg.base.item_data_statistics[10076] = {
 	display = "380mm SKC 연장포 T2 설계도",
 	name = "380mm SKC 연장포 T2 설계도",
 	max_num = 0,
@@ -3589,7 +3589,7 @@ _G.pg.item_data_statistics[10076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10077] = {
+_G.pg.base.item_data_statistics[10077] = {
 	display = "37mm 연장 기관포 T3 설계도",
 	name = "37mm 연장 기관포 T3 설계도",
 	max_num = 0,
@@ -3610,7 +3610,7 @@ _G.pg.item_data_statistics[10077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10078] = {
+_G.pg.base.item_data_statistics[10078] = {
 	display = "105mm SKC 연장 고사포 T2 설계도",
 	name = "105mm SKC 연장 고사포 T2 설계도",
 	max_num = 0,
@@ -3631,7 +3631,7 @@ _G.pg.item_data_statistics[10078] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10079] = {
+_G.pg.base.item_data_statistics[10079] = {
 	display = "128mm SKC/41 연장 양용포 T3 설계도",
 	name = "128mm SKC/41 연장 양용포 T3 설계도",
 	max_num = 0,
@@ -3652,7 +3652,7 @@ _G.pg.item_data_statistics[10079] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10080] = {
+_G.pg.base.item_data_statistics[10080] = {
 	display = "283mm SKC/28 3연장포 T3 설계도",
 	name = "283mm SKC/28 3연장포 T3 설계도",
 	max_num = 0,
@@ -3673,7 +3673,7 @@ _G.pg.item_data_statistics[10080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10081] = {
+_G.pg.base.item_data_statistics[10081] = {
 	display = "533mm 3연장 자기 어뢰 T3 설계도",
 	name = "533mm 3연장 자기 어뢰 T3 설계도",
 	max_num = 0,
@@ -3694,7 +3694,7 @@ _G.pg.item_data_statistics[10081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10082] = {
+_G.pg.base.item_data_statistics[10082] = {
 	display = "533mm 4연장 자기 어뢰 T2 설계도",
 	name = "533mm 4연장 자기 어뢰 T2 설계도",
 	max_num = 0,
@@ -3715,7 +3715,7 @@ _G.pg.item_data_statistics[10082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10083] = {
+_G.pg.base.item_data_statistics[10083] = {
 	display = "533mm 5연장 자기 어뢰 T1 설계도",
 	name = "533mm 5연장 자기 어뢰 T1 설계도",
 	max_num = 0,
@@ -3736,7 +3736,7 @@ _G.pg.item_data_statistics[10083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10084] = {
+_G.pg.base.item_data_statistics[10084] = {
 	display = "BF-109T 함상전투기 T3 설계도",
 	name = "BF-109T 함상전투기 T3 설계도",
 	max_num = 0,
@@ -3757,7 +3757,7 @@ _G.pg.item_data_statistics[10084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10085] = {
+_G.pg.base.item_data_statistics[10085] = {
 	display = "Me-155A 함상전투기 T2 설계도",
 	name = "Me-155A 함상전투기 T2 설계도",
 	max_num = 0,
@@ -3778,7 +3778,7 @@ _G.pg.item_data_statistics[10085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10086] = {
+_G.pg.base.item_data_statistics[10086] = {
 	display = "Ju-87C 급강하폭격기 T3 설계도",
 	name = "Ju-87C 급강하폭격기 T3 설계도",
 	max_num = 0,
@@ -3799,7 +3799,7 @@ _G.pg.item_data_statistics[10086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10087] = {
+_G.pg.base.item_data_statistics[10087] = {
 	display = "렛푸 T2 설계도",
 	name = "렛푸 T2 설계도",
 	max_num = 0,
@@ -3820,7 +3820,7 @@ _G.pg.item_data_statistics[10087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10088] = {
+_G.pg.base.item_data_statistics[10088] = {
 	display = "류세이 T2 설계도",
 	name = "류세이 T2 설계도",
 	max_num = 0,
@@ -3841,7 +3841,7 @@ _G.pg.item_data_statistics[10088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10089] = {
+_G.pg.base.item_data_statistics[10089] = {
 	display = "즈이운 T3 설계도",
 	name = "즈이운 T3 설계도",
 	max_num = 0,
@@ -3862,7 +3862,7 @@ _G.pg.item_data_statistics[10089] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10090] = {
+_G.pg.base.item_data_statistics[10090] = {
 	display = "550mm 3연장 어뢰 발사관T3 설계도",
 	name = "550mm 3연장 어뢰 발사관T3 설계도",
 	max_num = 0,
@@ -3883,7 +3883,7 @@ _G.pg.item_data_statistics[10090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10091] = {
+_G.pg.base.item_data_statistics[10091] = {
 	display = "기본형 소나 T3 설계도",
 	name = "기본형 소나 T3 설계도",
 	max_num = 0,
@@ -3904,7 +3904,7 @@ _G.pg.item_data_statistics[10091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10092] = {
+_G.pg.base.item_data_statistics[10092] = {
 	display = "개량형 소나 T2 설계도",
 	name = "개량형 소나 T2 설계도",
 	max_num = 0,
@@ -3925,7 +3925,7 @@ _G.pg.item_data_statistics[10092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10093] = {
+_G.pg.base.item_data_statistics[10093] = {
 	display = "개량형 폭뢰 발사기 T3 설계도",
 	name = "개량형 폭뢰 발사기 T3 설계도",
 	max_num = 0,
@@ -3946,7 +3946,7 @@ _G.pg.item_data_statistics[10093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10094] = {
+_G.pg.base.item_data_statistics[10094] = {
 	display = "잠수함용 Mark 14 어뢰 T3 설계도",
 	name = "잠수함용 Mark 14 어뢰 T3 설계도",
 	max_num = 0,
@@ -3967,7 +3967,7 @@ _G.pg.item_data_statistics[10094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10095] = {
+_G.pg.base.item_data_statistics[10095] = {
 	display = "잠수함용 Mark 16 어뢰 T2 설계도",
 	name = "잠수함용 Mark 16 어뢰 T2 설계도",
 	max_num = 0,
@@ -3988,7 +3988,7 @@ _G.pg.item_data_statistics[10095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10096] = {
+_G.pg.base.item_data_statistics[10096] = {
 	display = "잠수함용 92식 중어뢰 T3 설계도",
 	name = "잠수함용 92식 중어뢰 T3 설계도",
 	max_num = 0,
@@ -4009,7 +4009,7 @@ _G.pg.item_data_statistics[10096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10097] = {
+_G.pg.base.item_data_statistics[10097] = {
 	display = "잠수함용 95식 산소 어뢰 T2 설계도",
 	name = "잠수함용 95식 산소 어뢰 T2 설계도",
 	max_num = 0,
@@ -4030,7 +4030,7 @@ _G.pg.item_data_statistics[10097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10098] = {
+_G.pg.base.item_data_statistics[10098] = {
 	display = "잠수함용 G7a 어뢰 T3 설계도",
 	name = "잠수함용 G7a 어뢰 T3 설계도",
 	max_num = 0,
@@ -4051,7 +4051,7 @@ _G.pg.item_data_statistics[10098] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10099] = {
+_G.pg.base.item_data_statistics[10099] = {
 	display = "잠수함용 G7e 음향 유도 어뢰 T2 설계도",
 	name = "잠수함용 G7e 음향 유도 어뢰 T2 설계도",
 	max_num = 0,
@@ -4072,7 +4072,7 @@ _G.pg.item_data_statistics[10099] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10100] = {
+_G.pg.base.item_data_statistics[10100] = {
 	display = "잠수함용 550mm 24V 어뢰 T3 설계도",
 	name = "잠수함용 550mm 24V 어뢰 T3 설계도",
 	max_num = 0,
@@ -4093,7 +4093,7 @@ _G.pg.item_data_statistics[10100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10101] = {
+_G.pg.base.item_data_statistics[10101] = {
 	display = "138.6mm 단장포 Mle 1929 T2 설계도",
 	name = "138.6mm 단장포 Mle 1929 T2 설계도",
 	max_num = 0,
@@ -4114,7 +4114,7 @@ _G.pg.item_data_statistics[10101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10102] = {
+_G.pg.base.item_data_statistics[10102] = {
 	display = "330mm 4연장포 Mle 1931 T3 설계도",
 	name = "330mm 4연장포 Mle 1931 T3 설계도",
 	max_num = 0,
@@ -4135,7 +4135,7 @@ _G.pg.item_data_statistics[10102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10103] = {
+_G.pg.base.item_data_statistics[10103] = {
 	display = "380mm 4연장포 Mle 1935 T2 설계도",
 	name = "380mm 4연장포 Mle 1935 T2 설계도",
 	max_num = 0,
@@ -4156,7 +4156,7 @@ _G.pg.item_data_statistics[10103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10104] = {
+_G.pg.base.item_data_statistics[10104] = {
 	display = "381mm 3연장포 Model1934T2 설계도",
 	name = "381mm 3연장포 Model1934T2 설계도",
 	max_num = 0,
@@ -4177,7 +4177,7 @@ _G.pg.item_data_statistics[10104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10105] = {
+_G.pg.base.item_data_statistics[10105] = {
 	display = "90mm 단장 고각포 Model1939T2 설계도",
 	name = "90mm 단장 고각포 Model1939T2 설계도",
 	max_num = 0,
@@ -4198,7 +4198,7 @@ _G.pg.item_data_statistics[10105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10106] = {
+_G.pg.base.item_data_statistics[10106] = {
 	display = "203mm 연장포 Model1927T2 설계도",
 	name = "203mm 연장포 Model1927T2 설계도",
 	max_num = 0,
@@ -4219,7 +4219,7 @@ _G.pg.item_data_statistics[10106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10107] = {
+_G.pg.base.item_data_statistics[10107] = {
 	display = "203mm 연장포 Model1924T3 설계도",
 	name = "203mm 연장포 Model1924T3 설계도",
 	max_num = 0,
@@ -4240,7 +4240,7 @@ _G.pg.item_data_statistics[10107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10108] = {
+_G.pg.base.item_data_statistics[10108] = {
 	display = "120mm 연장포 Model1936T3 설계도",
 	name = "120mm 연장포 Model1936T3 설계도",
 	max_num = 0,
@@ -4261,7 +4261,7 @@ _G.pg.item_data_statistics[10108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10109] = {
+_G.pg.base.item_data_statistics[10109] = {
 	display = "37mm 연장 기관포 Model1932T3 설계도",
 	name = "37mm 연장 기관포 Model1932T3 설계도",
 	max_num = 0,
@@ -4282,7 +4282,7 @@ _G.pg.item_data_statistics[10109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10110] = {
+_G.pg.base.item_data_statistics[10110] = {
 	display = "알바코어 T3 설계도",
 	name = "알바코어 T3 설계도",
 	max_num = 0,
@@ -4303,7 +4303,7 @@ _G.pg.item_data_statistics[10110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10111] = {
+_G.pg.base.item_data_statistics[10111] = {
 	display = "152mm 연장포 T3 설계도 ",
 	name = "152mm 연장포 T3 설계도 ",
 	max_num = 0,
@@ -4324,7 +4324,7 @@ _G.pg.item_data_statistics[10111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10113] = {
+_G.pg.base.item_data_statistics[10113] = {
 	display = "B-38 3연장 152mm 주포 MK5 T2 설계도",
 	name = "B-38 3연장 152mm 주포 MK5 T2 설계도",
 	max_num = 0,
@@ -4345,7 +4345,7 @@ _G.pg.item_data_statistics[10113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10114] = {
+_G.pg.base.item_data_statistics[10114] = {
 	display = "B-54 100mm 연장 대공포 T3 설계도",
 	name = "B-54 100mm 연장 대공포 T3 설계도",
 	max_num = 0,
@@ -4366,7 +4366,7 @@ _G.pg.item_data_statistics[10114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10116] = {
+_G.pg.base.item_data_statistics[10116] = {
 	display = "B-37 3연장 406mm 주포 MK-1 T2 설계도",
 	name = "B-37 3연장 406mm 주포 MK-1 T2 설계도",
 	max_num = 0,
@@ -4387,7 +4387,7 @@ _G.pg.item_data_statistics[10116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10117] = {
+_G.pg.base.item_data_statistics[10117] = {
 	display = "B-34 100mm 연장 대공포 MZ-14 T3 설계도",
 	name = "B-34 100mm 연장 대공포 MZ-14 T3 설계도",
 	max_num = 0,
@@ -4408,7 +4408,7 @@ _G.pg.item_data_statistics[10117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10118] = {
+_G.pg.base.item_data_statistics[10118] = {
 	display = "37mm 대공포 70-K T3 설계도",
 	name = "37mm 대공포 70-K T3 설계도",
 	max_num = 0,
@@ -4429,7 +4429,7 @@ _G.pg.item_data_statistics[10118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10119] = {
+_G.pg.base.item_data_statistics[10119] = {
 	display = "138.6mm 단장포 Mle1927 T3 설계도",
 	name = "138.6mm 단장포 Mle1927 T3 설계도",
 	max_num = 0,
@@ -4450,7 +4450,7 @@ _G.pg.item_data_statistics[10119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10120] = {
+_G.pg.base.item_data_statistics[10120] = {
 	display = "2연장 203mm 주포 Mle1931 T2 설계도",
 	name = "2연장 203mm 주포 Mle1931 T2 설계도",
 	max_num = 0,
@@ -4471,7 +4471,7 @@ _G.pg.item_data_statistics[10120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10121] = {
+_G.pg.base.item_data_statistics[10121] = {
 	display = "잠수함용 Mark VIII 어뢰 T3 설계도",
 	name = "잠수함용 Mark VIII 어뢰 T3 설계도",
 	max_num = 0,
@@ -4492,7 +4492,7 @@ _G.pg.item_data_statistics[10121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10122] = {
+_G.pg.base.item_data_statistics[10122] = {
 	display = "130mm 단장포 T3 설계도",
 	name = "130mm 단장포 T3 설계도",
 	max_num = 0,
@@ -4513,7 +4513,7 @@ _G.pg.item_data_statistics[10122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10123] = {
+_G.pg.base.item_data_statistics[10123] = {
 	display = "G.50 프리치아 T3 설계도",
 	name = "G.50 프리치아 T3 설계도",
 	max_num = 0,
@@ -4534,7 +4534,7 @@ _G.pg.item_data_statistics[10123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10124] = {
+_G.pg.base.item_data_statistics[10124] = {
 	display = "Re.2001 알리에테 T3 설계도",
 	name = "Re.2001 알리에테 T3 설계도",
 	max_num = 0,
@@ -4555,7 +4555,7 @@ _G.pg.item_data_statistics[10124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[10125] = {
+_G.pg.base.item_data_statistics[10125] = {
 	display = "연장 135mm 주포 Model 1938 T2 설계도",
 	name = "연장 135mm 주포 Model 1938 T2 설계도",
 	max_num = 0,
@@ -4576,7 +4576,7 @@ _G.pg.item_data_statistics[10125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11000] = {
+_G.pg.base.item_data_statistics[11000] = {
 	display = "함정 수리설비 T3 설계도",
 	name = "함정 수리설비 T3 설계도",
 	max_num = 0,
@@ -4597,7 +4597,7 @@ _G.pg.item_data_statistics[11000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11001] = {
+_G.pg.base.item_data_statistics[11001] = {
 	display = "유압식 캐터펄트 T3 설계도",
 	name = "유압식 캐터펄트 T3 설계도",
 	max_num = 0,
@@ -4618,7 +4618,7 @@ _G.pg.item_data_statistics[11001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11002] = {
+_G.pg.base.item_data_statistics[11002] = {
 	display = "SG 레이더 T3 설계도",
 	name = "SG 레이더 T3 설계도",
 	max_num = 0,
@@ -4639,7 +4639,7 @@ _G.pg.item_data_statistics[11002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11003] = {
+_G.pg.base.item_data_statistics[11003] = {
 	display = "93식 산소어뢰 T2 설계도",
 	name = "93식 산소어뢰 T2 설계도",
 	max_num = 0,
@@ -4660,7 +4660,7 @@ _G.pg.item_data_statistics[11003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11004] = {
+_G.pg.base.item_data_statistics[11004] = {
 	display = "533mm 자기 어뢰 T3 설계도",
 	name = "533mm 자기 어뢰 T3 설계도",
 	max_num = 0,
@@ -4681,7 +4681,7 @@ _G.pg.item_data_statistics[11004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11005] = {
+_G.pg.base.item_data_statistics[11005] = {
 	display = "533mm 5연장 어뢰 T3 설계도",
 	name = "533mm 5연장 어뢰 T3 설계도",
 	max_num = 0,
@@ -4702,7 +4702,7 @@ _G.pg.item_data_statistics[11005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11006] = {
+_G.pg.base.item_data_statistics[11006] = {
 	display = "127mm 연장 양용포 T3 설계도",
 	name = "127mm 연장 양용포 T3 설계도",
 	max_num = 0,
@@ -4723,7 +4723,7 @@ _G.pg.item_data_statistics[11006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11007] = {
+_G.pg.base.item_data_statistics[11007] = {
 	display = "305mm 3연장포 MK8 T3 설계도",
 	name = "305mm 3연장포 MK8 T3 설계도",
 	max_num = 0,
@@ -4744,7 +4744,7 @@ _G.pg.item_data_statistics[11007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11008] = {
+_G.pg.base.item_data_statistics[11008] = {
 	display = "406mm 3연장포 MK7 T3 설계도",
 	name = "406mm 3연장포 MK7 T3 설계도",
 	max_num = 0,
@@ -4765,7 +4765,7 @@ _G.pg.item_data_statistics[11008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11009] = {
+_G.pg.base.item_data_statistics[11009] = {
 	display = "40mm 4연장 보포스 기관포 T3 설계도",
 	name = "40mm 4연장 보포스 기관포 T3 설계도",
 	max_num = 0,
@@ -4786,7 +4786,7 @@ _G.pg.item_data_statistics[11009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11010] = {
+_G.pg.base.item_data_statistics[11010] = {
 	display = "F6F 헬캣 T3 설계도",
 	name = "F6F 헬캣 T3 설계도",
 	max_num = 0,
@@ -4807,7 +4807,7 @@ _G.pg.item_data_statistics[11010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11011] = {
+_G.pg.base.item_data_statistics[11011] = {
 	display = "BTD-1 디스트로이어 T3 설계도",
 	name = "BTD-1 디스트로이어 T3 설계도",
 	max_num = 0,
@@ -4828,7 +4828,7 @@ _G.pg.item_data_statistics[11011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11012] = {
+_G.pg.base.item_data_statistics[11012] = {
 	display = "356mm 4연장포 T3 설계도",
 	name = "356mm 4연장포 T3 설계도",
 	max_num = 0,
@@ -4849,7 +4849,7 @@ _G.pg.item_data_statistics[11012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11013] = {
+_G.pg.base.item_data_statistics[11013] = {
 	display = "406mm 3연장포 T3 설계도",
 	name = "406mm 3연장포 T3 설계도",
 	max_num = 0,
@@ -4870,7 +4870,7 @@ _G.pg.item_data_statistics[11013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11014] = {
+_G.pg.base.item_data_statistics[11014] = {
 	display = "40mm 8연장 폼폼 포 T3 설계도",
 	name = "40mm 8연장 폼폼 포 T3 설계도",
 	max_num = 0,
@@ -4891,7 +4891,7 @@ _G.pg.item_data_statistics[11014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11015] = {
+_G.pg.base.item_data_statistics[11015] = {
 	display = "113mm 연장 고사포 T3 설계도",
 	name = "113mm 연장 고사포 T3 설계도",
 	max_num = 0,
@@ -4912,7 +4912,7 @@ _G.pg.item_data_statistics[11015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11016] = {
+_G.pg.base.item_data_statistics[11016] = {
 	display = "시팽 T3 설계도",
 	name = "시팽 T3 설계도",
 	max_num = 0,
@@ -4933,7 +4933,7 @@ _G.pg.item_data_statistics[11016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11017] = {
+_G.pg.base.item_data_statistics[11017] = {
 	display = "바라쿠다 T3 설계도",
 	name = "바라쿠다 T3 설계도",
 	max_num = 0,
@@ -4954,7 +4954,7 @@ _G.pg.item_data_statistics[11017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11018] = {
+_G.pg.base.item_data_statistics[11018] = {
 	display = "98식 100mm 연장 고사포 T3 설계도",
 	name = "98식 100mm 연장 고사포 T3 설계도",
 	max_num = 0,
@@ -4975,7 +4975,7 @@ _G.pg.item_data_statistics[11018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11019] = {
+_G.pg.base.item_data_statistics[11019] = {
 	display = "155mm 3연장포 T3 설계도",
 	name = "155mm 3연장포 T3 설계도",
 	max_num = 0,
@@ -4996,7 +4996,7 @@ _G.pg.item_data_statistics[11019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11020] = {
+_G.pg.base.item_data_statistics[11020] = {
 	display = "460mm 3연장포 T2 설계도",
 	name = "460mm 3연장포 T2 설계도",
 	max_num = 0,
@@ -5017,7 +5017,7 @@ _G.pg.item_data_statistics[11020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11021] = {
+_G.pg.base.item_data_statistics[11021] = {
 	display = "610mm 4연장 어뢰 T3 설계도",
 	name = "610mm 4연장 어뢰 T3 설계도",
 	max_num = 0,
@@ -5038,7 +5038,7 @@ _G.pg.item_data_statistics[11021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11022] = {
+_G.pg.base.item_data_statistics[11022] = {
 	display = "610mm 5연장 어뢰 T2 설계도",
 	name = "610mm 5연장 어뢰 T2 설계도",
 	max_num = 0,
@@ -5059,7 +5059,7 @@ _G.pg.item_data_statistics[11022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11023] = {
+_G.pg.base.item_data_statistics[11023] = {
 	display = "제로센 52형 T3 설계도",
 	name = "제로센 52형 T3 설계도",
 	max_num = 0,
@@ -5080,7 +5080,7 @@ _G.pg.item_data_statistics[11023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11024] = {
+_G.pg.base.item_data_statistics[11024] = {
 	display = "스이세이 T3 설계도",
 	name = "스이세이 T3 설계도",
 	max_num = 0,
@@ -5101,7 +5101,7 @@ _G.pg.item_data_statistics[11024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11025] = {
+_G.pg.base.item_data_statistics[11025] = {
 	display = "203mm SKC 연장포 T3 설계도",
 	name = "203mm SKC 연장포 T3 설계도",
 	max_num = 0,
@@ -5122,7 +5122,7 @@ _G.pg.item_data_statistics[11025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11026] = {
+_G.pg.base.item_data_statistics[11026] = {
 	display = "380mm SKC 연장포 T3 설계도",
 	name = "380mm SKC 연장포 T3 설계도",
 	max_num = 0,
@@ -5143,7 +5143,7 @@ _G.pg.item_data_statistics[11026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11027] = {
+_G.pg.base.item_data_statistics[11027] = {
 	display = "105mm SKC 연장 고사포 T3 설계도",
 	name = "105mm SKC 연장 고사포 T3 설계도",
 	max_num = 0,
@@ -5164,7 +5164,7 @@ _G.pg.item_data_statistics[11027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11028] = {
+_G.pg.base.item_data_statistics[11028] = {
 	display = "아카시가 찾고 있는 재료. 어떤 특별한 장비를 제작하는 데 사용된다고 하는데...?",
 	name = "신기한 재료",
 	max_num = 0,
@@ -5185,7 +5185,7 @@ _G.pg.item_data_statistics[11028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11029] = {
+_G.pg.base.item_data_statistics[11029] = {
 	display = "533mm 4연장 자기 어뢰 T3 설계도",
 	name = "533mm 4연장 자기 어뢰 T3 설계도",
 	max_num = 0,
@@ -5206,7 +5206,7 @@ _G.pg.item_data_statistics[11029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11030] = {
+_G.pg.base.item_data_statistics[11030] = {
 	display = "533mm 5연장 자기 어뢰 T2 설계도",
 	name = "533mm 5연장 자기 어뢰 T2 설계도",
 	max_num = 0,
@@ -5227,7 +5227,7 @@ _G.pg.item_data_statistics[11030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11031] = {
+_G.pg.base.item_data_statistics[11031] = {
 	display = "Me-155A 함상전투기 T3 설계도",
 	name = "Me-155A 함상전투기 T3 설계도",
 	max_num = 0,
@@ -5248,7 +5248,7 @@ _G.pg.item_data_statistics[11031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11032] = {
+_G.pg.base.item_data_statistics[11032] = {
 	display = "렛푸 T3 설계도",
 	name = "렛푸 T3 설계도",
 	max_num = 0,
@@ -5269,7 +5269,7 @@ _G.pg.item_data_statistics[11032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11033] = {
+_G.pg.base.item_data_statistics[11033] = {
 	display = "류세이 T3 설계도",
 	name = "류세이 T3 설계도",
 	max_num = 0,
@@ -5290,7 +5290,7 @@ _G.pg.item_data_statistics[11033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11034] = {
+_G.pg.base.item_data_statistics[11034] = {
 	display = "개량형 소나 T3 설계도",
 	name = "개량형 소나 T3 설계도",
 	max_num = 0,
@@ -5311,7 +5311,7 @@ _G.pg.item_data_statistics[11034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11035] = {
+_G.pg.base.item_data_statistics[11035] = {
 	display = "잠수함용 Mark 16 어뢰 T3 설계도",
 	name = "잠수함용 Mark 16 어뢰 T3 설계도",
 	max_num = 0,
@@ -5332,7 +5332,7 @@ _G.pg.item_data_statistics[11035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11036] = {
+_G.pg.base.item_data_statistics[11036] = {
 	display = "잠수함용 95식 산소 어뢰 T3 설계도",
 	name = "잠수함용 95식 산소 어뢰 T3 설계도",
 	max_num = 0,
@@ -5353,7 +5353,7 @@ _G.pg.item_data_statistics[11036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11037] = {
+_G.pg.base.item_data_statistics[11037] = {
 	display = "잠수함용 G7e 음향 유도 어뢰 T3 설계도",
 	name = "잠수함용 G7e 음향 유도 어뢰 T3 설계도",
 	max_num = 0,
@@ -5374,7 +5374,7 @@ _G.pg.item_data_statistics[11037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11038] = {
+_G.pg.base.item_data_statistics[11038] = {
 	display = "138.6mm 단장포 Mle 1929 T3 설계도",
 	name = "138.6mm 단장포 Mle 1929 T3 설계도",
 	max_num = 0,
@@ -5395,7 +5395,7 @@ _G.pg.item_data_statistics[11038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11039] = {
+_G.pg.base.item_data_statistics[11039] = {
 	display = "380mm 4연장포 Mle 1935 T3 설계도",
 	name = "380mm 4연장포 Mle 1935 T3 설계도",
 	max_num = 0,
@@ -5416,7 +5416,7 @@ _G.pg.item_data_statistics[11039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11040] = {
+_G.pg.base.item_data_statistics[11040] = {
 	display = "90mm 단장 고각포 Model1939T3 설계도 ",
 	name = "90mm 단장 고각포 Model1939T3 설계도 ",
 	max_num = 0,
@@ -5437,7 +5437,7 @@ _G.pg.item_data_statistics[11040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11041] = {
+_G.pg.base.item_data_statistics[11041] = {
 	display = "203mm 연장포 Model1927T3 설계도 ",
 	name = "203mm 연장포 Model1927T3 설계도 ",
 	max_num = 0,
@@ -5458,7 +5458,7 @@ _G.pg.item_data_statistics[11041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11043] = {
+_G.pg.base.item_data_statistics[11043] = {
 	display = "B-38 3연장 152mm 주포 MK5 T3 설계도 ",
 	name = "B-38 3연장 152mm 주포 MK5 T3 설계도 ",
 	max_num = 0,
@@ -5479,7 +5479,7 @@ _G.pg.item_data_statistics[11043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11046] = {
+_G.pg.base.item_data_statistics[11046] = {
 	display = "2연장 203mm 주포 Mle1931 T3 설계도 ",
 	name = "2연장 203mm 주포 Mle1931 T3 설계도 ",
 	max_num = 0,
@@ -5500,7 +5500,7 @@ _G.pg.item_data_statistics[11046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11047] = {
+_G.pg.base.item_data_statistics[11047] = {
 	display = "시덴改二 T0 설계도",
 	name = "시덴改二 T0 설계도",
 	max_num = 0,
@@ -5521,7 +5521,7 @@ _G.pg.item_data_statistics[11047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11048] = {
+_G.pg.base.item_data_statistics[11048] = {
 	display = "3연장 152mm 주포 Model 1934 T3 설계도",
 	name = "3연장 152mm 주포 Model 1934 T3 설계도",
 	max_num = 0,
@@ -5542,7 +5542,7 @@ _G.pg.item_data_statistics[11048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11049] = {
+_G.pg.base.item_data_statistics[11049] = {
 	display = "3연장 381mm 주포 Model 1934 T3 설계도",
 	name = "3연장 381mm 주포 Model 1934 T3 설계도",
 	max_num = 0,
@@ -5563,7 +5563,7 @@ _G.pg.item_data_statistics[11049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[11050] = {
+_G.pg.base.item_data_statistics[11050] = {
 	display = "5연장 533mm 어뢰 Mk17 T0 설계도",
 	name = "5연장 533mm 어뢰 Mk17 T0 설계도",
 	max_num = 0,
@@ -5584,7 +5584,7 @@ _G.pg.item_data_statistics[11050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[12000] = {
+_G.pg.base.item_data_statistics[12000] = {
 	display = "93식 산소어뢰 T3 설계도",
 	name = "93식 산소어뢰 T3 설계도",
 	max_num = 0,
@@ -5605,7 +5605,7 @@ _G.pg.item_data_statistics[12000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13000] = {
+_G.pg.base.item_data_statistics[13000] = {
 	display = "381mm 연장포·改 T0 설계도",
 	name = "381mm 연장포·改 T0 설계도",
 	max_num = 0,
@@ -5626,7 +5626,7 @@ _G.pg.item_data_statistics[13000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13001] = {
+_G.pg.base.item_data_statistics[13001] = {
 	display = "시제형 381mm 3연장포T0 설계도",
 	name = "시제형 381mm 3연장포T0 설계도",
 	max_num = 0,
@@ -5647,7 +5647,7 @@ _G.pg.item_data_statistics[13001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13002] = {
+_G.pg.base.item_data_statistics[13002] = {
 	display = "410mm 연장포 (삼식탄) T0 설계도",
 	name = "410mm 연장포 (삼식탄) T0 설계도",
 	max_num = 0,
@@ -5668,7 +5668,7 @@ _G.pg.item_data_statistics[13002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13003] = {
+_G.pg.base.item_data_statistics[13003] = {
 	display = "시제형 410mm 3연장포T0 설계도",
 	name = "시제형 410mm 3연장포T0 설계도",
 	max_num = 0,
@@ -5689,7 +5689,7 @@ _G.pg.item_data_statistics[13003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13004] = {
+_G.pg.base.item_data_statistics[13004] = {
 	display = "시제형 203mm SKC 3연장포T0 설계도",
 	name = "시제형 203mm SKC 3연장포T0 설계도",
 	max_num = 0,
@@ -5710,7 +5710,7 @@ _G.pg.item_data_statistics[13004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13005] = {
+_G.pg.base.item_data_statistics[13005] = {
 	display = "시제형 203mm 3연장포T0 설계도",
 	name = "시제형 203mm 3연장포T0 설계도",
 	max_num = 0,
@@ -5731,7 +5731,7 @@ _G.pg.item_data_statistics[13005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13006] = {
+_G.pg.base.item_data_statistics[13006] = {
 	display = "시제형 152mm 3연장포T0 설계도",
 	name = "시제형 152mm 3연장포T0 설계도",
 	max_num = 0,
@@ -5752,7 +5752,7 @@ _G.pg.item_data_statistics[13006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13007] = {
+_G.pg.base.item_data_statistics[13007] = {
 	display = "연장 보포스 40mm 기관포 STAAGT0 설계도",
 	name = "연장 보포스 40mm 기관포 STAAGT0 설계도",
 	max_num = 0,
@@ -5773,7 +5773,7 @@ _G.pg.item_data_statistics[13007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13008] = {
+_G.pg.base.item_data_statistics[13008] = {
 	display = "100mm 연장 고사포T0 설계도",
 	name = "100mm 연장 고사포T0 설계도",
 	max_num = 0,
@@ -5794,7 +5794,7 @@ _G.pg.item_data_statistics[13008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13009] = {
+_G.pg.base.item_data_statistics[13009] = {
 	display = "고성능 대공 레이더T0 설계도",
 	name = "고성능 대공 레이더T0 설계도",
 	max_num = 0,
@@ -5815,7 +5815,7 @@ _G.pg.item_data_statistics[13009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13010] = {
+_G.pg.base.item_data_statistics[13010] = {
 	display = "강화 유압식 조타장치T0 설계도",
 	name = "강화 유압식 조타장치T0 설계도",
 	max_num = 0,
@@ -5836,7 +5836,7 @@ _G.pg.item_data_statistics[13010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13011] = {
+_G.pg.base.item_data_statistics[13011] = {
 	display = "40mm 연장 보포스 해즐미어 T0 설계도 ",
 	name = "40mm 연장 보포스 해즐미어 T0 설계도 ",
 	max_num = 0,
@@ -5857,7 +5857,7 @@ _G.pg.item_data_statistics[13011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13012] = {
+_G.pg.base.item_data_statistics[13012] = {
 	display = "시제형 457mm 연장포 MKA T0설계도 ",
 	name = "시제형 457mm 연장포 MKA T0설계도 ",
 	max_num = 0,
@@ -5878,7 +5878,7 @@ _G.pg.item_data_statistics[13012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13013] = {
+_G.pg.base.item_data_statistics[13013] = {
 	display = "시제형 406mm SKC 연장포 T0설계도 ",
 	name = "시제형 406mm SKC 연장포 T0설계도 ",
 	max_num = 0,
@@ -5899,7 +5899,7 @@ _G.pg.item_data_statistics[13013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13014] = {
+_G.pg.base.item_data_statistics[13014] = {
 	display = "시제형 3연장 152mm 양용포 Mk17 T0설계도 ",
 	name = "시제형 3연장 152mm 양용포 Mk17 T0설계도 ",
 	max_num = 0,
@@ -5920,7 +5920,7 @@ _G.pg.item_data_statistics[13014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13015] = {
+_G.pg.base.item_data_statistics[13015] = {
 	display = "시제형 5식 40mm 고사기관포 T0설계도 ",
 	name = "시제형 5식 40mm 고사기관포 T0설계도 ",
 	max_num = 0,
@@ -5941,7 +5941,7 @@ _G.pg.item_data_statistics[13015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13016] = {
+_G.pg.base.item_data_statistics[13016] = {
 	display = "시제형 3연장 310mm 포 T0설계도 ",
 	name = "시제형 3연장 310mm 포 T0설계도 ",
 	max_num = 0,
@@ -5962,7 +5962,7 @@ _G.pg.item_data_statistics[13016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13017] = {
+_G.pg.base.item_data_statistics[13017] = {
 	display = "2연장 37mm 고사포 Mle1936 T0설계도 ",
 	name = "2연장 37mm 고사포 Mle1936 T0설계도 ",
 	max_num = 0,
@@ -5983,7 +5983,7 @@ _G.pg.item_data_statistics[13017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13018] = {
+_G.pg.base.item_data_statistics[13018] = {
 	display = "시제형 2연장 234mm 주포 T0 설계도",
 	name = "시제형 2연장 234mm 주포 T0 설계도",
 	max_num = 0,
@@ -6004,7 +6004,7 @@ _G.pg.item_data_statistics[13018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13019] = {
+_G.pg.base.item_data_statistics[13019] = {
 	display = "시제형 3연장 234mm 주포 T0 설계도",
 	name = "시제형 3연장 234mm 주포 T0 설계도",
 	max_num = 0,
@@ -6025,7 +6025,7 @@ _G.pg.item_data_statistics[13019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13020] = {
+_G.pg.base.item_data_statistics[13020] = {
 	display = "2연장 114mm 양용포 MarkIV T0 설계도",
 	name = "2연장 114mm 양용포 MarkIV T0 설계도",
 	max_num = 0,
@@ -6046,7 +6046,7 @@ _G.pg.item_data_statistics[13020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13021] = {
+_G.pg.base.item_data_statistics[13021] = {
 	display = "6연장 40mm 보포스 대공포 T0 설계도",
 	name = "6연장 40mm 보포스 대공포 T0 설계도",
 	max_num = 0,
@@ -6067,7 +6067,7 @@ _G.pg.item_data_statistics[13021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13022] = {
+_G.pg.base.item_data_statistics[13022] = {
 	display = "시제형 3연장 305mm SKC39 주포 T0 설계도",
 	name = "시제형 3연장 305mm SKC39 주포 T0 설계도",
 	max_num = 0,
@@ -6088,7 +6088,7 @@ _G.pg.item_data_statistics[13022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13023] = {
+_G.pg.base.item_data_statistics[13023] = {
 	display = "시제형 3연장 406mm/50 주포 T0 설계도",
 	name = "시제형 3연장 406mm/50 주포 T0 설계도",
 	max_num = 0,
@@ -6109,7 +6109,7 @@ _G.pg.item_data_statistics[13023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13024] = {
+_G.pg.base.item_data_statistics[13024] = {
 	display = "고성능 사격 통제 레이더 T0 설계도",
 	name = "고성능 사격 통제 레이더 T0 설계도",
 	max_num = 0,
@@ -6130,7 +6130,7 @@ _G.pg.item_data_statistics[13024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13025] = {
+_G.pg.base.item_data_statistics[13025] = {
 	display = "시제형 3연장 305mm SKC39 주포(대형순양함용) T0 설계도",
 	name = "시제형 3연장 305mm SKC39 주포(대형순양함용) T0 설계도",
 	max_num = 0,
@@ -6151,7 +6151,7 @@ _G.pg.item_data_statistics[13025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13026] = {
+_G.pg.base.item_data_statistics[13026] = {
 	display = "시제 함재형 BF-109G T0 설계도",
 	name = "시제 함재형 BF-109G T0 설계도",
 	max_num = 0,
@@ -6172,7 +6172,7 @@ _G.pg.item_data_statistics[13026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13027] = {
+_G.pg.base.item_data_statistics[13027] = {
 	display = "시제형 연장 90mm 고각포 Model 1939 T0 설계도",
 	name = "시제형 연장 90mm 고각포 Model 1939 T0 설계도",
 	max_num = 0,
@@ -6193,7 +6193,7 @@ _G.pg.item_data_statistics[13027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13028] = {
+_G.pg.base.item_data_statistics[13028] = {
 	display = "시제형 3연장 406mm 주포 Model 1940 T0 설계도",
 	name = "시제형 3연장 406mm 주포 Model 1940 T0 설계도",
 	max_num = 0,
@@ -6214,7 +6214,7 @@ _G.pg.item_data_statistics[13028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13029] = {
+_G.pg.base.item_data_statistics[13029] = {
 	display = "시제형 사이운 T0 설계도",
 	name = "시제형 사이운 T0 설계도",
 	max_num = 0,
@@ -6235,7 +6235,7 @@ _G.pg.item_data_statistics[13029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[13030] = {
+_G.pg.base.item_data_statistics[13030] = {
 	display = "시제 함재형 텐라이 T0 설계도",
 	name = "시제 함재형 텐라이 T0 설계도",
 	max_num = 0,
@@ -6256,7 +6256,7 @@ _G.pg.item_data_statistics[13030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[14001] = {
+_G.pg.base.item_data_statistics[14001] = {
 	display = [[
 사용 후 SSR 과학 연구 장비(I기)의 설계도 중 임의로 1장 선택
 「시제형 3연장 381mm 주포 T0 설계도」
@@ -6315,7 +6315,7 @@ _G.pg.item_data_statistics[14001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[14002] = {
+_G.pg.base.item_data_statistics[14002] = {
 	display = [[
 사용 후 SSR 과학 연구 장비(II기)의 설계도 중 임의로 1장 선택
 「시제형 2연장 406mmSKC 주포 T0 설계도」
@@ -6368,7 +6368,7 @@ _G.pg.item_data_statistics[14002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[14003] = {
+_G.pg.base.item_data_statistics[14003] = {
 	display = [[
 사용 후 SSR 과학 연구 장비(III기)의 설계도 중 임의로 1장 선택
 「시제형 2연장 234mm 주포 T0 설계도」
@@ -6422,7 +6422,7 @@ _G.pg.item_data_statistics[14003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[14004] = {
+_G.pg.base.item_data_statistics[14004] = {
 	display = [[
 사용 후 SSR 과학 연구 장비(IV기)의 설계도 중 임의로 1장 선택
 선택 가능 목록:
@@ -6477,7 +6477,7 @@ _G.pg.item_data_statistics[14004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15001] = {
+_G.pg.base.item_data_statistics[15001] = {
 	display = "함선을 퇴역시키는 것으로 얻을 수 있는 훈장, 본부에 전력 지원을 요청하는 데에 사용할 수 있다.",
 	name = "훈장",
 	max_num = 0,
@@ -6498,7 +6498,7 @@ _G.pg.item_data_statistics[15001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15002] = {
+_G.pg.base.item_data_statistics[15002] = {
 	display = "0",
 	name = "에너지 스톤",
 	max_num = 0,
@@ -6519,7 +6519,7 @@ _G.pg.item_data_statistics[15002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15003] = {
+_G.pg.base.item_data_statistics[15003] = {
 	display = "건조 중인 함선을 단숨에 완성시킬 수 있다.",
 	name = "고속건조재",
 	max_num = 0,
@@ -6540,7 +6540,7 @@ _G.pg.item_data_statistics[15003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15004] = {
+_G.pg.base.item_data_statistics[15004] = {
 	display = "휴식 중인 캐릭터의 컨디션을 한 번에 회복시킬 수 있다.",
 	name = "휴식가속재",
 	max_num = 0,
@@ -6561,7 +6561,7 @@ _G.pg.item_data_statistics[15004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15005] = {
+_G.pg.base.item_data_statistics[15005] = {
 	display = "숙소 증축 허가서.",
 	name = "확장 허가서",
 	max_num = 0,
@@ -6582,7 +6582,7 @@ _G.pg.item_data_statistics[15005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15006] = {
+_G.pg.base.item_data_statistics[15006] = {
 	display = "함선 소녀와의 서약 시 필요한 아이템.",
 	name = "서약의 반지",
 	max_num = 0,
@@ -6603,7 +6603,7 @@ _G.pg.item_data_statistics[15006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15008] = {
+_G.pg.base.item_data_statistics[15008] = {
 	display = "인식 각성에 사용되는 성정 큐브의 기술 전용 유닛. <color=#92fc63>레벨이 100 이상, 한계 돌파를 3회 진행한</color> 함선소녀의 레벨 상한을 올려줍니다.",
 	name = "성정 유닛",
 	max_num = 0,
@@ -6624,7 +6624,7 @@ _G.pg.item_data_statistics[15008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15009] = {
+_G.pg.base.item_data_statistics[15009] = {
 	display = [[
 지휘관의 이름을 변경할 때 제출해야 하는 신청서. <color=#92fc63>30일</color> 에 한 번만 바꿀 수 있다.
 메인화면 좌측 상단의 아이콘을 터치, 닉네임란의 '개명' 버튼을 눌러 지휘관의 닉네임을 변경할 수 있다.
@@ -6656,7 +6656,7 @@ _G.pg.item_data_statistics[15009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15010] = {
+_G.pg.base.item_data_statistics[15010] = {
 	display = "구조신호의 수신 감도를 향상시켜준다. 사용하면 구조신호 수가 +1이 된다.",
 	name = "구조신호 수신장치",
 	max_num = 0,
@@ -6677,7 +6677,7 @@ _G.pg.item_data_statistics[15010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15011] = {
+_G.pg.base.item_data_statistics[15011] = {
 	display = "아이돌 마스터 콜라보 캐릭터 서약에 사용되는 왕관\n(<color=#ff5c5c>교환 후 철회 불가. 왕곤으로 서약한 캐릭터는 이름 변경 불가</color>)",
 	name = "서약의 왕관",
 	max_num = 0,
@@ -6698,7 +6698,7 @@ _G.pg.item_data_statistics[15011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15012] = {
+_G.pg.base.item_data_statistics[15012] = {
 	display = "인식 각성에 사용되는 성정 큐브의 기술 전용 유닛. <color=#92fc63>레벨이 120 이상, 한계 돌파를 3회 진행한</color> 함선소녀의 레벨 상한을 올려줍니다.",
 	name = "성정 유닛II",
 	max_num = 0,
@@ -6719,7 +6719,7 @@ _G.pg.item_data_statistics[15012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[15013] = {
+_G.pg.base.item_data_statistics[15013] = {
 	display = "『월드 투어』 이벤트용. 투어 임무를 신속히 완료할 수 있다. 이벤트 종료 후 사라지지 않음.",
 	name = "투어 임무 완료 쿠폰",
 	max_num = 0,
@@ -6740,7 +6740,7 @@ _G.pg.item_data_statistics[15013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16001] = {
+_G.pg.base.item_data_statistics[16001] = {
 	display = "공격 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#d797ff>6개</color>를 합성하여 <color=#d797ff>공격 교본 T2</color> 제작 가능",
 	name = "공격 교본 T1",
 	max_num = 0,
@@ -6761,7 +6761,7 @@ _G.pg.item_data_statistics[16001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16002] = {
+_G.pg.base.item_data_statistics[16002] = {
 	display = "공격 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#ffde38>4개</color>를 합성하여 <color=#d797ff>공격 교본 T3</color> 제작 가능",
 	name = "공격 교본 T2",
 	max_num = 0,
@@ -6782,7 +6782,7 @@ _G.pg.item_data_statistics[16002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16003] = {
+_G.pg.base.item_data_statistics[16003] = {
 	display = "공격 스킬 강화용 교본 T3, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.",
 	name = "공격 교본 T3",
 	max_num = 0,
@@ -6803,7 +6803,7 @@ _G.pg.item_data_statistics[16003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16004] = {
+_G.pg.base.item_data_statistics[16004] = {
 	display = "공격 스킬 강화용 교본 T4, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.",
 	name = "공격 교본 T4",
 	max_num = 0,
@@ -6824,7 +6824,7 @@ _G.pg.item_data_statistics[16004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16011] = {
+_G.pg.base.item_data_statistics[16011] = {
 	display = "방어 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#d797ff>6개</color>를 합성하여 <color=#d797ff>방어 교본 T2</color> 제작 가능",
 	name = "방어 교본 T1",
 	max_num = 0,
@@ -6845,7 +6845,7 @@ _G.pg.item_data_statistics[16011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16012] = {
+_G.pg.base.item_data_statistics[16012] = {
 	display = "방어 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#ffde38>4개</color>를 합성하여 <color=#d797ff>방어 교본 T3</color> 제작 가능",
 	name = "방어 교본 T2",
 	max_num = 0,
@@ -6866,7 +6866,7 @@ _G.pg.item_data_statistics[16012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16013] = {
+_G.pg.base.item_data_statistics[16013] = {
 	display = "방어 스킬 강화용 교본 T3, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.",
 	name = "방어 교본 T3",
 	max_num = 0,
@@ -6887,7 +6887,7 @@ _G.pg.item_data_statistics[16013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16014] = {
+_G.pg.base.item_data_statistics[16014] = {
 	display = "방어 스킬 강화용 교본 T4, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.",
 	name = "방어 교본 T4",
 	max_num = 0,
@@ -6908,7 +6908,7 @@ _G.pg.item_data_statistics[16014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16021] = {
+_G.pg.base.item_data_statistics[16021] = {
 	display = "지원 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#d797ff>6개</color>를 합성하여 <color=#d797ff>지원 교본 T2</color> 제작 가능",
 	name = "지원 교본 T1",
 	max_num = 0,
@@ -6929,7 +6929,7 @@ _G.pg.item_data_statistics[16021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16022] = {
+_G.pg.base.item_data_statistics[16022] = {
 	display = "지원 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#ffde38>4개</color>를 합성하여 <color=#d797ff>지원 교본 T3</color> 제작 가능",
 	name = "지원 교본 T2",
 	max_num = 0,
@@ -6950,7 +6950,7 @@ _G.pg.item_data_statistics[16022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16023] = {
+_G.pg.base.item_data_statistics[16023] = {
 	display = "지원 스킬 강화용 교본 T3, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.",
 	name = "지원 교본 T3",
 	max_num = 0,
@@ -6971,7 +6971,7 @@ _G.pg.item_data_statistics[16023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16024] = {
+_G.pg.base.item_data_statistics[16024] = {
 	display = "지원 스킬 강화용 교본 T4, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.",
 	name = "지원 교본 T4",
 	max_num = 0,
@@ -6992,7 +6992,7 @@ _G.pg.item_data_statistics[16024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16501] = {
+_G.pg.base.item_data_statistics[16501] = {
 	display = "함선 연습 데이터 T1, 캐릭터 경험치 상승용. 3000 경험치를 상승시킬 수 있다. 최대 3000개 보관 가능",
 	name = "함선 연습 데이터 T1",
 	max_num = 3000,
@@ -7013,7 +7013,7 @@ _G.pg.item_data_statistics[16501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[16502] = {
+_G.pg.base.item_data_statistics[16502] = {
 	display = "함선 연습 데이터 T2, 캐릭터 경험치 상승용. 15000 경험치를 상승시킬 수 있다. 최대 500개 보관 가능",
 	name = "함선 연습 데이터 T2",
 	max_num = 500,
@@ -7034,7 +7034,7 @@ _G.pg.item_data_statistics[16502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17001] = {
+_G.pg.base.item_data_statistics[17001] = {
 	display = "설비 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "범용 부속 T1",
 	max_num = 0,
@@ -7055,7 +7055,7 @@ _G.pg.item_data_statistics[17001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17002] = {
+_G.pg.base.item_data_statistics[17002] = {
 	display = "설비 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "범용 부속 T2",
 	max_num = 0,
@@ -7076,7 +7076,7 @@ _G.pg.item_data_statistics[17002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17003] = {
+_G.pg.base.item_data_statistics[17003] = {
 	display = "설비 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "범용 부속 T3",
 	max_num = 0,
@@ -7097,7 +7097,7 @@ _G.pg.item_data_statistics[17003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17004] = {
+_G.pg.base.item_data_statistics[17004] = {
 	display = "설비 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "범용 부속 T4",
 	max_num = 0,
@@ -7118,7 +7118,7 @@ _G.pg.item_data_statistics[17004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17011] = {
+_G.pg.base.item_data_statistics[17011] = {
 	display = "함포 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "함포 부속 T1",
 	max_num = 0,
@@ -7139,7 +7139,7 @@ _G.pg.item_data_statistics[17011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17012] = {
+_G.pg.base.item_data_statistics[17012] = {
 	display = "함포 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "함포 부속 T2",
 	max_num = 0,
@@ -7160,7 +7160,7 @@ _G.pg.item_data_statistics[17012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17013] = {
+_G.pg.base.item_data_statistics[17013] = {
 	display = "함포 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "함포 부속 T3",
 	max_num = 0,
@@ -7181,7 +7181,7 @@ _G.pg.item_data_statistics[17013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17014] = {
+_G.pg.base.item_data_statistics[17014] = {
 	display = "함포 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "함포 부속 T4",
 	max_num = 0,
@@ -7202,7 +7202,7 @@ _G.pg.item_data_statistics[17014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17021] = {
+_G.pg.base.item_data_statistics[17021] = {
 	display = "어뢰 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "어뢰 부속 T1",
 	max_num = 0,
@@ -7223,7 +7223,7 @@ _G.pg.item_data_statistics[17021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17022] = {
+_G.pg.base.item_data_statistics[17022] = {
 	display = "어뢰 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "어뢰 부속 T2",
 	max_num = 0,
@@ -7244,7 +7244,7 @@ _G.pg.item_data_statistics[17022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17023] = {
+_G.pg.base.item_data_statistics[17023] = {
 	display = "어뢰 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "어뢰 부속 T3",
 	max_num = 0,
@@ -7265,7 +7265,7 @@ _G.pg.item_data_statistics[17023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17024] = {
+_G.pg.base.item_data_statistics[17024] = {
 	display = "어뢰 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "어뢰 부속 T4",
 	max_num = 0,
@@ -7286,7 +7286,7 @@ _G.pg.item_data_statistics[17024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17031] = {
+_G.pg.base.item_data_statistics[17031] = {
 	display = "대공 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "대공포 부속 T1",
 	max_num = 0,
@@ -7307,7 +7307,7 @@ _G.pg.item_data_statistics[17031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17032] = {
+_G.pg.base.item_data_statistics[17032] = {
 	display = "대공 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "대공포 부속 T2",
 	max_num = 0,
@@ -7328,7 +7328,7 @@ _G.pg.item_data_statistics[17032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17033] = {
+_G.pg.base.item_data_statistics[17033] = {
 	display = "대공 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "대공포 부속 T3",
 	max_num = 0,
@@ -7349,7 +7349,7 @@ _G.pg.item_data_statistics[17033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17034] = {
+_G.pg.base.item_data_statistics[17034] = {
 	display = "대공 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "대공포 부속 T4",
 	max_num = 0,
@@ -7370,7 +7370,7 @@ _G.pg.item_data_statistics[17034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17041] = {
+_G.pg.base.item_data_statistics[17041] = {
 	display = "함재기 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "함재기 부속 T1",
 	max_num = 0,
@@ -7391,7 +7391,7 @@ _G.pg.item_data_statistics[17041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17042] = {
+_G.pg.base.item_data_statistics[17042] = {
 	display = "함재기 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "함재기 부속 T2",
 	max_num = 0,
@@ -7412,7 +7412,7 @@ _G.pg.item_data_statistics[17042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17043] = {
+_G.pg.base.item_data_statistics[17043] = {
 	display = "함재기 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "함재기 부속 T3",
 	max_num = 0,
@@ -7433,7 +7433,7 @@ _G.pg.item_data_statistics[17043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17044] = {
+_G.pg.base.item_data_statistics[17044] = {
 	display = "함재기 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
 	name = "함재기 부속 T4",
 	max_num = 0,
@@ -7454,7 +7454,7 @@ _G.pg.item_data_statistics[17044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17990] = {
+_G.pg.base.item_data_statistics[17990] = {
 	display = "SSR 이하 장비의 추가 성능을 개발 가능한 실험 자재",
 	name = "시제형 장비 개조 자재",
 	max_num = 0,
@@ -7475,7 +7475,7 @@ _G.pg.item_data_statistics[17990] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[17991] = {
+_G.pg.base.item_data_statistics[17991] = {
 	display = "UR 이하 장비의 추가 성능을 개발 가능한 실험 자재",
 	name = "특장형 장비 개조 자재",
 	max_num = 0,
@@ -7496,7 +7496,7 @@ _G.pg.item_data_statistics[17991] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18000] = {
+_G.pg.base.item_data_statistics[18000] = {
 	display = " ",
 	name = "개조 도면 템플릿",
 	max_num = 0,
@@ -7517,7 +7517,7 @@ _G.pg.item_data_statistics[18000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18001] = {
+_G.pg.base.item_data_statistics[18001] = {
 	display = "구축함의 근대화 개수에 쓰이는 개조 도면.\n<color=#ffde38>6개</color>를 모아 <color=#d797ff>구축함 개조 도면 T2</color>로 합성 가능.",
 	name = "구축함 개조 도면 T1",
 	max_num = 0,
@@ -7538,7 +7538,7 @@ _G.pg.item_data_statistics[18001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18002] = {
+_G.pg.base.item_data_statistics[18002] = {
 	display = "구축함의 근대화 개수에 쓰이는 개조 도면.",
 	name = "구축함 개조 도면 T2",
 	max_num = 0,
@@ -7559,7 +7559,7 @@ _G.pg.item_data_statistics[18002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18003] = {
+_G.pg.base.item_data_statistics[18003] = {
 	display = "구축함의 근대화 개수에 쓰이는 개조 도면.",
 	name = "구축함 개조 도면 T3",
 	max_num = 0,
@@ -7580,7 +7580,7 @@ _G.pg.item_data_statistics[18003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18011] = {
+_G.pg.base.item_data_statistics[18011] = {
 	display = "순양함의 근대화 개수에 쓰이는 개조 도면.\n<color=#ffde38>6개</color>를 모아 <color=#d797ff>순양함 개조 도면 T2</color>로 합성 가능.",
 	name = "순양함 개조 도면 T1",
 	max_num = 0,
@@ -7601,7 +7601,7 @@ _G.pg.item_data_statistics[18011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18012] = {
+_G.pg.base.item_data_statistics[18012] = {
 	display = "순양함의 근대화 개수에 쓰이는 개조 도면.",
 	name = "순양함 개조 도면 T2",
 	max_num = 0,
@@ -7622,7 +7622,7 @@ _G.pg.item_data_statistics[18012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18013] = {
+_G.pg.base.item_data_statistics[18013] = {
 	display = "순양함의 근대화 개수에 쓰이는 개조 도면.",
 	name = "순양함 개조 도면 T3",
 	max_num = 0,
@@ -7643,7 +7643,7 @@ _G.pg.item_data_statistics[18013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18021] = {
+_G.pg.base.item_data_statistics[18021] = {
 	display = "전함의 근대화 개수에 쓰이는 개조 도면.\n<color=#ffde38>6개</color>를 모아 <color=#d797ff>전함 개조 도면 T2</color>로 합성 가능.",
 	name = "전함 개조 도면 T1",
 	max_num = 0,
@@ -7664,7 +7664,7 @@ _G.pg.item_data_statistics[18021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18022] = {
+_G.pg.base.item_data_statistics[18022] = {
 	display = "전함의 근대화 개수에 쓰이는 개조 도면.",
 	name = "전함 개조 도면 T2",
 	max_num = 0,
@@ -7685,7 +7685,7 @@ _G.pg.item_data_statistics[18022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18023] = {
+_G.pg.base.item_data_statistics[18023] = {
 	display = "전함의 근대화 개수에 쓰이는 개조 도면.",
 	name = "전함 개조 도면 T3",
 	max_num = 0,
@@ -7706,7 +7706,7 @@ _G.pg.item_data_statistics[18023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18031] = {
+_G.pg.base.item_data_statistics[18031] = {
 	display = "항공모함의 근대화 개수에 쓰이는 개조 도면.\n<color=#ffde38>6개</color>를 모아 <color=#d797ff>항공모함 개조 도면 T2</color>로 합성 가능.",
 	name = "항공모함 개조 도면 T1",
 	max_num = 0,
@@ -7727,7 +7727,7 @@ _G.pg.item_data_statistics[18031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18032] = {
+_G.pg.base.item_data_statistics[18032] = {
 	display = "항공모함의 근대화 개수에 쓰이는 개조 도면.",
 	name = "항공모함 개조 도면 T2",
 	max_num = 0,
@@ -7748,7 +7748,7 @@ _G.pg.item_data_statistics[18032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18033] = {
+_G.pg.base.item_data_statistics[18033] = {
 	display = "항공모함의 근대화 개수에 쓰이는 개조 도면.",
 	name = "항공모함 개조 도면 T3",
 	max_num = 0,
@@ -7769,7 +7769,7 @@ _G.pg.item_data_statistics[18033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18101] = {
+_G.pg.base.item_data_statistics[18101] = {
 	display = "공정이 단순하고 대량 생산된 강재. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "일반 강재",
 	max_num = 0,
@@ -7790,7 +7790,7 @@ _G.pg.item_data_statistics[18101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18102] = {
+_G.pg.base.item_data_statistics[18102] = {
 	display = "종합 성능이 우수한 강재. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "고급 강재",
 	max_num = 0,
@@ -7811,7 +7811,7 @@ _G.pg.item_data_statistics[18102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18103] = {
+_G.pg.base.item_data_statistics[18103] = {
 	display = "생산이 어렵고 특수한 성능을 가진 강재. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "특수 강재",
 	max_num = 0,
@@ -7832,7 +7832,7 @@ _G.pg.item_data_statistics[18103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18104] = {
+_G.pg.base.item_data_statistics[18104] = {
 	display = "일반 설비에서 사용하는 전자 부품. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "일반 전자 부품",
 	max_num = 0,
@@ -7853,7 +7853,7 @@ _G.pg.item_data_statistics[18104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18105] = {
+_G.pg.base.item_data_statistics[18105] = {
 	display = "공업 설비에 사용되는 전자 부품. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "공업용 전자 부품",
 	max_num = 0,
@@ -7874,7 +7874,7 @@ _G.pg.item_data_statistics[18105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18106] = {
+_G.pg.base.item_data_statistics[18106] = {
 	display = "군사 공업 설비에 사용되는 전자 부품. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "군용 전자 부품",
 	max_num = 0,
@@ -7895,7 +7895,7 @@ _G.pg.item_data_statistics[18106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18107] = {
+_G.pg.base.item_data_statistics[18107] = {
 	display = "안정적인 성질에 응용이 광범위한 폭약. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "일반 폭약",
 	max_num = 0,
@@ -7916,7 +7916,7 @@ _G.pg.item_data_statistics[18107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18108] = {
+_G.pg.base.item_data_statistics[18108] = {
 	display = "에너지가 높고 가소성이 강한 혼합 폭약. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "B 폭약",
 	max_num = 0,
@@ -7937,7 +7937,7 @@ _G.pg.item_data_statistics[18108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18109] = {
+_G.pg.base.item_data_statistics[18109] = {
 	display = "알루미늄 분말을 함유한 고위력 군용 혼합 폭약. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "HBX 폭약",
 	max_num = 0,
@@ -7958,7 +7958,7 @@ _G.pg.item_data_statistics[18109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18110] = {
+_G.pg.base.item_data_statistics[18110] = {
 	display = "고무나무에서 채집하여 가공한 천연 고무. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "천연 고무",
 	max_num = 0,
@@ -7979,7 +7979,7 @@ _G.pg.item_data_statistics[18110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18111] = {
+_G.pg.base.item_data_statistics[18111] = {
 	display = "대규모 공업을 통해 생산한 합성 고무. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "범용 합성 고무",
 	max_num = 0,
@@ -8000,7 +8000,7 @@ _G.pg.item_data_statistics[18111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18112] = {
+_G.pg.base.item_data_statistics[18112] = {
 	display = "공정이 복잡하고 성능이 우수한 합성 고무. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "플루오린 고무",
 	max_num = 0,
@@ -8021,7 +8021,7 @@ _G.pg.item_data_statistics[18112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18113] = {
+_G.pg.base.item_data_statistics[18113] = {
 	display = "정련된 금속 구리. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "구리 주괴",
 	max_num = 0,
@@ -8042,7 +8042,7 @@ _G.pg.item_data_statistics[18113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18114] = {
+_G.pg.base.item_data_statistics[18114] = {
 	display = "전도성이 우수한 합성 구리. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "초전도 구리",
 	max_num = 0,
@@ -8063,7 +8063,7 @@ _G.pg.item_data_statistics[18114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18115] = {
+_G.pg.base.item_data_statistics[18115] = {
 	display = "알루미늄에 기타 원소를 넣어 만든 합금. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "알루미늄 합금",
 	max_num = 0,
@@ -8084,7 +8084,7 @@ _G.pg.item_data_statistics[18115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18116] = {
+_G.pg.base.item_data_statistics[18116] = {
 	display = "알루미늄에 기타 원소를 넣어 만든 합금. 성능 우수. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "타이타늄 합금",
 	max_num = 0,
@@ -8105,7 +8105,7 @@ _G.pg.item_data_statistics[18116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18117] = {
+_G.pg.base.item_data_statistics[18117] = {
 	display = "SSR형 주포 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "함포 개발 도면 SSR형",
 	max_num = 0,
@@ -8126,7 +8126,7 @@ _G.pg.item_data_statistics[18117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18118] = {
+_G.pg.base.item_data_statistics[18118] = {
 	display = "UR형 주포 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "함포 개발 도면 UR형",
 	max_num = 0,
@@ -8147,7 +8147,7 @@ _G.pg.item_data_statistics[18118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18119] = {
+_G.pg.base.item_data_statistics[18119] = {
 	display = "SSR형 어뢰 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "어뢰 개발 도면 SSR형",
 	max_num = 0,
@@ -8168,7 +8168,7 @@ _G.pg.item_data_statistics[18119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18120] = {
+_G.pg.base.item_data_statistics[18120] = {
 	display = "UR형 어뢰 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "어뢰 개발 도면 UR형",
 	max_num = 0,
@@ -8189,7 +8189,7 @@ _G.pg.item_data_statistics[18120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18121] = {
+_G.pg.base.item_data_statistics[18121] = {
 	display = "SSR형 대공포 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "대공포 개발 도면 SSR형",
 	max_num = 0,
@@ -8210,7 +8210,7 @@ _G.pg.item_data_statistics[18121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18122] = {
+_G.pg.base.item_data_statistics[18122] = {
 	display = "UR형 대공포 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "대공포 개발 도면 UR형",
 	max_num = 0,
@@ -8231,7 +8231,7 @@ _G.pg.item_data_statistics[18122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18123] = {
+_G.pg.base.item_data_statistics[18123] = {
 	display = "SSR형 함재기 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "함재기 개발 도면 SSR형",
 	max_num = 0,
@@ -8252,7 +8252,7 @@ _G.pg.item_data_statistics[18123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18124] = {
+_G.pg.base.item_data_statistics[18124] = {
 	display = "UR형 함재기 연구 진행에 필요한 도면 재료. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "함재기 개발 도면 UR형",
 	max_num = 0,
@@ -8273,7 +8273,7 @@ _G.pg.item_data_statistics[18124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18125] = {
+_G.pg.base.item_data_statistics[18125] = {
 	display = "보안 레벨 일반 실험 계획서. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "일반 실험 계획",
 	max_num = 0,
@@ -8294,7 +8294,7 @@ _G.pg.item_data_statistics[18125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18126] = {
+_G.pg.base.item_data_statistics[18126] = {
 	display = "보안 레벨 기밀 실험 계획서. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "기밀 실험 계획",
 	max_num = 0,
@@ -8315,7 +8315,7 @@ _G.pg.item_data_statistics[18126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[18127] = {
+_G.pg.base.item_data_statistics[18127] = {
 	display = "보안 레벨 극비 실험 계획서. <color=#92fc63>「과학연구」</color>-<color=#92fc63>「장비 개발」</color>에서 사용 가능",
 	name = "극비 실험 계획",
 	max_num = 0,
@@ -8336,7 +8336,7 @@ _G.pg.item_data_statistics[18127] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20001] = {
+_G.pg.base.item_data_statistics[20001] = {
 	display = "성정 큐브, 용골을 구성하는 특수한 소재.",
 	name = "성정 큐브",
 	max_num = 0,
@@ -8360,7 +8360,7 @@ _G.pg.item_data_statistics[20001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20010] = {
+_G.pg.base.item_data_statistics[20010] = {
 	display = "냥박스 훈련 시간을 20분 단축할 수 있는 가속 아이템",
 	name = "냥박스 훈련 가속 아이템",
 	max_num = 0,
@@ -8381,7 +8381,7 @@ _G.pg.item_data_statistics[20010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20011] = {
+_G.pg.base.item_data_statistics[20011] = {
 	display = "아카시의 가게에서 주문한 박스. 안에 뭔가 들어있는 것 같다…?",
 	name = "냥박스 R형",
 	max_num = 0,
@@ -8405,7 +8405,7 @@ _G.pg.item_data_statistics[20011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20012] = {
+_G.pg.base.item_data_statistics[20012] = {
 	display = "아카시의 가게에서 주문한 박스. 안에 뭔가 들어있는 것 같다…?",
 	name = "냥박스 SR형",
 	max_num = 0,
@@ -8429,7 +8429,7 @@ _G.pg.item_data_statistics[20012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20013] = {
+_G.pg.base.item_data_statistics[20013] = {
 	display = "아카시의 가게에서 주문한 박스. 안에 뭔가 들어있는 것 같다…?",
 	name = "냥박스 SSR형",
 	max_num = 0,
@@ -8453,7 +8453,7 @@ _G.pg.item_data_statistics[20013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20101] = {
+_G.pg.base.item_data_statistics[20101] = {
 	display = "개발 부서의 테스트 데이터, <color=#92fc63>개발 도크 내에서 사용 시</color>과학 연구 1기 캐릭터의 전술 데이터 진도가 10000 상승한다.<color=#ff5c5c>(창고에서 분해하여 원형 설계 획득 가능, 이때 임무 진도는 획득 불가)</color> ",
 	name = "과학 연구 테스트 데이터・1기 ",
 	max_num = 0,
@@ -8477,7 +8477,7 @@ _G.pg.item_data_statistics[20101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20102] = {
+_G.pg.base.item_data_statistics[20102] = {
 	display = "개발부에서 종합한 테스트 데이터. <color=#92fc63>개발 도크 내에서 사용</color>하여 과학 개발 2기 함선 기술 테스트 경험치를 10000 증가시킬 수 있다. <color=#ff5c5c>(창고에서 분해 시 원형 설계를 획득하며, 경험치 획득 불가)</color>",
 	name = "연구 테스트 데이터・제2기",
 	max_num = 0,
@@ -8501,7 +8501,7 @@ _G.pg.item_data_statistics[20102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[20103] = {
+_G.pg.base.item_data_statistics[20103] = {
 	display = "개발부에서 종합한 테스트 데이터. <color=#92fc63>개발 도크 내에서 사용</color>하여 과학 개발 3기 함선 기술 테스트 경험치를 10000 증가시킬 수 있다. <color=#ff5c5c>(창고에서 분해 시 원형 설계를 획득하며, 경험치 획득 불가)</color>",
 	name = "연구 테스트 데이터・제3기",
 	max_num = 0,
@@ -8525,7 +8525,7 @@ _G.pg.item_data_statistics[20103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21001] = {
+_G.pg.base.item_data_statistics[21001] = {
 	display = "{namecode:191}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: {namecode:191}",
 	max_num = 0,
@@ -8546,7 +8546,7 @@ _G.pg.item_data_statistics[21001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21002] = {
+_G.pg.base.item_data_statistics[21002] = {
 	display = "아크 로열·META의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: 아크 로열·META",
 	max_num = 0,
@@ -8567,7 +8567,7 @@ _G.pg.item_data_statistics[21002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21003] = {
+_G.pg.base.item_data_statistics[21003] = {
 	display = "헬레나·META의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: 헬레나·META",
 	max_num = 0,
@@ -8588,7 +8588,7 @@ _G.pg.item_data_statistics[21003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21004] = {
+_G.pg.base.item_data_statistics[21004] = {
 	display = "{namecode:205}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: {namecode:205}",
 	max_num = 0,
@@ -8609,7 +8609,7 @@ _G.pg.item_data_statistics[21004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21005] = {
+_G.pg.base.item_data_statistics[21005] = {
 	display = "{namecode:210}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: {namecode:210}",
 	max_num = 0,
@@ -8630,7 +8630,7 @@ _G.pg.item_data_statistics[21005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21006] = {
+_G.pg.base.item_data_statistics[21006] = {
 	display = "{namecode:220}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: {namecode:220}",
 	max_num = 0,
@@ -8651,7 +8651,7 @@ _G.pg.item_data_statistics[21006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21007] = {
+_G.pg.base.item_data_statistics[21007] = {
 	display = "그나이제나우·META의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: 그나이제나우·META",
 	max_num = 0,
@@ -8672,7 +8672,7 @@ _G.pg.item_data_statistics[21007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21008] = {
+_G.pg.base.item_data_statistics[21008] = {
 	display = "{namecode:221}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: {namecode:221}",
 	max_num = 0,
@@ -8693,7 +8693,7 @@ _G.pg.item_data_statistics[21008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21009] = {
+_G.pg.base.item_data_statistics[21009] = {
 	display = "샤른호르스트·META의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: 샤른호르스트·META",
 	max_num = 0,
@@ -8714,7 +8714,7 @@ _G.pg.item_data_statistics[21009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21010] = {
+_G.pg.base.item_data_statistics[21010] = {
 	display = "{namecode:223}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
 	name = "결정: {namecode:223}",
 	max_num = 0,
@@ -8735,7 +8735,7 @@ _G.pg.item_data_statistics[21010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21101] = {
+_G.pg.base.item_data_statistics[21101] = {
 	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "결정화 내열강",
 	max_num = 0,
@@ -8756,7 +8756,7 @@ _G.pg.item_data_statistics[21101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21111] = {
+_G.pg.base.item_data_statistics[21111] = {
 	display = "함장 항공 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "나노 알루미늄 합금",
 	max_num = 0,
@@ -8777,7 +8777,7 @@ _G.pg.item_data_statistics[21111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21121] = {
+_G.pg.base.item_data_statistics[21121] = {
 	display = "함장 장전 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "가소성 기계 팔",
 	max_num = 0,
@@ -8798,7 +8798,7 @@ _G.pg.item_data_statistics[21121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21131] = {
+_G.pg.base.item_data_statistics[21131] = {
 	display = "함장 뇌장 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "초공진기",
 	max_num = 0,
@@ -8819,7 +8819,7 @@ _G.pg.item_data_statistics[21131] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21901] = {
+_G.pg.base.item_data_statistics[21901] = {
 	display = "「비콘·META」 전투 중 수집한 데이터. {namecode:191} 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: {namecode:191}",
 	max_num = 0,
@@ -8840,7 +8840,7 @@ _G.pg.item_data_statistics[21901] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21902] = {
+_G.pg.base.item_data_statistics[21902] = {
 	display = "「비콘·META」 전투 중 수집한 데이터. 아크 로열·META의 동기화율을 높일 수 있다. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: 아크 로열·META",
 	max_num = 0,
@@ -8861,7 +8861,7 @@ _G.pg.item_data_statistics[21902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21903] = {
+_G.pg.base.item_data_statistics[21903] = {
 	display = "「비콘·META」 전투 중 수집한 데이터. 헬레나·META의 동기화율을 높일 수 있다. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: 헬레나·META",
 	max_num = 0,
@@ -8882,7 +8882,7 @@ _G.pg.item_data_statistics[21903] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21904] = {
+_G.pg.base.item_data_statistics[21904] = {
 	display = "「비콘·META」 전투 중 수집한 데이터. {namecode:205} 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: {namecode:205}",
 	max_num = 0,
@@ -8903,7 +8903,7 @@ _G.pg.item_data_statistics[21904] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21905] = {
+_G.pg.base.item_data_statistics[21905] = {
 	display = "「비콘·META」 전투 중 수집한 데이터. 그나이제나우·META 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: 그나이제나우·META",
 	max_num = 0,
@@ -8924,7 +8924,7 @@ _G.pg.item_data_statistics[21905] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[21906] = {
+_G.pg.base.item_data_statistics[21906] = {
 	display = "「비콘·META」 전투 중 수집한 데이터. 샤른호르스트·META 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: 샤른호르스트·META",
 	max_num = 0,
@@ -8945,7 +8945,7 @@ _G.pg.item_data_statistics[21906] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30001] = {
+_G.pg.base.item_data_statistics[30001] = {
 	display = "잠수함 장비가 랜덤으로 1개 출현 :\n낮은 확률로<color=#3dc6ff> 레어 장비</color>가 출현하고,\n높은 확률로 노멀 장비가 출현한다.",
 	name = "기본 잠수함대 장비 상자",
 	max_num = 0,
@@ -8969,7 +8969,7 @@ _G.pg.item_data_statistics[30001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30011] = {
+_G.pg.base.item_data_statistics[30011] = {
 	display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>크록히드 장비상자 T2</color>로 합성 가능.",
 	name = "크록히드 장비상자 T1",
 	max_num = 0,
@@ -8993,7 +8993,7 @@ _G.pg.item_data_statistics[30011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30012] = {
+_G.pg.base.item_data_statistics[30012] = {
 	display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크록히드 장비상자 T3</color>로 합성 가능.",
 	name = "크록히드 장비상자 T2",
 	max_num = 0,
@@ -9017,7 +9017,7 @@ _G.pg.item_data_statistics[30012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30013] = {
+_G.pg.base.item_data_statistics[30013] = {
 	display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 	name = "크록히드 장비상자 T3",
 	max_num = 0,
@@ -9041,7 +9041,7 @@ _G.pg.item_data_statistics[30013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30014] = {
+_G.pg.base.item_data_statistics[30014] = {
 	display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 	name = "크록히드 장비상자 T4",
 	max_num = 0,
@@ -9065,7 +9065,7 @@ _G.pg.item_data_statistics[30014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30015] = {
+_G.pg.base.item_data_statistics[30015] = {
 	display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 	name = "크록히드 장비상자 T5",
 	max_num = 0,
@@ -9089,7 +9089,7 @@ _G.pg.item_data_statistics[30015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30021] = {
+_G.pg.base.item_data_statistics[30021] = {
 	display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>비스커 장비상자 T2</color>로 합성 가능.",
 	name = "비스커 장비상자 T1",
 	max_num = 0,
@@ -9113,7 +9113,7 @@ _G.pg.item_data_statistics[30021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30022] = {
+_G.pg.base.item_data_statistics[30022] = {
 	display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>비스커 장비상자 T3</color>로 합성 가능.",
 	name = "비스커 장비상자 T2",
 	max_num = 0,
@@ -9137,7 +9137,7 @@ _G.pg.item_data_statistics[30022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30023] = {
+_G.pg.base.item_data_statistics[30023] = {
 	display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 	name = "비스커 장비상자 T3",
 	max_num = 0,
@@ -9161,7 +9161,7 @@ _G.pg.item_data_statistics[30023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30024] = {
+_G.pg.base.item_data_statistics[30024] = {
 	display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 	name = "비스커 장비상자 T4",
 	max_num = 0,
@@ -9185,7 +9185,7 @@ _G.pg.item_data_statistics[30024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30025] = {
+_G.pg.base.item_data_statistics[30025] = {
 	display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 	name = "비스커 장비상자 T5",
 	max_num = 0,
@@ -9209,7 +9209,7 @@ _G.pg.item_data_statistics[30025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30031] = {
+_G.pg.base.item_data_statistics[30031] = {
 	display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>자오중공 장비상자 T2</color>로 합성 가능.",
 	name = "자오중공 장비상자 T1",
 	max_num = 0,
@@ -9233,7 +9233,7 @@ _G.pg.item_data_statistics[30031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30032] = {
+_G.pg.base.item_data_statistics[30032] = {
 	display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>자오중공 장비상자 T3</color>로 합성 가능.",
 	name = "자오중공 장비상자 T2",
 	max_num = 0,
@@ -9257,7 +9257,7 @@ _G.pg.item_data_statistics[30032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30033] = {
+_G.pg.base.item_data_statistics[30033] = {
 	display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 	name = "자오중공 장비상자 T3",
 	max_num = 0,
@@ -9281,7 +9281,7 @@ _G.pg.item_data_statistics[30033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30034] = {
+_G.pg.base.item_data_statistics[30034] = {
 	display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 	name = "자오중공 장비상자 T4",
 	max_num = 0,
@@ -9305,7 +9305,7 @@ _G.pg.item_data_statistics[30034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30035] = {
+_G.pg.base.item_data_statistics[30035] = {
 	display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 	name = "자오중공 장비상자 T5",
 	max_num = 0,
@@ -9329,7 +9329,7 @@ _G.pg.item_data_statistics[30035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30041] = {
+_G.pg.base.item_data_statistics[30041] = {
 	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>크라프 장비상자 T2</color>로 합성 가능.",
 	name = "크라프 장비상자 T1",
 	max_num = 0,
@@ -9353,7 +9353,7 @@ _G.pg.item_data_statistics[30041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30042] = {
+_G.pg.base.item_data_statistics[30042] = {
 	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크라프 장비상자 T3</color>로 합성 가능.",
 	name = "크라프 장비상자 T2",
 	max_num = 0,
@@ -9377,7 +9377,7 @@ _G.pg.item_data_statistics[30042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30043] = {
+_G.pg.base.item_data_statistics[30043] = {
 	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 	name = "크라프 장비상자 T3",
 	max_num = 0,
@@ -9401,7 +9401,7 @@ _G.pg.item_data_statistics[30043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30044] = {
+_G.pg.base.item_data_statistics[30044] = {
 	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 	name = "크라프 장비상자 T4",
 	max_num = 0,
@@ -9425,7 +9425,7 @@ _G.pg.item_data_statistics[30044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30045] = {
+_G.pg.base.item_data_statistics[30045] = {
 	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 	name = "크라프 장비상자 T5",
 	max_num = 0,
@@ -9449,7 +9449,7 @@ _G.pg.item_data_statistics[30045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30103] = {
+_G.pg.base.item_data_statistics[30103] = {
 	display = "1~4개의 <color=#d797ff>랜덤한 T3 부속</color>을 획득 가능 : \n각 부품의 출현 확률은 <color=#ffde38>동일하다</color>.",
 	name = "T3 부속 상자",
 	max_num = 0,
@@ -9473,7 +9473,7 @@ _G.pg.item_data_statistics[30103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30112] = {
+_G.pg.base.item_data_statistics[30112] = {
 	display = "사용 시 T2 부속 중 1가지 임의 선택 획득 ",
 	name = "지향형 부속T2",
 	max_num = 0,
@@ -9520,7 +9520,7 @@ _G.pg.item_data_statistics[30112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30113] = {
+_G.pg.base.item_data_statistics[30113] = {
 	display = "사용 시 T3 부속 중 1가지 임의 선택 획득",
 	name = "지향형 부속T3",
 	max_num = 0,
@@ -9567,7 +9567,7 @@ _G.pg.item_data_statistics[30113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30114] = {
+_G.pg.base.item_data_statistics[30114] = {
 	display = "사용 시 T4 부속 중 1가지 임의 선택 획득",
 	name = "지향형 부속T4",
 	max_num = 0,
@@ -9614,7 +9614,7 @@ _G.pg.item_data_statistics[30114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30121] = {
+_G.pg.base.item_data_statistics[30121] = {
 	display = "사용 시 1000 연료 획득",
 	name = "연료 비축함(1000)",
 	max_num = 0,
@@ -9641,7 +9641,7 @@ _G.pg.item_data_statistics[30121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30132] = {
+_G.pg.base.item_data_statistics[30132] = {
 	display = "사용 시 T2 개조 도면 중 임의로 1가지 선택하여 획득 가능",
 	name = "지향형 개조 도면 T2",
 	max_num = 0,
@@ -9683,7 +9683,7 @@ _G.pg.item_data_statistics[30132] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30133] = {
+_G.pg.base.item_data_statistics[30133] = {
 	display = "사용 시 T3 개조 도면 중 임의로 1가지 선택하여 획득 가능",
 	name = "지향형 개조 도면 T3",
 	max_num = 0,
@@ -9725,7 +9725,7 @@ _G.pg.item_data_statistics[30133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30201] = {
+_G.pg.base.item_data_statistics[30201] = {
 	display = [[
 이번 이벤트의 <color=#ffde38>한정 장비</color> 1개 획득:
 매우 낮은 확률 <color=#ffde38>SSR 장비</color>
@@ -9753,7 +9753,7 @@ _G.pg.item_data_statistics[30201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30202] = {
+_G.pg.base.item_data_statistics[30202] = {
 	display = "사용 시 아래 지정 <color=#ffde38>SSR 장비</color> 중 1가지 임의 선택 획득 ",
 	name = "지향형 장비 상자·SSR ",
 	max_num = 0,
@@ -9885,7 +9885,7 @@ _G.pg.item_data_statistics[30202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30203] = {
+_G.pg.base.item_data_statistics[30203] = {
 	display = "사용 시 다음 지정 <color=#ffde38>개발 장비</color> 중 1가지 임의로 선택하여 획득 가능",
 	name = "지향형 장비 상자·개발 장비",
 	max_num = 0,
@@ -9942,7 +9942,7 @@ _G.pg.item_data_statistics[30203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30301] = {
+_G.pg.base.item_data_statistics[30301] = {
 	display = "태그에 \"메리 크리스마스다냥! 앞으로도 함께 힘내는 거다냥~\" 이라고 써있다.",
 	name = "아카시가 준 선물",
 	max_num = 0,
@@ -9966,7 +9966,7 @@ _G.pg.item_data_statistics[30301] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30302] = {
+_G.pg.base.item_data_statistics[30302] = {
 	display = "랜덤한 장비 스킨을 획득할 수 있다.",
 	name = "장비 스킨 상자",
 	max_num = 0,
@@ -10056,7 +10056,7 @@ _G.pg.item_data_statistics[30302] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30303] = {
+_G.pg.base.item_data_statistics[30303] = {
 	display = "넵튠 콜라보레이션 장비 스킨을 랜덤으로 입수 가능",
 	name = "장비 스킨 상자 (넵튠)",
 	max_num = 0,
@@ -10156,7 +10156,7 @@ _G.pg.item_data_statistics[30303] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30304] = {
+_G.pg.base.item_data_statistics[30304] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (설날 시리즈 및 해봄이 시리즈) ",
 	name = "장비 스킨 상자 (설날) ",
 	max_num = 0,
@@ -10266,7 +10266,7 @@ _G.pg.item_data_statistics[30304] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30305] = {
+_G.pg.base.item_data_statistics[30305] = {
 	display = "랜덤한 스쿨 시즌 장비 스킨을 1개 획득할 수 있습니다.",
 	name = "장비 스킨 상자 (스쿨 시즌)",
 	max_num = 0,
@@ -10371,7 +10371,7 @@ _G.pg.item_data_statistics[30305] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30306] = {
+_G.pg.base.item_data_statistics[30306] = {
 	display = "랜덤한 장비 스킨을 획득할 수 있다.",
 	name = "장비 스킨 상자",
 	max_num = 0,
@@ -10501,7 +10501,7 @@ _G.pg.item_data_statistics[30306] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30307] = {
+_G.pg.base.item_data_statistics[30307] = {
 	display = "랜덤으로 장비 스킨을 입수할 수 있다.",
 	name = "장비 스킨 상자 (늦여름)",
 	max_num = 0,
@@ -10616,7 +10616,7 @@ _G.pg.item_data_statistics[30307] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30308] = {
+_G.pg.base.item_data_statistics[30308] = {
 	display = "랜덤으로 <칭송받는 자> 콜라보레이션 장비 스킨을 하나 획득한다. ",
 	name = "장비 스킨 상자 (칭송받는 자) ",
 	max_num = 0,
@@ -10731,7 +10731,7 @@ _G.pg.item_data_statistics[30308] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30309] = {
+_G.pg.base.item_data_statistics[30309] = {
 	display = "랜덤한 장비 스킨을 획득할 수 있다.",
 	name = "장비 스킨 상자 (2018 크리스마스) ",
 	max_num = 0,
@@ -10861,7 +10861,7 @@ _G.pg.item_data_statistics[30309] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30310] = {
+_G.pg.base.item_data_statistics[30310] = {
 	display = "랜덤한 장비 스킨을 입수 가능 ",
 	name = "장비 스킨 상자 (기해년) ",
 	max_num = 0,
@@ -10976,7 +10976,7 @@ _G.pg.item_data_statistics[30310] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30311] = {
+_G.pg.base.item_data_statistics[30311] = {
 	display = "랜덤으로 로열 네이비 스타일의 장비 스킨을 획득할 수 있다. ",
 	name = "장비 스킨 상자(로열 네이비) ",
 	max_num = 0,
@@ -11091,7 +11091,7 @@ _G.pg.item_data_statistics[30311] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30312] = {
+_G.pg.base.item_data_statistics[30312] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (설날 시리즈 및 해봄이 시리즈) ",
 	name = "장비 스킨 상자 (설날) ",
 	max_num = 0,
@@ -11201,7 +11201,7 @@ _G.pg.item_data_statistics[30312] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30313] = {
+_G.pg.base.item_data_statistics[30313] = {
 	display = "랜덤으로 키즈나 아이 컬레버래이션 장비 스킨을 획득한다. ",
 	name = "장비 스킨 상자 (키즈나 아이) ",
 	max_num = 0,
@@ -11321,7 +11321,7 @@ _G.pg.item_data_statistics[30313] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30314] = {
+_G.pg.base.item_data_statistics[30314] = {
 	display = "랜덤으로 장비 스킨을 하나 획득할 수 있다. ",
 	name = "장비 스킨 상자(사르데냐) ",
 	max_num = 0,
@@ -11436,7 +11436,7 @@ _G.pg.item_data_statistics[30314] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30315] = {
+_G.pg.base.item_data_statistics[30315] = {
 	display = "랜덤으로 장비 스킨을 하나 획득할 수 있다. ",
 	name = "장비 스킨 상자(격주) ",
 	max_num = 0,
@@ -11551,7 +11551,7 @@ _G.pg.item_data_statistics[30315] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30316] = {
+_G.pg.base.item_data_statistics[30316] = {
 	display = "랜덤의 장비 스킨을 획득할 수 있다. ",
 	name = "장비 스킨 상자(holo )",
 	max_num = 0,
@@ -11666,7 +11666,7 @@ _G.pg.item_data_statistics[30316] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30317] = {
+_G.pg.base.item_data_statistics[30317] = {
 	display = "랜덤으로 장비 스킨을 하나 획득할 수 있다. ",
 	name = "장비 스킨 상자(노스 유니온) ",
 	max_num = 0,
@@ -11781,7 +11781,7 @@ _G.pg.item_data_statistics[30317] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30318] = {
+_G.pg.base.item_data_statistics[30318] = {
 	display = "이글 유니온 스타일 장비 스킨을 랜덤으로 1개 획득 ",
 	name = "장비 스킨 상자(이글 유니온) ",
 	max_num = 0,
@@ -11896,7 +11896,7 @@ _G.pg.item_data_statistics[30318] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30319] = {
+_G.pg.base.item_data_statistics[30319] = {
 	display = "아이리스 스타일 장비 스킨을 랜덤으로 1개 획득 ",
 	name = "장비 스킨 상자(아이리스) ",
 	max_num = 0,
@@ -12011,7 +12011,7 @@ _G.pg.item_data_statistics[30319] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30320] = {
+_G.pg.base.item_data_statistics[30320] = {
 	display = "병원 스타일의 장비 스킨 랜덤 획득 ",
 	name = "장비 스킨 상자(의료) ",
 	max_num = 0,
@@ -12126,7 +12126,7 @@ _G.pg.item_data_statistics[30320] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30321] = {
+_G.pg.base.item_data_statistics[30321] = {
 	display = "사쿠라 엠파이어 스타일 장비 스킨 1개 랜덤 획득 가능. ",
 	name = "장비 스킨 상자(IJN)",
 	max_num = 0,
@@ -12241,7 +12241,7 @@ _G.pg.item_data_statistics[30321] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30322] = {
+_G.pg.base.item_data_statistics[30322] = {
 	display = "격창 스타일 장비 스킨 1개 랜덤 획득 가능",
 	name = "장비 스킨 상자(격창)",
 	max_num = 0,
@@ -12356,7 +12356,7 @@ _G.pg.item_data_statistics[30322] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30323] = {
+_G.pg.base.item_data_statistics[30323] = {
 	display = "비너스 휴가 스타일의 장비스킨을 임의로 획득 가능",
 	name = "장비스킨 상자(비너스 휴가)",
 	max_num = 0,
@@ -12471,7 +12471,7 @@ _G.pg.item_data_statistics[30323] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30324] = {
+_G.pg.base.item_data_statistics[30324] = {
 	display = "메탈 블러드 스타일 장비스킨 랜덤 획득",
 	name = "장비스킨 상자(KMS)",
 	max_num = 0,
@@ -12586,7 +12586,7 @@ _G.pg.item_data_statistics[30324] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30325] = {
+_G.pg.base.item_data_statistics[30325] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (2021설날 시리즈) ",
 	name = "장비 스킨 상자(2021설날)",
 	max_num = 0,
@@ -12701,7 +12701,7 @@ _G.pg.item_data_statistics[30325] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30326] = {
+_G.pg.base.item_data_statistics[30326] = {
 	display = "랜덤으로 놀이동산 스타일의 장비 스킨 1개를 획득 가능 ",
 	name = "장비스킨 상자(놀이동산)",
 	max_num = 0,
@@ -12816,7 +12816,7 @@ _G.pg.item_data_statistics[30326] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30327] = {
+_G.pg.base.item_data_statistics[30327] = {
 	display = "아이돌 마스터 스타일 장비스킨 1개 랜덤 획득",
 	name = "장비스킨 상자(아이돌 마스터)",
 	max_num = 0,
@@ -12931,7 +12931,7 @@ _G.pg.item_data_statistics[30327] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30328] = {
+_G.pg.base.item_data_statistics[30328] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (웨스턴) ",
 	name = "장비스킨 상자(웨스턴)",
 	max_num = 0,
@@ -13046,7 +13046,7 @@ _G.pg.item_data_statistics[30328] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30329] = {
+_G.pg.base.item_data_statistics[30329] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (워터파크)",
 	name = "장비 스킨 상자(워터파크)",
 	max_num = 0,
@@ -13161,7 +13161,7 @@ _G.pg.item_data_statistics[30329] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30330] = {
+_G.pg.base.item_data_statistics[30330] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (SSSS)",
 	name = "장비 스킨 상자(SSSS)",
 	max_num = 0,
@@ -13276,7 +13276,7 @@ _G.pg.item_data_statistics[30330] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30331] = {
+_G.pg.base.item_data_statistics[30331] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (메이드 카페)",
 	name = "장비 스킨 상자(메이드 카페)",
 	max_num = 0,
@@ -13391,7 +13391,7 @@ _G.pg.item_data_statistics[30331] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30332] = {
+_G.pg.base.item_data_statistics[30332] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (2022설날 시리즈) ",
 	name = "장비 스킨 상자(2022설날)",
 	max_num = 0,
@@ -13506,7 +13506,7 @@ _G.pg.item_data_statistics[30332] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30333] = {
+_G.pg.base.item_data_statistics[30333] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (블러드 문) ",
 	name = "장비 스킨 상자(블러드 문)",
 	max_num = 0,
@@ -13621,7 +13621,7 @@ _G.pg.item_data_statistics[30333] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30401] = {
+_G.pg.base.item_data_statistics[30401] = {
 	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
 	name = "장비스킨 상자(월드 투어)",
 	max_num = 0,
@@ -13663,7 +13663,7 @@ _G.pg.item_data_statistics[30401] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30402] = {
+_G.pg.base.item_data_statistics[30402] = {
 	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
 	name = "장비스킨 상자(월드 투어)",
 	max_num = 0,
@@ -13705,7 +13705,7 @@ _G.pg.item_data_statistics[30402] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30501] = {
+_G.pg.base.item_data_statistics[30501] = {
 	display = "사용 후 「뜨거운 여름」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
 	name = "지향형 장비 스킨 상자(늦여름)",
 	max_num = 0,
@@ -13817,7 +13817,7 @@ _G.pg.item_data_statistics[30501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30502] = {
+_G.pg.base.item_data_statistics[30502] = {
 	display = "사용 시 「바다표범」, 「근하신년」 시리즈 장비 스킨 중 임의로 1가지 선택 획득",
 	name = "지향형 장비스킨 상자(춘절)",
 	max_num = 0,
@@ -13924,7 +13924,7 @@ _G.pg.item_data_statistics[30502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30503] = {
+_G.pg.base.item_data_statistics[30503] = {
 	display = "랜덤한 장비 스킨을 입수할 수 있다. (스쿨 시즌)",
 	name = "장비 스킨 상자 (스쿨 시즌)",
 	max_num = 0,
@@ -14026,7 +14026,7 @@ _G.pg.item_data_statistics[30503] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30900] = {
+_G.pg.base.item_data_statistics[30900] = {
 	display = "사용 시 T4 부속 중 임의로 1가지를 선택하여 획득",
 	name = "지향형 부속T4",
 	max_num = 0,
@@ -14073,7 +14073,7 @@ _G.pg.item_data_statistics[30900] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30911] = {
+_G.pg.base.item_data_statistics[30911] = {
 	display = "사용 시 R 개발 재료 중 임의로 1가지를 선택하여 획득",
 	name = "지향형·R 개발 재료 상자",
 	max_num = 0,
@@ -14115,7 +14115,7 @@ _G.pg.item_data_statistics[30911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30912] = {
+_G.pg.base.item_data_statistics[30912] = {
 	display = "사용 시 SR 개발 재료 중 임의로 1가지를 선택하여 획득",
 	name = "지향형·SR 개발 재료 상자",
 	max_num = 0,
@@ -14167,7 +14167,7 @@ _G.pg.item_data_statistics[30912] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30913] = {
+_G.pg.base.item_data_statistics[30913] = {
 	display = "사용 시 T3 부속 중 임의로 1가지를 선택하여 획득",
 	name = "지향형·SSR 개발 재료 상자",
 	max_num = 0,
@@ -14219,7 +14219,7 @@ _G.pg.item_data_statistics[30913] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30914] = {
+_G.pg.base.item_data_statistics[30914] = {
 	display = "사용 시 T3 부속 중 임의로 1가지를 선택하여 획득",
 	name = "장비 개발 도면 SSR형",
 	max_num = 0,
@@ -14261,7 +14261,7 @@ _G.pg.item_data_statistics[30914] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[30915] = {
+_G.pg.base.item_data_statistics[30915] = {
 	display = "사용 시 T3 부속 중 임의로 1가지를 선택하여 획득",
 	name = "장비 개발 도면 UR형",
 	max_num = 0,
@@ -14303,7 +14303,7 @@ _G.pg.item_data_statistics[30915] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40000] = {
+_G.pg.base.item_data_statistics[40000] = {
 	display = "무료로 패키지를 수령하여 대량의 연료 및 재료를 획득 가능",
 	name = "매주 무료 패키지",
 	max_num = 0,
@@ -14355,7 +14355,7 @@ _G.pg.item_data_statistics[40000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40004] = {
+_G.pg.base.item_data_statistics[40004] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "홍염 건조 패키지",
 	max_num = 0,
@@ -14392,7 +14392,7 @@ _G.pg.item_data_statistics[40004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40005] = {
+_G.pg.base.item_data_statistics[40005] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "Lv.10 패키지",
 	max_num = 0,
@@ -14439,7 +14439,7 @@ _G.pg.item_data_statistics[40005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40006] = {
+_G.pg.base.item_data_statistics[40006] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "Lv.20 패키지",
 	max_num = 0,
@@ -14486,7 +14486,7 @@ _G.pg.item_data_statistics[40006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40007] = {
+_G.pg.base.item_data_statistics[40007] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "Lv.30 패키지",
 	max_num = 0,
@@ -14548,7 +14548,7 @@ _G.pg.item_data_statistics[40007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40008] = {
+_G.pg.base.item_data_statistics[40008] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "Lv.50 패키지",
 	max_num = 0,
@@ -14610,7 +14610,7 @@ _G.pg.item_data_statistics[40008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40009] = {
+_G.pg.base.item_data_statistics[40009] = {
 	display = "구입하면 장비상자 T3 2개와 몇 가지 재료를 얻을 수 있습니다.",
 	name = "보너스 패키지",
 	max_num = 0,
@@ -14652,7 +14652,7 @@ _G.pg.item_data_statistics[40009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40012] = {
+_G.pg.base.item_data_statistics[40012] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "신입 지휘관 지원 패키지·I",
 	max_num = 0,
@@ -14714,7 +14714,7 @@ _G.pg.item_data_statistics[40012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40013] = {
+_G.pg.base.item_data_statistics[40013] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "신입 지휘관 지원 패키지·II",
 	max_num = 0,
@@ -14801,7 +14801,7 @@ _G.pg.item_data_statistics[40013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40014] = {
+_G.pg.base.item_data_statistics[40014] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "신입 지휘관 지원 패키지·III",
 	max_num = 0,
@@ -14893,7 +14893,7 @@ _G.pg.item_data_statistics[40014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40015] = {
+_G.pg.base.item_data_statistics[40015] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "대형 작전 공략 지원팩",
 	max_num = 0,
@@ -14975,7 +14975,7 @@ _G.pg.item_data_statistics[40015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40016] = {
+_G.pg.base.item_data_statistics[40016] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "PR함 개발 패키지(제1기)-고급",
 	max_num = 0,
@@ -15007,7 +15007,7 @@ _G.pg.item_data_statistics[40016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40017] = {
+_G.pg.base.item_data_statistics[40017] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "PR함 개발 패키지(제1기)-일반",
 	max_num = 0,
@@ -15034,7 +15034,7 @@ _G.pg.item_data_statistics[40017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40018] = {
+_G.pg.base.item_data_statistics[40018] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "PR함 개발 패키지(제1기)-업그레이드",
 	max_num = 0,
@@ -15061,7 +15061,7 @@ _G.pg.item_data_statistics[40018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40019] = {
+_G.pg.base.item_data_statistics[40019] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "PR함 개발 패키지(제2기)-고급",
 	max_num = 0,
@@ -15093,7 +15093,7 @@ _G.pg.item_data_statistics[40019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40020] = {
+_G.pg.base.item_data_statistics[40020] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "PR함 개발 패키지(제2기)-일반",
 	max_num = 0,
@@ -15120,7 +15120,7 @@ _G.pg.item_data_statistics[40020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40021] = {
+_G.pg.base.item_data_statistics[40021] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "PR함 개발 패키지(제2기)-업그레이드",
 	max_num = 0,
@@ -15147,7 +15147,7 @@ _G.pg.item_data_statistics[40021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40022] = {
+_G.pg.base.item_data_statistics[40022] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "즉시 출격 패키지",
 	max_num = 0,
@@ -15334,7 +15334,7 @@ _G.pg.item_data_statistics[40022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40023] = {
+_G.pg.base.item_data_statistics[40023] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "스킬 교본 패키지",
 	max_num = 0,
@@ -15386,7 +15386,7 @@ _G.pg.item_data_statistics[40023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40100] = {
+_G.pg.base.item_data_statistics[40100] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "백년가약 패키지",
 	max_num = 0,
@@ -15413,7 +15413,7 @@ _G.pg.item_data_statistics[40100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40102] = {
+_G.pg.base.item_data_statistics[40102] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "홍염 보급 패키지",
 	max_num = 0,
@@ -15440,7 +15440,7 @@ _G.pg.item_data_statistics[40102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40103] = {
+_G.pg.base.item_data_statistics[40103] = {
 	display = "구입하면 가구 코인 500개, 풀 코스 요리 3개를 얻을 수 있습니다.",
 	name = "숙소 보급 패키지",
 	max_num = 0,
@@ -15472,7 +15472,7 @@ _G.pg.item_data_statistics[40103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40104] = {
+_G.pg.base.item_data_statistics[40104] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "한정 건조 패키지",
 	max_num = 0,
@@ -15509,7 +15509,7 @@ _G.pg.item_data_statistics[40104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40105] = {
+_G.pg.base.item_data_statistics[40105] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "한정 공략 패키지 ",
 	max_num = 0,
@@ -15536,7 +15536,7 @@ _G.pg.item_data_statistics[40105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40106] = {
+_G.pg.base.item_data_statistics[40106] = {
 	display = "가구 코인 500, 풀 코스 요리 3개 획득 가능",
 	name = "가구 코인 패키지",
 	max_num = 0,
@@ -15568,7 +15568,7 @@ _G.pg.item_data_statistics[40106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40107] = {
+_G.pg.base.item_data_statistics[40107] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "한정 공략 패키지 ",
 	max_num = 0,
@@ -15595,7 +15595,7 @@ _G.pg.item_data_statistics[40107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40108] = {
+_G.pg.base.item_data_statistics[40108] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "한정 건조 패키지",
 	max_num = 0,
@@ -15632,7 +15632,7 @@ _G.pg.item_data_statistics[40108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40109] = {
+_G.pg.base.item_data_statistics[40109] = {
 	display = "패키지를 구매하여 대량의 재료를 입수 가능",
 	name = "한정 공략 보급",
 	max_num = 0,
@@ -15659,7 +15659,7 @@ _G.pg.item_data_statistics[40109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40110] = {
+_G.pg.base.item_data_statistics[40110] = {
 	display = "패키지를 구매하여 대량의 재료를 입수 가능",
 	name = "한정 건조 보급",
 	max_num = 0,
@@ -15696,7 +15696,7 @@ _G.pg.item_data_statistics[40110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40111] = {
+_G.pg.base.item_data_statistics[40111] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "아이리스 공략 패키지 ",
 	max_num = 0,
@@ -15723,7 +15723,7 @@ _G.pg.item_data_statistics[40111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40112] = {
+_G.pg.base.item_data_statistics[40112] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "아이리스 건조 패키지",
 	max_num = 0,
@@ -15760,7 +15760,7 @@ _G.pg.item_data_statistics[40112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40113] = {
+_G.pg.base.item_data_statistics[40113] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "한정 공략 패키지",
 	max_num = 0,
@@ -15787,7 +15787,7 @@ _G.pg.item_data_statistics[40113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40114] = {
+_G.pg.base.item_data_statistics[40114] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "한정 건조 패키지",
 	max_num = 0,
@@ -15824,7 +15824,7 @@ _G.pg.item_data_statistics[40114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40115] = {
+_G.pg.base.item_data_statistics[40115] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "특별 패키지 구매",
 	max_num = 0,
@@ -15851,7 +15851,7 @@ _G.pg.item_data_statistics[40115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40116] = {
+_G.pg.base.item_data_statistics[40116] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "건조 패키지 구매",
 	max_num = 0,
@@ -15888,7 +15888,7 @@ _G.pg.item_data_statistics[40116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40117] = {
+_G.pg.base.item_data_statistics[40117] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "한정 공략 패키지 ",
 	max_num = 0,
@@ -15915,7 +15915,7 @@ _G.pg.item_data_statistics[40117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40118] = {
+_G.pg.base.item_data_statistics[40118] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 	name = "한정 건조 패키지",
 	max_num = 0,
@@ -15952,7 +15952,7 @@ _G.pg.item_data_statistics[40118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40119] = {
+_G.pg.base.item_data_statistics[40119] = {
 	display = "패키지 구매 시 성정 유닛*1000 획득 가능",
 	name = "성정 유닛 패키지",
 	max_num = 0,
@@ -15979,7 +15979,7 @@ _G.pg.item_data_statistics[40119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40124] = {
+_G.pg.base.item_data_statistics[40124] = {
 	display = [[
 연구-개발 도크 화면에서 모나크, 넵튠, 론, 생 루이, 이부키, 이즈모 중 레벨1 및 개발 레벨1의 캐릭터 선택 획득 가능
 <color=#92fc63>위의 캐릭터 모두 보유 후</color>, 창고에서 아이템 사용 시 획득:
@@ -16033,7 +16033,7 @@ _G.pg.item_data_statistics[40124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40125] = {
+_G.pg.base.item_data_statistics[40125] = {
 	display = [[
 연구-개발 도크 화면에서 시애틀, 조지아, 키타카제, 가스코뉴 중 레벨1 및 개발 레벨1의 캐릭터 선택 획득 가능
 <color=#92fc63>위의 캐릭터 모두 보유 후</color>, 창고에서 아이템 사용 시 획득:
@@ -16087,7 +16087,7 @@ _G.pg.item_data_statistics[40125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40126] = {
+_G.pg.base.item_data_statistics[40126] = {
 	display = "지휘관 레벨이 70 미만일 경우, 즉시 70레벨까지 상승(70 이상일 경우 효과 없음)",
 	name = "지휘관 레벨 70",
 	max_num = 0,
@@ -16108,7 +16108,7 @@ _G.pg.item_data_statistics[40126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40902] = {
+_G.pg.base.item_data_statistics[40902] = {
 	display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2019 다이아, 성정 유닛 50개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
 	name = "아카시 패키지",
 	max_num = 0,
@@ -16160,7 +16160,7 @@ _G.pg.item_data_statistics[40902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40903] = {
+_G.pg.base.item_data_statistics[40903] = {
 	display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2019 다이아, 성정 유닛 50개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
 	name = "신년 패키지(2019) ",
 	max_num = 0,
@@ -16212,7 +16212,7 @@ _G.pg.item_data_statistics[40903] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40904] = {
+_G.pg.base.item_data_statistics[40904] = {
 	display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2019 다이아, 성정 유닛 50개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
 	name = "아카시 패키지(2019) ",
 	max_num = 0,
@@ -16264,7 +16264,7 @@ _G.pg.item_data_statistics[40904] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40905] = {
+_G.pg.base.item_data_statistics[40905] = {
 	display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2019 다이아, 성정 유닛 50개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
 	name = "랜덤 스페셜 스킨",
 	max_num = 0,
@@ -16316,7 +16316,7 @@ _G.pg.item_data_statistics[40905] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40906] = {
+_G.pg.base.item_data_statistics[40906] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2019, 성정 유닛*50, 성정 큐브*20, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥! ",
 	name = "2019 가을 스킨 패키지 ",
 	max_num = 0,
@@ -16368,7 +16368,7 @@ _G.pg.item_data_statistics[40906] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40908] = {
+_G.pg.base.item_data_statistics[40908] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2020, 성정 유닛*50, 상급 지향형 강화 유닛-제2기*2, 성정 큐브*20, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥! ",
 	name = "신년 패키지(2020) ",
 	max_num = 0,
@@ -16425,7 +16425,7 @@ _G.pg.item_data_statistics[40908] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40909] = {
+_G.pg.base.item_data_statistics[40909] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2020, 성정 유닛*50, 상급 지향형 강화 유닛-제2기*2, 성정 큐브*20, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥! ",
 	name = "아카시 패키지(2020) ",
 	max_num = 0,
@@ -16482,7 +16482,7 @@ _G.pg.item_data_statistics[40909] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40910] = {
+_G.pg.base.item_data_statistics[40910] = {
 	display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2020 다이아, 성정 유닛 50개, 상급 지향형 강화 유닛 - 제2기 2개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
 	name = "연회복 패키지 ",
 	max_num = 0,
@@ -16539,7 +16539,7 @@ _G.pg.item_data_statistics[40910] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40911] = {
+_G.pg.base.item_data_statistics[40911] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 연회복 스킨*1, 다이아*2020, 성정 유닛*50, 성정 큐브*20, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
 	name = "2020 가을 연회복 패키지",
 	max_num = 0,
@@ -16596,7 +16596,7 @@ _G.pg.item_data_statistics[40911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40912] = {
+_G.pg.base.item_data_statistics[40912] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2021, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제3기*2, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
 	name = "신년 패키지(2021)",
 	max_num = 0,
@@ -16653,7 +16653,7 @@ _G.pg.item_data_statistics[40912] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40913] = {
+_G.pg.base.item_data_statistics[40913] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2021, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제3기*2, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
 	name = "복주머니(2021)",
 	max_num = 0,
@@ -16710,7 +16710,7 @@ _G.pg.item_data_statistics[40913] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40914] = {
+_G.pg.base.item_data_statistics[40914] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2021, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제3기*2, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
 	name = "연회복 패키지(2021)",
 	max_num = 0,
@@ -16767,7 +16767,7 @@ _G.pg.item_data_statistics[40914] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40915] = {
+_G.pg.base.item_data_statistics[40915] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2021, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제4기*2, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
 	name = "2021 가을 연회복 패키지",
 	max_num = 0,
@@ -16824,7 +16824,7 @@ _G.pg.item_data_statistics[40915] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40916] = {
+_G.pg.base.item_data_statistics[40916] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2022, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제3기*2, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
 	name = "신년 패키지(2022)",
 	max_num = 0,
@@ -16881,7 +16881,7 @@ _G.pg.item_data_statistics[40916] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40917] = {
+_G.pg.base.item_data_statistics[40917] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2022, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제3기*2, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
 	name = "복주머니(2022)",
 	max_num = 0,
@@ -16938,7 +16938,34 @@ _G.pg.item_data_statistics[40917] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[40941] = {
+_G.pg.base.item_data_statistics[40918] = {
+	display = "1",
+	name = "福袋",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai0",
+	id = 40918,
+	display_icon = {
+		{
+			7,
+			801072,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[40941] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2020, 성정 유닛*50, 상급 지향형 강화 유닛-제2기*2, 성정 큐브*20, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥! ",
 	name = "아카시 패키지(2020) ",
 	max_num = 0,
@@ -16995,7 +17022,7 @@ _G.pg.item_data_statistics[40941] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41201] = {
+_G.pg.base.item_data_statistics[41201] = {
 	display = "범용형 부린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17016,7 +17043,7 @@ _G.pg.item_data_statistics[41201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41202] = {
+_G.pg.base.item_data_statistics[41202] = {
 	display = "시제형 부린 MKⅡ에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17037,7 +17064,7 @@ _G.pg.item_data_statistics[41202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41203] = {
+_G.pg.base.item_data_statistics[41203] = {
 	display = "캐신에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17058,7 +17085,7 @@ _G.pg.item_data_statistics[41203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41204] = {
+_G.pg.base.item_data_statistics[41204] = {
 	display = "다운즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17079,7 +17106,7 @@ _G.pg.item_data_statistics[41204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41205] = {
+_G.pg.base.item_data_statistics[41205] = {
 	display = "그리들리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17100,7 +17127,7 @@ _G.pg.item_data_statistics[41205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41206] = {
+_G.pg.base.item_data_statistics[41206] = {
 	display = "크레이븐에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17121,7 +17148,7 @@ _G.pg.item_data_statistics[41206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41207] = {
+_G.pg.base.item_data_statistics[41207] = {
 	display = "맥콜에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17142,7 +17169,7 @@ _G.pg.item_data_statistics[41207] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41208] = {
+_G.pg.base.item_data_statistics[41208] = {
 	display = "모리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17163,7 +17190,7 @@ _G.pg.item_data_statistics[41208] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41209] = {
+_G.pg.base.item_data_statistics[41209] = {
 	display = "플레처에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17184,7 +17211,7 @@ _G.pg.item_data_statistics[41209] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41210] = {
+_G.pg.base.item_data_statistics[41210] = {
 	display = "찰스 오스본에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17205,7 +17232,7 @@ _G.pg.item_data_statistics[41210] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41211] = {
+_G.pg.base.item_data_statistics[41211] = {
 	display = "대처에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17226,7 +17253,7 @@ _G.pg.item_data_statistics[41211] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41212] = {
+_G.pg.base.item_data_statistics[41212] = {
 	display = "얼릭에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17247,7 +17274,7 @@ _G.pg.item_data_statistics[41212] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41213] = {
+_G.pg.base.item_data_statistics[41213] = {
 	display = "푸트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17268,7 +17295,7 @@ _G.pg.item_data_statistics[41213] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41214] = {
+_G.pg.base.item_data_statistics[41214] = {
 	display = "스펜스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17289,7 +17316,7 @@ _G.pg.item_data_statistics[41214] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41215] = {
+_G.pg.base.item_data_statistics[41215] = {
 	display = "벤슨에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17310,7 +17337,7 @@ _G.pg.item_data_statistics[41215] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41216] = {
+_G.pg.base.item_data_statistics[41216] = {
 	display = "라피에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17331,7 +17358,7 @@ _G.pg.item_data_statistics[41216] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41217] = {
+_G.pg.base.item_data_statistics[41217] = {
 	display = "심즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17352,7 +17379,7 @@ _G.pg.item_data_statistics[41217] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41218] = {
+_G.pg.base.item_data_statistics[41218] = {
 	display = "허먼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17373,7 +17400,7 @@ _G.pg.item_data_statistics[41218] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41219] = {
+_G.pg.base.item_data_statistics[41219] = {
 	display = "엘드릿지에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17394,7 +17421,7 @@ _G.pg.item_data_statistics[41219] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41220] = {
+_G.pg.base.item_data_statistics[41220] = {
 	display = "오마하에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17415,7 +17442,7 @@ _G.pg.item_data_statistics[41220] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41221] = {
+_G.pg.base.item_data_statistics[41221] = {
 	display = "롤리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17436,7 +17463,7 @@ _G.pg.item_data_statistics[41221] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41222] = {
+_G.pg.base.item_data_statistics[41222] = {
 	display = "브루클린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17457,7 +17484,7 @@ _G.pg.item_data_statistics[41222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41223] = {
+_G.pg.base.item_data_statistics[41223] = {
 	display = "피닉스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17478,7 +17505,7 @@ _G.pg.item_data_statistics[41223] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41224] = {
+_G.pg.base.item_data_statistics[41224] = {
 	display = "헬레나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17499,7 +17526,7 @@ _G.pg.item_data_statistics[41224] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41225] = {
+_G.pg.base.item_data_statistics[41225] = {
 	display = "애틀란타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17520,7 +17547,7 @@ _G.pg.item_data_statistics[41225] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41226] = {
+_G.pg.base.item_data_statistics[41226] = {
 	display = "쥬노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17541,7 +17568,7 @@ _G.pg.item_data_statistics[41226] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41227] = {
+_G.pg.base.item_data_statistics[41227] = {
 	display = "샌디에이고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17562,7 +17589,7 @@ _G.pg.item_data_statistics[41227] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41228] = {
+_G.pg.base.item_data_statistics[41228] = {
 	display = "클리블랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17583,7 +17610,7 @@ _G.pg.item_data_statistics[41228] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41229] = {
+_G.pg.base.item_data_statistics[41229] = {
 	display = "컬럼비아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17604,7 +17631,7 @@ _G.pg.item_data_statistics[41229] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41230] = {
+_G.pg.base.item_data_statistics[41230] = {
 	display = "펜사콜라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17625,7 +17652,7 @@ _G.pg.item_data_statistics[41230] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41231] = {
+_G.pg.base.item_data_statistics[41231] = {
 	display = "솔트레이크시티에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17646,7 +17673,7 @@ _G.pg.item_data_statistics[41231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41232] = {
+_G.pg.base.item_data_statistics[41232] = {
 	display = "노샘프턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17667,7 +17694,7 @@ _G.pg.item_data_statistics[41232] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41233] = {
+_G.pg.base.item_data_statistics[41233] = {
 	display = "시카고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17688,7 +17715,7 @@ _G.pg.item_data_statistics[41233] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41234] = {
+_G.pg.base.item_data_statistics[41234] = {
 	display = "휴스턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17709,7 +17736,7 @@ _G.pg.item_data_statistics[41234] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41235] = {
+_G.pg.base.item_data_statistics[41235] = {
 	display = "포틀랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17730,7 +17757,7 @@ _G.pg.item_data_statistics[41235] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41236] = {
+_G.pg.base.item_data_statistics[41236] = {
 	display = "인디애나폴리스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17751,7 +17778,7 @@ _G.pg.item_data_statistics[41236] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41237] = {
+_G.pg.base.item_data_statistics[41237] = {
 	display = "아스토리아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17772,7 +17799,7 @@ _G.pg.item_data_statistics[41237] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41238] = {
+_G.pg.base.item_data_statistics[41238] = {
 	display = "퀸시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17793,7 +17820,7 @@ _G.pg.item_data_statistics[41238] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41239] = {
+_G.pg.base.item_data_statistics[41239] = {
 	display = "빈센스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17814,7 +17841,7 @@ _G.pg.item_data_statistics[41239] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41240] = {
+_G.pg.base.item_data_statistics[41240] = {
 	display = "위치타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17835,7 +17862,7 @@ _G.pg.item_data_statistics[41240] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41241] = {
+_G.pg.base.item_data_statistics[41241] = {
 	display = "네바다에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17856,7 +17883,7 @@ _G.pg.item_data_statistics[41241] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41242] = {
+_G.pg.base.item_data_statistics[41242] = {
 	display = "오클라호마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17877,7 +17904,7 @@ _G.pg.item_data_statistics[41242] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41243] = {
+_G.pg.base.item_data_statistics[41243] = {
 	display = "펜실베이니아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17898,7 +17925,7 @@ _G.pg.item_data_statistics[41243] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41244] = {
+_G.pg.base.item_data_statistics[41244] = {
 	display = "애리조나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17919,7 +17946,7 @@ _G.pg.item_data_statistics[41244] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41245] = {
+_G.pg.base.item_data_statistics[41245] = {
 	display = "테네시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17940,7 +17967,7 @@ _G.pg.item_data_statistics[41245] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41246] = {
+_G.pg.base.item_data_statistics[41246] = {
 	display = "캘리포니아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17961,7 +17988,7 @@ _G.pg.item_data_statistics[41246] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41247] = {
+_G.pg.base.item_data_statistics[41247] = {
 	display = "콜로라도에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -17982,7 +18009,7 @@ _G.pg.item_data_statistics[41247] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41248] = {
+_G.pg.base.item_data_statistics[41248] = {
 	display = "메릴랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18003,7 +18030,7 @@ _G.pg.item_data_statistics[41248] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41249] = {
+_G.pg.base.item_data_statistics[41249] = {
 	display = "웨스트버지니아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18024,7 +18051,7 @@ _G.pg.item_data_statistics[41249] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41250] = {
+_G.pg.base.item_data_statistics[41250] = {
 	display = "노스캐롤라이나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18045,7 +18072,7 @@ _G.pg.item_data_statistics[41250] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41251] = {
+_G.pg.base.item_data_statistics[41251] = {
 	display = "워싱턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18066,7 +18093,7 @@ _G.pg.item_data_statistics[41251] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41252] = {
+_G.pg.base.item_data_statistics[41252] = {
 	display = "사우스다코타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18087,7 +18114,7 @@ _G.pg.item_data_statistics[41252] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41253] = {
+_G.pg.base.item_data_statistics[41253] = {
 	display = "롱 아일랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18108,7 +18135,7 @@ _G.pg.item_data_statistics[41253] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41254] = {
+_G.pg.base.item_data_statistics[41254] = {
 	display = "보그에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18129,7 +18156,7 @@ _G.pg.item_data_statistics[41254] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41255] = {
+_G.pg.base.item_data_statistics[41255] = {
 	display = "랭글리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18150,7 +18177,7 @@ _G.pg.item_data_statistics[41255] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41256] = {
+_G.pg.base.item_data_statistics[41256] = {
 	display = "렉싱턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18171,7 +18198,7 @@ _G.pg.item_data_statistics[41256] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41257] = {
+_G.pg.base.item_data_statistics[41257] = {
 	display = "새러토가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18192,7 +18219,7 @@ _G.pg.item_data_statistics[41257] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41258] = {
+_G.pg.base.item_data_statistics[41258] = {
 	display = "레인저에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18213,7 +18240,7 @@ _G.pg.item_data_statistics[41258] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41259] = {
+_G.pg.base.item_data_statistics[41259] = {
 	display = "요크타운에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18234,7 +18261,7 @@ _G.pg.item_data_statistics[41259] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41260] = {
+_G.pg.base.item_data_statistics[41260] = {
 	display = "엔터프라이즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18255,7 +18282,7 @@ _G.pg.item_data_statistics[41260] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41261] = {
+_G.pg.base.item_data_statistics[41261] = {
 	display = "호넷에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18276,7 +18303,7 @@ _G.pg.item_data_statistics[41261] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41262] = {
+_G.pg.base.item_data_statistics[41262] = {
 	display = "와스프에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18297,7 +18324,7 @@ _G.pg.item_data_statistics[41262] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41263] = {
+_G.pg.base.item_data_statistics[41263] = {
 	display = "베스탈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18318,7 +18345,7 @@ _G.pg.item_data_statistics[41263] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41264] = {
+_G.pg.base.item_data_statistics[41264] = {
 	display = "아마존에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18339,7 +18366,7 @@ _G.pg.item_data_statistics[41264] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41265] = {
+_G.pg.base.item_data_statistics[41265] = {
 	display = "아카스타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18360,7 +18387,7 @@ _G.pg.item_data_statistics[41265] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41266] = {
+_G.pg.base.item_data_statistics[41266] = {
 	display = "아덴트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18381,7 +18408,7 @@ _G.pg.item_data_statistics[41266] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41267] = {
+_G.pg.base.item_data_statistics[41267] = {
 	display = "비글에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18402,7 +18429,7 @@ _G.pg.item_data_statistics[41267] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41268] = {
+_G.pg.base.item_data_statistics[41268] = {
 	display = "불독에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18423,7 +18450,7 @@ _G.pg.item_data_statistics[41268] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41269] = {
+_G.pg.base.item_data_statistics[41269] = {
 	display = "코멧에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18444,7 +18471,7 @@ _G.pg.item_data_statistics[41269] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41270] = {
+_G.pg.base.item_data_statistics[41270] = {
 	display = "크레센트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18465,7 +18492,7 @@ _G.pg.item_data_statistics[41270] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41271] = {
+_G.pg.base.item_data_statistics[41271] = {
 	display = "시그넷에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18486,7 +18513,7 @@ _G.pg.item_data_statistics[41271] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41272] = {
+_G.pg.base.item_data_statistics[41272] = {
 	display = "폭스하운드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18507,7 +18534,7 @@ _G.pg.item_data_statistics[41272] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41273] = {
+_G.pg.base.item_data_statistics[41273] = {
 	display = "포춘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18528,7 +18555,7 @@ _G.pg.item_data_statistics[41273] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41274] = {
+_G.pg.base.item_data_statistics[41274] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18549,7 +18576,7 @@ _G.pg.item_data_statistics[41274] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41275] = {
+_G.pg.base.item_data_statistics[41275] = {
 	display = "글로우웜에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18570,7 +18597,7 @@ _G.pg.item_data_statistics[41275] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41276] = {
+_G.pg.base.item_data_statistics[41276] = {
 	display = "재블린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18591,7 +18618,7 @@ _G.pg.item_data_statistics[41276] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41277] = {
+_G.pg.base.item_data_statistics[41277] = {
 	display = "주노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18612,7 +18639,7 @@ _G.pg.item_data_statistics[41277] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41278] = {
+_G.pg.base.item_data_statistics[41278] = {
 	display = "뱀파이어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18633,7 +18660,7 @@ _G.pg.item_data_statistics[41278] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41279] = {
+_G.pg.base.item_data_statistics[41279] = {
 	display = "리엔더에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18654,7 +18681,7 @@ _G.pg.item_data_statistics[41279] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41280] = {
+_G.pg.base.item_data_statistics[41280] = {
 	display = "아킬레스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18675,7 +18702,7 @@ _G.pg.item_data_statistics[41280] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41281] = {
+_G.pg.base.item_data_statistics[41281] = {
 	display = "에이잭스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18696,7 +18723,7 @@ _G.pg.item_data_statistics[41281] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41282] = {
+_G.pg.base.item_data_statistics[41282] = {
 	display = "셰필드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18717,7 +18744,7 @@ _G.pg.item_data_statistics[41282] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41283] = {
+_G.pg.base.item_data_statistics[41283] = {
 	display = "에든버러에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18738,7 +18765,7 @@ _G.pg.item_data_statistics[41283] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41284] = {
+_G.pg.base.item_data_statistics[41284] = {
 	display = "벨파스트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18759,7 +18786,7 @@ _G.pg.item_data_statistics[41284] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41285] = {
+_G.pg.base.item_data_statistics[41285] = {
 	display = "아레투사에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18780,7 +18807,7 @@ _G.pg.item_data_statistics[41285] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41286] = {
+_G.pg.base.item_data_statistics[41286] = {
 	display = "갈라테아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18801,7 +18828,7 @@ _G.pg.item_data_statistics[41286] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41287] = {
+_G.pg.base.item_data_statistics[41287] = {
 	display = "오로라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18822,7 +18849,7 @@ _G.pg.item_data_statistics[41287] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41288] = {
+_G.pg.base.item_data_statistics[41288] = {
 	display = "런던에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18843,7 +18870,7 @@ _G.pg.item_data_statistics[41288] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41289] = {
+_G.pg.base.item_data_statistics[41289] = {
 	display = "슈롭셔에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18864,7 +18891,7 @@ _G.pg.item_data_statistics[41289] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41290] = {
+_G.pg.base.item_data_statistics[41290] = {
 	display = "켄트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18885,7 +18912,7 @@ _G.pg.item_data_statistics[41290] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41291] = {
+_G.pg.base.item_data_statistics[41291] = {
 	display = "서포크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18906,7 +18933,7 @@ _G.pg.item_data_statistics[41291] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41292] = {
+_G.pg.base.item_data_statistics[41292] = {
 	display = "노포크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18927,7 +18954,7 @@ _G.pg.item_data_statistics[41292] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41293] = {
+_G.pg.base.item_data_statistics[41293] = {
 	display = "도셋셔에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18948,7 +18975,7 @@ _G.pg.item_data_statistics[41293] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41294] = {
+_G.pg.base.item_data_statistics[41294] = {
 	display = "요크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18969,7 +18996,7 @@ _G.pg.item_data_statistics[41294] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41295] = {
+_G.pg.base.item_data_statistics[41295] = {
 	display = "엑세터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -18990,7 +19017,7 @@ _G.pg.item_data_statistics[41295] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41296] = {
+_G.pg.base.item_data_statistics[41296] = {
 	display = "서식스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19011,7 +19038,7 @@ _G.pg.item_data_statistics[41296] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41297] = {
+_G.pg.base.item_data_statistics[41297] = {
 	display = "리나운에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19032,7 +19059,7 @@ _G.pg.item_data_statistics[41297] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41298] = {
+_G.pg.base.item_data_statistics[41298] = {
 	display = "리펄스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19053,7 +19080,7 @@ _G.pg.item_data_statistics[41298] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41299] = {
+_G.pg.base.item_data_statistics[41299] = {
 	display = "후드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19074,7 +19101,7 @@ _G.pg.item_data_statistics[41299] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41300] = {
+_G.pg.base.item_data_statistics[41300] = {
 	display = "퀸 엘리자베스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19095,7 +19122,7 @@ _G.pg.item_data_statistics[41300] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41301] = {
+_G.pg.base.item_data_statistics[41301] = {
 	display = "워스파이트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19116,7 +19143,7 @@ _G.pg.item_data_statistics[41301] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41302] = {
+_G.pg.base.item_data_statistics[41302] = {
 	display = "넬슨에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19137,7 +19164,7 @@ _G.pg.item_data_statistics[41302] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41303] = {
+_G.pg.base.item_data_statistics[41303] = {
 	display = "로드니에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19158,7 +19185,7 @@ _G.pg.item_data_statistics[41303] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41304] = {
+_G.pg.base.item_data_statistics[41304] = {
 	display = "프린스 오브 웨일즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19179,7 +19206,7 @@ _G.pg.item_data_statistics[41304] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41305] = {
+_G.pg.base.item_data_statistics[41305] = {
 	display = "듀크 오브 요크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19200,7 +19227,7 @@ _G.pg.item_data_statistics[41305] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41306] = {
+_G.pg.base.item_data_statistics[41306] = {
 	display = "허미즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19221,7 +19248,7 @@ _G.pg.item_data_statistics[41306] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41307] = {
+_G.pg.base.item_data_statistics[41307] = {
 	display = "유니콘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19242,7 +19269,7 @@ _G.pg.item_data_statistics[41307] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41308] = {
+_G.pg.base.item_data_statistics[41308] = {
 	display = "아크 로열에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19263,7 +19290,7 @@ _G.pg.item_data_statistics[41308] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41309] = {
+_G.pg.base.item_data_statistics[41309] = {
 	display = "일러스트리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19284,7 +19311,7 @@ _G.pg.item_data_statistics[41309] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41310] = {
+_G.pg.base.item_data_statistics[41310] = {
 	display = "빅토리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19305,7 +19332,7 @@ _G.pg.item_data_statistics[41310] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41311] = {
+_G.pg.base.item_data_statistics[41311] = {
 	display = "글로리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19326,7 +19353,7 @@ _G.pg.item_data_statistics[41311] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41312] = {
+_G.pg.base.item_data_statistics[41312] = {
 	display = "에레버스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19347,7 +19374,7 @@ _G.pg.item_data_statistics[41312] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41313] = {
+_G.pg.base.item_data_statistics[41313] = {
 	display = "테러에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19368,7 +19395,7 @@ _G.pg.item_data_statistics[41313] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41314] = {
+_G.pg.base.item_data_statistics[41314] = {
 	display = "애버크롬비에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19389,7 +19416,7 @@ _G.pg.item_data_statistics[41314] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41315] = {
+_G.pg.base.item_data_statistics[41315] = {
 	display = "후부키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19410,7 +19437,7 @@ _G.pg.item_data_statistics[41315] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41316] = {
+_G.pg.base.item_data_statistics[41316] = {
 	display = "아야나미에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19431,7 +19458,7 @@ _G.pg.item_data_statistics[41316] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41317] = {
+_G.pg.base.item_data_statistics[41317] = {
 	display = "아카츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19452,7 +19479,7 @@ _G.pg.item_data_statistics[41317] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41318] = {
+_G.pg.base.item_data_statistics[41318] = {
 	display = "이카즈치에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19473,7 +19500,7 @@ _G.pg.item_data_statistics[41318] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41319] = {
+_G.pg.base.item_data_statistics[41319] = {
 	display = "이나즈마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19494,7 +19521,7 @@ _G.pg.item_data_statistics[41319] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41320] = {
+_G.pg.base.item_data_statistics[41320] = {
 	display = "시라츠유에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19515,7 +19542,7 @@ _G.pg.item_data_statistics[41320] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41321] = {
+_G.pg.base.item_data_statistics[41321] = {
 	display = "유다치에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19536,7 +19563,7 @@ _G.pg.item_data_statistics[41321] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41322] = {
+_G.pg.base.item_data_statistics[41322] = {
 	display = "시구레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19557,7 +19584,7 @@ _G.pg.item_data_statistics[41322] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41323] = {
+_G.pg.base.item_data_statistics[41323] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19578,7 +19605,7 @@ _G.pg.item_data_statistics[41323] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41324] = {
+_G.pg.base.item_data_statistics[41324] = {
 	display = "카게로에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19599,7 +19626,7 @@ _G.pg.item_data_statistics[41324] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41325] = {
+_G.pg.base.item_data_statistics[41325] = {
 	display = "시라누이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19620,7 +19647,7 @@ _G.pg.item_data_statistics[41325] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41326] = {
+_G.pg.base.item_data_statistics[41326] = {
 	display = "노와키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19641,7 +19668,7 @@ _G.pg.item_data_statistics[41326] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41327] = {
+_G.pg.base.item_data_statistics[41327] = {
 	display = "하츠하루에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19662,7 +19689,7 @@ _G.pg.item_data_statistics[41327] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41328] = {
+_G.pg.base.item_data_statistics[41328] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19683,7 +19710,7 @@ _G.pg.item_data_statistics[41328] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41329] = {
+_G.pg.base.item_data_statistics[41329] = {
 	display = "하츠시모에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19704,7 +19731,7 @@ _G.pg.item_data_statistics[41329] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41330] = {
+_G.pg.base.item_data_statistics[41330] = {
 	display = "아리아케에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19725,7 +19752,7 @@ _G.pg.item_data_statistics[41330] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41331] = {
+_G.pg.base.item_data_statistics[41331] = {
 	display = "유구레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19746,7 +19773,7 @@ _G.pg.item_data_statistics[41331] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41332] = {
+_G.pg.base.item_data_statistics[41332] = {
 	display = "쿠로시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19767,7 +19794,7 @@ _G.pg.item_data_statistics[41332] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41333] = {
+_G.pg.base.item_data_statistics[41333] = {
 	display = "오야시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19788,7 +19815,7 @@ _G.pg.item_data_statistics[41333] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41334] = {
+_G.pg.base.item_data_statistics[41334] = {
 	display = "유바리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19809,7 +19836,7 @@ _G.pg.item_data_statistics[41334] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41335] = {
+_G.pg.base.item_data_statistics[41335] = {
 	display = "나가라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19830,7 +19857,7 @@ _G.pg.item_data_statistics[41335] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41336] = {
+_G.pg.base.item_data_statistics[41336] = {
 	display = "이스즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19851,7 +19878,7 @@ _G.pg.item_data_statistics[41336] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41337] = {
+_G.pg.base.item_data_statistics[41337] = {
 	display = "아부쿠마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19872,7 +19899,7 @@ _G.pg.item_data_statistics[41337] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41338] = {
+_G.pg.base.item_data_statistics[41338] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19893,7 +19920,7 @@ _G.pg.item_data_statistics[41338] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41339] = {
+_G.pg.base.item_data_statistics[41339] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19914,7 +19941,7 @@ _G.pg.item_data_statistics[41339] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41340] = {
+_G.pg.base.item_data_statistics[41340] = {
 	display = "후루타카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19935,7 +19962,7 @@ _G.pg.item_data_statistics[41340] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41341] = {
+_G.pg.base.item_data_statistics[41341] = {
 	display = "카코에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19956,7 +19983,7 @@ _G.pg.item_data_statistics[41341] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41342] = {
+_G.pg.base.item_data_statistics[41342] = {
 	display = "아오바에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19977,7 +20004,7 @@ _G.pg.item_data_statistics[41342] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41343] = {
+_G.pg.base.item_data_statistics[41343] = {
 	display = "키누가사에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -19998,7 +20025,7 @@ _G.pg.item_data_statistics[41343] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41344] = {
+_G.pg.base.item_data_statistics[41344] = {
 	display = "묘코에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20019,7 +20046,7 @@ _G.pg.item_data_statistics[41344] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41345] = {
+_G.pg.base.item_data_statistics[41345] = {
 	display = "나치에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20040,7 +20067,7 @@ _G.pg.item_data_statistics[41345] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41346] = {
+_G.pg.base.item_data_statistics[41346] = {
 	display = "아시가라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20061,7 +20088,7 @@ _G.pg.item_data_statistics[41346] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41347] = {
+_G.pg.base.item_data_statistics[41347] = {
 	display = "타카오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20082,7 +20109,7 @@ _G.pg.item_data_statistics[41347] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41348] = {
+_G.pg.base.item_data_statistics[41348] = {
 	display = "아타고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20103,7 +20130,7 @@ _G.pg.item_data_statistics[41348] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41349] = {
+_G.pg.base.item_data_statistics[41349] = {
 	display = "마야에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20124,7 +20151,7 @@ _G.pg.item_data_statistics[41349] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41350] = {
+_G.pg.base.item_data_statistics[41350] = {
 	display = "초카이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20145,7 +20172,7 @@ _G.pg.item_data_statistics[41350] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41351] = {
+_G.pg.base.item_data_statistics[41351] = {
 	display = "콘고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20166,7 +20193,7 @@ _G.pg.item_data_statistics[41351] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41352] = {
+_G.pg.base.item_data_statistics[41352] = {
 	display = "히에이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20187,7 +20214,7 @@ _G.pg.item_data_statistics[41352] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41353] = {
+_G.pg.base.item_data_statistics[41353] = {
 	display = "하루나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20208,7 +20235,7 @@ _G.pg.item_data_statistics[41353] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41354] = {
+_G.pg.base.item_data_statistics[41354] = {
 	display = "키리시마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20229,7 +20256,7 @@ _G.pg.item_data_statistics[41354] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41355] = {
+_G.pg.base.item_data_statistics[41355] = {
 	display = "아마기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20250,7 +20277,7 @@ _G.pg.item_data_statistics[41355] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41356] = {
+_G.pg.base.item_data_statistics[41356] = {
 	display = "후소에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20271,7 +20298,7 @@ _G.pg.item_data_statistics[41356] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41357] = {
+_G.pg.base.item_data_statistics[41357] = {
 	display = "야마시로에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20292,7 +20319,7 @@ _G.pg.item_data_statistics[41357] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41358] = {
+_G.pg.base.item_data_statistics[41358] = {
 	display = "이세에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20313,7 +20340,7 @@ _G.pg.item_data_statistics[41358] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41359] = {
+_G.pg.base.item_data_statistics[41359] = {
 	display = "휴가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20334,7 +20361,7 @@ _G.pg.item_data_statistics[41359] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41360] = {
+_G.pg.base.item_data_statistics[41360] = {
 	display = "나가토에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20355,7 +20382,7 @@ _G.pg.item_data_statistics[41360] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41361] = {
+_G.pg.base.item_data_statistics[41361] = {
 	display = "무츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20376,7 +20403,7 @@ _G.pg.item_data_statistics[41361] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41362] = {
+_G.pg.base.item_data_statistics[41362] = {
 	display = "카가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20397,7 +20424,7 @@ _G.pg.item_data_statistics[41362] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41363] = {
+_G.pg.base.item_data_statistics[41363] = {
 	display = "히요에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20418,7 +20445,7 @@ _G.pg.item_data_statistics[41363] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41364] = {
+_G.pg.base.item_data_statistics[41364] = {
 	display = "준요에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20439,7 +20466,7 @@ _G.pg.item_data_statistics[41364] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41365] = {
+_G.pg.base.item_data_statistics[41365] = {
 	display = "호쇼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20460,7 +20487,7 @@ _G.pg.item_data_statistics[41365] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41366] = {
+_G.pg.base.item_data_statistics[41366] = {
 	display = "쇼호에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20481,7 +20508,7 @@ _G.pg.item_data_statistics[41366] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41367] = {
+_G.pg.base.item_data_statistics[41367] = {
 	display = "류조에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20502,7 +20529,7 @@ _G.pg.item_data_statistics[41367] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41368] = {
+_G.pg.base.item_data_statistics[41368] = {
 	display = "아카기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20523,7 +20550,7 @@ _G.pg.item_data_statistics[41368] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41369] = {
+_G.pg.base.item_data_statistics[41369] = {
 	display = "카가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20544,7 +20571,7 @@ _G.pg.item_data_statistics[41369] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41370] = {
+_G.pg.base.item_data_statistics[41370] = {
 	display = "소류에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20565,7 +20592,7 @@ _G.pg.item_data_statistics[41370] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41371] = {
+_G.pg.base.item_data_statistics[41371] = {
 	display = "히류에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20586,7 +20613,7 @@ _G.pg.item_data_statistics[41371] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41372] = {
+_G.pg.base.item_data_statistics[41372] = {
 	display = "쇼카쿠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20607,7 +20634,7 @@ _G.pg.item_data_statistics[41372] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41373] = {
+_G.pg.base.item_data_statistics[41373] = {
 	display = "즈이카쿠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20628,7 +20655,7 @@ _G.pg.item_data_statistics[41373] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41374] = {
+_G.pg.base.item_data_statistics[41374] = {
 	display = "다이호에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20649,7 +20676,7 @@ _G.pg.item_data_statistics[41374] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41375] = {
+_G.pg.base.item_data_statistics[41375] = {
 	display = "아카시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20670,7 +20697,7 @@ _G.pg.item_data_statistics[41375] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41376] = {
+_G.pg.base.item_data_statistics[41376] = {
 	display = "Z1에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20691,7 +20718,7 @@ _G.pg.item_data_statistics[41376] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41377] = {
+_G.pg.base.item_data_statistics[41377] = {
 	display = "Z23에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20712,7 +20739,7 @@ _G.pg.item_data_statistics[41377] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41378] = {
+_G.pg.base.item_data_statistics[41378] = {
 	display = "Z25에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20733,7 +20760,7 @@ _G.pg.item_data_statistics[41378] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41379] = {
+_G.pg.base.item_data_statistics[41379] = {
 	display = "쾨니히스베르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20754,7 +20781,7 @@ _G.pg.item_data_statistics[41379] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41380] = {
+_G.pg.base.item_data_statistics[41380] = {
 	display = "카를스루에에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20775,7 +20802,7 @@ _G.pg.item_data_statistics[41380] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41381] = {
+_G.pg.base.item_data_statistics[41381] = {
 	display = "쾰른에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20796,7 +20823,7 @@ _G.pg.item_data_statistics[41381] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41382] = {
+_G.pg.base.item_data_statistics[41382] = {
 	display = "라이프치히에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20817,7 +20844,7 @@ _G.pg.item_data_statistics[41382] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41383] = {
+_G.pg.base.item_data_statistics[41383] = {
 	display = "아드미럴 히퍼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20838,7 +20865,7 @@ _G.pg.item_data_statistics[41383] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41384] = {
+_G.pg.base.item_data_statistics[41384] = {
 	display = "프린츠 오이겐에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20859,7 +20886,7 @@ _G.pg.item_data_statistics[41384] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41385] = {
+_G.pg.base.item_data_statistics[41385] = {
 	display = "도이칠란트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20880,7 +20907,7 @@ _G.pg.item_data_statistics[41385] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41386] = {
+_G.pg.base.item_data_statistics[41386] = {
 	display = "아드미랄 그라프 슈피에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20901,7 +20928,7 @@ _G.pg.item_data_statistics[41386] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41387] = {
+_G.pg.base.item_data_statistics[41387] = {
 	display = "샤른호르스트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20922,7 +20949,7 @@ _G.pg.item_data_statistics[41387] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41388] = {
+_G.pg.base.item_data_statistics[41388] = {
 	display = "그나이제나우에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20943,7 +20970,7 @@ _G.pg.item_data_statistics[41388] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41389] = {
+_G.pg.base.item_data_statistics[41389] = {
 	display = "티르피츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20964,7 +20991,7 @@ _G.pg.item_data_statistics[41389] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41390] = {
+_G.pg.base.item_data_statistics[41390] = {
 	display = "그라프 체펠린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -20985,7 +21012,7 @@ _G.pg.item_data_statistics[41390] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41391] = {
+_G.pg.base.item_data_statistics[41391] = {
 	display = "안샨에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21006,7 +21033,7 @@ _G.pg.item_data_statistics[41391] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41392] = {
+_G.pg.base.item_data_statistics[41392] = {
 	display = "푸슌에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21027,7 +21054,7 @@ _G.pg.item_data_statistics[41392] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41393] = {
+_G.pg.base.item_data_statistics[41393] = {
 	display = "창춘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21048,7 +21075,7 @@ _G.pg.item_data_statistics[41393] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41394] = {
+_G.pg.base.item_data_statistics[41394] = {
 	display = "타이위안에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21069,7 +21096,7 @@ _G.pg.item_data_statistics[41394] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41395] = {
+_G.pg.base.item_data_statistics[41395] = {
 	display = "얏센에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21090,7 +21117,7 @@ _G.pg.item_data_statistics[41395] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41396] = {
+_G.pg.base.item_data_statistics[41396] = {
 	display = "닝하이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21111,7 +21138,7 @@ _G.pg.item_data_statistics[41396] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41397] = {
+_G.pg.base.item_data_statistics[41397] = {
 	display = "핑하이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21132,7 +21159,7 @@ _G.pg.item_data_statistics[41397] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41398] = {
+_G.pg.base.item_data_statistics[41398] = {
 	display = "오로라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21153,7 +21180,7 @@ _G.pg.item_data_statistics[41398] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41399] = {
+_G.pg.base.item_data_statistics[41399] = {
 	display = "베일리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21174,7 +21201,7 @@ _G.pg.item_data_statistics[41399] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41400] = {
+_G.pg.base.item_data_statistics[41400] = {
 	display = "Z19에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21195,7 +21222,7 @@ _G.pg.item_data_statistics[41400] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41401] = {
+_G.pg.base.item_data_statistics[41401] = {
 	display = "Z20에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21216,7 +21243,7 @@ _G.pg.item_data_statistics[41401] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41402] = {
+_G.pg.base.item_data_statistics[41402] = {
 	display = "Z21에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21237,7 +21264,7 @@ _G.pg.item_data_statistics[41402] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41403] = {
+_G.pg.base.item_data_statistics[41403] = {
 	display = "Z46에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21258,7 +21285,7 @@ _G.pg.item_data_statistics[41403] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41404] = {
+_G.pg.base.item_data_statistics[41404] = {
 	display = "카미카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21279,7 +21306,7 @@ _G.pg.item_data_statistics[41404] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41405] = {
+_G.pg.base.item_data_statistics[41405] = {
 	display = "마츠카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21300,7 +21327,7 @@ _G.pg.item_data_statistics[41405] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41406] = {
+_G.pg.base.item_data_statistics[41406] = {
 	display = "무츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21321,7 +21348,7 @@ _G.pg.item_data_statistics[41406] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41407] = {
+_G.pg.base.item_data_statistics[41407] = {
 	display = "키사라기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21342,7 +21369,7 @@ _G.pg.item_data_statistics[41407] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41408] = {
+_G.pg.base.item_data_statistics[41408] = {
 	display = "우즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21363,7 +21390,7 @@ _G.pg.item_data_statistics[41408] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41409] = {
+_G.pg.base.item_data_statistics[41409] = {
 	display = "미나즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21384,7 +21411,7 @@ _G.pg.item_data_statistics[41409] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41410] = {
+_G.pg.base.item_data_statistics[41410] = {
 	display = "후미즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21405,7 +21432,7 @@ _G.pg.item_data_statistics[41410] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41411] = {
+_G.pg.base.item_data_statistics[41411] = {
 	display = "나가츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21426,7 +21453,7 @@ _G.pg.item_data_statistics[41411] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41412] = {
+_G.pg.base.item_data_statistics[41412] = {
 	display = "미카즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21447,7 +21474,7 @@ _G.pg.item_data_statistics[41412] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41413] = {
+_G.pg.base.item_data_statistics[41413] = {
 	display = "카와카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21468,7 +21495,7 @@ _G.pg.item_data_statistics[41413] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41414] = {
+_G.pg.base.item_data_statistics[41414] = {
 	display = "니이즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21489,7 +21516,7 @@ _G.pg.item_data_statistics[41414] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41415] = {
+_G.pg.base.item_data_statistics[41415] = {
 	display = "하루츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21510,7 +21537,7 @@ _G.pg.item_data_statistics[41415] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41416] = {
+_G.pg.base.item_data_statistics[41416] = {
 	display = "요이즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21531,7 +21558,7 @@ _G.pg.item_data_statistics[41416] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41417] = {
+_G.pg.base.item_data_statistics[41417] = {
 	display = "래드포드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21552,7 +21579,7 @@ _G.pg.item_data_statistics[41417] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41418] = {
+_G.pg.base.item_data_statistics[41418] = {
 	display = "젠킨스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21573,7 +21600,7 @@ _G.pg.item_data_statistics[41418] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41419] = {
+_G.pg.base.item_data_statistics[41419] = {
 	display = "니콜라스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21594,7 +21621,7 @@ _G.pg.item_data_statistics[41419] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41420] = {
+_G.pg.base.item_data_statistics[41420] = {
 	display = "리치몬드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21615,7 +21642,7 @@ _G.pg.item_data_statistics[41420] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41421] = {
+_G.pg.base.item_data_statistics[41421] = {
 	display = "호놀룰루에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21636,7 +21663,7 @@ _G.pg.item_data_statistics[41421] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41422] = {
+_G.pg.base.item_data_statistics[41422] = {
 	display = "세인트루이스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21657,7 +21684,7 @@ _G.pg.item_data_statistics[41422] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41423] = {
+_G.pg.base.item_data_statistics[41423] = {
 	display = "주피터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21678,7 +21705,7 @@ _G.pg.item_data_statistics[41423] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41424] = {
+_G.pg.base.item_data_statistics[41424] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21699,7 +21726,7 @@ _G.pg.item_data_statistics[41424] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41425] = {
+_G.pg.base.item_data_statistics[41425] = {
 	display = "센다이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21720,7 +21747,7 @@ _G.pg.item_data_statistics[41425] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41426] = {
+_G.pg.base.item_data_statistics[41426] = {
 	display = "진츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21741,7 +21768,7 @@ _G.pg.item_data_statistics[41426] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41427] = {
+_G.pg.base.item_data_statistics[41427] = {
 	display = "나카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21762,7 +21789,7 @@ _G.pg.item_data_statistics[41427] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41428] = {
+_G.pg.base.item_data_statistics[41428] = {
 	display = "우라카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21783,7 +21810,7 @@ _G.pg.item_data_statistics[41428] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41429] = {
+_G.pg.base.item_data_statistics[41429] = {
 	display = "이소카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21804,7 +21831,7 @@ _G.pg.item_data_statistics[41429] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41430] = {
+_G.pg.base.item_data_statistics[41430] = {
 	display = "하마카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21825,7 +21852,7 @@ _G.pg.item_data_statistics[41430] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41431] = {
+_G.pg.base.item_data_statistics[41431] = {
 	display = "타니카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21846,7 +21873,7 @@ _G.pg.item_data_statistics[41431] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41432] = {
+_G.pg.base.item_data_statistics[41432] = {
 	display = "미카사에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21867,7 +21894,7 @@ _G.pg.item_data_statistics[41432] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41433] = {
+_G.pg.base.item_data_statistics[41433] = {
 	display = "아가노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21888,7 +21915,7 @@ _G.pg.item_data_statistics[41433] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41434] = {
+_G.pg.base.item_data_statistics[41434] = {
 	display = "매치리스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21909,7 +21936,7 @@ _G.pg.item_data_statistics[41434] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41435] = {
+_G.pg.base.item_data_statistics[41435] = {
 	display = "머스킷티어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21930,7 +21957,7 @@ _G.pg.item_data_statistics[41435] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41436] = {
+_G.pg.base.item_data_statistics[41436] = {
 	display = "피지에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21951,7 +21978,7 @@ _G.pg.item_data_statistics[41436] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41437] = {
+_G.pg.base.item_data_statistics[41437] = {
 	display = "자메이카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21972,7 +21999,7 @@ _G.pg.item_data_statistics[41437] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41438] = {
+_G.pg.base.item_data_statistics[41438] = {
 	display = "몬트필리어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -21993,7 +22020,7 @@ _G.pg.item_data_statistics[41438] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41439] = {
+_G.pg.base.item_data_statistics[41439] = {
 	display = "덴버에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22014,7 +22041,7 @@ _G.pg.item_data_statistics[41439] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41440] = {
+_G.pg.base.item_data_statistics[41440] = {
 	display = "아사시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22035,7 +22062,7 @@ _G.pg.item_data_statistics[41440] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41441] = {
+_G.pg.base.item_data_statistics[41441] = {
 	display = "오오시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22056,7 +22083,7 @@ _G.pg.item_data_statistics[41441] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41442] = {
+_G.pg.base.item_data_statistics[41442] = {
 	display = "미치시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22077,7 +22104,7 @@ _G.pg.item_data_statistics[41442] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41443] = {
+_G.pg.base.item_data_statistics[41443] = {
 	display = "아라시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22098,7 +22125,7 @@ _G.pg.item_data_statistics[41443] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41444] = {
+_G.pg.base.item_data_statistics[41444] = {
 	display = "꼬마 벨파스트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22119,7 +22146,7 @@ _G.pg.item_data_statistics[41444] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41445] = {
+_G.pg.base.item_data_statistics[41445] = {
 	display = "이19에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22140,7 +22167,7 @@ _G.pg.item_data_statistics[41445] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41446] = {
+_G.pg.base.item_data_statistics[41446] = {
 	display = "이26에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22161,7 +22188,7 @@ _G.pg.item_data_statistics[41446] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41447] = {
+_G.pg.base.item_data_statistics[41447] = {
 	display = "이58에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22182,7 +22209,7 @@ _G.pg.item_data_statistics[41447] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41448] = {
+_G.pg.base.item_data_statistics[41448] = {
 	display = "U-81에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22203,7 +22230,7 @@ _G.pg.item_data_statistics[41448] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41449] = {
+_G.pg.base.item_data_statistics[41449] = {
 	display = "데이스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22224,7 +22251,7 @@ _G.pg.item_data_statistics[41449] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41450] = {
+_G.pg.base.item_data_statistics[41450] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22245,7 +22272,7 @@ _G.pg.item_data_statistics[41450] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41451] = {
+_G.pg.base.item_data_statistics[41451] = {
 	display = "U-557에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22266,7 +22293,7 @@ _G.pg.item_data_statistics[41451] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41452] = {
+_G.pg.base.item_data_statistics[41452] = {
 	display = "Z35에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22287,7 +22314,7 @@ _G.pg.item_data_statistics[41452] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41453] = {
+_G.pg.base.item_data_statistics[41453] = {
 	display = "Z18에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22308,7 +22335,7 @@ _G.pg.item_data_statistics[41453] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41454] = {
+_G.pg.base.item_data_statistics[41454] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22329,7 +22356,7 @@ _G.pg.item_data_statistics[41454] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41455] = {
+_G.pg.base.item_data_statistics[41455] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22350,7 +22377,7 @@ _G.pg.item_data_statistics[41455] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41456] = {
+_G.pg.base.item_data_statistics[41456] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22371,7 +22398,7 @@ _G.pg.item_data_statistics[41456] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41457] = {
+_G.pg.base.item_data_statistics[41457] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22392,7 +22419,7 @@ _G.pg.item_data_statistics[41457] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41458] = {
+_G.pg.base.item_data_statistics[41458] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22413,7 +22440,7 @@ _G.pg.item_data_statistics[41458] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41459] = {
+_G.pg.base.item_data_statistics[41459] = {
 	display = "됭케르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22434,7 +22461,7 @@ _G.pg.item_data_statistics[41459] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41460] = {
+_G.pg.base.item_data_statistics[41460] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22455,7 +22482,7 @@ _G.pg.item_data_statistics[41460] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41461] = {
+_G.pg.base.item_data_statistics[41461] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22476,7 +22503,7 @@ _G.pg.item_data_statistics[41461] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41462] = {
+_G.pg.base.item_data_statistics[41462] = {
 	display = "부시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22497,7 +22524,7 @@ _G.pg.item_data_statistics[41462] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41463] = {
+_G.pg.base.item_data_statistics[41463] = {
 	display = "센토에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22518,7 +22545,7 @@ _G.pg.item_data_statistics[41463] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41464] = {
+_G.pg.base.item_data_statistics[41464] = {
 	display = "에식스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22539,7 +22566,7 @@ _G.pg.item_data_statistics[41464] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41465] = {
+_G.pg.base.item_data_statistics[41465] = {
 	display = "알바코어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22560,7 +22587,7 @@ _G.pg.item_data_statistics[41465] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41466] = {
+_G.pg.base.item_data_statistics[41466] = {
 	display = "르 테메레르에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22581,7 +22608,7 @@ _G.pg.item_data_statistics[41466] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41467] = {
+_G.pg.base.item_data_statistics[41467] = {
 	display = "멤피스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22602,7 +22629,7 @@ _G.pg.item_data_statistics[41467] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41468] = {
+_G.pg.base.item_data_statistics[41468] = {
 	display = "뉴캐슬에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22623,7 +22650,7 @@ _G.pg.item_data_statistics[41468] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41469] = {
+_G.pg.base.item_data_statistics[41469] = {
 	display = "하비에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22644,7 +22671,7 @@ _G.pg.item_data_statistics[41469] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41470] = {
+_G.pg.base.item_data_statistics[41470] = {
 	display = "커크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22665,7 +22692,7 @@ _G.pg.item_data_statistics[41470] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41471] = {
+_G.pg.base.item_data_statistics[41471] = {
 	display = "미니애폴리스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22686,7 +22713,7 @@ _G.pg.item_data_statistics[41471] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41472] = {
+_G.pg.base.item_data_statistics[41472] = {
 	display = "헤이즐우드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22707,7 +22734,7 @@ _G.pg.item_data_statistics[41472] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41473] = {
+_G.pg.base.item_data_statistics[41473] = {
 	display = "콩코드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22728,7 +22755,7 @@ _G.pg.item_data_statistics[41473] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41474] = {
+_G.pg.base.item_data_statistics[41474] = {
 	display = "하타카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22749,7 +22776,7 @@ _G.pg.item_data_statistics[41474] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41475] = {
+_G.pg.base.item_data_statistics[41475] = {
 	display = "마키나미에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22770,7 +22797,7 @@ _G.pg.item_data_statistics[41475] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41476] = {
+_G.pg.base.item_data_statistics[41476] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22791,7 +22818,7 @@ _G.pg.item_data_statistics[41476] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41477] = {
+_G.pg.base.item_data_statistics[41477] = {
 	display = "퀴라소에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22812,7 +22839,7 @@ _G.pg.item_data_statistics[41477] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41478] = {
+_G.pg.base.item_data_statistics[41478] = {
 	display = "컬루에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22833,7 +22860,7 @@ _G.pg.item_data_statistics[41478] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41479] = {
+_G.pg.base.item_data_statistics[41479] = {
 	display = "킴벌리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22854,7 +22881,7 @@ _G.pg.item_data_statistics[41479] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41480] = {
+_G.pg.base.item_data_statistics[41480] = {
 	display = "멀라니에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22875,7 +22902,7 @@ _G.pg.item_data_statistics[41480] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41481] = {
+_G.pg.base.item_data_statistics[41481] = {
 	display = "체이서에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22896,7 +22923,7 @@ _G.pg.item_data_statistics[41481] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41498] = {
+_G.pg.base.item_data_statistics[41498] = {
 	display = "넵튠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22917,7 +22944,7 @@ _G.pg.item_data_statistics[41498] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41499] = {
+_G.pg.base.item_data_statistics[41499] = {
 	display = "모나크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22938,7 +22965,7 @@ _G.pg.item_data_statistics[41499] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41500] = {
+_G.pg.base.item_data_statistics[41500] = {
 	display = "이부키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22959,7 +22986,7 @@ _G.pg.item_data_statistics[41500] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41501] = {
+_G.pg.base.item_data_statistics[41501] = {
 	display = "이즈모에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -22980,7 +23007,7 @@ _G.pg.item_data_statistics[41501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41502] = {
+_G.pg.base.item_data_statistics[41502] = {
 	display = "론에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23001,7 +23028,7 @@ _G.pg.item_data_statistics[41502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41503] = {
+_G.pg.base.item_data_statistics[41503] = {
 	display = "생 루이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23022,7 +23049,7 @@ _G.pg.item_data_statistics[41503] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41601] = {
+_G.pg.base.item_data_statistics[41601] = {
 	display = "범용형 부린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23043,7 +23070,7 @@ _G.pg.item_data_statistics[41601] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41602] = {
+_G.pg.base.item_data_statistics[41602] = {
 	display = "시제형 부린 MKⅡ에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23064,7 +23091,7 @@ _G.pg.item_data_statistics[41602] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41603] = {
+_G.pg.base.item_data_statistics[41603] = {
 	display = "캐신에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23085,7 +23112,7 @@ _G.pg.item_data_statistics[41603] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41604] = {
+_G.pg.base.item_data_statistics[41604] = {
 	display = "다운즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23106,7 +23133,7 @@ _G.pg.item_data_statistics[41604] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41605] = {
+_G.pg.base.item_data_statistics[41605] = {
 	display = "그리들리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23127,7 +23154,7 @@ _G.pg.item_data_statistics[41605] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41606] = {
+_G.pg.base.item_data_statistics[41606] = {
 	display = "크레이븐에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23148,7 +23175,7 @@ _G.pg.item_data_statistics[41606] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41607] = {
+_G.pg.base.item_data_statistics[41607] = {
 	display = "맥콜에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23169,7 +23196,7 @@ _G.pg.item_data_statistics[41607] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41608] = {
+_G.pg.base.item_data_statistics[41608] = {
 	display = "모리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23190,7 +23217,7 @@ _G.pg.item_data_statistics[41608] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41609] = {
+_G.pg.base.item_data_statistics[41609] = {
 	display = "플레처에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23211,7 +23238,7 @@ _G.pg.item_data_statistics[41609] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41610] = {
+_G.pg.base.item_data_statistics[41610] = {
 	display = "찰스 오스본에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23232,7 +23259,7 @@ _G.pg.item_data_statistics[41610] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41611] = {
+_G.pg.base.item_data_statistics[41611] = {
 	display = "대처에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23253,7 +23280,7 @@ _G.pg.item_data_statistics[41611] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41612] = {
+_G.pg.base.item_data_statistics[41612] = {
 	display = "얼릭에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23274,7 +23301,7 @@ _G.pg.item_data_statistics[41612] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41613] = {
+_G.pg.base.item_data_statistics[41613] = {
 	display = "푸트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23295,7 +23322,7 @@ _G.pg.item_data_statistics[41613] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41614] = {
+_G.pg.base.item_data_statistics[41614] = {
 	display = "스펜스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23316,7 +23343,7 @@ _G.pg.item_data_statistics[41614] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41615] = {
+_G.pg.base.item_data_statistics[41615] = {
 	display = "벤슨에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23337,7 +23364,7 @@ _G.pg.item_data_statistics[41615] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41616] = {
+_G.pg.base.item_data_statistics[41616] = {
 	display = "라피에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23358,7 +23385,7 @@ _G.pg.item_data_statistics[41616] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41617] = {
+_G.pg.base.item_data_statistics[41617] = {
 	display = "심즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23379,7 +23406,7 @@ _G.pg.item_data_statistics[41617] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41618] = {
+_G.pg.base.item_data_statistics[41618] = {
 	display = "허먼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23400,7 +23427,7 @@ _G.pg.item_data_statistics[41618] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41619] = {
+_G.pg.base.item_data_statistics[41619] = {
 	display = "엘드릿지에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23421,7 +23448,7 @@ _G.pg.item_data_statistics[41619] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41620] = {
+_G.pg.base.item_data_statistics[41620] = {
 	display = "오마하에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23442,7 +23469,7 @@ _G.pg.item_data_statistics[41620] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41621] = {
+_G.pg.base.item_data_statistics[41621] = {
 	display = "롤리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23463,7 +23490,7 @@ _G.pg.item_data_statistics[41621] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41622] = {
+_G.pg.base.item_data_statistics[41622] = {
 	display = "브루클린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23484,7 +23511,7 @@ _G.pg.item_data_statistics[41622] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41623] = {
+_G.pg.base.item_data_statistics[41623] = {
 	display = "피닉스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23505,7 +23532,7 @@ _G.pg.item_data_statistics[41623] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41624] = {
+_G.pg.base.item_data_statistics[41624] = {
 	display = "헬레나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23526,7 +23553,7 @@ _G.pg.item_data_statistics[41624] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41625] = {
+_G.pg.base.item_data_statistics[41625] = {
 	display = "애틀란타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23547,7 +23574,7 @@ _G.pg.item_data_statistics[41625] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41626] = {
+_G.pg.base.item_data_statistics[41626] = {
 	display = "쥬노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23568,7 +23595,7 @@ _G.pg.item_data_statistics[41626] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41627] = {
+_G.pg.base.item_data_statistics[41627] = {
 	display = "샌디에이고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23589,7 +23616,7 @@ _G.pg.item_data_statistics[41627] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41628] = {
+_G.pg.base.item_data_statistics[41628] = {
 	display = "클리블랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23610,7 +23637,7 @@ _G.pg.item_data_statistics[41628] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41629] = {
+_G.pg.base.item_data_statistics[41629] = {
 	display = "컬럼비아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23631,7 +23658,7 @@ _G.pg.item_data_statistics[41629] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41630] = {
+_G.pg.base.item_data_statistics[41630] = {
 	display = "펜사콜라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23652,7 +23679,7 @@ _G.pg.item_data_statistics[41630] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41631] = {
+_G.pg.base.item_data_statistics[41631] = {
 	display = "솔트레이크시티에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23673,7 +23700,7 @@ _G.pg.item_data_statistics[41631] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41632] = {
+_G.pg.base.item_data_statistics[41632] = {
 	display = "노샘프턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23694,7 +23721,7 @@ _G.pg.item_data_statistics[41632] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41633] = {
+_G.pg.base.item_data_statistics[41633] = {
 	display = "시카고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23715,7 +23742,7 @@ _G.pg.item_data_statistics[41633] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41634] = {
+_G.pg.base.item_data_statistics[41634] = {
 	display = "휴스턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23736,7 +23763,7 @@ _G.pg.item_data_statistics[41634] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41635] = {
+_G.pg.base.item_data_statistics[41635] = {
 	display = "포틀랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23757,7 +23784,7 @@ _G.pg.item_data_statistics[41635] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41636] = {
+_G.pg.base.item_data_statistics[41636] = {
 	display = "인디애나폴리스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23778,7 +23805,7 @@ _G.pg.item_data_statistics[41636] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41637] = {
+_G.pg.base.item_data_statistics[41637] = {
 	display = "아스토리아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23799,7 +23826,7 @@ _G.pg.item_data_statistics[41637] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41638] = {
+_G.pg.base.item_data_statistics[41638] = {
 	display = "퀸시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23820,7 +23847,7 @@ _G.pg.item_data_statistics[41638] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41639] = {
+_G.pg.base.item_data_statistics[41639] = {
 	display = "빈센스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23841,7 +23868,7 @@ _G.pg.item_data_statistics[41639] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41640] = {
+_G.pg.base.item_data_statistics[41640] = {
 	display = "위치타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23862,7 +23889,7 @@ _G.pg.item_data_statistics[41640] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41641] = {
+_G.pg.base.item_data_statistics[41641] = {
 	display = "네바다에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23883,7 +23910,7 @@ _G.pg.item_data_statistics[41641] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41642] = {
+_G.pg.base.item_data_statistics[41642] = {
 	display = "오클라호마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23904,7 +23931,7 @@ _G.pg.item_data_statistics[41642] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41643] = {
+_G.pg.base.item_data_statistics[41643] = {
 	display = "펜실베이니아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23925,7 +23952,7 @@ _G.pg.item_data_statistics[41643] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41644] = {
+_G.pg.base.item_data_statistics[41644] = {
 	display = "애리조나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23946,7 +23973,7 @@ _G.pg.item_data_statistics[41644] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41645] = {
+_G.pg.base.item_data_statistics[41645] = {
 	display = "테네시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23967,7 +23994,7 @@ _G.pg.item_data_statistics[41645] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41646] = {
+_G.pg.base.item_data_statistics[41646] = {
 	display = "캘리포니아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -23988,7 +24015,7 @@ _G.pg.item_data_statistics[41646] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41647] = {
+_G.pg.base.item_data_statistics[41647] = {
 	display = "콜로라도에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24009,7 +24036,7 @@ _G.pg.item_data_statistics[41647] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41648] = {
+_G.pg.base.item_data_statistics[41648] = {
 	display = "메릴랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24030,7 +24057,7 @@ _G.pg.item_data_statistics[41648] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41649] = {
+_G.pg.base.item_data_statistics[41649] = {
 	display = "웨스트버지니아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24051,7 +24078,7 @@ _G.pg.item_data_statistics[41649] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41650] = {
+_G.pg.base.item_data_statistics[41650] = {
 	display = "노스캐롤라이나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24072,7 +24099,7 @@ _G.pg.item_data_statistics[41650] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41651] = {
+_G.pg.base.item_data_statistics[41651] = {
 	display = "워싱턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24093,7 +24120,7 @@ _G.pg.item_data_statistics[41651] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41652] = {
+_G.pg.base.item_data_statistics[41652] = {
 	display = "사우스다코타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24114,7 +24141,7 @@ _G.pg.item_data_statistics[41652] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41653] = {
+_G.pg.base.item_data_statistics[41653] = {
 	display = "롱 아일랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24135,7 +24162,7 @@ _G.pg.item_data_statistics[41653] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41654] = {
+_G.pg.base.item_data_statistics[41654] = {
 	display = "보그에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24156,7 +24183,7 @@ _G.pg.item_data_statistics[41654] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41655] = {
+_G.pg.base.item_data_statistics[41655] = {
 	display = "랭글리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24177,7 +24204,7 @@ _G.pg.item_data_statistics[41655] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41656] = {
+_G.pg.base.item_data_statistics[41656] = {
 	display = "렉싱턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24198,7 +24225,7 @@ _G.pg.item_data_statistics[41656] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41657] = {
+_G.pg.base.item_data_statistics[41657] = {
 	display = "새러토가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24219,7 +24246,7 @@ _G.pg.item_data_statistics[41657] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41658] = {
+_G.pg.base.item_data_statistics[41658] = {
 	display = "레인저에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24240,7 +24267,7 @@ _G.pg.item_data_statistics[41658] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41659] = {
+_G.pg.base.item_data_statistics[41659] = {
 	display = "요크타운에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24261,7 +24288,7 @@ _G.pg.item_data_statistics[41659] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41660] = {
+_G.pg.base.item_data_statistics[41660] = {
 	display = "엔터프라이즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24282,7 +24309,7 @@ _G.pg.item_data_statistics[41660] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41661] = {
+_G.pg.base.item_data_statistics[41661] = {
 	display = "호넷에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24303,7 +24330,7 @@ _G.pg.item_data_statistics[41661] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41662] = {
+_G.pg.base.item_data_statistics[41662] = {
 	display = "와스프에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24324,7 +24351,7 @@ _G.pg.item_data_statistics[41662] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41663] = {
+_G.pg.base.item_data_statistics[41663] = {
 	display = "베스탈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24345,7 +24372,7 @@ _G.pg.item_data_statistics[41663] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41664] = {
+_G.pg.base.item_data_statistics[41664] = {
 	display = "아마존에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24366,7 +24393,7 @@ _G.pg.item_data_statistics[41664] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41665] = {
+_G.pg.base.item_data_statistics[41665] = {
 	display = "아카스타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24387,7 +24414,7 @@ _G.pg.item_data_statistics[41665] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41666] = {
+_G.pg.base.item_data_statistics[41666] = {
 	display = "아덴트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24408,7 +24435,7 @@ _G.pg.item_data_statistics[41666] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41667] = {
+_G.pg.base.item_data_statistics[41667] = {
 	display = "비글에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24429,7 +24456,7 @@ _G.pg.item_data_statistics[41667] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41668] = {
+_G.pg.base.item_data_statistics[41668] = {
 	display = "불독에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24450,7 +24477,7 @@ _G.pg.item_data_statistics[41668] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41669] = {
+_G.pg.base.item_data_statistics[41669] = {
 	display = "코멧에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24471,7 +24498,7 @@ _G.pg.item_data_statistics[41669] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41670] = {
+_G.pg.base.item_data_statistics[41670] = {
 	display = "크레센트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24492,7 +24519,7 @@ _G.pg.item_data_statistics[41670] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41671] = {
+_G.pg.base.item_data_statistics[41671] = {
 	display = "시그넷에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24513,7 +24540,7 @@ _G.pg.item_data_statistics[41671] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41672] = {
+_G.pg.base.item_data_statistics[41672] = {
 	display = "폭스하운드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24534,7 +24561,7 @@ _G.pg.item_data_statistics[41672] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41673] = {
+_G.pg.base.item_data_statistics[41673] = {
 	display = "포춘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24555,7 +24582,7 @@ _G.pg.item_data_statistics[41673] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41674] = {
+_G.pg.base.item_data_statistics[41674] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24576,7 +24603,7 @@ _G.pg.item_data_statistics[41674] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41675] = {
+_G.pg.base.item_data_statistics[41675] = {
 	display = "글로우웜에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24597,7 +24624,7 @@ _G.pg.item_data_statistics[41675] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41676] = {
+_G.pg.base.item_data_statistics[41676] = {
 	display = "재블린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24618,7 +24645,7 @@ _G.pg.item_data_statistics[41676] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41677] = {
+_G.pg.base.item_data_statistics[41677] = {
 	display = "주노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24639,7 +24666,7 @@ _G.pg.item_data_statistics[41677] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41678] = {
+_G.pg.base.item_data_statistics[41678] = {
 	display = "뱀파이어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24660,7 +24687,7 @@ _G.pg.item_data_statistics[41678] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41679] = {
+_G.pg.base.item_data_statistics[41679] = {
 	display = "리엔더에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24681,7 +24708,7 @@ _G.pg.item_data_statistics[41679] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41680] = {
+_G.pg.base.item_data_statistics[41680] = {
 	display = "아킬레스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24702,7 +24729,7 @@ _G.pg.item_data_statistics[41680] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41681] = {
+_G.pg.base.item_data_statistics[41681] = {
 	display = "에이잭스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24723,7 +24750,7 @@ _G.pg.item_data_statistics[41681] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41682] = {
+_G.pg.base.item_data_statistics[41682] = {
 	display = "셰필드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24744,7 +24771,7 @@ _G.pg.item_data_statistics[41682] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41683] = {
+_G.pg.base.item_data_statistics[41683] = {
 	display = "에든버러에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24765,7 +24792,7 @@ _G.pg.item_data_statistics[41683] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41684] = {
+_G.pg.base.item_data_statistics[41684] = {
 	display = "벨파스트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24786,7 +24813,7 @@ _G.pg.item_data_statistics[41684] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41685] = {
+_G.pg.base.item_data_statistics[41685] = {
 	display = "아레투사에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24807,7 +24834,7 @@ _G.pg.item_data_statistics[41685] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41686] = {
+_G.pg.base.item_data_statistics[41686] = {
 	display = "갈라테아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24828,7 +24855,7 @@ _G.pg.item_data_statistics[41686] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41687] = {
+_G.pg.base.item_data_statistics[41687] = {
 	display = "오로라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24849,7 +24876,7 @@ _G.pg.item_data_statistics[41687] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41688] = {
+_G.pg.base.item_data_statistics[41688] = {
 	display = "런던에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24870,7 +24897,7 @@ _G.pg.item_data_statistics[41688] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41689] = {
+_G.pg.base.item_data_statistics[41689] = {
 	display = "슈롭셔에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24891,7 +24918,7 @@ _G.pg.item_data_statistics[41689] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41690] = {
+_G.pg.base.item_data_statistics[41690] = {
 	display = "켄트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24912,7 +24939,7 @@ _G.pg.item_data_statistics[41690] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41691] = {
+_G.pg.base.item_data_statistics[41691] = {
 	display = "서포크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24933,7 +24960,7 @@ _G.pg.item_data_statistics[41691] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41692] = {
+_G.pg.base.item_data_statistics[41692] = {
 	display = "노포크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24954,7 +24981,7 @@ _G.pg.item_data_statistics[41692] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41693] = {
+_G.pg.base.item_data_statistics[41693] = {
 	display = "도셋셔에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24975,7 +25002,7 @@ _G.pg.item_data_statistics[41693] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41694] = {
+_G.pg.base.item_data_statistics[41694] = {
 	display = "요크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -24996,7 +25023,7 @@ _G.pg.item_data_statistics[41694] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41695] = {
+_G.pg.base.item_data_statistics[41695] = {
 	display = "엑세터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25017,7 +25044,7 @@ _G.pg.item_data_statistics[41695] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41696] = {
+_G.pg.base.item_data_statistics[41696] = {
 	display = "서식스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25038,7 +25065,7 @@ _G.pg.item_data_statistics[41696] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41697] = {
+_G.pg.base.item_data_statistics[41697] = {
 	display = "리나운에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25059,7 +25086,7 @@ _G.pg.item_data_statistics[41697] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41698] = {
+_G.pg.base.item_data_statistics[41698] = {
 	display = "리펄스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25080,7 +25107,7 @@ _G.pg.item_data_statistics[41698] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41699] = {
+_G.pg.base.item_data_statistics[41699] = {
 	display = "후드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25101,7 +25128,7 @@ _G.pg.item_data_statistics[41699] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41700] = {
+_G.pg.base.item_data_statistics[41700] = {
 	display = "퀸 엘리자베스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25122,7 +25149,7 @@ _G.pg.item_data_statistics[41700] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41701] = {
+_G.pg.base.item_data_statistics[41701] = {
 	display = "워스파이트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25143,7 +25170,7 @@ _G.pg.item_data_statistics[41701] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41702] = {
+_G.pg.base.item_data_statistics[41702] = {
 	display = "넬슨에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25164,7 +25191,7 @@ _G.pg.item_data_statistics[41702] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41703] = {
+_G.pg.base.item_data_statistics[41703] = {
 	display = "로드니에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25185,7 +25212,7 @@ _G.pg.item_data_statistics[41703] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41704] = {
+_G.pg.base.item_data_statistics[41704] = {
 	display = "프린스 오브 웨일즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25206,7 +25233,7 @@ _G.pg.item_data_statistics[41704] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41705] = {
+_G.pg.base.item_data_statistics[41705] = {
 	display = "듀크 오브 요크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25227,7 +25254,7 @@ _G.pg.item_data_statistics[41705] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41706] = {
+_G.pg.base.item_data_statistics[41706] = {
 	display = "허미즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25248,7 +25275,7 @@ _G.pg.item_data_statistics[41706] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41707] = {
+_G.pg.base.item_data_statistics[41707] = {
 	display = "유니콘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25269,7 +25296,7 @@ _G.pg.item_data_statistics[41707] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41708] = {
+_G.pg.base.item_data_statistics[41708] = {
 	display = "아크 로열에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25290,7 +25317,7 @@ _G.pg.item_data_statistics[41708] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41709] = {
+_G.pg.base.item_data_statistics[41709] = {
 	display = "일러스트리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25311,7 +25338,7 @@ _G.pg.item_data_statistics[41709] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41710] = {
+_G.pg.base.item_data_statistics[41710] = {
 	display = "빅토리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25332,7 +25359,7 @@ _G.pg.item_data_statistics[41710] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41711] = {
+_G.pg.base.item_data_statistics[41711] = {
 	display = "글로리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25353,7 +25380,7 @@ _G.pg.item_data_statistics[41711] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41712] = {
+_G.pg.base.item_data_statistics[41712] = {
 	display = "에레버스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25374,7 +25401,7 @@ _G.pg.item_data_statistics[41712] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41713] = {
+_G.pg.base.item_data_statistics[41713] = {
 	display = "테러에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25395,7 +25422,7 @@ _G.pg.item_data_statistics[41713] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41714] = {
+_G.pg.base.item_data_statistics[41714] = {
 	display = "애버크롬비에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25416,7 +25443,7 @@ _G.pg.item_data_statistics[41714] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41715] = {
+_G.pg.base.item_data_statistics[41715] = {
 	display = "후부키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25437,7 +25464,7 @@ _G.pg.item_data_statistics[41715] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41716] = {
+_G.pg.base.item_data_statistics[41716] = {
 	display = "아야나미에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25458,7 +25485,7 @@ _G.pg.item_data_statistics[41716] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41717] = {
+_G.pg.base.item_data_statistics[41717] = {
 	display = "아카츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25479,7 +25506,7 @@ _G.pg.item_data_statistics[41717] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41718] = {
+_G.pg.base.item_data_statistics[41718] = {
 	display = "이카즈치에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25500,7 +25527,7 @@ _G.pg.item_data_statistics[41718] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41719] = {
+_G.pg.base.item_data_statistics[41719] = {
 	display = "이나즈마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25521,7 +25548,7 @@ _G.pg.item_data_statistics[41719] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41720] = {
+_G.pg.base.item_data_statistics[41720] = {
 	display = "시라츠유에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25542,7 +25569,7 @@ _G.pg.item_data_statistics[41720] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41721] = {
+_G.pg.base.item_data_statistics[41721] = {
 	display = "유다치에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25563,7 +25590,7 @@ _G.pg.item_data_statistics[41721] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41722] = {
+_G.pg.base.item_data_statistics[41722] = {
 	display = "시구레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25584,7 +25611,7 @@ _G.pg.item_data_statistics[41722] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41723] = {
+_G.pg.base.item_data_statistics[41723] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25605,7 +25632,7 @@ _G.pg.item_data_statistics[41723] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41724] = {
+_G.pg.base.item_data_statistics[41724] = {
 	display = "카게로에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25626,7 +25653,7 @@ _G.pg.item_data_statistics[41724] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41725] = {
+_G.pg.base.item_data_statistics[41725] = {
 	display = "시라누이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25647,7 +25674,7 @@ _G.pg.item_data_statistics[41725] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41726] = {
+_G.pg.base.item_data_statistics[41726] = {
 	display = "노와키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25668,7 +25695,7 @@ _G.pg.item_data_statistics[41726] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41727] = {
+_G.pg.base.item_data_statistics[41727] = {
 	display = "하츠하루에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25689,7 +25716,7 @@ _G.pg.item_data_statistics[41727] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41728] = {
+_G.pg.base.item_data_statistics[41728] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25710,7 +25737,7 @@ _G.pg.item_data_statistics[41728] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41729] = {
+_G.pg.base.item_data_statistics[41729] = {
 	display = "하츠시모에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25731,7 +25758,7 @@ _G.pg.item_data_statistics[41729] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41730] = {
+_G.pg.base.item_data_statistics[41730] = {
 	display = "아리아케에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25752,7 +25779,7 @@ _G.pg.item_data_statistics[41730] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41731] = {
+_G.pg.base.item_data_statistics[41731] = {
 	display = "유구레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25773,7 +25800,7 @@ _G.pg.item_data_statistics[41731] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41732] = {
+_G.pg.base.item_data_statistics[41732] = {
 	display = "쿠로시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25794,7 +25821,7 @@ _G.pg.item_data_statistics[41732] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41733] = {
+_G.pg.base.item_data_statistics[41733] = {
 	display = "오야시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25815,7 +25842,7 @@ _G.pg.item_data_statistics[41733] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41734] = {
+_G.pg.base.item_data_statistics[41734] = {
 	display = "유바리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25836,7 +25863,7 @@ _G.pg.item_data_statistics[41734] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41735] = {
+_G.pg.base.item_data_statistics[41735] = {
 	display = "나가라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25857,7 +25884,7 @@ _G.pg.item_data_statistics[41735] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41736] = {
+_G.pg.base.item_data_statistics[41736] = {
 	display = "이스즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25878,7 +25905,7 @@ _G.pg.item_data_statistics[41736] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41737] = {
+_G.pg.base.item_data_statistics[41737] = {
 	display = "아부쿠마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25899,7 +25926,7 @@ _G.pg.item_data_statistics[41737] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41738] = {
+_G.pg.base.item_data_statistics[41738] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25920,7 +25947,7 @@ _G.pg.item_data_statistics[41738] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41739] = {
+_G.pg.base.item_data_statistics[41739] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25941,7 +25968,7 @@ _G.pg.item_data_statistics[41739] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41740] = {
+_G.pg.base.item_data_statistics[41740] = {
 	display = "후루타카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25962,7 +25989,7 @@ _G.pg.item_data_statistics[41740] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41741] = {
+_G.pg.base.item_data_statistics[41741] = {
 	display = "카코에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -25983,7 +26010,7 @@ _G.pg.item_data_statistics[41741] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41742] = {
+_G.pg.base.item_data_statistics[41742] = {
 	display = "아오바에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26004,7 +26031,7 @@ _G.pg.item_data_statistics[41742] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41743] = {
+_G.pg.base.item_data_statistics[41743] = {
 	display = "키누가사에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26025,7 +26052,7 @@ _G.pg.item_data_statistics[41743] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41744] = {
+_G.pg.base.item_data_statistics[41744] = {
 	display = "묘코에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26046,7 +26073,7 @@ _G.pg.item_data_statistics[41744] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41745] = {
+_G.pg.base.item_data_statistics[41745] = {
 	display = "나치에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26067,7 +26094,7 @@ _G.pg.item_data_statistics[41745] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41746] = {
+_G.pg.base.item_data_statistics[41746] = {
 	display = "아시가라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26088,7 +26115,7 @@ _G.pg.item_data_statistics[41746] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41747] = {
+_G.pg.base.item_data_statistics[41747] = {
 	display = "타카오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26109,7 +26136,7 @@ _G.pg.item_data_statistics[41747] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41748] = {
+_G.pg.base.item_data_statistics[41748] = {
 	display = "아타고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26130,7 +26157,7 @@ _G.pg.item_data_statistics[41748] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41749] = {
+_G.pg.base.item_data_statistics[41749] = {
 	display = "마야에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26151,7 +26178,7 @@ _G.pg.item_data_statistics[41749] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41750] = {
+_G.pg.base.item_data_statistics[41750] = {
 	display = "초카이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26172,7 +26199,7 @@ _G.pg.item_data_statistics[41750] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41751] = {
+_G.pg.base.item_data_statistics[41751] = {
 	display = "콘고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26193,7 +26220,7 @@ _G.pg.item_data_statistics[41751] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41752] = {
+_G.pg.base.item_data_statistics[41752] = {
 	display = "히에이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26214,7 +26241,7 @@ _G.pg.item_data_statistics[41752] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41753] = {
+_G.pg.base.item_data_statistics[41753] = {
 	display = "하루나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26235,7 +26262,7 @@ _G.pg.item_data_statistics[41753] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41754] = {
+_G.pg.base.item_data_statistics[41754] = {
 	display = "키리시마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26256,7 +26283,7 @@ _G.pg.item_data_statistics[41754] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41755] = {
+_G.pg.base.item_data_statistics[41755] = {
 	display = "아마기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26277,7 +26304,7 @@ _G.pg.item_data_statistics[41755] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41756] = {
+_G.pg.base.item_data_statistics[41756] = {
 	display = "후소에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26298,7 +26325,7 @@ _G.pg.item_data_statistics[41756] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41757] = {
+_G.pg.base.item_data_statistics[41757] = {
 	display = "야마시로에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26319,7 +26346,7 @@ _G.pg.item_data_statistics[41757] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41758] = {
+_G.pg.base.item_data_statistics[41758] = {
 	display = "이세에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26340,7 +26367,7 @@ _G.pg.item_data_statistics[41758] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41759] = {
+_G.pg.base.item_data_statistics[41759] = {
 	display = "휴가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26361,7 +26388,7 @@ _G.pg.item_data_statistics[41759] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41760] = {
+_G.pg.base.item_data_statistics[41760] = {
 	display = "나가토에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26382,7 +26409,7 @@ _G.pg.item_data_statistics[41760] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41761] = {
+_G.pg.base.item_data_statistics[41761] = {
 	display = "무츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26403,7 +26430,7 @@ _G.pg.item_data_statistics[41761] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41762] = {
+_G.pg.base.item_data_statistics[41762] = {
 	display = "카가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26424,7 +26451,7 @@ _G.pg.item_data_statistics[41762] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41763] = {
+_G.pg.base.item_data_statistics[41763] = {
 	display = "히요에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26445,7 +26472,7 @@ _G.pg.item_data_statistics[41763] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41764] = {
+_G.pg.base.item_data_statistics[41764] = {
 	display = "준요에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26466,7 +26493,7 @@ _G.pg.item_data_statistics[41764] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41765] = {
+_G.pg.base.item_data_statistics[41765] = {
 	display = "호쇼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26487,7 +26514,7 @@ _G.pg.item_data_statistics[41765] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41766] = {
+_G.pg.base.item_data_statistics[41766] = {
 	display = "쇼호에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26508,7 +26535,7 @@ _G.pg.item_data_statistics[41766] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41767] = {
+_G.pg.base.item_data_statistics[41767] = {
 	display = "류조에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26529,7 +26556,7 @@ _G.pg.item_data_statistics[41767] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41768] = {
+_G.pg.base.item_data_statistics[41768] = {
 	display = "아카기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26550,7 +26577,7 @@ _G.pg.item_data_statistics[41768] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41769] = {
+_G.pg.base.item_data_statistics[41769] = {
 	display = "카가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26571,7 +26598,7 @@ _G.pg.item_data_statistics[41769] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41770] = {
+_G.pg.base.item_data_statistics[41770] = {
 	display = "소류에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26592,7 +26619,7 @@ _G.pg.item_data_statistics[41770] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41771] = {
+_G.pg.base.item_data_statistics[41771] = {
 	display = "히류에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26613,7 +26640,7 @@ _G.pg.item_data_statistics[41771] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41772] = {
+_G.pg.base.item_data_statistics[41772] = {
 	display = "쇼카쿠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26634,7 +26661,7 @@ _G.pg.item_data_statistics[41772] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41773] = {
+_G.pg.base.item_data_statistics[41773] = {
 	display = "즈이카쿠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26655,7 +26682,7 @@ _G.pg.item_data_statistics[41773] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41774] = {
+_G.pg.base.item_data_statistics[41774] = {
 	display = "다이호에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26676,7 +26703,7 @@ _G.pg.item_data_statistics[41774] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41775] = {
+_G.pg.base.item_data_statistics[41775] = {
 	display = "아카시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26697,7 +26724,7 @@ _G.pg.item_data_statistics[41775] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41776] = {
+_G.pg.base.item_data_statistics[41776] = {
 	display = "Z1에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26718,7 +26745,7 @@ _G.pg.item_data_statistics[41776] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41777] = {
+_G.pg.base.item_data_statistics[41777] = {
 	display = "Z23에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26739,7 +26766,7 @@ _G.pg.item_data_statistics[41777] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41778] = {
+_G.pg.base.item_data_statistics[41778] = {
 	display = "Z25에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26760,7 +26787,7 @@ _G.pg.item_data_statistics[41778] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41779] = {
+_G.pg.base.item_data_statistics[41779] = {
 	display = "쾨니히스베르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26781,7 +26808,7 @@ _G.pg.item_data_statistics[41779] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41780] = {
+_G.pg.base.item_data_statistics[41780] = {
 	display = "카를스루에에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26802,7 +26829,7 @@ _G.pg.item_data_statistics[41780] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41781] = {
+_G.pg.base.item_data_statistics[41781] = {
 	display = "쾰른에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26823,7 +26850,7 @@ _G.pg.item_data_statistics[41781] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41782] = {
+_G.pg.base.item_data_statistics[41782] = {
 	display = "라이프치히에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26844,7 +26871,7 @@ _G.pg.item_data_statistics[41782] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41783] = {
+_G.pg.base.item_data_statistics[41783] = {
 	display = "아드미럴 히퍼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26865,7 +26892,7 @@ _G.pg.item_data_statistics[41783] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41784] = {
+_G.pg.base.item_data_statistics[41784] = {
 	display = "프린츠 오이겐에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26886,7 +26913,7 @@ _G.pg.item_data_statistics[41784] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41785] = {
+_G.pg.base.item_data_statistics[41785] = {
 	display = "도이칠란트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26907,7 +26934,7 @@ _G.pg.item_data_statistics[41785] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41786] = {
+_G.pg.base.item_data_statistics[41786] = {
 	display = "아드미랄 그라프 슈피에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26928,7 +26955,7 @@ _G.pg.item_data_statistics[41786] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41787] = {
+_G.pg.base.item_data_statistics[41787] = {
 	display = "샤른호르스트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26949,7 +26976,7 @@ _G.pg.item_data_statistics[41787] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41788] = {
+_G.pg.base.item_data_statistics[41788] = {
 	display = "그나이제나우에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26970,7 +26997,7 @@ _G.pg.item_data_statistics[41788] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41789] = {
+_G.pg.base.item_data_statistics[41789] = {
 	display = "티르피츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -26991,7 +27018,7 @@ _G.pg.item_data_statistics[41789] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41790] = {
+_G.pg.base.item_data_statistics[41790] = {
 	display = "그라프 체펠린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27012,7 +27039,7 @@ _G.pg.item_data_statistics[41790] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41791] = {
+_G.pg.base.item_data_statistics[41791] = {
 	display = "안샨에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27033,7 +27060,7 @@ _G.pg.item_data_statistics[41791] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41792] = {
+_G.pg.base.item_data_statistics[41792] = {
 	display = "푸슌에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27054,7 +27081,7 @@ _G.pg.item_data_statistics[41792] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41793] = {
+_G.pg.base.item_data_statistics[41793] = {
 	display = "창춘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27075,7 +27102,7 @@ _G.pg.item_data_statistics[41793] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41794] = {
+_G.pg.base.item_data_statistics[41794] = {
 	display = "타이위안에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27096,7 +27123,7 @@ _G.pg.item_data_statistics[41794] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41795] = {
+_G.pg.base.item_data_statistics[41795] = {
 	display = "얏센에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27117,7 +27144,7 @@ _G.pg.item_data_statistics[41795] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41796] = {
+_G.pg.base.item_data_statistics[41796] = {
 	display = "닝하이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27138,7 +27165,7 @@ _G.pg.item_data_statistics[41796] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41797] = {
+_G.pg.base.item_data_statistics[41797] = {
 	display = "핑하이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27159,7 +27186,7 @@ _G.pg.item_data_statistics[41797] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41798] = {
+_G.pg.base.item_data_statistics[41798] = {
 	display = "아브로라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27180,7 +27207,7 @@ _G.pg.item_data_statistics[41798] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41799] = {
+_G.pg.base.item_data_statistics[41799] = {
 	display = "베일리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27201,7 +27228,7 @@ _G.pg.item_data_statistics[41799] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41800] = {
+_G.pg.base.item_data_statistics[41800] = {
 	display = "Z19에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27222,7 +27249,7 @@ _G.pg.item_data_statistics[41800] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41801] = {
+_G.pg.base.item_data_statistics[41801] = {
 	display = "Z20에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27243,7 +27270,7 @@ _G.pg.item_data_statistics[41801] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41802] = {
+_G.pg.base.item_data_statistics[41802] = {
 	display = "Z21에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27264,7 +27291,7 @@ _G.pg.item_data_statistics[41802] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41803] = {
+_G.pg.base.item_data_statistics[41803] = {
 	display = "Z46에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27285,7 +27312,7 @@ _G.pg.item_data_statistics[41803] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41804] = {
+_G.pg.base.item_data_statistics[41804] = {
 	display = "카미카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27306,7 +27333,7 @@ _G.pg.item_data_statistics[41804] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41805] = {
+_G.pg.base.item_data_statistics[41805] = {
 	display = "마츠카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27327,7 +27354,7 @@ _G.pg.item_data_statistics[41805] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41806] = {
+_G.pg.base.item_data_statistics[41806] = {
 	display = "무츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27348,7 +27375,7 @@ _G.pg.item_data_statistics[41806] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41807] = {
+_G.pg.base.item_data_statistics[41807] = {
 	display = "키사라기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27369,7 +27396,7 @@ _G.pg.item_data_statistics[41807] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41808] = {
+_G.pg.base.item_data_statistics[41808] = {
 	display = "우즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27390,7 +27417,7 @@ _G.pg.item_data_statistics[41808] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41809] = {
+_G.pg.base.item_data_statistics[41809] = {
 	display = "미나즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27411,7 +27438,7 @@ _G.pg.item_data_statistics[41809] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41810] = {
+_G.pg.base.item_data_statistics[41810] = {
 	display = "후미즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27432,7 +27459,7 @@ _G.pg.item_data_statistics[41810] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41811] = {
+_G.pg.base.item_data_statistics[41811] = {
 	display = "나가츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27453,7 +27480,7 @@ _G.pg.item_data_statistics[41811] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41812] = {
+_G.pg.base.item_data_statistics[41812] = {
 	display = "미카즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27474,7 +27501,7 @@ _G.pg.item_data_statistics[41812] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41813] = {
+_G.pg.base.item_data_statistics[41813] = {
 	display = "카와카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27495,7 +27522,7 @@ _G.pg.item_data_statistics[41813] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41814] = {
+_G.pg.base.item_data_statistics[41814] = {
 	display = "니이즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27516,7 +27543,7 @@ _G.pg.item_data_statistics[41814] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41815] = {
+_G.pg.base.item_data_statistics[41815] = {
 	display = "하루츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27537,7 +27564,7 @@ _G.pg.item_data_statistics[41815] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41816] = {
+_G.pg.base.item_data_statistics[41816] = {
 	display = "요이즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27558,7 +27585,7 @@ _G.pg.item_data_statistics[41816] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41817] = {
+_G.pg.base.item_data_statistics[41817] = {
 	display = "래드포드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27579,7 +27606,7 @@ _G.pg.item_data_statistics[41817] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41818] = {
+_G.pg.base.item_data_statistics[41818] = {
 	display = "젠킨스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27600,7 +27627,7 @@ _G.pg.item_data_statistics[41818] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41819] = {
+_G.pg.base.item_data_statistics[41819] = {
 	display = "니콜라스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27621,7 +27648,7 @@ _G.pg.item_data_statistics[41819] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41820] = {
+_G.pg.base.item_data_statistics[41820] = {
 	display = "리치몬드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27642,7 +27669,7 @@ _G.pg.item_data_statistics[41820] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41821] = {
+_G.pg.base.item_data_statistics[41821] = {
 	display = "호놀룰루에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27663,7 +27690,7 @@ _G.pg.item_data_statistics[41821] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41822] = {
+_G.pg.base.item_data_statistics[41822] = {
 	display = "세인트루이스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27684,7 +27711,7 @@ _G.pg.item_data_statistics[41822] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41823] = {
+_G.pg.base.item_data_statistics[41823] = {
 	display = "주피터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27705,7 +27732,7 @@ _G.pg.item_data_statistics[41823] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41824] = {
+_G.pg.base.item_data_statistics[41824] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27726,7 +27753,7 @@ _G.pg.item_data_statistics[41824] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41825] = {
+_G.pg.base.item_data_statistics[41825] = {
 	display = "센다이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27747,7 +27774,7 @@ _G.pg.item_data_statistics[41825] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41826] = {
+_G.pg.base.item_data_statistics[41826] = {
 	display = "진츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27768,7 +27795,7 @@ _G.pg.item_data_statistics[41826] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41827] = {
+_G.pg.base.item_data_statistics[41827] = {
 	display = "나카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27789,7 +27816,7 @@ _G.pg.item_data_statistics[41827] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41828] = {
+_G.pg.base.item_data_statistics[41828] = {
 	display = "우라카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27810,7 +27837,7 @@ _G.pg.item_data_statistics[41828] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41829] = {
+_G.pg.base.item_data_statistics[41829] = {
 	display = "이소카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27831,7 +27858,7 @@ _G.pg.item_data_statistics[41829] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41830] = {
+_G.pg.base.item_data_statistics[41830] = {
 	display = "하마카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27852,7 +27879,7 @@ _G.pg.item_data_statistics[41830] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41831] = {
+_G.pg.base.item_data_statistics[41831] = {
 	display = "타니카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27873,7 +27900,7 @@ _G.pg.item_data_statistics[41831] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41832] = {
+_G.pg.base.item_data_statistics[41832] = {
 	display = "미카사에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27894,7 +27921,7 @@ _G.pg.item_data_statistics[41832] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41833] = {
+_G.pg.base.item_data_statistics[41833] = {
 	display = "아가노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27915,7 +27942,7 @@ _G.pg.item_data_statistics[41833] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41834] = {
+_G.pg.base.item_data_statistics[41834] = {
 	display = "매치리스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27936,7 +27963,7 @@ _G.pg.item_data_statistics[41834] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41835] = {
+_G.pg.base.item_data_statistics[41835] = {
 	display = "머스킷티어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27957,7 +27984,7 @@ _G.pg.item_data_statistics[41835] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41836] = {
+_G.pg.base.item_data_statistics[41836] = {
 	display = "피지에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27978,7 +28005,7 @@ _G.pg.item_data_statistics[41836] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41837] = {
+_G.pg.base.item_data_statistics[41837] = {
 	display = "자메이카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -27999,7 +28026,7 @@ _G.pg.item_data_statistics[41837] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41838] = {
+_G.pg.base.item_data_statistics[41838] = {
 	display = "몬트필리어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28020,7 +28047,7 @@ _G.pg.item_data_statistics[41838] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41839] = {
+_G.pg.base.item_data_statistics[41839] = {
 	display = "덴버에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28041,7 +28068,7 @@ _G.pg.item_data_statistics[41839] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41840] = {
+_G.pg.base.item_data_statistics[41840] = {
 	display = "아사시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28062,7 +28089,7 @@ _G.pg.item_data_statistics[41840] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41841] = {
+_G.pg.base.item_data_statistics[41841] = {
 	display = "오오시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28083,7 +28110,7 @@ _G.pg.item_data_statistics[41841] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41842] = {
+_G.pg.base.item_data_statistics[41842] = {
 	display = "미치시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28104,7 +28131,7 @@ _G.pg.item_data_statistics[41842] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41843] = {
+_G.pg.base.item_data_statistics[41843] = {
 	display = "아라시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28125,7 +28152,7 @@ _G.pg.item_data_statistics[41843] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41844] = {
+_G.pg.base.item_data_statistics[41844] = {
 	display = "꼬마 벨파스트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28146,7 +28173,7 @@ _G.pg.item_data_statistics[41844] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41845] = {
+_G.pg.base.item_data_statistics[41845] = {
 	display = "이19에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28167,7 +28194,7 @@ _G.pg.item_data_statistics[41845] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41846] = {
+_G.pg.base.item_data_statistics[41846] = {
 	display = "이26에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28188,7 +28215,7 @@ _G.pg.item_data_statistics[41846] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41847] = {
+_G.pg.base.item_data_statistics[41847] = {
 	display = "이58에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28209,7 +28236,7 @@ _G.pg.item_data_statistics[41847] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41848] = {
+_G.pg.base.item_data_statistics[41848] = {
 	display = "U-81에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28230,7 +28257,7 @@ _G.pg.item_data_statistics[41848] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41849] = {
+_G.pg.base.item_data_statistics[41849] = {
 	display = "데이스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28251,7 +28278,7 @@ _G.pg.item_data_statistics[41849] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41850] = {
+_G.pg.base.item_data_statistics[41850] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28272,7 +28299,7 @@ _G.pg.item_data_statistics[41850] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41851] = {
+_G.pg.base.item_data_statistics[41851] = {
 	display = "U-557에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28293,7 +28320,7 @@ _G.pg.item_data_statistics[41851] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41852] = {
+_G.pg.base.item_data_statistics[41852] = {
 	display = "Z35에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28314,7 +28341,7 @@ _G.pg.item_data_statistics[41852] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41853] = {
+_G.pg.base.item_data_statistics[41853] = {
 	display = "Z18에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28335,7 +28362,7 @@ _G.pg.item_data_statistics[41853] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41854] = {
+_G.pg.base.item_data_statistics[41854] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28356,7 +28383,7 @@ _G.pg.item_data_statistics[41854] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41855] = {
+_G.pg.base.item_data_statistics[41855] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28377,7 +28404,7 @@ _G.pg.item_data_statistics[41855] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41856] = {
+_G.pg.base.item_data_statistics[41856] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28398,7 +28425,7 @@ _G.pg.item_data_statistics[41856] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41857] = {
+_G.pg.base.item_data_statistics[41857] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28419,7 +28446,7 @@ _G.pg.item_data_statistics[41857] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41858] = {
+_G.pg.base.item_data_statistics[41858] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28440,7 +28467,7 @@ _G.pg.item_data_statistics[41858] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41859] = {
+_G.pg.base.item_data_statistics[41859] = {
 	display = "됭케르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28461,7 +28488,7 @@ _G.pg.item_data_statistics[41859] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41860] = {
+_G.pg.base.item_data_statistics[41860] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28482,7 +28509,7 @@ _G.pg.item_data_statistics[41860] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41861] = {
+_G.pg.base.item_data_statistics[41861] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28503,7 +28530,7 @@ _G.pg.item_data_statistics[41861] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41862] = {
+_G.pg.base.item_data_statistics[41862] = {
 	display = "부시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28524,7 +28551,7 @@ _G.pg.item_data_statistics[41862] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41863] = {
+_G.pg.base.item_data_statistics[41863] = {
 	display = "센토에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28545,7 +28572,7 @@ _G.pg.item_data_statistics[41863] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41864] = {
+_G.pg.base.item_data_statistics[41864] = {
 	display = "에식스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28566,7 +28593,7 @@ _G.pg.item_data_statistics[41864] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41865] = {
+_G.pg.base.item_data_statistics[41865] = {
 	display = "알바코어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28587,7 +28614,7 @@ _G.pg.item_data_statistics[41865] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41866] = {
+_G.pg.base.item_data_statistics[41866] = {
 	display = "르 테메레르에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28608,7 +28635,7 @@ _G.pg.item_data_statistics[41866] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41867] = {
+_G.pg.base.item_data_statistics[41867] = {
 	display = "멤피스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28629,7 +28656,7 @@ _G.pg.item_data_statistics[41867] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41868] = {
+_G.pg.base.item_data_statistics[41868] = {
 	display = "뉴캐슬에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28650,7 +28677,7 @@ _G.pg.item_data_statistics[41868] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41869] = {
+_G.pg.base.item_data_statistics[41869] = {
 	display = "하비에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28671,7 +28698,7 @@ _G.pg.item_data_statistics[41869] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41870] = {
+_G.pg.base.item_data_statistics[41870] = {
 	display = "커크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28692,7 +28719,7 @@ _G.pg.item_data_statistics[41870] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41871] = {
+_G.pg.base.item_data_statistics[41871] = {
 	display = "미니애폴리스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28713,7 +28740,7 @@ _G.pg.item_data_statistics[41871] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41872] = {
+_G.pg.base.item_data_statistics[41872] = {
 	display = "헤이즐우드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28734,7 +28761,7 @@ _G.pg.item_data_statistics[41872] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41873] = {
+_G.pg.base.item_data_statistics[41873] = {
 	display = "콩코드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28755,7 +28782,7 @@ _G.pg.item_data_statistics[41873] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41874] = {
+_G.pg.base.item_data_statistics[41874] = {
 	display = "하타카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28776,7 +28803,7 @@ _G.pg.item_data_statistics[41874] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41875] = {
+_G.pg.base.item_data_statistics[41875] = {
 	display = "마키나미에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28797,7 +28824,7 @@ _G.pg.item_data_statistics[41875] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41876] = {
+_G.pg.base.item_data_statistics[41876] = {
 	display = "에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28818,7 +28845,7 @@ _G.pg.item_data_statistics[41876] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41877] = {
+_G.pg.base.item_data_statistics[41877] = {
 	display = "퀴라소에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28839,7 +28866,7 @@ _G.pg.item_data_statistics[41877] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41878] = {
+_G.pg.base.item_data_statistics[41878] = {
 	display = "컬루에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28860,7 +28887,7 @@ _G.pg.item_data_statistics[41878] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41879] = {
+_G.pg.base.item_data_statistics[41879] = {
 	display = "킴벌리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28881,7 +28908,7 @@ _G.pg.item_data_statistics[41879] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41880] = {
+_G.pg.base.item_data_statistics[41880] = {
 	display = "멀라니에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28902,7 +28929,7 @@ _G.pg.item_data_statistics[41880] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41881] = {
+_G.pg.base.item_data_statistics[41881] = {
 	display = "체이서에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28923,7 +28950,7 @@ _G.pg.item_data_statistics[41881] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41882] = {
+_G.pg.base.item_data_statistics[41882] = {
 	display = "넵튠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28944,7 +28971,7 @@ _G.pg.item_data_statistics[41882] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41883] = {
+_G.pg.base.item_data_statistics[41883] = {
 	display = "모나크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28965,7 +28992,7 @@ _G.pg.item_data_statistics[41883] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41884] = {
+_G.pg.base.item_data_statistics[41884] = {
 	display = "이부키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -28986,7 +29013,7 @@ _G.pg.item_data_statistics[41884] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41885] = {
+_G.pg.base.item_data_statistics[41885] = {
 	display = "이즈모에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29007,7 +29034,7 @@ _G.pg.item_data_statistics[41885] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41886] = {
+_G.pg.base.item_data_statistics[41886] = {
 	display = "론에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29028,7 +29055,7 @@ _G.pg.item_data_statistics[41886] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41887] = {
+_G.pg.base.item_data_statistics[41887] = {
 	display = "생 루이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29049,7 +29076,7 @@ _G.pg.item_data_statistics[41887] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41888] = {
+_G.pg.base.item_data_statistics[41888] = {
 	display = "듀이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29070,7 +29097,7 @@ _G.pg.item_data_statistics[41888] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41889] = {
+_G.pg.base.item_data_statistics[41889] = {
 	display = "아일윈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29091,7 +29118,7 @@ _G.pg.item_data_statistics[41889] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41890] = {
+_G.pg.base.item_data_statistics[41890] = {
 	display = "배시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29112,7 +29139,7 @@ _G.pg.item_data_statistics[41890] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41891] = {
+_G.pg.base.item_data_statistics[41891] = {
 	display = "스탠리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29133,7 +29160,7 @@ _G.pg.item_data_statistics[41891] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41892] = {
+_G.pg.base.item_data_statistics[41892] = {
 	display = "스몰리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29154,7 +29181,7 @@ _G.pg.item_data_statistics[41892] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41893] = {
+_G.pg.base.item_data_statistics[41893] = {
 	display = "할시 파웰에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29175,7 +29202,7 @@ _G.pg.item_data_statistics[41893] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41894] = {
+_G.pg.base.item_data_statistics[41894] = {
 	display = "꼬마 헬레나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29196,7 +29223,7 @@ _G.pg.item_data_statistics[41894] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41895] = {
+_G.pg.base.item_data_statistics[41895] = {
 	display = "산후안에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29217,7 +29244,7 @@ _G.pg.item_data_statistics[41895] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41896] = {
+_G.pg.base.item_data_statistics[41896] = {
 	display = "꼬마 샌디에이고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29238,7 +29265,7 @@ _G.pg.item_data_statistics[41896] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41897] = {
+_G.pg.base.item_data_statistics[41897] = {
 	display = "버밍햄에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29259,7 +29286,7 @@ _G.pg.item_data_statistics[41897] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41898] = {
+_G.pg.base.item_data_statistics[41898] = {
 	display = "빌럭시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29280,7 +29307,7 @@ _G.pg.item_data_statistics[41898] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41899] = {
+_G.pg.base.item_data_statistics[41899] = {
 	display = "꼬마 클리블랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29301,7 +29328,7 @@ _G.pg.item_data_statistics[41899] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41900] = {
+_G.pg.base.item_data_statistics[41900] = {
 	display = "클리블랜드(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29322,7 +29349,7 @@ _G.pg.item_data_statistics[41900] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41901] = {
+_G.pg.base.item_data_statistics[41901] = {
 	display = "볼티모어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29343,7 +29370,7 @@ _G.pg.item_data_statistics[41901] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41902] = {
+_G.pg.base.item_data_statistics[41902] = {
 	display = "앨라배마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29364,7 +29391,7 @@ _G.pg.item_data_statistics[41902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41903] = {
+_G.pg.base.item_data_statistics[41903] = {
 	display = "벙커힐에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29385,7 +29412,7 @@ _G.pg.item_data_statistics[41903] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41904] = {
+_G.pg.base.item_data_statistics[41904] = {
 	display = "인디펜던스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29406,7 +29433,7 @@ _G.pg.item_data_statistics[41904] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41905] = {
+_G.pg.base.item_data_statistics[41905] = {
 	display = "바탄에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29427,7 +29454,7 @@ _G.pg.item_data_statistics[41905] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41906] = {
+_G.pg.base.item_data_statistics[41906] = {
 	display = "샹그릴라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29448,7 +29475,7 @@ _G.pg.item_data_statistics[41906] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41907] = {
+_G.pg.base.item_data_statistics[41907] = {
 	display = "카발라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29469,7 +29496,7 @@ _G.pg.item_data_statistics[41907] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41908] = {
+_G.pg.base.item_data_statistics[41908] = {
 	display = "에코에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29490,7 +29517,7 @@ _G.pg.item_data_statistics[41908] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41909] = {
+_G.pg.base.item_data_statistics[41909] = {
 	display = "하디에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29511,7 +29538,7 @@ _G.pg.item_data_statistics[41909] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41910] = {
+_G.pg.base.item_data_statistics[41910] = {
 	display = "헌터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29532,7 +29559,7 @@ _G.pg.item_data_statistics[41910] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41911] = {
+_G.pg.base.item_data_statistics[41911] = {
 	display = "사우스햄튼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29553,7 +29580,7 @@ _G.pg.item_data_statistics[41911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41912] = {
+_G.pg.base.item_data_statistics[41912] = {
 	display = "글래스고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29574,7 +29601,7 @@ _G.pg.item_data_statistics[41912] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41913] = {
+_G.pg.base.item_data_statistics[41913] = {
 	display = "글로스터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29595,7 +29622,7 @@ _G.pg.item_data_statistics[41913] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41914] = {
+_G.pg.base.item_data_statistics[41914] = {
 	display = "셰필드(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29616,7 +29643,7 @@ _G.pg.item_data_statistics[41914] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41915] = {
+_G.pg.base.item_data_statistics[41915] = {
 	display = "디이도에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29637,7 +29664,7 @@ _G.pg.item_data_statistics[41915] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41916] = {
+_G.pg.base.item_data_statistics[41916] = {
 	display = "블랙 프린스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29658,7 +29685,7 @@ _G.pg.item_data_statistics[41916] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41917] = {
+_G.pg.base.item_data_statistics[41917] = {
 	display = "确捷에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29679,7 +29706,7 @@ _G.pg.item_data_statistics[41917] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41918] = {
+_G.pg.base.item_data_statistics[41918] = {
 	display = "킹 조지 5세에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29700,7 +29727,7 @@ _G.pg.item_data_statistics[41918] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41919] = {
+_G.pg.base.item_data_statistics[41919] = {
 	display = "포미더블에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29721,7 +29748,7 @@ _G.pg.item_data_statistics[41919] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41921] = {
+_G.pg.base.item_data_statistics[41921] = {
 	display = "우라나미에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29742,7 +29769,7 @@ _G.pg.item_data_statistics[41921] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41922] = {
+_G.pg.base.item_data_statistics[41922] = {
 	display = "히비키에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29763,7 +29790,7 @@ _G.pg.item_data_statistics[41922] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41923] = {
+_G.pg.base.item_data_statistics[41923] = {
 	display = "카스미에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29784,7 +29811,7 @@ _G.pg.item_data_statistics[41923] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41924] = {
+_G.pg.base.item_data_statistics[41924] = {
 	display = "키요나미에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29805,7 +29832,7 @@ _G.pg.item_data_statistics[41924] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41925] = {
+_G.pg.base.item_data_statistics[41925] = {
 	display = "키누에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29826,7 +29853,7 @@ _G.pg.item_data_statistics[41925] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41926] = {
+_G.pg.base.item_data_statistics[41926] = {
 	display = "스즈야에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29847,7 +29874,7 @@ _G.pg.item_data_statistics[41926] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41927] = {
+_G.pg.base.item_data_statistics[41927] = {
 	display = "노시로에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29868,7 +29895,7 @@ _G.pg.item_data_statistics[41927] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41928] = {
+_G.pg.base.item_data_statistics[41928] = {
 	display = "꼬마 히에이에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29889,7 +29916,7 @@ _G.pg.item_data_statistics[41928] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41929] = {
+_G.pg.base.item_data_statistics[41929] = {
 	display = "스루가에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29910,7 +29937,7 @@ _G.pg.item_data_statistics[41929] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41930] = {
+_G.pg.base.item_data_statistics[41930] = {
 	display = "류호에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29931,7 +29958,7 @@ _G.pg.item_data_statistics[41930] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41931] = {
+_G.pg.base.item_data_statistics[41931] = {
 	display = "꼬마 아카기에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29952,7 +29979,7 @@ _G.pg.item_data_statistics[41931] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41932] = {
+_G.pg.base.item_data_statistics[41932] = {
 	display = "아카기(μ장비)에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29973,7 +30000,7 @@ _G.pg.item_data_statistics[41932] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41933] = {
+_G.pg.base.item_data_statistics[41933] = {
 	display = "이25에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -29994,7 +30021,7 @@ _G.pg.item_data_statistics[41933] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41934] = {
+_G.pg.base.item_data_statistics[41934] = {
 	display = "이56에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30015,7 +30042,7 @@ _G.pg.item_data_statistics[41934] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41935] = {
+_G.pg.base.item_data_statistics[41935] = {
 	display = "이168에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30036,7 +30063,7 @@ _G.pg.item_data_statistics[41935] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41936] = {
+_G.pg.base.item_data_statistics[41936] = {
 	display = "이13에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30057,7 +30084,7 @@ _G.pg.item_data_statistics[41936] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41937] = {
+_G.pg.base.item_data_statistics[41937] = {
 	display = "Z2에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30078,7 +30105,7 @@ _G.pg.item_data_statistics[41937] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41938] = {
+_G.pg.base.item_data_statistics[41938] = {
 	display = "Z36에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30099,7 +30126,7 @@ _G.pg.item_data_statistics[41938] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41939] = {
+_G.pg.base.item_data_statistics[41939] = {
 	display = "아드미랄 히퍼(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30120,7 +30147,7 @@ _G.pg.item_data_statistics[41939] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41940] = {
+_G.pg.base.item_data_statistics[41940] = {
 	display = "비스마르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30141,7 +30168,7 @@ _G.pg.item_data_statistics[41940] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41941] = {
+_G.pg.base.item_data_statistics[41941] = {
 	display = "꼬마 그라프 체펠린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30162,7 +30189,7 @@ _G.pg.item_data_statistics[41941] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41942] = {
+_G.pg.base.item_data_statistics[41942] = {
 	display = "U-73에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30183,7 +30210,7 @@ _G.pg.item_data_statistics[41942] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41943] = {
+_G.pg.base.item_data_statistics[41943] = {
 	display = "U-101에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30204,7 +30231,7 @@ _G.pg.item_data_statistics[41943] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41944] = {
+_G.pg.base.item_data_statistics[41944] = {
 	display = "U-110에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30225,7 +30252,7 @@ _G.pg.item_data_statistics[41944] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41945] = {
+_G.pg.base.item_data_statistics[41945] = {
 	display = "U-522에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30246,7 +30273,7 @@ _G.pg.item_data_statistics[41945] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41946] = {
+_G.pg.base.item_data_statistics[41946] = {
 	display = "U-556에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30267,7 +30294,7 @@ _G.pg.item_data_statistics[41946] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41947] = {
+_G.pg.base.item_data_statistics[41947] = {
 	display = "카라비니에레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30288,7 +30315,7 @@ _G.pg.item_data_statistics[41947] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41948] = {
+_G.pg.base.item_data_statistics[41948] = {
 	display = "트렌토에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30309,7 +30336,7 @@ _G.pg.item_data_statistics[41948] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41949] = {
+_G.pg.base.item_data_statistics[41949] = {
 	display = "차라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30330,7 +30357,7 @@ _G.pg.item_data_statistics[41949] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41950] = {
+_G.pg.base.item_data_statistics[41950] = {
 	display = "리토리오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30351,7 +30378,7 @@ _G.pg.item_data_statistics[41950] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41951] = {
+_G.pg.base.item_data_statistics[41951] = {
 	display = "콘테 디 카보우르에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30372,7 +30399,7 @@ _G.pg.item_data_statistics[41951] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41952] = {
+_G.pg.base.item_data_statistics[41952] = {
 	display = "줄리오 체사레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30393,7 +30420,7 @@ _G.pg.item_data_statistics[41952] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41953] = {
+_G.pg.base.item_data_statistics[41953] = {
 	display = "로피니아트르 에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30414,7 +30441,7 @@ _G.pg.item_data_statistics[41953] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41954] = {
+_G.pg.base.item_data_statistics[41954] = {
 	display = "르 말랭에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30435,7 +30462,7 @@ _G.pg.item_data_statistics[41954] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41955] = {
+_G.pg.base.item_data_statistics[41955] = {
 	display = "가스코뉴(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30456,7 +30483,7 @@ _G.pg.item_data_statistics[41955] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41956] = {
+_G.pg.base.item_data_statistics[41956] = {
 	display = "시애틀에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30477,7 +30504,7 @@ _G.pg.item_data_statistics[41956] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41957] = {
+_G.pg.base.item_data_statistics[41957] = {
 	display = "조지아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30498,7 +30525,7 @@ _G.pg.item_data_statistics[41957] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41958] = {
+_G.pg.base.item_data_statistics[41958] = {
 	display = "키타카제에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30519,7 +30546,7 @@ _G.pg.item_data_statistics[41958] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41959] = {
+_G.pg.base.item_data_statistics[41959] = {
 	display = "아즈마에게 받은 밸런타인 데이 선물'",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30540,7 +30567,7 @@ _G.pg.item_data_statistics[41959] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41960] = {
+_G.pg.base.item_data_statistics[41960] = {
 	display = "프리드리히 데어 그로세에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30561,7 +30588,7 @@ _G.pg.item_data_statistics[41960] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[41961] = {
+_G.pg.base.item_data_statistics[41961] = {
 	display = "가스코뉴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -30582,7 +30609,7 @@ _G.pg.item_data_statistics[41961] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42000] = {
+_G.pg.base.item_data_statistics[42000] = {
 	display = "스페셜 프로젝트 함선 「이부키」, 「모나크」, 「이즈모」, 「론」, 「넵튠」, 「생・루이」의 강화 유닛을 선택하여 획득할 수 있습니다.",
 	name = "지향형 강화 유닛 - 제1기",
 	max_num = 0,
@@ -30634,7 +30661,7 @@ _G.pg.item_data_statistics[42000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42001] = {
+_G.pg.base.item_data_statistics[42001] = {
 	display = "로열 네이비의 순양함 「넵튠」의 강화 유닛.\n<color=#92fc63>「넵튠」개발 완료 후, 「개발 도크」에서 「넵튠」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「넵튠」",
 	max_num = 0,
@@ -30658,7 +30685,7 @@ _G.pg.item_data_statistics[42001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42002] = {
+_G.pg.base.item_data_statistics[42002] = {
 	display = "로열 네이비의 전함 「모나크」의 강화 유닛.\n<color=#92fc63>「모나크」개발 완료 후, 「개발 도크」에서 「모나크」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「모나크」",
 	max_num = 0,
@@ -30682,7 +30709,7 @@ _G.pg.item_data_statistics[42002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42003] = {
+_G.pg.base.item_data_statistics[42003] = {
 	display = "사쿠라 엠파이어 순양함 「이부키」의 강화 유닛.\n<color=#92fc63>「이부키」개발 완료 후, 「개발 도크」에서 「이부키」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「이부키」",
 	max_num = 0,
@@ -30706,7 +30733,7 @@ _G.pg.item_data_statistics[42003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42004] = {
+_G.pg.base.item_data_statistics[42004] = {
 	display = "사쿠라 엠파이어 전함 「이즈모」의 강화 유닛.\n<color=#92fc63>「이즈모」개발 완료 후, 「개발 도크」에서 「이즈모」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「이즈모」",
 	max_num = 0,
@@ -30730,7 +30757,7 @@ _G.pg.item_data_statistics[42004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42005] = {
+_G.pg.base.item_data_statistics[42005] = {
 	display = "메탈 블러드의 중순양함 「론」의 강화 유닛.\n<color=#92fc63>「론」개발 완료 후, 「개발 도크」에서 「론」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「론」",
 	max_num = 0,
@@ -30754,7 +30781,7 @@ _G.pg.item_data_statistics[42005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42006] = {
+_G.pg.base.item_data_statistics[42006] = {
 	display = "아이리스 리브레 순양함 「생 루이」의 강화 유닛.\n<color=#92fc63>「생 루이」개발 완료 후, 「개발 도크」에서 「생 루이」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「생 루이」",
 	max_num = 0,
@@ -30778,7 +30805,7 @@ _G.pg.item_data_statistics[42006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42010] = {
+_G.pg.base.item_data_statistics[42010] = {
 	display = "스페셜 프로젝트 1&2 기 함선의 강화 유닛(SSR) 중 하나를 선택하여 획득할 수 있습니다.",
 	name = "지향형 강화 유닛 - 제2기",
 	max_num = 0,
@@ -30850,7 +30877,7 @@ _G.pg.item_data_statistics[42010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42011] = {
+_G.pg.base.item_data_statistics[42011] = {
 	display = "유니온 순양함 「시애틀」의 강화 유닛.\n<color=#92fc63> 「시애틀」개발 완료 후, 「개발 도크」에서 「시애틀」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「시애틀」",
 	max_num = 0,
@@ -30874,7 +30901,7 @@ _G.pg.item_data_statistics[42011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42012] = {
+_G.pg.base.item_data_statistics[42012] = {
 	display = "유니온 전함 「조지아」의 강화 유닛.\n<color=#92fc63>「조지아」개발 완료 후, 「개발 도크」에서 「조지아」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「조지아」",
 	max_num = 0,
@@ -30898,7 +30925,7 @@ _G.pg.item_data_statistics[42012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42013] = {
+_G.pg.base.item_data_statistics[42013] = {
 	display = "사쿠라 엠파이어 구축함 「키타카제」의 강화 유닛.\n<color=#92fc63>「키타카제」개발 완료 후, 「개발 도크」에서 「키타카제」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「키타카제」",
 	max_num = 0,
@@ -30922,7 +30949,7 @@ _G.pg.item_data_statistics[42013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42014] = {
+_G.pg.base.item_data_statistics[42014] = {
 	display = "사쿠라 엠파이어 초갑순양함 「아즈마」의 강화 유닛.\n<color=#92fc63>「아즈마」개발 완료 후, 「개발 도크」에서 「아즈마」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「아즈마」",
 	max_num = 0,
@@ -30946,7 +30973,7 @@ _G.pg.item_data_statistics[42014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42015] = {
+_G.pg.base.item_data_statistics[42015] = {
 	display = "메탈 블러드 전함 「프리드리히 데어 그로세」의 강화 유닛.\n<color=#92fc63>「프리드리히 데어 그로세」개발 완료 후, 「개발 도크」에서 「프리드리히 데어 그로세」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「프리드리히 데어 그로세」",
 	max_num = 0,
@@ -30970,7 +30997,7 @@ _G.pg.item_data_statistics[42015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42016] = {
+_G.pg.base.item_data_statistics[42016] = {
 	display = "비시아 전함 「가스코뉴」의 강화 유닛.\n<color=#92fc63>「가스코뉴」개발 완료 후, 「개발 도크」에서 「가스코뉴」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「가스코뉴」",
 	max_num = 0,
@@ -30994,7 +31021,7 @@ _G.pg.item_data_statistics[42016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42017] = {
+_G.pg.base.item_data_statistics[42017] = {
 	display = "스페셜 프로젝트 함선 「아즈마」, 「프리드리히 데어 그로세」의 강화 유닛을 선택하여 획득할 수 있습니다.",
 	name = "상급 지향형 강화 유닛 - 제2기",
 	max_num = 0,
@@ -31026,7 +31053,7 @@ _G.pg.item_data_statistics[42017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42020] = {
+_G.pg.base.item_data_statistics[42020] = {
 	display = "사용 후 1기, 2기, 3기 PR함의 PR 강화 유닛 중 1개를 선택하여 획득한다.",
 	name = "지향형 강화 유닛 - 제3기",
 	max_num = 0,
@@ -31118,7 +31145,7 @@ _G.pg.item_data_statistics[42020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42021] = {
+_G.pg.base.item_data_statistics[42021] = {
 	display = "로열 네이비 순양함 「체셔」의 강화 유닛.\n<color=#92fc63>「체셔」 획득 후, 「개발 도크」에서 「체셔」의 능력 향상에 사용된다. </color>",
 	name = "강화 유닛: 체셔",
 	max_num = 0,
@@ -31142,7 +31169,7 @@ _G.pg.item_data_statistics[42021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42022] = {
+_G.pg.base.item_data_statistics[42022] = {
 	display = "로열 네이비 순양함 「드레이크」의 강화 유닛.\n<color=#92fc63>「드레이크」 획득 후, 「개발 도크」에서 「드레이크」의 능력 향상에 사용된다. </color>",
 	name = "강화 유닛: 드레이크",
 	max_num = 0,
@@ -31166,7 +31193,7 @@ _G.pg.item_data_statistics[42022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42023] = {
+_G.pg.base.item_data_statistics[42023] = {
 	display = "메탈 블러드 순양함 「마인츠」의 강화 유닛.\n<color=#92fc63>「마인츠」 획득 후, 「개발 도크」에서 「마인츠」의 능력 향상에 사용된다. </color>",
 	name = "강화 유닛: 마인츠",
 	max_num = 0,
@@ -31190,7 +31217,7 @@ _G.pg.item_data_statistics[42023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42024] = {
+_G.pg.base.item_data_statistics[42024] = {
 	display = "메탈 블러드 순양전함 「오딘」의 강화 유닛.\n<color=#92fc63>「오딘」 획득 후, 「개발 도크」에서 「오딘」의 능력 향상에 사용된다. </color>",
 	name = "강화 유닛: 오딘",
 	max_num = 0,
@@ -31214,7 +31241,7 @@ _G.pg.item_data_statistics[42024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42025] = {
+_G.pg.base.item_data_statistics[42025] = {
 	display = "아이리스 리브레 전함 「샹파뉴」의 강화 유닛.\n<color=#92fc63>「샹파뉴」 획득 후, 「개발 도크」에서 「샹파뉴」의 능력 향상에 사용된다. </color>",
 	name = "강화 유닛: 샹파뉴",
 	max_num = 0,
@@ -31238,7 +31265,7 @@ _G.pg.item_data_statistics[42025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42026] = {
+_G.pg.base.item_data_statistics[42026] = {
 	display = "사용 후 1기, 2기, 3기 PR함의 DR 강화 유닛 중 1개를 선택하여 획득한다.",
 	name = "고급 지향형 강화 유닛 - 제3기",
 	max_num = 0,
@@ -31275,7 +31302,7 @@ _G.pg.item_data_statistics[42026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42030] = {
+_G.pg.base.item_data_statistics[42030] = {
 	display = "사용 후 1기, 2기, 3기, 4기 PR함의 PR 강화 유닛 중 1개를 선택하여 획득한다.",
 	name = "지향형 강화 유닛・제4기",
 	max_num = 0,
@@ -31382,7 +31409,7 @@ _G.pg.item_data_statistics[42030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42031] = {
+_G.pg.base.item_data_statistics[42031] = {
 	display = "이글 유니온 순양함 「앵커리지」의 강화 유닛.\n<color=#92fc63>「앵커리지」 획득 후, 「개발 도크」에서 「앵커리지」의 성능을 강화할 수 있다.</color>",
 	name = "걍화 유닛 「앵커리지」",
 	max_num = 0,
@@ -31406,7 +31433,7 @@ _G.pg.item_data_statistics[42031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42032] = {
+_G.pg.base.item_data_statistics[42032] = {
 	display = "사쿠라 엠파이어 항공모함 「하쿠류」의 강화 유닛.\n<color=#92fc63>「하쿠류」획득 후, 「개발 도크」에서 「하쿠류」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「하쿠류」",
 	max_num = 0,
@@ -31430,7 +31457,7 @@ _G.pg.item_data_statistics[42032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42033] = {
+_G.pg.base.item_data_statistics[42033] = {
 	display = "메탈 블러드 대형순양함 「에기르」의 강화 유닛.\n<color=#92fc63>「에기르」획득 후, 「개발 도크」에서 「에기르」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「에기르」",
 	max_num = 0,
@@ -31454,7 +31481,7 @@ _G.pg.item_data_statistics[42033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42034] = {
+_G.pg.base.item_data_statistics[42034] = {
 	display = "메탈 블러드 항공모함 「아우구스트 폰 파르제팔」의 강화 유닛.\n<color=#92fc63>「아우구스트 폰 파르제팔」획득 후, 「개발 도크」에서 「아우구스트 폰 파르제팔」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「아우구스트 폰 파르제팔」",
 	max_num = 0,
@@ -31478,7 +31505,7 @@ _G.pg.item_data_statistics[42034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42035] = {
+_G.pg.base.item_data_statistics[42035] = {
 	display = "샤르데냐 엠파이어 전함 「마르코 폴로」의 강화 유닛.\n<color=#92fc63>「마르코 폴로」획득 후, 「개발 도크」에서 「마르코 폴로」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「마르코 폴로」",
 	max_num = 0,
@@ -31502,7 +31529,7 @@ _G.pg.item_data_statistics[42035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[42036] = {
+_G.pg.base.item_data_statistics[42036] = {
 	display = "사용 후 2기, 3기, 4기 PR함의 DR 강화 유닛 중 1개를 선택하여 획득한다.",
 	name = "고급 지향형 강화 유닛・제4기",
 	max_num = 0,
@@ -31549,7 +31576,7 @@ _G.pg.item_data_statistics[42036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43001] = {
+_G.pg.base.item_data_statistics[43001] = {
 	display = "범용형 부린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31570,7 +31597,7 @@ _G.pg.item_data_statistics[43001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43002] = {
+_G.pg.base.item_data_statistics[43002] = {
 	display = "시제형 부린 MKⅡ에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31591,7 +31618,7 @@ _G.pg.item_data_statistics[43002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43003] = {
+_G.pg.base.item_data_statistics[43003] = {
 	display = "듀이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31612,7 +31639,7 @@ _G.pg.item_data_statistics[43003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43004] = {
+_G.pg.base.item_data_statistics[43004] = {
 	display = "캐신에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31633,7 +31660,7 @@ _G.pg.item_data_statistics[43004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43005] = {
+_G.pg.base.item_data_statistics[43005] = {
 	display = "다운즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31654,7 +31681,7 @@ _G.pg.item_data_statistics[43005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43006] = {
+_G.pg.base.item_data_statistics[43006] = {
 	display = "그리들리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31675,7 +31702,7 @@ _G.pg.item_data_statistics[43006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43007] = {
+_G.pg.base.item_data_statistics[43007] = {
 	display = "크레이븐에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31696,7 +31723,7 @@ _G.pg.item_data_statistics[43007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43008] = {
+_G.pg.base.item_data_statistics[43008] = {
 	display = "맥콜에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31717,7 +31744,7 @@ _G.pg.item_data_statistics[43008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43009] = {
+_G.pg.base.item_data_statistics[43009] = {
 	display = "모리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31738,7 +31765,7 @@ _G.pg.item_data_statistics[43009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43010] = {
+_G.pg.base.item_data_statistics[43010] = {
 	display = "플레처에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31759,7 +31786,7 @@ _G.pg.item_data_statistics[43010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43011] = {
+_G.pg.base.item_data_statistics[43011] = {
 	display = "찰스 오스본에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31780,7 +31807,7 @@ _G.pg.item_data_statistics[43011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43012] = {
+_G.pg.base.item_data_statistics[43012] = {
 	display = "대처에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31801,7 +31828,7 @@ _G.pg.item_data_statistics[43012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43013] = {
+_G.pg.base.item_data_statistics[43013] = {
 	display = "얼릭에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31822,7 +31849,7 @@ _G.pg.item_data_statistics[43013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43014] = {
+_G.pg.base.item_data_statistics[43014] = {
 	display = "푸트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31843,7 +31870,7 @@ _G.pg.item_data_statistics[43014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43015] = {
+_G.pg.base.item_data_statistics[43015] = {
 	display = "스펜스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31864,7 +31891,7 @@ _G.pg.item_data_statistics[43015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43016] = {
+_G.pg.base.item_data_statistics[43016] = {
 	display = "벤슨에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31885,7 +31912,7 @@ _G.pg.item_data_statistics[43016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43017] = {
+_G.pg.base.item_data_statistics[43017] = {
 	display = "라피에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31906,7 +31933,7 @@ _G.pg.item_data_statistics[43017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43018] = {
+_G.pg.base.item_data_statistics[43018] = {
 	display = "심즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31927,7 +31954,7 @@ _G.pg.item_data_statistics[43018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43019] = {
+_G.pg.base.item_data_statistics[43019] = {
 	display = "허먼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31948,7 +31975,7 @@ _G.pg.item_data_statistics[43019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43020] = {
+_G.pg.base.item_data_statistics[43020] = {
 	display = "엘드릿지에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31969,7 +31996,7 @@ _G.pg.item_data_statistics[43020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43021] = {
+_G.pg.base.item_data_statistics[43021] = {
 	display = "베일리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -31990,7 +32017,7 @@ _G.pg.item_data_statistics[43021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43022] = {
+_G.pg.base.item_data_statistics[43022] = {
 	display = "래드포드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32011,7 +32038,7 @@ _G.pg.item_data_statistics[43022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43023] = {
+_G.pg.base.item_data_statistics[43023] = {
 	display = "젠킨스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32032,7 +32059,7 @@ _G.pg.item_data_statistics[43023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43024] = {
+_G.pg.base.item_data_statistics[43024] = {
 	display = "니콜라스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32053,7 +32080,7 @@ _G.pg.item_data_statistics[43024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43025] = {
+_G.pg.base.item_data_statistics[43025] = {
 	display = "부시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32074,7 +32101,7 @@ _G.pg.item_data_statistics[43025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43026] = {
+_G.pg.base.item_data_statistics[43026] = {
 	display = "헤이즐우드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32095,7 +32122,7 @@ _G.pg.item_data_statistics[43026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43027] = {
+_G.pg.base.item_data_statistics[43027] = {
 	display = "배시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32116,7 +32143,7 @@ _G.pg.item_data_statistics[43027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43028] = {
+_G.pg.base.item_data_statistics[43028] = {
 	display = "하비에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32137,7 +32164,7 @@ _G.pg.item_data_statistics[43028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43029] = {
+_G.pg.base.item_data_statistics[43029] = {
 	display = "커크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32158,7 +32185,7 @@ _G.pg.item_data_statistics[43029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43030] = {
+_G.pg.base.item_data_statistics[43030] = {
 	display = "킴벌리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32179,7 +32206,7 @@ _G.pg.item_data_statistics[43030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43031] = {
+_G.pg.base.item_data_statistics[43031] = {
 	display = "멀라니에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32200,7 +32227,7 @@ _G.pg.item_data_statistics[43031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43032] = {
+_G.pg.base.item_data_statistics[43032] = {
 	display = "아일윈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32221,7 +32248,7 @@ _G.pg.item_data_statistics[43032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43033] = {
+_G.pg.base.item_data_statistics[43033] = {
 	display = "스탠리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32242,7 +32269,7 @@ _G.pg.item_data_statistics[43033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43034] = {
+_G.pg.base.item_data_statistics[43034] = {
 	display = "스몰리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32263,7 +32290,7 @@ _G.pg.item_data_statistics[43034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43035] = {
+_G.pg.base.item_data_statistics[43035] = {
 	display = "오마하에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32284,7 +32311,7 @@ _G.pg.item_data_statistics[43035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43036] = {
+_G.pg.base.item_data_statistics[43036] = {
 	display = "롤리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32305,7 +32332,7 @@ _G.pg.item_data_statistics[43036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43037] = {
+_G.pg.base.item_data_statistics[43037] = {
 	display = "브루클린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32326,7 +32353,7 @@ _G.pg.item_data_statistics[43037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43038] = {
+_G.pg.base.item_data_statistics[43038] = {
 	display = "피닉스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32347,7 +32374,7 @@ _G.pg.item_data_statistics[43038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43039] = {
+_G.pg.base.item_data_statistics[43039] = {
 	display = "헬레나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32368,7 +32395,7 @@ _G.pg.item_data_statistics[43039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43040] = {
+_G.pg.base.item_data_statistics[43040] = {
 	display = "애틀란타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32389,7 +32416,7 @@ _G.pg.item_data_statistics[43040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43041] = {
+_G.pg.base.item_data_statistics[43041] = {
 	display = "쥬노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32410,7 +32437,7 @@ _G.pg.item_data_statistics[43041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43042] = {
+_G.pg.base.item_data_statistics[43042] = {
 	display = "샌디에이고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32431,7 +32458,7 @@ _G.pg.item_data_statistics[43042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43043] = {
+_G.pg.base.item_data_statistics[43043] = {
 	display = "클리블랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32452,7 +32479,7 @@ _G.pg.item_data_statistics[43043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43044] = {
+_G.pg.base.item_data_statistics[43044] = {
 	display = "컬럼비아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32473,7 +32500,7 @@ _G.pg.item_data_statistics[43044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43045] = {
+_G.pg.base.item_data_statistics[43045] = {
 	display = "리치몬드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32494,7 +32521,7 @@ _G.pg.item_data_statistics[43045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43046] = {
+_G.pg.base.item_data_statistics[43046] = {
 	display = "호놀룰루에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32515,7 +32542,7 @@ _G.pg.item_data_statistics[43046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43047] = {
+_G.pg.base.item_data_statistics[43047] = {
 	display = "세인트루이스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32536,7 +32563,7 @@ _G.pg.item_data_statistics[43047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43048] = {
+_G.pg.base.item_data_statistics[43048] = {
 	display = "몬트필리어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32557,7 +32584,7 @@ _G.pg.item_data_statistics[43048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43049] = {
+_G.pg.base.item_data_statistics[43049] = {
 	display = "덴버에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32578,7 +32605,7 @@ _G.pg.item_data_statistics[43049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43050] = {
+_G.pg.base.item_data_statistics[43050] = {
 	display = "멤피스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32599,7 +32626,7 @@ _G.pg.item_data_statistics[43050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43051] = {
+_G.pg.base.item_data_statistics[43051] = {
 	display = "콩코드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32620,7 +32647,7 @@ _G.pg.item_data_statistics[43051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43052] = {
+_G.pg.base.item_data_statistics[43052] = {
 	display = "꼬마 헬레나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32641,7 +32668,7 @@ _G.pg.item_data_statistics[43052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43053] = {
+_G.pg.base.item_data_statistics[43053] = {
 	display = "꼬마 클리블랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32662,7 +32689,7 @@ _G.pg.item_data_statistics[43053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43054] = {
+_G.pg.base.item_data_statistics[43054] = {
 	display = "꼬마 샌디에이고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32683,7 +32710,7 @@ _G.pg.item_data_statistics[43054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43055] = {
+_G.pg.base.item_data_statistics[43055] = {
 	display = "산후안에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32704,7 +32731,7 @@ _G.pg.item_data_statistics[43055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43056] = {
+_G.pg.base.item_data_statistics[43056] = {
 	display = "버밍햄에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32725,7 +32752,7 @@ _G.pg.item_data_statistics[43056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43057] = {
+_G.pg.base.item_data_statistics[43057] = {
 	display = "클리블랜드(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32746,7 +32773,7 @@ _G.pg.item_data_statistics[43057] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43058] = {
+_G.pg.base.item_data_statistics[43058] = {
 	display = "펜사콜라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32767,7 +32794,7 @@ _G.pg.item_data_statistics[43058] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43059] = {
+_G.pg.base.item_data_statistics[43059] = {
 	display = "솔트레이크시티에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32788,7 +32815,7 @@ _G.pg.item_data_statistics[43059] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43060] = {
+_G.pg.base.item_data_statistics[43060] = {
 	display = "노샘프턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32809,7 +32836,7 @@ _G.pg.item_data_statistics[43060] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43061] = {
+_G.pg.base.item_data_statistics[43061] = {
 	display = "시카고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32830,7 +32857,7 @@ _G.pg.item_data_statistics[43061] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43062] = {
+_G.pg.base.item_data_statistics[43062] = {
 	display = "휴스턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32851,7 +32878,7 @@ _G.pg.item_data_statistics[43062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43063] = {
+_G.pg.base.item_data_statistics[43063] = {
 	display = "포틀랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32872,7 +32899,7 @@ _G.pg.item_data_statistics[43063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43064] = {
+_G.pg.base.item_data_statistics[43064] = {
 	display = "인디애나폴리스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32893,7 +32920,7 @@ _G.pg.item_data_statistics[43064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43065] = {
+_G.pg.base.item_data_statistics[43065] = {
 	display = "아스토리아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32914,7 +32941,7 @@ _G.pg.item_data_statistics[43065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43066] = {
+_G.pg.base.item_data_statistics[43066] = {
 	display = "퀸시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32935,7 +32962,7 @@ _G.pg.item_data_statistics[43066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43067] = {
+_G.pg.base.item_data_statistics[43067] = {
 	display = "빈센스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32956,7 +32983,7 @@ _G.pg.item_data_statistics[43067] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43068] = {
+_G.pg.base.item_data_statistics[43068] = {
 	display = "위치타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32977,7 +33004,7 @@ _G.pg.item_data_statistics[43068] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43069] = {
+_G.pg.base.item_data_statistics[43069] = {
 	display = "미니애폴리스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -32998,7 +33025,7 @@ _G.pg.item_data_statistics[43069] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43070] = {
+_G.pg.base.item_data_statistics[43070] = {
 	display = "볼티모어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33019,7 +33046,7 @@ _G.pg.item_data_statistics[43070] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43071] = {
+_G.pg.base.item_data_statistics[43071] = {
 	display = "네바다에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33040,7 +33067,7 @@ _G.pg.item_data_statistics[43071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43072] = {
+_G.pg.base.item_data_statistics[43072] = {
 	display = "오클라호마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33061,7 +33088,7 @@ _G.pg.item_data_statistics[43072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43073] = {
+_G.pg.base.item_data_statistics[43073] = {
 	display = "펜실베이니아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33082,7 +33109,7 @@ _G.pg.item_data_statistics[43073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43074] = {
+_G.pg.base.item_data_statistics[43074] = {
 	display = "애리조나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33103,7 +33130,7 @@ _G.pg.item_data_statistics[43074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43075] = {
+_G.pg.base.item_data_statistics[43075] = {
 	display = "테네시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33124,7 +33151,7 @@ _G.pg.item_data_statistics[43075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43076] = {
+_G.pg.base.item_data_statistics[43076] = {
 	display = "캘리포니아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33145,7 +33172,7 @@ _G.pg.item_data_statistics[43076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43077] = {
+_G.pg.base.item_data_statistics[43077] = {
 	display = "콜로라도에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33166,7 +33193,7 @@ _G.pg.item_data_statistics[43077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43078] = {
+_G.pg.base.item_data_statistics[43078] = {
 	display = "메릴랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33187,7 +33214,7 @@ _G.pg.item_data_statistics[43078] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43079] = {
+_G.pg.base.item_data_statistics[43079] = {
 	display = "웨스트버지니아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33208,7 +33235,7 @@ _G.pg.item_data_statistics[43079] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43080] = {
+_G.pg.base.item_data_statistics[43080] = {
 	display = "노스캐롤라이나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33229,7 +33256,7 @@ _G.pg.item_data_statistics[43080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43081] = {
+_G.pg.base.item_data_statistics[43081] = {
 	display = "워싱턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33250,7 +33277,7 @@ _G.pg.item_data_statistics[43081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43082] = {
+_G.pg.base.item_data_statistics[43082] = {
 	display = "사우스다코타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33271,7 +33298,7 @@ _G.pg.item_data_statistics[43082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43083] = {
+_G.pg.base.item_data_statistics[43083] = {
 	display = "매사추세츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33292,7 +33319,7 @@ _G.pg.item_data_statistics[43083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43084] = {
+_G.pg.base.item_data_statistics[43084] = {
 	display = "앨라배마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33313,7 +33340,7 @@ _G.pg.item_data_statistics[43084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43085] = {
+_G.pg.base.item_data_statistics[43085] = {
 	display = "롱 아일랜드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33334,7 +33361,7 @@ _G.pg.item_data_statistics[43085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43086] = {
+_G.pg.base.item_data_statistics[43086] = {
 	display = "보그에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33355,7 +33382,7 @@ _G.pg.item_data_statistics[43086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43087] = {
+_G.pg.base.item_data_statistics[43087] = {
 	display = "랭글리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33376,7 +33403,7 @@ _G.pg.item_data_statistics[43087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43088] = {
+_G.pg.base.item_data_statistics[43088] = {
 	display = "렉싱턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33397,7 +33424,7 @@ _G.pg.item_data_statistics[43088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43089] = {
+_G.pg.base.item_data_statistics[43089] = {
 	display = "새러토가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33418,7 +33445,7 @@ _G.pg.item_data_statistics[43089] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43090] = {
+_G.pg.base.item_data_statistics[43090] = {
 	display = "레인저에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33439,7 +33466,7 @@ _G.pg.item_data_statistics[43090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43091] = {
+_G.pg.base.item_data_statistics[43091] = {
 	display = "요크타운에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33460,7 +33487,7 @@ _G.pg.item_data_statistics[43091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43092] = {
+_G.pg.base.item_data_statistics[43092] = {
 	display = "엔터프라이즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33481,7 +33508,7 @@ _G.pg.item_data_statistics[43092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43093] = {
+_G.pg.base.item_data_statistics[43093] = {
 	display = "호넷에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33502,7 +33529,7 @@ _G.pg.item_data_statistics[43093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43094] = {
+_G.pg.base.item_data_statistics[43094] = {
 	display = "와스프에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33523,7 +33550,7 @@ _G.pg.item_data_statistics[43094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43095] = {
+_G.pg.base.item_data_statistics[43095] = {
 	display = "에식스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33544,7 +33571,7 @@ _G.pg.item_data_statistics[43095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43096] = {
+_G.pg.base.item_data_statistics[43096] = {
 	display = "벙커힐에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33565,7 +33592,7 @@ _G.pg.item_data_statistics[43096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43097] = {
+_G.pg.base.item_data_statistics[43097] = {
 	display = "인디펜던스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33586,7 +33613,7 @@ _G.pg.item_data_statistics[43097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43098] = {
+_G.pg.base.item_data_statistics[43098] = {
 	display = "바탄에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33607,7 +33634,7 @@ _G.pg.item_data_statistics[43098] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43099] = {
+_G.pg.base.item_data_statistics[43099] = {
 	display = "샹그릴라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33628,7 +33655,7 @@ _G.pg.item_data_statistics[43099] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43100] = {
+_G.pg.base.item_data_statistics[43100] = {
 	display = "데이스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33649,7 +33676,7 @@ _G.pg.item_data_statistics[43100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43101] = {
+_G.pg.base.item_data_statistics[43101] = {
 	display = "알바코어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33670,7 +33697,7 @@ _G.pg.item_data_statistics[43101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43102] = {
+_G.pg.base.item_data_statistics[43102] = {
 	display = "카발라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33691,7 +33718,7 @@ _G.pg.item_data_statistics[43102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43103] = {
+_G.pg.base.item_data_statistics[43103] = {
 	display = "베스탈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33712,7 +33739,7 @@ _G.pg.item_data_statistics[43103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43104] = {
+_G.pg.base.item_data_statistics[43104] = {
 	display = "아마존에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33733,7 +33760,7 @@ _G.pg.item_data_statistics[43104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43105] = {
+_G.pg.base.item_data_statistics[43105] = {
 	display = "아카스타에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33754,7 +33781,7 @@ _G.pg.item_data_statistics[43105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43106] = {
+_G.pg.base.item_data_statistics[43106] = {
 	display = "아덴트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33775,7 +33802,7 @@ _G.pg.item_data_statistics[43106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43107] = {
+_G.pg.base.item_data_statistics[43107] = {
 	display = "비글에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33796,7 +33823,7 @@ _G.pg.item_data_statistics[43107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43108] = {
+_G.pg.base.item_data_statistics[43108] = {
 	display = "불독에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33817,7 +33844,7 @@ _G.pg.item_data_statistics[43108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43109] = {
+_G.pg.base.item_data_statistics[43109] = {
 	display = "코멧에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33838,7 +33865,7 @@ _G.pg.item_data_statistics[43109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43110] = {
+_G.pg.base.item_data_statistics[43110] = {
 	display = "크레센트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33859,7 +33886,7 @@ _G.pg.item_data_statistics[43110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43111] = {
+_G.pg.base.item_data_statistics[43111] = {
 	display = "시그넷에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33880,7 +33907,7 @@ _G.pg.item_data_statistics[43111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43112] = {
+_G.pg.base.item_data_statistics[43112] = {
 	display = "폭스하운드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33901,7 +33928,7 @@ _G.pg.item_data_statistics[43112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43113] = {
+_G.pg.base.item_data_statistics[43113] = {
 	display = "포춘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33922,7 +33949,7 @@ _G.pg.item_data_statistics[43113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43114] = {
+_G.pg.base.item_data_statistics[43114] = {
 	display = "그렌빌에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33943,7 +33970,7 @@ _G.pg.item_data_statistics[43114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43115] = {
+_G.pg.base.item_data_statistics[43115] = {
 	display = "글로우웜에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33964,7 +33991,7 @@ _G.pg.item_data_statistics[43115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43116] = {
+_G.pg.base.item_data_statistics[43116] = {
 	display = "하디에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -33985,7 +34012,7 @@ _G.pg.item_data_statistics[43116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43117] = {
+_G.pg.base.item_data_statistics[43117] = {
 	display = "헌터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34006,7 +34033,7 @@ _G.pg.item_data_statistics[43117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43118] = {
+_G.pg.base.item_data_statistics[43118] = {
 	display = "재블린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34027,7 +34054,7 @@ _G.pg.item_data_statistics[43118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43119] = {
+_G.pg.base.item_data_statistics[43119] = {
 	display = "주노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34048,7 +34075,7 @@ _G.pg.item_data_statistics[43119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43120] = {
+_G.pg.base.item_data_statistics[43120] = {
 	display = "뱀파이어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34069,7 +34096,7 @@ _G.pg.item_data_statistics[43120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43121] = {
+_G.pg.base.item_data_statistics[43121] = {
 	display = "주피터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34090,7 +34117,7 @@ _G.pg.item_data_statistics[43121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43122] = {
+_G.pg.base.item_data_statistics[43122] = {
 	display = "저지에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34111,7 +34138,7 @@ _G.pg.item_data_statistics[43122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43123] = {
+_G.pg.base.item_data_statistics[43123] = {
 	display = "매치리스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34132,7 +34159,7 @@ _G.pg.item_data_statistics[43123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43124] = {
+_G.pg.base.item_data_statistics[43124] = {
 	display = "머스킷티어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34153,7 +34180,7 @@ _G.pg.item_data_statistics[43124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43125] = {
+_G.pg.base.item_data_statistics[43125] = {
 	display = "에코에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34174,7 +34201,7 @@ _G.pg.item_data_statistics[43125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43126] = {
+_G.pg.base.item_data_statistics[43126] = {
 	display = "리엔더에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34195,7 +34222,7 @@ _G.pg.item_data_statistics[43126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43127] = {
+_G.pg.base.item_data_statistics[43127] = {
 	display = "아킬레스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34216,7 +34243,7 @@ _G.pg.item_data_statistics[43127] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43128] = {
+_G.pg.base.item_data_statistics[43128] = {
 	display = "에이잭스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34237,7 +34264,7 @@ _G.pg.item_data_statistics[43128] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43129] = {
+_G.pg.base.item_data_statistics[43129] = {
 	display = "사우스햄튼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34258,7 +34285,7 @@ _G.pg.item_data_statistics[43129] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43130] = {
+_G.pg.base.item_data_statistics[43130] = {
 	display = "셰필드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34279,7 +34306,7 @@ _G.pg.item_data_statistics[43130] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43131] = {
+_G.pg.base.item_data_statistics[43131] = {
 	display = "에든버러에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34300,7 +34327,7 @@ _G.pg.item_data_statistics[43131] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43132] = {
+_G.pg.base.item_data_statistics[43132] = {
 	display = "벨파스트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34321,7 +34348,7 @@ _G.pg.item_data_statistics[43132] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43133] = {
+_G.pg.base.item_data_statistics[43133] = {
 	display = "아레투사에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34342,7 +34369,7 @@ _G.pg.item_data_statistics[43133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43134] = {
+_G.pg.base.item_data_statistics[43134] = {
 	display = "갈라테아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34363,7 +34390,7 @@ _G.pg.item_data_statistics[43134] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43135] = {
+_G.pg.base.item_data_statistics[43135] = {
 	display = "오로라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34384,7 +34411,7 @@ _G.pg.item_data_statistics[43135] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43136] = {
+_G.pg.base.item_data_statistics[43136] = {
 	display = "피지에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34405,7 +34432,7 @@ _G.pg.item_data_statistics[43136] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43137] = {
+_G.pg.base.item_data_statistics[43137] = {
 	display = "자메이카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34426,7 +34453,7 @@ _G.pg.item_data_statistics[43137] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43138] = {
+_G.pg.base.item_data_statistics[43138] = {
 	display = "꼬마 벨파스트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34447,7 +34474,7 @@ _G.pg.item_data_statistics[43138] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43139] = {
+_G.pg.base.item_data_statistics[43139] = {
 	display = "뉴캐슬에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34468,7 +34495,7 @@ _G.pg.item_data_statistics[43139] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43140] = {
+_G.pg.base.item_data_statistics[43140] = {
 	display = "퀴라소에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34489,7 +34516,7 @@ _G.pg.item_data_statistics[43140] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43141] = {
+_G.pg.base.item_data_statistics[43141] = {
 	display = "컬루에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34510,7 +34537,7 @@ _G.pg.item_data_statistics[43141] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43142] = {
+_G.pg.base.item_data_statistics[43142] = {
 	display = "시리우스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34531,7 +34558,7 @@ _G.pg.item_data_statistics[43142] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43143] = {
+_G.pg.base.item_data_statistics[43143] = {
 	display = "스위프트슈어에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34552,7 +34579,7 @@ _G.pg.item_data_statistics[43143] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43144] = {
+_G.pg.base.item_data_statistics[43144] = {
 	display = "블랙 프린스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34573,7 +34600,7 @@ _G.pg.item_data_statistics[43144] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43145] = {
+_G.pg.base.item_data_statistics[43145] = {
 	display = "셰필드(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34594,7 +34621,7 @@ _G.pg.item_data_statistics[43145] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43146] = {
+_G.pg.base.item_data_statistics[43146] = {
 	display = "글래스고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34615,7 +34642,7 @@ _G.pg.item_data_statistics[43146] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43147] = {
+_G.pg.base.item_data_statistics[43147] = {
 	display = "런던에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34636,7 +34663,7 @@ _G.pg.item_data_statistics[43147] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43148] = {
+_G.pg.base.item_data_statistics[43148] = {
 	display = "슈롭셔에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34657,7 +34684,7 @@ _G.pg.item_data_statistics[43148] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43149] = {
+_G.pg.base.item_data_statistics[43149] = {
 	display = "켄트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34678,7 +34705,7 @@ _G.pg.item_data_statistics[43149] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43150] = {
+_G.pg.base.item_data_statistics[43150] = {
 	display = "서포크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34699,7 +34726,7 @@ _G.pg.item_data_statistics[43150] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43151] = {
+_G.pg.base.item_data_statistics[43151] = {
 	display = "노포크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34720,7 +34747,7 @@ _G.pg.item_data_statistics[43151] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43152] = {
+_G.pg.base.item_data_statistics[43152] = {
 	display = "도셋셔에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34741,7 +34768,7 @@ _G.pg.item_data_statistics[43152] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43153] = {
+_G.pg.base.item_data_statistics[43153] = {
 	display = "요크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34762,7 +34789,7 @@ _G.pg.item_data_statistics[43153] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43154] = {
+_G.pg.base.item_data_statistics[43154] = {
 	display = "엑세터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34783,7 +34810,7 @@ _G.pg.item_data_statistics[43154] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43155] = {
+_G.pg.base.item_data_statistics[43155] = {
 	display = "서식스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34804,7 +34831,7 @@ _G.pg.item_data_statistics[43155] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43156] = {
+_G.pg.base.item_data_statistics[43156] = {
 	display = "리나운에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34825,7 +34852,7 @@ _G.pg.item_data_statistics[43156] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43157] = {
+_G.pg.base.item_data_statistics[43157] = {
 	display = "리펄스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34846,7 +34873,7 @@ _G.pg.item_data_statistics[43157] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43158] = {
+_G.pg.base.item_data_statistics[43158] = {
 	display = "후드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34867,7 +34894,7 @@ _G.pg.item_data_statistics[43158] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43159] = {
+_G.pg.base.item_data_statistics[43159] = {
 	display = "퀸 엘리자베스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34888,7 +34915,7 @@ _G.pg.item_data_statistics[43159] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43160] = {
+_G.pg.base.item_data_statistics[43160] = {
 	display = "워스파이트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34909,7 +34936,7 @@ _G.pg.item_data_statistics[43160] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43161] = {
+_G.pg.base.item_data_statistics[43161] = {
 	display = "넬슨에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34930,7 +34957,7 @@ _G.pg.item_data_statistics[43161] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43162] = {
+_G.pg.base.item_data_statistics[43162] = {
 	display = "로드니에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34951,7 +34978,7 @@ _G.pg.item_data_statistics[43162] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43163] = {
+_G.pg.base.item_data_statistics[43163] = {
 	display = "킹 조지 5세에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34972,7 +34999,7 @@ _G.pg.item_data_statistics[43163] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43164] = {
+_G.pg.base.item_data_statistics[43164] = {
 	display = "프린스 오브 웨일즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -34993,7 +35020,7 @@ _G.pg.item_data_statistics[43164] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43165] = {
+_G.pg.base.item_data_statistics[43165] = {
 	display = "듀크 오브 요크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35014,7 +35041,7 @@ _G.pg.item_data_statistics[43165] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43166] = {
+_G.pg.base.item_data_statistics[43166] = {
 	display = "허미즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35035,7 +35062,7 @@ _G.pg.item_data_statistics[43166] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43167] = {
+_G.pg.base.item_data_statistics[43167] = {
 	display = "유니콘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35056,7 +35083,7 @@ _G.pg.item_data_statistics[43167] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43168] = {
+_G.pg.base.item_data_statistics[43168] = {
 	display = "센토에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35077,7 +35104,7 @@ _G.pg.item_data_statistics[43168] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43169] = {
+_G.pg.base.item_data_statistics[43169] = {
 	display = "체이서에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35098,7 +35125,7 @@ _G.pg.item_data_statistics[43169] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43170] = {
+_G.pg.base.item_data_statistics[43170] = {
 	display = "아크 로열에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35119,7 +35146,7 @@ _G.pg.item_data_statistics[43170] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43171] = {
+_G.pg.base.item_data_statistics[43171] = {
 	display = "일러스트리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35140,7 +35167,7 @@ _G.pg.item_data_statistics[43171] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43172] = {
+_G.pg.base.item_data_statistics[43172] = {
 	display = "빅토리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35161,7 +35188,7 @@ _G.pg.item_data_statistics[43172] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43173] = {
+_G.pg.base.item_data_statistics[43173] = {
 	display = "포미더블에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35182,7 +35209,7 @@ _G.pg.item_data_statistics[43173] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43174] = {
+_G.pg.base.item_data_statistics[43174] = {
 	display = "글로리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35203,7 +35230,7 @@ _G.pg.item_data_statistics[43174] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43175] = {
+_G.pg.base.item_data_statistics[43175] = {
 	display = "에레버스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35224,7 +35251,7 @@ _G.pg.item_data_statistics[43175] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43176] = {
+_G.pg.base.item_data_statistics[43176] = {
 	display = "테러에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35245,7 +35272,7 @@ _G.pg.item_data_statistics[43176] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43177] = {
+_G.pg.base.item_data_statistics[43177] = {
 	display = "애버크롬비에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35266,7 +35293,7 @@ _G.pg.item_data_statistics[43177] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43178] = {
+_G.pg.base.item_data_statistics[43178] = {
 	display = "후부키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35287,7 +35314,7 @@ _G.pg.item_data_statistics[43178] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43179] = {
+_G.pg.base.item_data_statistics[43179] = {
 	display = "아야나미에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35308,7 +35335,7 @@ _G.pg.item_data_statistics[43179] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43180] = {
+_G.pg.base.item_data_statistics[43180] = {
 	display = "아카츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35329,7 +35356,7 @@ _G.pg.item_data_statistics[43180] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43181] = {
+_G.pg.base.item_data_statistics[43181] = {
 	display = "히비키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35350,7 +35377,7 @@ _G.pg.item_data_statistics[43181] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43182] = {
+_G.pg.base.item_data_statistics[43182] = {
 	display = "이카즈치에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35371,7 +35398,7 @@ _G.pg.item_data_statistics[43182] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43183] = {
+_G.pg.base.item_data_statistics[43183] = {
 	display = "이나즈마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35392,7 +35419,7 @@ _G.pg.item_data_statistics[43183] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43184] = {
+_G.pg.base.item_data_statistics[43184] = {
 	display = "시라츠유에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35413,7 +35440,7 @@ _G.pg.item_data_statistics[43184] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43185] = {
+_G.pg.base.item_data_statistics[43185] = {
 	display = "유다치에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35434,7 +35461,7 @@ _G.pg.item_data_statistics[43185] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43186] = {
+_G.pg.base.item_data_statistics[43186] = {
 	display = "시구레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35455,7 +35482,7 @@ _G.pg.item_data_statistics[43186] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43187] = {
+_G.pg.base.item_data_statistics[43187] = {
 	display = "{namecode:22}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35476,7 +35503,7 @@ _G.pg.item_data_statistics[43187] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43188] = {
+_G.pg.base.item_data_statistics[43188] = {
 	display = "카게로에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35497,7 +35524,7 @@ _G.pg.item_data_statistics[43188] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43189] = {
+_G.pg.base.item_data_statistics[43189] = {
 	display = "시라누이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35518,7 +35545,7 @@ _G.pg.item_data_statistics[43189] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43190] = {
+_G.pg.base.item_data_statistics[43190] = {
 	display = "노와키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35539,7 +35566,7 @@ _G.pg.item_data_statistics[43190] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43191] = {
+_G.pg.base.item_data_statistics[43191] = {
 	display = "하츠하루에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35560,7 +35587,7 @@ _G.pg.item_data_statistics[43191] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43192] = {
+_G.pg.base.item_data_statistics[43192] = {
 	display = "{namecode:141}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35581,7 +35608,7 @@ _G.pg.item_data_statistics[43192] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43193] = {
+_G.pg.base.item_data_statistics[43193] = {
 	display = "하츠시모에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35602,7 +35629,7 @@ _G.pg.item_data_statistics[43193] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43194] = {
+_G.pg.base.item_data_statistics[43194] = {
 	display = "아리아케에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35623,7 +35650,7 @@ _G.pg.item_data_statistics[43194] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43195] = {
+_G.pg.base.item_data_statistics[43195] = {
 	display = "유구레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35644,7 +35671,7 @@ _G.pg.item_data_statistics[43195] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43196] = {
+_G.pg.base.item_data_statistics[43196] = {
 	display = "쿠로시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35665,7 +35692,7 @@ _G.pg.item_data_statistics[43196] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43197] = {
+_G.pg.base.item_data_statistics[43197] = {
 	display = "오야시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35686,7 +35713,7 @@ _G.pg.item_data_statistics[43197] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43198] = {
+_G.pg.base.item_data_statistics[43198] = {
 	display = "카미카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35707,7 +35734,7 @@ _G.pg.item_data_statistics[43198] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43199] = {
+_G.pg.base.item_data_statistics[43199] = {
 	display = "마츠카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35728,7 +35755,7 @@ _G.pg.item_data_statistics[43199] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43200] = {
+_G.pg.base.item_data_statistics[43200] = {
 	display = "무츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35749,7 +35776,7 @@ _G.pg.item_data_statistics[43200] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43201] = {
+_G.pg.base.item_data_statistics[43201] = {
 	display = "키사라기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35770,7 +35797,7 @@ _G.pg.item_data_statistics[43201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43202] = {
+_G.pg.base.item_data_statistics[43202] = {
 	display = "우즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35791,7 +35818,7 @@ _G.pg.item_data_statistics[43202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43203] = {
+_G.pg.base.item_data_statistics[43203] = {
 	display = "미나즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35812,7 +35839,7 @@ _G.pg.item_data_statistics[43203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43204] = {
+_G.pg.base.item_data_statistics[43204] = {
 	display = "후미즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35833,7 +35860,7 @@ _G.pg.item_data_statistics[43204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43205] = {
+_G.pg.base.item_data_statistics[43205] = {
 	display = "나가츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35854,7 +35881,7 @@ _G.pg.item_data_statistics[43205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43206] = {
+_G.pg.base.item_data_statistics[43206] = {
 	display = "미카즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35875,7 +35902,7 @@ _G.pg.item_data_statistics[43206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43207] = {
+_G.pg.base.item_data_statistics[43207] = {
 	display = "카와카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35896,7 +35923,7 @@ _G.pg.item_data_statistics[43207] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43208] = {
+_G.pg.base.item_data_statistics[43208] = {
 	display = "키요나미에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35917,7 +35944,7 @@ _G.pg.item_data_statistics[43208] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43209] = {
+_G.pg.base.item_data_statistics[43209] = {
 	display = "크레센트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35938,7 +35965,7 @@ _G.pg.item_data_statistics[43209] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43210] = {
+_G.pg.base.item_data_statistics[43210] = {
 	display = "하루츠키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35959,7 +35986,7 @@ _G.pg.item_data_statistics[43210] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43211] = {
+_G.pg.base.item_data_statistics[43211] = {
 	display = "요이즈키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -35980,7 +36007,7 @@ _G.pg.item_data_statistics[43211] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43212] = {
+_G.pg.base.item_data_statistics[43212] = {
 	display = "우라카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36001,7 +36028,7 @@ _G.pg.item_data_statistics[43212] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43213] = {
+_G.pg.base.item_data_statistics[43213] = {
 	display = "이소카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36022,7 +36049,7 @@ _G.pg.item_data_statistics[43213] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43214] = {
+_G.pg.base.item_data_statistics[43214] = {
 	display = "하마카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36043,7 +36070,7 @@ _G.pg.item_data_statistics[43214] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43215] = {
+_G.pg.base.item_data_statistics[43215] = {
 	display = "타니카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36064,7 +36091,7 @@ _G.pg.item_data_statistics[43215] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43216] = {
+_G.pg.base.item_data_statistics[43216] = {
 	display = "아사시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36085,7 +36112,7 @@ _G.pg.item_data_statistics[43216] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43217] = {
+_G.pg.base.item_data_statistics[43217] = {
 	display = "오오시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36106,7 +36133,7 @@ _G.pg.item_data_statistics[43217] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43218] = {
+_G.pg.base.item_data_statistics[43218] = {
 	display = "미치시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36127,7 +36154,7 @@ _G.pg.item_data_statistics[43218] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43219] = {
+_G.pg.base.item_data_statistics[43219] = {
 	display = "아라시오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36148,7 +36175,7 @@ _G.pg.item_data_statistics[43219] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43220] = {
+_G.pg.base.item_data_statistics[43220] = {
 	display = "하타카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36169,7 +36196,7 @@ _G.pg.item_data_statistics[43220] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43221] = {
+_G.pg.base.item_data_statistics[43221] = {
 	display = "마키나미에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36190,7 +36217,7 @@ _G.pg.item_data_statistics[43221] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43222] = {
+_G.pg.base.item_data_statistics[43222] = {
 	display = "카스미에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36211,7 +36238,7 @@ _G.pg.item_data_statistics[43222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43223] = {
+_G.pg.base.item_data_statistics[43223] = {
 	display = "유바리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36232,7 +36259,7 @@ _G.pg.item_data_statistics[43223] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43224] = {
+_G.pg.base.item_data_statistics[43224] = {
 	display = "나가라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36253,7 +36280,7 @@ _G.pg.item_data_statistics[43224] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43225] = {
+_G.pg.base.item_data_statistics[43225] = {
 	display = "이스즈에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36274,7 +36301,7 @@ _G.pg.item_data_statistics[43225] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43226] = {
+_G.pg.base.item_data_statistics[43226] = {
 	display = "키누에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36295,7 +36322,7 @@ _G.pg.item_data_statistics[43226] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43227] = {
+_G.pg.base.item_data_statistics[43227] = {
 	display = "아부쿠마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36316,7 +36343,7 @@ _G.pg.item_data_statistics[43227] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43228] = {
+_G.pg.base.item_data_statistics[43228] = {
 	display = "{namecode:57}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36337,7 +36364,7 @@ _G.pg.item_data_statistics[43228] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43229] = {
+_G.pg.base.item_data_statistics[43229] = {
 	display = "{namecode:58}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36358,7 +36385,7 @@ _G.pg.item_data_statistics[43229] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43230] = {
+_G.pg.base.item_data_statistics[43230] = {
 	display = "센다이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36379,7 +36406,7 @@ _G.pg.item_data_statistics[43230] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43231] = {
+_G.pg.base.item_data_statistics[43231] = {
 	display = "진츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36400,7 +36427,7 @@ _G.pg.item_data_statistics[43231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43232] = {
+_G.pg.base.item_data_statistics[43232] = {
 	display = "나카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36421,7 +36448,7 @@ _G.pg.item_data_statistics[43232] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43233] = {
+_G.pg.base.item_data_statistics[43233] = {
 	display = "아가노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36442,7 +36469,7 @@ _G.pg.item_data_statistics[43233] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43234] = {
+_G.pg.base.item_data_statistics[43234] = {
 	display = "노시로에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36463,7 +36490,7 @@ _G.pg.item_data_statistics[43234] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43235] = {
+_G.pg.base.item_data_statistics[43235] = {
 	display = "후루타카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36484,7 +36511,7 @@ _G.pg.item_data_statistics[43235] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43236] = {
+_G.pg.base.item_data_statistics[43236] = {
 	display = "카코에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36505,7 +36532,7 @@ _G.pg.item_data_statistics[43236] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43237] = {
+_G.pg.base.item_data_statistics[43237] = {
 	display = "아오바에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36526,7 +36553,7 @@ _G.pg.item_data_statistics[43237] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43238] = {
+_G.pg.base.item_data_statistics[43238] = {
 	display = "키누가사에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36547,7 +36574,7 @@ _G.pg.item_data_statistics[43238] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43239] = {
+_G.pg.base.item_data_statistics[43239] = {
 	display = "묘코에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36568,7 +36595,7 @@ _G.pg.item_data_statistics[43239] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43240] = {
+_G.pg.base.item_data_statistics[43240] = {
 	display = "나치에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36589,7 +36616,7 @@ _G.pg.item_data_statistics[43240] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43241] = {
+_G.pg.base.item_data_statistics[43241] = {
 	display = "아시가라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36610,7 +36637,7 @@ _G.pg.item_data_statistics[43241] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43242] = {
+_G.pg.base.item_data_statistics[43242] = {
 	display = "타카오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36631,7 +36658,7 @@ _G.pg.item_data_statistics[43242] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43243] = {
+_G.pg.base.item_data_statistics[43243] = {
 	display = "아타고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36652,7 +36679,7 @@ _G.pg.item_data_statistics[43243] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43244] = {
+_G.pg.base.item_data_statistics[43244] = {
 	display = "마야에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36673,7 +36700,7 @@ _G.pg.item_data_statistics[43244] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43245] = {
+_G.pg.base.item_data_statistics[43245] = {
 	display = "초카이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36694,7 +36721,7 @@ _G.pg.item_data_statistics[43245] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43246] = {
+_G.pg.base.item_data_statistics[43246] = {
 	display = "스즈야에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36715,7 +36742,7 @@ _G.pg.item_data_statistics[43246] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43247] = {
+_G.pg.base.item_data_statistics[43247] = {
 	display = "콘고에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36736,7 +36763,7 @@ _G.pg.item_data_statistics[43247] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43248] = {
+_G.pg.base.item_data_statistics[43248] = {
 	display = "히에이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36757,7 +36784,7 @@ _G.pg.item_data_statistics[43248] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43249] = {
+_G.pg.base.item_data_statistics[43249] = {
 	display = "하루나에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36778,7 +36805,7 @@ _G.pg.item_data_statistics[43249] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43250] = {
+_G.pg.base.item_data_statistics[43250] = {
 	display = "키리시마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36799,7 +36826,7 @@ _G.pg.item_data_statistics[43250] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43251] = {
+_G.pg.base.item_data_statistics[43251] = {
 	display = "아마기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36820,7 +36847,7 @@ _G.pg.item_data_statistics[43251] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43252] = {
+_G.pg.base.item_data_statistics[43252] = {
 	display = "꼬마 히에이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36841,7 +36868,7 @@ _G.pg.item_data_statistics[43252] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43253] = {
+_G.pg.base.item_data_statistics[43253] = {
 	display = "후소에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36862,7 +36889,7 @@ _G.pg.item_data_statistics[43253] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43254] = {
+_G.pg.base.item_data_statistics[43254] = {
 	display = "야마시로에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36883,7 +36910,7 @@ _G.pg.item_data_statistics[43254] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43255] = {
+_G.pg.base.item_data_statistics[43255] = {
 	display = "이세에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36904,7 +36931,7 @@ _G.pg.item_data_statistics[43255] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43256] = {
+_G.pg.base.item_data_statistics[43256] = {
 	display = "휴가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36925,7 +36952,7 @@ _G.pg.item_data_statistics[43256] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43257] = {
+_G.pg.base.item_data_statistics[43257] = {
 	display = "나가토에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36946,7 +36973,7 @@ _G.pg.item_data_statistics[43257] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43258] = {
+_G.pg.base.item_data_statistics[43258] = {
 	display = "무츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36967,7 +36994,7 @@ _G.pg.item_data_statistics[43258] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43259] = {
+_G.pg.base.item_data_statistics[43259] = {
 	display = "카가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -36988,7 +37015,7 @@ _G.pg.item_data_statistics[43259] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43260] = {
+_G.pg.base.item_data_statistics[43260] = {
 	display = "미카사에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37009,7 +37036,7 @@ _G.pg.item_data_statistics[43260] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43261] = {
+_G.pg.base.item_data_statistics[43261] = {
 	display = "스루가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37030,7 +37057,7 @@ _G.pg.item_data_statistics[43261] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43262] = {
+_G.pg.base.item_data_statistics[43262] = {
 	display = "히요에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37051,7 +37078,7 @@ _G.pg.item_data_statistics[43262] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43263] = {
+_G.pg.base.item_data_statistics[43263] = {
 	display = "준요에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37072,7 +37099,7 @@ _G.pg.item_data_statistics[43263] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43264] = {
+_G.pg.base.item_data_statistics[43264] = {
 	display = "호쇼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37093,7 +37120,7 @@ _G.pg.item_data_statistics[43264] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43265] = {
+_G.pg.base.item_data_statistics[43265] = {
 	display = "쇼호에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37114,7 +37141,7 @@ _G.pg.item_data_statistics[43265] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43266] = {
+_G.pg.base.item_data_statistics[43266] = {
 	display = "류조에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37135,7 +37162,7 @@ _G.pg.item_data_statistics[43266] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43267] = {
+_G.pg.base.item_data_statistics[43267] = {
 	display = "류호에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37156,7 +37183,7 @@ _G.pg.item_data_statistics[43267] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43268] = {
+_G.pg.base.item_data_statistics[43268] = {
 	display = "아카기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37177,7 +37204,7 @@ _G.pg.item_data_statistics[43268] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43269] = {
+_G.pg.base.item_data_statistics[43269] = {
 	display = "카가에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37198,7 +37225,7 @@ _G.pg.item_data_statistics[43269] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43270] = {
+_G.pg.base.item_data_statistics[43270] = {
 	display = "소류에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37219,7 +37246,7 @@ _G.pg.item_data_statistics[43270] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43271] = {
+_G.pg.base.item_data_statistics[43271] = {
 	display = "히류에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37240,7 +37267,7 @@ _G.pg.item_data_statistics[43271] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43272] = {
+_G.pg.base.item_data_statistics[43272] = {
 	display = "쇼카쿠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37261,7 +37288,7 @@ _G.pg.item_data_statistics[43272] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43273] = {
+_G.pg.base.item_data_statistics[43273] = {
 	display = "즈이카쿠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37282,7 +37309,7 @@ _G.pg.item_data_statistics[43273] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43274] = {
+_G.pg.base.item_data_statistics[43274] = {
 	display = "다이호에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37303,7 +37330,7 @@ _G.pg.item_data_statistics[43274] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43275] = {
+_G.pg.base.item_data_statistics[43275] = {
 	display = "꼬마 아카기에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37324,7 +37351,7 @@ _G.pg.item_data_statistics[43275] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43276] = {
+_G.pg.base.item_data_statistics[43276] = {
 	display = "아카기(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37345,7 +37372,7 @@ _G.pg.item_data_statistics[43276] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43277] = {
+_G.pg.base.item_data_statistics[43277] = {
 	display = "이19에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37366,7 +37393,7 @@ _G.pg.item_data_statistics[43277] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43278] = {
+_G.pg.base.item_data_statistics[43278] = {
 	display = "이26에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37387,7 +37414,7 @@ _G.pg.item_data_statistics[43278] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43279] = {
+_G.pg.base.item_data_statistics[43279] = {
 	display = "이58에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37408,7 +37435,7 @@ _G.pg.item_data_statistics[43279] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43280] = {
+_G.pg.base.item_data_statistics[43280] = {
 	display = "이25에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37429,7 +37456,7 @@ _G.pg.item_data_statistics[43280] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43281] = {
+_G.pg.base.item_data_statistics[43281] = {
 	display = "이56에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37450,7 +37477,7 @@ _G.pg.item_data_statistics[43281] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43282] = {
+_G.pg.base.item_data_statistics[43282] = {
 	display = "이168에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37471,7 +37498,7 @@ _G.pg.item_data_statistics[43282] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43283] = {
+_G.pg.base.item_data_statistics[43283] = {
 	display = "아카시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37492,7 +37519,7 @@ _G.pg.item_data_statistics[43283] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43284] = {
+_G.pg.base.item_data_statistics[43284] = {
 	display = "이13에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37513,7 +37540,7 @@ _G.pg.item_data_statistics[43284] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43285] = {
+_G.pg.base.item_data_statistics[43285] = {
 	display = "Z1에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37534,7 +37561,7 @@ _G.pg.item_data_statistics[43285] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43286] = {
+_G.pg.base.item_data_statistics[43286] = {
 	display = "Z2에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37555,7 +37582,7 @@ _G.pg.item_data_statistics[43286] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43287] = {
+_G.pg.base.item_data_statistics[43287] = {
 	display = "Z18에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37576,7 +37603,7 @@ _G.pg.item_data_statistics[43287] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43288] = {
+_G.pg.base.item_data_statistics[43288] = {
 	display = "Z19에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37597,7 +37624,7 @@ _G.pg.item_data_statistics[43288] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43289] = {
+_G.pg.base.item_data_statistics[43289] = {
 	display = "Z20에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37618,7 +37645,7 @@ _G.pg.item_data_statistics[43289] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43290] = {
+_G.pg.base.item_data_statistics[43290] = {
 	display = "Z21에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37639,7 +37666,7 @@ _G.pg.item_data_statistics[43290] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43291] = {
+_G.pg.base.item_data_statistics[43291] = {
 	display = "Z23에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37660,7 +37687,7 @@ _G.pg.item_data_statistics[43291] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43292] = {
+_G.pg.base.item_data_statistics[43292] = {
 	display = "Z25에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37681,7 +37708,7 @@ _G.pg.item_data_statistics[43292] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43293] = {
+_G.pg.base.item_data_statistics[43293] = {
 	display = "Z35에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37702,7 +37729,7 @@ _G.pg.item_data_statistics[43293] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43294] = {
+_G.pg.base.item_data_statistics[43294] = {
 	display = "Z36에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37723,7 +37750,7 @@ _G.pg.item_data_statistics[43294] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43295] = {
+_G.pg.base.item_data_statistics[43295] = {
 	display = "Z46에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37744,7 +37771,7 @@ _G.pg.item_data_statistics[43295] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43296] = {
+_G.pg.base.item_data_statistics[43296] = {
 	display = "쾨니히스베르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37765,7 +37792,7 @@ _G.pg.item_data_statistics[43296] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43297] = {
+_G.pg.base.item_data_statistics[43297] = {
 	display = "카를스루에에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37786,7 +37813,7 @@ _G.pg.item_data_statistics[43297] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43298] = {
+_G.pg.base.item_data_statistics[43298] = {
 	display = "쾰른에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37807,7 +37834,7 @@ _G.pg.item_data_statistics[43298] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43299] = {
+_G.pg.base.item_data_statistics[43299] = {
 	display = "라이프치히에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37828,7 +37855,7 @@ _G.pg.item_data_statistics[43299] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43300] = {
+_G.pg.base.item_data_statistics[43300] = {
 	display = "아드미럴 히퍼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37849,7 +37876,7 @@ _G.pg.item_data_statistics[43300] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43301] = {
+_G.pg.base.item_data_statistics[43301] = {
 	display = "프린츠 오이겐에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37870,7 +37897,7 @@ _G.pg.item_data_statistics[43301] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43302] = {
+_G.pg.base.item_data_statistics[43302] = {
 	display = "도이칠란트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37891,7 +37918,7 @@ _G.pg.item_data_statistics[43302] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43303] = {
+_G.pg.base.item_data_statistics[43303] = {
 	display = "아드미랄 그라프 슈피에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37912,7 +37939,7 @@ _G.pg.item_data_statistics[43303] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43304] = {
+_G.pg.base.item_data_statistics[43304] = {
 	display = "아드미랄 히퍼(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37933,7 +37960,7 @@ _G.pg.item_data_statistics[43304] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43305] = {
+_G.pg.base.item_data_statistics[43305] = {
 	display = "샤른호르스트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37954,7 +37981,7 @@ _G.pg.item_data_statistics[43305] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43306] = {
+_G.pg.base.item_data_statistics[43306] = {
 	display = "그나이제나우에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37975,7 +38002,7 @@ _G.pg.item_data_statistics[43306] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43307] = {
+_G.pg.base.item_data_statistics[43307] = {
 	display = "비스마르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -37996,7 +38023,7 @@ _G.pg.item_data_statistics[43307] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43308] = {
+_G.pg.base.item_data_statistics[43308] = {
 	display = "티르피츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38017,7 +38044,7 @@ _G.pg.item_data_statistics[43308] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43309] = {
+_G.pg.base.item_data_statistics[43309] = {
 	display = "그라프 체펠린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38038,7 +38065,7 @@ _G.pg.item_data_statistics[43309] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43310] = {
+_G.pg.base.item_data_statistics[43310] = {
 	display = "꼬마 그라프 체펠린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38059,7 +38086,7 @@ _G.pg.item_data_statistics[43310] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43311] = {
+_G.pg.base.item_data_statistics[43311] = {
 	display = "U-81에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38080,7 +38107,7 @@ _G.pg.item_data_statistics[43311] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43312] = {
+_G.pg.base.item_data_statistics[43312] = {
 	display = "U-47에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38101,7 +38128,7 @@ _G.pg.item_data_statistics[43312] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43313] = {
+_G.pg.base.item_data_statistics[43313] = {
 	display = "U-557에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38122,7 +38149,7 @@ _G.pg.item_data_statistics[43313] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43314] = {
+_G.pg.base.item_data_statistics[43314] = {
 	display = "U-556에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38143,7 +38170,7 @@ _G.pg.item_data_statistics[43314] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43315] = {
+_G.pg.base.item_data_statistics[43315] = {
 	display = "U-73에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38164,7 +38191,7 @@ _G.pg.item_data_statistics[43315] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43316] = {
+_G.pg.base.item_data_statistics[43316] = {
 	display = "U-101에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38185,7 +38212,7 @@ _G.pg.item_data_statistics[43316] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43317] = {
+_G.pg.base.item_data_statistics[43317] = {
 	display = "U-522에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38206,7 +38233,7 @@ _G.pg.item_data_statistics[43317] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43318] = {
+_G.pg.base.item_data_statistics[43318] = {
 	display = "U-110에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38227,7 +38254,7 @@ _G.pg.item_data_statistics[43318] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43319] = {
+_G.pg.base.item_data_statistics[43319] = {
 	display = "안샨에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38248,7 +38275,7 @@ _G.pg.item_data_statistics[43319] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43320] = {
+_G.pg.base.item_data_statistics[43320] = {
 	display = "푸슌에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38269,7 +38296,7 @@ _G.pg.item_data_statistics[43320] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43321] = {
+_G.pg.base.item_data_statistics[43321] = {
 	display = "창춘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38290,7 +38317,7 @@ _G.pg.item_data_statistics[43321] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43322] = {
+_G.pg.base.item_data_statistics[43322] = {
 	display = "타이위안에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38311,7 +38338,7 @@ _G.pg.item_data_statistics[43322] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43323] = {
+_G.pg.base.item_data_statistics[43323] = {
 	display = "얏센에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38332,7 +38359,7 @@ _G.pg.item_data_statistics[43323] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43324] = {
+_G.pg.base.item_data_statistics[43324] = {
 	display = "닝하이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38353,7 +38380,7 @@ _G.pg.item_data_statistics[43324] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43325] = {
+_G.pg.base.item_data_statistics[43325] = {
 	display = "핑하이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38374,7 +38401,7 @@ _G.pg.item_data_statistics[43325] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43326] = {
+_G.pg.base.item_data_statistics[43326] = {
 	display = "카라비니에레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38395,7 +38422,7 @@ _G.pg.item_data_statistics[43326] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43327] = {
+_G.pg.base.item_data_statistics[43327] = {
 	display = "트렌토에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38416,7 +38443,7 @@ _G.pg.item_data_statistics[43327] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43328] = {
+_G.pg.base.item_data_statistics[43328] = {
 	display = "차라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38437,7 +38464,7 @@ _G.pg.item_data_statistics[43328] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43329] = {
+_G.pg.base.item_data_statistics[43329] = {
 	display = "리토리오에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38458,7 +38485,7 @@ _G.pg.item_data_statistics[43329] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43330] = {
+_G.pg.base.item_data_statistics[43330] = {
 	display = "콘테 디 카보우르에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38479,7 +38506,7 @@ _G.pg.item_data_statistics[43330] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43331] = {
+_G.pg.base.item_data_statistics[43331] = {
 	display = "줄리오 체사레에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38500,7 +38527,7 @@ _G.pg.item_data_statistics[43331] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43332] = {
+_G.pg.base.item_data_statistics[43332] = {
 	display = "오로라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38521,7 +38548,7 @@ _G.pg.item_data_statistics[43332] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43333] = {
+_G.pg.base.item_data_statistics[43333] = {
 	display = "르 트리옹팡에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38542,7 +38569,7 @@ _G.pg.item_data_statistics[43333] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43334] = {
+_G.pg.base.item_data_statistics[43334] = {
 	display = "포르뱅에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38563,7 +38590,7 @@ _G.pg.item_data_statistics[43334] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43335] = {
+_G.pg.base.item_data_statistics[43335] = {
 	display = "르 테메레르에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38584,7 +38611,7 @@ _G.pg.item_data_statistics[43335] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43336] = {
+_G.pg.base.item_data_statistics[43336] = {
 	display = "로피니아트르 에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38605,7 +38632,7 @@ _G.pg.item_data_statistics[43336] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43337] = {
+_G.pg.base.item_data_statistics[43337] = {
 	display = "에밀 베르탱에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38626,7 +38653,7 @@ _G.pg.item_data_statistics[43337] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43338] = {
+_G.pg.base.item_data_statistics[43338] = {
 	display = "쉬르쿠프에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38647,7 +38674,7 @@ _G.pg.item_data_statistics[43338] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43339] = {
+_G.pg.base.item_data_statistics[43339] = {
 	display = "르 마르스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38668,7 +38695,7 @@ _G.pg.item_data_statistics[43339] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43340] = {
+_G.pg.base.item_data_statistics[43340] = {
 	display = "르 말랭에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38689,7 +38716,7 @@ _G.pg.item_data_statistics[43340] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43341] = {
+_G.pg.base.item_data_statistics[43341] = {
 	display = "됭케르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38710,7 +38737,7 @@ _G.pg.item_data_statistics[43341] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43342] = {
+_G.pg.base.item_data_statistics[43342] = {
 	display = "장 바르에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38731,7 +38758,7 @@ _G.pg.item_data_statistics[43342] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43343] = {
+_G.pg.base.item_data_statistics[43343] = {
 	display = "가스코뉴(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38752,7 +38779,7 @@ _G.pg.item_data_statistics[43343] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43344] = {
+_G.pg.base.item_data_statistics[43344] = {
 	display = "넵튠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38773,7 +38800,7 @@ _G.pg.item_data_statistics[43344] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43345] = {
+_G.pg.base.item_data_statistics[43345] = {
 	display = "모나크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38794,7 +38821,7 @@ _G.pg.item_data_statistics[43345] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43346] = {
+_G.pg.base.item_data_statistics[43346] = {
 	display = "이부키에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38815,7 +38842,7 @@ _G.pg.item_data_statistics[43346] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43347] = {
+_G.pg.base.item_data_statistics[43347] = {
 	display = "이즈모에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38836,7 +38863,7 @@ _G.pg.item_data_statistics[43347] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43348] = {
+_G.pg.base.item_data_statistics[43348] = {
 	display = "론에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38857,7 +38884,7 @@ _G.pg.item_data_statistics[43348] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43349] = {
+_G.pg.base.item_data_statistics[43349] = {
 	display = "생 루이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38878,7 +38905,7 @@ _G.pg.item_data_statistics[43349] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43350] = {
+_G.pg.base.item_data_statistics[43350] = {
 	display = "시애틀에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38899,7 +38926,7 @@ _G.pg.item_data_statistics[43350] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43351] = {
+_G.pg.base.item_data_statistics[43351] = {
 	display = "조지아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38920,7 +38947,7 @@ _G.pg.item_data_statistics[43351] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43352] = {
+_G.pg.base.item_data_statistics[43352] = {
 	display = "키타카제에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38941,7 +38968,7 @@ _G.pg.item_data_statistics[43352] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43353] = {
+_G.pg.base.item_data_statistics[43353] = {
 	display = "아즈마에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38962,7 +38989,7 @@ _G.pg.item_data_statistics[43353] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43354] = {
+_G.pg.base.item_data_statistics[43354] = {
 	display = "프리드리히 데어 그로세에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -38983,7 +39010,7 @@ _G.pg.item_data_statistics[43354] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43355] = {
+_G.pg.base.item_data_statistics[43355] = {
 	display = "가스코뉴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39004,7 +39031,7 @@ _G.pg.item_data_statistics[43355] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43356] = {
+_G.pg.base.item_data_statistics[43356] = {
 	display = "할시 파웰에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39025,7 +39052,7 @@ _G.pg.item_data_statistics[43356] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43357] = {
+_G.pg.base.item_data_statistics[43357] = {
 	display = "빌럭시에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39046,7 +39073,7 @@ _G.pg.item_data_statistics[43357] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43358] = {
+_G.pg.base.item_data_statistics[43358] = {
 	display = "글로스터에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39067,7 +39094,7 @@ _G.pg.item_data_statistics[43358] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43359] = {
+_G.pg.base.item_data_statistics[43359] = {
 	display = "디이도에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39088,7 +39115,7 @@ _G.pg.item_data_statistics[43359] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43360] = {
+_G.pg.base.item_data_statistics[43360] = {
 	display = "우라나미에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39109,7 +39136,7 @@ _G.pg.item_data_statistics[43360] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43361] = {
+_G.pg.base.item_data_statistics[43361] = {
 	display = "특장형 부린 MKIII에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39130,7 +39157,7 @@ _G.pg.item_data_statistics[43361] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43362] = {
+_G.pg.base.item_data_statistics[43362] = {
 	display = "쿠퍼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39151,7 +39178,7 @@ _G.pg.item_data_statistics[43362] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43363] = {
+_G.pg.base.item_data_statistics[43363] = {
 	display = "마블헤트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39172,7 +39199,7 @@ _G.pg.item_data_statistics[43363] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43364] = {
+_G.pg.base.item_data_statistics[43364] = {
 	display = "리노에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39193,7 +39220,7 @@ _G.pg.item_data_statistics[43364] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43365] = {
+_G.pg.base.item_data_statistics[43365] = {
 	display = "볼티모어(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39214,7 +39241,7 @@ _G.pg.item_data_statistics[43365] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43366] = {
+_G.pg.base.item_data_statistics[43366] = {
 	display = "브레머튼에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39235,7 +39262,7 @@ _G.pg.item_data_statistics[43366] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43367] = {
+_G.pg.base.item_data_statistics[43367] = {
 	display = "인트레피드에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39256,7 +39283,7 @@ _G.pg.item_data_statistics[43367] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43368] = {
+_G.pg.base.item_data_statistics[43368] = {
 	display = "카사블랑카에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39277,7 +39304,7 @@ _G.pg.item_data_statistics[43368] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43369] = {
+_G.pg.base.item_data_statistics[43369] = {
 	display = "프린스턴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39298,7 +39325,7 @@ _G.pg.item_data_statistics[43369] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43370] = {
+_G.pg.base.item_data_statistics[43370] = {
 	display = "알바코어(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39319,7 +39346,7 @@ _G.pg.item_data_statistics[43370] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43371] = {
+_G.pg.base.item_data_statistics[43371] = {
 	display = "블루길에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39340,7 +39367,7 @@ _G.pg.item_data_statistics[43371] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43372] = {
+_G.pg.base.item_data_statistics[43372] = {
 	display = "에스키모에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39361,7 +39388,7 @@ _G.pg.item_data_statistics[43372] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43373] = {
+_G.pg.base.item_data_statistics[43373] = {
 	display = "이카로스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39382,7 +39409,7 @@ _G.pg.item_data_statistics[43373] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43374] = {
+_G.pg.base.item_data_statistics[43374] = {
 	display = "다이도(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39403,7 +39430,7 @@ _G.pg.item_data_statistics[43374] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43375] = {
+_G.pg.base.item_data_statistics[43375] = {
 	display = "허마이오니에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39424,7 +39451,7 @@ _G.pg.item_data_statistics[43375] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43376] = {
+_G.pg.base.item_data_statistics[43376] = {
 	display = "꼬마 리나운에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39445,7 +39472,7 @@ _G.pg.item_data_statistics[43376] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43377] = {
+_G.pg.base.item_data_statistics[43377] = {
 	display = "밸리언트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39466,7 +39493,7 @@ _G.pg.item_data_statistics[43377] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43378] = {
+_G.pg.base.item_data_statistics[43378] = {
 	display = "하우에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39487,7 +39514,7 @@ _G.pg.item_data_statistics[43378] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43379] = {
+_G.pg.base.item_data_statistics[43379] = {
 	display = "퍼시어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39508,7 +39535,7 @@ _G.pg.item_data_statistics[43379] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43380] = {
+_G.pg.base.item_data_statistics[43380] = {
 	display = "일러스트리어스(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39529,7 +39556,7 @@ _G.pg.item_data_statistics[43380] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43381] = {
+_G.pg.base.item_data_statistics[43381] = {
 	display = "꼬마 일러스트리어스에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39550,7 +39577,7 @@ _G.pg.item_data_statistics[43381] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43382] = {
+_G.pg.base.item_data_statistics[43382] = {
 	display = "이글에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39571,7 +39598,7 @@ _G.pg.item_data_statistics[43382] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43383] = {
+_G.pg.base.item_data_statistics[43383] = {
 	display = "{namecode:185}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39592,7 +39619,7 @@ _G.pg.item_data_statistics[43383] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43384] = {
+_G.pg.base.item_data_statistics[43384] = {
 	display = "{namecode:29}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39613,7 +39640,7 @@ _G.pg.item_data_statistics[43384] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43385] = {
+_G.pg.base.item_data_statistics[43385] = {
 	display = "{namecode:27}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39634,7 +39661,7 @@ _G.pg.item_data_statistics[43385] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43386] = {
+_G.pg.base.item_data_statistics[43386] = {
 	display = "{namecode:60}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39655,7 +39682,7 @@ _G.pg.item_data_statistics[43386] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43387] = {
+_G.pg.base.item_data_statistics[43387] = {
 	display = "{namecode:80}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39676,7 +39703,7 @@ _G.pg.item_data_statistics[43387] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43388] = {
+_G.pg.base.item_data_statistics[43388] = {
 	display = "{namecode:81}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39697,7 +39724,7 @@ _G.pg.item_data_statistics[43388] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43389] = {
+_G.pg.base.item_data_statistics[43389] = {
 	display = "{namecode:103}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39718,7 +39745,7 @@ _G.pg.item_data_statistics[43389] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43390] = {
+_G.pg.base.item_data_statistics[43390] = {
 	display = "{namecode:104}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39739,7 +39766,7 @@ _G.pg.item_data_statistics[43390] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43391] = {
+_G.pg.base.item_data_statistics[43391] = {
 	display = "{namecode:182}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39760,7 +39787,7 @@ _G.pg.item_data_statistics[43391] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43392] = {
+_G.pg.base.item_data_statistics[43392] = {
 	display = "{namecode:188}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39781,7 +39808,7 @@ _G.pg.item_data_statistics[43392] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43393] = {
+_G.pg.base.item_data_statistics[43393] = {
 	display = "Z26에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39802,7 +39829,7 @@ _G.pg.item_data_statistics[43393] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43394] = {
+_G.pg.base.item_data_statistics[43394] = {
 	display = "U-96에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39823,7 +39850,7 @@ _G.pg.item_data_statistics[43394] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43395] = {
+_G.pg.base.item_data_statistics[43395] = {
 	display = "{namecode:190}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39844,7 +39871,7 @@ _G.pg.item_data_statistics[43395] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43396] = {
+_G.pg.base.item_data_statistics[43396] = {
 	display = "리슐리외에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39865,7 +39892,7 @@ _G.pg.item_data_statistics[43396] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43397] = {
+_G.pg.base.item_data_statistics[43397] = {
 	display = "라 갈리소니에르에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39886,7 +39913,7 @@ _G.pg.item_data_statistics[43397] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43398] = {
+_G.pg.base.item_data_statistics[43398] = {
 	display = "보클랭에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39907,7 +39934,7 @@ _G.pg.item_data_statistics[43398] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43399] = {
+_G.pg.base.item_data_statistics[43399] = {
 	display = "타르투에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39928,7 +39955,7 @@ _G.pg.item_data_statistics[43399] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43400] = {
+_G.pg.base.item_data_statistics[43400] = {
 	display = "베아른에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39949,7 +39976,7 @@ _G.pg.item_data_statistics[43400] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43401] = {
+_G.pg.base.item_data_statistics[43401] = {
 	display = "론(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39970,7 +39997,7 @@ _G.pg.item_data_statistics[43401] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43402] = {
+_G.pg.base.item_data_statistics[43402] = {
 	display = "체셔에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -39991,7 +40018,7 @@ _G.pg.item_data_statistics[43402] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43403] = {
+_G.pg.base.item_data_statistics[43403] = {
 	display = "오딘에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40012,7 +40039,7 @@ _G.pg.item_data_statistics[43403] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43404] = {
+_G.pg.base.item_data_statistics[43404] = {
 	display = "마인츠에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40033,7 +40060,7 @@ _G.pg.item_data_statistics[43404] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43405] = {
+_G.pg.base.item_data_statistics[43405] = {
 	display = "드레이크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40054,7 +40081,7 @@ _G.pg.item_data_statistics[43405] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43406] = {
+_G.pg.base.item_data_statistics[43406] = {
 	display = "샹파뉴에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40075,7 +40102,7 @@ _G.pg.item_data_statistics[43406] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43407] = {
+_G.pg.base.item_data_statistics[43407] = {
 	display = "잔 다르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40096,7 +40123,7 @@ _G.pg.item_data_statistics[43407] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43408] = {
+_G.pg.base.item_data_statistics[43408] = {
 	display = "르 말랭(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40117,7 +40144,7 @@ _G.pg.item_data_statistics[43408] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43409] = {
+_G.pg.base.item_data_statistics[43409] = {
 	display = "알제리에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40138,7 +40165,7 @@ _G.pg.item_data_statistics[43409] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43410] = {
+_G.pg.base.item_data_statistics[43410] = {
 	display = "강구트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40159,7 +40186,7 @@ _G.pg.item_data_statistics[43410] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43411] = {
+_G.pg.base.item_data_statistics[43411] = {
 	display = "그로즈니에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40180,7 +40207,7 @@ _G.pg.item_data_statistics[43411] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43412] = {
+_G.pg.base.item_data_statistics[43412] = {
 	display = "타슈켄트에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40201,7 +40228,7 @@ _G.pg.item_data_statistics[43412] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43413] = {
+_G.pg.base.item_data_statistics[43413] = {
 	display = "타슈켄트(μ장비)에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40222,7 +40249,7 @@ _G.pg.item_data_statistics[43413] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43414] = {
+_G.pg.base.item_data_statistics[43414] = {
 	display = "차파예프에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40243,7 +40270,7 @@ _G.pg.item_data_statistics[43414] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43415] = {
+_G.pg.base.item_data_statistics[43415] = {
 	display = "파먀티 메르쿠리야에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40264,7 +40291,7 @@ _G.pg.item_data_statistics[43415] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43416] = {
+_G.pg.base.item_data_statistics[43416] = {
 	display = "민스크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40285,7 +40312,7 @@ _G.pg.item_data_statistics[43416] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43417] = {
+_G.pg.base.item_data_statistics[43417] = {
 	display = "소비에츠카야 러시아에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40306,7 +40333,7 @@ _G.pg.item_data_statistics[43417] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43418] = {
+_G.pg.base.item_data_statistics[43418] = {
 	display = "페터 슈트라서에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40327,7 +40354,7 @@ _G.pg.item_data_statistics[43418] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43419] = {
+_G.pg.base.item_data_statistics[43419] = {
 	display = "베저에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40348,7 +40375,7 @@ _G.pg.item_data_statistics[43419] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43420] = {
+_G.pg.base.item_data_statistics[43420] = {
 	display = "프린츠 하인리히에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40369,7 +40396,7 @@ _G.pg.item_data_statistics[43420] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43421] = {
+_G.pg.base.item_data_statistics[43421] = {
 	display = "Z24에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40390,7 +40417,7 @@ _G.pg.item_data_statistics[43421] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43422] = {
+_G.pg.base.item_data_statistics[43422] = {
 	display = "Z28에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40411,7 +40438,7 @@ _G.pg.item_data_statistics[43422] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43423] = {
+_G.pg.base.item_data_statistics[43423] = {
 	display = "U-37에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40432,7 +40459,7 @@ _G.pg.item_data_statistics[43423] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43424] = {
+_G.pg.base.item_data_statistics[43424] = {
 	display = "폴라에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40453,7 +40480,7 @@ _G.pg.item_data_statistics[43424] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43425] = {
+_G.pg.base.item_data_statistics[43425] = {
 	display = "빈첸초 조베르티에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40474,7 +40501,7 @@ _G.pg.item_data_statistics[43425] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43426] = {
+_G.pg.base.item_data_statistics[43426] = {
 	display = "차오 호에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40495,7 +40522,7 @@ _G.pg.item_data_statistics[43426] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43427] = {
+_G.pg.base.item_data_statistics[43427] = {
 	display = "잉 루이에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40516,7 +40543,7 @@ _G.pg.item_data_statistics[43427] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43428] = {
+_G.pg.base.item_data_statistics[43428] = {
 	display = "페넬로피에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40537,7 +40564,7 @@ _G.pg.item_data_statistics[43428] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43429] = {
+_G.pg.base.item_data_statistics[43429] = {
 	display = "U-410에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40558,7 +40585,7 @@ _G.pg.item_data_statistics[43429] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43430] = {
+_G.pg.base.item_data_statistics[43430] = {
 	display = "{namecode:191}에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40579,7 +40606,7 @@ _G.pg.item_data_statistics[43430] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[43431] = {
+_G.pg.base.item_data_statistics[43431] = {
 	display = "뉘른베르크에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40600,7 +40627,7 @@ _G.pg.item_data_statistics[43431] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[44001] = {
+_G.pg.base.item_data_statistics[44001] = {
 	display = "$1에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
 	max_num = 0,
@@ -40621,7 +40648,7 @@ _G.pg.item_data_statistics[44001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50001] = {
+_G.pg.base.item_data_statistics[50001] = {
 	display = "산소가 충전되어 있는 콜라. 독특한 맛으로, 아마 지휘관은 마실 수 없다.",
 	name = "산소 콜라",
 	max_num = 0,
@@ -40645,7 +40672,7 @@ _G.pg.item_data_statistics[50001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50002] = {
+_G.pg.base.item_data_statistics[50002] = {
 	display = "특제라고 하는 것에 비해 겉보기엔 평범하다. 일부 지휘관들에게 인기 있다고 한다.",
 	name = "특제 냉각수",
 	max_num = 0,
@@ -40669,7 +40696,7 @@ _G.pg.item_data_statistics[50002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50003] = {
+_G.pg.base.item_data_statistics[50003] = {
 	display = "특제 어뢰 튀김. 어린아이들에게 대호평(사실무근).",
 	name = "어뢰 튀김",
 	max_num = 0,
@@ -40693,7 +40720,7 @@ _G.pg.item_data_statistics[50003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50004] = {
+_G.pg.base.item_data_statistics[50004] = {
 	display = "단맛? 매운맛? 취향은 사람마다 제각각...\n<color=#92fc63>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 	name = "해군 카레",
 	max_num = 0,
@@ -40717,7 +40744,7 @@ _G.pg.item_data_statistics[50004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50005] = {
+_G.pg.base.item_data_statistics[50005] = {
 	display = "로열 네이비 특제 요리라~구! <color=#92fc63>(180분 동안 숙소 경험치 효율 10% 상승)</color>",
 	name = "정어리 파이",
 	max_num = 0,
@@ -40741,7 +40768,7 @@ _G.pg.item_data_statistics[50005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[50006] = {
+_G.pg.base.item_data_statistics[50006] = {
 	display = "생긴 것이 기묘해 보이는 전통(?) 요리. <color=#92fc63>(360분 동안 숙소 경험치 효율 20% 상승)</color>",
 	name = "풀 코스 요리",
 	max_num = 0,
@@ -40765,7 +40792,7 @@ _G.pg.item_data_statistics[50006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51001] = {
+_G.pg.base.item_data_statistics[51001] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*25\n<color=#ffde38>성정 유닛</color>*250",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -40797,7 +40824,7 @@ _G.pg.item_data_statistics[51001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51002] = {
+_G.pg.base.item_data_statistics[51002] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*25\n<color=#ffde38>성정 유닛</color>*350",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -40829,7 +40856,7 @@ _G.pg.item_data_statistics[51002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51003] = {
+_G.pg.base.item_data_statistics[51003] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*25\n<color=#ffde38>성정 유닛</color>*450",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -40861,7 +40888,7 @@ _G.pg.item_data_statistics[51003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51004] = {
+_G.pg.base.item_data_statistics[51004] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*25\n<color=#ffde38>성정 유닛</color>*550",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -40893,7 +40920,7 @@ _G.pg.item_data_statistics[51004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51005] = {
+_G.pg.base.item_data_statistics[51005] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*50\n<color=#ffde38>성정 유닛</color>*100",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -40925,7 +40952,7 @@ _G.pg.item_data_statistics[51005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51006] = {
+_G.pg.base.item_data_statistics[51006] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*100\n<color=#ffde38>성정 유닛</color>*200",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -40957,7 +40984,7 @@ _G.pg.item_data_statistics[51006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51007] = {
+_G.pg.base.item_data_statistics[51007] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*150\n<color=#ffde38>성정 유닛</color>*300",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -40989,7 +41016,7 @@ _G.pg.item_data_statistics[51007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51008] = {
+_G.pg.base.item_data_statistics[51008] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*200\n<color=#ffde38>성정 유닛</color>*400",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -41021,7 +41048,7 @@ _G.pg.item_data_statistics[51008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51009] = {
+_G.pg.base.item_data_statistics[51009] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*250\n<color=#ffde38>성정 유닛</color>*500",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -41053,7 +41080,7 @@ _G.pg.item_data_statistics[51009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[51010] = {
+_G.pg.base.item_data_statistics[51010] = {
 	display = "보상 수령 후, 다음 아이템 획득：\n<color=#ffde38>성정 유닛II</color>*300\n<color=#ffde38>성정 유닛</color>*600",
 	name = "성정 유닛 조합",
 	max_num = 0,
@@ -41085,7 +41112,7 @@ _G.pg.item_data_statistics[51010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52001] = {
+_G.pg.base.item_data_statistics[52001] = {
 	display = "랜덤으로 하기 강화 유닛을 획득할 수 있습니다.",
 	name = "강화 유닛 (랜덤)",
 	max_num = 0,
@@ -41137,7 +41164,7 @@ _G.pg.item_data_statistics[52001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52002] = {
+_G.pg.base.item_data_statistics[52002] = {
 	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
 	name = "장비 설계도 (랜덤)",
 	max_num = 0,
@@ -41214,7 +41241,7 @@ _G.pg.item_data_statistics[52002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52003] = {
+_G.pg.base.item_data_statistics[52003] = {
 	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
 	name = "장비 설계도 (랜덤) T3",
 	max_num = 0,
@@ -41361,7 +41388,7 @@ _G.pg.item_data_statistics[52003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52004] = {
+_G.pg.base.item_data_statistics[52004] = {
 	display = "랜덤으로 SR 이하의 장비 설계도를 획득할 수 있습니다.",
 	name = "장비 설계도 (랜덤) T2",
 	max_num = 0,
@@ -41382,7 +41409,7 @@ _G.pg.item_data_statistics[52004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52011] = {
+_G.pg.base.item_data_statistics[52011] = {
 	display = "랜덤으로 하기 강화 유닛을 획득할 수 있습니다.",
 	name = "강화 유닛 (랜덤)",
 	max_num = 0,
@@ -41434,7 +41461,7 @@ _G.pg.item_data_statistics[52011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52012] = {
+_G.pg.base.item_data_statistics[52012] = {
 	display = "랜덤으로 하기 장비 설계도를 획득할 수 있습니다.",
 	name = "장비 설계도 (랜덤)",
 	max_num = 0,
@@ -41511,7 +41538,7 @@ _G.pg.item_data_statistics[52012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52021] = {
+_G.pg.base.item_data_statistics[52021] = {
 	display = "랜덤으로 하기 강화 유닛을 획득할 수 있습니다.",
 	name = "未知蓝图",
 	max_num = 0,
@@ -41558,7 +41585,7 @@ _G.pg.item_data_statistics[52021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52022] = {
+_G.pg.base.item_data_statistics[52022] = {
 	display = "랜덤으로 하기 장비 설계도를 획득할 수 있습니다.",
 	name = "未知限定装备设计图",
 	max_num = 0,
@@ -41635,7 +41662,7 @@ _G.pg.item_data_statistics[52022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52031] = {
+_G.pg.base.item_data_statistics[52031] = {
 	display = "랜덤으로 하기 강화 유닛을 획득할 수 있습니다.",
 	name = "未知蓝图",
 	max_num = 0,
@@ -41682,7 +41709,7 @@ _G.pg.item_data_statistics[52031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52032] = {
+_G.pg.base.item_data_statistics[52032] = {
 	display = "랜덤으로 하기 장비 설계도를 획득할 수 있습니다.",
 	name = "未知限定装备设计图",
 	max_num = 0,
@@ -41759,7 +41786,7 @@ _G.pg.item_data_statistics[52032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[52033] = {
+_G.pg.base.item_data_statistics[52033] = {
 	display = "SSR 설계도 랜덤 획득",
 	name = "장비 설계도 (랜덤) T3",
 	max_num = 0,
@@ -41906,7 +41933,7 @@ _G.pg.item_data_statistics[52033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53000] = {
+_G.pg.base.item_data_statistics[53000] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -41968,7 +41995,7 @@ _G.pg.item_data_statistics[53000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53010] = {
+_G.pg.base.item_data_statistics[53010] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42030,7 +42057,7 @@ _G.pg.item_data_statistics[53010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53011] = {
+_G.pg.base.item_data_statistics[53011] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42092,7 +42119,7 @@ _G.pg.item_data_statistics[53011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53020] = {
+_G.pg.base.item_data_statistics[53020] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42174,7 +42201,7 @@ _G.pg.item_data_statistics[53020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53021] = {
+_G.pg.base.item_data_statistics[53021] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42256,7 +42283,7 @@ _G.pg.item_data_statistics[53021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53022] = {
+_G.pg.base.item_data_statistics[53022] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42338,7 +42365,7 @@ _G.pg.item_data_statistics[53022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53030] = {
+_G.pg.base.item_data_statistics[53030] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42420,7 +42447,7 @@ _G.pg.item_data_statistics[53030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53031] = {
+_G.pg.base.item_data_statistics[53031] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42502,7 +42529,7 @@ _G.pg.item_data_statistics[53031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53032] = {
+_G.pg.base.item_data_statistics[53032] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42584,7 +42611,7 @@ _G.pg.item_data_statistics[53032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53033] = {
+_G.pg.base.item_data_statistics[53033] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42666,7 +42693,7 @@ _G.pg.item_data_statistics[53033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53040] = {
+_G.pg.base.item_data_statistics[53040] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42803,7 +42830,7 @@ _G.pg.item_data_statistics[53040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53041] = {
+_G.pg.base.item_data_statistics[53041] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -42940,7 +42967,7 @@ _G.pg.item_data_statistics[53041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53042] = {
+_G.pg.base.item_data_statistics[53042] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -43077,7 +43104,7 @@ _G.pg.item_data_statistics[53042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53043] = {
+_G.pg.base.item_data_statistics[53043] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -43214,7 +43241,7 @@ _G.pg.item_data_statistics[53043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53044] = {
+_G.pg.base.item_data_statistics[53044] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -43341,7 +43368,7 @@ _G.pg.item_data_statistics[53044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53050] = {
+_G.pg.base.item_data_statistics[53050] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -43468,7 +43495,7 @@ _G.pg.item_data_statistics[53050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53051] = {
+_G.pg.base.item_data_statistics[53051] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -43595,7 +43622,7 @@ _G.pg.item_data_statistics[53051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53052] = {
+_G.pg.base.item_data_statistics[53052] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -43722,7 +43749,7 @@ _G.pg.item_data_statistics[53052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53053] = {
+_G.pg.base.item_data_statistics[53053] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -43849,7 +43876,7 @@ _G.pg.item_data_statistics[53053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53054] = {
+_G.pg.base.item_data_statistics[53054] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -43976,7 +44003,7 @@ _G.pg.item_data_statistics[53054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53055] = {
+_G.pg.base.item_data_statistics[53055] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -44103,7 +44130,7 @@ _G.pg.item_data_statistics[53055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53060] = {
+_G.pg.base.item_data_statistics[53060] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -44240,7 +44267,7 @@ _G.pg.item_data_statistics[53060] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53061] = {
+_G.pg.base.item_data_statistics[53061] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -44377,7 +44404,7 @@ _G.pg.item_data_statistics[53061] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53062] = {
+_G.pg.base.item_data_statistics[53062] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -44514,7 +44541,7 @@ _G.pg.item_data_statistics[53062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53063] = {
+_G.pg.base.item_data_statistics[53063] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -44651,7 +44678,7 @@ _G.pg.item_data_statistics[53063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53064] = {
+_G.pg.base.item_data_statistics[53064] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -44788,7 +44815,7 @@ _G.pg.item_data_statistics[53064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53065] = {
+_G.pg.base.item_data_statistics[53065] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -44925,7 +44952,7 @@ _G.pg.item_data_statistics[53065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53066] = {
+_G.pg.base.item_data_statistics[53066] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -45062,7 +45089,7 @@ _G.pg.item_data_statistics[53066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53070] = {
+_G.pg.base.item_data_statistics[53070] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -45214,7 +45241,7 @@ _G.pg.item_data_statistics[53070] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53071] = {
+_G.pg.base.item_data_statistics[53071] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -45366,7 +45393,7 @@ _G.pg.item_data_statistics[53071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53072] = {
+_G.pg.base.item_data_statistics[53072] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -45518,7 +45545,7 @@ _G.pg.item_data_statistics[53072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53073] = {
+_G.pg.base.item_data_statistics[53073] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -45670,7 +45697,7 @@ _G.pg.item_data_statistics[53073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53074] = {
+_G.pg.base.item_data_statistics[53074] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -45822,7 +45849,7 @@ _G.pg.item_data_statistics[53074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53075] = {
+_G.pg.base.item_data_statistics[53075] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -45974,7 +46001,7 @@ _G.pg.item_data_statistics[53075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53076] = {
+_G.pg.base.item_data_statistics[53076] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46126,7 +46153,7 @@ _G.pg.item_data_statistics[53076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53077] = {
+_G.pg.base.item_data_statistics[53077] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46228,7 +46255,7 @@ _G.pg.item_data_statistics[53077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53080] = {
+_G.pg.base.item_data_statistics[53080] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46275,7 +46302,7 @@ _G.pg.item_data_statistics[53080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53081] = {
+_G.pg.base.item_data_statistics[53081] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46322,7 +46349,7 @@ _G.pg.item_data_statistics[53081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53082] = {
+_G.pg.base.item_data_statistics[53082] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46369,7 +46396,7 @@ _G.pg.item_data_statistics[53082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53083] = {
+_G.pg.base.item_data_statistics[53083] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46416,7 +46443,7 @@ _G.pg.item_data_statistics[53083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53084] = {
+_G.pg.base.item_data_statistics[53084] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46463,7 +46490,7 @@ _G.pg.item_data_statistics[53084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53085] = {
+_G.pg.base.item_data_statistics[53085] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46510,7 +46537,7 @@ _G.pg.item_data_statistics[53085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53086] = {
+_G.pg.base.item_data_statistics[53086] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46557,7 +46584,7 @@ _G.pg.item_data_statistics[53086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53087] = {
+_G.pg.base.item_data_statistics[53087] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46604,7 +46631,7 @@ _G.pg.item_data_statistics[53087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53088] = {
+_G.pg.base.item_data_statistics[53088] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46651,7 +46678,7 @@ _G.pg.item_data_statistics[53088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53090] = {
+_G.pg.base.item_data_statistics[53090] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46698,7 +46725,7 @@ _G.pg.item_data_statistics[53090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53091] = {
+_G.pg.base.item_data_statistics[53091] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46745,7 +46772,7 @@ _G.pg.item_data_statistics[53091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53092] = {
+_G.pg.base.item_data_statistics[53092] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46792,7 +46819,7 @@ _G.pg.item_data_statistics[53092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53093] = {
+_G.pg.base.item_data_statistics[53093] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46839,7 +46866,7 @@ _G.pg.item_data_statistics[53093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53094] = {
+_G.pg.base.item_data_statistics[53094] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46886,7 +46913,7 @@ _G.pg.item_data_statistics[53094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53095] = {
+_G.pg.base.item_data_statistics[53095] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46933,7 +46960,7 @@ _G.pg.item_data_statistics[53095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53096] = {
+_G.pg.base.item_data_statistics[53096] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -46980,7 +47007,7 @@ _G.pg.item_data_statistics[53096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53097] = {
+_G.pg.base.item_data_statistics[53097] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -47027,7 +47054,7 @@ _G.pg.item_data_statistics[53097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53098] = {
+_G.pg.base.item_data_statistics[53098] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -47074,7 +47101,7 @@ _G.pg.item_data_statistics[53098] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53099] = {
+_G.pg.base.item_data_statistics[53099] = {
 	display = "아래의 장비 / 설계도를 랜덤으로 획득 가능",
 	name = "장비 & 설계도 (랜덤) ",
 	max_num = 0,
@@ -47121,7 +47148,7 @@ _G.pg.item_data_statistics[53099] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53990] = {
+_G.pg.base.item_data_statistics[53990] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -47198,7 +47225,7 @@ _G.pg.item_data_statistics[53990] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53991] = {
+_G.pg.base.item_data_statistics[53991] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -47330,7 +47357,7 @@ _G.pg.item_data_statistics[53991] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53992] = {
+_G.pg.base.item_data_statistics[53992] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -47427,7 +47454,7 @@ _G.pg.item_data_statistics[53992] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53993] = {
+_G.pg.base.item_data_statistics[53993] = {
 	display = "일정 확률로 장비 부속 T1을 얻을 수 있습니다.",
 	name = "랜덤 부속 T1",
 	max_num = 0,
@@ -47459,7 +47486,7 @@ _G.pg.item_data_statistics[53993] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53994] = {
+_G.pg.base.item_data_statistics[53994] = {
 	display = "일정 확률로 장비 부속 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 부속 T2",
 	max_num = 0,
@@ -47501,7 +47528,7 @@ _G.pg.item_data_statistics[53994] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[53995] = {
+_G.pg.base.item_data_statistics[53995] = {
 	display = "일정 확률로 장비 부속 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 부속 T3",
 	max_num = 0,
@@ -47553,7 +47580,7 @@ _G.pg.item_data_statistics[53995] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54001] = {
+_G.pg.base.item_data_statistics[54001] = {
 	display = "일정 확률로 교본 T1을 얻을 수 있습니다.",
 	name = "랜덤 교본 T1",
 	max_num = 0,
@@ -47590,7 +47617,7 @@ _G.pg.item_data_statistics[54001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54002] = {
+_G.pg.base.item_data_statistics[54002] = {
 	display = "일정 확률로 교본 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 교본 T2",
 	max_num = 0,
@@ -47642,7 +47669,7 @@ _G.pg.item_data_statistics[54002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54003] = {
+_G.pg.base.item_data_statistics[54003] = {
 	display = "일정 확률로 교본 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 교본 T3",
 	max_num = 0,
@@ -47709,7 +47736,7 @@ _G.pg.item_data_statistics[54003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54004] = {
+_G.pg.base.item_data_statistics[54004] = {
 	display = "일정 확률로 교본 T1을 얻을 수 있습니다.",
 	name = "랜덤 교본 T1",
 	max_num = 0,
@@ -47730,7 +47757,7 @@ _G.pg.item_data_statistics[54004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54005] = {
+_G.pg.base.item_data_statistics[54005] = {
 	display = "일정 확률로 교본 T2를 얻을 수 있습니다.",
 	name = "랜덤 교본 T2",
 	max_num = 0,
@@ -47751,7 +47778,7 @@ _G.pg.item_data_statistics[54005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54006] = {
+_G.pg.base.item_data_statistics[54006] = {
 	display = "일정 확률로 교본 T3를 얻을 수 있습니다.",
 	name = "랜덤 교본 T3",
 	max_num = 0,
@@ -47772,7 +47799,7 @@ _G.pg.item_data_statistics[54006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54007] = {
+_G.pg.base.item_data_statistics[54007] = {
 	display = "일정 확률로 교본 T4를 얻을 수 있습니다.",
 	name = "랜덤 교본 T4",
 	max_num = 0,
@@ -47793,7 +47820,7 @@ _G.pg.item_data_statistics[54007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54011] = {
+_G.pg.base.item_data_statistics[54011] = {
 	display = "일정 확률로 장비 부속 T1을 얻을 수 있습니다.",
 	name = "랜덤 부속 T1",
 	max_num = 0,
@@ -47840,7 +47867,7 @@ _G.pg.item_data_statistics[54011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54012] = {
+_G.pg.base.item_data_statistics[54012] = {
 	display = "일정 확률로 장비 부속 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 부속 T2",
 	max_num = 0,
@@ -47912,7 +47939,7 @@ _G.pg.item_data_statistics[54012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54013] = {
+_G.pg.base.item_data_statistics[54013] = {
 	display = "일정 확률로 장비 부속 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 부속 T3",
 	max_num = 0,
@@ -48009,7 +48036,7 @@ _G.pg.item_data_statistics[54013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54014] = {
+_G.pg.base.item_data_statistics[54014] = {
 	display = "일정 확률로 장비 부속 T1을 얻을 수 있습니다.",
 	name = "랜덤 부속 T1",
 	max_num = 0,
@@ -48056,7 +48083,7 @@ _G.pg.item_data_statistics[54014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54015] = {
+_G.pg.base.item_data_statistics[54015] = {
 	display = "일정 확률로 장비 부속 T2를 얻을 수 있습니다.",
 	name = "랜덤 부속 T2",
 	max_num = 0,
@@ -48103,7 +48130,7 @@ _G.pg.item_data_statistics[54015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54016] = {
+_G.pg.base.item_data_statistics[54016] = {
 	display = "일정 확률로 장비 부속 T3를 얻을 수 있습니다.",
 	name = "랜덤 부속 T3",
 	max_num = 0,
@@ -48150,7 +48177,7 @@ _G.pg.item_data_statistics[54016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54017] = {
+_G.pg.base.item_data_statistics[54017] = {
 	display = "일정 확률로 장비 부속 T2~T3를 얻을 수 있습니다.",
 	name = "랜덤 부속 T3",
 	max_num = 0,
@@ -48222,7 +48249,7 @@ _G.pg.item_data_statistics[54017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54018] = {
+_G.pg.base.item_data_statistics[54018] = {
 	display = "일정 확률로 장비 부속 T4를 얻을 수 있습니다.",
 	name = "랜덤 부속 T4",
 	max_num = 0,
@@ -48269,7 +48296,7 @@ _G.pg.item_data_statistics[54018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54021] = {
+_G.pg.base.item_data_statistics[54021] = {
 	display = "일정 확률로 장비상자 T1을 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T1",
 	max_num = 0,
@@ -48314,7 +48341,7 @@ _G.pg.item_data_statistics[54021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54022] = {
+_G.pg.base.item_data_statistics[54022] = {
 	display = "일정 확률로 장비상자 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T2",
 	max_num = 0,
@@ -48338,7 +48365,7 @@ _G.pg.item_data_statistics[54022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54023] = {
+_G.pg.base.item_data_statistics[54023] = {
 	display = "일정 확률로 장비상자 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T3",
 	max_num = 0,
@@ -48423,7 +48450,7 @@ _G.pg.item_data_statistics[54023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54024] = {
+_G.pg.base.item_data_statistics[54024] = {
 	display = "일정 확률로 장비상자 T1~T4를 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T4",
 	max_num = 0,
@@ -48528,7 +48555,7 @@ _G.pg.item_data_statistics[54024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54025] = {
+_G.pg.base.item_data_statistics[54025] = {
 	display = "일정 확률로 장비상자 T1~T5를 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T5",
 	max_num = 0,
@@ -48653,7 +48680,7 @@ _G.pg.item_data_statistics[54025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54031] = {
+_G.pg.base.item_data_statistics[54031] = {
 	display = "일정 확률로 장비상자 T1을 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T1",
 	max_num = 0,
@@ -48677,7 +48704,7 @@ _G.pg.item_data_statistics[54031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54032] = {
+_G.pg.base.item_data_statistics[54032] = {
 	display = "일정 확률로 장비상자 T2를 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T2",
 	max_num = 0,
@@ -48701,7 +48728,7 @@ _G.pg.item_data_statistics[54032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54033] = {
+_G.pg.base.item_data_statistics[54033] = {
 	display = "일정 확률로 장비상자 T3를 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T3",
 	max_num = 0,
@@ -48725,7 +48752,7 @@ _G.pg.item_data_statistics[54033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54034] = {
+_G.pg.base.item_data_statistics[54034] = {
 	display = "일정 확률로 장비상자 T4를 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T4",
 	max_num = 0,
@@ -48749,7 +48776,7 @@ _G.pg.item_data_statistics[54034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54035] = {
+_G.pg.base.item_data_statistics[54035] = {
 	display = "일정 확률로 장비상자 T5를 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T5",
 	max_num = 0,
@@ -48773,7 +48800,7 @@ _G.pg.item_data_statistics[54035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54039] = {
+_G.pg.base.item_data_statistics[54039] = {
 	display = "일정 확률로 장비상자 T4를 얻을 수 있습니다.",
 	name = "랜덤 장비상자 T4",
 	max_num = 0,
@@ -48797,7 +48824,7 @@ _G.pg.item_data_statistics[54039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54041] = {
+_G.pg.base.item_data_statistics[54041] = {
 	display = "일정 확률로 구축함 개조도면 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -48829,7 +48856,7 @@ _G.pg.item_data_statistics[54041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54042] = {
+_G.pg.base.item_data_statistics[54042] = {
 	display = "일정 확률로 순양함 개조도면 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -48861,7 +48888,7 @@ _G.pg.item_data_statistics[54042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54043] = {
+_G.pg.base.item_data_statistics[54043] = {
 	display = "일정 확률로 전함 개조 도면면 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -48893,7 +48920,7 @@ _G.pg.item_data_statistics[54043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54044] = {
+_G.pg.base.item_data_statistics[54044] = {
 	display = "일정 확률로 항공모함 개조도면 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -48925,7 +48952,7 @@ _G.pg.item_data_statistics[54044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54045] = {
+_G.pg.base.item_data_statistics[54045] = {
 	display = "일정 확률로 구축함 개조도면 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -48962,7 +48989,7 @@ _G.pg.item_data_statistics[54045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54046] = {
+_G.pg.base.item_data_statistics[54046] = {
 	display = "일정 확률로 순양함 개조도면 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -48999,7 +49026,7 @@ _G.pg.item_data_statistics[54046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54047] = {
+_G.pg.base.item_data_statistics[54047] = {
 	display = "일정 확률로 전함 개조 도면면 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49036,7 +49063,7 @@ _G.pg.item_data_statistics[54047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54048] = {
+_G.pg.base.item_data_statistics[54048] = {
 	display = "일정 확률로 항공모함 개조도면 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49073,7 +49100,7 @@ _G.pg.item_data_statistics[54048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54049] = {
+_G.pg.base.item_data_statistics[54049] = {
 	display = "일정 확률로 개조도면 T1을 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49094,7 +49121,7 @@ _G.pg.item_data_statistics[54049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54050] = {
+_G.pg.base.item_data_statistics[54050] = {
 	display = "일정 확률로 개조도면 T2를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49115,7 +49142,7 @@ _G.pg.item_data_statistics[54050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54051] = {
+_G.pg.base.item_data_statistics[54051] = {
 	display = "일정 확률로 개조도면 T3를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49136,7 +49163,7 @@ _G.pg.item_data_statistics[54051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54100] = {
+_G.pg.base.item_data_statistics[54100] = {
 	display = "일정 확률로 장비 부속 T4를 얻을 수 있습니다.",
 	name = "랜덤 부속T4",
 	max_num = 0,
@@ -49168,7 +49195,7 @@ _G.pg.item_data_statistics[54100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54101] = {
+_G.pg.base.item_data_statistics[54101] = {
 	display = "일정 확률로 장비 부속 T4를 얻을 수 있습니다.",
 	name = "랜덤 부속T4",
 	max_num = 0,
@@ -49205,7 +49232,7 @@ _G.pg.item_data_statistics[54101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54102] = {
+_G.pg.base.item_data_statistics[54102] = {
 	display = "일정 확률로 장비 부속 T4를 얻을 수 있습니다.",
 	name = "랜덤 부속T4",
 	max_num = 0,
@@ -49242,7 +49269,7 @@ _G.pg.item_data_statistics[54102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54103] = {
+_G.pg.base.item_data_statistics[54103] = {
 	display = "일정 확률로 장비 부속 T1를 얻을 수 있습니다.",
 	name = "랜덤 부속T1",
 	max_num = 0,
@@ -49279,7 +49306,7 @@ _G.pg.item_data_statistics[54103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54104] = {
+_G.pg.base.item_data_statistics[54104] = {
 	display = "일정 확률로 장비 부속 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 부속T2",
 	max_num = 0,
@@ -49316,7 +49343,7 @@ _G.pg.item_data_statistics[54104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54105] = {
+_G.pg.base.item_data_statistics[54105] = {
 	display = "일정 확률로 장비 부속 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 부속T3",
 	max_num = 0,
@@ -49353,7 +49380,7 @@ _G.pg.item_data_statistics[54105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54106] = {
+_G.pg.base.item_data_statistics[54106] = {
 	display = "일정 확률로 장비 부속 T1을 얻을 수 있습니다.",
 	name = "랜덤 부속T1",
 	max_num = 0,
@@ -49390,7 +49417,7 @@ _G.pg.item_data_statistics[54106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54107] = {
+_G.pg.base.item_data_statistics[54107] = {
 	display = "일정 확률로 장비 부속 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 부속T2",
 	max_num = 0,
@@ -49427,7 +49454,7 @@ _G.pg.item_data_statistics[54107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[54108] = {
+_G.pg.base.item_data_statistics[54108] = {
 	display = "일정 확률로 장비 부속 T1~T3를 얻을 수 있습니다.",
 	name = "랜덤 부속T3",
 	max_num = 0,
@@ -49464,7 +49491,7 @@ _G.pg.item_data_statistics[54108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55001] = {
+_G.pg.base.item_data_statistics[55001] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49485,7 +49512,7 @@ _G.pg.item_data_statistics[55001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55002] = {
+_G.pg.base.item_data_statistics[55002] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49506,7 +49533,7 @@ _G.pg.item_data_statistics[55002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55003] = {
+_G.pg.base.item_data_statistics[55003] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49527,7 +49554,7 @@ _G.pg.item_data_statistics[55003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55004] = {
+_G.pg.base.item_data_statistics[55004] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49574,7 +49601,7 @@ _G.pg.item_data_statistics[55004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55005] = {
+_G.pg.base.item_data_statistics[55005] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49621,7 +49648,7 @@ _G.pg.item_data_statistics[55005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55006] = {
+_G.pg.base.item_data_statistics[55006] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49668,7 +49695,7 @@ _G.pg.item_data_statistics[55006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55007] = {
+_G.pg.base.item_data_statistics[55007] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49715,7 +49742,7 @@ _G.pg.item_data_statistics[55007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55008] = {
+_G.pg.base.item_data_statistics[55008] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49767,7 +49794,7 @@ _G.pg.item_data_statistics[55008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55009] = {
+_G.pg.base.item_data_statistics[55009] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49814,7 +49841,7 @@ _G.pg.item_data_statistics[55009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55010] = {
+_G.pg.base.item_data_statistics[55010] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49861,7 +49888,7 @@ _G.pg.item_data_statistics[55010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55011] = {
+_G.pg.base.item_data_statistics[55011] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49908,7 +49935,7 @@ _G.pg.item_data_statistics[55011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55012] = {
+_G.pg.base.item_data_statistics[55012] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -49955,7 +49982,7 @@ _G.pg.item_data_statistics[55012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55013] = {
+_G.pg.base.item_data_statistics[55013] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50002,7 +50029,7 @@ _G.pg.item_data_statistics[55013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55014] = {
+_G.pg.base.item_data_statistics[55014] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50049,7 +50076,7 @@ _G.pg.item_data_statistics[55014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55015] = {
+_G.pg.base.item_data_statistics[55015] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50096,7 +50123,7 @@ _G.pg.item_data_statistics[55015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55016] = {
+_G.pg.base.item_data_statistics[55016] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50143,7 +50170,7 @@ _G.pg.item_data_statistics[55016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55017] = {
+_G.pg.base.item_data_statistics[55017] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50190,7 +50217,7 @@ _G.pg.item_data_statistics[55017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55018] = {
+_G.pg.base.item_data_statistics[55018] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50237,7 +50264,7 @@ _G.pg.item_data_statistics[55018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55019] = {
+_G.pg.base.item_data_statistics[55019] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50284,7 +50311,7 @@ _G.pg.item_data_statistics[55019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55020] = {
+_G.pg.base.item_data_statistics[55020] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50331,7 +50358,7 @@ _G.pg.item_data_statistics[55020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55021] = {
+_G.pg.base.item_data_statistics[55021] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50378,7 +50405,7 @@ _G.pg.item_data_statistics[55021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55022] = {
+_G.pg.base.item_data_statistics[55022] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50425,7 +50452,7 @@ _G.pg.item_data_statistics[55022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55023] = {
+_G.pg.base.item_data_statistics[55023] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50472,7 +50499,7 @@ _G.pg.item_data_statistics[55023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55024] = {
+_G.pg.base.item_data_statistics[55024] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50519,7 +50546,7 @@ _G.pg.item_data_statistics[55024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55025] = {
+_G.pg.base.item_data_statistics[55025] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50566,7 +50593,7 @@ _G.pg.item_data_statistics[55025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55026] = {
+_G.pg.base.item_data_statistics[55026] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50618,7 +50645,7 @@ _G.pg.item_data_statistics[55026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55027] = {
+_G.pg.base.item_data_statistics[55027] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50665,7 +50692,7 @@ _G.pg.item_data_statistics[55027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55028] = {
+_G.pg.base.item_data_statistics[55028] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50712,7 +50739,7 @@ _G.pg.item_data_statistics[55028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55029] = {
+_G.pg.base.item_data_statistics[55029] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50759,7 +50786,7 @@ _G.pg.item_data_statistics[55029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55030] = {
+_G.pg.base.item_data_statistics[55030] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50806,7 +50833,7 @@ _G.pg.item_data_statistics[55030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55031] = {
+_G.pg.base.item_data_statistics[55031] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50853,7 +50880,7 @@ _G.pg.item_data_statistics[55031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55032] = {
+_G.pg.base.item_data_statistics[55032] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50900,7 +50927,7 @@ _G.pg.item_data_statistics[55032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55033] = {
+_G.pg.base.item_data_statistics[55033] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50947,7 +50974,7 @@ _G.pg.item_data_statistics[55033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55034] = {
+_G.pg.base.item_data_statistics[55034] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -50994,7 +51021,7 @@ _G.pg.item_data_statistics[55034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55035] = {
+_G.pg.base.item_data_statistics[55035] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51041,7 +51068,7 @@ _G.pg.item_data_statistics[55035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55036] = {
+_G.pg.base.item_data_statistics[55036] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51088,7 +51115,7 @@ _G.pg.item_data_statistics[55036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55037] = {
+_G.pg.base.item_data_statistics[55037] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51135,7 +51162,7 @@ _G.pg.item_data_statistics[55037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55038] = {
+_G.pg.base.item_data_statistics[55038] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51182,7 +51209,7 @@ _G.pg.item_data_statistics[55038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55039] = {
+_G.pg.base.item_data_statistics[55039] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51229,7 +51256,7 @@ _G.pg.item_data_statistics[55039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55040] = {
+_G.pg.base.item_data_statistics[55040] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51276,7 +51303,7 @@ _G.pg.item_data_statistics[55040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55041] = {
+_G.pg.base.item_data_statistics[55041] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51323,7 +51350,7 @@ _G.pg.item_data_statistics[55041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55042] = {
+_G.pg.base.item_data_statistics[55042] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51370,7 +51397,7 @@ _G.pg.item_data_statistics[55042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55043] = {
+_G.pg.base.item_data_statistics[55043] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51417,7 +51444,7 @@ _G.pg.item_data_statistics[55043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55044] = {
+_G.pg.base.item_data_statistics[55044] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51464,7 +51491,7 @@ _G.pg.item_data_statistics[55044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55045] = {
+_G.pg.base.item_data_statistics[55045] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51511,7 +51538,7 @@ _G.pg.item_data_statistics[55045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55046] = {
+_G.pg.base.item_data_statistics[55046] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51558,7 +51585,7 @@ _G.pg.item_data_statistics[55046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55047] = {
+_G.pg.base.item_data_statistics[55047] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51605,7 +51632,7 @@ _G.pg.item_data_statistics[55047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55048] = {
+_G.pg.base.item_data_statistics[55048] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51652,7 +51679,7 @@ _G.pg.item_data_statistics[55048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55049] = {
+_G.pg.base.item_data_statistics[55049] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51699,7 +51726,7 @@ _G.pg.item_data_statistics[55049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55050] = {
+_G.pg.base.item_data_statistics[55050] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51746,7 +51773,7 @@ _G.pg.item_data_statistics[55050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55051] = {
+_G.pg.base.item_data_statistics[55051] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51793,7 +51820,7 @@ _G.pg.item_data_statistics[55051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55052] = {
+_G.pg.base.item_data_statistics[55052] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51840,7 +51867,7 @@ _G.pg.item_data_statistics[55052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55053] = {
+_G.pg.base.item_data_statistics[55053] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51887,7 +51914,7 @@ _G.pg.item_data_statistics[55053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55054] = {
+_G.pg.base.item_data_statistics[55054] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51934,7 +51961,7 @@ _G.pg.item_data_statistics[55054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55055] = {
+_G.pg.base.item_data_statistics[55055] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -51981,7 +52008,7 @@ _G.pg.item_data_statistics[55055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55056] = {
+_G.pg.base.item_data_statistics[55056] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52028,7 +52055,7 @@ _G.pg.item_data_statistics[55056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55501] = {
+_G.pg.base.item_data_statistics[55501] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52049,7 +52076,7 @@ _G.pg.item_data_statistics[55501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55502] = {
+_G.pg.base.item_data_statistics[55502] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52070,7 +52097,7 @@ _G.pg.item_data_statistics[55502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55503] = {
+_G.pg.base.item_data_statistics[55503] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52091,7 +52118,7 @@ _G.pg.item_data_statistics[55503] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55504] = {
+_G.pg.base.item_data_statistics[55504] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52138,7 +52165,7 @@ _G.pg.item_data_statistics[55504] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55505] = {
+_G.pg.base.item_data_statistics[55505] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52185,7 +52212,7 @@ _G.pg.item_data_statistics[55505] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55506] = {
+_G.pg.base.item_data_statistics[55506] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52232,7 +52259,7 @@ _G.pg.item_data_statistics[55506] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55507] = {
+_G.pg.base.item_data_statistics[55507] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52279,7 +52306,7 @@ _G.pg.item_data_statistics[55507] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55508] = {
+_G.pg.base.item_data_statistics[55508] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52326,7 +52353,7 @@ _G.pg.item_data_statistics[55508] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55509] = {
+_G.pg.base.item_data_statistics[55509] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52373,7 +52400,7 @@ _G.pg.item_data_statistics[55509] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55510] = {
+_G.pg.base.item_data_statistics[55510] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52420,7 +52447,7 @@ _G.pg.item_data_statistics[55510] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55511] = {
+_G.pg.base.item_data_statistics[55511] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52467,7 +52494,7 @@ _G.pg.item_data_statistics[55511] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55512] = {
+_G.pg.base.item_data_statistics[55512] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52514,7 +52541,7 @@ _G.pg.item_data_statistics[55512] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55513] = {
+_G.pg.base.item_data_statistics[55513] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52561,7 +52588,7 @@ _G.pg.item_data_statistics[55513] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55514] = {
+_G.pg.base.item_data_statistics[55514] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52608,7 +52635,7 @@ _G.pg.item_data_statistics[55514] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55515] = {
+_G.pg.base.item_data_statistics[55515] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52655,7 +52682,7 @@ _G.pg.item_data_statistics[55515] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55516] = {
+_G.pg.base.item_data_statistics[55516] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52702,7 +52729,7 @@ _G.pg.item_data_statistics[55516] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55517] = {
+_G.pg.base.item_data_statistics[55517] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52744,7 +52771,7 @@ _G.pg.item_data_statistics[55517] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55518] = {
+_G.pg.base.item_data_statistics[55518] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52786,7 +52813,7 @@ _G.pg.item_data_statistics[55518] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55519] = {
+_G.pg.base.item_data_statistics[55519] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52828,7 +52855,7 @@ _G.pg.item_data_statistics[55519] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55520] = {
+_G.pg.base.item_data_statistics[55520] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52870,7 +52897,7 @@ _G.pg.item_data_statistics[55520] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55521] = {
+_G.pg.base.item_data_statistics[55521] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52912,7 +52939,7 @@ _G.pg.item_data_statistics[55521] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55522] = {
+_G.pg.base.item_data_statistics[55522] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52954,7 +52981,7 @@ _G.pg.item_data_statistics[55522] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55523] = {
+_G.pg.base.item_data_statistics[55523] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -52996,7 +53023,7 @@ _G.pg.item_data_statistics[55523] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55524] = {
+_G.pg.base.item_data_statistics[55524] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53038,7 +53065,7 @@ _G.pg.item_data_statistics[55524] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55525] = {
+_G.pg.base.item_data_statistics[55525] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53080,7 +53107,7 @@ _G.pg.item_data_statistics[55525] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55526] = {
+_G.pg.base.item_data_statistics[55526] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53127,7 +53154,7 @@ _G.pg.item_data_statistics[55526] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55527] = {
+_G.pg.base.item_data_statistics[55527] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53169,7 +53196,7 @@ _G.pg.item_data_statistics[55527] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55528] = {
+_G.pg.base.item_data_statistics[55528] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53211,7 +53238,7 @@ _G.pg.item_data_statistics[55528] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55529] = {
+_G.pg.base.item_data_statistics[55529] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53253,7 +53280,7 @@ _G.pg.item_data_statistics[55529] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55530] = {
+_G.pg.base.item_data_statistics[55530] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53295,7 +53322,7 @@ _G.pg.item_data_statistics[55530] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55531] = {
+_G.pg.base.item_data_statistics[55531] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53337,7 +53364,7 @@ _G.pg.item_data_statistics[55531] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55532] = {
+_G.pg.base.item_data_statistics[55532] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53379,7 +53406,7 @@ _G.pg.item_data_statistics[55532] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55533] = {
+_G.pg.base.item_data_statistics[55533] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53421,7 +53448,7 @@ _G.pg.item_data_statistics[55533] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55534] = {
+_G.pg.base.item_data_statistics[55534] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53463,7 +53490,7 @@ _G.pg.item_data_statistics[55534] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55535] = {
+_G.pg.base.item_data_statistics[55535] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53505,7 +53532,7 @@ _G.pg.item_data_statistics[55535] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55536] = {
+_G.pg.base.item_data_statistics[55536] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53547,7 +53574,7 @@ _G.pg.item_data_statistics[55536] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55537] = {
+_G.pg.base.item_data_statistics[55537] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53589,7 +53616,7 @@ _G.pg.item_data_statistics[55537] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55538] = {
+_G.pg.base.item_data_statistics[55538] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53631,7 +53658,7 @@ _G.pg.item_data_statistics[55538] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55539] = {
+_G.pg.base.item_data_statistics[55539] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53673,7 +53700,7 @@ _G.pg.item_data_statistics[55539] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55540] = {
+_G.pg.base.item_data_statistics[55540] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53715,7 +53742,7 @@ _G.pg.item_data_statistics[55540] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55541] = {
+_G.pg.base.item_data_statistics[55541] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53757,7 +53784,7 @@ _G.pg.item_data_statistics[55541] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55542] = {
+_G.pg.base.item_data_statistics[55542] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53799,7 +53826,7 @@ _G.pg.item_data_statistics[55542] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55543] = {
+_G.pg.base.item_data_statistics[55543] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53841,7 +53868,7 @@ _G.pg.item_data_statistics[55543] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55544] = {
+_G.pg.base.item_data_statistics[55544] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53883,7 +53910,7 @@ _G.pg.item_data_statistics[55544] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55545] = {
+_G.pg.base.item_data_statistics[55545] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53925,7 +53952,7 @@ _G.pg.item_data_statistics[55545] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55546] = {
+_G.pg.base.item_data_statistics[55546] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -53967,7 +53994,7 @@ _G.pg.item_data_statistics[55546] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55547] = {
+_G.pg.base.item_data_statistics[55547] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54009,7 +54036,7 @@ _G.pg.item_data_statistics[55547] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55548] = {
+_G.pg.base.item_data_statistics[55548] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54051,7 +54078,7 @@ _G.pg.item_data_statistics[55548] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55549] = {
+_G.pg.base.item_data_statistics[55549] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54093,7 +54120,7 @@ _G.pg.item_data_statistics[55549] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55550] = {
+_G.pg.base.item_data_statistics[55550] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54135,7 +54162,7 @@ _G.pg.item_data_statistics[55550] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55551] = {
+_G.pg.base.item_data_statistics[55551] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54177,7 +54204,7 @@ _G.pg.item_data_statistics[55551] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55552] = {
+_G.pg.base.item_data_statistics[55552] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54219,7 +54246,7 @@ _G.pg.item_data_statistics[55552] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55553] = {
+_G.pg.base.item_data_statistics[55553] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54261,7 +54288,7 @@ _G.pg.item_data_statistics[55553] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55554] = {
+_G.pg.base.item_data_statistics[55554] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54303,7 +54330,7 @@ _G.pg.item_data_statistics[55554] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55555] = {
+_G.pg.base.item_data_statistics[55555] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54345,7 +54372,7 @@ _G.pg.item_data_statistics[55555] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[55556] = {
+_G.pg.base.item_data_statistics[55556] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -54387,7 +54414,7 @@ _G.pg.item_data_statistics[55556] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56000] = {
+_G.pg.base.item_data_statistics[56000] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -54408,7 +54435,7 @@ _G.pg.item_data_statistics[56000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56001] = {
+_G.pg.base.item_data_statistics[56001] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -54455,7 +54482,7 @@ _G.pg.item_data_statistics[56001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56002] = {
+_G.pg.base.item_data_statistics[56002] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -54522,7 +54549,7 @@ _G.pg.item_data_statistics[56002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56003] = {
+_G.pg.base.item_data_statistics[56003] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -54599,7 +54626,7 @@ _G.pg.item_data_statistics[56003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56004] = {
+_G.pg.base.item_data_statistics[56004] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -54706,7 +54733,7 @@ _G.pg.item_data_statistics[56004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56005] = {
+_G.pg.base.item_data_statistics[56005] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -54833,7 +54860,7 @@ _G.pg.item_data_statistics[56005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56006] = {
+_G.pg.base.item_data_statistics[56006] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -54970,7 +54997,7 @@ _G.pg.item_data_statistics[56006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56007] = {
+_G.pg.base.item_data_statistics[56007] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -55112,7 +55139,7 @@ _G.pg.item_data_statistics[56007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56008] = {
+_G.pg.base.item_data_statistics[56008] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -55259,7 +55286,7 @@ _G.pg.item_data_statistics[56008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56009] = {
+_G.pg.base.item_data_statistics[56009] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -55411,7 +55438,7 @@ _G.pg.item_data_statistics[56009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56010] = {
+_G.pg.base.item_data_statistics[56010] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -55563,7 +55590,7 @@ _G.pg.item_data_statistics[56010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56011] = {
+_G.pg.base.item_data_statistics[56011] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -55715,7 +55742,7 @@ _G.pg.item_data_statistics[56011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56012] = {
+_G.pg.base.item_data_statistics[56012] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -55872,7 +55899,7 @@ _G.pg.item_data_statistics[56012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56013] = {
+_G.pg.base.item_data_statistics[56013] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -56019,7 +56046,7 @@ _G.pg.item_data_statistics[56013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56014] = {
+_G.pg.base.item_data_statistics[56014] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -56166,7 +56193,7 @@ _G.pg.item_data_statistics[56014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56015] = {
+_G.pg.base.item_data_statistics[56015] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -56313,7 +56340,7 @@ _G.pg.item_data_statistics[56015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56016] = {
+_G.pg.base.item_data_statistics[56016] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -56465,7 +56492,7 @@ _G.pg.item_data_statistics[56016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56017] = {
+_G.pg.base.item_data_statistics[56017] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -56617,7 +56644,7 @@ _G.pg.item_data_statistics[56017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56018] = {
+_G.pg.base.item_data_statistics[56018] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -56764,7 +56791,7 @@ _G.pg.item_data_statistics[56018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56019] = {
+_G.pg.base.item_data_statistics[56019] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -56911,7 +56938,7 @@ _G.pg.item_data_statistics[56019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56020] = {
+_G.pg.base.item_data_statistics[56020] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -57063,7 +57090,7 @@ _G.pg.item_data_statistics[56020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56021] = {
+_G.pg.base.item_data_statistics[56021] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -57210,7 +57237,7 @@ _G.pg.item_data_statistics[56021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56022] = {
+_G.pg.base.item_data_statistics[56022] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -57357,7 +57384,7 @@ _G.pg.item_data_statistics[56022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56023] = {
+_G.pg.base.item_data_statistics[56023] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -57504,7 +57531,7 @@ _G.pg.item_data_statistics[56023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56024] = {
+_G.pg.base.item_data_statistics[56024] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -57661,7 +57688,7 @@ _G.pg.item_data_statistics[56024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56025] = {
+_G.pg.base.item_data_statistics[56025] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -57808,7 +57835,7 @@ _G.pg.item_data_statistics[56025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56026] = {
+_G.pg.base.item_data_statistics[56026] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -57955,7 +57982,7 @@ _G.pg.item_data_statistics[56026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56027] = {
+_G.pg.base.item_data_statistics[56027] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -58107,7 +58134,7 @@ _G.pg.item_data_statistics[56027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56028] = {
+_G.pg.base.item_data_statistics[56028] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -58259,7 +58286,7 @@ _G.pg.item_data_statistics[56028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56029] = {
+_G.pg.base.item_data_statistics[56029] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -58411,7 +58438,7 @@ _G.pg.item_data_statistics[56029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56030] = {
+_G.pg.base.item_data_statistics[56030] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -58563,7 +58590,7 @@ _G.pg.item_data_statistics[56030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56031] = {
+_G.pg.base.item_data_statistics[56031] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -58710,7 +58737,7 @@ _G.pg.item_data_statistics[56031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56032] = {
+_G.pg.base.item_data_statistics[56032] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -58867,7 +58894,7 @@ _G.pg.item_data_statistics[56032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56033] = {
+_G.pg.base.item_data_statistics[56033] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -59014,7 +59041,7 @@ _G.pg.item_data_statistics[56033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56034] = {
+_G.pg.base.item_data_statistics[56034] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -59161,7 +59188,7 @@ _G.pg.item_data_statistics[56034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56035] = {
+_G.pg.base.item_data_statistics[56035] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -59313,7 +59340,7 @@ _G.pg.item_data_statistics[56035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56036] = {
+_G.pg.base.item_data_statistics[56036] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -59465,7 +59492,7 @@ _G.pg.item_data_statistics[56036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56037] = {
+_G.pg.base.item_data_statistics[56037] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -59612,7 +59639,7 @@ _G.pg.item_data_statistics[56037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56038] = {
+_G.pg.base.item_data_statistics[56038] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -59759,7 +59786,7 @@ _G.pg.item_data_statistics[56038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56039] = {
+_G.pg.base.item_data_statistics[56039] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -59911,7 +59938,7 @@ _G.pg.item_data_statistics[56039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56040] = {
+_G.pg.base.item_data_statistics[56040] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -60063,7 +60090,7 @@ _G.pg.item_data_statistics[56040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56041] = {
+_G.pg.base.item_data_statistics[56041] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -60210,7 +60237,7 @@ _G.pg.item_data_statistics[56041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56042] = {
+_G.pg.base.item_data_statistics[56042] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -60362,7 +60389,7 @@ _G.pg.item_data_statistics[56042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56043] = {
+_G.pg.base.item_data_statistics[56043] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -60509,7 +60536,7 @@ _G.pg.item_data_statistics[56043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56044] = {
+_G.pg.base.item_data_statistics[56044] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -60661,7 +60688,7 @@ _G.pg.item_data_statistics[56044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56045] = {
+_G.pg.base.item_data_statistics[56045] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -60808,7 +60835,7 @@ _G.pg.item_data_statistics[56045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56046] = {
+_G.pg.base.item_data_statistics[56046] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -60955,7 +60982,7 @@ _G.pg.item_data_statistics[56046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56047] = {
+_G.pg.base.item_data_statistics[56047] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -61102,7 +61129,7 @@ _G.pg.item_data_statistics[56047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56048] = {
+_G.pg.base.item_data_statistics[56048] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -61254,7 +61281,7 @@ _G.pg.item_data_statistics[56048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56049] = {
+_G.pg.base.item_data_statistics[56049] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -61401,7 +61428,7 @@ _G.pg.item_data_statistics[56049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56050] = {
+_G.pg.base.item_data_statistics[56050] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -61548,7 +61575,7 @@ _G.pg.item_data_statistics[56050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56051] = {
+_G.pg.base.item_data_statistics[56051] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -61695,7 +61722,7 @@ _G.pg.item_data_statistics[56051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56052] = {
+_G.pg.base.item_data_statistics[56052] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -61847,7 +61874,7 @@ _G.pg.item_data_statistics[56052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56053] = {
+_G.pg.base.item_data_statistics[56053] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -61994,7 +62021,7 @@ _G.pg.item_data_statistics[56053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56054] = {
+_G.pg.base.item_data_statistics[56054] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -62141,7 +62168,7 @@ _G.pg.item_data_statistics[56054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56055] = {
+_G.pg.base.item_data_statistics[56055] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -62288,7 +62315,7 @@ _G.pg.item_data_statistics[56055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56056] = {
+_G.pg.base.item_data_statistics[56056] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -62440,7 +62467,7 @@ _G.pg.item_data_statistics[56056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56500] = {
+_G.pg.base.item_data_statistics[56500] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -62461,7 +62488,7 @@ _G.pg.item_data_statistics[56500] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56501] = {
+_G.pg.base.item_data_statistics[56501] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -62482,7 +62509,7 @@ _G.pg.item_data_statistics[56501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[56502] = {
+_G.pg.base.item_data_statistics[56502] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -62503,7 +62530,7 @@ _G.pg.item_data_statistics[56502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57001] = {
+_G.pg.base.item_data_statistics[57001] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -62550,7 +62577,7 @@ _G.pg.item_data_statistics[57001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57002] = {
+_G.pg.base.item_data_statistics[57002] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -62597,7 +62624,7 @@ _G.pg.item_data_statistics[57002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57003] = {
+_G.pg.base.item_data_statistics[57003] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -62644,7 +62671,7 @@ _G.pg.item_data_statistics[57003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57011] = {
+_G.pg.base.item_data_statistics[57011] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -62691,7 +62718,7 @@ _G.pg.item_data_statistics[57011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57012] = {
+_G.pg.base.item_data_statistics[57012] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -62738,7 +62765,7 @@ _G.pg.item_data_statistics[57012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57013] = {
+_G.pg.base.item_data_statistics[57013] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -62780,7 +62807,7 @@ _G.pg.item_data_statistics[57013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57021] = {
+_G.pg.base.item_data_statistics[57021] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -62801,7 +62828,7 @@ _G.pg.item_data_statistics[57021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57022] = {
+_G.pg.base.item_data_statistics[57022] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -62938,7 +62965,7 @@ _G.pg.item_data_statistics[57022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57023] = {
+_G.pg.base.item_data_statistics[57023] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -63085,7 +63112,7 @@ _G.pg.item_data_statistics[57023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57031] = {
+_G.pg.base.item_data_statistics[57031] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63132,7 +63159,7 @@ _G.pg.item_data_statistics[57031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57032] = {
+_G.pg.base.item_data_statistics[57032] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63179,7 +63206,7 @@ _G.pg.item_data_statistics[57032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57033] = {
+_G.pg.base.item_data_statistics[57033] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63226,7 +63253,7 @@ _G.pg.item_data_statistics[57033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57034] = {
+_G.pg.base.item_data_statistics[57034] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63273,7 +63300,7 @@ _G.pg.item_data_statistics[57034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57035] = {
+_G.pg.base.item_data_statistics[57035] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63320,7 +63347,7 @@ _G.pg.item_data_statistics[57035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57036] = {
+_G.pg.base.item_data_statistics[57036] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63367,7 +63394,7 @@ _G.pg.item_data_statistics[57036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57037] = {
+_G.pg.base.item_data_statistics[57037] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63414,7 +63441,7 @@ _G.pg.item_data_statistics[57037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57038] = {
+_G.pg.base.item_data_statistics[57038] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63461,7 +63488,7 @@ _G.pg.item_data_statistics[57038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57041] = {
+_G.pg.base.item_data_statistics[57041] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63508,7 +63535,7 @@ _G.pg.item_data_statistics[57041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57042] = {
+_G.pg.base.item_data_statistics[57042] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63555,7 +63582,7 @@ _G.pg.item_data_statistics[57042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57043] = {
+_G.pg.base.item_data_statistics[57043] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63602,7 +63629,7 @@ _G.pg.item_data_statistics[57043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57044] = {
+_G.pg.base.item_data_statistics[57044] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63649,7 +63676,7 @@ _G.pg.item_data_statistics[57044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57045] = {
+_G.pg.base.item_data_statistics[57045] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63696,7 +63723,7 @@ _G.pg.item_data_statistics[57045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57046] = {
+_G.pg.base.item_data_statistics[57046] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63743,7 +63770,7 @@ _G.pg.item_data_statistics[57046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57047] = {
+_G.pg.base.item_data_statistics[57047] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63790,7 +63817,7 @@ _G.pg.item_data_statistics[57047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57048] = {
+_G.pg.base.item_data_statistics[57048] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63837,7 +63864,7 @@ _G.pg.item_data_statistics[57048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57051] = {
+_G.pg.base.item_data_statistics[57051] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63884,7 +63911,7 @@ _G.pg.item_data_statistics[57051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57052] = {
+_G.pg.base.item_data_statistics[57052] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63931,7 +63958,7 @@ _G.pg.item_data_statistics[57052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57053] = {
+_G.pg.base.item_data_statistics[57053] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -63978,7 +64005,7 @@ _G.pg.item_data_statistics[57053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57054] = {
+_G.pg.base.item_data_statistics[57054] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -64025,7 +64052,7 @@ _G.pg.item_data_statistics[57054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57055] = {
+_G.pg.base.item_data_statistics[57055] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -64077,7 +64104,7 @@ _G.pg.item_data_statistics[57055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57056] = {
+_G.pg.base.item_data_statistics[57056] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -64129,7 +64156,7 @@ _G.pg.item_data_statistics[57056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57057] = {
+_G.pg.base.item_data_statistics[57057] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -64181,7 +64208,7 @@ _G.pg.item_data_statistics[57057] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57058] = {
+_G.pg.base.item_data_statistics[57058] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -64233,7 +64260,7 @@ _G.pg.item_data_statistics[57058] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57061] = {
+_G.pg.base.item_data_statistics[57061] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -64355,7 +64382,7 @@ _G.pg.item_data_statistics[57061] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57062] = {
+_G.pg.base.item_data_statistics[57062] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -64477,7 +64504,7 @@ _G.pg.item_data_statistics[57062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57063] = {
+_G.pg.base.item_data_statistics[57063] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -64599,7 +64626,7 @@ _G.pg.item_data_statistics[57063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57064] = {
+_G.pg.base.item_data_statistics[57064] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -64726,7 +64753,7 @@ _G.pg.item_data_statistics[57064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57065] = {
+_G.pg.base.item_data_statistics[57065] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -64853,7 +64880,7 @@ _G.pg.item_data_statistics[57065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57066] = {
+_G.pg.base.item_data_statistics[57066] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -64985,7 +65012,7 @@ _G.pg.item_data_statistics[57066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57067] = {
+_G.pg.base.item_data_statistics[57067] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -65117,7 +65144,7 @@ _G.pg.item_data_statistics[57067] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57068] = {
+_G.pg.base.item_data_statistics[57068] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -65259,7 +65286,7 @@ _G.pg.item_data_statistics[57068] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57071] = {
+_G.pg.base.item_data_statistics[57071] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -65381,7 +65408,7 @@ _G.pg.item_data_statistics[57071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57072] = {
+_G.pg.base.item_data_statistics[57072] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -65503,7 +65530,7 @@ _G.pg.item_data_statistics[57072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57073] = {
+_G.pg.base.item_data_statistics[57073] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -65625,7 +65652,7 @@ _G.pg.item_data_statistics[57073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57074] = {
+_G.pg.base.item_data_statistics[57074] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -65757,7 +65784,7 @@ _G.pg.item_data_statistics[57074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57075] = {
+_G.pg.base.item_data_statistics[57075] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -65889,7 +65916,7 @@ _G.pg.item_data_statistics[57075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57076] = {
+_G.pg.base.item_data_statistics[57076] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -66026,7 +66053,7 @@ _G.pg.item_data_statistics[57076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57077] = {
+_G.pg.base.item_data_statistics[57077] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -66168,7 +66195,7 @@ _G.pg.item_data_statistics[57077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57078] = {
+_G.pg.base.item_data_statistics[57078] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -66320,7 +66347,7 @@ _G.pg.item_data_statistics[57078] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57111] = {
+_G.pg.base.item_data_statistics[57111] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66367,7 +66394,7 @@ _G.pg.item_data_statistics[57111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57112] = {
+_G.pg.base.item_data_statistics[57112] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66414,7 +66441,7 @@ _G.pg.item_data_statistics[57112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57113] = {
+_G.pg.base.item_data_statistics[57113] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66461,7 +66488,7 @@ _G.pg.item_data_statistics[57113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57114] = {
+_G.pg.base.item_data_statistics[57114] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66503,7 +66530,7 @@ _G.pg.item_data_statistics[57114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57115] = {
+_G.pg.base.item_data_statistics[57115] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66545,7 +66572,7 @@ _G.pg.item_data_statistics[57115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57116] = {
+_G.pg.base.item_data_statistics[57116] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66587,7 +66614,7 @@ _G.pg.item_data_statistics[57116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57121] = {
+_G.pg.base.item_data_statistics[57121] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66634,7 +66661,7 @@ _G.pg.item_data_statistics[57121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57122] = {
+_G.pg.base.item_data_statistics[57122] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66681,7 +66708,7 @@ _G.pg.item_data_statistics[57122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57123] = {
+_G.pg.base.item_data_statistics[57123] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66728,7 +66755,7 @@ _G.pg.item_data_statistics[57123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57124] = {
+_G.pg.base.item_data_statistics[57124] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66765,7 +66792,7 @@ _G.pg.item_data_statistics[57124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57125] = {
+_G.pg.base.item_data_statistics[57125] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66802,7 +66829,7 @@ _G.pg.item_data_statistics[57125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57126] = {
+_G.pg.base.item_data_statistics[57126] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -66839,7 +66866,7 @@ _G.pg.item_data_statistics[57126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57131] = {
+_G.pg.base.item_data_statistics[57131] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -66971,7 +66998,7 @@ _G.pg.item_data_statistics[57131] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57132] = {
+_G.pg.base.item_data_statistics[57132] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -67103,7 +67130,7 @@ _G.pg.item_data_statistics[57132] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57133] = {
+_G.pg.base.item_data_statistics[57133] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -67245,7 +67272,7 @@ _G.pg.item_data_statistics[57133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57134] = {
+_G.pg.base.item_data_statistics[57134] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -67377,7 +67404,7 @@ _G.pg.item_data_statistics[57134] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57135] = {
+_G.pg.base.item_data_statistics[57135] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -67509,7 +67536,7 @@ _G.pg.item_data_statistics[57135] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57136] = {
+_G.pg.base.item_data_statistics[57136] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -67651,7 +67678,7 @@ _G.pg.item_data_statistics[57136] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57141] = {
+_G.pg.base.item_data_statistics[57141] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -67698,7 +67725,7 @@ _G.pg.item_data_statistics[57141] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57142] = {
+_G.pg.base.item_data_statistics[57142] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -67745,7 +67772,7 @@ _G.pg.item_data_statistics[57142] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57143] = {
+_G.pg.base.item_data_statistics[57143] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -67792,7 +67819,7 @@ _G.pg.item_data_statistics[57143] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57144] = {
+_G.pg.base.item_data_statistics[57144] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -67839,7 +67866,7 @@ _G.pg.item_data_statistics[57144] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57145] = {
+_G.pg.base.item_data_statistics[57145] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -67886,7 +67913,7 @@ _G.pg.item_data_statistics[57145] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57146] = {
+_G.pg.base.item_data_statistics[57146] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -67933,7 +67960,7 @@ _G.pg.item_data_statistics[57146] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57151] = {
+_G.pg.base.item_data_statistics[57151] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -67975,7 +68002,7 @@ _G.pg.item_data_statistics[57151] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57152] = {
+_G.pg.base.item_data_statistics[57152] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -68017,7 +68044,7 @@ _G.pg.item_data_statistics[57152] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57153] = {
+_G.pg.base.item_data_statistics[57153] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -68059,7 +68086,7 @@ _G.pg.item_data_statistics[57153] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57154] = {
+_G.pg.base.item_data_statistics[57154] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -68096,7 +68123,7 @@ _G.pg.item_data_statistics[57154] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57155] = {
+_G.pg.base.item_data_statistics[57155] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -68133,7 +68160,7 @@ _G.pg.item_data_statistics[57155] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57156] = {
+_G.pg.base.item_data_statistics[57156] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -68170,7 +68197,7 @@ _G.pg.item_data_statistics[57156] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57161] = {
+_G.pg.base.item_data_statistics[57161] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -68302,7 +68329,7 @@ _G.pg.item_data_statistics[57161] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57162] = {
+_G.pg.base.item_data_statistics[57162] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -68434,7 +68461,7 @@ _G.pg.item_data_statistics[57162] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57163] = {
+_G.pg.base.item_data_statistics[57163] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -68576,7 +68603,7 @@ _G.pg.item_data_statistics[57163] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57164] = {
+_G.pg.base.item_data_statistics[57164] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -68713,7 +68740,7 @@ _G.pg.item_data_statistics[57164] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57165] = {
+_G.pg.base.item_data_statistics[57165] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -68850,7 +68877,7 @@ _G.pg.item_data_statistics[57165] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57166] = {
+_G.pg.base.item_data_statistics[57166] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -68992,7 +69019,7 @@ _G.pg.item_data_statistics[57166] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57171] = {
+_G.pg.base.item_data_statistics[57171] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69039,7 +69066,7 @@ _G.pg.item_data_statistics[57171] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57172] = {
+_G.pg.base.item_data_statistics[57172] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69086,7 +69113,7 @@ _G.pg.item_data_statistics[57172] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57173] = {
+_G.pg.base.item_data_statistics[57173] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69133,7 +69160,7 @@ _G.pg.item_data_statistics[57173] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57174] = {
+_G.pg.base.item_data_statistics[57174] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69175,7 +69202,7 @@ _G.pg.item_data_statistics[57174] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57175] = {
+_G.pg.base.item_data_statistics[57175] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69217,7 +69244,7 @@ _G.pg.item_data_statistics[57175] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57176] = {
+_G.pg.base.item_data_statistics[57176] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69259,7 +69286,7 @@ _G.pg.item_data_statistics[57176] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57177] = {
+_G.pg.base.item_data_statistics[57177] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -69391,7 +69418,7 @@ _G.pg.item_data_statistics[57177] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57178] = {
+_G.pg.base.item_data_statistics[57178] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -69528,7 +69555,7 @@ _G.pg.item_data_statistics[57178] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57179] = {
+_G.pg.base.item_data_statistics[57179] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -69665,7 +69692,7 @@ _G.pg.item_data_statistics[57179] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57181] = {
+_G.pg.base.item_data_statistics[57181] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69712,7 +69739,7 @@ _G.pg.item_data_statistics[57181] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57182] = {
+_G.pg.base.item_data_statistics[57182] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69759,7 +69786,7 @@ _G.pg.item_data_statistics[57182] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57183] = {
+_G.pg.base.item_data_statistics[57183] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69806,7 +69833,7 @@ _G.pg.item_data_statistics[57183] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57184] = {
+_G.pg.base.item_data_statistics[57184] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69853,7 +69880,7 @@ _G.pg.item_data_statistics[57184] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57185] = {
+_G.pg.base.item_data_statistics[57185] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69900,7 +69927,7 @@ _G.pg.item_data_statistics[57185] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57186] = {
+_G.pg.base.item_data_statistics[57186] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69947,7 +69974,7 @@ _G.pg.item_data_statistics[57186] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57191] = {
+_G.pg.base.item_data_statistics[57191] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -69994,7 +70021,7 @@ _G.pg.item_data_statistics[57191] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57192] = {
+_G.pg.base.item_data_statistics[57192] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -70041,7 +70068,7 @@ _G.pg.item_data_statistics[57192] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57193] = {
+_G.pg.base.item_data_statistics[57193] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -70088,7 +70115,7 @@ _G.pg.item_data_statistics[57193] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57194] = {
+_G.pg.base.item_data_statistics[57194] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -70135,7 +70162,7 @@ _G.pg.item_data_statistics[57194] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57195] = {
+_G.pg.base.item_data_statistics[57195] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -70182,7 +70209,7 @@ _G.pg.item_data_statistics[57195] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57196] = {
+_G.pg.base.item_data_statistics[57196] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -70229,7 +70256,7 @@ _G.pg.item_data_statistics[57196] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57201] = {
+_G.pg.base.item_data_statistics[57201] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -70361,7 +70388,7 @@ _G.pg.item_data_statistics[57201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57202] = {
+_G.pg.base.item_data_statistics[57202] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -70493,7 +70520,7 @@ _G.pg.item_data_statistics[57202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57203] = {
+_G.pg.base.item_data_statistics[57203] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -70630,7 +70657,7 @@ _G.pg.item_data_statistics[57203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57204] = {
+_G.pg.base.item_data_statistics[57204] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -70767,7 +70794,7 @@ _G.pg.item_data_statistics[57204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57205] = {
+_G.pg.base.item_data_statistics[57205] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -70904,7 +70931,7 @@ _G.pg.item_data_statistics[57205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57206] = {
+_G.pg.base.item_data_statistics[57206] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -71041,7 +71068,7 @@ _G.pg.item_data_statistics[57206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57211] = {
+_G.pg.base.item_data_statistics[57211] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71088,7 +71115,7 @@ _G.pg.item_data_statistics[57211] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57212] = {
+_G.pg.base.item_data_statistics[57212] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71135,7 +71162,7 @@ _G.pg.item_data_statistics[57212] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57213] = {
+_G.pg.base.item_data_statistics[57213] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71182,7 +71209,7 @@ _G.pg.item_data_statistics[57213] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57214] = {
+_G.pg.base.item_data_statistics[57214] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71229,7 +71256,7 @@ _G.pg.item_data_statistics[57214] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57215] = {
+_G.pg.base.item_data_statistics[57215] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71276,7 +71303,7 @@ _G.pg.item_data_statistics[57215] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57216] = {
+_G.pg.base.item_data_statistics[57216] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71323,7 +71350,7 @@ _G.pg.item_data_statistics[57216] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57221] = {
+_G.pg.base.item_data_statistics[57221] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71365,7 +71392,7 @@ _G.pg.item_data_statistics[57221] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57222] = {
+_G.pg.base.item_data_statistics[57222] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71407,7 +71434,7 @@ _G.pg.item_data_statistics[57222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57223] = {
+_G.pg.base.item_data_statistics[57223] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71449,7 +71476,7 @@ _G.pg.item_data_statistics[57223] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57224] = {
+_G.pg.base.item_data_statistics[57224] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71491,7 +71518,7 @@ _G.pg.item_data_statistics[57224] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57225] = {
+_G.pg.base.item_data_statistics[57225] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71533,7 +71560,7 @@ _G.pg.item_data_statistics[57225] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57226] = {
+_G.pg.base.item_data_statistics[57226] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -71570,7 +71597,7 @@ _G.pg.item_data_statistics[57226] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57231] = {
+_G.pg.base.item_data_statistics[57231] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -71702,7 +71729,7 @@ _G.pg.item_data_statistics[57231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57232] = {
+_G.pg.base.item_data_statistics[57232] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -71834,7 +71861,7 @@ _G.pg.item_data_statistics[57232] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57233] = {
+_G.pg.base.item_data_statistics[57233] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -71971,7 +71998,7 @@ _G.pg.item_data_statistics[57233] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57234] = {
+_G.pg.base.item_data_statistics[57234] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -72113,7 +72140,7 @@ _G.pg.item_data_statistics[57234] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57235] = {
+_G.pg.base.item_data_statistics[57235] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -72255,7 +72282,7 @@ _G.pg.item_data_statistics[57235] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57236] = {
+_G.pg.base.item_data_statistics[57236] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -72397,7 +72424,7 @@ _G.pg.item_data_statistics[57236] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57241] = {
+_G.pg.base.item_data_statistics[57241] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -72444,7 +72471,7 @@ _G.pg.item_data_statistics[57241] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57242] = {
+_G.pg.base.item_data_statistics[57242] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -72491,7 +72518,7 @@ _G.pg.item_data_statistics[57242] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57243] = {
+_G.pg.base.item_data_statistics[57243] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -72538,7 +72565,7 @@ _G.pg.item_data_statistics[57243] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57244] = {
+_G.pg.base.item_data_statistics[57244] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -72585,7 +72612,7 @@ _G.pg.item_data_statistics[57244] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57245] = {
+_G.pg.base.item_data_statistics[57245] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -72627,7 +72654,7 @@ _G.pg.item_data_statistics[57245] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57246] = {
+_G.pg.base.item_data_statistics[57246] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -72669,7 +72696,7 @@ _G.pg.item_data_statistics[57246] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57247] = {
+_G.pg.base.item_data_statistics[57247] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -72801,7 +72828,7 @@ _G.pg.item_data_statistics[57247] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57248] = {
+_G.pg.base.item_data_statistics[57248] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -72933,7 +72960,7 @@ _G.pg.item_data_statistics[57248] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57249] = {
+_G.pg.base.item_data_statistics[57249] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -73065,7 +73092,7 @@ _G.pg.item_data_statistics[57249] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57251] = {
+_G.pg.base.item_data_statistics[57251] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -73112,7 +73139,7 @@ _G.pg.item_data_statistics[57251] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57252] = {
+_G.pg.base.item_data_statistics[57252] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -73159,7 +73186,7 @@ _G.pg.item_data_statistics[57252] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57253] = {
+_G.pg.base.item_data_statistics[57253] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -73206,7 +73233,7 @@ _G.pg.item_data_statistics[57253] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57254] = {
+_G.pg.base.item_data_statistics[57254] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -73253,7 +73280,7 @@ _G.pg.item_data_statistics[57254] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57255] = {
+_G.pg.base.item_data_statistics[57255] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -73300,7 +73327,7 @@ _G.pg.item_data_statistics[57255] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57256] = {
+_G.pg.base.item_data_statistics[57256] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -73347,7 +73374,7 @@ _G.pg.item_data_statistics[57256] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57257] = {
+_G.pg.base.item_data_statistics[57257] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -73394,7 +73421,7 @@ _G.pg.item_data_statistics[57257] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57258] = {
+_G.pg.base.item_data_statistics[57258] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -73436,7 +73463,7 @@ _G.pg.item_data_statistics[57258] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57259] = {
+_G.pg.base.item_data_statistics[57259] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -73568,7 +73595,7 @@ _G.pg.item_data_statistics[57259] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57260] = {
+_G.pg.base.item_data_statistics[57260] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -73700,7 +73727,7 @@ _G.pg.item_data_statistics[57260] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57261] = {
+_G.pg.base.item_data_statistics[57261] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -73832,7 +73859,7 @@ _G.pg.item_data_statistics[57261] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57262] = {
+_G.pg.base.item_data_statistics[57262] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -73964,7 +73991,7 @@ _G.pg.item_data_statistics[57262] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57263] = {
+_G.pg.base.item_data_statistics[57263] = {
 	display = "일정 확률로 아래의 넵튠 콜라보레이션 장비 스킨 중 하나를 획득",
 	name = "장비 스킨 상자 (넵튠)",
 	max_num = 0,
@@ -74061,7 +74088,7 @@ _G.pg.item_data_statistics[57263] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57271] = {
+_G.pg.base.item_data_statistics[57271] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74108,7 +74135,7 @@ _G.pg.item_data_statistics[57271] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57272] = {
+_G.pg.base.item_data_statistics[57272] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74155,7 +74182,7 @@ _G.pg.item_data_statistics[57272] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57273] = {
+_G.pg.base.item_data_statistics[57273] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74202,7 +74229,7 @@ _G.pg.item_data_statistics[57273] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57274] = {
+_G.pg.base.item_data_statistics[57274] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74249,7 +74276,7 @@ _G.pg.item_data_statistics[57274] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57275] = {
+_G.pg.base.item_data_statistics[57275] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74296,7 +74323,7 @@ _G.pg.item_data_statistics[57275] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57276] = {
+_G.pg.base.item_data_statistics[57276] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74343,7 +74370,7 @@ _G.pg.item_data_statistics[57276] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57281] = {
+_G.pg.base.item_data_statistics[57281] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74390,7 +74417,7 @@ _G.pg.item_data_statistics[57281] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57282] = {
+_G.pg.base.item_data_statistics[57282] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74437,7 +74464,7 @@ _G.pg.item_data_statistics[57282] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57283] = {
+_G.pg.base.item_data_statistics[57283] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74484,7 +74511,7 @@ _G.pg.item_data_statistics[57283] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57284] = {
+_G.pg.base.item_data_statistics[57284] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74531,7 +74558,7 @@ _G.pg.item_data_statistics[57284] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57285] = {
+_G.pg.base.item_data_statistics[57285] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74578,7 +74605,7 @@ _G.pg.item_data_statistics[57285] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57286] = {
+_G.pg.base.item_data_statistics[57286] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -74625,7 +74652,7 @@ _G.pg.item_data_statistics[57286] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57291] = {
+_G.pg.base.item_data_statistics[57291] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -74757,7 +74784,7 @@ _G.pg.item_data_statistics[57291] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57292] = {
+_G.pg.base.item_data_statistics[57292] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -74889,7 +74916,7 @@ _G.pg.item_data_statistics[57292] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57293] = {
+_G.pg.base.item_data_statistics[57293] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -75026,7 +75053,7 @@ _G.pg.item_data_statistics[57293] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57294] = {
+_G.pg.base.item_data_statistics[57294] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -75163,7 +75190,7 @@ _G.pg.item_data_statistics[57294] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57295] = {
+_G.pg.base.item_data_statistics[57295] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -75300,7 +75327,7 @@ _G.pg.item_data_statistics[57295] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57296] = {
+_G.pg.base.item_data_statistics[57296] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -75437,7 +75464,7 @@ _G.pg.item_data_statistics[57296] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57301] = {
+_G.pg.base.item_data_statistics[57301] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75484,7 +75511,7 @@ _G.pg.item_data_statistics[57301] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57302] = {
+_G.pg.base.item_data_statistics[57302] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75531,7 +75558,7 @@ _G.pg.item_data_statistics[57302] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57303] = {
+_G.pg.base.item_data_statistics[57303] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75578,7 +75605,7 @@ _G.pg.item_data_statistics[57303] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57304] = {
+_G.pg.base.item_data_statistics[57304] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75625,7 +75652,7 @@ _G.pg.item_data_statistics[57304] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57305] = {
+_G.pg.base.item_data_statistics[57305] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75672,7 +75699,7 @@ _G.pg.item_data_statistics[57305] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57306] = {
+_G.pg.base.item_data_statistics[57306] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75719,7 +75746,7 @@ _G.pg.item_data_statistics[57306] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57311] = {
+_G.pg.base.item_data_statistics[57311] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75761,7 +75788,7 @@ _G.pg.item_data_statistics[57311] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57312] = {
+_G.pg.base.item_data_statistics[57312] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75803,7 +75830,7 @@ _G.pg.item_data_statistics[57312] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57313] = {
+_G.pg.base.item_data_statistics[57313] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75845,7 +75872,7 @@ _G.pg.item_data_statistics[57313] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57314] = {
+_G.pg.base.item_data_statistics[57314] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75887,7 +75914,7 @@ _G.pg.item_data_statistics[57314] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57315] = {
+_G.pg.base.item_data_statistics[57315] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75929,7 +75956,7 @@ _G.pg.item_data_statistics[57315] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57316] = {
+_G.pg.base.item_data_statistics[57316] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -75966,7 +75993,7 @@ _G.pg.item_data_statistics[57316] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57321] = {
+_G.pg.base.item_data_statistics[57321] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -76098,7 +76125,7 @@ _G.pg.item_data_statistics[57321] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57322] = {
+_G.pg.base.item_data_statistics[57322] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -76230,7 +76257,7 @@ _G.pg.item_data_statistics[57322] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57323] = {
+_G.pg.base.item_data_statistics[57323] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -76367,7 +76394,7 @@ _G.pg.item_data_statistics[57323] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57324] = {
+_G.pg.base.item_data_statistics[57324] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -76504,7 +76531,7 @@ _G.pg.item_data_statistics[57324] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57325] = {
+_G.pg.base.item_data_statistics[57325] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -76646,7 +76673,7 @@ _G.pg.item_data_statistics[57325] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57326] = {
+_G.pg.base.item_data_statistics[57326] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -76793,7 +76820,7 @@ _G.pg.item_data_statistics[57326] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57331] = {
+_G.pg.base.item_data_statistics[57331] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -76840,7 +76867,7 @@ _G.pg.item_data_statistics[57331] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57332] = {
+_G.pg.base.item_data_statistics[57332] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -76887,7 +76914,7 @@ _G.pg.item_data_statistics[57332] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57333] = {
+_G.pg.base.item_data_statistics[57333] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -76934,7 +76961,7 @@ _G.pg.item_data_statistics[57333] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57334] = {
+_G.pg.base.item_data_statistics[57334] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -76981,7 +77008,7 @@ _G.pg.item_data_statistics[57334] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57335] = {
+_G.pg.base.item_data_statistics[57335] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -77028,7 +77055,7 @@ _G.pg.item_data_statistics[57335] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57336] = {
+_G.pg.base.item_data_statistics[57336] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -77075,7 +77102,7 @@ _G.pg.item_data_statistics[57336] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57341] = {
+_G.pg.base.item_data_statistics[57341] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -77122,7 +77149,7 @@ _G.pg.item_data_statistics[57341] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57342] = {
+_G.pg.base.item_data_statistics[57342] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -77169,7 +77196,7 @@ _G.pg.item_data_statistics[57342] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57343] = {
+_G.pg.base.item_data_statistics[57343] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -77216,7 +77243,7 @@ _G.pg.item_data_statistics[57343] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57344] = {
+_G.pg.base.item_data_statistics[57344] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -77263,7 +77290,7 @@ _G.pg.item_data_statistics[57344] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57345] = {
+_G.pg.base.item_data_statistics[57345] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -77310,7 +77337,7 @@ _G.pg.item_data_statistics[57345] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57346] = {
+_G.pg.base.item_data_statistics[57346] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -77357,7 +77384,7 @@ _G.pg.item_data_statistics[57346] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57351] = {
+_G.pg.base.item_data_statistics[57351] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -77489,7 +77516,7 @@ _G.pg.item_data_statistics[57351] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57352] = {
+_G.pg.base.item_data_statistics[57352] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -77621,7 +77648,7 @@ _G.pg.item_data_statistics[57352] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57353] = {
+_G.pg.base.item_data_statistics[57353] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -77753,7 +77780,7 @@ _G.pg.item_data_statistics[57353] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57354] = {
+_G.pg.base.item_data_statistics[57354] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -77890,7 +77917,7 @@ _G.pg.item_data_statistics[57354] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57355] = {
+_G.pg.base.item_data_statistics[57355] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -78027,7 +78054,7 @@ _G.pg.item_data_statistics[57355] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57356] = {
+_G.pg.base.item_data_statistics[57356] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -78164,7 +78191,7 @@ _G.pg.item_data_statistics[57356] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57361] = {
+_G.pg.base.item_data_statistics[57361] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78211,7 +78238,7 @@ _G.pg.item_data_statistics[57361] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57362] = {
+_G.pg.base.item_data_statistics[57362] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78258,7 +78285,7 @@ _G.pg.item_data_statistics[57362] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57363] = {
+_G.pg.base.item_data_statistics[57363] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78305,7 +78332,7 @@ _G.pg.item_data_statistics[57363] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57364] = {
+_G.pg.base.item_data_statistics[57364] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78352,7 +78379,7 @@ _G.pg.item_data_statistics[57364] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57365] = {
+_G.pg.base.item_data_statistics[57365] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78399,7 +78426,7 @@ _G.pg.item_data_statistics[57365] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57366] = {
+_G.pg.base.item_data_statistics[57366] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78446,7 +78473,7 @@ _G.pg.item_data_statistics[57366] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57371] = {
+_G.pg.base.item_data_statistics[57371] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78488,7 +78515,7 @@ _G.pg.item_data_statistics[57371] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57372] = {
+_G.pg.base.item_data_statistics[57372] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78530,7 +78557,7 @@ _G.pg.item_data_statistics[57372] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57373] = {
+_G.pg.base.item_data_statistics[57373] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78572,7 +78599,7 @@ _G.pg.item_data_statistics[57373] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57374] = {
+_G.pg.base.item_data_statistics[57374] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78614,7 +78641,7 @@ _G.pg.item_data_statistics[57374] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57375] = {
+_G.pg.base.item_data_statistics[57375] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78656,7 +78683,7 @@ _G.pg.item_data_statistics[57375] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57376] = {
+_G.pg.base.item_data_statistics[57376] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -78698,7 +78725,7 @@ _G.pg.item_data_statistics[57376] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57381] = {
+_G.pg.base.item_data_statistics[57381] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -78830,7 +78857,7 @@ _G.pg.item_data_statistics[57381] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57382] = {
+_G.pg.base.item_data_statistics[57382] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -78962,7 +78989,7 @@ _G.pg.item_data_statistics[57382] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57383] = {
+_G.pg.base.item_data_statistics[57383] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -79094,7 +79121,7 @@ _G.pg.item_data_statistics[57383] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57384] = {
+_G.pg.base.item_data_statistics[57384] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -79231,7 +79258,7 @@ _G.pg.item_data_statistics[57384] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57385] = {
+_G.pg.base.item_data_statistics[57385] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -79373,7 +79400,7 @@ _G.pg.item_data_statistics[57385] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57386] = {
+_G.pg.base.item_data_statistics[57386] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -79520,7 +79547,7 @@ _G.pg.item_data_statistics[57386] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57391] = {
+_G.pg.base.item_data_statistics[57391] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -79567,7 +79594,7 @@ _G.pg.item_data_statistics[57391] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57392] = {
+_G.pg.base.item_data_statistics[57392] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -79614,7 +79641,7 @@ _G.pg.item_data_statistics[57392] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57393] = {
+_G.pg.base.item_data_statistics[57393] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -79661,7 +79688,7 @@ _G.pg.item_data_statistics[57393] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57394] = {
+_G.pg.base.item_data_statistics[57394] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -79708,7 +79735,7 @@ _G.pg.item_data_statistics[57394] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57395] = {
+_G.pg.base.item_data_statistics[57395] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -79750,7 +79777,7 @@ _G.pg.item_data_statistics[57395] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57396] = {
+_G.pg.base.item_data_statistics[57396] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -79792,7 +79819,7 @@ _G.pg.item_data_statistics[57396] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57397] = {
+_G.pg.base.item_data_statistics[57397] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -79924,7 +79951,7 @@ _G.pg.item_data_statistics[57397] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57398] = {
+_G.pg.base.item_data_statistics[57398] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -80056,7 +80083,7 @@ _G.pg.item_data_statistics[57398] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57399] = {
+_G.pg.base.item_data_statistics[57399] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -80188,7 +80215,7 @@ _G.pg.item_data_statistics[57399] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57401] = {
+_G.pg.base.item_data_statistics[57401] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80235,7 +80262,7 @@ _G.pg.item_data_statistics[57401] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57402] = {
+_G.pg.base.item_data_statistics[57402] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80282,7 +80309,7 @@ _G.pg.item_data_statistics[57402] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57403] = {
+_G.pg.base.item_data_statistics[57403] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80329,7 +80356,7 @@ _G.pg.item_data_statistics[57403] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57404] = {
+_G.pg.base.item_data_statistics[57404] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80376,7 +80403,7 @@ _G.pg.item_data_statistics[57404] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57405] = {
+_G.pg.base.item_data_statistics[57405] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80423,7 +80450,7 @@ _G.pg.item_data_statistics[57405] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57406] = {
+_G.pg.base.item_data_statistics[57406] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80470,7 +80497,7 @@ _G.pg.item_data_statistics[57406] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57411] = {
+_G.pg.base.item_data_statistics[57411] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80517,7 +80544,7 @@ _G.pg.item_data_statistics[57411] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57412] = {
+_G.pg.base.item_data_statistics[57412] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80564,7 +80591,7 @@ _G.pg.item_data_statistics[57412] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57413] = {
+_G.pg.base.item_data_statistics[57413] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80611,7 +80638,7 @@ _G.pg.item_data_statistics[57413] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57414] = {
+_G.pg.base.item_data_statistics[57414] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80658,7 +80685,7 @@ _G.pg.item_data_statistics[57414] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57415] = {
+_G.pg.base.item_data_statistics[57415] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80705,7 +80732,7 @@ _G.pg.item_data_statistics[57415] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57416] = {
+_G.pg.base.item_data_statistics[57416] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -80752,7 +80779,7 @@ _G.pg.item_data_statistics[57416] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57421] = {
+_G.pg.base.item_data_statistics[57421] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -80884,7 +80911,7 @@ _G.pg.item_data_statistics[57421] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57422] = {
+_G.pg.base.item_data_statistics[57422] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -81016,7 +81043,7 @@ _G.pg.item_data_statistics[57422] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57423] = {
+_G.pg.base.item_data_statistics[57423] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -81153,7 +81180,7 @@ _G.pg.item_data_statistics[57423] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57424] = {
+_G.pg.base.item_data_statistics[57424] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -81285,7 +81312,7 @@ _G.pg.item_data_statistics[57424] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57425] = {
+_G.pg.base.item_data_statistics[57425] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -81422,7 +81449,7 @@ _G.pg.item_data_statistics[57425] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57426] = {
+_G.pg.base.item_data_statistics[57426] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -81559,7 +81586,7 @@ _G.pg.item_data_statistics[57426] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57431] = {
+_G.pg.base.item_data_statistics[57431] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -81606,7 +81633,7 @@ _G.pg.item_data_statistics[57431] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57432] = {
+_G.pg.base.item_data_statistics[57432] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -81653,7 +81680,7 @@ _G.pg.item_data_statistics[57432] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57433] = {
+_G.pg.base.item_data_statistics[57433] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -81700,7 +81727,7 @@ _G.pg.item_data_statistics[57433] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57434] = {
+_G.pg.base.item_data_statistics[57434] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -81747,7 +81774,7 @@ _G.pg.item_data_statistics[57434] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57435] = {
+_G.pg.base.item_data_statistics[57435] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -81794,7 +81821,7 @@ _G.pg.item_data_statistics[57435] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57436] = {
+_G.pg.base.item_data_statistics[57436] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -81841,7 +81868,7 @@ _G.pg.item_data_statistics[57436] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57441] = {
+_G.pg.base.item_data_statistics[57441] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -81883,7 +81910,7 @@ _G.pg.item_data_statistics[57441] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57442] = {
+_G.pg.base.item_data_statistics[57442] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -81925,7 +81952,7 @@ _G.pg.item_data_statistics[57442] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57443] = {
+_G.pg.base.item_data_statistics[57443] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -81967,7 +81994,7 @@ _G.pg.item_data_statistics[57443] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57444] = {
+_G.pg.base.item_data_statistics[57444] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -82009,7 +82036,7 @@ _G.pg.item_data_statistics[57444] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57445] = {
+_G.pg.base.item_data_statistics[57445] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -82051,7 +82078,7 @@ _G.pg.item_data_statistics[57445] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57446] = {
+_G.pg.base.item_data_statistics[57446] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -82093,7 +82120,7 @@ _G.pg.item_data_statistics[57446] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57451] = {
+_G.pg.base.item_data_statistics[57451] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -82225,7 +82252,7 @@ _G.pg.item_data_statistics[57451] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57452] = {
+_G.pg.base.item_data_statistics[57452] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -82357,7 +82384,7 @@ _G.pg.item_data_statistics[57452] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57453] = {
+_G.pg.base.item_data_statistics[57453] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -82494,7 +82521,7 @@ _G.pg.item_data_statistics[57453] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57454] = {
+_G.pg.base.item_data_statistics[57454] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -82626,7 +82653,7 @@ _G.pg.item_data_statistics[57454] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57455] = {
+_G.pg.base.item_data_statistics[57455] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -82763,7 +82790,7 @@ _G.pg.item_data_statistics[57455] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57456] = {
+_G.pg.base.item_data_statistics[57456] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -82905,7 +82932,7 @@ _G.pg.item_data_statistics[57456] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57461] = {
+_G.pg.base.item_data_statistics[57461] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -82952,7 +82979,7 @@ _G.pg.item_data_statistics[57461] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57462] = {
+_G.pg.base.item_data_statistics[57462] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -82999,7 +83026,7 @@ _G.pg.item_data_statistics[57462] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57463] = {
+_G.pg.base.item_data_statistics[57463] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -83046,7 +83073,7 @@ _G.pg.item_data_statistics[57463] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57471] = {
+_G.pg.base.item_data_statistics[57471] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -83093,7 +83120,7 @@ _G.pg.item_data_statistics[57471] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57472] = {
+_G.pg.base.item_data_statistics[57472] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -83140,7 +83167,7 @@ _G.pg.item_data_statistics[57472] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57473] = {
+_G.pg.base.item_data_statistics[57473] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -83187,7 +83214,7 @@ _G.pg.item_data_statistics[57473] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57474] = {
+_G.pg.base.item_data_statistics[57474] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -83234,7 +83261,7 @@ _G.pg.item_data_statistics[57474] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57475] = {
+_G.pg.base.item_data_statistics[57475] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -83281,7 +83308,7 @@ _G.pg.item_data_statistics[57475] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57476] = {
+_G.pg.base.item_data_statistics[57476] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -83328,7 +83355,7 @@ _G.pg.item_data_statistics[57476] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57477] = {
+_G.pg.base.item_data_statistics[57477] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -83375,7 +83402,7 @@ _G.pg.item_data_statistics[57477] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57478] = {
+_G.pg.base.item_data_statistics[57478] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -83417,7 +83444,7 @@ _G.pg.item_data_statistics[57478] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57479] = {
+_G.pg.base.item_data_statistics[57479] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -83549,7 +83576,7 @@ _G.pg.item_data_statistics[57479] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57480] = {
+_G.pg.base.item_data_statistics[57480] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -83681,7 +83708,7 @@ _G.pg.item_data_statistics[57480] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57481] = {
+_G.pg.base.item_data_statistics[57481] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -83813,7 +83840,7 @@ _G.pg.item_data_statistics[57481] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57482] = {
+_G.pg.base.item_data_statistics[57482] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -83945,7 +83972,7 @@ _G.pg.item_data_statistics[57482] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57483] = {
+_G.pg.base.item_data_statistics[57483] = {
 	display = "일정 확률로 하기 장비 스킨 상자를 입수할 수 있습니다. ",
 	name = "장비 스킨 상자 (칭송받는 자) ",
 	max_num = 0,
@@ -84057,7 +84084,7 @@ _G.pg.item_data_statistics[57483] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57491] = {
+_G.pg.base.item_data_statistics[57491] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84104,7 +84131,7 @@ _G.pg.item_data_statistics[57491] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57492] = {
+_G.pg.base.item_data_statistics[57492] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84151,7 +84178,7 @@ _G.pg.item_data_statistics[57492] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57493] = {
+_G.pg.base.item_data_statistics[57493] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84198,7 +84225,7 @@ _G.pg.item_data_statistics[57493] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57494] = {
+_G.pg.base.item_data_statistics[57494] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84245,7 +84272,7 @@ _G.pg.item_data_statistics[57494] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57495] = {
+_G.pg.base.item_data_statistics[57495] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84292,7 +84319,7 @@ _G.pg.item_data_statistics[57495] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57496] = {
+_G.pg.base.item_data_statistics[57496] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84334,7 +84361,7 @@ _G.pg.item_data_statistics[57496] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57497] = {
+_G.pg.base.item_data_statistics[57497] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -84466,7 +84493,7 @@ _G.pg.item_data_statistics[57497] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57498] = {
+_G.pg.base.item_data_statistics[57498] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -84598,7 +84625,7 @@ _G.pg.item_data_statistics[57498] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57499] = {
+_G.pg.base.item_data_statistics[57499] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -84730,7 +84757,7 @@ _G.pg.item_data_statistics[57499] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57501] = {
+_G.pg.base.item_data_statistics[57501] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84777,7 +84804,7 @@ _G.pg.item_data_statistics[57501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57502] = {
+_G.pg.base.item_data_statistics[57502] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84824,7 +84851,7 @@ _G.pg.item_data_statistics[57502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57503] = {
+_G.pg.base.item_data_statistics[57503] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84871,7 +84898,7 @@ _G.pg.item_data_statistics[57503] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57504] = {
+_G.pg.base.item_data_statistics[57504] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84918,7 +84945,7 @@ _G.pg.item_data_statistics[57504] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57505] = {
+_G.pg.base.item_data_statistics[57505] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -84965,7 +84992,7 @@ _G.pg.item_data_statistics[57505] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57506] = {
+_G.pg.base.item_data_statistics[57506] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -85012,7 +85039,7 @@ _G.pg.item_data_statistics[57506] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57511] = {
+_G.pg.base.item_data_statistics[57511] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -85059,7 +85086,7 @@ _G.pg.item_data_statistics[57511] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57512] = {
+_G.pg.base.item_data_statistics[57512] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -85106,7 +85133,7 @@ _G.pg.item_data_statistics[57512] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57513] = {
+_G.pg.base.item_data_statistics[57513] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -85153,7 +85180,7 @@ _G.pg.item_data_statistics[57513] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57514] = {
+_G.pg.base.item_data_statistics[57514] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -85200,7 +85227,7 @@ _G.pg.item_data_statistics[57514] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57515] = {
+_G.pg.base.item_data_statistics[57515] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -85247,7 +85274,7 @@ _G.pg.item_data_statistics[57515] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57516] = {
+_G.pg.base.item_data_statistics[57516] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -85294,7 +85321,7 @@ _G.pg.item_data_statistics[57516] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57521] = {
+_G.pg.base.item_data_statistics[57521] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -85426,7 +85453,7 @@ _G.pg.item_data_statistics[57521] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57522] = {
+_G.pg.base.item_data_statistics[57522] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -85558,7 +85585,7 @@ _G.pg.item_data_statistics[57522] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57523] = {
+_G.pg.base.item_data_statistics[57523] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -85695,7 +85722,7 @@ _G.pg.item_data_statistics[57523] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57524] = {
+_G.pg.base.item_data_statistics[57524] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -85827,7 +85854,7 @@ _G.pg.item_data_statistics[57524] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57525] = {
+_G.pg.base.item_data_statistics[57525] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -85964,7 +85991,7 @@ _G.pg.item_data_statistics[57525] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57526] = {
+_G.pg.base.item_data_statistics[57526] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -86101,7 +86128,7 @@ _G.pg.item_data_statistics[57526] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57531] = {
+_G.pg.base.item_data_statistics[57531] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86148,7 +86175,7 @@ _G.pg.item_data_statistics[57531] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57532] = {
+_G.pg.base.item_data_statistics[57532] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86195,7 +86222,7 @@ _G.pg.item_data_statistics[57532] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57533] = {
+_G.pg.base.item_data_statistics[57533] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86242,7 +86269,7 @@ _G.pg.item_data_statistics[57533] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57534] = {
+_G.pg.base.item_data_statistics[57534] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86289,7 +86316,7 @@ _G.pg.item_data_statistics[57534] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57535] = {
+_G.pg.base.item_data_statistics[57535] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86336,7 +86363,7 @@ _G.pg.item_data_statistics[57535] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57536] = {
+_G.pg.base.item_data_statistics[57536] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86383,7 +86410,7 @@ _G.pg.item_data_statistics[57536] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57541] = {
+_G.pg.base.item_data_statistics[57541] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86425,7 +86452,7 @@ _G.pg.item_data_statistics[57541] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57542] = {
+_G.pg.base.item_data_statistics[57542] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86467,7 +86494,7 @@ _G.pg.item_data_statistics[57542] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57543] = {
+_G.pg.base.item_data_statistics[57543] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86509,7 +86536,7 @@ _G.pg.item_data_statistics[57543] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57544] = {
+_G.pg.base.item_data_statistics[57544] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86551,7 +86578,7 @@ _G.pg.item_data_statistics[57544] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57545] = {
+_G.pg.base.item_data_statistics[57545] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86593,7 +86620,7 @@ _G.pg.item_data_statistics[57545] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57546] = {
+_G.pg.base.item_data_statistics[57546] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -86635,7 +86662,7 @@ _G.pg.item_data_statistics[57546] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57551] = {
+_G.pg.base.item_data_statistics[57551] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -86767,7 +86794,7 @@ _G.pg.item_data_statistics[57551] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57552] = {
+_G.pg.base.item_data_statistics[57552] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -86899,7 +86926,7 @@ _G.pg.item_data_statistics[57552] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57553] = {
+_G.pg.base.item_data_statistics[57553] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -87036,7 +87063,7 @@ _G.pg.item_data_statistics[57553] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57554] = {
+_G.pg.base.item_data_statistics[57554] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -87168,7 +87195,7 @@ _G.pg.item_data_statistics[57554] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57555] = {
+_G.pg.base.item_data_statistics[57555] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -87305,7 +87332,7 @@ _G.pg.item_data_statistics[57555] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57556] = {
+_G.pg.base.item_data_statistics[57556] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -87442,7 +87469,7 @@ _G.pg.item_data_statistics[57556] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57560] = {
+_G.pg.base.item_data_statistics[57560] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -87489,7 +87516,7 @@ _G.pg.item_data_statistics[57560] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57561] = {
+_G.pg.base.item_data_statistics[57561] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -87536,7 +87563,7 @@ _G.pg.item_data_statistics[57561] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57562] = {
+_G.pg.base.item_data_statistics[57562] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -87583,7 +87610,7 @@ _G.pg.item_data_statistics[57562] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57563] = {
+_G.pg.base.item_data_statistics[57563] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -87630,7 +87657,7 @@ _G.pg.item_data_statistics[57563] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57564] = {
+_G.pg.base.item_data_statistics[57564] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -87677,7 +87704,7 @@ _G.pg.item_data_statistics[57564] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57565] = {
+_G.pg.base.item_data_statistics[57565] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -87724,7 +87751,7 @@ _G.pg.item_data_statistics[57565] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57566] = {
+_G.pg.base.item_data_statistics[57566] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -87766,7 +87793,7 @@ _G.pg.item_data_statistics[57566] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57567] = {
+_G.pg.base.item_data_statistics[57567] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -87898,7 +87925,7 @@ _G.pg.item_data_statistics[57567] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57568] = {
+_G.pg.base.item_data_statistics[57568] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -88030,7 +88057,7 @@ _G.pg.item_data_statistics[57568] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57569] = {
+_G.pg.base.item_data_statistics[57569] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -88162,7 +88189,7 @@ _G.pg.item_data_statistics[57569] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57570] = {
+_G.pg.base.item_data_statistics[57570] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88209,7 +88236,7 @@ _G.pg.item_data_statistics[57570] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57571] = {
+_G.pg.base.item_data_statistics[57571] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88256,7 +88283,7 @@ _G.pg.item_data_statistics[57571] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57572] = {
+_G.pg.base.item_data_statistics[57572] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88303,7 +88330,7 @@ _G.pg.item_data_statistics[57572] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57573] = {
+_G.pg.base.item_data_statistics[57573] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88350,7 +88377,7 @@ _G.pg.item_data_statistics[57573] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57574] = {
+_G.pg.base.item_data_statistics[57574] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88397,7 +88424,7 @@ _G.pg.item_data_statistics[57574] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57575] = {
+_G.pg.base.item_data_statistics[57575] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88444,7 +88471,7 @@ _G.pg.item_data_statistics[57575] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57576] = {
+_G.pg.base.item_data_statistics[57576] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88491,7 +88518,7 @@ _G.pg.item_data_statistics[57576] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57577] = {
+_G.pg.base.item_data_statistics[57577] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88538,7 +88565,7 @@ _G.pg.item_data_statistics[57577] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57578] = {
+_G.pg.base.item_data_statistics[57578] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88580,7 +88607,7 @@ _G.pg.item_data_statistics[57578] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57579] = {
+_G.pg.base.item_data_statistics[57579] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -88622,7 +88649,7 @@ _G.pg.item_data_statistics[57579] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57580] = {
+_G.pg.base.item_data_statistics[57580] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -88754,7 +88781,7 @@ _G.pg.item_data_statistics[57580] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57581] = {
+_G.pg.base.item_data_statistics[57581] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -88886,7 +88913,7 @@ _G.pg.item_data_statistics[57581] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57582] = {
+_G.pg.base.item_data_statistics[57582] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -89018,7 +89045,7 @@ _G.pg.item_data_statistics[57582] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57583] = {
+_G.pg.base.item_data_statistics[57583] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -89150,7 +89177,7 @@ _G.pg.item_data_statistics[57583] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57584] = {
+_G.pg.base.item_data_statistics[57584] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -89282,7 +89309,7 @@ _G.pg.item_data_statistics[57584] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57585] = {
+_G.pg.base.item_data_statistics[57585] = {
 	display = "장비 스킨 상자를 몇 차례 획득하면, 장비 스킨 중 하나를 획득한다. ",
 	name = "키즈나 아이 컬레버래이션 장비 스킨 상자 ",
 	max_num = 0,
@@ -89399,7 +89426,7 @@ _G.pg.item_data_statistics[57585] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57590] = {
+_G.pg.base.item_data_statistics[57590] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89446,7 +89473,7 @@ _G.pg.item_data_statistics[57590] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57591] = {
+_G.pg.base.item_data_statistics[57591] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89493,7 +89520,7 @@ _G.pg.item_data_statistics[57591] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57592] = {
+_G.pg.base.item_data_statistics[57592] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89540,7 +89567,7 @@ _G.pg.item_data_statistics[57592] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57593] = {
+_G.pg.base.item_data_statistics[57593] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89587,7 +89614,7 @@ _G.pg.item_data_statistics[57593] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57594] = {
+_G.pg.base.item_data_statistics[57594] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89634,7 +89661,7 @@ _G.pg.item_data_statistics[57594] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57595] = {
+_G.pg.base.item_data_statistics[57595] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89681,7 +89708,7 @@ _G.pg.item_data_statistics[57595] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57596] = {
+_G.pg.base.item_data_statistics[57596] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89728,7 +89755,7 @@ _G.pg.item_data_statistics[57596] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57597] = {
+_G.pg.base.item_data_statistics[57597] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89775,7 +89802,7 @@ _G.pg.item_data_statistics[57597] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57598] = {
+_G.pg.base.item_data_statistics[57598] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89822,7 +89849,7 @@ _G.pg.item_data_statistics[57598] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57599] = {
+_G.pg.base.item_data_statistics[57599] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89869,7 +89896,7 @@ _G.pg.item_data_statistics[57599] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57600] = {
+_G.pg.base.item_data_statistics[57600] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89916,7 +89943,7 @@ _G.pg.item_data_statistics[57600] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57601] = {
+_G.pg.base.item_data_statistics[57601] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -89963,7 +89990,7 @@ _G.pg.item_data_statistics[57601] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57602] = {
+_G.pg.base.item_data_statistics[57602] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -90095,7 +90122,7 @@ _G.pg.item_data_statistics[57602] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57603] = {
+_G.pg.base.item_data_statistics[57603] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -90227,7 +90254,7 @@ _G.pg.item_data_statistics[57603] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57604] = {
+_G.pg.base.item_data_statistics[57604] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -90359,7 +90386,7 @@ _G.pg.item_data_statistics[57604] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57605] = {
+_G.pg.base.item_data_statistics[57605] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -90491,7 +90518,7 @@ _G.pg.item_data_statistics[57605] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57606] = {
+_G.pg.base.item_data_statistics[57606] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -90623,7 +90650,7 @@ _G.pg.item_data_statistics[57606] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57607] = {
+_G.pg.base.item_data_statistics[57607] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -90755,7 +90782,7 @@ _G.pg.item_data_statistics[57607] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57608] = {
+_G.pg.base.item_data_statistics[57608] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -90802,7 +90829,7 @@ _G.pg.item_data_statistics[57608] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57609] = {
+_G.pg.base.item_data_statistics[57609] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -90849,7 +90876,7 @@ _G.pg.item_data_statistics[57609] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57610] = {
+_G.pg.base.item_data_statistics[57610] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -90896,7 +90923,7 @@ _G.pg.item_data_statistics[57610] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57611] = {
+_G.pg.base.item_data_statistics[57611] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -90943,7 +90970,7 @@ _G.pg.item_data_statistics[57611] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57612] = {
+_G.pg.base.item_data_statistics[57612] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -90990,7 +91017,7 @@ _G.pg.item_data_statistics[57612] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57613] = {
+_G.pg.base.item_data_statistics[57613] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -91037,7 +91064,7 @@ _G.pg.item_data_statistics[57613] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57614] = {
+_G.pg.base.item_data_statistics[57614] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -91079,7 +91106,7 @@ _G.pg.item_data_statistics[57614] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57615] = {
+_G.pg.base.item_data_statistics[57615] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -91121,7 +91148,7 @@ _G.pg.item_data_statistics[57615] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57616] = {
+_G.pg.base.item_data_statistics[57616] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -91163,7 +91190,7 @@ _G.pg.item_data_statistics[57616] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57617] = {
+_G.pg.base.item_data_statistics[57617] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -91205,7 +91232,7 @@ _G.pg.item_data_statistics[57617] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57618] = {
+_G.pg.base.item_data_statistics[57618] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -91247,7 +91274,7 @@ _G.pg.item_data_statistics[57618] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57619] = {
+_G.pg.base.item_data_statistics[57619] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -91289,7 +91316,7 @@ _G.pg.item_data_statistics[57619] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57620] = {
+_G.pg.base.item_data_statistics[57620] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -91421,7 +91448,7 @@ _G.pg.item_data_statistics[57620] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57621] = {
+_G.pg.base.item_data_statistics[57621] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -91553,7 +91580,7 @@ _G.pg.item_data_statistics[57621] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57622] = {
+_G.pg.base.item_data_statistics[57622] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -91685,7 +91712,7 @@ _G.pg.item_data_statistics[57622] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57623] = {
+_G.pg.base.item_data_statistics[57623] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -91817,7 +91844,7 @@ _G.pg.item_data_statistics[57623] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57624] = {
+_G.pg.base.item_data_statistics[57624] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -91949,7 +91976,7 @@ _G.pg.item_data_statistics[57624] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57625] = {
+_G.pg.base.item_data_statistics[57625] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -92081,7 +92108,7 @@ _G.pg.item_data_statistics[57625] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57630] = {
+_G.pg.base.item_data_statistics[57630] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92128,7 +92155,7 @@ _G.pg.item_data_statistics[57630] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57631] = {
+_G.pg.base.item_data_statistics[57631] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92175,7 +92202,7 @@ _G.pg.item_data_statistics[57631] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57632] = {
+_G.pg.base.item_data_statistics[57632] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92222,7 +92249,7 @@ _G.pg.item_data_statistics[57632] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57633] = {
+_G.pg.base.item_data_statistics[57633] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92269,7 +92296,7 @@ _G.pg.item_data_statistics[57633] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57634] = {
+_G.pg.base.item_data_statistics[57634] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92316,7 +92343,7 @@ _G.pg.item_data_statistics[57634] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57635] = {
+_G.pg.base.item_data_statistics[57635] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92363,7 +92390,7 @@ _G.pg.item_data_statistics[57635] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57636] = {
+_G.pg.base.item_data_statistics[57636] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92410,7 +92437,7 @@ _G.pg.item_data_statistics[57636] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57637] = {
+_G.pg.base.item_data_statistics[57637] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92457,7 +92484,7 @@ _G.pg.item_data_statistics[57637] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57638] = {
+_G.pg.base.item_data_statistics[57638] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92504,7 +92531,7 @@ _G.pg.item_data_statistics[57638] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57639] = {
+_G.pg.base.item_data_statistics[57639] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92551,7 +92578,7 @@ _G.pg.item_data_statistics[57639] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57640] = {
+_G.pg.base.item_data_statistics[57640] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92598,7 +92625,7 @@ _G.pg.item_data_statistics[57640] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57641] = {
+_G.pg.base.item_data_statistics[57641] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -92645,7 +92672,7 @@ _G.pg.item_data_statistics[57641] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57642] = {
+_G.pg.base.item_data_statistics[57642] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -92777,7 +92804,7 @@ _G.pg.item_data_statistics[57642] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57643] = {
+_G.pg.base.item_data_statistics[57643] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -92909,7 +92936,7 @@ _G.pg.item_data_statistics[57643] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57644] = {
+_G.pg.base.item_data_statistics[57644] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -93041,7 +93068,7 @@ _G.pg.item_data_statistics[57644] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57645] = {
+_G.pg.base.item_data_statistics[57645] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -93173,7 +93200,7 @@ _G.pg.item_data_statistics[57645] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57646] = {
+_G.pg.base.item_data_statistics[57646] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -93305,7 +93332,7 @@ _G.pg.item_data_statistics[57646] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57647] = {
+_G.pg.base.item_data_statistics[57647] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -93442,7 +93469,7 @@ _G.pg.item_data_statistics[57647] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57648] = {
+_G.pg.base.item_data_statistics[57648] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93489,7 +93516,7 @@ _G.pg.item_data_statistics[57648] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57649] = {
+_G.pg.base.item_data_statistics[57649] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93536,7 +93563,7 @@ _G.pg.item_data_statistics[57649] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57650] = {
+_G.pg.base.item_data_statistics[57650] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93583,7 +93610,7 @@ _G.pg.item_data_statistics[57650] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57651] = {
+_G.pg.base.item_data_statistics[57651] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93630,7 +93657,7 @@ _G.pg.item_data_statistics[57651] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57652] = {
+_G.pg.base.item_data_statistics[57652] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93677,7 +93704,7 @@ _G.pg.item_data_statistics[57652] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57653] = {
+_G.pg.base.item_data_statistics[57653] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93724,7 +93751,7 @@ _G.pg.item_data_statistics[57653] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57654] = {
+_G.pg.base.item_data_statistics[57654] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93766,7 +93793,7 @@ _G.pg.item_data_statistics[57654] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57655] = {
+_G.pg.base.item_data_statistics[57655] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93808,7 +93835,7 @@ _G.pg.item_data_statistics[57655] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57656] = {
+_G.pg.base.item_data_statistics[57656] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93850,7 +93877,7 @@ _G.pg.item_data_statistics[57656] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57657] = {
+_G.pg.base.item_data_statistics[57657] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93892,7 +93919,7 @@ _G.pg.item_data_statistics[57657] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57658] = {
+_G.pg.base.item_data_statistics[57658] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93934,7 +93961,7 @@ _G.pg.item_data_statistics[57658] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57659] = {
+_G.pg.base.item_data_statistics[57659] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -93976,7 +94003,7 @@ _G.pg.item_data_statistics[57659] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57660] = {
+_G.pg.base.item_data_statistics[57660] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -94108,7 +94135,7 @@ _G.pg.item_data_statistics[57660] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57661] = {
+_G.pg.base.item_data_statistics[57661] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -94240,7 +94267,7 @@ _G.pg.item_data_statistics[57661] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57662] = {
+_G.pg.base.item_data_statistics[57662] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -94372,7 +94399,7 @@ _G.pg.item_data_statistics[57662] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57663] = {
+_G.pg.base.item_data_statistics[57663] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -94504,7 +94531,7 @@ _G.pg.item_data_statistics[57663] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57664] = {
+_G.pg.base.item_data_statistics[57664] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -94636,7 +94663,7 @@ _G.pg.item_data_statistics[57664] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57665] = {
+_G.pg.base.item_data_statistics[57665] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -94773,7 +94800,7 @@ _G.pg.item_data_statistics[57665] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57670] = {
+_G.pg.base.item_data_statistics[57670] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -94820,7 +94847,7 @@ _G.pg.item_data_statistics[57670] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57671] = {
+_G.pg.base.item_data_statistics[57671] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -94867,7 +94894,7 @@ _G.pg.item_data_statistics[57671] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57672] = {
+_G.pg.base.item_data_statistics[57672] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -94914,7 +94941,7 @@ _G.pg.item_data_statistics[57672] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57673] = {
+_G.pg.base.item_data_statistics[57673] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -94961,7 +94988,7 @@ _G.pg.item_data_statistics[57673] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57674] = {
+_G.pg.base.item_data_statistics[57674] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -95008,7 +95035,7 @@ _G.pg.item_data_statistics[57674] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57675] = {
+_G.pg.base.item_data_statistics[57675] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -95055,7 +95082,7 @@ _G.pg.item_data_statistics[57675] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57676] = {
+_G.pg.base.item_data_statistics[57676] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -95102,7 +95129,7 @@ _G.pg.item_data_statistics[57676] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57677] = {
+_G.pg.base.item_data_statistics[57677] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -95149,7 +95176,7 @@ _G.pg.item_data_statistics[57677] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57678] = {
+_G.pg.base.item_data_statistics[57678] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -95196,7 +95223,7 @@ _G.pg.item_data_statistics[57678] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57679] = {
+_G.pg.base.item_data_statistics[57679] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -95243,7 +95270,7 @@ _G.pg.item_data_statistics[57679] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57680] = {
+_G.pg.base.item_data_statistics[57680] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -95290,7 +95317,7 @@ _G.pg.item_data_statistics[57680] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57681] = {
+_G.pg.base.item_data_statistics[57681] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -95337,7 +95364,7 @@ _G.pg.item_data_statistics[57681] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57682] = {
+_G.pg.base.item_data_statistics[57682] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -95469,7 +95496,7 @@ _G.pg.item_data_statistics[57682] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57683] = {
+_G.pg.base.item_data_statistics[57683] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -95601,7 +95628,7 @@ _G.pg.item_data_statistics[57683] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57684] = {
+_G.pg.base.item_data_statistics[57684] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -95733,7 +95760,7 @@ _G.pg.item_data_statistics[57684] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57685] = {
+_G.pg.base.item_data_statistics[57685] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -95865,7 +95892,7 @@ _G.pg.item_data_statistics[57685] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57686] = {
+_G.pg.base.item_data_statistics[57686] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -95997,7 +96024,7 @@ _G.pg.item_data_statistics[57686] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57687] = {
+_G.pg.base.item_data_statistics[57687] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -96129,7 +96156,7 @@ _G.pg.item_data_statistics[57687] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57688] = {
+_G.pg.base.item_data_statistics[57688] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96176,7 +96203,7 @@ _G.pg.item_data_statistics[57688] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57689] = {
+_G.pg.base.item_data_statistics[57689] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96223,7 +96250,7 @@ _G.pg.item_data_statistics[57689] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57690] = {
+_G.pg.base.item_data_statistics[57690] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96270,7 +96297,7 @@ _G.pg.item_data_statistics[57690] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57691] = {
+_G.pg.base.item_data_statistics[57691] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96317,7 +96344,7 @@ _G.pg.item_data_statistics[57691] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57692] = {
+_G.pg.base.item_data_statistics[57692] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96364,7 +96391,7 @@ _G.pg.item_data_statistics[57692] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57693] = {
+_G.pg.base.item_data_statistics[57693] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96411,7 +96438,7 @@ _G.pg.item_data_statistics[57693] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57694] = {
+_G.pg.base.item_data_statistics[57694] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96453,7 +96480,7 @@ _G.pg.item_data_statistics[57694] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57695] = {
+_G.pg.base.item_data_statistics[57695] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96495,7 +96522,7 @@ _G.pg.item_data_statistics[57695] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57696] = {
+_G.pg.base.item_data_statistics[57696] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96537,7 +96564,7 @@ _G.pg.item_data_statistics[57696] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57697] = {
+_G.pg.base.item_data_statistics[57697] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96579,7 +96606,7 @@ _G.pg.item_data_statistics[57697] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57698] = {
+_G.pg.base.item_data_statistics[57698] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96621,7 +96648,7 @@ _G.pg.item_data_statistics[57698] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57699] = {
+_G.pg.base.item_data_statistics[57699] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -96663,7 +96690,7 @@ _G.pg.item_data_statistics[57699] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57700] = {
+_G.pg.base.item_data_statistics[57700] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -96795,7 +96822,7 @@ _G.pg.item_data_statistics[57700] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57701] = {
+_G.pg.base.item_data_statistics[57701] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -96927,7 +96954,7 @@ _G.pg.item_data_statistics[57701] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57702] = {
+_G.pg.base.item_data_statistics[57702] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -97059,7 +97086,7 @@ _G.pg.item_data_statistics[57702] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57703] = {
+_G.pg.base.item_data_statistics[57703] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -97191,7 +97218,7 @@ _G.pg.item_data_statistics[57703] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57704] = {
+_G.pg.base.item_data_statistics[57704] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -97323,7 +97350,7 @@ _G.pg.item_data_statistics[57704] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57705] = {
+_G.pg.base.item_data_statistics[57705] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -97455,7 +97482,7 @@ _G.pg.item_data_statistics[57705] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57707] = {
+_G.pg.base.item_data_statistics[57707] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -97502,7 +97529,7 @@ _G.pg.item_data_statistics[57707] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57708] = {
+_G.pg.base.item_data_statistics[57708] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -97549,7 +97576,7 @@ _G.pg.item_data_statistics[57708] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57709] = {
+_G.pg.base.item_data_statistics[57709] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -97596,7 +97623,7 @@ _G.pg.item_data_statistics[57709] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57710] = {
+_G.pg.base.item_data_statistics[57710] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -97643,7 +97670,7 @@ _G.pg.item_data_statistics[57710] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57711] = {
+_G.pg.base.item_data_statistics[57711] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -97690,7 +97717,7 @@ _G.pg.item_data_statistics[57711] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57712] = {
+_G.pg.base.item_data_statistics[57712] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -97737,7 +97764,7 @@ _G.pg.item_data_statistics[57712] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57713] = {
+_G.pg.base.item_data_statistics[57713] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -97784,7 +97811,7 @@ _G.pg.item_data_statistics[57713] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57714] = {
+_G.pg.base.item_data_statistics[57714] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -97831,7 +97858,7 @@ _G.pg.item_data_statistics[57714] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57715] = {
+_G.pg.base.item_data_statistics[57715] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -97873,7 +97900,7 @@ _G.pg.item_data_statistics[57715] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57716] = {
+_G.pg.base.item_data_statistics[57716] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98005,7 +98032,7 @@ _G.pg.item_data_statistics[57716] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57717] = {
+_G.pg.base.item_data_statistics[57717] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98137,7 +98164,7 @@ _G.pg.item_data_statistics[57717] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57718] = {
+_G.pg.base.item_data_statistics[57718] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98269,7 +98296,7 @@ _G.pg.item_data_statistics[57718] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57720] = {
+_G.pg.base.item_data_statistics[57720] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98316,7 +98343,7 @@ _G.pg.item_data_statistics[57720] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57721] = {
+_G.pg.base.item_data_statistics[57721] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98363,7 +98390,7 @@ _G.pg.item_data_statistics[57721] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57722] = {
+_G.pg.base.item_data_statistics[57722] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98410,7 +98437,7 @@ _G.pg.item_data_statistics[57722] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57723] = {
+_G.pg.base.item_data_statistics[57723] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98457,7 +98484,7 @@ _G.pg.item_data_statistics[57723] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57724] = {
+_G.pg.base.item_data_statistics[57724] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98504,7 +98531,7 @@ _G.pg.item_data_statistics[57724] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57725] = {
+_G.pg.base.item_data_statistics[57725] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98551,7 +98578,7 @@ _G.pg.item_data_statistics[57725] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57726] = {
+_G.pg.base.item_data_statistics[57726] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98598,7 +98625,7 @@ _G.pg.item_data_statistics[57726] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57727] = {
+_G.pg.base.item_data_statistics[57727] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98645,7 +98672,7 @@ _G.pg.item_data_statistics[57727] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57728] = {
+_G.pg.base.item_data_statistics[57728] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98692,7 +98719,7 @@ _G.pg.item_data_statistics[57728] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57729] = {
+_G.pg.base.item_data_statistics[57729] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98739,7 +98766,7 @@ _G.pg.item_data_statistics[57729] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57730] = {
+_G.pg.base.item_data_statistics[57730] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98781,7 +98808,7 @@ _G.pg.item_data_statistics[57730] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57731] = {
+_G.pg.base.item_data_statistics[57731] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98823,7 +98850,7 @@ _G.pg.item_data_statistics[57731] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57732] = {
+_G.pg.base.item_data_statistics[57732] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -98955,7 +98982,7 @@ _G.pg.item_data_statistics[57732] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57733] = {
+_G.pg.base.item_data_statistics[57733] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -99087,7 +99114,7 @@ _G.pg.item_data_statistics[57733] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57734] = {
+_G.pg.base.item_data_statistics[57734] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -99219,7 +99246,7 @@ _G.pg.item_data_statistics[57734] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57735] = {
+_G.pg.base.item_data_statistics[57735] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -99351,7 +99378,7 @@ _G.pg.item_data_statistics[57735] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57736] = {
+_G.pg.base.item_data_statistics[57736] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -99483,7 +99510,7 @@ _G.pg.item_data_statistics[57736] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57737] = {
+_G.pg.base.item_data_statistics[57737] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -99615,7 +99642,7 @@ _G.pg.item_data_statistics[57737] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57738] = {
+_G.pg.base.item_data_statistics[57738] = {
 	display = "장비 스킨 상자를 몇 차례 획득하면, 장비 스킨 중 하나를 획득한다. ",
 	name = "偶像活动外观装备箱",
 	max_num = 0,
@@ -99727,7 +99754,7 @@ _G.pg.item_data_statistics[57738] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57740] = {
+_G.pg.base.item_data_statistics[57740] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -99774,7 +99801,7 @@ _G.pg.item_data_statistics[57740] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57741] = {
+_G.pg.base.item_data_statistics[57741] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -99821,7 +99848,7 @@ _G.pg.item_data_statistics[57741] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57742] = {
+_G.pg.base.item_data_statistics[57742] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -99868,7 +99895,7 @@ _G.pg.item_data_statistics[57742] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57743] = {
+_G.pg.base.item_data_statistics[57743] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -99915,7 +99942,7 @@ _G.pg.item_data_statistics[57743] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57744] = {
+_G.pg.base.item_data_statistics[57744] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -99962,7 +99989,7 @@ _G.pg.item_data_statistics[57744] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57745] = {
+_G.pg.base.item_data_statistics[57745] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -100009,7 +100036,7 @@ _G.pg.item_data_statistics[57745] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57746] = {
+_G.pg.base.item_data_statistics[57746] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -100056,7 +100083,7 @@ _G.pg.item_data_statistics[57746] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57747] = {
+_G.pg.base.item_data_statistics[57747] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -100103,7 +100130,7 @@ _G.pg.item_data_statistics[57747] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57748] = {
+_G.pg.base.item_data_statistics[57748] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -100150,7 +100177,7 @@ _G.pg.item_data_statistics[57748] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57749] = {
+_G.pg.base.item_data_statistics[57749] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -100197,7 +100224,7 @@ _G.pg.item_data_statistics[57749] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57750] = {
+_G.pg.base.item_data_statistics[57750] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -100244,7 +100271,7 @@ _G.pg.item_data_statistics[57750] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57751] = {
+_G.pg.base.item_data_statistics[57751] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -100286,7 +100313,7 @@ _G.pg.item_data_statistics[57751] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57752] = {
+_G.pg.base.item_data_statistics[57752] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -100328,7 +100355,7 @@ _G.pg.item_data_statistics[57752] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57753] = {
+_G.pg.base.item_data_statistics[57753] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -100370,7 +100397,7 @@ _G.pg.item_data_statistics[57753] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57754] = {
+_G.pg.base.item_data_statistics[57754] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -100502,7 +100529,7 @@ _G.pg.item_data_statistics[57754] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57755] = {
+_G.pg.base.item_data_statistics[57755] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -100634,7 +100661,7 @@ _G.pg.item_data_statistics[57755] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57756] = {
+_G.pg.base.item_data_statistics[57756] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -100766,7 +100793,7 @@ _G.pg.item_data_statistics[57756] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57757] = {
+_G.pg.base.item_data_statistics[57757] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -100898,7 +100925,7 @@ _G.pg.item_data_statistics[57757] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57758] = {
+_G.pg.base.item_data_statistics[57758] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -101030,7 +101057,7 @@ _G.pg.item_data_statistics[57758] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57759] = {
+_G.pg.base.item_data_statistics[57759] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -101162,7 +101189,7 @@ _G.pg.item_data_statistics[57759] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57760] = {
+_G.pg.base.item_data_statistics[57760] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -101294,7 +101321,7 @@ _G.pg.item_data_statistics[57760] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57761] = {
+_G.pg.base.item_data_statistics[57761] = {
 	display = "랜덤의 장비 스킨을 획득할 수 있다. ",
 	name = "holo 장비 스킨 상자 ",
 	max_num = 0,
@@ -101406,7 +101433,7 @@ _G.pg.item_data_statistics[57761] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57762] = {
+_G.pg.base.item_data_statistics[57762] = {
 	display = "일정 확률로 장비 부속 T1~T2를 얻을 수 있습니다.",
 	name = "랜덤 부속 T2",
 	max_num = 0,
@@ -101458,7 +101485,7 @@ _G.pg.item_data_statistics[57762] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57763] = {
+_G.pg.base.item_data_statistics[57763] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101505,7 +101532,7 @@ _G.pg.item_data_statistics[57763] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57764] = {
+_G.pg.base.item_data_statistics[57764] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101552,7 +101579,7 @@ _G.pg.item_data_statistics[57764] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57765] = {
+_G.pg.base.item_data_statistics[57765] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101599,7 +101626,7 @@ _G.pg.item_data_statistics[57765] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57766] = {
+_G.pg.base.item_data_statistics[57766] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101646,7 +101673,7 @@ _G.pg.item_data_statistics[57766] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57767] = {
+_G.pg.base.item_data_statistics[57767] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101693,7 +101720,7 @@ _G.pg.item_data_statistics[57767] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57768] = {
+_G.pg.base.item_data_statistics[57768] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101740,7 +101767,7 @@ _G.pg.item_data_statistics[57768] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57770] = {
+_G.pg.base.item_data_statistics[57770] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101787,7 +101814,7 @@ _G.pg.item_data_statistics[57770] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57771] = {
+_G.pg.base.item_data_statistics[57771] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101834,7 +101861,7 @@ _G.pg.item_data_statistics[57771] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57772] = {
+_G.pg.base.item_data_statistics[57772] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101881,7 +101908,7 @@ _G.pg.item_data_statistics[57772] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57773] = {
+_G.pg.base.item_data_statistics[57773] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101928,7 +101955,7 @@ _G.pg.item_data_statistics[57773] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57774] = {
+_G.pg.base.item_data_statistics[57774] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -101975,7 +102002,7 @@ _G.pg.item_data_statistics[57774] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57775] = {
+_G.pg.base.item_data_statistics[57775] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -102022,7 +102049,7 @@ _G.pg.item_data_statistics[57775] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57776] = {
+_G.pg.base.item_data_statistics[57776] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -102069,7 +102096,7 @@ _G.pg.item_data_statistics[57776] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57777] = {
+_G.pg.base.item_data_statistics[57777] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -102116,7 +102143,7 @@ _G.pg.item_data_statistics[57777] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57778] = {
+_G.pg.base.item_data_statistics[57778] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -102163,7 +102190,7 @@ _G.pg.item_data_statistics[57778] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57779] = {
+_G.pg.base.item_data_statistics[57779] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -102210,7 +102237,7 @@ _G.pg.item_data_statistics[57779] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57780] = {
+_G.pg.base.item_data_statistics[57780] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -102257,7 +102284,7 @@ _G.pg.item_data_statistics[57780] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57781] = {
+_G.pg.base.item_data_statistics[57781] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -102304,7 +102331,7 @@ _G.pg.item_data_statistics[57781] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57782] = {
+_G.pg.base.item_data_statistics[57782] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -102436,7 +102463,7 @@ _G.pg.item_data_statistics[57782] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57783] = {
+_G.pg.base.item_data_statistics[57783] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -102568,7 +102595,7 @@ _G.pg.item_data_statistics[57783] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57784] = {
+_G.pg.base.item_data_statistics[57784] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -102700,7 +102727,7 @@ _G.pg.item_data_statistics[57784] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57785] = {
+_G.pg.base.item_data_statistics[57785] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -102832,7 +102859,7 @@ _G.pg.item_data_statistics[57785] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57786] = {
+_G.pg.base.item_data_statistics[57786] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -102964,7 +102991,7 @@ _G.pg.item_data_statistics[57786] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57787] = {
+_G.pg.base.item_data_statistics[57787] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -103101,7 +103128,7 @@ _G.pg.item_data_statistics[57787] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57788] = {
+_G.pg.base.item_data_statistics[57788] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103148,7 +103175,7 @@ _G.pg.item_data_statistics[57788] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57789] = {
+_G.pg.base.item_data_statistics[57789] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103195,7 +103222,7 @@ _G.pg.item_data_statistics[57789] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57790] = {
+_G.pg.base.item_data_statistics[57790] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103242,7 +103269,7 @@ _G.pg.item_data_statistics[57790] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57791] = {
+_G.pg.base.item_data_statistics[57791] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103289,7 +103316,7 @@ _G.pg.item_data_statistics[57791] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57792] = {
+_G.pg.base.item_data_statistics[57792] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103336,7 +103363,7 @@ _G.pg.item_data_statistics[57792] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57793] = {
+_G.pg.base.item_data_statistics[57793] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103383,7 +103410,7 @@ _G.pg.item_data_statistics[57793] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57794] = {
+_G.pg.base.item_data_statistics[57794] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103425,7 +103452,7 @@ _G.pg.item_data_statistics[57794] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57795] = {
+_G.pg.base.item_data_statistics[57795] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103467,7 +103494,7 @@ _G.pg.item_data_statistics[57795] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57796] = {
+_G.pg.base.item_data_statistics[57796] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103509,7 +103536,7 @@ _G.pg.item_data_statistics[57796] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57797] = {
+_G.pg.base.item_data_statistics[57797] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103551,7 +103578,7 @@ _G.pg.item_data_statistics[57797] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57798] = {
+_G.pg.base.item_data_statistics[57798] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103593,7 +103620,7 @@ _G.pg.item_data_statistics[57798] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57799] = {
+_G.pg.base.item_data_statistics[57799] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -103635,7 +103662,7 @@ _G.pg.item_data_statistics[57799] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57800] = {
+_G.pg.base.item_data_statistics[57800] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -103762,7 +103789,7 @@ _G.pg.item_data_statistics[57800] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57801] = {
+_G.pg.base.item_data_statistics[57801] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -103889,7 +103916,7 @@ _G.pg.item_data_statistics[57801] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57802] = {
+_G.pg.base.item_data_statistics[57802] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -104016,7 +104043,7 @@ _G.pg.item_data_statistics[57802] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57803] = {
+_G.pg.base.item_data_statistics[57803] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -104143,7 +104170,7 @@ _G.pg.item_data_statistics[57803] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57804] = {
+_G.pg.base.item_data_statistics[57804] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -104270,7 +104297,7 @@ _G.pg.item_data_statistics[57804] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57805] = {
+_G.pg.base.item_data_statistics[57805] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -104402,7 +104429,7 @@ _G.pg.item_data_statistics[57805] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57806] = {
+_G.pg.base.item_data_statistics[57806] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104449,7 +104476,7 @@ _G.pg.item_data_statistics[57806] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57807] = {
+_G.pg.base.item_data_statistics[57807] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104491,7 +104518,7 @@ _G.pg.item_data_statistics[57807] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57808] = {
+_G.pg.base.item_data_statistics[57808] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -104623,7 +104650,7 @@ _G.pg.item_data_statistics[57808] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57810] = {
+_G.pg.base.item_data_statistics[57810] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104670,7 +104697,7 @@ _G.pg.item_data_statistics[57810] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57811] = {
+_G.pg.base.item_data_statistics[57811] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104717,7 +104744,7 @@ _G.pg.item_data_statistics[57811] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57812] = {
+_G.pg.base.item_data_statistics[57812] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104764,7 +104791,7 @@ _G.pg.item_data_statistics[57812] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57813] = {
+_G.pg.base.item_data_statistics[57813] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104811,7 +104838,7 @@ _G.pg.item_data_statistics[57813] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57814] = {
+_G.pg.base.item_data_statistics[57814] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104858,7 +104885,7 @@ _G.pg.item_data_statistics[57814] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57815] = {
+_G.pg.base.item_data_statistics[57815] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104905,7 +104932,7 @@ _G.pg.item_data_statistics[57815] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57816] = {
+_G.pg.base.item_data_statistics[57816] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104952,7 +104979,7 @@ _G.pg.item_data_statistics[57816] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57817] = {
+_G.pg.base.item_data_statistics[57817] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -104999,7 +105026,7 @@ _G.pg.item_data_statistics[57817] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57818] = {
+_G.pg.base.item_data_statistics[57818] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -105046,7 +105073,7 @@ _G.pg.item_data_statistics[57818] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57819] = {
+_G.pg.base.item_data_statistics[57819] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -105093,7 +105120,7 @@ _G.pg.item_data_statistics[57819] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57820] = {
+_G.pg.base.item_data_statistics[57820] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -105140,7 +105167,7 @@ _G.pg.item_data_statistics[57820] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57821] = {
+_G.pg.base.item_data_statistics[57821] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -105187,7 +105214,7 @@ _G.pg.item_data_statistics[57821] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57822] = {
+_G.pg.base.item_data_statistics[57822] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -105319,7 +105346,7 @@ _G.pg.item_data_statistics[57822] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57823] = {
+_G.pg.base.item_data_statistics[57823] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -105451,7 +105478,7 @@ _G.pg.item_data_statistics[57823] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57824] = {
+_G.pg.base.item_data_statistics[57824] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -105583,7 +105610,7 @@ _G.pg.item_data_statistics[57824] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57825] = {
+_G.pg.base.item_data_statistics[57825] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -105715,7 +105742,7 @@ _G.pg.item_data_statistics[57825] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57826] = {
+_G.pg.base.item_data_statistics[57826] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -105847,7 +105874,7 @@ _G.pg.item_data_statistics[57826] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57827] = {
+_G.pg.base.item_data_statistics[57827] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -105984,7 +106011,7 @@ _G.pg.item_data_statistics[57827] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57828] = {
+_G.pg.base.item_data_statistics[57828] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106031,7 +106058,7 @@ _G.pg.item_data_statistics[57828] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57829] = {
+_G.pg.base.item_data_statistics[57829] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106078,7 +106105,7 @@ _G.pg.item_data_statistics[57829] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57830] = {
+_G.pg.base.item_data_statistics[57830] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106125,7 +106152,7 @@ _G.pg.item_data_statistics[57830] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57831] = {
+_G.pg.base.item_data_statistics[57831] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106172,7 +106199,7 @@ _G.pg.item_data_statistics[57831] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57832] = {
+_G.pg.base.item_data_statistics[57832] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106219,7 +106246,7 @@ _G.pg.item_data_statistics[57832] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57833] = {
+_G.pg.base.item_data_statistics[57833] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106266,7 +106293,7 @@ _G.pg.item_data_statistics[57833] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57834] = {
+_G.pg.base.item_data_statistics[57834] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106313,7 +106340,7 @@ _G.pg.item_data_statistics[57834] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57835] = {
+_G.pg.base.item_data_statistics[57835] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106355,7 +106382,7 @@ _G.pg.item_data_statistics[57835] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57836] = {
+_G.pg.base.item_data_statistics[57836] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106397,7 +106424,7 @@ _G.pg.item_data_statistics[57836] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57837] = {
+_G.pg.base.item_data_statistics[57837] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106439,7 +106466,7 @@ _G.pg.item_data_statistics[57837] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57838] = {
+_G.pg.base.item_data_statistics[57838] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106481,7 +106508,7 @@ _G.pg.item_data_statistics[57838] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57839] = {
+_G.pg.base.item_data_statistics[57839] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -106523,7 +106550,7 @@ _G.pg.item_data_statistics[57839] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57840] = {
+_G.pg.base.item_data_statistics[57840] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -106650,7 +106677,7 @@ _G.pg.item_data_statistics[57840] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57841] = {
+_G.pg.base.item_data_statistics[57841] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -106777,7 +106804,7 @@ _G.pg.item_data_statistics[57841] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57842] = {
+_G.pg.base.item_data_statistics[57842] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -106904,7 +106931,7 @@ _G.pg.item_data_statistics[57842] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57843] = {
+_G.pg.base.item_data_statistics[57843] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -107031,7 +107058,7 @@ _G.pg.item_data_statistics[57843] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57844] = {
+_G.pg.base.item_data_statistics[57844] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -107158,7 +107185,7 @@ _G.pg.item_data_statistics[57844] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57845] = {
+_G.pg.base.item_data_statistics[57845] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -107290,7 +107317,7 @@ _G.pg.item_data_statistics[57845] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57846] = {
+_G.pg.base.item_data_statistics[57846] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107337,7 +107364,7 @@ _G.pg.item_data_statistics[57846] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57847] = {
+_G.pg.base.item_data_statistics[57847] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107379,7 +107406,7 @@ _G.pg.item_data_statistics[57847] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57848] = {
+_G.pg.base.item_data_statistics[57848] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -107511,7 +107538,7 @@ _G.pg.item_data_statistics[57848] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57850] = {
+_G.pg.base.item_data_statistics[57850] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107558,7 +107585,7 @@ _G.pg.item_data_statistics[57850] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57851] = {
+_G.pg.base.item_data_statistics[57851] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107605,7 +107632,7 @@ _G.pg.item_data_statistics[57851] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57852] = {
+_G.pg.base.item_data_statistics[57852] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107652,7 +107679,7 @@ _G.pg.item_data_statistics[57852] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57853] = {
+_G.pg.base.item_data_statistics[57853] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107699,7 +107726,7 @@ _G.pg.item_data_statistics[57853] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57854] = {
+_G.pg.base.item_data_statistics[57854] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107746,7 +107773,7 @@ _G.pg.item_data_statistics[57854] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57855] = {
+_G.pg.base.item_data_statistics[57855] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107793,7 +107820,7 @@ _G.pg.item_data_statistics[57855] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57856] = {
+_G.pg.base.item_data_statistics[57856] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107840,7 +107867,7 @@ _G.pg.item_data_statistics[57856] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57857] = {
+_G.pg.base.item_data_statistics[57857] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107887,7 +107914,7 @@ _G.pg.item_data_statistics[57857] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57858] = {
+_G.pg.base.item_data_statistics[57858] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107934,7 +107961,7 @@ _G.pg.item_data_statistics[57858] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57859] = {
+_G.pg.base.item_data_statistics[57859] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -107981,7 +108008,7 @@ _G.pg.item_data_statistics[57859] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57860] = {
+_G.pg.base.item_data_statistics[57860] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -108028,7 +108055,7 @@ _G.pg.item_data_statistics[57860] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57861] = {
+_G.pg.base.item_data_statistics[57861] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -108075,7 +108102,7 @@ _G.pg.item_data_statistics[57861] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57862] = {
+_G.pg.base.item_data_statistics[57862] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -108207,7 +108234,7 @@ _G.pg.item_data_statistics[57862] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57863] = {
+_G.pg.base.item_data_statistics[57863] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -108339,7 +108366,7 @@ _G.pg.item_data_statistics[57863] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57864] = {
+_G.pg.base.item_data_statistics[57864] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -108471,7 +108498,7 @@ _G.pg.item_data_statistics[57864] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57865] = {
+_G.pg.base.item_data_statistics[57865] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -108603,7 +108630,7 @@ _G.pg.item_data_statistics[57865] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57866] = {
+_G.pg.base.item_data_statistics[57866] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -108735,7 +108762,7 @@ _G.pg.item_data_statistics[57866] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57867] = {
+_G.pg.base.item_data_statistics[57867] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -108872,7 +108899,7 @@ _G.pg.item_data_statistics[57867] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57868] = {
+_G.pg.base.item_data_statistics[57868] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -108919,7 +108946,7 @@ _G.pg.item_data_statistics[57868] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57869] = {
+_G.pg.base.item_data_statistics[57869] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -108966,7 +108993,7 @@ _G.pg.item_data_statistics[57869] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57870] = {
+_G.pg.base.item_data_statistics[57870] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109013,7 +109040,7 @@ _G.pg.item_data_statistics[57870] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57871] = {
+_G.pg.base.item_data_statistics[57871] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109060,7 +109087,7 @@ _G.pg.item_data_statistics[57871] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57872] = {
+_G.pg.base.item_data_statistics[57872] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109107,7 +109134,7 @@ _G.pg.item_data_statistics[57872] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57873] = {
+_G.pg.base.item_data_statistics[57873] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109154,7 +109181,7 @@ _G.pg.item_data_statistics[57873] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57874] = {
+_G.pg.base.item_data_statistics[57874] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109201,7 +109228,7 @@ _G.pg.item_data_statistics[57874] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57875] = {
+_G.pg.base.item_data_statistics[57875] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109243,7 +109270,7 @@ _G.pg.item_data_statistics[57875] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57876] = {
+_G.pg.base.item_data_statistics[57876] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109285,7 +109312,7 @@ _G.pg.item_data_statistics[57876] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57877] = {
+_G.pg.base.item_data_statistics[57877] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109327,7 +109354,7 @@ _G.pg.item_data_statistics[57877] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57878] = {
+_G.pg.base.item_data_statistics[57878] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109369,7 +109396,7 @@ _G.pg.item_data_statistics[57878] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57879] = {
+_G.pg.base.item_data_statistics[57879] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -109411,7 +109438,7 @@ _G.pg.item_data_statistics[57879] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57880] = {
+_G.pg.base.item_data_statistics[57880] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -109543,7 +109570,7 @@ _G.pg.item_data_statistics[57880] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57881] = {
+_G.pg.base.item_data_statistics[57881] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -109675,7 +109702,7 @@ _G.pg.item_data_statistics[57881] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57882] = {
+_G.pg.base.item_data_statistics[57882] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -109807,7 +109834,7 @@ _G.pg.item_data_statistics[57882] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57883] = {
+_G.pg.base.item_data_statistics[57883] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -109939,7 +109966,7 @@ _G.pg.item_data_statistics[57883] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57884] = {
+_G.pg.base.item_data_statistics[57884] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -110071,7 +110098,7 @@ _G.pg.item_data_statistics[57884] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57885] = {
+_G.pg.base.item_data_statistics[57885] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -110208,7 +110235,7 @@ _G.pg.item_data_statistics[57885] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57886] = {
+_G.pg.base.item_data_statistics[57886] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -110255,7 +110282,7 @@ _G.pg.item_data_statistics[57886] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57887] = {
+_G.pg.base.item_data_statistics[57887] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -110297,7 +110324,7 @@ _G.pg.item_data_statistics[57887] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57888] = {
+_G.pg.base.item_data_statistics[57888] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -110434,7 +110461,7 @@ _G.pg.item_data_statistics[57888] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57889] = {
+_G.pg.base.item_data_statistics[57889] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -110481,7 +110508,7 @@ _G.pg.item_data_statistics[57889] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57890] = {
+_G.pg.base.item_data_statistics[57890] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -110528,7 +110555,7 @@ _G.pg.item_data_statistics[57890] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57891] = {
+_G.pg.base.item_data_statistics[57891] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -110575,7 +110602,7 @@ _G.pg.item_data_statistics[57891] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57892] = {
+_G.pg.base.item_data_statistics[57892] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -110622,7 +110649,7 @@ _G.pg.item_data_statistics[57892] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57893] = {
+_G.pg.base.item_data_statistics[57893] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -110669,7 +110696,7 @@ _G.pg.item_data_statistics[57893] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57894] = {
+_G.pg.base.item_data_statistics[57894] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -110711,7 +110738,7 @@ _G.pg.item_data_statistics[57894] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57895] = {
+_G.pg.base.item_data_statistics[57895] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -110843,7 +110870,7 @@ _G.pg.item_data_statistics[57895] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57896] = {
+_G.pg.base.item_data_statistics[57896] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -110975,7 +111002,7 @@ _G.pg.item_data_statistics[57896] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57897] = {
+_G.pg.base.item_data_statistics[57897] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -111107,7 +111134,7 @@ _G.pg.item_data_statistics[57897] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57900] = {
+_G.pg.base.item_data_statistics[57900] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111154,7 +111181,7 @@ _G.pg.item_data_statistics[57900] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57901] = {
+_G.pg.base.item_data_statistics[57901] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111201,7 +111228,7 @@ _G.pg.item_data_statistics[57901] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57902] = {
+_G.pg.base.item_data_statistics[57902] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111248,7 +111275,7 @@ _G.pg.item_data_statistics[57902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57903] = {
+_G.pg.base.item_data_statistics[57903] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111295,7 +111322,7 @@ _G.pg.item_data_statistics[57903] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57904] = {
+_G.pg.base.item_data_statistics[57904] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111342,7 +111369,7 @@ _G.pg.item_data_statistics[57904] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57905] = {
+_G.pg.base.item_data_statistics[57905] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111389,7 +111416,7 @@ _G.pg.item_data_statistics[57905] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57906] = {
+_G.pg.base.item_data_statistics[57906] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111436,7 +111463,7 @@ _G.pg.item_data_statistics[57906] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57907] = {
+_G.pg.base.item_data_statistics[57907] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111483,7 +111510,7 @@ _G.pg.item_data_statistics[57907] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57908] = {
+_G.pg.base.item_data_statistics[57908] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111530,7 +111557,7 @@ _G.pg.item_data_statistics[57908] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57909] = {
+_G.pg.base.item_data_statistics[57909] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111577,7 +111604,7 @@ _G.pg.item_data_statistics[57909] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57910] = {
+_G.pg.base.item_data_statistics[57910] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111624,7 +111651,7 @@ _G.pg.item_data_statistics[57910] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57911] = {
+_G.pg.base.item_data_statistics[57911] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -111671,7 +111698,7 @@ _G.pg.item_data_statistics[57911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57912] = {
+_G.pg.base.item_data_statistics[57912] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -111803,7 +111830,7 @@ _G.pg.item_data_statistics[57912] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57913] = {
+_G.pg.base.item_data_statistics[57913] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -111935,7 +111962,7 @@ _G.pg.item_data_statistics[57913] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57914] = {
+_G.pg.base.item_data_statistics[57914] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -112067,7 +112094,7 @@ _G.pg.item_data_statistics[57914] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57915] = {
+_G.pg.base.item_data_statistics[57915] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -112199,7 +112226,7 @@ _G.pg.item_data_statistics[57915] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57916] = {
+_G.pg.base.item_data_statistics[57916] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -112331,7 +112358,7 @@ _G.pg.item_data_statistics[57916] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57917] = {
+_G.pg.base.item_data_statistics[57917] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -112468,7 +112495,7 @@ _G.pg.item_data_statistics[57917] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57918] = {
+_G.pg.base.item_data_statistics[57918] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112515,7 +112542,7 @@ _G.pg.item_data_statistics[57918] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57919] = {
+_G.pg.base.item_data_statistics[57919] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112562,7 +112589,7 @@ _G.pg.item_data_statistics[57919] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57920] = {
+_G.pg.base.item_data_statistics[57920] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112609,7 +112636,7 @@ _G.pg.item_data_statistics[57920] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57921] = {
+_G.pg.base.item_data_statistics[57921] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112656,7 +112683,7 @@ _G.pg.item_data_statistics[57921] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57922] = {
+_G.pg.base.item_data_statistics[57922] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112703,7 +112730,7 @@ _G.pg.item_data_statistics[57922] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57923] = {
+_G.pg.base.item_data_statistics[57923] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112750,7 +112777,7 @@ _G.pg.item_data_statistics[57923] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57924] = {
+_G.pg.base.item_data_statistics[57924] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112797,7 +112824,7 @@ _G.pg.item_data_statistics[57924] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57925] = {
+_G.pg.base.item_data_statistics[57925] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112839,7 +112866,7 @@ _G.pg.item_data_statistics[57925] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57926] = {
+_G.pg.base.item_data_statistics[57926] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112881,7 +112908,7 @@ _G.pg.item_data_statistics[57926] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57927] = {
+_G.pg.base.item_data_statistics[57927] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112923,7 +112950,7 @@ _G.pg.item_data_statistics[57927] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57928] = {
+_G.pg.base.item_data_statistics[57928] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -112965,7 +112992,7 @@ _G.pg.item_data_statistics[57928] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57929] = {
+_G.pg.base.item_data_statistics[57929] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -113007,7 +113034,7 @@ _G.pg.item_data_statistics[57929] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57930] = {
+_G.pg.base.item_data_statistics[57930] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -113139,7 +113166,7 @@ _G.pg.item_data_statistics[57930] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57931] = {
+_G.pg.base.item_data_statistics[57931] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -113271,7 +113298,7 @@ _G.pg.item_data_statistics[57931] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57932] = {
+_G.pg.base.item_data_statistics[57932] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -113403,7 +113430,7 @@ _G.pg.item_data_statistics[57932] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57933] = {
+_G.pg.base.item_data_statistics[57933] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -113535,7 +113562,7 @@ _G.pg.item_data_statistics[57933] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57934] = {
+_G.pg.base.item_data_statistics[57934] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -113667,7 +113694,7 @@ _G.pg.item_data_statistics[57934] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57935] = {
+_G.pg.base.item_data_statistics[57935] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -113804,7 +113831,7 @@ _G.pg.item_data_statistics[57935] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57936] = {
+_G.pg.base.item_data_statistics[57936] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -113851,7 +113878,7 @@ _G.pg.item_data_statistics[57936] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57937] = {
+_G.pg.base.item_data_statistics[57937] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -113893,7 +113920,7 @@ _G.pg.item_data_statistics[57937] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57938] = {
+_G.pg.base.item_data_statistics[57938] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -114030,7 +114057,7 @@ _G.pg.item_data_statistics[57938] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57941] = {
+_G.pg.base.item_data_statistics[57941] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -114077,7 +114104,7 @@ _G.pg.item_data_statistics[57941] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57942] = {
+_G.pg.base.item_data_statistics[57942] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -114124,7 +114151,7 @@ _G.pg.item_data_statistics[57942] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57943] = {
+_G.pg.base.item_data_statistics[57943] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -114171,7 +114198,7 @@ _G.pg.item_data_statistics[57943] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57944] = {
+_G.pg.base.item_data_statistics[57944] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -114218,7 +114245,7 @@ _G.pg.item_data_statistics[57944] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57945] = {
+_G.pg.base.item_data_statistics[57945] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -114265,7 +114292,7 @@ _G.pg.item_data_statistics[57945] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57946] = {
+_G.pg.base.item_data_statistics[57946] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
@@ -114307,7 +114334,7 @@ _G.pg.item_data_statistics[57946] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57947] = {
+_G.pg.base.item_data_statistics[57947] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -114439,7 +114466,7 @@ _G.pg.item_data_statistics[57947] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57948] = {
+_G.pg.base.item_data_statistics[57948] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -114571,7 +114598,7 @@ _G.pg.item_data_statistics[57948] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57949] = {
+_G.pg.base.item_data_statistics[57949] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 캐릭터",
 	max_num = 0,
@@ -114703,7 +114730,7 @@ _G.pg.item_data_statistics[57949] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57950] = {
+_G.pg.base.item_data_statistics[57950] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -114750,7 +114777,7 @@ _G.pg.item_data_statistics[57950] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57951] = {
+_G.pg.base.item_data_statistics[57951] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -114797,7 +114824,7 @@ _G.pg.item_data_statistics[57951] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57952] = {
+_G.pg.base.item_data_statistics[57952] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -114844,7 +114871,7 @@ _G.pg.item_data_statistics[57952] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57953] = {
+_G.pg.base.item_data_statistics[57953] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -114891,7 +114918,7 @@ _G.pg.item_data_statistics[57953] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57954] = {
+_G.pg.base.item_data_statistics[57954] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -114938,7 +114965,7 @@ _G.pg.item_data_statistics[57954] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57955] = {
+_G.pg.base.item_data_statistics[57955] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -114985,7 +115012,7 @@ _G.pg.item_data_statistics[57955] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57956] = {
+_G.pg.base.item_data_statistics[57956] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -115032,7 +115059,7 @@ _G.pg.item_data_statistics[57956] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57957] = {
+_G.pg.base.item_data_statistics[57957] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -115079,7 +115106,7 @@ _G.pg.item_data_statistics[57957] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57958] = {
+_G.pg.base.item_data_statistics[57958] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -115126,7 +115153,7 @@ _G.pg.item_data_statistics[57958] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57959] = {
+_G.pg.base.item_data_statistics[57959] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -115173,7 +115200,7 @@ _G.pg.item_data_statistics[57959] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57960] = {
+_G.pg.base.item_data_statistics[57960] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -115220,7 +115247,7 @@ _G.pg.item_data_statistics[57960] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57961] = {
+_G.pg.base.item_data_statistics[57961] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -115267,7 +115294,7 @@ _G.pg.item_data_statistics[57961] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57962] = {
+_G.pg.base.item_data_statistics[57962] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -115399,7 +115426,7 @@ _G.pg.item_data_statistics[57962] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57963] = {
+_G.pg.base.item_data_statistics[57963] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -115531,7 +115558,7 @@ _G.pg.item_data_statistics[57963] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57964] = {
+_G.pg.base.item_data_statistics[57964] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -115663,7 +115690,7 @@ _G.pg.item_data_statistics[57964] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57965] = {
+_G.pg.base.item_data_statistics[57965] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -115795,7 +115822,7 @@ _G.pg.item_data_statistics[57965] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57966] = {
+_G.pg.base.item_data_statistics[57966] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -115927,7 +115954,7 @@ _G.pg.item_data_statistics[57966] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57967] = {
+_G.pg.base.item_data_statistics[57967] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -116064,7 +116091,7 @@ _G.pg.item_data_statistics[57967] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57968] = {
+_G.pg.base.item_data_statistics[57968] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116111,7 +116138,7 @@ _G.pg.item_data_statistics[57968] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57969] = {
+_G.pg.base.item_data_statistics[57969] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116158,7 +116185,7 @@ _G.pg.item_data_statistics[57969] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57970] = {
+_G.pg.base.item_data_statistics[57970] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116205,7 +116232,7 @@ _G.pg.item_data_statistics[57970] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57971] = {
+_G.pg.base.item_data_statistics[57971] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116252,7 +116279,7 @@ _G.pg.item_data_statistics[57971] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57972] = {
+_G.pg.base.item_data_statistics[57972] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116299,7 +116326,7 @@ _G.pg.item_data_statistics[57972] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57973] = {
+_G.pg.base.item_data_statistics[57973] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116346,7 +116373,7 @@ _G.pg.item_data_statistics[57973] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57974] = {
+_G.pg.base.item_data_statistics[57974] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116393,7 +116420,7 @@ _G.pg.item_data_statistics[57974] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57975] = {
+_G.pg.base.item_data_statistics[57975] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116435,7 +116462,7 @@ _G.pg.item_data_statistics[57975] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57976] = {
+_G.pg.base.item_data_statistics[57976] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116477,7 +116504,7 @@ _G.pg.item_data_statistics[57976] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57977] = {
+_G.pg.base.item_data_statistics[57977] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116519,7 +116546,7 @@ _G.pg.item_data_statistics[57977] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57978] = {
+_G.pg.base.item_data_statistics[57978] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116561,7 +116588,7 @@ _G.pg.item_data_statistics[57978] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57979] = {
+_G.pg.base.item_data_statistics[57979] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -116603,7 +116630,7 @@ _G.pg.item_data_statistics[57979] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57980] = {
+_G.pg.base.item_data_statistics[57980] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -116735,7 +116762,7 @@ _G.pg.item_data_statistics[57980] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57981] = {
+_G.pg.base.item_data_statistics[57981] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -116867,7 +116894,7 @@ _G.pg.item_data_statistics[57981] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57982] = {
+_G.pg.base.item_data_statistics[57982] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -116999,7 +117026,7 @@ _G.pg.item_data_statistics[57982] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57983] = {
+_G.pg.base.item_data_statistics[57983] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -117131,7 +117158,7 @@ _G.pg.item_data_statistics[57983] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57984] = {
+_G.pg.base.item_data_statistics[57984] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -117263,7 +117290,7 @@ _G.pg.item_data_statistics[57984] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57985] = {
+_G.pg.base.item_data_statistics[57985] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -117400,7 +117427,7 @@ _G.pg.item_data_statistics[57985] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57986] = {
+_G.pg.base.item_data_statistics[57986] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -117447,7 +117474,7 @@ _G.pg.item_data_statistics[57986] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57987] = {
+_G.pg.base.item_data_statistics[57987] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -117489,7 +117516,7 @@ _G.pg.item_data_statistics[57987] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57988] = {
+_G.pg.base.item_data_statistics[57988] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -117626,7 +117653,7 @@ _G.pg.item_data_statistics[57988] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57989] = {
+_G.pg.base.item_data_statistics[57989] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -117673,7 +117700,7 @@ _G.pg.item_data_statistics[57989] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57990] = {
+_G.pg.base.item_data_statistics[57990] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -117720,7 +117747,7 @@ _G.pg.item_data_statistics[57990] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57991] = {
+_G.pg.base.item_data_statistics[57991] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -117767,7 +117794,7 @@ _G.pg.item_data_statistics[57991] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57992] = {
+_G.pg.base.item_data_statistics[57992] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -117814,7 +117841,7 @@ _G.pg.item_data_statistics[57992] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57993] = {
+_G.pg.base.item_data_statistics[57993] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -117861,7 +117888,7 @@ _G.pg.item_data_statistics[57993] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57994] = {
+_G.pg.base.item_data_statistics[57994] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -117908,7 +117935,7 @@ _G.pg.item_data_statistics[57994] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57995] = {
+_G.pg.base.item_data_statistics[57995] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -117955,7 +117982,7 @@ _G.pg.item_data_statistics[57995] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57996] = {
+_G.pg.base.item_data_statistics[57996] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -118002,7 +118029,7 @@ _G.pg.item_data_statistics[57996] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57997] = {
+_G.pg.base.item_data_statistics[57997] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -118049,7 +118076,7 @@ _G.pg.item_data_statistics[57997] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57998] = {
+_G.pg.base.item_data_statistics[57998] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -118096,7 +118123,7 @@ _G.pg.item_data_statistics[57998] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[57999] = {
+_G.pg.base.item_data_statistics[57999] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -118143,7 +118170,7 @@ _G.pg.item_data_statistics[57999] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58000] = {
+_G.pg.base.item_data_statistics[58000] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -118190,7 +118217,7 @@ _G.pg.item_data_statistics[58000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58001] = {
+_G.pg.base.item_data_statistics[58001] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -118322,7 +118349,7 @@ _G.pg.item_data_statistics[58001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58002] = {
+_G.pg.base.item_data_statistics[58002] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -118454,7 +118481,7 @@ _G.pg.item_data_statistics[58002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58003] = {
+_G.pg.base.item_data_statistics[58003] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -118586,7 +118613,7 @@ _G.pg.item_data_statistics[58003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58004] = {
+_G.pg.base.item_data_statistics[58004] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -118718,7 +118745,7 @@ _G.pg.item_data_statistics[58004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58005] = {
+_G.pg.base.item_data_statistics[58005] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -118850,7 +118877,7 @@ _G.pg.item_data_statistics[58005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58006] = {
+_G.pg.base.item_data_statistics[58006] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -118987,7 +119014,7 @@ _G.pg.item_data_statistics[58006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58007] = {
+_G.pg.base.item_data_statistics[58007] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119034,7 +119061,7 @@ _G.pg.item_data_statistics[58007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58008] = {
+_G.pg.base.item_data_statistics[58008] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119081,7 +119108,7 @@ _G.pg.item_data_statistics[58008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58009] = {
+_G.pg.base.item_data_statistics[58009] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119128,7 +119155,7 @@ _G.pg.item_data_statistics[58009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58010] = {
+_G.pg.base.item_data_statistics[58010] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119175,7 +119202,7 @@ _G.pg.item_data_statistics[58010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58011] = {
+_G.pg.base.item_data_statistics[58011] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119222,7 +119249,7 @@ _G.pg.item_data_statistics[58011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58012] = {
+_G.pg.base.item_data_statistics[58012] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119269,7 +119296,7 @@ _G.pg.item_data_statistics[58012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58013] = {
+_G.pg.base.item_data_statistics[58013] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119316,7 +119343,7 @@ _G.pg.item_data_statistics[58013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58014] = {
+_G.pg.base.item_data_statistics[58014] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119358,7 +119385,7 @@ _G.pg.item_data_statistics[58014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58015] = {
+_G.pg.base.item_data_statistics[58015] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119400,7 +119427,7 @@ _G.pg.item_data_statistics[58015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58016] = {
+_G.pg.base.item_data_statistics[58016] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119442,7 +119469,7 @@ _G.pg.item_data_statistics[58016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58017] = {
+_G.pg.base.item_data_statistics[58017] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119484,7 +119511,7 @@ _G.pg.item_data_statistics[58017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58018] = {
+_G.pg.base.item_data_statistics[58018] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -119526,7 +119553,7 @@ _G.pg.item_data_statistics[58018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58019] = {
+_G.pg.base.item_data_statistics[58019] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -119658,7 +119685,7 @@ _G.pg.item_data_statistics[58019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58020] = {
+_G.pg.base.item_data_statistics[58020] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -119790,7 +119817,7 @@ _G.pg.item_data_statistics[58020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58021] = {
+_G.pg.base.item_data_statistics[58021] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -119922,7 +119949,7 @@ _G.pg.item_data_statistics[58021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58022] = {
+_G.pg.base.item_data_statistics[58022] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -120054,7 +120081,7 @@ _G.pg.item_data_statistics[58022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58023] = {
+_G.pg.base.item_data_statistics[58023] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -120186,7 +120213,7 @@ _G.pg.item_data_statistics[58023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58024] = {
+_G.pg.base.item_data_statistics[58024] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -120323,7 +120350,7 @@ _G.pg.item_data_statistics[58024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58025] = {
+_G.pg.base.item_data_statistics[58025] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -120370,7 +120397,7 @@ _G.pg.item_data_statistics[58025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58026] = {
+_G.pg.base.item_data_statistics[58026] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -120412,7 +120439,7 @@ _G.pg.item_data_statistics[58026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58027] = {
+_G.pg.base.item_data_statistics[58027] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -120549,7 +120576,7 @@ _G.pg.item_data_statistics[58027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58028] = {
+_G.pg.base.item_data_statistics[58028] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -120596,7 +120623,7 @@ _G.pg.item_data_statistics[58028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58029] = {
+_G.pg.base.item_data_statistics[58029] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -120643,7 +120670,7 @@ _G.pg.item_data_statistics[58029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58030] = {
+_G.pg.base.item_data_statistics[58030] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -120690,7 +120717,7 @@ _G.pg.item_data_statistics[58030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58031] = {
+_G.pg.base.item_data_statistics[58031] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -120737,7 +120764,7 @@ _G.pg.item_data_statistics[58031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58032] = {
+_G.pg.base.item_data_statistics[58032] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -120784,7 +120811,7 @@ _G.pg.item_data_statistics[58032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58033] = {
+_G.pg.base.item_data_statistics[58033] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -120826,7 +120853,7 @@ _G.pg.item_data_statistics[58033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58034] = {
+_G.pg.base.item_data_statistics[58034] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -120958,7 +120985,7 @@ _G.pg.item_data_statistics[58034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58035] = {
+_G.pg.base.item_data_statistics[58035] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -121090,7 +121117,7 @@ _G.pg.item_data_statistics[58035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58036] = {
+_G.pg.base.item_data_statistics[58036] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -121222,7 +121249,7 @@ _G.pg.item_data_statistics[58036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58040] = {
+_G.pg.base.item_data_statistics[58040] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121269,7 +121296,7 @@ _G.pg.item_data_statistics[58040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58041] = {
+_G.pg.base.item_data_statistics[58041] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121316,7 +121343,7 @@ _G.pg.item_data_statistics[58041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58042] = {
+_G.pg.base.item_data_statistics[58042] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121363,7 +121390,7 @@ _G.pg.item_data_statistics[58042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58043] = {
+_G.pg.base.item_data_statistics[58043] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121410,7 +121437,7 @@ _G.pg.item_data_statistics[58043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58044] = {
+_G.pg.base.item_data_statistics[58044] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121457,7 +121484,7 @@ _G.pg.item_data_statistics[58044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58045] = {
+_G.pg.base.item_data_statistics[58045] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121504,7 +121531,7 @@ _G.pg.item_data_statistics[58045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58046] = {
+_G.pg.base.item_data_statistics[58046] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121551,7 +121578,7 @@ _G.pg.item_data_statistics[58046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58047] = {
+_G.pg.base.item_data_statistics[58047] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121598,7 +121625,7 @@ _G.pg.item_data_statistics[58047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58048] = {
+_G.pg.base.item_data_statistics[58048] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121645,7 +121672,7 @@ _G.pg.item_data_statistics[58048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58049] = {
+_G.pg.base.item_data_statistics[58049] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121692,7 +121719,7 @@ _G.pg.item_data_statistics[58049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58050] = {
+_G.pg.base.item_data_statistics[58050] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121734,7 +121761,7 @@ _G.pg.item_data_statistics[58050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58051] = {
+_G.pg.base.item_data_statistics[58051] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -121776,7 +121803,7 @@ _G.pg.item_data_statistics[58051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58052] = {
+_G.pg.base.item_data_statistics[58052] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -121908,7 +121935,7 @@ _G.pg.item_data_statistics[58052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58053] = {
+_G.pg.base.item_data_statistics[58053] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -122040,7 +122067,7 @@ _G.pg.item_data_statistics[58053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58054] = {
+_G.pg.base.item_data_statistics[58054] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -122172,7 +122199,7 @@ _G.pg.item_data_statistics[58054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58055] = {
+_G.pg.base.item_data_statistics[58055] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -122304,7 +122331,7 @@ _G.pg.item_data_statistics[58055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58056] = {
+_G.pg.base.item_data_statistics[58056] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -122436,7 +122463,7 @@ _G.pg.item_data_statistics[58056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58057] = {
+_G.pg.base.item_data_statistics[58057] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -122568,7 +122595,7 @@ _G.pg.item_data_statistics[58057] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58058] = {
+_G.pg.base.item_data_statistics[58058] = {
 	display = "일정 확률로 다음 장비 스킨 중 1개 획득 가능.",
 	name = "아이돌 이벤트 장비 스킨 상자",
 	max_num = 0,
@@ -122680,7 +122707,7 @@ _G.pg.item_data_statistics[58058] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58060] = {
+_G.pg.base.item_data_statistics[58060] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -122727,7 +122754,7 @@ _G.pg.item_data_statistics[58060] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58061] = {
+_G.pg.base.item_data_statistics[58061] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -122774,7 +122801,7 @@ _G.pg.item_data_statistics[58061] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58062] = {
+_G.pg.base.item_data_statistics[58062] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -122821,7 +122848,7 @@ _G.pg.item_data_statistics[58062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58063] = {
+_G.pg.base.item_data_statistics[58063] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -122868,7 +122895,7 @@ _G.pg.item_data_statistics[58063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58064] = {
+_G.pg.base.item_data_statistics[58064] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -122915,7 +122942,7 @@ _G.pg.item_data_statistics[58064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58065] = {
+_G.pg.base.item_data_statistics[58065] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -122962,7 +122989,7 @@ _G.pg.item_data_statistics[58065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58066] = {
+_G.pg.base.item_data_statistics[58066] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -123009,7 +123036,7 @@ _G.pg.item_data_statistics[58066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58067] = {
+_G.pg.base.item_data_statistics[58067] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -123056,7 +123083,7 @@ _G.pg.item_data_statistics[58067] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58068] = {
+_G.pg.base.item_data_statistics[58068] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -123098,7 +123125,7 @@ _G.pg.item_data_statistics[58068] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58069] = {
+_G.pg.base.item_data_statistics[58069] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -123140,7 +123167,7 @@ _G.pg.item_data_statistics[58069] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58070] = {
+_G.pg.base.item_data_statistics[58070] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -123272,7 +123299,7 @@ _G.pg.item_data_statistics[58070] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58071] = {
+_G.pg.base.item_data_statistics[58071] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -123404,7 +123431,7 @@ _G.pg.item_data_statistics[58071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58072] = {
+_G.pg.base.item_data_statistics[58072] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -123536,7 +123563,7 @@ _G.pg.item_data_statistics[58072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58073] = {
+_G.pg.base.item_data_statistics[58073] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -123673,7 +123700,7 @@ _G.pg.item_data_statistics[58073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58074] = {
+_G.pg.base.item_data_statistics[58074] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -123810,7 +123837,7 @@ _G.pg.item_data_statistics[58074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58075] = {
+_G.pg.base.item_data_statistics[58075] = {
 	display = "장비 스킨 상자를 몇 차례 획득하면, 장비 스킨 중 하나를 획득한다.",
 	name = "DOA联动外观装备箱",
 	max_num = 0,
@@ -123922,7 +123949,7 @@ _G.pg.item_data_statistics[58075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58076] = {
+_G.pg.base.item_data_statistics[58076] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -123969,7 +123996,7 @@ _G.pg.item_data_statistics[58076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58077] = {
+_G.pg.base.item_data_statistics[58077] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124016,7 +124043,7 @@ _G.pg.item_data_statistics[58077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58078] = {
+_G.pg.base.item_data_statistics[58078] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124063,7 +124090,7 @@ _G.pg.item_data_statistics[58078] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58079] = {
+_G.pg.base.item_data_statistics[58079] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124110,7 +124137,7 @@ _G.pg.item_data_statistics[58079] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58080] = {
+_G.pg.base.item_data_statistics[58080] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124157,7 +124184,7 @@ _G.pg.item_data_statistics[58080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58081] = {
+_G.pg.base.item_data_statistics[58081] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124204,7 +124231,7 @@ _G.pg.item_data_statistics[58081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58082] = {
+_G.pg.base.item_data_statistics[58082] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124251,7 +124278,7 @@ _G.pg.item_data_statistics[58082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58083] = {
+_G.pg.base.item_data_statistics[58083] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124298,7 +124325,7 @@ _G.pg.item_data_statistics[58083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58084] = {
+_G.pg.base.item_data_statistics[58084] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124345,7 +124372,7 @@ _G.pg.item_data_statistics[58084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58085] = {
+_G.pg.base.item_data_statistics[58085] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124392,7 +124419,7 @@ _G.pg.item_data_statistics[58085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58086] = {
+_G.pg.base.item_data_statistics[58086] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124439,7 +124466,7 @@ _G.pg.item_data_statistics[58086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58087] = {
+_G.pg.base.item_data_statistics[58087] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -124486,7 +124513,7 @@ _G.pg.item_data_statistics[58087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58088] = {
+_G.pg.base.item_data_statistics[58088] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -124618,7 +124645,7 @@ _G.pg.item_data_statistics[58088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58089] = {
+_G.pg.base.item_data_statistics[58089] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -124750,7 +124777,7 @@ _G.pg.item_data_statistics[58089] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58090] = {
+_G.pg.base.item_data_statistics[58090] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -124882,7 +124909,7 @@ _G.pg.item_data_statistics[58090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58091] = {
+_G.pg.base.item_data_statistics[58091] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -125014,7 +125041,7 @@ _G.pg.item_data_statistics[58091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58092] = {
+_G.pg.base.item_data_statistics[58092] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -125146,7 +125173,7 @@ _G.pg.item_data_statistics[58092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58093] = {
+_G.pg.base.item_data_statistics[58093] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -125283,7 +125310,7 @@ _G.pg.item_data_statistics[58093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58094] = {
+_G.pg.base.item_data_statistics[58094] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125330,7 +125357,7 @@ _G.pg.item_data_statistics[58094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58095] = {
+_G.pg.base.item_data_statistics[58095] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125377,7 +125404,7 @@ _G.pg.item_data_statistics[58095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58096] = {
+_G.pg.base.item_data_statistics[58096] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125424,7 +125451,7 @@ _G.pg.item_data_statistics[58096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58097] = {
+_G.pg.base.item_data_statistics[58097] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125471,7 +125498,7 @@ _G.pg.item_data_statistics[58097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58098] = {
+_G.pg.base.item_data_statistics[58098] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125518,7 +125545,7 @@ _G.pg.item_data_statistics[58098] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58099] = {
+_G.pg.base.item_data_statistics[58099] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125565,7 +125592,7 @@ _G.pg.item_data_statistics[58099] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58100] = {
+_G.pg.base.item_data_statistics[58100] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125612,7 +125639,7 @@ _G.pg.item_data_statistics[58100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58101] = {
+_G.pg.base.item_data_statistics[58101] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125654,7 +125681,7 @@ _G.pg.item_data_statistics[58101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58102] = {
+_G.pg.base.item_data_statistics[58102] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125696,7 +125723,7 @@ _G.pg.item_data_statistics[58102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58103] = {
+_G.pg.base.item_data_statistics[58103] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125738,7 +125765,7 @@ _G.pg.item_data_statistics[58103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58104] = {
+_G.pg.base.item_data_statistics[58104] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125780,7 +125807,7 @@ _G.pg.item_data_statistics[58104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58105] = {
+_G.pg.base.item_data_statistics[58105] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -125822,7 +125849,7 @@ _G.pg.item_data_statistics[58105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58106] = {
+_G.pg.base.item_data_statistics[58106] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -125954,7 +125981,7 @@ _G.pg.item_data_statistics[58106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58107] = {
+_G.pg.base.item_data_statistics[58107] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -126086,7 +126113,7 @@ _G.pg.item_data_statistics[58107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58108] = {
+_G.pg.base.item_data_statistics[58108] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -126218,7 +126245,7 @@ _G.pg.item_data_statistics[58108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58109] = {
+_G.pg.base.item_data_statistics[58109] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -126350,7 +126377,7 @@ _G.pg.item_data_statistics[58109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58110] = {
+_G.pg.base.item_data_statistics[58110] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -126482,7 +126509,7 @@ _G.pg.item_data_statistics[58110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58111] = {
+_G.pg.base.item_data_statistics[58111] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -126619,7 +126646,7 @@ _G.pg.item_data_statistics[58111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58112] = {
+_G.pg.base.item_data_statistics[58112] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -126666,7 +126693,7 @@ _G.pg.item_data_statistics[58112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58113] = {
+_G.pg.base.item_data_statistics[58113] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -126708,7 +126735,7 @@ _G.pg.item_data_statistics[58113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58114] = {
+_G.pg.base.item_data_statistics[58114] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -126845,7 +126872,7 @@ _G.pg.item_data_statistics[58114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58120] = {
+_G.pg.base.item_data_statistics[58120] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -126892,7 +126919,7 @@ _G.pg.item_data_statistics[58120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58121] = {
+_G.pg.base.item_data_statistics[58121] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -126939,7 +126966,7 @@ _G.pg.item_data_statistics[58121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58122] = {
+_G.pg.base.item_data_statistics[58122] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -126986,7 +127013,7 @@ _G.pg.item_data_statistics[58122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58123] = {
+_G.pg.base.item_data_statistics[58123] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -127033,7 +127060,7 @@ _G.pg.item_data_statistics[58123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58124] = {
+_G.pg.base.item_data_statistics[58124] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -127080,7 +127107,7 @@ _G.pg.item_data_statistics[58124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58125] = {
+_G.pg.base.item_data_statistics[58125] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -127127,7 +127154,7 @@ _G.pg.item_data_statistics[58125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58126] = {
+_G.pg.base.item_data_statistics[58126] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -127174,7 +127201,7 @@ _G.pg.item_data_statistics[58126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58127] = {
+_G.pg.base.item_data_statistics[58127] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -127221,7 +127248,7 @@ _G.pg.item_data_statistics[58127] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58128] = {
+_G.pg.base.item_data_statistics[58128] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -127268,7 +127295,7 @@ _G.pg.item_data_statistics[58128] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58129] = {
+_G.pg.base.item_data_statistics[58129] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -127315,7 +127342,7 @@ _G.pg.item_data_statistics[58129] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58130] = {
+_G.pg.base.item_data_statistics[58130] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -127362,7 +127389,7 @@ _G.pg.item_data_statistics[58130] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58131] = {
+_G.pg.base.item_data_statistics[58131] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -127409,7 +127436,7 @@ _G.pg.item_data_statistics[58131] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58132] = {
+_G.pg.base.item_data_statistics[58132] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -127541,7 +127568,7 @@ _G.pg.item_data_statistics[58132] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58133] = {
+_G.pg.base.item_data_statistics[58133] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -127673,7 +127700,7 @@ _G.pg.item_data_statistics[58133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58134] = {
+_G.pg.base.item_data_statistics[58134] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -127805,7 +127832,7 @@ _G.pg.item_data_statistics[58134] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58135] = {
+_G.pg.base.item_data_statistics[58135] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -127937,7 +127964,7 @@ _G.pg.item_data_statistics[58135] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58136] = {
+_G.pg.base.item_data_statistics[58136] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -128069,7 +128096,7 @@ _G.pg.item_data_statistics[58136] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58137] = {
+_G.pg.base.item_data_statistics[58137] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -128206,7 +128233,7 @@ _G.pg.item_data_statistics[58137] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58138] = {
+_G.pg.base.item_data_statistics[58138] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128253,7 +128280,7 @@ _G.pg.item_data_statistics[58138] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58139] = {
+_G.pg.base.item_data_statistics[58139] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128300,7 +128327,7 @@ _G.pg.item_data_statistics[58139] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58140] = {
+_G.pg.base.item_data_statistics[58140] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128347,7 +128374,7 @@ _G.pg.item_data_statistics[58140] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58141] = {
+_G.pg.base.item_data_statistics[58141] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128394,7 +128421,7 @@ _G.pg.item_data_statistics[58141] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58142] = {
+_G.pg.base.item_data_statistics[58142] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128441,7 +128468,7 @@ _G.pg.item_data_statistics[58142] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58143] = {
+_G.pg.base.item_data_statistics[58143] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128488,7 +128515,7 @@ _G.pg.item_data_statistics[58143] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58144] = {
+_G.pg.base.item_data_statistics[58144] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128535,7 +128562,7 @@ _G.pg.item_data_statistics[58144] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58145] = {
+_G.pg.base.item_data_statistics[58145] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128577,7 +128604,7 @@ _G.pg.item_data_statistics[58145] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58146] = {
+_G.pg.base.item_data_statistics[58146] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128619,7 +128646,7 @@ _G.pg.item_data_statistics[58146] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58147] = {
+_G.pg.base.item_data_statistics[58147] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128661,7 +128688,7 @@ _G.pg.item_data_statistics[58147] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58148] = {
+_G.pg.base.item_data_statistics[58148] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128703,7 +128730,7 @@ _G.pg.item_data_statistics[58148] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58149] = {
+_G.pg.base.item_data_statistics[58149] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -128745,7 +128772,7 @@ _G.pg.item_data_statistics[58149] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58150] = {
+_G.pg.base.item_data_statistics[58150] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -128877,7 +128904,7 @@ _G.pg.item_data_statistics[58150] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58151] = {
+_G.pg.base.item_data_statistics[58151] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -129009,7 +129036,7 @@ _G.pg.item_data_statistics[58151] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58152] = {
+_G.pg.base.item_data_statistics[58152] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -129141,7 +129168,7 @@ _G.pg.item_data_statistics[58152] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58153] = {
+_G.pg.base.item_data_statistics[58153] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -129273,7 +129300,7 @@ _G.pg.item_data_statistics[58153] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58154] = {
+_G.pg.base.item_data_statistics[58154] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -129405,7 +129432,7 @@ _G.pg.item_data_statistics[58154] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58155] = {
+_G.pg.base.item_data_statistics[58155] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -129542,7 +129569,7 @@ _G.pg.item_data_statistics[58155] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58156] = {
+_G.pg.base.item_data_statistics[58156] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -129589,7 +129616,7 @@ _G.pg.item_data_statistics[58156] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58157] = {
+_G.pg.base.item_data_statistics[58157] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -129631,7 +129658,7 @@ _G.pg.item_data_statistics[58157] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58158] = {
+_G.pg.base.item_data_statistics[58158] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -129768,7 +129795,7 @@ _G.pg.item_data_statistics[58158] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58160] = {
+_G.pg.base.item_data_statistics[58160] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -129815,7 +129842,7 @@ _G.pg.item_data_statistics[58160] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58161] = {
+_G.pg.base.item_data_statistics[58161] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -129862,7 +129889,7 @@ _G.pg.item_data_statistics[58161] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58162] = {
+_G.pg.base.item_data_statistics[58162] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -129909,7 +129936,7 @@ _G.pg.item_data_statistics[58162] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58163] = {
+_G.pg.base.item_data_statistics[58163] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -129956,7 +129983,7 @@ _G.pg.item_data_statistics[58163] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58164] = {
+_G.pg.base.item_data_statistics[58164] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -130003,7 +130030,7 @@ _G.pg.item_data_statistics[58164] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58165] = {
+_G.pg.base.item_data_statistics[58165] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -130050,7 +130077,7 @@ _G.pg.item_data_statistics[58165] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58166] = {
+_G.pg.base.item_data_statistics[58166] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -130097,7 +130124,7 @@ _G.pg.item_data_statistics[58166] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58167] = {
+_G.pg.base.item_data_statistics[58167] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -130144,7 +130171,7 @@ _G.pg.item_data_statistics[58167] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58168] = {
+_G.pg.base.item_data_statistics[58168] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -130191,7 +130218,7 @@ _G.pg.item_data_statistics[58168] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58169] = {
+_G.pg.base.item_data_statistics[58169] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -130238,7 +130265,7 @@ _G.pg.item_data_statistics[58169] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58170] = {
+_G.pg.base.item_data_statistics[58170] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -130285,7 +130312,7 @@ _G.pg.item_data_statistics[58170] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58171] = {
+_G.pg.base.item_data_statistics[58171] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -130332,7 +130359,7 @@ _G.pg.item_data_statistics[58171] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58172] = {
+_G.pg.base.item_data_statistics[58172] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -130464,7 +130491,7 @@ _G.pg.item_data_statistics[58172] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58173] = {
+_G.pg.base.item_data_statistics[58173] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -130596,7 +130623,7 @@ _G.pg.item_data_statistics[58173] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58174] = {
+_G.pg.base.item_data_statistics[58174] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -130728,7 +130755,7 @@ _G.pg.item_data_statistics[58174] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58175] = {
+_G.pg.base.item_data_statistics[58175] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -130860,7 +130887,7 @@ _G.pg.item_data_statistics[58175] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58176] = {
+_G.pg.base.item_data_statistics[58176] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -130992,7 +131019,7 @@ _G.pg.item_data_statistics[58176] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58177] = {
+_G.pg.base.item_data_statistics[58177] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -131129,7 +131156,7 @@ _G.pg.item_data_statistics[58177] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58178] = {
+_G.pg.base.item_data_statistics[58178] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131176,7 +131203,7 @@ _G.pg.item_data_statistics[58178] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58179] = {
+_G.pg.base.item_data_statistics[58179] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131223,7 +131250,7 @@ _G.pg.item_data_statistics[58179] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58180] = {
+_G.pg.base.item_data_statistics[58180] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131270,7 +131297,7 @@ _G.pg.item_data_statistics[58180] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58181] = {
+_G.pg.base.item_data_statistics[58181] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131317,7 +131344,7 @@ _G.pg.item_data_statistics[58181] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58182] = {
+_G.pg.base.item_data_statistics[58182] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131364,7 +131391,7 @@ _G.pg.item_data_statistics[58182] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58183] = {
+_G.pg.base.item_data_statistics[58183] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131411,7 +131438,7 @@ _G.pg.item_data_statistics[58183] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58184] = {
+_G.pg.base.item_data_statistics[58184] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131458,7 +131485,7 @@ _G.pg.item_data_statistics[58184] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58185] = {
+_G.pg.base.item_data_statistics[58185] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131500,7 +131527,7 @@ _G.pg.item_data_statistics[58185] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58186] = {
+_G.pg.base.item_data_statistics[58186] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131542,7 +131569,7 @@ _G.pg.item_data_statistics[58186] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58187] = {
+_G.pg.base.item_data_statistics[58187] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131584,7 +131611,7 @@ _G.pg.item_data_statistics[58187] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58188] = {
+_G.pg.base.item_data_statistics[58188] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131626,7 +131653,7 @@ _G.pg.item_data_statistics[58188] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58189] = {
+_G.pg.base.item_data_statistics[58189] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -131668,7 +131695,7 @@ _G.pg.item_data_statistics[58189] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58190] = {
+_G.pg.base.item_data_statistics[58190] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -131800,7 +131827,7 @@ _G.pg.item_data_statistics[58190] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58191] = {
+_G.pg.base.item_data_statistics[58191] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -131932,7 +131959,7 @@ _G.pg.item_data_statistics[58191] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58192] = {
+_G.pg.base.item_data_statistics[58192] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -132064,7 +132091,7 @@ _G.pg.item_data_statistics[58192] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58193] = {
+_G.pg.base.item_data_statistics[58193] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -132196,7 +132223,7 @@ _G.pg.item_data_statistics[58193] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58194] = {
+_G.pg.base.item_data_statistics[58194] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -132328,7 +132355,7 @@ _G.pg.item_data_statistics[58194] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58195] = {
+_G.pg.base.item_data_statistics[58195] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -132465,7 +132492,7 @@ _G.pg.item_data_statistics[58195] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58196] = {
+_G.pg.base.item_data_statistics[58196] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -132512,7 +132539,7 @@ _G.pg.item_data_statistics[58196] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58197] = {
+_G.pg.base.item_data_statistics[58197] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -132554,7 +132581,7 @@ _G.pg.item_data_statistics[58197] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58198] = {
+_G.pg.base.item_data_statistics[58198] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -132691,7 +132718,7 @@ _G.pg.item_data_statistics[58198] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58200] = {
+_G.pg.base.item_data_statistics[58200] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -132738,7 +132765,7 @@ _G.pg.item_data_statistics[58200] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58201] = {
+_G.pg.base.item_data_statistics[58201] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -132785,7 +132812,7 @@ _G.pg.item_data_statistics[58201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58202] = {
+_G.pg.base.item_data_statistics[58202] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -132832,7 +132859,7 @@ _G.pg.item_data_statistics[58202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58203] = {
+_G.pg.base.item_data_statistics[58203] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -132879,7 +132906,7 @@ _G.pg.item_data_statistics[58203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58204] = {
+_G.pg.base.item_data_statistics[58204] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -132926,7 +132953,7 @@ _G.pg.item_data_statistics[58204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58205] = {
+_G.pg.base.item_data_statistics[58205] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -132973,7 +133000,7 @@ _G.pg.item_data_statistics[58205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58206] = {
+_G.pg.base.item_data_statistics[58206] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -133020,7 +133047,7 @@ _G.pg.item_data_statistics[58206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58207] = {
+_G.pg.base.item_data_statistics[58207] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -133067,7 +133094,7 @@ _G.pg.item_data_statistics[58207] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58208] = {
+_G.pg.base.item_data_statistics[58208] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -133114,7 +133141,7 @@ _G.pg.item_data_statistics[58208] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58209] = {
+_G.pg.base.item_data_statistics[58209] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -133161,7 +133188,7 @@ _G.pg.item_data_statistics[58209] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58210] = {
+_G.pg.base.item_data_statistics[58210] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -133208,7 +133235,7 @@ _G.pg.item_data_statistics[58210] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58211] = {
+_G.pg.base.item_data_statistics[58211] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -133255,7 +133282,7 @@ _G.pg.item_data_statistics[58211] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58212] = {
+_G.pg.base.item_data_statistics[58212] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -133387,7 +133414,7 @@ _G.pg.item_data_statistics[58212] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58213] = {
+_G.pg.base.item_data_statistics[58213] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -133519,7 +133546,7 @@ _G.pg.item_data_statistics[58213] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58214] = {
+_G.pg.base.item_data_statistics[58214] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -133651,7 +133678,7 @@ _G.pg.item_data_statistics[58214] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58215] = {
+_G.pg.base.item_data_statistics[58215] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -133783,7 +133810,7 @@ _G.pg.item_data_statistics[58215] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58216] = {
+_G.pg.base.item_data_statistics[58216] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -133915,7 +133942,7 @@ _G.pg.item_data_statistics[58216] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58217] = {
+_G.pg.base.item_data_statistics[58217] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -134052,7 +134079,7 @@ _G.pg.item_data_statistics[58217] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58218] = {
+_G.pg.base.item_data_statistics[58218] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134099,7 +134126,7 @@ _G.pg.item_data_statistics[58218] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58219] = {
+_G.pg.base.item_data_statistics[58219] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134146,7 +134173,7 @@ _G.pg.item_data_statistics[58219] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58220] = {
+_G.pg.base.item_data_statistics[58220] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134193,7 +134220,7 @@ _G.pg.item_data_statistics[58220] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58221] = {
+_G.pg.base.item_data_statistics[58221] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134240,7 +134267,7 @@ _G.pg.item_data_statistics[58221] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58222] = {
+_G.pg.base.item_data_statistics[58222] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134287,7 +134314,7 @@ _G.pg.item_data_statistics[58222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58223] = {
+_G.pg.base.item_data_statistics[58223] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134334,7 +134361,7 @@ _G.pg.item_data_statistics[58223] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58224] = {
+_G.pg.base.item_data_statistics[58224] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134381,7 +134408,7 @@ _G.pg.item_data_statistics[58224] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58225] = {
+_G.pg.base.item_data_statistics[58225] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134423,7 +134450,7 @@ _G.pg.item_data_statistics[58225] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58226] = {
+_G.pg.base.item_data_statistics[58226] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134465,7 +134492,7 @@ _G.pg.item_data_statistics[58226] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58227] = {
+_G.pg.base.item_data_statistics[58227] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134507,7 +134534,7 @@ _G.pg.item_data_statistics[58227] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58228] = {
+_G.pg.base.item_data_statistics[58228] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134549,7 +134576,7 @@ _G.pg.item_data_statistics[58228] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58229] = {
+_G.pg.base.item_data_statistics[58229] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -134591,7 +134618,7 @@ _G.pg.item_data_statistics[58229] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58230] = {
+_G.pg.base.item_data_statistics[58230] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -134723,7 +134750,7 @@ _G.pg.item_data_statistics[58230] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58231] = {
+_G.pg.base.item_data_statistics[58231] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -134855,7 +134882,7 @@ _G.pg.item_data_statistics[58231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58232] = {
+_G.pg.base.item_data_statistics[58232] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -134987,7 +135014,7 @@ _G.pg.item_data_statistics[58232] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58233] = {
+_G.pg.base.item_data_statistics[58233] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -135119,7 +135146,7 @@ _G.pg.item_data_statistics[58233] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58234] = {
+_G.pg.base.item_data_statistics[58234] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -135251,7 +135278,7 @@ _G.pg.item_data_statistics[58234] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58235] = {
+_G.pg.base.item_data_statistics[58235] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -135388,7 +135415,7 @@ _G.pg.item_data_statistics[58235] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58236] = {
+_G.pg.base.item_data_statistics[58236] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135435,7 +135462,7 @@ _G.pg.item_data_statistics[58236] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58237] = {
+_G.pg.base.item_data_statistics[58237] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135477,7 +135504,7 @@ _G.pg.item_data_statistics[58237] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58238] = {
+_G.pg.base.item_data_statistics[58238] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -135614,7 +135641,7 @@ _G.pg.item_data_statistics[58238] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58240] = {
+_G.pg.base.item_data_statistics[58240] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135661,7 +135688,7 @@ _G.pg.item_data_statistics[58240] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58241] = {
+_G.pg.base.item_data_statistics[58241] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135708,7 +135735,7 @@ _G.pg.item_data_statistics[58241] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58242] = {
+_G.pg.base.item_data_statistics[58242] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135755,7 +135782,7 @@ _G.pg.item_data_statistics[58242] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58243] = {
+_G.pg.base.item_data_statistics[58243] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135802,7 +135829,7 @@ _G.pg.item_data_statistics[58243] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58244] = {
+_G.pg.base.item_data_statistics[58244] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135849,7 +135876,7 @@ _G.pg.item_data_statistics[58244] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58245] = {
+_G.pg.base.item_data_statistics[58245] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135896,7 +135923,7 @@ _G.pg.item_data_statistics[58245] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58246] = {
+_G.pg.base.item_data_statistics[58246] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135943,7 +135970,7 @@ _G.pg.item_data_statistics[58246] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58247] = {
+_G.pg.base.item_data_statistics[58247] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -135990,7 +136017,7 @@ _G.pg.item_data_statistics[58247] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58248] = {
+_G.pg.base.item_data_statistics[58248] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -136032,7 +136059,7 @@ _G.pg.item_data_statistics[58248] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58249] = {
+_G.pg.base.item_data_statistics[58249] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -136074,7 +136101,7 @@ _G.pg.item_data_statistics[58249] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58250] = {
+_G.pg.base.item_data_statistics[58250] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -136206,7 +136233,7 @@ _G.pg.item_data_statistics[58250] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58251] = {
+_G.pg.base.item_data_statistics[58251] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -136338,7 +136365,7 @@ _G.pg.item_data_statistics[58251] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58252] = {
+_G.pg.base.item_data_statistics[58252] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -136470,7 +136497,7 @@ _G.pg.item_data_statistics[58252] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58253] = {
+_G.pg.base.item_data_statistics[58253] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -136607,7 +136634,7 @@ _G.pg.item_data_statistics[58253] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58254] = {
+_G.pg.base.item_data_statistics[58254] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -136744,7 +136771,7 @@ _G.pg.item_data_statistics[58254] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58255] = {
+_G.pg.base.item_data_statistics[58255] = {
 	display = "장비 스킨 상자를 몇 차례 획득하면, 장비 스킨 중 하나를 획득한다. ",
 	name = "外观装备箱（偶像大师）",
 	max_num = 0,
@@ -136856,7 +136883,7 @@ _G.pg.item_data_statistics[58255] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58260] = {
+_G.pg.base.item_data_statistics[58260] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -136903,7 +136930,7 @@ _G.pg.item_data_statistics[58260] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58261] = {
+_G.pg.base.item_data_statistics[58261] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -136950,7 +136977,7 @@ _G.pg.item_data_statistics[58261] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58262] = {
+_G.pg.base.item_data_statistics[58262] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -136997,7 +137024,7 @@ _G.pg.item_data_statistics[58262] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58263] = {
+_G.pg.base.item_data_statistics[58263] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -137044,7 +137071,7 @@ _G.pg.item_data_statistics[58263] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58264] = {
+_G.pg.base.item_data_statistics[58264] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -137091,7 +137118,7 @@ _G.pg.item_data_statistics[58264] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58265] = {
+_G.pg.base.item_data_statistics[58265] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -137138,7 +137165,7 @@ _G.pg.item_data_statistics[58265] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58266] = {
+_G.pg.base.item_data_statistics[58266] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -137185,7 +137212,7 @@ _G.pg.item_data_statistics[58266] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58267] = {
+_G.pg.base.item_data_statistics[58267] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -137232,7 +137259,7 @@ _G.pg.item_data_statistics[58267] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58268] = {
+_G.pg.base.item_data_statistics[58268] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -137279,7 +137306,7 @@ _G.pg.item_data_statistics[58268] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58269] = {
+_G.pg.base.item_data_statistics[58269] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -137326,7 +137353,7 @@ _G.pg.item_data_statistics[58269] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58270] = {
+_G.pg.base.item_data_statistics[58270] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -137373,7 +137400,7 @@ _G.pg.item_data_statistics[58270] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58271] = {
+_G.pg.base.item_data_statistics[58271] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -137420,7 +137447,7 @@ _G.pg.item_data_statistics[58271] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58272] = {
+_G.pg.base.item_data_statistics[58272] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -137552,7 +137579,7 @@ _G.pg.item_data_statistics[58272] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58273] = {
+_G.pg.base.item_data_statistics[58273] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -137684,7 +137711,7 @@ _G.pg.item_data_statistics[58273] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58274] = {
+_G.pg.base.item_data_statistics[58274] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -137816,7 +137843,7 @@ _G.pg.item_data_statistics[58274] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58275] = {
+_G.pg.base.item_data_statistics[58275] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -137948,7 +137975,7 @@ _G.pg.item_data_statistics[58275] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58276] = {
+_G.pg.base.item_data_statistics[58276] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -138080,7 +138107,7 @@ _G.pg.item_data_statistics[58276] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58277] = {
+_G.pg.base.item_data_statistics[58277] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -138217,7 +138244,7 @@ _G.pg.item_data_statistics[58277] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58278] = {
+_G.pg.base.item_data_statistics[58278] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138264,7 +138291,7 @@ _G.pg.item_data_statistics[58278] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58279] = {
+_G.pg.base.item_data_statistics[58279] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138311,7 +138338,7 @@ _G.pg.item_data_statistics[58279] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58280] = {
+_G.pg.base.item_data_statistics[58280] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138358,7 +138385,7 @@ _G.pg.item_data_statistics[58280] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58281] = {
+_G.pg.base.item_data_statistics[58281] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138405,7 +138432,7 @@ _G.pg.item_data_statistics[58281] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58282] = {
+_G.pg.base.item_data_statistics[58282] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138452,7 +138479,7 @@ _G.pg.item_data_statistics[58282] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58283] = {
+_G.pg.base.item_data_statistics[58283] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138499,7 +138526,7 @@ _G.pg.item_data_statistics[58283] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58284] = {
+_G.pg.base.item_data_statistics[58284] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138546,7 +138573,7 @@ _G.pg.item_data_statistics[58284] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58285] = {
+_G.pg.base.item_data_statistics[58285] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138588,7 +138615,7 @@ _G.pg.item_data_statistics[58285] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58286] = {
+_G.pg.base.item_data_statistics[58286] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138630,7 +138657,7 @@ _G.pg.item_data_statistics[58286] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58287] = {
+_G.pg.base.item_data_statistics[58287] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138672,7 +138699,7 @@ _G.pg.item_data_statistics[58287] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58288] = {
+_G.pg.base.item_data_statistics[58288] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138714,7 +138741,7 @@ _G.pg.item_data_statistics[58288] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58289] = {
+_G.pg.base.item_data_statistics[58289] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -138756,7 +138783,7 @@ _G.pg.item_data_statistics[58289] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58290] = {
+_G.pg.base.item_data_statistics[58290] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -138888,7 +138915,7 @@ _G.pg.item_data_statistics[58290] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58291] = {
+_G.pg.base.item_data_statistics[58291] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -139020,7 +139047,7 @@ _G.pg.item_data_statistics[58291] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58292] = {
+_G.pg.base.item_data_statistics[58292] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -139152,7 +139179,7 @@ _G.pg.item_data_statistics[58292] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58293] = {
+_G.pg.base.item_data_statistics[58293] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -139284,7 +139311,7 @@ _G.pg.item_data_statistics[58293] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58294] = {
+_G.pg.base.item_data_statistics[58294] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -139416,7 +139443,7 @@ _G.pg.item_data_statistics[58294] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58295] = {
+_G.pg.base.item_data_statistics[58295] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -139553,7 +139580,7 @@ _G.pg.item_data_statistics[58295] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58296] = {
+_G.pg.base.item_data_statistics[58296] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -139600,7 +139627,7 @@ _G.pg.item_data_statistics[58296] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58297] = {
+_G.pg.base.item_data_statistics[58297] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -139642,7 +139669,7 @@ _G.pg.item_data_statistics[58297] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58298] = {
+_G.pg.base.item_data_statistics[58298] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -139779,7 +139806,7 @@ _G.pg.item_data_statistics[58298] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58300] = {
+_G.pg.base.item_data_statistics[58300] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -139826,7 +139853,7 @@ _G.pg.item_data_statistics[58300] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58301] = {
+_G.pg.base.item_data_statistics[58301] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -139873,7 +139900,7 @@ _G.pg.item_data_statistics[58301] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58302] = {
+_G.pg.base.item_data_statistics[58302] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -139920,7 +139947,7 @@ _G.pg.item_data_statistics[58302] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58303] = {
+_G.pg.base.item_data_statistics[58303] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -139967,7 +139994,7 @@ _G.pg.item_data_statistics[58303] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58304] = {
+_G.pg.base.item_data_statistics[58304] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140014,7 +140041,7 @@ _G.pg.item_data_statistics[58304] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58305] = {
+_G.pg.base.item_data_statistics[58305] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140056,7 +140083,7 @@ _G.pg.item_data_statistics[58305] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58306] = {
+_G.pg.base.item_data_statistics[58306] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -140188,7 +140215,7 @@ _G.pg.item_data_statistics[58306] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58307] = {
+_G.pg.base.item_data_statistics[58307] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -140320,7 +140347,7 @@ _G.pg.item_data_statistics[58307] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58308] = {
+_G.pg.base.item_data_statistics[58308] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -140452,7 +140479,7 @@ _G.pg.item_data_statistics[58308] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58400] = {
+_G.pg.base.item_data_statistics[58400] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140499,7 +140526,7 @@ _G.pg.item_data_statistics[58400] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58401] = {
+_G.pg.base.item_data_statistics[58401] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140546,7 +140573,7 @@ _G.pg.item_data_statistics[58401] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58402] = {
+_G.pg.base.item_data_statistics[58402] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140593,7 +140620,7 @@ _G.pg.item_data_statistics[58402] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58403] = {
+_G.pg.base.item_data_statistics[58403] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140640,7 +140667,7 @@ _G.pg.item_data_statistics[58403] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58404] = {
+_G.pg.base.item_data_statistics[58404] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140687,7 +140714,7 @@ _G.pg.item_data_statistics[58404] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58405] = {
+_G.pg.base.item_data_statistics[58405] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140734,7 +140761,7 @@ _G.pg.item_data_statistics[58405] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58406] = {
+_G.pg.base.item_data_statistics[58406] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140781,7 +140808,7 @@ _G.pg.item_data_statistics[58406] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58407] = {
+_G.pg.base.item_data_statistics[58407] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140828,7 +140855,7 @@ _G.pg.item_data_statistics[58407] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58408] = {
+_G.pg.base.item_data_statistics[58408] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140870,7 +140897,7 @@ _G.pg.item_data_statistics[58408] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58409] = {
+_G.pg.base.item_data_statistics[58409] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -140912,7 +140939,7 @@ _G.pg.item_data_statistics[58409] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58410] = {
+_G.pg.base.item_data_statistics[58410] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -141044,7 +141071,7 @@ _G.pg.item_data_statistics[58410] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58411] = {
+_G.pg.base.item_data_statistics[58411] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -141176,7 +141203,7 @@ _G.pg.item_data_statistics[58411] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58412] = {
+_G.pg.base.item_data_statistics[58412] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -141308,7 +141335,7 @@ _G.pg.item_data_statistics[58412] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58413] = {
+_G.pg.base.item_data_statistics[58413] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -141445,7 +141472,7 @@ _G.pg.item_data_statistics[58413] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58414] = {
+_G.pg.base.item_data_statistics[58414] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -141582,7 +141609,7 @@ _G.pg.item_data_statistics[58414] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58415] = {
+_G.pg.base.item_data_statistics[58415] = {
 	display = "장비 스킨 상자를 몇 차례 획득하면, 장비 스킨 중 하나를 획득한다. ",
 	name = "外观装备箱(SSSS)",
 	max_num = 0,
@@ -141694,7 +141721,7 @@ _G.pg.item_data_statistics[58415] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58420] = {
+_G.pg.base.item_data_statistics[58420] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -141741,7 +141768,7 @@ _G.pg.item_data_statistics[58420] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58421] = {
+_G.pg.base.item_data_statistics[58421] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -141788,7 +141815,7 @@ _G.pg.item_data_statistics[58421] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58422] = {
+_G.pg.base.item_data_statistics[58422] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -141835,7 +141862,7 @@ _G.pg.item_data_statistics[58422] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58423] = {
+_G.pg.base.item_data_statistics[58423] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -141882,7 +141909,7 @@ _G.pg.item_data_statistics[58423] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58424] = {
+_G.pg.base.item_data_statistics[58424] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -141929,7 +141956,7 @@ _G.pg.item_data_statistics[58424] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58425] = {
+_G.pg.base.item_data_statistics[58425] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -141976,7 +142003,7 @@ _G.pg.item_data_statistics[58425] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58426] = {
+_G.pg.base.item_data_statistics[58426] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -142023,7 +142050,7 @@ _G.pg.item_data_statistics[58426] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58427] = {
+_G.pg.base.item_data_statistics[58427] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -142070,7 +142097,7 @@ _G.pg.item_data_statistics[58427] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58428] = {
+_G.pg.base.item_data_statistics[58428] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -142117,7 +142144,7 @@ _G.pg.item_data_statistics[58428] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58429] = {
+_G.pg.base.item_data_statistics[58429] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -142164,7 +142191,7 @@ _G.pg.item_data_statistics[58429] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58430] = {
+_G.pg.base.item_data_statistics[58430] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -142211,7 +142238,7 @@ _G.pg.item_data_statistics[58430] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58431] = {
+_G.pg.base.item_data_statistics[58431] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -142258,7 +142285,7 @@ _G.pg.item_data_statistics[58431] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58432] = {
+_G.pg.base.item_data_statistics[58432] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -142390,7 +142417,7 @@ _G.pg.item_data_statistics[58432] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58433] = {
+_G.pg.base.item_data_statistics[58433] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -142522,7 +142549,7 @@ _G.pg.item_data_statistics[58433] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58434] = {
+_G.pg.base.item_data_statistics[58434] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -142654,7 +142681,7 @@ _G.pg.item_data_statistics[58434] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58435] = {
+_G.pg.base.item_data_statistics[58435] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -142786,7 +142813,7 @@ _G.pg.item_data_statistics[58435] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58436] = {
+_G.pg.base.item_data_statistics[58436] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -142918,7 +142945,7 @@ _G.pg.item_data_statistics[58436] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58437] = {
+_G.pg.base.item_data_statistics[58437] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -143055,7 +143082,7 @@ _G.pg.item_data_statistics[58437] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58438] = {
+_G.pg.base.item_data_statistics[58438] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143102,7 +143129,7 @@ _G.pg.item_data_statistics[58438] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58439] = {
+_G.pg.base.item_data_statistics[58439] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143149,7 +143176,7 @@ _G.pg.item_data_statistics[58439] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58440] = {
+_G.pg.base.item_data_statistics[58440] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143196,7 +143223,7 @@ _G.pg.item_data_statistics[58440] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58441] = {
+_G.pg.base.item_data_statistics[58441] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143243,7 +143270,7 @@ _G.pg.item_data_statistics[58441] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58442] = {
+_G.pg.base.item_data_statistics[58442] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143290,7 +143317,7 @@ _G.pg.item_data_statistics[58442] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58443] = {
+_G.pg.base.item_data_statistics[58443] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143337,7 +143364,7 @@ _G.pg.item_data_statistics[58443] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58444] = {
+_G.pg.base.item_data_statistics[58444] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143384,7 +143411,7 @@ _G.pg.item_data_statistics[58444] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58445] = {
+_G.pg.base.item_data_statistics[58445] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143426,7 +143453,7 @@ _G.pg.item_data_statistics[58445] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58446] = {
+_G.pg.base.item_data_statistics[58446] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143468,7 +143495,7 @@ _G.pg.item_data_statistics[58446] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58447] = {
+_G.pg.base.item_data_statistics[58447] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143510,7 +143537,7 @@ _G.pg.item_data_statistics[58447] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58448] = {
+_G.pg.base.item_data_statistics[58448] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143552,7 +143579,7 @@ _G.pg.item_data_statistics[58448] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58449] = {
+_G.pg.base.item_data_statistics[58449] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -143594,7 +143621,7 @@ _G.pg.item_data_statistics[58449] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58450] = {
+_G.pg.base.item_data_statistics[58450] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -143726,7 +143753,7 @@ _G.pg.item_data_statistics[58450] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58451] = {
+_G.pg.base.item_data_statistics[58451] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -143858,7 +143885,7 @@ _G.pg.item_data_statistics[58451] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58452] = {
+_G.pg.base.item_data_statistics[58452] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -143990,7 +144017,7 @@ _G.pg.item_data_statistics[58452] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58453] = {
+_G.pg.base.item_data_statistics[58453] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -144122,7 +144149,7 @@ _G.pg.item_data_statistics[58453] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58454] = {
+_G.pg.base.item_data_statistics[58454] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -144254,7 +144281,7 @@ _G.pg.item_data_statistics[58454] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58455] = {
+_G.pg.base.item_data_statistics[58455] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -144391,7 +144418,7 @@ _G.pg.item_data_statistics[58455] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58456] = {
+_G.pg.base.item_data_statistics[58456] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144438,7 +144465,7 @@ _G.pg.item_data_statistics[58456] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58457] = {
+_G.pg.base.item_data_statistics[58457] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144480,7 +144507,7 @@ _G.pg.item_data_statistics[58457] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58458] = {
+_G.pg.base.item_data_statistics[58458] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -144617,7 +144644,7 @@ _G.pg.item_data_statistics[58458] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58459] = {
+_G.pg.base.item_data_statistics[58459] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144664,7 +144691,7 @@ _G.pg.item_data_statistics[58459] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58460] = {
+_G.pg.base.item_data_statistics[58460] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144711,7 +144738,7 @@ _G.pg.item_data_statistics[58460] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58461] = {
+_G.pg.base.item_data_statistics[58461] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144758,7 +144785,7 @@ _G.pg.item_data_statistics[58461] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58470] = {
+_G.pg.base.item_data_statistics[58470] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144805,7 +144832,7 @@ _G.pg.item_data_statistics[58470] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58471] = {
+_G.pg.base.item_data_statistics[58471] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144852,7 +144879,7 @@ _G.pg.item_data_statistics[58471] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58472] = {
+_G.pg.base.item_data_statistics[58472] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144899,7 +144926,7 @@ _G.pg.item_data_statistics[58472] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58473] = {
+_G.pg.base.item_data_statistics[58473] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144946,7 +144973,7 @@ _G.pg.item_data_statistics[58473] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58474] = {
+_G.pg.base.item_data_statistics[58474] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -144993,7 +145020,7 @@ _G.pg.item_data_statistics[58474] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58475] = {
+_G.pg.base.item_data_statistics[58475] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -145040,7 +145067,7 @@ _G.pg.item_data_statistics[58475] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58476] = {
+_G.pg.base.item_data_statistics[58476] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -145087,7 +145114,7 @@ _G.pg.item_data_statistics[58476] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58477] = {
+_G.pg.base.item_data_statistics[58477] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -145134,7 +145161,7 @@ _G.pg.item_data_statistics[58477] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58478] = {
+_G.pg.base.item_data_statistics[58478] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -145181,7 +145208,7 @@ _G.pg.item_data_statistics[58478] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58479] = {
+_G.pg.base.item_data_statistics[58479] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -145228,7 +145255,7 @@ _G.pg.item_data_statistics[58479] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58480] = {
+_G.pg.base.item_data_statistics[58480] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -145275,7 +145302,7 @@ _G.pg.item_data_statistics[58480] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58481] = {
+_G.pg.base.item_data_statistics[58481] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -145322,7 +145349,7 @@ _G.pg.item_data_statistics[58481] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58482] = {
+_G.pg.base.item_data_statistics[58482] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -145454,7 +145481,7 @@ _G.pg.item_data_statistics[58482] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58483] = {
+_G.pg.base.item_data_statistics[58483] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -145586,7 +145613,7 @@ _G.pg.item_data_statistics[58483] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58484] = {
+_G.pg.base.item_data_statistics[58484] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -145718,7 +145745,7 @@ _G.pg.item_data_statistics[58484] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58485] = {
+_G.pg.base.item_data_statistics[58485] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -145850,7 +145877,7 @@ _G.pg.item_data_statistics[58485] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58486] = {
+_G.pg.base.item_data_statistics[58486] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -145982,7 +146009,7 @@ _G.pg.item_data_statistics[58486] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58487] = {
+_G.pg.base.item_data_statistics[58487] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -146119,7 +146146,7 @@ _G.pg.item_data_statistics[58487] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58488] = {
+_G.pg.base.item_data_statistics[58488] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146166,7 +146193,7 @@ _G.pg.item_data_statistics[58488] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58489] = {
+_G.pg.base.item_data_statistics[58489] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146213,7 +146240,7 @@ _G.pg.item_data_statistics[58489] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58490] = {
+_G.pg.base.item_data_statistics[58490] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146260,7 +146287,7 @@ _G.pg.item_data_statistics[58490] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58491] = {
+_G.pg.base.item_data_statistics[58491] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146307,7 +146334,7 @@ _G.pg.item_data_statistics[58491] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58492] = {
+_G.pg.base.item_data_statistics[58492] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146354,7 +146381,7 @@ _G.pg.item_data_statistics[58492] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58493] = {
+_G.pg.base.item_data_statistics[58493] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146401,7 +146428,7 @@ _G.pg.item_data_statistics[58493] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58494] = {
+_G.pg.base.item_data_statistics[58494] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146448,7 +146475,7 @@ _G.pg.item_data_statistics[58494] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58495] = {
+_G.pg.base.item_data_statistics[58495] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146490,7 +146517,7 @@ _G.pg.item_data_statistics[58495] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58496] = {
+_G.pg.base.item_data_statistics[58496] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146532,7 +146559,7 @@ _G.pg.item_data_statistics[58496] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58497] = {
+_G.pg.base.item_data_statistics[58497] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146574,7 +146601,7 @@ _G.pg.item_data_statistics[58497] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58498] = {
+_G.pg.base.item_data_statistics[58498] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146616,7 +146643,7 @@ _G.pg.item_data_statistics[58498] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58499] = {
+_G.pg.base.item_data_statistics[58499] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -146658,7 +146685,7 @@ _G.pg.item_data_statistics[58499] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58500] = {
+_G.pg.base.item_data_statistics[58500] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -146790,7 +146817,7 @@ _G.pg.item_data_statistics[58500] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58501] = {
+_G.pg.base.item_data_statistics[58501] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -146922,7 +146949,7 @@ _G.pg.item_data_statistics[58501] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58502] = {
+_G.pg.base.item_data_statistics[58502] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -147054,7 +147081,7 @@ _G.pg.item_data_statistics[58502] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58503] = {
+_G.pg.base.item_data_statistics[58503] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -147186,7 +147213,7 @@ _G.pg.item_data_statistics[58503] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58504] = {
+_G.pg.base.item_data_statistics[58504] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -147318,7 +147345,7 @@ _G.pg.item_data_statistics[58504] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58505] = {
+_G.pg.base.item_data_statistics[58505] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -147455,7 +147482,7 @@ _G.pg.item_data_statistics[58505] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58506] = {
+_G.pg.base.item_data_statistics[58506] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -147502,7 +147529,7 @@ _G.pg.item_data_statistics[58506] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58507] = {
+_G.pg.base.item_data_statistics[58507] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -147544,7 +147571,7 @@ _G.pg.item_data_statistics[58507] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58508] = {
+_G.pg.base.item_data_statistics[58508] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -147681,7 +147708,7 @@ _G.pg.item_data_statistics[58508] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58510] = {
+_G.pg.base.item_data_statistics[58510] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -147728,7 +147755,7 @@ _G.pg.item_data_statistics[58510] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58511] = {
+_G.pg.base.item_data_statistics[58511] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -147775,7 +147802,7 @@ _G.pg.item_data_statistics[58511] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58512] = {
+_G.pg.base.item_data_statistics[58512] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -147822,7 +147849,7 @@ _G.pg.item_data_statistics[58512] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58513] = {
+_G.pg.base.item_data_statistics[58513] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -147869,7 +147896,7 @@ _G.pg.item_data_statistics[58513] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58514] = {
+_G.pg.base.item_data_statistics[58514] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -147916,7 +147943,7 @@ _G.pg.item_data_statistics[58514] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58515] = {
+_G.pg.base.item_data_statistics[58515] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -147963,7 +147990,7 @@ _G.pg.item_data_statistics[58515] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58516] = {
+_G.pg.base.item_data_statistics[58516] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -148010,7 +148037,7 @@ _G.pg.item_data_statistics[58516] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58517] = {
+_G.pg.base.item_data_statistics[58517] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -148057,7 +148084,7 @@ _G.pg.item_data_statistics[58517] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58518] = {
+_G.pg.base.item_data_statistics[58518] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -148099,7 +148126,7 @@ _G.pg.item_data_statistics[58518] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58519] = {
+_G.pg.base.item_data_statistics[58519] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -148141,7 +148168,7 @@ _G.pg.item_data_statistics[58519] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58520] = {
+_G.pg.base.item_data_statistics[58520] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -148273,7 +148300,7 @@ _G.pg.item_data_statistics[58520] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58521] = {
+_G.pg.base.item_data_statistics[58521] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -148405,7 +148432,7 @@ _G.pg.item_data_statistics[58521] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58522] = {
+_G.pg.base.item_data_statistics[58522] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -148537,7 +148564,7 @@ _G.pg.item_data_statistics[58522] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58523] = {
+_G.pg.base.item_data_statistics[58523] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -148674,7 +148701,7 @@ _G.pg.item_data_statistics[58523] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58524] = {
+_G.pg.base.item_data_statistics[58524] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -148811,7 +148838,7 @@ _G.pg.item_data_statistics[58524] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58530] = {
+_G.pg.base.item_data_statistics[58530] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -148858,7 +148885,7 @@ _G.pg.item_data_statistics[58530] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58531] = {
+_G.pg.base.item_data_statistics[58531] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -148905,7 +148932,7 @@ _G.pg.item_data_statistics[58531] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58532] = {
+_G.pg.base.item_data_statistics[58532] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -148952,7 +148979,7 @@ _G.pg.item_data_statistics[58532] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58533] = {
+_G.pg.base.item_data_statistics[58533] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -148999,7 +149026,7 @@ _G.pg.item_data_statistics[58533] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58534] = {
+_G.pg.base.item_data_statistics[58534] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -149046,7 +149073,7 @@ _G.pg.item_data_statistics[58534] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58535] = {
+_G.pg.base.item_data_statistics[58535] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -149093,7 +149120,7 @@ _G.pg.item_data_statistics[58535] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58536] = {
+_G.pg.base.item_data_statistics[58536] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -149140,7 +149167,7 @@ _G.pg.item_data_statistics[58536] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58537] = {
+_G.pg.base.item_data_statistics[58537] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -149187,7 +149214,7 @@ _G.pg.item_data_statistics[58537] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58538] = {
+_G.pg.base.item_data_statistics[58538] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -149234,7 +149261,7 @@ _G.pg.item_data_statistics[58538] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58539] = {
+_G.pg.base.item_data_statistics[58539] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -149281,7 +149308,7 @@ _G.pg.item_data_statistics[58539] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58540] = {
+_G.pg.base.item_data_statistics[58540] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -149328,7 +149355,7 @@ _G.pg.item_data_statistics[58540] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58541] = {
+_G.pg.base.item_data_statistics[58541] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -149375,7 +149402,7 @@ _G.pg.item_data_statistics[58541] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58542] = {
+_G.pg.base.item_data_statistics[58542] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -149507,7 +149534,7 @@ _G.pg.item_data_statistics[58542] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58543] = {
+_G.pg.base.item_data_statistics[58543] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -149639,7 +149666,7 @@ _G.pg.item_data_statistics[58543] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58544] = {
+_G.pg.base.item_data_statistics[58544] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -149771,7 +149798,7 @@ _G.pg.item_data_statistics[58544] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58545] = {
+_G.pg.base.item_data_statistics[58545] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -149903,7 +149930,7 @@ _G.pg.item_data_statistics[58545] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58546] = {
+_G.pg.base.item_data_statistics[58546] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -150035,7 +150062,7 @@ _G.pg.item_data_statistics[58546] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58547] = {
+_G.pg.base.item_data_statistics[58547] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -150172,7 +150199,7 @@ _G.pg.item_data_statistics[58547] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58548] = {
+_G.pg.base.item_data_statistics[58548] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150219,7 +150246,7 @@ _G.pg.item_data_statistics[58548] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58549] = {
+_G.pg.base.item_data_statistics[58549] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150266,7 +150293,7 @@ _G.pg.item_data_statistics[58549] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58550] = {
+_G.pg.base.item_data_statistics[58550] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150313,7 +150340,7 @@ _G.pg.item_data_statistics[58550] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58551] = {
+_G.pg.base.item_data_statistics[58551] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150360,7 +150387,7 @@ _G.pg.item_data_statistics[58551] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58552] = {
+_G.pg.base.item_data_statistics[58552] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150407,7 +150434,7 @@ _G.pg.item_data_statistics[58552] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58553] = {
+_G.pg.base.item_data_statistics[58553] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150454,7 +150481,7 @@ _G.pg.item_data_statistics[58553] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58554] = {
+_G.pg.base.item_data_statistics[58554] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150501,7 +150528,7 @@ _G.pg.item_data_statistics[58554] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58555] = {
+_G.pg.base.item_data_statistics[58555] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150543,7 +150570,7 @@ _G.pg.item_data_statistics[58555] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58556] = {
+_G.pg.base.item_data_statistics[58556] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150585,7 +150612,7 @@ _G.pg.item_data_statistics[58556] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58557] = {
+_G.pg.base.item_data_statistics[58557] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150627,7 +150654,7 @@ _G.pg.item_data_statistics[58557] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58558] = {
+_G.pg.base.item_data_statistics[58558] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150669,7 +150696,7 @@ _G.pg.item_data_statistics[58558] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58559] = {
+_G.pg.base.item_data_statistics[58559] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -150711,7 +150738,7 @@ _G.pg.item_data_statistics[58559] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58560] = {
+_G.pg.base.item_data_statistics[58560] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -150843,7 +150870,7 @@ _G.pg.item_data_statistics[58560] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58561] = {
+_G.pg.base.item_data_statistics[58561] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -150975,7 +151002,7 @@ _G.pg.item_data_statistics[58561] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58562] = {
+_G.pg.base.item_data_statistics[58562] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -151107,7 +151134,7 @@ _G.pg.item_data_statistics[58562] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58563] = {
+_G.pg.base.item_data_statistics[58563] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -151239,7 +151266,7 @@ _G.pg.item_data_statistics[58563] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58564] = {
+_G.pg.base.item_data_statistics[58564] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -151371,7 +151398,7 @@ _G.pg.item_data_statistics[58564] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58565] = {
+_G.pg.base.item_data_statistics[58565] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -151508,7 +151535,7 @@ _G.pg.item_data_statistics[58565] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58566] = {
+_G.pg.base.item_data_statistics[58566] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -151555,7 +151582,7 @@ _G.pg.item_data_statistics[58566] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58567] = {
+_G.pg.base.item_data_statistics[58567] = {
 	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "未知设计图",
 	max_num = 0,
@@ -151597,7 +151624,7 @@ _G.pg.item_data_statistics[58567] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[58568] = {
+_G.pg.base.item_data_statistics[58568] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "未知角色",
 	max_num = 0,
@@ -151734,7 +151761,7 @@ _G.pg.item_data_statistics[58568] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59000] = {
+_G.pg.base.item_data_statistics[59000] = {
 	display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 	name = "경험치",
 	max_num = 0,
@@ -151755,7 +151782,7 @@ _G.pg.item_data_statistics[59000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59001] = {
+_G.pg.base.item_data_statistics[59001] = {
 	display = "각종 재화를 통틀어 가리키며, 다양한 곳에 사용된다.",
 	name = "물자",
 	max_num = 0,
@@ -151776,7 +151803,7 @@ _G.pg.item_data_statistics[59001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59002] = {
+_G.pg.base.item_data_statistics[59002] = {
 	display = "함선이나 비행기를 움직이는 데에 필요한 연료.",
 	name = "연료",
 	max_num = 0,
@@ -151797,7 +151824,7 @@ _G.pg.item_data_statistics[59002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59003] = {
+_G.pg.base.item_data_statistics[59003] = {
 	display = "연습에서 얻는 공훈 포인트. 보상과 교환할 수 있다.",
 	name = "공훈",
 	max_num = 0,
@@ -151818,7 +151845,7 @@ _G.pg.item_data_statistics[59003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59004] = {
+_G.pg.base.item_data_statistics[59004] = {
 	display = "신비한 다이아몬드. 여러 가지 용도로 쓰인다.",
 	name = "다이아",
 	max_num = 0,
@@ -151839,7 +151866,7 @@ _G.pg.item_data_statistics[59004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59005] = {
+_G.pg.base.item_data_statistics[59005] = {
 	display = "신비한 다이아몬드. 여러 가지 용도로 쓰인다.",
 	name = "다이아",
 	max_num = 0,
@@ -151860,7 +151887,7 @@ _G.pg.item_data_statistics[59005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59006] = {
+_G.pg.base.item_data_statistics[59006] = {
 	display = "수수께끼의 세력에서 배포한 코인. 가구 구입에만 쓰인다.",
 	name = "가구 코인",
 	max_num = 0,
@@ -151881,7 +151908,7 @@ _G.pg.item_data_statistics[59006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59008] = {
+_G.pg.base.item_data_statistics[59008] = {
 	display = "지휘부에서 배포한 신형 화폐. 지휘관의 지난 공헌을 상징한다. 모든 대함대에서 사용 가능",
 	name = "함대 코인",
 	max_num = 0,
@@ -151902,7 +151929,7 @@ _G.pg.item_data_statistics[59008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59009] = {
+_G.pg.base.item_data_statistics[59009] = {
 	display = "도면 분석 후 얻은 성과. 원형 상점에서 각종 보상으로 교환 가능. ",
 	name = "원형 설계 ",
 	max_num = 0,
@@ -151923,7 +151950,7 @@ _G.pg.item_data_statistics[59009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59010] = {
+_G.pg.base.item_data_statistics[59010] = {
 	display = "스테이지 BOSS 격파, 특정 임무 완료, 과학 연구 개발 완료 또는 개조하지 않은 UR 함선 퇴역 시 획득. 원형 상점에서 보상과 교환 가능.",
 	name = "특장 원형",
 	max_num = 0,
@@ -151944,7 +151971,7 @@ _G.pg.item_data_statistics[59010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59011] = {
+_G.pg.base.item_data_statistics[59011] = {
 	display = "스테이지 BOSS 격파, 특정 임무 완료, 과학 연구 개발 완료 또는 개조하지 않은 UR 함선 퇴역 시 획득. 원형 상점에서 보상과 교환 가능.",
 	name = "특장 원형",
 	max_num = 0,
@@ -151965,7 +151992,7 @@ _G.pg.item_data_statistics[59011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59012] = {
+_G.pg.base.item_data_statistics[59012] = {
 	display = "주간 활약 포인트를 누적하여 주간 활약 보상을 수령할 수 있습니다.",
 	name = "주간 활약 포인트",
 	max_num = 0,
@@ -151986,7 +152013,7 @@ _G.pg.item_data_statistics[59012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59100] = {
+_G.pg.base.item_data_statistics[59100] = {
 	display = "창고를 20칸 확장한다.",
 	name = "창고 확장",
 	max_num = 0,
@@ -152007,7 +152034,7 @@ _G.pg.item_data_statistics[59100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59101] = {
+_G.pg.base.item_data_statistics[59101] = {
 	display = "도크(함선 소지 수)를 10칸 확장한다.",
 	name = "도크 확장",
 	max_num = 0,
@@ -152028,7 +152055,7 @@ _G.pg.item_data_statistics[59101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59104] = {
+_G.pg.base.item_data_statistics[59104] = {
 	display = "이벤트 보상으로 교환할 수 있다. (교환 기간 종료 후 삭제됩니다.)",
 	name = "현판",
 	max_num = 0,
@@ -152049,7 +152076,7 @@ _G.pg.item_data_statistics[59104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59105] = {
+_G.pg.base.item_data_statistics[59105] = {
 	display = "用于冬日活动获取补给，活动结束后将会消失",
 	name = "战斗之星",
 	max_num = 0,
@@ -152070,7 +152097,7 @@ _G.pg.item_data_statistics[59105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59106] = {
+_G.pg.base.item_data_statistics[59106] = {
 	display = "「싸늘한 겨울의 왕관」작전 보급에 쓰이는 아이템. 이벤트 종료 후 자동 삭제된다.",
 	name = "여왕의 훈장",
 	max_num = 0,
@@ -152091,7 +152118,7 @@ _G.pg.item_data_statistics[59106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59107] = {
+_G.pg.base.item_data_statistics[59107] = {
 	display = "이벤트 보상으로 교환할 수 있다. (교환 기간 종료 후 삭제됩니다.)",
 	name = "현판 ",
 	max_num = 0,
@@ -152112,7 +152139,7 @@ _G.pg.item_data_statistics[59107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59109] = {
+_G.pg.base.item_data_statistics[59109] = {
 	display = "<검게 물든 강철의 벚꽃> 보수 교환용. 이벤트 종료 후 삭제됩니다. ",
 	name = "벚꽃의 부적 ",
 	max_num = 0,
@@ -152133,7 +152160,7 @@ _G.pg.item_data_statistics[59109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59111] = {
+_G.pg.base.item_data_statistics[59111] = {
 	display = "「거울에 비친 이색」에서 보수로 얻을 수 있는 교환용 아이템. 해당 이벤트가 종료된 뒤 사라진다.",
 	name = "PT",
 	max_num = 0,
@@ -152154,7 +152181,7 @@ _G.pg.item_data_statistics[59111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59112] = {
+_G.pg.base.item_data_statistics[59112] = {
 	display = "빛과 그림자의 아이리스' 보상 교환용 아이템. 이벤트 종료 후에 제거된다. ",
 	name = "교국의 훈장 ",
 	max_num = 0,
@@ -152175,7 +152202,7 @@ _G.pg.item_data_statistics[59112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59113] = {
+_G.pg.base.item_data_statistics[59113] = {
 	display = "[귀여운 꼬마 메이드] 이벤트에 사용된다. 이벤트 기간 종료 시 인벤토리에서 자동 소멸된다.",
 	name = "쥬쥬",
 	max_num = 0,
@@ -152196,7 +152223,7 @@ _G.pg.item_data_statistics[59113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59114] = {
+_G.pg.base.item_data_statistics[59114] = {
 	display = "지휘냥 보유 가능 수 5마리 증가",
 	name = "냥하우스 확장",
 	max_num = 0,
@@ -152217,7 +152244,7 @@ _G.pg.item_data_statistics[59114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59115] = {
+_G.pg.base.item_data_statistics[59115] = {
 	display = "<싸워라! 로열 메이드대> 이벤트의 보상 교환에 사용됩니다. 이벤트 종료 후 자동적으로 사라집니다. ",
 	name = "PT",
 	max_num = 0,
@@ -152238,7 +152265,7 @@ _G.pg.item_data_statistics[59115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59116] = {
+_G.pg.base.item_data_statistics[59116] = {
 	display = "<어둠에 떨어진 푸른 날개> 이벤트에서 획득할 수 있으며, 이벤트 종료 뒤엔 자동으로 사라진다.",
 	name = "배틀 스타",
 	max_num = 0,
@@ -152259,7 +152286,7 @@ _G.pg.item_data_statistics[59116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59117] = {
+_G.pg.base.item_data_statistics[59117] = {
 	display = "<칭송받는 자> 콜라보레이션 이벤트에서 캐릭터 호감도를 상승시키는데 사용되며, 이벤트 종료 후엔 자동 소멸된다.",
 	name = "호감도 - 후미뤼르",
 	max_num = 0,
@@ -152280,7 +152307,7 @@ _G.pg.item_data_statistics[59117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59118] = {
+_G.pg.base.item_data_statistics[59118] = {
 	display = "<칭송받는 자> 콜라보레이션 이벤트에서 아이템 교환에 사용되며, 이벤트 종료 후엔 자동 소멸된다.",
 	name = "코코포 코인 ",
 	max_num = 0,
@@ -152301,7 +152328,7 @@ _G.pg.item_data_statistics[59118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59119] = {
+_G.pg.base.item_data_statistics[59119] = {
 	display = "『솔로몬의 무사』 이벤트 전용 교환 아이템. 이벤트 종료 시 자동적으로 사라진다. ",
 	name = "류조 부적 ",
 	max_num = 0,
@@ -152322,7 +152349,7 @@ _G.pg.item_data_statistics[59119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59120] = {
+_G.pg.base.item_data_statistics[59120] = {
 	display = "「청홍의 메아리」 이벤트 교환에 사용되며, 이벤트 종료 후 자동으로 사라집니다. ",
 	name = "Pt-사쿠라 ",
 	max_num = 0,
@@ -152343,7 +152370,7 @@ _G.pg.item_data_statistics[59120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59121] = {
+_G.pg.base.item_data_statistics[59121] = {
 	display = "「싸늘한 겨울의 왕관」작전 보급에 쓰이는 아이템. 이벤트 종료 후 자동 삭제된다.",
 	name = "여왕의 훈장",
 	max_num = 0,
@@ -152364,7 +152391,7 @@ _G.pg.item_data_statistics[59121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59122] = {
+_G.pg.base.item_data_statistics[59122] = {
 	display = "「특별연습·에식스 급」에 참여하면 포인트를 획득하고, 일정량 누적 시 보상을 획득할 수 있다. ",
 	name = "기여치 ",
 	max_num = 0,
@@ -152385,7 +152412,7 @@ _G.pg.item_data_statistics[59122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59123] = {
+_G.pg.base.item_data_statistics[59123] = {
 	display = "<피오르드의 별> 이벤트에서 캐릭터 호감도를 상승시키는데 사용되며, 이벤트 종료 후엔 자동 소멸된다. ",
 	name = "호감도 – 헌터",
 	max_num = 0,
@@ -152406,7 +152433,7 @@ _G.pg.item_data_statistics[59123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59124] = {
+_G.pg.base.item_data_statistics[59124] = {
 	display = "<검게 물든 강철의 벚꽃> 보수 교환용. 이벤트 종료 후 삭제됩니다. ",
 	name = "벚꽃의 부적 ",
 	max_num = 0,
@@ -152427,7 +152454,7 @@ _G.pg.item_data_statistics[59124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59125] = {
+_G.pg.base.item_data_statistics[59125] = {
 	display = "이국의 아이돌?' 보상 교환용 아이템. 이벤트 종료 후에 사라진다. ",
 	name = "장구 ",
 	max_num = 0,
@@ -152448,7 +152475,7 @@ _G.pg.item_data_statistics[59125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59126] = {
+_G.pg.base.item_data_statistics[59126] = {
 	display = "「버츄얼 연결고리의 공시성」 이벤트 교환에 사용되며, 이벤트 종료 후 제거 됩니다. ",
 	name = "Pt-키즈나 ",
 	max_num = 0,
@@ -152469,7 +152496,7 @@ _G.pg.item_data_statistics[59126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59127] = {
+_G.pg.base.item_data_statistics[59127] = {
 	display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다. ",
 	name = "집결 포인트 ",
 	max_num = 0,
@@ -152490,7 +152517,7 @@ _G.pg.item_data_statistics[59127] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59128] = {
+_G.pg.base.item_data_statistics[59128] = {
 	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. 2019년 7월 11일 후 사용할 수 없습니다.",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -152511,7 +152538,7 @@ _G.pg.item_data_statistics[59128] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59129] = {
+_G.pg.base.item_data_statistics[59129] = {
 	display = "[메탈 블로드, 음표 & 맹세] 이벤트 교환에 사용된다. 이벤트 종료 후 사라진다. ",
 	name = "메탈 블러드 문장 ",
 	max_num = 0,
@@ -152532,7 +152559,7 @@ _G.pg.item_data_statistics[59129] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59130] = {
+_G.pg.base.item_data_statistics[59130] = {
 	display = "이벤트[내일의 스타? 깜짝 등장!] 중 캐릭터의 호감도 증가에 사용됩니다, 이벤트 종료 후 사라집니다. ",
 	name = "호감도",
 	max_num = 0,
@@ -152553,7 +152580,7 @@ _G.pg.item_data_statistics[59130] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59133] = {
+_G.pg.base.item_data_statistics[59133] = {
 	display = "빛과 그림자의 아이리스' 보상 교환용 아이템. 이벤트 종료 후에 제거된다. ",
 	name = "교국의 훈장 ",
 	max_num = 0,
@@ -152574,7 +152601,7 @@ _G.pg.item_data_statistics[59133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59134] = {
+_G.pg.base.item_data_statistics[59134] = {
 	display = "「샌드 플레이」이벤트에서 교환할 수 있으며, 이벤트 종료 후 사라집니다 ",
 	name = "배틀스타·블랙 ",
 	max_num = 0,
@@ -152595,7 +152622,7 @@ _G.pg.item_data_statistics[59134] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59135] = {
+_G.pg.base.item_data_statistics[59135] = {
 	display = "「전설 속의 하프물범」에 관한 단서. 더 많은 정보를 수집하고, 하프물범을 찾아라! 『바다의 아이돌』 이벤트에 사용되며, 이벤트 종료 후 사라짐. ",
 	name = "하프물범 목격 정보 ",
 	max_num = 0,
@@ -152616,7 +152643,7 @@ _G.pg.item_data_statistics[59135] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59136] = {
+_G.pg.base.item_data_statistics[59136] = {
 	display = "『Azurlane 인기 투표』 이벤트에서 누적하여 투표권 획득 가능. 매 라운드 투표 종료 시 초기화.",
 	name = "응원봉",
 	max_num = 0,
@@ -152637,7 +152664,7 @@ _G.pg.item_data_statistics[59136] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59137] = {
+_G.pg.base.item_data_statistics[59137] = {
 	display = "『디바인 트래지코미디』 이벤트에서 교환, 이벤트 종료 후 소실됨. ",
 	name = "제국의 영광 ",
 	max_num = 0,
@@ -152658,7 +152685,7 @@ _G.pg.item_data_statistics[59137] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59138] = {
+_G.pg.base.item_data_statistics[59138] = {
 	display = "「디바인 트래지코미디」이벤트 교환에 사용, 이벤트 종료 후 사라진다. ",
 	name = "훈련Pt ",
 	max_num = 0,
@@ -152679,7 +152706,7 @@ _G.pg.item_data_statistics[59138] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59139] = {
+_G.pg.base.item_data_statistics[59139] = {
 	display = "『사령부 동원 지령』 이벤트에서 누적할 시 보상, 이벤트 종료 후 소실됨. ",
 	name = "집결지 ",
 	max_num = 0,
@@ -152700,7 +152727,7 @@ _G.pg.item_data_statistics[59139] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59140] = {
+_G.pg.base.item_data_statistics[59140] = {
 	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. 2019년 11월 14일 후 사용할 수 없습니다.",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -152721,7 +152748,7 @@ _G.pg.item_data_statistics[59140] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59141] = {
+_G.pg.base.item_data_statistics[59141] = {
 	display = "[저편을 건너온 물결]에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
 	name = "공헌도",
 	max_num = 0,
@@ -152742,7 +152769,7 @@ _G.pg.item_data_statistics[59141] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59142] = {
+_G.pg.base.item_data_statistics[59142] = {
 	display = "[저편을 건너온 물결] EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
 	name = "특별 도전권",
 	max_num = 0,
@@ -152763,7 +152790,7 @@ _G.pg.item_data_statistics[59142] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59143] = {
+_G.pg.base.item_data_statistics[59143] = {
 	display = "「격주의 폴라리스」이벤트 교환에 사용됩니다, 이벤트 종료 후 사라집니다. ",
 	name = "격주PT ",
 	max_num = 0,
@@ -152784,7 +152811,7 @@ _G.pg.item_data_statistics[59143] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59144] = {
+_G.pg.base.item_data_statistics[59144] = {
 	display = "「환상과 진실의 이중주」이벤트 교환에 사용. 이벤트 종료 시 삭제된다. ",
 	name = "P-TNT",
 	max_num = 0,
@@ -152805,7 +152832,7 @@ _G.pg.item_data_statistics[59144] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59145] = {
+_G.pg.base.item_data_statistics[59145] = {
 	display = "「미오의 항구 점술관」이벤트에서 캐릭터 호감도 상승에 사용. 이벤트 종료 시 삭제된다. ",
 	name = "호감도-오오카미 미오 ",
 	max_num = 0,
@@ -152826,7 +152853,7 @@ _G.pg.item_data_statistics[59145] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59146] = {
+_G.pg.base.item_data_statistics[59146] = {
 	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐. ",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -152847,7 +152874,7 @@ _G.pg.item_data_statistics[59146] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59147] = {
+_G.pg.base.item_data_statistics[59147] = {
 	display = "『빛나는 벚꽃의 그림자』이벤트에서 교환. 이벤트 종료 후 사라짐 ",
 	name = "곡옥 ",
 	max_num = 0,
@@ -152868,7 +152895,7 @@ _G.pg.item_data_statistics[59147] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59148] = {
+_G.pg.base.item_data_statistics[59148] = {
 	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐. ",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -152889,7 +152916,7 @@ _G.pg.item_data_statistics[59148] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59149] = {
+_G.pg.base.item_data_statistics[59149] = {
 	display = "「동절의 북해」이벤트에서 교환. 이벤트 종료 후 사라집니다. ",
 	name = "정보Pt ",
 	max_num = 0,
@@ -152910,7 +152937,7 @@ _G.pg.item_data_statistics[59149] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59150] = {
+_G.pg.base.item_data_statistics[59150] = {
 	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -152931,7 +152958,7 @@ _G.pg.item_data_statistics[59150] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59151] = {
+_G.pg.base.item_data_statistics[59151] = {
 	display = "『솔로몬의 무사』 이벤트 전용 교환 아이템. 이벤트 종료 시 자동적으로 사라진다. ",
 	name = "류조 부적 ",
 	max_num = 0,
@@ -152952,7 +152979,7 @@ _G.pg.item_data_statistics[59151] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59152] = {
+_G.pg.base.item_data_statistics[59152] = {
 	display = "{namecode:98}가 특별히 준비한 상품권,각 출격 해역에 드랍되어 있으며, 회수 후 투입사용하면 상점 매출액을 높일 수 있습니다, 이벤트 종료 후 사라집니다.",
 	name = "{namecode:98}의 상품권",
 	max_num = 0,
@@ -152973,7 +153000,7 @@ _G.pg.item_data_statistics[59152] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59153] = {
+_G.pg.base.item_data_statistics[59153] = {
 	display = "이국의 아이돌? 보상 교환용 아이템. 이벤트 종료 후에 사라진다. ",
 	name = "장구 ",
 	max_num = 0,
@@ -152994,7 +153021,7 @@ _G.pg.item_data_statistics[59153] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59154] = {
+_G.pg.base.item_data_statistics[59154] = {
 	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐. ",
 	name = "훈련Pt ",
 	max_num = 0,
@@ -153015,7 +153042,7 @@ _G.pg.item_data_statistics[59154] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59155] = {
+_G.pg.base.item_data_statistics[59155] = {
 	display = "「어둠을 쫓는 은익」이벤트 교환에 사용. 이벤트 종료 후 사라집니다. ",
 	name = "은익 휘장 ",
 	max_num = 0,
@@ -153036,7 +153063,7 @@ _G.pg.item_data_statistics[59155] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59156] = {
+_G.pg.base.item_data_statistics[59156] = {
 	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153057,7 +153084,7 @@ _G.pg.item_data_statistics[59156] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59157] = {
+_G.pg.base.item_data_statistics[59157] = {
 	display = "「청홍의 메아리」 이벤트 교환에 사용되며, 이벤트 종료 후 자동으로 사라집니다. ",
 	name = "Pt-사쿠라 ",
 	max_num = 0,
@@ -153078,7 +153105,7 @@ _G.pg.item_data_statistics[59157] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59158] = {
+_G.pg.base.item_data_statistics[59158] = {
 	display = "『꼬마 기사의 훈련일 』 이벤트에서 캐릭터 호감도 상승에 사용되며, 이벤트 종료 후 사라집니다. ",
 	name = "호감도-꼬마 리나운",
 	max_num = 0,
@@ -153099,7 +153126,7 @@ _G.pg.item_data_statistics[59158] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59159] = {
+_G.pg.base.item_data_statistics[59159] = {
 	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153120,7 +153147,7 @@ _G.pg.item_data_statistics[59159] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59160] = {
+_G.pg.base.item_data_statistics[59160] = {
 	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐. ",
 	name = "훈련Pt ",
 	max_num = 0,
@@ -153141,7 +153168,7 @@ _G.pg.item_data_statistics[59160] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59163] = {
+_G.pg.base.item_data_statistics[59163] = {
 	display = "신상 피자 개발에 사용하는 특수 재료. 각 해역에서 회수할 수 있다. 이벤트 종료 후 사라짐.",
 	name = "피자 개발 재료",
 	max_num = 0,
@@ -153162,7 +153189,7 @@ _G.pg.item_data_statistics[59163] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59164] = {
+_G.pg.base.item_data_statistics[59164] = {
 	display = "『축제광장』에서 건물 업그레이드용 아이템. 이벤트 종료 후 사라짐",
 	name = "축제용 건축 자재",
 	max_num = 0,
@@ -153183,7 +153210,7 @@ _G.pg.item_data_statistics[59164] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59165] = {
+_G.pg.base.item_data_statistics[59165] = {
 	display = "『하늘 아래의 찬송가』 이벤트 교환용 아이템. 이벤트 종료 후 사라짐",
 	name = "아이리스 인장",
 	max_num = 0,
@@ -153204,7 +153231,7 @@ _G.pg.item_data_statistics[59165] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59167] = {
+_G.pg.base.item_data_statistics[59167] = {
 	display = "「만쥬대모험」을 통해 획득. 7개를 수집하면 「특별 초대장 2020」과 교환 가능. ",
 	name = "만쥬초대장 ",
 	max_num = 0,
@@ -153225,7 +153252,7 @@ _G.pg.item_data_statistics[59167] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59168] = {
+_G.pg.base.item_data_statistics[59168] = {
 	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153246,7 +153273,7 @@ _G.pg.item_data_statistics[59168] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59169] = {
+_G.pg.base.item_data_statistics[59169] = {
 	display = "『피오르드 반격전』 이벤트 교환용 아이템. 이벤트 종료 후 사라집니다. ",
 	name = "피오르드 휘장 ",
 	max_num = 0,
@@ -153267,7 +153294,7 @@ _G.pg.item_data_statistics[59169] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59170] = {
+_G.pg.base.item_data_statistics[59170] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련PT",
 	max_num = 0,
@@ -153288,7 +153315,7 @@ _G.pg.item_data_statistics[59170] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59171] = {
+_G.pg.base.item_data_statistics[59171] = {
 	display = "『영원한 밤의 환광』 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "영예의 왕관",
 	max_num = 0,
@@ -153309,7 +153336,7 @@ _G.pg.item_data_statistics[59171] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59172] = {
+_G.pg.base.item_data_statistics[59172] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 코스튬 교환용.",
 	name = "코스튬 체험권",
 	max_num = 0,
@@ -153330,7 +153357,7 @@ _G.pg.item_data_statistics[59172] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59173] = {
+_G.pg.base.item_data_statistics[59173] = {
 	display = "『서클 시티』 이벤트 교환용. 이벤트 종료 시 사라짐.",
 	name = "독수리 깃털",
 	max_num = 0,
@@ -153351,7 +153378,7 @@ _G.pg.item_data_statistics[59173] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59174] = {
+_G.pg.base.item_data_statistics[59174] = {
 	display = "[메탈 블로드, 음표 & 맹세] 이벤트 교환에 사용된다. 이벤트 종료 후 사라진다. ",
 	name = "메탈 블러드 문장 ",
 	max_num = 0,
@@ -153372,7 +153399,7 @@ _G.pg.item_data_statistics[59174] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59175] = {
+_G.pg.base.item_data_statistics[59175] = {
 	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
 	name = "스킨 체험권 ",
 	max_num = 0,
@@ -153393,7 +153420,7 @@ _G.pg.item_data_statistics[59175] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59176] = {
+_G.pg.base.item_data_statistics[59176] = {
 	display = "『사령부 동원 지령』 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
 	name = "집결 PT",
 	max_num = 0,
@@ -153414,7 +153441,7 @@ _G.pg.item_data_statistics[59176] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59177] = {
+_G.pg.base.item_data_statistics[59177] = {
 	display = "『축제 광장』 건물 업그레이드용. 이벤트 종료 후 사라짐.",
 	name = "축제 건축 자재",
 	max_num = 0,
@@ -153435,7 +153462,7 @@ _G.pg.item_data_statistics[59177] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59178] = {
+_G.pg.base.item_data_statistics[59178] = {
 	display = "7개를 수집하여 「축제 초대장」 획득 가능",
 	name = "쥬쥬 초대장",
 	max_num = 0,
@@ -153456,7 +153483,7 @@ _G.pg.item_data_statistics[59178] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59179] = {
+_G.pg.base.item_data_statistics[59179] = {
 	display = "『쥬쥬 모험기』 스테이지 맵 탐색용. 이벤트 종료 후 사라짐.",
 	name = "탐색 PT",
 	max_num = 0,
@@ -153477,7 +153504,7 @@ _G.pg.item_data_statistics[59179] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59181] = {
+_G.pg.base.item_data_statistics[59181] = {
 	display = "『한정 체험 상점』에서 캐릭터 코스튬 기간 한정 교환용.",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153498,7 +153525,7 @@ _G.pg.item_data_statistics[59181] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59182] = {
+_G.pg.base.item_data_statistics[59182] = {
 	display = "『접해몽화』 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "접영",
 	max_num = 0,
@@ -153519,7 +153546,7 @@ _G.pg.item_data_statistics[59182] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59180] = {
+_G.pg.base.item_data_statistics[59180] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련PT",
 	max_num = 0,
@@ -153540,7 +153567,7 @@ _G.pg.item_data_statistics[59180] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59183] = {
+_G.pg.base.item_data_statistics[59183] = {
 	display = "『날카로운 해상의 날개』 이벤트 교환용 아이템. 이벤트 종료 후 사라짐.",
 	name = "날개의 휘장",
 	max_num = 0,
@@ -153561,7 +153588,7 @@ _G.pg.item_data_statistics[59183] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59184] = {
+_G.pg.base.item_data_statistics[59184] = {
 	display = "7회 수집 후, 한정 코스튬 「Candy Magic！」 획득 가능",
 	name = "마법의 막대 사탕",
 	max_num = 0,
@@ -153582,7 +153609,7 @@ _G.pg.item_data_statistics[59184] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59185] = {
+_G.pg.base.item_data_statistics[59185] = {
 	display = "『격창의 유니버스』이벤트 교환용. 이벤트 종료 후 사라집니다.",
 	name = "격창휘장",
 	max_num = 0,
@@ -153603,7 +153630,7 @@ _G.pg.item_data_statistics[59185] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59186] = {
+_G.pg.base.item_data_statistics[59186] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153624,7 +153651,7 @@ _G.pg.item_data_statistics[59186] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59187] = {
+_G.pg.base.item_data_statistics[59187] = {
 	display = "7개 수집 후, 한정 캐릭터「르 말랭(μ장비)」획득 가능",
 	name = "가창음표",
 	max_num = 0,
@@ -153645,7 +153672,7 @@ _G.pg.item_data_statistics[59187] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59188] = {
+_G.pg.base.item_data_statistics[59188] = {
 	display = "<피오르드의 별> 이벤트에서 캐릭터 호감도를 상승시키는데 사용되며, 이벤트 종료 후엔 자동 소멸된다.",
 	name = "호감도 – 헌터",
 	max_num = 0,
@@ -153666,7 +153693,7 @@ _G.pg.item_data_statistics[59188] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59189] = {
+_G.pg.base.item_data_statistics[59189] = {
 	display = "『휴일항로』 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "비너스 포인트",
 	max_num = 0,
@@ -153687,7 +153714,7 @@ _G.pg.item_data_statistics[59189] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59190] = {
+_G.pg.base.item_data_statistics[59190] = {
 	display = "『한정 체험 상점』에서 캐릭터 코스튬을 기간 한정 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153708,7 +153735,7 @@ _G.pg.item_data_statistics[59190] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59192] = {
+_G.pg.base.item_data_statistics[59192] = {
 	display = "『부상한 작전』 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "철혈의 열쇠",
 	max_num = 0,
@@ -153729,7 +153756,7 @@ _G.pg.item_data_statistics[59192] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59193] = {
+_G.pg.base.item_data_statistics[59193] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153750,7 +153777,7 @@ _G.pg.item_data_statistics[59193] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59194] = {
+_G.pg.base.item_data_statistics[59194] = {
 	display = "7개 수집 후, 한정 캐릭터 「Z28」 획득 가능",
 	name = "미식권",
 	max_num = 0,
@@ -153771,7 +153798,7 @@ _G.pg.item_data_statistics[59194] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59191] = {
+_G.pg.base.item_data_statistics[59191] = {
 	display = "테두리 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 Pt",
 	max_num = 0,
@@ -153792,7 +153819,7 @@ _G.pg.item_data_statistics[59191] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59195] = {
+_G.pg.base.item_data_statistics[59195] = {
 	display = "테두리 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -153813,7 +153840,7 @@ _G.pg.item_data_statistics[59195] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59196] = {
+_G.pg.base.item_data_statistics[59196] = {
 	display = "『디바인 트래지코미디』 이벤트에서 교환, 이벤트 종료 후 소실됨. ",
 	name = "제국의 영광 ",
 	max_num = 0,
@@ -153834,7 +153861,7 @@ _G.pg.item_data_statistics[59196] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59197] = {
+_G.pg.base.item_data_statistics[59197] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153855,7 +153882,7 @@ _G.pg.item_data_statistics[59197] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59198] = {
+_G.pg.base.item_data_statistics[59198] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153876,7 +153903,7 @@ _G.pg.item_data_statistics[59198] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59199] = {
+_G.pg.base.item_data_statistics[59199] = {
 	display = "『새해축복·신축』 이벤트 교환용. 이벤트 종료 후 사라집니다.",
 	name = "이스트 글림 매듭",
 	max_num = 0,
@@ -153897,7 +153924,7 @@ _G.pg.item_data_statistics[59199] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59200] = {
+_G.pg.base.item_data_statistics[59200] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -153918,7 +153945,7 @@ _G.pg.item_data_statistics[59200] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59201] = {
+_G.pg.base.item_data_statistics[59201] = {
 	display = "『새벽녘에 비치는 빙화』 이벤트 교환용. 이벤트 종료 후 사라집니다.",
 	name = "미지 결정",
 	max_num = 0,
@@ -153939,7 +153966,7 @@ _G.pg.item_data_statistics[59201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59202] = {
+_G.pg.base.item_data_statistics[59202] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -153960,7 +153987,7 @@ _G.pg.item_data_statistics[59202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59203] = {
+_G.pg.base.item_data_statistics[59203] = {
 	display = "『가장 귀여운 친구』 이벤트용. 이벤트 종료 후 사라짐.",
 	name = "맛있는 대나무",
 	max_num = 0,
@@ -153981,7 +154008,7 @@ _G.pg.item_data_statistics[59203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59204] = {
+_G.pg.base.item_data_statistics[59204] = {
 	display = "『가장 귀여운 친구』 이벤트용. 이벤트 종료 후 사라짐.",
 	name = "맛있는 대나무",
 	max_num = 0,
@@ -154002,7 +154029,7 @@ _G.pg.item_data_statistics[59204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59205] = {
+_G.pg.base.item_data_statistics[59205] = {
 	display = "『가장 귀여운 친구』 이벤트용. 이벤트 종료 후 사라짐.",
 	name = "맛있는 대나무",
 	max_num = 0,
@@ -154023,7 +154050,7 @@ _G.pg.item_data_statistics[59205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59206] = {
+_G.pg.base.item_data_statistics[59206] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -154044,7 +154071,7 @@ _G.pg.item_data_statistics[59206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59207] = {
+_G.pg.base.item_data_statistics[59207] = {
 	display = "「샌드 플레이」이벤트에서 교환할 수 있으며, 이벤트 종료 후 사라집니다 ",
 	name = "배틀스타·블랙 ",
 	max_num = 0,
@@ -154065,7 +154092,7 @@ _G.pg.item_data_statistics[59207] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59208] = {
+_G.pg.base.item_data_statistics[59208] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154086,7 +154113,7 @@ _G.pg.item_data_statistics[59208] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59209] = {
+_G.pg.base.item_data_statistics[59209] = {
 	display = "「부흥의 찬송가」이벤트에서 교환할 수 있으며, 이벤트 종료 후 사라집니다 ",
 	name = "부흥의 증표",
 	max_num = 0,
@@ -154107,7 +154134,7 @@ _G.pg.item_data_statistics[59209] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59210] = {
+_G.pg.base.item_data_statistics[59210] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154128,7 +154155,7 @@ _G.pg.item_data_statistics[59210] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59211] = {
+_G.pg.base.item_data_statistics[59211] = {
 	display = "<꼬마 책사 성장기> 이벤트에서 캐릭터 호감도를 상승시키는데 사용되며, 이벤트 종료 후엔 자동 소멸된다.",
 	name = "호감도-꼬마 아마기",
 	max_num = 0,
@@ -154149,7 +154176,7 @@ _G.pg.item_data_statistics[59211] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59212] = {
+_G.pg.base.item_data_statistics[59212] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -154170,7 +154197,7 @@ _G.pg.item_data_statistics[59212] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59213] = {
+_G.pg.base.item_data_statistics[59213] = {
 	display = "『쥬쥬 아이스크림』 보상 교환용. 이벤트 종료 후 사라짐",
 	name = "쥬쥬 아이스크림 재료",
 	max_num = 0,
@@ -154191,7 +154218,7 @@ _G.pg.item_data_statistics[59213] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59214] = {
+_G.pg.base.item_data_statistics[59214] = {
 	display = "『비추는 나선의 경해』이벤트에서 교환할 수 있으며, 이벤트 종료 후 사라집니다 ",
 	name = "경해의 증표",
 	max_num = 0,
@@ -154212,7 +154239,7 @@ _G.pg.item_data_statistics[59214] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59215] = {
+_G.pg.base.item_data_statistics[59215] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154233,7 +154260,7 @@ _G.pg.item_data_statistics[59215] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59216] = {
+_G.pg.base.item_data_statistics[59216] = {
 	display = "<분투하자, 꼬마 엔터프라이즈!> 이벤트에서 캐릭터 호감도를 상승시키는데 사용되며, 이벤트 종료 후엔 자동 소멸된다.",
 	name = "호감도-꼬마 엔터프라이즈",
 	max_num = 0,
@@ -154254,7 +154281,7 @@ _G.pg.item_data_statistics[59216] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59217] = {
+_G.pg.base.item_data_statistics[59217] = {
 	display = "『사령부 동원 지령』 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
 	name = "집결 PT",
 	max_num = 0,
@@ -154275,7 +154302,7 @@ _G.pg.item_data_statistics[59217] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59218] = {
+_G.pg.base.item_data_statistics[59218] = {
 	display = "『쥬쥬랜드』 건물 업그레이드용. 이벤트 종료 후 사라짐",
 	name = "랜드 건설 재료",
 	max_num = 0,
@@ -154296,7 +154323,7 @@ _G.pg.item_data_statistics[59218] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59219] = {
+_G.pg.base.item_data_statistics[59219] = {
 	display = "『쥬쥬 교환소』 보상 교환용. 이벤트 종료 후 사라짐",
 	name = "쥬쥬 교환권",
 	max_num = 0,
@@ -154317,7 +154344,7 @@ _G.pg.item_data_statistics[59219] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59220] = {
+_G.pg.base.item_data_statistics[59220] = {
 	display = "7개를 수집하여 「축제 초대장」 획득 가능",
 	name = "쥬쥬 초대장",
 	max_num = 0,
@@ -154338,7 +154365,7 @@ _G.pg.item_data_statistics[59220] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59221] = {
+_G.pg.base.item_data_statistics[59221] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -154359,7 +154386,7 @@ _G.pg.item_data_statistics[59221] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59222] = {
+_G.pg.base.item_data_statistics[59222] = {
 	display = "야마시로를 도와 수집한 휴일 해변의 공기. 『휴일의 공세』 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "공기를 담은 병",
 	max_num = 0,
@@ -154380,7 +154407,7 @@ _G.pg.item_data_statistics[59222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59223] = {
+_G.pg.base.item_data_statistics[59223] = {
 	display = "『빛나는 벚꽃의 그림자』이벤트에서 교환. 이벤트 종료 후 사라짐 ",
 	name = "곡옥 ",
 	max_num = 0,
@@ -154401,7 +154428,7 @@ _G.pg.item_data_statistics[59223] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59224] = {
+_G.pg.base.item_data_statistics[59224] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154422,7 +154449,7 @@ _G.pg.item_data_statistics[59224] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59225] = {
+_G.pg.base.item_data_statistics[59225] = {
 	display = "[저편을 건너온 물결]에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
 	name = "공헌도",
 	max_num = 0,
@@ -154443,7 +154470,7 @@ _G.pg.item_data_statistics[59225] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59226] = {
+_G.pg.base.item_data_statistics[59226] = {
 	display = "[저편을 건너온 물결] EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
 	name = "특별 도전권",
 	max_num = 0,
@@ -154464,7 +154491,7 @@ _G.pg.item_data_statistics[59226] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59227] = {
+_G.pg.base.item_data_statistics[59227] = {
 	display = "축제의 미니게임에서 받을 수 있는 스탬프. 스탬프북을 모두 채우면 특별한 보상을 받을 수 있어요! ",
 	name = "여름 축제 스탬프",
 	max_num = 0,
@@ -154485,7 +154512,7 @@ _G.pg.item_data_statistics[59227] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59229] = {
+_G.pg.base.item_data_statistics[59229] = {
 	display = "『어둠을 쫓는 은익』이벤트에서 교환. 이벤트 종료 후 사라짐 ",
 	name = "은익 휘장",
 	max_num = 0,
@@ -154506,7 +154533,7 @@ _G.pg.item_data_statistics[59229] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59230] = {
+_G.pg.base.item_data_statistics[59230] = {
 	display = "『바다에 울려퍼지는 아이돌 노래』이벤트에서 교환. 이벤트 종료 후 사라짐 ",
 	name = "콜라보PT",
 	max_num = 0,
@@ -154527,7 +154554,7 @@ _G.pg.item_data_statistics[59230] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59231] = {
+_G.pg.base.item_data_statistics[59231] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154548,7 +154575,7 @@ _G.pg.item_data_statistics[59231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59232] = {
+_G.pg.base.item_data_statistics[59232] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -154569,7 +154596,7 @@ _G.pg.item_data_statistics[59232] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59233] = {
+_G.pg.base.item_data_statistics[59233] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154590,7 +154617,7 @@ _G.pg.item_data_statistics[59233] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59234] = {
+_G.pg.base.item_data_statistics[59234] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -154611,7 +154638,7 @@ _G.pg.item_data_statistics[59234] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59235] = {
+_G.pg.base.item_data_statistics[59235] = {
 	display = "『맑고 푸른 바다』 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "옥패",
 	max_num = 0,
@@ -154632,7 +154659,7 @@ _G.pg.item_data_statistics[59235] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59237] = {
+_G.pg.base.item_data_statistics[59237] = {
 	display = "『쥬쥬 워터파크』 이벤트 건물 업그레이드용. 이벤트 종료 후 사라짐.",
 	name = "파크 건설 재료",
 	max_num = 0,
@@ -154653,7 +154680,7 @@ _G.pg.item_data_statistics[59237] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59238] = {
+_G.pg.base.item_data_statistics[59238] = {
 	display = "『사령부 동원 지령』 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
 	name = "집결 PT",
 	max_num = 0,
@@ -154674,7 +154701,7 @@ _G.pg.item_data_statistics[59238] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59239] = {
+_G.pg.base.item_data_statistics[59239] = {
 	display = "『쥬쥬 추첨』 보상 교환용. 이벤트 종료 후 사라짐.",
 	name = "추첨권",
 	max_num = 0,
@@ -154695,7 +154722,7 @@ _G.pg.item_data_statistics[59239] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59240] = {
+_G.pg.base.item_data_statistics[59240] = {
 	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154716,7 +154743,7 @@ _G.pg.item_data_statistics[59240] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59241] = {
+_G.pg.base.item_data_statistics[59241] = {
 	display = "『월드 투어』(2021.10.1~11.30) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
@@ -154737,7 +154764,7 @@ _G.pg.item_data_statistics[59241] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59242] = {
+_G.pg.base.item_data_statistics[59242] = {
 	display = "",
 	name = "",
 	max_num = 0,
@@ -154758,7 +154785,7 @@ _G.pg.item_data_statistics[59242] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59243] = {
+_G.pg.base.item_data_statistics[59243] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -154779,7 +154806,7 @@ _G.pg.item_data_statistics[59243] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59246] = {
+_G.pg.base.item_data_statistics[59246] = {
 	display = "『하늘 아래의 찬송가』 이벤트 교환용 아이템. 이벤트 종료 후 사라짐",
 	name = "아이리스 인장",
 	max_num = 0,
@@ -154800,7 +154827,7 @@ _G.pg.item_data_statistics[59246] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59247] = {
+_G.pg.base.item_data_statistics[59247] = {
 	display = "7회 수집 후, 한정 코스튬 「Candy Magic！」 획득 가능",
 	name = "마법의 막대 사탕",
 	max_num = 0,
@@ -154821,7 +154848,7 @@ _G.pg.item_data_statistics[59247] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59248] = {
+_G.pg.base.item_data_statistics[59248] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154842,7 +154869,7 @@ _G.pg.item_data_statistics[59248] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59249] = {
+_G.pg.base.item_data_statistics[59249] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154863,7 +154890,7 @@ _G.pg.item_data_statistics[59249] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59250] = {
+_G.pg.base.item_data_statistics[59250] = {
 	display = "『제노바의 화염』 이벤트용 누적 보상. 이벤트 종료 후 사라짐.",
 	name = "아이리스의 칼날",
 	max_num = 0,
@@ -154884,7 +154911,7 @@ _G.pg.item_data_statistics[59250] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59251] = {
+_G.pg.base.item_data_statistics[59251] = {
 	display = "『호광은 교차하는 세계에서』 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "호광 결정",
 	max_num = 0,
@@ -154905,7 +154932,7 @@ _G.pg.item_data_statistics[59251] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59252] = {
+_G.pg.base.item_data_statistics[59252] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -154926,7 +154953,7 @@ _G.pg.item_data_statistics[59252] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59253] = {
+_G.pg.base.item_data_statistics[59253] = {
 	display = "『월드 투어』(2021.12.8~2.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
@@ -154947,7 +154974,7 @@ _G.pg.item_data_statistics[59253] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59254] = {
+_G.pg.base.item_data_statistics[59254] = {
 	display = "不该被看到",
 	name = "通行证二期对应虚拟道具",
 	max_num = 0,
@@ -154968,7 +154995,7 @@ _G.pg.item_data_statistics[59254] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59255] = {
+_G.pg.base.item_data_statistics[59255] = {
 	display = "이벤트[내일의 스타? 깜짝 등장!] 중 캐릭터의 호감도 증가에 사용됩니다, 이벤트 종료 후 사라집니다. ",
 	name = "호감도-꼬마 샌디에이고",
 	max_num = 0,
@@ -154989,7 +155016,7 @@ _G.pg.item_data_statistics[59255] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59256] = {
+_G.pg.base.item_data_statistics[59256] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -155010,7 +155037,7 @@ _G.pg.item_data_statistics[59256] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59257] = {
+_G.pg.base.item_data_statistics[59257] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -155031,7 +155058,7 @@ _G.pg.item_data_statistics[59257] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59258] = {
+_G.pg.base.item_data_statistics[59258] = {
 	display = "『역행하는 무지개 탑』 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "깨진 금속판",
 	max_num = 0,
@@ -155052,7 +155079,7 @@ _G.pg.item_data_statistics[59258] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59259] = {
+_G.pg.base.item_data_statistics[59259] = {
 	display = "『탄산과 홍차』 이벤트 건물 업그레이드용. 이벤트 종료 후 사라짐.",
 	name = "업그레이드 허가증",
 	max_num = 0,
@@ -155073,7 +155100,7 @@ _G.pg.item_data_statistics[59259] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59260] = {
+_G.pg.base.item_data_statistics[59260] = {
 	display = "7회 수집 후, 한정 캐릭터 「Z28」 획득 가능",
 	name = "불꽃놀이 티켓",
 	max_num = 0,
@@ -155094,7 +155121,7 @@ _G.pg.item_data_statistics[59260] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59261] = {
+_G.pg.base.item_data_statistics[59261] = {
 	display = "7회 수집 후, 「연하장」 획득 가능",
 	name = "신년의 축복",
 	max_num = 0,
@@ -155115,7 +155142,7 @@ _G.pg.item_data_statistics[59261] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59263] = {
+_G.pg.base.item_data_statistics[59263] = {
 	display = "『새해축복·신축』 이벤트 교환용. 이벤트 종료 후 사라집니다.",
 	name = "이스트 글림 매듭",
 	max_num = 0,
@@ -155136,7 +155163,7 @@ _G.pg.item_data_statistics[59263] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59264] = {
+_G.pg.base.item_data_statistics[59264] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -155157,7 +155184,7 @@ _G.pg.item_data_statistics[59264] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59265] = {
+_G.pg.base.item_data_statistics[59265] = {
 	display = "『연습 신비 사건 조사』에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
 	name = "공헌도",
 	max_num = 0,
@@ -155178,7 +155205,7 @@ _G.pg.item_data_statistics[59265] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59266] = {
+_G.pg.base.item_data_statistics[59266] = {
 	display = "『연습 신비 사건 조사』EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
 	name = "특별 도전권",
 	max_num = 0,
@@ -155199,7 +155226,7 @@ _G.pg.item_data_statistics[59266] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59267] = {
+_G.pg.base.item_data_statistics[59267] = {
 	display = "『하이티엔과 하이치의 그림 세계』에서 탐사 가능. 이벤트 종료 후 사라짐.",
 	name = "탐사 PT",
 	max_num = 0,
@@ -155220,7 +155247,7 @@ _G.pg.item_data_statistics[59267] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59268] = {
+_G.pg.base.item_data_statistics[59268] = {
 	display = "『하이티엔과 하이치의 그림 세계』에서 탐사 가능. 이벤트 종료 후 사라짐.",
 	name = "제작 PT",
 	max_num = 0,
@@ -155241,7 +155268,7 @@ _G.pg.item_data_statistics[59268] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59269] = {
+_G.pg.base.item_data_statistics[59269] = {
 	display = "『월드 투어』(2022.2.8~2022.4.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
@@ -155262,7 +155289,7 @@ _G.pg.item_data_statistics[59269] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59270] = {
+_G.pg.base.item_data_statistics[59270] = {
 	display = "",
 	name = "",
 	max_num = 0,
@@ -155283,7 +155310,7 @@ _G.pg.item_data_statistics[59270] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59271] = {
+_G.pg.base.item_data_statistics[59271] = {
 	display = "「동절의 북해」이벤트에서 교환. 이벤트 종료 후 사라집니다. ",
 	name = "정보Pt ",
 	max_num = 0,
@@ -155304,7 +155331,7 @@ _G.pg.item_data_statistics[59271] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59272] = {
+_G.pg.base.item_data_statistics[59272] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -155325,7 +155352,7 @@ _G.pg.item_data_statistics[59272] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59273] = {
+_G.pg.base.item_data_statistics[59273] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -155346,7 +155373,7 @@ _G.pg.item_data_statistics[59273] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59274] = {
+_G.pg.base.item_data_statistics[59274] = {
 	display = "『동절의 북해』 한정 복각 이벤트에서 획득. 무료 한정 건조 1회 가능(이벤트 종료 후 사라짐)",
 	name = "1회 건조권",
 	max_num = 0,
@@ -155367,7 +155394,7 @@ _G.pg.item_data_statistics[59274] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59275] = {
+_G.pg.base.item_data_statistics[59275] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -155388,7 +155415,7 @@ _G.pg.item_data_statistics[59275] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59276] = {
+_G.pg.base.item_data_statistics[59276] = {
 	display = "『깊게 울리는 메아리』이벤트에서 교환. 이벤트 종료 후 사라집니다. ",
 	name = "극지 샘플",
 	max_num = 0,
@@ -155409,7 +155436,7 @@ _G.pg.item_data_statistics[59276] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59277] = {
+_G.pg.base.item_data_statistics[59277] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -155430,7 +155457,7 @@ _G.pg.item_data_statistics[59277] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59278] = {
+_G.pg.base.item_data_statistics[59278] = {
 	display = "『피오르드 반격전』 이벤트 교환용 아이템. 이벤트 종료 후 사라집니다. ",
 	name = "피오르드 휘장 ",
 	max_num = 0,
@@ -155451,7 +155478,7 @@ _G.pg.item_data_statistics[59278] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59279] = {
+_G.pg.base.item_data_statistics[59279] = {
 	display = "『허상의 탑』 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "허상PT",
 	max_num = 0,
@@ -155472,7 +155499,7 @@ _G.pg.item_data_statistics[59279] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59280] = {
+_G.pg.base.item_data_statistics[59280] = {
 	display = "『월드 투어』(2022.4.8~2022.6.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
@@ -155493,7 +155520,7 @@ _G.pg.item_data_statistics[59280] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59281] = {
+_G.pg.base.item_data_statistics[59281] = {
 	display = "不该被看到",
 	name = "通行证四期对应虚拟道具",
 	max_num = 0,
@@ -155514,7 +155541,7 @@ _G.pg.item_data_statistics[59281] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59282] = {
+_G.pg.base.item_data_statistics[59282] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -155535,7 +155562,7 @@ _G.pg.item_data_statistics[59282] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59283] = {
+_G.pg.base.item_data_statistics[59283] = {
 	display = "『영원한 밤의 환광』 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "영예의 왕관",
 	max_num = 0,
@@ -155556,7 +155583,7 @@ _G.pg.item_data_statistics[59283] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59284] = {
+_G.pg.base.item_data_statistics[59284] = {
 	display = "『영원한 밤의 환광』 한정 복각 이벤트에서 획득. 무료 한정 건조 1회 가능(이벤트 종료 후 사라짐)",
 	name = "1회 건조권",
 	max_num = 0,
@@ -155577,7 +155604,7 @@ _G.pg.item_data_statistics[59284] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59285] = {
+_G.pg.base.item_data_statistics[59285] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -155598,7 +155625,7 @@ _G.pg.item_data_statistics[59285] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59286] = {
+_G.pg.base.item_data_statistics[59286] = {
 	display = "『꼬마 기사의 훈련일 』 이벤트에서 캐릭터 호감도 상승에 사용되며, 이벤트 종료 후 사라집니다. ",
 	name = "호감도-꼬마 리나운",
 	max_num = 0,
@@ -155619,7 +155646,7 @@ _G.pg.item_data_statistics[59286] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59287] = {
+_G.pg.base.item_data_statistics[59287] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -155640,7 +155667,7 @@ _G.pg.item_data_statistics[59287] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59305] = {
+_G.pg.base.item_data_statistics[59305] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
 	max_num = 0,
@@ -155661,7 +155688,7 @@ _G.pg.item_data_statistics[59305] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59307] = {
+_G.pg.base.item_data_statistics[59307] = {
 	display = "『레인보우 피날레』 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "파쇄의 증인",
 	max_num = 0,
@@ -155682,7 +155709,7 @@ _G.pg.item_data_statistics[59307] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59308] = {
+_G.pg.base.item_data_statistics[59308] = {
 	display = "『치즈치즈 설탕듬뿍!』 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
 	name = "치즈 케이크",
 	max_num = 0,
@@ -155703,7 +155730,7 @@ _G.pg.item_data_statistics[59308] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59309] = {
+_G.pg.base.item_data_statistics[59309] = {
 	display = "『치즈치즈 설탕듬뿍!』 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
 	name = "치즈 케이크",
 	max_num = 0,
@@ -155724,7 +155751,7 @@ _G.pg.item_data_statistics[59309] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59310] = {
+_G.pg.base.item_data_statistics[59310] = {
 	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -155745,7 +155772,7 @@ _G.pg.item_data_statistics[59310] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59601] = {
+_G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
 	max_num = 0,
@@ -155766,7 +155793,7 @@ _G.pg.item_data_statistics[59601] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59602] = {
+_G.pg.base.item_data_statistics[59602] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-무츠키",
 	name = "프라모델-무츠키",
 	max_num = 0,
@@ -155787,7 +155814,7 @@ _G.pg.item_data_statistics[59602] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59603] = {
+_G.pg.base.item_data_statistics[59603] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-키사라기",
 	name = "프라모델-키사라기",
 	max_num = 0,
@@ -155808,7 +155835,7 @@ _G.pg.item_data_statistics[59603] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59604] = {
+_G.pg.base.item_data_statistics[59604] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-타카오",
 	name = "프라모델-타카오",
 	max_num = 0,
@@ -155829,7 +155856,7 @@ _G.pg.item_data_statistics[59604] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59605] = {
+_G.pg.base.item_data_statistics[59605] = {
 	display = "전함 미카사의 1:100 프라모델 모형",
 	name = "프라모델-미카사",
 	max_num = 0,
@@ -155850,7 +155877,7 @@ _G.pg.item_data_statistics[59605] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59606] = {
+_G.pg.base.item_data_statistics[59606] = {
 	display = "(한때) 미카사 선배의 프라모델 박물관에 진열되었던 프라모델의 부품. 프라모델을 복원하는데 쓰인다. 이벤트 기간 종료 시 인벤토리에서 자동소멸된다.",
 	name = "부품",
 	max_num = 0,
@@ -155871,7 +155898,7 @@ _G.pg.item_data_statistics[59606] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59607] = {
+_G.pg.base.item_data_statistics[59607] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-아타고",
 	name = "프라모델-아타고",
 	max_num = 0,
@@ -155892,7 +155919,7 @@ _G.pg.item_data_statistics[59607] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59608] = {
+_G.pg.base.item_data_statistics[59608] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-초카이",
 	name = "프라모델-초카이",
 	max_num = 0,
@@ -155913,7 +155940,7 @@ _G.pg.item_data_statistics[59608] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59609] = {
+_G.pg.base.item_data_statistics[59609] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-나가토",
 	name = "프라모델-나가토",
 	max_num = 0,
@@ -155934,7 +155961,7 @@ _G.pg.item_data_statistics[59609] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59610] = {
+_G.pg.base.item_data_statistics[59610] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-무츠키",
 	name = "프라모델-무츠키",
 	max_num = 0,
@@ -155955,7 +155982,7 @@ _G.pg.item_data_statistics[59610] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59611] = {
+_G.pg.base.item_data_statistics[59611] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-히에이",
 	name = "프라모델-히에이",
 	max_num = 0,
@@ -155976,7 +156003,7 @@ _G.pg.item_data_statistics[59611] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59612] = {
+_G.pg.base.item_data_statistics[59612] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-아카기",
 	name = "프라모델-아카기",
 	max_num = 0,
@@ -155997,7 +156024,7 @@ _G.pg.item_data_statistics[59612] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59613] = {
+_G.pg.base.item_data_statistics[59613] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-쇼카쿠",
 	name = "프라모델-쇼카쿠",
 	max_num = 0,
@@ -156018,7 +156045,7 @@ _G.pg.item_data_statistics[59613] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59614] = {
+_G.pg.base.item_data_statistics[59614] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-즈이카쿠",
 	name = "프라모델-즈이카쿠",
 	max_num = 0,
@@ -156039,7 +156066,7 @@ _G.pg.item_data_statistics[59614] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59615] = {
+_G.pg.base.item_data_statistics[59615] = {
 	display = "『리플럭스』 이벤트에 쓰이는 누게 점수 보상 획득에 쓰인다. 이벤트 기간이 끝나면 자동으로 소멸된다.",
 	name = "리플럭스 PT",
 	max_num = 0,
@@ -156060,7 +156087,7 @@ _G.pg.item_data_statistics[59615] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59621] = {
+_G.pg.base.item_data_statistics[59621] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
 	max_num = 0,
@@ -156081,7 +156108,7 @@ _G.pg.item_data_statistics[59621] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59622] = {
+_G.pg.base.item_data_statistics[59622] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-무츠키",
 	name = "프라모델-무츠키",
 	max_num = 0,
@@ -156102,7 +156129,7 @@ _G.pg.item_data_statistics[59622] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59623] = {
+_G.pg.base.item_data_statistics[59623] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-키사라기",
 	name = "프라모델-키사라기",
 	max_num = 0,
@@ -156123,7 +156150,7 @@ _G.pg.item_data_statistics[59623] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59624] = {
+_G.pg.base.item_data_statistics[59624] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-타카오",
 	name = "프라모델-타카오",
 	max_num = 0,
@@ -156144,7 +156171,7 @@ _G.pg.item_data_statistics[59624] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59625] = {
+_G.pg.base.item_data_statistics[59625] = {
 	display = "전함 미카사의 1:100 프라모델 모형",
 	name = "프라모델-미카사",
 	max_num = 0,
@@ -156165,7 +156192,7 @@ _G.pg.item_data_statistics[59625] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59626] = {
+_G.pg.base.item_data_statistics[59626] = {
 	display = "(한때) 미카사 선배의 프라모델 박물관에 진열되었던 프라모델의 부품. 프라모델을 복원하는데 쓰인다. 이벤트 기간 종료 시 인벤토리에서 자동소멸된다.",
 	name = "부품",
 	max_num = 0,
@@ -156186,7 +156213,7 @@ _G.pg.item_data_statistics[59626] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59627] = {
+_G.pg.base.item_data_statistics[59627] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-아타고",
 	name = "프라모델-아타고",
 	max_num = 0,
@@ -156207,7 +156234,7 @@ _G.pg.item_data_statistics[59627] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59628] = {
+_G.pg.base.item_data_statistics[59628] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-초카이",
 	name = "프라모델-초카이",
 	max_num = 0,
@@ -156228,7 +156255,7 @@ _G.pg.item_data_statistics[59628] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59629] = {
+_G.pg.base.item_data_statistics[59629] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-나가토",
 	name = "프라모델-나가토",
 	max_num = 0,
@@ -156249,7 +156276,7 @@ _G.pg.item_data_statistics[59629] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59630] = {
+_G.pg.base.item_data_statistics[59630] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-무츠키",
 	name = "프라모델-무츠키",
 	max_num = 0,
@@ -156270,7 +156297,7 @@ _G.pg.item_data_statistics[59630] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59631] = {
+_G.pg.base.item_data_statistics[59631] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-히에이",
 	name = "프라모델-히에이",
 	max_num = 0,
@@ -156291,7 +156318,7 @@ _G.pg.item_data_statistics[59631] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59632] = {
+_G.pg.base.item_data_statistics[59632] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-아카기",
 	name = "프라모델-아카기",
 	max_num = 0,
@@ -156312,7 +156339,7 @@ _G.pg.item_data_statistics[59632] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59633] = {
+_G.pg.base.item_data_statistics[59633] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-쇼카쿠",
 	name = "프라모델-쇼카쿠",
 	max_num = 0,
@@ -156333,7 +156360,7 @@ _G.pg.item_data_statistics[59633] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59634] = {
+_G.pg.base.item_data_statistics[59634] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-즈이카쿠",
 	name = "프라모델-즈이카쿠",
 	max_num = 0,
@@ -156354,7 +156381,7 @@ _G.pg.item_data_statistics[59634] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59711] = {
+_G.pg.base.item_data_statistics[59711] = {
 	display = "1주년 기념 이벤트 '재탄생의 새벽' 클리어 기념. \"지휘관님? 제가 들고 있는 보드카랑 흘롑 보셨나요? 우후후.\" ",
 	name = "재탄생의 새벽 ",
 	max_num = 0,
@@ -156375,7 +156402,7 @@ _G.pg.item_data_statistics[59711] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59713] = {
+_G.pg.base.item_data_statistics[59713] = {
 	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
@@ -156396,7 +156423,7 @@ _G.pg.item_data_statistics[59713] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59714] = {
+_G.pg.base.item_data_statistics[59714] = {
 	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
@@ -156417,7 +156444,7 @@ _G.pg.item_data_statistics[59714] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59715] = {
+_G.pg.base.item_data_statistics[59715] = {
 	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
@@ -156438,7 +156465,7 @@ _G.pg.item_data_statistics[59715] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59716] = {
+_G.pg.base.item_data_statistics[59716] = {
 	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
@@ -156459,7 +156486,7 @@ _G.pg.item_data_statistics[59716] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59717] = {
+_G.pg.base.item_data_statistics[59717] = {
 	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
@@ -156480,7 +156507,7 @@ _G.pg.item_data_statistics[59717] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59718] = {
+_G.pg.base.item_data_statistics[59718] = {
 	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
@@ -156501,7 +156528,7 @@ _G.pg.item_data_statistics[59718] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59719] = {
+_G.pg.base.item_data_statistics[59719] = {
 	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
@@ -156522,7 +156549,7 @@ _G.pg.item_data_statistics[59719] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59720] = {
+_G.pg.base.item_data_statistics[59720] = {
 	display = "사용하면, 지정된 SSR 함선과 기념 아이템「답례」를 획득할 수 있다.",
 	name = "연회 초대장",
 	max_num = 0,
@@ -156589,7 +156616,7 @@ _G.pg.item_data_statistics[59720] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59721] = {
+_G.pg.base.item_data_statistics[59721] = {
 	display = "샌디에이고에게 받은 연회 초대의 답례",
 	name = "샌디에이고의 답례",
 	max_num = 0,
@@ -156610,7 +156637,7 @@ _G.pg.item_data_statistics[59721] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59722] = {
+_G.pg.base.item_data_statistics[59722] = {
 	display = "벨파스트에게 받은 연회 초대의 답례",
 	name = "벨파스트의 답례",
 	max_num = 0,
@@ -156631,7 +156658,7 @@ _G.pg.item_data_statistics[59722] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59723] = {
+_G.pg.base.item_data_statistics[59723] = {
 	display = "타카오에게 받은 연회 초대의 답례",
 	name = "타카오의 답례",
 	max_num = 0,
@@ -156652,7 +156679,7 @@ _G.pg.item_data_statistics[59723] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59724] = {
+_G.pg.base.item_data_statistics[59724] = {
 	display = "워스파이트에게 받은 연회 초대의 답례",
 	name = "워스파이트의 답례",
 	max_num = 0,
@@ -156673,7 +156700,7 @@ _G.pg.item_data_statistics[59724] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59725] = {
+_G.pg.base.item_data_statistics[59725] = {
 	display = "후드에게 받은 연회 초대의 답례",
 	name = "후드의 답례",
 	max_num = 0,
@@ -156694,7 +156721,7 @@ _G.pg.item_data_statistics[59725] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59726] = {
+_G.pg.base.item_data_statistics[59726] = {
 	display = "엔터프라이즈에게 받은 연회 초대의 답례",
 	name = "엔터프라이즈의 답례",
 	max_num = 0,
@@ -156715,7 +156742,7 @@ _G.pg.item_data_statistics[59726] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59727] = {
+_G.pg.base.item_data_statistics[59727] = {
 	display = "일러스트리어스에게 받은 연회 초대의 답례",
 	name = "일러스트리어스의 답례",
 	max_num = 0,
@@ -156736,7 +156763,7 @@ _G.pg.item_data_statistics[59727] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59728] = {
+_G.pg.base.item_data_statistics[59728] = {
 	display = "프린스 오브 웨일즈에게 받은 연회 초대의 답례",
 	name = "프린스 오브 웨일즈의 답례",
 	max_num = 0,
@@ -156757,7 +156784,7 @@ _G.pg.item_data_statistics[59728] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59729] = {
+_G.pg.base.item_data_statistics[59729] = {
 	display = "아타고에게 받은 연회 초대의 답례",
 	name = "아타고의 답례",
 	max_num = 0,
@@ -156778,7 +156805,7 @@ _G.pg.item_data_statistics[59729] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59730] = {
+_G.pg.base.item_data_statistics[59730] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "샌디에이고의 답례 (패키지)",
 	max_num = 0,
@@ -156799,7 +156826,7 @@ _G.pg.item_data_statistics[59730] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59731] = {
+_G.pg.base.item_data_statistics[59731] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "벨파스트의 답례 (패키지)",
 	max_num = 0,
@@ -156820,7 +156847,7 @@ _G.pg.item_data_statistics[59731] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59732] = {
+_G.pg.base.item_data_statistics[59732] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "타카오의 답례 (패키지)",
 	max_num = 0,
@@ -156841,7 +156868,7 @@ _G.pg.item_data_statistics[59732] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59733] = {
+_G.pg.base.item_data_statistics[59733] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "워스파이트의 답례 (패키지)",
 	max_num = 0,
@@ -156862,7 +156889,7 @@ _G.pg.item_data_statistics[59733] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59734] = {
+_G.pg.base.item_data_statistics[59734] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "후드의 답례 (패키지)",
 	max_num = 0,
@@ -156883,7 +156910,7 @@ _G.pg.item_data_statistics[59734] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59735] = {
+_G.pg.base.item_data_statistics[59735] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "엔터프라이즈의 답례 (패키지)",
 	max_num = 0,
@@ -156904,7 +156931,7 @@ _G.pg.item_data_statistics[59735] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59736] = {
+_G.pg.base.item_data_statistics[59736] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "일러스트리어스의 답례 (패키지)",
 	max_num = 0,
@@ -156925,7 +156952,7 @@ _G.pg.item_data_statistics[59736] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59737] = {
+_G.pg.base.item_data_statistics[59737] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "프린스 오브 웨일즈의 답례 (패키지)",
 	max_num = 0,
@@ -156946,7 +156973,7 @@ _G.pg.item_data_statistics[59737] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59738] = {
+_G.pg.base.item_data_statistics[59738] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "아타고의 답례 (패키지)",
 	max_num = 0,
@@ -156967,7 +156994,7 @@ _G.pg.item_data_statistics[59738] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59739] = {
+_G.pg.base.item_data_statistics[59739] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "샌디에이고의 답례 (패키지)",
 	max_num = 0,
@@ -156988,7 +157015,7 @@ _G.pg.item_data_statistics[59739] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59740] = {
+_G.pg.base.item_data_statistics[59740] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "벨파스트의 답례 (패키지)",
 	max_num = 0,
@@ -157009,7 +157036,7 @@ _G.pg.item_data_statistics[59740] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59741] = {
+_G.pg.base.item_data_statistics[59741] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "타카오의 답례 (패키지)",
 	max_num = 0,
@@ -157030,7 +157057,7 @@ _G.pg.item_data_statistics[59741] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59742] = {
+_G.pg.base.item_data_statistics[59742] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "워스파이트의 답례 (패키지)",
 	max_num = 0,
@@ -157051,7 +157078,7 @@ _G.pg.item_data_statistics[59742] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59743] = {
+_G.pg.base.item_data_statistics[59743] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "후드의 답례 (패키지)",
 	max_num = 0,
@@ -157072,7 +157099,7 @@ _G.pg.item_data_statistics[59743] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59744] = {
+_G.pg.base.item_data_statistics[59744] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "엔터프라이즈의 답례 (패키지)",
 	max_num = 0,
@@ -157093,7 +157120,7 @@ _G.pg.item_data_statistics[59744] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59745] = {
+_G.pg.base.item_data_statistics[59745] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "일러스트리어스의 답례 (패키지)",
 	max_num = 0,
@@ -157114,7 +157141,7 @@ _G.pg.item_data_statistics[59745] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59746] = {
+_G.pg.base.item_data_statistics[59746] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "프린스 오브 웨일즈의 답례 (패키지)",
 	max_num = 0,
@@ -157135,7 +157162,7 @@ _G.pg.item_data_statistics[59746] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59747] = {
+_G.pg.base.item_data_statistics[59747] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "아타고의 답례 (패키지)",
 	max_num = 0,
@@ -157156,7 +157183,7 @@ _G.pg.item_data_statistics[59747] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59748] = {
+_G.pg.base.item_data_statistics[59748] = {
 	display = "18개를 모아 샌디에이고의 개조 전용 아이템 [빛나는 마이크] 를 획득할 수 있다.",
 	name = "샌디에이고 스타",
 	max_num = 0,
@@ -157177,7 +157204,7 @@ _G.pg.item_data_statistics[59748] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59749] = {
+_G.pg.base.item_data_statistics[59749] = {
 	display = "나는야 No.1!! 샌디에이고의 근대화 개조를 완성하는데 쓰인다.",
 	name = "빛나는 마이크",
 	max_num = 1,
@@ -157198,7 +157225,7 @@ _G.pg.item_data_statistics[59749] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59750] = {
+_G.pg.base.item_data_statistics[59750] = {
 	display = "사용 후 특정 함선을 초대하여 함께 크리스마스를 보낼 수 있다. (지정 캐릭터 획득)",
 	name = "성야의 선물",
 	max_num = 0,
@@ -157245,7 +157272,7 @@ _G.pg.item_data_statistics[59750] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59751] = {
+_G.pg.base.item_data_statistics[59751] = {
 	display = "클리블랜드에게 받은 크리스마스 초청장의 답례.",
 	name = "클리블랜드의 답례",
 	max_num = 0,
@@ -157266,7 +157293,7 @@ _G.pg.item_data_statistics[59751] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59752] = {
+_G.pg.base.item_data_statistics[59752] = {
 	display = "닝하이에게 받은 크리스마스 초청장의 답례.",
 	name = "닝하이의 답례",
 	max_num = 0,
@@ -157287,7 +157314,7 @@ _G.pg.item_data_statistics[59752] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59753] = {
+_G.pg.base.item_data_statistics[59753] = {
 	display = "핑하이에게 받은 크리스마스 초청장의 답례.",
 	name = "핑하이의 답례",
 	max_num = 0,
@@ -157308,7 +157335,7 @@ _G.pg.item_data_statistics[59753] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59754] = {
+_G.pg.base.item_data_statistics[59754] = {
 	display = "후부키에게 받은 크리스마스 초청장의 답례.",
 	name = "후부키의 답례",
 	max_num = 0,
@@ -157329,7 +157356,7 @@ _G.pg.item_data_statistics[59754] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59755] = {
+_G.pg.base.item_data_statistics[59755] = {
 	display = "에든버러에게 받은 크리스마스 초청장의 답례.",
 	name = "에든버러의 답례",
 	max_num = 0,
@@ -157350,7 +157377,7 @@ _G.pg.item_data_statistics[59755] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59756] = {
+_G.pg.base.item_data_statistics[59756] = {
 	display = "함선소녀와 답례를 획득 가능.",
 	name = "클리블랜드 패키지",
 	max_num = 0,
@@ -157371,7 +157398,7 @@ _G.pg.item_data_statistics[59756] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59757] = {
+_G.pg.base.item_data_statistics[59757] = {
 	display = "함선소녀와 답례를 획득 가능.",
 	name = "닝하이 패키지",
 	max_num = 0,
@@ -157392,7 +157419,7 @@ _G.pg.item_data_statistics[59757] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59758] = {
+_G.pg.base.item_data_statistics[59758] = {
 	display = "함선소녀와 답례를 획득 가능.",
 	name = "핑하이 패키지",
 	max_num = 0,
@@ -157413,7 +157440,7 @@ _G.pg.item_data_statistics[59758] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59759] = {
+_G.pg.base.item_data_statistics[59759] = {
 	display = "함선소녀와 답례를 획득 가능.",
 	name = "후부키 패키지",
 	max_num = 0,
@@ -157434,7 +157461,7 @@ _G.pg.item_data_statistics[59759] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59760] = {
+_G.pg.base.item_data_statistics[59760] = {
 	display = "함선소녀와 답례를 획득 가능.",
 	name = "에든버러 패키지",
 	max_num = 0,
@@ -157455,7 +157482,7 @@ _G.pg.item_data_statistics[59760] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59761] = {
+_G.pg.base.item_data_statistics[59761] = {
 	display = "7개 모아 [전사의 마음가짐]을 입수할 수 있다. ",
 	name = "역전의 증표 ",
 	max_num = 0,
@@ -157476,7 +157503,7 @@ _G.pg.item_data_statistics[59761] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59762] = {
+_G.pg.base.item_data_statistics[59762] = {
 	display = "Belli dura despicio! 워스파이트의 근대화 개수에 사용된다. ",
 	name = "전사의 마음가짐 ",
 	max_num = 1,
@@ -157497,7 +157524,7 @@ _G.pg.item_data_statistics[59762] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59763] = {
+_G.pg.base.item_data_statistics[59763] = {
 	display = "[세뱃돈마블] 이벤트에 사용된다. ",
 	name = "주사위 ",
 	max_num = 0,
@@ -157518,7 +157545,7 @@ _G.pg.item_data_statistics[59763] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59764] = {
+_G.pg.base.item_data_statistics[59764] = {
 	display = "그림 교실 이벤트에 쓰이는 아이템. 이벤트가 끝나면 자동으로 사라진다.",
 	name = "물감 A",
 	max_num = 0,
@@ -157539,7 +157566,7 @@ _G.pg.item_data_statistics[59764] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59765] = {
+_G.pg.base.item_data_statistics[59765] = {
 	display = "그림 교실 이벤트에 쓰이는 아이템. 이벤트가 끝나면 자동으로 사라진다.",
 	name = "물감 B",
 	max_num = 0,
@@ -157560,7 +157587,7 @@ _G.pg.item_data_statistics[59765] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59766] = {
+_G.pg.base.item_data_statistics[59766] = {
 	display = "그림 교실 이벤트에 쓰이는 아이템. 이벤트가 끝나면 자동으로 사라진다.",
 	name = "물감 C",
 	max_num = 0,
@@ -157581,7 +157608,7 @@ _G.pg.item_data_statistics[59766] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59767] = {
+_G.pg.base.item_data_statistics[59767] = {
 	display = "그림 교실 이벤트에 쓰이는 아이템. 이벤트가 끝나면 자동으로 사라진다.",
 	name = "물감 D",
 	max_num = 0,
@@ -157602,7 +157629,7 @@ _G.pg.item_data_statistics[59767] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59768] = {
+_G.pg.base.item_data_statistics[59768] = {
 	display = "그림 교실 이벤트에 쓰이는 아이템. 이벤트가 끝나면 자동으로 사라진다.",
 	name = "물감 E",
 	max_num = 0,
@@ -157623,7 +157650,7 @@ _G.pg.item_data_statistics[59768] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59769] = {
+_G.pg.base.item_data_statistics[59769] = {
 	display = "그림 교실 이벤트에 쓰이는 아이템. 이벤트가 끝나면 자동으로 사라진다.",
 	name = "물감 F",
 	max_num = 0,
@@ -157644,7 +157671,7 @@ _G.pg.item_data_statistics[59769] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59770] = {
+_G.pg.base.item_data_statistics[59770] = {
 	display = "그림 교실 이벤트에 쓰이는 아이템. 이벤트가 끝나면 자동으로 사라진다.",
 	name = "물감 G",
 	max_num = 0,
@@ -157665,7 +157692,7 @@ _G.pg.item_data_statistics[59770] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59771] = {
+_G.pg.base.item_data_statistics[59771] = {
 	display = "10개 모으면 좋은 일이 생길지도? ",
 	name = "기억 카드 ",
 	max_num = 0,
@@ -157686,7 +157713,7 @@ _G.pg.item_data_statistics[59771] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59772] = {
+_G.pg.base.item_data_statistics[59772] = {
 	display = "18개를 모아 샌디에이고의 개조 전용 아이템 [빛나는 마이크] 를 획득할 수 있다. ",
 	name = "샌디에이고 스타 ",
 	max_num = 0,
@@ -157707,7 +157734,7 @@ _G.pg.item_data_statistics[59772] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59773] = {
+_G.pg.base.item_data_statistics[59773] = {
 	display = "<빛나라! 배틀스타!> 에 참가하여 획득한 기념품 ",
 	name = "샌디에이고의 콜렉션 스타 ",
 	max_num = 0,
@@ -157728,7 +157755,7 @@ _G.pg.item_data_statistics[59773] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59774] = {
+_G.pg.base.item_data_statistics[59774] = {
 	display = "1주년 이벤트 [재탄생의 새벽] 완료 기념- 지휘관님, 제가 들고 있던 빵과 보드카를 보신 적 있으신가요? ",
 	name = "재탄생의 새벽 ",
 	max_num = 0,
@@ -157749,7 +157776,7 @@ _G.pg.item_data_statistics[59774] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59775] = {
+_G.pg.base.item_data_statistics[59775] = {
 	display = "7장을 모을 경우, 한정 설비 '약속의 증명' 획득 가능 ",
 	name = "U-556의 훈장 ",
 	max_num = 0,
@@ -157770,7 +157797,7 @@ _G.pg.item_data_statistics[59775] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59776] = {
+_G.pg.base.item_data_statistics[59776] = {
 	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
@@ -157791,7 +157818,7 @@ _G.pg.item_data_statistics[59776] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59777] = {
+_G.pg.base.item_data_statistics[59777] = {
 	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
@@ -157812,7 +157839,7 @@ _G.pg.item_data_statistics[59777] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59778] = {
+_G.pg.base.item_data_statistics[59778] = {
 	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
@@ -157833,7 +157860,7 @@ _G.pg.item_data_statistics[59778] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59779] = {
+_G.pg.base.item_data_statistics[59779] = {
 	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
@@ -157854,7 +157881,7 @@ _G.pg.item_data_statistics[59779] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59780] = {
+_G.pg.base.item_data_statistics[59780] = {
 	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
@@ -157875,7 +157902,7 @@ _G.pg.item_data_statistics[59780] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59781] = {
+_G.pg.base.item_data_statistics[59781] = {
 	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
@@ -157896,7 +157923,7 @@ _G.pg.item_data_statistics[59781] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59782] = {
+_G.pg.base.item_data_statistics[59782] = {
 	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
@@ -157917,7 +157944,7 @@ _G.pg.item_data_statistics[59782] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59783] = {
+_G.pg.base.item_data_statistics[59783] = {
 	display = "축제의 미니게임에서 받을 수 있는 스탬프. 스탬프북을 모두 채우면 특별한 보상을 받을 수 있어요! ",
 	name = "여름 축제 스탬프 ",
 	max_num = 0,
@@ -157938,7 +157965,7 @@ _G.pg.item_data_statistics[59783] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59784] = {
+_G.pg.base.item_data_statistics[59784] = {
 	display = "7회 수집 후, 한정 캐릭터「셰필드(μ장비)」를 획득할 수 있습니다. ",
 	name = "격주력 ",
 	max_num = 0,
@@ -157959,7 +157986,7 @@ _G.pg.item_data_statistics[59784] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59785] = {
+_G.pg.base.item_data_statistics[59785] = {
 	display = "더 많은 JUUs 모션을 볼 수 있습니다. ",
 	name = "JUUs 모션 ",
 	max_num = 0,
@@ -157980,7 +158007,7 @@ _G.pg.item_data_statistics[59785] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59786] = {
+_G.pg.base.item_data_statistics[59786] = {
 	display = "키누의 체크카드 증명서 ",
 	name = "수행 출첵 리스트 ",
 	max_num = 0,
@@ -158001,7 +158028,7 @@ _G.pg.item_data_statistics[59786] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59788] = {
+_G.pg.base.item_data_statistics[59788] = {
 	display = "18개를 모아 샌디에이고의 개조 전용 아이템 [빛나는 마이크] 를 획득할 수 있다.",
 	name = "샌디에이고 스타",
 	max_num = 0,
@@ -158022,7 +158049,7 @@ _G.pg.item_data_statistics[59788] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59791] = {
+_G.pg.base.item_data_statistics[59791] = {
 	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
@@ -158043,7 +158070,7 @@ _G.pg.item_data_statistics[59791] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59792] = {
+_G.pg.base.item_data_statistics[59792] = {
 	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
@@ -158064,7 +158091,7 @@ _G.pg.item_data_statistics[59792] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59793] = {
+_G.pg.base.item_data_statistics[59793] = {
 	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
@@ -158085,7 +158112,7 @@ _G.pg.item_data_statistics[59793] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59794] = {
+_G.pg.base.item_data_statistics[59794] = {
 	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
@@ -158106,7 +158133,7 @@ _G.pg.item_data_statistics[59794] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59795] = {
+_G.pg.base.item_data_statistics[59795] = {
 	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
@@ -158127,7 +158154,7 @@ _G.pg.item_data_statistics[59795] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59796] = {
+_G.pg.base.item_data_statistics[59796] = {
 	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
@@ -158148,7 +158175,7 @@ _G.pg.item_data_statistics[59796] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59797] = {
+_G.pg.base.item_data_statistics[59797] = {
 	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
@@ -158169,7 +158196,7 @@ _G.pg.item_data_statistics[59797] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59798] = {
+_G.pg.base.item_data_statistics[59798] = {
 	display = "특별 감사 기념",
 	name = "특별 기념 코인",
 	max_num = 0,
@@ -158190,7 +158217,7 @@ _G.pg.item_data_statistics[59798] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59799] = {
+_G.pg.base.item_data_statistics[59799] = {
 	display = "이벤트 「쥬쥬 모험기」완료 감사 기념——더, 계속 모함하자쥬!",
 	name = "특별 기념 코인",
 	max_num = 0,
@@ -158211,7 +158238,7 @@ _G.pg.item_data_statistics[59799] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59801] = {
+_G.pg.base.item_data_statistics[59801] = {
 	display = "A-1 조각",
 	name = "A-1 조각",
 	max_num = 0,
@@ -158232,7 +158259,7 @@ _G.pg.item_data_statistics[59801] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59802] = {
+_G.pg.base.item_data_statistics[59802] = {
 	display = "A-2 조각",
 	name = "A-2 조각",
 	max_num = 0,
@@ -158253,7 +158280,7 @@ _G.pg.item_data_statistics[59802] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59803] = {
+_G.pg.base.item_data_statistics[59803] = {
 	display = "A-3 조각",
 	name = "A-3 조각",
 	max_num = 0,
@@ -158274,7 +158301,7 @@ _G.pg.item_data_statistics[59803] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59804] = {
+_G.pg.base.item_data_statistics[59804] = {
 	display = "A-4 조각",
 	name = "A-4 조각",
 	max_num = 0,
@@ -158295,7 +158322,7 @@ _G.pg.item_data_statistics[59804] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59805] = {
+_G.pg.base.item_data_statistics[59805] = {
 	display = "B-1 조각",
 	name = "B-1 조각",
 	max_num = 0,
@@ -158316,7 +158343,7 @@ _G.pg.item_data_statistics[59805] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59806] = {
+_G.pg.base.item_data_statistics[59806] = {
 	display = "B-2 조각",
 	name = "B-2 조각",
 	max_num = 0,
@@ -158337,7 +158364,7 @@ _G.pg.item_data_statistics[59806] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59807] = {
+_G.pg.base.item_data_statistics[59807] = {
 	display = "B-3 조각",
 	name = "B-3 조각",
 	max_num = 0,
@@ -158358,7 +158385,7 @@ _G.pg.item_data_statistics[59807] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59808] = {
+_G.pg.base.item_data_statistics[59808] = {
 	display = "B-4 조각",
 	name = "B-4 조각",
 	max_num = 0,
@@ -158379,7 +158406,7 @@ _G.pg.item_data_statistics[59808] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59809] = {
+_G.pg.base.item_data_statistics[59809] = {
 	display = "C-1 조각",
 	name = "C-1 조각",
 	max_num = 0,
@@ -158400,7 +158427,7 @@ _G.pg.item_data_statistics[59809] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59810] = {
+_G.pg.base.item_data_statistics[59810] = {
 	display = "C-2 조각",
 	name = "C-2 조각",
 	max_num = 0,
@@ -158421,7 +158448,7 @@ _G.pg.item_data_statistics[59810] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59811] = {
+_G.pg.base.item_data_statistics[59811] = {
 	display = "C-3 조각",
 	name = "C-3 조각",
 	max_num = 0,
@@ -158442,7 +158469,7 @@ _G.pg.item_data_statistics[59811] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59812] = {
+_G.pg.base.item_data_statistics[59812] = {
 	display = "C-4 조각",
 	name = "C-4 조각",
 	max_num = 0,
@@ -158463,7 +158490,7 @@ _G.pg.item_data_statistics[59812] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59813] = {
+_G.pg.base.item_data_statistics[59813] = {
 	display = "D-1 조각",
 	name = "D-1 조각",
 	max_num = 0,
@@ -158484,7 +158511,7 @@ _G.pg.item_data_statistics[59813] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59814] = {
+_G.pg.base.item_data_statistics[59814] = {
 	display = "D-2 조각",
 	name = "D-2 조각",
 	max_num = 0,
@@ -158505,7 +158532,7 @@ _G.pg.item_data_statistics[59814] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59815] = {
+_G.pg.base.item_data_statistics[59815] = {
 	display = "D-3 조각",
 	name = "D-3 조각",
 	max_num = 0,
@@ -158526,7 +158553,7 @@ _G.pg.item_data_statistics[59815] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59816] = {
+_G.pg.base.item_data_statistics[59816] = {
 	display = "D-4 조각",
 	name = "D-4 조각",
 	max_num = 0,
@@ -158547,7 +158574,7 @@ _G.pg.item_data_statistics[59816] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59821] = {
+_G.pg.base.item_data_statistics[59821] = {
 	display = "인기투표에 필요한 표. 매일 리셋됩니다.",
 	name = "일반표",
 	max_num = 0,
@@ -158568,7 +158595,7 @@ _G.pg.item_data_statistics[59821] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59823] = {
+_G.pg.base.item_data_statistics[59823] = {
 	display = "과거 작전 내역(상설 복각 이벤트)에 접속하기 위한 데이터 키. 소비 아이템 ",
 	name = "데이터 키 ",
 	max_num = 0,
@@ -158589,7 +158616,7 @@ _G.pg.item_data_statistics[59823] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59824] = {
+_G.pg.base.item_data_statistics[59824] = {
 	display = "인기 투표 참여용 투표 가능 횟수. 매 라운드 투표 종료 시 횟수 초기화.",
 	name = "일반표",
 	max_num = 0,
@@ -158610,7 +158637,7 @@ _G.pg.item_data_statistics[59824] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59831] = {
+_G.pg.base.item_data_statistics[59831] = {
 	display = "만화 퍼즐 조각1",
 	name = "만화 퍼즐 조각1",
 	max_num = 0,
@@ -158631,7 +158658,7 @@ _G.pg.item_data_statistics[59831] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59832] = {
+_G.pg.base.item_data_statistics[59832] = {
 	display = "만화 퍼즐 조각2",
 	name = "만화 퍼즐 조각2",
 	max_num = 0,
@@ -158652,7 +158679,7 @@ _G.pg.item_data_statistics[59832] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59833] = {
+_G.pg.base.item_data_statistics[59833] = {
 	display = "만화 퍼즐 조각3",
 	name = "만화 퍼즐 조각3",
 	max_num = 0,
@@ -158673,7 +158700,7 @@ _G.pg.item_data_statistics[59833] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59834] = {
+_G.pg.base.item_data_statistics[59834] = {
 	display = "만화 퍼즐 조각4",
 	name = "만화 퍼즐 조각4",
 	max_num = 0,
@@ -158694,7 +158721,7 @@ _G.pg.item_data_statistics[59834] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59835] = {
+_G.pg.base.item_data_statistics[59835] = {
 	display = "만화 퍼즐 조각5",
 	name = "만화 퍼즐 조각5",
 	max_num = 0,
@@ -158715,7 +158742,7 @@ _G.pg.item_data_statistics[59835] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59836] = {
+_G.pg.base.item_data_statistics[59836] = {
 	display = "만화 퍼즐 조각6",
 	name = "만화 퍼즐 조각6",
 	max_num = 0,
@@ -158736,7 +158763,7 @@ _G.pg.item_data_statistics[59836] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59837] = {
+_G.pg.base.item_data_statistics[59837] = {
 	display = "만화 퍼즐 조각7",
 	name = "만화 퍼즐 조각7",
 	max_num = 0,
@@ -158757,7 +158784,7 @@ _G.pg.item_data_statistics[59837] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59838] = {
+_G.pg.base.item_data_statistics[59838] = {
 	display = "만화 퍼즐 조각8",
 	name = "만화 퍼즐 조각8",
 	max_num = 0,
@@ -158778,7 +158805,7 @@ _G.pg.item_data_statistics[59838] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59839] = {
+_G.pg.base.item_data_statistics[59839] = {
 	display = "만화 퍼즐 조각9",
 	name = "만화 퍼즐 조각9",
 	max_num = 0,
@@ -158799,7 +158826,7 @@ _G.pg.item_data_statistics[59839] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59841] = {
+_G.pg.base.item_data_statistics[59841] = {
 	display = "4주년 이벤트 감사 기념——걸음을 멈추지 않는 한, 항로는 끊임없이 뻗어 나간다!",
 	name = "4주년 기념 코인",
 	max_num = 0,
@@ -158820,7 +158847,7 @@ _G.pg.item_data_statistics[59841] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59842] = {
+_G.pg.base.item_data_statistics[59842] = {
 	display = "7개를 모아 유다치 전용 개조 아이템-고기 냄새 향수 획득 가능",
 	name = "고기",
 	max_num = 0,
@@ -158841,7 +158868,7 @@ _G.pg.item_data_statistics[59842] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59843] = {
+_G.pg.base.item_data_statistics[59843] = {
 	display = "「배고플 때 냄새 맡으면 더 배고파져요!」——유다치 근대화 개조 완료용",
 	name = "고기 냄새 향수",
 	max_num = 1,
@@ -158862,7 +158889,7 @@ _G.pg.item_data_statistics[59843] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59844] = {
+_G.pg.base.item_data_statistics[59844] = {
 	display = "이스트 글림의 사신수 중 하나인 청룡이 새겨진 옥기. 특수한 힘을 머금고 있다——안샨 근대화 개조 완성용 아이템",
 	name = "청룡의 인",
 	max_num = 1,
@@ -158883,7 +158910,7 @@ _G.pg.item_data_statistics[59844] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59845] = {
+_G.pg.base.item_data_statistics[59845] = {
 	display = "이스트 글림의 사신수 중 하나인 백호가 새겨진 옥기. 특수한 힘을 머금고 있다——창춘 근대화 개조 완성용 아이템",
 	name = "백호의 인",
 	max_num = 1,
@@ -158904,7 +158931,7 @@ _G.pg.item_data_statistics[59845] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59900] = {
+_G.pg.base.item_data_statistics[59900] = {
 	display = "다양한 방법으로 획득할 수 있는 코어 데이터. 코어 상점에서 사용할 수 있다.",
 	name = "코어 데이터",
 	max_num = 0,
@@ -158925,7 +158952,7 @@ _G.pg.item_data_statistics[59900] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59901] = {
+_G.pg.base.item_data_statistics[59901] = {
 	display = "지휘부에서 배포한 준비 지령. 사용 시 군수 준비 횟수 1회 증가",
 	name = "대함대 준비 지령",
 	max_num = 0,
@@ -158946,7 +158973,7 @@ _G.pg.item_data_statistics[59901] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59902] = {
+_G.pg.base.item_data_statistics[59902] = {
 	display = "지휘부에서 배포한 작전 지령. 사용 시 대함대 작전 참가 횟수 1회 증가",
 	name = "대함대 작전 지령",
 	max_num = 0,
@@ -158967,7 +158994,7 @@ _G.pg.item_data_statistics[59902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59906] = {
+_G.pg.base.item_data_statistics[59906] = {
 	display = "사용하면, 지정된 SSR 함선과 기념 아이템「답례」를 획득할 수 있다.",
 	name = "연회 초대장",
 	max_num = 0,
@@ -159034,7 +159061,7 @@ _G.pg.item_data_statistics[59906] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59907] = {
+_G.pg.base.item_data_statistics[59907] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "샌디에이고의 답례 (패키지)",
 	max_num = 0,
@@ -159055,7 +159082,7 @@ _G.pg.item_data_statistics[59907] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59908] = {
+_G.pg.base.item_data_statistics[59908] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "벨파스트의 답례 (패키지)",
 	max_num = 0,
@@ -159076,7 +159103,7 @@ _G.pg.item_data_statistics[59908] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59909] = {
+_G.pg.base.item_data_statistics[59909] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "타카오의 답례 (패키지)",
 	max_num = 0,
@@ -159097,7 +159124,7 @@ _G.pg.item_data_statistics[59909] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59910] = {
+_G.pg.base.item_data_statistics[59910] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "워스파이트의 답례 (패키지)",
 	max_num = 0,
@@ -159118,7 +159145,7 @@ _G.pg.item_data_statistics[59910] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59911] = {
+_G.pg.base.item_data_statistics[59911] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "후드의 답례 (패키지)",
 	max_num = 0,
@@ -159139,7 +159166,7 @@ _G.pg.item_data_statistics[59911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59912] = {
+_G.pg.base.item_data_statistics[59912] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "엔터프라이즈의 답례 (패키지)",
 	max_num = 0,
@@ -159160,7 +159187,7 @@ _G.pg.item_data_statistics[59912] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59913] = {
+_G.pg.base.item_data_statistics[59913] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "일러스트리어스의 답례 (패키지)",
 	max_num = 0,
@@ -159181,7 +159208,7 @@ _G.pg.item_data_statistics[59913] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59914] = {
+_G.pg.base.item_data_statistics[59914] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "프린스 오브 웨일즈의 답례 (패키지)",
 	max_num = 0,
@@ -159202,7 +159229,7 @@ _G.pg.item_data_statistics[59914] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59915] = {
+_G.pg.base.item_data_statistics[59915] = {
 	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
 	name = "아타고의 답례 (패키지)",
 	max_num = 0,
@@ -159223,7 +159250,7 @@ _G.pg.item_data_statistics[59915] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59916] = {
+_G.pg.base.item_data_statistics[59916] = {
 	display = "샌디에이고에게 받은 연회 초대의 답례",
 	name = "샌디에이고의 답례",
 	max_num = 0,
@@ -159244,7 +159271,7 @@ _G.pg.item_data_statistics[59916] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59917] = {
+_G.pg.base.item_data_statistics[59917] = {
 	display = "벨파스트에게 받은 연회 초대의 답례",
 	name = "벨파스트의 답례",
 	max_num = 0,
@@ -159265,7 +159292,7 @@ _G.pg.item_data_statistics[59917] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59918] = {
+_G.pg.base.item_data_statistics[59918] = {
 	display = "타카오에게 받은 연회 초대의 답례",
 	name = "타카오의 답례",
 	max_num = 0,
@@ -159286,7 +159313,7 @@ _G.pg.item_data_statistics[59918] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59919] = {
+_G.pg.base.item_data_statistics[59919] = {
 	display = "워스파이트에게 받은 연회 초대의 답례",
 	name = "워스파이트의 답례",
 	max_num = 0,
@@ -159307,7 +159334,7 @@ _G.pg.item_data_statistics[59919] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59920] = {
+_G.pg.base.item_data_statistics[59920] = {
 	display = "후드에게 받은 연회 초대의 답례",
 	name = "후드의 답례",
 	max_num = 0,
@@ -159328,7 +159355,7 @@ _G.pg.item_data_statistics[59920] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59921] = {
+_G.pg.base.item_data_statistics[59921] = {
 	display = "엔터프라이즈에게 받은 연회 초대의 답례",
 	name = "엔터프라이즈의 답례",
 	max_num = 0,
@@ -159349,7 +159376,7 @@ _G.pg.item_data_statistics[59921] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59922] = {
+_G.pg.base.item_data_statistics[59922] = {
 	display = "일러스트리어스에게 받은 연회 초대의 답례",
 	name = "일러스트리어스의 답례",
 	max_num = 0,
@@ -159370,7 +159397,7 @@ _G.pg.item_data_statistics[59922] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59923] = {
+_G.pg.base.item_data_statistics[59923] = {
 	display = "프린스 오브 웨일즈에게 받은 연회 초대의 답례",
 	name = "프린스 오브 웨일즈의 답례",
 	max_num = 0,
@@ -159391,7 +159418,7 @@ _G.pg.item_data_statistics[59923] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59924] = {
+_G.pg.base.item_data_statistics[59924] = {
 	display = "아타고에게 받은 연회 초대의 답례",
 	name = "아타고의 답례",
 	max_num = 0,
@@ -159412,7 +159439,7 @@ _G.pg.item_data_statistics[59924] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59925] = {
+_G.pg.base.item_data_statistics[59925] = {
 	display = "7개를 모으면 좋은 일이 일어날지도? ",
 	name = "월병 ",
 	max_num = 0,
@@ -159433,7 +159460,7 @@ _G.pg.item_data_statistics[59925] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59926] = {
+_G.pg.base.item_data_statistics[59926] = {
 	display = "7개를 모으면 좋은 일이 일어날지도? ",
 	name = "월병 ",
 	max_num = 0,
@@ -159454,7 +159481,7 @@ _G.pg.item_data_statistics[59926] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59930] = {
+_G.pg.base.item_data_statistics[59930] = {
 	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
@@ -159475,7 +159502,7 @@ _G.pg.item_data_statistics[59930] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59931] = {
+_G.pg.base.item_data_statistics[59931] = {
 	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
@@ -159496,7 +159523,7 @@ _G.pg.item_data_statistics[59931] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59932] = {
+_G.pg.base.item_data_statistics[59932] = {
 	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
@@ -159517,7 +159544,7 @@ _G.pg.item_data_statistics[59932] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59933] = {
+_G.pg.base.item_data_statistics[59933] = {
 	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
@@ -159538,7 +159565,7 @@ _G.pg.item_data_statistics[59933] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59934] = {
+_G.pg.base.item_data_statistics[59934] = {
 	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
@@ -159559,7 +159586,7 @@ _G.pg.item_data_statistics[59934] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59935] = {
+_G.pg.base.item_data_statistics[59935] = {
 	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
@@ -159580,7 +159607,7 @@ _G.pg.item_data_statistics[59935] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59936] = {
+_G.pg.base.item_data_statistics[59936] = {
 	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
@@ -159601,7 +159628,7 @@ _G.pg.item_data_statistics[59936] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59937] = {
+_G.pg.base.item_data_statistics[59937] = {
 	display = "물감 H, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 H",
 	max_num = 0,
@@ -159622,7 +159649,7 @@ _G.pg.item_data_statistics[59937] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59938] = {
+_G.pg.base.item_data_statistics[59938] = {
 	display = "7개를 수집하면 워스파이트 전용 개조 아이템 획득 가능-전사의 마음가짐",
 	name = "전쟁의 증표",
 	max_num = 0,
@@ -159643,7 +159670,7 @@ _G.pg.item_data_statistics[59938] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59939] = {
+_G.pg.base.item_data_statistics[59939] = {
 	display = "워스파이트의 특별 훈련 이벤트 참여 기념품",
 	name = "전쟁 기념 증표",
 	max_num = 0,
@@ -159664,7 +159691,7 @@ _G.pg.item_data_statistics[59939] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59940] = {
+_G.pg.base.item_data_statistics[59940] = {
 	display = "축복을 담은 연하장. 사용 후 특정 캐릭터 1명에게 선물할 수 있다. (특정 캐릭터 획득)",
 	name = "연하장",
 	max_num = 0,
@@ -159721,7 +159748,7 @@ _G.pg.item_data_statistics[59940] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59941] = {
+_G.pg.base.item_data_statistics[59941] = {
 	display = "함선 및 답례 획득 가능",
 	name = "워스파이트 패키지",
 	max_num = 0,
@@ -159742,7 +159769,7 @@ _G.pg.item_data_statistics[59941] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59942] = {
+_G.pg.base.item_data_statistics[59942] = {
 	display = "함선 및 답례 획득 가능",
 	name = "아타고 패키지",
 	max_num = 0,
@@ -159763,7 +159790,7 @@ _G.pg.item_data_statistics[59942] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59943] = {
+_G.pg.base.item_data_statistics[59943] = {
 	display = "함선 및 답례 획득 가능",
 	name = "일러스트리어스 패키지",
 	max_num = 0,
@@ -159784,7 +159811,7 @@ _G.pg.item_data_statistics[59943] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59944] = {
+_G.pg.base.item_data_statistics[59944] = {
 	display = "함선 및 답례 획득 가능",
 	name = "쇼카쿠 패키지",
 	max_num = 0,
@@ -159805,7 +159832,7 @@ _G.pg.item_data_statistics[59944] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59945] = {
+_G.pg.base.item_data_statistics[59945] = {
 	display = "함선 및 답례 획득 가능",
 	name = "즈이카쿠 패키지",
 	max_num = 0,
@@ -159826,7 +159853,7 @@ _G.pg.item_data_statistics[59945] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59946] = {
+_G.pg.base.item_data_statistics[59946] = {
 	display = "함선 및 답례 획득 가능",
 	name = "몬트필리어 패키지",
 	max_num = 0,
@@ -159847,7 +159874,7 @@ _G.pg.item_data_statistics[59946] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59947] = {
+_G.pg.base.item_data_statistics[59947] = {
 	display = "함선 및 답례 획득 가능",
 	name = "후드 패키지",
 	max_num = 0,
@@ -159868,7 +159895,7 @@ _G.pg.item_data_statistics[59947] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59948] = {
+_G.pg.base.item_data_statistics[59948] = {
 	display = "워스파이트로부터 받은 신년 연하장",
 	name = "워스파이트의 연하장",
 	max_num = 0,
@@ -159889,7 +159916,7 @@ _G.pg.item_data_statistics[59948] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59949] = {
+_G.pg.base.item_data_statistics[59949] = {
 	display = "아타고로부터 받은 신년 연하장",
 	name = "아타고의 연하장",
 	max_num = 0,
@@ -159910,7 +159937,7 @@ _G.pg.item_data_statistics[59949] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59950] = {
+_G.pg.base.item_data_statistics[59950] = {
 	display = "일러스트리어스로부터 받은 신년 연하장",
 	name = "일러스트리어스의 연하장",
 	max_num = 0,
@@ -159931,7 +159958,7 @@ _G.pg.item_data_statistics[59950] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59951] = {
+_G.pg.base.item_data_statistics[59951] = {
 	display = "쇼카쿠로부터 받은 신년 연하장",
 	name = "쇼카쿠의 연하장",
 	max_num = 0,
@@ -159952,7 +159979,7 @@ _G.pg.item_data_statistics[59951] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59952] = {
+_G.pg.base.item_data_statistics[59952] = {
 	display = "즈이카쿠로부터 받은 신년 연하장",
 	name = "즈이카쿠의 연하장",
 	max_num = 0,
@@ -159973,7 +160000,7 @@ _G.pg.item_data_statistics[59952] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59953] = {
+_G.pg.base.item_data_statistics[59953] = {
 	display = "몬트필리어로부터 받은 신년 연하장",
 	name = "몬트필리어의 연하장",
 	max_num = 0,
@@ -159994,7 +160021,7 @@ _G.pg.item_data_statistics[59953] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59954] = {
+_G.pg.base.item_data_statistics[59954] = {
 	display = "후드로부터 받은 신년 연하장",
 	name = "후드의 연하장",
 	max_num = 0,
@@ -160015,7 +160042,7 @@ _G.pg.item_data_statistics[59954] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59955] = {
+_G.pg.base.item_data_statistics[59955] = {
 	display = "사용 시 특정 대상 1명을 연회에 초대할 수 있다. (지정 캐릭터 획득) ",
 	name = "특별 초대장 ",
 	max_num = 0,
@@ -160082,7 +160109,7 @@ _G.pg.item_data_statistics[59955] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59960] = {
+_G.pg.base.item_data_statistics[59960] = {
 	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
@@ -160103,7 +160130,7 @@ _G.pg.item_data_statistics[59960] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59961] = {
+_G.pg.base.item_data_statistics[59961] = {
 	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
@@ -160124,7 +160151,7 @@ _G.pg.item_data_statistics[59961] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59962] = {
+_G.pg.base.item_data_statistics[59962] = {
 	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
@@ -160145,7 +160172,7 @@ _G.pg.item_data_statistics[59962] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59963] = {
+_G.pg.base.item_data_statistics[59963] = {
 	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
@@ -160166,7 +160193,7 @@ _G.pg.item_data_statistics[59963] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59964] = {
+_G.pg.base.item_data_statistics[59964] = {
 	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
@@ -160187,7 +160214,7 @@ _G.pg.item_data_statistics[59964] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59965] = {
+_G.pg.base.item_data_statistics[59965] = {
 	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
@@ -160208,7 +160235,7 @@ _G.pg.item_data_statistics[59965] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59966] = {
+_G.pg.base.item_data_statistics[59966] = {
 	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
@@ -160229,7 +160256,7 @@ _G.pg.item_data_statistics[59966] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59967] = {
+_G.pg.base.item_data_statistics[59967] = {
 	display = "「싸워라! 로열 메이드 2nd」 참여로 획득하는 포인트. 적립 시 보수를 받을 수 있다.",
 	name = "공헌도",
 	max_num = 0,
@@ -160250,7 +160277,7 @@ _G.pg.item_data_statistics[59967] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59968] = {
+_G.pg.base.item_data_statistics[59968] = {
 	display = "「싸워라! 로열 메이드 2nd」 EX 스테이지에 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다.",
 	name = "특별 도전권",
 	max_num = 0,
@@ -160271,7 +160298,7 @@ _G.pg.item_data_statistics[59968] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59969] = {
+_G.pg.base.item_data_statistics[59969] = {
 	display = "우라나미의 귀여운 <기괴> 생물 도감",
 	name = "귀여운 <기괴> 생물 도감",
 	max_num = 0,
@@ -160292,7 +160319,7 @@ _G.pg.item_data_statistics[59969] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59970] = {
+_G.pg.base.item_data_statistics[59970] = {
 	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
@@ -160313,7 +160340,7 @@ _G.pg.item_data_statistics[59970] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59971] = {
+_G.pg.base.item_data_statistics[59971] = {
 	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
@@ -160334,7 +160361,7 @@ _G.pg.item_data_statistics[59971] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59972] = {
+_G.pg.base.item_data_statistics[59972] = {
 	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
@@ -160355,7 +160382,7 @@ _G.pg.item_data_statistics[59972] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59973] = {
+_G.pg.base.item_data_statistics[59973] = {
 	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
@@ -160376,7 +160403,7 @@ _G.pg.item_data_statistics[59973] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59974] = {
+_G.pg.base.item_data_statistics[59974] = {
 	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
@@ -160397,7 +160424,7 @@ _G.pg.item_data_statistics[59974] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59975] = {
+_G.pg.base.item_data_statistics[59975] = {
 	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
@@ -160418,7 +160445,7 @@ _G.pg.item_data_statistics[59975] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59976] = {
+_G.pg.base.item_data_statistics[59976] = {
 	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
@@ -160439,7 +160466,7 @@ _G.pg.item_data_statistics[59976] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59977] = {
+_G.pg.base.item_data_statistics[59977] = {
 	display = "물감 H, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 H",
 	max_num = 0,
@@ -160460,7 +160487,7 @@ _G.pg.item_data_statistics[59977] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59978] = {
+_G.pg.base.item_data_statistics[59978] = {
 	display = "물감 I, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 I",
 	max_num = 0,
@@ -160481,7 +160508,7 @@ _G.pg.item_data_statistics[59978] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59979] = {
+_G.pg.base.item_data_statistics[59979] = {
 	display = "7개 모아 [전사의 마음가짐]을 입수할 수 있다. ",
 	name = "역전의 증표 ",
 	max_num = 0,
@@ -160502,7 +160529,7 @@ _G.pg.item_data_statistics[59979] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59981] = {
+_G.pg.base.item_data_statistics[59981] = {
 	display = "7개 수집 후 한정 설비 <약속의 증명> 획득 가능",
 	name = "U556의 훈장",
 	max_num = 0,
@@ -160523,7 +160550,7 @@ _G.pg.item_data_statistics[59981] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59982] = {
+_G.pg.base.item_data_statistics[59982] = {
 	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
@@ -160544,7 +160571,7 @@ _G.pg.item_data_statistics[59982] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59983] = {
+_G.pg.base.item_data_statistics[59983] = {
 	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
@@ -160565,7 +160592,7 @@ _G.pg.item_data_statistics[59983] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59984] = {
+_G.pg.base.item_data_statistics[59984] = {
 	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
@@ -160586,7 +160613,7 @@ _G.pg.item_data_statistics[59984] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59985] = {
+_G.pg.base.item_data_statistics[59985] = {
 	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
@@ -160607,7 +160634,7 @@ _G.pg.item_data_statistics[59985] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59986] = {
+_G.pg.base.item_data_statistics[59986] = {
 	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
@@ -160628,7 +160655,7 @@ _G.pg.item_data_statistics[59986] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59987] = {
+_G.pg.base.item_data_statistics[59987] = {
 	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
@@ -160649,7 +160676,7 @@ _G.pg.item_data_statistics[59987] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59988] = {
+_G.pg.base.item_data_statistics[59988] = {
 	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
@@ -160670,7 +160697,7 @@ _G.pg.item_data_statistics[59988] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60001] = {
+_G.pg.base.item_data_statistics[60001] = {
 	display = "0",
 	name = "테스트용 1",
 	max_num = 0,
@@ -160691,7 +160718,7 @@ _G.pg.item_data_statistics[60001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60002] = {
+_G.pg.base.item_data_statistics[60002] = {
 	display = "0",
 	name = "테스트용 2",
 	max_num = 0,
@@ -160712,7 +160739,7 @@ _G.pg.item_data_statistics[60002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60003] = {
+_G.pg.base.item_data_statistics[60003] = {
 	display = "0",
 	name = "테스트용 3",
 	max_num = 0,
@@ -160733,7 +160760,7 @@ _G.pg.item_data_statistics[60003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60011] = {
+_G.pg.base.item_data_statistics[60011] = {
 	display = "10초 만에 1 경험치를 얻을 수 있는 슈퍼 스킬 교본.",
 	name = "슈퍼 교본",
 	max_num = 0,
@@ -160754,7 +160781,7 @@ _G.pg.item_data_statistics[60011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60012] = {
+_G.pg.base.item_data_statistics[60012] = {
 	display = "10초 만에 10000 경험치를 얻을 수 있는 슈퍼 스킬 교본.",
 	name = "슈퍼 교본",
 	max_num = 0,
@@ -160775,7 +160802,7 @@ _G.pg.item_data_statistics[60012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60021] = {
+_G.pg.base.item_data_statistics[60021] = {
 	display = "「만쥬 레스토랑」 이벤트에서 사용할 수 있다. ",
 	name = "세뱃돈 ",
 	max_num = 0,
@@ -160796,7 +160823,7 @@ _G.pg.item_data_statistics[60021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60022] = {
+_G.pg.base.item_data_statistics[60022] = {
 	display = "「쥬쥬 레스토랑」 이벤트에서 사용할 수 있다. ",
 	name = "세뱃돈 ",
 	max_num = 0,
@@ -160817,7 +160844,7 @@ _G.pg.item_data_statistics[60022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60023] = {
+_G.pg.base.item_data_statistics[60023] = {
 	display = "「쥬쥬 레스토랑」 이벤트에서 사용할 수 있다. ",
 	name = "세뱃돈 ",
 	max_num = 0,
@@ -160838,7 +160865,7 @@ _G.pg.item_data_statistics[60023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60030] = {
+_G.pg.base.item_data_statistics[60030] = {
 	display = "「황금의 보물」 이벤트 아이템",
 	name = "단서「M」",
 	max_num = 0,
@@ -160859,7 +160886,7 @@ _G.pg.item_data_statistics[60030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60031] = {
+_G.pg.base.item_data_statistics[60031] = {
 	display = "「황금의 보물」 이벤트 아이템",
 	name = "단서「E」",
 	max_num = 0,
@@ -160880,7 +160907,7 @@ _G.pg.item_data_statistics[60031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60032] = {
+_G.pg.base.item_data_statistics[60032] = {
 	display = "「황금의 보물」 이벤트 아이템",
 	name = "단서「G」",
 	max_num = 0,
@@ -160901,7 +160928,7 @@ _G.pg.item_data_statistics[60032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60033] = {
+_G.pg.base.item_data_statistics[60033] = {
 	display = "「황금의 보물」 이벤트 아이템",
 	name = "단서「A」",
 	max_num = 0,
@@ -160922,7 +160949,7 @@ _G.pg.item_data_statistics[60033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60034] = {
+_G.pg.base.item_data_statistics[60034] = {
 	display = "「황금의 보물」 이벤트 아이템",
 	name = "단서「B」",
 	max_num = 0,
@@ -160943,7 +160970,7 @@ _G.pg.item_data_statistics[60034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60035] = {
+_G.pg.base.item_data_statistics[60035] = {
 	display = "「황금의 보물」 이벤트 아이템",
 	name = "단서「U」",
 	max_num = 0,
@@ -160964,7 +160991,7 @@ _G.pg.item_data_statistics[60035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60036] = {
+_G.pg.base.item_data_statistics[60036] = {
 	display = "「황금의 보물」 이벤트 아이템",
 	name = "단서「R」",
 	max_num = 0,
@@ -160985,7 +161012,7 @@ _G.pg.item_data_statistics[60036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60037] = {
+_G.pg.base.item_data_statistics[60037] = {
 	display = "「황금의 보물」 이벤트 아이템",
 	name = "단서「I」",
 	max_num = 0,
@@ -161006,7 +161033,7 @@ _G.pg.item_data_statistics[60037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60038] = {
+_G.pg.base.item_data_statistics[60038] = {
 	display = "「황금의 보물」 이벤트 아이템",
 	name = "단서「N」",
 	max_num = 0,
@@ -161027,7 +161054,7 @@ _G.pg.item_data_statistics[60038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[61001] = {
+_G.pg.base.item_data_statistics[61001] = {
 	display = "작전 효율을 상승시키기 위해 설계된 특별 명령서. 일부 일반 스테이지의 주회 모드에서 사용 가능. 사용 시 해당 작전의 전투에서 사용하는 연료가 2배로 증가하며, 전투 후 얻는 수익도 2배로 증가한다.",
 	name = "고효율 작전 명령서",
 	max_num = 0,
@@ -161048,7 +161075,7 @@ _G.pg.item_data_statistics[61001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60039] = {
+_G.pg.base.item_data_statistics[60039] = {
 	display = "可以获得舰船和回礼",
 	name = "天狼星礼包（新）",
 	max_num = 0,
@@ -161069,7 +161096,7 @@ _G.pg.item_data_statistics[60039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60040] = {
+_G.pg.base.item_data_statistics[60040] = {
 	display = "可以获得舰船和回礼",
 	name = "贝尔法斯特礼包（新）",
 	max_num = 0,
@@ -161090,7 +161117,7 @@ _G.pg.item_data_statistics[60040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60041] = {
+_G.pg.base.item_data_statistics[60041] = {
 	display = "可以获得舰船和回礼",
 	name = "胜利礼包（新）",
 	max_num = 0,
@@ -161111,7 +161138,7 @@ _G.pg.item_data_statistics[60041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60042] = {
+_G.pg.base.item_data_statistics[60042] = {
 	display = "可以获得舰船和回礼",
 	name = "厌战礼包（新）",
 	max_num = 0,
@@ -161132,7 +161159,7 @@ _G.pg.item_data_statistics[60042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60043] = {
+_G.pg.base.item_data_statistics[60043] = {
 	display = "可以获得舰船和回礼",
 	name = "胡德礼包（新）",
 	max_num = 0,
@@ -161153,7 +161180,7 @@ _G.pg.item_data_statistics[60043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60044] = {
+_G.pg.base.item_data_statistics[60044] = {
 	display = "可以获得舰船和回礼",
 	name = "企业礼包（新）",
 	max_num = 0,
@@ -161174,7 +161201,7 @@ _G.pg.item_data_statistics[60044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60045] = {
+_G.pg.base.item_data_statistics[60045] = {
 	display = "可以获得舰船和回礼",
 	name = "光辉礼包（新）",
 	max_num = 0,
@@ -161195,7 +161222,7 @@ _G.pg.item_data_statistics[60045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60046] = {
+_G.pg.base.item_data_statistics[60046] = {
 	display = "可以获得舰船和回礼",
 	name = "威尔士亲王礼包（新）",
 	max_num = 0,
@@ -161216,7 +161243,7 @@ _G.pg.item_data_statistics[60046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60047] = {
+_G.pg.base.item_data_statistics[60047] = {
 	display = "可以获得舰船和回礼",
 	name = "犬礼包（新）",
 	max_num = 0,
@@ -161237,7 +161264,7 @@ _G.pg.item_data_statistics[60047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60048] = {
+_G.pg.base.item_data_statistics[60048] = {
 	display = "즈이카쿠로부터의 연회 초대에 대한 답례",
 	name = "즈이카쿠의 답례",
 	max_num = 0,
@@ -161258,7 +161285,7 @@ _G.pg.item_data_statistics[60048] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60049] = {
+_G.pg.base.item_data_statistics[60049] = {
 	display = "벨파스트로부터의 연회 초대에 대한 답례",
 	name = "벨파스트의 답례",
 	max_num = 0,
@@ -161279,7 +161306,7 @@ _G.pg.item_data_statistics[60049] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60050] = {
+_G.pg.base.item_data_statistics[60050] = {
 	display = "쇼카쿠로부터의 연회 초대에 대한 답례",
 	name = "쇼카쿠의 답례",
 	max_num = 0,
@@ -161300,7 +161327,7 @@ _G.pg.item_data_statistics[60050] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60051] = {
+_G.pg.base.item_data_statistics[60051] = {
 	display = "워스파이트로부터의 연회 초대에 대한 답례",
 	name = "워스파이트의 답례",
 	max_num = 0,
@@ -161321,7 +161348,7 @@ _G.pg.item_data_statistics[60051] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60052] = {
+_G.pg.base.item_data_statistics[60052] = {
 	display = "후드로부터의 연회 초대에 대한 답례",
 	name = "후드의 답례",
 	max_num = 0,
@@ -161342,7 +161369,7 @@ _G.pg.item_data_statistics[60052] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60053] = {
+_G.pg.base.item_data_statistics[60053] = {
 	display = "엔터프라이즈로부터의 연회 초대에 대한 답례",
 	name = "엔터프라이즈의 답례",
 	max_num = 0,
@@ -161363,7 +161390,7 @@ _G.pg.item_data_statistics[60053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60054] = {
+_G.pg.base.item_data_statistics[60054] = {
 	display = "일러스트리어스로부터의 연회 초대에 대한 답례",
 	name = "일러스트리어스의 답례",
 	max_num = 0,
@@ -161384,7 +161411,7 @@ _G.pg.item_data_statistics[60054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60055] = {
+_G.pg.base.item_data_statistics[60055] = {
 	display = "프린스 오브 웨일즈로부터의 연회 초대에 대한 답례",
 	name = "프린스 오브 웨일즈의 답례",
 	max_num = 0,
@@ -161405,7 +161432,7 @@ _G.pg.item_data_statistics[60055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60056] = {
+_G.pg.base.item_data_statistics[60056] = {
 	display = "아타고로부터의 연회 초대에 대한 답례",
 	name = "아타고의 답례",
 	max_num = 0,
@@ -161426,7 +161453,7 @@ _G.pg.item_data_statistics[60056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60057] = {
+_G.pg.base.item_data_statistics[60057] = {
 	display = "『특별 연습·에식스급』에서 획득한 포인트. 일정 수량 누적하여 보상 획득 가능",
 	name = "공헌도",
 	max_num = 0,
@@ -161447,7 +161474,7 @@ _G.pg.item_data_statistics[60057] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60058] = {
+_G.pg.base.item_data_statistics[60058] = {
 	display = "『특별 연습·에식스급』 EX 해역의 필요 아이템. 일반 해역 추가 보상 횟수를 증가시킬 수도 있다. ",
 	name = "특별 도전권",
 	max_num = 0,
@@ -161468,7 +161495,7 @@ _G.pg.item_data_statistics[60058] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60079] = {
+_G.pg.base.item_data_statistics[60079] = {
 	display = "빅토리어스 및 그녀의 답례 획득 가능",
 	name = "특별 초대장(빅토리어스)",
 	max_num = 0,
@@ -161500,7 +161527,7 @@ _G.pg.item_data_statistics[60079] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60080] = {
+_G.pg.base.item_data_statistics[60080] = {
 	display = "벨파스트 및 그녀의 답례 획득 가능",
 	name = "특별 초대장(벨파스트)",
 	max_num = 0,
@@ -161532,7 +161559,7 @@ _G.pg.item_data_statistics[60080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60081] = {
+_G.pg.base.item_data_statistics[60081] = {
 	display = "일러스트리어스 및 그녀의 답례 획득 가능",
 	name = "특별 초대장(일러스트리어스)",
 	max_num = 0,
@@ -161564,7 +161591,7 @@ _G.pg.item_data_statistics[60081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60082] = {
+_G.pg.base.item_data_statistics[60082] = {
 	display = "후드 및 그녀의 답례 획득 가능",
 	name = "특별 초대장(후드)",
 	max_num = 0,
@@ -161596,7 +161623,7 @@ _G.pg.item_data_statistics[60082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60083] = {
+_G.pg.base.item_data_statistics[60083] = {
 	display = "엔터프라이즈 및 그녀의 답례 획득 가능",
 	name = "특별 초대장(엔터프라이즈)",
 	max_num = 0,
@@ -161628,7 +161655,7 @@ _G.pg.item_data_statistics[60083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60084] = {
+_G.pg.base.item_data_statistics[60084] = {
 	display = "시리우스 및 그녀의 답례 획득 가능",
 	name = "특별 초대장(시리우스)",
 	max_num = 0,
@@ -161660,7 +161687,7 @@ _G.pg.item_data_statistics[60084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60085] = {
+_G.pg.base.item_data_statistics[60085] = {
 	display = "프린스 오브 웨일즈 및 그녀의 답례 획득 가능",
 	name = "특별 초대장(프린스 오브 웨일즈)",
 	max_num = 0,
@@ -161692,7 +161719,7 @@ _G.pg.item_data_statistics[60085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60086] = {
+_G.pg.base.item_data_statistics[60086] = {
 	display = "아타고 및 그녀의 답례 획득 가능",
 	name = "특별 초대장(아타고)",
 	max_num = 0,
@@ -161724,7 +161751,7 @@ _G.pg.item_data_statistics[60086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60087] = {
+_G.pg.base.item_data_statistics[60087] = {
 	display = "워스파이트 및 그녀의 답례 획득 가능",
 	name = "특별 초대장(워스파이트)",
 	max_num = 0,
@@ -161756,7 +161783,7 @@ _G.pg.item_data_statistics[60087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60088] = {
+_G.pg.base.item_data_statistics[60088] = {
 	display = "연회 초대에 대한 빅토리어스의 답례",
 	name = "빅토리어스의 답례",
 	max_num = 0,
@@ -161777,7 +161804,7 @@ _G.pg.item_data_statistics[60088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60089] = {
+_G.pg.base.item_data_statistics[60089] = {
 	display = "연회 초대에 대한 벨파스트의 답례",
 	name = "벨파스트의 답례",
 	max_num = 0,
@@ -161798,7 +161825,7 @@ _G.pg.item_data_statistics[60089] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60090] = {
+_G.pg.base.item_data_statistics[60090] = {
 	display = "연회 초대에 대한 일러스트리어스의 답례",
 	name = "일러스트리어스의 답례",
 	max_num = 0,
@@ -161819,7 +161846,7 @@ _G.pg.item_data_statistics[60090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60091] = {
+_G.pg.base.item_data_statistics[60091] = {
 	display = "연회 초대에 대한 후드의 답례",
 	name = "후드의 답례",
 	max_num = 0,
@@ -161840,7 +161867,7 @@ _G.pg.item_data_statistics[60091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60092] = {
+_G.pg.base.item_data_statistics[60092] = {
 	display = "연회 초대에 대한 엔터프라이즈의 답례",
 	name = "엔터프라이즈의 답례",
 	max_num = 0,
@@ -161861,7 +161888,7 @@ _G.pg.item_data_statistics[60092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60093] = {
+_G.pg.base.item_data_statistics[60093] = {
 	display = "연회 초대에 대한 시리우스의 답례",
 	name = "시리우스의 답례",
 	max_num = 0,
@@ -161882,7 +161909,7 @@ _G.pg.item_data_statistics[60093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60094] = {
+_G.pg.base.item_data_statistics[60094] = {
 	display = "연회 초대에 대한 프린스 오브 웨일즈의 답례",
 	name = "프린스 오브 웨일즈의 답례",
 	max_num = 0,
@@ -161903,7 +161930,7 @@ _G.pg.item_data_statistics[60094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60095] = {
+_G.pg.base.item_data_statistics[60095] = {
 	display = "연회 초대에 대한 아타고의 답례",
 	name = "아타고의 답례",
 	max_num = 0,
@@ -161924,7 +161951,7 @@ _G.pg.item_data_statistics[60095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60096] = {
+_G.pg.base.item_data_statistics[60096] = {
 	display = "연회 초대에 대한 워스파이트의 답례",
 	name = "워스파이트의 답례",
 	max_num = 0,
@@ -161945,7 +161972,7 @@ _G.pg.item_data_statistics[60096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60097] = {
+_G.pg.base.item_data_statistics[60097] = {
 	display = "사용 시 특정한 대상 1명을 연회에 초대 가능(지정 캐릭터 획득)",
 	name = "축제 초대장",
 	max_num = 0,
@@ -162012,7 +162039,7 @@ _G.pg.item_data_statistics[60097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60105] = {
+_G.pg.base.item_data_statistics[60105] = {
 	display = "축복을 담은 연하장. 사용 후 특정 캐릭터 1명을 선택 획득",
 	name = "연하장",
 	max_num = 0,
@@ -162069,7 +162096,7 @@ _G.pg.item_data_statistics[60105] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60106] = {
+_G.pg.base.item_data_statistics[60106] = {
 	display = "워스파이트 및 연하장 획득 가능",
 	name = "연하장(워스파이트)",
 	max_num = 0,
@@ -162101,7 +162128,7 @@ _G.pg.item_data_statistics[60106] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60107] = {
+_G.pg.base.item_data_statistics[60107] = {
 	display = "아타고 및 연하장 획득 가능",
 	name = "연하장(아타고)",
 	max_num = 0,
@@ -162133,7 +162160,7 @@ _G.pg.item_data_statistics[60107] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60108] = {
+_G.pg.base.item_data_statistics[60108] = {
 	display = "일러스트리어스 및 연하장 획득 가능",
 	name = "연하장(일러스트리어스)",
 	max_num = 0,
@@ -162165,7 +162192,7 @@ _G.pg.item_data_statistics[60108] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60109] = {
+_G.pg.base.item_data_statistics[60109] = {
 	display = "쇼카쿠 및 연하장 획득 가능",
 	name = "연하장(쇼카쿠)",
 	max_num = 0,
@@ -162197,7 +162224,7 @@ _G.pg.item_data_statistics[60109] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60110] = {
+_G.pg.base.item_data_statistics[60110] = {
 	display = "즈이카쿠 및 연하장 획득 가능",
 	name = "연하장(즈이카쿠)",
 	max_num = 0,
@@ -162229,7 +162256,7 @@ _G.pg.item_data_statistics[60110] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60111] = {
+_G.pg.base.item_data_statistics[60111] = {
 	display = "몬트필리어 및 연하장 획득 가능",
 	name = "연하장(몬트필리어)",
 	max_num = 0,
@@ -162261,7 +162288,7 @@ _G.pg.item_data_statistics[60111] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60112] = {
+_G.pg.base.item_data_statistics[60112] = {
 	display = "후드 및 연하장 획득 가능",
 	name = "연하장(후드)",
 	max_num = 0,
@@ -162293,7 +162320,7 @@ _G.pg.item_data_statistics[60112] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60113] = {
+_G.pg.base.item_data_statistics[60113] = {
 	display = "워스파이트로부터 받은 신년 연하장",
 	name = "워스파이트의 연하장",
 	max_num = 0,
@@ -162314,7 +162341,7 @@ _G.pg.item_data_statistics[60113] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60114] = {
+_G.pg.base.item_data_statistics[60114] = {
 	display = "아타고로부터 받은 신년 연하장",
 	name = "아타고의 연하장",
 	max_num = 0,
@@ -162335,7 +162362,7 @@ _G.pg.item_data_statistics[60114] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60115] = {
+_G.pg.base.item_data_statistics[60115] = {
 	display = "일러스트리어스로부터 받은 신년 연하장",
 	name = "일러스트리어스의 연하장",
 	max_num = 0,
@@ -162356,7 +162383,7 @@ _G.pg.item_data_statistics[60115] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60116] = {
+_G.pg.base.item_data_statistics[60116] = {
 	display = "쇼카쿠로부터 받은 신년 연하장",
 	name = "쇼카쿠의 연하장",
 	max_num = 0,
@@ -162377,7 +162404,7 @@ _G.pg.item_data_statistics[60116] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60117] = {
+_G.pg.base.item_data_statistics[60117] = {
 	display = "즈이카쿠로부터 받은 신년 연하장",
 	name = "즈이카쿠의 연하장",
 	max_num = 0,
@@ -162398,7 +162425,7 @@ _G.pg.item_data_statistics[60117] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60118] = {
+_G.pg.base.item_data_statistics[60118] = {
 	display = "몬트필리어로부터 받은 신년 연하장",
 	name = "몬트필리어의 연하장",
 	max_num = 0,
@@ -162419,7 +162446,7 @@ _G.pg.item_data_statistics[60118] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60119] = {
+_G.pg.base.item_data_statistics[60119] = {
 	display = "후드로부터 받은 신년 연하장",
 	name = "후드의 연하장",
 	max_num = 0,
@@ -162440,7 +162467,7 @@ _G.pg.item_data_statistics[60119] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60120] = {
+_G.pg.base.item_data_statistics[60120] = {
 	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
@@ -162461,7 +162488,7 @@ _G.pg.item_data_statistics[60120] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60121] = {
+_G.pg.base.item_data_statistics[60121] = {
 	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
@@ -162482,7 +162509,7 @@ _G.pg.item_data_statistics[60121] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60122] = {
+_G.pg.base.item_data_statistics[60122] = {
 	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
@@ -162503,7 +162530,7 @@ _G.pg.item_data_statistics[60122] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60123] = {
+_G.pg.base.item_data_statistics[60123] = {
 	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
@@ -162524,7 +162551,7 @@ _G.pg.item_data_statistics[60123] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60124] = {
+_G.pg.base.item_data_statistics[60124] = {
 	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
@@ -162545,7 +162572,7 @@ _G.pg.item_data_statistics[60124] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60125] = {
+_G.pg.base.item_data_statistics[60125] = {
 	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
@@ -162566,7 +162593,7 @@ _G.pg.item_data_statistics[60125] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60126] = {
+_G.pg.base.item_data_statistics[60126] = {
 	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
@@ -162587,7 +162614,7 @@ _G.pg.item_data_statistics[60126] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60127] = {
+_G.pg.base.item_data_statistics[60127] = {
 	display = "물감 H, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 H",
 	max_num = 0,
@@ -162608,7 +162635,7 @@ _G.pg.item_data_statistics[60127] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60128] = {
+_G.pg.base.item_data_statistics[60128] = {
 	display = "물감 I, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 I",
 	max_num = 0,
@@ -162629,7 +162656,7 @@ _G.pg.item_data_statistics[60128] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60129] = {
+_G.pg.base.item_data_statistics[60129] = {
 	display = "축복이 담긴 연하장. 사용 후 지정된 캐릭터 중에 임의로 선택 후 획득 가능",
 	name = "연하장(신축)",
 	max_num = 0,
@@ -162650,7 +162677,7 @@ _G.pg.item_data_statistics[60129] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60130] = {
+_G.pg.base.item_data_statistics[60130] = {
 	display = "다이호 및 연하장 획득 가능",
 	name = "연하장(다이호)",
 	max_num = 0,
@@ -162682,7 +162709,7 @@ _G.pg.item_data_statistics[60130] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60131] = {
+_G.pg.base.item_data_statistics[60131] = {
 	display = "엔터프라이즈 및 연하장 획득 가능",
 	name = "연하장(엔터프라이즈)",
 	max_num = 0,
@@ -162714,7 +162741,7 @@ _G.pg.item_data_statistics[60131] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60132] = {
+_G.pg.base.item_data_statistics[60132] = {
 	display = "벨파스트 및 연하장 획득 가능",
 	name = "연하장(벨파스트)",
 	max_num = 0,
@@ -162746,7 +162773,7 @@ _G.pg.item_data_statistics[60132] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60133] = {
+_G.pg.base.item_data_statistics[60133] = {
 	display = "닝하이 및 연하장 획득 가능",
 	name = "연하장(닝하이)",
 	max_num = 0,
@@ -162778,7 +162805,7 @@ _G.pg.item_data_statistics[60133] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60134] = {
+_G.pg.base.item_data_statistics[60134] = {
 	display = "핑하이 및 연하장 획득 가능",
 	name = "연하장(핑하이)",
 	max_num = 0,
@@ -162810,7 +162837,7 @@ _G.pg.item_data_statistics[60134] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60135] = {
+_G.pg.base.item_data_statistics[60135] = {
 	display = "다이호에게서 받은 춘절 연하장",
 	name = "다이호의 연하장",
 	max_num = 0,
@@ -162831,7 +162858,7 @@ _G.pg.item_data_statistics[60135] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60136] = {
+_G.pg.base.item_data_statistics[60136] = {
 	display = "엔터프라이즈에게서 받은 춘절 연하장",
 	name = "엔터프라이즈의 연하장",
 	max_num = 0,
@@ -162852,7 +162879,7 @@ _G.pg.item_data_statistics[60136] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60137] = {
+_G.pg.base.item_data_statistics[60137] = {
 	display = "벨파스트에게서 받은 춘절 연하장",
 	name = "벨파스트의 연하장",
 	max_num = 0,
@@ -162873,7 +162900,7 @@ _G.pg.item_data_statistics[60137] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60138] = {
+_G.pg.base.item_data_statistics[60138] = {
 	display = "닝하이에게서 받은 춘절 연하장",
 	name = "닝하이의 연하장",
 	max_num = 0,
@@ -162894,7 +162921,7 @@ _G.pg.item_data_statistics[60138] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60139] = {
+_G.pg.base.item_data_statistics[60139] = {
 	display = "핑하이에게서 받은 춘절 연하장",
 	name = "핑하이의 연하장",
 	max_num = 0,
@@ -162915,7 +162942,7 @@ _G.pg.item_data_statistics[60139] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60140] = {
+_G.pg.base.item_data_statistics[60140] = {
 	display = "만화 퍼즐 조각1",
 	name = "만화 퍼즐 조각1",
 	max_num = 0,
@@ -162936,7 +162963,7 @@ _G.pg.item_data_statistics[60140] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60141] = {
+_G.pg.base.item_data_statistics[60141] = {
 	display = "만화 퍼즐 조각2",
 	name = "만화 퍼즐 조각2",
 	max_num = 0,
@@ -162957,7 +162984,7 @@ _G.pg.item_data_statistics[60141] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60142] = {
+_G.pg.base.item_data_statistics[60142] = {
 	display = "만화 퍼즐 조각3",
 	name = "만화 퍼즐 조각3",
 	max_num = 0,
@@ -162978,7 +163005,7 @@ _G.pg.item_data_statistics[60142] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60143] = {
+_G.pg.base.item_data_statistics[60143] = {
 	display = "만화 퍼즐 조각4",
 	name = "만화 퍼즐 조각4",
 	max_num = 0,
@@ -162999,7 +163026,7 @@ _G.pg.item_data_statistics[60143] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60144] = {
+_G.pg.base.item_data_statistics[60144] = {
 	display = "만화 퍼즐 조각5",
 	name = "만화 퍼즐 조각5",
 	max_num = 0,
@@ -163020,7 +163047,7 @@ _G.pg.item_data_statistics[60144] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60145] = {
+_G.pg.base.item_data_statistics[60145] = {
 	display = "만화 퍼즐 조각6",
 	name = "만화 퍼즐 조각6",
 	max_num = 0,
@@ -163041,7 +163068,7 @@ _G.pg.item_data_statistics[60145] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60146] = {
+_G.pg.base.item_data_statistics[60146] = {
 	display = "만화 퍼즐 조각7",
 	name = "만화 퍼즐 조각7",
 	max_num = 0,
@@ -163062,7 +163089,7 @@ _G.pg.item_data_statistics[60146] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60147] = {
+_G.pg.base.item_data_statistics[60147] = {
 	display = "만화 퍼즐 조각8",
 	name = "만화 퍼즐 조각8",
 	max_num = 0,
@@ -163083,7 +163110,7 @@ _G.pg.item_data_statistics[60147] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60148] = {
+_G.pg.base.item_data_statistics[60148] = {
 	display = "만화 퍼즐 조각9",
 	name = "만화 퍼즐 조각9",
 	max_num = 0,
@@ -163104,7 +163131,7 @@ _G.pg.item_data_statistics[60148] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60149] = {
+_G.pg.base.item_data_statistics[60149] = {
 	display = "사용 시 특정한 대상 1명을 연회에 초대 가능(지정 캐릭터 획득)",
 	name = "축제 초대장",
 	max_num = 0,
@@ -163125,7 +163152,7 @@ _G.pg.item_data_statistics[60149] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60150] = {
+_G.pg.base.item_data_statistics[60150] = {
 	display = "아타고 및 그녀의 답례 획득 가능",
 	name = "축제 초대장（아타고）",
 	max_num = 0,
@@ -163157,7 +163184,7 @@ _G.pg.item_data_statistics[60150] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60151] = {
+_G.pg.base.item_data_statistics[60151] = {
 	display = "몬트필리어 및 그녀의 답례 획득 가능",
 	name = "축제 초대장（몬트필리어）",
 	max_num = 0,
@@ -163189,7 +163216,7 @@ _G.pg.item_data_statistics[60151] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60152] = {
+_G.pg.base.item_data_statistics[60152] = {
 	display = "타카오 및 그녀의 답례 획득 가능",
 	name = "축제 초대장（타카오）",
 	max_num = 0,
@@ -163221,7 +163248,7 @@ _G.pg.item_data_statistics[60152] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60153] = {
+_G.pg.base.item_data_statistics[60153] = {
 	display = "후드 및 그녀의 답례 획득 가능",
 	name = "축제 초대장（후드）",
 	max_num = 0,
@@ -163253,7 +163280,7 @@ _G.pg.item_data_statistics[60153] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60154] = {
+_G.pg.base.item_data_statistics[60154] = {
 	display = "엔터프라이즈 및 그녀의 답례 획득 가능",
 	name = "축제 초대장（엔터프라이즈）",
 	max_num = 0,
@@ -163285,7 +163312,7 @@ _G.pg.item_data_statistics[60154] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60155] = {
+_G.pg.base.item_data_statistics[60155] = {
 	display = "스위프트슈어 및 그녀의 답례 획득 가능",
 	name = "축제 초대장（스위프트슈어）",
 	max_num = 0,
@@ -163317,7 +163344,7 @@ _G.pg.item_data_statistics[60155] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60156] = {
+_G.pg.base.item_data_statistics[60156] = {
 	display = "프린스 오브 웨일즈 및 그녀의 답례 획득 가능",
 	name = "축제 초대장（프린스 오브 웨일즈）",
 	max_num = 0,
@@ -163349,7 +163376,7 @@ _G.pg.item_data_statistics[60156] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60157] = {
+_G.pg.base.item_data_statistics[60157] = {
 	display = "워스파이트 및 그녀의 답례 획득 가능",
 	name = "축제 초대장（워스파이트）",
 	max_num = 0,
@@ -163381,7 +163408,7 @@ _G.pg.item_data_statistics[60157] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60158] = {
+_G.pg.base.item_data_statistics[60158] = {
 	display = "연회 초대에 대한 아타고의 답례",
 	name = "아타고의 답례",
 	max_num = 0,
@@ -163402,7 +163429,7 @@ _G.pg.item_data_statistics[60158] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60159] = {
+_G.pg.base.item_data_statistics[60159] = {
 	display = "연회 초대에 대한 몬트필리어의 답례",
 	name = "몬트필리어의 답례",
 	max_num = 0,
@@ -163423,7 +163450,7 @@ _G.pg.item_data_statistics[60159] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60160] = {
+_G.pg.base.item_data_statistics[60160] = {
 	display = "연회 초대에 대한 타카오의 답례",
 	name = "타카오의 답례",
 	max_num = 0,
@@ -163444,7 +163471,7 @@ _G.pg.item_data_statistics[60160] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60161] = {
+_G.pg.base.item_data_statistics[60161] = {
 	display = "연회 초대에 대한 후드의 답례",
 	name = "후드의 답례",
 	max_num = 0,
@@ -163465,7 +163492,7 @@ _G.pg.item_data_statistics[60161] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60162] = {
+_G.pg.base.item_data_statistics[60162] = {
 	display = "연회 초대에 대한 엔터프라이즈의 답례",
 	name = "엔터프라이즈의 답례",
 	max_num = 0,
@@ -163486,7 +163513,7 @@ _G.pg.item_data_statistics[60162] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60163] = {
+_G.pg.base.item_data_statistics[60163] = {
 	display = "연회 초대에 대한 스위프트슈어의 답례",
 	name = "스위프트슈어의 답례",
 	max_num = 0,
@@ -163507,7 +163534,7 @@ _G.pg.item_data_statistics[60163] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60164] = {
+_G.pg.base.item_data_statistics[60164] = {
 	display = "연회 초대에 대한 프린스 오브 웨일즈의 답례",
 	name = "프린스 오브 웨일즈의 답례",
 	max_num = 0,
@@ -163528,7 +163555,7 @@ _G.pg.item_data_statistics[60164] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60165] = {
+_G.pg.base.item_data_statistics[60165] = {
 	display = "연회 초대에 대한 워스파이트의 답례",
 	name = "워스파이트의 답례",
 	max_num = 0,
@@ -163549,7 +163576,7 @@ _G.pg.item_data_statistics[60165] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60199] = {
+_G.pg.base.item_data_statistics[60199] = {
 	display = "연회 초대에 대한 르 말랭의 답례",
 	name = "르 말랭의 답례",
 	max_num = 0,
@@ -163570,7 +163597,7 @@ _G.pg.item_data_statistics[60199] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60200] = {
+_G.pg.base.item_data_statistics[60200] = {
 	display = "연회 초대에 대한 벨파스트의 답례",
 	name = "벨파스트의 답례",
 	max_num = 0,
@@ -163591,7 +163618,7 @@ _G.pg.item_data_statistics[60200] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60201] = {
+_G.pg.base.item_data_statistics[60201] = {
 	display = "연회 초대에 대한 일러스트리어스의 답례",
 	name = "일러스트리어스의 답례",
 	max_num = 0,
@@ -163612,7 +163639,7 @@ _G.pg.item_data_statistics[60201] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60202] = {
+_G.pg.base.item_data_statistics[60202] = {
 	display = "연회 초대에 대한 후드의 답례",
 	name = "후드의 답례",
 	max_num = 0,
@@ -163633,7 +163660,7 @@ _G.pg.item_data_statistics[60202] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60203] = {
+_G.pg.base.item_data_statistics[60203] = {
 	display = "연회 초대에 대한 엔터프라이즈의 답례",
 	name = "엔터프라이즈의 답례",
 	max_num = 0,
@@ -163654,7 +163681,7 @@ _G.pg.item_data_statistics[60203] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60204] = {
+_G.pg.base.item_data_statistics[60204] = {
 	display = "연회 초대에 대한 시리우스의 답례",
 	name = "시리우스의 답례",
 	max_num = 0,
@@ -163675,7 +163702,7 @@ _G.pg.item_data_statistics[60204] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60205] = {
+_G.pg.base.item_data_statistics[60205] = {
 	display = "연회 초대에 대한 쇼카쿠의 답례",
 	name = "쇼카쿠의 답례",
 	max_num = 0,
@@ -163696,7 +163723,7 @@ _G.pg.item_data_statistics[60205] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60206] = {
+_G.pg.base.item_data_statistics[60206] = {
 	display = "연회 초대에 대한 즈이카쿠의 답례",
 	name = "즈이카쿠의 답례",
 	max_num = 0,
@@ -163717,7 +163744,7 @@ _G.pg.item_data_statistics[60206] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60207] = {
+_G.pg.base.item_data_statistics[60207] = {
 	display = "연회 초대에 대한 워스파이트의 답례",
 	name = "워스파이트의 답례",
 	max_num = 0,
@@ -163738,7 +163765,7 @@ _G.pg.item_data_statistics[60207] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60208] = {
+_G.pg.base.item_data_statistics[60208] = {
 	display = "사용 시 특정한 대상 1명을 연회에 초대 가능(지정 캐릭터 획득)",
 	name = "축제 초대장",
 	max_num = 0,
@@ -163759,7 +163786,7 @@ _G.pg.item_data_statistics[60208] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60209] = {
+_G.pg.base.item_data_statistics[60209] = {
 	display = "쇼카쿠에게 받은 신년 연하장",
 	name = "쇼카쿠의 연하장",
 	max_num = 0,
@@ -163780,7 +163807,7 @@ _G.pg.item_data_statistics[60209] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60210] = {
+_G.pg.base.item_data_statistics[60210] = {
 	display = "즈이카쿠에게 받은 신년 연하장",
 	name = "즈이카쿠의 연하장",
 	max_num = 0,
@@ -163801,7 +163828,7 @@ _G.pg.item_data_statistics[60210] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60211] = {
+_G.pg.base.item_data_statistics[60211] = {
 	display = "르 말랭에게 받은 신년 연하장",
 	name = "르 말랭의 연하장",
 	max_num = 0,
@@ -163822,7 +163849,7 @@ _G.pg.item_data_statistics[60211] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60212] = {
+_G.pg.base.item_data_statistics[60212] = {
 	display = "빅토리어스에게 받은 신년 연하장",
 	name = "빅토리어스의 연하장",
 	max_num = 0,
@@ -163843,7 +163870,7 @@ _G.pg.item_data_statistics[60212] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60213] = {
+_G.pg.base.item_data_statistics[60213] = {
 	display = "티르피츠에게 받은 신년 연하장",
 	name = "티르피츠의 연하장",
 	max_num = 0,
@@ -163864,7 +163891,7 @@ _G.pg.item_data_statistics[60213] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60214] = {
+_G.pg.base.item_data_statistics[60214] = {
 	display = "일러스트리어스에게 받은 신년 연하장",
 	name = "일러스트리어스의 연하장",
 	max_num = 0,
@@ -163885,7 +163912,7 @@ _G.pg.item_data_statistics[60214] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60215] = {
+_G.pg.base.item_data_statistics[60215] = {
 	display = "에식스에게 받은 신년 연하장",
 	name = "에식스의 연하장",
 	max_num = 0,
@@ -163906,7 +163933,7 @@ _G.pg.item_data_statistics[60215] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60216] = {
+_G.pg.base.item_data_statistics[60216] = {
 	display = "축복을 담은 연하장. 사용 후 특정 캐릭터 선택 획득 가능(지정 캐릭터 획득)",
 	name = "연하장",
 	max_num = 0,
@@ -163927,7 +163954,7 @@ _G.pg.item_data_statistics[60216] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60217] = {
+_G.pg.base.item_data_statistics[60217] = {
 	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
@@ -163948,7 +163975,7 @@ _G.pg.item_data_statistics[60217] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60218] = {
+_G.pg.base.item_data_statistics[60218] = {
 	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
@@ -163969,7 +163996,7 @@ _G.pg.item_data_statistics[60218] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60219] = {
+_G.pg.base.item_data_statistics[60219] = {
 	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
@@ -163990,7 +164017,7 @@ _G.pg.item_data_statistics[60219] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60220] = {
+_G.pg.base.item_data_statistics[60220] = {
 	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
@@ -164011,7 +164038,7 @@ _G.pg.item_data_statistics[60220] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60221] = {
+_G.pg.base.item_data_statistics[60221] = {
 	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
@@ -164032,7 +164059,7 @@ _G.pg.item_data_statistics[60221] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60222] = {
+_G.pg.base.item_data_statistics[60222] = {
 	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
@@ -164053,7 +164080,7 @@ _G.pg.item_data_statistics[60222] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60223] = {
+_G.pg.base.item_data_statistics[60223] = {
 	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
@@ -164074,7 +164101,7 @@ _G.pg.item_data_statistics[60223] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60224] = {
+_G.pg.base.item_data_statistics[60224] = {
 	display = "물감 H, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 H",
 	max_num = 0,
@@ -164095,7 +164122,7 @@ _G.pg.item_data_statistics[60224] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60225] = {
+_G.pg.base.item_data_statistics[60225] = {
 	display = "물감 I, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 I",
 	max_num = 0,
@@ -164116,7 +164143,7 @@ _G.pg.item_data_statistics[60225] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60226] = {
+_G.pg.base.item_data_statistics[60226] = {
 	display = "축복이 담긴 연하장. 사용 후 지정된 캐릭터 중에 임의로 선택 후 획득 가능",
 	name = "연하장(2022)",
 	max_num = 0,
@@ -164137,7 +164164,7 @@ _G.pg.item_data_statistics[60226] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60227] = {
+_G.pg.base.item_data_statistics[60227] = {
 	display = "다이호에게서 받은 춘절 연하장",
 	name = "다이호의 연하장",
 	max_num = 0,
@@ -164158,7 +164185,7 @@ _G.pg.item_data_statistics[60227] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60228] = {
+_G.pg.base.item_data_statistics[60228] = {
 	display = "엔터프라이즈에게서 받은 춘절 연하장",
 	name = "엔터프라이즈의 연하장",
 	max_num = 0,
@@ -164179,7 +164206,7 @@ _G.pg.item_data_statistics[60228] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60229] = {
+_G.pg.base.item_data_statistics[60229] = {
 	display = "벨파스트에게서 받은 춘절 연하장",
 	name = "벨파스트의 연하장",
 	max_num = 0,
@@ -164200,7 +164227,7 @@ _G.pg.item_data_statistics[60229] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60230] = {
+_G.pg.base.item_data_statistics[60230] = {
 	display = "닝하이에게서 받은 춘절 연하장",
 	name = "닝하이의 연하장",
 	max_num = 0,
@@ -164221,7 +164248,7 @@ _G.pg.item_data_statistics[60230] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60231] = {
+_G.pg.base.item_data_statistics[60231] = {
 	display = "핑하이에게서 받은 춘절 연하장",
 	name = "핑하이의 연하장",
 	max_num = 0,
@@ -164242,7 +164269,7 @@ _G.pg.item_data_statistics[60231] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60232] = {
+_G.pg.base.item_data_statistics[60232] = {
 	display = "창춘에게서 받은 춘절 연하장",
 	name = "창춘의 연하장",
 	max_num = 0,
@@ -164263,7 +164290,7 @@ _G.pg.item_data_statistics[60232] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60233] = {
+_G.pg.base.item_data_statistics[60233] = {
 	display = "타이위안에게서 받은 춘절 연하장",
 	name = "타이위안의 연하장",
 	max_num = 0,
@@ -164284,7 +164311,7 @@ _G.pg.item_data_statistics[60233] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[60234] = {
+_G.pg.base.item_data_statistics[60234] = {
 	display = "『정보 해독』에 사용할 수 있다. 이벤트 종료 후 사라짐",
 	name = "정보PT",
 	max_num = 0,
@@ -164305,7 +164332,7 @@ _G.pg.item_data_statistics[60234] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69000] = {
+_G.pg.base.item_data_statistics[69000] = {
 	display = "대함대 작전 대미지 수치. 대함대 보스 대미지 결산용",
 	name = "대미지 수치",
 	max_num = 0,
@@ -164326,7 +164353,7 @@ _G.pg.item_data_statistics[69000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69001] = {
+_G.pg.base.item_data_statistics[69001] = {
 	display = [[
 아래 장비 획득 가능: 
 +6 120mm 연장포T2*3
@@ -164377,7 +164404,7 @@ _G.pg.item_data_statistics[69001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69901] = {
+_G.pg.base.item_data_statistics[69901] = {
 	display = "랜덤으로 '신년 테마' 스킨을 하나 획득한다냥! (만약 이미 보유 중인 스킨이 나오는 경우엔, 자동으로 상응하는 가격의 다이아로 변환된다냥)",
 	name = "랜덤 신년 스킨 ",
 	max_num = 0,
@@ -164398,7 +164425,7 @@ _G.pg.item_data_statistics[69901] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69902] = {
+_G.pg.base.item_data_statistics[69902] = {
 	display = [[
 1개의 연회복 테마 스킨을 랜덤으로 획득합니다. (만약 획득 스킨이 이미 보유 중인 경우엔, 자동적으로 스킨 구매 금액에 상응하는 다이아로 변경됩니다.)
 획득 가능한 스킨 및 확률은 아래와 같습니다：
@@ -164431,7 +164458,7 @@ _G.pg.item_data_statistics[69902] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69903] = {
+_G.pg.base.item_data_statistics[69903] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률 : 
@@ -164463,7 +164490,7 @@ _G.pg.item_data_statistics[69903] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69904] = {
+_G.pg.base.item_data_statistics[69904] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.
 (입수한 스킨이 이미 소지하고 있는 스킨인 경우, 구매 시 소비한 만큼의 다이아로 변환되어 지급됩니다)
@@ -164497,7 +164524,7 @@ _G.pg.item_data_statistics[69904] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69905] = {
+_G.pg.base.item_data_statistics[69905] = {
 	display = [[
 아래의 스킨을 랜덤으로 획득할 수 있습니다. (이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다.) 
 각 스킨의 출현 확률: 
@@ -164530,7 +164557,7 @@ _G.pg.item_data_statistics[69905] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69906] = {
+_G.pg.base.item_data_statistics[69906] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률 : 
@@ -164564,7 +164591,7 @@ _G.pg.item_data_statistics[69906] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69908] = {
+_G.pg.base.item_data_statistics[69908] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률 :
@@ -164601,7 +164628,7 @@ _G.pg.item_data_statistics[69908] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69909] = {
+_G.pg.base.item_data_statistics[69909] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률 : 
@@ -164641,7 +164668,7 @@ _G.pg.item_data_statistics[69909] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69910] = {
+_G.pg.base.item_data_statistics[69910] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률 : 
@@ -164678,7 +164705,7 @@ _G.pg.item_data_statistics[69910] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69911] = {
+_G.pg.base.item_data_statistics[69911] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률 : 
@@ -164718,7 +164745,7 @@ _G.pg.item_data_statistics[69911] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69912] = {
+_G.pg.base.item_data_statistics[69912] = {
 	display = [[
 다음 스킨 중 랜덤 획득(해당 스킨을 보유 중일 경우, 동일한 가치의 다이아로 자동 전환) 
 포함 스킨 및 확률:
@@ -164760,7 +164787,7 @@ _G.pg.item_data_statistics[69912] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69913] = {
+_G.pg.base.item_data_statistics[69913] = {
 	display = [[
 다음 스킨 중 1개 랜덤 획득(해당 스킨을 소지하고 있다면, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환)
 획득 가능한 스킨 및 확률:
@@ -164802,7 +164829,7 @@ _G.pg.item_data_statistics[69913] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69914] = {
+_G.pg.base.item_data_statistics[69914] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률：
@@ -164834,7 +164861,7 @@ _G.pg.item_data_statistics[69914] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69915] = {
+_G.pg.base.item_data_statistics[69915] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률：
@@ -164867,7 +164894,7 @@ _G.pg.item_data_statistics[69915] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69916] = {
+_G.pg.base.item_data_statistics[69916] = {
 	display = [[
 다음 스킨 중 1가지 랜덤 획득(해당 스킨을 보유 중일 경우, 동등한 가격의 다이아로 자동 전환) 
 포함된 스킨 및 확률:
@@ -164908,7 +164935,7 @@ _G.pg.item_data_statistics[69916] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69917] = {
+_G.pg.base.item_data_statistics[69917] = {
 	display = [[
 다음 스킨 중 1가지 랜덤 획득(해당 스킨을 보유 중일 경우, 동등한 가치의 다이아로 자동 전환)
 포함된 스킨 및 확률:
@@ -164949,7 +164976,7 @@ _G.pg.item_data_statistics[69917] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[69941] = {
+_G.pg.base.item_data_statistics[69941] = {
 	display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률 : 
@@ -164988,7 +165015,7 @@ _G.pg.item_data_statistics[69941] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70000] = {
+_G.pg.base.item_data_statistics[70000] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.1 개방",
 	name = "「항구의 추억」 No.1",
 	max_num = 0,
@@ -165009,7 +165036,7 @@ _G.pg.item_data_statistics[70000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70001] = {
+_G.pg.base.item_data_statistics[70001] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.2 개방",
 	name = "「항구의 추억」 No.2",
 	max_num = 0,
@@ -165030,7 +165057,7 @@ _G.pg.item_data_statistics[70001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70002] = {
+_G.pg.base.item_data_statistics[70002] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.3 개방",
 	name = "「항구의 추억」 No.3",
 	max_num = 0,
@@ -165051,7 +165078,7 @@ _G.pg.item_data_statistics[70002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70003] = {
+_G.pg.base.item_data_statistics[70003] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.4 개방",
 	name = "「항구의 추억」 No.4",
 	max_num = 0,
@@ -165072,7 +165099,7 @@ _G.pg.item_data_statistics[70003] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70004] = {
+_G.pg.base.item_data_statistics[70004] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.5 개방",
 	name = "「항구의 추억」 No.5",
 	max_num = 0,
@@ -165093,7 +165120,7 @@ _G.pg.item_data_statistics[70004] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70005] = {
+_G.pg.base.item_data_statistics[70005] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.6 개방",
 	name = "「항구의 추억」 No.6",
 	max_num = 0,
@@ -165114,7 +165141,7 @@ _G.pg.item_data_statistics[70005] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70006] = {
+_G.pg.base.item_data_statistics[70006] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.7 개방",
 	name = "「항구의 추억」 No.7",
 	max_num = 0,
@@ -165135,7 +165162,7 @@ _G.pg.item_data_statistics[70006] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70007] = {
+_G.pg.base.item_data_statistics[70007] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.8 개방",
 	name = "「항구의 추억」 No.8",
 	max_num = 0,
@@ -165156,7 +165183,7 @@ _G.pg.item_data_statistics[70007] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70008] = {
+_G.pg.base.item_data_statistics[70008] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.9 개방",
 	name = "「항구의 추억」 No.9",
 	max_num = 0,
@@ -165177,7 +165204,7 @@ _G.pg.item_data_statistics[70008] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70009] = {
+_G.pg.base.item_data_statistics[70009] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.10 개방",
 	name = "「항구의 추억」 No.10",
 	max_num = 0,
@@ -165198,7 +165225,7 @@ _G.pg.item_data_statistics[70009] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70010] = {
+_G.pg.base.item_data_statistics[70010] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.11 개방",
 	name = "「항구의 추억」 No.11",
 	max_num = 0,
@@ -165219,7 +165246,7 @@ _G.pg.item_data_statistics[70010] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70011] = {
+_G.pg.base.item_data_statistics[70011] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.12 개방",
 	name = "「항구의 추억」 No.12",
 	max_num = 0,
@@ -165240,7 +165267,7 @@ _G.pg.item_data_statistics[70011] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70012] = {
+_G.pg.base.item_data_statistics[70012] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.13 개방",
 	name = "「항구의 추억」 No.13",
 	max_num = 0,
@@ -165261,7 +165288,7 @@ _G.pg.item_data_statistics[70012] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70013] = {
+_G.pg.base.item_data_statistics[70013] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.14 개방",
 	name = "「항구의 추억」 No.14",
 	max_num = 0,
@@ -165282,7 +165309,7 @@ _G.pg.item_data_statistics[70013] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70014] = {
+_G.pg.base.item_data_statistics[70014] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.15 개방",
 	name = "「항구의 추억」 No.15",
 	max_num = 0,
@@ -165303,7 +165330,7 @@ _G.pg.item_data_statistics[70014] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70015] = {
+_G.pg.base.item_data_statistics[70015] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.16 개방",
 	name = "「항구의 추억」 No.16",
 	max_num = 0,
@@ -165324,7 +165351,7 @@ _G.pg.item_data_statistics[70015] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70016] = {
+_G.pg.base.item_data_statistics[70016] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.17 개방",
 	name = "「항구의 추억」 No.17",
 	max_num = 0,
@@ -165345,7 +165372,7 @@ _G.pg.item_data_statistics[70016] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70017] = {
+_G.pg.base.item_data_statistics[70017] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.18 개방",
 	name = "「항구의 추억」 No.18",
 	max_num = 0,
@@ -165366,7 +165393,7 @@ _G.pg.item_data_statistics[70017] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70018] = {
+_G.pg.base.item_data_statistics[70018] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.19 개방",
 	name = "「항구의 추억」 No.19",
 	max_num = 0,
@@ -165387,7 +165414,7 @@ _G.pg.item_data_statistics[70018] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70019] = {
+_G.pg.base.item_data_statistics[70019] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.20 개방",
 	name = "「항구의 추억」 No.20",
 	max_num = 0,
@@ -165408,7 +165435,7 @@ _G.pg.item_data_statistics[70019] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70020] = {
+_G.pg.base.item_data_statistics[70020] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.21 개방",
 	name = "「항구의 추억」 No.21",
 	max_num = 0,
@@ -165429,7 +165456,7 @@ _G.pg.item_data_statistics[70020] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70021] = {
+_G.pg.base.item_data_statistics[70021] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.22 개방",
 	name = "「항구의 추억」 No.22",
 	max_num = 0,
@@ -165450,7 +165477,7 @@ _G.pg.item_data_statistics[70021] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70022] = {
+_G.pg.base.item_data_statistics[70022] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.23 개방",
 	name = "「항구의 추억」 No.23",
 	max_num = 0,
@@ -165471,7 +165498,7 @@ _G.pg.item_data_statistics[70022] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70023] = {
+_G.pg.base.item_data_statistics[70023] = {
 	display = "사용하여 「항구의 추억 다이어리」 No.24 개방",
 	name = "「항구의 추억」 No.24",
 	max_num = 0,
@@ -165492,7 +165519,7 @@ _G.pg.item_data_statistics[70023] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70024] = {
+_G.pg.base.item_data_statistics[70024] = {
 	display = "포스터·가스코뉴μ",
 	name = "포스터·가스코뉴μ",
 	max_num = 0,
@@ -165513,7 +165540,7 @@ _G.pg.item_data_statistics[70024] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70025] = {
+_G.pg.base.item_data_statistics[70025] = {
 	display = "스티커·가스코뉴μ",
 	name = "스티커·가스코뉴μ",
 	max_num = 0,
@@ -165534,7 +165561,7 @@ _G.pg.item_data_statistics[70025] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70026] = {
+_G.pg.base.item_data_statistics[70026] = {
 	display = "휘장·가스코뉴μ",
 	name = "휘장·가스코뉴μ",
 	max_num = 0,
@@ -165555,7 +165582,7 @@ _G.pg.item_data_statistics[70026] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70027] = {
+_G.pg.base.item_data_statistics[70027] = {
 	display = "포스터·클리블랜드μ",
 	name = "포스터·클리블랜드μ",
 	max_num = 0,
@@ -165576,7 +165603,7 @@ _G.pg.item_data_statistics[70027] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70028] = {
+_G.pg.base.item_data_statistics[70028] = {
 	display = "스티커·클리블랜드μ",
 	name = "스티커·클리블랜드μ",
 	max_num = 0,
@@ -165597,7 +165624,7 @@ _G.pg.item_data_statistics[70028] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70029] = {
+_G.pg.base.item_data_statistics[70029] = {
 	display = "휘장·클리블랜드μ",
 	name = "휘장·클리블랜드μ",
 	max_num = 0,
@@ -165618,7 +165645,7 @@ _G.pg.item_data_statistics[70029] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70030] = {
+_G.pg.base.item_data_statistics[70030] = {
 	display = "포스터·셰필드μ",
 	name = "포스터·셰필드μ",
 	max_num = 0,
@@ -165639,7 +165666,7 @@ _G.pg.item_data_statistics[70030] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70031] = {
+_G.pg.base.item_data_statistics[70031] = {
 	display = "스티커·셰필드μ",
 	name = "스티커·셰필드μ",
 	max_num = 0,
@@ -165660,7 +165687,7 @@ _G.pg.item_data_statistics[70031] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70032] = {
+_G.pg.base.item_data_statistics[70032] = {
 	display = "휘장·셰필드μ",
 	name = "휘장·셰필드μ",
 	max_num = 0,
@@ -165681,7 +165708,7 @@ _G.pg.item_data_statistics[70032] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70033] = {
+_G.pg.base.item_data_statistics[70033] = {
 	display = "포스터·아드미랄 히퍼μ",
 	name = "포스터·아드미랄 히퍼μ",
 	max_num = 0,
@@ -165702,7 +165729,7 @@ _G.pg.item_data_statistics[70033] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70034] = {
+_G.pg.base.item_data_statistics[70034] = {
 	display = "스티커·아드미랄 히퍼μ",
 	name = "스티커·아드미랄 히퍼μ",
 	max_num = 0,
@@ -165723,7 +165750,7 @@ _G.pg.item_data_statistics[70034] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70035] = {
+_G.pg.base.item_data_statistics[70035] = {
 	display = "휘장·아드미랄 히퍼μ",
 	name = "휘장·아드미랄 히퍼μ",
 	max_num = 0,
@@ -165744,7 +165771,7 @@ _G.pg.item_data_statistics[70035] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70036] = {
+_G.pg.base.item_data_statistics[70036] = {
 	display = "포스터·아카기μ",
 	name = "포스터·아카기μ",
 	max_num = 0,
@@ -165765,7 +165792,7 @@ _G.pg.item_data_statistics[70036] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70037] = {
+_G.pg.base.item_data_statistics[70037] = {
 	display = "스티커·아카기μ",
 	name = "스티커·아카기μ",
 	max_num = 0,
@@ -165786,7 +165813,7 @@ _G.pg.item_data_statistics[70037] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70038] = {
+_G.pg.base.item_data_statistics[70038] = {
 	display = "휘장·아카기μ",
 	name = "휘장·아카기μ",
 	max_num = 0,
@@ -165807,7 +165834,7 @@ _G.pg.item_data_statistics[70038] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70039] = {
+_G.pg.base.item_data_statistics[70039] = {
 	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 오오카미 미오 기념 뱃지",
 	name = "오오카미 미오 기념 뱃지",
 	max_num = 0,
@@ -165828,7 +165855,7 @@ _G.pg.item_data_statistics[70039] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70040] = {
+_G.pg.base.item_data_statistics[70040] = {
 	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 시라카미 후부키 기념 뱃지",
 	name = "시라카미 후부키 기념 뱃지",
 	max_num = 0,
@@ -165849,7 +165876,7 @@ _G.pg.item_data_statistics[70040] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70041] = {
+_G.pg.base.item_data_statistics[70041] = {
 	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 나츠이로 마츠리 기념 뱃지",
 	name = "나츠이로 마츠리 기념 뱃지",
 	max_num = 0,
@@ -165870,7 +165897,7 @@ _G.pg.item_data_statistics[70041] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70042] = {
+_G.pg.base.item_data_statistics[70042] = {
 	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 토키노 소라 기념 뱃지",
 	name = "토키노 소라 기념 뱃지",
 	max_num = 0,
@@ -165891,7 +165918,7 @@ _G.pg.item_data_statistics[70042] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70043] = {
+_G.pg.base.item_data_statistics[70043] = {
 	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 무라사키 시온 기념 뱃지",
 	name = "무라사키 시온 기념 뱃지",
 	max_num = 0,
@@ -165912,7 +165939,7 @@ _G.pg.item_data_statistics[70043] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70044] = {
+_G.pg.base.item_data_statistics[70044] = {
 	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 미나토 아쿠아 기념 뱃지",
 	name = "미나토 아쿠아 기념 뱃지",
 	max_num = 0,
@@ -165933,7 +165960,7 @@ _G.pg.item_data_statistics[70044] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70045] = {
+_G.pg.base.item_data_statistics[70045] = {
 	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 나키리 아야메 기념 뱃지",
 	name = "나키리 아야메 기념 뱃지",
 	max_num = 0,
@@ -165954,7 +165981,7 @@ _G.pg.item_data_statistics[70045] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70046] = {
+_G.pg.base.item_data_statistics[70046] = {
 	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 퓨리파이어 기념 뱃지",
 	name = "퓨리파이어 기념 뱃지",
 	max_num = 0,
@@ -165975,7 +166002,7 @@ _G.pg.item_data_statistics[70046] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70047] = {
+_G.pg.base.item_data_statistics[70047] = {
 	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 TNT 기념 뱃지",
 	name = "TNT 기념 뱃지",
 	max_num = 0,
@@ -165996,7 +166023,7 @@ _G.pg.item_data_statistics[70047] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70053] = {
+_G.pg.base.item_data_statistics[70053] = {
 	display = "사용하여「휘장·알바코어」해제 가능",
 	name = "휘장·알바코어",
 	max_num = 0,
@@ -166017,7 +166044,7 @@ _G.pg.item_data_statistics[70053] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70054] = {
+_G.pg.base.item_data_statistics[70054] = {
 	display = "사용하여「휘장·다이도」해제 가능",
 	name = "휘장·다이도",
 	max_num = 0,
@@ -166038,7 +166065,7 @@ _G.pg.item_data_statistics[70054] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70055] = {
+_G.pg.base.item_data_statistics[70055] = {
 	display = "사용하여「휘장·타슈켄트」해제 가능",
 	name = "휘장·타슈켄트",
 	max_num = 0,
@@ -166059,7 +166086,7 @@ _G.pg.item_data_statistics[70055] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70056] = {
+_G.pg.base.item_data_statistics[70056] = {
 	display = "사용하여「휘장·일러스트리어스」해제 가능",
 	name = "휘장·일러스트리어스",
 	max_num = 0,
@@ -166080,7 +166107,7 @@ _G.pg.item_data_statistics[70056] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70057] = {
+_G.pg.base.item_data_statistics[70057] = {
 	display = "사용하여「휘장·볼티모어」해제 가능",
 	name = "휘장·볼티모어",
 	max_num = 0,
@@ -166101,7 +166128,7 @@ _G.pg.item_data_statistics[70057] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70058] = {
+_G.pg.base.item_data_statistics[70058] = {
 	display = "사용하여「우표·{namecode:97}」해제 가능",
 	name = "우표·{namecode:97}",
 	max_num = 0,
@@ -166122,7 +166149,7 @@ _G.pg.item_data_statistics[70058] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70059] = {
+_G.pg.base.item_data_statistics[70059] = {
 	display = "사용하여「우표·론」해제 가능",
 	name = "우표·론",
 	max_num = 0,
@@ -166143,7 +166170,7 @@ _G.pg.item_data_statistics[70059] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70060] = {
+_G.pg.base.item_data_statistics[70060] = {
 	display = "사용하여「화보·{namecode:97}」해제 가능",
 	name = "화보·{namecode:97}",
 	max_num = 0,
@@ -166164,7 +166191,7 @@ _G.pg.item_data_statistics[70060] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70061] = {
+_G.pg.base.item_data_statistics[70061] = {
 	display = "사용하여「화보·론」해제 가능",
 	name = "화보·론",
 	max_num = 0,
@@ -166185,7 +166212,7 @@ _G.pg.item_data_statistics[70061] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70062] = {
+_G.pg.base.item_data_statistics[70062] = {
 	display = "사용하여「카드·르 말랭」 해제 가능",
 	name = "카드·르 말랭",
 	max_num = 0,
@@ -166206,7 +166233,7 @@ _G.pg.item_data_statistics[70062] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70063] = {
+_G.pg.base.item_data_statistics[70063] = {
 	display = "사용하여「컵 받침·르 말랭」해제 가능",
 	name = "컵 받침·르 말랭",
 	max_num = 0,
@@ -166227,7 +166254,7 @@ _G.pg.item_data_statistics[70063] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70064] = {
+_G.pg.base.item_data_statistics[70064] = {
 	display = "사용하여「스티커·르 말랭」해제 가능",
 	name = "스티커·르 말랭",
 	max_num = 0,
@@ -166248,7 +166275,7 @@ _G.pg.item_data_statistics[70064] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70065] = {
+_G.pg.base.item_data_statistics[70065] = {
 	display = "마리 로즈가 좋아하는 음식: 프린세스 케이크. 마리 로즈 취향 정보 해제 가능",
 	name = "좋아하는 음식(마리 로즈)",
 	max_num = 0,
@@ -166269,7 +166296,7 @@ _G.pg.item_data_statistics[70065] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70066] = {
+_G.pg.base.item_data_statistics[70066] = {
 	display = "마리 로즈가 좋아하는 음료: 열대 과일 주스. 마리 로즈 취향 정보 해제 가능",
 	name = "좋아하는 음료(마리 로즈)",
 	max_num = 0,
@@ -166290,7 +166317,7 @@ _G.pg.item_data_statistics[70066] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70067] = {
+_G.pg.base.item_data_statistics[70067] = {
 	display = "호노카가 좋아하는 음식: 크림 퍼프. 호노카 취향 정보 해제 가능",
 	name = "좋아하는 음식(호노카)",
 	max_num = 0,
@@ -166311,7 +166338,7 @@ _G.pg.item_data_statistics[70067] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70068] = {
+_G.pg.base.item_data_statistics[70068] = {
 	display = "호노카가 좋아하는 음료: 레몬에이드. 호노카 취향 정보 해제 가능",
 	name = "좋아하는 음료(호노카)",
 	max_num = 0,
@@ -166332,7 +166359,7 @@ _G.pg.item_data_statistics[70068] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70069] = {
+_G.pg.base.item_data_statistics[70069] = {
 	display = "카스미가 좋아하는 음식: 딸기 밀푀유. 카스미 취향 정보 해제 가능",
 	name = "좋아하는 음식(카스미)",
 	max_num = 0,
@@ -166353,7 +166380,7 @@ _G.pg.item_data_statistics[70069] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70070] = {
+_G.pg.base.item_data_statistics[70070] = {
 	display = "카스미가 좋아하는 음료: 아이스 커피. 카스미 취향 정보 해제 가능",
 	name = "좋아하는 음료(카스미)",
 	max_num = 0,
@@ -166374,7 +166401,7 @@ _G.pg.item_data_statistics[70070] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70071] = {
+_G.pg.base.item_data_statistics[70071] = {
 	display = "미사키가 좋아하는 음식: 망고 바닐라 크레이프. 미사키 취향 정보 해제 가능",
 	name = "좋아하는 음식(미사키)",
 	max_num = 0,
@@ -166395,7 +166422,7 @@ _G.pg.item_data_statistics[70071] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70072] = {
+_G.pg.base.item_data_statistics[70072] = {
 	display = "미사키 좋아하는 음료: 버블 밀크티. 미사키 취향 정보 해제 가능",
 	name = "좋아하는 음료(미사키)",
 	max_num = 0,
@@ -166416,7 +166443,7 @@ _G.pg.item_data_statistics[70072] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70073] = {
+_G.pg.base.item_data_statistics[70073] = {
 	display = "나기사가 좋아하는 음식: 수플레 팬케이크. 나기사 취향 정보 해제 가능",
 	name = "좋아하는 음식(나기사)",
 	max_num = 0,
@@ -166437,7 +166464,7 @@ _G.pg.item_data_statistics[70073] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70074] = {
+_G.pg.base.item_data_statistics[70074] = {
 	display = "나기사가 좋아하는 음료: 딸기 스무디. 나기사 취향 정보 해제 가능",
 	name = "좋아하는 음료(나기사)",
 	max_num = 0,
@@ -166458,7 +166485,7 @@ _G.pg.item_data_statistics[70074] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70075] = {
+_G.pg.base.item_data_statistics[70075] = {
 	display = "뇨텐구가 좋아하는 음식: 찐빵. 뇨텐구 취향 정보 해제 가능",
 	name = "좋아하는 음식(뇨텐구)",
 	max_num = 0,
@@ -166479,7 +166506,7 @@ _G.pg.item_data_statistics[70075] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70076] = {
+_G.pg.base.item_data_statistics[70076] = {
 	display = "뇨텐구가 좋아하는 음료: 그린티. 뇨텐구 취향 정보 해제 가능",
 	name = "좋아하는 음료(뇨텐구)",
 	max_num = 0,
@@ -166500,7 +166527,7 @@ _G.pg.item_data_statistics[70076] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70077] = {
+_G.pg.base.item_data_statistics[70077] = {
 	display = "모니카가 좋아하는 음식: 파파나쉬. 모니카 취향 정보 해제 가능",
 	name = "좋아하는 음식(모니카)",
 	max_num = 0,
@@ -166521,7 +166548,7 @@ _G.pg.item_data_statistics[70077] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70078] = {
+_G.pg.base.item_data_statistics[70078] = {
 	display = "모니카가 좋아하는 음료: 플로팅 라떼. 모니카 취향 정보 해제 가능",
 	name = "좋아하는 음료(모니카)",
 	max_num = 0,
@@ -166542,7 +166569,7 @@ _G.pg.item_data_statistics[70078] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70079] = {
+_G.pg.base.item_data_statistics[70079] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집①(아마미 하루카)",
 	max_num = 0,
@@ -166563,7 +166590,7 @@ _G.pg.item_data_statistics[70079] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70080] = {
+_G.pg.base.item_data_statistics[70080] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집②(아마미 하루카)",
 	max_num = 0,
@@ -166584,7 +166611,7 @@ _G.pg.item_data_statistics[70080] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70081] = {
+_G.pg.base.item_data_statistics[70081] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집①(키사라기 치하야)",
 	max_num = 0,
@@ -166605,7 +166632,7 @@ _G.pg.item_data_statistics[70081] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70082] = {
+_G.pg.base.item_data_statistics[70082] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집②(키사라기 치하야)",
 	max_num = 0,
@@ -166626,7 +166653,7 @@ _G.pg.item_data_statistics[70082] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70083] = {
+_G.pg.base.item_data_statistics[70083] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집①(미나세 이오리)",
 	max_num = 0,
@@ -166647,7 +166674,7 @@ _G.pg.item_data_statistics[70083] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70084] = {
+_G.pg.base.item_data_statistics[70084] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집②(미나세 이오리)",
 	max_num = 0,
@@ -166668,7 +166695,7 @@ _G.pg.item_data_statistics[70084] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70085] = {
+_G.pg.base.item_data_statistics[70085] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집①(미우라 아즈사)",
 	max_num = 0,
@@ -166689,7 +166716,7 @@ _G.pg.item_data_statistics[70085] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70086] = {
+_G.pg.base.item_data_statistics[70086] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집②(미우라 아즈사)",
 	max_num = 0,
@@ -166710,7 +166737,7 @@ _G.pg.item_data_statistics[70086] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70087] = {
+_G.pg.base.item_data_statistics[70087] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집①(아키즈키 리츠코)",
 	max_num = 0,
@@ -166731,7 +166758,7 @@ _G.pg.item_data_statistics[70087] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70088] = {
+_G.pg.base.item_data_statistics[70088] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집②(아키즈키 리츠코)",
 	max_num = 0,
@@ -166752,7 +166779,7 @@ _G.pg.item_data_statistics[70088] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70089] = {
+_G.pg.base.item_data_statistics[70089] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집①(후타이 아미)",
 	max_num = 0,
@@ -166773,7 +166800,7 @@ _G.pg.item_data_statistics[70089] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70090] = {
+_G.pg.base.item_data_statistics[70090] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집②(후타이 아미)",
 	max_num = 0,
@@ -166794,7 +166821,7 @@ _G.pg.item_data_statistics[70090] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70091] = {
+_G.pg.base.item_data_statistics[70091] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집①(후타이 마미)",
 	max_num = 0,
@@ -166815,7 +166842,7 @@ _G.pg.item_data_statistics[70091] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70092] = {
+_G.pg.base.item_data_statistics[70092] = {
 	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
 	name = "자료 수집②(후타이 마미)",
 	max_num = 0,
@@ -166836,7 +166863,7 @@ _G.pg.item_data_statistics[70092] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70093] = {
+_G.pg.base.item_data_statistics[70093] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅰ",
 	max_num = 0,
@@ -166857,7 +166884,7 @@ _G.pg.item_data_statistics[70093] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70094] = {
+_G.pg.base.item_data_statistics[70094] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅱ",
 	max_num = 0,
@@ -166878,7 +166905,7 @@ _G.pg.item_data_statistics[70094] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70095] = {
+_G.pg.base.item_data_statistics[70095] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅲ",
 	max_num = 0,
@@ -166899,7 +166926,7 @@ _G.pg.item_data_statistics[70095] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70096] = {
+_G.pg.base.item_data_statistics[70096] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅳ",
 	max_num = 0,
@@ -166920,7 +166947,7 @@ _G.pg.item_data_statistics[70096] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70097] = {
+_G.pg.base.item_data_statistics[70097] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅴ",
 	max_num = 0,
@@ -166941,7 +166968,7 @@ _G.pg.item_data_statistics[70097] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70098] = {
+_G.pg.base.item_data_statistics[70098] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅵ",
 	max_num = 0,
@@ -166962,7 +166989,7 @@ _G.pg.item_data_statistics[70098] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70099] = {
+_G.pg.base.item_data_statistics[70099] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅶ",
 	max_num = 0,
@@ -166983,7 +167010,7 @@ _G.pg.item_data_statistics[70099] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70100] = {
+_G.pg.base.item_data_statistics[70100] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅷ",
 	max_num = 0,
@@ -167004,7 +167031,7 @@ _G.pg.item_data_statistics[70100] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70101] = {
+_G.pg.base.item_data_statistics[70101] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅸ",
 	max_num = 0,
@@ -167025,7 +167052,7 @@ _G.pg.item_data_statistics[70101] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70102] = {
+_G.pg.base.item_data_statistics[70102] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅹ",
 	max_num = 0,
@@ -167046,7 +167073,7 @@ _G.pg.item_data_statistics[70102] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70103] = {
+_G.pg.base.item_data_statistics[70103] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅺ",
 	max_num = 0,
@@ -167067,7 +167094,7 @@ _G.pg.item_data_statistics[70103] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[70104] = {
+_G.pg.base.item_data_statistics[70104] = {
 	display = "「호광은 교차하는 세계에서」 이벤트 수집 아이템. 12개 정보 수집 시 기념 가구 획득 가능.",
 	name = "세이렌 정보Ⅻ",
 	max_num = 0,
@@ -167088,7 +167115,7 @@ _G.pg.item_data_statistics[70104] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[99950] = {
+_G.pg.base.item_data_statistics[99950] = {
 	display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다.",
 	name = "집결 포인트",
 	max_num = 0,
@@ -167109,7 +167136,7 @@ _G.pg.item_data_statistics[99950] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[99951] = {
+_G.pg.base.item_data_statistics[99951] = {
 	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다.",
 	name = "스킨 체험권",
 	max_num = 0,
@@ -167130,7 +167157,7 @@ _G.pg.item_data_statistics[99951] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[99952] = {
+_G.pg.base.item_data_statistics[99952] = {
 	display = "오픈 시 SP 해역에서 정상적으로 드랍되지 않은 보상을 획득할 수 있습니다.（S 평가 승리 기준, 1회 랜덤 획득）",
 	name = "SP 해역 드랍 관련 우편",
 	max_num = 0,
@@ -167151,7 +167178,7 @@ _G.pg.item_data_statistics[99952] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[99953] = {
+_G.pg.base.item_data_statistics[99953] = {
 	display = "3주년 이벤트 완료 감사 기념——더, 계속 모험하자쥬!",
 	name = "특별 기념 코인",
 	max_num = 0,
@@ -167172,7 +167199,7 @@ _G.pg.item_data_statistics[99953] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[99956] = {
+_G.pg.base.item_data_statistics[99956] = {
 	display = "이국의 아이돌? 보상 교환용 아이템. 이벤트 종료 후에 사라진다. ",
 	name = "장구 ",
 	max_num = 0,
@@ -167193,7 +167220,7 @@ _G.pg.item_data_statistics[99956] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[99957] = {
+_G.pg.base.item_data_statistics[99957] = {
 	display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다.",
 	name = "집결 포인트",
 	max_num = 0,
@@ -167214,7 +167241,7 @@ _G.pg.item_data_statistics[99957] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[100000] = {
+_G.pg.base.item_data_statistics[100000] = {
 	display = "비콘의 데이터 기록. 지정 데이터량 도달 후 비콘·META 화면에서해석할 수 있다.",
 	name = "비콘 데이터",
 	max_num = 0,
@@ -167235,7 +167262,7 @@ _G.pg.item_data_statistics[100000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[100001] = {
+_G.pg.base.item_data_statistics[100001] = {
 	display = [[
 대형 작전에서 수집한 「비콘 데이터」를 기록하는 장치. 일정한 데이터량 달성 후 데이터에 따라 분석하여 특정한 애쉬 비콘을 발견 가능
 P.S. 기록기의 기록 용량은 한계가 있으니, 반드시 제때 분석하세요.
@@ -167260,7 +167287,7 @@ P.S. 기록기의 기록 용량은 한계가 있으니, 반드시 제때 분석�
 	index = {}
 }
 
-_G.pg.item_data_statistics[110000] = {
+_G.pg.base.item_data_statistics[110000] = {
 	display = "대형 작전 중 보급 자원 교환에 사용되는 증빙 토큰. 작전 종료 후 모두 회수되니, 제때 사용하세요.",
 	name = "작전 보급 증빙",
 	max_num = 0,
@@ -167281,7 +167308,7 @@ _G.pg.item_data_statistics[110000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[110001] = {
+_G.pg.base.item_data_statistics[110001] = {
 	display = "대형 작전 중 특수 자원 교환에 사용되는 증빙 토큰. 매우 희귀하며, 얻기 어렵다. 작전 종료 후 모두 회수되니, 제때 사용하세요.",
 	name = "특별 교환 증빙",
 	max_num = 0,
@@ -167302,7 +167329,7 @@ _G.pg.item_data_statistics[110001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[110002] = {
+_G.pg.base.item_data_statistics[110002] = {
 	display = "대형 작전에서 수집한 「비콘 데이터」를 기록하는 장치. 지정 데이터량 도달 후 해당 데이터를 해석하여 특정한 비콘 발견 가능",
 	name = "작전 준비 물자 교환권",
 	max_num = 0,
@@ -167323,7 +167350,7 @@ _G.pg.item_data_statistics[110002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[150000] = {
+_G.pg.base.item_data_statistics[150000] = {
 	display = "랜덤한 R등급 장비 개발 물자가 포함되어 있다.",
 	name = "장비 개발 물자 상자 T1",
 	max_num = 0,
@@ -167365,7 +167392,7 @@ _G.pg.item_data_statistics[150000] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[150001] = {
+_G.pg.base.item_data_statistics[150001] = {
 	display = "랜덤한 SR등급 장비 개발 물자가 포함되어 있다.",
 	name = "장비 개발 물자 상자 T2",
 	max_num = 0,
@@ -167417,7 +167444,7 @@ _G.pg.item_data_statistics[150001] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[150002] = {
+_G.pg.base.item_data_statistics[150002] = {
 	display = "랜덤한 SSR등급 장비 개발 물자가 포함되어 있다.",
 	name = "장비 개발 물자 상자 T3",
 	max_num = 0,
@@ -167469,7 +167496,7 @@ _G.pg.item_data_statistics[150002] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[150003] = {
+_G.pg.base.item_data_statistics[150003] = {
 	display = "일정 확률로 [장비 개발 도면 SSR형] 랜덤 획득하여 장비 개발에 사용 가능.",
 	name = "랜덤 장비 개발 도면 SSR형",
 	max_num = 0,

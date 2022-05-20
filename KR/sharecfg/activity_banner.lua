@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4320",
+		param = "4336",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2022,
 					5,
-					5
+					20
 				},
 				{
 					0,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					5,
-					20
+					6,
+					2
 				},
 				{
 					23,
@@ -33,22 +33,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4316",
 		id = 2,
 		pic = "temp2",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectname = "new",
-				page = 1
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2022,
-					5,
-					5
+					4,
+					28
 				},
 				{
 					0,
@@ -60,7 +54,7 @@ pg.activity_banner = {
 				{
 					2022,
 					5,
-					20
+					25
 				},
 				{
 					23,
@@ -71,19 +65,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4314",
 		id = 3,
 		pic = "temp3",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2022,
-					5,
-					5
+					4,
+					28
 				},
 				{
 					0,
@@ -95,7 +86,7 @@ pg.activity_banner = {
 				{
 					2022,
 					5,
-					19
+					25
 				},
 				{
 					23,
@@ -107,99 +98,24 @@ pg.activity_banner = {
 	},
 	{
 		param = "4325",
-		id = 4,
-		pic = "temp4",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2022,
-					5,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 4,
+		pic = "temp4"
 	},
 	{
 		param = "4330",
-		id = 5,
-		pic = "temp5",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2022,
-					5,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 5,
+		pic = "temp5"
 	},
 	{
 		param = "4326",
-		id = 6,
-		pic = "temp6",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2022,
-					5,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 6,
+		pic = "temp6"
 	},
 	{
 		id = 7,
@@ -339,13 +255,13 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
+			2,
+			3,
 			4,
 			5,
 			6
 		},
 		[2] = {
-			2,
-			3,
 			7,
 			8
 		},

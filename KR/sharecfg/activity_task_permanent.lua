@@ -248,6 +248,66 @@ pg.activity_task_permanent = {
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
+	[6011] = {
+		gametip = "재블린 한정 스킨「미속전진」획득 가능",
+		banner_route = "permanent_biaoqiang",
+		gametip_extra = "9일만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6011,
+		activity_name = "월간 만화Javelin",
+		over_task_id = "",
+		eliminate_task_id = {
+			35118,
+			35119,
+			35120,
+			35121,
+			35122,
+			35123,
+			35124,
+			35125,
+			35126,
+			35127,
+			35128,
+			35129,
+			35130,
+			35131,
+			35132,
+			35133,
+			35134,
+			35135
+		}
+	},
+	[6012] = {
+		gametip = "U-73 한정 스킨「이과 실험 시간!」획득 가능",
+		banner_route = "permanent_u73",
+		gametip_extra = "9일만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6012,
+		activity_name = "이과 실험시간!",
+		over_task_id = "",
+		eliminate_task_id = {
+			35136,
+			35137,
+			35138,
+			35139,
+			35140,
+			35141,
+			35142,
+			35143,
+			35144,
+			35145,
+			35146,
+			35147,
+			35148,
+			35149,
+			35150,
+			35151,
+			35152,
+			35153
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -259,6 +319,8 @@ pg.activity_task_permanent = {
 		6007,
 		6008,
 		6009,
-		6010
+		6010,
+		6011,
+		6012
 	}
 }

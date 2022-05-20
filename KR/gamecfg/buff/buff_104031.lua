@@ -28,9 +28,12 @@ return {
 			arg_list = {
 				buff_id = 104032,
 				minTargetNumber = 2,
-				check_target = "TargetShipTag",
-				isBuffStackByCheckTarget = true,
 				target = "TargetSelf",
+				isBuffStackByCheckTarget = true,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"KizunaAI"
 				}
@@ -42,10 +45,13 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				check_target = "TargetShipTag",
 				maxTargetNumber = 1,
-				skill_id = 104031,
 				target = "TargetSelf",
+				skill_id = 104031,
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"KizunaAI"
 				}

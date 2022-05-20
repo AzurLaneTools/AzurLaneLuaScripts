@@ -28,7 +28,10 @@ return {
 			},
 			arg_list = {
 				buff_id = 12253,
-				target = "TargetShipTag",
+				target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
 				ship_tag_list = {
 					"Helena-Chan"
 				}

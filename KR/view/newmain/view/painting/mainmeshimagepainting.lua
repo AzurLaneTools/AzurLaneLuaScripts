@@ -22,6 +22,16 @@ function slot0.OnLoad(slot0, slot1)
 	slot0:Breath()
 end
 
+function slot0.GetCenterPos(slot0)
+	if slot0:IsLoaded() then
+		slot1 = slot0.container:Find("fitter"):GetChild(0)
+
+		return slot0.chatTf.parent:InverseTransformPoint(slot1:TransformPoint(slot1.localPosition + Vector3((0.5 - slot1.pivot.x) * slot1.sizeDelta.x, 0, 0)))
+	else
+		return uv0.super.GetCenterPos(slot0)
+	end
+end
+
 function slot0.InitSpecialTouch(slot0)
 	if not findTF(findTF(slot0.container, "fitter"):GetChild(0), "Touch") then
 		return
@@ -97,10 +107,16 @@ function slot0.StopBreath(slot0)
 	LeanTween.cancel(go(slot0.container))
 end
 
-function slot0.OnFold(slot0, slot1)
+function slot0.OnEnableOrDisableDragAndZoom(slot0, slot1)
 	if slot1 then
 		slot0:StopBreath()
 	else
+		slot0:Breath()
+	end
+end
+
+function slot0.OnFold(slot0, slot1)
+	if not slot1 then
 		slot0:Breath()
 	end
 end

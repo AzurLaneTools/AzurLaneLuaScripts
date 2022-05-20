@@ -1,5 +1,111 @@
 pg = pg or {}
 pg.ship_skin_template_20 = {
+	[10600050] = {
+		ship_group = 1060005,
+		name = "나기사",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 10600050,
+		group_index = 0,
+		prefab = "zhixiao_DOA",
+		painting = "zhixiao_DOA",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "당신이 미사키를 이 항구로 데려온 사람인가요? \"지휘관\"이라고 했던가… 흥, 당신이 어떻게 미사키를 속아넘겼는지는 모르지만, 언니인 저는 그렇게 호락호락하지 않을 거예요. 함부로 들이댔다간, 가만 안 둡니다! … 제 이름요? … 나기사라고 부르면 돼요. 이 바보 멍멍이!",
+		voice_actor = 182,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.758,
+					1.049,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.73,
+					1.112,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10600051] = {
 		ship_group = 1060005,
 		name = "푸른 하늘과 좋은 기분",

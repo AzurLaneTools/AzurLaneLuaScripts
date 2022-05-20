@@ -93,12 +93,43 @@ function slot0.OnUpdateFlush(slot0)
 	}
 end
 
-function slot0.IsShowRed(slot0)
-	slot0:initTaskData()
+function slot0.IsShowRed()
+	slot0 = getProxy(TaskProxy)
+	slot3 = {}
 
-	slot2 = slot0.taskProxy:getTaskById(slot0.taskList[slot0.curTaskIndex]) or slot0.taskProxy:getFinishTaskById(slot1)
+	for slot7, slot8 in ipairs(pg.activity_template[ActivityConst.NEWMEIXIV4_SKIRMISH_ID].config_data) do
+		for slot12, slot13 in ipairs(slot8) do
+			table.insert(slot3, slot13)
+		end
+	end
 
-	return slot2 and slot2:getTaskStatus() == 1
+	function slot4()
+		for slot3, slot4 in ipairs(uv0) do
+			if uv1:getTaskById(slot4) or uv1:getFinishTaskById(slot4) then
+				return slot3 - 1
+			end
+		end
+
+		return 0
+	end
+
+	slot5 = 1
+
+	for slot9, slot10 in ipairs(slot3) do
+		slot13 = slot0:getTaskById(slot3[slot9 + 1]) or slot0:getFinishTaskById(slot12)
+
+		if (slot0:getTaskById(slot10) or slot0:getFinishTaskById(slot10)) and slot11:getTaskStatus() == 2 then
+			slot5 = slot5 + 1
+
+			if not slot12 or not slot13 then
+				slot5 = slot5 - 1
+			end
+		end
+	end
+
+	slot7 = slot0:getTaskById(slot3[slot5 + slot4()]) or slot0:getFinishTaskById(slot6)
+
+	return slot7 and slot7:getTaskStatus() == 1
 end
 
 return slot0

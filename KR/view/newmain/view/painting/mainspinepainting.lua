@@ -7,6 +7,10 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.spBg = findTF(slot3, "spinePainting")
 end
 
+function slot0.GetCenterPos(slot0)
+	return slot0.chatTf.parent:InverseTransformPoint(slot0.spTF.position)
+end
+
 function slot0.OnLoad(slot0, slot1)
 	slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
 		ship = slot0.ship,

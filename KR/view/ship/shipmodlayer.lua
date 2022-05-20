@@ -318,7 +318,16 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 end
 
 function slot0.tweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
+	if not slot0.tweens then
+		return
+	end
+
 	slot0.tweens[slot1] = slot1
+
+	if LeanTween.isTweening(go(slot1)) then
+		LeanTween.cancel(go(slot1))
+	end
+
 	slot9 = LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
 		if uv0 then
 			uv0(slot0)

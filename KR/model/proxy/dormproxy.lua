@@ -451,10 +451,8 @@ end
 function slot0.GetTag7Furnitures(slot0)
 	slot1 = {}
 
-	for slot6, slot7 in ipairs(pg.furniture_data_template.all) do
-		slot9 = pg.furniture_shop_template[slot7]
-
-		if pg.furniture_data_template[slot7].tag == 7 and slot9 and slot9.not_for_sale == 0 and pg.TimeMgr.GetInstance():inTime(slot9.time) then
+	for slot6, slot7 in ipairs(pg.furniture_data_template.get_id_list_by_tag[7]) do
+		if pg.furniture_shop_template[slot7] and slot8.not_for_sale == 0 and pg.TimeMgr.GetInstance():inTime(slot8.time) then
 			table.insert(slot1, slot7)
 		end
 	end

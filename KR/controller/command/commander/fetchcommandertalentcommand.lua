@@ -27,7 +27,7 @@ function slot0.execute(slot0, slot1)
 				list = slot1
 			})
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_get_skills_done", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_get_skills_done") .. slot0.result .. "-" .. uv3)
 		end
 	end)
 end

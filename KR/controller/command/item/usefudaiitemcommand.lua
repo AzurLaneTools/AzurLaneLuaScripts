@@ -28,20 +28,10 @@ function slot0.execute(slot0, slot1)
 			slot1 = {}
 
 			uv0:removeItemById(uv1, uv2)
-
-			if uv3.usage == ItemUsage.DROP then
-				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
-			end
-
-			if uv4 then
-				uv4(slot1)
-			end
+			existCall(uv3, PlayerConst.addTranDrop(slot0.drop_list))
 		else
-			if uv4 then
-				uv4({})
-			end
-
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
+			existCall(uv3)
 		end
 	end)
 end

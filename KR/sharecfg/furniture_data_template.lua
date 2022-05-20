@@ -4714,103 +4714,6 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
-	[219] = {
-		belong = 1,
-		describe = "감사를 전하는 핸드메이드 선물!",
-		gain_by = "",
-		type = 7,
-		dir = 0,
-		dorm_id = 0,
-		rarity = 5,
-		is_get_time_note = 0,
-		themeId = 0,
-		count = 1,
-		is_3d_obj = 0,
-		name = "스페셜·기념 테이블",
-		tag = 6,
-		icon = "niantuicon",
-		spine_extra = "",
-		level = 1,
-		advice = 0,
-		effect = "",
-		comfortable = 5,
-		deblocking = 1,
-		picture = "",
-		canputon = 0,
-		id = 219,
-		can_rotate = 1,
-		size = {
-			3,
-			3
-		},
-		offset = {},
-		canputonGrid = {},
-		can_trigger = {
-			0
-		},
-		spine = {
-			{
-				"niantucnB",
-				"normal"
-			},
-			{
-				"niantucnT"
-			},
-			{
-				{
-					0,
-					0
-				},
-				{
-					{
-						"sit",
-						0,
-						"sit"
-					}
-				},
-				{},
-				{
-					0
-				}
-			},
-			{},
-			{
-				0,
-				0
-			},
-			{
-				1,
-				1
-			}
-		},
-		spine_action_replace = {
-			{
-				"sit",
-				{
-					10000,
-					10001
-				},
-				"buli",
-				2,
-				2
-			},
-			{
-				"sit",
-				{
-					30311
-				},
-				"gaoxiong",
-				2,
-				2
-			}
-		},
-		animator = {
-			{
-				"niantuCharControl"
-			}
-		},
-		interAction_group = {}
-	},
 	[220] = {
 		spine_extra = "",
 		describe = "지휘관 여러분께 커다란 감사와 축복을 바칩니다!",
@@ -98068,7 +97971,6 @@ pg.furniture_data_template = {
 			216,
 			217,
 			218,
-			219,
 			220,
 			221,
 			222,
@@ -98224,7 +98126,6 @@ pg.furniture_data_template = {
 			216,
 			217,
 			218,
-			219,
 			220,
 			221,
 			222,
@@ -104182,7 +104083,6 @@ pg.furniture_data_template = {
 			216,
 			217,
 			218,
-			219,
 			220,
 			221,
 			222,
@@ -104921,7 +104821,6 @@ pg.furniture_data_template = {
 			216,
 			217,
 			218,
-			219,
 			220,
 			221,
 			222,
@@ -107099,7 +106998,6 @@ pg.furniture_data_template = {
 		216,
 		217,
 		218,
-		219,
 		220,
 		221,
 		222,
