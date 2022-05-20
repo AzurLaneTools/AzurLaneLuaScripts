@@ -131101,6 +131101,27 @@ _G.pg.base.item_data_statistics[80001] = {
 	index = {}
 }
 
+_G.pg.base.item_data_statistics[80002] = {
+	display = "使用後可從T2教材中隨機獲得5個",
+	name = "隨機教材T2",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54002",
+	id = 80002,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.base.item_data_statistics[81000] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2022，高級定向藍圖・三期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "2022新年福袋·II",

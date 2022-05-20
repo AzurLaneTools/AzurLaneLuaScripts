@@ -197,6 +197,7 @@ function slot0.skip(slot0)
 end
 
 function slot0.willExit(slot0)
+	uv0.super.willExit(slot0)
 	LeanTween.cancel(go(slot0._tf))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
