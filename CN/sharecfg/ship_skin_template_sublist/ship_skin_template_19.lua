@@ -1211,7 +1211,7 @@ pg.ship_skin_template_19 = {
 	},
 	[900325] = {
 		ship_group = 900325,
-		name = "544845544574552",
+		name = "544845544F574552",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -1239,7 +1239,7 @@ pg.ship_skin_template_19 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "544845544574552",
+		desc = "544845544F574552",
 		voice_actor = -1,
 		spine_offset = "",
 		gyro = 0,

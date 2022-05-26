@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 207120,
 			side = 2,
 			bgName = "bg_camelot_9",
-			say = "陛下，黑色风暴开始……分裂了？海面上生成了无数小龙卷，我们的航线被挡住了！",
+			nameColor = "#a9f548",
 			dir = 1,
-			actactor = 207120,
+			say = "陛下，黑色风暴开始……分裂了？海面上生成了无数小龙卷，我们的航线被挡住了！",
 			flashout = {
 				black = true,
 				dur = 0.5,

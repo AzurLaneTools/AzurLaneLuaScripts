@@ -93,6 +93,7 @@ end
 
 function slot9(slot0, slot1)
 	setText(slot1, "")
+	setActive(slot1, false)
 
 	if #slot0.tplPools >= 5 and slot1 ~= slot0.tpl then
 		Object.Destroy(slot1.gameObject)
@@ -114,6 +115,8 @@ function slot0.UpdateList(slot0)
 	for slot7, slot8 in ipairs(slot0.displays) do
 		table.insert(slot2, function (slot0)
 			slot1, slot2 = uv0(uv1)
+
+			setActive(slot1, true)
 
 			if not slot2 then
 				uv2 = uv2 + 1

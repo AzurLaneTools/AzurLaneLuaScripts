@@ -88,8 +88,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "负责迎宾的似乎是埃吉尔，不过是身着与平时不同的服装，以及与平时不同的姿势——",
 			typewriter = {
 				speed = 0.05,
@@ -413,8 +414,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "嘴上说着休息，但趴在沙发上的埃吉尔依旧在盯着这边。",
 			typewriter = {
 				speed = 0.05,
@@ -540,9 +542,10 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_145",
+			blackBg = true,
 			dir = 1,
 			optionFlag = 1,
 			actor = 499051,

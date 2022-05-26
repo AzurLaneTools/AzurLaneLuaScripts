@@ -25,6 +25,10 @@ originalPrint("C# Ver.... " .. CSharpVersion)
 PLATFORM = LuaHelper.GetPlatformInt()
 SDK_EXIT_CODE = 99
 
+if not IsUnityEditor then
+	-- Nothing
+end
+
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
 
 if IsUnityEditor then
