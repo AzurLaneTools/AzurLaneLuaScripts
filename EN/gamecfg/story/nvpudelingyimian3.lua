@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"The Many Lives of Maids\n\n<size=45>3 The Maid in the Night Mood</size>",
+					"The Many Lives of Maids\n\n<size=45>The Maid in the Night Mood</size>",
 					1
 				}
 			}

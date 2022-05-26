@@ -39,7 +39,7 @@ pg.shop_furniture_relation = {
 	[70700] = {
 		fur_id = 200005,
 		id = 70700,
-		desc = "Prinz Eugent——Kindred Evening Spirits",
+		desc = "Prinz Eugen——Kindred Evening Spirits",
 		scale = {
 			0.65,
 			0.75
