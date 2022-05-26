@@ -43,6 +43,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.showNPainting = slot1.hidePaintObj
 	slot0.showWJZPainting = slot1.hidePaintEquip
 	slot0.nohead = slot1.nohead
+	slot0.live2d = slot1.live2d
+	slot0.spine = slot1.spine
+	slot0.live2dOffset = slot1.live2dOffset
 
 	if slot0.hidePainting or slot0.actor == nil then
 		slot0.actor = nil
@@ -192,6 +195,18 @@ function slot0.GetPaintingAndName(slot0)
 	return HXSet.hxLan(slot1), slot2
 end
 
+function slot0.GetShipSkinId(slot0)
+	if slot0.actor == uv0.ACTOR_TYPE_FLAGSHIP then
+		return getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character).skinId
+	elseif slot0.actor == uv0.ACTOR_TYPE_PLAYER then
+		return nil
+	elseif not slot0.actor then
+		return nil
+	else
+		return slot0.actor
+	end
+end
+
 function slot0.IsShowNPainting(slot0)
 	return slot0.showNPainting
 end
@@ -231,6 +246,49 @@ end
 
 function slot0.GetFontSize(slot0)
 	return slot0.fontSize
+end
+
+function slot0.IsSpinePainting(slot0)
+	return tobool(slot0:GetPainting() ~= nil and slot0.spine)
+end
+
+function slot0.IsHideSpineBg(slot0)
+	return slot0.spine == 1
+end
+
+function slot0.IsLive2dPainting(slot0)
+	return tobool(slot0:GetPainting() ~= nil and slot0.live2d)
+end
+
+function slot0.GetLive2dPos(slot0)
+	if slot0.live2dOffset then
+		return Vector3(slot0.live2dOffset[1], slot0.live2dOffset[2], slot0.live2dOffset[3])
+	end
+end
+
+function slot0.GetVirtualShip(slot0)
+	slot1 = slot0:GetShipSkinId()
+
+	return Ship.New({
+		configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot1].ship_group).id,
+		skin_id = slot1
+	})
+end
+
+function slot0.GetLive2dAction(slot0)
+	if type(slot0.live2d) == "string" then
+		if pg.character_voice[slot0.live2d] then
+			return slot1.l2d_action
+		end
+
+		return nil
+	else
+		return nil
+	end
+end
+
+function slot0.IsSamePainting(slot0, slot1)
+	return slot0:GetPainting() == slot1:GetPainting() and slot0:IsLive2dPainting() == slot1:IsLive2dPainting() and slot0:IsSpinePainting() == slot1:IsSpinePainting()
 end
 
 function slot0.OnClear(slot0)

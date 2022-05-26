@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "尽管{namecode:93}·META如同疯狂的猛兽一般不惧损伤地进攻着。",
+			say = "儘管蒼龍·META如同瘋狂的猛獸一般，不懼損傷地進攻著。",
 			side = 2,
 			bgName = "bg_luoxuan_8",
 			hidePaintObj = true,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_luoxuan_8",
 			hidePaintObj = true,
 			dir = 1,
-			say = "但是，她并没有像此前遇到的余烬{namecode:66}一般不可战胜。",
+			say = "但是，她並沒有像此前遇到的餘燼高雄一般不可戰勝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_luoxuan_8",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在神秘友军的协助下，舰队已经完全压制住了其行动。她的动作已经明显迟缓下来，攻击也在不断地变弱。",
+			say = "在神秘友軍的協助下，艦隊已經完全壓制住了其行動。她的動作已經明顯遲緩下來，攻擊也在不斷地變弱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来就是最后一击了——",
+			say = "接下來就是最後一擊了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔啊！好惊人的威力，这真的是从我的主炮里发出去的攻击么？！",
+			say = "唔啊！好驚人的威力，這真的是從我的主炮裡打出去的炮彈嗎？！",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 0.15,
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你究竟做了什么？！",
+			say = "…妳究竟做了什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这些是依靠你们自身的力量做到的哦，我只是提供了一些微不足道的帮助而已。",
+			say = "這些都是依靠妳們自身的力量做到的哦，我只是提供了一些微不足道的幫助而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你们真正的力量，绝对不止于此……",
+			say = "妳們真正的力量，絕對不止於此…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等下……{namecode:199}！在刚刚炮击命中的地方没有看到残骸，敌人在被击中之后完全消失了？！",
+			say = "等下……紐澤西！在剛剛炮擊命中的地方沒有看到殘骸，敵人在被擊中之後完全消失了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这怎么可能？刚才那一击我绝对命中了！而且我亲眼看到了损伤的发生啊？！",
+			say = "這怎麼可能？剛才那一擊我絕對命中了！而且我親眼看到了損傷的發生啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那也就是说……在命中之后的，爆炸产生的烟雾消散前的一瞬间中发生了什么事……？",
+			say = "那也就是說…在命中之後的，爆炸產生的煙霧消散前的一瞬間中發生了什麼事…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,12 +272,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海伦娜",
+			actorName = "海倫娜",
 			bgName = "bg_luoxuan_9",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道……这里还有塞壬的机关！",
+			say = "難道…這裡還有塞壬的機關！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家小心，又有一支舰载机队出现了？！趁机拉开距离再次发动攻击了么！",
+			say = "大家小心，又有一支艦載機隊出現了？！趁機拉開距離再次發動攻擊了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "等等，{namecode:200}，不要拦截！那批舰载机是……",
+			say = "等等，提康，不要攔截！那批艦載機是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "嗯，那批也是我的舰载机。",
+			say = "嗯，那批也是我的艦載機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "……哈？",
+			say = "…哈？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "轟———————！",
 			side = 2,
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
@@ -428,7 +428,7 @@ return {
 			}
 		},
 		{
-			say = "突然出现的舰载机群向着没有任何敌人的海面发动猛烈攻击。",
+			say = "突然出現的艦載機群向著沒有任何敵人的海面發動猛烈攻擊。",
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "然后……和之前相似的空间震动再次出现了。",
+			say = "然後…和之前相似的空間震動再次出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "仅一瞬之间，宛如镜面翻转一般，充斥着红色的战场消失了，取而代之的是平日里再熟悉不过的蓝天与碧海。",
+			say = "僅一瞬之間，宛如鏡面翻轉一般，充斥著紅色的戰場消失了，取而代之的是平日裡再熟悉不過的藍天與碧海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "居然……还有一层。",
+			say = "居然…還有一層。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你干嘛这么吃惊啊……刚刚破坏塞壬机关的攻击不就是你发动的吗？",
+			say = "…妳幹嘛這麼吃驚啊…剛剛破壞塞壬機關的攻擊不就是妳發動的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			actorName = "？？？",
 			side = 2,
-			say = "嗯，没错，是我。",
+			say = "嗯，沒錯，是我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "唉……敌人是利用这一层空间制造的空隙逃跑的吧，现在追已经来不及了。",
+			say = "唉…敵人是利用這一層空間製造的空隙逃跑的吧，現在追已經來不及了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "真没想到塞壬和META之间居然存在合作关系……",
+			say = "真沒想到塞壬和META之間居然存在合作關係…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "这件事也是我正在调查的事项之一。本来我只是有所怀疑，现在看来或许……",
+			say = "這件事也是我正在調查的事項之一。本來我只是有所懷疑，現在看來或許…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不过在它那种状态下，能不能理解“合作”这个词的含义还很难说呢。",
+			say = "不過在它那種狀態下，能不能理解“合作”這個詞的含義還很難說呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "看来我来帮忙确实是正确的选择，只有敌人力量单方面的强大未免太不公平了吧~",
+			say = "看來我來幫忙確實是正確的選擇，只有敵人力量單方面的強大未免太不公平了吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,11 +636,11 @@ return {
 			},
 			options = {
 				{
-					content = "关于余烬——",
+					content = "關於餘燼——",
 					flag = 1
 				},
 				{
-					content = "关于你——",
+					content = "關於妳——",
 					flag = 2
 				}
 			}
@@ -653,7 +653,7 @@ return {
 			dir = 1,
 			actorName = "？？？",
 			side = 2,
-			say = "我知道你有很多问题，但是指挥官，现在还不到回答的时候。",
+			say = "我知道妳有很多問題，但是指揮官，現在還不到回答的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "今天就到此为止吧。",
+			say = "今天就到此為止吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "既然你不想说的话——嗯，就到此为止吧。",
+			say = "既然妳不想說的話——嗯，就到此為止吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "再次感谢您在本次行动中提供的帮助。",
+			say = "再次感謝您在本次行動中提供的幫助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "海伦娜，要跟在指挥官身边，好好的战斗，好好的生活哦。",
+			say = "海倫娜，要跟在指揮官身邊，好好的戰鬥，好好的生活哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎……？嗯……！",
+			say = "哎…？嗯…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "那么诸位，我该回去了。",
+			say = "那麼諸位，我該回去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "后会有期哦，神秘的友军~！以后再一起战斗吧！",
+			say = "後會有期哦，神秘的友軍~！以後再一起戰鬥吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			dir = 1,
 			actorName = "？？？",
 			side = 2,
-			say = "如果，有机会的话……",
+			say = "如果，有機會的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,7 +807,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在留下这句话后，海伦娜·META与身边的舰载机群一起驶入了还未完全散去的海雾深处。",
+			say = "在留下這句話後，海倫娜·META與身邊的艦載機群一起高速駛向了還未完全散去的海霧深處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "我说啊，她的身份那么明显……不知道她究竟想隐藏什么啊？",
+			say = "我說啊，她的身份那麼明顯…不知道她究竟想隱藏什麼啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "也许这是属于她自己的某种坚持吧…………",
+			say = "也許這是屬於她自己的某種堅持吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "哼哼哼~从这次针对AF的袭击事件开始到刚刚我们彻底脱困为止，之后要写的报告恐怕要如高山一样吧！",
+			say = "哼哼哼~從這次針對AF的襲擊事件開始到剛剛我們徹底脫困為止，之後要寫的報告恐怕要如高山一樣吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我还有调动命令要执行，这些事就全部拜托你了哦，指挥官~！",
+			say = "我還有調動命令要執行，這些事就全部拜託你了哦，指揮官~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

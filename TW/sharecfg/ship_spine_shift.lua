@@ -202,5 +202,12 @@ pg.ship_spine_shift = {
 			-30,
 			13
 		}
+	},
+	aijier_2 = {
+		spine = "aijier_2",
+		mainui_shift = {
+			0,
+			10
+		}
 	}
 }

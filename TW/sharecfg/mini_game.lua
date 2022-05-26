@@ -1164,6 +1164,19 @@ pg.mini_game = {
 		request_data = 1,
 		simple_config_data = {}
 	},
+	{
+		view_name = "HideSeekGameView",
+		name = "啾啾躲猫猫",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 40,
+		hub_id = 32,
+		request_data = 1,
+		simple_config_data = {}
+	},
 	all = {
 		1,
 		2,
@@ -1203,6 +1216,7 @@ pg.mini_game = {
 		36,
 		37,
 		38,
-		39
+		39,
+		40
 	}
 }

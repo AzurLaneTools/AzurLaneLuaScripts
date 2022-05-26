@@ -8022,6 +8022,270 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1520001] = {
+		map = 1520001,
+		name = "鏡位螺旋·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "JINGWEILUOXUAN1",
+		ani_name = "Map_1420001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40635,
+		ui_type = 1,
+		bg = "Map_1420001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1520011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520002] = {
+		map = 1520002,
+		name = "鏡位螺旋·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "JINGWEILUOXUAN17",
+		ani_name = "Map_1420008",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40635,
+		ui_type = 1,
+		bg = "Map_1420008",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1520012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520011] = {
+		map = 1520011,
+		name = "鏡位螺旋·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "JINGWEILUOXUAN1",
+		ani_name = "Map_1420011",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40635,
+		ui_type = 1,
+		bg = "Map_1420011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1520001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520012] = {
+		map = 1520012,
+		name = "鏡位螺旋·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "JINGWEILUOXUAN17",
+		ani_name = "Map_1420018",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40635,
+		ui_type = 1,
+		bg = "Map_1420018",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1520002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520025] = {
+		map = 1520025,
+		name = "鏡位螺旋·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Beverly_short_eng",
+		enter_story = "",
+		ani_name = "Map_1420018",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40635,
+		ui_type = 1,
+		bg = "Map_1420018",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1520012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520026] = {
+		map = 1520026,
+		name = "鏡位螺旋·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Beverly_short_eng",
+		enter_story = "",
+		ani_name = "Map_1420018",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40635,
+		ui_type = 1,
+		bg = "Map_1420018",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1520012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1540001] = {
 		map = 1540001,
 		name = "響徹碧海的偶像歌|| ||CHAPTER EX||E.X.",
@@ -9935,6 +10199,12 @@ pg.expedition_data_by_map = {
 		1500012,
 		1500025,
 		1500026,
+		1520001,
+		1520002,
+		1520011,
+		1520012,
+		1520025,
+		1520026,
 		1540001,
 		1540002,
 		1540003,

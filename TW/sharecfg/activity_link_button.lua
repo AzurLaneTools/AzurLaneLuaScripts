@@ -3,13 +3,39 @@ pg.activity_link_button = {
 	{
 		param = "0",
 		name = "event_all",
-		time = "stop",
-		text_pic = "text_event_all",
 		type = 3,
-		pic = "event_all",
+		text_pic = "",
 		id = 1,
 		group_id = 1,
-		order = 1
+		pic = "event_all",
+		order = 1,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		param = "0",
@@ -36,24 +62,76 @@ pg.activity_link_button = {
 	[10] = {
 		param = "0",
 		name = "event_map",
-		time = "stop",
-		text_pic = "text_event_map",
 		type = 0,
-		pic = "event_map",
+		text_pic = "text_event_map",
 		id = 10,
 		group_id = 2,
-		order = 1
+		pic = "event_map",
+		order = 1,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[20] = {
 		param = "0",
 		name = "event_minigame",
-		time = "stop",
-		text_pic = "text_event_minigame",
 		type = 0,
-		pic = "event_minigame",
+		text_pic = "text_event_minigame",
 		id = 20,
 		group_id = 3,
-		order = 1
+		pic = "event_minigame",
+		order = 1,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					5,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[30] = {
 		param = "0",
@@ -113,7 +191,7 @@ pg.activity_link_button = {
 		pic = "event_LanternFestival",
 		order = 1,
 		time = {
-			timer,
+			"timer",
 			{
 				{
 					2022,

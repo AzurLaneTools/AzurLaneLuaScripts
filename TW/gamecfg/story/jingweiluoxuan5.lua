@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "{namecode:199}舰队 返航途中",
+			say = "紐澤西艦隊 返航途中",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidePaintObj = true,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "AF遭受了疑似重樱舰队的袭击而失去联络……？",
+			say = "AF遭受了疑似重櫻艦隊的襲擊而失去聯絡…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "怎么我一走就出这种事啊！指挥官的应对呢？",
+			say = "怎麼我一走就出這種事啊！指揮官的應對呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "在多次联络无果之后，指挥官已经在带领舰队前往AF增援的路上了。",
+			say = "在多次聯絡無果之後，指揮官已經在帶領艦隊前往AF增援的路上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "又是亲自去前线？",
+			say = "又是親自去前線？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "听起来像是这样的。",
+			say = "聽起來像是這樣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "唉……不论职位如何变动，这方面的风格还是一点没变。",
+			say = "唉…不論職位如何變動，這方面的風格還是一點沒變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "{namecode:199}，你觉得我们应该怎么办？",
+			say = "紐澤西，妳覺得我們應該怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是呢，调动过程中居然发生了这种事……",
+			say = "是呢，調動過程中居然發生了這種事…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "紧急军情。和司令部打个招呼之后我们也返航。",
+			say = "緊急軍情。和司令部打個招呼之後我們也返航。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "居然敢袭击AF，已经不是一般敌人了……我们必须给予有力的回击才行！",
+			say = "居然敢襲擊AF，已經不是一般敵人了…我們必須給予有力的回擊才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，刚才还在说指挥官呢。你这风格不也一样么？",
+			say = "呵呵，剛才還在說指揮官呢。妳這風格不也一樣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我可是白鹰最大最强的战列舰，在战场中冲锋在前是理所当然吧！",
+			say = "我可是白鷹最大最強的戰列艦，在戰場中衝鋒在前是理所當然吧！",
 			effects = {
 				{
 					active = true,
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "别说是敌人，就算是风暴也能冲给你看哦！",
+			say = "別說是敵人，就算是風暴也能衝給妳看哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在发布舰队指令。",
+			say = "現在發布艦隊指令。",
 			effects = {
 				{
 					active = false,
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "各舰队，情况简报你们已经收到了吧。我们现在要去执行紧急作战任务咯！",
+			say = "各艦隊，情況簡報妳們已經收到了吧。我們現在要去執行緊急作戰任務囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "{namecode:197}收到……护卫舰队正在重新排列队形。",
+			say = "波夕收到…護衛艦隊正在重新排列隊形。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101470,
-			say = "{namecode:198}收到，前锋舰队现在开始掉头，稍后与你们汇合哦。",
+			say = "莫里森收到，前鋒艦隊現在開始掉頭，稍後與妳們匯合哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "很好！{namecode:199}舰队，向着AF——出航~！",
+			say = "很好！紐澤西艦隊，向著AF——出航~！",
 			effects = {
 				{
 					active = true,

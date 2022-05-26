@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "果然出现了，而且与塞壬之间有着不清不楚的关系哦。",
+			say = "果然出現了，而且與塞壬之間有著不清不楚的關係哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "你是怎么发现塞壬在那之下还有一层镜面的？",
+			say = "妳是怎麼發現塞壬在那之下還有一層鏡面的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "因为曾经，见过类似的情况而已……",
+			say = "因為曾經，見過類似的情況而已…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "原来如此，你们那里进行过这样的实验啊。",
+			say = "原來如此，妳們那裡進行過這樣的實驗啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "海伦娜，你为什么要从余烬那边过来？",
+			say = "海倫娜，妳為什麼要從餘燼那邊過來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "嗯？我有说过我加入过余烬么。",
+			say = "嗯？我有說過我加入過餘燼嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "只是猜想而已……你们身上有种相似的气质，知道的情报太多，说话又都那么不直率…………",
+			say = "只是猜想而已…妳們身上有種相似的氣質，知道的情報很多，而且都一樣喜歡說謎語……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "……抱歉，有些事我还不想说。",
+			say = "…抱歉，有些事我還不想說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "不用在意，彼此不讨论过去的事也是我们之间的默契。",
+			say = "不用在意，彼此之間不討論過去的事也是我們之間的默契。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "毕竟对于我们来说，过去，基本等于悲伤的同义词。",
+			say = "畢竟對於我們來說，過去，基本等於悲傷的同義詞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "在撤离后与塞壬一同行动，然后分道扬镳，在无数实验场中壮大力量的余烬。",
+			say = "在撤離後與塞壬一同行動，然後分道揚鑣，在無數實驗場中壯大力量的餘燼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "从撤离之日时就开始，日复一日，矜矜业业执行审判者计划的塞壬。",
+			say = "從撤離之日時就開始，日復一日，兢兢業業執行審判者計劃的塞壬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "还有知晓了这一切，却选择从远处凝望着的我们……",
+			say = "還有知曉了這一切，卻選擇從遠處凝望著的我們…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "我们还真是站在复杂的螺旋之中啊……",
+			say = "我們還真是站在復雜的螺旋之中啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "不过，至少我们是指挥官的友军不是么？",
+			say = "不過，至少我們是指揮官的友軍不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "是哦。我们是，而且只是指挥官的友军。",
+			say = "是哦。我們是，而且只是指揮官的友軍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "在我离开的这段时间，奇怪的闪回还在继续么？",
+			say = "在我離開的這段時間，奇怪的閃回還在繼續嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "嗯……而且在来到这里之后更加频繁了。",
+			say = "嗯…而且在來到這裡之後更加頻繁了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "她的情况已经很严重了，如果得不到帮助的话，可能很快……",
+			say = "她的情況已經很嚴重了，如果得不到幫助的話，可能很快…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "……这样啊。",
+			say = "…這樣啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "海伦娜，你真的没有出现那些闪回么？这次你甚至……",
+			say = "海倫娜，妳真的沒有出現那些閃回嗎？這次妳甚至當面見到了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "我……",
+			say = "我…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa550",
 			actor = 900315,
-			say = "没有，我什么都没感觉到。",
+			say = "沒有，我什麼都沒感覺到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa550",
-			say = "说起来，企业的行踪如何？",
+			say = "企業的行蹤如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "企业的行动很奇怪……这么拖沓完全不像她的做事风格……",
+			say = "她的行動很奇怪…這麼拖沓完全不像她的做事風格…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 900316,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "不过也多亏她们闹出来的动静，仲裁机关应该一时半会发现不了我们的存在……",
+			say = "不過也多虧她們鬧出來的動靜，仲裁機關應該一時半會發現不了我們的存在…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa550",
 			hidePaintObj = true,
-			say = "那就走吧，接下来要做的事可是如繁星一样多呢……",
+			say = "走吧，接下來要做的事可是如繁星一樣多呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

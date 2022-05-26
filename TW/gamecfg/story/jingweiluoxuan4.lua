@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "前往指挥室时，情况已经乱成了一团。",
+			say = "前往指揮室時，情況已經亂成了一團。",
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "依然无法与AF取得联络么？保持现在的频率继续呼叫……",
+			say = "依然無法與AF取得聯絡嗎？保持現在的頻率繼續呼叫…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "派出侦察机！对，派出侦察机前往AF的方向进行搜索！",
+			say = "派出偵察機！對，派出偵察機前往AF的方向進行搜索！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "什么？派出的侦察机都没有回来的？继续派遣！",
+			say = "什麼？派出的偵察機都沒有回來的？繼續派遣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			},
 			options = {
 				{
-					content = "现在情况怎么样？",
+					content = "現在情況怎麼樣？",
 					flag = 1
 				}
 			}
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "大事不妙啊，指挥官！",
+			say = "大事不妙了啊，指揮官！",
 			effects = {
 				{
 					active = true,
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "AF依然没有回应我们的任何联络，派出的侦察机也都陆续失去了联系！",
+			say = "AF依然沒有回應我們的任何聯絡，派出的偵察機也都陸續失去了聯繫！",
 			effects = {
 				{
 					active = false,
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……怎么会发生这种事，能判断出联络中断的具体时间么？",
+			say = "…怎麼會發生這種事，能判斷出聯絡中斷的具體時間嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "确实有一条AF在深夜发出来的联络，但不知道为什么，这条消息延迟了几个小时才被我们收到……",
+			say = "確實有一條AF在深夜發出來的聯絡消息，但不知道出了什麼問題，這條消息延遲了幾個小時我們才收到…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "消息说了什么？",
+			say = "消息說了什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "数据出现了损坏……但是技术部门正在努力！相信很快就能解决……",
+			say = "數據出現了損壞…但是技術部門正在努力！相信很快就能解決問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，修复结束了哦！现在开始播放消息！",
+			say = "指揮官，修復結束了哦！現在開始播放消息！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -266,7 +266,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "——滋——遭到了重樱舰队的——滋——情况超不妙——滋——",
+			say = "—滋—遭到了重櫻艦隊的—滋—情況超不妙—滋—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "——滋——受损严重——滋——请求支援——滋——",
+			say = "—滋—受損嚴重—滋—請求支援—滋—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "抱歉……修复到这种程度的就是技术部门的极限了。",
+			say = "抱歉…修復到這種程度的就是技術部門的極限了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "没……没听错的话，是遭受了重樱舰队的袭击吧？",
+			say = "沒…沒聽錯的話，是遭受了重櫻艦隊的襲擊吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "遭受了重樱舰队的袭击……所以AF与外界失去了联系！情况超不妙啊，得去紧急支援才行！",
+			say = "遭受了重櫻艦隊的襲擊…所以AF與外界失去了聯繫！情況超不妙啊，得去緊急支援才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "等等，有点奇怪吧。",
+			say = "等等，有點奇怪吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "昨天深夜才收到重樱舰队从本岛出发的消息，那支舰队怎么可能在几个小时后就对AF发动了攻击？",
+			say = "昨天深夜才收到重櫻艦隊從本島出發的消息，這支艦隊怎麼可能在幾個小時後就對AF發動了攻擊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……时间对不上。",
+			say = "…時間對不上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那会不会是艾伦·萨姆纳没分清塞壬棋子舰队和重樱舰队的区别？",
+			say = "那會不會是艾倫·M·桑拿沒分清塞壬棋子艦隊和重櫻艦隊的區別？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "那个艾伦……也不是不可能。不过只是棋子舰队的话，驻扎在AF的舰队应该能够轻松应对才。",
+			say = "那個艾倫…也不是不可能。不過只是棋子艦隊的話，駐紮在AF的艦隊應該能夠輕鬆應對才吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，说的也是啊。那难道是余烬么？！之前也遇到过使用重樱舰载机的余烬吧！",
+			say = "唔，說的也是啊。那難道是餘燼嗎？！之前也遇到過使用重櫻艦載機的餘燼吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "（是指余烬的{namecode:94}么？可是为什么……）",
+			say = "（是指餘燼的飛龍嗎？可是為什麼…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不论如何AF失去联络是事实。不管那里遭遇了谁的攻击，我们都不能坐视不管。",
+			say = "不論如何AF失去聯絡是事實。不管那裡遭遇了誰的攻擊，我們都不能坐視不管。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没有返航的侦察机恐怕已经在前往AF途中遭遇了拦截，我们不能一直等下去了。",
+			say = "沒有返航的偵察機恐怕已經在AF周邊空域遭遇了攔截，我們不能一直等下去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "舰队准备，立刻增援AF！",
+			say = "艦隊準備，立刻增援AF！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

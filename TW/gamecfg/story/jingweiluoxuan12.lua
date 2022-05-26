@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一段时间过去了，依然没有找到任何离开的方法。",
+			say = "一段時間過去了，依然沒有找到任何離開的方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "指挥官…操作台上的通讯器无法发出信息，我们只能等到下次收到外界联络的时候了……",
+			say = "操作台上的通訊器無法主動發送訊息，看來只能等到下次主動接收到外界聯絡的時候了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈啊，好无聊——也不知道外面现在什么情况了。",
+			say = "哈啊，好無聊——也不知道外面現在什麼情況了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "喂，喷水鱼你一个人偷偷摸摸的在干嘛呢？",
+			say = "喂，射水魚妳一個人偷偷摸摸的在幹嘛呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "嘘——！我在听外面的动静。",
+			say = "噓——！我在聽外面的動靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "哎哎？！听到什么了么？",
+			say = "聽到什麼了麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "并没什么特殊的……连老鼠的跑动声都没有。",
+			say = "沒什麼特殊的…連老鼠的跑動聲都沒有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "这艘船上不会真的只有我们吧。从这的布置上来看感觉是量产型……自动驾驶的类型么……",
+			say = "這艘船上不會真的只有我們吧。看起來像是量產型…自動駕駛的類型嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "唔……好无聊，好无聊，好无聊…………",
+			say = "唔……好無聊，好無聊，好無聊…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "……大家注意，通讯器又有反应了。",
+			say = "大家注意，通訊器又有反應了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "这里是{namecode:94}。针对AF的第一轮轰炸已经完成，效果非常出色。",
+			say = "這裡是飛龍。針對AF的第一輪轟炸已經完成，效果非常出色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "但，仍有部分重要目标未被摧毁，需要进行第二轮轰炸，申请批准。",
+			say = "但，仍有部分重要目標未被摧毀，需要進行第二輪轟炸，申請批准。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "通讯自动结束了……看来只是一次汇报联络而已。",
+			say = "通訊自動結束了…看來只是一次匯報聯絡而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "刚刚的通讯里提到针对AF的轰炸了吧？！可恶，之前的袭击居然真的是重樱舰队干的么！",
+			say = "剛剛的通訊裡提到針對AF的轟炸了吧？！可惡，之前的襲擊居然真的是重櫻艦隊幹的嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不对。我们被困是因为塞壬的机关，这片特殊空间也是塞壬生成的可能性很高。",
+			say = "不對。我們被困是因為塞壬的機關，這片特殊空間也是塞壬生成的可能性很高。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "指挥舰、通讯器中发来的重樱联络等，这一切应该都是塞壬故意设置的过去的记录。",
+			say = "指揮艦、通訊器中發來的重櫻聯絡等，這一切應該都是塞壬故意設置的過去的紀錄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "这么说……刚才的通讯就是曾经在AF作战期间的通讯记录咯？",
+			say = "紀錄片嗎…那剛才的通訊難道是曾經AF作戰期間的紀錄？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "可能性很高！而我们在这场塞壬的还原记录中正好位于当时重樱舰队的指挥舰上？",
+			say = "可能性很高！而我們在這場塞壬的還原紀錄中正好位於當時重櫻艦隊的指揮艦上？ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像一个能够深入其中，甚至发起互动的重樱视角AF纪录片一样……",
+			say = "不過一個不但能夠深入其中，甚至還能互動參與的重櫻視角AF紀錄片啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "这种体验真的太奇妙了~！指挥官你怎么看？",
+			say = "這種感覺倒是很新鮮~！指揮官你怎麼看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样的经历对于了解重樱的指挥系统会有很有帮助吧……",
+			say = "這樣的經歷對於了解重櫻的指揮系統很有幫助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "我有疑问！塞壬为什么会知道当时重樱舰队的指挥细节，甚至能做成这样完整的纪录呢？！",
+			say = "我有疑問！塞壬為什麼會知道當時重櫻艦隊的指揮細節，甚至能做成這樣完整的紀錄呢？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,11 +468,11 @@ return {
 			},
 			options = {
 				{
-					content = "重樱和塞壬关系非凡……",
+					content = "重櫻和塞壬關係非凡…",
 					flag = 1
 				},
 				{
-					content = "塞壬的情报工作出色……",
+					content = "塞壬的情報工作出色…",
 					flag = 2
 				}
 			}
@@ -483,7 +483,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "重樱与塞壬之间一直都有某种说不上来的默契。在AF作战后期，遭受打击的重樱舰队也是因为反常的塞壬进攻而得以成功撤退。",
+			say = "它們一直以來的行動都有某種說不上來的默契。在AF作戰後期，遭受打擊的重櫻艦隊也是因為反常的塞壬進攻而得以成功撤退。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "如果塞壬拥有当时重樱指挥系统的详细记录，只能说明塞壬在比我们想象的更早时间，以更深的程度介入了这场战争之中……",
+			say = "如果塞壬擁有當時重櫻指揮系統的詳細紀錄，只能說明塞壬在比我們想像的更早時間，以更深的程度介入了這場戰爭之中…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "塞壬毕竟也参与了那次作战，甚至派出了人型指挥者直接带领舰队进攻。",
+			say = "塞壬畢竟也參與了那次作戰，甚至派出了人型指揮者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "它们的电子设备很先进，想截获战场上的通讯联络并不困难。这里也许是以那些情报为基础进行的还原吧……",
+			say = "它們的電子設備很先進，想截獲戰場上的通訊聯絡並不困難。這裡也許是以那些情報為基礎進行的還原吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……然后，塞壬现在选择将这些情报泄露给我们。",
+			say = "原來如此…然後，塞壬現在選擇將這些情報洩露給我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "它们应该很清楚我们和重樱之间的关系吧？",
+			say = "它們應該很清楚我們和重櫻之間的關係吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "真是搞不清楚塞壬和重樱之间究竟是关系好还是关系差了……",
+			say = "真是搞不清楚塞壬和重櫻之間究竟是關係好還是關係差了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果现在呈现的确实是AF作战的记录的话……原来如此，当时是因为侦察机故障所以没能发现约克城的伏击舰队么，真是好险。",
+			say = "如果現在呈現的確實是AF作戰的紀錄的話…原來如此，當時是因為偵察機故障所以沒能發現約克鎮的伏擊艦隊嗎，真是好險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "额……指挥官……？你在自言自语说什么呢？",
+			say = "呃…指揮官…？你在自言自語說什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……针对AF的第一轮轰炸结束，约克城的反击已经在路上了。重樱舰队此时缺乏侦察，继续进行第二轮轰炸并不是明智的选择……",
+			say = "…針對AF的第一輪轟炸結束，約克鎮的反擊已經在路上了。重櫻艦隊此時缺乏偵察，繼續進行第二輪轟炸並不是明智的選擇…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……不能让缺乏保护的航空舰队做这样的冒险。现在应该做的不是对岛轰炸，而是首先确认对手的位置，只有确保了安全——————",
+			say = "…不能讓缺乏保護的航空艦隊做這樣的冒險。現在應該做的不是對島轟炸，而是首先確認對手的位置，只有確保了安全——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "锵锵锵！指——挥——官————！",
+			say = "鏘鏘鏘！指——揮——官————！",
 			effects = {
 				{
 					active = true,
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "真是的，一不留神你就进入状态了……",
+			say = "真是的，一不留神你就進入狀態了…",
 			effects = {
 				{
 					active = true,
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "我们现在是在重樱的指挥舰上吧，这种场合下你认真个什么劲啊！",
+			say = "我們現在是在重櫻的指揮艦上吧，這種場合下你認真個什麼勁啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "指挥官，又有新的汇报通讯来了，对方依旧在请求轰炸的许可……",
+			say = "指揮官，又有新的匯報通訊來了，對方依舊在請求轟炸的許可…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "嘿嘿嘿~机会难得，这时候就牺牲一下指挥官的英明决断嘛~",
+			say = "嘿嘿嘿~機會難得，這時候就犧牲一下指揮官的英明決斷吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "海伦娜，回复她们，许可进行第二轮轰炸，立刻执行~！",
+			say = "海倫娜，回復她們，許可進行第二輪轟炸，立刻執行~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

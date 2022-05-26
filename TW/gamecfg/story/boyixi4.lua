@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"香醇的提拉米苏\n\n<size=45>四  信心动摇？</size>",
+					"香醇的提拉米蘇\n\n<size=45>四  信心動搖？</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天的工作看起来还算轻松……一口气解决掉吧。",
+			say = "今天的工作看起來還算輕鬆……一口氣解決掉吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:197}今天的心情好像很不错。",
+			say = "{namecode:197}今天的心情好像很不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "指挥官需要上一次演习的报告吗？我这就拿过来……",
+			say = "指揮官需要上一次演習的報告嗎？我這就拿過來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "（指挥官果然完全不在意面具的事情……很好。）",
+			say = "（指揮官果然完全不在意麵具的事情……很好。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "（这样下去的话，和路易斯的赌约就能赢下来了……）",
+			say = "（這樣下去的話，和路易斯的賭約就能贏下來了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "指挥官！我来给你送文件了！",
+			say = "指揮官！我來給你送文件來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "指挥官——哇啊啊啊！敌……原来是{namecode:197}啊……",
+			say = "指揮官——哇啊啊啊！敵……原來是{namecode:197}啊……",
 			action = {
 				{
 					type = "shake",
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "唔……是我的面具吓到你了么？",
+			say = "唔……是我的面具嚇到妳了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "库、库珀才不会被区区面具吓到呢！我还有事，先走啦！",
+			say = "庫、庫珀才不會被區區面具嚇到呢！我還有事，先走啦！",
 			action = {
 				{
 					type = "shake",
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "把文件放在了办公桌后，库珀迅速离开了指挥室。",
+			say = "把文件放在了辦公桌後，庫珀迅速離開了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然是被吓到了吧……唔，这样下去会影响到指挥官工作的……",
+			say = "果然是被嚇到了吧……唔，這樣下去會影響到指揮官工作的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "谢谢指挥官……现在还是工作时间，{namecode:197}会努力履行好秘书舰的职责的……",
+			say = "謝謝指揮官……現在還是工作時間，{namecode:197}會努力履行好秘書艦的職責的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "稍作休整，{namecode:197}迅速恢复到了之前的工作状态。",
+			say = "稍作休整，{namecode:197}迅速恢復到了之前的工作狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "指挥官，我从资料室过来找你啦！嘿！",
+			say = "指揮官，我從資料室過來找你啦！嘿！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "呜哇！这是什么！",
+			say = "嗚哇！這是什麼！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "是面具……抱歉，吓到你了么？",
+			say = "是面具……抱歉，嚇到你了麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "没、没事！只是稍微吃惊了一下而已！指挥官！快在回执上打勾啦！",
+			say = "沒、沒事！只是稍微吃驚了一下而已！指揮官！快在回執上打勾啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "指挥官再见！有空再来找你！",
+			say = "指揮官再見！有空再來找你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "西南风展开双手跑出了指挥室。",
+			say = "西南風展開雙手跑出了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "……果然还是影响到大家了……",
+			say = "……果然還是影響到大家了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在西南风离开了指挥室后，{namecode:197}整理文件的速度明显慢了下来。",
+			say = "在西南風離開了指揮室後，{namecode:197}整理文件的速度明顯慢了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "戴上面具的话会吓到大家，但是不戴的话……",
+			say = "戴上面具的話會嚇到大家，但是不戴的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:197}的情绪好像有些变化，果然是在在意面具的事。",
+			say = "{namecode:197}的情緒好像有些變化，果然是在在意麵具的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			},
 			options = {
 				{
-					content = "提议明天一起去散心",
+					content = "提議明天一起去散心",
 					flag = 1
 				}
 			}
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢谢指挥官……其实不用为我特意安排的。",
+			say = "謝謝指揮官……其實不用為我特意安排的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "哎？原来是指挥官想让我陪你出去散心的意思吗……{namecode:197}明白了。",
+			say = "哎？原來是指揮官想讓我陪你出去散心的意思嗎……{namecode:197}明白了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "（还好…指挥官没有提到摘掉面具的事情……）",
+			say = "（還好…指揮官沒有提到摘掉面具的事情……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "既然如此执着的带着面具，一定有{namecode:197}自己的道理。",
+			say = "既然如此執著的帶著面具，一定有{namecode:197}自己的道理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "不过如果……她能够摘下面具的话……会是一副怎样的景象呢？",
+			say = "不過如果……她能夠摘下面具的話……會是一副怎樣的景象呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

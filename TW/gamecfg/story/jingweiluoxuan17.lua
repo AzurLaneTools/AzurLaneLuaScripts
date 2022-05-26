@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "AF西南方海域 海雾中",
+			say = "AF西南方海域 海霧中",
 			side = 2,
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101470,
-			say = "是这个方向……吧？……但是雷达上，没有信号呢…………",
+			say = "是這個方向…吧？…但是雷達上，沒有訊號呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "雷达也没有被干扰的迹象，棋子不可能躲过我们的搜索才对……",
+			say = "雷達也沒有被干擾的跡象，棋子不可能躲過我們的搜索才對…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "方向不对么，还是需要再接近一些……",
+			say = "方向不對嗎，還是需要再接近一些…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101470,
-			say = "小熊，继续搜索频道信息……",
+			say = "小熊，繼續搜索頻道訊息…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "你说，如果真的找到了一支没有敌意的棋子舰队，我们应该怎么办……？",
+			say = "妳說，如果真的找到了一支沒有敵意的棋子艦隊，我們應該怎麼辦…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101470,
-			say = "不知道呢……这种事情从来都没有发生过。应该……先向{namecode:199}汇报，然后等她的命令吧……",
+			say = "不知道呢…從來沒發生過這種事。應該…先向紐澤西匯報，然後等她的命令吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101470,
-			say = "等等……！雷达上刚刚是不是闪过一个红点？",
+			say = "等等…！雷達上剛剛是不是閃過一個紅點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居……居然真的有其他人……！",
+			say = "居……居然真的有其他人……！ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "哈、哈曼，你怎么会在这里？！",
+			say = "哈、哈曼，妳怎麼會在這裡？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "喂，别跑啊，哈曼？！",
+			say = "喂，別跑啊，哈曼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我们追！",
+			say = "…我們追！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,27 +271,27 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「亦或因循守旧，亦或随波逐流」</size>",
+					"<size=51>「亦或因循守舊，亦或隨波逐流」</size>",
 					1
 				},
 				{
-					"<size=51>「两条联系千丝万缕，却绝不交汇的螺旋线」</size>",
+					"「兩條聯繫千絲萬縷，卻絕不交彙的螺旋線」",
 					3
 				},
 				{
-					"<size=51>「纵使如此」</size> ",
+					"<size=51>「縱使如此」</size> ",
 					5
 				},
 				{
-					"<size=51>「倘若撕裂镜面，扭曲轨迹，结果将会如何？」</size>",
+					"「倘若撕裂鏡面，扭曲軌跡，結果將會如何？」",
 					7
 				},
 				{
-					"<size=51>「现行系统无力之事，索性将其更换如何？」</size>",
+					"「現行系統無力之事，索性將其更換如何？」",
 					9
 				},
 				{
-					"<size=51>「游戏规则，该升级了哦」</size>",
+					"<size=51>「遊戲規則，該升級了哦」</size>",
 					12
 				}
 			}

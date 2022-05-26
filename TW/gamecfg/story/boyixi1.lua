@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"香醇的提拉米苏\n\n<size=45>一  美人鱼？</size>",
+					"香醇的提拉米蘇\n\n<size=45>一  美人魚？</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "夜晚时分，为了缓解工作上的疲劳而来到了海边。",
+			say = "夜晚時分，為了緩解工作上的疲勞而來到了海邊。",
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "望着夜色中静静涌动着的大海…感觉心情平和了许多。",
+			say = "望著夜色中靜靜湧動著的大海…感覺心情平和了許多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呼吸着微咸的海风，突然发现海面上有了些异样的动静，似乎有什么正在…靠近？",
+			say = "呼吸著微鹹的海風，突然發現海面上有了些異樣的動靜，似乎有什麼正在…靠近？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			dir = 1,
-			say = "蓝色的身影从海面上浮现出来，随后在岸边的海水中留下了几道波纹，看起来柔软却又蕴含着活力。",
+			say = "藍色的身影從海面上浮現出來，隨後在岸邊的海水中留下了幾道波紋，看起來柔軟卻又蘊含著活力。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……美人鱼？",
+			say = "……美人魚？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "呼…哈……夜潜还是得稍微计算一下时间……",
+			say = "呼…哈……夜潛還是得稍微計算一下時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "指、指挥官！？为什么会在这里…",
+			say = "指、指揮官！？為什麼會在這裡…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "从水面之下浮现，随后出现在眼前的，是{namecode:197}。",
+			say = "從水面之下浮現，隨後出現在眼前的，是{namecode:197}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "松了口气…还以为是被不明人员潜入了呢…",
+			say = "鬆了口氣…還以為是被不明人員潛入了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果知道指挥官在的话，出水的时候就小心一点了…",
+			say = "如果知道指揮官在的話，出水的時候就小心一點了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……一下子不知道该与{namecode:197}说些什么，现场突然陷入了谜样的沉默——",
+			say = "……一下子不知道該與{namecode:197}說些什麼，現場突然陷入了謎樣的沉默——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "指挥官……这样一直盯着我看的话，我会有点紧张……",
+			say = "指揮官……這樣一直盯著我看的話，我會有點緊張……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯…还是暂时收敛一下视线吧……",
+			say = "嗯…還是暫時收斂一下視線吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "如、如果没什么事情的话……",
+			say = "如、如果沒什麼事情的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还没来得及好好交谈一番，{namecode:197}的身影就已经越行越远……",
+			say = "還沒來得及好好交談一番，{namecode:197}的身影就已經越行越遠……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在从海边回到指挥室的路上，一直都在想着{namecode:197}的事情。",
+			say = "在從海邊回到指揮室的路上，一直都在想著{namecode:197}的事情。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "白鹰的布鲁克林级轻巡洋舰{namecode:197}，好像她就是之后的秘书舰轮换人选啊……",
+			say = "白鷹的布魯克林級輕巡洋艦{namecode:197}，好像她就是之後的秘書艦輪換人選啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

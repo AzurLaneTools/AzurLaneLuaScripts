@@ -12,7 +12,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "轰————————！",
+			say = "轟———————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "敌、敌袭？！多谢……",
+			say = "敵、敵襲？！多謝…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也吓了一跳……有设定小熊的自动反击功能真是太好……",
+			say = "我也嚇了一跳…有設定小熊的自動反擊功能真是太好…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总感觉小熊是不是比之前变得更厉害了……",
+			say = "總感覺小熊是不是比之前變得更厲害了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶……我也有一直在做升级嘛。",
+			say = "欸…我也有一直在做升級嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 102290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "小心，更多的敌机来了。",
+			say = "小心，更多的敵機來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些……好像真的是重樱的飞机？到底是怎么在这么短的时间里跑过来的……",
+			say = "那些…好像真的是重櫻的飛機？到底是怎麼在這麼短的時間裡跑過來的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "已向主力舰队发出了增援请求……这里就先靠我们先应付一下吧……！",
+			say = "已向主力艦隊發出了增援請求…這裡就先靠我們先應付一下吧…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

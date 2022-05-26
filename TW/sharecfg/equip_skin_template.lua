@@ -8648,6 +8648,543 @@ pg.equip_skin_template = {
 			24000
 		}
 	},
+	[400] = {
+		name = "甜甜圈子彈",
+		bullet_name = "zidan_tiantianquan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "高熱量、高能量！",
+		themeid = 26,
+		id = 400,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92911",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[401] = {
+		name = "棉花糖子彈",
+		bullet_name = "zidan_mianhuatang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "兒時的甘甜味道~",
+		themeid = 26,
+		id = 401,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92912",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[402] = {
+		name = "奶茶子彈",
+		bullet_name = "zidan_naicha",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "珍珠越嚼越好吃~",
+		themeid = 26,
+		id = 402,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92913",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[403] = {
+		name = "旋轉茶杯炮彈",
+		bullet_name = "paodan_xuanzhuanchabei",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "要要要暈啦~~",
+		themeid = 26,
+		id = 403,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92914",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[404] = {
+		name = "小熊衛兵炮彈",
+		bullet_name = "paodan_xiaoxiongweibing",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "稍息，立正，出擊~",
+		themeid = 26,
+		id = 404,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92915",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[405] = {
+		name = "氣球炮彈",
+		bullet_name = "paodan_qiqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "易爆品，要注意~",
+		themeid = 26,
+		id = 405,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92916",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[406] = {
+		name = "章魚魚雷",
+		bullet_name = "yulei_zhangyu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "感受章魚的憤怒吧！",
+		themeid = 26,
+		id = 406,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92921",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[407] = {
+		name = "激流勇進魚雷",
+		bullet_name = "yulei_jiliuyongjin",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "一、二、三…衝呀~",
+		themeid = 26,
+		id = 407,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92922",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[408] = {
+		name = "煙火魚雷 ",
+		bullet_name = "yulei_yanhua",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "來欣賞美妙的煙火秀吧~",
+		themeid = 26,
+		id = 408,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92923",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[409] = {
+		name = "飛天獨角獸(魚雷)",
+		bullet_name = "feiji_feitiandujiaoshou",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "只有純潔之人才能騎上獨角獸…啾？",
+		themeid = 26,
+		id = 409,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92931",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_zhangyu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[410] = {
+		name = "飛天獨角獸(戰鬥)",
+		bullet_name = "feiji_feitiandujiaoshou",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "只有純潔之人才能騎上獨角獸…啾？",
+		themeid = 26,
+		id = 410,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_tiantianquan",
+		orbit_ui = "",
+		icon = "92931",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[411] = {
+		name = "飛天獨角獸(轟炸)",
+		bullet_name = "feiji_feitiandujiaoshou",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "只有純潔之人才能騎上獨角獸…啾？",
+		themeid = 26,
+		id = 411,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_tiantianquan",
+		orbit_ui = "",
+		icon = "92931",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[412] = {
+		name = "飛天馬車(魚雷)",
+		bullet_name = "feiji_feitianmache",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "坐在童話車裡的不是公主，是我啾啾噠！",
+		themeid = 26,
+		id = 412,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92932",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_jiliuyongjin",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[413] = {
+		name = "飛天馬車(戰鬥)",
+		bullet_name = "feiji_feitianmache",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "坐在童話車裡的不是公主，是我啾啾噠！",
+		themeid = 26,
+		id = 413,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_mianhuatang",
+		orbit_ui = "",
+		icon = "92932",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[414] = {
+		name = "飛天馬車(轟炸)",
+		bullet_name = "feiji_feitianmache",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "坐在童話車裡的不是公主，是我啾啾噠！",
+		themeid = 26,
+		id = 414,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_mianhuatang",
+		orbit_ui = "",
+		icon = "92932",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[415] = {
+		name = "飛天海盜船(魚雷)",
+		bullet_name = "feiji_feitianhaidaochuan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "看我專業的駕船技巧啾！",
+		themeid = 26,
+		id = 415,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "92933",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_yanhua",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[416] = {
+		name = "飛天海盜船(戰鬥)",
+		bullet_name = "feiji_feitianhaidaochuan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "看我專業的駕船技巧啾！",
+		themeid = 26,
+		id = 416,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_naicha",
+		orbit_ui = "",
+		icon = "92933",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[417] = {
+		name = "飛天海盜船(轟炸)",
+		bullet_name = "feiji_feitianhaidaochuan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "看我專業的駕船技巧啾！",
+		themeid = 26,
+		id = 417,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_naicha",
+		orbit_ui = "",
+		icon = "92933",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[420] = {
 		name = "髮帶炮彈",
 		bullet_name = "zidan_fadai",
@@ -9722,6 +10259,294 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[2001] = {
+		name = "流星魚雷",
+		bullet_name = "yulei_fanxing",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "快許個願啾！",
+		themeid = 101,
+		id = 2001,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96121",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2002] = {
+		name = "彗星炮彈",
+		bullet_name = "paodan_huixing",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "每一次的邂逅都值得期待啾！",
+		themeid = 101,
+		id = 2002,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96111",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2003] = {
+		name = "進擊啾啾之星",
+		bullet_name = "zidan_xingqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "感受行星級的衝擊啾！",
+		themeid = 101,
+		id = 2003,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96112",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2004] = {
+		name = "環繞啾啾之星",
+		bullet_name = "",
+		desc = "體驗群星環繞的感覺啾！",
+		type = 1,
+		themeid = 101,
+		id = 2004,
+		orbit_combat = "shebei_xingqiu",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_xingqiuui",
+		icon = "96151",
+		mirror = 0,
+		rarity = 4,
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				-1.65,
+				0.2
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				-103
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2005] = {
+		name = "模擬月球",
+		bullet_name = "",
+		desc = "月有陰晴圓缺~",
+		type = 1,
+		themeid = 101,
+		id = 2005,
+		orbit_combat = "shebei_yuexiang",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_yuexiangui",
+		icon = "96152",
+		mirror = 0,
+		rarity = 4,
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				-0.11,
+				-0.69
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-7,
+				-114
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2006] = {
+		name = "炮彈:雙星系統",
+		bullet_name = "paodan_shuangxingpaodan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "你繞著我，我繞著你~",
+		themeid = 101,
+		id = 2006,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96113",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2007] = {
+		name = "星雲蝶翼",
+		bullet_name = "",
+		desc = "乘著星光，穿梭浩瀚宇宙！",
+		type = 1,
+		themeid = 101,
+		id = 2007,
+		orbit_combat = "shebei_xingyunzhiyi",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_xingyunzhiyiui",
+		icon = "96153",
+		mirror = 0,
+		rarity = 4,
+		derivate_bullet = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.22,
+				-0.32,
+				-1.01
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				-103
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2008] = {
+		name = "魚雷:斥候星",
+		bullet_name = "yulei_aomomo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "是奇特的星體，還是未知的飛船？！",
+		themeid = 101,
+		id = 2008,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96122",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
 	all = {
 		1,
 		2,
@@ -10013,6 +10838,24 @@ pg.equip_skin_template = {
 		396,
 		397,
 		398,
+		400,
+		401,
+		402,
+		403,
+		404,
+		405,
+		406,
+		407,
+		408,
+		409,
+		410,
+		411,
+		412,
+		413,
+		414,
+		415,
+		416,
+		417,
 		420,
 		421,
 		422,
@@ -10048,6 +10891,14 @@ pg.equip_skin_template = {
 		494,
 		495,
 		496,
-		497
+		497,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008
 	}
 }

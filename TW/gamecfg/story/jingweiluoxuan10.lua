@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "埃塞克斯级航空母舰{namecode:194}前来参战，大家久等了~",
+			say = "艾塞克斯級航空母艦提康德羅加前來參戰，大家久等了~",
 			bgm = "hunhe-battle",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 102290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "得……得救了。",
+			say = "得…得救了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还以为要交代这里了……",
+			say = "還以為要交代在這裡了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 107140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有这么夸张么？我觉得战斗起来很轻松哦，你们也打下来不少吧？",
+			say = "有這麼誇張嗎？我覺得戰鬥起來很輕鬆哦，妳們也打下來不少吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦、说……说起来好像是这样，这些飞机虽然声势很大，战斗力好弱……",
+			say = "咦、說…說起來好像是這樣，這些飛機雖然聲勢很大，戰鬥力好弱…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的哎……我还有小熊都没受伤……？！",
+			say = "真的哎…我還有小熊都沒受傷…？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，看到满天的重樱飞机，心里不自觉就慌乱起来了…………",
+			say = "抱歉，看到滿天的重櫻飛機，心裡不自覺就慌亂起來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 107140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果是真正的重樱航母在操纵的话，这么大规模的机群确实能带来极其恐怖的破坏力。",
+			say = "如果是真正的重櫻航母在操縱的話，這麼大規模的機群確實能帶來極其恐怖的破壞力呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过从刚才的战斗强度上来看，充其量也就是略强一点的棋子水平哦。",
+			say = "不過從剛才的戰鬥強度上來看，充其量也就是略強一點的棋子水準哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是，真正的重樱舰队果然不可能来的这么快……",
+			say = "說的也是，真正的重櫻艦隊果然不可能來的這麼快…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了！既然只是塞壬的棋子舰队的话，我们赶紧解决剩下的敌人吧……！",
+			say = "太好了！既然只是塞壬的棋子艦隊的話，我們趕緊解決剩下的敵人吧…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "等等，不要全部消灭敌人。",
+			say = "等等，不要全部消滅敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 102290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？为什么……",
+			say = "欸？為什麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些棋子舰队的作战模式及其单纯。你们看，投弹完毕的舰载机已经准备返航了。",
+			say = "棋子艦隊的作戰模式單一。妳們看，投彈完畢的艦載機已經準備返航了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "既然有舰载机的话，那就一定有一支棋子航空舰队在前方等着我们吧~",
+			say = "既然有艦載機的話，那就一定有一支棋子航空艦隊在前方等著我們吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 107140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，你想利用它们锁定敌方舰队的位置么？",
+			say = "原來如此，妳想利用它們鎖定敵方艦隊的位置嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错！很方便吧~",
+			say = "沒錯！很方便吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

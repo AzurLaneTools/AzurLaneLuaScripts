@@ -454,7 +454,7 @@ pg.strategy_data_template = {
 	},
 	[8874] = {
 		buff_id = 8874,
-		name = "記錄修正-AF ",
+		name = "記錄修正-AF",
 		type = 10,
 		iconSize = "",
 		id = 8874,

@@ -719,7 +719,10 @@ temp()
 function temp()
 	uv0["莫"] = {
 		["里"] = {
-			this = true
+			this = true,
+			["森"] = {
+				this = true
+			}
 		},
 		["妮"] = {
 			["卡"] = {
@@ -1553,6 +1556,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["柴"] = {
+			["郡"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -1679,6 +1687,9 @@ function temp()
 			["蘭"] = {
 				this = true
 			}
+		},
+		["夕"] = {
+			this = true
 		}
 	}
 end
@@ -2140,7 +2151,12 @@ temp()
 function temp()
 	uv0["獨"] = {
 		["立"] = {
-			this = true
+			this = true,
+			["‧"] = {
+				["改"] = {
+					this = true
+				}
+			}
 		},
 		["角"] = {
 			["獸"] = {
@@ -2540,6 +2556,11 @@ function temp()
 			["堡"] = {
 				this = true
 			}
+		},
+		["澤"] = {
+			["西"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -2922,6 +2943,9 @@ temp()
 function temp()
 	uv0["可"] = {
 		["畏"] = {
+			this = true
+		},
+		["怖"] = {
 			this = true
 		}
 	}
@@ -3722,7 +3746,18 @@ temp()
 function temp()
 	uv0["隼"] = {
 		["鷹"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -4843,6 +4878,46 @@ function temp()
 	uv0["土"] = {
 		["佐"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["舊"] = {
+		["金"] = {
+			["山"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["提"] = {
+		["康"] = {
+			["德"] = {
+				["羅"] = {
+					["加"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["射"] = {
+		["水"] = {
+			["魚"] = {
+				this = true
+			}
 		}
 	}
 end

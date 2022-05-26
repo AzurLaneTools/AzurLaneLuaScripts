@@ -383,6 +383,20 @@ function slot0.readyToAchieve(slot0)
 			elseif slot0.data1 ~= 0 and slot0.data2 == 0 then
 				return true
 			end
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_TASK_POOL then
+			slot5 = getProxy(TaskProxy)
+
+			if slot0.data1 >= #slot0:getConfig("config_data") then
+				return false
+			end
+
+			if pg.TimeMgr.GetInstance():DiffDay(slot0:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1 > #slot4 then
+				slot6 = #slot4 or slot6
+			end
+
+			return slot6 - slot0.data1 > 0 and _.any(slot4, function (slot0)
+				return uv0:getTaskById(slot0) and slot1:isFinish()
+			end)
 		end
 	end
 end

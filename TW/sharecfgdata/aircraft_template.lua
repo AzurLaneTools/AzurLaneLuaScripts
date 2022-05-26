@@ -28806,6 +28806,190 @@ _G.pg.base.aircraft_template[64780] = {
 	}
 }
 
+_G.pg.base.aircraft_template[64931] = {
+	attack_power = 2,
+	name = "隼鹰META鱼雷机Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "97jiangong",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 64931,
+	icon = "97jiangong",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1051,
+	speed = 48,
+	max_hp = 27,
+	scale = 1,
+	weapon_ID = {
+		64941
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[64932] = {
+	id = 64932,
+	name = "隼鹰META鱼雷机Lv2",
+	hp_growth = 1178,
+	base = 64931,
+	max_hp = 30,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64942
+	}
+}
+
+_G.pg.base.aircraft_template[64933] = {
+	id = 64933,
+	name = "隼鹰META鱼雷机Lv3",
+	hp_growth = 1305,
+	base = 64931,
+	max_hp = 33,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64943
+	}
+}
+
+_G.pg.base.aircraft_template[64934] = {
+	id = 64934,
+	name = "隼鹰META鱼雷机Lv4",
+	hp_growth = 1432,
+	base = 64931,
+	max_hp = 37,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64944
+	}
+}
+
+_G.pg.base.aircraft_template[64935] = {
+	id = 64935,
+	name = "隼鹰META鱼雷机Lv5",
+	hp_growth = 1559,
+	base = 64931,
+	max_hp = 40,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64945
+	}
+}
+
+_G.pg.base.aircraft_template[64936] = {
+	id = 64936,
+	name = "隼鹰META鱼雷机Lv6",
+	hp_growth = 1686,
+	base = 64931,
+	max_hp = 43,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64946
+	}
+}
+
+_G.pg.base.aircraft_template[64937] = {
+	id = 64937,
+	name = "隼鹰META鱼雷机Lv7",
+	hp_growth = 1813,
+	base = 64931,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64947
+	}
+}
+
+_G.pg.base.aircraft_template[64938] = {
+	id = 64938,
+	name = "隼鹰META鱼雷机Lv8",
+	hp_growth = 1940,
+	base = 64931,
+	max_hp = 50,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64948
+	}
+}
+
+_G.pg.base.aircraft_template[64939] = {
+	id = 64939,
+	name = "隼鹰META鱼雷机Lv9",
+	hp_growth = 2067,
+	base = 64931,
+	max_hp = 53,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64949
+	}
+}
+
+_G.pg.base.aircraft_template[64940] = {
+	id = 64940,
+	name = "隼鹰META鱼雷机Lv10",
+	hp_growth = 2195,
+	base = 64931,
+	max_hp = 57,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64950
+	}
+}
+
 _G.pg.base.aircraft_template[65061] = {
 	attack_power = 2,
 	name = "普林斯顿技能鱼雷机Lv1",
@@ -132649,6 +132833,1848 @@ _G.pg.base.aircraft_template[789003] = {
 		},
 		{
 			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[790102] = {
+	attack_power = 2,
+	name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用战斗机（自机狙）",
+	type = 1,
+	accuracy = 23,
+	model_ID = "haiduya",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 790102,
+	icon = "haiduya",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		790104
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[790103] = {
+	attack_power = 2,
+	name = "【2021美系活动A2】BOSS 苍龙&飞龙 通用轰炸机（高爆）",
+	type = 3,
+	accuracy = 23,
+	model_ID = "haiyan",
+	ACC_growth = 0,
+	crash_DMG = 74,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 790103,
+	icon = "haiyan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2580,
+	speed = 30,
+	max_hp = 104,
+	scale = 0.75,
+	weapon_ID = {
+		790105
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[790202] = {
+	attack_power = 2,
+	name = "【2021美系活动A3】BOSS 赤城&加贺 轰炸机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "haiduya",
+	ACC_growth = 0,
+	crash_DMG = 79,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 790202,
+	icon = "haiduya",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2580,
+	speed = 33,
+	max_hp = 118,
+	scale = 0.75,
+	weapon_ID = {
+		790204
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[790203] = {
+	attack_power = 2,
+	name = "【2021美系活动A3】BOSS 赤城&加贺 鱼雷机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "haiyan",
+	ACC_growth = 0,
+	crash_DMG = 71,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 790203,
+	icon = "haiyan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 30,
+	max_hp = 101,
+	scale = 0.75,
+	weapon_ID = {
+		790205
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[791101] = {
+	attack_power = 2,
+	name = "【2021美系活动B2】塞壬执棋者I型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 791101,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		791105
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[791102] = {
+	attack_power = 2,
+	name = "【2021美系活动B2】塞壬执棋者I型 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 791102,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		791106
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[791103] = {
+	attack_power = 2,
+	name = "【2021美系活动B2】塞壬执棋者I型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 791103,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 70,
+	max_hp = 98,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		791107
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[791104] = {
+	attack_power = 2,
+	name = "【2021美系活动B2】塞壬执棋者I型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 791104,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 70,
+	max_hp = 98,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		791108
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[791206] = {
+	attack_power = 2,
+	name = "【2021美系活动B3】BOSS 苍龙·META 二阶段 余烬飞机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "alter_plane3",
+	ACC_growth = 0,
+	crash_DMG = 90,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 791206,
+	icon = "alter_plane2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2680,
+	speed = 32,
+	max_hp = 110,
+	scale = 1,
+	weapon_ID = {
+		791207,
+		791208
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[791218] = {
+	attack_power = 2,
+	name = "【2021美系活动B3】BOSS 苍龙·META 一阶段 第四波 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "99shijianbao1",
+	ACC_growth = 0,
+	crash_DMG = 89,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 791218,
+	icon = "haiyan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2560,
+	speed = 30,
+	max_hp = 106,
+	scale = 0.75,
+	weapon_ID = {
+		791220
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[791219] = {
+	attack_power = 2,
+	name = "【2021美系活动B3】BOSS 苍龙·META 一阶段 第四波 战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "lingzhan21gai",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 791219,
+	icon = "haiduya",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		791221,
+		1100751
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[792102] = {
+	attack_power = 2,
+	name = "【2021美系活动C2】BOSS 苍龙&飞龙 通用战斗机（自机狙）",
+	type = 1,
+	accuracy = 23,
+	model_ID = "haiduya",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 792102,
+	icon = "haiduya",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2460,
+	speed = 33,
+	max_hp = 136,
+	scale = 0.75,
+	weapon_ID = {
+		792104
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[792103] = {
+	attack_power = 2,
+	name = "【2021美系活动C2】BOSS 苍龙&飞龙 通用轰炸机（高爆）",
+	type = 3,
+	accuracy = 23,
+	model_ID = "haiyan",
+	ACC_growth = 0,
+	crash_DMG = 114,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 792103,
+	icon = "haiyan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2880,
+	speed = 30,
+	max_hp = 154,
+	scale = 0.75,
+	weapon_ID = {
+		792105
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[792202] = {
+	attack_power = 2,
+	name = "【2021美系活动C3】BOSS 赤城&加贺 轰炸机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "haiduya",
+	ACC_growth = 0,
+	crash_DMG = 126,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 792202,
+	icon = "haiduya",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3060,
+	speed = 33,
+	max_hp = 162,
+	scale = 0.75,
+	weapon_ID = {
+		792204
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[792203] = {
+	attack_power = 2,
+	name = "【2021美系活动C3】BOSS 赤城&加贺 鱼雷机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "haiyan",
+	ACC_growth = 0,
+	crash_DMG = 114,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 792203,
+	icon = "haiyan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2880,
+	speed = 30,
+	max_hp = 154,
+	scale = 0.75,
+	weapon_ID = {
+		792205
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[793101] = {
+	attack_power = 2,
+	name = "【2021美系活动D2】塞壬执棋者I型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 160,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 793101,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3260,
+	speed = 30,
+	max_hp = 202,
+	scale = 0.75,
+	weapon_ID = {
+		793105
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[793102] = {
+	attack_power = 2,
+	name = "【2021美系活动D2】塞壬执棋者I型 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 124,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 793102,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3080,
+	speed = 33,
+	max_hp = 194,
+	scale = 0.75,
+	weapon_ID = {
+		793106
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[793103] = {
+	attack_power = 2,
+	name = "【2021美系活动D2】塞壬执棋者I型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 1,
+	nationality = 3,
+	id = 793103,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2960,
+	speed = 70,
+	max_hp = 180,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		793107
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[793104] = {
+	attack_power = 2,
+	name = "【2021美系活动D2】塞壬执棋者I型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 1,
+	nationality = 3,
+	id = 793104,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2960,
+	speed = 70,
+	max_hp = 180,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		793108
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[793206] = {
+	attack_power = 2,
+	name = "【2021美系活动D3】BOSS 苍龙·META 二阶段 余烬飞机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "alter_plane3",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 793206,
+	icon = "alter_plane2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 33,
+	max_hp = 292,
+	scale = 1,
+	weapon_ID = {
+		793207,
+		793208
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[793218] = {
+	attack_power = 2,
+	name = "【2021美系活动D3】BOSS 苍龙·META 一阶段 第四波 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "99shijianbao1",
+	ACC_growth = 0,
+	crash_DMG = 138,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 793218,
+	icon = "haiyan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3820,
+	speed = 30,
+	max_hp = 224,
+	scale = 0.75,
+	weapon_ID = {
+		793220
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[793219] = {
+	attack_power = 2,
+	name = "【2021美系活动D3】BOSS 苍龙·META 一阶段 第四波 战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "lingzhan21gai",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 793219,
+	icon = "haiduya",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3410,
+	speed = 33,
+	max_hp = 210,
+	scale = 0.75,
+	weapon_ID = {
+		793221,
+		1100753
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[794008] = {
+	attack_power = 2,
+	name = "【2021美系活动SP】BOSS 苍龙·META 第三波 飞机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "alter_plane3",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 794008,
+	icon = "alter_plane2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 33,
+	max_hp = 330,
+	scale = 1,
+	weapon_ID = {
+		794009,
+		794010
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[795004] = {
+	attack_power = 2,
+	name = "【2021美系活动EX】BOSS 苍龙·META 第三波 飞机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "alter_plane3",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 795004,
+	icon = "alter_plane2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 32,
+	max_hp = 1500,
+	scale = 1,
+	weapon_ID = {
+		795005,
+		795006
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
 			0,
 			0
 		},

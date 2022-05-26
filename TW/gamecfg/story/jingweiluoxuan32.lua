@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "数日后 白鹰某设施内",
+			say = "數日後 白鷹某設施內",
 			side = 2,
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "果然，没有猜错……除了余烬之外真的还有隶属于其他阵营的META的存在！",
+			say = "果然，沒有猜錯…除了餘燼之外真的還有隸屬於其他陣營的META的存在！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多谢你带来详细报告了~",
+			say = "多謝妳帶來詳細報告了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "余烬，至少META不是同伴……关于这一点的最初判断是正确的。",
+			say = "餘燼，至少META不是同伴…關於這一點的最初判斷是正確的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "{namecode:93}·META，或者更多的其他什么人可能早就在战斗中与我们交过手了……",
+			say = "蒼龍·META，或者更多的其他什麼人可能早就在戰鬥中與我們交過手了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "你认为列克星敦身上的伤也与这些事情有关么……？",
+			say = "妳認為列星頓身上的傷也與這些事情有關嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "继续接触META是有风险的。",
+			say = "繼續接觸META是有風險的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "META与我们相似，却又不完全相同。",
+			say = "META與我們相似，卻又不完全相同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "META彼此之间也差异巨大……作为一个阵营，余烬内部居然对于指挥官的态度都没能达成统一……",
+			say = "META彼此之間也差異巨大…作為一個陣營，餘燼內部居然對於指揮官的態度都沒能達成統一…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "北方联合也是，为了探寻自己无法破解的秘密，居然不惜让指挥官暴露在极度危险之中。",
+			say = "北方聯合也是，為了探尋自己無法破解的秘密，居然不惜讓指揮官暴露在極度危險之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "如果不是我们及时将指挥官接了回来，天知道北方联合还会继续做什么疯狂的事……",
+			say = "如果不是我們及時將指揮官接了回來，天知道北方聯合還會繼續做什麼瘋狂的事…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "真是的，所有人都在试图从指挥官身上的得到什么，但不是所有人都真正在乎指挥官这个人……",
+			say = "真是的，所有人都在試圖從指揮官的身上得到什麼，但不是所有人都真正在乎指揮官這個人…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "不论异常心智魔方适应性的来源如何，效果如何。",
+			say = "不論異常心智魔方適應性的來源如何，效果如何。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "仅凭指挥官亲身战斗在最前线保护着世界的安全这一点，就值得所有人发自内心的尊重了吧？",
+			say = "僅憑指揮官親身戰鬥在最前線保護著世界的安全這一點，就值得所有人發自內心的尊重了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "……不但是为了我自己，还是为了你，为了姐姐，为了指挥官，为了无数在这场战争中受到伤害的人……",
+			say = "…不但是為了我自己，還是為了妳，為了姐姐，為了指揮官，為了無數在這場戰爭中受到傷害的人…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "我们都必须要尽早查明塞壬所引发的一系列事件背后的真正原因才行。",
+			say = "我們都必須要儘早查明塞壬所引發的一系列事件背後的真正原因才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "我明白。而且……我已经得到大姐的支持了，接下来的调查会更加顺利的哦~",
+			say = "我明白。而且…我已經得到大姐的支持了，接下來的調查會更加順利的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的么？！太好了！",
+			say = "真的嗎？！太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼~既然如此……微光计划和审判者计划是么。听起来像是两个不错的调查切入点啊~",
+			say = "哼哼~微光計劃和審判者計劃是嗎…聽起來像是兩個不錯的調查切入點啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

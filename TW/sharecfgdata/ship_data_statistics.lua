@@ -17357,6 +17357,506 @@ _G.pg.base.ship_data_statistics[101444] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[101471] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莫里森",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 101470,
+	english_name = "USS Morrison",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 101471,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		341,
+		16,
+		54,
+		33,
+		0,
+		77,
+		0,
+		75,
+		59,
+		42,
+		48,
+		53
+	},
+	attrs_growth = {
+		9713,
+		216,
+		726,
+		724,
+		0,
+		534,
+		0,
+		1156,
+		1095,
+		0,
+		0,
+		599
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fletcher-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[101472] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莫里森",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 101470,
+	english_name = "USS Morrison",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 101472,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		424,
+		20,
+		67,
+		41,
+		0,
+		77,
+		0,
+		75,
+		59,
+		42,
+		48,
+		66
+	},
+	attrs_growth = {
+		9713,
+		216,
+		726,
+		724,
+		0,
+		534,
+		0,
+		1156,
+		1095,
+		0,
+		0,
+		599
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.17,
+		1.22,
+		1.22
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fletcher-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[101473] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莫里森",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 101470,
+	english_name = "USS Morrison",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 101473,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		590,
+		28,
+		94,
+		57,
+		0,
+		77,
+		0,
+		75,
+		59,
+		42,
+		48,
+		92
+	},
+	attrs_growth = {
+		9713,
+		216,
+		726,
+		724,
+		0,
+		534,
+		0,
+		1156,
+		1095,
+		0,
+		0,
+		599
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.25,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fletcher-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[101474] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莫里森",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 101470,
+	english_name = "USS Morrison",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 101474,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		840,
+		39,
+		134,
+		82,
+		0,
+		77,
+		0,
+		75,
+		59,
+		42,
+		48,
+		132
+	},
+	attrs_growth = {
+		9713,
+		216,
+		726,
+		724,
+		0,
+		534,
+		0,
+		1156,
+		1095,
+		0,
+		0,
+		599
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fletcher-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[102011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -30864,6 +31364,510 @@ _G.pg.base.ship_data_statistics[102284] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[102291] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "波夕",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 102290,
+	english_name = "USS Boise",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 102291,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		612,
+		31,
+		0,
+		62,
+		0,
+		69,
+		0,
+		56,
+		28,
+		32.5,
+		70,
+		24
+	},
+	attrs_growth = {
+		15563,
+		422,
+		0,
+		1310,
+		0,
+		482,
+		0,
+		828,
+		587,
+		0,
+		0,
+		295
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.65,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brooklyn-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[102292] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "波夕",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 102290,
+	english_name = "USS Boise",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 102292,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		761,
+		39,
+		0,
+		77,
+		0,
+		69,
+		0,
+		56,
+		28,
+		32.5,
+		70,
+		30
+	},
+	attrs_growth = {
+		15563,
+		422,
+		0,
+		1310,
+		0,
+		482,
+		0,
+		828,
+		587,
+		0,
+		0,
+		295
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.65,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brooklyn-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[102293] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "波夕",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 102290,
+	english_name = "USS Boise",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 102293,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1060,
+		54,
+		0,
+		107,
+		0,
+		69,
+		0,
+		56,
+		28,
+		32.5,
+		70,
+		42
+	},
+	attrs_growth = {
+		15563,
+		422,
+		0,
+		1310,
+		0,
+		482,
+		0,
+		828,
+		587,
+		0,
+		0,
+		295
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.65,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brooklyn-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[102294] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "波夕",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 102290,
+	english_name = "USS Boise",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 102294,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1508,
+		76,
+		0,
+		153,
+		0,
+		69,
+		0,
+		56,
+		28,
+		32.5,
+		70,
+		60
+	},
+	attrs_growth = {
+		15563,
+		422,
+		0,
+		1310,
+		0,
+		482,
+		0,
+		828,
+		587,
+		0,
+		0,
+		295
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.65,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brooklyn-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[103011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -36849,6 +37853,506 @@ _G.pg.base.ship_data_statistics[103134] = {
 	equipment_proficiency = {
 		1.25,
 		0.7,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Astoria-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[103141] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "舊金山",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 103140,
+	english_name = "USS San Francisco",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 103141,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		834,
+		47,
+		0,
+		42,
+		0,
+		66,
+		0,
+		45,
+		13,
+		26.16,
+		75,
+		0
+	},
+	attrs_growth = {
+		21034,
+		650,
+		0,
+		923,
+		0,
+		459,
+		0,
+		701,
+		436,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.7,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Astoria-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[103142] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "舊金山",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 103140,
+	english_name = "USS San Francisco",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 103142,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1038,
+		59,
+		0,
+		52,
+		0,
+		66,
+		0,
+		45,
+		13,
+		26.16,
+		75,
+		0
+	},
+	attrs_growth = {
+		21034,
+		650,
+		0,
+		923,
+		0,
+		459,
+		0,
+		701,
+		436,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		0.7,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Astoria-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[103143] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "舊金山",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 103140,
+	english_name = "USS San Francisco",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 103143,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1445,
+		82,
+		0,
+		73,
+		0,
+		66,
+		0,
+		45,
+		13,
+		26.16,
+		75,
+		0
+	},
+	attrs_growth = {
+		21034,
+		650,
+		0,
+		923,
+		0,
+		459,
+		0,
+		701,
+		436,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		0.7,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Astoria-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[103144] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "舊金山",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 103140,
+	english_name = "USS San Francisco",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 103144,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2055,
+		117,
+		0,
+		104,
+		0,
+		66,
+		0,
+		45,
+		13,
+		26.16,
+		75,
+		0
+	},
+	attrs_growth = {
+		21034,
+		650,
+		0,
+		923,
+		0,
+		459,
+		0,
+		701,
+		436,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		0.75,
 		1.25
 	},
 	strategy_list = {},
@@ -43877,6 +45381,510 @@ _G.pg.base.ship_data_statistics[105144] = {
 	tag_list = {
 		"South Dakota-Class",
 		"South Dakota"
+	}
+}
+
+_G.pg.base.ship_data_statistics[105171] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "紐澤西",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 105170,
+	english_name = "USS New Jersey",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 105171,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1594,
+		87,
+		0,
+		84,
+		0,
+		62,
+		0,
+		24,
+		9,
+		33,
+		72,
+		0
+	},
+	attrs_growth = {
+		42474,
+		1005,
+		0,
+		1662,
+		0,
+		434,
+		0,
+		389,
+		235,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2.1,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Iowa-Class",
+		"New Jersey"
+	}
+}
+
+_G.pg.base.ship_data_statistics[105172] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "紐澤西",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 105170,
+	english_name = "USS New Jersey",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 105172,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1983,
+		109,
+		0,
+		105,
+		0,
+		62,
+		0,
+		24,
+		9,
+		33,
+		72,
+		0
+	},
+	attrs_growth = {
+		42474,
+		1005,
+		0,
+		1662,
+		0,
+		434,
+		0,
+		389,
+		235,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		2.1,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Iowa-Class",
+		"New Jersey"
+	}
+}
+
+_G.pg.base.ship_data_statistics[105173] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "紐澤西",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 105170,
+	english_name = "USS New Jersey",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 105173,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2760,
+		152,
+		0,
+		146,
+		0,
+		62,
+		0,
+		24,
+		9,
+		33,
+		72,
+		0
+	},
+	attrs_growth = {
+		42474,
+		1005,
+		0,
+		1662,
+		0,
+		434,
+		0,
+		389,
+		235,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2.1,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Iowa-Class",
+		"New Jersey"
+	}
+}
+
+_G.pg.base.ship_data_statistics[105174] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "紐澤西",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 105170,
+	english_name = "USS New Jersey",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 105174,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3927,
+		217,
+		0,
+		208,
+		0,
+		62,
+		0,
+		24,
+		9,
+		33,
+		72,
+		0
+	},
+	attrs_growth = {
+		42474,
+		1005,
+		0,
+		1662,
+		0,
+		434,
+		0,
+		389,
+		235,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		2.1,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Iowa-Class",
+		"New Jersey"
 	}
 }
 
@@ -51344,6 +53352,506 @@ _G.pg.base.ship_data_statistics[107114] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[107141] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "提康德羅加",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107140,
+	english_name = "USS Ticonderoga",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107141,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1104,
+		0,
+		0,
+		63,
+		83,
+		48,
+		0,
+		30,
+		13,
+		33,
+		72,
+		0
+	},
+	attrs_growth = {
+		29646,
+		0,
+		0,
+		1329,
+		1015,
+		333,
+		0,
+		445,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.15,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107142] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "提康德羅加",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107140,
+	english_name = "USS Ticonderoga",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107142,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1373,
+		0,
+		0,
+		78,
+		103,
+		48,
+		0,
+		30,
+		13,
+		33,
+		72,
+		0
+	},
+	attrs_growth = {
+		29646,
+		0,
+		0,
+		1329,
+		1015,
+		333,
+		0,
+		445,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.28,
+		1.18,
+		1.08
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107143] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "提康德羅加",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107140,
+	english_name = "USS Ticonderoga",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107143,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1912,
+		0,
+		0,
+		109,
+		144,
+		48,
+		0,
+		30,
+		13,
+		33,
+		72,
+		0
+	},
+	attrs_growth = {
+		29646,
+		0,
+		0,
+		1329,
+		1015,
+		333,
+		0,
+		445,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.33,
+		1.23,
+		1.13
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107144] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "提康德羅加",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107140,
+	english_name = "USS Ticonderoga",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107144,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2720,
+		0,
+		0,
+		155,
+		206,
+		48,
+		0,
+		30,
+		13,
+		33,
+		72,
+		0
+	},
+	attrs_growth = {
+		29646,
+		0,
+		0,
+		1329,
+		1015,
+		333,
+		0,
+		445,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[107171] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -53841,6 +56349,131 @@ _G.pg.base.ship_data_statistics[107384] = {
 	},
 	tag_list = {
 		"Essex-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107984] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "獨立‧改",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 107220,
+	english_name = "USS Independence",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107984,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1970,
+		0,
+		0,
+		124,
+		144,
+		67,
+		0,
+		29,
+		21,
+		31,
+		78,
+		65
+	},
+	attrs_growth = {
+		21471,
+		0,
+		0,
+		1088,
+		769,
+		465,
+		0,
+		465,
+		483,
+		0,
+		0,
+		318
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		110,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		4,
+		4,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.45,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Independence-Class",
+		"Eagle Union-CVL"
 	}
 }
 
@@ -58093,6 +60726,958 @@ _G.pg.base.ship_data_statistics[108044] = {
 	},
 	tag_list = {
 		"Gato-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[108061] = {
+	raid_distance = 30,
+	oxy_max = 243,
+	name = "射水魚",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 108060,
+	english_name = "USS Archerfish",
+	attack_duration = 5,
+	star = 3,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 108061,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		310,
+		12,
+		102,
+		0,
+		0,
+		35,
+		0,
+		66,
+		9,
+		16,
+		90,
+		0
+	},
+	attrs_growth = {
+		8835,
+		170,
+		1225,
+		0,
+		0,
+		244,
+		0,
+		974,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.15,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				0,
+				3
+			},
+			{
+				3,
+				0
+			}
+		},
+		{
+			{
+				-1,
+				-3
+			},
+			{
+				1,
+				-3
+			}
+		}
+	},
+	tag_list = {
+		"Balao-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[108062] = {
+	raid_distance = 30,
+	oxy_max = 243,
+	name = "射水魚",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 108060,
+	english_name = "USS Archerfish",
+	attack_duration = 5,
+	star = 4,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 108062,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		386,
+		15,
+		127,
+		0,
+		0,
+		35,
+		0,
+		66,
+		9,
+		16,
+		90,
+		0
+	},
+	attrs_growth = {
+		8835,
+		170,
+		1225,
+		0,
+		0,
+		244,
+		0,
+		974,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				0,
+				3
+			},
+			{
+				3,
+				0
+			}
+		},
+		{
+			{
+				-1,
+				-3
+			},
+			{
+				1,
+				-3
+			}
+		}
+	},
+	tag_list = {
+		"Balao-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[108063] = {
+	raid_distance = 30,
+	oxy_max = 243,
+	name = "射水魚",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 108060,
+	english_name = "USS Archerfish",
+	attack_duration = 5,
+	star = 5,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 108063,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		537,
+		21,
+		178,
+		0,
+		0,
+		35,
+		0,
+		66,
+		9,
+		16,
+		90,
+		0
+	},
+	attrs_growth = {
+		8835,
+		170,
+		1225,
+		0,
+		0,
+		244,
+		0,
+		974,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				0,
+				3
+			},
+			{
+				3,
+				0
+			}
+		},
+		{
+			{
+				-1,
+				-3
+			},
+			{
+				1,
+				-3
+			}
+		}
+	},
+	tag_list = {
+		"Balao-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[108064] = {
+	raid_distance = 30,
+	oxy_max = 243,
+	name = "射水魚",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 108060,
+	english_name = "USS Archerfish",
+	attack_duration = 5,
+	star = 6,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 108064,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		764,
+		30,
+		254,
+		0,
+		0,
+		35,
+		0,
+		66,
+		9,
+		16,
+		90,
+		0
+	},
+	attrs_growth = {
+		8835,
+		170,
+		1225,
+		0,
+		0,
+		244,
+		0,
+		974,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				0,
+				3
+			},
+			{
+				3,
+				0
+			}
+		},
+		{
+			{
+				-1,
+				-3
+			},
+			{
+				1,
+				-3
+			}
+		}
+	},
+	tag_list = {
+		"Balao-Class"
 	}
 }
 
@@ -88262,6 +91847,514 @@ _G.pg.base.ship_data_statistics[203094] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[203101] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小柴郡",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 203100,
+	english_name = "HMS Cheshire",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.4",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 203101,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		753,
+		46,
+		36,
+		76,
+		0,
+		52,
+		0,
+		41,
+		6,
+		27.2,
+		0,
+		0
+	},
+	attrs_growth = {
+		19446,
+		636,
+		498,
+		1562,
+		0,
+		363,
+		0,
+		643,
+		457,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		311
+	},
+	default_equip_list = {
+		102,
+		107,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.45,
+		1.4,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[203102] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小柴郡",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 203100,
+	english_name = "HMS Cheshire",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.4",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 203102,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		937,
+		57,
+		45,
+		95,
+		0,
+		52,
+		0,
+		41,
+		6,
+		27.2,
+		0,
+		0
+	},
+	attrs_growth = {
+		19446,
+		636,
+		498,
+		1562,
+		0,
+		363,
+		0,
+		643,
+		457,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		312
+	},
+	default_equip_list = {
+		102,
+		107,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.45,
+		1.4,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[203103] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小柴郡",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 203100,
+	english_name = "HMS Cheshire",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.4",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 203103,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1304,
+		80,
+		63,
+		132,
+		0,
+		52,
+		0,
+		41,
+		6,
+		27.2,
+		0,
+		0
+	},
+	attrs_growth = {
+		19446,
+		636,
+		498,
+		1562,
+		0,
+		363,
+		0,
+		643,
+		457,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		313
+	},
+	default_equip_list = {
+		102,
+		107,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.45,
+		1.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[203104] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小柴郡",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 203100,
+	english_name = "HMS Cheshire",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.4",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 203104,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1855,
+		114,
+		89,
+		187,
+		0,
+		52,
+		0,
+		41,
+		6,
+		27.2,
+		0,
+		0
+	},
+	attrs_growth = {
+		19446,
+		636,
+		498,
+		1562,
+		0,
+		363,
+		0,
+		643,
+		457,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		314
+	},
+	default_equip_list = {
+		102,
+		107,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.5,
+		1.55,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special"
+	}
+}
+
 _G.pg.base.ship_data_statistics[204011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -88883,7 +92976,8 @@ _G.pg.base.ship_data_statistics[204021] = {
 		{}
 	},
 	tag_list = {
-		"Renown-Class"
+		"Renown-Class",
+		"bunao"
 	}
 }
 
@@ -89008,7 +93102,8 @@ _G.pg.base.ship_data_statistics[204022] = {
 		{}
 	},
 	tag_list = {
-		"Renown-Class"
+		"Renown-Class",
+		"bunao"
 	}
 }
 
@@ -89133,7 +93228,8 @@ _G.pg.base.ship_data_statistics[204023] = {
 		{}
 	},
 	tag_list = {
-		"Renown-Class"
+		"Renown-Class",
+		"bunao"
 	}
 }
 
@@ -89258,7 +93354,8 @@ _G.pg.base.ship_data_statistics[204024] = {
 		{}
 	},
 	tag_list = {
-		"Renown-Class"
+		"Renown-Class",
+		"bunao"
 	}
 }
 
@@ -93015,7 +97112,8 @@ _G.pg.base.ship_data_statistics[205061] = {
 		{}
 	},
 	tag_list = {
-		"KGV-Class"
+		"KGV-Class",
+		"bunao"
 	}
 }
 
@@ -93140,7 +97238,8 @@ _G.pg.base.ship_data_statistics[205062] = {
 		{}
 	},
 	tag_list = {
-		"KGV-Class"
+		"KGV-Class",
+		"bunao"
 	}
 }
 
@@ -93265,7 +97364,8 @@ _G.pg.base.ship_data_statistics[205063] = {
 		{}
 	},
 	tag_list = {
-		"KGV-Class"
+		"KGV-Class",
+		"bunao"
 	}
 }
 
@@ -93390,7 +97490,8 @@ _G.pg.base.ship_data_statistics[205064] = {
 		{}
 	},
 	tag_list = {
-		"KGV-Class"
+		"KGV-Class",
+		"bunao"
 	}
 }
 
@@ -254512,6 +258613,510 @@ _G.pg.base.ship_data_statistics[9706014] = {
 		"HiyoMETA",
 		"Hiyo-class",
 		"Hiyō"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9706021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "隼鷹·META",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 9706020,
+	english_name = "Jun'yō.META",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9706021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1128,
+		0,
+		0,
+		48,
+		61,
+		71,
+		0,
+		26,
+		17,
+		26,
+		80,
+		17
+	},
+	attrs_growth = {
+		19422,
+		0,
+		0,
+		643,
+		804,
+		491,
+		0,
+		378,
+		308,
+		0,
+		0,
+		247
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		0.95,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"JunyoMETA",
+		"Hiyo-class",
+		"Jun'yō"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9706022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "隼鷹·META",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 9706020,
+	english_name = "Jun'yō.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9706022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1403,
+		0,
+		0,
+		60,
+		76,
+		71,
+		0,
+		26,
+		17,
+		26,
+		80,
+		21
+	},
+	attrs_growth = {
+		19422,
+		0,
+		0,
+		643,
+		804,
+		491,
+		0,
+		378,
+		308,
+		0,
+		0,
+		247
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.88,
+		0.98,
+		1.08
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"JunyoMETA",
+		"Hiyo-class",
+		"Jun'yō"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9706023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "隼鷹·META",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 9706020,
+	english_name = "Jun'yō.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9706023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1953,
+		0,
+		0,
+		83,
+		106,
+		71,
+		0,
+		26,
+		17,
+		26,
+		80,
+		30
+	},
+	attrs_growth = {
+		19422,
+		0,
+		0,
+		643,
+		804,
+		491,
+		0,
+		378,
+		308,
+		0,
+		0,
+		247
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.93,
+		1.03,
+		1.13
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"JunyoMETA",
+		"Hiyo-class",
+		"Jun'yō"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9706024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "隼鷹·META",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 9706020,
+	english_name = "Jun'yō.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9706024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2779,
+		0,
+		0,
+		118,
+		152,
+		71,
+		0,
+		26,
+		17,
+		26,
+		80,
+		43
+	},
+	attrs_growth = {
+		19422,
+		0,
+		0,
+		643,
+		804,
+		491,
+		0,
+		378,
+		308,
+		0,
+		0,
+		247
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.1,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"JunyoMETA",
+		"Hiyo-class",
+		"Jun'yō"
 	}
 }
 

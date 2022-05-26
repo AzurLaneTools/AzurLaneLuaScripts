@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "battle-AF",
 			actor = 900314,
-			actorName = "？？",
+			actorName = "？ ？",
 			hidePaintObj = true,
 			say = "……………",
 			flashin = {
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于现身了啊，隐藏在幕后的敌人，制造了这一系列袭击的元凶！",
+			say = "終於現身了啊，隱藏在幕後的敵人，製造了這一系列襲擊的元兇！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "那个样子看起来好像——",
+			say = "那個樣子看起來好像——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "{namecode:93}，或者说{namecode:93}·META。",
+			say = "蒼龍，或者說蒼龍·META。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "啧……全身充斥着愤怒与疯狂的感觉，感觉她的眼神里我没有看到任何一丝知性的光辉。",
+			say = "嘖…全身充斥著憤怒與瘋狂的感覺，感覺她的眼神裡我沒有看到任何一絲知性的光輝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "余烬里也有这样的成员么？",
+			say = "餘燼裡也有這樣的成員嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "所以说……是META！并非余烬。",
+			say = "所以說…是META！並非餘燼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "好……！M E T A！",
+			say = "好…！M E T A！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -174,7 +174,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "这是在META之中，因过度META化而诞生的怪物。",
+			say = "這是在META之中，因過度META化而誕生的怪物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "额……我不是很明白。",
+			say = "呃…我不是很明白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是指经过META化之后，诞生的一种可能结果么……?",
+			say = "是指經過META化之後，誕生的一種可能結果嗎…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actorName = "？？？",
 			side = 2,
-			say = "也可以这么理解。",
+			say = "也可以這麼理解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "虽然看起来是{namecode:93}的样子，但是这个怪物与你所知悉的余烬{namecode:94}是完全不同的存在，彼此之间也没有任何关系。",
+			say = "雖然看起來是蒼龍的樣子，但是這個怪物與妳所知悉的餘燼飛龍是完全不同的存在，彼此之間也沒有任何關係。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "余烬，尤其不会和这样的怪物共存……还是不要把她们联想到一起比较好哦。",
+			say = "餘燼，尤其不會和這樣的怪物共存…還是不要把她們聯想到一起比較好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "…………为什么会诞生这样的存在呢？",
+			say = "……為什麼會誕生這樣的存在呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "「微光计划」是一切的起因，而将其发扬光大的……应该是「审判者计划」吧。",
+			say = "「微光計劃」是一切的起因，而將其發揚光大的…應該是「審判者計劃」吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "微光计划和……审判者计划？",
+			say = "微光計劃和…審判者計劃？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "看来你真的什么都不知道啊……这种熟悉的陌生感，真是奇妙的感觉。",
+			say = "看來妳真的什麼都不知道啊…這種熟悉的陌生感，真是奇妙的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我好像知道企业犹豫不决的理由了。",
+			say = "我好像知道企業猶豫不決的理由了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不好意思，我们其实在哪里见过么？",
+			say = "不好意思，我們其實在哪裡見過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "谁知道呢，也许在梦里吧~",
+			say = "誰知道呢，也許在夢裡吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "不要学习{namecode:182}的话术啊—！",
+					content = "不要學習信濃的話術啊—！",
 					flag = 2
 				}
 			}
@@ -436,7 +436,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不好……现在不是闲聊的时候。",
+			say = "不好…現在不是閒聊的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "呜哇！吓，吓死我了……这个人突然间是怎么回事啊！",
+			say = "嗚哇！嚇，嚇死我了…這個人突然間是怎麼回事啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "喂！有事说话，你突然叫那么大声干嘛啦！",
+			say = "喂！有事說話，妳突然叫那麼大聲幹嘛啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "放弃吧，怪物是无法交流的。",
+			say = "放棄吧，怪物是無法交流的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "真、真的直接打过来了——？！",
+			say = "真、真的直接打過來了——？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "简直像猛兽一样嘛~不过，她要面对的可是比猛兽还要凶猛的Engle Union Black Dragon！",
+			say = "簡直像猛獸一樣嘛~不過，她要面對的可是比猛獸還要兇猛的“Black Dragon”！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "火控系统瞄准目标，让这个敢于袭击指挥官的怪物见识一下白鹰最大最强战列舰的厉害吧！",
+			say = "火控系統瞄準目標，讓這個敢於襲擊指揮官的怪物見識一下白鷹最大最強戰列艦的厲害吧！",
 			effects = {
 				{
 					active = true,

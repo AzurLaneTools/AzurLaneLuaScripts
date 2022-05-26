@@ -12,7 +12,7 @@ return {
 			bgName = "bg_luoxuan_8",
 			hidePaintObj = true,
 			dir = 1,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啧……被我的炮击准确命中后不可能像这样安然无事才对啊？！",
+			say = "嘖…被我的炮擊準確命中後不可能像這樣安然無事才對啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "就算是这种方式作战，META终究还是META。",
+			say = "就算是這種方式作戰，META終究還是META嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂——！既然你有办法升级我们的雷达，有没有办法连主炮和火控也一起升级了啊！",
+			say = "喂—！既然妳有辦法升級我們的雷達，有沒有辦法連主炮和火控也一起升級了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不要急，正在进行调整。",
+			say = "不要急，我正在進行調整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "虽然时间有些紧张，不过我也算有一些秘密的技术储备。",
+			say = "雖然時間有些緊張，不過我也算有一些秘密的技術儲備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "侵入开始————————完成。",
+			say = "侵入開始——完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "指挥官，现在命令舰队向怪物再次发动攻击。",
+			say = "指揮官，現在命令艦隊向怪物再次發動攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "所有参数都交给我来修正，你们只需要尽情倾泻火力就好。",
+			say = "所有參數都交給我來修正，妳們只需要盡情傾瀉火力就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "让我见证一下你们的实力吧。",
+			say = "讓我見證一下妳們的實力吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_luoxuan_8",
 			hidePaintObj = true,
 			dir = 1,
-			say = "水面、空中、水下，各舰火力全开！",
+			say = "水面、空中、水下，各艦火力全開！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "在{namecode:199}进行炮火压制的时候，对敌人发动全方位攻击！",
+			say = "在紐澤西進行炮火壓制的時候，對敵人發動全方位攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

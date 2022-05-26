@@ -86,7 +86,7 @@ pg.skin_page_template = {
 	},
 	[16] = {
 		id = 16,
-		name = "嘉年华",
+		name = "嘉年華 ",
 		res = "jianianhua",
 		english_name = "Carnival"
 	},
@@ -98,7 +98,7 @@ pg.skin_page_template = {
 	},
 	[18] = {
 		id = 18,
-		name = "红月之夜",
+		name = "紅月之夜 ",
 		res = "xixuegui",
 		english_name = "VAMPIRE NIGHT"
 	},

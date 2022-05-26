@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，既然明白了原理，那就无需侦查，径直朝向曾经的坐标飞去就是~",
+			say = "呵呵，既然明白了原理，那就無需偵查，徑直朝向曾經的座標飛去就是~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "哦？因为飞的太快，反而撞上了正在预警的重樱机群么？",
+			say = "哦？因為飛的太快，反而撞上了正在預警的重櫻機群嗎？",
 			effects = {
 				{
 					active = true,
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用在意，一鼓作气正面突破~！",
+			say = "不用在意，一鼓作氣正面突破~！",
 			effects = {
 				{
 					active = false,
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题——咦？！",
+			say = "沒問題—咦？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "重樱战斗机群从其它方向遭到了攻击？！发动袭击的是……我们的舰载机？",
+			say = "重櫻戰鬥機群從其它方向遭到了攻擊？！發動襲擊的是…我們的艦載機？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "哈啊？！怎么会有这种事，我们舰队里不是只有你一艘航空母舰么。",
+			say = "哈啊？！怎麼會有這種事，目前艦隊裡不是只有妳一艘航空母艦嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是AF派来的支援么……？我、这就确认一下！",
+			say = "AF派來的支援嗎…？我、這就確認一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "额，空中支援……？我什么都没做哦。",
+			say = "呃，空中支援…？我什麼都沒做哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "岛上机场受损严重，为数不多的航空力量正在专注于岛屿防卫，我并没有派出任何打击群。",
+			say = "島上機場受損嚴重，為數不多的航空力量正在專注於島嶼防衛，並沒有派出任何打擊群。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就奇怪了……这些飞机是从哪儿冒出来的。",
+			say = "那就奇怪了…這些飛機是從哪兒冒出來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确认完毕，这些飞机的型号与我们的舰载机一致。",
+			say = "確認完畢，這些飛機的型號與我們的艦載機一致。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "它们在击破了重樱的拦截后，正在与我一同飞向重樱舰队的位置！",
+			say = "在擊破了重櫻的攔截後，這支機群正在與我一起飛向重櫻航空編隊的位置！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "等等等等，所以说事情很奇怪啊！我们不可能有友军舰载机的增援啊？！",
+			say = "等等等等，所以說事情很奇怪啊！我們不可能有友軍艦載機的增援啊？！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "这个你问我也……它们刚刚消灭了重樱棋子舰载机可是事实哦。",
+			say = "這個妳問我也…它們剛剛消滅了重櫻棋子艦載機可是事實哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "难道真有什么我不清楚的调动存在么……{namecode:200}，总之你先把飞机调到后方位置，让这支机群在前面开路。",
+			say = "難道真有什麼我不清楚的調動存在嗎…提康，總之妳先把飛機調到後方位置，讓這支機群飛在前面開路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:197}和{namecode:198}，你们带领一部分舰队搜索一下，看看海雾之中是否真的存在我们尚不得知的友方舰队！",
+			say = "波夕和莫里森，妳們帶領一部分艦隊搜索一下，看看海霧之中是否真的存在我們尚不得知的友方艦隊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

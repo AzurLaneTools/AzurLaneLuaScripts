@@ -329,7 +329,7 @@ function slot1.inTime(slot0, slot1, slot2)
 		return slot1 == "always"
 	end
 
-	if slot1[1] == nil then
+	if type(slot1[1]) == "string" then
 		slot1 = {
 			slot1[2],
 			slot1[3]

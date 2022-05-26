@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "通过与{namecode:182}的交谈，可以认定她也是在毫不知情的情况下被卷入了这场塞壬的实验。",
+			say = "通過和信濃的交談，可以認定她也是在毫不知情的情況下被捲入了這場塞壬的實驗。",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
@@ -43,7 +43,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然她本人坚持称这是一场“梦”，并有一套自己的解释逻辑……",
+			say = "雖然她本人堅持稱這是一場“夢”，並有一套自己的解釋邏輯…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过{namecode:182}本人似乎的确不可能出现在AF附近，难道她拥有不可思议力量的传闻是真的……",
+			say = "不過信濃本人似乎的確不可能出現在AF附近，難道她擁有不可思議力量的傳聞是真的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "哎？！在重樱那里棒球也很流行么？",
+			say = "哎？！在重櫻那裡棒球也很流行嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "据妾身所知，人气异常，赛事也数量繁多。",
+			say = "據妾身所知，人氣異常，賽事也數量繁多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "太酷了……有机会的话去重樱打一圈比赛也不错啊~！",
+			say = "太酷了…有機會的話去重櫻打一圈比賽也不錯啊~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "那{namecode:182}你也会去打棒球么？",
+			say = "那信濃妳也會去打棒球嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "妾身的话……因为身份所限，还未尝试过呢。",
+			say = "妾身的話…因為身份所限，還未嘗試過呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "身份……你们重樱净在奇怪的地方纠结……运动可是能够超越国界和身份的哦！",
+			say = "身份…妳們重櫻竟在奇怪的地方糾結…運動可是能夠超越國界和身份的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "呵呵……说的也是。有机会的话，妾身也试一试好了。",
+			say = "呵呵…說的也是呢。有機會的話，妾身也試一試好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "说起来，如果妾身没认错的话，汝应该是……{namecode:196}？",
+			say = "說起來，如果妾身沒認錯的話，汝應該是…射水魚？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回答正确~咦？我们在哪里见过么？",
+			say = "回答正確~咦？我們在哪裡見過妳？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "从刚才开始就感觉和你这个人说话真难受哎…………",
+			say = "從剛才開始就感覺和妳這個人說話真是難受哎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "呼呼~道可道非常道。此时此刻，如此便好。",
+			say = "呼呼~道可道非常道。此時此刻，如此便好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "…………反而变本加厉了！？！",
+			say = "……反而變本加厲了！？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这般友好交流的景象……仿佛令人回到了曾经各阵营同在碧蓝航线的旗帜下并肩作战的时光。",
+			say = "這般友好交流的景象…彷彿令人回到了曾經各陣營同在碧藍航線的旗幟下並肩作戰的時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 307040,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "……抱歉，联络迟了。",
+			say = "…抱歉，聯絡遲了。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "换弹工作，没有来得及完成…………航空舰队在更换工作进行中遭到了白鹰舰队的俯冲轰炸。",
+			say = "換彈工作，沒有來得及完成……航空艦隊在更換工作進行中遭到了白鷹艦隊的俯衝轟炸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "{namecode:91}大人，{namecode:92}大人以及{namecode:93}均出现损伤，但是我依然可以全力战斗！",
+			say = "赤城大人，加賀大人以及蒼龍均出現損傷，但是我依然可以全力戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "我在此申请后续攻击命令，{namecode:94}将会独自对白鹰航空编队发起反击！",
+			say = "我在此申請攻擊命令，飛龍將會獨自對白鷹航空編隊發起反擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "不好……这样发展下去的话约克城就会……！",
+			say = "不好…這樣發展下去的話約克鎮就會…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "不要发动反击，立刻撤退！",
+			say = "不要發動反擊，立刻撤退！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "为什么？！我不能理解，请解释一下这条命令的合理性。",
+			say = "為什麼？！我不能理解，請解釋一下這條命令的合理性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "因、因为……额…………只有现在撤退才……能……（指挥官快救我>_<！）",
+			say = "因、因為…呃……只有現在撤退才…能…（指揮官快救我>_<！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:94}，冷静下来观察局势。只要在损伤进一步扩大之前让舰队撤离战场，一切还来得及。",
+			say = "飛龍，冷靜下來觀察局勢。只要在損傷進一步擴大之前讓艦隊撤離戰場，一切還來得及。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,25 +513,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "立刻将全部战斗机升空，掩护航空编队撤离。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 307040,
-			say = "……是要我们承认作战失败然后逃跑的意思么？！",
+			say = "立刻將全部戰鬥機升空，掩護航空編隊撤離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,22 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "白鹰的舰载机也在撕扯中损失惨重！只要趁现在发动袭击，一定能取得有效战果的！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
-			dir = 1,
-			say = "但是代价呢？整个航空编队会因此错过最佳撤退时机，从而落到无可挽回的局面。",
+			say = "…是要我們承認作戰失敗然後逃跑的意思嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +549,22 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "如果保持现在的状态撤退才是真正无可挽回的局面！",
+			say = "白鷹的艦載機也在撕扯中損失慘重！只要趁現在發動襲擊，一定能取得有效戰果的！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_1100",
+			hidePaintObj = true,
+			dir = 1,
+			say = "但是代價呢？整個航空編隊會因此錯過最佳撤退時機，從而落到無可挽回的局面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +582,25 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "这样回去的话……重樱海军只会沦为世间的笑柄啊！",
+			say = "如果保持現在的狀態撤退才是真正無可挽回的局面！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 307040,
+			say = "這樣下去重櫻海軍只會淪為世間的笑柄！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "…………放弃吧，汝等的努力皆为徒劳。",
+			say = "……放棄吧，汝等的努力皆為徒勞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "为什么？！这种时候果断撤退保存实力才是最好的选择吧，你难道看不出来么？！",
+			say = "為什麼？！這種時候果斷撤退保存實力才是最好的選擇吧，妳難道看不出來嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "妾身的看法无关紧要。",
+			say = "妾身的看法無關緊要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "诚然，倘若就此撤退，一航战便不会卷入圣域之事，与五航战的关系也能缓和许多，很多事情也许就会改变了吧。",
+			say = "誠然，倘若就此撤退，一航戰便不會捲入聖域之事，與五航戰的關係也能緩和許多，很多事情也許就會改變了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "但有因即有果。已发生之因引来已发生之果。未发生之因引来未发生之果。孰优孰劣岂可臆断？",
+			say = "但有因即有果。已發生之因引來已發生之果。未發生之因引來未發生之果。孰優孰劣豈可臆斷？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "更何况……此处仅为镜中花、水中月。对于身为过客的吾等来说，一切皆已注定。",
+			say = "況且…此處僅為鏡中花、水中月。對於身為過客的吾等來說，一切皆已注定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "如若并非梦境，而是现实之中的话，汝等真以为仅凭此等蹩脚演技混在重樱指挥系统之中能不被揭穿么？",
+			say = "如若並非夢境，而是現實之中的話，汝等真以為能僅憑此等蹩腳演技混在重櫻指揮系統之中不被揭穿嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你的意思是指，这里只是设定好内容的棋盘……无论我们发出什么命令都不会改变已经决定好的走向么？",
+			say = "妳的意思是指…這裡只是設定好內容的棋盤…無論我們發出什麼命令都不會改變事件的預設走向嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "一切均会与汝等当年所见之景相同。",
+			say = "一切均會與汝等當年所見之景相同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,31 +815,31 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>指挥官……AF作战也请让我参加吧……！</size>",
+					"<size=51>指揮官…AF作戰也請讓我參加吧…！</size>",
 					1
 				},
 				{
-					"<size=51>重樱一定坚信我们只有两艘航空母舰能够投入作战，如果我能参加的话……</size>",
+					"重櫻一定堅信我們只有兩艘航空母艦能夠投入作戰，如果我能參加的話…",
 					2
 				},
 				{
-					"<size=51>呼呼，一点小伤而已……指挥官不用担心。</size>",
+					"<size=51>呼呼，一點小傷而已…指揮官不用擔心。</size>",
 					3
 				},
 				{
-					"<size=51>如果这次作战失败，就没什么后方可言了哦。</size>",
+					"如果這次作戰失敗，就沒什麼後方可言了哦。",
 					4
 				},
 				{
-					"<size=51>…………三天，只要三天我就能恢复到正常作战的状态。</size>",
+					"<size=51>……三天，只要三天我就能恢復到正常作戰的狀態。</size>",
 					5
 				},
 				{
-					"<size=51>……指挥官，珊瑚海是一次精彩的战斗，相信列克星敦小姐也是这么认为的。</size>",
+					"…指揮官，珊瑚海是一次精彩的戰鬥，相信列星頓小姐也是這麼認為的。",
 					6
 				},
 				{
-					"<size=51>……所以，你不打起精神来可不行啊，接下来的战斗大家还要依靠你呢。</size>",
+					"…所以，你不打起精神來可不行啊，接下來的戰鬥大家還要依靠你呢。",
 					7
 				}
 			}
@@ -866,23 +866,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>……嗯？指挥官还有什么事么？</size>",
+					"<size=51>…嗯？指揮官還有什麼事嗎？</size>",
 					1
 				},
 				{
-					"<size=51>一路上紧急维修都没有停止，我现在真的已经完全没有问题了。</size>",
+					"一路上緊急維修都沒有停止，我現在真的已經完全沒有問題了。",
 					2
 				},
 				{
-					"<size=51>比起我，你还有更需要担心的事吧。</size>",
+					"<size=51>比起我，你還有更需要擔心的事吧。</size>",
 					3
 				},
 				{
-					"<size=51>哎~就算职务提升了，风格还是没有变嘛。</size>",
+					"哎~就算職務提升了，風格還是沒有變嘛。",
 					4
 				},
 				{
-					"<size=51>今后像这样无法亲临前线的时候会越来越多，还是尽早习惯比较好哦。</size>",
+					"今後像這樣無法親臨戰鬥前線的時候會越來越多，還是儘早習慣比較好哦~",
 					5
 				}
 			}
@@ -908,23 +908,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>舰载机队正在做最后的起飞准备，即将出发搜寻重樱航空编队的位置。</size>",
+					"艦載機隊正在做最後的起飛準備，即將出發搜尋重櫻航空編隊的位置。",
 					1
 				},
 				{
-					"<size=51>重樱会有多吃惊我才不在乎，我在乎的只有取得胜利而已！</size>",
+					"重櫻會有多吃驚我才不在乎，我在乎的只有取得勝利而已！",
 					2
 				},
 				{
-					"<size=51>哼哼~这是一场属于空中的对决，可能等不到进行炮击战的时候战斗就结束了哦~</size>",
+					"哼哼~這是一場屬於空中的對決，可能等不到進行炮擊戰的時候戰鬥就結束了哦~",
 					3
 				},
 				{
-					"<size=51>虽然尚未发现重樱主力舰队，不过总之，这支航空编队就由我们约克城级三姐妹收下了~</size>",
+					"雖然尚未發現重櫻主力艦隊，不過總之，這支航空編隊就由我們約克鎮級三姐妹收下了~",
 					4
 				},
 				{
-					"<size=51>指挥官就在远方静静等待我们胜利的消息吧~！</size>",
+					"指揮官就在遠方靜靜等待我們勝利的消息吧~！",
 					5
 				}
 			}

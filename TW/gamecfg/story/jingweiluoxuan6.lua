@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "{namecode:199}舰队 数小时后",
+			say = "紐澤西艦隊 數小時後",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:199}",
-			say = "哈？！！",
+			say = "欸？！",
 			fontsize = 60,
 			dialogShake = {
 				speed = 0.09,
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:199}",
-			say = "指挥官也失联了？！！！！！！",
+			say = "指揮官也失聯了？！！",
 			fontsize = 60,
 			dialogShake = {
 				speed = 0.09,
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……指挥官的舰队在离开PH港后不久就彻底失去了联络。",
+			say = "嗯…指揮官的艦隊在離開PH港後不久就徹底失去了聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论是我们还是PH港，都无法与舰队中的任何一艘船只取得联系。",
+			say = "不論是我們還是PH港，都無法與艦隊中的任何一艘船隻取得聯繫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是遭遇袭击了么！还是什么别的情况？",
+			say = "是遭遇襲擊了嗎！還是什麼別的情況？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "目前还没有得到任何相关报告。",
+			say = "目前還沒有得到任何相關報告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "失联海域貌似被大量海雾所覆盖，给侦察带来了很大困难。",
+			say = "失聯海域貌似被大量海霧所覆蓋，給偵察帶來了很大困難。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官舰队的成员呢？",
+			say = "指揮官艦隊的成員名單呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:195}、海伦娜、{namecode:196}。",
+			say = "舊金山、海倫娜、射水魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海伦娜也在是失踪名单里么……等等，之前她是不是遭遇过类似的情况……！",
+			say = "海倫娜也是在失蹤名單裡嗎…等等，之前她是不是遭遇過類似的情況…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我想想。海伦娜……海雾……失联……",
+			say = "讓我想想。海倫娜…海霧…失聯…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是增援巴拿马要塞的那次吧？当时海伦娜就在失联数日的巴尔的摩舰队中。",
+			say = "是增援巴拿馬要塞的那次吧？當時海倫娜就在失聯數日的巴爾的摩艦隊中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在后续作战时，甚至连企业前辈也一度在那诡异的海雾中迷航了…",
+			say = "在後續的作戰中，就連企業前輩也一度在詭異的海霧中迷航了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "原来是那件事啊……那不就破案了嘛！这次事件是由塞壬引起的！",
+			say = "原來是那件事啊……那不就破案了嘛！這次事件是由塞壬引起的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "{namecode:200}，把现在的情况火速发给企业和巴尔的摩，看看她们有什么好的应对方案！",
+			say = "提康，把現在的情況火速發給企業和巴爾的摩，看看她們有什麼好的應對方案！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "没问题。不过关于接下来的行动部署……",
+			say = "沒問題。不過關於接下來的行動部署…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "虽然不是很想说这种事，不过在这种混乱的局面下，作战还是有一个最高指挥者比较好哦。",
+			say = "雖然不是很想說這種事，不過在這種混亂的局面下，作戰還是有一個最高指揮者比較好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "不论是为了应对未知的威胁，还是展开对于失联指挥官舰队的搜救……",
+			say = "不論是為了應對未知的威脅，還是展開對於失聯指揮官艦隊的搜救…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "我懂你的意思。不过正式交接已经完成，我现在没有接手帕克菲克洋内的防务的权限哦。",
+			say = "我懂妳的意思。不過正式交接已經完成，我沒有權限直接接手太平洋內的事務…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这一点的话没问题，情况我们已经全部了解了！",
+			say = "沒問題，情況我們已經了解了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "鉴于当前局势，NY司令部决定中止你的调动任务。{namecode:199}，在指挥官回来前暂时代理帕克菲克洋防务工作吧。",
+			say = "鑑於當前局勢，NY司令部決定中止妳的調動命令。紐澤西，在指揮官歸位前暫時代理太平洋防務工作吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "查明未知的威胁，保卫我们的基地，然后将指挥官和失踪的同伴们救回来！",
+			say = "查明未知的威脅，保衛我們的基地，然後將指揮官和失蹤的同伴們救回來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "很好……这样一来就能名正言顺的大干一场了！没问题，放心包在我身上————",
+			say = "很好……這樣一來就能名正言順的大幹一場了！沒問題，放心包在我身上————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "不对！萨拉托加？！你的通讯怎么插入的这么巧？你在监听我么……！",
+			say = "不對！薩拉托加？！妳的通訊怎麼插入的這麼巧？妳在監聽我的通訊嗎…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈？怎么可能！是{namecode:194}主动汇报过来，然后让我们“加急评估”的啊……",
+			say = "哈？怎麼可能！是提康德羅加主動匯報過來，然後讓我們“加急評估”的啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "咳……我觉得这样是最有效率的做法。",
+			say = "咳…我覺得這樣是最有效率的做法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "原来如此，{namecode:200}……不愧是我的智囊！有你在真是太省心了！",
+			say = "原來如此，提康…不愧是我的智囊！有妳在真是太省心了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "由于我现在无法赶来，这次只能尽力在后方提供情报支援了。",
+			say = "由於我現在無法趕來，所以這次只能盡力提供情報支援了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和当年的情况正好相反啊……体会到当时我无法前往前线时的焦急了吧！",
+			say = "和當年的情況正好相反啊…體會到當時我無法前往前線的焦急了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你那次是MK7没完工没办法，我这次可是留在NY司令部处理NA海域的事务哦！客观条件完全不一样！",
+			say = "妳那次是MK7沒完工沒辦法吧，我可是留在NY司令部處理NA海域的事務哦！客觀條件完全不一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过完全相反……难道是这样么？！",
+			say = "不過完全相反啊…難道是這樣？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "抱歉，我突然想起了一些要调查的事，先挂断了！祝你们好运哦！",
+			say = "抱歉，我突然想起了一些要調查的事，先掛斷了！祝妳們好運哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "哎？！等等……啊，神神秘秘的挂掉了。",
+			say = "哎？！等等…啊，神神秘秘的掛掉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的……算了算了，更复杂的事就交给她去调查啦，我们首先要应对眼前的局面才行。",
+			say = "算了算了，複雜的事就交給薩拉托加好了，我們首先要應對眼前的局面才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "指挥官身边的舰队应对常规塞壬绰绰有余，短时间内应该不用担心……嗯，总之先前往失踪海域调查一下吧！",
+			say = "指揮官身邊的艦隊應對常規塞壬沒問題，短時間內應該不用擔心…首先前往失蹤海域調查一下吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -26527,6 +26527,194 @@ _G.pg.base.equip_data_statistics[14391] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[14460] = {
+	tech = 0,
+	name = "三聯裝406mm主炮Mk7",
+	speciality = "跨射",
+	type = 4,
+	descrip = "為{namecode:201}級戰列艦開發的MK7型艦炮",
+	ammo = 2,
+	damage = "71 x 3",
+	nationality = 1,
+	rarity = 6,
+	id = 14460,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 65,
+	icon = "14400",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			2,
+			1512
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		14460
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"BB",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[14461] = {
+	id = 14461,
+	damage = "81 x 3",
+	base = 14460,
+	weapon_id = {
+		14461
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14462] = {
+	id = 14462,
+	damage = "91 x 3",
+	base = 14460,
+	weapon_id = {
+		14462
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14463] = {
+	id = 14463,
+	damage = "99 x 3",
+	base = 14460,
+	weapon_id = {
+		14463
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14464] = {
+	id = 14464,
+	damage = "109 x 3",
+	base = 14460,
+	weapon_id = {
+		14464
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14465] = {
+	id = 14465,
+	damage = "119 x 3",
+	base = 14460,
+	weapon_id = {
+		14465
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14466] = {
+	id = 14466,
+	damage = "129 x 3",
+	base = 14460,
+	weapon_id = {
+		14466
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14467] = {
+	id = 14467,
+	damage = "139 x 3",
+	base = 14460,
+	weapon_id = {
+		14467
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14468] = {
+	id = 14468,
+	damage = "147 x 3",
+	base = 14460,
+	weapon_id = {
+		14468
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14469] = {
+	id = 14469,
+	damage = "157 x 3",
+	base = 14460,
+	weapon_id = {
+		14469
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14470] = {
+	id = 14470,
+	damage = "167 x 3",
+	base = 14460,
+	weapon_id = {
+		14470
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14471] = {
+	id = 14471,
+	anti_siren = 100,
+	damage = "167 x 3",
+	base = 14460,
+	weapon_id = {
+		14471
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14472] = {
+	id = 14472,
+	anti_siren = 200,
+	damage = "167 x 3",
+	base = 14460,
+	weapon_id = {
+		14472
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[14473] = {
+	id = 14473,
+	anti_siren = 300,
+	damage = "167 x 3",
+	base = 14460,
+	weapon_id = {
+		14473
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[14500] = {
 	tech = 0,
 	name = "試作型雙聯裝457mm主炮MKA",
@@ -108233,6 +108421,58 @@ _G.pg.base.equip_data_statistics[79732] = {
 	base = 79731,
 	weapon_id = {
 		79732
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79861] = {
+	type = 1,
+	name = "專屬彈幕-小柴郡I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79861,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60811
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79862] = {
+	id = 79862,
+	name = "專屬彈幕-小柴郡II",
+	base = 79861,
+	weapon_id = {
+		60812
 	},
 	hidden_skill_id = {}
 }

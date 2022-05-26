@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"香醇的提拉米苏\n\n<size=45>五  看不见的笑容</size>",
+					"香醇的提拉米蘇\n\n<size=45>五  看不見的笑容</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 102120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "选哪一件比较好呢，感觉看起来都差不多的样子哎……",
+			say = "選哪一件比較好呢，感覺看起來都差不多的樣子哎……",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "火奴鲁鲁……在挑新睡衣吗？",
+			say = "火奴魯魯……在挑新睡衣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			dir = 1,
-			say = "翌日散步途中，与{namecode:197}在一家服装店内遇到了火奴鲁鲁。",
+			say = "翌日散步途中，與{namecode:197}在一家服裝店內遇到了火奴魯魯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "路易斯那家伙…总是说我穿的睡衣太土气了！{namecode:197}你来得正好，能帮我一起看一下么？！",
+			say = "路易斯那傢伙…總是說我穿的睡衣太土氣了！{namecode:197}妳來得正好，能幫我一起看一下麼？ ！",
 			action = {
 				{
 					type = "shake",
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可以哦，指挥官就趁机休息一下吧。",
+			say = "可以哦，指揮官就趁機休息一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！指挥官也要一起来挑……？哼，之后换衣服的时候不偷看的话倒是没关系…",
+			say = "哎？ ！指揮官也要一起來挑……？哼，之後換衣服的時候不偷看的話倒是沒關係…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "唔，这件可爱风格的会比较好……过于成熟的风格感觉有些不太适合你……",
+			say = "唔，這件可愛風格的會比較好……過於成熟的風格感覺有些不太適合你……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的么？！那就这件好了~比起爱说怪话的路易斯，还是和你一起买衣服开心一些~",
+			say = "真的麼？！那就這件好了~比起愛說怪話的路易斯，還是和你一起買衣服開心一些~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "虽然这么说……但是路易斯的衣品比我好很多哦……",
+			say = "雖然這麼說……但是路易斯的衣品比我好很多哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和衣品什么的没关系啦！单纯是从心情上来说！还是{namecode:197}比较好~",
+			say = "和衣品什麼的沒關係啦！單純是從心情上來說！還是{namecode:197}比較好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "哎……？谢谢……嗯，接下来来试试这件怎么样？",
+			say = "哎……？謝謝……嗯，接下來來試試這件怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在{namecode:197}的建议之下，火鲁奴奴终于挑选到了满意的睡衣。",
+			say = "在{namecode:197}的建議之下，火魯奴奴終於挑選到了滿意的睡衣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "离开服装店后又与{namecode:197}闲逛了一会，最终选择了新开的甜品店作为最后一站。",
+			say = "離開服裝店後又與{namecode:197}閒逛了一會，最終選擇了新開的甜品店作為最後一站。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，听说这家店的甜品很不错……我们买一些带回去吧。",
+			say = "指揮官，聽說這家店的甜品很不錯……我們買一些帶回去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯，糖分有利于提振心情，对于工作来说也是有益的。",
+			say = "嗯，糖分有利於提振心情，對於工作來說也是有益的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "唔……买哪个比较好呢……",
+			say = "唔……買哪個比較好呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在甜品店遇到了正在犹豫的海伦娜。",
+			say = "在甜品店遇到了正在猶豫的海倫娜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "{namecode:197}，我想买些甜品回去给大家吃，不过口味上…太甜的话会不太好吧？",
+			say = "{namecode:197}，我想買些甜品回去給大家吃，不過口味上…太甜的話會不太好吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "嗯…确实不是所有人都能接受太甜的口味……也许一些甜度适中的会比较好哦……",
+			say = "嗯…確實不是所有人都能接受太甜的口……也許一些甜度適中的會比較好哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我明白了……那就从甜度适中的焦糖布丁开始选好了……多谢。",
+			say = "我明白了……那就從甜度適中的焦糖布丁開始選好了……多謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "望着正与海伦娜查看橱窗的{namecode:197}，心中不禁泛起笑意。",
+			say = "望著正與海倫娜查看櫥窗的{namecode:197}，心中不禁泛起笑意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "看来本日散心的目标已经圆满达成了。",
+			say = "看來本日散心的目標已經圓滿達成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "从甜品店离开后，天色已经完全暗下来了。",
+			say = "從甜品店離開後，天色已經完全暗下來了。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "本来是为了陪指挥官散心才出来的，结果我好像光顾着和姐妹们聊天了……对不起……",
+			say = "本來是為了陪指揮官散心才出來的，結果我好像光顧著和姐妹們聊天了……對不起……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "带着面具的{namecode:197}虽然会给人一种难以接近的感觉，但其实面具之后的她坦率又温柔。",
+			say = "帶著面具的{namecode:197}雖然會給人一種難以接近的感覺，但其實面具之後的她坦率又溫柔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "拥有如此可爱的性格，相信港区的同伴们也会很想要与她的关系更近几分吧。",
+			say = "擁有如此可愛的性格，相信港區的同伴們也會很想要與她的關係更近幾分吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要她能摘掉面具的话……",
+			say = "只要她能摘掉面具的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官……？",
+			say = "指揮官……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			},
 			options = {
 				{
-					content = "想看{namecode:197}摘下面具的样子",
+					content = "想看{namecode:197}摘下面具的樣子",
 					flag = 1
 				}
 			}
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官果然还是说出来了。",
+			say = "……指揮官果然還是說出來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "嗯，既然这是你的意思……我会好好考虑的，请给我一点时间…",
+			say = "嗯，既然這是你的意思……我會好好考慮的，請給我一點時間…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（……我当初为什么会想着去和路易斯打赌啊……不过，如果是指挥官想看的话……）",
+			say = "（……我當初為什麼會想著去和路易斯打賭啊……不過，如果是指揮官想看的話……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

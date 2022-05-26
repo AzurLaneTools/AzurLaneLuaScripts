@@ -16,7 +16,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:199}，猜猜看我发现了什么？",
+			say = "紐澤西，猜猜看我發現了什麼？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "敌人……？",
+			say = "敵人…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "再具体一点呢？",
+			say = "再具體一點呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能够消灭的敌人……！",
+			say = "能夠消滅的敵人…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "还不够~再具体一点呢？",
+			say = "還不夠~再具體一點呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "提示，我发现的是能够引导我方发现敌方舰队的必要因素之一。",
+			say = "提示，我發現的是能夠引導我方發現敵方艦隊的必要因素之一。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……我知道了！你发现的是能够引导我方发现敌方舰队的必要因素之一，的敌人！",
+			say = "原來如此…我知道了！妳發現的是能夠引導我方發現敵方艦隊的必要因素之一，的敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "…………哈啊……",
+			say = "……哈啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "诶~~别卖关子啦，你知道我不擅长推理这些的！",
+			say = "欸~~別賣關子啦，妳知道我不擅長推理這些的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "是{namecode:25}哦。在一片茫茫海雾之中，唯独出现了一块露出海面的地方。",
+			say = "是嵐哦。在一片海霧之中，唯獨有一塊霧氣消散的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我用舰载机飞过去后，很轻松就发现了一艘正在孤独行驶的重樱驱逐舰————{namecode:25}。",
+			say = "艦載機飛過去後很輕鬆就發現了一艘正在孤獨行駛的驅逐艦——嵐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你觉得是真货么？",
+			say = "妳覺得是真貨嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "既然航空编队是假的，独行的驱逐舰就更不可能是真的了吧~我认为依然是棋子。",
+			say = "既然航空編隊是假的，單獨的驅逐艦就更不可能是真的了。我認為依然是棋子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "问题在于，为什么这颗单独行动的棋子恰好是{namecode:25}呢？",
+			say = "問題在於，為什麼這顆單獨行動的棋子恰好是嵐呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "原来如此……！怪不得萨拉托加谈到AF的事之后就神神秘秘的跑路了！",
+			say = "原來如此…怪不得薩拉托加談到AF的事之後就神神秘秘的跑路了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "如果说之前只是隐约有些怀疑的话，看到这个桥段之后我就确信了。",
+			say = "如果說之前只是隱約有些懷疑的話，看到這個橋段之後我就確信了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "AF战役的重演。塞壬这次的计划大概是这样的吧？",
+			say = "AF戰役的重演。塞壬這次的計劃大概是這樣的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "首先用重樱棋子袭击AF，然后诱导我们消灭重樱棋子舰队。",
+			say = "首先用重櫻棋子襲擊AF，然後誘導我們消滅棋子重櫻機動艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "如果还原的再细致一些的话，接着还会有大量塞壬舰队赶过来凑热闹……",
+			say = "如果還原的再細緻一些的話，接著還會有大量塞壬艦隊趕過來湊熱鬧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你已经完全熟悉“剧本”了嘛~",
+			say = "妳已經完全熟悉“劇本”了嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟那次作战我可是全程在后方密切关注着啊……不过目的呢？",
+			say = "畢竟那次我可是全程在後方密切關注著啊…不過目的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "况且还把最关键的指挥官从棋盘上拿掉了……要还原那场战役的话，指挥官是必不可缺的吧？",
+			say = "況且還把最關鍵的指揮官從棋盤上拿掉了…要還原那場戰役的話，指揮官是必不可缺的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "这个恐怕只有塞壬自己清楚了~我们能做的也只有推测而已。",
+			say = "這個恐怕只有塞壬自己清楚了~我們目前能做的也只有推測而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "如果指挥官就好了啊……分析这种事我可完全不在行。",
+			say = "如果指揮官在就好了啊…分析這種事我可完全不在行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "不过当然，突破敌人陷阱救回指挥官的事我还是很有自信的哦！",
+			say = "不過當然，突破敵人陷阱救回指揮官的事我還是很有自信的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在曾经的AF战役中，白鹰舰队即便在精疲力竭之时依然打退了塞壬的进攻。",
+			say = "在曾經的AF戰役中，白鷹艦隊即便在精疲力竭之時依然打退了塞壬的進攻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拥有比当时更先进装备与更强大火力的我们没理由做不到！",
+			say = "擁有比當時更加先進裝備和更加強大火力的我們沒理由做不到！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬想要还原AF战役？怎么可能如它们所愿？我{namecode:199}才不要当塞壬棋盘上的棋子！",
+			say = "塞壬想要還原AF戰役？偏不！我紐澤西才不要當塞壬棋盤上的棋子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

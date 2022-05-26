@@ -78,7 +78,7 @@ pg.character_voice = {
 		voice_name = "主介面4",
 		spine_action = "normal",
 		profile_index = 7,
-		l2d_action = "main_3",
+		l2d_action = "main_4",
 		unlock_condition = {
 			0,
 			0
@@ -90,7 +90,7 @@ pg.character_voice = {
 		voice_name = "主介面5",
 		spine_action = "normal",
 		profile_index = 8,
-		l2d_action = "main_3",
+		l2d_action = "main_5",
 		unlock_condition = {
 			0,
 			0

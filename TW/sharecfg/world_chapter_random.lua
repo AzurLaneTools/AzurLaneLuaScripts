@@ -772,7 +772,7 @@ pg.world_chapter_random = {
 	},
 	[71] = {
 		entrance_ui = 2,
-		name = "陸間海A",
+		name = "地中海A",
 		complete_effect = 2,
 		enter_cost = 60,
 		id = 71,
@@ -794,7 +794,7 @@ pg.world_chapter_random = {
 	},
 	[72] = {
 		entrance_ui = 2,
-		name = "陸間海B",
+		name = "地中海B",
 		complete_effect = 2,
 		enter_cost = 80,
 		id = 72,
@@ -816,7 +816,7 @@ pg.world_chapter_random = {
 	},
 	[73] = {
 		entrance_ui = 2,
-		name = "陸間海C",
+		name = "地中海C",
 		complete_effect = 2,
 		enter_cost = 60,
 		id = 73,
@@ -2202,7 +2202,7 @@ pg.world_chapter_random = {
 	},
 	[230] = {
 		entrance_ui = 1,
-		name = "Chapter4-1 初臨陸間海",
+		name = "Chapter4-1 初臨地中海",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 230,
