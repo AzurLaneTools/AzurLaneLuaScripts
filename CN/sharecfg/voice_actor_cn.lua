@@ -1255,5 +1255,45 @@ pg.voice_actor_CN = {
 	{
 		code = 314,
 		actor_name = "杉山里穗"
+	},
+	{
+		code = 315,
+		actor_name = "中岛由贵"
+	},
+	{
+		code = 316,
+		actor_name = "佐藤美由希"
+	},
+	{
+		code = 317,
+		actor_name = "伊藤美来"
+	},
+	{
+		code = 318,
+		actor_name = "早濑莉花"
+	},
+	{
+		code = 319,
+		actor_name = "东城日沙子"
+	},
+	{
+		code = 320,
+		actor_name = "宴宁"
+	},
+	{
+		code = 321,
+		actor_name = "多多poi"
+	},
+	{
+		code = 322,
+		actor_name = "陈阳"
+	},
+	{
+		code = 323,
+		actor_name = "菊花花"
+	},
+	{
+		code = 324,
+		actor_name = "龟娘"
 	}
 }

@@ -458,7 +458,9 @@ function slot0.playOpening(slot0, slot1, slot2)
 		if uv0 then
 			uv0()
 		end
-	end, "ui", slot2, false, false, nil)
+	end, "ui", slot2, false, false, {
+		weight = LayerWeightConst.THIRD_LAYER
+	})
 end
 
 function slot0.willExit(slot0)

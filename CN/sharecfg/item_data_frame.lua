@@ -54,6 +54,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>献给所有四年间持续奋斗在港区的指挥官们</color>\n通过参与四周年限定活动获取",
 		scene = {}
 	},
+	[107] = {
+		time_limit_type = 0,
+		name = "五周年纪念",
+		gain_by = "",
+		id = 107,
+		time_second = 0,
+		desc = "<color=#ffffff>献给所有五年间持续奋斗在港区的指挥官们</color>\n通过参与五周年限定活动获取",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "限界的挑战者",
@@ -336,10 +345,10 @@ pg.item_data_frame = {
 	[320] = {
 		time_limit_type = 0,
 		name = "泠誓之庭",
-		gain_by = "",
+		gain_by = "泠誓光庭",
 		id = 320,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「即使历经时间与战火的磨损，曾经的誓言依旧如恒星般闪耀」</color>\n「泠誓光庭」活动获取",
 		scene = {}
 	},
 	[401] = {
@@ -412,6 +421,7 @@ pg.item_data_frame = {
 		103,
 		104,
 		105,
+		107,
 		201,
 		202,
 		203,

@@ -456,6 +456,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[151] = {
+		target_id_2 = "970202",
+		sub_type = 180,
+		desc = "使用孟菲斯.META获得1次胜利",
+		id = 151,
+		target_num = 1,
+		target_id = "0"
+	},
+	[152] = {
+		target_id_2 = "970202",
+		sub_type = 180,
+		desc = "使用孟菲斯.META击破等级>30的敌方1次",
+		id = 152,
+		target_num = 1,
+		target_id = "30"
+	},
+	[153] = {
+		target_id_2 = "970202",
+		sub_type = 180,
+		desc = "使用孟菲斯.META击破等级>55的敌方1次",
+		id = 153,
+		target_num = 1,
+		target_id = "55"
+	},
+	[154] = {
+		target_id_2 = "970202",
+		sub_type = 180,
+		desc = "使用孟菲斯.META击破等级>80的敌方1次",
+		id = 154,
+		target_num = 1,
+		target_id = "80"
+	},
+	[155] = {
+		target_id_2 = "970202",
+		sub_type = 180,
+		desc = "使用孟菲斯.META击破等级>100的敌方1次",
+		id = 155,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -776,6 +816,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[240] = {
+		target_id_2 = "970202",
+		sub_type = 302,
+		desc = "大型作战内使用孟菲斯.META获得1次胜利",
+		id = 240,
+		target_num = 1,
+		target_id = "0"
+	},
+	[241] = {
+		target_id_2 = "970202",
+		sub_type = 302,
+		desc = "大型作战内使用孟菲斯.META击破等级>70的敌方1次",
+		id = 241,
+		target_num = 1,
+		target_id = "70"
+	},
+	[242] = {
+		target_id_2 = "970202",
+		sub_type = 302,
+		desc = "大型作战内使用孟菲斯.META击破等级>90的敌方1次",
+		id = 242,
+		target_num = 1,
+		target_id = "90"
+	},
+	[243] = {
+		target_id_2 = "970202",
+		sub_type = 302,
+		desc = "大型作战内使用孟菲斯.META击破等级>100的敌方1次",
+		id = 243,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -850,6 +922,11 @@ pg.task_meta_data_template = {
 		148,
 		149,
 		150,
+		151,
+		152,
+		153,
+		154,
+		155,
 		200,
 		201,
 		202,
@@ -890,6 +967,10 @@ pg.task_meta_data_template = {
 		237,
 		238,
 		239,
+		240,
+		241,
+		242,
+		243,
 		301,
 		302
 	}

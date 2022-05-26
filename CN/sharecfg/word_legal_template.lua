@@ -847,7 +847,18 @@ function temp()
 	uv0["孟"] = {
 		["菲"] = {
 			["斯"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1078,6 +1089,11 @@ function temp()
 		},
 		["欧"] = {
 			["根"] = {
+				this = true
+			}
+		},
+		["柴"] = {
+			["郡"] = {
 				this = true
 			}
 		}
@@ -1921,7 +1937,12 @@ function temp()
 		},
 		["角"] = {
 			["兽"] = {
-				this = true
+				this = true,
+				["."] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		}
 	}
@@ -5657,6 +5678,62 @@ function temp()
 			["根"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["贾"] = {
+		["维"] = {
+			["斯"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["司"] = {
+		["战"] = {
+			["女"] = {
+				["神"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["前"] = {
+		["卫"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["复"] = {
+		["仇"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["不"] = {
+		["挠"] = {
+			this = true
 		}
 	}
 end

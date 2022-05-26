@@ -2491,6 +2491,13 @@ pg.enemy_data_statistics_2 = {
 					1.14,
 					0
 				}
+			},
+			plane = {
+				{
+					1.8,
+					1.14,
+					0
+				}
 			}
 		},
 		smoke = {

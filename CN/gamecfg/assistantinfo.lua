@@ -26,6 +26,14 @@ slot1.assistantEvents = {
 		action = "idle_3",
 		dialog = "main_6"
 	},
+	idleRandom7 = {
+		action = "main_4",
+		dialog = "main_4"
+	},
+	idleRandom8 = {
+		action = "main_5",
+		dialog = "main_5"
+	},
 	event_complete = {
 		action = "complete",
 		dialog = "expedition"
@@ -89,6 +97,28 @@ slot1.assistantTouchEvents = {
 		"idleRandom6"
 	}
 }
+slot1.useNewTouchEventShip = {
+	[205131] = {
+		assistantTouchEventsNew = {
+			{
+				"TouchSpecial"
+			},
+			{
+				"TouchHead"
+			},
+			{
+				"TouchBody",
+				"idleRandom1",
+				"idleRandom2",
+				"idleRandom3",
+				"idleRandom4",
+				"idleRandom5",
+				"idleRandom6",
+				"idleRandom8"
+			}
+		}
+	}
+}
 slot1.action2Id = {
 	idle = 1,
 	main_1 = 2,
@@ -104,7 +134,9 @@ slot1.action2Id = {
 	wedding = 11,
 	complete = 5,
 	mission_complete = 10,
+	main_4 = 18,
 	diamond = 17,
+	main_5 = 19,
 	login = 6,
 	touch_head = 12
 }
@@ -151,9 +183,13 @@ function slot1.enable()
 	return HXSet.isHx()
 end
 
-function slot1.getAssistantTouchEvents(slot0)
+function slot1.getAssistantTouchEvents(slot0, slot1)
 	if uv0.enable() and uv0.assistantTouchParts[slot0] == "TouchSpecial" then
 		slot0 = 3
+	end
+
+	if uv0.useNewTouchEventShip and uv0.useNewTouchEventShip[slot1] then
+		return uv0.useNewTouchEventShip[slot1].assistantTouchEventsNew[slot0]
 	end
 
 	return uv0.assistantTouchEvents[slot0]

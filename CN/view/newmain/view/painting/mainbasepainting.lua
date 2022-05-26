@@ -302,7 +302,7 @@ function slot0.CollectTouchEvents(slot0)
 end
 
 function slot0.GetTouchEvent(slot0, slot1)
-	return uv0.filterAssistantEvents(uv0.getAssistantTouchEvents(slot1), slot0.ship.skinId, 0)
+	return uv0.filterAssistantEvents(uv0.getAssistantTouchEvents(slot1, slot0.ship.skinId), slot0.ship.skinId, 0)
 end
 
 function slot0.GetIdleEvents(slot0)

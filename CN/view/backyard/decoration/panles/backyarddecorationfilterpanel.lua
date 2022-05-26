@@ -50,6 +50,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.filterData = _.select(slot0.filterConfig.all, function (slot0)
 		return uv0.filterConfig[slot0].is_view == 1
 	end)
+	slot0.totalThemeCnt = #slot0.filterData
 	slot0.themes = pg.furniture_data_template.get_id_list_by_themeId
 end
 
