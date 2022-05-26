@@ -6,23 +6,25 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0._go = slot1
 	slot0._tf = slot1.transform
+	slot0.front = slot0:findTF("front")
 	slot0.goCG = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
-	slot0.asidePanel = slot0:findTF("aside_panel")
-	slot0.bgGlitch = slot0:findTF("bg_glitch")
-	slot0.oldPhoto = slot0:findTF("oldphoto"):GetComponent(typeof(Image))
-	slot0.bgPanel = slot0:findTF("bg")
+	slot0.asidePanel = slot0:findTF("front/aside_panel")
+	slot0.bgGlitch = slot0:findTF("back/bg_glitch")
+	slot0.oldPhoto = slot0:findTF("front/oldphoto"):GetComponent(typeof(Image))
+	slot0.bgPanel = slot0:findTF("back/bg")
 	slot0.bgPanelCg = slot0.bgPanel:GetComponent(typeof(CanvasGroup))
 	slot0.bgImage = slot0:findTF("image", slot0.bgPanel):GetComponent(typeof(Image))
-	slot0.dialoguePanel = slot0:findTF("dialogue")
-	slot0.effectPanel = slot0:findTF("effect")
-	slot0.curtain = slot0:findTF("curtain")
+	slot0.actorPanel = slot0:findTF("actor")
+	slot0.dialoguePanel = slot0:findTF("front/dialogue")
+	slot0.effectPanel = slot0:findTF("back/effect")
+	slot0.curtain = slot0:findTF("back/curtain")
 	slot0.curtainCg = slot0.curtain:GetComponent(typeof(CanvasGroup))
-	slot0.flash = slot0:findTF("flash")
+	slot0.flash = slot0:findTF("front/flash")
 	slot0.flashImg = slot0.flash:GetComponent(typeof(Image))
 	slot0.flashCg = slot0.flash:GetComponent(typeof(CanvasGroup))
-	slot0.optionUIlist = UIItemList.New(slot0:findTF("options_panel/options"), slot0:findTF("options_panel/options/option_tpl"))
-	slot0.optionPrint = slot0:findTF("options_panel/bg")
-	slot0.optionsCg = slot0:findTF("options_panel"):GetComponent(typeof(CanvasGroup))
+	slot0.optionUIlist = UIItemList.New(slot0:findTF("front/options_panel/options"), slot0:findTF("front/options_panel/options/option_tpl"))
+	slot0.optionPrint = slot0:findTF("front/options_panel/bg")
+	slot0.optionsCg = slot0:findTF("front/options_panel"):GetComponent(typeof(CanvasGroup))
 	slot0.bgs = {}
 	slot0.stop = false
 	slot0.pause = false
@@ -48,54 +50,56 @@ function slot0.Stop(slot0)
 	slot0:NextOneImmediately()
 end
 
-function slot0.Play(slot0, slot1, slot2, slot3)
+function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 	if not slot1 then
-		slot3()
+		slot4()
 
 		return
 	end
 
 	if slot1:GetNextScriptName() or slot0.stop then
-		slot3()
+		slot4()
 
 		return
 	end
 
 	if not slot1:GetStepByIndex(slot2) then
-		slot3()
+		slot4()
 
 		return
 	end
 
-	if slot4:ShouldJumpToNextScript() then
-		slot1:SetNextScriptName(slot4:GetNextScriptName())
-		slot3()
+	slot3:Init(slot5)
+
+	if slot5:ShouldJumpToNextScript() then
+		slot1:SetNextScriptName(slot5:GetNextScriptName())
+		slot4()
 
 		return
 	end
 
-	if slot1:ShouldSkipAll() and slot4:ExistOption() and not pg.NewStoryMgr.GetInstance():IsReView() then
+	if slot1:ShouldSkipAll() and slot5:ExistOption() and not pg.NewStoryMgr.GetInstance():IsReView() then
 		slot1:StopSkip()
 	elseif slot1:ShouldSkipAll() then
-		slot3()
+		slot4()
 
 		return
 	end
 
 	slot0.script = slot1
-	slot0.callback = slot3
-	slot0.step = slot4
+	slot0.callback = slot4
+	slot0.step = slot5
 	slot0.autoNext = slot1:GetAutoPlayFlag()
 	slot0.isRegisterEvent = false
 
-	if slot0.autoNext and slot4:IsImport() then
+	if slot0.autoNext and slot5:IsImport() then
 		slot0.autoNext = nil
 	end
 
 	slot0:SetTimeScale(1 - slot1:GetPlaySpeed() * 0.1)
 
-	slot5 = slot1:GetNextStep(slot2)
-	slot6 = slot1:GetPrevStep(slot2)
+	slot6 = slot1:GetNextStep(slot2)
+	slot7 = slot1:GetPrevStep(slot2)
 
 	seriesAsync({
 		function (slot0)
@@ -151,7 +155,12 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			end
 
 			if uv2:ExistOption() then
-				uv0:InitBranches(uv1, uv2, slot0, slot1)
+				slot2 = uv0
+
+				slot2:InitBranches(uv1, uv2, function (slot0)
+					uv0:SetOptionContent(slot0)
+					uv1()
+				end, slot1)
 			else
 				uv0:RegisetEvent(slot0)
 				slot1()
@@ -186,7 +195,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		function (slot0)
 			uv0:Clear(slot0)
 		end
-	}, slot3)
+	}, slot4)
 end
 
 function slot0.CanSkip(slot0)
@@ -248,7 +257,9 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 				end
 
 				uv2:SetBranchCode(uv3)
-				uv0:ShowOrHideBranches(false, uv4)
+				uv0:ShowOrHideBranches(false, function ()
+					uv0(uv1)
+				end)
 			end, SFX_PANEL)
 			setText(slot3:Find("Text"), uv0[slot1 + 1][1])
 			setActive(slot3, false)

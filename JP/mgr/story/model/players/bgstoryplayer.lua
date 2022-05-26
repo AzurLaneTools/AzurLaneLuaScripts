@@ -3,7 +3,7 @@ slot0 = class("BgStoryPlayer", import(".DialogueStoryPlayer"))
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
-	slot0.subImage = slot0:findTF("bg/sub"):GetComponent(typeof(Image))
+	slot0.subImage = slot0:findTF("sub", slot0.bgPanel):GetComponent(typeof(Image))
 	slot0.bgRecord = nil
 end
 
@@ -11,6 +11,7 @@ function slot0.Reset(slot0, slot1, slot2)
 	uv0.super.super.Reset(slot0, slot1, slot2)
 	setActive(slot0.bgPanel, true)
 	setActive(slot0.subImage.gameObject, false)
+	setActive(slot0.actorPanel, false)
 	slot0:RecyclePainting({
 		"actorLeft",
 		"actorMiddle",

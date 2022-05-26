@@ -14,15 +14,27 @@ function slot0.OnInit(slot0)
 	setActive(slot0._tf:Find("window_2/has_guild"), slot2)
 	setActive(slot0._tf:Find("window_2/without"), not slot2)
 
+	slot3 = slot0._tf:Find("window_2/" .. (slot2 and "has_guild" or "without"))
+
 	if slot2 then
-		setText(slot0._tf:Find("window_2/has_guild/chapter_name/Text"), "「" .. slot0.summaryInfoVO.chapterName .. "」")
-		setText(slot0._tf:Find("window_2/has_guild/guild_name/Text"), "「" .. slot0.summaryInfoVO.guildName .. "」")
+		setText(slot3:Find("guild_name/Text"), "「" .. slot0.summaryInfoVO.guildName .. "」")
+	end
+
+	setText(slot3:Find("chapter_name/Text"), "「" .. slot0.summaryInfoVO.chapterName .. "」")
+
+	if slot0.summaryInfoVO.worldProgressTask > 0 then
+		setText(slot3:Find("world_name/Text"), i18n("five_shujuhuigu1", "「" .. pg.world_task_data[slot0.summaryInfoVO.worldProgressTask].name .. "」"))
 	else
-		setText(slot0._tf:Find("window_2/without/chapter_name/Text"), "「" .. slot0.summaryInfoVO.chapterName .. "」")
+		setText(slot3:Find("world_name/Text"), i18n("five_shujuhuigu"))
 	end
 
 	setText(slot0._tf:Find("window_3/count/Text"), slot0.summaryInfoVO.furnitureCount)
 	setText(slot0._tf:Find("window_3/coin/Text"), slot0.summaryInfoVO.furnitureWorth)
+	setText(slot0._tf:Find("window_4/collection/Text"), slot0.summaryInfoVO.collectionNum)
+	setText(slot0._tf:Find("window_4/power/Text"), slot0.summaryInfoVO.powerRaw)
+	setText(slot0._tf:Find("window_4/ship/Text"), slot0.summaryInfoVO.totalShipNum)
+	setText(slot0._tf:Find("window_4/top_ship/Text"), slot0.summaryInfoVO.topShipNum)
+	setText(slot0._tf:Find("window_4/best_ship/Text"), slot0.summaryInfoVO.bestShipNum)
 end
 
 return slot0

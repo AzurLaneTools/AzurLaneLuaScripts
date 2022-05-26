@@ -27035,6 +27035,290 @@ _G.pg.base.task_data_template[5757] = {
 	}
 }
 
+_G.pg.base.task_data_template[5761] = {
+	name = "ヘレナが、キャンディー？",
+	guild_coin_award = 0,
+	award = 5548,
+	type = 5,
+	desc = "魚雷天ぷらを3個準備する（消費）",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5762",
+	auto_commit = 0,
+	story_id = "HAILUNNA1",
+	id = 5761,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5762] = {
+	name = "嵐が来る",
+	guild_coin_award = 0,
+	award = 5549,
+	type = 5,
+	desc = "任意の艦を10回強化する",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5763",
+	auto_commit = 0,
+	scene = "",
+	id = 5762,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5763] = {
+	name = "揺らめく灯火・上",
+	guild_coin_award = 0,
+	award = 5550,
+	type = 5,
+	desc = "ヘレナを含めた艦隊で出撃し、20回勝利する",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10205",
+	priority_type = 0,
+	next_task = "5764",
+	auto_commit = 0,
+	scene = "",
+	id = 5763,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5764] = {
+	name = "揺らめく灯火・上",
+	guild_coin_award = 0,
+	award = 5551,
+	type = 5,
+	desc = "ヘレナを含めた艦隊で3回デイリーチャレンジをクリアする",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10205",
+	priority_type = 0,
+	next_task = "5765",
+	auto_commit = 0,
+	scene = "",
+	id = 5764,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5765] = {
+	name = "嵐のソナタ：第1楽章",
+	guild_coin_award = 0,
+	award = 5552,
+	type = 5,
+	desc = "ヘレナの親密度が100に到達",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10205",
+	priority_type = 0,
+	next_task = "5766",
+	auto_commit = 0,
+	scene = "",
+	id = 5765,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16022,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5766] = {
+	name = "嵐のソナタ：第2楽章",
+	guild_coin_award = 0,
+	award = 5553,
+	type = 5,
+	desc = "ヘレナを3回限界突破する",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "102054",
+	priority_type = 0,
+	next_task = "5767",
+	auto_commit = 0,
+	scene = "",
+	id = 5766,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5767] = {
+	name = "嵐のソナタ：エピローグ",
+	guild_coin_award = 0,
+	award = 5554,
+	type = 5,
+	desc = "ヘレナのレベルが100に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10205",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5767,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困難・近海演習",
 	guild_coin_award = 0,
@@ -166739,6 +167023,4945 @@ _G.pg.base.task_data_template[17601] = {
 	}
 }
 
+_G.pg.base.task_data_template[17610] = {
+	name = "『前卫』角色收集：前卫",
+	guild_coin_award = 0,
+	award = 97380,
+	type = 6,
+	desc = "艦船「ヴァンガード」を入手",
+	count_inherit = 0,
+	sub_type = 1014,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17610,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		20513
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			800
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17611] = {
+	name = "『前卫』角色收集：贾维斯",
+	guild_coin_award = 0,
+	award = 97381,
+	type = 6,
+	desc = "「ジャーヴィス」を3回限界突破する",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "201344",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17611,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			600
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17612] = {
+	name = "『前卫』角色收集：不挠",
+	guild_coin_award = 0,
+	award = 97382,
+	type = 6,
+	desc = "「インドミタブル」を3回限界突破する",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "207124",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17612,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			600
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17613] = {
+	name = "『前卫』角色收集：复仇",
+	guild_coin_award = 0,
+	award = 97383,
+	type = 6,
+	desc = "「リヴェンジ」を3回限界突破する",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "205114",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17613,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			400
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17614] = {
+	name = "『前卫』角色收集：司战女神",
+	guild_coin_award = 0,
+	award = 97384,
+	type = 6,
+	desc = "「ベローナ」を3回限界突破する",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "202314",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17614,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			400
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17615] = {
+	name = "『前卫』角色刷关：反击",
+	guild_coin_award = 0,
+	award = 97385,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "☆5レパルスを含む艦隊で限定海域A2/C2中枢艦隊10回撃破（レパルスが戦闘不能にならない）",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17615,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650113,
+		1652113
+	},
+	target_id_2 = {
+		204024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			100
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17616] = {
+	name = "『前卫』角色刷关：声望",
+	guild_coin_award = 0,
+	award = 97386,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "☆5レナウンを含む艦隊で限定海域A3/C3中枢艦隊10回撃破（レナウンが戦闘不能にならない）",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17616,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650213,
+		1652213
+	},
+	target_id_2 = {
+		204014
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17617] = {
+	name = "『前卫』角色刷关：谢菲尔德",
+	guild_coin_award = 0,
+	award = 97387,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "☆5シェフィールドを含む艦隊で限定海域B2/D2中枢艦隊10回撃破（シェフィールドが戦闘不能にならない）",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17617,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1651113,
+		1653113
+	},
+	target_id_2 = {
+		202084
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17618] = {
+	name = "『前卫』角色刷关：厌战",
+	guild_coin_award = 0,
+	award = 97388,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "☆6ウォースパイトを含む艦隊で限定海域B3/D3中枢艦隊10回撃破（ウォースパイトが戦闘不能にならない）",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17618,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1651213,
+		1651214,
+		1653213,
+		1653214
+	},
+	target_id_2 = {
+		205024,
+		205124
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17619] = {
+	name = "『前卫』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97397,
+	type = 6,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17619,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			261,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17620] = {
+	name = "小柴郡通常任务1",
+	guild_coin_award = 0,
+	award = 97405,
+	type = 26,
+	desc = "艦隊を出撃させ、20回勝利せよ！",
+	count_inherit = 17621,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17621",
+	auto_commit = 0,
+	story_id = "",
+	id = 17620,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17621] = {
+	name = "小柴郡通常任务2",
+	guild_coin_award = 0,
+	award = 97406,
+	type = 26,
+	desc = "艦隊を出撃させ、40回勝利せよ！",
+	count_inherit = 17622,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17622",
+	auto_commit = 0,
+	story_id = "",
+	id = 17621,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17622] = {
+	name = "小柴郡通常任务3",
+	guild_coin_award = 0,
+	award = 97407,
+	type = 26,
+	desc = "艦隊を出撃させ、60回勝利せよ！",
+	count_inherit = 17623,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17623",
+	auto_commit = 0,
+	story_id = "",
+	id = 17622,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17623] = {
+	name = "小柴郡通常任务4",
+	guild_coin_award = 0,
+	award = 97408,
+	type = 26,
+	desc = "艦隊を出撃させ、80回勝利せよ！",
+	count_inherit = 17624,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17624",
+	auto_commit = 0,
+	story_id = "",
+	id = 17623,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17624] = {
+	name = "小柴郡通常任务5",
+	guild_coin_award = 0,
+	award = 97409,
+	type = 26,
+	desc = "艦隊を出撃させ、100回勝利せよ！",
+	count_inherit = 17625,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17625",
+	auto_commit = 0,
+	story_id = "",
+	id = 17624,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17625] = {
+	name = "小柴郡通常任务6",
+	guild_coin_award = 0,
+	award = 97410,
+	type = 26,
+	desc = "艦隊を出撃させ、120回勝利せよ！",
+	count_inherit = 17626,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17626",
+	auto_commit = 0,
+	story_id = "",
+	id = 17625,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17626] = {
+	name = "小柴郡通常任务7",
+	guild_coin_award = 0,
+	award = 97411,
+	type = 26,
+	desc = "艦隊を出撃させ、140回勝利せよ！",
+	count_inherit = 17627,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17627",
+	auto_commit = 0,
+	story_id = "",
+	id = 17626,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17627] = {
+	name = "小柴郡通常任务8",
+	guild_coin_award = 0,
+	award = 97412,
+	type = 26,
+	desc = "艦隊を出撃させ、160回勝利せよ！",
+	count_inherit = 17628,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17628",
+	auto_commit = 0,
+	story_id = "",
+	id = 17627,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17628] = {
+	name = "小柴郡通常任务9",
+	guild_coin_award = 0,
+	award = 97413,
+	type = 26,
+	desc = "艦隊を出撃させ、180回勝利せよ！",
+	count_inherit = 17629,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17629",
+	auto_commit = 0,
+	story_id = "",
+	id = 17628,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17629] = {
+	name = "小柴郡通常任务10",
+	guild_coin_award = 0,
+	award = 97414,
+	type = 26,
+	desc = "艦隊を出撃させ、200回勝利せよ！",
+	count_inherit = 17630,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17630",
+	auto_commit = 0,
+	story_id = "",
+	id = 17629,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17630] = {
+	name = "小柴郡通常任务11",
+	guild_coin_award = 0,
+	award = 97415,
+	type = 26,
+	desc = "艦隊を出撃させ、240回勝利せよ！",
+	count_inherit = 17631,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17631",
+	auto_commit = 0,
+	story_id = "",
+	id = 17630,
+	target_num = 240,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17631] = {
+	name = "小柴郡通常任务12",
+	guild_coin_award = 0,
+	award = 97416,
+	type = 26,
+	desc = "艦隊を出撃させ、280回勝利せよ！",
+	count_inherit = 17632,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17632",
+	auto_commit = 0,
+	story_id = "",
+	id = 17631,
+	target_num = 280,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17632] = {
+	name = "小柴郡通常任务13",
+	guild_coin_award = 0,
+	award = 97417,
+	type = 26,
+	desc = "艦隊を出撃させ、320回勝利せよ！",
+	count_inherit = 17633,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17633",
+	auto_commit = 0,
+	story_id = "",
+	id = 17632,
+	target_num = 320,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17633] = {
+	name = "小柴郡通常任务14",
+	guild_coin_award = 0,
+	award = 97418,
+	type = 26,
+	desc = "艦隊を出撃させ、360回勝利せよ！",
+	count_inherit = 17634,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17634",
+	auto_commit = 0,
+	story_id = "",
+	id = 17633,
+	target_num = 360,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17634] = {
+	name = "小柴郡通常任务15",
+	guild_coin_award = 0,
+	award = 97419,
+	type = 26,
+	desc = "艦隊を出撃させ、400回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17634,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17635] = {
+	name = "小柴郡通常任务16",
+	guild_coin_award = 0,
+	award = 97420,
+	type = 26,
+	desc = "リトル・チェシャーを含めた艦隊で出撃し、20回勝利する",
+	count_inherit = 17636,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17636",
+	auto_commit = 0,
+	story_id = "",
+	id = 17635,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17636] = {
+	name = "小柴郡通常任务17",
+	guild_coin_award = 0,
+	award = 97421,
+	type = 26,
+	desc = "リトル・チェシャーを含めた艦隊で出撃し、40回勝利する",
+	count_inherit = 17637,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17637",
+	auto_commit = 0,
+	story_id = "",
+	id = 17636,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17637] = {
+	name = "小柴郡通常任务18",
+	guild_coin_award = 0,
+	award = 97422,
+	type = 26,
+	desc = "リトル・チェシャーを含めた艦隊で出撃し、60回勝利する",
+	count_inherit = 17638,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17638",
+	auto_commit = 0,
+	story_id = "",
+	id = 17637,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17638] = {
+	name = "小柴郡通常任务19",
+	guild_coin_award = 0,
+	award = 97423,
+	type = 26,
+	desc = "リトル・チェシャーを含めた艦隊で出撃し、80回勝利する",
+	count_inherit = 17639,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17639",
+	auto_commit = 0,
+	story_id = "",
+	id = 17638,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17639] = {
+	name = "小柴郡通常任务20",
+	guild_coin_award = 0,
+	award = 97424,
+	type = 26,
+	desc = "リトル・チェシャーを含めた艦隊で出撃し、100回勝利する",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17639,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17640] = {
+	name = "小柴郡通常任务21",
+	guild_coin_award = 0,
+	award = 97425,
+	type = 26,
+	desc = "リトル・チェシャーのレベルが10に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17641",
+	auto_commit = 0,
+	story_id = "",
+	id = 17640,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17641] = {
+	name = "小柴郡通常任务22",
+	guild_coin_award = 0,
+	award = 97426,
+	type = 26,
+	desc = "リトル・チェシャーのレベルが20に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17642",
+	auto_commit = 0,
+	story_id = "",
+	id = 17641,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17642] = {
+	name = "小柴郡通常任务23",
+	guild_coin_award = 0,
+	award = 97427,
+	type = 26,
+	desc = "リトル・チェシャーのレベルが30に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17643",
+	auto_commit = 0,
+	story_id = "",
+	id = 17642,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17643] = {
+	name = "小柴郡通常任务24",
+	guild_coin_award = 0,
+	award = 97428,
+	type = 26,
+	desc = "リトル・チェシャーのレベルが40に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17644",
+	auto_commit = 0,
+	story_id = "",
+	id = 17643,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17644] = {
+	name = "小柴郡通常任务25",
+	guild_coin_award = 0,
+	award = 97429,
+	type = 26,
+	desc = "リトル・チェシャーのレベルが50に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17645",
+	auto_commit = 0,
+	story_id = "",
+	id = 17644,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17645] = {
+	name = "小柴郡通常任务26",
+	guild_coin_award = 0,
+	award = 97430,
+	type = 26,
+	desc = "リトル・チェシャーのレベルが70に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17646",
+	auto_commit = 0,
+	story_id = "",
+	id = 17645,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17646] = {
+	name = "小柴郡通常任务27",
+	guild_coin_award = 0,
+	award = 97431,
+	type = 26,
+	desc = "リトル・チェシャーのレベルが90に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17647",
+	auto_commit = 0,
+	story_id = "",
+	id = 17646,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17647] = {
+	name = "小柴郡通常任务28",
+	guild_coin_award = 0,
+	award = 97432,
+	type = 26,
+	desc = "リトル・チェシャーのレベルが100に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17647,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17648] = {
+	name = "小柴郡通常任务29",
+	guild_coin_award = 0,
+	award = 97433,
+	type = 26,
+	desc = "「リトル・チェシャー」を1回限界突破する",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17649",
+	auto_commit = 0,
+	story_id = "",
+	id = 17648,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17649] = {
+	name = "小柴郡通常任务30",
+	guild_coin_award = 0,
+	award = 97434,
+	type = 26,
+	desc = "「リトル・チェシャー」を2回限界突破する",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17650",
+	auto_commit = 0,
+	story_id = "",
+	id = 17649,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17650] = {
+	name = "小柴郡通常任务31",
+	guild_coin_award = 0,
+	award = 97435,
+	type = 26,
+	desc = "「リトル・チェシャー」を3回限界突破する",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17650,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			2000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17651] = {
+	name = "小柴郡每日任务1",
+	guild_coin_award = 0,
+	award = 97436,
+	type = 36,
+	desc = "艦を出撃させ、戦闘15回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17651,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17652] = {
+	name = "小柴郡每日任务2",
+	guild_coin_award = 0,
+	award = 97437,
+	type = 36,
+	desc = "通常海域ハードを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17652,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17653] = {
+	name = "小柴郡npc临时加入",
+	guild_coin_award = 0,
+	award = 97438,
+	type = 6,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17653,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			203101,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17654] = {
+	name = "『女仆皮肤活动』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97493,
+	type = 14,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17654,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30331,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17655] = {
+	name = "『女仆皮肤活动』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97493,
+	type = 14,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17655,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30331,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17656] = {
+	name = "『女仆皮肤活动』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97493,
+	type = 14,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17656,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30331,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17657] = {
+	name = "『前卫活动』通关EX",
+	guild_coin_award = 0,
+	award = 97494,
+	type = 6,
+	desc = "エクストラステージをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1650051",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17657,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1640026,
+			chapterId = 1640051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17658] = {
+	name = "『前卫活动』-日常建造",
+	guild_coin_award = 0,
+	award = 97495,
+	type = 36,
+	desc = "艦を3隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17658,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59316,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17659] = {
+	name = "『前卫活动』-日常出击",
+	guild_coin_award = 0,
+	award = 97496,
+	type = 36,
+	desc = "艦を出撃させ、戦闘15回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17659,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59316,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17660] = {
+	name = "『前卫活动』-日常困难本",
+	guild_coin_award = 0,
+	award = 97497,
+	type = 36,
+	desc = "通常海域ハードを1回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17660,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59316,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17661] = {
+	name = "『前卫活动』通关A1/C1",
+	guild_coin_award = 0,
+	award = 97498,
+	type = 6,
+	desc = "イベントステージA1かC1をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17662",
+	auto_commit = 0,
+	story_id = "",
+	id = 17661,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650001,
+		1650021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59316,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17662] = {
+	name = "『前卫活动』通关A2/C2",
+	guild_coin_award = 0,
+	award = 97499,
+	type = 6,
+	desc = "イベントステージA2かC2をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17663",
+	auto_commit = 0,
+	story_id = "",
+	id = 17662,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650002,
+		1650022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59316,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17663] = {
+	name = "『前卫活动』通关A3/C3",
+	guild_coin_award = 0,
+	award = 97500,
+	type = 6,
+	desc = "イベントステージA3かC3をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17664",
+	auto_commit = 0,
+	story_id = "",
+	id = 17663,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650003,
+		1650023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59316,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17664] = {
+	name = "『前卫活动』通关B1/D1",
+	guild_coin_award = 0,
+	award = 97501,
+	type = 6,
+	desc = "イベントステージB1かD1をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17665",
+	auto_commit = 0,
+	story_id = "",
+	id = 17664,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650004,
+		1650024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59316,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17665] = {
+	name = "『前卫活动』通关B2/D2",
+	guild_coin_award = 0,
+	award = 97502,
+	type = 6,
+	desc = "イベントステージB2かD2をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17666",
+	auto_commit = 0,
+	story_id = "",
+	id = 17665,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650005,
+		1650025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59316,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17666] = {
+	name = "『前卫活动』通关B3/D3",
+	guild_coin_award = 0,
+	award = 97503,
+	type = 6,
+	desc = "イベントステージB3かD3をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17667",
+	auto_commit = 0,
+	story_id = "",
+	id = 17666,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650006,
+		1650026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59316,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17667] = {
+	name = "『前卫活动』通关SP",
+	guild_coin_award = 0,
+	award = 97504,
+	type = 6,
+	desc = "イベントステージSPをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1650041",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17667,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1650025,
+			chapterId = 1650041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17668] = {
+	name = "『前卫活动』通关D3",
+	guild_coin_award = 0,
+	award = 97505,
+	type = 6,
+	desc = "イベントステージD3をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1650026",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17668,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			226,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1650012,
+			chapterId = 1650026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17669] = {
+	name = "『前卫活动』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 97506,
+	type = 6,
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17670",
+	auto_commit = 0,
+	story_id = "",
+	id = 17669,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650001,
+		1650021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17670] = {
+	name = "『前卫活动』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 97507,
+	type = 6,
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17671",
+	auto_commit = 0,
+	story_id = "",
+	id = 17670,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650002,
+		1650022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17671] = {
+	name = "『前卫活动』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 97508,
+	type = 6,
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17672",
+	auto_commit = 0,
+	story_id = "",
+	id = 17671,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650003,
+		1650023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17672] = {
+	name = "『前卫活动』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 97509,
+	type = 6,
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17673",
+	auto_commit = 0,
+	story_id = "",
+	id = 17672,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650004,
+		1650024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17673] = {
+	name = "『前卫活动』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 97510,
+	type = 6,
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17674",
+	auto_commit = 0,
+	story_id = "",
+	id = 17673,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650005,
+		1650025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17674] = {
+	name = "『前卫活动』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 97511,
+	type = 6,
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17674,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650006,
+		1650026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17675] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97570,
+	type = 26,
+	desc = "艦隊を出撃させ、25回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17675,
+	target_num = 25,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17676] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97571,
+	type = 26,
+	desc = "戦術教室で戦術訓練を6回遂行せよ",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17676,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17677] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97572,
+	type = 26,
+	desc = "艦隊を出撃させ、敵中枢艦隊を5回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17677,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17678] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97573,
+	type = 26,
+	desc = "演習を10回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17678,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17679] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97574,
+	type = 26,
+	desc = "敵艦を250隻撃沈せよ！",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17679,
+	target_num = 250,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17680] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97575,
+	type = 26,
+	desc = "艦隊を出撃させ、35回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17680,
+	target_num = 35,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17681] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97576,
+	type = 26,
+	desc = "軍事委託を10回遂行する",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17681,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17682] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97577,
+	type = 26,
+	desc = "艦隊を出撃させ、敵中枢艦隊を8回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17682,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17683] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97578,
+	type = 26,
+	desc = "「強化」を20回行う",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17683,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17684] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97579,
+	type = 26,
+	desc = "敵艦を350隻撃沈せよ！",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17684,
+	target_num = 350,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17685] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97580,
+	type = 26,
+	desc = "艦隊を出撃させ、45回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17685,
+	target_num = 45,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17686] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 97581,
+	type = 26,
+	desc = "デイリーチャレンジを3回クリアする",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17686,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17687] = {
+	name = "召集者任务可获得PT：40",
+	guild_coin_award = 0,
+	award = 97582,
+	type = 26,
+	desc = "艦隊を出撃させ、敵中枢艦隊を10回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17687,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			40
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17688] = {
+	name = "召集者任务可获得PT：40",
+	guild_coin_award = 0,
+	award = 97583,
+	type = 26,
+	desc = "敵艦を500隻撃沈せよ！",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17688,
+	target_num = 500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			40
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17689] = {
+	name = "現役指揮官入手Pt：30",
+	guild_coin_award = 0,
+	award = 97512,
+	type = 26,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17689,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			14,
+			301,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17690] = {
+	name = "現役指揮官入手Pt：30",
+	guild_coin_award = 0,
+	award = 97513,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17690,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30305,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17691] = {
+	name = "現役指揮官入手Pt：30",
+	guild_coin_award = 0,
+	award = 97514,
+	type = 26,
+	desc = "建造を1回行う",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17691,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42030,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17692] = {
+	name = "現役指揮官入手Pt：30",
+	guild_coin_award = 0,
+	award = 97515,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17692,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17693] = {
+	name = "現役指揮官入手Pt：25",
+	guild_coin_award = 0,
+	award = 97516,
+	type = 26,
+	desc = "寮舎で食糧を5回補充する",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17693,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50005,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17694] = {
+	name = "現役指揮官入手Pt：25",
+	guild_coin_award = 0,
+	award = 97517,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17694,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30310,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17695] = {
+	name = "現役指揮官入手Pt：25",
+	guild_coin_award = 0,
+	award = 97518,
+	type = 26,
+	desc = "デイリーチャレンジを3回クリアする",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17695,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17696] = {
+	name = "現役指揮官入手Pt：25",
+	guild_coin_award = 0,
+	award = 97519,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17696,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17697] = {
+	name = "現役指揮官入手Pt：20",
+	guild_coin_award = 0,
+	award = 97520,
+	type = 26,
+	desc = "軍事委託を3回行う",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17697,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15003,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17698] = {
+	name = "現役指揮官入手Pt：20",
+	guild_coin_award = 0,
+	award = 97521,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17698,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			15,
+			301,
+			1
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17699] = {
+	name = "現役指揮官入手Pt：20",
+	guild_coin_award = 0,
+	award = 97522,
+	type = 26,
+	desc = "艦を5回「強化」せよ！",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17699,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17700] = {
+	name = "現役指揮官入手Pt：20",
+	guild_coin_award = 0,
+	award = 97523,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17700,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17701] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 97524,
+	type = 26,
+	desc = "演習を2回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17701,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17702] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 97525,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17702,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30309,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17703] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 97526,
+	type = 26,
+	desc = "建造を1回行う",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17703,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42030,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17704] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 97527,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17704,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17705] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 97528,
+	type = 26,
+	desc = "寮舎で食糧を5回補充する",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17705,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50006,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17706] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 97529,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17706,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17707] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 97530,
+	type = 26,
+	desc = "軍事委託を3回行う",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17707,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15003,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17708] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 97531,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17708,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42030,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17709] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 97532,
+	type = 26,
+	desc = "デイリーチャレンジを3回クリアする",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17709,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17710] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 97533,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17710,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17711] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 97534,
+	type = 26,
+	desc = "艦を5回「強化」せよ！",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17711,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17712] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 97535,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17712,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17713] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 97536,
+	type = 26,
+	desc = "演習を2回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17713,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42030,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17714] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 97537,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17714,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17715] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 97538,
+	type = 26,
+	desc = "建造を1回行う",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17715,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17716] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 97539,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17716,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30307,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17717] = {
+	name = "『前卫活动』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 97584,
+	type = 6,
+	desc = "装備外装箱（東煌モダン）を20個開ける",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30334",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17717,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30504,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "戦闘勝利-日常",
 	guild_coin_award = 0,
@@ -188802,6 +194025,3766 @@ _G.pg.base.task_data_template[41414] = {
 		{
 			1,
 			4004,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41415] = {
+	name = "五期·【通行证第一周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "艦隊を出撃させ、60回A評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 23,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41415,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41416] = {
+	name = "五期·【通行证第一周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "装備を10回強化する",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41416,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41417] = {
+	name = "五期·【通行证第一周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "寮舎食料を30000補充する",
+	count_inherit = 0,
+	sub_type = 60,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41417,
+	target_num = 30000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41418] = {
+	name = "五期·【通行证第一周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "任意の装備箱を20個開けよ！",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41418,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41419] = {
+	name = "五期·【通行证第一周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "「艦船経験値パックT1」を40個使用する",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "16501",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41419,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41420] = {
+	name = "五期·【通行证第一周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "装備を60回「廃棄」せよ！",
+	count_inherit = 0,
+	sub_type = 41,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41420,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41421] = {
+	name = "五期·【通行证第一周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "シーズン任務の週次任務（一週目）を全クリア",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41421,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41415,
+		41416,
+		41417,
+		41418,
+		41419,
+		41420
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41422] = {
+	name = "五期·【通行证第二周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "艦隊を出撃させ、敵中枢艦隊を20回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41422,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41423] = {
+	name = "五期·【通行证第二周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "コアデータを累計150個入手する",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "59900",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41423,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41424] = {
+	name = "五期·【通行证第二周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "軍事委託を15回行う",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41424,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41425] = {
+	name = "五期·【通行证第二周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "デイリーチャレンジを12回行う",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41425,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41426] = {
+	name = "五期·【通行证第二周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "高速建造材を20個消費する",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "15003",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41426,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"GETBOAT"
+	}
+}
+
+_G.pg.base.task_data_template[41427] = {
+	name = "五期·【通行证第二周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "物資拠出Ⅰ任務を12回クリアする",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41427,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41428] = {
+	name = "五期·【通行证第二周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "シーズン任務の週次任務（二週目）を全クリア",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41428,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41422,
+		41423,
+		41424,
+		41425,
+		41426,
+		41427
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41429] = {
+	name = "五期·【通行证第三周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "艦隊を出撃させ、80回勝利する",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41429,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41430] = {
+	name = "五期·【通行证第三周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "艦を5隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41430,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41431] = {
+	name = "五期·【通行证第三周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "キューブを10個入手する",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41431,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41432] = {
+	name = "五期·【通行证第三周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "通常海域ハードを12回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41432,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41433] = {
+	name = "五期·【通行证第三周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "戦術訓練（スキル強化）を20回行う",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41433,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41434] = {
+	name = "五期·【通行证第三周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "演習を30回行おう！",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41434,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41435] = {
+	name = "五期·【通行证第三周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "シーズン任務の週次任務（三週目）を全クリア",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41435,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41429,
+		41430,
+		41431,
+		41432,
+		41433,
+		41434
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41436] = {
+	name = "五期·【通行证第四周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "セイレーン作戦のエリアに出撃し、5回戦闘を行う",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41436,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41437] = {
+	name = "五期·【通行证第四周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "艦を15隻退役する",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41437,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41438] = {
+	name = "五期·【通行证第四周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "科学研究を10回行う",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41438,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41439] = {
+	name = "五期·【通行证第四周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "任意の敵を1600隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41439,
+	target_num = 1600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41440] = {
+	name = "五期·【通行证第四周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "オフニャを20回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41440,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41441] = {
+	name = "五期·【通行证第四周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "ウィークリー任務Ptを800貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41441,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41442] = {
+	name = "五期·【通行证第四周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "シーズン任務の週次任務（四週目）を全クリア",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41442,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41436,
+		41437,
+		41438,
+		41439,
+		41440,
+		41441
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41443] = {
+	name = "五期·【通行证第五周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "任意の装備箱を10個開けよ！",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41443,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41444] = {
+	name = "五期·【通行证第五周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "「艦船経験値パックT1」を20個使用する",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "16501",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41444,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41445] = {
+	name = "五期·【通行证第五周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "装備を30回「廃棄」せよ！",
+	count_inherit = 0,
+	sub_type = 41,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41445,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41446] = {
+	name = "五期·【通行证第五周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、120回A評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 23,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41446,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41447] = {
+	name = "五期·【通行证第五周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "装備を20回強化する",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41447,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41448] = {
+	name = "五期·【通行证第五周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "寮舎食料を60000補充する",
+	count_inherit = 0,
+	sub_type = 60,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41448,
+	target_num = 60000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41449] = {
+	name = "五期·【通行证第五周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "シーズン任務の週次任務（五週目）を全クリア",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41449,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41443,
+		41444,
+		41445,
+		41446,
+		41447,
+		41448
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41450] = {
+	name = "五期·【通行证第六周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "デイリーチャレンジを6回行う",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41450,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41451] = {
+	name = "五期·【通行证第六周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "高速建造材を10個消費する",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "15003",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41451,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"GETBOAT"
+	}
+}
+
+_G.pg.base.task_data_template[41452] = {
+	name = "五期·【通行证第六周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "物資拠出Ⅰ任務を6回クリアする",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41452,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41453] = {
+	name = "五期·【通行证第六周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、敵中枢艦隊を40回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41453,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41454] = {
+	name = "五期·【通行证第六周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "コアデータを累計300個入手する",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "59900",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41454,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41455] = {
+	name = "五期·【通行证第六周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "軍事委託を30回行う",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41455,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41456] = {
+	name = "五期·【通行证第六周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "シーズン任務の週次任務（六週目）を全クリア",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41456,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41450,
+		41451,
+		41452,
+		41453,
+		41454,
+		41455
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41457] = {
+	name = "五期·【通行证第七周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "通常海域ハードを6回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41457,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41458] = {
+	name = "五期·【通行证第七周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "戦術訓練（スキル強化）を10回行う",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41458,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41459] = {
+	name = "五期·【通行证第七周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "演習を15回行おう！",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41459,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41460] = {
+	name = "五期·【通行证第七周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、160回勝利する",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41460,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41461] = {
+	name = "五期·【通行证第七周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を10隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41461,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41462] = {
+	name = "五期·【通行证第七周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "キューブを20個入手する",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41462,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41463] = {
+	name = "五期·【通行证第七周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "シーズン任務の週次任務（七週目）を全クリア",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41463,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41457,
+		41458,
+		41459,
+		41460,
+		41461,
+		41462
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41464] = {
+	name = "五期·【通行证第八周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "任意の敵を800隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41464,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41465] = {
+	name = "五期·【通行证第八周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "オフニャを10回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41465,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41466] = {
+	name = "五期·【通行证第八周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "ウィークリー任務Ptを400貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41466,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41467] = {
+	name = "五期·【通行证第八周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "セイレーン作戦のエリアに出撃し、10回戦闘を行う",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41467,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41468] = {
+	name = "五期·【通行证第八周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を30隻退役する",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41468,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41469] = {
+	name = "五期·【通行证第八周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "科学研究を20回行う",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41469,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41470] = {
+	name = "五期·【通行证第八周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "シーズン任務の週次任務（八週目）を全クリア",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41470,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41464,
+		41465,
+		41466,
+		41467,
+		41468,
+		41469
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41471] = {
+	name = "五期·【通行证SP】累计周任务PT1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "ウィークリー任務Ptを100貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41471,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41472] = {
+	name = "五期·【通行证SP】累计周任务PT2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "ウィークリー任務Ptを300貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41472,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41473] = {
+	name = "五期·【通行证SP】累计周任务PT3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "ウィークリー任務Ptを600貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41473,
+	target_num = 600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41474] = {
+	name = "五期·【通行证SP】累计周任务PT4",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "ウィークリー任務Ptを1000貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41474,
+	target_num = 1000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41475] = {
+	name = "五期·【通行证SP】累计周任务PT5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "ウィークリー任務Ptを1500貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41475,
+	target_num = 1500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41476] = {
+	name = "五期·【通行证SP】累计周任务PT6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "ウィークリー任務Ptを2000貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41476,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41477] = {
+	name = "五期·【通行证SP】累计周任务PT7",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "ウィークリー任務Ptを2500貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41477,
+	target_num = 2500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41478] = {
+	name = "五期·【通行证SP】累计周任务PT8",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "ウィークリー任務Ptを3000貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41478,
+	target_num = 3000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41479] = {
+	name = "五期·【通行证SP】累计周任务PT9",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "ウィークリー任務Ptを4000貯める",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41479,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41480] = {
+	name = "五期·【通行证SP】累计建造1",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を10隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41480,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41481] = {
+	name = "五期·【通行证SP】累计建造2",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を20隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41481,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41482] = {
+	name = "五期·【通行证SP】累计建造3",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を30隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41482,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41483] = {
+	name = "五期·【通行证SP】累计建造4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を40隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41483,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41484] = {
+	name = "五期·【通行证SP】累计建造5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を50隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41484,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41485] = {
+	name = "五期·【通行证SP】累计建造6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を60隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41485,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41486] = {
+	name = "五期·【通行证SP】累计建造7",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を70隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41486,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41487] = {
+	name = "五期·【通行证SP】累计建造8",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦を80隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41487,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41488] = {
+	name = "五期·【通行证SP】累计消耗石油1",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "燃料を2000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41488,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41489] = {
+	name = "五期·【通行证SP】累计消耗石油2",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "燃料を4000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41489,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41490] = {
+	name = "五期·【通行证SP】累计消耗石油3",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "燃料を6000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41490,
+	target_num = 6000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41491] = {
+	name = "五期·【通行证SP】累计消耗石油4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "燃料を8000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41491,
+	target_num = 8000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41492] = {
+	name = "五期·【通行证SP】累计消耗石油5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "燃料を10000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41492,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41493] = {
+	name = "五期·【通行证SP】累计消耗石油6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "燃料を12000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41493,
+	target_num = 12000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41494] = {
+	name = "五期·【通行证SP】累计消耗石油7",
+	guild_coin_award = 0,
+	award = 100816,
+	type = 6,
+	desc = "燃料を15000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41494,
+	target_num = 15000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41495] = {
+	name = "五期·【通行证SP】累计消耗石油8",
+	guild_coin_award = 0,
+	award = 100816,
+	type = 6,
+	desc = "燃料を18000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41495,
+	target_num = 18000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41496] = {
+	name = "五期·【通行证SP】累计消耗石油9",
+	guild_coin_award = 0,
+	award = 100816,
+	type = 6,
+	desc = "燃料を21000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41496,
+	target_num = 21000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41497] = {
+	name = "五期·【通行证SP】累计消耗石油10",
+	guild_coin_award = 0,
+	award = 100816,
+	type = 6,
+	desc = "燃料を24000消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41497,
+	target_num = 24000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41498] = {
+	name = "五期·【通行证SP】累计获取舰船经验1",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を25万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41498,
+	target_num = 250000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41499] = {
+	name = "五期·【通行证SP】累计获取舰船经验2",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を50万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41499,
+	target_num = 500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41500] = {
+	name = "五期·【通行证SP】累计获取舰船经验3",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を75万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41500,
+	target_num = 750000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41501] = {
+	name = "五期·【通行证SP】累计获取舰船经验4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を100万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41501,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41502] = {
+	name = "五期·【通行证SP】累计获取舰船经验5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を125万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41502,
+	target_num = 1250000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41503] = {
+	name = "五期·【通行证SP】累计获取舰船经验6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を150万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41503,
+	target_num = 1500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41504] = {
+	name = "五期·【通行证SP】累计获取舰船经验7",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を175万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41504,
+	target_num = 1750000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41505] = {
+	name = "五期·【通行证SP】累计获取舰船经验8",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を200万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41505,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41506] = {
+	name = "五期·【通行证SP】累计获取舰船经验9",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を250万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41506,
+	target_num = 2500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41507] = {
+	name = "五期·【通行证SP】累计获取舰船经验10",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "艦隊を出撃させ、累計獲得経験値を300万蓄積させる",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41507,
+	target_num = 3000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41508] = {
+	name = "五期·【通行证SP】累计登陆1",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "月ログインスタンプを1回押す",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41508,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41509] = {
+	name = "五期·【通行证SP】累计登陆2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "月ログインスタンプを3回押す",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41509,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41510] = {
+	name = "五期·【通行证SP】累计登陆3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "月ログインスタンプを5回押す",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41510,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41511] = {
+	name = "五期·【通行证SP】累计登陆4",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "月ログインスタンプを7回押す",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41511,
+	target_num = 7,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41512] = {
+	name = "五期·【通行证SP】累计登陆5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "月ログインスタンプを10回押す",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41512,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41513] = {
+	name = "五期·【通行证SP】累计登陆6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "月ログインスタンプを14回押す",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41513,
+	target_num = 14,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41514] = {
+	name = "五期·【通行证SP】累计登陆7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "月ログインスタンプを21回押す",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41514,
+	target_num = 21,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41515] = {
+	name = "五期·【通行证SP】累计登陆8",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "月ログインスタンプを28回押す",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41515,
+	target_num = 28,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
 			240
 		}
 	}

@@ -12418,6 +12418,386 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1650001] = {
+		map = 1650001,
+		name = "誠閃の剣　搖光の城·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-camelot",
+		enter_story = "LINGSHIGUANGTING1",
+		ani_name = "Map_1650007",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4401,
+		ui_type = 1,
+		bg = "Map_1650001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1650011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1650003,
+					"map_1650001"
+				}
+			},
+			{
+				2,
+				{
+					1650001,
+					"map_1650001"
+				}
+			},
+			{
+				2,
+				{
+					1650002,
+					"map_1650005"
+				}
+			},
+			{
+				2,
+				{
+					1650003,
+					"map_1650002"
+				}
+			}
+		}
+	},
+	[1650002] = {
+		map = 1650002,
+		name = "誠閃の剣　搖光の城·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-boss-camelot",
+		enter_story = "LINGSHIGUANGTING16",
+		ani_name = "Map_1650008",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4401,
+		ui_type = 1,
+		bg = "Map_1650002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1650012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1650006,
+					"map_1650002"
+				}
+			},
+			{
+				2,
+				{
+					1650004,
+					"map_1650002"
+				}
+			},
+			{
+				2,
+				{
+					1650005,
+					"map_1650005"
+				}
+			},
+			{
+				2,
+				{
+					1650006,
+					"map_1650001"
+				}
+			}
+		}
+	},
+	[1650011] = {
+		map = 1650011,
+		name = "誠閃の剣　搖光の城·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-camelot",
+		enter_story = "LINGSHIGUANGTING1",
+		ani_name = "Map_1650009",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4401,
+		ui_type = 1,
+		bg = "Map_1650003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1650001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1650023,
+					"map_1650003"
+				}
+			},
+			{
+				2,
+				{
+					1650021,
+					"map_1650003"
+				}
+			},
+			{
+				2,
+				{
+					1650022,
+					"map_1650006"
+				}
+			},
+			{
+				2,
+				{
+					1650023,
+					"map_1650004"
+				}
+			}
+		}
+	},
+	[1650012] = {
+		map = 1650012,
+		name = "誠閃の剣　搖光の城·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-boss-camelot",
+		enter_story = "LINGSHIGUANGTING16",
+		ani_name = "Map_1650010",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4401,
+		ui_type = 1,
+		bg = "Map_1650004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1650002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1650026,
+					"map_1650004"
+				}
+			},
+			{
+				2,
+				{
+					1650024,
+					"map_1650004"
+				}
+			},
+			{
+				2,
+				{
+					1650025,
+					"map_1650006"
+				}
+			},
+			{
+				2,
+				{
+					1650026,
+					"map_1650003"
+				}
+			}
+		}
+	},
+	[1650025] = {
+		map = 1650025,
+		name = "誠閃の剣　搖光の城·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vanguard",
+		enter_story = "",
+		ani_name = "Map_1650005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4401,
+		ui_type = 1,
+		bg = "Map_1650005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1650012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1650026] = {
+		map = 1650026,
+		name = "誠閃の剣　搖光の城·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vanguard",
+		enter_story = "",
+		ani_name = "Map_1650006",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4401,
+		ui_type = 1,
+		bg = "Map_1650006",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1650012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -14642,6 +15022,12 @@ pg.expedition_data_by_map = {
 		1640012,
 		1640025,
 		1640026,
+		1650001,
+		1650002,
+		1650011,
+		1650012,
+		1650025,
+		1650026,
 		2100000,
 		2100001,
 		2100010,

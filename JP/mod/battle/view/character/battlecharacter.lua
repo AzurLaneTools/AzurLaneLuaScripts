@@ -52,29 +52,27 @@ end
 
 function slot5.SetBoneList(slot0)
 	slot0._boneList = {}
+	slot0._remoteBoneTable = {}
 	slot0._bonePosTable = nil
 	slot0._posMatrix = nil
 	slot1 = slot0:GetInitScale()
 
 	for slot5, slot6 in pairs(slot0._unitData:GetTemplate().bound_bone) do
 		if slot5 ~= "remote" then
-			slot7 = {}
-
-			for slot11, slot12 in ipairs(slot6) do
-				if type(slot12) == "table" then
-					slot7[#slot7 + 1] = Vector3(slot12[1], slot12[2], slot12[3])
-				else
-					slot7[#slot7 + 1] = Vector3.zero
+			for slot10, slot11 in ipairs(slot6) do
+				if type(slot11) == "table" then
+					slot12 = {
+						[#slot12 + 1] = Vector3(slot11[1], slot11[2], slot11[3])
+					}
+					slot0._boneList[slot5] = slot12
 				end
 			end
-
-			slot0._boneList[slot5] = slot7
 		end
 	end
 end
 
 function slot5.SpawnBullet(slot0, slot1, slot2, slot3, slot4)
-	slot0._bulletFactoryList[slot1:GetTemplate().type]:CreateBullet(slot0._tf, slot1, slot4 or slot0:GetBonePos(slot2), slot3, slot0._unitData:GetDirection())
+	slot0._bulletFactoryList[slot1:GetTemplate().type]:CreateBullet(slot0._tf, slot1, slot4 or slot0._unitData:GetRemoteBoundBone(slot2) or slot0:GetBonePos(slot2), slot3, slot0._unitData:GetDirection())
 end
 
 function slot5.GetBonePos(slot0, slot1)

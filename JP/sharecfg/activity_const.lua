@@ -13,10 +13,10 @@ pg.activity_const = {
 		act_id = 122
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 4124
+		act_id = 4422
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 4329
+		act_id = 4412
 	},
 	ANNIVERSARY_TASK_LIST_ID = {
 		act_id = 10122
@@ -818,5 +818,14 @@ pg.activity_const = {
 	},
 	ANSHAN_CHANGCHUN_GAIZAO_ID = {
 		act_id = 4229
+	},
+	ACTIVITY_MAID_DAY = {
+		act_id = 4415
+	},
+	JIUJIU_DUOMAOMAO_ID = {
+		act_id = 4417
+	},
+	FIFTH_ANNIVERSARY_INVITATION = {
+		act_id = 4418
 	}
 }

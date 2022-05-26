@@ -336,10 +336,10 @@ pg.item_data_frame = {
 	[320] = {
 		time_limit_type = 0,
 		name = "誠閃の庭",
-		gain_by = "",
+		gain_by = "誠閃の剣　搖光の城",
 		id = 320,
 		time_second = 0,
-		desc = "限定海域イベントをクリアで入手",
+		desc = "<color=#ffffff>戦いの日々から幾星霜。輝く誓いの栄光は色褪せることなく</color>――「誠閃の剣　搖光の城」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

@@ -1,0 +1,562 @@
+return {
+	fadeOut = 1.5,
+	mode = 2,
+	id = "NVPUDELINGYIMIAN2",
+	once = true,
+	fadeType = 2,
+	fadein = 1.5,
+	scripts = {
+		{
+			stopbgm = true,
+			mode = 1,
+			sequence = {
+				{
+					"風変わりなメイドたち\n\n<size=45>仕事苦手、メイドワーク</size>",
+					1
+				}
+			}
+		},
+		{
+			say = "鉄血の模擬店『Scharlachroter Tresen』・閉店の少し前",
+			side = 2,
+			bgName = "star_level_bg_145",
+			dir = 1,
+			bgmDelay = 2,
+			bgm = "bsm-7",
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = "expedition",
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "え？どうしてこんな遅い時間に…コ、コホン！お前か、指揮官",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = "main3",
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "お帰りなさいませ、ご主…やっぱり性に合わないわ！それで、なんの用かしら？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "どうやらエーギルが接客しているようだ。だが、この格好と雰囲気は……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = "main3",
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "どこを見ている？この格好が変とでも？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = "touch",
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "それとも、掃除を終えてすぐに休憩しようとしていた私がおかしいとでも？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "…か、格好が似合っている！？あ、ありがどう…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "……とにかく、ここにやってきたということはうちの客ね。もうこんな時間だけど、閉店時間までまだ少しあるわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "お前の注文を聞いてやるわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "ふん、何でも注文するがいいわ。この程度、私にかかれば造作もない",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "ビールアートを頼む",
+					flag = 1
+				},
+				{
+					content = "書類整理を頼む",
+					flag = 2
+				}
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#a9f548",
+			say = "うちの評判のあれね。わかったわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#a9f548",
+			say = "ここで待ってなさい。作り方はもう把握した…と思うわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#a9f548",
+			say = "書類の整理？店員ではなく秘書艦の仕事じゃない…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = "detail",
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#a9f548",
+			say = "それに、私に任せたところでちゃんとできるかは…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#a9f548",
+			say = "いや待て！そもそもメニューのどこに「書類の整理」があるのよ！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#a9f548",
+			say = "はぁ…お前が注文しても、メニューにないものは相談に乗れないわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#a9f548",
+			say = "どうしてもやってほしいというのなら、ここの手伝いが終わってからまた声をかけなさい",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#a9f548",
+			say = "とりあえず、看板メニューの炭酸ドリンクでもどう？ふん、一杯ぐらいなら恵んでやるわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#a9f548",
+			say = "ここで待ってなさい。作り方はもう把握した…と思うわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "さあ、ご注文のドリンクよ。適当にゆっくりくつろいでなさい。用がないならこっちはこのソファで横になるわ",
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "そのまま席で寛いでいると、横のソファーにいるエーギルから視線を感じた……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "お手伝いは順調か？",
+					flag = 1
+				}
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#a9f548",
+			say = "だからその程度、私にかかれば…！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#a9f548",
+			say = "はぁ…まぁいいわ。今更強がっても信じてもらえないでしょうね",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#a9f548",
+			say = "パーセヴァルの言う「気分転換」なんて、信じなければよかった…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = "main3",
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#a9f548",
+			say = "あいつは楽しんでるようだけど…私はメイドをさせられていることに不満があるわ！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#a9f548",
+			say = "言い出したらキリがないからもういいわ。どうせお前が帰ったらこの接客も終わる",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499051,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#a9f548",
+			say = "そしてこの屈辱の歴史が幕を閉じ、明日にはいつものエーギルに戻るわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			blackBg = true,
+			side = 2,
+			bgName = "star_level_bg_145",
+			dir = 1,
+			optionFlag = 1,
+			actor = 499051,
+			nameColor = "#a9f548",
+			live2d = true,
+			say = "…ひょんなことから、エーギルの愚痴に付き合うことになったが…彼女が頑張って作ってくれたドリンクは美味しく、意外な収穫だった。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		}
+	}
+}

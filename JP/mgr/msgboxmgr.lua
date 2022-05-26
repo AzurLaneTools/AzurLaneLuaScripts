@@ -221,39 +221,44 @@ end
 function slot6(slot0, slot1)
 	slot0:commonSetting(slot1)
 	SetActive(slot0._itemPanel, true)
-	removeAllChildren(slot0._itemListItemContainer)
 	setActive(slot0._itemsText, slot1.content)
 
 	slot0._itemsText.text = slot1.content or ""
+	slot0.tempUIItemList = slot0.tempUIItemList or UIItemList.New(slot0._itemListItemContainer, slot0._itemListItemTpl)
 	slot3 = slot0.settings.itemFunc
 
-	for slot7, slot8 in ipairs(slot0.settings.items) do
-		slot9 = cloneTplTo(slot0._itemListItemTpl, slot0._itemListItemContainer)
+	slot0.tempUIItemList:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
 
-		updateDrop(slot9, slot8, {
-			anonymous = slot8.anonymous,
-			hideName = slot8.hideName
-		})
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1]
 
-		slot10 = findTF(slot9, "name")
+			updateDrop(slot2, slot3, {
+				anonymous = slot3.anonymous,
+				hideName = slot3.hideName
+			})
 
-		if not slot8.hideName then
-			slot11 = findTF(slot9, "name_mask")
+			slot4 = findTF(slot2, "name")
+			slot5 = findTF(slot2, "name_mask")
 
-			setActive(slot10, false)
-			setActive(slot11, true)
-			setScrollText(slot11:Find("name"), getText(slot10))
-		end
+			if slot3.hideName then
+				setActive(slot5, false)
+			else
+				setActive(slot4, false)
+				setActive(slot5, true)
+				setScrollText(slot5:Find("name"), getText(slot4))
+			end
 
-		if not slot8.anonymous then
-			onButton(slot0, slot9, function ()
-				if uv0 then
-					uv0(uv1)
+			onButton(uv1, slot2, function ()
+				if uv0.anonymous then
+					return
+				elseif uv1 then
+					uv1(uv0)
 				end
 			end, SFX_UI_CLICK)
 		end
-	end
-
+	end)
+	slot0.tempUIItemList:align(#slot0.settings.items)
 	slot0:Loaded(slot1)
 end
 
@@ -316,9 +321,28 @@ function slot8(slot0, slot1)
 	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
 	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
 
-	slot11 = slot1.drop.type == DROP_TYPE_ITEM and (getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id) or slot1.drop.cfg.type == 11)
+	slot10 = slot0._sigleItemPanel:Find("detail")
+	slot11 = false
 
-	setActive(slot0._sigleItemPanel:Find("detail"), slot11)
+	if slot1.drop.type == DROP_TYPE_ITEM then
+		function slot12(slot0)
+			uv0 = slot0
+		end
+
+		switch(tobool(getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id)) or slot1.drop.cfg.type, {
+			[true] = function ()
+				uv0 = "tech"
+			end,
+			[11] = slot12,
+			[13] = slot12,
+			[16] = slot12,
+			[17] = slot12
+		}, function ()
+			uv0 = false
+		end)
+	end
+
+	setActive(slot10, tobool(slot11))
 
 	if slot11 then
 		slot12 = {
@@ -339,17 +363,16 @@ function slot8(slot0, slot1)
 
 		function slot12.itemFunc(slot0)
 			if slot0.type == DROP_TYPE_EQUIP then
-				slot6.data = {
-					equipmentId = slot0.id,
-					type = EquipmentInfoMediator.TYPE_DISPLAY,
-					LayerWeightMgr_weight = uv1.weight or LayerWeightConst.SECOND_LAYER
-				}
-
 				uv0.m02:sendNotification(GAME.LOAD_LAYERS, {
 					parentContext = getProxy(ContextProxy):getCurrentContext(),
 					context = Context.New({
 						mediator = EquipmentInfoMediator,
-						viewComponent = EquipmentInfoLayer
+						viewComponent = EquipmentInfoLayer,
+						data = {
+							equipmentId = slot0.id,
+							type = EquipmentInfoMediator.TYPE_DISPLAY,
+							LayerWeightMgr_weight = uv1.weight or LayerWeightConst.SECOND_LAYER
+						}
 					})
 				})
 			else
@@ -365,29 +388,39 @@ function slot8(slot0, slot1)
 			end
 		end
 
-		if getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id) then
-			slot12.content = i18n("techpackage_item_use_confirm")
-			slot12.items = underscore.map(slot1.drop.cfg.display_icon, function (slot0)
-				return {
-					type = slot0[1],
-					id = slot0[2],
-					count = slot0[3]
-				}
-			end)
+		switch(slot11, {
+			tech = function ()
+				uv0.content = i18n("techpackage_item_use_confirm")
 
-			setText(slot10, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("tech_select_tip4") .. "</color></material>")
-		elseif slot1.drop.cfg.type == 11 then
-			slot12.content = i18n("equip_skin_detail_tip")
-			slot12.items = underscore.map(slot1.drop.cfg.display_icon, function (slot0)
-				return {
-					type = slot0[1],
-					id = slot0[2]
-				}
-			end)
+				setText(uv1, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("tech_select_tip4") .. "</color></material>")
+			end,
+			[11] = function ()
+				uv0.content = i18n("equip_skin_detail_tip")
+				uv0.items = underscore.map(uv1.drop.cfg.display_icon, function (slot0)
+					return {
+						type = slot0[1],
+						id = slot0[2]
+					}
+				end)
 
-			setText(slot10, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("package_detail_tip") .. "</color></material>")
-		end
+				setText(uv2, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("package_detail_tip") .. "</color></material>")
+			end,
+			[13] = function ()
+				uv0.content = i18n("item_type13_tip2")
 
+				setText(uv1, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("item_type13_tip1") .. "</color></material>")
+			end,
+			[16] = function ()
+				uv0.content = i18n("item_type16_tip2")
+
+				setText(uv1, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("item_type16_tip1") .. "</color></material>")
+			end,
+			[17] = function ()
+				uv0.content = i18n("item_type17_tip2")
+
+				setText(uv1, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("item_type17_tip1") .. "</color></material>")
+			end
+		})
 		slot10:GetComponent("RichText"):AddListener(function (slot0, slot1)
 			uv0(uv1, uv2)
 		end)

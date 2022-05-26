@@ -7923,6 +7923,90 @@ pg.activity_ins_template = {
 			2702
 		}
 	},
+	{
+		ship_group = 20513,
+		name = "Vanguard",
+		sculpture = "qianwei",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 301,
+		id = 301,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20712,
+		name = "Indomitable",
+		sculpture = "bunao",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 302,
+		id = 302,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20134,
+		name = "Jervis",
+		sculpture = "jiaweisi",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 303,
+		id = 303,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20231,
+		name = "Bellona",
+		sculpture = "sizhannvshen",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 304,
+		id = 304,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20510,
+		name = "Cmdr_Valiant",
+		sculpture = "yingyong",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 305,
+		id = 305,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 40303,
+		name = "P.Eugen",
+		sculpture = "ougen",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 306,
+		id = 306,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 49905,
+		name = "Aegir",
+		sculpture = "aijier",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 307,
+		id = 307,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -8223,6 +8307,13 @@ pg.activity_ins_template = {
 		297,
 		298,
 		299,
-		300
+		300,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307
 	}
 }

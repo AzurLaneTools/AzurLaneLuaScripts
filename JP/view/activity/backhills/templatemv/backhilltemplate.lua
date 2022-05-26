@@ -59,22 +59,24 @@ function slot0.InitStudents(slot0, slot1, slot2, slot3)
 
 	slot6 = #slot5
 	slot0.academyStudents = {}
+	slot7 = {}
 
-	for slot10, slot11 in pairs(slot4) do
-		if not slot0.academyStudents[slot10] then
-			slot12 = cloneTplTo(slot0._shipTpl, slot0._map)
-			slot12.gameObject.name = slot10
-			slot14 = SummerFeastNavigationAgent.New(slot12.gameObject)
+	for slot11, slot12 in pairs(slot4) do
+		if not slot0.academyStudents[slot11] then
+			slot13 = cloneTplTo(slot0._shipTpl, slot0._map)
+			slot13.gameObject.name = slot11
+			slot15 = SummerFeastNavigationAgent.New(slot13.gameObject)
 
-			slot14:attach()
-			slot14:setPathFinder(slot0.graphPath)
-			slot14:setCurrentIndex(slot0.ChooseRandomPos(slot5, (slot6 - 2) % #slot5 + 1) and slot13.id)
-			slot14:SetOnTransEdge(function (slot0, slot1, slot2)
+			slot15:attach()
+			slot15:setPathFinder(slot0.graphPath)
+			slot15:SetPositionTable(slot7)
+			slot15:setCurrentIndex(slot0.ChooseRandomPos(slot5, (slot6 - 2) % #slot5 + 1) and slot14.id)
+			slot15:SetOnTransEdge(function (slot0, slot1, slot2)
 				slot0._tf:SetParent(uv0[uv0.edge2area[math.min(slot1, slot2) .. "_" .. math.max(slot1, slot2)] or uv0.edge2area.default])
 			end)
-			slot14:updateStudent(slot11)
+			slot15:updateStudent(slot12)
 
-			slot0.academyStudents[slot10] = slot14
+			slot0.academyStudents[slot11] = slot15
 		end
 	end
 

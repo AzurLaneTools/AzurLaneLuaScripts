@@ -156,18 +156,21 @@ function slot0.Init(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("NewStoryUI", true, function (slot0)
 		uv0._go = slot0
 		uv0._tf = tf(uv0._go)
+		uv0.frontTr = findTF(uv0._tf, "front")
 		uv0.UIOverlay = GameObject.Find("Overlay/UIOverlay")
 
 		uv0._go.transform:SetParent(uv0.UIOverlay.transform, false)
 
-		uv0.skipBtn = findTF(uv0._tf, "btns/skip_button")
-		uv0.autoBtn = findTF(uv0._tf, "btns/auto_button")
+		uv0.skipBtn = findTF(uv0._tf, "front/btns/skip_button")
+		uv0.autoBtn = findTF(uv0._tf, "front/btns/auto_button")
+		uv0.recordBtn = findTF(uv0._tf, "front/record")
 		uv0.players = {
 			AsideStoryPlayer.New(slot0),
 			DialogueStoryPlayer.New(slot0),
 			BgStoryPlayer.New(slot0),
 			CarouselPlayer.New(slot0)
 		}
+		uv0.recordPanel = NewStoryRecordPanel.New()
 
 		setActive(uv0._go, false)
 
@@ -312,6 +315,7 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:OnStart()
 
+	slot0.records = {}
 	slot8 = {}
 	slot0.currPlayer = nil
 
@@ -319,8 +323,10 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		table.insert(slot8, function (slot0)
 			slot1 = uv0.players[uv1:GetMode()]
 			uv0.currPlayer = slot1
+			slot2 = StoryRecord.New()
 
-			slot1:Play(uv0.storyScript, uv2, slot0)
+			table.insert(uv0.records, slot2)
+			slot1:Play(uv0.storyScript, uv2, slot2, slot0)
 		end)
 	end
 
@@ -369,7 +375,7 @@ function slot0.RegistSkipBtn(slot0)
 		uv0.isOpenMsgbox = true
 
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			parent = rtf(uv0._tf),
+			parent = rtf(uv0._tf:Find("front")),
 			content = i18n("story_skip_confirm"),
 			onYes = function ()
 				uv0:Resume()
@@ -411,6 +417,26 @@ function slot0.RegistAutoBtn(slot0)
 	end
 end
 
+function slot0.RegistRecordBtn(slot0)
+	slot1 = slot0.recordBtn:Find("sel")
+	slot2 = slot0.recordBtn:Find("unsel")
+
+	onButton(slot0, slot0.recordBtn, function ()
+		if uv0.storyScript:GetAutoPlayFlag() then
+			return
+		end
+
+		uv1 = not uv1
+
+		uv0.recordPanel[uv1 and "Show" or "Hide"](uv0.recordPanel)
+		uv2(uv1)
+	end, SFX_PANEL)
+	(function (slot0)
+		setActive(uv0, slot0)
+		setActive(uv1, not slot0)
+	end)(false)
+end
+
 function slot0.TriggerAutoBtn(slot0)
 	if not slot0:IsRunning() then
 		return
@@ -423,6 +449,7 @@ function slot0.OnStart(slot0)
 	removeOnButton(slot0._go)
 	removeOnButton(slot0.skipBtn)
 	removeOnButton(slot0.autoBtn)
+	removeOnButton(slot0.recordBtn)
 
 	slot0.state = uv0
 
@@ -448,6 +475,7 @@ function slot0.OnStart(slot0)
 	setActive(slot0.autoBtn, true)
 	slot0:RegistSkipBtn()
 	slot0:RegistAutoBtn()
+	slot0:RegistRecordBtn()
 end
 
 function slot0.UpdateAutoBtn(slot0)
@@ -458,10 +486,13 @@ function slot0.UpdateAutoBtn(slot0)
 end
 
 function slot0.Clear(slot0)
+	slot0.recordPanel:Hide()
+
 	slot0.autoPlayFlag = false
 
 	removeOnButton(slot0._go)
 	removeOnButton(slot0.skipBtn)
+	removeOnButton(slot0.recordBtn)
 
 	if isActive(slot0._go) then
 		pg.DelegateInfo.Dispose(slot0)
@@ -485,6 +516,8 @@ function slot0.Clear(slot0)
 end
 
 function slot0.OnEnd(slot0, slot1)
+	slot0.records = {}
+
 	slot0:Clear()
 
 	if slot0.state == uv0 or slot0.state == uv1 then
@@ -549,7 +582,23 @@ function slot0.IsAutoPlay(slot0)
 	return getProxy(SettingsProxy):GetStoryAutoPlayFlag() or slot0.autoPlayFlag == true
 end
 
+function slot0.GetRecords(slot0)
+	slot1 = {}
+
+	for slot5 = 1, #slot0.records - 1 do
+		for slot10, slot11 in pairs(slot0.records[slot5]:GetContents()) do
+			if slot11 and slot11 ~= "" then
+				table.insert(slot1, slot11)
+			end
+		end
+	end
+
+	return slot1
+end
+
 function slot0.Quit(slot0)
+	slot0.recordPanel:Dispose()
+
 	slot0.state = uv0
 	slot0.storyScript = nil
 	slot0.playQueue = {}

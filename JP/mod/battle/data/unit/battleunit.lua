@@ -69,6 +69,7 @@ function slot9.Init(slot0)
 	slot0._labelTagList = {}
 	slot0._exposedToSnoar = false
 	slot0._moveCast = true
+	slot0._remoteBoundBone = {}
 end
 
 function slot9.Update(slot0, slot1)
@@ -341,6 +342,30 @@ end
 
 function slot9.GetWeaponBoundBone(slot0)
 	return slot0._tmpData.bound_bone
+end
+
+function slot9.RemoveRemoteBoundBone(slot0, slot1)
+	slot0._remoteBoundBone[slot1] = nil
+end
+
+function slot9.SetRemoteBoundBone(slot0, slot1, slot2, slot3)
+	slot4 = slot0._remoteBoundBone[slot1] or {}
+	slot4[slot2] = slot3
+	slot0._remoteBoundBone[slot1] = slot4
+end
+
+function slot9.GetRemoteBoundBone(slot0, slot1)
+	for slot5, slot6 in pairs(slot0._remoteBoundBone) do
+		if slot6[slot1] and uv0.Battle.BattleTargetChoise.TargetFleetIndex(slot0, {
+			fleetPos = slot7
+		})[1] and slot8:IsAlive() then
+			slot9 = Clone(slot8:GetPosition())
+
+			slot9:Set(slot9.x, 1.5, slot9.z)
+
+			return slot9
+		end
+	end
 end
 
 function slot9.GetLabelTag(slot0)
@@ -1280,6 +1305,7 @@ function slot9.Dispose(slot0)
 	slot0._buffList = nil
 	slot0._buffStockList = nil
 	slot0._cldZCenterCache = nil
+	slot0._remoteBoundBone = nil
 
 	slot0:RemoveSummonSickness()
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
