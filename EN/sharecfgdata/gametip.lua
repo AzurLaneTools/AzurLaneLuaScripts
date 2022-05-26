@@ -19667,7 +19667,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 _G.pg.base.gametip.battlepass_main_tip_2206 = {
-	tip = "Complete Cruise Missions between 1/6 – 31/7 to receive <color=#854747>Memphis META</color> and other rewards!"
+	tip = "Complete Cruise Missions between 6/1 – 7/31 to receive <color=#854747>Memphis META</color> and other rewards!"
 }
 
 _G.pg.base.gametip.battlepass_main_help_2206 = {

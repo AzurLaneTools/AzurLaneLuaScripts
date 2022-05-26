@@ -2204,7 +2204,7 @@ pg.skill_world_display = {
 	[800451] = {
 		desc_get = "",
 		id = 800451,
-		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 2.0.%",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},

@@ -158753,7 +158753,7 @@ _G.pg.base.item_data_statistics[59287] = {
 }
 
 _G.pg.base.item_data_statistics[59290] = {
-	display = "A currency earned from completing Cruise Missions during the seasonal campaign (4/1 – 5/31), used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign (6/1 – 7/31), used to obtain milestone rewards. Will disappear after the campaign season ends.",
 	name = "Progress Point",
 	max_num = 0,
 	type = 0,
@@ -159005,7 +159005,7 @@ _G.pg.base.item_data_statistics[59319] = {
 }
 
 _G.pg.base.item_data_statistics[59320] = {
-	display = "Used to exchange for a portrait frame. Expires after the event ends. ",
+	display = "Used to exchange for items in \"Headquarters Mobilization Request\" Will be removed after the event ends.",
 	name = "Returnee Points ",
 	max_num = 0,
 	type = 98,
