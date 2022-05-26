@@ -6496,7 +6496,7 @@ _G.pg.base.item_data_statistics[15013] = {
 }
 
 _G.pg.base.item_data_statistics[15014] = {
-	display = "オフニャ特殊装備を製造・突破時に使用するコア",
+	display = "特殊装備を製造・突破時に使用するコア",
 	name = "特殊装備コア",
 	max_num = 0,
 	type = 2,
@@ -6517,7 +6517,7 @@ _G.pg.base.item_data_statistics[15014] = {
 }
 
 _G.pg.base.item_data_statistics[15015] = {
-	display = "オフニャ特殊装備を製造・変化（強化）時に使用する素材",
+	display = "特殊装備を製造・変化（強化）時に使用する素材",
 	name = "特殊装備強化石T1",
 	max_num = 0,
 	type = 2,
@@ -6538,7 +6538,7 @@ _G.pg.base.item_data_statistics[15015] = {
 }
 
 _G.pg.base.item_data_statistics[15016] = {
-	display = "オフニャ特殊装備を製造・変化（強化）時に使用する素材",
+	display = "特殊装備を製造・変化（強化）時に使用する素材",
 	name = "特殊装備強化石T2",
 	max_num = 0,
 	type = 2,
@@ -6559,7 +6559,7 @@ _G.pg.base.item_data_statistics[15016] = {
 }
 
 _G.pg.base.item_data_statistics[15017] = {
-	display = "オフニャ特殊装備を製造・変化（強化）時に使用する素材",
+	display = "特殊装備を製造・変化（強化）時に使用する素材",
 	name = "特殊装備強化石T3",
 	max_num = 0,
 	type = 2,

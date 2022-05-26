@@ -88,8 +88,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "どうやらエーギルが接客しているようだ。だが、この格好と雰囲気は……",
 			typewriter = {
 				speed = 0.05,
@@ -413,8 +414,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "そのまま席で寛いでいると、横のソファーにいるエーギルから視線を感じた……",
 			typewriter = {
 				speed = 0.05,
@@ -540,9 +542,10 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_145",
+			blackBg = true,
 			dir = 1,
 			optionFlag = 1,
 			actor = 499051,

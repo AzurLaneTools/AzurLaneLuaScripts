@@ -118,7 +118,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "こうして、倉庫に向かうことになった。",
+			say = "指揮官、一緒に…探しに行きませんか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

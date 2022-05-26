@@ -185,26 +185,26 @@ end
 function slot0.UpdatePainting(slot0, slot1, slot2)
 	slot3, slot4, slot5, slot6 = slot0:GetSideTF(slot1:GetSide())
 	slot7, slot8 = slot1:GetPaintingAndName()
+	slot9 = slot0.paintingStay
+	slot0.paintingStay = nil
 
 	if slot1:IsLive2dPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. slot8)) then
-		slot0:UpdateLive2dPainting(slot1, slot3, slot2)
+		slot0:UpdateLive2dPainting(slot1, slot3, slot9, slot2)
 	elseif slot1:IsSpinePainting() and PathMgr.FileExists(PathMgr.getAssetBundle("spinepainting/" .. slot8)) then
-		slot0:UpdateSpinePainting(slot1, slot3, slot2)
+		slot0:UpdateSpinePainting(slot1, slot3, slot9, slot2)
 	else
-		slot0:UpdateMeshPainting(slot1, slot3, slot6, slot2)
+		slot0:UpdateMeshPainting(slot1, slot3, slot6, slot9, slot2)
 	end
 
 	if slot4 then
-		setActive(slot4, slot1:GetNameWithColor() and slot9 ~= "")
+		setActive(slot4, slot1:GetNameWithColor() and slot10 ~= "")
 
-		slot5.text = slot9
+		slot5.text = slot10
 	end
-
-	slot0.paintingStay = nil
 end
 
-function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3)
-	function slot4(slot0)
+function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3, slot4)
+	function slot5(slot0)
 		GetOrAddComponent(uv2._go, typeof(CanvasGroup)).blocksRaycasts = false
 		uv2.live2dChars[uv1] = Live2D.New(Live2D.GenerateData({
 			ship = uv0:GetVirtualShip(),
@@ -212,14 +212,19 @@ function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3)
 			position = uv0:GetLive2dPos() or Vector3(0, 0, 0),
 			parent = uv1:Find("live2d")
 		}), function (slot0)
-			ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), uv0.sortingOrder + 1)
+			slot1 = slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController")
+			slot2 = uv0.sortingOrder + 1
+			slot3 = typeof("Live2D.Cubism.Rendering.CubismRenderController")
 
-			slot2 = GetOrAddComponent(uv0.front, typeof(Canvas))
+			ReflectionHelp.RefSetProperty(slot3, "SortingOrder", slot1, slot2)
+			ReflectionHelp.RefSetProperty(slot3, "SortingMode", slot1, ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder"))
+
+			slot5 = GetOrAddComponent(uv0.front, typeof(Canvas))
 
 			GetOrAddComponent(uv0.front, typeof(GraphicRaycaster))
 
-			slot2.overrideSorting = true
-			slot2.sortingOrder = uv0.sortingOrder + 2
+			slot5.overrideSorting = true
+			slot5.sortingOrder = slot2 + slot0._tf:Find("Drawables").childCount
 			uv1.blocksRaycasts = true
 
 			if uv2 then
@@ -228,7 +233,7 @@ function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3)
 		end)
 	end
 
-	function slot5(slot0)
+	function slot6(slot0)
 		if slot0 and uv0:GetLive2dAction() and slot1 ~= "" then
 			slot0:TriggerAction(slot1)
 		end
@@ -236,10 +241,10 @@ function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3)
 		uv1()
 	end
 
-	if slot0.paintingStay then
-		slot5(slot0.live2dChars[slot2])
+	if slot3 and slot0.live2dChars[slot2] then
+		slot6(slot0.live2dChars[slot2])
 	else
-		slot4(slot5)
+		slot5(slot6)
 	end
 end
 
@@ -300,8 +305,8 @@ function slot1(slot0, slot1, slot2)
 	return slot10
 end
 
-function slot0.UpdateSpinePainting(slot0, slot1, slot2, slot3)
-	function slot4(slot0)
+function slot0.UpdateSpinePainting(slot0, slot1, slot2, slot3, slot4)
+	function slot5(slot0)
 		slot1 = uv0
 		slot2 = uv0
 		slot2 = slot2:Find("spinebg")
@@ -329,15 +334,15 @@ function slot0.UpdateSpinePainting(slot0, slot1, slot2, slot3)
 		end)
 	end
 
-	if slot0.paintingStay then
-		slot3()
+	if slot3 and slot0.spinePainings[slot2] then
+		slot4()
 	else
-		slot4(slot3)
+		slot5(slot4)
 	end
 end
 
-function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4)
-	function slot6()
+function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4, slot5)
+	function slot7()
 		if uv0:IsShowNPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv1 .. "_n")) then
 			uv1 = uv1 .. "_n"
 		end
@@ -350,36 +355,38 @@ function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if slot1:GetPainting() then
-		if not slot0.paintingStay then
-			slot6()
+		slot8 = findTF(slot2, "fitter").childCount
+
+		if not slot4 or slot8 <= 0 then
+			slot7()
 		end
 
-		slot7 = slot1:GetPaintingDir()
-		slot2.localScale = Vector3(slot7, math.abs(slot7), 1)
-		slot9 = findTF(slot2, "fitter"):GetChild(0)
-		slot9.name = slot5
+		slot9 = slot1:GetPaintingDir()
+		slot2.localScale = Vector3(slot9, math.abs(slot9), 1)
+		slot11 = findTF(slot2, "fitter"):GetChild(0)
+		slot11.name = slot6
 
 		slot0:UpdateActorPostion(slot2, slot1)
-		slot0:UpdateExpression(slot9, slot1)
+		slot0:UpdateExpression(slot11, slot1)
 		slot0:StartPatiningActions(slot2, slot1)
-		slot0:AddGlitchArtEffectForPating(slot2, slot9, slot1)
+		slot0:AddGlitchArtEffectForPating(slot2, slot11, slot1)
 		slot0:InitSubPainting(slot3, slot1)
 		slot2:SetAsLastSibling()
 
 		if slot1:ShouldGrayPainting() then
-			setGray(slot9, true, true)
+			setGray(slot11, true, true)
 		end
 
-		if findTF(slot9, "shadow") then
-			setActive(slot10, slot1:ShouldFaceBlack())
+		if findTF(slot11, "shadow") then
+			setActive(slot12, slot1:ShouldFaceBlack())
 		end
 
 		if slot1:GetPaintingAlpha() then
-			slot0:setPaintingAlpha(slot2, slot11)
+			slot0:setPaintingAlpha(slot2, slot13)
 		end
 	end
 
-	slot4()
+	slot5()
 end
 
 function slot0.InitSubPainting(slot0, slot1, slot2)

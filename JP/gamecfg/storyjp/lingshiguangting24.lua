@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "場所が変わった…今度は誰の記憶なんだ？",
+			say = "場所が変わった…今度は誰の記憶？",
 			bgm = "theme-partydress",
 			flashin = {
 				delay = 1,

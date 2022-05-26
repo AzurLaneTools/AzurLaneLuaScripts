@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "「今のところ報告はございません。ただ、シェフィールドが特異点入口の方に向かっているモナークを目撃したようです」",
+			say = "「今のところ報告はございません。ただ、シェフィールドが特異点入口の方に向かっていくモナークを目撃したようです」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 205010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "「転送装置が、起動していた…！？」",
+			say = "「転送装置が、起動している…！？」",
 			flashout = {
 				black = true,
 				dur = 0.5,

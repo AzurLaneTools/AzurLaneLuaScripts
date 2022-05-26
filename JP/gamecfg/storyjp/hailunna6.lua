@@ -140,7 +140,7 @@ return {
 			},
 			options = {
 				{
-					content = "ヘレナの好意に甘えることにした。",
+					content = "ヘレナの好意に甘える",
 					flag = 1
 				}
 			}

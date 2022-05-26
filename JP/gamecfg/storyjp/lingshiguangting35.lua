@@ -257,7 +257,7 @@ return {
 			bgName = "bg_camelot_16",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "英王乔治五世",
+			actorName = "キング・ジョージ5世",
 			say = "陛下の言った通りだ。そのほうが二人とも全力を出せるだろ？",
 			typewriter = {
 				speed = 0.05,

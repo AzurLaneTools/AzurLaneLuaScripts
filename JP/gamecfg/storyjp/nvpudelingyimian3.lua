@@ -164,7 +164,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "意外そうな顔…もしかしたらあまり「メイド」に見えなかった？",
+			say = "意外そうな顔…もしかしてあまり「メイド」に見えなかった？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,9 +270,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
-			say = "カウンターの裏から事前に準備していたワインを取り出し、二人のグラスに注いだ",
+			dir = 1,
+			say = "カウンターの裏から事前に準備していたワインを取り出し、二人のグラスに注いだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,8 +305,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "軽くグラスを合わせて、オイゲンとゆっくりワインを楽しんだ。",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +357,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "あれ？オイゲンの様子が…そういえば、オイゲンは確か酒癖が…",
 			typewriter = {
 				speed = 0.05,
@@ -491,8 +494,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "これは完全に酔っぱらっているな。もうだいぶ遅いし、これ以上は……",
 			typewriter = {
 				speed = 0.05,

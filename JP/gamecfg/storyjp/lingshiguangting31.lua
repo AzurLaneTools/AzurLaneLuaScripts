@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 207120,
 			side = 2,
 			bgName = "bg_camelot_9",
-			say = "あれは…小さい竜巻！？黒い竜巻が分裂したんですの！？",
+			nameColor = "#a9f548",
 			dir = 1,
-			actactor = 207120,
+			say = "あれは…小さい竜巻！？黒い竜巻が分裂したんですの！？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -439,7 +439,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 299010,
-			actorName = "ネプチューン&モナーク&チェシャー",
+			actorName = "三人",
 			say = "了解！",
 			subActors = {
 				{

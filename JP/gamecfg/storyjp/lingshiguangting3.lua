@@ -127,7 +127,7 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "bg_camelot_1",
-			actorName = "复仇&司战女神",
+			actorName = "リヴェンジ＆ベローナ",
 			dir = 1,
 			actor = 205110,
 			nameColor = "#a9f548",

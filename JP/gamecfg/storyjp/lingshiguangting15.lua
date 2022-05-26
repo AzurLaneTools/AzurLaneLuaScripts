@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "いくらなんでも独断しすぎよ！陛下まで巻き込んだじゃない！",
+			say = "いくらなんでも独断専行しすぎよ！陛下まで巻き込んだじゃない！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "それは………………",
+			say = "………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

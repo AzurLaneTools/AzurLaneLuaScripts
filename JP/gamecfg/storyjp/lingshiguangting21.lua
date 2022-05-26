@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "「ここには黒いキューブの手がかりがある。そして私がここ向かえば……」",
+			say = "「ここには黒いキューブの手がかりがある。そして私がここに向かえば……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
