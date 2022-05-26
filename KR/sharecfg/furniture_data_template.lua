@@ -7523,6 +7523,56 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100037] = {
+		spine_extra = "",
+		describe = "오늘 날씨는 어떨려나~?",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "tianqiyunduoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "휴대용 구름",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100037,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tianqiyunduo",
+				"normal"
+			},
+			[3] = {
+				{
+					-6,
+					189
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "그래, 마음껏 메이드에게 응석을 부리라고, \"주인님\"~",
@@ -98108,6 +98158,7 @@ pg.furniture_data_template = {
 			100034,
 			100035,
 			100036,
+			100037,
 			200001,
 			200002,
 			200003,
@@ -98264,6 +98315,7 @@ pg.furniture_data_template = {
 			100034,
 			100035,
 			100036,
+			100037,
 			200001,
 			200002,
 			200003,
@@ -104222,6 +104274,7 @@ pg.furniture_data_template = {
 			100034,
 			100035,
 			100036,
+			100037,
 			54104,
 			54105
 		},
@@ -106385,7 +106438,8 @@ pg.furniture_data_template = {
 		},
 		[14] = {
 			214,
-			100019
+			100019,
+			100037
 		},
 		[13] = {
 			100015,
@@ -107139,6 +107193,7 @@ pg.furniture_data_template = {
 		100034,
 		100035,
 		100036,
+		100037,
 		200001,
 		200002,
 		200003,

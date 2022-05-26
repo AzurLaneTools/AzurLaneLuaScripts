@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4336",
+		param = "4338",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2022,
 					5,
-					20
+					26
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2022,
 					6,
-					2
+					8
 				},
 				{
 					23,
@@ -33,7 +33,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4316",
+		param = "4340",
 		id = 2,
 		pic = "temp2",
 		type = 3,
@@ -41,8 +41,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					4,
-					28
+					5,
+					26
 				},
 				{
 					0,
@@ -53,8 +53,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					5,
-					25
+					6,
+					22
 				},
 				{
 					23,
@@ -65,7 +65,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4314",
+		param = "4342",
 		id = 3,
 		pic = "temp3",
 		type = 3,
@@ -73,8 +73,72 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					4,
-					28
+					5,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4337",
+		id = 4,
+		pic = "temp4",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					5,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4330",
+		id = 5,
+		pic = "temp5",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					5,
+					5
 				},
 				{
 					0,
@@ -86,7 +150,7 @@ pg.activity_banner = {
 				{
 					2022,
 					5,
-					25
+					20
 				},
 				{
 					23,
@@ -97,25 +161,36 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4325",
-		time = "stop",
-		type = 3,
-		id = 4,
-		pic = "temp4"
-	},
-	{
-		param = "4330",
-		time = "stop",
-		type = 3,
-		id = 5,
-		pic = "temp5"
-	},
-	{
 		param = "4326",
-		time = "stop",
-		type = 3,
 		id = 6,
-		pic = "temp6"
+		pic = "temp6",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		id = 7,
@@ -252,6 +327,38 @@ pg.activity_banner = {
 			}
 		}
 	},
+	{
+		param = "",
+		id = 11,
+		pic = "temp100",
+		type = 11,
+		time = {
+			{
+				{
+					2022,
+					5,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	get_id_list_by_type = {
 		[3] = {
 			1,
@@ -270,6 +377,9 @@ pg.activity_banner = {
 		},
 		[10] = {
 			10
+		},
+		[11] = {
+			11
 		}
 	},
 	all = {
@@ -282,6 +392,7 @@ pg.activity_banner = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

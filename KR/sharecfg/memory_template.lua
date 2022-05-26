@@ -20559,6 +20559,61 @@ pg.memory_template = {
 		icon = "memory_HONGCAIDEZHONGMUQU2",
 		is_open = 0
 	},
+	[2115] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "새로운 여행-드레이크",
+		condition = "스페셜 프로젝트 함선 강화 레벨 30 달성",
+		story = "LUCK29904",
+		id = 2115,
+		icon = "memory_jhdeleike",
+		is_open = 0
+	},
+	[2116] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "파티",
+		condition = "「뜻밖의 여정」 DAY1 해제",
+		story = "YIWAIDEGUITU1",
+		id = 2116,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
+	[2117] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "혼란",
+		condition = "「뜻밖의 여정」 DAY3 해제",
+		story = "YIWAIDEGUITU2",
+		id = 2117,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
+	[2118] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "늪",
+		condition = "「뜻밖의 여정」 DAY5 해제",
+		story = "YIWAIDEGUITU3",
+		id = 2118,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
+	[2119] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "결단",
+		condition = "「뜻밖의 여정」 DAY6 해제",
+		story = "YIWAIDEGUITU4",
+		id = 2119,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
 	[10000] = {
 		type = 1,
 		subtitle = "",
@@ -23166,6 +23221,11 @@ pg.memory_template = {
 		2112,
 		2113,
 		2114,
+		2115,
+		2116,
+		2117,
+		2118,
+		2119,
 		10000,
 		10001,
 		10002,

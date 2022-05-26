@@ -333,6 +333,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>이는 종말이자 시초이다.——「레인보우 피날레」 이벤트 획득</color>",
 		scene = {}
 	},
+	[320] = {
+		time_limit_type = 0,
+		name = "맹세의 정원",
+		gain_by = "",
+		id = 320,
+		time_second = 0,
+		desc = "<color=#ffffff>추후 이벤트를 통해 획득</color>",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -407,6 +416,7 @@ pg.item_data_frame = {
 		317,
 		318,
 		319,
+		320,
 		401,
 		402,
 		413,

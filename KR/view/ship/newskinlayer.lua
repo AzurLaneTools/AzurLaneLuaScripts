@@ -51,7 +51,7 @@ function slot0.init(slot0)
 
 	setActive(slot0.timelimit, slot0.isTimeLimit)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.BASE_LAYER + 1
+		weight = LayerWeightConst.SECOND_LAYER
 	})
 
 	slot0.isLoadBg = false

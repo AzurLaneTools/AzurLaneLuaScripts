@@ -37,35 +37,11 @@ function slot0.UpdateItems(slot0, slot1)
 		LoadImageSpriteAsync("activitybanner/" .. slot6.pic, slot0.scrollSnap:AddChild())
 		setActive(findTF(slot7, "red"), slot6.type == 3 and tonumber(slot6.param) == nil and getProxy(ActivityProxy):readyToAchieveByType(ActivityConst.ACTIVITY_TYPE_LEVELAWARD))
 		onButton(slot0, slot7, function ()
-			uv0:OnClick(uv1)
+			MainBaseActivityBtn.Skip(uv0, uv1)
 		end, SFX_MAIN)
 	end
 
 	slot0.scrollSnap:SetUp()
-end
-
-function slot0.OnClick(slot0, slot1)
-	if slot1.type == GAMEUI_BANNER_1 then
-		Application.OpenURL(slot1.param)
-	elseif slot1.type == GAMEUI_BANNER_2 then
-		slot0:emit(NewMainMediator.SKIP_SCENE, slot1.param)
-	elseif slot1.type == GAMEUI_BANNER_3 then
-		slot0:emit(NewMainMediator.SKIP_ACTIVITY, tonumber(slot1.param))
-	elseif slot1.type == GAMEUI_BANNER_4 then
-		slot0:emit(NewMainMediator.SKIP_SHOP, slot1.param)
-	elseif slot1.type == GAMEUI_BANNER_5 then
-		-- Nothing
-	elseif slot1.type == GAMEUI_BANNER_6 then
-		slot0:emit(NewMainMediator.GO_SCENE, SCENE.SELTECHNOLOGY)
-	elseif slot1.type == GAMEUI_BANNER_7 then
-		slot0:emit(NewMainMediator.GO_MINI_GAME, slot1.param[1])
-	elseif slot1.type == GAMEUI_BANNER_8 then
-		if getProxy(GuildProxy):getRawData() then
-			slot0:emit(NewMainMediator.GO_SCENE, SCENE.GUILD)
-		else
-			slot0:emit(NewMainMediator.GO_SCENE, SCENE.NEWGUILD)
-		end
-	end
 end
 
 function slot0.Fold(slot0, slot1, slot2)

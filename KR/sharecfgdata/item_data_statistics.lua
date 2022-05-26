@@ -6740,6 +6740,90 @@ _G.pg.base.item_data_statistics[15013] = {
 	index = {}
 }
 
+_G.pg.base.item_data_statistics[15014] = {
+	display = "특수 장비 코어, 주로 특수 장비의 제작과 돌파에 사용된다.",
+	name = "특수 장비 코어",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/15014",
+	id = 15014,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[15015] = {
+	display = "특수 장비 강화석, 주로 특수 장비의 제작, 강화, 돌파에 사용된다.",
+	name = "특수 장비 강화석T1",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/15015",
+	id = 15015,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[15016] = {
+	display = "특수 장비 강화석, 주로 특수 장비의 제작, 강화, 돌파에 사용된다.",
+	name = "특수 장비 강화석T2",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/15016",
+	id = 15016,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[15017] = {
+	display = "특수 장비 강화석, 주로 특수 장비의 제작, 강화, 돌파에 사용된다.",
+	name = "특수 장비 강화석T3",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/15017",
+	id = 15017,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.base.item_data_statistics[16001] = {
 	display = "공격 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#d797ff>6개</color>를 합성하여 <color=#d797ff>공격 교본 T2</color> 제작 가능",
 	name = "공격 교본 T1",
@@ -155767,6 +155851,27 @@ _G.pg.base.item_data_statistics[59310] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59310,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[59311] = {
+	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "훈련 PT ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_y",
+	id = 59311,
 	display_icon = {},
 	price = {},
 	index = {}

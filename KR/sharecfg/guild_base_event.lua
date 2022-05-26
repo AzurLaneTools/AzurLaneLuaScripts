@@ -11180,7 +11180,7 @@ pg.guild_base_event = {
 			{
 				2,
 				59008,
-				42
+				56
 			}
 		},
 		report = {
@@ -11252,7 +11252,7 @@ pg.guild_base_event = {
 			{
 				2,
 				59008,
-				42
+				56
 			}
 		},
 		report = {

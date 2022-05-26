@@ -576,7 +576,7 @@ function slot0.GenBattleData(slot0)
 			end
 
 			slot4[#slot4 + 1] = slot24
-			slot26 = uv0(slot2, slot23, slot16)
+			slot26 = uv0(slot2, slot23, slot17)
 			slot26.initHPRate = slot25
 
 			table.insert(slot0.mainShips, slot23)

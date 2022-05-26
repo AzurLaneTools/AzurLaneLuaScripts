@@ -1,10 +1,6 @@
 slot0 = class("MainActSummaryBtn", import(".MainBaseActivityBtn"))
 
-function slot0.InShowTime(slot0)
-	return true
-end
-
-function slot0.GetImage(slot0)
+function slot0.GetEventName(slot0)
 	return "event_all"
 end
 
@@ -74,7 +70,7 @@ function slot0.CollectActEntrance(slot0)
 	end)
 end
 
-function slot0.OnClick(slot0)
+function slot0.CustomOnClick(slot0)
 	if slot0.priority then
 		slot0:emit(NewMainMediator.SKIP_ACTIVITY, slot0.priority.id)
 	else

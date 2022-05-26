@@ -115,6 +115,9 @@ function slot0.init(slot0)
 	slot0._mvpFX = slot0:findTF("mvpFX", slot0._atkPanel)
 	slot0._rightBottomPanel = slot0:findTF("rightBottomPanel", slot0._blurConatiner)
 	slot0._confirmBtn = slot0:findTF("confirmBtn", slot0._rightBottomPanel)
+
+	setText(slot0._confirmBtn:Find("Text"), i18n("text_confirm"))
+
 	slot0._statisticsBtn = slot0:findTF("statisticsBtn", slot0._rightBottomPanel)
 	slot0._subExpResult = slot0:findTF("subExpResult", slot0._leftPanel)
 	slot0._subExpContainer = slot0:findTF("expContainer", slot0._subExpResult)

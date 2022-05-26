@@ -38,17 +38,6 @@ return {
 			arg_list = {
 				count = 3
 			}
-		},
-		{
-			type = "BattleBuffCleanse",
-			trigger = {
-				"onAttach"
-			},
-			arg_list = {
-				buff_id_list = {
-					211
-				}
-			}
 		}
 	}
 }

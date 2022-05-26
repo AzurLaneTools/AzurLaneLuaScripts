@@ -60,16 +60,6 @@ function slot0.GetPutCntForFurniture(slot0, slot1)
 	return slot3
 end
 
-function slot0.GetPutCntInfo(slot0)
-	slot2 = {}
-
-	for slot6, slot7 in pairs(slot0:getPutFurnis()) do
-		slot2[slot8] = (slot2[slot7:getConfig("id")] or 0) + 1
-	end
-
-	return slot2
-end
-
 function slot0.GetPutCnt(slot0, slot1)
 	if slot0.furnitures[slot1] then
 		slot3 = 0
@@ -185,10 +175,6 @@ end
 
 function slot0.setFurnitrues(slot0, slot1)
 	slot0.furnitures = slot1
-end
-
-function slot0.clearFurnitrues(slot0)
-	slot0.furnitures = {}
 end
 
 function slot0.bindConfigTable(slot0)
@@ -374,14 +360,6 @@ function slot0.getFoodLeftTime(slot0)
 	return slot0.next_timestamp + ((slot0.food - slot0.food % slot4) / slot4 - 1) * slot1.time
 end
 
-function slot0.getFood(slot0)
-	return slot0.food
-end
-
-function slot0.addFood(slot0, slot1)
-	slot0.food = slot0.food + slot1
-end
-
 function slot0.GetOwnFurnitrueCount(slot0, slot1)
 	slot2 = 0
 
@@ -428,24 +406,6 @@ function slot0.OwnThemeTemplateFurniture(slot0, slot1)
 	end
 
 	return true
-end
-
-function slot0.ClearPositionByFloor(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.furnitures) do
-		if slot6.floor == slot1 then
-			slot6:clearPosition()
-		end
-	end
-end
-
-function slot0.SetPostionForFloor(slot0, slot1, slot2)
-	slot3 = slot0.furnitures
-
-	for slot7, slot8 in pairs(slot2) do
-		if slot3[slot8.id] then
-			slot0.furnitures[slot8.id] = slot8
-		end
-	end
 end
 
 function slot0.GenUniqueID(slot0, slot1)
