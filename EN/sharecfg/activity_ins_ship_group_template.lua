@@ -1720,6 +1720,66 @@ pg.activity_ins_ship_group_template = {
 		name = "Hobby",
 		sculpture = "huobi"
 	},
+	[20513] = {
+		ship_group = 20513,
+		name = "Vanguard",
+		sculpture = "qianwei"
+	},
+	[20712] = {
+		ship_group = 20712,
+		name = "Indomitable",
+		sculpture = "bunao"
+	},
+	[20134] = {
+		ship_group = 20134,
+		name = "Jervis",
+		sculpture = "jiaweisi"
+	},
+	[20122] = {
+		ship_group = 20122,
+		name = "Juno",
+		sculpture = "tianhou"
+	},
+	[20231] = {
+		ship_group = 20231,
+		name = "Bellona",
+		sculpture = "sizhannvshen"
+	},
+	[20601] = {
+		ship_group = 20601,
+		name = "Hermes@Dual",
+		sculpture = "jingjishen"
+	},
+	[20511] = {
+		ship_group = 20511,
+		name = "Revenge",
+		sculpture = "fuchou"
+	},
+	[20124] = {
+		ship_group = 20124,
+		name = "Jupiter",
+		sculpture = "qiubite"
+	},
+	[20114] = {
+		ship_group = 20114,
+		name = "Glowworm@Attack",
+		sculpture = "yinghuochong"
+	},
+	[20113] = {
+		ship_group = 20113,
+		name = "Grenville",
+		sculpture = "gelunweier"
+	},
+	[49905] = {
+		ship_group = 49905,
+		name = "Aegir",
+		sculpture = "aijier"
+	},
+	[49906] = {
+		ship_group = 49906,
+		name = "August.V.Parseval",
+		sculpture = "aogusite"
+	},
 	all = {
 		30701,
 		30702,
@@ -2064,6 +2124,18 @@ pg.activity_ins_ship_group_template = {
 		40311,
 		40208,
 		40403,
-		10136
+		10136,
+		20513,
+		20712,
+		20134,
+		20122,
+		20231,
+		20601,
+		20511,
+		20124,
+		20114,
+		20113,
+		49905,
+		49906
 	}
 }

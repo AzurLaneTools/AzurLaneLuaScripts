@@ -86,21 +86,6 @@ return {
 				skill_id = 18290,
 				target = "TargetSelf"
 			}
-		},
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onStartGame"
-			},
-			arg_list = {
-				minTargetNumber = 3,
-				skill_id = 18293,
-				nationality = 2,
-				check_target = {
-					"TargetAllHelp",
-					"TargetNationality"
-				}
-			}
 		}
 	}
 }

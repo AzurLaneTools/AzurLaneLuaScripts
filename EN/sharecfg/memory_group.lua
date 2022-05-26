@@ -2378,6 +2378,63 @@ pg.memory_group = {
 			2119
 		}
 	},
+	[217] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 217,
+		title = "The Many Lives of Maids",
+		memories = {
+			2128,
+			2129,
+			2130
+		}
+	},
+	[218] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 218,
+		title = "Pledge of the Radiant Court ",
+		memories = {
+			2131,
+			2132,
+			2133,
+			2134,
+			2135,
+			2136,
+			2137,
+			2138,
+			2139,
+			2140,
+			2141,
+			2142,
+			2143,
+			2144,
+			2145,
+			2146,
+			2147,
+			2148,
+			2149,
+			2150,
+			2151,
+			2152,
+			2153,
+			2154,
+			2155,
+			2156,
+			2157,
+			2158,
+			2159,
+			2160,
+			2161,
+			2162,
+			2163,
+			2164,
+			2165,
+			2166
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3527,6 +3584,22 @@ pg.memory_group = {
 			2069
 		}
 	},
+	[574] = {
+		icon = "title_chara_hailunna",
+		subtype = 0,
+		type = 3,
+		id = 574,
+		title = "Cinnamon Roll on a Rainy Day",
+		memories = {
+			2121,
+			2122,
+			2123,
+			2124,
+			2125,
+			2126,
+			2127
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3640,6 +3713,8 @@ pg.memory_group = {
 		214,
 		215,
 		216,
+		217,
+		218,
 		501,
 		502,
 		503,
@@ -3710,6 +3785,7 @@ pg.memory_group = {
 		570,
 		571,
 		572,
-		573
+		573,
+		574
 	}
 }

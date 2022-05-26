@@ -3620,7 +3620,7 @@ _G.pg.base.gametip.levelScene_chapter_level_limit = {
 }
 
 _G.pg.base.gametip.levelScene_chapter_count_tip = {
-	tip = "Today's Attempts: "
+	tip = "Today's Attempts:  "
 }
 
 _G.pg.base.gametip.levelScene_tracking_error_retry = {
@@ -4227,7 +4227,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 About META Showdown:
 
-1. From <color=#92fc63>3/10/22 to 5/31/22</color>, challenge Scharnhorst META
+1. From <color=#92fc63>3/10/22 to 6/8/22</color>, challenge Scharnhorst META
 to earn Sync Points. Sync Points can be used
 to obtain the limited character, <color=#92fc63>Scharnhorst META</color> as well
 as other great rewards.
@@ -7481,6 +7481,14 @@ _G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "<color=#92fc63>The Warrior's Prowess</color> will be used to complete the retrofit.\nWould you like to continue? "
 }
 
+_G.pg.base.gametip.ship_remould_warning_206134 = {
+	tip = [[
+Completing the retrofit will have the following effects:
+This ship gains <color=#92fc63>all aircraft +1</color>.
+The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63>Yuni's Aid</color>.
+Proceed with retrofit?]]
+}
+
 _G.pg.base.gametip.ship_remould_warning_301534 = {
 	tip = "The skill <color=#92fc63>Foo and Friends</color> will be upgraded upon retrofit completion."
 }
@@ -9833,7 +9841,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Emden, Lützow, and more!"
+	tip = "Get Vanguard guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11571,7 +11579,7 @@ Event Information:
  a. Active Commander 
  b. Returning or new Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- Logged in at least once at any point between August 12th, 2021, 2021 and before the maintenance on September 1st, 2021.
+- Logged in at least once at any point between May 12th, 2021 and before the maintenance on May 26th, 2021.
 3. Players who do not meet this criterion are categorized as Returning or new Commanders and are eligible for their own set of objectives and rewards.
 4. If you are unsure whether you are an Active Commander or a Returning or new Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.
@@ -19658,6 +19666,66 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2206 = {
+	tip = "Complete Cruise Missions between 1/6 – 31/7 to receive <color=#854747>Memphis META</color> and other rewards!"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2206 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+1/6 0:00 – 31/7 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Memphis META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Enterprise, "Bon Voyage."
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2206 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "Reset"
 }
@@ -19996,7 +20064,7 @@ _G.pg.base.gametip.skill_learn_tip = {
 }
 
 _G.pg.base.gametip.build_count_tip = {
-	tip = "Total"
+	tip = "Total "
 }
 
 _G.pg.base.gametip.help_research_package = {
@@ -20195,6 +20263,103 @@ _G.pg.base.gametip.littleEugen_npc = {
 	}
 }
 
+_G.pg.base.gametip.five_shujuhuigu = {
+	tip = "You have not yet unlocked Operation Siren."
+}
+
+_G.pg.base.gametip.five_shujuhuigu1 = {
+	tip = ""
+}
+
+_G.pg.base.gametip.littleChaijun_npc = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Little Cheshire will provisionally join your fleet. Complete missions to earn Cookie Pts and earn Trust. Collect enough Trust to have Little Cheshire permanently join your fleet!"
+		},
+		{
+			info = "- How to Play -\n· During the event period, completing the A Cookie For Mew! event missions will reward you with Cookie Pts. These will be automatically converted into Trust. Accumulating certain amounts of Trust will grant you additional rewards."
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Little Cheshire until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
+		},
+		{
+			info = "· If Little Cheshire has not been formally recruited by the end of the event, she will leave the Port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to June 2nd."
+		},
+		{
+			info = "· Little Cheshire cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Little Cheshire cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
+}
+
+_G.pg.base.gametip.five_qingdian = {
+	tip = {
+		{
+			info = [[
+- Overview -
+You will receive <color=#92fc63>1 Minigame Point</color> daily for the duration of the event. You can store up to <color=#92fc63>7 points</color>.
+· Finishing the minigame with a Minigame Point in your possession will subtract 1 point and grant progress toward the <color=#92fc63>Early Summer Invitation.</color>
+· You can check how many points you have on the <color=#92fc63>Summer Plaza</color> screen.
+· The minigame can be played even if you don't have points, but doing so won't grant any progress.]]
+		}
+	}
+}
+
 _G.pg.base.gametip.friend_resume_title_detail = {
 	tip = "Info"
+}
+
+_G.pg.base.gametip.item_type13_tip1 = {
+	tip = "Contents"
+}
+
+_G.pg.base.gametip.item_type13_tip2 = {
+	tip = "Contents"
+}
+
+_G.pg.base.gametip.item_type16_tip1 = {
+	tip = "Contents"
+}
+
+_G.pg.base.gametip.item_type16_tip2 = {
+	tip = "Contents"
+}
+
+_G.pg.base.gametip.item_type17_tip1 = {
+	tip = "Details"
+}
+
+_G.pg.base.gametip.item_type17_tip2 = {
+	tip = "Details"
+}
+
+_G.pg.base.gametip.five_duomaomao = {
+	tip = {
+		{
+			info = [[
+- Overview -
+In the Manjuu Hide and Peep minigame, rack up points by calling out as many shipgirls as you can within the time limit.
+Finishing the minigame with a Minigame Point in your possession will subtract 1 point and grant progress toward the Early Summer Invitation.
+
+- How to Play -
+
+· Shipgirls will come out of hiding during the minigame. Gain points by tapping on them to call them out.
+· Calling out a shipgirl within 2 seconds of her appearing will yield bonus points, up to a maximum of 300.
+· Calling out a shipgirl who's running will yield an additional 400 bonus points.
+· The minigame concludes when the timer runs out or when you tap the button to end it early.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.main_4 = {
+	tip = "MAIN4"
+}
+
+_G.pg.base.gametip.main_5 = {
+	tip = "MAIN5"
 }

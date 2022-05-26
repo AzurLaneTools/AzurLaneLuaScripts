@@ -5,7 +5,7 @@ function slot1(slot0, slot1, slot2, slot3)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 			slot4 = uv1[slot1 + 1]
-			uv2.resTitle = string.gsub(uv2.resTitle, ":", "")
+			uv2.resTitle = string.gsub(uv2.resTitle, "：", "")
 
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
 			setText(slot2:Find("target/Text"), slot4)
@@ -22,7 +22,7 @@ function slot1(slot0, slot1, slot2, slot3)
 			end, SFX_PANEL)
 			setActive(slot2:Find("award/mask"), table.contains(uv3, slot4))
 
-			if GetPerceptualSize(slot4) > 15 then
+			if GetPerceptualSize(uv2.resTitle) > 15 then
 				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 26
 				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 26
 			elseif slot6 > 12 then
@@ -51,6 +51,7 @@ function slot0.Show(slot0, slot1)
 	slot7 = pg.item_data_statistics[id2ItemId(slot1.resId)].name
 	slot0.cntTitle = i18n("pt_total_count", slot7)
 	slot0.resTitle = i18n("pt_count", slot7)
+	slot0.cntTitle = string.gsub(slot0.cntTitle, "：", "")
 
 	slot0:updateResIcon(slot1.resId, slot1.resIcon, slot1.type)
 	uv0(slot0, slot1.dropList, slot1.targets, slot1.fetchList)

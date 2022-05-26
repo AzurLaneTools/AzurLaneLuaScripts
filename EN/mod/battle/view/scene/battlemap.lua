@@ -122,7 +122,7 @@ function slot1.SetExposeLine(slot0, slot1, slot2, slot3)
 
 		slot4 = slot2:GetComponent("SpriteRenderer")
 		slot5 = slot4.bounds.extents.max
-		slot4.sortingOrder = -1500
+		slot4.sortingOrder = -1501
 		slot6 = tf(slot2).localScale
 		tf(slot2).localScale = Vector3.New(uv2 * slot6.x, slot6.y, slot6.z)
 		slot7 = tf(slot2).localPosition

@@ -3,19 +3,19 @@ slot0 = class("DialogueStoryPlayer", import(".StoryPlayer"))
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
-	slot0.actorPanel = slot0:findTF("actor", slot0.dialoguePanel)
+	slot0.actorPanel = slot0:findTF("actor")
 	slot0.actorLeft = slot0:findTF("actor_left", slot0.actorPanel)
 	slot0.initActorLeftPos = slot0.actorLeft.localPosition
 	slot0.actorMiddle = slot0:findTF("actor_middle", slot0.actorPanel)
 	slot0.initActorMiddlePos = slot0.actorMiddle.localPosition
 	slot0.actorRgiht = slot0:findTF("actor_right", slot0.actorPanel)
 	slot0.initActorRgihtPos = slot0.actorRgiht.localPosition
-	slot0.mainPanel = slot0:findTF("main", slot0.dialoguePanel)
-	slot0.contentArr = slot0.mainPanel:Find("next/arrow")
-	slot0.conentTxt = slot0:findTF("content", slot0.mainPanel):GetComponent(typeof(Text))
-	slot0.typewriter = slot0:findTF("content", slot0.mainPanel):GetComponent(typeof(Typewriter))
-	slot0.nameLeft = slot0:findTF("name_left", slot0.mainPanel)
-	slot0.nameRight = slot0:findTF("name_right", slot0.mainPanel)
+	slot0.sortingOrder = slot0._go:GetComponent(typeof(Canvas)).sortingOrder
+	slot0.contentArr = slot0.dialoguePanel:Find("next/arrow")
+	slot0.conentTxt = slot0:findTF("content", slot0.dialoguePanel):GetComponent(typeof(Text))
+	slot0.typewriter = slot0:findTF("content", slot0.dialoguePanel):GetComponent(typeof(Typewriter))
+	slot0.nameLeft = slot0:findTF("name_left", slot0.dialoguePanel)
+	slot0.nameRight = slot0:findTF("name_right", slot0.dialoguePanel)
 	slot0.nameLeftTxt = slot0:findTF("Text", slot0.nameLeft):GetComponent(typeof(Text))
 	slot0.nameRightTxt = slot0:findTF("Text", slot0.nameRight):GetComponent(typeof(Text))
 	slot0.subActorMiddle = UIItemList.New(slot0:findTF("actor_middle/sub", slot0.actorPanel), slot0:findTF("actor_middle/sub/tpl", slot0.actorPanel))
@@ -26,6 +26,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.glitchArtMaterialForPainting = slot0:findTF("resource/material3"):GetComponent(typeof(Image)).material
 	slot0.typewriterSpeed = 0
 	slot0.defualtFontSize = slot0.conentTxt.fontSize
+	slot0.live2dChars = {}
+	slot0.spinePainings = {}
 end
 
 function slot0.OnReset(slot0, slot1, slot2)
@@ -33,6 +35,7 @@ function slot0.OnReset(slot0, slot1, slot2)
 	setActive(slot0.nameLeft, false)
 	setActive(slot0.nameRight, false)
 	setActive(slot0.dialoguePanel, true)
+	setActive(slot0.actorPanel, true)
 
 	slot0.conentTxt.text = ""
 
@@ -63,7 +66,11 @@ function slot0.ResetActorTF(slot0, slot1, slot2)
 		})
 	else
 		if slot2 and slot2:IsDialogueMode() and slot1:IsSameSide(slot2) and slot1:IsDialogueMode() then
-			slot0:RecyclePainting(slot4)
+			if not slot1:IsSamePainting(slot2) then
+				slot0:RecyclePainting(slot4)
+			else
+				slot0.paintingStay = true
+			end
 		end
 
 		if slot3 == DialogueStep.SIDE_MIDDLE then
@@ -176,51 +183,210 @@ function slot0.UpdateTypeWriter(slot0, slot1, slot2)
 end
 
 function slot0.UpdatePainting(slot0, slot1, slot2)
-	slot4, slot5, slot6, slot7 = slot0:GetSideTF(slot1:GetSide())
+	slot3, slot4, slot5, slot6 = slot0:GetSideTF(slot1:GetSide())
+	slot7, slot8 = slot1:GetPaintingAndName()
+	slot9 = slot0.paintingStay
+	slot0.paintingStay = nil
+
+	if slot1:IsLive2dPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. slot8)) then
+		slot0:UpdateLive2dPainting(slot1, slot3, slot9, slot2)
+	elseif slot1:IsSpinePainting() and PathMgr.FileExists(PathMgr.getAssetBundle("spinepainting/" .. slot8)) then
+		slot0:UpdateSpinePainting(slot1, slot3, slot9, slot2)
+	else
+		slot0:UpdateMeshPainting(slot1, slot3, slot6, slot9, slot2)
+	end
+
+	if slot4 then
+		setActive(slot4, slot1:GetNameWithColor() and slot10 ~= "")
+
+		slot5.text = slot10
+	end
+end
+
+function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3, slot4)
+	function slot5(slot0)
+		GetOrAddComponent(uv2._go, typeof(CanvasGroup)).blocksRaycasts = false
+		uv2.live2dChars[uv1] = Live2D.New(Live2D.GenerateData({
+			ship = uv0:GetVirtualShip(),
+			scale = Vector3(70, 70, 70),
+			position = uv0:GetLive2dPos() or Vector3(0, 0, 0),
+			parent = uv1:Find("live2d")
+		}), function (slot0)
+			slot1 = slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController")
+			slot2 = uv0.sortingOrder + 1
+			slot3 = typeof("Live2D.Cubism.Rendering.CubismRenderController")
+
+			ReflectionHelp.RefSetProperty(slot3, "SortingOrder", slot1, slot2)
+			ReflectionHelp.RefSetProperty(slot3, "SortingMode", slot1, ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder"))
+
+			slot5 = GetOrAddComponent(uv0.front, typeof(Canvas))
+
+			GetOrAddComponent(uv0.front, typeof(GraphicRaycaster))
+
+			slot5.overrideSorting = true
+			slot5.sortingOrder = slot2 + slot0._tf:Find("Drawables").childCount
+			uv1.blocksRaycasts = true
+
+			if uv2 then
+				uv2(slot0)
+			end
+		end)
+	end
+
+	function slot6(slot0)
+		if slot0 and uv0:GetLive2dAction() and slot1 ~= "" then
+			slot0:TriggerAction(slot1)
+		end
+
+		uv1()
+	end
+
+	if slot3 and slot0.live2dChars[slot2] then
+		slot6(slot0.live2dChars[slot2])
+	else
+		slot5(slot6)
+	end
+end
+
+function slot1(slot0, slot1, slot2)
+	slot4 = nil
+
+	for slot8 = 1, slot0:GetComponentsInChildren(typeof(Canvas)).Length do
+		slot4 = slot3[slot8 - 1].sortingOrder
+	end
+
+	slot5 = math.huge
+
+	for slot10 = 1, slot1:GetComponentsInChildren(typeof(Canvas)).Length do
+		if slot5 > slot6[slot10 - 1].sortingOrder - slot4 then
+			slot5 = slot12
+		end
+	end
+
+	slot8 = {}
+
+	for slot12 = 1, slot1:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
+		slot14 = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot7[slot12 - 1])
+		slot8[slot12] = slot14
+
+		if slot5 > slot14 - slot4 then
+			slot5 = slot15
+		end
+	end
+
+	slot9 = slot2 - slot5 + 1
+
+	for slot13 = 1, slot3.Length do
+		slot3[slot13 - 1].sortingOrder = slot9
+	end
+
+	slot10 = slot9 + 1
+
+	for slot14 = 1, slot6.Length do
+		slot15 = slot6[slot14 - 1]
+		slot16 = slot9 + slot15.sortingOrder - slot4
+		slot15.sortingOrder = slot16
+
+		if slot9 < slot16 then
+			slot10 = slot16
+		end
+	end
+
+	for slot14 = 1, slot7.Length do
+		slot17 = slot9 + slot8[slot14] - slot4
+
+		ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot7[slot14 - 1], slot17)
+
+		if slot9 < slot17 then
+			slot10 = slot17
+		end
+	end
+
+	return slot10
+end
+
+function slot0.UpdateSpinePainting(slot0, slot1, slot2, slot3, slot4)
+	function slot5(slot0)
+		slot1 = uv0
+		slot2 = uv0
+		slot2 = slot2:Find("spinebg")
+		slot3 = uv1
+		slot7 = uv1
+
+		setActive(slot2, not slot7:IsHideSpineBg())
+
+		uv3.spinePainings[uv0] = SpinePainting.New(SpinePainting.GenerateData({
+			ship = slot3:GetVirtualShip(),
+			position = Vector3(0, 0, 0),
+			parent = slot1:Find("spine"),
+			effectParent = slot2
+		}), function (slot0)
+			slot2 = GetOrAddComponent(uv3.front, typeof(Canvas))
+
+			GetOrAddComponent(uv3.front, typeof(GraphicRaycaster))
+
+			slot2.overrideSorting = true
+			slot2.sortingOrder = uv0(uv1, uv2, uv3.sortingOrder) + 1
+
+			if uv4 then
+				uv4()
+			end
+		end)
+	end
+
+	if slot3 and slot0.spinePainings[slot2] then
+		slot4()
+	else
+		slot5(slot4)
+	end
+end
+
+function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4, slot5)
+	function slot7()
+		if uv0:IsShowNPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv1 .. "_n")) then
+			uv1 = uv1 .. "_n"
+		end
+
+		if uv0:IsShowWJZPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv1 .. "_wjz")) then
+			uv1 = uv1 .. "_wjz"
+		end
+
+		setPaintingPrefab(uv2, uv1, "duihua")
+	end
 
 	if slot1:GetPainting() then
-		if slot1:IsShowNPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot3 .. "_n")) then
-			slot3 = slot3 .. "_n"
+		slot8 = findTF(slot2, "fitter").childCount
+
+		if not slot4 or slot8 <= 0 then
+			slot7()
 		end
 
-		if slot1:IsShowWJZPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot3 .. "_wjz")) then
-			slot3 = slot3 .. "_wjz"
-		end
+		slot9 = slot1:GetPaintingDir()
+		slot2.localScale = Vector3(slot9, math.abs(slot9), 1)
+		slot11 = findTF(slot2, "fitter"):GetChild(0)
+		slot11.name = slot6
 
-		setPaintingPrefab(slot4, slot3, "duihua")
-
-		slot8 = slot1:GetPaintingDir()
-		slot4.localScale = Vector3(slot8, math.abs(slot8), 1)
-		slot10 = findTF(slot4, "fitter"):GetChild(0)
-		slot10.name = slot3
-
-		slot0:UpdateActorPostion(slot4, slot1)
-		slot0:UpdateExpression(slot10, slot1)
-		slot0:StartPatiningActions(slot4, slot1)
-		slot0:AddGlitchArtEffectForPating(slot4, slot10, slot1)
-		slot0:InitSubPainting(slot7, slot1)
-		slot4:SetAsLastSibling()
+		slot0:UpdateActorPostion(slot2, slot1)
+		slot0:UpdateExpression(slot11, slot1)
+		slot0:StartPatiningActions(slot2, slot1)
+		slot0:AddGlitchArtEffectForPating(slot2, slot11, slot1)
+		slot0:InitSubPainting(slot3, slot1)
+		slot2:SetAsLastSibling()
 
 		if slot1:ShouldGrayPainting() then
-			setGray(slot10, true, true)
+			setGray(slot11, true, true)
 		end
 
-		if findTF(slot10, "shadow") then
-			setActive(slot11, slot1:ShouldFaceBlack())
+		if findTF(slot11, "shadow") then
+			setActive(slot12, slot1:ShouldFaceBlack())
 		end
 
 		if slot1:GetPaintingAlpha() then
-			slot0:setPaintingAlpha(slot4, slot12)
+			slot0:setPaintingAlpha(slot2, slot13)
 		end
 	end
 
-	if slot5 then
-		setActive(slot5, slot1:GetNameWithColor() and slot8 ~= "")
-
-		slot6.text = slot8
-	end
-
-	slot2()
+	slot5()
 end
 
 function slot0.InitSubPainting(slot0, slot1, slot2)
@@ -532,39 +698,90 @@ function slot0.RecyclesSubPantings(slot0, slot1)
 	end)
 end
 
-function slot0.RecyclePainting(slot0, slot1)
-	function slot2(slot0)
-		if slot0:Find("fitter").childCount == 0 then
-			return
-		end
-
-		if slot0:Find("fitter"):GetChild(0) then
-			for slot6 = 0, slot0:GetComponentsInChildren(typeof(Image)).Length - 1 do
-				slot7 = slot2[slot6]
-				slot8 = Color.white
-
-				if slot7.material ~= slot7.defaultGraphicMaterial then
-					slot7.material = slot7.defaultGraphicMaterial
-
-					slot7.material:SetColor("_Color", slot8)
-				end
-			end
-
-			setGray(slot0, false, true)
-			retPaintingPrefab(slot0, slot1.name)
-
-			if slot1:Find("temp_mask") then
-				Destroy(slot3)
-			end
-		end
+function slot2(slot0)
+	if slot0:Find("fitter").childCount == 0 then
+		return
 	end
 
+	if slot0:Find("fitter"):GetChild(0) then
+		for slot6 = 0, slot0:GetComponentsInChildren(typeof(Image)).Length - 1 do
+			slot7 = slot2[slot6]
+			slot8 = Color.white
+
+			if slot7.material ~= slot7.defaultGraphicMaterial then
+				slot7.material = slot7.defaultGraphicMaterial
+
+				slot7.material:SetColor("_Color", slot8)
+			end
+		end
+
+		setGray(slot0, false, true)
+		retPaintingPrefab(slot0, slot1.name)
+
+		if slot1:Find("temp_mask") then
+			Destroy(slot3)
+		end
+	end
+end
+
+function slot3(slot0, slot1)
+	slot3 = false
+
+	if slot0.live2dChars[slot1] then
+		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot2._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), 0)
+		slot2:Dispose()
+
+		slot0.live2dChars[slot1] = nil
+		slot3 = true
+	end
+
+	slot4 = table.getCount(slot0.live2dChars) <= 0
+
+	if slot3 and slot4 then
+		if slot0.front:GetComponent(typeof(GraphicRaycaster)) then
+			Object.Destroy(slot5)
+		end
+
+		if slot0.front:GetComponent(typeof(Canvas)) then
+			Object.Destroy(slot6)
+		end
+	end
+end
+
+function slot4(slot0, slot1)
+	slot3 = false
+
+	if slot0.spinePainings[slot1] then
+		slot2:Dispose()
+
+		slot0.spinePainings[slot1] = nil
+		slot3 = true
+	end
+
+	slot4 = table.getCount(slot0.spinePainings) <= 0
+
+	if slot3 and slot4 then
+		if slot0.front:GetComponent(typeof(GraphicRaycaster)) then
+			Object.Destroy(slot5)
+		end
+
+		if slot0.front:GetComponent(typeof(Canvas)) then
+			Object.Destroy(slot6)
+		end
+	end
+end
+
+function slot0.RecyclePainting(slot0, slot1)
 	if type(slot1) == "table" then
-		for slot6, slot7 in ipairs(slot1) do
-			slot2(slot0[slot7])
+		for slot5, slot6 in ipairs(slot1) do
+			uv0(slot0[slot6])
+			uv1(slot0, slot0[slot6])
+			uv2(slot0, slot0[slot6])
 		end
 	else
-		slot2(slot1)
+		uv0(slot1)
+		uv1(slot0, slot1)
+		uv2(slot0, slot1)
 	end
 end
 

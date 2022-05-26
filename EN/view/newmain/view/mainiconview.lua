@@ -26,7 +26,7 @@ function slot0.Refresh(slot0, slot1)
 end
 
 function slot0.Disable(slot0)
-	if slot0.spineAnim then
+	if not IsNil(slot0.spineAnim) then
 		slot0.spineAnim:Pause()
 	end
 

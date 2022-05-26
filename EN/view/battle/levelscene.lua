@@ -976,7 +976,7 @@ function slot0.updateClouds(slot0)
 end
 
 function slot0.RefreshMapBG(slot0)
-	slot0:SwitchBG(slot0.currentBG, nil, true)
+	slot0:SwitchMapBG(slot0.contextData.map, slot0.lastMapIdx, true)
 end
 
 function slot0.updateCouldAnimator(slot0, slot1, slot2)
@@ -992,15 +992,23 @@ function slot0.updateCouldAnimator(slot0, slot1, slot2)
 			slot0.localScale = slot1
 
 			if uv0.contextData.map:getConfig("ani_controller") and #slot3 > 0 then
-				_.each(slot3, function (slot0)
-					if slot0[1] == 1 then
-						slot1 = slot0[2][1]
+				for slot7, slot8 in ipairs(slot3) do
+					if slot8[1] == 1 then
+						slot9 = slot8[2][1]
 
-						if not IsNil(uv0:Find(slot0[2][2])) then
-							setActive(slot3, getProxy(ChapterProxy):getChapterById(slot1, true):isClear())
+						if not IsNil(slot0:Find(slot8[2][2])) and not getProxy(ChapterProxy):getChapterById(slot9, true):isClear() then
+							setActive(slot11, false)
+						end
+					elseif slot8[1] == 2 then
+						slot9 = slot8[2][1]
+
+						if not IsNil(slot0:Find(slot8[2][2])) and not getProxy(ChapterProxy):getChapterById(slot9, true):isClear() then
+							setActive(slot11, true)
+
+							break
 						end
 					end
-				end)
+				end
 			end
 		end
 
@@ -1056,8 +1064,25 @@ function slot0.updateActivityBtns(slot0)
 	slot6 = slot0.contextData.map:getConfig("type")
 
 	if getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot8:isEnd() and not slot1 and not slot0.contextData.map:isSkirmish() and not slot0.contextData.map:isEscort() then
-		setImageSprite(slot0.activityBtn, slot9 and LoadSprite("ui/mainui_atlas", "event_map_" .. slot8.id) or LoadSprite("ui/mainui_atlas", "event_map"), true)
-		setActive(slot0.activityBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
+		if not (function ()
+			if #_.select(pg.activity_link_button.get_id_list_by_name.event_map or {}, function (slot0)
+				return pg.TimeMgr.GetInstance():inTime(uv0[slot0].time)
+			end) > 0 then
+				table.sort(slot3, function (slot0, slot1)
+					return uv0[slot0].order < uv0[slot1].order
+				end)
+
+				return slot1[slot3[1]]
+			end
+
+			return nil
+		end)() then
+			slot10 = false
+		else
+			setImageSprite(slot0.activityBtn:Find("Image"), LoadSprite("LinkButton/" .. slot12.pic, ""), true)
+			setImageSprite(slot0.activityBtn:Find("sub_Image"), LoadSprite("LinkButton/" .. slot12.text_pic, ""), true)
+			setActive(slot0.activityBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
+		end
 	end
 
 	setActive(slot0.activityBtn, slot10)
@@ -2222,17 +2247,17 @@ function slot0.ClearMapTransitions(slot0)
 	slot0.mapTransitions = nil
 end
 
-function slot0.SwitchMapBG(slot0, slot1, slot2)
-	slot3, slot4, slot5 = slot0:GetMapBG(slot1, slot2)
+function slot0.SwitchMapBG(slot0, slot1, slot2, slot3)
+	slot4, slot5, slot6 = slot0:GetMapBG(slot1, slot2)
 
-	if not slot4 then
-		slot0:SwitchBG(slot3)
+	if not slot5 then
+		slot0:SwitchBG(slot4, slot3)
 
 		return
 	end
 
-	slot0:PlayMapTransition("LevelMapTransition_" .. slot4, slot5, function ()
-		uv0:SwitchBG(uv1)
+	slot0:PlayMapTransition("LevelMapTransition_" .. slot5, slot6, function ()
+		uv0:SwitchBG(uv1, uv2)
 	end)
 end
 
@@ -2312,8 +2337,20 @@ function slot0.GetMapBG(slot0, slot1, slot2)
 end
 
 function slot0.GetMapElement(slot0, slot1)
+	slot2 = slot1:getConfig("bg")
+
+	if slot1:getConfig("ani_controller") and #slot3 > 0 then
+		for slot7, slot8 in ipairs(slot3) do
+			if string.find(slot8[2][2], "^map_") and slot8[1] == 2 and not getProxy(ChapterProxy):getChapterById(slot8[2][1], true):isClear() then
+				slot2 = slot9
+
+				break
+			end
+		end
+	end
+
 	return {
-		BG = slot1:getConfig("bg"),
+		BG = slot2,
 		Animator = slot0:GetMapAnimator(slot1)
 	}
 end

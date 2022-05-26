@@ -671,6 +671,30 @@ pg.equip_skin_theme_template = {
 			557
 		}
 	},
+	[34] = {
+		id = 34,
+		name = "Empery Chic",
+		ids = {
+			560,
+			561,
+			562,
+			563,
+			564,
+			565,
+			566,
+			567,
+			568,
+			569,
+			570,
+			571,
+			572,
+			573,
+			574,
+			575,
+			576,
+			577
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -724,6 +748,7 @@ pg.equip_skin_theme_template = {
 		31,
 		32,
 		33,
+		34,
 		101,
 		199
 	}

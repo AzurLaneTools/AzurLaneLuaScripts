@@ -4864,6 +4864,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[226] = {
+		effect = "",
+		name = "Medal of the Radiant Court ",
+		gain_by = "Pledge of the Radiant Court ",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 1,
+		picture = "chuanmo/qianweixunzhang",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The chivalric oath of loyalty transcends time and space, shining like a star up above. Awarded to Commanders who displayed excellence during the \"Pledge of the Radiant Court\" event. ",
+		tag = 6,
+		icon = "qianweixunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 226,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -6579,6 +6616,73 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100029] = {
+		effect = "",
+		name = "Mini Wave Pool",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Finally, a way to practice your surfing indoors!",
+		themeId = 0,
+		icon = "yongchiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100029,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yongchi",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		effect = "",
 		name = "The Conquered Unhulde's Throne",
@@ -6899,6 +7003,90 @@ pg.furniture_data_template = {
 				"tuozhuai2",
 				{
 					705061
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[200005] = {
+		effect = "",
+		name = "Evening Bar Counter",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you let Eugen have too much, that's on you.",
+		themeId = 0,
+		icon = "fur_ougen_6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		belong = 1,
+		canputon = 0,
+		id = 200005,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fur_ougen_6B",
+				"normal"
+			},
+			{
+				"fur_ougen_6T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					403035
 				},
 				"furniture",
 				0,
@@ -20160,7 +20348,7 @@ pg.furniture_data_template = {
 		count = 1,
 		is_3d_obj = 0,
 		describe = "Pew, pew, pew!",
-		tag = 1,
+		tag = 7,
 		icon = "feichuansticon",
 		spine_extra = "",
 		level = 1,
@@ -26937,7 +27125,7 @@ pg.furniture_data_template = {
 		count = 1,
 		is_3d_obj = 0,
 		describe = "Just down the river from where Belfast goes on her vacation days!",
-		tag = 1,
+		tag = 7,
 		icon = "motianlunylicon",
 		spine_extra = "",
 		level = 1,
@@ -27291,7 +27479,7 @@ pg.furniture_data_template = {
 		count = 1,
 		is_3d_obj = 0,
 		describe = "The Royal Navy may be known as tea addicts, but once in a while they have some coffee as well.",
-		tag = 1,
+		tag = 7,
 		icon = "kafeijiylicon",
 		spine_extra = "",
 		level = 1,
@@ -27376,7 +27564,7 @@ pg.furniture_data_template = {
 		count = 1,
 		is_3d_obj = 0,
 		describe = "Not edible, but just as exquisite as the Royal Gourmet it's modeled after.",
-		tag = 1,
+		tag = 7,
 		icon = "yangwangxingkongylicon",
 		spine_extra = "",
 		level = 1,
@@ -30602,7 +30790,7 @@ pg.furniture_data_template = {
 		count = 3,
 		is_3d_obj = 0,
 		describe = "He hates Mondays, among other things.",
-		tag = 1,
+		tag = 7,
 		icon = "amazingbox_brwon_icon",
 		spine_extra = "",
 		level = 1,
@@ -30683,7 +30871,7 @@ pg.furniture_data_template = {
 		count = 3,
 		is_3d_obj = 0,
 		describe = "♪ And all the cats say I'm pretty fine for a feline ♪",
-		tag = 1,
+		tag = 7,
 		icon = "amazingbox_gray_icon",
 		spine_extra = "",
 		level = 1,
@@ -30764,7 +30952,7 @@ pg.furniture_data_template = {
 		count = 3,
 		is_3d_obj = 0,
 		describe = "\"I think I know who taught her that expression...\"",
-		tag = 1,
+		tag = 7,
 		icon = "amazingbox_color_icon",
 		spine_extra = "",
 		level = 1,
@@ -90878,6 +91066,1278 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[89001] = {
+		icon = "dibancn2icon",
+		name = "Empery Chic Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 89,
+		picture = "cn2/dibancn2",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Simple yet sophisticated floorboards. Dark and easy to clean, but you'll still have to take off your shoes.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 4,
+		canputon = 0,
+		id = 89001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89002] = {
+		icon = "qiangbicn2icon",
+		name = "Empery Chic Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 89,
+		picture = "cn2/qiangbicn2",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "The austere but glossy white provides a sense of refinement in simplicity.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 4,
+		canputon = 0,
+		id = 89002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89101] = {
+		effect = "",
+		name = "Empery Chic Tea Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/chajicn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Has everything you need to finish your day elegantly like the scholars of yore. Except the tea.",
+		tag = 1,
+		icon = "chajicn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89101,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89102] = {
+		effect = "",
+		name = "Chic Queen-Size Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cn2/chuangcn2",
+		is_get_time_note = 0,
+		themeId = 89,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A large, soft bed that seems to have come right out of a luxury resort.",
+		tag = 1,
+		icon = "chuangcn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89102,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					0,
+					39
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					75,
+					-9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89103] = {
+		effect = "",
+		name = "Chic Bedstand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/chuangtougui1cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Hurry, turn it off or Mom will think you're staying up to play video games.",
+		tag = 1,
+		icon = "chuangtougui1cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89104] = {
+		effect = "",
+		name = "Chic Bedstand with Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/chuangtougui2cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It brings a splash of green into a concrete jungle, much like the modernity it represents.",
+		tag = 1,
+		icon = "chuangtougui2cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89105] = {
+		effect = "",
+		name = "Chic Scenic TV Set",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/dianshiguicn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The extra-atmospheric way to enjoy your Wuxia gaming experience.",
+		tag = 1,
+		icon = "dianshiguicn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89105,
+		can_rotate = 0,
+		size = {
+			9,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89106] = {
+		effect = "",
+		name = "Chic Checkered Rug",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/ditan1cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Unfortunately, you can't play checkers on it. Go figure.",
+		tag = 1,
+		icon = "ditan1cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89106,
+		can_rotate = 0,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89107] = {
+		effect = "",
+		name = "Chic Patterned Rug",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/ditan2cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Gives off a strong, natural impression.",
+		tag = 1,
+		icon = "ditan2cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89107,
+		can_rotate = 0,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89108] = {
+		effect = "",
+		name = "Empery-Style Bamboo Partition",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/eluanshigeduancn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Elegant, atmospheric bamboo that creates a sense of spaciousness. Keep the pandas away.",
+		tag = 1,
+		icon = "eluanshigeduancn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89108,
+		can_rotate = 0,
+		size = {
+			10,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89109] = {
+		effect = "",
+		name = "Bin of Scrolls",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/huatongcn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Nobody has to know that they're lewd anime tapestries you bought at a convention.",
+		tag = 1,
+		icon = "huatongcn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89110] = {
+		effect = "",
+		name = "Empery Chic Hanging Light",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/luodideng1cn2",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Everything comes back into style sooner or later.",
+		tag = 1,
+		icon = "luodideng1cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89110,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89112] = {
+		effect = "",
+		name = "Empery Chic Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/luodideng2cn2",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Who said function over form can't also be beautiful?",
+		tag = 1,
+		icon = "luodideng2cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89112,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89114] = {
+		effect = "",
+		name = "Potted White Pine (Upright)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/penzai1cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A symbol of longevity and vitality. Won't provide any units of Pine Wood when struck.",
+		tag = 1,
+		icon = "penzai1cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89115] = {
+		effect = "",
+		name = "Potted White Pine (Slanted)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/penzaicn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A symbol of longevity and vitality. No, its resin will not grant you eternal life.",
+		tag = 1,
+		icon = "penzaicn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89115,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89116] = {
+		effect = "",
+		name = "Cloud-Patterned Screen",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/pingfeng1cn2",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "A folding windscreen invoking the imagery of clouds chasing after the sun. You can do it, clouds!",
+		tag = 1,
+		icon = "pingfeng1cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89116,
+		can_rotate = 0,
+		size = {
+			1,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89118] = {
+		effect = "",
+		name = "Mountain-and-Water Screen",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/pingfeng2cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The union of heaven and earth, reflected within nature. A popular hang-out spot for the more poetic shipgirls.",
+		tag = 1,
+		icon = "pingfeng2cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89118,
+		can_rotate = 0,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89119] = {
+		effect = "",
+		name = "Chic Long Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/shafa1cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's incredibly comfortable, but you'll never know. Can't sit on it because it'll get dirty, after all.",
+		tag = 1,
+		icon = "shafa1cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89119,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89120] = {
+		effect = "",
+		name = "Chic Sofa (Back-Facing)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/shafa2cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Simple, elegant, and incredibly comfortable.",
+		tag = 1,
+		icon = "shafa2cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89120,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89121] = {
+		effect = "",
+		name = "Chic Sofa (Front-Facing)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cn2/shafa3cn2",
+		is_get_time_note = 0,
+		themeId = 89,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Simple, elegant, and incredibly comfortable.",
+		tag = 1,
+		icon = "shafa3cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89121,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-28,
+					-33
+				},
+				{
+					-1,
+					1
+				},
+				"cn2/shafa3cn2_using",
+				0,
+				{
+					{
+						6,
+						42
+					},
+					{
+						290,
+						300
+					},
+					"cn2/shafa3cn2_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89122] = {
+		effect = "",
+		name = "Empery Chic Bookshelves",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/shuguicn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Runes!! What are these runes?!",
+		tag = 1,
+		icon = "shuguicn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89122,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89123] = {
+		effect = "",
+		name = "Empery Chic Small Tea Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/xiaochajicn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Good for when you don't want to share your tea.",
+		tag = 1,
+		icon = "xiaochajicn2",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 89123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {
+			0,
+			76.1
+		},
+		canputonGrid = {
+			{
+				0,
+				0
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89124] = {
+		effect = "",
+		name = "Chic Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cn2/xiaodengzicn2",
+		is_get_time_note = 0,
+		themeId = 89,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Gather 'round, and let me tell you the story of the little manjuu who went west...",
+		tag = 1,
+		icon = "xiaodengzicn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89124,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-17,
+					40
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89125] = {
+		effect = "",
+		name = "Chic Bathtub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cn2/yugangcn2",
+		is_get_time_note = 0,
+		themeId = 89,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Perfect for a relaxing bubble bath... or is a prototype cryogenic pod?",
+		tag = 1,
+		icon = "yugangcn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89125,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-32,
+					-32
+				},
+				{
+					1,
+					1
+				},
+				"cn2/yugangcn2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89126] = {
+		effect = "",
+		name = "Traditional Desk",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Where's our anime about ancient calligraphers getting reborn and pulled into a modern doujin circle? Let's make it happen, Chao Ho!\"",
+		tag = 7,
+		icon = "shuzhuocn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		comfortable = 4,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 89126,
+		can_rotate = 0,
+		size = {
+			4,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuzhuocn2B",
+				"normal"
+			},
+			{
+				"shuzhuocn2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"shuzhuocn2CharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"shuzhuocn2CharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"shuzhuocn2CharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"shuzhuocn2CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[89201] = {
+		effect = "",
+		name = "Chic Empery Potted Plant",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/huapingcn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't forget to water it!",
+		tag = 2,
+		icon = "huapingcn2icon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 89201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89301] = {
+		effect = "",
+		name = "Empery-Style Wall Lamp (Long)",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/bideng1cn2",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Casts a warm, exquisite glow.",
+		tag = 5,
+		icon = "bideng1cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 89301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89303] = {
+		effect = "",
+		name = "Empery-Style Wall Lamp (Round)",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/bideng2cn2",
+		count = 4,
+		is_3d_obj = 0,
+		describe = "Casts a warm, exquisite glow.",
+		tag = 5,
+		icon = "bideng2cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 89303,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89307] = {
+		effect = "",
+		name = "Hanging Pictures (Mountains and Water)",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/bihua1cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A series of picture frames capturing the expansive majesty of nature.",
+		tag = 5,
+		icon = "bihua1cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 89307,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89308] = {
+		effect = "",
+		name = "Freehand Brush Pine",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/bihua2cn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A hanging picture of a pine in the freehand brush style.",
+		tag = 5,
+		icon = "bihua2cn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 89308,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[89309] = {
+		effect = "",
+		name = "Modern Vanity Desk",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 89,
+		is_get_time_note = 0,
+		picture = "cn2/xishutaicn2",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "As timeless as cultural norms! Today's another great day!",
+		tag = 5,
+		icon = "xishutaicn2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 89309,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -90981,6 +92441,7 @@ pg.furniture_data_template = {
 			221,
 			222,
 			225,
+			226,
 			100002,
 			100003,
 			100004,
@@ -91004,10 +92465,12 @@ pg.furniture_data_template = {
 			100025,
 			100026,
 			100027,
+			100029,
 			200001,
 			200002,
 			200003,
 			200004,
+			200005,
 			12002,
 			12102,
 			12103,
@@ -91126,6 +92589,7 @@ pg.furniture_data_template = {
 			221,
 			222,
 			225,
+			226,
 			100002,
 			100003,
 			100004,
@@ -91149,10 +92613,12 @@ pg.furniture_data_template = {
 			100025,
 			100026,
 			100027,
+			100029,
 			200001,
 			200002,
 			200003,
 			200004,
+			200005,
 			12002,
 			12102,
 			12103,
@@ -95136,6 +96602,70 @@ pg.furniture_data_template = {
 			88303,
 			88304,
 			88305
+		},
+		[89] = {
+			89001,
+			89002,
+			89101,
+			89102,
+			89103,
+			89104,
+			89105,
+			89106,
+			89107,
+			89108,
+			89109,
+			89110,
+			89112,
+			89114,
+			89115,
+			89116,
+			89118,
+			89119,
+			89120,
+			89121,
+			89122,
+			89123,
+			89124,
+			89125,
+			89126,
+			89201,
+			89301,
+			89303,
+			89307,
+			89308,
+			89309,
+			89001,
+			89002,
+			89101,
+			89102,
+			89103,
+			89104,
+			89105,
+			89106,
+			89107,
+			89108,
+			89109,
+			89110,
+			89112,
+			89114,
+			89115,
+			89116,
+			89118,
+			89119,
+			89120,
+			89121,
+			89122,
+			89123,
+			89124,
+			89125,
+			89126,
+			89201,
+			89301,
+			89303,
+			89307,
+			89308,
+			89309
 		}
 	},
 	get_id_list_by_tag = {
@@ -95319,7 +96849,6 @@ pg.furniture_data_template = {
 			14117,
 			14118,
 			14119,
-			14120,
 			14121,
 			16101,
 			16102,
@@ -95410,15 +96939,12 @@ pg.furniture_data_template = {
 			20113,
 			20114,
 			22101,
-			22102,
 			22103,
 			22104,
 			22105,
 			22106,
 			22107,
 			22108,
-			22109,
-			22110,
 			22111,
 			22112,
 			22113,
@@ -95460,9 +96986,6 @@ pg.furniture_data_template = {
 			24120,
 			24121,
 			24122,
-			24123,
-			24124,
-			24125,
 			27103,
 			27104,
 			27105,
@@ -96440,7 +97963,29 @@ pg.furniture_data_template = {
 			88118,
 			88119,
 			88120,
-			88123
+			88123,
+			89101,
+			89102,
+			89103,
+			89104,
+			89105,
+			89106,
+			89107,
+			89108,
+			89109,
+			89110,
+			89112,
+			89114,
+			89115,
+			89116,
+			89118,
+			89119,
+			89120,
+			89121,
+			89122,
+			89123,
+			89124,
+			89125
 		},
 		{
 			1108,
@@ -96574,7 +98119,8 @@ pg.furniture_data_template = {
 			55215,
 			85201,
 			85202,
-			85203
+			85203,
+			89201
 		},
 		[6] = {
 			1,
@@ -96679,6 +98225,7 @@ pg.furniture_data_template = {
 			221,
 			222,
 			225,
+			226,
 			100002,
 			100003,
 			100004,
@@ -96702,6 +98249,7 @@ pg.furniture_data_template = {
 			100025,
 			100026,
 			100027,
+			100029,
 			31101,
 			54104,
 			54105
@@ -96712,21 +98260,29 @@ pg.furniture_data_template = {
 			200002,
 			200003,
 			200004,
+			200005,
 			13101,
 			13126,
 			13127,
 			14115,
+			14120,
 			17102,
 			17114,
 			18119,
 			18120,
 			18121,
 			18122,
+			22102,
+			22109,
+			22110,
 			23112,
 			23113,
 			23114,
 			24116,
 			24117,
+			24123,
+			24124,
+			24125,
 			27124,
 			27125,
 			30122,
@@ -96822,7 +98378,8 @@ pg.furniture_data_template = {
 			84186,
 			85126,
 			86122,
-			88126
+			88126,
+			89126
 		},
 		[4] = {
 			1001,
@@ -96892,7 +98449,8 @@ pg.furniture_data_template = {
 			85001,
 			86001,
 			87001,
-			88001
+			88001,
+			89001
 		},
 		[3] = {
 			1002,
@@ -96963,7 +98521,8 @@ pg.furniture_data_template = {
 			85002,
 			86002,
 			87002,
-			88002
+			88002,
+			89002
 		},
 		[5] = {
 			1301,
@@ -97210,7 +98769,12 @@ pg.furniture_data_template = {
 			88301,
 			88303,
 			88304,
-			88305
+			88305,
+			89301,
+			89303,
+			89307,
+			89308,
+			89309
 		}
 	},
 	get_id_list_by_type = {
@@ -97283,7 +98847,8 @@ pg.furniture_data_template = {
 			85002,
 			86002,
 			87002,
-			88002
+			88002,
+			89002
 		},
 		[7] = {
 			1,
@@ -97371,6 +98936,7 @@ pg.furniture_data_template = {
 			221,
 			222,
 			225,
+			226,
 			100002,
 			100004,
 			100005,
@@ -97387,7 +98953,8 @@ pg.furniture_data_template = {
 			100023,
 			100025,
 			100026,
-			100027
+			100027,
+			100029
 		},
 		[2] = {
 			120,
@@ -97407,6 +98974,7 @@ pg.furniture_data_template = {
 			200002,
 			200003,
 			200004,
+			200005,
 			1102,
 			1103,
 			1104,
@@ -98679,7 +100247,27 @@ pg.furniture_data_template = {
 			88119,
 			88120,
 			88123,
-			88126
+			88126,
+			89101,
+			89102,
+			89103,
+			89104,
+			89105,
+			89108,
+			89109,
+			89110,
+			89112,
+			89114,
+			89115,
+			89116,
+			89118,
+			89119,
+			89120,
+			89121,
+			89122,
+			89123,
+			89124,
+			89125
 		},
 		[11] = {
 			131,
@@ -98721,7 +100309,8 @@ pg.furniture_data_template = {
 			78116,
 			81132,
 			84174,
-			86122
+			86122,
+			89126
 		},
 		[4] = {
 			1001,
@@ -98791,7 +100380,8 @@ pg.furniture_data_template = {
 			85001,
 			86001,
 			87001,
-			88001
+			88001,
+			89001
 		},
 		[5] = {
 			1101,
@@ -98901,7 +100491,9 @@ pg.furniture_data_template = {
 			86106,
 			86119,
 			87116,
-			88103
+			88103,
+			89106,
+			89107
 		},
 		[3] = {
 			1108,
@@ -99036,7 +100628,8 @@ pg.furniture_data_template = {
 			55215,
 			85201,
 			85202,
-			85203
+			85203,
+			89201
 		},
 		[6] = {
 			1301,
@@ -99282,7 +100875,12 @@ pg.furniture_data_template = {
 			88301,
 			88303,
 			88304,
-			88305
+			88305,
+			89301,
+			89303,
+			89307,
+			89308,
+			89309
 		},
 		[8] = {
 			17121
@@ -99406,6 +101004,7 @@ pg.furniture_data_template = {
 		221,
 		222,
 		225,
+		226,
 		100002,
 		100003,
 		100004,
@@ -99429,10 +101028,12 @@ pg.furniture_data_template = {
 		100025,
 		100026,
 		100027,
+		100029,
 		200001,
 		200002,
 		200003,
 		200004,
+		200005,
 		1001,
 		1002,
 		1101,
@@ -101361,6 +102962,37 @@ pg.furniture_data_template = {
 		88301,
 		88303,
 		88304,
-		88305
+		88305,
+		89001,
+		89002,
+		89101,
+		89102,
+		89103,
+		89104,
+		89105,
+		89106,
+		89107,
+		89108,
+		89109,
+		89110,
+		89112,
+		89114,
+		89115,
+		89116,
+		89118,
+		89119,
+		89120,
+		89121,
+		89122,
+		89123,
+		89124,
+		89125,
+		89126,
+		89201,
+		89301,
+		89303,
+		89307,
+		89308,
+		89309
 	}
 }

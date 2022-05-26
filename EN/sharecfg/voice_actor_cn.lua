@@ -1255,5 +1255,25 @@ pg.voice_actor_CN = {
 	{
 		code = 314,
 		actor_name = "Sugiyama Riho"
+	},
+	{
+		code = 315,
+		actor_name = "Nakashima Yuki"
+	},
+	{
+		code = 316,
+		actor_name = "Satou Miyuki"
+	},
+	{
+		code = 317,
+		actor_name = "Itou Miku"
+	},
+	{
+		code = 318,
+		actor_name = "Hayase Marika"
+	},
+	{
+		code = 319,
+		actor_name = "Toujou Hisako"
 	}
 }

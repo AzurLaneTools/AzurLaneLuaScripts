@@ -27026,6 +27026,290 @@ _G.pg.base.task_data_template[5757] = {
 	}
 }
 
+_G.pg.base.task_data_template[5761] = {
+	name = "Sweet as Sugar",
+	guild_coin_award = 0,
+	award = 5548,
+	type = 5,
+	desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5762",
+	auto_commit = 0,
+	story_id = "HAILUNNA1",
+	id = 5761,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5762] = {
+	name = "A Storm is Coming",
+	guild_coin_award = 0,
+	award = 5549,
+	type = 5,
+	desc = "Enhance any character 10 times.",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5763",
+	auto_commit = 0,
+	scene = "",
+	id = 5762,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5763] = {
+	name = "A Light in the Darkness",
+	guild_coin_award = 0,
+	award = 5550,
+	type = 5,
+	desc = "Sortie and obtain 20 victories with Helena in the fleet.",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10205",
+	priority_type = 0,
+	next_task = "5764",
+	auto_commit = 0,
+	scene = "",
+	id = 5763,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5764] = {
+	name = "Warming Words",
+	guild_coin_award = 0,
+	award = 5551,
+	type = 5,
+	desc = "Complete 3 Daily Challenges with Helena in the fleet.",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10205",
+	priority_type = 0,
+	next_task = "5765",
+	auto_commit = 0,
+	scene = "",
+	id = 5764,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5765] = {
+	name = "Shattered Glass",
+	guild_coin_award = 0,
+	award = 5552,
+	type = 5,
+	desc = "Reach 100 Affinity with Helena.",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10205",
+	priority_type = 0,
+	next_task = "5766",
+	auto_commit = 0,
+	scene = "",
+	id = 5765,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16022,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5766] = {
+	name = "Sweet Respite",
+	guild_coin_award = 0,
+	award = 5553,
+	type = 5,
+	desc = "Fully Limit Break Helena.",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10205",
+	priority_type = 0,
+	next_task = "5767",
+	auto_commit = 0,
+	scene = "",
+	id = 5766,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5767] = {
+	name = "The Calm After the Storm",
+	guild_coin_award = 0,
+	award = 5554,
+	type = 5,
+	desc = "Get Helena to Level 100.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HAILUNNA7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10205",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5767,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "Offshore Exercises - Hard",
 	guild_coin_award = 0,
@@ -151780,6 +152064,4945 @@ _G.pg.base.task_data_template[17601] = {
 	}
 }
 
+_G.pg.base.task_data_template[17610] = {
+	name = "『前卫』角色收集：前卫",
+	guild_coin_award = 0,
+	award = 97380,
+	type = 6,
+	desc = "Obtain the ship Vanguard",
+	count_inherit = 0,
+	sub_type = 1014,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17610,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		20513
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			800
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17611] = {
+	name = "『前卫』角色收集：贾维斯",
+	guild_coin_award = 0,
+	award = 97381,
+	type = 6,
+	desc = "Fully Limit Break Jervis",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "201344",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17611,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			600
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17612] = {
+	name = "『前卫』角色收集：不挠",
+	guild_coin_award = 0,
+	award = 97382,
+	type = 6,
+	desc = "Fully Limit Break Indomitable",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "207124",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17612,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			600
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17613] = {
+	name = "『前卫』角色收集：复仇",
+	guild_coin_award = 0,
+	award = 97383,
+	type = 6,
+	desc = "Fully Limit Break Revenge",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "205114",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17613,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			400
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17614] = {
+	name = "『前卫』角色收集：司战女神",
+	guild_coin_award = 0,
+	award = 97384,
+	type = 6,
+	desc = "Fully Limit Break Bellona",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "202314",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17614,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			400
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17615] = {
+	name = "『前卫』角色刷关：反击",
+	guild_coin_award = 0,
+	award = 97385,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "Clear A2 or C2 10 times with Repulse at max Limit Break in your fleet. Repulse must survive the battle.",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17615,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650113,
+		1652113
+	},
+	target_id_2 = {
+		204024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			100
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17616] = {
+	name = "『前卫』角色刷关：声望",
+	guild_coin_award = 0,
+	award = 97386,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "Clear A3 or C3 10 times with Renown at max Limit Break in your fleet. Renown must survive the battle.",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17616,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650213,
+		1652213
+	},
+	target_id_2 = {
+		204014
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17617] = {
+	name = "『前卫』角色刷关：谢菲尔德",
+	guild_coin_award = 0,
+	award = 97387,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "Clear B2 or D2 10 times with Sheffield at max Limit Break in your fleet. Sheffield must survive the battle.",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17617,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1651113,
+		1653113
+	},
+	target_id_2 = {
+		202084
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17618] = {
+	name = "『前卫』角色刷关：厌战",
+	guild_coin_award = 0,
+	award = 97388,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "Clear B3 or D3 10 times with Warspite at max Limit Break in your fleet. Warspite must survive the battle.",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17618,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1651213,
+		1651214,
+		1653213,
+		1653214
+	},
+	target_id_2 = {
+		205024,
+		205124
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			255,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17619] = {
+	name = "『前卫』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97397,
+	type = 6,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17619,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			261,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17620] = {
+	name = "小柴郡通常任务1",
+	guild_coin_award = 0,
+	award = 97405,
+	type = 26,
+	desc = "Claim victory 20 times.",
+	count_inherit = 17621,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17621",
+	auto_commit = 0,
+	story_id = "",
+	id = 17620,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17621] = {
+	name = "小柴郡通常任务2",
+	guild_coin_award = 0,
+	award = 97406,
+	type = 26,
+	desc = "Claim victory 40 times.",
+	count_inherit = 17622,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17622",
+	auto_commit = 0,
+	story_id = "",
+	id = 17621,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17622] = {
+	name = "小柴郡通常任务3",
+	guild_coin_award = 0,
+	award = 97407,
+	type = 26,
+	desc = "Claim victory 60 times.",
+	count_inherit = 17623,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17623",
+	auto_commit = 0,
+	story_id = "",
+	id = 17622,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17623] = {
+	name = "小柴郡通常任务4",
+	guild_coin_award = 0,
+	award = 97408,
+	type = 26,
+	desc = "Claim victory 80 times.",
+	count_inherit = 17624,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17624",
+	auto_commit = 0,
+	story_id = "",
+	id = 17623,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17624] = {
+	name = "小柴郡通常任务5",
+	guild_coin_award = 0,
+	award = 97409,
+	type = 26,
+	desc = "Claim victory 100 times.",
+	count_inherit = 17625,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17625",
+	auto_commit = 0,
+	story_id = "",
+	id = 17624,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17625] = {
+	name = "小柴郡通常任务6",
+	guild_coin_award = 0,
+	award = 97410,
+	type = 26,
+	desc = "Claim victory 120 times.",
+	count_inherit = 17626,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17626",
+	auto_commit = 0,
+	story_id = "",
+	id = 17625,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17626] = {
+	name = "小柴郡通常任务7",
+	guild_coin_award = 0,
+	award = 97411,
+	type = 26,
+	desc = "Sortie and obtain 140 victories.",
+	count_inherit = 17627,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17627",
+	auto_commit = 0,
+	story_id = "",
+	id = 17626,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17627] = {
+	name = "小柴郡通常任务8",
+	guild_coin_award = 0,
+	award = 97412,
+	type = 26,
+	desc = "Sortie and obtain 160 victories.",
+	count_inherit = 17628,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17628",
+	auto_commit = 0,
+	story_id = "",
+	id = 17627,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17628] = {
+	name = "小柴郡通常任务9",
+	guild_coin_award = 0,
+	award = 97413,
+	type = 26,
+	desc = "Sortie and obtain 180 victories.",
+	count_inherit = 17629,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17629",
+	auto_commit = 0,
+	story_id = "",
+	id = 17628,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17629] = {
+	name = "小柴郡通常任务10",
+	guild_coin_award = 0,
+	award = 97414,
+	type = 26,
+	desc = "Claim victory 200 times.",
+	count_inherit = 17630,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17630",
+	auto_commit = 0,
+	story_id = "",
+	id = 17629,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17630] = {
+	name = "小柴郡通常任务11",
+	guild_coin_award = 0,
+	award = 97415,
+	type = 26,
+	desc = "Sortie and obtain 240 victories.",
+	count_inherit = 17631,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17631",
+	auto_commit = 0,
+	story_id = "",
+	id = 17630,
+	target_num = 240,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17631] = {
+	name = "小柴郡通常任务12",
+	guild_coin_award = 0,
+	award = 97416,
+	type = 26,
+	desc = "Sortie and obtain 280 victories.",
+	count_inherit = 17632,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17632",
+	auto_commit = 0,
+	story_id = "",
+	id = 17631,
+	target_num = 280,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17632] = {
+	name = "小柴郡通常任务13",
+	guild_coin_award = 0,
+	award = 97417,
+	type = 26,
+	desc = "Sortie and obtain 320 victories.",
+	count_inherit = 17633,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17633",
+	auto_commit = 0,
+	story_id = "",
+	id = 17632,
+	target_num = 320,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17633] = {
+	name = "小柴郡通常任务14",
+	guild_coin_award = 0,
+	award = 97418,
+	type = 26,
+	desc = "Sortie and obtain 360 victories.",
+	count_inherit = 17634,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17634",
+	auto_commit = 0,
+	story_id = "",
+	id = 17633,
+	target_num = 360,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17634] = {
+	name = "小柴郡通常任务15",
+	guild_coin_award = 0,
+	award = 97419,
+	type = 26,
+	desc = "Sortie and obtain 400 victories.",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17634,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17635] = {
+	name = "小柴郡通常任务16",
+	guild_coin_award = 0,
+	award = 97420,
+	type = 26,
+	desc = "Sortie and obtain 20 victories with Little Cheshire in the fleet.",
+	count_inherit = 17636,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17636",
+	auto_commit = 0,
+	story_id = "",
+	id = 17635,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17636] = {
+	name = "小柴郡通常任务17",
+	guild_coin_award = 0,
+	award = 97421,
+	type = 26,
+	desc = "Sortie and obtain 40 victories with Little Cheshire in the fleet.",
+	count_inherit = 17637,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17637",
+	auto_commit = 0,
+	story_id = "",
+	id = 17636,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17637] = {
+	name = "小柴郡通常任务18",
+	guild_coin_award = 0,
+	award = 97422,
+	type = 26,
+	desc = "Sortie and obtain 60 victories with Little Cheshire in the fleet.",
+	count_inherit = 17638,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17638",
+	auto_commit = 0,
+	story_id = "",
+	id = 17637,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17638] = {
+	name = "小柴郡通常任务19",
+	guild_coin_award = 0,
+	award = 97423,
+	type = 26,
+	desc = "Sortie and obtain 80 victories with Little Cheshire in the fleet.",
+	count_inherit = 17639,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17639",
+	auto_commit = 0,
+	story_id = "",
+	id = 17638,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17639] = {
+	name = "小柴郡通常任务20",
+	guild_coin_award = 0,
+	award = 97424,
+	type = 26,
+	desc = "Sortie and obtain 100 victories with Little Cheshire in the fleet.",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17639,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17640] = {
+	name = "小柴郡通常任务21",
+	guild_coin_award = 0,
+	award = 97425,
+	type = 26,
+	desc = "Get Little Cheshire to Level 10.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17641",
+	auto_commit = 0,
+	story_id = "",
+	id = 17640,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17641] = {
+	name = "小柴郡通常任务22",
+	guild_coin_award = 0,
+	award = 97426,
+	type = 26,
+	desc = "Get Little Cheshire to Level 20.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17642",
+	auto_commit = 0,
+	story_id = "",
+	id = 17641,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17642] = {
+	name = "小柴郡通常任务23",
+	guild_coin_award = 0,
+	award = 97427,
+	type = 26,
+	desc = "Get Little Cheshire to Level 30.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17643",
+	auto_commit = 0,
+	story_id = "",
+	id = 17642,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17643] = {
+	name = "小柴郡通常任务24",
+	guild_coin_award = 0,
+	award = 97428,
+	type = 26,
+	desc = "Get Little Cheshire to Level 40.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17644",
+	auto_commit = 0,
+	story_id = "",
+	id = 17643,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17644] = {
+	name = "小柴郡通常任务25",
+	guild_coin_award = 0,
+	award = 97429,
+	type = 26,
+	desc = "Get Little Cheshire to Level 50.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17645",
+	auto_commit = 0,
+	story_id = "",
+	id = 17644,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17645] = {
+	name = "小柴郡通常任务26",
+	guild_coin_award = 0,
+	award = 97430,
+	type = 26,
+	desc = "Get Little Cheshire to Level 70.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17646",
+	auto_commit = 0,
+	story_id = "",
+	id = 17645,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17646] = {
+	name = "小柴郡通常任务27",
+	guild_coin_award = 0,
+	award = 97431,
+	type = 26,
+	desc = "Get Little Cheshire to Level 90.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17647",
+	auto_commit = 0,
+	story_id = "",
+	id = 17646,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17647] = {
+	name = "小柴郡通常任务28",
+	guild_coin_award = 0,
+	award = 97432,
+	type = 26,
+	desc = "Get Little Cheshire to Level 100.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17647,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17648] = {
+	name = "小柴郡通常任务29",
+	guild_coin_award = 0,
+	award = 97433,
+	type = 26,
+	desc = "Get Little Cheshire to 3 Stars via Limit Breaks.",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17649",
+	auto_commit = 0,
+	story_id = "",
+	id = 17648,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17649] = {
+	name = "小柴郡通常任务30",
+	guild_coin_award = 0,
+	award = 97434,
+	type = 26,
+	desc = "Get Little Cheshire to 4 Stars via Limit Breaks.",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17650",
+	auto_commit = 0,
+	story_id = "",
+	id = 17649,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			1500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17650] = {
+	name = "小柴郡通常任务31",
+	guild_coin_award = 0,
+	award = 97435,
+	type = 26,
+	desc = "Get Little Cheshire to 5 Stars via Limit Breaks.",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "20310",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17650,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			2000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17651] = {
+	name = "小柴郡每日任务1",
+	guild_coin_award = 0,
+	award = 97436,
+	type = 36,
+	desc = "Claim victory 15 times.",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17651,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17652] = {
+	name = "小柴郡每日任务2",
+	guild_coin_award = 0,
+	award = 97437,
+	type = 36,
+	desc = "Sortie and clear 3 non-event \nHard Mode map",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17652,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			262,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17653] = {
+	name = "小柴郡npc临时加入",
+	guild_coin_award = 0,
+	award = 97438,
+	type = 6,
+	desc = "0",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17653,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			203101,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17654] = {
+	name = "『女仆皮肤活动』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97493,
+	type = 14,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17654,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30331,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17655] = {
+	name = "『女仆皮肤活动』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97493,
+	type = 14,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17655,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30331,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17656] = {
+	name = "『女仆皮肤活动』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97493,
+	type = 14,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17656,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30331,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17657] = {
+	name = "『前卫活动』通关EX",
+	guild_coin_award = 0,
+	award = 97494,
+	type = 6,
+	desc = "Clear E.X.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1650051",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17657,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1640026,
+			chapterId = 1640051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17658] = {
+	name = "『前卫活动』-日常建造",
+	guild_coin_award = 0,
+	award = 97495,
+	type = 36,
+	desc = "Build 3 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17658,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59316,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17659] = {
+	name = "『前卫活动』-日常出击",
+	guild_coin_award = 0,
+	award = 97496,
+	type = 36,
+	desc = "Claim victory 15 times.",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17659,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59316,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17660] = {
+	name = "『前卫活动』-日常困难本",
+	guild_coin_award = 0,
+	award = 97497,
+	type = 36,
+	desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17660,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59316,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17661] = {
+	name = "『前卫活动』通关A1/C1",
+	guild_coin_award = 0,
+	award = 97498,
+	type = 6,
+	desc = "Clear A1 or C1.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17662",
+	auto_commit = 0,
+	story_id = "",
+	id = 17661,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650001,
+		1650021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59316,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17662] = {
+	name = "『前卫活动』通关A2/C2",
+	guild_coin_award = 0,
+	award = 97499,
+	type = 6,
+	desc = "Clear A2 or C2.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17663",
+	auto_commit = 0,
+	story_id = "",
+	id = 17662,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650002,
+		1650022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59316,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17663] = {
+	name = "『前卫活动』通关A3/C3",
+	guild_coin_award = 0,
+	award = 97500,
+	type = 6,
+	desc = "Clear A3 or C3.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17664",
+	auto_commit = 0,
+	story_id = "",
+	id = 17663,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650003,
+		1650023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59316,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17664] = {
+	name = "『前卫活动』通关B1/D1",
+	guild_coin_award = 0,
+	award = 97501,
+	type = 6,
+	desc = "Clear B1 or D1.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17665",
+	auto_commit = 0,
+	story_id = "",
+	id = 17664,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650004,
+		1650024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59316,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17665] = {
+	name = "『前卫活动』通关B2/D2",
+	guild_coin_award = 0,
+	award = 97502,
+	type = 6,
+	desc = "Clear B2 or D2.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17666",
+	auto_commit = 0,
+	story_id = "",
+	id = 17665,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650005,
+		1650025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59316,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17666] = {
+	name = "『前卫活动』通关B3/D3",
+	guild_coin_award = 0,
+	award = 97503,
+	type = 6,
+	desc = "Clear B3 or D3.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17667",
+	auto_commit = 0,
+	story_id = "",
+	id = 17666,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650006,
+		1650026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59316,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17667] = {
+	name = "『前卫活动』通关SP",
+	guild_coin_award = 0,
+	award = 97504,
+	type = 6,
+	desc = "Clear SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1650041",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17667,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1650025,
+			chapterId = 1650041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17668] = {
+	name = "『前卫活动』通关D3",
+	guild_coin_award = 0,
+	award = 97505,
+	type = 6,
+	desc = "Clear D3.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1650026",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17668,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			226,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1650012,
+			chapterId = 1650026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17669] = {
+	name = "『前卫活动』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 97506,
+	type = 6,
+	desc = "Complete A1 or C1 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17670",
+	auto_commit = 0,
+	story_id = "",
+	id = 17669,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650001,
+		1650021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17670] = {
+	name = "『前卫活动』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 97507,
+	type = 6,
+	desc = "Complete A2 or C2 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17671",
+	auto_commit = 0,
+	story_id = "",
+	id = 17670,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650002,
+		1650022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17671] = {
+	name = "『前卫活动』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 97508,
+	type = 6,
+	desc = "Complete A3 or C3 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17672",
+	auto_commit = 0,
+	story_id = "",
+	id = 17671,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650003,
+		1650023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4401
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17672] = {
+	name = "『前卫活动』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 97509,
+	type = 6,
+	desc = "Complete B1 or D1 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17673",
+	auto_commit = 0,
+	story_id = "",
+	id = 17672,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650004,
+		1650024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17673] = {
+	name = "『前卫活动』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 97510,
+	type = 6,
+	desc = "Complete B2 or D2 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17674",
+	auto_commit = 0,
+	story_id = "",
+	id = 17673,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650005,
+		1650025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17674] = {
+	name = "『前卫活动』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 97511,
+	type = 6,
+	desc = "Complete B3 or D3 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17674,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1650006,
+		1650026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17675] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97570,
+	type = 26,
+	desc = "(1/14) Sortie and obtain 25 Perfect victories.",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17675,
+	target_num = 25,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17676] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97571,
+	type = 26,
+	desc = "(2/14) Conduct tactical training 6 times.",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17676,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17677] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97572,
+	type = 26,
+	desc = "(3/14) Sortie and defeat 5 Boss Fleets.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17677,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17678] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97573,
+	type = 26,
+	desc = "(4/14) Conduct 10 Exercises.",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17678,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17679] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97574,
+	type = 26,
+	desc = "(5/14) Defeat 250 enemies.",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17679,
+	target_num = 250,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17680] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97575,
+	type = 26,
+	desc = "(6/14) Sortie and obtain 35 Perfect victories.",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17680,
+	target_num = 35,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17681] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97576,
+	type = 26,
+	desc = "(7/14) Complete 10 commissions.",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17681,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17682] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97577,
+	type = 26,
+	desc = "(8/14) Sortie and defeat 8 Boss Fleets.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17682,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17683] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97578,
+	type = 26,
+	desc = "(9/14) Enhance ships 20 times.",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17683,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17684] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97579,
+	type = 26,
+	desc = "(10/14) Defeat 350 enemies.",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17684,
+	target_num = 350,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17685] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97580,
+	type = 26,
+	desc = "(11/14) Sortie and obtain 45 Perfect victories.",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17685,
+	target_num = 45,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17686] = {
+	name = "召集者任务可获得PT：20",
+	guild_coin_award = 0,
+	award = 97581,
+	type = 26,
+	desc = "(12/14) Complete 3 Daily Challenges.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17686,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17687] = {
+	name = "召集者任务可获得PT：30",
+	guild_coin_award = 0,
+	award = 97582,
+	type = 26,
+	desc = "(13/14) Sortie and defeat 10 Boss Fleets.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17687,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			40
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17688] = {
+	name = "召集者任务可获得PT：30",
+	guild_coin_award = 0,
+	award = 97583,
+	type = 26,
+	desc = "(14/14) Defeat 500 enemies.",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17688,
+	target_num = 500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			40
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17689] = {
+	name = "Active Commander Points Acquired:30",
+	guild_coin_award = 0,
+	award = 97512,
+	type = 26,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17689,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			14,
+			301,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17690] = {
+	name = "Active Commander Points Acquired:30",
+	guild_coin_award = 0,
+	award = 97513,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17690,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30305,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17691] = {
+	name = "Active Commander Points Acquired:30",
+	guild_coin_award = 0,
+	award = 97514,
+	type = 26,
+	desc = "Build 1 ship.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17691,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42030,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17692] = {
+	name = "Active Commander Points Acquired:30",
+	guild_coin_award = 0,
+	award = 97515,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17692,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17693] = {
+	name = "Active Commander Points Acquired:25",
+	guild_coin_award = 0,
+	award = 97516,
+	type = 26,
+	desc = "Restock snacks in your dorm 5 times",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17693,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50005,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17694] = {
+	name = "Active Commander Points Acquired:25",
+	guild_coin_award = 0,
+	award = 97517,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17694,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30310,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17695] = {
+	name = "Active Commander Points Acquired:25",
+	guild_coin_award = 0,
+	award = 97518,
+	type = 26,
+	desc = "Complete 3 daily challenges.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17695,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17696] = {
+	name = "Active Commander Points Acquired:25",
+	guild_coin_award = 0,
+	award = 97519,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17696,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17697] = {
+	name = "Active Commander Points Acquired:20",
+	guild_coin_award = 0,
+	award = 97520,
+	type = 26,
+	desc = "Complete 3 commissions.",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17697,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15003,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17698] = {
+	name = "Active Commander Points Acquired:20",
+	guild_coin_award = 0,
+	award = 97521,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17698,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			15,
+			301,
+			1
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17699] = {
+	name = "Active Commander Points Acquired:20",
+	guild_coin_award = 0,
+	award = 97522,
+	type = 26,
+	desc = "Enhance ships 5 times",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17699,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17700] = {
+	name = "Active Commander Points Acquired:20",
+	guild_coin_award = 0,
+	award = 97523,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17700,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17701] = {
+	name = "Active Commander Points Acquired:15",
+	guild_coin_award = 0,
+	award = 97524,
+	type = 26,
+	desc = "Conduct 2 exercises.",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17701,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17702] = {
+	name = "Active Commander Points Acquired:15",
+	guild_coin_award = 0,
+	award = 97525,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17702,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30309,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17703] = {
+	name = "Active Commander Points Acquired:15",
+	guild_coin_award = 0,
+	award = 97526,
+	type = 26,
+	desc = "Build 1 ship.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17703,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42030,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17704] = {
+	name = "Active Commander Points Acquired:15",
+	guild_coin_award = 0,
+	award = 97527,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17704,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17705] = {
+	name = "Active Commander Points Acquired:15",
+	guild_coin_award = 0,
+	award = 97528,
+	type = 26,
+	desc = "Restock snacks in your dorm 5 times",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17705,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50006,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17706] = {
+	name = "Active Commander Points Acquired:15",
+	guild_coin_award = 0,
+	award = 97529,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17706,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17707] = {
+	name = "Active Commander Points Acquired:15",
+	guild_coin_award = 0,
+	award = 97530,
+	type = 26,
+	desc = "Complete 3 commissions.",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17707,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15003,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17708] = {
+	name = "Active Commander Points Acquired:15",
+	guild_coin_award = 0,
+	award = 97531,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17708,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42030,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17709] = {
+	name = "Active Commander Points Acquired:10",
+	guild_coin_award = 0,
+	award = 97532,
+	type = 26,
+	desc = "Complete 3 daily challenges.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17709,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17710] = {
+	name = "Active Commander Points Acquired:10",
+	guild_coin_award = 0,
+	award = 97533,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17710,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17711] = {
+	name = "Active Commander Points Acquired:10",
+	guild_coin_award = 0,
+	award = 97534,
+	type = 26,
+	desc = "Enhance ships 5 times",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17711,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17712] = {
+	name = "Active Commander Points Acquired:10",
+	guild_coin_award = 0,
+	award = 97535,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17712,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17713] = {
+	name = "Active Commander Points Acquired:10",
+	guild_coin_award = 0,
+	award = 97536,
+	type = 26,
+	desc = "Conduct 2 exercises.",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17713,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42030,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17714] = {
+	name = "Active Commander Points Acquired:10",
+	guild_coin_award = 0,
+	award = 97537,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17714,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17715] = {
+	name = "Active Commander Points Acquired:10",
+	guild_coin_award = 0,
+	award = 97538,
+	type = 26,
+	desc = "Build 1 ship.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17715,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17716] = {
+	name = "Active Commander Points Acquired:10",
+	guild_coin_award = 0,
+	award = 97539,
+	type = 26,
+	desc = "Clear 3 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17716,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		10101,
+		10102,
+		10103,
+		10104,
+		10201,
+		10202,
+		10203,
+		10204,
+		10301,
+		10302,
+		10303,
+		10304,
+		10401,
+		10402,
+		10403,
+		10404,
+		10501,
+		10502,
+		10503,
+		10504,
+		10601,
+		10602,
+		10603,
+		10604,
+		10701,
+		10702,
+		10703,
+		10704,
+		10801,
+		10802,
+		10803,
+		10804,
+		10901,
+		10902,
+		10903,
+		10904,
+		11001,
+		11002,
+		11003,
+		11004,
+		11101,
+		11102,
+		11103,
+		11104,
+		11201,
+		11202,
+		11203,
+		11204
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30307,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17717] = {
+	name = "『前卫活动』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 97584,
+	type = 6,
+	desc = "Open 20 Empery Chic Gear Skin Boxes.",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30334",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17717,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30504,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[31013] = {
 	name = "投票日常建造",
 	guild_coin_award = 0,
@@ -173549,6 +178772,3766 @@ _G.pg.base.task_data_template[41414] = {
 		{
 			1,
 			4004,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41415] = {
+	name = "五期·【通行证第一周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Sortie and obtain 60 A-rank victories.",
+	count_inherit = 0,
+	sub_type = 23,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41415,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41416] = {
+	name = "五期·【通行证第一周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Enhance gear 10 times.",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41416,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41417] = {
+	name = "五期·【通行证第一周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Resupply the Dorm with 30,000 Snacks.",
+	count_inherit = 0,
+	sub_type = 60,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41417,
+	target_num = 30000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41418] = {
+	name = "五期·【通行证第一周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Open 20 Tech Boxes.",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41418,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41419] = {
+	name = "五期·【通行证第一周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Use a total of 40 T1 EXP Data Packs.",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "16501",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41419,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41420] = {
+	name = "五期·【通行证第一周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Scrap 60 pieces of gear.",
+	count_inherit = 0,
+	sub_type = 41,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41420,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41421] = {
+	name = "五期·【通行证第一周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Complete all other Week 1 Cruise Missions.",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41421,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41415,
+		41416,
+		41417,
+		41418,
+		41419,
+		41420
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41422] = {
+	name = "五期·【通行证第二周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Destroy 20 enemy flagships.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41422,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41423] = {
+	name = "五期·【通行证第二周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Obtain a total of 150 Core Data.",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "59900",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41423,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41424] = {
+	name = "五期·【通行证第二周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Complete 15 Commissions.",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41424,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41425] = {
+	name = "五期·【通行证第二周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Complete 12 Daily Challenges.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41425,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41426] = {
+	name = "五期·【通行证第二周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Use a total of 20 Quick Finishers.",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "15003",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41426,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"GETBOAT"
+	}
+}
+
+_G.pg.base.task_data_template[41427] = {
+	name = "五期·【通行证第二周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Complete 12 Guild Contribution missions.",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41427,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41428] = {
+	name = "五期·【通行证第二周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Complete all other Week 2 Cruise Missions.",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41428,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41422,
+		41423,
+		41424,
+		41425,
+		41426,
+		41427
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41429] = {
+	name = "五期·【通行证第三周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Claim victory 80 times.",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41429,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41430] = {
+	name = "五期·【通行证第三周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Construct 5 ships",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41430,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41431] = {
+	name = "五期·【通行证第三周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Obtain a total of 10 Wisdom Cubes.",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41431,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41432] = {
+	name = "五期·【通行证第三周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Clear a total of 12 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41432,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41433] = {
+	name = "五期·【通行证第三周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Conduct tactical training 20 times.",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41433,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41434] = {
+	name = "五期·【通行证第三周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Conduct 30 Exercises.",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41434,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41435] = {
+	name = "五期·【通行证第三周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Complete all other Week 3 Cruise Missions.",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41435,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41429,
+		41430,
+		41431,
+		41432,
+		41433,
+		41434
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41436] = {
+	name = "五期·【通行证第四周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Sortie and complete a total of 5 battles in Operation Siren.",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41436,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41437] = {
+	name = "五期·【通行证第四周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Retire 15 ships.",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41437,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41438] = {
+	name = "五期·【通行证第四周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Complete 10 Research Projects.",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41438,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41439] = {
+	name = "五期·【通行证第四周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Defeat 1,600 enemies.",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41439,
+	target_num = 1600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41440] = {
+	name = "五期·【通行证第四周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Train 20 Cat Boxes.",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41440,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41441] = {
+	name = "五期·【通行证第四周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Earn a total of 800 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41441,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41442] = {
+	name = "五期·【通行证第四周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Complete all other Week 4 Cruise Missions.",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41442,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41436,
+		41437,
+		41438,
+		41439,
+		41440,
+		41441
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41443] = {
+	name = "五期·【通行证第五周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Open 10 Tech Boxes.",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41443,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41444] = {
+	name = "五期·【通行证第五周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Use a total of 20 T1 EXP Data Packs.",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "16501",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41444,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41445] = {
+	name = "五期·【通行证第五周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Scrap 30 pieces of gear.",
+	count_inherit = 0,
+	sub_type = 41,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41445,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41446] = {
+	name = "五期·【通行证第五周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Sortie and obtain 120 A-rank victories.",
+	count_inherit = 0,
+	sub_type = 23,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41446,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41447] = {
+	name = "五期·【通行证第五周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Enhance gear 20 times.",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41447,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41448] = {
+	name = "五期·【通行证第五周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Resupply the Dorm with 60,000 Snacks.",
+	count_inherit = 0,
+	sub_type = 60,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41448,
+	target_num = 60000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41449] = {
+	name = "五期·【通行证第五周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Complete all other Week 5 Cruise Missions.",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41449,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41443,
+		41444,
+		41445,
+		41446,
+		41447,
+		41448
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41450] = {
+	name = "五期·【通行证第六周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Complete 6 Daily Challenges.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41450,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41451] = {
+	name = "五期·【通行证第六周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Use a total of 10 Quick Finishers.",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "15003",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41451,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"GETBOAT"
+	}
+}
+
+_G.pg.base.task_data_template[41452] = {
+	name = "五期·【通行证第六周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Complete 6 Guild Contribution missions.",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41452,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41453] = {
+	name = "五期·【通行证第六周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Destroy 40 enemy flagships.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41453,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41454] = {
+	name = "五期·【通行证第六周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Obtain a total of 300 Core Data.",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "59900",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41454,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41455] = {
+	name = "五期·【通行证第六周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Complete 30 Commissions.",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41455,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41456] = {
+	name = "五期·【通行证第六周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Complete all other Week 6 Cruise Missions.",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41456,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41450,
+		41451,
+		41452,
+		41453,
+		41454,
+		41455
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41457] = {
+	name = "五期·【通行证第七周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Clear a total of 6 Hard Mode stages.",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41457,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41458] = {
+	name = "五期·【通行证第七周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Conduct tactical training 10 times.",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41458,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41459] = {
+	name = "五期·【通行证第七周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Conduct 15 Exercises.",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41459,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41460] = {
+	name = "五期·【通行证第七周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Sortie and obtain 160 victories.",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41460,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41461] = {
+	name = "五期·【通行证第七周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Build 10 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41461,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41462] = {
+	name = "五期·【通行证第七周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Obtain a total of 20 Wisdom Cubes.",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41462,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41463] = {
+	name = "五期·【通行证第七周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Complete all other Week 7 Cruise Missions.",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41463,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41457,
+		41458,
+		41459,
+		41460,
+		41461,
+		41462
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41464] = {
+	name = "五期·【通行证第八周】任务1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Defeat 800 enemies.",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41464,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41465] = {
+	name = "五期·【通行证第八周】任务2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Train 10 Cat Boxes.",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41465,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41466] = {
+	name = "五期·【通行证第八周】任务3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Obtain a total of 400 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41466,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41467] = {
+	name = "五期·【通行证第八周】任务4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Sortie and complete a total of 10 battles in Operation Siren.",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41467,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41468] = {
+	name = "五期·【通行证第八周】任务5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Retire 30 ships.",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41468,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41469] = {
+	name = "五期·【通行证第八周】任务6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Complete 20 Research projects.",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41469,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41470] = {
+	name = "五期·【通行证第八周】任务7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Complete all other Week 8 Cruise Missions.",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41470,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41464,
+		41465,
+		41466,
+		41467,
+		41468,
+		41469
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41471] = {
+	name = "五期·【通行证SP】累计周任务PT1",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Obtain a total of 100 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41471,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41472] = {
+	name = "五期·【通行证SP】累计周任务PT2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Obtain a total of 300 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41472,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41473] = {
+	name = "五期·【通行证SP】累计周任务PT3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Obtain a total of 600 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41473,
+	target_num = 600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41474] = {
+	name = "五期·【通行证SP】累计周任务PT4",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Obtain a total of 1,000 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41474,
+	target_num = 1000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41475] = {
+	name = "五期·【通行证SP】累计周任务PT5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Obtain a total of 1,500 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41475,
+	target_num = 1500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41476] = {
+	name = "五期·【通行证SP】累计周任务PT6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Obtain a total of 2,000 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41476,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41477] = {
+	name = "五期·【通行证SP】累计周任务PT7",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Obtain a total of 2,500 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41477,
+	target_num = 2500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41478] = {
+	name = "五期·【通行证SP】累计周任务PT8",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Obtain a total of 3,000 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41478,
+	target_num = 3000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41479] = {
+	name = "五期·【通行证SP】累计周任务PT9",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Obtain a total of 4,000 Weekly Activity Points.",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41479,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41480] = {
+	name = "五期·【通行证SP】累计建造1",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Build 10 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41480,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41481] = {
+	name = "五期·【通行证SP】累计建造2",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Build 20 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41481,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41482] = {
+	name = "五期·【通行证SP】累计建造3",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Build 30 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41482,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41483] = {
+	name = "五期·【通行证SP】累计建造4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Build 40 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41483,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41484] = {
+	name = "五期·【通行证SP】累计建造5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Build 50 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41484,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41485] = {
+	name = "五期·【通行证SP】累计建造6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Build 60 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41485,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41486] = {
+	name = "五期·【通行证SP】累计建造7",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Build 70 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41486,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41487] = {
+	name = "五期·【通行证SP】累计建造8",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Build 80 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41487,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41488] = {
+	name = "五期·【通行证SP】累计消耗石油1",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Spend a total of 2,000 Oil.",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41488,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41489] = {
+	name = "五期·【通行证SP】累计消耗石油2",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Spend a total of 4,000 Oil.",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41489,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41490] = {
+	name = "五期·【通行证SP】累计消耗石油3",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Total Oil Spent 6000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41490,
+	target_num = 6000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41491] = {
+	name = "五期·【通行证SP】累计消耗石油4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Spend a total of 8,000 Oil.",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41491,
+	target_num = 8000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41492] = {
+	name = "五期·【通行证SP】累计消耗石油5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Total Oil Spent 10000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41492,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41493] = {
+	name = "五期·【通行证SP】累计消耗石油6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Total Oil Spent 12000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41493,
+	target_num = 12000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41494] = {
+	name = "五期·【通行证SP】累计消耗石油7",
+	guild_coin_award = 0,
+	award = 100816,
+	type = 6,
+	desc = "Total Oil Spent 15000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41494,
+	target_num = 15000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41495] = {
+	name = "五期·【通行证SP】累计消耗石油8",
+	guild_coin_award = 0,
+	award = 100816,
+	type = 6,
+	desc = "Spent a total of 18,000 Oil.",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41495,
+	target_num = 18000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41496] = {
+	name = "五期·【通行证SP】累计消耗石油9",
+	guild_coin_award = 0,
+	award = 100816,
+	type = 6,
+	desc = "Spent a total of 21,000 Oil.",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41496,
+	target_num = 21000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41497] = {
+	name = "五期·【通行证SP】累计消耗石油10",
+	guild_coin_award = 0,
+	award = 100816,
+	type = 6,
+	desc = "Spent a total of 24,000 Oil.",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41497,
+	target_num = 24000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41498] = {
+	name = "五期·【通行证SP】累计获取舰船经验1",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Earn a total of 250,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41498,
+	target_num = 250000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41499] = {
+	name = "五期·【通行证SP】累计获取舰船经验2",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Earn a total of 500,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41499,
+	target_num = 500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41500] = {
+	name = "五期·【通行证SP】累计获取舰船经验3",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Earn a total of 750,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41500,
+	target_num = 750000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41501] = {
+	name = "五期·【通行证SP】累计获取舰船经验4",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Earn a total of 1,000,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41501,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41502] = {
+	name = "五期·【通行证SP】累计获取舰船经验5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Earn a total of 1,250,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41502,
+	target_num = 1250000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41503] = {
+	name = "五期·【通行证SP】累计获取舰船经验6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Earn a total of 1,500,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41503,
+	target_num = 1500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41504] = {
+	name = "五期·【通行证SP】累计获取舰船经验7",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Earn a total of 1,750,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41504,
+	target_num = 1750000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41505] = {
+	name = "五期·【通行证SP】累计获取舰船经验8",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Earn a total of 2,000,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41505,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41506] = {
+	name = "五期·【通行证SP】累计获取舰船经验9",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Earn a total of 2,500,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41506,
+	target_num = 2500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41507] = {
+	name = "五期·【通行证SP】累计获取舰船经验10",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Earn a total of 3,000,000 EXP from sorties.",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41507,
+	target_num = 3000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41508] = {
+	name = "五期·【通行证SP】累计登陆1",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Collect monthly login rewards 1 time.",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41508,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41509] = {
+	name = "五期·【通行证SP】累计登陆2",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Collect monthly login rewards 3 times.",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41509,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41510] = {
+	name = "五期·【通行证SP】累计登陆3",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Collect monthly login rewards 5 times.",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41510,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41511] = {
+	name = "五期·【通行证SP】累计登陆4",
+	guild_coin_award = 0,
+	award = 100817,
+	type = 6,
+	desc = "Collect monthly login rewards 7 times.",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41511,
+	target_num = 7,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41512] = {
+	name = "五期·【通行证SP】累计登陆5",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Collect monthly login rewards 10 times.",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41512,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41513] = {
+	name = "五期·【通行证SP】累计登陆6",
+	guild_coin_award = 0,
+	award = 100818,
+	type = 6,
+	desc = "Collect monthly login rewards 14 times.",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41513,
+	target_num = 14,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41514] = {
+	name = "五期·【通行证SP】累计登陆7",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Collect monthly login rewards 21 times.",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41514,
+	target_num = 21,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41515] = {
+	name = "五期·【通行证SP】累计登陆8",
+	guild_coin_award = 0,
+	award = 100819,
+	type = 6,
+	desc = "Collect monthly login rewards 28 times.",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41515,
+	target_num = 28,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4005,
 			240
 		}
 	}

@@ -336,10 +336,10 @@ pg.item_data_frame = {
 	[320] = {
 		time_limit_type = 0,
 		name = "Seal of the Radiant Court",
-		gain_by = "",
+		gain_by = "泠誓光庭",
 		id = 320,
 		time_second = 0,
-		desc = "Obtained from a limited event. ",
+		desc = "<color=#ffffff>War and time may take their tolls, but our pledges will shine on like stars in the night sky. </color>\nObtained from the \"Pledge of the Radiant Court\" event.",
 		scene = {}
 	},
 	[406] = {

@@ -219,6 +219,56 @@ function slot0.GetAllSkins(slot0)
 	return slot1
 end
 
+function slot0.GetShopShowingSkins(slot0)
+	slot1 = {}
+
+	function slot2(slot0)
+		slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
+	end
+
+	function slot3(slot0)
+		slot1 = Goods.Create({
+			shop_id = slot0
+		}, Goods.TYPE_SKIN)
+
+		uv0(slot1)
+		table.insert(uv1, slot1)
+	end
+
+	for slot7, slot8 in ipairs(pg.shop_template.get_id_list_by_genre[ShopArgs.SkinShop]) do
+		slot3(slot8)
+	end
+
+	for slot7, slot8 in ipairs(pg.shop_template.get_id_list_by_genre[ShopArgs.SkinShopTimeLimit]) do
+		slot3(slot8)
+	end
+
+	slot4 = getProxy(ActivityProxy)
+
+	for slot9, slot10 in ipairs(pg.activity_shop_extra.get_id_list_by_commodity_type[DROP_TYPE_SKIN]) do
+		slot11 = Goods.Create({
+			shop_id = slot10
+		}, Goods.TYPE_ACTIVITY_EXTRA)
+
+		slot2(slot11)
+		table.insert(slot1, slot11)
+	end
+
+	for slot10, slot11 in ipairs(pg.activity_shop_template.get_id_list_by_commodity_type[DROP_TYPE_SKIN]) do
+		slot2(Goods.Create({
+			shop_id = slot11
+		}, Goods.TYPE_ACTIVITY))
+
+		if not _.any(slot1, function (slot0)
+			return slot0:getSkinId() == uv0:getSkinId()
+		end) then
+			table.insert(slot1, slot12)
+		end
+	end
+
+	return slot1
+end
+
 function slot0.GetAllSkinForShip(slot0, slot1)
 	for slot7 = #ShipGroup.getSkinList(slot1.groupId), 1, -1 do
 		if slot3[slot7].skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not slot0:hasSkin(slot8.id) then

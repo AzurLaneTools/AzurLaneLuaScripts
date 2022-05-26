@@ -161,13 +161,21 @@ function slot0.OnAddAward(slot0, slot1, slot2)
 		tf(slot4).localScale = Vector3(100, 100, 100)
 	end
 
+	slot4 = 1 / uv0
+
+	if CourtYardCalcUtil.GetSign(slot0._tf.localScale.x) ~= CourtYardCalcUtil.GetSign(slot0._tf.parent.localScale.x) then
+		slot0.additionTF.localScale = Vector3(-slot4, slot4, slot4)
+	end
+
 	LeanTween.cancel(slot0.additionTF.gameObject)
 
 	slot0.additionTF.transform.localPosition = slot0.additionTFPos
-	slot4 = LeanTween.moveY(rtf(slot0.additionTF), slot0.additionTFPos.y + 110, 1.2)
+	slot5 = LeanTween.moveY(rtf(slot0.additionTF), slot0.additionTFPos.y + 110, 1.2)
 
-	slot4:setOnComplete(System.Action(function ()
-		setActive(uv0, false)
+	slot5:setOnComplete(System.Action(function ()
+		uv0.additionTF.localScale = Vector3(uv1, uv1, uv1)
+
+		setActive(uv2, false)
 	end))
 end
 

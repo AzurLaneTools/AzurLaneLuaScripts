@@ -14018,6 +14018,543 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[560] = {
+		name = "Xiangqi Shell",
+		bullet_name = "zidan_xiangqi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Smash your opponents with overwhelming STRATEGY!",
+		themeid = 33,
+		id = 560,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93711",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[561] = {
+		name = "Go Shell",
+		bullet_name = "zidan_weiqi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Go shells? More like, go to hell!",
+		themeid = 33,
+		id = 561,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93712",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[562] = {
+		name = "Peach Blossom Shell",
+		bullet_name = "zidan_taohua",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "\"When the peach flowers bloom, peace and joy come to all.\" All, except your enemies.",
+		themeid = 33,
+		id = 562,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93713",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[563] = {
+		name = "Soup Dumpling Shell",
+		bullet_name = "paodan_xiaolongbao",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Gives a brand-new meaning to \"an explosion of flavors.\"",
+		themeid = 33,
+		id = 563,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93714",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[564] = {
+		name = "Stone Lion Shell",
+		bullet_name = "paodan_shishizi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Guardians of peace and prosperity. This one, however, seems to have chosen violence.",
+		themeid = 33,
+		id = 564,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93715",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[565] = {
+		name = "Porcelain Manjuu Shell",
+		bullet_name = "paodan_qinghuaci",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Trust me, breaking such a beautiful thing hurts me almost as much as it'll hurt you.",
+		themeid = 33,
+		id = 565,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93716",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[566] = {
+		name = "Hairpin Torpedo",
+		bullet_name = "yulei_fazan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "An heirloom passed down from generation to generation. Prevents enemies from passing anything down.",
+		themeid = 33,
+		id = 566,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93721",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[567] = {
+		name = "Suona Torpedo",
+		bullet_name = "yulei_suona",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "The sound it makes is no less of a weapon than the oxygen inside the torpedo.",
+		themeid = 33,
+		id = 567,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93722",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[568] = {
+		name = "Gourd Torpedo",
+		bullet_name = "yulei_hulu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Take a swig. The world is your gourd, after all.",
+		themeid = 33,
+		id = 568,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93723",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[569] = {
+		name = "Parasol Manjuu(Torpedo)",
+		bullet_name = "feiji_youzhisan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "This dainty manjuu brings a date with destiny.",
+		themeid = 33,
+		id = 569,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93731",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_fazan",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[570] = {
+		name = "Parasol Manjuu(Fighter)",
+		bullet_name = "feiji_youzhisan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "This dainty manjuu brings a date with destiny.",
+		themeid = 33,
+		id = 570,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_qinghuaci",
+		orbit_ui = "",
+		icon = "93731",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[571] = {
+		name = "Parasol Manjuu(Bomber)",
+		bullet_name = "feiji_youzhisan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "This dainty manjuu brings a date with destiny.",
+		themeid = 33,
+		id = 571,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_qinghuaci",
+		orbit_ui = "",
+		icon = "93731",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[572] = {
+		name = "Paper Kite Manjuu(Torpedo)",
+		bullet_name = "feiji_zhiyuan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "A childhood fantasy comes to reality, then equipped with bombs.",
+		themeid = 33,
+		id = 572,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93732",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_suona",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[573] = {
+		name = "Paper Kite Manjuu(Fighter)",
+		bullet_name = "feiji_zhiyuan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "A childhood fantasy comes to reality, then equipped with bombs.",
+		themeid = 33,
+		id = 573,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_shishizi",
+		orbit_ui = "",
+		icon = "93732",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[574] = {
+		name = "Paper Kite Manjuu(Bomber)",
+		bullet_name = "feiji_zhiyuan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "A childhood fantasy comes to reality, then equipped with bombs.",
+		themeid = 33,
+		id = 574,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_shishizi",
+		orbit_ui = "",
+		icon = "93732",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[575] = {
+		name = "Leaf Boat Manjuu(Torpedo)",
+		bullet_name = "feiji_fanzhou",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "This manjuu would rather be traversing the rivers and mountains, enjoying wine and writing poetry.",
+		themeid = 33,
+		id = 575,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93733",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_hulu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[576] = {
+		name = "Leaf Boat Manjuu(Fighter)",
+		bullet_name = "feiji_fanzhou",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "This manjuu would rather be traversing the rivers and mountains, enjoying wine and writing poetry.",
+		themeid = 33,
+		id = 576,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_xiaolongbao",
+		orbit_ui = "",
+		icon = "93733",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[577] = {
+		name = "Leaf Boat Manjuu(Bomber)",
+		bullet_name = "feiji_fanzhou",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "This manjuu would rather be traversing the rivers and mountains, enjoying wine and writing poetry.",
+		themeid = 33,
+		id = 577,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_xiaolongbao",
+		orbit_ui = "",
+		icon = "93733",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "Joypad Shell (P)",
 		bullet_name = "Nep_bullet_shizi",
@@ -15325,6 +15862,143 @@ pg.equip_skin_template = {
 			107
 		}
 	},
+	[2009] = {
+		name = "鱼雷占坑",
+		bullet_name = "yulei_fanxing",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "鱼雷占坑",
+		themeid = 101,
+		id = 2009,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96121",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2010] = {
+		name = "炮弹占坑",
+		bullet_name = "paodan_huixing",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "炮弹占坑",
+		themeid = 101,
+		id = 2010,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96111",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2011] = {
+		name = "子弹占坑",
+		bullet_name = "zidan_xingqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "子弹占坑",
+		themeid = 101,
+		id = 2011,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96112",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2012] = {
+		name = "科伊伯带",
+		bullet_name = "",
+		desc = "外观占坑",
+		type = 1,
+		themeid = 101,
+		id = 2012,
+		orbit_combat = "shebei_keyibodai",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_keyibodaiui",
+		icon = "96151",
+		mirror = 0,
+		rarity = 4,
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-1.25,
+				0.9,
+				-10
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				-103
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -15796,6 +16470,24 @@ pg.equip_skin_template = {
 		555,
 		556,
 		557,
+		560,
+		561,
+		562,
+		563,
+		564,
+		565,
+		566,
+		567,
+		568,
+		569,
+		570,
+		571,
+		572,
+		573,
+		574,
+		575,
+		576,
+		577,
 		1001,
 		1002,
 		1003,
@@ -15837,6 +16529,10 @@ pg.equip_skin_template = {
 		2005,
 		2006,
 		2007,
-		2008
+		2008,
+		2009,
+		2010,
+		2011,
+		2012
 	}
 }

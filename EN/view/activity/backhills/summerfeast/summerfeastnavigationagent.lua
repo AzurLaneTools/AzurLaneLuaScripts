@@ -24,6 +24,10 @@ function slot0.setCurrentIndex(slot0, slot1)
 	slot0.currentPoint = slot0.pathFinder:getPoint(slot1)
 end
 
+function slot0.SetPositionTable(slot0, slot1)
+	slot0.posTable = slot1
+end
+
 function slot0.updateStudent(slot0, slot1)
 	if slot1 == nil or slot1 == "" then
 		setActive(slot0._go, false)
@@ -76,10 +80,15 @@ function slot0.updateLogic(slot0)
 	slot0:clearLogic()
 
 	if slot0.state == uv0.ShipState.Walk then
-		slot1 = slot0.currentPoint
+		slot4 = Vector2.Distance(slot0.currentPoint, slot0.targetPoint) / 15
+
+		if slot0.posTable[slot0.currentPoint.id] == slot0 then
+			slot0.posTable[slot0.currentPoint.id] = nil
+		end
+
 		slot0._tf.localScale = (slot1.scale or uv0.normalScale) * Vector2.one
 
-		LeanTween.value(slot0._go, 0, 1, Vector2.Distance(slot1, slot0.targetPoint) / 15):setOnUpdate(System.Action_float(function (slot0)
+		LeanTween.value(slot0._go, 0, 1, slot4):setOnUpdate(System.Action_float(function (slot0)
 			uv0._tf.anchoredPosition = Vector2.Lerp(uv1, uv2, slot0)
 			slot1 = math.lerp(uv1.scale or uv3.normalScale, uv2.scale or uv3.normalScale, slot0) * Vector2.one
 			slot2 = uv1.x < uv2.x and 1 or -1
@@ -113,19 +122,25 @@ function slot0.updateLogic(slot0)
 	end
 
 	if slot0.state == uv0.ShipState.Idle then
-		if not slot0.currentPoint.isBan then
-			slot0.idleTimer = Timer.New(function ()
-				uv0:updateState(uv1.ShipState.Walk)
-			end, math.random(10, 20), 1)
-
-			slot0.idleTimer:Start()
+		if slot0.posTable[slot0.currentPoint.id] == nil then
+			slot0.posTable[slot0.currentPoint.id] = slot0
 		else
-			slot0.idleTimer = Timer.New(function ()
-				uv0:updateState(uv1.ShipState.Walk)
-			end, 0.001, 1)
+			slot0:updateState(uv0.ShipState.Walk)
 
-			slot0.idleTimer:Start()
+			return
 		end
+
+		if slot0.currentPoint.isBan then
+			slot0:updateState(uv0.ShipState.Walk)
+
+			return
+		end
+
+		slot0.idleTimer = Timer.New(function ()
+			uv0:updateState(uv1.ShipState.Walk)
+		end, math.random(10, 20), 1)
+
+		slot0.idleTimer:Start()
 	elseif slot0.state == uv0.ShipState.Touch then
 		slot0:onClickShip()
 	end

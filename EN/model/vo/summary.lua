@@ -37,10 +37,45 @@ function slot0.Ctor(slot0, slot1)
 	slot0.firstLadyTime = slot2:STimeDescC(slot1.first_lady_time, "%Y-%m-%d %H:%M")
 	slot0.unMarryShipId = 100001
 	slot0.medalList = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY):getConfig("config_data") or {}
+	slot0.iconFrameList = slot9:getConfig("config_client")[1] or {}
 	slot0.furnitures = {}
 
 	for slot13, slot14 in pairs(getProxy(DormProxy):getRawData().furnitures) do
 		slot0.furnitures[slot14.id] = slot14
+	end
+
+	slot0.worldProgressTask = slot1.world_max_task
+	slot14 = slot9
+	slot15 = "config_client"
+	slot0.collectionNum = string.format("%0.1f", slot1.collect_num / slot9.getConfig(slot14, slot15)[2] * 100)
+	slot0.powerRaw = math.floor(slot1.combat^0.667)
+	slot0.totalShipNum = slot1.ship_num_total
+	slot0.topShipNum = slot1.ship_num_120
+	slot0.bestShipNum = slot1.ship_num_125
+	slot0.maxIntimacyNum = slot1.love200_num
+	slot0.skinNum = slot1.skin_num
+	slot0.skinShipNum = slot1.skin_ship_num
+	slot0.skinId = 0
+	slot10 = {}
+
+	for slot14, slot15 in ipairs(getProxy(ShipSkinProxy):GetShopShowingSkins()) do
+		if slot15.buyCount > 0 then
+			slot10[slot15:getSkinId()] = true
+		end
+	end
+
+	slot11 = getProxy(BayProxy)
+
+	for slot15, slot16 in ipairs(getProxy(PlayerProxy):getRawData().characters) do
+		if slot11:getShipById(slot16) and slot10[slot17.skinId] then
+			slot0.skinId = slot17.skinId
+
+			break
+		end
+	end
+
+	if slot0.skinId == 0 and #underscore.keys(slot10) > 0 then
+		slot0.skinId = slot12[math.max(1, math.ceil(math.random() * #slot12))]
 	end
 end
 

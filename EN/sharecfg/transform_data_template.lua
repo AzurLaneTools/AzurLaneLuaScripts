@@ -13952,6 +13952,480 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 			50
 		}
 	},
+	[14201] = {
+		use_gold = 400,
+		name = "Hull Improvement Ⅰ",
+		star_limit = 2,
+		id = 14201,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		descrip = "",
+		icon = "hp_1",
+		skill_id = 0,
+		condition_id = {},
+		effect = {
+			{
+				durability = 60
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18031,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[14202] = {
+		use_gold = 600,
+		name = "Reload Enhancement Ⅰ",
+		star_limit = 2,
+		id = 14202,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		descrip = "",
+		icon = "rl_1",
+		skill_id = 0,
+		condition_id = {
+			14201
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18031,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[14203] = {
+		use_gold = 800,
+		name = "Air Elite Ⅰ",
+		star_limit = 3,
+		id = 14203,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		descrip = "",
+		icon = "ffup_1",
+		skill_id = 0,
+		condition_id = {
+			14201
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18031,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[14204] = {
+		use_gold = 1000,
+		name = "Anti-Air Enhancement Ⅰ",
+		star_limit = 3,
+		id = 14204,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		descrip = "",
+		icon = "aa_1",
+		skill_id = 0,
+		condition_id = {
+			14203
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18031,
+					5
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[14205] = {
+		use_gold = 1200,
+		name = "Torpedo Dive Ⅰ",
+		star_limit = 4,
+		id = 14205,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		descrip = "",
+		icon = "tfup_1",
+		skill_id = 0,
+		condition_id = {
+			14203
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[14206] = {
+		use_gold = 1500,
+		name = "Aviation Enhancement Ⅰ",
+		star_limit = 4,
+		id = 14206,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		descrip = "",
+		icon = "air_1",
+		skill_id = 0,
+		condition_id = {
+			14205
+		},
+		effect = {
+			{
+				air = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[14207] = {
+		use_gold = 1800,
+		name = "Hull Improvement Ⅱ",
+		star_limit = 4,
+		id = 14207,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		descrip = "",
+		icon = "hp_2",
+		skill_id = 0,
+		condition_id = {
+			14205
+		},
+		effect = {
+			{
+				durability = 60
+			},
+			{
+				durability = 90
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			},
+			{
+				{
+					18032,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			10
+		}
+	},
+	[14208] = {
+		use_gold = 2000,
+		name = "Hit Enhancement Ⅰ",
+		star_limit = 4,
+		id = 14208,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		descrip = "",
+		icon = "hit_1",
+		skill_id = 0,
+		condition_id = {
+			14207,
+			14202
+		},
+		effect = {
+			{
+				hit = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[14209] = {
+		use_gold = 2500,
+		name = "Air Elite Ⅱ",
+		star_limit = 5,
+		id = 14209,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		descrip = "",
+		icon = "ffup_2",
+		skill_id = 0,
+		condition_id = {
+			14207
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				}
+			},
+			{
+				{
+					18033,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[14210] = {
+		use_gold = 3000,
+		name = "Anti-Air Enhancement Ⅱ",
+		star_limit = 5,
+		id = 14210,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		descrip = "",
+		icon = "aa_2",
+		skill_id = 0,
+		condition_id = {
+			14209
+		},
+		effect = {
+			{
+				antiaircraft = 5
+			},
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				},
+				{
+					17033,
+					15
+				}
+			},
+			{
+				{
+					18033,
+					2
+				},
+				{
+					17033,
+					35
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[14211] = {
+		use_gold = 3000,
+		name = "Aviation Enhancement Ⅱ",
+		star_limit = 5,
+		id = 14211,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 85,
+		descrip = "",
+		icon = "air_2",
+		skill_id = 0,
+		condition_id = {
+			14209,
+			14210
+		},
+		effect = {
+			{
+				air = 10
+			},
+			{
+				air = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				},
+				{
+					17043,
+					15
+				}
+			},
+			{
+				{
+					18033,
+					2
+				},
+				{
+					17043,
+					35
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[14212] = {
+		use_gold = 4000,
+		name = "Modernization",
+		star_limit = 5,
+		id = 14212,
+		max_level = 1,
+		skin_id = 206039,
+		use_ship = 1,
+		level_limit = 90,
+		descrip = [[
+Completing the retrofit will have the following effects:
+AA +35, AVI +10.
+This ship gains <color=#92fc63>all aircraft +1</color>.
+The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63>Yuni's Aid</color>.]],
+		icon = "mt_red",
+		skill_id = 0,
+		condition_id = {
+			14211
+		},
+		effect = {
+			{
+				antiaircraft = 35,
+				air = 10
+			}
+		},
+		ship_id = {
+			{
+				206034,
+				206134
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18033,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
 	[14401] = {
 		use_gold = 400,
 		name = "Hull Improvement Ⅰ",
@@ -36889,6 +37363,18 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		14009,
 		14010,
 		14011,
+		14201,
+		14202,
+		14203,
+		14204,
+		14205,
+		14206,
+		14207,
+		14208,
+		14209,
+		14210,
+		14211,
+		14212,
 		14401,
 		14402,
 		14403,

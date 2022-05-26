@@ -430,7 +430,7 @@ function slot0.getIntimacyDetail(slot0)
 	return slot0:getIntimacyMax(), math.floor(slot0:getIntimacy() / 100)
 end
 
-function slot0.getInitmacyInfo(slot0)
+function slot0.getIntimacyInfo(slot0)
 	slot1 = pg.intimacy_template[slot0:getIntimacyLevel()]
 
 	return slot1.icon, slot1.desc

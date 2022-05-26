@@ -508,3 +508,12 @@ end
 function slot6.GetCurrentOxyState(slot0)
 	return nil
 end
+
+function slot6.RemoveRemoteBoundBone(slot0)
+end
+
+function slot6.SetRemoteBoundBone(slot0)
+end
+
+function slot6.GetRemoteBoundBone(slot0)
+end

@@ -734,6 +734,36 @@ pg.strategy_data_template = {
 		desc = "You have the Iron Blood fleet's support. They negate the effects of all hostile jamming and assist you with supporting barrages during battle.",
 		arg = {}
 	},
+	[8974] = {
+		buff_id = 8942,
+		name = "Singularity Fluctuations - Type A",
+		type = 10,
+		iconSize = "",
+		id = 8974,
+		icon = "8942",
+		desc = "The Singularity is having strange effects on the battlefield. Your ships deal 20% increased cannon DMG, but they also deal 20% decreased Airstrike DMG and your BBs' Main Gun Spread is increased by 5.",
+		arg = {}
+	},
+	[8975] = {
+		buff_id = 8975,
+		name = "Singularity Fluctuations - Type B",
+		type = 10,
+		iconSize = "",
+		id = 8975,
+		icon = "8975",
+		desc = "The Singularity is having strange effects on the battlefield. Your ships deal 20% increased Airstrike DMG, but they also deal 20% decreased cannon DMG.",
+		arg = {}
+	},
+	[8976] = {
+		buff_id = 8918,
+		name = "Synchronization Visions - I",
+		type = 10,
+		iconSize = "",
+		id = 8976,
+		icon = "8918",
+		desc = "Visions of unknown origin are appearing on the battlefield. \nBarrages will fire during battle which harm anything in their path, friend or foe.",
+		arg = {}
+	},
 	[9211] = {
 		buff_id = 9211,
 		name = "Dragon Palace's Boon - White Waves",
@@ -1612,6 +1642,9 @@ pg.strategy_data_template = {
 		8955,
 		8957,
 		8959,
+		8974,
+		8975,
+		8976,
 		9211,
 		9212,
 		9213,

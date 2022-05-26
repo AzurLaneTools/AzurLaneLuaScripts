@@ -59,12 +59,32 @@ slot0.PhaseFrameDic = {
 		[100.0] = 410,
 		[30.0] = 120,
 		[80.0] = 362
+	},
+	map_202206 = {
+		[0] = 0,
+		nil,
+		5,
+		[40.0] = 155,
+		[63.0] = 267,
+		[62.0] = 261,
+		[70.0] = 311,
+		[74.0] = 340,
+		[50.0] = 200,
+		[54.0] = 214,
+		[90.0] = 391,
+		[82.0] = 369,
+		[60.0] = 240,
+		[10.0] = 40,
+		[100.0] = 410,
+		[30.0] = 120,
+		[80.0] = 362
 	}
 }
 slot0.AnimFrameAll = {
 	map_202112 = 410,
-	map_202110 = 1260,
 	map_202202 = 900,
+	map_202206 = 410,
+	map_202110 = 1260,
 	map_202204 = 410
 }
 
@@ -120,13 +140,16 @@ function slot0.preload(slot0, slot1)
 		slot3 = uv1
 
 		slot1:GetSpineChar(slot3:getConfig("config_client").spine_name, true, function (slot0)
-			uv0.rtModel = slot0
+			uv0.rtModel = tf(slot0)
 
 			uv1()
 		end)
 	end)
 	parallelAsync(slot4, function ()
 		setParent(uv0.rtModel, uv0.rtMap:Find("icon/model"))
+
+		uv0.rtModel.localScale = Vector3.one
+
 		uv1()
 	end)
 end

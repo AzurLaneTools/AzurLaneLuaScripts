@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 20066
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 4329
+		act_id = 4412
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 30828
+		act_id = 4422
 	},
 	ACTIVITY_BOSS_PT_ID = {
 		act_id = 4223
@@ -830,5 +830,14 @@ pg.activity_const = {
 	},
 	ANSHAN_CHANGCHUN_GAIZAO_ID = {
 		act_id = 4229
+	},
+	ACTIVITY_MAID_DAY = {
+		act_id = 4415
+	},
+	JIUJIU_DUOMAOMAO_ID = {
+		act_id = 4417
+	},
+	FIFTH_ANNIVERSARY_INVITATION = {
+		act_id = 4418
 	}
 }

@@ -15472,6 +15472,162 @@ _G.pg.base.equip_data_statistics[3571] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3580] = {
+	type = 10,
+	name = "Admiralty Fire Control Table",
+	speciality = "N/A",
+	tech = 0,
+	value_2 = 20,
+	ammo = 10,
+	nationality = 2,
+	descrip = "A fire control system used to calculate the accuracy of the cannons on a Royal Navy ship.",
+	rarity = 6,
+	attribute_1 = "hit",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3580,
+	icon = "3580",
+	value_1 = "24",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6265
+	},
+	hidden_skill_id = {
+		9709
+	},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {
+		4,
+		5,
+		10,
+		13
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3581] = {
+	id = 3581,
+	value_2 = 22,
+	value_1 = "26",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3582] = {
+	id = 3582,
+	value_2 = 24,
+	value_1 = "28",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3583] = {
+	id = 3583,
+	value_2 = 26,
+	value_1 = "30",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3584] = {
+	id = 3584,
+	value_2 = 28,
+	value_1 = "32",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3585] = {
+	id = 3585,
+	value_2 = 30,
+	value_1 = "35",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3586] = {
+	id = 3586,
+	value_2 = 32,
+	value_1 = "38",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3587] = {
+	id = 3587,
+	value_2 = 34,
+	value_1 = "41",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3588] = {
+	id = 3588,
+	value_2 = 36,
+	value_1 = "45",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3589] = {
+	id = 3589,
+	value_2 = 38,
+	value_1 = "49",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3590] = {
+	id = 3590,
+	value_2 = 40,
+	value_1 = "53",
+	base = 3580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3591] = {
+	value_2 = 42,
+	anti_siren = 100,
+	base = 3580,
+	id = 3591,
+	value_1 = "57",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3592] = {
+	value_2 = 44,
+	anti_siren = 200,
+	base = 3580,
+	id = 3592,
+	value_1 = "61",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3593] = {
+	value_2 = 46,
+	anti_siren = 300,
+	base = 3580,
+	id = 3593,
+	value_1 = "65",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[4000] = {
 	tech = 1,
 	name = "Basic Depth Charge Projector",
@@ -113869,6 +114025,164 @@ _G.pg.base.equip_data_statistics[79842] = {
 	base = 79841,
 	weapon_id = {
 		79842
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79851] = {
+	type = 1,
+	name = "专属弹幕-贾维斯I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 79851,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60801
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79852] = {
+	id = 79852,
+	name = "专属弹幕-贾维斯II",
+	base = 79851,
+	weapon_id = {
+		60802
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79861] = {
+	type = 1,
+	name = "专属弹幕-小柴郡I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 79861,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60811
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79862] = {
+	id = 79862,
+	name = "专属弹幕-小柴郡II",
+	base = 79861,
+	weapon_id = {
+		60812
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79871] = {
+	type = 1,
+	name = "专属弹幕-孟菲斯.META I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 79871,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60821
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79872] = {
+	id = 79872,
+	name = "专属弹幕-孟菲斯.META II",
+	base = 79871,
+	weapon_id = {
+		60822
 	},
 	hidden_skill_id = {}
 }
