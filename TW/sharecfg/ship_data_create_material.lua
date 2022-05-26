@@ -211,7 +211,7 @@ pg.ship_data_create_material = {
 	},
 	{
 		use_gold = 1500,
-		name = "限时建造",
+		name = "限時建造",
 		ship_icon = "1",
 		type = 2,
 		exchange_request = 200,

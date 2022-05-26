@@ -1096,6 +1096,8 @@ function slot52(slot0, slot1)
 				slot0:setRoleAnimatorTrigger("hide")
 
 				slot0.removeRoleFlag = true
+
+				setActive(slot0._roleTf, false)
 			end
 
 			slot0.showTime = math.random() * (uv2[2] - uv2[1]) + uv2[1]

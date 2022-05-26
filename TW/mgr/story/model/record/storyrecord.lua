@@ -24,8 +24,12 @@ function slot1(slot0)
 	return slot2
 end
 
+function slot0.IsDialogueMode(slot0, slot1)
+	return slot1:GetMode() == Story.MODE_DIALOGUE or slot2 == Story.MODE_BG
+end
+
 function slot0.GetContents(slot0)
-	if not slot0.step or slot0.step:GetMode() ~= Story.MODE_DIALOGUE then
+	if not slot0.step or not slot0:IsDialogueMode(slot0.step) then
 		return {}
 	end
 

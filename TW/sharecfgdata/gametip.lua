@@ -18876,3 +18876,11 @@ _G.pg.base.gametip.five_duomaomao = {
 		}
 	}
 }
+
+_G.pg.base.gametip.main_4 = {
+	tip = "主介\n面 4"
+}
+
+_G.pg.base.gametip.main_5 = {
+	tip = "主介\n面 5"
+}

@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "（指揮官果然完全不在意麵具的事情……很好。）",
+			say = "（指揮官果然完全不在意面具的事情……很好。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:197}的情緒好像有些變化，果然是在在意麵具的事。",
+			say = "{namecode:197}的情緒好像有些變化，果然是在在意面具的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

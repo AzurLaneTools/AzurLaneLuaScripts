@@ -212,14 +212,19 @@ function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3, slot4)
 			position = uv0:GetLive2dPos() or Vector3(0, 0, 0),
 			parent = uv1:Find("live2d")
 		}), function (slot0)
-			ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), uv0.sortingOrder + 1)
+			slot1 = slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController")
+			slot2 = uv0.sortingOrder + 1
+			slot3 = typeof("Live2D.Cubism.Rendering.CubismRenderController")
 
-			slot2 = GetOrAddComponent(uv0.front, typeof(Canvas))
+			ReflectionHelp.RefSetProperty(slot3, "SortingOrder", slot1, slot2)
+			ReflectionHelp.RefSetProperty(slot3, "SortingMode", slot1, ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder"))
+
+			slot5 = GetOrAddComponent(uv0.front, typeof(Canvas))
 
 			GetOrAddComponent(uv0.front, typeof(GraphicRaycaster))
 
-			slot2.overrideSorting = true
-			slot2.sortingOrder = uv0.sortingOrder + 2
+			slot5.overrideSorting = true
+			slot5.sortingOrder = slot2 + slot0._tf:Find("Drawables").childCount
 			uv1.blocksRaycasts = true
 
 			if uv2 then

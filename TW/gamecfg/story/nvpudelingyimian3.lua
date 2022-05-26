@@ -270,8 +270,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "欧根亲王拿出了事先准备好的一瓶红酒，倒了两小杯。",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +305,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "轻轻地碰杯后，与欧根一同品尝起这美好的佳酿。",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +357,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "说起来，好像记得欧根的酒量有一些……",
 			typewriter = {
 				speed = 0.05,
@@ -491,8 +494,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			dir = 1,
+			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "果然完全喝醉了……时间也不早了，再这样下去可不行。",
 			typewriter = {
 				speed = 0.05,
