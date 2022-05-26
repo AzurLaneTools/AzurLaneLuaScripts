@@ -4365,23 +4365,23 @@ pg.ship_skin_template_7 = {
 		},
 		spine_offset = {
 			{
-				-92,
-				-772,
+				-25,
+				-710,
 				0
 			},
 			{
-				0.95
+				0.75
 			}
 		},
 		special_effects = {
-			"lihui_kalangshitade",
+			"lihui_qianwei",
 			{
-				1597,
-				229,
+				11,
+				32,
 				0
 			},
 			{
-				1.35
+				2.1
 			}
 		}
 	},
