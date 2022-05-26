@@ -90199,7 +90199,7 @@ _G.pg.base.task_data_template[16614] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			997
+			40635
 		}
 	}
 }
@@ -90245,7 +90245,7 @@ _G.pg.base.task_data_template[16615] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			997
+			40635
 		}
 	}
 }
@@ -90291,7 +90291,7 @@ _G.pg.base.task_data_template[16616] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			998
+			40636
 		}
 	}
 }
@@ -90338,7 +90338,7 @@ _G.pg.base.task_data_template[16617] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			998
+			40636
 		}
 	}
 }
@@ -90348,7 +90348,7 @@ _G.pg.base.task_data_template[16618] = {
 	guild_coin_award = 0,
 	award = 95156,
 	type = 26,
-	desc = "击败旗舰3次",
+	desc = "擊敗旗艦3次",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -90391,7 +90391,7 @@ _G.pg.base.task_data_template[16619] = {
 	guild_coin_award = 0,
 	award = 95157,
 	type = 26,
-	desc = "登录游戏",
+	desc = "登入遊戲",
 	count_inherit = 0,
 	sub_type = 1011,
 	target_id_2 = "",
@@ -90427,7 +90427,7 @@ _G.pg.base.task_data_template[16620] = {
 	guild_coin_award = 0,
 	award = 95158,
 	type = 26,
-	desc = "舰队出征，以S评价通关10次 ",
+	desc = "艦隊出擊，以S評價通關10次",
 	count_inherit = 0,
 	sub_type = 24,
 	target_id_2 = "",
@@ -90465,7 +90465,7 @@ _G.pg.base.task_data_template[16621] = {
 	guild_coin_award = 0,
 	award = 95159,
 	type = 26,
-	desc = "退役舰船2次 ",
+	desc = "退役艦船2次",
 	count_inherit = 0,
 	sub_type = 31,
 	target_id_2 = "",
@@ -90501,7 +90501,7 @@ _G.pg.base.task_data_template[16622] = {
 	guild_coin_award = 0,
 	award = 95160,
 	type = 26,
-	desc = "强化装备2次 ",
+	desc = "強化裝備2次",
 	count_inherit = 0,
 	sub_type = 40,
 	target_id_2 = "",
@@ -90542,7 +90542,7 @@ _G.pg.base.task_data_template[16623] = {
 	guild_coin_award = 0,
 	award = 95161,
 	type = 26,
-	desc = "后宅补充5次食物",
+	desc = "後宅補充5次食物",
 	count_inherit = 0,
 	sub_type = 61,
 	target_id_2 = "",
@@ -90578,7 +90578,7 @@ _G.pg.base.task_data_template[16624] = {
 	guild_coin_award = 0,
 	award = 95162,
 	type = 26,
-	desc = "击沉任意敌人20艘 ",
+	desc = "擊沉任意敵人20艘",
 	count_inherit = 0,
 	sub_type = 11,
 	target_id_2 = "",
@@ -90614,7 +90614,7 @@ _G.pg.base.task_data_template[16625] = {
 	guild_coin_award = 0,
 	award = 95163,
 	type = 26,
-	desc = "建造舰船2次",
+	desc = "建造艦船2次",
 	count_inherit = 0,
 	sub_type = 30,
 	target_id_2 = "",
@@ -90650,7 +90650,7 @@ _G.pg.base.task_data_template[16626] = {
 	guild_coin_award = 0,
 	award = 95164,
 	type = 26,
-	desc = "打开任意科技箱1个",
+	desc = "打開任意科技箱1個",
 	count_inherit = 0,
 	sub_type = 50,
 	target_id_2 = "",
@@ -90691,7 +90691,7 @@ _G.pg.base.task_data_template[16627] = {
 	guild_coin_award = 0,
 	award = 95165,
 	type = 26,
-	desc = "强化舰船5次 ",
+	desc = "強化艦船5次",
 	count_inherit = 0,
 	sub_type = 34,
 	target_id_2 = "",
@@ -90727,7 +90727,7 @@ _G.pg.base.task_data_template[16628] = {
 	guild_coin_award = 0,
 	award = 95166,
 	type = 26,
-	desc = "击败旗舰3次",
+	desc = "擊敗旗艦3次",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -90765,7 +90765,7 @@ _G.pg.base.task_data_template[16629] = {
 	guild_coin_award = 0,
 	award = 95167,
 	type = 26,
-	desc = "击沉任意敌人20艘 ",
+	desc = "擊沉任意敵人20艘",
 	count_inherit = 0,
 	sub_type = 11,
 	target_id_2 = "",
@@ -90801,7 +90801,7 @@ _G.pg.base.task_data_template[16630] = {
 	guild_coin_award = 0,
 	award = 95168,
 	type = 26,
-	desc = "强化装备2次 ",
+	desc = "強化裝備2次",
 	count_inherit = 0,
 	sub_type = 40,
 	target_id_2 = "",
@@ -90842,7 +90842,7 @@ _G.pg.base.task_data_template[16631] = {
 	guild_coin_award = 0,
 	award = 95169,
 	type = 26,
-	desc = "舰队出征，以S评价通关10次 ",
+	desc = "艦隊出擊，以S評價通關10次",
 	count_inherit = 0,
 	sub_type = 24,
 	target_id_2 = "",
@@ -91034,7 +91034,7 @@ _G.pg.base.task_data_template[16635] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			997
+			40635
 		}
 	}
 }
@@ -91088,7 +91088,7 @@ _G.pg.base.task_data_template[16636] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			997
+			40635
 		}
 	}
 }
@@ -91142,7 +91142,7 @@ _G.pg.base.task_data_template[16637] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			997
+			40635
 		}
 	}
 }
@@ -91196,7 +91196,7 @@ _G.pg.base.task_data_template[16638] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			998
+			40636
 		}
 	}
 }
@@ -91250,7 +91250,7 @@ _G.pg.base.task_data_template[16639] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			998
+			40636
 		}
 	}
 }
@@ -91304,7 +91304,7 @@ _G.pg.base.task_data_template[16640] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			998
+			40636
 		}
 	}
 }
@@ -91479,7 +91479,7 @@ _G.pg.base.task_data_template[16644] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			997
+			40635
 		}
 	}
 }
@@ -91523,7 +91523,7 @@ _G.pg.base.task_data_template[16645] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			997
+			40635
 		}
 	}
 }
@@ -91567,7 +91567,7 @@ _G.pg.base.task_data_template[16646] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			997
+			40635
 		}
 	}
 }
@@ -91611,7 +91611,7 @@ _G.pg.base.task_data_template[16647] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			998
+			40636
 		}
 	}
 }
@@ -91655,7 +91655,7 @@ _G.pg.base.task_data_template[16648] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			998
+			40636
 		}
 	}
 }
@@ -91699,7 +91699,7 @@ _G.pg.base.task_data_template[16649] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			998
+			40636
 		}
 	}
 }
