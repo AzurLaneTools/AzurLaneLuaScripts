@@ -232,7 +232,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再来一次好了——“Meine Herrin”，请问您想要点些什么呢？红酒的话，要不要试试我推荐的？",
+			say = "再来一次好了——“我的主人”，请问您想要点些什么呢？红酒的话，要不要试试我推荐的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一旦品尝过满足的滋味，很多事情就再也回不去了……你可要负起责任来哦，Meine Herrin♡",
+			say = "一旦品尝过满足的滋味，很多事情就再也回不去了……你可要负起责任来哦，我的主人♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
