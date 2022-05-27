@@ -215,7 +215,7 @@ return {
 			bgName = "bg_camelot_13",
 			side = 2,
 			dir = 1,
-			actorName = "ウォースパイト·改",
+			actorName = "ウォースパイト改",
 			say = "スカパ・フローの全艦隊を投入しようとしましたが、ジョージに止められまして…",
 			typewriter = {
 				speed = 0.05,
@@ -233,7 +233,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "ウォースパイト·改",
+			actorName = "ウォースパイト改",
 			say = "ですが陛下、今はそんなことはどうでもいいですから急いで脱出してください！！",
 			typewriter = {
 				speed = 0.05,
@@ -1101,7 +1101,7 @@ return {
 			bgName = "bg_camelot_13",
 			side = 2,
 			dir = 1,
-			actorName = "ウォースパイト·改",
+			actorName = "ウォースパイト改",
 			say = "陛下、私たちにお任せください！一匹たりとも通しはしません！",
 			typewriter = {
 				speed = 0.05,

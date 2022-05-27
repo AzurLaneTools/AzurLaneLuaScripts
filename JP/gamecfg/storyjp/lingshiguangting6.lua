@@ -79,7 +79,7 @@ return {
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "エンタープライズ·META",
+			actorName = "エンタープライズ(META)",
 			side = 2,
 			say = "「…次はやつの「素体」を叩く」",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 900192,
-			actorName = "{namecode:66}·META",
+			actorName = "高雄(META)",
 			hidePaintObj = true,
 			say = "陣形を乱すな！全艦、抜刀せよ！",
 			flashN = {
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "エンタープライズ·META",
+			actorName = "エンタープライズ(META)",
 			side = 2,
 			say = "「アビータボディが9体…だがこの程度なら勝てる。こいつらを倒して今からその「素体」を――」",
 			typewriter = {
@@ -524,7 +524,7 @@ return {
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "エンタープライズ·META",
+			actorName = "エンタープライズ(META)",
 			side = 2,
 			say = "………なに？",
 			typewriter = {
@@ -1439,7 +1439,7 @@ return {
 			bgName = "bg_camelot_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "レナウン·META",
+			actorName = "レナウン(META)",
 			say = "我が主機の轟きは正義のために戦う宣言の言葉",
 			typewriter = {
 				speed = 0.05,
@@ -1456,7 +1456,7 @@ return {
 			bgName = "bg_camelot_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "レナウン·META",
+			actorName = "レナウン(META)",
 			say = "我が剣先の閃きは栄光のために戦う決意の印",
 			typewriter = {
 				speed = 0.05,
@@ -1473,7 +1473,7 @@ return {
 			bgName = "bg_camelot_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "レナウン·META",
+			actorName = "レナウン(META)",
 			say = "我、ロイヤル騎士隊の一員として、碧き航路の安寧を守りし者",
 			typewriter = {
 				speed = 0.05,
@@ -1490,7 +1490,7 @@ return {
 			bgName = "bg_camelot_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "レパルス·META",
+			actorName = "レパルス(META)",
 			say = "我、ロイヤル騎士隊の一員として、沈まぬ太陽の輝きを体現せし者",
 			typewriter = {
 				speed = 0.05,
@@ -1507,7 +1507,7 @@ return {
 			bgName = "bg_camelot_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "レパルス·META",
+			actorName = "レパルス(META)",
 			say = "この誓いのもとで、我、刃を振るわん",
 			typewriter = {
 				speed = 0.05,

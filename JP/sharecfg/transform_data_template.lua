@@ -14383,7 +14383,7 @@ pg.transform_data_template = {
 		skin_id = 206039,
 		use_ship = 1,
 		level_limit = 90,
-		descrip = "近代化改修すると、対空＋35、航空+10\n<color=#92fc63>【艦載機数+1】</color>スキル<color=#92fc63>【支援空母】</color>はスキル<color=#92fc63>【ゆーちゃんの応援】</color>に変化",
+		descrip = "近代化改修すると、対空＋35、航空+10\n<color=#92fc63>【戦闘機機数+1】</color>スキル<color=#92fc63>【支援空母】</color>はスキル<color=#92fc63>【ゆーちゃんの応援】</color>に変化",
 		icon = "mt_red",
 		skill_id = 0,
 		condition_id = {
