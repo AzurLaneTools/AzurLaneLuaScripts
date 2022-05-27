@@ -11579,7 +11579,7 @@ Event Information:
  a. Active Commander 
  b. Returning or new Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- Logged in at least once at any point between May 12th, 2021 and before the maintenance on May 26th, 2021.
+- Logged in at least once at any point between May 12th, 2022 and before the maintenance on May 26th, 2022.
 3. Players who do not meet this criterion are categorized as Returning or new Commanders and are eligible for their own set of objectives and rewards.
 4. If you are unsure whether you are an Active Commander or a Returning or new Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.

@@ -63239,7 +63239,7 @@ Increases your Illustrious-class CVs' DMG dealt by $1. When the battle starts:
 	},
 	[15680] = {
 		desc_get = "",
-		name = "Glistening Guns of Glory",
+		name = "Glisten, Light of Glory!",
 		id = 15680,
 		type = 1,
 		max_level = 10,
@@ -63381,7 +63381,7 @@ Increases your Illustrious-class CVs' DMG dealt by $1. When the battle starts:
 	},
 	[15690] = {
 		desc_get = "",
-		name = "A Move Too Cringeworthy to Name",
+		name = "Scatter, Minions of Darkness!",
 		id = 15690,
 		type = 3,
 		max_level = 10,
@@ -63532,7 +63532,7 @@ Increases your Illustrious-class CVs' DMG dealt by $1. When the battle starts:
 	},
 	[15700] = {
 		desc_get = "",
-		name = "Behold My Royal Sabre!",
+		name = "Behold, My Royal Sabre!",
 		id = 15700,
 		type = 2,
 		max_level = 10,

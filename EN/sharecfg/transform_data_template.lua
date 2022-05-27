@@ -14394,7 +14394,7 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		descrip = [[
 Completing the retrofit will have the following effects:
 AA +35, AVI +10.
-This ship gains <color=#92fc63>all fighters +1</color>.
+This ship gains <color=#92fc63>Fighters +1</color>.
 The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63>Yuni's Aid</color>.]],
 		icon = "mt_red",
 		skill_id = 0,

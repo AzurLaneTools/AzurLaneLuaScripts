@@ -6559,7 +6559,7 @@ _G.pg.base.item_data_statistics[15014] = {
 }
 
 _G.pg.base.item_data_statistics[15015] = {
-	display = "Resource used to make, upgrade and convert Augment Modules.",
+	display = "Resource used to craft, upgrade and convert Augment Modules.",
 	name = "Augment Module Stone T1",
 	max_num = 0,
 	type = 2,
@@ -6580,7 +6580,7 @@ _G.pg.base.item_data_statistics[15015] = {
 }
 
 _G.pg.base.item_data_statistics[15016] = {
-	display = "Resource used to make, upgrade and convert Augment Modules.",
+	display = "Resource used to craft, upgrade and convert Augment Modules.",
 	name = "Augment Module Stone T2",
 	max_num = 0,
 	type = 2,
@@ -6601,7 +6601,7 @@ _G.pg.base.item_data_statistics[15016] = {
 }
 
 _G.pg.base.item_data_statistics[15017] = {
-	display = "Resource used to make, upgrade and convert Augment Modules.",
+	display = "Resource used to craft, upgrade and convert Augment Modules.",
 	name = "Augment Module Stone T3",
 	max_num = 0,
 	type = 2,

@@ -6624,7 +6624,7 @@ pg.ship_skin_template_17 = {
 	},
 	[900191] = {
 		ship_group = 900191,
-		name = "empress",
+		name = "Arbiter: The Empress III",
 		bullet_skin_secondary = "",
 		hand_id = 0,
 		bgm = "",
