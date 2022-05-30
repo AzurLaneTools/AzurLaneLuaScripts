@@ -16400,18 +16400,18 @@ pg.equip_skin_template = {
 		}
 	},
 	[2009] = {
-		name = "鱼雷占坑",
-		bullet_name = "yulei_fanxing",
+		name = "耀星鱼雷",
+		bullet_name = "yulei_yaoxing",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "鱼雷占坑",
+		desc = "闪耀于群星之间",
 		themeid = 101,
 		id = 2009,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
 		orbit_ui = "",
-		icon = "96121",
+		icon = "96123",
 		orbit_hidden_action = "",
 		mirror = 0,
 		rarity = 4,
@@ -16430,18 +16430,18 @@ pg.equip_skin_template = {
 		}
 	},
 	[2010] = {
-		name = "炮弹占坑",
-		bullet_name = "paodan_huixing",
+		name = "黑洞炮弹",
+		bullet_name = "paodan_tianti",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "炮弹占坑",
+		desc = "深邃而又神秘的吸引力！",
 		themeid = 101,
 		id = 2010,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
 		orbit_ui = "",
-		icon = "96111",
+		icon = "96114",
 		orbit_hidden_action = "",
 		mirror = 0,
 		rarity = 4,
@@ -16461,18 +16461,18 @@ pg.equip_skin_template = {
 		}
 	},
 	[2011] = {
-		name = "子弹占坑",
-		bullet_name = "zidan_xingqiu",
+		name = "星云子弹(黄)",
+		bullet_name = "xingyunzidan01",
 		orbit_ui_bound = "",
 		type = 1,
-		desc = "子弹占坑",
+		desc = "星海中的璀璨光芒",
 		themeid = 101,
 		id = 2011,
 		orbit_combat = "",
 		ship_config_id = 100011,
 		derivate_boom = "",
 		orbit_ui = "",
-		icon = "96112",
+		icon = "96115",
 		orbit_hidden_action = "",
 		mirror = 0,
 		rarity = 4,
@@ -16494,15 +16494,15 @@ pg.equip_skin_template = {
 	[2012] = {
 		name = "科伊伯带",
 		bullet_name = "",
-		desc = "外观占坑",
+		desc = "旋转和碰撞间蕴藏无限可能！",
 		type = 1,
 		themeid = 101,
 		id = 2012,
 		orbit_combat = "shebei_keyibodai",
 		ship_config_id = 100011,
 		derivate_boom = "",
-		orbit_ui = "shebei_keyibodaiui",
-		icon = "96151",
+		orbit_ui = "",
+		icon = "96154",
 		mirror = 0,
 		rarity = 4,
 		derivate_bullet = "",
@@ -16534,6 +16534,37 @@ pg.equip_skin_template = {
 		orbit_hidden_action = {
 			"sleep",
 			"wash"
+		}
+	},
+	[2013] = {
+		name = "星云子弹(蓝)",
+		bullet_name = "xingyunzidan02",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "星海中的璀璨光芒",
+		themeid = 101,
+		id = 2013,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96116",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
 		}
 	},
 	all = {
@@ -17088,6 +17119,7 @@ pg.equip_skin_template = {
 		2009,
 		2010,
 		2011,
-		2012
+		2012,
+		2013
 	}
 }

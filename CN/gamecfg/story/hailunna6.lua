@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"暴风雨与麦芽糖\n\n<size=45>六　同甘共苦的二人</size>",
+					"暴风雨与麦芽糖\n\n<size=45>六　暴风雨Sonata：第二乐章</size>",
 					1
 				}
 			}
