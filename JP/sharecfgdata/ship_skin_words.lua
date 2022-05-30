@@ -39392,7 +39392,7 @@ _G.pg.base.ship_skin_words[403035] = {
 	vote = "",
 	hp_warning = "",
 	id = 403035,
-	detail = "呼び方を変えてほしい？そうね、「Meine Herrin♡」――これでどう？ふふふ♪",
+	detail = "呼び方を変えてほしい？そうね、「mein Schatz♡」――これでどう？ふふふ♪",
 	couple_encourage = {}
 }
 

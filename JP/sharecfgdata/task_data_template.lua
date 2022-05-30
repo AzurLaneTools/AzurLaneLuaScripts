@@ -168895,8 +168895,8 @@ _G.pg.base.task_data_template[17657] = {
 	scene = {
 		"LEVEL",
 		{
-			mapIdx = 1640026,
-			chapterId = 1640051
+			mapIdx = 1650026,
+			chapterId = 1650051
 		}
 	}
 }

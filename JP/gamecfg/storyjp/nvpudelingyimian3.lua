@@ -232,7 +232,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "それじゃ改めて、Meine Herrin、ご注文はなぁに？ワインだったら今おすすめのものを持ってくるわ",
+			say = "それじゃ改めて、私のご主人さま、ご注文はなぁに？ワインだったら今おすすめのものを持ってくるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一度でも満足したら、色々ともう引き返せなくなったわ…その責任を、ちゃんと取ってもらうわよ～Meine Herrin♡",
+			say = "一度でも満足したら、色々ともう引き返せなくなったわ…その責任を、ちゃんと取ってもらうわよ～私のご主人さま♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

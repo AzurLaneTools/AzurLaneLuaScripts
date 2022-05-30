@@ -7441,7 +7441,11 @@ _G.pg.base.gametip.ship_remould_warning_205124 = {
 }
 
 _G.pg.base.gametip.ship_remould_warning_206134 = {
-	tip = "改造すると<color=#92fc63>【艦載機数+1】</color>\nスキル<color=#92fc63>【支援空母】</color>は\nスキル<color=#92fc63>【ゆーちゃんの応援】</color>に変化します。改造を続けますか"
+	tip = [[
+改造すると<color=#92fc63>【戦闘機機数+1】</color>
+スキル<color=#92fc63>【支援空母】</color>は
+スキル<color=#92fc63>【ゆーちゃんの応援】</color>に変化します。
+改造を続けますか？]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_301534 = {
@@ -19904,7 +19908,7 @@ _G.pg.base.gametip.cruise_task_help_2204 = {
 }
 
 _G.pg.base.gametip.battlepass_main_tip_2206 = {
-	tip = "2022.6.1-2022.7.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「メンフィス(META)」</color>などを入手可能！"
+	tip = "<size=24>2022.6.1-2022.7.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「メンフィス(META)」</color>などを入手可能！</size>"
 }
 
 _G.pg.base.gametip.battlepass_main_help_2206 = {
