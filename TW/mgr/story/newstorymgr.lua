@@ -162,9 +162,9 @@ function slot0.Init(slot0, slot1)
 
 		uv0._go.transform:SetParent(uv0.UIOverlay.transform, false)
 
-		uv0.skipBtn = findTF(uv0._tf, "front/btns/skip_button")
-		uv0.autoBtn = findTF(uv0._tf, "front/btns/auto_button")
-		uv0.recordBtn = findTF(uv0._tf, "front/record")
+		uv0.skipBtn = findTF(uv0._tf, "front/btns/btns/skip_button")
+		uv0.autoBtn = findTF(uv0._tf, "front/btns/btns/auto_button")
+		uv0.recordBtn = findTF(uv0._tf, "front/btns/record")
 		uv0.players = {
 			AsideStoryPlayer.New(slot0),
 			DialogueStoryPlayer.New(slot0),
