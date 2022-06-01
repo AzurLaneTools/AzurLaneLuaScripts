@@ -20497,3 +20497,38 @@ _G.pg.base.gametip.main_4 = {
 _G.pg.base.gametip.main_5 = {
 	tip = "メイ\nン5"
 }
+
+_G.pg.base.gametip.honor_medal_support_tips_display = {
+	tip = {
+		support_tip_ship = "支援要請でもSSR艦船が入手可能",
+		bg = "loadingbg/bg_support",
+		support_tip_consume = "勲章を消費すると、支援要請が行える",
+		rate_tip = {
+			"<color=#ffde38>SSレア</color>：4%",
+			"<color=#d797ff>Sレア</color>：10%",
+			"<color=#3dc6ff>レア</color>：32%",
+			"ノーマル：54%",
+			"毎月999回まで支援要請が可能"
+		}
+	}
+}
+
+_G.pg.base.gametip.honor_medal_support_tips_confirm = {
+	tip = "支援要請を<color=#ff5c5c>「$1回」</color>行うと下記のアイテムが消費されます:\n<color=$3>「勲章　×　$2」</color>"
+}
+
+_G.pg.base.gametip.support_rate_title = {
+	tip = "出現確率"
+}
+
+_G.pg.base.gametip.support_times_limited = {
+	tip = "今月はこれ以上支援要請できません"
+}
+
+_G.pg.base.gametip.support_times_tip = {
+	tip = "実行回数"
+}
+
+_G.pg.base.gametip.build_times_tip = {
+	tip = "一括建造"
+}

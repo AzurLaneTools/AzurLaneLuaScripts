@@ -42,7 +42,7 @@ function slot0.OnInit(slot0)
 		uv0:updateTxt(uv0.count)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.addBtn, function ()
-		if uv0.isTicket and uv0.itemVO.count <= uv0.count then
+		if uv0.buildType == "ticket" and uv0.itemVO.count <= uv0.count then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_not_enough", uv0.itemVO:getConfig("name")))
 
 			return
@@ -55,7 +55,7 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.maxBtn, function ()
 		uv0.count = MAX_BUILD_WORK_COUNT
 
-		if uv0.isTicket then
+		if uv0.buildType == "ticket" then
 			uv0.count = math.clamp(uv0.itemVO.count, 1, MAX_BUILD_WORK_COUNT)
 		end
 
@@ -69,20 +69,33 @@ function slot0.updateTxt(slot0, slot1)
 end
 
 function slot0.GetDesc(slot0, slot1)
-	slot2 = slot0.buildPool
-	slot3 = slot0.max
+	switch(slot0.buildType, {
+		base = function ()
+			slot0 = uv0.buildPool
 
-	if slot0.isTicket then
-		if slot1 <= slot3 and slot1 <= slot0.itemVO.count then
-			return i18n("build_ship_tip_use_ticket", slot1, slot2.name, slot1, slot0.itemVO:getConfig("name"), COLOR_GREEN)
-		else
-			return i18n("build_ship_tip_use_ticket", slot1, slot2.name, slot1, slot0.itemVO:getConfig("name"), COLOR_RED)
+			if uv1 <= uv0.max and uv0.player.gold >= uv1 * slot0.use_gold and uv0.itemVO.count >= uv1 * slot0.number_1 then
+				uv2 = i18n("build_ship_tip", uv1, slot0.name, uv1 * slot0.use_gold, uv1 * slot0.number_1, COLOR_GREEN)
+			else
+				uv2 = i18n("build_ship_tip", uv1, slot0.name, uv1 * slot0.use_gold, uv1 * slot0.number_1, COLOR_RED)
+			end
+		end,
+		ticket = function ()
+			if uv0 <= uv1.max and uv0 <= uv1.itemVO.count then
+				uv2 = i18n("build_ship_tip_use_ticket", uv0, uv1.buildPool.name, uv0, uv1.itemVO:getConfig("name"), COLOR_GREEN)
+			else
+				uv2 = i18n("build_ship_tip_use_ticket", uv0, uv1.buildPool.name, uv0, uv1.itemVO:getConfig("name"), COLOR_RED)
+			end
+		end,
+		medal = function ()
+			if uv0 <= uv1.max and uv1.itemVO.count >= uv0 * uv1.cost then
+				uv2 = i18n("honor_medal_support_tips_confirm", uv0, uv0 * uv1.cost, COLOR_GREEN)
+			else
+				uv2 = i18n("honor_medal_support_tips_confirm", uv0, uv0 * uv1.cost, COLOR_RED)
+			end
 		end
-	elseif slot1 <= slot3 and slot0.player.gold >= slot1 * slot2.use_gold and slot0.itemVO.count >= slot1 * slot2.number_1 then
-		return i18n("build_ship_tip", slot1, slot2.name, slot1 * slot2.use_gold, slot1 * slot2.number_1, COLOR_GREEN)
-	else
-		return i18n("build_ship_tip", slot1, slot2.name, slot1 * slot2.use_gold, slot1 * slot2.number_1, COLOR_RED)
-	end
+	})
+
+	return ""
 end
 
 function slot0.Show(slot0, slot1)
@@ -93,6 +106,7 @@ function slot0.Show(slot0, slot1)
 	slot0.count = 1
 
 	slot0:updateTxt(slot0.count)
+	setText(slot0._tf:Find("window/content/title"), i18n(slot0.buildType == "medal" and "support_times_tip" or "build_times_tip"))
 	setActiveViaLayer(slot0._go, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end

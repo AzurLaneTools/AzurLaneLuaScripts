@@ -63,7 +63,7 @@ pg.activity_ins_ship_group_template = {
 	[40303] = {
 		ship_group = 40303,
 		name = "P.Eugen",
-		sculpture = "ougen"
+		sculpture = "ougen_6"
 	},
 	[40305] = {
 		ship_group = 40305,
@@ -108,7 +108,7 @@ pg.activity_ins_ship_group_template = {
 	[49901] = {
 		ship_group = 49901,
 		name = "RoonDESU",
-		sculpture = "luoen_idol"
+		sculpture = "luoen_4"
 	},
 	[49902] = {
 		ship_group = 49902,
@@ -563,7 +563,7 @@ pg.activity_ins_ship_group_template = {
 	[40502] = {
 		ship_group = 40502,
 		name = "Tirpitz",
-		sculpture = "tierbici_4"
+		sculpture = "tierbici_5"
 	},
 	[10213] = {
 		ship_group = 10213,
@@ -613,7 +613,7 @@ pg.activity_ins_ship_group_template = {
 	[20509] = {
 		ship_group = 20509,
 		name = "Howe_Cookies",
-		sculpture = "hao"
+		sculpture = "hao_5"
 	},
 	[20606] = {
 		ship_group = 20606,
@@ -1108,7 +1108,7 @@ pg.activity_ins_ship_group_template = {
 	[70102] = {
 		ship_group = 70102,
 		name = "Grozny",
-		sculpture = "weiyan"
+		sculpture = "weiyan_5"
 	},
 	[30609] = {
 		ship_group = 30609,
@@ -1118,7 +1118,7 @@ pg.activity_ins_ship_group_template = {
 	[30608] = {
 		ship_group = 30608,
 		name = "Chitose",
-		sculpture = "qiansui"
+		sculpture = "qiansui_3"
 	},
 	[10225] = {
 		ship_group = 10225,
@@ -1298,7 +1298,7 @@ pg.activity_ins_ship_group_template = {
 	[10229] = {
 		ship_group = 10229,
 		name = "USSBOISE",
-		sculpture = "boyixi"
+		sculpture = "boyixi_4"
 	},
 	[10204] = {
 		ship_group = 10204,
@@ -1773,12 +1773,22 @@ pg.activity_ins_ship_group_template = {
 	[49905] = {
 		ship_group = 49905,
 		name = "Aegir",
-		sculpture = "aijier"
+		sculpture = "aijier_2"
 	},
 	[49906] = {
 		ship_group = 49906,
 		name = "August.V.Parseval",
 		sculpture = "aogusite"
+	},
+	[90101] = {
+		ship_group = 90101,
+		name = "LeMars ",
+		sculpture = "lemaer_4"
+	},
+	[80102] = {
+		ship_group = 80102,
+		name = "Forbin ",
+		sculpture = "fuerban"
 	},
 	all = {
 		30701,
@@ -2136,6 +2146,8 @@ pg.activity_ins_ship_group_template = {
 		20114,
 		20113,
 		49905,
-		49906
+		49906,
+		90101,
+		80102
 	}
 }

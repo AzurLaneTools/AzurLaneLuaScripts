@@ -24,6 +24,7 @@ function slot0.Repalce(slot0, slot1, slot2)
 		slot1 = string.split(uv1.param, "|")
 		slot0.name = slot1[1]
 		slot0.display = slot1[2]
+		pg.benefit_buff_template[1].icon = "Props/" .. uv1.pic
 
 		uv2()
 	end)()

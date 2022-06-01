@@ -1,235 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
-	[102273] = {
-		ship_group = 10227,
-		name = "29.5日の月見タイム",
-		bullet_skin_secondary = "",
-		hand_id = 16,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "144",
-		id = 102273,
-		group_index = 3,
-		prefab = "mabuerheide_4",
-		painting = "mabuerheide_4",
-		shop_id = 70593,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "またやってきました今年の月見フェスティバル～！おっ、指揮官は中秋節を知ってるんですね～偉いですね～。じゃあ今日はな・に・をすべきかも分かっていますよね…♡",
-		voice_actor = 230,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.157,
-					1.023,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.118,
-					1.034,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.148,
-					1.034,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.533,
-							2.426,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102290] = {
-		ship_group = 10229,
-		name = "ボイシ",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 102290,
-		group_index = 0,
-		prefab = "boyixi",
-		painting = "boyixi",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ブルックリン級巡洋艦・ボイシ（CL-47）",
-		voice_actor = 276,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.07,
-					1.13,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.05,
-					1.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.06,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.7,
-							2.34,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102291] = {
 		ship_group = 10229,
 		name = "恥じらいのエメラルド",
@@ -356,6 +126,7 @@ pg.ship_skin_template_3 = {
 			"home",
 			"mail",
 			"touch_body",
+			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -471,6 +242,122 @@ pg.ship_skin_template_3 = {
 						{
 							-0.618,
 							2.466,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102293] = {
+		ship_group = 10229,
+		name = "翠玉の海人魚",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "157",
+		id = 102293,
+		group_index = 3,
+		prefab = "boyixi_4",
+		painting = "boyixi_4",
+		shop_id = 70704,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ふーはー…東煌の衣装、に、似合う？ちょっと隙間とかすーすーするところが多くて、落ち着かないけど…指揮官がいいなら、いい…",
+		voice_actor = 276,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					1.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					1.17,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.33,
 							0
 						}
 					}
@@ -7108,6 +6995,115 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105131] = {
+		ship_group = 10513,
+		name = "スマイリーアニバーサリー",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "157",
+		id = 105131,
+		group_index = 1,
+		prefab = "huashengdun_2",
+		painting = "huashengdun_2",
+		shop_id = 70708,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ちっす、指揮官。…アタシの格好？別に普通だけど…まさかお前、変なことでも考えてんじゃないんだよな…ぶっ飛ばすぞ！",
+		voice_actor = 3,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.32,
+					1.26,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.21,
+					1.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.23,
+					1.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[105140] = {
 		ship_group = 10514,
 		name = "サウスダコタ",
@@ -9356,6 +9352,126 @@ pg.ship_skin_template_3 = {
 							-0.54,
 							2.404,
 							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
+	[107030] = {
+		ship_group = 10703,
+		name = "サラトガ",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 107030,
+		group_index = 0,
+		prefab = "salatuojia",
+		painting = "salatuojia",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "レキシントン級航空母艦・サラトガ（CV-3)",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.772,
+					0.605,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.772,
+					0.605,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.772,
+					0.605,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.887,
+							1.243,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.642,
+							1.068,
+							0
 						}
 					}
 				}

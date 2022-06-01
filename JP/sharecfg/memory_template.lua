@@ -21307,6 +21307,50 @@ pg.memory_template = {
 		icon = "memory_lingshiguangting",
 		is_open = 0
 	},
+	[2167] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "茶室にて",
+		condition = "「雅なる宴」DAY1解放",
+		story = "HEYAZHIYAN1",
+		id = 2167,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
+	[2168] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "庭園にて",
+		condition = "「雅なる宴」DAY3解放",
+		story = "HEYAZHIYAN2",
+		id = 2168,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
+	[2169] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "楽室にて",
+		condition = "「雅なる宴」DAY5解放",
+		story = "HEYAZHIYAN3",
+		id = 2169,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
+	[2170] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "宴会にて",
+		condition = "「雅なる宴」DAY7解放",
+		story = "HEYAZHIYAN4",
+		id = 2170,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
 	[10000] = {
 		type = 1,
 		subtitle = "",
@@ -24136,6 +24180,10 @@ pg.memory_template = {
 		2164,
 		2165,
 		2166,
+		2167,
+		2168,
+		2169,
+		2170,
 		10000,
 		10001,
 		10002,

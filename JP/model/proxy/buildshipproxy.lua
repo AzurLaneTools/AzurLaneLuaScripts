@@ -4,10 +4,6 @@ slot0.TIMEUP = "BuildShipProxy TIMEUP"
 slot0.UPDATED = "BuildShipProxy UPDATED"
 slot0.REMOVED = "BuildShipProxy REMOVED"
 slot0.DRAW_COUNT_UPDATE = "BuildShipProxy DRAW_COUNT_UPDATE"
-slot0.EXCHANGE_SHIP_UPDATED = "BuildShipProxy EXCHANGE_SHIP_UPDATED"
-slot0.EXCHANGE_LIST_UPDATED = "BuildShipProxy EXCHANGE_LIST_UPDATED"
-slot0.EXCHANGE_ITEM_LIST_UPDATED = "BuildShipProxy EXCHANGE_ITEM_LIST_UPDATED"
-slot0.EXCHANGE_ITEM_STATE_UPDATED = "BuildShipProxy EXCHANGE_ITEM_STATE_UPDATED"
 
 function slot0.register(slot0)
 	slot0:on(12024, function (slot0)
@@ -71,98 +67,6 @@ function slot0.GetPools(slot0)
 	}))
 
 	return slot1
-end
-
-function slot0.updateExchangeList(slot0, slot1, slot2, slot3)
-	slot0.exchangeFlagShipFlashTime = slot1
-	slot0.exchangeFlashTime = slot2
-	slot0.exchangeList = slot3
-
-	slot0:sendNotification(uv0.EXCHANGE_LIST_UPDATED, {
-		exchangeList = Clone(slot0.exchangeList),
-		flashTime = slot2,
-		flagShipFlashTime = slot1
-	})
-end
-
-function slot0.updateExchangeItemList(slot0, slot1, slot2)
-	slot0.nextRefreshItemTime = slot1
-	slot0.exchangeItemList = slot2
-
-	slot0:sendNotification(uv0.EXCHANGE_ITEM_LIST_UPDATED, {
-		flashTime = slot0.nextRefreshItemTime,
-		exchangeItemList = slot2
-	})
-	slot0:addExChangeItemTimer()
-end
-
-function slot0.addExChangeItemTimer(slot0)
-	if slot0.exchangeItemTimer then
-		slot0.exchangeItemTimer:Stop()
-
-		slot0.exchangeItemTimer = nil
-	end
-
-	if slot0.nextRefreshItemTime - pg.TimeMgr.GetInstance():GetServerTime() + 1 > 0 then
-		slot0.exchangeItemTimer = Timer.New(function ()
-			uv0.exchangeItemTimer:Stop()
-
-			uv0.exchangeItemTimer = nil
-
-			uv0:sendNotification(GAME.GET_EXCHANGE_ITEMS, {
-				type = 1
-			})
-		end, slot1, 1)
-
-		slot0.exchangeItemTimer:Start()
-	else
-		slot0:sendNotification(GAME.GET_EXCHANGE_ITEMS, {
-			type = 1
-		})
-	end
-end
-
-function slot0.getExChangeItemInfo(slot0)
-	return slot0.exchangeItemList, slot0.nextRefreshItemTime
-end
-
-function slot0.getExChangeItemInfoByIndex(slot0, slot1)
-	if slot0.exchangeItemList then
-		return slot0.exchangeItemList[slot1]
-	end
-end
-
-function slot0.updateExchangeItem(slot0, slot1)
-	if slot0.exchangeItemList then
-		slot0.exchangeItemList[slot1].isFetched = true
-
-		slot0:sendNotification(uv0.EXCHANGE_ITEM_STATE_UPDATED, slot1)
-	end
-end
-
-function slot0.getFlagShipFlashTime(slot0)
-	return slot0.exchangeFlagShipFlashTime
-end
-
-function slot0.getExchangeList(slot0)
-	return Clone(slot0.exchangeList)
-end
-
-function slot0.getExchangeFlashTime(slot0)
-	return slot0.exchangeFlashTime
-end
-
-function slot0.getExchangeShipByIndex(slot0, slot1)
-	return Clone(slot0.exchangeList[slot1])
-end
-
-function slot0.updateExchangeShip(slot0, slot1, slot2)
-	slot0.exchangeList[slot1] = slot2
-
-	slot0:sendNotification(uv0.EXCHANGE_SHIP_UPDATED, {
-		index = slot1,
-		exchangeShip = Clone(slot2)
-	})
 end
 
 function slot0.setBuildShipState(slot0)
@@ -395,6 +299,10 @@ end
 
 function slot0.getLastBuildShipPoolType(slot0)
 	return slot0.lastPoolType or 0
+end
+
+function slot0.getSupportShipCost(slot0)
+	return pg.gameset.supports_config.description[1]
 end
 
 return slot0

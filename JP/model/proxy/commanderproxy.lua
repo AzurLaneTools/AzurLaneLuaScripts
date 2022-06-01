@@ -188,6 +188,24 @@ function slot0.haveFinishedBox(slot0)
 	return false
 end
 
+function slot0.IsFinishAllBox(slot0)
+	slot1 = 0
+	slot2 = 0
+	slot3 = 0
+
+	for slot7, slot8 in pairs(slot0.boxes) do
+		if slot8:getState() == CommanderBox.STATE_FINISHED then
+			slot1 = slot1 + 1
+		elseif slot9 == CommanderBox.STATE_EMPTY then
+			slot2 = slot2 + 1
+		end
+
+		slot3 = slot3 + 1
+	end
+
+	return slot1 > 0 and slot1 + slot2 == slot3
+end
+
 function slot0.onRemove(slot0)
 	slot0:RemoveCalcExpTimer()
 	uv0.super.onRemove(slot0)
@@ -273,6 +291,36 @@ function slot0.AnyPoolIsWaiting(slot0)
 	end
 
 	return slot1 > 0
+end
+
+function slot0.ShouldTipBox(slot0)
+	function slot2()
+		for slot3, slot4 in pairs(uv0.boxes) do
+			if slot4:getState() == CommanderBox.STATE_EMPTY then
+				return true
+			end
+		end
+
+		return false
+	end
+
+	if (function ()
+		slot0 = 0
+
+		for slot4, slot5 in pairs(uv0.pools) do
+			slot0 = slot0 + slot5:getItemCount()
+		end
+
+		return slot0 > 0
+	end)() then
+		if slot2() then
+			return true
+		else
+			return slot0:IsFinishAllBox()
+		end
+	else
+		return slot0:IsFinishAllBox()
+	end
 end
 
 function slot0.CalcQuickItemUsageCnt(slot0)

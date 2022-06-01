@@ -58,7 +58,9 @@ function slot0.AddItem(slot0, slot1)
 	end
 
 	for slot7, slot8 in ipairs(slot1:GetArea()) do
-		slot0.map[slot8.x][slot8.y] = true
+		if slot0.map[slot8.x] then
+			slot0.map[slot8.x][slot8.y] = true
+		end
 	end
 
 	slot0:DispatchEvent(CourtYardEvent.ADD_ITEM, slot1)
@@ -84,7 +86,9 @@ function slot0.RemoveItem(slot0, slot1)
 
 	if slot3 > 0 then
 		for slot8, slot9 in ipairs(slot1:GetArea()) do
-			slot0.map[slot9.x][slot9.y] = false
+			if slot0.map[slot9.x] then
+				slot0.map[slot9.x][slot9.y] = false
+			end
 		end
 
 		slot0:DispatchEvent(CourtYardEvent.REMOVE_ITEM, slot1)

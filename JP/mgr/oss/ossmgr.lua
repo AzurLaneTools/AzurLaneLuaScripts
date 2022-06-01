@@ -49,10 +49,11 @@ function slot0.InitConfig(slot0)
 end
 
 function slot0.Init(slot0)
+	slot0:InitConfig()
+
 	if not slot0.isIninted then
 		slot0.isIninted = true
 
-		slot0:InitConfig()
 		slot0:InitClinet()
 	end
 end

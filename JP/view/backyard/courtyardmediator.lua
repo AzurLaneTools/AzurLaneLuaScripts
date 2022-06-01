@@ -187,6 +187,10 @@ function slot0.handleCourtyardNotification(slot0, slot1, slot2, slot3)
 		slot0.viewComponent:emit(BaseUI.ON_BACK)
 	elseif slot1 == CourtYardEvent._INITED then
 		slot0.viewComponent:OnCourtYardLoaded()
+	elseif slot1 == GAME.LOAD_LAYERS then
+		_courtyard:GetController():OnOpenLayerOrCloseLayer(true, slot2.context.mediator == NewBackYardShipInfoMediator)
+	elseif slot1 == GAME.REMOVE_LAYERS then
+		_courtyard:GetController():OnOpenLayerOrCloseLayer(false, slot2.context.mediator == NewBackYardShipInfoMediator)
 	elseif slot1 == GAME.ON_APPLICATION_PAUSE and slot2 then
 		_courtyard:GetController():OnApplicationPaused()
 	end

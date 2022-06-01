@@ -70,7 +70,7 @@ function slot4(slot0, slot1, slot2, slot3)
 	slot4 = ResourceMgr.Inst
 
 	slot4:getAssetAsync("furnitrues/" .. slot2:GetPicture(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0:IsStop() or IsNil(uv1) then
+		if uv0:IsStop() or IsNil(uv1) or IsNil(slot0) then
 			uv0:OnStop()
 
 			return
@@ -97,7 +97,7 @@ function slot5(slot0, slot1, slot2, slot3)
 			slot1 = ResourceMgr.Inst
 
 			slot1:getAssetAsync("furnitrues/" .. uv0, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				if uv0:IsStop() or IsNil(uv1) then
+				if uv0:IsStop() or IsNil(uv1) or IsNil(slot0) then
 					uv0:OnStop()
 
 					return
@@ -144,7 +144,7 @@ function slot7(slot0, slot1, slot2, slot3)
 		slot6 = ResourceMgr.Inst
 
 		slot6:getAssetAsync("furnitrues/" .. slot5, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			if uv0:IsStop() or IsNil(uv1) then
+			if uv0:IsStop() or IsNil(uv1) or IsNil(slot0) then
 				uv0:OnStop()
 
 				return
@@ -167,7 +167,7 @@ function slot8(slot0, slot1, slot2, slot3)
 	slot5 = ResourceMgr.Inst
 
 	slot5:getAssetAsync("sfurniture/" .. slot4:GetName(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0:IsStop() or IsNil(uv1) then
+		if uv0:IsStop() or IsNil(uv1) or IsNil(slot0) then
 			uv0:OnStop()
 
 			return
@@ -193,7 +193,7 @@ function slot9(slot0, slot1, slot2, slot3)
 			slot1 = ResourceMgr.Inst
 
 			slot1:getAssetAsync("sfurniture/" .. uv0, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				if uv0:IsStop() or IsNil(uv1) then
+				if uv0:IsStop() or IsNil(uv1) or IsNil(slot0) then
 					uv0:OnStop()
 
 					return
@@ -230,7 +230,7 @@ function slot10(slot0, slot1, slot2, slot3)
 			slot1 = ResourceMgr.Inst
 
 			slot1:getAssetAsync("sfurniture/" .. uv0, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				if uv0:IsStop() or IsNil(uv1) then
+				if uv0:IsStop() or IsNil(uv1) or IsNil(slot0) then
 					uv0:OnStop()
 
 					return

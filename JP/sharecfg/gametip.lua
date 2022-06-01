@@ -17987,5 +17987,35 @@ cs.gametip = {
 		724265,
 		81,
 		true
+	},
+	honor_medal_support_tips_display = {
+		724346,
+		453,
+		true
+	},
+	honor_medal_support_tips_confirm = {
+		724799,
+		240,
+		true
+	},
+	support_rate_title = {
+		725039,
+		94,
+		true
+	},
+	support_times_limited = {
+		725133,
+		134,
+		true
+	},
+	support_times_tip = {
+		725267,
+		93,
+		true
+	},
+	build_times_tip = {
+		725360,
+		91,
+		true
 	}
 }

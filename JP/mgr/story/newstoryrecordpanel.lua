@@ -137,13 +137,14 @@ function slot0.UpdateList(slot0)
 
 	seriesAsync(slot2, function ()
 		uv0.cg.blocksRaycasts = true
+
+		scrollToBottom(uv0._tf)
 	end)
 end
 
 function slot0.Hide(slot0)
 	if slot0:IsShowing() then
 		slot0:Clear()
-		scrollTo(slot0._tf, 0, 1)
 		setActive(slot0._tf, false)
 
 		slot0.state = uv0

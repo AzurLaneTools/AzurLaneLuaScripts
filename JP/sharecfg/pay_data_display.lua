@@ -3230,6 +3230,214 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	{
+		subject = "福袋(夏2022)",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "福袋(夏2022)",
+		name_display = "福袋(夏2022)",
+		extra_gem = 0,
+		id = 38,
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe7_l",
+		id_str = "com.bilibili.blhx.zuanshi137",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムなドレス（夏2022）シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond129",
+		extra_service_item = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	{
+		subject = "福袋(夏2021) (復刻)",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "福袋(夏2021) (復刻)",
+		name_display = "福袋(夏2021) (復刻)",
+		extra_gem = 0,
+		id = 39,
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe5_l",
+		id_str = "com.bilibili.blhx.zuanshi138",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムなドレス（夏2021）シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond130",
+		extra_service_item = {
+			{
+				2,
+				69914,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69914,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[1000] = {
 		subject = "クルーズパス",
 		limit_group = 0,
@@ -4193,6 +4401,8 @@ pg.pay_data_display = {
 		35,
 		36,
 		37,
+		38,
+		39,
 		1000,
 		1001,
 		1002,
