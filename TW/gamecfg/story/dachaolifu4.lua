@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"心血来潮的夜宴\n\n<size=45>四 定番的尾声</size>",
+					"心血來潮的夜宴\n\n<size=45>四 定番的尾聲</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "虽说起因有些莫名其妙，不过看着大家乐在其中的模样，总算是这几天的准备没有白费了",
+			say = "雖說起因有些莫名其妙，不過看著大家樂在其中的模樣，總算是這幾天的準備沒有白費了",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 403043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼哼，这就是铁血的宴会！怎么样，是不是说不出话来了呀，皇家的小矮子～",
+			say = "哼哼哼，這就是鐵血的宴會！怎麼樣，是不是說不出話來了呀，皇家的小矮子～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 205011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "妳·说·谁·是·小矮子啊啊啊啊啊啊！！！！妳才是铁血的小矮子呢！！",
+			say = "妳·說·誰·是·小矮子啊啊啊啊啊啊！！！！妳才是鐵血的小矮子呢！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 403043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "小矮子小矮子小矮子，说的就是妳！",
+			say = "小矮子小矮子小矮子，說的就是妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "这边演变成了毫无营养的互相占嘴上便宜",
+			say = "這邊演變成了毫無營養的互相佔嘴上便宜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 403053,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐、姐姐……冷静一点",
+			say = "姐、姐姐……冷靜一點",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 202123,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，两位的关系已经变得这么好了呢",
+			say = "呵呵，兩位的關係已經變得這麼好了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,10 +182,10 @@ return {
 			bgName = "star_level_bg_115",
 			hideOther = true,
 			dir = 1,
-			actorName = "德意志&伊丽莎白",
+			actorName = "德意志&伊莉莎白",
 			actor = 403043,
 			nameColor = "#a9f548",
-			say = "谁跟她关系好了啦！！",
+			say = "誰跟她關係好了啦！！",
 			effects = {
 				{
 					active = true,
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "真是令人不禁微笑的场景，不过，也差不多到了最后的定番登场的时候了——",
+			say = "真是令人不禁微笑的場景，不過，也差不多到了最後的定番登場的時候了——",
 			effects = {
 				{
 					active = false,
@@ -241,7 +241,7 @@ return {
 			},
 			options = {
 				{
-					content = "喊停两人",
+					content = "喊停兩人",
 					flag = 1
 				}
 			}
@@ -252,10 +252,10 @@ return {
 			bgName = "star_level_bg_115",
 			hideOther = true,
 			dir = 1,
-			actorName = "德意志&伊丽莎白",
+			actorName = "德意志&伊莉莎白",
 			actor = 403043,
 			nameColor = "#a9f548",
-			say = "干嘛！仆从/仆人？",
+			say = "幹嘛！僕人/下僕？",
 			effects = {
 				{
 					active = true,
@@ -309,7 +309,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "德意志&伊丽莎白",
+			actorName = "德意志&伊莉莎白",
 			say = "哇……",
 			subActors = {
 				{
@@ -336,7 +336,7 @@ return {
 			actor = 403043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳、咳咳，怎么样，最后的烟花，不比之前那次的差吧！",
+			say = "咳、咳咳，怎麼樣，最後的煙火，不比之前那次的差吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 205011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽、虽然还不及皇家宴会的烟花，不过，姑且给妳个及格分吧！",
+			say = "雖、雖然還不及皇家宴會的煙火，不過，姑且給妳個及格分吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 403043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "妳说什么！！？？",
+			say = "你說什麼！！？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "真该感谢每次帮忙准备烟花的茗她们呢，回头再好好当面向她们道谢吧",
+			say = "真該感謝每次幫忙準備煙火的明石她們呢，回頭再好好當面向她們道謝吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "烟花下的一杯酒，嘻嘻，也是别有一番风味呢～",
+			say = "煙火下的一杯酒，嘻嘻，也是別有一番風味呢～",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -429,7 +429,7 @@ return {
 			actor = 905011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，铁血也喜欢这种华而不实的玩意儿吗。算了，总归是道不错的风景……",
+			say = "哼，鐵血也喜歡這種華而不實的東西嗎。算了，總歸是道不錯的風景……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…虽然有点吵……不过，嗯，还不错……",
+			say = "…雖然有點吵……不過，嗯，還不錯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 499011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是不错的烟花啊～下次在战场上也来放“烟花”吧～",
+			say = "真是不錯的煙火啊～下次在戰場上也來放“煙火”吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 199011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈，罗恩还是老样子，时不时就会说出让人吓一跳的话呢～",
+			say = "啊哈哈，羅恩還是老樣子，時不時就會說出讓人嚇一跳的話呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 301143,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，鹬快看快看，是烟花～好棒啊～",
+			say = "啊，翔鶴快看快看，是煙火～好棒啊～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 307051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，话说至少看烟花的时候放下手上的烤串也好啊…",
+			say = "嗯，話說至少看煙火的時候放下手上的烤串也好啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "在绚烂的烟花映衬下，这场心血来潮的宴会也算是步向了尾声。嗯，下次有机会，再来办一次这样的宴会吧——",
+			say = "在絢爛的煙火映襯下，這場心血來潮的宴會也算是步向了尾聲。嗯，下次有機會，再來辦一次這樣的宴會吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

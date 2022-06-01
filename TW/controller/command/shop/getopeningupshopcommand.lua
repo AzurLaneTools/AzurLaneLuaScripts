@@ -26,6 +26,9 @@ function slot0.execute(slot0, slot1)
 		end,
 		function (slot0)
 			uv0:GetMetaShops(slot0)
+		end,
+		function (slot0)
+			uv0:GetMedalShops(slot0)
 		end
 	}, function ()
 		if uv0 then
@@ -35,139 +38,214 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.GetMilitaryShop(slot0, slot1)
-	slot0.shopList[NewShopsScene.TYPE_MILITARY_SHOP] = {}
-
-	function slot2(slot0)
-		table.insert(uv0.shopList[NewShopsScene.TYPE_MILITARY_SHOP], slot0)
-		uv1()
-	end
+	slot2 = {}
 
 	if not slot0.shopsProxy:getMeritorousShop() then
-		slot0:sendNotification(GAME.GET_MILITARY_SHOP, {
-			callback = slot2
-		})
+		table.insert(slot2, function (slot0)
+			uv0:sendNotification(GAME.GET_MILITARY_SHOP, {
+				callback = slot0
+			})
+		end)
 	else
-		slot2(slot3)
+		table.insert(slot2, function (slot0)
+			slot0(uv0)
+		end)
 	end
+
+	table.insert(slot2, function (slot0, slot1)
+		uv0.shopList[NewShopsScene.TYPE_MILITARY_SHOP] = {}
+
+		table.insert(uv0.shopList[NewShopsScene.TYPE_MILITARY_SHOP], slot1)
+		slot0()
+	end)
+	seriesAsync(slot2, slot1)
 end
 
 function slot0.GetStressShop(slot0, slot1)
-	slot0.shopList[NewShopsScene.TYPE_SHOP_STREET] = {}
-
-	function slot2(slot0)
-		table.insert(uv0.shopList[NewShopsScene.TYPE_SHOP_STREET], slot0)
-		uv1()
-	end
+	slot2 = {}
 
 	if not slot0.shopsProxy:getShopStreet() then
-		slot0:sendNotification(GAME.GET_SHOPSTREET, {
-			callback = slot2
-		})
+		table.insert(slot2, function (slot0)
+			uv0:sendNotification(GAME.GET_SHOPSTREET, {
+				callback = slot0
+			})
+		end)
 	else
-		slot2(slot3)
+		table.insert(slot2, function (slot0)
+			slot0(uv0)
+		end)
 	end
+
+	table.insert(slot2, function (slot0, slot1)
+		uv0.shopList[NewShopsScene.TYPE_SHOP_STREET] = {}
+
+		table.insert(uv0.shopList[NewShopsScene.TYPE_SHOP_STREET], slot1)
+		slot0()
+	end)
+	seriesAsync(slot2, slot1)
 end
 
 function slot0.GetGuildShop(slot0, slot1)
-	function slot2(slot0)
-		if slot0 then
-			table.insert(uv0.shopList[NewShopsScene.TYPE_GUILD], slot0)
-		end
+	if LOCK_GUILD_SHOP then
+		slot1()
 
-		uv1()
+		return
 	end
 
-	if not LOCK_GUILD_SHOP then
-		slot0.shopList[NewShopsScene.TYPE_GUILD] = {}
+	slot2 = {}
 
-		if not slot0.shopsProxy:getGuildShop() then
-			slot0:sendNotification(GAME.GET_GUILD_SHOP, {
+	if not slot0.shopsProxy:getGuildShop() then
+		table.insert(slot2, function (slot0)
+			uv0:sendNotification(GAME.GET_GUILD_SHOP, {
 				type = GuildConst.GET_SHOP,
-				callback = slot2
+				callback = slot0
 			})
-		else
-			slot2(slot3)
-		end
+		end)
+	else
+		table.insert(slot2, function (slot0)
+			slot0(uv0)
+		end)
 	end
+
+	table.insert(slot2, function (slot0, slot1)
+		uv0.shopList[NewShopsScene.TYPE_GUILD] = {}
+
+		table.insert(uv0.shopList[NewShopsScene.TYPE_GUILD], slot1)
+		slot0()
+	end)
+	seriesAsync(slot2, slot1)
 end
 
 function slot0.GetShamShop(slot0, slot1)
-	slot2 = slot0.shopsProxy:getShamShop()
+	slot2 = {}
+	slot3 = slot0.shopsProxy:getShamShop()
 
-	if not LOCK_SHAM_CHAPTER and slot2 and slot2:isOpen() then
-		slot0.shopList[NewShopsScene.TYPE_SHAM_SHOP] = {}
+	if not LOCK_SHAM_CHAPTER and slot3 and slot3:isOpen() then
+		table.insert(slot2, function (slot0)
+			uv0.shopList[NewShopsScene.TYPE_SHAM_SHOP] = {}
 
-		table.insert(slot0.shopList[NewShopsScene.TYPE_SHAM_SHOP], slot2)
+			table.insert(uv0.shopList[NewShopsScene.TYPE_SHAM_SHOP], uv1)
+			slot0()
+		end)
 	end
 
-	slot1()
+	seriesAsync(slot2, slot1)
 end
 
 function slot0.GetFragmentShop(slot0, slot1)
-	slot2 = slot0.shopsProxy:getFragmentShop()
+	slot2 = {}
+	slot3 = slot0.shopsProxy:getFragmentShop()
 
-	if not LOCK_FRAGMENT_SHOP and slot2 and slot2:isOpen() then
-		slot0.shopList[NewShopsScene.TYPE_FRAGMENT] = {}
+	if not LOCK_FRAGMENT_SHOP and slot3 and slot3:isOpen() then
+		table.insert(slot2, function (slot0)
+			uv0.shopList[NewShopsScene.TYPE_FRAGMENT] = {}
 
-		table.insert(slot0.shopList[NewShopsScene.TYPE_FRAGMENT], slot2)
+			table.insert(uv0.shopList[NewShopsScene.TYPE_FRAGMENT], uv1)
+			slot0()
+		end)
 	end
 
-	slot1()
+	seriesAsync(slot2, slot1)
 end
 
 function slot0.GetActivityShops(slot0, slot1)
-	function slot2(slot0)
-		if slot0 and table.getCount(slot0) > 0 then
+	slot2 = {}
+
+	if not slot0.shopsProxy:getActivityShops() or #slot3 == 0 then
+		table.insert(slot2, function (slot0)
+			uv0:sendNotification(GAME.GET_ACTIVITY_SHOP, {
+				callback = slot0
+			})
+		end)
+	else
+		table.insert(slot2, function (slot0)
+			slot0(uv0)
+		end)
+	end
+
+	table.insert(slot2, function (slot0, slot1)
+		if slot1 and table.getCount(slot1) > 0 then
 			uv0.shopList[NewShopsScene.TYPE_ACTIVITY] = {}
 
-			for slot4, slot5 in pairs(slot0) do
-				table.insert(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], slot5)
+			for slot5, slot6 in pairs(slot1) do
+				table.insert(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], slot6)
 			end
 
-			slot1 = getProxy(ActivityProxy):getRawData()
+			slot2 = getProxy(ActivityProxy)
+			slot2 = slot2:getRawData()
 
 			table.sort(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], function (slot0, slot1)
-				return uv0[slot1.activityId]:getStartTime() < uv0[slot0.activityId]:getStartTime()
+				return CompareFuncs(slot0, slot1, {
+					function (slot0)
+						return uv0[slot0.activityId]:getStartTime()
+					end
+				})
 			end)
 		end
 
-		uv1()
-	end
-
-	if not slot0.shopsProxy:getActivityShops() or #slot3 == 0 then
-		slot0:sendNotification(GAME.GET_ACTIVITY_SHOP, {
-			callback = slot2
-		})
-	else
-		slot2(slot3)
-	end
+		slot0()
+	end)
+	seriesAsync(slot2, slot1)
 end
 
 function slot0.GetMetaShops(slot0, slot1)
-	function slot2(slot0)
-		if slot0 then
-			uv0.shopList[NewShopsScene.TYPE_META] = {}
-
-			table.insert(uv0.shopList[NewShopsScene.TYPE_META], slot0)
-		end
-	end
+	slot2 = {}
 
 	if not slot0.shopsProxy:GetMetaShop() then
-		slot4 = getProxy(ActivityProxy)
+		table.insert(slot2, function (slot0)
+			for slot5, slot6 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP)) do
+				if slot6 and not slot6:isEnd() and slot6:getConfig("config_id") == 1 then
+					uv0.shopsProxy:AddMetaShop(MetaShop.New(slot6))
 
-		_.each(slot4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-			if slot0 and not slot0:isEnd() and slot0:getConfig("config_id") == 1 then
-				slot1 = MetaShop.New(slot0)
-
-				uv0.shopsProxy:AddMetaShop(slot1)
-				uv1(slot1)
+					break
+				end
 			end
+
+			slot0(uv0.shopsProxy:GetMetaShop())
 		end)
 	else
-		slot2(slot3)
+		table.insert(slot2, function (slot0)
+			slot0(uv0)
+		end)
 	end
 
-	slot1()
+	table.insert(slot2, function (slot0, slot1)
+		if slot1 then
+			uv0.shopList[NewShopsScene.TYPE_META] = {}
+
+			table.insert(uv0.shopList[NewShopsScene.TYPE_META], slot1)
+		end
+
+		slot0()
+	end)
+	seriesAsync(slot2, slot1)
+end
+
+function slot0.GetMedalShops(slot0, slot1)
+	slot2 = {}
+
+	if not slot0.shopsProxy:GetMedalShop() then
+		table.insert(slot2, function (slot0)
+			uv0:sendNotification(GAME.GET_MEDALSHOP, {
+				callback = slot0
+			})
+		end)
+	else
+		table.insert(slot2, function (slot0)
+			slot0(uv0)
+		end)
+	end
+
+	table.insert(slot2, function (slot0, slot1)
+		if slot1 then
+			uv0.shopList[NewShopsScene.TYPE_MEDAL] = {}
+
+			table.insert(uv0.shopList[NewShopsScene.TYPE_MEDAL], slot1)
+		end
+
+		slot0()
+	end)
+	seriesAsync(slot2, slot1)
 end
 
 return slot0

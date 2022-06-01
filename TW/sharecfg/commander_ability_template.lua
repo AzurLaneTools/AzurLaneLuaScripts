@@ -1325,7 +1325,7 @@ pg.commander_ability_template = {
 		id = 621,
 		group_id = 62,
 		icon = "xunyang_one_1",
-		desc = "<color=#5caafc>輕巡、重巡</color>裝填提高4點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>裝填提高4點",
 		add = {
 			{
 				1,
@@ -1346,6 +1346,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>裝填",
+				4
+			},
+			{
+				"<超巡>裝填",
 				4
 			}
 		}
@@ -1358,7 +1362,7 @@ pg.commander_ability_template = {
 		id = 622,
 		group_id = 62,
 		icon = "xunyang_one_2",
-		desc = "<color=#5caafc>輕巡、重巡</color>裝填提高5點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>裝填提高5點",
 		add = {
 			{
 				1,
@@ -1379,6 +1383,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>裝填",
+				5
+			},
+			{
+				"<超巡>裝填",
 				5
 			}
 		}
@@ -1391,7 +1399,7 @@ pg.commander_ability_template = {
 		id = 623,
 		group_id = 62,
 		icon = "xunyang_one_3",
-		desc = "<color=#5caafc>輕巡、重巡</color>裝填提高8點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>裝填提高8點",
 		add = {
 			{
 				1,
@@ -1412,6 +1420,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>裝填",
+				8
+			},
+			{
+				"<超巡>裝填",
 				8
 			}
 		}

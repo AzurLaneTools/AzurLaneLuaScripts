@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"心血来潮的夜宴\n\n<size=45>二 Prost！</size>",
+					"心血來潮的夜宴\n\n<size=45>二 Prost！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在这场铁血之宴的某个角落，同样是惯例般的光景，也在静静地展开——",
+			say = "在這場鐵血之宴的某個角落，同樣是慣例般的光景，也在靜靜地展開——",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼…这些可都是为了这样的日子特意准备的好东西呢，大家请尽兴～",
+			say = "呼呼…這些可都是為了這樣的日子特意準備的好東西呢，大家請盡興～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，欧根，虽说宴会可以适当纵情…妳这是不是太放开了一点……",
+			say = "唔，歐根，雖說宴會可以適當縱情…妳這是不是太放開了一點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，早就听重樱的同伴说过，欧根小姐喝起酒来非常“豪迈”……",
+			say = "呵呵，早就聽重櫻的同伴說過，歐根小姐喝起酒來非常“豪邁”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天算是百闻不如一见了呢～",
+			say = "今天算是百聞不如一見了呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 905011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，比起那种束手束脚的正式宴会，还是这种纵情饮酒的氛围更让人感到舒服",
+			say = "哼，比起那種束手束腳的正式宴會，還是這種縱情飲酒的氛圍更讓人感到舒服",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 905011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“铁血之宴”吗……就这方面来说，倒是挺对我胃口的",
+			say = "“鐵血之宴”嗎……就這方面來說，倒是挺對我胃口的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，那还真是万分荣幸呢，如果不嫌弃的话，再多来几杯如何？",
+			say = "哎呀，那還真是萬分榮幸呢，如果不嫌棄的話，再多來幾杯如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然异邦的美酒也不错，不过，还是铁血的酒最让人停不下来呢～",
+			say = "雖然異邦的美酒也不錯，不過，還是鐵血的酒最讓人停不下來呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "妳也一起来吧，重樱的小姑娘～光是说话多没意思～",
+			say = "妳也一起來吧，重櫻的小姑娘～光是說話多沒意思～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 301642,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀～谢谢～",
+			say = "哎呀～謝謝～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 405022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "曾经的我，一定无法想象有一天能有这样的光景吧……",
+			say = "呼…曾經的我，一定無法想像有一天能有這樣的光景吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 405022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能和同伴们纵情痛饮的温暖时光……",
+			say = "能和同伴們縱情痛飲的溫暖時光……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "提尔比茨～在闷头想什么呢～再来喝一杯～",
+			say = "鐵必制～在悶頭想什麼呢～再來喝一杯～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……嗯，来了",
+			say = "……嗯，來了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

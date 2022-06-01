@@ -17198,64 +17198,89 @@ cs.gametip = {
 		82,
 		true
 	},
-	littleChaijun_npc = {
+	dockyard_data_loss_detected = {
 		578665,
+		140,
+		true
+	},
+	littleChaijun_npc = {
+		578805,
 		1016,
 		true
 	},
 	five_qingdian = {
-		579681,
+		579821,
 		688,
 		true
 	},
 	friend_resume_title_detail = {
-		580369,
+		580509,
 		102,
 		true
 	},
 	item_type13_tip1 = {
-		580471,
+		580611,
 		92,
 		true
 	},
 	item_type13_tip2 = {
-		580563,
+		580703,
 		92,
 		true
 	},
 	item_type16_tip1 = {
-		580655,
+		580795,
 		92,
 		true
 	},
 	item_type16_tip2 = {
-		580747,
+		580887,
 		92,
 		true
 	},
 	item_type17_tip1 = {
-		580839,
+		580979,
 		92,
 		true
 	},
 	item_type17_tip2 = {
-		580931,
+		581071,
 		92,
 		true
 	},
 	five_duomaomao = {
-		581023,
+		581163,
 		819,
 		true
 	},
 	main_4 = {
-		581842,
+		581982,
 		82,
 		true
 	},
 	main_5 = {
-		581924,
+		582064,
 		82,
+		true
+	},
+	honor_medal_support_tips_display = {
+		582146,
+		416,
+		true
+	},
+	honor_medal_support_tips_confirm = {
+		582562,
+		213,
+		true
+	},
+	support_rate_title = {
+		582775,
+		94,
+		true
+	},
+	support_times_limited = {
+		582869,
+		121,
 		true
 	}
 }

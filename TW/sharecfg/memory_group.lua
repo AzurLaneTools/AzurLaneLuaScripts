@@ -1029,6 +1029,19 @@ pg.memory_group = {
 			929
 		}
 	},
+	[168] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 168,
+		title = "心血來潮的夜宴",
+		memories = {
+			930,
+			931,
+			932,
+			933
+		}
+	},
 	[169] = {
 		icon = "title_event",
 		subtype = 2,
@@ -2908,6 +2921,7 @@ pg.memory_group = {
 		165,
 		166,
 		167,
+		168,
 		169,
 		170,
 		171,

@@ -23,7 +23,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -64,7 +64,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -182,7 +182,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -246,7 +246,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -301,7 +301,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -387,7 +387,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -442,7 +442,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -540,7 +540,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -604,7 +604,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -876,7 +876,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -1108,7 +1108,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -1163,7 +1163,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -1218,7 +1218,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -1482,7 +1482,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -1537,7 +1537,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -1699,7 +1699,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -1754,7 +1754,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -1940,7 +1940,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -1995,7 +1995,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -2169,7 +2169,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -2259,7 +2259,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -2314,7 +2314,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -2378,7 +2378,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -2516,7 +2516,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -2814,7 +2814,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -2903,7 +2903,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -2958,7 +2958,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -3013,7 +3013,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -3075,7 +3075,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -3130,7 +3130,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -3456,7 +3456,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -3520,7 +3520,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -3575,7 +3575,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -3630,7 +3630,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -3685,7 +3685,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -3740,7 +3740,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4140,7 +4140,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4204,7 +4204,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4299,7 +4299,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4354,7 +4354,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4418,7 +4418,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4482,7 +4482,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4537,7 +4537,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4592,7 +4592,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4678,7 +4678,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -4736,6 +4736,17 @@ pg.ship_data_group = {
 				"限時活動：特別演習·艾塞克斯級",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -4975,6 +4986,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5191,7 +5213,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -5290,7 +5312,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -5425,7 +5447,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -5480,7 +5502,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -5544,7 +5566,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -5608,7 +5630,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -5672,7 +5694,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -5776,7 +5798,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -5840,7 +5862,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -5926,7 +5948,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -6128,7 +6150,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -6456,7 +6478,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -6520,7 +6542,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -6584,7 +6606,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -6639,7 +6661,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -6694,7 +6716,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -7080,6 +7102,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -7414,7 +7447,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -7469,7 +7502,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -7559,7 +7592,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -7623,7 +7656,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -7678,7 +7711,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -7776,7 +7809,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -7840,7 +7873,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -7926,7 +7959,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -7981,7 +8014,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8067,7 +8100,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8112,7 +8145,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8176,7 +8209,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8252,7 +8285,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8307,7 +8340,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8510,7 +8543,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8565,7 +8598,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8752,7 +8785,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8807,7 +8840,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -8991,7 +9024,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -9046,7 +9079,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -10481,6 +10514,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11747,7 +11791,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -13113,6 +13157,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13210,6 +13265,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13276,6 +13342,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13340,6 +13417,17 @@ pg.ship_data_group = {
 				"限時建造",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -13470,7 +13558,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -13953,7 +14041,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -14017,7 +14105,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -14081,7 +14169,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -14336,7 +14424,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"榮譽勳章兌換（機率刷新）",
+				"勳章支援（機率產出）",
 				{
 					"GETBOAT",
 					{
@@ -14878,6 +14966,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14969,6 +15068,17 @@ pg.ship_data_group = {
 				"限時建造",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

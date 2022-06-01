@@ -30,6 +30,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tip = slot0._tf:Find("tip")
 
 	setActive(slot0.tip, false)
+
+	slot0.lockTr = slot0._tf:Find("lock")
 end
 
 function slot0.clearSelected(slot0)
@@ -73,6 +75,10 @@ function slot0.updateCommander(slot0)
 	slot0.levelTF.text = slot1.level
 
 	GetImageSpriteFromAtlasAsync("commandericon/" .. slot1:getPainting(), "", slot0.iconTF)
+
+	if not IsNil(slot0.lockTr) then
+		setActive(slot0.lockTr, slot1:isLocked())
+	end
 end
 
 function slot0.UpdateCommanderName(slot0, slot1, slot2)

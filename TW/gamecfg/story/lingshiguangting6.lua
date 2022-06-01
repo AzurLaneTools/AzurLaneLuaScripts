@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actorScale = 1.5,
-			say = "45 78 65 63 75 74 65 74 72 61 6E 73 70 6F 72 74 70 72 6F 63 6F 6C 2E",
+			say = "45 78 65 63 75 74 65 74 72 61 6E 73 70 6F 72 74 70 72 6F 74 6F 63 6F 6C 2E",
 			typewriter = {
 				speed = 0.01,
 				speedUp = 0.01

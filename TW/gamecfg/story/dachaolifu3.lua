@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"心血来潮的夜宴\n\n<size=45>三 各自的欢愉</size>",
+					"心血來潮的夜宴\n\n<size=45>三 各自的歡愉</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "其他人也在以各自的方式，享受着这场“心血来潮的宴会”——",
+			say = "其他人也在以各自的方式，享受著這場“心血來潮的宴會”——",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦哦！这边有肉！那边也有肉！这是肉肉之宴啊！！",
+			say = "哦哦哦！這邊有肉！那邊也有肉！這是肉肉之宴啊！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 307051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊…一看到肉，椿就跟脱缰的野马一样跑没影子了，唉",
+			say = "啊…一看到肉，夕立就跟脫韁的野馬一樣跑不見了，唉",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了…难得的宴会，就让她放开了吃吧。我去找荙她们一起喝酒好了……",
+			say = "算了…難得的宴會，就讓她放開了吃吧。我去找大潮她們一起喝酒好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 408041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，我找到U-47啦！",
+			say = "嘿嘿嘿，我找到U47啦！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -149,7 +149,7 @@ return {
 			actor = 401234,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，U-47，这可是我们铁血主办的宴会哦，作为铁血的一员怎么能这样躲在没人的角落呢！",
+			say = "真是的，U47小姐，這可是我們鐵血主辦的宴會哦，作為鐵血的一員怎麼能這樣躲在沒人的角落呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408022,
-			say = "……我不擅长应付人多的场合，那里就交给妳们了",
+			say = "……我不擅長應付人多的場合，那裡就交給妳們了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 408041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶～那样多没意思呀～一起来嘛，我们去找点好吃的～",
+			say = "欸～那樣多沒意思呀～一起來嘛，我們去找點好吃的～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408022,
-			say = "好吧…既然妳们都这么说了……",
+			say = "好吧…既然妳們都這麼說了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 408041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，这才对嘛～",
+			say = "嘿嘿，這才對嘛～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 499011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢笑的夥伴，欢快的宴席…呼…真是美好…不过，也真是无趣呢……",
+			say = "歡笑的伙伴，歡快的宴席…呼…真是美好…不過，也真是無趣呢……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -286,7 +286,7 @@ return {
 			actor = 499011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再没有点有趣的“刺激”的话，我就……",
+			say = "再沒有點有趣的“刺激”的話，我就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 199011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟，怎么了吗罗恩？露出一脸微妙的表情～",
+			say = "喲，怎麼了嗎羅恩？露出一臉微妙的表情～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 199011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这可是妳们铁血的宴会呢！要再…怎么说呢，再high一点？",
+			say = "這可是妳們鐵血的宴會呢！要再…怎麼說呢，再high一點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 499011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯…？是西雅图啊，还有峦？妳们也来了呀……",
+			say = "嗯…？是西雅圖啊，還有伊吹？妳們也來了呀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 399012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "晚、晚上好…铁血的宴会…感觉尽是峦没有经历过的事物呢",
+			say = "晚、晚上好…鐵血的宴會…感覺盡是伊吹沒有經歷過的事物呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，所谓的宴会呀，第一重要的是开心，第二重要的是开心，第三重要的还是开心哦！",
+			say = "哈哈，所謂的宴會呀，第一重要的是開心，第二重要的是開心，第三重要的還是開心哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要思考那么多，全力享受就对了～",
+			say = "不要思考那麼多，全力享受就對了～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "全力享受…吗。呵呵…说得也是，峦、西雅图，机会难得，我们一起四处逛逛吧？",
+			say = "全力享受…嗎。呵呵…說得也是，伊吹、西雅圖，機會難得，我們一起四處逛逛吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -415,6 +415,7 @@ function slot0.openSelectPanel(slot0)
 		if not uv0.selectIds or #uv0.selectIds <= 0 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("new_skin_no_choose"),
+				weight = LayerWeightConst.TOP_LAYER + 1,
 				onYes = function ()
 					uv0:emit(uv1.ON_CLOSE)
 				end

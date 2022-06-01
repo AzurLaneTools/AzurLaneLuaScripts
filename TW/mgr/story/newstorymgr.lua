@@ -586,7 +586,7 @@ end
 function slot0.GetRecords(slot0)
 	slot1 = {}
 
-	for slot5 = 1, #slot0.records - 1 do
+	for slot5 = 1, #slot0.records do
 		for slot10, slot11 in pairs(slot0.records[slot5]:GetContents()) do
 			if slot11 and slot11 ~= "" then
 				table.insert(slot1, slot11)

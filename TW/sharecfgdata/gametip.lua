@@ -18792,6 +18792,10 @@ _G.pg.base.gametip.pt_count_tip = {
 	tip = "累計"
 }
 
+_G.pg.base.gametip.dockyard_data_loss_detected = {
+	tip = "檢測到船塢數據遺失是否重新讀取？"
+}
+
 _G.pg.base.gametip.littleChaijun_npc = {
 	tip = {
 		{
@@ -18883,4 +18887,30 @@ _G.pg.base.gametip.main_4 = {
 
 _G.pg.base.gametip.main_5 = {
 	tip = "主介\n面 5"
+}
+
+_G.pg.base.gametip.honor_medal_support_tips_display = {
+	tip = {
+		support_tip_ship = "有機率從勳章支援中獲得SSR艦船",
+		bg = "loadingbg/bg_support",
+		support_tip_consume = "可以消耗勳章獲得艦船支援",
+		rate_tip = {
+			"<color=#ffde38>超稀有艦船</color>：4%",
+			"<color=#d797ff>精銳艦船</color>：10%",
+			"<color=#3dc6ff>稀有艦船</color>：32%",
+			"普通艦船：54%"
+		}
+	}
+}
+
+_G.pg.base.gametip.honor_medal_support_tips_confirm = {
+	tip = "進行<color=#ff5c5c>「$1次」</color>艦船支援申請，需要消耗:\n<color=$3>「$2個榮譽勳章」</color>"
+}
+
+_G.pg.base.gametip.support_rate_title = {
+	tip = "支援機率"
+}
+
+_G.pg.base.gametip.support_times_limited = {
+	tip = "本月可用勳章支援次數不足"
 }
