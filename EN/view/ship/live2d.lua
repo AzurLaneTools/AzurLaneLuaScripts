@@ -170,7 +170,7 @@ function slot5(slot0)
 					slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
 				else
 					slot0.parameterTargetValue = (slot2 + 0.5) * (slot0.range[2] - slot0.range[1]) + slot0.range[1]
-					slot0.parameterValue = slot0.parameterSmooth
+					slot0.parameterValue = slot0.parameterTargetValue
 				end
 			else
 				if slot0.active then

@@ -3124,7 +3124,7 @@ function DropResultIntegration(slot0)
 end
 
 function getLoginConfig()
-	slot0 = os.time()
+	slot0 = pg.TimeMgr.GetInstance():Table2ServerTime(os.date("*t"))
 	slot1 = 1
 
 	for slot5, slot6 in ipairs(pg.login.all) do
