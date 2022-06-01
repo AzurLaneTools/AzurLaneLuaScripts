@@ -36,6 +36,8 @@ function slot0.Execute(slot0, slot1)
 				uv1()
 			end
 		})
+	else
+		slot1()
 	end
 end
 

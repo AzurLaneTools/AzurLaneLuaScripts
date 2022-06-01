@@ -582,15 +582,25 @@ function slot0.setLive2dAnimsPanelState(slot0, slot1)
 	slot0:updateLive2dAnimationPanel()
 end
 
+slot2 = 3
+
 function slot0.onInitItem(slot0, slot1)
 	slot2 = SnapshotItem.New(slot1, false)
 
 	onButton(slot0, slot2.go, function ()
-		uv0.selectedID = uv1:GetID()
+		if uv0.l2dClickCD and Time.fixedTime - uv0.l2dClickCD < uv1 then
+			return
+		end
+
+		if uv2:GetID() == 6 or uv2:GetID() == 7 then
+			uv0.l2dClickCD = Time.fixedTime
+		end
+
+		uv0.selectedID = uv2:GetID()
 
 		uv0:updateSelectedItem()
 		uv0.live2dCom:SetAction(uv0.selectedID)
-	end)
+	end, SFX_CONFIRM)
 
 	slot0.scrollItems[slot1] = slot2
 end

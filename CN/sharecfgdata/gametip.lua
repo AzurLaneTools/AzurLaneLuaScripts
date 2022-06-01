@@ -20205,3 +20205,30 @@ _G.pg.base.gametip.main_4 = {
 _G.pg.base.gametip.main_5 = {
 	tip = "主界\n面 5"
 }
+
+_G.pg.base.gametip.honor_medal_support_tips_display = {
+	tip = {
+		support_tip_ship = "有概率从勋章支援中获得SSR舰船",
+		bg = "loadingbg/bg_support",
+		support_tip_consume = "可以消耗勋章获得舰船支援",
+		rate_tip = {
+			"<color=#ffde38>超稀有舰船</color>：4%",
+			"<color=#d797ff>精锐舰船</color>：10%",
+			"<color=#3dc6ff>稀有舰船</color>：32%",
+			"普通舰船：54%",
+			"每月支援次数上限:999次"
+		}
+	}
+}
+
+_G.pg.base.gametip.honor_medal_support_tips_confirm = {
+	tip = "进行<color=#ff5c5c>「$1次」</color>舰船支援申请，需要消耗:\n<color=$3>「$2个荣誉勋章」</color>"
+}
+
+_G.pg.base.gametip.support_rate_title = {
+	tip = "支援概率"
+}
+
+_G.pg.base.gametip.support_times_limited = {
+	tip = "本月可用勋章支援次数不足"
+}

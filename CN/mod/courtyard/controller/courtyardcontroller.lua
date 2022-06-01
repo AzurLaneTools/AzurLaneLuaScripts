@@ -51,16 +51,22 @@ function slot0.SetUp(slot0)
 	end
 
 	seriesAsync(slot4, function ()
-		uv0.storey:DispatchEvent(CourtYardEvent.INITED)
+		if uv0.storey then
+			uv0.storey:DispatchEvent(CourtYardEvent.INITED)
+		end
 
 		uv0.isInit = true
 
-		_courtyard:SendNotification(CourtYardEvent._INITED)
+		if _courtyard then
+			_courtyard:SendNotification(CourtYardEvent._INITED)
+		end
 	end)
 end
 
 function slot0.Update(slot0)
-	slot0.storey:Update()
+	if slot0.storey then
+		slot0.storey:Update()
+	end
 end
 
 function slot0.GetStorey(slot0)
@@ -288,26 +294,46 @@ function slot0.IsEditModeOrIsVisit(slot0)
 end
 
 function slot0.Receive(slot0, slot1, ...)
+	if not slot0.storey then
+		return
+	end
+
 	slot0:__slot1_None__(...)
 end
 
 function slot0.OnTakeThemePhoto(slot0)
-	slot0.storey:DispatchEvent(CourtYardEvent.TAKE_PHOTO)
+	if slot0.storey then
+		slot0.storey:DispatchEvent(CourtYardEvent.TAKE_PHOTO)
+	end
 end
 
 function slot0.OnEndTakeThemePhoto(slot0)
-	slot0.storey:DispatchEvent(CourtYardEvent.END_TAKE_PHOTO)
+	if slot0.storey then
+		slot0.storey:DispatchEvent(CourtYardEvent.END_TAKE_PHOTO)
+	end
 end
 
 function slot0.OnApplicationPaused(slot0)
-	slot0.storey:StopAllDragState()
-	_courtyard:SendNotification(CourtYardEvent._DRAG_ITEM_END)
+	if slot0.storey then
+		slot0.storey:StopAllDragState()
+		_courtyard:SendNotification(CourtYardEvent._DRAG_ITEM_END)
+	end
+end
+
+function slot0.OnOpenLayerOrCloseLayer(slot0, slot1, slot2)
+	if not slot2 or not slot0.storey then
+		return
+	end
+
+	slot0.storey:DispatchEvent(CourtYardEvent.OPEN_LAYER, slot1)
 end
 
 function slot0.Dispose(slot0)
-	slot0.storey:Dispose()
+	if slot0.storey then
+		slot0.storey:Dispose()
 
-	slot0.storey = nil
+		slot0.storey = nil
+	end
 end
 
 function slot0.IsFloorPaper(slot0)

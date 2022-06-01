@@ -79,7 +79,7 @@ function slot0.BindConditions(slot0)
 			return false
 		end
 
-		slot0 = getProxy(CommanderProxy):haveFinishedBox()
+		slot0 = getProxy(CommanderProxy):IsFinishAllBox()
 
 		if not LOCK_CATTERY then
 			return slot0 or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()

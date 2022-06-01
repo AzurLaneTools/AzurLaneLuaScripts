@@ -7986,7 +7986,7 @@ pg.activity_ins_template = {
 	{
 		ship_group = 40303,
 		name = "P.Eugen",
-		sculpture = "ougen",
+		sculpture = "ougen_6",
 		message_persist = "",
 		picture_persist = "",
 		group_id = 306,
@@ -7998,11 +7998,95 @@ pg.activity_ins_template = {
 	{
 		ship_group = 49905,
 		name = "Aegir",
-		sculpture = "aijier",
+		sculpture = "aijier_2",
 		message_persist = "",
 		picture_persist = "",
 		group_id = 307,
 		id = 307,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20509,
+		name = "Howe_Cookies",
+		sculpture = "hao_5",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 308,
+		id = 308,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70102,
+		name = "Grozny",
+		sculpture = "weiyan_5",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 309,
+		id = 309,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30608,
+		name = "Chitose",
+		sculpture = "qiansui_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 310,
+		id = 310,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 40502,
+		name = "Tirpitz",
+		sculpture = "tierbici_5",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 311,
+		id = 311,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 49901,
+		name = "RoonDESU",
+		sculpture = "luoen_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 312,
+		id = 312,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10229,
+		name = "USSBOISE",
+		sculpture = "boyixi_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 313,
+		id = 313,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 90101,
+		name = "LeMars ",
+		sculpture = "lemaer_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 314,
+		id = 314,
 		is_active = 1,
 		time_persist = {},
 		npc_discuss_persist = {}
@@ -8314,6 +8398,13 @@ pg.activity_ins_template = {
 		304,
 		305,
 		306,
-		307
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314
 	}
 }

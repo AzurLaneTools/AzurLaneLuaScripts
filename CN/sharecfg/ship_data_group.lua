@@ -23,7 +23,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -74,7 +74,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -202,7 +202,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -266,7 +266,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -321,7 +321,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -396,7 +396,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -451,7 +451,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -549,7 +549,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -602,7 +602,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -872,7 +872,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -1125,7 +1125,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -1180,7 +1180,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -1235,7 +1235,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -1553,7 +1553,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -1608,7 +1608,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -1863,7 +1863,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -1918,7 +1918,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -2114,7 +2114,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -2169,7 +2169,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -2353,7 +2353,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -2442,7 +2442,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -2497,7 +2497,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -2561,7 +2561,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -2577,6 +2577,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -2709,7 +2719,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3028,7 +3038,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3117,7 +3127,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3172,7 +3182,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3227,7 +3237,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3323,7 +3333,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3744,7 +3754,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3808,7 +3818,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3863,7 +3873,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3928,7 +3938,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -3993,7 +4003,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4048,7 +4058,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4457,7 +4467,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4521,7 +4531,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4616,7 +4626,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4671,7 +4681,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4735,7 +4745,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4799,7 +4809,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4854,7 +4864,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4909,7 +4919,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4925,6 +4935,16 @@ pg.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -4995,7 +5015,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5606,7 +5626,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5671,7 +5691,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5714,7 +5734,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5867,7 +5887,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5922,7 +5942,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5986,7 +6006,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6050,7 +6070,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6114,7 +6134,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6219,7 +6239,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6283,7 +6303,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6368,7 +6388,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6559,7 +6579,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6956,7 +6976,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7020,7 +7040,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7084,7 +7104,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7139,7 +7159,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7183,7 +7203,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7512,7 +7532,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8003,7 +8023,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8068,7 +8088,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8158,7 +8178,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8222,7 +8242,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8277,7 +8297,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8375,7 +8395,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8493,7 +8513,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8548,7 +8568,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8634,7 +8654,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8650,6 +8670,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -8679,7 +8709,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8743,7 +8773,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8759,6 +8789,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -8850,7 +8890,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8980,11 +9020,21 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -9126,7 +9176,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9188,7 +9238,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9659,7 +9709,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9714,7 +9764,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11613,7 +11663,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -12905,7 +12955,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -12921,6 +12971,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -12950,11 +13010,21 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -13333,7 +13403,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -13346,6 +13416,16 @@ pg.ship_data_group = {
 				"限时活动：归来与新生",
 				{
 					""
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
 				},
 				0
 			}
@@ -13476,7 +13556,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14799,7 +14879,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15104,7 +15184,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15217,7 +15297,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15317,11 +15397,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -15413,7 +15503,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15477,7 +15567,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15541,7 +15631,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15802,7 +15892,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15836,7 +15926,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15852,6 +15942,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -16236,7 +16336,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -16249,6 +16349,16 @@ pg.ship_data_group = {
 				"限时活动：异色格",
 				{
 					""
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
 				},
 				0
 			}
@@ -18817,7 +18927,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"荣誉勋章兑换（概率刷新）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{

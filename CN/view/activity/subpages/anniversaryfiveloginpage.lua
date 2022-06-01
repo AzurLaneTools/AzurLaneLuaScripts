@@ -17,7 +17,7 @@ function slot0.OnFirstFlush(slot0)
 			setActive(uv0:findTF("got", slot2), slot1 < uv0.nday)
 		end
 	end)
-	setActive(slot0.bg:Find("btn_more"), PLATFORM_CODE == PLATFORM_CH and LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI)
+	setActive(slot0.bg:Find("btn_more"), PLATFORM_CODE == PLATFORM_CH and LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI and pg.TimeMgr.GetInstance():inTime(slot0.activity:getConfig("config_client")[2]))
 	onButton(slot0, slot0.bg:Find("btn_more"), function ()
 		Application.OpenURL(uv0.activity:getConfig("config_client")[1])
 	end, SFX_CONFIRM)

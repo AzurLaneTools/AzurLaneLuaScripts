@@ -16501,7 +16501,7 @@ pg.equip_skin_template = {
 		orbit_combat = "shebei_keyibodai",
 		ship_config_id = 100011,
 		derivate_boom = "",
-		orbit_ui = "",
+		orbit_ui = "shebei_keyibodaiui",
 		icon = "96154",
 		mirror = 0,
 		rarity = 4,
@@ -16527,8 +16527,8 @@ pg.equip_skin_template = {
 		orbit_ui_bound = {
 			"face",
 			{
-				0,
-				-103
+				-30,
+				100
 			}
 		},
 		orbit_hidden_action = {

@@ -13,6 +13,7 @@ slot0.SHAM_SHOP_UPDATED = "ShopsProxy:SHAM_SHOP_UPDATED"
 slot0.FRAGMENT_SHOP_UPDATED = "ShopsProxy:FRAGMENT_SHOP_UPDATED"
 slot0.ACTIVITY_SHOP_GOODS_UPDATED = "ShopsProxy:ACTIVITY_SHOP_GOODS_UPDATED"
 slot0.META_SHOP_GOODS_UPDATED = "ShopsProxy:META_SHOP_GOODS_UPDATED"
+slot0.MEDAL_SHOP_UPDATED = "ShopsProxy:MEDAL_SHOP_UPDATED"
 
 function slot0.register(slot0)
 	slot0.shopStreet = nil
@@ -341,6 +342,20 @@ end
 
 function slot0.GetNewServerShop(slot0)
 	return slot0.newServerShop
+end
+
+function slot0.SetMedalShop(slot0, slot1)
+	slot0.medalShop = slot1
+end
+
+function slot0.UpdateMedalShop(slot0, slot1)
+	slot0.medalShop = slot1
+
+	slot0:sendNotification(uv0.MEDAL_SHOP_UPDATED, slot1)
+end
+
+function slot0.GetMedalShop(slot0)
+	return slot0.medalShop
 end
 
 function slot0.remove(slot0)

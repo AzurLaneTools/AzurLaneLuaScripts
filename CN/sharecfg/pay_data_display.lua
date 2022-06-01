@@ -3142,6 +3142,214 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[38] = {
+		subject = "五周年礼盒",
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		limit_arg = 1,
+		name = "五周年礼盒",
+		name_display = "五周年礼盒",
+		extra_gem = 0,
+		id = 38,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe7_l",
+		id_str = "com.bilibili.blhx.zuanshi137",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond129",
+		extra_service_item = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[39] = {
+		subject = "四周年礼盒复刻",
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		limit_arg = 1,
+		name = "四周年礼盒复刻",
+		name_display = "四周年礼盒复刻",
+		extra_gem = 0,
+		id = 39,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe5_l",
+		id_str = "com.bilibili.blhx.zuanshi138",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond130",
+		extra_service_item = {
+			{
+				2,
+				69914,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69914,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[1000] = {
 		subject = "特许巡游凭证",
 		limit_group = 0,
@@ -4104,6 +4312,8 @@ pg.pay_data_display = {
 		35,
 		36,
 		37,
+		38,
+		39,
 		1000,
 		1001,
 		1002,

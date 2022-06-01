@@ -5,6 +5,7 @@ slot1 = slot0.ShaderMgr
 
 function slot0.ShaderMgr.Init(slot0, slot1)
 	print("initializing shader manager...")
+	Shader.DisableKeyword("LOW_DEVICE_PERFORMANCE")
 	parallelAsync({
 		function (slot0)
 			ResourceMgr.Inst:LoadShaderAndCached("shader", slot0, false, false)
