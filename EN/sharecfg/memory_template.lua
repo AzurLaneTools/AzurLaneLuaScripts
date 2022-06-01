@@ -20570,6 +20570,50 @@ pg.memory_template = {
 		icon = "memory_lingshiguangting",
 		is_open = 0
 	},
+	[2167] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "The Teahouse",
+		condition = "Unlocked \"The Graceful Banquet\" Day 1",
+		story = "HEYAZHIYAN1",
+		id = 2167,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
+	[2168] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "The Garden",
+		condition = "Unlocked \"The Graceful Banquet\" Day 3",
+		story = "HEYAZHIYAN2",
+		id = 2168,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
+	[2169] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "The Music Room",
+		condition = "Unlocked \"The Graceful Banquet\" Day 5",
+		story = "HEYAZHIYAN3",
+		id = 2169,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
+	[2170] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "The Banquet",
+		condition = "Unlocked \"The Graceful Banquet\" Day 7",
+		story = "HEYAZHIYAN4",
+		id = 2170,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
 	[10011] = {
 		type = 1,
 		subtitle = "",
@@ -23068,6 +23112,10 @@ pg.memory_template = {
 		2164,
 		2165,
 		2166,
+		2167,
+		2168,
+		2169,
+		2170,
 		10011,
 		10012,
 		10013,

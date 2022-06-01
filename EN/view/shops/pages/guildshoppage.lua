@@ -27,6 +27,14 @@ function slot0.OnInit(slot0)
 	slot0.purchaseWindow = GuildShopPurchasePanel.New(slot0._tf, slot0._event)
 end
 
+function slot0.UpdateShop(slot0, ...)
+	uv0.super.UpdateShop(slot0, ...)
+
+	if slot0.purchaseWindow:isShowing() then
+		slot0.purchaseWindow:ExecuteAction("Hide")
+	end
+end
+
 function slot0.OnUpdatePlayer(slot0)
 	slot0.exploitTF.text = slot0.player:getResource(PlayerConst.ResGuildCoin)
 end
@@ -63,7 +71,8 @@ function slot0.OnCardClick(slot0, slot1)
 			count = slot1.goods:GetMaxCnt(),
 			type = slot1.goods:getConfig("type"),
 			price = slot1.goods:getConfig("price"),
-			displays = slot1.goods:getConfig("goods")
+			displays = slot1.goods:getConfig("goods"),
+			num = slot1.goods:getConfig("num")
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

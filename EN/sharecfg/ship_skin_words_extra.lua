@@ -8922,7 +8922,7 @@ pg.ship_skin_words_extra = {
 		skill = {
 			{
 				1100,
-				"技能名是…太羞耻了还是不说了！"
+				"This... This move is too cringeworthy to name, so forget it!"
 			}
 		}
 	},

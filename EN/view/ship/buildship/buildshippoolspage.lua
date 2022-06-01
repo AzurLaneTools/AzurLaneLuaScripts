@@ -38,12 +38,6 @@ function slot0.OnLoaded(slot0)
 	slot0.ticketTF = slot0:findTF("Text", slot0.freeCount)
 	slot0.patingTF = slot0:findTF("painting")
 	slot0.poolContainer = slot0:findTF("gallery/toggle_bg/toggles")
-	slot0.activityTpl = slot0:findTF("resources/new")
-	slot0.tpls = {
-		slot0:findTF("resources/1"),
-		slot0:findTF("resources/2"),
-		slot0:findTF("resources/3")
-	}
 	slot0.buildPoolExchangeTF = slot0:findTF("gallery/exchange_bg")
 	slot0.buildPoolExchangeGetBtn = slot0.buildPoolExchangeTF:Find("get")
 	slot0.buildPoolExchangeTxt = slot0.buildPoolExchangeTF:Find("Text"):GetComponent(typeof(Text))
@@ -203,7 +197,7 @@ function slot0.SwitchPool(slot0, slot1)
 			end
 
 			uv1.contextData.msgbox:ExecuteAction("Show", {
-				isTicket = true,
+				buildType = "ticket",
 				itemVO = Item.New({
 					id = slot0:getConfig("config_client")[1],
 					count = slot0.data1
@@ -222,7 +216,7 @@ function slot0.SwitchPool(slot0, slot1)
 	else
 		onButton(slot0, slot0:findTF("gallery/start_btn"), function ()
 			uv0.contextData.msgbox:ExecuteAction("Show", {
-				isTicket = false,
+				buildType = "base",
 				player = uv0.contextData.player,
 				itemVO = uv0.contextData.itemVO,
 				buildPool = uv1,

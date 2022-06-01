@@ -2377,7 +2377,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 30,
+		is_show = 31,
 		config_data = {
 			1650001,
 			1650002,
@@ -2622,7 +2622,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4406,
-		is_show = 29,
+		is_show = 30,
 		config_data = {},
 		time = {
 			"timer",
@@ -3298,7 +3298,33 @@ pg.activity_template = {
 			ui_name = "AnniversaryFiveLoginPage"
 		},
 		config_client = {
-			"https://game.bilibili.com/blhx/2022-5thanniversary/h5/"
+			"https://game.bilibili.com/blhx/2022-5thanniversary/h5/",
+			{
+				{
+					{
+						2022,
+						5,
+						26
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2022,
+						6,
+						8
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
 		}
 	},
 	[4420] = {
@@ -3360,7 +3386,14 @@ pg.activity_template = {
 			304,
 			305,
 			306,
-			307
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314
 		},
 		time = {
 			"timer",
@@ -3429,6 +3462,136 @@ pg.activity_template = {
 					23,
 					59,
 					59
+				}
+			}
+		}
+	},
+	[4424] = {
+		mark = 20220601,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4424,
+		config_data = {
+			17718
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4425] = {
+		mark = 20220601,
+		id = 4425,
+		title_res_tag = "lemars_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 29,
+		config_data = {
+			{
+				17719,
+				17720
+			},
+			{
+				17721,
+				17722
+			},
+			{
+				17723,
+				17724
+			},
+			{
+				17725,
+				17726
+			},
+			{
+				17727,
+				17728
+			},
+			{
+				17729,
+				17730
+			},
+			{
+				17731,
+				17732
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LeMarsSkinPage",
+			ui_name = "LeMarsSkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"HEYAZHIYAN1"
+				},
+				{},
+				{
+					"HEYAZHIYAN2"
+				},
+				{},
+				{
+					"HEYAZHIYAN3"
+				},
+				{},
+				{
+					"HEYAZHIYAN4"
 				}
 			}
 		}
@@ -22145,6 +22308,8 @@ pg.activity_template = {
 		4420,
 		4421,
 		4422,
+		4424,
+		4425,
 		7001,
 		7002,
 		7003,

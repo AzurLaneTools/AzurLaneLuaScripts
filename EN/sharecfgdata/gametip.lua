@@ -19675,12 +19675,12 @@ _G.pg.base.gametip.battlepass_main_help_2206 = {
 		{
 			info = [[
 Cruise Missions Seasonal Campaign
-1/6 0:00 – 31/7 23:59
+6/1 00:00 – 7/31 23:59
 
 - Overview -
 "Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
 Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
-Memphis META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Enterprise, "Bon Voyage."
+Memphis META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Akatsuki, "Cirque De Ninjutsu!"
 
 - How to Play -
 · Two types of missions will be released at the same time at the start of the campaign season:
@@ -20362,4 +20362,41 @@ _G.pg.base.gametip.main_4 = {
 
 _G.pg.base.gametip.main_5 = {
 	tip = "MAIN5"
+}
+
+_G.pg.base.gametip.honor_medal_support_tips_display = {
+	tip = {
+		support_tip_ship = "You can requisition for a chance of receiving an SR shipgirl.",
+		bg = "loadingbg/bg_support",
+		support_tip_consume = "Requisitioning costs Medals of Honor.",
+		rate_tip = {
+			"<color=#ffde38>Super Rare</color>: 4%",
+			"<color=#d797ff>Elite</color>: 10%",
+			"<color=#3dc6ff>Rare</color>: 32%",
+			"Common: 54%",
+			"Requisitioning can be done up to 999 ",
+			"",
+			"times a month."
+		}
+	}
+}
+
+_G.pg.base.gametip.honor_medal_support_tips_confirm = {
+	tip = "Requisitioning <color=#ff5c5c>$1 time(s)</color> will cost the following:\n<color=$3>$2 Medals of Honor</color>"
+}
+
+_G.pg.base.gametip.support_rate_title = {
+	tip = "Rates"
+}
+
+_G.pg.base.gametip.support_times_limited = {
+	tip = "You cannot requisition any more this month."
+}
+
+_G.pg.base.gametip.support_times_tip = {
+	tip = "Requisition(s)"
+}
+
+_G.pg.base.gametip.build_times_tip = {
+	tip = "Batch Build"
 }

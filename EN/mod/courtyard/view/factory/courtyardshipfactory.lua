@@ -7,14 +7,18 @@ function slot0.Make(slot0, slot1)
 	slot6 = slot1:GetPrefab()
 
 	slot4:Load(function ()
-		slot0 = uv0.modelRoot
+		if IsNil(uv0) then
+			return
+		end
+
+		slot0 = uv1.modelRoot
 		slot0.name = "model"
 		slot0.transform.localScale = Vector3.one
 		rtf(slot0).sizeDelta = Vector2.New(200, 500)
 
-		SetParent(slot0, uv1)
+		SetParent(slot0, uv0)
 		slot0.transform:SetSiblingIndex(2)
-		setActive(uv1, true)
+		setActive(uv0, true)
 		uv2:OnIconLoaed()
 		uv2:Init()
 	end, true)

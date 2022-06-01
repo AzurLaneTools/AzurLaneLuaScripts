@@ -204,9 +204,7 @@ function slot0.OnCoinChange(slot0, slot1)
 end
 
 function slot0.ClearMove(slot0)
-	if LeanTween.isTweening(slot0._go) then
-		LeanTween.cancel(slot0._go)
-	end
+	LeanTween.cancel(slot0._go)
 end
 
 function slot0.WillInterAction(slot0, slot1)
@@ -228,6 +226,12 @@ end
 function slot0.ResetTransform(slot0)
 	slot0._tf.localScale = Vector3(uv0, uv0, 1)
 	slot0._tf.localEulerAngles = Vector3.zero
+end
+
+function slot0.HideAttachment(slot0, slot1)
+	if slot0.role then
+		slot0.role:SetVisible(not slot1)
+	end
 end
 
 function slot0.OnDispose(slot0)

@@ -13,9 +13,11 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.SetUp(slot0)
-	slot0.isSetup = true
+	if slot0.controller then
+		slot0.isSetup = true
 
-	slot0.controller:SetUp()
+		slot0.controller:SetUp()
+	end
 end
 
 function slot0.Update(slot0)
@@ -23,12 +25,16 @@ function slot0.Update(slot0)
 		slot0:SetUp()
 	end
 
-	if slot0.isSetup then
+	if slot0.isSetup and slot0.controller then
 		slot0.controller:Update()
 	end
 end
 
 function slot0.IsLoaed(slot0)
+	if not slot0.controller then
+		return false
+	end
+
 	return slot0.controller:IsLoaed()
 end
 

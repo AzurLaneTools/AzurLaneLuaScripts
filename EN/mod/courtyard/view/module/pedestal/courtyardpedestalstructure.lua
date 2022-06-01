@@ -60,7 +60,7 @@ function slot0.Load(slot0, slot1)
 	slot2 = ResourceMgr.Inst
 
 	slot2:getAssetAsync(slot0:GetAssetPath(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0:IsExit() then
+		if uv0:IsExit() or IsNil(slot0) then
 			return
 		end
 

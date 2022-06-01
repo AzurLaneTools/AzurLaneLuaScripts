@@ -72,6 +72,8 @@ function slot0.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.END_TAKE_PHOTO, slot0.OnEndTakePhoto)
 	slot0:AddListener(CourtYardEvent.ENTER_ARCH, slot0.OnEnterArch)
 	slot0:AddListener(CourtYardEvent.EXIT_ARCH, slot0.OnExitArch)
+	slot0:AddListener(CourtYardEvent.REMOVE_ILLEGALITY_ITEM, slot0.OnRemoveIllegalityItem)
+	slot0:AddListener(CourtYardEvent.OPEN_LAYER, slot0.OnOpenLayer)
 end
 
 function slot0.RemoveListeners(slot0)
@@ -109,6 +111,8 @@ function slot0.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.END_TAKE_PHOTO, slot0.OnEndTakePhoto)
 	slot0:RemoveListener(CourtYardEvent.ENTER_ARCH, slot0.OnEnterArch)
 	slot0:RemoveListener(CourtYardEvent.EXIT_ARCH, slot0.OnExitArch)
+	slot0:RemoveListener(CourtYardEvent.REMOVE_ILLEGALITY_ITEM, slot0.OnRemoveIllegalityItem)
+	slot0:RemoveListener(CourtYardEvent.OPEN_LAYER, slot0.OnOpenLayer)
 end
 
 function slot0.OnInited(slot0)
@@ -243,6 +247,18 @@ function slot0.OnUnSelectedItem(slot0, slot1)
 	if isa(slot1, CourtYardFurniture) then
 		setParent(slot0.selectedTF, slot0.rootTF)
 		slot0:UnRegisterOp()
+	end
+end
+
+function slot0.OnRemoveIllegalityItem(slot0)
+	pg.TipsMgr.GetInstance():ShowTips("Remove illegal Item")
+end
+
+function slot0.OnOpenLayer(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.modules) do
+		if isa(slot6, CourtYardShipModule) then
+			slot6:HideAttachment(slot1)
+		end
 	end
 end
 

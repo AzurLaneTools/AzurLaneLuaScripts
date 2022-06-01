@@ -79,9 +79,9 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 	slot4 = slot1.type
 
 	updateDrop(slot3:Find("item/bg"), {
-		count = 1,
 		type = slot4,
-		id = slot2
+		id = slot2,
+		count = slot1.num
 	})
 
 	slot5 = {

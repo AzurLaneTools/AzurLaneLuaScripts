@@ -1,7 +1,7 @@
 slot0 = class("BuildShipScene", import("...base.BaseUI"))
 slot0.PAGE_BUILD = 1
 slot0.PAGE_QUEUE = 2
-slot0.PAGE_EXCHANGE = 3
+slot0.PAGE_SUPPORT = 3
 slot0.PAGE_UNSEAM = 4
 slot0.PAGE_PRAY = 5
 slot0.PAGE_NEWSERVER = 6
@@ -68,7 +68,7 @@ function slot0.init(slot0)
 	slot0.toggles = {
 		slot0:findTF("adapt/left_length/frame/tagRoot/build_btn", slot0.blurPanel),
 		slot0:findTF("adapt/left_length/frame/tagRoot/queue_btn", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/exchange_btn", slot0.blurPanel),
+		slot0:findTF("adapt/left_length/frame/tagRoot/support_btn", slot0.blurPanel),
 		slot0:findTF("adapt/left_length/frame/tagRoot/unseam_btn", slot0.blurPanel),
 		slot0:findTF("adapt/left_length/frame/tagRoot/pray_btn", slot0.blurPanel),
 		slot0:findTF("adapt/left_length/frame/tagRoot/other_build_btn", slot0.blurPanel)
@@ -77,6 +77,7 @@ function slot0.init(slot0)
 	slot0.contextData.msgbox = BuildShipMsgBox.New(slot0._tf, slot0.event)
 	slot0.contextData.helpWindow = BuildShipHelpWindow.New(slot0._tf, slot0.event)
 	slot0.poolsPage = BuildShipPoolsPage.New(slot0._tf, slot0.event, slot0.contextData)
+	slot0.supportShipPoolPage = SupportShipPoolPage.New(slot0._tf, slot0.event, slot0.contextData)
 end
 
 function slot0.didEnter(slot0)
@@ -185,12 +186,9 @@ function slot0.switchPage(slot0, slot1, slot2)
 		else
 			slot0:emit(BuildShipMediator.REMOVE_PROJECT_LIST)
 		end
-	elseif slot1 == uv0.PAGE_EXCHANGE then
-		if slot2 then
-			slot0:emit(BuildShipMediator.OPEN_EXCHANGE)
-		else
-			slot0:emit(BuildShipMediator.CLOSE_EXCHANGE)
-		end
+	elseif slot1 == uv0.PAGE_SUPPORT then
+		slot0.supportShipPoolPage:ExecuteAction("ShowOrHide", slot2)
+		slot0.supportShipPoolPage:ExecuteAction("Flush")
 	elseif slot1 == uv0.PAGE_BUILD then
 		slot0.poolsPage:ExecuteAction("ShowOrHide", slot2)
 		slot0.poolsPage:ExecuteAction("Flush", slot0.pools, false)
@@ -234,6 +232,7 @@ function slot0.willExit(slot0)
 	slot0.contextData.msgbox:Destroy()
 	slot0.contextData.helpWindow:Destroy()
 	slot0.poolsPage:Destroy()
+	slot0.supportShipPoolPage:Destroy()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 

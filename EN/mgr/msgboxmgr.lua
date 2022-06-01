@@ -357,7 +357,8 @@ function slot8(slot0, slot1)
 			end),
 			onYes = function ()
 				uv0(uv1, uv2)
-			end
+			end,
+			weight = slot1.weight or LayerWeightConst.SECOND_LAYER
 		}
 		slot13.onNo = slot13.onYes
 
