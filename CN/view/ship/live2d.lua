@@ -41,7 +41,7 @@ function slot0.GenerateData(slot0)
 end
 
 slot2 = nil
-slot3 = 7
+slot3 = 6
 slot4 = 1
 
 function slot5(slot0)
@@ -74,11 +74,18 @@ function slot5(slot0)
 			slot0.triggerActionTime = 0
 			slot0.sensitive = 4
 		end,
-		startDrag = function (slot0)
+		startDrag = function (slot0, slot1)
 			if not slot0.active then
 				slot0.active = true
-				slot0.triggerActionFlag = false
-				slot0.triggerActionTime = 0
+
+				if not slot1 then
+					slot0.triggerActionFlag = false
+					slot0.triggerActionTime = 0
+				else
+					slot0.triggerActionFlag = true
+					slot0.triggerActionTime = 0
+				end
+
 				slot0.mouseInputDown = Input.mousePosition
 				slot0.parameterTargetValue = slot0.startValue
 			end
@@ -115,7 +122,7 @@ function slot5(slot0)
 				slot0.nextTriggerTime = slot0.nextTriggerTime - Time.deltaTime
 
 				if slot0.active and not slot0.triggerActionFlag and slot0.nextTriggerTime < 0 and slot0.actionTrigger.type == uv0 then
-					if math.abs(slot0.parameterValue - slot0.actionTrigger.num) < 0.01 then
+					if math.abs(slot0.parameterValue - slot0.actionTrigger.num) < 0.25 then
 						slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
 
 						if slot0.actionTrigger.time < slot0.triggerActionTime and not slot0.live2dAction then
@@ -123,6 +130,8 @@ function slot5(slot0)
 							slot0.triggerActionFlag = true
 
 							slot0:stopDrag()
+
+							slot0.parameterToStart = 180
 
 							if slot0.eventCallback then
 								slot0.eventCallback(uv0, {
@@ -328,7 +337,7 @@ function slot10(slot0, slot1)
 		slot0.liveCom:SetDragParts(slot0.dragParts)
 		slot0.liveCom:SetMouseInputActions(System.Action(function ()
 			if #uv0.drags > 0 and uv0.liveCom:GetDragPart() > 0 and uv0.liveCom:GetDragPart() - #uv1.assistantTouchParts > 0 and uv0.drags[slot0] then
-				uv0.drags[slot0]:startDrag()
+				uv0.drags[slot0]:startDrag(uv0.live2dAction)
 			end
 		end), System.Action(function ()
 			if uv0.drags and #uv0.drags > 0 then

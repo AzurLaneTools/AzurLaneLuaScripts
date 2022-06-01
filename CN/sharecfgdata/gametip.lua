@@ -20232,3 +20232,11 @@ _G.pg.base.gametip.support_rate_title = {
 _G.pg.base.gametip.support_times_limited = {
 	tip = "本月可用勋章支援次数不足"
 }
+
+_G.pg.base.gametip.support_times_tip = {
+	tip = "支援数量"
+}
+
+_G.pg.base.gametip.build_times_tip = {
+	tip = "建造数量"
+}

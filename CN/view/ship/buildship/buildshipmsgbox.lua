@@ -106,6 +106,7 @@ function slot0.Show(slot0, slot1)
 	slot0.count = 1
 
 	slot0:updateTxt(slot0.count)
+	setText(slot0._tf:Find("window/content/title"), i18n(slot0.buildType == "medal" and "support_times_tip" or "build_times_tip"))
 	setActiveViaLayer(slot0._go, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
