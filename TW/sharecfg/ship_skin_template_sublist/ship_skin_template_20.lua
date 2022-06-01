@@ -5506,6 +5506,10 @@ pg.ship_skin_template_20 = {
 			ParamEyeBallY = {
 				-0.7,
 				0.7
+			},
+			ParamBodyAngleX = {
+				-10,
+				5
 			}
 		}
 	},

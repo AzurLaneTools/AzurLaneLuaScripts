@@ -1199,5 +1199,13 @@ pg.voice_actor_CN = {
 	{
 		code = 300,
 		actor_name = "野村真悠華"
+	},
+	[320] = {
+		code = 320,
+		actor_name = "宴寧 "
+	},
+	[321] = {
+		code = 321,
+		actor_name = "多多poi "
 	}
 }
