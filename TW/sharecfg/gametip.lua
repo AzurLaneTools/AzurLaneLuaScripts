@@ -17282,5 +17282,15 @@ cs.gametip = {
 		582869,
 		121,
 		true
+	},
+	support_times_tip = {
+		582990,
+		93,
+		true
+	},
+	build_times_tip = {
+		583083,
+		92,
+		true
 	}
 }

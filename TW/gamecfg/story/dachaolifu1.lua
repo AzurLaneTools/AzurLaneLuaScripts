@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，伊莉莎白那笨蛋，說什麼“果然皇家主辦的宴會才是最棒的“…",
+			say = "哼，伊莉莎白那笨蛋，說什麼“果然皇家主辦的宴會才是最棒的”…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

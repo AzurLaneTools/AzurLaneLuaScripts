@@ -18914,3 +18914,11 @@ _G.pg.base.gametip.support_rate_title = {
 _G.pg.base.gametip.support_times_limited = {
 	tip = "本月可用勳章支援次數不足"
 }
+
+_G.pg.base.gametip.support_times_tip = {
+	tip = "支援數量"
+}
+
+_G.pg.base.gametip.build_times_tip = {
+	tip = "建造數量 "
+}
