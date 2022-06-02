@@ -2,7 +2,7 @@ pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
 		default_bgm = "main",
-		bgm = "main"
+		bgm = "wavyflow-inst-full"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		default_bgm = "holo-fff-inst",
@@ -70,7 +70,7 @@ pg.voice_bgm = {
 	},
 	NewMainScene = {
 		default_bgm = "main",
-		bgm = "main"
+		bgm = "wavyflow-full"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",

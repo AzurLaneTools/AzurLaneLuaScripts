@@ -7,6 +7,10 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.Init(slot0, slot1)
+	slot0:UpdatePosition(slot1)
+end
+
+function slot0.UpdatePosition(slot0, slot1)
 	slot0:SetPosition(slot1)
 	slot0:SetDir(slot0:GetDirection())
 end

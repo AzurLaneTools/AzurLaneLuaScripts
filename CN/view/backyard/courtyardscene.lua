@@ -32,7 +32,6 @@ function slot0.init(slot0)
 	slot0.bg = slot0:findTF("bg000")
 	slot0.viewBtn = slot0:findTF("main/eye_btn")
 	slot0.emptyFoodPage = CourtYardEmptyFoodPage.New(slot0._tf, slot0.event)
-	slot0.completion = false
 end
 
 function slot0.didEnter(slot0)
@@ -53,12 +52,10 @@ function slot0.OnCourtYardLoaded(slot0)
 
 	if slot0.contextData.mode ~= CourtYardConst.SYSTEM_VISIT then
 		BackYardThemeTempalteUtil.CheckSaveDirectory()
-		slot0:emit(CourtYardMediator.ON_OPEN_EXP, 1)
+		pg.m02:sendNotification(GAME.OPEN_ADD_EXP, 1)
 	end
 
 	slot0:UnBlockEvents()
-
-	slot0.completion = true
 end
 
 function slot0.UpdateDorm(slot0, slot1, slot2)
@@ -174,8 +171,8 @@ function slot0.willExit(slot0)
 		slot0.bulinTip = nil
 	end
 
-	if slot0.completion and slot0.contextData.mode ~= CourtYardConst.SYSTEM_VISIT then
-		slot0:emit(CourtYardMediator.ON_OPEN_EXP, 0)
+	if slot0.contextData.mode ~= CourtYardConst.SYSTEM_VISIT then
+		pg.m02:sendNotification(GAME.OPEN_ADD_EXP, 0)
 	end
 end
 

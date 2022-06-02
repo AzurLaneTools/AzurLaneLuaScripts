@@ -74,22 +74,32 @@ function slot0.GetStorey(slot0)
 end
 
 function slot0.AddFurniture(slot0, slot1, slot2)
+	function slot3(slot0, slot1)
+		slot2 = uv0:DataToFurnitureVO(uv1)
+
+		slot2:Init(slot1, uv1.dir or 1)
+
+		return uv0.storey:IsLegalAreaForFurniture(slot2, slot1)
+	end
+
 	if not slot0.storey:CanAddFurniture(slot0:DataToFurnitureVO(slot1)) then
 		return
 	end
 
-	slot4 = slot3:GetType()
+	slot5 = slot4:GetType()
 
 	if slot1.parent and slot1.parent ~= 0 then
-		slot3:Init(slot1.position, slot1.dir or 1)
-		slot0.storey:AddChildFurniture(slot3, slot1.parent)
-	elseif slot4 == Furniture.TYPE_WALLPAPER or slot4 == Furniture.TYPE_FLOORPAPER then
-		slot0.storey:AddPaper(slot3)
-	elseif slot1.position or slot0.storey:GetEmptyArea(slot3) then
-		slot3:Init(slot5, slot1.dir or 1)
-		slot0.storey:AddFurniture(slot3, slot2)
-	else
+		slot4:Init(slot1.position, slot1.dir or 1)
+		slot0.storey:AddChildFurniture(slot4, slot1.parent)
+	elseif slot5 == Furniture.TYPE_WALLPAPER or slot5 == Furniture.TYPE_FLOORPAPER then
+		slot0.storey:AddPaper(slot4)
+	elseif not (slot1.position or slot0.storey:GetEmptyArea(slot4)) then
 		slot0.storey:DispatchEvent(CourtYardEvent.ADD_ITEM_FAILED)
+	elseif slot6 and slot3(slot4, slot6) then
+		slot4:Init(slot6, slot1.dir or 1)
+		slot0.storey:AddFurniture(slot4, slot2)
+	else
+		_courtyard:SendNotification(CourtYardEvent._ADD_ITEM_FAILED, slot4.id)
 	end
 
 	slot0:CheckChange()
