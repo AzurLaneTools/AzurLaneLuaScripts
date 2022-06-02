@@ -10,9 +10,9 @@ function slot0.OnInit(slot0)
 		setPaintingPrefabAsync(slot2:Find("paint_panel/painting"), Ship.New({
 			configId = slot0.summaryInfoVO.firstLadyId
 		}):getPainting(), "chuanwu")
-		setText(slot2:Find("window_4/ship_name/Text"), slot0.summaryInfoVO.firstProposeName)
-		setText(slot2:Find("window_4/day/Text"), slot0.summaryInfoVO.proposeTime)
-		setText(slot2:Find("window_5/number/Text"), slot0.summaryInfoVO.proposeCount)
+		setText(slot2:Find("window_5/ship_name/Text"), slot0.summaryInfoVO.firstProposeName)
+		setText(slot2:Find("window_5/day/Text"), slot0.summaryInfoVO.proposeTime)
+		setText(slot2:Find("window_6/number/Text"), slot0.summaryInfoVO.proposeCount)
 	end
 end
 

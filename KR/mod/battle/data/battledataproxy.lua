@@ -326,7 +326,7 @@ function slot8.InitStageData(slot0)
 	slot0._bulletLowerBound = slot0._totalLowerBound - 10
 	slot0._bulletLeftBound = slot0._totalLeftBound - 10
 	slot0._bulletRightBound = slot0._totalRightBound + 10
-	slot0._bulletUpperBoundVision = slot0._totalUpperBound + 10
+	slot0._bulletUpperBoundVision = slot0._totalUpperBound + 30
 end
 
 function slot8.Clear(slot0)

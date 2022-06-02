@@ -227,7 +227,7 @@ function slot0.didEnter(slot0)
 			setActive(uv0.doneTF, uv0.shipVO.propose)
 
 			uv0.button:GetComponent(typeof(Button)).interactable = not uv0.shipVO.propose and slot1 <= slot2
-			slot4, slot5 = uv0.shipVO:getInitmacyInfo()
+			slot4, slot5 = uv0.shipVO:getIntimacyInfo()
 
 			if uv0.shipVO.propose then
 				if uv0.intimacyDescPic then

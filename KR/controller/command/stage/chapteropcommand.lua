@@ -185,7 +185,7 @@ end
 function slot0.PrepareChapterRetreat(slot0)
 	seriesAsync({
 		function (slot0)
-			if getProxy(ChapterProxy):getActiveChapter():CheckChapterWillWin() and not slot1:IsRemaster() then
+			if getProxy(ChapterProxy):getActiveChapter() and slot1:CheckChapterWillWin() and not slot1:IsRemaster() then
 				slot1:UpdateProgressOnRetreat()
 
 				slot3 = slot1:getConfig("defeat_story")

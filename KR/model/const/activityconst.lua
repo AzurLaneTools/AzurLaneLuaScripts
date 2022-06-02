@@ -76,6 +76,7 @@ slot0.ACTIVITY_TYPE_NEWSERVER_TASK = 82
 slot0.ACTIVITY_TYPE_NEWSERVER_SHOP = 83
 slot0.ACTIVITY_TYPE_NEWSERVER_GIFT = 84
 slot0.ACTIVITY_TYPE_NEWSERVER_BUILD = 85
+slot0.ACTIVITY_TYPE_TASK_POOL = 86
 slot0.HIDE_PT_PANELS = false
 slot0.WITHOUT_ACTIVITY = 0
 slot0.MONOPOLY_OP_THROW = 1
@@ -113,8 +114,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2022,
-			4,
-			28
+			6,
+			2
 		},
 		{
 			0,
@@ -125,8 +126,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2022,
-			5,
-			12
+			6,
+			22
 		},
 		{
 			23,

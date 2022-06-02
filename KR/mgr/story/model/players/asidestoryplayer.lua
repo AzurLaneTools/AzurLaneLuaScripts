@@ -13,6 +13,7 @@ function slot0.OnReset(slot0, slot1)
 	setActive(slot0.curtain, true)
 	setActive(slot0.hrzList.container, false)
 	setActive(slot0.vetList.container, false)
+	setActive(slot0.actorPanel, false)
 
 	slot0.curtainCg.alpha = 1
 

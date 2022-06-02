@@ -196,7 +196,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 				end
 			end
 
-			if slot16 - calcFloor(slot16) > 0 then
+			if slot16 - calcFloor(slot16) > 1e-09 then
 				slot16 = string.format("%.1f", slot16)
 				GetComponent(findTF(slot7, "Text"), typeof(Text)).fontSize = 45
 			else

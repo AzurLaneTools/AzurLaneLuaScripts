@@ -336,7 +336,7 @@ pg.item_data_frame = {
 	[320] = {
 		time_limit_type = 0,
 		name = "맹세의 정원",
-		gain_by = "",
+		gain_by = "泠誓光庭",
 		id = 320,
 		time_second = 0,
 		desc = "<color=#ffffff>추후 이벤트를 통해 획득</color>",

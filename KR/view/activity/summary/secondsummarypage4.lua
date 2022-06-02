@@ -10,9 +10,9 @@ function slot0.OnInit(slot0)
 	slot2 = nil
 
 	if slot1 == uv0.PageTypeFurniture then
-		slot2 = slot0.summaryInfoVO.activityVO:getConfig("config_data")
+		slot2 = slot0.summaryInfoVO.medalList
 	elseif slot1 == uv0.PageTypeIconFrame then
-		slot2 = slot0.summaryInfoVO.activityVO:getConfig("config_client")
+		slot2 = slot0.summaryInfoVO.iconFrameList
 	end
 
 	slot3 = {}

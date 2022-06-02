@@ -1771,6 +1771,13 @@ pg.compose_data_template = {
 		id = 11050,
 		material_num = 25
 	},
+	[11051] = {
+		material_id = 11051,
+		equip_id = 27320,
+		gold_num = 200,
+		id = 11051,
+		material_num = 15
+	},
 	[12000] = {
 		material_id = 12000,
 		equip_id = 2640,
@@ -2249,6 +2256,7 @@ pg.compose_data_template = {
 		11048,
 		11049,
 		11050,
+		11051,
 		12000,
 		13000,
 		13001,

@@ -42,6 +42,15 @@ slot2 = {
 	SC_26022_FIRST_LADY_NAME_FIELD = slot0.FieldDescriptor(),
 	SC_26022_FIRST_LADY_TIME_FIELD = slot0.FieldDescriptor(),
 	SC_26022_FIRST_ONLINE_FIELD = slot0.FieldDescriptor(),
+	SC_26022_WORLD_MAX_TASK_FIELD = slot0.FieldDescriptor(),
+	SC_26022_COLLECT_NUM_FIELD = slot0.FieldDescriptor(),
+	SC_26022_COMBAT_FIELD = slot0.FieldDescriptor(),
+	SC_26022_SHIP_NUM_TOTAL_FIELD = slot0.FieldDescriptor(),
+	SC_26022_SHIP_NUM_120_FIELD = slot0.FieldDescriptor(),
+	SC_26022_SHIP_NUM_125_FIELD = slot0.FieldDescriptor(),
+	SC_26022_LOVE200_NUM_FIELD = slot0.FieldDescriptor(),
+	SC_26022_SKIN_NUM_FIELD = slot0.FieldDescriptor(),
+	SC_26022_SKIN_SHIP_NUM_FIELD = slot0.FieldDescriptor(),
 	CS_26031_ACT_ID_FIELD = slot0.FieldDescriptor(),
 	SC_26032_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_26032_BOSS_HP_FIELD = slot0.FieldDescriptor(),
@@ -584,6 +593,87 @@ slot2.SC_26022_FIRST_ONLINE_FIELD.has_default_value = false
 slot2.SC_26022_FIRST_ONLINE_FIELD.default_value = 0
 slot2.SC_26022_FIRST_ONLINE_FIELD.type = 13
 slot2.SC_26022_FIRST_ONLINE_FIELD.cpp_type = 3
+slot2.SC_26022_WORLD_MAX_TASK_FIELD.name = "world_max_task"
+slot2.SC_26022_WORLD_MAX_TASK_FIELD.full_name = "p26.sc_26022.world_max_task"
+slot2.SC_26022_WORLD_MAX_TASK_FIELD.number = 14
+slot2.SC_26022_WORLD_MAX_TASK_FIELD.index = 13
+slot2.SC_26022_WORLD_MAX_TASK_FIELD.label = 2
+slot2.SC_26022_WORLD_MAX_TASK_FIELD.has_default_value = false
+slot2.SC_26022_WORLD_MAX_TASK_FIELD.default_value = 0
+slot2.SC_26022_WORLD_MAX_TASK_FIELD.type = 13
+slot2.SC_26022_WORLD_MAX_TASK_FIELD.cpp_type = 3
+slot2.SC_26022_COLLECT_NUM_FIELD.name = "collect_num"
+slot2.SC_26022_COLLECT_NUM_FIELD.full_name = "p26.sc_26022.collect_num"
+slot2.SC_26022_COLLECT_NUM_FIELD.number = 15
+slot2.SC_26022_COLLECT_NUM_FIELD.index = 14
+slot2.SC_26022_COLLECT_NUM_FIELD.label = 2
+slot2.SC_26022_COLLECT_NUM_FIELD.has_default_value = false
+slot2.SC_26022_COLLECT_NUM_FIELD.default_value = 0
+slot2.SC_26022_COLLECT_NUM_FIELD.type = 13
+slot2.SC_26022_COLLECT_NUM_FIELD.cpp_type = 3
+slot2.SC_26022_COMBAT_FIELD.name = "combat"
+slot2.SC_26022_COMBAT_FIELD.full_name = "p26.sc_26022.combat"
+slot2.SC_26022_COMBAT_FIELD.number = 16
+slot2.SC_26022_COMBAT_FIELD.index = 15
+slot2.SC_26022_COMBAT_FIELD.label = 2
+slot2.SC_26022_COMBAT_FIELD.has_default_value = false
+slot2.SC_26022_COMBAT_FIELD.default_value = 0
+slot2.SC_26022_COMBAT_FIELD.type = 13
+slot2.SC_26022_COMBAT_FIELD.cpp_type = 3
+slot2.SC_26022_SHIP_NUM_TOTAL_FIELD.name = "ship_num_total"
+slot2.SC_26022_SHIP_NUM_TOTAL_FIELD.full_name = "p26.sc_26022.ship_num_total"
+slot2.SC_26022_SHIP_NUM_TOTAL_FIELD.number = 17
+slot2.SC_26022_SHIP_NUM_TOTAL_FIELD.index = 16
+slot2.SC_26022_SHIP_NUM_TOTAL_FIELD.label = 2
+slot2.SC_26022_SHIP_NUM_TOTAL_FIELD.has_default_value = false
+slot2.SC_26022_SHIP_NUM_TOTAL_FIELD.default_value = 0
+slot2.SC_26022_SHIP_NUM_TOTAL_FIELD.type = 13
+slot2.SC_26022_SHIP_NUM_TOTAL_FIELD.cpp_type = 3
+slot2.SC_26022_SHIP_NUM_120_FIELD.name = "ship_num_120"
+slot2.SC_26022_SHIP_NUM_120_FIELD.full_name = "p26.sc_26022.ship_num_120"
+slot2.SC_26022_SHIP_NUM_120_FIELD.number = 18
+slot2.SC_26022_SHIP_NUM_120_FIELD.index = 17
+slot2.SC_26022_SHIP_NUM_120_FIELD.label = 2
+slot2.SC_26022_SHIP_NUM_120_FIELD.has_default_value = false
+slot2.SC_26022_SHIP_NUM_120_FIELD.default_value = 0
+slot2.SC_26022_SHIP_NUM_120_FIELD.type = 13
+slot2.SC_26022_SHIP_NUM_120_FIELD.cpp_type = 3
+slot2.SC_26022_SHIP_NUM_125_FIELD.name = "ship_num_125"
+slot2.SC_26022_SHIP_NUM_125_FIELD.full_name = "p26.sc_26022.ship_num_125"
+slot2.SC_26022_SHIP_NUM_125_FIELD.number = 19
+slot2.SC_26022_SHIP_NUM_125_FIELD.index = 18
+slot2.SC_26022_SHIP_NUM_125_FIELD.label = 2
+slot2.SC_26022_SHIP_NUM_125_FIELD.has_default_value = false
+slot2.SC_26022_SHIP_NUM_125_FIELD.default_value = 0
+slot2.SC_26022_SHIP_NUM_125_FIELD.type = 13
+slot2.SC_26022_SHIP_NUM_125_FIELD.cpp_type = 3
+slot2.SC_26022_LOVE200_NUM_FIELD.name = "love200_num"
+slot2.SC_26022_LOVE200_NUM_FIELD.full_name = "p26.sc_26022.love200_num"
+slot2.SC_26022_LOVE200_NUM_FIELD.number = 20
+slot2.SC_26022_LOVE200_NUM_FIELD.index = 19
+slot2.SC_26022_LOVE200_NUM_FIELD.label = 2
+slot2.SC_26022_LOVE200_NUM_FIELD.has_default_value = false
+slot2.SC_26022_LOVE200_NUM_FIELD.default_value = 0
+slot2.SC_26022_LOVE200_NUM_FIELD.type = 13
+slot2.SC_26022_LOVE200_NUM_FIELD.cpp_type = 3
+slot2.SC_26022_SKIN_NUM_FIELD.name = "skin_num"
+slot2.SC_26022_SKIN_NUM_FIELD.full_name = "p26.sc_26022.skin_num"
+slot2.SC_26022_SKIN_NUM_FIELD.number = 21
+slot2.SC_26022_SKIN_NUM_FIELD.index = 20
+slot2.SC_26022_SKIN_NUM_FIELD.label = 2
+slot2.SC_26022_SKIN_NUM_FIELD.has_default_value = false
+slot2.SC_26022_SKIN_NUM_FIELD.default_value = 0
+slot2.SC_26022_SKIN_NUM_FIELD.type = 13
+slot2.SC_26022_SKIN_NUM_FIELD.cpp_type = 3
+slot2.SC_26022_SKIN_SHIP_NUM_FIELD.name = "skin_ship_num"
+slot2.SC_26022_SKIN_SHIP_NUM_FIELD.full_name = "p26.sc_26022.skin_ship_num"
+slot2.SC_26022_SKIN_SHIP_NUM_FIELD.number = 22
+slot2.SC_26022_SKIN_SHIP_NUM_FIELD.index = 21
+slot2.SC_26022_SKIN_SHIP_NUM_FIELD.label = 2
+slot2.SC_26022_SKIN_SHIP_NUM_FIELD.has_default_value = false
+slot2.SC_26022_SKIN_SHIP_NUM_FIELD.default_value = 0
+slot2.SC_26022_SKIN_SHIP_NUM_FIELD.type = 13
+slot2.SC_26022_SKIN_SHIP_NUM_FIELD.cpp_type = 3
 SC_26022.name = "sc_26022"
 SC_26022.full_name = "p26.sc_26022"
 SC_26022.nested_types = {}
@@ -601,7 +691,16 @@ SC_26022.fields = {
 	slot2.SC_26022_FIRST_LADY_ID_FIELD,
 	slot2.SC_26022_FIRST_LADY_NAME_FIELD,
 	slot2.SC_26022_FIRST_LADY_TIME_FIELD,
-	slot2.SC_26022_FIRST_ONLINE_FIELD
+	slot2.SC_26022_FIRST_ONLINE_FIELD,
+	slot2.SC_26022_WORLD_MAX_TASK_FIELD,
+	slot2.SC_26022_COLLECT_NUM_FIELD,
+	slot2.SC_26022_COMBAT_FIELD,
+	slot2.SC_26022_SHIP_NUM_TOTAL_FIELD,
+	slot2.SC_26022_SHIP_NUM_120_FIELD,
+	slot2.SC_26022_SHIP_NUM_125_FIELD,
+	slot2.SC_26022_LOVE200_NUM_FIELD,
+	slot2.SC_26022_SKIN_NUM_FIELD,
+	slot2.SC_26022_SKIN_SHIP_NUM_FIELD
 }
 SC_26022.is_extendable = false
 SC_26022.extensions = {}

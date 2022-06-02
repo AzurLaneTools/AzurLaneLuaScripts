@@ -2592,51 +2592,168 @@ pg.enemy_data_statistics_28 = {
 			3
 		}
 	},
-	[611] = {
-		cannon = 22,
-		speed = 16,
-		battle_unit_type = 60,
+	[90635] = {
+		cannon = 0,
+		name = "항모 「Queen」-초기형",
+		type = 7,
 		speed_growth = 0,
-		pilot_ai_template_id = 10001,
+		battle_unit_type = 49,
 		air = 0,
-		rarity = 4,
-		dodge = 9,
-		id = 611,
-		cannon_growth = 2000,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 126,
-		luck = 0,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
 		air_growth = 0,
-		reload = 150,
-		base = 90206,
-		durability = 580,
-		armor_growth = 0,
-		torpedo_growth = 3456,
-		luck_growth = 0,
-		hit_growth = 210,
+		durability = 99999,
+		friendly_cld = 1,
 		armor = 0,
-		torpedo = 42,
-		durability_growth = 28200,
+		id = 90635,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "srCV0",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
 		antisub = 0,
-		antiaircraft = 44,
-		antiaircraft_growth = 3600,
+		scale = 250,
+		wave_fx = "danchuanlanghuazhong3",
+		prefab = "srCV0",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 99,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			27.7,
+			7.5,
+			9
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.07,
+					0.24,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smokebig",
+						{
+							0.95,
+							0.99,
+							-0.48
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smokebig",
+						{
+							-1.08,
+							1.77,
+							-0.66
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1.25,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
 		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
+			"appearsmall"
+		},
+		position_offset = {
+			0,
+			0,
+			0
 		},
 		hp_bar = {
 			200,
-			4
+			5
 		},
-		equipment_list = {
-			100201,
-			311072,
-			311075,
-			311076
-		}
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

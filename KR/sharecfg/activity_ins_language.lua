@@ -10029,6 +10029,225 @@ pg.activity_ins_language = {
 	op_reply_300_1_2 = {
 		value = "제가 맡은 일이니 마땅히 해야 할 일이죠."
 	},
+	ins_301 = {
+		value = ""
+	},
+	ins_discuss_301_1 = {
+		value = ""
+	},
+	ins_reply_301_1_1 = {
+		value = ""
+	},
+	ins_discuss_301_2 = {
+		value = ""
+	},
+	ins_reply_301_2_1 = {
+		value = ""
+	},
+	ins_reply_301_2_2 = {
+		value = ""
+	},
+	ins_reply_301_2_3 = {
+		value = ""
+	},
+	ins_op_301_1_1 = {
+		value = ""
+	},
+	op_reply_301_1_1 = {
+		value = ""
+	},
+	ins_op_301_1_2 = {
+		value = ""
+	},
+	op_reply_301_1_2 = {
+		value = ""
+	},
+	ins_302 = {
+		value = ""
+	},
+	ins_discuss_302_1 = {
+		value = ""
+	},
+	ins_reply_302_1_1 = {
+		value = ""
+	},
+	ins_discuss_302_2 = {
+		value = ""
+	},
+	ins_reply_302_2_1 = {
+		value = ""
+	},
+	ins_reply_302_2_2 = {
+		value = ""
+	},
+	ins_discuss_302_3 = {
+		value = ""
+	},
+	ins_reply_302_3_1 = {
+		value = ""
+	},
+	ins_op_302_1_1 = {
+		value = ""
+	},
+	op_reply_302_1_1 = {
+		value = ""
+	},
+	ins_303 = {
+		value = ""
+	},
+	ins_discuss_303_1 = {
+		value = ""
+	},
+	ins_reply_303_1_1 = {
+		value = ""
+	},
+	ins_discuss_303_2 = {
+		value = ""
+	},
+	ins_reply_303_2_1 = {
+		value = ""
+	},
+	ins_discuss_303_3 = {
+		value = ""
+	},
+	ins_reply_303_3_1 = {
+		value = ""
+	},
+	ins_reply_303_3_2 = {
+		value = ""
+	},
+	ins_op_303_1_1 = {
+		value = ""
+	},
+	op_reply_303_1_1 = {
+		value = ""
+	},
+	ins_op_303_1_2 = {
+		value = ""
+	},
+	op_reply_303_1_2 = {
+		value = ""
+	},
+	ins_304 = {
+		value = ""
+	},
+	ins_discuss_304_1 = {
+		value = ""
+	},
+	ins_reply_304_1_1 = {
+		value = ""
+	},
+	ins_discuss_304_2 = {
+		value = ""
+	},
+	ins_reply_304_2_1 = {
+		value = ""
+	},
+	ins_reply_304_2_2 = {
+		value = ""
+	},
+	ins_reply_304_2_3 = {
+		value = ""
+	},
+	ins_discuss_304_3 = {
+		value = ""
+	},
+	ins_reply_304_3_1 = {
+		value = ""
+	},
+	ins_op_304_1_1 = {
+		value = ""
+	},
+	op_reply_304_1_1 = {
+		value = ""
+	},
+	ins_op_304_1_2 = {
+		value = ""
+	},
+	op_reply_304_1_2 = {
+		value = ""
+	},
+	ins_305 = {
+		value = ""
+	},
+	ins_discuss_305_1 = {
+		value = ""
+	},
+	ins_reply_305_1_1 = {
+		value = ""
+	},
+	ins_discuss_305_2 = {
+		value = ""
+	},
+	ins_reply_305_2_1 = {
+		value = ""
+	},
+	ins_reply_305_2_2 = {
+		value = ""
+	},
+	ins_reply_305_2_3 = {
+		value = ""
+	},
+	ins_op_305_1_1 = {
+		value = ""
+	},
+	op_reply_305_1_1 = {
+		value = ""
+	},
+	ins_306 = {
+		value = ""
+	},
+	ins_discuss_306_1 = {
+		value = ""
+	},
+	ins_reply_306_1_1 = {
+		value = ""
+	},
+	ins_reply_306_1_2 = {
+		value = ""
+	},
+	ins_reply_306_1_3 = {
+		value = ""
+	},
+	ins_discuss_306_2 = {
+		value = ""
+	},
+	ins_reply_306_2_1 = {
+		value = ""
+	},
+	ins_reply_306_2_2 = {
+		value = ""
+	},
+	ins_op_306_1_1 = {
+		value = ""
+	},
+	op_reply_306_1_1 = {
+		value = ""
+	},
+	ins_307 = {
+		value = ""
+	},
+	ins_discuss_307_1 = {
+		value = ""
+	},
+	ins_reply_307_1_1 = {
+		value = ""
+	},
+	ins_reply_307_1_2 = {
+		value = ""
+	},
+	ins_discuss_307_2 = {
+		value = ""
+	},
+	ins_reply_307_2_1 = {
+		value = ""
+	},
+	ins_op_307_1_1 = {
+		value = ""
+	},
+	op_reply_307_1_1 = {
+		value = ""
+	},
 	all = {
 		ins_op_1_1_1,
 		ins_op_1_1_2,
@@ -13372,6 +13591,79 @@ pg.activity_ins_language = {
 		ins_op_300_1_1,
 		op_reply_300_1_1,
 		ins_op_300_1_2,
-		op_reply_300_1_2
+		op_reply_300_1_2,
+		ins_301,
+		ins_discuss_301_1,
+		ins_reply_301_1_1,
+		ins_discuss_301_2,
+		ins_reply_301_2_1,
+		ins_reply_301_2_2,
+		ins_reply_301_2_3,
+		ins_op_301_1_1,
+		op_reply_301_1_1,
+		ins_op_301_1_2,
+		op_reply_301_1_2,
+		ins_302,
+		ins_discuss_302_1,
+		ins_reply_302_1_1,
+		ins_discuss_302_2,
+		ins_reply_302_2_1,
+		ins_reply_302_2_2,
+		ins_discuss_302_3,
+		ins_reply_302_3_1,
+		ins_op_302_1_1,
+		op_reply_302_1_1,
+		ins_303,
+		ins_discuss_303_1,
+		ins_reply_303_1_1,
+		ins_discuss_303_2,
+		ins_reply_303_2_1,
+		ins_discuss_303_3,
+		ins_reply_303_3_1,
+		ins_reply_303_3_2,
+		ins_op_303_1_1,
+		op_reply_303_1_1,
+		ins_op_303_1_2,
+		op_reply_303_1_2,
+		ins_304,
+		ins_discuss_304_1,
+		ins_reply_304_1_1,
+		ins_discuss_304_2,
+		ins_reply_304_2_1,
+		ins_reply_304_2_2,
+		ins_reply_304_2_3,
+		ins_discuss_304_3,
+		ins_reply_304_3_1,
+		ins_op_304_1_1,
+		op_reply_304_1_1,
+		ins_op_304_1_2,
+		op_reply_304_1_2,
+		ins_305,
+		ins_discuss_305_1,
+		ins_reply_305_1_1,
+		ins_discuss_305_2,
+		ins_reply_305_2_1,
+		ins_reply_305_2_2,
+		ins_reply_305_2_3,
+		ins_op_305_1_1,
+		op_reply_305_1_1,
+		ins_306,
+		ins_discuss_306_1,
+		ins_reply_306_1_1,
+		ins_reply_306_1_2,
+		ins_reply_306_1_3,
+		ins_discuss_306_2,
+		ins_reply_306_2_1,
+		ins_reply_306_2_2,
+		ins_op_306_1_1,
+		op_reply_306_1_1,
+		ins_307,
+		ins_discuss_307_1,
+		ins_reply_307_1_1,
+		ins_reply_307_1_2,
+		ins_discuss_307_2,
+		ins_reply_307_2_1,
+		ins_op_307_1_1,
+		op_reply_307_1_1
 	}
 }

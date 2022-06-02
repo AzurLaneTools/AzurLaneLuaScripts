@@ -53,7 +53,7 @@ function slot0.Update(slot0, slot1)
 
 	setActive(slot0.maskTF, not slot6)
 	setActive(slot0.hotTF, false)
-	setActive(slot0.newTF, slot1:getConfig("new") and slot8 > 0)
+	setActive(slot0.newTF, slot1:getConfig("new") and slot8 > 0 and slot6)
 
 	if slot8 and slot8 > 0 or slot7 then
 		setAnchoredPosition(slot0.comfortableTF, {

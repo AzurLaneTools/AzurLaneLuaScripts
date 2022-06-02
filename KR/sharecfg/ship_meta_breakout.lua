@@ -63,6 +63,69 @@ pg.ship_meta_breakout = {
 		pre_id = 9702013,
 		weapon_ids = {}
 	},
+	[9702021] = {
+		breakout_view = "스킬 [구조의 이치·멤피스] 습득 / 모든 무기 효율 +2%",
+		gold = 500,
+		breakout_id = 9702022,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702021,
+		item1 = 21011,
+		pre_id = 0,
+		weapon_ids = {
+			79871
+		}
+	},
+	[9702022] = {
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 모든 무기 효율 +3%",
+		gold = 1500,
+		breakout_id = 9702023,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702022,
+		item1 = 21011,
+		pre_id = 9702021,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9702023] = {
+		breakout_view = "[구조의 이치·멤피스] 레벨업/ 모든 무기 효율 +5%",
+		gold = 2500,
+		breakout_id = 9702024,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702023,
+		item1 = 21011,
+		pre_id = 9702022,
+		weapon_ids = {
+			79872
+		}
+	},
+	[9702024] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702024,
+		item1 = 21011,
+		pre_id = 9702023,
+		weapon_ids = {}
+	},
 	[9704011] = {
 		breakout_view = "스킬 [빛을 쫓는 화염·그나이제나우] 습득/주포 발사 수 +1/주포 효율 5% 상승",
 		gold = 1000,
@@ -676,6 +739,10 @@ pg.ship_meta_breakout = {
 		9702012,
 		9702013,
 		9702014,
+		9702021,
+		9702022,
+		9702023,
+		9702024,
 		9704011,
 		9704012,
 		9704013,

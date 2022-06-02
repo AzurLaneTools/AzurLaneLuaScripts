@@ -157,8 +157,8 @@ pg.voice_bgm = {
 		bgm = "main-chunjie2"
 	},
 	PlayerSecondSummaryInfoScene = {
-		default_bgm = "bsm-5",
-		bgm = "bsm-5"
+		default_bgm = "login",
+		bgm = "login"
 	},
 	AmusementParkScene = {
 		default_bgm = "story-richang",
@@ -227,5 +227,9 @@ pg.voice_bgm = {
 	Fushun3GameView = {
 		default_bgm = "main-chunjie-pv",
 		bgm = "main-chunjie-pv"
+	},
+	BackHillFifthAnniversaryScene = {
+		default_bgm = "Main-chunjie-pv",
+		bgm = "Main-chunjie-pv"
 	}
 }

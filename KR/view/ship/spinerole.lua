@@ -70,6 +70,7 @@ function slot0.AttachOrbit(slot0)
 					slot3 = Object.Instantiate(slot0)
 					slot3.transform.localPosition = Vector2(slot2[1], slot2[2])
 					slot4 = SpineAnimUI.AddFollower(uv2.orbit_ui_bound[1], uv0.model.transform, slot3.transform)
+					slot3.transform.localScale = Vector3.one
 					uv0._attachmentList[slot4] = uv2.orbit_hidden_action
 					slot4:GetComponent("Spine.Unity.BoneFollowerGraphic").followBoneRotation = false
 

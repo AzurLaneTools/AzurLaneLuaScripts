@@ -5584,6 +5584,27 @@ _G.pg.base.item_data_statistics[11050] = {
 	index = {}
 }
 
+_G.pg.base.item_data_statistics[11051] = {
+	display = "시 호넷 T0 설계도",
+	name = "시 호넷 T0 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/27320",
+	id = 11051,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.base.item_data_statistics[12000] = {
 	display = "93식 산소어뢰 T3 설계도",
 	name = "93식 산소어뢰 T3 설계도",
@@ -8814,6 +8835,27 @@ _G.pg.base.item_data_statistics[21010] = {
 	is_world = 0,
 	icon = "Props/21010",
 	id = 21010,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[21011] = {
+	display = "멤피스·META의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정: 멤피스·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21011",
+	id = 21011,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -13705,6 +13747,121 @@ _G.pg.base.item_data_statistics[30333] = {
 	index = {}
 }
 
+_G.pg.base.item_data_statistics[30334] = {
+	display = "랜덤한 장비 스킨을 입수할 수 있다. (이스트 글림 패션)",
+	name = "장비 스킨 상자(이스트 글림 패션)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdonghuangshishang",
+	id = 30334,
+	display_icon = {
+		{
+			9,
+			560,
+			1
+		},
+		{
+			9,
+			561,
+			1
+		},
+		{
+			9,
+			562,
+			1
+		},
+		{
+			9,
+			563,
+			1
+		},
+		{
+			9,
+			564,
+			1
+		},
+		{
+			9,
+			565,
+			1
+		},
+		{
+			9,
+			566,
+			1
+		},
+		{
+			9,
+			567,
+			1
+		},
+		{
+			9,
+			568,
+			1
+		},
+		{
+			9,
+			569,
+			1
+		},
+		{
+			9,
+			570,
+			1
+		},
+		{
+			9,
+			571,
+			1
+		},
+		{
+			9,
+			572,
+			1
+		},
+		{
+			9,
+			573,
+			1
+		},
+		{
+			9,
+			574,
+			1
+		},
+		{
+			9,
+			575,
+			1
+		},
+		{
+			9,
+			576,
+			1
+		},
+		{
+			9,
+			577,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
 	name = "장비스킨 상자(월드 투어)",
@@ -13782,6 +13939,90 @@ _G.pg.base.item_data_statistics[30402] = {
 		{
 			9,
 			2008,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[30403] = {
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	name = "장비스킨 상자(월드 투어)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30403,
+	display_icon = {
+		{
+			9,
+			2009,
+			1
+		},
+		{
+			9,
+			2010,
+			1
+		},
+		{
+			9,
+			2011,
+			1
+		},
+		{
+			9,
+			2012,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[30404] = {
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	name = "장비스킨 상자(월드 투어)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30404,
+	display_icon = {
+		{
+			9,
+			2009,
+			1
+		},
+		{
+			9,
+			2010,
+			1
+		},
+		{
+			9,
+			2013,
+			1
+		},
+		{
+			9,
+			2012,
 			1
 		}
 	},
@@ -14009,7 +14250,7 @@ _G.pg.base.item_data_statistics[30502] = {
 }
 
 _G.pg.base.item_data_statistics[30503] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (스쿨 시즌)",
+	display = "사용 후 「스쿨 시즌」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
 	name = "장비 스킨 상자 (스쿨 시즌)",
 	max_num = 0,
 	type = 13,
@@ -14103,6 +14344,230 @@ _G.pg.base.item_data_statistics[30503] = {
 		{
 			9,
 			65,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[30504] = {
+	display = "사용 후 「이스트 글림 패션」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
+	name = "장비 스킨 상자(이스트 글림 패션)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdonghuangshishangzixuan",
+	id = 30504,
+	display_icon = {
+		{
+			9,
+			560,
+			1
+		},
+		{
+			9,
+			561,
+			1
+		},
+		{
+			9,
+			562,
+			1
+		},
+		{
+			9,
+			563,
+			1
+		},
+		{
+			9,
+			564,
+			1
+		},
+		{
+			9,
+			565,
+			1
+		},
+		{
+			9,
+			566,
+			1
+		},
+		{
+			9,
+			567,
+			1
+		},
+		{
+			9,
+			568,
+			1
+		},
+		{
+			9,
+			569,
+			1
+		},
+		{
+			9,
+			570,
+			1
+		},
+		{
+			9,
+			571,
+			1
+		},
+		{
+			9,
+			572,
+			1
+		},
+		{
+			9,
+			573,
+			1
+		},
+		{
+			9,
+			574,
+			1
+		},
+		{
+			9,
+			575,
+			1
+		},
+		{
+			9,
+			576,
+			1
+		},
+		{
+			9,
+			577,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[30505] = {
+	display = "사용 후 「로열 네이비」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
+	name = "장비 스킨 상자(로열 네이비) ",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhuangjiazixuan",
+	id = 30505,
+	display_icon = {
+		{
+			9,
+			140,
+			1
+		},
+		{
+			9,
+			141,
+			1
+		},
+		{
+			9,
+			142,
+			1
+		},
+		{
+			9,
+			143,
+			1
+		},
+		{
+			9,
+			144,
+			1
+		},
+		{
+			9,
+			145,
+			1
+		},
+		{
+			9,
+			146,
+			1
+		},
+		{
+			9,
+			147,
+			1
+		},
+		{
+			9,
+			148,
+			1
+		},
+		{
+			9,
+			149,
+			1
+		},
+		{
+			9,
+			150,
+			1
+		},
+		{
+			9,
+			151,
+			1
+		},
+		{
+			9,
+			152,
+			1
+		},
+		{
+			9,
+			153,
+			1
+		},
+		{
+			9,
+			154,
+			1
+		},
+		{
+			9,
+			155,
+			1
+		},
+		{
+			9,
+			156,
+			1
+		},
+		{
+			9,
+			157,
 			1
 		}
 	},
@@ -16192,6 +16657,43 @@ _G.pg.base.item_data_statistics[40126] = {
 	index = {}
 }
 
+_G.pg.base.item_data_statistics[40128] = {
+	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
+	name = "限时建造补给(高级)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxBuild2",
+	id = 40128,
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			1,
+			1,
+			30000
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.base.item_data_statistics[40902] = {
 	display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2019 다이아, 성정 유닛 50개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
 	name = "아카시 패키지",
@@ -17023,8 +17525,8 @@ _G.pg.base.item_data_statistics[40917] = {
 }
 
 _G.pg.base.item_data_statistics[40918] = {
-	display = "1",
-	name = "福袋",
+	display = "今天心情如何，指挥官大人？呵呵，您是在找恶毒姐吗？这样的话，得去更清静的地方找才行呢。",
+	name = "阳光、大海、圣洁之青",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -17036,7 +17538,7 @@ _G.pg.base.item_data_statistics[40918] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/fudai0",
+	icon = "SquareIcon/kebu_2",
 	id = 40918,
 	display_icon = {
 		{
@@ -151845,6 +152347,2929 @@ _G.pg.base.item_data_statistics[58568] = {
 	index = {}
 }
 
+_G.pg.base.item_data_statistics[58570] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58570,
+	display_icon = {
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			7,
+			1
+		},
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			12,
+			1
+		},
+		{
+			2,
+			10040,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58571] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58571,
+	display_icon = {
+		{
+			2,
+			42,
+			1
+		},
+		{
+			2,
+			67,
+			1
+		},
+		{
+			2,
+			22,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58572] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58572,
+	display_icon = {
+		{
+			2,
+			3,
+			1
+		},
+		{
+			2,
+			31,
+			1
+		},
+		{
+			2,
+			10045,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10005,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58573] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58573,
+	display_icon = {
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10046,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		},
+		{
+			2,
+			10039,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58574] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58574,
+	display_icon = {
+		{
+			2,
+			10031,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10032,
+			1
+		},
+		{
+			2,
+			10049,
+			1
+		},
+		{
+			2,
+			10048,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58575] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58575,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			10041,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58576] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58576,
+	display_icon = {
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			7,
+			1
+		},
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			12,
+			1
+		},
+		{
+			2,
+			10040,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58577] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58577,
+	display_icon = {
+		{
+			2,
+			42,
+			1
+		},
+		{
+			2,
+			67,
+			1
+		},
+		{
+			2,
+			22,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58578] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58578,
+	display_icon = {
+		{
+			2,
+			3,
+			1
+		},
+		{
+			2,
+			31,
+			1
+		},
+		{
+			2,
+			10045,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10005,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58579] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58579,
+	display_icon = {
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10046,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		},
+		{
+			2,
+			10039,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58580] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58580,
+	display_icon = {
+		{
+			2,
+			10031,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10032,
+			1
+		},
+		{
+			2,
+			10049,
+			1
+		},
+		{
+			2,
+			10048,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58581] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58581,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			10041,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58582] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58582,
+	display_icon = {
+		{
+			4,
+			213011,
+			1
+		},
+		{
+			4,
+			105041,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58583] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58583,
+	display_icon = {
+		{
+			4,
+			107051,
+			1
+		},
+		{
+			4,
+			107031,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58584] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58584,
+	display_icon = {
+		{
+			4,
+			203071,
+			1
+		},
+		{
+			4,
+			203011,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58585] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58585,
+	display_icon = {
+		{
+			4,
+			201141,
+			1
+		},
+		{
+			4,
+			205011,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58586] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58586,
+	display_icon = {
+		{
+			4,
+			206031,
+			1
+		},
+		{
+			4,
+			107071,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58587] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58587,
+	display_icon = {
+		{
+			4,
+			201341,
+			1
+		},
+		{
+			4,
+			204011,
+			1
+		},
+		{
+			4,
+			213021,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58588] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58588,
+	display_icon = {
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10025,
+			1
+		},
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10021,
+			1
+		},
+		{
+			2,
+			10040,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58589] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58589,
+	display_icon = {
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10110,
+			1
+		},
+		{
+			2,
+			10051,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			11017,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58590] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58590,
+	display_icon = {
+		{
+			2,
+			10005,
+			1
+		},
+		{
+			2,
+			10000,
+			1
+		},
+		{
+			2,
+			10045,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			11002,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58591] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58591,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10046,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		},
+		{
+			2,
+			11012,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58592] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58592,
+	display_icon = {
+		{
+			2,
+			10031,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10032,
+			1
+		},
+		{
+			2,
+			10049,
+			1
+		},
+		{
+			2,
+			11051,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58593] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58593,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			13000,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58594] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58594,
+	display_icon = {
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10025,
+			1
+		},
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10021,
+			1
+		},
+		{
+			2,
+			10040,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58595] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58595,
+	display_icon = {
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10110,
+			1
+		},
+		{
+			2,
+			10051,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58596] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58596,
+	display_icon = {
+		{
+			2,
+			10005,
+			1
+		},
+		{
+			2,
+			10000,
+			1
+		},
+		{
+			2,
+			10045,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58597] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58597,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10046,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58598] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58598,
+	display_icon = {
+		{
+			2,
+			10031,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10032,
+			1
+		},
+		{
+			2,
+			10049,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58599] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58599,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58600] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58600,
+	display_icon = {
+		{
+			4,
+			213011,
+			1
+		},
+		{
+			4,
+			105041,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58601] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58601,
+	display_icon = {
+		{
+			4,
+			107051,
+			1
+		},
+		{
+			4,
+			107031,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58602] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58602,
+	display_icon = {
+		{
+			4,
+			203071,
+			1
+		},
+		{
+			4,
+			203011,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58603] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58603,
+	display_icon = {
+		{
+			4,
+			201141,
+			1
+		},
+		{
+			4,
+			205011,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58604] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58604,
+	display_icon = {
+		{
+			4,
+			206031,
+			1
+		},
+		{
+			4,
+			107071,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58605] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58605,
+	display_icon = {
+		{
+			4,
+			201341,
+			1
+		},
+		{
+			4,
+			204011,
+			1
+		},
+		{
+			4,
+			213021,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58606] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58606,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			13000,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58607] = {
+	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58607,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[58608] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 캐릭터",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58608,
+	display_icon = {
+		{
+			4,
+			201341,
+			1
+		},
+		{
+			4,
+			204011,
+			1
+		},
+		{
+			4,
+			213021,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 	name = "경험치",
@@ -155751,6 +159176,48 @@ _G.pg.base.item_data_statistics[59287] = {
 	index = {}
 }
 
+_G.pg.base.item_data_statistics[59290] = {
+	display = "『월드 투어』(2022.6.8~2022.8.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
+	name = "투어 PT",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59290,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[59291] = {
+	display = "",
+	name = "通行证五期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 7005,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59291,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.base.item_data_statistics[59305] = {
 	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "훈련 PT ",
@@ -155870,8 +159337,113 @@ _G.pg.base.item_data_statistics[59311] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/xunliandianshu_y",
+	icon = "Props/xunliandianshu_yv3",
 	id = 59311,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[59316] = {
+	display = "『빛나는 정원의 맹세』 이벤트 교환용. 이벤트 종료 후 사라짐",
+	name = "맹세의 별",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/qianwei_pt",
+	id = 59316,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[59317] = {
+	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59317,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[59318] = {
+	display = "『크림 쿠키 앤하트!』 이벤트 호감도 상승용. 이벤트 종료 후 사라짐",
+	name = "크림 쿠키",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/naiyouquqi",
+	id = 59318,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[59319] = {
+	display = "『크림 쿠키 앤하트!』 이벤트 호감도 상승용. 이벤트 종료 후 사라짐",
+	name = "크림 쿠키",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/naiyouquqi",
+	id = 59319,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[59320] = {
+	display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다. ",
+	name = "집결 포인트 ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/union_pt",
+	id = 59320,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -164433,6 +168005,195 @@ _G.pg.base.item_data_statistics[60234] = {
 	icon = "Props/information_pt",
 	price = "",
 	id = 60234,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[60235] = {
+	display = "사용하면, 지정된 SSR 함선과 기념 아이템「답례」를 획득할 수 있다.",
+	name = "축제 초대장",
+	max_num = 0,
+	type = 21,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	price = "",
+	id = 60235,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[60236] = {
+	display = "티르피츠에게 받은 연회 초대의 답례",
+	name = "티르피츠의 답례",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	price = "",
+	id = 60236,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[60237] = {
+	display = "그라프 체펠린에게 받은 연회 초대의 답례",
+	name = "그라프 체펠린의 답례",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	price = "",
+	id = 60237,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[60238] = {
+	display = "워싱턴에게 받은 연회 초대의 답례",
+	name = "워싱턴의 답례",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	price = "",
+	id = 60238,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[60239] = {
+	display = "후드에게 받은 연회 초대의 답례",
+	name = "후드의 답례",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	price = "",
+	id = 60239,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[60240] = {
+	display = "유키카제에게 받은 연회 초대의 답례",
+	name = "유키카제의 답례",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	price = "",
+	id = 60240,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[60241] = {
+	display = "몬트필리어에게 받은 연회 초대의 답례",
+	name = "몬트필리어의 답례",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	price = "",
+	id = 60241,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[60242] = {
+	display = "스위프트슈어에게 받은 연회 초대의 답례",
+	name = "스위프트슈어의 답례",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	price = "",
+	id = 60242,
+	display_icon = {},
+	index = {}
+}
+
+_G.pg.base.item_data_statistics[60243] = {
+	display = "빅토리어스에게 받은 연회 초대의 답례",
+	name = "빅토리어스의 답례",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	price = "",
+	id = 60243,
 	display_icon = {},
 	index = {}
 }
