@@ -6792,6 +6792,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["벤"] = {
+			["지"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6871,7 +6876,18 @@ function temp()
 	uv0["멤"] = {
 		["피"] = {
 			["스"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -7015,6 +7031,11 @@ function temp()
 								}
 							}
 						}
+					}
+				},
+				["체"] = {
+					["셔"] = {
+						this = true
 					}
 				}
 			}
@@ -7348,6 +7369,15 @@ function temp()
 			["레"] = {
 				["피"] = {
 					["드"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["도"] = {
+			["미"] = {
+				["터"] = {
+					["블"] = {
 						this = true
 					}
 				}
@@ -8444,6 +8474,11 @@ function temp()
 	uv0["저"] = {
 		["지"] = {
 			this = true
+		},
+		["비"] = {
+			["스"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -8588,6 +8623,11 @@ function temp()
 		},
 		this = {
 			this = true
+		},
+		["로"] = {
+			["나"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -8895,7 +8935,12 @@ function temp()
 	uv0["유"] = {
 		["니"] = {
 			["콘"] = {
-				this = true
+				this = true,
+				["·"] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		},
 		["다"] = {
@@ -10310,6 +10355,18 @@ function temp()
 	uv0["튀"] = {
 		["링"] = {
 			["겐"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["뱅"] = {
+		["가"] = {
+			["드"] = {
 				this = true
 			}
 		}

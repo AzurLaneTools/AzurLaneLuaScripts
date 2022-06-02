@@ -721,7 +721,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 34,
-		name = "东煌时尚",
+		name = "이스트 글림 패션",
 		ids = {
 			560,
 			561,

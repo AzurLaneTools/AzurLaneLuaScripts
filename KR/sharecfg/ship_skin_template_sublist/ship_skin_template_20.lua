@@ -9663,7 +9663,7 @@ pg.ship_skin_template_20 = {
 	},
 	[499051] = {
 		ship_group = 49905,
-		name = "모항의 드레곤 메이드",
+		name = "모항의 드래곤 메이드",
 		bullet_skin_secondary = "",
 		hand_id = 1,
 		bgm = "",

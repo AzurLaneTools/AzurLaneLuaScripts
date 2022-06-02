@@ -292,7 +292,7 @@ pg.activity_template = {
 				{
 					2022,
 					7,
-					15
+					7
 				},
 				{
 					23,
@@ -332,7 +332,7 @@ pg.activity_template = {
 				{
 					2022,
 					7,
-					15
+					7
 				},
 				{
 					23,

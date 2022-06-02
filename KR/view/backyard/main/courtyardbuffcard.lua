@@ -9,7 +9,7 @@ end
 
 function slot0.Flush(slot0, slot1)
 	slot0.buff = slot1
-	slot0.icon.sprite = LoadSprite(slot1:getConfig("icon") .. "_backyard")
+	slot0.icon.sprite = LoadSprite(slot1:getConfig("icon") .. "_backyard") or LoadSprite(slot1:getConfig("icon"))
 
 	slot0:RemoveTimer()
 

@@ -6865,7 +6865,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 泠誓光庭",
+				"한정 이벤트: 빛나는 정원의 맹세",
 				{
 					""
 				},
@@ -7870,7 +7870,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 泠誓光庭",
+				"한정 이벤트: 빛나는 정원의 맹세",
 				{
 					""
 				},
@@ -8550,7 +8550,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 奶油曲奇带夹心！",
+				"한정 이벤트: 크림 쿠키 앤하트!",
 				{
 					""
 				},
@@ -8907,7 +8907,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 泠誓光庭",
+				"한정 이벤트: 빛나는 정원의 맹세",
 				{
 					""
 				},
@@ -9206,7 +9206,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 泠誓光庭",
+				"한정 이벤트: 빛나는 정원의 맹세",
 				{
 					""
 				},
@@ -9279,7 +9279,7 @@ pg.ship_data_group = {
 		}
 	},
 	[142] = {
-		trans_skin = 0,
+		trans_skin = 206039,
 		redirect_id = 101,
 		hide = 0,
 		type = 6,
@@ -9297,7 +9297,14 @@ pg.ship_data_group = {
 			"B",
 			"C"
 		},
-		trans_radar_chart = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
 		trans_skill = {},
 		description = {
 			{
@@ -9802,7 +9809,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 泠誓光庭",
+				"한정 이벤트: 빛나는 정원의 맹세",
 				{
 					""
 				},

@@ -305,16 +305,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "해군 카레|단맛? 매운맛? 취향은 사람마다 제각각...<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+		param = "쫑즈|단오절에 당연히 쫑즈 먹어야 하지!<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		id = 10,
-		pic = "haijungali",
+		pic = "zongzi",
 		type = 10,
 		time = {
 			{
 				{
 					2022,
-					2,
-					24
+					6,
+					2
 				},
 				{
 					0,
@@ -325,8 +325,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					2,
-					24
+					6,
+					9
 				},
 				{
 					23,
