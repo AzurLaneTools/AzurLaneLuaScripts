@@ -16659,7 +16659,7 @@ _G.pg.base.item_data_statistics[40126] = {
 
 _G.pg.base.item_data_statistics[40128] = {
 	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
-	name = "限时建造补给(高级)",
+	name = "한정 건조 보급(고급)",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -168178,8 +168178,8 @@ _G.pg.base.item_data_statistics[60242] = {
 }
 
 _G.pg.base.item_data_statistics[60243] = {
-	display = "빅토리어스에게 받은 연회 초대의 답례",
-	name = "빅토리어스의 답례",
+	display = "르 말랭에게 받은 연회 초대의 답례",
+	name = "르 말랭의 답례",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
