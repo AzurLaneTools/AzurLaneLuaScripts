@@ -4481,9 +4481,9 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 About META Showdown:
 
-1. From <color=#92fc63>3/10/22 to 6/8/22</color>, challenge Scharnhorst META
+1. From <color=#92fc63>6/9/22 to 8/31/22</color>, challenge Repulse META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Scharnhorst META</color> as well
+to obtain the limited character, <color=#92fc63>Repulse META</color> as well
 as other great rewards.
  <color=#ff5c5c>Notice: Sync Points will expire after the event period ends.</color>
 
@@ -20453,7 +20453,7 @@ _G.pg.base.gametip.choose_ship_to_wear_this_skin = {
 }
 
 _G.pg.base.gametip.skinatlas_search_holder = {
-	tip = "Search for the name of a skin or shipgirl."
+	tip = "Search by skin / ship name"
 }
 
 _G.pg.base.gametip.skinatlas_search_result_is_empty = {
