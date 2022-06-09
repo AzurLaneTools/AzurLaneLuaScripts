@@ -17417,5 +17417,10 @@ cs.gametip = {
 		585864,
 		101,
 		true
+	},
+	title_info = {
+		585965,
+		80,
+		true
 	}
 }

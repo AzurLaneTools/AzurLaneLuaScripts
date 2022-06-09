@@ -55,7 +55,6 @@ function slot1.SetArgs(slot0, slot1, slot2)
 
 	slot9:SetReferenceUnit(slot1)
 	slot9:ConfigData(slot9.FOLLOW)
-	slot0._aura:SetReferenceUnit(slot1)
 end
 
 function slot1.onAttach(slot0, slot1, slot2)

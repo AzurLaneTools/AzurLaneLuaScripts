@@ -21,6 +21,10 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/bg/title"), i18n("nav_tactics_sel_skill_title"))
 end
 
+function slot0.SetCancelCallback(slot0, slot1)
+	slot0.onCancelCallback = slot1
+end
+
 function slot0.SetHideCallback(slot0, slot1)
 	slot0.onHideCallback = slot1
 end
@@ -29,6 +33,12 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Cancel()
 		uv0:Hide()
+
+		if uv0.onCancelCallback then
+			uv0.onCancelCallback()
+
+			uv0.onCancelCallback = nil
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confrimBtn, function ()
 		if not uv0.selSkill or not uv0.selIndex then

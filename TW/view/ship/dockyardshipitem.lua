@@ -34,6 +34,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.lock = findTF(slot0.tr, "content/dockyard/container/lock")
 	slot0.maskStatusOb = findTF(slot0.tr, "content/front/status_mask")
 	slot0.iconStatus = findTF(slot0.tr, "content/dockyard/status")
+	slot0.statusText = findTF(slot0.tr, "content/dockyard/status/Text")
 	slot0.iconStatusTxt = findTF(slot0.tr, "content/dockyard/status/Text"):GetComponent("Text")
 	slot0.selectedGo = findTF(slot0.tr, "content/front/selected").gameObject
 	slot0.energyTF = findTF(slot0.tr, "content/dockyard/container/energy")
@@ -153,8 +154,7 @@ function slot0.flush(slot0)
 		end
 
 		if slot6 then
-			slot0.iconStatusTxt.text = slot6[3]
-
+			setScrollText(slot0.statusText, slot6[3] .. slot6[3] .. slot6[3])
 			GetSpriteFromAtlasAsync(slot6[1], slot6[2], function (slot0)
 				setImageSprite(uv0.iconStatus, slot0, true)
 				setActive(uv0.iconStatus, true)

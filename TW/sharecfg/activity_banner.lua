@@ -344,7 +344,7 @@ pg.activity_banner = {
 	},
 	{
 		id = 11,
-		pic = "temp8",
+		pic = "temp9",
 		type = 2,
 		param = {
 			"scene charge",

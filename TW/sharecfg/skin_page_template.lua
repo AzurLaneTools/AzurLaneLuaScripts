@@ -90,18 +90,6 @@ pg.skin_page_template = {
 		res = "jianianhua",
 		english_name = "Carnival"
 	},
-	[17] = {
-		id = 17,
-		name = "女僕時間",
-		res = "nvpu",
-		english_name = "Maid"
-	},
-	[18] = {
-		id = 18,
-		name = "紅月之夜 ",
-		res = "xixuegui",
-		english_name = "VAMPIRE NIGHT"
-	},
 	[9997] = {
 		id = 9997,
 		name = "改造",
@@ -136,8 +124,6 @@ pg.skin_page_template = {
 		14,
 		15,
 		16,
-		17,
-		18,
 		9997,
 		9998,
 		9999

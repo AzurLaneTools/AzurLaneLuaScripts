@@ -19026,3 +19026,7 @@ _G.pg.base.gametip.build_times_tip = {
 _G.pg.base.gametip.tactics_recent_ship_label = {
 	tip = "最近學習"
 }
+
+_G.pg.base.gametip.title_info = {
+	tip = "訊息"
+}

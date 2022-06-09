@@ -285,10 +285,13 @@ function slot11(slot0, slot1)
 	slot0._animator = slot1:GetComponent(typeof(Animator))
 	slot0.animationClipNames = {}
 
-	for slot7 = 0, slot0._animator.runtimeAnimatorController.animationClips.Length - 1 do
-		table.insert(slot0.animationClipNames, slot2[slot7].name)
-	end
-
+	onNextTick(function ()
+		if uv0._animator and uv0._animator.runtimeAnimatorController then
+			for slot5 = 0, uv0._animator.runtimeAnimatorController.animationClips.Length - 1 do
+				table.insert(uv0.animationClipNames, slot0[slot5].name)
+			end
+		end
+	end)
 	slot0.liveCom:SetReactMotions(uv0.idleActions)
 	slot0.liveCom:SetAction(uv0.action2Id.idle)
 
@@ -318,20 +321,20 @@ function slot11(slot0, slot1)
 		slot0.drags = {}
 		slot0.dragParts = {}
 
-		for slot8 = 1, #uv0.assistantTouchParts do
-			table.insert(slot0.dragParts, uv0.assistantTouchParts[slot8])
+		for slot6 = 1, #uv0.assistantTouchParts do
+			table.insert(slot0.dragParts, uv0.assistantTouchParts[slot6])
 		end
 
-		for slot8, slot9 in ipairs(slot0.live2dData.shipL2dId) do
-			if pg.ship_l2d[slot9] and slot0.liveCom:GetCubismParameter(slot10.parameter) then
-				slot12 = uv1(slot10)
+		for slot6, slot7 in ipairs(slot0.live2dData.shipL2dId) do
+			if pg.ship_l2d[slot7] and slot0.liveCom:GetCubismParameter(slot8.parameter) then
+				slot10 = uv1(slot8)
 
-				slot12:setParameterCom(slot11, function (slot0, slot1)
+				slot10:setParameterCom(slot9, function (slot0, slot1)
 					uv0:onDragCallback(slot0, slot1)
 				end)
-				slot0.liveCom:AddParameterValue(slot12.parameterName, slot12.startValue, uv2[slot10.mode])
-				table.insert(slot0.drags, slot12)
-				table.insert(slot0.dragParts, slot12.drawAbleName)
+				slot0.liveCom:AddParameterValue(slot10.parameterName, slot10.startValue, uv2[slot8.mode])
+				table.insert(slot0.drags, slot10)
+				table.insert(slot0.dragParts, slot10.drawAbleName)
 			end
 		end
 
@@ -420,7 +423,7 @@ function slot0.SetVisible(slot0, slot1)
 
 	if slot1 then
 		slot0._readlyToStop = false
-		slot0._animator.enabled = true
+		slot0._animator.speed = 1
 
 		onDelayTick(function ()
 			if not uv0._readlyToStop then
@@ -437,7 +440,7 @@ function slot0.SetVisible(slot0, slot1)
 
 		onDelayTick(function ()
 			if uv0._readlyToStop then
-				uv0._animator.enabled = false
+				uv0._animator.speed = 0
 			end
 		end, 2)
 	end

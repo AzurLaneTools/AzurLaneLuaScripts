@@ -1,13 +1,11 @@
 slot0 = class("SkinAtlasIndexLayer", import("...common.CustomIndexLayer"))
-slot0.ExtraALL = bit.lshift(1, 0)
-slot0.ExtraL2D = bit.lshift(1, 1)
-slot0.ExtraDBG = bit.lshift(1, 2)
-slot0.ExtraBG = bit.lshift(1, 3)
-slot0.ExtraBGM = bit.lshift(1, 4)
-slot0.ExtraCANTUSE = bit.lshift(1, 5)
-slot0.ExtraUNUSE = bit.lshift(1, 6)
+slot0.ExtraL2D = bit.lshift(1, 0)
+slot0.ExtraDBG = bit.lshift(1, 1)
+slot0.ExtraBG = bit.lshift(1, 2)
+slot0.ExtraBGM = bit.lshift(1, 3)
+slot0.ExtraCANTUSE = bit.lshift(1, 4)
+slot0.ExtraUNUSE = bit.lshift(1, 5)
 slot0.ExtraIndexs = {
-	slot0.ExtraALL,
 	slot0.ExtraL2D,
 	slot0.ExtraDBG,
 	slot0.ExtraBG,
@@ -15,6 +13,10 @@ slot0.ExtraIndexs = {
 	slot0.ExtraCANTUSE,
 	slot0.ExtraUNUSE
 }
+slot0.ExtraALL = IndexConst.BitAll(slot0.ExtraIndexs)
+
+table.insert(slot0.ExtraIndexs, 1, slot0.ExtraALL)
+
 slot0.ExtraNames = {
 	"index_all",
 	"index_L2D",
@@ -54,7 +56,7 @@ function slot0.filterByExtra(slot0, slot1)
 	end
 
 	for slot5 = 2, #uv1 do
-		if bit.band(bit.lshift(1, slot5 - 1), slot1) > 0 and uv1[slot5](slot0) then
+		if bit.band(bit.lshift(1, slot5 - 2), slot1) > 0 and uv1[slot5](slot0) then
 			return true
 		end
 	end

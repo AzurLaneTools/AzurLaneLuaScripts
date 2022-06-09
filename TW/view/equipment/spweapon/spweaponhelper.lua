@@ -92,6 +92,7 @@ function updateSpWeaponInfo(slot0, slot1, slot2)
 
 	uv1(slot0:Find("attrs"), slot3, slot4)
 	uv2(slot0:Find("part/attr"), {
+		value = "",
 		name = i18n("equip_info_23")
 	})
 
