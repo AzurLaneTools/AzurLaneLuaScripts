@@ -160,8 +160,12 @@ end
 
 function slot0.updateAttireFrame(slot0, slot1)
 	if slot1:getType() == AttireConst.TYPE_ICON_FRAME then
+		assert(slot0.data.iconFrames[slot1.id])
+
 		slot0.data.iconFrames[slot1.id] = slot1
 	elseif slot2 == AttireConst.TYPE_CHAT_FRAME then
+		assert(slot0.data.chatFrames[slot1.id])
+
 		slot0.data.chatFrames[slot1.id] = slot1
 	end
 

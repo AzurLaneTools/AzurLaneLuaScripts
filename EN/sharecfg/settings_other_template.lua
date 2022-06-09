@@ -151,6 +151,15 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		title = "Display Quick-Switch Prompt ",
 		desc = "When toggled ON, gives a confirmation prompt when you're quick-switching gear. "
 	},
+	{
+		default = 1,
+		name = "GYRO_ENABLE",
+		type = 0,
+		alignment = 0,
+		id = 15,
+		title = "L2D Gyroscope Functionality",
+		desc = "When toggled ON, some L2D animations will react to your device's gyroscopic sensor."
+	},
 	all = {
 		1,
 		2,
@@ -165,6 +174,7 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }

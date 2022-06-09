@@ -4,6 +4,10 @@ function slot0.GetEventName(slot0)
 	return "event_escort"
 end
 
+function slot0.GetActivityID(slot0)
+	return nil
+end
+
 function slot0.OnInit(slot0)
 	slot1 = getProxy(ChapterProxy)
 	slot0.maxTimes = slot1:getMaxEscortChallengeTimes()

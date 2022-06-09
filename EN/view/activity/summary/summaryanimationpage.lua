@@ -1,6 +1,7 @@
 slot0 = class("SummaryAnimationPage", import(".SummaryPage"))
 
 function slot0.OnInit(slot0)
+	assert(false, "must be overwrite")
 end
 
 function slot0.Show(slot0, slot1, slot2)

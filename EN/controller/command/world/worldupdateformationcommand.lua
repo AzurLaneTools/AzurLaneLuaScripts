@@ -1,14 +1,17 @@
 slot0 = class("WorldUpdateFormationCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot3 = nowWorld()
-	slot4 = slot3:GetActiveMap()
-	slot6 = pg.ConnectionMgr.GetInstance()
+	slot4 = nowWorld():GetActiveMap()
 
-	slot6:Send(33405, {
-		fleet_list = _.map(slot1:getBody().list, function (slot0)
+	assert(#slot1:getBody().list > 0)
+	pg.ConnectionMgr.GetInstance():Send(33405, {
+		fleet_list = _.map(slot2.list, function (slot0)
+			slot1 = slot0.fleetId
+
+			assert(uv0:InPort(slot1), "fleet not in port: " .. slot1)
+
 			return {
-				group_id = slot0.fleetId,
+				group_id = slot1,
 				ship_id = _.map(slot0.ships, function (slot0)
 					return slot0.id
 				end)

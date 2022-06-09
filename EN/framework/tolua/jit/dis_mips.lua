@@ -781,8 +781,12 @@ function slot37(slot0)
 					end
 				end
 			end
-		elseif slot12 == "1" and slot3 == "ra" then
-			slot2[#slot2] = nil
+		elseif slot12 == "1" then
+			if slot3 == "ra" then
+				slot2[#slot2] = nil
+			end
+		else
+			assert(false)
 		end
 
 		if slot13 then

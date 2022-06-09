@@ -220,6 +220,8 @@ function slot0.InitCustoms(slot0, slot1)
 	end)
 
 	if slot1.simpleDropdown then
+		assert(slot7 == uv0.Mode.OR, "simpleDropdown目前只支持OR模式")
+
 		slot12 = slot4:Find("bg/panel"):GetChild(0)
 
 		for slot16, slot17 in ipairs(slot1.simpleDropdown) do

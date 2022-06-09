@@ -354,6 +354,8 @@ function slot0.CheckCollide(slot0)
 		slot0.view:UpdateScore(slot0.model.score, slot0.item)
 		slot0:CheckRock()
 		slot0:OnStartGame(true)
+	else
+		assert(false, "Why is it running here?")
 	end
 end
 

@@ -5,6 +5,9 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.Ctor(slot0, slot1, slot2)
+	assert(slot1.id)
+	assert(slot2)
+
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.shipVO = slot2
@@ -37,6 +40,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.getBreakOutInfo(slot0)
+	assert(slot0.shipVO)
+
 	slot1 = slot0.shipVO
 
 	if not slot0.beakOutInfo or slot1.configId ~= slot0.beakOutInfo.id then
@@ -156,6 +161,8 @@ function slot0.getTotalMaxAddition(slot0)
 end
 
 function slot0.getFinalAddition(slot0, slot1)
+	assert(slot1, "shipVO can not be nil")
+
 	slot3 = slot0:getTotalMaxAddition()
 
 	for slot7, slot8 in pairs(slot1:getBaseProperties()) do

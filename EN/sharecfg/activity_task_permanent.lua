@@ -308,6 +308,32 @@ pg.activity_task_permanent = {
 			35153
 		}
 	},
+	[6013] = {
+		gametip = "Get an outfit for Cavalla!",
+		banner_route = "permanent_jiqi",
+		gametip_extra = "Takes at least 7 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6013,
+		activity_name = "Colorful Ceremony ",
+		over_task_id = "",
+		eliminate_task_id = {
+			35154,
+			35155,
+			35156,
+			35157,
+			35158,
+			35159,
+			35160,
+			35161,
+			35162,
+			35163,
+			35164,
+			35165,
+			35166,
+			35167
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -321,6 +347,7 @@ pg.activity_task_permanent = {
 		6009,
 		6010,
 		6011,
-		6012
+		6012,
+		6013
 	}
 }

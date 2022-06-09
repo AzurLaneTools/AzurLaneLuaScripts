@@ -106,6 +106,7 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.GetResField(slot0)
+	assert(false)
 end
 
 return slot0

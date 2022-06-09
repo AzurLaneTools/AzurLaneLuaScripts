@@ -6,15 +6,12 @@ slot0.Fields = {
 	type = "number",
 	lastTime = "number",
 	fightCount = "number",
-	friendSupport = "number",
+	rankCount = "number",
 	player = "table",
 	joinTime = "number",
-	guildSupport = "number",
-	hp = "number",
-	worldSupport = "number",
-	id = "number",
-	rankCount = "number",
 	level = "number",
+	hp = "number",
+	id = "number",
 	killTime = "number"
 }
 slot0.SUPPORT_TYPE_FRIEND = 1
@@ -32,9 +29,6 @@ function slot0.Setup(slot0, slot1, slot2)
 	slot0.level = slot1.lv
 	slot0.owner = slot1.owner
 	slot0.lastTime = slot1.last_time
-	slot0.guildSupport = 0
-	slot0.friendSupport = slot1.friend_support or 0
-	slot0.worldSupport = slot1.world_support or 0
 	slot0.killTime = slot1.kill_time or 0
 	slot0.player = slot2
 	slot0.joinTime = joinTime or 0
@@ -82,9 +76,7 @@ function slot0.GetOilConsume(slot0)
 		return 0
 	end
 
-	slot2 = pg.gameset.joint_boss_oil_consume.description
-
-	return slot2[math.min(slot0.fightCount + 1, #slot2)]
+	return WorldBossConst.GetBossOilConsume(slot0.fightCount + 1)
 end
 
 function slot0.SetRankCnt(slot0, slot1)
@@ -180,34 +172,6 @@ function slot0.UpdateKillTime(slot0)
 	if nowWorld():GetBossProxy():GetRank(slot0.id) and #slot2 > 1 then
 		slot0.killTime = pg.TimeMgr.GetInstance():GetServerTime() + pg.gameset.world_boss_rank_wait_time.key_value
 	end
-end
-
-function slot0.FriendSupported(slot0)
-	return slot0.friendSupport == 1
-end
-
-function slot0.UpdateFriendSupported(slot0)
-	slot0.friendSupport = 1
-end
-
-function slot0.GuildSupported(slot0)
-	return slot0.guildSupport == 1
-end
-
-function slot0.UpdateGuildSupported(slot0)
-	slot0.guildSupport = 1
-end
-
-function slot0.WorldSupported(slot0)
-	return pg.TimeMgr.GetInstance():GetServerTime() < slot0.worldSupport
-end
-
-function slot0.UpdateWorldSupported(slot0)
-	slot0.worldSupport = pg.TimeMgr.GetInstance():GetServerTime() + pg.gameset.joint_boss_world_time.key_value
-end
-
-function slot0.GetNextWorldSupportTime(slot0)
-	return slot0.worldSupport
 end
 
 function slot0.GetAwards(slot0)

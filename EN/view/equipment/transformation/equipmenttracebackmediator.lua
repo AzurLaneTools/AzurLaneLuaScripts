@@ -7,6 +7,7 @@ function slot0.register(slot0)
 	slot0.env = {}
 
 	slot0:getViewComponent():SetEnv(slot0.env)
+	assert(slot0.contextData.TargetEquipmentId, "Should Set TargetEquipment First")
 
 	slot0.env.tracebackHelper = getProxy(EquipmentProxy):GetWeakEquipsDict()
 

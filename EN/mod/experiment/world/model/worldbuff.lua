@@ -15,12 +15,17 @@ slot0.TrapCripple = 5
 slot0.TrapFrozen = 6
 
 function slot0.GetTemplate(slot0)
+	assert(pg.world_SLGbuff_data[slot0], "without this buff " .. slot0)
+
 	return pg.world_SLGbuff_data[slot0]
 end
 
 function slot0.Setup(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.config = uv0.GetTemplate(slot0.id)
+
+	assert(slot0.config, "world_SLGbuff_data not exist: " .. slot0.id)
+
 	slot0.floor = math.min(slot1.floor, slot0:GetMaxFloor())
 	slot0.time = slot1.time ~= 0 and slot1.time or nil
 	slot0.round = slot1.round ~= 0 and slot1.round or nil

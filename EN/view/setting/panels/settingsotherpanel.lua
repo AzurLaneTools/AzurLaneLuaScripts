@@ -159,7 +159,7 @@ function slot0.GetList(slot0)
 					-- Nothing
 				end
 			end
-		else
+		elseif not LOCK_L2D_GYRO or slot6 ~= 15 then
 			table.insert(slot1, pg.settings_other_template[slot6])
 		end
 	end

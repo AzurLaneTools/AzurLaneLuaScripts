@@ -1,7 +1,11 @@
 slot0 = class("UserRegisterCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	if slot1:getBody().type ~= 2 then
+	slot2 = slot1:getBody()
+
+	assert(isa(slot2, User), "should be an instance of User")
+
+	if slot2.type ~= 2 then
 		originalPrint("用户类型错误")
 
 		return

@@ -7,6 +7,7 @@ slot0.TipWords = {
 }
 
 function slot0.getUIName(slot0)
+	assert(false)
 end
 
 function slot0.setItemVO(slot0, slot1)

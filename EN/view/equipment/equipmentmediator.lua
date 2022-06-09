@@ -3,6 +3,8 @@ slot0.ON_DESTROY = "EquipmentMediator:ON_DESTROY"
 slot0.ON_UNEQUIP_EQUIPMENT = "EquipmentMediator:ON_UNEQUIP_EQUIPMENT"
 slot0.OPEN_DESIGN = "EquipmentMediator:OPEN_DESIGN"
 slot0.CLOSE_DESIGN_LAYER = "EquipmentMediator:CLOSE_DESIGN_LAYER"
+slot0.OPEN_SPWEAPON_DESIGN = "EquipmentMediator:OPEN_SPWEAPON_DESIGN"
+slot0.CLOSE_SPWEAPON_DESIGN_LAYER = "EquipmentMediator:CLOSE_SPWEAPON_DESIGN_LAYER"
 slot0.BATCHDESTROY_MODE = "EquipmentMediator:BATCHDESTROY_MODE"
 slot0.ON_EQUIPMENT_SKIN_INFO = "EquipmentMediator:ON_EQUIPMENT_SKIN_INFO"
 slot0.ON_UNEQUIP_EQUIPMENT_SKIN = "EquipmentMediator:ON_UNEQUIP_EQUIPMENT_SKIN"
@@ -55,6 +57,26 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.CLOSE_DESIGN_LAYER, function (slot0)
 		if getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(EquipmentDesignMediator) then
+			uv0:sendNotification(GAME.REMOVE_LAYERS, {
+				context = slot3
+			})
+		end
+	end)
+	slot0:bind(uv0.OPEN_SPWEAPON_DESIGN, function (slot0)
+		if getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(SpWeaponDesignMediator) then
+			return
+		end
+
+		uv0:addSubLayers(Context.New({
+			viewComponent = SpWeaponDesignLayer,
+			mediator = SpWeaponDesignMediator,
+			data = {
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
+			}
+		}))
+	end)
+	slot0:bind(uv0.CLOSE_SPWEAPON_DESIGN_LAYER, function (slot0)
+		if getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(SpWeaponDesignMediator) then
 			uv0:sendNotification(GAME.REMOVE_LAYERS, {
 				context = slot3
 			})
@@ -144,8 +166,21 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setEquipments(slot3)
 	slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
+	slot0:UpdateSpWeapons()
 	slot0.viewComponent:setItems(getProxy(BagProxy):getItemsByExclude())
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+end
+
+function slot0.UpdateSpWeapons(slot0)
+	slot2 = getProxy(BayProxy):GetSpWeaponsInShips(getProxy(BayProxy):RawGetShipById(slot0.contextData.shipId))
+
+	for slot7, slot8 in ipairs(_.values(getProxy(EquipmentProxy):GetSpWeapons())) do
+		if not slot1 or not slot1:IsSpWeaponForbidden(slot8) then
+			table.insert(slot2, slot8)
+		end
+	end
+
+	slot0.viewComponent:SetSpWeapons(slot2)
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -168,7 +203,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE,
 		uv0.NO_UPDATE,
 		GAME.FRAG_SELL_DONE,
-		GAME.TRANSFORM_EQUIPMENT_AWARD_FINISHED
+		GAME.TRANSFORM_EQUIPMENT_AWARD_FINISHED,
+		EquipmentProxy.SPWEAPONS_UPDATED
 	}
 end
 
@@ -237,6 +273,9 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.canUpdate = false
 	elseif slot2 == GAME.TRANSFORM_EQUIPMENT_AWARD_FINISHED then
 		slot0:getViewComponent():Scroll2Equip(slot3.newEquip)
+	elseif slot2 == EquipmentProxy.SPWEAPONS_UPDATED then
+		slot0:UpdateSpWeapons()
+		slot0.viewComponent:SetSpWeaponUpdate()
 	end
 end
 

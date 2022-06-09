@@ -686,6 +686,8 @@ function slot0.handleNotification(slot0, slot1)
 					coroutine.yield()
 				end
 
+				assert(slot2)
+
 				if slot0 == ChapterConst.OpSkipBattle then
 					slot4 = uv1.viewComponent.levelStageView
 
@@ -814,7 +816,11 @@ function slot0.handleNotification(slot0, slot1)
 						coroutine.yield()
 
 						if uv0.aiActs and #uv0.aiActs > 0 then
-							uv1.viewComponent:doPlayCommander(slot2.fleet:findCommanderBySkillId(uv0.aiActs[1].commanderSkillEffectId), uv2)
+							slot7 = uv0.aiActs[1].commanderSkillEffectId
+							slot8 = slot2.fleet:findCommanderBySkillId(slot7)
+
+							assert(slot8, "can not find commander by skill: " .. slot7)
+							uv1.viewComponent:doPlayCommander(slot8, uv2)
 							coroutine.yield()
 							uv1.viewComponent:easeAvoid(uv1.viewComponent.grid.cellFleets[slot2.fleets[slot2.findex].id].tf.position, uv2)
 							coroutine.yield()
@@ -979,6 +985,8 @@ function slot0.handleNotification(slot0, slot1)
 			(function ()
 				if uv0 and coroutine.status(uv0) == "suspended" then
 					slot0, slot1 = coroutine.resume(uv0)
+
+					assert(slot0, debug.traceback(uv0, slot1))
 				end
 			end)()
 
@@ -1020,6 +1028,8 @@ function slot0.handleNotification(slot0, slot1)
 			(function ()
 				if uv0 and coroutine.status(uv0) == "suspended" then
 					slot0, slot1 = coroutine.resume(uv0)
+
+					assert(slot0, debug.traceback(uv0, slot1))
 				end
 			end)()
 		elseif slot2 == GAME.SUB_CHAPTER_FETCH_DONE then
@@ -1076,6 +1086,7 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
+	assert(slot1)
 	seriesAsync({
 		function (slot0)
 			if not uv0 then
@@ -1120,7 +1131,11 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 					uv2:sendNotification(GAME.SUBMIT_TASK, slot7)
 
 					if slot5 == slot4[#slot4] then
-						slot12 = getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_ID_US_SKIRMISH_RE):getConfig("config_data")
+						slot10 = ActivityConst.ACTIVITY_ID_US_SKIRMISH_RE
+
+						assert(getProxy(ActivityProxy):getActivityById(slot10), "Missing Skirmish Activity " .. (slot10 or "NIL"))
+
+						slot12 = slot11:getConfig("config_data")
 
 						if slot6:getTaskVO(slot12[#slot12][2]) and slot14:getTaskStatus() < 2 then
 							uv2.contextData.TaskToSubmit = slot13
@@ -1361,6 +1376,7 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 		for slot5, slot6 in ipairs(uv2) do
 			slot8, slot9 = slot6:applyTo(uv0.contextData.chapterVO, true)
 
+			assert(slot8, slot9)
 			slot6:PlayAIAction(uv0.contextData.chapterVO, uv0, function ()
 				slot0, slot1, slot2 = uv0:applyTo(uv1, false)
 
@@ -1408,6 +1424,8 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 	(function ()
 		if uv0 and coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
+
+			assert(slot0, debug.traceback(uv0, slot1))
 
 			if not slot0 then
 				uv1.viewComponent:unfrozen(-1)

@@ -15,9 +15,10 @@ function slot1.InstantiateBullet(slot0, slot1, slot2)
 		slot2(slot0._bulletResCache[slot1])
 	else
 		ResourceMgr.Inst:getAssetAsync("Item/" .. slot1, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			uv0(slot0)
+			assert(slot0, "子弹资源加载失败：" .. uv0)
+			uv1(slot0)
 
-			uv1._bulletResCache[uv2] = slot0
+			uv2._bulletResCache[uv0] = slot0
 		end), true, true)
 	end
 end

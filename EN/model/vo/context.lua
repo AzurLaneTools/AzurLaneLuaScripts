@@ -22,18 +22,27 @@ function slot0.extendData(slot0, slot1)
 		return
 	end
 
+	assert(type(slot1) == "table", "data object should be a table")
+
 	for slot5, slot6 in pairs(slot1) do
 		slot0.data[slot5] = slot6
 	end
 end
 
 function slot0.addChild(slot0, slot1)
+	assert(isa(slot1, Context), "should be an instance of Context")
+	assert(slot1.parent == nil, "context already has parent")
+
 	slot1.parent = slot0
 
 	table.insert(slot0.children, slot1)
 end
 
 function slot0.removeChild(slot0, slot1)
+	slot5 = Context
+
+	assert(isa(slot1, slot5), "should be an instance of Context")
+
 	for slot5, slot6 in ipairs(slot0.children) do
 		if slot6 == slot1 then
 			return table.remove(slot0.children, slot5)

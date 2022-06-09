@@ -192,7 +192,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704021] = {
-		breakout_view = "Unlock Cinders of Hope - Scharnhorst/Main gun base +1/Main gun efficiency +5%",
+		breakout_view = "Unlock Ashen Might - Scharnhorst/Main gun base +1/Main gun efficiency +5%",
 		gold = 1000,
 		breakout_id = 9704022,
 		repair = 0,
@@ -225,7 +225,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704023] = {
-		breakout_view = "Improve Cinders of Hope - Scharnhorst/ Main gun base +1/Main gun efficiency +15%",
+		breakout_view = "Improve Ashen Might - Scharnhorst/ Main gun base +1/Main gun efficiency +15%",
 		gold = 10000,
 		breakout_id = 9704024,
 		repair = 0,
@@ -254,6 +254,73 @@ pg.ship_meta_breakout = {
 		id = 9704024,
 		item1 = 21009,
 		pre_id = 9704023,
+		weapon_ids = {}
+	},
+	[9704031] = {
+		breakout_view = "Unlock Ashen Might - Scharnhorst/Main gun base +1/Main gun efficiency +5%",
+		gold = 1000,
+		breakout_id = 9704032,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9704031,
+		item1 = 21012,
+		pre_id = 0,
+		weapon_ids = {
+			24100,
+			24100
+		}
+	},
+	[9704032] = {
+		breakout_view = "Secondary Gun base +2/Main gun efficiency +10%",
+		gold = 3000,
+		breakout_id = 9704033,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9704032,
+		item1 = 21012,
+		pre_id = 9704031,
+		weapon_ids = {
+			21200,
+			21200,
+			21200
+		}
+	},
+	[9704033] = {
+		breakout_view = "Improve Ashen Might - Scharnhorst/ Main gun base +1/Main gun efficiency +15%",
+		gold = 10000,
+		breakout_id = 9704034,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9704033,
+		item1 = 21012,
+		pre_id = 9704032,
+		weapon_ids = {
+			24100,
+			24100,
+			24100
+		}
+	},
+	[9704034] = {
+		breakout_view = "N/A",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9704034,
+		item1 = 21012,
+		pre_id = 9704033,
 		weapon_ids = {}
 	},
 	[9705011] = {
@@ -751,6 +818,10 @@ pg.ship_meta_breakout = {
 		9704022,
 		9704023,
 		9704024,
+		9704031,
+		9704032,
+		9704033,
+		9704034,
 		9705011,
 		9705012,
 		9705013,

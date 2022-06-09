@@ -191,6 +191,7 @@ function slot0.UpdateTasks(slot0, slot1)
 				})
 			end
 		else
+			assert(slot6)
 			slot0:UpdateTaskTF(slot6)
 		end
 	else

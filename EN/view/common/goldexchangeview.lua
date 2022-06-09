@@ -35,6 +35,8 @@ function slot0.init(slot0)
 end
 
 function slot0.findTF(slot0, slot1, slot2)
+	assert(slot0._tf, "transform should exist")
+
 	return findTF(slot2 or slot0._tf, slot1)
 end
 

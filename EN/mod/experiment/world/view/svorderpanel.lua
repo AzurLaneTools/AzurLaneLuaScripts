@@ -305,6 +305,8 @@ function slot0.ShowMsgbox(slot0, slot1)
 		function slot7()
 			uv0:emit(WorldScene.SceneOp, "OpReqVision")
 		end
+	else
+		assert(false, "req error")
 	end
 
 	setText(slot0.rtMsgBase:Find("content"), slot5)

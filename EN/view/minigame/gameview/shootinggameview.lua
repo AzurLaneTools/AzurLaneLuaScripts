@@ -56,6 +56,10 @@ end
 
 function slot0.addTimer(slot0, slot1, slot2, slot3)
 	slot0.timerList = slot0.timerList or {}
+
+	assert(slot0.timerList[slot1] == nil, "error Timers")
+	assert(slot2 > 0, "duration must >0")
+
 	slot0.timerList[slot1] = {
 		timeMark = Time.realtimeSinceStartup + slot2,
 		func = slot3

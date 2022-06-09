@@ -304,6 +304,7 @@ function slot0.InitUI(slot0)
 			helps = pg.gametip.fleet_antisub_range_tip.tip
 		})
 	end, SFX_PANEL)
+	assert(OPEN_AIR_DOMINANCE, "Not Prepare for BANNED OPEN_AIR_DOMINANCE")
 
 	slot0.btnASHelp = slot0.dropDownSide:Find("help")
 

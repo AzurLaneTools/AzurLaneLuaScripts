@@ -2377,7 +2377,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 31,
+		is_show = 32,
 		config_data = {
 			1650001,
 			1650002,
@@ -3594,6 +3594,62 @@ pg.activity_template = {
 					"HEYAZHIYAN4"
 				}
 			}
+		}
+	},
+	[4426] = {
+		mark = 20220609,
+		config_client = "",
+		title_res_tag = "LevelOpenAct",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 31,
+		id = 4426,
+		config_data = {
+			{
+				17733,
+				17734,
+				17735,
+				17736,
+				17737,
+				17738,
+				17739,
+				17740,
+				17741,
+				17742,
+				17743
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					6,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SpecialWeaponActPage",
+			ui_name = "SpecialWeaponActPage"
 		}
 	},
 	[7001] = {
@@ -5073,6 +5129,51 @@ pg.activity_template = {
 					"U73HUOYUE5"
 				}
 			}
+		}
+	},
+	[6013] = {
+		mark = 20220609,
+		title_res_tag = "jiqilifu_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		id = 6013,
+		config_data = {
+			{
+				35154,
+				35155
+			},
+			{
+				35156,
+				35157
+			},
+			{
+				35158,
+				35159
+			},
+			{
+				35160,
+				35161
+			},
+			{
+				35162,
+				35163
+			},
+			{
+				35164,
+				35165
+			},
+			{
+				35166,
+				35167
+			}
+		},
+		page_info = {
+			class_name = "JiqilifuSkinPermanentPage",
+			ui_name = "JiqilifuSkinPermanentPage"
 		}
 	},
 	[100001] = {
@@ -22310,6 +22411,7 @@ pg.activity_template = {
 		4422,
 		4424,
 		4425,
+		4426,
 		7001,
 		7002,
 		7003,
@@ -22345,6 +22447,7 @@ pg.activity_template = {
 		6010,
 		6011,
 		6012,
+		6013,
 		100001,
 		100003,
 		100004,

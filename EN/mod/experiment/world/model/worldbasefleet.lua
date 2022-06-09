@@ -39,6 +39,8 @@ function slot0.UpdateShips(slot0, slot1)
 	slot0[TeamType.Submarine] = {}
 
 	_.each(slot1, function (slot0)
+		assert(slot0.class == WorldMapShip)
+
 		if slot0:IsValid() then
 			slot0.fleetId = uv0.id
 

@@ -168,18 +168,11 @@ function slot0.mainHandler(slot0, slot1)
 	end
 
 	if slot25 then
-		slot25:GetBossProxy():increasePt()
+		slot27 = slot25:GetBossProxy()
 
-		if slot13:getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot28:isEnd() then
-			slot29 = pg.gameset.joint_boss_ticket.description
-			slot31 = slot28.data1
-			slot32 = math.floor(slot29[1] * slot31 / slot29[math.min(#slot29, slot28.data2 + 1)])
-			slot28.data1 = slot32
-			slot28.data2 = 0
-
-			slot13:updateActivity(slot28)
-			slot25:GetBossProxy():UpdatedUnlockProgress(slot31, slot32)
-		end
+		slot27:increasePt()
+		slot27:ClearSummonPtDailyAcc()
+		slot27:ClearSummonPtOldAcc()
 	end
 
 	if slot13:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot27:isEnd() then

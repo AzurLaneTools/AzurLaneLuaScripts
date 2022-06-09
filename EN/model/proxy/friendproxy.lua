@@ -96,6 +96,8 @@ function slot0.getFriend(slot0, slot1)
 end
 
 function slot0.addChatMsg(slot0, slot1, slot2)
+	assert(isa(slot2, ChatMsg), "should be an instance of ChatMsg")
+
 	if slot0.data[slot1] then
 		slot3, slot4 = wordVer(slot2.content, {
 			isReplace = true
@@ -123,6 +125,7 @@ function slot0.addChatMsg(slot0, slot1, slot2)
 end
 
 function slot0.addFriend(slot0, slot1)
+	assert(not slot0.data[slot1.id], "friend already eixst" .. slot1.id)
 	slot1:display("added")
 
 	slot0.data[slot1.id] = {
@@ -134,6 +137,8 @@ function slot0.addFriend(slot0, slot1)
 end
 
 function slot0.updateFriend(slot0, slot1)
+	assert(slot0.data[slot1.id], "friend should eixst" .. slot1.id)
+
 	slot0.data[slot1.id].player = slot1
 
 	slot0:sendNotification(uv0.FRIEND_UPDATED, slot1:clone())
@@ -176,6 +181,8 @@ function slot0.getBlackList(slot0)
 end
 
 function slot0.relieveBlackListById(slot0, slot1)
+	assert(slot0.blackList[slot1], "friend should eixst>>" .. slot1)
+
 	slot0.blackList[slot1] = nil
 
 	slot0:sendNotification(uv0.RELIEVE_BLACKLIST, slot1)

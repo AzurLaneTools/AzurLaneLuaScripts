@@ -138,6 +138,8 @@ function slot0.DirToLine(slot0)
 			row = 0,
 			column = -1
 		}
+	else
+		assert(false, "without this dir " .. slot0)
 	end
 end
 
@@ -160,6 +162,8 @@ function slot0.IsRookieMap(slot0)
 end
 
 function slot0.GetRealmRookieId(slot0)
+	assert(slot0 and slot0 > 0)
+
 	return unpack(pg.gameset.world_default_entrance.description[slot0])
 end
 
@@ -173,6 +177,8 @@ function slot0.ParseConfigDir(slot0, slot1)
 	elseif slot1 == 1 then
 		return WorldConst.DirRight
 	end
+
+	assert(false)
 end
 
 function slot0.Pos2FogRes(slot0, slot1)
@@ -212,6 +218,8 @@ function slot0.GetTerrainEffectRes(slot0, slot1, slot2)
 
 		return "world/object/" .. slot3, slot3
 	end
+
+	assert(false)
 end
 
 function slot0.GetWindEffect()
@@ -299,8 +307,12 @@ slot0.DamageBuffList = pg.gameset.world_buff_morale.description
 
 function slot0.ExtendPropertiesRatesFromBuffList(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
+		assert(slot6.class == WorldBuff)
+
 		if slot6:IsValid() then
 			for slot10, slot11 in ipairs(slot6.config.buff_attr) do
+				assert(slot6.config.percent[slot10] == 1)
+
 				slot0[slot11] = defaultValue(slot0[slot11], 1) * (10000 + slot6.config.buff_effect[slot10] * slot6:GetFloor()) / 10000
 			end
 		end
@@ -309,6 +321,8 @@ end
 
 function slot0.AppendPropertiesFromBuffList(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
+		assert(slot7.class == WorldBuff)
+
 		if slot7:IsValid() then
 			for slot11, slot12 in ipairs(slot7.config.buff_attr) do
 				if slot7.config.percent[slot11] == 1 then
@@ -377,6 +391,8 @@ function slot0.GetMapIconState(slot0)
 		return "danger"
 	elseif slot0 == 3 then
 		return "danger"
+	else
+		assert(false, "config error:" .. slot0)
 	end
 end
 
@@ -387,6 +403,8 @@ function slot0.HasDangerConfirm(slot0)
 		return false
 	elseif slot0 == 3 then
 		return true
+	else
+		assert(false, "config error:" .. slot0)
 	end
 end
 
@@ -570,15 +588,27 @@ function slot0.CompareBuffs(slot0, slot1)
 end
 
 function slot0.FetchWorldShip(slot0)
-	return nowWorld():GetShip(slot0)
+	slot1 = nowWorld():GetShip(slot0)
+
+	assert(slot1, "world ship not exist: " .. slot0)
+
+	return slot1
 end
 
 function slot0.FetchShipVO(slot0)
-	return getProxy(BayProxy):getShipById(slot0)
+	slot2 = getProxy(BayProxy):getShipById(slot0)
+
+	assert(slot2, "ship not exist: " .. slot0)
+
+	return slot2
 end
 
 function slot0.FetchRawShipVO(slot0)
-	return getProxy(BayProxy):getRawData()[slot0]
+	slot2 = getProxy(BayProxy):getRawData()[slot0]
+
+	assert(slot2, "ship not exist: " .. slot0)
+
+	return slot2
 end
 
 function slot0.ReqWorldCheck(slot0)

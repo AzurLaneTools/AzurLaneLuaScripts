@@ -21,10 +21,24 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/bg/title"), i18n("nav_tactics_sel_skill_title"))
 end
 
+function slot0.SetCancelCallback(slot0, slot1)
+	slot0.onCancelCallback = slot1
+end
+
+function slot0.SetHideCallback(slot0, slot1)
+	slot0.onHideCallback = slot1
+end
+
 function slot0.OnInit(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Cancel()
 		uv0:Hide()
+
+		if uv0.onCancelCallback then
+			uv0.onCancelCallback()
+
+			uv0.onCancelCallback = nil
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confrimBtn, function ()
 		if not uv0.selSkill or not uv0.selIndex then
@@ -65,13 +79,19 @@ end
 function slot0.Hide(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
+
+	if slot0.onHideCallback then
+		slot0.onHideCallback()
+
+		slot0.onHideCallback = nil
+	end
 end
 
 function slot0.UpdateSkillList(slot0, slot1)
 	slot5 = #getProxy(BayProxy):RawGetShipById(slot1.shipId):getSkillList() >= 3 and slot4 or 3
 
 	for slot9 = 1, slot4 do
-		slot0:UpdateSkill(slot9, ShipSkill.New(slot2.skills[slot3[slot9]]))
+		slot0:UpdateSkill(slot9, ShipSkill.New(slot2.skills[slot3[slot9]], slot2.id))
 	end
 
 	slot6 = 0

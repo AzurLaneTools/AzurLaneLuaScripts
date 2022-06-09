@@ -53,6 +53,17 @@ function slot0.onRegister(slot0)
 					LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
 				}
 			}))
+		elseif slot1.type == DROP_TYPE_SPWEAPON then
+			uv0:addSubLayers(Context.New({
+				mediator = SpWeaponInfoMediator,
+				viewComponent = SpWeaponInfoLayer,
+				data = {
+					spWeaponConfigId = slot1.cfg.id,
+					type = SpWeaponInfoLayer.TYPE_DISPLAY,
+					onRemoved = slot2,
+					LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+				}
+			}))
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_SINGLE_ITEM,
@@ -267,6 +278,15 @@ function slot0.onRegister(slot0)
 			onRemoved = slot2
 		}))
 	end)
+	slot0:bind(BaseUI.ON_SPWEAPON, function (slot0, slot1)
+		slot1.type = defaultValue(slot1.type, SpWeaponInfoLayer.TYPE_DEFAULT)
+
+		uv0:addSubLayers(Context.New({
+			mediator = SpWeaponInfoMediator,
+			viewComponent = SpWeaponInfoLayer,
+			data = slot1
+		}))
+	end)
 	slot0:register()
 end
 
@@ -302,6 +322,8 @@ function slot0.remove(slot0)
 end
 
 function slot0.addSubLayers(slot0, slot1, slot2, slot3)
+	assert(isa(slot1, Context), "should be an instance of Context")
+
 	slot6 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(slot0.class)
 
 	if slot2 then
@@ -348,6 +370,8 @@ function slot0.onBackPressed(slot0, slot1)
 end
 
 function slot0.removeSubLayers(slot0, slot1, slot2)
+	assert(isa(slot1, uv0), "should be a ContextMediator Class")
+
 	if not getProxy(ContextProxy):getContextByMediator(slot0.class or slot0) then
 		return
 	end

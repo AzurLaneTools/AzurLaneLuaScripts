@@ -188,7 +188,8 @@ function slot0.handleNotification(slot0, slot1)
 			end
 		else
 			slot9 = slot5.op
-			slot2 = WorldConst.ReqName[slot9]
+
+			assert(WorldConst.ReqName[slot9], "invalid operation: " .. slot9)
 
 			if slot9 == WorldConst.OpReqTask then
 				-- Nothing

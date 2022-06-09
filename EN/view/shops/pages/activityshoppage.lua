@@ -5,6 +5,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.GetPaintingName(slot0)
+	assert(slot0.shop)
+
 	slot3 = getProxy(ActivityProxy):checkHxActivity(slot0.shop.activityId)
 
 	if pg.activity_template[slot0.shop.activityId] and slot1.config_client then

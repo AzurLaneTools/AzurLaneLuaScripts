@@ -1,5 +1,235 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
+	[201029] = {
+		ship_group = 20102,
+		name = "Acasta (Retrofit)",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201029,
+		group_index = 9,
+		prefab = "akasita_g",
+		painting = "akasita_g",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9997,
+		air_bomb_skin = "",
+		illustrator = 38,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Ardent told me I \"gotta stop looking so tired\" and I \"gotta be more girly,\" so I did it while I was retrofitting... Do you recognise me, Commander? ... Umm, I'm Acasta, okay?",
+		voice_actor = 110,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.41,
+					1.42,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.38,
+					1.34,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.4,
+					1.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.41,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201030] = {
+		ship_group = 20103,
+		name = "Ardent",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201030,
+		group_index = 0,
+		prefab = "rexin",
+		painting = "rexin",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 38,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "A-class destroyer – Ardent, Hull Number H41.",
+		voice_actor = 111,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.8,
+					1.01,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.8,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.04,
+					0.16,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.8,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.59,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201031] = {
 		ship_group = 20103,
 		name = "Ardent Valentine",
@@ -249,7 +479,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 38,
 		lip_smoothing = 0,
@@ -741,7 +971,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 17,
 		lip_smoothing = 0,
@@ -970,7 +1200,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 17,
 		lip_smoothing = 0,
@@ -1762,7 +1992,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 17,
 		lip_smoothing = 0,
@@ -2009,7 +2239,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 13,
 		lip_smoothing = 0,
@@ -2351,7 +2581,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 13,
 		lip_smoothing = 0,
@@ -3736,7 +3966,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		air_bomb_skin = "",
 		illustrator = 1,
 		lip_smoothing = 0,
@@ -3844,7 +4074,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 1,
 		lip_smoothing = 0,
@@ -4845,7 +5075,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		air_bomb_skin = "",
 		illustrator = 10,
 		lip_smoothing = 0,
@@ -6859,7 +7089,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 1,
 		lip_smoothing = 0,
@@ -7102,7 +7332,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 1,
 		lip_smoothing = 0,
@@ -7590,7 +7820,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		air_bomb_skin = "",
 		illustrator = 1,
 		lip_smoothing = 0,
@@ -9321,251 +9551,6 @@ pg.ship_skin_template_5 = {
 						{
 							-0.4,
 							2.24,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202112] = {
-		ship_group = 20211,
-		name = "Candy Maid",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "119",
-		id = 202112,
-		group_index = 2,
-		prefab = "aidingbao_3",
-		painting = "aidingbao_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70254,
-		shop_type_id = 8,
-		air_bomb_skin = "",
-		illustrator = 20,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Ahem! I made this special candy just for Halloween! Here, Commander, take some! Wooaaooah! Wh-who put this pumpkin here? It, it was me?!",
-		voice_actor = 75,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.279,
-					0.463,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.319,
-					0.484,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.454,
-					0.433,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.24,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202120] = {
-		ship_group = 20212,
-		name = "Belfast",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 202120,
-		group_index = 0,
-		prefab = "beierfasite",
-		painting = "beierfasite",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 20,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Edinburgh-Class light cruiser ー Belfast, Hull number C35!",
-		voice_actor = 39,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.04,
-					1.02,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.04,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.02,
-					0.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.04,
-					1.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.521,
-							0.29,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.431,
-							0.392,
 							0
 						}
 					}

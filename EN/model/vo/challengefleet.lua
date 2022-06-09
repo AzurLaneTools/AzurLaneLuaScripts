@@ -86,6 +86,8 @@ function slot0.flushShips(slot0)
 end
 
 function slot0.getStrategies(slot0)
+	assert(false, "obsolete method.")
+
 	return {}
 end
 

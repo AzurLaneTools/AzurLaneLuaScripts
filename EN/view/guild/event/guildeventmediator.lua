@@ -421,8 +421,10 @@ function slot0.SelectBossBattleShip(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	assert(slot6:GetBossMission():GetFleetByIndex(slot2), slot2)
+
 	slot9 = nil
-	slot9 = (slot0.contextData.editBossFleet[slot2] or Clone(slot6:GetBossMission():GetFleetByIndex(slot2))) and Clone(slot0.contextData.editBossFleet[slot2])
+	slot9 = (slot0.contextData.editBossFleet[slot2] or Clone(slot8)) and Clone(slot0.contextData.editBossFleet[slot2])
 	slot10 = nil
 
 	if slot3 then

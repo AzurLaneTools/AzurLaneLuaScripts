@@ -82,6 +82,8 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)
+		assert(slot2.id == FleetProxy.PVP_FLEET_ID, "fleet type error")
+
 		uv0.contextData.form = ExercisePreCombatLayer.FORM_EDIT
 		uv0.contextData.fleetID = slot2.id
 

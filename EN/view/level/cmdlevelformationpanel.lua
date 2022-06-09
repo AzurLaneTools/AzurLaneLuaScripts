@@ -17,6 +17,9 @@ end
 
 function slot0.update(slot0, slot1, slot2)
 	slot0.callback = slot2
+
+	assert(slot1)
+
 	slot0.fleet = slot1
 
 	slot0:updateDesc()

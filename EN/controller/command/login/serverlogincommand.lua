@@ -5,6 +5,7 @@ slot0.LoginSafeLock = 0
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
+	assert(isa(slot2, Server), "should be an instance of Server")
 	originalPrint("connect to game server - " .. slot2:getHost() .. ":" .. slot2:getPort())
 
 	slot6 = getProxy(UserProxy):getData()

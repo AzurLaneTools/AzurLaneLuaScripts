@@ -21,8 +21,10 @@ function slot0.register(slot0)
 
 	if slot0.contextData.system == SYSTEM_DUEL then
 		slot8 = getProxy(MilitaryExerciseProxy)
+		slot9 = slot8:getPreRivalById(slot0.contextData.rivalId)
 
-		slot0.viewComponent:setRivalVO(slot8:getPreRivalById(slot0.contextData.rivalId))
+		assert(slot9, "should exist rival--" .. slot0.contextData.rivalId)
+		slot0.viewComponent:setRivalVO(slot9)
 		slot0.viewComponent:setRank(slot2, slot8:getSeasonInfo())
 	elseif slot7 == SYSTEM_CHALLENGE then
 		slot8 = getProxy(ChallengeProxy)

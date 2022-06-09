@@ -56,7 +56,7 @@ end
 
 function slot0.updateShipHP(slot0, slot1, slot2)
 	if not (slot0._fleet:updateShipsHP(slot1, slot2) or slot0._submarineFleet:updateShipsHP(slot1, slot2)) then
-		-- Nothing
+		assert(false, "challenge unit not exist")
 	end
 end
 

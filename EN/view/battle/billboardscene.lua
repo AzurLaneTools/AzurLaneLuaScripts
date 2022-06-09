@@ -20,6 +20,8 @@ function slot0.updateRankList(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if slot1 == PowerRank.TYPE_PT then
+		assert(slot4)
+
 		slot0.ptRanks[slot4] = slot2
 		slot0.playerPTRankVOMap = slot0.playerPTRankVOMap or {}
 		slot0.playerPTRankVOMap[slot4] = slot3
@@ -196,8 +198,17 @@ function slot0.filter(slot0, slot1, slot2)
 		return
 	end
 
+	slot3 = slot0.page
 	slot4 = nil
-	slot4 = (PowerRank.TYPE_PT ~= slot1 or slot0.ptRanks[slot2]) and slot0.rankVOs[slot0.page]
+
+	if PowerRank.TYPE_PT == slot1 then
+		assert(slot2)
+
+		slot4 = slot0.ptRanks[slot2]
+	else
+		slot4 = slot0.rankVOs[slot3]
+	end
+
 	slot0.displayRankVOs = {}
 
 	for slot8, slot9 in ipairs(slot4) do
@@ -230,7 +241,15 @@ function slot0.switchPage(slot0, slot1, slot2)
 	slot0.page = slot1
 	slot3 = nil
 
-	if not ((slot0.page ~= PowerRank.TYPE_PT or slot0.ptRanks[slot2]) and slot0.rankVOs[slot1]) then
+	if slot0.page == PowerRank.TYPE_PT then
+		assert(slot2)
+
+		slot3 = slot0.ptRanks[slot2]
+	else
+		slot3 = slot0.rankVOs[slot1]
+	end
+
+	if not slot3 then
 		slot0.rankRect:SetTotalCount(0)
 		slot0.playerCard:clear()
 		slot0:emit(BillboardMediator.FETCH_RANKS, slot0.page, slot2)

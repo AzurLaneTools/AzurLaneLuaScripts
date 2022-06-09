@@ -35,14 +35,17 @@ function slot0.InitEquipment(slot0)
 	slot0.mainPanel = slot0._parentTf.parent
 	slot0.equipRCon = slot0._parentTf:Find("equipment_r_container")
 	slot0.equipLCon = slot0._parentTf:Find("equipment_l_container")
+	slot0.equipBCon = slot0._parentTf:Find("equipment_b_container")
 	slot0.equipmentR = slot0:findTF("equipment_r")
 	slot0.equipmentL = slot0:findTF("equipment_l")
+	slot0.equipmentB = slot0:findTF("equipment_b")
 	slot0.equipmentR1 = slot0.equipmentR:Find("equipment/equipment_r1")
 	slot0.equipmentR2 = slot0.equipmentR:Find("equipment/equipment_r2")
 	slot0.equipmentR3 = slot0.equipmentR:Find("equipment/equipment_r3")
 	slot0.equipmentL1 = slot0.equipmentL:Find("equipment/equipment_l1")
 	slot0.equipmentL2 = slot0.equipmentL:Find("equipment/equipment_l2")
 	slot0.equipSkinBtn = slot0.equipmentR:Find("equipment_skin_btn")
+	slot0.equipmentB1 = slot0.equipmentB:Find("equipment")
 	slot0.resource = slot0._tf:Find("resource")
 	slot0.equipSkinLogicPanel = ShipEquipSkinLogicPanel.New(slot0._tf.gameObject)
 
@@ -54,8 +57,10 @@ function slot0.InitEquipment(slot0)
 	setActive(slot0.equipSkinLogicPanel._go, true)
 	setParent(slot0.equipmentR, slot0.equipRCon)
 	setParent(slot0.equipmentL, slot0.equipLCon)
+	setParent(slot0.equipmentB, slot0.equipBCon)
 	setActive(slot0.equipmentR, true)
 	setActive(slot0.equipmentL, true)
+	setActive(slot0.equipmentB, true)
 	setActive(slot0.equipSkinBtn, true)
 
 	slot0.equipmentPanels = {
@@ -94,17 +99,19 @@ function slot0.OnSelected(slot0, slot1)
 	if slot1 then
 		slot3 = {}
 		slot4 = {}
+		slot5 = {}
 
-		function slot5(slot0, slot1)
+		function slot6(slot0, slot1)
 			eachChild(slot0, function (slot0)
 				table.insert(uv0, slot0)
 			end)
 		end
 
-		slot5(slot0.equipmentR:Find("skin"), slot4)
-		slot5(slot0.equipmentR:Find("equipment"), slot4)
-		slot5(slot0.equipmentL:Find("skin"), slot3)
-		slot5(slot0.equipmentL:Find("equipment"), slot3)
+		slot6(slot0.equipmentR:Find("skin"), slot4)
+		slot6(slot0.equipmentR:Find("equipment"), slot4)
+		slot6(slot0.equipmentL:Find("skin"), slot3)
+		slot6(slot0.equipmentL:Find("equipment"), slot3)
+		slot6(slot0.equipmentB, slot5)
 		table.insert(slot3, slot0.equipmentL:Find("equipment/equipment_l1"))
 		slot2:OverlayPanelPB(slot0.equipRCon, {
 			pbList = slot4,
@@ -118,9 +125,16 @@ function slot0.OnSelected(slot0, slot1)
 			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT,
 			weight = LayerWeightConst.LOWER_LAYER
 		})
+		slot2:OverlayPanelPB(slot0.equipBCon, {
+			pbList = slot5,
+			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT,
+			weight = LayerWeightConst.LOWER_LAYER
+		})
 	else
 		slot2:UnOverlayPanel(slot0.equipRCon, slot0._parentTf)
 		slot2:UnOverlayPanel(slot0.equipLCon, slot0._parentTf)
+		slot2:UnOverlayPanel(slot0.equipBCon, slot0._parentTf)
 	end
 
 	slot0.onSelected = slot1
@@ -153,6 +167,9 @@ function slot0.UpdateEquipments(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("fightfail_noequip"))
 		end
 	end
+
+	setActive(slot0.equipmentB, slot1:IsSpweaponUnlock() and PLATFORM_CODE ~= PLATFORM_CHT and not LOCK_SP_WEAPON)
+	slot0:UpdateSpWeaponPanel(slot1:GetSpWeapon())
 end
 
 function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
@@ -386,6 +403,92 @@ function slot0.equipmentEnhance(slot0, slot1)
 	return slot2 == 1
 end
 
+function slot0.UpdateSpWeaponPanel(slot0, slot1)
+	slot2 = slot0.equipmentB1
+
+	setActive(findTF(slot2, "info"), slot1)
+	setActive(findTF(slot2, "empty"), not slot1)
+
+	slot5 = slot0:GetShipVO()
+
+	if slot1 then
+		UpdateSpWeaponSlot(slot3, slot1, {
+			20,
+			20,
+			20,
+			20
+		})
+		eachChild(slot3:Find("attrs"), function (slot0)
+			setActive(slot0, false)
+		end)
+
+		slot7 = underscore.filter(slot1:GetPropertiesInfo().attrs, function (slot0)
+			return not slot0.type or slot0.type ~= AttributeType.AntiSiren
+		end)
+
+		for slot11 = 1, 2 do
+			setActive(slot6:GetChild(slot11 - 1), true)
+
+			if #slot7 > 0 then
+				slot14, slot15 = Equipment.GetInfoTrans(table.remove(slot7, 1), slot5)
+
+				setText(slot12:Find("tag"), slot14)
+				setText(slot12:Find("values/value"), slot15)
+				setText(slot12:Find("values/value_1"), "")
+			end
+		end
+
+		slot8 = slot3:Find("cont")
+
+		(function ()
+			slot0 = uv0:GetChild(0)
+
+			setText(slot0:Find("tag"), i18n("spweapon_ui_effect_tag"))
+			setActive(slot0, uv1:GetEffect() and slot1 > 0)
+
+			if not slot1 or slot1 <= 0 then
+				return
+			end
+
+			setText(slot0:Find("value"), getSkillName(slot1))
+		end)()
+		(function ()
+			slot0 = uv0:GetChild(1)
+
+			setText(slot0:Find("tag"), i18n("spweapon_ui_skill_tag"))
+			setActive(slot0, uv1:GetActiveUpgradableSkill(uv2) and slot1 > 0)
+
+			if not slot1 or slot1 <= 0 then
+				return
+			end
+
+			setText(slot0:Find("value"), getSkillName(slot1))
+		end)()
+		onButton(slot0, slot2, function ()
+			uv0:emit(BaseUI.ON_SPWEAPON, {
+				type = SpWeaponInfoLayer.TYPE_SHIP,
+				shipId = uv1.id
+			})
+		end, SFX_UI_DOCKYARD_EQUIPADD)
+
+		return
+	end
+
+	onButton(slot0, slot2, function ()
+		if uv0 then
+			slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0)
+
+			if not slot0 then
+				pg.TipsMgr.GetInstance():ShowTips(slot1)
+
+				return
+			end
+
+			uv1:emit(ShipMainMediator.ON_SELECT_SPWEAPON, index)
+		end
+	end, SFX_UI_DOCKYARD_EQUIPADD)
+end
+
 function slot0.switch2EquipmentSkinPage(slot0)
 	if slot0.equipSkinLogicPanel:isTweening() then
 		return
@@ -403,6 +506,7 @@ end
 function slot0.OnDestroy(slot0)
 	setParent(slot0.equipmentR, slot0._tf)
 	setParent(slot0.equipmentL, slot0._tf)
+	setParent(slot0.equipmentB, slot0._tf)
 
 	slot0.shareData = nil
 end

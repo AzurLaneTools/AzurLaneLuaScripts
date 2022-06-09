@@ -29,6 +29,8 @@ function slot5(slot0)
 	end
 
 	function slot1.SetGo(slot0, slot1)
+		assert(slot1)
+
 		slot0._go = slot1
 		slot2 = slot0._FXAttachPoint.transform
 
@@ -286,9 +288,13 @@ function slot0.PlayOtherShipAnim(slot0, slot1, slot2)
 	for slot10, slot11 in ipairs(slot1) do
 		slot3:AddPreloadResource(slot3.GetShipResource(slot11.id, slot11.skin), false)
 		table.insert(slot5, function (slot0)
+			slot1 = pg.ship_skin_template[uv0.skin]
+
+			assert(slot1, uv0.skin)
+
 			slot2 = uv1
 
-			slot2:InstCharacter(pg.ship_skin_template[uv0.skin].prefab, function (slot0)
+			slot2:InstCharacter(slot1.prefab, function (slot0)
 				uv0(uv1, uv2[uv3], slot0)
 				uv4()
 			end)

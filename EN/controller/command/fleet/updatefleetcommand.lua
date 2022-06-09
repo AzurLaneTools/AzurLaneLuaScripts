@@ -2,10 +2,14 @@ slot0 = class("UpdateFleetCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.fleet
 	slot4 = slot2.callback
+
+	assert(isa(slot3, Fleet), "should be an instance of Fleet")
+
 	slot5 = getProxy(PlayerProxy)
 
-	if getProxy(FleetProxy):getFleetById(slot2.fleet.id) == nil then
+	if getProxy(FleetProxy):getFleetById(slot3.id) == nil then
 		return
 	end
 

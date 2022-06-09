@@ -915,7 +915,7 @@ _G.pg.base.gametip.word_level_require = {
 }
 
 _G.pg.base.gametip.word_materal_no_enough = {
-	tip = "Not enough items"
+	tip = "You don't have enough materials."
 }
 
 _G.pg.base.gametip.word_default = {
@@ -2283,7 +2283,7 @@ _G.pg.base.gametip.tactics_end_to_learn = {
 }
 
 _G.pg.base.gametip.tactics_continue_to_learn = {
-	tip = "Continue to learn a new book?"
+	tip = "/nWould you like to upgrade this skill?"
 }
 
 _G.pg.base.gametip.tactics_should_exist_skill = {
@@ -3366,6 +3366,260 @@ _G.pg.base.gametip.shop_extendMagazine_error = {
 
 _G.pg.base.gametip.shop_entendShipYard_error = {
 	tip = "Failed to expand dock: "
+}
+
+_G.pg.base.gametip.spweapon_attr_effect = {
+	tip = "Module Effect"
+}
+
+_G.pg.base.gametip.spweapon_attr_skillupgrade = {
+	tip = "Skill Upgrade"
+}
+
+_G.pg.base.gametip.spweapon_help_storage = {
+	tip = {
+		{
+			info = [[
+- Augment Modules Overview - 
+Augment Modules are a special type of gear. A shipgirl must be at Max Limit Break to equip them, unless she is a META ship, a blueprint ship (PR/DR) or a ship of UR rarity.
+These modules can, among other things, raise your shipgirls' stats, improve certain skills, and clear incoming enemy shells.
+
+Shipgirls can only equip one module each, and some modules may only be equipped by specific shipgirls.
+Your modules are stored in a depot separate from your primary Gear Depot.
+
+- Obtaining Augment Modules -
+Modules can be obtained through a Daily Raid and crafting.
+The Daily Raid can be attempted up to twice per week, and is split into 2 types of missions. One yields Augment Modules, the other yields materials used on Augment Modules.
+Modules can be crafted either from the Craft tab on the Depot menu, or through the Augment gear slot on the Dock screen.
+
+Crafting these modules requires Augment Module Cores and Coins. However, doing so will also let you use Augment Module Stones and spare Augment Modules to craft modules with higher starting Upgrade EXP.
+You can also craft unique modules for shipgirls who have them. This is done via the crafting menu on the Dock screen for applicable shipgirls.
+
+- Augment Module Attributes -
+Module attributes are divided into 3 categories: base stats, conversion attributes, and module effects.
+
+· Base Stats
+Base stats are the module's inherent statistics, which vary based on the particular module. These stats can be increased by upgrading and uncapping the module.
+Upgrading a module requires Upgrade EXP, which is granted through the use of Augment Module Stones and the recycling of spare Augment Modules.
+Uncapping requires Augment Module Cores, Coins, and upgrade materials. Uncapping increases a module's rarity and also resets its Upgrade Level. Currently, modules can only be upgraded from Rare to Elite rarity.
+
+· Conversion Attributes
+Conversion attributes are variable stats, determined randomly within a value range specific to a given module.
+These attributes can be rerolled through the use of Augment Module Stones. When you reroll a module's attributes, you can choose to either apply the change to overwrite the previous attributes, or cancel the conversion.
+
+· Module Effects
+Module effects are special effects that unlock after you've upgraded a given module to a certain level.
+Some unique modules also have effects that improve the skills of the particular shipgirl associated with it.
+
+- Augment Module Behavior in Combat -
+Some modules have a slash attack as their module effect. This attack is capable of clearing enemy shells and is activated automatically.
+The slash attack's pattern and range, as well as the ammo type it is capable of clearing, all depend on the kind of Augment Module equipped as well as the hull type of the shipgirl equipping it and how many have it equipped.
+
+Shipgirls with this type of Augment Module can store up to 1 slash attack.
+When she has a slash attack charged, she will perform it automatically either after taking damage, or after 5 seconds pass without her having taken damage.
+The slash attack will start recharging after it is performed. All slash attacks require 15 seconds to recharge.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.spweapon_tip_upgrade = {
+	tip = "Unable to gain any more Upgrade EXP."
+}
+
+_G.pg.base.gametip.spweapon_tip_attr_modify = {
+	tip = "You won't be able to perform conversion again until you decide whether to keep or replace your old attributes."
+}
+
+_G.pg.base.gametip.spweapon_tip_materal_no_enough = {
+	tip = "You don't have enough materials."
+}
+
+_G.pg.base.gametip.spweapon_tip_gold_no_enough = {
+	tip = "You don't have enough Coins."
+}
+
+_G.pg.base.gametip.spweapon_tip_pt_no_enough = {
+	tip = "You don't have enough Upgrade EXP to uncap this item."
+}
+
+_G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
+	tip = "Insufficient materials. Please select all the materials needed to complete crafting."
+}
+
+_G.pg.base.gametip.spweapon_tip_bag_no_enough = {
+	tip = "You don't have enough space in your Augment Module Depot."
+}
+
+_G.pg.base.gametip.spweapon_tip_create_sussess = {
+	tip = "You obtained the Augment Module: <color=#92fc63>$1</color>."
+}
+
+_G.pg.base.gametip.spweapon_tip_group_error = {
+	tip = "You cannot equip this Augment Module."
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_overflow = {
+	tip = "The remaining <color=#ff5c5c>$1</color> Upgrade EXP will be wasted. Continue?"
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
+	tip = "Select the materials required for uncapping."
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_materal_check = {
+	tip = "Select the materials required for conversion."
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_attrmax = {
+	tip = "This item's random stats have already been maxed."
+}
+
+_G.pg.base.gametip.spweapon_tip_locked = {
+	tip = "The <color=#92fc63>Augment Module</color> slot will be unlocked after obtaining Max Limit Break."
+}
+
+_G.pg.base.gametip.spweapon_ui_level = {
+	tip = "Upgrade Level"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax = {
+	tip = "Max Level"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax2 = {
+	tip = "You cannot upgrade this item any further."
+}
+
+_G.pg.base.gametip.spweapon_ui_need_resource = {
+	tip = "Required materials:"
+}
+
+_G.pg.base.gametip.spweapon_ui_ptitem = {
+	tip = "Augment Stones"
+}
+
+_G.pg.base.gametip.spweapon_ui_spweapon = {
+	tip = "Augment Module"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform = {
+	tip = "Attribute Conversion"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform_attr_text = {
+	tip = "Performing attribute conversion will randomize the stats of your Augment Module within a fixed range."
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr = {
+	tip = "Keep Old Stats"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr = {
+	tip = "Use New Stats"
+}
+
+_G.pg.base.gametip.spweapon_ui_autoselect = {
+	tip = "Auto-Select"
+}
+
+_G.pg.base.gametip.spweapon_ui_cancelselect = {
+	tip = "Cancel"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_quZhu = {
+	tip = "DD"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qinXun = {
+	tip = "CL"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhongXun = {
+	tip = "CA"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhanLie = {
+	tip = "BB"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
+	tip = "CV"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_weiXiu = {
+	tip = "AR"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qianTing = {
+	tip = "SS"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_other = {
+	tip = "Other"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
+	tip = "This Augment Module will lose its original stats and use the <color=#92fc63>post-conversion stats</color>."
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
+	tip = "Continue with <color=#92fc63>attribute conversion</color>?"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text1 = {
+	tip = "This Augment Module will keep its <color=#92fc38>pre-conversion stats</color>."
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text2 = {
+	tip = "Are you sure you want to cancel the <color=#ffde38>attribute conversion</color>? \nYour materials will not be reimbursed."
+}
+
+_G.pg.base.gametip.spweapon_ui_create_exp = {
+	tip = "Upgrade EXP required to craft"
+}
+
+_G.pg.base.gametip.spweapon_ui_upgrade_exp = {
+	tip = "Upgrade EXP required to upgrade"
+}
+
+_G.pg.base.gametip.spweapon_ui_breakout_exp = {
+	tip = "Upgrade EXP required to uncap"
+}
+
+_G.pg.base.gametip.spweapon_ui_create = {
+	tip = "Craft"
+}
+
+_G.pg.base.gametip.spweapon_ui_storage = {
+	tip = "Depot"
+}
+
+_G.pg.base.gametip.spweapon_ui_empty = {
+	tip = "No Augment Modules found."
+}
+
+_G.pg.base.gametip.spweapon_ui_create_button = {
+	tip = "Craft"
+}
+
+_G.pg.base.gametip.spweapon_ui_helptext = {
+	tip = "Crafting Augment Modules takes Augment Module Cores, Coins, and Upgrade EXP.\nOnce you've selected an Augment Module and a Stone to upgrade with, you can see how much Upgrade EXP the target module will receive."
+}
+
+_G.pg.base.gametip.spweapon_ui_effect_tag = {
+	tip = "Module Effect"
+}
+
+_G.pg.base.gametip.spweapon_ui_skill_tag = {
+	tip = "Upgrade Skill"
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text1 = {
+	tip = "Complete the event missions to get Augment Module Cores/Stones and other materials!"
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text2 = {
+	tip = "Augment Module Cores/Stones are used to craft and upgrade Augment Modules."
 }
 
 _G.pg.base.gametip.stage_beginStage_error = {
@@ -6115,48 +6369,21 @@ _G.pg.base.gametip.help_daily_task = {
 	tip = {
 		{
 			info = [[
-Supply Line Disruption
-1. Supply Line Disruption is available every day of the week.
-2. During this Daily Challenge, you'll be able to manually control your Submarines on a special stage and claim rewards by sinking enemy Cargo Ships.
-3. This Daily Challenge is available every day of the week, but you can only clear it 2 times per week.
-4. Submarines control differently from other vessels. They can't fire Salvos or launch Airstrikes, but instead, they have an ability called Dive.
-5. Additionally, they have an Emergency Boost that gives a short speed boost, a Torpedo Attack with limited uses, and an All Out Assault that they can use once.
-6. Furthermore, you can tap the icon in the top left corner to change which Submarine you're controlling.
-7. Once you clear the stage by sinking the Cargo Ships at the end of it, the points you earned during the Daily Challenge will be tallied
-8. You'll also receive Submarine and Anti-Sub gear based on how well you did.
-9. Points are given for clearing the stage, sinking enemies, and completing the stage without any of your Submarines sinking.
-10. Remember that your Submarines depend on their torpedoes to deal damage, so try to make every shot count.
+Module Development: this Daily Raid can be attempted twice a week. Your goal is to destroy all enemies.
+· The enemies fire <color=#92fc63>special smoke shells</color> which drastically reduce your Main Fleet's ACC and DMG dealt upon scoring a hit.
+· Additionally, the enemies perform <color=#92fc63>slash attacks</color> which are capable of clearing some of your cannon fire and torpedoes.
 
-Tips:
-1. Equipping your Submarine correctly will give them more ammunition to use. Both Auxiliary and Main Weapon torpedoes count!
-2. Submarine skills don't work during the Daily Challenge, so plan your strategy accordingly.
-3. However, they can still use their All Out Assaults once.
-4. Surcouf will fire her All Out Assault automatically when she resurfaces, but like all other Submarines, she can only fire it once.
-5. All Out Assaults deal increased damage to enemies during this Daily Challenge.
-6. You can't change to another Submarine to control immediately after Diving or Resurfacing.
-
-Escort Mission is available on Mondays, Thursdays, and Sundays.
-
-Advance Mission is available on Tuesdays, Fridays, and Sundays.
-
-Fierce Assault is available on Wednesdays, Saturdays, and Sundays.
-
-Tactical Training is available every day of the week.
-<color=#92fc63>Airstrikes</color> are highly effective for <color=#92fc63>Tactical Training (Aviation)</color>.
-<color=#92fc63>Main Fleet Salvos</color> are highly effective for <color=#92fc63>Tactical Training (Shelling)</color>.
-<color=#92fc63>Vanguard Torpedoes</color> are highly effective for <color=#92fc63>Tactical Training (Torpedo)</color>.
-
-Completing a Daily Raid stage with an S rating will <color=#92fc63>unlock</color> the quick battle option for that stage.
--Quick battle allows you to challenge that stage multiple times at once.
--Carrying out quick battles will skip the battle and grant you rewards according to the number of battles carried out.
--Quick battles <color=#92fc63>do not consume</color> Oil, but also do not grant Commander or Ship EXP.
--Quick battles will not affect the Morale or Affection of your ships.
--Quick battle sortie victories <color=#92fc63>will not affect</color> your number of victories or victory rate on your profile page.
--Quick battles count towards the progress of certain missions such as:
-Obtain victory with a B/A/S rating.
-Complete Daily Raids.
-Defeat small/medium/large fleets.
--Quick battles will not count towards the completion of character story missions.]]
+Completing a Daily Raid stage with an S rating will unlock the quick battle option for that stage.
+- Quick battle allows you to challenge that stage multiple times at once.
+- Carrying out quick battles will skip the battle and grant you rewards according to the number of battles carried out.
+- Quick battles do not consume Oil, but also do not grant Commander or shipgirl EXP.
+- Quick battles do not affect the Morale or Affection of your shipgirls.
+- Quick battle sortie victories will not affect your number of victories or victory rate on your profile page.
+- Quick battles count towards the progress of certain missions such as:
+· Obtain victory with a B/A/S rating.
+· Complete Daily Raids.
+· Defeat small/medium/large fleets.
+- Quick battles do not count towards the completion of character story missions.]]
 		}
 	}
 }
@@ -6479,7 +6706,7 @@ _G.pg.base.gametip.equip_part_sub_title = {
 }
 
 _G.pg.base.gametip.equipment_upgrade_overlimit = {
-	tip = "Fully enhanced."
+	tip = "You cannot upgrade this item any further."
 }
 
 _G.pg.base.gametip.err_name_existOtherChar = {
@@ -7446,7 +7673,7 @@ _G.pg.base.gametip.ship_remould_no_gold = {
 }
 
 _G.pg.base.gametip.ship_remould_no_material = {
-	tip = "Not enough items"
+	tip = "You don't have enough materials."
 }
 
 _G.pg.base.gametip.ship_remould_selecte_exceed = {
@@ -7540,7 +7767,7 @@ Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be 
 _G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = [[
 When retrofitted, <color=#92fc63>$1</color>'s hull type will change.
-The weapon type that can be equipped in the Main Gun slot will change from <color=#92fc63>CL Main Guns</color> to <color=#92fc63>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.
+The weapon type that can be equipped in the Main Gun slot will change from <color=#92fc63>CL Main Guns</color> to <color=#92fc63>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.The ship's <color=#92fc63>Augment Module</color> will be unequipped and returned to the Depot.
 Would you like to proceed with the retrofit?
 <color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>]]
 }
@@ -11474,7 +11701,7 @@ _G.pg.base.gametip.index_shipType_hangMu = {
 }
 
 _G.pg.base.gametip.index_shipType_weiXiu = {
-	tip = "Repair"
+	tip = "AR"
 }
 
 _G.pg.base.gametip.index_shipType_qianTing = {
@@ -11482,7 +11709,7 @@ _G.pg.base.gametip.index_shipType_qianTing = {
 }
 
 _G.pg.base.gametip.index_other = {
-	tip = "Others"
+	tip = "Other"
 }
 
 _G.pg.base.gametip.index_rare2 = {
@@ -13036,6 +13263,26 @@ _G.pg.base.gametip.msgbox_text_save = {
 	tip = "Save "
 }
 
+_G.pg.base.gametip.msgbox_text_replace = {
+	tip = "Equip"
+}
+
+_G.pg.base.gametip.msgbox_text_unload = {
+	tip = "Unequip"
+}
+
+_G.pg.base.gametip.msgbox_text_modify = {
+	tip = "Convert"
+}
+
+_G.pg.base.gametip.msgbox_text_breakthrough = {
+	tip = "Uncap"
+}
+
+_G.pg.base.gametip.msgbox_text_equipdetail = {
+	tip = "Details"
+}
+
 _G.pg.base.gametip.common_flag_ship = {
 	tip = "Secretary"
 }
@@ -13906,7 +14153,7 @@ _G.pg.base.gametip.equipment_upgrade_quick_interface_materials_consume = {
 }
 
 _G.pg.base.gametip.equipment_upgrade_feedback_lack_of_materials = {
-	tip = "Insufficient materials "
+	tip = "You don't have enough materials."
 }
 
 _G.pg.base.gametip.equipment_upgrade_feedback_equipment_consume = {
@@ -17920,7 +18167,7 @@ _G.pg.base.gametip.memory_activity_daily = {
 }
 
 _G.pg.base.gametip.memory_activity_others = {
-	tip = "Misc"
+	tip = "Other"
 }
 
 _G.pg.base.gametip.battle_end_title = {
@@ -18510,7 +18757,7 @@ _G.pg.base.gametip.formationScene_use_oil_limit_flagship = {
 }
 
 _G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
-	tip = "Subs"
+	tip = "SS"
 }
 
 _G.pg.base.gametip.attr_durability = {
@@ -20173,6 +20420,90 @@ _G.pg.base.gametip.battle_result_continue = {
 	tip = "Touch to continue"
 }
 
+_G.pg.base.gametip.index_L2D = {
+	tip = "L2D"
+}
+
+_G.pg.base.gametip.index_DBG = {
+	tip = "Animated BG"
+}
+
+_G.pg.base.gametip.index_BG = {
+	tip = "Regular BG"
+}
+
+_G.pg.base.gametip.index_CANTUSE = {
+	tip = "Not Applicable"
+}
+
+_G.pg.base.gametip.index_UNUSE = {
+	tip = "Unused"
+}
+
+_G.pg.base.gametip.index_BGM = {
+	tip = "Special BGM"
+}
+
+_G.pg.base.gametip.without_ship_to_wear = {
+	tip = "You have no shipgirls who can wear this."
+}
+
+_G.pg.base.gametip.choose_ship_to_wear_this_skin = {
+	tip = "Select a shipgirl you'd like to wear this."
+}
+
+_G.pg.base.gametip.skinatlas_search_holder = {
+	tip = "Search for the name of a skin or shipgirl."
+}
+
+_G.pg.base.gametip.skinatlas_search_result_is_empty = {
+	tip = "You have no skins that match the search terms."
+}
+
+_G.pg.base.gametip.chang_ship_skin_window_title = {
+	tip = "Skin"
+}
+
+_G.pg.base.gametip.world_boss_item_info = {
+	tip = [[
+META Coordinate Logger|Analyze the META Coordinates you've collected during Operation Siren to begin a META Showdown.
+You cannot analyze more coordinates while you have too many active META Showdowns.
+Daily Analysis Attempts: $1/$2
+META Coordinates Capacity: $3/$4]]
+}
+
+_G.pg.base.gametip.meta_syn_value_label = {
+	tip = "Synchronization Progress"
+}
+
+_G.pg.base.gametip.meta_syn_finish = {
+	tip = "Synchronization Complete"
+}
+
+_G.pg.base.gametip.index_meta_repair = {
+	tip = "Fortification Available"
+}
+
+_G.pg.base.gametip.index_meta_tactics = {
+	tip = "T. Research Available"
+}
+
+_G.pg.base.gametip.index_meta_energy = {
+	tip = "S. Activation Available"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_skill = {
+	tip = "/nDo you want to change skills and continue with the upgrade?"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_ship_skill = {
+	tip = "/nDo you want to swap to a different shipgirl to train?"
+}
+
+_G.pg.base.gametip.tactics_no_recent_ships = {
+	tip = "No training history found."
+}
+
 _G.pg.base.gametip.activity_kill = {
 	tip = "Total Enemies Sunk"
 }
@@ -20399,4 +20730,12 @@ _G.pg.base.gametip.support_times_tip = {
 
 _G.pg.base.gametip.build_times_tip = {
 	tip = "Batch Build"
+}
+
+_G.pg.base.gametip.tactics_recent_ship_label = {
+	tip = "Training History"
+}
+
+_G.pg.base.gametip.title_info = {
+	tip = "Info"
 }

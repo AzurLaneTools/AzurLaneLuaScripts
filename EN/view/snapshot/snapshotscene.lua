@@ -350,6 +350,9 @@ end
 
 function slot0.checkSkin(slot0, slot1)
 	slot2 = pg.ship_skin_template[slot1]
+
+	assert(slot1 == -1 or slot2, "invalid skin id " .. slot1)
+
 	slot0.skin = slot2
 	slot3 = false
 

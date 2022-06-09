@@ -839,5 +839,8 @@ pg.activity_const = {
 	},
 	FIFTH_ANNIVERSARY_INVITATION = {
 		act_id = 4418
+	},
+	SPECIAL_WEAPON_ACT_ID = {
+		act_id = 4426
 	}
 }

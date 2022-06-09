@@ -69,6 +69,8 @@ function slot0.didEnter(slot0)
 				uv1.contextData.weekToggle = uv2
 				uv1.tempTaskGroup = underscore.map(uv3.task_group, function (slot0)
 					return underscore.map(slot0, function (slot0)
+						assert(uv0:getTaskVO(slot0), "without this task:" .. slot0)
+
 						return uv0:getTaskVO(slot0)
 					end)
 				end)

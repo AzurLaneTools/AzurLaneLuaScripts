@@ -18,6 +18,10 @@ end
 
 function slot0.Setup(slot0, slot1, slot2)
 	slot0.id = slot1
+	slot6 = slot0.id
+
+	assert(pg.world_chapter_colormask[slot1], "world_chapter_colormask.csv without this id:" .. slot6)
+
 	slot0.config = pg.world_chapter_colormask[slot1]
 	slot0.transportDic = {}
 

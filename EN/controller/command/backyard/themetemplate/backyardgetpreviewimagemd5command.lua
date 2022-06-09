@@ -52,6 +52,8 @@ function slot0.GetListByType(slot0, slot1)
 	elseif slot1 == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
 		return slot2:GetCollectionThemeTemplates()
 	end
+
+	assert(false)
 end
 
 function slot0.DeleteByType(slot0, slot1, slot2)

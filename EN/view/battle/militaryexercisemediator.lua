@@ -36,7 +36,11 @@ function slot0.register(slot0)
 	slot0:bind(uv0.REPLACE_RIVALS, function (slot0)
 		uv0:sendNotification(GAME.REPLACE_RIVALS)
 	end)
-	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getMilitaryExerciseActivity())
+
+	slot7 = getProxy(ActivityProxy):getMilitaryExerciseActivity()
+
+	assert(slot7, "不存在该活动")
+	slot0.viewComponent:setActivity(slot7)
 
 	if getProxy(MilitaryExerciseProxy):getSeasonInfo() then
 		slot0.viewComponent:setSeasonInfo(slot8)

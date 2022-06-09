@@ -14,7 +14,7 @@ function slot0.OnLoaded(slot0)
 	slot0.lessonExpTxt = slot0:findTF("introl/exp_Text"):GetComponent(typeof(Text))
 	slot1 = slot0:findTF("introl/timer_Text")
 	slot0.lessonTimeTxt = slot1:GetComponent(typeof(Text))
-	slot0.skillCard = NewNavalTacticsSkillCard.New(slot0:findTF("skill/info"))
+	slot0.skillCard = NewNavalTacticsAdditionSkillCard.New(slot0:findTF("skill/info"))
 	slot0.itemTpls = {
 		slot0:findTF("items/scorll/content/item")
 	}
@@ -180,14 +180,7 @@ function slot0.UpdateLessonDesc(slot0, slot1, slot2, slot3)
 end
 
 function slot0.UpdateSkill(slot0, slot1, slot2, slot3)
-	slot4 = ShipSkill.New(slot3.skills[slot1])
-	slot5 = slot4.level
-
-	slot4:AddExp(slot2)
-
-	slot4.level = slot5
-
-	slot0.skillCard:Update(slot4, slot4.level - slot5)
+	slot0.skillCard:Update(ShipSkill.New(slot3.skills[slot1], slot3.id), slot2)
 end
 
 function slot0.OnDestroy(slot0)

@@ -104,6 +104,7 @@ function slot0.SwitchPage(slot0, slot1)
 	if not slot0:GetRank(slot1) or getProxy(GuildProxy):ShouldRefreshRank(slot1) then
 		slot0:emit(GuildMemberMediator.GET_RANK, slot1)
 	else
+		assert(slot2)
 		slot0:InitRank(slot2)
 	end
 

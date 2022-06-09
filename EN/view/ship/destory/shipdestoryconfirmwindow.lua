@@ -8,6 +8,13 @@ function slot0.OnLoaded(slot0)
 	slot0.window = slot0:findTF("window")
 	slot0.bg = slot0:findTF("window/content")
 	slot0.closeBtn = slot0:findTF("window/top/btnBack")
+
+	if PLATFORM_CODE == PLATFORM_US then
+		setActive(slot0:findTF("window/top/bg/infomation/title_en"), false)
+	end
+
+	setText(slot0:findTF("window/top/bg/infomation/title"), i18n("title_info"))
+
 	slot0.cancelBtn = slot0:findTF("window/cancel_btn")
 	slot0.confirmBtn = slot0:findTF("window/confirm_btn")
 
@@ -87,11 +94,11 @@ function slot0.ShowEliteTag(slot0, slot1, slot2)
 	setActive(slot0.urInput, false)
 
 	if #slot1 <= 5 then
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 290)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 565)
+		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 350)
+		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 630)
 	else
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 406)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 670)
+		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 460)
+		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 735)
 	end
 
 	setAnchoredPosition(slot0.window, {

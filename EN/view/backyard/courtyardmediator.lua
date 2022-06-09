@@ -13,7 +13,6 @@ slot0.CLOSE_ADD_EXP = "CourtYardMediator:CLOSE_ADD_EXP"
 slot0.UN_LOCK_2FLOOR = "CourtYardMediator:UN_LOCK_2FLOOR"
 slot0.GO_THEME_TEMPLATE = "CourtYardMediator:GO_THEME_TEMPLATE"
 slot0.ON_ADD_VISITOR_SHIP = "CourtYardMediator:ON_ADD_VISITOR_SHIP"
-slot0.ON_OPEN_EXP = "CourtYardMediator:ON_OPEN_EXP"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_ADD_VISITOR_SHIP, function (slot0)
@@ -113,9 +112,6 @@ function slot0.register(slot0)
 		uv0.contextData.floor = slot1
 		_courtyard = CourtYardBridge.New(uv0:GenCourtYardData())
 	end)
-	slot0:bind(uv0.ON_OPEN_EXP, function (slot0, slot1)
-		uv0:sendNotification(GAME.OPEN_ADD_EXP, slot1)
-	end)
 	slot0.viewComponent:SetDorm(slot0.contextData.dorm or getProxy(DormProxy):getRawData())
 end
 
@@ -144,6 +140,7 @@ function slot0.listNotificationInterests(slot0)
 		CourtYardEvent._DRAG_ITEM,
 		CourtYardEvent._DRAG_ITEM_END,
 		CourtYardEvent._TOUCH_SHIP,
+		CourtYardEvent._ADD_ITEM_FAILED,
 		BackYardDecorationMediator.START_TAKE_THEME_PHOTO,
 		BackYardDecorationMediator.END_TAKE_THEME_PHOTO
 	}
@@ -173,6 +170,8 @@ function slot0.handleNotification(slot0, slot1)
 		})
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
 		slot0.viewComponent:UpdateDorm(getProxy(DormProxy):getRawData(), BackYardConst.DORM_UPDATE_TYPE_SHIP)
+	elseif slot2 == CourtYardEvent._ADD_ITEM_FAILED and getProxy(DormProxy):getRawData():getFurnitrueById(slot3) then
+		slot6:clearPosition()
 	end
 
 	slot0:handleCourtyardNotification(slot2, slot3, slot4)

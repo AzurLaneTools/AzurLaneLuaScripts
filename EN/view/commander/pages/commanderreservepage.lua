@@ -149,6 +149,8 @@ function slot0.endAnim(slot0)
 end
 
 function slot0.playAnim(slot0, slot1, slot2)
+	assert(slot2)
+
 	slot0.callback = slot2
 
 	setActive(slot0.bg1, false)

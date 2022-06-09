@@ -377,6 +377,8 @@ function slot0.getFleetType(slot0)
 	elseif id == uv0.SUB_FLEET_ID then
 		return FleetType.Submarine
 	end
+
+	assert(false)
 end
 
 function slot0.BuildBattleBuffList(slot0)

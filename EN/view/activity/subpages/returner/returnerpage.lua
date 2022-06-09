@@ -156,7 +156,10 @@ end
 function slot0.UpdateTasks(slot0)
 	slot0.taskUIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv1(uv2, slot2, getProxy(TaskProxy):getTaskById(uv0[slot1 + 1]) or slot4:getFinishTaskById(slot3))
+			slot5 = getProxy(TaskProxy):getTaskById(uv0[slot1 + 1]) or slot4:getFinishTaskById(slot3)
+
+			assert(slot5)
+			uv1(uv2, slot2, slot5)
 		end
 	end)
 	slot0.taskUIlist:align(#(slot0.config.task_list[slot0.taskIndex] or {}))

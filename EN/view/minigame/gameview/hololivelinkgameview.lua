@@ -500,6 +500,9 @@ function slot0.GameEnd(slot0)
 end
 
 function slot0.LinkLink(slot0, slot1, slot2)
+	assert(slot1.row ~= slot2.row or slot1.column ~= slot2.column)
+	assert(slot1.id == slot2.id)
+
 	slot3 = {
 		row = slot1.row,
 		column = slot1.column
@@ -537,6 +540,8 @@ function slot0.LinkLink(slot0, slot1, slot2)
 							column = slot17
 						})
 					end
+				else
+					assert(false)
 				end
 
 				slot11 = slot11.from
@@ -695,10 +700,12 @@ function slot0.setIconList(slot0)
 		slot11 = slot10[1]
 
 		if slot10[2] % 2 ~= 0 then
-			-- Nothing
+			assert(false, "资源名" .. slot11 .. "数量不为偶数" .. slot12)
 		end
 
-		slot13 = uv0.NAME_TO_INDEX[slot11]
+		slot17 = slot11
+
+		assert(uv0.NAME_TO_INDEX[slot11], "没有定义该资源名" .. slot17)
 
 		for slot17 = 1, slot12 do
 			table.insert(slot1, slot13)
@@ -706,7 +713,7 @@ function slot0.setIconList(slot0)
 	end
 
 	if #slot1 ~= 36 then
-		-- Nothing
+		assert(false, "总数不为36")
 	end
 
 	return slot1

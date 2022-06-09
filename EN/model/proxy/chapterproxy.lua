@@ -249,7 +249,9 @@ function slot0.buildRemasterMaps(slot0)
 
 	_.each(pg.re_map_template.all, function (slot0)
 		_.each(pg.re_map_template[slot0].config_data, function (slot0)
-			if not uv1[uv0.baseMaps[pg.chapter_template[slot0].map].id] then
+			assert(not uv1[uv0.baseMaps[pg.chapter_template[slot0].map].id] or uv1[slot1.id] == uv2, "remaster chapter error:" .. slot0)
+
+			if not uv1[slot1.id] then
 				uv1[slot1.id] = uv2
 
 				slot1:setRemaster(uv2)
@@ -396,6 +398,8 @@ function slot0.getChapterById(slot0, slot1, slot2)
 end
 
 function slot0.updateChapter(slot0, slot1, slot2)
+	assert(isa(slot1, Chapter), "should be an instance of Chapter")
+
 	slot0.data[slot1.id] = slot1
 
 	if slot0.data[slot1.id] then
@@ -519,14 +523,20 @@ function slot0.getUpdatedExtraFlags(slot0, slot1)
 end
 
 function slot0.SetExtendChapterData(slot0, slot1, slot2, slot3)
+	assert(slot1, "Missing Chapter ID")
+
 	slot0.chaptersExtend[slot1] = slot0.chaptersExtend[slot1] or {}
 	slot0.chaptersExtend[slot1][slot2] = slot3
 end
 
 function slot0.AddExtendChapterDataArray(slot0, slot1, slot2, slot3, slot4)
+	assert(slot1, "Missing Chapter ID")
+
 	slot0.chaptersExtend[slot1] = slot0.chaptersExtend[slot1] or {}
 
 	if type(slot0.chaptersExtend[slot1][slot2]) ~= "table" then
+		assert(slot0.chaptersExtend[slot1][slot2] == nil, "Changing NonEmpty ExtendData " .. slot2 .. " to Table ID: " .. slot1)
+
 		slot0.chaptersExtend[slot1][slot2] = {}
 	end
 
@@ -534,16 +544,25 @@ function slot0.AddExtendChapterDataArray(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.AddExtendChapterDataTable(slot0, slot1, slot2, slot3, slot4)
+	assert(slot1, "Missing Chapter ID")
+
 	slot0.chaptersExtend[slot1] = slot0.chaptersExtend[slot1] or {}
 
 	if type(slot0.chaptersExtend[slot1][slot2]) ~= "table" then
+		assert(slot0.chaptersExtend[slot1][slot2] == nil, "Changing NonEmpty ExtendData " .. slot2 .. " to Table ID: " .. slot1)
+
 		slot0.chaptersExtend[slot1][slot2] = {}
 	end
+
+	assert(slot3, "Missing Index on Set HashData")
 
 	slot0.chaptersExtend[slot1][slot2][slot3] = slot4
 end
 
 function slot0.GetExtendChapterData(slot0, slot1, slot2)
+	assert(slot1, "Missing Chapter ID")
+	assert(slot2, "Requesting Empty key")
+
 	if not slot2 or not slot0.chaptersExtend[slot1] then
 		return
 	end
@@ -552,6 +571,8 @@ function slot0.GetExtendChapterData(slot0, slot1, slot2)
 end
 
 function slot0.RemoveExtendChapterData(slot0, slot1, slot2)
+	assert(slot1, "Missing Chapter ID")
+
 	if not slot2 or not slot0.chaptersExtend[slot1] then
 		return
 	end
@@ -566,10 +587,14 @@ function slot0.RemoveExtendChapterData(slot0, slot1, slot2)
 end
 
 function slot0.GetExtendChapter(slot0, slot1)
+	assert(slot1, "Missing Chapter ID")
+
 	return slot0.chaptersExtend[slot1]
 end
 
 function slot0.RemoveExtendChapter(slot0, slot1)
+	assert(slot1, "Missing Chapter ID")
+
 	if not slot0.chaptersExtend[slot1] then
 		return
 	end

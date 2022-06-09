@@ -75,6 +75,8 @@ function slot0.getRepairExp(slot0)
 end
 
 function slot0.getItem(slot0)
+	assert(slot0.items[slot0.level], "level : " .. slot0.level)
+
 	return slot0.items[slot0.level]
 end
 

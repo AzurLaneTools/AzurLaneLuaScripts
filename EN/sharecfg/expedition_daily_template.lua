@@ -3,11 +3,12 @@ pg.expedition_daily_template = {
 	[201] = {
 		tips = "Escort Mission available on every Monday, Thursday and Sunday",
 		limit_type = 1,
+		des = "Our Cargo ship is damaged by enemy torpedoes! Escort it to get a large number of Equipment Materials",
 		limit_time = 3,
 		id = 201,
 		title = "商船护送",
 		pic = "daily1",
-		des = "Our Cargo ship is damaged by enemy torpedoes! Escort it to get a large number of Equipment Materials",
+		sort = "1",
 		weekday = {
 			1,
 			4,
@@ -67,11 +68,12 @@ pg.expedition_daily_template = {
 	[301] = {
 		tips = "Advance Mission available on every Tuesday, Friday and Sunday",
 		limit_type = 1,
+		des = "Enemy self-destruction boats are zerging around! Clear them will have a chance to get Tactical Materials",
 		limit_time = 3,
 		id = 301,
 		title = "海域突进",
 		pic = "daily2",
-		des = "Enemy self-destruction boats are zerging around! Clear them will have a chance to get Tactical Materials",
+		sort = "2",
 		weekday = {
 			2,
 			5,
@@ -107,11 +109,12 @@ pg.expedition_daily_template = {
 	[401] = {
 		tips = "Fierce Assault available on every Wednesday, Saturday and Sunday",
 		limit_type = 1,
+		des = "Warning! Enemy Bosses on sight! Destroy them will have a chance to get Mystery Tech Packs",
 		limit_time = 3,
 		id = 401,
 		title = "斩首行动",
 		pic = "daily3",
-		des = "Warning! Enemy Bosses on sight! Destroy them will have a chance to get Mystery Tech Packs",
+		sort = "3",
 		weekday = {
 			3,
 			6,
@@ -147,11 +150,12 @@ pg.expedition_daily_template = {
 	[501] = {
 		tips = "Supply Line Disruption is open every day, and can be played a maximum of 2 times weekly. ",
 		limit_type = 2,
+		des = "Launch an operation to disrupt enemy supply lines with your Submarine Fleet! Success will grant you various Submarine gear blueprints! ",
 		limit_time = 2,
 		id = 501,
 		title = "Supply Line Disruption ",
 		pic = "daily5",
-		des = "Launch an operation to disrupt enemy supply lines with your Submarine Fleet! Success will grant you various Submarine gear blueprints! ",
+		sort = "4",
 		weekday = {
 			1,
 			2,
@@ -191,11 +195,12 @@ pg.expedition_daily_template = {
 	[601] = {
 		tips = "战术研修每天开启",
 		limit_type = 1,
+		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
 		limit_time = 3,
 		id = 601,
 		title = "战术研修",
 		pic = "daily6",
-		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		sort = "6",
 		weekday = {
 			1,
 			2,
@@ -232,11 +237,54 @@ pg.expedition_daily_template = {
 			}
 		}
 	},
+	[701] = {
+		tips = "Twice per week",
+		limit_type = 2,
+		des = "This stage pits your fleet against another fleet that uses Augment Modules. Complete it to receive Augment Modules or associated materials.",
+		limit_time = 2,
+		id = 701,
+		title = "Module Development",
+		pic = "daily7",
+		sort = "5",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		expedition_and_lv_limit_list = {
+			{
+				7000,
+				35
+			},
+			{
+				7001,
+				75
+			}
+		}
+	},
+	[801] = {
+		tips = "This stage is not available yet.",
+		limit_type = 0,
+		des = "This stage is not available yet.",
+		limit_time = 0,
+		id = 801,
+		title = "Unavailable",
+		pic = "daily4",
+		sort = "7",
+		weekday = {},
+		expedition_and_lv_limit_list = {}
+	},
 	all = {
 		201,
 		301,
 		401,
 		501,
-		601
+		601,
+		701,
+		801
 	}
 }

@@ -341,12 +341,18 @@ function slot2.reportDelayTimer(slot0, slot1, slot2)
 end
 
 function slot2.SetTakeoverProcess(slot0, slot1)
+	assert(slot0._takeoverProcess == nil, "已经有接管的战斗过程，暂时没有定义这种逻辑")
+	assert(slot1.Pause ~= nil and type(slot1.Pause) == "function", "SetTakeoverProcess附加过程，必须要有Pause函数")
+	assert(slot1.Pause ~= nil and type(slot1.Resume) == "function", "SetTakeoverProcess附加过程，必须要有Pause函数")
+
 	slot0._takeoverProcess = slot1
 
 	slot0:_pause()
 end
 
 function slot2.ClearTakeoverProcess(slot0)
+	assert(slot0._takeoverProcess, "没有接管的战斗过程，暂时没有定义这种逻辑")
+
 	slot0._takeoverProcess = nil
 
 	slot0:_resume()

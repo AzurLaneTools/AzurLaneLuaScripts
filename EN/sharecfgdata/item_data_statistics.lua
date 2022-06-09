@@ -6562,7 +6562,7 @@ _G.pg.base.item_data_statistics[15015] = {
 	display = "Resource used to craft, upgrade and convert Augment Modules.",
 	name = "Augment Module Stone T1",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 2,
 	shop_id = -1,
@@ -6583,7 +6583,7 @@ _G.pg.base.item_data_statistics[15016] = {
 	display = "Resource used to craft, upgrade and convert Augment Modules.",
 	name = "Augment Module Stone T2",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 3,
 	shop_id = -1,
@@ -6604,7 +6604,7 @@ _G.pg.base.item_data_statistics[15017] = {
 	display = "Resource used to craft, upgrade and convert Augment Modules.",
 	name = "Augment Module Stone T3",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -6615,6 +6615,48 @@ _G.pg.base.item_data_statistics[15017] = {
 	id = 15017,
 	is_world = 0,
 	icon = "Props/15017",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15020] = {
+	display = "Used to reroll the attribute bonuses obtained from Conversion.",
+	name = "Augment Module Conversion Stone T1",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15020,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15021] = {
+	display = "Used to reroll the attribute bonuses obtained from Conversion.",
+	name = "Augment Module Conversion Stone T2",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15021,
+	is_world = 0,
+	icon = "Props/15020",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8637,6 +8679,27 @@ _G.pg.base.item_data_statistics[21011] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21012] = {
+	display = "An item that increases the potential of Repulse META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Repulse",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21012,
+	is_world = 0,
+	icon = "Props/21012",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -8841,6 +8904,27 @@ _G.pg.base.item_data_statistics[21906] = {
 	id = 21906,
 	is_world = 0,
 	icon = "Props/21906",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21907] = {
+	display = "Data collected from battle that can be used to increase the synchronization rate of Repulse META.Item will disappear when event has finished. ",
+	name = "Synchronization Point – Repulse META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21907,
+	is_world = 0,
+	icon = "Props/21907",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -13690,12 +13774,12 @@ _G.pg.base.item_data_statistics[30404] = {
 		},
 		{
 			9,
-			2013,
+			2011,
 			1
 		},
 		{
 			9,
-			2012,
+			2013,
 			1
 		}
 	},
@@ -43406,6 +43490,299 @@ _G.pg.base.item_data_statistics[52033] = {
 		{
 			2,
 			11033,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52040] = {
+	display = "Chance to obtain the following Augment Modules.",
+	name = "Random Augment Module",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52040,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52041] = {
+	display = "Chance to obtain the following Augment Modules.",
+	name = "Random Augment Module",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52041,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		},
+		{
+			21,
+			1010120,
+			1
+		},
+		{
+			21,
+			1010220,
+			1
+		},
+		{
+			21,
+			1020120,
+			1
+		},
+		{
+			21,
+			1030120,
+			1
+		},
+		{
+			21,
+			1040120,
+			1
+		},
+		{
+			21,
+			1050120,
+			1
+		},
+		{
+			21,
+			1060120,
+			1
+		},
+		{
+			21,
+			1060220,
+			1
+		},
+		{
+			21,
+			1070120,
+			1
+		},
+		{
+			21,
+			1070220,
+			1
+		},
+		{
+			21,
+			1080120,
+			1
+		},
+		{
+			21,
+			1080220,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52050] = {
+	display = "Chance to obtain the following Augment Module Cores.",
+	name = "Random Augment Module Core",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52050,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52051] = {
+	display = "Chance to obtain the following Augment Module Stones.",
+	name = "Random Augment Module Stone",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52051,
+	is_world = 0,
+	icon = "Props/15016",
+	display_icon = {
+		{
+			2,
+			15017,
+			1
+		},
+		{
+			2,
+			15016,
+			1
+		},
+		{
+			2,
+			15015,
 			1
 		}
 	},

@@ -250,6 +250,7 @@ function slot0.ConsumeStamina(slot0, slot1)
 		slot0.staminaExtra = 0
 	end
 
+	assert(slot0.stamina >= 0, "out of stamina.")
 	slot0:DispatchEvent(uv0.EventUpdateStamina)
 end
 

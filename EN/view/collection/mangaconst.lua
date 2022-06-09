@@ -28,7 +28,11 @@ function slot0.isMangaEverReadByID(slot0)
 end
 
 function slot0.isMangaNewByID(slot0)
-	return uv0.Version <= pg.cartoon[slot0].mark
+	slot1 = pg.cartoon[slot0]
+
+	assert(slot1, "Manga info is null, ID:" .. tostring(slot0))
+
+	return uv0.Version <= slot1.mark
 end
 
 function slot0.isMangaLikeByID(slot0)

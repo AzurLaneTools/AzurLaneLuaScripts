@@ -35,6 +35,8 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.getTaskById(slot0, slot1)
+	assert(slot1, "taskId can not be nil")
+
 	return slot0.list[slot1]
 end
 
@@ -176,6 +178,8 @@ function slot0.checkDailyTask(slot0, slot1)
 			}, 33414, function (slot0)
 				if slot0.result == 0 then
 					uv0.dailyTimeStemp = slot0.next_refresh_time
+
+					assert(uv0.dailyTimeStemp > 0, "refresh time:" .. uv0.dailyTimeStemp)
 
 					if uv0.dailyTimer then
 						uv0.dailyTimer:Stop()

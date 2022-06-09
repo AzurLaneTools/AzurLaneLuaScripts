@@ -154,6 +154,7 @@ end
 function slot0.updateSkinInfo(slot0, slot1, slot2)
 	slot3 = pg.equip_skin_template[slot2]
 
+	assert(slot3, "miss config equip_skin_template >>" .. slot2)
 	setText(slot1:Find("desc"), slot3.desc)
 	setText(slot1:Find("cont/name_mask/name"), slot3.name)
 	updateDrop(slot1:Find("IconTpl"), {

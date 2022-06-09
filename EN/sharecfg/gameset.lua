@@ -2050,6 +2050,26 @@ pg.gameset = {
 			100
 		}
 	},
+	curr_boss_ticket = {
+		key_value = 0,
+		description = {
+			100,
+			200,
+			200
+		}
+	},
+	past_joint_boss_ticket = {
+		key_value = 0,
+		description = {
+			100,
+			200,
+			1400
+		}
+	},
+	past_joint_boss_autofight_time = {
+		description = "",
+		key_value = 900
+	},
 	world_boss_joindamage = {
 		description = "",
 		key_value = 200

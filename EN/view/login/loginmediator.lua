@@ -54,7 +54,9 @@ end
 function slot0.loginProcessHandler(slot0)
 	slot1 = getProxy(SettingsProxy)
 	slot2 = pg.SdkMgr.GetInstance()
-	slot2 = slot2:GetLoginType()
+
+	assert(slot2:GetLoginType())
+
 	slot0.process = coroutine.wrap(function ()
 		uv0.viewComponent:switchSubView({})
 

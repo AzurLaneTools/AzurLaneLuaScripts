@@ -40,6 +40,9 @@ function slot0.addExtraData(slot0, slot1, slot2)
 end
 
 function slot0.addItem(slot0, slot1)
+	assert(isa(slot1, Item), "should be an instance of Item")
+	assert(slot0.data[slot1.id] == nil, "item already exist, use updateItem() instead")
+
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("added")
@@ -47,6 +50,8 @@ function slot0.addItem(slot0, slot1)
 end
 
 function slot0.addItemById(slot0, slot1, slot2)
+	assert(slot2 > 0, "count should greater than zero")
+
 	if slot1 == ITEM_ID_CUBE then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_CUBE_ADD, slot2)
 	end
@@ -191,6 +196,9 @@ function slot0.getCanComposeCount(slot0)
 end
 
 function slot0.updateItem(slot0, slot1)
+	assert(isa(slot1, Item), "should be an instance of Item")
+	assert(slot0.data[slot1.id] ~= nil, "item should exist in the bag")
+
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("updated")
@@ -210,7 +218,9 @@ function slot0.canUpgradeFlagShipEquip(slot0)
 end
 
 function slot0.removeItemById(slot0, slot1, slot2)
-	slot3 = slot0.data[slot1]
+	assert(slot2 > 0, "count should greater than zero")
+	assert(slot0.data[slot1] ~= nil, "item should exist")
+	assert(slot2 <= slot3.count, "number of item should enough")
 
 	if slot1 == ITEM_ID_CUBE then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_CUBE_CONSUME, slot2)

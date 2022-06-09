@@ -52,6 +52,8 @@ function slot0.getSkinList(slot0)
 end
 
 function slot0.addSkin(slot0, slot1)
+	assert(isa(slot1, ShipSkin), "skin should be an instance of ShipSkin")
+
 	if slot0.prevNewSkin then
 		slot0.prevNewSkin:SetIsNew(false)
 	end
@@ -270,6 +272,8 @@ function slot0.GetShopShowingSkins(slot0)
 end
 
 function slot0.GetAllSkinForShip(slot0, slot1)
+	assert(isa(slot1, Ship), "ship should be an instance of Ship")
+
 	for slot7 = #ShipGroup.getSkinList(slot1.groupId), 1, -1 do
 		if slot3[slot7].skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not slot0:hasSkin(slot8.id) then
 			table.remove(slot3, slot7)
@@ -411,6 +415,30 @@ function slot0.GetEncoreSkins(slot0)
 	end
 
 	return {}
+end
+
+function slot0.GetOwnSkins(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in pairs(slot0:getRawData()) do
+		table.insert(slot1, slot7)
+	end
+
+	for slot7, slot8 in pairs(getProxy(CollectionProxy).shipGroups) do
+		if slot8.married == 1 and ShipGroup.getProposeSkin(slot8.id) then
+			table.insert(slot1, ShipSkin.New({
+				id = slot9.id
+			}))
+		end
+
+		if slot8.trans then
+			table.insert(slot1, ShipSkin.New({
+				id = pg.ship_data_trans[slot8.id].skin_id
+			}))
+		end
+	end
+
+	return slot1
 end
 
 return slot0

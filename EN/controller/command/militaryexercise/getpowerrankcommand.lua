@@ -4,7 +4,11 @@ slot2 = 5
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.type
 	slot4 = slot2.activityId
+
+	assert(slot3, "type can not be nil")
+
 	slot5 = getProxy(BillboardProxy)
 
 	function slot6(slot0, slot1)
@@ -18,7 +22,7 @@ function slot0.execute(slot0, slot1)
 		})
 	end
 
-	if slot2.type == PowerRank.TYPE_MILITARY_RANK then
+	if slot3 == PowerRank.TYPE_MILITARY_RANK then
 		slot7 = pg.ConnectionMgr.GetInstance()
 
 		slot7:Send(18006, {
@@ -93,6 +97,8 @@ function slot0.execute(slot0, slot1)
 				elseif uv0 == PowerRank.TYPE_COLLECTION then
 					slot3 = getProxy(CollectionProxy):getCollectionCount()
 				elseif uv0 == PowerRank.TYPE_PT or uv0 == PowerRank.TYPE_ACT_BOSS_BATTLE then
+					assert(uv1)
+
 					slot3 = getProxy(ActivityProxy):getActivityById(uv1) and slot4.data1 or slot0.point
 				elseif uv0 == PowerRank.TYPE_CHALLENGE then
 					slot4 = PowerRank:getActivityByRankType(PowerRank.TYPE_CHALLENGE)

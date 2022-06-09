@@ -5,12 +5,12 @@ slot2 = class("BattleLastingAOEData", slot0.Battle.BattleAOEData)
 slot0.Battle.BattleLastingAOEData = slot2
 slot2.__name = "BattleLastingAOEData"
 
-function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	uv0.super.Ctor(slot0, slot1, slot2, slot3, slot5)
 
 	slot0._exitCldFunc = slot4
 
-	if slot5 then
+	if slot6 then
 		slot0.Settle = slot0.frequentlySettle
 	end
 

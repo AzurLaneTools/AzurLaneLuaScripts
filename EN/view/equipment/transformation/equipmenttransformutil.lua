@@ -54,13 +54,18 @@ return {
 		for slot9, slot10 in ipairs(slot0) do
 			slot11 = pg.equip_upgrade_data[slot10]
 			slot12 = Equipment.GetRevertRewardsStatic(slot5)
+
+			assert(pg.equip_data_template[slot5], "Missing equip_data_template ID: " .. (slot5 or "NIL"))
+
 			slot14 = 0
 
-			if pg.equip_data_template[slot5] then
+			if slot13 then
 				slot14 = slot13.destory_gold or 0
 			end
 
 			slot5 = Equipment.GetEquipRootStatic(slot5)
+
+			assert(slot11 and slot11.upgrade_from == slot5, "Transform a non formula equipment, formula " .. (slot10 or -1) .. " equipment " .. (slot5 or -1))
 
 			for slot19, slot20 in ipairs(slot11.material_consume) do
 				slot4[slot21] = (slot4[slot20[1]] or slot3:getItemCountById(slot21) or 0) - slot20[2]
@@ -112,18 +117,25 @@ return {
 			slot5 = slot1.composeCfg.equip_id
 		end
 
+		assert(slot5)
+
 		slot6 = slot5
 
 		for slot10, slot11 in ipairs(slot0) do
 			slot12 = pg.equip_upgrade_data[slot11]
 			slot13 = Equipment.GetRevertRewardsStatic(slot6)
+
+			assert(pg.equip_data_template[slot6], "Missing equip_data_template ID: " .. (slot6 or "NIL"))
+
 			slot15 = 0
 
-			if pg.equip_data_template[slot6] then
+			if slot14 then
 				slot15 = slot14.destory_gold or 0
 			end
 
 			slot6 = Equipment.GetEquipRootStatic(slot6)
+
+			assert(slot12 and slot12.upgrade_from == slot6, "Transform a non formula equipment, formula " .. (slot11 or -1) .. " equipment " .. (slot6 or -1))
 
 			for slot20, slot21 in ipairs(slot12.material_consume) do
 				slot4[slot22] = (slot4[slot21[1]] or slot3:getItemCountById(slot22) or 0) - slot21[2]
@@ -167,18 +179,26 @@ return {
 			slot8 = slot1.composeCfg.equip_id
 		end
 
+		assert(slot8)
+
 		slot9 = slot8
 
 		for slot13, slot14 in ipairs(slot0) do
 			slot15 = pg.equip_upgrade_data[slot14]
 			slot16 = Equipment.GetRevertRewardsStatic(slot9)
+
+			assert(pg.equip_data_template[slot9], "Missing equip_data_template ID: " .. (slot9 or "NIL"))
+
 			slot18 = 0
 
-			if pg.equip_data_template[slot9] then
+			if slot17 then
 				slot18 = slot17.destory_gold or 0
 			end
 
 			slot9 = Equipment.GetEquipRootStatic(slot9)
+
+			assert(slot15 and slot15.upgrade_from == slot9, "Transform a non formula equipment, formula " .. (slot14 or -1) .. " equipment " .. (slot9 or -1))
+
 			slot5 = slot5 + slot15.coin_consume
 			slot7 = slot7 and slot4 - slot15.coin_consume >= 0
 

@@ -59,6 +59,7 @@ function slot4.initializeView(slot0)
 end
 
 function slot4.registerCommand(slot0, slot1, slot2)
+	assert(slot2)
 	slot0.controller:registerCommand(slot1, slot2)
 end
 

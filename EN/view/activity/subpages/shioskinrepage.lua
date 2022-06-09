@@ -34,6 +34,9 @@ function slot0.OnUpdateFlush(slot0)
 		slot8 = slot6
 		slot9 = slot0:findTF("item", slot0.itemTFList[slot6])
 		slot11 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot6]) or slot0.taskProxy:getFinishTaskById(slot10)
+
+		assert(slot11, "without this task by id: " .. slot10)
+
 		slot12 = slot11:getConfig("award_display")[1]
 
 		updateDrop(slot9, {

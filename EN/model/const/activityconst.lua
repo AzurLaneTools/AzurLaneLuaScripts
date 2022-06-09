@@ -1,5 +1,7 @@
 slot0 = setmetatable({}, {
 	__index = function (slot0, slot1)
+		assert(pg.activity_const[slot1], "activity_const without key:" .. slot1)
+
 		return pg.activity_const[slot1].act_id
 	end
 })
@@ -66,7 +68,6 @@ slot0.ACTIVITY_TYPE_EXPEDITION = 73
 slot0.ACTIVITY_TYPE_PT_BUFF = 74
 slot0.ACTIVITY_TYPE_AIRFIGHT_BATTLE = 75
 slot0.ACTIVITY_TYPE_COLLECTION_EVENT = 76
-slot0.ACTIVITY_TYPE_WORLD_WORLDBOSS = 34
 slot0.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD = 77
 slot0.ACTIVITY_TYPE_SHAKE_BEADS = 78
 slot0.ACTIVITY_TYPE_WORLDINPICTURE = 79

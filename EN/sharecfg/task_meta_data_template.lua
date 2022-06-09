@@ -496,6 +496,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[156] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "Win 1 battle with Repulse META in your fleet.",
+		id = 156,
+		target_num = 1,
+		target_id = "0"
+	},
+	[157] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Repulse META in your fleet.",
+		id = 157,
+		target_num = 1,
+		target_id = "30"
+	},
+	[158] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Repulse META in your fleet.",
+		id = 158,
+		target_num = 1,
+		target_id = "55"
+	},
+	[159] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Repulse META in your fleet.",
+		id = 159,
+		target_num = 1,
+		target_id = "80"
+	},
+	[160] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Repulse META in your fleet.",
+		id = 160,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -848,6 +888,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[244] = {
+		target_id_2 = "970403",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Repulse META in your fleet.",
+		id = 244,
+		target_num = 1,
+		target_id = "0"
+	},
+	[245] = {
+		target_id_2 = "970403",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Repulse META in your fleet.",
+		id = 245,
+		target_num = 1,
+		target_id = "70"
+	},
+	[246] = {
+		target_id_2 = "970403",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Repulse META in your fleet.",
+		id = 246,
+		target_num = 1,
+		target_id = "90"
+	},
+	[247] = {
+		target_id_2 = "970403",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Repulse META in your fleet.",
+		id = 247,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -927,6 +999,11 @@ pg.task_meta_data_template = {
 		153,
 		154,
 		155,
+		156,
+		157,
+		158,
+		159,
+		160,
 		200,
 		201,
 		202,
@@ -971,6 +1048,10 @@ pg.task_meta_data_template = {
 		241,
 		242,
 		243,
+		244,
+		245,
+		246,
+		247,
 		301,
 		302
 	}

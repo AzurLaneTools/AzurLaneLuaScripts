@@ -4,11 +4,28 @@ slot1 = require("common_pb")
 module("p34_pb")
 
 slot2 = {
+	CS_34001_GROUP_ID_FIELD = slot0.FieldDescriptor(),
+	SC_34002_META_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_34003_GROUP_ID_FIELD = slot0.FieldDescriptor(),
+	CS_34003_TARGET_PT_FIELD = slot0.FieldDescriptor(),
+	SC_34004_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_34004_DROP_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_34501_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_34502_FIGHT_COUNT_FIELD = slot0.FieldDescriptor(),
 	SC_34502_FIGHT_COUNT_UPDATE_TIME_FIELD = slot0.FieldDescriptor(),
 	SC_34502_SELF_BOSS_FIELD = slot0.FieldDescriptor(),
 	SC_34502_OTHER_BOSS_FIELD = slot0.FieldDescriptor(),
+	SC_34502_SUMMON_PT_FIELD = slot0.FieldDescriptor(),
+	SC_34502_SUMMON_PT_OLD_FIELD = slot0.FieldDescriptor(),
+	SC_34502_SUMMON_PT_DAILY_ACC_FIELD = slot0.FieldDescriptor(),
+	SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD = slot0.FieldDescriptor(),
+	SC_34502_SUMMON_FREE_FIELD = slot0.FieldDescriptor(),
+	SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD = slot0.FieldDescriptor(),
+	SC_34502_DEFAULT_BOSS_ID_FIELD = slot0.FieldDescriptor(),
+	SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD = slot0.FieldDescriptor(),
+	SC_34502_GUILD_SUPPORT_FIELD = slot0.FieldDescriptor(),
+	SC_34502_FRIEND_SUPPORT_FIELD = slot0.FieldDescriptor(),
+	SC_34502_WORLD_SUPPORT_FIELD = slot0.FieldDescriptor(),
 	CS_34503_USER_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_34504_BOSS_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_34505_BOSS_ID_FIELD = slot0.FieldDescriptor(),
@@ -34,15 +51,22 @@ slot2 = {
 	CS_34519_USERID_FIELD = slot0.FieldDescriptor(),
 	SC_34520_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_34520_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_34521_TEMPLATE_ID_FIELD = slot0.FieldDescriptor(),
+	SC_34522_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_34522_BOSS_FIELD = slot0.FieldDescriptor(),
+	CS_34523_BOSS_ID_FIELD = slot0.FieldDescriptor(),
+	SC_34524_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD = slot0.FieldDescriptor(),
+	CS_34525_BOSS_ID_FIELD = slot0.FieldDescriptor(),
+	SC_34526_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_34527_BOSS_ID_FIELD = slot0.FieldDescriptor(),
+	SC_34528_RESULT_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_ID_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_TEMPLATE_ID_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_LV_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_HP_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_OWNER_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_LAST_TIME_FIELD = slot0.FieldDescriptor(),
-	WORLDBOSS_INFO_GUILD_SUPPORT_FIELD = slot0.FieldDescriptor(),
-	WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD = slot0.FieldDescriptor(),
-	WORLDBOSS_INFO_WORLD_SUPPORT_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_KILL_TIME_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_FIGHT_COUNT_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_RANK_COUNT_FIELD = slot0.FieldDescriptor(),
@@ -51,8 +75,15 @@ slot2 = {
 	WORLDBOSS_RANK_DAMAGE_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_SIMPLE_ID_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_SIMPLE_HP_FIELD = slot0.FieldDescriptor(),
-	WORLDBOSS_SIMPLE_RANK_COUNT_FIELD = slot0.FieldDescriptor()
+	WORLDBOSS_SIMPLE_RANK_COUNT_FIELD = slot0.FieldDescriptor(),
+	META_SHIP_INFO_GROUP_ID_FIELD = slot0.FieldDescriptor(),
+	META_SHIP_INFO_PT_FIELD = slot0.FieldDescriptor(),
+	META_SHIP_INFO_FETCH_LIST_FIELD = slot0.FieldDescriptor()
 }
+CS_34001 = slot0.Descriptor()
+SC_34002 = slot0.Descriptor()
+CS_34003 = slot0.Descriptor()
+SC_34004 = slot0.Descriptor()
 CS_34501 = slot0.Descriptor()
 SC_34502 = slot0.Descriptor()
 CS_34503 = slot0.Descriptor()
@@ -73,9 +104,112 @@ CS_34517 = slot0.Descriptor()
 SC_34518 = slot0.Descriptor()
 CS_34519 = slot0.Descriptor()
 SC_34520 = slot0.Descriptor()
+CS_34521 = slot0.Descriptor()
+SC_34522 = slot0.Descriptor()
+CS_34523 = slot0.Descriptor()
+SC_34524 = slot0.Descriptor()
+CS_34525 = slot0.Descriptor()
+SC_34526 = slot0.Descriptor()
+CS_34527 = slot0.Descriptor()
+SC_34528 = slot0.Descriptor()
 WORLDBOSS_INFO = slot0.Descriptor()
 WORLDBOSS_RANK = slot0.Descriptor()
 WORLDBOSS_SIMPLE = slot0.Descriptor()
+META_SHIP_INFO = slot0.Descriptor()
+slot2.CS_34001_GROUP_ID_FIELD.name = "group_id"
+slot2.CS_34001_GROUP_ID_FIELD.full_name = "p34.cs_34001.group_id"
+slot2.CS_34001_GROUP_ID_FIELD.number = 1
+slot2.CS_34001_GROUP_ID_FIELD.index = 0
+slot2.CS_34001_GROUP_ID_FIELD.label = 3
+slot2.CS_34001_GROUP_ID_FIELD.has_default_value = false
+slot2.CS_34001_GROUP_ID_FIELD.default_value = {}
+slot2.CS_34001_GROUP_ID_FIELD.type = 13
+slot2.CS_34001_GROUP_ID_FIELD.cpp_type = 3
+CS_34001.name = "cs_34001"
+CS_34001.full_name = "p34.cs_34001"
+CS_34001.nested_types = {}
+CS_34001.enum_types = {}
+CS_34001.fields = {
+	slot2.CS_34001_GROUP_ID_FIELD
+}
+CS_34001.is_extendable = false
+CS_34001.extensions = {}
+slot2.SC_34002_META_SHIP_LIST_FIELD.name = "meta_ship_list"
+slot2.SC_34002_META_SHIP_LIST_FIELD.full_name = "p34.sc_34002.meta_ship_list"
+slot2.SC_34002_META_SHIP_LIST_FIELD.number = 1
+slot2.SC_34002_META_SHIP_LIST_FIELD.index = 0
+slot2.SC_34002_META_SHIP_LIST_FIELD.label = 3
+slot2.SC_34002_META_SHIP_LIST_FIELD.has_default_value = false
+slot2.SC_34002_META_SHIP_LIST_FIELD.default_value = {}
+slot2.SC_34002_META_SHIP_LIST_FIELD.message_type = META_SHIP_INFO
+slot2.SC_34002_META_SHIP_LIST_FIELD.type = 11
+slot2.SC_34002_META_SHIP_LIST_FIELD.cpp_type = 10
+SC_34002.name = "sc_34002"
+SC_34002.full_name = "p34.sc_34002"
+SC_34002.nested_types = {}
+SC_34002.enum_types = {}
+SC_34002.fields = {
+	slot2.SC_34002_META_SHIP_LIST_FIELD
+}
+SC_34002.is_extendable = false
+SC_34002.extensions = {}
+slot2.CS_34003_GROUP_ID_FIELD.name = "group_id"
+slot2.CS_34003_GROUP_ID_FIELD.full_name = "p34.cs_34003.group_id"
+slot2.CS_34003_GROUP_ID_FIELD.number = 1
+slot2.CS_34003_GROUP_ID_FIELD.index = 0
+slot2.CS_34003_GROUP_ID_FIELD.label = 2
+slot2.CS_34003_GROUP_ID_FIELD.has_default_value = false
+slot2.CS_34003_GROUP_ID_FIELD.default_value = 0
+slot2.CS_34003_GROUP_ID_FIELD.type = 13
+slot2.CS_34003_GROUP_ID_FIELD.cpp_type = 3
+slot2.CS_34003_TARGET_PT_FIELD.name = "target_pt"
+slot2.CS_34003_TARGET_PT_FIELD.full_name = "p34.cs_34003.target_pt"
+slot2.CS_34003_TARGET_PT_FIELD.number = 2
+slot2.CS_34003_TARGET_PT_FIELD.index = 1
+slot2.CS_34003_TARGET_PT_FIELD.label = 2
+slot2.CS_34003_TARGET_PT_FIELD.has_default_value = false
+slot2.CS_34003_TARGET_PT_FIELD.default_value = 0
+slot2.CS_34003_TARGET_PT_FIELD.type = 13
+slot2.CS_34003_TARGET_PT_FIELD.cpp_type = 3
+CS_34003.name = "cs_34003"
+CS_34003.full_name = "p34.cs_34003"
+CS_34003.nested_types = {}
+CS_34003.enum_types = {}
+CS_34003.fields = {
+	slot2.CS_34003_GROUP_ID_FIELD,
+	slot2.CS_34003_TARGET_PT_FIELD
+}
+CS_34003.is_extendable = false
+CS_34003.extensions = {}
+slot2.SC_34004_RESULT_FIELD.name = "result"
+slot2.SC_34004_RESULT_FIELD.full_name = "p34.sc_34004.result"
+slot2.SC_34004_RESULT_FIELD.number = 1
+slot2.SC_34004_RESULT_FIELD.index = 0
+slot2.SC_34004_RESULT_FIELD.label = 2
+slot2.SC_34004_RESULT_FIELD.has_default_value = false
+slot2.SC_34004_RESULT_FIELD.default_value = 0
+slot2.SC_34004_RESULT_FIELD.type = 13
+slot2.SC_34004_RESULT_FIELD.cpp_type = 3
+slot2.SC_34004_DROP_LIST_FIELD.name = "drop_list"
+slot2.SC_34004_DROP_LIST_FIELD.full_name = "p34.sc_34004.drop_list"
+slot2.SC_34004_DROP_LIST_FIELD.number = 2
+slot2.SC_34004_DROP_LIST_FIELD.index = 1
+slot2.SC_34004_DROP_LIST_FIELD.label = 3
+slot2.SC_34004_DROP_LIST_FIELD.has_default_value = false
+slot2.SC_34004_DROP_LIST_FIELD.default_value = {}
+slot2.SC_34004_DROP_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.SC_34004_DROP_LIST_FIELD.type = 11
+slot2.SC_34004_DROP_LIST_FIELD.cpp_type = 10
+SC_34004.name = "sc_34004"
+SC_34004.full_name = "p34.sc_34004"
+SC_34004.nested_types = {}
+SC_34004.enum_types = {}
+SC_34004.fields = {
+	slot2.SC_34004_RESULT_FIELD,
+	slot2.SC_34004_DROP_LIST_FIELD
+}
+SC_34004.is_extendable = false
+SC_34004.extensions = {}
 slot2.CS_34501_TYPE_FIELD.name = "type"
 slot2.CS_34501_TYPE_FIELD.full_name = "p34.cs_34501.type"
 slot2.CS_34501_TYPE_FIELD.number = 1
@@ -132,6 +266,105 @@ slot2.SC_34502_OTHER_BOSS_FIELD.default_value = {}
 slot2.SC_34502_OTHER_BOSS_FIELD.message_type = WORLDBOSS_INFO
 slot2.SC_34502_OTHER_BOSS_FIELD.type = 11
 slot2.SC_34502_OTHER_BOSS_FIELD.cpp_type = 10
+slot2.SC_34502_SUMMON_PT_FIELD.name = "summon_pt"
+slot2.SC_34502_SUMMON_PT_FIELD.full_name = "p34.sc_34502.summon_pt"
+slot2.SC_34502_SUMMON_PT_FIELD.number = 5
+slot2.SC_34502_SUMMON_PT_FIELD.index = 4
+slot2.SC_34502_SUMMON_PT_FIELD.label = 2
+slot2.SC_34502_SUMMON_PT_FIELD.has_default_value = false
+slot2.SC_34502_SUMMON_PT_FIELD.default_value = 0
+slot2.SC_34502_SUMMON_PT_FIELD.type = 13
+slot2.SC_34502_SUMMON_PT_FIELD.cpp_type = 3
+slot2.SC_34502_SUMMON_PT_OLD_FIELD.name = "summon_pt_old"
+slot2.SC_34502_SUMMON_PT_OLD_FIELD.full_name = "p34.sc_34502.summon_pt_old"
+slot2.SC_34502_SUMMON_PT_OLD_FIELD.number = 6
+slot2.SC_34502_SUMMON_PT_OLD_FIELD.index = 5
+slot2.SC_34502_SUMMON_PT_OLD_FIELD.label = 2
+slot2.SC_34502_SUMMON_PT_OLD_FIELD.has_default_value = false
+slot2.SC_34502_SUMMON_PT_OLD_FIELD.default_value = 0
+slot2.SC_34502_SUMMON_PT_OLD_FIELD.type = 13
+slot2.SC_34502_SUMMON_PT_OLD_FIELD.cpp_type = 3
+slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD.name = "summon_pt_daily_acc"
+slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD.full_name = "p34.sc_34502.summon_pt_daily_acc"
+slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD.number = 7
+slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD.index = 6
+slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD.label = 2
+slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD.has_default_value = false
+slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD.default_value = 0
+slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD.type = 13
+slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD.cpp_type = 3
+slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD.name = "summon_pt_old_daily_acc"
+slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD.full_name = "p34.sc_34502.summon_pt_old_daily_acc"
+slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD.number = 8
+slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD.index = 7
+slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD.label = 2
+slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD.has_default_value = false
+slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD.default_value = 0
+slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD.type = 13
+slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD.cpp_type = 3
+slot2.SC_34502_SUMMON_FREE_FIELD.name = "summon_free"
+slot2.SC_34502_SUMMON_FREE_FIELD.full_name = "p34.sc_34502.summon_free"
+slot2.SC_34502_SUMMON_FREE_FIELD.number = 9
+slot2.SC_34502_SUMMON_FREE_FIELD.index = 8
+slot2.SC_34502_SUMMON_FREE_FIELD.label = 2
+slot2.SC_34502_SUMMON_FREE_FIELD.has_default_value = false
+slot2.SC_34502_SUMMON_FREE_FIELD.default_value = 0
+slot2.SC_34502_SUMMON_FREE_FIELD.type = 13
+slot2.SC_34502_SUMMON_FREE_FIELD.cpp_type = 3
+slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD.name = "auto_fight_finish_time"
+slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD.full_name = "p34.sc_34502.auto_fight_finish_time"
+slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD.number = 10
+slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD.index = 9
+slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD.label = 2
+slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD.has_default_value = false
+slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD.default_value = 0
+slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD.type = 13
+slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD.cpp_type = 3
+slot2.SC_34502_DEFAULT_BOSS_ID_FIELD.name = "default_boss_id"
+slot2.SC_34502_DEFAULT_BOSS_ID_FIELD.full_name = "p34.sc_34502.default_boss_id"
+slot2.SC_34502_DEFAULT_BOSS_ID_FIELD.number = 11
+slot2.SC_34502_DEFAULT_BOSS_ID_FIELD.index = 10
+slot2.SC_34502_DEFAULT_BOSS_ID_FIELD.label = 2
+slot2.SC_34502_DEFAULT_BOSS_ID_FIELD.has_default_value = false
+slot2.SC_34502_DEFAULT_BOSS_ID_FIELD.default_value = 0
+slot2.SC_34502_DEFAULT_BOSS_ID_FIELD.type = 13
+slot2.SC_34502_DEFAULT_BOSS_ID_FIELD.cpp_type = 3
+slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD.name = "auto_fight_max_damage"
+slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD.full_name = "p34.sc_34502.auto_fight_max_damage"
+slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD.number = 12
+slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD.index = 11
+slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD.label = 2
+slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD.has_default_value = false
+slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD.default_value = 0
+slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD.type = 13
+slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD.cpp_type = 3
+slot2.SC_34502_GUILD_SUPPORT_FIELD.name = "guild_support"
+slot2.SC_34502_GUILD_SUPPORT_FIELD.full_name = "p34.sc_34502.guild_support"
+slot2.SC_34502_GUILD_SUPPORT_FIELD.number = 13
+slot2.SC_34502_GUILD_SUPPORT_FIELD.index = 12
+slot2.SC_34502_GUILD_SUPPORT_FIELD.label = 2
+slot2.SC_34502_GUILD_SUPPORT_FIELD.has_default_value = false
+slot2.SC_34502_GUILD_SUPPORT_FIELD.default_value = 0
+slot2.SC_34502_GUILD_SUPPORT_FIELD.type = 13
+slot2.SC_34502_GUILD_SUPPORT_FIELD.cpp_type = 3
+slot2.SC_34502_FRIEND_SUPPORT_FIELD.name = "friend_support"
+slot2.SC_34502_FRIEND_SUPPORT_FIELD.full_name = "p34.sc_34502.friend_support"
+slot2.SC_34502_FRIEND_SUPPORT_FIELD.number = 14
+slot2.SC_34502_FRIEND_SUPPORT_FIELD.index = 13
+slot2.SC_34502_FRIEND_SUPPORT_FIELD.label = 2
+slot2.SC_34502_FRIEND_SUPPORT_FIELD.has_default_value = false
+slot2.SC_34502_FRIEND_SUPPORT_FIELD.default_value = 0
+slot2.SC_34502_FRIEND_SUPPORT_FIELD.type = 13
+slot2.SC_34502_FRIEND_SUPPORT_FIELD.cpp_type = 3
+slot2.SC_34502_WORLD_SUPPORT_FIELD.name = "world_support"
+slot2.SC_34502_WORLD_SUPPORT_FIELD.full_name = "p34.sc_34502.world_support"
+slot2.SC_34502_WORLD_SUPPORT_FIELD.number = 15
+slot2.SC_34502_WORLD_SUPPORT_FIELD.index = 14
+slot2.SC_34502_WORLD_SUPPORT_FIELD.label = 2
+slot2.SC_34502_WORLD_SUPPORT_FIELD.has_default_value = false
+slot2.SC_34502_WORLD_SUPPORT_FIELD.default_value = 0
+slot2.SC_34502_WORLD_SUPPORT_FIELD.type = 13
+slot2.SC_34502_WORLD_SUPPORT_FIELD.cpp_type = 3
 SC_34502.name = "sc_34502"
 SC_34502.full_name = "p34.sc_34502"
 SC_34502.nested_types = {}
@@ -140,7 +373,18 @@ SC_34502.fields = {
 	slot2.SC_34502_FIGHT_COUNT_FIELD,
 	slot2.SC_34502_FIGHT_COUNT_UPDATE_TIME_FIELD,
 	slot2.SC_34502_SELF_BOSS_FIELD,
-	slot2.SC_34502_OTHER_BOSS_FIELD
+	slot2.SC_34502_OTHER_BOSS_FIELD,
+	slot2.SC_34502_SUMMON_PT_FIELD,
+	slot2.SC_34502_SUMMON_PT_OLD_FIELD,
+	slot2.SC_34502_SUMMON_PT_DAILY_ACC_FIELD,
+	slot2.SC_34502_SUMMON_PT_OLD_DAILY_ACC_FIELD,
+	slot2.SC_34502_SUMMON_FREE_FIELD,
+	slot2.SC_34502_AUTO_FIGHT_FINISH_TIME_FIELD,
+	slot2.SC_34502_DEFAULT_BOSS_ID_FIELD,
+	slot2.SC_34502_AUTO_FIGHT_MAX_DAMAGE_FIELD,
+	slot2.SC_34502_GUILD_SUPPORT_FIELD,
+	slot2.SC_34502_FRIEND_SUPPORT_FIELD,
+	slot2.SC_34502_WORLD_SUPPORT_FIELD
 }
 SC_34502.is_extendable = false
 SC_34502.extensions = {}
@@ -545,6 +789,171 @@ SC_34520.fields = {
 }
 SC_34520.is_extendable = false
 SC_34520.extensions = {}
+slot2.CS_34521_TEMPLATE_ID_FIELD.name = "template_id"
+slot2.CS_34521_TEMPLATE_ID_FIELD.full_name = "p34.cs_34521.template_id"
+slot2.CS_34521_TEMPLATE_ID_FIELD.number = 1
+slot2.CS_34521_TEMPLATE_ID_FIELD.index = 0
+slot2.CS_34521_TEMPLATE_ID_FIELD.label = 2
+slot2.CS_34521_TEMPLATE_ID_FIELD.has_default_value = false
+slot2.CS_34521_TEMPLATE_ID_FIELD.default_value = 0
+slot2.CS_34521_TEMPLATE_ID_FIELD.type = 13
+slot2.CS_34521_TEMPLATE_ID_FIELD.cpp_type = 3
+CS_34521.name = "cs_34521"
+CS_34521.full_name = "p34.cs_34521"
+CS_34521.nested_types = {}
+CS_34521.enum_types = {}
+CS_34521.fields = {
+	slot2.CS_34521_TEMPLATE_ID_FIELD
+}
+CS_34521.is_extendable = false
+CS_34521.extensions = {}
+slot2.SC_34522_RESULT_FIELD.name = "result"
+slot2.SC_34522_RESULT_FIELD.full_name = "p34.sc_34522.result"
+slot2.SC_34522_RESULT_FIELD.number = 1
+slot2.SC_34522_RESULT_FIELD.index = 0
+slot2.SC_34522_RESULT_FIELD.label = 2
+slot2.SC_34522_RESULT_FIELD.has_default_value = false
+slot2.SC_34522_RESULT_FIELD.default_value = 0
+slot2.SC_34522_RESULT_FIELD.type = 13
+slot2.SC_34522_RESULT_FIELD.cpp_type = 3
+slot2.SC_34522_BOSS_FIELD.name = "boss"
+slot2.SC_34522_BOSS_FIELD.full_name = "p34.sc_34522.boss"
+slot2.SC_34522_BOSS_FIELD.number = 2
+slot2.SC_34522_BOSS_FIELD.index = 1
+slot2.SC_34522_BOSS_FIELD.label = 1
+slot2.SC_34522_BOSS_FIELD.has_default_value = false
+slot2.SC_34522_BOSS_FIELD.default_value = nil
+slot2.SC_34522_BOSS_FIELD.message_type = WORLDBOSS_INFO
+slot2.SC_34522_BOSS_FIELD.type = 11
+slot2.SC_34522_BOSS_FIELD.cpp_type = 10
+SC_34522.name = "sc_34522"
+SC_34522.full_name = "p34.sc_34522"
+SC_34522.nested_types = {}
+SC_34522.enum_types = {}
+SC_34522.fields = {
+	slot2.SC_34522_RESULT_FIELD,
+	slot2.SC_34522_BOSS_FIELD
+}
+SC_34522.is_extendable = false
+SC_34522.extensions = {}
+slot2.CS_34523_BOSS_ID_FIELD.name = "boss_id"
+slot2.CS_34523_BOSS_ID_FIELD.full_name = "p34.cs_34523.boss_id"
+slot2.CS_34523_BOSS_ID_FIELD.number = 1
+slot2.CS_34523_BOSS_ID_FIELD.index = 0
+slot2.CS_34523_BOSS_ID_FIELD.label = 2
+slot2.CS_34523_BOSS_ID_FIELD.has_default_value = false
+slot2.CS_34523_BOSS_ID_FIELD.default_value = 0
+slot2.CS_34523_BOSS_ID_FIELD.type = 13
+slot2.CS_34523_BOSS_ID_FIELD.cpp_type = 3
+CS_34523.name = "cs_34523"
+CS_34523.full_name = "p34.cs_34523"
+CS_34523.nested_types = {}
+CS_34523.enum_types = {}
+CS_34523.fields = {
+	slot2.CS_34523_BOSS_ID_FIELD
+}
+CS_34523.is_extendable = false
+CS_34523.extensions = {}
+slot2.SC_34524_RESULT_FIELD.name = "result"
+slot2.SC_34524_RESULT_FIELD.full_name = "p34.sc_34524.result"
+slot2.SC_34524_RESULT_FIELD.number = 1
+slot2.SC_34524_RESULT_FIELD.index = 0
+slot2.SC_34524_RESULT_FIELD.label = 2
+slot2.SC_34524_RESULT_FIELD.has_default_value = false
+slot2.SC_34524_RESULT_FIELD.default_value = 0
+slot2.SC_34524_RESULT_FIELD.type = 13
+slot2.SC_34524_RESULT_FIELD.cpp_type = 3
+slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD.name = "auto_fight_finish_time"
+slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD.full_name = "p34.sc_34524.auto_fight_finish_time"
+slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD.number = 2
+slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD.index = 1
+slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD.label = 2
+slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD.has_default_value = false
+slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD.default_value = 0
+slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD.type = 13
+slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD.cpp_type = 3
+SC_34524.name = "sc_34524"
+SC_34524.full_name = "p34.sc_34524"
+SC_34524.nested_types = {}
+SC_34524.enum_types = {}
+SC_34524.fields = {
+	slot2.SC_34524_RESULT_FIELD,
+	slot2.SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD
+}
+SC_34524.is_extendable = false
+SC_34524.extensions = {}
+slot2.CS_34525_BOSS_ID_FIELD.name = "boss_id"
+slot2.CS_34525_BOSS_ID_FIELD.full_name = "p34.cs_34525.boss_id"
+slot2.CS_34525_BOSS_ID_FIELD.number = 1
+slot2.CS_34525_BOSS_ID_FIELD.index = 0
+slot2.CS_34525_BOSS_ID_FIELD.label = 2
+slot2.CS_34525_BOSS_ID_FIELD.has_default_value = false
+slot2.CS_34525_BOSS_ID_FIELD.default_value = 0
+slot2.CS_34525_BOSS_ID_FIELD.type = 13
+slot2.CS_34525_BOSS_ID_FIELD.cpp_type = 3
+CS_34525.name = "cs_34525"
+CS_34525.full_name = "p34.cs_34525"
+CS_34525.nested_types = {}
+CS_34525.enum_types = {}
+CS_34525.fields = {
+	slot2.CS_34525_BOSS_ID_FIELD
+}
+CS_34525.is_extendable = false
+CS_34525.extensions = {}
+slot2.SC_34526_RESULT_FIELD.name = "result"
+slot2.SC_34526_RESULT_FIELD.full_name = "p34.sc_34526.result"
+slot2.SC_34526_RESULT_FIELD.number = 1
+slot2.SC_34526_RESULT_FIELD.index = 0
+slot2.SC_34526_RESULT_FIELD.label = 2
+slot2.SC_34526_RESULT_FIELD.has_default_value = false
+slot2.SC_34526_RESULT_FIELD.default_value = 0
+slot2.SC_34526_RESULT_FIELD.type = 13
+slot2.SC_34526_RESULT_FIELD.cpp_type = 3
+SC_34526.name = "sc_34526"
+SC_34526.full_name = "p34.sc_34526"
+SC_34526.nested_types = {}
+SC_34526.enum_types = {}
+SC_34526.fields = {
+	slot2.SC_34526_RESULT_FIELD
+}
+SC_34526.is_extendable = false
+SC_34526.extensions = {}
+slot2.CS_34527_BOSS_ID_FIELD.name = "boss_id"
+slot2.CS_34527_BOSS_ID_FIELD.full_name = "p34.cs_34527.boss_id"
+slot2.CS_34527_BOSS_ID_FIELD.number = 1
+slot2.CS_34527_BOSS_ID_FIELD.index = 0
+slot2.CS_34527_BOSS_ID_FIELD.label = 2
+slot2.CS_34527_BOSS_ID_FIELD.has_default_value = false
+slot2.CS_34527_BOSS_ID_FIELD.default_value = 0
+slot2.CS_34527_BOSS_ID_FIELD.type = 13
+slot2.CS_34527_BOSS_ID_FIELD.cpp_type = 3
+CS_34527.name = "cs_34527"
+CS_34527.full_name = "p34.cs_34527"
+CS_34527.nested_types = {}
+CS_34527.enum_types = {}
+CS_34527.fields = {
+	slot2.CS_34527_BOSS_ID_FIELD
+}
+CS_34527.is_extendable = false
+CS_34527.extensions = {}
+slot2.SC_34528_RESULT_FIELD.name = "result"
+slot2.SC_34528_RESULT_FIELD.full_name = "p34.sc_34528.result"
+slot2.SC_34528_RESULT_FIELD.number = 1
+slot2.SC_34528_RESULT_FIELD.index = 0
+slot2.SC_34528_RESULT_FIELD.label = 2
+slot2.SC_34528_RESULT_FIELD.has_default_value = false
+slot2.SC_34528_RESULT_FIELD.default_value = 0
+slot2.SC_34528_RESULT_FIELD.type = 13
+slot2.SC_34528_RESULT_FIELD.cpp_type = 3
+SC_34528.name = "sc_34528"
+SC_34528.full_name = "p34.sc_34528"
+SC_34528.nested_types = {}
+SC_34528.enum_types = {}
+SC_34528.fields = {
+	slot2.SC_34528_RESULT_FIELD
+}
+SC_34528.is_extendable = false
+SC_34528.extensions = {}
 slot2.WORLDBOSS_INFO_ID_FIELD.name = "id"
 slot2.WORLDBOSS_INFO_ID_FIELD.full_name = "p34.worldboss_info.id"
 slot2.WORLDBOSS_INFO_ID_FIELD.number = 1
@@ -599,37 +1008,10 @@ slot2.WORLDBOSS_INFO_LAST_TIME_FIELD.has_default_value = false
 slot2.WORLDBOSS_INFO_LAST_TIME_FIELD.default_value = 0
 slot2.WORLDBOSS_INFO_LAST_TIME_FIELD.type = 13
 slot2.WORLDBOSS_INFO_LAST_TIME_FIELD.cpp_type = 3
-slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD.name = "guild_support"
-slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD.full_name = "p34.worldboss_info.guild_support"
-slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD.number = 7
-slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD.index = 6
-slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD.label = 2
-slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD.has_default_value = false
-slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD.default_value = 0
-slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD.type = 13
-slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD.cpp_type = 3
-slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD.name = "friend_support"
-slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD.full_name = "p34.worldboss_info.friend_support"
-slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD.number = 8
-slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD.index = 7
-slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD.label = 2
-slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD.has_default_value = false
-slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD.default_value = 0
-slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD.type = 13
-slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD.cpp_type = 3
-slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD.name = "world_support"
-slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD.full_name = "p34.worldboss_info.world_support"
-slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD.number = 9
-slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD.index = 8
-slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD.label = 2
-slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD.has_default_value = false
-slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD.default_value = 0
-slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD.type = 13
-slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD.cpp_type = 3
 slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.name = "kill_time"
 slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.full_name = "p34.worldboss_info.kill_time"
-slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.number = 10
-slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.index = 9
+slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.number = 7
+slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.index = 6
 slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.label = 2
 slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.has_default_value = false
 slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.default_value = 0
@@ -637,8 +1019,8 @@ slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.type = 13
 slot2.WORLDBOSS_INFO_KILL_TIME_FIELD.cpp_type = 3
 slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.name = "fight_count"
 slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.full_name = "p34.worldboss_info.fight_count"
-slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.number = 11
-slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.index = 10
+slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.number = 8
+slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.index = 7
 slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.label = 2
 slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.has_default_value = false
 slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.default_value = 0
@@ -646,8 +1028,8 @@ slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.type = 13
 slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD.cpp_type = 3
 slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD.name = "rank_count"
 slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD.full_name = "p34.worldboss_info.rank_count"
-slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD.number = 12
-slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD.index = 11
+slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD.number = 9
+slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD.index = 8
 slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD.label = 2
 slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD.has_default_value = false
 slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD.default_value = 0
@@ -664,9 +1046,6 @@ WORLDBOSS_INFO.fields = {
 	slot2.WORLDBOSS_INFO_HP_FIELD,
 	slot2.WORLDBOSS_INFO_OWNER_FIELD,
 	slot2.WORLDBOSS_INFO_LAST_TIME_FIELD,
-	slot2.WORLDBOSS_INFO_GUILD_SUPPORT_FIELD,
-	slot2.WORLDBOSS_INFO_FRIEND_SUPPORT_FIELD,
-	slot2.WORLDBOSS_INFO_WORLD_SUPPORT_FIELD,
 	slot2.WORLDBOSS_INFO_KILL_TIME_FIELD,
 	slot2.WORLDBOSS_INFO_FIGHT_COUNT_FIELD,
 	slot2.WORLDBOSS_INFO_RANK_COUNT_FIELD
@@ -749,6 +1128,46 @@ WORLDBOSS_SIMPLE.fields = {
 }
 WORLDBOSS_SIMPLE.is_extendable = false
 WORLDBOSS_SIMPLE.extensions = {}
+slot2.META_SHIP_INFO_GROUP_ID_FIELD.name = "group_id"
+slot2.META_SHIP_INFO_GROUP_ID_FIELD.full_name = "p34.meta_ship_info.group_id"
+slot2.META_SHIP_INFO_GROUP_ID_FIELD.number = 1
+slot2.META_SHIP_INFO_GROUP_ID_FIELD.index = 0
+slot2.META_SHIP_INFO_GROUP_ID_FIELD.label = 2
+slot2.META_SHIP_INFO_GROUP_ID_FIELD.has_default_value = false
+slot2.META_SHIP_INFO_GROUP_ID_FIELD.default_value = 0
+slot2.META_SHIP_INFO_GROUP_ID_FIELD.type = 13
+slot2.META_SHIP_INFO_GROUP_ID_FIELD.cpp_type = 3
+slot2.META_SHIP_INFO_PT_FIELD.name = "pt"
+slot2.META_SHIP_INFO_PT_FIELD.full_name = "p34.meta_ship_info.pt"
+slot2.META_SHIP_INFO_PT_FIELD.number = 2
+slot2.META_SHIP_INFO_PT_FIELD.index = 1
+slot2.META_SHIP_INFO_PT_FIELD.label = 2
+slot2.META_SHIP_INFO_PT_FIELD.has_default_value = false
+slot2.META_SHIP_INFO_PT_FIELD.default_value = 0
+slot2.META_SHIP_INFO_PT_FIELD.type = 13
+slot2.META_SHIP_INFO_PT_FIELD.cpp_type = 3
+slot2.META_SHIP_INFO_FETCH_LIST_FIELD.name = "fetch_list"
+slot2.META_SHIP_INFO_FETCH_LIST_FIELD.full_name = "p34.meta_ship_info.fetch_list"
+slot2.META_SHIP_INFO_FETCH_LIST_FIELD.number = 3
+slot2.META_SHIP_INFO_FETCH_LIST_FIELD.index = 2
+slot2.META_SHIP_INFO_FETCH_LIST_FIELD.label = 3
+slot2.META_SHIP_INFO_FETCH_LIST_FIELD.has_default_value = false
+slot2.META_SHIP_INFO_FETCH_LIST_FIELD.default_value = {}
+slot2.META_SHIP_INFO_FETCH_LIST_FIELD.type = 13
+slot2.META_SHIP_INFO_FETCH_LIST_FIELD.cpp_type = 3
+META_SHIP_INFO.name = "meta_ship_info"
+META_SHIP_INFO.full_name = "p34.meta_ship_info"
+META_SHIP_INFO.nested_types = {}
+META_SHIP_INFO.enum_types = {}
+META_SHIP_INFO.fields = {
+	slot2.META_SHIP_INFO_GROUP_ID_FIELD,
+	slot2.META_SHIP_INFO_PT_FIELD,
+	slot2.META_SHIP_INFO_FETCH_LIST_FIELD
+}
+META_SHIP_INFO.is_extendable = false
+META_SHIP_INFO.extensions = {}
+cs_34001 = slot0.Message(CS_34001)
+cs_34003 = slot0.Message(CS_34003)
 cs_34501 = slot0.Message(CS_34501)
 cs_34503 = slot0.Message(CS_34503)
 cs_34505 = slot0.Message(CS_34505)
@@ -758,6 +1177,13 @@ cs_34513 = slot0.Message(CS_34513)
 cs_34515 = slot0.Message(CS_34515)
 cs_34517 = slot0.Message(CS_34517)
 cs_34519 = slot0.Message(CS_34519)
+cs_34521 = slot0.Message(CS_34521)
+cs_34523 = slot0.Message(CS_34523)
+cs_34525 = slot0.Message(CS_34525)
+cs_34527 = slot0.Message(CS_34527)
+meta_ship_info = slot0.Message(META_SHIP_INFO)
+sc_34002 = slot0.Message(SC_34002)
+sc_34004 = slot0.Message(SC_34004)
 sc_34502 = slot0.Message(SC_34502)
 sc_34504 = slot0.Message(SC_34504)
 sc_34506 = slot0.Message(SC_34506)
@@ -769,6 +1195,10 @@ sc_34514 = slot0.Message(SC_34514)
 sc_34516 = slot0.Message(SC_34516)
 sc_34518 = slot0.Message(SC_34518)
 sc_34520 = slot0.Message(SC_34520)
+sc_34522 = slot0.Message(SC_34522)
+sc_34524 = slot0.Message(SC_34524)
+sc_34526 = slot0.Message(SC_34526)
+sc_34528 = slot0.Message(SC_34528)
 worldboss_info = slot0.Message(WORLDBOSS_INFO)
 worldboss_rank = slot0.Message(WORLDBOSS_RANK)
 worldboss_simple = slot0.Message(WORLDBOSS_SIMPLE)

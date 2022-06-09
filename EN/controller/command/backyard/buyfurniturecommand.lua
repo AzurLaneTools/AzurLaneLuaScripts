@@ -20,9 +20,13 @@ function slot0.execute(slot0, slot1)
 
 			return
 		elseif slot4 == 4 then
-			slot8 = slot8 + slot14:getPrice(4)
+			assert(slot14:getPrice(4) > 0, "furniture price should more than zero>>" .. slot14.id)
+
+			slot8 = slot8 + slot15
 		elseif slot4 == 6 then
-			slot8 = slot8 + slot14:getPrice(6)
+			assert(slot14:getPrice(6) > 0, "furniture price should more than zero>>" .. slot14.id)
+
+			slot8 = slot8 + slot15
 		end
 	end
 

@@ -203,6 +203,8 @@ function slot0.GetCurrMapKeyIndex(slot0, slot1)
 		end
 	end
 
+	assert(slot5)
+
 	return slot5
 end
 

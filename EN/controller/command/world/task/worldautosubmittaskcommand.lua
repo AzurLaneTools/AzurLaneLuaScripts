@@ -20,6 +20,7 @@ function slot0.execute(slot0, slot1)
 
 	slot9 = slot7.config.complete_condition == WorldConst.TaskTypeSubmitItem and slot7.config.item_retrieve == 1
 
+	assert(slot7:IsAutoSubmit(), "auto submit error")
 	seriesAsync(slot8, function ()
 		pg.ConnectionMgr.GetInstance():Send(33207, {
 			taskId = uv0

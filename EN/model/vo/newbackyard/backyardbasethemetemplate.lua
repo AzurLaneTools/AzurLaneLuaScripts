@@ -58,6 +58,7 @@ function slot0.SetSortIndex(slot0, slot1)
 end
 
 function slot0.GetType(slot0)
+	assert(false)
 end
 
 function slot0.IsSelfUsage(slot0)
@@ -190,12 +191,15 @@ function slot0.UpdateIconMd5(slot0, slot1)
 end
 
 function slot0.GetAllFurniture(slot0)
+	assert(false, "请重写我")
 end
 
 function slot0.GetWarpFurnitures(slot0)
+	assert(false, "请重写我")
 end
 
 function slot0.GetFurnitureCnt(slot0)
+	assert(false, "请重写我")
 end
 
 function slot0.ContainsFurniture(slot0, slot1)

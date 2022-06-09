@@ -268,8 +268,8 @@ function slot0.initPlayerInfo(slot0)
 
 	setText(findTF(slot2, "statistics_panel/score_bg/score"), slot1)
 	setText(findTF(slot2, "statistics_panel/rank_bg/score"), slot0.seasonInfo.rank)
+	assert(SeasonInfo.getMilitaryRank(slot1, slot0.seasonInfo.rank), ">>>" .. slot1 .. "--" .. slot0.seasonInfo.rank)
 
-	slot6 = SeasonInfo.getMilitaryRank(slot1, slot0.seasonInfo.rank)
 	slot7 = SeasonInfo.getEmblem(slot1, slot0.seasonInfo.rank)
 
 	LoadImageSpriteAsync("emblem/" .. slot7, findTF(slot2, "medal_bg/medal"), true)
@@ -303,7 +303,9 @@ end
 function slot0.updateRival(slot0, slot1)
 	slot2 = slot0.rivalTFs[slot1]
 	slot3 = slot0.rivalVOs[slot1]
-	slot4 = SeasonInfo.getMilitaryRank(slot3.score, slot3.rank)
+
+	assert(SeasonInfo.getMilitaryRank(slot3.score, slot3.rank), ">>>" .. slot3.score .. "--" .. slot3.rank)
+
 	slot5 = findTF(slot2, "shiptpl")
 	slot6 = SeasonInfo.getEmblem(slot3.score, slot3.rank)
 
@@ -330,6 +332,7 @@ function slot0.updateRival(slot0, slot1)
 end
 
 function slot0.initAwards(slot0)
+	assert(not slot0.isInitAward, "已经初始化奖励列表")
 	setActive(slot0.awardPanel, true)
 	onButton(slot0, slot0:findTF("top/btnBack", slot0.awardPanel), function ()
 		uv0:closeAwards()

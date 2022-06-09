@@ -15,7 +15,9 @@ function slot1.Ctor(slot0, slot1)
 	slot0._go = GameObject.New("scenes")
 	slot0.mapLayerCtrls = {}
 	slot0.materialList = {}
-	slot2 = pg.map_data[slot1]
+	slot6 = slot1
+
+	assert(pg.map_data[slot1], "找不到地图: " .. slot6)
 
 	for slot6, slot7 in ipairs(uv0.LAYERS) do
 		setParent(GameObject.New(slot7 .. "Layer"), slot0._go, false)

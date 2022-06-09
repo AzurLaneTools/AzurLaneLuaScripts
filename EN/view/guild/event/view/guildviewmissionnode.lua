@@ -216,6 +216,8 @@ function slot0.GetOffset(slot0)
 end
 
 function slot0.GetParentOffset(slot0)
+	assert(slot0.parent)
+
 	return slot0.parent:GetOffset()
 end
 

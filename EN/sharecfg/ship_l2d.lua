@@ -197,6 +197,131 @@ pg.ship_l2d = {
 			30
 		}
 	},
+	[204] = {
+		draw_able_name = "",
+		offset_x = 0,
+		gyro_y = 0,
+		start_value = 0,
+		drag_direct = 0,
+		ship_skin_id = 205015,
+		ignore_react = 0,
+		mode = 1,
+		gyro = 1,
+		gyro_x = 1,
+		action_trigger = "",
+		revert = 200,
+		parameter = "ParamBGMoveX",
+		gyro_z = 0,
+		smooth = 200,
+		id = 204,
+		range_abs = 0,
+		offset_y = 0,
+		range = {
+			-30,
+			30
+		}
+	},
+	[205] = {
+		draw_able_name = "",
+		offset_x = 0,
+		gyro_y = 1,
+		start_value = 0,
+		drag_direct = 0,
+		ship_skin_id = 205015,
+		ignore_react = 0,
+		mode = 1,
+		gyro = 1,
+		gyro_x = 0,
+		action_trigger = "",
+		revert = 200,
+		parameter = "ParamBGMoveY",
+		gyro_z = 0,
+		smooth = 200,
+		id = 205,
+		range_abs = 0,
+		offset_y = 0,
+		range = {
+			-30,
+			30
+		}
+	},
+	[206] = {
+		draw_able_name = "TouchDrag",
+		offset_x = 0,
+		gyro_y = 0,
+		start_value = 0,
+		drag_direct = 1,
+		ship_skin_id = 403035,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		revert = 200,
+		parameter = "touch_drag",
+		gyro_z = 0,
+		smooth = 200,
+		id = 206,
+		range_abs = 1,
+		offset_y = 130,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag",
+			num = 1,
+			time = 0.5,
+			type = 1
+		}
+	},
+	[207] = {
+		draw_able_name = "",
+		offset_x = 0,
+		gyro_y = 0,
+		start_value = 0,
+		drag_direct = 0,
+		ship_skin_id = 405031,
+		ignore_react = 0,
+		mode = 1,
+		gyro = 1,
+		gyro_x = 1,
+		action_trigger = "",
+		revert = 200,
+		parameter = "ParamEyeBallX",
+		gyro_z = 0,
+		smooth = 200,
+		id = 207,
+		range_abs = 0,
+		offset_y = 0,
+		range = {
+			-10,
+			10
+		}
+	},
+	[208] = {
+		draw_able_name = "",
+		offset_x = 0,
+		gyro_y = 1,
+		start_value = 0,
+		drag_direct = 0,
+		ship_skin_id = 405031,
+		ignore_react = 0,
+		mode = 1,
+		gyro = 1,
+		gyro_x = 0,
+		action_trigger = "",
+		revert = 200,
+		parameter = "ParamEyeBallY",
+		gyro_z = 0,
+		smooth = 200,
+		id = 208,
+		range_abs = 0,
+		offset_y = 0,
+		range = {
+			-3.5,
+			3.5
+		}
+	},
 	all = {
 		101,
 		102,
@@ -205,6 +330,11 @@ pg.ship_l2d = {
 		105,
 		201,
 		202,
-		203
+		203,
+		204,
+		205,
+		206,
+		207,
+		208
 	}
 }

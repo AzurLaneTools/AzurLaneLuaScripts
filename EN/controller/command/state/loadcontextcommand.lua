@@ -28,11 +28,15 @@ function slot0.loadNext(slot0)
 			slot0:loadScene(slot1.context, slot1.prevContext, slot2)
 		elseif slot1.type == LOAD_TYPE_LAYER then
 			slot0:loadLayer(slot1.context, slot1.parentContext, slot2)
+		else
+			assert(false, "context load type not support: " .. slot1.type)
 		end
 	end
 end
 
 function slot0.loadScene(slot0, slot1, slot2, slot3)
+	assert(isa(slot1, Context), "should be an instance of Context")
+
 	slot5 = pg.SceneMgr.GetInstance()
 	slot6, slot7 = nil
 	slot8 = {}
@@ -120,6 +124,8 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 end
 
 function slot0.loadLayer(slot0, slot1, slot2, slot3)
+	assert(isa(slot1, Context), "should be an instance of Context")
+
 	slot4 = pg.SceneMgr.GetInstance()
 	slot5 = {}
 

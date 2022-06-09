@@ -57,9 +57,11 @@ function slot7.InitCldTree(slot0)
 	}
 	slot0._surfaceAOETree = pg.ColliderTree.New("surfaceAOE", slot5, slot6, 2)
 	slot0._airAOETree = pg.ColliderTree.New("airAOE", slot5, slot6, 2)
+	slot0._bulletAOETree = pg.ColliderTree.New("bulletAOE", slot5, slot6, 2)
 	slot0._AOETreeList = {
 		[uv0.AOEField.SURFACE] = slot0._surfaceAOETree,
-		[uv0.AOEField.AIR] = slot0._airAOETree
+		[uv0.AOEField.AIR] = slot0._airAOETree,
+		[uv0.AOEField.BULLET] = slot0._bulletAOETree
 	}
 	slot0._wallTree = pg.ColliderTree.New("wall", slot5, slot6, 2)
 end
@@ -256,22 +258,41 @@ end
 
 function slot7.UpdateAOECld(slot0, slot1)
 	slot2 = slot1:GetCldBox()
-	slot4 = nil
+	slot5 = slot1:GetCldData().IFF
+	slot6 = slot1:OpponentAffected() and slot5 * -1 or slot5
+	slot7 = nil
 
-	if slot1:GetFieldType() == uv0.BulletField.SURFACE then
-		slot4 = slot0:getAreaCldShipList(slot1, slot1:OpponentAffected() == (slot1:GetCldData().IFF == slot0._foeCode) and slot0._shipTree or slot0._foeShipTree)
+	if slot1:GetFieldType() == uv0.AOEField.SURFACE then
+		slot7 = slot0:getAreaCldShipList(slot1, slot1:OpponentAffected() == (slot1:GetCldData().IFF == slot0._foeCode) and slot0._shipTree or slot0._foeShipTree)
 
 		if slot1:GetIndiscriminate() then
-			slot9 = slot8 == slot0._shipTree and slot0._foeShipTree or slot0._shipTree
+			slot12 = slot11 == slot0._shipTree and slot0._foeShipTree or slot0._shipTree
 
-			for slot14, slot15 in ipairs(slot0:getAreaCldShipList(slot1, slot9)) do
-				table.insert(slot4, slot15)
+			for slot17, slot18 in ipairs(slot0:getAreaCldShipList(slot1, slot12)) do
+				table.insert(slot7, slot18)
 			end
 		end
 
-		slot0:HandleAreaCldWithVehicle(slot1, slot4)
+		slot0:HandleAreaCldWithVehicle(slot1, slot7)
+		slot1:ClearCLDList()
+		slot0:HandleAreaCldWithVehicle(slot1, slot7)
+	elseif slot3 == uv0.AOEField.BULLET then
+		slot8 = nil
+
+		slot1:ClearCLDList()
+		slot0:HandleAreaCldWithBullet(slot1, ((slot6 ~= slot0._foeCode or slot0._foeSurafceBulletTree) and slot0._surfaceBulletTree):GetCldList(slot2, uv1))
 	else
-		slot0:HandleAreaCldWithAircraft(slot1, slot0._aircraftTree:GetCldList(slot2, uv1))
+		slot7 = {}
+
+		for slot12, slot13 in ipairs(slot0._aircraftTree:GetCldList(slot2, uv1)) do
+			if slot13.data.IFF == slot6 then
+				table.insert(slot7, slot13)
+			end
+		end
+
+		slot1:ClearCLDList()
+		slot0:HandleAreaCldWithVehicle(slot1, slot7)
+		slot0:HandleAreaCldWithAircraft(slot1, slot7)
 	end
 end
 
@@ -310,6 +331,10 @@ function slot7.HandleAreaCldWithVehicle(slot0, slot1, slot2)
 		if slot13 and not slot1:IsOutOfAngle(slot12) then
 			slot1:AppendCldObj(slot10)
 		end
+
+		if flag then
+			slot1:AppendCldObj(slot10)
+		end
 	end
 end
 
@@ -323,6 +348,12 @@ function slot7.HandleAreaCldWithAircraft(slot0, slot1, slot2)
 		if slot4 == (slot2[slot9].data.IFF ~= slot3.IFF) then
 			slot1:AppendCldObj(slot10)
 		end
+	end
+end
+
+function slot7.HandleAreaCldWithBullet(slot0, slot1, slot2)
+	for slot7 = 1, #slot2 do
+		slot1:AppendCldObj(slot2[slot7].data)
 	end
 end
 

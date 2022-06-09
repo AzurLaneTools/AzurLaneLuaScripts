@@ -180,7 +180,11 @@ function slot0.GetPainting(slot0)
 end
 
 function slot0.GetPrefab(slot0)
-	return pg.enemy_data_statistics[slot0:getConfig("expedition_id")[2][1]].prefab
+	slot2 = pg.enemy_data_statistics[slot0:getConfig("expedition_id")[2][1]]
+
+	assert(slot2)
+
+	return slot2.prefab
 end
 
 function slot0.GetEmenyId(slot0)

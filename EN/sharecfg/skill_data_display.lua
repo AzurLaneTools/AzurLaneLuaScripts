@@ -864,6 +864,18 @@ pg.skill_data_display = {
 		id = 8903,
 		name = "Final Counter"
 	},
+	[8989] = {
+		id = 8989,
+		name = "Repulse's Resolve - I"
+	},
+	[8990] = {
+		id = 8990,
+		name = "Repulse's Resolve - II"
+	},
+	[8991] = {
+		id = 8991,
+		name = "Repulse's Resolve - III"
+	},
 	[8944] = {
 		id = 8944,
 		name = "Inferno"
@@ -5000,6 +5012,10 @@ pg.skill_data_display = {
 		id = 15671,
 		name = "Yuni's Aid"
 	},
+	[15673] = {
+		id = 15673,
+		name = "Yuni's Aid"
+	},
 	[15680] = {
 		id = 15680,
 		name = "Glisten, Light of Glory!"
@@ -8016,6 +8032,78 @@ pg.skill_data_display = {
 		id = 800457,
 		name = "Framework of Logic - Memphis II"
 	},
+	[800460] = {
+		id = 800460,
+		name = "Blazing Slash!"
+	},
+	[800470] = {
+		id = 800470,
+		name = "Repulsing Pyrotechnics"
+	},
+	[800473] = {
+		id = 800473,
+		name = "Repulsing Pyrotechnics"
+	},
+	[800480] = {
+		id = 800480,
+		name = "Ever-Burning Flames"
+	},
+	[800481] = {
+		id = 800481,
+		name = "Ever-Burning Flames"
+	},
+	[1010140] = {
+		id = 1010140,
+		name = "Eagle's Tears+"
+	},
+	[1010143] = {
+		id = 1010143,
+		name = "Eagle's Tears+"
+	},
+	[1010144] = {
+		id = 1010144,
+		name = "Eagle's Tears+"
+	},
+	[1010147] = {
+		id = 1010147,
+		name = "Eagle's Tears+"
+	},
+	[1010390] = {
+		id = 1010390,
+		name = "Unbreakable Shield+"
+	},
+	[1010410] = {
+		id = 1010410,
+		name = "Wargod of Solomon+"
+	},
+	[1010411] = {
+		id = 1010411,
+		name = "Wargod of Solomon+"
+	},
+	[1010412] = {
+		id = 1010412,
+		name = "Wargod of Solomon+"
+	},
+	[1010610] = {
+		id = 1010610,
+		name = "Burn Order+"
+	},
+	[1010611] = {
+		id = 1010611,
+		name = "Burn Order+"
+	},
+	[1010612] = {
+		id = 1010612,
+		name = "Burn Order+"
+	},
+	[1011380] = {
+		id = 1011380,
+		name = "Departing Strike+"
+	},
+	[1011381] = {
+		id = 1011381,
+		name = "Departing Strike+"
+	},
 	all = {
 		4,
 		10,
@@ -8233,6 +8321,9 @@ pg.skill_data_display = {
 		8897,
 		8899,
 		8903,
+		8989,
+		8990,
+		8991,
 		8944,
 		8945,
 		8946,
@@ -9267,6 +9358,7 @@ pg.skill_data_display = {
 		15660,
 		15670,
 		15671,
+		15673,
 		15680,
 		15681,
 		15690,
@@ -10020,6 +10112,24 @@ pg.skill_data_display = {
 		800451,
 		800452,
 		800455,
-		800457
+		800457,
+		800460,
+		800470,
+		800473,
+		800480,
+		800481,
+		1010140,
+		1010143,
+		1010144,
+		1010147,
+		1010390,
+		1010410,
+		1010411,
+		1010412,
+		1010610,
+		1010611,
+		1010612,
+		1011380,
+		1011381
 	}
 }

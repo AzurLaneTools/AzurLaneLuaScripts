@@ -88,7 +88,11 @@ function slot0.resumeManagedTween(slot0)
 end
 
 function slot0.AddLeanTween(slot0, slot1)
-	slot0.tweenIdList[#slot0.tweenIdList + 1] = slot1().uniqueId
+	slot2 = slot1()
+
+	assert(slot2)
+
+	slot0.tweenIdList[#slot0.tweenIdList + 1] = slot2.uniqueId
 end
 
 return slot0

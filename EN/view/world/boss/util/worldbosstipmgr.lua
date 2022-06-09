@@ -71,6 +71,7 @@ function slot0.Show(slot0, slot1)
 			slot5 = i18n("world_word_guild_player")
 		end
 
+		assert(slot4)
 		print(slot4, slot5)
 
 		slot8 = {

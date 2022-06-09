@@ -112,6 +112,8 @@ function slot0.clearTimesListener(slot0)
 end
 
 function slot0.updatePlayer(slot0, slot1)
+	assert(isa(slot1, Player), "should be an instance of Player")
+
 	if slot0.data then
 		slot0:sendNotification(GAME.ON_PLAYER_RES_CHANGE, {
 			oldPlayer = slot0.data,

@@ -36,8 +36,11 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot0.winConditions = {}
+	slot3 = slot0:getConfig("win_condition")
 
-	for slot7, slot8 in pairs(slot0:getConfig("win_condition")) do
+	assert(slot3, "Assure Chapter's WIN Conditions is not empty")
+
+	for slot7, slot8 in pairs(slot3) do
 		table.insert(slot0.winConditions, {
 			type = slot8[1],
 			param = slot8[2]
@@ -45,8 +48,11 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot0.loseConditions = {}
+	slot4 = slot0:getConfig("lose_condition")
 
-	for slot8, slot9 in pairs(slot0:getConfig("lose_condition")) do
+	assert(slot4, "Assure Chapter's LOSE Conditions is not empty")
+
+	for slot8, slot9 in pairs(slot4) do
 		table.insert(slot0.loseConditions, {
 			type = slot9[1],
 			param = slot9[2]
@@ -191,6 +197,8 @@ function slot0.getRiskLevel(slot0)
 			return slot6
 		end
 	end
+
+	assert(false, "index can not be nil")
 end
 
 function slot0.getMitigationRate(slot0)
@@ -208,7 +216,11 @@ function slot0.getRepressInfo(slot0)
 end
 
 function slot0.getChapterState(slot0)
-	return uv0.CHAPTER_STATE[slot0:getRiskLevel()]
+	slot1 = slot0:getRiskLevel()
+
+	assert(uv0.CHAPTER_STATE[slot1], "state desc is nil")
+
+	return uv0.CHAPTER_STATE[slot1]
 end
 
 function slot0.getPlayType(slot0)
@@ -229,7 +241,11 @@ end
 
 function slot0.getConfig(slot0, slot1)
 	if slot0:isLoop() then
-		if pg.chapter_template_loop[slot0.id][slot1] ~= nil then
+		slot2 = pg.chapter_template_loop[slot0.id]
+
+		assert(slot2, "chapter_template_loop not exist: " .. slot0.id)
+
+		if slot2[slot1] ~= nil then
 			return slot2[slot1]
 		end
 
@@ -238,10 +254,14 @@ function slot0.getConfig(slot0, slot1)
 		end
 	end
 
-	return slot0:getConfigTable()[slot1]
+	assert(slot0:getConfigTable() ~= nil, "Config missed, type -" .. slot0.__cname .. " configId: " .. tostring(slot0.configId))
+
+	return slot2[slot1]
 end
 
 function slot0.update(slot0, slot1)
+	assert(slot1.id == slot0.id, "章节ID不一致, 无法更新数据")
+
 	slot0.active = true
 	slot0.dueTime = slot1.time
 	slot0.loopFlag = slot1.loop_flag
@@ -311,7 +331,12 @@ function slot0.update(slot0, slot1)
 		uv0.indexMax.y = math.max(uv0.indexMax.y, slot0[2])
 	end)
 	_.each(slot1.cell_flag_list or {}, function (slot0)
-		if uv0.cells[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
+		slot1 = ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)
+		slot2 = uv0.cells[slot1]
+
+		assert(slot2, "Attach cellFlaglist On NIL Cell " .. slot1)
+
+		if slot2 then
 			slot2:updateFlagList(slot0)
 		end
 	end)
@@ -897,6 +922,8 @@ function slot0.getFleetAmmo(slot0, slot1)
 		slot2 = slot2 + slot0:getConfig("ammo_total")
 	elseif slot3 == FleetType.Submarine then
 		slot2 = slot2 + slot0:getConfig("ammo_submarine")
+	else
+		assert(false, "invalide operation.")
 	end
 
 	return slot2, slot1.restAmmo
@@ -1694,6 +1721,8 @@ function slot0.getChampionIndex(slot0, slot1, slot2)
 end
 
 function slot0.getChampionVisibility(slot0, slot1, slot2, slot3)
+	assert(slot1, "chapter champion not exist.")
+
 	return slot1.flag == ChapterConst.CellFlagActive
 end
 
@@ -1744,8 +1773,14 @@ function slot0.considerAsObstacle(slot0, slot1, slot2, slot3)
 				return true
 			end
 
-			if slot4.attachment == ChapterConst.AttachBox and pg.box_data_template[slot4.attachmentId].type == ChapterConst.BoxTorpedo then
-				return true
+			if slot4.attachment == ChapterConst.AttachBox then
+				slot5 = pg.box_data_template[slot4.attachmentId]
+
+				assert(slot5, "box_data_template not exist: " .. slot4.attachmentId)
+
+				if slot5.type == ChapterConst.BoxTorpedo then
+					return true
+				end
 			end
 
 			if slot4.attachment == ChapterConst.AttachStory then
@@ -1903,8 +1938,14 @@ end
 
 function slot0.existCoastalGunNoMatterLiveOrDead(slot0)
 	for slot4, slot5 in pairs(slot0.cells) do
-		if slot5.attachment == ChapterConst.AttachLandbase and pg.land_based_template[slot5.attachmentId].type == ChapterConst.LBCoastalGun then
-			return true
+		if slot5.attachment == ChapterConst.AttachLandbase then
+			slot6 = pg.land_based_template[slot5.attachmentId]
+
+			assert(slot6, "land_based_template not exist: " .. slot5.attachmentId)
+
+			if slot6.type == ChapterConst.LBCoastalGun then
+				return true
+			end
 		end
 	end
 
@@ -2103,7 +2144,11 @@ function slot0.getQuadCellPic(slot0, slot1)
 	elseif (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss or slot1.attachment == ChapterConst.AttachAreaBoss or slot1.attachment == ChapterConst.AttachBomb_Enemy) and slot1.flag == ChapterConst.CellFlagActive then
 		slot2 = "cell_enemy"
 	elseif slot1.attachment == ChapterConst.AttachBox and slot1.flag == ChapterConst.CellFlagActive then
-		if pg.box_data_template[slot1.attachmentId].type == ChapterConst.BoxDrop or slot3.type == ChapterConst.BoxStrategy or slot3.type == ChapterConst.BoxSupply or slot3.type == ChapterConst.BoxEnemy then
+		slot3 = pg.box_data_template[slot1.attachmentId]
+
+		assert(slot3, "box_data_template not exist: " .. slot1.attachmentId)
+
+		if slot3.type == ChapterConst.BoxDrop or slot3.type == ChapterConst.BoxStrategy or slot3.type == ChapterConst.BoxSupply or slot3.type == ChapterConst.BoxEnemy then
 			slot2 = "cell_box"
 		elseif slot3.type == ChapterConst.BoxTorpedo then
 			slot2 = "cell_enemy"
@@ -2371,6 +2416,8 @@ function slot0.writeBack(slot0, slot1, slot2)
 			slot6 = slot8.attachment
 		end
 
+		assert(slot6, "attachment can not be nil.")
+
 		if slot6 == ChapterConst.AttachEnemy or slot6 == ChapterConst.AttachElite or slot6 == ChapterConst.AttachChampion then
 			if (not slot7 or slot7.flag == ChapterConst.CellFlagDisabled) and _.detect(slot0.achieves, function (slot0)
 				return slot0.type == ChapterConst.AchieveType2
@@ -2462,6 +2509,8 @@ function slot0.UpdateProgressAfterSkipBattle(slot0)
 
 		slot3 = slot4.attachment
 	end
+
+	assert(slot3, "attachment can not be nil.")
 
 	if slot3 == ChapterConst.AttachEnemy or slot3 == ChapterConst.AttachElite or slot3 == ChapterConst.AttachChampion and slot4.flag == ChapterConst.CellFlagDisabled then
 		if _.detect(slot0.achieves, function (slot0)
@@ -2768,6 +2817,8 @@ function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 		end)
 	elseif slot4 == FleetSkill.TriggerInSubTeam then
 		return true
+	else
+		assert(false, "invalid trigger type: " .. slot4)
 	end
 end
 
@@ -2791,7 +2842,7 @@ slot2 = {
 }
 
 function slot0.checkOniState(slot0)
-	slot1 = slot0:getOni()
+	assert(slot0:getOni(), "oni not exist.")
 
 	if _.all(uv0, function (slot0)
 		slot1 = {
@@ -2902,7 +2953,8 @@ function slot0.CheckTransportState(slot0)
 		return -1
 	end
 
-	slot2 = slot0:findChapterCell(ChapterConst.AttachTransport_Target)
+	assert(slot1, "transport fleet not exist.")
+	assert(slot0:findChapterCell(ChapterConst.AttachTransport_Target), "transport target not exist.")
 
 	if not slot1:isValid() then
 		return -1
@@ -3165,6 +3217,8 @@ function slot0.GetAttachmentStories(slot0)
 
 	for slot7, slot8 in pairs(slot0.cellAttachments) do
 		if uv0.GetEventTemplateByKey("mult_story", slot8.attachmentId) then
+			assert(not slot3 or table.equal(slot3, slot9[1]), "Not the same Config of Mult_story ID: " .. slot8.attachmentId)
+
 			slot3 = slot3 or slot9[1]
 
 			if slot0.cells[slot7] and slot10.flag == ChapterConst.CellFlagDisabled then
@@ -3181,6 +3235,8 @@ function slot0.GetWeather(slot0, slot1, slot2)
 end
 
 function slot0.GetChapterLastFleetCacheKey(slot0)
+	assert(slot0, "NIL chapterId")
+
 	return "lastFleetIndex_" .. (slot0 or 0)
 end
 

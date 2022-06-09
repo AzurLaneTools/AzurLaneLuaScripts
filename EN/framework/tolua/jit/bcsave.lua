@@ -1,4 +1,5 @@
-slot0 = require("jit")
+assert(require("jit").version_num == 20100, "LuaJIT core/library version mismatch")
+
 slot1 = require("bit")
 slot2 = "luaJIT_BC_"
 
@@ -102,10 +103,10 @@ function slot13(slot0)
 end
 
 function slot14(slot0, slot1, slot2)
-	slot3, slot4 = slot0.write(slot0, slot2)
+	slot3, slot4 = slot0:write(slot2)
 
 	if slot3 and slot1 ~= "-" then
-		slot3, slot4 = slot0.close(slot0)
+		slot3, slot4 = slot0:close()
 	end
 
 	uv0(slot3, "cannot write ", slot1, ": ", slot4)
@@ -119,7 +120,7 @@ function slot16(slot0, slot1, slot2)
 	slot3 = uv0(slot1, "w")
 
 	if slot0.type == "c" then
-		slot3.write(slot3, string.format([[
+		slot3:write(string.format([[
 #ifdef _cplusplus
 extern "C"
 #endif
@@ -129,7 +130,7 @@ __declspec(dllexport)
 const unsigned char %s%s[] = {
 ]], uv1, slot0.modname))
 	else
-		slot3.write(slot3, string.format("#define %s%s_SIZE %d\nstatic const unsigned char %s%s[] = {\n", uv1, slot0.modname, #slot2, uv1, slot0.modname))
+		slot3:write(string.format("#define %s%s_SIZE %d\nstatic const unsigned char %s%s[] = {\n", uv1, slot0.modname, #slot2, uv1, slot0.modname))
 	end
 
 	slot4 = {}
@@ -138,7 +139,7 @@ const unsigned char %s%s[] = {
 
 	for slot10 = 1, #slot2 do
 		if slot6 + #tostring(string.byte(slot2, slot10)) + 1 > 78 then
-			slot3.write(slot3, table.concat(slot4, ",", 1, slot5), ",\n")
+			slot3:write(table.concat(slot4, ",", 1, slot5), ",\n")
 
 			slot6 = #slot11 + 1
 			slot5 = 0

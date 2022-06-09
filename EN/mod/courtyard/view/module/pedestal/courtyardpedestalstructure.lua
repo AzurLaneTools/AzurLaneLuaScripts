@@ -115,6 +115,7 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.GetAssetPath(slot0)
+	assert(false, "overwrite me !!!")
 end
 
 return slot0

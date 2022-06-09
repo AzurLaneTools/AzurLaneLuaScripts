@@ -38,12 +38,15 @@ function slot0.GetLasterUpdateTime(slot0)
 end
 
 function slot0.GetName(slot0)
+	assert(false)
 end
 
 function slot0.GetPainting(slot0)
+	assert(false)
 end
 
 function slot0.GetType(slot0)
+	assert(false)
 end
 
 function slot0.GetFasterRefreshTime(slot0)

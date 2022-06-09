@@ -59,6 +59,8 @@ function slot0.register(slot0)
 				})
 			end)
 		end
+	else
+		assert(false, "do not support current kind of type: " .. slot1.type)
 	end
 end
 

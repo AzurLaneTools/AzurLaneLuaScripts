@@ -83,6 +83,8 @@ function slot0.execute(slot0, slot1)
 				end
 			elseif uv3.usage == ItemUsage.REDUCE_COMMANDER_TIME then
 				uv4:sendNotification(GAME.REFRESH_COMMANDER_BOXES)
+			else
+				assert(false, "未处理类型")
 			end
 
 			if QRJ_ITEM_ID_RANGE[1] <= uv1 and uv1 <= slot2[2] then

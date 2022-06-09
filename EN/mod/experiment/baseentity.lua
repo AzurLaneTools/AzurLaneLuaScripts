@@ -21,6 +21,8 @@ slot1 = {
 
 		while slot4 ~= nil and slot4 ~= uv0 do
 			if slot4.Fields[slot1] ~= nil then
+				assert(type(slot2) == "nil" or type(slot2) == slot4.Fields[slot1], "Field type mismatch: " .. slot4.__cname .. "." .. slot1)
+
 				slot3[slot1] = slot2
 
 				return
@@ -28,6 +30,8 @@ slot1 = {
 
 			slot4 = slot4.super
 		end
+
+		assert(false, "Field miss: " .. rawget(slot0, "class").__cname .. "." .. slot1)
 	end
 }
 
@@ -39,6 +43,8 @@ function slot0.Ctor(slot0, ...)
 
 	while slot2 ~= nil and slot2 ~= uv0 do
 		for slot6, slot7 in pairs(slot2.Listeners) do
+			assert(slot2.Fields[slot6] == nil, "Repeated field: " .. slot2.__cname .. "." .. slot6)
+
 			slot8 = slot2[slot7]
 			slot1[slot6] = slot1[slot6] or function (...)
 				uv0(uv1, ...)
@@ -115,6 +121,8 @@ function slot0.Clone_Copy(slot0, slot1)
 end
 
 function slot0.Trans(slot0, slot1)
+	assert(superof(slot1, uv0), "class error: without super of BaseEntity")
+
 	slot2 = slot1.New()
 	slot3 = rawget(slot0, "fields")
 

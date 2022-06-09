@@ -20809,6 +20809,7 @@ After modernization is complete:
 		descrip = [[
 The effects of fully retrofitting this ship:
 
+Because this ship's hull type has changed, her equipped <color=#92fc63>Augment Module</color> will be unequipped and returned to the Depot.
 The Main Gun slot will change to accept only <color=#92fc63>CA Main Guns</color>.
 The currently equipped Main Gun will be automatically sent back to your Storage.
 This ship will receive <color=#92fc63>Main Gun base +1</color> at the cost of <color=#92fc63>Torpedo base -1</color>.

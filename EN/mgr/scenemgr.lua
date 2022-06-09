@@ -23,6 +23,7 @@ function slot1.prepare(slot0, slot1, slot2, slot3)
 	else
 		slot7 = slot5.New()
 
+		assert(isa(slot7, BaseUI), "should be an instance of BaseUI: " .. slot7.__cname)
 		slot7:setContextData(slot2.data)
 
 		slot8 = nil

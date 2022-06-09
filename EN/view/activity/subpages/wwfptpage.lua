@@ -410,6 +410,9 @@ function slot0.initTaskWindow(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv0:findTF("item", slot2)
 			slot6 = uv0.taskProxy:getTaskById(uv0.curTask[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot5)
+
+			assert(slot6, "without this task by id: " .. slot5)
+
 			slot7 = slot6:getConfig("award_display")[1]
 
 			updateDrop(slot4, {

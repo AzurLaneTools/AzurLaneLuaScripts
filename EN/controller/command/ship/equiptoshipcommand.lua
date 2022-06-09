@@ -43,7 +43,9 @@ function slot0.execute(slot0, slot1)
 		pos = slot5
 	}, 12007, function (slot0)
 		if slot0.result == 0 then
-			uv2:getEquipmentById(uv3).count = 1
+			assert(uv2:getEquipmentById(uv3) and slot2.count > 0)
+
+			slot2.count = 1
 
 			if uv0:getEquip(uv1) then
 				uv2:addEquipment(slot1)

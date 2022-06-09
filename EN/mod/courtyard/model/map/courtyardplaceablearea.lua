@@ -43,6 +43,8 @@ function slot0.ClearLockPosition(slot0, slot1)
 end
 
 function slot0.AddItem(slot0, slot1)
+	assert(isa(slot1, CourtYardDepthItem))
+
 	if slot1:GetDeathType() == CourtYardConst.DEPTH_TYPE_MAT then
 		table.insert(slot0.mats, slot1)
 		slot0:DispatchEvent(CourtYardEvent.ADD_MAT_ITEM, slot1)
@@ -67,6 +69,8 @@ function slot0.AddItem(slot0, slot1)
 end
 
 function slot0.RemoveItem(slot0, slot1)
+	assert(isa(slot1, CourtYardDepthItem))
+
 	if slot1:GetDeathType() == CourtYardConst.DEPTH_TYPE_MAT then
 		table.removebyvalue(slot0.mats, slot1)
 		slot0:DispatchEvent(CourtYardEvent.REMOVE_MAT_ITEM, slot1)
@@ -314,6 +318,8 @@ function slot0.GetAroundEmptyPosition(slot0, slot1)
 			end
 		end
 	end
+
+	assert(false)
 end
 
 function slot0.GetAroundEmptyArea(slot0, slot1, slot2)

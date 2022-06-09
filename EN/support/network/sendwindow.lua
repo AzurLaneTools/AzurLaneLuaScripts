@@ -139,6 +139,8 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 	(function (slot0, slot1)
 		for slot5, slot6 in pairs(slot1) do
+			assert(slot0[slot5] ~= nil, "key does not exist: " .. slot5)
+
 			if type(slot6) == "table" then
 				for slot10, slot11 in ipairs(slot6) do
 					if slot0[slot5].add then

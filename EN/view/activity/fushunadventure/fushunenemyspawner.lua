@@ -60,6 +60,9 @@ function slot0.Spawn(slot0)
 	slot0.index = slot0.index + 1
 	slot2 = slot0.index
 	slot3 = slot0:GetConfigByScore(slot0.score)
+
+	assert(slot3)
+
 	slot4 = pg.fushunLoader
 
 	slot4:GetPrefab("FushunAdventure/" .. slot3.name, "", function (slot0)

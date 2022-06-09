@@ -84,7 +84,9 @@ function slot0.Init(slot0)
 		slot7:Clear()
 	end
 
-	slot4 = #slot1 <= 3 and 1 or 0.8
+	assert(#slot1 <= 4, "活动按钮不能超过4个")
+
+	slot4 = slot3 <= 3 and 1 or 0.8
 	slot0._tf.localScale = Vector3(slot4, slot4, 1)
 end
 

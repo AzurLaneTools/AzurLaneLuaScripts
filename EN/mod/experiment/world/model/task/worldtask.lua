@@ -27,6 +27,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.submiteTime = slot1.submite_time or 0
 	slot0.acceptTime = slot1.accept_time or 0
 	slot0.followingEntrance = slot1.event_map_id or 0
+
+	assert(uv0[slot0.configId], "unfound config......" .. slot0.configId)
+
 	slot0.config = uv0[slot0.configId]
 	slot0.new = slot1.new or 0
 	slot2 = nowWorld()

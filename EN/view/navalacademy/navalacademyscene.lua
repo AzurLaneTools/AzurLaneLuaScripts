@@ -2,7 +2,11 @@ slot0 = class("NavalAcademyScene", import("..base.BaseUI"))
 slot0.WARP_TO_TACTIC = "WARP_TO_TACTIC"
 
 function slot0.getUIName(slot0)
-	return pg.naval_academy_theme[pg.gameset.naval_academy_theme.description] and slot2.resource_path or "NavalAcademyUI"
+	slot1 = pg.gameset.naval_academy_theme.description
+
+	assert(slot1, "naval_academy_theme in gameset.csv is empty")
+
+	return pg.naval_academy_theme[slot1] and slot2.resource_path or "NavalAcademyUI"
 end
 
 function slot0.ResUISettings(slot0)

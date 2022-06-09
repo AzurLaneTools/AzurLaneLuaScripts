@@ -69,5 +69,6 @@ slot0._EXTEND = "CourtYardEvent:_EXTEND"
 slot0._INITED = "CourtYardEvent:_INITED"
 slot0._NO_POS_TO_ADD_SHIP = "CourtYardEvent:_NO_POS_TO_ADD_SHIP"
 slot0._TOUCH_SHIP = "CourtYardEvent:_TOUCH_SHIP"
+slot0._ADD_ITEM_FAILED = "CourtYardEvent:_ADD_ITEM_FAILED"
 
 return slot0

@@ -20,6 +20,7 @@ function slot0.execute(slot0, slot1)
 			})
 
 			if uv5.isBatch then
+				assert(uv5.callBack, "need callback")
 				uv5.callBack()
 			else
 				uv4:sendNotification(GAME.GET_SHIP, {
