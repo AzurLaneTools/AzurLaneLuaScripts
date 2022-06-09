@@ -174,7 +174,10 @@ function slot0.register(slot0)
 			slot7:AddProgress(slot2:getConfig("award_tech_exp"))
 
 			if slot7.pid ~= slot7.pid and slot7:GuildMemberCntType() then
-				slot1:getTechnologyById(slot7.id):Update(slot10, slot7)
+				slot11 = slot1:getTechnologyById(slot7.id)
+
+				assert(slot11)
+				slot11:Update(slot10, slot7)
 			end
 
 			if slot6 == slot5 then
@@ -300,12 +303,16 @@ function slot0.setRequestList(slot0, slot1)
 end
 
 function slot0.addGuild(slot0, slot1)
+	assert(isa(slot1, Guild), "guild should instance of Guild")
+
 	slot0.data = slot1
 
 	slot0:sendNotification(uv0.NEW_GUILD_ADDED, Clone(slot1))
 end
 
 function slot0.updateGuild(slot0, slot1)
+	assert(isa(slot1, Guild), "guild should instance of Guild")
+
 	slot0.data = slot1
 
 	slot0:sendNotification(uv0.GUILD_UPDATED, Clone(slot1))
@@ -540,6 +547,8 @@ function slot0.GetRecommendShipsForMission(slot0, slot1)
 end
 
 function slot0.GetRecommendShipsForEliteMission(slot0, slot1)
+	assert(slot1:IsEliteType())
+
 	slot2 = {}
 	slot5 = {}
 	slot6 = {}

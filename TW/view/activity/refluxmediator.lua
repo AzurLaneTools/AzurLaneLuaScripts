@@ -4,8 +4,7 @@ slot0.OnTaskGo = "RefluxMediator.OnTaskGo"
 slot0.OnBattlePhaseForward = "RefluxMediator.OnBattlePhaseForward"
 
 function slot0.register(slot0)
-	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX)
-
+	assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) and not slot2:isEnd())
 	getProxy(TaskProxy):pushAutoSubmitTask()
 
 	slot6 = getProxy(PlayerProxy):getRawData()
@@ -65,7 +64,10 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.SUBMIT_TASK_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
 	elseif slot2 == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED then
-		slot0.viewComponent:SetTask(getProxy(TaskProxy):getTaskById(slot3.id) or slot4:getFinishTaskById(slot3.id))
+		slot5 = getProxy(TaskProxy):getTaskById(slot3.id) or slot4:getFinishTaskById(slot3.id)
+
+		assert(slot5, "can not find task: " .. slot3.id)
+		slot0.viewComponent:SetTask(slot5)
 
 		if slot0.viewComponent:GetTab() == RefluxScene.TabTask then
 			slot0.viewComponent:UpdateTask()

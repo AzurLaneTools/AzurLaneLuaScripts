@@ -68,6 +68,7 @@ function slot0.UpdateView(slot0, slot1)
 end
 
 function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
+	assert(#slot1 == #slot2)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return

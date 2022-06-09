@@ -199,6 +199,8 @@ function slot1.UnloadSoundEffect_V3(slot0, slot1)
 end
 
 function slot1.PlayCV_V3(slot0, slot1, slot2, slot3)
+	assert(slot1, "cueSheetName can not be nil.")
+	assert(slot2, "cueName can not be nil.")
 	slot0.criInst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
 		if uv0 ~= nil then
 			uv0(slot0)
@@ -275,6 +277,7 @@ function slot1.StopCV_V3(slot0)
 end
 
 function slot1.PlaySE_V3(slot0, slot1, slot2)
+	assert(slot1, "cueName can not be nil.")
 	slot0.criInst:PlayAnySE(slot1, nil, function (slot0)
 		if uv0 ~= nil then
 			uv0(slot0)

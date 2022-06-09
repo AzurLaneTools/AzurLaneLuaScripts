@@ -12,7 +12,7 @@ end
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._horizonRange = slot0._tempData.arg_list.range
 	slot4 = slot1:GetUniqueID()
-	slot0._aura = uv0.Battle.BattleDataProxy.GetInstance():SpawnAura(slot1, uv1.AOEField.SURFACE, slot0._horizonRange, function (slot0)
+	slot0._aura = uv0.Battle.BattleDataProxy.GetInstance():SpawnLastingColumnArea(uv1.AOEField.SURFACE, slot1:GetIFF(), slot1:GetPosition(), slot0._horizonRange, 0, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then
 				for slot10, slot11 in ipairs(uv0:getTargetList(uv1, {
@@ -38,7 +38,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 				end
 			end
 		end
-	end, function (slot0)
+	end, false, nil, function (slot0)
 		if slot0.Active then
 			for slot5, slot6 in ipairs(uv0:getTargetList(uv1, {
 				"TargetAllHarm"
@@ -50,7 +50,12 @@ function slot1.SetArgs(slot0, slot1, slot2)
 				end
 			end
 		end
-	end)
+	end, true)
+	slot9 = uv0.Battle.BattleAOEMobilizedComponent.New(slot0._aura)
+
+	slot9:SetReferenceUnit(slot1)
+	slot9:ConfigData(slot9.FOLLOW)
+	slot0._aura:SetReferenceUnit(slot1)
 end
 
 function slot1.onAttach(slot0, slot1, slot2)

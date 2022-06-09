@@ -85,7 +85,7 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 
 		pg.EffectMgr.GetInstance():PlayBattleEffect(slot3, slot4:Add(uv4), true)
 		uv3:RemoveBulletUnit(uv0:GetUniqueID())
-	end):SetDiveFilter(slot7:GetDiveFilter())
+	end, true):SetDiveFilter(slot7:GetDiveFilter())
 end
 
 function slot1.onBulletMissFunc(slot0)

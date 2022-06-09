@@ -55,6 +55,7 @@ function slot1.PlayBattleEffect(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot1.BattleUIEffect(slot0, slot1, slot2)
+	assert(string.sub(slot1, -2, -1) == "UI", "UI效果不是以UI结尾，请检查")
 	LoadAndInstantiateAsync("UI", slot1, function (slot0)
 		slot1 = ys.Battle.BattleState.GetInstance()
 

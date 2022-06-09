@@ -24,6 +24,12 @@ function slot0.BlurTopPanel(slot0, slot1)
 	slot1:SetAsFirstSibling()
 end
 
+function slot0._BlurTopPanel(slot0)
+	if slot0.topPanel then
+		slot0:BlurTopPanel(slot0.topPanel)
+	end
+end
+
 function slot0.OnShowMsgBox(slot0)
 	if slot0.topPanel then
 		slot0.topPanel:SetAsFirstSibling()

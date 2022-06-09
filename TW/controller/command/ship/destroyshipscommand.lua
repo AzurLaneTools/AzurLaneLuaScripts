@@ -49,6 +49,11 @@ function slot0.execute(slot0, slot1)
 					end
 				end
 
+				if slot11:GetSpWeapon() then
+					slot11:UpdateSpWeapon(nil)
+					slot1:AddSpWeapon(slot12)
+				end
+
 				table.insert(slot3, slot11.id)
 			end
 

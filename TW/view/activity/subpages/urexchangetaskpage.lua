@@ -66,9 +66,14 @@ function slot0.GetTaskById(slot0, slot1)
 end
 
 function slot0.UpdateTask(slot0, slot1, slot2)
+	assert(slot2)
 	setText(slot1:Find("Text"), slot2:getConfig("desc"))
 
 	slot3 = slot2:getConfig("award_display")[1]
+
+	assert(slot3, taskId)
+	assert(slot3)
+
 	slot5 = slot1:Find("item")
 
 	updateDrop(slot5, {

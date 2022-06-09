@@ -2,8 +2,9 @@ slot0 = class("GetChapterDropShipListCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = slot2.chapterId
 	slot4 = slot2.callback
+
+	assert(slot2.chapterId)
 
 	if not getProxy(ChapterProxy).FectchDropShipListFlags then
 		slot5.FectchDropShipListFlags = {}

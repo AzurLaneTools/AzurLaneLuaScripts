@@ -39,6 +39,7 @@ function slot0.GetTitle(slot0)
 end
 
 function slot0.GetGameObjectName(slot0)
+	assert(false)
 end
 
 function slot0.emit(slot0, ...)

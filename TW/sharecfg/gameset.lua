@@ -2047,7 +2047,16 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			100,
-			100
+			100,
+			200
+		}
+	},
+	curr_boss_ticket = {
+		key_value = 0,
+		description = {
+			100,
+			200,
+			200
 		}
 	},
 	world_boss_joindamage = {

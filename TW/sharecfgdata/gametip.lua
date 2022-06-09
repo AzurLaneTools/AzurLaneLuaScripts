@@ -1155,10 +1155,6 @@ _G.pg.base.gametip.battle_levelScene_lock = {
 	tip = "目標地圖尚未開放，請通關<color=#92fc63>前置關卡</color>"
 }
 
-_G.pg.base.gametip.battle_levelScene_lock_1 = {
-	tip = "該階段活動副本尚未開放"
-}
-
 _G.pg.base.gametip.battle_levelScene_hard_lock = {
 	tip = "目標地圖對應主線章節未通關，無法挑戰。請通關<color=#92fc63>前置關卡</color>"
 }
@@ -1951,7 +1947,7 @@ _G.pg.base.gametip.tactics_end_to_learn = {
 }
 
 _G.pg.base.gametip.tactics_continue_to_learn = {
-	tip = "，是否繼續學習該技能？"
+	tip = "是否繼續學習該技能？"
 }
 
 _G.pg.base.gametip.tactics_should_exist_skill = {
@@ -12485,6 +12481,26 @@ _G.pg.base.gametip.msgbox_text_save = {
 	tip = "保 存"
 }
 
+_G.pg.base.gametip.msgbox_text_replace = {
+	tip = "交 換"
+}
+
+_G.pg.base.gametip.msgbox_text_unload = {
+	tip = "卸 下"
+}
+
+_G.pg.base.gametip.msgbox_text_modify = {
+	tip = "改 裝"
+}
+
+_G.pg.base.gametip.msgbox_text_breakthrough = {
+	tip = "突 破"
+}
+
+_G.pg.base.gametip.msgbox_text_equipdetail = {
+	tip = "裝備詳情"
+}
+
 _G.pg.base.gametip.common_flag_ship = {
 	tip = "秘書艦"
 }
@@ -18658,28 +18674,28 @@ _G.pg.base.gametip.new_server_shop_unopen_tip = {
 _G.pg.base.gametip.newserver_activity_tip = {
 	tip = {
 		{
-			info = "「新服开服庆典」活动说明：\n"
+			info = "「新服開服慶典」活動說明：\n"
 		},
 		{
-			info = "<color=#92fc63>·活动时间</color>\n活动将于指挥官注册并第一次成功登陆游戏后第21天的次日23:59结束，请指挥官留意界面中活动剩余时间。\n"
+			info = "<color=#92fc63>·活動時間</color>\n活動將於指揮官註冊並第一次成功登入游戲後第21天的次日23:59結束，請指揮官留意介面中活動剩餘時間。\n"
 		},
 		{
 			info = [[
-<color=#92fc63>·活动任务</color>
-活动任务分为「每日任务」与「历程任务」,「每日任务」于每天0点刷新，「历程任务」只能完成一次，不会刷新；
-完成活动任务可获取「新服庆典Pt」，完成通关系列任务还可额外获得角色「皇家方舟」、「U-47」、「天狼星」。
+<color=#92fc63>·活動任務</color>
+活動任務分為「每日任務」與「歷程任務」,「每日任務」於每天0點刷新，「歷程任務」只能完成一次，不會刷新；
+完成活動任務可獲取「新服慶典Pt」，完成通關系列任務還可額外獲得角色「皇家方舟」、「U-47」、「天狼星」。
 ]]
 		},
 		{
 			info = [[
-<color=#92fc63>·活动商店</color>
-消耗「新服庆典Pt」可于活动商店中兑换角色「鲨」、「新手建造单抽券」、「心智魔方」等大量奖励；
-活动商店分为3个阶段，阶段1商品于首次登录后解锁，阶段2商品于首次登录的7天后解锁，阶段3商品于首次登录的14天后解锁；
-活动商店在活动结束后会额外开放7天，期间仍然可消耗「新服庆典Pt」兑换商品。
+<color=#92fc63>·活動商店</color>
+消耗「新服慶典Pt」可於活動商店中兌換角色「長門」、「新手建造單抽券」、「心智魔方」等大量獎勵；
+活動商店分為3個階段，階段1商品於首次登錄後解鎖，階段2商品於首次登入的7天後解鎖，階段3商品於首次登入的14天後解鎖；
+活動商店在活動結束後會額外開放7天，期間仍然可消耗「新服慶典Pt」兌換商品。
 ]]
 		},
 		{
-			info = "<color=#92fc63>·庆典新手建造</color>\n庆典新手建造只能使用「新手单次建造券」，建造40次后，可于建造界面领取角色「企业」，领取角色后庆典新手建造将会关闭。"
+			info = "<color=#92fc63>·慶典新手建造</color>\n慶典新手建造只能使用「新手單次建造券」，建造40次後，可於建造介面領取角色「企業」，領取角色後慶典新手建造將會關閉。"
 		}
 	}
 }
@@ -18730,6 +18746,90 @@ _G.pg.base.gametip.battle_result_targets = {
 
 _G.pg.base.gametip.battle_result_continue = {
 	tip = "點擊繼續"
+}
+
+_G.pg.base.gametip.index_L2D = {
+	tip = "L2D"
+}
+
+_G.pg.base.gametip.index_DBG = {
+	tip = "動態背景"
+}
+
+_G.pg.base.gametip.index_BG = {
+	tip = "靜態背景"
+}
+
+_G.pg.base.gametip.index_CANTUSE = {
+	tip = "無法使用"
+}
+
+_G.pg.base.gametip.index_UNUSE = {
+	tip = "未使用"
+}
+
+_G.pg.base.gametip.index_BGM = {
+	tip = "附帶音樂"
+}
+
+_G.pg.base.gametip.without_ship_to_wear = {
+	tip = "沒有可換裝的角色"
+}
+
+_G.pg.base.gametip.choose_ship_to_wear_this_skin = {
+	tip = "請選擇需要換裝的角色"
+}
+
+_G.pg.base.gametip.skinatlas_search_holder = {
+	tip = "搜索角色名或換裝名"
+}
+
+_G.pg.base.gametip.skinatlas_search_result_is_empty = {
+	tip = "未找到符合條件的換裝"
+}
+
+_G.pg.base.gametip.chang_ship_skin_window_title = {
+	tip = "換裝"
+}
+
+_G.pg.base.gametip.world_boss_item_info = {
+	tip = [[
+信標記錄儀|用於紀錄在大型作戰中收集到的「信標數據」的裝置，達到指定數據量後可據此數據進行解析，發現特定的信標
+P.S.紀錄儀的記錄容量有限，請務必及時前往解析
+每天獲取上限:$1/$2
+紀錄容量上限：$3/$4]]
+}
+
+_G.pg.base.gametip.meta_syn_value_label = {
+	tip = "累計同步值"
+}
+
+_G.pg.base.gametip.meta_syn_finish = {
+	tip = "資訊同步完成"
+}
+
+_G.pg.base.gametip.index_meta_repair = {
+	tip = "可艦裝強化"
+}
+
+_G.pg.base.gametip.index_meta_tactics = {
+	tip = "可戰術研修"
+}
+
+_G.pg.base.gametip.index_meta_energy = {
+	tip = "可能量啟動"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_skill = {
+	tip = "是否繼續學習該角色技能？"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_ship_skill = {
+	tip = "當前角色技能已全部滿級，是否學習其他角色技能？"
+}
+
+_G.pg.base.gametip.tactics_no_recent_ships = {
+	tip = "沒有最近學習角色"
 }
 
 _G.pg.base.gametip.activity_kill = {
@@ -18921,4 +19021,8 @@ _G.pg.base.gametip.support_times_tip = {
 
 _G.pg.base.gametip.build_times_tip = {
 	tip = "建造數量 "
+}
+
+_G.pg.base.gametip.tactics_recent_ship_label = {
+	tip = "最近學習"
 }

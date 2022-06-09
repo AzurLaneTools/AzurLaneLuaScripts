@@ -56,6 +56,7 @@ function slot0.Card(slot0)
 					slot2 = ChatFrame.GetIcon(slot1)
 				end
 
+				assert(slot2)
 				PoolMgr.GetInstance():ReturnPrefab(slot2, slot1, slot0.gameObject)
 			end)
 		end,
@@ -98,9 +99,11 @@ function slot0.Card(slot0)
 end
 
 function slot0.getUIName(slot0)
+	assert(false)
 end
 
 function slot0.GetData(slot0)
+	assert(false)
 end
 
 function slot0.OnInit(slot0)
@@ -121,6 +124,7 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnInitItem(slot0, slot1)
+	assert(false)
 end
 
 function slot0.OnUpdateItem(slot0, slot1, slot2)

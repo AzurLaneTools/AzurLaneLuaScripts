@@ -2,8 +2,10 @@ slot0 = class("RemoveLayersCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.context
 
-	pg.SceneMgr.GetInstance():removeLayer(slot0.facade, slot2.context, slot2.callback)
+	assert(isa(slot3, Context), "should be an instance of Context")
+	pg.SceneMgr.GetInstance():removeLayer(slot0.facade, slot3, slot2.callback)
 end
 
 return slot0

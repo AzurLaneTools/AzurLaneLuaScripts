@@ -42,7 +42,11 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.Clone(slot0)
-	return _G[slot0.__cname].New(Object.Instantiate(slot0._go, slot0._tf.parent).transform, slot0.event)
+	slot1 = Object.Instantiate(slot0._go, slot0._tf.parent)
+
+	assert(slot1)
+
+	return _G[slot0.__cname].New(slot1.transform, slot0.event)
 end
 
 function slot0.OnInit(slot0)

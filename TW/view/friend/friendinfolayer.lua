@@ -215,9 +215,16 @@ function slot0.closeInfromPanel(slot0)
 end
 
 function slot0.initInfo(slot0)
+	assert(slot0.friend, "self.friend is nil")
+
 	slot1 = pg.ship_data_statistics[slot0.friend.icon]
 
-	LoadSpriteAsync("qicon/" .. pg.ship_skin_template[slot1.skin_id].painting, function (slot0)
+	assert(slot1, "shipCfg is nil >> id ==" .. slot0.friend.icon)
+
+	slot2 = pg.ship_skin_template[slot1.skin_id]
+
+	assert(slot2, "skinCfg is nil >> id ==" .. slot1.skin_id)
+	LoadSpriteAsync("qicon/" .. slot2.painting, function (slot0)
 		if not IsNil(uv0.iconTF) then
 			if not slot0 then
 				uv0.iconTF.sprite = GetSpriteFromAtlas("heroicon/unknown", "")

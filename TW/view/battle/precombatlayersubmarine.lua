@@ -146,6 +146,8 @@ function slot0.didEnter(slot0)
 			end)
 		elseif uv0._currentForm == uv1.FORM_PREVIEW then
 			uv0._formationLogic:SwitchToDisplayMode()
+		else
+			assert("currentForm error")
 		end
 	end, SFX_PANEL)
 

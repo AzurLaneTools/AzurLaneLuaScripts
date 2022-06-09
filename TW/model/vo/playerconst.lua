@@ -95,11 +95,13 @@ function slot0.addTranDrop(slot0, slot1)
 				id = slot0.number or slot0.count
 			})
 		elseif slot0.type == DROP_TYPE_VITEM then
-			if Item.New({
+			assert(Item.New({
 				type = slot0.type,
 				id = slot0.id,
 				count = slot0.number or slot0.count
-			}):getConfig("virtual_type") == 13 then
+			}):getConfig("type") == 0, "item type error:must be virtual type from " .. slot1.id)
+
+			if slot1:getConfig("virtual_type") == 13 then
 				slot4 = Item.GetName(slot0.type, slot0.id)
 				slot5 = Item.VItem2SkinCouponShopId(slot0.id)
 
@@ -304,6 +306,8 @@ function slot0.CheckResForShopping(slot0, slot1)
 		slot3 = getProxy(PlayerProxy):getRawData():getResource(slot0.id)
 	elseif slot0.type == DROP_TYPE_ITEM then
 		slot3 = getProxy(BagProxy):getItemCountById(slot0.id)
+	else
+		assert(false)
 	end
 
 	return slot2 <= slot3
@@ -321,6 +325,8 @@ function slot0.ConsumeResForShopping(slot0, slot1)
 		playerProxy:updatePlayer(slot3)
 	elseif slot0.type == DROP_TYPE_ITEM then
 		getProxy(BagProxy):removeItemById(slot0.id, slot2)
+	else
+		assert(false)
 	end
 end
 

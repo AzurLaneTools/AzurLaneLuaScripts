@@ -59,6 +59,7 @@ function slot0.register(slot0)
 	slot0.ships = slot2:getRawData()
 
 	slot0.viewComponent:setShips(slot0.ships)
+	assert(#slot0.contextData.fleets > 0)
 	slot0.viewComponent:SetFleets(slot0.contextData.fleets)
 end
 

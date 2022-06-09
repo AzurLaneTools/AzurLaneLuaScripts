@@ -23,7 +23,10 @@ end
 function slot0.Flush(slot0, slot1)
 	for slot5 = 1, #slot1 do
 		if slot5 % 2 == 0 then
-			slot0:UpdatePositionAndColor(slot0.grids[slot5 * 0.5], {
+			slot6 = slot0.grids[slot5 * 0.5]
+
+			assert(slot6)
+			slot0:UpdatePositionAndColor(slot6, {
 				slot1[slot5 - 1],
 				slot1[slot5]
 			})

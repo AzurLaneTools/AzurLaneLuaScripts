@@ -12,11 +12,7 @@ return {
 				posX = -685.5
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/switch_btn",
-				triggerType = {
-					2,
-					false
-				},
+				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/switch_btn",
 				fingerPos = {
 					posX = 118.8,
 					posY = -39.94,
@@ -58,7 +54,7 @@ return {
 				dir = 1,
 				posX = 380.71,
 				ui = {
-					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/point"
+					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/point"
 				}
 			}
 		},

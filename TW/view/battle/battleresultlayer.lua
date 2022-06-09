@@ -144,9 +144,6 @@ function slot0.init(slot0)
 	SetActive(slot0._levelText, false)
 
 	slot0._delayLeanList = {}
-
-	slot0:customsLang()
-
 	slot0._ratioFitter = GetComponent(slot0._tf, typeof(AspectRatioFitter))
 	slot0._ratioFitter.enabled = true
 	slot0._ratioFitter.aspectRatio = pg.CameraFixMgr.GetInstance().targetRatio
@@ -242,6 +239,7 @@ end
 
 function slot0.didEnter(slot0)
 	slot0:setStageName()
+	slot0:customsLang()
 
 	slot0._subShipResultCardList = {}
 	slot0._shipResultCardList = {}
@@ -459,6 +457,8 @@ function slot0.showRewardInfo(slot0)
 	(function ()
 		if uv0 and coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
+
+			assert(slot0, slot1)
 		end
 	end)()
 end

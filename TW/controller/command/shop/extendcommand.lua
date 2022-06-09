@@ -61,6 +61,8 @@ function slot0.execute(slot0, slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("open_skill_class_success"))
 	elseif slot7.effect_args == ShopArgs.EffectCommanderBagSize then
 		slot6:updateCommanderBagMax(slot7.num)
+	else
+		assert(false, "未处理类型")
 	end
 
 	slot5:updatePlayer(slot6)

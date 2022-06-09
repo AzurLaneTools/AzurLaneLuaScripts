@@ -142,6 +142,15 @@ pg.settings_other_template = {
 		title = "快速更換二次確認介面",
 		desc = "功能開啟後，使用快速更換功能更換角色裝備時，將跳出裝備詳細訊息確認介"
 	},
+	{
+		default = 1,
+		name = "GYRO_ENABLE",
+		type = 0,
+		alignment = 0,
+		id = 15,
+		title = "L2D陀螺儀背景控制",
+		desc = "功能開啟後，部分L2D換裝背景將支援由陀螺儀控制"
+	},
 	all = {
 		1,
 		2,
@@ -156,6 +165,7 @@ pg.settings_other_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }

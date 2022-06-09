@@ -150,15 +150,17 @@ function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
 
 	if not slot0.pools_plural["char/" .. slot1 .. slot1] then
 		slot0:GetSpineSkel(slot1, slot2, function (slot0)
-			if not uv0.pools_plural[uv1] then
-				slot0 = SpineAnimUI.AnimChar(uv2, slot0)
+			assert(slot0 ~= nil, "Spine角色不存在: " .. uv0)
+
+			if not uv1.pools_plural[uv2] then
+				slot0 = SpineAnimUI.AnimChar(uv0, slot0)
 
 				slot0:SetActive(false)
-				tf(slot0):SetParent(uv0.root, false)
+				tf(slot0):SetParent(uv1.root, false)
 
 				slot1 = slot0:GetComponent("SkeletonGraphic")
 				slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
-				uv0.pools_plural[uv1] = uv3.New(slot0, 1)
+				uv1.pools_plural[uv2] = uv3.New(slot0, 1)
 			end
 
 			uv4()

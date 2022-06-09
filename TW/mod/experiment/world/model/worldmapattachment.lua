@@ -200,18 +200,32 @@ end
 function slot0.InitConfig(slot0)
 	if slot0.type == uv0.TypeBox then
 		slot0.config = pg.box_data_template[slot0.id]
+
+		assert(slot0.config, "box_data_template not exist: " .. slot0.id)
 	elseif uv0.IsEnemyType(slot0.type) then
 		slot0.config = pg.expedition_data_template[slot0.id]
+
+		assert(slot0.config, "expedition_data_template not exist: " .. slot0.id)
 	elseif slot0.type == uv0.TypeEvent then
 		slot0.config = pg.world_event_data[slot0.id]
+
+		assert(slot0.config, "world_event_data not exist: " .. slot0.id)
 	elseif slot0.type == uv0.TypePort then
 		slot0.config = pg.world_port_data[slot0.id]
+
+		assert(slot0.config, "world_port_data not exist: " .. slot0.id)
 	elseif slot0.type == uv0.TypeTransportFleet then
 		slot0.config = pg.friendly_data_template[slot0.id]
+
+		assert(slot0.config, "friendly_data_template not exist: " .. slot0.id)
 	elseif slot0.type == uv0.TypeTrap then
 		slot0.config = pg.world_trap_data[slot0.id]
+
+		assert(slot0.config, "world_trap_data not exist: " .. slot0.id)
 	elseif slot0.type == uv0.TypeArtifact then
 		slot0.config = pg.world_event_data[slot0.id]
+
+		assert(slot0.config, "with out this atrifact: " .. slot0.id)
 	end
 end
 
@@ -282,10 +296,14 @@ function slot0.UpdateDataOp(slot0, slot1)
 end
 
 function slot0.GetEventEffect(slot0)
+	assert(slot0.type == uv0.TypeEvent, string.format("type error:%d", slot0.type))
+
 	return slot0.effects[1] and pg.world_effect_data[slot1]
 end
 
 function slot0.GetEventEffects(slot0)
+	assert(slot0.type == uv0.TypeEvent, string.format("type error:%d", slot0.type))
+
 	return _.map(slot0.effects, function (slot0)
 		return pg.world_effect_data[slot0]
 	end)
@@ -297,11 +315,16 @@ end
 
 function slot0.GetOpEffect(slot0)
 	slot1 = slot0.config.event_op
+	slot2 = slot1[#slot1 - slot0.dataop + 1]
 
-	return pg.world_effect_data[slot1[#slot1 - slot0.dataop + 1]]
+	assert(pg.world_effect_data[slot2], "world_effect_data not exist: " .. slot2)
+
+	return pg.world_effect_data[slot2]
 end
 
 function slot0.GetBattleStageId(slot0)
+	assert(uv0.IsEnemyType(slot0.type))
+
 	return slot0.id
 end
 
@@ -502,6 +525,8 @@ function slot0.GetDirType(slot0)
 end
 
 function slot0.GetReplaceDisplayEnemyConfig(slot0)
+	assert(slot0.type == uv0.TypeEvent)
+
 	return pg.expedition_data_template[slot0.config.expedition_icon]
 end
 
@@ -577,10 +602,15 @@ function slot0.GetMaxHP(slot0)
 end
 
 function slot0.GetArtifaceInfo(slot0)
+	slot1 = slot0.config
+
+	assert(slot0.type == uv0.TypeArtifact, "type error from id: " .. slot0.id)
+	assert(math.floor(slot1.enemyicon / 2) == 2, "enemyicon error from id: " .. slot0.id)
+
 	return {
 		slot0.row,
 		slot0.column,
-		slot0.config.icon
+		slot1.icon
 	}
 end
 
@@ -605,10 +635,14 @@ function slot0.IsAttachmentFinish(slot0)
 end
 
 function slot0.GetEventAutoPri(slot0)
+	assert(slot0.type == uv0.TypeEvent, "type error from id: " .. slot0.id)
+
 	return slot0.config.auto_pri
 end
 
 function slot0.IsPeriodEnemy(slot0)
+	assert(uv0.IsHPEnemyType(slot0.type), string.format("enemy %d type %d error", slot0.id, slot0.type))
+
 	return pg.world_expedition_data[slot0.id] and slot1.phase_limit == 1
 end
 

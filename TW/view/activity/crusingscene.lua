@@ -561,6 +561,7 @@ end
 function slot0.onScroll(slot0, slot1, slot2)
 	slot3 = slot1.onValueChanged
 
+	assert(slot2, "callback should exist")
 	slot3:RemoveAllListeners()
 	pg.DelegateInfo.Add(slot0, slot3)
 	slot3:AddListener(slot2)

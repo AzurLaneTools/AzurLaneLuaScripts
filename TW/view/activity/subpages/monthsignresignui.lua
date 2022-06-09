@@ -47,6 +47,7 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.displayAwards(slot0)
+	assert(#slot0.awards ~= 0, "items数量不能为0")
 	removeAllChildren(slot0.destroyBonusList)
 
 	for slot4 = 1, #slot0.awards do

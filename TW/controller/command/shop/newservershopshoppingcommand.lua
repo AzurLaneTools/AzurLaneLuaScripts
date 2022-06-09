@@ -14,7 +14,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot12 = slot7:GetCommodityById(slot3):GetConsume()
+	assert(slot7:GetCommodityById(slot3):GetConsume().type == 1, "暂不支持资源以为的类型")
 
 	if getProxy(PlayerProxy):getData():getResource(slot12.id) < slot12.count * (#slot4 ~= 1 and #slot4 or slot5) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))

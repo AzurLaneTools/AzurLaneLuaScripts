@@ -22,6 +22,8 @@ function slot0.checkShipFlag(slot0, slot1, slot2)
 		return not slot3 and slot0:getFlag(slot2)
 	elseif type(slot3) == "number" then
 		return slot0:getFlag(slot2, slot3)
+	else
+		assert(false, "type error")
 	end
 end
 
@@ -457,6 +459,8 @@ function slot0.ShipStatusCheck(slot0, slot1, slot2, slot3)
 		return uv0.ChangeStatusTipBox(slot5, slot1)
 	elseif slot4 == uv0.STATE_CHANGE_OK then
 		return true
+	else
+		assert(false, "unknow error")
 	end
 end
 

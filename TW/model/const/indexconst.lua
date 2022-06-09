@@ -1120,4 +1120,81 @@ function slot0.sortByIntimacyAsc(slot0, slot1)
 	end
 end
 
+slot0.SpWeaponTypeQvZhu = bit.lshift(1, 0)
+slot0.SpWeaponTypeQingXvn = bit.lshift(1, 1)
+slot0.SpWeaponTypeZhongXvn = bit.lshift(1, 2)
+slot0.SpWeaponTypeZhanLie = bit.lshift(1, 3)
+slot0.SpWeaponTypeHangMu = bit.lshift(1, 4)
+slot0.SpWeaponTypeWeiXiu = bit.lshift(1, 5)
+slot0.SpWeaponTypeQianTing = bit.lshift(1, 6)
+slot0.SpWeaponTypeQiTa = bit.lshift(1, 7)
+slot0.SpWeaponTypeIndexs = {
+	slot0.SpWeaponTypeQvZhu,
+	slot0.SpWeaponTypeQingXvn,
+	slot0.SpWeaponTypeZhongXvn,
+	slot0.SpWeaponTypeZhanLie,
+	slot0.SpWeaponTypeHangMu,
+	slot0.SpWeaponTypeWeiXiu,
+	slot0.SpWeaponTypeQianTing,
+	slot0.SpWeaponTypeQiTa
+}
+slot0.SpWeaponTypeAll = slot0.BitAll(slot0.SpWeaponTypeIndexs)
+
+table.insert(slot0.SpWeaponTypeIndexs, 1, slot0.SpWeaponTypeAll)
+
+function slot0.filterSpWeaponByType(slot0, slot1)
+	if not slot1 or slot1 == uv0.SpWeaponTypeAll then
+		return true
+	end
+
+	slot2 = slot0:GetWearableShipTypes()
+
+	for slot6 = 0, #uv0.SpWeaponTypeIndexs - 2 do
+		if bit.band(bit.lshift(1, slot6), slot1) > 0 and _.any(ShipIndexCfg.type[4 + slot6].types, function (slot0)
+			return table.contains(uv0, slot0)
+		end) then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot0.SpWeaponTypeNames = {
+	"word_equipment_all",
+	"spweapon_ui_index_shipType_quZhu",
+	"spweapon_ui_index_shipType_qinXun",
+	"spweapon_ui_index_shipType_zhongXun",
+	"spweapon_ui_index_shipType_zhanLie",
+	"spweapon_ui_index_shipType_hangMu",
+	"spweapon_ui_index_shipType_weiXiu",
+	"spweapon_ui_index_shipType_qianTing",
+	"spweapon_ui_index_shipType_other"
+}
+slot0.SpWeaponRarityNames = {
+	"index_all",
+	"index_rare3",
+	"index_rare4",
+	"index_rare5"
+}
+slot0.SpWeaponRarity1 = bit.lshift(1, 0)
+slot0.SpWeaponRarity2 = bit.lshift(1, 1)
+slot0.SpWeaponRarity3 = bit.lshift(1, 2)
+slot0.SpWeaponRarityIndexs = {
+	slot0.SpWeaponRarity1,
+	slot0.SpWeaponRarity2,
+	slot0.SpWeaponRarity3
+}
+slot0.SpWeaponRarityAll = slot0.BitAll(slot0.SpWeaponRarityIndexs)
+
+table.insert(slot0.SpWeaponRarityIndexs, 1, slot0.SpWeaponRarityAll)
+
+function slot0.filterSpWeaponByRarity(slot0, slot1)
+	if not slot1 or slot1 == uv0.SpWeaponRarityAll then
+		return true
+	end
+
+	return bit.band(bit.lshift(1, math.max(slot0:GetRarity() - 2, 0)), slot1) > 0
+end
+
 return slot0

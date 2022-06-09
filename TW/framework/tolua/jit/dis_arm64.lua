@@ -1658,6 +1658,8 @@ function slot55(slot0)
 				end
 
 				slot17 = true
+			else
+				assert(false)
 			end
 		end
 

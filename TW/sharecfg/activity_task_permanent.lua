@@ -51,8 +51,39 @@ pg.activity_task_permanent = {
 			35026
 		}
 	},
+	[6011] = {
+		gametip = "可獲得標槍限定換裝「微速前進！」",
+		banner_route = "permanent_biaoqiang",
+		gametip_extra = "最快9日獲得 ",
+		over_pt = 0,
+		task_extra = "",
+		id = 6011,
+		activity_name = "月刊漫畫",
+		over_task_id = "",
+		eliminate_task_id = {
+			35118,
+			35119,
+			35120,
+			35121,
+			35122,
+			35123,
+			35124,
+			35125,
+			35126,
+			35127,
+			35128,
+			35129,
+			35130,
+			35131,
+			35132,
+			35133,
+			35134,
+			35135
+		}
+	},
 	all = {
 		6000,
-		6001
+		6001,
+		6011
 	}
 }

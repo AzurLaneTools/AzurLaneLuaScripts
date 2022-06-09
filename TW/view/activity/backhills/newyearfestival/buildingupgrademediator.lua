@@ -3,7 +3,11 @@ slot0.ACTIVITY_OPERATION = "ACTIVITY_OPERATION"
 
 function slot0.register(slot0)
 	slot0:BindEvent()
-	slot0.viewComponent:UpdateActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF))
+
+	slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF)
+
+	assert(slot1, "Building Activity Not Found")
+	slot0.viewComponent:UpdateActivity(slot1)
 end
 
 function slot0.BindEvent(slot0)

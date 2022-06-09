@@ -81,8 +81,11 @@ function slot0.addShip(slot0, slot1)
 end
 
 function slot0.exitYardById(slot0, slot1)
+	slot2 = slot0:getShipById(slot1)
+
+	assert(slot2, "ship should exist")
 	slot0.data:deleteShip(slot1)
-	slot0:sendNotification(uv0.SHIP_EXIT, slot0:getShipById(slot1))
+	slot0:sendNotification(uv0.SHIP_EXIT, slot2)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
@@ -210,12 +213,17 @@ function slot0.getFurniById(slot0, slot1)
 end
 
 function slot0.addDorm(slot0, slot1)
+	assert(isa(slot1, Dorm), "dorm should instance of Dorm")
+
 	slot0.data = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inBackyard")
 end
 
 function slot0.updateDrom(slot0, slot1, slot2)
+	assert(isa(slot1, Dorm), "dorm should instance of Dorm")
+	assert(slot1, "drom should exist")
+
 	slot0.data = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inBackyard")

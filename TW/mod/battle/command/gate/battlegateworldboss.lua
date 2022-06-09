@@ -61,7 +61,10 @@ function slot0.Entrance(slot0, slot1)
 		if uv5:IsSelfBoss(uv6) then
 			uv6:IncreaseFightCnt()
 		else
-			uv5:reducePt()
+			if WorldBossConst._IsCurrBoss(uv6) then
+				uv5:reducePt()
+			end
+
 			uv5:LockCacheBoss(uv7)
 		end
 
@@ -122,17 +125,22 @@ function slot0.Exit(slot0, slot1)
 	slot4 = slot9.oil
 	stageId = slot0.bossId
 	slot10 = slot1.GeneralPackage(slot0, getProxy(BayProxy):getSortShipsByFleet(slot8))
-	slot11 = {}
+	slot11 = 0
+	slot12 = {}
 
-	for slot15, slot16 in ipairs(slot0.statistics._enemyInfoList) do
-		table.insert(slot11, {
-			enemy_id = slot16.id,
-			damage_taken = slot16.damage,
-			total_hp = slot16.totalHp
+	for slot16, slot17 in ipairs(slot0.statistics._enemyInfoList) do
+		table.insert(slot12, {
+			enemy_id = slot17.id,
+			damage_taken = slot17.damage,
+			total_hp = slot17.totalHp
 		})
+
+		if slot11 < slot17.damage then
+			slot11 = slot17.damage
+		end
 	end
 
-	slot10.enemy_info = slot11
+	slot10.enemy_info = slot12
 
 	slot1:SendRequest(slot10, function (slot0)
 		slot1, slot2 = uv0:GeneralLoot(slot0)
@@ -147,6 +155,7 @@ function slot0.Exit(slot0, slot1)
 		slot5 = slot4:GetBossById(uv2.bossId)
 
 		slot4:ClearRank(slot5.id)
+		slot4:UpdateHighestDamage(uv4)
 
 		slot7 = pg.m02
 
@@ -159,7 +168,7 @@ function slot0.Exit(slot0, slot1)
 		uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_WORLD_BOSS,
 			statistics = uv2.statistics,
-			score = uv4,
+			score = uv5,
 			drops = slot1,
 			commanderExps = {},
 			result = slot0.result,

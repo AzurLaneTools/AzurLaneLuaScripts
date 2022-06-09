@@ -22,6 +22,8 @@ function slot0.CheckArgLimit(slot0)
 
 	if slot1[1] == 1 then
 		return getProxy(BayProxy):getMetaShipByGroupId(slot3) ~= nil, i18n("meta_shop_exchange_limit")
+	else
+		assert(false)
 	end
 end
 

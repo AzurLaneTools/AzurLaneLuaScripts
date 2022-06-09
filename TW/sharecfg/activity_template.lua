@@ -1674,6 +1674,81 @@ pg.activity_template = {
 			}
 		}
 	},
+	[6011] = {
+		mark = 20220513,
+		title_res_tag = "biaoqiang_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6011,
+		config_data = {
+			{
+				35118,
+				35119
+			},
+			{
+				35120,
+				35121
+			},
+			{
+				35122,
+				35123
+			},
+			{
+				35124,
+				35125
+			},
+			{
+				35126,
+				35127
+			},
+			{
+				35128,
+				35129
+			},
+			{
+				35130,
+				35131
+			},
+			{
+				35132,
+				35133
+			},
+			{
+				35134,
+				35135
+			}
+		},
+		page_info = {
+			class_name = "JavelinComicSkinPermanentPage",
+			ui_name = "JavelinComicSkinPermanentPage"
+		},
+		config_client = {
+			story = {
+				{
+					"BIAOQIANGMANHUA1"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA2"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA3"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA4"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA5"
+				}
+			}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		time = "stop",
@@ -17755,6 +17830,99 @@ pg.activity_template = {
 			"https://game.bilibili.com/blhx/2022-5thanniversary/h5/"
 		}
 	},
+	[40660] = {
+		mark = 20220609,
+		id = 40660,
+		title_res_tag = "sclf",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 25,
+		config_data = {
+			{
+				80300,
+				80301
+			},
+			{
+				80302,
+				80303
+			},
+			{
+				80304,
+				80305
+			},
+			{
+				80306,
+				80307
+			},
+			{
+				80308,
+				80309
+			},
+			{
+				80310,
+				80311
+			},
+			{
+				80312,
+				80313
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					6,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YamashiroSkinPage",
+			ui_name = "yamashiroskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHANCHENGLIFU1"
+				},
+				{
+					"SHANCHENGLIFU2"
+				},
+				{
+					"SHANCHENGLIFU3"
+				},
+				{},
+				{
+					"SHANCHENGLIFU4"
+				},
+				{
+					"SHANCHENGLIFU5"
+				},
+				{
+					"SHANCHENGLIFU6"
+				}
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		time = "stop",
@@ -19388,6 +19556,7 @@ pg.activity_template = {
 		2057,
 		6000,
 		6001,
+		6011,
 		100001,
 		40009,
 		40030,
@@ -19867,6 +20036,7 @@ pg.activity_template = {
 		40675,
 		40676,
 		40677,
+		40660,
 		45000,
 		45001,
 		45002,

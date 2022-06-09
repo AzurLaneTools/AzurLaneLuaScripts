@@ -23,9 +23,10 @@ function slot0.Update(slot0)
 	end
 
 	if slot0.dock then
+		assert(pg.land_based_template[slot1.attachmentId], "land_based_template not exist: " .. slot1.attachmentId)
 		setActive(slot0.dock:Find("text"), slot0.chapter:getRoundNum() < math.ceil(slot1.data / 2))
 
-		slot7 = pg.land_based_template[slot1.attachmentId].function_args[2]
+		slot7 = slot2.function_args[2]
 		slot0.dock:Find("Slider"):GetComponent(typeof(Slider)).value = math.max(slot3 - slot5 + slot7, 0) / slot7
 	end
 

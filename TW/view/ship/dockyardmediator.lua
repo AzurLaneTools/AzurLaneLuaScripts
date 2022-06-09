@@ -76,6 +76,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_WORLD_FORMATION, function ()
+		assert(false, "This feature is obsolete")
 	end)
 	slot0:bind(uv0.ON_SHIP_REPAIR, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.WORLD_SHIP_REPAIR, {

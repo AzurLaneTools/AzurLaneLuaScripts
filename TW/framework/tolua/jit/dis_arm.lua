@@ -1080,8 +1080,12 @@ function slot46(slot0)
 			slot19 = uv5(uv3(slot6, 12), 240) + uv5(slot6, 15)
 		elseif slot18 == "K" then
 			slot19 = "#0x" .. uv21(uv5(uv3(slot6, 4), 65520) + uv5(slot6, 15), 4)
-		elseif slot18 == "s" and uv5(slot6, 1048576) ~= 0 then
-			slot8 = "s" .. slot8
+		elseif slot18 == "s" then
+			if uv5(slot6, 1048576) ~= 0 then
+				slot8 = "s" .. slot8
+			end
+		else
+			assert(false)
 		end
 
 		if slot19 then

@@ -95,6 +95,9 @@ function slot0.execute(slot0, slot1)
 								slot19 = slot15[2][1]
 								slot20 = slot15[2][2]
 								slot21 = Clone(slot18.skills[slot19])
+
+								assert(slot21, "shipVO without this skill" .. slot19)
+
 								slot21.id = slot20
 								slot18.skills[slot19] = nil
 								slot18.skills[slot20] = slot21

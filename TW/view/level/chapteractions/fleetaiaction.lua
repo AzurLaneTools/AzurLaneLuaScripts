@@ -52,7 +52,11 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 		if not slot3 then
 			_.each(slot0.cellUpdates, function (slot0)
 				if uv0:getChapterCell(slot0.row, slot0.column).flag == 0 and slot0.flag == 1 then
-					uv0.modelCount = uv0.modelCount + pg.specialunit_template[slot1.attachmentId].enemy_point
+					slot2 = pg.specialunit_template[slot1.attachmentId]
+
+					assert(slot2, "specialunit_template not exist: " .. slot1.attachmentId)
+
+					uv0.modelCount = uv0.modelCount + slot2.enemy_point
 				end
 
 				uv0:mergeChapterCell(slot0)
@@ -108,16 +112,21 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		else
 			if slot0.target then
 				slot5 = slot1.fleets[slot4]
-
-				if _.detect(slot0.cellUpdates, function (slot0)
+				slot6 = _.detect(slot0.cellUpdates, function (slot0)
 					return slot0.row == uv0.target.row and slot0.column == uv0.target.column
-				end).attachment == ChapterConst.AttachLandbase then
+				end)
+
+				assert(slot6, "can not find cell")
+
+				if slot6.attachment == ChapterConst.AttachLandbase then
 					if pg.land_based_template[slot6.attachmentId].type == ChapterConst.LBCoastalGun then
 						if ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrier, slot1:getMapShip(slot5):getShipType()) then
 							slot2.viewComponent:doPlayStrikeAnim(slot8, "AirStrikeUI", slot3)
 						else
 							slot2.viewComponent:doPlayStrikeAnim(slot8, "CannonUI", slot3)
 						end
+					else
+						assert(false)
 					end
 
 					return
@@ -125,10 +134,16 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 
 				slot7 = "-" .. slot6.data / 100 .. "%"
 				slot8 = slot0.commanderSkillEffectId
-				slot9 = slot5:getSkill(slot8)
+
+				assert(slot5:getSkill(slot8), "can not find skill: " .. slot8)
+
+				slot10 = slot5:findCommanderBySkillId(slot8)
+
+				assert(slot10, "command can not find by skill id: " .. slot8)
+
 				slot11 = slot2.viewComponent
 
-				slot11:doPlayCommander(slot5:findCommanderBySkillId(slot8), function ()
+				slot11:doPlayCommander(slot10, function ()
 					if uv0:GetType() == FleetSkill.TypeAttack then
 						slot0 = uv0
 
@@ -142,7 +157,11 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 							uv1.viewComponent:doPlayStrikeAnim(uv5:getTorpedoShip(uv6), "SubTorpedoUI", slot1)
 						elseif slot0[1] == "cannon" then
 							uv1.viewComponent:doPlayStrikeAnim(uv5:getBBship(uv6), "CannonUI", slot1)
+						else
+							assert(false)
 						end
+					else
+						assert(false)
 					end
 				end)
 

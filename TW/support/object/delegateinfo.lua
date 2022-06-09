@@ -13,7 +13,11 @@ function slot1.Add(slot0, slot1)
 		return
 	end
 
-	if uv0.ClientsInfo[slot0] then
+	slot2 = uv0.ClientsInfo[slot0]
+
+	assert(slot2, "没有初始化委托处理" .. slot0.__cname)
+
+	if slot2 then
 		slot2:AddEventOb(slot1)
 	end
 end
@@ -23,7 +27,11 @@ function slot1.AddEventOb(slot0, slot1)
 end
 
 function slot1.Dispose(slot0)
-	if uv0.ClientsInfo[slot0] then
+	slot1 = uv0.ClientsInfo[slot0]
+
+	assert(slot1, "没有初始化委托处理" .. slot0.__cname)
+
+	if slot1 then
 		slot1:Clear()
 	end
 

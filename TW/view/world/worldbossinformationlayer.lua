@@ -211,7 +211,11 @@ function slot0.UpdateHpbar(slot0)
 end
 
 function slot0.GetDungeonBossData(slot0, slot1)
-	_.any(slot0:GetDungeonFile(slot1.config.dungeon_id).stages[1].waves, function (slot0)
+	assert(slot1, "Attachment is null")
+
+	slot2 = slot1.config.dungeon_id
+
+	_.any(slot0:GetDungeonFile(slot2).stages[1].waves, function (slot0)
 		if not slot0.spawn then
 			return
 		end
@@ -224,8 +228,9 @@ function slot0.GetDungeonBossData(slot0, slot1)
 			end
 		end)
 	end)
+	assert(nil, "Cant Find Boss Data in Dungeon: " .. slot2 or "NIL")
 
-	return nil
+	return slot5
 end
 
 function slot0.GetDungeonFile(slot0, slot1)
@@ -248,7 +253,9 @@ slot7 = 70
 function slot0.updateStageView(slot0)
 	slot1, slot2 = slot0:GetCurrentAttachment()
 	slot3 = slot1:GetBattleStageId()
-	slot4 = pg.expedition_data_template[slot3]
+
+	assert(pg.expedition_data_template[slot3], "expedition_data_template not exist: " .. slot3)
+
 	slot6 = {}
 
 	for slot10, slot11 in ipairs(pg.world_expedition_data[slot3].award_display_world) do
@@ -329,6 +336,8 @@ function slot0.updateStageView(slot0)
 		end
 
 		UIItemList.StaticAlign(uv1.EquipmentBuffContainer, uv1.EquipmentBuffContainer:GetChild(0), #_.map(slot0, function (slot0)
+			assert("world_SLGbuff_data Missing ID: " .. (slot0 or "NIL"))
+
 			return pg.world_SLGbuff_data[slot0]
 		end), function (slot0, slot1, slot2)
 			if slot0 ~= UIItemList.EventUpdate then

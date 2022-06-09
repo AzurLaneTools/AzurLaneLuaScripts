@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听了你们在门外大呼小叫，本王的工作思路早被打断了。",
+			say = "听你们在门外大呼小叫，本王的工作思路早被打断了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299030,
-			say = "非常抱歉，陛下————！可是真的发生了超级不得的事欸！",
+			say = "非常抱歉，陛下————！可是真的发生了超级不得了的事欸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -249,6 +249,7 @@ function slot0.increaseDrawCount(slot0, slot1)
 end
 
 function slot0.addBuildShip(slot0, slot1)
+	assert(isa(slot1, BuildShip), "should be an instance of BuildShip")
 	table.insert(slot0.data, slot1)
 
 	if slot0:getActiveCount() < slot0:getMaxWorkCount() then
@@ -259,6 +260,8 @@ function slot0.addBuildShip(slot0, slot1)
 		slot0:addBuildTimer()
 	elseif slot2 == slot3 then
 		slot1:setState(BuildShip.INACTIVE)
+	else
+		assert(false, "激活的建船数量大于最大数量")
 	end
 
 	slot0.facade:sendNotification(uv0.ADDED, slot1:clone())
@@ -271,6 +274,8 @@ function slot0.finishBuildShip(slot0, slot1)
 end
 
 function slot0.updateBuildShip(slot0, slot1, slot2)
+	assert(isa(slot2, BuildShip), "should be an instance of BuildShip")
+
 	slot0.data[slot1] = slot2:clone()
 
 	slot0.facade:sendNotification(uv0.UPDATED, {
@@ -280,12 +285,14 @@ function slot0.updateBuildShip(slot0, slot1, slot2)
 end
 
 function slot0.removeBuildShipByIndex(slot0, slot1)
+	assert(slot0.data[slot1]:clone() ~= nil, "buildShip should exist")
+
 	slot0.lastPoolType = slot0.data[slot1].type
 
 	table.remove(slot0.data, slot1)
 	slot0.facade:sendNotification(uv0.REMOVED, {
 		index = slot1,
-		buildShip = slot0.data[slot1]:clone()
+		buildShip = slot2
 	})
 end
 

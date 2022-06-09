@@ -158,6 +158,7 @@ function slot9(slot0)
 			slot0.state:ChangeState(uv0.stateStand)
 		end,
 		ChangePos = function (slot0, slot1)
+			assert(slot1)
 			slot0.onUpdatePos(slot1)
 		end,
 		Dispose = function (slot0)
@@ -191,6 +192,9 @@ function slot11(slot0)
 		id = slot0.id,
 		flag = slot0.flag
 	}
+
+	assert(slot1.id)
+
 	slot1.config = uv0[slot1.id]
 	slot1.events = {}
 
@@ -858,6 +862,8 @@ function slot0.playerAnim(slot0, slot1)
 end
 
 function slot0.findTF(slot0, slot1, slot2)
+	assert(slot0._tf, "transform should exist")
+
 	return findTF(slot2 or slot0._tf, slot1)
 end
 

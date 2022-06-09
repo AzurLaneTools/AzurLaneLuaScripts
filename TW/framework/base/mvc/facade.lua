@@ -9,6 +9,9 @@ function slot0.MVC.Facade.Ctor(slot0)
 end
 
 function slot0.MVC.Facade.AddDataProxy(slot0, slot1)
+	assert(slot1.__name ~= nil and type(slot1.__name) == "string", slot0.__name .. ".AddDataProxy: dataProxy.__name expected a string value")
+	assert(slot0._proxyList[slot1.__name] == nil, slot0.__name .. ".AddDataProxy: same dataProxy exist")
+
 	slot1._state = slot0
 
 	slot1:ActiveProxy()
@@ -19,9 +22,11 @@ function slot0.MVC.Facade.AddDataProxy(slot0, slot1)
 end
 
 function slot0.MVC.Facade.AddMediator(slot0, slot1)
-	if slot1.__name ~= nil and type(slot1.__name) ~= "string" then
-		-- Nothing
+	if slot1.__name == nil or type(slot1.__name) ~= "string" then
+		assert(false, slot0.__name .. ".AddMediator: mediator.__name expected a string value")
 	end
+
+	assert(slot0._mediatorList[slot1.__name] == nil, slot0.__name .. ".AddMediator: same mediator exist")
 
 	slot0._mediatorList[slot1.__name] = slot1
 	slot1._state = slot0
@@ -32,9 +37,11 @@ function slot0.MVC.Facade.AddMediator(slot0, slot1)
 end
 
 function slot0.MVC.Facade.AddCommand(slot0, slot1)
-	if slot1.__name ~= nil and type(slot1.__name) ~= "string" then
-		-- Nothing
+	if slot1.__name == nil or type(slot1.__name) ~= "string" then
+		assert(false, slot0.__name .. ".AddCommand: command.__name expected a string value")
 	end
+
+	assert(slot0._commandList[slot1.__name] == nil, slot0.__name .. ".AddCommand: same command exist")
 
 	slot0._commandList[slot1.__name] = slot1
 	slot1._state = slot0
@@ -45,14 +52,20 @@ function slot0.MVC.Facade.AddCommand(slot0, slot1)
 end
 
 function slot0.MVC.Facade.GetProxyByName(slot0, slot1)
+	assert(type(slot1) == "string", slot0.__name .. ".GetProxyByName: expect a string value")
+
 	return slot0._proxyList[slot1]
 end
 
 function slot0.MVC.Facade.GetMediatorByName(slot0, slot1)
+	assert(type(slot1) == "string", slot0.__name .. ".GetMediatorByName: expect a string value")
+
 	return slot0._mediatorList[slot1]
 end
 
 function slot0.MVC.Facade.GetCommandByName(slot0, slot1)
+	assert(type(slot1) == "string", slot0.__name .. ".GetCommandByName: expect a string value")
+
 	return slot0._commandList[slot1]
 end
 
@@ -61,6 +74,7 @@ function slot0.MVC.Facade.RemoveMediator(slot0, slot1)
 		slot1 = slot0._mediatorList[slot1]
 	end
 
+	assert(slot1 ~= nil, slot0.__name .. ".RemoveMediator: try to remove a nil mediator")
 	slot1:Dispose()
 
 	slot0._mediatorList[slot1.__name] = nil
@@ -71,6 +85,7 @@ function slot0.MVC.Facade.RemoveCommand(slot0, slot1)
 		slot1 = slot0._commandList[slot1]
 	end
 
+	assert(slot1 ~= nil, slot0.__name .. ".RemoveCommand: try to remove a nil command")
 	slot1:Dispose()
 
 	slot0._commandList[slot1.__name] = nil
@@ -81,6 +96,7 @@ function slot0.MVC.Facade.RemoveProxy(slot0, slot1)
 		slot1 = slot0._proxyList[slot1]
 	end
 
+	assert(slot1 ~= nil, slot0.__name .. ".RemoveProxy: try to remove a nil proxy")
 	slot1:DeactiveProxy()
 
 	slot0._proxyList[slot1.__name] = nil

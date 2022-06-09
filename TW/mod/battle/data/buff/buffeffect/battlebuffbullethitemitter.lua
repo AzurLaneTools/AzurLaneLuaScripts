@@ -17,6 +17,6 @@ function slot0.Battle.BattleBuffBulletHitEmitter.onBulletCreate(slot0, slot1, sl
 	slot4 = slot3._bullet
 
 	if uv0.Battle.BattleFormulas.IsHappen(slot0._rate) then
-		-- Nothing
+		assert(false, "子弹弹射功能已经屏蔽")
 	end
 end

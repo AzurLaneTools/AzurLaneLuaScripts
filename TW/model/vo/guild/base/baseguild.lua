@@ -1,6 +1,7 @@
 slot0 = class("BaseGuild", import("...BaseVO"))
 
 function slot0.GetTechnologys(slot0)
+	assert(false)
 end
 
 function slot0.getAddition(slot0, slot1)

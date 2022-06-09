@@ -469,6 +469,8 @@ function slot0.SeriesSort(slot0, slot1, slot2, slot3)
 	slot5 = nil
 
 	return (function (slot0)
+		assert(uv0[slot0])
+
 		if uv0[slot0](uv1, uv2) == -1 then
 			return uv3(slot0 + 1)
 		else

@@ -8,6 +8,7 @@ end
 
 function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
+	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 	setActive(slot0._tf:Find("ItemRect/TitleRecord"), true)
 	setActive(slot0._tf:Find("ItemRect/TitleMemory"), false)
 
@@ -50,6 +51,9 @@ function slot0.OnUpdateRecordItem(slot0, slot1, slot2)
 	end
 
 	slot3 = slot0.records and slot0.records[slot1]
+
+	assert("Not Initialize RecordGroups ID: " .. (slot0.contextData.recordGroup or "NIL"))
+
 	slot0.recordItems[slot2] = slot3
 	slot4 = tf(slot2)
 
@@ -110,16 +114,15 @@ end
 
 function slot0.ShowRecordGroup(slot0, slot1)
 	slot0.contextData.recordGroup = slot1
+
+	assert("Missing Record Group Config ID: " .. (slot1 or "NIL"))
+
 	slot0.records = _.map(WorldCollectionProxy.GetCollectionRecordGroupTemplate(slot1).child, function (slot0)
 		return WorldCollectionProxy.GetCollectionTemplate(slot0)
 	end)
-	slot3 = slot0.recordItemList
 
-	slot3:SetTotalCount(#slot0.records, 0)
-
-	slot6 = slot0._tf
-
-	setText(slot6:Find("ItemRect/ProgressText"), _.reduce(slot0.records, 0, function (slot0, slot1)
+	slot0.recordItemList:SetTotalCount(#slot0.records, 0)
+	setText(slot0._tf:Find("ItemRect/ProgressText"), _.reduce(slot0.records, 0, function (slot0, slot1)
 		if uv0.CheckRecordIsUnlock(slot1) then
 			slot0 = slot0 + 1
 		end

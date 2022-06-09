@@ -10,7 +10,8 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot7 = slot2.floor or slot6.floor
+	assert(slot2.floor or slot6.floor, "floor should exist")
+
 	slot10, slot11 = CourtYardRawDataChecker.Check(slot3, slot6:getData().level)
 
 	if not slot10 then

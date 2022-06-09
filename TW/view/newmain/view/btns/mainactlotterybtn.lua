@@ -4,6 +4,10 @@ function slot0.GetEventName(slot0)
 	return "event_LanternFestival"
 end
 
+function slot0.GetActivityID(slot0)
+	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and slot1.id
+end
+
 function slot0.OnInit(slot0)
 	slot1 = getProxy(ActivityProxy)
 	slot1 = slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY)

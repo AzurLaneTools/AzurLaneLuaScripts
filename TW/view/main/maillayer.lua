@@ -246,6 +246,7 @@ function slot0.showMailTip(slot0, slot1)
 end
 
 function slot0.addMail(slot0, slot1)
+	assert(isa(slot1, Mail), "should be an instance of Mail")
 	table.insert(slot0.mailVOs, slot1)
 	slot0:updateMailList()
 end
@@ -276,6 +277,8 @@ function slot0.updateMailMark(slot0, slot1)
 end
 
 function slot0.openMail(slot0, slot1)
+	assert(isa(slot1, Mail), "should be an instance of Mail")
+	assert(slot1.openned, "mail should be openned")
 	slot0:updateMailMark(false)
 
 	slot0.lastOpenMailId = slot1.id
@@ -370,6 +373,10 @@ function slot0.setAttachment(slot0, slot1, slot2, slot3)
 end
 
 function slot0.updateMail(slot0, slot1)
+	slot5 = Mail
+
+	assert(isa(slot1, slot5), "should be an instance of Mail")
+
 	for slot5, slot6 in ipairs(slot0.mailVOs) do
 		if slot6.id == slot1.id then
 			slot0.mailVOs[slot5] = slot1
@@ -430,6 +437,8 @@ function slot0.updateMail(slot0, slot1)
 end
 
 function slot0.removeMail(slot0, slot1)
+	assert(isa(slot1, Mail), "should be an instance of Mail")
+
 	if table.getIndex(slot0.mailVOs, function (slot0)
 		return slot0.id == uv0.id
 	end) then

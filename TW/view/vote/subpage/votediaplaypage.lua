@@ -25,6 +25,9 @@ end
 
 function slot0.Open(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.callback = slot5
+
+	assert(slot0.callback)
+
 	slot0.maxValue = slot3
 	slot0.rank = slot2
 	slot0.value = 1

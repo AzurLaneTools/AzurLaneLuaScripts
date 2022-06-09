@@ -307,6 +307,8 @@ function slot0.GetDataForType(slot0, slot1)
 
 		return slot2 or {}
 	end
+
+	assert(false)
 end
 
 function slot0.UpdateRes(slot0)

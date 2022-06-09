@@ -13,6 +13,8 @@ function slot0.OnInit(slot0)
 		slot2 = slot0.summaryInfoVO.medalList
 	elseif slot1 == uv0.PageTypeIconFrame then
 		slot2 = slot0.summaryInfoVO.iconFrameList
+	else
+		assert(false, "page type error")
 	end
 
 	slot3 = {}
@@ -44,18 +46,24 @@ function slot0.OnInit(slot0)
 				setGray(slot2:Find("name"), not slot5)
 				setText(slot2:Find("from/Text"), slot6.gain_by)
 				setText(slot2:Find("date/Text"), slot5 and slot5:getDate() or i18n("summary_page_un_rearch"))
-			elseif uv2.summaryInfoVO.pageType == uv1.PageTypeIconFrame then
-				slot4, slot5 = unpack(uv3[slot3])
-				slot6 = getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_ICON_FRAME, slot4)
+			else
+				if uv2.summaryInfoVO.pageType == uv1.PageTypeIconFrame then
+					slot4, slot5 = unpack(uv3[slot3])
+					slot6 = getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_ICON_FRAME, slot4)
 
-				setLocalScale(slot2:Find("icon/frame"), Vector3(slot5, slot5, slot5))
-				PoolMgr.GetInstance():GetPrefab(slot6:getIcon(), slot6:getConfig("id"), true, function (slot0)
-					setParent(slot0, uv0:Find("icon/frame"), false)
-					setGray(uv0:Find("icon"), not uv1)
-				end)
-				setText(slot2:Find("name/Text"), HXSet.hxLan(slot6:getConfig("name")))
-				setGray(slot2:Find("name"), not slot6:isOwned())
-				setText(slot2:Find("from/Text"), slot6:getConfig("gain_by"))
+					setLocalScale(slot2:Find("icon/frame"), Vector3(slot5, slot5, slot5))
+					PoolMgr.GetInstance():GetPrefab(slot6:getIcon(), slot6:getConfig("id"), true, function (slot0)
+						setParent(slot0, uv0:Find("icon/frame"), false)
+						setGray(uv0:Find("icon"), not uv1)
+					end)
+					setText(slot2:Find("name/Text"), HXSet.hxLan(slot6:getConfig("name")))
+					setGray(slot2:Find("name"), not slot6:isOwned())
+					setText(slot2:Find("from/Text"), slot6:getConfig("gain_by"))
+
+					return
+				end
+
+				assert(false, "logic error")
 			end
 		end
 	end)

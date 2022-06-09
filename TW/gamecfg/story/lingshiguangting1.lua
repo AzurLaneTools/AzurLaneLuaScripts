@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你有所不知……陛下和我一直在负责瓦隆之门的改造工作，使其可以满足隐蔽运行的需求。",
+			say = "你有所不知……陛下和我一直在负责阿瓦隆之门的改造工作，使其可以满足隐蔽运行的需求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

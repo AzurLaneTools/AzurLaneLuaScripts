@@ -30,6 +30,8 @@ slot2 = {
 
 		if getProxy(ChapterProxy).mapEliteFleetCache then
 			for slot6, slot7 in pairs(slot1.mapEliteFleetCache) do
+				assert(uv0.expedition_data_by_map[slot6], "Missing Map Config " .. (slot6 or "NIL"))
+
 				if uv0.expedition_data_by_map[slot6].on_activity == 0 or checkExist(slot2:getActivityById(slot8), {
 					"isEnd"
 				}) == false then
@@ -124,7 +126,11 @@ function slot1.GetShipFlag(slot0, slot1, slot2, slot3)
 			return _.any(slot0.extraInfo[slot2][slot3] or {}, function (slot0)
 				return slot0 == uv0
 			end)
+		else
+			assert(false, "flagName:" .. slot2 .. " type error")
 		end
+	else
+		assert(false, "info type error")
 	end
 end
 

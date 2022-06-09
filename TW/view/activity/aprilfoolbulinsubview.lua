@@ -17,7 +17,8 @@ function slot0.OnInit(slot0)
 		return
 	end
 
-	slot2 = pg.activity_event_picturepuzzle[slot1.id]
+	assert(pg.activity_event_picturepuzzle[slot1.id], "Can't Find activity_event_picturepuzzle 's ID : " .. slot1.id)
+
 	slot0.bulin = slot0:findTF("bulin")
 
 	onButton(slot0, slot0.bulin, function ()
@@ -29,6 +30,7 @@ function slot0.OnInit(slot0)
 			callback = function ()
 				slot0 = uv0.awards[table.indexof(uv0.pickup_picturepuzzle, uv1)]
 
+				assert(slot0, "Cant Find Award of PieceID " .. uv1)
 				uv2:emit(BaseUI.ON_ACHIEVE, {
 					{
 						type = slot0[1],

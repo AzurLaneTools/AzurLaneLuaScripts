@@ -226,8 +226,11 @@ function slot0.register(slot0)
 end
 
 function slot0.setCommander(slot0)
+	assert(slot0.contextData.commanderId, "commander id not exist")
+
 	slot2 = getProxy(CommanderProxy):getCommanderById(slot0.contextData.commanderId)
 
+	assert(slot2, "commander not exist" .. slot0.contextData.commanderId)
 	slot0:markFleet(slot2)
 	slot0.viewComponent:setCommander(slot2)
 end

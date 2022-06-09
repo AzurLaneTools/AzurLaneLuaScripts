@@ -31,6 +31,7 @@ slot0.Tec_Ship_Gift_Arg = {
 slot0.CUR_PACKET_ID = 4006
 
 function slot0.Ctor(slot0)
+	assert(false, "does not call this function, use Create instead")
 end
 
 function slot0.Create(slot0, slot1)

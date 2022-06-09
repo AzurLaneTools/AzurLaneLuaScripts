@@ -19,6 +19,8 @@ function slot0.Switch(slot0, slot1, slot2)
 		-- Nothing
 	elseif not slot1 and slot3 == slot2 then
 		slot0:Clear()
+	else
+		assert(false)
 	end
 end
 

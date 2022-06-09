@@ -4,6 +4,10 @@ slot2 = class("LuaObPool")
 pg.LuaObPool = slot2
 
 function slot2.Ctor(slot0, slot1, slot2, slot3)
+	assert(slot1.Init, "template should have func Init")
+	assert(slot1.Recycle, "template should have func Recycle")
+	assert(slot1.Dispose, "template should have func Dispose")
+
 	slot0.baseClass = slot1
 	slot0.info = slot2
 	slot0.list = {}

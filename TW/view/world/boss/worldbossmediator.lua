@@ -10,8 +10,57 @@ slot0.GET_RANK_CNT = "WorldBossMediator:GET_RANK_CNT"
 slot0.UPDATE_CACHE_BOSS_HP = "WorldBossMediator:UPDATE_CACHE_BOSS_HP"
 slot0.GO_META = "WorldBossMediator:GO_META"
 slot0.FETCH_RANK_FORMATION = "WorldBossMediator:FETCH_RANK_FORMATION"
+slot0.ON_META_AWARD_PREVIEW = "WorldBossMediator:ON_META_AWARD_PREVIEW"
+slot0.ON_SWITCH_ARCHIVES = "WorldBossMediator:ON_SWITCH_ARCHIVES"
+slot0.ON_ACTIVE_ARCHIVES_BOSS = "WorldBossMediator:ON_ACTIVE_ARCHIVES_BOSS"
+slot0.ON_ARCHIVES_BOSS_AUTO_BATTLE = "WorldBossMediator:ON_ARCHIVES_BOSS_AUTO_BATTLE"
+slot0.ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE = "WorldBossMediator:ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE"
+slot0.ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER = "WorldBossMediator:ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE, function (slot0, slot1)
+		uv0:sendNotification(GAME.WORLD_ARCHIVES_BOSS_STOP_AUTO_BATTLE, {
+			id = slot1,
+			type = WorldBossConst.STOP_AUTO_BATTLE_MANUAL
+		})
+	end)
+	slot0:bind(uv0.ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER, function (slot0, slot1)
+		uv0:sendNotification(GAME.WORLD_ARCHIVES_BOSS_STOP_AUTO_BATTLE, {
+			id = slot1,
+			type = WorldBossConst.STOP_AUTO_BATTLE_TIMEOVER
+		})
+	end)
+	slot0:bind(uv0.ON_ARCHIVES_BOSS_AUTO_BATTLE, function (slot0, slot1)
+		uv0:sendNotification(GAME.WORLD_ARCHIVES_BOSS_AUTO_BATTLE, {
+			id = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_ACTIVE_ARCHIVES_BOSS, function (slot0)
+		uv0:sendNotification(GAME.WORLD_ACTIVE_WORLD_BOSS, {
+			id = nowWorld():GetBossProxy():GetArchivesId(),
+			type = WorldBossConst.BOSS_TYPE_ARCHIVES
+		})
+	end)
+	slot0:bind(uv0.ON_ACTIVE_BOSS, function (slot0, slot1)
+		uv0:sendNotification(GAME.WORLD_ACTIVE_WORLD_BOSS, {
+			id = slot1,
+			type = WorldBossConst.BOSS_TYPE_CURR
+		})
+	end)
+	slot0:bind(uv0.ON_SWITCH_ARCHIVES, function (slot0, slot1)
+		uv0:sendNotification(GAME.SWITCH_WORLD_BOSS_ARCHIVES, {
+			id = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_META_AWARD_PREVIEW, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = ArchivesMetaPTAwardPreviewLayer,
+			mediator = ArchivesMetaPTAwardPreviewMediator,
+			data = {
+				metaProgressVO = slot1
+			}
+		}))
+	end)
 	slot0:bind(uv0.FETCH_RANK_FORMATION, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.WORLD_BOSS_GET_FORMATION, {
 			bossId = slot2,
@@ -22,13 +71,6 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
 			autoOpenSyn = true,
 			autoOpenShipConfigID = slot1 * 10 + 1
-		})
-	end)
-	slot0:bind(uv0.ON_ACTIVE_BOSS, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.WORLD_ACTIVE_WORLD_BOSS, {
-			cmd = 1,
-			activity_id = slot1,
-			arg1 = slot2
 		})
 	end)
 	slot0:bind(uv0.ON_SELF_BOSS_OVERTIME, function (slot0)
@@ -91,7 +133,7 @@ end
 
 function slot0.updateBossProxy(slot0)
 	if nowWorld():GetBossProxy() and not slot2:IsOpen() then
-		triggerButton(slot0.viewComponent.backBtn)
+		slot0.viewComponent:emit(BaseUI.ON_BACK)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
@@ -104,9 +146,9 @@ function slot0.updateBossProxy(slot0)
 	end
 
 	if WorldBossScene.inOtherBossBattle or slot0.contextData.worldBossId then
-		triggerToggle(slot0.viewComponent.switchBtn, false)
+		slot0.viewComponent:SwitchPage(WorldBossScene.PAGE_OTHER)
 	else
-		triggerToggle(slot0.viewComponent.switchBtn, true)
+		slot0.viewComponent:SwitchPage(WorldBossScene.PAGE_SELF)
 	end
 end
 
@@ -116,7 +158,11 @@ function slot0.listNotificationInterests(slot0)
 		GAME.WORLD_BOSS_SUPPORT_DONE,
 		GAME.WORLD_BOSS_SUBMIT_AWARD_DONE,
 		GAME.REMOVE_LAYERS,
-		GAME.WORLD_BOSS_GET_FORMATION_DONE
+		GAME.WORLD_BOSS_GET_FORMATION_DONE,
+		GAME.SWITCH_WORLD_BOSS_ARCHIVES_DONE,
+		GAME.WORLD_ARCHIVES_BOSS_STOP_AUTO_BATTLE_DONE,
+		GAME.WORLD_ARCHIVES_BOSS_AUTO_BATTLE_DONE,
+		GAME.GET_META_PT_AWARD_DONE
 	}
 end
 
@@ -136,6 +182,16 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.WORLD_BOSS_GET_FORMATION_DONE then
 		slot0.viewComponent:OnShowFormationPreview(slot3.ships)
+	elseif slot2 == GAME.SWITCH_WORLD_BOSS_ARCHIVES_DONE then
+		slot0.viewComponent:OnSwitchArchives()
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_switch_archives_success"))
+	elseif slot2 == GAME.WORLD_ARCHIVES_BOSS_STOP_AUTO_BATTLE_DONE then
+		slot0.viewComponent:OnAutoBattleResult(slot3)
+	elseif slot2 == GAME.WORLD_ARCHIVES_BOSS_AUTO_BATTLE_DONE then
+		slot0.viewComponent:OnAutoBattleStart(slot3)
+	elseif slot2 == GAME.GET_META_PT_AWARD_DONE then
+		slot0.viewComponent:OnGetMetaAwards()
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	end
 end
 

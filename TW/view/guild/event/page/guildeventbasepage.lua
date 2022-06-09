@@ -3,6 +3,7 @@ slot0 = class("GuildEventBasePage", import("....base.BaseSubView"))
 function slot0.Show(slot0, slot1, slot2, slot3)
 	slot0:UpdateData(slot1, slot2, slot3)
 	uv0.super.Show(slot0)
+	assert(slot0._tf)
 
 	slot4 = pg.UIMgr
 	slot4 = slot4:GetInstance()
@@ -32,6 +33,8 @@ function slot0.Hide(slot0, slot1)
 		uv0.inAnim = false
 
 		uv1.super.Hide(uv0)
+		assert(uv0._tf)
+		assert(uv0._parentTf)
 		pg.UIMgr:GetInstance():UnblurPanel(uv0._tf, uv0._parentTf)
 
 		if not uv2 and uv0.exitCallback then

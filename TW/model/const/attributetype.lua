@@ -76,6 +76,8 @@ function slot0.EliteConditionCompare(slot0, slot1, slot2)
 		return slot2 <= slot1
 	elseif slot0 == -2 then
 		return slot1 <= slot2
+	else
+		assert(false, "compare type error")
 	end
 end
 

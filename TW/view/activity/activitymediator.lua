@@ -287,8 +287,11 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:bind(uv0.FINISH_ACTIVITY_PERMANENT, function (slot0)
+		slot1 = getProxy(ActivityPermanentProxy):getDoingActivity()
+
+		assert(slot1:canPermanentFinish(), "error permanent activity finish")
 		uv0:sendNotification(GAME.ACTIVITY_PERMANENT_FINISH, {
-			activity_id = getProxy(ActivityPermanentProxy):getDoingActivity().id
+			activity_id = slot1.id
 		})
 	end)
 	slot0:bind(uv0.SHARE_TASK_DONE, function (slot0, slot1)

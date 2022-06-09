@@ -98,6 +98,8 @@ function isa(slot0, slot1)
 		if slot2 == slot1 then
 			return true
 		else
+			assert(slot2 ~= getmetatable(slot2), "Loop metatable")
+
 			slot2 = getmetatable(slot2)
 		end
 	end
@@ -221,6 +223,8 @@ function tostringex(slot0, slot1)
 end
 
 function DecorateClass(slot0, slot1)
+	assert(slot0, "Need a Base Class")
+
 	slot2 = setmetatable({}, {
 		__index = function (slot0, slot1)
 			return uv0[slot1] or uv1[slot1]

@@ -20,12 +20,15 @@ function slot1.SetGO(slot0, slot1)
 end
 
 function slot1.GetCldBoxSize(slot0)
+	assert(false, slot0.__name .. ".GetCldBoxSize: this function should be override!!!")
 end
 
 function slot1.GetCldBox(slot0)
+	assert(false, slot0.__name .. ".GetCldBox: this function should be override!!!")
 end
 
 function slot1.GetCldData(slot0)
+	assert(false, slot0.__name .. ".GetCldData: this function should be override!!!")
 end
 
 function slot1.GetGOPosition(slot0)

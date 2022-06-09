@@ -59,6 +59,8 @@ function slot0.GetPicturePuzzleIds(slot0)
 		return nil
 	end
 
+	assert(slot1, "Can't Find activity_event_picturepuzzle 's ID : " .. (slot0 or "NIL"))
+
 	slot2 = Clone(slot1.pickup_picturepuzzle)
 
 	table.insertto(slot2, slot1.drop_picturepuzzle)

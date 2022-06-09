@@ -84,6 +84,8 @@ function slot3.onTrigger(slot0, slot1, slot2, slot3)
 	end
 
 	for slot8, slot9 in ipairs(slot4) do
+		assert(type(slot9[slot1]) == "function", "fleet buff效果的触发函数缺失,buff id:>>" .. slot0._id .. "<<, trigger:>>" .. slot1 .. "<<")
+
 		if slot9:IsActive() then
 			slot9:NotActive()
 			slot9:Trigger(slot1, slot2, slot0, slot3)

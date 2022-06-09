@@ -67,6 +67,8 @@ function slot0.Battle.UnitState.ChangeState(slot0, slot1, slot2)
 		slot0._currentState:AddDiveState(slot0)
 	elseif slot1 == slot0.STATE_DIVELEFT then
 		slot0._currentState:AddDiveLeftState(slot0)
+	else
+		assert(false, slot0._target.__name .. "'s state machine, unexcepted state: " .. slot1)
 	end
 end
 

@@ -28,6 +28,8 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.UpdateObject(slot0, slot1)
+	assert(slot1.GetModelAngles and slot1.UpdateModelAngles and slot1.UpdateModelAction)
+
 	slot0.wsObject = slot1
 end
 
@@ -82,6 +84,9 @@ function slot0.MoveStep(slot0)
 
 	slot7 = slot0.theme:GetLinePosition(slot3.row, slot3.column)
 	slot8 = slot0.theme:GetLinePosition(slot4.row, slot4.column)
+
+	assert(slot4.duration, "without move duration")
+
 	slot0.twId = LeanTween.value(slot1.transform.gameObject, 0, 1, slot4.duration):setOnUpdate(System.Action_float(function (slot0)
 		slot2, slot3 = uv2:CalcUpOffset(uv2.step, slot0)
 		uv3.transform.localPosition = Vector3.Lerp(uv0, uv1, slot0) + slot2

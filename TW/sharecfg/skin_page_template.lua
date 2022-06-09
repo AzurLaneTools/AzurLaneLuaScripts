@@ -102,6 +102,18 @@ pg.skin_page_template = {
 		res = "xixuegui",
 		english_name = "VAMPIRE NIGHT"
 	},
+	[9997] = {
+		id = 9997,
+		name = "改造",
+		res = "gaizao",
+		english_name = "Retrofit"
+	},
+	[9998] = {
+		id = 9998,
+		name = "誓约",
+		res = "shiyue",
+		english_name = "Oath"
+	},
 	[9999] = {
 		id = 9999,
 		name = "其他",
@@ -126,6 +138,8 @@ pg.skin_page_template = {
 		16,
 		17,
 		18,
+		9997,
+		9998,
 		9999
 	}
 }

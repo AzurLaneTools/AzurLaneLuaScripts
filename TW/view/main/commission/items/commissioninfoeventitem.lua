@@ -23,6 +23,7 @@ function slot0.Init(slot0)
 end
 
 function slot0.GetList(slot0)
+	assert(slot0.list, "why ???")
 	table.sort(slot0.list, function (slot0, slot1)
 		return slot1.state < slot0.state
 	end)
@@ -68,7 +69,10 @@ end
 
 function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
 	if getProxy(EventProxy).maxFleetNums < slot1 then
-		setText(slot3:Find("lock/Text"), i18n("commission_no_open") .. "\n" .. i18n("commission_open_tip", slot0:GetChapterByCount(slot1).chapter_name))
+		slot6 = slot0:GetChapterByCount(slot1)
+
+		assert(slot6, slot1)
+		setText(slot3:Find("lock/Text"), i18n("commission_no_open") .. "\n" .. i18n("commission_open_tip", slot6.chapter_name))
 	else
 		slot0:UpdateEventInfo(slot3, slot2)
 	end

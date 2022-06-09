@@ -114,6 +114,8 @@ function slot0.Reset(slot0)
 end
 
 function slot0.ActionInvoke(slot0, slot1, ...)
+	assert(slot0[slot1], "func not exist >>>" .. slot1)
+
 	slot0._funcQueue[#slot0._funcQueue + 1] = {
 		funcName = slot1,
 		func = slot0[slot1],
@@ -165,6 +167,8 @@ function slot0.isShowing(slot0)
 end
 
 function slot0.findTF(slot0, slot1, slot2)
+	assert(slot0._tf, "transform should exist")
+
 	return findTF(slot2 or slot0._tf, slot1)
 end
 

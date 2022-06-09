@@ -37,6 +37,8 @@ function slot0.GetChannelSprite(slot0)
 	elseif slot0 == uv0.ChannelWorldBoss then
 		return "worldboss"
 	end
+
+	assert(false)
 end
 
 slot0.EmojiCommon = 0
@@ -62,6 +64,8 @@ function slot0.GetEmojiSprite(slot0)
 	elseif slot0 == uv0.EmojiPixel then
 		return "tab_pixel"
 	end
+
+	assert(false)
 end
 
 slot0.EmojiCode = "{777#code#777}"

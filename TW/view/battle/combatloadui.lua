@@ -108,10 +108,14 @@ function slot0.Preload(slot0)
 					end
 				end
 
-				slot19 = slot13.skinId
+				if slot13.GetSpWeapon and slot13:GetSpWeapon() then
+					slot1:AddPreloadResource(slot1.GetSpWeaponResource(slot15:GetConfigID(), slot0.contextData.system))
+				end
 
-				for slot19, slot20 in pairs(ys.Battle.BattleDataFunction.GetBuffBulletRes(slot12, slot13.skills, slot0.contextData.system, slot19)) do
-					slot1:AddPreloadResource(slot20)
+				slot20 = slot13.skinId
+
+				for slot20, slot21 in pairs(ys.Battle.BattleDataFunction.GetBuffBulletRes(slot12, slot13.skills, slot0.contextData.system, slot20)) do
+					slot1:AddPreloadResource(slot21)
 				end
 			end
 		end
@@ -263,7 +267,11 @@ function slot0.Preload(slot0)
 		end
 
 		if slot0.contextData.rivalId then
-			for slot11, slot12 in ipairs(getProxy(MilitaryExerciseProxy):getRivalById(slot0.contextData.rivalId):getShips()) do
+			slot6 = getProxy(MilitaryExerciseProxy):getRivalById(slot0.contextData.rivalId)
+
+			assert(slot6, "rival id >>>> " .. slot0.contextData.rivalId)
+
+			for slot11, slot12 in ipairs(slot6:getShips()) do
 				table.insert(slot3, slot12)
 			end
 		end
@@ -388,10 +396,15 @@ function slot0.Preload(slot0)
 				end
 			end
 
-			slot15 = slot9.skinId
+			if slot9.GetSpWeapon and slot9:GetSpWeapon() then
+				slot1:AddPreloadResource(slot1.GetSpWeaponResource(slot11:GetConfigID(), slot0.contextData.system))
+			end
 
-			for slot15, slot16 in pairs(ys.Battle.BattleDataFunction.GetBuffBulletRes(slot9.configId, slot9.skills, slot0.contextData.system, slot15)) do
-				slot1:AddPreloadResource(slot16)
+			slot16 = slot9.skinId
+			slot17 = slot11
+
+			for slot16, slot17 in pairs(ys.Battle.BattleDataFunction.GetBuffBulletRes(slot9.configId, slot9.skills, slot0.contextData.system, slot16, slot17)) do
+				slot1:AddPreloadResource(slot17)
 			end
 
 			if slot9.buffs then

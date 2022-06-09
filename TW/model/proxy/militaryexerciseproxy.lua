@@ -29,6 +29,8 @@ function slot0.register(slot0)
 end
 
 function slot0.addSeasonInfo(slot0, slot1)
+	assert(isa(slot1, SeasonInfo), "seasonInfo be an instance of SeasonInfo")
+
 	slot0.seasonInfo = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inExercise")
@@ -101,6 +103,8 @@ function slot0.remove(slot0)
 end
 
 function slot0.updateSeasonInfo(slot0, slot1)
+	assert(isa(slot1, SeasonInfo), "seasonInfo be an instance of SeasonInfo")
+
 	slot0.seasonInfo = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inExercise")
@@ -159,6 +163,8 @@ function slot0.reduceExerciseCount(slot0)
 end
 
 function slot0.updateArenaRankLsit(slot0, slot1)
+	assert(slot1, "should exist arenaRankLsit")
+
 	slot0.arenaRankLsit = slot1
 
 	slot0:sendNotification(uv0.ARENARANK_UPDATED, Clone(slot1))

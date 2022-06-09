@@ -127,12 +127,15 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.GetDownloadGroup(slot0)
+	assert(false, "overwrite me !!!")
 end
 
 function slot0.GetLocaltion(slot0, slot1, slot2)
+	assert(false, "overwrite me !!!")
 end
 
 function slot0.GetTitle(slot0)
+	assert(false, "overwrite me !!!")
 end
 
 return slot0

@@ -37,9 +37,15 @@ function slot0.buildText(slot0)
 		slot1 = i18n("guild_battle_log", slot2, slot0.name, slot3)
 	elseif slot0.eventType == GuildConst.TECHNOLOGY then
 		slot4 = pg.guild_technology_template[slot3]
+
+		assert(slot4, slot3)
+
 		slot1 = i18n("guild_tech_log", slot2, slot0.name, slot4.contribution_consume, slot4.name, level)
 	elseif slot0.eventType == GuildConst.TECHNOLOGY_OVER then
 		slot4 = pg.guild_technology_template[slot3]
+
+		assert(slot4, slot3)
+
 		slot5 = slot4.contribution_consume
 		slot1 = i18n("guild_tech_over_log", slot2, slot0.name, slot4.name)
 	elseif slot0.eventType == GuildConst.SWITCH_TOGGLE then

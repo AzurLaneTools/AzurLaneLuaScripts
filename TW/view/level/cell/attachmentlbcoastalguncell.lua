@@ -20,8 +20,8 @@ function slot0.Update(slot0)
 		slot0.dead = nil
 
 		slot0:ClearLoader()
+		assert(pg.land_based_template[slot1.attachmentId], "land_based_template not exist: " .. slot1.attachmentId)
 
-		slot3 = pg.land_based_template[slot1.attachmentId]
 		slot4 = slot0:GetLoader()
 
 		slot4:GetPrefab("leveluiview/Tpl_Enemy", "Tpl_Enemy", function (slot0)
@@ -44,8 +44,8 @@ function slot0.Update(slot0)
 		slot0.enemy = nil
 
 		slot0:ClearLoader()
+		assert(pg.land_based_template[slot1.attachmentId], "land_based_template not exist: " .. slot1.attachmentId)
 
-		slot3 = pg.land_based_template[slot1.attachmentId]
 		slot4 = slot0:GetLoader()
 
 		slot4:GetPrefab("leveluiview/Tpl_Dead", "Tpl_Dead", function (slot0)

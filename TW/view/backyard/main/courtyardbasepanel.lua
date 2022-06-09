@@ -130,6 +130,7 @@ function slot0.OnExitEditMode(slot0)
 end
 
 function slot0.GetUIName(slot0)
+	assert(false)
 end
 
 function slot0.OnRegister(slot0)

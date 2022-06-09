@@ -54,6 +54,9 @@ end
 
 function slot0.Setup(slot0, slot1)
 	slot0.id = slot1
+
+	assert(pg.world_chapter_random[slot0.id], "world_chapter_random not exist: " .. tostring(slot0.id))
+
 	slot0.config = setmetatable({}, {
 		__index = function (slot0, slot1)
 			return uv0:GetConfig(slot1)
@@ -71,8 +74,11 @@ end
 
 function slot0.GetConfig(slot0, slot1)
 	slot3 = pg.world_chapter_template[slot0.gid]
+	slot4 = pg.world_chapter_random[slot0.id] and slot2[slot1] or slot3 and slot3[slot1] or nil
 
-	return pg.world_chapter_random[slot0.id] and slot2[slot1] or slot3 and slot3[slot1] or nil
+	assert(slot4 ~= nil, "can not find " .. slot1 .. " in WorldMap " .. slot0.id)
+
+	return slot4
 end
 
 slot0.FactionSelf = 0
@@ -80,7 +86,10 @@ slot0.FactionEnemy = 1
 
 function slot0.UpdateGridId(slot0, slot1)
 	slot0.gid = slot1
+	slot6 = slot0.gid
+	slot5 = tostring(slot6)
 
+	assert(pg.world_chapter_template[slot0.gid], "world_chapter_template not exist: " .. slot5)
 	slot0:DisposeTheme()
 	slot0:DisposeGrid()
 	slot0:DisposePort()
@@ -969,7 +978,11 @@ function slot0.WriteBack(slot0, slot1, slot2)
 	end
 
 	if slot2.statistics.submarineAid then
-		for slot10, slot11 in ipairs(slot0:GetSubmarineFleet():GetTeamShips(TeamType.Submarine, true)) do
+		slot5 = slot0:GetSubmarineFleet()
+
+		assert(slot5, "submarine fleet not exist.")
+
+		for slot10, slot11 in ipairs(slot5:GetTeamShips(TeamType.Submarine, true)) do
 			table.insert(slot4, slot11)
 		end
 
@@ -987,8 +1000,7 @@ function slot0.WriteBack(slot0, slot1, slot2)
 			slot0:Rebirth()
 		end
 	end)
-
-	slot6 = slot0:GetCell(slot3.row, slot3.column):GetStageEnemy()
+	assert(slot0:GetCell(slot3.row, slot3.column):GetStageEnemy())
 
 	if slot1 then
 		slot6:UpdateFlag(1)
@@ -1112,6 +1124,8 @@ function slot0.CountEventEffectKeys(slot0, slot1)
 end
 
 function slot0.EventEffectOpenFOV(slot0, slot1)
+	assert(slot1.effect_type == WorldMapAttachment.EffectEventFOV)
+
 	slot2, slot3 = unpack(slot1.effect_paramater)
 	slot3 = slot3 >= 0 and slot3 or math.abs(slot3) - 1
 
@@ -1252,6 +1266,8 @@ function slot0.IsUnlockFleetMode(slot0)
 		return true
 	elseif slot0.config.move_switch == 0 then
 		return false
+	else
+		assert(false, "config error")
 	end
 end
 
@@ -1466,6 +1482,8 @@ function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 		end)
 	elseif slot4 == FleetSkill.TriggerInSubTeam then
 		return true
+	else
+		assert(false, "invalid trigger type: " .. slot4)
 	end
 end
 
@@ -1485,6 +1503,8 @@ function slot0.OnUpdateAttachmentExist(slot0, slot1, slot2, slot3)
 			slot6 = slot6 + 1
 		elseif slot1 == WorldMapCell.EventRemoveAttachment then
 			slot6 = slot6 - 1
+		else
+			assert(false, "listener event error: " .. slot1)
 		end
 
 		slot0.centerCellFOV = {
@@ -1576,6 +1596,8 @@ function slot0.GetBuffList(slot0, slot1, slot2)
 		else
 			return {}
 		end
+	else
+		assert(false, string.format("faction error: $d", slot1))
 	end
 end
 
@@ -1584,22 +1606,28 @@ function slot0.FlushFaction(slot0, slot1)
 		underscore.each(slot0:GetFleets(), function (slot0)
 			slot0:DispatchEvent(WorldMapFleet.EventUpdateBuff)
 		end)
-	elseif slot1 == uv0.FactionEnemy then
-		underscore.each(slot0:FindEnemys(), function (slot0)
-			uv0[WorldMapCell.GetName(slot0.row, slot0.column)] = true
-		end)
-
-		slot6 = WorldMapAttachment.TypeEvent
-
-		underscore.each(slot0:FindAttachments(slot6), function (slot0)
-			if slot0:GetSpEventType() == WorldMapAttachment.SpEventEnemy then
+	else
+		if slot1 == uv0.FactionEnemy then
+			underscore.each(slot0:FindEnemys(), function (slot0)
 				uv0[WorldMapCell.GetName(slot0.row, slot0.column)] = true
-			end
-		end)
+			end)
 
-		for slot6 in pairs({}) do
-			slot0.cells[slot6]:DispatchEvent(uv0.EventUpdateMapBuff)
+			slot6 = WorldMapAttachment.TypeEvent
+
+			underscore.each(slot0:FindAttachments(slot6), function (slot0)
+				if slot0:GetSpEventType() == WorldMapAttachment.SpEventEnemy then
+					uv0[WorldMapCell.GetName(slot0.row, slot0.column)] = true
+				end
+			end)
+
+			for slot6 in pairs({}) do
+				slot0.cells[slot6]:DispatchEvent(uv0.EventUpdateMapBuff)
+			end
+
+			return
 		end
+
+		assert(false, string.format("faction error: $d", slot1))
 	end
 end
 
@@ -1614,7 +1642,11 @@ function slot0.GetBattleLuaBuffs(slot0, slot1, slot2)
 end
 
 function slot0.UpdateFleetLocation(slot0, slot1, slot2, slot3)
-	if slot0:GetFleet(slot1).row ~= slot2 or slot4.column ~= slot3 then
+	slot4 = slot0:GetFleet(slot1)
+
+	assert(slot4, "without this fleet : " .. slot1)
+
+	if slot4.row ~= slot2 or slot4.column ~= slot3 then
 		slot0:CheckFleetUpdateFOV(slot4, function ()
 			uv0.row = uv1
 			uv0.column = uv2
@@ -1820,6 +1852,8 @@ function slot0.CanAutoFight(slot0)
 end
 
 function slot0.CkeckTransport(slot0)
+	assert(slot0:IsValid(), "without map info")
+
 	if slot0.config.is_transfer == 0 then
 		return false, i18n("world_transport_disable")
 	end

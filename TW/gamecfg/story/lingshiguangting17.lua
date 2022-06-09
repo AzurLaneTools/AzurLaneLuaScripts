@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是你明天也来能找我聊天的话，可就帮了大忙了哦~",
+			say = "要是你明天也能来找我聊天的话，可就帮了大忙了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

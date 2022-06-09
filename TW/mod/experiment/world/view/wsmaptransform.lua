@@ -11,6 +11,8 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.SetModelOrder(slot0, slot1, slot2)
+	assert(slot0.transform)
+
 	if not GetComponent(slot0.transform, typeof(Canvas)) then
 		setCanvasOverrideSorting(slot0.transform, true)
 	end
@@ -29,6 +31,7 @@ function slot0.SetModelOrder(slot0, slot1, slot2)
 end
 
 function slot0.ClearModelOrder(slot0)
+	assert(slot0.transform)
 	slot0:UnloadModel()
 
 	if slot0.modelOrder then

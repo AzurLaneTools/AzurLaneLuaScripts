@@ -98,6 +98,7 @@ function slot0.init(slot0)
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("item/reset_btn"), function ()
+		assert(uv0.contextData.onResetInfo, "without reset info callback")
 		uv0.contextData.onResetInfo({
 			count = 1,
 			type = DROP_TYPE_WORLD_ITEM,
@@ -357,6 +358,8 @@ function slot0.updateSelectShipHP(slot0, slot1, slot2, slot3)
 			slot6:Regenerate(slot0.itemVO:getItemRegenerate())
 		elseif slot7 == WorldItem.UsageHPRegenerateValue then
 			slot6:RegenerateValue(slot0.itemVO:getItemRegenerate())
+		else
+			assert(false, "world item type error:" .. slot0.itemVO.id)
 		end
 
 		setImageColor(slot4, slot6:IsHpSafe() and Color.New(0.615686274509804, 0.9176470588235294, 0.23529411764705882, 0.6) or Color.New(0.9254901960784314, 0, 0, 0.6))

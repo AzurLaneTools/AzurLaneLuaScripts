@@ -11,7 +11,11 @@ end
 
 function slot0.GetLinkConfig(slot0)
 	if #_.select(pg.activity_link_button.get_id_list_by_name[slot0:GetEventName()] or {}, function (slot0)
-		return pg.TimeMgr.GetInstance():inTime(uv0[slot0].time)
+		if type(uv0[slot0].time) == "table" and slot1[1] and slot1[1] == "default" then
+			return uv1:InActTime(slot1[2])
+		else
+			return pg.TimeMgr.GetInstance():inTime(slot1)
+		end
 	end) > 0 then
 		table.sort(slot4, function (slot0, slot1)
 			return uv0[slot0].order < uv0[slot1].order
@@ -19,8 +23,14 @@ function slot0.GetLinkConfig(slot0)
 
 		return slot2[slot4[1]]
 	end
+end
 
-	return nil
+function slot0.InActTime(slot0, slot1)
+	if slot1 or slot0:GetActivityID() then
+		return getProxy(ActivityProxy):getActivityById(slot2) and not slot3:isEnd()
+	end
+
+	return false
 end
 
 function slot0.InShowTime(slot0)
@@ -73,9 +83,6 @@ function slot0.Register(slot0)
 			uv0:OnClick()
 		end
 	end, SFX_MAIN)
-end
-
-function slot0.CustomOnClick(slot0)
 end
 
 function slot0.OnClick(slot0)
@@ -178,7 +185,16 @@ function slot0.Skip(slot0, slot1)
 	end
 end
 
+function slot0.GetActivityID(slot0)
+	assert(false, "策划配置default类型 必须重写这个方法")
+end
+
+function slot0.CustomOnClick(slot0)
+	assert(false, "策划配置type = 0 这个按钮必须自己定义跳转行为")
+end
+
 function slot0.GetEventName(slot0)
+	assert(false, "overwrite me !!!")
 end
 
 function slot0.OnInit(slot0)

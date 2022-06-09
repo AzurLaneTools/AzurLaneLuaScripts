@@ -27,7 +27,11 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 	slot7 = ActivityConst.ACTIVITY_TYPE_PT_RANK
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
-		slot3[slot9] = slot3[slot8:getConfig("config_id")] or slot2:getResource(slot9) - slot1:getResource(slot9)
+		slot9 = slot8:getConfig("config_id")
+
+		assert(slot9)
+
+		slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
 
 		uv0.UpdateActivity(slot8, slot3[slot9])
 	end
@@ -35,7 +39,11 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 	slot7 = ActivityConst.ACTIVITY_TYPE_BOSS_RANK
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
-		slot3[slot9] = slot3[slot8:getConfig("config_id")] or slot2:getResource(slot9) - slot1:getResource(slot9)
+		slot9 = slot8:getConfig("config_id")
+
+		assert(slot9)
+
+		slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
 
 		uv0.UpdateActivity(slot8, slot3[slot9])
 	end
@@ -51,7 +59,11 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 	slot7 = ActivityConst.ACTIVITY_TYPE_RETURN_AWARD
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
-		slot3[slot10] = slot3[pg.activity_template_headhunting[slot8.id].pt] or slot2:getResource(slot10) - slot1:getResource(slot10)
+		slot9 = pg.activity_template_headhunting[slot8.id]
+
+		assert(slot9)
+
+		slot3[slot10] = slot3[slot9.pt] or slot2:getResource(slot10) - slot1:getResource(slot10)
 
 		uv0.UpdateActivity(slot8, slot3[slot10])
 	end
@@ -59,7 +71,11 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 	slot7 = ActivityConst.ACTIVITY_TYPE_PIZZA_PT
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
-		slot3[slot9] = slot3[slot8:getDataConfig("pt")] or slot2:getResource(slot9) - slot1:getResource(slot9)
+		slot9 = slot8:getDataConfig("pt")
+
+		assert(slot9)
+
+		slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
 
 		uv0.UpdateActivity(slot8, slot3[slot9])
 	end
@@ -68,6 +84,8 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
 		if slot8:getDataConfig("pt") > 0 then
+			assert(slot9)
+
 			slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
 
 			uv0.UpdateActivity(slot8, slot3[slot9])
@@ -97,7 +115,7 @@ function slot0.UpdateActivity(slot0, slot1)
 			slot2:updateActivity(slot0)
 		end
 	elseif slot3 == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
-		slot4 = pg.activity_template_headhunting[slot0.id]
+		assert(pg.activity_template_headhunting[slot0.id])
 
 		if slot1 ~= 0 then
 			slot0.data3 = slot0.data3 + slot1

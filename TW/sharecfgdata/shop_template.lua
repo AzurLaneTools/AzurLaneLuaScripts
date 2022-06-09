@@ -42618,6 +42618,62 @@ _G.pg.base.shop_template[200073] = {
 	}
 }
 
+_G.pg.base.shop_template[200080] = {
+	is_auto_use = 1,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "980钻石购买限时礼包-比翼双飞-台服220609",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200080,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40100
+	},
+	time = {
+		{
+			{
+				2022,
+				6,
+				9
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				6,
+				15
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[200074] = {
 	is_auto_use = 1,
 	resource_type = 14,
@@ -42626,7 +42682,7 @@ _G.pg.base.shop_template[200074] = {
 	desc = "120钻石购买限时攻略补给（新泽西）",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
 	order = 0,
@@ -42682,7 +42738,7 @@ _G.pg.base.shop_template[200075] = {
 	desc = "300钻石购买心智单元礼包（新泽西）",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
 	order = 0,
@@ -42738,7 +42794,7 @@ _G.pg.base.shop_template[200076] = {
 	desc = "500钻石购买家具币礼包（新泽西）",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
 	order = 0,
@@ -42794,7 +42850,7 @@ _G.pg.base.shop_template[200077] = {
 	desc = "980钻石购买限时建造补给（新泽西）",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
 	order = 0,
@@ -42850,7 +42906,7 @@ _G.pg.base.shop_template[200078] = {
 	desc = "1380钻石购买限时建造礼包高级（新泽西）",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
 	order = 0,

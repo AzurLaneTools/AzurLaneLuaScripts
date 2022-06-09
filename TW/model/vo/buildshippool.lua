@@ -7,6 +7,9 @@ slot0.BUILD_POOL_MARK_NEW = "new"
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
+
+	assert(slot1.mark)
+
 	slot0.mark = slot1.mark
 end
 

@@ -180,8 +180,11 @@ function slot0.doOpenBox(slot0)
 	slot3:updateChapterCell(slot6)
 
 	slot2 = bit.bor(slot0.flag, ChapterConst.DirtyAttachment)
+	slot7 = pg.box_data_template[slot6.attachmentId]
 
-	if pg.box_data_template[slot6.attachmentId].type == ChapterConst.BoxStrategy then
+	assert(slot7, "box_data_template not exist: " .. slot6.attachmentId)
+
+	if slot7.type == ChapterConst.BoxStrategy then
 		slot8 = slot7.effect_id
 		slot9 = slot7.effect_arg
 
@@ -346,11 +349,15 @@ function slot0.doBarrier(slot0)
 	slot1 = slot0.flag
 	slot2 = slot0.op
 	slot3 = slot0.chapter
+	slot4 = slot3:getChapterCell(slot2.arg1, slot2.arg2)
+
+	assert(slot4, "cell not exist: " .. slot2.arg1 .. ", " .. slot2.arg2)
+
 	slot6 = _.detect(pg.box_data_template.all, function (slot0)
 		return pg.box_data_template[slot0].type == ChapterConst.BoxBarrier
 	end)
 
-	if slot3:getChapterCell(slot2.arg1, slot2.arg2).attachment ~= ChapterConst.AttachBox or slot4.attachmentId ~= slot6 then
+	if slot4.attachment ~= ChapterConst.AttachBox or slot4.attachmentId ~= slot6 then
 		slot4.attachment = slot5
 		slot4.attachmentId = slot6
 		slot4.flag = ChapterConst.CellFlagDisabled

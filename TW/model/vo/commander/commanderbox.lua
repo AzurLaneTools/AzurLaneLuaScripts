@@ -88,6 +88,8 @@ function slot0.getFetchPrefab(slot0)
 		}
 	end
 
+	assert(slot0.pool)
+
 	return slot0.rarity2Str[slot0.pool:getRarity()] .. "NekoBox4"
 end
 

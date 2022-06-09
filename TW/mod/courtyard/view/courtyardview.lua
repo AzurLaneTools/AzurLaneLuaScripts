@@ -45,6 +45,8 @@ function slot0.LoadUI(slot0, slot1)
 end
 
 function slot0.GetRect(slot0)
+	assert(slot0.storeyModule)
+
 	return slot0.storeyModule.rectTF
 end
 

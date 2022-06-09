@@ -55,7 +55,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 				end
 			end
 		end
-	end, slot7, slot4, nil, slot0._isUpdateAura and slot7 or nil)
+	end, slot7, slot4, nil, slot0._isUpdateAura and slot7 or nil, slot0._isUpdateAura and true or false)
 end
 
 function slot1.Clear(slot0)

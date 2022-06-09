@@ -35,6 +35,8 @@ function slot18()
 	end
 
 	function slot2(slot0, slot1)
+		assert(#slot0 ~= 0 and slot1 <= #slot0)
+
 		slot2 = {}
 		slot3 = 0
 
@@ -167,7 +169,11 @@ function slot21(slot0)
 			end
 		end,
 		Notify = function (slot0, slot1, slot2)
-			for slot7, slot8 in ipairs(slot0.events[slot1]) do
+			slot3 = slot0.events[slot1]
+
+			assert(slot3, slot1)
+
+			for slot7, slot8 in ipairs(slot3) do
 				slot8(slot0.sender, slot2)
 			end
 		end

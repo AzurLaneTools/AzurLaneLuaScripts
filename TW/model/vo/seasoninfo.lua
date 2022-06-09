@@ -77,6 +77,8 @@ function slot0.canExercise(slot0)
 end
 
 function slot0.reduceExerciseCount(slot0)
+	assert(slot0.fightCount > 0, "演习次数必须大于0")
+
 	slot0.fightCount = slot0.fightCount - 1
 end
 

@@ -15,6 +15,7 @@ slot0.ON_AWARD = "BaseUI:ON_AWARD"
 slot0.ON_ACHIEVE = "BaseUI:ON_ACHIEVE"
 slot0.ON_WORLD_ACHIEVE = "BaseUI:ON_WORLD_ACHIEVE"
 slot0.ON_EQUIPMENT = "BaseUI:ON_EQUIPMENT"
+slot0.ON_SPWEAPON = "BaseUI:ON_SPWEAPON"
 slot0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 slot0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
 
@@ -332,10 +333,14 @@ function slot0.detach(slot0, slot1)
 end
 
 function slot0.findGO(slot0, slot1, slot2)
+	assert(slot0._go, "game object should exist")
+
 	return findGO(slot2 or slot0._go, slot1)
 end
 
 function slot0.findTF(slot0, slot1, slot2)
+	assert(slot0._tf, "transform should exist")
+
 	return findTF(slot2 or slot0._tf, slot1)
 end
 

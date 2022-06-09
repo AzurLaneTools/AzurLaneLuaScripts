@@ -5,6 +5,7 @@ slot0.GO_SCENE = "GO_SCENE"
 function slot0.register(slot0)
 	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD)
 
+	assert(slot2, "Activity Type ACTIVITY_TYPE_SHOP_PROGRESS_REWARD Not exist")
 	slot0:TransActivity2ShopData(slot2)
 	slot0:AddSpecialList(slot2)
 	slot0:bind(uv0.ON_ACT_SHOPPING, function (slot0, slot1, slot2, slot3, slot4)

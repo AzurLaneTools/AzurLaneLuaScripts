@@ -2,35 +2,33 @@ slot0 = class("ActiveWorldBossCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-
-	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) or slot4:isEnd() then
-		return
-	end
-
-	print("active boss : ", slot2.arg1)
-
+	slot4 = slot2.type
 	slot5 = pg.ConnectionMgr.GetInstance()
 
-	slot5:Send(11202, {
-		activity_id = slot2.activity_id,
-		cmd = slot2.cmd,
-		arg1 = slot2.arg1,
-		arg2 = slot2.arg2
-	}, 11203, function (slot0)
+	slot5:Send(34521, {
+		template_id = slot2.id
+	}, 34522, function (slot0)
 		if slot0.result == 0 then
-			if uv0.cmd == 1 then
-				uv1.data1 = uv1.data1 - pg.gameset.joint_boss_ticket.description[uv1.data2 + 1]
+			slot1 = nowWorld():GetBossProxy()
 
-				if uv1.data3 > 0 then
-					uv1.data3 = uv1.data3 - 1
-				else
-					uv1.data2 = uv1.data2 + 1
+			slot1:RemoveSelfBoss()
+
+			slot2 = WorldBoss.New()
+
+			slot2:Setup(slot0.boss, getProxy(PlayerProxy):getData())
+			slot2:UpdateBossType(WorldBoss.BOSS_TYPE_SELF)
+			slot2:SetJoinTime(pg.TimeMgr.GetInstance():GetServerTime())
+
+			if slot1.isSetup then
+				slot1:ClearRank(slot2.id)
+				slot1:UpdateCacheBoss(slot2)
+
+				if uv0 == WorldBossConst.BOSS_TYPE_CURR then
+					slot1:ConsumeSummonPt(WorldBossConst.GetCurrBossConsume())
+				elseif uv0 == WorldBossConst.BOSS_TYPE_ARCHIVES then
+					slot1:ConsumeSummonPtOld(WorldBossConst.GetAchieveBossConsume())
 				end
-
-				print(slot1, "activity  boss", uv1.data3, "data 2:", uv1.data2)
 			end
-
-			uv2:updateActivity(uv1)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

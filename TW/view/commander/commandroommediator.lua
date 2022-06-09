@@ -167,6 +167,8 @@ function slot0.markFleet(slot0)
 	slot2 = getProxy(CommanderProxy):getData()
 	slot3 = getProxy(FleetProxy)
 
+	assert(slot0.contextData.fleetType)
+
 	if CommandRoomScene.FLEET_TYPE_COMMON == slot0.contextData.fleetType then
 		for slot8, slot9 in pairs(slot3:getData()) do
 			for slot13, slot14 in pairs(slot9:getCommanders()) do
@@ -176,7 +178,9 @@ function slot0.markFleet(slot0)
 			end
 		end
 	elseif CommandRoomScene.FLEET_TYPE_ACTBOSS == slot0.contextData.fleetType then
-		for slot9, slot10 in pairs(slot3:getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id]) do
+		assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot4:isEnd())
+
+		for slot9, slot10 in pairs(slot3:getActivityFleets()[slot4.id]) do
 			slot11 = slot10:isSubmarineFleet()
 			slot12 = slot10.id % 10
 
@@ -187,6 +191,8 @@ function slot0.markFleet(slot0)
 			end
 		end
 	elseif CommandRoomScene.FLEET_TYPE_HARD_CHAPTER == slot0.contextData.fleetType then
+		assert(slot0.contextData.chapterId)
+
 		for slot9, slot10 in pairs(getProxy(ChapterProxy):getChapterById(slot0.contextData.chapterId):getEliteFleetCommanders()) do
 			for slot14, slot15 in pairs(slot10) do
 				slot2[slot15].sub = false
@@ -195,7 +201,9 @@ function slot0.markFleet(slot0)
 			end
 		end
 	elseif CommandRoomScene.FLEET_TYPE_CHALLENGE == slot0.contextData.fleetType then
-		for slot9, slot10 in pairs(slot3:getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id]) do
+		assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot4:isEnd())
+
+		for slot9, slot10 in pairs(slot3:getActivityFleets()[slot4.id]) do
 			slot11 = slot10:isSubmarineFleet()
 			slot12 = slot10.id % 10
 
@@ -206,7 +214,11 @@ function slot0.markFleet(slot0)
 			end
 		end
 	elseif CommandRoomScene.FLEET_TYPE_GUILDBOSS == slot0.contextData.fleetType then
-		for slot11, slot12 in pairs(getProxy(GuildProxy):getData():GetActiveEvent():GetBossMission():GetFleets()) do
+		slot5 = getProxy(GuildProxy):getData():GetActiveEvent()
+
+		assert(slot5)
+
+		for slot11, slot12 in pairs(slot5:GetBossMission():GetFleets()) do
 			slot14 = not (slot0.contextData.fleets[slot11] or slot12):IsMainFleet()
 
 			for slot18, slot19 in pairs(slot13:getCommanders()) do

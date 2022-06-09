@@ -148,8 +148,8 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.autoToggle, ys.Battle.BattleState.IsAutoBotActive(SYSTEM_WORLD))
 
 	slot2 = slot0:GetCurrentAttachment():GetBattleStageId()
-	slot3 = pg.expedition_data_template[slot2]
 
+	assert(pg.expedition_data_template[slot2], "expedition_data_template not exist: " .. slot2)
 	onNextTick(function ()
 		uv0:uiStartAnimating()
 	end)
@@ -234,9 +234,14 @@ slot4 = "92fc63"
 
 function slot0.UpdateInformationtab(slot0)
 	slot1, slot2 = slot0:GetCurrentAttachment()
+	slot3 = slot1:GetBattleStageId()
+	slot4 = pg.world_expedition_data[slot3]
+
+	assert(slot4, "world_expedition_data not exist: " .. slot3)
+
 	slot5 = {}
 
-	for slot9, slot10 in ipairs(pg.world_expedition_data[slot1:GetBattleStageId()].award_display_world) do
+	for slot9, slot10 in ipairs(slot4.award_display_world) do
 		if slot2 == slot10[1] then
 			slot5 = slot10[2]
 		end

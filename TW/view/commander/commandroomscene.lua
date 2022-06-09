@@ -832,18 +832,22 @@ function slot0.updateCommanders(slot0)
 					} or {
 						slot1.id < slot0.id
 					})[1]
-				elseif slot0["get" .. uv1.sortData](slot0) == slot1["get" .. uv1.sortData](slot1) then
-					return (uv1.asc and {
-						slot0.configId < slot1.configId
-					} or {
-						slot1.configId < slot0.configId
-					})[1]
 				else
-					return (uv1.asc and {
-						slot6 < slot7
-					} or {
-						slot7 < slot6
-					})[1]
+					assert(slot0["get" .. uv1.sortData], uv1.sortData)
+
+					if slot0["get" .. uv1.sortData](slot0) == slot1["get" .. uv1.sortData](slot1) then
+						return (uv1.asc and {
+							slot0.configId < slot1.configId
+						} or {
+							slot1.configId < slot0.configId
+						})[1]
+					else
+						return (uv1.asc and {
+							slot6 < slot7
+						} or {
+							slot7 < slot6
+						})[1]
+					end
 				end
 			else
 				return slot5 < slot4

@@ -35,6 +35,8 @@ function slot3.onAttach(slot0, slot1, slot2)
 				slot3[#slot3 + 1] = slot9
 			end
 		end
+	else
+		assert(false, "BattleBuffAddReloadRequirement：缺少指定类型或索引")
 	end
 
 	for slot7, slot8 in ipairs(slot3) do

@@ -194,6 +194,9 @@ function slot0.generateLevelVertify(slot0)
 end
 
 function slot0.addShip(slot0, slot1, slot2)
+	assert(isa(slot1, Ship), "should be an instance of Ship")
+	assert(slot0.data[slot1.id] == nil, "ship already exist, use updateShip() instead")
+
 	slot0.data[slot1.id] = slot1
 
 	uv0.recordShipLevelVertify(slot1)
@@ -268,6 +271,8 @@ function slot0.addMetaTransItemMap(slot0, slot1, slot2)
 end
 
 function slot0.getShipsByFleet(slot0, slot1)
+	assert(isa(slot1, Fleet), "should be an instance of Fleet")
+
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1:getShipIds()) do
@@ -278,6 +283,8 @@ function slot0.getShipsByFleet(slot0, slot1)
 end
 
 function slot0.getSortShipsByFleet(slot0, slot1)
+	assert(isa(slot1, Fleet), "should be an instance of Fleet")
+
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1.mainShips) do
@@ -292,6 +299,8 @@ function slot0.getSortShipsByFleet(slot0, slot1)
 end
 
 function slot0.getShipByTeam(slot0, slot1, slot2)
+	assert(isa(slot1, Fleet), "should be an instance of Fleet")
+
 	slot3 = {}
 
 	if slot2 == TeamType.Vanguard then
@@ -400,6 +409,9 @@ function slot0.updateShip(slot0, slot1)
 		return
 	end
 
+	assert(isa(slot1, Ship), "should be an instance of Ship")
+	assert(slot0.data[slot1.id] ~= nil, "ship should exist")
+
 	if slot0.shipHighestLevel < slot1.level then
 		slot0.shipHighestLevel = slot1.level
 
@@ -427,15 +439,22 @@ function slot0.updateShip(slot0, slot1)
 end
 
 function slot0.removeShip(slot0, slot1)
+	assert(isa(slot1, Ship), "should be an instance of Ship")
 	slot0:removeShipById(slot1.id)
 end
 
 function slot0.getEquipment2ByflagShip(slot0)
-	return slot0:getShipById(getProxy(PlayerProxy):getData().character):getEquip(2)
+	slot3 = slot0:getShipById(getProxy(PlayerProxy):getData().character)
+
+	assert(slot3, "ship is nil")
+
+	return slot3:getEquip(2)
 end
 
 function slot0.removeShipById(slot0, slot1)
-	if slot0.data[slot1]:isActivityNpc() then
+	assert(slot0.data[slot1] ~= nil, "ship should exist")
+
+	if slot2:isActivityNpc() then
 		table.removebyvalue(slot0.activityNpcShipIds, slot2.id)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end
@@ -466,6 +485,70 @@ function slot0.findShipsByGroup(slot0, slot1)
 	end
 
 	return slot2
+end
+
+function slot0._findShipsByGroup(slot0, slot1, slot2, slot3)
+	function slot4(slot0)
+		if uv0 then
+			return slot0:isRemoulded()
+		else
+			return true
+		end
+	end
+
+	function slot5(slot0)
+		if uv0 then
+			return slot0.propose
+		else
+			return true
+		end
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in pairs(slot0.data) do
+		if slot11.groupId == slot1 and slot4(slot11) and slot5(slot11) then
+			table.insert(slot6, slot11)
+		end
+	end
+
+	return slot6
+end
+
+function slot0.ExistGroupShip(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6.groupId == slot1 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0._ExistGroupShip(slot0, slot1, slot2, slot3)
+	function slot4(slot0)
+		if uv0 then
+			return slot0:isRemoulded()
+		else
+			return true
+		end
+	end
+
+	function slot5(slot0)
+		if uv0 then
+			return slot0.propose
+		else
+			return true
+		end
+	end
+
+	for slot9, slot10 in pairs(slot0.data) do
+		if slot10.groupId == slot1 and slot4(slot10) and slot5(slot10) then
+			return true
+		end
+	end
+
+	return false
 end
 
 function slot0.getSameGroupShipCount(slot0, slot1)
@@ -619,6 +702,18 @@ function slot0.getEquipmentSkinInShips(slot0, slot1, slot2)
 	end
 
 	return slot4
+end
+
+function slot0.GetSpWeaponsInShips(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if (not slot1 or slot1.id ~= slot7.id) and slot7:GetSpWeapon() and (not slot1 or not slot1:IsSpWeaponForbidden(slot8)) then
+			table.insert(slot2, slot8)
+		end
+	end
+
+	return slot2
 end
 
 function slot0.setSelectShipId(slot0, slot1)

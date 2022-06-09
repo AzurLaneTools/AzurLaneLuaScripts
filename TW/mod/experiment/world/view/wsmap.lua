@@ -103,35 +103,28 @@ function slot0.Unload(slot0)
 end
 
 function slot0.InitPlane(slot0)
-	slot1 = PoolMgr.GetInstance()
-
-	slot1:GetPrefab("world/object/world_plane", "world_plane", false, function (slot0)
+	PoolMgr.GetInstance():GetPrefab("world/object/world_plane", "world_plane", false, function (slot0)
 		uv0.transform = slot0.transform
 
 		setActive(uv0.transform, false)
 	end)
 
-	slot2 = slot0.transform
-	slot0.rtQuads = slot2:Find("quads")
-	slot2 = slot0.transform
-	slot0.rtItems = slot2:Find("items")
-	slot2 = slot0.transform
-	slot0.rtCells = slot2:Find("cells")
-	slot2 = slot0.transform
-	slot0.rtTop = slot2:Find("top")
-	slot2 = slot0.transform
-	slot0.rtEffectA = slot2:Find("effect-a-1-999")
-	slot2 = slot0.transform
-	slot0.rtEffectB = slot2:Find("effect-b-1001-1999")
-	slot2 = slot0.transform
-	slot0.rtEffectC = slot2:Find("effect-c-2001-2999")
-	slot3 = slot0.map.theme
+	slot0.rtQuads = slot0.transform:Find("quads")
+	slot0.rtItems = slot0.transform:Find("items")
+	slot0.rtCells = slot0.transform:Find("cells")
+	slot0.rtTop = slot0.transform:Find("top")
+	slot0.rtEffectA = slot0.transform:Find("effect-a-1-999")
+	slot0.rtEffectB = slot0.transform:Find("effect-b-1001-1999")
+	slot0.rtEffectC = slot0.transform:Find("effect-c-2001-2999")
+
+	assert(slot0.map and slot2.active, "map not exist or map not active.")
+
+	slot3 = slot2.theme
 	slot4 = slot0.transform
 	slot4.name = "plane"
 	slot4.anchoredPosition3D = Vector3(slot3.offsetx, slot3.offsety, slot3.offsetz) + WorldConst.DefaultMapOffset
-	slot5 = slot4:Find("display")
 
-	setImageAlpha(slot5:Find("mask/sea"), 0)
+	setImageAlpha(slot4:Find("display"):Find("mask/sea"), 0)
 	GetSpriteFromAtlasAsync("chapter/pic/" .. slot3.assetSea, slot3.assetSea, function (slot0)
 		if uv0 then
 			setImageSprite(uv0, slot0, false)
@@ -327,7 +320,7 @@ function slot0.DisposeMap(slot0)
 end
 
 function slot0.OnAddAttachment(slot0, slot1, slot2, slot3)
-	slot4 = slot0:GetCell(slot2.row, slot2.column)
+	assert(slot0:GetCell(slot2.row, slot2.column), "cell not exist: " .. slot2.row .. ", " .. slot2.column)
 
 	if slot3.type == WorldMapAttachment.TypeArtifact then
 		if not slot0:GetItem(slot2.row, slot2.column) then
@@ -527,6 +520,8 @@ function slot0.GetTerrainEffectParent(slot0, slot1)
 		return slot0.rtEffectA
 	elseif slot1 == WorldMapCell.TerrainPoison then
 		return slot0.rtEffectA
+	else
+		assert(false, "terrain type error: " .. slot1)
 	end
 end
 

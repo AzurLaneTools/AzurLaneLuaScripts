@@ -1433,6 +1433,8 @@ function slot0.setMap(slot0, slot1)
 	slot0.contextData.mapIdx = slot1
 	slot0.contextData.map = getProxy(ChapterProxy):getMapById(slot1)
 
+	assert(slot0.contextData.map, "map cannot be nil " .. slot1)
+
 	if slot0.contextData.map:getMapType() == Map.ACT_EXTRA then
 		PlayerPrefs.SetInt("ex_mapId", slot0.contextData.map.id)
 		PlayerPrefs.Save()
@@ -1488,6 +1490,8 @@ function slot0.JudgeMapBuilderType(slot0)
 	elseif slot1:isEscort() then
 		slot2 = uv0.TYPEESCORT
 	end
+
+	assert(slot2, "Can't Find Corresponding MapBuilder : " .. tostring(slot1:getMapType()))
 
 	return slot2
 end
@@ -1961,6 +1965,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 	slot0.leftCanvasGroup.blocksRaycasts = false
 	slot0.rightCanvasGroup.blocksRaycasts = false
 
+	assert(not slot0.levelStageView, "LevelStageView Exists On SwitchToChapter")
 	slot0:DestroyLevelStageView()
 
 	if not slot0.levelStageView then
@@ -2145,6 +2150,7 @@ function slot0.switchToMap(slot0, slot1)
 	shiftPanel(slot0.leftChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	shiftPanel(slot0.rightChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	shiftPanel(slot0.topChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	assert(slot0.levelStageView, "LevelStageView Doesnt Exist On SwitchToMap")
 
 	if slot0.levelStageView then
 		slot0.levelStageView:ActionInvoke("ShiftStagePanelOut", function ()
@@ -2844,6 +2850,8 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 	function slot7()
 		if coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
+
+			assert(slot0, debug.traceback(uv0, slot1))
 		end
 	end
 
@@ -2958,6 +2966,8 @@ function slot0.doPlayEnemyAnim(slot0, slot1, slot2, slot3)
 	function slot6()
 		if coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
+
+			assert(slot0, debug.traceback(uv0, slot1))
 		end
 	end
 
@@ -3228,6 +3238,8 @@ function slot0.GetDamageText(slot0)
 end
 
 function slot0.ReturnDamageText(slot0, slot1)
+	assert(slot1)
+
 	if not slot1 then
 		return
 	end

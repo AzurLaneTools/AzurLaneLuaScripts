@@ -1,7 +1,7 @@
 slot0 = class("UpdateStoryCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot3 = slot1:getBody().storyId
+	assert(type(slot1:getBody().storyId) == "string")
 
 	if not pg.ConnectionMgr.GetInstance():getConnection() or not pg.ConnectionMgr.GetInstance():isConnected() then
 		return

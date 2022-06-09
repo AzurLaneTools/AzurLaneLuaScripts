@@ -22,6 +22,8 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.extend(slot0, slot1)
+	assert(slot0.id == slot1.id, "id should be the same")
+
 	slot0.content = string.gsub(HXSet.hxLan(slot1.content), "\\n", "\n")
 	slot0.openned = true
 end

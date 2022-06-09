@@ -67,6 +67,8 @@ function slot0.getExpiredTime(slot0)
 	if slot0:expiredType() then
 		return slot0.endTime
 	end
+
+	assert(false)
 end
 
 function slot0.updateEndTime(slot0, slot1)
@@ -82,12 +84,15 @@ function slot0.getTimerKey(slot0)
 end
 
 function slot0.getType(slot0)
+	assert(false)
 end
 
 function slot0.bindConfigTable(slot0)
+	assert(false)
 end
 
 function slot0.getDropType(slot0)
+	assert(false)
 end
 
 return slot0

@@ -3,6 +3,7 @@ slot1 = import("view.util.FuncBuffer")
 slot2 = import("view.util.AutoLoader")
 
 function slot0.Ctor(slot0, slot1)
+	assert(slot1, "NIL Parent View")
 	uv0.super.Ctor(slot0, slot1 and slot1._tf, slot1 and isa(slot1, BaseEventLogic) and slot1.event or nil, {})
 
 	slot0.buffer = uv1.New()

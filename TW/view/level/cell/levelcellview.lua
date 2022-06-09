@@ -9,6 +9,8 @@ function slot0.GetOrder(slot0)
 end
 
 function slot0.SetLoader(slot0, slot1)
+	assert(not slot0.loader, "repeatly Set loader")
+
 	slot0.loader = slot1
 end
 

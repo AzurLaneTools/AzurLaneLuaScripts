@@ -103,8 +103,8 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 
 	setActive(slot0.panelBlack, slot2 == uv1.PANEL_TYPE_BLACK)
 	setActive(slot0.panelPink, slot2 == uv1.PANEL_TYPE_PINK)
+	assert(uv0.share_template[slot1], "share_template not exist: " .. slot1)
 
-	slot5 = uv0.share_template[slot1]
 	slot6 = getProxy(PlayerProxy):getRawData()
 	slot8 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot7.server or 0]
 	slot11 = slot0.deckTF

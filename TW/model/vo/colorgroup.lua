@@ -106,6 +106,8 @@ function slot0.GetAABB(slot0)
 	slot3 = 0
 	slot4 = 0
 
+	assert(next(slot0.cells), "Get AABB from empty List")
+
 	for slot8, slot9 in pairs(slot0.cells) do
 		slot1 = math.min(slot1, slot9.column)
 		slot2 = math.min(slot2, slot9.row)

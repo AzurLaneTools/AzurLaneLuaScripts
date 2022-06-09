@@ -30,9 +30,12 @@ function slot2.GetCldData(slot0)
 end
 
 function slot2.GetCldBox(slot0, slot1)
+	assert(false, "BattleCldComponent.GetCldBox:重写这个方法啦！")
 end
 
 function slot2.GetCldBoxSize(slot0)
+	assert(false, "BattleCldComponent.GetCldBoxSize:重写这个方法啦！")
+
 	return nil
 end
 

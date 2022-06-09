@@ -1,10 +1,13 @@
 slot0 = class("BasePanel")
 
 function slot0.Ctor(slot0, slot1)
+	assert(slot1)
+
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 
 	function slot0.emit()
+		assert(false, "can not emit event beforce attach to a parent ui.")
 	end
 
 	slot0:init()
@@ -14,6 +17,8 @@ function slot0.init(slot0)
 end
 
 function slot0.attach(slot0, slot1)
+	assert(slot1)
+
 	slot0.exited = false
 	slot0.parent = slot1
 	slot0.contextData = slot1.contextData
@@ -41,6 +46,8 @@ function slot0.detach(slot0)
 end
 
 function slot0.findTF(slot0, slot1, slot2)
+	assert(slot0._tf, "transform should exist")
+
 	return findTF(slot2 or slot0._tf, slot1)
 end
 

@@ -14,6 +14,7 @@ function slot0.register(slot0)
 	slot0.timers = {}
 	slot0.students = {}
 	slot0.course = AcademyCourse.New()
+	slot0.recentShips = {}
 
 	slot0:on(22001, function (slot0)
 		slot1 = OilResourceField.New()
@@ -63,6 +64,45 @@ function slot0.register(slot0)
 	end)
 end
 
+function slot0.GetRecentShips(slot0)
+	if #slot0.recentShips > 0 then
+		for slot4 = #slot0.recentShips, 1, -1 do
+			if not getProxy(BayProxy):RawGetShipById(slot0.recentShips[slot4]) or _.all(slot6:getSkillList(), function (slot0)
+				return ShipSkill.New(uv0.skills[slot0]):IsMaxLevel()
+			end) then
+				table.remove(slot0.recentShips, slot4)
+			end
+		end
+
+		return slot0.recentShips
+	end
+
+	for slot7, slot8 in ipairs(string.split(PlayerPrefs.GetString("NavTacticsRecentShipId" .. getProxy(PlayerProxy):getRawData().id), "#")) do
+		if (tonumber(slot8) or 0) > 0 then
+			if getProxy(BayProxy):RawGetShipById(slot9) and not table.contains(slot0.recentShips, slot9) and _.any(slot10:getSkillList(), function (slot0)
+				return not ShipSkill.New(uv0.skills[slot0]):IsMaxLevel()
+			end) then
+				table.insert(slot0.recentShips, slot9)
+			end
+		end
+	end
+
+	return slot0.recentShips
+end
+
+function slot0.SaveRecentShip(slot0, slot1)
+	if not table.contains(slot0.recentShips, slot1) then
+		table.insert(slot0.recentShips, slot1)
+
+		for slot5 = 1, #slot0.recentShips - 11 do
+			table.remove(slot0.recentShips, slot5)
+		end
+
+		PlayerPrefs.SetString("NavTacticsRecentShipId" .. getProxy(PlayerProxy):getRawData().id, table.concat(slot0.recentShips, "#"))
+		PlayerPrefs.Save()
+	end
+end
+
 function slot0.getSkillClassNum(slot0)
 	return slot0.skillClassNum
 end
@@ -90,7 +130,9 @@ function slot0.ExistStudent(slot0, slot1)
 end
 
 function slot0.getStudentById(slot0, slot1)
-	return slot0.students[slot1]:clone()
+	if slot0.students[slot1] then
+		return slot0.students[slot1]:clone()
+	end
 end
 
 function slot0.getStudentIdByShipId(slot0, slot1)

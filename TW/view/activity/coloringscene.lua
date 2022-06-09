@@ -486,6 +486,8 @@ function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.SearchValidDiagonalColoringCells(slot0, slot1, slot2, slot3)
+	assert(slot1)
+
 	slot4 = {}
 
 	if slot1:getState() ~= ColorGroup.StateColoring or slot1:canBeCustomised() or slot3 == 0 then

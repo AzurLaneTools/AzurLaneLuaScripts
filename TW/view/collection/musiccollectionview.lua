@@ -1045,6 +1045,8 @@ end
 function slot0.getMusicConfigForShowByIndex(slot0, slot1)
 	if slot0.musicForShowConfigList[slot1] then
 		return slot2
+	else
+		assert(false, "不存在的index" .. tostring(slot1))
 	end
 end
 
