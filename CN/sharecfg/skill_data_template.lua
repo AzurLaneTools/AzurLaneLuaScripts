@@ -88508,7 +88508,7 @@ pg.skill_data_template = {
 		id = 901010,
 		type = 1,
 		max_level = 1,
-		desc = "战斗中先锋领舰会释放特殊斩击，特殊斩击的伤害与形态会受到队伍特殊斩击的类型与数量影响",
+		desc = "战斗中先锋领舰会释放特殊斩击，特殊斩击的伤害与形态会受到我方先锋角色特殊斩击的类型与数量影响",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88522,7 +88522,7 @@ pg.skill_data_template = {
 		id = 901020,
 		type = 2,
 		max_level = 1,
-		desc = "战斗中先锋领舰会释放特殊斩击，特殊斩击的伤害与形态会受到队伍特殊斩击的类型与数量影响",
+		desc = "战斗中先锋领舰会释放特殊斩击，特殊斩击的伤害与形态会受到我方先锋角色特殊斩击的类型与数量影响",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -89938,7 +89938,7 @@ pg.skill_data_template = {
 		id = 1901010,
 		type = 1,
 		max_level = 1,
-		desc = "<color=#a2a2a2>（未解锁）战斗中先锋领舰会释放特殊斩击，特殊斩击的伤害与形态会受到队伍特殊斩击的类型与数量影响</color>",
+		desc = "<color=#a2a2a2>（未解锁）战斗中先锋领舰会释放特殊斩击，特殊斩击的伤害与形态会受到我方先锋角色特殊斩击的类型与数量影响</color>",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -89952,7 +89952,7 @@ pg.skill_data_template = {
 		id = 1901020,
 		type = 2,
 		max_level = 1,
-		desc = "<color=#a2a2a2>（未解锁）战斗中先锋领舰会释放特殊斩击，特殊斩击的伤害与形态会受到队伍特殊斩击的类型与数量影响</color>",
+		desc = "<color=#a2a2a2>（未解锁）战斗中先锋领舰会释放特殊斩击，特殊斩击的伤害与形态会受到我方先锋角色特殊斩击的类型与数量影响</color>",
 		system_transform = {},
 		world_death_mark = {
 			1
