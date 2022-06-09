@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.enemy_data_statistics_70 = {
+	[10205200] = {
+		cannon = 325,
+		name = "ズイカク",
+		antiaircraft_growth = 5148,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 180,
+		air_growth = 4986,
+		dodge = 6,
+		speed = 15,
+		luck = 0,
+		id = 10205200,
+		reload_growth = 0,
+		dodge_growth = 90,
+		fog_fx = "",
+		star = 6,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 5,
+		cannon_growth = 455,
+		base = 90244,
+		durability = 2800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 280,
+		hit_growth = 210,
+		armor = 0,
+		reload = 150,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 72000,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							-0.03,
+							0.94
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							1.23,
+							2.53
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			100201,
+			100361,
+			311081,
+			311084,
+			312048,
+			312050,
+			312051,
+			312052
+		}
+	},
 	[10205300] = {
 		cannon = 355,
 		name = "ショウホウ",
@@ -691,48 +767,6 @@ pg.enemy_data_statistics_70 = {
 		rarity = 3,
 		fog_fx = "",
 		base = 90203,
-		durability = 1455,
-		armor_growth = 0,
-		torpedo_growth = 2250,
-		antiaircraft = 225,
-		hit_growth = 210,
-		armor = 0,
-		speed = 16,
-		torpedo = 100,
-		antisub = 0,
-		durability_growth = 27500,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100201,
-			100521,
-			100411
-		}
-	},
-	[103015] = {
-		cannon = 135,
-		name = "ナチ",
-		antiaircraft_growth = 2340,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		air_growth = 0,
-		dodge = 6,
-		luck = 0,
-		id = 103015,
-		cannon_growth = 1638,
-		reload_growth = 0,
-		dodge_growth = 84,
-		reload = 150,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		fog_fx = "",
-		base = 90204,
 		durability = 1455,
 		armor_growth = 0,
 		torpedo_growth = 2250,

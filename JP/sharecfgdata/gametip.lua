@@ -3603,6 +3603,14 @@ _G.pg.base.gametip.spweapon_ui_helptext = {
 	tip = "※特殊装備を製造するには「特殊装備コア」「資金」「強化経験値」が必要になります\n※画面左側の「強化石」「特殊装備」を強化素材として選択すると、特殊装備に付与される「強化経験値」を確認することができます"
 }
 
+_G.pg.base.gametip.spweapon_ui_effect_tag = {
+	tip = "特殊装備効果"
+}
+
+_G.pg.base.gametip.spweapon_ui_skill_tag = {
+	tip = "スキル強化"
+}
+
 _G.pg.base.gametip.spweapon_activity_ui_text1 = {
 	tip = "*限定任務をクリアし、「特殊装備コア」「特殊装備強化石」などを手に入れよう！"
 }
@@ -20891,4 +20899,8 @@ _G.pg.base.gametip.build_times_tip = {
 
 _G.pg.base.gametip.tactics_recent_ship_label = {
 	tip = "ｽｷﾙ強化歴"
+}
+
+_G.pg.base.gametip.title_info = {
+	tip = "情報"
 }

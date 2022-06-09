@@ -1,5 +1,62 @@
 pg = pg or {}
 pg.enemy_data_statistics_290 = {
+	[14603301] = {
+		cannon = 230,
+		hit_growth = 330,
+		bubble_fx = "",
+		speed_growth = 0,
+		rarity = 4,
+		air = 0,
+		luck = 25,
+		id = 14603301,
+		reload = 150,
+		antiaircraft = 250,
+		battle_unit_type = 95,
+		dodge_growth = 252,
+		star = 4,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90467,
+		durability = 78200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		armor = 0,
+		antisub = 0,
+		scale = 144,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		dodge = 20,
+		reload_growth = 0,
+		hit = 35,
+		torpedo = 180,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			773001,
+			773002,
+			773003,
+			773004,
+			773005
+		},
+		buff_list = {}
+	},
 	[14603302] = {
 		cannon = 270,
 		hit_growth = 330,
@@ -884,64 +941,5 @@ pg.enemy_data_statistics_290 = {
 			1003155
 		},
 		buff_list = {}
-	},
-	[14604104] = {
-		cannon = 120,
-		hit_growth = 350,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		rarity = 3,
-		dodge = 17,
-		luck = 0,
-		id = 14604104,
-		cannon_growth = 3600,
-		reload_growth = 0,
-		dodge_growth = 170,
-		reload = 150,
-		star = 4,
-		hit = 30,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		base = 90468,
-		durability = 9010,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 4680,
-		armor = 0,
-		speed = 14,
-		torpedo = 0,
-		antisub = 0,
-		durability_growth = 68000,
-		antiaircraft = 212,
-		battle_unit_type = 65,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1003160,
-			1003165,
-			1003170,
-			1003175
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 5
-			}
-		}
 	}
 }

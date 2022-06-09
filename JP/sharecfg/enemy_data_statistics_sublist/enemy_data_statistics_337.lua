@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.enemy_data_statistics_337 = {
+	[15603112] = {
+		cannon = 38,
+		name = "演算投影「軽巡洋艦」",
+		type = 2,
+		speed_growth = 0,
+		antiaircraft_growth = 3744,
+		air = 0,
+		rarity = 4,
+		armor = 0,
+		id = 15603112,
+		reload = 150,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		dodge_growth = 162,
+		star = 4,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90619,
+		durability = 3570,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 936,
+		fog_fx = "",
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 76,
+		durability_growth = 30400,
+		antiaircraft = 156,
+		hit_growth = 210,
+		armor_type = 1,
+		specific_fx_scale = {},
+		appear_fx = {
+			"heisewuqi_stg",
+			"appearQ"
+		},
+		equipment_list = {
+			873903,
+			873904,
+			873905,
+			1100023
+		},
+		buff_list = {
+			{
+				ID = 8924,
+				LV = 1
+			}
+		}
+	},
 	[15603113] = {
 		cannon = 54,
 		name = "演算投影「重巡洋艦」",
@@ -853,45 +905,6 @@ pg.enemy_data_statistics_337 = {
 		speed = 10,
 		armor = 0,
 		id = 15603902,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {},
-		buff_list = {
-			{
-				ID = 8925,
-				LV = 1
-			}
-		}
-	},
-	[15603903] = {
-		cannon = 160,
-		reload = 150,
-		rarity = 2,
-		cannon_growth = 0,
-		torpedo = 0,
-		air = 0,
-		durability_growth = 0,
-		dodge = 0,
-		antiaircraft = 0,
-		luck = 0,
-		hit_growth = 120,
-		reload_growth = 0,
-		dodge_growth = 0,
-		icon = "sairenboss11",
-		star = 2,
-		hit = 9999,
-		antisub_growth = 0,
-		air_growth = 0,
-		speed_growth = 0,
-		base = 90535,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		speed = 10,
-		armor = 0,
-		id = 15603903,
 		antiaircraft_growth = 0,
 		antisub = 0,
 		fog_fx = "",

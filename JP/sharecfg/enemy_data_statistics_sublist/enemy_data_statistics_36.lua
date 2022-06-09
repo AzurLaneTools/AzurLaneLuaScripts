@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_36 = {
+	[1006] = {
+		cannon = 6,
+		name = "シラヌイ",
+		antiaircraft_growth = 1638,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		air_growth = 0,
+		dodge = 15,
+		luck = 0,
+		id = 1006,
+		cannon_growth = 468,
+		reload_growth = 0,
+		dodge_growth = 222,
+		reload = 150,
+		star = 3,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 2,
+		fog_fx = "",
+		base = 90170,
+		durability = 160,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		antiaircraft = 20,
+		hit_growth = 210,
+		armor = 0,
+		speed = 24,
+		torpedo = 54,
+		antisub = 0,
+		durability_growth = 7800,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100211,
+			100411
+		}
+	},
 	[1007] = {
 		cannon = 6,
 		name = "グリッドレイ",
@@ -785,50 +826,6 @@ pg.enemy_data_statistics_36 = {
 			311059,
 			311060,
 			311061
-		}
-	},
-	[1025] = {
-		cannon = 0,
-		name = "ホーネット",
-		antiaircraft_growth = 3000,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 32,
-		air_growth = 2637,
-		dodge = 4,
-		luck = 0,
-		id = 1025,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 66,
-		reload = 150,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 4,
-		fog_fx = "",
-		base = 90238,
-		durability = 330,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 38,
-		hit_growth = 210,
-		armor = 0,
-		speed = 17,
-		torpedo = 0,
-		antisub = 0,
-		durability_growth = 14000,
-		luck_growth = 0,
-		battle_unit_type = 70,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100201,
-			311062,
-			311063,
-			311064,
-			311065
 		}
 	}
 }

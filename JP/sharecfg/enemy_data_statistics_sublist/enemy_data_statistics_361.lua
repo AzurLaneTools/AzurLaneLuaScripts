@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_361 = {
+	[15903122] = {
+		cannon = 38,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		battle_unit_type = 55,
+		dodge = 11,
+		base = 90249,
+		durability_growth = 30400,
+		antiaircraft = 156,
+		reload_growth = 0,
+		dodge_growth = 162,
+		speed = 25,
+		luck = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 3744,
+		torpedo = 76,
+		durability = 3570,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		id = 15903122,
+		fog_fx = "",
+		antisub = 0,
+		specific_fx_scale = {},
+		appear_fx = {
+			"heisewuqi_stg"
+		},
+		equipment_list = {
+			1000683,
+			1000688,
+			1000693,
+			1000698
+		}
+	},
 	[15903123] = {
 		cannon = 54,
 		reload = 150,
@@ -831,55 +872,6 @@ pg.enemy_data_statistics_361 = {
 			1003189,
 			1100788,
 			1003199
-		}
-	},
-	[15903301] = {
-		cannon = 280,
-		name = "仮想幻像「キングジョージV」",
-		hit_growth = 330,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 20,
-		dodge = 14,
-		antisub = 0,
-		cannon_growth = 0,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 196,
-		luck = 25,
-		reload = 150,
-		hit = 38,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 0,
-		base = 90516,
-		durability = 86200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		durability_growth = 0,
-		antiaircraft = 260,
-		id = 15903301,
-		battle_unit_type = 95,
-		scale = 180,
-		specific_fx_scale = {
-			heisewuqi_stg = 1.5
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ",
-			"heisewuqi_stg"
-		},
-		equipment_list = {
-			894301,
-			894302,
-			894303,
-			894304,
-			894305,
-			894306
 		}
 	}
 }

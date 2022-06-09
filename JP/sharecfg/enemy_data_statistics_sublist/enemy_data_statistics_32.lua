@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_32 = {
+	[762] = {
+		cannon = 0,
+		battle_unit_type = 70,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 350,
+		speed = 20,
+		dodge = 45,
+		id = 762,
+		cannon_growth = 0,
+		rarity = 5,
+		reload_growth = 0,
+		dodge_growth = 0,
+		armor = 0,
+		star = 6,
+		hit = 75,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90242,
+		durability = 1500000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		luck = 25,
+		torpedo = 0,
+		durability_growth = 0,
+		antisub = 0,
+		antiaircraft = 600,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[763] = {
 		cannon = 105,
 		name = "駆逐「Pawn」",
@@ -849,75 +886,6 @@ pg.enemy_data_statistics_32 = {
 		},
 		equipment_list = {
 			300126
-		}
-	},
-	[820] = {
-		cannon = 45,
-		name = "護衛コルベットPowered",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		reload = 150,
-		air = 0,
-		fog_fx = "",
-		dodge = 0,
-		speed = 15,
-		luck = 0,
-		id = 820,
-		reload_growth = 0,
-		dodge_growth = 0,
-		air_growth = 0,
-		star = 2,
-		hit = 80,
-		antisub_growth = 0,
-		rarity = 1,
-		cannon_growth = 0,
-		base = 90123,
-		durability = 580,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 30,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 140,
-		durability_growth = 0,
-		antisub = 100,
-		luck_growth = 0,
-		scale = 150,
-		battle_unit_type = 30,
-		cld_box = {
-			9.75,
-			5.625,
-			6.75
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				2.6,
-				0,
-				1.353
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			danchuanlanghuazhong3 = 0.75
-		},
-		equipment_list = {
-			300140,
-			300141,
-			300142
 		}
 	}
 }

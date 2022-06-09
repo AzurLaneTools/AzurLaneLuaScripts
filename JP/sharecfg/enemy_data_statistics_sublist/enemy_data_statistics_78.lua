@@ -1,5 +1,67 @@
 pg = pg or {}
 pg.enemy_data_statistics_78 = {
+	[106018] = {
+		cannon = 225,
+		name = "戦艦キリシマ",
+		antiaircraft_growth = 1521,
+		speed_growth = 0,
+		reload = 150,
+		air = 0,
+		fog_fx = "",
+		dodge = 0,
+		speed = 15,
+		luck = 0,
+		id = 106018,
+		reload_growth = 0,
+		dodge_growth = 0,
+		air_growth = 0,
+		star = 5,
+		hit = 12,
+		antisub_growth = 0,
+		rarity = 4,
+		cannon_growth = 1638,
+		base = 90118,
+		durability = 5500,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 100,
+		hit_growth = 120,
+		armor = 0,
+		torpedo = 0,
+		durability_growth = 44200,
+		antisub = 0,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		fx_container = {
+			{
+				1.47,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.1,
+				0.137,
+				-0.7175
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		appear_fx = {
+			"appearbig"
+		},
+		equipment_list = {
+			300007,
+			316035
+		}
+	},
 	[106019] = {
 		cannon = 225,
 		name = "戦艦ヒエイ",
@@ -821,81 +883,6 @@ pg.enemy_data_statistics_78 = {
 			100202,
 			100412,
 			316070
-		}
-	},
-	[106511] = {
-		cannon = 9999,
-		name = "機雷",
-		antiaircraft_growth = 504,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 9999,
-		luck = 0,
-		id = 106511,
-		reload = 9999,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		dodge_growth = 0,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90122,
-		durability = 250,
-		armor_growth = 0,
-		torpedo_growth = 1600,
-		speed = 5,
-		armor = 0,
-		antisub = 0,
-		wave_fx = "movewave",
-		prefab = "boom3",
-		cannon_growth = 320,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 9999,
-		durability_growth = 9240,
-		antiaircraft = 9999,
-		hit_growth = 60,
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							{
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								},
-								{
-									0,
-									0,
-									0
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			300013
 		}
 	}
 }
