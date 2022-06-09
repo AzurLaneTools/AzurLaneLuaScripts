@@ -111,6 +111,9 @@ function slot0.WhetherToContinueForOtherSkill(slot0, slot1, slot2, slot3, slot4,
 end
 
 function slot0.ContinuousLearningForOtherSkill(slot0, slot1, slot2)
+	slot0.selSkillPage:SetCancelCallback(function ()
+		uv0:NextOne()
+	end)
 	slot0.selLessonPage:SetHideCallback(function ()
 		uv0:NextOne()
 	end)

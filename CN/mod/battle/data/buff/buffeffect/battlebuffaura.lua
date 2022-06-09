@@ -66,7 +66,6 @@ function slot1.SetArgs(slot0, slot1, slot2)
 
 	slot8:SetReferenceUnit(slot1)
 	slot8:ConfigData(slot8.FOLLOW)
-	slot0._aura:SetReferenceUnit(slot1)
 end
 
 function slot1.Clear(slot0)

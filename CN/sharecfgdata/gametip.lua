@@ -3233,6 +3233,14 @@ _G.pg.base.gametip.spweapon_ui_helptext = {
 	tip = "*特殊兵装需要消耗「特殊兵装核心」「物资」以及「强化材料」进行制造，强化和突破\n 请选择「强化石」或「特殊兵装」作为材料以满足强化经验要求"
 }
 
+_G.pg.base.gametip.spweapon_ui_effect_tag = {
+	tip = "特殊兵装效果"
+}
+
+_G.pg.base.gametip.spweapon_ui_skill_tag = {
+	tip = "技能专属强化"
+}
+
 _G.pg.base.gametip.spweapon_activity_ui_text1 = {
 	tip = "* 完成活动任务，获得特殊兵装核心、兵装强化石等奖励"
 }
@@ -20577,4 +20585,8 @@ _G.pg.base.gametip.build_times_tip = {
 
 _G.pg.base.gametip.tactics_recent_ship_label = {
 	tip = "最近学习"
+}
+
+_G.pg.base.gametip.title_info = {
+	tip = "信息"
 }

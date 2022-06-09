@@ -441,7 +441,10 @@ function slot0.UpdateSpWeaponPanel(slot0, slot1)
 		slot8 = slot3:Find("cont")
 
 		(function ()
-			setActive(uv0:GetChild(0), uv1:GetEffect() and slot1 > 0)
+			slot0 = uv0:GetChild(0)
+
+			setText(slot0:Find("tag"), i18n("spweapon_ui_effect_tag"))
+			setActive(slot0, uv1:GetEffect() and slot1 > 0)
 
 			if not slot1 or slot1 <= 0 then
 				return
@@ -450,7 +453,10 @@ function slot0.UpdateSpWeaponPanel(slot0, slot1)
 			setText(slot0:Find("value"), getSkillName(slot1))
 		end)()
 		(function ()
-			setActive(uv0:GetChild(1), uv1:GetActiveUpgradableSkill(uv2) and slot1 > 0)
+			slot0 = uv0:GetChild(1)
+
+			setText(slot0:Find("tag"), i18n("spweapon_ui_skill_tag"))
+			setActive(slot0, uv1:GetActiveUpgradableSkill(uv2) and slot1 > 0)
 
 			if not slot1 or slot1 <= 0 then
 				return

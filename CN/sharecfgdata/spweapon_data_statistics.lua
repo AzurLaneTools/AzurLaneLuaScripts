@@ -3257,7 +3257,7 @@ _G.pg.base.spweapon_data_statistics[10000] = {
 	},
 	skill_upgrade = {
 		{
-			10410,
+			0,
 			1110410
 		}
 	},
@@ -3406,7 +3406,7 @@ _G.pg.base.spweapon_data_statistics[10020] = {
 	},
 	skill_upgrade = {
 		{
-			10610,
+			0,
 			1110610
 		}
 	},
@@ -3555,7 +3555,7 @@ _G.pg.base.spweapon_data_statistics[10040] = {
 	},
 	skill_upgrade = {
 		{
-			10390,
+			0,
 			1110390
 		}
 	},
@@ -3704,7 +3704,7 @@ _G.pg.base.spweapon_data_statistics[10060] = {
 	},
 	skill_upgrade = {
 		{
-			10140,
+			0,
 			1110140
 		}
 	},
@@ -3853,7 +3853,7 @@ _G.pg.base.spweapon_data_statistics[10080] = {
 	},
 	skill_upgrade = {
 		{
-			11380,
+			0,
 			1111380
 		}
 	},

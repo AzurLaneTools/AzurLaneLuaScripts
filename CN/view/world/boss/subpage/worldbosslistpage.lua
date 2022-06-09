@@ -57,6 +57,9 @@ end
 
 function slot0.OnLoaded(slot0)
 	slot0.ptTF = slot0:findTF("point")
+
+	setActive(slot0.ptTF, true)
+
 	slot0.pt = slot0:findTF("point/Text"):GetComponent(typeof(Text))
 	slot0.ptRecoveTF = slot0:findTF("point/time")
 	slot0.ptRecove = slot0:findTF("point/time/Text"):GetComponent(typeof(Text))
@@ -338,7 +341,6 @@ function slot0.OnInitCard(slot0, slot1, slot2)
 end
 
 function slot0.UpdateCardStyle(slot0, slot1, slot2)
-	slot1:Find("complete"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot2 .. "_item_02")
 	slot1:Find("raiding"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot2 .. "_item_03")
 	slot3 = slot1:Find("empty"):GetComponent(typeof(Image))
 	slot3.sprite = LoadSprite("metaship/" .. slot2 .. "_item_04")
@@ -346,7 +348,6 @@ function slot0.UpdateCardStyle(slot0, slot1, slot2)
 	slot3:SetNativeSize()
 
 	slot1:Find("selected/challenging"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot2 .. "_item_01")
-	slot1:Find("selected/finished"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot2 .. "_item_05")
 end
 
 function slot0.OnPreviewCard(slot0, slot1, slot2)

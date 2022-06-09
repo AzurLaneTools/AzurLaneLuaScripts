@@ -1,5 +1,93 @@
 pg = pg or {}
 pg.enemy_data_statistics_139 = {
+	[10092008] = {
+		cannon = 20,
+		hit_growth = 210,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 4,
+		air = 0,
+		speed = 18,
+		dodge = 15,
+		luck = 0,
+		id = 10092008,
+		cannon_growth = 2400,
+		reload_growth = 0,
+		dodge_growth = 214,
+		reload = 150,
+		star = 4,
+		hit = 19,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 35,
+		base = 90255,
+		durability = 1160,
+		armor_growth = 0,
+		torpedo_growth = 1920,
+		luck_growth = 0,
+		battle_unit_type = 70,
+		armor = 0,
+		durability_growth = 39000,
+		antiaircraft = 40,
+		antisub = 0,
+		antiaircraft_growth = 2200,
+		bound_bone = {
+			cannon = {
+				{
+					0.6,
+					0.6,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.38,
+					0.6,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.472,
+							0.233,
+							0.467
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.42,
+							1.7,
+							2.07
+						}
+					}
+				}
+			}
+		},
+		equipment_list = {
+			550031,
+			550032,
+			550033
+		}
+	},
 	[10092009] = {
 		cannon = 0,
 		hit_growth = 210,
@@ -1002,100 +1090,6 @@ pg.enemy_data_statistics_139 = {
 		},
 		equipment_list = {
 			550101
-		}
-	},
-	[10093500] = {
-		cannon = 125,
-		antiaircraft_growth = 0,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 70041,
-		air = 0,
-		speed = 32,
-		dodge = 28,
-		luck = 0,
-		id = 10093500,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 424,
-		reload = 150,
-		star = 6,
-		hit = 35,
-		antisub_growth = 0,
-		air_growth = 0,
-		rarity = 6,
-		base = 90257,
-		durability = 11400,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 220,
-		durability_growth = 0,
-		antisub = 0,
-		antiaircraft = 200,
-		battle_unit_type = 95,
-		bound_bone = {
-			cannon = {
-				{
-					0.6,
-					0.6,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.38,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.472,
-							0.233,
-							0.467
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							1.7,
-							2.07
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			550511,
-			550512,
-			550513,
-			550514
 		}
 	}
 }

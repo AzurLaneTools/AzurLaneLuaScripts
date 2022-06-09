@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_31 = {
+	[703] = {
+		cannon = 0,
+		name = "精锐型鱼雷艇",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		luck = 0,
+		id = 703,
+		reload = 150,
+		luck_growth = 0,
+		battle_unit_type = 35,
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90070,
+		durability = 20510,
+		armor_growth = 0,
+		torpedo_growth = 12000,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		wave_fx = "danchuanlanghuaxiao2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		fog_fx = "",
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 700,
+		durability_growth = 710000,
+		antiaircraft = 0,
+		hit_growth = 120,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300006
+		}
+	},
 	[704] = {
 		cannon = 0,
 		name = "超弩级鱼雷艇",
@@ -748,42 +789,5 @@ pg.enemy_data_statistics_31 = {
 				LV = 2
 			}
 		}
-	},
-	[762] = {
-		cannon = 0,
-		battle_unit_type = 70,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 350,
-		speed = 20,
-		dodge = 45,
-		id = 762,
-		cannon_growth = 0,
-		rarity = 5,
-		reload_growth = 0,
-		dodge_growth = 0,
-		armor = 0,
-		star = 6,
-		hit = 75,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90242,
-		durability = 1500000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		luck = 25,
-		torpedo = 0,
-		durability_growth = 0,
-		antisub = 0,
-		antiaircraft = 600,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {}
 	}
 }
