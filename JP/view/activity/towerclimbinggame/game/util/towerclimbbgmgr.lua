@@ -155,6 +155,9 @@ end
 
 function slot0.Init(slot0, slot1, slot2)
 	uv0.bgMaps = uv1[slot1]
+
+	assert(uv0.bgMaps, slot1)
+
 	slot0.list = {
 		slot0.tr:Find("Image1"),
 		slot0.tr:Find("Image2"),

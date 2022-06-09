@@ -141,7 +141,13 @@ function slot0.AddEdgePool(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.GetEdgePool(slot0, slot1)
-	return slot0.edgePools[slot1]
+	assert(slot1, "Missing Key")
+
+	slot2 = slot0.edgePools[slot1]
+
+	assert(slot2, "Must Create Pool before Using")
+
+	return slot2
 end
 
 function slot0.initAll(slot0, slot1)
@@ -1238,10 +1244,16 @@ function slot0.UpdateFloor(slot0)
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot1:GetChapterCellAttachemnts()) do
-		if slot9.data == ChapterConst.StoryTrigger and pg.map_event_template[slot9.attachmentId] and slot10.c_type == ChapterConst.EvtType_AdditionalFloor then
-			slot4[slot10.icon] = slot4[slot10.icon] or {}
+		if slot9.data == ChapterConst.StoryTrigger then
+			slot10 = pg.map_event_template[slot9.attachmentId]
 
-			table.insert(slot4[slot10.icon], slot9)
+			assert(slot10, "map_event_template not exists " .. slot9.attachmentId)
+
+			if slot10 and slot10.c_type == ChapterConst.EvtType_AdditionalFloor then
+				slot4[slot10.icon] = slot4[slot10.icon] or {}
+
+				table.insert(slot4[slot10.icon], slot9)
+			end
 		end
 	end
 
@@ -1328,7 +1340,7 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 	slot9 = {}
 
 	if slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachBoss then
-		slot10 = pg.expedition_data_template[slot4.attachmentId]
+		assert(pg.expedition_data_template[slot4.attachmentId], "expedition_data_template not exist: " .. slot4.attachmentId)
 
 		if slot4.flag == ChapterConst.CellFlagDisabled then
 			if slot4.attachment ~= ChapterConst.AttachAmbush then
@@ -1359,7 +1371,11 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 	elseif slot4.attachment == ChapterConst.AttachBomb_Enemy then
 		slot8 = AttachmentBombEnemyCell
 	elseif slot4.attachment == ChapterConst.AttachLandbase then
-		if pg.land_based_template[slot4.attachmentId].type == ChapterConst.LBCoastalGun then
+		slot10 = pg.land_based_template[slot4.attachmentId]
+
+		assert(slot10, "land_based_template not exist: " .. slot4.attachmentId)
+
+		if slot10.type == ChapterConst.LBCoastalGun then
 			slot8 = AttachmentLBCoastalGunCell
 		elseif slot10.type == ChapterConst.LBHarbor then
 			slot8 = AttachmentLBHarborCell
@@ -2135,6 +2151,8 @@ function slot0.moveCellView(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	(function ()
 		if uv0 and coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
+
+			assert(slot0, debug.traceback(uv0, slot1))
 		end
 	end)()
 end
@@ -2192,6 +2210,9 @@ end
 
 function slot0.CellToScreen(slot0, slot1, slot2)
 	slot3 = slot0._tf:Find(ChapterConst.PlaneName .. "/cells")
+
+	assert(slot3, "plane not exist.")
+
 	slot5 = slot0.contextData.chapterVO.theme
 	slot6 = slot5:GetLinePosition(slot1, slot2)
 	slot7 = slot6.y
@@ -2272,6 +2293,9 @@ function slot0.AddOutlines(slot0, slot1, slot2, slot3, slot4, slot5)
 			end) then
 				slot17 = 2 * slot12.row + uv0[slot16][1]
 				slot18 = 2 * slot12.column + uv0[slot16][2]
+
+				assert(not slot6[slot17 .. "_" .. slot18], "Multiple outline")
+
 				slot6[slot17 .. "_" .. slot18] = {
 					row = slot17,
 					column = slot18,
@@ -2487,6 +2511,9 @@ function slot0.CreateEdge(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot8 = slot0.contextData.chapterVO
 	slot9 = slot8.theme:GetLinePosition(slot2.row, slot2.column)
 	slot10 = slot8.theme.cellSize
+
+	assert(slot6, "Missing key, Please PM Programmer")
+
 	slot11 = 1
 	slot12 = 0
 
@@ -2560,6 +2587,9 @@ function slot0.CreateOutlines(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	for slot11, slot12 in pairs(slot1) do
 		slot14 = slot6.theme:GetLinePosition(slot12.row / 2, slot12.column / 2)
+
+		assert(slot5, "Missing key, Please PM Programmer")
+
 		slot15 = slot0.CreateEdgeIndex(slot12.row, slot12.column, 0, slot5)
 		slot0.cellEdges[slot5] = slot0.cellEdges[slot5] or {}
 		slot0.cellEdges[slot5][slot15] = slot0.cellEdges[slot5][slot15] or tf(slot0:GetEdgePool(slot5):Dequeue())
@@ -2611,6 +2641,9 @@ function slot0.CreateOutlineCorners(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	for slot10, slot11 in pairs(slot1) do
 		slot13 = slot6.theme:GetLinePosition(slot11.row + uv0[slot11.corner][1] * 0.5, slot11.column + uv0[slot11.corner][2] * 0.5)
+
+		assert(slot5, "Missing key, Please PM Programmer")
+
 		slot14 = slot0.CreateEdgeIndex(slot11.row, slot11.column, slot11.corner, slot5)
 		slot0.cellEdges[slot5] = slot0.cellEdges[slot5] or {}
 		slot0.cellEdges[slot5][slot14] = slot0.cellEdges[slot5][slot14] or tf(slot0:GetEdgePool(slot5):Dequeue())
@@ -2646,7 +2679,11 @@ function slot0.InitIdolsAnim(slot0)
 
 	for slot7, slot8 in ipairs(slot2.sd_location) do
 		slot0.idols = slot0.idols or {}
-		slot11 = AttachmentSpineAnimationCell.New(slot0.cellRoot:Find(ChapterCell.Line2Name(slot8[1][1], slot8[1][2]) .. "/" .. ChapterConst.ChildAttachment))
+		slot10 = slot0.cellRoot:Find(ChapterCell.Line2Name(slot8[1][1], slot8[1][2]) .. "/" .. ChapterConst.ChildAttachment)
+
+		assert(slot10, "cant find attachment")
+
+		slot11 = AttachmentSpineAnimationCell.New(slot10)
 
 		slot11:SetLine({
 			row = slot8[1][1],

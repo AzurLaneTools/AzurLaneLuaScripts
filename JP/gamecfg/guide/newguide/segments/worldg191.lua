@@ -45,7 +45,7 @@ return {
 				dir = 1,
 				posX = -448.3,
 				ui = {
-					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/current/time"
 				}
 			}
 		},
@@ -58,7 +58,7 @@ return {
 				dir = 1,
 				posX = -402.4,
 				ui = {
-					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/current/time"
 				}
 			}
 		},
@@ -72,7 +72,7 @@ return {
 				posX = -495
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/useItem/list/tpl",
+				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/current",
 				triggerType = {
 					1
 				},

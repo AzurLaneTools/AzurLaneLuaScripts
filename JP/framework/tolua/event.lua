@@ -69,7 +69,9 @@ slot13 = {
 }
 
 function slot13.Add(slot0, slot1, slot2)
-	slot1 = (not slot0.keepSafe or uv0(slot1, slot2)) and uv1(uv0(slot1, slot2), slot2)
+	uv0(slot1)
+
+	slot1 = (not slot0.keepSafe or uv1(slot1, slot2)) and uv2(uv1(slot1, slot2), slot2)
 
 	if slot0.lock then
 		table.insert(slot0.opList, function ()
@@ -113,6 +115,8 @@ function slot13.CreateListener(slot0, slot1, slot2)
 end
 
 function slot13.AddListener(slot0, slot1)
+	uv0(slot1)
+
 	if slot0.lock then
 		table.insert(slot0.opList, function ()
 			uv0.list:pushnode(uv1)
@@ -123,6 +127,8 @@ function slot13.AddListener(slot0, slot1)
 end
 
 function slot13.RemoveListener(slot0, slot1)
+	uv0(slot1)
+
 	if slot0.lock then
 		table.insert(slot0.opList, function ()
 			uv0.list:remove(uv1)

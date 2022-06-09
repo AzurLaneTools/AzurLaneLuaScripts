@@ -35,6 +35,8 @@ function slot0.Init(slot0, slot1)
 end
 
 function slot0.Notification(slot0, slot1)
+	assert(slot1.condition)
+
 	if slot1.condition() then
 		if not slot0.isInited then
 			slot0:Init(function ()

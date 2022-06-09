@@ -505,6 +505,14 @@ function slot9.SetProficiencyList(slot0, slot1)
 	slot0._proficiencyList = slot1
 end
 
+function slot9.SetSpWeapon(slot0, slot1)
+	slot0._spWeapon = slot1
+end
+
+function slot9.GetSpWeapon(slot0)
+	return slot0._spWeapon
+end
+
 function slot9.setWeapon(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		for slot11, slot12 in ipairs(slot6.equipment.weapon_id) do
@@ -517,6 +525,7 @@ function slot9.setWeapon(slot0, slot1)
 
 					slot0._weaponQueue:AppendWeapon(slot13)
 				elseif slot14 ~= uv1.EquipmentType.STRIKE_AIRCRAFT then
+					assert(#slot7 < 2, "自动武器一组不允许配置多个")
 					slot0:AddAutoWeapon(slot13)
 				end
 
@@ -599,9 +608,15 @@ function slot9.RemoveAutoWeaponByWeaponID(slot0, slot1)
 end
 
 function slot9.RemoveAllAutoWeapon(slot0)
-	for slot4, slot5 in ipairs(slot0._autoWeaponList) do
-		slot5:Clear()
-		slot0:RemoveAutoWeapon(slot5)
+	slot1 = #slot0._autoWeaponList
+
+	while slot1 > 0 do
+		slot2 = slot0._autoWeaponList[slot1]
+
+		slot2:Clear()
+		slot0:RemoveAutoWeapon(slot2)
+
+		slot1 = slot1 - 1
 	end
 end
 

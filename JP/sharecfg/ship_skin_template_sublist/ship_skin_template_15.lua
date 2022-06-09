@@ -1,5 +1,235 @@
 pg = pg or {}
 pg.ship_skin_template_15 = {
+	[601050] = {
+		ship_group = 60105,
+		name = "リベッチオ",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 601050,
+		group_index = 0,
+		prefab = "xinanfeng",
+		painting = "xinanfeng",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "マエストラーレ級駆逐艦・リベッチオ",
+		voice_actor = 268,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.169,
+					1.007,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.153,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.201,
+					0.991,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.503,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[601051] = {
+		ship_group = 60105,
+		name = "水兵は南西へ！",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		id = 601051,
+		group_index = 1,
+		prefab = "xinanfeng_2",
+		painting = "xinanfeng_2",
+		shop_id = 70535,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 6,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "リベッチオ、海に向けてしゅっぱーつ！指揮官さんも一緒に、いっちばん人が集まっているところに行こう！",
+		voice_actor = 268,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.272,
+					0.991,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.282,
+					1.002,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.019,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.27,
+					0.996,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[601060] = {
 		ship_group = 60106,
 		name = "ニコロソ・ダ・レッコ",
@@ -6862,7 +7092,7 @@ pg.ship_skin_template_15 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -9276,222 +9506,6 @@ pg.ship_skin_template_15 = {
 							-0.423,
 							2.288,
 							0.53
-						}
-					}
-				}
-			}
-		}
-	},
-	[705061] = {
-		ship_group = 70506,
-		name = "フライ・アナザー・デイ",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "154",
-		id = 705061,
-		group_index = 1,
-		prefab = "aerhangeersike_2",
-		painting = "aerhangeersike_2",
-		shop_id = 70671,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 12,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "怪盗アルハンゲリスク、あなたのお宝を優雅に頂いていくわ！私を捕まえたいというのなら……ほら、じっと見てないでついてらっしゃい！",
-		voice_actor = 306,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.569,
-					1.449,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.498,
-					1.255,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.418,
-					1.46,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.369,
-							2.343,
-							0.53
-						}
-					}
-				}
-			}
-		}
-	},
-	[707010] = {
-		ship_group = 70701,
-		name = "ヴォルガ",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 707010,
-		group_index = 0,
-		prefab = "fuerjia",
-		painting = "fuerjia",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "72型空母-ヴォルガ",
-		voice_actor = 307,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.102,
-					1.651,
-					0
-				}
-			},
-			plane = {
-				{
-					2.156,
-					1.781,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.461,
-							2.503,
-							-1.89
 						}
 					}
 				}

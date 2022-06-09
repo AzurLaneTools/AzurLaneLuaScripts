@@ -15,6 +15,8 @@ function slot3.Ctor(slot0, slot1, slot2)
 end
 
 function slot3.SetUnitRef(slot0, slot1)
+	assert(slot1, "Shounld Bind A Unit")
+
 	slot0._unit = slot1
 end
 

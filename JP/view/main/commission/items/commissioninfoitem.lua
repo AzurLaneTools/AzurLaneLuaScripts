@@ -117,12 +117,15 @@ function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
 end
 
 function slot0.GetList(slot0)
+	assert(false)
 end
 
 function slot0.OnSkip(slot0)
+	assert(false)
 end
 
 function slot0.OnFinishAll(slot0)
+	assert(false)
 end
 
 function slot0.emit(slot0, ...)

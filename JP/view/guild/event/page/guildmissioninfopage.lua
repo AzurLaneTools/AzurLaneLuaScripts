@@ -6,7 +6,8 @@ function slot0.AttrCnt2Desc(slot0, slot1)
 end
 
 function slot0.AttrAcc2Desc(slot0, slot1)
-	slot2 = pg.attribute_info_by_type[slot0]
+	assert(pg.attribute_info_by_type[slot0], slot0)
+
 	slot3 = nil
 
 	if slot1.op == 1 then
@@ -14,6 +15,8 @@ function slot0.AttrAcc2Desc(slot0, slot1)
 	elseif slot1.op == 2 then
 		slot3 = slot1.value <= slot1.goal and COLOR_GREEN or COLOR_RED
 	end
+
+	assert(slot3)
 
 	return i18n("guild_event_info_desc2", slot2.condition, slot3, slot1.value, slot1.goal)
 end
@@ -295,6 +298,8 @@ function slot0.AddRefreshProgressTimer(slot0)
 	slot1 = slot0.mission
 
 	if not slot1:IsFinish() and slot1:GetTotalTimeCost() > 0 then
+		assert(slot2 > 900, slot2)
+
 		slot0.refreshTimer = Timer.New(function ()
 			uv0:RemoveRefreshTimer()
 			uv0:emit(GuildEventMediator.FORCE_REFRESH_MISSION, uv1.id)

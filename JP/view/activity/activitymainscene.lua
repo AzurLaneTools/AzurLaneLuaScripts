@@ -180,6 +180,9 @@ end
 
 function slot0.GetOnShowEntranceData()
 	uv0 = uv0 or require("GameCfg.activity.EntranceData")
+
+	assert(uv0, "Missing EntranceData.lua!")
+
 	uv0 = uv0 or {}
 
 	return _.select(uv0, function (slot0)
@@ -257,6 +260,7 @@ function slot0.selectActivity(slot0, slot1)
 	if slot1 and (not slot0.activity or slot0.activity.id ~= slot1.id) then
 		slot2 = slot0.pageDic[slot1.id]
 
+		assert(slot2, "找不到id:" .. slot1.id .. "的活动页，请检查")
 		slot2:Load()
 		slot2:ActionInvoke("Flush", slot1)
 		slot2:ActionInvoke("ShowOrHide", true)

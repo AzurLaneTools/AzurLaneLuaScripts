@@ -58,7 +58,9 @@ function slot0.addNewEmojiID(slot0, slot1)
 end
 
 function slot0.removeNewEmojiID(slot0, slot1)
-	if table.indexof(slot0._newIDList, slot1, 1) then
+	if not table.indexof(slot0._newIDList, slot1, 1) then
+		assert(false, "new emoji list does not exit this emojiID:" .. slot1)
+	else
 		table.remove(slot0._newIDList, slot2)
 	end
 

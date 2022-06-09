@@ -40,6 +40,8 @@ function slot0.setDisplayWeapon(slot0, slot1, slot2, slot3)
 end
 
 function slot0.load(slot0, slot1, slot2, slot3, slot4)
+	assert(not slot0.loading and not slot0.loaded, "load function can be called only once.")
+
 	slot0.loading = true
 	slot0.shipVO = slot2
 

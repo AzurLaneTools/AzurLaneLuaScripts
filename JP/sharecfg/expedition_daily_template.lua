@@ -3,11 +3,12 @@ pg.expedition_daily_template = {
 	[201] = {
 		tips = "月・木・日曜日開放！",
 		limit_type = 1,
+		des = "海上通商を担う商船から敵PTボート群を引きつけ、強化パーツ報酬を手に入れろ！",
 		limit_time = 3,
 		id = 201,
 		title = "商船护送",
 		pic = "daily1",
-		des = "海上通商を担う商船から敵PTボート群を引きつけ、強化パーツ報酬を手に入れろ！",
+		sort = "1",
 		weekday = {
 			1,
 			4,
@@ -67,11 +68,12 @@ pg.expedition_daily_template = {
 	[301] = {
 		tips = "火・金・日曜日開放！",
 		limit_type = 1,
+		des = "海域に跋扈する自爆ボートを掃討し、スキル習熟訓練用の教材を捜索せよ！",
 		limit_time = 3,
 		id = 301,
 		title = "海域突进",
 		pic = "daily2",
-		des = "海域に跋扈する自爆ボートを掃討し、スキル習熟訓練用の教材を捜索せよ！",
+		sort = "2",
 		weekday = {
 			2,
 			5,
@@ -107,11 +109,12 @@ pg.expedition_daily_template = {
 	[401] = {
 		tips = "水・土・日曜日開放！",
 		limit_type = 1,
+		des = "複数に出現する敵主力艦を撃破し、装備箱を入手せよ！",
 		limit_time = 3,
 		id = 401,
 		title = "斩首行动",
 		pic = "daily3",
-		des = "複数に出現する敵主力艦を撃破し、装備箱を入手せよ！",
+		sort = "3",
 		weekday = {
 			3,
 			6,
@@ -147,11 +150,12 @@ pg.expedition_daily_template = {
 	[501] = {
 		tips = "毎日開放（毎週2回まで挑戦可能）",
 		limit_type = 2,
+		des = "潜水艦による通商破壊訓練を行い、各種潜水艦装備の設計図を入手する",
 		limit_time = 2,
 		id = 501,
 		title = "通商破壊",
 		pic = "daily5",
-		des = "潜水艦による通商破壊訓練を行い、各種潜水艦装備の設計図を入手する",
+		sort = "4",
 		weekday = {
 			1,
 			2,
@@ -191,11 +195,12 @@ pg.expedition_daily_template = {
 	[601] = {
 		tips = "战术研修每天开启",
 		limit_type = 1,
+		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
 		limit_time = 3,
 		id = 601,
 		title = "战术研修",
 		pic = "daily6",
-		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		sort = "6",
 		weekday = {
 			1,
 			2,
@@ -232,11 +237,54 @@ pg.expedition_daily_template = {
 			}
 		}
 	},
+	[701] = {
+		tips = "毎日開放（毎週2回まで挑戦可能）",
+		limit_type = 2,
+		des = "特殊装備を駆使する演習艦隊との戦闘訓練ステージになります。クリアすると特殊装備及び特殊装備に関連する素材を入手可能",
+		limit_time = 2,
+		id = 701,
+		title = "特殊装備",
+		pic = "daily7",
+		sort = "5",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		expedition_and_lv_limit_list = {
+			{
+				7000,
+				35
+			},
+			{
+				7001,
+				75
+			}
+		}
+	},
+	[801] = {
+		tips = "まだ開放されていないステージです",
+		limit_type = 0,
+		des = "まだ開放されていないステージです",
+		limit_time = 0,
+		id = 801,
+		title = "乞うご期待",
+		pic = "daily4",
+		sort = "7",
+		weekday = {},
+		expedition_and_lv_limit_list = {}
+	},
 	all = {
 		201,
 		301,
 		401,
 		501,
-		601
+		601,
+		701,
+		801
 	}
 }

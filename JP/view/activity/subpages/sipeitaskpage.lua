@@ -24,6 +24,8 @@ function slot0.OnDataSetting(slot0)
 			break
 		end
 	end
+
+	assert(slot0.taskVO, "without any taskVO!!!")
 end
 
 function slot0.OnFirstFlush(slot0)

@@ -2,7 +2,8 @@ slot0 = class("HandleGuildAndPublicGuildTechCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = getProxy(GuildProxy)
-	slot3 = slot2:GetPublicGuild()
+
+	assert(slot2:GetPublicGuild())
 
 	if not slot2:getData() then
 		return

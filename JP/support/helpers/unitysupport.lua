@@ -11,10 +11,14 @@ function rtf(slot0)
 end
 
 function findGO(slot0, slot1)
+	assert(slot0, "object or transform should exist")
+
 	return tf(slot0):Find(slot1) and slot2.gameObject
 end
 
 function findTF(slot0, slot1)
+	assert(slot0, "object or transform should exist " .. slot1)
+
 	return tf(slot0):Find(slot1)
 end
 
@@ -143,7 +147,12 @@ slot0 = true
 slot1 = -1
 
 function onButton(slot0, slot1, slot2, slot3, slot4)
-	slot6 = GetOrAddComponent(slot1, typeof(Button)).onClick
+	slot5 = GetOrAddComponent(slot1, typeof(Button))
+
+	assert(slot5, "could not found Button component on " .. slot1.name)
+	assert(slot2, "callback should exist")
+
+	slot6 = slot5.onClick
 
 	pg.DelegateInfo.Add(slot0, slot6)
 	slot6:RemoveAllListeners()
@@ -192,6 +201,8 @@ end
 slot2 = true
 
 function onToggle(slot0, slot1, slot2, slot3, slot4)
+	assert(slot2, "callback should exist")
+
 	slot6 = GetComponent(slot1, typeof(Toggle)).onValueChanged
 
 	slot6:RemoveAllListeners()
@@ -236,6 +247,7 @@ end
 function onSlider(slot0, slot1, slot2)
 	slot3 = GetComponent(slot1, typeof(Slider)).onValueChanged
 
+	assert(slot2, "callback should exist")
 	slot3:RemoveAllListeners()
 	pg.DelegateInfo.Add(slot0, slot3)
 	slot3:AddListener(slot2)
@@ -243,6 +255,9 @@ end
 
 function setSlider(slot0, slot1, slot2, slot3)
 	slot4 = GetComponent(slot0, typeof(Slider))
+
+	assert(slot4, "slider should exist")
+
 	slot4.minValue = slot1
 	slot4.maxValue = slot2
 	slot4.value = slot3
@@ -283,6 +298,7 @@ end
 function onScroll(slot0, slot1, slot2)
 	slot3 = GetComponent(slot1, typeof(ScrollRect)).onValueChanged
 
+	assert(slot2, "callback should exist")
 	slot3:RemoveAllListeners()
 	pg.DelegateInfo.Add(slot0, slot3)
 	slot3:AddListener(slot2)
@@ -317,9 +333,13 @@ function GetComponent(slot0, slot1)
 end
 
 function GetOrAddComponent(slot0, slot1)
+	assert(slot0, "objectOrTransform not found: " .. debug.traceback())
+
 	slot2 = slot1
 
 	if type(slot1) == "string" then
+		assert(_G[slot1], slot1 .. " not exist in Global")
+
 		slot2 = typeof(_G[slot1])
 	end
 
@@ -333,7 +353,11 @@ function RemoveComponent(slot0, slot1)
 end
 
 function SetCompomentEnabled(slot0, slot1, slot2)
-	slot0.GetComponent(slot0, slot1).enabled = tobool(slot2)
+	slot3 = slot0:GetComponent(slot1)
+
+	assert(slot3, "compoment not found")
+
+	slot3.enabled = tobool(slot2)
 end
 
 function GetInChildren(slot0, slot1)
@@ -610,19 +634,28 @@ function setOutlineColor(slot0, slot1)
 	GetComponent(slot0, typeof(Outline)).effectColor = slot1
 end
 
+slot3 = {}
+
 function pressPersistTrigger(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-	slot6 = defaultValue(slot6, 0.25)
+	assert(defaultValue(slot6, 0.25) > 0, "maxSpeed less than zero")
+	assert(slot0, "should exist objectOrTransform")
+
 	slot8 = GetOrAddComponent(slot0, typeof(EventTriggerListener))
-	slot9 = nil
+
+	assert(slot2, "should exist callback")
+
+	slot9 = uv0[slot0]
 
 	function slot10()
 		if uv0 then
 			uv0:Stop()
 
 			uv0 = nil
+			uv1[uv2] = nil
 		end
 	end
 
+	slot10()
 	slot8:AddPointDownFunc(function ()
 		uv0()
 
@@ -631,19 +664,18 @@ function pressPersistTrigger(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 				uv1.duration = math.max(uv1.duration - uv2 / 10, uv3)
 			end
 
-			if uv4 then
-				uv4(uv5)
-			end
+			existCall(uv4, uv5)
 		end, uv3, -1)
+		uv6[uv7] = uv1
 
 		uv1:Start()
 
-		if uv6 then
+		if uv8 then
 			uv1.func()
 		end
 
-		if uv7 and uv8 then
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv7)
+		if uv9 and uv10 then
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv9)
 		end
 	end)
 	slot8:AddPointUpFunc(function ()
@@ -654,7 +686,7 @@ function pressPersistTrigger(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 		end
 	end)
 
-	return slot8
+	return slot8, slot10
 end
 
 function getSpritePivot(slot0)

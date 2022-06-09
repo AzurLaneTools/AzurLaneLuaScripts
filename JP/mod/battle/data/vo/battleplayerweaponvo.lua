@@ -148,7 +148,7 @@ function slot3.refreshCD(slot0)
 end
 
 function slot3.RefreshReloadingBar(slot0)
-	if not slot0._reloadStartTime or #slot0._readyList ~= 0 then
+	if not slot0._reloadStartTime or #slot0._readyList ~= 0 or slot0._max == slot0._GCD then
 		return
 	end
 

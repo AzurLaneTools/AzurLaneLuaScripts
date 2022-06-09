@@ -36,6 +36,8 @@ function slot1.CheckPreCast(slot0)
 end
 
 function slot1.Fire(slot0)
+	assert(slot0._castInfo ~= nil, "需要指定施法信息，有特殊需求可默认指定为{ weapon = self }")
+
 	slot2 = slot0._tmpData.bullet_ID[1]
 	slot4 = slot0._dataProxy:GetSeqCenter():NewSeq("cast")
 	slot5 = uv0.Battle.NodeData.New(slot0._host, slot0._castInfo, slot4)

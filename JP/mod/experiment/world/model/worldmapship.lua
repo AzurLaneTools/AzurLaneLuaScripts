@@ -124,6 +124,7 @@ function slot0.GetBuff(slot0, slot1)
 end
 
 function slot0.AddBuff(slot0, slot1, slot2)
+	assert(slot1 and slot2)
 	slot0:GetBuff(slot1):AddFloor(slot2)
 
 	if slot1 == WorldConst.BrokenBuffId then
@@ -154,6 +155,7 @@ function slot0.IsBuffMax(slot0, slot1)
 end
 
 function slot0.Rebirth(slot0)
+	assert(slot0.hpRant <= 0)
 	slot0:UpdateHpRant(pg.gameset.world_death_hpfix.key_value)
 	slot0:AddBuff(WorldConst.BrokenBuffId, 1)
 end

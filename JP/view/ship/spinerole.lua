@@ -26,6 +26,8 @@ function slot0.Load(slot0, slot1, slot2)
 	slot3 = PoolMgr.GetInstance()
 
 	slot3:GetSpineChar(slot0.prefabName, slot2, function (slot0)
+		assert(slot0, "没有这个角色的模型  " .. uv0.prefabName)
+
 		if uv0.state == uv1.STATE_DISPOSE then
 			PoolMgr.GetInstance():ReturnSpineChar(uv0.prefabName, slot0)
 		else

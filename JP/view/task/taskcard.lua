@@ -60,6 +60,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.update(slot0, slot1)
+	assert(isa(slot1, Task), "should be an instance of Task")
+
 	slot0.taskVO = slot1
 
 	if slot1.id == 10302 then

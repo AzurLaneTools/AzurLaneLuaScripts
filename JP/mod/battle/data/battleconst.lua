@@ -198,7 +198,8 @@ slot0.BulletOutBound = {
 slot0.AOEField = {
 	SURFACE = 1,
 	UNDER_WATER = 2,
-	AIR = 3
+	AIR = 3,
+	BULLET = 4
 }
 slot0.AreaType = {
 	CUBE = 1,

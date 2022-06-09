@@ -30,7 +30,7 @@ end
 
 function slot0.updatePageState(slot0, slot1)
 	if slot1 ~= uv0.STATE_HOME and slot1 ~= uv0.STATE_SELECT_POOL and slot1 ~= uv0.STAGE_SELECT_SHIP and slot1 ~= uv0.STAGE_BUILD_SUCCESS then
-		-- Nothing
+		assert(false, "没有定义的pageState参数" .. slot1)
 	end
 
 	slot0.pageState = slot1
@@ -38,7 +38,7 @@ end
 
 function slot0.insertSelectedShipIDList(slot0, slot1)
 	if slot0.selectedShipCount == slot0.needSelectShipCount then
-		-- Nothing
+		assert(false, "已选舰娘已经达到上限,不允许插入")
 	end
 
 	slot0.selectedShipIDList[#slot0.selectedShipIDList + 1] = slot1
@@ -47,7 +47,7 @@ end
 
 function slot0.removeSelectedShipIDList(slot0, slot1)
 	if slot0.selectedShipCount == 0 then
-		-- Nothing
+		assert(false, "没有已选舰娘,不允许删除")
 	end
 
 	slot2 = nil
@@ -63,7 +63,7 @@ function slot0.removeSelectedShipIDList(slot0, slot1)
 	end
 
 	if not slot2 then
-		-- Nothing
+		assert(false, "已选列表不存在该ID的舰娘")
 	end
 end
 

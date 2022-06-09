@@ -99,8 +99,8 @@ function slot0.doGuideStep(slot0, slot1, slot2)
 
 	slot3 = slot0.stepConfig.segment[slot0:getSegmentIndex()]
 	slot4 = slot3[1]
-	slot5 = slot3[2]
 
+	assert(slot3[2], "protocol can not be nil")
 	seriesAsync({
 		function (slot0)
 			uv0.guideMgr:play(uv1, uv2.code, slot0, function ()
@@ -161,6 +161,8 @@ function slot0.checkCondition(slot0, slot1)
 		slot4, slot3 = slot2.condition.func(getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character))
 		slot0.stepConfig.condition = nil
 	end
+
+	assert(slot3, "index can not be nil")
 
 	return slot4, slot3
 end

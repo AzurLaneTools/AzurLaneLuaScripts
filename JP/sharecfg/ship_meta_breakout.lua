@@ -256,6 +256,73 @@ pg.ship_meta_breakout = {
 		pre_id = 9704023,
 		weapon_ids = {}
 	},
+	[9704031] = {
+		breakout_view = "【炬火の力-レパルス】習得/主砲砲座+1/主砲補正+5%",
+		gold = 1000,
+		breakout_id = 9704032,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9704031,
+		item1 = 21012,
+		pre_id = 0,
+		weapon_ids = {
+			24100,
+			24100
+		}
+	},
+	[9704032] = {
+		breakout_view = "副砲砲座+2/主砲補正+10%",
+		gold = 3000,
+		breakout_id = 9704033,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9704032,
+		item1 = 21012,
+		pre_id = 9704031,
+		weapon_ids = {
+			21200,
+			21200,
+			21200
+		}
+	},
+	[9704033] = {
+		breakout_view = "【炬火の力-レパルス】強化/主砲砲座+1/主砲補正+15%",
+		gold = 10000,
+		breakout_id = 9704034,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9704033,
+		item1 = 21012,
+		pre_id = 9704032,
+		weapon_ids = {
+			24100,
+			24100,
+			24100
+		}
+	},
+	[9704034] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9704034,
+		item1 = 21012,
+		pre_id = 9704033,
+		weapon_ids = {}
+	},
 	[9705011] = {
 		breakout_view = "【炬火の力-扶桑】習得/主砲砲座+1/主砲補正+5%",
 		gold = 500,
@@ -751,6 +818,10 @@ pg.ship_meta_breakout = {
 		9704022,
 		9704023,
 		9704024,
+		9704031,
+		9704032,
+		9704033,
+		9704034,
 		9705011,
 		9705012,
 		9705013,

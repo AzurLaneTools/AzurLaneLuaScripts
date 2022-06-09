@@ -90,27 +90,35 @@ function slot0.GetEffectAttrs(slot0)
 end
 
 function slot0.GetName(slot0)
+	assert(false)
 end
 
 function slot0.getHourProduct(slot0)
+	assert(false)
 end
 
 function slot0.GetKeyWord(slot0)
+	assert(false)
 end
 
 function slot0.bindConfigTable(slot0)
+	assert(false)
 end
 
 function slot0.GetUpgradeType(slot0)
+	assert(false)
 end
 
 function slot0.GetResourceType(slot0)
+	assert(false)
 end
 
 function slot0.GetDesc(slot0)
+	assert(false)
 end
 
 function slot0.GetPlayerRes(slot0)
+	assert(false)
 end
 
 function slot0.HasRes(slot0)

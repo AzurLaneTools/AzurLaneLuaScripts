@@ -136,6 +136,8 @@ function slot0.getSkinId(slot0)
 	if slot0.type == Goods.TYPE_SKIN then
 		return slot0:getConfig("effect_args")[1]
 	end
+
+	assert(false)
 end
 
 function slot0.getDropInfo(slot0)

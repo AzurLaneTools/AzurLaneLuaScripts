@@ -85,6 +85,8 @@ function slot0.isUnlockFloor(slot0, slot1)
 end
 
 function slot0.setFloorNum(slot0, slot1)
+	assert(slot1 <= uv0.MAX_FLOOR, "floornum more than max" .. slot1)
+
 	slot0.floorNum = slot1
 end
 
@@ -333,10 +335,14 @@ function slot0.GetNonStateShips(slot0, slot1)
 end
 
 function slot0.addFurniture(slot0, slot1)
+	assert(slot0.furnitures[slot1.id] == nil, "furniture already exist")
+
 	slot0.furnitures[slot1.id] = slot1
 end
 
 function slot0.updateFurniture(slot0, slot1)
+	assert(slot0.furnitures[slot1.id], "furniture should exist")
+
 	slot0.furnitures[slot1.id] = slot1
 end
 
@@ -420,6 +426,8 @@ function slot0.GenUniqueID(slot0, slot1)
 	else
 		return slot1.id
 	end
+
+	assert(false)
 end
 
 function slot0.GetCanPutFurnitureForTheme(slot0, slot1)

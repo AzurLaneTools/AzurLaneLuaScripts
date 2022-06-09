@@ -9,7 +9,11 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if getProxy(PlayerProxy):getData().gold < pg.transform_data_template[slot4].use_gold then
+	slot8 = pg.transform_data_template[slot4]
+
+	assert(slot8, "transform_data_template>>>." .. slot4)
+
+	if getProxy(PlayerProxy):getData().gold < slot8.use_gold then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
@@ -250,32 +254,44 @@ function slot0.execute(slot0, slot1)
 				end
 
 				uv0:updateName()
+
+				if uv0:GetSpWeapon() and not uv0:CanEquipSpWeapon(slot7) then
+					uv0:UpdateSpWeapon(nil)
+					getProxy(EquipmentProxy):AddSpWeapon(slot7)
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", slot7:GetName()), "red")
+				end
+
 				uv10:updateShip(uv0)
 
-				slot7 = getProxy(EquipmentProxy)
-				slot8 = ipairs
-				slot9 = uv11 or {}
+				slot8 = getProxy(EquipmentProxy)
+				slot9 = ipairs
+				slot10 = uv11 or {}
 
-				for slot11, slot12 in slot8(slot9) do
-					for slot17, slot18 in ipairs(uv10:getShipById(slot12).equipments) do
-						if slot18 then
-							slot7:addEquipment(slot18)
+				for slot12, slot13 in slot9(slot10) do
+					for slot18, slot19 in ipairs(uv10:getShipById(slot13).equipments) do
+						if slot19 then
+							slot8:addEquipment(slot19)
 						end
 
-						if slot13:getEquipSkin(slot17) ~= 0 then
-							slot7:addEquipmentSkin(slot13:getEquipSkin(slot17), 1)
+						if slot14:getEquipSkin(slot18) ~= 0 then
+							slot8:addEquipmentSkin(slot14:getEquipSkin(slot18), 1)
 							pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 						end
 					end
 
-					uv10:removeShipById(slot12)
+					if slot14:GetSpWeapon() then
+						slot14:UpdateSpWeapon(nil)
+						slot8:AddSpWeapon(slot15)
+					end
+
+					uv10:removeShipById(slot13)
 				end
 
-				slot8 = {}
+				slot9 = {}
 
-				for slot12, slot13 in ipairs(uv0.equipments) do
-					if slot13 and not uv0:canEquipAtPos(slot13, slot12) then
-						table.insert(slot8, function (slot0)
+				for slot13, slot14 in ipairs(uv0.equipments) do
+					if slot14 and not uv0:canEquipAtPos(slot14, slot13) then
+						table.insert(slot9, function (slot0)
 							uv0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
 								shipId = uv1.id,
 								pos = uv2,
@@ -285,7 +301,7 @@ function slot0.execute(slot0, slot1)
 					end
 				end
 
-				seriesAsync(slot8, function ()
+				seriesAsync(slot9, function ()
 					uv0:sendNotification(GAME.REMOULD_SHIP_DONE, {
 						ship = uv1:getShipById(uv2),
 						awards = uv3

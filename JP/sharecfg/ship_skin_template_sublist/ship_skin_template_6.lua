@@ -1,5 +1,235 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
+	[202124] = {
+		ship_group = 20212,
+		name = "メイド長とお買い物",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "104",
+		id = 202124,
+		group_index = 4,
+		prefab = "beierfasite_4",
+		painting = "beierfasite_4",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9,
+		illustrator = 20,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ふふ、ご主人様の表情から察するに、どうやらこの格好に大変満足いただけたご様子ですね。貴重なお時間を使った「デート」、このベルファスト、誠心誠意ご奉仕いたします",
+		voice_actor = 39,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			-11,
+			-170,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					1.23,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					1.22,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.009,
+					0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.148,
+					1.146,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.423,
+							2.327,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202125] = {
+		ship_group = 20212,
+		name = "完璧すぎる代理店長",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202125,
+		group_index = 5,
+		prefab = "beierfasite_7",
+		painting = "beierfasite_7",
+		shop_id = 70364,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 20,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "いらっしゃいませ。お一人様ですか？かしこまりました、席にご案内致します――あら、どうかしましたか？はぁ…今は店長代理を務めておりますので、ご主人様ではなく「お客様」としておもてなししておりますが？",
+		voice_actor = 39,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			-11,
+			-170,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.119,
+					1.106,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					1.104,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.148,
+					1.146,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.423,
+							2.327,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202126] = {
 		ship_group = 20212,
 		name = "傾城の華扇",
@@ -131,7 +361,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 20,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -998,7 +1228,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -2028,7 +2258,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -2372,7 +2602,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -2716,7 +2946,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -6404,7 +6634,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 15,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -6892,7 +7122,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -7632,7 +7862,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -7746,7 +7976,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 18,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8103,7 +8333,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 18,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -9377,7 +9607,7 @@ pg.ship_skin_template_6 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 11,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -9462,256 +9692,6 @@ pg.ship_skin_template_6 = {
 						{
 							-0.33,
 							2.5,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[204040] = {
-		ship_group = 20404,
-		name = "リトル・レナウン",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 204040,
-		group_index = 0,
-		prefab = "shengwang_younv",
-		painting = "shengwang_younv",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 11,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "レナウン級巡洋戦艦・レナウン (HMS Renown)",
-		voice_actor = 9,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.015,
-					1.165,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.407,
-					0.613,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.407,
-					0.613,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.832,
-							0.566,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.608,
-							0.741,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[205010] = {
-		ship_group = 20501,
-		name = "クイーン・エリザベス",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 205010,
-		group_index = 0,
-		prefab = "yilishabai",
-		painting = "yilishabai",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 19,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "クイーンエリザベス級戦艦・クイーンエリザベス(HMS Queen Elizabeth）",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.106,
-					1.3,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.591,
-					1.589,
-					0
-				},
-				{
-					0.688,
-					1.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.591,
-					1.589,
-					0
-				},
-				{
-					0.688,
-					1.12,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.824,
-							0.443,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.581,
-							0.535,
 							0
 						}
 					}

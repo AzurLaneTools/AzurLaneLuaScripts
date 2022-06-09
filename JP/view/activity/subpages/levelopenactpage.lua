@@ -105,6 +105,8 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 		onButton(slot0, slot1, function ()
 			uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 		end, SFX_PANEL)
+	else
+		assert(false, "task status error:" .. slot2.id)
 	end
 end
 

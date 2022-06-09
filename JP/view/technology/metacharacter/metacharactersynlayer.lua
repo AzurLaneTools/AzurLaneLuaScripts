@@ -52,8 +52,6 @@ function slot0.updateData(slot0)
 	slot0.curShipVO = getProxy(BayProxy):getShipById(slot0.curMetaShipID)
 	slot0.curMetaCharacterVO = slot0.curShipVO:getMetaCharacter()
 	slot0.curMetaProgressVO = getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0.curMetaCharacterVO.id)
-
-	slot0.curMetaProgressVO:updateDataAfterActOP()
 end
 
 function slot0.findUI(slot0)
@@ -74,17 +72,17 @@ function slot0.findUI(slot0)
 	slot0.spaceH = GetComponent(slot0.taskTplContainer, "VerticalLayoutGroup").spacing
 	slot0.topH = GetComponent(slot0.taskTplContainer, "VerticalLayoutGroup").padding.top
 	slot0.scrollSC = GetComponent(slot0:findTF("Scroll", slot0.taskPanel), "ScrollRect")
+	slot0.actTimePanel = slot0:findTF("TaskPanel/ActTimePanel")
 	slot0.actTimeText = slot0:findTF("TaskPanel/ActTimePanel/Text")
 end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.getAllBtn, function ()
-		slot1, slot2 = uv0:getOneStepPTAwardLevelAndCount()
+		slot0, slot1 = uv0:getOneStepPTAwardLevelAndCount()
 
-		pg.m02:sendNotification(GAME.ACT_NEW_PT, {
-			cmd = 4,
-			activity_id = uv0.curMetaProgressVO.metaPtData:GetId(),
-			arg1 = slot2
+		pg.m02:sendNotification(GAME.GET_META_PT_AWARD, {
+			groupID = uv0.curMetaProgressVO.id,
+			targetCount = slot1
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getAllBtnDisable, function ()
@@ -97,7 +95,7 @@ function slot0.addListener(slot0)
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = {
 				count = 0,
-				type = DROP_TYPE_RESOURCE,
+				type = DROP_TYPE_ITEM,
 				id = uv0.curMetaProgressVO.metaPtData.resId
 			}
 		})
@@ -109,7 +107,11 @@ function slot0.TryPlayGuide(slot0)
 end
 
 function slot0.updateActTimePanel(slot0)
-	setText(slot0.actTimeText, i18n("meta_pt_left", pg.TimeMgr.GetInstance():DiffDay(pg.TimeMgr.GetInstance():GetServerTime(), pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.curMetaProgressVO.metaAct:getConfig("time")[3]))))
+	if type(slot0.curMetaProgressVO.timeConfig) == "string" then
+		setActive(slot0.actTimePanel, false)
+	elseif type(slot1.timeConfig) == "table" then
+		setText(slot0.actTimeText, i18n("meta_pt_left", pg.TimeMgr.GetInstance():DiffDay(pg.TimeMgr.GetInstance():GetServerTime(), pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1.timeConfig[2]))))
+	end
 end
 
 function slot0.updateShipImg(slot0)

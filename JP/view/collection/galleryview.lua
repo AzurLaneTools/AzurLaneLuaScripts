@@ -689,6 +689,8 @@ end
 function slot0.getPicConfigForShowByIndex(slot0, slot1)
 	if slot0.picForShowConfigList[slot1] then
 		return slot2
+	else
+		assert(false, "不存在的Index:" .. tostring(slot1))
 	end
 end
 

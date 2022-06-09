@@ -1242,7 +1242,7 @@ pg.ship_skin_template_3 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 10,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -3552,7 +3552,7 @@ pg.ship_skin_template_3 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -5148,7 +5148,7 @@ pg.ship_skin_template_3 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 8,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -5380,7 +5380,7 @@ pg.ship_skin_template_3 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 8,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -7601,6 +7601,120 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105178] = {
+		ship_group = 10517,
+		name = "スノーブライドラブ",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 105178,
+		group_index = 8,
+		prefab = "xinzexi_h",
+		painting = "xinzexi_h",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9998,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "最大最強…じゃなくて、最愛最高のウエディング姿のニュージャージー、登場よ！ふふふ、見惚れた？そりゃハニーが見惚れないはずがないよね♪",
+		voice_actor = 273,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.55,
+					1.17,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.41,
+					1.26,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.4,
+					1.16,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.591,
+							2.488,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[105190] = {
 		ship_group = 10519,
 		name = "マサチューセッツ",
@@ -8301,7 +8415,7 @@ pg.ship_skin_template_3 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 13,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8527,7 +8641,7 @@ pg.ship_skin_template_3 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8979,7 +9093,7 @@ pg.ship_skin_template_3 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 10,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -9352,126 +9466,6 @@ pg.ship_skin_template_3 = {
 							-0.54,
 							2.404,
 							-0.4
-						}
-					}
-				}
-			}
-		}
-	},
-	[107030] = {
-		ship_group = 10703,
-		name = "サラトガ",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 107030,
-		group_index = 0,
-		prefab = "salatuojia",
-		painting = "salatuojia",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 10,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "レキシントン級航空母艦・サラトガ（CV-3)",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.772,
-					0.605,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.772,
-					0.605,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.772,
-					0.605,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.887,
-							1.243,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.642,
-							1.068,
-							0
 						}
 					}
 				}

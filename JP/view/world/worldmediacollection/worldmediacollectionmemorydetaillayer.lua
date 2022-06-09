@@ -6,6 +6,7 @@ end
 
 function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
+	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 	setActive(slot0._tf:Find("ItemRect/TitleRecord"), false)
 	setActive(slot0._tf:Find("ItemRect/TitleMemory"), true)
 
@@ -92,10 +93,11 @@ function slot0.PlayMemory(slot0, slot1)
 			setActive(uv0.memoryMask, false)
 		end, true)
 	elseif slot1.type == 2 then
+		assert(pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot1.story) and slot2 ~= 0, "Missing Story Stage ID: " .. (slot1.story or "NIL"))
 		slot0:emit(WorldMediaCollectionMediator.BEGIN_STAGE, {
 			memory = true,
 			system = SYSTEM_PERFORM,
-			stageId = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot1.story)
+			stageId = slot2
 		})
 	end
 end

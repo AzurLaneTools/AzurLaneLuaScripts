@@ -8,8 +8,7 @@ function slot0.Update(slot0)
 	slot1 = slot0.info
 
 	if IsNil(slot0.go) then
-		slot2 = pg.box_data_template[slot1.attachmentId]
-
+		assert(pg.box_data_template[slot1.attachmentId], "box_data_template not exist: " .. slot1.attachmentId)
 		slot0:PrepareBase("box_" .. slot1.attachmentId)
 
 		slot4, slot5 = nil

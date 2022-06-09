@@ -1,5 +1,141 @@
 pg = pg or {}
 pg.enemy_data_statistics_100 = {
+	[10041006] = {
+		cannon = 7,
+		name = "量産型ナガラ級",
+		antiaircraft_growth = 1440,
+		speed_growth = 0,
+		pilot_ai_template_id = 20005,
+		air = 0,
+		air_growth = 0,
+		dodge = 0,
+		luck = 0,
+		id = 10041006,
+		cannon_growth = 540,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 2,
+		hit = 8,
+		antisub_growth = 0,
+		rarity = 1,
+		fog_fx = "",
+		base = 90107,
+		durability = 190,
+		armor_growth = 0,
+		torpedo_growth = 1296,
+		antiaircraft = 75,
+		hit_growth = 120,
+		armor = 0,
+		speed = 15,
+		torpedo = 16,
+		antisub = 0,
+		durability_growth = 7200,
+		luck_growth = 0,
+		battle_unit_type = 25,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			100316,
+			313092,
+			100406
+		}
+	},
+	[10041007] = {
+		cannon = 7,
+		name = "量産型クマ級",
+		battle_unit_type = 25,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		luck = 0,
+		id = 10041007,
+		reload = 150,
+		luck_growth = 0,
+		hit_growth = 120,
+		dodge_growth = 0,
+		icon = "changliangdanchuan",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90109,
+		durability = 245,
+		armor_growth = 0,
+		torpedo_growth = 1296,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		prefab = "changliangdanchuan",
+		cannon_growth = 540,
+		pilot_ai_template_id = 20005,
+		fog_fx = "",
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 16,
+		durability_growth = 7500,
+		antiaircraft = 75,
+		antiaircraft_growth = 1440,
+		bound_bone = {
+			cannon = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.17,
+					0.35,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			490009,
+			100427
+		}
+	},
 	[10041008] = {
 		cannon = 7,
 		name = "量産型センダイ級",
@@ -754,84 +890,6 @@ pg.enemy_data_statistics_100 = {
 		equipment_list = {
 			510027,
 			510028
-		}
-	},
-	[10041026] = {
-		cannon = 12,
-		name = "シラヌイ",
-		antiaircraft_growth = 1638,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		air_growth = 0,
-		dodge = 15,
-		luck = 0,
-		id = 10041026,
-		cannon_growth = 468,
-		reload_growth = 0,
-		dodge_growth = 222,
-		reload = 150,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 2,
-		fog_fx = "",
-		base = 90170,
-		durability = 1100,
-		armor_growth = 0,
-		torpedo_growth = 4491,
-		antiaircraft = 85,
-		hit_growth = 210,
-		armor = 0,
-		speed = 30,
-		torpedo = 84,
-		antisub = 0,
-		durability_growth = 23500,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			510029,
-			510030
-		}
-	},
-	[10041027] = {
-		cannon = 12,
-		name = "キサラギ",
-		reload = 150,
-		cannon_growth = 468,
-		hit_growth = 210,
-		air = 0,
-		speed_growth = 0,
-		dodge = 15,
-		base = 90156,
-		speed = 30,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 222,
-		luck_growth = 0,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		air_growth = 0,
-		torpedo = 84,
-		durability = 1100,
-		armor_growth = 0,
-		durability_growth = 21000,
-		antiaircraft = 85,
-		antiaircraft_growth = 1638,
-		armor = 0,
-		id = 10041027,
-		battle_unit_type = 50,
-		antisub = 0,
-		torpedo_growth = 4491,
-		fog_fx = "",
-		equipment_list = {
-			510031,
-			510032
 		}
 	}
 }

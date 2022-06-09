@@ -44,7 +44,7 @@ end
 
 function slot1.checkCharByIndex(slot0)
 	for slot4 = 1, #slot0.sortedItems do
-		slot5 = math.min(slot4 + 1, #slot0.sortedItems)
+		assert(slot0.sortedItems[math.min(slot4 + 1, #slot0.sortedItems)].posZ <= slot0.sortedItems[slot4].posZ, "舰娘插入队列位置错误")
 	end
 end
 
@@ -185,6 +185,7 @@ function slot1.AddItemAndDepend(slot0, slot1)
 	end
 
 	table.insert(slot0.sortedItems, slot1)
+	assert(slot1.sortedFlag ~= sortedFlag, "依赖关系产生了循环！")
 
 	slot1.sortedFlag = slot0.sortedFlag
 end

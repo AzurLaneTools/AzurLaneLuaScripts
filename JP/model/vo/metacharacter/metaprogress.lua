@@ -14,21 +14,33 @@ function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot0.id
 	slot0.metaType = slot0:getConfig("type")
 	slot0.actID = slot0:getConfig("activity_id")
-	slot0.metaAct = nil
 	slot0.metaShipVO = nil
 
 	if slot0:isPtType() then
 		slot0.unlockPTNum = slot0:getConfig("synchronize")
 		slot0.unlockPTLevel = nil
-		slot0.metaPtData = nil
+		slot0.metaPtData = MetaPTData.New({
+			group_id = slot0.id
+		})
+		slot2 = nil
+
+		for slot6, slot7 in pairs(pg.world_joint_boss_template) do
+			if slot7.meta_id == slot0.id then
+				slot2 = slot7
+
+				break
+			end
+		end
+
+		if slot2 then
+			slot0.timeConfig = slot2.state
+		end
 	end
 end
 
 function slot0.updateMetaPtData(slot0, slot1)
 	if slot0.metaPtData then
-		slot0.metaPtData:Update(slot0.metaAct)
-	else
-		slot0.metaPtData = ActivityPtData.New(slot0.metaAct)
+		slot0.metaPtData:Update(slot1)
 	end
 end
 
@@ -39,7 +51,52 @@ function slot0.getSynRate(slot0)
 end
 
 function slot0.getStoryIndexList(slot0)
-	return slot0.metaAct:getDataConfig("unlock_story")
+	return slot0:getConfig("unlock_story") or {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	}
 end
 
 function slot0.getCurLevelStoryIndex(slot0)
@@ -112,8 +169,18 @@ function slot0.getMetaProgressPTState(slot0)
 	end
 end
 
+function slot0.IsGotAllAwards(slot0)
+	return slot0:isInAct() and slot0:isInArchive() and not slot0.metaPtData:CanGetNextAward()
+end
+
 function slot0.getRepairRateFromMetaCharacter(slot0)
-	return slot0.metaShipVO.metaCharacter:getRepairRate()
+	assert(slot0.metaShipVO, "metaShipVO is null")
+
+	slot1 = slot0.metaShipVO.metaCharacter
+
+	assert(slot1, "metaCharacterVO is null")
+
+	return slot1:getRepairRate()
 end
 
 function slot0.isPtType(slot0)
@@ -125,11 +192,15 @@ function slot0.isPassType(slot0)
 end
 
 function slot0.isInAct(slot0)
-	if slot0.metaAct and not slot0.metaAct:isEnd() then
-		return true
-	else
-		return false
+	if slot0:isPtType() then
+		return WorldBossConst.IsCurrBoss(slot0.id)
+	elseif slot0:isPassType() then
+		return getProxy(ActivityProxy):getActivityById(slot0:getConfig("activity_id")) and not slot2:isEnd()
 	end
+end
+
+function slot0.isInArchive(slot0)
+	return WorldBossConst.IsAchieveBoss(slot0.id)
 end
 
 function slot0.isUnlocked(slot0)
@@ -138,12 +209,15 @@ end
 
 function slot0.isShow(slot0)
 	slot1 = slot0:isInAct()
-	slot3 = true
+	slot2 = slot0:isInArchive()
+	slot4 = true
 
 	if slot0:isUnlocked() then
 		return true
+	elseif slot2 then
+		return true
 	elseif slot1 then
-		if slot0:isPtType() and slot3 then
+		if slot0:isPtType() and slot4 then
 			return true
 		elseif slot0:isPassType() then
 			return true
@@ -152,12 +226,6 @@ function slot0.isShow(slot0)
 		end
 	else
 		return false
-	end
-end
-
-function slot0.getMetaActivityFromActProxy(slot0, slot1)
-	if getProxy(ActivityProxy):getActivityById(slot0.actID) and not slot2:isEnd() then
-		return slot2
 	end
 end
 
@@ -173,18 +241,15 @@ function slot0.getShip(slot0)
 end
 
 function slot0.updateShip(slot0, slot1)
+	assert(slot1, "metaShipVO can not be null!")
+
 	slot0.metaShipVO = slot1
 end
 
 function slot0.setDataBeforeGet(slot0)
-	slot0.metaAct = slot0:getMetaActivityFromActProxy()
 	slot0.metaShipVO = slot0:getMetaShipFromBayProxy()
 
-	if slot0:isPtType() and slot0.metaAct then
-		slot0:updateMetaPtData()
-	end
-
-	if slot0:isPtType() and slot0.metaAct and not slot0.unlockPTLevel then
+	if slot0:isPtType() and slot0.metaPtData and not slot0.unlockPTLevel then
 		for slot5, slot6 in ipairs(slot0.metaPtData.targets) do
 			if slot6 == slot0.unlockPTNum then
 				slot0.unlockPTLevel = slot5
@@ -193,18 +258,29 @@ function slot0.setDataBeforeGet(slot0)
 			end
 		end
 	end
-end
 
-function slot0.updateDataAfterActOP(slot0)
-	slot0.metaAct = slot0:getMetaActivityFromActProxy()
-
-	if slot0:isPtType() and slot0.metaAct then
-		slot0:updateMetaPtData()
+	if slot0:isPassType() and not slot0.timeConfig and getProxy(ActivityProxy):getActivityById(slot0:getConfig("activity_id")) then
+		slot0.timeConfig = {
+			slot2:getConfig("time")[2],
+			slot2:getConfig("time")[3]
+		}
 	end
 end
 
 function slot0.updateDataAfterAddShip(slot0)
 	slot0.metaShipVO = slot0:getMetaShipFromBayProxy()
+end
+
+function slot0.addPT(slot0, slot1)
+	if slot0:isPtType() and slot0.metaPtData then
+		slot0.metaPtData:addPT(slot1)
+	end
+end
+
+function slot0.updatePTLevel(slot0, slot1)
+	if slot0:isPtType() and slot0.metaPtData then
+		slot0.metaPtData:updateLevel(slot1)
+	end
 end
 
 function slot0.getPaintPathAndName(slot0)
@@ -226,7 +302,9 @@ function slot0.getBGNamePathAndName(slot0)
 end
 
 function slot0.getPtIconPath(slot0)
-	return pg.item_data_statistics[id2ItemId(slot0.metaPtData.resId)].icon
+	assert(slot0:isPtType() and slot0.metaPtData)
+
+	return pg.item_data_statistics[slot0.metaPtData.resId].icon
 end
 
 return slot0

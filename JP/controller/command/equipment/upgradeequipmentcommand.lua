@@ -1,10 +1,18 @@
-slot0 = class("UpGradeEquipmentCommand", pm.SimpleCommand)
+slot0 = class("UpGradeEquipmentCommands", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot4 = slot2.pos
+	slot5 = slot2.equipmentId
 	slot6 = nil
 
-	if not Equipment.canUpgrade(((not slot2.shipId or getProxy(BayProxy):getShipById(slot3):getEquip(slot2.pos)) and getProxy(EquipmentProxy):getEquipmentById(slot2.equipmentId)).configId) then
+	if slot2.shipId then
+		assert(getProxy(BayProxy):getShipById(slot3):getEquip(slot4), "can not find equipment at ship.")
+	else
+		assert(getProxy(EquipmentProxy):getEquipmentById(slot5), "can not find equipment: " .. slot5)
+	end
+
+	if not Equipment.canUpgrade(slot6.configId) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_max_level"))
 
 		return

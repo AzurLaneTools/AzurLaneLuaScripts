@@ -20,6 +20,7 @@ function slot0.register(slot0)
 	slot0:on(33105, function (slot0)
 		slot1 = uv0.world:GetActiveMap()
 
+		assert(slot1, "active map not exist.")
 		uv0:UpdateMapAttachmentCells(slot1.id, uv0:NetBuildMapAttachmentCells(slot0.pos_list))
 
 		slot3 = uv0:NetBuildFleetAttachUpdate(slot0.pos_list)
@@ -159,13 +160,23 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 	slot4:GetAtlas():SetSairenEntranceList(_.rest(slot1.sairen_chapter, 1))
 	slot4:SetFleets(slot0:NetBuildMapFleetList(slot1.group_list))
 
-	if slot1.map_id > 0 and _.detect(slot1.chapter_list, function (slot0)
+	slot5 = slot1.map_id > 0 and _.detect(slot1.chapter_list, function (slot0)
 		return slot0.random_id == uv0.map_id
-	end) then
-		slot10 = slot4:GetMap(slot5.random_id)
+	end)
 
-		slot4:GetEntrance(slot1.enter_map_id):UpdateActive(true)
-		slot10:UpdateGridId(slot5.template_id)
+	assert(slot1.map_id > 0 == tobool(slot5), "error active map info:" .. slot1.map_id)
+
+	if slot5 then
+		slot6 = slot1.enter_map_id
+		slot7 = slot5.random_id
+		slot8 = slot5.template_id
+
+		assert(slot4:GetEntrance(slot6), "entrance not exist: " .. slot6)
+		assert(slot4:GetMap(slot7), "map not exist: " .. slot7)
+		assert(pg.world_chapter_template[slot8], "world_chapter_template not exist: " .. slot8)
+		assert(#slot1.group_list > 0, "amount of group_list is not enough.")
+		slot9:UpdateActive(true)
+		slot10:UpdateGridId(slot8)
 
 		slot10.findex = table.indexof(slot4.fleets, slot4:GetFleet(slot1.group_list[1].id))
 
@@ -246,12 +257,20 @@ function slot0.NetUpdateActiveMap(slot0, slot1, slot2, slot3)
 		slot0.world:GetAtlas():RemoveSairenEntrance(slot4)
 	end
 
-	if slot4.id ~= slot0.world:GetEntrance(slot1).id then
+	slot6 = slot0.world:GetEntrance(slot1)
+
+	assert(slot6, "entrance not exist: " .. slot1)
+
+	if slot4.id ~= slot6.id then
 		slot4:UpdateActive(false)
 		slot6:UpdateActive(true)
 	end
 
-	if slot5.id ~= slot0.world:GetMap(slot2).id then
+	slot7 = slot0.world:GetMap(slot2)
+
+	assert(slot7, "map not exist: " .. slot2)
+
+	if slot5.id ~= slot7.id then
 		slot5:UpdateActive(false)
 		slot5:RemoveFleetsCarries()
 		slot5:UnbindFleets()
@@ -268,14 +287,19 @@ function slot0.NetUpdateActiveMap(slot0, slot1, slot2, slot3)
 end
 
 function slot0.NetUpdateMap(slot0, slot1)
+	slot2 = slot1.id.random_id
 	slot3 = slot1.id.template_id
+
+	assert(pg.world_chapter_random[slot2], "world_chapter_random not exist: " .. slot2)
+	assert(pg.world_chapter_template[slot3], "world_chapter_template not exist: " .. slot3)
+
 	slot4 = {}
 
 	_.each(slot1.state_flag, function (slot0)
 		uv0[slot0] = true
 	end)
 
-	slot5 = slot0.world:GetMap(slot1.id.random_id)
+	slot5 = slot0.world:GetMap(slot2)
 
 	slot5:UpdateClearFlag(slot4[1])
 	slot5:UpdateVisionFlag(slot4[2] or slot0.world:IsMapVisioned(slot2))
@@ -295,7 +319,7 @@ function slot0.NetUpdateMap(slot0, slot1)
 end
 
 function slot0.NetUpdateMapDiscoveredCells(slot0, slot1, slot2, slot3)
-	slot4 = slot0.world:GetMap(slot1)
+	assert(slot0.world:GetMap(slot1), "map not exist: " .. slot1)
 
 	if slot2 then
 		for slot8, slot9 in pairs(slot4.cells) do
@@ -303,14 +327,22 @@ function slot0.NetUpdateMapDiscoveredCells(slot0, slot1, slot2, slot3)
 		end
 	else
 		_.each(slot3, function (slot0)
-			uv0:GetCell(slot0.pos.row, slot0.pos.column):UpdateDiscovered(true)
+			slot1 = uv0:GetCell(slot0.pos.row, slot0.pos.column)
+
+			assert(slot1, "cell not exist: " .. slot0.pos.row .. ", " .. slot0.pos.column)
+			slot1:UpdateDiscovered(true)
 		end)
 	end
 end
 
 function slot0.NetUpdateMapPort(slot0, slot1, slot2)
-	slot4 = slot0.world:GetMap(slot1):GetPort(slot2.port_id)
+	slot3 = slot0.world:GetMap(slot1)
 
+	assert(slot3, "map not exist: " .. slot1)
+
+	slot4 = slot3:GetPort(slot2.port_id)
+
+	assert(slot4, "port not exist: " .. slot2.port_id)
 	slot4:UpdateTaskIds(_.rest(slot2.task_list, 1))
 	slot4:UpdateGoods(_.map(slot2.goods_list, function (slot0)
 		slot1 = WPool:Get(WorldGoods)
@@ -407,7 +439,9 @@ function slot0.NetBuildMapAttachmentCells(slot0, slot1)
 end
 
 function slot0.UpdateMapAttachmentCells(slot0, slot1, slot2)
-	slot3 = slot0.world:GetMap(slot1)
+	slot7 = slot1
+
+	assert(slot0.world:GetMap(slot1), "map not exist: " .. slot7)
 
 	for slot7, slot8 in pairs(slot2) do
 		for slot14 = #slot3:GetCell(slot8.pos.row, slot8.pos.column).attachments, 1, -1 do
@@ -462,8 +496,8 @@ end
 
 function slot0.ApplyFleetAttachUpdate(slot0, slot1, slot2)
 	slot3 = slot0.world
-	slot3 = slot3:GetMap(slot1)
 
+	assert(slot3:GetMap(slot1), "map not exist: " .. slot1)
 	_.each(slot2, function (slot0)
 		uv0:UpdateFleetLocation(slot0.id, slot0.row, slot0.column)
 	end)
@@ -481,8 +515,8 @@ end
 
 function slot0.ApplyTerrainUpdate(slot0, slot1, slot2)
 	slot3 = slot0.world
-	slot3 = slot3:GetMap(slot1)
 
+	assert(slot3:GetMap(slot1), "map not exist: " .. slot1)
 	_.each(slot2, function (slot0)
 		slot1 = uv0:GetCell(slot0.row, slot0.column)
 
@@ -510,13 +544,17 @@ end
 
 function slot0.ApplyFleetUpdate(slot0, slot1, slot2)
 	slot3 = slot0.world
-	slot3 = slot3:GetMap(slot1)
 
+	assert(slot3:GetMap(slot1), "map not exist: " .. slot1)
 	_.each(slot2, function (slot0)
 		slot1 = uv0
+		slot1 = slot1:GetFleet(slot0.id)
+
+		assert(slot1, "fleet not exist: " .. slot0.id)
+
 		slot2 = uv0
 
-		slot2:CheckFleetUpdateFOV(slot1:GetFleet(slot0.id), function ()
+		slot2:CheckFleetUpdateFOV(slot1, function ()
 			uv0:UpdateBuffs(uv1.buffs)
 		end)
 	end)
@@ -534,7 +572,10 @@ end
 
 function slot0.ApplyShipUpdate(slot0, slot1)
 	_.each(slot1, function (slot0)
-		uv0.world:GetShip(slot0.id):UpdateHpRant(slot0.hpRant)
+		slot1 = uv0.world:GetShip(slot0.id)
+
+		assert(slot1, "ship not exist: " .. slot0.id)
+		slot1:UpdateHpRant(slot0.hpRant)
 	end)
 end
 
@@ -584,7 +625,10 @@ end
 
 function slot0.ApplySalvageUpdate(slot0, slot1)
 	_.each(slot1, function (slot0)
-		uv0.world:GetFleet(slot0.id):UpdateCatSalvage(slot0.step, slot0.list, slot0.mapId)
+		slot1 = uv0.world:GetFleet(slot0.id)
+
+		assert(slot1, "fleet not exit: " .. slot0.id)
+		slot1:UpdateCatSalvage(slot0.step, slot0.list, slot0.mapId)
 	end)
 end
 

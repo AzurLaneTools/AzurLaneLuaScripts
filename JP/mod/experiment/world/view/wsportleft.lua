@@ -90,7 +90,11 @@ function slot0.OnUpdateSelectedFleet(slot0)
 end
 
 function slot0.OnUpdateShip(slot0, slot1, slot2)
-	if slot0.map:GetFleet(slot2.fleetId):GetFleetType() == FleetType.Normal then
+	slot3 = slot0.map:GetFleet(slot2.fleetId)
+
+	assert(slot3, "can not find fleet: " .. slot2.fleetId)
+
+	if slot3:GetFleetType() == FleetType.Normal then
 		slot0:UpdateShipList(slot0.rtMain, slot0.fleet:GetTeamShipVOs(TeamType.Main, true))
 		slot0:UpdateShipList(slot0.rtVanguard, slot0.fleet:GetTeamShipVOs(TeamType.Vanguard, true))
 	elseif slot4 == FleetType.Submarine then

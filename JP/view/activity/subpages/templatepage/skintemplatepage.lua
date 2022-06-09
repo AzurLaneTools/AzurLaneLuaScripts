@@ -31,6 +31,9 @@ end
 function slot0.UpdateTask(slot0, slot1, slot2)
 	slot4 = slot0:findTF("item", slot2)
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
+
+	assert(slot6, "without this task by id: " .. slot5)
+
 	slot7 = slot6:getConfig("award_display")[1]
 
 	updateDrop(slot4, {

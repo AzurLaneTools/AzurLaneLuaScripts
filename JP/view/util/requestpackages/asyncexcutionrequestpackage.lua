@@ -43,6 +43,8 @@ function slot0.Insert(slot0, slot1)
 end
 
 function slot0.Excute(slot0, ...)
+	assert(slot0.ready)
+
 	if not slot0.ready then
 		return
 	end

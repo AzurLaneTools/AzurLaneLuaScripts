@@ -106,6 +106,8 @@ function slot0.AddSubTask(slot0, slot1)
 end
 
 function slot0.UpdateSubTask(slot0, slot1)
+	assert(slot0.subTasks[slot1.id], "should exist task >> " .. slot1.id)
+
 	slot0.subTasks[slot1.id] = slot1
 end
 

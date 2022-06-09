@@ -47,6 +47,8 @@ function slot1.IsSameAttr(slot0, slot1)
 end
 
 function slot1.UpdateAttr(slot0, slot1)
+	assert(slot0._attr ~= "velocity", ">>BattleBuffAddAttr(Ratio)不可用于修改速度，使用BattleBuffFixVelocity!")
+
 	if slot0._attr == "injureRatio" then
 		slot0:UpdateAttrMul(slot1)
 	else

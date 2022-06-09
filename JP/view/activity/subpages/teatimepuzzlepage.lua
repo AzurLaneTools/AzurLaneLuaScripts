@@ -15,7 +15,8 @@ function slot0.OnFirstFlush(slot0)
 	slot4 = slot0.activity:getData1List() or {}
 
 	for slot6, slot7 in slot3(slot4) do
-		table.insert(slot2, slot7 - 59800)
+		assert(slot7 - 59800 > 0, "puzzlaIndex should more than zero" .. slot7)
+		table.insert(slot2, slot8)
 	end
 
 	slot3 = {}

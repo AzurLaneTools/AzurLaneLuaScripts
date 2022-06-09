@@ -15,6 +15,8 @@ slot5 = {
 }
 
 function slot4.New(slot0, slot1, slot2, slot3)
+	assert(slot1 > 0, "定时器间隔不能小于等于0！：" .. slot1)
+
 	return uv0({
 		running = false,
 		func = slot0,
@@ -26,6 +28,8 @@ function slot4.New(slot0, slot1, slot2, slot3)
 end
 
 function slot4.Start(slot0)
+	assert(slot0.running == false, "对已经启动的定时器执行启动！")
+
 	slot0.running = true
 	slot0.paused = nil
 
@@ -38,6 +42,9 @@ end
 
 function slot4.Reset(slot0, slot1, slot2, slot3, slot4)
 	slot0.duration = slot2 or slot0.duration
+
+	assert(slot0.duration > 0, "定时器间隔不能小于等于0！：" .. slot0.duration)
+
 	slot0.loop = slot3 or slot0.loop
 	slot0.scale = slot4 or slot0.scale
 	slot0.func = slot1 or slot0.func

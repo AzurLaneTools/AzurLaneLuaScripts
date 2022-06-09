@@ -56,10 +56,14 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	slot1 = pg.activity_event_picturepuzzle[slot0.activity.id]
+
+	assert(slot1, "Can't Find activity_event_picturepuzzle 's ID : " .. slot0.activity.id)
+
 	slot0.puzzleConfig = slot1
 	slot0.keyList = Clone(slot1.pickup_picturepuzzle)
 
 	table.insertto(slot0.keyList, slot1.drop_picturepuzzle)
+	assert(#slot0.keyList == #slot0.items, string.format("keyList has {0}, but items has 9", #slot0.keyList))
 	table.sort(slot0.keyList)
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -77,9 +81,7 @@ function slot0.OnFirstFlush(slot0)
 			return
 		end
 
-		slot0 = uv0
-
-		slot0:emit(ActivityMediator.ON_SIMULATION_COMBAT, {
+		uv0:emit(ActivityMediator.ON_SIMULATION_COMBAT, {
 			warnMsg = "bulin_tip_other3",
 			stageId = uv0.puzzleConfig.chapter
 		}, function ()
@@ -102,12 +104,9 @@ function slot0.OnFirstFlush(slot0)
 					})
 				end,
 				function (slot0)
-					slot1 = uv0
-					slot5 = uv0
-
-					slot1:emit(ActivityMediator.ON_SIMULATION_COMBAT, {
+					uv0:emit(ActivityMediator.ON_SIMULATION_COMBAT, {
 						warnMsg = "bulin_tip_other3",
-						stageId = slot5:GetLinkStage()
+						stageId = uv0:GetLinkStage()
 					}, function ()
 						if getProxy(ActivityProxy):getActivityById(uv0).data1 == 2 then
 							return
@@ -122,8 +121,7 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end)
 
-	slot3 = slot0.activity
-	slot3 = slot3:getConfig("config_client").guideName
+	slot3 = slot0.activity:getConfig("config_client").guideName
 
 	slot0:AddFunc(function (slot0)
 		pg.SystemGuideMgr.GetInstance():PlayByGuideId(uv0, nil, slot0)

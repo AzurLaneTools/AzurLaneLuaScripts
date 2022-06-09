@@ -29,6 +29,10 @@ function slot0.register(slot0)
 
 		slot4 = uv0.contextData.oldShipInfo
 
+		assert(slot4.id, "old ship id is nil")
+		assert(slot4.pos, "old ship pos is nil")
+		assert(uv0.contextData.shipId, "new ship id nil")
+		assert(uv0.contextData.pos, "new ship id nil")
 		uv0:sendNotification(EquipmentMediator.NO_UPDATE)
 		uv0:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP, {
 			oldShipId = slot4.id,

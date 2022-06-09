@@ -119,6 +119,8 @@ function createLog(slot0, slot1)
 end
 
 function getProxy(slot0)
+	assert(pg.m02, "game is not started")
+
 	return pg.m02:retrieveProxy(slot0.__cname)
 end
 
@@ -270,6 +272,7 @@ end
 function setPaintingPrefab(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot0, "fitter")
 
+	assert(slot4, "请添加子物体fitter")
 	removeAllChildren(slot4)
 
 	slot5 = GetOrAddComponent(slot4, "PaintingScaler")
@@ -303,6 +306,7 @@ slot2 = {}
 function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 	slot5 = findTF(slot0, "fitter")
 
+	assert(slot5, "请添加子物体fitter")
 	removeAllChildren(slot5)
 
 	slot6 = GetOrAddComponent(slot5, "PaintingScaler")
@@ -625,6 +629,10 @@ end
 
 function updateEquipment(slot0, slot1, slot2)
 	slot2 = slot2 or {}
+
+	assert(slot1, "equipmentVo can not be nil.")
+	assert(isa(slot1, Equipment), "equipmentVO is not Equipment.")
+
 	slot3 = EquipmentRarity.Rarity2Print(slot1.config.rarity)
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot3))
@@ -650,6 +658,7 @@ function updateItem(slot0, slot1, slot2)
 	slot2 = slot2 or {}
 	slot3 = pg.item_data_statistics[slot1.id]
 
+	assert(slot3, "找不到道具配置: " .. slot1.id)
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot3.rarity)))
 
 	slot5 = nil
@@ -677,7 +686,11 @@ end
 
 function updateWorldItem(slot0, slot1, slot2)
 	slot2 = slot2 or {}
-	slot4 = ItemRarity.Rarity2Print(pg.world_item_data_template[slot1.id].rarity)
+	slot3 = pg.world_item_data_template[slot1.id]
+
+	assert(slot3, "找不到大世界道具配置: " .. slot1.id)
+
+	slot4 = ItemRarity.Rarity2Print(slot3.rarity)
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot4))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
@@ -689,23 +702,30 @@ end
 
 function updateWorldCollection(slot0, slot1, slot2)
 	slot2 = slot2 or {}
+
+	assert(WorldCollectionProxy.GetCollectionTemplate(slot1.id), "world_collection_file_template 和 world_collection_record_template 表中找不到配置: " .. slot1.id)
+
 	slot5 = ItemRarity.Rarity2Print(4)
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot5))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot5)
 	GetImageSpriteFromAtlasAsync("props/" .. (WorldCollectionProxy.GetCollectionType(slot1.id) == WorldCollectionProxy.WorldCollectionType.FILE and "shoucangguangdie" or "shoucangjiaojuan"), "", findTF(slot0, "icon_bg/icon"))
 	uv0(slot0, false)
-	uv1(slot0, WorldCollectionProxy.GetCollectionTemplate(slot1.id).name, slot2)
+	uv1(slot0, slot3.name, slot2)
 	uv2(slot0, slot4, slot2)
 end
 
 function updateWorldBuff(slot0, slot1, slot2)
 	slot2 = slot2 or {}
+	slot3 = pg.world_SLGbuff_data[slot1]
+
+	assert(slot3, "找不到大世界buff配置: " .. slot1)
+
 	slot4 = ItemRarity.Rarity2Print(ItemRarity.Gray)
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot4))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
-	GetImageSpriteFromAtlasAsync("world/buff/" .. pg.world_SLGbuff_data[slot1].icon, "", findTF(slot0, "icon_bg/icon"))
+	GetImageSpriteFromAtlasAsync("world/buff/" .. slot3.icon, "", findTF(slot0, "icon_bg/icon"))
 
 	if not IsNil(slot0:Find("icon_bg/stars")) then
 		setActive(slot6, false)
@@ -829,6 +849,9 @@ end
 function updateStrategy(slot0, slot1, slot2)
 	slot2 = slot2 or {}
 	slot3 = slot2.isWorldBuff and pg.world_SLGbuff_data[slot1.id] or pg.strategy_data_template[slot1.id]
+
+	assert(slot3, "找不到策略配置: " .. slot1.id)
+
 	slot4 = ItemRarity.Rarity2Print(ItemRarity.Gray)
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot4))
@@ -849,6 +872,49 @@ function updateFurniture(slot0, slot1, slot2)
 	uv0(slot0, false)
 	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
 	uv2(slot0, slot3.rarity + 1, slot2)
+end
+
+function updateSpWeapon(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+
+	assert(slot1, "spWeaponVO can not be nil.")
+	assert(isa(slot1, SpWeapon), "spWeaponVO is not Equipment.")
+
+	slot3 = ItemRarity.Rarity2Print(slot1:GetRarity())
+
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot3))
+	setFrame(findTF(slot0, "icon_bg/frame"), slot3)
+
+	slot4 = findTF(slot0, "icon_bg/icon")
+
+	uv0(slot4, {
+		16,
+		16,
+		16,
+		16
+	})
+	GetImageSpriteFromAtlasAsync(slot1:GetIconPath(), "", slot4)
+	uv1(slot0, true, slot1:GetRarity())
+	uv2(slot0, slot1:GetLevel() - 1)
+	uv3(slot0, slot1:GetName(), slot2)
+	uv4(slot0, slot1.count)
+	uv5(slot0, slot1:GetRarity(), slot2)
+end
+
+function UpdateSpWeaponSlot(slot0, slot1, slot2)
+	setImageSprite(findTF(slot0, "Icon/Mask/icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot1:GetRarity())))
+
+	slot4 = findTF(slot0, "Icon/Mask/icon_bg/icon")
+
+	uv0(slot4, slot2 or {
+		16,
+		16,
+		16,
+		16
+	})
+	GetImageSpriteFromAtlasAsync(slot1:GetIconPath(), "", slot4)
+	setActive(findTF(slot0, "Icon/LV"), slot1:GetLevel() - 1 > 0)
+	setText(findTF(slot6, "Text"), slot5)
 end
 
 slot10 = nil
@@ -1022,7 +1088,11 @@ function updateDrop(slot0, slot1, slot2)
 
 		updateFurniture(slot0, slot1.id, slot2)
 	elseif slot3 == DROP_TYPE_STRATEGY then
-		slot5 = (slot1.isWorldBuff and pg.world_SLGbuff_data[slot1.id] or pg.strategy_data_template[slot1.id]).desc
+		slot4 = slot1.isWorldBuff and pg.world_SLGbuff_data[slot1.id] or pg.strategy_data_template[slot1.id]
+
+		assert(slot4, (slot1.isWorldBuff and "world_SLGbuff_data" or "strategy_data_template") .. "表中找不到配置: " .. slot1.id)
+
+		slot5 = slot4.desc
 		slot2.isWorldBuff = slot1.isWorldBuff
 
 		updateStrategy(slot0, Item.New({
@@ -1056,7 +1126,11 @@ function updateDrop(slot0, slot1, slot2)
 			id = slot1.id
 		}), slot2)
 	elseif slot3 == DROP_TYPE_WORLD_COLLECTION then
-		slot5 = WorldCollectionProxy.GetCollectionTemplate(slot1.id).name
+		slot4 = WorldCollectionProxy.GetCollectionTemplate(slot1.id)
+
+		assert(slot4, "world_collection_file_template 和 world_collection_record_template 表中找不到配置: " .. slot1.id)
+
+		slot5 = slot4.name
 
 		updateWorldCollection(slot0, slot1, slot2)
 	elseif slot3 == DROP_TYPE_CHAT_FRAME then
@@ -1076,6 +1150,20 @@ function updateDrop(slot0, slot1, slot2)
 			id = slot1.id,
 			extra = slot1.count
 		}), slot2)
+	elseif slot3 == DROP_TYPE_SPWEAPON then
+		slot5 = slot4.descrip
+
+		updateSpWeapon(slot0, SpWeapon.New({
+			id = slot1.id
+		}), slot2)
+	elseif slot3 == DROP_TYPE_META_PT then
+		slot10 = pg.ship_strengthen_meta[slot1.id].itemid
+
+		updateItem(slot0, Item.New({
+			id = slot10
+		}), slot2)
+
+		slot5 = pg.item_data_statistics[slot10].display
 	end
 
 	slot1.cfg = slot4
@@ -1089,32 +1177,65 @@ function updateDropCfg(slot0)
 	slot2 = ""
 
 	if (slot0.type or slot0.dropType) == DROP_TYPE_RESOURCE then
+		assert(slot1, "item_data_statistics表中找不到配置: " .. slot0.id)
+
 		slot2 = pg.item_data_statistics[id2ItemId(slot0.id)].display
 	elseif slot3 == DROP_TYPE_ITEM then
-		slot2 = pg.item_data_statistics[slot0.id].display
+		slot1 = pg.item_data_statistics[slot0.id]
+
+		assert(slot1, "item_data_statistics表中找不到配置: " .. slot0.id)
+
+		slot2 = slot1.display
 	elseif slot3 == DROP_TYPE_EQUIP then
-		slot2 = pg.equip_data_statistics[slot0.id].descrip
+		slot1 = pg.equip_data_statistics[slot0.id]
+
+		assert(slot1, "equip_data_statistics表中找不到配置: " .. slot0.id)
+
+		slot2 = slot1.descrip
 	elseif slot3 == DROP_TYPE_SIREN_EQUIP then
-		slot2 = pg.equip_data_statistics[getProxy(EquipmentProxy):getEquipmentById(slot0.id).configId].descrip
+		slot5 = getProxy(EquipmentProxy):getEquipmentById(slot0.id)
+
+		assert(slot5, "siren equip not exist: " .. slot0.id)
+
+		slot2 = pg.equip_data_statistics[slot5.configId].descrip
 	elseif slot3 == DROP_TYPE_SHIP then
 		slot4, slot5, slot6 = ShipWordHelper.GetWordAndCV(pg.ship_data_statistics[slot0.id].skin_id, ShipWordHelper.WORD_TYPE_DROP)
 		slot2 = slot6 or i18n("ship_drop_desc_default")
+
+		assert(slot1, "必须存在船的配置: " .. slot0.id)
 	elseif slot3 == DROP_TYPE_NPC_SHIP then
 		slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(pg.ship_data_statistics[getProxy(BayProxy):getShipById(slot0.id).configId].skin_id, ShipWordHelper.WORD_TYPE_DROP)
 		slot2 = slot7 or i18n("ship_drop_desc_default")
 	elseif slot3 == DROP_TYPE_FURNITURE then
-		slot2 = pg.furniture_data_template[slot0.id].describe
+		slot1 = pg.furniture_data_template[slot0.id]
+
+		assert(slot1, "furniture_data_template表中找不到配置: " .. slot0.id)
+
+		slot2 = slot1.describe
 	elseif slot3 == DROP_TYPE_STRATEGY then
-		slot2 = pg.strategy_data_template[slot0.id].desc
+		slot1 = pg.strategy_data_template[slot0.id]
+
+		assert(slot1, "strategy_data_template表中找不到配置: " .. slot0.id)
+
+		slot2 = slot1.desc
 	elseif slot3 == DROP_TYPE_SKIN then
-		slot1 = pg.ship_skin_template[slot0.id]
+		assert(pg.ship_skin_template[slot0.id], "ship_skin_template表中找不到配置: " .. slot0.id)
+
 		slot4, slot5, slot2 = ShipWordHelper.GetWordAndCV(slot0.id, ShipWordHelper.WORD_TYPE_DROP)
 	elseif slot3 == DROP_TYPE_EQUIPMENT_SKIN then
-		slot1 = pg.equip_skin_template[slot0.id]
+		assert(pg.equip_skin_template[slot0.id], "equip_skin_template表中找不到配置: " .. slot0.id)
 	elseif slot3 == DROP_TYPE_VITEM then
-		slot2 = pg.item_data_statistics[slot0.id].display
+		slot1 = pg.item_data_statistics[slot0.id]
+
+		assert(slot1, "item_data_statistics表中找不到配置: " .. slot0.id)
+
+		slot2 = slot1.display
 	elseif slot3 == DROP_TYPE_WORLD_ITEM then
-		slot2 = pg.world_item_data_template[slot0.id].display
+		slot1 = pg.world_item_data_template[slot0.id]
+
+		assert(slot1, "world_item_data_template表中找不到配置: " .. slot0.id)
+
+		slot2 = slot1.display
 	elseif slot3 == DROP_TYPE_CHAT_FRAME then
 		slot1 = pg.item_data_chat[slot0.id]
 	elseif slot3 == DROP_TYPE_ICON_FRAME then
@@ -1158,6 +1279,9 @@ function updateEmoji(slot0, slot1, slot2)
 end
 
 function GetOwnedpropCount(slot0)
+	assert(slot0.type, "drop can not be nil")
+	assert(slot0.id, "id can not be nil")
+
 	slot1 = 0
 	slot2 = false
 
@@ -1338,7 +1462,11 @@ function GoShoppingMsgBox(slot0, slot1, slot2)
 end
 
 function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
-	if math.floor(getProxy(PlayerProxy):getData()[id2res(pg.shop_template[slot0].resource_type)] / (slot1.price or slot5.resource_num)) <= 0 then
+	slot5 = pg.shop_template[slot0]
+
+	assert(slot5, "shop_template中找不到商品id：" .. slot0)
+
+	if math.floor(getProxy(PlayerProxy):getData()[id2res(slot5.resource_type)] / (slot1.price or slot5.resource_num)) <= 0 then
 		slot10 = 1
 	end
 
@@ -1351,6 +1479,7 @@ function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
 
 	if slot5 ~= nil and slot1.id then
 		print(slot10 * slot5.num, "--", slot10)
+		assert(pg.item_data_statistics[slot1.id], "item config should be existence")
 
 		slot13 = Item.New({
 			id = slot1.id
@@ -1446,6 +1575,9 @@ slot12 = true
 
 function onBackButton(slot0, slot1, slot2, slot3)
 	slot4 = GetOrAddComponent(slot1, "UILongPressTrigger")
+
+	assert(slot2, "callback should exist")
+
 	slot4.longPressThreshold = defaultValue(slot3, 1)
 
 	function slot5(slot0)
@@ -2050,6 +2182,8 @@ function topAnimation(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function cancelTweens(slot0)
+	assert(slot0, "must provide cancel targets, LeanTween.cancelAll is not allow")
+
 	for slot4, slot5 in ipairs(slot0) do
 		if slot5 then
 			LeanTween.cancel(slot5)
@@ -2568,6 +2702,9 @@ function checkExist(slot0, ...)
 			break
 		end
 
+		assert(type(slot0) == "table", "type error : intermediate target should be table")
+		assert(type(slot6) == "table", "type error : param should be table")
+
 		slot0 = (type(slot0[slot6[1]]) ~= "function" or slot0[slot6[1]](slot0, unpack(slot6[2] or {}))) and slot0[slot6[1]](slot0, unpack(slot6[2] or ))[slot6[1]]
 	end
 
@@ -2776,7 +2913,7 @@ function setScrollText(slot0, slot1)
 end
 
 function changeToScrollText(slot0, slot1)
-	slot2 = GetComponent(slot0, typeof(Text))
+	assert(GetComponent(slot0, typeof(Text)), "without component<Text>")
 
 	if slot0.childCount == 0 then
 		slot3 = cloneTplTo(slot0, slot0)
@@ -2786,7 +2923,7 @@ function changeToScrollText(slot0, slot1)
 	setScrollText(slot0.GetChild(slot0, 0), slot1)
 end
 
-slot20, slot21, slot22 = nil
+slot20, slot21, slot22, slot23 = nil
 
 function slot20(slot0, slot1, slot2)
 	slot3 = slot0.Find(slot0, "base")
@@ -2835,7 +2972,10 @@ end
 
 function slot22(slot0, slot1, slot2, slot3)
 	removeAllChildren(slot0)
+	uv0(slot0, slot1, slot2, slot3)
+end
 
+function slot23(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in ipairs(slot2) do
 		uv0(cloneTplTo(slot1, slot0), slot1, slot8, slot3)
 	end
@@ -3084,12 +3224,15 @@ function DropResultIntegration(slot0)
 end
 
 function getLoginConfig()
-	slot0 = os.time()
+	slot0 = pg.TimeMgr.GetInstance():Table2ServerTime(os.date("*t"))
 	slot1 = 1
 
 	for slot5, slot6 in ipairs(pg.login.all) do
 		if pg.login[slot6].date ~= "stop" then
 			slot7, slot8 = parseTimeConfig(pg.login[slot6].date)
+
+			assert(not slot8)
+
 			slot10 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7[3])
 
 			if pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7[2]) < slot0 and slot0 < slot10 then
@@ -3126,12 +3269,14 @@ function setIntimacyIcon(slot0, slot1, slot2)
 		setActive(slot5, true)
 	elseif slot1 then
 		setImageSprite(slot4, GetSpriteFromAtlas("energy", slot1), true)
+	else
+		assert(false, "param error")
 	end
 
 	return slot4
 end
 
-slot23 = nil
+slot24 = nil
 
 function nowWorld()
 	uv0 = uv0 or getProxy(WorldProxy)

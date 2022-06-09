@@ -28,7 +28,11 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.HARVEST_CLASS_RES)
 	end)
 	slot0:bind(uv0.ON_TECH_TIME_OVER, function (slot0, slot1, slot2)
-		if getProxy(TechnologyProxy):getTechnologyById(slot1):canFinish() then
+		slot4 = getProxy(TechnologyProxy):getTechnologyById(slot1)
+
+		assert(slot4, "technology can not be nil.." .. slot1)
+
+		if slot4:canFinish() then
 			slot4:finish()
 			slot3:updateTechnology(slot4)
 		end
@@ -193,18 +197,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot9 = slot3.oldSkill.level < slot6.level and i18n("tactics_end_to_learn", slot7:getName(), getSkillName(slot8), slot4) .. i18n("tactics_skill_level_up", slot5.level, slot6.level) or i18n("tactics_end_to_learn", slot7:getName(), getSkillName(slot8), slot4)
 
 			if pg.skill_data_template[slot8].max_level <= slot6.level then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					modal = true,
-					hideNo = true,
-					hideClose = true,
-					content = slot9,
-					weight = LayerWeightConst.THIRD_LAYER,
-					onYes = function ()
-						if uv0.onConfirm then
-							uv0.onConfirm(uv0.shipId, uv1, uv0.id)
-						end
-					end
-				})
+				slot0:HandleClassMaxLevel(slot7, slot3, slot8, slot4)
 			else
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
@@ -249,6 +242,38 @@ function slot0.handleNotification(slot0, slot1)
 				})
 			end
 		end
+	end
+end
+
+function slot0.HandleClassMaxLevel(slot0, slot1, slot2, slot3, slot4)
+	slot5 = i18n("tactics_end_to_learn", slot1:getName(), getSkillName(slot3), slot4)
+
+	if _.all(slot1:getSkillList(), function (slot0)
+		return ShipSkill.New(uv0.skills[slot0]):IsMaxLevel()
+	end) then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			modal = true,
+			hideClose = true,
+			content = slot5 .. i18n("tactics_continue_to_learn_other_ship_skill"),
+			onYes = function ()
+				uv0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
+			end
+		})
+	else
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			modal = true,
+			hideClose = true,
+			content = slot5 .. i18n("tactics_continue_to_learn_other_skill"),
+			weight = LayerWeightConst.THIRD_LAYER,
+			onYes = function ()
+				uv0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS, {
+					shipToLesson = {
+						shipId = uv1.shipId,
+						index = uv1.id
+					}
+				})
+			end
+		})
 	end
 end
 

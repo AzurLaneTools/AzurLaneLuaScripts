@@ -1,5 +1,125 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
+	[107030] = {
+		ship_group = 10703,
+		name = "サラトガ",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 107030,
+		group_index = 0,
+		prefab = "salatuojia",
+		painting = "salatuojia",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "レキシントン級航空母艦・サラトガ（CV-3)",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.772,
+					0.605,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.772,
+					0.605,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.772,
+					0.605,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.887,
+							1.243,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.642,
+							1.068,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107031] = {
 		ship_group = 10703,
 		name = "大洋の休日",
@@ -759,6 +879,113 @@ pg.ship_skin_template_4 = {
 			}
 		}
 	},
+	[107038] = {
+		ship_group = 10703,
+		name = "幸せの鐘を響かせて",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 107038,
+		group_index = 8,
+		prefab = "salatuojia_h",
+		painting = "salatuojia_h",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9998,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官、準備はいい？……もうここまで来たんだから「まだだよー」なんて言わせないからね～。とっておきのサラトガちゃんの可愛い姿、しっかり覚えておいてね♡",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.36,
+					1.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.39,
+					1.07,
+					0
+				}
+			},
+			plane = {
+				{
+					1.37,
+					0.99,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.545,
+							2.068,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
 	[107039] = {
 		ship_group = 10703,
 		name = "サラトガ改",
@@ -774,7 +1001,7 @@ pg.ship_skin_template_4 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 10,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -994,7 +1221,7 @@ pg.ship_skin_template_4 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 14,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -2256,7 +2483,7 @@ pg.ship_skin_template_4 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 8,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -4306,7 +4533,7 @@ pg.ship_skin_template_4 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -7397,7 +7624,7 @@ pg.ship_skin_template_4 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 15,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -7964,7 +8191,7 @@ pg.ship_skin_template_4 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 38,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8402,247 +8629,6 @@ pg.ship_skin_template_4 = {
 						{
 							-0.543,
 							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201039] = {
-		ship_group = 20103,
-		name = "アーデント改",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201039,
-		group_index = 9,
-		prefab = "rexin_g",
-		painting = "rexin_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 38,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "服と艤装は新しいものになってるけど、アーデントの心は変わらないよ！えへへ、本当だよ♪　指揮官、ありがとね～",
-		voice_actor = 111,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.37,
-					1.38,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.28,
-					1.39,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.04,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.23,
-					1.32,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.37,
-							2.59,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201060] = {
-		ship_group = 20106,
-		name = "ビーグル",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201060,
-		group_index = 0,
-		prefab = "xiaolietuquan",
-		painting = "xiaolietuquan",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 16,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "B級駆逐艦・ピーグル（H30)",
-		voice_actor = 63,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.72,
-					0.87,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.72,
-					0.87,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.48,
-					0.34,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.72,
-					0.87,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.559,
-							0.272,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.293,
-							0.826,
 							0
 						}
 					}

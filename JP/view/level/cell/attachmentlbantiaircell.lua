@@ -9,8 +9,8 @@ function slot0.Update(slot0)
 
 	if IsNil(slot0.go) then
 		slot0:PrepareBase("antiAir")
+		assert(pg.land_based_template[slot1.attachmentId], "land_based_template not exist: " .. slot1.attachmentId)
 
-		slot2 = pg.land_based_template[slot1.attachmentId]
 		slot3 = slot0:GetLoader()
 
 		slot3:GetPrefab("leveluiview/Tpl_AntiAirGun", "Tpl_AntiAirGun", function (slot0)
@@ -38,7 +38,11 @@ function slot0.Update(slot0)
 	end
 
 	if slot0.antiAirGun and slot1.flag ~= 1 then
-		slot4 = pg.land_based_template[slot1.attachmentId].function_args[2]
+		slot3 = pg.land_based_template[slot1.attachmentId]
+
+		assert(slot3, "land_based_template not exist: " .. slot1.attachmentId)
+
+		slot4 = slot3.function_args[2]
 
 		setActive(tf(slot0.antiAirGun):Find("text"), slot0.chapter:getRoundNum() < math.ceil(slot1.data / 2))
 

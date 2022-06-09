@@ -53,6 +53,8 @@ function slot0.setCurMode(slot0, slot1)
 		slot0._curMode = uv0.MODE_CASUAL
 	elseif slot1 == uv0.MODE_INFINITE then
 		slot0._curMode = uv0.MODE_INFINITE
+	else
+		assert(false, "challenge mode undefined")
 	end
 end
 

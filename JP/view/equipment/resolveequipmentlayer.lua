@@ -242,7 +242,12 @@ function slot0.hasEliteEquips(slot0, slot1, slot2)
 	end
 
 	_.each(slot1, function (slot0)
-		if uv0[slot0[1]].config.level > 1 then
+		slot1 = slot0[1]
+		slot2 = uv0[slot1]
+
+		assert(slot2, "equipment can not be nil" .. slot1)
+
+		if slot2.config.level > 1 then
 			uv1(i18n("destroy_high_intensify_tip"), 2)
 		end
 

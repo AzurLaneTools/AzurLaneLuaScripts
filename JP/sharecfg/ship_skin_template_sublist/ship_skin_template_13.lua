@@ -1,5 +1,235 @@
 pg = pg or {}
 pg.ship_skin_template_13 = {
+	[401251] = {
+		ship_group = 40125,
+		name = "暑夏の涼風",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		id = 401251,
+		group_index = 1,
+		prefab = "Z25_2",
+		painting = "Z25_2",
+		shop_id = 70081,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 6,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "海辺でも気を緩めないっ！指揮官、準備運動はもう大丈夫？",
+		voice_actor = 3,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.22,
+					0.87,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.25,
+					0.83,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.12,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.31,
+					0.87,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.28,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
+	[401260] = {
+		ship_group = 40126,
+		name = "Z26",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 401260,
+		group_index = 0,
+		prefab = "Z26",
+		painting = "Z26",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "1936A「ナルヴィク」型駆逐艦-Z26",
+		voice_actor = 247,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.402,
+					1.267,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.31,
+					1.274,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.331,
+					1.168,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.14,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
 	[401261] = {
 		ship_group = 40126,
 		name = "友情シェアタイム",
@@ -1715,7 +1945,7 @@ pg.ship_skin_template_13 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 8,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -1956,7 +2186,7 @@ pg.ship_skin_template_13 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 8,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -2313,7 +2543,7 @@ pg.ship_skin_template_13 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -4259,7 +4489,6 @@ pg.ship_skin_template_13 = {
 		time = "",
 		lip_sync_gain = 0,
 		show_skin = "stand2",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
@@ -4363,6 +4592,9 @@ pg.ship_skin_template_13 = {
 				-0.7,
 				0.7
 			}
+		},
+		ship_l2d_id = {
+			206
 		}
 	},
 	[403038] = {
@@ -4380,7 +4612,7 @@ pg.ship_skin_template_13 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 30,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8863,13 +9095,12 @@ pg.ship_skin_template_13 = {
 		desc = "はっ、休憩時間にも邪魔されなきゃならないのか？…ただの冗談にそう怯むな。退屈しのぎに付き合ってくれるやつでもいないかと思ってたところだ",
 		voice_actor = 190,
 		spine_offset = "",
-		gyro = 0,
+		gyro = 1,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
@@ -8963,6 +9194,10 @@ pg.ship_skin_template_13 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		},
+		ship_l2d_id = {
+			207,
+			208
 		}
 	},
 	[405040] = {
@@ -9625,221 +9860,6 @@ pg.ship_skin_template_13 = {
 							-0.36,
 							2.36,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[406021] = {
-		ship_group = 40602,
-		name = "見せ場訪れず？",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "150",
-		id = 406021,
-		group_index = 1,
-		prefab = "yibei_2",
-		painting = "yibei_2",
-		shop_id = 70631,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 17,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "おまたせしましたの！指揮官と艦船たちの注文した大ジョッキ鉄血ビー…わわわ！？ん、んんんーー！これでなんとかこぼさないようにして…ど、どうですの！？",
-		voice_actor = 299,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.53,
-					1.37,
-					0
-				}
-			},
-			plane = {
-				{
-					1.49,
-					1.43,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.28,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[407010] = {
-		ship_group = 40701,
-		name = "グラーフ・ツェッペリン",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 407010,
-		group_index = 0,
-		prefab = "qibolin",
-		painting = "qibolin",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 21,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "航空母艦グラーフ・ツェッペリン",
-		voice_actor = 9,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.74,
-					1,
-					0
-				}
-			},
-			plane = {
-				{
-					0.73,
-					1.28,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-1.01,
-							0.86,
-							-1.89
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.87,
-							0.79,
-							-1.85
 						}
 					}
 				}

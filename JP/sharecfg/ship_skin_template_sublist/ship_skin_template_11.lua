@@ -1,5 +1,223 @@
 pg = pg or {}
 pg.ship_skin_template_11 = {
+	[304011] = {
+		ship_group = 30401,
+		name = "華鳥風月",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "101",
+		id = 304011,
+		group_index = 1,
+		prefab = "jingang_2",
+		painting = "jingang_2",
+		shop_id = 70167,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 2,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "職務も休暇も全力で挑む――これこそこの私の流儀ですわ。指揮官、金剛と一緒におでかけする準備はよろしくて？",
+		voice_actor = 138,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.44,
+					0.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.45,
+					0.59,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.45,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[304012] = {
+		ship_group = 30401,
+		name = "タレント・ホスピタル",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "138",
+		id = 304012,
+		group_index = 2,
+		prefab = "jingang_3",
+		painting = "jingang_3",
+		shop_id = 70398,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 15,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "「母港医療施設のタレントプロモーション」…ふふふ、いい選択ですわ。指揮官、宣材写真の撮影は任せてもよろしいのかしら？",
+		voice_actor = 138,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.687,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.011,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.612,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.26,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[304013] = {
 		ship_group = 30401,
 		name = "風舞う通学路",
@@ -2400,7 +2618,7 @@ pg.ship_skin_template_11 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 22,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -3345,7 +3563,7 @@ pg.ship_skin_template_11 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 22,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -3459,7 +3677,7 @@ pg.ship_skin_template_11 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 22,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -3687,7 +3905,7 @@ pg.ship_skin_template_11 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 20,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -3915,7 +4133,7 @@ pg.ship_skin_template_11 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 20,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -4463,7 +4681,7 @@ pg.ship_skin_template_11 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -5578,7 +5796,7 @@ pg.ship_skin_template_11 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -7094,7 +7312,7 @@ pg.ship_skin_template_11 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 24,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8790,7 +9008,7 @@ pg.ship_skin_template_11 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 8,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8994,223 +9212,6 @@ pg.ship_skin_template_11 = {
 						{
 							-0.304,
 							0.977,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[307021] = {
-		ship_group = 30702,
-		name = "常夏の殺生石",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 307021,
-		group_index = 1,
-		prefab = "Jiahe_2",
-		painting = "Jiahe_2",
-		shop_id = 70004,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 6,
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "「人生短し、心の征くまま進むがよし」どこかで聞いたような話しだ。指揮官、お前は心を抑えられなくなっているのか？",
-		voice_actor = 9,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.78,
-					0.68,
-					0
-				}
-			},
-			plane = {
-				{
-					1.78,
-					0.68,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.799,
-							0.453,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.304,
-							0.977,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[307022] = {
-		ship_group = 30702,
-		name = "白狐賀正",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "101",
-		id = 307022,
-		group_index = 2,
-		prefab = "Jiahe_3",
-		painting = "Jiahe_3",
-		shop_id = 70033,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 2,
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "正月には正月の装いで挑まねばな。どうだ指揮官？感想を聞かせてくれ。",
-		voice_actor = 9,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.91,
-					1.14,
-					0
-				}
-			},
-			plane = {
-				{
-					0.91,
-					1.14,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.43,
 							0
 						}
 					}

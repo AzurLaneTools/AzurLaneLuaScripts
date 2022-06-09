@@ -20,6 +20,7 @@ function slot2.Ctor(slot0, slot1, slot2, slot3, slot4)
 
 	slot0._alignment = Vector3.zero
 	slot0._angle = 0
+	slot0._component = {}
 	slot0._timeExemptKey = "aoe_" .. slot0._areaUniqueID
 end
 
@@ -111,6 +112,12 @@ function slot2.SetActiveFlag(slot0, slot1)
 end
 
 function slot2.Dispose(slot0)
+	for slot4, slot5 in ipairs(slot0._component) do
+		slot5:Dispose()
+	end
+
+	slot0._component = nil
+
 	slot0:RemoveTimer()
 
 	slot0._cldObjList = nil
@@ -251,6 +258,10 @@ end
 
 function slot2.SetFXStatic(slot0, slot1)
 	slot0._fxStatic = slot1
+end
+
+function slot2.AppendComponent(slot0, slot1)
+	table.insert(slot0._component, slot1)
 end
 
 function slot2.InitCldComponent(slot0)

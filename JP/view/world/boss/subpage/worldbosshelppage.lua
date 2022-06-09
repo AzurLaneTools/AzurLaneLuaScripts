@@ -8,13 +8,16 @@ function slot0.OnLoaded(slot0)
 	slot0.friendBtn = slot0:findTF("window/sliders/content/friend")
 	slot0.friendRequested = slot0.friendBtn:Find("requested")
 	slot0.friendMark = slot0.friendBtn:Find("mark")
+	slot0.friendSupportTimeTxt = slot0.friendBtn:Find("requested/Text"):GetComponent(typeof(Text))
 	slot0.guildBtn = slot0:findTF("window/sliders/content/guild")
 	slot0.guildRequested = slot0.guildBtn:Find("requested")
 	slot0.guildMark = slot0.guildBtn:Find("mark")
+	slot0.guildSupportTimeTxt = slot0.guildBtn:Find("requested/Text"):GetComponent(typeof(Text))
 	slot0.worldBtn = slot0:findTF("window/sliders/content/world")
 	slot0.worldRequested = slot0.worldBtn:Find("requested")
 	slot0.worldMark = slot0.worldBtn:Find("mark")
 	slot0.worldSupportTimeTxt = slot0.worldBtn:Find("requested/Text"):GetComponent(typeof(Text))
+	slot0.timers = {}
 end
 
 function slot0.OnInit(slot0)
@@ -38,7 +41,7 @@ function slot0.OnInit(slot0)
 		setActive(uv0.guildMark, uv0.guildFlag)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.worldBtn, function ()
-		if uv0.boss:WorldSupported() then
+		if nowWorld():GetBossProxy():WorldSupported() then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("world_boss_ask_help"))
 
 			return
@@ -68,61 +71,89 @@ function slot0.Update(slot0, slot1)
 	slot0.boss = slot1
 
 	slot0:Reset()
-	slot0:UpdateRequestItems()
+	slot0:UpdateFriendRequestItem()
+	slot0:UpdateGuildRequetItem()
 	slot0:UpdateWorldRequetItem()
 	slot0:Show()
 end
 
-function slot0.UpdateRequestItems(slot0)
+function slot0.UpdateFriendRequestItem(slot0)
 	slot1 = slot0.boss
-	slot2 = slot1:FriendSupported()
+	slot3 = nowWorld():GetBossProxy():FriendSupported()
 
-	setButtonEnabled(slot0.friendBtn, not slot2)
-	setActive(slot0.friendRequested, slot2)
+	setButtonEnabled(slot0.friendBtn, not slot3)
+	setActive(slot0.friendRequested, slot3)
 	setActive(slot0.friendMark, false)
+	slot0:RemoveRequestTimer(slot0.friendSupportTimeTxt)
 
-	slot3 = slot1:GuildSupported()
+	if slot3 then
+		slot0:AddRequestTimer(slot2:GetNextFriendSupportTime(), slot0.friendSupportTimeTxt, function ()
+			uv0:UpdateFriendRequestItem()
+		end)
+	end
+end
+
+function slot0.UpdateGuildRequetItem(slot0)
+	slot1 = slot0.boss
+	slot3 = nowWorld():GetBossProxy():GuildSupported()
 
 	setButtonEnabled(slot0.guildBtn, not slot3)
 	setActive(slot0.guildRequested, slot3)
 	setActive(slot0.guildMark, false)
+	slot0:RemoveRequestTimer(slot0.guildSupportTimeTxt)
+
+	if slot3 then
+		slot0:AddRequestTimer(slot2:GetNextGuildSupportTime(), slot0.guildSupportTimeTxt, function ()
+			uv0:UpdateGuildRequetItem()
+		end)
+	end
 end
 
 function slot0.UpdateWorldRequetItem(slot0)
-	slot2 = slot0.boss:WorldSupported()
+	slot2 = nowWorld():GetBossProxy():WorldSupported()
 
 	setActive(slot0.worldRequested, slot2)
 	setActive(slot0.worldMark, false)
-	slot0:RemoveRequestTimer()
+	slot0:RemoveRequestTimer(slot0.worldSupportTimeTxt)
 
 	if slot2 then
-		slot0:AddRequestTimer()
+		slot0:AddRequestTimer(slot1:GetNextWorldSupportTime(), slot0.worldSupportTimeTxt, function ()
+			uv0:UpdateWorldRequetItem()
+		end)
 	end
 end
 
-function slot0.AddRequestTimer(slot0)
-	slot2 = slot0.boss:GetNextWorldSupportTime()
-	slot0.timer = Timer.New(function ()
+function slot0.AddRequestTimer(slot0, slot1, slot2, slot3)
+	slot4 = nowWorld():GetBossProxy()
+	slot0.timers[slot2] = Timer.New(function ()
 		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
-			uv1.worldSupportTimeTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
+			uv1.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
 		else
-			uv1.worldSupportTimeTxt.text = ""
+			uv1.text = ""
 
-			uv1:RemoveRequestTimer()
-			uv1:UpdateWorldRequetItem()
+			uv2:RemoveRequestTimer(uv1)
+			uv3()
 		end
 	end, 1, -1)
 
-	slot0.timer:Start()
-	slot0.timer.func()
+	slot0.timers[slot2]:Start()
+	slot0.timers[slot2].func()
 end
 
-function slot0.RemoveRequestTimer(slot0)
-	if slot0.timer then
-		slot0.timer:Stop()
+function slot0.RemoveRequestTimer(slot0, slot1)
+	if slot0.timers[slot1] then
+		slot0.timers[slot1]:Stop()
 
-		slot0.timer = nil
+		slot0.timers[slot1] = nil
 	end
+end
+
+function slot0.RemoveRequestTimers(slot0)
+	for slot4, slot5 in pairs(slot0.timers) do
+		slot5:Stop()
+	end
+
+	slot0.timers = {}
 end
 
 function slot0.Show(slot0)
@@ -137,7 +168,7 @@ end
 
 function slot0.OnDestroy(slot0)
 	slot0:Hide()
-	slot0:RemoveRequestTimer()
+	slot0:RemoveRequestTimers()
 end
 
 return slot0

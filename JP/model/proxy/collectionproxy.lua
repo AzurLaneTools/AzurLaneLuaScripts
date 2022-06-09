@@ -103,6 +103,8 @@ function slot0.getShipGroup(slot0, slot1)
 end
 
 function slot0.updateShipGroup(slot0, slot1)
+	assert(slot1, "update ship group: group cannot be nil.")
+
 	slot0.shipGroups[slot1.id] = Clone(slot1)
 end
 

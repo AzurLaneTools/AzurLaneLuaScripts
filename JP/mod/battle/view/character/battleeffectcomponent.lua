@@ -89,7 +89,9 @@ end
 function slot5.DoWhenAddBuff(slot0, slot1)
 	slot3 = slot1.Data.buff_level
 
-	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1.Data.buff_id).init_effect and slot4.init_effect ~= "" then
+	assert(uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1.Data.buff_id) ~= nil, "Cann't find buff Config, buffId :" .. slot2)
+
+	if slot4.init_effect and slot4.init_effect ~= "" then
 		slot5 = slot4.init_effect
 
 		if slot4.skin_adapt then
@@ -155,7 +157,9 @@ function slot5.onBuffStack(slot0, slot1)
 end
 
 function slot5.DoWhenStackBuff(slot0, slot1)
-	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1.Data.buff_id).init_effect ~= nil and slot3.init_effect ~= "" then
+	assert(uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1.Data.buff_id) ~= nil, "Cann't find buff Config, buffId :" .. slot2)
+
+	if slot3.init_effect ~= nil and slot3.init_effect ~= "" then
 		slot0._owner:AddFX(slot3.init_effect)
 	end
 end

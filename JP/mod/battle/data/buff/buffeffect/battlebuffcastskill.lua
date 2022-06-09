@@ -27,6 +27,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._target = slot3.target or "TargetSelf"
 	slot0._check_target = slot3.check_target
 	slot0._check_weapon = slot3.check_weapon
+	slot0._check_spweapon = slot3.check_spweapon
 	slot0._time = slot3.time or 0
 	slot0._nextEffectTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._time
 	slot0._minTargetNumber = slot3.minTargetNumber or 0
@@ -88,6 +89,10 @@ function slot1.castSkill(slot0, slot1, slot2, slot3)
 		if slot0._maxWeaponNumber < slot6 then
 			return "check weapon max"
 		end
+	end
+
+	if slot0._check_spweapon and not uv1.FilterSpWeapon(slot1, slot0._tempData.arg_list) then
+		return "check spweapon"
 	end
 
 	if slot0._hpUpperBound or slot0._hpLowerBound then
@@ -271,6 +276,34 @@ function slot1.GetEquipmentList(slot0, slot1)
 	end
 
 	return slot3
+end
+
+function slot1.FilterSpWeapon(slot0, slot1)
+	(function ()
+		if not uv0 then
+			uv1 = false
+
+			return
+		end
+
+		slot0 = uv2.Battle.BattleDataFunction.GetSpWeaponDataFromID(uv0:GetConfigID())
+
+		if uv3.type and not table.contains(uv3.type, slot0.type) then
+			uv1 = false
+		end
+
+		if uv3.label then
+			for slot4, slot5 in ipairs(uv3.label) do
+				if not table.contains(slot0.label, slot5) then
+					uv1 = false
+
+					return
+				end
+			end
+		end
+	end)()
+
+	return true and slot0:GetSpWeapon() or nil
 end
 
 function slot1.GetCastCount(slot0)

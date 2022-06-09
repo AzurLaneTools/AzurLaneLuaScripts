@@ -75,10 +75,12 @@ function slot0.ClearTimers(slot0)
 end
 
 function slot0.AddInMapTween(slot0, slot1)
+	assert(slot1 and type(slot1) == "number")
 	table.insert(slot0.inMapTweens, slot1)
 end
 
 function slot0.RemoveInMapTween(slot0, slot1)
+	assert(slot1 and type(slot1) == "number")
 	LeanTween.cancel(slot1)
 
 	for slot5, slot6 in ipairs(slot0.inMapTweens) do
@@ -99,10 +101,12 @@ function slot0.ClearInMapTweens(slot0)
 end
 
 function slot0.AddTween(slot0, slot1)
+	assert(slot1 and type(slot1) == "number")
 	table.insert(slot0.tweens, slot1)
 end
 
 function slot0.RemoveTween(slot0, slot1)
+	assert(slot1 and type(slot1) == "number")
 	LeanTween.cancel(slot1)
 
 	for slot5, slot6 in ipairs(slot0.tweens) do

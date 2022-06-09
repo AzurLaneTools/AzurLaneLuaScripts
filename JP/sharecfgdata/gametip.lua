@@ -2274,7 +2274,7 @@ _G.pg.base.gametip.tactics_end_to_learn = {
 }
 
 _G.pg.base.gametip.tactics_continue_to_learn = {
-	tip = "引き続き同じスキルを強化しますか？"
+	tip = "\n引き続き選択中のスキルを強化しますか？"
 }
 
 _G.pg.base.gametip.tactics_should_exist_skill = {
@@ -3367,6 +3367,250 @@ _G.pg.base.gametip.shop_entendShipYard_error = {
 	tip = "ドック拡張失敗:"
 }
 
+_G.pg.base.gametip.spweapon_attr_effect = {
+	tip = "装備効果"
+}
+
+_G.pg.base.gametip.spweapon_attr_skillupgrade = {
+	tip = "スキル強化"
+}
+
+_G.pg.base.gametip.spweapon_help_storage = {
+	tip = {
+		{
+			info = [[
+★特殊装備について
+特殊装備とは、艦船が最大まで限界突破すると（特別計画艦・UR艦船・META艦船は最初から）開放できる特殊装備枠に装備できる装備を指します。
+特殊装備を装備すると、艦船の能力を上昇させることができるほか、スキルの効果を強化したり戦闘中敵弾を消したりなど、様々な効果を発揮できます。
+
+特殊装備は1隻につき1個しか装備できず、また一部の艦船には専用の特殊装備が存在します。
+また、特殊装備は倉庫の所持枠とは別枠で保存できます。
+
+・特殊装備の入手について
+特殊装備は、【デイリーチャレンジ】か【製造】で入手できます。
+【デイリーチャレンジ】の「特殊装備」は毎週２回まで挑戦可能で、特殊装備と特殊装備に関わる各種素材を入手できます。
+【製造】は倉庫の「設計図」タブか、ドック画面の特殊装備枠タップで行うことができ、指定の特殊装備を入手できます。
+
+【製造】を行う際は「特殊装備コア」「資金」を使用しますが、その上でさらに「特殊装備強化石」や余った特殊装備を消費して装備の強化経験値を一定以上付与して初めて【製造】が行えます。
+また、専用特殊装備が存在する艦船のドック画面で製造を行うと、専用特殊装備を製造することが可能です。
+
+・特殊装備の性能について
+特殊装備の性能には「基本性能」「変化性能」「装備効果」が存在します。
+
+「基本性能」とは、特殊装備の種類に応じて存在するステータス上昇値で、「強化」や「限界突破」によって上昇させることができます。
+「強化」は、「特殊装備強化石」や余った特殊装備を消費して強化経験値を溜め、特殊装備の強化Lvを上昇させます。
+「限界突破」は、「特殊装備コア」・資金・強化素材を消費し、特殊装備のレアリティを上昇させ、強化レベルがリセットされます。限界突破は現在R→SRのみ開放されています。
+
+「変化性能」は、特殊装備それぞれが持つ「変動」する性能で、装備の種類によって定められた範囲内からランダムで付与されます。
+特殊装備は「変化」で、「特殊装備変化石」を消費し「変化性能」を付与し直すことができます。
+取得した変化性能は、「変化確定」で特殊装備に付与、または「変化中止」で破棄することができます。
+
+「装備効果」とは、特殊装備を一定レベルまで強化すると開放される特殊効果/能力のことです。
+一部の専用特殊装備は「装備効果」のほかに、特定スキルを強化できる効果も持ちます。
+
+・特殊装備の戦闘時の挙動について
+一部特殊装備は戦闘中、「装備効果」として敵弾を消す「特殊斬撃」を自動で放ちます。
+「特殊斬撃」は特殊装備の種類・装備艦船の艦種/数量によって、斬撃の範囲/軌跡と消せる敵弾の種類が異なります。
+
+該当特殊装備を装備する艦船は、「特殊斬撃」が1回までチャージされます。
+チャージされた状態でその艦船がダメージを受けるか、もしくはダメージを受けずに5秒間経過すると「特殊斬撃」を自動で放ち、チャージ状態をリセットします。
+「特殊斬撃」をチャージするには15秒かかります。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.spweapon_tip_upgrade = {
+	tip = "これ以上は強化経験値を付与できません"
+}
+
+_G.pg.base.gametip.spweapon_tip_attr_modify = {
+	tip = "【変化中止】か【変化確定】を選択すると、再び性能変化を行えるようになります"
+}
+
+_G.pg.base.gametip.spweapon_tip_materal_no_enough = {
+	tip = "素材が不足しています"
+}
+
+_G.pg.base.gametip.spweapon_tip_gold_no_enough = {
+	tip = "資金が不足しています"
+}
+
+_G.pg.base.gametip.spweapon_tip_pt_no_enough = {
+	tip = "限界突破に必要な強化経験値が不足しています"
+}
+
+_G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
+	tip = "製造に必要な強化経験値が不足しています"
+}
+
+_G.pg.base.gametip.spweapon_tip_bag_no_enough = {
+	tip = "特殊装備所持枠が不足しています"
+}
+
+_G.pg.base.gametip.spweapon_tip_create_sussess = {
+	tip = "特殊装備<color=#92fc63>【$1】</color>を入手しました"
+}
+
+_G.pg.base.gametip.spweapon_tip_group_error = {
+	tip = "この兵装を装備できません"
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_overflow = {
+	tip = "余った強化経験値<color=#ff5c5c>$1</color>は廃棄されます。続けますか？"
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
+	tip = "限界突破に必要な素材を選択してください"
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_materal_check = {
+	tip = "改造に必要な素材を選択してください"
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_attrmax = {
+	tip = "変化性能がすでにmaxです"
+}
+
+_G.pg.base.gametip.spweapon_tip_locked = {
+	tip = "特殊装備枠は限界突破maxで開放されます"
+}
+
+_G.pg.base.gametip.spweapon_ui_level = {
+	tip = "強化レベル"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax = {
+	tip = "強化レベルMAX"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax2 = {
+	tip = "これ以上は強化できません"
+}
+
+_G.pg.base.gametip.spweapon_ui_need_resource = {
+	tip = "必要素材："
+}
+
+_G.pg.base.gametip.spweapon_ui_ptitem = {
+	tip = "強化石"
+}
+
+_G.pg.base.gametip.spweapon_ui_spweapon = {
+	tip = "特殊装備"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform = {
+	tip = "性能変化"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform_attr_text = {
+	tip = "変化を行うと、特殊装備の「変化性能」ステータスをリセットし、再度ランダムで付与できます"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr = {
+	tip = "変化中止"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr = {
+	tip = "変化確定"
+}
+
+_G.pg.base.gametip.spweapon_ui_autoselect = {
+	tip = "自動選択"
+}
+
+_G.pg.base.gametip.spweapon_ui_cancelselect = {
+	tip = "選択中止"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_quZhu = {
+	tip = "駆逐"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qinXun = {
+	tip = "軽巡"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhongXun = {
+	tip = "重巡"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhanLie = {
+	tip = "戦艦"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
+	tip = "空母"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_weiXiu = {
+	tip = "工作"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qianTing = {
+	tip = "潜水"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_other = {
+	tip = "その他"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
+	tip = "<color=#92fc63>変化後のステータス</color>を適用させますか？"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
+	tip = "<color=#92fc63>性能変化</color>を確定させますか？"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text1 = {
+	tip = "<color=#ffde38>変化前のステータス</color>を保留します"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text2 = {
+	tip = "<color=#ffde38>性能変化</color>を中止しますか？（素材は返還されません）"
+}
+
+_G.pg.base.gametip.spweapon_ui_create_exp = {
+	tip = "製造に必要な強化経験値"
+}
+
+_G.pg.base.gametip.spweapon_ui_upgrade_exp = {
+	tip = "強化LvUPに必要な経験値"
+}
+
+_G.pg.base.gametip.spweapon_ui_breakout_exp = {
+	tip = "限界突破に必要な経験値"
+}
+
+_G.pg.base.gametip.spweapon_ui_create = {
+	tip = "製造"
+}
+
+_G.pg.base.gametip.spweapon_ui_storage = {
+	tip = "倉庫"
+}
+
+_G.pg.base.gametip.spweapon_ui_empty = {
+	tip = "特殊装備がありません"
+}
+
+_G.pg.base.gametip.spweapon_ui_create_button = {
+	tip = "装備製造"
+}
+
+_G.pg.base.gametip.spweapon_ui_helptext = {
+	tip = "※特殊装備を製造するには「特殊装備コア」「資金」「強化経験値」が必要になります\n※画面左側の「強化石」「特殊装備」を強化素材として選択すると、特殊装備に付与される「強化経験値」を確認することができます"
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text1 = {
+	tip = "*限定任務をクリアし、「特殊装備コア」「特殊装備強化石」などを手に入れよう！"
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text2 = {
+	tip = "*「特殊装備コア」「特殊装備強化石」は特殊装備の製造・強化に使用します"
+}
+
 _G.pg.base.gametip.stage_beginStage_error = {
 	tip = "ステージ開始失敗:"
 }
@@ -4205,8 +4449,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2022.3.10-2022.6.1</color>
-META戦・シャルンホルスト(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2022.6.9-2022.9.1</color>
+META戦・レパルス(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -6057,6 +6301,10 @@ _G.pg.base.gametip.help_daily_task = {
 	tip = {
 		{
 			info = [[
+※ 特殊装備：敵をすべて撃破することを目標とした特殊ステージで、毎週2回まで挑戦可能。
+◆ 敵は<color=#92fc63>特殊煙幕弾</color>を使用し味方主力艦隊の命中と与えるダメージを大幅にダウンさせる；
+◆ また、敵は<color=#92fc63>特殊斬撃</color>を放ち、一部の砲撃や魚雷の弾幕を消してしまう
+
 ■通商破壊
 開放時間：毎日開放
 通商破壊とは、潜水艦隊を操作し、敵輸送艦を撃破することで報酬を入手する特殊ステージです。
@@ -7489,7 +7737,11 @@ _G.pg.base.gametip.ship_remould_warning_310044 = {
 }
 
 _G.pg.base.gametip.ship_remould_warning_303154 = {
-	tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	tip = [[
+<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。
+装備されている<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。
+改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_402134 = {
@@ -13198,6 +13450,26 @@ _G.pg.base.gametip.msgbox_text_save = {
 	tip = "設定保存"
 }
 
+_G.pg.base.gametip.msgbox_text_replace = {
+	tip = "装備変更"
+}
+
+_G.pg.base.gametip.msgbox_text_unload = {
+	tip = "装備解除"
+}
+
+_G.pg.base.gametip.msgbox_text_modify = {
+	tip = "性能変化"
+}
+
+_G.pg.base.gametip.msgbox_text_breakthrough = {
+	tip = "限界突破"
+}
+
+_G.pg.base.gametip.msgbox_text_equipdetail = {
+	tip = "装備詳細"
+}
+
 _G.pg.base.gametip.common_flag_ship = {
 	tip = "<size=23>秘書艦</size>"
 }
@@ -17098,7 +17370,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することが出来ます。
 
-※<color=#92fc63>2022.3.10-2022.6.9</color>シャルンホルスト(META)META戦開放期間は「シャルンホルスト・META」の解析Ptを入手できます。
+※<color=#92fc63>2022.6.9-2022.9.1</color>レパルス(META)META戦開放期間は「レパルス・META」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -20309,6 +20581,90 @@ _G.pg.base.gametip.battle_result_continue = {
 	tip = "画面をタッチ"
 }
 
+_G.pg.base.gametip.index_L2D = {
+	tip = "L2D"
+}
+
+_G.pg.base.gametip.index_DBG = {
+	tip = "ﾓｰｼｮﾝ背景"
+}
+
+_G.pg.base.gametip.index_BG = {
+	tip = "通常背景"
+}
+
+_G.pg.base.gametip.index_CANTUSE = {
+	tip = "適用不可"
+}
+
+_G.pg.base.gametip.index_UNUSE = {
+	tip = "未適用"
+}
+
+_G.pg.base.gametip.index_BGM = {
+	tip = "特別BGM"
+}
+
+_G.pg.base.gametip.without_ship_to_wear = {
+	tip = "衣装適用できる艦船がいません"
+}
+
+_G.pg.base.gametip.choose_ship_to_wear_this_skin = {
+	tip = "衣装を適用する艦船を\n選択してください"
+}
+
+_G.pg.base.gametip.skinatlas_search_holder = {
+	tip = "艦船・着せ替え名を検索可能"
+}
+
+_G.pg.base.gametip.skinatlas_search_result_is_empty = {
+	tip = "条件を満たす着せ替えが存在しません"
+}
+
+_G.pg.base.gametip.chang_ship_skin_window_title = {
+	tip = "衣装"
+}
+
+_G.pg.base.gametip.world_boss_item_info = {
+	tip = [[
+META座標情報解析装置|セイレーン作戦で集めた「META座標」情報を記録する装置。解析を行うと「META戦」を開放できます。
+「META戦」が溜まった状態では新たに解析を行うことができません。
+「META戦」本日開放数：$1/$2
+座標情報所持上限：$3/$4]]
+}
+
+_G.pg.base.gametip.meta_syn_value_label = {
+	tip = "累計解析Pt"
+}
+
+_G.pg.base.gametip.meta_syn_finish = {
+	tip = "情報解析完了"
+}
+
+_G.pg.base.gametip.index_meta_repair = {
+	tip = "艤装強化可能"
+}
+
+_G.pg.base.gametip.index_meta_tactics = {
+	tip = "戦技取得可能"
+}
+
+_G.pg.base.gametip.index_meta_energy = {
+	tip = "限界突破可能"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_skill = {
+	tip = "\nスキルを変更して引き続き強化を行いますか？"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_ship_skill = {
+	tip = "\nスキルを強化する艦船を変更しますか？"
+}
+
+_G.pg.base.gametip.tactics_no_recent_ships = {
+	tip = "スキル強化歴はありません"
+}
+
 _G.pg.base.gametip.activity_kill = {
 	tip = "累計撃破"
 }
@@ -20531,4 +20887,8 @@ _G.pg.base.gametip.support_times_tip = {
 
 _G.pg.base.gametip.build_times_tip = {
 	tip = "一括建造"
+}
+
+_G.pg.base.gametip.tactics_recent_ship_label = {
+	tip = "ｽｷﾙ強化歴"
 }

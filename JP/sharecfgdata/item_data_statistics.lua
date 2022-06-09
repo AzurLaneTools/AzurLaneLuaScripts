@@ -6520,7 +6520,7 @@ _G.pg.base.item_data_statistics[15015] = {
 	display = "特殊装備を製造・変化（強化）時に使用する素材",
 	name = "特殊装備強化石T1",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 2,
 	shop_id = -1,
@@ -6541,7 +6541,7 @@ _G.pg.base.item_data_statistics[15016] = {
 	display = "特殊装備を製造・変化（強化）時に使用する素材",
 	name = "特殊装備強化石T2",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 3,
 	shop_id = -1,
@@ -6562,7 +6562,7 @@ _G.pg.base.item_data_statistics[15017] = {
 	display = "特殊装備を製造・変化（強化）時に使用する素材",
 	name = "特殊装備強化石T3",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -6573,6 +6573,48 @@ _G.pg.base.item_data_statistics[15017] = {
 	id = 15017,
 	is_world = 0,
 	icon = "Props/15017",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15020] = {
+	display = "特殊装備の「変化性能」をリセットし付与し直す。「変化」機能にて使用",
+	name = "特殊装備変化石T1",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15020,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15021] = {
+	display = "特殊装備の「変化性能」をリセットし付与し直す。「変化」機能にて使用",
+	name = "特殊装備変化石T2",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15021,
+	is_world = 0,
+	icon = "Props/15020",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8595,6 +8637,27 @@ _G.pg.base.item_data_statistics[21011] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21012] = {
+	display = "レパルス(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：レパルス(META)",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21012,
+	is_world = 0,
+	icon = "Props/21012",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -8799,6 +8862,27 @@ _G.pg.base.item_data_statistics[21906] = {
 	id = 21906,
 	is_world = 0,
 	icon = "Props/21906",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21907] = {
+	display = "レパルス(META)の解析ポイント。META戦開催期間（2022.9.1）終了時にリセットされます",
+	name = "レパルス(META)解析Pt",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21907,
+	is_world = 0,
+	icon = "Props/21907",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -13672,12 +13756,12 @@ _G.pg.base.item_data_statistics[30404] = {
 		},
 		{
 			9,
-			2013,
+			2011,
 			1
 		},
 		{
 			9,
-			2012,
+			2013,
 			1
 		}
 	},
@@ -49614,6 +49698,299 @@ _G.pg.base.item_data_statistics[52033] = {
 		{
 			2,
 			11033,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52040] = {
+	display = "確率で下記の特殊装備を入手可能",
+	name = "ランダム特殊装備",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52040,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52041] = {
+	display = "確率で下記の特殊装備を入手可能",
+	name = "ランダム特殊装備",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52041,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		},
+		{
+			21,
+			1010120,
+			1
+		},
+		{
+			21,
+			1010220,
+			1
+		},
+		{
+			21,
+			1020120,
+			1
+		},
+		{
+			21,
+			1030120,
+			1
+		},
+		{
+			21,
+			1040120,
+			1
+		},
+		{
+			21,
+			1050120,
+			1
+		},
+		{
+			21,
+			1060120,
+			1
+		},
+		{
+			21,
+			1060220,
+			1
+		},
+		{
+			21,
+			1070120,
+			1
+		},
+		{
+			21,
+			1070220,
+			1
+		},
+		{
+			21,
+			1080120,
+			1
+		},
+		{
+			21,
+			1080220,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52050] = {
+	display = "確率で下記の特殊装備コアを入手可能",
+	name = "ランダム特殊装備コア",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52050,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52051] = {
+	display = "確率で下記の特殊装備強化石を入手可能",
+	name = "ランダム特殊装備強化石",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52051,
+	is_world = 0,
+	icon = "Props/15016",
+	display_icon = {
+		{
+			2,
+			15017,
+			1
+		},
+		{
+			2,
+			15016,
+			1
+		},
+		{
+			2,
+			15015,
 			1
 		}
 	},

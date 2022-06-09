@@ -133,7 +133,11 @@ function slot0.checkFurnitures(slot0, slot1, slot2)
 end
 
 function slot0.allocFurnitureIdByChild(slot0, slot1, slot2)
-	if slot2[tonumber(slot0.child[1].id)] then
+	slot3 = slot0.child[1]
+
+	assert(slot3, "info cannot be nil")
+
+	if slot2[tonumber(slot3.id)] then
 		function slot6(slot0)
 			if not uv0[tonumber(slot0.parent)] then
 				return false

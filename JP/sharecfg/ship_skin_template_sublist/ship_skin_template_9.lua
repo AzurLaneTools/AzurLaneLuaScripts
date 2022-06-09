@@ -1,5 +1,237 @@
 pg = pg or {}
 pg.ship_skin_template_9 = {
+	[301261] = {
+		ship_group = 30126,
+		name = "見習いはメイドさん！",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "104",
+		id = 301261,
+		group_index = 1,
+		prefab = "Ximu_2",
+		painting = "Ximu_2",
+		shop_id = 70063,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 27,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "「メイドのユウグレ、この生命、指揮官と有明姉さんに捧げますっ！」――きゃっ！？す、スカートがぁ～！",
+		voice_actor = 51,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.599,
+					1.178,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.561,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.753,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.571,
+					1.13,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.29,
+							-0.99
+						}
+					}
+				}
+			}
+		}
+	},
+	[301262] = {
+		ship_group = 30126,
+		name = "春の夕暮",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "102",
+		id = 301262,
+		group_index = 2,
+		prefab = "ximu_3",
+		painting = "ximu_3",
+		shop_id = 70152,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = 27,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "新しい年に新しい衣装、気分が晴れますね。有明姉さんもきっとこの衣装を気に入ってくれます。指揮官様はどう思いますか…？",
+		voice_actor = 51,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.013,
+					0.807,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.014,
+					0.739,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.147,
+					0.021,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.014,
+					0.768,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.29,
+							-0.99
+						}
+					}
+				}
+			}
+		}
+	},
 	[301263] = {
 		ship_group = 30126,
 		name = "遊宴の花",
@@ -247,7 +479,7 @@ pg.ship_skin_template_9 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 27,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -974,7 +1206,7 @@ pg.ship_skin_template_9 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 33,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -1202,7 +1434,7 @@ pg.ship_skin_template_9 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -1778,7 +2010,7 @@ pg.ship_skin_template_9 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 34,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -2122,7 +2354,7 @@ pg.ship_skin_template_9 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 34,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -3949,7 +4181,7 @@ pg.ship_skin_template_9 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -5842,7 +6074,7 @@ pg.ship_skin_template_9 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -6184,7 +6416,7 @@ pg.ship_skin_template_9 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8653,7 +8885,7 @@ pg.ship_skin_template_9 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -9090,236 +9322,6 @@ pg.ship_skin_template_9 = {
 						"smoke",
 						{
 							-0.38,
-							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301830] = {
-		ship_group = 30183,
-		name = "長波",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301830,
-		group_index = 0,
-		prefab = "changbo",
-		painting = "changbo",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "夕雲型駆逐艦四番艦・長波",
-		voice_actor = 233,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.158,
-					1.235,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.195,
-					1.262,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.006,
-					0.013,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.26,
-					1.233,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301831] = {
-		ship_group = 30183,
-		name = "幸せのロングウェーブ",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "104",
-		id = 301831,
-		group_index = 1,
-		prefab = "changbo_2",
-		painting = "changbo_2",
-		shop_id = 70348,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "これに着替えると指揮官もきっと幸せになるって明石から押し付けられたけど…どうですか……？",
-		voice_actor = 233,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.165,
-					1.204,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.242,
-					1.231,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.021,
-					0.006,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.213,
-					1.217,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
 							2.39,
 							0
 						}

@@ -27,6 +27,7 @@ function slot3.Dispose(slot0)
 end
 
 function slot3.AssertFields(slot0, slot1)
+	assert(slot0[slot1], "Lack Field " .. slot1)
 end
 
 function slot3.SetTemplateData(slot0, slot1)

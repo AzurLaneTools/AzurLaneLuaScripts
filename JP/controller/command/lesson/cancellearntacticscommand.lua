@@ -8,7 +8,14 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot6 = slot5:getStudentById(slot3)
+	if not slot5:getStudentById(slot3) then
+		if callback ~= nil then
+			callback()
+		end
+
+		return
+	end
+
 	slot7 = slot2.callback
 	slot8 = slot2.onConfirm
 	slot10 = getProxy(BayProxy):getShipById(slot6.shipId)
@@ -31,9 +38,10 @@ function slot0.execute(slot0, slot1)
 			uv0:addSkillExp(slot1.id, slot0.exp)
 			uv2:updateShip(uv0)
 			uv3:deleteStudent(uv4)
-			uv5:sendNotification(GAME.CANCEL_LEARN_TACTICS_DONE, {
+			uv3:SaveRecentShip(uv5.shipId)
+			uv6:sendNotification(GAME.CANCEL_LEARN_TACTICS_DONE, {
 				id = uv4,
-				shipId = uv6.shipId,
+				shipId = uv5.shipId,
 				totalExp = slot0.exp,
 				oldSkill = slot1,
 				newSkill = uv0.skills[uv1],

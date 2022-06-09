@@ -6,6 +6,7 @@ end
 
 function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
+	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 
 	slot0._top = slot0:findTF("Top")
 	slot0.memoryMask = slot0:findTF("StoryMask", slot0._top)

@@ -94,6 +94,8 @@ function slot0.onAcheve(slot0, slot1, slot2)
 	(function ()
 		if uv0 and coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
+
+			assert(slot0, slot1)
 		end
 	end)()
 end

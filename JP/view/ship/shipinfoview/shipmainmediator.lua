@@ -33,6 +33,7 @@ slot0.BUY_ITEM_BY_ACT = "ShipMainMediator:BUY_ITEM_BY_ACT"
 slot0.ON_ADD_SHIP_EXP = "ShipMainMediator:ON_ADD_SHIP_EXP"
 slot0.OPEN_EQUIPMENT_INDEX = "ShipMainMediator:OPEN_EQUIPMENT_INDEX"
 slot0.EQUIP_CHANGE_NOTICE = "ShipMainMediator:EQUIP_CHANGE_NOTICE"
+slot0.ON_SELECT_SPWEAPON = "ShipMainMediator:ON_SELECT_SPWEAPON"
 
 function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -146,6 +147,14 @@ function slot0.register(slot0)
 			equipmentVOs = slot6,
 			shipId = uv0.contextData.shipId,
 			pos = slot1,
+			warp = StoreHouseConst.WARP_TO_WEAPON,
+			mode = StoreHouseConst.EQUIPMENT
+		})
+	end)
+	slot0:bind(uv0.ON_SELECT_SPWEAPON, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SPWEAPON_STOREHOUSE, {
+			lock = true,
+			shipId = uv0.contextData.shipId,
 			warp = StoreHouseConst.WARP_TO_WEAPON,
 			mode = StoreHouseConst.EQUIPMENT
 		})

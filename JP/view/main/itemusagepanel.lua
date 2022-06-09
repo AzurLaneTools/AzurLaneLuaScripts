@@ -75,6 +75,7 @@ function slot0.Update(slot0, slot1)
 	setText(slot0.itemIntro, HXSet.hxLan(slot1:getConfig("display")))
 	setText(slot0.itemName, HXSet.hxLan(slot1:getConfig("name")))
 	onButton(slot0, slot0.resetBtn, function ()
+		assert(uv0.settings.onResetInfo, "without reset info callback")
 		uv0.settings.onResetInfo({
 			count = 1,
 			type = DROP_TYPE_WORLD_ITEM,

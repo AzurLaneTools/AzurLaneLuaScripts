@@ -998,9 +998,13 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.ResetActivityBtns(slot0)
+	slot1 = import("GameCfg.activity.MainUIEntranceData")
+
+	assert(slot1, "Not Found MAINUI ENTRANCEDATA!!")
+
 	slot2 = slot0._ActivityBtns:GetComponent(typeof(GridLayoutGroup))
 
-	if import("GameCfg.activity.MainUIEntranceData").LayoutProperty.CellSize then
+	if slot1.LayoutProperty.CellSize then
 		slot2.cellSize = slot1.LayoutProperty.CellSize
 	end
 
@@ -1061,7 +1065,11 @@ function slot0.RefreshBtn(slot0, slot1, slot2)
 end
 
 function slot0.UpdateActivityBtn(slot0, slot1)
-	for slot6, slot7 in ipairs(import("GameCfg.activity.MainUIEntranceData").CurrentEntrancesList) do
+	slot2 = import("GameCfg.activity.MainUIEntranceData")
+
+	assert(slot2, "Not Found MAINUI ENTRANCEDATA!!")
+
+	for slot6, slot7 in ipairs(slot2.CurrentEntrancesList) do
 		if slot2[slot7] and slot8.ButtonName == slot1 then
 			if not IsNil(slot0._ActivityBtns:Find(slot8.ButtonName)) then
 				if slot8.UpdateButton then
@@ -1081,7 +1089,11 @@ function slot0.UpdateActivityBtn(slot0, slot1)
 end
 
 function slot0.HandleMiniGameBtns(slot0)
-	for slot5, slot6 in ipairs(import("GameCfg.activity.MainUIEntranceData").CurrentEntrancesList) do
+	slot1 = import("GameCfg.activity.MainUIEntranceData")
+
+	assert(slot1, "Not Found MAINUI ENTRANCEDATA!!")
+
+	for slot5, slot6 in ipairs(slot1.CurrentEntrancesList) do
 		if slot1[slot6] and slot7.Tag and slot7.Tag == "MiniGameHub" then
 			slot0:UpdateActivityBtn(slot7.ButtonName)
 		end

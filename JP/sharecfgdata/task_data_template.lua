@@ -172506,6 +172506,514 @@ _G.pg.base.task_data_template[17732] = {
 	}
 }
 
+_G.pg.base.task_data_template[17733] = {
+	name = "特殊兵装支援活动任务1",
+	guild_coin_award = 0,
+	award = 96231,
+	type = 26,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17733,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			20
+		},
+		{
+			2,
+			15016,
+			200
+		},
+		{
+			21,
+			1010100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17734] = {
+	name = "特殊兵装支援活动任务2",
+	guild_coin_award = 0,
+	award = 96232,
+	type = 26,
+	desc = "艦隊を出撃させ、戦闘3回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17734,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			100
+		},
+		{
+			2,
+			15015,
+			1000
+		},
+		{
+			21,
+			1010200,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17735] = {
+	name = "特殊兵装支援活动任务3",
+	guild_coin_award = 0,
+	award = 96233,
+	type = 26,
+	desc = "艦を1隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17735,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15020,
+			20
+		},
+		{
+			2,
+			15021,
+			10
+		},
+		{
+			21,
+			1020100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17736] = {
+	name = "特殊兵装支援活动任务4",
+	guild_coin_award = 0,
+	award = 96234,
+	type = 26,
+	desc = "寮舎で食糧を1回補充する",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17736,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15017,
+			15
+		},
+		{
+			21,
+			1030100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17737] = {
+	name = "特殊兵装支援活动任务5",
+	guild_coin_award = 0,
+	award = 96235,
+	type = 26,
+	desc = "艦隊を出撃させ、デイリーチャレンジを1回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17737,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			2,
+			15020,
+			10
+		},
+		{
+			21,
+			1040100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17738] = {
+	name = "特殊兵装支援活动任务6",
+	guild_coin_award = 0,
+	award = 96236,
+	type = 26,
+	desc = "任意のハード海域を1回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17738,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			2,
+			15015,
+			1000
+		},
+		{
+			21,
+			1050100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17739] = {
+	name = "特殊兵装支援活动任务7",
+	guild_coin_award = 0,
+	award = 96237,
+	type = 26,
+	desc = "物資拠出を1回行う",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17739,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			21,
+			1060100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17740] = {
+	name = "特殊兵装支援活动任务8",
+	guild_coin_award = 0,
+	award = 96238,
+	type = 26,
+	desc = "軍事委託を1回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17740,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15020,
+			10
+		},
+		{
+			2,
+			15021,
+			10
+		},
+		{
+			21,
+			1060200,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17741] = {
+	name = "特殊兵装支援活动任务9",
+	guild_coin_award = 0,
+	award = 96239,
+	type = 26,
+	desc = "演習を1回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17741,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			2,
+			15015,
+			1000
+		},
+		{
+			21,
+			1070100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17742] = {
+	name = "特殊兵装支援活动任务10",
+	guild_coin_award = 0,
+	award = 96240,
+	type = 26,
+	desc = "科学研究を1回行う",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17742,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15020,
+			10
+		},
+		{
+			2,
+			15021,
+			10
+		},
+		{
+			21,
+			1070200,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17743] = {
+	name = "特殊兵装支援活动任务11",
+	guild_coin_award = 0,
+	award = 96241,
+	type = 26,
+	desc = "セイレーン作戦のエリアに出撃し、1回戦闘を行う",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17743,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			20
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "戦闘勝利-日常",
 	guild_coin_award = 0,
@@ -179447,6 +179955,514 @@ _G.pg.base.task_data_template[35153] = {
 			1,
 			100
 		}
+	}
+}
+
+_G.pg.base.task_data_template[35154] = {
+	name = "【常驻活动】棘鳍礼服活动1",
+	guild_coin_award = 0,
+	award = 65153,
+	type = 26,
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35154,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54012,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35155] = {
+	name = "【常驻活动】棘鳍礼服活动1",
+	guild_coin_award = 0,
+	award = 65154,
+	type = 26,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35155,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35156] = {
+	name = "【常驻活动】棘鳍礼服活动2",
+	guild_coin_award = 0,
+	award = 65155,
+	type = 26,
+	desc = "デイリーチャレンジを3回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35156,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35157] = {
+	name = "【常驻活动】棘鳍礼服活动2",
+	guild_coin_award = 0,
+	award = 65156,
+	type = 26,
+	desc = "艦を2隻退役する",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35157,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35158] = {
+	name = "【常驻活动】棘鳍礼服活动3",
+	guild_coin_award = 0,
+	award = 65157,
+	type = 26,
+	desc = "戦術教室で戦術訓練を2回行う",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35158,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54022,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35159] = {
+	name = "【常驻活动】棘鳍礼服活动3",
+	guild_coin_award = 0,
+	award = 65158,
+	type = 26,
+	desc = "寮舎で食糧を5回補充する",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35159,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35160] = {
+	name = "【常驻活动】棘鳍礼服活动4",
+	guild_coin_award = 0,
+	award = 65159,
+	type = 26,
+	desc = "任意の敵艦を20隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35160,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50004,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35161] = {
+	name = "【常驻活动】棘鳍礼服活动4",
+	guild_coin_award = 0,
+	award = 65160,
+	type = 26,
+	desc = "艦を2隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35161,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35162] = {
+	name = "【常驻活动】棘鳍礼服活动5",
+	guild_coin_award = 0,
+	award = 65161,
+	type = 26,
+	desc = "任意の装備箱を1個開けよ！",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35162,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54023,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35163] = {
+	name = "【常驻活动】棘鳍礼服活动5",
+	guild_coin_award = 0,
+	award = 65162,
+	type = 26,
+	desc = "艦を5回強化する",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35163,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35164] = {
+	name = "【常驻活动】棘鳍礼服活动6",
+	guild_coin_award = 0,
+	award = 65163,
+	type = 26,
+	desc = "軍事委託を2回行う",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35164,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54003,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35165] = {
+	name = "【常驻活动】棘鳍礼服活动6",
+	guild_coin_award = 0,
+	award = 65164,
+	type = 26,
+	desc = "演習を2回行おう！",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35165,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35166] = {
+	name = "【常驻活动】棘鳍礼服活动7",
+	guild_coin_award = 0,
+	award = 65165,
+	type = 26,
+	desc = "装備を2回強化する",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35166,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54024,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35167] = {
+	name = "【常驻活动】棘鳍礼服活动7",
+	guild_coin_award = 0,
+	award = 65166,
+	type = 26,
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35167,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			108032,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 

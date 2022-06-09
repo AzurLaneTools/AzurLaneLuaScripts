@@ -1,5 +1,222 @@
 pg = pg or {}
 pg.ship_skin_template_12 = {
+	[307021] = {
+		ship_group = 30702,
+		name = "常夏の殺生石",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		id = 307021,
+		group_index = 1,
+		prefab = "Jiahe_2",
+		painting = "Jiahe_2",
+		shop_id = 70004,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 6,
+		illustrator = 8,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "「人生短し、心の征くまま進むがよし」どこかで聞いたような話しだ。指揮官、お前は心を抑えられなくなっているのか？",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.78,
+					0.68,
+					0
+				}
+			},
+			plane = {
+				{
+					1.78,
+					0.68,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.799,
+							0.453,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.304,
+							0.977,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307022] = {
+		ship_group = 30702,
+		name = "白狐賀正",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "101",
+		id = 307022,
+		group_index = 2,
+		prefab = "Jiahe_3",
+		painting = "Jiahe_3",
+		shop_id = 70033,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 2,
+		illustrator = 8,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "正月には正月の装いで挑まねばな。どうだ指揮官？感想を聞かせてくれ。",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307023] = {
 		ship_group = 30702,
 		name = "白羽の貴華",
@@ -328,7 +545,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 8,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -745,7 +962,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 12,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -1060,7 +1277,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 12,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -2233,7 +2450,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -5177,7 +5394,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 10,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -6369,7 +6586,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 10,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8240,7 +8457,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8354,7 +8571,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8777,236 +8994,6 @@ pg.ship_skin_template_12 = {
 				{
 					-0.17,
 					0.91,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.58,
-							2.14,
-							-1.05
-						}
-					}
-				}
-			}
-		}
-	},
-	[401251] = {
-		ship_group = 40125,
-		name = "暑夏の涼風",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 401251,
-		group_index = 1,
-		prefab = "Z25_2",
-		painting = "Z25_2",
-		shop_id = 70081,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 6,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "海辺でも気を緩めないっ！指揮官、準備運動はもう大丈夫？",
-		voice_actor = 3,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.22,
-					0.87,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.25,
-					0.83,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.12,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.31,
-					0.87,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.28,
-							-1.05
-						}
-					}
-				}
-			}
-		}
-	},
-	[401260] = {
-		ship_group = 40126,
-		name = "Z26",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 401260,
-		group_index = 0,
-		prefab = "Z26",
-		painting = "Z26",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "1936A「ナルヴィク」型駆逐艦-Z26",
-		voice_actor = 247,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.402,
-					1.267,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.31,
-					1.274,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.007,
-					-0.008,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.331,
-					1.168,
 					0
 				}
 			}

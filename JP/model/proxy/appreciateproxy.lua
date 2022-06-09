@@ -59,7 +59,7 @@ end
 
 function slot0.getPicExistStateByID(slot0, slot1)
 	if not slot1 then
-		-- Nothing
+		assert("不能为空的picID:" .. tostring(slot1))
 	end
 
 	return slot0.galleryPicExistStateTable[slot1]
@@ -67,7 +67,7 @@ end
 
 function slot0.getMusicExistStateByID(slot0, slot1)
 	if not slot1 then
-		-- Nothing
+		assert("不能为空的musicID:" .. tostring(slot1))
 	end
 
 	return slot0.musicExistStateTable[slot1]
@@ -76,12 +76,16 @@ end
 function slot0.getSinglePicConfigByID(slot0, slot1)
 	if pg.gallery_config[slot1] then
 		return slot2
+	else
+		assert(false, "不存在的插画ID:" .. tostring(slot1))
 	end
 end
 
 function slot0.getSingleMusicConfigByID(slot0, slot1)
 	if pg.music_collect_config[slot1] then
 		return slot2
+	else
+		assert(false, "不存在的音乐ID:" .. tostring(slot1))
 	end
 end
 
@@ -120,6 +124,8 @@ function slot0.isPicNeedUnlockByID(slot0, slot1)
 		else
 			return true
 		end
+	else
+		assert(false, "不存在的插画ID:" .. slot1)
 	end
 end
 
@@ -136,6 +142,8 @@ function slot0.isMusicNeedUnlockByID(slot0, slot1)
 		else
 			return true
 		end
+	else
+		assert(false, "不存在的音乐ID:" .. slot1)
 	end
 end
 
@@ -152,6 +160,8 @@ function slot0.getPicUnlockMaterialByID(slot0, slot1)
 		end
 
 		return slot4
+	else
+		assert(false, "不存在的插画ID:" .. slot1)
 	end
 end
 
@@ -168,6 +178,8 @@ function slot0.getMusicUnlockMaterialByID(slot0, slot1)
 		end
 
 		return slot4
+	else
+		assert(false, "不存在的音乐ID:" .. slot1)
 	end
 end
 
@@ -190,12 +202,16 @@ end
 function slot0.getPicUnlockTipTextByID(slot0, slot1)
 	if slot0:getSinglePicConfigByID(slot1) then
 		return slot2.illustrate
+	else
+		assert(false, "不存在的插画ID:" .. slot1)
 	end
 end
 
 function slot0.getMusicUnlockTipTextByID(slot0, slot1)
 	if slot0:getSingleMusicConfigByID(slot1) then
 		return slot2.illustrate
+	else
+		assert(false, "不存在的音乐ID:" .. slot1)
 	end
 end
 

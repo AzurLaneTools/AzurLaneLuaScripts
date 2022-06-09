@@ -45,6 +45,7 @@ function slot0.InitDetail(slot0)
 	slot0.profileBtn = slot0.detailPanel:Find("profile_btn")
 	slot0.fashionToggle = slot0.detailPanel:Find("fashion_toggle")
 	slot0.commonTagToggle = slot0.detailPanel:Find("common_toggle")
+	slot0.spWeaponSlot = slot0.equipments:Find("SpSlot")
 	slot0.propertyIcons = slot0.detailPanel:Find("attrs/attrs/property/icons")
 	slot0.intimacyTF = slot0:findTF("intimacy")
 	slot0.updateItemTick = 0
@@ -94,6 +95,18 @@ function slot0.InitDetail(slot0)
 	setActive(slot0.detailPanel, true)
 
 	slot0.onSelected = false
+
+	if PLATFORM_CODE == PLATFORM_CHT and LOCK_SP_WEAPON then
+		setActive(slot0.showRecordBtn, false)
+		setActive(slot0.showQuickBtn, false)
+		setActive(slot0.spWeaponSlot, false)
+
+		slot0.showRecordBtn = slot0.equipments:Find("unload_all_2")
+		slot0.showQuickBtn = slot0.equipments:Find("quickButton_2")
+
+		setActive(slot0.showRecordBtn, true)
+		setActive(slot0.showQuickBtn, true)
+	end
 end
 
 function slot0.InitEvent(slot0)
@@ -647,6 +660,32 @@ function slot0.UpdateEquipments(slot0, slot1)
 	end
 
 	slot0.lastShipVo = slot1.id
+
+	setActive(slot0.spWeaponSlot:Find("Lock"), not slot1:IsSpweaponUnlock())
+
+	slot6 = slot1:GetSpWeapon()
+
+	setActive(slot0.spWeaponSlot:Find("Icon"), slot6)
+	setActive(slot0.spWeaponSlot:Find("IconShadow"), slot6)
+
+	if slot6 then
+		UpdateSpWeaponSlot(slot0.spWeaponSlot, slot6)
+	end
+
+	onButton(slot0, slot0.spWeaponSlot, function ()
+		if not uv0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_locked"))
+
+			return
+		elseif uv1 then
+			uv2:emit(BaseUI.ON_SPWEAPON, {
+				type = EquipmentInfoMediator.TYPE_SHIP,
+				shipId = uv2:GetShipVO().id
+			})
+		else
+			uv2:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.EQUIPMENT)
+		end
+	end, SFX_PANEL)
 end
 
 function slot0.selectedEquipItem(slot0, slot1)

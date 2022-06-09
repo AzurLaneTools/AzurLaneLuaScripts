@@ -87,11 +87,11 @@ function slot0.ShowEliteTag(slot0, slot1, slot2)
 	setActive(slot0.urInput, false)
 
 	if #slot1 <= 5 then
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 290)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 565)
+		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 350)
+		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 630)
 	else
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 406)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 670)
+		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 460)
+		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 735)
 	end
 
 	setAnchoredPosition(slot0.window, {

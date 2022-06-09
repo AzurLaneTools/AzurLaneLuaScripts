@@ -91,28 +91,21 @@ function slot0.init(slot0)
 	slot0.bossProgress = slot0:findTF("res/boss_progress")
 
 	onButton(slot0, slot0.bossProgress, function ()
-		slot1, slot2, slot3, slot4 = uv0:GetBossProxy():GetUnlockProgress()
-		slot5 = slot1 .. "/" .. slot2
-
-		if slot2 == WorldBossProxy.INFINITY then
-			slot5 = i18n("world_boss_daily_limit")
-		end
-
-		slot7 = slot2 <= slot1
+		slot0 = WorldBossConst.GetCurrBossItemInfo()
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			iconBg = true,
 			hideNo = true,
-			type = MSGBOX_TYPE_SINGLE_ITEM,
-			drop = {
-				type = DROP_TYPE_VITEM,
-				id = WorldBossProxy.VIRTUAL_ITEM_ID
-			},
-			content = i18n("world_boss_progress_item_desc", slot3 - 1, slot4, slot5),
-			yesText = slot6 and i18n("world_boss_daily_limit") or slot7 and i18n("common_go_to_analyze") or i18n("world_boss_not_reach_target"),
-			yesSize = not slot7 and Vector2(318, 118),
-			yesGray = not slot7 or slot6,
+			type = MSGBOX_TYPE_DROP_ITEM,
+			name = slot0.name,
+			content = slot0.display,
+			iconPath = slot0.icon,
+			frame = slot0.rarity,
+			yesText = WorldBossConst.CanUnlockCurrBoss() and i18n("common_go_to_analyze") or i18n("world_boss_not_reach_target"),
+			yesSize = not slot1 and Vector2(318, 118),
+			yesGray = not slot1,
 			onYes = function ()
-				if uv0 then
+				if uv0 and uv1:GetBossProxy():IsOpen() then
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLDBOSS)
 				else
 					pg.MsgboxMgr.GetInstance():hide()
@@ -139,6 +132,8 @@ function slot0.setParent(slot0, slot1, slot2)
 end
 
 function slot0.setPlayer(slot0, slot1)
+	assert(isa(slot1, Player), "should be an instance of Player")
+
 	slot0.player = slot1
 
 	setText(slot0.oil:Find("max_value"), "MAX:" .. pg.user_level[slot1.level].max_oil)
@@ -184,19 +179,11 @@ function slot0.SetWorldBossRes(slot0, slot1)
 end
 
 function slot0.OnBossProgressUpdate(slot0)
-	slot1, slot2, slot3, slot4, slot5 = slot0.worldBossProxy:GetUnlockProgress()
-	slot6 = slot0.bossProgress:Find("value")
-	slot7 = slot0.bossProgress:Find("max_value")
-	slot8 = slot2 == WorldBossProxy.INFINITY and "#5E5E5EFF" or "#FAFAF7FF"
-	slot9 = "<color=%s>%d/%d</color>"
+	slot2, slot3, slot4 = WorldBossConst.GetCurrBossItemCapacity()
+	slot5, slot6 = WorldBossConst.GetCurrBossConsume()
 
-	if slot2 == WorldBossProxy.INFINITY then
-		setText(slot6, string.format(slot9, slot8, slot5, slot5))
-	else
-		setText(slot6, string.format(slot9, slot8, slot1, slot2))
-	end
-
-	setText(slot7, "<color=" .. slot8 .. ">PHASE:" .. slot3 - 1 .. "/" .. slot4 .. "</color>")
+	setText(slot0.bossProgress:Find("value"), WorldBossConst.GetCurrBossItemProgress() .. "/" .. slot6)
+	setText(slot0.bossProgress:Find("max_value"), "DAILY:" .. slot3 .. "/" .. slot4)
 	setActive(slot0.bossProgress, nowWorld():IsSystemOpen(WorldConst.SystemWorldBoss))
 end
 

@@ -6,6 +6,9 @@ slot0.StateFinish = 2
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.template = pg.collection_template[slot0.id]
+
+	assert(slot0.template, "pg.collection_template>>>" .. slot0.id)
+
 	slot0.finishTime = slot1.finish_time
 	slot0.overTime = slot1.over_time
 	slot0.shipIds = slot1.ship_id_list or {}

@@ -6,6 +6,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.level = 0
 	slot0.higestLevel = 0
 	slot0.id = slot1
+
+	assert(slot0.id, slot1)
 end
 
 function slot0.Init(slot0, slot1, slot2)
@@ -24,7 +26,10 @@ function slot0.Init(slot0, slot1, slot2)
 			uv0:InitGround(uv1, slot0)
 		end,
 		function (slot0)
-			uv0.player:SetPosition(uv0.blocks[1].position)
+			slot1 = uv0.blocks[1]
+
+			assert(slot1)
+			uv0.player:SetPosition(slot1.position)
 			uv0:SendMapEvent("OnPlayerLifeUpdate", uv0.player.life)
 			slot0()
 		end
@@ -62,13 +67,19 @@ function slot1(slot0, slot1)
 	if slot0 == 1 then
 		return TowerClimbingGameSettings.HEAD_BLOCK_TYPE
 	else
+		slot2 = TowerClimbingGameSettings.MapId2BlockType[slot1]
+
+		assert(slot2, slot1)
+
 		slot3 = math.random(1, 100)
 
-		for slot7, slot8 in ipairs(TowerClimbingGameSettings.MapId2BlockType[slot1]) do
+		for slot7, slot8 in ipairs(slot2) do
 			if slot3 <= slot8[2] then
 				return slot8[1]
 			end
 		end
+
+		assert(false)
 	end
 end
 
@@ -102,6 +113,8 @@ function slot2(slot0, slot1)
 
 			table.insert(slot9, slot12 - math.random(slot15, slot14) - slot0 / 2)
 		end
+
+		assert(#slot9 > 0, slot11 .. " & " .. slot13 .. " - " .. slot0 .. " - " .. slot2.x .. "-" .. slot3)
 
 		return Vector2(slot9[math.random(1, #slot9)], slot2.y + slot4)
 	end
@@ -295,6 +308,8 @@ function slot0.ReBornPlayer(slot0)
 			table.insert(slot1, slot7)
 		end
 	end
+
+	assert(#slot1 > 0)
 
 	if not _.detect(slot1, function (slot0)
 		return slot0.level == uv0.higestLevel

@@ -1041,7 +1041,7 @@ pg.enemy_data_statistics_29 = {
 	[90644] = {
 		cannon = 0,
 		name = "モナーク",
-		type = 5,
+		type = 4,
 		speed_growth = 0,
 		battle_unit_type = 49,
 		air = 0,
@@ -1052,34 +1052,34 @@ pg.enemy_data_statistics_29 = {
 		id = 90644,
 		bubble_fx = "",
 		dodge_growth = 0,
-		icon = "junzhu",
+		icon = "fanji_alter",
 		star = 0,
 		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
 		torpedo = 0,
 		luck_growth = 0,
-		icon_type = 5,
+		icon_type = 4,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		hit_growth = 0,
-		speed = 20,
+		speed = 15,
 		luck = 0,
 		antisub = 0,
 		scale = 150,
 		wave_fx = "movewave",
-		prefab = "junzhu",
+		prefab = "fanji_alter",
 		cannon_growth = 0,
-		pilot_ai_template_id = 30000,
+		pilot_ai_template_id = 10001,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
 		hit = 0,
-		nationality = 2,
+		nationality = 97,
 		durability_growth = 0,
 		antiaircraft = 0,
 		antiaircraft_growth = 0,
-		armor_type = 3,
+		armor_type = 2,
 		world_enhancement = {
 			0,
 			0,
@@ -1107,35 +1107,55 @@ pg.enemy_data_statistics_29 = {
 		bound_bone = {
 			cannon = {
 				{
-					-0.17,
-					1.35,
+					1.1,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					0.43,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.2,
-					0.12,
+					0.18,
+					0.27,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					-0.2,
-					1.31,
+					1.1,
+					0.43,
 					0
 				}
 			}
 		},
 		smoke = {
 			{
-				40,
+				70,
 				{
 					{
 						"smoke",
 						{
-							-0.52,
-							2.13,
+							-0.559,
+							1.15,
+							-0.51
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.293,
+							0.826,
 							0
 						}
 					}
@@ -1166,7 +1186,6 @@ pg.enemy_data_statistics_29 = {
 		},
 		specific_fx_scale = {},
 		appear_fx = {
-			"bossguangxiao",
 			"appearQ"
 		},
 		position_offset = {

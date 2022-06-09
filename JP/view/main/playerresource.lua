@@ -107,6 +107,8 @@ function slot0.setParent(slot0, slot1, slot2)
 end
 
 function slot0.setResources(slot0, slot1, slot2)
+	assert(isa(slot1, Player), "should be an instance of Player")
+
 	slot0.player = slot1
 
 	setText(slot0.goldMax, "MAX: " .. slot1:getLevelMaxGold())

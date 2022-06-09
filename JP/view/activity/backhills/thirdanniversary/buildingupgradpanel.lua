@@ -23,9 +23,13 @@ function slot0.Set(slot0, slot1, slot2)
 
 	slot0:Show()
 
+	slot3 = pg.activity_event_building[slot2]
+
+	assert(slot3, "Can't Find activity_event_building Config ID: " .. slot2)
+
 	slot0.buildingID = slot2
 	slot5 = slot1.data1KeyValueList[2][slot2] or 1
-	slot8 = #pg.activity_event_building[slot2].buff <= slot5
+	slot8 = #slot3.buff <= slot5
 	slot9 = slot8 or slot3.material[slot5] <= (slot1.data1KeyValueList[1][slot3.material_id] or 0)
 
 	setText(slot0:findTF("window/top/name"), slot3.name)
@@ -38,12 +42,20 @@ function slot0.Set(slot0, slot1, slot2)
 		setText(slot0:findTF("window/frame/content/title/lv/next"), "Lv." .. slot5 + 1)
 	end
 
-	setText(slot0:findTF("window/frame/content/preview/current"), pg.benefit_buff_template[slot3.buff[slot5]].desc)
+	slot10 = slot3.buff[slot5]
+	slot11 = pg.benefit_buff_template[slot10]
+
+	assert(slot11, "Can't Find benefit_buff_template Config ID: " .. slot10)
+	setText(slot0:findTF("window/frame/content/preview/current"), slot11.desc)
 	setActive(slot0:findTF("window/frame/content/preview/arrow"), not slot8)
 	setActive(slot0:findTF("window/frame/content/preview/next"), not slot8)
 
 	if not slot8 then
-		setText(slot0:findTF("window/frame/content/preview/next"), pg.benefit_buff_template[slot3.buff[slot5 + 1]].desc)
+		slot12 = slot3.buff[slot5 + 1]
+		slot11 = pg.benefit_buff_template[slot12]
+
+		assert(slot11, "Can't Find benefit_buff_template Config ID: " .. slot12)
+		setText(slot0:findTF("window/frame/content/preview/next"), slot11.desc)
 	end
 
 	slot0.loader:GetSprite(pg.item_data_statistics[slot6].icon, "", slot0:findTF("window/frame/costback/icon"))

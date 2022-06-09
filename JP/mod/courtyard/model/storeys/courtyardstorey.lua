@@ -629,7 +629,11 @@ function slot0.DragFurnitureEnd(slot0, slot1, slot2)
 		return
 	end
 
-	slot3:SetPosition(slot4)
+	if isa(slot3, CourtYardWallFurniture) then
+		slot3:UpdatePosition(slot4)
+	else
+		slot3:SetPosition(slot4)
+	end
 
 	slot6 = nil
 
@@ -647,14 +651,34 @@ function slot0.DragFurnitureEnd(slot0, slot1, slot2)
 	slot0:DispatchEvent(CourtYardEvent.DRAG_ITEM_END, slot3, slot6)
 end
 
-function slot0.VerifyDragPositionForFurniture(slot0, slot1, slot2)
-	slot4 = nil
+function slot0.IsLegalAreaForFurniture(slot0, slot1, slot2)
+	return _.all(slot1:GetAreaByPosition(slot2), function (slot0)
+		return uv0:LegalPosition(slot0, uv1)
+	end) or slot0:GetParentForItem(slot1, slot2) ~= nil
+end
 
-	return (function (slot0)
-		return _.all(uv0:GetAreaByPosition(slot0), function (slot0)
-			return uv0:LegalPosition(slot0, uv1)
-		end) or uv1:GetParentForItem(uv0, slot0) ~= nil
-	end)(slot2) and slot2 or slot1:GetPosition() and slot3(slot5) and slot5 or slot0:GetEmptyArea(slot1)
+function slot0.VerifyDragPositionForFurniture(slot0, slot1, slot2)
+	slot3 = nil
+
+	if slot0:IsLegalAreaForFurniture(slot1, slot2) then
+		slot3 = slot2
+	else
+		if slot1:GetPosition() and isa(slot1, CourtYardWallFurniture) then
+			slot1:UpdatePosition(slot4)
+		end
+
+		if slot4 and slot0:IsLegalAreaForFurniture(slot1, slot4) then
+			slot3 = slot4
+		else
+			if slot4 and isa(slot1, CourtYardWallFurniture) then
+				slot1:UpdatePosition(slot2)
+			end
+
+			slot3 = slot0:GetEmptyArea(slot1)
+		end
+	end
+
+	return slot3
 end
 
 function slot0.UnSelectFurniture(slot0, slot1)

@@ -395,6 +395,8 @@ function slot0.initDecoration(slot0, slot1)
 			return
 		end
 
+		assert(uv0.furnitureVOs[uv1.furniture.id], "furniture is nil" .. uv1.furniture.id)
+
 		uv0.furnitureVOs[uv1.furniture.id].isNew = nil
 
 		uv1.furniture:clearPosition()

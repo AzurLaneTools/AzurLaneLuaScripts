@@ -229,8 +229,12 @@ end
 
 function slot0.GetSubPaintings(slot0)
 	return _.map(slot0.subPaintings or {}, function (slot0)
+		slot1 = pg.ship_skin_template[slot0.actor]
+
+		assert(slot1)
+
 		return {
-			name = pg.ship_skin_template[slot0.actor].painting,
+			name = slot1.painting,
 			expression = slot0.expression,
 			pos = slot0.pos,
 			dir = slot0.dir or 1,
@@ -268,9 +272,12 @@ end
 
 function slot0.GetVirtualShip(slot0)
 	slot1 = slot0:GetShipSkinId()
+	slot3 = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot1].ship_group)
+
+	assert(slot3)
 
 	return Ship.New({
-		configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot1].ship_group).id,
+		configId = slot3.id,
 		skin_id = slot1
 	})
 end

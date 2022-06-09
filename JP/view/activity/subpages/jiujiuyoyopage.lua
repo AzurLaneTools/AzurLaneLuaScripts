@@ -171,6 +171,9 @@ function slot0.initTaskWindow(slot0)
 	slot0.taskUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot6 = uv0.taskProxy:getTaskById(uv0.taskList[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot5)
+
+			assert(slot6, "without this task by id: " .. slot5)
+
 			slot7 = slot6:getProgress()
 			slot8 = slot6:getConfig("target_num")
 			slot9 = slot6:getTaskStatus()
@@ -318,8 +321,11 @@ function slot0.canFinishTask()
 
 	for slot10, slot11 in pairs(pg.activity_template[slot0.config_client.taskActID].config_data) do
 		slot12 = slot4 < slot10
+		slot13 = slot6:getTaskById(slot11) or slot6:getFinishTaskById(slot11)
 
-		if (slot6:getTaskById(slot11) or slot6:getFinishTaskById(slot11)):getTaskStatus() == 1 and not slot12 then
+		assert(slot13, "without this task by id: " .. slot11)
+
+		if slot13:getTaskStatus() == 1 and not slot12 then
 			slot5 = true
 
 			break

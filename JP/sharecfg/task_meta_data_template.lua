@@ -496,6 +496,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[156] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "レパルス(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 156,
+		target_num = 1,
+		target_id = "0"
+	},
+	[157] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "レパルス(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 157,
+		target_num = 1,
+		target_id = "30"
+	},
+	[158] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "レパルス(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 158,
+		target_num = 1,
+		target_id = "55"
+	},
+	[159] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "レパルス(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 159,
+		target_num = 1,
+		target_id = "80"
+	},
+	[160] = {
+		target_id_2 = "970403",
+		sub_type = 180,
+		desc = "レパルス(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 160,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -848,6 +888,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[244] = {
+		target_id_2 = "970403",
+		sub_type = 302,
+		desc = "セイレーン作戦でレパルス(META)を含めた艦隊で1回勝利する",
+		id = 244,
+		target_num = 1,
+		target_id = "0"
+	},
+	[245] = {
+		target_id_2 = "970403",
+		sub_type = 302,
+		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 245,
+		target_num = 1,
+		target_id = "70"
+	},
+	[246] = {
+		target_id_2 = "970403",
+		sub_type = 302,
+		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 246,
+		target_num = 1,
+		target_id = "90"
+	},
+	[247] = {
+		target_id_2 = "970403",
+		sub_type = 302,
+		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv100+の敵を撃破 ",
+		id = 247,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -927,6 +999,11 @@ pg.task_meta_data_template = {
 		153,
 		154,
 		155,
+		156,
+		157,
+		158,
+		159,
+		160,
 		200,
 		201,
 		202,
@@ -971,6 +1048,10 @@ pg.task_meta_data_template = {
 		241,
 		242,
 		243,
+		244,
+		245,
+		246,
+		247,
 		301,
 		302
 	}

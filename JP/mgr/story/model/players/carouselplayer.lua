@@ -10,11 +10,14 @@ function slot0.OnEnter(slot0, slot1, slot2, slot3)
 end
 
 function slot0.StartAnimtion(slot0, slot1, slot2)
+	slot3 = slot1:GetBgs()
+
+	assert(slot3)
 	setActive(slot0.bgPanel, true)
 
 	slot4 = {}
 
-	for slot8, slot9 in ipairs(slot1:GetBgs()) do
+	for slot8, slot9 in ipairs(slot3) do
 		slot10 = slot9[1]
 		slot11 = slot9[2]
 

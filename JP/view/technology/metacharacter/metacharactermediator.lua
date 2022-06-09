@@ -1,6 +1,7 @@
 slot0 = class("MetaCharacterMediator", import("...base.ContextMediator"))
 slot0.OPEN_PT_PREVIEW_LAYER = "MetaCharacterMediator:OPEN_PT_PREVIEW_LAYER"
 slot0.OPEN_PT_GET_WAY_LAYER = "MetaCharacterMediator:OPEN_PT_GET_WAY_LAYER"
+slot0.OPEN_INDEX_LAYER = "MetaCharacterMediator:OPEN_INDEX_LAYER"
 slot0.ON_REPAIR = "MetaCharacterMediator:ON_REPAIR"
 slot0.ON_ENERGY = "MetaCharacterMediator:ON_ENERGY"
 slot0.ON_TACTICS = "MetaCharacterMediator:ON_TACTICS"
@@ -22,6 +23,13 @@ function slot0.register(slot0)
 			viewComponent = MetaPTGetPreviewLayer,
 			mediator = MetaPTGetPreviewMediator,
 			data = {}
+		}))
+	end)
+	slot0:bind(uv0.OPEN_INDEX_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = CustomIndexLayer,
+			mediator = CustomIndexMediator,
+			data = slot1
 		}))
 	end)
 	slot0:bind(uv0.ON_REPAIR, function (slot0, slot1, slot2)
@@ -128,7 +136,8 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.ACT_NEW_PT_DONE,
-		BayProxy.SHIP_ADDED
+		BayProxy.SHIP_ADDED,
+		GAME.GET_META_PT_AWARD_DONE
 	}
 end
 
@@ -144,7 +153,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:refreshBannerTF()
 			slot0.viewComponent:updateMain()
 		end
-	elseif slot2 == GAME.ACT_NEW_PT_DONE then
+	elseif slot2 == GAME.GET_META_PT_AWARD_DONE then
 		slot5 = slot0.viewComponent
 
 		slot5:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
@@ -152,7 +161,6 @@ function slot0.handleNotification(slot0, slot1)
 				uv0.callback()
 			end
 
-			uv1.viewComponent:getCurMetaProgressVO():updateDataAfterActOP()
 			uv1.viewComponent:refreshBannerTF()
 			uv1.viewComponent:updateMain(true)
 		end)

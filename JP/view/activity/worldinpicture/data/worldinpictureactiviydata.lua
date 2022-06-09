@@ -218,6 +218,8 @@ function slot0.Convert2DrawAreaHead(slot0, slot1, slot2)
 		end
 	end
 
+	assert(slot3)
+
 	return slot3[1].x, slot3[1].y, slot4
 end
 

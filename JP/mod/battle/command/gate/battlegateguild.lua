@@ -126,14 +126,28 @@ function slot0.SendRequest(slot0, slot1, slot2)
 end
 
 function slot0.GetGuildBossMission()
-	return getProxy(GuildProxy):getData():GetActiveEvent():GetBossMission()
+	slot1 = getProxy(GuildProxy):getData():GetActiveEvent()
+
+	assert(slot1)
+
+	slot2 = slot1:GetBossMission()
+
+	assert(slot2)
+
+	return slot2
 end
 
 function slot0.UpdateGuildBossMission()
 	slot0 = getProxy(GuildProxy)
 	slot1 = slot0:getData()
+	slot2 = slot1:GetActiveEvent()
 
-	slot1:GetActiveEvent():GetBossMission():ReduceDailyCnt()
+	assert(slot2)
+
+	slot3 = slot2:GetBossMission()
+
+	assert(slot3)
+	slot3:ReduceDailyCnt()
 	slot0:ResetBossRankTime()
 	slot0:ResetRefreshBossTime()
 	slot0:updateGuild(slot1)

@@ -7,6 +7,8 @@ function slot0.register(slot0)
 end
 
 function slot0.setLastLogin(slot0, slot1)
+	assert(isa(slot1, User), "should be an instance of User")
+
 	if slot1.type == 1 then
 		PlayerPrefs.SetString("user.type", "1")
 		PlayerPrefs.SetString("user.arg1", slot1.arg1)

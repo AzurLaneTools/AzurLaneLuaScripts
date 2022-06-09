@@ -7,6 +7,8 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
+	assert(slot5, "shipGroup is nil" .. slot2)
+
 	if ShipGroup.REQ_INTERVAL < slot3 - slot5.lastReqStamp then
 		slot6 = pg.ConnectionMgr.GetInstance()
 

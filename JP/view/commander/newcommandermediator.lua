@@ -8,7 +8,11 @@ function slot0.register(slot0)
 			flag = slot2
 		})
 	end)
-	slot0.viewComponent:setCommander(slot0.contextData.commander)
+
+	slot1 = slot0.contextData.commander
+
+	assert(slot1, "commander can not be nil")
+	slot0.viewComponent:setCommander(slot1)
 end
 
 function slot0.listNotificationInterests(slot0)

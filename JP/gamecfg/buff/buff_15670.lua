@@ -35,8 +35,9 @@ return {
 				"onAllInStrike"
 			},
 			arg_list = {
-				skill_id = 15671,
-				target = "TargetSelf"
+				quota = 1,
+				target = "TargetSelf",
+				skill_id = 15671
 			}
 		},
 		{

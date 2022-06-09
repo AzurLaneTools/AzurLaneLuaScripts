@@ -76,6 +76,8 @@ function slot0.UpdateFormula(slot0, slot1)
 		return
 	end
 
+	assert(slot1 and slot1 > 0, "target formulaId is invalid")
+
 	slot0.contextData.formulaId = slot1
 	slot2 = pg.equip_upgrade_data[slot1]
 	slot0.contextData.formula = slot2
@@ -325,6 +327,7 @@ function slot0.didEnter(slot0)
 			helps = pg.gametip.equipment_upgrade_help.tip
 		})
 	end, SFX_PANEL)
+	assert(slot0.contextData.formulaId)
 
 	slot0.contextData.formulaId = nil
 

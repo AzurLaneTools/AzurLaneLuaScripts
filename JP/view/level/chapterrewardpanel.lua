@@ -70,6 +70,7 @@ end
 function slot0.Enter(slot0, slot1)
 	slot3 = pg.chapter_defense[slot1.id]
 
+	assert(slot3, "Chapter Detail should only be Defense Type")
 	table.insert(Clone(slot3.score), 1, slot3.port_hp + 1)
 
 	slot5 = {}

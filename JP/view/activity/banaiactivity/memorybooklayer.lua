@@ -407,6 +407,8 @@ function slot0.updateAward(slot0, slot1)
 
 				setImageSprite(uv0.awardIcon, slot0, true)
 			end)
+		else
+			assert(false, "this award type is not deal")
 		end
 	end
 

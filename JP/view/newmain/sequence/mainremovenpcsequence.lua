@@ -36,6 +36,11 @@ function slot0.UnloadEquipments(slot0, slot1)
 			slot2:addEquipmentSkin(slot8.skinId, 1)
 		end
 	end
+
+	if slot1:GetSpWeapon() then
+		slot1:UpdateSpWeapon(nil)
+		slot2:AddSpWeapon(slot4)
+	end
 end
 
 function slot0.CheckChapters(slot0, slot1)

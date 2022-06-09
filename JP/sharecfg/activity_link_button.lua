@@ -10,31 +10,8 @@ pg.activity_link_button = {
 		pic = "event_all",
 		order = 1,
 		time = {
-			"timer",
-			{
-				{
-					2022,
-					5,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"default",
+			4401
 		}
 	},
 	{
@@ -69,31 +46,7 @@ pg.activity_link_button = {
 		pic = "event_map",
 		order = 1,
 		time = {
-			"timer",
-			{
-				{
-					2022,
-					5,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"default"
 		}
 	},
 	[20] = {
@@ -106,31 +59,8 @@ pg.activity_link_button = {
 		pic = "event_minigame",
 		order = 1,
 		time = {
-			"timer",
-			{
-				{
-					2022,
-					5,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"default",
+			4417
 		}
 	},
 	[30] = {

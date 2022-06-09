@@ -165,6 +165,15 @@ pg.settings_other_template = {
 		title = "兵装高速変更確認表示",
 		desc = "（ON状態）装備高速変更時に確認画面が表示される"
 	},
+	{
+		default = 1,
+		name = "GYRO_ENABLE",
+		type = 0,
+		alignment = 0,
+		id = 15,
+		title = "L2Dジャイロセンサー",
+		desc = "ONに設定すると、一部L2Dアニメーションはジャイロセンサーの動作によって挙動が異なります"
+	},
 	all = {
 		1,
 		2,
@@ -179,6 +188,7 @@ pg.settings_other_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }

@@ -1039,7 +1039,13 @@ end
 
 function slot8.EnemyEscape(slot0)
 	for slot4, slot5 in pairs(slot0._foeShipList) do
-		slot5:SetAI(uv0.COUNT_DOWN_ESCAPE_AI_ID)
+		if slot5:ContainsLabelTag(uv0.ESCAPE_EXPLO_TAG) then
+			slot5:SetDeathReason(uv1.UnitDeathReason.CLS)
+			slot5:DeadAction()
+		else
+			slot5:RemoveAllAutoWeapon()
+			slot5:SetAI(uv0.COUNT_DOWN_ESCAPE_AI_ID)
+		end
 	end
 end
 
@@ -1293,6 +1299,13 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 	slot10:SetRarity(slot1.rarity)
 	slot10:SetIntimacy(slot1.intimacy)
 	slot10:SetShipName(slot1.name)
+
+	if slot1.spWeapon then
+		slot10:SetSpWeapon(slot1.spWeapon)
+		_.each(slot1.spWeapon:GetLabel(), function (slot0)
+			uv0:AddLabelTag(slot0)
+		end)
+	end
 
 	slot0._unitList[slot5] = slot10
 
@@ -1640,7 +1653,7 @@ end
 function slot8.SpawnColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
 	slot10 = uv0.Battle.BattleAOEData.New(slot0:GenerateAreaID(), slot2, slot6, slot8)
 
-	slot10:SetPosition(slot3)
+	slot10:SetPosition(Clone(slot3))
 	slot10:SetRange(slot4)
 	slot10:SetAreaType(uv1.AreaType.COLUMN)
 	slot10:SetLifeTime(slot5)
@@ -1654,7 +1667,7 @@ end
 function slot8.SpawnCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 	slot11 = uv0.Battle.BattleAOEData.New(slot0:GenerateAreaID(), slot2, slot7, slot9)
 
-	slot11:SetPosition(slot3)
+	slot11:SetPosition(Clone(slot3))
 	slot11:SetWidth(slot4)
 	slot11:SetHeight(slot5)
 	slot11:SetAreaType(uv1.AreaType.CUBE)
@@ -1666,53 +1679,53 @@ function slot8.SpawnCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 	return slot11
 end
 
-function slot8.SpawnLastingColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
-	slot12 = uv0.Battle.BattleLastingAOEData.New(slot0:GenerateAreaID(), slot2, slot6, slot7, slot10)
+function slot8.SpawnLastingColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11)
+	slot13 = uv0.Battle.BattleLastingAOEData.New(slot0:GenerateAreaID(), slot2, slot6, slot7, slot10, slot11)
 
-	slot12:SetPosition(slot3)
-	slot12:SetRange(slot4)
-	slot12:SetAreaType(uv1.AreaType.COLUMN)
-	slot12:SetLifeTime(slot5)
-	slot12:SetFieldType(slot1)
-	slot12:SetOpponentAffected(not (slot8 or false))
-	slot0:CreateAreaOfEffect(slot12)
+	slot13:SetPosition(Clone(slot3))
+	slot13:SetRange(slot4)
+	slot13:SetAreaType(uv1.AreaType.COLUMN)
+	slot13:SetLifeTime(slot5)
+	slot13:SetFieldType(slot1)
+	slot13:SetOpponentAffected(not (slot8 or false))
+	slot0:CreateAreaOfEffect(slot13)
 
 	if slot9 and slot9 ~= "" then
 		slot0:DispatchEvent(uv0.Event.New(uv2.ADD_AREA, {
-			area = slot12,
-			FXID = slot9
-		}))
-	end
-
-	return slot12
-end
-
-function slot8.SpawnLastingCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11)
-	slot13 = uv0.Battle.BattleLastingAOEData.New(slot0:GenerateAreaID(), slot2, slot7, slot8, slot11)
-
-	slot13:SetPosition(slot3)
-	slot13:SetWidth(slot4)
-	slot13:SetHeight(slot5)
-	slot13:SetAreaType(uv1.AreaType.CUBE)
-	slot13:SetLifeTime(slot6)
-	slot13:SetFieldType(slot1)
-	slot13:SetOpponentAffected(not (slot9 or false))
-	slot0:CreateAreaOfEffect(slot13)
-
-	if slot10 and slot10 ~= "" then
-		slot0:DispatchEvent(uv0.Event.New(uv2.ADD_AREA, {
 			area = slot13,
-			FXID = slot10
+			FXID = slot9
 		}))
 	end
 
 	return slot13
 end
 
+function slot8.SpawnLastingCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
+	slot14 = uv0.Battle.BattleLastingAOEData.New(slot0:GenerateAreaID(), slot2, slot7, slot8, slot11, slot12)
+
+	slot14:SetPosition(Clone(slot3))
+	slot14:SetWidth(slot4)
+	slot14:SetHeight(slot5)
+	slot14:SetAreaType(uv1.AreaType.CUBE)
+	slot14:SetLifeTime(slot6)
+	slot14:SetFieldType(slot1)
+	slot14:SetOpponentAffected(not (slot9 or false))
+	slot0:CreateAreaOfEffect(slot14)
+
+	if slot10 and slot10 ~= "" then
+		slot0:DispatchEvent(uv0.Event.New(uv2.ADD_AREA, {
+			area = slot14,
+			FXID = slot10
+		}))
+	end
+
+	return slot14
+end
+
 function slot8.SpawnTriggerColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
 	slot10 = uv0.Battle.BattleTriggerAOEData.New(slot0:GenerateAreaID(), slot2, slot8)
 
-	slot10:SetPosition(slot3)
+	slot10:SetPosition(Clone(slot3))
 	slot10:SetRange(slot4)
 	slot10:SetAreaType(uv1.AreaType.COLUMN)
 	slot10:SetLifeTime(slot5)
@@ -1726,20 +1739,6 @@ function slot8.SpawnTriggerColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, 
 			FXID = slot7
 		}))
 	end
-
-	return slot10
-end
-
-function slot8.SpawnAura(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	slot10 = uv0.Battle.BattleMobileAOEData.New(slot0:GenerateAreaID(), slot1:GetIFF(), slot4, slot5, slot6, slot1)
-
-	slot10:SetPosition(slot1:GetPosition())
-	slot10:SetRange(slot3)
-	slot10:SetAreaType(uv1.AreaType.COLUMN)
-	slot10:SetLifeTime(0)
-	slot10:SetFieldType(slot2)
-	slot10:SetOpponentAffected(true)
-	slot0:CreateAreaOfEffect(slot10)
 
 	return slot10
 end

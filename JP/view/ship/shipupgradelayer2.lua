@@ -266,7 +266,10 @@ function slot0.getStages(slot0)
 	slot2 = math.floor(slot0.shipVO.configId / 10)
 
 	for slot6 = 1, 4 do
-		table.insert(slot1, tonumber(slot2 .. slot6))
+		slot7 = tonumber(slot2 .. slot6)
+
+		assert(slot0.shipBreakOutCfg[slot7], "必须存在配置" .. slot7)
+		table.insert(slot1, slot7)
 	end
 
 	return slot1
@@ -290,8 +293,9 @@ function slot0.updateBattleView(slot0)
 	end
 
 	for slot4 = 1, uv0 do
-		slot6 = slot0.shipBreakOutCfg[slot0.breakIds[slot4]]
+		slot5 = slot0.breakIds[slot4]
 
+		assert(slot0.shipBreakOutCfg[slot5], "不存在配置" .. slot5)
 		onToggle(slot0, slot0:findTF("stage" .. slot4, slot0.stages), function (slot0)
 			if slot0 then
 				slot1 = uv0.breakout_view

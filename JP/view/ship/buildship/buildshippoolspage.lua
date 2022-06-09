@@ -238,7 +238,19 @@ end
 function slot0.UpdateBuildPoolPaiting(slot0, slot1)
 	slot2 = nil
 
-	if slot0.painting ~= ((not slot0.buildPainting or slot0.buildPainting) and (not slot1.exchange_ship_id or slot1.exchange_ship_id <= 0 or pg.ship_skin_template[pg.ship_data_statistics[slot1.exchange_ship_id].skin_id].painting) and slot0.contextData.falgShip:getPainting()) then
+	if slot0.buildPainting then
+		slot2 = slot0.buildPainting
+	elseif slot1.exchange_ship_id and slot1.exchange_ship_id > 0 then
+		slot3 = pg.ship_data_statistics[slot1.exchange_ship_id]
+
+		assert(slot3)
+
+		slot2 = pg.ship_skin_template[slot3.skin_id].painting
+	else
+		slot2 = slot0.contextData.falgShip:getPainting()
+	end
+
+	if slot0.painting ~= slot2 then
 		slot3 = pg.UIMgr
 		slot3 = slot3:GetInstance()
 
@@ -311,10 +323,14 @@ function slot0.AddActivityTimer(slot0, slot1)
 	slot0:RemoveActivityTimer(slot1)
 
 	if slot1:IsActivity() then
+		slot2 = slot1:GetActivity()
+
+		assert(slot2)
+
 		slot0.activityTimer[slot1.id] = Timer.New(function ()
 			uv0:RemoveActivityTimer(uv1)
 			uv0:emit(BuildShipMediator.ON_UPDATE_ACT)
-		end, slot1:GetActivity().stopTime - pg.TimeMgr.GetInstance():GetServerTime(), 1)
+		end, slot2.stopTime - pg.TimeMgr.GetInstance():GetServerTime(), 1)
 
 		slot0.activityTimer[slot1.id]:Start()
 	end

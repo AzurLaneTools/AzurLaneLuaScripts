@@ -22,6 +22,7 @@ function slot0.execute(slot0, slot1)
 
 			uv2:addSkillExp(slot1.id, uv4.exp)
 			uv5:updateShip(uv2)
+			uv0:SaveRecentShip(uv4.shipId)
 			uv0:deleteStudent(uv6)
 			uv1:sendNotification(GAME.CANCEL_LEARN_TACTICS_DONE, {
 				id = uv6,

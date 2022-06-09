@@ -300,7 +300,8 @@ return {
 			tag = i18n("word_equipment_rarity"),
 			pages = {
 				0,
-				1
+				1,
+				2
 			},
 			values = {
 				"rarity",
@@ -314,7 +315,8 @@ return {
 			spr = "sort_intensify",
 			tag = i18n("word_equipment_intensify"),
 			pages = {
-				0
+				0,
+				2
 			},
 			values = {
 				"level",

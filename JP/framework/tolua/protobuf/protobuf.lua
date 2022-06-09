@@ -851,6 +851,7 @@ function slot59(slot0)
 	slot2 = uv0.CPPTYPE_MESSAGE
 
 	function slot0._member.MergeFrom(slot0, slot1)
+		assert(slot1 ~= slot0)
 		uv0._member._Modified(slot0)
 
 		slot2 = slot0._fields

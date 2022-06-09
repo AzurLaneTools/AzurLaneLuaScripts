@@ -2,6 +2,9 @@ slot0 = class("SendCmdCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+
+	assert(slot2.cmd, "cmd should exist")
+
 	slot3 = slot2.cmd
 	slot4 = slot2.arg1
 	slot5 = pg.ConnectionMgr.GetInstance()

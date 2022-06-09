@@ -183,6 +183,8 @@ function slot5.InstCharacter(slot0, slot1, slot2)
 				return
 			end
 
+			assert(slot0, "角色资源加载失败：" .. uv3)
+
 			slot1 = SpineAnim.AnimChar(uv3, slot0)
 
 			slot1:SetActive(false)
@@ -220,11 +222,12 @@ function slot5.InstAirCharacter(slot0, slot1, slot2)
 
 				return
 			else
-				uv0:InitPool(uv2, slot0)
+				assert(slot0, "飞机资源加载失败：" .. uv2)
+				uv0:InitPool(uv3, slot0)
 
-				uv3 = uv0._allPool[uv2]
+				uv4 = uv0._allPool[uv3]
 
-				uv4(uv0:popPool(uv3))
+				uv5(uv0:popPool(uv4))
 			end
 		end), true, true)
 	end
@@ -260,11 +263,12 @@ function slot5.InstBullet(slot0, slot1, slot2)
 
 				return
 			else
-				uv0:InitPool(uv2, slot0)
+				assert(slot0, "子弹资源加载失败：" .. uv2)
+				uv0:InitPool(uv3, slot0)
 
-				uv3 = uv0._allPool[uv2]
+				uv4 = uv0._allPool[uv3]
 
-				uv4(uv0:popPool(uv3, true))
+				uv5(uv0:popPool(uv4, true))
 			end
 		end), true, true)
 
@@ -288,7 +292,8 @@ function slot5.InstFX(slot0, slot1, slot2)
 
 				return
 			else
-				uv0:InitPool(uv2, slot0)
+				assert(slot0, "特效资源加载失败：" .. uv2)
+				uv0:InitPool(uv3, slot0)
 			end
 		end), true, true)
 
@@ -318,7 +323,8 @@ function slot5.InstOrbit(slot0, slot1)
 
 				return
 			else
-				uv0:InitPool(uv2, slot0)
+				assert(slot0, "特效资源加载失败：" .. uv2)
+				uv0:InitPool(uv3, slot0)
 			end
 		end), true, true)
 
@@ -367,6 +373,8 @@ function slot5.InstMap(slot0, slot1)
 		slot0._ob2Pool[slot4:GetObject()] = slot4
 	elseif slot0._resCacheList[slot2] ~= nil then
 		slot3 = Object.Instantiate(slot0._resCacheList[slot2])
+	else
+		assert(false, "地图资源没有预加载：" .. slot1)
 	end
 
 	slot3:SetActive(true)
@@ -1249,4 +1257,20 @@ function slot5.GetAidUnitsRes(slot0)
 	end
 
 	return slot1
+end
+
+function slot5.GetSpWeaponResource(slot0, slot1)
+	slot2 = {}
+
+	if uv0.Battle.BattleDataFunction.GetSpWeaponDataFromID(slot0).effect_id ~= 0 then
+		if slot1 then
+			slot4 = uv0.Battle.BattleDataFunction.SkillTranform(slot1, slot4) or slot4
+		end
+
+		for slot9, slot10 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot4, 1, {})) do
+			slot2[#slot2 + 1] = slot10
+		end
+	end
+
+	return slot2
 end

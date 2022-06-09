@@ -225,6 +225,11 @@ slot3 = {
 
 function slot0.ResetCanvas(slot0)
 	slot1 = EquipmentProxy.EquipmentTransformTreeTemplate[slot0.contextData.nation][slot0.contextData.equipmentTypeIndex]
+	slot6 = " Type: "
+	slot7 = slot0.contextData.equipmentTypeIndex
+
+	assert(slot1, "can't find Equip_upgrade_template Nation: " .. slot0.contextData.nation .. slot6 .. slot7)
+
 	slot0.TreeCanvas.sizeDelta = Vector2(unpack(slot1.canvasSize))
 	slot0.TreeCanvas.anchoredPosition = Vector2.zero
 	slot0.rightPanel:GetComponent(typeof(ScrollRect)).velocity = Vector2.zero

@@ -66,6 +66,8 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 				setActive(slot0, false)
 				uv0.viewComponent.grid:PlayChampionInsideEffect(uv1.stgTarget.row, uv1.stgTarget.column, "huoqiubaozha", uv2)
 			end)
+		else
+			assert(false)
 		end
 
 		return
@@ -79,9 +81,11 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 				end
 			end)
 			slot2.viewComponent.grid:PlaySonarDetectAnim({}, slot3)
+
+			return
 		end
 
-		return
+		assert(false)
 	end
 
 	slot5 = slot1:getChampion(slot0.line.row, slot0.line.column)
@@ -127,6 +131,8 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 
 		return
 	end
+
+	assert(false)
 end
 
 function slot0.TryPlayChampionSubAnim(slot0, slot1, slot2, slot3, slot4)

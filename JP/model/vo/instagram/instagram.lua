@@ -61,7 +61,11 @@ function slot0.InitByServer(slot0, slot1)
 end
 
 function slot0.InitByConfig(slot0, slot1)
-	slot0.text = uv0[slot0:getConfig("message_persist")].value
+	slot2 = slot0:getConfig("message_persist")
+
+	assert(uv0[slot2], slot2)
+
+	slot0.text = uv0[slot2].value
 	slot0.picture = slot0:getConfig("picture_persist")
 	slot6 = slot0
 	slot7 = "time_persist"

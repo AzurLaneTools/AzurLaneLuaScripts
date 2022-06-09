@@ -1,7 +1,7 @@
 slot0 = class("WorldBossSupportCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot3 = slot1:getBody().type
+	assert(slot1:getBody().type)
 
 	if not nowWorld().worldBossProxy:GetSelfBoss() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_not_found"))
@@ -41,7 +41,7 @@ function slot0.execute(slot0, slot1)
 				uv1:UpdateWorldSupported()
 			end
 
-			uv2:UpdateSelfBoss(uv1)
+			uv1:UpdateSelfBoss(uv2)
 			uv3:sendNotification(GAME.WORLD_BOSS_SUPPORT_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_call_support_failed") .. slot0.result)

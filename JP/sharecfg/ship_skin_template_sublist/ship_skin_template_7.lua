@@ -1,5 +1,255 @@
 pg = pg or {}
 pg.ship_skin_template_7 = {
+	[204040] = {
+		ship_group = 20404,
+		name = "リトル・レナウン",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 204040,
+		group_index = 0,
+		prefab = "shengwang_younv",
+		painting = "shengwang_younv",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 11,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "レナウン級巡洋戦艦・レナウン (HMS Renown)",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.015,
+					1.165,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.407,
+					0.613,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.407,
+					0.613,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.832,
+							0.566,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.608,
+							0.741,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[205010] = {
+		ship_group = 20501,
+		name = "クイーン・エリザベス",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 205010,
+		group_index = 0,
+		prefab = "yilishabai",
+		painting = "yilishabai",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 19,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "クイーンエリザベス級戦艦・クイーンエリザベス(HMS Queen Elizabeth）",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.106,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.591,
+					1.589,
+					0
+				},
+				{
+					0.688,
+					1.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.591,
+					1.589,
+					0
+				},
+				{
+					0.688,
+					1.12,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.824,
+							0.443,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.581,
+							0.535,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[205011] = {
 		ship_group = 20501,
 		name = "女王さまの舞踏会",
@@ -467,13 +717,12 @@ pg.ship_skin_template_7 = {
 		desc = "ウォースパイト、これは一体…メイド隊ってこんなに書類をチェックしているの！？もう疲れた…メイドを体験するなんて言い出さなければよかった…もぉ、見てないで手伝いなさいよこの下僕！",
 		voice_actor = 28,
 		spine_offset = "",
-		gyro = 0,
+		gyro = 1,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
@@ -560,6 +809,10 @@ pg.ship_skin_template_7 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		},
+		ship_l2d_id = {
+			204,
+			205
 		}
 	},
 	[205020] = {
@@ -925,7 +1178,7 @@ pg.ship_skin_template_7 = {
 		illustrator = 19,
 		air_bullet_skin = "",
 		l2d_voice_calibrate = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1738,7 +1991,7 @@ pg.ship_skin_template_7 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -4303,7 +4556,7 @@ pg.ship_skin_template_7 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -5339,7 +5592,7 @@ pg.ship_skin_template_7 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -5460,7 +5713,7 @@ pg.ship_skin_template_7 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -7362,7 +7615,7 @@ pg.ship_skin_template_7 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 18,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -7462,7 +7715,7 @@ pg.ship_skin_template_7 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -8079,7 +8332,7 @@ pg.ship_skin_template_7 = {
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 9998,
 		illustrator = 1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -9213,206 +9466,6 @@ pg.ship_skin_template_7 = {
 							-0.46,
 							2.15,
 							-0.39
-						}
-					}
-				}
-			}
-		}
-	},
-	[207110] = {
-		ship_group = 20711,
-		name = "イラストリアス(μ兵装)",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "140",
-		id = 207110,
-		group_index = 0,
-		prefab = "guanghui_idol",
-		painting = "guanghui_idol",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "特殊兵装実験任務に参加しております、空母のイラストリアスですわ。歌の力で、愛と平和と聖なる光を――すごく素敵だと思いませんか？",
-		voice_actor = 6,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.296,
-					0.992,
-					0
-				}
-			},
-			plane = {
-				{
-					1.257,
-					0.989,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.406,
-							-0.39
-						}
-					}
-				}
-			}
-		}
-	},
-	[207120] = {
-		ship_group = 20712,
-		name = "インドミタブル",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 207120,
-		group_index = 0,
-		prefab = "bunao",
-		painting = "bunao",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "イラストリアス級航空母艦-インドミタブル",
-		voice_actor = 317,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.296,
-					0.992,
-					0
-				}
-			},
-			plane = {
-				{
-					1.257,
-					0.989,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.406,
-							0
 						}
 					}
 				}

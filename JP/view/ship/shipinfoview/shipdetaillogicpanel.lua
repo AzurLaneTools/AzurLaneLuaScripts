@@ -227,6 +227,8 @@ function slot0.enableEvent(slot0, slot1)
 end
 
 function slot0.flush(slot0, slot1)
+	assert(slot1, "shipVO can not be nil")
+
 	slot0.shipDataTemplate = pg.ship_data_template[slot1.configId]
 	slot0.shipVO = slot1
 
@@ -339,7 +341,7 @@ function slot0.updateSKills(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			if uv0[slot1 + 1] then
 				slot3 = uv1:fateSkillChange(slot3)
-				slot4 = getSkillConfig(slot3)
+				slot4 = getSkillConfig(uv1:RemapSkillId(slot3))
 
 				if uv1.skills[slot3] and slot5.id == 11720 and not uv1.transforms[3612] then
 					slot5 = nil

@@ -112,6 +112,9 @@ end
 function slot0.updateMangaTpl(slot0, slot1, slot2)
 	slot3 = tf(slot2)
 	slot4 = slot0.mangaIDListForShow[slot1]
+
+	assert(slot4, "null mangaID")
+
 	slot6 = slot0:findTF("Content/Bottom/BottomNew", slot3)
 	slot7 = slot0:findTF("Content/Bottom/BottomNotRead", slot3)
 	slot8 = slot0:findTF("Content/Bottom/BottomNormal", slot3)

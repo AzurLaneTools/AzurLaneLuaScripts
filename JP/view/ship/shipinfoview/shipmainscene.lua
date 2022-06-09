@@ -273,12 +273,17 @@ function slot0.initPages(slot0)
 	slot0.equipLCon = slot1:Find("equipment_l_container")
 	slot1 = slot0.equipContainer
 	slot0.equipRCon = slot1:Find("equipment_r_container")
+	slot1 = slot0.equipContainer
+	slot0.equipBCon = slot1:Find("equipment_b_container")
 
 	setAnchoredPosition(slot0.equipRCon, {
 		x = 750
 	})
 	setAnchoredPosition(slot0.equipLCon, {
 		x = -700
+	})
+	setAnchoredPosition(slot0.equipBCon, {
+		y = -540
 	})
 
 	slot0.shipDetailView = ShipDetailView.New(slot0.detailContainer, slot0.event, slot0.contextData)
@@ -792,23 +797,24 @@ function slot0.switchToPage(slot0, slot1, slot2)
 
 			shiftPanel(uv0.detailContainer, slot2[2], 0, uv1, 0):setFrom(slot2[1])
 		elseif slot0 == ShipViewConst.PAGE.EQUIPMENT then
-			slot2 = slot1 and {
+			slot2 = {
 				-(uv0.equipLCon.rect.width + 190),
 				190
-			} or {
-				190,
-				-(uv0.equipLCon.rect.width + 190)
 			}
-			slot3 = slot1 and {
+			slot3 = {
 				uv0.equipRCon.rect.width,
 				10
-			} or {
-				10,
-				uv0.equipRCon.rect.width
 			}
+			slot4 = {
+				-uv0.equipBCon.rect.height,
+				0
+			}
+			slot5 = slot1 and 1 or 2
+			slot6 = slot1 and 2 or 1
 
-			shiftPanel(uv0.equipLCon, slot2[2], 0, uv1, 0):setFrom(slot2[1])
-			shiftPanel(uv0.equipRCon, slot3[2], 0, uv1, 0):setFrom(slot3[1])
+			shiftPanel(uv0.equipLCon, slot2[slot6], 0, uv1, 0):setFrom(slot2[slot5])
+			shiftPanel(uv0.equipRCon, slot3[slot6], 0, uv1, 0):setFrom(slot3[slot5])
+			shiftPanel(uv0.equipBCon, 0, slot4[slot6], uv1, 0):setFrom(slot4[slot5])
 		elseif slot0 == ShipViewConst.PAGE.FASHION then
 			slot2 = slot1 and {
 				uv0.fashionContainer.rect.width + 150,

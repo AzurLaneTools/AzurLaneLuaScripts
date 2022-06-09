@@ -59,6 +59,9 @@ function slot0.register(slot0)
 end
 
 function slot0.addFleet(slot0, slot1)
+	assert(isa(slot1, Fleet), "should be an instance of Fleet")
+	assert(slot0.data[slot1.id] == nil, "fleet already exist, use updateFleet() instead")
+
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("added")
@@ -68,6 +71,9 @@ function slot0.addFleet(slot0, slot1)
 end
 
 function slot0.updateFleet(slot0, slot1)
+	assert(isa(slot1, Fleet), "should be an instance of Fleet")
+	assert(slot0.data[slot1.id] ~= nil, "fleet should exist")
+
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("updated")
@@ -175,6 +181,10 @@ function slot0.inPvPFleet(slot0, slot1)
 end
 
 function slot0.getFleetByShip(slot0, slot1)
+	slot5 = Ship
+
+	assert(isa(slot1, slot5), "should be an instance of Ship")
+
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6:containShip(slot1) then
 			return slot6:clone()
@@ -185,7 +195,8 @@ function slot0.getFleetByShip(slot0, slot1)
 end
 
 function slot0.renameFleet(slot0, slot1, slot2)
-	slot3 = slot0:getFleetById(slot1)
+	assert(slot0:getFleetById(slot1) ~= nil, "fleet should exist")
+
 	slot3.name = slot2
 
 	slot0:updateFleet(slot3)

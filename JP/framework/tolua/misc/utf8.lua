@@ -38,6 +38,8 @@ function slot0.byte_indices(slot0, slot1)
 end
 
 function slot0.len(slot0)
+	assert(slot0, "bad argument #1 to 'len' (string expected, got nil)")
+
 	slot1 = 0
 
 	for slot5 in uv0.byte_indices(slot0) do
@@ -59,6 +61,8 @@ function slot0.byte_index(slot0, slot1)
 			return slot6
 		end
 	end
+
+	assert(slot2 < slot1, "invalid index")
 end
 
 function slot0.char_index(slot0, slot1)
@@ -127,6 +131,9 @@ function slot0.byte_indices_reverse(slot0, slot1)
 end
 
 function slot0.sub(slot0, slot1, slot2)
+	assert(slot1 >= 1)
+	assert(not slot2 or slot2 >= 0)
+
 	slot3 = 0
 	slot4, slot5 = nil
 
@@ -141,11 +148,17 @@ function slot0.sub(slot0, slot1, slot2)
 	end
 
 	if not slot4 then
+		assert(slot3 < slot1, "invalid index")
+
 		return ""
 	end
 
-	if slot2 and not slot5 and slot2 < slot1 then
-		return ""
+	if slot2 and not slot5 then
+		if slot2 < slot1 then
+			return ""
+		end
+
+		assert(slot3 < slot2, "invalid index")
 	end
 
 	return slot0:sub(slot4, slot5 and slot5 - 1)
@@ -166,6 +179,8 @@ function slot0.contains(slot0, slot1, slot2)
 end
 
 function slot0.count(slot0, slot1)
+	assert(#slot1 > 0)
+
 	slot2 = 0
 	slot3 = 1
 
