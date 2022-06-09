@@ -7,6 +7,16 @@ function slot0.GetListeners(slot0)
 	return slot1
 end
 
+function slot0.Setup(slot0, slot1)
+	for slot6, slot7 in pairs(slot0:GetListeners()) do
+		slot0[slot6] = function (...)
+			uv0[uv1](uv2, ...)
+		end
+	end
+
+	slot0.proxy = slot1
+end
+
 function slot0.getUIName(slot0)
 	return "WorldBossDetailUI"
 end
