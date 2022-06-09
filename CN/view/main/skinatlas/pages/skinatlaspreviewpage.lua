@@ -44,13 +44,21 @@ function slot0.OnInit(slot0)
 			uv0.live2d:OpenClick()
 		end
 	end, SFX_PANEL)
+
+	slot1 = slot0._tf
+	slot1 = slot1:GetComponent(typeof(PinchZoom))
+
 	onButton(slot0, slot0._tf, function ()
-		uv0.mainImg.enabled = true
+		if uv0.processing then
+			return
+		end
 
-		uv0.paintingView:Exit()
+		uv1.mainImg.enabled = true
 
-		if uv0.live2d then
-			uv0.live2d:CloseClick()
+		uv1.paintingView:Exit()
+
+		if uv1.live2d then
+			uv1.live2d:CloseClick()
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.changeBtn, function ()

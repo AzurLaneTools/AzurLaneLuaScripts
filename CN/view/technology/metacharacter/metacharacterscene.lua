@@ -856,7 +856,7 @@ function slot0.openIndexLayer(slot0)
 				names = ShipIndexConst.MetaRarityNames
 			},
 			extraIndex = {
-				mode = CustomIndexLayer.Mode.AND,
+				mode = CustomIndexLayer.Mode.OR,
 				options = ShipIndexConst.MetaExtraIndexs,
 				names = ShipIndexConst.MetaExtraNames
 			}

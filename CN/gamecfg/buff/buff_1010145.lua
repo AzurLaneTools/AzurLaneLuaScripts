@@ -29,7 +29,7 @@ return {
 			arg_list = {
 				rant = 5000,
 				target = "TargetSelf",
-				skill_id = 10140,
+				skill_id = 1010140,
 				time = 12
 			}
 		},

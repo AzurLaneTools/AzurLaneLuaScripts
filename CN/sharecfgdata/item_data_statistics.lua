@@ -50209,6 +50209,299 @@ _G.pg.base.item_data_statistics[52033] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[52040] = {
+	display = "有概率获得以下特殊兵装",
+	name = "未知特殊兵装",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52040,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52041] = {
+	display = "有概率获得以下特殊兵装",
+	name = "未知特殊兵装",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52041,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		},
+		{
+			21,
+			1010120,
+			1
+		},
+		{
+			21,
+			1010220,
+			1
+		},
+		{
+			21,
+			1020120,
+			1
+		},
+		{
+			21,
+			1030120,
+			1
+		},
+		{
+			21,
+			1040120,
+			1
+		},
+		{
+			21,
+			1050120,
+			1
+		},
+		{
+			21,
+			1060120,
+			1
+		},
+		{
+			21,
+			1060220,
+			1
+		},
+		{
+			21,
+			1070120,
+			1
+		},
+		{
+			21,
+			1070220,
+			1
+		},
+		{
+			21,
+			1080120,
+			1
+		},
+		{
+			21,
+			1080220,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52050] = {
+	display = "有概率获得以下兵装重置核心",
+	name = "未知兵装重置核心",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52050,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52051] = {
+	display = "有概率获得以下兵装强化石",
+	name = "未知兵装强化石",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52051,
+	is_world = 0,
+	icon = "Props/15016",
+	display_icon = {
+		{
+			2,
+			15017,
+			1
+		},
+		{
+			2,
+			15016,
+			1
+		},
+		{
+			2,
+			15015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[53000] = {
 	display = "有几率获得以下装备&设计图",
 	name = "未知装备&设计图",

@@ -28,8 +28,8 @@ function slot0.init(slot0)
 	slot0.sortBtn = slot0:findTF("sort_button", slot0.top)
 	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
 	slot0.decBtn = slot0:findTF("dec_btn", slot0.sortBtn)
-	slot0.sortImgAsc = slot0:findTF("asc", slot0.decBtn)
-	slot0.sortImgDec = slot0:findTF("desc", slot0.decBtn)
+	slot0.sortImgAsc = slot0:findTF("desc", slot0.decBtn)
+	slot0.sortImgDec = slot0:findTF("asc", slot0.decBtn)
 	slot0.indexPanel = slot0:findTF("index")
 	slot0.tagContainer = slot0:findTF("adapt/mask/panel", slot0.indexPanel)
 	slot0.tagTpl = slot0:findTF("tpl", slot0.tagContainer)
@@ -208,6 +208,8 @@ function slot0.getDesignVO(slot0, slot1)
 	return slot1
 end
 
+slot2 = require("view.equipment.SpWeaponSortCfg")
+
 function slot0.filter(slot0)
 	GetSpriteFromAtlasAsync("ui/commonui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
 		setImageSprite(uv0.indexBtn, slot0, true)
@@ -224,10 +226,7 @@ function slot0.filter(slot0)
 	slot3 = slot0.contextData.asc
 
 	table.sort(slot2, function (slot0, slot1)
-		slot2 = slot0:GetRarity()
-		slot3 = slot1:GetRarity()
-
-		return uv0 and slot3 < slot2 or not uv0 and slot2 < slot3
+		return uv0.sortFunc(slot0, slot1, uv0.sort[1], uv1)
 	end)
 
 	slot0.filterCraftList = slot2
@@ -235,7 +234,7 @@ function slot0.filter(slot0)
 	slot0.scollRect:SetTotalCount(#slot2, 0)
 	setActive(slot0.listEmptyTF, #slot2 <= 0)
 	Canvas.ForceUpdateCanvases()
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv0[slot0.contextData.index or 1]))
+	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv1[slot0.contextData.index or 1]))
 	setActive(slot0.sortImgAsc, slot0.contextData.asc)
 	setActive(slot0.sortImgDec, not slot0.contextData.asc)
 end

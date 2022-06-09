@@ -6,8 +6,8 @@ return {
 			tag = i18n("word_equipment_rarity"),
 			values = {
 				"rarity",
-				"level",
-				"id"
+				"id",
+				"level"
 			}
 		},
 		{
