@@ -20,6 +20,22 @@ return {
 			}
 		},
 		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				maxTargetNumber = 1,
+				target = "TargetSelf",
+				skill_id = 901031,
+				check_target = {
+					"TargetSelf",
+					"TargetPlayerMainFleet"
+				}
+			}
+		},
+		{
 			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAttach"

@@ -218,6 +218,12 @@ function slot0.initShip(slot0)
 	slot0.initChatTextH = slot0.chatText.sizeDelta.y
 	slot0.initfontSize = slot0.chatText:GetComponent(typeof(Text)).fontSize
 
+	if PLATFORM_CODE == PLATFORM_US then
+		slot1 = GetComponent(slot0.chatText, typeof(Text))
+		slot1.lineSpacing = 1.1
+		slot1.fontSize = 25
+	end
+
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
 		groupName = LayerWeightConst.GROUP_SHIPINFOUI
 	})

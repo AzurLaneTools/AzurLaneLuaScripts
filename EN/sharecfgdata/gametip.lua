@@ -2283,7 +2283,7 @@ _G.pg.base.gametip.tactics_end_to_learn = {
 }
 
 _G.pg.base.gametip.tactics_continue_to_learn = {
-	tip = "/nWould you like to upgrade this skill?"
+	tip = "\nWould you like to upgrade this skill?"
 }
 
 _G.pg.base.gametip.tactics_should_exist_skill = {
@@ -3471,7 +3471,7 @@ _G.pg.base.gametip.spweapon_tip_transform_materal_check = {
 }
 
 _G.pg.base.gametip.spweapon_tip_transform_attrmax = {
-	tip = "This item's random stats have already been maxed."
+	tip = "This item's random attribute have already been maxed."
 }
 
 _G.pg.base.gametip.spweapon_tip_locked = {
@@ -3511,11 +3511,11 @@ _G.pg.base.gametip.spweapon_ui_transform_attr_text = {
 }
 
 _G.pg.base.gametip.spweapon_ui_keep_attr = {
-	tip = "Keep Old Stats"
+	tip = "Keep Old"
 }
 
 _G.pg.base.gametip.spweapon_ui_change_attr = {
-	tip = "Use New Stats"
+	tip = "Use New"
 }
 
 _G.pg.base.gametip.spweapon_ui_autoselect = {
@@ -3559,7 +3559,7 @@ _G.pg.base.gametip.spweapon_ui_index_shipType_other = {
 }
 
 _G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
-	tip = "This Augment Module will lose its original stats and use the <color=#92fc63>post-conversion stats</color>."
+	tip = "This Augment Module will lose its original attribute and use the <color=#92fc63>post-conversion attribute</color>."
 }
 
 _G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
@@ -3567,7 +3567,7 @@ _G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
 }
 
 _G.pg.base.gametip.spweapon_ui_change_attr_text1 = {
-	tip = "This Augment Module will keep its <color=#92fc38>pre-conversion stats</color>."
+	tip = "This Augment Module will keep its <color=#92fc38>pre-conversion attribute</color>."
 }
 
 _G.pg.base.gametip.spweapon_ui_change_attr_text2 = {
@@ -6370,20 +6370,52 @@ _G.pg.base.gametip.help_daily_task = {
 		{
 			info = [[
 Module Development: this Daily Raid can be attempted twice a week. Your goal is to destroy all enemies.
-· The enemies fire <color=#92fc63>special smoke shells</color> which drastically reduce your Main Fleet's ACC and DMG dealt upon scoring a hit.
-· Additionally, the enemies perform <color=#92fc63>slash attacks</color> which are capable of clearing some of your cannon fire and torpedoes.
+- The enemies fire <color=#92fc63>special smoke shells</color> which drastically reduce your Main Fleet's ACC and DMG dealt upon scoring a hit.
+- Additionally, the enemies perform <color=#92fc63>slash attacks</color> which are capable of clearing some of your cannon fire and torpedoes.
+
+Supply Line Disruption
+1. Supply Line Disruption is available every day of the week.
+2. During this Daily Challenge, you'll be able to manually control your Submarines on a special stage and claim rewards by sinking enemy Cargo Ships.
+3. This Daily Challenge is available every day of the week, but you can only clear it 2 times per week.
+4. Submarines control differently from other vessels. They can't fire Salvos or launch Airstrikes, but instead, they have an ability called Dive.
+5. Additionally, they have an Emergency Boost that gives a short speed boost, a Torpedo Attack with limited uses, and an All Out Assault that they can use once.
+6. Furthermore, you can tap the icon in the top left corner to change which Submarine you're controlling.
+7. Once you clear the stage by sinking the Cargo Ships at the end of it, the points you earned during the Daily Challenge will be tallied
+8. You'll also receive Submarine and Anti-Sub gear based on how well you did.
+9. Points are given for clearing the stage, sinking enemies, and completing the stage without any of your Submarines sinking.
+10. Remember that your Submarines depend on their torpedoes to deal damage, so try to make every shot count.
+
+Tips:
+1. Equipping your Submarine correctly will give them more ammunition to use. Both Auxiliary and Main Weapon torpedoes count!
+2. Submarine skills don't work during the Daily Challenge, so plan your strategy accordingly.
+3. However, they can still use their All Out Assaults once.
+4. Surcouf will fire her All Out Assault automatically when she resurfaces, but like all other Submarines, she can only fire it once.
+5. All Out Assaults deal increased damage to enemies during this Daily Challenge.
+6. You can't change to another Submarine to control immediately after Diving or Resurfacing.
+
+Escort Cargo is available on Mondays, Thursdays, and Sundays.
+
+Maritime Attack is available on Tuesdays, Fridays, and Sundays.
+
+Fierce Assault is available on Wednesdays, Saturdays, and Sundays.
+
+Tactical Training is available every day of the week.
+
+<color=#92fc63>Airstrikes</color> are highly effective for <color=#92fc63>Tactical Training (Aviation)</color>.
+<color=#92fc63>Main Fleet Salvos</color> are highly effective for <color=#92fc63>Tactical Training (Shelling)</color>.
+<color=#92fc63>Vanguard Torpedoes</color> are highly effective for <color=#92fc63>Tactical Training (Torpedo)</color>.
 
 Completing a Daily Raid stage with an S rating will unlock the quick battle option for that stage.
 - Quick battle allows you to challenge that stage multiple times at once.
 - Carrying out quick battles will skip the battle and grant you rewards according to the number of battles carried out.
-- Quick battles do not consume Oil, but also do not grant Commander or shipgirl EXP.
-- Quick battles do not affect the Morale or Affection of your shipgirls.
+- Quick battles do not consume Oil, but also do not grant Commander or Ship EXP.
+- Quick battles will not affect the Morale or Affection of your ships.
 - Quick battle sortie victories will not affect your number of victories or victory rate on your profile page.
 - Quick battles count towards the progress of certain missions such as:
-· Obtain victory with a B/A/S rating.
-· Complete Daily Raids.
-· Defeat small/medium/large fleets.
-- Quick battles do not count towards the completion of character story missions.]]
+  Obtain victory with a B/A/S rating.
+  Complete Daily Raids.
+  Defeat small/medium/large fleets.
+- Quick battles will not count towards the completion of character story missions.]]
 		}
 	}
 }
@@ -8711,35 +8743,35 @@ _G.pg.base.gametip.backyard_filter_tag_other = {
 }
 
 _G.pg.base.gametip.word_status_inFight = {
-	tip = "<size=20>Engaged</size>"
+	tip = "Engaged"
 }
 
 _G.pg.base.gametip.word_status_inPVP = {
-	tip = "<size=20>Exercising</size>"
+	tip = "Exercising"
 }
 
 _G.pg.base.gametip.word_status_inEvent = {
-	tip = "<size=20>In action</size>"
+	tip = "In action"
 }
 
 _G.pg.base.gametip.word_status_inEventFinished = {
-	tip = "<size=20>Completed</size>"
+	tip = "Completed"
 }
 
 _G.pg.base.gametip.word_status_inTactics = {
-	tip = "<size=20>Studying</size>"
+	tip = "Studying"
 }
 
 _G.pg.base.gametip.word_status_inClass = {
-	tip = "<size=20>In class</size>"
+	tip = "In class"
 }
 
 _G.pg.base.gametip.word_status_rest = {
-	tip = "<size=20>Resting</size>"
+	tip = "Resting"
 }
 
 _G.pg.base.gametip.word_status_train = {
-	tip = "<size=20>Training</size>"
+	tip = "Training"
 }
 
 _G.pg.base.gametip.word_status_challenge = {
@@ -20493,11 +20525,11 @@ _G.pg.base.gametip.index_meta_energy = {
 }
 
 _G.pg.base.gametip.tactics_continue_to_learn_other_skill = {
-	tip = "/nDo you want to change skills and continue with the upgrade?"
+	tip = "\nDo you want to change skills and continue with the upgrade?"
 }
 
 _G.pg.base.gametip.tactics_continue_to_learn_other_ship_skill = {
-	tip = "/nDo you want to swap to a different shipgirl to train?"
+	tip = "\nDo you want to swap to a different shipgirl to train?"
 }
 
 _G.pg.base.gametip.tactics_no_recent_ships = {
