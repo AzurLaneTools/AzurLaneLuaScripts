@@ -980,7 +980,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20506] = {
 		shiptype = 5,
-		name = "前卫",
+		name = "뱅가드",
 		nation = 2,
 		id = 20506,
 		t_level_1 = 63,

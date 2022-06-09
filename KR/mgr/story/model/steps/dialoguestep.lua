@@ -288,7 +288,9 @@ function slot0.GetLive2dAction(slot0)
 end
 
 function slot0.IsSamePainting(slot0, slot1)
-	return slot0:GetPainting() == slot1:GetPainting() and slot0:IsLive2dPainting() == slot1:IsLive2dPainting() and slot0:IsSpinePainting() == slot1:IsSpinePainting()
+	return slot0:GetPainting() == slot1:GetPainting() and slot0:IsLive2dPainting() == slot1:IsLive2dPainting() and slot0:IsSpinePainting() == slot1:IsSpinePainting() and not (function ()
+		return uv0:ShouldAddGlitchArtEffect() or uv1:ShouldAddGlitchArtEffect()
+	end)()
 end
 
 function slot0.OnClear(slot0)

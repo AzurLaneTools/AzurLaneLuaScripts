@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "바다 위 잔불은 방금 파괴된 것 같아요.. 누군가 저희보다 먼저 움직이기 시작한 것 같군요.",
+			say = "바다 위 잔해는 방금 파괴된 것 같아요.. 누군가 저희보다 먼저 움직이기 시작한 것 같군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "맞습니다. 저흰 카멜로의 정원에서 왔습니다. 당신은요?",
+			say = "맞습니다. 저흰 카멜롯의 정원에서 왔습니다. 당신은요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "상황이 좀 복잡하긴 하지만… 마와 폐하는 자칭 본험 리차드라는 귀찮은 적을 피하기 위해 급히 이동했는데,",
+			say = "상황이 좀 복잡하긴 하지만… 나와 폐하는 자칭 본험 리차드라는 귀찮은 적을 피하기 위해 급히 이동했는데,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

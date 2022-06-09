@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "아발론의 문 내부 핵심 구역인 카멜로의 정원에 들어온 걸 환영한다.",
+			say = "아발론의 문 내부 핵심 구역인 카멜롯의 정원에 들어온 걸 환영한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "카멜로의 정원… 이름처럼 정말 아름다운 정원이네요. 전설 속 느낌에 따라 만든 곳이 분명한 것 같습니다.",
+			say = "카멜롯의 정원… 이름처럼 정말 아름다운 정원이네요. 전설 속 느낌에 따라 만든 곳이 분명한 것 같습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "재너스",
-			say = "걱정하지 마세요, 저도 주위하고 있으니까~",
+			say = "걱정하지 마세요, 저도 주의하고 있으니까~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

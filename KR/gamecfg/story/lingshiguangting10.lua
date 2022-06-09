@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "????·카멜로의 정원",
+			say = "????·카멜롯의 정원",
 			side = 2,
 			bgName = "bg_camelot_7",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "이번에야말로 다른 세계에 와 있다는 게 실감이 나.",
+			say = "이번에야말로 다른 세계에 와 있다는 게 실감이 나네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "우리 말고도 카멜로의 정원을 사용하고 있는 사람이 있다는 건가.",
+			say = "우리 말고도 카멜롯의 정원을 사용하고 있는 사람이 있다는 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "어… 카멜로의 정원은 항상 저희만 쓰던 거 아니었나요?",
+			say = "어… 카멜롯의 정원은 항상 저희만 쓰던 거 아니었나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "이렇게 거대한 카멜로 정원이 도심에 착륙했는데, 왜 아무도 당황하지 않는지 계속 생각을 해봤어.",
+			say = "이렇게 거대한 카멜롯의 정원이 도심에 착륙했는데, 왜 아무도 당황하지 않는지 계속 생각을 해봤어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

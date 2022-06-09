@@ -2523,6 +2523,19 @@ pg.memory_group = {
 			2166
 		}
 	},
+	[219] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 219,
+		title = "우아한 연회",
+		memories = {
+			2167,
+			2168,
+			2169,
+			2170
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3807,6 +3820,7 @@ pg.memory_group = {
 		216,
 		217,
 		218,
+		219,
 		501,
 		502,
 		503,

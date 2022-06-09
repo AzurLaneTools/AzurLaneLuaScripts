@@ -859,7 +859,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "（…인도미터블님, 저는 여러분의 건강을 관리하는 역할입니다. 가지고 다니는 건 의료 상자랍니다.）",
+			say = "（…인도미터블 양, 저는 여러분의 건강을 관리하는 역할입니다. 가지고 다니는 건 의료 상자랍니다.）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "사이렌에 대한 다른 호칭 말입니까?",
+			say = "세이렌에 대한 다른 호칭 말입니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

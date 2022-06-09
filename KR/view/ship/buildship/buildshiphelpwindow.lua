@@ -13,7 +13,6 @@ function slot0.OnLoaded(slot0)
 	slot0.tipListTF = slot0:findTF("window/rateList/scrollview/list", slot0._tf)
 	slot0.tipListTpl = slot0:findTF("window/rateList/scrollview/item", slot0._tf)
 
-	setText(slot0:findTF("window/rateList/title/Text"), i18n("build_rate_title"))
 	setText(slot0:findTF("window/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
 end
 
@@ -29,8 +28,15 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+function slot0.Show(slot0, slot1, slot2)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+
+	if slot2 == "support" then
+		setText(slot0:findTF("window/rateList/title/Text"), i18n("support_rate_title"))
+	else
+		setText(slot0:findTF("window/rateList/title/Text"), i18n("build_rate_title"))
+	end
+
 	slot0:OnShow(slot1)
 	setActiveViaLayer(slot0._tf, true)
 end

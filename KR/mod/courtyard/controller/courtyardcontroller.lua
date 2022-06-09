@@ -51,16 +51,22 @@ function slot0.SetUp(slot0)
 	end
 
 	seriesAsync(slot4, function ()
-		uv0.storey:DispatchEvent(CourtYardEvent.INITED)
+		if uv0.storey then
+			uv0.storey:DispatchEvent(CourtYardEvent.INITED)
+		end
 
 		uv0.isInit = true
 
-		_courtyard:SendNotification(CourtYardEvent._INITED)
+		if _courtyard then
+			_courtyard:SendNotification(CourtYardEvent._INITED)
+		end
 	end)
 end
 
 function slot0.Update(slot0)
-	slot0.storey:Update()
+	if slot0.storey then
+		slot0.storey:Update()
+	end
 end
 
 function slot0.GetStorey(slot0)
@@ -68,22 +74,32 @@ function slot0.GetStorey(slot0)
 end
 
 function slot0.AddFurniture(slot0, slot1, slot2)
+	function slot3(slot0, slot1)
+		slot2 = uv0:DataToFurnitureVO(uv1)
+
+		slot2:Init(slot1, uv1.dir or 1)
+
+		return uv0.storey:IsLegalAreaForFurniture(slot2, slot1)
+	end
+
 	if not slot0.storey:CanAddFurniture(slot0:DataToFurnitureVO(slot1)) then
 		return
 	end
 
-	slot4 = slot3:GetType()
+	slot5 = slot4:GetType()
 
 	if slot1.parent and slot1.parent ~= 0 then
-		slot3:Init(slot1.position, slot1.dir or 1)
-		slot0.storey:AddChildFurniture(slot3, slot1.parent)
-	elseif slot4 == Furniture.TYPE_WALLPAPER or slot4 == Furniture.TYPE_FLOORPAPER then
-		slot0.storey:AddPaper(slot3)
-	elseif slot1.position or slot0.storey:GetEmptyArea(slot3) then
-		slot3:Init(slot5, slot1.dir or 1)
-		slot0.storey:AddFurniture(slot3, slot2)
-	else
+		slot4:Init(slot1.position, slot1.dir or 1)
+		slot0.storey:AddChildFurniture(slot4, slot1.parent)
+	elseif slot5 == Furniture.TYPE_WALLPAPER or slot5 == Furniture.TYPE_FLOORPAPER then
+		slot0.storey:AddPaper(slot4)
+	elseif not (slot1.position or slot0.storey:GetEmptyArea(slot4)) then
 		slot0.storey:DispatchEvent(CourtYardEvent.ADD_ITEM_FAILED)
+	elseif slot6 and slot3(slot4, slot6) then
+		slot4:Init(slot6, slot1.dir or 1)
+		slot0.storey:AddFurniture(slot4, slot2)
+	else
+		_courtyard:SendNotification(CourtYardEvent._ADD_ITEM_FAILED, slot4.id)
 	end
 
 	slot0:CheckChange()
@@ -288,26 +304,46 @@ function slot0.IsEditModeOrIsVisit(slot0)
 end
 
 function slot0.Receive(slot0, slot1, ...)
+	if not slot0.storey then
+		return
+	end
+
 	slot0:__slot1_None__(...)
 end
 
 function slot0.OnTakeThemePhoto(slot0)
-	slot0.storey:DispatchEvent(CourtYardEvent.TAKE_PHOTO)
+	if slot0.storey then
+		slot0.storey:DispatchEvent(CourtYardEvent.TAKE_PHOTO)
+	end
 end
 
 function slot0.OnEndTakeThemePhoto(slot0)
-	slot0.storey:DispatchEvent(CourtYardEvent.END_TAKE_PHOTO)
+	if slot0.storey then
+		slot0.storey:DispatchEvent(CourtYardEvent.END_TAKE_PHOTO)
+	end
 end
 
 function slot0.OnApplicationPaused(slot0)
-	slot0.storey:StopAllDragState()
-	_courtyard:SendNotification(CourtYardEvent._DRAG_ITEM_END)
+	if slot0.storey then
+		slot0.storey:StopAllDragState()
+		_courtyard:SendNotification(CourtYardEvent._DRAG_ITEM_END)
+	end
+end
+
+function slot0.OnOpenLayerOrCloseLayer(slot0, slot1, slot2)
+	if not slot2 or not slot0.storey then
+		return
+	end
+
+	slot0.storey:DispatchEvent(CourtYardEvent.OPEN_LAYER, slot1)
 end
 
 function slot0.Dispose(slot0)
-	slot0.storey:Dispose()
+	if slot0.storey then
+		slot0.storey:Dispose()
 
-	slot0.storey = nil
+		slot0.storey = nil
+	end
 end
 
 function slot0.IsFloorPaper(slot0)

@@ -622,26 +622,63 @@ function slot0.DragFurnitureEnd(slot0, slot1, slot2)
 		slot2 = slot3:NormalizePosition(slot2, slot0.minSizeX)
 	end
 
-	slot5 = (_.all(slot3:GetAreaByPosition(slot2), function (slot0)
-		return uv0:LegalPosition(slot0, uv1)
-	end) or slot0:GetParentForItem(slot3, slot2) ~= nil) and slot2 or slot3:GetPosition()
+	if not slot0:VerifyDragPositionForFurniture(slot3, slot2) then
+		slot0:RemoveFurniture(slot1)
+		slot0:DispatchEvent(CourtYardEvent.REMOVE_ILLEGALITY_ITEM)
 
-	slot3:SetPosition(slot5)
+		return
+	end
 
-	slot7 = nil
+	if isa(slot3, CourtYardWallFurniture) then
+		slot3:UpdatePosition(slot4)
+	else
+		slot3:SetPosition(slot4)
+	end
 
-	if slot0:GetParentForItem(slot3, slot5) then
-		slot0:DispatchEvent(CourtYardEvent.CHILD_ITEM, slot3, slot6)
-		slot6:AddChild(slot3)
+	slot6 = nil
 
-		slot7 = slot6:AreaWithInfo(slot3, slot5, slot6:RawGetOffset(), true)
+	if slot0:GetParentForItem(slot3, slot4) then
+		slot0:DispatchEvent(CourtYardEvent.CHILD_ITEM, slot3, slot5)
+		slot5:AddChild(slot3)
+
+		slot6 = slot5:AreaWithInfo(slot3, slot4, slot5:RawGetOffset(), true)
 	else
 		slot0:AddItem(slot3)
 
-		slot7 = slot0:AreaWithInfo(slot3, slot5, slot3:GetOffset(), true)
+		slot6 = slot0:AreaWithInfo(slot3, slot4, slot3:GetOffset(), true)
 	end
 
-	slot0:DispatchEvent(CourtYardEvent.DRAG_ITEM_END, slot3, slot7)
+	slot0:DispatchEvent(CourtYardEvent.DRAG_ITEM_END, slot3, slot6)
+end
+
+function slot0.IsLegalAreaForFurniture(slot0, slot1, slot2)
+	return _.all(slot1:GetAreaByPosition(slot2), function (slot0)
+		return uv0:LegalPosition(slot0, uv1)
+	end) or slot0:GetParentForItem(slot1, slot2) ~= nil
+end
+
+function slot0.VerifyDragPositionForFurniture(slot0, slot1, slot2)
+	slot3 = nil
+
+	if slot0:IsLegalAreaForFurniture(slot1, slot2) then
+		slot3 = slot2
+	else
+		if slot1:GetPosition() and isa(slot1, CourtYardWallFurniture) then
+			slot1:UpdatePosition(slot4)
+		end
+
+		if slot4 and slot0:IsLegalAreaForFurniture(slot1, slot4) then
+			slot3 = slot4
+		else
+			if slot4 and isa(slot1, CourtYardWallFurniture) then
+				slot1:UpdatePosition(slot2)
+			end
+
+			slot3 = slot0:GetEmptyArea(slot1)
+		end
+	end
+
+	return slot3
 end
 
 function slot0.UnSelectFurniture(slot0, slot1)
@@ -886,7 +923,14 @@ function slot0.ClearInteraction(slot0, slot1, slot2)
 end
 
 function slot0.ClearInteractionForFollower(slot0, slot1, slot2, slot3, slot4)
-	slot1:SetPosition(slot0:GetAroundEmptyArea(slot1, slot2:GetPosition()))
+	if not slot0:GetAroundEmptyArea(slot1, slot2:GetPosition()) then
+		slot0:DispatchEvent(CourtYardEvent.REMOVE_ILLEGALITY_ITEM)
+		slot0:RemoveFurniture(slot1.id)
+
+		return
+	end
+
+	slot1:SetPosition(slot5)
 	slot0:AddItemAndRefresh(slot1)
 end
 

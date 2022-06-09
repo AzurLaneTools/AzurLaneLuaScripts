@@ -17585,122 +17585,152 @@ cs.gametip = {
 	},
 	battle_result_share_battle = {
 		690288,
-		105,
+		90,
 		true
 	},
 	pre_combat_team = {
-		690393,
+		690378,
 		92,
 		true
 	},
 	pre_combat_vanguard = {
-		690485,
+		690470,
 		95,
 		true
 	},
 	pre_combat_main = {
-		690580,
+		690565,
 		91,
 		true
 	},
 	pre_combat_submarine = {
-		690671,
+		690656,
 		96,
 		true
 	},
 	destroy_confirm_access = {
-		690767,
+		690752,
 		92,
 		true
 	},
 	destroy_confirm_cancel = {
-		690859,
+		690844,
 		92,
 		true
 	},
 	pt_count_tip = {
-		690951,
+		690936,
 		82,
 		true
 	},
 	dockyard_data_loss_detected = {
-		691033,
+		691018,
 		166,
 		true
 	},
 	littleEugen_npc = {
-		691199,
+		691184,
 		1345,
 		true
 	},
 	five_shujuhuigu = {
-		692544,
+		692529,
 		88,
 		true
 	},
 	five_shujuhuigu1 = {
-		692632,
+		692617,
 		95,
 		true
 	},
 	littleChaijun_npc = {
-		692727,
+		692712,
 		1246,
 		true
 	},
 	five_qingdian = {
-		693973,
+		693958,
 		849,
 		true
 	},
 	friend_resume_title_detail = {
-		694822,
+		694807,
 		103,
 		true
 	},
 	item_type13_tip1 = {
-		694925,
+		694910,
 		93,
 		true
 	},
 	item_type13_tip2 = {
-		695018,
+		695003,
 		93,
 		true
 	},
 	item_type16_tip1 = {
-		695111,
+		695096,
 		93,
 		true
 	},
 	item_type16_tip2 = {
-		695204,
+		695189,
 		93,
 		true
 	},
 	item_type17_tip1 = {
-		695297,
+		695282,
 		93,
 		true
 	},
 	item_type17_tip2 = {
-		695390,
+		695375,
 		93,
 		true
 	},
 	five_duomaomao = {
-		695483,
+		695468,
 		1103,
 		true
 	},
 	main_4 = {
-		696586,
+		696571,
 		85,
 		true
 	},
 	main_5 = {
-		696671,
+		696656,
 		85,
+		true
+	},
+	honor_medal_support_tips_display = {
+		696741,
+		438,
+		true
+	},
+	honor_medal_support_tips_confirm = {
+		697179,
+		215,
+		true
+	},
+	support_rate_title = {
+		697394,
+		95,
+		true
+	},
+	support_times_limited = {
+		697489,
+		130,
+		true
+	},
+	support_times_tip = {
+		697619,
+		94,
+		true
+	},
+	build_times_tip = {
+		697713,
+		92,
 		true
 	}
 }

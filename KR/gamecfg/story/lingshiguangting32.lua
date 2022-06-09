@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "모두가 카멜로의 정원에 접근하려고 할 때, 눈부신 황금색 빛이 바다를 휩쓸었다.",
+			say = "모두가 카멜롯의 정원에 접근하려고 할 때, 눈부신 황금색 빛이 바다를 휩쓸었다.",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "폐하, 카멜로의 정원이 스스로 작동하는 것 같습니다만…?!",
+			say = "폐하, 카멜롯의 정원이 스스로 작동하는 것 같습니다만…?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "카멜로의 정원은 한 세계에 하나만 존재해. 셰필드의 지원군이 도착한 것 같군.",
+			say = "카멜롯의 정원은 한 세계에 하나만 존재해. 셰필드의 지원군이 도착한 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			say = "카멜로의 정원은 마치 각지를 연결하는 봉화처럼 여왕의 위험 소식을 전했고, 동시에 위기를 돌파할 희망을 한곳에 모았다.",
+			say = "카멜롯의 정원은 마치 각지를 연결하는 봉화처럼 여왕의 위험 소식을 전했고, 동시에 위기를 돌파할 희망을 한곳에 모았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "폐하, 죄송합니다. 카멜로의 정원의 연속 작동 횟수가 많아 재작동까지 일정 시간 동안 에너지 충전이 필요할 것 같습니다.",
+			say = "폐하, 죄송합니다. 카멜롯의 정원의 연속 작동 횟수가 많아 재작동까지 일정 시간 동안 에너지 충전이 필요할 것 같습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			say = "바깥쪽에 있는 첫 번째 고리가 회전하면서, 투명한 '막'이 카멜로의 정원을 감싸 검은 폭풍을 차단했다.",
+			say = "바깥쪽에 있는 첫 번째 고리가 회전하면서, 투명한 '막'이 카멜롯의 정원을 감싸 검은 폭풍을 차단했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "응? 본험 리차드에게 무슨 문제가 있나?",
+			say = "응? 본험 리차드에게 무슨 문제가 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#696969",
 			dir = 1,
-			say = "에~ 날 돌려보내긴 쉽지 않을걸. 왜냐면 그 누구도 절 막을 수 없거든.",
+			say = "에~ 날 돌려보내긴 쉽지 않을걸. 왜냐면 그 누구도 날 막을 수 없거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1069,7 +1069,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "하지만 이렇게 되면… 이 엘리자베스 님도 작동에 사용되는 에너지를 외부 고리까지 계속해서 보충해야 하는데….",
+			say = "하지만 이렇게 되면… 나도 작동에 사용되는 에너지를 외부 고리까지 계속해서 보충해야 하는데….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1085,7 +1085,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "적을 공격할 수는 없지만, 카멜로의 정원도 작동시킬 수 없다니….",
+			say = "적을 공격할 수는 없지만, 카멜롯의 정원도 작동시킬 수 없다니….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1168,7 +1168,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "좋아! 전부 허락하겠다. 방어벽을 중간 고리로 옮길 테니, 중간과 외부 고리 사이에서 전투하도록.",
+			say = "좋아! 전부 허락한다! 방어벽을 중간 고리로 옮길 테니, 중간과 외부 고리 사이에서 전투해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1184,7 +1184,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "카멜로의 정원이 제대로 준비되기 전까지 외부 고리로 침입한 모든 적을 소탕해야 한다!",
+			say = "카멜롯의 정원이 제대로 준비되기 전까지 외부 고리로 침입한 모든 적을 소탕해야해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

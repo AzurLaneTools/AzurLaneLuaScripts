@@ -327,7 +327,7 @@ pg.item_data_frame = {
 	[319] = {
 		time_limit_type = 0,
 		name = "유리의 특이점",
-		gain_by = "虹彩的终幕曲",
+		gain_by = "레인보우 피날레",
 		id = 319,
 		time_second = 0,
 		desc = "<color=#ffffff>이는 종말이자 시초이다.——「레인보우 피날레」 이벤트 획득</color>",
@@ -336,10 +336,10 @@ pg.item_data_frame = {
 	[320] = {
 		time_limit_type = 0,
 		name = "맹세의 정원",
-		gain_by = "泠誓光庭",
+		gain_by = "맹세의 정원",
 		id = 320,
 		time_second = 0,
-		desc = "<color=#ffffff>추후 이벤트를 통해 획득</color>",
+		desc = "<color=#ffffff>오랜 세월과 전화의 마모에도 과거의 맹세는 여전히 별처럼 빛난다——「빛나는 정원의 맹세」 이벤트 획득.</color>",
 		scene = {}
 	},
 	[401] = {

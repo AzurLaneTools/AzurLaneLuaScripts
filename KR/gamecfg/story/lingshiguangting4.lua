@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_3",
 			dir = 1,
-			say = "????·카멜로의 정원",
+			say = "????·카멜롯의 정원",
 			effects = {
 				{
 					active = true,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "아직 카멜로 정원인데… 바깥 환경이 완전히 변했어요!",
+			say = "아직 카멜롯의 정원인데… 바깥 환경이 완전히 변했어요!",
 			effects = {
 				{
 					active = false,
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_3",
-			say = "문에서 뿜어져 나오는 환한 빛이 사라지고, 그들은 카멜로의 정원으로 인해 완전히 새로운 곳으로 옮겨졌다.",
+			say = "문에서 뿜어져 나오는 환한 빛이 사라지고, 그들은 카멜롯의 정원으로 인해 완전히 새로운 곳으로 옮겨졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "이 숲… 원시림이라고 볼 수 있겠네요. 인도미터블 언니, 정찰기에서 뭔가 발견되었나요?",
+			say = "이 숲… 원시림이라고 볼 수 있겠네요. 인도미터블 양, 정찰기에서 뭔가 발견되었나요?",
 			flashout = {
 				black = true,
 				dur = 0.5,

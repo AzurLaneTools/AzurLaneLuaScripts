@@ -74,7 +74,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -202,7 +202,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -266,7 +266,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -321,7 +321,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -396,7 +396,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -451,7 +451,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -549,7 +549,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -602,7 +602,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -872,7 +872,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -1125,7 +1125,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -1180,7 +1180,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -1235,7 +1235,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -1553,7 +1553,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -1608,7 +1608,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -1863,7 +1863,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -1918,7 +1918,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -2114,7 +2114,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -2169,7 +2169,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -2353,7 +2353,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -2442,7 +2442,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -2497,7 +2497,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -2559,7 +2559,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -2575,6 +2575,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -2707,7 +2717,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3026,7 +3036,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3115,7 +3125,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3170,7 +3180,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3225,7 +3235,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3287,7 +3297,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3352,7 +3362,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3784,7 +3794,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3848,7 +3858,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3903,7 +3913,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -3968,7 +3978,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4033,7 +4043,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4088,7 +4098,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4508,7 +4518,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4572,7 +4582,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4667,7 +4677,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4722,7 +4732,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4786,7 +4796,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4850,7 +4860,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4905,7 +4915,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4960,7 +4970,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -4976,6 +4986,16 @@ pg.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -5046,7 +5066,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -5643,7 +5663,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -5715,7 +5735,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -5758,7 +5778,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -5911,7 +5931,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -5966,7 +5986,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -6030,7 +6050,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -6094,7 +6114,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -6158,7 +6178,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -6263,7 +6283,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -6327,7 +6347,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -6412,7 +6432,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -6610,7 +6630,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -7007,7 +7027,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -7071,7 +7091,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -7135,7 +7155,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -7190,7 +7210,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -7234,7 +7254,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -7545,7 +7565,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -7579,7 +7599,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -7595,6 +7615,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -8059,7 +8089,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8124,7 +8154,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8214,7 +8244,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8278,7 +8308,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8333,7 +8363,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8431,7 +8461,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8495,7 +8525,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8581,7 +8611,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8636,7 +8666,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8722,7 +8752,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8738,6 +8768,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -8767,7 +8807,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8831,7 +8871,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8847,6 +8887,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -8938,7 +8988,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -8993,7 +9043,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -9100,11 +9150,21 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -9246,7 +9306,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -9308,7 +9368,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -9521,7 +9581,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -9576,7 +9636,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -9592,6 +9652,16 @@ pg.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -9840,7 +9910,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -9895,7 +9965,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -11799,7 +11869,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -13110,7 +13180,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -13126,6 +13196,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -13155,11 +13235,21 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -13545,11 +13635,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -13692,7 +13792,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -13751,7 +13851,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -15083,7 +15183,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -15384,7 +15484,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -15497,7 +15597,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -15598,6 +15698,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15686,7 +15796,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -15750,7 +15860,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -15814,7 +15924,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -16109,7 +16219,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -16125,6 +16235,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -16534,11 +16654,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -19124,7 +19254,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{

@@ -19637,7 +19637,7 @@ _G.pg.base.gametip.battle_result_quit_battle = {
 }
 
 _G.pg.base.gametip.battle_result_share_battle = {
-	tip = "分 享 战 绩"
+	tip = ""
 }
 
 _G.pg.base.gametip.pre_combat_team = {
@@ -19800,4 +19800,39 @@ _G.pg.base.gametip.main_4 = {
 
 _G.pg.base.gametip.main_5 = {
 	tip = "메인\n화면 5"
+}
+
+_G.pg.base.gametip.honor_medal_support_tips_display = {
+	tip = {
+		support_tip_ship = "훈장 지원 시 확률적으로 SSR 함선 획득 가능",
+		bg = "loadingbg/bg_support",
+		support_tip_consume = "훈장을 소모하여 함선 지원 획득 가능",
+		rate_tip = {
+			"<color=#ffde38>SSR</color>：4%",
+			"<color=#d797ff>SR</color>：10%",
+			"<color=#3dc6ff>R</color>：32%",
+			"N：54%",
+			"매월 지원 횟수 상한: 999회"
+		}
+	}
+}
+
+_G.pg.base.gametip.honor_medal_support_tips_confirm = {
+	tip = "함선 지원 <color=#ff5c5c>「$1회」</color> 신청 시, 필요 소모:\n<color=$3>「명예훈장 $2개」</color>"
+}
+
+_G.pg.base.gametip.support_rate_title = {
+	tip = "지원 확률"
+}
+
+_G.pg.base.gametip.support_times_limited = {
+	tip = "이번달 훈장 지원 가능 횟수 부족"
+}
+
+_G.pg.base.gametip.support_times_tip = {
+	tip = "지원 수량"
+}
+
+_G.pg.base.gametip.build_times_tip = {
+	tip = "건조 수량"
 }

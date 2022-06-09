@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9702020,
-			say = "경고, 여러 중재 기관이 빠른 속도로 우리 쪽으로 접근하고 있어.",
+			say = "경고, 여러 아비터가 빠른 속도로 우리 쪽으로 접근하고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1158,7 +1158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "폐하께서 왜 카멜로의 정원을 만들어 서로 다른 세계의 저흴 연결하시려는지 아십니까?",
+			say = "폐하께서 왜 카멜롯의 정원을 만들어 서로 다른 세계의 저흴 연결하시려는지 아십니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1536,7 +1536,7 @@ return {
 			}
 		},
 		{
-			say = "????·카멜로의 정원, 잠시 후",
+			say = "????·카멜롯의 정원, 잠시 후",
 			side = 2,
 			bgName = "bg_camelot_3",
 			dir = 1,

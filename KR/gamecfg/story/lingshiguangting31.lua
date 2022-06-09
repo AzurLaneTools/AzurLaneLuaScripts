@@ -153,7 +153,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "카멜로의 정원에만 도착하면 우리의 승리다!",
+			say = "카멜롯의 정원에만 도착하면 우리의 승리다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "폐하, 여기는 제게 맡겨주십쇼. 카멜로의 정원과 멀지 않은 곳이니 먼저 대피하시기 바랍니다.",
+			say = "폐하, 여기는 제게 맡겨주십쇼. 카멜롯의 정원과 멀지 않은 곳이니 먼저 대피하시기 바랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "보아하니 이미 학습한 것을 실제 상황에 응용하는 사람도 있는 것 같아 이 엘리자베스 님께서 매우 흡족하구나!",
+			say = "보아하니 이미 배운 걸 실제 상황에 응용하는 사람도 있는 것 같아서 매우 흡족하네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "맞다! 엘리자베스 님께선 너희 모두를 빠짐없이 안전하게 집으로 데리고 갈 것이다!",
+			say = "맞아! 내가 너희 모두를 빠짐없이 안전하게 집으로 데리고 갈 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "모나크, 넵튠, 체셔. 너희 셋은 전방에 길을 열어 폭풍의 주의를 끌도록.",
+			say = "모나크, 넵튠, 체셔. 너희 셋은 전방에 길을 열어 폭풍의 주의를 끌어줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "다른 사람들은 카멜로의 정원을 향해 전속력으로 달린다.",
+			say = "다른 사람들은 카멜롯의 정원을 향해 전속력으로 달려.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "우리가 안전하게 빠져나간 후 너희들은 폭풍을 뚫고 직접 우리와 합류한다.",
+			say = "우리가 안전하게 빠져나가면 너희들은 폭풍을 뚫고 직접 우리와 합류해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "걱정하지 마, 너희들은 계획함. 그 폭풍우가 한동안은 너희에게 어떠한 피해도 입히지 못할 테니까!",
+			say = "걱정하지 마, 너희들은 계획함이니까, 그 폭풍우가 한동안은 너희에게 어떠한 피해도 입히지 못할 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

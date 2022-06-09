@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "벨파를 귀찮게 하지 말고 이 엘리자베스 님께 직접 얘기하도록.",
+			say = "벨파를 귀찮게 하지 말고 나한테 직접 얘기해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "너희들이 문밖에서 큰소리를 치는 바람에 이 엘리자베스 님의 업무가 방해됐으니 말이야.",
+			say = "너희들이 문밖에서 큰소리를 치는 바람에 이미 업무가 방해됐으니 말이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "우리도 카멜로의 정원을 작동해 모나크를 잡아 오자!",
+			say = "우리도 카멜롯의 정원을 작동해 모나크를 잡아 오자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

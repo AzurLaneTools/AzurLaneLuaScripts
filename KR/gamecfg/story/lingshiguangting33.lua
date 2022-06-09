@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "수많은 적이 사방에서 카멜로의 정원으로 몰려들었다.",
+			say = "수많은 적이 사방에서 카멜롯의 정원으로 몰려들었다.",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "홍수와 야수 떼처럼 끝이 없네… 그리고 난 지금, 이 순간 카멜로의 정원에 우뚝 서 있어.",
+			say = "홍수와 야수 떼처럼 끝이 없네… 그리고 난 지금, 이 순간 카멜롯의 정원에 우뚝 서 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			actor = 205010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "안돼. 모험을 하고 싶지 않다.",
+			say = "안돼. 모험을 하고 싶진 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			say = "엘리자베스가 시동 버튼을 누르자 카멜로의 정원은 다시 금색 빛으로 뒤덮였다.",
+			say = "엘리자베스가 시동 버튼을 누르자 카멜롯의 정원은 다시 금색 빛으로 뒤덮였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "퀸 엘리자베스",
-			say = "아, 맞아. 대피 중이었다…. 검은 폭풍이 점점 더 커지고 있군.",
+			say = "아, 맞아. 대피 중이었지…. 검은 폭풍이 점점 더 커지고 있군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "벨로나",
-			say = "동시에 사이렌 함대도 저희와 미지의 적을 향해 공격을 개시했고, 현재 해역 양상이 혼란스럽습니다.",
+			say = "동시에 세이렌 함대도 저희와 미지의 적을 향해 공격을 개시했고, 현재 해역 양상이 혼란스럽습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "퀸 엘리자베스",
-			say = "아니, 그냥 사이렌 함대 사이를 지나간다.",
+			say = "아니, 그냥 세이렌 함대 사이를 지나간다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "퀸 엘리자베스",
-			say = "공격이야 받겠지만 사이렌이 실제로 전투하진 않을 테니 아무 문제 없을 거다.",
+			say = "공격이야 받겠지만 세이렌이 실제로 전투하진 않을 테니 아무 문제 없을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "퀸 엘리자베스",
-			say = "그 적들과 되도록 가까이하지 말라고 이 엘리자베스 님의 명령을 모두에게 전한다!",
+			say = "그 적들과 되도록 가까이하지 말라고 모두에게 전해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

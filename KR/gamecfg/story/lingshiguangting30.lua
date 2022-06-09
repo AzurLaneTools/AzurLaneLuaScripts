@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "저비스",
-			say = "화력을 100% 개방한 인도미터블은 정말 오랜만이네요.",
+			say = "화력을 100% 개방한 인도미터블 양은 정말 오랜만이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "이곳은 오래 머물 곳이 못 돼. 계속 속도를 내어 전진하자, 우리는 카멜로의 정원에 도착할 거야!",
+			say = "이곳은 오래 머물 곳이 못 돼. 계속 속도를 내어 전진하자, 우리는 카멜롯의 정원에 도착할 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

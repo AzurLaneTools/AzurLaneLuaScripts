@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			dir = 1,
-			say = "아발론의 문·카멜로의 정원, 어느 날",
+			say = "아발론의 문·카멜롯의 정원, 어느 날",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "————두 사람은 자리에 앉도록.",
+			say = "————두 사람, 자리에 앉아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

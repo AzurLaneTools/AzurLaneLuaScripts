@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "넌 누구지, 이 엘리자베스의 신하에게 무슨 짓이냐?!",
+			say = "넌 누구지, 내 신하에게 무슨 짓이냐?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "바로 내가 퀸 엘리자베스 다! 이 바보야! 맘대로 뛰쳐나온 일은 다음에 다시 책임을 묻겠다.",
+			say = "바로 내가 퀸 엘리자베스 다! 이 바보야! 맘대로 뛰쳐나온 일은 다음에 다시 책임을 묻겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "폐하, 카멜로의 정원은 알 수 없는 강한 교란을 겪고 있고 좌표 안전장치가 말이 듣지 않아 출력도 급격히 감소하고 있습니다.",
+			say = "폐하, 카멜롯의 정원은 알 수 없는 강한 교란을 겪고 있고 좌표 안전장치가 말이 듣지 않아 출력도 급격히 감소하고 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "카멜로의 정원에 교란이라?! 쳇… 모나크, 너 대체 어떤 말썽을 부린 거야.",
+			say = "카멜롯의 정원에 교란?! 쳇… 모나크, 너 대체 어떤 말썽을 부린 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "하아? 그럴 거였으면 이 엘리자베스 님이 친히 이곳에 널 데리러 왔겠느냐?!",
+			say = "하아? 그럴 거였으면 이 엘리자베스 님이 친히 이곳에 널 데리러 왔겠어?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "카멜로 정원을 긴급 작동시켜. 엘리자베스 님께서 이곳에서 1초도 더 있고 싶지 않다.",
+			say = "카멜롯의 정원을 긴급 작동시켜. 이곳에서 1초도 더 있고 싶지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "거대한 고리가 다시 작동하면서 눈부신 금빛 광채 뒤로 카멜로의 정원은 사라졌다.",
+			say = "거대한 고리가 다시 작동하면서 눈부신 금빛 광채 뒤로 카멜롯의 정원은 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "좋아! 네가 실종된 이 엘리자베스 님을 무시하지 않을 줄 알았다구!",
+			say = "좋아! 네가 실종된 나를 무시하지 않을 줄 알았다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "필요 없다, 저비스. 이 엘리자베스 님은 괜찮아.",
+			say = "필요 없어, 저비스. 난 괜찮아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "걱정하지 말고 쉬라니까, 이 엘리자베스 님껜 다 방법이 있느니라!",
+			say = "걱정하지 말고 쉬라니까, 나에겐 다 방법이 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "참, 넵튠과 체셔를 처음 보는 사람들도 많지? 인제 와서 숨길 수도 없는 노릇이니 이번 기회에 다들 제대로 대화를 나눠봐.",
+			say = "참, 넵튠과 체셔를 처음 보는 사람들도 많지? 이제 와서 숨길 수도 없는 노릇이니까 이번 기회에 다들 제대로 대화를 나눠봐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "뱅가드와 모나크는 날 따라 서재로 오도록. 이 엘리자베스 님께서 너희에게 친히 할 말이 있다.",
+			say = "뱅가드와 모나크는 잠깐 서재로 와봐. 너희에게 할 말이 있으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "만약 이번 사건으로 원하는 물건을 찾기는커녕 카멜로의 정원까지 손상됐다면…!",
+			say = "만약 이번 사건으로 원하는 물건을 찾기는커녕 카멜롯의 정원까지 손상됐다면…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "이제 난 더 이상 이 일을 묻고 따지고 싶지 않다.",
+			say = "이제 난 더 이상 이 일을 묻고 따지고 싶지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "모나크, 이 엘리자베스 님께서 본험 리차드에 대한 더 많은 정보가 필요하다. 내가 도착하기 전, 그녀와 무슨 일이 있었지?",
+			say = "모나크, 본험 리차드에 대한 더 많은 정보가 필요해. 내가 도착하기 전에, 그녀와 무슨 일이 있었던 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "역시… 이 엘리자베스 님도 형언할 수 없는 공포를 느꼈다.",
+			say = "역시… 나도 형언할 수 없는 공포를 느꼈어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "인공 특이점 핵심 시설인 카멜로의 정원은 쉽게 간섭할 수 없는 존재다.",
+			say = "인공 특이점 핵심 시설인 카멜롯의 정원은 쉽게 간섭할 수 없는 존재야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "마치 그녀가 우리보다 이 장치의 작동 원리에 대해 더 잘 알고 있는 것 같더군… 인공 특이점보다 더 강력한 힘을 가지고 있을지도 몰라…",
+			say = "마치 그녀가 우리보다 이 장치의 작동 원리에 대해 더 잘 알고 있는 것 같은데… 인공 특이점보다 더 강력한 힘을 가지고 있을지도 몰라…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "전투가 불가피하다면… 셰피가 깨어나면 분명 지원군을 데려올 거야.",
+			say = "전투가 불가피하다면… 전화위복으로 삼자. 셰피가 깨어나면 분명 지원군을 데려올 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "자, 너희들은 먼저 밖으로 나가 떠날 준비를 하도록 해, 나는 손에 든 차를 다 마시고 나갈 테니까.",
+			say = "자, 너희들은 먼저 밖으로 나가 떠날 준비를 해, 나는 손에 든 차를 다 마시고 나갈 테니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

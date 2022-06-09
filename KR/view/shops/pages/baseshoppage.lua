@@ -148,10 +148,12 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 end
 
 function slot0.getSpecialRule(slot0, slot1)
-	if slot1:getConfig("commodity_type") == 2 and slot0.shop.type == ShopArgs.ShopFragment and pg.item_data_statistics[slot1:getConfig("commodity_id")] and slot3.type == 7 and slot3.shiptrans_id ~= 0 then
-		slot5 = getProxy(BayProxy):getConfigShipCount(slot3.shiptrans_id)
+	if slot1:getConfig("commodity_type") == 2 and slot0.shop.type == ShopArgs.ShopFragment and pg.item_data_statistics[slot1:getConfig("commodity_id")] and slot3.type == 7 and #slot3.shiptrans_id > 0 then
+		slot4 = getProxy(BayProxy)
 
-		if getProxy(BagProxy):getItemById(slot2) or slot5 > 0 then
+		if getProxy(BagProxy):getItemCountById(slot2) > 0 or underscore.any(slot3.shiptrans_id, function (slot0)
+			return uv0:getConfigShipCount(slot0) > 0
+		end) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("special_transform_limit_reach"))
 
 			return false
