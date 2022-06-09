@@ -33,11 +33,13 @@ MSGBOX_TYPE_WORLD_RESET = 13
 MSGBOX_TYPE_WORLD_STAMINA_EXCHANGE = 14
 MSGBOX_TYPE_STORY_CANCEL_TIP = 15
 MSGBOX_TYPE_META_SKILL_UNLOCK = 16
-MSGBOX_TYPE_SUBPATTERN = 17
+MSGBOX_TYPE_CONFIRM_REFORGE_SPWEAPON = 17
 MSGBOX_TYPE_ACCOUNTDELETE = 18
 MSGBOX_TYPE_STRENGTHEN_BACK = 19
 MSGBOX_TYPE_CONTENT_ITEMS = 20
 MSGBOX_TYPE_BLUEPRINT_UNLOCK_ITEM = 21
+MSGBOX_TYPE_CONFIRM_DELETE = 22
+MSGBOX_TYPE_SUBPATTERN = 23
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -269,13 +271,21 @@ function slot7(slot0, slot1)
 	SetActive(slot0._singleItemshipTypeTF, false)
 	SetActive(slot0._singleItemshipTypeBgTF, false)
 	SetActive(slot0._sigleItemPanel:Find("detail"), false)
+
+	slot2 = slot0._sigleItemPanel:Find("icon_bg/icon")
+
 	setText(slot0._sigleItemPanel:Find("icon_bg/count"), "")
 	SetActive(slot0._sigleItemPanel:Find("icon_bg/startpl"), false)
 	SetActive(slot0.singleItemIntro, true)
 	setFrame(slot0._sigleItemPanel:Find("icon_bg/frame"), slot1.frame or 1)
+
+	if slot1.iconBg and slot1.frame then
+		setImageSprite(slot0._sigleItemPanel:Find("icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot1.frame))
+	end
+
 	setScrollText(findTF(slot0._sigleItemPanel, "name_mode/name_mask/name"), slot1.name or "")
 	setText(slot4, slot1.content or "")
-	SetActive(slot0._sigleItemPanel:Find("icon_bg/icon").parent, slot1.iconPath)
+	SetActive(slot2.parent, slot1.iconPath)
 
 	if slot1.iconPath then
 		GetImageSpriteFromAtlasAsync(slot1.iconPath[1], slot1.iconPath[2] or "", slot2)
@@ -459,7 +469,7 @@ function slot8(slot0, slot1)
 
 		setText(slot6, slot15 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
-		-- Nothing
+		assert(false, "don't use msgbox open equip")
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
 		slot12 = slot1.drop.cfg.desc
 
@@ -499,6 +509,10 @@ function slot8(slot0, slot1)
 		desc = string.gsub(slot1.drop.cfg.display, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
 
 		setText(slot6, SwitchSpecialChar(HXSet.hxLan(desc), true))
+	elseif slot1.drop.type == DROP_TYPE_META_PT then
+		setText(slot6, slot1.drop.cfg.display)
+	else
+		assert(false, "can not handle this type>>" .. slot1.drop.type)
 	end
 
 	if slot1.intro then
@@ -782,7 +796,7 @@ function slot12(slot0, slot1)
 	}, slot1)
 
 	slot3 = nil
-	slot3 = not Ship.isMetaShipByConfigID(slot1.shipId) or getProxy(MetaCharacterProxy):getMetaProgressVOByID(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot1.shipId)) and slot5:isInAct() and true
+	slot3 = not Ship.isMetaShipByConfigID(slot1.shipId) or getProxy(MetaCharacterProxy):getMetaProgressVOByID(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot1.shipId)) and (slot5:isInAct() or slot5:isInArchive()) and true
 	slot0.obtainSkipList = slot0.obtainSkipList or UIItemList.New(slot0._obtainPanel:Find("skipable_list"), slot0._obtainPanel:Find("skipable_list/tpl"))
 
 	slot0.obtainSkipList:make(function (slot0, slot1, slot2)
@@ -1319,9 +1333,6 @@ function slot1.ShowMsgBox(slot0, slot1)
 		[MSGBOX_TYPE_META_SKILL_UNLOCK] = function ()
 			uv0:GetPanel(MetaSkillUnlockPanel).buffer:UpdateView(uv1)
 		end,
-		[MSGBOX_TYPE_SUBPATTERN] = function ()
-			uv0:GetPanel(uv1.patternClass).buffer:UpdateView(uv1)
-		end,
 		[MSGBOX_TYPE_ACCOUNTDELETE] = function ()
 			uv0:GetPanel(AccountDeletePanel).buffer:UpdateView(uv1)
 		end,
@@ -1333,6 +1344,15 @@ function slot1.ShowMsgBox(slot0, slot1)
 		end,
 		[MSGBOX_TYPE_BLUEPRINT_UNLOCK_ITEM] = function ()
 			uv0:GetPanel(Msgbox4BlueprintUnlockItem).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_CONFIRM_DELETE] = function ()
+			uv0:GetPanel(ConfirmEquipmentDeletePanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_CONFIRM_REFORGE_SPWEAPON] = function ()
+			uv0:GetPanel(Msgbox4SpweaponConfirm).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_SUBPATTERN] = function ()
+			uv0:GetPanel(uv1.patternClass).buffer:UpdateView(uv1)
 		end
 	})
 end

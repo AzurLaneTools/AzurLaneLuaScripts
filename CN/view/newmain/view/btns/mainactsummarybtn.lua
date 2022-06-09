@@ -12,6 +12,10 @@ function slot0.NewGameObject(slot0)
 	return slot0.tpl
 end
 
+function slot0.GetActivityID(slot0)
+	return nil
+end
+
 function slot0.OnInit(slot0)
 	slot0:PickPriortyActAsyn(function (slot0, slot1)
 		uv0.priority = slot0

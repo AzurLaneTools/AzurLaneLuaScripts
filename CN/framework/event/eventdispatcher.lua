@@ -51,6 +51,8 @@ function slot1._DispatchEvent_(slot0, slot1)
 end
 
 function slot1._RegisterEventListener_(slot0, slot1, slot2, slot3)
+	assert(slot1._eventListener_ ~= nil, "EventDispatcher ERROR" .. slot1.__cname)
+
 	if slot0._dispatcher_._listenerMap_[slot2] == nil then
 		slot4._listenerMap_[slot2] = {}
 	end

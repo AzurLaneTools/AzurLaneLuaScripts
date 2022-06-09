@@ -2,7 +2,10 @@ slot0 = class("MetaShoppingCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot5 = getProxy(ShopsProxy):GetMetaShop():GetCommodityById(slot2.arg1)
+	slot4 = getProxy(ShopsProxy):GetMetaShop()
+
+	assert(slot4, "should exist shop")
+	assert(slot4:GetCommodityById(slot2.arg1), "commodity cant not be nil")
 
 	if not getProxy(ActivityProxy):getActivityById(slot2.activity_id) or slot6:isEnd() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))

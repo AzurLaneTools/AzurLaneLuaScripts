@@ -265,6 +265,9 @@ end
 
 function slot0.openAnim(slot0, slot1, slot2)
 	slot3 = {}
+
+	assert(slot1, "index can not be nil" .. slot1)
+
 	slot4 = slot0.taskGroupTFs[slot1]
 	slot6 = slot0.startPosition.y + (slot0:getRow(slot1) - 1) * slot0.offset.y
 	slot7 = slot0.taskGorupContainer.localPosition.x

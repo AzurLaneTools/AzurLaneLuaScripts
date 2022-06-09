@@ -7,6 +7,8 @@ slot0.SHOP_TYPE_TIMELIMIT = 2
 slot0.PAGE_ALL = -1
 slot0.PAGE_TIME_LIMIT = -2
 slot0.PAGE_ENCORE = -3
+slot0.PAGE_PROPOSE = 9998
+slot0.PAGE_TRANS = 9997
 slot0.MSGBOXNAME = "SkinShopMsgbox"
 slot3 = {
 	{
@@ -110,6 +112,16 @@ function slot0.init(slot0)
 	setActive(slot0.hideObjToggleTF, false)
 
 	slot0.hideObjToggle = GetComponent(slot0.hideObjToggleTF, typeof(Toggle))
+
+	if PLATFORM_CODE == PLATFORM_US then
+		setActive(slot0.titleEn, false)
+
+		slot1 = findTF(slot0.hideObjToggle, "Label2")
+		slot1.anchoredPosition = Vector2(35, 23)
+
+		GetComponent(slot1, typeof(Image)):SetNativeSize()
+	end
+
 	slot0.switchCnt = 0
 end
 
@@ -129,6 +141,12 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot3:Find("back_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
+
+	slot3 = slot0.bottomTF
+
+	onButton(slot0, slot3:Find("bg/atlas"), function ()
+		uv0:emit(SkinShopMediator.ON_ATLAS)
+	end, SFX_PANEL)
 
 	slot3 = slot0.bottomTF
 
@@ -280,49 +298,58 @@ function slot0.UpdateSelected(slot0)
 end
 
 function slot0.initSkinPage(slot0)
+	slot1 = {}
 	slot0.countByIds = {}
 
-	for slot4, slot5 in ipairs(uv0.all) do
-		slot0.countByIds[slot5] = 0
+	for slot5, slot6 in ipairs(uv0.all) do
+		if slot6 ~= uv1.PAGE_PROPOSE then
+			if slot6 ~= uv1.PAGE_TRANS then
+				slot0.countByIds[slot6] = 0
+
+				table.insert(slot1, slot6)
+			end
+		end
 	end
 
-	for slot4, slot5 in ipairs(slot0.skinGoodsVOs) do
-		slot8 = uv1[slot5:getSkinId()].shop_type_id == 0 and 9999 or slot7
-		slot0.countByIds[slot8] = slot0.countByIds[slot8] + 1
+	for slot5, slot6 in ipairs(slot0.skinGoodsVOs) do
+		slot9 = uv2[slot6:getSkinId()].shop_type_id == 0 and 9999 or slot8
+		slot0.countByIds[slot9] = slot0.countByIds[slot9] + 1
 	end
 
-	slot1 = slot0:findTF("toggles/mask/content", slot0.leftPanel)
-	slot2 = {}
+	slot2 = slot0:findTF("toggles/mask/content", slot0.leftPanel)
+	slot3 = {}
 
-	for slot6, slot7 in ipairs(uv0.all) do
-		if slot0.countByIds[slot7] > 0 then
-			table.insert(slot2, slot7)
+	for slot7, slot8 in ipairs(slot1) do
+		if slot0.countByIds[slot8] > 0 then
+			table.insert(slot3, slot8)
 		end
 	end
 
 	if slot0.existAnyEncoreSkin then
-		table.insert(slot2, uv2.PAGE_ENCORE)
+		table.insert(slot3, uv1.PAGE_ENCORE)
 	end
 
-	if slot0.viewMode == uv2.SHOP_TYPE_TIMELIMIT then
-		table.insert(slot2, 1, uv2.PAGE_TIME_LIMIT)
+	assert(not table.contains(slot3, uv1.PAGE_ALL) and not table.contains(slot3, uv1.PAGE_TIME_LIMIT))
+
+	if slot0.viewMode == uv1.SHOP_TYPE_TIMELIMIT then
+		table.insert(slot3, 1, uv1.PAGE_TIME_LIMIT)
 	end
 
-	table.insert(slot2, 1, uv2.PAGE_ALL)
+	table.insert(slot3, 1, uv1.PAGE_ALL)
 
 	slot0.mid = 4
 	slot0.pageTFs = {}
-	slot3 = slot1.parent:Find("0")
+	slot4 = slot2.parent:Find("0")
 	slot0.skinPageToggles = {}
 
-	for slot7, slot8 in ipairs(slot2) do
-		slot9 = cloneTplTo(slot3, slot1, slot8)
+	for slot8, slot9 in ipairs(slot3) do
+		slot10 = cloneTplTo(slot4, slot2, slot9)
 
-		setActive(slot9, true)
+		setActive(slot10, true)
 
-		slot0.skinPageToggles[slot8] = slot9:Find("toggle")
+		slot0.skinPageToggles[slot9] = slot10:Find("toggle")
 
-		onButton(slot0, slot9, function ()
+		onButton(slot0, slot10, function ()
 			slot0 = nil
 
 			for slot4, slot5 in ipairs(uv0.pageTFs) do
@@ -339,10 +366,10 @@ function slot0.initSkinPage(slot0)
 
 			uv0:onRelease()
 		end, SFX_PANEL)
-		slot0:UpdateTagStyle(slot9, uv0, slot8)
+		slot0:UpdateTagStyle(slot10, uv0, slot9)
 	end
 
-	eachChild(slot1, function (slot0)
+	eachChild(slot2, function (slot0)
 		if slot0.gameObject.activeSelf then
 			table.insert(uv0.pageTFs, 1, slot0)
 		end
@@ -352,7 +379,7 @@ function slot0.initSkinPage(slot0)
 	end, function ()
 		uv0:onRelease()
 	end)
-	slot0:UpdateViewMode(slot1)
+	slot0:UpdateViewMode(slot2)
 end
 
 function slot0.onSwitch(slot0, slot1)
@@ -408,16 +435,16 @@ end
 
 function slot0.UpdateTagStyle(slot0, slot1, slot2, slot3)
 	if slot2[slot3] then
-		setImageSprite(slot1:Find("name"), GetSpriteFromAtlas("ui/SkinShopUI_atlas", "text_" .. slot2[slot3].res .. "01"), true)
-		setImageSprite(slot1:Find("selected/Image"), GetSpriteFromAtlas("ui/SkinShopUI_atlas", "text_" .. slot2[slot3].res), true)
+		setImageSprite(slot1:Find("name"), GetSpriteFromAtlas("SkinClassified", "text_" .. slot2[slot3].res .. "01"), true)
+		setImageSprite(slot1:Find("selected/Image"), GetSpriteFromAtlas("SkinClassified", "text_" .. slot2[slot3].res), true)
 		setText(slot1:Find("eng"), string.upper(slot2[slot3].english_name or ""))
 	elseif slot3 == uv0.PAGE_ALL then
-		setImageSprite(slot1:Find("name"), GetSpriteFromAtlas("ui/SkinShopUI_atlas", "view_all01"), true)
-		setImageSprite(slot1:Find("selected/Image"), GetSpriteFromAtlas("ui/SkinShopUI_atlas", "view_all02"), true)
+		setImageSprite(slot1:Find("name"), GetSpriteFromAtlas("SkinClassified", "text_all01"), true)
+		setImageSprite(slot1:Find("selected/Image"), GetSpriteFromAtlas("SkinClassified", "text_all"), true)
 		setText(slot1:Find("eng"), "ALL")
 	elseif slot3 == uv0.PAGE_ENCORE then
-		setImageSprite(slot1:Find("name"), GetSpriteFromAtlas("ui/SkinShopUI_atlas", "text_fanchang"), true)
-		setImageSprite(slot1:Find("selected/Image"), GetSpriteFromAtlas("ui/SkinShopUI_atlas", "text_fanchang01"), true)
+		setImageSprite(slot1:Find("name"), GetSpriteFromAtlas("SkinClassified", "text_fanchang"), true)
+		setImageSprite(slot1:Find("selected/Image"), GetSpriteFromAtlas("SkinClassified", "text_fanchang01"), true)
 		setText(slot1:Find("eng"), "RETURN")
 	end
 end
@@ -642,10 +669,14 @@ end
 
 function slot0.showTimeLimitSkinWindow(slot0, slot1)
 	slot2 = slot1:getConfig("resource_num")
+	slot5 = pg.ship_skin_template[slot1:getSkinId()]
+
+	assert(slot5)
+
 	slot6, slot7, slot8, slot9 = pg.TimeMgr.GetInstance():parseTimeFrom(slot1:getConfig("time_second") * slot2)
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		content = i18n("exchange_limit_skin_tip", slot2, pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
+		content = i18n("exchange_limit_skin_tip", slot2, slot5.name, slot6, slot7),
 		onYes = function ()
 			if uv0.skinTicket < uv1 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
@@ -771,6 +802,7 @@ end
 function slot0.setPaintingPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot5 = findTF(slot1, "fitter")
 
+	assert(slot5, "请添加子物体fitter")
 	removeAllChildren(slot5)
 
 	slot6 = GetOrAddComponent(slot5, "PaintingScaler")

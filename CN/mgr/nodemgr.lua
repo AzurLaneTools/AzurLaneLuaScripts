@@ -16,6 +16,8 @@ end
 
 function slot1(slot0, slot1, slot2, slot3)
 	if slot0.NodeBase[slot2[1]] == nil then
+		assert(false, "配置的节点不存在，检查“没配置串并”、“拼写错误”或“没补include”~ ：" .. slot2[1])
+
 		return
 	end
 
@@ -23,6 +25,8 @@ function slot1(slot0, slot1, slot2, slot3)
 end
 
 function slot2(slot0, slot1, slot2, slot3)
+	assert(type(slot2) == "table", "节点信息解析错误:" .. tostring(slot2))
+
 	if slot2._parallel == nil then
 		uv0(slot0, slot1, slot2, slot3)
 

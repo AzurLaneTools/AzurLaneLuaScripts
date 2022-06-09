@@ -142,6 +142,15 @@ pg.settings_other_template = {
 		title = "快速更换二次确认界面",
 		desc = "功能开启后，使用快速更换功能更换角色装备时，将弹出装备详细信息确认界面 "
 	},
+	{
+		default = 1,
+		name = "GYRO_ENABLE",
+		type = 0,
+		alignment = 0,
+		id = 15,
+		title = "L2D陀螺仪背景控制",
+		desc = "功能开启后，部分L2D换装背景将支持由陀螺仪控制"
+	},
 	all = {
 		1,
 		2,
@@ -156,6 +165,7 @@ pg.settings_other_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }

@@ -308,6 +308,32 @@ pg.activity_task_permanent = {
 			35153
 		}
 	},
+	[6013] = {
+		gametip = "可获得棘鳍限定换装「五彩斑斓的宴会」",
+		banner_route = "permanent_jiqi",
+		gametip_extra = "最快7日获得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6013,
+		activity_name = "五彩斑斓的宴会",
+		over_task_id = "",
+		eliminate_task_id = {
+			35154,
+			35155,
+			35156,
+			35157,
+			35158,
+			35159,
+			35160,
+			35161,
+			35162,
+			35163,
+			35164,
+			35165,
+			35166,
+			35167
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -321,6 +347,7 @@ pg.activity_task_permanent = {
 		6009,
 		6010,
 		6011,
-		6012
+		6012,
+		6013
 	}
 }

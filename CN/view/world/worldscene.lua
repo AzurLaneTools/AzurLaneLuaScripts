@@ -111,6 +111,8 @@ function slot0.init(slot0)
 		if nowWorld().isAutoFight then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_tip_bigworld_stop"))
 			slot0:TriggerAutoFight(false)
+		else
+			assert(false, "stop clicker shouldn't active")
 		end
 	end)
 	setActive(slot0.rtClickStop, false)
@@ -843,6 +845,7 @@ function slot0.NewAtlasTransport(slot0, slot1)
 	}
 
 	onButton(slot0, slot2.btnBack, function ()
+		assert(uv0.inTransportMode, "this isn't transport mode atlas")
 		uv0:BackToMap()
 	end, SFX_CANCEL)
 
@@ -959,6 +962,8 @@ function slot0.ShowMargin(slot0, slot1)
 end
 
 function slot0.LoadMap(slot0, slot1, slot2)
+	assert(slot1, "target map not exist.")
+
 	slot3 = {}
 
 	if not slot1:IsValid() then
@@ -1705,9 +1710,9 @@ function slot0.UpdateSystemOpen(slot0)
 	else
 		setActive(slot0.wsAtlasBottom.btnBoss, slot1:IsSystemOpen(WorldConst.SystemWorldBoss))
 
-		slot4 = slot1:GetBossProxy():CanUnlock()
+		slot4 = WorldBossConst.CanUnlockCurrBoss()
 
-		setActive(slot0.wsAtlasBottom.btnBoss:Find("tip"), slot1:GetBossProxy():NeedTip() or slot4)
+		setActive(slot0.wsAtlasBottom.btnBoss:Find("tip"), slot1:GetBossProxy():NeedTip() or slot4 or WorldBossConst.AnyArchivesBossCanGetAward())
 		setActive(slot0.wsAtlasBottom.btnBoss:Find("sel"), not (not slot1:GetBossProxy():ExistSelfBoss() and not slot4))
 		onButton(slot0, slot0.rtTopAtlas:Find("reset_coutdown"), function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -1922,10 +1927,10 @@ function slot0.ClearMoveQueue(slot0)
 end
 
 function slot0.DoQueueMove(slot0, slot1)
+	assert(#slot0.moveQueue > 0, "without move queue")
 	slot0:DisplayMoveStopClick(true)
 
-	slot2 = nowWorld()
-	slot2 = slot2:GetActiveMap()
+	slot2 = nowWorld():GetActiveMap()
 	slot3 = _.detect(slot0.moveQueue, function (slot0)
 		return slot0.stay
 	end)
@@ -2110,7 +2115,7 @@ function slot0.CheckGuideSLG(slot0, slot1, slot2)
 	table.insert(slot4, {
 		"WorldG191",
 		function ()
-			return uv0:GetBossProxy():CanUnlock()
+			return WorldBossConst.CanUnlockCurrBoss() and isActive(uv0.rtBottomAtlas) and nowWorld():IsSystemOpen(WorldConst.SystemWorldBoss)
 		end
 	})
 
@@ -2186,9 +2191,12 @@ function slot0.UpdateAutoSwitchDisplay(slot0)
 end
 
 function slot0.GuideShowScannerEvent(slot0, slot1)
-	slot2 = slot0.wsMap.map:FindAttachments(WorldMapAttachment.TypeEvent, slot1)
+	assert(slot0.svScannerPanel:isShowing(), "scanner mode is closed")
+	assert(#slot0.wsMap.map:FindAttachments(WorldMapAttachment.TypeEvent, slot1) == 1, "event number error: " .. #slot2)
+
 	slot3, slot4 = slot0:CheckScannerEnable(slot2[1].row, slot2[1].column)
 
+	assert(slot3, "without scanner attachment")
 	slot0.svScannerPanel:ActionInvoke("DisplayWindow", slot3, slot4)
 end
 
@@ -2222,6 +2230,7 @@ function slot0.DisplayAwards(slot0, slot1, slot2, slot3)
 				return
 			end
 
+			assert(WorldCollectionProxy.GetCollectionType(slot1.id) == WorldCollectionProxy.WorldCollectionType.FILE, string.format("collection drop type error#%d", slot1.id))
 			uv1:emit(WorldMediator.OnOpenLayer, Context.New({
 				mediator = WorldMediaCollectionFilePreviewMediator,
 				viewComponent = WorldMediaCollectionFilePreviewLayer,
@@ -2310,8 +2319,7 @@ function slot0.OpOpen(slot0)
 end
 
 function slot0.OpClose(slot0)
-	slot1 = slot0:GetDepth()
-
+	assert(slot0:GetDepth() > 0)
 	WorldConst.Print("close operation stack: " .. slot1)
 	slot0.wsCommands[slot1]:Dispose()
 	table.remove(slot0.wsCommands, slot1)
@@ -2342,6 +2350,8 @@ function slot0.NewMapOp(slot0, slot1)
 end
 
 function slot0.RegistMapOp(slot0, slot1)
+	assert(slot1, "mapOp can not be nil.")
+	assert(not table.contains(slot0.mapOps, slot1), "repeated registered mapOp.")
 	table.insert(slot0.mapOps, slot1)
 	slot1:AddCallbackWhenApplied(function ()
 		for slot3 = #uv0.mapOps, 1, -1 do
@@ -2381,6 +2391,7 @@ function slot0.GetScannerPos(slot0, slot1)
 end
 
 function slot0.GuideSelectModelMap(slot0, slot1)
+	assert(slot0.wsAtlas, "didn't enter the world map mode")
 	slot0:ClickAtlas(nowWorld():GetEntrance(slot1))
 end
 

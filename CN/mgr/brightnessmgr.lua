@@ -103,6 +103,9 @@ function slot1.SetScreenNeverSleep(slot0, slot1)
 		slot0.sleepTimeOutCounter = slot0.sleepTimeOutCounter + 1
 	else
 		slot0.sleepTimeOutCounter = slot0.sleepTimeOutCounter - 1
+
+		assert(slot0.sleepTimeOutCounter >= 0, "InCorrect Call of SetScreenNeverSleep")
+
 		slot0.sleepTimeOutCounter = math.max(0, slot0.sleepTimeOutCounter)
 
 		if slot0.sleepTimeOutCounter == 0 then

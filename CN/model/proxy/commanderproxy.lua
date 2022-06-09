@@ -139,6 +139,8 @@ function slot0.getBoxes(slot0)
 end
 
 function slot0.getBoxById(slot0, slot1)
+	assert(slot0.boxes[slot1], "attemp to get a nil box" .. slot1)
+
 	return slot0.boxes[slot1]
 end
 
@@ -157,6 +159,9 @@ function slot0.addCommander(slot0, slot1)
 end
 
 function slot0.updateCommander(slot0, slot1)
+	assert(slot0.data[slot1.id], "commander can not be nil")
+	assert(isa(slot1, Commander), "commander should be and instance of Commander")
+
 	slot0.data[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.COMMANDER_UPDATED, slot1:clone())
@@ -164,6 +169,7 @@ end
 
 function slot0.removeCommanderById(slot0, slot1)
 	slot0:checkPrefabFleet(slot1)
+	assert(slot0.data[slot1], "commander can not be nil")
 
 	slot0.data[slot1] = nil
 

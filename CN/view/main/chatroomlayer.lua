@@ -105,12 +105,12 @@ function slot0.createFriendItem(slot0, slot1)
 		slot0.friendVO = slot1
 		uv0.nameTF.text = slot1.name
 		uv0.levelTF.text = "LV." .. slot1.level
-		slot3 = pg.ship_data_statistics[slot1.icon]
 		slot4 = Ship.New({
 			configId = slot1.icon,
 			skin_id = slot1.skinId
 		})
 
+		assert(pg.ship_data_statistics[slot1.icon], "shipCfg is nil >> id ==" .. slot1.icon)
 		LoadSpriteAsync("qicon/" .. slot4:getPainting(), function (slot0)
 			if not slot0 then
 				uv0.iconTF.sprite = GetSpriteFromAtlas("heroicon/unknown", "")

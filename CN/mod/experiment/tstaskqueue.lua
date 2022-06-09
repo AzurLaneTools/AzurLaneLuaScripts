@@ -10,6 +10,8 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.Enqueue(slot0, slot1)
+	assert(type(slot1) == "function", "job should be a function")
+
 	slot2 = #slot0.taskPool > 0 and table.remove(slot0.taskPool, #slot0.taskPool) or TSTask.New()
 
 	slot2:SetJob(slot1)

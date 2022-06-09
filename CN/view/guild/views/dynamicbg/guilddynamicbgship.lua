@@ -248,6 +248,7 @@ function slot0.InterActionFurniture(slot0, slot1)
 		slot5 = "sit"
 	end
 
+	assert(slot5)
 	slot0:SetAction(slot5)
 	slot0:CancelInterAction(slot1)
 end
@@ -260,6 +261,7 @@ function slot0.CancelInterAction(slot0, slot1)
 
 		uv1:Unlock()
 		setParent(uv0._tf, uv0.parent)
+		assert(uv0.grid)
 		uv0:SetPosition(uv0.grid, true)
 		uv0:AddRandomMove()
 	end, math.random(15, 30), 1)

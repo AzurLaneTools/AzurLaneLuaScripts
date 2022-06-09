@@ -47,6 +47,33 @@ function slot0.isAnyLearning(slot0)
 	return slot0.curSkillID and slot0.curSkillID > 0
 end
 
+slot0.States = {
+	LearnAble = 1,
+	LearnFinished = 3,
+	None = 0,
+	Learning = 2
+}
+
+function slot0.getTacticsStateForShow(slot0)
+	slot3 = getProxy(BayProxy):getShipById(slot0.shipID) and slot2:isAllMetaSkillLevelMax() or false
+
+	if not slot0:isAnyLearning() and not slot3 then
+		return uv0.States.LearnAble
+	elseif slot1 then
+		if getProxy(BayProxy):getShipById(slot0.shipID):isSkillLevelMax(slot0.curSkillID) then
+			if not slot3 and not MetaCharacterConst.isMetaTacticsRedTag(getProxy(BayProxy):getShipById(slot0.shipID):getGroupId()) then
+				return uv0.States.LearnAble
+			end
+
+			return uv0.States.LearnFinished
+		else
+			return uv0.States.Learning
+		end
+	else
+		return uv0.States.None
+	end
+end
+
 function slot0.printInfo(slot0)
 	if IsUnityEditor then
 		print("---------------------------------------------------------------")

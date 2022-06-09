@@ -37,6 +37,8 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.Op(slot0, slot1, ...)
+	assert(slot1 and #slot1 > 0)
+
 	if #slot0.wsOps > 0 then
 		WorldConst.Print("ignore operation: " .. slot1 .. ", current operation: " .. slot0.wsOps[#slot0.wsOps])
 
@@ -49,15 +51,20 @@ function slot0.Op(slot0, slot1, ...)
 end
 
 function slot0.OpPush(slot0, slot1, ...)
+	assert(slot1 and #slot1 > 0)
 	WorldConst.Print(slot0.index .. " push operation: " .. slot1)
 	table.insert(slot0.wsOps, slot1)
 	slot0:__slot1_None__(...)
 end
 
 function slot0.OpDone(slot0, slot1, ...)
+	assert(#slot0.wsOps > 0, "current operation can not be nil.")
+
 	slot2 = slot0.wsOps[#slot0.wsOps]
 
 	if slot1 ~= nil and slot2 .. "Done" ~= slot1 then
+		assert(false, "current operation " .. slot2 .. " mismatch with " .. slot1)
+
 		return
 	end
 
@@ -121,6 +128,7 @@ function slot0.OpSwitchMap(slot0, slot1, slot2)
 		table.insert(slot6, function (slot0)
 			uv0:Apply()
 			uv1:TriggerAutoFight(uv1:GetActiveMap():CanAutoFight() and (uv1.isAutoSwitch or World.ReplacementMapType(uv1:GetActiveEntrance(), slot2) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area")))
+			assert(slot2, "active map not exist")
 			master:LoadMap(slot2, slot0)
 		end)
 		table.insert(slot6, function (slot0)
@@ -359,7 +367,9 @@ function slot0.OpInteractive(slot0, slot1)
 				end
 			elseif WorldMapAttachment.IsEnemyType(slot1.type) then
 				if uv2.isAutoFight or uv3 then
-					slot4 = pg.expedition_data_template[slot1:GetBattleStageId()]
+					slot3 = slot1:GetBattleStageId()
+
+					assert(pg.expedition_data_template[slot3], "expedition_data_template not exist: " .. slot3)
 
 					if uv2:CheckSkipBattle() then
 						uv1:Op("OpReqSkipBattle", slot2.id)
@@ -381,6 +391,8 @@ function slot0.OpInteractive(slot0, slot1)
 				end
 			elseif slot1.type == WorldMapAttachment.TypeBox then
 				uv1:Op("OpReqBox", slot2, slot1)
+			else
+				assert(false, "invalide interactive type: " .. slot1.type)
 			end
 		else
 			slot0()
@@ -662,9 +674,13 @@ function slot0.OpMoveFleet(slot0, slot1, slot2)
 	slot8 = slot3:MovePath(slot5, slot1.path, slot1.pos, WorldConst.DirType2, slot3.map:GetCell(slot6.row, slot6.column):GetTerrain() == WorldMapCell.TerrainWind)
 
 	function slot9(slot0, slot1)
+		slot2 = uv0.stepOps[slot0]
+
+		assert(slot2, "step op not exist: " .. slot0)
+
 		slot3 = {}
 
-		if #uv0.stepOps[slot0].hiddenAttachments > 0 then
+		if #slot2.hiddenAttachments > 0 then
 			table.insert(slot3, function (slot0)
 				if uv0 < #uv1.stepOps then
 					uv2:UpdatePaused(true)
@@ -858,6 +874,8 @@ function slot0.OpAction(slot0, slot1, slot2)
 				uv1()
 			end)
 		end)
+	else
+		assert(false)
 	end
 
 	seriesAsync(slot3, slot2)
@@ -892,6 +910,8 @@ function slot0.OpEvent(slot0, slot1, slot2)
 		end
 
 		table.insert(slot9, function (slot0, slot1)
+			assert(slot1, "without option in story:" .. uv0[1])
+
 			if underscore.detect(uv0[2], function (slot0)
 				return slot0[1] == uv0
 			end) then
@@ -1110,7 +1130,8 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 			slot0()
 		end)
 	elseif slot6 == WorldMapAttachment.EffectEventTeleport or slot6 == WorldMapAttachment.EffectEventTeleportBack then
-		slot8 = slot1.attachment
+		assert(slot1.attachment and slot8.type == WorldMapAttachment.TypeEvent)
+
 		slot9 = slot3:GetMap(slot1.destMapId)
 		slot10 = slot1.effect.effect_paramater[1]
 
@@ -1321,10 +1342,13 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 end
 
 function slot0.OpReqRetreat(slot0, slot1)
+	slot3 = nowWorld():GetActiveMap():GetCell(slot1.row, slot1.column)
+
+	assert(slot3:ExistEnemy())
 	master:emit(WorldMediator.OnMapOp, master:NewMapOp({
 		op = WorldConst.OpReqRetreat,
 		id = slot1.id,
-		attachment = nowWorld():GetActiveMap():GetCell(slot1.row, slot1.column):GetAliveAttachment()
+		attachment = slot3:GetAliveAttachment()
 	}))
 end
 
@@ -1374,6 +1398,8 @@ function slot0.OpReqTransportDone(slot0, slot1)
 end
 
 function slot0.OpReqSub(slot0, slot1)
+	assert(nowWorld():CanCallSubmarineSupport())
+
 	master.subCallback = slot1
 
 	master:emit(WorldMediator.OnMapOp, master:NewMapOp({
@@ -1469,6 +1495,7 @@ function slot0.OpAutoStory(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
+	assert(slot2:IsSign())
 	slot0:OpDone()
 
 	if slot2:IsAvatar() then
@@ -1510,6 +1537,8 @@ function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
 			end
 
 			table.insert(uv0, function (slot0, slot1)
+				assert(slot1, "without option in story:" .. uv0[1])
+
 				if _.detect(uv0[2], function (slot0)
 					return slot0[1] == uv0
 				end) then
@@ -1740,6 +1769,7 @@ function slot0.OpFlash(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.OpReqBox(slot0, slot1, slot2)
+	assert(slot2 and slot2.type == WorldMapAttachment.TypeBox)
 	master:emit(WorldMediator.OnMapOp, master:NewMapOp({
 		op = WorldConst.OpReqBox,
 		id = slot1.id,
@@ -2111,6 +2141,7 @@ function slot0.OpTaskGoto(slot0, slot1)
 			slot7 = {}
 
 			for slot11, slot12 in ipairs(slot4[2]) do
+				assert(pg.world_effect_data[slot12], "without effect: " .. slot12)
 				table.insert(slot7, function (slot0)
 					uv1:Op("OpTriggerEvent", master:NewMapOp({
 						op = WorldConst.OpActionTaskGoto,
@@ -2145,6 +2176,8 @@ function slot0.OpTaskGoto(slot0, slot1)
 
 			return
 		else
+			assert(false, "goto info error:" .. slot4[1])
+
 			return
 		end
 	end
@@ -2275,6 +2308,8 @@ function slot0.OpAutoSwitchMap(slot0, slot1)
 			slot9 = slot2:GetActiveMap()
 
 			if slot2:GetActiveEntrance().id == 2 and slot9.id == 2 then
+				assert(master.onlySwitchInfo, "without only switch info")
+
 				slot4, slot5 = unpack(master.onlySwitchInfo)
 				master.onlySwitchInfo = nil
 			else

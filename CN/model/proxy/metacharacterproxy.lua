@@ -107,11 +107,25 @@ function slot0.getMetaProgressVOList(slot0)
 end
 
 function slot0.getMetaProgressVOByID(slot0, slot1)
-	if slot0.data[slot1] then
+	slot2 = slot0.data[slot1]
+
+	assert(slot2, "progressVO is null:" .. slot1)
+
+	if slot2 then
 		slot2:setDataBeforeGet()
 	end
 
 	return slot2
+end
+
+function slot0.setAllProgressPTData(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		slot7 = slot6.group_id
+		slot8 = slot0.data[slot7]
+
+		assert(slot8, "Null ProgressVO, ID:", slot7)
+		slot8.metaPtData:initFromServerData(slot6)
+	end
 end
 
 function slot0.updateRedTag(slot0, slot1)

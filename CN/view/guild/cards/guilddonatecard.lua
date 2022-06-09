@@ -31,6 +31,8 @@ function slot0.GetResCntByAward(slot0, slot1)
 		return getProxy(PlayerProxy):getRawData():getResource(slot1[2])
 	elseif slot1[1] == DROP_TYPE_ITEM then
 		return getProxy(BagProxy):getItemCountById(slot1[2])
+	else
+		assert(false)
 	end
 end
 

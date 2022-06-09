@@ -57,6 +57,12 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.AddAttachment(slot0, slot1)
+	assert(not _.any(slot0.attachments, function (slot0)
+		return slot0.row == uv0.row and slot0.column == uv0.column and slot0.type == uv0.type and slot0.id == uv0.id
+	end))
+	assert(slot1.row == slot0.row and slot1.column == slot0.column)
+	assert(WorldMapAttachment.SortOrder[slot1.type], slot1.type .. " : sort order not set.")
+
 	slot2 = WorldMapAttachment.SortOrder[slot1.type]
 	slot3 = #slot0.attachments + 1
 
@@ -79,6 +85,9 @@ end
 function slot0.RemoveAttachment(slot0, slot1)
 	if slot1 == nil or type(slot1) == "number" then
 		slot1 = slot1 or #slot0.attachments
+
+		assert(slot1 >= 1 and slot1 <= #slot0.attachments)
+
 		slot2 = slot0.attachments[slot1]
 
 		table.remove(slot0.attachments, slot1)
@@ -220,8 +229,12 @@ function slot0.UpdateTerrain(slot0, slot1, slot2, slot3)
 		uv0.terrain = uv1
 
 		if uv0.terrain == uv2.TerrainStream then
+			assert(uv3)
+
 			uv0.terrainDir = uv3
 		elseif uv0.terrain == uv2.TerrainWind then
+			assert(uv3 and uv4)
+
 			uv0.terrainDir = uv3
 			uv0.terrainStrong = uv4
 		elseif uv0.terrain == uv2.TerrainFog then
@@ -285,6 +298,8 @@ function slot0.GetCompassAttachment(slot0)
 end
 
 function slot0.FindAliveAttachment(slot0, slot1)
+	assert(slot1 ~= nil)
+
 	return _.detect(slot0.attachments, function (slot0)
 		return slot0:IsAlive() and slot0.type == uv0
 	end)

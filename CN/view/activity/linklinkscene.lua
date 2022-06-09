@@ -473,6 +473,9 @@ function slot0.FormatRecordTime(slot0, slot1)
 end
 
 function slot0.LinkLink(slot0, slot1, slot2)
+	assert(slot1.row ~= slot2.row or slot1.column ~= slot2.column)
+	assert(slot1.id == slot2.id)
+
 	slot3 = {
 		row = slot1.row,
 		column = slot1.column
@@ -510,6 +513,8 @@ function slot0.LinkLink(slot0, slot1, slot2)
 							column = slot17
 						})
 					end
+				else
+					assert(false)
 				end
 
 				slot11 = slot11.from
@@ -601,6 +606,9 @@ function slot0.FindDirectLinkPoint(slot0, slot1, slot2, slot3)
 end
 
 function slot0.LinkLink1(slot0, slot1, slot2)
+	assert(slot1.row ~= slot2.row or slot1.column ~= slot2.column)
+	assert(slot1.id == slot2.id)
+
 	slot3 = nil
 	slot4 = {
 		[slot1.row .. "_" .. slot1.column] = {

@@ -9,6 +9,8 @@ function slot0.setServers(slot0, slot1, slot2)
 	slot4 = slot0:getLoginedServer(slot2)
 
 	for slot8, slot9 in ipairs(slot1) do
+		assert(isa(slot9, Server), "should be an instance of Server")
+
 		if table.contains(slot4, tostring(slot9.id)) then
 			slot9.isLogined = true
 		end

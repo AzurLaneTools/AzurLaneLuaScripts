@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "司战女神",
-			say = "那些敌人的身上好像笼罩着某种烟雾一样，我们无法特定其外形和类别。",
+			say = "那些敌人的身上好像笼罩着某种烟雾一样，我们无法确定其外形和类别。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

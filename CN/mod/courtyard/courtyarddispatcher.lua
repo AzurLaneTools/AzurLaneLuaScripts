@@ -6,6 +6,8 @@ function slot0.Ctor(slot0)
 end
 
 function slot0.AddListener(slot0, slot1, slot2)
+	assert(type(slot1) == "string" and type(slot2) == "function")
+
 	if not slot0.__callbacks[slot1] then
 		slot0.__callbacks[slot1] = {}
 	end
@@ -14,6 +16,8 @@ function slot0.AddListener(slot0, slot1, slot2)
 end
 
 function slot0.RemoveListener(slot0, slot1, slot2)
+	assert(type(slot1) == "string" and type(slot2) == "function")
+
 	if slot0.__callbacks[slot1] then
 		for slot7 = #slot3, 1, -1 do
 			if slot3[slot7] == slot2 then
@@ -24,10 +28,14 @@ function slot0.RemoveListener(slot0, slot1, slot2)
 end
 
 function slot0.ClearListener(slot0, slot1)
+	assert(type(slot1) == "string")
+
 	slot0.__callbacks[slot1] = nil
 end
 
 function slot0.DispatchEvent(slot0, slot1, ...)
+	assert(type(slot1) == "string")
+
 	if slot0.__callbacks[slot1] then
 		for slot7 = 1, #slot2 do
 			slot0.__list[slot7] = slot2[slot7]

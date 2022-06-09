@@ -86,6 +86,7 @@ function slot0.outputCommanders(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.commanderIds) do
+		assert(slot6, "id is nil")
 		table.insert(slot1, {
 			pos = slot5,
 			id = slot6
@@ -351,6 +352,8 @@ function slot0.getFleetType(slot0)
 end
 
 function slot0.removeShip(slot0, slot1)
+	assert(slot0:containShip(slot1), "ship are not in fleet")
+
 	slot2 = slot1.id
 
 	for slot6, slot7 in ipairs(slot0.ships) do

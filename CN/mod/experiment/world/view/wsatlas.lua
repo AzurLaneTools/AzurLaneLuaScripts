@@ -78,9 +78,11 @@ function slot0.RemoveAtlasListener(slot0)
 end
 
 function slot0.LoadScene(slot0, slot1)
+	assert(false, "overwrite by subclass")
 end
 
 function slot0.ReturnScene(slot0)
+	assert(false, "overwrite by subclass")
 end
 
 function slot0.ShowOrHide(slot0, slot1)

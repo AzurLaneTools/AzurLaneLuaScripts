@@ -134,6 +134,7 @@ function slot0.register(slot0)
 		slot6 = math.ceil(#slot2 / 3)
 
 		for slot10, slot11 in pairs(slot2) do
+			assert(slot11.position)
 			table.insert(slot4, function (slot0)
 				uv0(uv1)
 

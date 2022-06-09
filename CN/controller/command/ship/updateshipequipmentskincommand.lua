@@ -6,10 +6,16 @@ function slot0.execute(slot0, slot1)
 	slot4 = slot2.pos
 	slot6 = getProxy(EquipmentProxy)
 
-	if slot2.equipmentSkinId and slot5 ~= 0 and (not slot6:getEquipmnentSkinById(slot5) or slot7.count == 0) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_count_noenough"))
+	if slot2.equipmentSkinId and slot5 ~= 0 then
+		slot7 = slot6:getEquipmnentSkinById(slot5)
 
-		return
+		assert(slot7, "不存在该外观" .. slot5)
+
+		if not slot7 or slot7.count == 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_count_noenough"))
+
+			return
+		end
 	end
 
 	if not getProxy(BayProxy):getShipById(slot3) then

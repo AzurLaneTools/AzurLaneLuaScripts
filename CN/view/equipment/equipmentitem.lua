@@ -40,7 +40,9 @@ function slot0.update(slot0, slot1, slot2)
 
 	slot0.equipmentVO = slot1
 
-	if slot1.isSkin then
+	if isa(slot1, SpWeapon) then
+		slot0:updateSpWeapon()
+	elseif slot1.isSkin then
 		slot0:updateSkin()
 	else
 		updateEquipment(slot0.bg, slot1)
@@ -78,6 +80,23 @@ function slot0.updateSkin(slot0)
 	})
 
 	slot0.nameTF.text = shortenString(getText(slot0.nameTF), 5)
+end
+
+function slot0.updateSpWeapon(slot0)
+	slot1 = slot0.equipmentVO
+
+	updateSpWeapon(slot0.bg, slot1)
+	setActive(slot0.newTF, false)
+	setActive(slot0.nameTF, true)
+
+	slot0.nameTF.text = shortenString(HXSet.hxLan(slot1:GetName()), 5)
+	slot2 = slot1:GetShipId()
+
+	setActive(slot0.equiped, slot2)
+
+	if slot2 then
+		setImageSprite(findTF(slot0.equiped, "Image"), LoadSprite("qicon/" .. getProxy(BayProxy):getShipById(slot2):getPainting()))
+	end
 end
 
 function slot0.clear(slot0)

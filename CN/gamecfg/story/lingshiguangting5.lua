@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "刚才妹妹在门口的失礼行为还请多包涵，我们已经太久没有见过来来访者了。",
+			say = "刚才妹妹在门口的失礼行为还请多包涵，我们已经太久没有见过来访者了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "（前卫，我们是不是继续去找陛下……？）",
+			say = "（前卫，我们是不是应该继续找陛下……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

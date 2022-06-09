@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇！好棒的饼干，这样的造型都有着舍不得吃了呢，对吧威严？",
+			say = "哇！好棒的饼干，这样的造型都有些舍不得吃了呢，对吧威严？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205093,
-			say = "为大家不用客气，为了今晚的宴会，我还准备了很多呢~",
+			say = "大家不用客气，为了今晚的宴会，我还准备了很多呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

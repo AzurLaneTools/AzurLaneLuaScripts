@@ -38,8 +38,11 @@ function slot0.execute(slot0, slot1)
 				uv5:updateActivity(uv4)
 
 				slot1 = {}
+				slot3 = table.indexof(uv4:getConfig("config_data"), uv1)
 
-				if table.indexof(uv4:getConfig("config_data"), uv1) < uv4:getDayIndex() and slot4 <= #slot2 then
+				assert(slot3)
+
+				if slot3 < uv4:getDayIndex() and slot4 <= #slot2 then
 					table.insert(slot1, {
 						finish_time = 0,
 						over_time = 0,
@@ -63,8 +66,11 @@ function slot0.execute(slot0, slot1)
 				EventGiveUpCommand.OnCancel(uv1)
 
 				slot1 = {}
+				slot3 = table.indexof(uv4:getConfig("config_data"), uv1)
 
-				if table.indexof(uv4:getConfig("config_data"), uv1) < uv4:getDayIndex() and slot4 <= #slot2 then
+				assert(slot3)
+
+				if slot3 < uv4:getDayIndex() and slot4 <= #slot2 then
 					table.insert(slot1, {
 						finish_time = 0,
 						over_time = 0,

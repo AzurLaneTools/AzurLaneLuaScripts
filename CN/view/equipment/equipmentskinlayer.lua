@@ -115,6 +115,9 @@ function slot0.updateSkinView(slot0, slot1, slot2, slot3)
 
 	if slot4 then
 		slot7 = pg.equip_skin_template[slot2]
+
+		assert(slot7, "miss config equip_skin_template >> " .. slot2)
+
 		slot0:findTF("info/display_panel/name_container/name", slot1):GetComponent(typeof(Text)).text = slot7.name
 		slot0:findTF("info/display_panel/desc", slot1):GetComponent(typeof(Text)).text = slot7.desc
 
@@ -136,8 +139,13 @@ function slot0.updateSkinView(slot0, slot1, slot2, slot3)
 		if slot0:findTF("info/head", slot1) then
 			setActive(slot12, slot3)
 
-			if slot3 and getProxy(BayProxy):getShipById(slot3.id) then
-				setImageSprite(slot12:Find("Image"), LoadSprite("qicon/" .. slot13:getPainting()))
+			if slot3 then
+				assert(slot3.id, "old ship id is nil")
+				assert(slot3.pos, "old ship pos is nil")
+
+				if getProxy(BayProxy):getShipById(slot3.id) then
+					setImageSprite(slot12:Find("Image"), LoadSprite("qicon/" .. slot13:getPainting()))
+				end
 			end
 		end
 	end

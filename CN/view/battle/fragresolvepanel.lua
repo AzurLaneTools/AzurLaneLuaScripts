@@ -217,7 +217,12 @@ function slot0.Resetresolve(slot0)
 	slot6 = {}
 
 	for slot10, slot11 in pairs(slot4) do
-		slot5[slot13.price[1]] = (slot5[pg.item_data_statistics[slot11.id].price[1]] or 0) + slot13.price[2] * slot12.count
+		slot12 = slot11
+		slot13 = pg.item_data_statistics[slot12.id]
+
+		assert(slot13, "Can't find the price " .. slot12.id)
+
+		slot5[slot13.price[1]] = (slot5[slot13.price[1]] or 0) + slot13.price[2] * slot12.count
 	end
 
 	for slot10, slot11 in pairs(slot5) do

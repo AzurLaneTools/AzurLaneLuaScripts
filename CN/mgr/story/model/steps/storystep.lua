@@ -37,6 +37,7 @@ function slot0.IsSameBranch(slot0, slot1)
 end
 
 function slot0.GetMode(slot0)
+	assert(false, "should override this function")
 end
 
 function slot0.GetFlashoutData(slot0)

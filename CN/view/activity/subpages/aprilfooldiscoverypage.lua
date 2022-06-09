@@ -41,10 +41,14 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	slot1 = pg.activity_event_picturepuzzle[slot0.activity.id]
+
+	assert(slot1, "Can't Find activity_event_picturepuzzle 's ID : " .. slot0.activity.id)
+
 	slot0.puzzleConfig = slot1
 	slot0.keyList = Clone(slot1.pickup_picturepuzzle)
 
 	table.insertto(slot0.keyList, slot1.drop_picturepuzzle)
+	assert(#slot0.keyList == #slot0.items, string.format("keyList has {0}, but items has 9", #slot0.keyList))
 	table.sort(slot0.keyList)
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

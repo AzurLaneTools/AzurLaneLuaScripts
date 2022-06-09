@@ -23,7 +23,10 @@ end
 
 function slot0.Flush(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		slot0:UpdatePositionAndColor(slot0.grids[slot5], slot6)
+		slot7 = slot0.grids[slot5]
+
+		assert(slot7)
+		slot0:UpdatePositionAndColor(slot7, slot6)
 	end
 end
 

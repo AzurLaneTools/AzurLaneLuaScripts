@@ -981,6 +981,8 @@ function slot0.UpdateDOALinkFeverPanel(slot0, slot1)
 		return
 	end
 
+	assert(slot4, "Missing Reliable PanelUI for Activity " .. slot3)
+
 	slot5, slot6 = slot0:GetSubView(slot4)
 
 	if slot6 then
@@ -1117,7 +1119,8 @@ function slot0.GetSubView(slot0, slot1)
 		return slot0.attachSubViews[slot1]
 	end
 
-	slot2 = _G[slot1].New(slot0)
+	assert(_G[slot1].New(slot0), "cant't find subview " .. (slot1 or "nil"))
+
 	slot0.attachSubViews[slot1] = slot2
 
 	return slot2, true
@@ -1398,6 +1401,7 @@ function slot0.tryAutoAction(slot0, slot1)
 						slot1 = "SpBomb"
 					end
 
+					assert(slot1)
 					uv2:emit(LevelUIConst.DO_PLAY_ANIM, {
 						name = slot1,
 						callback = function (slot0)
@@ -1881,7 +1885,8 @@ function slot0.TryAutoFight(slot0)
 	else
 		function slot5(slot0)
 			slot1 = slot0.target
-			slot2 = pg.expedition_data_template[slot1.attachmentId]
+
+			assert(pg.expedition_data_template[slot1.attachmentId], "expedition_data_template not exist: " .. slot1.attachmentId)
 
 			if slot1.flag == ChapterConst.CellFlagDisabled then
 				return 0

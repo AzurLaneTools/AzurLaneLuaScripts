@@ -32,8 +32,12 @@ end
 
 function slot0.HandleBulletHit(slot0, slot1, slot2)
 	if not slot2 then
+		assert(false, "HandleBulletHit, but no vehicleData")
+
 		return false
 	elseif not slot1 then
+		assert(false, "HandleBulletHit, but no bulletData")
+
 		return false
 	end
 

@@ -291,6 +291,9 @@ end
 
 function slot0.updateStageView(slot0, slot1)
 	slot2 = pg.expedition_data_template[slot1]
+
+	assert(slot2, "expedition_data_template not exist: " .. slot1)
+
 	slot3 = slot2.limit_type
 	slot4 = slot2.time_limit
 	slot5 = slot2.sink_limit

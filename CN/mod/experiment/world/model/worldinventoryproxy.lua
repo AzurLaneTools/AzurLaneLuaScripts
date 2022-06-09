@@ -40,7 +40,11 @@ end
 
 function slot0.RemoveItem(slot0, slot1, slot2)
 	if slot0:GetItem(slot1) then
-		slot3.count = slot3.count - (slot2 or slot3.count)
+		slot2 = slot2 or slot3.count
+
+		assert(slot2 <= slot3.count, "item count not enough: " .. slot3.id)
+
+		slot3.count = slot3.count - slot2
 
 		if slot3.count == 0 then
 			slot0.data[slot1] = nil

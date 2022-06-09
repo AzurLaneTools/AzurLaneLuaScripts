@@ -20802,6 +20802,7 @@ pg.transform_data_template = {
 
 改造后<color=#92fc63>【主武器】</color>装备栏位装备类型更改为<color=#92fc63>【重巡主炮】</color>
 原来的<color=#92fc63>【主武器】</color>栏位装备将被放入仓库
+由于舰艇类型变化，原来的<color=#92fc63>【特殊兵装】</color>栏位兵装将被放入仓库
 改造后<color=#92fc63>【主炮底座+1】</color>、<color=#92fc63>【鱼雷底座-1】</color>
 改造后<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【全弹发射改】</color>
 改造后<color=#92fc63>【反潜】</color>属性将归零、无法装备<color=#92fc63>声呐和深水炸弹</color>]],

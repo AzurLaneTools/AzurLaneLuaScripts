@@ -20,6 +20,8 @@ function slot0.Flush(slot0, slot1, slot2)
 	else
 		slot4, slot5, slot6, slot7 = pg.TimeMgr.GetInstance():parseTimeFrom(slot3)
 
+		assert(slot4 > 0)
+
 		if slot5 <= 0 and (slot6 > 0 or slot7 > 0) then
 			slot5 = slot5 + 1
 		end

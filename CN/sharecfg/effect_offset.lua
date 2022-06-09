@@ -1374,5 +1374,16 @@ pg.effect_offset = {
 			1.5,
 			0
 		}
+	},
+	meta_fireball = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
 	}
 }

@@ -64,7 +64,8 @@ function slot0.InitPainting(slot0, slot1, slot2)
 	if slot0.dormVO.food == 0 then
 		setText(slot0.emptyTF, i18n("backyard_backyardGranaryLayer_noFood"))
 	else
-		slot5 = string.split(i18n("backyard_addExp_Info", pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():GetServerTime() - slot0.dormVO.load_time), slot0.dormVO.load_food, slot2), "||")
+		assert(#string.split(i18n("backyard_addExp_Info", pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():GetServerTime() - slot0.dormVO.load_time), slot0.dormVO.load_food, slot2), "||") > 0, "gametip ==> backyard_addExp_Info 必须用||分开")
+
 		slot6 = slot0:findTF("ship_word/text_contain1")
 		slot7 = 0
 

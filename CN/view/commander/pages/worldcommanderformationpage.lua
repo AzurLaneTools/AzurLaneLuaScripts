@@ -58,6 +58,7 @@ function slot0.Update(slot0, slot1)
 	slot2 = slot0.fleet:getCommanders()
 
 	for slot6 = 1, CommanderConst.MAX_FORMATION_POS do
+		assert(slot0["pos" .. slot6], "pos tf can not nil")
 		slot0:updateCommander(slot0["pos" .. slot6], slot6, slot2[slot6])
 	end
 
@@ -121,6 +122,7 @@ function slot0.updateDesc(slot0)
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
 		slot6 = slot1[slot5]
 
+		assert(slot0["pos" .. slot5], "pos tf can not nil")
 		slot0:updateCommander(slot0["descPos" .. slot5], slot5, slot6, true)
 		slot0:updateSkillTF(slot6, slot0["skillTFPos" .. slot5])
 	end

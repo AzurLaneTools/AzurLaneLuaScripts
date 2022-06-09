@@ -89,7 +89,11 @@ function slot0.Exit(slot0, slot1)
 	slot4 = slot10.oil
 
 	if slot0.statistics.submarineAid then
-		for slot16, slot17 in ipairs(slot7:GetSubmarineFleet():GetTeamShipVOs(TeamType.Submarine, true)) do
+		slot11 = slot7:GetSubmarineFleet()
+
+		assert(slot11, "submarine fleet not exist.")
+
+		for slot16, slot17 in ipairs(slot11:GetTeamShipVOs(TeamType.Submarine, true)) do
 			if slot0.statistics[slot17.id] then
 				table.insert(slot5, slot17)
 			end

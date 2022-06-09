@@ -179,7 +179,7 @@ return {
 	end,
 	insert = function (slot0, ...)
 		if select("#", ...) > 1 then
-			slot1 = select(1, ...)
+			assert(select(1, ...) ~= nil, "invalid param 1 for insert, expect number but got " .. type(slot1))
 
 			if select(2, ...) == nil then
 				return

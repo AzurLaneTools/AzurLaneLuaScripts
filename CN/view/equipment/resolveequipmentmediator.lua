@@ -8,7 +8,11 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
-	slot0.viewComponent:setEquipments(slot0.contextData.Equipments)
+
+	slot2 = slot0.contextData.Equipments
+
+	assert(slot2, "equipmentVOs can not be nil")
+	slot0.viewComponent:setEquipments(slot2)
 end
 
 function slot0.listNotificationInterests(slot0)

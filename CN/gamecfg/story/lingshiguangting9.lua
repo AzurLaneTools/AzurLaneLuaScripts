@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "伴随着好人理查德的话语，一道黑色的风暴出现了，天空正再重新被黑暗占领。",
+			say = "伴随着好人理查德的话语，一道黑色的风暴出现了，天空在重新被黑暗占领。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

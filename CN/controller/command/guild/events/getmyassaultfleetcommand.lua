@@ -11,6 +11,10 @@ function slot0.execute(slot0, slot1)
 			slot1 = getProxy(GuildProxy)
 			slot2 = slot1:getData()
 			slot3 = getProxy(PlayerProxy):getRawData().id
+			slot4 = slot2:getMemberById(slot3)
+
+			assert(slot4)
+
 			slot5 = GuildAssaultFleet.New({})
 
 			_.each(slot0.person_ships, function (slot0)
@@ -21,7 +25,7 @@ function slot0.execute(slot0, slot1)
 			slot11 = {}
 
 			slot5:InitShips(slot3, slot11)
-			slot2:getMemberById(slot3):UpdateExternalAssaultFleet(slot5)
+			slot4:UpdateExternalAssaultFleet(slot5)
 			slot1:updateGuild(slot2)
 
 			slot1.isFetchAssaultFleet = true

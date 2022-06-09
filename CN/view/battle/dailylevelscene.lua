@@ -17,6 +17,10 @@ function slot0.init(slot0)
 	slot0.listPanel = slot0:findTF("list_panel")
 	slot0.content = slot0:findTF("list", slot0.listPanel)
 
+	if PLATFORM_CODE == PLATFORM_CHT then
+		slot0.content.anchoredPosition = Vector2(-775, -82)
+	end
+
 	setActive(slot0.content, true)
 
 	slot0.dailylevelTpl = slot0:getTpl("list_panel/list/captertpl")
@@ -99,6 +103,10 @@ function slot0.initItems(slot0)
 	slot0.dailyLevelTFs = {}
 	slot0.dailyList = _.reverse(Clone(pg.expedition_daily_template.all))
 
+	table.sort(slot0.dailyList, function (slot0, slot1)
+		return pg.expedition_daily_template[slot1].sort < pg.expedition_daily_template[slot0].sort
+	end)
+
 	for slot5, slot6 in pairs(slot0.dailyList) do
 		if table.contains(pg.expedition_daily_template[slot6].weekday, tonumber(slot0:getWeek())) then
 			table.remove(slot0.dailyList, slot5)
@@ -132,6 +140,26 @@ function slot0.displayDailyLevels(slot0)
 	slot0.centerAniItem = nil
 	slot0.centerCardId = nil
 	slot0.checkAniTimer = Timer.New(function ()
+		if not uv0.descMode then
+			slot0, slot1 = nil
+
+			for slot5, slot6 in pairs(uv0.dailyLevelTFs) do
+				GetComponent(slot6, typeof(CanvasGroup)).alpha = 1
+
+				if not slot0 and not slot1 then
+					slot0 = slot6
+					slot1 = slot6
+				elseif slot6.anchoredPosition.x < slot0.anchoredPosition.x then
+					slot0 = slot6
+				elseif slot1.anchoredPosition.x < slot6.anchoredPosition.x then
+					slot1 = slot6
+				end
+			end
+
+			GetComponent(slot0, typeof(CanvasGroup)).alpha = 0.5
+			GetComponent(slot1, typeof(CanvasGroup)).alpha = 0.5
+		end
+
 		for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
 			slot6 = slot4.localScale.x >= 0.98
 
@@ -152,7 +180,7 @@ function slot0.displayDailyLevels(slot0)
 				end
 			end
 		end
-	end, 0.2, -1)
+	end, 0.1, -1)
 
 	slot0.checkAniTimer:Start()
 end

@@ -104,7 +104,10 @@ function slot0.UpdateView(slot0)
 		if uv0.contextData.chapter:getConfig("type") == Chapter.CustomFleet then
 			seriesAsync({
 				function (slot0)
-					uv0:GetParentView():trackChapter(uv1, slot0)
+					slot1 = uv0:GetParentView()
+
+					assert(isa(slot1, LevelScene), "Failing Get LevelScene")
+					slot1:trackChapter(uv1, slot0)
 				end,
 				function (slot0)
 					uv0.CheckOilCost(uv1, uv2, slot0)
@@ -119,7 +122,10 @@ function slot0.UpdateView(slot0)
 		elseif uv0.contextData.fleets and #slot5 > 0 then
 			seriesAsync({
 				function (slot0)
-					uv0:GetParentView():trackChapter(uv1, slot0)
+					slot1 = uv0:GetParentView()
+
+					assert(isa(slot1, LevelScene), "Failing Get LevelScene")
+					slot1:trackChapter(uv1, slot0)
 				end,
 				function (slot0)
 					uv0.CheckOilCost(uv1, uv2, slot0)
@@ -350,7 +356,9 @@ function slot0.UpdateSPItem(slot0)
 end
 
 function slot0.CloneIconTpl(slot0, slot1)
-	slot3 = Instantiate(slot0:GetComponent(typeof(ItemList)).prefabItem[0])
+	assert(slot0:GetComponent(typeof(ItemList)), "Need a Itemlist Component for " .. (slot0 and slot0.name or "NIL"))
+
+	slot3 = Instantiate(slot2.prefabItem[0])
 
 	if slot1 then
 		slot3.name = slot1

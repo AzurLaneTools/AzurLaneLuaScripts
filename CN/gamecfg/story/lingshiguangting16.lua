@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰装无异常，精准度和威力都和一如既往，可以进行下一项训练了。",
+			say = "舰装无异常，精准度和威力都一如既往，可以进行下一项训练了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

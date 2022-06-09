@@ -367,6 +367,11 @@ function slot0.GetPortShipVOs(slot0)
 end
 
 function slot0.AddPortShip(slot0, slot1)
+	assert(slot1.class == WorldMapShip)
+	assert(not _.any(slot0.portShips, function (slot0)
+		return slot0.id == uv0.id
+	end), "ship exist in port: " .. slot1.id)
+
 	slot1.fleetId = nil
 
 	table.insert(slot0.portShips, slot1)
@@ -464,6 +469,8 @@ function slot0.VerifyFormation(slot0)
 
 	_.each(slot0:GetShips(), function (slot0)
 		uv0[slot0.id] = (uv0[slot0.id] or 0) + 1
+
+		assert(uv0[slot0.id] <= 1, "repeated ship id: " .. slot0.id)
 	end)
 end
 
@@ -913,6 +920,8 @@ end
 
 function slot0.UpdateWorldShopGoods(slot0, slot1)
 	_.each(slot1, function (slot0)
+		assert(uv0.goodDic[slot0.goods_id], "without this good in id " .. slot0.goods_id)
+
 		uv0.goodDic[slot0.goods_id] = uv0.goodDic[slot0.goods_id] + slot0.count
 	end)
 	slot0:DispatchEvent(uv0.EventUpdateShopGoods, slot0.goodDic)
@@ -951,11 +960,14 @@ function slot0.GetGlobalBuff(slot0, slot1)
 end
 
 function slot0.AddGlobalBuff(slot0, slot1, slot2)
+	assert(slot1 and slot2)
 	slot0:GetGlobalBuff(slot1):AddFloor(slot2)
 	slot0:DispatchEvent(uv0.EventUpdateGlobalBuff)
 end
 
 function slot0.RemoveBuff(slot0, slot1, slot2)
+	assert(slot1)
+
 	slot3 = slot0:GetGlobalBuff(slot1)
 
 	if slot2 then
@@ -1088,6 +1100,8 @@ function slot0.CalcOrderCost(slot0, slot1)
 		return World.CalcCDTimeCost(pg.gameset.world_instruction_submarine.description, slot0:GetReqCDTime(WorldConst.OpReqSub), slot2)
 	elseif slot1 == WorldConst.OpReqVision then
 		return World.CalcCDTimeCost(pg.gameset.world_instruction_detect.description, slot0:GetReqCDTime(WorldConst.OpReqVision), slot2)
+	else
+		assert(false, "op type error: " .. slot1)
 	end
 end
 
@@ -1148,6 +1162,8 @@ function slot0.AddAutoInfo(slot0, slot1, slot2)
 		table.insert(slot0.autoInfos.buffs, slot2)
 	elseif slot1 == "message" then
 		table.insert(slot0.autoInfos.message, slot2)
+	else
+		assert(false, "type error:" .. slot1)
 	end
 end
 

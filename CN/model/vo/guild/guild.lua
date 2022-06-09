@@ -140,6 +140,8 @@ function slot0.ReduceExtraDonateCnt(slot0, slot1)
 		return
 	end
 
+	assert(slot1 <= slot0.extraDonateCnt)
+
 	slot0.extraDonateCnt = slot0.extraDonateCnt - slot1
 end
 
@@ -155,6 +157,8 @@ function slot0.ReduceExtraBattleCnt(slot0, slot1)
 	if slot0.extraBattleCnt <= 0 then
 		return
 	end
+
+	assert(slot1 <= slot0.extraBattleCnt)
 
 	slot0.extraBattleCnt = slot0.extraBattleCnt - slot1
 end
@@ -663,7 +667,10 @@ function slot0.warpChatInfo(slot0, slot1)
 	})
 
 	if GuildMember.New(slot1.player) then
-		slot4:setDuty(slot0:getDutyByMemberId(slot4.id))
+		slot5 = slot0:getDutyByMemberId(slot4.id)
+
+		assert(slot5, "palyer duty has not been found" .. slot4.id)
+		slot4:setDuty(slot5)
 		string.gsub(slot3, ChatConst.EmojiCodeMatch, function (slot0)
 			uv0 = tonumber(slot0)
 		end)

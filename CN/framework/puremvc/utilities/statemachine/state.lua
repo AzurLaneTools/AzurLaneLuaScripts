@@ -19,6 +19,9 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.defineTrans(slot0, slot1, slot2)
+	assert(slot1, "action should not be nil at " .. slot0.name)
+	assert(slot2, "target should not be nil at " .. slot0.name)
+
 	if slot0:getTarget(slot1) ~= nil then
 		return
 	end

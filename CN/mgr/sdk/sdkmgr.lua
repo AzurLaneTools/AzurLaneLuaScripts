@@ -19,12 +19,17 @@ function slot0.Ctor(slot0)
 end
 
 function slot0.Call(slot0, slot1, ...)
+	assert(slot0.instance)
+
 	if slot0.instance[slot1] then
 		slot0.instance[slot1](...)
 	end
 end
 
 function slot0.Get(slot0, slot1, ...)
+	assert(slot0.instance)
+	assert(slot0.instance[slot1], "func should exist " .. slot1)
+
 	return slot0.instance[slot1](...)
 end
 

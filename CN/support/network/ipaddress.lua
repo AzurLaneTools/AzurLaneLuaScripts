@@ -176,9 +176,14 @@ function slot1.ConvertIPRange(slot0)
 
 	for slot4, slot5 in ipairs(uv0) do
 		slot6 = {}
+		slot7 = slot0:IP2Int(slot5[1])
 
-		table.insert(slot6, slot0:IP2Int(slot5[1]))
-		table.insert(slot6, slot0:IP2Int(slot5[2]))
+		table.insert(slot6, slot7)
+
+		slot8 = slot0:IP2Int(slot5[2])
+
+		table.insert(slot6, slot8)
+		assert(slot7 < slot8, "ip range is illegal" .. slot5[1] .. "-" .. slot5[2])
 		table.insert(slot0.IPRangeIntList, slot6)
 	end
 end

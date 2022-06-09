@@ -34,6 +34,7 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
 	slot0:bind(uv0.OPEN_SCROLL, function (slot0, slot1)
+		assert(false, "问卷系统已废弃")
 	end)
 	slot0:bind(uv0.OPEN_ACTIVITY_SHOP, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {

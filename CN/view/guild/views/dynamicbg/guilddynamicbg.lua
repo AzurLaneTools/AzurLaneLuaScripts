@@ -88,10 +88,12 @@ end
 function slot0.InitFurnitures(slot0, slot1)
 	function slot2(slot0, slot1, slot2)
 		GetOrAddComponent(slot1, typeof(RectTransform)).pivot = Vector2(0, 0)
+		slot4 = uv0:GetGrid(slot0.position[1], slot0.position[2])
 
+		assert(slot4)
 		table.insert(uv0.furnitures, GuildDynamicFurniture.New({
 			go = slot1,
-			grid = uv0:GetGrid(slot0.position[1], slot0.position[2]),
+			grid = slot4,
 			path = uv0.path,
 			size = Vector2(slot0.size[1], slot0.size[2]),
 			offset = Vector2(slot0.offset[1], slot0.offset[2]),

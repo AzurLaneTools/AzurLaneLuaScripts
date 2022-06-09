@@ -9,7 +9,11 @@ function slot0.execute(slot0, slot1)
 	if type(slot1:getBody()) == "number" or type(slot2) == "string" then
 		slot4 = slot2
 	elseif type(slot2) == "table" then
-		for slot13, slot14 in ipairs(slot6:getTaskById(slot2.taskId):getConfig("award_choice")[slot2.index]) do
+		slot8 = slot6:getTaskById(slot2.taskId)
+
+		assert(slot8:isSelectable())
+
+		for slot13, slot14 in ipairs(slot8:getConfig("award_choice")[slot2.index]) do
 			table.insert(slot5, {
 				type = slot14[1],
 				id = slot14[2],

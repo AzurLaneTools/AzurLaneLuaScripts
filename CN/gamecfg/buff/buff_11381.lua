@@ -10,6 +10,16 @@ return {
 					attr = "DMG_TAG_EHC_T_3",
 					number = 0.05
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
+					number = 0.05
+				}
 			}
 		}
 	},
@@ -22,6 +32,16 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_TAG_EHC_T_3",
+					number = 0.061
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
 					number = 0.061
 				}
 			}
@@ -38,6 +58,16 @@ return {
 					attr = "DMG_TAG_EHC_T_3",
 					number = 0.072
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
+					number = 0.072
+				}
 			}
 		}
 	},
@@ -50,6 +80,16 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_TAG_EHC_T_3",
+					number = 0.083
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
 					number = 0.083
 				}
 			}
@@ -66,6 +106,16 @@ return {
 					attr = "DMG_TAG_EHC_T_3",
 					number = 0.094
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
+					number = 0.094
+				}
 			}
 		}
 	},
@@ -78,6 +128,16 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_TAG_EHC_T_3",
+					number = 0.105
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
 					number = 0.105
 				}
 			}
@@ -94,6 +154,16 @@ return {
 					attr = "DMG_TAG_EHC_T_3",
 					number = 0.116
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
+					number = 0.116
+				}
 			}
 		}
 	},
@@ -106,6 +176,16 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_TAG_EHC_T_3",
+					number = 0.127
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
 					number = 0.127
 				}
 			}
@@ -122,6 +202,16 @@ return {
 					attr = "DMG_TAG_EHC_T_3",
 					number = 0.138
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
+					number = 0.138
+				}
 			}
 		}
 	},
@@ -136,6 +226,16 @@ return {
 					attr = "DMG_TAG_EHC_T_3",
 					number = 0.15
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "DMG_TAG_EHC_T_18",
+					number = 0.15
+				}
 			}
 		}
 	},
@@ -144,7 +244,7 @@ return {
 	init_effect = "jinengchufared",
 	color = "red",
 	picture = "",
-	desc = "对重巡伤害提高",
+	desc = "对重巡超巡伤害提高",
 	stack = 1,
 	id = 11381,
 	icon = 11380,
@@ -164,6 +264,16 @@ return {
 			},
 			arg_list = {
 				attr = "DMG_TAG_EHC_T_3",
+				number = 0.05
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				attr = "DMG_TAG_EHC_T_18",
 				number = 0.05
 			}
 		}

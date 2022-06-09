@@ -24,7 +24,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:notifyTechnology(uv0.onTechnologyNotify())
 	slot0.viewComponent:notifyBlueprint(uv0.onBlueprintNotify())
 	slot0.viewComponent:notifyFleet(getProxy(TechnologyNationProxy):getShowRedPointTag())
-	slot0.viewComponent:notifyMeta(MetaCharacterConst.isAnyMetaRedPoint())
+	slot0.viewComponent:notifyMeta(MetaCharacterConst.isMetaMainEntRedPoint())
 end
 
 function slot0.onTechnologyNotify()

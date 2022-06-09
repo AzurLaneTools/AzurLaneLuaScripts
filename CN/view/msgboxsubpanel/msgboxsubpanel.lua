@@ -42,7 +42,7 @@ function slot0.PostRefresh(slot0, slot1)
 	slot0.viewParent:Loaded(slot1)
 end
 
-function slot0.OnRefresh(slot0)
+function slot0.OnRefresh(slot0, slot1)
 end
 
 function slot0.CloseView(slot0)

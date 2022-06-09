@@ -43,8 +43,10 @@ function slot0.execute(slot0, slot1)
 		content = i18n("ship_equip_exchange_tip", slot10:getName(), slot11.config.name, slot9:getName()),
 		onYes = function ()
 			function slot0(slot0, slot1, slot2, slot3)
-				getProxy(EquipmentProxy):getEquipmentById(slot1).count = 1
+				slot5 = getProxy(EquipmentProxy):getEquipmentById(slot1)
+				slot5.count = 1
 
+				assert(slot5 and slot5.count > 0)
 				pg.ConnectionMgr.GetInstance():Send(12006, {
 					type = 0,
 					equip_id = slot1,

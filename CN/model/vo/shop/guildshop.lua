@@ -52,6 +52,8 @@ function slot0.getSortGoods(slot0)
 end
 
 function slot0.getGoodsById(slot0, slot1)
+	assert(slot0.goods[slot1], "goods should exist")
+
 	return slot0.goods[slot1]
 end
 

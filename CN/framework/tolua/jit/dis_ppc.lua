@@ -909,6 +909,8 @@ function slot29(slot0)
 			end
 		elseif slot18 == "-" then
 			slot9 = slot9 - 5
+		else
+			assert(false)
 		end
 
 		if slot19 then

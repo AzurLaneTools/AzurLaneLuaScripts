@@ -92,6 +92,8 @@ function slot0.GetStage(slot0)
 		return uv0.STTLEMENT_STAGE
 	elseif pg.TimeMgr.GetInstance():inTime(slot3) then
 		return uv0.DISPLAY_STAGE
+	else
+		assert(false)
 	end
 end
 

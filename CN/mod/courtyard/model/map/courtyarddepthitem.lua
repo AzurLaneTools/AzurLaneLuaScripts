@@ -40,9 +40,11 @@ function slot0.GetInitSizeCnt(slot0)
 end
 
 function slot0.GetObjType(slot0)
+	assert(false)
 end
 
 function slot0.GetOffset(slot0)
+	assert(false)
 end
 
 function slot0.UpdateOpFlag(slot0, slot1)
@@ -58,6 +60,7 @@ function slot0.InActivityRange(slot0, slot1)
 end
 
 function slot0.GetDeathType(slot0)
+	assert(false)
 end
 
 function slot0.SetPosition(slot0, slot1)

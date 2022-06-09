@@ -71,6 +71,9 @@ end
 
 function slot0.Focus(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot0.transform:Find("plane")
+
+	assert(slot6, "plane not exist.")
+
 	slot7 = slot0.transform.parent:InverseTransformVector(slot1 - slot6.position)
 	slot7.x = slot7.x + slot6.localPosition.x
 	slot7.y = slot7.y + slot6.localPosition.y - slot6.localPosition.z * math.tan(math.pi / 180 * slot0.map.theme.angle)
@@ -155,6 +158,9 @@ end
 function slot0.GetDragExtend(slot0, slot1, slot2)
 	slot3 = slot0.map
 	slot5 = slot0.transform:Find("plane")
+
+	assert(slot5, "plane not exist.")
+
 	slot6 = slot5.localPosition.x
 	slot7 = slot5.localPosition.y - slot5.localPosition.z * math.tan(math.pi / 180 * slot3.theme.angle)
 	slot8 = 99999999

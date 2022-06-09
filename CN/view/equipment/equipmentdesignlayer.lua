@@ -338,10 +338,18 @@ function slot0.createDesign(slot0, slot1)
 	function slot5.update(slot0, slot1, slot2)
 		slot0.designId = slot1
 		slot0.itemVOs = slot2
-		slot4 = pg.compose_data_template[slot1].equip_id
+		slot3 = pg.compose_data_template[slot1]
+
+		assert(slot3, "必须存在配置" .. slot1)
+
+		slot4 = slot3.equip_id
 
 		TweenItemAlphaAndWhite(slot0.go)
-		setText(slot0.nameTxt, shortenString(pg.equip_data_statistics[slot4].name, 6))
+
+		slot5 = pg.equip_data_statistics[slot4]
+
+		assert(slot5, "必须存在装备" .. slot4)
+		setText(slot0.nameTxt, shortenString(slot5.name, 6))
 
 		slot6 = Equipment.New({
 			id = slot4
@@ -411,8 +419,9 @@ function slot0.getDesignVO(slot0, slot1)
 	slot5 = slot0:getItemById(slot3[slot1].material_id).count
 	slot2.canMake = math.min(slot2.canMakeCount, 1)
 	slot6 = slot3[slot1].equip_id
-	slot7 = pg.equip_data_statistics[slot6]
-	slot8 = pg.equip_data_template[slot6]
+
+	assert(pg.equip_data_statistics[slot6], "equip_data_statistics not exist: " .. slot6)
+	assert(pg.equip_data_template[slot6], "equip_data_template not exist: " .. slot6)
 
 	if setmetatable({}, {
 		__index = function (slot0, slot1)

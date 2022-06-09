@@ -42,6 +42,17 @@ function slot0.ShowItemBox(slot0, slot1, slot2)
 				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
 			}
 		}))
+	elseif slot1.type == DROP_TYPE_SPWEAPON then
+		slot0:AddSubLayers(Context.New({
+			mediator = SpWeaponInfoMediator,
+			viewComponent = SpWeaponInfoLayer,
+			data = {
+				spWeaponConfigId = slot1.cfg.id,
+				type = SpWeaponInfoLayer.TYPE_DISPLAY,
+				onRemoved = slot2,
+				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+			}
+		}))
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_SINGLE_ITEM,

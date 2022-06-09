@@ -113,6 +113,8 @@ function slot0.Show(slot0, slot1, slot2)
 end
 
 function slot0.ReduceCount(slot0, slot1, slot2, slot3)
+	assert(slot2 == 1 or slot2 == 0 or slot2 == -1)
+
 	slot5 = slot0.counts[slot1] + slot2
 	slot0.counts[slot1] = slot5
 

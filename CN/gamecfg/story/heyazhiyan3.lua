@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405024,
-			say = "可以拜托你能为我的演奏提出一些建议么？",
+			say = "可以拜托你为我的演奏提出一些建议么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -40,11 +40,17 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.getConfigTable(slot0)
-	return slot0:bindConfigTable()[slot0.configId]
+	slot1 = slot0:bindConfigTable()
+
+	assert(slot1, "should bindConfigTable() first: " .. slot0.__cname)
+
+	return slot1[slot0.configId]
 end
 
 function slot0.getConfig(slot0, slot1)
-	return slot0:getConfigTable()[slot1]
+	assert(slot0:getConfigTable() ~= nil, "Config missed, type -" .. slot0.__cname .. " configId: " .. tostring(slot0.configId))
+
+	return slot2[slot1]
 end
 
 return slot0

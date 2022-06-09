@@ -185,6 +185,8 @@ function slot0.GetMissionById(slot0, slot1)
 			end
 		end
 	end
+
+	assert(false)
 end
 
 function slot0.GetJoinShipCnt(slot0)

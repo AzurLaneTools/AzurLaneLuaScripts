@@ -169,6 +169,8 @@ function slot0.initSingleLine(slot0)
 end
 
 function slot0.updateProject(slot0, slot1, slot2)
+	assert(isa(slot2, BuildShip), "必须是实例BuildShip")
+
 	if IsNil(slot0.projectTFs[slot1]) then
 		return
 	end

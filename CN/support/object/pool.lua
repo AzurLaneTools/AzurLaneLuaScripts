@@ -4,6 +4,8 @@ slot2 = class("Pool")
 pg.Pool = slot2
 
 function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	assert(slot2, "template or transform should exist")
+
 	slot0.template = slot2
 	slot0.keepParent = slot5
 	slot0.parentTF = slot1

@@ -111,6 +111,8 @@ function slot0.getRenameTimeDesc(slot0)
 end
 
 function slot0.setLock(slot0, slot1)
+	assert(type(slot1) == "number")
+
 	slot0.isLock = slot1
 end
 

@@ -5,17 +5,23 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.configId = slot0.id
 	slot0.discount = slot1.discount or 100
 	slot0.buyCount = slot1.buy_count or slot1.count or slot1.pay_count or 0
+
+	assert(slot2, "type should exist")
+
 	slot0.type = slot2
 	slot0.groupCount = slot1.groupCount or 0
 end
 
 function slot0.bindConfigTable(slot0)
+	assert(false, "overwrite!!!")
 end
 
 function slot0.GetPrice(slot0)
+	assert(false, "overwrite!!!")
 end
 
 function slot0.GetPurchasableCnt(slot0)
+	assert(false, "overwrite!!!")
 end
 
 function slot0.reduceBuyCount(slot0)

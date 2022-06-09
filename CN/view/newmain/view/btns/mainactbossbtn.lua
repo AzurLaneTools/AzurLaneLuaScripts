@@ -4,6 +4,10 @@ function slot0.GetEventName(slot0)
 	return "event_boss"
 end
 
+function slot0.GetActivityID(slot0)
+	return nil
+end
+
 function slot0.OnInit(slot0)
 	setActive(slot0.tipTr.gameObject, slot0:IsShowTip())
 end

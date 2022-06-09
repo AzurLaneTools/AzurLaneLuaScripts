@@ -1933,7 +1933,7 @@ _G.pg.base.gametip.tactics_end_to_learn = {
 }
 
 _G.pg.base.gametip.tactics_continue_to_learn = {
-	tip = "，是否继续学习该技能？"
+	tip = "是否继续学习该技能？"
 }
 
 _G.pg.base.gametip.tactics_should_exist_skill = {
@@ -3016,6 +3016,231 @@ _G.pg.base.gametip.shop_entendShipYard_error = {
 	tip = "扩展船坞失败:"
 }
 
+_G.pg.base.gametip.spweapon_attr_effect = {
+	tip = "兵装效果"
+}
+
+_G.pg.base.gametip.spweapon_attr_skillupgrade = {
+	tip = "技能强化"
+}
+
+_G.pg.base.gametip.spweapon_help_storage = {
+	tip = {
+		{
+			info = [[
+※ 特殊兵装系统说明
+完成三阶突破的角色，可以解锁<color=#92fc63>特殊兵装栏位</color>，装备<color=#92fc63>特殊兵装</color>
+*方案舰、海上传奇舰船和META舰船不需要完成三阶突破，直接解锁特殊兵装栏位
+
+可以通过通过<color=#92fc63>「兵装训练」</color>，或<color=#92fc63>特殊兵装制造</color>获得特殊兵装
+特殊兵装能够给角色带来<color=#92fc63>属性加成</color>，当特殊兵装强化至特定等级时，能够解锁<color=#92fc63>「兵装效果」</color>
+特殊兵装的属性加成值包括固定属性和随机加值，每件特殊兵装随机加值的范围是固定的。随机加值可以通过<color=#92fc63>「属性改装」</color>进行随机重置。强化、突破等操作只影响固定属性数值
+部分角色拥有<color=#92fc63>专属特殊兵装</color>，专属特殊兵装只有对应的角色可以装备
+除了<color=#92fc63>属性加成</color>、<color=#92fc63>「兵装效果」</color>外，专属特殊兵装强化至特定等级可以获得<color=#92fc63>「技能强化」</color>，强化角色技能效果
+
+
+特殊斩击
+特殊斩击是一种较为特殊的「兵装效果」
+战斗中角色带有特殊斩击时，会根据先锋角色特殊斩击的类型和数量，触发不同样式的斩击
+特殊斩击可以消除敌人的部分攻击弹幕，斩击可消除的弹幕类型与斩击的样式相关
+特殊斩击的准备时间是15秒，当特殊斩击就绪后，先锋角色受到攻击时，或就绪完成后5秒先锋角色未受到攻击，都会触发特殊斩击，斩击触发后需要重新准备
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.spweapon_tip_upgrade = {
+	tip = "强化点数已经达到上限"
+}
+
+_G.pg.base.gametip.spweapon_tip_attr_modify = {
+	tip = "需要选择 保留属性 或 替换属性 后，才能再次进行属性改装"
+}
+
+_G.pg.base.gametip.spweapon_tip_materal_no_enough = {
+	tip = "材料不足"
+}
+
+_G.pg.base.gametip.spweapon_tip_gold_no_enough = {
+	tip = "物资不足"
+}
+
+_G.pg.base.gametip.spweapon_tip_pt_no_enough = {
+	tip = "突破所需经验不足，请选择强化材料"
+}
+
+_G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
+	tip = "制造所需经验不足，请选择强化材料"
+}
+
+_G.pg.base.gametip.spweapon_tip_bag_no_enough = {
+	tip = "特殊兵装仓库容量不足"
+}
+
+_G.pg.base.gametip.spweapon_tip_create_sussess = {
+	tip = "获得特殊兵装:<color=#92fc63>$1 X1</color>"
+}
+
+_G.pg.base.gametip.spweapon_tip_group_error = {
+	tip = "装备失败，不符合装备要求"
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_overflow = {
+	tip = "将会溢出<color=#ff5c5c>$1</color>的强化点数，是否确认？"
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
+	tip = "请确认突破消耗材料后进行突破"
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_materal_check = {
+	tip = "请确认改造消耗材料后进行改造"
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_attrmax = {
+	tip = "随机属性已达到最大值"
+}
+
+_G.pg.base.gametip.spweapon_tip_locked = {
+	tip = "角色完成三阶突破后解锁<color=#92fc63>特殊兵装栏位</color>"
+}
+
+_G.pg.base.gametip.spweapon_ui_level = {
+	tip = "强化等级"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax = {
+	tip = "强化等级已满"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax2 = {
+	tip = "已到达强化上限"
+}
+
+_G.pg.base.gametip.spweapon_ui_need_resource = {
+	tip = "需要素材:"
+}
+
+_G.pg.base.gametip.spweapon_ui_ptitem = {
+	tip = "强化石"
+}
+
+_G.pg.base.gametip.spweapon_ui_spweapon = {
+	tip = "特殊兵装"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform = {
+	tip = "改装"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform_attr_text = {
+	tip = "属性改装可以对特殊兵装的属性随机加成部分进行重置，在该兵装的属性随机加成范围内生成新的随机加成值"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr = {
+	tip = "保留属性"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr = {
+	tip = "替换属性"
+}
+
+_G.pg.base.gametip.spweapon_ui_autoselect = {
+	tip = "自动选择"
+}
+
+_G.pg.base.gametip.spweapon_ui_cancelselect = {
+	tip = "取消选择"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_quZhu = {
+	tip = "驱逐"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qinXun = {
+	tip = "轻巡"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhongXun = {
+	tip = "重巡"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhanLie = {
+	tip = "战列"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
+	tip = "航母"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_weiXiu = {
+	tip = "维修"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qianTing = {
+	tip = "潜艇"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_other = {
+	tip = "其他"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
+	tip = "<color=#92fc63>替换属性</color>将改变该特殊兵装的属性加成数值"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
+	tip = "是否确定<color=#92fc63>替换属性</color>？"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text1 = {
+	tip = "<color=#ffde38>保留属性</color>将保留该特殊兵装的属性加成数值\n放弃改装属性变动"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text2 = {
+	tip = "是否确定<color=#ffde38>保留属性</color>？"
+}
+
+_G.pg.base.gametip.spweapon_ui_create_exp = {
+	tip = "制造所需经验:"
+}
+
+_G.pg.base.gametip.spweapon_ui_upgrade_exp = {
+	tip = "强化所需经验:"
+}
+
+_G.pg.base.gametip.spweapon_ui_breakout_exp = {
+	tip = "突破所需经验:"
+}
+
+_G.pg.base.gametip.spweapon_ui_create = {
+	tip = "制造"
+}
+
+_G.pg.base.gametip.spweapon_ui_storage = {
+	tip = "仓库"
+}
+
+_G.pg.base.gametip.spweapon_ui_empty = {
+	tip = "无装备"
+}
+
+_G.pg.base.gametip.spweapon_ui_create_button = {
+	tip = "制 造"
+}
+
+_G.pg.base.gametip.spweapon_ui_helptext = {
+	tip = "*特殊兵装需要消耗「特殊兵装核心」「物资」以及「强化材料」进行制造，强化和突破\n 请选择「强化石」或「特殊兵装」作为材料以满足强化经验要求"
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text1 = {
+	tip = "* 完成活动任务，获得特殊兵装核心、兵装强化石等奖励"
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text2 = {
+	tip = "*「特殊兵装核心」「兵装强化石」可用于特殊兵装系统"
+}
+
 _G.pg.base.gametip.stage_beginStage_error = {
 	tip = "开始关卡失败:"
 }
@@ -3873,7 +4098,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2022.3.10-2022.6.9</color>期间限时开放「沙恩霍斯特·META」的挑战，在此期间指挥官可挑战「沙恩霍斯特·META」累计其同步值获取<color=#92fc63>「沙恩霍斯特·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2022.6.9-2022.9.1</color>期间限时开放「反击·META」的挑战，在此期间指挥官可挑战「反击·META」累计其同步值获取<color=#92fc63>「反击·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -3902,7 +4127,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标·META挑战的进行，从第31天开始，即2022.4.10~2022.6.9期间，舰队挑战「沙恩霍斯特·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
+随着信标·META挑战的进行，从第31天开始，即2022.7.9~2022.9.1期间，舰队挑战「反击·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
 ※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
@@ -5727,6 +5952,10 @@ _G.pg.base.gametip.help_daily_task = {
 	tip = {
 		{
 			info = [[
+※ 兵装训练开启时间：每天开放，每周最多可挑战两次
+◆ 敌方会使用<color=#92fc63>特殊烟雾弹</color>，降低受到来自我方主力编队单位的伤害，我方主力编队单位的命中率大幅降低
+◆ 敌方会使用<color=#92fc63>特殊斩击</color>，清除部分炮击和鱼雷弹幕
+
 ※ 破交作战开启时间：每天开放，每周最多可挑战两次
 ◆ 破交作战模式下，指挥官将操纵<color=#92fc63>潜艇编队</color>出战
 ◆ 不同的<color=#92fc63>鱼雷武器</color>将为<color=#92fc63>装备舰船</color>提供不同数量的<color=#92fc63>弹药</color>
@@ -7152,6 +7381,7 @@ _G.pg.base.gametip.ship_remould_warning_303154 = {
 <color=#92fc63>【主武器（轻巡主炮）】</color>变更为
 <color=#92fc63>【主武器（重巡主炮）】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
 <color=#92fc63>【主武器】</color>栏的装备将被卸下
+<color=#92fc63>【特殊兵装】</color>栏的兵装将被卸下
 是否确认继续操作？]]
 }
 
@@ -12960,6 +13190,26 @@ _G.pg.base.gametip.msgbox_text_save = {
 	tip = "保 存"
 }
 
+_G.pg.base.gametip.msgbox_text_replace = {
+	tip = "交 换"
+}
+
+_G.pg.base.gametip.msgbox_text_unload = {
+	tip = "卸 下"
+}
+
+_G.pg.base.gametip.msgbox_text_modify = {
+	tip = "改 装"
+}
+
+_G.pg.base.gametip.msgbox_text_breakthrough = {
+	tip = "突 破"
+}
+
+_G.pg.base.gametip.msgbox_text_equipdetail = {
+	tip = "装备详情"
+}
+
 _G.pg.base.gametip.common_flag_ship = {
 	tip = "秘书舰"
 }
@@ -16992,9 +17242,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2022.3.10-2022.6.9</color>期间限时开放「沙恩霍斯特·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「沙恩霍斯特·META」角色</color>
+·<color=#92fc63>2022.6.9-2022.9.1</color>期间限时开放「反击·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「反击·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「沙恩霍斯特·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「反击·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -19650,7 +19900,7 @@ _G.pg.base.gametip.battlepass_main_help_2206 = {
 巡游进度奖励分为两种：
 （1）基础巡游奖励：包含<color=#ff5c5c>「孟菲斯·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·四期</color>等奖励；
     当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
-（2）特许巡游奖励：包含<color=#ff5c5c>{namecode:11}换装「压轴！忍者戏法！</color>」、<color=#ff5c5c>钻石</color>等奖励；
+（2）特许巡游奖励：包含<color=#ff5c5c>枫换装「压轴！忍者戏法！</color>」、<color=#ff5c5c>钻石</color>等奖励；
     购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
     注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
 
@@ -20012,6 +20262,90 @@ _G.pg.base.gametip.battle_result_continue = {
 	tip = "点击继续"
 }
 
+_G.pg.base.gametip.index_L2D = {
+	tip = "L2D"
+}
+
+_G.pg.base.gametip.index_DBG = {
+	tip = "动态背景"
+}
+
+_G.pg.base.gametip.index_BG = {
+	tip = "静态背景"
+}
+
+_G.pg.base.gametip.index_CANTUSE = {
+	tip = "无法使用"
+}
+
+_G.pg.base.gametip.index_UNUSE = {
+	tip = "未使用"
+}
+
+_G.pg.base.gametip.index_BGM = {
+	tip = "附带音乐"
+}
+
+_G.pg.base.gametip.without_ship_to_wear = {
+	tip = "没有可换装的角色"
+}
+
+_G.pg.base.gametip.choose_ship_to_wear_this_skin = {
+	tip = "请选择需要换装的角色"
+}
+
+_G.pg.base.gametip.skinatlas_search_holder = {
+	tip = "搜索角色名或换装名"
+}
+
+_G.pg.base.gametip.skinatlas_search_result_is_empty = {
+	tip = "未找到符合条件的换装"
+}
+
+_G.pg.base.gametip.chang_ship_skin_window_title = {
+	tip = "换装"
+}
+
+_G.pg.base.gametip.world_boss_item_info = {
+	tip = [[
+信标记录仪|用于记录在大型作战中收集到的「信标数据」的装置，达到指定数据量后可据此数据进行解析，发现特定的信标
+P.S.记录仪的记录容量有限，请务必及时前往解析
+每天获取上限:$1/$2
+记录容量上限:$3/$4]]
+}
+
+_G.pg.base.gametip.meta_syn_value_label = {
+	tip = "累计同步值"
+}
+
+_G.pg.base.gametip.meta_syn_finish = {
+	tip = "资讯同步完成"
+}
+
+_G.pg.base.gametip.index_meta_repair = {
+	tip = "可舰装强化"
+}
+
+_G.pg.base.gametip.index_meta_tactics = {
+	tip = "可战术研修"
+}
+
+_G.pg.base.gametip.index_meta_energy = {
+	tip = "可能量激活"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_skill = {
+	tip = "是否继续学习该角色技能？"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_ship_skill = {
+	tip = "当前角色技能已全部满级，是否学习其他角色技能？"
+}
+
+_G.pg.base.gametip.tactics_no_recent_ships = {
+	tip = "没有最近学习角色"
+}
+
 _G.pg.base.gametip.activity_kill = {
 	tip = "累计击沉"
 }
@@ -20239,4 +20573,8 @@ _G.pg.base.gametip.support_times_tip = {
 
 _G.pg.base.gametip.build_times_tip = {
 	tip = "建造数量"
+}
+
+_G.pg.base.gametip.tactics_recent_ship_label = {
+	tip = "最近学习"
 }

@@ -112,9 +112,17 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 	slot7 = nil
 
 	if slot2 then
-		slot5 = getProxy(BayProxy):getShipById(slot2):getEquip(slot4).id
+		slot7 = getProxy(BayProxy):getShipById(slot2):getEquip(slot4)
+
+		assert(slot7, "can not find equipment at ship.")
+
+		slot5 = slot7.id
 	elseif slot5 ~= 0 then
-		slot5 = getProxy(EquipmentProxy):getEquipmentById(slot5).id
+		slot7 = getProxy(EquipmentProxy):getEquipmentById(slot5)
+
+		assert(slot7, "can not find equipment: " .. slot5)
+
+		slot5 = slot7.id
 	end
 
 	slot8, slot9 = EquipmentTransformUtil.CheckEquipmentFormulasSucceed(slot6, slot5)
@@ -161,7 +169,11 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 	function slot14()
 		uv0()
 
-		slot4 = ((not uv1 or getProxy(BayProxy):getShipById(uv1):getEquip(uv2)) and getProxy(EquipmentProxy):getEquipmentById(uv3)):MigrateTo(uv4)
+		slot3 = (not uv1 or getProxy(BayProxy):getShipById(uv1):getEquip(uv2)) and getProxy(EquipmentProxy):getEquipmentById(uv3)
+
+		assert(slot3, "Cant Get Equip " .. (uv1 and "Ship " .. uv1 .. " Pos " .. uv2 or "ID " .. uv3))
+
+		slot4 = slot3:MigrateTo(uv4)
 
 		if nil then
 			if not slot2:isForbiddenAtPos(slot4, uv2) then
@@ -213,7 +225,9 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 						end
 					end
 
-					if pg.equip_data_template[uv2] then
+					assert(pg.equip_data_template[uv2], "Missing equip_data_template ID: " .. (uv2 or "NIL"))
+
+					if slot5 then
 						slot6 = slot5.destory_gold or 0
 						uv1.gold = (uv1.gold or 0) - slot6
 						uv3.gold = (uv3.gold or 0) + slot6

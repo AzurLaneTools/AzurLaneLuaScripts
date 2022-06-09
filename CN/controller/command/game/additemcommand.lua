@@ -1,15 +1,25 @@
 slot0 = class("AddItemCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	if slot1:getBody().dropType == DROP_TYPE_RESOURCE then
+	slot2 = slot1:getBody()
+
+	assert(isa(slot2, Item), "should be an instance of Item")
+
+	if slot2.dropType == DROP_TYPE_RESOURCE then
+		slot3 = id2res(slot2.id)
+
+		assert(slot3, "res should be defined: " .. slot2.id)
+
 		slot4 = getProxy(PlayerProxy)
 		slot5 = slot4:getData()
 
 		slot5:addResources({
-			[id2res(slot2.id)] = slot2.count
+			[slot3] = slot2.count
 		})
 		slot4:updatePlayer(slot5)
 	elseif slot2.dropType == DROP_TYPE_ITEM then
+		assert(pg.item_data_statistics[slot2.id], "pg.item_data_statistics>>" .. slot2.id)
+
 		if pg.item_data_statistics[slot2.id].type == Item.EXP_BOOK_TYPE then
 			if math.min(slot3.max_num - getProxy(BagProxy):getItemCountById(slot2.id), slot2.count) > 0 then
 				getProxy(BagProxy):addItemById(slot2.id, slot5)
@@ -24,6 +34,7 @@ function slot0.execute(slot0, slot1)
 			end
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIP then
+		assert(pg.equip_data_statistics[slot2.id], "equip_data_statistics" .. slot2.id)
 		getProxy(EquipmentProxy):addEquipmentById(slot2.id, slot2.count)
 	elseif slot2.dropType == DROP_TYPE_SHIP then
 		-- Nothing
@@ -43,10 +54,16 @@ function slot0.execute(slot0, slot1)
 			id = slot2.id
 		}))
 	elseif slot2.dropType == DROP_TYPE_VITEM then
-		if Item.New({
+		assert(pg.item_data_statistics[slot2.id], "pg.item_data_statistics>>" .. slot2.id)
+
+		slot3 = Item.New({
 			id = slot2.id,
 			count = slot2.count
-		}):getConfig("virtual_type") == 0 then
+		})
+
+		assert(slot3:isVirtualItem(), "item type error(virtual item)>>" .. slot2.id)
+
+		if slot3:getConfig("virtual_type") == 0 then
 			getProxy(ActivityProxy):addVitemById(slot2.id, slot2.count)
 		elseif slot4 == 1 then
 			slot5 = getProxy(ActivityProxy)
@@ -108,11 +125,12 @@ function slot0.execute(slot0, slot1)
 		elseif slot4 == 13 then
 			getProxy(ActivityProxy):MarkSkinCoupon(Item.VItem2SkinCouponShopId(slot2.id))
 		elseif slot4 == 14 then
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot6:isEnd() then
-				slot6.data1 = slot6.data1 + slot2.count
+			slot5 = nowWorld():GetBossProxy()
 
-				slot5:updateActivity(slot6)
-				nowWorld():GetBossProxy():UpdatedUnlockProgress(slot6.data1, slot6.data1)
+			if WorldBossConst.WORLD_BOSS_ITEM_ID == slot2.id then
+				slot5:AddSummonPt(slot2.count)
+			elseif WorldBossConst.WORLD_PAST_BOSS_ITEM_ID == slot2.id then
+				slot5:AddSummonPtOld(slot2.count)
 			end
 		elseif slot4 == 15 then
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE) and not slot6:isEnd() then
@@ -152,16 +170,20 @@ function slot0.execute(slot0, slot1)
 				slot5:updateActivity(slot6)
 			end
 		elseif slot4 == 23 then
-			slot6 = getProxy(PlayerProxy)
-			slot7 = slot6:getData()
-
-			slot7:addExpToLevel((function ()
+			slot5 = (function ()
 				for slot3, slot4 in ipairs(pg.gameset.package_lv.description) do
 					if uv0.id == slot4[1] then
 						return slot4[2]
 					end
 				end
-			end)())
+			end)()
+
+			assert(slot5)
+
+			slot6 = getProxy(PlayerProxy)
+			slot7 = slot6:getData()
+
+			slot7:addExpToLevel(slot5)
 			slot6:updatePlayer(slot7)
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIPMENT_SKIN then
@@ -200,6 +222,8 @@ function slot0.execute(slot0, slot1)
 		getProxy(EmojiProxy):addNewEmojiID(slot2.id)
 	elseif slot2.dropType == DROP_TYPE_WORLD_COLLECTION then
 		nowWorld():GetCollectionProxy():Unlock(slot2.id)
+	elseif slot2.dropType == DROP_TYPE_META_PT then
+		getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot2.id):addPT(slot2.count)
 	else
 		print("can not handle this type>>" .. slot2.dropType)
 	end

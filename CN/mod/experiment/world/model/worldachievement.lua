@@ -8,6 +8,9 @@ slot0.Fields = {
 function slot0.Setup(slot0, slot1)
 	slot0.id = slot1
 	slot0.config = pg.world_target_data[slot0.id]
+
+	assert(slot0.config, "world_target_data not exist: " .. slot0.id)
+
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.config.condition) do
@@ -27,7 +30,11 @@ end
 
 function slot0.NetUpdate(slot0, slot1)
 	_.each(slot1, function (slot0)
-		if uv0:GetTrigger(slot0.trigger_id) then
+		slot1 = uv0:GetTrigger(slot0.trigger_id)
+
+		assert(slot1, "can not find trigger: " .. slot0.trigger_id)
+
+		if slot1 then
 			slot1.progress = slot0.count
 
 			if not slot1:IsAchieved() and slot1:IsAchieved() then

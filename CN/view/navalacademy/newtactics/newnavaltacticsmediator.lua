@@ -68,7 +68,7 @@ function slot0.SelectShip(slot0, slot1)
 	end
 
 	slot0:addSubLayers(Context.New({
-		viewComponent = DockyardScene,
+		viewComponent = NavTacticsDockyardScene,
 		mediator = DockyardMediator,
 		data = {
 			selectedMax = 1,
@@ -76,6 +76,10 @@ function slot0.SelectShip(slot0, slot1)
 			ignoredIds = slot2,
 			hideTagFlags = ShipStatus.TAG_HIDE_TACTICES,
 			onShip = function (slot0, slot1, slot2)
+				if not slot0 then
+					return false
+				end
+
 				slot3, slot4 = ShipStatus.ShipStatusCheck("inTactics", slot0, slot1)
 
 				if not slot3 then
@@ -85,7 +89,11 @@ function slot0.SelectShip(slot0, slot1)
 				return true
 			end,
 			onSelected = function (slot0)
-				if getProxy(BayProxy):RawGetShipById(slot0[1]):isMetaShip() then
+				if not slot0[1] then
+					return
+				end
+
+				if getProxy(BayProxy):RawGetShipById(slot1):isMetaShip() then
 					uv0.contextData.metaShipID = slot1
 
 					uv0.viewComponent:Init()

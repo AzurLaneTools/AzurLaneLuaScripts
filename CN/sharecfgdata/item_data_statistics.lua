@@ -6841,7 +6841,7 @@ _G.pg.base.item_data_statistics[15015] = {
 	display = "兵装强化石，主要用于特殊兵装的制造、强化、突破",
 	name = "兵装强化石T1",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 2,
 	shop_id = -1,
@@ -6862,7 +6862,7 @@ _G.pg.base.item_data_statistics[15016] = {
 	display = "兵装强化石，主要用于特殊兵装的制造、强化、突破",
 	name = "兵装强化石T2",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 3,
 	shop_id = -1,
@@ -6883,7 +6883,7 @@ _G.pg.base.item_data_statistics[15017] = {
 	display = "兵装强化石，主要用于特殊兵装的制造、强化、突破",
 	name = "兵装强化石T3",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -6894,6 +6894,48 @@ _G.pg.base.item_data_statistics[15017] = {
 	id = 15017,
 	is_world = 0,
 	icon = "Props/15017",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15020] = {
+	display = "兵装强化石，主要用于特殊兵装改装",
+	name = "兵装重构核心T1",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15020,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15021] = {
+	display = "兵装强化石，主要用于特殊兵装改装",
+	name = "兵装重构核心T2",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15021,
+	is_world = 0,
+	icon = "Props/15020",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8916,6 +8958,27 @@ _G.pg.base.item_data_statistics[21011] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21012] = {
+	display = "反击·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。'",
+	name = "结晶：反击·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21012,
+	is_world = 0,
+	icon = "Props/21012",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
 	name = "结晶化热强钢",
@@ -9120,6 +9183,27 @@ _G.pg.base.item_data_statistics[21906] = {
 	id = 21906,
 	is_world = 0,
 	icon = "Props/21906",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21907] = {
+	display = "于「信标·META」战斗中收集的数据，可以提升反击·META同步率，活动结束后将会消失。",
+	name = "同步值：反击·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21907,
+	is_world = 0,
+	icon = "Props/21907",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -14021,12 +14105,12 @@ _G.pg.base.item_data_statistics[30404] = {
 		},
 		{
 			9,
-			2013,
+			2011,
 			1
 		},
 		{
 			9,
-			2012,
+			2013,
 			1
 		}
 	},

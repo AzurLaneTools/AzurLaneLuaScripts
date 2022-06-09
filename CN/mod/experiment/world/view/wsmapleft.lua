@@ -254,8 +254,7 @@ function slot0.GetShipObject(slot0, slot1)
 end
 
 function slot0.OnUpdateShipHpRate(slot0, slot1, slot2)
-	slot3 = slot0:GetShipObject(slot2)
-
+	assert(slot0:GetShipObject(slot2), "can not find this ship in display fleet: " .. slot2.id)
 	table.insert(slot0.delayCallFuncs[slot2.id], function ()
 		uv0:ShipDamageDisplay(uv1, uv2, true)
 	end)

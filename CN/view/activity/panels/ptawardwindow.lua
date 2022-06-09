@@ -33,6 +33,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.UpdateList(slot0, slot1, slot2, slot3)
+	assert(#slot1 == #slot2)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]

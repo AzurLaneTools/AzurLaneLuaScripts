@@ -16,7 +16,10 @@ function slot0.GetBlock(slot0, slot1)
 end
 
 function slot0.GetPlayer(slot0, slot1)
-	PoolMgr.GetInstance():GetUI(uv0(slot0), true, slot1)
+	slot2 = uv0(slot0)
+
+	assert(slot2, slot0)
+	PoolMgr.GetInstance():GetUI(slot2, true, slot1)
 end
 
 function slot0.GetGround(slot0, slot1)
@@ -28,7 +31,10 @@ function slot0.ReturnBlock(slot0, slot1)
 end
 
 function slot0.ReturnPlayer(slot0, slot1)
-	PoolMgr.GetInstance():ReturnUI(uv0(slot0), slot1)
+	slot2 = uv0(slot0)
+
+	assert(slot2, slot0)
+	PoolMgr.GetInstance():ReturnUI(slot2, slot1)
 end
 
 function slot0.ReturnGround(slot0, slot1)

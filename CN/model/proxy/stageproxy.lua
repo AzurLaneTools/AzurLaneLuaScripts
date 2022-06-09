@@ -42,6 +42,9 @@ function slot0.remove(slot0)
 end
 
 function slot0.addStage(slot0, slot1)
+	assert(isa(slot1, Stage), "should be an instance of Stage")
+	assert(slot0.data.satges[slot1.id] == nil, "ship already exist, use updateStage() instead")
+
 	slot0.data.satges[slot1.id] = slot1:clone()
 
 	slot0.data.satges[slot1.id]:display("added")
@@ -55,6 +58,8 @@ function slot0.getStageById(slot0, slot1)
 end
 
 function slot0.updateStage(slot0, slot1)
+	assert(isa(slot1, Stage), "should be an instance of Stage")
+
 	slot0.data.satges[slot1.id] = slot1:clone()
 
 	slot0.data.satges[slot1.id]:display("updated")
@@ -66,6 +71,9 @@ function slot0.getRandomStages(slot0)
 end
 
 function slot0.addRandomStage(slot0, slot1)
+	assert(isa(slot1, Stage), "should be an instance of Stage")
+	assert(slot0.data.randomexpeditions[slot1.id] == nil, "ship already exist, use updateStage() instead")
+
 	slot0.data.randomexpeditions[slot1.id] = slot1
 
 	slot0.facade:sendNotification(uv0.RANDOM_STAGE_ADDED, slot1:clone())
@@ -87,6 +95,8 @@ function slot0.listenerRandomStage(slot0)
 end
 
 function slot0.removeRandomStageById(slot0, slot1)
+	assert(slot0.data.randomexpeditions[slot1], "不存在随机卡关" .. slot1)
+
 	slot0.data.randomexpeditions[slot1] = nil
 
 	slot0.facade:sendNotification(uv0.RANDOM_STAGE_DELETE, slot1)

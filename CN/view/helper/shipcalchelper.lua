@@ -69,6 +69,8 @@ end
 
 function slot0.GetEliteAndHightLevelAndResOverflow(slot0, slot1)
 	slot2 = _.map(slot0, function (slot0)
+		assert(uv0[slot0], slot0)
+
 		return uv0[slot0]
 	end)
 	slot3, slot4 = uv0.GetEliteAndHightLevelShips(slot2)

@@ -179,10 +179,10 @@ function slot0.filterByCamp(slot0, slot1)
 		if bit.band(bit.lshift(1, slot5 - 2), slot1) > 0 then
 			for slot11, slot12 in ipairs(ShipIndexCfg.camp[slot5].types) do
 				if slot12 == Nation.LINK then
-					if Nation.LINK <= slot0:getConfig("nationality") then
+					if Nation.LINK <= slot0:getNation() then
 						return true
 					end
-				elseif slot12 == slot0:getConfig("nationality") then
+				elseif slot12 == slot0:getNation() then
 					return true
 				end
 			end
@@ -231,6 +231,34 @@ function slot0.filterByRarity(slot0, slot1)
 	return false
 end
 
+slot0.MetaRarityIndexs = {
+	slot0.RarityAll,
+	slot0.Rarity3,
+	slot0.Rarity4
+}
+slot0.MetaRarityNames = {
+	"index_all",
+	"index_rare4",
+	"index_rare5"
+}
+slot0.MetaExtraRepair = bit.lshift(1, 0)
+slot0.MetaExtraTactics = bit.lshift(1, 1)
+slot0.MetaExtraEnergy = bit.lshift(1, 2)
+slot0.MetaExtraIndexs = {
+	slot0.MetaExtraRepair,
+	slot0.MetaExtraTactics,
+	slot0.MetaExtraEnergy
+}
+slot0.MetaExtraAll = IndexConst.BitAll(slot0.MetaExtraIndexs)
+
+table.insert(slot0.MetaExtraIndexs, 1, slot0.MetaExtraAll)
+
+slot0.MetaExtraNames = {
+	"index_no_limit",
+	"index_meta_repair",
+	"index_meta_tactics",
+	"index_meta_energy"
+}
 slot0.ExtraSkin = bit.lshift(1, 0)
 slot0.ExtraRemould = bit.lshift(1, 1)
 slot0.Extrastrengthen = bit.lshift(1, 2)

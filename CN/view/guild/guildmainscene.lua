@@ -278,6 +278,7 @@ function slot0.initToggles(slot0)
 		slot7 = slot0.toggleRoot
 		slot0.contextData.toggles[slot5] = slot7:Find(slot5)
 
+		assert(slot0.contextData.toggles[slot5], "transform canot be nil" .. slot5)
 		onToggle(slot0, slot0.contextData.toggles[slot5], function (slot0)
 			if slot0 then
 				uv0:openPage(uv1)
@@ -294,9 +295,11 @@ function slot0.initToggles(slot0)
 
 	setActive(slot0.contextData.toggles[uv3], slot0.guildVO:getDutyByMemberId(slot0.playerVO.id) == GuildConst.DUTY_COMMANDER or slot1 == GuildConst.DUTY_DEPUTY_COMMANDER)
 
+	slot2 = slot0.contextData.page or uv1
 	slot0.contextData.page = nil
 
-	triggerToggle(slot0.contextData.toggles[slot0.contextData.page or uv1], true)
+	assert(slot0.contextData.toggles[slot2])
+	triggerToggle(slot0.contextData.toggles[slot2], true)
 end
 
 function slot0.TriggerOfficePage(slot0)

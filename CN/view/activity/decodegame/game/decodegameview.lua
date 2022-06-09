@@ -283,6 +283,9 @@ end
 
 function slot0.OnSwitch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot9 = slot0.engines[slot1]
+
+	assert(slot9, slot1)
+
 	slot11 = slot9:Find("tui")
 	slot12 = slot11.sizeDelta.y
 
@@ -339,7 +342,11 @@ function slot0.OnEnterMap(slot0, slot1, slot2, slot3)
 end
 
 function slot0.UnlockMapItem(slot0, slot1, slot2)
-	slot4 = slot0.mapItems[slot1]:Find("rect/icon")
+	slot3 = slot0.mapItems[slot1]
+
+	assert(slot3)
+
+	slot4 = slot3:Find("rect/icon")
 	slot5 = slot4:GetComponent(typeof(CanvasGroup))
 
 	LeanTween.value(go(slot4), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)

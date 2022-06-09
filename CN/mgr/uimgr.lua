@@ -337,7 +337,11 @@ end
 
 function slot1.RevertPBMaterial(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		slot6:GetComponent(typeof(Image)).material = slot0.defaultMaterial
+		slot7 = slot6:GetComponent(typeof(Image))
+
+		assert(slot7, "mask should be an image.")
+
+		slot7.material = slot0.defaultMaterial
 	end
 end
 
@@ -345,7 +349,9 @@ function slot1.UpdatePBEnable(slot0, slot1)
 	if slot1 then
 		if uv0 ~= nil then
 			for slot5, slot6 in ipairs(uv0) do
-				slot6:GetComponent(typeof(Image)).material = slot1 and slot0.partialBlurMaterial or nil
+				assert(slot6:GetComponent(typeof(Image)), "mask should be an image.")
+
+				slot7.material = slot1 and slot0.partialBlurMaterial or nil
 			end
 		end
 

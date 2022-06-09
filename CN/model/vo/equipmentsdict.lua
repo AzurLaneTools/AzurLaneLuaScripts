@@ -91,6 +91,8 @@ function slot0.GetEquipTraceBack(slot0, slot1, slot2, slot3)
 
 			table.insert(slot3, slot12)
 		elseif slot11 == 0 then
+			assert(false, "ERROR Source Equip ID 0")
+
 			slot12.candicates = {
 				setmetatable({
 					id = 0

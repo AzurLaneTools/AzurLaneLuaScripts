@@ -164,6 +164,9 @@ end
 
 function slot0.UpdateTaskPanel(slot0)
 	slot2 = nowWorld():GetTaskProxy():getTaskById(slot0.taskId)
+
+	assert(slot2, "without this doing task: " .. slot0.taskId)
+
 	slot3 = slot0.rtTaskPanel:Find("task_info")
 
 	GetImageSpriteFromAtlasAsync("ui/worldtaskfloatui_atlas", pg.WorldToastMgr.Type2PictrueName[slot2.config.type], slot3:Find("type"), true)

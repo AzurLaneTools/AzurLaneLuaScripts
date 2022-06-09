@@ -10,6 +10,9 @@ slot0.EventUpdateOffset = "WorldCarryItem.EventUpdateOffset"
 function slot0.Setup(slot0, slot1)
 	slot0.id = slot1
 	slot0.config = pg.world_carry_item[slot0.id]
+
+	assert(slot0.config, "world_carry_item not exist: " .. slot0.id)
+
 	slot0.offsetRow = 0
 	slot0.offsetColumn = 0
 end

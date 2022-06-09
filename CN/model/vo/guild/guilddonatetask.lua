@@ -30,8 +30,12 @@ function slot0.canCommit(slot0)
 		if getProxy(PlayerProxy):getData()[id2res(slot1[2])] < slot1[3] then
 			return false
 		end
-	elseif slot1[1] == DROP_TYPE_ITEM and getProxy(BagProxy):getItemCountById(slot1[2]) < slot1[3] then
-		return false
+	elseif slot1[1] == DROP_TYPE_ITEM then
+		if getProxy(BagProxy):getItemCountById(slot1[2]) < slot1[3] then
+			return false
+		end
+	else
+		assert(false)
 	end
 
 	return true

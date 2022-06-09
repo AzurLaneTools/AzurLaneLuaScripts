@@ -30,7 +30,11 @@ function slot0.execute(slot0, slot1)
 		cmd = slot4
 	}, 61034, function (slot0)
 		if slot0.result == 0 then
-			slot3 = uv0:getData():getMemberById(uv1):GetAssaultFleet()
+			slot2 = uv0:getData():getMemberById(uv1)
+
+			assert(slot2)
+
+			slot3 = slot2:GetAssaultFleet()
 
 			if uv2 == GuildConst.RECOMMAND_SHIP then
 				slot3:SetShipBeRecommanded(uv3, true)
