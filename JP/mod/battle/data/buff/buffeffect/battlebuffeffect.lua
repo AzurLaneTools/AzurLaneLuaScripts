@@ -317,6 +317,10 @@ function slot2.onSink(slot0, slot1, slot2)
 end
 
 function slot2.killerRequire(slot0, slot1, slot2, slot3)
+	if not slot2 then
+		return false
+	end
+
 	slot4, slot5 = nil
 
 	if (slot2.__name == uv0.Battle.BattlePlayerUnit.__name or slot6 == uv0.Battle.BattleNPCUnit.__name or slot6 == uv0.Battle.BattleEnemyUnit.__name or slot6 == uv0.Battle.BattleAircraftUnit.__name or slot6 == uv0.Battle.BattleAirFighterUnit.__name) and slot2 or slot2:GetHost() then

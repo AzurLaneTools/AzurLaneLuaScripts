@@ -8694,47 +8694,47 @@ _G.pg.base.gametip.backyard_filter_tag_other = {
 }
 
 _G.pg.base.gametip.word_status_inFight = {
-	tip = "<size=23>出撃中</size>"
+	tip = "<size=24>出撃中</size>"
 }
 
 _G.pg.base.gametip.word_status_inPVP = {
-	tip = "<size=22>演習配置</size>"
+	tip = "<size=24>演習配置</size>"
 }
 
 _G.pg.base.gametip.word_status_inEvent = {
-	tip = "<size=23>委託中</size>"
+	tip = "<size=24>委託中</size>"
 }
 
 _G.pg.base.gametip.word_status_inEventFinished = {
-	tip = "<size=23>完了</size>"
+	tip = "<size=24>完了</size>"
 }
 
 _G.pg.base.gametip.word_status_inTactics = {
-	tip = "<size=22>戦術学院</size>"
+	tip = "<size=24>戦術学院</size>"
 }
 
 _G.pg.base.gametip.word_status_inClass = {
-	tip = "<size=23>授業中</size>"
+	tip = "<size=24>授業中</size>"
 }
 
 _G.pg.base.gametip.word_status_rest = {
-	tip = "<size=23>休憩中</size>"
+	tip = "<size=24>休憩中</size>"
 }
 
 _G.pg.base.gametip.word_status_train = {
-	tip = "<size=23>訓練中</size>"
+	tip = "<size=24>訓練中</size>"
 }
 
 _G.pg.base.gametip.word_status_challenge = {
-	tip = "<size=23>ﾁｬﾚﾝｼﾞ出撃 </size>"
+	tip = "<size=24>ﾁｬﾚﾝｼﾞ出撃</size>"
 }
 
 _G.pg.base.gametip.word_status_world = {
-	tip = "ｾｲﾚｰﾝ作戦"
+	tip = "<size=24>ｾｲﾚｰﾝ作戦</size>"
 }
 
 _G.pg.base.gametip.word_status_inHardFormation = {
-	tip = "ﾊｰﾄﾞ編成中"
+	tip = "<size=24>ﾊｰﾄﾞ編成中</size>"
 }
 
 _G.pg.base.gametip.challenge_current_score = {
