@@ -159544,8 +159544,8 @@ _G.pg.base.item_data_statistics[59320] = {
 }
 
 _G.pg.base.item_data_statistics[59321] = {
-	display = "\"Sundered Blue\" reward exchange currency. Expires after the event ends. ",
-	name = "SP Badge ",
+	display = "Used to exchange for items in \"Sundered Blue.\" Will be removed after the event ends.",
+	name = "SP Badge",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,

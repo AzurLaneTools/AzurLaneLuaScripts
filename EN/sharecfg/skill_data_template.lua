@@ -87628,7 +87628,7 @@ Increases your Illustrious-class CVs' DMG dealt by $1. When the battle starts:
 	},
 	[902010] = {
 		desc_get = "",
-		name = "Damage Reduction - Aircraft",
+		name = "DMG Reduction - Aircraft",
 		id = 902010,
 		type = 3,
 		max_level = 1,
@@ -87670,7 +87670,7 @@ Increases your Illustrious-class CVs' DMG dealt by $1. When the battle starts:
 	},
 	[902040] = {
 		desc_get = "",
-		name = "Ammo Calibration - Penetration",
+		name = "Ammo Mod - Penetration",
 		id = 902040,
 		type = 3,
 		max_level = 1,
@@ -87712,7 +87712,7 @@ Increases your Illustrious-class CVs' DMG dealt by $1. When the battle starts:
 	},
 	[902070] = {
 		desc_get = "",
-		name = "Critical Targeting - Torpedoes",
+		name = "Crit Targeting - Torpedoes",
 		id = 902070,
 		type = 3,
 		max_level = 1,

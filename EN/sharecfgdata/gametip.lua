@@ -3369,7 +3369,7 @@ _G.pg.base.gametip.shop_entendShipYard_error = {
 }
 
 _G.pg.base.gametip.spweapon_attr_effect = {
-	tip = "Module Effect"
+	tip = "Mod. Effect "
 }
 
 _G.pg.base.gametip.spweapon_attr_skillupgrade = {
@@ -3607,7 +3607,7 @@ _G.pg.base.gametip.spweapon_ui_helptext = {
 }
 
 _G.pg.base.gametip.spweapon_ui_effect_tag = {
-	tip = "Module Effect"
+	tip = "Mod. Effect "
 }
 
 _G.pg.base.gametip.spweapon_ui_skill_tag = {
@@ -20786,7 +20786,8 @@ _G.pg.base.gametip.commission_event_tip = {
 			info = [[
  - Overview - 
 · Throughout the event, all commissions will also yield Commission Merits.
-· The number of merits received is based on the time required to complete the commission. <color=#92fc63>Every 5 minutes is worth 1 merit.</color>
+· The number of merits received is based on the time required to complete the commission. 
+<color=#92fc63>Every 5 minutes is worth 1 merit.</color>
 · For example: completing a commission that takes 1 hour will award you with 12 Commission Merits.
 · Only commissions initiated and completed during the event period will grant Commission Merits.
 · Canceling a commission will reward no Commission Merits.
