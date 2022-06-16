@@ -340,7 +340,7 @@ end
 
 function slot0.isMetaMainEntRedPoint()
 	for slot4, slot5 in ipairs(getProxy(MetaCharacterProxy):getMetaProgressVOList()) do
-		if (uv0.isMetaMainSceneRedTag(slot5.id) or uv0.isMetaEnergyRedTag(slot5.id) or uv0.isMetaSynRedTag(slot5.id)) == true then
+		if (uv0.isMetaMainSceneRedTag(slot5.id) or uv0.isMetaSynRedTag(slot5.id)) == true then
 			return true
 		end
 	end
@@ -353,6 +353,8 @@ function slot0.isMetaBannerRedPoint(slot0)
 
 	if getProxy(BayProxy):getMetaShipByGroupId(slot0) then
 		slot1 = slot1 or getProxy(MetaCharacterProxy):getMetaTacticsInfoByShipID(slot2.id):getTacticsStateForShow() == MetaTacticsInfo.States.LearnAble
+	elseif getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPtType() then
+		slot1 = slot1 or slot3.metaPtData:CanGetAward()
 	end
 
 	return slot1

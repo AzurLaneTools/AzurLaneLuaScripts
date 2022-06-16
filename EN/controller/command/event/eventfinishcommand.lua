@@ -74,15 +74,27 @@ function slot0.OnFinish(slot0, slot1, slot2)
 		end
 	end
 
-	slot7 = getProxy(PlayerProxy)
-	slot8 = slot7:getData()
-	slot8.collect_attack_count = slot8.collect_attack_count + 1
+	slot6 = PlayerConst.addTranDrop(slot1.drop_list)
 
-	slot7:updatePlayer(slot8)
+	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_EVENT) and slot7:getConfig("config_client").shopActID then
+		slot9 = pg.activity_template[slot8].config_client.pt_id
 
-	slot9, slot10 = slot3:findInfoById(slot0)
+		_.each(slot6, function (slot0)
+			if slot0.id == uv0 then
+				slot0.catchupActTag = true
+			end
+		end)
+	end
 
-	table.remove(slot3.eventList, slot10)
+	slot8 = getProxy(PlayerProxy)
+	slot9 = slot8:getData()
+	slot9.collect_attack_count = slot9.collect_attack_count + 1
+
+	slot8:updatePlayer(slot9)
+
+	slot10, slot11 = slot3:findInfoById(slot0)
+
+	table.remove(slot3.eventList, slot11)
 	_.each(slot1.new_collection, function (slot0)
 		table.insert(uv0.eventList, EventInfo.New(slot0))
 	end)
@@ -92,7 +104,7 @@ function slot0.OnFinish(slot0, slot1, slot2)
 		eventId = slot0,
 		oldShips = slot4,
 		newShips = slot5,
-		awards = PlayerConst.addTranDrop(slot1.drop_list),
+		awards = slot6,
 		isCri = slot1.is_cri > 0,
 		onConfirm = slot2
 	})

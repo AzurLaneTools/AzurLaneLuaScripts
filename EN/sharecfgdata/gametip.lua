@@ -20771,3 +20771,27 @@ _G.pg.base.gametip.tactics_recent_ship_label = {
 _G.pg.base.gametip.title_info = {
 	tip = "Info"
 }
+
+_G.pg.base.gametip.eventshop_unlock_info = {
+	tip = "Clear $1"
+}
+
+_G.pg.base.gametip.eventshop_unlock_hint = {
+	tip = "Can be purchased after clearing $1 in the Main Campaign."
+}
+
+_G.pg.base.gametip.commission_event_tip = {
+	tip = {
+		{
+			info = [[
+ - Overview - 
+· Throughout the event, all commissions will also yield Commission Merits.
+· The number of merits received is based on the time required to complete the commission. <color=#92fc63>Every 5 minutes is worth 1 merit.</color>
+· For example: completing a commission that takes 1 hour will award you with 12 Commission Merits.
+· Only commissions initiated and completed during the event period will grant Commission Merits.
+· Canceling a commission will reward no Commission Merits.
+· Commission Merits can be spent on a myriad of items in the associated event tab in the shop.
+· Be aware that some items in the shop pool may only be purchased after you've cleared a particular stage in the Main Campaign.]]
+		}
+	}
+}

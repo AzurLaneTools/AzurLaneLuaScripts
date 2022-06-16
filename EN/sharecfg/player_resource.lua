@@ -815,6 +815,16 @@ pg.player_resource = {
 		name = "union7_pt",
 		itemid = 59320
 	},
+	[265] = {
+		id = 265,
+		name = "pulinsidun_pt2",
+		itemid = 59321
+	},
+	[266] = {
+		id = 266,
+		name = "commission_pt",
+		itemid = 59322
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1495,6 +1505,12 @@ pg.player_resource = {
 		union7_pt = {
 			264
 		},
+		pulinsidun_pt2 = {
+			265
+		},
+		commission_pt = {
+			266
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1774,6 +1790,8 @@ pg.player_resource = {
 		262,
 		263,
 		264,
+		265,
+		266,
 		950,
 		951,
 		952,

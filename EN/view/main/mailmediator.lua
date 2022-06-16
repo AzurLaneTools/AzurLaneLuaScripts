@@ -56,8 +56,6 @@ function slot0.register(slot0)
 	end)
 	slot0.viewComponent:setUnreadMailCount(slot1.unread)
 	slot0.viewComponent:setMailCount(slot1.total)
-	slot0.viewComponent:setMailData(slot1:getMails())
-	slot0.viewComponent:checkToggle()
 
 	if not slot1.init then
 		slot0:sendNotification(GAME.GET_MAIL_LIST, {
@@ -69,6 +67,9 @@ function slot0.register(slot0)
 			splitId = slot1:getNewestMail() and slot2.id or 0,
 			type = slot2 and 1 or 0
 		})
+	else
+		slot0.viewComponent:setMailData(slot1:getMails())
+		slot0.viewComponent:updateMailList()
 	end
 end
 
@@ -99,18 +100,18 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		GAME.OPEN_MAIL_DONE,
-		GAME.DELETE_MAIL_DONE,
-		GAME.DELETE_ALL_MAIL_DONE,
 		GAME.TAKE_ATTACHMENT_FULL_SHIP,
 		GAME.TAKE_ATTACHMENT_FULL_EQUIP,
-		MailProxy.MAIL_ADDED,
-		MailProxy.MAIL_TOTAL,
-		MailProxy.MAIL_UPDATED,
-		MailProxy.MAIL_REMOVED,
-		BayProxy.SHIP_ADDED,
-		GAME.OPEN_MAIL_ATTACHMENT_DONE,
+		GAME.GET_MAIL_LIST_DONE,
+		GAME.DELETE_MAIL_DONE,
+		GAME.DELETE_ALL_MAIL_DONE,
 		GAME.CHANGE_MAIL_IMP_FLAG_DONE,
+		GAME.TAKE_ATTACHMENT_DONE,
+		GAME.TAKE_ALL_ATTACHMENT_DONE,
+		GAME.OPEN_MAIL_DONE,
+		GAME.OPEN_MAIL_ATTACHMENT_DONE,
+		MailProxy.MAIL_TOTAL,
+		BayProxy.SHIP_ADDED,
 		GAME.USE_ITEM_DONE
 	}
 end
@@ -118,16 +119,32 @@ end
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == MailProxy.MAIL_ADDED then
-		slot0.viewComponent:addMail(slot3)
-	elseif slot2 == MailProxy.MAIL_UPDATED then
-		slot0.viewComponent:updateMail(slot3)
-	elseif slot2 == MailProxy.MAIL_REMOVED then
-		slot0.viewComponent:removeMail(slot3)
+	if slot1:getName() == GAME.GET_MAIL_LIST_DONE or slot2 == GAME.DELETE_MAIL_DONE then
+		slot0.viewComponent:setMailData(getProxy(MailProxy):getMails())
+		slot0.viewComponent:updateMailList()
+	elseif slot2 == GAME.DELETE_ALL_MAIL_DONE then
+		slot4 = getProxy(MailProxy)
+
+		if #slot4:getMails() < slot4.total and #slot5 < Mail.SINGLE_COUNT then
+			slot0:sendNotification(GAME.GET_MAIL_LIST, {
+				splitId = slot4:getOldestMail() and slot6.id or 0,
+				type = slot6 and 2 or 0
+			})
+		else
+			slot0.viewComponent:setMailData(slot5)
+			slot0.viewComponent:updateMailList()
+		end
 	elseif slot2 == MailProxy.MAIL_TOTAL then
 		slot0.viewComponent:setMailCount(slot3)
 	elseif slot2 == GAME.OPEN_MAIL_DONE then
 		slot0.viewComponent:openMail(slot3)
+		slot0.viewComponent:updateMail(slot3)
+	elseif slot2 == GAME.CHANGE_MAIL_IMP_FLAG_DONE or slot2 == GAME.TAKE_ATTACHMENT_DONE then
+		slot0.viewComponent:updateMail(slot3)
+	elseif slot2 == GAME.TAKE_ALL_ATTACHMENT_DONE then
+		for slot7, slot8 in ipairs(slot3) do
+			slot0.viewComponent:updateMail(slot8)
+		end
 	elseif slot2 == GAME.DELETE_MAIL_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailMediator_mailDelete"))
 	elseif slot2 == GAME.DELETE_ALL_MAIL_DONE then
@@ -140,8 +157,6 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.TAKE_ATTACHMENT_FULL_SHIP then
 		slot0.viewComponent:UnblurMailBox()
 		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
-	elseif slot2 == GAME.CHANGE_MAIL_IMP_FLAG_DONE then
-		slot0.viewComponent:updateMailList()
 	elseif slot2 == GAME.USE_ITEM_DONE and table.getCount(slot3) ~= 0 then
 		slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 			animation = true,

@@ -188,6 +188,8 @@ function slot0.listNotificationInterests(slot0)
 		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		EquipmentProxy.EQUIPMENT_REMOVED,
+		BayProxy.SHIP_EQUIPMENT_ADDED,
+		BayProxy.SHIP_EQUIPMENT_REMOVED,
 		BayProxy.SHIP_UPDATED,
 		PlayerProxy.UPDATED,
 		GAME.USE_ITEM_DONE,
@@ -221,6 +223,22 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
 		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
 		slot0.viewComponent:removeEquipment(slot3)
+
+		if slot0.canUpdate then
+			slot0.viewComponent:setEquipmentUpdate()
+		end
+	elseif slot2 == BayProxy.SHIP_EQUIPMENT_ADDED then
+		slot0.viewComponent:addShipEquipment(slot3)
+
+		if slot0.canUpdate then
+			slot0.viewComponent:setEquipmentUpdate()
+		end
+	elseif slot2 == BayProxy.SHIP_EQUIPMENT_REMOVED then
+		slot0.viewComponent:removeShipEquipment(slot3)
+
+		if slot0.canUpdate then
+			slot0.viewComponent:setEquipmentUpdate()
+		end
 	elseif slot2 == EquipmentProxy.EQUIPMENT_SKIN_UPDATED then
 		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
 		slot0.viewComponent:setEquipmentSkin(slot3)

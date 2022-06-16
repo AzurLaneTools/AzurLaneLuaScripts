@@ -133,7 +133,7 @@ function slot0.addEquipment(slot0, slot1)
 		slot0.data.equipments[slot1.id] = slot1:clone()
 
 		slot0.data.equipments[slot1.id]:display("added")
-		slot0:OnEquipsUpdate(slot0.data.equipments[slot1.id])
+		slot0:OnEquipsUpdate(slot1)
 		slot0.facade:sendNotification(uv0.EQUIPMENT_ADDED, slot1:clone())
 	else
 		slot2.count = slot2.count + slot1.count
@@ -160,7 +160,7 @@ function slot0.updateEquipment(slot0, slot1)
 	slot0.data.equipments[slot1.id] = slot1.count ~= 0 and slot1:clone() or nil
 
 	slot1:display("updated")
-	slot0:OnEquipsUpdate(slot0.data.equipments[slot1.id] or slot1)
+	slot0:OnEquipsUpdate(slot1)
 	slot0.facade:sendNotification(uv0.EQUIPMENT_UPDATED, slot1:clone())
 end
 

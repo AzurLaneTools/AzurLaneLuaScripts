@@ -25,6 +25,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.mark = slot0:findTF("mark")
 
 	SetActive(slot0.mark, false)
+
+	slot0.ptBonus = EventPtBonus.New(slot0:findTF("bonusPt"))
 end
 
 function slot0.Update(slot0, slot1, slot2)

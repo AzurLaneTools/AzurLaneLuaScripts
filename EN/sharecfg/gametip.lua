@@ -18847,5 +18847,20 @@ cs.gametip = {
 		688956,
 		78,
 		true
+	},
+	eventshop_unlock_info = {
+		689034,
+		93,
+		true
+	},
+	eventshop_unlock_hint = {
+		689127,
+		142,
+		true
+	},
+	commission_event_tip = {
+		689269,
+		831,
+		true
 	}
 }

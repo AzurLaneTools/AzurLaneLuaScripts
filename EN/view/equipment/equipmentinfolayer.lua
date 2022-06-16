@@ -122,7 +122,7 @@ function slot0.didEnter(slot0)
 		slot0:updateOperation4()
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
 		weight = slot0:getWeightFromData()
 	})
 end
@@ -549,16 +549,23 @@ function slot0.UpdateTransformTipBar(slot0, slot1)
 					id = slot4
 				})
 				onButton(uv2, slot2:Find("item"), function ()
-					uv0:emit(EquipmentInfoMediator.OPEN_LAYER, Context.New({
+					slot0 = CreateShell(uv0)
+
+					if uv1.shipVO then
+						slot0.shipId = uv1.shipVO.id
+						slot0.shipPos = uv1.contextData.pos
+					end
+
+					uv1:emit(EquipmentInfoMediator.OPEN_LAYER, Context.New({
 						mediator = EquipmentTransformMediator,
 						viewComponent = EquipmentTransformLayer,
 						data = {
 							fromStoreHouse = true,
-							formulaId = uv1[uv2 + 1],
+							formulaId = uv2[uv3 + 1],
 							sourceEquipmentInstance = {
 								type = DROP_TYPE_EQUIP,
-								id = uv3.id,
-								template = uv3
+								id = uv0.id,
+								template = slot0
 							}
 						}
 					}))

@@ -137,6 +137,7 @@ function slot0.initUI(slot0)
 	slot0.canvasGroup.blocksRaycasts = not slot0.canvasGroup.blocksRaycasts
 	slot0.canvasGroup.blocksRaycasts = not slot0.canvasGroup.blocksRaycasts
 	slot0.entranceLayer = slot0:findTF("entrance")
+	slot0.ptBonus = EventPtBonus.New(slot0.entranceLayer:Find("btns/btn_task/bonusPt"))
 	slot0.entranceBg = slot0:findTF("entrance_bg")
 	slot0.topChapter = slot0:findTF("top_chapter", slot0.topPanel)
 
