@@ -9340,7 +9340,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "{namecode:199}、{namecode:195}、{namecode:196}、{namecode:197} 建造機率UP！"
+	tip = "俾斯麥、U-96、U-556、Z36、Z26、U-73、回聲 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

@@ -48503,7 +48503,9 @@ _G.pg.base.ship_data_statistics[107011] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107012] = {
@@ -48625,7 +48627,9 @@ _G.pg.base.ship_data_statistics[107012] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107013] = {
@@ -48747,7 +48751,9 @@ _G.pg.base.ship_data_statistics[107013] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107014] = {
@@ -48869,7 +48875,9 @@ _G.pg.base.ship_data_statistics[107014] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107021] = {
@@ -49991,7 +49999,9 @@ _G.pg.base.ship_data_statistics[107041] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107042] = {
@@ -50113,7 +50123,9 @@ _G.pg.base.ship_data_statistics[107042] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107043] = {
@@ -50235,7 +50247,9 @@ _G.pg.base.ship_data_statistics[107043] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107044] = {
@@ -50357,7 +50371,9 @@ _G.pg.base.ship_data_statistics[107044] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107051] = {
@@ -175315,6 +175331,506 @@ _G.pg.base.ship_data_statistics[401254] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[401261] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z26",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401260,
+	english_name = "KMS Z26",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401261,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		344,
+		22,
+		61,
+		29,
+		0,
+		70,
+		0,
+		62,
+		58,
+		43.2,
+		43,
+		49
+	},
+	attrs_growth = {
+		9658,
+		309,
+		808,
+		625,
+		0,
+		487,
+		0,
+		951,
+		1064,
+		0,
+		0,
+		566
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.15,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[401262] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z26",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401260,
+	english_name = "KMS Z26",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401262,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		428,
+		28,
+		76,
+		36,
+		0,
+		70,
+		0,
+		62,
+		58,
+		43.2,
+		43,
+		61
+	},
+	attrs_growth = {
+		9658,
+		309,
+		808,
+		625,
+		0,
+		487,
+		0,
+		951,
+		1064,
+		0,
+		0,
+		566
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.15,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[401263] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z26",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401260,
+	english_name = "KMS Z26",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401263,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		596,
+		39,
+		107,
+		50,
+		0,
+		70,
+		0,
+		62,
+		58,
+		43.2,
+		43,
+		86
+	},
+	attrs_growth = {
+		9658,
+		309,
+		808,
+		625,
+		0,
+		487,
+		0,
+		951,
+		1064,
+		0,
+		0,
+		566
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1.15,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[401264] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z26",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401260,
+	english_name = "KMS Z26",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401264,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		847,
+		55,
+		152,
+		71,
+		0,
+		70,
+		0,
+		62,
+		58,
+		43.2,
+		43,
+		123
+	},
+	attrs_growth = {
+		9658,
+		309,
+		808,
+		625,
+		0,
+		487,
+		0,
+		951,
+		1064,
+		0,
+		0,
+		566
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.6,
+		1.2,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[401281] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -195087,6 +195603,1022 @@ _G.pg.base.ship_data_statistics[408084] = {
 			{
 				-2,
 				2
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408091] = {
+	raid_distance = 30,
+	oxy_max = 188,
+	name = "U-96",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408090,
+	english_name = "KMS U-96",
+	attack_duration = 5,
+	star = 3,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 408091,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		211,
+		10,
+		103,
+		0,
+		0,
+		40,
+		0,
+		63,
+		7,
+		14.4,
+		62,
+		0
+	},
+	attrs_growth = {
+		5999,
+		135,
+		1239,
+		0,
+		0,
+		279,
+		0,
+		929,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.1,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				-1,
+				3
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				-2
+			},
+			{
+				2,
+				3
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408092] = {
+	raid_distance = 30,
+	oxy_max = 188,
+	name = "U-96",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408090,
+	english_name = "KMS U-96",
+	attack_duration = 5,
+	star = 4,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 408092,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		262,
+		12,
+		129,
+		0,
+		0,
+		40,
+		0,
+		63,
+		7,
+		14.4,
+		62,
+		0
+	},
+	attrs_growth = {
+		5999,
+		135,
+		1239,
+		0,
+		0,
+		279,
+		0,
+		929,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.15,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				-1,
+				3
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				-2
+			},
+			{
+				2,
+				3
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408093] = {
+	raid_distance = 30,
+	oxy_max = 188,
+	name = "U-96",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408090,
+	english_name = "KMS U-96",
+	attack_duration = 5,
+	star = 5,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 408093,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		365,
+		17,
+		180,
+		0,
+		0,
+		40,
+		0,
+		63,
+		7,
+		14.4,
+		62,
+		0
+	},
+	attrs_growth = {
+		5999,
+		135,
+		1239,
+		0,
+		0,
+		279,
+		0,
+		929,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.15,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				-1,
+				3
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				-2
+			},
+			{
+				2,
+				3
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408094] = {
+	raid_distance = 30,
+	oxy_max = 188,
+	name = "U-96",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408090,
+	english_name = "KMS U-96",
+	attack_duration = 5,
+	star = 6,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 408094,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		519,
+		24,
+		257,
+		0,
+		0,
+		40,
+		0,
+		63,
+		7,
+		14.4,
+		62,
+		0
+	},
+	attrs_growth = {
+		5999,
+		135,
+		1239,
+		0,
+		0,
+		279,
+		0,
+		929,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.25,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				-1,
+				3
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				-2
+			},
+			{
+				2,
+				3
 			}
 		}
 	},

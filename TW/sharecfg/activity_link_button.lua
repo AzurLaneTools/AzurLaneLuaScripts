@@ -3,39 +3,13 @@ pg.activity_link_button = {
 	{
 		param = "0",
 		name = "event_all",
-		type = 3,
+		time = "stop",
 		text_pic = "",
+		type = 3,
+		pic = "event_all",
 		id = 1,
 		group_id = 1,
-		pic = "event_all",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					5,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	{
 		param = "0",
@@ -73,8 +47,8 @@ pg.activity_link_button = {
 			{
 				{
 					2022,
-					5,
-					26
+					6,
+					16
 				},
 				{
 					0,
@@ -86,7 +60,7 @@ pg.activity_link_button = {
 				{
 					2022,
 					6,
-					16
+					30
 				},
 				{
 					23,
@@ -99,39 +73,13 @@ pg.activity_link_button = {
 	[20] = {
 		param = "0",
 		name = "event_minigame",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_minigame",
+		type = 0,
+		pic = "event_minigame",
 		id = 20,
 		group_id = 3,
-		pic = "event_minigame",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					5,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	[30] = {
 		param = "0",

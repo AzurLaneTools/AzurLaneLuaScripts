@@ -2845,6 +2845,22 @@ pg.memory_group = {
 			1742
 		}
 	},
+	[565] = {
+		icon = "title_chara_guinu",
+		subtype = 0,
+		type = 3,
+		id = 565,
+		title = "凜冽如惡鬼",
+		memories = {
+			1771,
+			1772,
+			1773,
+			1774,
+			1775,
+			1776,
+			1777
+		}
+	},
 	[570] = {
 		icon = "title_chara_junhe",
 		subtype = 0,
@@ -3015,6 +3031,7 @@ pg.memory_group = {
 		562,
 		563,
 		564,
+		565,
 		570
 	}
 }

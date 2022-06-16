@@ -17,14 +17,22 @@ function slot0.CheckArgLimit(slot0)
 		return true
 	end
 
-	slot3 = slot1[2]
-	slot4 = slot1[3]
+	slot2 = false
 
-	if slot1[1] == 1 then
-		return getProxy(BayProxy):getMetaShipByGroupId(slot3) ~= nil, i18n("meta_shop_exchange_limit")
-	else
-		assert(false)
+	for slot6, slot7 in ipairs(slot1) do
+		slot9 = slot7[2]
+		slot10 = slot7[3]
+
+		if slot7[1] == 1 then
+			if not (getProxy(BayProxy):getMetaShipByGroupId(slot9) ~= nil) then
+				return slot2, slot8, i18n("meta_shop_exchange_limit")
+			end
+		elseif slot8 == "pass" and not (getProxy(ChapterProxy):getChapterById(slot9) and slot11:isClear()) then
+			return slot2, slot8, slot10
+		end
 	end
+
+	return slot2
 end
 
 function slot0.CheckTimeLimit(slot0)
@@ -44,15 +52,15 @@ function slot0.CheckTimeLimit(slot0)
 end
 
 function slot0.canPurchase(slot0)
-	slot1, slot2 = slot0:CheckCntLimit()
-	slot3, slot4 = slot0:CheckArgLimit()
+	slot1, slot2, slot3 = slot0:CheckCntLimit()
+	slot4, slot5, slot6 = slot0:CheckArgLimit()
 
 	if not slot1 then
-		return false, slot2
+		return false, slot2, slot3
 	end
 
-	if not slot3 then
-		return false, slot4
+	if not slot4 then
+		return false, slot5, slot6
 	end
 
 	return true

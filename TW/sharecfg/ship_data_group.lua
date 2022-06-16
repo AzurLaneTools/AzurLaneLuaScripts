@@ -13872,6 +13872,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[466] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 4,
+		handbook_type = 0,
+		index_id = 364,
+		code = 466,
+		group_type = 40126,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵血、音符&誓言",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[488] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -14933,6 +14964,37 @@ pg.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[467] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 8,
+		nationality = 4,
+		handbook_type = 0,
+		index_id = 404,
+		code = 467,
+		group_type = 40809,
+		trans_type = 0,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵血、音符&誓言",
+				{
+					""
 				},
 				0
 			}
@@ -18729,6 +18791,7 @@ pg.ship_data_group = {
 		236,
 		487,
 		237,
+		466,
 		488,
 		345,
 		388,
@@ -18756,6 +18819,7 @@ pg.ship_data_group = {
 		343,
 		387,
 		341,
+		467,
 		399,
 		416,
 		492,

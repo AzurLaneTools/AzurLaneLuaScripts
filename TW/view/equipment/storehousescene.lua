@@ -143,12 +143,30 @@ function slot0.removeEquipment(slot0, slot1)
 	slot0.equipmentVOByIds[slot1] = nil
 
 	for slot5 = #slot0.equipmentVOs, 1, -1 do
-		if slot0.equipmentVOs[slot5].id == slot1 then
+		if slot0.equipmentVOs[slot5].id == slot1 and not slot6.shipId then
 			table.remove(slot0.equipmentVOs, slot5)
 		end
 	end
+end
 
-	slot0:setEquipmentUpdate()
+function slot0.addShipEquipment(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.equipmentVOs) do
+		if EquipmentProxy.SameEquip(slot6, slot1) then
+			slot0.equipmentVOs[slot5] = slot1
+
+			return
+		end
+	end
+
+	table.insert(slot0.equipmentVOs, slot1)
+end
+
+function slot0.removeShipEquipment(slot0, slot1)
+	for slot5 = #slot0.equipmentVOs, 1, -1 do
+		if EquipmentProxy.SameEquip(slot0.equipmentVOs[slot5], slot1) then
+			table.remove(slot0.equipmentVOs, slot5)
+		end
+	end
 end
 
 function slot0.setEquipmentSkin(slot0, slot1)

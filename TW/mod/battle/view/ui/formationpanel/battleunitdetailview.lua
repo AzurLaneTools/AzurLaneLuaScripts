@@ -12,6 +12,9 @@ slot6.DefaultActive = {
 	"attr_panels",
 	"attr_panels/buff"
 }
+slot6.EnemyMarkList = {
+	1000
+}
 slot6.PrimalAttr = {
 	"cannonPower",
 	"torpedoPower",
@@ -44,35 +47,37 @@ function slot6.SetUnit(slot0, slot1)
 
 	slot0._unit = slot1
 
-	setImageSprite(slot0._icon, uv0.Battle.BattleResourceManager.GetInstance():GetCharacterQIcon(slot0._unit:GetTemplate().painting))
+	if slot0._unit:GetUnitType() == uv1.UnitType.PLAY_UNIT then
+		setImageSprite(slot0._icon, uv0.Battle.BattleResourceManager.GetInstance():GetCharacterQIcon(slot0._unit:GetTemplate().painting))
 
-	for slot7 = 1, slot0._unit:GetTemplate().star do
-		setActive(cloneTplTo(slot0._starTpl, slot0._stars), true)
+		for slot7 = 1, slot0._unit:GetTemplate().star do
+			setActive(cloneTplTo(slot0._starTpl, slot0._stars), true)
+		end
 	end
 
 	setText(slot0._templateID, slot0._unit:GetTemplate().id)
 	setText(slot0._name, slot0._unit:GetTemplate().name)
 
-	slot6 = slot0._unit
-	slot7 = slot6
-	slot8 = "level"
+	slot4 = slot0._unit
+	slot5 = slot4
+	slot6 = "level"
 
-	setText(slot0._lv, slot6.GetAttrByName(slot7, slot8))
+	setText(slot0._lv, slot4.GetAttrByName(slot5, slot6))
 
 	slot0._preAttrList = {}
 
-	for slot7, slot8 in ipairs(uv1.PrimalAttr) do
-		slot9 = uv2.GetBase(slot0._unit, slot8)
+	for slot5, slot6 in ipairs(uv2.PrimalAttr) do
+		slot7 = uv3.GetBase(slot0._unit, slot6)
 
-		setText(slot0._attrView:Find(slot8 .. "/base"), slot9)
+		setText(slot0._attrView:Find(slot6 .. "/base"), slot7)
 
-		slot0._preAttrList[slot8] = slot9
+		slot0._preAttrList[slot6] = slot7
 	end
 
 	slot0._baseEhcList = {}
 
-	for slot7, slot8 in pairs(uv1.BaseEnhancement) do
-		slot0._baseEhcList[slot7] = 0
+	for slot5, slot6 in pairs(uv2.BaseEnhancement) do
+		slot0._baseEhcList[slot5] = 0
 	end
 
 	slot0._secondaryAttrList = {}

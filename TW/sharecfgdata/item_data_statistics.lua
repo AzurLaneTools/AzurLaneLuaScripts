@@ -125033,6 +125033,27 @@ _G.pg.base.item_data_statistics[59173] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59174] = {
+	display = "用於『鐵血、音符與誓言』活動兌換，活動結束後將會消失",
+	name = "鐵血紋章",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59174,
+	is_world = 0,
+	icon = "Props/bsm_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59175] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
@@ -130255,6 +130276,27 @@ _G.pg.base.item_data_statistics[59978] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59981] = {
+	display = "收集7枚後，可以得到限定設備《約定的證明》",
+	name = "U-556的勳章",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 8,
+	link_id = 40646,
+	id = 59981,
+	is_world = 0,
+	icon = "Props/u556xunzhang",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59982] = {
 	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
 	name = "顏料A",
@@ -134661,6 +134703,27 @@ _G.pg.base.item_data_statistics[80001] = {
 	id = 80001,
 	is_world = 0,
 	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[80005] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 40645,
+	id = 80005,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},

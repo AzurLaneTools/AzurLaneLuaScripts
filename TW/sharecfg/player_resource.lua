@@ -815,6 +815,16 @@ pg.player_resource = {
 		name = "union7_pt",
 		itemid = 59320
 	},
+	[265] = {
+		id = 265,
+		name = "pulinsidun_pt2",
+		itemid = 59321
+	},
+	[266] = {
+		id = 266,
+		name = "commission_pt",
+		itemid = 59322
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1044,6 +1054,11 @@ pg.player_resource = {
 		id = 40615,
 		name = "worldboss_tw411_ticket",
 		itemid = 80001
+	},
+	[40645] = {
+		id = 40645,
+		name = "skinTicket40645",
+		itemid = 80005
 	},
 	[40629] = {
 		id = 40629,
@@ -1540,6 +1555,12 @@ pg.player_resource = {
 		union7_pt = {
 			264
 		},
+		pulinsidun_pt2 = {
+			265
+		},
+		commission_pt = {
+			266
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1677,6 +1698,9 @@ pg.player_resource = {
 		},
 		worldboss_tw411_ticket = {
 			40615
+		},
+		skinTicket40645 = {
+			40645
 		},
 		skinTicketTW_xzx = {
 			40629
@@ -1846,6 +1870,8 @@ pg.player_resource = {
 		262,
 		263,
 		264,
+		265,
+		266,
 		950,
 		951,
 		952,
@@ -1892,6 +1918,7 @@ pg.player_resource = {
 		40588,
 		40614,
 		40615,
+		40645,
 		40629
 	}
 }

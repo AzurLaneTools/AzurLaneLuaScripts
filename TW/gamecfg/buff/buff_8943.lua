@@ -33,14 +33,14 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffSetAttr",
+			type = "BattleBuffAddAttr",
 			trigger = {
 				"onAttach",
 				"onRemove"
 			},
 			arg_list = {
-				value = -5,
-				attr = "chargeBulletAccuracy"
+				attr = "chargeBulletAccuracy",
+				number = -5
 			}
 		}
 	}

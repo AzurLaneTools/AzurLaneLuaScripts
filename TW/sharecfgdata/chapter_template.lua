@@ -144579,7 +144579,7 @@ _G.pg.base.chapter_template[1230001] = {
 	name = "第一樂章: 來世之人| |V O N D E N H I N T E R W E L T L E R N",
 	count = 0,
 	pop_pic = "",
-	act_id = 45004,
+	act_id = 40648,
 	pos_y = "0.392708333",
 	is_ai = 1,
 	progress_boss = 50,
@@ -145147,7 +145147,7 @@ _G.pg.base.chapter_template[1230002] = {
 	name = "第二樂章: 極度的渴望| |V O N D E R G R O ß E N S E H N S U C H T",
 	count = 0,
 	pop_pic = "",
-	act_id = 45004,
+	act_id = 40648,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -145717,7 +145717,7 @@ _G.pg.base.chapter_template[1230003] = {
 	name = "第三樂章: 歡樂與激情| |V O N D E N F R E U D E N U N D L E I D E N S C H A F T E N",
 	count = 0,
 	pop_pic = "",
-	act_id = 45004,
+	act_id = 40648,
 	pos_y = "0.344791667",
 	is_ai = 1,
 	progress_boss = 34,
@@ -146372,7 +146372,7 @@ _G.pg.base.chapter_template[1230004] = {
 	name = "第四樂章: 輓歌| |D A S G R A B L I E D",
 	count = 0,
 	pop_pic = "",
-	act_id = 45005,
+	act_id = 40649,
 	pos_y = "0.227083333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -147036,7 +147036,7 @@ _G.pg.base.chapter_template[1230005] = {
 	name = "第五樂章: 科學與學習| |V O N D E R W I S S E N S C H A F T",
 	count = 0,
 	pop_pic = "",
-	act_id = 45005,
+	act_id = 40649,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -147743,7 +147743,7 @@ _G.pg.base.chapter_template[1230006] = {
 	name = "第六樂章: 新生| |D E R G E N E S E N D E",
 	count = 0,
 	pop_pic = "",
-	act_id = 45005,
+	act_id = 40649,
 	pos_y = "0.383333333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -148422,7 +148422,7 @@ _G.pg.base.chapter_template[1230011] = {
 	name = "第一樂章: 來世之人| |V O N D E N H I N T E R W E L T L E R N",
 	count = 0,
 	pop_pic = "",
-	act_id = 45004,
+	act_id = 40648,
 	pos_y = "0.392708333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -149032,7 +149032,7 @@ _G.pg.base.chapter_template[1230012] = {
 	name = "第二樂章: 極度的渴望| |V O N D E R G R O ß E N S E H N S U C H T",
 	count = 0,
 	pop_pic = "",
-	act_id = 45004,
+	act_id = 40648,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -149644,7 +149644,7 @@ _G.pg.base.chapter_template[1230013] = {
 	name = "第三樂章: 歡樂與激情| |V O N D E N F R E U D E N U N D L E I D E N S C H A F T E N",
 	count = 0,
 	pop_pic = "",
-	act_id = 45004,
+	act_id = 40648,
 	pos_y = "0.344791667",
 	is_ai = 1,
 	progress_boss = 25,
@@ -150341,7 +150341,7 @@ _G.pg.base.chapter_template[1230014] = {
 	name = "第四樂章: 輓歌| |D A S G R A B L I E D",
 	count = 0,
 	pop_pic = "",
-	act_id = 45005,
+	act_id = 40649,
 	pos_y = "0.380208333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -150537,7 +150537,11 @@ _G.pg.base.chapter_template[1230014] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		29,
+		39,
+		15
+	},
 	win_condition = {
 		{
 			1,
@@ -151047,7 +151051,7 @@ _G.pg.base.chapter_template[1230015] = {
 	name = "第五樂章: 科學與學習| |V O N D E R W I S S E N S C H A F T",
 	count = 0,
 	pop_pic = "",
-	act_id = 45005,
+	act_id = 40649,
 	pos_y = "0.122916667",
 	is_ai = 1,
 	progress_boss = 20,
@@ -151246,7 +151250,11 @@ _G.pg.base.chapter_template[1230015] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		32,
+		43,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -151798,7 +151806,7 @@ _G.pg.base.chapter_template[1230016] = {
 	name = "第六樂章: 新生| |D E R G E N E S E N D E",
 	count = 0,
 	pop_pic = "",
-	act_id = 45005,
+	act_id = 40649,
 	pos_y = "0.35625",
 	is_ai = 1,
 	progress_boss = 20,
@@ -151998,7 +152006,11 @@ _G.pg.base.chapter_template[1230016] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		35,
+		47,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -152521,10 +152533,10 @@ _G.pg.base.chapter_template[1230017] = {
 	name = "間奏: 舞曲| |D A S T A N Z L I E D",
 	count = 1,
 	pop_pic = "",
-	act_id = 45005,
+	act_id = 40649,
 	pos_y = "0.2979",
 	is_ai = 1,
-	progress_boss = 20,
+	progress_boss = 100,
 	model = 2,
 	boss_refresh = 7,
 	is_limit_move = 1,
@@ -153192,10 +153204,10 @@ _G.pg.base.chapter_template[1230021] = {
 	name = "終曲: 徬徨者的晚歌| |N A C H T W A N D L E R L I E D",
 	count = 0,
 	pop_pic = "",
-	act_id = 45005,
+	act_id = 40649,
 	pos_y = "0.2979",
 	is_ai = 0,
-	progress_boss = 20,
+	progress_boss = 100,
 	model = 5,
 	boss_refresh = 0,
 	is_limit_move = 0,
@@ -266737,7 +266749,7 @@ _G.pg.base.chapter_template[1420001] = {
 	act_id = 40442,
 	pos_y = "0.34375",
 	is_ai = 0,
-	progress_boss = 34,
+	progress_boss = 50,
 	model = 1,
 	boss_refresh = 4,
 	is_limit_move = 0,
@@ -267340,7 +267352,7 @@ _G.pg.base.chapter_template[1420002] = {
 	act_id = 40442,
 	pos_y = "0.070833333",
 	is_ai = 0,
-	progress_boss = 25,
+	progress_boss = 50,
 	model = 1,
 	boss_refresh = 4,
 	is_limit_move = 0,
@@ -267955,7 +267967,7 @@ _G.pg.base.chapter_template[1420003] = {
 	act_id = 40442,
 	pos_y = "0.221875",
 	is_ai = 0,
-	progress_boss = 20,
+	progress_boss = 34,
 	model = 1,
 	boss_refresh = 5,
 	is_limit_move = 0,
@@ -268093,7 +268105,11 @@ _G.pg.base.chapter_template[1420003] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		22,
+		32,
+		15
+	},
 	win_condition = {
 		{
 			1,

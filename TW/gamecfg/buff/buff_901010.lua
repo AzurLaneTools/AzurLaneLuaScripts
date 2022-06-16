@@ -20,6 +20,22 @@ return {
 			}
 		},
 		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				maxTargetNumber = 1,
+				target = "TargetSelf",
+				skill_id = 901031,
+				check_target = {
+					"TargetSelf",
+					"TargetPlayerMainFleet"
+				}
+			}
+		},
+		{
 			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAttach"
@@ -38,9 +54,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 901014,
-				maxTargetNumber = 1,
-				delay = 0.5,
 				target = "TargetSelf",
+				maxTargetNumber = 1,
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -58,9 +73,8 @@ return {
 			arg_list = {
 				minTargetNumber = 2,
 				buff_id = 901015,
-				maxTargetNumber = 2,
-				delay = 0.5,
 				target = "TargetSelf",
+				maxTargetNumber = 2,
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -78,9 +92,8 @@ return {
 			arg_list = {
 				minTargetNumber = 3,
 				buff_id = 901016,
-				maxTargetNumber = 3,
-				delay = 0.5,
 				target = "TargetSelf",
+				maxTargetNumber = 3,
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -98,9 +111,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 901024,
-				maxTargetNumber = 1,
-				delay = 0.5,
 				target = "TargetSelf",
+				maxTargetNumber = 1,
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -118,9 +130,8 @@ return {
 			arg_list = {
 				minTargetNumber = 2,
 				buff_id = 901025,
-				maxTargetNumber = 2,
-				delay = 0.5,
 				target = "TargetSelf",
+				maxTargetNumber = 2,
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -138,9 +149,8 @@ return {
 			arg_list = {
 				minTargetNumber = 3,
 				buff_id = 901026,
-				maxTargetNumber = 3,
-				delay = 0.5,
 				target = "TargetSelf",
+				maxTargetNumber = 3,
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
