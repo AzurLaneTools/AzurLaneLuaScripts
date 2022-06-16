@@ -27319,6 +27319,290 @@ _G.pg.base.task_data_template[5767] = {
 	}
 }
 
+_G.pg.base.task_data_template[5771] = {
+	name = "西南风想当秘书舰",
+	guild_coin_award = 0,
+	award = 5555,
+	type = 5,
+	desc = "提交3个《鱼雷天妇罗》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "xinanfeng",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5772",
+	auto_commit = 0,
+	story_id = "XINANFENG1",
+	id = 5771,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5772] = {
+	name = "失误连连的秘书舰",
+	guild_coin_award = 0,
+	award = 5556,
+	type = 5,
+	desc = "强化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "xinanfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "XINANFENG2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5773",
+	auto_commit = 0,
+	scene = "",
+	id = 5772,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5773] = {
+	name = "逐渐成长的秘书舰",
+	guild_coin_award = 0,
+	award = 5557,
+	type = 5,
+	desc = "西南风上阵出击(关卡)胜利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "xinanfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "XINANFENG3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "60105",
+	priority_type = 0,
+	next_task = "5774",
+	auto_commit = 0,
+	scene = "",
+	id = 5773,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5774] = {
+	name = "西南风与伙伴们",
+	guild_coin_award = 0,
+	award = 5558,
+	type = 5,
+	desc = "西南风上阵完成3次每日挑战",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "xinanfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "XINANFENG4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "60105",
+	priority_type = 0,
+	next_task = "5775",
+	auto_commit = 0,
+	scene = "",
+	id = 5774,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5775] = {
+	name = "交友对象的选择",
+	guild_coin_award = 0,
+	award = 5559,
+	type = 5,
+	desc = "西南风好感度达到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "xinanfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "XINANFENG5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "60105",
+	priority_type = 0,
+	next_task = "5776",
+	auto_commit = 0,
+	scene = "",
+	id = 5775,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5776] = {
+	name = "西南风的真实目的",
+	guild_coin_award = 0,
+	award = 5560,
+	type = 5,
+	desc = "西南风突破至满星",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "xinanfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "XINANFENG6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "601054",
+	priority_type = 0,
+	next_task = "5777",
+	auto_commit = 0,
+	scene = "",
+	id = 5776,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5777] = {
+	name = "西南风继续前行",
+	guild_coin_award = 0,
+	award = 5561,
+	type = 5,
+	desc = "西南风等级达到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "xinanfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "XINANFENG7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "60105",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5777,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困难·近海演习",
 	guild_coin_award = 0,
@@ -179138,6 +179422,291 @@ _G.pg.base.task_data_template[17743] = {
 			21,
 			1080200,
 			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17744] = {
+	name = "【普林斯顿SP】地图任务1",
+	guild_coin_award = 0,
+	award = 93901,
+	type = 6,
+	desc = "击败SP1旗舰一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17744,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1420001
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4429
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17745] = {
+	name = "【普林斯顿SP】地图任务2",
+	guild_coin_award = 0,
+	award = 93902,
+	type = 6,
+	desc = "击败SP2旗舰一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17745,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1420002
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4429
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17746] = {
+	name = "【普林斯顿SP】地图任务3",
+	guild_coin_award = 0,
+	award = 93903,
+	type = 6,
+	desc = "击败SP3旗舰一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17746,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1420003
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4429
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17747] = {
+	name = "【普林斯顿SP】地图任务4",
+	guild_coin_award = 0,
+	award = 93904,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1420001",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17748",
+	auto_commit = 0,
+	story_id = "",
+	id = 17747,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1420001,
+			chapterId = 1420001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17748] = {
+	name = "【普林斯顿SP】地图任务5",
+	guild_coin_award = 0,
+	award = 93905,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1420002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17749",
+	auto_commit = 0,
+	story_id = "",
+	id = 17748,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1420001,
+			chapterId = 1420002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17749] = {
+	name = "【普林斯顿SP】地图任务6",
+	guild_coin_award = 0,
+	award = 93906,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1420003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17749,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1420001,
+			chapterId = 1420003
 		}
 	}
 }

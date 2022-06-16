@@ -9512,7 +9512,7 @@ _G.pg.base.gametip.ai_change_2 = {
 }
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*兑换开放时间:<color=#FFCF81>$1</color>"
+	tip = "*兑换开放时间:<color=#FFF693>$1</color>"
 }
 
 _G.pg.base.gametip.word_bilibili = {
@@ -20589,4 +20589,28 @@ _G.pg.base.gametip.tactics_recent_ship_label = {
 
 _G.pg.base.gametip.title_info = {
 	tip = "信息"
+}
+
+_G.pg.base.gametip.eventshop_unlock_info = {
+	tip = "通关$1"
+}
+
+_G.pg.base.gametip.eventshop_unlock_hint = {
+	tip = "通关主线$1后，解锁兑换"
+}
+
+_G.pg.base.gametip.commission_event_tip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.活动期间，派遣舰队执行军事委托，根据完成的委托时长可获得等比例的「军事委托凭证」奖励
+<color=#92fc63>完成的每5分钟军事委托可获得1个「军事委托凭证」</color>
+例：完成1小时的「日常资源开发I」委托后，可获得12个「军事委托凭证」
+2.仅在活动期间开始并完成的军事委托可获得「军事委托凭证」奖励
+3.中途放弃军事委托无法获得「军事委托凭证」奖励
+4.消耗「军事委托凭证」可在活动商店中兑换包括心智魔方在内的丰富奖励
+5.活动商店中部分道具需要达成解锁条件方可进行兑换]]
+		}
+	}
 }

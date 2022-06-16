@@ -3787,6 +3787,22 @@ pg.memory_group = {
 			2127
 		}
 	},
+	[575] = {
+		icon = "title_chara_xinanfeng",
+		subtype = 0,
+		type = 3,
+		id = 575,
+		title = "西南风，全速前进！",
+		memories = {
+			2171,
+			2172,
+			2173,
+			2174,
+			2175,
+			2176,
+			2177
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3983,6 +3999,7 @@ pg.memory_group = {
 		571,
 		572,
 		573,
-		574
+		574,
+		575
 	}
 }

@@ -433,7 +433,7 @@ pg.login = {
 		id = 16,
 		login_static = "login",
 		login_cri = "",
-		bgm = "wavyflow-inst-full",
+		bgm = "",
 		date = {
 			"timer",
 			{

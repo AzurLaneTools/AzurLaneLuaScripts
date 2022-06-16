@@ -269,8 +269,15 @@ function slot0.UpdateEntrance(slot0, slot1, slot2)
 		return false
 	end)
 	slot3:SetAsFirstSibling()
-	setImageSprite(slot3:Find("unsel"), GetSpriteFromAtlas("ui/ShopsUI_atlas", slot1 .. "_unsel"), true)
-	setImageSprite(slot3:Find("sel"), GetSpriteFromAtlas("ui/ShopsUI_atlas", slot1), true)
+
+	slot4 = slot1
+
+	if slot1 == 1 and slot0.shops[slot1][slot2]:IsEventShop() then
+		slot4 = slot4 .. "_event"
+	end
+
+	setImageSprite(slot3:Find("unsel"), GetSpriteFromAtlas("ui/ShopsUI_atlas", slot4 .. "_unsel"), true)
+	setImageSprite(slot3:Find("sel"), GetSpriteFromAtlas("ui/ShopsUI_atlas", slot4), true)
 end
 
 function slot0.OnSwitch(slot0, slot1, slot2)

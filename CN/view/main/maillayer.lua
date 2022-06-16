@@ -13,7 +13,8 @@ function slot0.init(slot0)
 	slot0.pullToRefreshNewer = slot0:findTF("pull_to_refresh_newer", slot0.mailPanel)
 	slot0.pullToRefreshOlder = slot0:findTF("pull_to_refresh_older", slot0.mailPanel)
 	slot0.mailList = slot0:findTF("mails", slot0.mailPanel)
-	slot0.mailTpl = slot0:getTpl("mail_tpl", slot0.mailList)
+	slot1 = slot0.mailList
+	slot0.mailTpl = slot1:Find("mail_tpl")
 	slot0.nullTpl = slot0:findTF("null_tpl", slot0.mailPanel)
 
 	setText(slot0:findTF("Text", slot0.nullTpl), i18n("empty_tip_mailboxui"))
@@ -143,10 +144,10 @@ function slot0.didEnter(slot0)
 		uv0:emit(MailMediator.ON_TAKE_ALL)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.toggleNormal, function (slot0)
-		uv0:checkToggle()
+		uv0:updateMailList()
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.toggleMatter, function (slot0)
-		uv0:checkToggle()
+		uv0:updateMailList()
 	end, SFX_PANEL)
 
 	slot1 = slot0.mailList
@@ -203,30 +204,40 @@ function slot0.UnblurMailBox(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance()._normalUIMain)
 end
 
-function slot0.checkToggle(slot0)
-	if not getToggleState(slot0.toggleNormal) and not getToggleState(slot0.toggleMatter) then
+function slot0.updateMailList(slot0)
+	if slot0.frozenUpdateMailList then
+		return
+	end
+
+	slot2 = getToggleState(slot0.toggleMatter)
+
+	if not getToggleState(slot0.toggleNormal) and not slot2 then
 		slot0.frozenUpdateMailList = true
 
 		triggerToggle(slot0.toggleNormal, true)
 		triggerToggle(slot0.toggleMatter, true)
 
 		slot0.frozenUpdateMailList = false
+		slot1 = true
+		slot2 = true
 	end
 
-	if not slot0.frozenUpdateMailList then
-		slot0:updateMailList()
-	end
-end
-
-function slot0.updateMailList(slot0)
 	table.sort(slot0.mailVOs, Mail.sortByTime)
 
 	slot0.filterMailVOs = underscore.filter(slot0.mailVOs, function (slot0)
 		return uv0 and slot0.importantFlag ~= 1 or uv1 and slot0.importantFlag == 1
 	end)
 
+	if slot0.lastOpenMailId and underscore.all(slot0.filterMailVOs, function (slot0)
+		return slot0.id ~= uv0.lastOpenMailId
+	end) then
+		slot0:setOrMovePanelState("initial")
+
+		slot0.lastOpenMailId = nil
+	end
+
 	slot0.mailItemList:align(#slot0.filterMailVOs)
-	setActive(slot0.deleteAllButton, getToggleState(slot0.toggleNormal) or not getToggleState(slot0.toggleMatter))
+	setActive(slot0.deleteAllButton, slot1 or not slot2)
 	setActive(slot0.nullTpl, #slot0.mailVOs == 0)
 	setText(slot0.mailCount, slot0.totalCount .. "<color=#B1BAC9FF>/1000</color>")
 	slot0:showMailTip(#slot0.mailVOs ~= slot0.totalCount)
@@ -243,12 +254,6 @@ function slot0.showMailTip(slot0, slot1)
 	elseif LeanTween.isTweening(go(slot0.mailTip)) then
 		LeanTween.cancel(go(slot0.mailTip))
 	end
-end
-
-function slot0.addMail(slot0, slot1)
-	assert(isa(slot1, Mail), "should be an instance of Mail")
-	table.insert(slot0.mailVOs, slot1)
-	slot0:updateMailList()
 end
 
 function slot0.setLetterContent(slot0, slot1)
@@ -433,24 +438,6 @@ function slot0.updateMail(slot0, slot1)
 	if slot0.lastOpenMailId == slot1.id then
 		slot0:openMail(slot1)
 	end
-end
-
-function slot0.removeMail(slot0, slot1)
-	assert(isa(slot1, Mail), "should be an instance of Mail")
-
-	if table.getIndex(slot0.mailVOs, function (slot0)
-		return slot0.id == uv0.id
-	end) then
-		table.remove(slot0.mailVOs, slot2)
-	end
-
-	if slot0.lastOpenMailId == slot1.id then
-		slot0:setOrMovePanelState("initial")
-
-		slot0.lastOpenMailId = nil
-	end
-
-	slot0:updateMailList()
 end
 
 function slot0.onDelete(slot0, slot1)

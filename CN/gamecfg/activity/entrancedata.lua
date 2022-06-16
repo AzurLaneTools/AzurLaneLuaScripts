@@ -329,7 +329,7 @@ return {
 			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970403) and slot1:isInAct()
 		end,
 		isTip = function ()
-			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970202):isPassType() then
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970403):isPassType() then
 				return false
 			end
 

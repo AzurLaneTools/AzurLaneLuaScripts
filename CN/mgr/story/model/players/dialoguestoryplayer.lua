@@ -439,11 +439,13 @@ function slot0.UpdateActorPostion(slot0, slot1, slot2)
 end
 
 function slot0.UpdateExpression(slot0, slot1, slot2)
-	if slot2:GetExPression() then
-		slot4 = findTF(slot1, "face")
+	slot4 = findTF(slot1, "face")
 
+	if slot2:GetExPression() then
 		setActive(slot4, true)
 		setImageSprite(slot4, GetSpriteFromAtlas("paintingface/" .. slot2:GetPainting(), slot3))
+	else
+		setActive(slot4, false)
 	end
 end
 

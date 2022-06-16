@@ -11,13 +11,13 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffSetAttr",
+			type = "BattleBuffAddAttr",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
-				value = 2,
-				attr = "chargeBulletAccuracy"
+				attr = "chargeBulletAccuracy",
+				number = 2
 			}
 		}
 	}

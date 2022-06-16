@@ -5,7 +5,6 @@ return {
 	painting = 0,
 	id = 6230,
 	picture = "0",
-	castCV = "skill",
 	desc = "Z字旗",
 	aniEffect = {
 		effect = "jineng",

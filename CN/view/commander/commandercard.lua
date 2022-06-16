@@ -53,6 +53,10 @@ function slot0.selectedAnim(slot0)
 end
 
 function slot0.update(slot0, slot1)
+	if not IsNil(slot0.lockTr) then
+		setActive(slot0.lockTr, false)
+	end
+
 	if slot1 then
 		slot0.commanderVO = slot1
 

@@ -14144,6 +14144,186 @@ pg.activity_shop_template = {
 		resource_num = 15,
 		order = 0
 	},
+	[1745] = {
+		activity = 4433,
+		resource_category = 1,
+		num_limit = 10,
+		num = 1,
+		commodity_id = 20001,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1745,
+		resource_num = 300,
+		order = 0,
+		limit_args = {
+			{
+				"pass",
+				304,
+				"3-4"
+			}
+		}
+	},
+	[1746] = {
+		activity = 4433,
+		resource_category = 1,
+		num_limit = 10,
+		num = 1,
+		commodity_id = 20001,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1746,
+		resource_num = 300,
+		order = 0,
+		limit_args = {
+			{
+				"pass",
+				604,
+				"6-4"
+			}
+		}
+	},
+	[1747] = {
+		activity = 4433,
+		resource_category = 1,
+		num_limit = 20,
+		num = 1,
+		commodity_id = 20001,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1747,
+		resource_num = 300,
+		order = 0,
+		limit_args = {
+			{
+				"pass",
+				704,
+				"7-4"
+			}
+		}
+	},
+	[1748] = {
+		activity = 4433,
+		resource_category = 1,
+		num_limit = 20,
+		num = 1,
+		commodity_id = 20001,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1748,
+		resource_num = 300,
+		order = 0,
+		limit_args = {
+			{
+				"pass",
+				804,
+				"8-4"
+			}
+		}
+	},
+	[1749] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 4433,
+		num_limit = 30,
+		num = 1,
+		commodity_id = 17003,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1749,
+		resource_num = 30,
+		order = 0
+	},
+	[1750] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 4433,
+		num_limit = 30,
+		num = 1,
+		commodity_id = 17013,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1750,
+		resource_num = 30,
+		order = 0
+	},
+	[1751] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 4433,
+		num_limit = 30,
+		num = 1,
+		commodity_id = 17023,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1751,
+		resource_num = 30,
+		order = 0
+	},
+	[1752] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 4433,
+		num_limit = 30,
+		num = 1,
+		commodity_id = 17033,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1752,
+		resource_num = 30,
+		order = 0
+	},
+	[1753] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 4433,
+		num_limit = 30,
+		num = 1,
+		commodity_id = 17043,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1753,
+		resource_num = 30,
+		order = 0
+	},
+	[1754] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 4433,
+		num_limit = 60,
+		num = 5,
+		commodity_id = 15001,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1754,
+		resource_num = 30,
+		order = 0
+	},
+	[1755] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 4433,
+		num_limit = 100,
+		num = 1,
+		commodity_id = 50001,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1755,
+		resource_num = 15,
+		order = 0
+	},
+	[1756] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 4433,
+		num_limit = 200,
+		num = 1,
+		commodity_id = 16501,
+		commodity_type = 2,
+		resource_type = 266,
+		id = 1756,
+		resource_num = 5,
+		order = 0
+	},
 	[10000] = {
 		limit_args = "",
 		resource_category = 2,
@@ -16330,6 +16510,18 @@ pg.activity_shop_template = {
 			1740,
 			1741,
 			1744,
+			1745,
+			1746,
+			1747,
+			1748,
+			1749,
+			1750,
+			1751,
+			1752,
+			1753,
+			1754,
+			1755,
+			1756,
 			10003,
 			10004,
 			10005,
@@ -17541,6 +17733,18 @@ pg.activity_shop_template = {
 		1742,
 		1743,
 		1744,
+		1745,
+		1746,
+		1747,
+		1748,
+		1749,
+		1750,
+		1751,
+		1752,
+		1753,
+		1754,
+		1755,
+		1756,
 		10000,
 		10001,
 		10002,
