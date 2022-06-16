@@ -239,8 +239,10 @@ end
 
 function slot0.OnClickRichText(slot0, slot1, slot2)
 	if slot1 == "ShipProperty" then
-		slot4 = nowWorld():GetShipVO(tonumber(slot2))
+		slot3 = tonumber(slot2)
+		slot4 = nowWorld():GetShipVO(slot3)
 
+		assert(slot4, "ship not exist: " .. slot3)
 		slot0:AppendText("-------------------------------------------------------------------------")
 		slot0:AppendText("打印舰娘属性：")
 

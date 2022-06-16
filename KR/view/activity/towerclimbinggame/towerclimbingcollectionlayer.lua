@@ -6,7 +6,13 @@ end
 
 function slot0.SetData(slot0, slot1)
 	slot0.miniGameData = slot1
-	slot0.score, slot0.pageIndex = TowerClimbingGameView.GetTowerClimbingPageAndScore(slot0.miniGameData:GetRuntimeData("kvpElements"))
+	slot3, slot4 = TowerClimbingGameView.GetTowerClimbingPageAndScore(slot0.miniGameData:GetRuntimeData("kvpElements"))
+	slot0.score = slot3
+	slot0.pageIndex = slot4
+
+	assert(slot3)
+	assert(slot4)
+
 	slot0.config = pg.mini_game[MiniGameDataCreator.TowerClimbingGameID].simple_config_data
 end
 

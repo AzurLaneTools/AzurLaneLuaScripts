@@ -105,6 +105,7 @@ function slot0.InitBtn(slot0)
 			uv0.flag = not uv0.flag
 
 			uv1(uv0, uv0.flag)
+			uv0:OnSwitchDone()
 		end
 	end, SFX_PANEL)
 	slot0:UpdateBtnState(false, slot0.flag)
@@ -150,12 +151,18 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.GetBgName(slot0)
+	assert(false, "overwrite me !!!")
 end
 
 function slot0.GetDefaultValue(slot0)
+	assert(false, "overwrite me !!!")
 end
 
 function slot0.OnSwitch(slot0, slot1)
+	assert(false, "overwrite me !!!")
+end
+
+function slot0.OnSwitchDone(slot0)
 end
 
 function slot0.OnDispose(slot0)

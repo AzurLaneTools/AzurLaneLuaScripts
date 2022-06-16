@@ -79,6 +79,7 @@ function slot0.UpdateView(slot0)
 
 	slot4 = underscore.map(slot3.drops, function (slot0)
 		if slot0.type == DROP_TYPE_WORLD_COLLECTION then
+			assert(WorldCollectionProxy.GetCollectionType(slot0.id) == WorldCollectionProxy.WorldCollectionType.FILE, string.format("collection drop type error#%d", slot0.id))
 			table.insert(uv0.message, i18n("autofight_file", WorldCollectionProxy.GetCollectionTemplate(slot0.id).name))
 		else
 			return {
@@ -195,7 +196,9 @@ function slot0.UpdateView(slot0)
 end
 
 function slot0.CloneIconTpl(slot0, slot1)
-	slot3 = Instantiate(slot0:GetComponent(typeof(ItemList)).prefabItem[0])
+	assert(slot0:GetComponent(typeof(ItemList)), "Need a Itemlist Component for " .. (slot0 and slot0.name or "NIL"))
+
+	slot3 = Instantiate(slot2.prefabItem[0])
 
 	if slot1 then
 		slot3.name = slot1

@@ -40,7 +40,7 @@ return {
 				dir = 1,
 				posX = -48.1,
 				ui = {
-					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/time"
+					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/btns/time"
 				}
 			}
 		},

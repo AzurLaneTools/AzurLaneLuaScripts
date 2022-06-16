@@ -10,6 +10,8 @@ function slot0.execute(slot0, slot1)
 		slot6 = slot5:getLevelMaxGold()
 	elseif slot2 == 2 then
 		slot6 = slot5:getLevelMaxOil()
+	else
+		assert(false)
 	end
 
 	if slot6 <= slot5[slot3] then

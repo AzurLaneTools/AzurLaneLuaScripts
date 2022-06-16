@@ -5,6 +5,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.groupId = slot0:getConfig("group_id")
+
+	assert(uv0[slot0.groupId])
+
 	slot0.list = uv0[slot0.groupId].ability_list
 end
 

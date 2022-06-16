@@ -71,6 +71,8 @@ function slot0.Show(slot0, slot1)
 			slot5 = i18n("world_word_guild_player")
 		end
 
+		assert(slot4)
+
 		slot8 = {
 			id = 4,
 			timestamp = slot9:GetServerTime(),

@@ -46,13 +46,19 @@ function slot0.getState(slot0, slot1, slot2)
 		end
 
 		if uv1[slot0] then
-			if not uv1[slot0].hide then
+			slot3 = uv1[slot0]
+
+			assert(slot3.hide, "hide can not be nil in code " .. slot0)
+
+			if not slot3.hide then
 				return uv0.STATE_LOCK
 			end
 
 			if slot3.hide == 1 then
 				return uv0.STATE_LOCK
 			elseif slot3.hide ~= 0 then
+				assert(slot3.hide == 0 or slot3.hide == 1, "hide sign invalid in code " .. slot0)
+
 				return uv0.STATE_LOCK
 			end
 		end
@@ -63,6 +69,8 @@ function slot0.getState(slot0, slot1, slot2)
 			if not uv1[slot0] then
 				return uv0.STATE_LOCK
 			end
+
+			assert(slot3, "code can not be nil" .. slot0)
 
 			slot5 = getProxy(ChapterProxy)
 			slot6 = nil
@@ -94,13 +102,17 @@ function slot0.Ctor(slot0, slot1)
 	slot0.lastReqStamp = 0
 	slot0.trans = false
 	slot0.remoulded = slot1.remoulded
-	slot2 = uv0.getDefaultShipConfig(slot0.id)
+
+	assert(uv0.getDefaultShipConfig(slot0.id), "can not find ship_data_statistics for group " .. slot0.id)
+
 	slot0.shipConfig = setmetatable({}, {
 		__index = function (slot0, slot1)
 			return uv0[slot1]
 		end
 	})
-	slot3 = uv0.GetGroupConfig(slot0.id)
+
+	assert(uv0.GetGroupConfig(slot0.id), "can not find ship_data_group for group " .. slot0.id)
+
 	slot0.groupConfig = setmetatable({}, {
 		__index = function (slot0, slot1)
 			return uv0[slot1]
@@ -143,7 +155,11 @@ function slot0.getPainting(slot0, slot1)
 		slot2 = slot0.groupConfig.trans_skin
 	end
 
-	return pg.ship_skin_template[slot2].painting
+	slot3 = pg.ship_skin_template[slot2]
+
+	assert(slot3, "ship_skin_template not exist: " .. slot2)
+
+	return slot3.painting
 end
 
 function slot0.getShipType(slot0, slot1)
@@ -227,6 +243,8 @@ function slot0.isBluePrintGroup(slot0)
 end
 
 function slot0.getBluePrintChangeSkillList(slot0)
+	assert(slot0:isBluePrintGroup(), "ShipGroup " .. slot0.id .. "isn't BluePrint")
+
 	return pg.ship_data_blueprint[slot0.id].change_skill
 end
 
@@ -253,8 +271,14 @@ function slot0.VoiceReplayCodition(slot0, slot1)
 	slot2 = true
 	slot3 = ""
 
-	if slot0:isBluePrintGroup() and not table.contains(getProxy(TechnologyProxy):getBluePrintById(slot0.id):getUnlockVoices(), slot1.key) and slot4:getUnlockLevel(slot1.key) > 0 then
-		return false, i18n("ship_profile_voice_locked_design", slot6)
+	if slot0:isBluePrintGroup() then
+		slot4 = getProxy(TechnologyProxy):getBluePrintById(slot0.id)
+
+		assert(slot4, "blueprint can not be nil >>" .. slot0.id)
+
+		if not table.contains(slot4:getUnlockVoices(), slot1.key) and slot4:getUnlockLevel(slot1.key) > 0 then
+			return false, i18n("ship_profile_voice_locked_design", slot6)
+		end
 	end
 
 	if slot0:isMetaGroup() and not table.contains(getProxy(BayProxy):getMetaShipByGroupId(slot0.id):getMetaCharacter():getUnlockedVoiceList(), slot1.key) and slot5:getUnlockVoiceRepairPercent(slot1.key) > 0 then

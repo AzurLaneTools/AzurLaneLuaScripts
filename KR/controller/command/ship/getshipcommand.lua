@@ -30,14 +30,18 @@ function slot0.execute(slot0, slot1)
 
 	slot12 = getProxy(BayProxy)
 
-	if not slot6 and getProxy(PlayerProxy):getData():getMaxShipBag() <= #slot12:getShips() then
-		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
+	if not slot6 then
+		if getProxy(PlayerProxy):getData():getMaxShipBag() <= #slot12:getShips() then
+			NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
-		if slot5 then
-			slot5()
+			if slot5 then
+				slot5()
+			end
+
+			return
 		end
-
-		return
+	else
+		assert(slot5, "need callBack")
 	end
 
 	slot13 = pg.ConnectionMgr.GetInstance()

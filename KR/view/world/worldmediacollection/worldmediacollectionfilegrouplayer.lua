@@ -111,6 +111,9 @@ function slot0.OnUpdateFileGroup(slot0, slot1, slot2)
 	end
 
 	slot3 = slot0.fileGroups[slot1]
+
+	assert(slot3, "Not Initialize FileGroup Index " .. slot1)
+
 	slot4 = tf(slot2)
 
 	setText(slot4:Find("FileIndex"), slot3.id_2)

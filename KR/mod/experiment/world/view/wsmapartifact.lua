@@ -20,6 +20,8 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.Setup(slot0, slot1, slot2, slot3)
+	assert(not slot0.item_info)
+
 	slot0.item_info = slot1
 	slot0.theme = slot2
 	slot0.attachment = slot3

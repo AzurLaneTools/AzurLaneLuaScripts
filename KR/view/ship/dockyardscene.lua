@@ -221,38 +221,47 @@ function slot0.setShipsCount(slot0, slot1)
 	slot0.shipsCount = slot1
 end
 
-function slot0.onInitItem(slot0, slot1)
+function slot0.GetCard(slot0, slot1)
 	slot2 = nil
-	slot2 = (not slot0.contextData.selectFriend or DockyardFriend.New(slot1)) and (not slot0.contextData.energyDisplay or DockyardShipItemForEnergy.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)) and DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)
+
+	return (not slot0.contextData.selectFriend or DockyardFriend.New(slot1)) and (not slot0.contextData.energyDisplay or DockyardShipItemForEnergy.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)) and DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)
+end
+
+function slot0.OnClickCard(slot0, slot1)
+	if slot1.shipVO then
+		if not slot0.selecteEnabled then
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
+
+			DockyardScene.value = slot0.shipContainer.value
+
+			slot0.onClick(slot1.shipVO, slot0.shipVOs)
+		else
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(table.contains(slot0.selectedIds, slot1.shipVO.id) and SFX_UI_CANCEL or SFX_UI_FORMATION_SELECT)
+			slot0:selectShip(slot1.shipVO)
+		end
+	else
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
+
+		if slot0.callbackQuit then
+			slot0.onSelected({}, function ()
+				uv0:back()
+			end)
+		elseif not slot1.isLoading then
+			slot0.onSelected({})
+			slot0:back()
+		end
+	end
+end
+
+function slot0.onInitItem(slot0, slot1)
+	slot2 = slot0:GetCard(slot1)
 
 	slot2:updateDetail(slot0.itemDetailType)
 
 	slot2.isLoading = true
 
 	onButton(slot0, slot2.go, function ()
-		if uv0.shipVO then
-			if not uv1.selecteEnabled then
-				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
-
-				DockyardScene.value = uv1.shipContainer.value
-
-				uv1.onClick(uv0.shipVO, uv1.shipVOs)
-			else
-				pg.CriMgr.GetInstance():PlaySoundEffect_V3(table.contains(uv1.selectedIds, uv0.shipVO.id) and SFX_UI_CANCEL or SFX_UI_FORMATION_SELECT)
-				uv1:selectShip(uv0.shipVO)
-			end
-		else
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
-
-			if uv1.callbackQuit then
-				uv1.onSelected({}, function ()
-					uv0:back()
-				end)
-			elseif not uv0.isLoading then
-				uv1.onSelected({})
-				uv1:back()
-			end
-		end
+		uv0:OnClickCard(uv1)
 	end)
 
 	slot3 = GetOrAddComponent(slot2.go, "UILongPressTrigger").onLongPressed

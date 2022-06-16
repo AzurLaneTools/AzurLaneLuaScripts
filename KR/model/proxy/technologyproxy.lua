@@ -30,7 +30,10 @@ function slot0.register(slot0)
 	end)
 	slot0:on(63100, function (slot0)
 		for slot4, slot5 in ipairs(slot0.blueprint_list) do
-			uv0.bluePrintData[slot5.id]:updateInfo(slot5)
+			slot6 = uv0.bluePrintData[slot5.id]
+
+			assert(slot6, "miss config ship_data_blueprint>>>>>>>>" .. slot5.id)
+			slot6:updateInfo(slot5)
 		end
 
 		uv0.coldTime = slot0.cold_time or 0
@@ -143,16 +146,24 @@ function slot0.getActiveTechnology(slot0)
 end
 
 function slot0.getTechnologyById(slot0, slot1)
+	assert(slot0.data[slot1], "technology should exist>>" .. slot1)
+
 	return slot0.data[slot1]:clone()
 end
 
 function slot0.addTechnology(slot0, slot1)
+	assert(slot0.data[slot1.id] == nil, "technology should be nil>>" .. slot1.id)
+	assert(isa(slot1, Technology), "technology should be instance of Technology")
+
 	slot0.data[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.TECHNOLOGY_ADDED, slot1:clone())
 end
 
 function slot0.updateTechnology(slot0, slot1)
+	assert(slot0.data[slot1.id], "technology should exist>>" .. slot1.id)
+	assert(isa(slot1, Technology), "technology should be instance of Technology")
+
 	slot0.data[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.TECHNOLOGY_UPDATED, slot1:clone())
@@ -183,12 +194,18 @@ function slot0.getRawBluePrintById(slot0, slot1)
 end
 
 function slot0.addBluePrint(slot0, slot1)
+	assert(isa(slot1, ShipBluePrint), "bluePrint should be instance of ShipBluePrint")
+	assert(slot0.bluePrintData[slot1.id] == nil, "use function updateBluePrint instead")
+
 	slot0.bluePrintData[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.BLUEPRINT_ADDED, slot1:clone())
 end
 
 function slot0.updateBluePrint(slot0, slot1)
+	assert(isa(slot1, ShipBluePrint), "bluePrint should be instance of ShipBluePrint")
+	assert(slot0.bluePrintData[slot1.id], "use function addBluePrint instead")
+
 	slot0.bluePrintData[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.BLUEPRINT_UPDATED, slot1:clone())

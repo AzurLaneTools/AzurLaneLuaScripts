@@ -28,10 +28,11 @@ function slot0.execute(slot0, slot1)
 			slot1 = {}
 
 			uv0:removeItemById(uv1, uv2)
-			existCall(uv3, PlayerConst.addTranDrop(slot0.drop_list))
+			assert(uv3.usage == ItemUsage.DROP, "未处理类型")
+			existCall(uv4, PlayerConst.addTranDrop(slot0.drop_list))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
-			existCall(uv3)
+			existCall(uv4)
 		end
 	end)
 end

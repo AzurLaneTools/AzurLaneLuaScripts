@@ -160,7 +160,11 @@ function slot0.UpdateAttire(slot0, slot1, slot2, slot3)
 		end
 	end)
 	slot4:GetComponent(typeof(Animation)):Play("attire")
-	setActive(slot4.transform:Find("bg/icon_frame"), slot1.info:getType() == AttireConst.TYPE_ICON_FRAME)
+
+	slot6 = slot1.info
+
+	assert(isa(slot6, AttireFrame))
+	setActive(slot4.transform:Find("bg/icon_frame"), slot6:getType() == AttireConst.TYPE_ICON_FRAME)
 	setActive(slot4.transform:Find("bg/chat_frame"), slot7 == AttireConst.TYPE_CHAT_FRAME)
 	setText(slot4.transform:Find("bg/Text"), slot6:getConfig("name"))
 end

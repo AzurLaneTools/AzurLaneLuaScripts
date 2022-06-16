@@ -74,18 +74,14 @@ function slot0.register(slot0)
 			return
 		end
 
-		if not getProxy(ActivityProxy):getActivityByType(34) then
-			return
-		end
-
 		if uv1.contextData.isOther then
 			WorldBossScene.inOtherBossBattle = uv1.contextData.bossId
 		end
 
 		uv1:sendNotification(GAME.BEGIN_STAGE, {
+			actID = 0,
 			bossId = uv1.contextData.bossId,
-			system = SYSTEM_WORLD_BOSS,
-			actID = slot2.id
+			system = SYSTEM_WORLD_BOSS
 		})
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)

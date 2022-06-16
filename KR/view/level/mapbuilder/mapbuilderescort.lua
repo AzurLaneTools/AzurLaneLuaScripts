@@ -78,6 +78,9 @@ end
 
 function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 	slot4 = pg.escort_template[slot2]
+
+	assert(slot4, "escort template not exist: " .. slot2)
+
 	slot1.name = "chapter_" .. slot3.id
 	slot6 = slot0.map.rect
 	slot1.anchoredPosition = Vector2(slot6.width / slot0.scaleRatio * (tonumber(slot4.pos_x) - 0.5), slot6.height / slot0.scaleRatio * (tonumber(slot4.pos_y) - 0.5))

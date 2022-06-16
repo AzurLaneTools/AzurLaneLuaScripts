@@ -2041,7 +2041,7 @@ _G.pg.base.gametip.tactics_end_to_learn = {
 }
 
 _G.pg.base.gametip.tactics_continue_to_learn = {
-	tip = "스킬을 계속 강화하시겠습니까?"
+	tip = ", 해당 스킬을 계속 강화하시겠습니까?"
 }
 
 _G.pg.base.gametip.tactics_should_exist_skill = {
@@ -3118,6 +3118,239 @@ _G.pg.base.gametip.shop_extendMagazine_error = {
 
 _G.pg.base.gametip.shop_entendShipYard_error = {
 	tip = "도크 확장 실패："
+}
+
+_G.pg.base.gametip.spweapon_attr_effect = {
+	tip = "특수 장비 효과"
+}
+
+_G.pg.base.gametip.spweapon_attr_skillupgrade = {
+	tip = "스킬 강화"
+}
+
+_G.pg.base.gametip.spweapon_help_storage = {
+	tip = {
+		{
+			info = [[
+※ 특수 장비 시스템 설명
+한계돌파 MAX를 달성한 캐릭터는 <color=#92fc63>특수 장비 슬롯</color>이 해제되며 <color=#92fc63>특수 장비</color>를 장착할 수 있습니다.
+*PR, DR함, UR 등급 함선, META 함선은 한계돌파 없이도 특수 장비 슬롯이 바로 해제됩니다.
+
+<color=#92fc63>「특수 장비 훈련」</color> 또는 <color=#92fc63>특수 장비 제작</color>을 통해 특수 장비를 획득할 수 있습니다.
+특수 장비는 캐릭터의 <color=#92fc63>스탯을 증가</color>시켜주며, 특수 장비를 특정 레벨까지 강화하면 <color=#92fc63>「특수 장비 효과」</color>가 활성화됩니다.
+특수 장비의 스탯 증가 수치는 일정한 범위가 있으며, 이는 특수 장비를 획득할 때 확정됩니다. 스탯 증가 수치는 <color=#92fc63>스탯 개조</color>를 통해 초기화할 수 있습니다. 강화, 한계돌파 등 조작 시 스탯 증가 수치는 초기화되지 않으며, 고정된 수치만이 증가합니다.
+일부 캐릭터는 <color=#92fc63>전용 특수 장비</color>를 가지고 있습니다. 전용 특수 장비는 해당 캐릭만 착용 가능합니다.
+<color=#92fc63>스탯 증가</color>, <color=#92fc63>「특수 장비 효과」</color> 이외에, 전용 특수 장비를 특정 레벨까지 강화하면 <color=#92fc63>「스킬 강화」</color>가 적용되어 캐릭터의 스킬 효과가 강화됩니다.
+
+
+특수 참격
+특수 참격은 스페셜한 「특수 장비 효과」입니다.
+전투 중 캐릭터가 특수 참격을 가지고 있을 시, 선봉함선 특수 참격의 유형과 수량에 따라 각기 다른 형태의 참격이 발동됩니다.
+특수 참격은 적의 일부 공격 탄막을 무력화킬 수 있으며, 무력화 가능한 탄막 유형은 참격의 형태와 연관이 있습니다.
+특수 참격의 준비 기간은 15초입니다. 특수 참격 준비 완료 후, 선봉함선이 공격을 받거나, 완료된지 5초 동안 선봉함선이 공격을 받지 않더라도 특수 참격을 발동합니다. 참격은 발동 후 다시 준비해야 합니다.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.spweapon_tip_upgrade = {
+	tip = "강화 경험치 상한 도달"
+}
+
+_G.pg.base.gametip.spweapon_tip_attr_modify = {
+	tip = "스탯 보류 또는 스탯 변경 선택 후 스탯 개조를 진행할 수 있습니다."
+}
+
+_G.pg.base.gametip.spweapon_tip_materal_no_enough = {
+	tip = "재료 부족"
+}
+
+_G.pg.base.gametip.spweapon_tip_gold_no_enough = {
+	tip = "물자 부족"
+}
+
+_G.pg.base.gametip.spweapon_tip_pt_no_enough = {
+	tip = "돌파에 필요한 경험치 부족. 강화 재료를 선택하세요."
+}
+
+_G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
+	tip = "제작에 필요한 경험치 부족. 강화 재료를 선택하세요."
+}
+
+_G.pg.base.gametip.spweapon_tip_bag_no_enough = {
+	tip = "특수 장비 창고 칸 부족"
+}
+
+_G.pg.base.gametip.spweapon_tip_create_sussess = {
+	tip = "특수 장비 획득: <color=#92fc63>$1 X1</color>"
+}
+
+_G.pg.base.gametip.spweapon_tip_group_error = {
+	tip = "착용 실패. 착용 조건에 부합하지 않습니다."
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_overflow = {
+	tip = "<color=#ff5c5c>$1</color>의 강화 경험치가 초과됩니다. 확인하시겠습니까?"
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
+	tip = "소모되는 재료를 확인 후 돌파를 진행하세요."
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_materal_check = {
+	tip = "소모되는 재료를 확인 후 개조를 진행하세요."
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_attrmax = {
+	tip = "랜덤 스탯 최대치 도달"
+}
+
+_G.pg.base.gametip.spweapon_tip_locked = {
+	tip = "한계돌파 MAX 달성 후 <color=#92fc63>특수 장비 슬롯</color>이 해제됩니다."
+}
+
+_G.pg.base.gametip.spweapon_ui_level = {
+	tip = "강화 레벨"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax = {
+	tip = "강화 레벨 MAX"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax2 = {
+	tip = "강화 최대치 도달"
+}
+
+_G.pg.base.gametip.spweapon_ui_need_resource = {
+	tip = "필요 재료:"
+}
+
+_G.pg.base.gametip.spweapon_ui_ptitem = {
+	tip = "강화석"
+}
+
+_G.pg.base.gametip.spweapon_ui_spweapon = {
+	tip = "특수 장비"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform = {
+	tip = "개조"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform_attr_text = {
+	tip = "스탯 개조 시 특수 장비의 스탯 랜덤 증가 수치를 일부 초기화하고, 특수 장비의 스탯 랜덤 증가 수치 범위 내에서 새로운 랜덤 증가 수치가 생성됩니다."
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr = {
+	tip = "스탯 보류"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr = {
+	tip = "스탯 변경"
+}
+
+_G.pg.base.gametip.spweapon_ui_autoselect = {
+	tip = "자동 선택"
+}
+
+_G.pg.base.gametip.spweapon_ui_cancelselect = {
+	tip = "선택 취소"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_quZhu = {
+	tip = "구축"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qinXun = {
+	tip = "경순"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhongXun = {
+	tip = "중순"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhanLie = {
+	tip = "전함"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
+	tip = "항모"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_weiXiu = {
+	tip = "공작"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qianTing = {
+	tip = "잠수"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_other = {
+	tip = "기타"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
+	tip = "<color=#92fc63>스탯 변경</color> 시 특수 장비의 스탯 증가 수치가 변경됩니다."
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
+	tip = "<color=#92fc63>스탯을 변경</color>하시겠습니까?"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text1 = {
+	tip = "<color=#ffde38>스탯 보류</color> 시 특수 장비의 스탯 증가 수치가 보류되며,\n스탯 개조를 포기합니다."
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text2 = {
+	tip = "<color=#ffde38>스탯을 보류</color>하시겠습니까?"
+}
+
+_G.pg.base.gametip.spweapon_ui_create_exp = {
+	tip = "제작에 필요한 경험치:"
+}
+
+_G.pg.base.gametip.spweapon_ui_upgrade_exp = {
+	tip = "강화에 필요한 경험치:"
+}
+
+_G.pg.base.gametip.spweapon_ui_breakout_exp = {
+	tip = "돌파에 필요한 경험치:"
+}
+
+_G.pg.base.gametip.spweapon_ui_create = {
+	tip = "제작"
+}
+
+_G.pg.base.gametip.spweapon_ui_storage = {
+	tip = "창고"
+}
+
+_G.pg.base.gametip.spweapon_ui_empty = {
+	tip = "비어 있음"
+}
+
+_G.pg.base.gametip.spweapon_ui_create_button = {
+	tip = "제 작"
+}
+
+_G.pg.base.gametip.spweapon_ui_helptext = {
+	tip = "*특수 장비는 「특수 장비 코어」, 「물자」 및 「강화 재료」를 소모하여 제작, 강화, 돌파합니다.\n 강화 경험치 조건에 부합하도록 「강화석」 또는 「특수 장비」를 재료로 선택하세요."
+}
+
+_G.pg.base.gametip.spweapon_ui_effect_tag = {
+	tip = "특수 장비 효과"
+}
+
+_G.pg.base.gametip.spweapon_ui_skill_tag = {
+	tip = "스킬 강화"
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text1 = {
+	tip = "* 이벤트 임무 완성 시, 특수 장비 코어, 특수 장비 강화석 등 보상을 획득합니다."
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text2 = {
+	tip = "*「특수 장비 코어」, 「특수 장비 강화석」은 특수 장비 제작, 강화에 사용됩니다."
 }
 
 _G.pg.base.gametip.stage_beginStage_error = {
@@ -5799,7 +6032,11 @@ _G.pg.base.gametip.help_daily_task = {
 	tip = {
 		{
 			info = [[
-통상 파괴 오픈 시간: 매일 개방, 매주 최대 2회 도전 가능.
+※ 특수 장비 훈련 오픈 시간: 매일 개방. 매주 최대 2회 도전 가능
+◆ 적이 <color=#92fc63>특수 연막탄</color>을 사용하며, 아군 주력함대로부터 받는 대미지를 감소시키며, 아군 주력함대의 명중률이 대폭 감소한다.
+◆ 적이 <color=#92fc63>특수 참격</color>을 사용하며, 일부 포격과 어뢰 탄막을 제거한다.
+
+※ 통상 파괴 오픈 시간: 매일 개방, 매주 최대 2회 도전 가능.
 통상 파괴 모드에서 지휘관이 <color=#92fc63>잠수 편대</color>를 출전시키면 여러 <color=#92fc63>어뢰 무기</color>가 <color=#92fc63>장비 함선</color>에 각기 다른 수량의<color=#92fc63>탄약</color>을 제공한다.
 <color=#92fc63>어뢰 설비</color>는 <color=#92fc63>장비 함선</color>에 추가 <color=#92fc63>탄약</color>을 제공한다.
 통상 파괴 모드에서 <color=#92fc63>모든 잠수 스킬</color>은 효력이 없으며, 잠수함의 전탄 발 사, 전용 탄막은 <color=#92fc63>특수 공격 버튼</color>으로 발동된다(<color=#92fc63>쉬르쿠프 전용 탄막</color> 은<color=#92fc63>부상</color>시 발동되며, 매 전투마다 1회 만 발동한다)
@@ -7153,7 +7390,13 @@ _G.pg.base.gametip.ship_remould_warning_310044 = {
 }
 
 _G.pg.base.gametip.ship_remould_warning_303154 = {
-	tip = "<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다.\n주포 슬롯이<color=#92fc63>【주포(경순양함)】</color>→<color=#92fc63>【주포(중순양함)】</color>으로 변경되어, 현재 장비중인 주포 슬롯의 장비가 해제됩니다.\n진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>"
+	tip = [[
+개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다.
+<color=#92fc63>【주포(경순양함)】</color>이
+<color=#92fc63>【주포(중순양함)】</color>으로 변경됩니다. <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color>
+<color=#92fc63>【주포】</color> 슬롯의 장비가 해제됩니다.
+<color=#92fc63>【특수 장비】</color> 슬롯의 장비가 해제됩니다.
+계속 진행하시겠습니까?]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_402134 = {
@@ -12760,6 +13003,26 @@ _G.pg.base.gametip.msgbox_text_unlock = {
 
 _G.pg.base.gametip.msgbox_text_save = {
 	tip = "저 장"
+}
+
+_G.pg.base.gametip.msgbox_text_replace = {
+	tip = "변 경"
+}
+
+_G.pg.base.gametip.msgbox_text_unload = {
+	tip = "해 제"
+}
+
+_G.pg.base.gametip.msgbox_text_modify = {
+	tip = "개 조"
+}
+
+_G.pg.base.gametip.msgbox_text_breakthrough = {
+	tip = "돌 파"
+}
+
+_G.pg.base.gametip.msgbox_text_equipdetail = {
+	tip = "장비 정보"
 }
 
 _G.pg.base.gametip.common_flag_ship = {
@@ -19608,6 +19871,90 @@ _G.pg.base.gametip.battle_result_continue = {
 	tip = "터치하여 계속하기"
 }
 
+_G.pg.base.gametip.index_L2D = {
+	tip = "L2D"
+}
+
+_G.pg.base.gametip.index_DBG = {
+	tip = "모션 배경"
+}
+
+_G.pg.base.gametip.index_BG = {
+	tip = "일반 배경"
+}
+
+_G.pg.base.gametip.index_CANTUSE = {
+	tip = "사용 불가"
+}
+
+_G.pg.base.gametip.index_UNUSE = {
+	tip = "미사용"
+}
+
+_G.pg.base.gametip.index_BGM = {
+	tip = "스페셜 BGM"
+}
+
+_G.pg.base.gametip.without_ship_to_wear = {
+	tip = "스킨 변경 가능한 캐릭터 없음"
+}
+
+_G.pg.base.gametip.choose_ship_to_wear_this_skin = {
+	tip = "스킨 변경할 캐릭터를 선택하세요."
+}
+
+_G.pg.base.gametip.skinatlas_search_holder = {
+	tip = "캐릭터 이름 또는 스킨 이름 검색"
+}
+
+_G.pg.base.gametip.skinatlas_search_result_is_empty = {
+	tip = "조건에 맞는 스킨 없음"
+}
+
+_G.pg.base.gametip.chang_ship_skin_window_title = {
+	tip = "스킨"
+}
+
+_G.pg.base.gametip.world_boss_item_info = {
+	tip = [[
+비콘 기록기|대형 작전에서 수집한 「비콘 데이터」를 기록하는 장치. 지정 데이터량 도달 후 데이터를 분석하여 특정한 비콘을 발견할 수 있다.
+P.S.기록기의 기록 용량은 상한이 존재하니, 꼭 제때 분석해야 한다.
+매일 획득 상한: $1/$2
+기록 용량 상한: $3/$4]]
+}
+
+_G.pg.base.gametip.meta_syn_value_label = {
+	tip = "누적 동기화 수치"
+}
+
+_G.pg.base.gametip.meta_syn_finish = {
+	tip = "정보 동기화 완료"
+}
+
+_G.pg.base.gametip.index_meta_repair = {
+	tip = "함장 강화 가능"
+}
+
+_G.pg.base.gametip.index_meta_tactics = {
+	tip = "전술 연구 가능"
+}
+
+_G.pg.base.gametip.index_meta_energy = {
+	tip = "에너지 활성화 가능"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_skill = {
+	tip = ", 해당 캐릭터의 스킬을 계속 강화하시겠습니까?"
+}
+
+_G.pg.base.gametip.tactics_continue_to_learn_other_ship_skill = {
+	tip = "현재 캐릭터의 모든 스킬이 최대 레벨입니다. 다른 캐릭터의 스킬을 강화하시겠습니까?"
+}
+
+_G.pg.base.gametip.tactics_no_recent_ships = {
+	tip = "최근 스킬 강화한 캐릭터 없음"
+}
+
 _G.pg.base.gametip.activity_kill = {
 	tip = "누적 격침"
 }
@@ -19835,4 +20182,12 @@ _G.pg.base.gametip.support_times_tip = {
 
 _G.pg.base.gametip.build_times_tip = {
 	tip = "건조 수량"
+}
+
+_G.pg.base.gametip.tactics_recent_ship_label = {
+	tip = "최근 스킬 강화"
+}
+
+_G.pg.base.gametip.title_info = {
+	tip = "정보"
 }

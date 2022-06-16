@@ -100,6 +100,9 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.power = slot1.point or slot1.score or 0
 	slot0.rank = slot1.rank or 0
 	slot0.arenaRank = math.min(math.max(slot1.arena_rank or 0, 1), 14)
+
+	assert(slot2, "type can not be nil")
+
 	slot0.type = slot2
 end
 

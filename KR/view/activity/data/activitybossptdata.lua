@@ -4,8 +4,13 @@ function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot2 = slot1:getDataConfig("link_id")
+	slot4 = getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_id")
+	slot5 = pg.activity_event_worldboss[slot4]
+
+	assert(slot5, "miss activity_event_worldboss config, ID: " .. slot4)
+
 	slot0.linkID = slot2
-	slot0.progress_target = pg.activity_event_worldboss[getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_id")].reward_pt
+	slot0.progress_target = slot5.reward_pt
 end
 
 function slot0.GetBossProgress(slot0)

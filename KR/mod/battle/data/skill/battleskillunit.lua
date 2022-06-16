@@ -57,6 +57,10 @@ function slot3.Cast(slot0, slot1, slot2)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot7)
 	end
 
+	if slot0._tempData.sfx then
+		uv0.Battle.PlayBattleSFX(slot0._tempData.sfx)
+	end
+
 	slot6 = slot0._attachData
 
 	for slot10, slot11 in ipairs(slot0._effectList) do

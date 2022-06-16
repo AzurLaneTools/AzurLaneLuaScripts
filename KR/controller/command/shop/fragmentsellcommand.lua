@@ -8,7 +8,8 @@ function slot0.execute(slot0, slot1)
 
 	for slot11, slot12 in pairs(slot1:getBody()) do
 		slot13 = slot12
-		slot14 = pg.item_data_statistics[slot13.id]
+
+		assert(pg.item_data_statistics[slot13.id], "Can't find the price " .. slot13.id)
 
 		if slot3:getItemCountById(slot13.id) < slot13.count then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot14.name))

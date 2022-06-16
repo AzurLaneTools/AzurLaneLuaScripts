@@ -40,6 +40,8 @@ function slot0.execute(slot0, slot1)
 				uv2:updatePlayer(slot3)
 			elseif uv1.type == DROP_TYPE_WORLD_ITEM then
 				uv3:RemoveItem(uv1.id, uv1.count)
+			else
+				assert(false)
 			end
 
 			slot3 = uv4:GetActiveMap():GetPort()

@@ -10,6 +10,7 @@ function slot0.onRegister(slot0)
 	slot0._showMaxLevelHelp = PlayerPrefs.GetInt("maxLevelHelp", 0) > 0
 	slot0._nextTipAutoBattleTime = PlayerPrefs.GetInt("AutoBattleTip", 0)
 	slot0._setFlagShip = PlayerPrefs.GetInt("setFlagShip", 0) > 0
+	slot0._setFlagShipForSkinAtlas = PlayerPrefs.GetInt("setFlagShipforskinatlas", 0) > 0
 	slot0._screenRatio = PlayerPrefs.GetFloat("SetScreenRatio", ADAPT_TARGET)
 	slot0.storyAutoPlayCode = PlayerPrefs.GetInt("story_autoplay_flag", 0)
 	NotchAdapt.CheckNotchRatio = slot0._screenRatio
@@ -194,6 +195,19 @@ end
 
 function slot0.GetSetFlagShip(slot0)
 	return slot0._setFlagShip
+end
+
+function slot0.SetFlagShipForSkinAtlas(slot0, slot1)
+	if slot0._setFlagShipForSkinAtlas ~= slot1 then
+		slot0._setFlagShipForSkinAtlas = slot1
+
+		PlayerPrefs.SetInt("setFlagShipforskinatlas", slot1 and 1 or 0)
+		PlayerPrefs.Save()
+	end
+end
+
+function slot0.GetSetFlagShipForSkinAtlas(slot0)
+	return slot0._setFlagShipForSkinAtlas
 end
 
 function slot0.CheckNeedUserAgreement(slot0)

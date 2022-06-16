@@ -303,6 +303,8 @@ function slot0.SetAllCharacterPos(slot0)
 end
 
 function slot0.SetCharacterPos(slot0, slot1, slot2, slot3)
+	assert(slot0._gridTFs[slot1], "没有找到编队显示对象_teamType:" .. tostring(slot1))
+
 	slot5 = slot3.spineRole
 	slot6 = slot5.modelRoot
 	slot7 = slot0._gridTFs[slot1][slot2]
@@ -323,7 +325,7 @@ function slot0.ResetGrid(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = slot0._currentFleetVO:getTeamByName(slot1)
+	assert(slot0._currentFleetVO:getTeamByName(slot1), slot1)
 
 	for slot8, slot9 in ipairs(slot0._gridTFs[slot1]) do
 		SetActive(slot9:Find("shadow"), false)
@@ -358,6 +360,8 @@ function slot0.ResetGrid(slot0, slot1, slot2)
 end
 
 function slot0.SwitchToShiftMode(slot0, slot1, slot2)
+	assert(slot0._gridTFs[slot2], "没有找到编队显示对象_teamType:" .. tostring(slot2))
+
 	if slot0._switchToShiftModeHandler then
 		slot0._switchToShiftModeHandler()
 	end
@@ -470,6 +474,8 @@ function slot0.SetEnableForSpineInterface(slot0, slot1)
 end
 
 function slot0.Shift(slot0, slot1, slot2, slot3)
+	assert(slot0._gridTFs[slot3], "没有找到编队显示对象_teamType:" .. tostring(slot3))
+
 	slot4 = slot0._characterList[slot3]
 	slot6 = slot4[slot2]
 	slot10 = slot0._gridTFs[slot3][slot1].localPosition

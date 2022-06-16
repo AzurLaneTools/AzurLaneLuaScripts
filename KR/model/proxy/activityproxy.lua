@@ -67,7 +67,11 @@ function slot0.register(slot0)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
 	end)
 	slot0:on(11201, function (slot0)
-		if Activity.Create(slot0.activity_info):getConfig("type") == ActivityConst.ACTIVITY_TYPE_PARAMETER then
+		slot1 = Activity.Create(slot0.activity_info)
+
+		assert(slot1.id, "should exist activity")
+
+		if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PARAMETER then
 			uv0:addActivityParameter(slot1)
 		end
 
@@ -347,6 +351,9 @@ function slot0.RawGetActivityById(slot0, slot1)
 end
 
 function slot0.updateActivity(slot0, slot1)
+	assert(slot0.data[slot1.id], "activity should exist" .. slot1.id)
+	assert(isa(slot1, Activity), "activity should instance of Activity")
+
 	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
 		slot2 = pg.battlepass_event_pt[slot1.id].target
 
@@ -364,12 +371,17 @@ function slot0.updateActivity(slot0, slot1)
 end
 
 function slot0.addActivity(slot0, slot1)
+	assert(slot0.data[slot1.id] == nil, "activity already exist" .. slot1.id)
+	assert(isa(slot1, Activity), "activity should instance of Activity")
+
 	slot0.data[slot1.id] = slot1
 
 	slot0.facade:sendNotification(uv0.ACTIVITY_ADDED, slot1:clone())
 end
 
 function slot0.deleteActivityById(slot0, slot1)
+	assert(slot0.data[slot1], "activity should exist" .. slot1)
+
 	slot0.data[slot1] = nil
 
 	slot0.facade:sendNotification(uv0.ACTIVITY_DELETED, slot1)
@@ -431,7 +443,11 @@ function slot0.getVirtualItemNumber(slot0, slot1)
 end
 
 function slot0.removeVitemById(slot0, slot1, slot2)
-	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG) and not slot3:isEnd() then
+	slot3 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG)
+
+	assert(slot3, "vbagType invalid")
+
+	if slot3 and not slot3:isEnd() then
 		slot3.data1KeyValueList[1][slot1] = slot3.data1KeyValueList[1][slot1] - slot2
 	end
 
@@ -439,7 +455,11 @@ function slot0.removeVitemById(slot0, slot1, slot2)
 end
 
 function slot0.addVitemById(slot0, slot1, slot2)
-	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG) and not slot3:isEnd() then
+	slot3 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG)
+
+	assert(slot3, "vbagType invalid")
+
+	if slot3 and not slot3:isEnd() then
 		if not slot3.data1KeyValueList[1][slot1] then
 			slot3.data1KeyValueList[1][slot1] = 0
 		end
@@ -553,6 +573,8 @@ end
 function slot0.MarkSkinCoupon(slot0, slot1)
 	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() then
 		slot2.data1 = slot2.data1 + 1
+
+		assert(slot1)
 
 		if not table.contains(slot2.data1_list, slot1) then
 			table.insert(slot2.data1_list, slot1)

@@ -74,6 +74,8 @@ function slot0.FlushModelAction(slot0)
 end
 
 function slot0.PlayModelAction(slot0, slot1, slot2, slot3)
+	assert(slot1)
+
 	slot4 = {}
 
 	if slot0.model then
@@ -144,6 +146,8 @@ function slot0.LoadModel(slot0, slot1, slot2, slot3, slot4, slot5)
 			table.insert(slot6, function (slot0)
 				uv0:LoadPrefab(slot0)
 			end)
+		else
+			assert("invalid model type: " .. slot1)
 		end
 
 		seriesAsync(slot6, function ()

@@ -1,6 +1,7 @@
 slot0 = class("WorldMediaCollectionTemplateLayer", import("view.base.BaseSubView"))
 
 function slot0.getUIName(slot0)
+	assert(false, "Need Assign UIName " .. slot0.__cname)
 end
 
 function slot0.Ctor(slot0, slot1, ...)

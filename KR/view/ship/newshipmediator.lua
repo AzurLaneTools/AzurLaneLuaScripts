@@ -9,6 +9,9 @@ slot0.OPEN = "NewShipMediator:OPEN"
 function slot0.register(slot0)
 	slot1 = slot0.contextData.ship
 	slot0.fromRemould = slot0.contextData.fromRemould
+
+	assert(slot1, "必须存在船")
+
 	slot0.showTrans = slot1:isRemoulded()
 
 	slot0.viewComponent:setShip(slot1)

@@ -649,7 +649,10 @@ function slot0.StartSearch(slot0, slot1, slot2)
 		slot6 = uv3
 
 		if LeanTween.isTweening(GameObject.Find(slot3.tweenPath)) then
-			uv2("tweenPath time : " .. LeanTween.getTakeTime(slot7))
+			slot6 = LeanTween.getTakeTime(slot7)
+
+			uv2("tweenPath time : " .. slot6)
+			assert(slot6 > 0, "tween time less than zero")
 		else
 			uv2("<color=red> no animating >>> </color>" .. slot7.name)
 		end
@@ -930,6 +933,8 @@ function slot0.dispatchNewEvent(slot0, slot1)
 	end
 
 	if slot1.inject then
+		assert(slot1.retain, "必须保留事件")
+
 		slot2 = slot0.curEvents[slot1.inject]
 		slot1.action = slot2.action
 		slot1.viewComponent = slot2.viewComponent

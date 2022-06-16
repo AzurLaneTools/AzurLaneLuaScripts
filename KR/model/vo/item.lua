@@ -22,6 +22,7 @@ slot0.GUILD_OPENABLE = 20
 slot0.INVITATION_TYPE = 21
 slot0.EXP_BOOK_TYPE = 22
 slot0.LOVE_LETTER_TYPE = 23
+slot0.SPWEAPON_MATERIAL_TYPE = 24
 
 function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
@@ -56,6 +57,8 @@ function slot0.GetConfig(slot0, slot1)
 		return slot2(pg.item_data_frame[slot1])
 	elseif slot0 == DROP_TYPE_CHAT_FRAME then
 		return slot2(pg.item_data_chat[slot1])
+	elseif slot0 == DROP_TYPE_SPWEAPON then
+		return slot2(pg.spweapon_data_statistics[slot1])
 	end
 end
 

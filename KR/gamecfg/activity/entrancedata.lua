@@ -326,15 +326,10 @@ return {
 			}
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(4282) and not slot1:isEnd()
+			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970402) and slot1:isInAct()
 		end,
 		isTip = function ()
-			slot0 = 970402
-			slot1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(970402)
-
-			slot1:setDataBeforeGet()
-
-			if slot1:isPassType() then
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970402):isPassType() then
 				return false
 			end
 
@@ -349,7 +344,7 @@ return {
 			end
 
 			if slot2 == false then
-				slot2 = getProxy(MetaCharacterProxy):getRedTag(970402)
+				slot2 = getProxy(MetaCharacterProxy):getRedTag(slot0)
 			end
 
 			return slot2

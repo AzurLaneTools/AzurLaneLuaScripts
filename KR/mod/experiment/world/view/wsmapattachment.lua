@@ -32,10 +32,14 @@ function slot0.GetResName(slot0)
 		return "transport_tpl"
 	elseif slot0.type == WorldMapAttachment.TypeTrap then
 		return "event_tpl"
+	else
+		assert(false, "invalid attachment type: " .. tostring(slot0.type))
 	end
 end
 
 function slot0.Setup(slot0, slot1, slot2, slot3)
+	assert(slot0.worldMapAttachment == nil)
+
 	slot0.map = slot1
 	slot0.cell = slot2
 
@@ -141,6 +145,8 @@ function slot0.Update(slot0, slot1)
 		slot0:UpdateTransportFleet(slot1)
 	elseif slot2.type == WorldMapAttachment.TypeTrap then
 		slot0:UpdateTrap(slot1)
+	else
+		assert(false, "invalid attachment type: " .. slot2.type)
 	end
 
 	slot0:UpdateBreathTween()
@@ -186,6 +192,8 @@ function slot0.UpdateEvent(slot0, slot1)
 						setAnchoredPosition(uv1.model, uv2:GetDeviation())
 					end
 				end)
+			else
+				assert(false, "enemyicon error from id: " .. slot4.id)
 			end
 
 			slot0:UpdateBuffList(slot5, slot4:GetBuffList())
@@ -474,6 +482,8 @@ function slot0.UpdateBreathTween(slot0)
 end
 
 function slot0.UpdateIsFighting(slot0, slot1)
+	assert(WorldMapAttachment.IsEnemyType(slot0.attachment.type))
+
 	if slot0.isFighting ~= slot1 then
 		slot0.isFighting = slot1
 

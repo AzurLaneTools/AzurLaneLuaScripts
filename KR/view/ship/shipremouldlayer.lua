@@ -74,9 +74,13 @@ function slot0.setShipVO(slot0, slot1)
 end
 
 function slot0.getShipTranformData(slot0)
+	slot1 = pg.ship_data_trans[slot0.shipGroupId]
+
+	assert(slot1, "config missed [pg.ship_data_trans] shipGroup>>>." .. slot0.shipGroupId)
+
 	slot2 = {}
 
-	for slot6, slot7 in ipairs(pg.ship_data_trans[slot0.shipGroupId].transform_list) do
+	for slot6, slot7 in ipairs(slot1.transform_list) do
 		for slot11, slot12 in ipairs(slot7) do
 			slot2[slot12[2]] = Vector2(slot6, slot12[1])
 		end
@@ -119,6 +123,7 @@ function slot0.initTranformInfo(slot0)
 	slot0:updateLines()
 
 	if slot0.contextData.transformId then
+		assert(slot0.grids[slot0.contextData.transformId], "without this transform id:" .. slot0.contextData.transformId)
 		triggerToggle(slot0.grids[slot0.contextData.transformId], true)
 	end
 end
@@ -846,7 +851,8 @@ function slot0.showToolTip(slot0, slot1)
 	end, SFX_CANCEL)
 	setActive(slot0.tooltip, true)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.tooltip, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+		groupName = LayerWeightConst.GROUP_SHIPINFOUI,
+		weight = LayerWeightConst.THIRD_LAYER
 	})
 end
 

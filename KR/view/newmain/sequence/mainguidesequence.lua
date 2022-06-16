@@ -58,6 +58,14 @@ slot1 = {
 }
 
 function slot0.Execute(slot0, slot1)
+	if IsUnityEditor and not ENABLE_GUIDE then
+		if slot1 then
+			slot1()
+		end
+
+		return
+	end
+
 	if not _.detect(uv0, function (slot0)
 		return not pg.NewStoryMgr.GetInstance():IsPlayed(slot0.id) and slot0.condition()
 	end) then

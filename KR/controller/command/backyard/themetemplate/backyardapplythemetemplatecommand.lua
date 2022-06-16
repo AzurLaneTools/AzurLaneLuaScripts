@@ -83,6 +83,8 @@ function slot0.WarpList(slot0)
 	slot2, slot3, slot4, slot5 = slot1:GetMapSize()
 
 	function slot6(slot0)
+		assert(slot0.position, slot0.id)
+
 		return not slot0:isPaper() and (slot0.position.x < uv0 or slot0.position.y < uv1)
 	end
 

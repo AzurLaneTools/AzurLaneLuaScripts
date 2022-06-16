@@ -181,7 +181,16 @@ function slot0.GetLevelCount(slot0)
 end
 
 function slot0.AddShip(slot0, slot1, slot2)
-	slot4 = slot0[WorldConst.FetchRawShipVO(slot1.id):getTeamType()]
+	assert(slot1.class == WorldMapShip)
+	assert(not _.any(slot0:GetShips(true), function (slot0)
+		return slot0.id == uv0.id
+	end), "ship exist in port: " .. slot1.id)
+
+	slot3 = WorldConst.FetchRawShipVO(slot1.id)
+
+	assert(slot3, "ship not exist: " .. slot1.id)
+
+	slot4 = slot0[slot3:getTeamType()]
 	slot1.fleetId = slot0.id
 
 	table.insert(slot4, slot2 or #slot4 + 1, slot1)
@@ -189,7 +198,11 @@ function slot0.AddShip(slot0, slot1, slot2)
 end
 
 function slot0.RemoveShip(slot0, slot1)
-	for slot7 = #slot0[WorldConst.FetchRawShipVO(slot1):getTeamType()], 1, -1 do
+	slot2 = WorldConst.FetchRawShipVO(slot1)
+
+	assert(slot2, "ship not exist: " .. slot1)
+
+	for slot7 = #slot0[slot2:getTeamType()], 1, -1 do
 		if slot3[slot7].id == slot1 then
 			slot8 = table.remove(slot3, slot7)
 			slot8.fleetId = nil
@@ -202,6 +215,8 @@ function slot0.RemoveShip(slot0, slot1)
 end
 
 function slot0.ReplaceShip(slot0, slot1, slot2)
+	assert(slot0:GetShip(slot1))
+
 	if slot0:GetShip(slot2.id) then
 		slot0:SwitchShip(slot1, slot2.id)
 	else
@@ -212,10 +227,14 @@ function slot0.ReplaceShip(slot0, slot1, slot2)
 end
 
 function slot0.SwitchShip(slot0, slot1, slot2)
-	slot6 = WorldConst.FetchRawShipVO(slot2):getTeamType()
+	slot4 = WorldConst.FetchRawShipVO(slot2)
+
+	assert(WorldConst.FetchRawShipVO(slot1) and slot4)
+	assert(slot3:getTeamType() == slot4:getTeamType())
+
 	slot7, slot8 = nil
 
-	for slot12, slot13 in ipairs(slot0[WorldConst.FetchRawShipVO(slot1):getTeamType()]) do
+	for slot12, slot13 in ipairs(slot0[slot5]) do
 		if slot13.id == slot1 then
 			slot7 = slot12
 		end
@@ -256,6 +275,8 @@ function slot0.GetAmmo(slot0)
 end
 
 function slot0.UseAmmo(slot0)
+	assert(slot0.ammo > 0, "without ammo")
+
 	slot0.ammo = slot0.ammo - 1
 end
 
@@ -350,6 +371,10 @@ function slot0.RemoveAllCarries(slot0)
 end
 
 function slot0.BuildCarryPath(slot0, slot1, slot2, slot3)
+	slot5 = table.indexof(slot0:GetCarries(), slot1)
+
+	assert(slot5, "can not find carry item: " .. slot1.id)
+
 	slot10 = {
 		row = slot2.row,
 		column = slot2.column
@@ -362,7 +387,7 @@ function slot0.BuildCarryPath(slot0, slot1, slot2, slot3)
 		}
 	end), 1, slot10)
 
-	for slot10 = 1, table.indexof(slot0:GetCarries(), slot1) - 1 do
+	for slot10 = 1, slot5 - 1 do
 		table.insert(slot6, 1, {
 			row = slot2.row + slot4[slot10].offsetRow,
 			column = slot2.column + slot4[slot10].offsetColumn
@@ -534,6 +559,7 @@ function slot0.outputCommanders(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.commanderIds) do
+		assert(slot6, "id is nil")
 		table.insert(slot1, {
 			pos = slot5,
 			id = slot6

@@ -73,7 +73,7 @@ function slot0.init(slot0)
 	slot0.unlockPage = NewNavalTacticsUnlockSlotPage.New(slot0._tf, slot0.event)
 	slot0.selSkillPage = NewNavalTacticsSelSkillsPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.selLessonPage = NewNavalTacticsSelLessonPage.New(slot0._tf, slot0.event)
-	slot0.finishLessonUtil = NewNavalTacticsFinishLessonUtil.New(slot0.studentsPage, slot0.selLessonPage)
+	slot0.finishLessonUtil = NewNavalTacticsFinishLessonUtil.New(slot0.studentsPage, slot0.selLessonPage, slot0.selSkillPage)
 end
 
 function slot0.didEnter(slot0)
@@ -199,7 +199,7 @@ end
 
 function slot0.StartLesson(slot0, slot1, slot2)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		content = i18n("tactics_lesson_start_tip", pg.item_data_statistics[slot1.lessonId].name, slot2:getName(), ShipSkill.New(slot2.skills[slot1:getSkillId(slot2)]):GetName()),
+		content = i18n("tactics_lesson_start_tip", pg.item_data_statistics[slot1.lessonId].name, slot2:getName(), ShipSkill.New(slot2.skills[slot1:getSkillId(slot2)], slot2.id):GetName()),
 		onYes = function ()
 			if uv0:IsMaxLevel() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_max_level"))

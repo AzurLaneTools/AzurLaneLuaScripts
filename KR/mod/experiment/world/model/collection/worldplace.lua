@@ -12,6 +12,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.number = slot1.number or 0
 	slot0.unlock = false
 	slot0.config = uv0[slot0.configId]
+
+	assert(slot0.config)
 end
 
 function slot0.setUnlock(slot0, slot1)

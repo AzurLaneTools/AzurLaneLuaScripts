@@ -2026,7 +2026,7 @@ pg.activity_template = {
 				{
 					2022,
 					6,
-					22
+					29
 				},
 				{
 					23,
@@ -2043,8 +2043,8 @@ pg.activity_template = {
 			{
 				{
 					2022,
-					5,
-					26
+					6,
+					2
 				},
 				{
 					0,
@@ -2056,7 +2056,7 @@ pg.activity_template = {
 				{
 					2022,
 					6,
-					15
+					29
 				},
 				{
 					23,
@@ -2105,7 +2105,7 @@ pg.activity_template = {
 				{
 					2022,
 					6,
-					22
+					29
 				},
 				{
 					23,
@@ -2181,7 +2181,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 31,
+		is_show = 32,
 		config_data = {
 			1650001,
 			1650002,
@@ -3314,6 +3314,62 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4426] = {
+		mark = 20220609,
+		config_client = "",
+		title_res_tag = "LevelOpenAct",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 31,
+		id = 4426,
+		config_data = {
+			{
+				17733,
+				17734,
+				17735,
+				17736,
+				17737,
+				17738,
+				17739,
+				17740,
+				17741,
+				17742,
+				17743
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					6,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SpecialWeaponActPage",
+			ui_name = "SpecialWeaponActPage"
+		}
+	},
 	[7004] = {
 		mark = 20220324,
 		id = 7004,
@@ -4371,6 +4427,51 @@ pg.activity_template = {
 					"U73HUOYUE5"
 				}
 			}
+		}
+	},
+	[6013] = {
+		mark = 20220609,
+		title_res_tag = "jiqilifu_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		id = 6013,
+		config_data = {
+			{
+				35154,
+				35155
+			},
+			{
+				35156,
+				35157
+			},
+			{
+				35158,
+				35159
+			},
+			{
+				35160,
+				35161
+			},
+			{
+				35162,
+				35163
+			},
+			{
+				35164,
+				35165
+			},
+			{
+				35166,
+				35167
+			}
+		},
+		page_info = {
+			class_name = "JiqilifuSkinPermanentPage",
+			ui_name = "JiqilifuSkinPermanentPage"
 		}
 	},
 	[100001] = {
@@ -8008,6 +8109,7 @@ pg.activity_template = {
 		4421,
 		4424,
 		4425,
+		4426,
 		7004,
 		7005,
 		8009,
@@ -8025,6 +8127,7 @@ pg.activity_template = {
 		6010,
 		6011,
 		6012,
+		6013,
 		100001,
 		20038,
 		20049,

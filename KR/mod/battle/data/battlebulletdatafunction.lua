@@ -25,19 +25,25 @@ function slot4.CreateBattleBulletData(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot4.GetBulletTmpDataFromID(slot0)
+	assert(uv0[slot0] ~= nil, "找不到子弹配置：id = " .. slot0)
+
 	return uv0[slot0]
 end
 
 function slot4.GetBarrageTmpDataFromID(slot0)
+	assert(uv0[slot0] ~= nil, "找不到弹幕配置：id = " .. slot0)
+
 	return uv0[slot0]
 end
 
 function slot4.GetConvertedBarrageTableFromID(slot0, slot1)
-	if uv0.ConvertedBarrageTableList[slot0] == nil or uv0.ConvertedBarrageTableList[slot0][slot1] == nil then
-		uv0.ConvertSpecificBarrage(slot0, slot1)
+	assert(uv0[slot0] ~= nil, "获取转换弹幕数据失败，找不到弹幕原型配置：id = " .. slot0)
+
+	if uv1.ConvertedBarrageTableList[slot0] == nil or uv1.ConvertedBarrageTableList[slot0][slot1] == nil then
+		uv1.ConvertSpecificBarrage(slot0, slot1)
 	end
 
-	return uv0.ConvertedBarrageTableList[slot0]
+	return uv1.ConvertedBarrageTableList[slot0]
 end
 
 function slot4.GenerateTransBarrage(slot0, slot1, slot2)

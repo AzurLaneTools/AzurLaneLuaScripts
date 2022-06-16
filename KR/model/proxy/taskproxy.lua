@@ -143,6 +143,8 @@ function slot0.checkTmpTask(slot0, slot1)
 end
 
 function slot0.addTask(slot0, slot1)
+	assert(isa(slot1, Task), "should be an instance of Task")
+
 	if slot0.data[slot1.id] then
 		slot0:addTmpTask(slot1)
 
@@ -165,8 +167,11 @@ function slot0.addTask(slot0, slot1)
 end
 
 function slot0.updateTask(slot0, slot1)
+	assert(isa(slot1, Task), "should be an instance of Task")
+	assert(slot0.data[slot1.id] ~= nil, "task should exist")
+
 	slot0.data[slot1.id] = slot1:clone()
-	slot0.data[slot1.id].acceptTime = slot0.data[slot1.id].acceptTime
+	slot0.data[slot1.id].acceptTime = slot2.acceptTime
 
 	slot0.data[slot1.id]:display("updated")
 	slot0.facade:sendNotification(uv0.TASK_UPDATED, slot1:clone())
@@ -239,6 +244,7 @@ function slot0.getNotFinishCount(slot0, slot1)
 end
 
 function slot0.removeTask(slot0, slot1)
+	assert(isa(slot1, Task), "should be an instance of Task")
 	slot0:removeTaskById(slot1.id)
 end
 

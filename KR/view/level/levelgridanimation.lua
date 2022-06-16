@@ -109,6 +109,7 @@ function slot0.cameraFocus(slot0, slot1, slot2)
 	slot5 = slot0._tf
 	slot5 = slot5:Find(ChapterConst.PlaneName)
 
+	assert(slot5, "plane not exist.")
 	LeanTween.cancel(slot0._tf.gameObject, true)
 
 	slot6 = slot0._tf.parent

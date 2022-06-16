@@ -140,6 +140,8 @@ function slot0.setPlayerRank(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.setSeasonInfo(slot0, slot1)
+	assert(slot1, "必须存在赛季信息")
+
 	slot0.seasonInfo = slot1
 end
 
@@ -276,6 +278,7 @@ function slot0.updateBillboard(slot0)
 		eachChild(slot0.rankContainer, function (slot0)
 			setActive(slot0, false)
 		end)
+		assert(slot0.billboard, "排行榜数据为空")
 
 		slot0.rankTFs = {}
 
@@ -302,7 +305,11 @@ function slot0.updateBillboard(slot0)
 			slot1 = {}
 
 			for slot5, slot6 in pairs(uv0.loadRanks) do
-				if getBounds(uv0.rankTFs[slot6.id]):Intersects(uv1) and go(slot8).activeSelf then
+				slot8 = uv0.rankTFs[slot6.id]
+
+				assert(slot8, "rankTF should exist")
+
+				if getBounds(slot8):Intersects(uv1) and go(slot8).activeSelf then
 					uv0:updateRankInfo(slot6)
 				else
 					table.insert(slot1, slot6)
@@ -444,7 +451,11 @@ function slot0.updatePowerRankTF(slot0, slot1, slot2)
 	end
 
 	if findTF(slot1, "medal") then
-		if math.max(slot2.arenaRank, 1) > 14 then
+		slot3 = slot2.arenaRank
+
+		assert(slot3, "emblem canot be nil" .. slot2.name)
+
+		if math.max(slot3, 1) > 14 then
 			slot3 = 14
 		end
 

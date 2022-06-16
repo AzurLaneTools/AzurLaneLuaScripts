@@ -1421,11 +1421,16 @@ function slot0.getNameAndPainting(slot0, slot1)
 		-- Nothing
 	elseif slot4 > 0 then
 		print(slot4)
+		assert(uv0[slot4], "warning!!! actor is not skinId")
 
 		slot2 = (ShipGroup.getDefaultShipConfig(uv0[slot4].ship_group) or uv0[slot4].name) and Ship.getShipName(slot6.id)
 		slot3 = uv0[slot4].painting
 	elseif slot4 == 0 then
-		slot2 = getProxy(PlayerProxy):getData().name
+		slot5 = getProxy(PlayerProxy)
+
+		assert(slot5, "玩家还未创建 检查剧情配置 actor == 0")
+
+		slot2 = slot5:getData().name
 		slot3 = "unknown"
 	elseif slot4 == -1 and getProxy(PlayerProxy) then
 		slot7 = getProxy(BayProxy):getShipById(slot5:getData().character)

@@ -554,13 +554,19 @@ function slot0.HasScoreAddition(slot0, slot1)
 		slot1 = pg.attribute_info_by_type
 
 		for slot5, slot6 in pairs(uv1) do
-			if slot6.total <= (slot0[slot1[slot5].name] or 0) then
+			slot7 = slot1[slot5].name
+
+			assert(slot0[slot7], slot7)
+
+			if slot6.total <= (slot0[slot7] or 0) then
 				return true
 			end
 		end
 
 		for slot5, slot6 in pairs(uv2) do
 			slot7 = slot1[slot5].name
+
+			assert(slot0[slot7], slot7)
 
 			if slot6.op == 1 then
 				return (slot0[slot7] or 0) > 0

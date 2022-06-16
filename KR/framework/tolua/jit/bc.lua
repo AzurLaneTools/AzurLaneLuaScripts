@@ -1,4 +1,5 @@
-slot0 = require("jit")
+assert(require("jit").version_num == 20100, "LuaJIT core/library version mismatch")
+
 slot1 = require("jit.util")
 slot3 = require("bit")
 slot4 = string.sub

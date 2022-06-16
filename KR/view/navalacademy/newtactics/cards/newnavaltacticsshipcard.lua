@@ -25,7 +25,7 @@ function slot0.OnInit(slot0)
 		})
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0._tf, "skill"), function ()
-		uv0:emit(NewNavalTacticsMediator.ON_SKILL, uv0.skillVO.id, uv0.skillVO)
+		uv0:emit(NewNavalTacticsMediator.ON_SKILL, uv0.skillVO:GetDisplayId(), uv0.skillVO)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.quickFinishBtn, function ()
 		uv0:emit(NewNavalTacticsMediator.ON_QUICK_FINISH, uv0.student.id)
@@ -48,7 +48,7 @@ end
 function slot0.OnUpdate(slot0, slot1)
 	slot0.student = slot1
 	slot0.ship = getProxy(BayProxy):RawGetShipById(slot0.student.shipId)
-	slot0.skillVO = ShipSkill.New(slot0.ship.skills[slot0.student:getSkillId(slot0.ship)])
+	slot0.skillVO = ShipSkill.New(slot0.ship.skills[slot0.student:getSkillId(slot0.ship)], slot0.ship.id)
 
 	slot0:UpdateSkill()
 

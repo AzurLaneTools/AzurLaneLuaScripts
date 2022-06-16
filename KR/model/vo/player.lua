@@ -21,6 +21,7 @@ function id2ItemId(slot0)
 end
 
 function itemId2Id(slot0)
+	assert(false)
 end
 
 function slot0.isMetaShipNeedToTrans(slot0)
@@ -243,6 +244,8 @@ end
 
 function slot0.updateResources(slot0, slot1)
 	for slot5, slot6 in pairs(uv0) do
+		assert(#slot6 == 1, "Multiple ID have the same name : " .. slot5)
+
 		slot7 = slot6[1]
 
 		if slot5 == "gem" then
@@ -258,7 +261,11 @@ function slot0.updateResources(slot0, slot1)
 	slot3 = slot1 or {}
 
 	for slot5, slot6 in slot2(slot3) do
-		if id2res(slot6.type) == "gem" then
+		slot7 = id2res(slot6.type)
+
+		assert(slot7, "resource type erro>>>>>" .. slot6.type)
+
+		if slot7 == "gem" then
 			slot0.chargeGem = slot6.num
 		elseif slot7 == "freeGem" then
 			slot0.awardGem = slot6.num
@@ -418,6 +425,7 @@ function slot0.__index(slot0, slot1)
 end
 
 function slot0.__newindex(slot0, slot1, slot2)
+	assert(slot1 ~= "gem" and slot1 ~= "freeGem", "Do not set gem directly.")
 	rawset(slot0, slot1, slot2)
 end
 
@@ -480,6 +488,8 @@ function slot0.resetBuyOilCount(slot0)
 end
 
 function slot0.addExp(slot0, slot1)
+	assert(slot1 >= 0, "exp should greater than zero")
+
 	slot0.exp = slot0.exp + slot1
 
 	while slot0:canLevelUp() do

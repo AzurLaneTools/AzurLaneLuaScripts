@@ -8,58 +8,58 @@ SCENE = {
 	IMAS_STAGE = "IdolMaster Stage",
 	COMBATLOAD = "scene combat load",
 	ANSWER = "answer",
-	WORLDBOSS = "scene worldboss",
-	HOLOLIVE_MEDAL = "hololive medal",
+	SHOP = "scene shop",
+	SKINATALAS = "scene skinatals",
 	COURTYARD = "scene court yard",
-	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
+	WORLDBOSS = "scene worldboss",
 	PLAYER_INFO = "scene player info",
 	SETTINGS = "scene settings",
-	SPRING_TOWN = "springfestival town",
+	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
 	CHUZHENG = "scene chuzheng",
 	GETBOAT = "scene get boat",
+	SPRING_TOWN = "springfestival town",
 	ACT_BOSS_SPF = "act boss spf",
-	BACKYARD_THEME_TEMPLATE = "backyard theme template",
 	NAVALACADEMYSCENE = "naval academy scene",
 	GUILD = "scene guild",
 	CHARGE = "scene charge",
 	SKINSHOP = "scene skinshop",
 	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	LEVEL = "scene level",
-	SUMMARY = "summary",
+	BACKYARD_THEME_TEMPLATE = "backyard theme template",
 	CLASS = "scene class",
 	NEWYEAR_SQUARE = "newyear square",
-	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
+	SUMMARY = "summary",
 	MUSIC_FESTIVAL = "music festival",
 	MONOPOLY_WORLD = "MONOPOLY WORLD",
 	DAILYLEVEL = "scene dailylevel",
 	NEWGUILD = "scene newguild",
 	SHIP_PROFILE = "ship profile",
-	CRUSING = "crusing",
-	BACKHILL_FIFTH_ANNIVERSARY = "BACKHILL FIFTH ANNIVERSARY",
+	SPWEAPON_STOREHOUSE = "spweapon storehouse",
+	TECHNOLOGY_TREE_SCENE = "technology tree scene",
 	TECHNOLOGY = "technology",
 	TRAININGCAMP = "trainingcamp",
-	TECHNOLOGY_TREE_SCENE = "technology tree scene",
+	ATTIRE = "scene attire",
 	LINK_LINK = "link link",
 	EQUIPSYNTHESIS = "scene equip synthesis",
-	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
+	CRUSING = "crusing",
 	EVENT = "scene event",
 	REFLUX = "reflux",
 	FRIEND = "scene friend",
-	REDPACKEY = "scene RED PACKEY",
+	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
 	BATTLE = "scene battle",
 	PROPINFO = "scene prop info",
-	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	DOALINK_ISLAND = "scene DOALink Island",
 	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
 	VOTE = "scene vote",
 	LOGIN = "scene login",
 	PHYSICS2D_TEST = "physics2d test",
 	MAINUI = "scene mainUI",
 	MUSIC_FESTIVAL2 = "music festival 2",
-	WORLD_COLLECTION = "world collection",
+	REDPACKEY = "scene RED PACKEY",
 	ACTIVITY = "scene activity",
 	SUMMER_FEAST = "summer feast",
 	BULLETINBOARD = "scene bulletinboard",
-	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
+	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
 	COMMANDROOM = "scene command room",
 	BACKYARD = "scene court yard",
@@ -69,31 +69,33 @@ SCENE = {
 	RESOLVEEQUIP = "scene resolve equip",
 	CARD_PAIRS = "card pairs",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
-	AMUSEMENT_PARK = "amusement park",
+	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
 	WORLD_FLEET_SELECT = "world fleet select",
-	COLLECTSHIP = "scene collect ship",
-	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
+	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
+	AMUSEMENT_PARK = "amusement park",
 	COLORING = "scene coloring",
-	ATTIRE = "scene attire",
+	COLLECTSHIP = "scene collect ship",
 	NAVALTACTICS = "naval tactics",
 	ACT_BOSS_BATTLE = "act boss battle",
 	TRANSITION = "scene transition",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	JIUJIU_EXPEDITION = "jiujiu expedition ",
-	SHOP = "scene shop",
-	WORLDINPICTURE = "world in picture",
+	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
+	BACKHILL_FIFTH_ANNIVERSARY = "BACKHILL FIFTH ANNIVERSARY",
 	CREATE_PLAYER = "scene create player",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
-	NEW_SERVER_CARNIVAL = "new server carnival",
+	HOLOLIVE_MEDAL = "hololive medal",
 	BACK_CHARGE = "back charge",
+	WORLDINPICTURE = "world in picture",
+	NEW_SERVER_CARNIVAL = "new server carnival",
+	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
+	WORLD_COLLECTION = "world collection",
+	SNAPSHOT = "snapshot",
 	RESOLVESHIPS = "scene resolve ships",
 	SHIPINFO = "scene shipinfo",
-	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
-	DOALINK_ISLAND = "scene DOALink Island",
-	SNAPSHOT = "snapshot",
-	WORLD_FORMATION = "scene world formation",
 	SELTECHNOLOGY = "seltechnology",
+	WORLD_FORMATION = "scene world formation",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
 	CHARGE_MENU = "scene charge_menu",
@@ -111,6 +113,8 @@ SCENE = {
 }
 
 function SCENE.SetSceneInfo(slot0, slot1)
+	assert(slot0.class == Context, "class error")
+
 	if slot1 == SCENE.LOGIN then
 		slot0.mediator = LoginMediator
 		slot0.viewComponent = LoginScene
@@ -292,6 +296,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.SKINSHOP then
 		slot0.mediator = SkinShopMediator
 		slot0.viewComponent = SkinShopScene
+	elseif slot1 == SCENE.SKINATALAS then
+		slot0.mediator = SkinAtlasMediator
+		slot0.viewComponent = SkinAtlasScene
 	elseif slot1 == SCENE.WORLDBOSS then
 		slot0.mediator = WorldBossMediator
 		slot0.viewComponent = WorldBossScene
@@ -377,6 +384,9 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.EQUIPMENT_TRANSFORM then
 		slot0.mediator = EquipmentTransformTreeMediator
 		slot0.viewComponent = EquipmentTransformTreeScene
+	elseif slot1 == SCENE.SPWEAPON_STOREHOUSE then
+		slot0.mediator = SpWeaponStoreHouseMediator
+		slot0.viewComponent = SpWeaponStoreHouseScene
 	elseif slot1 == SCENE.WORLD_COLLECTION then
 		slot0.mediator = WorldMediaCollectionMediator
 		slot0.viewComponent = WorldMediaCollectionScene
@@ -442,6 +452,8 @@ function SCENE.GetInvitationPage(slot0)
 	elseif slot1 == "greeting_year" then
 		slot2 = AssignedShipForGreetingScene
 	end
+
+	assert(slot2, slot1)
 
 	return {
 		mediator = AssignedShipMediator,

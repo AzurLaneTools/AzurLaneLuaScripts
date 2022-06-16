@@ -65,6 +65,7 @@ function slot0.switchPage(slot0, slot1)
 end
 
 function slot0.updateCurrPage(slot0)
+	assert(slot0.page)
 	slot0.panels[slot0.page]:ActionInvoke("Update", slot0.rawAttireVOs, slot0.playerVO)
 end
 

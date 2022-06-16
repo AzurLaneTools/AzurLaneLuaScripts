@@ -24,6 +24,9 @@ function slot0.register(slot0)
 end
 
 function slot0.addMail(slot0, slot1)
+	assert(isa(slot1, Mail), "should be an instance of Mail")
+	assert(slot0.data[slot1.id] == nil, "mail already exist")
+
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("added")
@@ -75,6 +78,8 @@ function slot0.getNewestMail(slot0)
 end
 
 function slot0.takeMailAttachment(slot0, slot1)
+	assert(isa(slot1, Mail), "should be an instance of Mail")
+
 	slot1.isTaken = true
 
 	slot0:updateMail(slot1)
@@ -82,6 +87,9 @@ function slot0.takeMailAttachment(slot0, slot1)
 end
 
 function slot0.updateMail(slot0, slot1)
+	assert(isa(slot1, Mail), "should be an instance of Mail")
+	assert(slot0.data[slot1.id] ~= nil, "ship should exist")
+
 	slot2 = slot0.data[slot1.id].readFlag
 	slot0.data[slot1.id] = slot1:clone()
 
@@ -90,11 +98,15 @@ function slot0.updateMail(slot0, slot1)
 end
 
 function slot0.removeMail(slot0, slot1)
+	assert(isa(slot1, Mail), "should be an instance of Mail")
 	slot0:removeMailById(slot1.id)
 end
 
 function slot0.removeMailById(slot0, slot1)
 	slot2 = slot0.data[slot1]
+
+	assert(slot0.data[slot1] ~= nil, "mail should exist")
+
 	slot3 = slot0.data[slot2.id].readFlag
 
 	slot0.data[slot2.id]:display("removed")

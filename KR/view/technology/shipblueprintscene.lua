@@ -668,6 +668,7 @@ function slot0.filterBlueprints(slot0)
 end
 
 function slot0.setSelectedBluePrint(slot0)
+	assert(slot0.contextData.shipBluePrintVO, "should exist blue print")
 	slot0:updateInfo()
 	slot0:updatePainting()
 	slot0:updateProperty()
@@ -1357,9 +1358,12 @@ function slot0.updateFittingPanel(slot0)
 
 	for slot19 = 1, slot1:getMaxFateLevel() do
 		slot20 = slot12:Find("phase_" .. slot19) or cloneTplTo(slot13, slot12, "phase_" .. slot19)
+
+		assert(slot1:getFateStrengthenConfig(slot19).special == 1 and type(slot21.special_effect) == "table", "without fate config")
+
 		slot23 = nil
 
-		for slot27, slot28 in ipairs(slot1:getFateStrengthenConfig(slot19).special_effect) do
+		for slot27, slot28 in ipairs(slot21.special_effect) do
 			if slot28[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
 				slot23 = slot28[2][2]
 
@@ -2161,7 +2165,10 @@ function slot0.getStages(slot0, slot1)
 	slot3 = math.floor(slot1.configId / 10)
 
 	for slot7 = 1, 4 do
-		table.insert(slot2, tonumber(slot3 .. slot7))
+		slot8 = tonumber(slot3 .. slot7)
+
+		assert(uv0[slot8], "必须存在配置" .. slot8)
+		table.insert(slot2, slot8)
 	end
 
 	return slot2
@@ -2334,11 +2341,12 @@ function slot0.showFittingMsgPanel(slot0, slot1)
 		setActive(uv0, uv1 > 1)
 		setActive(uv2, uv1 < uv3)
 		setText(uv4, "PHASE." .. uv5[uv1])
+		assert(uv6:getFateStrengthenConfig(uv1).special == 1 and type(slot0.special_effect) == "table", "without fate config")
 
 		slot2 = nil
 		slot3 = {}
 
-		for slot7, slot8 in ipairs(uv6:getFateStrengthenConfig(uv1).special_effect) do
+		for slot7, slot8 in ipairs(slot0.special_effect) do
 			if slot8[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
 				slot2 = slot8[2][2]
 			elseif slot9 == ShipBluePrint.STRENGTHEN_TYPE_ATTR then

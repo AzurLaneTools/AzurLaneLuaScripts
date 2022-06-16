@@ -36,6 +36,8 @@ slot0.Fields = {
 }
 
 function slot0.Apply(slot0)
+	assert(not slot0.applied, "current op has been applied.")
+
 	slot0.applied = true
 	slot1 = getProxy(WorldProxy)
 	slot3 = nowWorld():GetActiveMap()
@@ -50,6 +52,7 @@ function slot0.Apply(slot0)
 		slot7 = slot5.effect_paramater
 
 		if slot5.effect_type == WorldMapAttachment.EffectEventTeleport or slot6 == WorldMapAttachment.EffectEventTeleportBack then
+			assert(slot0.destMapId and slot0.destMapId > 0)
 			slot1:NetUpdateActiveMap(slot0.entranceId, slot0.destMapId, slot0.destGridId)
 		elseif slot6 == WorldMapAttachment.EffectEventShipBuff then
 			slot8 = slot7[1]
@@ -94,11 +97,8 @@ function slot0.Apply(slot0)
 			end
 		elseif slot6 == WorldMapAttachment.EffectEventCatSalvage then
 			-- Nothing
-		elseif slot6 == WorldMapAttachment.EffectEventAddWorldBossFreeCount and getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot9:isEnd() then
-			slot9.data3 = slot9.data3 + 1
-
-			print("add extra active boss cnt", slot9.data3)
-			slot8:updateActivity(slot9)
+		elseif slot6 == WorldMapAttachment.EffectEventAddWorldBossFreeCount then
+			nowWorld():GetBossProxy():AddSummonFree(1)
 		end
 
 		if #slot5.sound_effects > 0 then
@@ -112,6 +112,7 @@ function slot0.Apply(slot0)
 			slot0:UpdateLurk(false)
 		end)
 	elseif slot0.op == WorldConst.OpReqTransport then
+		assert(slot0.destMapId and slot0.destMapId > 0)
 		slot1:NetUpdateActiveMap(slot0.entranceId, slot0.destMapId, slot0.destGridId)
 
 		if slot2:TreasureMap2ItemId(slot0.destMapId, slot0.entranceId) then
@@ -132,6 +133,8 @@ function slot0.Apply(slot0)
 			slot6:UpdateVisionFlag(true)
 		end
 	elseif slot0.op == WorldConst.OpReqJumpOut then
+		assert(slot0.destMapId and slot0.destMapId > 0)
+
 		slot5 = slot2:GetInventoryProxy()
 
 		_.each(pg.world_chapter_template_reset[slot3.gid].reset_item, function (slot0)
@@ -168,7 +171,9 @@ function slot0.Apply(slot0)
 		end
 
 		if slot0.updateCarryItems and #slot0.updateCarryItems > 0 then
-			for slot11, slot12 in ipairs(slot4:GetCarries()) do
+			assert(#slot4:GetCarries() == #slot0.updateCarryItems)
+
+			for slot11, slot12 in ipairs(slot7) do
 				slot12:UpdateOffset(slot0.updateCarryItems[slot11].offsetRow, slot0.updateCarryItems[slot11].offsetColumn)
 			end
 
@@ -182,15 +187,21 @@ function slot0.Apply(slot0)
 			slot0:UpdateLurk(false)
 		end)
 	elseif slot0.op == WorldConst.OpActionAttachmentMove then
+		assert(#slot0.path > 0)
+
 		slot4 = slot0.attachment:Clone()
 		slot5 = slot0.path[#slot0.path]
 
 		slot3:GetCell(slot0.attachment.row, slot0.attachment.column):RemoveAttachment(slot0.attachment)
 
+		slot7 = slot3:GetCell(slot5.row, slot5.column)
+
+		assert(slot7, "dest cell not exist: " .. slot5.row .. ", " .. slot5.column)
+
 		slot4.row = slot5.row
 		slot4.column = slot5.column
 
-		slot3:GetCell(slot5.row, slot5.column):AddAttachment(slot4)
+		slot7:AddAttachment(slot4)
 	elseif slot0.op == WorldConst.OpActionEventOp then
 		if slot0.effect.effect_type == WorldMapAttachment.EffectEventFOV then
 			slot3:EventEffectOpenFOV(slot4)

@@ -556,7 +556,9 @@ function slot0.sortGridDic(slot0)
 	for slot6 = 1, #slot0.gridDic do
 		for slot10 = 1, #slot0.gridDic[slot6] do
 			if slot0.gridDic[slot6][slot10] == false then
-				slot0.gridDic[slot6][slot10] = slot2(slot6, slot10)
+				assert(slot2(slot6, slot10) ~= nil, "异常，位置x:" .. slot6 .. "y:" .. slot10 .. "处珠子不存在，考虑是否在交换位置时设置了错误的格子数据")
+
+				slot0.gridDic[slot6][slot10] = slot11
 			end
 		end
 	end

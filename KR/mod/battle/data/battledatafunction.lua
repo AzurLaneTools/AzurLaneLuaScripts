@@ -94,49 +94,54 @@ function slot3.ConvertBuffTemplate()
 	})
 end
 
-function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3)
-	slot4 = {}
+function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
+	slot6 = {}
 	slot1 = slot1 or {}
-	slot6 = uv0.GetPlayerShipModelFromID(slot0)
-	slot7 = slot6.buff_list
+	slot7 = uv0.GetPlayerShipModelFromID(slot0)
+	slot8 = slot7.buff_list
 
-	function slot8(slot0)
+	function slot9(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6 = nil
 			slot6 = (not uv0[slot5] or uv0[slot5].level) and 1
-			slot12 = uv4
 
-			for slot12, slot13 in ipairs(uv1.GetResFromBuff(uv1.SkillTranform(uv2, slot5), slot6, uv3, slot12)) do
-				uv5[#uv5 + 1] = slot13
+			if uv1 then
+				slot5 = uv1:RemapSkillId(slot5) or slot5
+			end
+
+			slot12 = uv5
+
+			for slot12, slot13 in ipairs(uv2.GetResFromBuff(uv2.SkillTranform(uv3, slot5), slot6, uv4, slot12)) do
+				uv6[#uv6 + 1] = slot13
 			end
 		end
 	end
 
-	slot8(slot6.buff_list)
-	slot8(slot6.hide_buff_list)
+	slot9(slot7.buff_list)
+	slot9(slot7.hide_buff_list)
 
-	for slot13, slot14 in ipairs(slot6.airassist_time) do
-		for slot19, slot20 in ipairs(uv0.GetBulletResFromSkill(slot14)) do
-			slot4[#slot4 + 1] = slot20
+	for slot14, slot15 in ipairs(slot7.airassist_time) do
+		for slot20, slot21 in ipairs(uv0.GetBulletResFromSkill(slot15)) do
+			slot5[#slot5 + 1] = slot21
 		end
 	end
 
-	if uv0.GetShipTransformDataTemplate(slot0) and slot10.skill_id ~= 0 and pg.transform_data_template[slot10.skill_id].skill_id ~= 0 then
-		slot12 = nil
-		slot12 = (not slot1[pg.transform_data_template[slot10.skill_id].skill_id] or slot1[slot11].level) and 1
-		slot17 = slot3
+	if uv0.GetShipTransformDataTemplate(slot0) and slot11.skill_id ~= 0 and pg.transform_data_template[slot11.skill_id].skill_id ~= 0 then
+		slot13 = nil
+		slot13 = (not slot1[pg.transform_data_template[slot11.skill_id].skill_id] or slot1[slot12].level) and 1
+		slot18 = slot3
 
-		for slot17, slot18 in ipairs(uv0.GetResFromBuff(slot11, slot12, slot5, slot17)) do
-			slot4[#slot4 + 1] = slot18
+		for slot18, slot19 in ipairs(uv0.GetResFromBuff(slot12, slot13, slot6, slot18)) do
+			slot5[#slot5 + 1] = slot19
 		end
 	end
 
 	if uv0.GetShipMetaFromDataTemplate(slot0) then
-		slot8(slot6.buff_list_display)
+		slot9(slot7.buff_list_display)
 	end
 
-	return slot4
+	return slot5
 end
 
 function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
@@ -256,13 +261,25 @@ function slot3.GetBulletResFromSkill(slot0, slot1, slot2)
 				end
 			end
 
+			if slot5.arg_list.damage_buff_id then
+				slot9 = slot5.arg_list.damage_buff_lv or 1
+
+				for slot14, slot15 in ipairs(uv2.GetResFromBuff(slot8, slot9, uv4)) do
+					uv1[#uv1 + 1] = slot15
+				end
+			end
+
 			if slot5.arg_list.effect then
-				uv1[#uv1 + 1] = uv0.Battle.BattleResourceManager.GetFXPath(slot8)
+				uv1[#uv1 + 1] = uv0.Battle.BattleResourceManager.GetFXPath(slot9)
+			end
+
+			if slot5.arg_list.finale_effect then
+				uv1[#uv1 + 1] = uv0.Battle.BattleResourceManager.GetFXPath(slot10)
 			end
 
 			if slot5.arg_list.spawnData then
-				for slot14, slot15 in ipairs(uv0.Battle.BattleResourceManager.GetMonsterRes(slot9)) do
-					uv1[#uv1 + 1] = slot15
+				for slot16, slot17 in ipairs(uv0.Battle.BattleResourceManager.GetMonsterRes(slot11)) do
+					uv1[#uv1 + 1] = slot17
 				end
 			end
 		end

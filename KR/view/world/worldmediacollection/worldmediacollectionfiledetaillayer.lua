@@ -5,6 +5,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
+	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 	onButton(slot0, slot0._tf:Find("Buttom"), function ()
 		uv0.viewParent:Backward()
 	end)
@@ -70,6 +71,8 @@ function slot0.Hide(slot0)
 end
 
 function slot0.UpdateView(slot0)
+	assert(slot0.contextData.FileGroupIndex, "Not Initialize FileGroupIndex")
+
 	slot0.archiveList = _.map(WorldCollectionProxy.GetCollectionFileGroupTemplate(slot0.contextData.FileGroupIndex).child, function (slot0)
 		return WorldCollectionProxy.GetCollectionTemplate(slot0)
 	end)

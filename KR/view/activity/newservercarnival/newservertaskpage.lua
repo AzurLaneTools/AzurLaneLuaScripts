@@ -157,6 +157,8 @@ end
 function slot0.filterAll(slot0)
 	slot0.taskVOGroup = underscore.map(slot0.taskGroupList, function (slot0)
 		return underscore.map(slot0, function (slot0)
+			assert(uv0.taskProxy:getTaskVO(slot0), "without this task:" .. slot0)
+
 			return uv0.taskProxy:getTaskVO(slot0)
 		end)
 	end)
@@ -166,6 +168,8 @@ end
 function slot0.filterDaily(slot0)
 	slot0.taskVOGroup = underscore.map(slot0.taskGroupList, function (slot0)
 		return underscore.map(slot0, function (slot0)
+			assert(uv0.taskProxy:getTaskVO(slot0), "without this task:" .. slot0)
+
 			return uv0.taskProxy:getTaskVO(slot0)
 		end)
 	end)
@@ -181,6 +185,8 @@ end
 function slot0.filterTarget(slot0)
 	slot0.taskVOGroup = underscore.map(slot0.taskGroupList, function (slot0)
 		return underscore.map(slot0, function (slot0)
+			assert(uv0.taskProxy:getTaskVO(slot0), "without this task:" .. slot0)
+
 			return uv0.taskProxy:getTaskVO(slot0)
 		end)
 	end)
@@ -246,6 +252,8 @@ function slot0.isTip(slot0)
 
 			for slot7, slot8 in ipairs(slot1:getConfig("config_data")) do
 				for slot12, slot13 in ipairs(slot8) do
+					assert(slot2:getTaskVO(slot13), "without this task:" .. slot13)
+
 					if slot2:getTaskVO(slot13):getTaskStatus() == 1 then
 						return true
 					end

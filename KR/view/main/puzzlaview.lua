@@ -280,6 +280,8 @@ function slot0.isBlockItem(slot0, slot1)
 end
 
 function slot0.getItemByPosition(slot0, slot1)
+	assert(slot0.puzzlaItems[slot1.y], "position y" .. slot1.y)
+
 	return slot0.puzzlaItems[slot1.y][slot1.x]
 end
 
@@ -466,6 +468,8 @@ end
 function slot0.isFinish(slot0)
 	for slot4, slot5 in ipairs(slot0.puzzlaItems) do
 		for slot9, slot10 in ipairs(slot5) do
+			assert(isa(slot10, PuzzlaItem), "item should instance of PuzzlaItem")
+
 			if not slot10:isRestoration() then
 				return false
 			end

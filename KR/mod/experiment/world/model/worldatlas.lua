@@ -40,6 +40,9 @@ function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0)
 
 	slot0.id = slot1
+
+	assert(pg.world_expedition_data_by_map[slot0.id], "world_expedition_data_by_map missing: " .. slot0.id)
+
 	slot0.config = pg.world_expedition_data_by_map[slot0.id]
 
 	slot0:BuildEntranceDic()
@@ -196,7 +199,11 @@ function slot0.GetDiscoverRate(slot0)
 end
 
 function slot0.CheckMapActive(slot0, slot1)
-	return slot0:GetMap(slot1).active or _.any(_.values(slot0:GetPartMaps(slot1)), function (slot0)
+	slot2 = slot0:GetMap(slot1)
+
+	assert(slot2, "map not exist: " .. slot1)
+
+	return slot2.active or _.any(_.values(slot0:GetPartMaps(slot1)), function (slot0)
 		return slot0.active
 	end)
 end

@@ -63,6 +63,11 @@ function slot0.execute(slot0, slot1)
 					end
 				end
 
+				if slot6:GetSpWeapon() then
+					slot6:UpdateSpWeapon(nil)
+					slot1:AddSpWeapon(slot7)
+				end
+
 				uv1:removeShip(slot6)
 			end
 

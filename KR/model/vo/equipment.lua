@@ -147,15 +147,17 @@ function slot0.CompareInfo(slot0, slot1, slot2)
 	end
 end
 
-function slot0.InsertAttrsUpgrade(slot0, slot1)
+function slot0.InsertAttrsUpgrade(slot0, slot1, slot2)
 	uv0.AlignAttrs(slot0, slot1)
 
-	for slot5 = #slot0, 1, -1 do
-		if slot0[slot5].value == slot1[slot5].value then
-			table.remove(slot0, slot5)
-			table.remove(slot1, slot5)
+	for slot6 = #slot0, 1, -1 do
+		if slot0[slot6].value == slot1[slot6].value then
+			if not slot2 then
+				table.remove(slot0, slot6)
+				table.remove(slot1, slot6)
+			end
 		else
-			slot0[slot5].nextValue = slot1[slot5].value
+			slot0[slot6].nextValue = slot1[slot6].value
 		end
 	end
 end
@@ -340,6 +342,8 @@ function slot0.GetEquipAttrPageInfo(slot0, slot1)
 		slot2 = slot1
 	end
 
+	assert(tobool(uv0[slot2]) == (type(slot1) == "table"), "equip attr sid type error from equip:" .. slot0.id)
+
 	return slot0:GetEquipAttrInfo(slot2, slot3)
 end
 
@@ -439,7 +443,11 @@ function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
 end
 
 function slot0.GetGearScore(slot0)
-	slot3 = pg.equip_data_by_quality[slot0.config.rarity]
+	slot1 = slot0.config.rarity
+
+	assert(pg.equip_data_by_quality[slot1], "equip_data_by_quality not exist: " .. slot1)
+
+	slot3 = pg.equip_data_by_quality[slot1]
 
 	return slot3.gear_score + slot0.config.level * slot3.gear_score_addition
 end
@@ -591,6 +599,8 @@ function slot0.isAircraftExtend(slot0)
 end
 
 function slot0.MigrateTo(slot0, slot1)
+	assert(not slot0.isSkin)
+
 	return Equipment.New({
 		id = slot1,
 		config_id = slot1,

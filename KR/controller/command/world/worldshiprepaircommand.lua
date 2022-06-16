@@ -17,7 +17,10 @@ function slot0.execute(slot0, slot1)
 	}, 33408, function (slot0)
 		if slot0.result == 0 then
 			_.each(uv0, function (slot0)
-				uv0:GetShip(slot0):Repair()
+				slot1 = uv0:GetShip(slot0)
+
+				assert(slot1, "ship not exist: " .. slot0)
+				slot1:Repair()
 			end)
 			uv2:RemoveItem(WorldItem.MoneyId, uv3)
 			uv4:sendNotification(GAME.WORLD_SHIP_REPAIR_DONE, {

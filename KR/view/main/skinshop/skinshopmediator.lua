@@ -5,8 +5,12 @@ slot0.OPEN_SCENE = "SkinShopMediator:OPEN_SCENE"
 slot0.OPEN_ACTIVITY = "SkinShopMediator:OPEN_ACTIVITY"
 slot0.ON_SHOPPING_BY_ACT = "SkinShopMediator:ON_SHOPPING_BY_ACT"
 slot0.ON_BACKYARD_SHOP = "SkinShopMediator:ON_BACKYARD_SHOP"
+slot0.ON_ATLAS = "SkinShopMediator:ON_ATLAS"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ON_ATLAS, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINATALAS)
+	end)
 	slot0:bind(uv0.ON_BACKYARD_SHOP, function (slot0)
 		if not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "BackYardMediator") then
 			slot1 = pg.open_systems_limited[1]

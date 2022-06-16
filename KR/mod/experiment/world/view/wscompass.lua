@@ -293,6 +293,8 @@ function slot0.ClearMarks(slot0)
 end
 
 function slot0.GetMarkPosition(slot0, slot1, slot2)
+	assert(slot0.map)
+
 	slot4 = slot0.map:GetFleet()
 	slot5 = nil
 
@@ -300,6 +302,8 @@ function slot0.GetMarkPosition(slot0, slot1, slot2)
 end
 
 function slot0.GetEntranceTrackMark(slot0, slot1)
+	assert(slot0.entrance)
+
 	slot3, slot4 = slot0:getVector(nowWorld():GetMap(slot1))
 	slot5, slot6 = slot0:getVector(slot0.entrance)
 

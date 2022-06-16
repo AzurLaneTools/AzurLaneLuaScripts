@@ -122,8 +122,10 @@ function StringDecoder(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0
 	slot6 = uv1.sub
 
+	uv2(not slot2)
+
 	if slot1 then
-		slot8 = #uv2.TagBytes(slot0, uv3.WIRETYPE_LENGTH_DELIMITED)
+		slot8 = #uv3.TagBytes(slot0, uv4.WIRETYPE_LENGTH_DELIMITED)
 
 		return function (slot0, slot1, slot2, slot3, slot4)
 			if slot4[uv0] == nil then
@@ -165,8 +167,10 @@ function BytesDecoder(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0
 	slot6 = uv1.sub
 
+	uv2(not slot2)
+
 	if slot1 then
-		slot8 = #uv2.TagBytes(slot0, uv3.WIRETYPE_LENGTH_DELIMITED)
+		slot8 = #uv3.TagBytes(slot0, uv4.WIRETYPE_LENGTH_DELIMITED)
 
 		return function (slot0, slot1, slot2, slot3, slot4)
 			if slot4[uv0] == nil then
@@ -208,8 +212,10 @@ function MessageDecoder(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0
 	slot6 = uv1.sub
 
+	uv2(not slot2)
+
 	if slot1 then
-		slot8 = #uv2.TagBytes(slot0, uv3.WIRETYPE_LENGTH_DELIMITED)
+		slot8 = #uv3.TagBytes(slot0, uv4.WIRETYPE_LENGTH_DELIMITED)
 
 		return function (slot0, slot1, slot2, slot3, slot4)
 			if slot4[uv0] == nil then

@@ -24,6 +24,8 @@ end
 function slot0.GenerateUID4LoadingRequest(slot0)
 	slot0._uidCounter = (slot0._uidCounter or 0) + 1
 
+	assert(slot0._uidCounter ~= 0, "Error on Generating UID Too much times")
+
 	return slot0._uidCounter
 end
 

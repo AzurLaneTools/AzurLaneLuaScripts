@@ -17,6 +17,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getTargetUI(slot0)
+	assert(false)
 end
 
 function slot0.Destroy(slot0)

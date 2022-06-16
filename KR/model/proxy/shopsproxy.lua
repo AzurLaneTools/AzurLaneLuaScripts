@@ -181,10 +181,14 @@ function slot0.addActivityShops(slot0, slot1)
 end
 
 function slot0.getActivityShopById(slot0, slot1)
+	assert(slot0.activityShops[slot1], "activity shop should exist" .. slot1)
+
 	return slot0.activityShops[slot1]
 end
 
 function slot0.updateActivityShop(slot0, slot1, slot2)
+	assert(slot0.activityShops, "activityShops can not be nil")
+
 	slot0.activityShops[slot1] = slot2
 
 	slot0:sendNotification(uv0.ACTIVITY_SHOP_UPDATED, {
@@ -282,6 +286,9 @@ function slot0.removeWaitTimer(slot0)
 end
 
 function slot0.setGuildShop(slot0, slot1)
+	assert(isa(slot1, GuildShop), "shop should instance of GuildShop")
+	assert(slot0.guildShop == nil, "shop already exist")
+
 	slot0.guildShop = slot1
 
 	slot0:sendNotification(uv0.GUILD_SHOP_ADDED, slot0.guildShop)
@@ -292,6 +299,9 @@ function slot0.getGuildShop(slot0)
 end
 
 function slot0.updateGuildShop(slot0, slot1, slot2)
+	assert(isa(slot1, GuildShop), "shop should instance of GuildShop")
+	assert(slot0.guildShop, "should exist shop")
+
 	slot0.guildShop = slot1
 
 	slot0:sendNotification(uv0.GUILD_SHOP_UPDATED, {

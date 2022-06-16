@@ -1,8 +1,7 @@
 slot0 = class("UserLoginCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-
+	assert(isa(slot1:getBody(), User), "should be an instance of User")
 	originalPrint("connect to gateway - " .. NetConst.GATEWAY_HOST .. ":" .. NetConst.GATEWAY_PORT)
 
 	if pg.SdkMgr.GetInstance():GetChannelUID() == "" then

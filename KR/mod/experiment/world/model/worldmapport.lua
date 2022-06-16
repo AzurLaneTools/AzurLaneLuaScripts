@@ -18,6 +18,8 @@ end
 function slot0.Setup(slot0, slot1)
 	slot0.id = slot1
 	slot0.config = pg.world_port_data[slot0.id]
+
+	assert(slot0.config, "world_port_data not exist: " .. slot0.id)
 end
 
 function slot0.Dispose(slot0)

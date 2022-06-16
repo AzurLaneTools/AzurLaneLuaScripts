@@ -14,7 +14,11 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_TIME_OVER, function (slot0, slot1)
-		if getProxy(TechnologyProxy):getTechnologyById(slot1):canFinish() then
+		slot3 = getProxy(TechnologyProxy):getTechnologyById(slot1)
+
+		assert(slot3, "technology can not be nil.." .. slot1)
+
+		if slot3:canFinish() then
 			slot3:finish()
 			slot2:updateTechnology(slot3)
 		end

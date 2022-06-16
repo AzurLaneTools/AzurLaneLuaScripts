@@ -82,7 +82,7 @@ function slot0.Ctor(slot0, slot1)
 
 	if BackYardConst.SAME_ID_MODIFY_ID < slot0.id and slot2 and slot2.count > 1 and slot0.id == slot0.configId then
 		for slot7 = 1, slot2.count - 1 do
-			slot8 = slot0.configId + slot7
+			assert(pg.furniture_data_template[slot0.configId + slot7] == nil and pg.furniture_shop_template[slot8] == nil, slot0.id .. "家具 " .. slot0.configId .. "后的" .. slot2.count - 1 .. "个id 不能配置 请检查配置表")
 		end
 	end
 end
@@ -151,7 +151,11 @@ function slot0.clearPosition(slot0)
 end
 
 function slot0.getConfig(slot0, slot1)
-	if slot0:bindConfigTable()[slot0.configId][slot1] then
+	slot3 = slot0:bindConfigTable()[slot0.configId]
+
+	assert(slot3, slot0.configId)
+
+	if slot3[slot1] then
 		return slot3[slot1]
 	elseif slot0:bindShopConfigTable()[slot0.configId] then
 		return slot5[slot1]
@@ -163,7 +167,12 @@ function slot0.getTypeForComfortable(slot0)
 end
 
 function slot0.getDeblocking(slot0)
-	return pg.backyard_theme_template[slot0:getConfig("themeId")].deblocking
+	slot1 = slot0:getConfig("themeId")
+	slot2 = pg.backyard_theme_template[slot1]
+
+	assert(slot2, "pg.backyard_theme_template>>> id" .. slot1)
+
+	return slot2.deblocking
 end
 
 function slot0.inTheme(slot0)
@@ -171,7 +180,11 @@ function slot0.inTheme(slot0)
 		return false
 	end
 
-	return table.contains(pg.backyard_theme_template[slot1].ids, slot0.id)
+	slot2 = pg.backyard_theme_template[slot1]
+
+	assert(slot2, "pg.backyard_theme_template>>id" .. slot1)
+
+	return table.contains(slot2.ids, slot0.id)
 end
 
 function slot0.isLock(slot0, slot1)

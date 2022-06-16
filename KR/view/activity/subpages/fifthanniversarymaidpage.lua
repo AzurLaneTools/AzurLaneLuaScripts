@@ -22,7 +22,7 @@ function slot0.OnFirstFlush(slot0)
 
 	setActive(slot0.item, false)
 	slot0.itemList:make(function (slot0, slot1, slot2)
-		slot4 = uv0.taskProxy:getTaskById(uv0.taskList[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot3)
+		assert(uv0.taskProxy:getTaskById(uv0.taskList[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot3), "without this task by id: " .. slot3)
 
 		if slot0 == UIItemList.EventInit then
 			slot5 = uv0

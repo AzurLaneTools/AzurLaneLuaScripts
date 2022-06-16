@@ -60,10 +60,14 @@ function slot0.updateAllGoods(slot0, slot1)
 end
 
 function slot0.getGoodsById(slot0, slot1)
+	assert(slot0.goods[slot1], "should exist good" .. slot1)
+
 	return Clone(slot0.goods[slot1])
 end
 
 function slot0.updateGoods(slot0, slot1)
+	assert(slot0.goods[slot1.id], "should exist good" .. slot1.id)
+
 	slot0.goods[slot1.id] = slot1
 end
 

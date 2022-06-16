@@ -13,14 +13,15 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		GAME.ACT_NEW_PT_DONE
+		GAME.ACT_NEW_PT_DONE,
+		GAME.GET_META_PT_AWARD_DONE
 	}
 end
 
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.ACT_NEW_PT_DONE then
+	if slot1:getName() == GAME.GET_META_PT_AWARD_DONE then
 		slot0.viewComponent:updateData()
 		slot0.viewComponent:updateTaskList()
 		slot0.viewComponent:updateGetAwardBtn()

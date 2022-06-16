@@ -1503,6 +1503,7 @@ function slot0.setMap(slot0, slot1)
 	slot0.contextData.mapIdx = slot1
 	slot0.contextData.map = slot0.maps[slot1]
 
+	assert(slot0.contextData.map, "map cannot be nil" .. slot1)
 	slot0.updateBattleActivity(slot0, slot1)
 	slot0.updateMap(slot0)
 	slot0.tryPlayMapStory(slot0)
@@ -1650,6 +1651,9 @@ end
 
 function slot0.updateEscortItem(slot0, slot1, slot2, slot3)
 	slot4 = pg.escort_template[slot2]
+
+	assert(slot4, "escort template not exist: " .. slot2)
+
 	slot1.name = "chapter_" .. slot3.id
 	slot1.anchoredPosition = Vector2(slot0.escortChapters.rect.width * tonumber(slot4.pos_x), slot0.escortChapters.rect.height * tonumber(slot4.pos_y))
 	slot8 = getProxy(ChapterProxy):getActiveChapter() and slot6.id == slot3.id
@@ -1842,7 +1846,10 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 		})
 		shiftPanel(slot18, 0, nil, 0.4, 0.4, true, true, nil, slot3)
 
-		slot20 = pg.expedition_data_template[slot2:getConfig("boss_expedition_id")]
+		slot19 = slot2:getConfig("boss_expedition_id")
+
+		assert(pg.expedition_data_template[slot19], "expedition_data_template not exist: " .. slot19)
+
 		slot21 = findTF(slot5, "mark")
 
 		if not slot0.markRawPos then
@@ -3761,11 +3768,14 @@ function slot0.doSafeCheck(slot0)
 	end)
 
 	if slot1:getPlayType() == ChapterConst.TypeTransport then
-		slot6 = slot1:findChapterCell(ChapterConst.AttachTransport_Target)
-
-		if not _.detect(slot1.fleets, function (slot0)
+		slot5 = _.detect(slot1.fleets, function (slot0)
 			return slot0:getFleetType() == FleetType.Transport
-		end):isValid() then
+		end)
+
+		assert(slot5, "transport fleet not exist.")
+		assert(slot1:findChapterCell(ChapterConst.AttachTransport_Target), "transport target not exist.")
+
+		if not slot5:isValid() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_escort_lose"))
 			slot0:emit(LevelMediator2.ON_OP, {
 				type = ChapterConst.OpRetreat
@@ -4245,6 +4255,8 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 	function slot7()
 		if coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
+
+			assert(slot0, slot1)
 		end
 	end
 

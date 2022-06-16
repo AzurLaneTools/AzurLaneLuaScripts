@@ -163263,6 +163263,514 @@ _G.pg.base.task_data_template[17732] = {
 	}
 }
 
+_G.pg.base.task_data_template[17733] = {
+	name = "特殊兵装支援活动任务1",
+	guild_coin_award = 0,
+	award = 96231,
+	type = 26,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17733,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			20
+		},
+		{
+			2,
+			15016,
+			200
+		},
+		{
+			21,
+			1010100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17734] = {
+	name = "特殊兵装支援活动任务2",
+	guild_coin_award = 0,
+	award = 96232,
+	type = 26,
+	desc = "전투에서 3번 승리하라!",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17734,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			100
+		},
+		{
+			2,
+			15015,
+			1000
+		},
+		{
+			21,
+			1010200,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17735] = {
+	name = "特殊兵装支援活动任务3",
+	guild_coin_award = 0,
+	award = 96233,
+	type = 26,
+	desc = "건조를 1회 수행한다",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17735,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15020,
+			20
+		},
+		{
+			2,
+			15021,
+			10
+		},
+		{
+			21,
+			1020100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17736] = {
+	name = "特殊兵装支援活动任务4",
+	guild_coin_award = 0,
+	award = 96234,
+	type = 26,
+	desc = "「숙소」의 식량을 1번 보충하라!",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17736,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15017,
+			15
+		},
+		{
+			21,
+			1030100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17737] = {
+	name = "特殊兵装支援活动任务5",
+	guild_coin_award = 0,
+	award = 96235,
+	type = 26,
+	desc = "데일리 챌린지를 1회 클리어 한다",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17737,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			2,
+			15020,
+			10
+		},
+		{
+			21,
+			1040100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17738] = {
+	name = "特殊兵装支援活动任务6",
+	guild_coin_award = 0,
+	award = 96236,
+	type = 26,
+	desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17738,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			2,
+			15015,
+			1000
+		},
+		{
+			21,
+			1050100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17739] = {
+	name = "特殊兵装支援活动任务7",
+	guild_coin_award = 0,
+	award = 96237,
+	type = 26,
+	desc = "대함대 군수 준비 1회",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17739,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			21,
+			1060100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17740] = {
+	name = "特殊兵装支援活动任务8",
+	guild_coin_award = 0,
+	award = 96238,
+	type = 26,
+	desc = "군사 의뢰 15회 진행",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17740,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15020,
+			10
+		},
+		{
+			2,
+			15021,
+			10
+		},
+		{
+			21,
+			1060200,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17741] = {
+	name = "特殊兵装支援活动任务9",
+	guild_coin_award = 0,
+	award = 96239,
+	type = 26,
+	desc = "군사 연습 1회 진행",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17741,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			2,
+			15015,
+			1000
+		},
+		{
+			21,
+			1070100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17742] = {
+	name = "特殊兵装支援活动任务10",
+	guild_coin_award = 0,
+	award = 96240,
+	type = 26,
+	desc = "개발 1회 진행하기",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17742,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15020,
+			10
+		},
+		{
+			2,
+			15021,
+			10
+		},
+		{
+			21,
+			1070200,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17743] = {
+	name = "特殊兵装支援活动任务11",
+	guild_coin_award = 0,
+	award = 96241,
+	type = 26,
+	desc = "함대를 출격시켜, 대형 작전 임의 해역에서 5회 전투",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17743,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			20
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "전투승리-일상",
 	guild_coin_award = 0,
@@ -169704,6 +170212,514 @@ _G.pg.base.task_data_template[35153] = {
 			1,
 			100
 		}
+	}
+}
+
+_G.pg.base.task_data_template[35154] = {
+	name = "【常驻活动】棘鳍礼服活动1",
+	guild_coin_award = 0,
+	award = 65153,
+	type = 26,
+	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35154,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54012,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35155] = {
+	name = "【常驻活动】棘鳍礼服活动1",
+	guild_coin_award = 0,
+	award = 65154,
+	type = 26,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35155,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35156] = {
+	name = "【常驻活动】棘鳍礼服活动2",
+	guild_coin_award = 0,
+	award = 65155,
+	type = 26,
+	desc = "데일리 챌린지를 3회 클리어 한다",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35156,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35157] = {
+	name = "【常驻活动】棘鳍礼服活动2",
+	guild_coin_award = 0,
+	award = 65156,
+	type = 26,
+	desc = "함선을 2척 퇴역시킨다",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35157,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35158] = {
+	name = "【常驻活动】棘鳍礼服活动3",
+	guild_coin_award = 0,
+	award = 65157,
+	type = 26,
+	desc = "전술학원에서 전술훈련을 2번 수행한다",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35158,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54022,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35159] = {
+	name = "【常驻活动】棘鳍礼服活动3",
+	guild_coin_award = 0,
+	award = 65158,
+	type = 26,
+	desc = "숙소에서 식량을 5회 보충한다",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35159,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35160] = {
+	name = "【常驻活动】棘鳍礼服活动4",
+	guild_coin_award = 0,
+	award = 65159,
+	type = 26,
+	desc = "임의의 적함을 20척 격파한다",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35160,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50004,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35161] = {
+	name = "【常驻活动】棘鳍礼服活动4",
+	guild_coin_award = 0,
+	award = 65160,
+	type = 26,
+	desc = "건조를 2회 수행한다",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35161,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35162] = {
+	name = "【常驻活动】棘鳍礼服活动5",
+	guild_coin_award = 0,
+	award = 65161,
+	type = 26,
+	desc = "임의의 장비상자 1개 오픈한다",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35162,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54023,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35163] = {
+	name = "【常驻活动】棘鳍礼服活动5",
+	guild_coin_award = 0,
+	award = 65162,
+	type = 26,
+	desc = "함선을 5번 강화한다",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35163,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35164] = {
+	name = "【常驻活动】棘鳍礼服活动6",
+	guild_coin_award = 0,
+	award = 65163,
+	type = 26,
+	desc = "군사의뢰를 2번 수행한다",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35164,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54003,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35165] = {
+	name = "【常驻活动】棘鳍礼服活动6",
+	guild_coin_award = 0,
+	award = 65164,
+	type = 26,
+	desc = "연습을 2회 수행한다",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35165,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35166] = {
+	name = "【常驻活动】棘鳍礼服活动7",
+	guild_coin_award = 0,
+	award = 65165,
+	type = 26,
+	desc = "장비를 2번 강화한다",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35166,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54024,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35167] = {
+	name = "【常驻活动】棘鳍礼服活动7",
+	guild_coin_award = 0,
+	award = 65166,
+	type = 26,
+	desc = "함대를 출격시켜, 10회 S평가로 승리하라!",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35167,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			108032,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 

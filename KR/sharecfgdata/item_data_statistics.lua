@@ -6786,7 +6786,7 @@ _G.pg.base.item_data_statistics[15015] = {
 	display = "특수 장비 강화석, 주로 특수 장비의 제작, 강화, 돌파에 사용된다.",
 	name = "특수 장비 강화석T1",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 2,
 	shop_id = -1,
@@ -6807,7 +6807,7 @@ _G.pg.base.item_data_statistics[15016] = {
 	display = "특수 장비 강화석, 주로 특수 장비의 제작, 강화, 돌파에 사용된다.",
 	name = "특수 장비 강화석T2",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 3,
 	shop_id = -1,
@@ -6828,7 +6828,7 @@ _G.pg.base.item_data_statistics[15017] = {
 	display = "특수 장비 강화석, 주로 특수 장비의 제작, 강화, 돌파에 사용된다.",
 	name = "특수 장비 강화석T3",
 	max_num = 0,
-	type = 2,
+	type = 24,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -6839,6 +6839,48 @@ _G.pg.base.item_data_statistics[15017] = {
 	id = 15017,
 	is_world = 0,
 	icon = "Props/15017",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15020] = {
+	display = "특수 장비 강화석. 특수 장비 개조에 사용된다.",
+	name = "특수 장비 재구성 코어 T1",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15020,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15021] = {
+	display = "특수 장비 강화석. 특수 장비 개조에 사용된다.",
+	name = "특수 장비 재구성 코어 T2",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15021,
+	is_world = 0,
+	icon = "Props/15020",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8861,6 +8903,27 @@ _G.pg.base.item_data_statistics[21011] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21012] = {
+	display = "리펄스·META의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정: 리펄스·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21012,
+	is_world = 0,
+	icon = "Props/21012",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "결정화 내열강",
@@ -9065,6 +9128,27 @@ _G.pg.base.item_data_statistics[21906] = {
 	id = 21906,
 	is_world = 0,
 	icon = "Props/21906",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21907] = {
+	display = "「비콘·META」 전투 중 수집한 데이터. 리펄스·META 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
+	name = "동기화 수치: 리펄스·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21907,
+	is_world = 0,
+	icon = "Props/21907",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -14016,12 +14100,12 @@ _G.pg.base.item_data_statistics[30404] = {
 		},
 		{
 			9,
-			2013,
+			2011,
 			1
 		},
 		{
 			9,
-			2012,
+			2013,
 			1
 		}
 	},
@@ -42568,6 +42652,299 @@ _G.pg.base.item_data_statistics[52033] = {
 		{
 			2,
 			11033,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52040] = {
+	display = "확률적으로 다음 특수 장비 획득",
+	name = "랜덤 특수 장비",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52040,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52041] = {
+	display = "확률적으로 다음 특수 장비 획득",
+	name = "랜덤 특수 장비",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52041,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		},
+		{
+			21,
+			1010120,
+			1
+		},
+		{
+			21,
+			1010220,
+			1
+		},
+		{
+			21,
+			1020120,
+			1
+		},
+		{
+			21,
+			1030120,
+			1
+		},
+		{
+			21,
+			1040120,
+			1
+		},
+		{
+			21,
+			1050120,
+			1
+		},
+		{
+			21,
+			1060120,
+			1
+		},
+		{
+			21,
+			1060220,
+			1
+		},
+		{
+			21,
+			1070120,
+			1
+		},
+		{
+			21,
+			1070220,
+			1
+		},
+		{
+			21,
+			1080120,
+			1
+		},
+		{
+			21,
+			1080220,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52050] = {
+	display = "확률적으로 다음 특수 장비 코어 획득",
+	name = "랜덤 특수 장비 코어",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52050,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52051] = {
+	display = "확률적으로 다음 특수 장비 강화석 획득",
+	name = "랜덤 특수 장비 강화석",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52051,
+	is_world = 0,
+	icon = "Props/15016",
+	display_icon = {
+		{
+			2,
+			15017,
+			1
+		},
+		{
+			2,
+			15016,
+			1
+		},
+		{
+			2,
+			15015,
 			1
 		}
 	},

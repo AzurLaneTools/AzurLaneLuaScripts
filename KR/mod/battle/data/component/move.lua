@@ -37,6 +37,7 @@ function slot1.Update(slot0)
 end
 
 function slot1.FixSpeed(slot0, slot1)
+	assert(slot1.FixSpeed ~= nil and type(slot1.FixSpeed) == "function", " MoveComponent.FixSpeed 速度修正出错")
 	slot1:FixSpeed(slot0._speed)
 end
 
@@ -140,6 +141,8 @@ function slot1.getInitialSpeed(slot0)
 	if slot0._manuallyMove then
 		return slot0:CorpsAreaLimit(slot0._manuallyMove())
 	end
+
+	assert(slot0._autoMoveAi ~= nil, "角色缺少默认移动的ai")
 
 	return slot0._autoMoveAi()
 end

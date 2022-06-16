@@ -361,7 +361,11 @@ function slot0.getModExpAdditions(slot0, slot1)
 		if slot9 ~= ShipModLayer.IGNORE_ID then
 			for slot15, slot16 in pairs(slot1) do
 				slot17 = slot2[slot16.configId]
-				slot19 = slot4[slot17.strengthen_id].attr_exp[slot9 - 1]
+				slot18 = slot17.strengthen_id
+
+				assert(slot4[slot18], "ship_data_strengthen>>" .. slot18)
+
+				slot19 = slot4[slot18].attr_exp[slot9 - 1]
 
 				if slot17.group_type == slot3 then
 					slot19 = slot19 * 2

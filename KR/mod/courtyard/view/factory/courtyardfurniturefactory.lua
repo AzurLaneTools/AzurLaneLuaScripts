@@ -37,9 +37,13 @@ function slot0.OnJobFinish(slot0)
 	table.remove(slot0.caches, 1)
 
 	if #slot0.caches > 0 then
+		slot1 = slot0:GetIdleJob()
+
+		assert(slot1)
+
 		slot2 = slot0.caches[1]
 
-		slot0:GetIdleJob():Work(slot2[2], slot2[1])
+		slot1:Work(slot2[2], slot2[1])
 	end
 end
 

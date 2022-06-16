@@ -60,6 +60,8 @@ function slot0.execute(slot0, slot1)
 			count = slot8[3]
 		})
 	else
+		assert(false, "type is not supported >> " .. slot8[1])
+
 		return
 	end
 

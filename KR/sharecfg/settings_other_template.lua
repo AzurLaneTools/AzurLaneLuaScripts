@@ -142,6 +142,15 @@ pg.settings_other_template = {
 		title = "빠른 변경 2차 확인 화면",
 		desc = "기능 ON 후, 스킨 빠른 변경 시 2차 확인 화면이 나타납니다."
 	},
+	{
+		default = 1,
+		name = "GYRO_ENABLE",
+		type = 0,
+		alignment = 0,
+		id = 15,
+		title = "L2D 자이로 배경 제어",
+		desc = "기능 설정 후, 일부 L2D 스킨 배경을 자이로 센서로 제어 가능"
+	},
 	all = {
 		1,
 		2,
@@ -156,6 +165,7 @@ pg.settings_other_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }

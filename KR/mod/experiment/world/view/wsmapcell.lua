@@ -23,6 +23,8 @@ function slot0.GetName(slot0, slot1)
 end
 
 function slot0.Setup(slot0, slot1, slot2)
+	assert(slot0.cell == nil)
+
 	slot0.map = slot1
 	slot0.cell = slot2
 

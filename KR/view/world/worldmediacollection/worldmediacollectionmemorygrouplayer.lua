@@ -8,6 +8,7 @@ slot0.PAGE_ACTIVITY = 2
 
 function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
+	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 
 	slot0.memoryGroups = _.map(pg.memory_group.all, function (slot0)
 		return pg.memory_group[slot0]
@@ -184,6 +185,9 @@ function slot0.onUpdateMemoryGroup(slot0, slot1, slot2)
 	end
 
 	slot3 = slot0.memoryGroups[slot1]
+
+	assert(slot3, "MemoryGroup Missing Config Index " .. slot1)
+
 	slot0.memoryGroupInfos[slot2] = slot3
 
 	setText(tf(slot2):Find("title"), HXSet.hxLan(slot3.title))

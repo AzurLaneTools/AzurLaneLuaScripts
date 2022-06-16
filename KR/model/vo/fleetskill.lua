@@ -31,24 +31,32 @@ function slot0.bindConfigTable(slot0)
 	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return pg.commander_skill_effect_template
 	end
+
+	assert(false, "Do not support exception.")
 end
 
 function slot0.GetType(slot0)
 	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return slot0:getConfig("effect_type")
 	end
+
+	assert(false, "Do not support exception.")
 end
 
 function slot0.GetArgs(slot0)
 	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return slot0:getConfig("args")
 	end
+
+	assert(false, "Do not support exception.")
 end
 
 function slot0.GetTriggers(slot0)
 	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return slot0:getConfig("condition")
 	end
+
+	assert(false, "Do not support exception.")
 end
 
 function slot0.triggerSkill(slot0, slot1)

@@ -11,7 +11,11 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.getConfig(slot0, slot1)
-	if slot0:bindConfigTable()[slot0.configId][slot1] then
+	slot3 = slot0:bindConfigTable()[slot0.configId]
+
+	assert(slot3, slot0.configId)
+
+	if slot3[slot1] then
 		if slot1 == "award_display" then
 			return {
 				slot3[slot1]
@@ -29,6 +33,8 @@ function slot0.getConfig(slot0, slot1)
 		return 0
 	elseif slot1 == "award_choice" then
 		return nil
+	else
+		assert(false, "表 weekly_task_template 没有字段:" .. name)
 	end
 end
 

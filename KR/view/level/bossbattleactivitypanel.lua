@@ -102,6 +102,9 @@ end
 function slot0.update(slot0, slot1)
 	slot0.activityVO = slot1
 	slot3 = slot0.activityVO:getData1()
+
+	assert(uv0[slot3], "config boss miss >>> " .. slot3)
+
 	slot4 = table.indexof(slot0.activityVO:getConfig("config_data")[1] or {}, slot3)
 	slot5 = 0
 

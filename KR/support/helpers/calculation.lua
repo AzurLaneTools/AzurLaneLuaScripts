@@ -93,6 +93,8 @@ function sortCompare(...)
 			end
 		elseif type(slot4) == "boolean" then
 			return slot4
+		else
+			assert(false, "type error")
 		end
 	end
 
@@ -108,6 +110,8 @@ function calcPositionAngle(slot0, slot1)
 end
 
 function DOAParabolaCalc(slot0, slot1, slot2)
+	assert(slot2 < slot1 * slot1 * slot0 / 2, "x is unreal")
+
 	slot3 = slot0 * math.sqrt(slot1 / 2)
 	slot4 = 0
 	slot5 = slot3 * slot3

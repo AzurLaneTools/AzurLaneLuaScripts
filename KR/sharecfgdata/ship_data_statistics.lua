@@ -43993,7 +43993,8 @@ _G.pg.base.ship_data_statistics[105041] = {
 		{}
 	},
 	tag_list = {
-		"Pennsylvania-Class"
+		"Pennsylvania-Class",
+		"ArizonaHA"
 	}
 }
 
@@ -44118,7 +44119,8 @@ _G.pg.base.ship_data_statistics[105042] = {
 		{}
 	},
 	tag_list = {
-		"Pennsylvania-Class"
+		"Pennsylvania-Class",
+		"ArizonaHA"
 	}
 }
 
@@ -44243,7 +44245,8 @@ _G.pg.base.ship_data_statistics[105043] = {
 		{}
 	},
 	tag_list = {
-		"Pennsylvania-Class"
+		"Pennsylvania-Class",
+		"ArizonaHA"
 	}
 }
 
@@ -44368,7 +44371,8 @@ _G.pg.base.ship_data_statistics[105044] = {
 		{}
 	},
 	tag_list = {
-		"Pennsylvania-Class"
+		"Pennsylvania-Class",
+		"ArizonaHA"
 	}
 }
 

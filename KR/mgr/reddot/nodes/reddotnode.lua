@@ -1,6 +1,8 @@
 slot0 = class("RedDotNode")
 
 function slot0.Ctor(slot0, slot1, slot2)
+	assert(not IsNil(slot1))
+
 	slot0.gameObject = slot1
 	slot0.types = slot2
 end

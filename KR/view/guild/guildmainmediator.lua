@@ -186,7 +186,9 @@ function slot0.listNotificationInterests(slot0)
 		GuildMainMediator.SWITCH_TO_OFFICE,
 		GAME.ON_GUILD_JOIN_EVENT_DONE,
 		GAME.GUILD_JOIN_MISSION_DONE,
-		GAME.GUILD_GET_SUPPLY_AWARD_DONE
+		GAME.GUILD_GET_SUPPLY_AWARD_DONE,
+		GAME.LOAD_LAYERS,
+		GAME.REMOVE_LAYERS
 	}
 end
 
@@ -245,6 +247,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.contextData.page = nil
 	elseif slot2 == GuildMainMediator.SWITCH_TO_OFFICE then
 		slot0.viewComponent:TriggerOfficePage()
+	elseif slot2 == GAME.LOAD_LAYERS then
+		if slot3.context.mediator == AwardInfoMediator then
+			pg.GuildLayerMgr:GetInstance():UnBlurTopPanel()
+		end
+	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == AwardInfoMediator then
+		pg.GuildLayerMgr:GetInstance():_BlurTopPanel()
 	end
 end
 

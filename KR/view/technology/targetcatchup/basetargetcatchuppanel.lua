@@ -20,6 +20,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.getUIName(slot0)
+	assert(false)
 end
 
 function slot0.init(slot0)

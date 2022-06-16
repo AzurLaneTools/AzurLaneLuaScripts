@@ -210,6 +210,8 @@ function StringSizer(slot0, slot1, slot2)
 	slot3 = _TagSize(slot0)
 	slot4 = _VarintSize
 
+	uv0(not slot2)
+
 	if slot1 then
 		return function (slot0)
 			slot1 = uv0 * #slot0
@@ -234,6 +236,8 @@ function BytesSizer(slot0, slot1, slot2)
 	slot3 = _TagSize(slot0)
 	slot4 = _VarintSize
 
+	uv0(not slot2)
+
 	if slot1 then
 		return function (slot0)
 			slot1 = uv0 * #slot0
@@ -257,6 +261,8 @@ end
 function MessageSizer(slot0, slot1, slot2)
 	slot3 = _TagSize(slot0)
 	slot4 = _VarintSize
+
+	uv0(not slot2)
 
 	if slot1 then
 		return function (slot0)
@@ -481,6 +487,8 @@ function StringEncoder(slot0, slot1, slot2)
 	slot3 = TagBytes(slot0, uv0.WIRETYPE_LENGTH_DELIMITED)
 	slot4 = uv1
 
+	uv2(not slot2)
+
 	if slot1 then
 		return function (slot0, slot1)
 			for slot5, slot6 in uv0(slot1) do
@@ -503,6 +511,8 @@ function BytesEncoder(slot0, slot1, slot2)
 	slot3 = TagBytes(slot0, uv0.WIRETYPE_LENGTH_DELIMITED)
 	slot4 = uv1
 
+	uv2(not slot2)
+
 	if slot1 then
 		return function (slot0, slot1)
 			for slot5, slot6 in uv0(slot1) do
@@ -524,6 +534,8 @@ end
 function MessageEncoder(slot0, slot1, slot2)
 	slot3 = TagBytes(slot0, uv0.WIRETYPE_LENGTH_DELIMITED)
 	slot4 = uv1
+
+	uv2(not slot2)
 
 	if slot1 then
 		return function (slot0, slot1)

@@ -1087,6 +1087,9 @@ function slot0.loadChar(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, function ()
 		if not IsNil(uv0) then
 			slot0 = findTF(uv0, "fitter")
+
+			assert(slot0, "请添加子物体fitter")
+
 			slot1 = GetOrAddComponent(slot0, "PaintingScaler")
 			slot1.FrameName = uv1
 			slot1.Tween = 1

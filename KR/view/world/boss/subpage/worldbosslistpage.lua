@@ -1,5 +1,6 @@
 slot0 = class("WorldBossListPage", import("....base.BaseSubView"))
 slot0.Listeners = {
+	onPtUpdated = "OnPtUpdated",
 	onRankListUpdated = "OnRankListUpdated",
 	onCacheBossUpdated = "OnCacheBossUpdated"
 }
@@ -31,6 +32,12 @@ slot1 = {
 	[970402] = {
 		480,
 		635
+	},
+	[970403] = {
+		510,
+		611.2,
+		0.95,
+		0.95
 	}
 }
 
@@ -49,36 +56,30 @@ function slot0.Setup(slot0, slot1)
 end
 
 function slot0.OnLoaded(slot0)
+	slot0.ptTF = slot0:findTF("point")
+
+	setActive(slot0.ptTF, true)
+
+	slot0.pt = slot0:findTF("point/Text"):GetComponent(typeof(Text))
+	slot0.ptRecoveTF = slot0:findTF("point/time")
+	slot0.ptRecove = slot0:findTF("point/time/Text"):GetComponent(typeof(Text))
+	slot0.switchBtn = slot0:findTF("switch_btn")
 	slot0.awardPage = WorldBossAwardPage.New(slot0._tf.parent.parent, slot0._event)
 	slot0.rankPage = WorldBossRankPage.New(slot0._tf.parent.parent, slot0._event)
 
 	slot0:AddListeners(slot0.proxy)
-
-	slot0.groupId = WorldBossConst.GetCurrBossGroup()
 end
 
 function slot0.OnInit(slot0)
-	slot1 = slot0:findTF("main/label")
-	slot1:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_title")
-	slot1 = slot0:getTpl("list_panel/mask/tpl")
-	slot2 = slot1:Find("complete")
-	slot2:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_02")
-	slot2 = slot1:Find("raiding")
-	slot2:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_03")
-	slot2 = slot1:Find("empty")
-	slot2 = slot2:GetComponent(typeof(Image))
-	slot2.sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_04")
+	slot1 = slot0:findTF("list_panel/mask/tpl")
+	slot3 = slot1:Find("empty"):GetComponent(typeof(Image))
+	slot3.sprite = LoadSprite("metaship/" .. WorldBossConst.GetCurrBossGroup() .. "_item_04")
 
-	slot2:SetNativeSize()
+	slot3:SetNativeSize()
 
-	slot3 = slot1:Find("selected/challenging")
-	slot3:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_01")
-	slot3 = slot1:Find("selected/finished")
-	slot3:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_05")
 	slot0.scrollRect = WorldBossItemList.New(slot0:findTF("list_panel/mask/bg/container"), slot1)
-	slot3 = slot0.scrollRect
 
-	slot3:Make(function (slot0, slot1)
+	slot0.scrollRect:Make(function (slot0, slot1)
 		uv0:OnInitCard(slot0, slot1)
 	end, function (slot0, slot1)
 		uv0:OnPreviewCard(slot0, slot1)
@@ -86,26 +87,20 @@ function slot0.OnInit(slot0)
 		uv0:OnSelectCard(slot0, slot1)
 	end)
 
-	slot3 = slot0:findTF("main/hp/slider")
-	slot0.hpSlider = slot3:GetComponent(typeof(Slider))
-	slot3 = slot0:findTF("main/hp/level/Text")
-	slot0.levelTxt = slot3:GetComponent(typeof(Text))
-	slot3 = slot0:findTF("main/hp/Text")
-	slot0.hpTxt = slot3:GetComponent(typeof(Text))
-	slot3 = slot0:findTF("main/time/Text")
-	slot0.expiredTimeTxt = slot3:GetComponent(typeof(Text))
+	slot0.hpSlider = slot0:findTF("main/hp/slider"):GetComponent(typeof(Slider))
+	slot0.levelTxt = slot0:findTF("main/hp/level/Text"):GetComponent(typeof(Text))
+	slot0.hpTxt = slot0:findTF("main/hp/Text"):GetComponent(typeof(Text))
+	slot0.expiredTimeTxt = slot0:findTF("main/time/Text"):GetComponent(typeof(Text))
 	slot0.mainPanel = slot0:findTF("main")
 	slot0.painting = slot0:findTF("paint")
 
 	setActive(slot0.painting, false)
 	setActive(slot0.mainPanel, false)
 
-	slot3 = slot0.mainPanel
-	slot0.awardBtn = slot3:Find("award_btn")
-	slot3 = slot0.mainPanel
-	slot0.rankBtn = slot3:Find("rank_btn")
-	slot3 = slot0.mainPanel
-	slot0.startBtn = slot3:Find("start_btn")
+	slot0.awardBtn = slot0.mainPanel:Find("award_btn")
+	slot0.rankBtn = slot0.mainPanel:Find("rank_btn")
+	slot0.startBtn = slot0.mainPanel:Find("start_btn")
+	slot0.tipTr = slot0:findTF("tip")
 	slot0.refreshBtn = slot0:findTF("list_panel/frame/filter/refresh_btn")
 	slot0.refreshBtnGray = slot0:findTF("list_panel/frame/filter/refresh_btn_gray")
 	slot0.cdTime = 0
@@ -117,6 +112,7 @@ function slot0.OnInit(slot0)
 			uv0:emit(WorldBossMediator.UPDATE_CACHE_BOSS_HP, function ()
 				uv0:OnCacheBossUpdated()
 			end)
+			assert(pg.gameset.world_boss_resfresh, "gameset >>>>>>>>>>world_boss_resfresh")
 
 			slot0 = pg.gameset.world_boss_resfresh.key_value
 			uv0.cdTime = pg.TimeMgr.GetInstance():GetServerTime() + slot0
@@ -129,8 +125,11 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.refreshBtnGray, function ()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_not_refresh_frequently"))
 	end, SFX_PANEL)
+	onButton(slot0, slot0.switchBtn, function ()
+		uv0:emit(WorldBossScene.ON_SWITCH, WorldBossScene.PAGE_SELF)
+	end, SFX_PANEL)
 
-	function slot3()
+	function slot4()
 		if _.all(uv0.filterFlags, function (slot0)
 			return slot0 == -1
 		end) then
@@ -165,15 +164,48 @@ function slot0.OnInit(slot0)
 		uv1()
 		uv0:UpdateNonProcessList()
 	end, SFX_PANEL)
-	setPaintingPrefabAsync(slot0.painting, slot0.groupId, "lihuisha")
 
-	if uv0[slot0.groupId] then
-		setAnchoredPosition(slot0.painting, {
-			x = uv0[slot0.groupId][1],
-			y = uv0[slot0.groupId][2]
+	slot0.ptRecoveTFFlag = false
+
+	onButton(slot0, slot0.ptTF, function ()
+		uv0.ptRecoveTFFlag = not uv0.ptRecoveTFFlag
+
+		setActive(uv0.ptRecoveTF, uv0.ptRecoveTFFlag)
+	end, SFX_PANEL)
+	setActive(slot0.ptRecoveTF, slot0.ptRecoveTFFlag)
+	onButton(slot0, slot0:findTF("point/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.world_boss_help_meta.tip
 		})
+	end, SFX_PANEL)
+	slot0:UpdatePt()
+end
 
-		slot0.painting.localScale = Vector3(uv0[slot0.groupId][3] or 1, uv0[slot0.groupId][4] or 1, 1)
+function slot0.OnPtUpdated(slot0, slot1)
+	slot0:UpdatePt()
+end
+
+function slot0.UpdatePt(slot0)
+	slot0.pt.text = (slot0.proxy.pt or 0) .. "/" .. slot0.proxy:GetMaxPt()
+	slot0.ptRecove.text = i18n("world_boss_pt_recove_desc", pg.gameset.joint_boss_ap_recove_cnt_pre_day.key_value)
+end
+
+function slot0.UpdatePainting(slot0, slot1)
+	if slot0.groupId ~= slot1 then
+		slot0.groupId = slot1
+		slot0:findTF("main/label"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot1 .. "_title")
+
+		setPaintingPrefabAsync(slot0.painting, slot0.groupId, "lihuisha")
+
+		if uv0[slot0.groupId] then
+			setAnchoredPosition(slot0.painting, {
+				x = uv0[slot0.groupId][1],
+				y = uv0[slot0.groupId][2]
+			})
+
+			slot0.painting.localScale = Vector3(uv0[slot0.groupId][3] or 1, uv0[slot0.groupId][4] or 1, 1)
+		end
 	end
 end
 
@@ -204,11 +236,13 @@ end
 function slot0.AddListeners(slot0, slot1)
 	slot1:AddListener(WorldBossProxy.EventRankListUpdated, slot0.onRankListUpdated)
 	slot1:AddListener(WorldBossProxy.EventCacheBossListUpdated, slot0.onCacheBossUpdated)
+	slot1:AddListener(WorldBossProxy.EventPtUpdated, slot0.onPtUpdated)
 end
 
 function slot0.RemoveListeners(slot0, slot1)
 	slot1:RemoveListener(WorldBossProxy.EventRankListUpdated, slot0.onRankListUpdated)
 	slot1:RemoveListener(WorldBossProxy.EventCacheBossListUpdated, slot0.onCacheBossUpdated)
+	slot1:RemoveListener(WorldBossProxy.EventPtUpdated, slot0.onPtUpdated)
 end
 
 function slot0.OnCacheBossUpdated(slot0)
@@ -247,15 +281,21 @@ function slot0.UpdateNonProcessList(slot0)
 		end
 	end
 
+	slot4 = WorldBossConst.GetCurrBossGroup()
+
 	table.sort(slot0.displays, function (slot0, slot1)
-		return slot1:GetJoinTime() < slot0:GetJoinTime()
+		if (slot0.config.meta_id == uv0 and 1 or 0) == (slot1.config.meta_id == uv0 and 1 or 0) then
+			return slot1:GetJoinTime() < slot0:GetJoinTime()
+		else
+			return slot3 < slot2
+		end
 	end)
 
-	slot4 = 1
+	slot5 = 1
 
-	for slot8, slot9 in ipairs(slot0.displays) do
-		if slot9.id == slot0.contextData.worldBossId or slot9.id == slot0.worldBossId then
-			slot4 = slot8
+	for slot9, slot10 in ipairs(slot0.displays) do
+		if slot10.id == slot0.contextData.worldBossId or slot10.id == slot0.worldBossId then
+			slot5 = slot9
 
 			break
 		end
@@ -264,7 +304,7 @@ function slot0.UpdateNonProcessList(slot0)
 	slot0.contextData.worldBossId = nil
 	WorldBossScene.inOtherBossBattle = nil
 
-	slot0.scrollRect:Align(#slot0.displays, slot4)
+	slot0.scrollRect:Align(#slot0.displays, slot5)
 	setActive(slot0.filterToggle, true)
 	setActive(slot0.refreshBtn, true)
 end
@@ -289,6 +329,7 @@ function slot0.OnInitCard(slot0, slot1, slot2)
 		onButton(slot0, slot1, function ()
 			uv0.scrollRect:SliceTo(uv1)
 		end, SFX_PANEL)
+		slot0:UpdateCardStyle(slot1, slot3.config.meta_id)
 	end
 
 	setActive(slot1:Find("complete"), slot3 and slot4)
@@ -297,6 +338,16 @@ function slot0.OnInitCard(slot0, slot1, slot2)
 	setActive(slot5, slot3)
 	setActive(slot1:Find("tags/friend/Text"), false)
 	setActive(slot1:Find("tags/guild/Text"), false)
+end
+
+function slot0.UpdateCardStyle(slot0, slot1, slot2)
+	slot1:Find("raiding"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot2 .. "_item_03")
+	slot3 = slot1:Find("empty"):GetComponent(typeof(Image))
+	slot3.sprite = LoadSprite("metaship/" .. slot2 .. "_item_04")
+
+	slot3:SetNativeSize()
+
+	slot1:Find("selected/challenging"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot2 .. "_item_01")
 end
 
 function slot0.OnPreviewCard(slot0, slot1, slot2)
@@ -318,6 +369,7 @@ function slot0.OnPreviewCard(slot0, slot1, slot2)
 
 		setActive(slot1:Find("tags/friend/Text"), true)
 		setActive(slot1:Find("tags/guild/Text"), true)
+		slot0:UpdateMainView(slot3)
 	end
 
 	setActive(slot1:Find("selected"), slot3)
@@ -370,6 +422,14 @@ function slot0.UpdateMainView(slot0, slot1, slot2)
 	if not slot4 and not slot2 then
 		slot0:addBattleTimer(slot1)
 	end
+
+	slot0:UpdatePainting(slot1.config.meta_id)
+
+	slot7 = WorldBossConst.IsCurrBoss(slot1.config.meta_id)
+
+	setActive(slot0.ptTF, slot7)
+	setText(slot0.tipTr, slot7 and "" or i18n("world_boss_archives_boss_tip"))
+	setActive(slot0.awardBtn, slot7)
 end
 
 function slot0.addBattleTimer(slot0, slot1)

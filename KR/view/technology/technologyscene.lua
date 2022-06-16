@@ -594,6 +594,8 @@ function slot0.updateItem(slot0, slot1, slot2, slot3)
 	end
 
 	onButton(slot0, slot1, function ()
+		assert(pg.item_data_statistics[uv0.id], "item_data_statistics >>> " .. uv0.id)
+
 		if #(uv0:getConfig("display_icon") or {}) > 0 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_ITEM_BOX,

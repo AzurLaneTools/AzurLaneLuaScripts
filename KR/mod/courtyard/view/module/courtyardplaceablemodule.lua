@@ -119,6 +119,7 @@ function slot0.GetParentTF(slot0)
 end
 
 function slot0.GetSpine(slot0)
+	assert(false)
 end
 
 function slot0.GetData(slot0)

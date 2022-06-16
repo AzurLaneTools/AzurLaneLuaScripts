@@ -25,6 +25,8 @@ end
 
 function slot0.FillMap(slot0, slot1)
 	if not slot1:MatOrPaper() and not slot1:ExistParnet() and slot1.config.belong == 1 and slot1.x and slot1.y then
+		assert(slot1.x, slot1.id)
+
 		for slot5 = slot1.x, slot1.x + slot1.sizeX - 1 do
 			for slot9 = slot1.y, slot1.y + slot1.sizeY - 1 do
 				if not slot0[slot5] then

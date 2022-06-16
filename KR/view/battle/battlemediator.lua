@@ -265,7 +265,7 @@ function slot1(slot0, slot1, slot2, slot3)
 		if not slot10 or slot10.id ~= 14900 or slot1.transforms[16412] then
 			slot11 = {
 				level = slot10.level,
-				id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot10.id)
+				id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot1:RemapSkillId(slot10.id))
 			}
 			slot5[slot11.id] = slot11
 		end
@@ -279,25 +279,45 @@ function slot1(slot0, slot1, slot2, slot3)
 		slot5[slot12.id] = slot12
 	end
 
-	for slot10, slot11 in pairs(slot1:getTriggerSkills()) do
-		slot12 = {
-			level = slot11.level,
-			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot11.id)
+	slot7 = nil
+
+	(function ()
+		uv0 = uv1:GetSpWeapon()
+
+		if not uv0 then
+			return
+		end
+
+		if uv0:GetEffect() == 0 then
+			return
+		end
+
+		slot1 = {
+			level = 1,
+			id = ys.Battle.BattleDataFunction.SkillTranform(uv2, slot0)
 		}
-		slot5[slot12.id] = slot12
+		uv3[slot1.id] = slot1
+	end)()
+
+	for slot12, slot13 in pairs(slot1:getTriggerSkills()) do
+		slot14 = {
+			level = slot13.level,
+			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot13.id)
+		}
+		slot5[slot14.id] = slot14
 	end
 
-	slot8 = false
+	slot10 = false
 
 	if slot0 == SYSTEM_WORLD and WorldConst.FetchWorldShip(slot1.id) then
-		slot8 = slot9:IsBroken()
+		slot10 = slot11:IsBroken()
 	end
 
-	if slot8 then
-		for slot12, slot13 in pairs(slot5) do
-			if pg.skill_data_template[slot12].world_death_mark[1] == ys.Battle.BattleConst.DEATH_MARK_SKILL.DEACTIVE then
-				slot5[slot12] = nil
-			elseif slot15 == ys.Battle.BattleConst.DEATH_MARK_SKILL.IGNORE then
+	if slot10 then
+		for slot14, slot15 in pairs(slot5) do
+			if pg.skill_data_template[slot14].world_death_mark[1] == ys.Battle.BattleConst.DEATH_MARK_SKILL.DEACTIVE then
+				slot5[slot14] = nil
+			elseif slot17 == ys.Battle.BattleConst.DEATH_MARK_SKILL.IGNORE then
 				-- Nothing
 			end
 		end
@@ -309,7 +329,7 @@ function slot1(slot0, slot1, slot2, slot3)
 		skinId = slot1.skinId,
 		level = slot1.level,
 		equipment = slot4,
-		properties = slot1:getProperties(slot2, slot3, slot7),
+		properties = slot1:getProperties(slot2, slot3, slot9),
 		baseProperties = slot1:getShipProperties(),
 		proficiency = slot1:getEquipProficiencyList(),
 		rarity = slot1:getRarity(),
@@ -319,7 +339,8 @@ function slot1(slot0, slot1, slot2, slot3)
 		baseList = slot1:getBaseList(),
 		preloasList = slot1:getPreLoadCount(),
 		name = slot1:getName(),
-		deathMark = slot8
+		deathMark = slot10,
+		spWeapon = slot7
 	}
 end
 
@@ -592,8 +613,12 @@ function slot0.GenBattleData(slot0)
 	elseif slot2 == SYSTEM_WORLD_BOSS then
 		slot6 = nowWorld():GetBossProxy()
 		slot7 = slot6:GetFleet()
+		slot8 = slot0.contextData.bossId
+		slot9 = slot6:GetBossById(slot8)
 
-		if slot6:GetBossById(slot0.contextData.bossId):GetHP() then
+		assert(slot9, slot8)
+
+		if slot9:GetHP() then
 			if slot9:IsSelf() then
 				slot1.RepressInfo = {
 					repressEnemyHpRant = slot10 / slot9:GetMaxHp()

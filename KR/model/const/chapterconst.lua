@@ -147,7 +147,11 @@ slot0.TraitVirgin = 2
 
 function slot0.NeedMarkAsLurk(slot0)
 	if slot0.attachment == uv0.AttachBox then
-		if pg.box_data_template[slot0.attachmentId].type == uv0.BoxStrategy and pg.strategy_data_template[slot1.effect_id].type == ChapterConst.StgTypeBindFleetPassive then
+		slot1 = pg.box_data_template[slot0.attachmentId]
+
+		assert(slot1, "box_data_template not exist: " .. slot0.attachmentId)
+
+		if slot1.type == uv0.BoxStrategy and pg.strategy_data_template[slot1.effect_id].type == ChapterConst.StgTypeBindFleetPassive then
 			return nil
 		end
 
@@ -173,7 +177,11 @@ function slot0.NeedEasePathCell(slot0)
 	elseif slot0.attachment == uv0.AttachSupply and slot0.attachmentId <= 0 then
 		return true
 	elseif slot0.attachment == uv0.AttachBox then
-		if pg.box_data_template[slot0.attachmentId].type == uv0.BoxAirStrike or slot1.type == uv0.BoxTorpedo then
+		slot1 = pg.box_data_template[slot0.attachmentId]
+
+		assert(slot1, "box_data_template not exist: " .. slot0.attachmentId)
+
+		if slot1.type == uv0.BoxAirStrike or slot1.type == uv0.BoxTorpedo then
 			return true
 		elseif (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxEnemy or slot1.type == uv0.BoxSupply) and slot0.flag == ChapterConst.CellFlagDisabled then
 			return true
@@ -194,8 +202,14 @@ function slot0.NeedClearStep(slot0)
 		return true
 	end
 
-	if slot0.attachment == uv0.AttachBox and pg.box_data_template[slot0.attachmentId].type == uv0.BoxAirStrike then
-		return true
+	if slot0.attachment == uv0.AttachBox then
+		slot1 = pg.box_data_template[slot0.attachmentId]
+
+		assert(slot1, "box_data_template not exist: " .. slot0.attachmentId)
+
+		if slot1.type == uv0.BoxAirStrike then
+			return true
+		end
 	end
 
 	return false

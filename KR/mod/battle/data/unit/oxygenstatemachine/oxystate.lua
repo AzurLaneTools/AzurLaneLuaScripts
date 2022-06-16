@@ -80,6 +80,8 @@ function slot3.ChangeState(slot0, slot1, slot2)
 		slot0:OnFreeBenchState()
 	elseif slot1 == uv0.STATE_DEEP_MINE then
 		slot0:OnDeepMineState()
+	else
+		assert(false, slot0._target.__name .. "'s oxygen state machine, unexcepted state: " .. slot1)
 	end
 
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()

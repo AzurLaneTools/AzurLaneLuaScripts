@@ -428,8 +428,9 @@ function slot0.loadAllCharacter(slot0)
 
 			table.insert(uv0, function (slot0)
 				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
-					uv0(slot0, uv1, uv2, uv3)
-					uv4()
+					assert(slot0, "没有这个角色的模型  " .. uv0)
+					uv1(slot0, uv2, uv3, uv4)
+					uv5()
 				end)
 			end)
 		end

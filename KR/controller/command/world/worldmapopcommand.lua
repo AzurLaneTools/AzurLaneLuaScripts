@@ -1,10 +1,8 @@
 slot0 = class("WorldMapOpCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot3 = pg.ConnectionMgr.GetInstance()
-
-	slot3:Send(33103, {
+	assert(slot1:getBody().class == WorldMapOp, "command parameter should be type of WorldMapOp")
+	pg.ConnectionMgr.GetInstance():Send(33103, {
 		act = slot2.op,
 		group_id = slot2.id or 0,
 		act_arg_1 = slot2.arg1,
@@ -13,7 +11,9 @@ function slot0.execute(slot0, slot1)
 	}, 33104, function (slot0)
 		if slot0.result == 0 then
 			slot1 = getProxy(WorldProxy)
-			slot2 = nowWorld():GetActiveMap()
+
+			assert(nowWorld():GetActiveMap(), "active map not exist.")
+
 			uv0.drops = PlayerConst.addTranDrop(slot0.drop_list)
 			uv0.updateAttachmentCells = slot1:NetBuildMapAttachmentCells(slot0.pos_list)
 			uv0.fleetAttachUpdates = slot1:NetBuildFleetAttachUpdate(slot0.pos_list)
@@ -205,7 +205,8 @@ function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.BuildFleetAction(slot0, slot1)
-	slot3 = nowWorld():GetActiveMap():FindFleet(slot1.ai_pos.row, slot1.ai_pos.column)
+	assert(nowWorld():GetActiveMap():FindFleet(slot1.ai_pos.row, slot1.ai_pos.column), "fleet not exist at: " .. slot1.ai_pos.column .. ", " .. slot1.ai_pos.column)
+
 	slot4 = getProxy(WorldProxy):NetBuildMapAttachmentCells(slot1.pos_list)
 	slot5 = nil
 
@@ -289,9 +290,15 @@ function slot0.BuildFleetMoveAction(slot0, slot1, slot2, slot3, slot4, slot5, sl
 end
 
 function slot0.BuildAttachmentAction(slot0, slot1)
+	slot3 = slot1.ai_pos.row
+	slot4 = slot1.ai_pos.column
+	slot6 = nowWorld():GetActiveMap():GetCell(slot3, slot4):FindAliveAttachment(WorldMapAttachment.TypeEnemyAI)
+
+	assert(slot6, "attachment not exist at: " .. slot3 .. ", " .. slot4)
+
 	slot8 = WBank:Fetch(WorldMapOp)
 	slot8.op = WorldConst.OpActionCameraMove
-	slot8.attachment = nowWorld():GetActiveMap():GetCell(slot1.ai_pos.row, slot1.ai_pos.column):FindAliveAttachment(WorldMapAttachment.TypeEnemyAI)
+	slot8.attachment = slot6
 
 	table.insert({}, slot8)
 
@@ -313,7 +320,9 @@ end
 
 function slot0.BuildAttachmentActionPath(slot0, slot1, slot2)
 	slot3 = nowWorld()
-	slot3 = slot3:GetActiveMap()
+
+	assert(slot3:GetActiveMap(), "active map not exist.")
+
 	slot2.path = underscore.map(slot1, function (slot0)
 		return {
 			row = slot0.row,
@@ -328,7 +337,12 @@ function slot0.BuildAttachmentActionPath(slot0, slot1, slot2)
 end
 
 function slot0.BuildTrapAction(slot0, slot1)
-	slot6 = nowWorld():GetActiveMap():GetCell(slot1.ai_pos.row, slot1.ai_pos.column):FindAliveAttachment(WorldMapAttachment.TypeTrap)
+	slot3 = slot1.ai_pos.row
+	slot4 = slot1.ai_pos.column
+	slot6 = nowWorld():GetActiveMap():GetCell(slot3, slot4):FindAliveAttachment(WorldMapAttachment.TypeTrap)
+
+	assert(slot6, "attachment not exist at: " .. slot3 .. ", " .. slot4)
+
 	slot7 = {}
 	slot8 = WBank:Fetch(WorldMapOp)
 	slot8.op = WorldConst.OpActionCameraMove
@@ -416,9 +430,13 @@ function slot0.BuildProgressAction(slot0, slot1)
 		_.each(WorldConst.FindStageTemplates(slot1), function (slot0)
 			if slot0 and #slot0.stage_effect[uv0] > 0 then
 				_.each(slot0.stage_effect[uv0], function (slot0)
+					slot1 = pg.world_effect_data[slot0]
+
+					assert(slot1, "world_effect_data not exist: " .. slot0)
+
 					slot2 = WBank:Fetch(WorldMapOp)
 					slot2.op = WorldConst.OpActionEventEffect
-					slot2.effect = pg.world_effect_data[slot0]
+					slot2.effect = slot1
 
 					table.insert(uv0, slot2)
 				end)

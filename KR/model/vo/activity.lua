@@ -135,7 +135,11 @@ function slot0.getDataConfigTable(slot0)
 end
 
 function slot0.getDataConfig(slot0, slot1)
-	return slot0:getDataConfigTable() and slot2[slot1]
+	slot2 = slot0:getDataConfigTable()
+
+	assert(slot2, "miss config : " .. slot0.id)
+
+	return slot2 and slot2[slot1]
 end
 
 function slot0.isEnd(slot0)
@@ -477,7 +481,7 @@ function slot0.isShow(slot0)
 end
 
 function slot0.isAfterShow(slot0)
-	if slot0.configId == ActivityConst.UR_TASK_ACT_ID then
+	if slot0.configId == ActivityConst.UR_TASK_ACT_ID or slot0.configId == ActivityConst.SPECIAL_WEAPON_ACT_ID then
 		slot1 = getProxy(TaskProxy)
 
 		return underscore.all(slot0:getConfig("config_data")[1], function (slot0)
@@ -597,6 +601,8 @@ function slot0.GetShopTime(slot0)
 end
 
 function slot0.GetCrusingUnreceiveAward(slot0)
+	assert(slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_CRUSING, "type error")
+
 	slot1 = pg.battlepass_event_pt[slot0.id]
 	slot2 = {}
 	slot3 = {}
@@ -643,8 +649,9 @@ function slot0.GetCrusingUnreceiveAward(slot0)
 end
 
 function slot0.GetCrusingInfo(slot0)
-	slot1 = pg.battlepass_event_pt[slot0.id]
-	slot2 = slot1.pt
+	assert(slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_CRUSING, "type error")
+
+	slot2 = pg.battlepass_event_pt[slot0.id].pt
 	slot3 = {}
 	slot4 = {}
 
@@ -706,7 +713,8 @@ function slot0.isHaveActivableMedal()
 end
 
 function slot0.GetPicturePuzzleIds(slot0)
-	slot1 = pg.activity_event_picturepuzzle[slot0]
+	assert(pg.activity_event_picturepuzzle[slot0], "Can't Find activity_event_picturepuzzle 's ID : " .. (slot0 or "NIL"))
+
 	slot2 = Clone(slot1.pickup_picturepuzzle)
 
 	table.insertto(slot2, slot1.drop_picturepuzzle)

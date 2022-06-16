@@ -2,6 +2,8 @@ slot0 = class("LevelDifficultySelMediator", import("..base.ContextMediator"))
 slot0.GO_LEVEL_SENCE = "LevelDifficultySelMediator:GO_LEVEL_SENCE"
 
 function slot0.register(slot0)
+	assert(slot0.contextData.activityId, "activityId can not be nil")
+
 	slot1 = getProxy(ChapterProxy)
 	slot2 = slot0.viewComponent
 
@@ -47,7 +49,8 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_OPERATION_DONE then
 		slot5 = slot0.activityProxy:getActivityById(slot3)
-		slot6 = getProxy(ChapterProxy):getUnlockActMapBytype(slot5.data1, slot5.id)
+
+		assert(getProxy(ChapterProxy):getUnlockActMapBytype(slot5.data1, slot5.id), "map should exist")
 
 		if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
 			slot0.viewComponent:emit(BaseUI.ON_CLOSE)

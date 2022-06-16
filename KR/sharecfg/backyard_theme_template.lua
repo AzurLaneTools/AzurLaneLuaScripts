@@ -724,7 +724,7 @@ pg.backyard_theme_template = {
 	},
 	[21] = {
 		Cfg_1 = 5,
-		name = "<size=38>MARIAGE D'AMOUR</size>",
+		name = "MARIAGE D'AMOUR",
 		hot = 1,
 		is_view = 1,
 		id = 21,

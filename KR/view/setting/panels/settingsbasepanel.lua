@@ -55,12 +55,15 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.GetUIName(slot0)
+	assert(false, "overwrite me !!!")
 end
 
 function slot0.GetTitle(slot0)
+	assert(false, "overwrite me !!!")
 end
 
 function slot0.GetTitleEn(slot0)
+	assert(false, "overwrite me !!!")
 end
 
 function slot0.OnInit(slot0)

@@ -29,16 +29,20 @@ function slot2(slot0, slot1, slot2)
 			slot0.retrieveQueue_[slot0.curRQPos_] = nil
 
 			return uv1(slot0, uv2(uv0.MessageCache.OK, slot0.retrieveQueue_[slot0.curRQPos_]))
-		elseif slot0.cacheQueue_[1] then
-			slot0.retrieveQueue_ = slot0.cacheQueue_
-			slot0.cacheQueue_ = slot0.retrieveQueue_
-			slot0.curRQPos_ = 1
-			slot0.curRQLen_ = #slot0.retrieveQueue_
-			slot0.retrieveQueue_[slot0.curRQPos_] = nil
-
-			return uv1(slot0, uv2(uv0.MessageCache.OK, slot0.retrieveQueue_[slot0.curRQPos_]))
 		else
-			return uv1(slot0, uv2(uv0.MessageCache.OK))
+			assert(slot0.curRQLen_ <= slot0.curRQPos_)
+
+			if slot0.cacheQueue_[1] then
+				slot0.retrieveQueue_ = slot0.cacheQueue_
+				slot0.cacheQueue_ = slot0.retrieveQueue_
+				slot0.curRQPos_ = 1
+				slot0.curRQLen_ = #slot0.retrieveQueue_
+				slot0.retrieveQueue_[slot0.curRQPos_] = nil
+
+				return uv1(slot0, uv2(uv0.MessageCache.OK, slot0.retrieveQueue_[slot0.curRQPos_]))
+			else
+				return uv1(slot0, uv2(uv0.MessageCache.OK))
+			end
 		end
 	elseif slot1 == uv0.MessageCache.CMD_KILL then
 		slot3 = slot0.curRQPos_
@@ -94,6 +98,8 @@ function slot0.MessageCache.Ctor(slot0, slot1, slot2)
 	slot0._name = slot1
 	slot0._thread = coroutine.create(uv0)
 	slot3, slot4 = coroutine.resume(slot0._thread, slot2)
+
+	assert(slot4 == uv1.MessageCache.OK)
 end
 
 function slot0.MessageCache.Push(slot0, ...)

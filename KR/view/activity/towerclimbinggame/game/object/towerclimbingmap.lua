@@ -301,6 +301,9 @@ function slot0.OnEnableStab(slot0, slot1, slot2)
 	slot3 = _.detect(slot0.blocks, function (slot0)
 		return slot0.block.level == uv0.level
 	end)
+
+	assert(slot3)
+
 	slot4 = slot3.go:GetComponent(typeof(UnityEngine.Collider2D))
 
 	for slot8, slot9 in ipairs(slot3.colliders) do

@@ -2,7 +2,9 @@ slot0 = class("ActivityShopWithProgressRewardCommand", pm.SimpleCommand)
 slot0.SHOW_SHOP_REWARD = "ActivityShopWithProgressRewardCommand Show shop reward"
 
 function slot0.execute(slot0, slot1)
-	if getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id):getConfig("type") == ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD then
+	assert(getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id):getConfig("type") == ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD, "Operation Cant Fit ActivityType " .. slot4)
+
+	if slot4 == ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD then
 		if slot2.cmd == 1 then
 			slot6 = pg.activity_shop_template[slot2.arg1]
 

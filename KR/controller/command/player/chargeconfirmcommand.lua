@@ -9,9 +9,9 @@ function slot0.execute(slot0, slot1)
 		pay_id_bili = slot2.bsId or ""
 	}, 11505, function (slot0)
 		if slot0 then
-			print("��Ϣ11505���ش�����Ϊ��" .. slot0.result)
+			print("\\xcf\\xfbϢ11505\\xb7\\xb5\\xbbش\\xed\\xce\\xf3\\xc2\\xebΪ\\xa3\\xba" .. slot0.result)
 		else
-			print("��Ϣ11505��������Ϊ��")
+			print("\\xcf\\xfbϢ11505\\xb7\\xb5\\xbb\\xd8\\xca\\xfd\\xbe\\xddΪ\\xbf\\xd5")
 		end
 
 		if slot0.result == 0 then

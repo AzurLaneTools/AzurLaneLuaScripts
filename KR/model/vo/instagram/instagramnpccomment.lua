@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.level + 1
 
 	for slot9, slot10 in ipairs(slot1.npc_reply) do
+		assert(slot0.allReply[slot10], slot10)
 		table.insert(slot0.replyList, InstagramNpcComment.New(slot0.allReply[slot10], slot2, slot5, slot0))
 	end
 

@@ -20804,9 +20804,10 @@ pg.transform_data_template = {
 
 개조 후<color=#92fc63>[주 무기]</color>장비 칸의 장비 종류가<color=#92fc63>[중순 주포]</color>로 변경.
 기존의<color=#92fc63>[주 무기]</color>칸의 장비는 창고로 이전.
+함종 변경으로 인해 기존 <color=#92fc63>【특수 장비】</color> 슬롯의 특수 장비는 창고로 이동
 개조 후<color=#92fc63>[주포 발사 수+1]</color>, <color=#92fc63>[어뢰 발사 수-1]</color>
 개조 후<color=#92fc63>[전탄 발사II]</color>스킬,<color=#92fc63>[전탄 발사·改]</color>로 업그레이드.
-개조 후<color=#92fc63>[대잠]</color>속성은 0으로 돌아가며, <color=#92fc63>소나와 폭뢰</color>를 착용 불가. ]],
+개조 후<color=#92fc63>[대잠]</color>속성은 0으로 돌아가며, <color=#92fc63>소나와 폭뢰</color>를 착용 불가.]],
 		icon = "mt_red",
 		skill_id = 0,
 		condition_id = {
