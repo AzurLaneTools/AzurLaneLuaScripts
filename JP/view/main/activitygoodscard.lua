@@ -32,29 +32,44 @@ function slot0.Ctor(slot0, slot1)
 	slot0.limitCountTF = findTF(slot0.tr, "item/count_contain/count"):GetComponent(typeof(Text))
 	slot0.limitCountLabelTF = findTF(slot0.tr, "item/count_contain/label"):GetComponent(typeof(Text))
 	slot0.limitCountLabelTF.text = i18n("activity_shop_exchange_count")
+	slot0.limitPassTag = slot0.tr:Find("mask/tag/pass_tag")
 end
 
 function slot0.update(slot0, slot1, slot2, slot3, slot4)
 	slot0.goodsVO = slot1
+	slot6 = slot0.goodsVO:CheckCntLimit() and not slot0.goodsVO:CheckArgLimit()
 
-	setActive(slot0.mask, not slot5 or slot0.goodsVO:CheckCntLimit() and not slot0.goodsVO:CheckArgLimit())
+	setActive(slot0.mask, not slot5 or slot6)
 	setActive(slot0.selloutTag, not slot5)
+
+	if slot6 then
+		slot7, slot8, slot9 = slot0.goodsVO:CheckArgLimit()
+
+		if slot8 == "pass" then
+			setActive(slot0.limitPassTag, true)
+			setText(findTF(slot0.limitPassTag, "Text"), i18n("eventshop_unlock_info", slot9))
+			onButton(slot0, slot0.mask, function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", uv0))
+			end, SFX_PANEL)
+		end
+	end
+
 	updateDrop(slot0.itemTF, {
 		type = slot1:getConfig("commodity_type"),
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
 	})
 	setActive(slot0.limitTimeSellTF, false)
-	removeOnButton(slot0.mask)
 
 	if slot5 then
 		slot10, slot11 = slot0.goodsVO:CheckTimeLimit()
 
 		setActive(slot0.limitTimeSellTF, slot10 and slot11)
-		setActive(slot0.mask, slot10 and not slot11)
-		setActive(slot0.sellEndTag, slot10 and not slot11)
 
 		if slot10 and not slot11 then
+			setActive(slot0.mask, true)
+			setActive(slot0.sellEndTag, true)
+			removeOnButton(slot0.mask)
 			onButton(slot0, slot0.mask, function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", Item.GetName(uv0.type, uv0.id)))
 			end, SFX_PANEL)

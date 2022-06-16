@@ -144,4 +144,8 @@ function slot0.GetPurchaseVoice(slot0)
 	end
 end
 
+function slot0.IsEventShop(slot0)
+	return pg.activity_template[slot0.activityId].config_client.event_shop
+end
+
 return slot0

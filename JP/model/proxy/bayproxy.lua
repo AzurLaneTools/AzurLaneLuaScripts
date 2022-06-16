@@ -2,6 +2,8 @@ slot0 = class("BayProxy", import(".NetProxy"))
 slot0.SHIP_ADDED = "ship added"
 slot0.SHIP_REMOVED = "ship removed"
 slot0.SHIP_UPDATED = "ship updated"
+slot0.SHIP_EQUIPMENT_ADDED = "ship equipment added"
+slot0.SHIP_EQUIPMENT_REMOVED = "ship equipment removed"
 
 function slot0.register(slot0)
 	slot0:on(12001, function (slot0)

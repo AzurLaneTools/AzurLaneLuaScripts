@@ -51511,7 +51511,9 @@ _G.pg.base.ship_data_statistics[107011] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107012] = {
@@ -51633,7 +51635,9 @@ _G.pg.base.ship_data_statistics[107012] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107013] = {
@@ -51755,7 +51759,9 @@ _G.pg.base.ship_data_statistics[107013] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107014] = {
@@ -51877,7 +51883,9 @@ _G.pg.base.ship_data_statistics[107014] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107021] = {
@@ -52999,7 +53007,9 @@ _G.pg.base.ship_data_statistics[107041] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107042] = {
@@ -53121,7 +53131,9 @@ _G.pg.base.ship_data_statistics[107042] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107043] = {
@@ -53243,7 +53255,9 @@ _G.pg.base.ship_data_statistics[107043] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107044] = {
@@ -53365,7 +53379,9 @@ _G.pg.base.ship_data_statistics[107044] = {
 	hunting_range = {
 		{}
 	},
-	tag_list = {}
+	tag_list = {
+		"Eagle Union-CVL"
+	}
 }
 
 _G.pg.base.ship_data_statistics[107051] = {

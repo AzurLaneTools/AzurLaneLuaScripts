@@ -2,13 +2,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 0.5,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 0.5
 				}
 			}
 		}
@@ -16,13 +16,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 1,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 1
 				}
 			}
 		}
@@ -30,13 +30,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 1.5,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 1.5
 				}
 			}
 		}
@@ -44,13 +44,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 2,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 2
 				}
 			}
 		}
@@ -58,13 +58,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 2.5,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 2.5
 				}
 			}
 		}
@@ -72,13 +72,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 3,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 3
 				}
 			}
 		}
@@ -86,13 +86,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 3.5,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 3.5
 				}
 			}
 		}
@@ -100,13 +100,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 4,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 4
 				}
 			}
 		}
@@ -114,13 +114,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 4.5,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 4.5
 				}
 			}
 		}
@@ -128,13 +128,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffSetAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					value = 5,
-					attr = "chargeBulletAccuracy"
+					attr = "chargeBulletAccuracy",
+					number = 5
 				}
 			}
 		}

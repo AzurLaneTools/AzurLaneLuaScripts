@@ -14,7 +14,7 @@ function slot0.execute(slot0, slot1)
 
 			slot2:setImportantFlag(uv0.flag)
 			slot1:updateMail(slot2)
-			uv1:sendNotification(GAME.CHANGE_MAIL_IMP_FLAG_DONE)
+			uv1:sendNotification(GAME.CHANGE_MAIL_IMP_FLAG_DONE, slot2)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("change_mail_imp_flag", slot0.result))
 		end

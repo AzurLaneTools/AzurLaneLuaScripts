@@ -15741,6 +15741,62 @@ _G.pg.base.shop_template[60327] = {
 	}
 }
 
+_G.pg.base.shop_template[60328] = {
+	is_auto_use = 1,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "120钻石购买限时攻略补给（划破海空之翼SP复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60328,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2022,
+				6,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				6,
+				29
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[61001] = {
 	is_auto_use = 0,
 	resource_type = 14,
@@ -33240,7 +33296,7 @@ _G.pg.base.shop_template[70433] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 10,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -33256,8 +33312,8 @@ _G.pg.base.shop_template[70433] = {
 		{
 			{
 				2022,
-				2,
-				24
+				6,
+				16
 			},
 			{
 				0,
@@ -33268,8 +33324,8 @@ _G.pg.base.shop_template[70433] = {
 		{
 			{
 				2022,
-				3,
-				9
+				6,
+				29
 			},
 			{
 				23,

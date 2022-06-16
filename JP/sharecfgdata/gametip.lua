@@ -9528,7 +9528,7 @@ _G.pg.base.gametip.ai_change_2 = {
 }
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "※交換可能期間：<color=#FFCF81>$1</color>"
+	tip = "※交換可能期間：<color=#FFF693>$1</color>"
 }
 
 _G.pg.base.gametip.levelScene_tracking_error_pre = {
@@ -15336,7 +15336,7 @@ _G.pg.base.gametip.guild_cancel_tech_tip = {
 }
 
 _G.pg.base.gametip.guild_tech_consume_tip = {
-	tip = "<icon name=guildicon w=0.7 h=0.7/>$1と<icon name=gold w=0.7 h=0.7/>$2を消費し【$3】を増築 しようとしています。増築を行いますか？"
+	tip = "<icon name=guildicon w=0.7 h=0.7/>$1と<icon name=gold w=0.7 h=0.7/>$2を消費し【$3】を\n増築 しようとしています。増築を行いますか？"
 }
 
 _G.pg.base.gametip.guild_tech_non_admin = {
@@ -20903,4 +20903,28 @@ _G.pg.base.gametip.tactics_recent_ship_label = {
 
 _G.pg.base.gametip.title_info = {
 	tip = "情報"
+}
+
+_G.pg.base.gametip.eventshop_unlock_info = {
+	tip = "$1クリア"
+}
+
+_G.pg.base.gametip.eventshop_unlock_hint = {
+	tip = "$1クリアで開放されます"
+}
+
+_G.pg.base.gametip.commission_event_tip = {
+	tip = {
+		{
+			info = [[
+遊び方：
+1.イベント期間中、軍事委託の報酬に「軍事委託Pt」が追加されます
+<color=#92fc63>「軍事委託Pt」は委託の必要時間が5分につき、1Pt加算されます</color>
+例：必要時間が1時間の委託を完了した場合、報酬として「軍事委託Pt」が12入手できます
+2.イベント期間中に開始・完了した委託のみ「軍事委託Pt」の報酬を受け取れます
+3.軍事委託を中止した場合、「軍事委託Pt」を入手できません
+4.ショップの「イベント」タブで、軍事委託Ptを消費し様々なアイテムと交換できます
+5.交換ラインナップの一部アイテムは、特定のメイン海域をクリアしてからでないと交換できません]]
+		}
+	}
 }

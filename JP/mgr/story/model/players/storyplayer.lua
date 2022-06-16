@@ -98,8 +98,7 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:SetTimeScale(1 - slot1:GetPlaySpeed() * 0.1)
 
-	slot6 = slot1:GetNextStep(slot2)
-	slot7 = slot1:GetPrevStep(slot2)
+	slot6 = slot1:GetPrevStep(slot2)
 
 	seriesAsync({
 		function (slot0)
@@ -167,6 +166,9 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 			end
 		end,
 		function (slot0)
+			slot1 = uv0
+			slot1 = slot1:GetNextStep(uv1)
+
 			parallelAsync({
 				function (slot0)
 					uv0:ClearAnimation()

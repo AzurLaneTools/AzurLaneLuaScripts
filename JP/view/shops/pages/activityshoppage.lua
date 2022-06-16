@@ -47,6 +47,7 @@ function slot0.OnLoaded(slot0)
 	slot0.resTF = slot0:findTF("res_battery"):GetComponent(typeof(Image))
 	slot0.resIcon = slot0:findTF("res_battery/icon"):GetComponent(typeof(Image))
 	slot0.resCnt = slot0:findTF("res_battery/Text"):GetComponent(typeof(Text))
+	slot0.eventResCnt = slot0:findTF("event_res_battery/Text"):GetComponent(typeof(Text))
 	slot0.resName = slot0:findTF("res_battery/label"):GetComponent(typeof(Text))
 	slot0.time = slot0:findTF("Text"):GetComponent(typeof(Text))
 
@@ -58,7 +59,9 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnUpdatePlayer(slot0)
-	slot0.resCnt.text = slot0.player:getResource(slot0.shop:getResId())
+	slot1 = slot0.shop:getResId()
+	slot0.resCnt.text = slot0.player:getResource(slot1)
+	slot0.eventResCnt.text = slot0.player:getResource(slot1)
 end
 
 function slot0.OnSetUp(slot0)
@@ -81,6 +84,10 @@ function slot0.SetResIcon(slot0)
 	slot0.resIcon.sprite = GetSpriteFromAtlas(slot2.icon, "")
 	slot0.resName.text = slot2.name
 	slot0.time.text = i18n("activity_shop_lable", slot0.shop:getOpenTime())
+	slot3 = slot0.shop:IsEventShop()
+
+	setActive(slot0:findTF("res_battery"), not slot3)
+	setActive(slot0:findTF("event_res_battery"), slot3)
 end
 
 function slot0.InitCommodities(slot0)

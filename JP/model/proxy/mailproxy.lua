@@ -1,10 +1,7 @@
 slot0 = class("MailProxy", import(".NetProxy"))
 slot0.MAIL_TOTAL = "mail total"
-slot0.MAIL_ADDED = "mail added"
 slot0.MAIL_OPENNED = "mail openned"
 slot0.MAIL_ATTACHMENT_TAKEN = "mail attachment taken"
-slot0.MAIL_UPDATED = "mail updated"
-slot0.MAIL_REMOVED = "mail removed"
 slot0.UPDATE_ATTACHMENT_COUNT = "UPDATE_ATTACHMENT_COUNT"
 
 function slot0.register(slot0)
@@ -30,7 +27,6 @@ function slot0.addMail(slot0, slot1)
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("added")
-	slot0.facade:sendNotification(uv0.MAIL_ADDED, slot1:clone())
 end
 
 function slot0.getMails(slot0)
@@ -90,11 +86,9 @@ function slot0.updateMail(slot0, slot1)
 	assert(isa(slot1, Mail), "should be an instance of Mail")
 	assert(slot0.data[slot1.id] ~= nil, "ship should exist")
 
-	slot2 = slot0.data[slot1.id].readFlag
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("updated")
-	slot0.facade:sendNotification(uv0.MAIL_UPDATED, slot1:clone())
 end
 
 function slot0.removeMail(slot0, slot1)
@@ -106,15 +100,11 @@ function slot0.removeMailById(slot0, slot1)
 	slot2 = slot0.data[slot1]
 
 	assert(slot0.data[slot1] ~= nil, "mail should exist")
-
-	slot3 = slot0.data[slot2.id].readFlag
-
 	slot0.data[slot2.id]:display("removed")
 
 	slot0.data[slot2.id] = nil
 
 	slot0:updateTotal(slot0.total - 1)
-	slot0.facade:sendNotification(uv0.MAIL_REMOVED, slot2)
 end
 
 function slot0.hasMailById(slot0, slot1)

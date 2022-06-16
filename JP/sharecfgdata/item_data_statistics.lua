@@ -167066,6 +167066,48 @@ _G.pg.base.item_data_statistics[59320] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59321] = {
+	display = "「奔る彩帆の青」報酬交換用。イベント終了後に削除されます",
+	name = "SPバッジ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59321,
+	is_world = 0,
+	icon = "Props/pulinsidun_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59322] = {
+	display = "「委託報酬計画」イベントで報酬と交換できるPtになります。イベント終了後に削除されます",
+	name = "軍事委託Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59322,
+	is_world = 0,
+	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",

@@ -55,7 +55,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 				end
 			end
 		end
-	end, true)
+	end, false)
 	slot0._angle = slot3.cld_data.angle
 
 	if slot0._angle then

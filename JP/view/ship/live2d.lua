@@ -2,7 +2,8 @@ slot0 = class("Live2D")
 slot0.STATE_LOADING = 0
 slot0.STATE_INITED = 1
 slot0.STATE_DISPOSE = 2
-slot1 = true
+slot1 = nil
+slot0.DRAG_EVENT_ACTION = 1
 slot2 = {
 	CubismParameterBlendMode.Override,
 	CubismParameterBlendMode.Additive,
@@ -41,191 +42,7 @@ function slot0.GenerateData(slot0)
 	return slot1
 end
 
-slot3 = nil
-slot4 = 6
-slot5 = 1
-
-function slot6(slot0)
-	slot1 = {
-		ctor = function (slot0)
-			slot0.drawAbleName = uv0.draw_able_name or ""
-			slot0.parameterName = uv0.parameter
-			slot0.mode = uv0.mode
-			slot0.startValue = uv0.start_value
-			slot0.range = uv0.range
-			slot0.offsetX = uv0.offset_x
-			slot0.offsetY = uv0.offset_y
-			slot0.smooth = uv0.smooth / 1000
-			slot0.revert = uv0.revert / 1000
-			slot0.ignoreReact = uv0.ignore_react == 1
-			slot0.gyro = uv0.gyro == 1
-			slot0.gyroX = uv0.gyro_x == 1
-			slot0.gyroY = uv0.gyro_y == 1
-			slot0.gyroZ = uv0.gyro_z == 1
-			slot0.dragDirect = uv0.drag_direct
-			slot0.rangeAbs = uv0.range_abs == 1
-			slot0.actionTrigger = uv0.action_trigger
-			slot0.active = false
-			slot0.parameterCom = nil
-			slot0.parameterValue = slot0.startValue
-			slot0.parameterTargetValue = slot0.startValue
-			slot0.parameterSmooth = 0
-			slot0.mouseInputDown = Vector2(0, 0)
-			slot0.nextTriggerTime = uv1
-			slot0.triggerActionTime = 0
-			slot0.sensitive = 4
-		end,
-		startDrag = function (slot0, slot1)
-			if not slot0.active then
-				slot0.active = true
-
-				if not slot1 then
-					slot0.triggerActionFlag = false
-					slot0.triggerActionTime = 0
-				else
-					slot0.triggerActionFlag = true
-					slot0.triggerActionTime = 0
-				end
-
-				slot0.mouseInputDown = Input.mousePosition
-				slot0.parameterTargetValue = slot0.startValue
-			end
-		end,
-		stopDrag = function (slot0)
-			if slot0.active then
-				slot0.active = false
-				slot0.parameterTargetValue = slot0.startValue
-				slot0.parameterToStart = 30
-			end
-		end,
-		dispose = function (slot0)
-			slot0.active = false
-			slot0.parameterCom = nil
-			slot0.parameterValue = slot0.startValue
-			slot0.parameterTargetValue = slot0.startValue
-			slot0.parameterSmooth = 0
-			slot0.mouseInputDown = Vector2(0, 0)
-		end,
-		setParameterCom = function (slot0, slot1, slot2)
-			slot0.parameterCom = slot1
-
-			slot0:setEventCallback(slot2)
-		end,
-		setEventCallback = function (slot0, slot1)
-			slot0.eventCallback = slot1
-		end,
-		getParameterValue = function (slot0)
-			if not slot0.parameterCom then
-				return nil
-			end
-
-			if slot0.actionTrigger then
-				slot0.nextTriggerTime = slot0.nextTriggerTime - Time.deltaTime
-
-				if slot0.active and not slot0.triggerActionFlag and slot0.nextTriggerTime < 0 and slot0.actionTrigger.type == uv0 then
-					if math.abs(slot0.parameterValue - slot0.actionTrigger.num) < 0.25 then
-						slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
-
-						if slot0.actionTrigger.time < slot0.triggerActionTime and not slot0.live2dAction then
-							slot0.nextTriggerTime = uv1
-							slot0.triggerActionFlag = true
-
-							slot0:stopDrag()
-
-							slot0.parameterToStart = 180
-
-							if slot0.eventCallback then
-								slot0.eventCallback(uv0, {
-									action = slot0.actionTrigger.action
-								})
-							end
-						end
-					else
-						slot0.triggerActionTime = slot0.triggerActionTime + 0
-					end
-				end
-			end
-
-			if slot0.gyro and uv2 == 1 then
-				slot1 = Input.gyro and Input.gyro.attitude or Vector3.zero
-				slot2 = 0
-
-				if slot0.gyroX then
-					slot2 = Mathf.Clamp(slot1.y * slot0.sensitive, -0.5, 0.5)
-				elseif slot0.gyroY then
-					slot2 = Mathf.Clamp(slot1.x * slot0.sensitive, -0.5, 0.5)
-				elseif slot0.gyroZ then
-					slot2 = Mathf.Clamp(slot1.z * slot0.sensitive, -0.5, 0.5)
-				end
-
-				if IsUnityEditor and L2D_USE_RANDOM_ATTI then
-					if uv3 == 0 then
-						slot0.parameterTargetValue = (math.random() - 0.5 + 0.5) * (slot0.range[2] - slot0.range[1]) + slot0.range[1]
-						uv3 = L2D_RANDOM_PARAM
-					elseif uv3 > 0 then
-						uv3 = uv3 - 1
-					end
-				end
-
-				if IsUnityEditor then
-					slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
-				else
-					slot0.parameterTargetValue = (slot2 + 0.5) * (slot0.range[2] - slot0.range[1]) + slot0.range[1]
-					slot0.parameterValue = slot0.parameterTargetValue
-				end
-			elseif not slot0.gyro then
-				if slot0.active then
-					slot1 = Input.mousePosition
-
-					if slot0.offsetX and slot0.offsetX ~= 0 then
-						slot0.parameterTargetValue = (slot1.x - slot0.mouseInputDown.x) / slot0.offsetX
-					elseif slot0.offsetY and slot0.offsetY ~= 0 then
-						slot0.parameterTargetValue = (slot1.y - slot0.mouseInputDown.y) / slot0.offsetY
-					else
-						return slot0.startValue
-					end
-				end
-
-				if slot0.parameterTargetValue < 0 and slot0.dragDirect == 1 then
-					slot0.parameterTargetValue = 0
-				elseif slot0.parameterTargetValue > 0 and slot0.dragDirect == 2 then
-					slot0.parameterTargetValue = 0
-				end
-
-				if slot0.parameterTargetValue then
-					slot0.parameterTargetValue = slot0.rangeAbs and math.abs(slot0.parameterTargetValue) or slot0.parameterTargetValue
-
-					if slot0.parameterTargetValue < slot0.range[1] then
-						slot0.parameterTargetValue = slot0.range[1]
-					elseif slot0.range[2] < slot0.parameterTargetValue then
-						slot0.parameterTargetValue = slot0.range[2]
-					end
-				end
-
-				if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.001 then
-					if slot0.parameterToStart and slot0.parameterToStart > 0 then
-						slot0.parameterToStart = slot0.parameterToStart - 1
-
-						return slot0.parameterTargetValue
-					end
-
-					return nil
-				end
-
-				slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
-			end
-
-			return slot0.parameterValue
-		end
-	}
-	slot2 = L2D_RANDOM_PARAM
-
-	slot1:ctor()
-
-	return slot1
-end
-
-function slot7(slot0)
+function slot3(slot0)
 	slot1 = slot0.live2dData:GetShipSkinConfig()
 	slot3 = slot1.lip_smoothing
 
@@ -238,7 +55,7 @@ function slot7(slot0)
 	end
 end
 
-function slot8(slot0)
+function slot4(slot0)
 	if slot0.live2dData:GetShipSkinConfig().l2d_para_range ~= nil and type(slot2) == "table" then
 		for slot6, slot7 in pairs(slot2) do
 			slot0.liveCom:SetParaRange(slot6, slot7)
@@ -246,7 +63,7 @@ function slot8(slot0)
 	end
 end
 
-function slot9(slot0, slot1, slot2)
+function slot5(slot0, slot1, slot2)
 	if slot0.animationClipNames and (not table.indexof(slot0.animationClipNames, slot1) or slot3 == false) and string.find(slot1, "main_") then
 		slot1 = "main_3"
 	end
@@ -266,13 +83,83 @@ function slot9(slot0, slot1, slot2)
 	end
 end
 
-function slot10(slot0, slot1)
+function slot6(slot0, slot1)
 	slot0.liveCom:SetCenterPart("Drawables/TouchHead", Vector3.zero)
 
 	slot0.liveCom.DampingTime = 0.3
 end
 
-function slot11(slot0, slot1)
+function slot7(slot0, slot1, slot2)
+	if slot1 == Live2D.DRAG_EVENT_ACTION then
+		slot4 = slot2.callback
+
+		uv0(slot0, slot2.action, false)
+	end
+end
+
+function slot8(slot0)
+	slot1 = false
+
+	for slot5 = 1, #slot0.drags do
+		if (slot0.drags[slot5]:getParameterValue() or slot0.drags[slot5].active) and slot0.drags[slot5].ignoreReact then
+			slot1 = true
+		end
+
+		if slot6 then
+			slot0.liveCom:ChangeParameterData(slot0.drags[slot5].parameterCom, slot6)
+		end
+	end
+
+	if slot1 ~= slot0.ignoreReact then
+		slot0.ignoreReact = slot1
+
+		slot0.liveCom:IgonreReactPos(slot0.ignoreReact)
+	end
+end
+
+function slot9(slot0)
+	slot0.drags = {}
+	slot0.dragParts = {}
+
+	for slot4 = 1, #uv0.assistantTouchParts do
+		table.insert(slot0.dragParts, uv0.assistantTouchParts[slot4])
+	end
+
+	for slot4, slot5 in ipairs(slot0.live2dData.shipL2dId) do
+		if pg.ship_l2d[slot5] and slot0.liveCom:GetCubismParameter(slot6.parameter) then
+			slot8 = Live2dDrag.New(slot6)
+
+			slot8:setParameterCom(slot7, function (slot0, slot1)
+				uv0(uv1, slot0, slot1)
+			end)
+			slot0.liveCom:AddParameterValue(slot8.parameterName, slot8.startValue, uv2[slot6.mode])
+			table.insert(slot0.drags, slot8)
+			table.insert(slot0.dragParts, slot8.drawAbleName)
+		end
+	end
+
+	slot0.liveCom:SetDragParts(slot0.dragParts)
+	slot0.liveCom:SetMouseInputActions(System.Action(function ()
+		if #uv0.drags > 0 and uv0.liveCom:GetDragPart() > 0 and uv0.liveCom:GetDragPart() - #uv1.assistantTouchParts > 0 and uv0.drags[slot0] then
+			uv0.drags[slot0]:startDrag(uv0.live2dAction)
+		end
+	end), System.Action(function ()
+		if uv0.drags and #uv0.drags > 0 then
+			for slot3 = 1, #uv0.drags do
+				uv0.drags[slot3]:stopDrag()
+			end
+		end
+	end))
+
+	slot0.ignoreReact = false
+	slot0.timer = Timer.New(function ()
+		uv0(uv1)
+	end, 0.03333333333333333, -1)
+
+	slot0.timer:Start()
+end
+
+function slot10(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
@@ -285,13 +172,12 @@ function slot11(slot0, slot1)
 	slot0._animator = slot1:GetComponent(typeof(Animator))
 	slot0.animationClipNames = {}
 
-	onNextTick(function ()
-		if uv0._animator and uv0._animator.runtimeAnimatorController then
-			for slot5 = 0, uv0._animator.runtimeAnimatorController.animationClips.Length - 1 do
-				table.insert(uv0.animationClipNames, slot0[slot5].name)
-			end
+	if slot0._animator and slot0._animator.runtimeAnimatorController then
+		for slot7 = 0, slot0._animator.runtimeAnimatorController.animationClips.Length - 1 do
+			table.insert(slot0.animationClipNames, slot2[slot7].name)
 		end
-	end)
+	end
+
 	slot0.liveCom:SetReactMotions(uv0.idleActions)
 	slot0.liveCom:SetAction(uv0.action2Id.idle)
 
@@ -316,102 +202,32 @@ function slot11(slot0, slot1)
 	end
 
 	slot0.liveCom:SetTouchParts(uv0.assistantTouchParts)
+	uv1(slot0)
+	uv2(slot0)
+	uv3(slot0)
 
 	if slot0.live2dData.shipL2dId and #slot0.live2dData.shipL2dId > 0 then
-		slot0.drags = {}
-		slot0.dragParts = {}
-
-		for slot6 = 1, #uv0.assistantTouchParts do
-			table.insert(slot0.dragParts, uv0.assistantTouchParts[slot6])
-		end
-
-		for slot6, slot7 in ipairs(slot0.live2dData.shipL2dId) do
-			if pg.ship_l2d[slot7] and slot0.liveCom:GetCubismParameter(slot8.parameter) then
-				slot10 = uv1(slot8)
-
-				slot10:setParameterCom(slot9, function (slot0, slot1)
-					uv0:onDragCallback(slot0, slot1)
-				end)
-				slot0.liveCom:AddParameterValue(slot10.parameterName, slot10.startValue, uv2[slot8.mode])
-				table.insert(slot0.drags, slot10)
-				table.insert(slot0.dragParts, slot10.drawAbleName)
-			end
-		end
-
-		slot0.liveCom:SetDragParts(slot0.dragParts)
-		slot0.liveCom:SetMouseInputActions(System.Action(function ()
-			if #uv0.drags > 0 and uv0.liveCom:GetDragPart() > 0 and uv0.liveCom:GetDragPart() - #uv1.assistantTouchParts > 0 and uv0.drags[slot0] then
-				uv0.drags[slot0]:startDrag(uv0.live2dAction)
-			end
-		end), System.Action(function ()
-			if uv0.drags and #uv0.drags > 0 then
-				for slot3 = 1, #uv0.drags do
-					uv0.drags[slot3]:stopDrag()
-				end
-			end
-		end))
-
-		slot0.ignoreReact = false
-		slot0.timer = Timer.New(function ()
-			slot0 = false
-
-			for slot4 = 1, #uv0.drags do
-				if (uv0.drags[slot4]:getParameterValue() or uv0.drags[slot4].active) and uv0.drags[slot4].ignoreReact then
-					slot0 = true
-				end
-
-				if slot5 then
-					uv0.liveCom:ChangeParameterData(uv0.drags[slot4].parameterCom, slot5)
-				end
-			end
-
-			if slot0 ~= uv0.ignoreReact then
-				uv0.ignoreReact = slot0
-
-				uv0.liveCom:IgonreReactPos(uv0.ignoreReact)
-			end
-		end, 0.03333333333333333, -1)
-
-		slot0.timer:Start()
+		uv4(slot0)
 	end
 
-	function uv3.onDragCallback(slot0, slot1, slot2)
-		if slot1 == uv0 then
-			slot4 = slot2.callback
-
-			uv1(slot0, slot2.action, false)
-		end
-	end
-
-	uv6(slot0)
-	uv7(slot0)
-	uv8(slot0)
-
-	slot0.state = uv3.STATE_INITED
+	slot0.state = uv5.STATE_INITED
 end
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0.state = uv0.STATE_LOADING
 	slot0.live2dData = slot1
 	uv1 = pg.AssistantInfo
-	slot4 = slot0.live2dData
 
-	assert(not slot4:isEmpty())
+	assert(not slot0.live2dData:isEmpty())
 
-	slot3 = slot0.live2dData
-	slot5 = pg.Live2DMgr.GetInstance()
-	slot0.live2dRequestId = slot5:GetLive2DModelAsync(slot3:GetShipName(), function (slot0)
+	slot0.live2dRequestId = pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot0.live2dData:GetShipName(), function (slot0)
 		uv0(uv1, slot0)
 
 		if uv2 then
 			uv2(uv1)
 		end
 	end)
-	uv3 = PlayerPrefs.GetInt(GYRO_ENABLE, 1)
-
-	if slot0.live2dData.gyro == 1 and uv3 == 1 then
-		Input.gyro.enabled = true
-	end
+	Input.gyro.enabled = slot0.live2dData.gyro == 1
 end
 
 function slot0.SetVisible(slot0, slot1)
@@ -419,7 +235,7 @@ function slot0.SetVisible(slot0, slot1)
 		return
 	end
 
-	uv0 = PlayerPrefs.GetInt(GYRO_ENABLE, 1)
+	Input.gyro.enabled = PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
 
 	if slot1 then
 		slot0._readlyToStop = false
@@ -434,7 +250,7 @@ function slot0.SetVisible(slot0, slot1)
 		slot2 = slot0.liveCom
 
 		slot2:IgonreReactPos(true)
-		uv1(slot0, "idle", true)
+		uv0(slot0, "idle", true)
 
 		slot0._readlyToStop = true
 
@@ -442,7 +258,7 @@ function slot0.SetVisible(slot0, slot1)
 			if uv0._readlyToStop then
 				uv0._animator.speed = 0
 			end
-		end, 2)
+		end, 3)
 	end
 end
 
@@ -498,7 +314,7 @@ function slot0.Dispose(slot0)
 		slot0.drags = {}
 	end
 
-	if slot0.live2dData.gyro then
+	if slot0.live2dData.gyro == 1 then
 		Input.gyro.enabled = false
 	end
 

@@ -20,6 +20,8 @@ function slot0.execute(slot0, slot1)
 
 		slot1.dirty = false
 		slot1.init = true
+
+		uv0:sendNotification(GAME.GET_MAIL_LIST_DONE)
 	end)
 end
 
