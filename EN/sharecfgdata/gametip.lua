@@ -18303,15 +18303,15 @@ _G.pg.base.gametip.equip_add = {
 }
 
 _G.pg.base.gametip.equipskin_add = {
-	tip = "— Tap to remove gear skin — "
+	tip = "— Tap to equip gear skin — "
 }
 
 _G.pg.base.gametip.equipskin_none = {
-	tip = "— Cannot use the selected skin —"
+	tip = "— Skin cannot be equipped —"
 }
 
 _G.pg.base.gametip.equipskin_typewrong = {
-	tip = "— Cannot use the selected skin —"
+	tip = "— No match for selected skin —"
 }
 
 _G.pg.base.gametip.equipskin_typewrong_en = {

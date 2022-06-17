@@ -257,7 +257,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704031] = {
-		breakout_view = "Unlock Ashen Might - Scharnhorst/Main gun base +1/Main gun efficiency +5%",
+		breakout_view = "Unlock Ashen Might – Repulse/Main gun base +1/Main gun efficiency +5%",
 		gold = 1000,
 		breakout_id = 9704032,
 		repair = 0,
@@ -292,7 +292,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704033] = {
-		breakout_view = "Improve Ashen Might - Scharnhorst/ Main gun base +1/Main gun efficiency +15%",
+		breakout_view = "Improve Ashen Might – Repulse/ Main gun base +1/Main gun efficiency +15%",
 		gold = 10000,
 		breakout_id = 9704034,
 		repair = 0,

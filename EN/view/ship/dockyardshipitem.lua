@@ -140,7 +140,7 @@ function slot0.flush(slot0)
 		end
 
 		setActive(slot0.energyTF, slot5)
-		setText(slot0.nameTF, shortenString(slot1:getName(), 7))
+		setText(slot0.nameTF, shortenString(slot1:getName(), 6))
 
 		slot6 = nil
 
