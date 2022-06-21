@@ -4300,7 +4300,7 @@ _G.pg.base.gametip.world_instruction_submarine_6 = {
 }
 
 _G.pg.base.gametip.world_instruction_submarine_7 = {
-	tip = "Spend $1 AP to resupply your submarine fleet's HP and ammo? "
+	tip = "Spend $1 AP to resupply your \nsubmarine fleet's HP and ammo? "
 }
 
 _G.pg.base.gametip.world_instruction_submarine_8 = {

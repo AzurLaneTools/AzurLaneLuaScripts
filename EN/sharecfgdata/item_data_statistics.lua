@@ -161467,7 +161467,7 @@ _G.pg.base.item_data_statistics[59797] = {
 }
 
 _G.pg.base.item_data_statistics[59798] = {
-	display = "A commemorative item earned by completing the 3rd anniversary event \"Juju Wrangler\"",
+	display = "A commemorative item earned by completing the 2nd anniversary event \"Juju Wrangler\"",
 	name = "2nd Anniv Commemorative Coin",
 	max_num = 0,
 	type = 1,

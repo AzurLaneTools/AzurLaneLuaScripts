@@ -2188,7 +2188,7 @@ pg.ship_skin_template_14 = {
 	},
 	[408010] = {
 		ship_group = 40801,
-		name = "U81",
+		name = "U-81",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
