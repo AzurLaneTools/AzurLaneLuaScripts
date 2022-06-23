@@ -2554,13 +2554,13 @@ pg.activity_template = {
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
-			buildship_tip = "普林斯顿 建造概率UP！",
+			buildship_tip = "프린스턴 건조 확률 UP!",
 			rate_tip = {
-				"<color=#ffde38>超稀有舰船</color>：7%",
-				"<color=#d797ff>精锐舰船</color>：12%",
-				"<color=#3dc6ff>稀有舰船</color>：51%",
-				"普通舰船：30%",
-				"<color=#d797ff>普林斯顿</color>：1.4%<color=#92FC63>(up!)</color>"
+				"<color=#ffde38>SSR</color>：7%",
+				"<color=#d797ff>SR</color>：12%",
+				"<color=#3dc6ff>R</color>：51%",
+				"N：30%",
+				"<color=#d797ff>프린스턴</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
