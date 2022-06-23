@@ -159883,6 +159883,48 @@ _G.pg.base.item_data_statistics[59320] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59321] = {
+	display = "『날카로운 해상의 날개』 이벤트 교환용 아이템. 이벤트 종료 후 사라짐.",
+	name = "날개의 휘장",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59321,
+	is_world = 0,
+	icon = "Props/pulinsidun_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59322] = {
+	display = "『의뢰 교환 계획』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "군사의뢰 증빙",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59322,
+	is_world = 0,
+	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",

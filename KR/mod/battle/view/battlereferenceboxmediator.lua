@@ -64,6 +64,12 @@ function slot4.ActiveUnitDetail(slot0, slot1)
 			end
 		end
 
+		for slot5, slot6 in pairs(slot0._dataProxy:GetUnitList()) do
+			if table.contains(uv0.Battle.BattleUnitDetailView.EnemyMarkList, slot6:GetTemplate().id) then
+				slot0:createDetail(unit)
+			end
+		end
+
 		slot0._detailViewActive = true
 	elseif not slot1 and slot0._detailViewActive then
 		slot0._detailViewActive = false
@@ -118,8 +124,12 @@ function slot4.onAddUnit(slot0, slot1)
 		slot0._unitBoxList[slot3:GetUniqueID()] = slot0:createBox(slot3)
 	end
 
-	if slot0._detailViewActive and slot2 == uv0.UnitType.PLAYER_UNIT then
-		slot0:createDetail(slot3)
+	if slot0._detailViewActive then
+		if slot2 == uv0.UnitType.PLAYER_UNIT then
+			slot0:createDetail(slot3)
+		elseif table.contains(uv1.Battle.BattleUnitDetailView.EnemyMarkList, slot3:GetTemplate().id) then
+			slot0:createDetail(slot3)
+		end
 	end
 end
 

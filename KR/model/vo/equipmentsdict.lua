@@ -162,8 +162,6 @@ function slot0.RemoveEquipment(slot0, slot1)
 end
 
 function slot0.UpdateEquipment(slot0, slot1)
-	slot2 = slot0.data
-
 	if slot1.count == 0 then
 		slot0:RemoveEquipment(slot1)
 	else

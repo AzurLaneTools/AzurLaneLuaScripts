@@ -1,4 +1,5 @@
 slot0 = class("Mail", import(".BaseVO"))
+slot0.SINGLE_COUNT = 20
 slot0.ATTACHMENT_NONE = 0
 slot0.ATTACHMENT_EXIST = 1
 slot0.ATTACHMENT_TAKEN = 2

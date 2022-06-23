@@ -7711,6 +7711,83 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100038] = {
+		spine_extra = "",
+		describe = "SF풍으로 가득한…… 합성 장치?",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "'맛있는 음식' 합성기",
+		themeId = 0,
+		icon = "zongzihechengqiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100038,
+		can_rotate = 0,
+		size = {
+			4,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zongzihechengqiB",
+				"normal"
+			},
+			{
+				"zongzihechengqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "그래, 마음껏 메이드에게 응석을 부리라고, \"주인님\"~",
@@ -100812,6 +100889,7 @@ pg.furniture_data_template = {
 			100035,
 			100036,
 			100037,
+			100038,
 			200001,
 			200002,
 			200003,
@@ -100973,6 +101051,7 @@ pg.furniture_data_template = {
 			100035,
 			100036,
 			100037,
+			100038,
 			200001,
 			200002,
 			200003,
@@ -107091,6 +107170,7 @@ pg.furniture_data_template = {
 			100035,
 			100036,
 			100037,
+			100038,
 			54104,
 			54105
 		},
@@ -107844,7 +107924,8 @@ pg.furniture_data_template = {
 			100031,
 			100033,
 			100035,
-			100036
+			100036,
+			100038
 		},
 		[2] = {
 			120,
@@ -110095,6 +110176,7 @@ pg.furniture_data_template = {
 		100035,
 		100036,
 		100037,
+		100038,
 		200001,
 		200002,
 		200003,

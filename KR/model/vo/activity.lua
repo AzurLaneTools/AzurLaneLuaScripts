@@ -401,6 +401,8 @@ function slot0.readyToAchieve(slot0)
 			return slot6 - slot0.data1 > 0 and _.any(slot4, function (slot0)
 				return uv0:getTaskById(slot0) and slot1:isFinish()
 			end)
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_EVENT then
+			return PlayerPrefs.GetInt("ACTIVITY_TYPE_EVENT_" .. slot0.id .. "_" .. getProxy(PlayerProxy):getData().id) == 0
 		end
 	end
 end

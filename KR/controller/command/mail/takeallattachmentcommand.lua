@@ -72,9 +72,7 @@ function slot0.execute(slot0, slot1)
 			id = uv0
 		}, 30005, function (slot0)
 			for slot5, slot6 in ipairs(uv0:getMails()) do
-				if slot6.readFlag == 0 then
-					uv0:removeMail(slot6)
-				elseif slot6.attachFlag == slot6.ATTACHMENT_EXIST then
+				if slot6.attachFlag == slot6.ATTACHMENT_EXIST then
 					slot6.readFlag = 2
 					slot6.attachFlag = slot6.ATTACHMENT_TAKEN
 
@@ -86,7 +84,7 @@ function slot0.execute(slot0, slot1)
 			uv1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
 				items = PlayerConst.addTranDrop(slot0.attachment_list)
 			})
-			uv1:sendNotification(GAME.TAKE_ALL_ATTACHMENT_DONE)
+			uv1:sendNotification(GAME.TAKE_ALL_ATTACHMENT_DONE, slot1)
 		end)
 	end)
 end

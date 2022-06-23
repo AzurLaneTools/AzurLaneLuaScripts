@@ -19,6 +19,9 @@ function slot0.Init(slot0)
 	setGray(slot0.toggle, not slot1, true)
 	setActive(slot0.foldFlag, slot1)
 	setActive(slot0.goBtn, slot1)
+
+	slot0.ptBonus = EventPtBonus.New(slot0.toggle:Find("bonusPt"))
+
 	uv0.super.Init(slot0)
 end
 

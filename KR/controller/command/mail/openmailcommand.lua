@@ -18,9 +18,7 @@ function slot0.execute(slot0, slot1)
 	slot5:Send(30008, {
 		id = slot4.id
 	}, 30009, function (slot0)
-		if uv0.readFlag ~= 0 then
-			uv0.readFlag = 2
-		end
+		uv0.readFlag = 2
 
 		uv0:extend(slot0.detail_info)
 		uv1:updateMail(uv0)

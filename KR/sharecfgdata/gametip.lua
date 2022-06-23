@@ -9239,7 +9239,7 @@ _G.pg.base.gametip.ai_change_2 = {
 }
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*교환 개방 시간 : <color=#FFCF81>$1</color>"
+	tip = "*교환 개방 시간 : <color=#FFF693>$1</color>"
 }
 
 _G.pg.base.gametip.word_bilibili = {
@@ -20190,4 +20190,28 @@ _G.pg.base.gametip.tactics_recent_ship_label = {
 
 _G.pg.base.gametip.title_info = {
 	tip = "정보"
+}
+
+_G.pg.base.gametip.eventshop_unlock_info = {
+	tip = "$1 클리어"
+}
+
+_G.pg.base.gametip.eventshop_unlock_hint = {
+	tip = "메인 $1 클리어 후, 교환 해제"
+}
+
+_G.pg.base.gametip.commission_event_tip = {
+	tip = {
+		{
+			info = [[
+이벤트 규칙:
+1. 이벤트 기간 동안, 함대를 파견하여 군사의뢰 진행 시, 의뢰 완료까지 걸린 시간에 따라 「군사의뢰 증빙」 보상을 획득할 수 있습니다.
+<color=#92fc63>완료한 군사의뢰 5분마다 「군사의뢰 증빙」 1개 획득 가능</color>
+예시: 1시간이 소요되는 「일상 자원 개발I」 의뢰 완료 후, 「군사의뢰 증빙」 12개 획득.
+2. 이벤트 기간 동안 시작 및 완료한 군사의뢰에서만 「군사의뢰 증빙」 보상을 획득할 수 있습니다.
+3. 군사의뢰를 중도 포기할 경우 「군사의뢰 증빙」 보상은 획득할 수 없습니다.
+4. 이벤트 상점에서 「군사의뢰 증빙」을 소모하여 성정 큐브가 포함된 풍부한 보상과 교환할 수 있습니다.
+5. 이벤트 상점 내 일부 아이템은 해제 조건을 달성해야 교환이 가능합니다.]]
+		}
+	}
 }

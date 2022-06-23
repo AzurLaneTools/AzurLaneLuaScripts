@@ -642,14 +642,24 @@ function slot0.updateEquip(slot0, slot1, slot2)
 
 	slot0.equipments[slot1] = slot2 and Clone(slot2) or false
 
+	function slot4(slot0)
+		slot0 = CreateShell(slot0)
+		slot0.shipId = uv0.id
+		slot0.shipPos = uv1
+
+		return slot0
+	end
+
 	if slot0.equipments[slot1] then
 		getProxy(EquipmentProxy):OnShipEquipsRemove(slot3, slot0.id, slot1)
 		slot3:setSkinId(0)
+		pg.m02:sendNotification(BayProxy.SHIP_EQUIPMENT_REMOVED, slot4(slot3))
 	end
 
 	if slot2 then
 		getProxy(EquipmentProxy):OnShipEquipsAdd(slot2, slot0.id, slot1)
 		slot0:reletiveEquipSkin(slot1)
+		pg.m02:sendNotification(BayProxy.SHIP_EQUIPMENT_ADDED, slot4(slot2))
 	end
 end
 
