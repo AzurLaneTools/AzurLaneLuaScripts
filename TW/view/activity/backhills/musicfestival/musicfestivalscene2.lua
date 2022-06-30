@@ -152,45 +152,6 @@ function slot0.updateStageShip(slot0)
 	end, slot0._stageShip)
 end
 
-function slot0.InitStudents(slot0, slot1, slot2, slot3)
-	slot4 = uv0.getStudents(slot1, slot2, slot3)
-	slot5 = {}
-
-	for slot9, slot10 in pairs(slot0.graphPath.points) do
-		table.insert(slot5, slot10)
-	end
-
-	slot6 = #slot5
-	slot0.academyStudents = {}
-
-	for slot10, slot11 in pairs(slot4) do
-		if not slot0.academyStudents[slot10] then
-			slot12 = cloneTplTo(slot0._shipTpl, slot0._map)
-			slot12.gameObject.name = slot10
-			slot14 = SummerFeastNavigationAgent.New(slot12.gameObject)
-
-			slot14:attach()
-			slot14:setPathFinder(slot0.graphPath)
-			slot14:setCurrentIndex(slot0.ChooseRandomPos(slot5, slot6 - 1) and slot13.id)
-			slot14:SetOnTransEdge(function (slot0, slot1, slot2)
-				slot0._tf:SetParent(uv0[uv0.edge2area[math.min(slot1, slot2) .. "_" .. math.max(slot1, slot2)] or uv0.edge2area.default])
-			end)
-			slot14:updateStudent(slot11)
-
-			slot0.academyStudents[slot10] = slot14
-		end
-	end
-
-	if #slot4 > 0 then
-		slot0.sortTimer = Timer.New(function ()
-			uv0:sortStudents()
-		end, 0.2, -1)
-
-		slot0.sortTimer:Start()
-		slot0.sortTimer.func()
-	end
-end
-
 function slot0.getStudents(slot0, slot1, slot2)
 	slot3 = {}
 
@@ -199,17 +160,17 @@ function slot0.getStudents(slot0, slot1, slot2)
 	end
 
 	if slot5:getConfig("config_client") and slot6.stage_off_ship then
-		slot7 = 0
+		slot7 = math.random(slot1, slot2)
 		slot8 = #Clone(slot6)
 
-		while slot7 < slot1 * slot2 and slot8 > 0 do
+		while slot7 > 0 and slot8 > 0 do
 			slot9 = math.random(1, slot8)
 
 			table.insert(slot3, slot6[slot9])
 
 			slot6[slot9] = slot6[slot8]
 			slot8 = slot8 - 1
-			slot7 = slot7 + math.random(slot1, slot2)
+			slot7 = slot7 - 1
 		end
 	end
 

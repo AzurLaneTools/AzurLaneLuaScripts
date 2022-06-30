@@ -5968,7 +5968,8 @@ _G.pg.base.task_data_template[5007] = {
 		2002,
 		2004,
 		2006,
-		2008
+		2008,
+		2010
 	},
 	open_need = {},
 	award_display = {
@@ -6015,7 +6016,8 @@ _G.pg.base.task_data_template[5008] = {
 		2003,
 		2005,
 		2007,
-		2009
+		2009,
+		2011
 	},
 	open_need = {},
 	award_display = {
@@ -6062,7 +6064,8 @@ _G.pg.base.task_data_template[5009] = {
 		3001,
 		3002,
 		3003,
-		3004
+		3004,
+		3005
 	},
 	open_need = {},
 	award_display = {
@@ -6104,7 +6107,8 @@ _G.pg.base.task_data_template[5010] = {
 		4001,
 		4002,
 		4003,
-		4004
+		4004,
+		4005
 	},
 	open_need = {},
 	award_display = {
@@ -96893,6 +96897,200 @@ _G.pg.base.task_data_template[16767] = {
 	}
 }
 
+_G.pg.base.task_data_template[16800] = {
+	name = "骏河世界BOSS复刻挑战券任务1",
+	guild_coin_award = 0,
+	award = 95543,
+	type = 36,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16800,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2009,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16801] = {
+	name = "骏河世界BOSS复刻挑战券任务2",
+	guild_coin_award = 0,
+	award = 95544,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16801,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2009,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16802] = {
+	name = "骏河世界BOSS复刻挑战券任务3",
+	guild_coin_award = 0,
+	award = 95545,
+	type = 36,
+	desc = "通關3次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16802,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2009,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16803] = {
+	name = "骏河世界BOSS复刻挑战券任务4",
+	guild_coin_award = 0,
+	award = 95546,
+	type = 36,
+	desc = "通關5次『穿越彼方的水線』任意難度關卡",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16803,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260001,
+		1260002,
+		1260003,
+		1260004
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2009,
+			1
+		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
+	}
+}
+
+_G.pg.base.task_data_template[16804] = {
+	name = "骏河世界BOSS复刻挑战券任务5",
+	guild_coin_award = 0,
+	award = 95547,
+	type = 36,
+	desc = "通關10次『穿越彼方的水線』任意難度關卡",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16804,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260001,
+		1260002,
+		1260003,
+		1260004
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2009,
+			1
+		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
+	}
+}
+
 _G.pg.base.task_data_template[16818] = {
 	name = "『偶像大师』日常建造",
 	guild_coin_award = 0,
@@ -125882,6 +126080,753 @@ _G.pg.base.task_data_template[51120] = {
 	}
 }
 
+_G.pg.base.task_data_template[51121] = {
+	name = "科研2期测试经验追赶1",
+	guild_coin_award = 0,
+	award = 9322,
+	type = 26,
+	desc = "完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51121,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51122] = {
+	name = "科研2期测试经验追赶2",
+	guild_coin_award = 0,
+	award = 9323,
+	type = 26,
+	desc = "完成30次每日挑戰",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51122,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			20
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51123] = {
+	name = "科研2期测试经验追赶3",
+	guild_coin_award = 0,
+	award = 9322,
+	type = 26,
+	desc = "通過任意主線困難關卡3次",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51123,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51124] = {
+	name = "科研2期测试经验追赶4",
+	guild_coin_award = 0,
+	award = 9323,
+	type = 26,
+	desc = "通過任意主線困難關卡30次",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51124,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			20
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51125] = {
+	name = "科研2期测试经验追赶5",
+	guild_coin_award = 0,
+	award = 9322,
+	type = 26,
+	desc = "完成5次軍事委託",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51125,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51126] = {
+	name = "科研2期测试经验追赶6",
+	guild_coin_award = 0,
+	award = 9323,
+	type = 26,
+	desc = "完成50次軍事委託",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51126,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			20
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51127] = {
+	name = "科研2期测试经验追赶7",
+	guild_coin_award = 0,
+	award = 9324,
+	type = 26,
+	desc = "完成100次軍事委託",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51127,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			30
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51128] = {
+	name = "科研2期测试经验追赶8",
+	guild_coin_award = 0,
+	award = 9322,
+	type = 26,
+	desc = "進行1次科研",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51128,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51129] = {
+	name = "科研2期测试经验追赶9",
+	guild_coin_award = 0,
+	award = 9323,
+	type = 26,
+	desc = "進行10次科研",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51129,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			20
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51130] = {
+	name = "科研2期测试经验追赶10",
+	guild_coin_award = 0,
+	award = 9324,
+	type = 26,
+	desc = "進行20次科研",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51130,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			30
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51131] = {
+	name = "科研2期测试经验追赶11",
+	guild_coin_award = 0,
+	award = 9325,
+	type = 26,
+	desc = "進行30次科研",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51131,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			40
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51132] = {
+	name = "科研2期测试经验追赶12",
+	guild_coin_award = 0,
+	award = 9323,
+	type = 26,
+	desc = "建造艦船10次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51132,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			20
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51133] = {
+	name = "科研2期测试经验追赶13",
+	guild_coin_award = 0,
+	award = 9323,
+	type = 26,
+	desc = "建造艦船20次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51133,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			20
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51134] = {
+	name = "科研2期测试经验追赶14",
+	guild_coin_award = 0,
+	award = 9326,
+	type = 26,
+	desc = "與一個角色完成誓約",
+	count_inherit = 0,
+	sub_type = 1015,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51134,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			50
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51135] = {
+	name = "科研2期测试经验追赶15",
+	guild_coin_award = 0,
+	award = 9322,
+	type = 26,
+	desc = "任意一艘艦船達到100級",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51135,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51136] = {
+	name = "科研2期测试经验追赶16",
+	guild_coin_award = 0,
+	award = 9323,
+	type = 26,
+	desc = "任意一艘艦船達到110級",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 51136,
+	target_num = 110,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			20
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51137] = {
+	name = "科研2期测试经验追赶17",
+	guild_coin_award = 0,
+	award = 9322,
+	type = 26,
+	desc = "通關8-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "804",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 51137,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			10
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 8,
+			chapterId = 804
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51138] = {
+	name = "科研2期测试经验追赶18",
+	guild_coin_award = 0,
+	award = 9323,
+	type = 26,
+	desc = "通關9-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "904",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 51138,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			20
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 9,
+			chapterId = 904
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51139] = {
+	name = "科研2期测试经验追赶19",
+	guild_coin_award = 0,
+	award = 9324,
+	type = 26,
+	desc = "通關10-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1004",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 51139,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20102,
+			30
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 10,
+			chapterId = 1004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[51140] = {
+	name = "科研2期测试经验追赶20",
+	guild_coin_award = 0,
+	award = 9327,
+	type = 26,
+	desc = "獲得任意一名二期科研角色",
+	count_inherit = 0,
+	sub_type = 1014,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 51140,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		19901,
+		19902,
+		39903,
+		39904,
+		49902,
+		99901
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42017,
+			30
+		}
+	},
+	scene = {
+		"SELTECHNOLOGY"
+	}
+}
+
 _G.pg.base.task_data_template[52001] = {
 	name = "數據收集任務",
 	guild_coin_award = 0,
@@ -132497,6 +133442,1852 @@ _G.pg.base.task_data_template[60179] = {
 	auto_commit = 0,
 	scene = "",
 	id = 60179,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60181] = {
+	name = "安克拉治開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "1",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60181,
+	target_num = 850,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60182] = {
+	name = "白鷹先鋒技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用白鷹先鋒角色，在任意關卡中累計獲得<color=#92fc63>100萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60182,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			2
+		},
+		{
+			1,
+			3
+		},
+		{
+			1,
+			18
+		},
+		{
+			1,
+			19
+		},
+		{
+			1,
+			20
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60183] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程 </color>\n\n——完成<color=#92fc63>5次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60183,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60184] = {
+	name = "先鋒技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認 </color>\n\n——提交<color=#92fc63>10張</color>巡洋改造圖T2",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18012",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60184,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60185] = {
+	name = "白鷹先鋒技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成白鷹先鋒技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠 </color>
+
+——使用白鷹先鋒角色，在任意關卡中累計獲得<color=#92fc63>200萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60185,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			2
+		},
+		{
+			1,
+			3
+		},
+		{
+			1,
+			18
+		},
+		{
+			1,
+			19
+		},
+		{
+			1,
+			20
+		}
+	},
+	open_need = {
+		60182
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60186] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了 </color>
+
+——完成<color=#92fc63>8次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60186,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60183
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60187] = {
+	name = "先鋒技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考 </color>\n\n——提交<color=#92fc63>5張</color>巡洋改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18013",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60187,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60188] = {
+	name = "安克拉治艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>2萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "1",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60188,
+	target_num = 20000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60189] = {
+	name = "安克拉治艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>5個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60189,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60191] = {
+	name = "白龍開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "3",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60191,
+	target_num = 950,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60192] = {
+	name = "重櫻主力技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用重櫻主力角色，在任意關卡中累計獲得<color=#92fc63>120萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60192,
+	target_num = 1200000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			3,
+			4
+		},
+		{
+			3,
+			5
+		},
+		{
+			3,
+			6
+		},
+		{
+			3,
+			7
+		},
+		{
+			3,
+			9
+		},
+		{
+			3,
+			10
+		},
+		{
+			3,
+			12
+		},
+		{
+			3,
+			13
+		},
+		{
+			3,
+			21
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60193] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程 </color>\n\n——完成<color=#92fc63>8次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60193,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60194] = {
+	name = "主力技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認 </color>\n\n——提交<color=#92fc63>3張</color>航母改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18033",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60194,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60195] = {
+	name = "重櫻主力技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成重櫻主力技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠 </color>
+
+——使用重櫻主力角色，在任意關卡中累計獲得<color=#92fc63>240萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60195,
+	target_num = 2400000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			3,
+			4
+		},
+		{
+			3,
+			5
+		},
+		{
+			3,
+			6
+		},
+		{
+			3,
+			7
+		},
+		{
+			3,
+			9
+		},
+		{
+			3,
+			10
+		},
+		{
+			3,
+			12
+		},
+		{
+			3,
+			13
+		},
+		{
+			3,
+			21
+		}
+	},
+	open_need = {
+		60192
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60196] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了 </color>
+
+——完成<color=#92fc63>12次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60196,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60193
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60197] = {
+	name = "主力技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考 </color>\n\n——提交<color=#92fc63>8張</color>航母改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18033",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60197,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60198] = {
+	name = "白龍艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>5萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "1",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60198,
+	target_num = 50000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60199] = {
+	name = "白龍艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>10個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60199,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60201] = {
+	name = "埃吉爾開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "4",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60201,
+	target_num = 700,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60202] = {
+	name = "鐵血主力技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用鐵血主力角色，在任意關卡中累計獲得<color=#92fc63>120萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60202,
+	target_num = 1200000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			4,
+			4
+		},
+		{
+			4,
+			5
+		},
+		{
+			4,
+			6
+		},
+		{
+			4,
+			7
+		},
+		{
+			4,
+			9
+		},
+		{
+			4,
+			10
+		},
+		{
+			4,
+			12
+		},
+		{
+			4,
+			13
+		},
+		{
+			4,
+			21
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60203] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程 </color>\n\n——完成<color=#92fc63>8次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60203,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60204] = {
+	name = "主力技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認 </color>\n\n——提交<color=#92fc63>3張</color>戰列改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18023",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60204,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60205] = {
+	name = "鐵血先鋒技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成鐵血主力技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠 </color>
+
+——使用鐵血先鋒角色，在任意關卡中累計獲得<color=#92fc63>240萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60205,
+	target_num = 2400000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			4,
+			1
+		},
+		{
+			4,
+			2
+		},
+		{
+			4,
+			3
+		},
+		{
+			4,
+			18
+		},
+		{
+			4,
+			19
+		},
+		{
+			4,
+			20
+		}
+	},
+	open_need = {
+		60202
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60206] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了 </color>
+
+——完成<color=#92fc63>12次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60206,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60203
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60207] = {
+	name = "先鋒技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考 </color>\n\n——提交<color=#92fc63>8張</color>巡洋改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18013",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60207,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60208] = {
+	name = "埃吉爾艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>5萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "1",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60208,
+	target_num = 50000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60209] = {
+	name = "埃吉爾艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>10個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60209,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60211] = {
+	name = "奧古斯特·馮·帕塞瓦爾開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "4",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60211,
+	target_num = 600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60212] = {
+	name = "鐵血主力技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用鐵血主力角色，在任意關卡中累計獲得<color=#92fc63>100萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60212,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			4,
+			4
+		},
+		{
+			4,
+			5
+		},
+		{
+			4,
+			6
+		},
+		{
+			4,
+			7
+		},
+		{
+			4,
+			9
+		},
+		{
+			4,
+			10
+		},
+		{
+			4,
+			12
+		},
+		{
+			4,
+			13
+		},
+		{
+			4,
+			21
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60213] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程 </color>\n\n——完成<color=#92fc63>5次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60213,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60214] = {
+	name = "主力技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認 </color>\n\n——提交<color=#92fc63>10張</color>航母改造圖T2",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18032",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60214,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60215] = {
+	name = "鐵血主力技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成鐵血主力技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠 </color>
+
+——使用鐵血主力角色，在任意關卡中累計獲得<color=#92fc63>200萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60215,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			4,
+			4
+		},
+		{
+			4,
+			5
+		},
+		{
+			4,
+			6
+		},
+		{
+			4,
+			7
+		},
+		{
+			4,
+			9
+		},
+		{
+			4,
+			10
+		},
+		{
+			4,
+			12
+		},
+		{
+			4,
+			13
+		},
+		{
+			4,
+			21
+		}
+	},
+	open_need = {
+		60212
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60216] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了 </color>
+
+——完成<color=#92fc63>8次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60216,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60213
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60217] = {
+	name = "主力技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考 </color>\n\n——提交<color=#92fc63>5張</color>航母改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18033",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60217,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60218] = {
+	name = "奧古斯特·馮·帕塞瓦爾艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>3萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "1",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60218,
+	target_num = 30000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60219] = {
+	name = "奧古斯特·馮·帕塞瓦爾艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>5個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60219,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60220] = {
+	name = "馬可波羅開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "4",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60220,
+	target_num = 600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60221] = {
+	name = "馬可波羅開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "2",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60221,
+	target_num = 700,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60222] = {
+	name = "鐵血主力技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用鐵血或薩丁帝國主力角色，在任意關卡中累計獲得<color=#92fc63>100萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60222,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			4,
+			4
+		},
+		{
+			4,
+			5
+		},
+		{
+			4,
+			6
+		},
+		{
+			4,
+			7
+		},
+		{
+			4,
+			9
+		},
+		{
+			4,
+			10
+		},
+		{
+			4,
+			12
+		},
+		{
+			4,
+			13
+		},
+		{
+			4,
+			21
+		},
+		{
+			6,
+			4
+		},
+		{
+			6,
+			5
+		},
+		{
+			6,
+			6
+		},
+		{
+			6,
+			7
+		},
+		{
+			6,
+			9
+		},
+		{
+			6,
+			10
+		},
+		{
+			6,
+			12
+		},
+		{
+			6,
+			13
+		},
+		{
+			6,
+			21
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60223] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程 </color>\n\n——完成<color=#92fc63>5次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60223,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60224] = {
+	name = "主力技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認 </color>\n\n——提交<color=#92fc63>10張</color>戰列改造圖T2",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18022",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60224,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60225] = {
+	name = "皇家主力技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成鐵血主力技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠 </color>
+
+——使用皇家或薩丁帝國主力角色，在任意關卡中累計獲得<color=#92fc63>200萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60225,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			2,
+			4
+		},
+		{
+			2,
+			5
+		},
+		{
+			2,
+			6
+		},
+		{
+			2,
+			7
+		},
+		{
+			2,
+			9
+		},
+		{
+			2,
+			10
+		},
+		{
+			2,
+			12
+		},
+		{
+			2,
+			13
+		},
+		{
+			2,
+			21
+		},
+		{
+			6,
+			4
+		},
+		{
+			6,
+			5
+		},
+		{
+			6,
+			6
+		},
+		{
+			6,
+			7
+		},
+		{
+			6,
+			9
+		},
+		{
+			6,
+			10
+		},
+		{
+			6,
+			12
+		},
+		{
+			6,
+			13
+		},
+		{
+			6,
+			21
+		}
+	},
+	open_need = {
+		60222
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60226] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了 </color>
+
+——完成<color=#92fc63>8次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60226,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60223
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60227] = {
+	name = "主力技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考 </color>\n\n——提交<color=#92fc63>5張</color>戰列改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "18023",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60227,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60228] = {
+	name = "馬可波羅艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>3萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "1",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60228,
+	target_num = 30000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60229] = {
+	name = "馬可波羅艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了 </color>\n\n——提交<color=#92fc63>5個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 30,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60229,
 	target_num = 5,
 	fix_task = 0,
 	added_tip = 0,

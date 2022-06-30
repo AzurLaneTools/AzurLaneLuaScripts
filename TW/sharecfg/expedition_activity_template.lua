@@ -2285,8 +2285,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40446,
-				2002
+				40702,
+				2008
 			}
 		}
 	},
@@ -2295,8 +2295,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40446,
-				2002
+				40702,
+				2008
 			}
 		}
 	},
@@ -2305,8 +2305,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40446,
-				2002
+				40702,
+				2008
 			}
 		}
 	},
@@ -2315,8 +2315,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40446,
-				2002
+				40702,
+				2008
 			}
 		}
 	},

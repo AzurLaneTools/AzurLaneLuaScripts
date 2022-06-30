@@ -9,7 +9,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "皇家先鋒角色圖鑒登錄數達到<color=#92fc63>20</color>個以上",
 		id = 29901,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60011
 		},
@@ -112,7 +112,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "皇家主力角色圖鑒登錄數達到<color=#92fc63>10</color>個以上",
 		id = 29902,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60021
 		},
@@ -215,7 +215,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "重櫻先鋒角色圖鑒登錄數達到<color=#92fc63>20</color>個以上",
 		id = 39901,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60031
 		},
@@ -318,7 +318,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "重櫻主力角色圖鑒登錄數達到<color=#92fc63>10</color>個以上",
 		id = 39902,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60041
 		},
@@ -421,7 +421,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "鐵血先鋒角色圖鑒登錄數達到<color=#92fc63>7</color>個以上",
 		id = 49901,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60051
 		},
@@ -524,7 +524,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "白鷹先鋒角色圖鑒登錄數達到<color=#92fc63>20</color>個以上",
 		id = 89901,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60061
 		},
@@ -1224,7 +1224,12 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60131
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19270,
+				18270
+			}
+		},
 		unlock_task = {
 			{
 				60132,
@@ -1291,7 +1296,13 @@ pg.ship_data_blueprint = {
 			1329,
 			1330
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			1331,
+			1332,
+			1333,
+			1334,
+			1335
+		},
 		attr_exp = {
 			100,
 			100,
@@ -1404,7 +1415,12 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60151
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19320,
+				18320
+			}
+		},
 		unlock_task = {
 			{
 				60152,
@@ -1471,7 +1487,13 @@ pg.ship_data_blueprint = {
 			1529,
 			1530
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			1531,
+			1532,
+			1533,
+			1534,
+			1535
+		},
 		attr_exp = {
 			100,
 			100,
@@ -1494,7 +1516,12 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60161
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19340,
+				18340
+			}
+		},
 		unlock_task = {
 			{
 				60162,
@@ -1561,7 +1588,13 @@ pg.ship_data_blueprint = {
 			1629,
 			1630
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			1631,
+			1632,
+			1633,
+			1634,
+			1635
+		},
 		attr_exp = {
 			100,
 			100,
@@ -1585,7 +1618,12 @@ pg.ship_data_blueprint = {
 			60170,
 			60171
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19350,
+				18350
+			}
+		},
 		unlock_task = {
 			{
 				60172,
@@ -1652,6 +1690,463 @@ pg.ship_data_blueprint = {
 			1729,
 			1730
 		},
+		fate_strengthen = {
+			1731,
+			1732,
+			1733,
+			1734,
+			1735
+		},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	},
+	[19903] = {
+		blueprint_version = 4,
+		name = "安克雷奇",
+		simulate_dungeon = 9918,
+		luck_story = "",
+		strengthen_item = 42031,
+		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>850</color>",
+		id = 19903,
+		price = 1500,
+		is_pursuing = 0,
+		unlock_task_open_condition = {
+			60181
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60182,
+				0
+			},
+			{
+				60183,
+				86400
+			},
+			{
+				60184,
+				172800
+			},
+			{
+				60185,
+				259200
+			},
+			{
+				60186,
+				345600
+			},
+			{
+				60187,
+				432000
+			},
+			{
+				60188,
+				518400
+			},
+			{
+				60189,
+				518400
+			}
+		},
+		strengthen_effect = {
+			1801,
+			1802,
+			1803,
+			1804,
+			1805,
+			1806,
+			1807,
+			1808,
+			1809,
+			1810,
+			1811,
+			1812,
+			1813,
+			1814,
+			1815,
+			1816,
+			1817,
+			1818,
+			1819,
+			1820,
+			1821,
+			1822,
+			1823,
+			1824,
+			1825,
+			1826,
+			1827,
+			1828,
+			1829,
+			1830
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	},
+	[39905] = {
+		blueprint_version = 4,
+		name = "白龙",
+		simulate_dungeon = 9919,
+		luck_story = "",
+		strengthen_item = 42032,
+		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>950</color>",
+		id = 39905,
+		price = 3000,
+		is_pursuing = 0,
+		unlock_task_open_condition = {
+			60191
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60192,
+				0
+			},
+			{
+				60193,
+				86400
+			},
+			{
+				60194,
+				172800
+			},
+			{
+				60195,
+				259200
+			},
+			{
+				60196,
+				345600
+			},
+			{
+				60197,
+				432000
+			},
+			{
+				60198,
+				518400
+			},
+			{
+				60199,
+				518400
+			}
+		},
+		strengthen_effect = {
+			1901,
+			1902,
+			1903,
+			1904,
+			1905,
+			1906,
+			1907,
+			1908,
+			1909,
+			1910,
+			1911,
+			1912,
+			1913,
+			1914,
+			1915,
+			1916,
+			1917,
+			1918,
+			1919,
+			1920,
+			1921,
+			1922,
+			1923,
+			1924,
+			1925,
+			1926,
+			1927,
+			1928,
+			1929,
+			1930
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	},
+	[49905] = {
+		blueprint_version = 4,
+		name = "埃吉尔",
+		simulate_dungeon = 9920,
+		luck_story = "",
+		strengthen_item = 42033,
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>700</color>",
+		id = 49905,
+		price = 3000,
+		is_pursuing = 0,
+		unlock_task_open_condition = {
+			60201
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60202,
+				0
+			},
+			{
+				60203,
+				86400
+			},
+			{
+				60204,
+				172800
+			},
+			{
+				60205,
+				259200
+			},
+			{
+				60206,
+				345600
+			},
+			{
+				60207,
+				432000
+			},
+			{
+				60208,
+				518400
+			},
+			{
+				60209,
+				518400
+			}
+		},
+		strengthen_effect = {
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			2010,
+			2011,
+			2012,
+			2013,
+			2014,
+			2015,
+			2016,
+			2017,
+			2018,
+			2019,
+			2020,
+			2021,
+			2022,
+			2023,
+			2024,
+			2025,
+			2026,
+			2027,
+			2028,
+			2029,
+			2030
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	},
+	[49906] = {
+		blueprint_version = 4,
+		name = "奥古斯特·冯·帕塞瓦尔",
+		simulate_dungeon = 9921,
+		luck_story = "",
+		strengthen_item = 42034,
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>",
+		id = 49906,
+		price = 1500,
+		is_pursuing = 0,
+		unlock_task_open_condition = {
+			60211
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60212,
+				0
+			},
+			{
+				60213,
+				86400
+			},
+			{
+				60214,
+				172800
+			},
+			{
+				60215,
+				259200
+			},
+			{
+				60216,
+				345600
+			},
+			{
+				60217,
+				432000
+			},
+			{
+				60218,
+				518400
+			},
+			{
+				60219,
+				518400
+			}
+		},
+		strengthen_effect = {
+			2101,
+			2102,
+			2103,
+			2104,
+			2105,
+			2106,
+			2107,
+			2108,
+			2109,
+			2110,
+			2111,
+			2112,
+			2113,
+			2114,
+			2115,
+			2116,
+			2117,
+			2118,
+			2119,
+			2120,
+			2121,
+			2122,
+			2123,
+			2124,
+			2125,
+			2126,
+			2127,
+			2128,
+			2129,
+			2130
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	},
+	[69901] = {
+		blueprint_version = 4,
+		name = "马可波罗",
+		simulate_dungeon = 9922,
+		luck_story = "",
+		strengthen_item = 42035,
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>、皇家陣營科技點數達到<color=#92fc63>700</color>",
+		id = 69901,
+		price = 1500,
+		is_pursuing = 0,
+		unlock_task_open_condition = {
+			60220,
+			60221
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60222,
+				0
+			},
+			{
+				60223,
+				86400
+			},
+			{
+				60224,
+				172800
+			},
+			{
+				60225,
+				259200
+			},
+			{
+				60226,
+				345600
+			},
+			{
+				60227,
+				432000
+			},
+			{
+				60228,
+				518400
+			},
+			{
+				60229,
+				518400
+			}
+		},
+		strengthen_effect = {
+			2201,
+			2202,
+			2203,
+			2204,
+			2205,
+			2206,
+			2207,
+			2208,
+			2209,
+			2210,
+			2211,
+			2212,
+			2213,
+			2214,
+			2215,
+			2216,
+			2217,
+			2218,
+			2219,
+			2220,
+			2221,
+			2222,
+			2223,
+			2224,
+			2225,
+			2226,
+			2227,
+			2228,
+			2229,
+			2230
+		},
 		fate_strengthen = {},
 		attr_exp = {
 			100,
@@ -1679,6 +2174,11 @@ pg.ship_data_blueprint = {
 		29904,
 		49903,
 		49904,
-		89902
+		89902,
+		19903,
+		39905,
+		49905,
+		49906,
+		69901
 	}
 }

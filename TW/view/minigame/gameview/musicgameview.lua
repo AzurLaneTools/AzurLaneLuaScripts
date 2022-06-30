@@ -72,8 +72,8 @@ function slot0.init(slot0)
 	slot0.musicgame_nowtime = 0
 	slot0.musicgame_lasttime = 0
 	slot0.time_interval = 0.01666
-	slot0.music_amount = 5
-	slot0.music_amount_middle = 3
+	slot0.music_amount = 10
+	slot0.music_amount_middle = 5
 	slot0.game_speed = PlayerPrefs.GetInt("musicgame_idol_speed") > 0 and PlayerPrefs.GetInt("musicgame_idol_speed") or 1
 	slot0.game_dgree = 1
 

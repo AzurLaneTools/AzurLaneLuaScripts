@@ -40,6 +40,7 @@ slot0.ON_VOTE_BOOK = "LevelMediator2:ON_VOTE_BOOK"
 slot0.GET_CHAPTER_DROP_SHIP_LIST = "LevelMediator2:GET_CHAPTER_DROP_SHIP_LIST"
 slot0.ON_CHAPTER_REMASTER_AWARD = "LevelMediator2:ON_CHAPTER_REMASTER_AWARD"
 slot0.ENTER_WORLD = "LevelMediator2:ENTER_WORLD"
+slot0.ON_OPEN_ACT_BOSS_BATTLE = "LevelMediator2:ON_OPEN_ACT_BOSS_BATTLE"
 
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
@@ -420,6 +421,11 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_CHAPTER_REMASTER_AWARD, function (slot0, slot1)
 		uv0:sendNotification(GAME.CHAPTER_REMASTER_AWARD_RECEIVE, {
 			chapterId = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_OPEN_ACT_BOSS_BATTLE, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE, {
+			showAni = true
 		})
 	end)
 

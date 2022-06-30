@@ -22,6 +22,8 @@ function slot0.Ctor(slot0, slot1)
 
 	setActive(slot0.propsTr1, false)
 	setActive(slot0.shipState, false)
+
+	slot0.loader = AutoLoader.New()
 end
 
 function slot0.update(slot0, slot1)
@@ -81,11 +83,11 @@ function slot0.flush(slot0)
 		end)
 
 		if not slot8 then
-			slot9 = PoolMgr.GetInstance()
+			slot9 = slot0.loader
 
-			slot9:GetPrefab("effect/" .. slot7, "", true, function (slot0)
+			slot9:GetPrefab("effect/" .. slot7, "", function (slot0)
 				setParent(slot0, uv0.otherBg)
-			end)
+			end, "OtherBGEffect")
 		end
 	end
 
@@ -126,6 +128,8 @@ function slot0.clear(slot0)
 	if slot0.shipVO then
 		retPaintingPrefab(slot0.paintingTr, slot1:getPainting())
 	end
+
+	slot0.loader:Clear()
 end
 
 return slot0

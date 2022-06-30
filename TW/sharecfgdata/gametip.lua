@@ -9344,15 +9344,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "施佩伯爵將軍 建造追加！"
+	tip = "長門、鈴谷 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "小海倫娜、小克里夫蘭 建造追加！"
+	tip = "江風、宵月、春月、文月、朝潮 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "香格里拉、艾塞克斯、U-101、伊168 、伊25、伊56、U-522 建造追加！"
+	tip = "伊13 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -10209,7 +10209,7 @@ _G.pg.base.gametip.world_boss_help = {
 8.當「演習據點」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗盡</color>後，會記錄本服達成的里程碑時間，同時，在演習中獲得過「貢獻值」的玩家可以獲得相應獎勵
 9.獎勵將在「演習據點」完全耗盡後，通過郵件發放，如果活動結束時耐久未被耗盡，則會根據據點推進進度，為在演習中獲得過「貢獻值」的玩家發放對應進度的獎勵
 10.活動期間，可以領取個人貢獻獎勵，個人貢獻獎勵需要當據點攻略進度和擁有的「貢獻值」達到指定要求後才能領取
-11.5.5-5.19期間可以參與演習戰鬥，獎勵領取的截止時間為5.26維護前]]
+11.6.30-7.14期間可以參與演習戰鬥，獎勵領取的截止時間為7.20維護前]]
 		},
 		{
 			info = [[
@@ -13889,6 +13889,10 @@ _G.pg.base.gametip.tec_tendency_3 = {
 	tip = "科研三期"
 }
 
+_G.pg.base.gametip.tec_tendency_4 = {
+	tip = "科研四期"
+}
+
 _G.pg.base.gametip.tec_tendency_cur_0 = {
 	tip = "科研傾向 / 無傾向"
 }
@@ -13913,16 +13917,32 @@ _G.pg.base.gametip.tec_target_catchup_selected = {
 	tip = "定向追趕"
 }
 
+_G.pg.base.gametip.tec_tendency_cur_4 = {
+	tip = "科研傾向 / 四期"
+}
+
 _G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "定向追趕:一期/未選"
+}
+
+_G.pg.base.gametip.tec_target_catchup_none_2 = {
+	tip = "定向追趕:二期/未選"
 }
 
 _G.pg.base.gametip.tec_target_catchup_selected_1 = {
 	tip = "定向追趕:一期/進行"
 }
 
+_G.pg.base.gametip.tec_target_catchup_selected_2 = {
+	tip = "定向追趕:二期/進行"
+}
+
 _G.pg.base.gametip.tec_target_catchup_finish_1 = {
 	tip = "定向追趕:一期/完成"
+}
+
+_G.pg.base.gametip.tec_target_catchup_finish_2 = {
+	tip = "定向追趕:二期/完成"
 }
 
 _G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
@@ -19029,4 +19049,8 @@ _G.pg.base.gametip.tactics_recent_ship_label = {
 
 _G.pg.base.gametip.title_info = {
 	tip = "訊息"
+}
+
+_G.pg.base.gametip.rename_input = {
+	tip = "输入名称"
 }

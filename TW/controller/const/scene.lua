@@ -289,7 +289,7 @@ function SCENE.SetSceneInfo(slot0, slot1)
 		slot0.viewComponent = TrainingCampScene
 	elseif slot1 == SCENE.ACT_BOSS_BATTLE then
 		slot0.mediator = ActivityBossMediatorTemplate
-		slot0.viewComponent = ActivityBossAisaikesiScene
+		slot0.viewComponent = ActivityBossSurugaScene
 	elseif slot1 == SCENE.BULLETINBOARD then
 		slot0.mediator = BulletinBoardMediator
 		slot0.viewComponent = BulletinBoardLayer

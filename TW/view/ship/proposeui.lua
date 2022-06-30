@@ -941,6 +941,7 @@ function slot0.showStoryUI(slot0, slot1)
 				slot2 = uv0
 				uv0._renamePanel = slot2:findTF("changeName_panel", uv0.storyTF)
 
+				setText(findTF(uv0._renamePanel, "frame/name_field/Placeholder"), i18n("rename_input"))
 				setActive(uv0._renamePanel, false)
 				onButton(uv0, uv0.storyTF, function ()
 					if uv0.inTypeWritter then

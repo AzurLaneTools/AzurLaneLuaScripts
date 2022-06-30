@@ -270,6 +270,10 @@ function slot2.onBeforeFatalDamage(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
+function slot2.onAircraftCreate(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
 function slot2.onFriendlyAircraftDying(slot0, slot1, slot2, slot3)
 	if slot0._tempData.arg_list.templateID then
 		if slot3.unit:GetTemplateID() == slot0._tempData.arg_list.templateID then

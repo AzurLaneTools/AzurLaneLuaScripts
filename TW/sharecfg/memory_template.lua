@@ -15081,6 +15081,50 @@ pg.memory_template = {
 		icon = "memory_boyixi",
 		is_open = 0
 	},
+	[1732] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-柴郡",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK29903",
+		id = 1732,
+		icon = "memory_chaijun",
+		is_open = 0
+	},
+	[1733] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-香檳",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK89902",
+		id = 1733,
+		icon = "memory_xiangbin",
+		is_open = 0
+	},
+	[1734] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-奧丁",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK49904",
+		id = 1734,
+		icon = "memory_aoding",
+		is_open = 0
+	},
+	[1735] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-美因茨",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK49903",
+		id = 1735,
+		icon = "memory_meiyinci",
+		is_open = 0
+	},
 	[1736] = {
 		type = 1,
 		subtitle = "",
@@ -17674,6 +17718,10 @@ pg.memory_template = {
 		1729,
 		1730,
 		1731,
+		1732,
+		1733,
+		1734,
+		1735,
 		1736,
 		1737,
 		1738,

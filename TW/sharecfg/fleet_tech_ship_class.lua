@@ -264,6 +264,17 @@ pg.fleet_tech_ship_class = {
 			10324
 		}
 	},
+	[10307] = {
+		shiptype = 3,
+		name = "安克拉治",
+		nation = 1,
+		id = 10307,
+		t_level_1 = 21,
+		t_level = 8,
+		ships = {
+			19903
+		}
+	},
 	[10501] = {
 		shiptype = 5,
 		name = "內華達級",
@@ -1601,6 +1612,17 @@ pg.fleet_tech_ship_class = {
 			30708
 		}
 	},
+	[30708] = {
+		shiptype = 7,
+		name = "白龍",
+		nation = 3,
+		id = 30708,
+		t_level_1 = 109,
+		t_level = 10,
+		ships = {
+			39905
+		}
+	},
 	[30801] = {
 		shiptype = 8,
 		name = "巡潛乙型",
@@ -1886,6 +1908,17 @@ pg.fleet_tech_ship_class = {
 			40703
 		}
 	},
+	[40702] = {
+		shiptype = 7,
+		name = "奧古斯特·馮·帕塞瓦爾",
+		nation = 4,
+		id = 40702,
+		t_level_1 = 126,
+		t_level = 7,
+		ships = {
+			49906
+		}
+	},
 	[40801] = {
 		shiptype = 8,
 		name = "VIIB型",
@@ -1945,6 +1978,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			40810
+		}
+	},
+	[41801] = {
+		shiptype = 18,
+		name = "埃吉爾",
+		nation = 4,
+		id = 41801,
+		t_level_1 = 123,
+		t_level = 9,
+		ships = {
+			49905
 		}
 	},
 	[50101] = {
@@ -2085,6 +2129,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			60505,
 			60506
+		}
+	},
+	[60503] = {
+		shiptype = 5,
+		name = "馬可波羅",
+		nation = 6,
+		id = 60503,
+		t_level_1 = 136,
+		t_level = 8,
+		ships = {
+			69901
 		}
 	},
 	[60701] = {
@@ -2444,6 +2499,7 @@ pg.fleet_tech_ship_class = {
 		10304,
 		10305,
 		10306,
+		10307,
 		10501,
 		10502,
 		10503,
@@ -2554,6 +2610,7 @@ pg.fleet_tech_ship_class = {
 		30705,
 		30706,
 		30707,
+		30708,
 		30801,
 		30802,
 		31201,
@@ -2578,11 +2635,13 @@ pg.fleet_tech_ship_class = {
 		40502,
 		40601,
 		40701,
+		40702,
 		40801,
 		40802,
 		40803,
 		40804,
 		40805,
+		41801,
 		50101,
 		50201,
 		50202,
@@ -2595,6 +2654,7 @@ pg.fleet_tech_ship_class = {
 		60302,
 		60501,
 		60502,
+		60503,
 		60701,
 		60801,
 		70101,

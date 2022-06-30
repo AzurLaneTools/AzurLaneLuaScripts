@@ -5439,6 +5439,89 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100015] = {
+		belong = 1,
+		describe = "準備好收下這份激動人心的禮物了嗎~？",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "「驚喜」禮物",
+		tag = 6,
+		icon = "yurenheicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100015,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yurenheB",
+				"normal"
+			},
+			{
+				"yurenheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						"yurenheCharControl",
+						"sit"
+					},
+					{
+						"action2",
+						"yurenheCharControl2",
+						"sit"
+					},
+					{
+						"action3",
+						"yurenheCharControl",
+						"sit"
+					}
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"yurenheCharControl",
+				"yurenheCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		spine_extra = "",
 		describe = "到處都是破洞的地板，注意不要踩到洞裡啊",
@@ -81987,7 +82070,7 @@ pg.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		themeId = 89,
-		belong = 1,
+		belong = 0,
 		is_3d_obj = 0,
 		count = 1,
 		tag = 4,
@@ -82021,13 +82104,13 @@ pg.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		themeId = 89,
-		belong = 1,
+		belong = 0,
 		is_3d_obj = 0,
 		count = 1,
 		tag = 3,
 		size = "",
 		deblocking = 1,
-		level = 1,
+		level = 5,
 		name = "東煌時尚壁紙",
 		effect = "",
 		advice = 0,
@@ -83356,6 +83439,7 @@ pg.furniture_data_template = {
 			100010,
 			100013,
 			100014,
+			100015,
 			12002,
 			12102,
 			12103,
@@ -83474,6 +83558,7 @@ pg.furniture_data_template = {
 			100010,
 			100013,
 			100014,
+			100015,
 			12002,
 			12102,
 			12103,
@@ -88601,6 +88686,7 @@ pg.furniture_data_template = {
 			100010,
 			100013,
 			100014,
+			100015,
 			54104,
 			54105
 		},
@@ -90446,6 +90532,12 @@ pg.furniture_data_template = {
 		[14] = {
 			214
 		},
+		[13] = {
+			100015,
+			78116,
+			84174,
+			89126
+		},
 		[4] = {
 			1001,
 			2001,
@@ -90972,11 +91064,6 @@ pg.furniture_data_template = {
 		},
 		[12] = {
 			46131
-		},
-		[13] = {
-			78116,
-			84174,
-			89126
 		}
 	},
 	all = {
@@ -91087,6 +91174,7 @@ pg.furniture_data_template = {
 		100010,
 		100013,
 		100014,
+		100015,
 		1001,
 		1002,
 		1101,

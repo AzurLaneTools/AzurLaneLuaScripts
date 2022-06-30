@@ -34,14 +34,14 @@ function slot0.Pause(slot0)
 	slot0.pause = true
 
 	slot0:PauseAllAnimation()
-	setActive(slot0.effectPanel, false)
+	pg.ViewUtils.SetLayer(slot0.effectPanel, LayerMask.NameToLayer("UIHidden"))
 end
 
 function slot0.Resume(slot0)
 	slot0.pause = false
 
 	slot0:ResumeAllAnimation()
-	setActive(slot0.effectPanel, true)
+	pg.ViewUtils.SetLayer(slot0.effectPanel, Layer.UI)
 end
 
 function slot0.Stop(slot0)
@@ -78,9 +78,13 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 		return
 	end
 
-	if slot1:ShouldSkipAll() and slot5:ExistOption() and not pg.NewStoryMgr.GetInstance():IsReView() then
+	if slot1:ShouldSkipAll() then
+		slot0:ClearEffects()
+	end
+
+	if slot6 and slot5:ExistOption() and not pg.NewStoryMgr.GetInstance():IsReView() then
 		slot1:StopSkip()
-	elseif slot1:ShouldSkipAll() then
+	elseif slot6 then
 		slot4()
 
 		return
@@ -98,7 +102,7 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:SetTimeScale(1 - slot1:GetPlaySpeed() * 0.1)
 
-	slot6 = slot1:GetPrevStep(slot2)
+	slot7 = slot1:GetPrevStep(slot2)
 
 	seriesAsync({
 		function (slot0)

@@ -3003,6 +3003,202 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[4854] = {
+		subject = "最高方案研發禮包（二期）",
+		limit_group = 2,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		limit_arg = 0,
+		name = "最高方案研發禮包（二期）",
+		name_display = "最高方案研發禮包二期",
+		extra_gem = 0,
+		id = 4854,
+		money = 490,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech2_display",
+		id_str = "com.hkmanjuu.azurlane.keyan",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得最高方案快速研發券·二期*1，定向藍圖·二期*343",
+		airijp_id = "com.hkmanjuu.azurlane.keyan",
+		extra_service_item = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[4855] = {
+		subject = "最高方案研發禮包（二期）高級版",
+		limit_group = 2,
+		descrip_extra = "*最高方案快速研發券·二期內容可能發生變化，點擊道具查看詳情",
+		type = 0,
+		limit_arg = 1,
+		name = "最高方案研發禮包（二期）高級版",
+		name_display = "高級版",
+		extra_gem = 0,
+		id = 4855,
+		money = 490,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech2_promotion",
+		id_str = "com.hkmanjuu.azurlane.keyan4",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "禮包内容",
+		airijp_id = "com.hkmanjuu.azurlane.keyan4",
+		extra_service_item = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[4856] = {
+		subject = "最高方案研發禮包（二期）標準版",
+		limit_group = 2,
+		descrip_extra = "*最高方案快速研發券·二期內容可能發生變化，點擊道具查看詳情",
+		type = 0,
+		limit_arg = 2,
+		name = "最高方案研發禮包（二期）標準版",
+		name_display = "標準版",
+		extra_gem = 0,
+		id = 4856,
+		money = 330,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech2_normal",
+		id_str = "com.hkmanjuu.azurlane.keyan5",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "禮包内容",
+		airijp_id = "com.hkmanjuu.azurlane.keyan5",
+		extra_service_item = {
+			{
+				2,
+				40125,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40125,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
+	[4857] = {
+		subject = "最高方案研發禮包（二期）高級版",
+		limit_group = 2,
+		descrip_extra = "升級為高級版後可獲得定向藍圖·二期*343",
+		type = 0,
+		limit_arg = 3,
+		name = "最高方案研發禮包（二期）升級版",
+		name_display = "升級版",
+		extra_gem = 0,
+		id = 4857,
+		money = 190,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech2_promotion",
+		id_str = "com.hkmanjuu.azurlane.keyan6",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "禮包内容",
+		airijp_id = "com.hkmanjuu.azurlane.keyan6",
+		extra_service_item = {
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		}
+	},
 	[4858] = {
 		subject = "即刻出戰禮包",
 		limit_group = 0,
@@ -3430,6 +3626,10 @@ pg.pay_data_display = {
 		4851,
 		4852,
 		4853,
+		4854,
+		4855,
+		4856,
+		4857,
 		4858,
 		4859,
 		4900,

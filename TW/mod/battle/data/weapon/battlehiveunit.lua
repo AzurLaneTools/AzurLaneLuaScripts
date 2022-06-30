@@ -1,15 +1,16 @@
 ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle.BattleConst
+slot2 = slot0.Battle.BattleConfig
 slot0.Battle.BattleHiveUnit = class("BattleHiveUnit", slot0.Battle.BattleWeaponUnit)
 slot0.Battle.BattleHiveUnit.__name = "BattleHiveUnit"
-slot2 = slot0.Battle.BattleHiveUnit
+slot3 = slot0.Battle.BattleHiveUnit
 
-function slot2.Ctor(slot0)
+function slot3.Ctor(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot2.Update(slot0)
+function slot3.Update(slot0)
 	slot0:UpdateReload()
 	slot0:updateMovementInfo()
 
@@ -35,13 +36,13 @@ function slot2.Update(slot0)
 	end
 end
 
-function slot2.SetTemplateData(slot0, slot1)
+function slot3.SetTemplateData(slot0, slot1)
 	uv0.super.SetTemplateData(slot0, slot1)
 
 	slot0._antiSub = table.contains(slot1.search_condition, uv1.OXY_STATE.DIVE)
 end
 
-function slot2.Fire(slot0)
+function slot3.Fire(slot0)
 	slot0:DispatchGCD()
 
 	slot0._currentState = slot0.STATE_ATTACK
@@ -57,11 +58,11 @@ function slot2.Fire(slot0)
 	return true
 end
 
-function slot2.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot3.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	uv0.super.createMajorEmitter(slot0, slot1, slot2, nil, function (slot0, slot1, slot2, slot3, slot4)
-		slot7 = math.deg2Rad * (uv0:GetBaseAngle() + slot2)
+		slot5, slot6 = uv0:SpwanAircraft(slot2)
 
-		uv0._dataProxy:CreateAircraft(uv0._host, uv0._tmpData.id, uv0:GetPotential(), uv0._skinID):AddCreateTimer(Vector3(math.cos(slot7), 0, math.sin(slot7)), 1.5)
+		slot5:AddCreateTimer(slot6, 1.5)
 
 		if uv0._debugRecordDEFAircraft then
 			table.insert(uv0._debugRecordDEFAircraft, slot5)
@@ -69,15 +70,14 @@ function slot2.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	end, nil)
 end
 
-function slot2.SingleFire(slot0, slot1, slot2)
+function slot3.SingleFire(slot0, slot1, slot2)
 	slot0._tempEmitterList = {}
 
 	function slot3(slot0, slot1, slot2, slot3, slot4)
-		slot5 = uv0._dataProxy:CreateAircraft(uv0._host, uv0._tmpData.id, uv0:GetPotential(), uv0._skinID)
-		slot7 = math.deg2Rad * (uv0:GetBaseAngle() + slot2)
+		slot5, slot6 = uv0:SpwanAircraft(slot2)
 
-		uv1.Battle.BattleVariable.AddExempt(slot5:GetSpeedExemptKey(), slot5:GetIFF(), uv1.Battle.BattleConfig.SPEED_FACTOR_FOCUS_CHARACTER)
-		slot5:AddCreateTimer(Vector3(math.cos(slot7), 0, math.sin(slot7)), 1)
+		uv1.Battle.BattleVariable.AddExempt(slot5:GetSpeedExemptKey(), slot5:GetIFF(), uv2.SPEED_FACTOR_FOCUS_CHARACTER)
+		slot5:AddCreateTimer(slot6, 1)
 
 		if uv0._debugRecordATKAircraft then
 			table.insert(uv0._debugRecordATKAircraft, slot5)
@@ -98,7 +98,7 @@ function slot2.SingleFire(slot0, slot1, slot2)
 		uv0._tempEmitterList = nil
 	end
 
-	slot2 = slot2 or uv1.EMITTER_SHOTGUN
+	slot2 = slot2 or uv2.EMITTER_SHOTGUN
 
 	for slot8, slot9 in ipairs(slot0._tmpData.barrage_ID) do
 		slot0._tempEmitterList[#slot0._tempEmitterList + 1] = uv0.Battle[slot2].New(slot3, slot4, slot9)
@@ -113,19 +113,35 @@ function slot2.SingleFire(slot0, slot1, slot2)
 	slot0._host:CloakExpose(slot0._tmpData.expose)
 end
 
-function slot2.GetATKAircraftList(slot0)
+function slot3.SpwanAircraft(slot0, slot1)
+	slot2 = slot0._dataProxy:CreateAircraft(slot0._host, slot0._tmpData.id, slot0:GetPotential(), slot0._skinID)
+	slot4 = math.deg2Rad * (slot0:GetBaseAngle() + slot1)
+
+	slot0:TriggerBuffWhenSpawnAircraft(slot2)
+
+	return slot2, Vector3(math.cos(slot4), 0, math.sin(slot4))
+end
+
+function slot3.TriggerBuffWhenSpawnAircraft(slot0, slot1)
+	slot0._host:TriggerBuff(uv0.BuffEffectType.ON_AIRCRAFT_CREATE, {
+		aircraft = slot1,
+		equipIndex = slot0._equipmentIndex
+	})
+end
+
+function slot3.GetATKAircraftList(slot0)
 	slot0._debugRecordATKAircraft = slot0._debugRecordATKAircraft or {}
 
 	return slot0._debugRecordATKAircraft
 end
 
-function slot2.GetDEFAircraftList(slot0)
+function slot3.GetDEFAircraftList(slot0)
 	slot0._debugRecordDEFAircraft = slot0._debugRecordDEFAircraft or {}
 
 	return slot0._debugRecordDEFAircraft
 end
 
-function slot2.GetDamageSUM(slot0)
+function slot3.GetDamageSUM(slot0)
 	slot1 = 0
 
 	for slot6, slot7 in ipairs(slot0:GetDEFAircraftList()) do

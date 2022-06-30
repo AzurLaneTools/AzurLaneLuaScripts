@@ -505,7 +505,8 @@ function slot0.CreateLive2D(slot0)
 	slot0.l2dChar = Live2D.New(Live2D.GenerateData({
 		ship = Ship.New({
 			configId = slot1:getShipConfigId(),
-			skin_id = slot0.skin.id
+			skin_id = slot0.skin.id,
+			propose = slot0.shipGroup.married
 		}),
 		scale = Vector3(52, 52, 52),
 		position = Vector3(0, -40, 100),

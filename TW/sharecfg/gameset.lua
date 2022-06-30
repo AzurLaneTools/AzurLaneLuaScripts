@@ -1951,6 +1951,10 @@ pg.gameset = {
 			{
 				20101,
 				10000
+			},
+			{
+				20102,
+				10000
 			}
 		}
 	},
@@ -2418,6 +2422,35 @@ pg.gameset = {
 			15011
 		}
 	},
+	blueprint_pursue_discount_ssr = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				0
+			},
+			{
+				3,
+				10
+			},
+			{
+				5,
+				20
+			},
+			{
+				8,
+				40
+			},
+			{
+				11,
+				70
+			},
+			{
+				16,
+				100
+			}
+		}
+	},
 	dayandnight_bgm = {
 		key_value = 40385,
 		description = {
@@ -2497,7 +2530,9 @@ pg.gameset = {
 			42010,
 			42017,
 			42020,
-			42026
+			42026,
+			42030,
+			42036
 		}
 	},
 	submarine_chapter_activate_time = {
@@ -2505,7 +2540,7 @@ pg.gameset = {
 		key_value = 43200
 	},
 	naval_academy_theme = {
-		description = "spring",
+		description = "summer",
 		key_value = 0
 	},
 	package_lv = {

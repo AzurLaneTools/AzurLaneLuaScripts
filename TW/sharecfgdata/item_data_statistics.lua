@@ -5836,6 +5836,132 @@ _G.pg.base.item_data_statistics[13024] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[13025] = {
+	display = "試作型三聯裝305mmSKC39主炮（超巡用）T0設計圖",
+	name = "試作型三聯裝305mmSKC39主炮（超巡用）T0設計圖",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13025,
+	is_world = 0,
+	icon = "Equips/44400",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13026] = {
+	display = "試作艦載型BF-109GT0設計圖",
+	name = "試作艦載型BF-109GT0設計圖",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13026,
+	is_world = 0,
+	icon = "Equips/47160",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13027] = {
+	display = "試作型雙聯90mm高角炮Model1939T0設計圖",
+	name = "試作型雙聯90mm高角炮Model1939T0設計圖",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13027,
+	is_world = 0,
+	icon = "Equips/55160",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13028] = {
+	display = "試作型三聯裝406mm主炮Model1940T0設計圖",
+	name = "試作型三聯裝406mm主炮Model1940T0設計圖",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13028,
+	is_world = 0,
+	icon = "Equips/55900",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13029] = {
+	display = "試作型彩雲（艦攻型）T0設計圖",
+	name = "試作型彩雲（艦攻型）T0設計圖",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13029,
+	is_world = 0,
+	icon = "Equips/38300",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13030] = {
+	display = "試作艦載型天雷T0設計圖",
+	name = "試作艦載型天雷T0設計圖",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13030,
+	is_world = 0,
+	icon = "Equips/39340",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 使用後可從超稀有科研裝備(I期)的設計圖中任意選擇一張
@@ -7985,6 +8111,30 @@ _G.pg.base.item_data_statistics[20101] = {
 	id = 20101,
 	is_world = 0,
 	icon = "Props/20101",
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[20102] = {
+	display = "研發部門總結的測試數據，<color=#92fc63>在開發船塢內使用</color>可增加10000點科研二期角色技術測試經驗進度<color=#ff5c5c>（在倉庫中解析會獲得設計原型，無法獲得經驗）</color>",
+	name = "科研測試數據·二期",
+	max_num = 0,
+	type = 18,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 20102,
+	is_world = 0,
+	icon = "Props/20102",
 	display_icon = {},
 	price = {
 		9,
@@ -13264,6 +13414,92 @@ _G.pg.base.item_data_statistics[40018] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40019] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "最高方案研發禮包(二期)·高級版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40019,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_promotion",
+	display_icon = {
+		{
+			2,
+			40125,
+			1
+		},
+		{
+			2,
+			42010,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40020] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "最高方案研發禮包(二期)·標準版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40020,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_normal",
+	display_icon = {
+		{
+			2,
+			40125,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40021] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "最高方案研發禮包(二期)·升級版",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40021,
+	is_world = 0,
+	icon = "ChargeIcon/tech2_promotion",
+	display_icon = {
+		{
+			2,
+			42010,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40022] = {
 	display = "購買禮包可獲得大量材料獎勵",
 	name = "即刻出戰禮包",
@@ -14159,6 +14395,60 @@ _G.pg.base.item_data_statistics[40124] = {
 		{
 			2,
 			20101,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40125] = {
+	display = [[
+可於科研-開發船塢介面，從西雅圖、喬治亞、{namecode:164}、加斯科涅中選擇並獲取一位等級與科研等級均為1級的角色
+<color=#92fc63>上述角色全部獲得時</color>，在倉庫中使用此道具將會獲得：
+科研測試數據·二期*300
+定向改造圖紙T3*5
+定向改造圖紙T2*10
+心智魔方*5
+物資*20000]],
+	name = "最高方案快速研發券·二期",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40125,
+	is_world = 0,
+	icon = "Props/research2",
+	display_icon = {
+		{
+			2,
+			20102,
 			300
 		},
 		{
@@ -29320,6 +29610,280 @@ _G.pg.base.item_data_statistics[42026] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[42030] = {
+	display = "使用後可從第一期、第二期、第三期、第四期方案艦的最高方案藍圖中任意選擇一張",
+	name = "定向藍圖·四期",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42030,
+	is_world = 0,
+	icon = "Props/42030",
+	display_icon = {
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42031] = {
+	display = "白鷹巡洋「安克拉治」的設計藍圖。\n<color=#92fc63>獲得「安克拉治」後，可在「開發船塢」中用於增強「安克拉治」的能力。</color>",
+	name = "藍圖：安克拉治",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42031,
+	is_world = 0,
+	icon = "Props/42031",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42032] = {
+	display = "重櫻航母「{namecode:204}」的設計藍圖。\n<color=#92fc63>獲得「{namecode:204}」後，可在「開發船塢」中用於增強「{namecode:204}」的能力。</color>",
+	name = "藍圖：{namecode:204}",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42032,
+	is_world = 0,
+	icon = "Props/42032",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42033] = {
+	display = "鐵血超巡「埃吉爾」的設計藍圖。\n<color=#92fc63>獲得「埃吉爾」後，可在「開發船塢」中用於增強「埃吉爾」的能力。</color>",
+	name = "藍圖：埃吉爾",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42033,
+	is_world = 0,
+	icon = "Props/42033",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42034] = {
+	display = "鐵血航母「奧古斯特·馮·帕塞瓦爾」的設計藍圖。\n<color=#92fc63>獲得「奧古斯特·馮·帕塞瓦爾」後，可在「開發船塢」中用於增強「奧古斯特·馮·帕塞瓦爾」的能力。</color>",
+	name = "藍圖：奧古斯特·馮·帕塞瓦爾",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42034,
+	is_world = 0,
+	icon = "Props/42034",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42035] = {
+	display = "薩丁戰列「馬可波羅」的設計藍圖。 \n<color=#92fc63>獲得「馬可波羅」後，可在「開發船塢」中用於增強「馬可波羅」的能力。 </color>",
+	name = "藍圖：馬可波羅",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42035,
+	is_world = 0,
+	icon = "Props/42035",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42036] = {
+	display = "使用後可從第二期、第三期、第四期方案艦的決戰方案藍圖中任意選擇一張",
+	name = "高級定向藍圖·四期",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42036,
+	is_world = 0,
+	icon = "Props/42036",
+	display_icon = {
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[44001] = {
 	display = "$1贈送的情人節禮物",
 	name = "情人節禮物",
@@ -30347,6 +30911,130 @@ _G.pg.base.item_data_statistics[52022] = {
 		{
 			2,
 			13023,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52031] = {
+	display = "有機率獲得以下藍圖",
+	name = "未知蓝图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52031,
+	is_world = 0,
+	icon = "Props/52001",
+	display_icon = {
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52032] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知限定装备設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52032,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			13030,
+			1
+		},
+		{
+			2,
+			13029,
+			1
+		},
+		{
+			2,
+			13028,
+			1
+		},
+		{
+			2,
+			13027,
+			1
+		},
+		{
+			2,
+			13026,
+			1
+		},
+		{
+			2,
+			13025,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13007,
+			1
+		},
+		{
+			2,
+			13009,
 			1
 		}
 	},
@@ -125825,6 +126513,48 @@ _G.pg.base.item_data_statistics[59222] = {
 	id = 59222,
 	is_world = 0,
 	icon = "Props/TWkaifuPT",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59225] = {
+	display = "參與『穿越彼方的水線』獲得的點數，累計一定程度可以領取報酬",
+	name = "貢獻值",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59225,
+	is_world = 0,
+	icon = "Props/junhe_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59226] = {
+	display = "參與『穿越彼方的水線』EX關的必要道具，也可以用來增加普通關額外獎勵次數",
+	name = "特別挑戰券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59226,
+	is_world = 0,
+	icon = "Props/special_ticket",
 	display_icon = {},
 	price = {},
 	index = {},

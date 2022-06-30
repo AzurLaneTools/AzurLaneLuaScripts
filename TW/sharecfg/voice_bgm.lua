@@ -231,5 +231,9 @@ pg.voice_bgm = {
 	BackHillFifthAnniversaryScene = {
 		default_bgm = "Main-chunjie-pv",
 		bgm = "Main-chunjie-pv"
+	},
+	ActivityBossJofferScene = {
+		default_bgm = "theme-richelieu",
+		bgm = "theme-richelieu"
 	}
 }

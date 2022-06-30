@@ -29,6 +29,8 @@ function slot0.Set(slot0, slot1)
 
 	if IsNil(slot0.go) then
 		slot0:PrepareBase("SD")
+		slot0:OverrideCanvas()
+		slot0:ResetCanvasOrder()
 	end
 
 	slot2 = slot0:GetLoader()

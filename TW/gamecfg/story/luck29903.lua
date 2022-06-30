@@ -12,7 +12,7 @@ return {
 			side = 2,
 			actor = 299030,
 			dir = 1,
-			say = "喵哈哈哈哈！柴郡，感觉变得更厉害了！",
+			say = "喵哈哈哈哈！柴郡，感覺變得更厲害了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能走到今天，正说明了我和亲爱的之间的羁绊有多坚不可摧~",
+			say = "能走到今天，正說明了我和親愛的之間的羈絆有多堅不可摧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 299030,
 			dir = 1,
-			say = "接下来的路，我们也会一起走下去的，对吧~？",
+			say = "接下來的路，我們也會一起走下去的，對吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 299030,
 			dir = 1,
-			say = "嘿嘿，其实不用问我也知道答案的啦！好~继续努力加油啦！我抱~",
+			say = "嘿嘿，其實不用問我也知道答案的啦！好~繼續努力加油啦！我抱~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
