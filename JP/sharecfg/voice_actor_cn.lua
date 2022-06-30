@@ -1258,14 +1258,10 @@ pg.voice_actor_CN = {
 	},
 	[325] = {
 		code = 325,
-		actor_name = "真野あゆみ"
+		actor_name = "辻あゆみ"
 	},
 	[326] = {
 		code = 326,
-		actor_name = "辻あゆみ"
-	},
-	[327] = {
-		code = 327,
 		actor_name = "藤井ゆきよ"
 	}
 }

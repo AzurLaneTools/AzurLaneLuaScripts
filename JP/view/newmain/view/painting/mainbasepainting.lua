@@ -400,6 +400,13 @@ function slot0.Resume(slot0)
 	slot0:OnResume()
 end
 
+function slot0.updateShip(slot0, slot1)
+	slot0:OnUpdateShip(slot1)
+end
+
+function slot0.OnUpdateShip(slot0, slot1)
+end
+
 function slot0.Dispose(slot0)
 	slot0.isExited = true
 

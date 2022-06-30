@@ -157,6 +157,12 @@ function slot0.OnPuase(slot0)
 	slot0.live2dChar:Reset()
 end
 
+function slot0.OnUpdateShip(slot0, slot1)
+	if slot1 then
+		slot0.live2dChar:updateShip(slot1)
+	end
+end
+
 function slot0.OnResume(slot0)
 	slot0:AddScreenChangeTimer()
 	slot0:UpdateContainerPosition()

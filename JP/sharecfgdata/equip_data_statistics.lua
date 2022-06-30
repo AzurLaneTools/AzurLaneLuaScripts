@@ -123024,7 +123024,7 @@ _G.pg.base.equip_data_statistics[91240] = {
 	},
 	weapon_id = {
 		91240,
-		82980
+		86160
 	},
 	skill_id = {},
 	hidden_skill_id = {},
@@ -123063,7 +123063,7 @@ _G.pg.base.equip_data_statistics[91241] = {
 	},
 	weapon_id = {
 		91241,
-		82981
+		86161
 	},
 	hidden_skill_id = {}
 }
@@ -123087,7 +123087,7 @@ _G.pg.base.equip_data_statistics[91242] = {
 	},
 	weapon_id = {
 		91242,
-		82982
+		86162
 	},
 	hidden_skill_id = {}
 }
@@ -123111,7 +123111,7 @@ _G.pg.base.equip_data_statistics[91243] = {
 	},
 	weapon_id = {
 		91243,
-		82983
+		86163
 	},
 	hidden_skill_id = {}
 }
@@ -123135,7 +123135,7 @@ _G.pg.base.equip_data_statistics[91244] = {
 	},
 	weapon_id = {
 		91244,
-		82984
+		86164
 	},
 	hidden_skill_id = {}
 }
@@ -123159,7 +123159,7 @@ _G.pg.base.equip_data_statistics[91245] = {
 	},
 	weapon_id = {
 		91245,
-		82985
+		86165
 	},
 	hidden_skill_id = {}
 }
@@ -123183,7 +123183,7 @@ _G.pg.base.equip_data_statistics[91246] = {
 	},
 	weapon_id = {
 		91246,
-		82986
+		86166
 	},
 	hidden_skill_id = {}
 }
@@ -123207,7 +123207,7 @@ _G.pg.base.equip_data_statistics[91247] = {
 	},
 	weapon_id = {
 		91247,
-		82987
+		86167
 	},
 	hidden_skill_id = {}
 }
@@ -123231,7 +123231,7 @@ _G.pg.base.equip_data_statistics[91248] = {
 	},
 	weapon_id = {
 		91248,
-		82988
+		86168
 	},
 	hidden_skill_id = {}
 }
@@ -123255,7 +123255,7 @@ _G.pg.base.equip_data_statistics[91249] = {
 	},
 	weapon_id = {
 		91249,
-		82989
+		86169
 	},
 	hidden_skill_id = {}
 }
@@ -123279,7 +123279,7 @@ _G.pg.base.equip_data_statistics[91250] = {
 	},
 	weapon_id = {
 		91250,
-		82990
+		86170
 	},
 	hidden_skill_id = {}
 }
@@ -123304,7 +123304,7 @@ _G.pg.base.equip_data_statistics[91251] = {
 	},
 	weapon_id = {
 		91251,
-		82991
+		86171
 	},
 	hidden_skill_id = {}
 }
@@ -123329,7 +123329,7 @@ _G.pg.base.equip_data_statistics[91252] = {
 	},
 	weapon_id = {
 		91252,
-		82992
+		86172
 	},
 	hidden_skill_id = {}
 }
@@ -123354,7 +123354,7 @@ _G.pg.base.equip_data_statistics[91253] = {
 	},
 	weapon_id = {
 		91253,
-		82993
+		86173
 	},
 	hidden_skill_id = {}
 }

@@ -1450,16 +1450,16 @@ pg.ship_skin_template_9 = {
 		},
 		l2d_para_range = {
 			ParamAngleX = {
-				-30,
+				-20,
 				15
 			},
 			ParamAngleY = {
-				-30,
-				30
+				-20,
+				20
 			},
 			ParamBodyAngleY = {
-				0,
-				0
+				-5,
+				5
 			}
 		},
 		ship_l2d_id = {
