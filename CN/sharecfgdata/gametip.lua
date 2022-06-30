@@ -1411,7 +1411,7 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
-	tip = "后宅没还有添加休息的角色,<color=#92fc63>食物将不会消耗</color>"
+	tip = "后宅还没有添加休息的角色,<color=#92fc63>食物将不会消耗</color>"
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
@@ -4948,6 +4948,10 @@ _G.pg.base.gametip.word_shipNation_ziyou = {
 
 _G.pg.base.gametip.word_shipNation_weixi = {
 	tip = "维希教廷"
+}
+
+_G.pg.base.gametip.word_shipNation_yuanwei = {
+	tip = "鸢尾教国"
 }
 
 _G.pg.base.gametip.word_shipNation_bili = {
@@ -9989,7 +9993,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 前卫(最多4次)"
+	tip = "霞飞、不屈、进取 建造概率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10921,7 +10925,7 @@ _G.pg.base.gametip.world_boss_help = {
 8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中获得过「贡献值」的玩家可以获得相应奖励
 9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如果活动结束时耐久未被耗尽，则会根据据点推进进度，为在演习中获得过「贡献值」的玩家发放对应进度的奖励
 10.活动期间，可以领取个人贡献奖励，个人贡献奖励需要当据点攻略进度和拥有的「贡献值」达到指定要求后才能领取
-11.1月27日维护后-2月10日维护前可以参与演习战斗，奖励领取的截止时间为2月17日维护前]]
+11.6月30日维护后-7月14日维护前可以参与演习战斗，奖励领取的截止时间为7月20日23:59:59]]
 		},
 		{
 			info = [[
@@ -20613,4 +20617,8 @@ _G.pg.base.gametip.commission_event_tip = {
 5.活动商店中部分道具需要达成解锁条件方可进行兑换]]
 		}
 	}
+}
+
+_G.pg.base.gametip.rename_input = {
+	tip = "输入名称"
 }

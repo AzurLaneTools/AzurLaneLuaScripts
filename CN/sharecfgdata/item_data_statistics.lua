@@ -5546,7 +5546,7 @@ _G.pg.base.item_data_statistics[11050] = {
 	display = "五联装533mm鱼雷Mk17T0设计图",
 	name = "五联装533mm鱼雷Mk17T0设计图",
 	max_num = 0,
-	type = 0,
+	type = 9,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -5578,6 +5578,27 @@ _G.pg.base.item_data_statistics[11051] = {
 	id = 11051,
 	is_world = 0,
 	icon = "Equips/27320",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[11052] = {
+	display = "BR.810舰载机设计图 ",
+	name = "BR.810舰载机设计图 ",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11052,
+	is_world = 0,
+	icon = "Equips/51240",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -13951,6 +13972,121 @@ _G.pg.base.item_data_statistics[30334] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30335] = {
+	display = "可以获得一件随机的童话世界风格外观装备",
+	name = "外观装备箱(童话世界)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30335,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghua",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "可以随机获得一件本次世界巡游限定外观装备",
 	name = "外观装备箱(世界巡游)",
@@ -14656,6 +14792,118 @@ _G.pg.base.item_data_statistics[30505] = {
 		{
 			9,
 			157,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30506] = {
+	display = "使用后可从「童话世界」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(童话世界)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30506,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghuazixuan",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
 			1
 		}
 	},
@@ -164040,6 +164288,147 @@ _G.pg.base.item_data_statistics[58608] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58609] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58609,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			81,
+			1
+		},
+		{
+			2,
+			82,
+			1
+		},
+		{
+			2,
+			43,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58610] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58610,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10103,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58611] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58611,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		},
+		{
+			2,
+			11052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "参与角色将获得经验值",
 	name = "角色经验",
@@ -168381,6 +168770,69 @@ _G.pg.base.item_data_statistics[59322] = {
 	id = 59322,
 	is_world = 0,
 	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59323] = {
+	display = "参与『来自鸢尾的天使』获得的点数，累计一定程度可以领取报酬",
+	name = "贡献值",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59323,
+	is_world = 0,
+	icon = "Props/joffre_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59324] = {
+	display = "参与『来自鸢尾的天使』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	name = "特别挑战券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59324,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59325] = {
+	display = "用于『限时体验商店』兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59325,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},

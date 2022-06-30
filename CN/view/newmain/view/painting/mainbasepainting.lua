@@ -32,6 +32,8 @@ function slot0.IsLoaded(slot0)
 end
 
 function slot0.Load(slot0, slot1, slot2)
+	slot0.isPuase = false
+	slot0.isExited = false
 	slot0.state = uv0
 	slot0.ship = slot1
 	slot0.paintingName = slot1:getPainting()

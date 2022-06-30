@@ -2231,7 +2231,7 @@ pg.memory_group = {
 	},
 	[203] = {
 		icon = "title_event",
-		subtype = 2,
+		subtype = 1,
 		type = 2,
 		id = 203,
 		title = "杰诺瓦的焰火",
@@ -2620,6 +2620,37 @@ pg.memory_group = {
 			2168,
 			2169,
 			2170
+		}
+	},
+	[220] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 220,
+		title = "童话森林奇遇记",
+		memories = {
+			2181,
+			2182,
+			2183,
+			2184,
+			2185,
+			2186
+		}
+	},
+	[221] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 221,
+		title = "来自鸢尾的天使",
+		memories = {
+			2191,
+			2192,
+			2193,
+			2194,
+			2195,
+			2196,
+			2197
 		}
 	},
 	[501] = {
@@ -3928,6 +3959,8 @@ pg.memory_group = {
 		217,
 		218,
 		219,
+		220,
+		221,
 		501,
 		502,
 		503,

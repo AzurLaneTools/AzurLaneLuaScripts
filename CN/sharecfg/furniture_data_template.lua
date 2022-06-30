@@ -925,9 +925,46 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[27] = {
+		spine_extra = "",
+		describe = "特殊家具：霞飞级航空母舰1:100舰船模型",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "xiafeiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "霞飞级船模",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "chuanmo/xiafei",
+		canputon = 0,
+		id = 27,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[101] = {
 		spine_extra = "",
-		describe = "内测期间完成指定任务，由司令部发放的荣耀之证\n<color=#ffde38>——纪念在2017.4.18—4.26的光荣作战</color>",
+		describe = "内测期间完成指定任务，由司令部发放的荣耀之证\n<color=#fcae33>——纪念在2017.4.18—4.26的光荣作战</color>",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -1038,7 +1075,7 @@ pg.furniture_data_template = {
 	},
 	[104] = {
 		spine_extra = "",
-		describe = "白鹰第23驱逐舰中队\n<color=#ffde38>全体小海狸，保持31节匀速前进！——查尔斯·奥斯本</color>",
+		describe = "白鹰第23驱逐舰中队\n<color=#fcae33>全体小海狸，保持31节匀速前进！——查尔斯·奥斯本</color>",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -1112,7 +1149,7 @@ pg.furniture_data_template = {
 	},
 	[106] = {
 		spine_extra = "",
-		describe = "遗落在「异色格」作战最终战场的陈旧勋章，经指挥部回收后，赠与一部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到铁血众人的执念与意志\n\t\t\t<color=#ffde38>——纪念于2017年夏参与的异色格作战中获得的最高荣誉</color>",
+		describe = "遗落在「异色格」作战最终战场的陈旧勋章，经指挥部回收后，赠与一部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到铁血众人的执念与意志\n\t\t\t<color=#fcae33>——纪念于2017年夏参与的异色格作战中获得的最高荣誉</color>",
 		gain_by = "异色格作战",
 		type = 7,
 		dir = 0,
@@ -1368,7 +1405,7 @@ pg.furniture_data_template = {
 	},
 	[112] = {
 		spine_extra = "",
-		describe = "遗落在塞壬的试验场中，由“红染的参访者”们回收的陈旧勋章，经过处理后，赠予部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到重樱众人的信念与意志\n\t\t\t<color=#ffde38>——纪念参与特殊作战中获得的最高荣誉</color>",
+		describe = "遗落在塞壬的试验场中，由“红染的参访者”们回收的陈旧勋章，经过处理后，赠予部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到重樱众人的信念与意志\n\t\t\t<color=#fcae33>——纪念参与特殊作战中获得的最高荣誉</color>",
 		gain_by = "红染的参访者",
 		type = 7,
 		dir = 0,
@@ -1554,7 +1591,7 @@ pg.furniture_data_template = {
 	},
 	[117] = {
 		spine_extra = "",
-		describe = "遗落在战火燃烧的废墟中，经指挥部回收后，赠与部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到白鹰众人们的坚定意志\n\t\t\t<color=#ffde38>——参与坠落之翼作战的最高荣誉</color>",
+		describe = "遗落在战火燃烧的废墟中，经指挥部回收后，赠与部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到白鹰众人们的坚定意志\n\t\t\t<color=#fcae33>——参与坠落之翼作战的最高荣誉</color>",
 		gain_by = "坠落之翼",
 		type = 7,
 		dir = 0,
@@ -2625,7 +2662,7 @@ pg.furniture_data_template = {
 	},
 	[141] = {
 		spine_extra = "",
-		describe = "「作为彻底净化虚拟空间的谢礼，请收下这个绊爱特制晃悠悠1:1比例纪念章，从今往后也请多关照了~」\n\t\t\t<color=#ffde38>——绊爱</color>",
+		describe = "「作为彻底净化虚拟空间的谢礼，请收下这个绊爱特制晃悠悠1:1比例纪念章，从今往后也请多关照了~」\n\t\t\t<color=#fcae33>——绊爱</color>",
 		gain_by = "虚拟链接的共时性",
 		type = 7,
 		dir = 0,
@@ -3322,7 +3359,7 @@ pg.furniture_data_template = {
 	},
 	[157] = {
 		spine_extra = "",
-		describe = "“指挥官大人，不论是碧蓝航线还是hololive，从今往后也请多多关照哦~” <color=#ffde38>——「虚拟与真实的双向镜」活动纪念</color>",
+		describe = "“指挥官大人，不论是碧蓝航线还是hololive，从今往后也请多多关照哦~” <color=#fcae33>——「虚拟与真实的双向镜」活动纪念</color>",
 		gain_by = "虚拟与真实的双向镜",
 		type = 7,
 		dir = 0,
@@ -4503,7 +4540,7 @@ pg.furniture_data_template = {
 	},
 	[187] = {
 		spine_extra = "",
-		describe = "“与指挥官，还有大家共同经历了一段很有趣的时光呢~之后也请多指教了哦~” <color=#ffde38>——「假日航线」活动纪念</color>",
+		describe = "“与指挥官，还有大家共同经历了一段很有趣的时光呢~之后也请多指教了哦~” <color=#fcae33>——「假日航线」活动纪念</color>",
 		gain_by = "假日航线",
 		type = 7,
 		dir = 0,
@@ -8765,6 +8802,86 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100039] = {
+		spine_extra = "",
+		describe = "炎炎夏日必备良品！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "啾啾电风扇",
+		themeId = 0,
+		icon = "jiujiufengshanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100039,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiujiufengshanB",
+				"normal"
+			},
+			{
+				"jiujiufengshanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -107556,7 +107673,7 @@ pg.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		themeId = 89,
-		belong = 1,
+		belong = 0,
 		is_3d_obj = 0,
 		count = 1,
 		tag = 4,
@@ -107590,13 +107707,13 @@ pg.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		themeId = 89,
-		belong = 1,
+		belong = 0,
 		is_3d_obj = 0,
 		count = 1,
 		tag = 3,
 		size = "",
 		deblocking = 1,
-		level = 1,
+		level = 5,
 		name = "东煌时尚墙纸",
 		effect = "",
 		advice = 0,
@@ -108818,6 +108935,998 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[90001] = {
+		spine_extra = "",
+		describe = "洋溢着幻想色彩的奇妙森林～",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "童话之森地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanthicon",
+		spine_action_replace = "",
+		picture = "th/dibanth",
+		comfortable = 4,
+		canputon = 0,
+		id = 90001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90002] = {
+		spine_extra = "",
+		describe = "洋溢着幻想色彩的奇妙森林～",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "童话之森墙纸",
+		effect = "",
+		advice = 0,
+		icon = "qiangbithicon",
+		spine_action_replace = "",
+		picture = "th/qiangbith",
+		comfortable = 4,
+		canputon = 0,
+		id = 90002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90101] = {
+		spine_extra = "",
+		describe = "这是…可食用的吗？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baimoguthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "白蘑菇群",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/baimoguth",
+		canputon = 0,
+		id = 90101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90102] = {
+		spine_extra = "",
+		describe = "这是…可食用的吗？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baimogu2thicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "白蘑菇",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/baimogu2th",
+		canputon = 0,
+		id = 90102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90103] = {
+		spine_extra = "",
+		describe = "拔萝卜呀拔萝卜～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "daluobothicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "大萝卜",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/daluoboth",
+		canputon = 0,
+		id = 90103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90104] = {
+		spine_extra = "",
+		describe = "能在天空中翱翔的蓝色鲸鱼。",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "幻想蓝鲸",
+		themeId = 90,
+		icon = "feitianjingyuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 90104,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feitianjingyuth",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[90105] = {
+		spine_extra = "",
+		describe = "风车咕噜咕噜转～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fengchethicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "童话风车",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/fengcheth",
+		canputon = 0,
+		id = 90105,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90106] = {
+		spine_extra = "",
+		describe = "色彩艳丽的红色蘑菇",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hongmoguthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "红蘑菇",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/hongmoguth",
+		canputon = 0,
+		id = 90106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90107] = {
+		spine_extra = "",
+		describe = "为幽暗森林带来星点光明",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "hualudengthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "路灯花",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/hualudength",
+		canputon = 0,
+		id = 90107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90111] = {
+		spine_extra = "",
+		describe = "散发着淡淡幽光。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hudiecongthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蝴蝶丛",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/hudiecongth",
+		canputon = 0,
+		id = 90111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90112] = {
+		spine_extra = "",
+		describe = "树上似乎趴着什么……？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jushuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "幻想巨树",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "th/jushuth",
+		canputon = 0,
+		id = 90112,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90113] = {
+		spine_extra = "",
+		describe = "嘿咻，休息一下吧～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 90,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "mogudengthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蘑菇凳",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/mogudength",
+		canputon = 0,
+		id = 90113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					7.8,
+					38.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90116] = {
+		spine_extra = "",
+		describe = "屋里住着谁呢～？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "moguwuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蘑菇屋",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/moguwuth",
+		canputon = 0,
+		id = 90116,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90117] = {
+		spine_extra = "",
+		describe = "快上车，舞会就要开始了！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "梦幻南瓜车",
+		themeId = 90,
+		icon = "nanguachethicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 90117,
+		can_rotate = 0,
+		size = {
+			5,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"nanguachethB",
+				"normal"
+			},
+			{
+				"nanguachethT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					1.1,
+					-1.6
+				},
+				{
+					110,
+					140
+				},
+				"th/nanguacheth_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[90118] = {
+		spine_extra = "",
+		describe = "没有什么特殊的，就是石块而已。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shitouthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "路边石块",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/shitouth",
+		canputon = 0,
+		id = 90118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90119] = {
+		spine_extra = "",
+		describe = "孩子们的快乐梦想～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuwuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "幻想树屋",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/shuwuth",
+		canputon = 0,
+		id = 90119,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90120] = {
+		spine_extra = "",
+		describe = "通往森林的深处——",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "suishiluthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "碎石路",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/suishiluth",
+		canputon = 0,
+		id = 90120,
+		can_rotate = 0,
+		size = {
+			24,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90121] = {
+		spine_extra = "",
+		describe = "要迟到了要迟到了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tuzithicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "白兔先生?",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/tuzith",
+		canputon = 0,
+		id = 90121,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90122] = {
+		spine_extra = "",
+		describe = "魔法变变变啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiannvjiuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "仙女啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/xiannvjiuth",
+		canputon = 0,
+		id = 90122,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90123] = {
+		spine_extra = "",
+		describe = "不知道奶奶怎么样…啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaohongmaojiuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "小红帽啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/xiaohongmaojiuth",
+		canputon = 0,
+		id = 90123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90124] = {
+		spine_extra = "",
+		describe = "美味的萝卜！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaoluobothicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "小萝卜",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/xiaoluoboth",
+		canputon = 0,
+		id = 90124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90125] = {
+		spine_extra = "",
+		describe = "美味的萝卜！好多个！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaoluobosanlianthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "小萝卜群",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/xiaoluobosanlianth",
+		canputon = 0,
+		id = 90125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90127] = {
+		spine_extra = "",
+		describe = "岸边长着各种奇妙的蘑菇和野草～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaoxithicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "童话小溪",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/xiaoxith",
+		canputon = 0,
+		id = 90127,
+		can_rotate = 0,
+		size = {
+			14,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90128] = {
+		spine_extra = "",
+		describe = "呼噜噜…呼噜噜…Zzzz",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 90,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiongthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "瞌睡的大熊",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/xiongth",
+		canputon = 0,
+		id = 90128,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-3.6,
+					72
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -108845,6 +109954,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			101,
 			102,
 			103,
@@ -108982,6 +110092,7 @@ pg.furniture_data_template = {
 			100036,
 			100037,
 			100038,
+			100039,
 			200001,
 			200002,
 			200003,
@@ -109034,6 +110145,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			101,
 			102,
 			103,
@@ -109171,6 +110283,7 @@ pg.furniture_data_template = {
 			100036,
 			100037,
 			100038,
+			100039,
 			200001,
 			200002,
 			200003,
@@ -113882,6 +114995,56 @@ pg.furniture_data_template = {
 			89307,
 			89308,
 			89309
+		},
+		[90] = {
+			90001,
+			90002,
+			90101,
+			90102,
+			90103,
+			90104,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90117,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128,
+			90001,
+			90002,
+			90101,
+			90102,
+			90103,
+			90104,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90117,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
 		}
 	},
 	get_id_list_by_tag = {
@@ -115419,7 +116582,27 @@ pg.furniture_data_template = {
 			89122,
 			89123,
 			89124,
-			89125
+			89125,
+			90101,
+			90102,
+			90103,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
 		},
 		{
 			1108,
@@ -115629,6 +116812,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			101,
 			102,
 			103,
@@ -115767,6 +116951,7 @@ pg.furniture_data_template = {
 			100036,
 			100037,
 			100038,
+			100039,
 			31101,
 			54101,
 			54102,
@@ -115905,7 +117090,9 @@ pg.furniture_data_template = {
 			85126,
 			86122,
 			88126,
-			89126
+			89126,
+			90104,
+			90117
 		},
 		[4] = {
 			1001,
@@ -115985,7 +117172,8 @@ pg.furniture_data_template = {
 			86001,
 			87001,
 			88001,
-			89001
+			89001,
+			90001
 		},
 		[3] = {
 			1002,
@@ -116065,7 +117253,8 @@ pg.furniture_data_template = {
 			86002,
 			87002,
 			88002,
-			89002
+			89002,
+			90002
 		},
 		[5] = {
 			1301,
@@ -116432,7 +117621,8 @@ pg.furniture_data_template = {
 			86002,
 			87002,
 			88002,
-			89002
+			89002,
+			90002
 		},
 		[7] = {
 			1,
@@ -116460,6 +117650,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			101,
 			102,
 			103,
@@ -116571,7 +117762,8 @@ pg.furniture_data_template = {
 			100033,
 			100035,
 			100036,
-			100038
+			100038,
+			100039
 		},
 		[2] = {
 			120,
@@ -118096,7 +119288,26 @@ pg.furniture_data_template = {
 			89122,
 			89123,
 			89124,
-			89125
+			89125,
+			90101,
+			90102,
+			90103,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90118,
+			90119,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
 		},
 		[11] = {
 			131,
@@ -118130,7 +119341,9 @@ pg.furniture_data_template = {
 			77119,
 			84184,
 			84185,
-			84186
+			84186,
+			90104,
+			90117
 		},
 		[14] = {
 			214,
@@ -118224,7 +119437,8 @@ pg.furniture_data_template = {
 			86001,
 			87001,
 			88001,
-			89001
+			89001,
+			90001
 		},
 		[5] = {
 			1101,
@@ -118348,7 +119562,8 @@ pg.furniture_data_template = {
 			87116,
 			88103,
 			89106,
-			89107
+			89107,
+			90120
 		},
 		[3] = {
 			1108,
@@ -118862,6 +120077,7 @@ pg.furniture_data_template = {
 		24,
 		25,
 		26,
+		27,
 		101,
 		102,
 		103,
@@ -119001,6 +120217,7 @@ pg.furniture_data_template = {
 		100036,
 		100037,
 		100038,
+		100039,
 		200001,
 		200002,
 		200003,
@@ -121289,6 +122506,30 @@ pg.furniture_data_template = {
 		89303,
 		89307,
 		89308,
-		89309
+		89309,
+		90001,
+		90002,
+		90101,
+		90102,
+		90103,
+		90104,
+		90105,
+		90106,
+		90107,
+		90111,
+		90112,
+		90113,
+		90116,
+		90117,
+		90118,
+		90119,
+		90120,
+		90121,
+		90122,
+		90123,
+		90124,
+		90125,
+		90127,
+		90128
 	}
 }

@@ -5745,6 +5745,29 @@ function temp()
 	uv0["不"] = {
 		["挠"] = {
 			this = true
+		},
+		["屈"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["进"] = {
+		["取"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["霞"] = {
+		["飞"] = {
+			this = true
 		}
 	}
 end

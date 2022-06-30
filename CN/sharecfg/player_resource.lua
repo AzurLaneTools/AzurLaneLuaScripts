@@ -825,6 +825,11 @@ pg.player_resource = {
 		name = "commission_pt",
 		itemid = 59322
 	},
+	[267] = {
+		id = 267,
+		name = "skinTicket34",
+		itemid = 59325
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -914,6 +919,16 @@ pg.player_resource = {
 		id = 2011,
 		name = "worldboss127_ticket",
 		itemid = 59266
+	},
+	[2012] = {
+		id = 2012,
+		name = "contribution_worldboss630",
+		itemid = 59323
+	},
+	[2013] = {
+		id = 2013,
+		name = "worldboss630_ticket",
+		itemid = 59324
 	},
 	[3000] = {
 		id = 3000,
@@ -1511,6 +1526,9 @@ pg.player_resource = {
 		commission_pt = {
 			266
 		},
+		skinTicket34 = {
+			267
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1564,6 +1582,12 @@ pg.player_resource = {
 		},
 		worldboss127_ticket = {
 			2011
+		},
+		contribution_worldboss630 = {
+			2012
+		},
+		worldboss630_ticket = {
+			2013
 		},
 		guild_boss_damage = {
 			3000
@@ -1792,6 +1816,7 @@ pg.player_resource = {
 		264,
 		265,
 		266,
+		267,
 		950,
 		951,
 		952,
@@ -1810,6 +1835,8 @@ pg.player_resource = {
 		2009,
 		2010,
 		2011,
+		2012,
+		2013,
 		3000,
 		3001,
 		3002,

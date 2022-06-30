@@ -62,6 +62,8 @@ slot0.InsertInheritedAttr(ys.Battle.BattleConfig.SHIP_TYPE_ACCURACY_ENHANCE)
 
 slot0.TAG_EHC_KEY = "DMG_TAG_EHC_"
 slot0.FROM_TAG_EHC_KEY = "DMG_FROM_TAG_"
+slot0.TAG_CRI_EHC_KEY = "CRI_TAG_EHC_"
+slot0.TAG_CRIDMG_EHC_KEY = "CRIDMG_TAG_EHC_"
 slot0.ATTACK_ATTR_TYPE = {
 	[slot1.WeaponDamageAttr.CANNON] = "cannonPower",
 	[slot1.WeaponDamageAttr.TORPEDO] = "torpedoPower",
@@ -385,6 +387,12 @@ function slot0.SetAircraftAttFromMother(slot0, slot1)
 		end
 	end
 
+	for slot7, slot8 in pairs(slot3) do
+		if string.find(slot7, uv0.TAG_CRI_EHC_KEY) then
+			slot2[slot7] = slot8
+		end
+	end
+
 	slot2.armorType = 0
 	slot2.velocity = uv0.GetCurrent(slot1, "baseVelocity")
 	slot2.labelTag = setmetatable({}, {
@@ -536,4 +544,40 @@ function slot0.GetTagAttr(slot0, slot1, slot2)
 	end
 
 	return slot5
+end
+
+function slot0.GetTagAttrCri(slot0, slot1)
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot1:GetLabelTag()) do
+		slot3[uv0.TAG_CRI_EHC_KEY .. slot8] = true
+	end
+
+	slot4 = 0
+
+	for slot8, slot9 in pairs(slot3) do
+		if uv0.GetCurrent(slot0, slot8) ~= 0 then
+			slot4 = slot4 + slot10
+		end
+	end
+
+	return slot4
+end
+
+function slot0.GetTagAttrCriDmg(slot0, slot1)
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot1:GetLabelTag()) do
+		slot3[uv0.TAG_CRIDMG_EHC_KEY .. slot8] = true
+	end
+
+	slot4 = 0
+
+	for slot8, slot9 in pairs(slot3) do
+		if uv0.GetCurrent(slot0, slot8) ~= 0 then
+			slot4 = slot4 + slot10
+		end
+	end
+
+	return slot4
 end

@@ -230,6 +230,7 @@ slot0.BuffEffectType = {
 	ON_BUFF_REMOVED = "onBuffRemoved",
 	ON_BULLET_CREATE = "onBulletCreate",
 	ON_TORPEDO_BULLET_CREATE = "onTorpedoWeaponBulletCreate",
+	ON_AIRCRAFT_CREATE = "onAircraftCreate",
 	ON_INTERNAL_BULLET_CREATE = "onInternalBulletCreate",
 	ON_MANUAL_BULLET_CREATE = "onManualBulletCreate",
 	ON_BOMB_BULLET_BANG = "onBombBulletBang",

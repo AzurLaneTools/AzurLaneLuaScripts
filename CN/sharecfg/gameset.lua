@@ -1887,7 +1887,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 261
+		key_value = 267
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2536,7 +2536,7 @@ pg.gameset = {
 		key_value = 43200
 	},
 	naval_academy_theme = {
-		description = "spring",
+		description = "summer",
 		key_value = 0
 	},
 	package_lv = {

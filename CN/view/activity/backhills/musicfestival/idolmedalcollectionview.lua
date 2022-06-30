@@ -166,6 +166,9 @@ function slot0.updateAfterSubmit(slot0, slot1)
 	slot0:checkAward()
 end
 
+function slot0.UpdateActivity(slot0)
+end
+
 function slot0.caculateActivatable(slot0, slot1)
 	slot3 = 0
 

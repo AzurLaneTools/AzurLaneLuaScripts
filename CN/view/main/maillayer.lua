@@ -350,31 +350,8 @@ function slot0.setAttachment(slot0, slot1, slot2, slot3)
 		count = slot2.count
 	})
 	onButton(slot0, slot1, function ()
-		if uv0.dropType == DROP_TYPE_RESOURCE or uv0.dropType == DROP_TYPE_ITEM or uv0.dropType == DROP_TYPE_VITEM or uv0.dropType == DROP_TYPE_SHIP then
-			uv1:emit(uv2.ON_DROP, {
-				type = uv0.dropType,
-				id = uv0.id,
-				count = uv0.count
-			})
-		elseif uv0.dropType == DROP_TYPE_FURNITURE then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = true,
-				content = "",
-				yesText = "text_confirm",
-				type = MSGBOX_TYPE_SINGLE_ITEM,
-				drop = {
-					type = DROP_TYPE_FURNITURE,
-					id = uv0.id,
-					cfg = pg.furniture_data_template[uv0.id]
-				}
-			})
-		elseif uv0.dropType == DROP_TYPE_EQUIP then
-			uv1:emit(uv2.ON_EQUIPMENT, {
-				equipmentId = uv0.id,
-				type = EquipmentInfoMediator.TYPE_DISPLAY
-			})
-		end
-	end)
+		uv0:emit(uv1.ON_DROP, uv2)
+	end, SFX_PANEl)
 end
 
 function slot0.updateMail(slot0, slot1)

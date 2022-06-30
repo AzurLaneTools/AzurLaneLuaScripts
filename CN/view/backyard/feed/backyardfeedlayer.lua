@@ -177,6 +177,10 @@ function slot0.InitFoods(slot0)
 	end
 
 	seriesAsync(slot2, function ()
+		if uv0.exited then
+			return
+		end
+
 		uv0:UpdateCards()
 	end)
 end

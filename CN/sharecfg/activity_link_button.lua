@@ -66,24 +66,29 @@ pg.activity_link_button = {
 	[30] = {
 		param = "0",
 		name = "event_boss",
-		time = "stop",
-		text_pic = "text_event_boss",
 		type = 0,
-		pic = "event_boss",
+		text_pic = "text_event_boss",
 		id = 30,
 		group_id = 4,
-		order = 1
+		pic = "event_boss",
+		order = 1,
+		time = {
+			"default",
+			4435
+		}
 	},
 	[40] = {
 		param = "0",
 		name = "event_escort",
-		time = "stop",
-		text_pic = "text_event_escort",
 		type = 0,
-		pic = "event_escort",
+		text_pic = "text_event_escort",
 		id = 40,
 		group_id = 5,
-		order = 1
+		pic = "event_escort",
+		order = 1,
+		time = {
+			"default"
+		}
 	},
 	[60] = {
 		param = "0",

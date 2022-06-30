@@ -115,8 +115,8 @@ function slot0.AddTimer(slot0)
 		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
 			uv1:RemoveTimer()
 			uv1:OnTimeOut()
-		elseif uv1.timerTF.text ~= tostring(math.floor(slot0 / 86400)) then
-			uv1.timerTF.text = string.format("%02d", math.floor(slot0 / 86400))
+		elseif uv1.timerTF.text ~= tostring(1 + math.floor((slot0 - 1) / 86400)) then
+			uv1.timerTF.text = string.format("%02d", 1 + math.floor((slot0 - 1) / 86400))
 		end
 	end, 1, -1)
 

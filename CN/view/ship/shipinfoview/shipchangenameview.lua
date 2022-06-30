@@ -15,6 +15,7 @@ function slot0.OnInit(slot0)
 	slot1 = slot0._renamePanel
 	slot0._renameCloseBtn = slot1:Find("frame/close_btn")
 
+	setText(findTF(slot0._tf, "frame/name_field/Placeholder"), i18n("rename_input"))
 	onButton(slot0, slot0._renameConfirmBtn, function ()
 		uv0:emit(ShipMainMediator.RENAME_SHIP, uv0:GetShipVO().id, getInputText(findTF(uv0._renamePanel, "frame/name_field")))
 	end, SFX_CONFIRM)

@@ -1,119 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
-	[102290] = {
-		ship_group = 10229,
-		name = "{namecode:197}",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 102290,
-		group_index = 0,
-		prefab = "boyixi",
-		painting = "boyixi",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "布鲁克林级轻巡洋舰—{namecode:197}，舷号CL-47",
-		voice_actor = 276,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.07,
-					1.13,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.05,
-					1.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.06,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.7,
-							2.34,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102291] = {
 		ship_group = 10229,
 		name = "羞怯的蓝宝石",
@@ -9365,6 +9251,270 @@ pg.ship_skin_template_3 = {
 							-0.589,
 							2.301,
 							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107010] = {
+		ship_group = 10701,
+		name = "兰利",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 107010,
+		group_index = 0,
+		prefab = "lanli",
+		painting = "lanli",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "兰利级航空母舰—兰利，舷号CV-1",
+		voice_actor = 50,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.38,
+					0.71,
+					-0.41
+				}
+			},
+			vicegun = {
+				{
+					0.38,
+					0.71,
+					-0.41
+				}
+			},
+			antiaircraft = {
+				{
+					-0.545,
+					0.636,
+					0
+				},
+				{
+					0.681,
+					0.704,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.545,
+					0.636,
+					0
+				},
+				{
+					0.681,
+					0.704,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.709,
+							0.36,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.607,
+							0.473,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107019] = {
+		ship_group = 10701,
+		name = "兰利.改",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 107019,
+		group_index = 9,
+		prefab = "lanli_g",
+		painting = "lanli_g",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9997,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "不认真听讲的话，下场就是我脚下的这个~",
+		voice_actor = 50,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.751,
+					0.47,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.751,
+					0.47,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.751,
+					0.47,
+					0
+				}
+			},
+			plane = {
+				{
+					0.751,
+					0.47,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							0.52,
+							-0.03
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2,
+							-0.88
 						}
 					}
 				}
