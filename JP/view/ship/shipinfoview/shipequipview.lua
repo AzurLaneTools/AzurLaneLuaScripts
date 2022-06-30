@@ -262,6 +262,13 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 
 			if slot24 == 5 then
 				setText(slot26:Find("values/value"), "")
+
+				slot28 = getSkillName(slot18)
+
+				if PLATFORM_CODE == PLATFORM_US and string.len(slot28) > 15 then
+					GetComponent(slot26:Find("values/value_1"), typeof(Text)).fontSize = 24
+				end
+
 				setText(slot26:Find("values/value_1"), getSkillName(slot18))
 				setActive(slot27, false)
 			elseif #slot17 > 0 then
