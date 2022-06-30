@@ -102,6 +102,12 @@ pg.skin_page_template = {
 		res = "xixuegui",
 		english_name = "VAMPIRE NIGHT"
 	},
+	[19] = {
+		id = 19,
+		name = "梦幻童话",
+		res = "tonghua",
+		english_name = "FAIRYTALE"
+	},
 	[9997] = {
 		id = 9997,
 		name = "改造",
@@ -138,6 +144,7 @@ pg.skin_page_template = {
 		16,
 		17,
 		18,
+		19,
 		9997,
 		9998,
 		9999

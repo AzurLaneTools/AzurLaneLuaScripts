@@ -28799,6 +28799,558 @@ _G.pg.base.aircraft_template[61026] = {
 	}
 }
 
+_G.pg.base.aircraft_template[62141] = {
+	attack_power = 2,
+	name = "霞飞战斗机弹幕Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "D790",
+	ACC_growth = 0,
+	crash_DMG = 160,
+	dodge = 0.333,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 62141,
+	icon = "D790",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 1785,
+	speed = 50,
+	max_hp = 46,
+	scale = 1,
+	weapon_ID = {
+		62151
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[62142] = {
+	id = 62142,
+	name = "霞飞战斗机弹幕Lv2",
+	hp_growth = 2018,
+	base = 62141,
+	max_hp = 52,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62152
+	}
+}
+
+_G.pg.base.aircraft_template[62143] = {
+	id = 62143,
+	name = "霞飞战斗机弹幕Lv3",
+	hp_growth = 2251,
+	base = 62141,
+	max_hp = 59,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62153
+	}
+}
+
+_G.pg.base.aircraft_template[62144] = {
+	id = 62144,
+	name = "霞飞战斗机弹幕Lv4",
+	hp_growth = 2484,
+	base = 62141,
+	max_hp = 65,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62154
+	}
+}
+
+_G.pg.base.aircraft_template[62145] = {
+	id = 62145,
+	name = "霞飞战斗机弹幕Lv5",
+	hp_growth = 2717,
+	base = 62141,
+	max_hp = 71,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62155
+	}
+}
+
+_G.pg.base.aircraft_template[62146] = {
+	id = 62146,
+	name = "霞飞战斗机弹幕Lv6",
+	hp_growth = 2949,
+	base = 62141,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62156
+	}
+}
+
+_G.pg.base.aircraft_template[62147] = {
+	id = 62147,
+	name = "霞飞战斗机弹幕Lv7",
+	hp_growth = 3182,
+	base = 62141,
+	max_hp = 83,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62157
+	}
+}
+
+_G.pg.base.aircraft_template[62148] = {
+	id = 62148,
+	name = "霞飞战斗机弹幕Lv8",
+	hp_growth = 3415,
+	base = 62141,
+	max_hp = 89,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62158
+	}
+}
+
+_G.pg.base.aircraft_template[62149] = {
+	id = 62149,
+	name = "霞飞战斗机弹幕Lv9",
+	hp_growth = 3648,
+	base = 62141,
+	max_hp = 95,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62159
+	}
+}
+
+_G.pg.base.aircraft_template[62150] = {
+	id = 62150,
+	name = "霞飞战斗机弹幕Lv10",
+	hp_growth = 3881,
+	base = 62141,
+	max_hp = 101,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62160
+	}
+}
+
+_G.pg.base.aircraft_template[62161] = {
+	attack_power = 2,
+	name = "霞飞鱼雷机弹幕Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "LN401",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 62161,
+	icon = "LN401",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 1404,
+	speed = 46,
+	max_hp = 37,
+	scale = 1,
+	weapon_ID = {
+		62171
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[62162] = {
+	id = 62162,
+	name = "霞飞鱼雷机弹幕Lv2",
+	hp_growth = 1615,
+	base = 62161,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62172
+	}
+}
+
+_G.pg.base.aircraft_template[62163] = {
+	id = 62163,
+	name = "霞飞鱼雷机弹幕Lv3",
+	hp_growth = 1826,
+	base = 62161,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62173
+	}
+}
+
+_G.pg.base.aircraft_template[62164] = {
+	id = 62164,
+	name = "霞飞鱼雷机弹幕Lv4",
+	hp_growth = 2036,
+	base = 62161,
+	max_hp = 53,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62174
+	}
+}
+
+_G.pg.base.aircraft_template[62165] = {
+	id = 62165,
+	name = "霞飞鱼雷机弹幕Lv5",
+	hp_growth = 2247,
+	base = 62161,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62175
+	}
+}
+
+_G.pg.base.aircraft_template[62166] = {
+	id = 62166,
+	name = "霞飞鱼雷机弹幕Lv6",
+	hp_growth = 2458,
+	base = 62161,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62176
+	}
+}
+
+_G.pg.base.aircraft_template[62167] = {
+	id = 62167,
+	name = "霞飞鱼雷机弹幕Lv7",
+	hp_growth = 2669,
+	base = 62161,
+	max_hp = 69,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62177
+	}
+}
+
+_G.pg.base.aircraft_template[62168] = {
+	id = 62168,
+	name = "霞飞鱼雷机弹幕Lv8",
+	hp_growth = 2879,
+	base = 62161,
+	max_hp = 75,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62178
+	}
+}
+
+_G.pg.base.aircraft_template[62169] = {
+	id = 62169,
+	name = "霞飞鱼雷机弹幕Lv9",
+	hp_growth = 3090,
+	base = 62161,
+	max_hp = 80,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62179
+	}
+}
+
+_G.pg.base.aircraft_template[62170] = {
+	id = 62170,
+	name = "霞飞鱼雷机弹幕Lv10",
+	hp_growth = 3301,
+	base = 62161,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62180
+	}
+}
+
+_G.pg.base.aircraft_template[62181] = {
+	attack_power = 2,
+	name = "霞飞隐形飞机Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 62181,
+	icon = "liefeng",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 1404,
+	speed = 60,
+	max_hp = 37,
+	scale = 1,
+	weapon_ID = {
+		62191
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[62182] = {
+	id = 62182,
+	name = "霞飞隐形飞机Lv2",
+	hp_growth = 1615,
+	base = 62181,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62192
+	}
+}
+
+_G.pg.base.aircraft_template[62183] = {
+	id = 62183,
+	name = "霞飞隐形飞机Lv3",
+	hp_growth = 1826,
+	base = 62181,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62193
+	}
+}
+
+_G.pg.base.aircraft_template[62184] = {
+	id = 62184,
+	name = "霞飞隐形飞机Lv4",
+	hp_growth = 2036,
+	base = 62181,
+	max_hp = 53,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62194
+	}
+}
+
+_G.pg.base.aircraft_template[62185] = {
+	id = 62185,
+	name = "霞飞隐形飞机Lv5",
+	hp_growth = 2247,
+	base = 62181,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62195
+	}
+}
+
+_G.pg.base.aircraft_template[62186] = {
+	id = 62186,
+	name = "霞飞隐形飞机Lv6",
+	hp_growth = 2458,
+	base = 62181,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62196
+	}
+}
+
+_G.pg.base.aircraft_template[62187] = {
+	id = 62187,
+	name = "霞飞隐形飞机Lv7",
+	hp_growth = 2669,
+	base = 62181,
+	max_hp = 69,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62197
+	}
+}
+
+_G.pg.base.aircraft_template[62188] = {
+	id = 62188,
+	name = "霞飞隐形飞机Lv8",
+	hp_growth = 2879,
+	base = 62181,
+	max_hp = 75,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62198
+	}
+}
+
+_G.pg.base.aircraft_template[62189] = {
+	id = 62189,
+	name = "霞飞隐形飞机Lv9",
+	hp_growth = 3090,
+	base = 62181,
+	max_hp = 80,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62199
+	}
+}
+
+_G.pg.base.aircraft_template[62190] = {
+	id = 62190,
+	name = "霞飞隐形飞机Lv10",
+	hp_growth = 3301,
+	base = 62181,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62200
+	}
+}
+
 _G.pg.base.aircraft_template[63051] = {
 	attack_power = 2,
 	name = "苍龙·META_轰炸机 Lv1",
@@ -56001,6 +56553,448 @@ _G.pg.base.aircraft_template[86111] = {
 	}
 }
 
+_G.pg.base.aircraft_template[86140] = {
+	attack_power = 2,
+	name = "D.790",
+	type = 1,
+	accuracy = 23,
+	model_ID = "D790",
+	ACC_growth = 0,
+	crash_DMG = 42,
+	dodge = 0.333,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 86140,
+	icon = "D790",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 1478,
+	speed = 50,
+	max_hp = 38,
+	scale = 1,
+	weapon_ID = {
+		50480,
+		50000
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[86141] = {
+	max_hp = 44,
+	hp_growth = 1700,
+	base = 86140,
+	id = 86141,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50481,
+		50001
+	}
+}
+
+_G.pg.base.aircraft_template[86142] = {
+	max_hp = 50,
+	hp_growth = 1922,
+	base = 86140,
+	id = 86142,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50482,
+		50002
+	}
+}
+
+_G.pg.base.aircraft_template[86143] = {
+	max_hp = 56,
+	hp_growth = 2144,
+	base = 86140,
+	id = 86143,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50483,
+		50003
+	}
+}
+
+_G.pg.base.aircraft_template[86144] = {
+	max_hp = 62,
+	hp_growth = 2365,
+	base = 86140,
+	id = 86144,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50484,
+		50004
+	}
+}
+
+_G.pg.base.aircraft_template[86145] = {
+	max_hp = 67,
+	hp_growth = 2587,
+	base = 86140,
+	id = 86145,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50485,
+		50005
+	}
+}
+
+_G.pg.base.aircraft_template[86146] = {
+	max_hp = 73,
+	hp_growth = 2809,
+	base = 86140,
+	id = 86146,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50486,
+		50006
+	}
+}
+
+_G.pg.base.aircraft_template[86147] = {
+	max_hp = 79,
+	hp_growth = 3031,
+	base = 86140,
+	id = 86147,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50487,
+		50007
+	}
+}
+
+_G.pg.base.aircraft_template[86148] = {
+	max_hp = 85,
+	hp_growth = 3252,
+	base = 86140,
+	id = 86148,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50488,
+		50008
+	}
+}
+
+_G.pg.base.aircraft_template[86149] = {
+	max_hp = 90,
+	hp_growth = 3474,
+	base = 86140,
+	id = 86149,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50489,
+		50009
+	}
+}
+
+_G.pg.base.aircraft_template[86150] = {
+	max_hp = 96,
+	hp_growth = 3696,
+	base = 86140,
+	id = 86150,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50490,
+		50010
+	}
+}
+
+_G.pg.base.aircraft_template[86151] = {
+	max_hp = 102,
+	hp_growth = 3918,
+	base = 86140,
+	id = 86151,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50491,
+		50011
+	}
+}
+
+_G.pg.base.aircraft_template[86160] = {
+	attack_power = 2,
+	name = "BR.810",
+	type = 2,
+	accuracy = 23,
+	model_ID = "BR810",
+	ACC_growth = 0,
+	crash_DMG = 450,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 86160,
+	icon = "BR810",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 8,
+	hp_growth = 1459,
+	speed = 52,
+	max_hp = 38,
+	scale = 1,
+	weapon_ID = {
+		50180,
+		50480
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[86161] = {
+	max_hp = 44,
+	hp_growth = 1678,
+	base = 86160,
+	id = 86161,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50181,
+		50481
+	}
+}
+
+_G.pg.base.aircraft_template[86162] = {
+	max_hp = 49,
+	hp_growth = 1897,
+	base = 86160,
+	id = 86162,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50182,
+		50482
+	}
+}
+
+_G.pg.base.aircraft_template[86163] = {
+	max_hp = 55,
+	hp_growth = 2116,
+	base = 86160,
+	id = 86163,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50183,
+		50483
+	}
+}
+
+_G.pg.base.aircraft_template[86164] = {
+	max_hp = 61,
+	hp_growth = 2335,
+	base = 86160,
+	id = 86164,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50184,
+		50484
+	}
+}
+
+_G.pg.base.aircraft_template[86165] = {
+	max_hp = 66,
+	hp_growth = 2554,
+	base = 86160,
+	id = 86165,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50185,
+		50485
+	}
+}
+
+_G.pg.base.aircraft_template[86166] = {
+	max_hp = 72,
+	hp_growth = 2772,
+	base = 86160,
+	id = 86166,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50186,
+		50486
+	}
+}
+
+_G.pg.base.aircraft_template[86167] = {
+	max_hp = 78,
+	hp_growth = 2991,
+	base = 86160,
+	id = 86167,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50187,
+		50487
+	}
+}
+
+_G.pg.base.aircraft_template[86168] = {
+	max_hp = 83,
+	hp_growth = 3210,
+	base = 86160,
+	id = 86168,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50188,
+		50488
+	}
+}
+
+_G.pg.base.aircraft_template[86169] = {
+	max_hp = 89,
+	hp_growth = 3429,
+	base = 86160,
+	id = 86169,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50189,
+		50489
+	}
+}
+
+_G.pg.base.aircraft_template[86170] = {
+	max_hp = 95,
+	hp_growth = 3648,
+	base = 86160,
+	id = 86170,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50190,
+		50490
+	}
+}
+
+_G.pg.base.aircraft_template[86171] = {
+	max_hp = 101,
+	hp_growth = 3867,
+	base = 86160,
+	id = 86171,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50191,
+		50491
+	}
+}
+
+_G.pg.base.aircraft_template[86172] = {
+	max_hp = 106,
+	hp_growth = 4086,
+	base = 86160,
+	id = 86172,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50192,
+		50492
+	}
+}
+
+_G.pg.base.aircraft_template[86173] = {
+	max_hp = 112,
+	hp_growth = 4305,
+	base = 86160,
+	id = 86173,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50193,
+		50493
+	}
+}
+
 _G.pg.base.aircraft_template[88000] = {
 	attack_power = 2,
 	name = "GL.2舰载战斗机T0",
@@ -56804,6 +57798,462 @@ _G.pg.base.aircraft_template[91211] = {
 	spawn_brownian = 1,
 	weapon_ID = {
 		52231
+	}
+}
+
+_G.pg.base.aircraft_template[91220] = {
+	attack_power = 2,
+	name = "D.790",
+	type = 1,
+	accuracy = 23,
+	model_ID = "D790",
+	ACC_growth = 0,
+	crash_DMG = 42,
+	dodge = 0.333,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 91220,
+	icon = "D790",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 1478,
+	speed = 50,
+	max_hp = 38,
+	scale = 1,
+	weapon_ID = {
+		50480,
+		50000
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[91221] = {
+	max_hp = 44,
+	hp_growth = 1700,
+	base = 91220,
+	id = 91221,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50481,
+		50001
+	}
+}
+
+_G.pg.base.aircraft_template[91222] = {
+	max_hp = 50,
+	hp_growth = 1922,
+	base = 91220,
+	id = 91222,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50482,
+		50002
+	}
+}
+
+_G.pg.base.aircraft_template[91223] = {
+	max_hp = 56,
+	hp_growth = 2144,
+	base = 91220,
+	id = 91223,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50483,
+		50003
+	}
+}
+
+_G.pg.base.aircraft_template[91224] = {
+	max_hp = 62,
+	hp_growth = 2365,
+	base = 91220,
+	id = 91224,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50484,
+		50004
+	}
+}
+
+_G.pg.base.aircraft_template[91225] = {
+	max_hp = 67,
+	hp_growth = 2587,
+	base = 91220,
+	id = 91225,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50485,
+		50005
+	}
+}
+
+_G.pg.base.aircraft_template[91226] = {
+	max_hp = 73,
+	hp_growth = 2809,
+	base = 91220,
+	id = 91226,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50486,
+		50006
+	}
+}
+
+_G.pg.base.aircraft_template[91227] = {
+	max_hp = 79,
+	hp_growth = 3031,
+	base = 91220,
+	id = 91227,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50487,
+		50007
+	}
+}
+
+_G.pg.base.aircraft_template[91228] = {
+	max_hp = 85,
+	hp_growth = 3252,
+	base = 91220,
+	id = 91228,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50488,
+		50008
+	}
+}
+
+_G.pg.base.aircraft_template[91229] = {
+	max_hp = 90,
+	hp_growth = 3474,
+	base = 91220,
+	id = 91229,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50489,
+		50009
+	}
+}
+
+_G.pg.base.aircraft_template[91230] = {
+	max_hp = 96,
+	hp_growth = 3696,
+	base = 91220,
+	id = 91230,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50490,
+		50010
+	}
+}
+
+_G.pg.base.aircraft_template[91231] = {
+	max_hp = 102,
+	hp_growth = 3918,
+	base = 91220,
+	id = 91231,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50491,
+		50011
+	}
+}
+
+_G.pg.base.aircraft_template[91240] = {
+	attack_power = 2,
+	name = "BR.810",
+	type = 2,
+	accuracy = 23,
+	model_ID = "BR810",
+	ACC_growth = 0,
+	crash_DMG = 450,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 91240,
+	icon = "BR810",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 8,
+	hp_growth = 1459,
+	speed = 52,
+	max_hp = 38,
+	scale = 1,
+	weapon_ID = {
+		50180,
+		50480,
+		51600
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[91241] = {
+	max_hp = 44,
+	hp_growth = 1678,
+	base = 91240,
+	id = 91241,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50181,
+		50481,
+		51601
+	}
+}
+
+_G.pg.base.aircraft_template[91242] = {
+	max_hp = 49,
+	hp_growth = 1897,
+	base = 91240,
+	id = 91242,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50182,
+		50482,
+		51602
+	}
+}
+
+_G.pg.base.aircraft_template[91243] = {
+	max_hp = 55,
+	hp_growth = 2116,
+	base = 91240,
+	id = 91243,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50183,
+		50483,
+		51603
+	}
+}
+
+_G.pg.base.aircraft_template[91244] = {
+	max_hp = 61,
+	hp_growth = 2335,
+	base = 91240,
+	id = 91244,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50184,
+		50484,
+		51604
+	}
+}
+
+_G.pg.base.aircraft_template[91245] = {
+	max_hp = 66,
+	hp_growth = 2554,
+	base = 91240,
+	id = 91245,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50185,
+		50485,
+		51605
+	}
+}
+
+_G.pg.base.aircraft_template[91246] = {
+	max_hp = 72,
+	hp_growth = 2772,
+	base = 91240,
+	id = 91246,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50186,
+		50486,
+		51606
+	}
+}
+
+_G.pg.base.aircraft_template[91247] = {
+	max_hp = 78,
+	hp_growth = 2991,
+	base = 91240,
+	id = 91247,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50187,
+		50487,
+		51607
+	}
+}
+
+_G.pg.base.aircraft_template[91248] = {
+	max_hp = 83,
+	hp_growth = 3210,
+	base = 91240,
+	id = 91248,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50188,
+		50488,
+		51608
+	}
+}
+
+_G.pg.base.aircraft_template[91249] = {
+	max_hp = 89,
+	hp_growth = 3429,
+	base = 91240,
+	id = 91249,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50189,
+		50489,
+		51609
+	}
+}
+
+_G.pg.base.aircraft_template[91250] = {
+	max_hp = 95,
+	hp_growth = 3648,
+	base = 91240,
+	id = 91250,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50190,
+		50490,
+		51610
+	}
+}
+
+_G.pg.base.aircraft_template[91251] = {
+	max_hp = 101,
+	hp_growth = 3867,
+	base = 91240,
+	id = 91251,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50191,
+		50491,
+		51611
+	}
+}
+
+_G.pg.base.aircraft_template[91252] = {
+	max_hp = 106,
+	hp_growth = 4086,
+	base = 91240,
+	id = 91252,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50192,
+		50492,
+		51612
+	}
+}
+
+_G.pg.base.aircraft_template[91253] = {
+	max_hp = 112,
+	hp_growth = 4305,
+	base = 91240,
+	id = 91253,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50193,
+		50493,
+		51613
 	}
 }
 
@@ -155531,6 +156981,1390 @@ _G.pg.base.aircraft_template[894403] = {
 		},
 		{
 			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[898008] = {
+	attack_power = 2,
+	name = "【2022法系共斗H】BOSS 霞飞一形态 战斗机",
+	type = 1,
+	accuracy = 50,
+	model_ID = "GL2",
+	ACC_growth = 0,
+	crash_DMG = 75,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 898008,
+	icon = "GL2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2400,
+	speed = 33,
+	max_hp = 120,
+	scale = 0.75,
+	weapon_ID = {
+		898010
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[898009] = {
+	attack_power = 2,
+	name = "【2022法系共斗H】BOSS 霞飞一形态 轰炸机",
+	type = 3,
+	accuracy = 50,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 172,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 898009,
+	icon = "v156f",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2400,
+	speed = 30,
+	max_hp = 480,
+	scale = 0.75,
+	weapon_ID = {
+		898011
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[898014] = {
+	attack_power = 2,
+	name = "【2022法系共斗H】BOSS 霞飞二形态 3way飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 100,
+	dodge = 1,
+	nationality = 3,
+	id = 898014,
+	icon = "v156f",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2400,
+	speed = 40,
+	max_hp = 500,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		898019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[898015] = {
+	attack_power = 2,
+	name = "【2022法系共斗H】BOSS 霞飞二形态 3way飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 100,
+	dodge = 1,
+	nationality = 3,
+	id = 898015,
+	icon = "v156f",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2400,
+	speed = 40,
+	max_hp = 500,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70163
+	},
+	weapon_ID = {
+		898019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[898018] = {
+	attack_power = 2,
+	name = "【2022法系共斗H】BOSS 霞飞二形态 3way飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 100,
+	dodge = 1,
+	nationality = 3,
+	id = 898018,
+	icon = "v156f",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2400,
+	speed = 40,
+	max_hp = 500,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70166
+	},
+	weapon_ID = {
+		898019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[898021] = {
+	attack_power = 2,
+	name = "【2022法系共斗H】BOSS 霞飞二形态 战斗机",
+	type = 1,
+	accuracy = 50,
+	model_ID = "GL2",
+	ACC_growth = 0,
+	crash_DMG = 75,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 898021,
+	icon = "GL2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2400,
+	speed = 33,
+	max_hp = 120,
+	scale = 0.75,
+	weapon_ID = {
+		898024
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[898022] = {
+	attack_power = 2,
+	name = "【2022法系共斗H】BOSS 霞飞二形态 轰炸机",
+	type = 3,
+	accuracy = 50,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 172,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 898022,
+	icon = "v156f",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2400,
+	speed = 30,
+	max_hp = 480,
+	scale = 0.75,
+	weapon_ID = {
+		898011
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[898023] = {
+	attack_power = 2,
+	name = "【2022法系共斗H】BOSS 霞飞二形态 鱼雷机",
+	type = 3,
+	accuracy = 50,
+	model_ID = "PL7",
+	ACC_growth = 0,
+	crash_DMG = 172,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 898023,
+	icon = "PL7",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2400,
+	speed = 30,
+	max_hp = 480,
+	scale = 0.75,
+	weapon_ID = {
+		898025
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899008] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞一形态 战斗机",
+	type = 1,
+	accuracy = 50,
+	model_ID = "GL2",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 899008,
+	icon = "GL2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 33,
+	max_hp = 120,
+	scale = 0.75,
+	weapon_ID = {
+		899010
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899009] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞一形态 轰炸机",
+	type = 3,
+	accuracy = 50,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 150,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 899009,
+	icon = "v156f",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 30,
+	max_hp = 480,
+	scale = 0.75,
+	weapon_ID = {
+		899011
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899014] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞二形态 5way飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 1,
+	nationality = 3,
+	id = 899014,
+	icon = "v156f",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 40,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		899019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899015] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞二形态 5way飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 1,
+	nationality = 3,
+	id = 899015,
+	icon = "v156f",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 40,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70163
+	},
+	weapon_ID = {
+		899019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899016] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞二形态 5way飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 1,
+	nationality = 3,
+	id = 899016,
+	icon = "v156f",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 40,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70164
+	},
+	weapon_ID = {
+		899019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899017] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞二形态 5way飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 1,
+	nationality = 3,
+	id = 899017,
+	icon = "v156f",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 40,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70165
+	},
+	weapon_ID = {
+		899019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899018] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞二形态 5way飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 1,
+	nationality = 3,
+	id = 899018,
+	icon = "v156f",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 40,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70166
+	},
+	weapon_ID = {
+		899019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899021] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞二形态 战斗机",
+	type = 1,
+	accuracy = 50,
+	model_ID = "GL2",
+	ACC_growth = 0,
+	crash_DMG = 180,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 899021,
+	icon = "GL2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 33,
+	max_hp = 120,
+	scale = 0.75,
+	weapon_ID = {
+		899024
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899022] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞二形态 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "v156f",
+	ACC_growth = 0,
+	crash_DMG = 200,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 899022,
+	icon = "v156f",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 30,
+	max_hp = 480,
+	scale = 0.75,
+	weapon_ID = {
+		899011
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[899023] = {
+	attack_power = 2,
+	name = "【2022法系共斗EX】BOSS 霞飞二形态 鱼雷机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "PL7",
+	ACC_growth = 0,
+	crash_DMG = 200,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 899023,
+	icon = "PL7",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 30,
+	max_hp = 480,
+	scale = 0.75,
+	weapon_ID = {
+		899025
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
 			0,
 			0
 		},

@@ -34,7 +34,7 @@ pg.activity_const = {
 		act_id = 10228
 	},
 	ACTIVITY_BOSS_PT_ID = {
-		act_id = 4223
+		act_id = 4437
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -635,6 +635,9 @@ pg.activity_const = {
 	},
 	DOA_MEDAL_ACT_ID = {
 		act_id = 783
+	},
+	MUSIC_FESTIVAL_MEDALCOLLECTION_2020 = {
+		act_id = 758
 	},
 	MUSIC_FESTIVAL_ID_2 = {
 		act_id = 762

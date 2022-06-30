@@ -49,7 +49,7 @@ function slot0.OnRegist(slot0)
 	end, SFX_MAIN)
 	onButton(slot0, slot0.formationBtn, function ()
 		uv0:emit(NewMainMediator.GO_SCENE, SCENE.BIANDUI, {
-			fleetId = defaultValue(uv0.contextData.fleetId, 1)
+			fleetId = 1
 		})
 	end, SFX_MAIN)
 	onButton(slot0, slot0.combatBtn, function ()

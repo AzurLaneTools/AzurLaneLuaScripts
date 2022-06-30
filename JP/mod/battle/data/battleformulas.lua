@@ -138,9 +138,9 @@ function slot0.CreateContextCalculateDamage(slot0)
 			slot31 = nil
 			slot25 = math.random(uv5.RANDOM_DAMAGE_MIN, uv5.RANDOM_DAMAGE_MAX) + slot26
 
-			if uv4.IsHappen((uv2.GetCurrent(slot0, "GCT") == 1 and 1 or uv0.DFT_CRIT_RATE + slot30 / (slot30 + slot18.dodgeRate + slot7[4]) + (slot28 + slot21) * slot7[3] + uv2.GetCurrent(slot0, "cri")) * slot6) then
+			if uv4.IsHappen((uv2.GetCurrent(slot0, "GCT") == 1 and 1 or uv0.DFT_CRIT_RATE + slot30 / (slot30 + slot18.dodgeRate + slot7[4]) + (slot28 + slot21) * slot7[3] + uv2.GetCurrent(slot0, "cri") + uv2.GetTagAttrCri(slot0, slot1)) * slot6) then
 				slot24 = true
-				slot22 = math.max(1, uv0.DFT_CRIT_EFFECT + uv2.GetCurrent(slot0, "criDamage") - uv2.GetCurrent(slot1, "criDamageResist"))
+				slot22 = math.max(1, uv0.DFT_CRIT_EFFECT + uv2.GetTagAttrCriDmg(slot0, slot1) + uv2.GetCurrent(slot0, "criDamage") - uv2.GetCurrent(slot1, "criDamageResist"))
 			else
 				slot24 = false
 			end

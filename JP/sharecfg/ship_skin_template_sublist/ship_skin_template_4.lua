@@ -1,5 +1,133 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
+	[107021] = {
+		ship_group = 10702,
+		name = "春華の歌",
+		bullet_skin_secondary = "",
+		hand_id = 9,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "102",
+		id = 107021,
+		group_index = 1,
+		prefab = "liekexingdun_2",
+		painting = "liekexingdun_2",
+		shop_id = 70154,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ふふふ、衣装を変えるだけで、与える印象がだいぶ変わる時もあるもんね。ね？指揮官～？あら、心配しなくていいわよ。あなたのレキシントンは変わらないわ～",
+		voice_actor = 26,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.63,
+					0.661,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.5,
+					0.8,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.5,
+					0.8,
+					0
+				},
+				{
+					-0.5,
+					0.8,
+					0
+				}
+			},
+			plane = {
+				{
+					0.63,
+					0.497,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.404,
+							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
 	[107030] = {
 		ship_group = 10703,
 		name = "サラトガ",
@@ -8513,122 +8641,6 @@ pg.ship_skin_template_4 = {
 						{
 							-0.57,
 							2.16,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201032] = {
-		ship_group = 20103,
-		name = "マスター・アーデント？",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "145",
-		id = 201032,
-		group_index = 2,
-		prefab = "rexin_3",
-		painting = "rexin_3",
-		shop_id = 70584,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 16,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "アーデントのゲームハウスへようこそ～皆に素晴らしいゲームの時間を提供するアーデントだよー…えへへ、実は私も、遊びながら勉強しているんだけどね♪",
-		voice_actor = 111,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.225,
-					1.188,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.216,
-					1.181,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.266,
-					1.271,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.543,
-							2.43,
 							0
 						}
 					}

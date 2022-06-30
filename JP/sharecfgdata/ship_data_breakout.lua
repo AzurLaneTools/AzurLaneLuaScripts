@@ -12627,6 +12627,73 @@ _G.pg.base.ship_data_breakout[202314] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.base.ship_data_breakout[202321] = {
+	use_gold = 500,
+	breakout_view = "全弾発射スキル習得/主砲補正+5%",
+	use_char_num = 1,
+	use_char = 20232,
+	breakout_id = 202322,
+	level = 10,
+	id = 202321,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		71191
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[202322] = {
+	use_gold = 1500,
+	breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+	use_char_num = 1,
+	use_char = 20232,
+	breakout_id = 202323,
+	level = 30,
+	id = 202322,
+	icon = "10001",
+	pre_id = 202321,
+	use_item = {},
+	weapon_ids = {
+		107,
+		107
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[202323] = {
+	use_gold = 2500,
+	breakout_view = "全弾発射弾幕強化/魚雷補正+15%",
+	use_char_num = 2,
+	use_char = 20232,
+	breakout_id = 202324,
+	level = 70,
+	id = 202323,
+	icon = "10001",
+	pre_id = 202322,
+	use_item = {},
+	weapon_ids = {
+		71192
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[202324] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 20232,
+	breakout_id = 0,
+	level = 0,
+	id = 202324,
+	icon = "10001",
+	pre_id = 202323,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.base.ship_data_breakout[203011] = {
 	use_gold = 500,
 	breakout_view = "全弾発射スキル習得/主砲補正+5%",
@@ -34176,6 +34243,75 @@ _G.pg.base.ship_data_breakout[901124] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.base.ship_data_breakout[901131] = {
+	use_gold = 1000,
+	breakout_view = "特殊弾幕スキル習得/主砲補正+5%",
+	use_char_num = 1,
+	use_char = 90113,
+	breakout_id = 901132,
+	level = 10,
+	id = 901131,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		79881
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[901132] = {
+	use_gold = 3000,
+	breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+	use_char_num = 1,
+	use_char = 90113,
+	breakout_id = 901133,
+	level = 30,
+	id = 901132,
+	icon = "10001",
+	pre_id = 901131,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[901133] = {
+	use_gold = 10000,
+	breakout_view = "特殊弾幕強化/武器補正+5%",
+	use_char_num = 2,
+	use_char = 90113,
+	breakout_id = 901134,
+	level = 70,
+	id = 901133,
+	icon = "10001",
+	pre_id = 901132,
+	use_item = {},
+	weapon_ids = {
+		79882
+	},
+	ultimate_bonus = {
+		"GNR"
+	}
+}
+
+_G.pg.base.ship_data_breakout[901134] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 90113,
+	breakout_id = 0,
+	level = 0,
+	id = 901134,
+	icon = "10001",
+	pre_id = 901133,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.base.ship_data_breakout[902011] = {
 	use_gold = 500,
 	breakout_view = "全弾発射スキル習得/武器補正+2%",
@@ -34579,6 +34715,79 @@ _G.pg.base.ship_data_breakout[905034] = {
 	id = 905034,
 	icon = "10001",
 	pre_id = 905033,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[907011] = {
+	use_gold = 1000,
+	breakout_view = "戦闘機数+1/戦闘機補正+5%",
+	use_char_num = 1,
+	use_char = 90701,
+	breakout_id = 907012,
+	level = 10,
+	id = 907011,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		60831,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[907012] = {
+	use_gold = 3000,
+	breakout_view = "攻撃隊上限+1/攻撃機数+1/戦闘機補正+10%",
+	use_char_num = 1,
+	use_char = 90701,
+	breakout_id = 907013,
+	level = 30,
+	id = 907012,
+	icon = "10001",
+	pre_id = 907011,
+	use_item = {},
+	weapon_ids = {
+		60832,
+		54014,
+		60832,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[907013] = {
+	use_gold = 10000,
+	breakout_view = "艦載機数+1/攻撃機補正+15%",
+	use_char_num = 2,
+	use_char = 90701,
+	breakout_id = 907014,
+	level = 70,
+	id = 907013,
+	icon = "10001",
+	pre_id = 907012,
+	use_item = {},
+	weapon_ids = {
+		60833,
+		54015,
+		60833,
+		54015
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[907014] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 90701,
+	breakout_id = 0,
+	level = 0,
+	id = 907014,
+	icon = "10001",
+	pre_id = 907013,
 	use_item = {},
 	weapon_ids = {},
 	ultimate_bonus = {}

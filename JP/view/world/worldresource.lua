@@ -181,9 +181,10 @@ end
 function slot0.OnBossProgressUpdate(slot0)
 	slot2, slot3, slot4 = WorldBossConst.GetCurrBossItemCapacity()
 	slot5, slot6 = WorldBossConst.GetCurrBossConsume()
+	slot9 = slot4 <= slot3 and COLOR_GREY or COLOR_WHITE
 
-	setText(slot0.bossProgress:Find("value"), WorldBossConst.GetCurrBossItemProgress() .. "/" .. slot6)
-	setText(slot0.bossProgress:Find("max_value"), "DAILY:" .. slot3 .. "/" .. slot4)
+	setText(slot0.bossProgress:Find("value"), "<color=" .. slot9 .. ">" .. WorldBossConst.GetCurrBossItemProgress() .. "/" .. slot6 .. "</color>")
+	setText(slot0.bossProgress:Find("max_value"), "<color=" .. slot9 .. ">DAILY:" .. slot3 .. "/" .. slot4 .. "</color>")
 	setActive(slot0.bossProgress, nowWorld():IsSystemOpen(WorldConst.SystemWorldBoss))
 end
 

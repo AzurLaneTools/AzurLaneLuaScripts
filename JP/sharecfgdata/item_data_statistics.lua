@@ -5336,7 +5336,7 @@ _G.pg.base.item_data_statistics[11050] = {
 	display = "533mm五連装魚雷Mk17T0設計図",
 	name = "533mm五連装魚雷Mk17T0設計図",
 	max_num = 0,
-	type = 0,
+	type = 9,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -5368,6 +5368,27 @@ _G.pg.base.item_data_statistics[11051] = {
 	id = 11051,
 	is_world = 0,
 	icon = "Equips/27320",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[11052] = {
+	display = "ブレゲー BR.810攻撃機設計図",
+	name = "ブレゲー BR.810攻撃機設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11052,
+	is_world = 0,
+	icon = "Equips/51240",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -13602,6 +13623,121 @@ _G.pg.base.item_data_statistics[30334] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30335] = {
+	display = "ランダムの装備外装を入手可能",
+	name = "装備外装箱（メルヘン）",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30335,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghua",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
 	name = "ランダム装備外装",
@@ -14307,6 +14443,118 @@ _G.pg.base.item_data_statistics[30505] = {
 		{
 			9,
 			157,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30506] = {
+	display = "使用すると、装備外装（メルヘン）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（メルヘン）",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30506,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghuazixuan",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
 			1
 		}
 	},
@@ -162845,6 +163093,147 @@ _G.pg.base.item_data_statistics[58608] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58609] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58609,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			81,
+			1
+		},
+		{
+			2,
+			82,
+			1
+		},
+		{
+			2,
+			43,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58610] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58610,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10103,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58611] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58611,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		},
+		{
+			2,
+			11052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "参加キャラは経験値を獲得できます",
 	name = "経験値",
@@ -167102,6 +167491,69 @@ _G.pg.base.item_data_statistics[59322] = {
 	id = 59322,
 	is_world = 0,
 	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59323] = {
+	display = "イベント「アイリスの天使」で得られるイベントポイント。イベントバナーで「累計Pt報酬」を入手可能",
+	name = "演習pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59323,
+	is_world = 0,
+	icon = "Props/joffre_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59324] = {
+	display = "「アイリスの天使」EXステージ出撃、もしくはボーナス出撃回数回復時に使用可能",
+	name = "特別戦闘券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59324,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59325] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2022.7.13メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2022.7.13まで）",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59325,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},

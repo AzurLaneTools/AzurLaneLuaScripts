@@ -8321,6 +8321,115 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102254] = {
+		ship_group = 10225,
+		name = "ロミオかジュリエット？",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "158",
+		id = 102254,
+		group_index = 4,
+		prefab = "biluokexi_6",
+		painting = "biluokexi_6",
+		shop_id = 70712,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 19,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "役者が揃ったな。それでは何から始めようか？恋愛ものの物語よろしく、このまま駆け落ちでもするか？ははは",
+		voice_actor = 217,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.159,
+					1.093,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					1.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.259,
+					1.054,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.524,
+							2.251,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102260] = {
 		ship_group = 10226,
 		name = "リノ",
@@ -9367,120 +9476,6 @@ pg.ship_skin_template_2 = {
 						{
 							-0.533,
 							2.426,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102290] = {
-		ship_group = 10229,
-		name = "ボイシ",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 102290,
-		group_index = 0,
-		prefab = "boyixi",
-		painting = "boyixi",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ブルックリン級巡洋艦・ボイシ（CL-47）",
-		voice_actor = 276,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.07,
-					1.13,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.05,
-					1.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.06,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.7,
-							2.34,
 							0
 						}
 					}
