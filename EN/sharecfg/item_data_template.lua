@@ -2838,6 +2838,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[11052] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 11052,
+		compose_number = 0,
+		target_id = 0
+	},
 	[13000] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -5735,6 +5746,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[30335] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30335",
+		id = 30335,
+		compose_number = 0,
+		target_id = 0
+	},
 	[30401] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -6270,6 +6292,108 @@ pg.item_data_template = {
 			{
 				9,
 				157,
+				1
+			}
+		}
+	},
+	[30506] = {
+		usage = "usage_drop_appointed",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 30506,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			{
+				9,
+				580,
+				1
+			},
+			{
+				9,
+				581,
+				1
+			},
+			{
+				9,
+				582,
+				1
+			},
+			{
+				9,
+				583,
+				1
+			},
+			{
+				9,
+				584,
+				1
+			},
+			{
+				9,
+				585,
+				1
+			},
+			{
+				9,
+				586,
+				1
+			},
+			{
+				9,
+				587,
+				1
+			},
+			{
+				9,
+				588,
+				1
+			},
+			{
+				9,
+				589,
+				1
+			},
+			{
+				9,
+				590,
+				1
+			},
+			{
+				9,
+				591,
+				1
+			},
+			{
+				9,
+				592,
+				1
+			},
+			{
+				9,
+				593,
+				1
+			},
+			{
+				9,
+				594,
+				1
+			},
+			{
+				9,
+				595,
+				1
+			},
+			{
+				9,
+				596,
+				1
+			},
+			{
+				9,
+				597,
 				1
 			}
 		}
@@ -23096,6 +23220,7 @@ pg.item_data_template = {
 		11049,
 		11050,
 		11051,
+		11052,
 		13000,
 		13001,
 		13002,
@@ -23319,6 +23444,7 @@ pg.item_data_template = {
 		30332,
 		30333,
 		30334,
+		30335,
 		30401,
 		30402,
 		30403,
@@ -23328,6 +23454,7 @@ pg.item_data_template = {
 		30503,
 		30504,
 		30505,
+		30506,
 		30900,
 		30911,
 		30912,

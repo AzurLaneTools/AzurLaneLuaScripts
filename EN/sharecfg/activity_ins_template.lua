@@ -8606,6 +8606,84 @@ pg.activity_ins_template = {
 			2846
 		}
 	},
+	{
+		ship_group = 30129,
+		name = "Hayaizo",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "daofeng_5",
+		id = 315,
+		group_id = 315,
+		order = 30,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 90113,
+		name = "L'Indomptable",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "buqu_2",
+		id = 316,
+		group_id = 316,
+		order = 30,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 90701,
+		name = "Joffre",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "xiafei_2",
+		id = 317,
+		group_id = 317,
+		order = 30,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30213,
+		name = "Jintuu",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "shentong_4",
+		id = 318,
+		group_id = 318,
+		order = 30,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10225,
+		name = "Biloxi",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "biluokexi_6",
+		id = 319,
+		group_id = 319,
+		order = 30,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20232,
+		name = "RoyalMaid.E",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "jinqu",
+		id = 320,
+		group_id = 320,
+		order = 30,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -8920,6 +8998,12 @@ pg.activity_ins_template = {
 		311,
 		312,
 		313,
-		314
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320
 	}
 }

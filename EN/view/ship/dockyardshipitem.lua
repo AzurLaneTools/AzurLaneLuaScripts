@@ -140,7 +140,7 @@ function slot0.flush(slot0)
 		end
 
 		setActive(slot0.energyTF, slot5)
-		setText(slot0.nameTF, shortenString(slot1:getName(), 6))
+		setText(slot0.nameTF, shortenString(slot1:getName(), PLATFORM_CODE == PLATFORM_US and 6 or 7))
 
 		slot6 = nil
 

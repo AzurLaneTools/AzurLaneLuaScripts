@@ -265,7 +265,7 @@ pg.equip_skin_theme_template = {
 	},
 	[17] = {
 		id = 17,
-		name = "Northern Parliament Style ",
+		name = "Northern Parliament Style",
 		ids = {
 			220,
 			221,
@@ -289,7 +289,7 @@ pg.equip_skin_theme_template = {
 	},
 	[18] = {
 		id = 18,
-		name = "Eagle Union Staples ",
+		name = "Eagle Union Staples",
 		ids = {
 			240,
 			241,
@@ -313,7 +313,7 @@ pg.equip_skin_theme_template = {
 	},
 	[19] = {
 		id = 19,
-		name = "Iris Libre Specialties ",
+		name = "Iris Libre Specialties",
 		ids = {
 			260,
 			261,
@@ -337,7 +337,7 @@ pg.equip_skin_theme_template = {
 	},
 	[20] = {
 		id = 20,
-		name = "Medical Supplies ",
+		name = "Medical Supplies",
 		ids = {
 			280,
 			281,
@@ -361,7 +361,7 @@ pg.equip_skin_theme_template = {
 	},
 	[21] = {
 		id = 21,
-		name = "Sakura Empire Classics ",
+		name = "Sakura Empire Classics",
 		ids = {
 			300,
 			301,
@@ -385,7 +385,7 @@ pg.equip_skin_theme_template = {
 	},
 	[22] = {
 		id = 22,
-		name = "Universe in Unison ",
+		name = "Universe in Unison",
 		ids = {
 			320,
 			321,
@@ -409,7 +409,7 @@ pg.equip_skin_theme_template = {
 	},
 	[23] = {
 		id = 23,
-		name = "Venus Vacation ",
+		name = "Venus Vacation",
 		ids = {
 			340,
 			341,
@@ -433,7 +433,7 @@ pg.equip_skin_theme_template = {
 	},
 	[24] = {
 		id = 24,
-		name = "Iron Blood Essentials ",
+		name = "Iron Blood Essentials",
 		ids = {
 			360,
 			361,
@@ -505,7 +505,7 @@ pg.equip_skin_theme_template = {
 	},
 	[27] = {
 		id = 27,
-		name = "The Idolmaster ",
+		name = "The Idolmaster",
 		ids = {
 			420,
 			421,
@@ -529,7 +529,7 @@ pg.equip_skin_theme_template = {
 	},
 	[28] = {
 		id = 28,
-		name = "Wild west ",
+		name = "Wild West",
 		ids = {
 			440,
 			441,
@@ -553,7 +553,7 @@ pg.equip_skin_theme_template = {
 	},
 	[29] = {
 		id = 29,
-		name = "Floating Funland ",
+		name = "Floating Funland",
 		ids = {
 			460,
 			461,
@@ -695,6 +695,30 @@ pg.equip_skin_theme_template = {
 			577
 		}
 	},
+	[35] = {
+		id = 35,
+		name = "Fairy Tale",
+		ids = {
+			580,
+			581,
+			582,
+			583,
+			584,
+			585,
+			586,
+			587,
+			588,
+			589,
+			590,
+			591,
+			592,
+			593,
+			594,
+			595,
+			596,
+			597
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -754,6 +778,7 @@ pg.equip_skin_theme_template = {
 		32,
 		33,
 		34,
+		35,
 		101,
 		199
 	}

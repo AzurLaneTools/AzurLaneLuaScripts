@@ -645,6 +645,38 @@ pg.honormedal_goods_list = {
 			207031
 		}
 	},
+	{
+		price = 20,
+		goods_purchase_limit = 15,
+		goods_rarity = 4,
+		type = 2,
+		group = 10026,
+		num = 1,
+		goods_name = "General Blueprint - Series 3",
+		goods_type = 1,
+		id = 39,
+		goods_icon = "Props/42020",
+		order = 5,
+		goods = {
+			42020
+		}
+	},
+	{
+		price = 20,
+		goods_purchase_limit = 5,
+		goods_rarity = 5,
+		type = 2,
+		group = 10027,
+		num = 1,
+		goods_name = "Special General Blueprint - Series 3",
+		goods_type = 1,
+		id = 40,
+		goods_icon = "Props/42026",
+		order = 4,
+		goods = {
+			42026
+		}
+	},
 	all = {
 		1,
 		2,
@@ -683,6 +715,8 @@ pg.honormedal_goods_list = {
 		35,
 		36,
 		37,
-		38
+		38,
+		39,
+		40
 	}
 }

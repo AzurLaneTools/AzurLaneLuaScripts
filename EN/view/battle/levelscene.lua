@@ -521,7 +521,14 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		uv0:emit(LevelMediator2.ON_ACTIVITY_MAP)
+		switch(getProxy(ActivityProxy):getEnterReadyActivity():getConfig("type"), {
+			[ActivityConst.ACTIVITY_TYPE_ZPROJECT] = function ()
+				uv0:emit(LevelMediator2.ON_ACTIVITY_MAP)
+			end,
+			[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function ()
+				uv0:emit(LevelMediator2.ON_OPEN_ACT_BOSS_BATTLE)
+			end
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.entranceLayer:Find("enters/right_panel/btn_signal"), function ()
 		if uv0:isfrozen() then
@@ -581,19 +588,14 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.entranceLayer:Find("enters/enter_world/enter"), not WORLD_ENTER_LOCK)
 	setActive(slot0.entranceLayer:Find("enters/enter_world/nothing"), WORLD_ENTER_LOCK)
-	setActive(slot0.entranceLayer:Find("enters/enter_ready/nothing"), #underscore.filter(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT), function (slot0)
-		return not slot0:isEnd()
-	end) == 0)
-	setActive(slot0.entranceLayer:Find("enters/enter_ready/activity"), #slot1 > 0)
 
-	if #slot1 > 0 then
-		table.sort(slot1, function (slot0, slot1)
-			return slot1.id < slot0.id
-		end)
+	slot1 = getProxy(ActivityProxy):getEnterReadyActivity()
 
-		if slot1[1]:getConfig("config_client").entrance_bg then
-			GetImageSpriteFromAtlasAsync(slot2, "", slot0.entranceLayer:Find("enters/enter_ready/activity"), true)
-		end
+	setActive(slot0.entranceLayer:Find("enters/enter_ready/nothing"), not tobool(slot1))
+	setActive(slot0.entranceLayer:Find("enters/enter_ready/activity"), tobool(slot1))
+
+	if tobool(slot1) and slot1:getConfig("config_client").entrance_bg then
+		GetImageSpriteFromAtlasAsync(slot2, "", slot0.entranceLayer:Find("enters/enter_ready/activity"), true)
 	end
 
 	slot2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "EventMediator")

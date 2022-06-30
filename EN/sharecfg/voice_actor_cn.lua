@@ -746,7 +746,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 187,
-		actor_name = "Ayumi Mano"
+		actor_name = "Mano Ayumi"
 	},
 	{
 		code = 188,
@@ -1275,5 +1275,13 @@ pg.voice_actor_CN = {
 	{
 		code = 319,
 		actor_name = "Toujou Hisako"
+	},
+	[325] = {
+		code = 325,
+		actor_name = "Tsuji Ayumi"
+	},
+	[326] = {
+		code = 326,
+		actor_name = "Fujii Yukiyo"
 	}
 }

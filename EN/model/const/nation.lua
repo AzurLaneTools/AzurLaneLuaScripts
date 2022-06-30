@@ -9,6 +9,7 @@ slot0.ITA = 6
 slot0.SN = 7
 slot0.FF = 8
 slot0.MNF = 9
+slot0.FR = 10
 slot0.META = 97
 slot0.BURIN = 98
 slot0.LINK = 100
@@ -35,6 +36,7 @@ function slot0.Nation2Print(slot0)
 			"sn",
 			"ff",
 			"mnf",
+			"ff",
 			[108.0] = "um",
 			[101.0] = "np",
 			[104.0] = "um",
@@ -60,6 +62,7 @@ function slot0.Nation2Side(slot0)
 			"Jp",
 			"West",
 			"Cn",
+			"West",
 			"West",
 			"West",
 			"West",
@@ -93,6 +96,7 @@ function slot0.Nation2BG(slot0)
 			"bg/bg_church",
 			"bg/bg_church",
 			"bg/bg_church",
+			"bg/bg_church",
 			[108.0] = "bg/bg_church",
 			[101.0] = "bg/bg_church",
 			[104.0] = "bg/bg_church",
@@ -122,6 +126,7 @@ function slot0.Nation2Name(slot0)
 			i18n("word_shipNation_beiLian"),
 			i18n("word_shipNation_ziyou"),
 			i18n("word_shipNation_weixi"),
+			i18n("word_shipNation_yuanwei"),
 			[97] = i18n("word_shipNation_meta"),
 			[98] = i18n("word_shipNation_other"),
 			[101] = i18n("word_shipNation_np"),
@@ -151,6 +156,7 @@ function slot0.Nation2facionName(slot0)
 			i18n("guild_faction_blhx"),
 			i18n("guild_faction_blhx"),
 			i18n("guild_faction_cszz"),
+			i18n("guild_faction_blhx"),
 			[97] = i18n("guild_faction_meta"),
 			[98] = i18n("guild_faction_unknown"),
 			[101] = i18n("guild_faction_unknown"),

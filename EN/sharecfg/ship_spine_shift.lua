@@ -209,5 +209,12 @@ pg.ship_spine_shift = {
 			0,
 			10
 		}
+	},
+	buqu_2 = {
+		spine = "buqu_2",
+		mainui_shift = {
+			-12,
+			-32
+		}
 	}
 }

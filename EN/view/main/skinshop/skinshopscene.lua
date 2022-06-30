@@ -865,11 +865,8 @@ function slot0.loadChar(slot0, slot1, slot2)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.modelTf = tf(slot0)
-		slot1 = pg.skinshop_spine_scale[uv1.id]
 
-		print(slot1)
-
-		if slot1 then
+		if pg.skinshop_spine_scale[uv1.id] then
 			uv0.modelTf.localScale = Vector3(slot1.skinshop_scale, slot1.skinshop_scale, 1)
 		else
 			uv0.modelTf.localScale = Vector3(0.9, 0.9, 1)

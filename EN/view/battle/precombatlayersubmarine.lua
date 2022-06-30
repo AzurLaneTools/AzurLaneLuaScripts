@@ -215,8 +215,13 @@ function slot0.displayFleetInfo(slot0)
 end
 
 function slot0.SetFleetStepper(slot0)
-	setActive(slot0._nextPage, slot0:getNextFleetID() ~= nil)
-	setActive(slot0._prevPage, slot0:getPrevFleetID() ~= nil)
+	if slot0._currentForm == uv0.FORM_EDIT then
+		SetActive(slot0._nextPage, false)
+		SetActive(slot0._prevPage, false)
+	else
+		setActive(slot0._nextPage, slot0:getNextFleetID() ~= nil)
+		setActive(slot0._prevPage, slot0:getPrevFleetID() ~= nil)
+	end
 end
 
 function slot0.willExit(slot0)

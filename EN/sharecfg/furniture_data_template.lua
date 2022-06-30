@@ -777,6 +777,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[27] = {
+		effect = "",
+		name = "Joffre Model",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 0,
+		picture = "chuanmo/xiafei",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A 1:100 scale model of Joffre.",
+		tag = 6,
+		icon = "xiafeiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 27,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[102] = {
 		effect = "",
 		name = "Forgotten Memory",
@@ -6613,6 +6650,58 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100028] = {
+		effect = "",
+		name = "Bottled Fireflies",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "♪ You would not believe your eyes if ten million fireflies lit up the world as I fell asleep ♪",
+		tag = 6,
+		icon = "boliguanicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100028,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"boliguan",
+				"normal",
+				{
+					"open",
+					true,
+					nil,
+					nil,
+					nil,
+					"action",
+					"bg2"
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -91088,7 +91177,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		deblocking = 1,
 		spine_action_replace = "",
-		belong = 1,
+		belong = 0,
 		comfortable = 4,
 		canputon = 0,
 		id = 89001,
@@ -91116,13 +91205,13 @@ pg.furniture_data_template = {
 		tag = 3,
 		size = "",
 		spine_extra = "",
-		level = 1,
+		level = 5,
 		describe = "The austere but glossy white provides a sense of refinement in simplicity.",
 		rarity = 4,
 		advice = 0,
 		deblocking = 1,
 		spine_action_replace = "",
-		belong = 1,
+		belong = 0,
 		comfortable = 4,
 		canputon = 0,
 		id = 89002,
@@ -92338,6 +92427,998 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[90001] = {
+		icon = "dibanthicon",
+		name = "Fairy Tale Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 90,
+		picture = "th/dibanth",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Every step on it feels magical.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 90001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90002] = {
+		icon = "qiangbithicon",
+		name = "Fairy Tale Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 90,
+		picture = "th/qiangbith",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Those tall hills in the distance look very familiar...",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 90002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90101] = {
+		effect = "",
+		name = "White Mushroom Cluster",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/baimoguth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Are they edible? Maybe, but it's a lot to eat.",
+		tag = 1,
+		icon = "baimoguthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90102] = {
+		effect = "",
+		name = "Big White Mushroom",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/baimogu2th",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Is it tall, or are you just small?",
+		tag = 1,
+		icon = "baimogu2thicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90103] = {
+		effect = "",
+		name = "Giant Carrot",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/daluoboth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Damn. That's a chunky boy.",
+		tag = 1,
+		icon = "daluobothicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90104] = {
+		effect = "",
+		name = "Fairy Tale Whale",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you see yourself in this whale then we thank you for your continued support.",
+		themeId = 90,
+		icon = "feitianjingyuthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90104,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feitianjingyuth",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[90105] = {
+		effect = "",
+		name = "Fairy Tale Windmill",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/fengcheth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Would be great for making flour, but there's no grain out here.",
+		tag = 1,
+		icon = "fengchethicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90105,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90106] = {
+		effect = "",
+		name = "Big Red Mushroom",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/hongmoguth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Poisonous and not super at all. Would not recommend.",
+		tag = 1,
+		icon = "hongmoguthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90107] = {
+		effect = "",
+		name = "Glowing Flower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/hualudength",
+		count = 4,
+		is_3d_obj = 0,
+		describe = "It's a good thing terrestrial anglerfish only exist in fairy tales! ...Uh-oh.",
+		tag = 1,
+		icon = "hualudengthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90111] = {
+		effect = "",
+		name = "Butterfly Swarm",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/hudiecongth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Think you can go twice as high?",
+		tag = 1,
+		icon = "hudiecongthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90112] = {
+		effect = "",
+		name = "Fairy Tale Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/jushuth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Cheshire! Get down from– Oh. Sorry, I confused you for someone else.\"",
+		tag = 1,
+		icon = "jushuthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90112,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90113] = {
+		effect = "",
+		name = "Mushroom Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "th/mogudength",
+		is_get_time_note = 0,
+		themeId = 90,
+		count = 3,
+		is_3d_obj = 0,
+		describe = "It's for seatin', not for eatin'.",
+		tag = 1,
+		icon = "mogudengthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					7.8,
+					38.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90116] = {
+		effect = "",
+		name = "Mushroom Hut",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/moguwuth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Wonder who might be living here.",
+		tag = 1,
+		icon = "moguwuthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90116,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90117] = {
+		effect = "",
+		name = "Pumpkin Carriage",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Better take this ride before it turns midnight.",
+		themeId = 90,
+		icon = "nanguachethicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90117,
+		can_rotate = 0,
+		size = {
+			5,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"nanguachethB",
+				"normal"
+			},
+			{
+				"nanguachethT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					1.1,
+					-1.6
+				},
+				{
+					110,
+					140
+				},
+				"th/nanguacheth_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[90118] = {
+		effect = "",
+		name = "Fairy Tale Stone",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/shitouth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Hate to break it to ya, stone, but there's nothing fantastical about you.",
+		tag = 1,
+		icon = "shitouthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90119] = {
+		effect = "",
+		name = "Fairy Tale Treehouse",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/shuwuth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "We all dreamed of having one as a kid.",
+		tag = 1,
+		icon = "shuwuthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90119,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90120] = {
+		effect = "",
+		name = "Fairy Tale Stone Road",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/suishiluth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "♪ Follow the... grey stone road...? Follow, follow, follow, follow ♪",
+		tag = 1,
+		icon = "suishiluthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90120,
+		can_rotate = 0,
+		size = {
+			24,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90121] = {
+		effect = "",
+		name = "White Rabbit",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/tuzith",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "He's in the same situation as many anime girls on their first day of high school.",
+		tag = 1,
+		icon = "tuzithicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90121,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90122] = {
+		effect = "",
+		name = "Fairy Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/xiannvjiuth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It'll grant you any wish, even a fairly odd one.",
+		tag = 1,
+		icon = "xiannvjiuthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90122,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90123] = {
+		effect = "",
+		name = "Little Red Riding Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/xiaohongmaojiuth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Meowfficer, what great teeth you have got!\"",
+		tag = 1,
+		icon = "xiaohongmaojiuthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90124] = {
+		effect = "",
+		name = "Small Carrot",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/xiaoluoboth",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's just begging to be uprooted by a hungry rabbit.",
+		tag = 1,
+		icon = "xiaoluobothicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90125] = {
+		effect = "",
+		name = "Small Carrot Patch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/xiaoluobosanlianth",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "So you're telling me they use these to measure gold's purity?",
+		tag = 1,
+		icon = "xiaoluobosanlianthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90127] = {
+		effect = "",
+		name = "Fairy Tale River",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 90,
+		is_get_time_note = 0,
+		picture = "th/xiaoxith",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't touch those riverside shrooms unless you're feeling adventurous.",
+		tag = 1,
+		icon = "xiaoxithicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90127,
+		can_rotate = 0,
+		size = {
+			14,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90128] = {
+		effect = "",
+		name = "Sleeping Bear",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "th/xiongth",
+		is_get_time_note = 0,
+		themeId = 90,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Snoring, relaxing, and sometimes blocking the entrance to a cave.",
+		tag = 1,
+		icon = "xiongthicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 90128,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-3.6,
+					72
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -92361,6 +93442,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			102,
 			104,
 			105,
@@ -92465,6 +93547,7 @@ pg.furniture_data_template = {
 			100025,
 			100026,
 			100027,
+			100028,
 			100029,
 			200001,
 			200002,
@@ -92509,6 +93592,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			102,
 			104,
 			105,
@@ -92613,6 +93697,7 @@ pg.furniture_data_template = {
 			100025,
 			100026,
 			100027,
+			100028,
 			100029,
 			200001,
 			200002,
@@ -96666,6 +97751,56 @@ pg.furniture_data_template = {
 			89307,
 			89308,
 			89309
+		},
+		[90] = {
+			90001,
+			90002,
+			90101,
+			90102,
+			90103,
+			90104,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90117,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128,
+			90001,
+			90002,
+			90101,
+			90102,
+			90103,
+			90104,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90117,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
 		}
 	},
 	get_id_list_by_tag = {
@@ -97985,7 +99120,27 @@ pg.furniture_data_template = {
 			89122,
 			89123,
 			89124,
-			89125
+			89125,
+			90101,
+			90102,
+			90103,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
 		},
 		{
 			1108,
@@ -98144,6 +99299,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			102,
 			104,
 			105,
@@ -98249,6 +99405,7 @@ pg.furniture_data_template = {
 			100025,
 			100026,
 			100027,
+			100028,
 			100029,
 			31101,
 			54104,
@@ -98379,7 +99536,9 @@ pg.furniture_data_template = {
 			85126,
 			86122,
 			88126,
-			89126
+			89126,
+			90104,
+			90117
 		},
 		[4] = {
 			1001,
@@ -98450,7 +99609,8 @@ pg.furniture_data_template = {
 			86001,
 			87001,
 			88001,
-			89001
+			89001,
+			90001
 		},
 		[3] = {
 			1002,
@@ -98522,7 +99682,8 @@ pg.furniture_data_template = {
 			86002,
 			87002,
 			88002,
-			89002
+			89002,
+			90002
 		},
 		[5] = {
 			1301,
@@ -98848,7 +100009,8 @@ pg.furniture_data_template = {
 			86002,
 			87002,
 			88002,
-			89002
+			89002,
+			90002
 		},
 		[7] = {
 			1,
@@ -98872,6 +100034,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			102,
 			104,
 			105,
@@ -98954,6 +100117,7 @@ pg.furniture_data_template = {
 			100025,
 			100026,
 			100027,
+			100028,
 			100029
 		},
 		[2] = {
@@ -100267,7 +101431,26 @@ pg.furniture_data_template = {
 			89122,
 			89123,
 			89124,
-			89125
+			89125,
+			90101,
+			90102,
+			90103,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90118,
+			90119,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
 		},
 		[11] = {
 			131,
@@ -100298,7 +101481,9 @@ pg.furniture_data_template = {
 			77119,
 			84184,
 			84185,
-			84186
+			84186,
+			90104,
+			90117
 		},
 		[14] = {
 			214,
@@ -100381,7 +101566,8 @@ pg.furniture_data_template = {
 			86001,
 			87001,
 			88001,
-			89001
+			89001,
+			90001
 		},
 		[5] = {
 			1101,
@@ -100493,7 +101679,8 @@ pg.furniture_data_template = {
 			87116,
 			88103,
 			89106,
-			89107
+			89107,
+			90120
 		},
 		[3] = {
 			1108,
@@ -100922,6 +102109,7 @@ pg.furniture_data_template = {
 		24,
 		25,
 		26,
+		27,
 		102,
 		104,
 		105,
@@ -101028,6 +102216,7 @@ pg.furniture_data_template = {
 		100025,
 		100026,
 		100027,
+		100028,
 		100029,
 		200001,
 		200002,
@@ -102993,6 +104182,30 @@ pg.furniture_data_template = {
 		89303,
 		89307,
 		89308,
-		89309
+		89309,
+		90001,
+		90002,
+		90101,
+		90102,
+		90103,
+		90104,
+		90105,
+		90106,
+		90107,
+		90111,
+		90112,
+		90113,
+		90116,
+		90117,
+		90118,
+		90119,
+		90120,
+		90121,
+		90122,
+		90123,
+		90124,
+		90125,
+		90127,
+		90128
 	}
 }

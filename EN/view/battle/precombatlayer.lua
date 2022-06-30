@@ -231,7 +231,6 @@ function slot0.Register(slot0)
 		uv0._currentForm = uv1.FORM_EDIT
 		uv0._checkBtn:GetComponent("Button").interactable = true
 
-		uv0:disableAllStepper()
 		uv0:SetFleetStepper()
 		setActive(uv0._checkBtn:Find("save"), true)
 		setActive(uv0._checkBtn:Find("edit"), false)
@@ -240,7 +239,6 @@ function slot0.Register(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddSwitchToShiftMode(function ()
-		uv0:disableAllStepper()
 		uv0:SetFleetStepper()
 
 		uv0._checkBtn:GetComponent("Button").interactable = false
@@ -252,7 +250,6 @@ function slot0.Register(slot0)
 		uv0._currentForm = uv1.FORM_PREVIEW
 		uv0._checkBtn:GetComponent("Button").interactable = true
 
-		uv0:disableAllStepper()
 		uv0:SetFleetStepper()
 		setActive(uv0._checkBtn:Find("save"), false)
 		setActive(uv0._checkBtn:Find("edit"), true)
@@ -263,6 +260,10 @@ function slot0.Register(slot0)
 	slot1:AddGridTipClick(function (slot0, slot1)
 		uv0:emit(PreCombatMediator.CHANGE_FLEET_SHIP, nil, uv0._currentFleetVO, slot0)
 	end)
+
+	if slot0.contextData.system == SYSTEM_ACT_BOSS then
+		slot0._formationLogic:DisableTip()
+	end
 end
 
 function slot0.SetPlayerInfo(slot0, slot1)
@@ -606,18 +607,13 @@ function slot0.displayFleetInfo(slot0)
 end
 
 function slot0.SetFleetStepper(slot0)
-	if slot0.contextData.system ~= SYSTEM_DUEL and slot1 ~= SYSTEM_ACT_BOSS and slot1 ~= SYSTEM_HP_SHARE_ACT_BOSS and slot1 ~= SYSTEM_BOSS_EXPERIMENT then
-		SetActive(slot0._nextPage, slot0._curFleetIndex < #slot0._legalFleetIdList)
-		SetActive(slot0._prevPage, slot0._curFleetIndex > 1)
-	else
+	if slot0.contextData.system == SYSTEM_DUEL or slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_BOSS_EXPERIMENT or slot0._currentForm == uv0.FORM_EDIT then
 		SetActive(slot0._nextPage, false)
 		SetActive(slot0._prevPage, false)
+	else
+		SetActive(slot0._nextPage, slot0._curFleetIndex < #slot0._legalFleetIdList)
+		SetActive(slot0._prevPage, slot0._curFleetIndex > 1)
 	end
-end
-
-function slot0.disableAllStepper(slot0)
-	SetActive(slot0._nextPage, false)
-	SetActive(slot0._prevPage, false)
 end
 
 function slot0.onBackPressed(slot0)

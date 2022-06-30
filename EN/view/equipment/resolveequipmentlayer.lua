@@ -32,9 +32,7 @@ function slot0.init(slot0)
 	slot0.cancelBtn = slot0:findTF("main/cancel_btn")
 	slot0.okBtn = slot0:findTF("main/ok_btn")
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {})
 
 	slot0.selectedIds = {}
 	slot0.selecteAllTF = slot0:findTF("main/all_toggle")

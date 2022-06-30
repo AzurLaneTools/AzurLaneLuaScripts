@@ -5361,6 +5361,10 @@ _G.pg.base.gametip.word_shipNation_weixi = {
 	tip = "Vichya Dominion"
 }
 
+_G.pg.base.gametip.word_shipNation_yuanwei = {
+	tip = "Iris Orthodoxy"
+}
+
 _G.pg.base.gametip.word_shipNation_bili = {
 	tip = "哔哩哔哩"
 }
@@ -10100,7 +10104,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Vanguard guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Increased odds of building Joffre, L'Indomptable, and Enterprise (CL)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11013,11 +11017,11 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>- Overview -</color>"
 		},
 		{
-			info = "During the Joint Battle Mystery Investigation event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
+			info = "During the Angel of the Iris event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 		},
 		{
 			info = [[
-During the event period, you will play on a special stage and face off against an exercise fleet led by the destroyer Bristol.
+During the event period, you will play on a special stage and face off against an exercise fleet led by the aircraft carrier Joffre.
 All Commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
 Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
 Be aware that you will not be able to claim this reward if your Mailbox is completely full (i.e. you have 1,000 mail stored).
@@ -11058,7 +11062,7 @@ Be aware that you will not be able to claim this reward if your Mailbox is compl
 		{
 			info = [[
 <color=#ff5c5c>- Miscellaneous Info -</color>
-1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed, but you will <color=#ff5c5c>not receive any rewards or CP</color>.
+1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed, <color=#ff5c5c>but you will not receive any rewards or CP</color>.
 2. We recommend you play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.
 3. You can do practice runs of EX mode from the Formation screen. Practice runs do not cost Bonus Tickets or Oil, and do not affect your shipgirls' Morale, but they do not award EXP or rewards either. 
 4. A Reward Sortie will <color=#92fc63>not be deducted from your daily 15</color> if you choose to abort a run partway through on Easy, Normal, or Hard difficulty.
@@ -20795,4 +20799,8 @@ _G.pg.base.gametip.commission_event_tip = {
 · Be aware that some items in the shop pool may only be purchased after you've cleared a particular stage in the Main Campaign.]]
 		}
 	}
+}
+
+_G.pg.base.gametip.rename_input = {
+	tip = "Enter a new name."
 }

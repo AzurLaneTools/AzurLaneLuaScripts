@@ -9281,6 +9281,227 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[907010] = {
+		feeling4 = "",
+		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		expedition = "",
+		win_mvp = "",
+		unlock = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		id = 907010,
+		login = {
+			{
+				1100,
+				"Commander, let us pray together. I got up two hours late just to match you."
+			}
+		},
+		home = {
+			{
+				1100,
+				"There is no need to fret. I am very well aware that all your battles are magnificent. What need is there for me to pass judgment?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Accept this divine punishment."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Are you curious about the Sacrament of Love? Of course, I don't mind sharing with you—In order to make it easier for you to understand, why don't we go on a date?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"The Independence-class... I don't think those girls understand the Holy Iris's will, but they sure fight well.|While I may no longer hold the qualification to pass judgment upon you, I am still qualified to continue observing your actions. That's the duty of a secretary ship, after all. Hehehe."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"What is it? Did you need something from me?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Whether or not I pass judgment upon you depends on your progress... Just kidding, of course. Let's work at a reasonable pace."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hehehe..."
+			}
+		}
+	},
+	[901130] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		feeling1 = "",
+		unlock = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		feeling4 = "",
+		id = 901130,
+		touch = "",
+		login = {
+			{
+				1100,
+				"Get your act together and learn to clock in early like me! I w-worry about you when you're not around, you know!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Hmph! See? I am your most commendable champion!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"With one as elegant and excellent as you at the helm, I assume your battle went well! I expect no less from the one who guides my sword!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"We shall efface all that stands in the Commander's path!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Well, um... Do as you please. Ooohhh... H-h-hey! I didn't tell you to stop!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Rest assured! If you're approached by any miscreants intent on disrespect, I will scare them off with my lance! Hahaha!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Resting to regain one's strength is crucial, you say... Ah! Now I see the profound reason for why Le Malin is always doing that!|Whew... Huff... Puff... Your proud Templar Knight has put in a lot of work today! T-tell me you appreciate me already!|Your sword is always at your side! Give me your orders, and I shall carry them out!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Hahah! In times when missions have you overwhelmed, what you should do is call upon your sword – that is to say, me!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete! Don't forget to hand down a few rewards in accordance with who worked hardest!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"St-st-stop it with this caprice!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"My creed says I \"must be ready to sacrifice everything for love, even my life.\" I would never betray you, but I don't know how to martyr myself for love... I needn't do anything so extreme, you say? Hmph, then I implore you to tell me what I SHOULD do! ...A-a date, for starters?!"
+			}
+		}
+	},
+	[202320] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		feeling1 = "",
+		id = 202320,
+		lose = "",
+		headtouch = "",
+		feeling4 = "",
+		login = {
+			{
+				1100,
+				"Master, what will you start off with today? How about leaving your clerical duties to me and heading out to start with some training exercises?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"We won. Master, thank you for always creating the best battle plans for us."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Well done. Um, how about taking a short break before reviewing your plans...? Come on, look at how tired you are..."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"This is just as important... as taking care of my Master!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Even if you say I'm too methodical... T-that's just the kind of girl I am, so I can't do anything about it. ...If you don't like it, why don't you just ask another girl to do it for you, huh?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You look like you're ready to take on the world. ...Sheffield told you that as well? I-I see... I'm not jealous at all, alright...?|I enjoy reading both manga and literature. Speaking of which, what are some of your favorite books?|You need something cleaned? Sure thing, I'm on my way...!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I-if you just want to chat, we can do it later..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I'm sure you do this to the other girls too, don't you? That's why you're doing this to...W-wah?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You want to know how to invite someone you like on a date...? Huh, there's no way I'd tell you. I can't believe you'd ask someone you've exchanged vows with to tell you how to take other girls on dates... Huh?! T-then why don't we go on a date right now...? You should have told me that it was about me in the first place!"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -9424,6 +9645,9 @@ pg.ship_skin_words_extra = {
 		207120,
 		205110,
 		202310,
-		203100
+		203100,
+		907010,
+		901130,
+		202320
 	}
 }

@@ -134,14 +134,22 @@ function slot0.didEnter(slot0)
 
 	for slot4 = 1, #slot0.stageList - 1 do
 		onButton(slot0, slot0.stageList[slot4], function ()
-			uv0.contextData.manulOpen = true
+			if uv0.contextData.activity:checkBattleTimeInBossAct() then
+				uv0.contextData.manulOpen = true
 
-			uv0:ShowNormalFleet(uv1)
+				uv0:ShowNormalFleet(uv1)
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+			end
 		end, SFX_PANEL)
 	end
 
 	onButton(slot0, slot0.stageList[#slot0.stageList], function ()
-		uv0:ShowEXFleet()
+		if uv0.contextData.activity:checkBattleTimeInBossAct() then
+			uv0:ShowEXFleet()
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+		end
 	end, SFX_PANEL)
 
 	if slot0.contextData.editFleet then
@@ -180,7 +188,7 @@ function slot0.UpdatePage(slot0)
 
 	slot6 = slot1 % 100
 
-	setText(slot0.digitsmall, string.format("%02d", slot6))
+	setText(slot0.digitsmall, string.format("%02d", slot6) .. "%")
 
 	slot2 = pg.TimeMgr.GetInstance()
 

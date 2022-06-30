@@ -8800,6 +8800,30 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[75018] = {
+		id = 70115,
+		name = "回右下角",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = 10,
+					z = 30
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[80000] = {
 		id = 80000,
 		name = "自爆船AI",

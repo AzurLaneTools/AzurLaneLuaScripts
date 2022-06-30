@@ -21,7 +21,9 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.MEMORYBOOK_UNLOCK_DONE then
 		slot0.viewComponent:updateAfterSubmit(slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
-		-- Nothing
+		if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PUZZLA then
+			slot0.viewComponent:UpdateActivity()
+		end
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
 		if getProxy(ContextProxy):getContextByMediator(ActivityMediator) then
 			return

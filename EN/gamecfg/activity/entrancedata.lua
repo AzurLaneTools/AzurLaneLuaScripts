@@ -48,17 +48,11 @@ return {
 			end
 
 			slot1 = false
-			slot2 = false
 
-			if pg.activity_event_worldboss[slot0.getConfig(slot0, "config_id")] then
-				slot5 = slot4.time ~= "stop" and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4.time[2])
-				slot2 = not (slot5 and pg.TimeMgr.GetInstance():GetServerTime() <= slot5)
-			end
-
-			if not slot2 then
+			if slot0.checkBattleTimeInBossAct(slot0) then
 				slot1 = slot0.data2 ~= 1
 			elseif getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
-				slot1 = ActivityBossPtData.New(slot5):CanGetAward()
+				slot1 = ActivityBossPtData.New(slot3):CanGetAward()
 			end
 
 			return slot1

@@ -3214,6 +3214,45 @@ pg.backyard_theme_template = {
 			89309
 		}
 	},
+	[90] = {
+		Cfg_1 = 5,
+		name = "Fairy Tale Forest",
+		hot = 1,
+		is_view = 1,
+		id = 90,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "♪ Is this the folk tale? Is this just fantasy? ♪",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "ththemeicon",
+		deblocking = 1,
+		order = 91,
+		ids = {
+			90001,
+			90002,
+			90101,
+			90102,
+			90103,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3285,6 +3324,7 @@ pg.backyard_theme_template = {
 		86,
 		87,
 		88,
-		89
+		89,
+		90
 	}
 }

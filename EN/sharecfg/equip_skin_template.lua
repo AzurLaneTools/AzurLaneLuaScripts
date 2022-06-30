@@ -14555,6 +14555,543 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[580] = {
+		name = "Mushroom Shell",
+		bullet_name = "zidan_mogu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Why are we firing free powerups at the enemy?!",
+		themeid = 34,
+		id = 580,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93811",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[581] = {
+		name = "Candy Shell",
+		bullet_name = "zidan_tangguo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Oh, what a sweet way to go.",
+		themeid = 34,
+		id = 581,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93812",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[582] = {
+		name = "Apple Shell",
+		bullet_name = "zidan_pingguo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Remember, kids, don't take apples from strangers.",
+		themeid = 34,
+		id = 582,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93813",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[583] = {
+		name = "Glass Slipper Shell",
+		bullet_name = "paodan_shuijingxie",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "\"This isn't what I meant by 'glass cannon'...\"",
+		themeid = 34,
+		id = 583,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93814",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[584] = {
+		name = "Axe Shell",
+		bullet_name = "paodan_futou",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "The time for axing questions is over.",
+		themeid = 34,
+		id = 584,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93815",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[585] = {
+		name = "Lamp Shell",
+		bullet_name = "paodan_youdeng",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Polish it like you'd polish your wood and you get 3 wishes.",
+		themeid = 34,
+		id = 585,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93816",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[586] = {
+		name = "Flute Torpedo",
+		bullet_name = "yulei_chuidiren",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Doooooot... BOOM!",
+		themeid = 34,
+		id = 586,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93821",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[587] = {
+		name = "Carrot Torpedo",
+		bullet_name = "yulei_huluobo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Full of vitamin C you in hell.",
+		themeid = 34,
+		id = 587,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93822",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[588] = {
+		name = "Beanstalk Torpedo",
+		bullet_name = "yulei_modoutengwan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Use it with an acoustic mount to create a beanstalker torpedo.",
+		themeid = 34,
+		id = 588,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93823",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[589] = {
+		name = "Swanjuu(Torpedo)",
+		bullet_name = "feiji_tiane",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "If it walks like a swan and honks like a swan... it's probably a manjuu in a costume.",
+		themeid = 34,
+		id = 589,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93831",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_huluobo",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[590] = {
+		name = "Swanjuu(Fighter)",
+		bullet_name = "feiji_tiane",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "If it walks like a swan and honks like a swan... it's probably a manjuu in a costume.",
+		themeid = 34,
+		id = 590,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_futou",
+		orbit_ui = "",
+		icon = "93831",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[591] = {
+		name = "Swanjuu(Bomber)",
+		bullet_name = "feiji_tiane",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "If it walks like a swan and honks like a swan... it's probably a manjuu in a costume.",
+		themeid = 34,
+		id = 591,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_futou",
+		orbit_ui = "",
+		icon = "93831",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[592] = {
+		name = "Magic Carpet Manjuu(Torpedo)",
+		bullet_name = "feiji_motan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "He can show you the world.",
+		themeid = 34,
+		id = 592,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93832",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_chuidiren",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[593] = {
+		name = "Magic Carpet Manjuu(Fighter)",
+		bullet_name = "feiji_motan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "He can show you the world.",
+		themeid = 34,
+		id = 593,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_youdeng",
+		orbit_ui = "",
+		icon = "93832",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[594] = {
+		name = "Magic Carpet Manjuu(Bomber)",
+		bullet_name = "feiji_motan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "He can show you the world.",
+		themeid = 34,
+		id = 594,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_youdeng",
+		orbit_ui = "",
+		icon = "93832",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[595] = {
+		name = "Pumpkin Carriage Manjuu(Torpedo)",
+		bullet_name = "feiji_mofananguache",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "We're going to be late to the feast! Jettison the payload!",
+		themeid = 34,
+		id = 595,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93833",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_modoutengwan",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[596] = {
+		name = "Pumpkin Carriage Manjuu(Fighter)",
+		bullet_name = "feiji_mofananguache",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "We're going to be late to the feast! Jettison the payload!",
+		themeid = 34,
+		id = 596,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_shuijingxie",
+		orbit_ui = "",
+		icon = "93833",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[597] = {
+		name = "Pumpkin Carriage Manjuu(Bomber)",
+		bullet_name = "feiji_mofananguache",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "We're going to be late to the feast! Jettison the payload!",
+		themeid = 34,
+		id = 597,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_shuijingxie",
+		orbit_ui = "",
+		icon = "93833",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "Joypad Shell (P)",
 		bullet_name = "Nep_bullet_shizi",
@@ -16519,6 +17056,24 @@ pg.equip_skin_template = {
 		575,
 		576,
 		577,
+		580,
+		581,
+		582,
+		583,
+		584,
+		585,
+		586,
+		587,
+		588,
+		589,
+		590,
+		591,
+		592,
+		593,
+		594,
+		595,
+		596,
+		597,
 		1001,
 		1002,
 		1003,

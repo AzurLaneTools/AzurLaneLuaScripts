@@ -9242,5 +9242,115 @@ pg.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[101421] = {
+		ship_group = 10142,
+		name = "Candy Courier",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "119",
+		id = 101421,
+		group_index = 1,
+		prefab = "simoli_3",
+		painting = "simoli_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70257,
+		shop_type_id = 8,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I am the courier of the night. In other words, it's my job to bring stuff straight to you, Commander. Here you go, this jack-o-lantern is for you.",
+		voice_actor = 180,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.834,
+					1.348,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.841,
+					1.371,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.068,
+					-0.05,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

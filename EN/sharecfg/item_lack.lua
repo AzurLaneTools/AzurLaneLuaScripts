@@ -35,7 +35,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"Clear Daily Raid Stages",
+				"Clear \"Advance Mission\" Daily Raids",
 				{
 					"scene dailylevel",
 					{
@@ -62,11 +62,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May appear in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -242,11 +242,21 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May appear in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 5
 					}
 				},
 				0
@@ -269,6 +279,16 @@ pg.item_lack = {
 				"May be available through Research",
 				{
 					"technology"
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 5
+					}
 				},
 				0
 			}
@@ -310,11 +330,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May appear in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -335,9 +355,9 @@ pg.item_lack = {
 					"scene level",
 					{},
 					{
-						lastDigit = 1,
+						lastDigit = 2,
 						mapType = 2,
-						leastChapterId = 10101
+						leastChapterId = 10102
 					}
 				},
 				0
@@ -357,11 +377,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May appear in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -382,9 +402,9 @@ pg.item_lack = {
 					"scene level",
 					{},
 					{
-						lastDigit = 1,
+						lastDigit = 3,
 						mapType = 2,
-						leastChapterId = 10101
+						leastChapterId = 10103
 					}
 				},
 				0
@@ -404,11 +424,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May appear in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -429,9 +449,9 @@ pg.item_lack = {
 					"scene level",
 					{},
 					{
-						lastDigit = 1,
+						lastDigit = 4,
 						mapType = 2,
-						leastChapterId = 10101
+						leastChapterId = 10104
 					}
 				},
 				0
@@ -451,11 +471,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May appear in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -490,11 +510,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May be available in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -514,9 +534,9 @@ pg.item_lack = {
 					"scene level",
 					{},
 					{
-						lastDigit = 1,
+						lastDigit = 2,
 						mapType = 2,
-						leastChapterId = 10301
+						leastChapterId = 10302
 					}
 				},
 				0
@@ -529,11 +549,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May be available in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -553,9 +573,9 @@ pg.item_lack = {
 					"scene level",
 					{},
 					{
-						lastDigit = 1,
+						lastDigit = 3,
 						mapType = 2,
-						leastChapterId = 10301
+						leastChapterId = 10303
 					}
 				},
 				0
@@ -568,11 +588,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May be available in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -592,9 +612,9 @@ pg.item_lack = {
 					"scene level",
 					{},
 					{
-						lastDigit = 1,
+						lastDigit = 4,
 						mapType = 2,
-						leastChapterId = 10301
+						leastChapterId = 10304
 					}
 				},
 				0
@@ -607,11 +627,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"May be available in Medal Exchange",
+				"Medal Shop",
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0

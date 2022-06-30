@@ -823,6 +823,17 @@ pg.fleet_tech_ship_class = {
 			20210
 		}
 	},
+	[20211] = {
+		shiptype = 2,
+		name = "Emerald Class",
+		nation = 2,
+		id = 20211,
+		t_level_1 = 52,
+		t_level = 3,
+		ships = {
+			20232
+		}
+	},
 	[20301] = {
 		shiptype = 3,
 		name = "London Class",
@@ -2714,7 +2725,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		t_level = 8,
 		ships = {
-			90111
+			90111,
+			90113
 		}
 	},
 	[90103] = {
@@ -2796,6 +2808,17 @@ pg.fleet_tech_ship_class = {
 			99901
 		}
 	},
+	[90701] = {
+		shiptype = 7,
+		name = "Joffre Class",
+		nation = 9,
+		id = 90701,
+		t_level_1 = 1,
+		t_level = 6,
+		ships = {
+			90701
+		}
+	},
 	all = {
 		10101,
 		10102,
@@ -2862,6 +2885,7 @@ pg.fleet_tech_ship_class = {
 		20208,
 		20209,
 		20210,
+		20211,
 		20301,
 		20302,
 		20303,
@@ -3028,6 +3052,7 @@ pg.fleet_tech_ship_class = {
 		90301,
 		90302,
 		90401,
-		90501
+		90501,
+		90701
 	}
 }

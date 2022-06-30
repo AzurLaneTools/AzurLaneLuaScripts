@@ -86,15 +86,11 @@ pg.ship_data_create_material = {
 			"",
 			"Common：30%",
 			"",
-			"<color=#ffde38>Emden</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Joffre</color>：2%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>Lützow</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>L'Indomptable</color>：2%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>Seydlitz</color>：0.5%",
-			"",
-			"<color=#d797ff>Elbing</color>：2.5%(<color=#92fc63>up!</color>)",
-			"",
-			"<color=#d797ff>Yorck</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Enterprise</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

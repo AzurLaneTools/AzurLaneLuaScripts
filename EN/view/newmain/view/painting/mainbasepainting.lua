@@ -32,6 +32,8 @@ function slot0.IsLoaded(slot0)
 end
 
 function slot0.Load(slot0, slot1, slot2)
+	slot0.isPuase = false
+	slot0.isExited = false
 	slot0.state = uv0
 	slot0.ship = slot1
 	slot0.paintingName = slot1:getPainting()
@@ -134,6 +136,10 @@ function slot0.TriggerEvent(slot0, slot1)
 end
 
 function slot0.TriggerNextEventAuto(slot0)
+	if slot0.isPuase or slot0.isExited then
+		return
+	end
+
 	slot0:OnEndChatting()
 	slot0:RemoveTimer()
 
@@ -378,6 +384,8 @@ function slot0.IslimitYPos(slot0)
 end
 
 function slot0.Puase(slot0)
+	slot0.isPuase = true
+
 	slot0:RemoveMoveTimer()
 	slot0:StopChatAnimtion()
 	slot0:RemoveTimer()
@@ -386,8 +394,17 @@ function slot0.Puase(slot0)
 end
 
 function slot0.Resume(slot0)
+	slot0.isPuase = false
+
 	slot0:TriggerNextEventAuto()
 	slot0:OnResume()
+end
+
+function slot0.updateShip(slot0, slot1)
+	slot0:OnUpdateShip(slot1)
+end
+
+function slot0.OnUpdateShip(slot0, slot1)
 end
 
 function slot0.Dispose(slot0)

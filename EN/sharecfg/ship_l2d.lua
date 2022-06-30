@@ -322,6 +322,113 @@ pg.ship_l2d = {
 			3.5
 		}
 	},
+	[3012921] = {
+		draw_able_name = "TouchDrag1",
+		offset_x = 0,
+		gyro_y = 0,
+		start_value = 0,
+		drag_direct = 0,
+		ship_skin_id = 301292,
+		ignore_react = 1,
+		mode = 2,
+		gyro = 0,
+		gyro_x = 0,
+		revert = 200,
+		parameter = "touch_drag1",
+		gyro_z = 0,
+		smooth = 200,
+		id = 3012921,
+		range_abs = 0,
+		offset_y = 80,
+		range = {
+			-1,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag1",
+			num = 1,
+			time = 0.5,
+			type = 1
+		}
+	},
+	[3012922] = {
+		draw_able_name = "TouchDrag2",
+		offset_x = 0,
+		gyro_y = 0,
+		start_value = 0,
+		drag_direct = 1,
+		ship_skin_id = 301292,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		revert = 200,
+		parameter = "touch_drag2",
+		gyro_z = 0,
+		smooth = 200,
+		id = 3012922,
+		range_abs = 1,
+		offset_y = 30,
+		range = {
+			0,
+			10
+		},
+		action_trigger = {
+			action = "touch_drag2",
+			time = 0.5,
+			type = 1,
+			num = 10,
+			reset = 1
+		}
+	},
+	[3012923] = {
+		draw_able_name = "TouchDrag3",
+		offset_x = 0,
+		gyro_y = 0,
+		start_value = 0,
+		drag_direct = 2,
+		ship_skin_id = 301292,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		action_trigger = "",
+		revert = -1,
+		parameter = "touch_drag3",
+		gyro_z = 0,
+		smooth = 200,
+		id = 3012923,
+		range_abs = 1,
+		offset_y = 80,
+		range = {
+			0,
+			1
+		}
+	},
+	[3012924] = {
+		draw_able_name = "TouchDrag4",
+		offset_x = 0,
+		gyro_y = 0,
+		start_value = 0,
+		drag_direct = 2,
+		ship_skin_id = 301292,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		action_trigger = "",
+		revert = -1,
+		parameter = "touch_drag4",
+		gyro_z = 0,
+		smooth = 200,
+		id = 3012924,
+		range_abs = 1,
+		offset_y = 80,
+		range = {
+			0,
+			1
+		}
+	},
 	all = {
 		101,
 		102,
@@ -335,6 +442,10 @@ pg.ship_l2d = {
 		205,
 		206,
 		207,
-		208
+		208,
+		3012921,
+		3012922,
+		3012923,
+		3012924
 	}
 }

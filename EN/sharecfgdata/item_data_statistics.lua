@@ -5378,7 +5378,7 @@ _G.pg.base.item_data_statistics[11050] = {
 	display = "533mm Quintuple Torpedo Mount Mk 17 T0 Design",
 	name = "533mm Quintuple Torpedo Mount Mk 17 T0 Design",
 	max_num = 0,
-	type = 0,
+	type = 9,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -5410,6 +5410,27 @@ _G.pg.base.item_data_statistics[11051] = {
 	id = 11051,
 	is_world = 0,
 	icon = "Equips/27320",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[11052] = {
+	display = "Bréguet BR.810 Design",
+	name = "Bréguet BR.810 Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11052,
+	is_world = 0,
+	icon = "Equips/51240",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -13620,6 +13641,121 @@ _G.pg.base.item_data_statistics[30334] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30335] = {
+	display = "Contains a random gear skin.",
+	name = "Gear Skin Box (Fairy Tale)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30335,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghua",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "Contains 1 random Cruise Mission gear skin.",
 	name = "Random Gear Skin Box",
@@ -14325,6 +14461,118 @@ _G.pg.base.item_data_statistics[30505] = {
 		{
 			9,
 			157,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30506] = {
+	display = "Can be opened to receive 1 Fairy Tale gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Fairy Tale)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30506,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghuazixuan",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
 			1
 		}
 	},
@@ -155490,6 +155738,147 @@ _G.pg.base.item_data_statistics[58608] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58609] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58609,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			81,
+			1
+		},
+		{
+			2,
+			82,
+			1
+		},
+		{
+			2,
+			43,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58610] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58610,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10103,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58611] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58611,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		},
+		{
+			2,
+			11052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "EXP is required to level up",
 	name = "Ship EXP",
@@ -159579,6 +159968,69 @@ _G.pg.base.item_data_statistics[59322] = {
 	id = 59322,
 	is_world = 0,
 	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59323] = {
+	display = "Earned by participating in the \"Angel of the Iris\" event. Earning a certain amount will allow you to claim Individual Rewards.",
+	name = "Contribution Points",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59323,
+	is_world = 0,
+	icon = "Props/joffre_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59324] = {
+	display = "A ticket used to access the EX stage in the \"Angel of the Iris\" event. Can also be used to gain more Reward Sorties.",
+	name = "Bonus Ticket",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59324,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59325] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the July 13th) ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59325,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},
