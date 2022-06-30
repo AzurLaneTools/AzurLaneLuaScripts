@@ -45,16 +45,16 @@ pg.skill_data_template = {
 	[11] = {
 		desc_get = "",
 		name = "维修Lv2",
-		desc_add = "[}",
+		id = 11,
 		type = 0,
 		max_level = 0,
-		id = 11,
 		desc = "每5秒回复10点耐久，同类效果取最大值，不可叠加",
 		system_transform = {},
 		world_death_mark = {
 			0
 		},
-		desc_get_add = {}
+		desc_get_add = {},
+		desc_add = {}
 	},
 	[12] = {
 		desc_get = "",

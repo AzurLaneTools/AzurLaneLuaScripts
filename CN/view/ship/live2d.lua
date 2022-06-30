@@ -205,6 +205,8 @@ function slot10(slot0, slot1)
 
 	if slot0.live2dData and slot0.live2dData.ship and slot0.live2dData.ship.propose then
 		slot0:changeParamaterValue("Paramring", 1)
+	else
+		slot0:changeParamaterValue("Paramring", 0)
 	end
 
 	uv1(slot0)
@@ -256,10 +258,6 @@ function slot0.SetVisible(slot0, slot1)
 		slot0._readlyToStop = false
 		slot0._animator.speed = 1
 
-		if slot0.live2dData and slot0.live2dData.ship and slot0.live2dData.ship.propose then
-			slot0:changeParamaterValue("Paramring", 1)
-		end
-
 		onDelayTick(function ()
 			if not uv0._readlyToStop then
 				uv0.liveCom:IgonreReactPos(false)
@@ -278,6 +276,18 @@ function slot0.SetVisible(slot0, slot1)
 				uv0._animator.speed = 0
 			end
 		end, 3)
+	end
+end
+
+function slot0.updateShip(slot0, slot1)
+	if slot1 and slot0.live2dData and slot0.live2dData.ship then
+		slot0.live2dData.ship = slot1
+
+		if slot0.live2dData and slot0.live2dData.ship and slot0.live2dData.ship.propose then
+			slot0:changeParamaterValue("Paramring", 1)
+		else
+			slot0:changeParamaterValue("Paramring", 0)
+		end
 	end
 end
 

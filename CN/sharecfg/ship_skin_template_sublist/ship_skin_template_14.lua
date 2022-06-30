@@ -3464,7 +3464,7 @@ pg.ship_skin_template_14 = {
 	},
 	[431231] = {
 		ship_group = 40123,
-		name = "z23换装占坑",
+		name = "薯条，以及笑容！",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -3492,7 +3492,7 @@ pg.ship_skin_template_14 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "占坑",
+		desc = "欢迎光临！要不要来份现炸出炉的美味薯条呢？…指挥官，别再盯着我看了！这只是快餐店的制服而已，快点点单啦！",
 		voice_actor = 3,
 		spine_offset = "",
 		gyro = 0,

@@ -1298,14 +1298,10 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 325,
-		actor_name = "真野步"
-	},
-	{
-		code = 326,
 		actor_name = "辻步美"
 	},
 	{
-		code = 327,
+		code = 326,
 		actor_name = "藤井雪代"
 	}
 }

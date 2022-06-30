@@ -83,6 +83,7 @@ function slot0.Refresh(slot0, slot1, slot2)
 
 		if slot2 then
 			slot0.painting:TriggerEventAtFirstTime()
+			slot0.painting:updateShip(slot1)
 		end
 	else
 		slot0:Init(slot1, slot2)
