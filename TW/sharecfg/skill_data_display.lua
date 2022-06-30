@@ -4042,23 +4042,23 @@ pg.skill_data_display = {
 	},
 	[18270] = {
 		id = 18270,
-		name = "柴郡PowerUp！ + "
+		name = "柴郡PowerUp！+"
 	},
 	[18271] = {
 		id = 18271,
-		name = "柴郡PowerUp！ + "
+		name = "柴郡PowerUp！+"
 	},
 	[18272] = {
 		id = 18272,
-		name = "柴郡PowerUp！ + "
+		name = "柴郡PowerUp！+"
 	},
 	[18320] = {
 		id = 18320,
-		name = "「Ausgewogen」 + "
+		name = "「Ausgewogen」+ "
 	},
 	[18322] = {
 		id = 18322,
-		name = "「Ausgewogen」 + "
+		name = "「Ausgewogen」+ "
 	},
 	[18340] = {
 		id = 18340,
@@ -4066,15 +4066,15 @@ pg.skill_data_display = {
 	},
 	[18350] = {
 		id = 18350,
-		name = "輔助機構「S.P.」 +"
+		name = "輔助機構「S.P.」+"
 	},
 	[18351] = {
 		id = 18351,
-		name = "輔助機構「S.P.」 + "
+		name = "輔助機構「S.P.」+"
 	},
 	[18352] = {
 		id = 18352,
-		name = "輔助機構「S.P.」 + "
+		name = "輔助機構「S.P.」+"
 	},
 	[19000] = {
 		id = 19000,

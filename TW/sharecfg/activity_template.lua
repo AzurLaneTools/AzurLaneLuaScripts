@@ -17899,6 +17899,7 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
+			entrance_bg = "activitybanner/temp10",
 			story = {
 				{
 					10000,
