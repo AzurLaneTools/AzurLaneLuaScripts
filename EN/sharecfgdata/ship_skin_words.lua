@@ -60264,7 +60264,7 @@ _G.pg.base.ship_skin_words[499051] = {
 
 _G.pg.base.ship_skin_words[499060] = {
 	feeling1 = "I have nothing to say to those who cannot fight.",
-	feeling3 = "Zeppelin and I both know what you are. An insignificant insect, triying to defy your destiny. Having said that... I believe a soul like you isn't meant to blindly accept their destiny.",
+	feeling3 = "Zeppelin and I both know what you are. An insignificant insect, trying to defy your destiny. Having said that... I believe a soul like you isn't meant to blindly accept their destiny.",
 	lose = "For every victor, there must also be a loser...",
 	propose = "So you seized the chance to subjugate me first. Yes, you are at your brightest when you kick and scream in the cage known as love. Allow yourself to be bound to me and amuse me for all eternity... Darling.",
 	expedition = "Your commission team underlings have returned. You know what to do now, yes?",

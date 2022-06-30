@@ -13775,7 +13775,7 @@ pg.skill_data_template = {
 				},
 				{
 					"46.4%",
-					"+3.3%"
+					"+3.6%"
 				},
 				{
 					"50.0%"
@@ -43284,7 +43284,7 @@ pg.skill_data_template = {
 				},
 				{
 					"46.4%",
-					"+3.3%"
+					"+3.6%"
 				},
 				{
 					"50.0%"
@@ -68124,7 +68124,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 				},
 				{
 					"46.4%",
-					"+3.3%"
+					"+3.6%"
 				},
 				{
 					"50.0%"
@@ -68275,7 +68275,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 				},
 				{
 					"46.4%",
-					"+3.3%"
+					"+3.6%"
 				},
 				{
 					"50.0%"
