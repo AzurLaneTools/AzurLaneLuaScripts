@@ -958,6 +958,17 @@ function slot0.OnDestroy(slot0)
 	slot0:clearListener()
 	removeAllChildren(slot0.equipmentsGrid)
 
+	if slot0.list then
+		slot1 = slot0.list
+
+		slot1:SetTotalCount(0)
+
+		function slot0.list.onUpdateItem()
+		end
+	end
+
+	slot0.destroy = true
+
 	if slot0.recordPanel then
 		if LeanTween.isTweening(go(slot0.recordPanel)) then
 			LeanTween.cancel(go(slot0.recordPanel))
