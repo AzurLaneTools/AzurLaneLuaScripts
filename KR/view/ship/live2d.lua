@@ -202,6 +202,13 @@ function slot10(slot0, slot1)
 	end
 
 	slot0.liveCom:SetTouchParts(uv0.assistantTouchParts)
+
+	if slot0.live2dData and slot0.live2dData.ship and slot0.live2dData.ship.propose then
+		slot0:changeParamaterValue("Paramring", 1)
+	else
+		slot0:changeParamaterValue("Paramring", 0)
+	end
+
 	uv1(slot0)
 	uv2(slot0)
 	uv3(slot0)
@@ -211,6 +218,16 @@ function slot10(slot0, slot1)
 	end
 
 	slot0.state = uv5.STATE_INITED
+
+	if slot0.delayChangeParamater and #slot0.delayChangeParamater > 0 then
+		for slot6 = 1, #slot0.delayChangeParamater do
+			slot7 = slot0.delayChangeParamater[slot6]
+
+			slot0:changeParamaterValue(slot7[1], slot7[2])
+		end
+
+		slot0.delayChangeParamater = nil
+	end
 end
 
 function slot0.Ctor(slot0, slot1, slot2)
@@ -262,6 +279,18 @@ function slot0.SetVisible(slot0, slot1)
 	end
 end
 
+function slot0.updateShip(slot0, slot1)
+	if slot1 and slot0.live2dData and slot0.live2dData.ship then
+		slot0.live2dData.ship = slot1
+
+		if slot0.live2dData and slot0.live2dData.ship and slot0.live2dData.ship.propose then
+			slot0:changeParamaterValue("Paramring", 1)
+		else
+			slot0:changeParamaterValue("Paramring", 0)
+		end
+	end
+end
+
 function slot0.IsLoaded(slot0)
 	return slot0.state == uv0.STATE_INITED
 end
@@ -288,6 +317,29 @@ function slot0.CheckStopDrag(slot0)
 		slot0.liveCom.ResponseClick = false
 
 		ReflectionHelp.RefSetField(typeof(Live2dChar), "inDrag", slot0.liveCom, false)
+	end
+end
+
+function slot0.changeParamaterValue(slot0, slot1, slot2)
+	if slot0:IsLoaded() then
+		if not slot1 or string.len(slot1) == 0 then
+			return
+		end
+
+		if not slot0.liveCom:GetCubismParameter(slot1) then
+			return
+		end
+
+		slot0.liveCom:AddParameterValue(slot3, slot2, uv0[1])
+	else
+		if not slot0.delayChangeParamater then
+			slot0.delayChangeParamater = {}
+		end
+
+		table.insert(slot0.delayChangeParamater, {
+			slot1,
+			slot2
+		})
 	end
 end
 

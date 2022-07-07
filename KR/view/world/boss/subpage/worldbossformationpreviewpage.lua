@@ -111,6 +111,8 @@ function slot0.UpdateEquipments(slot0, slot1, slot2)
 						equipment = uv1
 					})
 				end, SFX_PANEL)
+			else
+				removeOnButton(slot2)
 			end
 		end
 	end)

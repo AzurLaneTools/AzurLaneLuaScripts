@@ -777,6 +777,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[27] = {
+		spine_extra = "",
+		describe = "특수 가구: 조프르급 항공모함 모형(1:100)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "xiafeiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "조프르급 모형",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "chuanmo/xiafei",
+		canputon = 0,
+		id = 27,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[102] = {
 		spine_extra = "",
 		describe = "USS Arizona 1915.6.19─1941.12.7",
@@ -99483,7 +99520,7 @@ pg.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		themeId = 89,
-		belong = 1,
+		belong = 0,
 		is_3d_obj = 0,
 		count = 1,
 		tag = 4,
@@ -99517,13 +99554,13 @@ pg.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		themeId = 89,
-		belong = 1,
+		belong = 0,
 		is_3d_obj = 0,
 		count = 1,
 		tag = 3,
 		size = "",
 		deblocking = 1,
-		level = 1,
+		level = 5,
 		name = "이스트 글림 패션 벽지",
 		effect = "",
 		advice = 0,
@@ -100745,6 +100782,998 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[90001] = {
+		spine_extra = "",
+		describe = "환상의 색채가 물씬 풍기는 기묘한 숲~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "동화의 숲 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanthicon",
+		spine_action_replace = "",
+		picture = "th/dibanth",
+		comfortable = 4,
+		canputon = 0,
+		id = 90001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90002] = {
+		spine_extra = "",
+		describe = "환상의 색채가 물씬 풍기는 기묘한 숲~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "동화의 숲 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbithicon",
+		spine_action_replace = "",
+		picture = "th/qiangbith",
+		comfortable = 4,
+		canputon = 0,
+		id = 90002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90101] = {
+		spine_extra = "",
+		describe = "이거… 먹어도 되는 건가요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baimoguthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "흰버섯들",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/baimoguth",
+		canputon = 0,
+		id = 90101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90102] = {
+		spine_extra = "",
+		describe = "이거… 먹어도 되는 건가요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baimogu2thicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "흰버섯",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/baimogu2th",
+		canputon = 0,
+		id = 90102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90103] = {
+		spine_extra = "",
+		describe = "당근 뽑자, 당근~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "daluobothicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "자이언트 당근",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/daluoboth",
+		canputon = 0,
+		id = 90103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90104] = {
+		spine_extra = "",
+		describe = "하늘을 나는 푸른 고래.",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "환상의 고래",
+		themeId = 90,
+		icon = "feitianjingyuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 90104,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feitianjingyuth",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[90105] = {
+		spine_extra = "",
+		describe = "풍차야 돌아라~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fengchethicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "동화 풍차",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/fengcheth",
+		canputon = 0,
+		id = 90105,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90106] = {
+		spine_extra = "",
+		describe = "색이 예쁜 빨간 버섯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hongmoguthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "빨간 버섯",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/hongmoguth",
+		canputon = 0,
+		id = 90106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90107] = {
+		spine_extra = "",
+		describe = "어두운 숲에 은은한 별빛을 선사해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "hualudengthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "가로등꽃",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/hualudength",
+		canputon = 0,
+		id = 90107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90111] = {
+		spine_extra = "",
+		describe = "은은하고 그윽한 빛이 나요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hudiecongthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "나비 떼",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/hudiecongth",
+		canputon = 0,
+		id = 90111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90112] = {
+		spine_extra = "",
+		describe = "나무 위에 뭔가 있는 것 같은……？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jushuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "환상의 거목",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "th/jushuth",
+		canputon = 0,
+		id = 90112,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90113] = {
+		spine_extra = "",
+		describe = "휴우, 좀 쉬세요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 90,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "mogudengthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "버섯 의자",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/mogudength",
+		canputon = 0,
+		id = 90113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					7.8,
+					38.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90116] = {
+		spine_extra = "",
+		describe = "누가 살고 있을까요~?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "moguwuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "버섯 집",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/moguwuth",
+		canputon = 0,
+		id = 90116,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90117] = {
+		spine_extra = "",
+		describe = "얼른 타세요. 무도회가 곧 시작해요!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "호박 마차",
+		themeId = 90,
+		icon = "nanguachethicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 90117,
+		can_rotate = 0,
+		size = {
+			5,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"nanguachethB",
+				"normal"
+			},
+			{
+				"nanguachethT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					1.1,
+					-1.6
+				},
+				{
+					110,
+					140
+				},
+				"th/nanguacheth_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[90118] = {
+		spine_extra = "",
+		describe = "특별할 거 없는 돌.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shitouthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "동화 속 돌",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/shitouth",
+		canputon = 0,
+		id = 90118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90119] = {
+		spine_extra = "",
+		describe = "아이들의 즐거운 꿈～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuwuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "트리하우스",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/shuwuth",
+		canputon = 0,
+		id = 90119,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90120] = {
+		spine_extra = "",
+		describe = "숲의 깊은 곳으로——",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "suishiluthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "자갈길",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/suishiluth",
+		canputon = 0,
+		id = 90120,
+		can_rotate = 0,
+		size = {
+			24,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90121] = {
+		spine_extra = "",
+		describe = "늦겠다, 늦겠어!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tuzithicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "토끼 씨?",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/tuzith",
+		canputon = 0,
+		id = 90121,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90122] = {
+		spine_extra = "",
+		describe = "변해라쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiannvjiuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "선녀쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/xiannvjiuth",
+		canputon = 0,
+		id = 90122,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90123] = {
+		spine_extra = "",
+		describe = "할머니는 괜찮으시려나…쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaohongmaojiuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "빨간 모자쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/xiaohongmaojiuth",
+		canputon = 0,
+		id = 90123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90124] = {
+		spine_extra = "",
+		describe = "맛있는 당근!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaoluobothicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "당근",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/xiaoluoboth",
+		canputon = 0,
+		id = 90124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90125] = {
+		spine_extra = "",
+		describe = "맛있는 당근! 아주 많이!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaoluobosanlianthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "당근들",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/xiaoluobosanlianth",
+		canputon = 0,
+		id = 90125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90127] = {
+		spine_extra = "",
+		describe = "개울가에 신기한 버섯과 들풀이 자라고 있어요～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaoxithicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "동화 개울",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/xiaoxith",
+		canputon = 0,
+		id = 90127,
+		can_rotate = 0,
+		size = {
+			14,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90128] = {
+		spine_extra = "",
+		describe = "쿠우울… 쿠우울… Zzzz",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 90,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiongthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "슬리핑 베어",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/xiongth",
+		canputon = 0,
+		id = 90128,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-3.6,
+					72
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -100768,6 +101797,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			102,
 			104,
 			105,
@@ -100930,6 +101960,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			102,
 			104,
 			105,
@@ -105439,6 +106470,56 @@ pg.furniture_data_template = {
 			89307,
 			89308,
 			89309
+		},
+		[90] = {
+			90001,
+			90002,
+			90101,
+			90102,
+			90103,
+			90104,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90117,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128,
+			90001,
+			90002,
+			90101,
+			90102,
+			90103,
+			90104,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90117,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
 		}
 	},
 	get_id_list_by_tag = {
@@ -106881,7 +107962,27 @@ pg.furniture_data_template = {
 			89122,
 			89123,
 			89124,
-			89125
+			89125,
+			90101,
+			90102,
+			90103,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
 		},
 		{
 			1108,
@@ -107048,6 +108149,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			102,
 			104,
 			105,
@@ -107307,7 +108409,9 @@ pg.furniture_data_template = {
 			85126,
 			86122,
 			88126,
-			89126
+			89126,
+			90104,
+			90117
 		},
 		[4] = {
 			1001,
@@ -107383,7 +108487,8 @@ pg.furniture_data_template = {
 			86001,
 			87001,
 			88001,
-			89001
+			89001,
+			90001
 		},
 		[3] = {
 			1002,
@@ -107460,7 +108565,8 @@ pg.furniture_data_template = {
 			86002,
 			87002,
 			88002,
-			89002
+			89002,
+			90002
 		},
 		[5] = {
 			1301,
@@ -107805,7 +108911,8 @@ pg.furniture_data_template = {
 			86002,
 			87002,
 			88002,
-			89002
+			89002,
+			90002
 		},
 		[7] = {
 			1,
@@ -107829,6 +108936,7 @@ pg.furniture_data_template = {
 			24,
 			25,
 			26,
+			27,
 			102,
 			104,
 			105,
@@ -109359,7 +110467,26 @@ pg.furniture_data_template = {
 			89122,
 			89123,
 			89124,
-			89125
+			89125,
+			90101,
+			90102,
+			90103,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90118,
+			90119,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
 		},
 		[11] = {
 			131,
@@ -109393,7 +110520,9 @@ pg.furniture_data_template = {
 			77119,
 			84184,
 			84185,
-			84186
+			84186,
+			90104,
+			90117
 		},
 		[14] = {
 			214,
@@ -109483,7 +110612,8 @@ pg.furniture_data_template = {
 			86001,
 			87001,
 			88001,
-			89001
+			89001,
+			90001
 		},
 		[5] = {
 			1101,
@@ -109601,7 +110731,8 @@ pg.furniture_data_template = {
 			87116,
 			88103,
 			89106,
-			89107
+			89107,
+			90120
 		},
 		[3] = {
 			1108,
@@ -110053,6 +111184,7 @@ pg.furniture_data_template = {
 		24,
 		25,
 		26,
+		27,
 		102,
 		104,
 		105,
@@ -112303,6 +113435,30 @@ pg.furniture_data_template = {
 		89303,
 		89307,
 		89308,
-		89309
+		89309,
+		90001,
+		90002,
+		90101,
+		90102,
+		90103,
+		90104,
+		90105,
+		90106,
+		90107,
+		90111,
+		90112,
+		90113,
+		90116,
+		90117,
+		90118,
+		90119,
+		90120,
+		90121,
+		90122,
+		90123,
+		90124,
+		90125,
+		90127,
+		90128
 	}
 }

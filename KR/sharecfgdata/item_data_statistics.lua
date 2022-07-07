@@ -5567,7 +5567,7 @@ _G.pg.base.item_data_statistics[11050] = {
 	display = "5연장 533mm 어뢰 Mk17 T0 설계도",
 	name = "5연장 533mm 어뢰 Mk17 T0 설계도",
 	max_num = 0,
-	type = 0,
+	type = 9,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -5599,6 +5599,27 @@ _G.pg.base.item_data_statistics[11051] = {
 	id = 11051,
 	is_world = 0,
 	icon = "Equips/27320",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[11052] = {
+	display = "BR.810 함재기 설계도",
+	name = "BR.810 함재기 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11052,
+	is_world = 0,
+	icon = "Equips/51240",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -13946,6 +13967,121 @@ _G.pg.base.item_data_statistics[30334] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30335] = {
+	display = "랜덤한 장비 스킨을 입수할 수 있다. (동화 세계)",
+	name = "장비스킨 상자(동화 세계)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30335,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghua",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
 	name = "장비스킨 상자(월드 투어)",
@@ -14651,6 +14787,118 @@ _G.pg.base.item_data_statistics[30505] = {
 		{
 			9,
 			157,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30506] = {
+	display = "사용 후 「동화 세계」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
+	name = "장비 스킨 상자(동화 세계) ",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30506,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghuazixuan",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
 			1
 		}
 	},
@@ -41892,7 +42140,7 @@ _G.pg.base.item_data_statistics[52001] = {
 }
 
 _G.pg.base.item_data_statistics[52002] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "장비 설계도 (랜덤)",
 	max_num = 0,
 	type = 99,
@@ -41969,7 +42217,7 @@ _G.pg.base.item_data_statistics[52002] = {
 }
 
 _G.pg.base.item_data_statistics[52003] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "장비 설계도 (랜덤) T3",
 	max_num = 0,
 	type = 99,
@@ -152782,7 +153030,7 @@ _G.pg.base.item_data_statistics[58568] = {
 }
 
 _G.pg.base.item_data_statistics[58570] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -152829,7 +153077,7 @@ _G.pg.base.item_data_statistics[58570] = {
 }
 
 _G.pg.base.item_data_statistics[58571] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -152876,7 +153124,7 @@ _G.pg.base.item_data_statistics[58571] = {
 }
 
 _G.pg.base.item_data_statistics[58572] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -152923,7 +153171,7 @@ _G.pg.base.item_data_statistics[58572] = {
 }
 
 _G.pg.base.item_data_statistics[58573] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -152970,7 +153218,7 @@ _G.pg.base.item_data_statistics[58573] = {
 }
 
 _G.pg.base.item_data_statistics[58574] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -153017,7 +153265,7 @@ _G.pg.base.item_data_statistics[58574] = {
 }
 
 _G.pg.base.item_data_statistics[58575] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -153064,7 +153312,7 @@ _G.pg.base.item_data_statistics[58575] = {
 }
 
 _G.pg.base.item_data_statistics[58576] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -153111,7 +153359,7 @@ _G.pg.base.item_data_statistics[58576] = {
 }
 
 _G.pg.base.item_data_statistics[58577] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -153158,7 +153406,7 @@ _G.pg.base.item_data_statistics[58577] = {
 }
 
 _G.pg.base.item_data_statistics[58578] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -153205,7 +153453,7 @@ _G.pg.base.item_data_statistics[58578] = {
 }
 
 _G.pg.base.item_data_statistics[58579] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -153252,7 +153500,7 @@ _G.pg.base.item_data_statistics[58579] = {
 }
 
 _G.pg.base.item_data_statistics[58580] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -153299,7 +153547,7 @@ _G.pg.base.item_data_statistics[58580] = {
 }
 
 _G.pg.base.item_data_statistics[58581] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154143,7 +154391,7 @@ _G.pg.base.item_data_statistics[58587] = {
 }
 
 _G.pg.base.item_data_statistics[58588] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154190,7 +154438,7 @@ _G.pg.base.item_data_statistics[58588] = {
 }
 
 _G.pg.base.item_data_statistics[58589] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154237,7 +154485,7 @@ _G.pg.base.item_data_statistics[58589] = {
 }
 
 _G.pg.base.item_data_statistics[58590] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154284,7 +154532,7 @@ _G.pg.base.item_data_statistics[58590] = {
 }
 
 _G.pg.base.item_data_statistics[58591] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154331,7 +154579,7 @@ _G.pg.base.item_data_statistics[58591] = {
 }
 
 _G.pg.base.item_data_statistics[58592] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154378,7 +154626,7 @@ _G.pg.base.item_data_statistics[58592] = {
 }
 
 _G.pg.base.item_data_statistics[58593] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154425,7 +154673,7 @@ _G.pg.base.item_data_statistics[58593] = {
 }
 
 _G.pg.base.item_data_statistics[58594] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154472,7 +154720,7 @@ _G.pg.base.item_data_statistics[58594] = {
 }
 
 _G.pg.base.item_data_statistics[58595] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154514,7 +154762,7 @@ _G.pg.base.item_data_statistics[58595] = {
 }
 
 _G.pg.base.item_data_statistics[58596] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154556,7 +154804,7 @@ _G.pg.base.item_data_statistics[58596] = {
 }
 
 _G.pg.base.item_data_statistics[58597] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154598,7 +154846,7 @@ _G.pg.base.item_data_statistics[58597] = {
 }
 
 _G.pg.base.item_data_statistics[58598] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -154640,7 +154888,7 @@ _G.pg.base.item_data_statistics[58598] = {
 }
 
 _G.pg.base.item_data_statistics[58599] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -155479,7 +155727,7 @@ _G.pg.base.item_data_statistics[58605] = {
 }
 
 _G.pg.base.item_data_statistics[58606] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -155526,7 +155774,7 @@ _G.pg.base.item_data_statistics[58606] = {
 }
 
 _G.pg.base.item_data_statistics[58607] = {
-	display = "랜덤으로 SSR 이하의 장비 설계도를 획득할 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -155696,6 +155944,147 @@ _G.pg.base.item_data_statistics[58608] = {
 		{
 			4,
 			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58609] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58609,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			81,
+			1
+		},
+		{
+			2,
+			82,
+			1
+		},
+		{
+			2,
+			43,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58610] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58610,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10103,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58611] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58611,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		},
+		{
+			2,
+			11052,
 			1
 		}
 	},
@@ -156461,7 +156850,7 @@ _G.pg.base.item_data_statistics[59127] = {
 }
 
 _G.pg.base.item_data_statistics[59128] = {
-	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. 2019년 7월 11일 후 사용할 수 없습니다.",
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능2019년 7월 11일 후 사용할 수 없습니다.",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -156671,7 +157060,7 @@ _G.pg.base.item_data_statistics[59139] = {
 }
 
 _G.pg.base.item_data_statistics[59140] = {
-	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. 2019년 11월 14일 후 사용할 수 없습니다.",
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능2019년 11월 14일 후 사용할 수 없습니다.",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -156881,7 +157270,7 @@ _G.pg.base.item_data_statistics[59149] = {
 }
 
 _G.pg.base.item_data_statistics[59150] = {
-	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -157007,7 +157396,7 @@ _G.pg.base.item_data_statistics[59155] = {
 }
 
 _G.pg.base.item_data_statistics[59156] = {
-	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -157070,7 +157459,7 @@ _G.pg.base.item_data_statistics[59158] = {
 }
 
 _G.pg.base.item_data_statistics[59159] = {
-	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -157196,7 +157585,7 @@ _G.pg.base.item_data_statistics[59167] = {
 }
 
 _G.pg.base.item_data_statistics[59168] = {
-	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -157343,7 +157732,7 @@ _G.pg.base.item_data_statistics[59174] = {
 }
 
 _G.pg.base.item_data_statistics[59175] = {
-	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권 ",
 	max_num = 0,
 	type = 98,
@@ -159800,7 +160189,7 @@ _G.pg.base.item_data_statistics[59316] = {
 }
 
 _G.pg.base.item_data_statistics[59317] = {
-	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -159919,6 +160308,69 @@ _G.pg.base.item_data_statistics[59322] = {
 	id = 59322,
 	is_world = 0,
 	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59323] = {
+	display = "『아이리스의 천사』에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
+	name = "기여치 ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59323,
+	is_world = 0,
+	icon = "Props/joffre_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59324] = {
+	display = "『아이리스의 천사』EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
+	name = "특별 도전권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59324,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59325] = {
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59325,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},

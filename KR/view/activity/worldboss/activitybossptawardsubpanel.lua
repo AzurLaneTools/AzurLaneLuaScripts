@@ -105,4 +105,12 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
 	scrollTo(slot0.scrollPanel, 0, 1 - slot3 * 166 / (#slot2 * 166 + 20 - 570))
 end
 
+function slot0.OnShow(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+end
+
+function slot0.OnHide(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.viewParent._tf)
+end
+
 return slot0

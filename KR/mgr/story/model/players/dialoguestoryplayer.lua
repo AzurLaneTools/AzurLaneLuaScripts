@@ -66,7 +66,9 @@ function slot0.ResetActorTF(slot0, slot1, slot2)
 		})
 	else
 		if slot2 and slot2:IsDialogueMode() and slot1:IsSameSide(slot2) and slot1:IsDialogueMode() then
-			if not slot1:IsSamePainting(slot2) then
+			slot5 = slot1:IsSamePainting(slot2)
+
+			if slot0.formSkip or not slot5 then
 				slot0:RecyclePainting(slot4)
 			else
 				slot0.paintingStay = true

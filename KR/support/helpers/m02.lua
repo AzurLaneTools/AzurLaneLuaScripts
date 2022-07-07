@@ -965,7 +965,7 @@ function getDropInfo(slot0)
 		elseif slot7 == DROP_TYPE_EQUIP then
 			table.insert(slot1, Equipment.New({
 				id = slot8
-			}):getConfig("name") .. "x" .. counts)
+			}):getConfig("name") .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_RESOURCE then
 			table.insert(slot1, Item.New({
 				id = id2ItemId(slot8)
@@ -1683,6 +1683,30 @@ function shortenString(slot0, slot1)
 	end
 
 	return string.sub(slot0, 1, slot4 - 1) .. ".."
+end
+
+function shouldShortenString(slot0, slot1)
+	slot2 = 1
+	slot3 = 0
+	slot4 = 0
+	slot5 = #slot0
+
+	while slot2 <= slot5 do
+		slot7, slot8 = GetPerceptualSize(string.byte(slot0, slot2))
+		slot2 = slot2 + slot7
+
+		if slot1 <= math.ceil(slot3 + slot8) then
+			slot4 = slot2
+
+			break
+		end
+	end
+
+	if slot4 == 0 or slot5 < slot4 then
+		return false
+	end
+
+	return true
 end
 
 function nameValidityCheck(slot0, slot1, slot2, slot3)

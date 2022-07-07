@@ -69,7 +69,6 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.OPEN_SHIP_INFO, function (slot0, slot1, slot2)
 		uv0.contextData.form = ExercisePreCombatLayer.FORM_EDIT
-		uv0.contextData.fleetID = slot2.id
 		slot3 = {}
 
 		for slot7, slot8 in ipairs(slot2:getShipIds()) do
@@ -85,7 +84,6 @@ function slot0.register(slot0)
 		assert(slot2.id == FleetProxy.PVP_FLEET_ID, "fleet type error")
 
 		uv0.contextData.form = ExercisePreCombatLayer.FORM_EDIT
-		uv0.contextData.fleetID = slot2.id
 
 		FormationMediator.saveEdit()
 
@@ -184,7 +182,9 @@ function slot0.register(slot0)
 end
 
 function slot0.changeFleet(slot0, slot1)
-	if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
+	if slot0.contextData.system == SYSTEM_SUB_ROUTINE then
+		slot0.contextData.subFleetId = slot1
+	else
 		getProxy(PlayerProxy).combatFleetId = slot1
 	end
 

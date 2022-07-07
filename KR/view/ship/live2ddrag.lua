@@ -51,7 +51,11 @@ end
 function slot0.stopDrag(slot0)
 	if slot0.active then
 		slot0.active = false
-		slot0.parameterTargetValue = slot0.startValue
+
+		if slot0.revert > 0 then
+			slot0.parameterTargetValue = slot0.startValue
+		end
+
 		slot0.parameterToStart = 30
 	end
 end
@@ -83,6 +87,10 @@ function slot0.getParameterValue(slot0)
 					slot0.triggerActionFlag = true
 
 					slot0:stopDrag()
+
+					if slot0.actionTrigger and slot0.actionTrigger.reset == 1 then
+						slot0.parameterTargetValue = slot0.actionTrigger.num
+					end
 
 					slot0.parameterToStart = 180
 
@@ -139,14 +147,14 @@ function slot0.getParameterValue(slot0)
 			elseif slot0.offsetY and slot0.offsetY ~= 0 then
 				slot0.parameterTargetValue = (slot1.y - slot0.mouseInputDown.y) / slot0.offsetY
 			else
-				return slot0.startValue
+				return slot0.parameterTargetValue
 			end
-		end
 
-		if slot0.parameterTargetValue < 0 and slot0.dragDirect == 1 then
-			slot0.parameterTargetValue = 0
-		elseif slot0.parameterTargetValue > 0 and slot0.dragDirect == 2 then
-			slot0.parameterTargetValue = 0
+			if slot0.parameterTargetValue < 0 and slot0.dragDirect == 1 then
+				slot0.parameterTargetValue = 0
+			elseif slot0.parameterTargetValue > 0 and slot0.dragDirect == 2 then
+				slot0.parameterTargetValue = 0
+			end
 		end
 
 		if slot0.parameterTargetValue then
@@ -164,6 +172,10 @@ function slot0.getParameterValue(slot0)
 				slot0.parameterToStart = slot0.parameterToStart - 1
 
 				return slot0.parameterTargetValue
+			end
+
+			if slot0.actionTrigger and slot0.actionTrigger.reset == 1 then
+				slot0.parameterTargetValue = slot0.startValue
 			end
 
 			return nil

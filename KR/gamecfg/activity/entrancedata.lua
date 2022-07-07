@@ -48,17 +48,11 @@ return {
 			end
 
 			slot1 = false
-			slot2 = false
 
-			if pg.activity_event_worldboss[slot0.getConfig(slot0, "config_id")] then
-				slot5 = slot4.time ~= "stop" and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4.time[2])
-				slot2 = not (slot5 and pg.TimeMgr.GetInstance():GetServerTime() <= slot5)
-			end
-
-			if not slot2 then
+			if slot0.checkBattleTimeInBossAct(slot0) then
 				slot1 = slot0.data2 ~= 1
 			elseif getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
-				slot1 = ActivityBossPtData.New(slot5):CanGetAward()
+				slot1 = ActivityBossPtData.New(slot3):CanGetAward()
 			end
 
 			return slot1
@@ -317,19 +311,19 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970402",
+		banner = "meta_entrance_970403",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 9704021
+				autoOpenShipConfigID = 9704031
 			}
 		},
 		isShow = function ()
-			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970402) and slot1:isInAct()
+			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970403) and slot1:isInAct()
 		end,
 		isTip = function ()
-			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970402):isPassType() then
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970403):isPassType() then
 				return false
 			end
 

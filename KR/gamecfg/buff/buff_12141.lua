@@ -17,6 +17,21 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.04,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach"
@@ -34,6 +49,21 @@ return {
 				type = "BattleBuffAddBulletAttr",
 				trigger = {
 					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.056,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
 				},
 				arg_list = {
 					attr = "cri",
@@ -75,6 +105,21 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.072,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach"
@@ -92,6 +137,21 @@ return {
 				type = "BattleBuffAddBulletAttr",
 				trigger = {
 					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.088,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
 				},
 				arg_list = {
 					attr = "cri",
@@ -133,6 +193,21 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.104,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach"
@@ -150,6 +225,21 @@ return {
 				type = "BattleBuffAddBulletAttr",
 				trigger = {
 					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.12,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
 				},
 				arg_list = {
 					attr = "cri",
@@ -191,6 +281,21 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.14,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach"
@@ -208,6 +313,21 @@ return {
 				type = "BattleBuffAddBulletAttr",
 				trigger = {
 					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.16,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
 				},
 				arg_list = {
 					attr = "cri",
@@ -249,6 +369,21 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.18,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach"
@@ -266,6 +401,21 @@ return {
 				type = "BattleBuffAddBulletAttr",
 				trigger = {
 					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.2,
+					index = {
+						1,
+						2,
+						3
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddAircraftAttr",
+				trigger = {
+					"onAircraftCreate"
 				},
 				arg_list = {
 					attr = "cri",

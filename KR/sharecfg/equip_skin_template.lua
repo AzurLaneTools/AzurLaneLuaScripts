@@ -14555,6 +14555,543 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[580] = {
+		name = "버섯 총알",
+		bullet_name = "zidan_mogu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "먹으면 강해질까요?",
+		themeid = 34,
+		id = 580,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93811",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[581] = {
+		name = "사탕 총알",
+		bullet_name = "zidan_tangguo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "행복의 맛!",
+		themeid = 34,
+		id = 581,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93812",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[582] = {
+		name = "사과 총알",
+		bullet_name = "zidan_pingguo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "다른 사람이 주는 걸 함부로 먹으면 안 돼요.",
+		themeid = 34,
+		id = 582,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93813",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[583] = {
+		name = "유리구두 포탄",
+		bullet_name = "paodan_shuijingxie",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "유리구두에 발이 꼭 맞는 사람을 찾아야해요!",
+		themeid = 34,
+		id = 583,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93814",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[584] = {
+		name = "도끼 포탄",
+		bullet_name = "paodan_futou",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "네 도끼가 금도끼냐, 은도끼냐?",
+		themeid = 34,
+		id = 584,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93815",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[585] = {
+		name = "램프 포탄",
+		bullet_name = "paodan_youdeng",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "세 가지 소원을 들어주겠다…쥬!",
+		themeid = 34,
+		id = 585,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93816",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[586] = {
+		name = "피리 어뢰",
+		bullet_name = "yulei_chuidiren",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "식언의 대가!",
+		themeid = 34,
+		id = 586,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93821",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[587] = {
+		name = "당근 어뢰",
+		bullet_name = "yulei_huluobo",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "맛있고 건강하다쥬!",
+		themeid = 34,
+		id = 587,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93822",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[588] = {
+		name = "콩나무 덩굴 어뢰",
+		bullet_name = "yulei_modoutengwan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "콩나무를 타고 하늘까지 오를 수 있어요!",
+		themeid = 34,
+		id = 588,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93823",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[589] = {
+		name = "백조쥬(어뢰)",
+		bullet_name = "feiji_tiane",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "미운 오리 새끼는 백조가 될 거야쥬!",
+		themeid = 34,
+		id = 589,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93831",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_huluobo",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[590] = {
+		name = "백조쥬(전투)",
+		bullet_name = "feiji_tiane",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "미운 오리 새끼는 백조가 될 거야쥬!",
+		themeid = 34,
+		id = 590,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_futou",
+		orbit_ui = "",
+		icon = "93831",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[591] = {
+		name = "백조쥬(폭격)",
+		bullet_name = "feiji_tiane",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "미운 오리 새끼는 백조가 될 거야쥬!",
+		themeid = 34,
+		id = 591,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_futou",
+		orbit_ui = "",
+		icon = "93831",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[592] = {
+		name = "양탄자쥬(어뢰)",
+		bullet_name = "feiji_motan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "양탄자를 타고 모험을 떠나쥬!",
+		themeid = 34,
+		id = 592,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93832",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_chuidiren",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[593] = {
+		name = "양탄자쥬(전투)",
+		bullet_name = "feiji_motan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "양탄자를 타고 모험을 떠나쥬!",
+		themeid = 34,
+		id = 593,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_youdeng",
+		orbit_ui = "",
+		icon = "93832",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[594] = {
+		name = "양탄자쥬(폭격)",
+		bullet_name = "feiji_motan",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "양탄자를 타고 모험을 떠나쥬!",
+		themeid = 34,
+		id = 594,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_youdeng",
+		orbit_ui = "",
+		icon = "93832",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[595] = {
+		name = "마법 호박 마차(어뢰)",
+		bullet_name = "feiji_mofananguache",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "출발! 왕자의 무도회를 향해쥬!",
+		themeid = 34,
+		id = 595,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "93833",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_modoutengwan",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[596] = {
+		name = "마법 호박 마차(전투)",
+		bullet_name = "feiji_mofananguache",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "출발! 왕자의 무도회를 향해쥬!",
+		themeid = 34,
+		id = 596,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_shuijingxie",
+		orbit_ui = "",
+		icon = "93833",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[597] = {
+		name = "마법 호박 마차(폭격)",
+		bullet_name = "feiji_mofananguache",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "출발! 왕자의 무도회를 향해쥬!",
+		themeid = 34,
+		id = 597,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_shuijingxie",
+		orbit_ui = "",
+		icon = "93833",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "십자키 포탄(보라)",
 		bullet_name = "Nep_bullet_shizi",
@@ -17056,6 +17593,24 @@ pg.equip_skin_template = {
 		575,
 		576,
 		577,
+		580,
+		581,
+		582,
+		583,
+		584,
+		585,
+		586,
+		587,
+		588,
+		589,
+		590,
+		591,
+		592,
+		593,
+		594,
+		595,
+		596,
+		597,
 		1001,
 		1002,
 		1003,

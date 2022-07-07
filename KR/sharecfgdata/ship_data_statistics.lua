@@ -94076,6 +94076,518 @@ _G.pg.base.ship_data_statistics[202314] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[202321] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "엔터프라이즈",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202320,
+	english_name = "HMS Enterprise",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202321,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		603,
+		28,
+		53,
+		65,
+		0,
+		68,
+		0,
+		58,
+		30,
+		33,
+		83,
+		34
+	},
+	attrs_growth = {
+		15570,
+		386,
+		718,
+		1367,
+		0,
+		475,
+		0,
+		864,
+		678,
+		0,
+		0,
+		410
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		211
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.4,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Emerald-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202322] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "엔터프라이즈",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202320,
+	english_name = "HMS Enterprise",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202322,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		750,
+		35,
+		66,
+		81,
+		0,
+		68,
+		0,
+		58,
+		30,
+		33,
+		83,
+		43
+	},
+	attrs_growth = {
+		15570,
+		386,
+		718,
+		1367,
+		0,
+		475,
+		0,
+		864,
+		678,
+		0,
+		0,
+		410
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		212
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.4,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Emerald-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202323] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "엔터프라이즈",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202320,
+	english_name = "HMS Enterprise",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202323,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1044,
+		49,
+		92,
+		113,
+		0,
+		68,
+		0,
+		58,
+		30,
+		33,
+		83,
+		60
+	},
+	attrs_growth = {
+		15570,
+		386,
+		718,
+		1367,
+		0,
+		475,
+		0,
+		864,
+		678,
+		0,
+		0,
+		410
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		213
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.4,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Emerald-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202324] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "엔터프라이즈",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202320,
+	english_name = "HMS Enterprise",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202324,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1485,
+		69,
+		132,
+		160,
+		0,
+		68,
+		0,
+		58,
+		30,
+		33,
+		83,
+		85
+	},
+	attrs_growth = {
+		15570,
+		386,
+		718,
+		1367,
+		0,
+		475,
+		0,
+		864,
+		678,
+		0,
+		0,
+		410
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		214
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.55,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Emerald-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[203011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -254813,6 +255325,510 @@ _G.pg.base.ship_data_statistics[901124] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[901131] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "랭동타블",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 901130,
+	english_name = "MNF L'Indomptable",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 901131,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		351,
+		26,
+		50,
+		30,
+		0,
+		76,
+		0,
+		69,
+		83,
+		54,
+		23,
+		49
+	},
+	attrs_growth = {
+		9992,
+		361,
+		683,
+		652,
+		0,
+		529,
+		0,
+		1057,
+		1501,
+		0,
+		0,
+		560
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.2,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Fantasque-Class",
+		"buqu"
+	}
+}
+
+_G.pg.base.ship_data_statistics[901132] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "랭동타블",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 901130,
+	english_name = "MNF L'Indomptable",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 901132,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		437,
+		32,
+		62,
+		37,
+		0,
+		76,
+		0,
+		69,
+		83,
+		54,
+		23,
+		61
+	},
+	attrs_growth = {
+		9992,
+		361,
+		683,
+		652,
+		0,
+		529,
+		0,
+		1057,
+		1501,
+		0,
+		0,
+		560
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.2,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Fantasque-Class",
+		"buqu"
+	}
+}
+
+_G.pg.base.ship_data_statistics[901133] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "랭동타블",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 901130,
+	english_name = "MNF L'Indomptable",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 901133,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		608,
+		45,
+		87,
+		52,
+		0,
+		76,
+		0,
+		69,
+		83,
+		54,
+		23,
+		85
+	},
+	attrs_growth = {
+		9992,
+		361,
+		683,
+		652,
+		0,
+		529,
+		0,
+		1057,
+		1501,
+		0,
+		0,
+		560
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.2,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Fantasque-Class",
+		"buqu"
+	}
+}
+
+_G.pg.base.ship_data_statistics[901134] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "랭동타블",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 901130,
+	english_name = "MNF L'Indomptable",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 901134,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		864,
+		65,
+		124,
+		74,
+		0,
+		76,
+		0,
+		69,
+		83,
+		54,
+		23,
+		122
+	},
+	attrs_growth = {
+		9992,
+		361,
+		683,
+		652,
+		0,
+		529,
+		0,
+		1057,
+		1501,
+		0,
+		0,
+		560
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.25,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Fantasque-Class",
+		"buqu"
+	}
+}
+
 _G.pg.base.ship_data_statistics[902011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -257830,6 +258846,506 @@ _G.pg.base.ship_data_statistics[905034] = {
 		"Richelieu-Class",
 		"μ",
 		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[907011] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "조프르",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 907010,
+	english_name = "MNF Joffre",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 907011,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1080,
+		0,
+		0,
+		58,
+		79,
+		47,
+		0,
+		33,
+		14,
+		33.5,
+		28,
+		0
+	},
+	attrs_growth = {
+		27674,
+		0,
+		0,
+		1238,
+		979,
+		325,
+		0,
+		491,
+		283,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		125,
+		126,
+		127
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Joffre-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[907012] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "조프르",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 907010,
+	english_name = "MNF Joffre",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 907012,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1343,
+		0,
+		0,
+		72,
+		98,
+		47,
+		0,
+		33,
+		14,
+		33.5,
+		28,
+		0
+	},
+	attrs_growth = {
+		27674,
+		0,
+		0,
+		1238,
+		979,
+		325,
+		0,
+		491,
+		283,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		125,
+		126,
+		127
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.2,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Joffre-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[907013] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "조프르",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 907010,
+	english_name = "MNF Joffre",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 907013,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1870,
+		0,
+		0,
+		101,
+		137,
+		47,
+		0,
+		33,
+		14,
+		33.5,
+		28,
+		0
+	},
+	attrs_growth = {
+		27674,
+		0,
+		0,
+		1238,
+		979,
+		325,
+		0,
+		491,
+		283,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		125,
+		126,
+		127
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.2,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Joffre-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[907014] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "조프르",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 907010,
+	english_name = "MNF Joffre",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 907014,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2661,
+		0,
+		0,
+		143,
+		196,
+		47,
+		0,
+		33,
+		14,
+		33.5,
+		28,
+		0
+	},
+	attrs_growth = {
+		27674,
+		0,
+		0,
+		1238,
+		979,
+		325,
+		0,
+		491,
+		283,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		125,
+		126,
+		127
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Joffre-Class"
 	}
 }
 
@@ -296085,6 +297601,510 @@ _G.pg.base.ship_data_statistics[9704024] = {
 	tag_list = {
 		"ScharnhorstMETA",
 		"Scharnhorst"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9704031] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "리펄스·META",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 9704030,
+	english_name = "Repulse.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9704031,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1186,
+		71,
+		0,
+		58,
+		0,
+		53,
+		0,
+		15,
+		7,
+		32,
+		28,
+		0
+	},
+	attrs_growth = {
+		20410,
+		907,
+		0,
+		763,
+		0,
+		367,
+		0,
+		232,
+		175,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RepulseMETA",
+		"bunao"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9704032] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "리펄스·META",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 9704030,
+	english_name = "Repulse.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9704032,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1475,
+		89,
+		0,
+		72,
+		0,
+		53,
+		0,
+		15,
+		7,
+		32,
+		28,
+		0
+	},
+	attrs_growth = {
+		20410,
+		907,
+		0,
+		763,
+		0,
+		367,
+		0,
+		232,
+		175,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RepulseMETA",
+		"bunao"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9704033] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "리펄스·META",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 9704030,
+	english_name = "Repulse.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9704033,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2053,
+		124,
+		0,
+		101,
+		0,
+		53,
+		0,
+		15,
+		7,
+		32,
+		28,
+		0
+	},
+	attrs_growth = {
+		20410,
+		907,
+		0,
+		763,
+		0,
+		367,
+		0,
+		232,
+		175,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RepulseMETA",
+		"bunao"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9704034] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "리펄스·META",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 9704030,
+	english_name = "Repulse.META",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9704034,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2921,
+		177,
+		0,
+		144,
+		0,
+		53,
+		0,
+		15,
+		7,
+		32,
+		28,
+		0
+	},
+	attrs_growth = {
+		20410,
+		907,
+		0,
+		763,
+		0,
+		367,
+		0,
+		232,
+		175,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RepulseMETA",
+		"bunao"
 	}
 }
 

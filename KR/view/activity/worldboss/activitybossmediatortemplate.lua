@@ -46,7 +46,6 @@ function slot0.register(slot0)
 
 	if pg.activity_event_worldboss[slot1 and slot1:getConfig("config_id")] then
 		slot0.contextData.TicketID = slot4.ticket
-		slot0.contextData.BattleEndTimeStamp = slot4.time ~= "stop" and slot0.timeMgr:parseTimeFromConfig(slot4.time[2])
 		slot0.contextData.exStageID = slot4.ex_expedition
 		slot0.contextData.normalStageIDs = slot4.normal_expedition or {}
 		slot0.contextData.groupNum = slot4.group_num
@@ -141,7 +140,9 @@ function slot0.BindEvent(slot0)
 				actID = uv1.id,
 				fleets = slot7,
 				OnConfirm = function (slot0)
-					if not uv0:CheckInTime() then
+					if not uv0.contextData.activity:checkBattleTimeInBossAct() then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
 						return
 					end
 
@@ -189,7 +190,10 @@ function slot0.BindEvent(slot0)
 						end
 					end
 				end
-			}
+			},
+			onRemoved = function ()
+				uv0.viewComponent:updateEditPanel()
+			end
 		}))
 	end)
 	slot0:bind(uv0.ON_EX_PRECOMBAT, function (slot0, slot1, slot2)
@@ -271,7 +275,9 @@ function slot0.BindEvent(slot0)
 						actID = uv4.id,
 						fleets = slot3,
 						OnConfirm = function (slot0)
-							if not uv0:CheckInTime() then
+							if not uv0.contextData.activity:checkBattleTimeInBossAct() then
+								pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
 								return
 							end
 
@@ -476,22 +482,6 @@ end
 
 function slot0.UpdateView(slot0)
 	slot0.viewComponent:UpdateView()
-end
-
-function slot0.CheckInTime(slot0)
-	if not slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) or slot1:isEnd() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-		return false
-	end
-
-	if not slot0.contextData.BattleEndTimeStamp or slot0.contextData.BattleEndTimeStamp <= slot0.timeMgr:GetServerTime() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-		return false
-	end
-
-	return true
 end
 
 function slot0.UpdateRankData(slot0, slot1)

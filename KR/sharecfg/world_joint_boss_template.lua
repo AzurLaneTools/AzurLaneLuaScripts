@@ -52,12 +52,21 @@ pg.world_joint_boss_template = {
 		boss_level_id = 76,
 		id = 6,
 		meta_id = 970402,
+		state = "stop"
+	},
+	{
+		item_id = 100000,
+		name = "反击·META",
+		painting = "fanji",
+		boss_level_id = 91,
+		id = 7,
+		meta_id = 970403,
 		state = {
 			{
 				{
 					2022,
-					4,
-					14
+					7,
+					7
 				},
 				{
 					0,
@@ -68,8 +77,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2022,
-					7,
-					7
+					9,
+					29
 				},
 				{
 					23,
@@ -78,15 +87,6 @@ pg.world_joint_boss_template = {
 				}
 			}
 		}
-	},
-	{
-		item_id = 100000,
-		name = "反击·META",
-		painting = "fanji",
-		boss_level_id = 91,
-		id = 7,
-		meta_id = 970403,
-		state = "stop"
 	},
 	all = {
 		1,

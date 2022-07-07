@@ -1,4 +1,4 @@
-slot0 = class("NewyearFestivalScene", import("view.base.BaseUI"))
+slot0 = class("NewyearFestivalScene", import("..TemplateMV.BackHillTemplate"))
 
 function slot0.getUIName(slot0)
 	return "NewyearFestivalUI"
@@ -18,7 +18,7 @@ function slot0.init(slot0)
 	slot0.shouce = slot0.top:Find("yinhuashouceye")
 	slot0.shouce_bg = slot0.shouce:Find("bg")
 	slot0.layout_shouce = slot0.shouce:Find("yinhuace/layout")
-	slot0.group_get = slot0:Clone2Full(slot0.layout_shouce, 7)
+	slot0.group_get = CustomIndexLayer.Clone2Full(slot0.layout_shouce, 7)
 	slot0.btn_receive = slot0.shouce:Find("yinhuace/receive")
 	slot0.btn_shouce_help = slot0.shouce:Find("yinhuace/help")
 	slot0.img_get = slot0.shouce:Find("yinhuace/get")
@@ -34,7 +34,14 @@ function slot0.init(slot0)
 	slot0.bottom2 = slot0._map:Find("bottom2")
 	slot0.bottom = slot0._map:Find("bottom")
 	slot0.middle = slot0._map:Find("middle")
-	slot0.front = slot0._map:Find("top")
+	slot1 = slot0._map
+	slot0.front = slot1:Find("top")
+	slot0.containers = {
+		slot0.front,
+		slot0.middle,
+		slot0.bottom,
+		slot0.bottom2
+	}
 	slot0._shipTpl = slot0._map:Find("ship")
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.NewyearFestivalGraph"))
 	slot0.effectReq = LoadPrefabRequestPackage.New("ui/xuedichangjing", "xuedichangjing", function (slot0)
@@ -110,7 +117,7 @@ function slot0.didEnter(slot0)
 
 	slot0.academyStudents = {}
 
-	slot0:InitStudents()
+	slot0:InitStudents(ActivityConst.NEWYEAR_ACTIVITY, 3, 5)
 	slot0:UpdateView()
 
 	if slot0.contextData.isOpenShrine then
@@ -164,131 +171,11 @@ function slot0.UpdateView(slot0)
 	setActive(slot0.divination:Find("tip"), CygnetBathrobePage.IsTip())
 end
 
-function slot0.InitFacility(slot0, slot1, slot2)
-	onButton(slot0, slot1, slot2)
-	onButton(slot0, slot1:Find("button"), slot2)
-end
-
-function slot0.getStudents(slot0)
-	slot1 = {}
-
-	if not getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) then
-		return slot1
-	end
-
-	if slot3:getConfig("config_client") and slot4.ships then
-		slot5 = 0
-		slot6 = #Clone(slot4)
-
-		while slot5 < 15 and slot6 > 0 do
-			slot7 = math.random(1, slot6)
-
-			table.insert(slot1, slot4[slot7])
-
-			slot4[slot7] = slot4[slot6]
-			slot6 = slot6 - 1
-			slot5 = slot5 + math.random(3, 5)
-		end
-	end
-
-	return slot1
-end
-
 slot0.edge2area = {
 	["7_8"] = "bottom2",
 	["3_8"] = "bottom",
 	["5_6"] = "front"
 }
-
-function slot0.InitStudents(slot0)
-	for slot5, slot6 in pairs(slot0:getStudents()) do
-		if not slot0.academyStudents[slot5] then
-			slot7 = cloneTplTo(slot0._shipTpl, slot0._map)
-			slot7.gameObject.name = slot5
-			slot8 = SummerFeastNavigationAgent.New(slot7.gameObject)
-
-			slot8:attach()
-			slot8:setPathFinder(slot0.graphPath)
-			slot8:SetOnTransEdge(function (slot0, slot1, slot2)
-				slot0._tf:SetParent(uv0[uv0.edge2area[math.min(slot1, slot2) .. "_" .. math.max(slot1, slot2)]] or uv0.middle)
-			end)
-			slot8:updateStudent(slot6)
-
-			slot0.academyStudents[slot5] = slot8
-		end
-	end
-
-	if #slot1 > 0 then
-		slot0.sortTimer = Timer.New(function ()
-			uv0:sortStudents()
-		end, 0.2, -1)
-
-		slot0.sortTimer:Start()
-		slot0.sortTimer.func()
-	end
-end
-
-function slot0.sortStudents(slot0)
-	for slot5, slot6 in pairs({
-		slot0.front,
-		slot0.middle,
-		slot0.bottom,
-		slot0.bottom2
-	}) do
-		if slot6.childCount > 1 then
-			slot7 = {}
-
-			for slot11 = 1, slot6.childCount do
-				table.insert(slot7, {
-					tf = slot6:GetChild(slot11 - 1),
-					index = slot11
-				})
-			end
-
-			table.sort(slot7, function (slot0, slot1)
-				if math.abs(slot0.tf.anchoredPosition.y - slot1.tf.anchoredPosition.y) < 1 then
-					return slot0.index < slot1.index
-				else
-					return slot2 > 0
-				end
-			end)
-
-			for slot11, slot12 in ipairs(slot7) do
-				slot12.tf:SetSiblingIndex(slot11 - 1)
-			end
-		end
-	end
-end
-
-function slot0.clearStudents(slot0)
-	if slot0.sortTimer then
-		slot0.sortTimer:Stop()
-
-		slot0.sortTimer = nil
-	end
-
-	for slot4, slot5 in pairs(slot0.academyStudents) do
-		slot5:detach()
-		Destroy(slot5._go)
-	end
-
-	table.clear(slot0.academyStudents)
-end
-
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
-end
 
 function slot0.TryPlayStory(slot0)
 end

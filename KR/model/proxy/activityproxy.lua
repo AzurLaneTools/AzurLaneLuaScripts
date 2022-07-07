@@ -31,7 +31,11 @@ function slot0.register(slot0)
 			if not pg.activity_template[slot5.id] then
 				Debugger.LogError("活动acvitity_template不存在: " .. slot5.id)
 			else
-				if Activity.Create(slot5):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 or slot7 == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
+				if Activity.Create(slot5):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+					if slot6:checkBattleTimeInBossAct() then
+						uv0:updateActivityFleet(slot5)
+					end
+				elseif slot7 == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
 					uv0:updateActivityFleet(slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_PARAMETER then
 					uv0:addActivityParameter(slot6)
@@ -632,6 +636,29 @@ end
 function slot0.getBuildPoolActivity(slot0, slot1)
 	if slot1:IsActivity() then
 		return slot0:getActivityById(slot1.activityId)
+	end
+end
+
+function slot0.getEnterReadyActivity(slot0)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs({
+		ActivityConst.ACTIVITY_TYPE_ZPROJECT,
+		ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2
+	}) do
+		slot2[slot7] = 0
+	end
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot2[slot7:getConfig("type")] and not slot7:isEnd() then
+			slot2[slot8] = math.max(slot2[slot8], slot6)
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot1) do
+		if slot2[slot7] > 0 then
+			return slot0.data[slot2[slot7]]
+		end
 	end
 end
 

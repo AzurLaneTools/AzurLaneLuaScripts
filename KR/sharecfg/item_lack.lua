@@ -62,11 +62,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -242,11 +242,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -330,11 +330,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -377,11 +377,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -424,11 +424,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -471,11 +471,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -510,11 +510,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -549,11 +549,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -588,11 +588,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -627,11 +627,11 @@ pg.item_lack = {
 				0
 			},
 			{
-				"명예 훈장으로 확률적으로 교환",
+				"훈장 상점 교환",
 				{
-					"scene get boat",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
