@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관, 리베치오 피곤하지? 내가 디저트 가지고 왔어. 잠깐 쉬면서 해~",
+			say = "지휘관님, 리베치오 피곤하시죠? 제가 디저트 가지고 왔어요. 잠깐 쉬면서 하세요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "에헤헤, 메이드대에서 배운 적이 있어서.",
+			say = "에헤헤, 메이드대에서 배운 적이 있어서요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관이 좋아하면 다음 번에 더 많이 만들어 올게!",
+			say = "지휘관님이 좋아하신다면 다음 번에 더 많이 만들어 올게요!",
 			painting = {
 				alpha = 0.3,
 				time = 1

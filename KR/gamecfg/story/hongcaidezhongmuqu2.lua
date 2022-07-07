@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(그렇지만 같은 걸 보지 않으면, 아카시 선배를 설득하는 건 불가능에 가깝겠지)",
+			say = "(그렇지만 같은 걸 보지 않으면, 아카기 선배를 설득하는 건 불가능에 가깝겠지)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

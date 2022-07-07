@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "카가는 조금 의심스러운 표정으로 아카시가 가리키는 방향을 바라보았다.",
+			say = "카가는 조금 의심스러운 표정으로 아카기가 가리키는 방향을 바라보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
