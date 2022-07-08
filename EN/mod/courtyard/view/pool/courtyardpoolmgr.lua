@@ -44,13 +44,15 @@ function slot0.Init(slot0, slot1)
 
 	for slot9, slot10 in ipairs(slot4) do
 		table.insert(slot5, function (slot0)
-			slot1 = PoolMgr.GetInstance()
+			slot1 = ResourceMgr.Inst
 
-			slot1:GetPrefab("Effect/" .. uv0, uv0, true, function (slot0)
-				uv0.pools[uv1] = CourtYardEffectPool.New(slot0, 0, 3)
+			slot1:getAssetAsync("Effect/" .. uv0, "", typeof(Object), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				if slot0 then
+					uv0.pools[uv1] = CourtYardEffectPool.New(slot0, 0, 3)
+				end
 
 				uv2()
-			end)
+			end), true, true)
 		end)
 	end
 

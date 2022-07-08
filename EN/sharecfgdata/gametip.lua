@@ -15923,6 +15923,10 @@ _G.pg.base.gametip.multiple_ship_energy_low_warn = {
 	tip = "Exhausted\nAffinity will be reduced if you attack"
 }
 
+_G.pg.base.gametip.multiple_ship_energy_low_warn_no_exp = {
+	tip = "In your fleet, <color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, <color=#ff5c5c>her affinity will decrease</color>! Are you sure you wish to continue?"
+}
+
 _G.pg.base.gametip.us_error_download_painting = {
 	tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
 }
