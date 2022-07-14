@@ -278,10 +278,9 @@ function slot1.parseTimeFromConfig(slot0, slot1)
 end
 
 function slot1.DescCDTime(slot0, slot1)
-	slot2 = math.floor(slot1 / 3600)
-	slot1 = slot1 - slot2 * 3600
+	slot1 = slot1 % 3600
 
-	return string.format("%02d:%02d:%02d", slot2, math.floor(slot1 / 60), slot1 % 60)
+	return string.format("%02d:%02d:%02d", math.floor(slot1 / 3600), math.floor(slot1 / 60), slot1 % 60)
 end
 
 function slot1.parseTimeFrom(slot0, slot1)

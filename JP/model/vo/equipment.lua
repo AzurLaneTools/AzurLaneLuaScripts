@@ -75,7 +75,7 @@ function slot0.GetInfoTrans(slot0, slot1)
 
 		slot3 = uv0.CalcWeanponCD(slot3, slot1) .. "s" .. i18n("word_secondseach")
 	elseif slot0.type == AttributeType.AirDurability then
-		slot3 = math.floor((slot3[1] + slot3[2] * ((slot1 and slot1.level or 100) - 1)) / 1000)
+		slot3 = math.floor(slot3[1] + slot3[2] * ((slot1 and slot1.level or 100) - 1) / 1000)
 	elseif slot0.type == AttributeType.AntiSiren then
 		slot3 = (math.floor(slot3 / 100) > 0 and "+" or slot3 < 0 and "-" or "") .. slot3 .. "%"
 	end

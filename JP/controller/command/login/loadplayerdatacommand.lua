@@ -174,6 +174,10 @@ function slot0.execute(slot0, slot1)
 
 	slot5:registerProxy(AppreciateProxy.New())
 
+	slot5 = slot0.facade
+
+	slot5:registerProxy(AvatarFrameProxy.New())
+
 	slot5 = pg.ConnectionMgr.GetInstance()
 
 	slot5:setPacketIdx(1)

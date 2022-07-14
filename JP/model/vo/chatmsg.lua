@@ -17,6 +17,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.id = slot2.id
 	slot0.args = slot2.args
 	slot0.uniqueId = slot2.uniqueId
+	slot0.needBanRichText = true
+
+	if slot2.richText then
+		slot0.needBanRichText = false
+	end
 end
 
 function slot0.IsPublic(slot0)

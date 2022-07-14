@@ -13,28 +13,30 @@ function slot0.register(slot0)
 	slot4:setInGuild(getProxy(GuildProxy):getRawData() ~= nil)
 	slot0.viewComponent:setMessages(slot0:getAllMessages())
 	slot0:bind(uv0.ON_SEND_PUBLIC, function (slot0, slot1, slot2)
-		slot3 = slot2:match("^$ (%S+)")
+		if slot2 == "$ rndsec refresh" and Application.isEditor then
+			MainRandomFlagShipSkinSeqence.ForceRandom()
+		elseif slot2:match("$ rndskin print %d+") and Application.isEditor then
+			MainRandomFlagShipSkinSeqence.CalcRatio(tonumber(string.gmatch(slot2, "%d+")()), function (slot0)
+				getProxy(ChatProxy):addNewMsg(ChatMsg.New(ChatConst.ChannelWorld, {
+					richText = true,
+					player = getProxy(PlayerProxy):getData(),
+					content = slot0,
+					timestamp = pg.TimeMgr.GetInstance():GetServerTime()
+				}))
+			end)
+		elseif slot2:match("^$ (%S+)") then
+			slot3 = {}
 
-		if slot2:match("$ pushTest") then
-			slot5 = {}
-
-			for slot9, slot10 in slot2:gmatch("%S+") do
-				table.insert(slot5, slot9)
-			end
-
-			pg.PushNotificationMgr.GetInstance():Push(slot5[3], slot5[4], os.time() + slot5[5])
-		elseif slot3 then
-			slot5 = {}
-
-			for slot9, slot10 in slot2:gmatch("%s+(%S+)") do
-				table.insert(slot5, slot9)
+			for slot7, slot8 in slot2:gmatch("%s+(%S+)") do
+				table.insert(slot3, slot7)
 			end
 
 			uv0:sendNotification(GAME.SEND_CMD, {
-				cmd = slot5[1],
-				arg1 = slot5[2],
-				arg2 = slot5[3],
-				arg3 = slot5[4]
+				cmd = slot3[1],
+				arg1 = slot3[2],
+				arg2 = slot3[3],
+				arg3 = slot3[4],
+				arg4 = slot3[5]
 			})
 		elseif slot2 == "world battle skip" then
 			switch_world_skip_battle()
@@ -43,35 +45,35 @@ function slot0.register(slot0)
 				HXSet.switchCodeMode()
 			end
 		else
-			slot6 = getProxy(PlayerProxy):getData()
-			slot9 = 0
+			slot4 = getProxy(PlayerProxy):getData()
+			slot7 = 0
 
-			for slot13 = #getProxy(ChatProxy):getData(), 1, -1 do
-				if slot8[slot13].type == ChatConst.ChannelWorld and slot8[slot13].player.id == slot6.id then
-					slot9 = slot8[slot13].timestamp
+			for slot11 = #getProxy(ChatProxy):getData(), 1, -1 do
+				if slot6[slot11].type == ChatConst.ChannelWorld and slot6[slot11].player.id == slot4.id then
+					slot7 = slot6[slot11].timestamp
 
 					break
 				end
 			end
 
-			if pg.TimeMgr.GetInstance():GetServerTime() < slot6.chatMsgBanTime then
+			if pg.TimeMgr.GetInstance():GetServerTime() < slot4.chatMsgBanTime then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = true,
-					content = i18n("chat_msg_ban", os.date("%Y/%m/%d %H:%M:%S", slot6.chatMsgBanTime))
+					content = i18n("chat_msg_ban", os.date("%Y/%m/%d %H:%M:%S", slot4.chatMsgBanTime))
 				})
-			elseif slot6.level < 10 then
+			elseif slot4.level < 10 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("chat_level_not_enough", 10))
-			elseif slot10 - slot9 < 10 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("dont_send_message_frequently", 10 - (slot10 - slot9)))
+			elseif slot8 - slot7 < 10 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("dont_send_message_frequently", 10 - (slot8 - slot7)))
 			else
-				slot11, slot12 = wordVer(slot2, {
+				slot9, slot10 = wordVer(slot2, {
 					isReplace = true
 				})
 
 				if slot1 == ChatConst.ChannelWorld then
-					uv0:sendNotification(GAME.SEND_MSG, slot12)
+					uv0:sendNotification(GAME.SEND_MSG, slot10)
 				elseif slot1 == ChatConst.ChannelGuild then
-					uv0:sendNotification(GAME.GUILD_SEND_MSG, slot12)
+					uv0:sendNotification(GAME.GUILD_SEND_MSG, slot10)
 				end
 			end
 		end
@@ -153,8 +155,6 @@ function slot0.handleNotification(slot0, slot1)
 			end)
 		end
 	elseif slot2 == GAME.SEND_CMD_DONE then
-		print(slot3)
-
 		if string.find(slot3, "CMD:into") then
 			slot0.viewComponent:closeView()
 		end

@@ -39498,3 +39498,354 @@ _G.pg.base.ship_data_breakout[699014] = {
 	weapon_ids = {},
 	ultimate_bonus = {}
 }
+
+_G.pg.base.ship_data_breakout[299051] = {
+	use_gold = 0,
+	breakout_view = "特殊弾幕スキル習得/主砲補正+5%",
+	use_char_num = 1,
+	use_char = 29905,
+	breakout_id = 299052,
+	level = 10,
+	id = 299051,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		79891
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[299052] = {
+	use_gold = 0,
+	breakout_view = "主砲補正+10%",
+	use_char_num = 1,
+	use_char = 29905,
+	breakout_id = 299053,
+	level = 30,
+	id = 299052,
+	icon = "10001",
+	pre_id = 299051,
+	use_item = {},
+	weapon_ids = {
+		22280,
+		22280
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[299053] = {
+	use_gold = 0,
+	breakout_view = "特殊弾幕強化/主砲砲座+1",
+	use_char_num = 2,
+	use_char = 29905,
+	breakout_id = 299054,
+	level = 70,
+	id = 299053,
+	icon = "10001",
+	pre_id = 299052,
+	use_item = {},
+	weapon_ids = {
+		79892,
+		79893
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[299054] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 29905,
+	breakout_id = 0,
+	level = 0,
+	id = 299054,
+	icon = "10001",
+	pre_id = 299053,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[499071] = {
+	use_gold = 0,
+	breakout_view = "主砲砲座+1",
+	use_char_num = 1,
+	use_char = 49907,
+	breakout_id = 499072,
+	level = 10,
+	id = 499071,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		44100,
+		44100
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[499072] = {
+	use_gold = 0,
+	breakout_view = "副砲砲座+1/主砲補正+10%",
+	use_char_num = 1,
+	use_char = 49907,
+	breakout_id = 499073,
+	level = 30,
+	id = 499072,
+	icon = "10001",
+	pre_id = 499071,
+	use_item = {},
+	weapon_ids = {
+		101,
+		101,
+		101
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[499073] = {
+	use_gold = 0,
+	breakout_view = "主砲砲座+1/主砲補正+15%",
+	use_char_num = 2,
+	use_char = 49907,
+	breakout_id = 499074,
+	level = 70,
+	id = 499073,
+	icon = "10001",
+	pre_id = 499072,
+	use_item = {},
+	weapon_ids = {
+		44100,
+		44100,
+		44100
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[499074] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 49907,
+	breakout_id = 0,
+	level = 0,
+	id = 499074,
+	icon = "10001",
+	pre_id = 499073,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[599011] = {
+	use_gold = 0,
+	breakout_view = "特殊弾幕スキル習得/魚雷補正+5%/開始時魚雷+1",
+	use_char_num = 1,
+	use_char = 59901,
+	breakout_id = 599012,
+	level = 10,
+	id = 599011,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		79901,
+		79903
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[599012] = {
+	use_gold = 0,
+	breakout_view = "魚雷補正+10%/主砲砲座+1",
+	use_char_num = 1,
+	use_char = 59901,
+	breakout_id = 599013,
+	level = 30,
+	id = 599012,
+	icon = "10001",
+	pre_id = 599011,
+	use_item = {},
+	weapon_ids = {
+		100,
+		106,
+		100,
+		106
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[599013] = {
+	use_gold = 0,
+	breakout_view = "特殊弾幕強化/魚雷補正+15%/自身の魚雷兵装の散布ダウン",
+	use_char_num = 2,
+	use_char = 59901,
+	breakout_id = 599014,
+	level = 70,
+	id = 599013,
+	icon = "10001",
+	pre_id = 599012,
+	use_item = {},
+	weapon_ids = {
+		79902,
+		79903
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[599014] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 59901,
+	breakout_id = 0,
+	level = 0,
+	id = 599014,
+	icon = "10001",
+	pre_id = 599013,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[799011] = {
+	use_gold = 0,
+	breakout_view = "攻撃機補正+5%",
+	use_char_num = 1,
+	use_char = 79901,
+	breakout_id = 799012,
+	level = 10,
+	id = 799011,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		60851,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[799012] = {
+	use_gold = 0,
+	breakout_view = "攻撃隊上限+1/攻撃機補正+10%",
+	use_char_num = 1,
+	use_char = 79901,
+	breakout_id = 799013,
+	level = 30,
+	id = 799012,
+	icon = "10001",
+	pre_id = 799011,
+	use_item = {},
+	weapon_ids = {
+		60852,
+		54014,
+		60852,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[799013] = {
+	use_gold = 0,
+	breakout_view = "攻撃機補正+15%",
+	use_char_num = 2,
+	use_char = 79901,
+	breakout_id = 799014,
+	level = 70,
+	id = 799013,
+	icon = "10001",
+	pre_id = 799012,
+	use_item = {},
+	weapon_ids = {
+		60853,
+		54015,
+		60853,
+		54015
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[799014] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 79901,
+	breakout_id = 0,
+	level = 0,
+	id = 799014,
+	icon = "10001",
+	pre_id = 799013,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[899031] = {
+	use_gold = 0,
+	breakout_view = "主砲補正+5%/特殊副砲を追加",
+	use_char_num = 1,
+	use_char = 89903,
+	breakout_id = 899032,
+	level = 10,
+	id = 899031,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		85520
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[899032] = {
+	use_gold = 0,
+	breakout_view = "副砲補正+10%",
+	use_char_num = 1,
+	use_char = 89903,
+	breakout_id = 899033,
+	level = 30,
+	id = 899032,
+	icon = "10001",
+	pre_id = 899031,
+	use_item = {},
+	weapon_ids = {
+		85520,
+		85520
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[899033] = {
+	use_gold = 0,
+	breakout_view = "主砲補正+15%",
+	use_char_num = 2,
+	use_char = 89903,
+	breakout_id = 899034,
+	level = 70,
+	id = 899033,
+	icon = "10001",
+	pre_id = 899032,
+	use_item = {},
+	weapon_ids = {
+		85520,
+		85520
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[899034] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 89903,
+	breakout_id = 0,
+	level = 0,
+	id = 899034,
+	icon = "10001",
+	pre_id = 899033,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}

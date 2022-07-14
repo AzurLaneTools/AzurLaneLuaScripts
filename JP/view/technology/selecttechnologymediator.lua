@@ -30,8 +30,8 @@ end
 function slot0.onTechnologyNotify()
 	slot2 = true
 
-	if getProxy(TechnologyProxy):getActiveTechnology() then
-		slot2 = slot1:isFinished()
+	if getProxy(TechnologyProxy):getActivateTechnology() then
+		slot2 = slot1:isCompleted()
 	end
 
 	return slot2

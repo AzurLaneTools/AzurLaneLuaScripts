@@ -6046,6 +6046,132 @@ _G.pg.base.item_data_statistics[13030] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[13031] = {
+	display = "試作型四連装152mm砲設計図",
+	name = "試作型四連装152mm砲設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13031,
+	is_world = 0,
+	icon = "Equips/22280",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13032] = {
+	display = "試作型四連装330mm砲設計図Mle1931(超巡用)設計図",
+	name = "試作型四連装330mm砲設計図Mle1931(超巡用)設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13032,
+	is_world = 0,
+	icon = "Equips/50360",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13033] = {
+	display = "試作型艦上式Su-2設計図",
+	name = "試作型艦上式Su-2設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13033,
+	is_world = 0,
+	icon = "Equips/85540",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13034] = {
+	display = "試作型VIT-2(VK107)設計図",
+	name = "試作型VIT-2(VK107)設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13034,
+	is_world = 0,
+	icon = "Equips/85560",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13035] = {
+	display = "試作型四連装30mm機関砲設計図",
+	name = "試作型四連装30mm機関砲設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13035,
+	is_world = 0,
+	icon = "Equips/46400",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13036] = {
+	display = "試作型130mm連装砲Model 1936設計図",
+	name = "試作型130mm連装砲Model 1936設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13036,
+	is_world = 0,
+	icon = "Equips/56100",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 下記任意のSSレアの装備の設計図と交換可能
@@ -8764,7 +8890,7 @@ _G.pg.base.item_data_statistics[21131] = {
 }
 
 _G.pg.base.item_data_statistics[21901] = {
-	display = "飛龍(META)の解析ポイント。META戦開催期間（2021.3.18）終了時にリセットされます",
+	display = "飛龍(META)の解析ポイント",
 	name = "飛龍(META)解析Pt",
 	max_num = 0,
 	type = 4,
@@ -8785,7 +8911,7 @@ _G.pg.base.item_data_statistics[21901] = {
 }
 
 _G.pg.base.item_data_statistics[21902] = {
-	display = "アーク・ロイヤル(META)の解析ポイント。META戦開催期間（2021.6.10）終了時にリセットされます",
+	display = "アーク・ロイヤル(META)の解析ポイント",
 	name = "アーク・ロイヤル(META)解析Pt",
 	max_num = 0,
 	type = 4,
@@ -8806,7 +8932,7 @@ _G.pg.base.item_data_statistics[21902] = {
 }
 
 _G.pg.base.item_data_statistics[21903] = {
-	display = "ヘレナ(META)の解析ポイント。META戦開催期間（2021.9.9）終了時にリセットされます",
+	display = "ヘレナ(META)の解析ポイント",
 	name = "ヘレナ(META)解析Pt",
 	max_num = 0,
 	type = 4,
@@ -8827,7 +8953,7 @@ _G.pg.base.item_data_statistics[21903] = {
 }
 
 _G.pg.base.item_data_statistics[21904] = {
-	display = "蒼龍(META)の解析ポイント。META戦開催期間（2021.12.9）終了時にリセットされます",
+	display = "蒼龍(META)の解析ポイント",
 	name = "蒼龍(META)解析Pt",
 	max_num = 0,
 	type = 4,
@@ -8848,7 +8974,7 @@ _G.pg.base.item_data_statistics[21904] = {
 }
 
 _G.pg.base.item_data_statistics[21905] = {
-	display = "グナイゼナウ(META)の解析ポイント。META戦開催期間（2022.3.10）終了時にリセットされます",
+	display = "グナイゼナウ(META)の解析ポイント",
 	name = "グナイゼナウ(META)解析Pt",
 	max_num = 0,
 	type = 4,
@@ -8869,7 +8995,7 @@ _G.pg.base.item_data_statistics[21905] = {
 }
 
 _G.pg.base.item_data_statistics[21906] = {
-	display = "シャルンホルスト(META)の解析ポイント。META戦開催期間（2022.6.1）終了時にリセットされます",
+	display = "シャルンホルスト(META)の解析ポイント",
 	name = "シャルンホルスト(META)解析Pt",
 	max_num = 0,
 	type = 4,
@@ -8890,7 +9016,7 @@ _G.pg.base.item_data_statistics[21906] = {
 }
 
 _G.pg.base.item_data_statistics[21907] = {
-	display = "レパルス(META)の解析ポイント。META戦開催期間（2022.9.1）終了時にリセットされます",
+	display = "レパルス(META)の解析ポイント",
 	name = "レパルス(META)解析Pt",
 	max_num = 0,
 	type = 4,
@@ -39597,6 +39723,305 @@ _G.pg.base.item_data_statistics[42036] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[42040] = {
+	display = "特別計画艦一期目・二期目・三期目・四期目と五期目の強化ユニット（PR）から選択して入手できます",
+	name = "指向型強化ユニット・五期目",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42040,
+	is_world = 0,
+	icon = "Props/42040",
+	display_icon = {
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42041] = {
+	display = "ロイヤル巡洋艦「プリマス」の強化ユニット。\n<color=#92fc63>「プリマス」開発完了後、「開発ドック」で「プリマス」の性能を強化できる。</color>",
+	name = "強化ユニット「プリマス」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42041,
+	is_world = 0,
+	icon = "Props/42041",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42042] = {
+	display = "鉄血巡戦「プリンツ・ループレヒト」の強化ユニット。\n<color=#92fc63>「プリンツ・ループレヒト」開発完了後、「開発ドック」で「プリンツ・ループレヒト」の性能を強化できる。</color>",
+	name = "強化ユニット「プリンツ・ループレヒト」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42042,
+	is_world = 0,
+	icon = "Props/42042",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42043] = {
+	display = "東煌巡洋艦「ハルビン」の強化ユニット。\n<color=#92fc63>「ハルビン」開発完了後、「開発ドック」で「ハルビン」の性能を強化できる。</color>",
+	name = "強化ユニット「ハルビン」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42043,
+	is_world = 0,
+	icon = "Props/42043",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42044] = {
+	display = "北方連合空母「チカロフ」の強化ユニット。\n<color=#92fc63>「チカロフ」開発完了後、「開発ドック」で「チカロフ」の性能を強化できる。</color>",
+	name = "強化ユニット「チカロフ」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42044,
+	is_world = 0,
+	icon = "Props/42044",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42045] = {
+	display = "アイリス超巡「ブレスト」の強化ユニット。\n<color=#92fc63>「ブレスト」開発完了後、「開発ドック」で「ブレスト」の性能を強化できる。</color>",
+	name = "強化ユニット「ブレスト」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42045,
+	is_world = 0,
+	icon = "Props/42045",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42046] = {
+	display = "特別計画艦二期目・三期目・四期目・五期目の強化ユニット（DR）を選択肢て入手できます",
+	name = "上級指向型強化ユニット・五期目",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42046,
+	is_world = 0,
+	icon = "Props/42046",
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[43001] = {
 	display = "汎用型ブリからのバレンタインプレゼント",
 	name = "バレンタインプレゼント",
@@ -50239,6 +50664,130 @@ _G.pg.base.item_data_statistics[52051] = {
 		{
 			2,
 			15015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52061] = {
+	display = "ランダムで下記の強化ユニットを入手できます。",
+	name = "強化ユニット(ランダム)",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52061,
+	is_world = 0,
+	icon = "Props/52001",
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52062] = {
+	display = "ランダムで下記の設計図を入手できます。",
+	name = "兵装設計図(ランダム)",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52062,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			13036,
+			1
+		},
+		{
+			2,
+			13035,
+			1
+		},
+		{
+			2,
+			13034,
+			1
+		},
+		{
+			2,
+			13033,
+			1
+		},
+		{
+			2,
+			13032,
+			1
+		},
+		{
+			2,
+			13031,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13007,
 			1
 		}
 	},
@@ -167560,6 +168109,90 @@ _G.pg.base.item_data_statistics[59325] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59326] = {
+	display = "「兆しの夢」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 99,
+	link_id = 4445,
+	id = 59326,
+	is_world = 0,
+	icon = "Props/xunliandianshu_s",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59327] = {
+	display = "イベント「刹那觀る胡蝶の夢」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	name = "建造支援チケット",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4457,
+	id = 59327,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59328] = {
+	display = "「刹那觀る胡蝶の夢」報酬交換用。イベント終了後に削除されます",
+	name = "刹那のカケラ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59328,
+	is_world = 0,
+	icon = "Props/shinano_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59329] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2022.7.20メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2022.7.20まで）",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59329,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -179764,21 +180397,21 @@ _G.pg.base.item_data_statistics[100000] = {
 	shiptrans_id = {}
 }
 
-_G.pg.base.item_data_statistics[100001] = {
-	display = "セイレーン作戦で集めた「META座標情報」は解析を行うと、META戦を開放することが出来ます。META座標情報は一度解析すると消費され、また最大値まで溜まった状態では新たなMETA座標情報を入手することが出来ません。\n本日の解析可能回数：$1/$2\n META座標情報入手量　$3",
-	name = "META座標解析装置",
+_G.pg.base.item_data_statistics[100002] = {
+	display = "META艦船の遭遇記憶データ。「メタラボ」で記憶履歴を開放し、「META戦」の「記憶座標」で解析を行うとMETA艦船との戦闘を行うことが可能",
+	name = "記憶座標データ",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
-	rarity = 4,
+	rarity = 3,
 	shop_id = -1,
 	replace_item = 0,
 	drop_gold_max = 0,
 	virtual_type = 14,
-	link_id = 1000000,
-	id = 100001,
+	link_id = 0,
+	id = 100002,
 	is_world = 0,
-	icon = "Props/100001",
+	icon = "Props/100002",
 	display_icon = {},
 	price = {},
 	index = {},

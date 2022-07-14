@@ -495,7 +495,7 @@ _G.pg.base.gametip.word_succeed = {
 }
 
 _G.pg.base.gametip.word_start = {
-	tip = "増築/強化開始"
+	tip = "開始"
 }
 
 _G.pg.base.gametip.word_kiss = {
@@ -3473,6 +3473,10 @@ _G.pg.base.gametip.spweapon_tip_transform_attrmax = {
 
 _G.pg.base.gametip.spweapon_tip_locked = {
 	tip = "特殊装備枠は限界突破maxで開放されます"
+}
+
+_G.pg.base.gametip.spweapon_tip_unload = {
+	tip = "特殊装備は倉庫に戻されました"
 }
 
 _G.pg.base.gametip.spweapon_ui_level = {
@@ -8794,7 +8798,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 }
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "*<color=#A1E400FF>$1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
+	tip = "※<size=28><color=#A1E400FF>$1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します</size>"
 }
 
 _G.pg.base.gametip.shop_street_Equipment_skin_box_help = {
@@ -9108,7 +9112,12 @@ _G.pg.base.gametip.technology_help_text = {
 「研究指向」では、研究項目の出現傾向（最低三つ当該研究項目が出現する）を「第一期」「第二期」「第三期」から選択することが可能です。
 また、新たに追加された「強化指向」では、特別計画艦を1隻選択することで、科学研究項目完了時にその艦船の強化ユニットを追加で入手できます。
 
-研究指向、強化指向の対象は科学研究室のメイン画面下部の「指向設定」バナーから確認できます。]]
+研究指向、強化指向の対象は科学研究室のメイン画面下部の「指向設定」バナーから確認できます。
+※新機能：研究予定列
+ ·開始した研究項目は【研究完了条件】を資源消費などで条件を満たすと、【研究予定列】に追加できます
+【研究予定列】にある研究項目は追加された順番に沿って、研究時間が完了すると自動で完了していきます
+また、【研究予定列】に科学研究項目を追加すると、項目一覧画面の研究候補項目がリセットされます
+【研究予定列】は最大5個まで研究項目を追加でき、一度研究予定列に追加された項目は完了まで予定列から外せません]]
 		}
 	}
 }
@@ -10007,7 +10016,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ジョッフル」「ランドンターブル」「エンタープライズ(軽巡)」出現確率UP!"
+	tip = "期間限定建造を累計200回行うと「信濃」を確定で入手可能！（最大4隻まで）"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10111,27 +10120,27 @@ _G.pg.base.gametip.tec_notice_not_open_tip = {
 }
 
 _G.pg.base.gametip.apply_permission_camera_tip1 = {
-	tip = "AR録画機能を利用するには、\n音声の録音を許可する必要があります"
-}
-
-_G.pg.base.gametip.apply_permission_camera_tip2 = {
-	tip = "音声録音の権限がOFFになっています。\n端末の設定画面をご確認ください。"
-}
-
-_G.pg.base.gametip.apply_permission_camera_tip3 = {
-	tip = "音声録音の権限がOFFの場合、AR録画機能を利用できません。"
-}
-
-_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
 	tip = "ARカメラ機能を利用するには、\n写真の撮影と動画の利用を許可する必要があります"
 }
 
-_G.pg.base.gametip.apply_permission_record_audio_tip2 = {
+_G.pg.base.gametip.apply_permission_camera_tip2 = {
 	tip = "カメラの権限がOFFになっています。\n端末の設定画面をご確認ください。"
 }
 
-_G.pg.base.gametip.apply_permission_record_audio_tip3 = {
+_G.pg.base.gametip.apply_permission_camera_tip3 = {
 	tip = "カメラの権限がOFFの場合、ARカメラ機能を利用できません。"
+}
+
+_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
+	tip = "AR録画機能を利用するには、\n音声の録音を許可する必要があります"
+}
+
+_G.pg.base.gametip.apply_permission_record_audio_tip2 = {
+	tip = "音声録音の権限がOFFになっています。\n端末の設定画面をご確認ください。"
+}
+
+_G.pg.base.gametip.apply_permission_record_audio_tip3 = {
+	tip = "音声録音の権限がOFFの場合、AR録画機能を利用できません。"
 }
 
 _G.pg.base.gametip.nine_choose_one = {
@@ -11606,6 +11615,56 @@ _G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
 試作型三連装406mm主砲Model1940
 152mm三連装砲Model1934
 試作型90mm連装高角砲Model1939</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型四連装152mm砲
+533mm四連装魚雷MarkIX
+20mm二連装エリコン機関砲</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型406mmSKC連装砲
+150mmTbtsKC/36連装砲
+試作型四連装30mm機関砲 </color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型130mm連装砲Model 1936
+533mm三連装魚雷
+37mm対空機関砲70-K </color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型艦上式Su-2
+試作型艦上式Su-2
+試作型VIT-2(VK107) </color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型四連装330mm砲設計図Mle1931(超巡用)
+138.6mm単装砲Mle1929
+二連装ボフォース40mm機関砲 </color></size>]]
 }
 
 _G.pg.base.gametip.electrotherapy_wanning = {
@@ -14908,6 +14967,10 @@ _G.pg.base.gametip.tec_settings_btn_word = {
 	tip = "指向設定"
 }
 
+_G.pg.base.gametip.tec_tendency_x = {
+	tip = "特別計画$1"
+}
+
 _G.pg.base.gametip.tec_tendency_0 = {
 	tip = "指向なし"
 }
@@ -14926,6 +14989,10 @@ _G.pg.base.gametip.tec_tendency_3 = {
 
 _G.pg.base.gametip.tec_tendency_4 = {
 	tip = "特別計画Ⅳ"
+}
+
+_G.pg.base.gametip.tec_tendency_cur_x = {
+	tip = "研究指向 / $1"
 }
 
 _G.pg.base.gametip.tec_tendency_cur_0 = {
@@ -14956,6 +15023,10 @@ _G.pg.base.gametip.tec_tendency_cur_4 = {
 	tip = "研究指向 / Ⅳ"
 }
 
+_G.pg.base.gametip.tec_target_catchup_none_x = {
+	tip = "強化指向$1期/未選択"
+}
+
 _G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "強化指向Ⅰ期/未選択"
 }
@@ -14968,6 +15039,10 @@ _G.pg.base.gametip.tec_target_catchup_none_3 = {
 	tip = "強化指向Ⅲ期/未選択"
 }
 
+_G.pg.base.gametip.tec_target_catchup_selected_x = {
+	tip = "強化指向$1期/選択中"
+}
+
 _G.pg.base.gametip.tec_target_catchup_selected_1 = {
 	tip = "強化指向Ⅰ期/選択中"
 }
@@ -14978,6 +15053,10 @@ _G.pg.base.gametip.tec_target_catchup_selected_2 = {
 
 _G.pg.base.gametip.tec_target_catchup_selected_3 = {
 	tip = "強化指向Ⅲ期/選択中"
+}
+
+_G.pg.base.gametip.tec_target_catchup_finish_x = {
+	tip = "強化指向$1期/完了"
 }
 
 _G.pg.base.gametip.tec_target_catchup_finish_1 = {
@@ -17156,7 +17235,7 @@ _G.pg.base.gametip.meta_pt_left = {
 }
 
 _G.pg.base.gametip.meta_syn_rate = {
-	tip = "未配置tip"
+	tip = "解析進捗"
 }
 
 _G.pg.base.gametip.meta_repair_rate = {
@@ -20640,9 +20719,198 @@ _G.pg.base.gametip.chang_ship_skin_window_title = {
 _G.pg.base.gametip.world_boss_item_info = {
 	tip = [[
 META座標情報解析装置|セイレーン作戦で集めた「META座標」情報を記録する装置。解析を行うと「META戦」を開放できます。
-「META戦」が溜まった状態では新たに解析を行うことができません。
+「META戦」が溜まった状態では新たに解析を行うことはできません。
 「META戦」本日開放数：$1/$2
 座標情報所持上限：$3/$4]]
+}
+
+_G.pg.base.gametip.world_past_boss_item_info = {
+	tip = [[
+記憶履歴座標情報解析装置|セイレーン作戦で集めた「META座標」情報を記録する装置。「記憶履歴」で記憶履歴を開放し、さらに解析を行うと過去に開催した「META戦」を開放できます。
+「META戦」が溜まった状態では新たに解析を行うことはできません。
+「META戦」本日開放数：$1/$2
+座標情報所持上限：$3/$4]]
+}
+
+_G.pg.base.gametip.world_boss_lefttime = {
+	tip = "$1日"
+}
+
+_G.pg.base.gametip.world_boss_item_count_noenough = {
+	tip = "解析する座標情報が不足しています"
+}
+
+_G.pg.base.gametip.world_boss_item_usage_tip = {
+	tip = "開催中のMETA戦と記憶履歴の座標情報を同時に解析できません"
+}
+
+_G.pg.base.gametip.world_boss_no_select_archives = {
+	tip = "メタラボで記憶履歴を開放してください"
+}
+
+_G.pg.base.gametip.world_boss_archives_item_count_noenough = {
+	tip = "記憶履歴情報が不足しています"
+}
+
+_G.pg.base.gametip.world_boss_archives_are_clear = {
+	tip = "開放可能な全META艦船を入手済です"
+}
+
+_G.pg.base.gametip.world_boss_switch_archives = {
+	tip = "$1の記憶履歴が開放中です。別のMETA艦船に開放先を切り替えますか？\n（既に進行中のMETA戦に影響しません）"
+}
+
+_G.pg.base.gametip.world_boss_switch_archives_success = {
+	tip = "記憶履歴を開放しました。META戦の「記憶座標」で解析できます"
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_unopen = {
+	tip = "META戦を一度クリアすると自動戦闘が使用可能になります"
+}
+
+_G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
+	tip = "自動戦闘中のため、戦闘を開始できません"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle = {
+	tip = "自動戦闘中止"
+}
+
+_G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
+	tip = "自動戦闘再開"
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_reusle_title = {
+	tip = "自動戦闘完了"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_title = {
+	tip = "自動戦闘中..."
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
+	tip = "残り時間:"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip1 = {
+	tip = "（自動戦闘を中止すると、\n敵META艦船へのダメージが無効になり、\nまた消費した燃料が返還されません）"
+}
+
+_G.pg.base.gametip.world_archives_boss_help = {
+	tip = {
+		{
+			info = [[
+敵情記憶について
+
+1. META戦の「記憶履歴」で実装済みのMETA戦の履歴を開放すると、META戦にてその<color=#92fc63>META艦船</color>との戦闘を開放することができ、解析Ptを入手できます。記憶履歴にMETA艦船が実装される際、そのMETA艦船を入手できていない場合、初開催時の解析Ptが履歴開放時に再度付与されます。
+
+2.「敵情記憶」の解析について
+•セイレーン作戦では、新たに「記憶座標データ」を入手できます。
+•「記憶座標データ」は毎日 <color=#92fc63>200</color>まで入手可能。また、前日に使用しなかった最大保有量以内の「記憶座標データ」は翌日に持ち越せます。
+•「記憶座標データ」はMETA戦画面で<color=#92fc63>100</color>を消費して、開放中の過去実装のMETA戦を再度解放できます。
+
+3.「敵情記憶」の出現艦船について
+•「記憶履歴」画面で履歴を開放すると、META戦の「敵情記憶」で開放中のMETA艦船のMETA戦を開放できます。
+•対象のMETA艦船を切り替える場合、「記憶履歴」画面で別の艦船を選択し、再度履歴開放を行ってください。
+
+4.「敵情記憶」のMETA戦について
+•META戦に1回目の挑戦の際は燃料を消費しません。2回目以降の挑戦では、挑戦回数が増えるにつれて、消費燃料が<color=#92fc63>40</color>から<color=#92fc63>0</color>に減少していきます。また、敵情記憶ではMETA戦の挑戦回数を消費しません。
+•META戦で、敵のHPを0にすると、その艦船の解析Ptを取得できます。
+•一度開放されたMETA戦は最大24時間持続します。24時間経過すると、再度開放する必要があります。
+•「敵情記憶」のMETA戦の敵脅威度はLV15固定になります。
+
+5.「敵情記憶」における味方支援について
+•「記憶一覧」画面では、「フレンド」、「大艦隊」メンバーが開放した「敵情記憶」に支援することができます。
+•<color=#92fc63>味方を支援する場合、報酬は受け取れず、また燃料や挑戦回数も消費しません。</color>
+•開放されたMETA戦には最大30人まで戦闘に参加できます。
+
+6.「敵情記憶」のMETA戦の仕様について
+•通常のMETA戦同様、オフニャと潜水艦は参加できません。
+•戦闘に参加した艦船は経験値を入手できず、またコンディションも変化しません。
+•戦闘は一時中止できまません。なお戦闘中電源オフなどでアプリが終了した場合：
+①自分で開放したMETA戦の場合、消費された燃料は返還されません。またアプリ終了時までの敵へのダメージが反映されません。
+②自分以外の指揮官が開放したMETA戦の場合も、アプリ終了時までの敵へのダメージが反映されません。
+
+7.自動戦闘について
+•一度「敵情記憶」で自分が開放したMETA戦に挑戦すると、そのMETA戦が終了するまで「自動戦闘」機能が開放されます。
+•自動戦闘を一度開始すると、自動戦闘ボタンタップで終了させない限り15分後に敵を自動で倒してくれます。
+•自動作戦機能での燃料消費数は、そのMETA戦での一度の戦闘で達成した最高ダメージを元に、敵を倒すまでの必要戦闘回数を計算し燃料を消費します。燃料の消費計算は手動で挑戦するのと同じ計算方法になります（最大200消費します）
+•途中で自動戦闘を終了した場合、消費した燃料は返還されず、敵に与えたダメージが無効になります。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.world_archives_boss_list_help = {
+	tip = {
+		{
+			info = [[
+記憶履歴について
+
+1. 記憶履歴で開放可能な艦船（入手していない艦船）の解析Ptは、当該艦船のMETA戦イベント初回開催時の解析Ptが引き継がれます。また、累計解析Pt報酬の受け取り状況も引き継がれます。
+2.記憶履歴では、当該META艦船の履歴解放・累計解析Pt報酬の受け取りが行なえます。
+3.全ての累計解析Pt報酬を入手した場合、当該艦船は「Pt報酬受取済」タブに移動されます]]
+		}
+	}
+}
+
+_G.pg.base.gametip.archives_boss_was_opened = {
+	tip = "開放中のMETA戦（記憶履歴）があります。座標解析に移動できません"
+}
+
+_G.pg.base.gametip.current_boss_was_opened = {
+	tip = "開放中のMETA戦（座標解析）があります。敵情記憶に移動できません"
+}
+
+_G.pg.base.gametip.world_boss_title_auto_battle = {
+	tip = "自動戦闘"
+}
+
+_G.pg.base.gametip.world_boss_title_highest_damge = {
+	tip = "最大ダメージ"
+}
+
+_G.pg.base.gametip.world_boss_title_estimation = {
+	tip = "自動戦闘予想"
+}
+
+_G.pg.base.gametip.world_boss_title_battle_cnt = {
+	tip = "戦闘回数"
+}
+
+_G.pg.base.gametip.world_boss_title_consume_oil_cnt = {
+	tip = "燃料消費"
+}
+
+_G.pg.base.gametip.world_boss_title_spend_time = {
+	tip = "必要時間"
+}
+
+_G.pg.base.gametip.world_boss_title_total_damage = {
+	tip = "ダメージ"
+}
+
+_G.pg.base.gametip.world_no_time_to_auto_battle = {
+	tip = "META戦残り時間が不足しています"
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label = {
+	tip = "本日入手"
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label1 = {
+	tip = "META戦開放消費"
+}
+
+_G.pg.base.gametip.world_boss_archives_boss_tip = {
+	tip = "記憶連絡のMETA戦は報酬を入手できず、回数を消費しません"
+}
+
+_G.pg.base.gametip.world_boss_progress_no_enough = {
+	tip = "座標（記憶）データが不足しています"
+}
+
+_G.pg.base.gametip.world_boss_auto_battle_no_oil = {
+	tip = "燃料が不足しています"
 }
 
 _G.pg.base.gametip.meta_syn_value_label = {
@@ -20933,6 +21201,110 @@ _G.pg.base.gametip.commission_event_tip = {
 	}
 }
 
+_G.pg.base.gametip.decoration_medal_placeholder = {
+	tip = "勲章を入手していません"
+}
+
+_G.pg.base.gametip.technology_filter_placeholder = {
+	tip = "所属する艦船がいません"
+}
+
+_G.pg.base.gametip.eva_comment_send_null = {
+	tip = "コメントを入力してください"
+}
+
 _G.pg.base.gametip.rename_input = {
 	tip = "名前を入力してください"
+}
+
+_G.pg.base.gametip.avatar_task_level = {
+	tip = "$1$2を含む艦隊かつ生存させた状態で限定海域$3中枢艦隊を$4回撃破"
+}
+
+_G.pg.base.gametip.avatar_upgrad_1 = {
+	tip = "突破1回"
+}
+
+_G.pg.base.gametip.avatar_upgrad_2 = {
+	tip = "突破2回"
+}
+
+_G.pg.base.gametip.avatar_upgrad_3 = {
+	tip = "突破max"
+}
+
+_G.pg.base.gametip.avatar_task_ship_1 = {
+	tip = "艦船「$1」を入手"
+}
+
+_G.pg.base.gametip.avatar_task_ship_2 = {
+	tip = "「$1」を3回限界突破する"
+}
+
+_G.pg.base.gametip.technology_queue_complete = {
+	tip = "研究完了"
+}
+
+_G.pg.base.gametip.technology_queue_processing = {
+	tip = "進行中"
+}
+
+_G.pg.base.gametip.technology_queue_waiting = {
+	tip = "順番待ち"
+}
+
+_G.pg.base.gametip.technology_queue_getaward = {
+	tip = "報酬受取"
+}
+
+_G.pg.base.gametip.technology_daily_refresh = {
+	tip = "1日1回手動更新可能"
+}
+
+_G.pg.base.gametip.technology_queue_full = {
+	tip = "予定列が満杯です。研究項目を追加できません"
+}
+
+_G.pg.base.gametip.technology_queue_in_mission_incomplete = {
+	tip = "研究完了条件をクリアしていないため、予定列に追加できません"
+}
+
+_G.pg.base.gametip.technology_consume = {
+	tip = "研究で消費されます"
+}
+
+_G.pg.base.gametip.technology_request = {
+	tip = "研究完了条件"
+}
+
+_G.pg.base.gametip.technology_queue_in_doublecheck = {
+	tip = "研究項目を予定列に追加しますか？追加された予定列は順番通りに自動で完了していきます（予定から取り消すことができません）"
+}
+
+_G.pg.base.gametip.technology_queue_in_success = {
+	tip = "予定列に追加しました"
+}
+
+_G.pg.base.gametip.star_require_enemy_text = {
+	tip = "「すべての敵を撃破」まで残り：$1"
+}
+
+_G.pg.base.gametip.star_require_enemy_title = {
+	tip = "残存敵艦隊数"
+}
+
+_G.pg.base.gametip.star_require_enemy_check = {
+	tip = "確認"
+}
+
+_G.pg.base.gametip.worldboss_rank_timer_label = {
+	tip = "順位集計中\n残り："
+}
+
+_G.pg.base.gametip.technology_detail = {
+	tip = "詳細確認"
+}
+
+_G.pg.base.gametip.technology_mission_unfinish = {
+	tip = "条件未達成"
 }

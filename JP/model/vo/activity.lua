@@ -375,8 +375,6 @@ function slot0.readyToAchieve(slot0)
 			elseif slot0.id == ActivityConst.APRILFOOL_DISCOVERY_RE then
 				slot2 = slot2 or slot0.data1 < 2
 			end
-		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
-			return #slot0:GetCrusingUnreceiveAward() > 0
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE then
 			return not WorldInPictureActiviyData.New(slot0):IsTravelAll() and slot4:GetTravelPoint() > 0 or slot4:GetDrawPoint() > 0 and slot4:AnyAreaCanDraw()
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_APRIL_REWARD then
@@ -403,6 +401,8 @@ function slot0.readyToAchieve(slot0)
 			end)
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_EVENT then
 			return PlayerPrefs.GetInt("ACTIVITY_TYPE_EVENT_" .. slot0.id .. "_" .. getProxy(PlayerProxy):getData().id) == 0
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_OTHER and slot0.data2 and slot0.data2 <= 0 and pg.activity_event_avatarframe[slot0:getConfig("config_id")].target <= slot0.data1 then
+			return true
 		end
 	end
 end

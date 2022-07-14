@@ -1,7 +1,8 @@
-slot0 = class("MainChatRoomView")
+slot0 = class("MainChatRoomView", import("view.base.BaseEventLogic"))
 slot1 = 4
 
 function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot1
@@ -20,11 +21,18 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.RegisterEvent(slot0, slot1)
+	slot0:bind(NewMainScene.ON_REMOVE_LAYER, function (slot0, slot1)
+		uv0:OnRemoveLayer(slot1)
+	end)
+	slot0:bind(NewMainScene.ON_CHAT_MSG_UPDATE, function (slot0)
+		uv0:OnUpdateChatMsg()
+	end)
+
 	slot0.hideChatFlag = PlayerPrefs.GetInt(HIDE_CHAT_FLAG)
 
 	onButton(slot0, slot0._tf, function ()
 		if not uv0.hideChatFlag or uv0.hideChatFlag ~= 1 then
-			uv1:emit(NewMainMediator.OPEN_CHATVIEW)
+			uv0:emit(NewMainMediator.OPEN_CHATVIEW)
 		end
 	end, SFX_MAIN)
 	onButton(slot0, slot0.enableBtn, function ()
@@ -180,6 +188,7 @@ function slot0.Fold(slot0, slot1, slot2)
 end
 
 function slot0.Dispose(slot0)
+	slot0:disposeEvent()
 	pg.DelegateInfo.Dispose(slot0)
 end
 

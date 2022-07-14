@@ -51,6 +51,8 @@ function slot0.didEnter(slot0)
 		if string.len(getInputText(uv0.input)) > 0 then
 			setInputText(uv0.input, "")
 			uv0:emit(uv1.EVENT_EVA, slot0)
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("eva_comment_send_null"))
 		end
 	end, SFX_PANEL)
 	onInputChanged(slot0, slot0.input, function ()

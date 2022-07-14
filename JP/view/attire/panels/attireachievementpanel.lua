@@ -115,6 +115,7 @@ function slot0.OnInit(slot0)
 	end)
 
 	slot0.cards = {}
+	slot0.emptyPage = BaseEmptyListPage.New(slot0.listPanel, slot0.event)
 end
 
 function slot0.UpdateselectedTxt(slot0)
@@ -177,6 +178,19 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:Filter()
 
 	slot0.totalCount.text = slot0:getTotalCnt()
+
+	if slot0:getTotalCnt() <= 0 then
+		slot0.emptyPage:ExecuteAction("ShowOrHide", true)
+		slot0.emptyPage:ExecuteAction("SetEmptyText", i18n("decoration_medal_placeholder"))
+		slot0.emptyPage:ExecuteAction("SetPosY", {
+			x = 0,
+			y = 22
+		})
+		setActive(slot0:findTF("scrollrect", slot0.listPanel), false)
+	elseif slot3 > 0 and slot0.emptyPage:GetLoaded() then
+		slot0.emptyPage:ExecuteAction("ShowOrHide", false)
+		setActive(slot0:findTF("scrollrect", slot0.listPanel), true)
+	end
 end
 
 function slot0.getTotalCnt(slot0)
@@ -231,6 +245,12 @@ end
 
 function slot0.OnDestroy(slot0)
 	slot0.descPanel:Dispose()
+
+	if slot0.emptyPage then
+		slot0.emptyPage:Destroy()
+
+		slot0.emptyPage = nil
+	end
 end
 
 return slot0

@@ -335,21 +335,25 @@ function slot8(slot0, slot1)
 	slot11 = false
 
 	if slot1.drop.type == DROP_TYPE_ITEM then
-		function slot12(slot0)
-			uv0 = slot0
+		slot12 = {}
+
+		for slot16, slot17 in ipairs({
+			true,
+			11,
+			13,
+			16,
+			17
+		}) do
+			slot12[slot17] = function (slot0)
+				uv0 = slot0
+			end
 		end
 
-		switch(tobool(getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id)) or slot1.drop.cfg.type, {
-			[true] = function ()
-				uv0 = "tech"
-			end,
-			[11] = slot12,
-			[13] = slot12,
-			[16] = slot12,
-			[17] = slot12
-		}, function ()
+		slot13 = tobool(getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id)) and "tech" or slot1.drop.cfg.type
+
+		switch(slot13, slot12, function ()
 			uv0 = false
-		end)
+		end, slot13)
 	end
 
 	setActive(slot10, tobool(slot11))
@@ -510,7 +514,7 @@ function slot8(slot0, slot1)
 
 		setText(slot6, SwitchSpecialChar(HXSet.hxLan(desc), true))
 	elseif slot1.drop.type == DROP_TYPE_META_PT then
-		setText(slot6, slot1.drop.cfg.display)
+		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
 	else
 		assert(false, "can not handle this type>>" .. slot1.drop.type)
 	end

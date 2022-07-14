@@ -22252,6 +22252,176 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[20023] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 2,
+		handbook_type = 2,
+		index_id = 20023,
+		code = 20023,
+		group_type = 29905,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 29905
+					}
+				},
+				0
+			}
+		}
+	},
+	[20024] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 4,
+		handbook_type = 2,
+		index_id = 20024,
+		code = 20024,
+		group_type = 49907,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49907
+					}
+				},
+				0
+			}
+		}
+	},
+	[20025] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 5,
+		handbook_type = 2,
+		index_id = 20025,
+		code = 20025,
+		group_type = 59901,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 59901
+					}
+				},
+				0
+			}
+		}
+	},
+	[20026] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 7,
+		nationality = 7,
+		handbook_type = 2,
+		index_id = 20026,
+		code = 20026,
+		group_type = 79901,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 79901
+					}
+				},
+				0
+			}
+		}
+	},
+	[20027] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 18,
+		nationality = 8,
+		handbook_type = 2,
+		index_id = 20027,
+		code = 20027,
+		group_type = 89903,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 89903
+					}
+				},
+				0
+			}
+		}
+	},
 	[30001] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -23215,6 +23385,11 @@ pg.ship_data_group = {
 		20020,
 		20021,
 		20022,
+		20023,
+		20024,
+		20025,
+		20026,
+		20027,
 		30001,
 		30002,
 		30003,

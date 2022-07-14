@@ -17,10 +17,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.arrTr = slot0._tf:Find("arr")
 	slot0.arrLpos = slot0.arrTr.localPosition
 	slot0.sLabel = slot0.staticTr:Find("Text/label")
+	slot0.sSynValue = slot0.staticTr:Find("Text1")
 	slot0.sLabelLpos = slot0.sLabel.localPosition
 
 	setText(slot0.underwayTr:Find("label"), i18n("meta_pt_point"))
 	setText(slot0.sLabel, i18n("meta_syn_rate"))
+
+	slot0.tip = slot0._tf:Find("tip")
+
 	setActive(slot0.arrTr, false)
 end
 
@@ -34,7 +38,7 @@ end
 
 function slot0.Flush(slot0)
 	slot1 = slot0.metaProgressVO
-	slot3 = slot0.bossId == WorldBossConst.GetArchivesId()
+	slot3 = slot0.bossId == WorldBossConst.GetArchivesId() and WorldBossConst.GetAchieveState() ~= WorldBossConst.ACHIEVE_STATE_NOSTART
 	slot5 = not slot1.metaPtData:CanGetNextAward()
 
 	setActive(slot0.underwayTr, slot3 and not slot5)
@@ -44,34 +48,43 @@ function slot0.Flush(slot0)
 
 	slot6 = slot4:GetResProgress()
 	slot7 = slot4:GetTotalResRequire()
-	slot0.icon.sprite = LoadSprite("metaship/archives_" .. slot1.id)
+	slot8 = slot1.unlockPTLevel < slot1.metaPtData.level + 1
+	slot0.icon.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot1.id, "archives")
 	slot0.sLabel.localPosition = Vector3(slot0.sLabel.localPosition.x, slot0.sLabelLpos.y, 0)
 
 	if slot5 then
 		setFillAmount(slot0.fProgress, 1)
+	elseif slot3 then
+		setFillAmount(slot0.uProgress, slot6 / slot7)
+
+		slot0.uProgressTxt.text = "(" .. slot6 .. "/" .. slot7 .. ")"
+	elseif slot8 then
+		slot0.sProgressTxt.enabled = false
+
+		setText(slot0.staticTr:Find("label"), i18n("meta_pt_point"))
+		setText(slot0.sLabel, i18n("meta_syn_finish"))
+		setText(slot0.sSynValue, "(" .. slot6 .. "/" .. slot7 .. ")")
+
+		slot0.sLabel.localPosition = Vector3(slot0.sLabel.localPosition.x, slot0.sLabelLpos.y + 20, 0)
+
+		setFillAmount(slot0.sProgress, slot6 / slot7)
 	else
-		slot9 = slot6 / slot7
+		slot0.sProgressTxt.enabled = true
 
-		if slot3 then
-			setFillAmount(slot0.uProgress, slot9)
+		setText(slot0.staticTr:Find("label"), "")
+		setText(slot0.sSynValue, "")
+		setText(slot0.sLabel, i18n("meta_syn_rate"))
 
-			slot0.uProgressTxt.text = "(" .. slot6 .. "/" .. slot7 .. ")"
-		else
-			setFillAmount(slot0.sProgress, slot9)
+		slot10 = math.min(1, slot6 / slot1.unlockPTNum)
 
-			if slot9 >= 1 then
-				slot0.sProgressTxt.text = ""
+		setFillAmount(slot0.sProgress, slot10)
 
-				setText(slot0.sLabel, i18n("meta_syn_finish"))
-
-				slot0.sLabel.localPosition = Vector3(slot0.sLabel.localPosition.x, slot0.sLabelLpos.y + 20, 0)
-			else
-				slot0.sProgressTxt.text = string.format("%0.1f", slot6 / slot7 * 100) .. "%"
-			end
-		end
+		slot0.sProgressTxt.text = string.format("%0.1f", slot10 * 100) .. "%"
 	end
 
 	slot0.nameTxt.text = ShipGroup.getDefaultShipConfig(slot1.id).name
+
+	setActive(slot0.tip, slot4:CanGetAward())
 end
 
 function slot0.Select(slot0)

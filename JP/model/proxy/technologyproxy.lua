@@ -1,5 +1,4 @@
 slot0 = class("TechnologyProxy", import(".NetProxy"))
-slot0.TECHNOLOGY_ADDED = "TechnologyProxy:TECHNOLOGY_ADDED"
 slot0.TECHNOLOGY_UPDATED = "TechnologyProxy:TECHNOLOGY_UPDATED"
 slot0.BLUEPRINT_ADDED = "TechnologyProxy:BLUEPRINT_ADDED"
 slot0.BLUEPRINT_UPDATED = "TechnologyProxy:BLUEPRINT_UPDATED"
@@ -9,11 +8,12 @@ function slot0.register(slot0)
 	slot0.tendency = {}
 
 	slot0:on(63000, function (slot0)
-		uv0:updateTechnologys(slot0)
+		uv0:updateTechnologys(slot0.refresh_list)
 
-		uv0.refreshTechnologysFlag = slot0.refresh_flag or 0
+		uv0.refreshTechnologysFlag = slot0.refresh_flag
 
-		uv0:updateTecCatchup(slot0)
+		uv0:updateTecCatchup(slot0.catchup)
+		uv0:updateTechnologyQueue(slot0.queue)
 	end)
 
 	slot0.bluePrintData = {}
@@ -94,25 +94,25 @@ end
 function slot0.updateTechnologys(slot0, slot1)
 	slot0.data = {}
 
-	for slot5, slot6 in ipairs(slot1.refresh_list) do
+	for slot5, slot6 in ipairs(slot1) do
 		slot0.tendency[slot6.id] = slot6.target
 
 		for slot10, slot11 in ipairs(slot6.technologys) do
-			slot0:addTechnology(Technology.New({
+			slot0.data[slot11.id] = Technology.New({
 				id = slot11.id,
 				time = slot11.time,
 				pool_id = slot6.id
-			}))
+			})
 		end
 	end
 end
 
 function slot0.updateTecCatchup(slot0, slot1)
-	slot0.curCatchupTecID = slot1.catchup.version
-	slot0.curCatchupGroupID = slot1.catchup.target
+	slot0.curCatchupTecID = slot1.version
+	slot0.curCatchupGroupID = slot1.target
 	slot0.catchupData = {}
 
-	for slot5, slot6 in ipairs(slot1.catchup.pursuings) do
+	for slot5, slot6 in ipairs(slot1.pursuings) do
 		slot7 = TechnologyCatchup.New(slot6)
 		slot0.catchupData[slot7.id] = slot7
 	end
@@ -122,24 +122,42 @@ function slot0.updateTecCatchup(slot0, slot1)
 	print("初始下发的科研追赶信息", slot0.curCatchupTecID, slot0.curCatchupGroupID, slot0.curCatchupPrintsNum)
 end
 
-function slot0.getActiveTechnologyCount(slot0)
-	slot1 = 0
+function slot0.updateTechnologyQueue(slot0, slot1)
+	slot0.queue = {}
 
-	for slot5, slot6 in pairs(slot0.data) do
-		if slot6:isStart() then
-			slot1 = slot1 + 1
-		end
+	for slot5, slot6 in ipairs(slot1) do
+		table.insert(slot0.queue, Technology.New({
+			queue = true,
+			id = slot6.id,
+			time = slot6.time
+		}))
 	end
 
-	return slot1
+	table.sort(slot0.queue, function (slot0, slot1)
+		return slot0.time < slot1.time
+	end)
 end
 
-function slot0.getActiveTechnology(slot0)
+function slot0.moveTechnologyToQueue(slot0, slot1)
+	slot2 = slot0.data[slot1]
+	slot2.inQueue = true
+
+	table.insert(slot0.queue, slot2)
+
+	slot0.data[slot1] = nil
+end
+
+function slot0.removeFirstQueueTechnology(slot0)
+	assert(#slot0.queue > 0)
+	table.remove(slot0.queue, 1)
+end
+
+function slot0.getActivateTechnology(slot0)
 	slot1 = pairs
 	slot2 = slot0.data or {}
 
 	for slot4, slot5 in slot1(slot2) do
-		if slot5:isStart() then
+		if slot5:isActivate() then
 			return Clone(slot5)
 		end
 	end
@@ -149,15 +167,6 @@ function slot0.getTechnologyById(slot0, slot1)
 	assert(slot0.data[slot1], "technology should exist>>" .. slot1)
 
 	return slot0.data[slot1]:clone()
-end
-
-function slot0.addTechnology(slot0, slot1)
-	assert(slot0.data[slot1.id] == nil, "technology should be nil>>" .. slot1.id)
-	assert(isa(slot1, Technology), "technology should be instance of Technology")
-
-	slot0.data[slot1.id] = slot1
-
-	slot0:sendNotification(uv0.TECHNOLOGY_ADDED, slot1:clone())
 end
 
 function slot0.updateTechnology(slot0, slot1)
@@ -170,15 +179,7 @@ function slot0.updateTechnology(slot0, slot1)
 end
 
 function slot0.getTechnologys(slot0)
-	slot1 = {}
-	slot2 = pairs
-	slot3 = slot0.data or {}
-
-	for slot5, slot6 in slot2(slot3) do
-		table.insert(slot1, slot6)
-	end
-
-	return slot1
+	return underscore.values(slot0.data)
 end
 
 function slot0.getBluePrints(slot0)

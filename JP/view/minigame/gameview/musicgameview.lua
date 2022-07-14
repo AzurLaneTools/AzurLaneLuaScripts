@@ -1202,6 +1202,10 @@ function slot0.updateMusic(slot0, slot1)
 end
 
 function slot0.clickSongBtns(slot0, slot1, slot2)
+	if MusicGameView.loadMusicFlag > 0 then
+		return
+	end
+
 	setActive(slot1:Find("song" .. slot0.musicData.img), false)
 	slot0:MyGetRuntimeData()
 	slot0:clearSDModel()

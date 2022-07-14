@@ -53,25 +53,15 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot2 = slot0.textPay
-
-	setActive(slot2:Find("before"), not slot0.isPay)
-
-	slot2 = slot0.textPay
-
-	setActive(slot2:Find("after"), slot0.isPay)
+	setActive(slot0.textPay:Find("before"), not slot0.isPay)
+	setActive(slot0.textPay:Find("after"), slot0.isPay)
 	setActive(slot0.btnPay, not slot0.isPay)
 	setActive(slot0.markPay, slot0.isPay)
 
-	slot2 = slot0.btnGoBase
-	slot3 = slot0.activity
+	slot1 = #slot0.activity:GetCrusingUnreceiveAward() > 0
 
-	setActive(slot2:Find("tip"), slot3:readyToAchieve())
-
-	slot2 = slot0.btnGoPay
-	slot3 = slot0.activity
-
-	setActive(slot2:Find("tip"), slot3:readyToAchieve())
+	setActive(slot0.btnGoBase:Find("tip"), slot1)
+	setActive(slot0.btnGoPay:Find("tip"), slot1)
 	onNextTick(function ()
 		if uv0.isPay then
 			triggerToggle(uv0.togglePay, true)

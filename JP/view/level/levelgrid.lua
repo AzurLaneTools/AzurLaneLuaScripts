@@ -2741,6 +2741,12 @@ function slot0.HideMissileAimingMark(slot0)
 	slot0.loader:ClearRequest("MissileAimingMark")
 end
 
+function slot0.GetEnemyCellView(slot0, slot1)
+	return _.detect(slot0.cellChampions, function (slot0)
+		return slot0:GetLine().row == uv0.row and slot1.column == uv0.column
+	end) or slot0.attachmentCells[ChapterCell.Line2Name(slot1.row, slot1.column)]
+end
+
 function slot0.TransformLine2PlanePos(slot0, slot1)
 	return string.char(string.byte("A") + slot1.column - slot0.indexMin.y) .. string.char(string.byte("1") + slot1.row - slot0.indexMin.x)
 end

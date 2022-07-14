@@ -19,7 +19,7 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			uv0:ClearAutoBattle()
 			uv1:sendNotification(GAME.WORLD_ARCHIVES_BOSS_STOP_AUTO_BATTLE_DONE, {
-				cnt = slot0.battle_cnt or 0,
+				cnt = slot0.count or 0,
 				damage = slot0.damage or 0,
 				oil = slot0.oil or 0
 			})
