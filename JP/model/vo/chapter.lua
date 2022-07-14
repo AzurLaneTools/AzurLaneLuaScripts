@@ -265,6 +265,7 @@ function slot0.update(slot0, slot1)
 	slot0.active = true
 	slot0.dueTime = slot1.time
 	slot0.loopFlag = slot1.loop_flag
+	slot0.theme = ChapterTheme.New(slot0:getConfig("theme"))
 	slot4 = slot0:getConfig("float_items")
 	slot5 = slot0:getConfig("grids")
 	slot0.cells = {}
@@ -1396,7 +1397,7 @@ end
 
 function slot0.EliteShipTypeFilter(slot0)
 	function slot1(slot0, slot1, slot2)
-		slot1 = Clone(slot1)
+		ChapterProxy.SortRecommendLimitation(Clone(slot1))
 
 		for slot6, slot7 in pairs(slot2) do
 			slot8 = nil

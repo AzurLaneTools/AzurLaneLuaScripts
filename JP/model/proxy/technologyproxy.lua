@@ -182,6 +182,12 @@ function slot0.getTechnologys(slot0)
 	return underscore.values(slot0.data)
 end
 
+function slot0.getPlanningTechnologys(slot0)
+	return table.mergeArray(slot0.queue, {
+		slot0:getActivateTechnology()
+	})
+end
+
 function slot0.getBluePrints(slot0)
 	return Clone(slot0.bluePrintData)
 end

@@ -24001,7 +24001,6 @@ pg.ship_strengthen_blueprint = {
 		effect_desc = "耐久+307|対空+12|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
 		extra_desc = "",
 		effect_skill = "",
-		effect_base = "",
 		special = 1,
 		effect_skin = 0,
 		id = 2705,
@@ -24024,6 +24023,11 @@ pg.ship_strengthen_blueprint = {
 				"antiaircraft",
 				12
 			}
+		},
+		effect_base = {
+			2,
+			1,
+			1
 		},
 		effect_dialog = {
 			"main1",

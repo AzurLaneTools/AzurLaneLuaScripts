@@ -28,13 +28,7 @@ function slot0.register(slot0)
 end
 
 function slot0.onTechnologyNotify()
-	slot2 = true
-
-	if getProxy(TechnologyProxy):getActivateTechnology() then
-		slot2 = slot1:isCompleted()
-	end
-
-	return slot2
+	return #getProxy(TechnologyProxy):getPlanningTechnologys() > 0 and slot0[#slot0]:isCompleted()
 end
 
 function slot0.onBlueprintNotify()
