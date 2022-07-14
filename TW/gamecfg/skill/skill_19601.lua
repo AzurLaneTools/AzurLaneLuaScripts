@@ -25,8 +25,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62651,
-					delay = 1
+					weapon_id = 62651
 				}
 			}
 		}
@@ -57,8 +56,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62652,
-					delay = 1
+					weapon_id = 62652
 				}
 			}
 		}
@@ -89,8 +87,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62653,
-					delay = 1
+					weapon_id = 62653
 				}
 			}
 		}
@@ -121,8 +118,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62654,
-					delay = 1
+					weapon_id = 62654
 				}
 			}
 		}
@@ -153,8 +149,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62655,
-					delay = 1
+					weapon_id = 62655
 				}
 			}
 		}
@@ -185,8 +180,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62656,
-					delay = 1
+					weapon_id = 62656
 				}
 			}
 		}
@@ -217,8 +211,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62657,
-					delay = 1
+					weapon_id = 62657
 				}
 			}
 		}
@@ -249,8 +242,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62658,
-					delay = 1
+					weapon_id = 62658
 				}
 			}
 		}
@@ -281,8 +273,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62659,
-					delay = 1
+					weapon_id = 62659
 				}
 			}
 		}
@@ -313,8 +304,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62660,
-					delay = 1
+					weapon_id = 62660
 				}
 			}
 		}
@@ -326,7 +316,7 @@ return {
 	id = 19600,
 	picture = "1",
 	castCV = "skill",
-	desc = "地毯轰炸+平行鱼雷+",
+	desc = "地毯轰炸+平行鱼雷+普通轟",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -335,24 +325,5 @@ return {
 			0
 		}
 	},
-	effect_list = {
-		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
-			targetAniEffect = "",
-			arg_list = {
-				weapon_id = 62631
-			}
-		},
-		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
-			targetAniEffect = "",
-			arg_list = {
-				weapon_id = 62611
-			}
-		}
-	}
+	effect_list = {}
 }

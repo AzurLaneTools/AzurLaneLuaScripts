@@ -131,6 +131,22 @@ function slot0.OnInit(slot0)
 		uv0:CheckToggle()
 		uv0:UpdateNonProcessList()
 	end, SFX_PANEL)
+
+	slot4 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/friend/unsel"), typeof(Image))
+
+	slot4:SetNativeSize()
+
+	slot4 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/friend/sel"), typeof(Image))
+
+	slot4:SetNativeSize()
+
+	slot4 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/guild/sel"), typeof(Image))
+
+	slot4:SetNativeSize()
+
+	slot4 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/guild/unsel"), typeof(Image))
+
+	slot4:SetNativeSize()
 	onToggle(slot0, slot0:findTF("list_panel/frame/filter/toggles/guild"), function (slot0)
 		uv0.filterFlags[3] = slot0 and WorldBoss.BOSS_TYPE_GUILD or -1
 

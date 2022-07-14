@@ -679,7 +679,7 @@ function slot0.updateTechnologyTF(slot0, slot1, slot2, slot3)
 			setActive(uv0.emptyTF, not slot0 or #slot0 <= 0)
 
 			if uv1:getConfig("condition") > 0 then
-				slot3 = getProxy(TaskProxy):getTaskVO(slot2) or Task.New({
+				slot3 = getProxy(TaskProxy):getTaskById(slot2) or Task.New({
 					id = slot2
 				})
 				uv0.taskSlider.value = slot3.progress / slot3:getConfig("target_num")

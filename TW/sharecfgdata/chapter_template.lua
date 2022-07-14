@@ -266379,9 +266379,9 @@ _G.pg.base.chapter_template[1410051] = {
 	limitation = {
 		{
 			{
+				7,
 				"zhan",
-				0,
-				7
+				0
 			},
 			{
 				0,

@@ -3,7 +3,7 @@ return {
 	name = "舰队空母",
 	cd = 0,
 	painting = 1,
-	id = 3021,
+	id = 1090010,
 	picture = "0",
 	castCV = "skill",
 	desc = "每次执行空袭后为先锋部队提高伤害",
@@ -22,7 +22,7 @@ return {
 			target_choise = "TargetPlayerVanguardFleet",
 			targetAniEffect = "",
 			arg_list = {
-				buff_id = 1090011
+				buff_id = 3020
 			}
 		}
 	}

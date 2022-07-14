@@ -102,6 +102,10 @@ function slot0.OnInit(slot0)
 			end
 		end, SFX_PANEL)
 	end
+
+	if slot0:findTF("empty_finsih") then
+		GetComponent(slot0:findTF("empty_finsih"), typeof(Image)):SetNativeSize()
+	end
 end
 
 function slot0.Filter(slot0, slot1)

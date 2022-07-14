@@ -13,10 +13,10 @@ return {
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62611
+					weapon_id = 62651
 				}
 			}
 		}
@@ -35,10 +35,10 @@ return {
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62612
+					weapon_id = 62652
 				}
 			}
 		}
@@ -57,10 +57,10 @@ return {
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62613
+					weapon_id = 62653
 				}
 			}
 		}
@@ -79,10 +79,10 @@ return {
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62614
+					weapon_id = 62654
 				}
 			}
 		}
@@ -101,10 +101,10 @@ return {
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62615
+					weapon_id = 62655
 				}
 			}
 		}
@@ -123,10 +123,10 @@ return {
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62616
+					weapon_id = 62656
 				}
 			}
 		}
@@ -145,10 +145,10 @@ return {
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62617
+					weapon_id = 62657
 				}
 			}
 		}
@@ -167,10 +167,10 @@ return {
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62618
+					weapon_id = 62658
 				}
 			}
 		}
@@ -189,10 +189,10 @@ return {
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62619
+					weapon_id = 62659
 				}
 			}
 		}
@@ -205,16 +205,16 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62630
+					weapon_id = 62640
 				}
 			},
 			{
 				type = "BattleSkillFire",
 				casterAniEffect = "",
-				target_choise = "TargetNil",
+				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62620
+					weapon_id = 62660
 				}
 			}
 		}
@@ -248,10 +248,10 @@ return {
 		{
 			type = "BattleSkillFire",
 			casterAniEffect = "",
-			target_choise = "TargetNil",
+			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
 			arg_list = {
-				weapon_id = 62611
+				weapon_id = 62651
 			}
 		}
 	}

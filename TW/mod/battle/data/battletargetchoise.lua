@@ -630,28 +630,44 @@ function slot2.TargetFleetIndex(slot0, slot1)
 	slot4 = slot1.fleetPos
 	slot5 = {}
 	slot7 = slot2:GetScoutList()
+	slot8 = slot0:GetUniqueID()
+	slot9 = slot1.exceptCaster
 
-	for slot11, slot12 in ipairs(slot2:GetUnitList()) do
-		if slot4 == slot3.FLAG_SHIP and slot12 == slot2:GetFlagShip() then
-			table.insert(slot5, slot12)
-		elseif slot4 == slot3.LEADER and slot12 == slot7[1] then
-			table.insert(slot5, slot12)
-		elseif slot4 == slot3.CENTER and #slot7 == 3 and slot12 == slot7[2] then
-			table.insert(slot5, slot12)
-		elseif slot4 == slot3.REAR and slot12 == slot7[#slot7] then
-			table.insert(slot5, slot12)
+	for slot13, slot14 in ipairs(slot2:GetUnitList()) do
+		slot15 = slot14:GetUniqueID()
+
+		if slot9 and slot15 == slot8 then
+			-- Nothing
+		elseif slot14 == slot2:GetFlagShip() then
+			if slot4 == slot3.FLAG_SHIP then
+				table.insert(slot5, slot14)
+			end
+		elseif slot14 == slot7[1] then
+			if slot4 == slot3.LEADER then
+				table.insert(slot5, slot14)
+			end
+		elseif #slot7 == 3 and slot14 == slot7[2] then
+			if slot4 == slot3.CENTER then
+				table.insert(slot5, slot14)
+			end
+		elseif slot14 == slot7[#slot7] then
+			if slot4 == slot3.REAR then
+				table.insert(slot5, slot14)
+			end
 		elseif slot4 == slot3.CONSORT then
-			table.insert(slot5, slot12)
+			table.insert(slot5, slot14)
 		end
 	end
 
-	slot8 = slot2:GetSubList()
+	slot10 = slot2:GetSubList()
 
-	for slot12, slot13 in ipairs(slot6) do
-		if slot4 == slot3.SUB_LEADER and slot12 == 1 then
-			table.insert(slot5, slot13)
+	for slot14, slot15 in ipairs(slot6) do
+		if slot14 == 1 then
+			if slot4 == slot3.SUB_LEADER then
+				table.insert(slot5, slot15)
+			end
 		elseif slot4 == slot3.SUB_CONSORT then
-			table.insert(slot5, slot13)
+			table.insert(slot5, slot15)
 		end
 	end
 

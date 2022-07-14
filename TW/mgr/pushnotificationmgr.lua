@@ -181,14 +181,8 @@ end
 function slot1.PushTechnlogy(slot0)
 	slot2 = getProxy(TechnologyProxy)
 
-	if uv0.push_data_template[uv1.PUSH_TYPE_TECHNOLOGY] and slot2 then
-		for slot7, slot8 in ipairs(slot2:getTechnologys()) do
-			if slot8:isStarting() then
-				slot0:Push(slot1.title, string.gsub(slot1.content, "$1", slot8:getConfig("name")), slot8.time)
-
-				break
-			end
-		end
+	if uv0.push_data_template[uv1.PUSH_TYPE_TECHNOLOGY] and slot2 and #slot2:getPlanningTechnologys() > 0 and not slot3[#slot3]:isFinish() then
+		slot0:Push(slot1.title, slot1.content, slot3[#slot3].time)
 	end
 end
 

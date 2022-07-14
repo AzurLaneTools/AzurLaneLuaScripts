@@ -13908,7 +13908,7 @@ _G.pg.base.gametip.tec_tendency_4 = {
 }
 
 _G.pg.base.gametip.tec_tendency_cur_x = {
-	tip = "科研倾向 / $1期"
+	tip = "科研傾向 / $1期"
 }
 
 _G.pg.base.gametip.tec_tendency_cur_0 = {
@@ -13940,7 +13940,7 @@ _G.pg.base.gametip.tec_tendency_cur_4 = {
 }
 
 _G.pg.base.gametip.tec_target_catchup_none_x = {
-	tip = "定向追赶:$1期/未选"
+	tip = "定向追趕:$1期/未選"
 }
 
 _G.pg.base.gametip.tec_target_catchup_none_1 = {
@@ -13960,7 +13960,7 @@ _G.pg.base.gametip.tec_target_catchup_none_4 = {
 }
 
 _G.pg.base.gametip.tec_target_catchup_selected_x = {
-	tip = "定向追赶:$1期/进行"
+	tip = "定向追趕:$1期/進行"
 }
 
 _G.pg.base.gametip.tec_target_catchup_selected_1 = {
@@ -13980,7 +13980,7 @@ _G.pg.base.gametip.tec_target_catchup_selected_4 = {
 }
 
 _G.pg.base.gametip.tec_target_catchup_finish_x = {
-	tip = "定向追赶:$1期/完成"
+	tip = "定向追趕:$1期/完成"
 }
 
 _G.pg.base.gametip.tec_target_catchup_finish_1 = {

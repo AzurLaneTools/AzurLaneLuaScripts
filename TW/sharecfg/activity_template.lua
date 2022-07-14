@@ -17862,7 +17862,7 @@ pg.activity_template = {
 		}
 	},
 	[40700] = {
-		mark = 20220630,
+		mark = 20210708,
 		title_res_tag = "",
 		page_info = "",
 		type = 52,
@@ -17925,7 +17925,7 @@ pg.activity_template = {
 		}
 	},
 	[40701] = {
-		mark = 20220630,
+		mark = 20210708,
 		title_res_tag = "",
 		page_info = "",
 		type = 46,
@@ -17964,7 +17964,7 @@ pg.activity_template = {
 		}
 	},
 	[40702] = {
-		mark = 20220630,
+		mark = 20210708,
 		title_res_tag = "",
 		page_info = "",
 		type = 74,
@@ -18003,7 +18003,7 @@ pg.activity_template = {
 		}
 	},
 	[40703] = {
-		mark = 20220630,
+		mark = 20210708,
 		title_res_tag = "",
 		page_info = "",
 		type = 13,

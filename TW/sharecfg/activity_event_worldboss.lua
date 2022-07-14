@@ -390,9 +390,10 @@ pg.activity_event_worldboss = {
 	{
 		group_num = 1,
 		damage_resource = 2008,
-		id = 5,
+		time = "stop",
 		ticket = 2009,
 		submarine_num = 1,
+		id = 5,
 		ex_expedition = 1260004,
 		boss_id = {
 			3
@@ -421,32 +422,6 @@ pg.activity_event_worldboss = {
 			500,
 			0,
 			0
-		},
-		time = {
-			{
-				{
-					2022,
-					6,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		formula = {
 			10,

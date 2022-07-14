@@ -59,10 +59,16 @@ function slot0.OnInit(slot0)
 	setText(slot0.longitude, "000")
 	setText(slot0.speed, "000")
 	rotateAni(slot0.rader, 1, 3)
+
+	if slot0:findTF("title") then
+		GetComponent(slot0:findTF("title"), typeof(Image)):SetNativeSize()
+	end
 end
 
 function slot0.UpdateUseItemStyle(slot0, slot1)
 	slot0:findTF("useItem/list/tpl"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot1, "useitem")
+
+	slot0:findTF("useItem/list/tpl"):GetComponent(typeof(Image)):SetNativeSize()
 end
 
 function slot0.Update(slot0)

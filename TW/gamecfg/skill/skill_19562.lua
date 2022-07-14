@@ -19,10 +19,13 @@ return {
 		{
 			type = "BattleSkillAddBuff",
 			casterAniEffect = "",
-			target_choise = "TargetFleetIndex",
 			targetAniEffect = "",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetFleetIndex"
+			},
 			arg_list = {
-				fleetPos = "Leader",
+				fleetPos = "Consort",
 				buff_id = 19562,
 				exceptCaster = true
 			}
