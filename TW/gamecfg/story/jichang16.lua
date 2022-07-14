@@ -11,7 +11,7 @@ return {
 			actor = 905030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确认「μ兵装」输出达到高水平。继续进行兵装测试。",
+			say = "確認「μ兵裝」輸出達到高水平。繼續進行兵裝測試。",
 			bgm = "song09",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "这种程度的话，只能和罗恩她们五五开啊。",
+			say = "這種程度的話，只能和羅恩她們五五開啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 701050,
 			dir = 1,
-			say = "这样，这边还处于磨合期，一会绝对会让你们认输的！",
+			say = "這樣，這邊還處於磨合期，一會絕對會讓妳們認輸的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			actor = 701050,
 			dir = 1,
-			say = "（塔什干要努力对同志酱说……「塔什干才不需要你担心」呢…！）",
+			say = "（塔什干要努力對同志醬說……「塔什干才不需要你擔心」呢…！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真有意思啊。难道你们能超过{namecode:91}的爱？",
+			say = "真有意思啊。難道妳們能超過{namecode:91}的愛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来会让你们看到我们的全力的！",
+			say = "接下來會讓妳們看到我們的全力的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们这边的势头已经起来了哦！再来一首如何？",
+			say = "我們這邊的氣勢已經起來了哦！再來一首如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然了！离表演结束还早得很！",
+			say = "當然了！離表演結束還早得很！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "情感模块，批准开放。",
+			say = "情感模組，批准開放。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "加斯科涅，要为主人歌唱！",
+			say = "加斯科涅，要為主人歌唱！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			actor = 103250,
 			dir = 1,
-			say = "嗯！让我们一起把气氛炒热吧！",
+			say = "嗯！讓我們一起把氣氛炒熱吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

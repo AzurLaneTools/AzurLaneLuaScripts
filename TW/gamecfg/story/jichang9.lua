@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "就在巴尔的摩她们为比赛做准备的时候——",
+			say = "就在巴爾的摩她們為比賽做準備的時候——",
 			side = 2,
 			bgName = "bg_jichang_1",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「Polaris」、「Astrum」、「Lumiere」……竟然有这么多组合装备了「μ兵装」。",
+			say = "「Polaris」、「Astrum」、「Lumiere」……竟然有這麼多組合裝備了「μ兵裝」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本还以为只需要警惕那个白鹰小姑娘参与的组合……",
+			say = "原本還以為只需要警惕那個白鷹小姑娘參與的組合……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「μ兵装」是将感情化为力量的兵装……只要我把感情放入其中，即便是那个小姑娘也休想干扰到我。",
+			say = "「μ兵裝」是將感情化為力量的兵裝……只要我把感情放入其中，即便是那個小姑娘也休想干擾到我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要能赢下那个组合，这个舞台上最亮眼的无疑就是——",
+			say = "只要能贏下那個組合，這個舞台上最亮眼的無疑就是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼，当然就是我，{namecode:97}了♡",
+			say = "呼呼呼，當然就是我，{namecode:97}了♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 307110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊啊，指挥官大人，就这么轻易被给其他孩子看到{namecode:97}的偶像一面，实在是太可惜了……原本这个身姿是只给你观赏的……",
+			say = "啊啊，指揮官大人，就這麼輕易被給其他孩子看到{namecode:97}的偶像一面，實在是太可惜了……原本這個身姿是只給你觀賞的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:97}，我明白你的心情，不过再稍微忍忍比较好哦～",
+			say = "{namecode:97}，我明白妳的心情，不過再稍微忍忍比較好哦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也在关注着舞台，如果因为太在意其他人而影响了表演，那就不好了……",
+			say = "指揮官也在關注著舞台，如果因為太在意其他人而影響了表演，那就不好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 403080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "应该说，如果想要牢牢抓住指挥官的目光的话，这种行为可不太行呢。",
+			say = "應該說，如果想要牢牢抓住指揮官的目光的話，這種行為可不太行呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 307110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………你说的没错，只要我的眼中只有指挥官大人一个人的话，我的演出就是完美的！",
+			say = "…………妳說的沒錯，只要我的眼中只有指揮官大人一個人的話，我的演出就是完美的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 403080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里应该说的是「我们的演出」吧？",
+			say = "這裡應該說的是「我們的演出」吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 307110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，是我们的「μ兵装」演出……呵呵♡",
+			say = "沒錯，是我們的「μ兵裝」演出……呵呵♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_jichang_1",
 			actorName = "？？？",
 			dir = 1,
-			say = "「人类献上歌声，神的偶像满载感情。」",
+			say = "「人類獻上歌聲，神的偶像滿載感情。」",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「呼呼，让我们看看我们的歌姬状态如何吧。」",
+			say = "「呼呼，讓我們看看我們的歌姬狀態如何吧。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「是的，不用担心。」",
+			say = "「是的，不用擔心。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,8 +315,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 901120,
-			actorName = "凯旋",
-			say = "「姐姐，向所有人展示鸢尾的优雅吧。」",
+			actorName = "凱旋",
+			say = "「姐姐，向所有人展示鳶尾的優雅吧。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

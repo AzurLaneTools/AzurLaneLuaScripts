@@ -27,6 +27,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有兩年間持續奮鬥在港區的指揮官們</color>\n通過參與二週年限定活動獲得",
 		scene = {}
 	},
+	[103] = {
+		time_limit_type = 0,
+		name = "千日的紀念",
+		gain_by = "",
+		id = 103,
+		time_second = 0,
+		desc = "<color=#ffffff>願能一起走過下一個、再下一個，再下無數個的千日~啾！</color>\n 碧藍航線港區開設1000天獎勵",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "限界的挑戰者",
@@ -274,6 +283,7 @@ pg.item_data_frame = {
 		0,
 		101,
 		102,
+		103,
 		201,
 		202,
 		203,

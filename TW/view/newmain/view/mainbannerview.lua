@@ -1,16 +1,13 @@
-slot0 = class("MainBannerView")
+slot0 = class("MainBannerView", import("view.base.BaseEventLogic"))
 
 function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
 	slot0.event = slot2
 	slot0.scrollSnap = BannerScrollRect.New(findTF(slot1, "mask/content"), findTF(slot1, "dots"))
-end
-
-function slot0.emit(slot0, ...)
-	slot0.event:emit(...)
 end
 
 function slot0.Init(slot0)
@@ -66,6 +63,7 @@ function slot0.Clear(slot0)
 end
 
 function slot0.Dispose(slot0)
+	slot0:disposeEvent()
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Clear()
 	slot0.scrollSnap:Dispose()

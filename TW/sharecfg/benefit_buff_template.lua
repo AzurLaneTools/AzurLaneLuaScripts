@@ -388,7 +388,151 @@ pg.benefit_buff_template = {
 		type_priority = 0,
 		benefit_type = "urpt_drop_up"
 	},
-	[35] = {
+	{
+		icon = "Props/yanchangli1",
+		name = "演唱力",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高1%",
+		benefit_effect = "500",
+		id = 26,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40709,
+			0
+		}
+	},
+	{
+		icon = "Props/yanchangli2",
+		name = "演唱力",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高2%",
+		benefit_effect = "502",
+		id = 27,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40709,
+			0
+		}
+	},
+	{
+		icon = "Props/yanchangli3",
+		name = "演唱力",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高3%",
+		benefit_effect = "504",
+		id = 28,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40709,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli1",
+		name = "舞蹈力",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，受到的傷害減少1%",
+		benefit_effect = "510",
+		id = 29,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40709,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli2",
+		name = "舞蹈力",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，受到的傷害減少2%",
+		benefit_effect = "512",
+		id = 30,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40709,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli3",
+		name = "舞蹈力",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%",
+		benefit_effect = "514",
+		id = 31,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40709,
+			0
+		}
+	},
+	{
+		icon = "Props/biaoyanli1",
+		name = "表演力",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高3%",
+		benefit_effect = "3",
+		id = 32,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			40709,
+			0
+		}
+	},
+	{
+		icon = "Props/biaoyanli2",
+		name = "表演力",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高4%",
+		benefit_effect = "4",
+		id = 33,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			40709,
+			0
+		}
+	},
+	{
+		icon = "Props/biaoyanli3",
+		name = "表演力",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高5%",
+		benefit_effect = "5",
+		id = 34,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			40709,
+			0
+		}
+	},
+	{
 		icon = "Props/yanchangli1",
 		name = "<color=#ff5c5c>力量</color>LV.1：",
 		hide = 0,
@@ -404,7 +548,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[36] = {
+	{
 		icon = "Props/yanchangli2",
 		name = "<color=#ff5c5c>力量</color>LV.2：",
 		hide = 0,
@@ -420,7 +564,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[37] = {
+	{
 		icon = "Props/yanchangli3",
 		name = "<color=#ff5c5c>力量</color>MAX：",
 		hide = 0,
@@ -436,7 +580,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[38] = {
+	{
 		icon = "Props/buff_minigame_10",
 		name = "<color=#00BFFF>技巧</color>LV.1：",
 		hide = 0,
@@ -452,7 +596,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[39] = {
+	{
 		icon = "Props/buff_minigame_10",
 		name = "<color=#00BFFF>技巧</color>LV.2：",
 		hide = 0,
@@ -468,7 +612,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[40] = {
+	{
 		icon = "Props/buff_minigame_10",
 		name = "<color=#00BFFF>技巧</color>MAX：",
 		hide = 0,
@@ -484,7 +628,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[41] = {
+	{
 		icon = "Props/biaoyanli1",
 		name = "<color=#ffde38>體力</color>LV.1：",
 		hide = 0,
@@ -500,7 +644,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[42] = {
+	{
 		icon = "Props/biaoyanli2",
 		name = "<color=#ffde38>體力</color>LV.2：",
 		hide = 0,
@@ -516,7 +660,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[43] = {
+	{
 		icon = "Props/biaoyanli3",
 		name = "<color=#ffde38>體力</color>MAX：",
 		hide = 0,
@@ -532,7 +676,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[44] = {
+	{
 		icon = "Props/buff_minigame_12",
 		name = "<color=#FF69B4>魅力</color>LV.1：",
 		hide = 0,
@@ -548,7 +692,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[45] = {
+	{
 		icon = "Props/buff_minigame_12",
 		name = "<color=#FF69B4>魅力</color>LV.2：",
 		hide = 0,
@@ -564,7 +708,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[46] = {
+	{
 		icon = "Props/buff_minigame_12",
 		name = "<color=#FF69B4>魅力</color>MAX：",
 		hide = 0,
@@ -580,7 +724,7 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
-	[47] = {
+	{
 		icon = "Props/xinshou",
 		name = "特殊作戰加成描述",
 		hide = 0,
@@ -592,7 +736,7 @@ pg.benefit_buff_template = {
 		type_priority = 0,
 		benefit_type = "desc"
 	},
-	[48] = {
+	{
 		icon = "Props/xinshou",
 		name = "特殊作戰加成",
 		hide = 0,
@@ -642,6 +786,15 @@ pg.benefit_buff_template = {
 		23,
 		24,
 		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34,
 		35,
 		36,
 		37,

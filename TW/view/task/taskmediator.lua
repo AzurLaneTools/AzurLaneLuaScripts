@@ -2,6 +2,7 @@ slot0 = class("TaskMediator", import("..base.ContextMediator"))
 slot0.ON_TASK_SUBMIT = "TaskMediator:ON_TASK_SUBMIT"
 slot0.ON_TASK_GO = "TaskMediator:ON_TASK_GO"
 slot0.TASK_FILTER = "TaskMediator:TASK_FILTER"
+slot0.ON_SUBMIT_AVATAR_TASK = "TaskMediator:ON_SUBMIT_AVATAR_TASK"
 slot0.ON_SUBMIT_WEEK_PROGREE = "TaskMediator:ON_SUBMIT_WEEK_PROGREE"
 slot0.ON_BATCH_SUBMIT_WEEK_TASK = "TaskMediator:ON_BATCH_SUBMIT_WEEK_TASK"
 slot0.ON_SUBMIT_WEEK_TASK = "TaskMediator:ON_SUBMIT_WEEK_TASK"
@@ -12,6 +13,14 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_SUBMIT_WEEK_TASK, function (slot0, slot1)
 		uv0:sendNotification(GAME.SUBMIT_WEEK_TASK, {
 			id = slot1.id
+		})
+	end)
+	slot0:bind(uv0.ON_SUBMIT_AVATAR_TASK, function (slot0, slot1)
+		uv0:sendNotification(GAME.AVATAR_FRAME_AWARD, {
+			act_id = slot1.actId,
+			task_ids = {
+				slot1.id
+			}
 		})
 	end)
 	slot0:bind(uv0.ON_SUBMIT_WEEK_PROGREE, function (slot0)
@@ -134,6 +143,7 @@ function slot0.listNotificationInterests(slot0)
 		TaskProxy.WEEK_TASKS_DELETED,
 		GAME.SUBMIT_WEEK_TASK_DONE,
 		GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE,
+		GAME.SUBMIT_AVATAR_TASK_DONE,
 		TaskProxy.WEEK_TASK_RESET,
 		GAME.MERGE_TASK_ONE_STEP_AWARD_DONE
 	}
@@ -224,6 +234,20 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot2 == GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE then
 			function slot4()
 				uv0.viewComponent:RefreshWeekTaskProgress()
+			end
+
+			if #slot3.awards > 0 then
+				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot4)
+			else
+				slot4()
+			end
+		elseif slot2 == GAME.SUBMIT_AVATAR_TASK_DONE then
+			function slot4()
+				uv0.viewComponent:refreshPage()
+
+				if uv1.callback then
+					uv1.callback()
+				end
 			end
 
 			if #slot3.awards > 0 then

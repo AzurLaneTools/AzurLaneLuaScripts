@@ -8,7 +8,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if getProxy(TechnologyProxy):getActiveTechnologyCount() > 0 then
+	if tobool(slot5:getActivateTechnology()) then
 		return
 	end
 
@@ -35,7 +35,7 @@ function slot0.execute(slot0, slot1)
 				}))
 			end
 
-			uv0:start()
+			uv0:start(slot0.time)
 			uv2:updateTechnology(uv0)
 			uv1:sendNotification(GAME.START_TECHNOLOGY_DONE, {
 				technologyId = uv0.id

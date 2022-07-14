@@ -3860,36 +3860,36 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2022.5.5-2022.7.28</color>期間限時開放「海倫娜·META」的挑戰，在此期間指揮官可挑戰「海倫娜·META」累計其同步值獲取<color=#92fc63>「海倫娜·META」角色</color>及其他豐厚獎勵
- <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
+1. <color=#92fc63>2022.5.5-2022.7.28</color>期間限時開放「海倫娜·META」的挑戰，在此期間指揮官可挑戰「海倫娜·META」累計其同步值獲取<color=#92fc63>「海倫娜·META」角色</color>及其他豐厚獎勵
+<color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
 ·指揮官可通過在大型作戰中獲取「信標數據」，達到指定數據量後進行解析並發現特定信標
-·每日最多可解析 <color=#92fc63>2次</color>，次數於每日0點重置，尚未使用的「信標數據」將會保留。 
+·每日最多可獲取 <color=#92fc63>200</color>點，每日0點刷新可獲取點數，尚未使用的「信標數據」將會保留。
 ·每次解析「信標數據」所需量為<color=#92fc63>100</color>點
 
 3.挑戰自己解析的信標
-·第一次挑戰自己解析的信標不會消耗石油，從第二次開始，隨著挑戰次數的增加，每次挑戰消耗的石油會從<color=#92fc63>40</color>點逐漸減少至<color=#92fc63>1</color>點。 (不會消耗挑戰次數)
-·當信標HP歸零後視為戰鬥勝利，指揮官可以領取大量角色同步值獎勵。 
-·每個被解析的信標只會存在<color=#92fc63>24小時</color>，過期後將會消失，記得向其他指揮官請求支援哦。 
-·每次挑戰成功後，信標的強度將會提升1階段，總計15階段。隨著階段提升，戰鬥獎勵也會提升。 
+·第一次挑戰自己解析的信標不會消耗石油，從第二次開始，隨著挑戰次數的增加，每次挑戰消耗的石油會從<color=#92fc63>40</color>點逐漸減少至<color=#92fc63>0</color>點。(不會消耗挑戰次數)
+·當信標HP歸零後視為戰鬥勝利，指揮官可以領取大量角色同步值獎勵。
+·每個被解析的信標只會存在<color=#92fc63>24小時</color>，過期後將會消失，記得向其他指揮官請求支援哦。
+·每次挑戰成功後，信標的強度將會提升1階段，總計15階段。隨著階段提升，戰鬥獎勵也會提升。
 
 4.挑戰其他信標
-·在信標列表介面可以挑戰其他指揮官發起求助的信標，參與其他指揮官發布的信標戰鬥結束後，將會根據造成的傷害程度<color=#92fc63>立刻獲得角色同步值獎勵</color>。 
+·在信標列表介面可以挑戰其他指揮官發起求助的信標，參與其他指揮官發布的信標戰鬥結束後，將會根據造成的傷害程度<color=#92fc63>立刻獲得角色同步值獎勵</color>。
 ·每次挑戰需要消耗1點挑戰次數，不需要消耗石油
 ·每日擁有總計<color=#92fc63>3</color>點挑戰次數，每日0點重置
 ·同一個信標最多能允許累計30位指揮官進行挑戰
 
 5.戰鬥說明
-·挑戰信標·META只能使用大型作戰中的艦船，暫不可使用指揮喵與潛艇
+·挑戰信標·META暫不可使用指揮喵與潛艇
 ·戰鬥結算時不會獲得經驗值，不會影響艦船心情值
-·戰鬥中不可中途退出，如果出現網路波動導致掉線的情況：
+·戰鬥中不可中途退出，如果出現網路波動導致斷線的情況：
 ①挑戰自己解析的信標時將會消耗40點石油(非第一次挑戰)，且不會計算已造成的傷害
 ②挑戰信標列表中的信標時將會消耗挑戰次數且無法獲得任何獎勵
- <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
+ <color=#92fc63>請在參與作戰時保持網路環境順暢</color>
 
 6.火力支援
-隨著信標·META挑戰的進行，從第31天開始，即2022.6.4~2022.7.28期間，艦隊挑戰「海倫娜·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。 
+隨著信標·META挑戰的進行，從第31天開始，即2022.6.4~2022.7.28期間，艦隊挑戰「海倫娜·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
 ※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
@@ -8418,9 +8418,9 @@ _G.pg.base.gametip.technology_help_text = {
 		{
 			info = [[
 ※機制優化：
-·當傾向期數內某個方案艦已經養成完畢後，不再刷新該方案艦的定向研發。 
-·同時剩餘未研發完成的方案艦的定向研發，將根據權重重新分配刷新機率。 
-·無論傾向期數內未養成完畢的方案艦數量多少，定向研發總刷新機率固定。 
+·當傾向期數內某個方案艦已經養成完畢後，不再刷新該方案艦的定向研發。
+·同時剩餘未研發完成的方案艦的定向研發，將根據權重重新分配刷新機率。
+·無論傾向期數內未養成完畢的方案艦數量多少，定向研發總刷新機率固定。
 
 名詞解釋：
 ·定向研發：指研發選項中標註有角色背景的研發項目
@@ -8434,31 +8434,38 @@ _G.pg.base.gametip.technology_help_text = {
 		{
 			info = [[
 ※新增功能：研發傾向
- ·選擇一個研發版本傾向後，每次刷新研發項目時，將有三個項目固定刷新對應傾向的研發項目
+·選擇一個研發版本傾向後，每次刷新研發項目時，將有三個項目固定刷新對應傾向的研發項目
 
 
-1 開始研發
- ·點擊“開始研發”按鈕後可以開啟一個科研項目。 
- ·部分科研項目的開啟需要消耗一定量的資源。 
- ·同一時間只能研發一個科研項目。 
+※新增功能：研發隊列
+ ·已開始研發的科研項目在達成【研發完成條件】後，可以加入【研發隊列】
+加入隊列的科研項目會順序完成，不可取消
+科研項目加入研發隊列後，會刷新出新的科研項目供選擇
+科研隊列可容納的科研項目數量上限為5個，同一時間只能研發一個科研項目
+
+
+1 開始研發 
+·點擊“開始研發”按鈕後可以開啟一個科研項目。
+·部分科研項目的開啟需要消耗一定量的資源。
+·同一時間只能研發一個科研項目。
 
 
 2 完成研發
- ·科研項目開始後，需要花費一定的時間才能完成。 
- ·部分科研項目有“研發完成條件”，需要同時滿足時間和完成條件，才能完成該項目。 
- ·“研發完成條件”只有在開始科研項目後才會被統計。 
- ·科研倒計時為0後，“研發完成條件”依然可以被統計。 
- ·研發完成並領取獎勵後，會刷新五個新的科研項目。 
+·科研項目開始後，需要花費一定的時間才能完成。
+·部分科研項目有“研發完成條件”，需要同時滿足時間和完成條件，才能完成該項目。
+·“研發完成條件”只有在開始科研項目後才會被統計。
+·科研倒計時為0後，“研發完成條件”依然可以被統計。
+·研發完成並領取獎勵後，會刷新五個新的科研項目。
 
 
 3 中斷研發
- ·點擊“停止研發”後會中斷當前正在進行的科研項目。 
- ·中斷後，不會返還開啟科研所消耗的資源，也不會刷新新的科研項目。同時“研發完成條件”的進度和花費的時間會被清空。 
+·點擊“停止研發”後會中斷當前正在進行的科研項目。
+·中斷後，不會返還開啟科研所消耗的資源，也不會刷新新的科研項目。同時“研發完成條件”的進度和花費的時間會被清空。
 
 
 4 刷新科研項目
- ·每日0點後，點擊“點擊刷新”按鈕，會刷新五個新的科研項目，每日只能刷新一次。 
- ·當有正在研發中的科研項目時，無法進行刷新。 ]]
+·每日0點後，點擊“點擊刷新”按鈕，會刷新五個新的科研項目，每日只能刷新一次。 
+·當有正在研發中的科研項目時，無法進行刷新。]]
 		}
 	}
 }
@@ -9340,7 +9347,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "俾斯麥、U-96、U-556、Z36、Z26、U-73、回聲 建造機率UP！"
+	tip = "大鳳(μ兵裝)、黛朵(μ兵裝)、塔什干(μ兵裝)、巴爾的摩(μ兵裝)、大青花魚(μ兵裝) 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12007,13 +12014,13 @@ _G.pg.base.gametip.music_collection = {
 			info = "活動說明："
 		},
 		{
-			info = "1.活動期間，參與活動收集「周邊」，收集全部<color=#92fc63>15</color>個周邊後可獲得限定傢俱「激奏紀念章」"
+			info = "1.活動期間，參與活動收集「周邊」，收集全部<color=#92fc63>12</color>個周邊後可獲得限定傢俱「激奏紀念章」"
 		},
 		{
 			info = "2.參與以下內容可以收集「周邊」：\n 通過活動關卡、完成活動任務、累積激奏徽章"
 		},
 		{
-			info = "3.通過一次高難關後重返SP1—SP5，收集全新的周邊\n吧！ \n4.領取時間截止4月14日23點59分"
+			info = "3.通過一次高難關後重返SP1—SP5，收集全新的周邊\n吧！ \n4.領取時間截止8月3日23點59分"
 		}
 	}
 }
@@ -12021,24 +12028,27 @@ _G.pg.base.gametip.music_collection = {
 _G.pg.base.gametip.music_main = {
 	tip = {
 		{
-			info = "<color=#92fc63>3.25-4.8</color>期間開啟限時活動「激奏的Polaris」"
+			info = "<color=#92fc63>7.14-7.28</color>期間開啟限時活動「激唱的Universe」"
 		},
 		{
-			info = "1.通過特別作戰獲取「激奏徽章」，在「徽章收集」和「補給商店」處兌換豐厚獎勵"
-		},
-		{
-			info = "2.完成「特型偶像」的七日任務，獲取「吹雪」限定換裝"
-		},
-		{
-			info = "3.在「激奏舞台」完成音樂小遊戲，獲取B評價以上時可以提高「演奏力」，收集<color=#92fc63>7</color>次「演奏力」可以獲得限定角色「謝菲爾德(μ兵裝)」\n<color=#92fc63>注意：</color>每日可獲得一次機會，可累計，未達到B評價以上時不會消耗次數，次數用盡後仍然可以進行音樂小遊戲"
+			info = "1.通過特別作戰獲取「激唱徽章」，在「累計獎勵」和\n「補給商店」處兌換豐厚獎勵"
 		},
 		{
 			info = [[
-4.在活動中收集全部<color=#92fc63>15</color>個「周邊」道具後，可在「紀念章」處獲取「激奏紀念章」
+2.在「激唱舞台」完成音樂小遊戲，獲取B評價以上時
+可以收集「演唱音符」，收集<color=#92fc63>7</color>次「演唱音符」可以獲
+得限定角色「惡毒(μ兵裝)」
+<color=#92fc63>注意：</color>每日可獲得一次機會，可累計7次，未達到B評價
+以上時不會消耗次數，次數用盡後仍然可以進行音樂小
+遊戲]]
+		},
+		{
+			info = [[
+3.在活動中收集全部<color=#92fc63>12</color>個「周邊」道具後，可在「紀念
+章」處獲取「激唱紀念章」
 詳細獲取條件可在「紀念章」介面查看
-5.每隔一段時間「Polaris」角色會在「JUUs」中發布新的動態詳細說明可在「JUUs」介面查看
-6.點擊「限時建造」可以前往建造介面
-7.點擊「換裝商店」可以前往換裝商店介面]]
+4.點擊「限時建造」可以前往建造介面
+5.點擊「換裝商店」可以前往換裝商店介面]]
 		}
 	}
 }
@@ -12274,25 +12284,25 @@ _G.pg.base.gametip.pocky_help = {
 _G.pg.base.gametip.secretary_help = {
 	tip = {
 		{
-			info = "秘書組功能說明："
+			info = "· 秘書組功能說明：\n"
 		},
 		{
-			info = "1.秘書組欄位需要通過主線關卡開放，秘書組可以放入同名艦船"
+			info = "1. 秘書組欄位需要通過主線關卡開放，秘書組可以放入同名艦船"
 		},
 		{
-			info = "2.僅有排列在秘書組<color=#92fc63>最左側的秘書艦</color>可以獲得<color=#92fc63>秘書艦好感度加成</color>"
+			info = "2. 僅有排列在秘書組<color=#92fc63>最左側的秘書艦</color>可以獲得<color=#92fc63>秘書艦好感度加成</color>"
 		},
 		{
-			info = "3.當回到主介面觸發秘書艦回港台詞時，將隨機展示一名秘書組成員"
+			info = "3. 當回到主介面觸發秘書艦回港台詞時，將隨機展示一名秘書組成員"
 		},
 		{
-			info = "4.通過換裝設置，可以對每個秘書組成員使用的換裝進行詳細設置"
+			info = "4. 通過換裝設置面板，可以對每個秘書組成員使用的換裝進行詳細設置"
 		},
 		{
-			info = "5.在秘書組介面，拖動角色可以直接更換秘書組成員的位置"
+			info = "5. 在秘書組介面，拖動角色可以直接更換秘書組成員的位置"
 		},
 		{
-			info = "6.在主介面可以通過切換功能，切換當前展示的秘書艦"
+			info = "6. 在主介面可以通過切換功能，切換當前展示的秘書艦\n"
 		}
 	}
 }
@@ -13873,6 +13883,10 @@ _G.pg.base.gametip.tec_settings_btn_word = {
 	tip = "研發選項"
 }
 
+_G.pg.base.gametip.tec_tendency_x = {
+	tip = "科研$1期"
+}
+
 _G.pg.base.gametip.tec_tendency_0 = {
 	tip = "無傾向"
 }
@@ -13891,6 +13905,10 @@ _G.pg.base.gametip.tec_tendency_3 = {
 
 _G.pg.base.gametip.tec_tendency_4 = {
 	tip = "科研四期"
+}
+
+_G.pg.base.gametip.tec_tendency_cur_x = {
+	tip = "科研倾向 / $1期"
 }
 
 _G.pg.base.gametip.tec_tendency_cur_0 = {
@@ -13921,12 +13939,28 @@ _G.pg.base.gametip.tec_tendency_cur_4 = {
 	tip = "科研傾向 / 四期"
 }
 
+_G.pg.base.gametip.tec_target_catchup_none_x = {
+	tip = "定向追赶:$1期/未选"
+}
+
 _G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "定向追趕:一期/未選"
 }
 
 _G.pg.base.gametip.tec_target_catchup_none_2 = {
 	tip = "定向追趕:二期/未選"
+}
+
+_G.pg.base.gametip.tec_target_catchup_none_3 = {
+	tip = "定向追趕:三期/未選"
+}
+
+_G.pg.base.gametip.tec_target_catchup_none_4 = {
+	tip = "定向追趕:四期/未選"
+}
+
+_G.pg.base.gametip.tec_target_catchup_selected_x = {
+	tip = "定向追赶:$1期/进行"
 }
 
 _G.pg.base.gametip.tec_target_catchup_selected_1 = {
@@ -13937,12 +13971,32 @@ _G.pg.base.gametip.tec_target_catchup_selected_2 = {
 	tip = "定向追趕:二期/進行"
 }
 
+_G.pg.base.gametip.tec_target_catchup_selected_3 = {
+	tip = "定向追趕:三期/進行"
+}
+
+_G.pg.base.gametip.tec_target_catchup_selected_4 = {
+	tip = "定向追趕:四期/進行"
+}
+
+_G.pg.base.gametip.tec_target_catchup_finish_x = {
+	tip = "定向追赶:$1期/完成"
+}
+
 _G.pg.base.gametip.tec_target_catchup_finish_1 = {
 	tip = "定向追趕:一期/完成"
 }
 
 _G.pg.base.gametip.tec_target_catchup_finish_2 = {
 	tip = "定向追趕:二期/完成"
+}
+
+_G.pg.base.gametip.tec_target_catchup_finish_3 = {
+	tip = "定向追趕:三期/完成"
+}
+
+_G.pg.base.gametip.tec_target_catchup_finish_4 = {
+	tip = "定向追趕:四期/完成"
 }
 
 _G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
@@ -15161,6 +15215,22 @@ _G.pg.base.gametip.fleet_antisub_range_tip = {
 
 _G.pg.base.gametip.practise_idol_tip = {
 	tip = "是否對$1進行練習？"
+}
+
+_G.pg.base.gametip.practise_idol_help = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.活動期間指揮官獲得<color=#92fc63>「激唱徽章」</color>後可以在活動頁面對偶像組合進行練習，當練習進度達到特殊階段時會出現偶像能力選擇介面，指揮官需要選擇能力進行練習
+2.偶像能力分為演唱力、舞蹈力、表演力三種，每種能力可以練習兩次，並且會提供額外的加成：
+①演唱力：主線、困難、活動、作戰檔案關卡中，造成的傷害提高
+②舞蹈力：主線、困難、活動、作戰檔案關卡中，受到的傷害減少
+③表演力：主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高
+3.當每種能力練習至MAX時，指揮官還可以獲得對應的獎勵
+4.點擊頁面右側偶像能力圖標可以查看每種能力提供的額外加成與對應獎勵]]
+		}
+	}
 }
 
 _G.pg.base.gametip.upgrade_idol_tip = {
@@ -18817,7 +18887,11 @@ _G.pg.base.gametip.world_boss_item_info = {
 信標記錄儀|用於紀錄在大型作戰中收集到的「信標數據」的裝置，達到指定數據量後可據此數據進行解析，發現特定的信標
 P.S.紀錄儀的記錄容量有限，請務必及時前往解析
 每天獲取上限:$1/$2
-紀錄容量上限：$3/$4]]
+紀錄容量上限:$3/$4]]
+}
+
+_G.pg.base.gametip.world_boss_progress_no_enough = {
+	tip = "信标数据不足"
 }
 
 _G.pg.base.gametip.meta_syn_value_label = {
@@ -19052,5 +19126,101 @@ _G.pg.base.gametip.title_info = {
 }
 
 _G.pg.base.gametip.rename_input = {
-	tip = "输入名称"
+	tip = "輸入名稱"
+}
+
+_G.pg.base.gametip.avatar_task_level = {
+	tip = "使用$1$2擊敗$3敵方旗艦$4次且存活"
+}
+
+_G.pg.base.gametip.avatar_upgrad_1 = {
+	tip = "一階突破的"
+}
+
+_G.pg.base.gametip.avatar_upgrad_2 = {
+	tip = "二階突破的"
+}
+
+_G.pg.base.gametip.avatar_upgrad_3 = {
+	tip = "滿星"
+}
+
+_G.pg.base.gametip.avatar_task_ship_1 = {
+	tip = "獲得艦船「$1」"
+}
+
+_G.pg.base.gametip.avatar_task_ship_2 = {
+	tip = "「$1」突破至滿星"
+}
+
+_G.pg.base.gametip.technology_queue_complete = {
+	tip = "研究完成"
+}
+
+_G.pg.base.gametip.technology_queue_processing = {
+	tip = "進行中"
+}
+
+_G.pg.base.gametip.technology_queue_waiting = {
+	tip = "等待進行"
+}
+
+_G.pg.base.gametip.technology_queue_getaward = {
+	tip = "領取獎勵"
+}
+
+_G.pg.base.gametip.technology_daily_refresh = {
+	tip = "每日0點後可刷新"
+}
+
+_G.pg.base.gametip.technology_queue_full = {
+	tip = "隊列已滿，無法加入隊列"
+}
+
+_G.pg.base.gametip.technology_queue_in_mission_incomplete = {
+	tip = "研發完成條件未完成，無法加入隊列"
+}
+
+_G.pg.base.gametip.technology_consume = {
+	tip = "研發消耗"
+}
+
+_G.pg.base.gametip.technology_request = {
+	tip = "研發完成條件"
+}
+
+_G.pg.base.gametip.technology_queue_in_doublecheck = {
+	tip = "確定將該科研項目加入研究隊列嗎，加入隊列的研究項目將依照順序完成，不可取消"
+}
+
+_G.pg.base.gametip.playervtae_setting_btn_label = {
+	tip = "前往設置"
+}
+
+_G.pg.base.gametip.technology_queue_in_success = {
+	tip = "加入隊列成功"
+}
+
+_G.pg.base.gametip.star_require_enemy_text = {
+	tip = "距離達成「擊破全部敵人」剩餘：$1"
+}
+
+_G.pg.base.gametip.star_require_enemy_title = {
+	tip = "剩餘敵人數量"
+}
+
+_G.pg.base.gametip.star_require_enemy_check = {
+	tip = "定位"
+}
+
+_G.pg.base.gametip.worldboss_rank_timer_label = {
+	tip = "排行榜統計中\n剩餘："
+}
+
+_G.pg.base.gametip.technology_detail = {
+	tip = "查看详情"
+}
+
+_G.pg.base.gametip.technology_mission_unfinish = {
+	tip = "条件未达成"
 }

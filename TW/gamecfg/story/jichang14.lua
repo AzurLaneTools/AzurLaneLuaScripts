@@ -12,7 +12,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "「μ兵装」实验暨偶像演唱会大赛还在进行中！",
+			say = "「μ兵裝」實驗暨偶像演唱會大賽還在進行中！",
 			bgm = "azumaster-ins",
 			flashin = {
 				delay = 1,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一个接一个的参赛者们地登上舞台展示自己，现场气氛也狂热至顶点喵！让我们看看海域的情况怎么样了喵？",
+			say = "一個接一個的參賽者們地登上舞台展示自己，現場氣氛也狂熱至頂點喵！讓我們看看海域的情況怎麼樣了喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "μ兵装实验组合「Verheerender」，正高歌猛进喵！",
+			say = "μ兵裝實驗組合「Verheerender」，正高歌猛進喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来她们就要遇到「Polaris」和「Astrum」了！最后到底哪个组合会胜出，真是越来越扑朔迷离喵～！",
+			say = "接下來她們就要遇到「Polaris」和「Astrum」了！最後到底哪個組合會勝出，真是越來越撲朔迷離喵～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "港区・演习海域",
+			say = "港區・演習海域",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，我们也不是专业的偶像，只是比你们更早接触到了「μ兵装」的感觉而已。",
+			say = "總之，我們也不是專業的偶像，只是比妳們更早接觸到了「μ兵裝」的感覺而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			actor = 102240,
 			dir = 1,
-			say = "不去过分在意「偶像活动作为工作」这一点的话，你们的表现一定能更好。",
+			say = "不去過分在意「偶像活動作為工作」這一點的話，妳們的表現一定能更好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你想着去清理害虫的时候肯定已经先开枪了——用牙买加的话来说，就是这样。",
+			say = "妳想著去清理害蟲的時候肯定已經先開槍了——用牙買加的話來說，就是這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢菲，刚才的话有点难懂……",
+			say = "謝菲，剛才的話有點難懂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重点在于「坦率」。作为一个组合的成员，大家要心往一处使。",
+			say = "重點在於「坦率」。作為一個組合的成員，大家要團結一心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "这样无论是舞蹈还是唱歌都可以合拍在一起。",
+			say = "這樣無論是舞蹈還是唱歌都可以對上拍子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样，我知道了。",
+			say = "這樣，我知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "（居然没有人来吐槽啊…感觉真微妙）",
+			say = "（居然沒有人來吐槽啊…感覺真微妙）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			actor = 102240,
 			dir = 1,
-			say = "啊，顺便提下，我们也一样遇到了恶毒和{namecode:97}她们，所以其实并不是给你们单独做培训啦。",
+			say = "啊，順便提下，我們也一樣遇到了惡毒和{namecode:97}她們，所以其實並不是給妳們單獨做培訓啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			actor = 202250,
 			dir = 1,
-			say = "毕竟主人最不希望看到的事情，就是半途而废。",
+			say = "畢竟主人最不希望看到的事情，就是半途而廢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此行为乃最大限度地发挥「μ兵装」性能的必要步骤。",
+			say = "此行為乃最大限度地發揮「μ兵裝」性能的必要步驟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "谢谢你们，我们也正烦恼这件事呢。",
+			say = "謝謝妳們，我們也正煩惱這件事呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "将「感情」融入到歌曲中，这件事确实很困难……",
+			say = "將「感情」融入到歌曲中，這件事確實很困難……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是看起来很困难，其实很简单哦。",
+			say = "只是看起來很困難，其實很簡單哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恶毒，以及{namecode:97}和罗恩的「感情」，已经再明确不过了。",
+			say = "惡毒，以及{namecode:97}和羅恩的「感情」，已經再明確不過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			actor = 307100,
 			dir = 1,
-			say = "一边是，对缔结羁绊的伙伴的感恩之情，以及让这种情感变得圣洁的高洁之心。",
+			say = "一邊是，對締結羈絆的伙伴的感恩之情，以及讓這種情感變得聖潔的高潔之心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一边则是，无处不在的，强烈而深刻的爱意",
+			say = "一邊則是，無處不在的，強烈而深刻的愛意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			actor = 102240,
 			dir = 1,
-			say = "（从{namecode:91}嘴里说出来的这话，非常地有说服力呢……）",
+			say = "（從{namecode:91}嘴裡說出來的這話，非常地有說服力呢……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们的感情，又是什么样的呢？",
+			say = "妳們的感情，又是什麼樣的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

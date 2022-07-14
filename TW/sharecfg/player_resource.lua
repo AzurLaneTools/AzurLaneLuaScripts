@@ -830,6 +830,21 @@ pg.player_resource = {
 		name = "skinTicket34",
 		itemid = 59325
 	},
+	[268] = {
+		id = 268,
+		name = "shinano_frame_pt2",
+		itemid = 59326
+	},
+	[269] = {
+		id = 269,
+		name = "shinano_pt2",
+		itemid = 59328
+	},
+	[270] = {
+		id = 270,
+		name = "skinTicket35",
+		itemid = 59329
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1079,6 +1094,11 @@ pg.player_resource = {
 		id = 40629,
 		name = "skinTicketTW_xzx",
 		itemid = 80003
+	},
+	[40713] = {
+		id = 40713,
+		name = "skinTicket40713",
+		itemid = 80010
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -1579,6 +1599,15 @@ pg.player_resource = {
 		skinTicket34 = {
 			267
 		},
+		shinano_frame_pt2 = {
+			268
+		},
+		shinano_pt2 = {
+			269
+		},
+		skinTicket35 = {
+			270
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1728,6 +1757,9 @@ pg.player_resource = {
 		},
 		skinTicketTW_xzx = {
 			40629
+		},
+		skinTicket40713 = {
+			40713
 		}
 	},
 	all = {
@@ -1897,6 +1929,9 @@ pg.player_resource = {
 		265,
 		266,
 		267,
+		268,
+		269,
+		270,
 		950,
 		951,
 		952,
@@ -1946,6 +1981,7 @@ pg.player_resource = {
 		40614,
 		40615,
 		40645,
-		40629
+		40629,
+		40713
 	}
 }

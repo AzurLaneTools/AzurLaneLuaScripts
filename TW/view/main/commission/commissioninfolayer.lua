@@ -59,7 +59,7 @@ function slot0.updateCrusingEntrance(slot0)
 		slot2 = slot1:GetCrusingInfo()
 
 		setText(slot0.activityCrusingBtn:Find("Text"), slot2.phase .. "/" .. #slot2.awardList)
-		setActive(slot0.activityCrusingBtn:Find("tip"), slot1:readyToAchieve())
+		setActive(slot0.activityCrusingBtn:Find("tip"), #slot1:GetCrusingUnreceiveAward() > 0)
 	else
 		setActive(slot0.activityCrusingBtn, false)
 	end

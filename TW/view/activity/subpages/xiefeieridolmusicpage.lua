@@ -1,5 +1,6 @@
 slot0 = class("XiefeierIdolMusicPage", import("...base.BaseActivityPage"))
 slot1 = {
+	[0] = 0,
 	0.08,
 	0.19,
 	0.4,
@@ -28,7 +29,7 @@ function slot0.OnFirstFlush(slot0)
 	slot3 = slot0.bg
 
 	onButton(slot0, slot3:Find("battle_btn"), function ()
-		pg.m02:sendNotification(GAME.GO_MINI_GAME, 6)
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, 16)
 	end, SFX_PANEL)
 end
 
@@ -42,6 +43,7 @@ function slot0.OnUpdateFlush(slot0)
 		setActive(slot0.masklist:Find("mask" .. slot4 .. "/frame"), slot4 <= slot0.all_times and not isActive(slot0.masklist:Find("mask" .. slot4 .. "/dot")))
 	end
 
+	print("完成次数", tostring(slot0.HubID), tostring(slot0.hubData.usedtime), tostring(slot0.finish_times))
 	setSlider(slot0.slider, 0, 1, uv0[slot0.finish_times])
 
 	if slot0.hubData:getConfig("reward_need") <= slot0.finish_times and slot0.hubData.ultimate == 0 then

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呼……总之就是这样的感觉吧。",
+			say = "呼……總之就是這樣的感覺吧。",
 			bgm = "idol-BlueSpirit-inst",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "我为大家准备了一些点心饮料之类的，要来点吗？",
+			say = "我為大家準備了一些點心飲料之類的，要來一點嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦，那我就不客气了！塔什干要不要？",
+			say = "哦，那我就不客氣了！塔什干要不要？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "在正式开始之前先排练一遍真是正确的选择…",
+			say = "在正式開始之前先排練一遍真是正確的選擇…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "是的……虽然大家都能很好地使用自己的舰装，不过……",
+			say = "是的……雖然大家都能很好地使用自己的艦裝，不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然，问题还是在于「偶像」啊。",
+			say = "果然，問題還是在於「偶像」啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "「偶像」么…？",
+			say = "「偶像」嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唉，上次「Polaris」的演出你也看了吧，我们现在的合作无论如何也达不到她们的水平啊……",
+			say = "唉，上次「Polaris」的演出妳也看了吧，我們現在的合作無論如何也達不到她們的水平啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "饮料来了哦，光辉小姐，巴尔的摩小姐。",
+			say = "飲料來了哦，光輝小姐，巴爾的摩小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢谢……啊，黛朵，可以问你一个问题吗？",
+			say = "謝謝……啊，黛朵，可以問妳一個問題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "请问有何吩咐…？",
+			say = "請問有何吩咐…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "在参加上次「μ兵装」测试的时候，谢菲尔德参加了什么样的课程呢？",
+			say = "在參加上次「μ兵裝」測試的時候，謝菲爾德參加了什麼樣的課程呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，黛朵听说的是……",
+			say = "唔，黛朵聽說的是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，和我想的大相径庭……",
+			say = "原來如此，和我想的大相徑庭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，和我想的完全一样……",
+			say = "原來如此，和我想的完全一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "哇！大青花鱼，你什么时候过来的？",
+			say = "哇！大青花魚，妳什麼時候過來的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "从刚才开始就在了哦？大家都很好奇大人们偷偷聚集在一起是在讨论什么话题呢~",
+			say = "從剛才開始就在了哦？大家都很好奇大人們偷偷聚集在一起是在討論什麼話題呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塔什干并不在意这些。",
+			say = "塔什干並不在意這些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，又说那样的话啦～巴尔的摩，我们之后应该怎么办？",
+			say = "哎呀，又說那樣的話啦～巴爾的摩，我們之後應該怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果我们想加快进度，首先要弄清楚大家各自擅长与不擅长的地方。",
+			say = "如果我們想加快進度，首先要弄清楚大家各自擅長與不擅長的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "是啊。不仅仅是战斗，还要调查一下大家其他方面的问题点……",
+			say = "是啊。不僅僅是戰鬥，還要調查一下大家其他方面的問題點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "那就这么决定了。首先让我们再做一些演习……不对，让我们再做一些排练吧~！",
+			say = "那就這麼決定了。首先讓我們再做一些演習……不對，讓我們再做一些排練吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

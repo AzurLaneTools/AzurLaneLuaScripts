@@ -3424,6 +3424,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[478] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 86,
+		code = 478,
+		group_type = 10325,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：激唱的Universe",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[52] = {
 		trans_skin = 105019,
 		redirect_id = 101,
@@ -5154,6 +5185,37 @@ pg.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[477] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 8,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 126,
+		code = 477,
+		group_type = 10805,
+		trans_type = 0,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：激唱的Universe",
+				{
+					""
 				},
 				0
 			}
@@ -7297,6 +7359,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[476] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 2,
+		handbook_type = 0,
+		index_id = 180,
+		code = 476,
+		group_type = 20228,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"D",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：激唱的Universe",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[327] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -8994,6 +9087,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：愛與和平的夢",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[480] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 7,
+		nationality = 2,
+		handbook_type = 0,
+		index_id = 221,
+		code = 480,
+		group_type = 20711,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：激唱的Universe",
 				{
 					""
 				},
@@ -13278,6 +13402,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[474] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 7,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 344,
+		code = 474,
+		group_type = 30711,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：激唱的Universe",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[231] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -14619,6 +14774,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：激奏的Polaris",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[479] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 4,
+		handbook_type = 0,
+		index_id = 383,
+		code = 479,
+		group_type = 40308,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：激唱的Universe",
 				{
 					""
 				},
@@ -16243,6 +16429,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[475] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 7,
+		handbook_type = 0,
+		index_id = 450,
+		code = 475,
+		group_type = 70105,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：激唱的Universe",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[262] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -16976,6 +17193,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：光與影的鳶尾之華",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[481] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 9,
+		handbook_type = 0,
+		index_id = 480,
+		code = 481,
+		group_type = 90112,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：激唱的Universe",
 				{
 					""
 				},
@@ -18822,6 +19070,7 @@ pg.ship_data_group = {
 		49,
 		50,
 		443,
+		478,
 		52,
 		53,
 		54,
@@ -18861,6 +19110,7 @@ pg.ship_data_group = {
 		446,
 		402,
 		342,
+		477,
 		513,
 		80,
 		103,
@@ -18909,6 +19159,7 @@ pg.ship_data_group = {
 		463,
 		371,
 		408,
+		476,
 		327,
 		328,
 		393,
@@ -18947,6 +19198,7 @@ pg.ship_data_group = {
 		147,
 		148,
 		459,
+		480,
 		149,
 		150,
 		336,
@@ -19060,6 +19312,7 @@ pg.ship_data_group = {
 		228,
 		229,
 		230,
+		474,
 		231,
 		338,
 		396,
@@ -19094,6 +19347,7 @@ pg.ship_data_group = {
 		242,
 		244,
 		422,
+		479,
 		483,
 		248,
 		249,
@@ -19142,6 +19396,7 @@ pg.ship_data_group = {
 		491,
 		432,
 		433,
+		475,
 		262,
 		434,
 		498,
@@ -19164,6 +19419,7 @@ pg.ship_data_group = {
 		452,
 		457,
 		394,
+		481,
 		456,
 		455,
 		352,

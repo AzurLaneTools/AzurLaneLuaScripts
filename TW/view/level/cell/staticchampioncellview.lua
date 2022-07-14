@@ -5,6 +5,10 @@ function slot2.Ctor(slot0, slot1)
 	uv1.Ctor(slot0)
 end
 
+function slot2.GetOrder(slot0)
+	return ChapterConst.CellPriorityEnemy
+end
+
 function slot2.InitChampionCellTransform(slot0)
 	uv0.InitChampionCellTransform(slot0)
 

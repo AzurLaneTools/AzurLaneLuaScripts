@@ -158,7 +158,13 @@ function slot0.update(slot0, slot1)
 					slot4.padding.bottom = slot4.padding.top
 				end
 
-				slot1.text = string.gsub(SwitchSpecialChar(uv1.content), ChatConst.EmojiIconCodeMatch, function (slot0)
+				slot5 = uv1.content
+
+				if uv1.needBanRichText then
+					slot5 = SwitchSpecialChar(uv1.content)
+				end
+
+				slot1.text = string.gsub(slot5, ChatConst.EmojiIconCodeMatch, function (slot0)
 					if table.contains(pg.emoji_small_template.all, tonumber(slot0)) then
 						return string.format("<icon name=%s w=1 h=1/>", slot0)
 					end

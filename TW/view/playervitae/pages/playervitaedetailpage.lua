@@ -40,6 +40,21 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("info/title_name"), i18n("friend_resume_title"))
 	setText(slot0:findTF("statistics/title_name"), i18n("friend_resume_data_title"))
 	setText(slot0:findTF("greet/InputField/Placeholder"), i18n("player_manifesto_placeholder"))
+	slot0:MatchResolution()
+end
+
+function slot0.PreCalcAspect(slot0, slot1)
+	return slot0.rect.height / slot1
+end
+
+function slot0.MatchResolution(slot0)
+	print(slot0._parentTf.rect.height, slot0._tf.rect.height)
+
+	slot1 = uv0.PreCalcAspect(slot0._parentTf, slot0._tf.rect.height)
+
+	print(slot1)
+
+	slot0._tf.localScale = Vector3(slot1, slot1, 1)
 end
 
 function slot0.OnInit(slot0)

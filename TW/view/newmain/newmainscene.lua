@@ -6,6 +6,12 @@ slot0.ON_CHANGE_SKIN = "NewMainScene:ON_CHANGE_SKIN"
 slot0.ON_BUFF_DESC = "NewMainScene:ON_BUFF_DESC"
 slot0.ON_SKIN_FREEUSAGE_DESC = "NewMainScene:ON_SKIN_FREEUSAGE_DESC"
 slot0.ENABLE_PAITING_MOVE = "NewMainScene:ENABLE_PAITING_MOVE"
+slot0.ON_REMOVE_LAYER = "NewMainScene:ON_REMOVE_LAYER"
+slot0.ON_PLAYER_UPDATE = "NewMainScene:ON_PLAYER_UPDATE"
+slot0.ON_CHAT_MSG_UPDATE = "NewMainScene:ON_CHAT_MSG_UPDATE"
+slot0.ON_STOP_PAITING_VOICE = "NewMainScene:ON_STOP_PAITING_VOICE"
+slot0.ON_ACT_BTN_UPDATE = "NewMainScene:ON_ACT_BTN_UPDATE"
+slot0.ON_ZERO_HOUR = "NewMainScene:ON_ZERO_HOUR"
 
 function slot0.getUIName(slot0)
 	return "NewMainUI"
@@ -78,7 +84,17 @@ function slot0.init(slot0)
 	slot0.liveAreaPage = MainLiveAreaPage.New(slot0._tf, slot0.event)
 	slot0.calibrationPage = MainCalibrationPage.New(slot0._tf, slot0.event)
 	slot0.sequenceView = MainSequenceView.New()
+	slot0.awakeSequenceView = MainAwakeSequenceView.New()
 	slot0.adpterView = MainAdpterView.New(slot0:findTF("main/top_bg"), slot0:findTF("main/bottom_bg"), slot0:findTF("main/bg/right"))
+end
+
+function slot0.Register(slot0)
+	slot0:bind(uv0.FOLD, function (slot0, slot1)
+		uv0:FoldPanels(slot1)
+	end)
+	slot0:bind(uv0.ON_CHANGE_SKIN, function (slot0)
+		uv0:SwitchToNextShip()
+	end)
 end
 
 function slot0.didEnter(slot0)
@@ -88,11 +104,16 @@ function slot0.didEnter(slot0)
 
 	slot0.isInit = true
 	slot0.mainCG.blocksRaycasts = false
-	slot1 = slot0:GetFlagShip()
+	slot1 = nil
 
 	seriesAsync({
 		function (slot0)
-			uv0.bgView:Init(uv1)
+			uv0.awakeSequenceView:Execute(slot0)
+		end,
+		function (slot0)
+			uv0 = uv1:GetFlagShip()
+
+			uv1.bgView:Init(uv0)
 			onNextTick(slot0)
 		end,
 		function (slot0)
@@ -157,7 +178,9 @@ function slot0.FoldPanels(slot0, slot1)
 		slot0.mainCG.blocksRaycasts = false
 	else
 		Timer.New(function ()
-			uv0.mainCG.blocksRaycasts = true
+			if uv0.mainCG then
+				uv0.mainCG.blocksRaycasts = true
+			end
 		end, 0.5, 1):Start()
 	end
 
@@ -181,6 +204,57 @@ function slot0.SwitchToNextShip(slot0)
 	end
 end
 
+function slot0.OnVisible(slot0)
+	slot0.mainCG.blocksRaycasts = false
+
+	seriesAsync({
+		function (slot0)
+			uv0.awakeSequenceView:Execute(slot0)
+		end,
+		function (slot0)
+			for slot4, slot5 in ipairs(uv0.panels) do
+				slot5:Refresh()
+			end
+
+			slot1 = uv0:GetFlagShip()
+
+			uv0.bgView:Refresh(slot1)
+			uv0.iconView:Refresh(slot1)
+			uv0.paintingView:Refresh(slot1, true)
+			uv0.effectView:Refresh(slot1)
+			uv0.chatRoomView:Refresh()
+			uv0.buffView:Refresh()
+			uv0.actBtnView:Refresh()
+			uv0.bannerView:Refresh()
+			pg.redDotHelper:Refresh()
+			uv0:PlayBgm(slot1)
+			slot0()
+		end,
+		function (slot0)
+			uv0.sequenceView:Execute(slot0)
+		end
+	}, function ()
+		uv0.mainCG.blocksRaycasts = true
+	end)
+	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0.mainCG.gameObject.transform, true)
+end
+
+function slot0.OnDisVisible(slot0)
+	for slot4, slot5 in ipairs(slot0.panels) do
+		slot5:Disable()
+	end
+
+	slot0.iconView:Disable()
+	slot0.paintingView:Disable()
+	slot0.chatRoomView:Disable()
+	slot0.buffView:Disable()
+	slot0.actBtnView:Disable()
+	slot0.bannerView:Disable()
+	pg.redDotHelper:Disable()
+	slot0.buffDescPage:Disable()
+	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0.mainCG.gameObject.transform, false)
+end
+
 function slot0.onBackPressed(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
@@ -198,78 +272,6 @@ function slot0.onBackPressed(slot0)
 
 	pg.SdkMgr.GetInstance():OnAndoridBackPress()
 	pg.PushNotificationMgr.GetInstance():PushAll()
-end
-
-function slot0.setVisible(slot0, slot1)
-	uv0.super.setVisible(slot0, slot1)
-
-	if slot1 then
-		slot0.mainCG.alpha = 0
-		slot0.mainCG.blocksRaycasts = false
-
-		for slot5, slot6 in ipairs(slot0.panels) do
-			slot6:Refresh()
-		end
-
-		slot2 = slot0:GetFlagShip()
-		slot3 = slot0.bgView
-
-		slot3:Refresh(slot2)
-
-		slot3 = slot0.iconView
-
-		slot3:Refresh(slot2)
-
-		slot3 = slot0.paintingView
-
-		slot3:Refresh(slot2, true)
-
-		slot3 = slot0.effectView
-
-		slot3:Refresh(slot2)
-
-		slot3 = slot0.chatRoomView
-
-		slot3:Refresh()
-
-		slot3 = slot0.buffView
-
-		slot3:Refresh()
-
-		slot3 = slot0.actBtnView
-
-		slot3:Refresh()
-
-		slot3 = slot0.bannerView
-
-		slot3:Refresh()
-
-		slot3 = pg.redDotHelper
-
-		slot3:Refresh()
-		slot0:PlayBgm(slot2)
-
-		slot3 = slot0.sequenceView
-
-		slot3:Execute(function ()
-			uv0.mainCG.blocksRaycasts = true
-		end)
-	else
-		for slot5, slot6 in ipairs(slot0.panels) do
-			slot6:Disable()
-		end
-
-		slot0.iconView:Disable()
-		slot0.paintingView:Disable()
-		slot0.chatRoomView:Disable()
-		slot0.buffView:Disable()
-		slot0.actBtnView:Disable()
-		slot0.bannerView:Disable()
-		pg.redDotHelper:Disable()
-		slot0.buffDescPage:Disable()
-	end
-
-	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0.mainCG.gameObject.transform, slot1)
 end
 
 function slot0.willExit(slot0)
@@ -335,6 +337,10 @@ function slot0.willExit(slot0)
 
 	slot0.sequenceView = nil
 
+	slot0.awakeSequenceView:Dispose()
+
+	slot0.awakeSequenceView = nil
+
 	slot0.effectView:Dispose()
 
 	slot0.effectView = nil
@@ -342,61 +348,6 @@ function slot0.willExit(slot0)
 	slot0.adpterView:Dispose()
 
 	slot0.adpterView = nil
-end
-
-function slot0.Register(slot0)
-	slot0:bind(uv0.OPEN_LIVEAREA, function (slot0)
-		uv0.liveAreaPage:ExecuteAction("Show")
-	end)
-	slot0:bind(uv0.FOLD, function (slot0, slot1)
-		uv0:FoldPanels(slot1)
-	end)
-	slot0:bind(uv0.CHAT_STATE_CHANGE, function (slot0, slot1)
-		uv0.paintingView:OnChatStateChange(slot1)
-	end)
-	slot0:bind(uv0.ON_CHANGE_SKIN, function (slot0)
-		uv0:SwitchToNextShip()
-	end)
-	slot0:bind(uv0.ON_BUFF_DESC, function (slot0, slot1, slot2)
-		uv0.buffDescPage:ExecuteAction("Show", slot1, slot2)
-	end)
-	slot0:bind(uv0.ON_SKIN_FREEUSAGE_DESC, function (slot0, slot1)
-		uv0.skinExperiencePage:ExecuteAction("Show", slot1)
-	end)
-	slot0:bind(uv0.ENABLE_PAITING_MOVE, function (slot0, slot1)
-		uv0.paintingView:EnableOrDisableMove(slot1)
-	end)
-end
-
-function slot0.OnRemoveLayer(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.panels) do
-		slot6:OnRemoveLayer(slot1)
-	end
-
-	slot0.chatRoomView:OnRemoveLayer(slot1)
-	slot0.actBtnView:OnRemoveLayer(slot1)
-end
-
-function slot0.OnUpdatePlayer(slot0)
-	for slot4, slot5 in ipairs(slot0.panels) do
-		slot5:OnUpdatePlayer(context)
-	end
-end
-
-function slot0.OnUpdateChatMsg(slot0)
-	slot0.chatRoomView:OnUpdateChatMsg()
-end
-
-function slot0.OnStopPaitingVoice(slot0)
-	slot0.paintingView:OnStopVoice()
-end
-
-function slot0.OnActBtnUpdate(slot0)
-	slot0.actBtnView:Refresh()
-end
-
-function slot0.OnZeroHour(slot0)
-	slot0.actBtnView:Refresh()
 end
 
 return slot0

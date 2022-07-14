@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "idol-inorinouta-inst",
-			say = "大会海域",
+			say = "大會海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "好，到目前为止都很顺利。",
+			say = "好，到目前為止都很順利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 202280,
 			dir = 1,
-			say = "成功地把之前课程上的内容都顺利记下来了…！",
+			say = "成功地把之前課程上的內容都順利記下來了…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 202280,
 			dir = 1,
-			say = "（如果我们能一直走到最后的话，黛朵就能够帮到主人了…！）",
+			say = "（如果我們能一直走到最後的話，黛朵就能夠幫到主人了…！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			actor = 108050,
 			dir = 1,
-			say = "下一个要遭遇的对手，应该就是劲敌了吧？",
+			say = "下一個要遭遇的對手，應該就是勁敵了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			actor = 207110,
 			dir = 1,
-			say = "为什么这么说…？",
+			say = "為什麼這麼說…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要看看布景就会明白吧？一股超级认真的感觉已经印在上面了…",
+			say = "只要看看佈景就會明白吧？一股超級認真的感覺已經印在上面了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦！没想到「Astrum」会遭遇恶毒喵！这难道会是第一次「μ兵装」之间的表演战喵？！",
+			say = "哦！沒想到「Astrum」會遭遇惡毒喵！這難道會是第一次「μ兵裝」之間的表演戰喵？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "馒头摄像，把画面切到现场！",
+			say = "饅頭攝影，把畫面切到現場！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（以往的训练中，她总是一副无精打采的样子，没见过她在正经练习的样子。）",
+			say = "（以往的訓練中，她總是一副無精打采的樣子，沒見過她在正經練習的樣子。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			actor = 701050,
 			dir = 1,
-			say = "（大青花鱼说她是个强劲的对手，但说不定我们能够轻松拿下胜利？）",
+			say = "（大青花魚說她是個強勁的對手，但說不定我們能夠輕鬆拿下勝利？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,11 +222,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "恶毒（μ兵装）",
+			actorName = "惡毒(μ兵裝)",
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是推动海浪之空想，是照耀大海的白色偶像，恶毒。",
+			say = "我是推動海浪之空想，是照耀大海的白色偶像，惡毒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,11 +238,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "恶毒（μ兵装）",
+			actorName = "惡毒(μ兵裝)",
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鸢尾之心为我心，鸢尾之爱为我歌，这伟大的救赎之意，乃是我全部的感情。",
+			say = "鳶尾之心為我心，鳶尾之愛為我歌，這偉大的救贖之意，乃是我全部的感情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,11 +254,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "恶毒（μ兵装）",
+			actorName = "惡毒(μ兵裝)",
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在，聆听这着祷告之歌，感受灵魂上的净化吧！",
+			say = "現在，聆聽這著禱告之歌，感受靈魂上的淨化吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			actor = 207110,
 			dir = 1,
-			say = "多么灿烂的光芒啊……",
+			say = "多麼燦爛的光芒啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家，一定要当心，今天的恶毒和以往不同…！",
+			say = "大家，一定要當心，今天的惡毒和以往不同…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

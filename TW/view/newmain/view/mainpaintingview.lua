@@ -1,4 +1,4 @@
-slot0 = class("MainPaintingView")
+slot0 = class("MainPaintingView", import("view.base.BaseEventLogic"))
 slot0.STATE_PAINTING = 1
 slot0.STATE_L2D = 2
 slot0.STATE_SPINE_PAINTING = 3
@@ -6,6 +6,8 @@ slot0.PAINT_DEFAULT_POS_X = -600
 slot0.DEFAULT_HEIGHT = -10
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
+	uv0.super.Ctor(slot0, slot3)
+
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
 	slot0._bgTf = slot2
@@ -25,10 +27,20 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	}
 	slot0.bgOffset = slot0._bgTf.localPosition - slot0._tf.localPosition
 	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
+
+	slot0:Register()
 end
 
-function slot0.emit(slot0, ...)
-	slot0.event:emit(...)
+function slot0.Register(slot0)
+	slot0:bind(NewMainScene.ON_STOP_PAITING_VOICE, function (slot0)
+		uv0:OnStopVoice()
+	end)
+	slot0:bind(NewMainScene.CHAT_STATE_CHANGE, function (slot0, slot1)
+		uv0:OnChatStateChange(slot1)
+	end)
+	slot0:bind(NewMainScene.ENABLE_PAITING_MOVE, function (slot0, slot1)
+		uv0:EnableOrDisableMove(slot1)
+	end)
 end
 
 function slot0.OnChatStateChange(slot0, slot1)
@@ -83,6 +95,7 @@ function slot0.Refresh(slot0, slot1, slot2)
 
 		if slot2 then
 			slot0.painting:TriggerEventAtFirstTime()
+			slot0.painting:updateShip(slot1)
 		end
 	else
 		slot0:Init(slot1, slot2)
@@ -225,6 +238,7 @@ function slot0.DisableDragAndZoom(slot0)
 end
 
 function slot0.Dispose(slot0)
+	slot0:disposeEvent()
 	slot0:DisableDragAndZoom()
 
 	if slot0.painting then

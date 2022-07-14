@@ -376,4 +376,28 @@ function slot0.GetTranAwards(slot0, slot1)
 	return slot3
 end
 
+function slot0.MergeTechnologyAward(slot0)
+	slot1 = slot0.items
+
+	for slot5, slot6 in ipairs(slot0.commons) do
+		slot6.riraty = true
+
+		table.insert(slot1, slot6)
+	end
+
+	for slot5, slot6 in ipairs(slot0.catchupItems) do
+		slot6.catchupTag = true
+
+		table.insert(slot1, slot6)
+	end
+
+	for slot5, slot6 in ipairs(slot0.catchupActItems) do
+		slot6.catchupActTag = true
+
+		table.insert(slot1, slot6)
+	end
+
+	return slot1
+end
+
 return slot0

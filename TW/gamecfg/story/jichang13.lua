@@ -16,7 +16,7 @@ return {
 			actor = 901120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈，哈，哈……结束了…！",
+			say = "哈，哈，哈……結束了…！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202280,
-			say = "光辉小姐…还有大家，都辛苦了！",
+			say = "光輝小姐…還有大家，都辛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108050,
-			say = "总、总算是赢了……这个和平常的恶毒也太不一样了吧…",
+			say = "總、總算是贏了……這個和平常的惡毒也太不一樣了吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108050,
-			say = "「μ兵装」的输出竟然还能提升到这个水平……",
+			say = "「μ兵裝」的輸出竟然還能提升到這個水平……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她的言行举止，和平常完全判若两人……",
+			say = "她的言行舉止，和平常完全判若兩人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，并且可以肯定那不是双重人格。恶毒全力以赴，拼命努力，她的感情通过「μ兵装」得到了体现。",
+			say = "嗯，並且可以肯定那不是雙重人格。惡毒全力以赴，拼命努力，她的感情通過「μ兵裝」得到了體現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103250,
-			say = "这么说，如果「实力由感情反映」的话，我们这边「感情」差点就输给她了…",
+			say = "這麼說，如果「實力由感情反映」的話，我們這邊「感情」差點就輸給她了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701050,
-			say = "（难道，是塔什干只想着「努力」，缺乏了「感情」？）",
+			say = "（難道，是塔什干只想著「努力」，缺乏了「感情」？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701050,
-			say = "（其他人在想着同志酱的事情，或者心中有着某种目标，但塔什干……）",
+			say = "（其他人在想著同志醬的事情，或者心中有這某種目標，但塔什干……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108050,
-			say = "难道，这次参赛者的兵装本身就有一些性能上的差异……",
+			say = "難道，這次參賽者的兵裝本身就有一些性能上的差異……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所提出的机能，可以肯定不包含在「μ兵装」中",
+			say = "所提出的機能，可以肯定不包含在「μ兵裝」中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「μ兵装」的力量来源于歌曲，即，人的情感。「情感」无法完全数值化，亦不可能实现舰装受感情增幅的精确控制。",
+			say = "「μ兵裝」的力量來源於歌曲，即，人的情感。「情感」無法完全數值化，亦不可能實現艦裝受感情增幅的精確控制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103250,
-			say = "你们是——",
+			say = "你們是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（「μ兵装」就是把感情寄与歌中，赋予它们力量的东西）",
+			say = "（「μ兵裝」就是把感情寄與歌中，賦予它們力量的東西）",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -319,7 +319,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（{namecode:97}对指挥官的感情比谁都强烈，那么就不可能发挥不出它最强的性能）",
+			say = "（{namecode:97}對指揮官的感情比誰都強烈，那麼就不可能發揮不出它最強的性能）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（哼哼……指挥官，请等待{namecode:97}的完美舞台吧♡）",
+			say = "（哼哼……指揮官，請等待{namecode:97}的完美舞台吧♡）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

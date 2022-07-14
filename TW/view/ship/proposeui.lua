@@ -492,8 +492,21 @@ function slot0.showLive2D(slot0, slot1)
 	slot5 = slot5:setFrom(0)
 
 	table.insert(slot0.tweenList, slot5:setOnComplete(System.Action(function ()
+		uv0:changeParamaterValue("Paramring", 1)
 		uv0.l2dChar:SetAction(pg.AssistantInfo.action2Id[uv1])
 	end)).uniqueId)
+end
+
+function slot0.changeParamaterValue(slot0, slot1, slot2)
+	if not slot1 or string.len(slot1) == 0 then
+		return
+	end
+
+	if not slot0.l2dChar:GetCubismParameter(slot1) then
+		return
+	end
+
+	slot0.l2dChar:AddParameterValue(slot3, slot2, CubismParameterBlendMode.Override)
 end
 
 function slot0.hideWindow(slot0)

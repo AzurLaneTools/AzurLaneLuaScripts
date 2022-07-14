@@ -34,6 +34,10 @@ function slot0.UpdateCard(slot0, slot1)
 	end
 end
 
+function slot0.RefreshShips(slot0)
+	slot0:Update()
+end
+
 function slot0.OnLoaded(slot0)
 	slot0.cardContainer = slot0:findTF("frame")
 	slot0.shipTpl = slot0:findTF("frame/shipCard")
@@ -45,6 +49,12 @@ function slot0.OnLoaded(slot0)
 	slot0.settingBtnOn = slot1:Find("on")
 	slot1 = slot0.settingBtn
 	slot0.settingBtnOff = slot1:Find("off")
+	slot0.randomBtn = slot0:findTF("ran_setting_btn")
+	slot1 = slot0.randomBtn
+	slot0.randomBtnOn = slot1:Find("on")
+	slot1 = slot0.randomBtn
+	slot0.randomBtnOff = slot1:Find("off")
+	slot0.settingSeceneBtn = slot0:findTF("setting_scene_btn")
 
 	slot0:bind(uv0.ON_BEGIN_DRAG_CARD, function (slot0, slot1)
 		uv0:OnBeginDragCard(slot1)
@@ -55,6 +65,11 @@ function slot0.OnLoaded(slot0)
 	slot0:bind(uv0.ON_DRAG_END_CARD, function (slot0)
 		uv0:OnEndDragCard()
 	end)
+
+	if LOCK_RANDOM_SKIN_AND_SHIP then
+		setActive(slot0.randomBtn, false)
+		setText(slot0.settingSeceneBtn:Find("Text"), i18n("playervtae_setting_btn_label"))
+	end
 end
 
 function slot0.OnBeginDragCard(slot0, slot1)
@@ -134,15 +149,51 @@ function slot0.OnInit(slot0)
 	slot1 = false
 
 	onButton(slot0, slot0.settingBtn, function ()
-		uv0 = not uv0
+		if uv0.IsOpenEditForRandom then
+			triggerButton(uv0.randomBtn)
+		end
 
-		uv1()
-		uv2:EditCards(uv0)
+		uv1 = not uv1
+
+		uv2()
+		uv0:EditCards(uv1)
 	end, SFX_PANEL)
 	(function ()
 		setActive(uv0.settingBtnOn, uv1)
 		setActive(uv0.settingBtnOff, not uv1)
 	end)()
+
+	slot3 = false
+
+	onButton(slot0, slot0.randomBtn, function ()
+		if LOCK_RANDOM_SKIN_AND_SHIP then
+			return
+		end
+
+		if uv0.IsOpenEdit then
+			triggerButton(uv0.settingBtn)
+		end
+
+		uv1 = not uv1
+
+		uv2()
+		uv0:EditCardsForRandom(uv1)
+	end, SFX_PANEL)
+	(function ()
+		setActive(uv0.randomBtnOn, uv1)
+		setActive(uv0.randomBtnOff, not uv1)
+		setActive(uv0.settingSeceneBtn, uv1)
+	end)()
+	onButton(slot0, slot0.settingSeceneBtn, function ()
+		if uv0.IsOpenEditForRandom then
+			triggerButton(uv0.randomBtn)
+		end
+
+		uv0:emit(PlayerVitaeMediator.GO_SCENE, SCENE.SETTINGS, {
+			page = NewSettingsScene.PAGE_OPTION,
+			scroll = SettingsRandomFlagShipAndSkinPanel
+		})
+	end, SFX_PANEL)
 
 	slot0.cards = {
 		{},
@@ -156,6 +207,8 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.Update(slot0)
+	slot0.max, slot0.unlockCnt = uv0.GetSlotMaxCnt()
+
 	slot0:UpdateCards(slot0:GetUnlockShipCnt())
 	slot0:Show()
 end
@@ -212,24 +265,66 @@ function slot0.GetUnlockShipCnt(slot0)
 	slot1 = 0
 	slot2 = 0
 	slot3 = 0
-	slot4, slot5 = uv0.GetSlotMaxCnt()
 	slot2 = #getProxy(PlayerProxy):getRawData().characters
 
 	return {
 		slot2,
-		slot5 - slot2,
-		slot4 - slot5
+		slot0.unlockCnt - slot2,
+		slot0.max - slot0.unlockCnt
 	}
 end
 
 function slot0.EditCards(slot0, slot1)
-	for slot6, slot7 in ipairs(slot0.cards[uv0]) do
-		if isActive(slot7._tf) then
-			slot7:EditCard(slot1)
+	for slot6, slot7 in ipairs({
+		uv0,
+		uv1
+	}) do
+		for slot12, slot13 in ipairs(slot0.cards[slot7]) do
+			if isActive(slot13._tf) then
+				slot13:EditCard(slot1)
+			end
 		end
 	end
 
 	slot0.IsOpenEdit = slot1
+end
+
+function slot0.EditCardsForRandom(slot0, slot1)
+	slot2 = {}
+
+	for slot7, slot8 in ipairs(slot0.cards[uv0]) do
+		if isActive(slot8._tf) then
+			if not slot1 then
+				slot2[slot8.slotIndex] = slot8:GetRandomFlagValue()
+			end
+
+			slot8:EditCardForRandom(slot1)
+		end
+	end
+
+	slot0.IsOpenEditForRandom = slot1
+
+	if #slot2 > 0 then
+		slot0:SaveRandomSettings(slot2)
+	end
+
+	for slot8, slot9 in ipairs(slot0.cards[uv1]) do
+		if isActive(slot9._tf) then
+			slot9:EditCard(slot1)
+		end
+	end
+end
+
+function slot0.SaveRandomSettings(slot0, slot1)
+	slot2 = getProxy(PlayerProxy):getRawData()
+
+	for slot6 = 1, slot0.max do
+		if not slot1[slot6] then
+			slot1[slot6] = slot2:RawGetRandomShipAndSkinValueInpos(slot6)
+		end
+	end
+
+	slot0:emit(PlayerVitaeMediator.CHANGE_RANDOM_SETTING, slot1)
 end
 
 function slot0.Show(slot0)
@@ -243,6 +338,10 @@ function slot0.Hide(slot0)
 
 	if slot0.IsOpenEdit then
 		triggerButton(slot0.settingBtn)
+	end
+
+	if slot0.IsOpenEditForRandom then
+		triggerButton(slot0.randomBtn)
 	end
 
 	Input.multiTouchEnabled = true

@@ -158,6 +158,10 @@ function slot0.didEnter(slot0)
 	slot0:UpdateWeekTip()
 end
 
+function slot0.refreshPage(slot0)
+	slot0:UpdatePage(slot0._currentToggleType)
+end
+
 function slot0.UpdatePage(slot0, slot1)
 	slot2 = uv0[slot1]
 
@@ -287,6 +291,14 @@ function slot0.onSubmitForWeek(slot0, slot1)
 	end
 
 	slot0:emit(TaskMediator.ON_SUBMIT_WEEK_TASK, slot1)
+end
+
+function slot0.onSubmitForAvatar(slot0, slot1)
+	if slot0.onShowAwards then
+		return
+	end
+
+	slot0:emit(TaskMediator.ON_SUBMIT_AVATAR_TASK, slot1)
 end
 
 function slot0.onGo(slot0, slot1)

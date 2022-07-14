@@ -112578,6 +112578,705 @@ _G.pg.base.equip_data_statistics[85466] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[89140] = {
+	type = 10,
+	name = "熾烈之歌",
+	speciality = "无",
+	tech = 0,
+	value_2 = 15,
+	ammo = 10,
+	nationality = 0,
+	descrip = "偶像組合「Verheerender」所使用的麥克風",
+	rarity = 5,
+	attribute_1 = "antiaircraft",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89140,
+	icon = "89140",
+	value_1 = "14",
+	attribute_2 = "hit",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6710
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89141] = {
+	id = 89141,
+	value_2 = 16,
+	value_1 = "16",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89142] = {
+	id = 89142,
+	value_2 = 17,
+	value_1 = "18",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89143] = {
+	id = 89143,
+	value_2 = 18,
+	value_1 = "20",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89144] = {
+	id = 89144,
+	value_2 = 19,
+	value_1 = "22",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89145] = {
+	id = 89145,
+	value_2 = 20,
+	value_1 = "24",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89146] = {
+	id = 89146,
+	value_2 = 22,
+	value_1 = "26",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89147] = {
+	id = 89147,
+	value_2 = 24,
+	value_1 = "28",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89148] = {
+	id = 89148,
+	value_2 = 26,
+	value_1 = "30",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89149] = {
+	id = 89149,
+	value_2 = 28,
+	value_1 = "32",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89150] = {
+	id = 89150,
+	value_2 = 30,
+	value_1 = "35",
+	base = 89140,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89151] = {
+	value_2 = 32,
+	anti_siren = 100,
+	base = 89140,
+	id = 89151,
+	value_1 = "38",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89152] = {
+	value_2 = 34,
+	anti_siren = 200,
+	base = 89140,
+	id = 89152,
+	value_1 = "41",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89153] = {
+	value_2 = 36,
+	anti_siren = 300,
+	base = 89140,
+	id = 89153,
+	value_1 = "44",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89160] = {
+	type = 10,
+	name = "活力之歌",
+	speciality = "无",
+	tech = 0,
+	value_2 = 15,
+	ammo = 10,
+	nationality = 0,
+	descrip = "偶像組合「Lumière」所使用的麥克風",
+	rarity = 5,
+	attribute_1 = "antiaircraft",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89160,
+	icon = "89160",
+	value_1 = "14",
+	attribute_2 = "hit",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6711
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89161] = {
+	id = 89161,
+	value_2 = 16,
+	value_1 = "16",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89162] = {
+	id = 89162,
+	value_2 = 17,
+	value_1 = "18",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89163] = {
+	id = 89163,
+	value_2 = 18,
+	value_1 = "20",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89164] = {
+	id = 89164,
+	value_2 = 19,
+	value_1 = "22",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89165] = {
+	id = 89165,
+	value_2 = 20,
+	value_1 = "24",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89166] = {
+	id = 89166,
+	value_2 = 22,
+	value_1 = "26",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89167] = {
+	id = 89167,
+	value_2 = 24,
+	value_1 = "28",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89168] = {
+	id = 89168,
+	value_2 = 26,
+	value_1 = "30",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89169] = {
+	id = 89169,
+	value_2 = 28,
+	value_1 = "32",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89170] = {
+	id = 89170,
+	value_2 = 30,
+	value_1 = "35",
+	base = 89160,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89171] = {
+	value_2 = 32,
+	anti_siren = 100,
+	base = 89160,
+	id = 89171,
+	value_1 = "38",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89172] = {
+	value_2 = 34,
+	anti_siren = 200,
+	base = 89160,
+	id = 89172,
+	value_1 = "41",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89173] = {
+	value_2 = 36,
+	anti_siren = 300,
+	base = 89160,
+	id = 89173,
+	value_1 = "44",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89180] = {
+	type = 10,
+	name = "閃耀之歌",
+	speciality = "无",
+	tech = 0,
+	value_2 = 15,
+	ammo = 10,
+	nationality = 0,
+	descrip = "偶像組合「Astrum」所使用的麥克風",
+	rarity = 5,
+	attribute_1 = "antiaircraft",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89180,
+	icon = "89180",
+	value_1 = "14",
+	attribute_2 = "hit",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6712
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89181] = {
+	id = 89181,
+	value_2 = 16,
+	value_1 = "16",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89182] = {
+	id = 89182,
+	value_2 = 17,
+	value_1 = "18",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89183] = {
+	id = 89183,
+	value_2 = 18,
+	value_1 = "20",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89184] = {
+	id = 89184,
+	value_2 = 19,
+	value_1 = "22",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89185] = {
+	id = 89185,
+	value_2 = 20,
+	value_1 = "24",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89186] = {
+	id = 89186,
+	value_2 = 22,
+	value_1 = "26",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89187] = {
+	id = 89187,
+	value_2 = 24,
+	value_1 = "28",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89188] = {
+	id = 89188,
+	value_2 = 26,
+	value_1 = "30",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89189] = {
+	id = 89189,
+	value_2 = 28,
+	value_1 = "32",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89190] = {
+	id = 89190,
+	value_2 = 30,
+	value_1 = "35",
+	base = 89180,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89191] = {
+	value_2 = 32,
+	anti_siren = 100,
+	base = 89180,
+	id = 89191,
+	value_1 = "38",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89192] = {
+	value_2 = 34,
+	anti_siren = 200,
+	base = 89180,
+	id = 89192,
+	value_1 = "41",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89193] = {
+	value_2 = 36,
+	anti_siren = 300,
+	base = 89180,
+	id = 89193,
+	value_1 = "44",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89200] = {
+	type = 10,
+	name = "引力舞鞋",
+	speciality = "无",
+	tech = 0,
+	value_2 = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "引人矚目的舞鞋，穿上以後似乎能夠成為……偶像？",
+	rarity = 5,
+	attribute_1 = "dodge",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89200,
+	icon = "89200",
+	value_1 = "13",
+	attribute_2 = "speed",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6690
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89201] = {
+	id = 89201,
+	value_1 = "14",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89202] = {
+	id = 89202,
+	value_1 = "15",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89203] = {
+	id = 89203,
+	value_2 = 2,
+	value_1 = "16",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89204] = {
+	id = 89204,
+	value_2 = 2,
+	value_1 = "17",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89205] = {
+	id = 89205,
+	value_2 = 2,
+	value_1 = "18",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89206] = {
+	id = 89206,
+	value_2 = 3,
+	value_1 = "20",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89207] = {
+	id = 89207,
+	value_2 = 3,
+	value_1 = "22",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89208] = {
+	id = 89208,
+	value_2 = 4,
+	value_1 = "24",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89209] = {
+	id = 89209,
+	value_2 = 4,
+	value_1 = "26",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89210] = {
+	id = 89210,
+	value_2 = 5,
+	value_1 = "28",
+	base = 89200,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89211] = {
+	value_2 = 5,
+	anti_siren = 100,
+	base = 89200,
+	id = 89211,
+	value_1 = "30",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89212] = {
+	value_2 = 5,
+	anti_siren = 200,
+	base = 89200,
+	id = 89212,
+	value_1 = "32",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89213] = {
+	value_2 = 5,
+	anti_siren = 300,
+	base = 89200,
+	id = 89213,
+	value_1 = "34",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89220] = {
+	type = 10,
+	name = "星雲舞裙",
+	speciality = "无",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "星雲般華麗的舞裙，穿上以後似乎能夠成為…偶像？",
+	nationality = 0,
+	rarity = 5,
+	id = 89220,
+	value_3 = 0,
+	attribute_1 = "durability",
+	icon = "89220",
+	value_1 = "250",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6700
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89221] = {
+	id = 89221,
+	value_1 = "280",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89222] = {
+	id = 89222,
+	value_1 = "310",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89223] = {
+	id = 89223,
+	value_1 = "340",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89224] = {
+	id = 89224,
+	value_1 = "370",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89225] = {
+	id = 89225,
+	value_1 = "400",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89226] = {
+	id = 89226,
+	value_1 = "430",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89227] = {
+	id = 89227,
+	value_1 = "460",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89228] = {
+	id = 89228,
+	value_1 = "490",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89229] = {
+	id = 89229,
+	value_1 = "520",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89230] = {
+	id = 89230,
+	value_1 = "550",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89231] = {
+	id = 89231,
+	anti_siren = 100,
+	value_1 = "580",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89232] = {
+	id = 89232,
+	anti_siren = 200,
+	value_1 = "610",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89233] = {
+	id = 89233,
+	anti_siren = 300,
+	value_1 = "640",
+	base = 89220,
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[89240] = {
 	type = 10,
 	name = "覺醒寶珠",
@@ -118875,7 +119574,7 @@ _G.pg.base.equip_data_statistics[95160] = {
 	type = 6,
 	descrip = "说明未填写",
 	ammo = 5,
-	damage = "50/轮",
+	damage = "50/輪",
 	nationality = 6,
 	rarity = 5,
 	id = 95160,
@@ -118938,7 +119637,7 @@ _G.pg.base.equip_data_statistics[95160] = {
 
 _G.pg.base.equip_data_statistics[95161] = {
 	id = 95161,
-	damage = "57/轮",
+	damage = "57/輪",
 	base = 95160,
 	weapon_id = {
 		95161
@@ -118948,7 +119647,7 @@ _G.pg.base.equip_data_statistics[95161] = {
 
 _G.pg.base.equip_data_statistics[95162] = {
 	id = 95162,
-	damage = "64/轮",
+	damage = "64/輪",
 	base = 95160,
 	weapon_id = {
 		95162
@@ -118958,7 +119657,7 @@ _G.pg.base.equip_data_statistics[95162] = {
 
 _G.pg.base.equip_data_statistics[95163] = {
 	id = 95163,
-	damage = "71/轮",
+	damage = "71/輪",
 	base = 95160,
 	weapon_id = {
 		95163
@@ -118968,7 +119667,7 @@ _G.pg.base.equip_data_statistics[95163] = {
 
 _G.pg.base.equip_data_statistics[95164] = {
 	id = 95164,
-	damage = "78/轮",
+	damage = "78/輪",
 	base = 95160,
 	weapon_id = {
 		95164
@@ -118978,7 +119677,7 @@ _G.pg.base.equip_data_statistics[95164] = {
 
 _G.pg.base.equip_data_statistics[95165] = {
 	id = 95165,
-	damage = "85/轮",
+	damage = "85/輪",
 	base = 95160,
 	weapon_id = {
 		95165
@@ -118988,7 +119687,7 @@ _G.pg.base.equip_data_statistics[95165] = {
 
 _G.pg.base.equip_data_statistics[95166] = {
 	id = 95166,
-	damage = "92/轮",
+	damage = "92/輪",
 	base = 95160,
 	weapon_id = {
 		95166
@@ -118998,7 +119697,7 @@ _G.pg.base.equip_data_statistics[95166] = {
 
 _G.pg.base.equip_data_statistics[95167] = {
 	id = 95167,
-	damage = "99/轮",
+	damage = "99/輪",
 	base = 95160,
 	weapon_id = {
 		95167
@@ -119008,7 +119707,7 @@ _G.pg.base.equip_data_statistics[95167] = {
 
 _G.pg.base.equip_data_statistics[95168] = {
 	id = 95168,
-	damage = "106/轮",
+	damage = "106/輪",
 	base = 95160,
 	weapon_id = {
 		95168
@@ -119018,7 +119717,7 @@ _G.pg.base.equip_data_statistics[95168] = {
 
 _G.pg.base.equip_data_statistics[95169] = {
 	id = 95169,
-	damage = "113/轮",
+	damage = "113/輪",
 	base = 95160,
 	weapon_id = {
 		95169
@@ -119028,7 +119727,7 @@ _G.pg.base.equip_data_statistics[95169] = {
 
 _G.pg.base.equip_data_statistics[95170] = {
 	id = 95170,
-	damage = "120/轮",
+	damage = "120/輪",
 	base = 95160,
 	weapon_id = {
 		95170
@@ -119039,7 +119738,7 @@ _G.pg.base.equip_data_statistics[95170] = {
 _G.pg.base.equip_data_statistics[95171] = {
 	id = 95171,
 	anti_siren = 100,
-	damage = "120/轮",
+	damage = "120/輪",
 	base = 95160,
 	weapon_id = {
 		95171
@@ -119050,7 +119749,7 @@ _G.pg.base.equip_data_statistics[95171] = {
 _G.pg.base.equip_data_statistics[95172] = {
 	id = 95172,
 	anti_siren = 200,
-	damage = "120/轮",
+	damage = "120/輪",
 	base = 95160,
 	weapon_id = {
 		95172
@@ -119061,7 +119760,7 @@ _G.pg.base.equip_data_statistics[95172] = {
 _G.pg.base.equip_data_statistics[95173] = {
 	id = 95173,
 	anti_siren = 300,
-	damage = "120/轮",
+	damage = "120/輪",
 	base = 95160,
 	weapon_id = {
 		95173

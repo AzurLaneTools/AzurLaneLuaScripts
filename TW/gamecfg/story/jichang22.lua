@@ -37,7 +37,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "数据收集完毕。这样就又成功回收了一份呢。",
+			say = "數據收集完畢。這樣就又成功回收了一份呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "费了不少功夫啊。这种任务有必要花那么多精力去做吗？",
+			say = "費了不少功夫啊。這種任務有必要花那麼多精力去做嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "艺术可不仅仅是结果。过程也是不可或缺的哟。",
+			say = "藝術可不僅僅是結果。過程也是不可或缺的喲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "否则我们和单纯的数据库有什么区别？",
+			say = "否則我們和單純的數據庫有什麼區別？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ff5c5c",
-			say = "不想和你争这个，这个话题到此为止。",
+			say = "不想和你爭這個，這個話題到此為止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "哦，你确定吗？我还准备听听你的观赏感想呢？",
+			say = "哦，你確定嗎？我還準備聽聽你的觀賞感想呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "构建者都看到了哦，你其实一直偷偷摸摸地乐在其中吧。",
+			say = "構建者都看到了哦，你其實一直偷偷摸摸地樂在其中吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "我要回去工作了。别担心，这种小事告诉别人也没有意义就是了。",
+			say = "我要回去工作了。別擔心，這種小事告訴別人也沒有意義就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

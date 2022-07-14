@@ -336,7 +336,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 166
+		key_value = 175
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1888,7 +1888,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 40645
+		key_value = 40713
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2062,6 +2062,10 @@ pg.gameset = {
 			200,
 			200
 		}
+	},
+	past_joint_boss_autofight_time = {
+		description = "",
+		key_value = 900
 	},
 	world_boss_joindamage = {
 		description = "",

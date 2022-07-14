@@ -1,14 +1,14 @@
 slot0 = class("CommissionInfoMediator", import("...base.ContextMediator"))
-slot0.FINISH_EVENT = "CommissionInfoMediator:FINISH_EVENT"
-slot0.FINISH_CLASS = "CommissionInfoMediator:FINISH_CLASS"
-slot0.GET_OIL_RES = "CommissionInfoMediator:GET_OIL_RES"
-slot0.GET_GOLD_RES = "CommissionInfoMediator:GET_GOLD_RES"
-slot0.ON_ACTIVE_EVENT = "CommissionInfoMediator:ON_ACTIVE_EVENT"
-slot0.ON_ACTIVE_CLASS = "CommissionInfoMediator:ON_ACTIVE_CLASS"
-slot0.ON_ACTIVE_TECH = "CommissionInfoMediator:ON_ACTIVE_TECH"
-slot0.ON_TECH_TIME_OVER = "CommissionInfoMediator:ON_TECH_TIME_OVER"
-slot0.ON_TECH_FINISHED = "CommissionInfoMediator:ON_TECH_FINISHED"
-slot0.ON_INS = "CommissionInfoMediator:ON_INS"
+slot0.FINISH_EVENT = "CommissionInfoMediator.FINISH_EVENT"
+slot0.FINISH_CLASS = "CommissionInfoMediator.FINISH_CLASS"
+slot0.GET_OIL_RES = "CommissionInfoMediator.GET_OIL_RES"
+slot0.GET_GOLD_RES = "CommissionInfoMediator.GET_GOLD_RES"
+slot0.ON_ACTIVE_EVENT = "CommissionInfoMediator.ON_ACTIVE_EVENT"
+slot0.ON_ACTIVE_CLASS = "CommissionInfoMediator.ON_ACTIVE_CLASS"
+slot0.ON_ACTIVE_TECH = "CommissionInfoMediator.ON_ACTIVE_TECH"
+slot0.ON_TECH_FINISHED = "CommissionInfoMediator.ON_TECH_FINISHED"
+slot0.ON_TECH_QUEUE_FINISH = "CommissionInfoMediator.ON_TECH_QUEUE_FINISH"
+slot0.ON_INS = "CommissionInfoMediator.ON_INS"
 slot0.ON_UR_ACTIVITY = "CommanderInfoMediator:ON_UR_ACTIVITY"
 slot0.ON_CRUSING = "CommanderInfoMediator.ON_CRUSING"
 slot0.GET_CLASS_RES = "CommanderInfoMediator:GET_CLASS_RES"
@@ -27,19 +27,8 @@ function slot0.register(slot0)
 	slot0:bind(uv0.GET_CLASS_RES, function (slot0)
 		uv0:sendNotification(GAME.HARVEST_CLASS_RES)
 	end)
-	slot0:bind(uv0.ON_TECH_TIME_OVER, function (slot0, slot1, slot2)
-		slot4 = getProxy(TechnologyProxy):getTechnologyById(slot1)
-
-		assert(slot4, "technology can not be nil.." .. slot1)
-
-		if slot4:canFinish() then
-			slot4:finish()
-			slot3:updateTechnology(slot4)
-		end
-
-		if slot2 then
-			slot2()
-		end
+	slot0:bind(uv0.ON_TECH_QUEUE_FINISH, function (slot0)
+		uv0:sendNotification(GAME.FINISH_QUEUE_TECHNOLOGY)
 	end)
 	slot0:bind(uv0.ON_TECH_FINISHED, function (slot0, slot1)
 		uv0:sendNotification(GAME.FINISH_TECHNOLOGY, {
@@ -136,7 +125,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.EVENT_LIST_UPDATE,
 		GAME.EVENT_SHOW_AWARDS,
 		GAME.CANCEL_LEARN_TACTICS_DONE,
-		GAME.FINISH_TECHNOLOGY_DONE
+		GAME.FINISH_TECHNOLOGY_DONE,
+		GAME.FINISH_QUEUE_TECHNOLOGY_DONE
 	}
 end
 
@@ -216,31 +206,39 @@ function slot0.handleNotification(slot0, slot1)
 				})
 			end
 		elseif slot2 == GAME.FINISH_TECHNOLOGY_DONE then
-			slot4 = slot0.viewComponent
+			slot0.viewComponent:OnUpdateTechnology()
 
-			slot4:OnUpdateTechnology()
-			_.each(slot3.items, function (slot0)
-				slot0.riraty = true
-
-				table.insert(uv0, slot0)
-			end)
-			_.each(slot3.catchupItems, function (slot0)
-				slot0.catchupTag = true
-
-				table.insert(uv0, slot0)
-			end)
-			_.each(slot3.catchupActItems, function (slot0)
-				slot0.catchupActTag = true
-
-				table.insert(uv0, slot0)
-			end)
-
-			if #slot3.commons > 0 then
+			if #slot3.items > 0 then
 				slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 					animation = true,
-					items = slot5
+					items = slot3.items
 				})
 			end
+		elseif slot2 == GAME.FINISH_QUEUE_TECHNOLOGY_DONE then
+			slot0.viewComponent:OnUpdateTechnology()
+
+			slot4 = {}
+
+			for slot8, slot9 in ipairs(slot3.dropInfos) do
+				if #slot9 > 0 then
+					table.insert(slot4, function (slot0)
+						uv0.viewComponent:emit(BaseUI.ON_AWARD, {
+							animation = true,
+							items = uv1,
+							removeFunc = slot0
+						})
+					end)
+				end
+			end
+
+			seriesAsync(slot4, function ()
+				if getProxy(TechnologyProxy):getActivateTechnology() and slot0:isCompleted() then
+					uv0:sendNotification(GAME.FINISH_TECHNOLOGY, {
+						id = slot0.id,
+						pool_id = slot0.poolId
+					})
+				end
+			end)
 		end
 	end
 end

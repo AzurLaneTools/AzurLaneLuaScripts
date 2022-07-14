@@ -209,6 +209,7 @@ function slot0.initUI(slot0)
 	slot0.actExtraRank = slot0:findTF("event_btns/act_extra_rank", slot0.rightChapter)
 
 	setActive(slot0.rightChapter, true)
+	setActive(slot0.remasterAwardBtn, false)
 
 	slot5 = slot0.topPanel
 	slot0.damageTextTemplate = go(slot0:findTF("damage", slot5))
@@ -1988,9 +1989,6 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 						pg.UIMgr.CameraUI
 					}
 				})
-
-				uv0.canvasGroup.blocksRaycasts = uv0.frozenCount == 0
-
 				uv0.levelStageView:updateStageInfo()
 				uv0.levelStageView:updateAmbushRate(uv1.fleet.line, true)
 				uv0.levelStageView:updateStageAchieve()
@@ -2005,6 +2003,9 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				end
 
 				uv0.levelStageView:updateStageStrategy()
+
+				uv0.canvasGroup.blocksRaycasts = uv0.frozenCount == 0
+
 				onNextTick(slot0)
 			end,
 			function (slot0)

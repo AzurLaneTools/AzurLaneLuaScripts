@@ -1,6 +1,7 @@
-slot0 = class("MainBasePanel")
+slot0 = class("MainBasePanel", import("view.base.BaseEventLogic"))
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
+	uv0.super.Ctor(slot0, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot1
@@ -12,8 +13,18 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 end
 
 function slot0.Init(slot0)
-	slot0:OnRegist()
+	slot0:Regist()
 	slot0:Refresh()
+end
+
+function slot0.Regist(slot0)
+	slot0:bind(NewMainScene.ON_REMOVE_LAYER, function (slot0, slot1)
+		uv0:OnRemoveLayer(slot1)
+	end)
+	slot0:bind(NewMainScene.ON_PLAYER_UPDATE, function (slot0)
+		uv0:OnUpdatePlayer()
+	end)
+	slot0:OnRegist()
 end
 
 function slot0.emit(slot0, ...)
@@ -83,6 +94,7 @@ function slot0.Disable(slot0)
 end
 
 function slot0.Dispose(slot0)
+	slot0:disposeEvent()
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:OnDispose()
 end

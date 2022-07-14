@@ -43,7 +43,7 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	slot0.taskVOs = {}
 
 	for slot8, slot9 in pairs(slot0.contextData.taskVOsById) do
-		if slot9:ShowOnTaskScene() and slot2[slot9:GetRealType()] and slot0:checkActivityTask(slot9) then
+		if slot9:ShowOnTaskScene() and slot2[slot9:GetRealType()] then
 			table.insert(slot0.taskVOs, slot9)
 		end
 	end
@@ -57,6 +57,14 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 					progress = 0,
 					id = slot11
 				}))
+			end
+		end
+	end
+
+	if slot1 == TaskScene.PAGE_TYPE_ALL or slot1 == TaskScene.PAGE_TYPE_ACT then
+		for slot10, slot11 in ipairs(getProxy(AvatarFrameProxy):getAllAvatarFrame()) do
+			for slot16, slot17 in ipairs(slot11.tasks) do
+				table.insert(slot0.taskVOs, slot17)
 			end
 		end
 	end
@@ -224,10 +232,37 @@ function slot0.ExecuteOneStepSubmit(slot0)
 		uv0, uv1 = uv2:filterOverflowTaskVOList(uv3)
 		uv0 = uv2:filterSubmitTaskVOList(uv0, uv4)
 		uv0 = uv2:filterChoiceTaskVOList(uv0, uv4)
+		slot0 = {}
 
-		pg.m02:sendNotification(GAME.MERGE_TASK_ONE_STEP_AWARD, {
-			resultList = uv0
-		})
+		for slot4 = #uv0, 1, -1 do
+			if uv0[slot4]:isAvatarTask() then
+				if not slot0[slot5.actId] then
+					slot0[slot5.actId] = {}
+				end
+
+				table.insert(slot0[slot5.actId], slot5.id)
+				table.remove(uv0, slot4)
+			end
+		end
+
+		for slot4, slot5 in pairs(slot0) do
+			if #slot5 > 0 then
+				pg.m02:sendNotification(GAME.AVATAR_FRAME_AWARD, {
+					act_id = slot4,
+					task_ids = slot5,
+					callback = function ()
+						uv0()
+					end
+				})
+				coroutine.yield()
+			end
+		end
+
+		if #uv0 > 0 then
+			pg.m02:sendNotification(GAME.MERGE_TASK_ONE_STEP_AWARD, {
+				resultList = uv0
+			})
+		end
 	end)()
 
 	if false then

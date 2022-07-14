@@ -78,7 +78,11 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 		return
 	end
 
+	slot0.formSkip = false
+
 	if slot1:ShouldSkipAll() then
+		slot0.formSkip = true
+
 		slot0:ClearEffects()
 	end
 

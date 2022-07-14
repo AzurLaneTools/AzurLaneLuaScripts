@@ -446,6 +446,22 @@ function slot0.TriggerAutoBtn(slot0)
 	triggerButton(slot0.autoBtn)
 end
 
+function slot0.TriggerSkipBtn(slot0)
+	if not slot0:IsRunning() then
+		return
+	end
+
+	triggerButton(slot0.skipBtn)
+end
+
+function slot0.ForEscPress(slot0)
+	if slot0.recordPanel:IsShowing() then
+		slot0.recordPanel:Hide()
+	else
+		slot0:TriggerSkipBtn()
+	end
+end
+
 function slot0.OnStart(slot0)
 	removeOnButton(slot0._go)
 	removeOnButton(slot0.skipBtn)

@@ -410,7 +410,7 @@ pg.box_data_template = {
 	},
 	[10114] = {
 		id = 10114,
-		name = "徽章·大青花鱼 ",
+		name = "徽章·大青花魚",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -426,7 +426,7 @@ pg.box_data_template = {
 	},
 	[10116] = {
 		id = 10116,
-		name = "邮票·罗恩 ",
+		name = "郵票·羅恩",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -434,7 +434,7 @@ pg.box_data_template = {
 	},
 	[10117] = {
 		id = 10117,
-		name = "杯垫·恶毒 ",
+		name = "杯墊·惡毒",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -442,7 +442,7 @@ pg.box_data_template = {
 	},
 	[10118] = {
 		id = 10118,
-		name = "写真·{namecode:97}",
+		name = "寫真·{namecode:97}",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",

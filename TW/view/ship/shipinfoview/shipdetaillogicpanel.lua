@@ -376,6 +376,9 @@ function slot0.updateSkillTF(slot0, slot1, slot2, slot3)
 		setActive(slot6, false)
 		setActive(slot5, not slot3)
 		LoadImageSpriteAsync("skillicon/" .. slot2.icon, findTF(slot4, "icon"))
+
+		findTF(slot4, "mask/name").anchoredPosition = Vector2(0, 0)
+
 		setScrollText(findTF(slot4, "mask/name"), getSkillName(slot2.id))
 		setText(findTF(slot4, "level"), "LEVEL: " .. (slot3 and slot3.level or "??"))
 	else

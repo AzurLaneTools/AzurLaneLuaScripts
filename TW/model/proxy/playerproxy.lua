@@ -245,7 +245,7 @@ function slot0.IsShowCommssionTip(slot0)
 	slot19 = false
 
 	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot18:isEnd() then
-		slot19 = slot18:readyToAchieve()
+		slot19 = #slot18:GetCrusingUnreceiveAward() > 0
 	end
 
 	return slot2 or slot8 or slot9 or slot12 ~= 0 and slot10 > slot12 - 10 or slot13 or slot15 > 0 or slot17 > 0 or slot19

@@ -238,67 +238,50 @@ function slot0.switchRightPage(slot0, slot1)
 end
 
 function slot0.initTendencyPage(slot0)
-	slot0.tendencyItemList = {}
-	slot2 = "tec_tendency_"
-	slot4 = getProxy(TechnologyProxy):getConfigMaxVersion()
+	slot2 = slot0:findTF("TecItemList", slot0.tendencyPanel)
+	slot3 = UIItemList.New(slot2, slot2:Find("tpl"))
 
-	for slot8 = 1, slot0:findTF("TecItemList", slot0.tendencyPanel).childCount do
-		setActive(slot1:GetChild(slot8 - 1), slot4 >= slot8 - 1)
+	slot3:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = slot1 > 0 and i18n("tec_tendency_x", i18n("number_" .. slot1)) or i18n("tec_tendency_0")
 
-		if slot4 >= slot8 - 1 then
-			table.insert(slot0.tendencyItemList, slot9)
-
-			slot12 = slot2 .. slot8 - 1
-
-			setText(slot0:findTF("UnSelect/Text", slot9), i18n(slot12))
-			setText(slot0:findTF("Selected/Text", slot9), i18n(slot12))
+			setText(slot2:Find("UnSelect/Text"), slot3)
+			setText(slot2:Find("Selected/Text"), slot3)
+			onButton(uv0, slot2, function ()
+				if uv0.curTendency ~= uv1 then
+					uv0:emit(TechnologySettingsMediator.CHANGE_TENDENCY, uv1)
+				end
+			end, SFX_PANEL)
 		end
-	end
-
-	slot0.tendencyNumList = {}
-
-	eachChild(slot0:findTF("TendencyNum", slot0.tendencyPanel), function (slot0)
-		table.insert(uv0.tendencyNumList, 1, slot0)
 	end)
-
-	for slot9, slot10 in ipairs(slot0.tendencyItemList) do
-		onButton(slot0, slot10, function ()
-			if uv0.curTendency ~= uv1 - 1 then
-				uv0:emit(TechnologySettingsMediator.CHANGE_TENDENCY, uv1 - 1)
-			end
-		end, SFX_PANEL)
-	end
+	slot3:align(getProxy(TechnologyProxy):getConfigMaxVersion() + 1)
 end
 
 function slot0.updateTendencyPage(slot0, slot1)
+	slot2 = slot0:findTF("TecItemList", slot0.tendencyPanel)
+
+	setActive(slot2:GetChild(slot0.curTendency):Find("Selected"), false)
+
+	slot3 = slot2:GetChild(slot1):Find("Selected")
+
+	setActive(slot3, true)
+	setImageAlpha(slot3:Find("Image"), 0)
+	slot0:managedTween(LeanTween.alpha, nil, slot3:Find("Image"), 1, uv0.SELECT_TENDENCY_FADE_TIME):setFrom(0)
+	setImageAlpha(slot0:findTF("TendencyNum", slot0.tendencyPanel):Find("Image"), 0)
+
+	if slot1 > 0 then
+		GetImageSpriteFromAtlasAsync("ui/technologysettingsui_atlas", "right_tendency_num_" .. slot1, slot4:Find("Image"), true)
+		slot0:managedTween(LeanTween.alpha, nil, slot4:Find("Image"), 1, uv0.SELECT_TENDENCY_FADE_TIME):setFrom(0)
+	end
+
 	slot0.curTendency = slot1
-
-	for slot5, slot6 in ipairs(slot0.tendencyItemList) do
-		setActive(slot0:findTF("Selected", slot6), slot1 == slot5 - 1)
-
-		if slot1 == slot5 - 1 then
-			slot8 = slot0:findTF("Image", slot7)
-
-			setImageAlpha(slot8, 0)
-			slot0:managedTween(LeanTween.alpha, nil, rtf(slot8), 1, uv0.SELECT_TENDENCY_FADE_TIME):setFrom(0)
-		end
-	end
-
-	for slot5, slot6 in ipairs(slot0.tendencyNumList) do
-		setActive(slot6, slot5 == slot1)
-
-		if slot5 == slot1 then
-			setImageAlpha(slot6, 0)
-			slot0:managedTween(LeanTween.alpha, nil, rtf(slot6), 1, uv0.SELECT_TENDENCY_FADE_TIME):setFrom(0)
-		end
-	end
 end
 
 function slot0.updateTendencyBtn(slot0, slot1)
-	slot4 = "tec_tendency_cur_" .. slot1
+	slot2 = slot1 > 0 and i18n("tec_tendency_cur_x", i18n("number_" .. slot1)) or i18n("tec_tendency_cur_0")
 
-	setText(slot0:findTF("UnSelect/Text", slot0.tendencyBtn), i18n(slot4))
-	setText(slot0:findTF("Selected/Text", slot0.tendencyBtn), i18n(slot4))
+	setText(slot0.tendencyBtn:Find("UnSelect/Text"), slot2)
+	setText(slot0.tendencyBtn:Find("Selected/Text"), slot2)
 end
 
 function slot0.updateTargetCatchupPage(slot0, slot1)
@@ -320,25 +303,31 @@ function slot0.updateTargetCatchupBtns(slot0)
 			setActive(slot11, slot7)
 
 			if slot7 then
-				setText(slot8, i18n("tec_target_catchup_selected_" .. slot4))
-				setText(slot9, i18n("tec_target_catchup_selected_" .. slot4))
+				slot14 = slot4 > 0 and i18n("tec_target_catchup_selected_x", i18n("number_" .. slot4)) or i18n("tec_target_catchup_selected_0")
 
-				slot14 = slot0.technologyProxy:getCurCatchupTecInfo()
-				slot15 = slot14.tecID
-				slot16 = slot14.groupID
-				slot17 = slot14.printNum
-				slot18 = slot0.catchupPanels[slot4]:getMaxNum(slot16)
+				setText(slot8, slot14)
+				setText(slot9, slot14)
 
-				setImageSprite(slot10, LoadSprite("TecCatchup/QChar" .. slot16, tostring(slot16)))
-				setImageSprite(slot11, LoadSprite("TecCatchup/QChar" .. slot16, tostring(slot16)))
-				setText(slot12, slot17 .. "/" .. slot18)
-				setText(slot13, slot17 .. "/" .. slot18)
+				slot15 = slot0.technologyProxy:getCurCatchupTecInfo()
+				slot16 = slot15.tecID
+				slot17 = slot15.groupID
+				slot18 = slot15.printNum
+				slot19 = slot0.catchupPanels[slot4]:getMaxNum(slot17)
+
+				setImageSprite(slot10, LoadSprite("TecCatchup/QChar" .. slot17, tostring(slot17)))
+				setImageSprite(slot11, LoadSprite("TecCatchup/QChar" .. slot17, tostring(slot17)))
+				setText(slot12, slot18 .. "/" .. slot19)
+				setText(slot13, slot18 .. "/" .. slot19)
 			elseif slot6 == TechnologyCatchup.STATE_UNSELECT then
-				setText(slot8, i18n("tec_target_catchup_none_" .. slot4))
-				setText(slot9, i18n("tec_target_catchup_none_" .. slot4))
+				slot14 = slot4 > 0 and i18n("tec_target_catchup_none_x", i18n("number_" .. slot4)) or i18n("tec_target_catchup_none_0")
+
+				setText(slot8, slot14)
+				setText(slot9, slot14)
 			elseif slot6 == TechnologyCatchup.STATE_FINISHED_ALL then
-				setText(slot8, i18n("tec_target_catchup_finish_" .. slot4))
-				setText(slot9, i18n("tec_target_catchup_finish_" .. slot4))
+				slot14 = slot4 > 0 and i18n("tec_target_catchup_finish_x", i18n("number_" .. slot4)) or i18n("tec_target_catchup_finish_0")
+
+				setText(slot8, slot14)
+				setText(slot9, slot14)
 			end
 		end
 	end

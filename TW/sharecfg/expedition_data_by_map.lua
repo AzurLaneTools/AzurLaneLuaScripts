@@ -7098,6 +7098,138 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1430001] = {
+		map = 1430001,
+		name = "激唱的Universe|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "idol-WISHNESS-inst",
+		enter_story = "JICHANG1",
+		ani_name = "Map_1370001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40707,
+		ui_type = 1,
+		bg = "Map_1370001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1430002] = {
+		map = 1430002,
+		name = "激唱的Universe·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "idol-WISHNESS-inst",
+		enter_story = "",
+		ani_name = "Map_1370001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40707,
+		ui_type = 1,
+		bg = "Map_1370001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1430001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1430003] = {
+		map = 1430003,
+		name = "激唱的Universe·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "idol-WISHNESS-inst",
+		enter_story = "",
+		ani_name = "Map_1370001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40707,
+		ui_type = 1,
+		bg = "Map_1370001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1430001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1450001] = {
 		map = 1450001,
 		name = "假日航線|| ||CHAPTER EX||E.X.",
@@ -10354,6 +10486,9 @@ pg.expedition_data_by_map = {
 		1410020,
 		1410021,
 		1420001,
+		1430001,
+		1430002,
+		1430003,
 		1450001,
 		1450002,
 		1450003,

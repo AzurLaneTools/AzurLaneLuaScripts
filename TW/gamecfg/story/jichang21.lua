@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区・学园",
+			say = "港區・學園",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光辉！你看见塔什干和大青花鱼了吗？",
+			say = "光輝！妳看見塔什干和大青花魚了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塔什干应该在教室里，但大青花鱼的话…不好意思，我也不知道她会在哪里……有什么事吗？",
+			say = "塔什干應該在教室裡，但大青花魚的話…不好意思，我也不知道她會在哪裡……有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 103160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，倒也不是什么重要的事。就是有人问我是否愿意像上次演出一样继续使用那些兵装——也就是继续偶像活动。",
+			say = "啊，倒也不是什麼重要的事。就是有人問我是否願意像上次演出一樣繼續使用那些兵裝——也就是繼續偶像活動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说来，我也听到了差不多的话…",
+			say = "這麼說來，我也聽到了差不多的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 103160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和上次一样，似乎有不少人都想尝试一下。",
+			say = "和上次一樣，似乎有不少人都想嘗試一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你怎么看 我想参考一下你的想法。",
+			say = "妳怎麼看 我想參考一下妳的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还没有决定好。之前我们一直忽视了帮忙的大家，我觉得隔一段时间再来思考这个问题也无妨。",
+			say = "我還沒有決定好。之前我們一直忽視了幫忙的大家，我覺得隔一段時間再來思考這個問題也無妨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实是这样呢。",
+			say = "確實是這樣呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸欸！你说「除非指挥官或凯旋要求我这样做，否则我绝对不干」？？",
+			say = "欸欸！妳說「除非指揮官或凱旋要求我這樣做，否則我絕對不幹」？？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -202,7 +202,7 @@ return {
 			actor = 901110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是的。光是回忆起这些事情就已经够累的了……",
+			say = "是的。光是回憶起這些事情就已經夠累的了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和{namecode:97}还有塔什干的回答差不多啊～",
+			say = "和{namecode:97}還有塔什干的回答差不多啊～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（恶毒的话，大概是真的不想再做了吧。）",
+			say = "（惡毒的話，大概是真的不想再做了吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，「μ兵装」演习实施报告已经整理好，请确认好哦。",
+			say = "指揮官，「μ兵裝」演習實施報告已經整理好，請確認好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然这次活动我们玩得这么开心，是不是也该给它取个名字呢？一直叫某某演习难免会搞混呢…",
+			say = "既然這次活動我們玩得這麼開心，是不是也該給它取個名字呢？一直叫某某演習難免會搞混呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的想法？让我想想……歌声，很多女孩像星星一样在舞台上闪耀……",
+			say = "我的想法？讓我想想……歌聲，很多女孩像星星一樣在舞台上閃耀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "看来得好好想个名字了呢……",
+			say = "看來得好好想個名字了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

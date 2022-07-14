@@ -95,18 +95,7 @@ function slot0.didEnter(slot0)
 			viewComponent = IdolMedalCollectionView2
 		}))
 	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "tebiezuozhan", function ()
-		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
-
-		if not (slot0 and Map.StaticIsMapBindedActivityActive(slot0) and not Map.StaticIsMapRemaster(slot0)) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-		else
-			uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.LEVEL, {
-				chapterId = slot1,
-				mapIdx = slot0
-			})
-		end
-	end)
+	slot0:BindItemBattle()
 	slot0:updateStageShip()
 	slot0:UpdateView()
 end

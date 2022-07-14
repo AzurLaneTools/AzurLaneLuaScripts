@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
-			say = "为了以「μ兵装」联合演习为名的演唱会，各个阵营的舰船们都开始了自己的准备计划。",
+			say = "為了以「μ兵裝」聯合演習為名的演唱會，各個陣營的艦船們都開始了自己的準備計劃。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-BlueSpirit-inst",
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（首先，不仅仅是适应新舰装，还要学会做偶像的技巧）",
+			say = "（首先，不僅僅是適應新艦裝，還要學會做偶像的技巧）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是『小加加的声乐课程特别影像vol.1-15』吧！请收好~大家一起看也没问题哦！",
+			say = "是『小加加的聲樂課程特別影像vol.1-15』吧！請收好~大家一起看也沒問題哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感激不尽。这对于我们组合演出的成功至关重要……！",
+			say = "感激不盡。這對於我們組合演出的成功至關重要……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺便也帮忙宣传一下小加加哦~！",
+			say = "順便也幫忙宣傳一下小加加哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴尔的摩也在努力学习萨拉托加前辈的战斗方式么？",
+			say = "巴爾的摩也在努力學習薩拉托加前輩的戰鬥方式嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（好像被微妙地误解了……）",
+			say = "（好像被微妙地誤解了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来，请试着用一下这样的舞步。",
+			say = "接下來，請試著用一下這樣的舞步。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207110,
-			say = "是这种感觉么……？",
+			say = "是這種感覺嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "光辉姐姐，是这样的哦……",
+			say = "光輝姐姐，是這樣的哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……脚步有点……",
+			say = "嗯……腳步有點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（光辉小姐上重下轻，不擅长这种事也是可以理解的……）",
+			say = "（光輝小姐上重下輕，不擅長這種事也是可以理解的……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202280,
-			say = "（啊，黛朵会不会不小心比光辉小姐更显眼了？虽然黛朵在这方面确实比光辉小姐擅长一些，但是……）",
+			say = "（啊，黛朵會不會不小心比光輝小姐更顯眼了？雖然黛朵在這方面可能比光輝小姐擅長一些，但是……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样就很好哦，光辉小姐。这种「笨拙」也是「偶像」的魅力之一啊~",
+			say = "這樣就很好哦，光輝小姐。這種「笨拙」也是「偶像」的魅力之一啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎……是这样的么……？",
+			say = "哎……是這樣的嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是这样♪独角兽和光辉都是在这一点上最可爱了~",
+			say = "就是這樣♪獨角獸和光輝都是在這一點上最可愛了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼…（看来可以安心了呢…）",
+			say = "呼…（看來可以安心了呢…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 206035,
-			say = "光辉姐姐，加油……！",
+			say = "光輝姐姐，加油……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次的舞台概念是「Universe」不是很好么？",
+			say = "這次的舞台概念是「Universe」不是很好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108050,
-			say = "嗯？因为舰装就是这样的啊，搭配上闪闪发光的舞台不是很好么？",
+			say = "嗯？因為艦裝就是這樣的啊，搭配上閃閃發光的舞台不是很好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…这样。虽然说得容易……我们…真的需要做到这一步吗？",
+			say = "…這樣。雖然說得容易……我們…真的需要做到這一步嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实没有哦？不过如果能做到这一步的话一定会非常有趣吧！",
+			say = "其實沒有哦？不過如果能做到這一步的話一定會非常有趣吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701050,
-			say = "（无、无法反驳……）",
+			say = "（無、無法反駁……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，参与「μ兵装」实验的三个组合，除了我们之外，还有{namecode:97}与罗恩以及鸢尾的一个组合。",
+			say = "原來如此，參與「μ兵裝」實驗的三個組合，除了我們之外，還有{namecode:97}與羅恩以及鳶尾的一個組合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是根据阵营的相性来进行组队的么…？",
+			say = "是根據陣營的相性來進行組隊的嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这我就不知道了。",
+			say = "這我就不知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "利托里奥也申请了，不过好像是被维内托阻止了……",
+			say = "利托里奧也申請了，不過好像是被維內托阻止了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207110,
-			say = "（维内托说的「动机不纯」是什么意思呢……）",
+			say = "（維內託說的「動機不純」是什麼意思呢……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_jichang_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就这样，舰船们的各项准备工作在稳步前进着。",
+			say = "就這樣，艦船們的各項準備工作在穩步前進著。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "歌曲、编舞、演出舞台，还有这套服装……总之先准备到这种程度吧。",
+			say = "歌曲、編舞、演出舞台，還有這套服裝……總之先準備到這種程度吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再怎么烦恼演出都不会自己开始，还是先演习一次比较好哦！",
+			say = "再怎麼煩惱演出都不會自己開始，還是先演習一次比較好哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实。既然方向已经决定，接下来只需要通过练习和彩排来提高水平了。",
+			say = "確實。既然方向已經決定，接下來只需要通過練習和彩排來提高水平了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202280,
-			say = "光辉小姐，可以拜托担任「C位」吗？",
+			say = "光輝小姐，可以拜託擔任「C位」嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207110,
-			say = "……没问题！请放心交给我吧！",
+			say = "……沒問題！請放心交給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好~那我们再来练习一次！",
+			say = "好~那我們再來練習一次！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

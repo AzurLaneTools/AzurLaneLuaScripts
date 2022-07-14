@@ -10,7 +10,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_120",
 			dir = 1,
-			say = "港区・观众席",
+			say = "港區・觀眾席",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐！大家都好厉害呀！和刚才完全不一样的感觉欸！",
+			say = "姐姐！大家都好厲害呀！和剛才完全不一樣的感覺欸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊……会场这么热闹，挺好的。",
+			say = "是啊……會場這麼熱鬧，挺好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401463,
-			say = "原来如此，只要打开魔眼，就能完成这样的舞台啊。",
+			say = "原來如此，只要打開魔眼，就能完成這樣的舞台啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？Moyan？什么？怎么回事？",
+			say = "嗯？模演？什麼？怎麼回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401463,
-			say = "当负有盛名的偶像释放出深渊的力量时，她的眼睛里会充满激情的光芒，魅惑所有看到它的人。",
+			say = "當負有盛名的偶像釋放出深淵的力量時，她的眼睛裡會充滿激情的光芒，魅惑所有看到它的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401463,
-			say = "但我似乎没有唤醒成为偶像的我身上的这种力量，即使是暂时也做不到。",
+			say = "但我似乎沒有喚醒成為偶像的我身上的這種力量，即使是暫時也做不到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}，你听懂Z46说的话了吗！？",
+			say = "{namecode:6}，妳聽懂Z46說的話了嗎！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大概明白。{namecode:6}在手臂隐隐作痛的时候也可以使用「魔眼」。",
+			say = "大概明白。{namecode:6}在手臂隱隱作痛的時候也可以使用「魔眼」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一会儿得找Z36好好聊一聊了……",
+			say = "等一下得找Z36好好聊一聊了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于，到演唱会了…直接就叫演唱会真的没问题喵…？…请继续期待，马上就是大会的最高潮喵！",
+			say = "終於，到演唱會了…直接就叫演唱會真的沒問題喵…？…請繼續期待，馬上就是大會的最高潮喵！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今晚的舞台上，究竟哪个组合最耀眼喵？",
+			say = "今晚的舞台上，究竟哪個組合最耀眼喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是展现了最优雅的舞台表演，恶毒的solo组合「Lumière」吗！",
+			say = "是展現了最優雅的舞台表演，惡毒的solo組合「Lumière」嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是上届比赛的实力选手，大家都热爱的组合「Polaris」吗！",
+			say = "是上屆比賽的實力選手，大家都熱愛的組合「Polaris」嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是由巴尔的摩、光辉、黛朵、大青花鱼、塔什干五人组成的实力强劲的新组合「Astrum」吗！",
+			say = "是由巴爾的摩、光輝、黛朵、大青花魚、塔什干五人組成的實力強勁的新組合「Astrum」嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是状态绝佳，正在等待最后阶段的挑战者的{namecode:97}和罗恩组合「Verheerender」吗！",
+			say = "還是狀態絕佳，正在等待最後階段的挑戰者的{namecode:97}和羅恩組合「Verheerender」嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "答案即将揭晓喵——！",
+			say = "答案即將揭曉喵——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

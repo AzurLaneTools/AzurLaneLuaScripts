@@ -85434,6 +85434,679 @@ _G.pg.base.task_data_template[16058] = {
 	}
 }
 
+_G.pg.base.task_data_template[16059] = {
+	name = "『偶像V2』日常建造",
+	guild_coin_award = 0,
+	award = 93946,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16059,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59185,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16060] = {
+	name = "『偶像V2』日常出击",
+	guild_coin_award = 0,
+	award = 93947,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16060,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59185,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[16061] = {
+	name = "『偶像V2』日常困难本",
+	guild_coin_award = 0,
+	award = 93948,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16061,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59185,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16062] = {
+	name = "『偶像V2』通关SP1",
+	guild_coin_award = 0,
+	award = 93949,
+	type = 6,
+	desc = "通關SP1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430001",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "16063",
+	auto_commit = 0,
+	story_id = "",
+	id = 16062,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16063] = {
+	name = "『偶像V2』通关SP2",
+	guild_coin_award = 0,
+	award = 93950,
+	type = 6,
+	desc = "通關SP2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "16064",
+	auto_commit = 0,
+	story_id = "",
+	id = 16063,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16064] = {
+	name = "『偶像V2』通关SP3",
+	guild_coin_award = 0,
+	award = 93951,
+	type = 6,
+	desc = "通關SP3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "16065",
+	auto_commit = 0,
+	story_id = "",
+	id = 16064,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16065] = {
+	name = "『偶像V2』通关SP4",
+	guild_coin_award = 0,
+	award = 93952,
+	type = 6,
+	desc = "通關SP4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "16066",
+	auto_commit = 0,
+	story_id = "",
+	id = 16065,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16066] = {
+	name = "『偶像V2』通关SP5",
+	guild_coin_award = 0,
+	award = 93953,
+	type = 6,
+	desc = "通關SP5",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430005",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "16067",
+	auto_commit = 0,
+	story_id = "",
+	id = 16066,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			5,
+			70123,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430005
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16067] = {
+	name = "『偶像V2』通关μSP",
+	guild_coin_award = 0,
+	award = 93954,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430041",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16067,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			8,
+			70062,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430002,
+			chapterId = 1430041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16068] = {
+	name = "『偶像V2』SP1三星",
+	guild_coin_award = 0,
+	award = 93955,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430001",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "16069",
+	auto_commit = 0,
+	story_id = "",
+	id = 16068,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80018,
+			1
+		},
+		{
+			8,
+			70057,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16069] = {
+	name = "『偶像V2』SP2三星",
+	guild_coin_award = 0,
+	award = 93956,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "16070",
+	auto_commit = 0,
+	story_id = "",
+	id = 16069,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80018,
+			1
+		},
+		{
+			8,
+			70056,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16070] = {
+	name = "『偶像V2』SP3三星",
+	guild_coin_award = 0,
+	award = 93957,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "16071",
+	auto_commit = 0,
+	story_id = "",
+	id = 16070,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80018,
+			1
+		},
+		{
+			8,
+			70064,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16071] = {
+	name = "『偶像V2』SP4三星",
+	guild_coin_award = 0,
+	award = 93958,
+	type = 6,
+	desc = "完成SP4的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "16072",
+	auto_commit = 0,
+	story_id = "",
+	id = 16071,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80018,
+			1
+		},
+		{
+			8,
+			70054,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16072] = {
+	name = "『偶像V2』SP5三星",
+	guild_coin_award = 0,
+	award = 93959,
+	type = 6,
+	desc = "完成SP5的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1430005",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16072,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80018,
+			1
+		},
+		{
+			8,
+			70061,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1430001,
+			chapterId = 1430005
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16080] = {
+	name = "『偶像活动』1029登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 93960,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16080,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			40713,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[16100] = {
 	name = "伊丽莎白校服填色累计耗油1",
 	guild_coin_award = 0,
@@ -142784,6 +143457,42 @@ _G.pg.base.task_data_template[80250] = {
 		{
 			2,
 			80004,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80260] = {
+	name = "『激唱的Universe』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 300411,
+	type = 6,
+	desc = "開啟20個外觀裝備箱（激唱） ",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30322",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80260,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80015,
 			1
 		}
 	}

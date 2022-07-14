@@ -162926,7 +162926,7 @@ _G.pg.base.world_effect_data[60001020] = {
 	effective_num = 0,
 	id = 60001020,
 	log_text = "",
-	autoactivate = 0,
+	autoactivate = 2,
 	sound_effects = "",
 	effect_paramater = {
 		6000100,
@@ -162941,7 +162941,7 @@ _G.pg.base.world_effect_data[60001021] = {
 	effective_num = 0,
 	id = 60001021,
 	log_text = "",
-	autoactivate = 0,
+	autoactivate = 2,
 	sound_effects = "",
 	effect_paramater = {
 		6000101,
@@ -162956,7 +162956,7 @@ _G.pg.base.world_effect_data[60001022] = {
 	effective_num = 0,
 	id = 60001022,
 	log_text = "",
-	autoactivate = 0,
+	autoactivate = 2,
 	sound_effects = "",
 	effect_paramater = {
 		6000102,
@@ -162971,7 +162971,7 @@ _G.pg.base.world_effect_data[60001023] = {
 	effective_num = 0,
 	id = 60001023,
 	log_text = "",
-	autoactivate = 0,
+	autoactivate = 2,
 	sound_effects = "",
 	effect_paramater = {
 		6000103,
@@ -162986,7 +162986,7 @@ _G.pg.base.world_effect_data[60001024] = {
 	effective_num = 0,
 	id = 60001024,
 	log_text = "",
-	autoactivate = 0,
+	autoactivate = 2,
 	sound_effects = "",
 	effect_paramater = {
 		6000104,
@@ -163001,7 +163001,7 @@ _G.pg.base.world_effect_data[60001025] = {
 	effective_num = 0,
 	id = 60001025,
 	log_text = "",
-	autoactivate = 0,
+	autoactivate = 2,
 	sound_effects = "",
 	effect_paramater = {
 		6000105,
@@ -163016,7 +163016,7 @@ _G.pg.base.world_effect_data[60001026] = {
 	effective_num = 0,
 	id = 60001026,
 	log_text = "",
-	autoactivate = 0,
+	autoactivate = 2,
 	sound_effects = "",
 	effect_paramater = {
 		6000106,
@@ -163031,7 +163031,7 @@ _G.pg.base.world_effect_data[60001027] = {
 	effective_num = 0,
 	id = 60001027,
 	log_text = "",
-	autoactivate = 0,
+	autoactivate = 2,
 	sound_effects = "",
 	effect_paramater = {
 		6000107,

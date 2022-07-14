@@ -15,7 +15,7 @@ return {
 			bgm = "idol-WISHNESS-inst",
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "港区的大型演唱会终于再次召开了！我是本次依旧担任主持人的{namecode:98}喵！",
+			say = "港區的大型演唱會終於再次召開了！我是本次依舊擔任主持人的{namecode:98}喵！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一次，不仅有以全新装束出现的舰船偶像组合们参加，就连搭载了「μ兵装」的组合也将有多队闪亮登场喵！",
+			say = "這一次，不僅有以全新裝束出現的艦船偶像組合們參加，就連搭載了「μ兵裝」的組合也將有多隊閃亮登場喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次的演唱会肯定会比上次更加激动人心喵！事不宜迟，马上有请选手入场喵！",
+			say = "這次的演唱會肯定會比上次更加激動人心喵！事不宜遲，馬上有請選手入場喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先是，上届比赛中最强的，装备了「μ兵装」的组合，「Polaris」喵！",
+			say = "首先是，上屆比賽中最強的，裝備了「μ兵裝」的組合，「Polaris」喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "未能理解介绍的意思，请求解释。",
+			say = "未能理解介紹的意思，請求解釋。",
 			effects = {
 				{
 					active = false,
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也没什么特别的含义啦，随便听听就好了！",
+			say = "也沒什麼特別的含義啦，隨便聽聽就好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以最近流行的有耳偶像为主题组结成的新组合？埃尔德里奇和哈曼喵！",
+			say = "以最近流行的有耳偶像為主題組結成的新組合？埃爾德里奇和哈曼喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……（用 呆毛比了一个「V」）",
+			say = "……（用 呆毛比了一個「V」）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜，好羞耻啊……别再拍了，你这个变态！！",
+			say = "嗚，好羞恥啊……別再拍了，你這個變態！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以暗黑的恶魔为名，能歌善舞，使用着魔眼，甚至能破译密码的新组合，U-110、Z35、Z36喵！",
+			say = "以暗黑的惡魔為名，能歌善舞，使用著魔眼，甚至能破譯密碼的新組合，U-110、Z35、Z36喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "并非可爱，而是可怕，嘎哦——♪",
+			say = "並非可愛，而是可怕，嘎哦——♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吾乃召唤深渊巨鲨之人，魔眼使Z36！嘎哦——！",
+			say = "吾乃召喚深淵巨鯊之人，魔眼使Z36！嘎哦——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "稍等一下，本次比赛的大赞助商要紧急参赛？！好想就这样直接把冠军颁发给她…但是喵！{namecode:98}不是一个唯利是图的主持人喵！有请伊丽莎白女王&厌战喵！",
+			say = "稍等一下，本次比賽的大贊助商要緊急參賽？！好想就這樣直接把冠軍頒發給她…但是喵！{namecode:98}不是一個唯利是圖的主持人喵！有請伊莉莎白女王&厭戰喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（这里还是只让陛下来宣传比较好吧。）",
+			say = "（這裡還是只讓陛下來宣傳比較好吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仆人们，都好好地看着本王的舞台吧！",
+			say = "僕人們，都好好地看著本王的舞台吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后是，因为太过沉重的爱所带来的毁灭风暴! {namecode:97}和罗恩的μ兵装实验组合「Verheerender」喵！",
+			say = "然後是，因為太過沉重的愛所帶來的毀滅風暴! {namecode:97}和羅恩的μ兵裝實驗組合「Verheerender」喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要只盯着舞台上，我把目标船摧毁得一塌糊涂的样子也要看好了哦～",
+			say = "不要只盯著舞台上，我把目標船摧毀得一塌糊塗的樣子也要看好了哦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 307110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（小声）指挥官，你在看着我吗……",
+			say = "（小聲）指揮官，你在看著我嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "于鸢尾教廷之中，降临的光之偶像！携带着μ兵装的恶毒，领衔组合「Lumière」出场喵！！",
+			say = "於鳶尾教廷之中，降臨的光之偶像！攜帶著μ兵裝的惡毒，領銜組合「Lumière」出場喵！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后是由皇家・白鹰・北方联盟阵营共同组成，舞台上的头号明星组合「Astrum」闪亮登场喵！",
+			say = "最後是由皇家・白鷹・北方聯盟陣營共同組成，舞台上的頭號明星組合「Astrum」閃亮登場喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103250,
-			say = "大家，请多关照了！",
+			say = "大家，請多關照了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本次参赛者的介绍以及舞台规则的说明就到这里了喵！大会马上就要开始，想买周边的各位快来小卖部吧喵♪",
+			say = "本次參賽者的介紹以及舞台規則的說明就到這裡了喵！大會馬上就要開始，想買周邊的各位快來販賣部吧喵♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "独角兽，你一个人没问题吧？",
+			say = "獨角獸，妳一個人沒問題吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，没事。 光辉姐姐也要加油哦？",
+			say = "嗯，沒事。光輝姐姐也要加油哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯，我们一起加油吧。",
+			say = "嗯嗯，我們一起加油吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚刚那个介绍，有些热情过头了吧？",
+			say = "剛剛那個介紹，有些熱情過頭了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样才更有意思嘛！",
+			say = "這樣才更有意思嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "各位，差不多到赛前准备的时间了。",
+			say = "各位，差不多到賽前準備的時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "啊啊，我们出发吧！",
+			say = "啊啊，我們出發吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

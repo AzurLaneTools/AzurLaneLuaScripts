@@ -160,7 +160,7 @@ function slot0.setCharacterSetting(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getCurrentSecretaryIndex(slot0)
-	if PlayerPrefs.GetInt("currentSecretaryIndex", 1) > #getProxy(PlayerProxy):getData().characters then
+	if PlayerPrefs.GetInt("currentSecretaryIndex", 1) > #getProxy(PlayerProxy):getRawData().characters then
 		slot0:setCurrentSecretaryIndex(1)
 
 		return 1

@@ -388,16 +388,16 @@ pg.activity_const = {
 		act_id = 40026
 	},
 	IDOL_PT_ID = {
-		act_id = 40272
+		act_id = 40709
 	},
 	IDOL_INS_ID = {
-		act_id = 40278
+		act_id = 40719
 	},
 	IDOL_MEDAL_COLLECTION = {
-		act_id = 40276
+		act_id = 40714
 	},
 	MUSIC_FESTIVAL_ID = {
-		act_id = 40277
+		act_id = 40718
 	},
 	MUSIC_CHUIXUE7DAY_ID = {
 		act_id = 40279
@@ -649,10 +649,10 @@ pg.activity_const = {
 		act_id = 40228
 	},
 	MUSIC_FESTIVAL_MEDALCOLLECTION_2020 = {
-		act_id = 758
+		act_id = 40714
 	},
 	MUSIC_FESTIVAL_ID_2 = {
-		act_id = 762
+		act_id = 40718
 	},
 	HMS_Hunter_PT_ID = {
 		act_id = 40362
