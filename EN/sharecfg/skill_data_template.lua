@@ -72569,7 +72569,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 19610,
 		type = 1,
 		max_level = 10,
-		desc = "Increases this ship's DMG dealt against Medium and Heavy Armor enemies by $1. When this ship's airstrike finishes loading: fires a $3 special barrage that decreases the AA of enemies hit by 10.0% (barrage DMG is based on the skill's level; AA debuff cannot be stacked).",
+		desc = "Increases this ship's DMG dealt against Medium and Heavy Armor enemies by $1. When this ship's airstrike finishes loading: fires a special barrage that decreases the AA of enemies hit by 10.0% (barrage DMG is based on the skill's level; AA debuff cannot be stacked).",
 		system_transform = {},
 		world_death_mark = {
 			1

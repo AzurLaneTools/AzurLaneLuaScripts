@@ -14860,7 +14860,7 @@ _G.pg.base.gametip.tec_tendency_cur_x = {
 }
 
 _G.pg.base.gametip.tec_tendency_cur_0 = {
-	tip = "Research Focus \no Focus "
+	tip = "Research Focus / No Focus "
 }
 
 _G.pg.base.gametip.tec_tendency_cur_1 = {
@@ -20638,7 +20638,7 @@ _G.pg.base.gametip.world_boss_switch_archives_success = {
 }
 
 _G.pg.base.gametip.world_boss_archives_auto_battle_unopen = {
-	tip = "Auto-Deploy can be enabled after successfully completing one battle against that META ship."
+	tip = "Auto-Deploy enabled after completing one battle against META ship."
 }
 
 _G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
@@ -20646,19 +20646,19 @@ _G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
 }
 
 _G.pg.base.gametip.world_boss_archives_stop_auto_battle = {
-	tip = "Auto-Deploy Disabled"
+	tip = "<size=40>Auto-Deploy Disabled</size>"
 }
 
 _G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
-	tip = "Auto-Deploy Resumed"
+	tip = "<size=40>Auto-Deploy Resumed</size>"
 }
 
 _G.pg.base.gametip.world_boss_archives_auto_battle_reusle_title = {
-	tip = "Auto-Deploy Complete"
+	tip = "<size=40>Auto-Deploy Complete</size>"
 }
 
 _G.pg.base.gametip.world_boss_archives_stop_auto_battle_title = {
-	tip = "Auto-Deploy In Progress"
+	tip = "<size=40>Auto-Deploy In Progress</size>"
 }
 
 _G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
@@ -20666,7 +20666,11 @@ _G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
 }
 
 _G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip1 = {
-	tip = "(You will lose all damage you would've dealt to the META enemy if you disable Auto-Deploy, and any Oil spent will not be refunded.)"
+	tip = [[
+
+(You will lose all damage you would've dealt to 
+the META enemy if you disable Auto-Deploy, 
+and any Oil spent will not be refunded.)]]
 }
 
 _G.pg.base.gametip.world_archives_boss_help = {

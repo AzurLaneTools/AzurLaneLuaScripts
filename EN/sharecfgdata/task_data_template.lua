@@ -199877,7 +199877,7 @@ _G.pg.base.task_data_template[60262] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>Sufficient data must be obtained in order to ensure that research and development proceed smoothly. The most effective source of data is, without a doubt, from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Sardegna Empire or Northern Parliament Vanguard ships.",
+	desc = "<color=#a2a2a2>Sufficient data must be obtained in order to ensure that research and development proceed smoothly. The most effective source of data is, without a doubt, from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Sardegna Empire or Northern Parliament Main ships.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -200044,7 +200044,7 @@ _G.pg.base.task_data_template[60265] = {
 <color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
 <color=#a2a2a2>The first draft of the design is complete. In order to verify the extent to which the design's specifications can be realized, more combat data is needed.</color>
 
- — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Eagle Union or Northern Parliament Vanguard ships.]],
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Eagle Union or Northern Parliament Main ships.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
