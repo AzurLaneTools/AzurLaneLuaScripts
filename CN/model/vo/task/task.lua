@@ -299,4 +299,8 @@ function slot0.ShowOnTaskScene(slot0)
 	return slot1
 end
 
+function slot0.isAvatarTask(slot0)
+	return false
+end
+
 return slot0

@@ -123,9 +123,9 @@ end
 
 function slot0.SetBossType(slot0)
 	slot2 = getProxy(FriendProxy)
-	slot3 = getProxy(GuildProxy):getData()
+	slot3 = getProxy(GuildProxy):getRawData()
 
-	if slot0.owner == getProxy(PlayerProxy):getData().id then
+	if slot0.owner == getProxy(PlayerProxy):getRawData().id then
 		return uv0.BOSS_TYPE_SELF
 	else
 		if slot3 and slot3:getMemberById(slot0.owner) then

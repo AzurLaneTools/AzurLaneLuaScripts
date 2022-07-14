@@ -494,7 +494,7 @@ pg.ship_skin_template_16 = {
 		shop_id = 70087,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 9999,
+		shop_type_id = 9,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -1298,7 +1298,7 @@ pg.ship_skin_template_16 = {
 		shop_id = 70524,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 9,
+		shop_type_id = 20,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -1758,7 +1758,7 @@ pg.ship_skin_template_16 = {
 		shop_id = 70608,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 9,
+		shop_type_id = 20,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -2104,7 +2104,7 @@ pg.ship_skin_template_16 = {
 		shop_id = 70609,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 9,
+		shop_type_id = 20,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -2466,7 +2466,7 @@ pg.ship_skin_template_16 = {
 		shop_id = 70361,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 9999,
+		shop_type_id = 17,
 		illustrator = -1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
@@ -5317,7 +5317,7 @@ pg.ship_skin_template_16 = {
 		shop_id = 70198,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
-		shop_type_id = 9,
+		shop_type_id = 20,
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
@@ -6967,6 +6967,122 @@ pg.ship_skin_template_16 = {
 						{
 							-0.498,
 							2.252,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[903022] = {
+		ship_group = 90302,
+		name = "红桃皇后的审判",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "158",
+		id = 903022,
+		group_index = 2,
+		prefab = "aerjiliya_3",
+		painting = "aerjiliya_3",
+		shop_id = 70714,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 19,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "来的不是爱丽丝，而是指挥官啊。你也是来反抗我的么？这样的话，就不得不审判你了呢…——怎么样，我的演技如何？呵呵~",
+		voice_actor = 142,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.705,
+					1.022,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.971,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.019,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.693,
+					1.042,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							0.676,
 							0
 						}
 					}
@@ -9709,133 +9825,6 @@ pg.ship_skin_template_16 = {
 		group_index = 0,
 		prefab = "ligen",
 		painting = "ligen",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 0,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "无描述",
-		voice_actor = 0,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.81,
-							0.402,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.63,
-							0.433,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900014] = {
-		ship_group = 900014,
-		name = "雾岛",
-		bullet_skin_secondary = "",
-		hand_id = 0,
-		bgm = "",
-		illustrator2 = 0,
-		bg = "",
-		id = 900014,
-		group_index = 0,
-		prefab = "wudao",
-		painting = "wudao",
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",

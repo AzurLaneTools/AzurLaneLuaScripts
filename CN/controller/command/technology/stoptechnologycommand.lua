@@ -4,13 +4,7 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.pool_id
 
-	if not getProxy(TechnologyProxy):getTechnologyById(slot2.id) then
-		return
-	end
-
-	if not slot6:isStarting() then
-		print("the technology is not active")
-
+	if not getProxy(TechnologyProxy):getTechnologyById(slot2.id) or not slot6:isActivate() or slot6:isCompleted() then
 		return
 	end
 
@@ -22,11 +16,6 @@ function slot0.execute(slot0, slot1)
 	}, 63006, function (slot0)
 		if slot0.result == 0 then
 			uv0:reset()
-
-			if uv0:hasCondition() and uv0:getTaskId() then
-				getProxy(TaskProxy):removeTaskById(slot1)
-			end
-
 			uv1:updateTechnology(uv0)
 			uv2:sendNotification(GAME.STOP_TECHNOLOGY_DONE)
 		else

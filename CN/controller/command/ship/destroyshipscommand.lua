@@ -52,6 +52,7 @@ function slot0.execute(slot0, slot1)
 				if slot11:GetSpWeapon() then
 					slot11:UpdateSpWeapon(nil)
 					slot1:AddSpWeapon(slot12)
+					pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_unload"))
 				end
 
 				table.insert(slot3, slot11.id)

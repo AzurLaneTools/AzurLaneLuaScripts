@@ -68,7 +68,9 @@ function slot0.register(slot0)
 			return
 		end
 
-		if uv1.contextData.isOther and uv0:GetPt() <= 0 then
+		slot3 = nowWorld():GetBossProxy():GetBossById(bossId)
+
+		if uv1.contextData.isOther and uv0:GetPt() <= 0 and WorldBossConst._IsCurrBoss(slot3) then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
 
 			return
@@ -86,7 +88,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)
 		uv0.contextData.form = WorldBossFormationLayer.FORM_EDIT
-		WorldBossDetailPage.formDock = true
+		CurrentWorldBossDetailPage.formDock = true
 		slot5 = slot1 and slot1.id or nil
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {

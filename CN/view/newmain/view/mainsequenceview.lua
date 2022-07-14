@@ -25,7 +25,6 @@ function slot0.Ctor(slot0)
 		MainGuideSequence.New(),
 		MainOpenSystemSequence.New()
 	}
-	slot0.executable = slot0:MapSequence(slot0.sequence)
 end
 
 function slot0.MapSequence(slot0, slot1)
@@ -49,6 +48,10 @@ function slot0.Execute(slot0, slot1)
 		slot1()
 
 		return
+	end
+
+	if not slot0.executable then
+		slot0.executable = slot0:MapSequence(slot0.sequence)
 	end
 
 	seriesAsync(slot0.executable, slot1)

@@ -33,7 +33,29 @@ function slot2.UpdateChampionCell(slot0, slot1, slot2, slot3)
 	slot0:RefreshLinePosition(slot1, slot2)
 end
 
+function slot2.TweenShining(slot0, slot1)
+	slot0:StopTween()
+
+	if not slot0:GetSpineRole() then
+		return
+	end
+
+	slot2:TweenShining(0.5, slot1, 0, 1, Color.New(0, 0, 0, 0), Color.New(1, 1, 1, 1), true, true)
+end
+
+function slot2.StopTween(slot0)
+	if not slot0.tweenId then
+		return
+	end
+
+	LeanTween.cancel(slot0.tweenId, true)
+
+	slot0.tweenId = nil
+end
+
 function slot2.Clear(slot0)
+	slot0:StopTween()
+
 	if slot0.go then
 		LeanTween.cancel(slot0.go)
 	end

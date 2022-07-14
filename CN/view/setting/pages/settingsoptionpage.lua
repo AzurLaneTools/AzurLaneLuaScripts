@@ -35,6 +35,10 @@ function slot0.GetPanels(slot0)
 		table.insert(slot1, 1, SettingsAdjustScreenPanle)
 	end
 
+	if not LOCK_RANDOM_SKIN_AND_SHIP then
+		table.insert(slot1, 4, SettingsRandomFlagShipAndSkinPanel)
+	end
+
 	return slot1
 end
 

@@ -205,6 +205,8 @@ end
 function slot0.Submit(slot0, slot1)
 	if slot1.isWeekTask then
 		slot0.viewComponent:onSubmitForWeek(slot1)
+	elseif slot1:isAvatarTask() then
+		slot0.viewComponent:onSubmitForAvatar(slot1)
 	else
 		slot0.viewComponent:onSubmit(slot1)
 	end

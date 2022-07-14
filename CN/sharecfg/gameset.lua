@@ -335,7 +335,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 265
+		key_value = 269
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1887,7 +1887,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 267
+		key_value = 270
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2016,7 +2016,47 @@ pg.gameset = {
 			5,
 			5,
 			5,
-			1
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			0
 		}
 	},
 	joint_boss_ap_recove_cnt_pre_day = {
@@ -2058,6 +2098,18 @@ pg.gameset = {
 			200,
 			200
 		}
+	},
+	past_joint_boss_ticket = {
+		key_value = 0,
+		description = {
+			100,
+			200,
+			1400
+		}
+	},
+	past_joint_boss_autofight_time = {
+		description = "",
+		key_value = 900
 	},
 	world_boss_joindamage = {
 		description = "",
@@ -2528,7 +2580,9 @@ pg.gameset = {
 			42020,
 			42026,
 			42030,
-			42036
+			42036,
+			42040,
+			42046
 		}
 	},
 	submarine_chapter_activate_time = {

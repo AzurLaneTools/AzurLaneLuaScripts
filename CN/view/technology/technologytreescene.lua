@@ -32,6 +32,12 @@ function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 
 	slot0.rightLSC.onReturnItem = nil
+
+	if slot0.emptyPage then
+		slot0.emptyPage:Destroy()
+
+		slot0.emptyPage = nil
+	end
 end
 
 function slot0.initData(slot0)
@@ -73,6 +79,7 @@ function slot0.findUI(slot0)
 	slot0.headItem = slot0:findTF("HeadItem")
 	slot0.rowHeight = slot0.headItem.rect.height
 	slot0.maxRowHeight = 853.5
+	slot0.emptyPage = BaseEmptyListPage.New(slot0:findTF("Adapt/Right/ViewPort"), slot0.event)
 end
 
 function slot0.onBackPressed(slot0)
@@ -353,6 +360,13 @@ function slot0.updateTecItemList(slot0)
 	slot0.rightLSC:SetTotalCount(#slot1)
 	slot0.rightLSC:BeginLayout()
 	slot0.rightLSC:EndLayout()
+
+	if #slot1 <= 0 then
+		slot0.emptyPage:ExecuteAction("ShowOrHide", true)
+		slot0.emptyPage:ExecuteAction("SetEmptyText", i18n("technology_filter_placeholder"))
+	elseif slot2 > 0 and slot0.emptyPage:GetLoaded() then
+		slot0.emptyPage:ExecuteAction("ShowOrHide", false)
+	end
 end
 
 function slot0.updateShipItemList(slot0, slot1, slot2)

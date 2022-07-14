@@ -1110,6 +1110,11 @@ pg.name_code = {
 		name = "山城·META",
 		code = "鲼·META"
 	},
+	[224] = {
+		id = 224,
+		name = "哈尔滨",
+		code = "滨江"
+	},
 	[250] = {
 		id = 250,
 		name = "伊9",

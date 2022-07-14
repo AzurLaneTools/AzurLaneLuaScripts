@@ -8,7 +8,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if not slot6:isFinished() then
+	if not slot6:isCompleted() then
 		return
 	end
 
@@ -20,35 +20,28 @@ function slot0.execute(slot0, slot1)
 	}, 63004, function (slot0)
 		if slot0.result == 0 then
 			uv0:reset()
-			uv1:updateTechnology(uv0)
 
-			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
+			slot1 = uv1
 
-			underscore.each(PlayerConst.addTranDrop(slot0.catchup_list), function (slot0)
-				getProxy(TechnologyProxy):addCatupPrintsNum(slot0.count)
+			slot1:updateTechnology(uv0)
+			underscore.each(({
+				items = PlayerConst.addTranDrop(slot0.common_list),
+				commons = PlayerConst.addTranDrop(slot0.drop_list),
+				catchupItems = PlayerConst.addTranDrop(slot0.catchup_list),
+				catchupActItems = PlayerConst.addTranDrop(slot0.catchupact_list)
+			}).catchupItems, function (slot0)
+				uv0:addCatupPrintsNum(slot0.count)
 			end)
 
-			slot3 = PlayerConst.addTranDrop(slot0.catchupact_list)
-
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot4:isEnd() then
-				underscore.each(slot3, function (slot0)
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot3:isEnd() then
+				underscore.each(slot1.catchupActItems, function (slot0)
 					uv0.data1 = uv0.data1 + slot0.count
 				end)
 			end
 
-			slot5 = PlayerConst.addTranDrop(slot0.common_list)
-
-			if uv0:hasCondition() and uv0:getTaskId() then
-				getProxy(TaskProxy):removeTaskById(slot6)
-			end
-
-			uv1:updateTechnologys(slot0)
+			uv1:updateTechnologys(slot0.refresh_list)
 			uv2:sendNotification(GAME.FINISH_TECHNOLOGY_DONE, {
-				technologyId = uv0.id,
-				items = slot1,
-				commons = slot5,
-				catchupItems = slot2,
-				catchupActItems = slot3
+				items = PlayerConst.MergeTechnologyAward(slot1)
 			})
 
 			return

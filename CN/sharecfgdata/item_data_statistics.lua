@@ -6340,6 +6340,132 @@ _G.pg.base.item_data_statistics[13030] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[13031] = {
+	display = "试作型四联装152mm主炮设计图",
+	name = "试作型四联装152mm主炮设计图",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13031,
+	is_world = 0,
+	icon = "Equips/22280",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13032] = {
+	display = "试作型四联装330mm主炮Mle1931（超巡用）设计图",
+	name = "试作型四联装330mm主炮Mle1931（超巡用）设计图",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13032,
+	is_world = 0,
+	icon = "Equips/50360",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13033] = {
+	display = "试作舰载型Su-2设计图",
+	name = "试作舰载型Su-2设计图",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13033,
+	is_world = 0,
+	icon = "Equips/85540",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13034] = {
+	display = "试作型VIT-2（VK107）设计图",
+	name = "试作型VIT-2（VK107）设计图",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13034,
+	is_world = 0,
+	icon = "Equips/85560",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13035] = {
+	display = "试作型四联装30mm机炮 设计图",
+	name = "试作型四联装30mm机炮 设计图",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13035,
+	is_world = 0,
+	icon = "Equips/46400",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13036] = {
+	display = "试作型双联装130 mm主炮Model 1936设计图",
+	name = "试作型双联装130mm主炮Model 1936设计图",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13036,
+	is_world = 0,
+	icon = "Equips/56100",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 使用后可从超稀有科研装备(I期)的设计图中任意选择一张
@@ -9085,7 +9211,7 @@ _G.pg.base.item_data_statistics[21131] = {
 }
 
 _G.pg.base.item_data_statistics[21901] = {
-	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:191}同步率，活动结束后将会消失。",
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:191}同步率。",
 	name = "同步值：{namecode:191}",
 	max_num = 0,
 	type = 4,
@@ -9106,7 +9232,7 @@ _G.pg.base.item_data_statistics[21901] = {
 }
 
 _G.pg.base.item_data_statistics[21902] = {
-	display = "于「信标·META」战斗中收集的数据，可以提升皇家方舟·META同步率，活动结束后将会消失。",
+	display = "于「信标·META」战斗中收集的数据，可以提升皇家方舟·META同步率",
 	name = "同步值：皇家方舟·META",
 	max_num = 0,
 	type = 4,
@@ -9127,7 +9253,7 @@ _G.pg.base.item_data_statistics[21902] = {
 }
 
 _G.pg.base.item_data_statistics[21903] = {
-	display = "于「信标·META」战斗中收集的数据，可以提升海伦娜·META同步率，活动结束后将会消失。",
+	display = "于「信标·META」战斗中收集的数据，可以提升海伦娜·META同步率。",
 	name = "同步值：海伦娜·META",
 	max_num = 0,
 	type = 4,
@@ -9148,7 +9274,7 @@ _G.pg.base.item_data_statistics[21903] = {
 }
 
 _G.pg.base.item_data_statistics[21904] = {
-	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:205}同步率，活动结束后将会消失。",
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:205}同步率。",
 	name = "同步值：{namecode:205}",
 	max_num = 0,
 	type = 4,
@@ -9169,7 +9295,7 @@ _G.pg.base.item_data_statistics[21904] = {
 }
 
 _G.pg.base.item_data_statistics[21905] = {
-	display = "于「信标·META」战斗中收集的数据，可以提升格奈森瑙·META同步率，活动结束后将会消失。",
+	display = "于「信标·META」战斗中收集的数据，可以提升格奈森瑙·META同步率。",
 	name = "同步值：格奈森瑙·META",
 	max_num = 0,
 	type = 4,
@@ -9190,7 +9316,7 @@ _G.pg.base.item_data_statistics[21905] = {
 }
 
 _G.pg.base.item_data_statistics[21906] = {
-	display = "于「信标·META」战斗中收集的数据，可以提升沙恩霍斯特·META同步率，活动结束后将会消失。",
+	display = "于「信标·META」战斗中收集的数据，可以提升沙恩霍斯特·META同步率。",
 	name = "同步值：沙恩霍斯特·META",
 	max_num = 0,
 	type = 4,
@@ -9211,7 +9337,7 @@ _G.pg.base.item_data_statistics[21906] = {
 }
 
 _G.pg.base.item_data_statistics[21907] = {
-	display = "于「信标·META」战斗中收集的数据，可以提升反击·META同步率，活动结束后将会消失。",
+	display = "于「信标·META」战斗中收集的数据，可以提升反击·META同步率。",
 	name = "同步值：反击·META",
 	max_num = 0,
 	type = 4,
@@ -40100,6 +40226,305 @@ _G.pg.base.item_data_statistics[42036] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[42040] = {
+	display = "使用后可从第一期、第二期、第三期、第四期、第五期方案舰的最高方案蓝图中任意选择一张",
+	name = "定向蓝图・五期",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42040,
+	is_world = 0,
+	icon = "Props/42040",
+	display_icon = {
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42041] = {
+	display = "皇家巡洋「普利茅斯」的设计蓝图。\n<color=#92fc63>获得「普利茅斯」后，可在「开发船坞」中用于增强「普利茅斯」的能力。</color>",
+	name = "蓝图：普利茅斯",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42041,
+	is_world = 0,
+	icon = "Props/42041",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42042] = {
+	display = "铁血战巡「鲁普雷希特亲王」的设计蓝图。\n<color=#92fc63>获得「鲁普雷希特亲王」后，可在「开发船坞」中用于增强「鲁普雷希特亲王」的能力。</color>",
+	name = "蓝图：鲁普雷希特亲王",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42042,
+	is_world = 0,
+	icon = "Props/42042",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42043] = {
+	display = "东煌巡洋「{namecode:224}」的设计蓝图。\n<color=#92fc63>获得「{namecode:224}」后，可在「开发船坞」中用于增强「{namecode:224}」的能力。</color>",
+	name = "蓝图：{namecode:224}",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42043,
+	is_world = 0,
+	icon = "Props/42043",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42044] = {
+	display = "北联航母「契卡洛夫」的设计蓝图。\n<color=#92fc63>获得「契卡洛夫」后，可在「开发船坞」中用于增强「契卡洛夫」的能力。</color>",
+	name = "蓝图：契卡洛夫",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42044,
+	is_world = 0,
+	icon = "Props/42044",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42045] = {
+	display = "自由鸢尾超巡「布雷斯特」的设计蓝图。\n<color=#92fc63>获得「布雷斯特」后，可在「开发船坞」中用于增强「布雷斯特」的能力。</color>",
+	name = "蓝图：布雷斯特",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42045,
+	is_world = 0,
+	icon = "Props/42045",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42046] = {
+	display = "使用后可从第二期、第三期、第四期、第五期方案舰的决战方案蓝图中任意选择一张",
+	name = "高级定向蓝图・五期",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42046,
+	is_world = 0,
+	icon = "Props/42046",
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[43001] = {
 	display = "泛用型布里赠送的情人节礼物",
 	name = "情人节礼物",
@@ -50742,6 +51167,130 @@ _G.pg.base.item_data_statistics[52051] = {
 		{
 			2,
 			15015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52061] = {
+	display = "有几率获得以下蓝图",
+	name = "未知蓝图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52061,
+	is_world = 0,
+	icon = "Props/52001",
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52062] = {
+	display = "有几率获得以下设计图",
+	name = "未知限定装备设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52062,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			13036,
+			1
+		},
+		{
+			2,
+			13035,
+			1
+		},
+		{
+			2,
+			13034,
+			1
+		},
+		{
+			2,
+			13033,
+			1
+		},
+		{
+			2,
+			13032,
+			1
+		},
+		{
+			2,
+			13031,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13007,
 			1
 		}
 	},
@@ -168839,6 +169388,69 @@ _G.pg.base.item_data_statistics[59325] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59326] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 99,
+	link_id = 4445,
+	id = 59326,
+	is_world = 0,
+	icon = "Props/xunliandianshu_s",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59327] = {
+	display = "于『蝶海梦花』活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	name = "单次建造券",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4457,
+	id = 59327,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59328] = {
+	display = "用于『蝶海梦花』复刻活动兑换，活动结束后将会消失",
+	name = "蝶影",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59328,
+	is_world = 0,
+	icon = "Props/shinano_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",
@@ -181165,7 +181777,7 @@ _G.pg.base.item_data_statistics[70104] = {
 }
 
 _G.pg.base.item_data_statistics[100000] = {
-	display = "记录了信标的数据，达到指定数据量后可在信标·META界面对其进行解析。",
+	display = "记录了信标的数据，达到指定数据量后可在我的信标界面对其进行解析。",
 	name = "信标数据",
 	max_num = 0,
 	type = 0,
@@ -181185,25 +181797,21 @@ _G.pg.base.item_data_statistics[100000] = {
 	shiptrans_id = {}
 }
 
-_G.pg.base.item_data_statistics[100001] = {
-	display = [[
-用于记录在大型作战中收集到的「信标数据」的装置，达到指定数据量后可据此数据进行解析，发现特定的信标
-P.S.记录仪的记录容量有限，请务必及时前往解析
-今日已用解析次数:$1/$2
-数据记录量：$3]],
-	name = "信标记录仪",
+_G.pg.base.item_data_statistics[100002] = {
+	display = "记录了档案信标的数据，达到指定数据量后可在档案信标界面对其进行解析。",
+	name = "档案信标数据",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
-	rarity = 4,
+	rarity = 3,
 	shop_id = -1,
 	replace_item = 0,
 	drop_gold_max = 0,
 	virtual_type = 14,
 	link_id = 0,
-	id = 100001,
+	id = 100002,
 	is_world = 0,
-	icon = "Props/100001",
+	icon = "Props/100002",
 	display_icon = {},
 	price = {},
 	index = {},

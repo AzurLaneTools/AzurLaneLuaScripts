@@ -10441,7 +10441,7 @@ pg.activity_ins_language = {
 		value = "哈哈~谢谢你福尔班，感觉似乎没那么紧张了~"
 	},
 	ins_discuss_314_2 = {
-		value = "我有一个环节紧张压力的好办法！"
+		value = "我有一个缓解紧张压力的好办法！"
 	},
 	ins_reply_314_2_1 = {
 		value = "真的吗？什么办法？"

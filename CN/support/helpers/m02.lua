@@ -3314,11 +3314,11 @@ function removeWorld()
 	uv0 = nil
 end
 
-function switch(slot0, slot1, slot2)
+function switch(slot0, slot1, slot2, ...)
 	if slot1[slot0] then
-		slot1[slot0](slot0)
+		return slot1[slot0](...)
 	elseif slot2 then
-		slot2(slot0)
+		return slot2(...)
 	end
 end
 

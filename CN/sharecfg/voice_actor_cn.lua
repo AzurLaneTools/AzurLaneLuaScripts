@@ -1303,5 +1303,21 @@ pg.voice_actor_CN = {
 	{
 		code = 326,
 		actor_name = "藤井雪代"
+	},
+	{
+		code = 327,
+		actor_name = "村上真夏"
+	},
+	{
+		code = 328,
+		actor_name = "麻仓桃"
+	},
+	{
+		code = 329,
+		actor_name = "柚木凉香"
+	},
+	{
+		code = 330,
+		actor_name = "千本木彩花"
 	}
 }

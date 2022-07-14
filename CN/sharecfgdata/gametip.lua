@@ -3105,6 +3105,10 @@ _G.pg.base.gametip.spweapon_tip_locked = {
 	tip = "角色完成三阶突破后解锁<color=#92fc63>特殊兵装栏位</color>"
 }
 
+_G.pg.base.gametip.spweapon_tip_unload = {
+	tip = "特殊兵装已卸载至仓库中 "
+}
+
 _G.pg.base.gametip.spweapon_ui_level = {
 	tip = "强化等级"
 }
@@ -4111,11 +4115,11 @@ _G.pg.base.gametip.world_boss_help_meta = {
 
 2.「信标数据」获取与解析
 ·指挥官可通过在大型作战中获取「信标数据」，达到指定数据量后进行解析并发现特定信标
-·每日最多可解析 <color=#92fc63>2次</color>，次数于每日0点重置，尚未使用的「信标数据」将会保留。
+·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「信标数据」将会保留。
 ·每次解析「信标数据」所需量为<color=#92fc63>100</color>点
 
 3.挑战自己解析的信标
-·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>1</color>点。(不会消耗挑战次数)
+·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)
 ·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。
 ·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，记得向其他指挥官请求支援哦。
 ·每次挑战成功后，信标的强度将会提升1阶段，总计15阶段。随着阶段提升，战斗奖励也会提升。
@@ -9083,6 +9087,13 @@ _G.pg.base.gametip.technology_help_text = {
     ·选择一个研发版本倾向后，每次刷新研发项目时，将有三个项目固定刷新对应倾向的研发项目
 
 
+※新增功能：研发队列
+ ·已开始研发的科研项目在达成【研发完成条件】后，可以加入【研发队列】
+加入队列的科研项目会顺序完成，不可取消
+科研项目加入研发队列后，会刷新出新的科研项目供选择
+科研队列可容纳的科研项目数量上限为5个，同一时间只能研发一个科研项目
+
+
 1 开始研发 
     ·点击“开始研发”按钮后可以开启一个科研项目。
     ·部分科研项目的开启需要消耗一定量的资源。
@@ -9993,7 +10004,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "霞飞、不屈、进取 建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:182}(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10104,27 +10115,27 @@ _G.pg.base.gametip.tec_notice_not_open_tip = {
 }
 
 _G.pg.base.gametip.apply_permission_camera_tip1 = {
-	tip = "为了ar录像的使用，需要有权限访问录音功能"
-}
-
-_G.pg.base.gametip.apply_permission_camera_tip2 = {
-	tip = "您关闭了录音权限，需要到setting界面确认权限开启"
-}
-
-_G.pg.base.gametip.apply_permission_camera_tip3 = {
-	tip = "您拒绝授予录音权限，这导致您无法使用ar录像"
-}
-
-_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
 	tip = "为了ar相机的使用，需要有权限访问相机"
 }
 
-_G.pg.base.gametip.apply_permission_record_audio_tip2 = {
+_G.pg.base.gametip.apply_permission_camera_tip2 = {
 	tip = "您关闭了相机权限，需要到setting界面确认权限开启"
 }
 
-_G.pg.base.gametip.apply_permission_record_audio_tip3 = {
+_G.pg.base.gametip.apply_permission_camera_tip3 = {
 	tip = "您拒绝授权相机权限，这导致您无法使用ar相机"
+}
+
+_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
+	tip = "为了ar录像的使用，需要有权限访问录音功能"
+}
+
+_G.pg.base.gametip.apply_permission_record_audio_tip2 = {
+	tip = "您关闭了录音权限，需要到setting界面确认权限开启"
+}
+
+_G.pg.base.gametip.apply_permission_record_audio_tip3 = {
+	tip = "您拒绝授予录音权限，这导致您无法使用ar录像"
 }
 
 _G.pg.base.gametip.nine_choose_one = {
@@ -11555,6 +11566,66 @@ _G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
 试作型三联装406mm主炮Model1940
 三联装152mm主炮Model1934 
 试作型双联90mm高角炮Model1939
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型四联装152mm主炮
+四联装533mm鱼雷Mark IX
+双管20mm厄利孔高射炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型双联装406mmSKC主炮
+双联装TbtsKC36式150mm主炮
+试作型四联装30mm机炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型双联装130mm主炮Model1936
+三联装533mm鱼雷
+37mm防空炮70-K
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作舰载型Su-2
+试作舰载型Su-2
+试作型VIT-2 (VK-107)
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型四联装330mm主炮Mle1931（超巡用）
+138.6mm单装炮Mle1929
+双联40mm博福斯对空机炮
 </color></size>]]
 }
 
@@ -12998,22 +13069,22 @@ _G.pg.base.gametip.secretary_help = {
 			info = "· 秘书组功能说明：\n"
 		},
 		{
-			info = "1.秘书组栏位需要通过主线关卡开放，秘书组可以放入同名舰船"
+			info = "1. 秘书组栏位需要通过主线关卡开放，秘书组可以放入同名舰船"
 		},
 		{
-			info = "2.仅有排列在秘书组<color=#92fc63>最左侧的秘书舰</color>可以获得<color=#92fc63>秘书舰好感度加成</color>"
+			info = "2. 仅有排列在秘书组<color=#92fc63>最左侧的秘书舰</color>可以获得<color=#92fc63>秘书舰好感度加成</color>"
 		},
 		{
-			info = "3.当回到主界面触发秘书舰回港台词时，将随机展示一名秘书组成员"
+			info = "3. 当回到主界面触发秘书舰回港台词时，将随机展示一名秘书组成员"
 		},
 		{
-			info = "4.通过换装设置，可以对每个秘书组成员使用的换装进行详细设置"
+			info = "4. 通过换装设置面板，可以对每个秘书组成员使用的换装进行详细设置"
 		},
 		{
-			info = "5.在秘书组界面，拖动角色可以直接更换秘书组成员的位置"
+			info = "5. 在秘书组界面，拖动角色可以直接更换秘书组成员的位置"
 		},
 		{
-			info = "6.在主界面可以通过切换功能，切换当前展示的秘书舰\n"
+			info = "6. 在主界面可以通过切换功能，切换当前展示的秘书舰\n"
 		}
 	}
 }
@@ -14755,6 +14826,10 @@ _G.pg.base.gametip.tec_settings_btn_word = {
 	tip = "研发选项"
 }
 
+_G.pg.base.gametip.tec_tendency_x = {
+	tip = "科研$1期"
+}
+
 _G.pg.base.gametip.tec_tendency_0 = {
 	tip = "无倾向"
 }
@@ -14773,6 +14848,10 @@ _G.pg.base.gametip.tec_tendency_3 = {
 
 _G.pg.base.gametip.tec_tendency_4 = {
 	tip = "科研四期"
+}
+
+_G.pg.base.gametip.tec_tendency_cur_x = {
+	tip = "科研倾向 / $1期"
 }
 
 _G.pg.base.gametip.tec_tendency_cur_0 = {
@@ -14803,6 +14882,10 @@ _G.pg.base.gametip.tec_tendency_cur_4 = {
 	tip = "科研倾向 / 四期"
 }
 
+_G.pg.base.gametip.tec_target_catchup_none_x = {
+	tip = "定向追赶:$1期/未选"
+}
+
 _G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "定向追赶:一期/未选"
 }
@@ -14815,6 +14898,10 @@ _G.pg.base.gametip.tec_target_catchup_none_3 = {
 	tip = "定向追赶:三期/未选"
 }
 
+_G.pg.base.gametip.tec_target_catchup_selected_x = {
+	tip = "定向追赶:$1期/进行"
+}
+
 _G.pg.base.gametip.tec_target_catchup_selected_1 = {
 	tip = "定向追赶:一期/进行"
 }
@@ -14825,6 +14912,10 @@ _G.pg.base.gametip.tec_target_catchup_selected_2 = {
 
 _G.pg.base.gametip.tec_target_catchup_selected_3 = {
 	tip = "定向追赶:三期/进行"
+}
+
+_G.pg.base.gametip.tec_target_catchup_finish_x = {
+	tip = "定向追赶:$1期/完成"
 }
 
 _G.pg.base.gametip.tec_target_catchup_finish_1 = {
@@ -20322,8 +20413,198 @@ _G.pg.base.gametip.world_boss_item_info = {
 	tip = [[
 信标记录仪|用于记录在大型作战中收集到的「信标数据」的装置，达到指定数据量后可据此数据进行解析，发现特定的信标
 P.S.记录仪的记录容量有限，请务必及时前往解析
-每天获取上限:$1/$2
+每日获取上限:$1/$2
 记录容量上限:$3/$4]]
+}
+
+_G.pg.base.gametip.world_past_boss_item_info = {
+	tip = [[
+档案信标记录仪|用于记录在大型作战中收集到的「档案信标数据」的装置，达到指定数据量后可据此数据进行解析，发现特定的信标
+P.S.记录仪的记录容量有限，请务必及时前往解析
+每日获取上限:$1/$2
+记录容量上限：$3/$4]]
+}
+
+_G.pg.base.gametip.world_boss_lefttime = {
+	tip = "$1天"
+}
+
+_G.pg.base.gametip.world_boss_item_count_noenough = {
+	tip = "情报解析数据不足"
+}
+
+_G.pg.base.gametip.world_boss_item_usage_tip = {
+	tip = "※本期信标与档案信标不能同时进行解析"
+}
+
+_G.pg.base.gametip.world_boss_no_select_archives = {
+	tip = "请先在信标档案中开启解析"
+}
+
+_G.pg.base.gametip.world_boss_archives_item_count_noenough = {
+	tip = "档案信标数据不足"
+}
+
+_G.pg.base.gametip.world_boss_archives_are_clear = {
+	tip = "全部META解析完成"
+}
+
+_G.pg.base.gametip.world_boss_switch_archives = {
+	tip = "当前已开启$1的档案解析，是否切换？\n（不会影响当前开启的档案信标）"
+}
+
+_G.pg.base.gametip.world_boss_switch_archives_success = {
+	tip = "开启成功，可在档案信标界面进行解析"
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_unopen = {
+	tip = "自动作战将在完成一次挑战后开启"
+}
+
+_G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
+	tip = "自动作战进行中，无法开始挑战"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle = {
+	tip = "结束作战"
+}
+
+_G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
+	tip = "继续作战"
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_reusle_title = {
+	tip = "自动作战完成"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_title = {
+	tip = "自动作战中···"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
+	tip = "剩余时间："
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip1 = {
+	tip = "(中途结束自动作战不会对信标造成伤害且油耗不返还)"
+}
+
+_G.pg.base.gametip.world_archives_boss_help = {
+	tip = {
+		{
+			info = [[
+档案信标说明
+
+1. 玩家可以从「信标档案」界面中开启档案META的解析并进行挑战，累计其同步值获取<color=#92fc63>META角色</color>及其他丰厚奖励；早期活动获取的同步值将继承至信标档案中
+
+2.「档案信标数据」获取与解析
+·指挥官可通过在大型作战中获取「档案信标数据」，达到指定数据量后进行解析并发现信标
+·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「档案信标数据」将会保留。
+·每次解析消耗「档案信标数据」<color=#92fc63>100</color>点
+
+3.开启档案解析和档案解析切换
+·指挥官可以在「信标档案」界面开启需要解析的META角色，开启后可以在「档案信标」界面进行解析和挑战
+·开启解析后可以任意切换，没有限制。
+
+4.挑战自己解析的信标
+·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)
+·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。
+·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失。
+·档案信标初始等级为15级。
+
+5.挑战其他信标
+·在档案列表界面的「好友」、「大舰队」栏处可以挑战其他指挥官发起求助的信标
+·<color=#92fc63>档案信标支援挑无次数限制，不消耗石油，也没有奖励</color>
+·同一个信标最多能允许累计30位指挥官进行挑战
+
+6.战斗说明
+·挑战档案信标暂不可使用指挥喵与潜艇
+·战斗结算时不会获得经验值，不会影响舰船心情值
+·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
+①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
+②支援档案信标作战无奖励，无次数限制
+ <color=#92fc63>请在参与作战时保持网络环境畅通</color>
+
+7.自动战斗功能说明
+·指挥官在手动挑战一次自己解析的信标后可以解锁自动作战功能
+·自动作战根据指挥官对当前档案META造成的最高伤害进行自动战斗，根据最高伤害计算需要作战的次数，并消耗对应的石油，石油消耗和手动挑战的消耗相同
+·自动作战固定耗时15分钟，离开挑战界面或退出游戏不影响自动作战
+·指挥官可以手动取消自动作战，但已消耗的石油不会返还，且不会计算已造成的伤害。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.world_archives_boss_list_help = {
+	tip = {
+		{
+			info = [[
+信标档案功能说明
+
+1. 信标档案中的META舰船同步值会继承，累计同步值奖励无法重复获取
+2.指挥官可以在信标档案中开启档案解析、切换解析、领取同步值奖励
+3.META舰船同步值奖励全部领取完后会进入解析完毕分页，指挥官可以在分页中查看]]
+		}
+	}
+}
+
+_G.pg.base.gametip.archives_boss_was_opened = {
+	tip = "当前有正在解析的档案信标，暂时无法前往我的信标"
+}
+
+_G.pg.base.gametip.current_boss_was_opened = {
+	tip = "当前有正在解析的本期信标，暂时无法前往档案信标"
+}
+
+_G.pg.base.gametip.world_boss_title_auto_battle = {
+	tip = "自动作战"
+}
+
+_G.pg.base.gametip.world_boss_title_highest_damge = {
+	tip = "最高伤害"
+}
+
+_G.pg.base.gametip.world_boss_title_estimation = {
+	tip = "本次自动作战预计"
+}
+
+_G.pg.base.gametip.world_boss_title_battle_cnt = {
+	tip = "作战次数"
+}
+
+_G.pg.base.gametip.world_boss_title_consume_oil_cnt = {
+	tip = "累计油耗"
+}
+
+_G.pg.base.gametip.world_boss_title_spend_time = {
+	tip = "所需时间"
+}
+
+_G.pg.base.gametip.world_boss_title_total_damage = {
+	tip = "总伤害"
+}
+
+_G.pg.base.gametip.world_no_time_to_auto_battle = {
+	tip = "当前信标剩余时间不足！"
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label = {
+	tip = "今日已获取"
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label1 = {
+	tip = "解析消耗"
+}
+
+_G.pg.base.gametip.world_boss_archives_boss_tip = {
+	tip = "支援档案信标作战无奖励，不消耗次数"
+}
+
+_G.pg.base.gametip.world_boss_progress_no_enough = {
+	tip = "信标数据不足"
+}
+
+_G.pg.base.gametip.world_boss_auto_battle_no_oil = {
+	tip = "当前石油储备不足！"
 }
 
 _G.pg.base.gametip.meta_syn_value_label = {
@@ -20619,6 +20900,110 @@ _G.pg.base.gametip.commission_event_tip = {
 	}
 }
 
+_G.pg.base.gametip.decoration_medal_placeholder = {
+	tip = "尚未获得任何勋章"
+}
+
+_G.pg.base.gametip.technology_filter_placeholder = {
+	tip = "无当前分类角色"
+}
+
+_G.pg.base.gametip.eva_comment_send_null = {
+	tip = "请输入评论"
+}
+
 _G.pg.base.gametip.rename_input = {
 	tip = "输入名称"
+}
+
+_G.pg.base.gametip.avatar_task_level = {
+	tip = "使用$1$2击败$3敌方旗舰$4次且存活"
+}
+
+_G.pg.base.gametip.avatar_upgrad_1 = {
+	tip = "一阶突破的"
+}
+
+_G.pg.base.gametip.avatar_upgrad_2 = {
+	tip = "二阶突破的"
+}
+
+_G.pg.base.gametip.avatar_upgrad_3 = {
+	tip = "满星"
+}
+
+_G.pg.base.gametip.avatar_task_ship_1 = {
+	tip = "获得舰船「$1」"
+}
+
+_G.pg.base.gametip.avatar_task_ship_2 = {
+	tip = "「$1」突破至满星"
+}
+
+_G.pg.base.gametip.technology_queue_complete = {
+	tip = "研究完成"
+}
+
+_G.pg.base.gametip.technology_queue_processing = {
+	tip = "进行中"
+}
+
+_G.pg.base.gametip.technology_queue_waiting = {
+	tip = "等待进行"
+}
+
+_G.pg.base.gametip.technology_queue_getaward = {
+	tip = "领取奖励"
+}
+
+_G.pg.base.gametip.technology_daily_refresh = {
+	tip = "每日0点后可刷新"
+}
+
+_G.pg.base.gametip.technology_queue_full = {
+	tip = "队列已满，无法加入队列"
+}
+
+_G.pg.base.gametip.technology_queue_in_mission_incomplete = {
+	tip = "研发完成条件未完成，无法加入队列"
+}
+
+_G.pg.base.gametip.technology_consume = {
+	tip = "研发消耗"
+}
+
+_G.pg.base.gametip.technology_request = {
+	tip = "研发完成条件"
+}
+
+_G.pg.base.gametip.technology_queue_in_doublecheck = {
+	tip = "确定将该科研项目加入研究队列吗，加入队列的研究项目将顺序完成，不可取消"
+}
+
+_G.pg.base.gametip.technology_queue_in_success = {
+	tip = "加入队列成功"
+}
+
+_G.pg.base.gametip.star_require_enemy_text = {
+	tip = "距离达成「击破全部敌人」剩余：$1"
+}
+
+_G.pg.base.gametip.star_require_enemy_title = {
+	tip = "剩余敌人数量"
+}
+
+_G.pg.base.gametip.star_require_enemy_check = {
+	tip = "定位"
+}
+
+_G.pg.base.gametip.worldboss_rank_timer_label = {
+	tip = "排行榜统计中\n剩余："
+}
+
+_G.pg.base.gametip.technology_detail = {
+	tip = "查看详情"
+}
+
+_G.pg.base.gametip.technology_mission_unfinish = {
+	tip = "条件未达成"
 }

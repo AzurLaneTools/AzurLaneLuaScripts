@@ -178,6 +178,8 @@ end
 
 function slot0.ConsumeSummonPt(slot0, slot1)
 	slot0.summonPt = slot0.summonPt - slot1
+
+	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 
 function slot0.GetSummonPtDailyAcc(slot0)
@@ -186,6 +188,8 @@ end
 
 function slot0.ClearSummonPtDailyAcc(slot0)
 	slot0.summonPtDailyAcc = 0
+
+	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 
 function slot0.GetSummonPtOld(slot0)
@@ -209,10 +213,14 @@ end
 
 function slot0.ConsumeSummonPtOld(slot0, slot1)
 	slot0.summonPtOld = slot0.summonPtOld - slot1
+
+	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 
 function slot0.ClearSummonPtOldAcc(slot0)
 	slot0.summonPtOldDailyAcc = 0
+
+	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 
 function slot0.GetSummonPtOldAcc(slot0)
@@ -610,7 +618,18 @@ function slot0.IsOpen(slot0)
 end
 
 function slot0.IsNeedSupport()
-	if WorldBossConst.GetCurrBossDayIndex() < pg.gameset.world_metaboss_supportattack.description[1] then
+	slot0 = WorldBossConst.GetCurrBossDayIndex()
+	slot1 = pg.gameset.world_metaboss_supportattack.description
+
+	if not nowWorld():GetBossProxy():GetSelfBoss() then
+		return
+	end
+
+	if not WorldBossConst._IsCurrBoss(slot2) then
+		return
+	end
+
+	if slot0 < slot1[1] then
 		return
 	end
 

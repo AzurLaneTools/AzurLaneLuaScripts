@@ -652,13 +652,13 @@ function slot0.EnergyCheck(slot0, slot1, slot2, slot3, slot4)
 		end)
 
 		if PLATFORM_CODE ~= PLATFORM_US or #slot5 == 1 then
-			slot4 = slot4 or "ship_energy_low_warn"
-
 			for slot10, slot11 in ipairs(slot5) do
 				slot6 = slot6 .. slot11
 			end
 		else
-			slot4 = "multiple_" .. slot4
+			if slot4 == "ship_energy_low_warn_no_exp" or slot4 == "ship_energy_low_warn" or slot4 == "ship_energy_low_desc" then
+				slot4 = "multiple_" .. slot4
+			end
 
 			for slot10 = 1, #slot5 - 2 do
 				slot6 = slot6 .. slot5[slot10] .. ", "

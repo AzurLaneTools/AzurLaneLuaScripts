@@ -298,6 +298,16 @@ function slot0.closeTreePanel(slot0)
 	slot0.treePanel:ActionInvoke("closeTreePanel")
 end
 
+function slot0.onBackPressed(slot0)
+	if slot0.treePanel:GetLoaded() and slot0.treePanel:isShowing() then
+		slot0:closeTreePanel()
+
+		return
+	end
+
+	uv0.super.onBackPressed(slot0)
+end
+
 function slot0.willExit(slot0)
 	if slot0.page then
 		slot0.panels[slot0.page]:detach()

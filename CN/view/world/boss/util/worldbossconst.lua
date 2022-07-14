@@ -8,6 +8,14 @@ slot0.BOSS_TYPE_CURR = 1
 slot0.BOSS_TYPE_ARCHIVES = 2
 slot0.STOP_AUTO_BATTLE_MANUAL = 1
 slot0.STOP_AUTO_BATTLE_TIMEOVER = 2
+slot0.AUTO_BATTLE_STATE_NORMAL = 0
+slot0.AUTO_BATTLE_STATE_LOCK = 1
+slot0.AUTO_BATTLE_STATE_STARTING = 2
+slot0.AUTO_BATTLE_STATE_HIDE = 3
+
+function slot0.__IsCurrBoss(slot0)
+	return uv0.GetCurrBossID() == slot0
+end
 
 function slot0.IsAchieveBoss(slot0)
 	return table.contains(uv0.GetAchieveBossIdList(), slot0)
@@ -194,7 +202,7 @@ function slot0.GetAchieveState()
 		return uv0.ACHIEVE_STATE_NOSTART
 	elseif uv0.IsClearAllAchieveBoss() then
 		return uv0.ACHIEVE_STATE_CLEAR
-	elseif not getProxy(MetaCharacterProxy):getMetaProgressVOByID(pg.world_joint_boss_template[slot0].meta_id).metaPtData:CanGetNextAward() then
+	elseif not getProxy(MetaCharacterProxy):getMetaProgressVOByID(pg.world_joint_boss_template[slot0].meta_id).metaPtData:CanGetNextAward() or slot3.metaPtData:IsMaxPt() then
 		return uv0.ACHIEVE_STATE_NOSTART
 	else
 		return uv0.ACHIEVE_STATE_STARTING
@@ -242,8 +250,32 @@ function slot0.GetAutoBattleLeftTime()
 	return nowWorld():GetBossProxy():GetAutoBattleFinishTime() - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
+function slot0.GetAutoBattleState(slot0)
+	if not slot0 or slot0:isDeath() then
+		return uv0.AUTO_BATTLE_STATE_HIDE
+	end
+
+	if WorldBossConst.InAutoBattle() then
+		return uv0.AUTO_BATTLE_STATE_STARTING
+	elseif slot0:isDeath() then
+		return uv0.AUTO_BATTLE_STATE_HIDE
+	elseif slot0:GetSelfFightCnt() <= 0 or nowWorld():GetBossProxy():GetHighestDamage() <= 0 then
+		return uv0.AUTO_BATTLE_STATE_LOCK
+	else
+		return uv0.AUTO_BATTLE_STATE_NORMAL
+	end
+end
+
 function slot0.BossId2MetaId(slot0)
 	return pg.world_joint_boss_template[slot0].meta_id
+end
+
+function slot0.MetaId2BossId(slot0)
+	for slot4, slot5 in ipairs(pg.world_joint_boss_template.all) do
+		if uv0.BossId2MetaId(slot5) == slot0 then
+			return slot5
+		end
+	end
 end
 
 function slot0.AnyArchivesBossCanGetAward()
