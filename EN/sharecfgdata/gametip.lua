@@ -495,7 +495,7 @@ _G.pg.base.gametip.word_succeed = {
 }
 
 _G.pg.base.gametip.word_start = {
-	tip = "Start "
+	tip = "Start"
 }
 
 _G.pg.base.gametip.word_kiss = {
@@ -3478,6 +3478,10 @@ _G.pg.base.gametip.spweapon_tip_locked = {
 	tip = "The <color=#92fc63>Augment Module</color> slot will be unlocked after obtaining Max Limit Break."
 }
 
+_G.pg.base.gametip.spweapon_tip_unload = {
+	tip = "The Augment Module has been returned to your Depot."
+}
+
 _G.pg.base.gametip.spweapon_ui_level = {
 	tip = "Upgrade Level"
 }
@@ -4479,56 +4483,55 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-About META Showdown:
+- META Showdown Overview -
 
-1. From <color=#92fc63>6/9/22 to 8/31/22</color>, challenge Repulse META
+From <color=#92fc63>6/9/22 to 9/1/22</color>, challenge Repulse META
 to earn Sync Points. Sync Points can be used
 to obtain the limited character, <color=#92fc63>Repulse META</color> as well
 as other great rewards.
- <color=#ff5c5c>Notice: Sync Points will expire after the event period ends.</color>
+<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
-2. Acquiring and Analyzing META Coordinates
--META Coordinates can be earned by playing Operation Siren.
+- Acquiring and Analyzing META Coordinates -
+· META Coordinates can be earned by playing Operation Siren.
 Sufficient amounts of META Coordinates
-can be analyzed to begin an META Showdown.
--You may perform Analysis <color=#92fc63>2 times</color> per day,
+can be analyzed to begin a META Showdown.
+· You may perform Analysis <color=#92fc63>2 times</color> per day,
 resetting every day at midnight. Unused
 META Coordinates will be retained.
--You need <color=#92fc63>100</color> META Coordinates to begin 
-an META Showdown.
+· You need <color=#92fc63>100</color> META Coordinates to begin 
+a META Showdown.
 
-3. Fighting Your Bosses
--Your first time challenging an META boss that you
+- Fighting Your Bosses -
+· Your first time challenging a META boss that you
 spawned will not require Oil. From the second
-attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>1</color> Oil.
-(Will not consume a challenge attempt)
--When an META Showdown boss reaches 0 HP,
+attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil.
+(Will not consume a challenge attempt).
+· When a META Showdown boss reaches 0 HP,
 it will be defeated. Participants will be able to collect
 rewards, including a large amount of Sync Points.
--Each META Showdown will only last for <color=#92fc63>24 hours</color>,
+· Each META Showdown will only last for <color=#92fc63>24 hours</color>,
 after which it will disappear.
 Use Request Support if you need help.
--After defeating an META boss, the difficulty
+· After defeating a META boss, the difficulty
 of subsequent META Showdowns will increase by
 1 level, up to a maximum of 15.
 
-4. Fight Others’ Bosses
--In the Boss List menu, you can see requests that
-other commanders have sent.
-When fighting another commander’s boss, you
-will immediately gan Sync Points based
+- Fighting Others' Bosses -
+· In the Boss List menu, you can see requests that
+other Commanders have sent.
+When fighting another Commander's boss, you
+will immediately gain Sync Points based
 upon the <color=#92fc63>amount of DMG</color> you dealt.
--Each attempt uses 1 Challenge Attempt, but
+· Each attempt uses 1 Challenge Attempt, but
 uses no Oil.
--You can have up to <color=#92fc63>3</color> Challenge attempts,
+· You can have up to <color=#92fc63>3</color> Challenge attempts,
 resetting each day at midnight.
 Each META Showdown can have up to 30 participants.
-
-5. Combat Instructions
-You cannot bring Meowfficers or submarines.
--At the end of battle, no EXP is gained, and Morale
+- Combat Instructions -
+· You cannot bring Meowfficers or submarines.
+· At the end of battle, no EXP is gained, and Morale
 will not be affected.
--You cannot quit during an META Showdown.
+· You cannot quit during an META Showdown.
 If connection is lost due to unstable network
 conditions, the following will occur:
 a. If challenging a boss you discovered, you will
@@ -4540,8 +4543,8 @@ will be granted.
 <color=#92fc63>Please make sure your network conditions are stable
 before attempting an META Showdown!</color>.
 
-6. Artillery Support
--From the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).
+- Artillery Support -
+From the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).
 The later in the META Showdown season it is, the greater the damage inflicted by this artillery support.
 *Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt.]]
 		}
@@ -9186,8 +9189,20 @@ _G.pg.base.gametip.technology_stop_tip = {
 _G.pg.base.gametip.technology_help_text = {
 	tip = {
 		{
+			info = "<color=#A1E400FF>- Update - (July 14th, 2022)</color>\n"
+		},
+		{
 			info = [[
-- Update - (July 8th, 2021)
+The Research Academy has received an update with the addition of series 5 PRs/DRs.
+
+1. New series 5 research projects have been added.
+
+2. A new feature, research queueing, has been added to the Research Academy.
+You can now queue up research projects if you meet all their completion requirements. Queued projects will be completed in the order they were added to the queue, and once added, cannot be removed.
+Your research queue can hold up to 5 projects at a time. When you add a project to the queue, the list of available research projects will be refreshed.
+
+
+- Update -
 The Research Academy has received an update with the addition of series 4 PRs/DRs.
 
 1. New series 4 research projects have been added.
@@ -9207,8 +9222,7 @@ The Research Academy has received an update with the addition of series 3 PRs/DR
 1. New series 3 research projects have been added.
 Series 3 research projects are marked with the roman numeral "III" in the top right corner of the project.
 
-2. The Research Focus menu has been completely revamped.
-Now when you wish to focus on a particular PR/DR series, you can choose between series 1, 2, and 3.
+2. The Research Focus menu has been completely revamped.  Now when you wish to focus on a particular PR/DR series, you can choose between series 1, 2, and 3.
 Focusing on a series will increase the likelihood you'll get research projects from the corresponding series, with at least 3 of them guaranteed to be from the chosen series.
 
 Additionally, with the new Catch-Up feature, you can prioritize a ship of a given PR/DR series and receive additional Blueprints for her.
@@ -10104,7 +10118,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Increased odds of building Joffre, L'Indomptable, and Enterprise (CL)!"
+	tip = "Get Shinano guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11653,6 +11667,56 @@ Triple 152mm Model 1934 Main Gun Mount
 Prototype Twin 90mm High Angle Gun Mount</color></size>]]
 }
 
+_G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
+	tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Prototype Quadruple 152mm Main Gun Mount
+533mm Quadruple Torpedo Mount Mk IX
+Twin 20mm AA Oerlikon Design</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
+	tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Prototype 406mm SK C/34 Main Gun Mount
+Twin 150mm TbtsK C/36 Main Gun Mount
+Prototype Quadruple 30mm AA Gun Mount</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
+	tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Prototype Twin 130mm Model 1936 Main Gun Mount
+533mm Triple Torpedo Mount
+Single 37mm 70-K AA Gun Mount</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
+	tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Prototype Su-2
+Prototype Su-2
+Prototype VIT-2 (VK-107)</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
+	tip = [[
+<size=28>Would you like to start a Battle Simulation?
+Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.
+Equipped gear:<color=#ff5c5c>
+Prototype Quadruple 330mm Mle 1931 (CB Only) Main Gun Mount
+Single 138.6mm Mle 1929 Naval Gun
+Twin 40mm Bofors AA Gun Mount</color></size>]]
+}
+
 _G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "The electrified area is about to expand"
 }
@@ -13104,7 +13168,7 @@ _G.pg.base.gametip.secretary_help = {
 			info = "3. When returning to home port, your secretary ship will be randomly selected from one of the ships assigned to Secretary Groups."
 		},
 		{
-			info = "4. By toggling \"Skin Settings\" to ON, you may view additional information about the outfits each ship is using."
+			info = "4. By toggling \"\"Skin Settings\"\" to ON, you may view additional information about the outfits each ship is using."
 		},
 		{
 			info = "5. In the Secretary Groups interface, you may directly drag ships to change their position."
@@ -14767,6 +14831,10 @@ _G.pg.base.gametip.tec_settings_btn_word = {
 	tip = "Research Focus"
 }
 
+_G.pg.base.gametip.tec_tendency_x = {
+	tip = "PR/DR $1"
+}
+
 _G.pg.base.gametip.tec_tendency_0 = {
 	tip = "No Focus"
 }
@@ -14785,6 +14853,10 @@ _G.pg.base.gametip.tec_tendency_3 = {
 
 _G.pg.base.gametip.tec_tendency_4 = {
 	tip = "PR4 Focus"
+}
+
+_G.pg.base.gametip.tec_tendency_cur_x = {
+	tip = "Catch-Up / $1"
 }
 
 _G.pg.base.gametip.tec_tendency_cur_0 = {
@@ -14815,6 +14887,10 @@ _G.pg.base.gametip.tec_tendency_cur_4 = {
 	tip = "Research Focus / Series 4"
 }
 
+_G.pg.base.gametip.tec_target_catchup_none_x = {
+	tip = "PR$1 / Not Selected"
+}
+
 _G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "PR1 / Not Selected"
 }
@@ -14827,6 +14903,10 @@ _G.pg.base.gametip.tec_target_catchup_none_3 = {
 	tip = "PR3 / Not Selected"
 }
 
+_G.pg.base.gametip.tec_target_catchup_selected_x = {
+	tip = "PR$1 / Selected"
+}
+
 _G.pg.base.gametip.tec_target_catchup_selected_1 = {
 	tip = "PR1 / Selected"
 }
@@ -14837,6 +14917,10 @@ _G.pg.base.gametip.tec_target_catchup_selected_2 = {
 
 _G.pg.base.gametip.tec_target_catchup_selected_3 = {
 	tip = "PR3 / Selected"
+}
+
+_G.pg.base.gametip.tec_target_catchup_finish_x = {
+	tip = "PR$1 / Complete"
 }
 
 _G.pg.base.gametip.tec_target_catchup_finish_1 = {
@@ -15924,7 +16008,7 @@ _G.pg.base.gametip.multiple_ship_energy_low_warn = {
 }
 
 _G.pg.base.gametip.multiple_ship_energy_low_warn_no_exp = {
-	tip = "In your fleet, <color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, <color=#ff5c5c>her affinity will decrease</color>! Are you sure you wish to continue?"
+	tip = "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue?"
 }
 
 _G.pg.base.gametip.us_error_download_painting = {
@@ -16954,7 +17038,7 @@ _G.pg.base.gametip.meta_pt_left = {
 }
 
 _G.pg.base.gametip.meta_syn_rate = {
-	tip = "资讯同步率"
+	tip = "Sync Rate"
 }
 
 _G.pg.base.gametip.meta_repair_rate = {
@@ -16974,7 +17058,7 @@ _G.pg.base.gametip.meta_pt_get_way = {
 }
 
 _G.pg.base.gametip.meta_pt_point = {
-	tip = "Sync Point "
+	tip = "Sync Pt"
 }
 
 _G.pg.base.gametip.meta_award_get = {
@@ -17252,7 +17336,7 @@ _G.pg.base.gametip.word_take_effect = {
 }
 
 _G.pg.base.gametip.world_boss_challenge_cnt = {
-	tip = "Participants: "
+	tip = "Participants"
 }
 
 _G.pg.base.gametip.word_shipNation_meta = {
@@ -19669,7 +19753,7 @@ _G.pg.base.gametip.build_ticket_description = {
 }
 
 _G.pg.base.gametip.build_ticket_expire_warning = {
-	tip = "$1 of these items are about to expire."
+	tip = "Expiring soon: $1"
 }
 
 _G.pg.base.gametip.tip_build_ticket_expired = {
@@ -20038,7 +20122,7 @@ _G.pg.base.gametip.attrset_input_ill = {
 }
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "Exchange shop available until $1 maintenance."
+	tip = "Available in exchange shop till $1"
 }
 
 _G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
@@ -20512,6 +20596,196 @@ Daily Analysis Attempts: $1/$2
 META Coordinates Capacity: $3/$4]]
 }
 
+_G.pg.base.gametip.world_past_boss_item_info = {
+	tip = [[
+Dossier Coordinate Logger|Analyze the Dossier Coordinate Data you've collected during Operation Siren to begin a META Showdown.
+Unlock the Dossier Analysis feature in the META Lab and analyze coordinates to gain access to past META Showdowns.
+You cannot analyze more coordinates while you have too many active META Showdowns.
+Daily Analysis Attempts: $1/$2
+META Coordinates Capacity: $3/$4]]
+}
+
+_G.pg.base.gametip.world_boss_lefttime = {
+	tip = "$1 day(s)"
+}
+
+_G.pg.base.gametip.world_boss_item_count_noenough = {
+	tip = "You don't have enough META Coordinates to analyze."
+}
+
+_G.pg.base.gametip.world_boss_item_usage_tip = {
+	tip = "You cannot analyze Dossier Coordinate Data while a current META Showdown is active."
+}
+
+_G.pg.base.gametip.world_boss_no_select_archives = {
+	tip = "You must unlock the Dossier Analysis feature in the META Lab first."
+}
+
+_G.pg.base.gametip.world_boss_archives_item_count_noenough = {
+	tip = "You don't have enough Dossier Coordinates to analyze."
+}
+
+_G.pg.base.gametip.world_boss_archives_are_clear = {
+	tip = "You have already unlocked every currently available META ship."
+}
+
+_G.pg.base.gametip.world_boss_switch_archives = {
+	tip = "You are currently analyzing $1's dossiers. Would you like to switch the META ship you are analyzing?\n(This will not affect your in-progress META Showdowns.)"
+}
+
+_G.pg.base.gametip.world_boss_switch_archives_success = {
+	tip = "You have unlocked the Dossier Analysis feature and can now analyze Dossier Coordinate Data."
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_unopen = {
+	tip = "Auto-Deploy can be enabled after successfully completing one battle against that META ship."
+}
+
+_G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
+	tip = "Unable to begin battle because Auto-Deploy is in progress."
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle = {
+	tip = "Auto-Deploy Disabled"
+}
+
+_G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
+	tip = "Auto-Deploy Resumed"
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_reusle_title = {
+	tip = "Auto-Deploy Complete"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_title = {
+	tip = "Auto-Deploy In Progress"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
+	tip = "Time Remaining:"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip1 = {
+	tip = "(You will lose all damage you would've dealt to the META enemy if you disable Auto-Deploy, and any Oil spent will not be refunded.)"
+}
+
+_G.pg.base.gametip.world_archives_boss_help = {
+	tip = {
+		{
+			info = [[
+- Dossier Analysis Overview -
+The Dossier Analysis feature allows you to <color=#92fc63>rebattle past META ships</color> and gain Sync Points for them.
+If you previously fought but didn't recruit a META ship that has been added to the Dossier Analysis, the Sync Points you gained for her carries over.
+
+- Dossier Coordinate Data -
+Dossier Coordinate Data is obtainable through Operation Siren. It is required to initiate a META Showdown against a past META ship.
+· You can obtain up to <color=#92fc63>200</color> data every day. Data below the cap that went unused will carry over into the next day.
+· It costs <color=#92fc63>100</color> data to initiate a Showdown against a past META ship.
+
+- Setting and Changing Analysis Targets -
+Once you've unlocked a META ship's dossier on the Dossier Analysis screen, you may initiate a Showdown against her.
+· You may freely switch to another META ship if you want to analyze her dossier instead.
+
+- Dossier Analysis Showdowns -
+Your first attempt at a Showdown does not cost Oil. Your Oil cost decreases with each subsequent attempt, starting at <color=#92fc63>40</color> and eventually reaching <color=#92fc63>0</color>.
+Showdowns initiated via Dossier Analysis do not count toward the daily cap on ordinary META Showdowns.
+· You gain Sync Points for the META ship you're after once her HP reaches 0.
+· A Showdown remains active for 24 hours. If you do not finish it within this time, you will have to reinitiate the fight.
+· Dossier Analysis Showdowns have a fixed Corrosion Level of 15.
+
+- Support in Dossier Analysis Showdowns -
+Friends and members of the same Guild who have unlocked Dossier Analysis can assist each other during Showdowns.
+<color=#92fc63>Assisting a friend or guildmate does not yield any rewards, but neither does it cost Oil nor consume your daily Showdown attempts.</color>
+· Up to 30 players may participate in the same Showdown.
+
+- Showdown Combat Overview -
+Much like with ordinary META Showdowns, submarines and Meowfficers cannot participate in Dossier Analysis Showdowns.
+Shipgirls taking part in the Showdown do not gain EXP, but they also do not lose Morale.
+You cannot stop a battle once it has begun. If the game is exited at any point during the battle, one of the following penalties is applied:
+· If you are the Showdown's initiator, any spent Oil is not reimbursed, and all your damage dealt in that battle is negated.
+· If you are assisting another player, all your damage dealt in that battle is negated.
+
+- Auto-Deploy Overview -
+After you've initiated a Dossier Analysis Showdown and completed the first attempt, the Auto-Deploy feature becomes available for the rest of that Showdown.
+The Oil cost of running Auto-Deploy is based on how much damage you dealt to the META ship on the first attempt. This damage is used to calculate how many battles it will take to defeat the META ship and, subsequently, the total Oil cost of those battles.
+· Using Auto-Deploy costs the same amount of Oil as fighting the META ship manually, with an Oil cap of 200.
+· Auto-Deploy will automatically defeat the META ship in 15 minutes unless you disable it manually. Doing so does not reimburse the spent Oil and all your damage dealt is negated.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.world_archives_boss_list_help = {
+	tip = {
+		{
+			info = [[
+- Dossier Analysis Overview -
+META ship dossiers and Sync Point rewards can be obtained via Dossier Analysis.
+If you previously fought but didn't recruit a META ship that has been added to the Dossier Analysis, the Sync Points you gained for her carry over. Your Sync Point reward ladder progress carries over as well.
+If you have already unlocked all the Sync Point rewards for a given META ship, her dossier will be transferred to the Completed tab.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.archives_boss_was_opened = {
+	tip = "Dossier Analysis is in progress. Unable to begin a standard META Showdown."
+}
+
+_G.pg.base.gametip.current_boss_was_opened = {
+	tip = "A standard META Showdown is in progress. Unable to begin Dossier Analysis."
+}
+
+_G.pg.base.gametip.world_boss_title_auto_battle = {
+	tip = "Auto-Deploy"
+}
+
+_G.pg.base.gametip.world_boss_title_highest_damge = {
+	tip = "Maximum DMG"
+}
+
+_G.pg.base.gametip.world_boss_title_estimation = {
+	tip = "Auto-Deploy Prediction"
+}
+
+_G.pg.base.gametip.world_boss_title_battle_cnt = {
+	tip = "Attempts"
+}
+
+_G.pg.base.gametip.world_boss_title_consume_oil_cnt = {
+	tip = "Oil Cost"
+}
+
+_G.pg.base.gametip.world_boss_title_spend_time = {
+	tip = "Time Required"
+}
+
+_G.pg.base.gametip.world_boss_title_total_damage = {
+	tip = "Total DMG"
+}
+
+_G.pg.base.gametip.world_no_time_to_auto_battle = {
+	tip = "Insufficient time remaining in this META Showdown."
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label = {
+	tip = "Daily Limit"
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label1 = {
+	tip = "Analysis Cost"
+}
+
+_G.pg.base.gametip.world_boss_archives_boss_tip = {
+	tip = "Joining Dossier battles grants no rewards, but costs no attempts."
+}
+
+_G.pg.base.gametip.world_boss_progress_no_enough = {
+	tip = "You don't have enough coordinates."
+}
+
+_G.pg.base.gametip.world_boss_auto_battle_no_oil = {
+	tip = "You don't have enough Oil."
+}
+
 _G.pg.base.gametip.meta_syn_value_label = {
 	tip = "Synchronization Progress"
 }
@@ -20805,6 +21079,110 @@ _G.pg.base.gametip.commission_event_tip = {
 	}
 }
 
+_G.pg.base.gametip.decoration_medal_placeholder = {
+	tip = "You don't have any Medallions."
+}
+
+_G.pg.base.gametip.technology_filter_placeholder = {
+	tip = "No applicable ships found."
+}
+
+_G.pg.base.gametip.eva_comment_send_null = {
+	tip = "Write a comment."
+}
+
 _G.pg.base.gametip.rename_input = {
 	tip = "Enter a new name."
+}
+
+_G.pg.base.gametip.avatar_task_level = {
+	tip = "Defeat the Boss Fleet of $3 $4 times with a $1 $2 in your fleet. $2 must remain afloat."
+}
+
+_G.pg.base.gametip.avatar_upgrad_1 = {
+	tip = "Limit Break 1"
+}
+
+_G.pg.base.gametip.avatar_upgrad_2 = {
+	tip = "Limit Break 2"
+}
+
+_G.pg.base.gametip.avatar_upgrad_3 = {
+	tip = "max Limit Break"
+}
+
+_G.pg.base.gametip.avatar_task_ship_1 = {
+	tip = "Obtain $1."
+}
+
+_G.pg.base.gametip.avatar_task_ship_2 = {
+	tip = "Fully Limit Break $1."
+}
+
+_G.pg.base.gametip.technology_queue_complete = {
+	tip = "Complete"
+}
+
+_G.pg.base.gametip.technology_queue_processing = {
+	tip = "In Progress"
+}
+
+_G.pg.base.gametip.technology_queue_waiting = {
+	tip = "Queued"
+}
+
+_G.pg.base.gametip.technology_queue_getaward = {
+	tip = "Claim"
+}
+
+_G.pg.base.gametip.technology_daily_refresh = {
+	tip = "Can be reset at midnight daily."
+}
+
+_G.pg.base.gametip.technology_queue_full = {
+	tip = "Your research queue is full."
+}
+
+_G.pg.base.gametip.technology_queue_in_mission_incomplete = {
+	tip = "You cannot queue this research because you don't fulfill its requirements."
+}
+
+_G.pg.base.gametip.technology_consume = {
+	tip = "Research Cost"
+}
+
+_G.pg.base.gametip.technology_request = {
+	tip = "Research Requirements"
+}
+
+_G.pg.base.gametip.technology_queue_in_doublecheck = {
+	tip = "Do you want to add this research to your queue? All research in your queue will be completed automatically in order. You cannot unqueue research."
+}
+
+_G.pg.base.gametip.technology_queue_in_success = {
+	tip = "Research has been added to your queue."
+}
+
+_G.pg.base.gametip.star_require_enemy_text = {
+	tip = "Enemies left on the stage: $1"
+}
+
+_G.pg.base.gametip.star_require_enemy_title = {
+	tip = "Enemy Fleet(s) Left"
+}
+
+_G.pg.base.gametip.star_require_enemy_check = {
+	tip = "Confirm"
+}
+
+_G.pg.base.gametip.worldboss_rank_timer_label = {
+	tip = "Ranking Players\nTime left:"
+}
+
+_G.pg.base.gametip.technology_detail = {
+	tip = "Details"
+}
+
+_G.pg.base.gametip.technology_mission_unfinish = {
+	tip = "Requirements Not Met"
 }

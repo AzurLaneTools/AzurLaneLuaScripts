@@ -430,6 +430,8 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		elseif slot1.cmd == 2 then
 			slot3.data2 = 1
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_PT_OTHER and slot1.cmd == 1 then
+		slot3.data2 = 1
 	end
 
 	return slot3

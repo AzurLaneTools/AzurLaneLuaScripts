@@ -1,6 +1,8 @@
-slot0 = class("MainActivityBtnView")
+slot0 = class("MainActivityBtnView", import("view.base.BaseEventLogic"))
 
 function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot2)
+
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
 	slot3 = slot1:Find("actBtn")
@@ -20,6 +22,20 @@ function slot0.Ctor(slot0, slot1, slot2)
 		MainActRefluxBtn.New(slot0.linkBtnTop:Find("layout"), slot2),
 		MainActNewServerBtn.New(slot0.linkBtnTop:Find("layout"), slot2)
 	}
+
+	slot0:Register()
+end
+
+function slot0.Register(slot0)
+	slot0:bind(NewMainScene.ON_REMOVE_LAYER, function (slot0, slot1)
+		uv0:OnRemoveLayer(slot1)
+	end)
+	slot0:bind(NewMainScene.ON_ACT_BTN_UPDATE, function (slot0)
+		uv0:Refresh()
+	end)
+	slot0:bind(NewMainScene.ON_ZERO_HOUR, function (slot0)
+		uv0:Refresh()
+	end)
 end
 
 function slot0.GetBtn(slot0, slot1)
@@ -119,6 +135,8 @@ function slot0.Fold(slot0, slot1, slot2)
 end
 
 function slot0.Dispose(slot0)
+	slot0:disposeEvent()
+
 	for slot4, slot5 in ipairs(slot0.activityBtns) do
 		slot5:Dispose()
 	end

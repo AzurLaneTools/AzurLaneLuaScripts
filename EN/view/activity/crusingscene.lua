@@ -434,14 +434,14 @@ function slot0.updateAwardPanel(slot0)
 	slot0.comScroll:SetTotalCount(#slot0.awardList - 1)
 	slot0:updateNextAward(slot0.comScroll.value)
 
-	slot1 = slot0.activity:readyToAchieve()
+	slot1 = #slot0.activity:GetCrusingUnreceiveAward() > 0
 
 	setActive(slot0.btnAll, not slot0.isPay and slot1)
 	setActive(slot0.btnPay, not slot0.isPay)
 	setActive(slot0.rtAward:Find("text_image_3"), not slot0.isPay)
 	setActive(slot0.btnFinish, slot0.isPay and slot0.phase == #slot0.awardList and not slot1)
 	setActive(slot0.btnAfter, slot0.isPay and not isActive(slot0.btnFinish))
-	setButtonEnabled(slot0.btnAfter, slot0.activity:readyToAchieve())
+	setButtonEnabled(slot0.btnAfter, slot1)
 end
 
 function slot0.updateMapStatus(slot0)

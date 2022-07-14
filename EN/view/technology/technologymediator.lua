@@ -1,9 +1,10 @@
 slot0 = class("TechnologyMediator", import("..base.ContextMediator"))
 slot0.ON_START = "TechnologyMediator:ON_START"
 slot0.ON_FINISHED = "TechnologyMediator:ON_FINISHED"
-slot0.ON_TIME_OVER = "TechnologyMediator:ON_TIME_OVER"
 slot0.ON_REFRESH = "TechnologyMediator:ON_REFRESH"
 slot0.ON_STOP = "TechnologyMediator:ON_STOP"
+slot0.ON_JOIN_QUEUE = "TechnologyMediator:ON_JOIN_QUEUE"
+slot0.ON_FINISH_QUEUE = "TechnologyMediator:ON_FINISH_QUEUE"
 slot0.ON_CLICK_SETTINGS_BTN = "TechnologyMediator:ON_CLICK_SETTINGS_BTN"
 
 function slot0.register(slot0)
@@ -12,16 +13,6 @@ function slot0.register(slot0)
 			id = slot1.id,
 			pool_id = slot1.pool_id
 		})
-	end)
-	slot0:bind(uv0.ON_TIME_OVER, function (slot0, slot1)
-		slot3 = getProxy(TechnologyProxy):getTechnologyById(slot1)
-
-		assert(slot3, "technology can not be nil.." .. slot1)
-
-		if slot3:canFinish() then
-			slot3:finish()
-			slot2:updateTechnology(slot3)
-		end
 	end)
 	slot0:bind(uv0.ON_FINISHED, function (slot0, slot1)
 		uv0:sendNotification(GAME.FINISH_TECHNOLOGY, {
@@ -38,6 +29,15 @@ function slot0.register(slot0)
 			pool_id = slot1.pool_id
 		})
 	end)
+	slot0:bind(uv0.ON_JOIN_QUEUE, function (slot0, slot1)
+		uv0:sendNotification(GAME.JOIN_QUEUE_TECHNOLOGY, {
+			id = slot1.id,
+			pool_id = slot1.pool_id
+		})
+	end)
+	slot0:bind(uv0.ON_FINISH_QUEUE, function (slot0)
+		uv0:sendNotification(GAME.FINISH_QUEUE_TECHNOLOGY)
+	end)
 	slot0:bind(uv0.ON_CLICK_SETTINGS_BTN, function (slot0)
 		uv0:addSubLayers(Context.New({
 			viewComponent = TechnologySettingsLayer,
@@ -50,16 +50,18 @@ function slot0.register(slot0)
 
 	slot1 = getProxy(TechnologyProxy)
 
-	slot0.viewComponent:setTechnologys(slot1:getTechnologys())
+	slot0.viewComponent:setTechnologys(slot1:getTechnologys(), slot1.queue)
 	slot0.viewComponent:setRefreshFlag(slot1.refreshTechnologysFlag)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		TechnologyProxy.TECHNOLOGY_UPDATED,
 		GAME.FINISH_TECHNOLOGY_DONE,
 		GAME.REFRESH_TECHNOLOGYS_DONE,
+		GAME.JOIN_QUEUE_TECHNOLOGY_DONE,
+		GAME.FINISH_QUEUE_TECHNOLOGY_DONE,
+		TechnologyProxy.TECHNOLOGY_UPDATED,
 		TechnologyProxy.REFRESH_UPDATED,
 		PlayerProxy.UPDATED
 	}
@@ -70,53 +72,54 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == TechnologyProxy.TECHNOLOGY_UPDATED then
 		slot0.viewComponent:updateTechnology(slot2)
-		slot0.viewComponent:updateSelectedInfo(slot2)
-	else
-		if slot3 == GAME.FINISH_TECHNOLOGY_DONE then
-			_.each(slot2.items, function (slot0)
-				slot0.riraty = true
+	elseif slot3 == GAME.FINISH_TECHNOLOGY_DONE then
+		if #slot2.items > 0 then
+			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+				animation = true,
+				items = slot2.items
+			})
+		end
 
-				table.insert(uv0, slot0)
-			end)
-			_.each(slot2.catchupItems, function (slot0)
-				slot0.catchupTag = true
+		slot0:onRefresh()
+	elseif slot3 == GAME.FINISH_QUEUE_TECHNOLOGY_DONE then
+		slot4 = {}
 
-				table.insert(uv0, slot0)
-			end)
-			_.each(slot2.catchupActItems, function (slot0)
-				slot0.catchupActTag = true
-
-				table.insert(uv0, slot0)
-			end)
-
-			if #slot2.commons > 0 then
-				slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-					animation = true,
-					items = slot5
-				})
+		for slot8, slot9 in ipairs(slot2.dropInfos) do
+			if #slot9 > 0 then
+				table.insert(slot4, function (slot0)
+					uv0.viewComponent:emit(BaseUI.ON_AWARD, {
+						animation = true,
+						items = uv1,
+						removeFunc = slot0
+					})
+				end)
 			end
-
-			slot0:onRefresh()
-
-			return
 		end
 
-		if GAME.REFRESH_TECHNOLOGYS_DONE == slot3 then
-			slot0:onRefresh()
-		elseif slot3 == TechnologyProxy.REFRESH_UPDATED then
-			slot0.viewComponent:setRefreshFlag(slot2)
-			slot0.viewComponent:updateRefreshBtn(slot2)
-		elseif slot3 == PlayerProxy.UPDATED then
-			slot0.viewComponent:setPlayer(slot2)
-		end
+		seriesAsync(slot4, function ()
+		end)
+		slot0:onRefresh()
+	elseif slot3 == GAME.REFRESH_TECHNOLOGYS_DONE then
+		slot0:onRefresh()
+	elseif slot3 == GAME.JOIN_QUEUE_TECHNOLOGY_DONE then
+		slot0:onRefresh()
+	elseif slot3 == TechnologyProxy.REFRESH_UPDATED then
+		slot0.viewComponent:setRefreshFlag(slot2)
+		slot0.viewComponent:updateRefreshBtn(slot2)
+	elseif slot3 == PlayerProxy.UPDATED then
+		slot0.viewComponent:setPlayer(slot2)
 	end
 end
 
 function slot0.onRefresh(slot0)
 	slot0.viewComponent:clearTimer()
 	slot0.viewComponent:cancelSelected()
-	slot0.viewComponent:setTechnologys(getProxy(TechnologyProxy):getTechnologys())
+
+	slot1 = getProxy(TechnologyProxy)
+
+	slot0.viewComponent:setTechnologys(slot1:getTechnologys(), slot1.queue)
 	slot0.viewComponent:initTechnologys()
+	slot0.viewComponent:initQueue()
 	slot0.viewComponent:updateSettingsBtn()
 end
 

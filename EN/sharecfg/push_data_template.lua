@@ -46,8 +46,8 @@ pg.push_data_template = {
 		alignment = 0,
 		id = 7,
 		title = "Research complete",
-		content = "The research task \"$1\" has been completed, nya! Let's check our progress, nya~",
-		desc = "Enables push notifications for when a Research Project has been completed."
+		content = "All your queued research projects have been completed, nya! Come and claim the rewards, nya!",
+		desc = "Toggle this setting ON to get push notifications when all your queued research projects have been completed."
 	},
 	{
 		alignment = 0,

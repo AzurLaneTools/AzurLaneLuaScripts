@@ -105,6 +105,18 @@ end
 
 function slot0.SetShops(slot0, slot1)
 	slot0.shops = slot1
+
+	slot0:SortActivityShops()
+end
+
+function slot0.SortActivityShops(slot0)
+	for slot4, slot5 in pairs(slot0.shops) do
+		if slot4 == uv0.TYPE_ACTIVITY then
+			table.sort(slot5, function (slot0, slot1)
+				return slot1:getStartTime() < slot0:getStartTime()
+			end)
+		end
+	end
 end
 
 function slot0.SetShop(slot0, slot1, slot2)

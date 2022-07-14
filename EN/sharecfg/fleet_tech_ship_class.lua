@@ -834,6 +834,17 @@ pg.fleet_tech_ship_class = {
 			20232
 		}
 	},
+	[20212] = {
+		shiptype = 2,
+		name = "Plymouth",
+		nation = 2,
+		id = 20212,
+		t_level_1 = 47,
+		t_level = 9,
+		ships = {
+			29905
+		}
+	},
 	[20301] = {
 		shiptype = 3,
 		name = "London Class",
@@ -2020,6 +2031,17 @@ pg.fleet_tech_ship_class = {
 			40404
 		}
 	},
+	[40405] = {
+		shiptype = 4,
+		name = "Prinz Rupprecht",
+		nation = 4,
+		id = 40405,
+		t_level_1 = 124,
+		t_level = 9,
+		ships = {
+			49907
+		}
+	},
 	[40501] = {
 		shiptype = 5,
 		name = "Bismarck Class",
@@ -2242,6 +2264,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			50207,
 			50208
+		}
+	},
+	[50205] = {
+		shiptype = 2,
+		name = "Harbin",
+		nation = 5,
+		id = 50205,
+		t_level_1 = 129,
+		t_level = 7,
+		ships = {
+			59901
 		}
 	},
 	[50601] = {
@@ -2583,6 +2616,17 @@ pg.fleet_tech_ship_class = {
 			70701
 		}
 	},
+	[70702] = {
+		shiptype = 7,
+		name = "Chkalov",
+		nation = 7,
+		id = 70702,
+		t_level_1 = 138,
+		t_level = 8,
+		ships = {
+			79901
+		}
+	},
 	[71801] = {
 		shiptype = 18,
 		name = "Kronshtadt",
@@ -2715,6 +2759,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			80801
+		}
+	},
+	[81801] = {
+		shiptype = 18,
+		name = "Brest",
+		nation = 8,
+		id = 81801,
+		t_level_1 = 138,
+		t_level = 9,
+		ships = {
+			89903
 		}
 	},
 	[90101] = {
@@ -2886,6 +2941,7 @@ pg.fleet_tech_ship_class = {
 		20209,
 		20210,
 		20211,
+		20212,
 		20301,
 		20302,
 		20303,
@@ -2984,6 +3040,7 @@ pg.fleet_tech_ship_class = {
 		40402,
 		40403,
 		40404,
+		40405,
 		40501,
 		40502,
 		40503,
@@ -3003,6 +3060,7 @@ pg.fleet_tech_ship_class = {
 		50202,
 		50203,
 		50204,
+		50205,
 		50601,
 		60101,
 		60102,
@@ -3033,6 +3091,7 @@ pg.fleet_tech_ship_class = {
 		70502,
 		70503,
 		70701,
+		70702,
 		71801,
 		80101,
 		80102,
@@ -3045,6 +3104,7 @@ pg.fleet_tech_ship_class = {
 		80502,
 		80701,
 		80801,
+		81801,
 		90101,
 		90103,
 		90104,

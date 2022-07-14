@@ -212,7 +212,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 10,
 		icon = "build_4",
-		exchange_ship_id = 205131,
+		exchange_ship_id = 307081,
 		rate_tip = {
 			"<color=#ff5e39>Ultra Rare</color>：1.2%",
 			"",
@@ -224,13 +224,17 @@ pg.ship_data_create_material = {
 			"",
 			"Common：28.8%",
 			"",
-			"<color=#ff5e39>Vanguard</color>：1.2%(<color=#92fc63>up!</color>)",
-			"",
-			"<color=#ffde38>Indomitable</color>：2%(<color=#92fc63>up!</color>)",
-			"",
-			"<color=#ffde38>Jervis</color>：0.5%",
-			"",
-			"<color=#d797ff>Revenge</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ff5e39>{namecode:182}</color>：1.2%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>{namecode:27}</color>：2.0%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>{namecode:80}</color>：0.5%",
+			" ",
+			"<color=#d797ff>{namecode:188}</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>{namecode:103}</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>{namecode:104}</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

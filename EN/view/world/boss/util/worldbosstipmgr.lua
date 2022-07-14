@@ -84,7 +84,8 @@ function slot0.Show(slot0, slot1)
 				bossName = slot1.config.name,
 				level = slot1.level,
 				wordBossId = slot1.id,
-				lastTime = slot1.lastTime
+				lastTime = slot1.lastTime,
+				wordBossConfigId = slot1.configId
 			},
 			player = slot1:GetPlayer() or getProxy(PlayerProxy):getData(),
 			uniqueId = slot1.id .. "_" .. slot1.lastTime

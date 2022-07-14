@@ -749,75 +749,75 @@ function slot0.getHigestClearChapterAndMap(slot0)
 	return slot2, slot1
 end
 
+function slot0.SortRecommendLimitation(slot0)
+	table.sort(slot0, function (slot0, slot1)
+		return CompareFuncs(slot0, slot1, {
+			function (slot0)
+				return type(slot0) == "string" and 0 or 1
+			end,
+			function (slot0)
+				return type(slot0) == "number" and -slot0 or 0
+			end
+		})
+	end)
+end
+
 function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
 	slot4 = slot1:getEliteFleetList()[slot2]
 
-	function slot6(slot0)
-		table.sort(slot0, function (slot0, slot1)
-			return CompareFuncs(slot0, slot1, {
-				function (slot0)
-					return type(slot0) == "string" and 0 or 1
-				end,
-				function (slot0)
-					return type(slot0) == "number" and -slot0 or 0
-				end
-			})
-		end)
-	end
-
-	slot6(slot1:getConfig("limitation")[slot2] and Clone(slot5[1]) or {
+	uv0.SortRecommendLimitation(slot1:getConfig("limitation")[slot2] and Clone(slot5[1]) or {
 		0,
 		0,
 		0
 	})
-	slot6(slot5 and Clone(slot5[2]) or {
+	uv0.SortRecommendLimitation(slot5 and Clone(slot5[2]) or {
 		0,
 		0,
 		0
 	})
-	slot6({
+	uv0.SortRecommendLimitation({
 		0,
 		0,
 		0
 	})
 
-	slot10 = {}
+	slot9 = {}
 
-	for slot14, slot15 in ipairs(slot1:getEliteFleetList()) do
-		for slot19, slot20 in ipairs(slot15) do
-			slot10[#slot10 + 1] = slot20
+	for slot13, slot14 in ipairs(slot1:getEliteFleetList()) do
+		for slot18, slot19 in ipairs(slot14) do
+			slot9[#slot9 + 1] = slot19
 		end
 	end
 
-	slot11 = {
-		[TeamType.Main] = slot7,
-		[TeamType.Vanguard] = slot8,
-		[TeamType.Submarine] = slot9
+	slot10 = {
+		[TeamType.Main] = slot6,
+		[TeamType.Vanguard] = slot7,
+		[TeamType.Submarine] = slot8
 	}
-	slot12 = getProxy(BayProxy):getRawData()
+	slot11 = getProxy(BayProxy):getRawData()
 
-	for slot16, slot17 in ipairs(slot4) do
-		slot21 = 0
+	for slot15, slot16 in ipairs(slot4) do
+		slot20 = 0
 
-		for slot26, slot27 in ipairs(slot11[TeamType.GetTeamFromShipType(slot12[slot17]:getShipType())]) do
-			if ShipType.ContainInLimitBundle(slot27, slot19) then
-				slot21 = slot27
+		for slot25, slot26 in ipairs(slot10[TeamType.GetTeamFromShipType(slot11[slot16]:getShipType())]) do
+			if ShipType.ContainInLimitBundle(slot26, slot18) then
+				slot20 = slot26
 
 				break
 			end
 		end
 
-		for slot26, slot27 in ipairs(slot22) do
-			if slot27 == slot21 then
-				table.remove(slot22, slot26)
+		for slot25, slot26 in ipairs(slot21) do
+			if slot26 == slot20 then
+				table.remove(slot21, slot25)
 
 				break
 			end
 		end
 	end
 
-	function slot13(slot0, slot1)
+	function slot12(slot0, slot1)
 		slot3 = uv0
 
 		if slot3:getEliteRecommendShip(underscore.filter(TeamType.GetShipTypeListFromTeam(slot1), function (slot0)
@@ -829,17 +829,17 @@ function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 		end
 	end
 
-	slot14 = nil
-	slot14 = (slot2 <= 2 or {
-		[TeamType.Submarine] = slot9
+	slot13 = nil
+	slot13 = (slot2 <= 2 or {
+		[TeamType.Submarine] = slot8
 	}) and {
-		[TeamType.Main] = slot7,
-		[TeamType.Vanguard] = slot8
+		[TeamType.Main] = slot6,
+		[TeamType.Vanguard] = slot7
 	}
 
-	for slot18, slot19 in pairs(slot14) do
-		for slot23, slot24 in ipairs(slot19) do
-			slot13(slot24, slot18)
+	for slot17, slot18 in pairs(slot13) do
+		for slot22, slot23 in ipairs(slot18) do
+			slot12(slot23, slot17)
 		end
 	end
 end

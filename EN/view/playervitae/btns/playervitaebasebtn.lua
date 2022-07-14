@@ -73,6 +73,15 @@ function slot0.UpdatePosition(slot0)
 	end
 end
 
+function slot0.SwitchToVecLayout(slot0)
+	slot1 = slot0.startPos
+	slot0.tf.anchoredPosition = Vector2(slot1.x, (slot0.index - 1) * (slot0.tf.sizeDelta.y + 20) + slot1.y)
+end
+
+function slot0.IsOverlap(slot0, slot1)
+	return slot1 < slot0.tf.localPosition.x + slot0.tf.rect.width * 0.5
+end
+
 function slot0.UpdatePositionForHrz(slot0)
 	slot1 = slot0.startPos
 	slot3 = 0

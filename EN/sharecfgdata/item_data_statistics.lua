@@ -6088,6 +6088,132 @@ _G.pg.base.item_data_statistics[13030] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[13031] = {
+	display = "Prototype Quadruple 152mm Main Gun Mount Design",
+	name = "Prototype Quadruple 152mm Main Gun Mount Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13031,
+	is_world = 0,
+	icon = "Equips/22280",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13032] = {
+	display = "Prototype Quadruple 330mm Mle 1931 (CB Only) Main Gun Mount Design",
+	name = "Prototype Quadruple 330mm Mle 1931 (CB Only) Main Gun Mount Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13032,
+	is_world = 0,
+	icon = "Equips/50360",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13033] = {
+	display = "Prototype Su-2 Design",
+	name = "Prototype Su-2 Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13033,
+	is_world = 0,
+	icon = "Equips/85540",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13034] = {
+	display = "Prototype VIT-2 (VK-107) Design",
+	name = "Prototype VIT-2 (VK-107) Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13034,
+	is_world = 0,
+	icon = "Equips/85560",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13035] = {
+	display = "Prototype Quadruple 30mm AA Gun Mount Design",
+	name = "Prototype Quadruple 30mm AA Gun Mount Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13035,
+	is_world = 0,
+	icon = "Equips/46400",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13036] = {
+	display = "Prototype Twin 130mm Model 1936 Main Gun Mount Design",
+	name = "Prototype Twin 130mm Model 1936 Main Gun Mount Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13036,
+	is_world = 0,
+	icon = "Equips/56100",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 Can be exchanged for one of the following SR gear blueprints:
@@ -8806,7 +8932,7 @@ _G.pg.base.item_data_statistics[21131] = {
 }
 
 _G.pg.base.item_data_statistics[21901] = {
-	display = "Data collected from battle that can be used to increase the synchronization rate of Hiryuu META. Item will disappear when event has finished. ",
+	display = "Sync Points for Hiryuu META.",
 	name = "Synchronization Point – Hiryuu META",
 	max_num = 0,
 	type = 4,
@@ -8827,7 +8953,7 @@ _G.pg.base.item_data_statistics[21901] = {
 }
 
 _G.pg.base.item_data_statistics[21902] = {
-	display = "Data collected from battle that can be used to increase the synchronization rate of Ark Royal META.Item will disappear when event has finished. ",
+	display = "Sync Points for Ark Royal META.",
 	name = "Synchronization Point - Ark Royal META",
 	max_num = 0,
 	type = 4,
@@ -8848,7 +8974,7 @@ _G.pg.base.item_data_statistics[21902] = {
 }
 
 _G.pg.base.item_data_statistics[21903] = {
-	display = "Data collected from battle that can be used to increase the synchronization rate of Helena META.Item will disappear when event has finished. ",
+	display = "Sync Points for Helena META.",
 	name = "Synchronization Point – Helena META",
 	max_num = 0,
 	type = 4,
@@ -8869,7 +8995,7 @@ _G.pg.base.item_data_statistics[21903] = {
 }
 
 _G.pg.base.item_data_statistics[21904] = {
-	display = "Data collected from battle that can be used to increase the synchronization rate of Souryuu META.Item will disappear when event has finished. ",
+	display = "Sync Points for Souryuu META.",
 	name = "Synchronization Point – Souryuu META",
 	max_num = 0,
 	type = 4,
@@ -8890,7 +9016,7 @@ _G.pg.base.item_data_statistics[21904] = {
 }
 
 _G.pg.base.item_data_statistics[21905] = {
-	display = "Data collected from battle that can be used to increase the synchronization rate of Gneisenau META.Item will disappear when event has finished. ",
+	display = "Sync Points for Gneisenau META.",
 	name = "Synchronization Point – Gneisenau META",
 	max_num = 0,
 	type = 4,
@@ -8911,7 +9037,7 @@ _G.pg.base.item_data_statistics[21905] = {
 }
 
 _G.pg.base.item_data_statistics[21906] = {
-	display = "Data collected from battle that can be used to increase the synchronization rate of Scharnhorst META.Item will disappear when event has finished. ",
+	display = "Sync Points for Scharnhorst META.",
 	name = "Synchronization Point – Scharnhorst META",
 	max_num = 0,
 	type = 4,
@@ -8932,7 +9058,7 @@ _G.pg.base.item_data_statistics[21906] = {
 }
 
 _G.pg.base.item_data_statistics[21907] = {
-	display = "Data collected from battle that can be used to increase the synchronization rate of Repulse META.Item will disappear when event has finished. ",
+	display = "Sync Points for Repulse META.",
 	name = "Synchronization Point – Repulse META",
 	max_num = 0,
 	type = 4,
@@ -33389,6 +33515,305 @@ _G.pg.base.item_data_statistics[42036] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[42040] = {
+	display = "Can be converted to a Blueprint for any of the Series 1, 2, 3, 4, or 5 Priority ships.",
+	name = "General Blueprint - Series 5",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42040,
+	is_world = 0,
+	icon = "Props/42040",
+	display_icon = {
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42041] = {
+	display = "Blueprint for Royal Navy CL Plymouth.\n<color=#92fc63>Can be used in the Shipyard to increase Plymouth's stats once you've finished developing her.</color>",
+	name = "Blueprint - Plymouth",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42041,
+	is_world = 0,
+	icon = "Props/42041",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42042] = {
+	display = "Blueprint for Iron Blood BC Prinz Rupprecht.\n<color=#92fc63>Can be used in the Shipyard to increase Prinz Rupprecht's stats once you've finished developing her.</color>",
+	name = "Blueprint - Prinz Rupprecht",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42042,
+	is_world = 0,
+	icon = "Props/42042",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42043] = {
+	display = "Blueprint for Dragon Empery CL Harbin.\n<color=#92fc63>Can be used in the Shipyard to increase Harbin's stats once you've finished developing her.</color>",
+	name = "Blueprint - Harbin",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42043,
+	is_world = 0,
+	icon = "Props/42043",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42044] = {
+	display = "Blueprint for Northern Parliament CV Chkalov.\n<color=#92fc63>Can be used in the Shipyard to increase Chkalov's stats once you've finished developing her.</color>",
+	name = "Blueprint - Chkalov",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42044,
+	is_world = 0,
+	icon = "Props/42044",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42045] = {
+	display = "Blueprint for Iris Libre CB Brest.\n<color=#92fc63>Can be used in the Shipyard to increase Brest's stats once you've finished developing her.</color>",
+	name = "Blueprint - Brest",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42045,
+	is_world = 0,
+	icon = "Props/42045",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42046] = {
+	display = "Can be converted to a Blueprint for any of the Series 2, 3, 4, or 5 DR ships.",
+	name = "Special General Blueprint - Series 5",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42046,
+	is_world = 0,
+	icon = "Props/42046",
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[43001] = {
 	display = "A Valentine Gift from Universal Bulin",
 	name = "Valentine Gift ",
@@ -44031,6 +44456,130 @@ _G.pg.base.item_data_statistics[52051] = {
 		{
 			2,
 			15015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52061] = {
+	display = "You can acquire a number of the following Blueprints at random:",
+	name = "Random Blueprint",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52061,
+	is_world = 0,
+	icon = "Props/52001",
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52062] = {
+	display = "Chance to receive following designs",
+	name = "Random Gear Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52062,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			13036,
+			1
+		},
+		{
+			2,
+			13035,
+			1
+		},
+		{
+			2,
+			13034,
+			1
+		},
+		{
+			2,
+			13033,
+			1
+		},
+		{
+			2,
+			13032,
+			1
+		},
+		{
+			2,
+			13031,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13007,
 			1
 		}
 	},
@@ -160037,6 +160586,90 @@ _G.pg.base.item_data_statistics[59325] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59326] = {
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	name = "Training Points",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 99,
+	link_id = 4445,
+	id = 59326,
+	is_world = 0,
+	icon = "Props/xunliandianshu_s",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59327] = {
+	display = "A limited construction ticket for use during the \"Dreamwaker's Butterfly\" event. Removed after the event ends.",
+	name = "Shipbuilding Support Ticket",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4457,
+	id = 59327,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59328] = {
+	display = "Used to exchange for items in \"Dreamwaker's Butterfly.\" Will be removed after the event ends.",
+	name = "Dreamwaker Fragment",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59328,
+	is_world = 0,
+	icon = "Props/shinano_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59329] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the July 20th) ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59329,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -172547,7 +173180,7 @@ _G.pg.base.item_data_statistics[99974] = {
 }
 
 _G.pg.base.item_data_statistics[100000] = {
-	display = "Data that pinpoints the location of META forces. Analyze enough data to begin an META Showdown.",
+	display = "Contains information on a META ship's coordinates. Can be analyzed to begin a META showdown.",
 	name = "META Coordinates",
 	max_num = 0,
 	type = 0,
@@ -172582,6 +173215,27 @@ _G.pg.base.item_data_statistics[100001] = {
 	id = 100001,
 	is_world = 0,
 	icon = "Props/100001",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[100002] = {
+	display = "Data from a past encounter with a META ship. Can be reassembled to initiate a battle against a past META ship after unlocking Dossier Analysis in the META Lab.",
+	name = "Dossier Coordinate Data",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 14,
+	link_id = 0,
+	id = 100002,
+	is_world = 0,
+	icon = "Props/100002",
 	display_icon = {},
 	price = {},
 	index = {},

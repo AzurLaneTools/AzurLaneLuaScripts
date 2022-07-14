@@ -357,7 +357,11 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 
 			if slot10 then
 				setText(slot0:findTF("NumText", slot12), string.format("%d", slot1:getSynRate() * 100) .. "%")
-				setSlider(slot0:findTF("Slider", slot12), 0, 1, slot1:getSynRate())
+
+				slot18 = slot0:findTF("Slider", slot12)
+
+				setSlider(slot18, 0, 1, slot1:getSynRate())
+				setActive(slot18, false)
 			end
 
 			slot17 = Ship.New({
@@ -387,7 +391,11 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 
 			if slot10 then
 				setText(slot0:findTF("NumText", slot12), string.format("%d", slot17:getRepairRate() * 100) .. "%")
-				setSlider(slot0:findTF("Slider", slot12), 0, 1, slot17:getRepairRate())
+
+				slot20 = slot0:findTF("Slider", slot12)
+
+				setSlider(slot20, 0, 1, slot17:getRepairRate())
+				setActive(slot20, false)
 			end
 
 			slot19 = slot16:getStar()

@@ -80,7 +80,8 @@ function slot0.GetNotifyType(slot0)
 	if not slot0.listener or #slot0.listener == 0 then
 		slot0.listener = {
 			[pg.RedDotMgr.TYPES.TASK] = {
-				TaskProxy.TASK_UPDATED
+				TaskProxy.TASK_UPDATED,
+				AvatarFrameProxy.FRAME_TASK_UPDATED
 			},
 			[pg.RedDotMgr.TYPES.COURTYARD] = {
 				DormProxy.INIMACY_AND_MONEY_ADD

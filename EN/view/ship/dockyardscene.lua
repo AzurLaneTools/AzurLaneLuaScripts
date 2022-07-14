@@ -712,33 +712,37 @@ function slot0.filterCommon(slot0)
 	end
 
 	if slot3 then
-		table.sort(slot0.shipVOs, function (slot0, slot1)
-			if pg.GuideMgr.GetInstance():isRuning() then
-				return IndexConst.sortForGuider(slot0, slot1)
-			elseif uv0.isFormTactics then
-				return IndexConst.sortByPriorityFullSkill(slot0, slot1, uv1)
-			elseif uv0.contextData.mode == uv2.MODE_OVERVIEW or uv0.contextData.mode == uv2.MODE_SELECT then
-				if slot0.activityNpc == slot1.activityNpc then
-					return uv1(slot0, slot1)
-				else
-					return slot1.activityNpc < slot0.activityNpc
-				end
-			elseif uv0.contextData.mode == uv2.MODE_GUILD_BOSS then
-				if (slot0.guildRecommand and 1 or 0) == (slot1.guildRecommand and 1 or 0) then
-					return uv1(slot0, slot1)
-				else
-					return slot3 < slot2
-				end
-			else
-				return uv1(slot0, slot1)
-			end
-		end)
+		slot0:SortShips(slot3)
 	end
 
 	slot0:updateSelected()
 	setActive(slot0.sortImgAsc, slot0.selectAsc)
 	setActive(slot0.sortImgDesc, not slot0.selectAsc)
 	setText(slot0:findTF("Image", slot0.sortBtn), i18n(slot4))
+end
+
+function slot0.SortShips(slot0, slot1)
+	table.sort(slot0.shipVOs, function (slot0, slot1)
+		if pg.GuideMgr.GetInstance():isRuning() then
+			return IndexConst.sortForGuider(slot0, slot1)
+		elseif uv0.isFormTactics then
+			return IndexConst.sortByPriorityFullSkill(slot0, slot1, uv1)
+		elseif uv0.contextData.mode == uv2.MODE_OVERVIEW or uv0.contextData.mode == uv2.MODE_SELECT then
+			if slot0.activityNpc == slot1.activityNpc then
+				return uv1(slot0, slot1)
+			else
+				return slot1.activityNpc < slot0.activityNpc
+			end
+		elseif uv0.contextData.mode == uv2.MODE_GUILD_BOSS then
+			if (slot0.guildRecommand and 1 or 0) == (slot1.guildRecommand and 1 or 0) then
+				return uv1(slot0, slot1)
+			else
+				return slot3 < slot2
+			end
+		else
+			return uv1(slot0, slot1)
+		end
+	end)
 end
 
 function slot0.UpdateGuildViewEquipmentsBtn(slot0)

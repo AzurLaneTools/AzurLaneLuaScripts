@@ -45,6 +45,7 @@ function slot0.init(slot0)
 	slot0.prefabOthers = slot1:Find("popo_other").gameObject
 	slot0.prefabPublic = slot1:Find("popo_public").gameObject
 	slot0.prefabWorldBoss = slot1:Find("popo_worldboss").gameObject
+	slot0.prefabWorldBossArchives = slot1:Find("popo_worldboss_archives").gameObject
 	slot0.input = slot0.frame:Find("contain/ListContainer/inputbg/input"):GetComponent("InputField")
 	slot0.send = slot0.frame:Find("send")
 	slot0.channelSend = slot0.frame:Find("channel_send")
@@ -546,7 +547,7 @@ function slot0.appendPublic(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot1.id == 4 then
-		table.insert(slot0.worldBossCards, ChatBubbleWorldBoss.New(cloneTplTo(slot0.prefabWorldBoss, slot0.content), slot0.currentForm ~= uv0.FORM_BATTLE))
+		table.insert(slot0.worldBossCards, ChatBubbleWorldBoss.New(cloneTplTo(WorldBossConst.__IsCurrBoss(slot1.args.wordBossConfigId) and slot0.prefabWorldBoss or slot0.prefabWorldBossArchives, slot0.content), slot0.currentForm ~= uv0.FORM_BATTLE))
 	else
 		if #slot0.poolBubble.public > 0 then
 			setActive(slot4[1].tf, true)

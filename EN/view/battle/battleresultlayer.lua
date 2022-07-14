@@ -1247,6 +1247,8 @@ function slot0.onBackPressed(slot0)
 		-- Nothing
 	elseif slot0._stateFlag == uv0.STATE_REPORT then
 		triggerButton(slot0._bg)
+	elseif slot0._stateFlag == uv0.STATE_REPORTED then
+		triggerButton(slot0._skipBtn)
 	elseif slot0._stateFlag == uv0.STATE_DISPLAY then
 		triggerButton(slot0._skipBtn)
 	else

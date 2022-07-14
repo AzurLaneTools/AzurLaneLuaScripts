@@ -1078,16 +1078,30 @@ function slot0.updateShipRect(slot0, slot1)
 			return uv0.encoreSkinMap[slot0] == true
 		end
 
-		for slot7, slot8 in ipairs(slot0.skinGoodsVOs) do
-			slot11 = uv0[slot8:getSkinId()].shop_type_id == 0 and 9999 or slot10
-			slot13 = slot0.contextData.pageId
+		slot4 = {}
 
-			if (slot8:getConfig("genre") == ShopArgs.SkinShopTimeLimit and slot13 == uv1.PAGE_TIME_LIMIT or not slot12 and (slot13 == uv1.PAGE_ALL or slot11 == slot0.contextData.pageId) or not slot12 and slot13 == uv1.PAGE_ENCORE and slot3(slot8.id)) and slot2(slot9) then
-				table.insert(slot0.displays, slot8)
+		function slot5(slot0)
+			if #uv0 == 0 then
+				for slot4, slot5 in ipairs(uv1.skinGoodsVOs) do
+					if slot5:getConfig("genre") == ShopArgs.SkinShop then
+						uv0[slot5:getSkinId()] = true
+					end
+				end
+			end
+
+			return uv0[slot0] == true
+		end
+
+		for slot9, slot10 in ipairs(slot0.skinGoodsVOs) do
+			slot13 = uv0[slot10:getSkinId()].shop_type_id == 0 and 9999 or slot12
+			slot15 = slot0.contextData.pageId
+
+			if (slot10:getConfig("genre") == ShopArgs.SkinShopTimeLimit and slot15 == uv1.PAGE_TIME_LIMIT and slot5(slot11) or not slot14 and (slot15 == uv1.PAGE_ALL or slot13 == slot0.contextData.pageId) or not slot14 and slot15 == uv1.PAGE_ENCORE and slot3(slot10.id)) and slot2(slot11) then
+				table.insert(slot0.displays, slot10)
 			end
 		end
 
-		function slot4(slot0, slot1)
+		function slot6(slot0, slot1)
 			if ((slot0.type == Goods.TYPE_ACTIVITY or slot0.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot0:GetPrice()) == ((slot1.type == Goods.TYPE_ACTIVITY or slot1.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot1:GetPrice()) then
 				return slot0.id < slot1.id
 			else

@@ -122,25 +122,29 @@ function slot2.TweenBlink(slot0)
 	end)).uniqueId
 end
 
-function slot2.TweenShining(slot0)
+function slot2.TweenShining(slot0, slot1)
 	slot0:StopTween()
 
-	slot1 = findTF(slot0.go, "icon")
-	slot3 = pg.ShaderMgr.GetInstance()
-	slot1:GetComponent("Image").material = Material.New(slot3:GetShader("Spine/SkeletonGraphic (Additive)"))
-	slot5 = LeanTween.value(go(slot1), 0, 1, 1)
-	slot5 = slot5:setEase(LeanTweenType.easeInOutSine)
-	slot5 = slot5:setLoopPingPong()
-	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
+	slot2 = findTF(slot0.go, "icon")
+	slot4 = pg.ShaderMgr.GetInstance()
+	slot2:GetComponent("Image").material = Material.New(slot4:GetShader("Spine/SkeletonGraphic (Additive)"))
+	slot6 = LeanTween.value(go(slot2), 0, 1, 0.5)
+	slot6 = slot6:setEase(LeanTweenType.easeInOutSine)
+	slot6 = slot6:setLoopPingPong(slot1)
+	slot6 = slot6:setOnUpdate(System.Action_float(function (slot0)
 		uv0:SetColor("_Color", Color.Lerp(Color.black, Color.gray, slot0))
 	end))
-	slot0.tweenId = slot5:setOnComplete(System.Action(function ()
+	slot0.tweenId = slot6:setOnComplete(System.Action(function ()
 		if IsNil(uv0) then
 			return
 		end
 
 		uv0.material = nil
 		uv0.color = Color.white
+
+		onNextTick(function ()
+			uv0:Update()
+		end)
 	end)).uniqueId
 end
 

@@ -7,7 +7,7 @@ pg.world_joint_boss_template = {
 		boss_level_id = 1,
 		id = 1,
 		meta_id = 970701,
-		state = "stop"
+		state = "always"
 	},
 	{
 		item_id = 100000,
@@ -16,7 +16,7 @@ pg.world_joint_boss_template = {
 		boss_level_id = 16,
 		id = 2,
 		meta_id = 970702,
-		state = "stop"
+		state = "always"
 	},
 	{
 		item_id = 100000,

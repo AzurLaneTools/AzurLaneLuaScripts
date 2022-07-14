@@ -8,7 +8,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResOil) < WorldBossConst.GetAutoBattleOilConsume() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_auto_battle_no_oil"))
 
 		return
 	end

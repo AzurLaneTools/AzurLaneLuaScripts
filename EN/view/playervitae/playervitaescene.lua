@@ -34,6 +34,12 @@ function slot0.ReloadPanting(slot0, slot1)
 	end
 end
 
+function slot0.RefreshShips(slot0)
+	if slot0.shipsPage and slot0.shipsPage:GetLoaded() and slot0.shipsPage:isShowing() then
+		slot0.shipsPage:RefreshShips()
+	end
+end
+
 function slot0.GetPlayer(slot0)
 	return getProxy(PlayerProxy):getRawData()
 end
@@ -64,6 +70,7 @@ function slot0.init(slot0)
 	slot0.detailPage = PlayerVitaeDetailPage.New(slot1, slot0.event, slot0.contextData)
 	slot0.contextData.renamePage = PlayerVitaeRenamePage.New(slot0._tf, slot0.event)
 	slot0.topFrame = slot0:findTF("top/frame")
+	slot0.detailPosx = slot0._tf.rect.width * 0.5 - 937 * PlayerVitaeDetailPage.PreCalcAspect(slot1, 1080)
 
 	LoadSpriteAsync("CommonBG/bg_admiral", function (slot0)
 		if IsNil(uv0.bg) then
@@ -111,10 +118,12 @@ end
 
 function slot0.DoEnterAnimation(slot0)
 	function slot1(slot0)
-		slot1 = slot0.localPosition
-		slot0.localPosition = Vector3(slot1.x - 1200, slot1.y, 0)
+		slot1 = slot0.anchoredPosition3D
+		slot0.anchoredPosition3D = Vector3(slot1.x - 1200, slot1.y, 0)
 
-		LeanTween.moveLocalX(slot0.gameObject, slot1.x, 0.2):setDelay(0.1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.value(slot0.gameObject, slot1.x - 1200, slot1.x, 0.2):setOnUpdate(System.Action_float(function (slot0)
+			uv0.anchoredPosition3D = Vector3(slot0, uv1.y, 0)
+		end)):setDelay(0.1):setEase(LeanTweenType.easeInOutSine)
 	end
 
 	for slot6, slot7 in ipairs({
@@ -146,14 +155,25 @@ end
 
 function slot0.UpdatePainting(slot0)
 	slot1 = slot0:GetFlagShip()
-	slot2 = 0
+	slot2 = false
+	slot3 = {}
 
-	for slot6, slot7 in ipairs(slot0.btns) do
-		if slot7:IsActive(slot1) then
-			slot2 = slot2 + 1
+	for slot7, slot8 in ipairs(slot0.btns) do
+		if slot8:IsActive(slot1) then
+			table.insert(slot3, slot8)
 		end
 
-		slot7:Update(slot8, slot2, slot1)
+		slot8:Update(slot9, #slot3, slot1)
+
+		if slot9 and not slot2 and slot8:IsOverlap(slot0.detailPosx) then
+			slot2 = true
+		end
+	end
+
+	if slot2 then
+		for slot7, slot8 in ipairs(slot3) do
+			slot8:SwitchToVecLayout()
+		end
 	end
 
 	if not slot0.displaySkinID or slot0.displaySkinID ~= slot1.skinId then

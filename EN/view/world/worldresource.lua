@@ -101,13 +101,13 @@ function slot0.init(slot0)
 			content = slot0.display,
 			iconPath = slot0.icon,
 			frame = slot0.rarity,
-			yesText = WorldBossConst.CanUnlockCurrBoss() and i18n("common_go_to_analyze") or i18n("world_boss_not_reach_target"),
-			yesSize = not slot1 and Vector2(318, 118),
-			yesGray = not slot1,
+			yesText = i18n("common_go_to_analyze"),
+			yesGray = not WorldBossConst.CanUnlockCurrBoss(),
 			onYes = function ()
 				if uv0 and uv1:GetBossProxy():IsOpen() then
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLDBOSS)
 				else
+					pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_progress_no_enough"))
 					pg.MsgboxMgr.GetInstance():hide()
 				end
 			end

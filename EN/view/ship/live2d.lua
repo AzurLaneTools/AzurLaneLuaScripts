@@ -244,7 +244,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 			uv2(uv1)
 		end
 	end)
-	Input.gyro.enabled = slot0.live2dData.gyro == 1
+	Input.gyro.enabled = slot0.live2dData.gyro == 1 and PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
 end
 
 function slot0.SetVisible(slot0, slot1)

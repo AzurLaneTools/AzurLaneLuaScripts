@@ -132,23 +132,20 @@ function slot0.register(slot0)
 end
 
 function slot0.updateBossProxy(slot0)
-	if nowWorld():GetBossProxy() and not slot2:IsOpen() then
-		slot0.viewComponent:emit(BaseUI.ON_BACK)
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-		return
-	end
-
-	slot0.viewComponent:SetBossProxy(slot2, getProxy(MetaCharacterProxy))
+	slot0.viewComponent:SetBossProxy(nowWorld():GetBossProxy(), getProxy(MetaCharacterProxy))
 
 	if not WorldBossScene.inOtherBossBattle and not slot0.contextData.worldBossId and not slot2:ExistSelfBossAward() and slot2:GetCanGetAwardBoss() then
 		slot0.contextData.worldBossId = slot4.id
 	end
 
 	if WorldBossScene.inOtherBossBattle or slot0.contextData.worldBossId then
-		slot0.viewComponent:SwitchPage(WorldBossScene.PAGE_OTHER)
+		if slot2:GetCacheBoss(slot0.contextData.worldBossId) and not WorldBossConst._IsCurrBoss(slot4) then
+			slot0.viewComponent:SwitchPage(WorldBossScene.PAGE_ARCHIVES_CHALLENGE)
+		else
+			slot0.viewComponent:SwitchPage(WorldBossScene.PAGE_CHALLENGE)
+		end
 	else
-		slot0.viewComponent:SwitchPage(WorldBossScene.PAGE_SELF)
+		slot0.viewComponent:SwitchPage(WorldBossScene.PAGE_ENTRANCE)
 	end
 end
 

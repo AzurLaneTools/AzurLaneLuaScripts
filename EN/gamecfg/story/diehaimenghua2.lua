@@ -388,7 +388,7 @@ return {
 			blackBg = true,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "Understood!。",
+			say = "Understood!",
 			subActors = {
 				{
 					actor = 306070,

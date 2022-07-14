@@ -1119,7 +1119,9 @@ pg.map_event_list = {
 		event_list = {
 			408
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			408
+		},
 		help_pictures = {}
 	},
 	[1440001] = {

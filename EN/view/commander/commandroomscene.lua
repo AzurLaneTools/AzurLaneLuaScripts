@@ -911,6 +911,12 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
+	if slot0.treePage:GetLoaded() and slot0.treePage:isShowing() then
+		slot0.treePage:closeTreePanel()
+
+		return
+	end
+
 	if slot0.boxesPanel and slot0.boxesPanel:isShow() then
 		slot0.boxesPanel:onBackPressed()
 
