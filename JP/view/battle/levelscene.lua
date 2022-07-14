@@ -1084,6 +1084,12 @@ function slot0.updateActivityBtns(slot0)
 			slot10 = false
 		else
 			setImageSprite(slot0.activityBtn:Find("Image"), LoadSprite("LinkButton/" .. slot12.pic, ""), true)
+
+			slot15 = setActive
+			slot16 = slot0.activityBtn:Find("sub_Image")
+			slot17 = slot12.text_pic ~= nil and slot14 ~= ""
+
+			slot15(slot16, slot17)
 			setImageSprite(slot0.activityBtn:Find("sub_Image"), LoadSprite("LinkButton/" .. slot12.text_pic, ""), true)
 			setActive(slot0.activityBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end

@@ -120990,7 +120990,7 @@ _G.pg.base.equip_data_statistics[90351] = {
 
 _G.pg.base.equip_data_statistics[90360] = {
 	tech = 0,
-	name = "試作型四連装330mm砲設計図Mle1931(超巡用)",
+	name = "試作型四連装330mm砲Mle1931(超巡用)",
 	speciality = "投射",
 	type = 11,
 	descrip = "说明未填写",
