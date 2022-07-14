@@ -286,7 +286,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 62630
+					weapon_id = 62640
 				}
 			},
 			{

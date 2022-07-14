@@ -234,21 +234,21 @@ function slot0.IsShowCommssionTip(slot0)
 		end
 	end)
 
-	slot17 = 0
+	slot16 = 0
 
-	_.each(getProxy(TechnologyProxy):getTechnologys(), function (slot0)
-		if slot0.state == Technology.STATE_FINISHED then
+	_.each(getProxy(TechnologyProxy):getPlanningTechnologys(), function (slot0)
+		if slot0:isCompleted() then
 			uv0 = uv0 + 1
 		end
 	end)
 
-	slot19 = false
+	slot18 = false
 
-	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot18:isEnd() then
-		slot19 = #slot18:GetCrusingUnreceiveAward() > 0
+	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot17:isEnd() then
+		slot18 = #slot17:GetCrusingUnreceiveAward() > 0
 	end
 
-	return slot2 or slot8 or slot9 or slot12 ~= 0 and slot10 > slot12 - 10 or slot13 or slot15 > 0 or slot17 > 0 or slot19
+	return slot2 or slot8 or slot9 or slot12 ~= 0 and slot10 > slot12 - 10 or slot13 or slot15 > 0 or slot16 > 0 or slot18
 end
 
 return slot0

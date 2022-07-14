@@ -607,6 +607,13 @@ function temp()
 					}
 				}
 			}
+		},
+		["雷"] = {
+			["斯"] = {
+				["特"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -1955,6 +1962,13 @@ function temp()
 		["林"] = {
 			["斯"] = {
 				["顿"] = {
+					this = true
+				}
+			}
+		},
+		["利"] = {
+			["茅"] = {
+				["斯"] = {
 					this = true
 				}
 			}
@@ -4817,6 +4831,19 @@ function temp()
 	uv0["鲁"] = {
 		["莽"] = {
 			this = true
+		},
+		["普"] = {
+			["雷"] = {
+				["希"] = {
+					["特"] = {
+						["亲"] = {
+							["王"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -5768,6 +5795,30 @@ function temp()
 	uv0["霞"] = {
 		["飞"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["滨"] = {
+		["江"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["契"] = {
+		["卡"] = {
+			["洛"] = {
+				["夫"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

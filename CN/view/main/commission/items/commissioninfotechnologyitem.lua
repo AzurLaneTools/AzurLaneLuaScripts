@@ -35,27 +35,20 @@ function slot0.Init(slot0)
 end
 
 function slot0.OnFlush(slot0)
-	slot1 = getProxy(TechnologyProxy)
-	slot2 = underscore.rest(slot1.queue, 1)
-
-	if tobool(slot1:getActivateTechnology()) then
-		table.insert(slot2, slot1:getActivateTechnology())
-	end
-
 	slot0.list = {}
-	slot3 = {
+	slot2 = {
 		ongoing = 0,
 		finished = 0,
 		leisure = TechnologyConst.QUEUE_TOTAL_COUNT + 1
 	}
 
-	for slot7, slot8 in ipairs(slot2) do
-		if slot8:isCompleted() then
-			slot3.leisure = slot3.leisure - 1
-			slot3.finished = slot3.finished + 1
-		elseif slot8:isActivate() then
-			slot3.leisure = slot3.leisure - 1
-			slot3.ongoing = slot3.ongoing + 1
+	for slot6, slot7 in ipairs(getProxy(TechnologyProxy):getPlanningTechnologys()) do
+		if slot7:isCompleted() then
+			slot2.leisure = slot2.leisure - 1
+			slot2.finished = slot2.finished + 1
+		elseif slot7:isActivate() then
+			slot2.leisure = slot2.leisure - 1
+			slot2.ongoing = slot2.ongoing + 1
 		end
 	end
 
@@ -63,8 +56,8 @@ function slot0.OnFlush(slot0)
 		setActive(slot0, uv0[slot0.name] > 0)
 		setText(slot0:Find("Text"), uv0[slot0.name])
 	end)
-	setActive(slot0.goBtn, slot3.finished == 0)
-	setActive(slot0.finishedBtn, slot3.finished > 0)
+	setActive(slot0.goBtn, slot2.finished == 0)
+	setActive(slot0.finishedBtn, slot2.finished > 0)
 end
 
 function slot0.UpdateListItem(slot0, slot1, slot2, slot3)

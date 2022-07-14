@@ -68,7 +68,11 @@ function slot0.register(slot0)
 			return
 		end
 
-		slot3 = nowWorld():GetBossProxy():GetBossById(bossId)
+		if not nowWorld():GetBossProxy():GetBossById(uv1.contextData.bossId) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_not_found"))
+
+			return
+		end
 
 		if uv1.contextData.isOther and uv0:GetPt() <= 0 and WorldBossConst._IsCurrBoss(slot3) then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
