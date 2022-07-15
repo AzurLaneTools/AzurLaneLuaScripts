@@ -34,10 +34,11 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 
 	uv0.Battle.PlayBattleSFX(slot5.hit_sfx)
 
-	slot8, slot9 = slot6:HandleDamage(slot3, slot7)
-	slot10, slot11 = uv1.GetFXPool():GetFX(slot0:GetFXID())
+	slot8, slot9 = uv1.GetFXPool():GetFX(slot0:GetFXID())
 
-	pg.EffectMgr.GetInstance():PlayBattleEffect(slot10, slot11:Add(slot0:GetTf().localPosition), true)
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot8, slot9:Add(slot0:GetTf().localPosition), true)
+
+	slot11, slot12 = slot6:HandleDamage(slot3, slot7)
 
 	if slot3:GetPierceCount() <= 0 then
 		slot3:CleanAimMark()
