@@ -678,8 +678,8 @@ pg.activity_event_worldboss = {
 			{
 				{
 					2022,
-					6,
-					30
+					7,
+					7
 				},
 				{
 					0,
@@ -691,7 +691,7 @@ pg.activity_event_worldboss = {
 				{
 					2022,
 					7,
-					14
+					21
 				},
 				{
 					23,
