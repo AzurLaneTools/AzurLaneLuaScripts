@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唉，上次「Polaris」的演出妳也看了吧，我們現在的合作無論如何也達不到她們的水平啊……",
+			say = "唉，上次「Polaris」的演出妳也看了吧，我們現在的合作無論如何也達不到她們的水準啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

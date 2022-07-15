@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要被氣勢壓倒了，我們也會在我們的舞台上展現出最高水平。",
+			say = "不要被氣勢壓倒了，我們也會在我們的舞台上展現出最高水準。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

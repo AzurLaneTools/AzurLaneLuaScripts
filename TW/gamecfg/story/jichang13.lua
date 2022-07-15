@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108050,
-			say = "「μ兵裝」的輸出竟然還能提升到這個水平……",
+			say = "「μ兵裝」的輸出竟然還能提升到這個水準……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

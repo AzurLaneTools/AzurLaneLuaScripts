@@ -11,7 +11,7 @@ return {
 			actor = 905030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "確認「μ兵裝」輸出達到高水平。繼續進行兵裝測試。",
+			say = "確認「μ兵裝」輸出達到高水準。繼續進行兵裝測試。",
 			bgm = "song09",
 			typewriter = {
 				speed = 0.05,

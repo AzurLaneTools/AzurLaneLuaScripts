@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "確實。既然方向已經決定，接下來只需要通過練習和彩排來提高水平了。",
+			say = "確實。既然方向已經決定，接下來只需要通過練習和彩排來提高水準了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
