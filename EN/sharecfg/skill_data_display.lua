@@ -5724,6 +5724,10 @@ pg.skill_data_display = {
 		id = 19581,
 		name = "Impactful Torpedoes"
 	},
+	[19582] = {
+		id = 19582,
+		name = "Impactful Torpedoes"
+	},
 	[19590] = {
 		id = 19590,
 		name = "Blazing Battledance"
@@ -9704,6 +9708,7 @@ pg.skill_data_display = {
 		19563,
 		19580,
 		19581,
+		19582,
 		19590,
 		19591,
 		19600,

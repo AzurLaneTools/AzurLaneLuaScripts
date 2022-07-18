@@ -7773,34 +7773,34 @@ Fully retrofitting this ship will have the following effects:
 
 _G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
-Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
-<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
-<color=#92fc63>your current Secondary Weapon </color> will be unequipped
- Would you like to continue?]]
+Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.
+<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.
+<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.
+Would you like to continue?]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_310024 = {
 	tip = [[
-Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
-<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
-<color=#92fc63>your current Secondary Weapon </color> will be unequipped
- Would you like to continue?]]
+Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.
+<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.
+<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.
+Would you like to continue?]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_310034 = {
 	tip = [[
-Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
-<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
-<color=#92fc63>your current Secondary Weapon </color> will be unequipped
- Would you like to continue?]]
+Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.
+<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.
+<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.
+Would you like to continue?]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_310044 = {
 	tip = [[
-Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
-<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
-<color=#92fc63>your current Secondary Weapon </color> will be unequipped
- Would you like to continue?]]
+Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.
+<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.
+<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.
+Would you like to continue?]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_303154 = {
@@ -14856,7 +14856,7 @@ _G.pg.base.gametip.tec_tendency_4 = {
 }
 
 _G.pg.base.gametip.tec_tendency_cur_x = {
-	tip = "Catch-Up / $1"
+	tip = "Research Focus / $1"
 }
 
 _G.pg.base.gametip.tec_tendency_cur_0 = {

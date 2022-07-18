@@ -2,7 +2,7 @@ return {
 	uiEffect = "",
 	name = "额外鱼雷",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 19581,
 	picture = "0",
 	castCV = "skill",
@@ -25,6 +25,16 @@ return {
 				delay = 3,
 				weaponType = "TorpedoWeapon",
 				preShiftBullet = true
+			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			target_choise = "TargetSelf",
+			targetAniEffect = "",
+			arg_list = {
+				buff_id = 19582,
+				delay = 3
 			}
 		}
 	}
