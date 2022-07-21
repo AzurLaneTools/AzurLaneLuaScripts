@@ -342,6 +342,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>War and time may take their tolls, but our pledges will shine on like stars in the night sky. </color>\nObtained from the \"Pledge of the Radiant Court\" event.",
 		scene = {}
 	},
+	[321] = {
+		time_limit_type = 0,
+		name = "Splendor of Sardegna",
+		gain_by = "",
+		id = 321,
+		time_second = 0,
+		desc = "Obtained from a limited event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -417,6 +426,7 @@ pg.item_data_frame = {
 		318,
 		319,
 		320,
+		321,
 		406,
 		411,
 		412,

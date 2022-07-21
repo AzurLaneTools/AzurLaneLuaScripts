@@ -2479,6 +2479,22 @@ pg.memory_group = {
 			2197
 		}
 	},
+	[222] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 222,
+		title = "Where All Roads Lead",
+		memories = {
+			2211,
+			2212,
+			2213,
+			2214,
+			2215,
+			2216,
+			2217
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3660,6 +3676,22 @@ pg.memory_group = {
 			2177
 		}
 	},
+	[576] = {
+		icon = "title_chara_jiaweisi",
+		subtype = 0,
+		type = 3,
+		id = 576,
+		title = "Nursing Honesty",
+		memories = {
+			2201,
+			2202,
+			2203,
+			2204,
+			2205,
+			2206,
+			2207
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3778,6 +3810,7 @@ pg.memory_group = {
 		219,
 		220,
 		221,
+		222,
 		501,
 		502,
 		503,
@@ -3850,6 +3883,7 @@ pg.memory_group = {
 		572,
 		573,
 		574,
-		575
+		575,
+		576
 	}
 }

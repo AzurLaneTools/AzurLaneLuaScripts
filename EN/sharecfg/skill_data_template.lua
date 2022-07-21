@@ -9100,6 +9100,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6980] = {
+		desc_get = "",
+		name = "World Expo Invitation",
+		id = 6980,
+		type = 0,
+		max_level = 0,
+		desc = "If the ship with this gear equipped is NOT from the Sardegna Empire and is sortied with Vittorio Veneto, then: if the ship is in your Vanguard, increases the ship's FP, TRP, and EVA by 10.0%; if the ship is in your Main Fleet, increases the ship's FP, AVI, and ACC by 8.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -92829,6 +92843,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		6950,
 		6960,
 		6970,
+		6980,
 		7000,
 		9010,
 		9020,

@@ -129,6 +129,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:updateSkills()
 	slot0:updateLockState()
 	slot0:updatePreView(nil)
+	slot0:UpdateLevel()
 	slot0._tf:SetAsFirstSibling()
 	slot0:Show()
 end
@@ -136,7 +137,6 @@ end
 function slot0.updatePreView(slot0, slot1, slot2)
 	slot0:updateAbilitys(slot1)
 	slot0:updatePreviewAddition(slot1, slot2)
-	slot0:UpdateLevel(slot1)
 end
 
 function slot0.updatePreviewAddition(slot0, slot1, slot2)

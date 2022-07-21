@@ -9794,13 +9794,11 @@ pg.ship_skin_template_20 = {
 		painting = "pulimaosi",
 		aircraft_skin = "",
 		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
 		illustrator = 1,
+		shop_type_id = 0,
+		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
 		l2d_animations = "",
-		l2d_voice_calibrate = "",
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
@@ -9810,10 +9808,10 @@ pg.ship_skin_template_20 = {
 		l2d_se = "",
 		no_showing = "0",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "Light Cruiser—Plymouth",
 		voice_actor = 327,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -9892,6 +9890,27 @@ pg.ship_skin_template_20 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-113,
+				-775,
+				0
+			},
+			{
+				0.86
+			}
+		},
+		special_effects = {
+			"lihui_pulimaosi",
+			{
+				-114,
+				236,
+				0
+			},
+			{
+				1.9
 			}
 		}
 	},
@@ -10240,13 +10259,11 @@ pg.ship_skin_template_20 = {
 		painting = "buleisite",
 		aircraft_skin = "",
 		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
 		illustrator = 1,
+		shop_type_id = 0,
+		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
 		l2d_animations = "",
-		l2d_voice_calibrate = "",
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
@@ -10256,10 +10273,10 @@ pg.ship_skin_template_20 = {
 		l2d_se = "",
 		no_showing = "0",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "Large cruiser - Brest.",
 		voice_actor = 330,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -10338,6 +10355,27 @@ pg.ship_skin_template_20 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-35,
+				-1749,
+				0
+			},
+			{
+				1.2
+			}
+		},
+		special_effects = {
+			"lihui_buleisite",
+			{
+				-51,
+				162,
+				0
+			},
+			{
+				2.2
 			}
 		}
 	}

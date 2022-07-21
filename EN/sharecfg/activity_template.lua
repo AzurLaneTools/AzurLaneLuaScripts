@@ -3626,6 +3626,219 @@ pg.activity_template = {
 			ui_name = "ShinanoLoginPage"
 		}
 	},
+	[4460] = {
+		mark = 20220721,
+		id = 4460,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 23,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MainzTecCatchupPage",
+			ui_name = "MainzTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42023
+		}
+	},
+	[4461] = {
+		mark = 20220721,
+		config_client = "",
+		title_res_tag = "maoxiV3_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 25,
+		id = 4461,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3FramePage",
+			ui_name = "YidaliV3FramePage"
+		}
+	},
+	[4462] = {
+		mark = 20220721,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 19,
+		is_show = 0,
+		config_client = "",
+		id = 4462,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4463] = {
+		mark = 20220721,
+		id = 4463,
+		title_res_tag = "yidaliV3_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 24,
+		config_data = {
+			{
+				17801
+			},
+			{
+				17802
+			},
+			{
+				17803
+			},
+			{
+				17804
+			},
+			{
+				17805
+			},
+			{
+				17806
+			},
+			{
+				17807
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3SkinPage",
+			ui_name = "YidaliV3SkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"SADINGDEYAOYUE1"
+				},
+				{
+					"SADINGDEYAOYUE2"
+				},
+				{
+					"SADINGDEYAOYUE3"
+				},
+				{
+					"SADINGDEYAOYUE4"
+				},
+				{
+					"SADINGDEYAOYUE5"
+				},
+				{
+					"SADINGDEYAOYUE6"
+				},
+				{
+					"SADINGDEYAOYUE7"
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -22292,6 +22505,72 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30845] = {
+		mark = 20220521,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30845",
+		id = 30845,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Rate UP for Baltimore , Alabama, Allen M. Sumner, and more!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"",
+				"<color=#d797ff>Elite</color>：12%",
+				"",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"",
+				"Common：30%",
+				"",
+				"<color=#ffde38>Baltimore</color>：2%(<color=#92fc63>up!</color>)",
+				"",
+				"<color=#ffde38>Alabama</color>：2%(<color=#92fc63>up!</color>)",
+				"",
+				"<color=#ffde38>Allen M. Sumner</color>：2%(<color=#92fc63>up!</color>)",
+				"",
+				"<color=#ffde38>Cavalla</color>：0.5%",
+				"",
+				"<color=#d797ff>Stephen Potter</color>：2.5%(<color=#92fc63>up!</color>)",
+				"",
+				"<color=#d797ff>Birmingham </color>：2.5%(<color=#92fc63>up!</color>)",
+				"",
+				"<color=#3dc6ff>Aylwin</color>：5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -22412,6 +22691,10 @@ pg.activity_template = {
 		4457,
 		4458,
 		4459,
+		4460,
+		4461,
+		4462,
+		4463,
 		7001,
 		7002,
 		7003,
@@ -23053,6 +23336,7 @@ pg.activity_template = {
 		30841,
 		30842,
 		30843,
-		30844
+		30844,
+		30845
 	}
 }
