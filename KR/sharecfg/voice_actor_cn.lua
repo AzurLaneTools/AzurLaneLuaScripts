@@ -1298,6 +1298,6 @@ pg.voice_actor_CN = {
 	},
 	[330] = {
 		code = 330,
-		actor_name = "Senbongi Sayaka"
+		actor_name = "Senbongi Sayaka "
 	}
 }
