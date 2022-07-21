@@ -368,6 +368,18 @@ end
 function slot0.setVisible(slot0, slot1)
 	pg.playerResUI:SetActive(slot1, slot0:ResUISettings())
 	setActiveViaLayer(slot0._tf, slot1)
+
+	if slot1 then
+		slot0:OnVisible()
+	else
+		slot0:OnDisVisible()
+	end
+end
+
+function slot0.OnVisible(slot0)
+end
+
+function slot0.OnDisVisible(slot0)
 end
 
 function slot0.onBackPressed(slot0)

@@ -28,58 +28,44 @@ function slot0.Init(slot0)
 
 		setActive(slot0.lockTF, not slot1)
 		setGray(slot0.toggle, not slot1, true)
-		setActive(slot0.foldFlag, slot1)
+		setActive(slot0.foldFlag, false)
 		setActive(slot0.goBtn, slot1)
 		uv0.super.Init(slot0)
 	end
 end
 
 function slot0.OnFlush(slot0)
-	slot1 = getProxy(TechnologyProxy)
-	slot0.list = slot1:getTechnologys()
+	slot0.list = {}
+	slot2 = {
+		ongoing = 0,
+		finished = 0,
+		leisure = TechnologyConst.QUEUE_TOTAL_COUNT + 1
+	}
 
-	if #_.select(slot0.list, function (slot0)
-		return slot0.state == Technology.STATE_STARTING and slot0:canFinish()
-	end) > 0 then
-		slot3 = {}
-
-		for slot7, slot8 in pairs(slot2) do
-			table.insert(slot3, function (slot0)
-				uv0:emit(CommissionInfoMediator.ON_TECH_TIME_OVER, uv1.id, slot0)
-			end)
+	for slot6, slot7 in ipairs(getProxy(TechnologyProxy):getPlanningTechnologys()) do
+		if slot7:isCompleted() then
+			slot2.leisure = slot2.leisure - 1
+			slot2.finished = slot2.finished + 1
+		elseif slot7:isActivate() then
+			slot2.leisure = slot2.leisure - 1
+			slot2.ongoing = slot2.ongoing + 1
 		end
-
-		seriesAsync(slot3, function ()
-			uv0:OnFlush()
-		end)
-	else
-		slot3 = 1
-		slot5 = 0
-
-		_.each(slot1, function (slot0)
-			if slot0.state == Technology.STATE_IDLE then
-				-- Nothing
-			elseif slot0.state == Technology.STATE_STARTING then
-				uv0 = uv0 + 1
-			elseif slot0.state == Technology.STATE_FINISHED then
-				uv1 = uv1 + 1
-			end
-		end)
-		setActive(slot0.goBtn, 0 == 0)
-		setActive(slot0.finishedBtn, slot4 > 0)
-
-		slot0.finishedCounter.text = slot4
-		slot0.ongoingCounter.text = slot5
-		slot0.leisureCounter.text = (slot4 > 0 or slot5 > 0) and 0 or 1
-
-		setActive(slot0.finishedCounterContainer, slot4 > 0)
-		setActive(slot0.ongoingCounterContainer, slot5 > 0)
-		setActive(slot0.leisureCounterContainer, ((slot4 > 0 or slot5 > 0) and 0 or 1) > 0)
 	end
+
+	eachChild(slot0._tf:Find("frame/counter"), function (slot0)
+		setActive(slot0, uv0[slot0.name] > 0)
+		setText(slot0:Find("Text"), uv0[slot0.name])
+	end)
+	setActive(slot0.goBtn, slot2.finished == 0)
+	setActive(slot0.finishedBtn, slot2.finished > 0)
 end
 
 function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
-	if slot2.state == Technology.STATE_IDLE then
+	slot4 = slot2
+	slot5 = pg.TimeMgr.GetInstance():GetServerTime()
+	slot6 = slot4:getConfig("time")
+
+	if slot4.time == 0 then
 		setText(slot3:Find("unlock/desc/name_bg/Text"), i18n("commission_idle"))
 		onButton(slot0, slot3:Find("unlock/leisure/go_btn"), function ()
 			uv0:OnSkip()
@@ -87,33 +73,36 @@ function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
 		onButton(slot0, slot3, function ()
 			uv0:OnSkip()
 		end, SFX_PANEL)
-	elseif slot5 == Technology.STATE_FINISHED then
+	elseif slot5 < slot7 - slot6 then
 		slot0:UpdateTechnology(slot3, slot4)
-		onButton(slot0, slot3:Find("unlock/finished/finish_btn"), function ()
-			uv0:emit(CommissionInfoMediator.ON_TECH_FINISHED, {
-				id = uv1.id,
-				pool_id = uv1.poolId
-			})
-		end, SFX_PANEL)
-		onButton(slot0, slot3, function ()
-			triggerButton(uv0)
-		end, SFX_PANEL)
-	elseif slot5 == Technology.STATE_STARTING then
+		setText(slot3:Find("unlock/ongoging/time"), pg.TimeMgr.GetInstance():DescCDTime(slot6))
+	elseif slot5 < slot7 then
+		slot0:UpdateTechnology(slot3, slot4)
+		slot0:AddTimer(slot4, slot3)
+	else
 		slot0:UpdateTechnology(slot3, slot4)
 
-		if pg.TimeMgr.GetInstance():GetServerTime() < slot4:getFinishTime() then
-			slot0:AddTimer(slot4, slot3)
+		if slot4:finishCondition() then
+			onButton(slot0, slot3:Find("unlock/finished/finish_btn"), function ()
+				uv0:emit(CommissionInfoMediator.ON_TECH_FINISHED, {
+					id = uv1.id,
+					pool_id = uv1.poolId
+				})
+			end, SFX_PANEL)
+			onButton(slot0, slot3, function ()
+				triggerButton(uv0)
+			end, SFX_PANEL)
 		else
-			slot3:Find("unlock/ongoging/time"):GetComponent(typeof(Text)).text = "00:00:00"
+			setText(slot3:Find("unlock/ongoging/time"), "00:00:00")
 		end
 	end
 
 	setActive(slot3:Find("unlock"), true)
 	setActive(slot3:Find("lock"), false)
-	setActive(slot3:Find("unlock/leisure"), slot5 == Technology.STATE_IDLE)
-	setActive(slot3:Find("unlock/ongoging"), slot5 == Technology.STATE_STARTING)
-	setActive(slot3:Find("unlock/finished"), slot5 == Technology.STATE_FINISHED)
-	setActive(slot3:Find("unlock/desc/task_bg"), slot5 ~= Technology.STATE_IDLE and slot4:hasCondition())
+	setActive(slot3:Find("unlock/leisure"), not slot4:isActivate())
+	setActive(slot3:Find("unlock/ongoging"), slot4:isActivate() and not slot4:isCompleted())
+	setActive(slot3:Find("unlock/finished"), slot4:isCompleted())
+	setActive(slot3:Find("unlock/desc/task_bg"), slot4:isActivate() and slot4:getConfig("condition") > 0)
 end
 
 function slot0.AddTimer(slot0, slot1, slot2)
@@ -143,19 +132,15 @@ end
 function slot0.UpdateTechnology(slot0, slot1, slot2)
 	setText(slot1:Find("unlock/desc/name_bg/Text"), slot2:getConfig("name"))
 
-	if slot2:hasCondition() then
-		slot4 = getProxy(TaskProxy):getTaskById(slot2:getTaskId()) or getProxy(TaskProxy):getFinishTaskById(slot3)
+	if slot2:getConfig("condition") > 0 then
+		slot4 = getProxy(TaskProxy):getTaskVO(slot3)
 
 		setText(slot1:Find("unlock/desc/task_bg/Text"), shortenString(slot4:getConfig("desc") .. "(" .. slot4:getProgress() .. "/" .. slot4:getConfig("target_num") .. ")", 10))
 	end
 end
 
 function slot0.GetList(slot0)
-	table.sort(slot0.list, function (slot0, slot1)
-		return slot1.state < slot0.state
-	end)
-
-	return slot0.list, pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "TechnologyMediator") and 1 or 0
+	return slot0.list, pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "TechnologyMediator") and TechnologyConst.QUEUE_TOTAL_COUNT + 1 or 0
 end
 
 function slot0.OnSkip(slot0)
@@ -163,14 +148,16 @@ function slot0.OnSkip(slot0)
 end
 
 function slot0.OnFinishAll(slot0)
-	_.each(_.select(slot0.list, function (slot0)
-		return slot0.state == Technology.STATE_FINISHED
-	end), function (slot0)
-		uv0:emit(CommissionInfoMediator.ON_TECH_FINISHED, {
-			id = slot0.id,
-			pool_id = slot0.poolId
+	if getProxy(TechnologyProxy).queue[1] and slot1.queue[1]:isCompleted() then
+		slot0:emit(CommissionInfoMediator.ON_TECH_QUEUE_FINISH)
+	else
+		slot2 = slot1:getActivateTechnology()
+
+		slot0:emit(CommissionInfoMediator.ON_TECH_FINISHED, {
+			id = slot2.id,
+			pool_id = slot2.poolId
 		})
-	end)
+	end
 end
 
 return slot0

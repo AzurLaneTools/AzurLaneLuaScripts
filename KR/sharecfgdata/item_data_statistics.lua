@@ -6298,6 +6298,132 @@ _G.pg.base.item_data_statistics[13030] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[13031] = {
+	display = "시제형 4연장 152mm 주포 설계도",
+	name = "시제형 4연장 152mm 주포 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13031,
+	is_world = 0,
+	icon = "Equips/22280",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13032] = {
+	display = "시제형 4연장 330mm 주포 Mle1931(대형순양함용) 설계도",
+	name = "시제형 4연장 330mm 주포 Mle1931(대형순양함용) 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13032,
+	is_world = 0,
+	icon = "Equips/50360",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13033] = {
+	display = "시제 함재형 Su-2 설계도",
+	name = "시제 함재형 Su-2 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13033,
+	is_world = 0,
+	icon = "Equips/85540",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13034] = {
+	display = "시제형 VIT-2(VK107) 설계도",
+	name = "시제형 VIT-2(VK107) 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13034,
+	is_world = 0,
+	icon = "Equips/85560",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13035] = {
+	display = "시제형 4연장 30mm 기관포 설계도",
+	name = "시제형 4연장 30mm 기관포 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13035,
+	is_world = 0,
+	icon = "Equips/46400",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13036] = {
+	display = "시제형 연장 130mm 주포 Model 1936 설계도",
+	name = "试作型双联装130mm主炮Model 1936设计图",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13036,
+	is_world = 0,
+	icon = "Equips/56100",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 사용 후 SSR 과학 연구 장비(I기)의 설계도 중 임의로 1장 선택
@@ -9030,7 +9156,7 @@ _G.pg.base.item_data_statistics[21131] = {
 }
 
 _G.pg.base.item_data_statistics[21901] = {
-	display = "「비콘·META」 전투 중 수집한 데이터. {namecode:191} 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
+	display = "「비콘·META」 전투 중 수집한 데이터. {namecode:191}의 동기화 수치 상승 가능. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: {namecode:191}",
 	max_num = 0,
 	type = 4,
@@ -9051,7 +9177,7 @@ _G.pg.base.item_data_statistics[21901] = {
 }
 
 _G.pg.base.item_data_statistics[21902] = {
-	display = "「비콘·META」 전투 중 수집한 데이터. 아크 로열·META의 동기화율을 높일 수 있다. 이벤트 종료 후 사라짐.",
+	display = "「비콘·META」 전투 중 수집한 데이터. 아크 로열·META의 동기화 수치 상승 가능. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: 아크 로열·META",
 	max_num = 0,
 	type = 4,
@@ -9072,7 +9198,7 @@ _G.pg.base.item_data_statistics[21902] = {
 }
 
 _G.pg.base.item_data_statistics[21903] = {
-	display = "「비콘·META」 전투 중 수집한 데이터. 헬레나·META의 동기화율을 높일 수 있다. 이벤트 종료 후 사라짐.",
+	display = "「비콘·META」 전투 중 수집한 데이터. 헬레나·META의 동기화 수치 상승 가능. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: 헬레나·META",
 	max_num = 0,
 	type = 4,
@@ -9093,7 +9219,7 @@ _G.pg.base.item_data_statistics[21903] = {
 }
 
 _G.pg.base.item_data_statistics[21904] = {
-	display = "「비콘·META」 전투 중 수집한 데이터. {namecode:205} 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
+	display = "「비콘·META」 전투 중 수집한 데이터. {namecode:205}의 동기화 수치 상승 가능. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: {namecode:205}",
 	max_num = 0,
 	type = 4,
@@ -9114,7 +9240,7 @@ _G.pg.base.item_data_statistics[21904] = {
 }
 
 _G.pg.base.item_data_statistics[21905] = {
-	display = "「비콘·META」 전투 중 수집한 데이터. 그나이제나우·META 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
+	display = "「비콘·META」 전투 중 수집한 데이터. 그나이제나우·META의 동기화 수치 상승 가능. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: 그나이제나우·META",
 	max_num = 0,
 	type = 4,
@@ -9135,7 +9261,7 @@ _G.pg.base.item_data_statistics[21905] = {
 }
 
 _G.pg.base.item_data_statistics[21906] = {
-	display = "「비콘·META」 전투 중 수집한 데이터. 샤른호르스트·META 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
+	display = "「비콘·META」 전투 중 수집한 데이터. 샤른호르스트·META의 동기화 수치 상승 가능. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: 샤른호르스트·META",
 	max_num = 0,
 	type = 4,
@@ -9156,7 +9282,7 @@ _G.pg.base.item_data_statistics[21906] = {
 }
 
 _G.pg.base.item_data_statistics[21907] = {
-	display = "「비콘·META」 전투 중 수집한 데이터. 리펄스·META 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
+	display = "「비콘·META」 전투 중 수집한 데이터. 리펄스·META의 동기화 수치 상승 가능. 이벤트 종료 후 사라짐.",
 	name = "동기화 수치: 리펄스·META",
 	max_num = 0,
 	type = 4,
@@ -32551,6 +32677,305 @@ _G.pg.base.item_data_statistics[42036] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[42040] = {
+	display = "사용 시 1, 2, 3, 4, 5기 PR함의 강화 유닛을 선택하여 획득할 수 있다.",
+	name = "지향형 강화 유닛-제5기",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42040,
+	is_world = 0,
+	icon = "Props/42040",
+	display_icon = {
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42041] = {
+	display = "로열 네이비 순양함 「플리머스」의 강화 유닛.\n<color=#92fc63>「플리머스」 개발 완료 후, 「개발 도크」에서 「플리머스」의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 「플리머스」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42041,
+	is_world = 0,
+	icon = "Props/42041",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42042] = {
+	display = "</color>메탈 블러드 순양전함 「프린츠 루프레히트」의 강화 유닛.\n<color=#92fc63>「프린츠 루프레히트」 개발 완료 후, 「개발 도크」에서 「프린츠 루프레히트」의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 「프린츠 루프레히트」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42042,
+	is_world = 0,
+	icon = "Props/42042",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42043] = {
+	display = "이스트 글림 순양함 「{namecode:224}」의 강화 유닛.\n<color=#92fc63>「{namecode:224}」 개발 완료 후, 「개발 도크」에서 「{namecode:224}」의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 「{namecode:224}」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42043,
+	is_world = 0,
+	icon = "Props/42043",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42044] = {
+	display = "노스 유니온 항공모함 「치칼로프」의 강화 유닛.\n<color=#92fc63>「치칼로프」 개발 완료 후, 「개발 도크」에서 「치칼로프」의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 「치칼로프」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42044,
+	is_world = 0,
+	icon = "Props/42044",
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42045] = {
+	display = "아이리스 리브레 대형순양함 「브레스트」의 강화 유닛.\n<color=#92fc63>「브레스트」 개발 완료 후, 「개발 도크」에서 「브레스트」의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 「브레스트」",
+	max_num = 0,
+	type = 12,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42045,
+	is_world = 0,
+	icon = "Props/42045",
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42046] = {
+	display = "사용 시 2, 3, 4, 5기 DR함의 강화 유닛을 선택하여 획득할 수 있다.",
+	name = "고급 지향형 강화 유닛-제5기",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 42046,
+	is_world = 0,
+	icon = "Props/42046",
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[43001] = {
 	display = "범용형 부린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
@@ -43193,6 +43618,130 @@ _G.pg.base.item_data_statistics[52051] = {
 		{
 			2,
 			15015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52061] = {
+	display = "랜덤으로 하기 강화 유닛을 획득할 수 있습니다.",
+	name = "강화 유닛 (랜덤)",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52061,
+	is_world = 0,
+	icon = "Props/52001",
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52062] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "장비 설계도 (랜덤)",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52062,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			13036,
+			1
+		},
+		{
+			2,
+			13035,
+			1
+		},
+		{
+			2,
+			13034,
+			1
+		},
+		{
+			2,
+			13033,
+			1
+		},
+		{
+			2,
+			13032,
+			1
+		},
+		{
+			2,
+			13031,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13007,
 			1
 		}
 	},
@@ -160377,6 +160926,90 @@ _G.pg.base.item_data_statistics[59325] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59326] = {
+	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐. ",
+	name = "훈련Pt ",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 99,
+	link_id = 4445,
+	id = 59326,
+	is_world = 0,
+	icon = "Props/xunliandianshu_s",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59327] = {
+	display = "于『蝶海梦花』活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	name = "1회 건조권",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4457,
+	id = 59327,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59328] = {
+	display = "用于『蝶海梦花』复刻活动兑换，活动结束后将会消失",
+	name = "접영",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59328,
+	is_world = 0,
+	icon = "Props/shinano_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59329] = {
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59329,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -172079,7 +172712,7 @@ _G.pg.base.item_data_statistics[99957] = {
 }
 
 _G.pg.base.item_data_statistics[100000] = {
-	display = "비콘의 데이터 기록. 지정 데이터량 도달 후 비콘·META 화면에서해석할 수 있다.",
+	display = "비콘의 데이터를 기록했다. 데이터가 일정량에 도달하면 내 비콘 화면에서 분석할 수 있다.",
 	name = "비콘 데이터",
 	max_num = 0,
 	type = 0,
@@ -172089,7 +172722,7 @@ _G.pg.base.item_data_statistics[100000] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	virtual_type = 14,
-	link_id = 1000000,
+	link_id = 0,
 	id = 100000,
 	is_world = 0,
 	icon = "Props/100000",
@@ -172099,25 +172732,21 @@ _G.pg.base.item_data_statistics[100000] = {
 	shiptrans_id = {}
 }
 
-_G.pg.base.item_data_statistics[100001] = {
-	display = [[
-대형 작전에서 수집한 「비콘 데이터」를 기록하는 장치. 일정한 데이터량 달성 후 데이터에 따라 분석하여 특정한 애쉬 비콘을 발견 가능
-P.S. 기록기의 기록 용량은 한계가 있으니, 반드시 제때 분석하세요.
-금일 분석 횟수: $1/$2
-데이터 기록량: $3]],
-	name = "비콘 기록기",
+_G.pg.base.item_data_statistics[100002] = {
+	display = "파일 비콘의 데이터를 기록했다. 데이터가 일정량에 도달하면 파일 비콘 화면에서 분석할 수 있다.",
+	name = "파일 비콘 데이터",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
-	rarity = 4,
+	rarity = 3,
 	shop_id = -1,
 	replace_item = 0,
 	drop_gold_max = 0,
 	virtual_type = 14,
-	link_id = 1000000,
-	id = 100001,
+	link_id = 0,
+	id = 100002,
 	is_world = 0,
-	icon = "Props/100001",
+	icon = "Props/100002",
 	display_icon = {},
 	price = {},
 	index = {},

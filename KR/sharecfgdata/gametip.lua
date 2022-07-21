@@ -275,7 +275,7 @@ _G.pg.base.gametip.word_succeed = {
 }
 
 _G.pg.base.gametip.word_start = {
-	tip = "증축개시"
+	tip = "시작"
 }
 
 _G.pg.base.gametip.word_kiss = {
@@ -3209,6 +3209,10 @@ _G.pg.base.gametip.spweapon_tip_locked = {
 	tip = "한계돌파 MAX 달성 후 <color=#92fc63>특수 장비 슬롯</color>이 해제됩니다."
 }
 
+_G.pg.base.gametip.spweapon_tip_unload = {
+	tip = "특수 장비가 창고로 반환되었습니다."
+}
+
 _G.pg.base.gametip.spweapon_ui_level = {
 	tip = "강화 레벨"
 }
@@ -4193,39 +4197,39 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-비콘·META 기능 설명
+信标·META功能说明
 
-1. <color=#92fc63>2022.7.7-2022.9.26점검 전</color>까지 「리펄스·META」의 도전이 한정 개방됩니다. 「리펄스·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「리펄스·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
- <color=#ff5c5c>주의: 동기화 수치는 기간 종료 후 사라집니다.</color>
+1. <color=#92fc63>2022.6.9-2022.9.1</color>期间限时开放「反击·META」的挑战，在此期间指挥官可挑战「反击·META」累计其同步值获取<color=#92fc63>「反击·META」角色</color>及其他丰厚奖励
+<color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
-2. 「비콘 데이터」 획득 및 분석
-·대형 작전을 통해 「비콘 데이터」를 획득할 수 있으며, 지정 데이터량 도달 후, 분석 및 특정 비콘을 발견할 수 있습니다.
-·일일 최대 분석 가능 횟수는 <color=#92fc63>2회</color>이며, 0시마다 초기화됩니다. 사용하지 않은「비콘 데이터」는 보류됩니다.
-·매번 분석 시 <color=#92fc63>100</color> 「비콘 데이터」가 필요합니다.
+2.「信标数据」获取与解析
+·指挥官可通过在大型作战中获取「信标数据」，达到指定数据量后进行解析并发现特定信标
+·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「信标数据」将会保留。
+·每次解析「信标数据」所需量为<color=#92fc63>100</color>点
 
-3. 자신이 분석한 비콘 도전
-·자신이 분석한 비콘에 처음으로 도전 시 연료를 소모하지 않으며, 두번째 도전부터매번 <color=#92fc63>40</color> 연료를 소모합니다.(도전 횟수는 소모하지 않습니다.)
-·비콘의 HP가 0이 되면 전투에서 승리하며, 대량의 캐릭터 동기화 수치 보상을 획득합니다.
-·분석한 비콘은 <color=#92fc63>24시간</color> 동안 유지되며, 이후 사라집니다. 기타 지휘관들에게 지원을 요청하세요.
-·매번 도전 성공 후, 비콘의 난이도가 1단계씩, 총 15단계까지 상승하며, 단계에 따라 전투 보상도 증가합니다.
+3.挑战自己解析的信标
+·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)
+·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。
+·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，记得向其他指挥官请求支援哦。
+·每次挑战成功后，信标的强度将会提升1阶段，总计15阶段。随着阶段提升，战斗奖励也会提升。
 
-4. 기타 비콘 도전
-·비콘 목록 화면에서 다른 지휘관이 도움을 요청한 비콘에 도전할 수 있습니다.다른 지휘관의 비콘에 참여하면 전투 종료 후 입힌 대미지에 따라 <color=#92fc63>캐릭터 동기화 수치 보상을 획득합니다</color>.
-·매번 도전 시 도전 횟수 1회를 소모하며, 연료는 소모하지 않습니다.
-·매일 총 <color=#92fc63>3</color>회의 도전 횟수가 주어지며, 0시마다 초기화됩니다.
-·동일한 비콘에 최대 누적 30명의 지휘관이 도전할 수 있습니다.
+4.挑战其他信标
+·在信标列表界面可以挑战其他指挥官发起求助的信标，参与其他指挥官发布的信标战斗结束后，将会根据造成的伤害程度<color=#92fc63>立刻获得角色同步值奖励</color>。
+·每次挑战需要消耗1点挑战次数，不需要消耗石油
+·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置
+·同一个信标最多能允许累计30位指挥官进行挑战
 
-5. 전투 설명
-·비콘·META 도전은 지휘냥과 잠수함은 사용할 수 없습니다.
-·전투 결산 시 경험치를 획득하지 않으며, 함선 감정 수치에 영향을 주지 않습니다.
-·전투 도중 퇴장할 수 없습니다. 만약 네트워크 이상으로 연결이 끊길 경우:
-①자신이 분석한 비콘에 도전 시 40 연료가 소모(첫 번째 도전 X)되며,이미 입힌 대미지가 집계되지 않습니다.
-②비콘 목록 중의 비콘에 도전 시 도전 횟수가 소모되며, 아무런 보상도획득할 수 없습니다.
- <color=#92fc63>작전 참여 시 네트워크 환경을 원활히 유지해 주세요.</color>
+5.战斗说明
+·挑战信标·META暂不可使用指挥喵与潜艇
+·战斗结算时不会获得经验值，不会影响舰船心情值
+·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
+①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
+②挑战信标列表中的信标时将会消耗挑战次数且无法获得任何奖励
+ <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
-6.화력 지원
-비콘·META 도전 31일째부터, 즉 2022.8.6~2022.9.26 기간 동안, 함대가 「리펄스·META」에 도전 시 추가 화력 지원을 얻을 수 있습니다. 화력 지원은 적에게 대미지를 입히며, 지속 대미지의 특수 상태를 부여합니다. (버프 효과의 영향은 받지 않습니다.) 이번 비콘·META의 개방 기간이 증가함에 따라, 화력 지원의 대미지도 증가합니다.
-※자신이 발견한 비콘·META 전투 중에서만 적용되며, 매번 도전 시마다 발동 가능합니다.]]
+6.火力支援
+随着信标·META挑战的进行，从第31天开始，即2022.7.9~2022.9.1期间，舰队挑战「反击·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -8791,51 +8795,59 @@ _G.pg.base.gametip.technology_stop_tip = {
 _G.pg.base.gametip.technology_help_text = {
 	tip = {
 		{
-			info = "<color=#A1E400FF>연구 규칙</color>\n"
+			info = "<color=#A1E400FF>科研项目研发须知</color>\n"
 		},
 		{
 			info = [[
-※시스템 개선:
-·경향 기수 내의 임의의 스페셜 프로젝트 함선가 성장이 완료되었다면, 해당 함선의 경향 연구 항목은 갱신되지 않습니다.
-·또한 개발 미완성인 스페셜 프로젝트 함선들의 경향 연구 항목은 중요성에 따라 갱신 확률이 분배됩니다.
-·경향 기수 내 성장이 미완료된 스페셜 프로젝트 함선의 수량에 상관없이 경향 연구의 총 갱신 확률은 고정적입니다.
+※机制优化：
+·当倾向期数内某个方案舰已经养成完毕后，不再刷新该方案舰的定向研发。
+·同时剩余未研发完成的方案舰的定向研发，将根据权重重新分配刷新概率。
+·无论倾向期数内未养成完毕的方案舰数量多少，定向研发总刷新概率固定。
 
-용어 설명:
-·경향 연구: 연구 항목 중 함선 배경이 나타난 연구 항목
-·성장 완료: 스페셜 프로젝트 함선 용골편찬 진행 시, 용골편찬 최대 레벨까지 상승시켜 줄 충분한 강화 유닛이 필요합니다. 용골편찬 미진행 시, 연구 레벨 최대 레벨까지 상승시켜 줄 강화 유닛이 필요합니다.
+名词解释：
+·定向研发：指研发选项中标注有角色背景的研发项目
+·养成完毕：如果方案舰拥有天运拟合，则需要拥有足够将天运拟合提升至满级的蓝图；如果没有天运拟合，则需要拥有将研发等级提升至满级的蓝图
 
-기타 설명
-·경향 기수의 모든 스페셜 프로젝트 함선을 모두 성장 완료시켰다면, 중요성에 따라 해당 경향 기수의 경향 연구를 다시 갱신합니다.
-·연구 경향을 선택하지 않았을 경우, 갱신 범위가 모든 스페셜 프로젝트 함선으로 확대됩니다.
+其他说明
+·如果倾向期数的所有方案舰都养成完毕了，则会重新按权重刷新该倾向期数的定向研发
+·如果未选择研发倾向，则刷新判断范围扩大至所有方案舰
 ]]
 		},
 		{
 			info = [[
-※새로운 기능: 연구 지향 변경
- · 제2기 스페셜 프로젝트 함선 추가에 따라, 과학 연구 항목에 「제2기」가 새롭게 추가되었습니다. 기존 연구 항목 「제1기」와 「제2기」의 구분은 과학 연구 항목 왼쪽 위의 「Ⅰ」,「Ⅱ」마크로 확인할 수 있습니다. 
- · 또한, 연구 항목 일람 화면 오른쪽 아래의 「연구 지향」에서 「제1기」, 「제2기」를 선택하면, 해당 연구 항목을 최소 3개씩 출현 시킬 수 있습니다. 
+※新增功能：研发倾向
+    ·选择一个研发版本倾向后，每次刷新研发项目时，将有三个项目固定刷新对应倾向的研发项目
 
-1. 연구 개시
- · 연구 항목 일람에서 연구 항목의 「연구 개시」를 터치하면, 해당 항목의 연구를 진행할 수 있습니다. 
- · 일부 연구 항목의 연구는 개시하기 위해 자원을 소비합니다. 
- · 동시에 복수의 연구 항목을 연구할 수는 없습니다. 
 
-2.연구 완료
- · 연구 항목의 연구는 시간이 필요합니다. 
- · 일부 연구 항목은 시간 이외에도 특정한 조건을 달성할 필요가 있습니다. 
- ·「연구 완성 조건」은 연구 개시 이후에만 진척됩니다. 
- ·「연구 완성 조건」이 있는 연구 항목은, 연구 시간이 종료되더라도 「연구 완성 조건」을 진행 및 달성할 수있습니다. 
- · 연구가 완료되어 연구 보상을 받으면, 연구 항목 일람이 갱신됩니다. 
+※新增功能：研发队列
+ ·已开始研发的科研项目在达成【研发完成条件】后，可以加入【研发队列】
+加入队列的科研项目会顺序完成，不可取消
+科研项目加入研发队列后，会刷新出新的科研项目供选择
+科研队列可容纳的科研项目数量上限为5个，同一时间只能研发一个科研项目
 
-3.연구 중지
- ·「연구 중지」를 터치하면 진행 중인 연구 항목을 중단할 수있습니다. 
- · 연구를 중단하더라도 연구 개시 때 소비된 자원은 반환되지않습니다. 
- · 연구를 중단하면, 「연구 완성 조건」의 진척도와 연구에 사용한 시간이 초기화됩니다. 
 
-4.연구 항목 일람을 갱신
- · 0시 이후 「항목 갱신」을 터치하면, 연구 항목 일람을 5개 갱신할 수 있습니다. 
- ·「항목 갱신」은 하루에 한 번밖에 할 수 없습니다.
- · 연구 중의 항목이 존재할 경우, 연구 항목 일람을 갱신할 수 없습니다. ]]
+1 开始研发 
+    ·点击“开始研发”按钮后可以开启一个科研项目。
+    ·部分科研项目的开启需要消耗一定量的资源。
+    ·同一时间只能研发一个科研项目。
+
+
+2 完成研发
+    ·科研项目开始后，需要花费一定的时间才能完成。
+    ·部分科研项目有“研发完成条件”，需要同时满足时间和完成条件，才能完成该项目。
+    ·“研发完成条件”只有在开始科研项目后才会被统计。
+    ·科研倒计时为0后，“研发完成条件”依然可以被统计。
+    ·研发完成并领取奖励后，会刷新五个新的科研项目。
+
+
+3 中断研发
+    ·点击“停止研发”后会中断当前正在进行的科研项目。
+    ·中断后，不会返还开启科研所消耗的资源，也不会刷新新的科研项目。同时“研发完成条件”的进度和花费的时间会被清空。
+
+
+4 刷新科研项目
+    ·每日0点后，点击“点击刷新”按钮，会刷新五个新的科研项目，每日只能刷新一次。
+    ·当有正在研发中的科研项目时，无法进行刷新。]]
 		}
 	}
 }
@@ -9730,7 +9742,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "조프르, 랭동타블, 엔터프라이즈 건조 확률UP!"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:182}(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -9846,27 +9858,27 @@ _G.pg.base.gametip.tec_notice_not_open_tip = {
 }
 
 _G.pg.base.gametip.apply_permission_camera_tip1 = {
-	tip = "AR녹화를 사용하려면, 녹음 기능의 방문 권한이 필요합니다."
+	tip = "为了ar相机的使用，需要有权限访问相机"
 }
 
 _G.pg.base.gametip.apply_permission_camera_tip2 = {
-	tip = "녹음 권한 차단. setting화면에서 권한 허용의 확인이 필요합니다."
+	tip = "您关闭了相机权限，需要到setting界面确认权限开启"
 }
 
 _G.pg.base.gametip.apply_permission_camera_tip3 = {
-	tip = "녹음 권한 수여 거절. AR녹화를 사용할 수 없습니다."
+	tip = "您拒绝授权相机权限，这导致您无法使用ar相机"
 }
 
 _G.pg.base.gametip.apply_permission_record_audio_tip1 = {
-	tip = "AR카메라를 사용하려면, 카메라의 방문 권한이 필요합니다."
+	tip = "为了ar录像的使用，需要有权限访问录音功能"
 }
 
 _G.pg.base.gametip.apply_permission_record_audio_tip2 = {
-	tip = "카메라 권한 차단. setting화면에서 권한 허용의 확인이 필요합니다."
+	tip = "您关闭了录音权限，需要到setting界面确认权限开启"
 }
 
 _G.pg.base.gametip.apply_permission_record_audio_tip3 = {
-	tip = "카메라 권한 수여 거절. AR카메라를 사용할 수 없습니다."
+	tip = "您拒绝授予录音权限，这导致您无法使用ar录像"
 }
 
 _G.pg.base.gametip.nine_choose_one = {
@@ -11342,6 +11354,66 @@ _G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
 </color></size>]]
 }
 
+_G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型四联装152mm主炮
+四联装533mm鱼雷Mark IX
+双管20mm厄利孔高射炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型双联装406mmSKC主炮
+双联装TbtsKC36式150mm主炮
+试作型四联装30mm机炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型双联装130mm主炮Model1936
+三联装533mm鱼雷
+37mm防空炮70-K
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作舰载型Su-2
+试作舰载型Su-2
+试作型VIT-2 (VK-107)
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型四联装330mm主炮Mle1931（超巡用）
+138.6mm单装炮Mle1929
+双联40mm博福斯对空机炮
+</color></size>]]
+}
+
 _G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "안전 구역의 범위가 제한됩니다."
 }
@@ -12802,25 +12874,25 @@ _G.pg.base.gametip.pocky_help = {
 _G.pg.base.gametip.secretary_help = {
 	tip = {
 		{
-			info = "· 비서팀 기능 설명:\n"
+			info = "· 秘书组功能说明：\n"
 		},
 		{
-			info = "1. 비서팀 슬롯은 메인 해역 클리어를 통해 개방됩니다. \n비서팀은 같은 함선을 배치할 수있습니다."
+			info = "1. 秘书组栏位需要通过主线关卡开放，秘书组可以放入同名舰船"
 		},
 		{
-			info = "2. 비서팀에서 <color=#92fc63>제일 좌측의 비서함</color>은 <color=#92fc63>비서함 호감도</color>를 획득합니다."
+			info = "2. 仅有排列在秘书组<color=#92fc63>最左侧的秘书舰</color>可以获得<color=#92fc63>秘书舰好感度加成</color>"
 		},
 		{
-			info = "3. 메인 화면으로 돌아와 비서함이 복귀 대사를 말할 때, 랜덤으로 비서팀원 중한 명이 나타납니다."
+			info = "3. 当回到主界面触发秘书舰回港台词时，将随机展示一名秘书组成员"
 		},
 		{
-			info = "4. 코스튬 설정을 통해, 모든 비서팀원의 코스튬을 상세 설정할 수있습니다."
+			info = "4. 通过换装设置面板，可以对每个秘书组成员使用的换装进行详细设置"
 		},
 		{
-			info = "5. 비서팀 화면에서, 캐릭터를 드래그하여 비서팀원의 위치를 변경할 수있습니다."
+			info = "5. 在秘书组界面，拖动角色可以直接更换秘书组成员的位置"
 		},
 		{
-			info = "6. 메인 화면에서 전환 기능을 통해 현재 나타난 비서함을 변경할 수 있습니다.\n"
+			info = "6. 在主界面可以通过切换功能，切换当前展示的秘书舰\n"
 		}
 	}
 }
@@ -14464,6 +14536,10 @@ _G.pg.base.gametip.tec_settings_btn_word = {
 	tip = "연구 선택"
 }
 
+_G.pg.base.gametip.tec_tendency_x = {
+	tip = "연구 제$1기"
+}
+
 _G.pg.base.gametip.tec_tendency_0 = {
 	tip = "없음"
 }
@@ -14482,6 +14558,10 @@ _G.pg.base.gametip.tec_tendency_3 = {
 
 _G.pg.base.gametip.tec_tendency_4 = {
 	tip = "과학 연구 4기"
+}
+
+_G.pg.base.gametip.tec_tendency_cur_x = {
+	tip = "연구 지향 / 제$1기"
 }
 
 _G.pg.base.gametip.tec_tendency_cur_0 = {
@@ -14512,6 +14592,10 @@ _G.pg.base.gametip.tec_tendency_cur_4 = {
 	tip = "연구 방향/4기"
 }
 
+_G.pg.base.gametip.tec_target_catchup_none_x = {
+	tip = "강화 지향: 제$1기/미선택"
+}
+
 _G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "강화 지향: 1기/미선택"
 }
@@ -14524,6 +14608,10 @@ _G.pg.base.gametip.tec_target_catchup_none_3 = {
 	tip = "강화 지향: 3기/미선택"
 }
 
+_G.pg.base.gametip.tec_target_catchup_selected_x = {
+	tip = "강화 지향: 제$1기/진행"
+}
+
 _G.pg.base.gametip.tec_target_catchup_selected_1 = {
 	tip = "강화 지향: 1기/진행"
 }
@@ -14534,6 +14622,10 @@ _G.pg.base.gametip.tec_target_catchup_selected_2 = {
 
 _G.pg.base.gametip.tec_target_catchup_selected_3 = {
 	tip = "강화 지향: 3기/진행"
+}
+
+_G.pg.base.gametip.tec_target_catchup_finish_x = {
+	tip = "강화 지향: 제$1기/완료"
 }
 
 _G.pg.base.gametip.tec_target_catchup_finish_1 = {
@@ -19921,10 +20013,200 @@ _G.pg.base.gametip.chang_ship_skin_window_title = {
 
 _G.pg.base.gametip.world_boss_item_info = {
 	tip = [[
-비콘 기록기|대형 작전에서 수집한 「비콘 데이터」를 기록하는 장치. 지정 데이터량 도달 후 데이터를 분석하여 특정한 비콘을 발견할 수 있다.
-P.S.기록기의 기록 용량은 상한이 존재하니, 꼭 제때 분석해야 한다.
+비콘 기록기|대형 작전에서 수집한 「비콘 데이터」를 기록하는 장치. 데이터가 일정량에 도달하면 분석하여 특정한 비콘을 발견할 수 있다.
+P.S.기록기의 기록 용량은 상한이 있으며 제때 분석하시기 바랍니다.
 매일 획득 상한: $1/$2
 기록 용량 상한: $3/$4]]
+}
+
+_G.pg.base.gametip.world_past_boss_item_info = {
+	tip = [[
+파일 비콘 기록기|대형 작전에서 수집한 「파일 비콘 데이터」를 기록하는 장치. 데이터가 일정량에 도달하면 분석하여 특정한 비콘을 발견할 수 있다.
+P.S.기록기의 기록 용량은 상한이 있으며 제때 분석하시기 바랍니다.
+매일 획득 상한: $1/$2
+기록 용량 상한: $3/$4]]
+}
+
+_G.pg.base.gametip.world_boss_lefttime = {
+	tip = "$1일"
+}
+
+_G.pg.base.gametip.world_boss_item_count_noenough = {
+	tip = "정보 분석 데이터 부족"
+}
+
+_G.pg.base.gametip.world_boss_item_usage_tip = {
+	tip = "※비콘과 파일 비콘을 동시에 분석할 수 없습니다."
+}
+
+_G.pg.base.gametip.world_boss_no_select_archives = {
+	tip = "먼저 비콘 파일에서 분석을 해제하세요."
+}
+
+_G.pg.base.gametip.world_boss_archives_item_count_noenough = {
+	tip = "파일 비콘 데이터 부족"
+}
+
+_G.pg.base.gametip.world_boss_archives_are_clear = {
+	tip = "모든 META 분석 완료"
+}
+
+_G.pg.base.gametip.world_boss_switch_archives = {
+	tip = "현재 $1의 파일을 분석 중입니다. 전환하시겠습니까?\n(현재 진행 중인 파일 비콘에 영향을 주지 않습니다.)"
+}
+
+_G.pg.base.gametip.world_boss_switch_archives_success = {
+	tip = "해제 성공. 파일 비콘 화면에서 분석할 수 있습니다."
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_unopen = {
+	tip = "자율 작전은 도전 1회 완료 후 개방됩니다."
+}
+
+_G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
+	tip = "자율 작전 진행 중. 도전할 수 없습니다."
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle = {
+	tip = "작전 종료"
+}
+
+_G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
+	tip = "작전 계속"
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_reusle_title = {
+	tip = "자율 작전 완료"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_title = {
+	tip = "자율 작전 중···"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
+	tip = "잔여 시간:"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip1 = {
+	tip = "(자율 작전 중도 종료 시, 비콘에 대미지를 입히지 않으며 연료는 반환되지 않습니다.)"
+}
+
+_G.pg.base.gametip.world_archives_boss_help = {
+	tip = {
+		{
+			info = [[
+档案信标说明
+
+1. 玩家可以从「信标档案」界面中开启档案META的解析并进行挑战，累计其同步值获取<color=#92fc63>META角色</color>及其他丰厚奖励；早期活动获取的同步值将继承至信标档案中
+
+2.「档案信标数据」获取与解析
+·指挥官可通过在大型作战中获取「档案信标数据」，达到指定数据量后进行解析并发现信标
+·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「档案信标数据」将会保留。
+·每次解析消耗「档案信标数据」<color=#92fc63>100</color>点
+
+3.开启档案解析和档案解析切换
+·指挥官可以在「信标档案」界面开启需要解析的META角色，开启后可以在「档案信标」界面进行解析和挑战
+·开启解析后可以任意切换，没有限制。
+
+4.挑战自己解析的信标
+·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)
+·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。
+·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失。
+·档案信标初始等级为15级。
+
+5.挑战其他信标
+·在档案列表界面的「好友」、「大舰队」栏处可以挑战其他指挥官发起求助的信标
+·<color=#92fc63>档案信标支援挑无次数限制，不消耗石油，也没有奖励</color>
+·同一个信标最多能允许累计30位指挥官进行挑战
+
+6.战斗说明
+·挑战档案信标暂不可使用指挥喵与潜艇
+·战斗结算时不会获得经验值，不会影响舰船心情值
+·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
+①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
+②支援档案信标作战无奖励，无次数限制
+ <color=#92fc63>请在参与作战时保持网络环境畅通</color>
+
+7.自动战斗功能说明
+·指挥官在手动挑战一次自己解析的信标后可以解锁自动作战功能
+·自动作战根据指挥官对当前档案META造成的最高伤害进行自动战斗，根据最高伤害计算需要作战的次数，并消耗对应的石油，石油消耗和手动挑战的消耗相同
+·自动作战固定耗时15分钟，离开挑战界面或退出游戏不影响自动作战
+·指挥官可以手动取消自动作战，但已消耗的石油不会返还，且不会计算已造成的伤害。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.world_archives_boss_list_help = {
+	tip = {
+		{
+			info = [[
+비콘 파일 기능 설명
+
+1. 비콘 파일의 META 함선 동기화 수치는 계승되며, 누적 동기화 수치 보상은 중복 획득할 수 없습니다.
+2. 비콘 파일에서 파일 분석, 분석 전환, 동기화 수치 보상을 수령할 수 있습니다.
+3. META 함선 동기화 수치 보상을 모두 수령 완료 후 분석 완료 페이지로 이동하여 확인할 수 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.archives_boss_was_opened = {
+	tip = "분석 중인 파일 비콘이 있습니다. 내 비콘으로 이동할 수 없습니다."
+}
+
+_G.pg.base.gametip.current_boss_was_opened = {
+	tip = "분석 중인 비콘이 있습니다. 파일 비콘으로 이동할 수 없습니다."
+}
+
+_G.pg.base.gametip.world_boss_title_auto_battle = {
+	tip = "자율 작전"
+}
+
+_G.pg.base.gametip.world_boss_title_highest_damge = {
+	tip = "최고 대미지"
+}
+
+_G.pg.base.gametip.world_boss_title_estimation = {
+	tip = "자율 작전 예상"
+}
+
+_G.pg.base.gametip.world_boss_title_battle_cnt = {
+	tip = "작전 횟수"
+}
+
+_G.pg.base.gametip.world_boss_title_consume_oil_cnt = {
+	tip = "연료 누적 소모"
+}
+
+_G.pg.base.gametip.world_boss_title_spend_time = {
+	tip = "소요 시간"
+}
+
+_G.pg.base.gametip.world_boss_title_total_damage = {
+	tip = "총 대미지"
+}
+
+_G.pg.base.gametip.world_no_time_to_auto_battle = {
+	tip = "현재 비콘의 잔여 시간 부족!"
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label = {
+	tip = "금일 획득"
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label1 = {
+	tip = "분석 소모"
+}
+
+_G.pg.base.gametip.world_boss_archives_boss_tip = {
+	tip = "파일 비콘 작전 지원은 보상이 없으며, 횟수를 소모하지 않습니다."
+}
+
+_G.pg.base.gametip.world_boss_progress_no_enough = {
+	tip = "비콘 데이터 부족"
+}
+
+_G.pg.base.gametip.world_boss_auto_battle_no_oil = {
+	tip = "연료 부족!"
 }
 
 _G.pg.base.gametip.meta_syn_value_label = {
@@ -20220,6 +20502,110 @@ _G.pg.base.gametip.commission_event_tip = {
 	}
 }
 
+_G.pg.base.gametip.decoration_medal_placeholder = {
+	tip = "아무 훈장도 획득하지 않았습니다."
+}
+
+_G.pg.base.gametip.technology_filter_placeholder = {
+	tip = "해당하는 함선이 없습니다."
+}
+
+_G.pg.base.gametip.eva_comment_send_null = {
+	tip = "코멘트를 입력하세요."
+}
+
 _G.pg.base.gametip.rename_input = {
 	tip = "이름 입력"
+}
+
+_G.pg.base.gametip.avatar_task_level = {
+	tip = "$1 $2로 $3 적 기함 $4회 격파 및 생존"
+}
+
+_G.pg.base.gametip.avatar_upgrad_1 = {
+	tip = "돌파 1회"
+}
+
+_G.pg.base.gametip.avatar_upgrad_2 = {
+	tip = "돌파 2회"
+}
+
+_G.pg.base.gametip.avatar_upgrad_3 = {
+	tip = "돌파 MAX"
+}
+
+_G.pg.base.gametip.avatar_task_ship_1 = {
+	tip = "획득 함선 「$1」"
+}
+
+_G.pg.base.gametip.avatar_task_ship_2 = {
+	tip = "「$1」한계돌파 MAX"
+}
+
+_G.pg.base.gametip.technology_queue_complete = {
+	tip = "연구 완료"
+}
+
+_G.pg.base.gametip.technology_queue_processing = {
+	tip = "진행 중"
+}
+
+_G.pg.base.gametip.technology_queue_waiting = {
+	tip = "진행 대기"
+}
+
+_G.pg.base.gametip.technology_queue_getaward = {
+	tip = "보상 수령"
+}
+
+_G.pg.base.gametip.technology_daily_refresh = {
+	tip = "매일 0시 후 갱신"
+}
+
+_G.pg.base.gametip.technology_queue_full = {
+	tip = "대열이 가득 차 추가할 수 없습니다."
+}
+
+_G.pg.base.gametip.technology_queue_in_mission_incomplete = {
+	tip = "연구 완료 조건 미달성. 추가할 수 없습니다."
+}
+
+_G.pg.base.gametip.technology_consume = {
+	tip = "연구 소모"
+}
+
+_G.pg.base.gametip.technology_request = {
+	tip = "연구 완료 조건"
+}
+
+_G.pg.base.gametip.technology_queue_in_doublecheck = {
+	tip = "해당 연구 항목을 대열에 추가하시겠습니까? 대열에 추가된 연구 항목은 순서대로 완료되며 취소할 수 없습니다."
+}
+
+_G.pg.base.gametip.technology_queue_in_success = {
+	tip = "대열 추가 성공"
+}
+
+_G.pg.base.gametip.star_require_enemy_text = {
+	tip = "「모든 적 격파」 달성까지: $1"
+}
+
+_G.pg.base.gametip.star_require_enemy_title = {
+	tip = "남은 적 수"
+}
+
+_G.pg.base.gametip.star_require_enemy_check = {
+	tip = "확인"
+}
+
+_G.pg.base.gametip.worldboss_rank_timer_label = {
+	tip = "순위 집계 중\n잔여:"
+}
+
+_G.pg.base.gametip.technology_detail = {
+	tip = "상세정보"
+}
+
+_G.pg.base.gametip.technology_mission_unfinish = {
+	tip = "조건 미달성"
 }

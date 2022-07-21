@@ -38,32 +38,35 @@ function slot0.execute(slot0, slot1)
 		character = slot4
 	}, 11012, function (slot0)
 		if slot0.result == 0 then
-			slot2 = getProxy(BayProxy):getShipById(uv0[1])
-			uv1.character = uv0[1]
-			uv1.characters = uv0
-			uv1.icon = slot2.configId
-			uv1.skinId = slot2.skinId
-
-			uv2:updatePlayer(uv1)
+			uv0.UpdayePlayerCharas(uv1, uv2)
+			uv3:updatePlayer(uv1)
 			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inAdmiral")
 
-			if uv3 then
+			if uv4 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("change_skin_secretary_ship"))
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("player_changePlayerIcon_ok"))
 			end
 
-			if uv4 then
-				uv4()
+			if uv5 then
+				uv5()
 			end
 
-			uv5:sendNotification(GAME.CHANGE_PLAYER_ICON_DONE, {
-				ship = slot2
+			uv6:sendNotification(GAME.CHANGE_PLAYER_ICON_DONE, {
+				ship = ship
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("player_changePlayerIcon", slot0.result))
 		end
 	end)
+end
+
+function slot0.UpdayePlayerCharas(slot0, slot1)
+	slot3 = getProxy(BayProxy):getShipById(slot1[1])
+	slot0.character = slot1[1]
+	slot0.characters = slot1
+	slot0.icon = slot3.configId
+	slot0.skinId = slot3.skinId
 end
 
 return slot0

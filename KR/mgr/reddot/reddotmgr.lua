@@ -51,7 +51,7 @@ function slot0.BindConditions(slot0)
 		return getProxy(DormProxy):IsShowRedDot()
 	end)
 	slot0:BindCondition(uv0.TYPES.TASK, function ()
-		return getProxy(TaskProxy):getCanReceiveCount() > 0
+		return getProxy(TaskProxy):getCanReceiveCount() > 0 or getProxy(AvatarFrameProxy):getCanReceiveCount() > 0
 	end)
 	slot0:BindCondition(uv0.TYPES.MAIL, function ()
 		return getProxy(MailProxy):GetAttachmentCount()

@@ -2,17 +2,16 @@ slot0 = class("WorldBossStartBattleCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = slot2.bossId
-	slot6 = nowWorld():GetBossProxy()
+	slot4 = slot2.isOther
 
-	if slot2.isOther and slot6:GetPt() <= 0 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
+	if not nowWorld():GetBossProxy():GetBossById(slot2.bossId) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_not_found"))
 
 		return
 	end
 
-	if not slot6:GetBossById(slot3) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_not_found"))
+	if slot4 and slot6:GetPt() <= 0 and WorldBossConst._IsCurrBoss(slot7) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
 
 		return
 	end

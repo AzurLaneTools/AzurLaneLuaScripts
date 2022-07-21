@@ -830,6 +830,21 @@ pg.player_resource = {
 		name = "skinTicket34",
 		itemid = 59325
 	},
+	[268] = {
+		id = 268,
+		name = "shinano_frame_pt2",
+		itemid = 59326
+	},
+	[269] = {
+		id = 269,
+		name = "shinano_pt2",
+		itemid = 59328
+	},
+	[270] = {
+		id = 270,
+		name = "skinTicket35",
+		itemid = 59329
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1529,6 +1544,15 @@ pg.player_resource = {
 		skinTicket34 = {
 			267
 		},
+		shinano_frame_pt2 = {
+			268
+		},
+		shinano_pt2 = {
+			269
+		},
+		skinTicket35 = {
+			270
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1817,6 +1841,9 @@ pg.player_resource = {
 		265,
 		266,
 		267,
+		268,
+		269,
+		270,
 		950,
 		951,
 		952,

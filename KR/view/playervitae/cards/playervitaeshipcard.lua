@@ -16,6 +16,9 @@ function slot0.OnInit(slot0)
 	slot0.otherBg = slot0._tf:Find("front/bg_other")
 	slot0.editTr = slot0._tf:Find("mask")
 	slot0.changskinBtn = slot0.editTr:Find("skin")
+	slot0.randomTr = slot0._tf:Find("mask1")
+	slot0.randomSkinBtn = slot0.randomTr:Find("random_skin")
+	slot0.randomShipBtn = slot0.randomTr:Find("random_ship")
 	slot1 = slot0.editTr:Find("tpl")
 	slot0.btns = {
 		PlayerVitaeSpineBtn.New(slot1, PlayerVitaeBaseBtn.VEC_TYPE),
@@ -37,6 +40,8 @@ function slot0.OnInit(slot0)
 	slot0.eventTrigger = GetOrAddComponent(slot0._go, typeof(EventTriggerListener))
 
 	slot0:RegisterEvent()
+	setText(slot0.randomSkinBtn:Find("Text"), i18n("random_ship_skin_label"))
+	setText(slot0.randomShipBtn:Find("Text"), i18n("random_ship_label"))
 end
 
 function slot0.RegisterEvent(slot0)
@@ -219,6 +224,80 @@ function slot0.UpdateBtns(slot0)
 	end
 end
 
+function slot0.EditCardForRandom(slot0, slot1)
+	if not slot0.displayShip then
+		return
+	end
+
+	setActive(slot0.randomTr, slot1)
+
+	if slot1 then
+		slot0:UpdateRandomBtns()
+	else
+		removeOnButton(slot0.randomSkinBtn)
+		removeOnButton(slot0.randomShipBtn)
+		slot0:ClearRandomFlagValue()
+	end
+
+	slot0.inEdit = slot1
+	slot0.inRandomEdit = slot1
+end
+
+function slot1(slot0, slot1, slot2, slot3)
+	onButton(slot0, slot1, function ()
+		uv0 = not uv0
+
+		setActive(uv1, uv0)
+		setActive(uv2, not uv0)
+		uv3(uv0)
+	end, SFX_PANEL)
+	setActive(slot1:Find("on"), slot2)
+	setActive(slot1:Find("off"), not slot2)
+end
+
+function slot0.UpdateRandomBtns(slot0)
+	slot2 = slot0.slotIndex or 1
+	slot3 = getProxy(PlayerProxy):getRawData()
+	slot4 = slot3:IsOpenRandomFlagShipSkinInPos(slot2)
+	slot5 = slot3:IsOpenRandomFlagShipInPos(slot2)
+
+	uv0(slot0, slot0.randomSkinBtn, slot4, function (slot0)
+		uv0 = slot0
+		uv1.randomFlagValue = uv2(uv0, uv3)
+	end, SFX_PANEL)
+	uv0(slot0, slot0.randomShipBtn, slot5, function (slot0)
+		uv0 = slot0
+		uv1.randomFlagValue = uv2(uv3, uv0)
+	end, SFX_PANEL)
+
+	slot0.randomFlagValue = (function (slot0, slot1)
+		return (slot0 and 1 or 0) + (slot1 and 2 or 0)
+	end)(slot4, slot5)
+
+	setActive(slot0.randomShipBtn, slot3:CanRandomFlagShipInPos(slot2))
+end
+
+function slot0.GetRandomFlagValue(slot0)
+	assert(slot0.inRandomEdit)
+
+	if slot0.randomFlagValue then
+		return slot0.randomFlagValue
+	else
+		return getProxy(PlayerProxy):getRawData():RawGetRandomShipAndSkinValueInpos(slot0.slotIndex)
+	end
+end
+
+function slot0.ClearRandomFlagValue(slot0)
+	slot0.randomFlagValue = nil
+end
+
+function slot0.Disable(slot0)
+	uv0.super.Disable(slot0)
+
+	slot0.inEdit = false
+	slot0.inRandomEdit = false
+end
+
 function slot0.OnDispose(slot0)
 	if slot0.displayShip then
 		retPaintingPrefab(slot0.paintingTr, slot1:getPainting())
@@ -231,6 +310,8 @@ function slot0.OnDispose(slot0)
 	end
 
 	slot0.btns = nil
+
+	slot0:Disable()
 end
 
 return slot0

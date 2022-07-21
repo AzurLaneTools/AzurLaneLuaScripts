@@ -1,22 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		param = "4451",
 		id = 1,
 		pic = "temp1",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2022,
 					7,
-					7
+					21
 				},
 				{
 					0,
@@ -28,7 +22,7 @@ pg.activity_banner = {
 				{
 					2022,
 					7,
-					21
+					28
 				},
 				{
 					23,
@@ -43,15 +37,18 @@ pg.activity_banner = {
 		pic = "temp2",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
 		},
 		time = {
 			{
 				{
 					2022,
 					7,
-					7
+					21
 				},
 				{
 					0,
@@ -63,7 +60,7 @@ pg.activity_banner = {
 				{
 					2022,
 					7,
-					20
+					28
 				},
 				{
 					23,
@@ -74,16 +71,19 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4439",
 		id = 3,
 		pic = "temp3",
-		type = 3,
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		},
 		time = {
 			{
 				{
 					2022,
 					7,
-					7
+					21
 				},
 				{
 					0,
@@ -95,7 +95,7 @@ pg.activity_banner = {
 				{
 					2022,
 					7,
-					21
+					27
 				},
 				{
 					23,
@@ -110,120 +110,14 @@ pg.activity_banner = {
 		pic = "temp4",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"seltechnology"
 		},
 		time = {
 			{
 				{
 					2022,
 					7,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 5,
-		pic = "temp5",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2022,
-					7,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					7,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4434",
-		id = 7,
-		pic = "temp8",
-		type = 3,
-		time = {
-			{
-				{
-					2022,
-					6,
-					23
+					21
 				},
 				{
 					0,
@@ -235,7 +129,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					18
+					4
 				},
 				{
 					23,
@@ -246,16 +140,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4426",
-		id = 8,
-		pic = "temp7",
+		param = "4445",
+		id = 5,
+		pic = "temp5",
 		type = 3,
 		time = {
 			{
 				{
 					2022,
-					6,
-					16
+					7,
+					21
 				},
 				{
 					0,
@@ -266,8 +160,111 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					6,
-					23
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4453",
+		id = 6,
+		pic = "temp6",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 7,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 8,
+		pic = "temp8",
+		type = 2,
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					27
 				},
 				{
 					23,
@@ -287,7 +284,7 @@ pg.activity_banner = {
 				{
 					2022,
 					7,
-					7
+					21
 				},
 				{
 					0,
@@ -299,7 +296,7 @@ pg.activity_banner = {
 				{
 					2022,
 					7,
-					20
+					27
 				},
 				{
 					23,
@@ -349,15 +346,15 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
-			2,
-			4,
 			5,
 			6
 		},
-		[3] = {
+		[2] = {
+			2,
 			3,
+			4,
 			7,
 			8
 		},

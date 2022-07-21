@@ -152,7 +152,7 @@ function slot0.OnAddAward(slot0, slot1, slot2)
 
 	setText(slot3:Find("Text"), slot1 or "")
 
-	if slot2 == 2 then
+	if slot2 == 2 and _courtyard:GetView().poolMgr:GetHeartPool() then
 		slot4 = _courtyard:GetView().poolMgr:GetHeartPool():Dequeue()
 
 		slot4.transform:SetParent(slot0._tf, false)

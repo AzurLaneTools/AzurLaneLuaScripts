@@ -265,6 +265,7 @@ function slot0.update(slot0, slot1)
 	slot0.active = true
 	slot0.dueTime = slot1.time
 	slot0.loopFlag = slot1.loop_flag
+	slot0.theme = ChapterTheme.New(slot0:getConfig("theme"))
 	slot4 = slot0:getConfig("float_items")
 	slot5 = slot0:getConfig("grids")
 	slot0.cells = {}
@@ -1396,7 +1397,7 @@ end
 
 function slot0.EliteShipTypeFilter(slot0)
 	function slot1(slot0, slot1, slot2)
-		slot1 = Clone(slot1)
+		ChapterProxy.SortRecommendLimitation(Clone(slot1))
 
 		for slot6, slot7 in pairs(slot2) do
 			slot8 = nil
@@ -2434,7 +2435,7 @@ function slot0.writeBack(slot0, slot1, slot2)
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_KILL_BOSS)
 		end
 
-		if not slot7 or slot7.flag == ChapterConst.CellFlagDisabled then
+		if slot7 and slot7.flag == ChapterConst.CellFlagDisabled or not slot7 and slot6 ~= ChapterConst.AttachBox then
 			slot0:RemoveChampion(slot7)
 
 			slot3.defeatEnemies = slot3.defeatEnemies + 1
@@ -2558,7 +2559,7 @@ function slot0.UpdateProgressOnRetreat(slot0)
 	_.each(slot0.achieves, function (slot0)
 		if slot0.type == ChapterConst.AchieveType3 then
 			if _.all(_.values(uv0.cells), function (slot0)
-				if slot0.attachment == ChapterConst.AttachEnemy or slot0.attachment == ChapterConst.AttachElite or slot0.attachment == ChapterConst.AttachBoss or slot0.attachment == ChapterConst.AttachBox and pg.box_data_template[slot0.attachmentId].type == ChapterConst.BoxEnemy then
+				if slot0.attachment == ChapterConst.AttachEnemy or slot0.attachment == ChapterConst.AttachElite or slot0.attachment == ChapterConst.AttachBox and pg.box_data_template[slot0.attachmentId].type == ChapterConst.BoxEnemy then
 					return slot0.flag == ChapterConst.CellFlagDisabled
 				end
 
@@ -3289,6 +3290,70 @@ end
 
 function slot0.IsRemaster(slot0)
 	return getProxy(ChapterProxy):getMapById(slot0:getConfig("map")) and slot1:isRemaster()
+end
+
+function slot0.getDisplayEnemyCount(slot0)
+	slot1 = 0
+
+	function slot2(slot0)
+		if slot0.flag ~= ChapterConst.CellFlagDisabled then
+			uv0 = uv0 + 1
+		end
+	end
+
+	slot3 = {
+		[ChapterConst.AttachEnemy] = slot2,
+		[ChapterConst.AttachElite] = slot2,
+		[ChapterConst.AttachBox] = function (slot0)
+			if pg.box_data_template[slot0.attachmentId].type == ChapterConst.BoxEnemy then
+				uv0(slot0)
+			end
+		end
+	}
+
+	for slot7, slot8 in pairs(slot0.cells) do
+		switch(slot8.attachment, slot3, nil, slot8)
+	end
+
+	for slot7, slot8 in ipairs(slot0.champions) do
+		slot2(slot8)
+	end
+
+	return slot1
+end
+
+function slot0.getNearestEnemyCell(slot0)
+	function slot1(slot0, slot1)
+		return (slot0.row - slot1.row) * (slot0.row - slot1.row) + (slot0.column - slot1.column) * (slot0.column - slot1.column)
+	end
+
+	slot2 = nil
+
+	function slot3(slot0)
+		if slot0.flag ~= ChapterConst.CellFlagDisabled and (not uv0 or uv1(uv2.fleet.line, slot0) < uv1(uv2.fleet.line, uv0)) then
+			uv0 = slot0
+		end
+	end
+
+	slot4 = {
+		[ChapterConst.AttachEnemy] = slot3,
+		[ChapterConst.AttachElite] = slot3,
+		[ChapterConst.AttachBox] = function (slot0)
+			if pg.box_data_template[slot0.attachmentId].type == ChapterConst.BoxEnemy then
+				uv0(slot0)
+			end
+		end
+	}
+
+	for slot8, slot9 in pairs(slot0.cells) do
+		switch(slot9.attachment, slot4, nil, slot9)
+	end
+
+	for slot8, slot9 in ipairs(slot0.champions) do
+		slot3(slot9)
+	end
+
+	return slot2
 end
 
 return slot0

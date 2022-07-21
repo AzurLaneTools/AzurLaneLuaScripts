@@ -707,13 +707,10 @@ function slot0.updateFleetBuff(slot0)
 		slot7 = 1
 	end
 
-	slot10 = findTF(slot0.topStage, "buff_tpl")
+	slot9 = findTF(slot0.topStage, "icon_list/fleet_buffs")
+	slot10 = UIItemList.New(slot9, slot9:GetChild(0))
 
-	setActive(slot10, false)
-
-	slot11 = UIItemList.New(findTF(slot0.topStage, "fleet_buffs"), slot10)
-
-	slot11:make(function (slot0, slot1, slot2)
+	slot10:make(function (slot0, slot1, slot2)
 		setActive(findTF(slot2, "frame"), false)
 		setActive(findTF(slot2, "Text"), false)
 		setActive(findTF(slot2, "times"), false)
@@ -832,7 +829,7 @@ function slot0.updateFleetBuff(slot0)
 			end, SFX_PANEL)
 		end
 	end)
-	slot11:align(#slot3 + #slot4 + #slot6 + slot7 + #_.map(_.values(slot2:getCommanders()), function (slot0)
+	slot10:align(#slot3 + #slot4 + #slot6 + slot7 + #_.map(_.values(slot2:getCommanders()), function (slot0)
 		return slot0:getSkills()[1]
 	end))
 
@@ -840,13 +837,64 @@ function slot0.updateFleetBuff(slot0)
 		slot0:updateAirDominance()
 	end
 
+	slot0:updateEnemyCount()
 	slot0:updateChapterBuff()
+end
+
+function slot0.updateEnemyCount(slot0)
+	slot3 = tobool(underscore.detect(slot0.contextData.chapterVO.achieves, function (slot0)
+		return slot0.type == ChapterConst.AchieveType3 and not ChapterConst.IsAchieved(slot0)
+	end))
+
+	setActive(findTF(slot0.topStage, "icon_list/enemy_count"), slot3)
+
+	if slot3 then
+		slot4 = slot1:getDisplayEnemyCount()
+
+		setText(slot2:Find("Text"), slot4)
+		GetImageSpriteFromAtlasAsync("enemycount", slot4 > 0 and "danger" or "safe", slot2)
+		onButton(slot0, slot2, function ()
+			if uv0 > 0 then
+				uv1:HandleShowMsgBox({
+					hideNo = true,
+					type = MSGBOX_TYPE_DROP_ITEM,
+					name = i18n("star_require_enemy_title"),
+					content = i18n("star_require_enemy_text", uv0),
+					iconPath = {
+						"enemycount",
+						"danger"
+					},
+					yesText = i18n("star_require_enemy_check"),
+					onYes = function ()
+						slot0 = uv0:getNearestEnemyCell()
+
+						uv1.grid:focusOnCell(slot0)
+
+						if uv1.grid:GetEnemyCellView(slot0) and slot1.TweenShining then
+							slot1:TweenShining(2)
+						end
+					end
+				})
+			else
+				uv1:HandleShowMsgBox({
+					hideNo = true,
+					type = MSGBOX_TYPE_DROP_ITEM,
+					name = i18n("star_require_enemy_title"),
+					content = i18n("star_require_enemy_text", uv0),
+					iconPath = {
+						"enemycount",
+						"safe"
+					}
+				})
+			end
+		end, SFX_PANEL)
+	end
 end
 
 function slot0.updateChapterBuff(slot0)
 	slot3 = slot0.contextData.chapterVO:hasMitigation()
 
-	SetActive(findTF(slot0.topStage, "chapter_buff"), slot3)
+	SetActive(findTF(slot0.topStage, "icon_list/chapter_buff"), slot3)
 
 	if slot3 then
 		GetImageSpriteFromAtlasAsync("passstate", slot1:getRiskLevel() .. "_icon", slot2)

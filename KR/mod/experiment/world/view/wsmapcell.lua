@@ -123,7 +123,7 @@ function slot0.Update(slot0, slot1)
 	slot6 = 0
 
 	if slot0.map.centerCellFOV then
-		slot5 = math.sqrt(math.pow(slot3.row - slot2.row, 2) + math.pow(slot3.column - slot2.column, 2)) * 0.1
+		slot5 = math.sqrt((slot3.row - slot2.row) * (slot3.row - slot2.row) + (slot3.column - slot2.column) * (slot3.column - slot2.column)) * 0.1
 		slot6 = 0.2
 	end
 

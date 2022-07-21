@@ -14,6 +14,7 @@ slot0.SKIP_ESCORT = "NewMainMediator:SKIP_ESCORT"
 slot0.SKIP_INS = "NewMainMediator:SKIP_INS"
 slot0.SKIP_LOTTERY = "NewMainMediator:SKIP_LOTTERY"
 slot0.GO_SINGLE_ACTIVITY = "NewMainMediator:GO_SINGLE_ACTIVITY"
+slot0.REFRESH_VIEW = "NewMainMediator:REFRESH_VIEW"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
@@ -144,7 +145,8 @@ function slot0.listNotificationInterests(slot0)
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.FETCH_NPC_SHIP_DONE,
-		GAME.ZERO_HOUR_OP_DONE
+		GAME.ZERO_HOUR_OP_DONE,
+		uv0.REFRESH_VIEW
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do
@@ -183,30 +185,33 @@ function slot0.handleNotification(slot0, slot1)
 			end
 		})
 	elseif slot2 == GAME.REMOVE_LAYERS then
-		slot0.viewComponent:OnRemoveLayer(slot3.context)
+		slot0.viewComponent:emit(NewMainScene.ON_REMOVE_LAYER, slot3.context)
 	elseif slot2 == PlayerProxy.UPDATED then
-		slot0.viewComponent:OnUpdatePlayer()
+		slot0.viewComponent:emit(NewMainScene.ON_PLAYER_UPDATE)
 	elseif slot2 == GAME.ON_OPEN_INS_LAYER then
 		slot0.viewComponent:emit(uv0.SKIP_INS)
 	elseif slot2 == NotificationProxy.FRIEND_REQUEST_ADDED or slot2 == NotificationProxy.FRIEND_REQUEST_REMOVED or slot2 == FriendProxy.FRIEND_NEW_MSG or slot2 == FriendProxy.FRIEND_UPDATED or slot2 == ChatProxy.NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED or slot2 == GAME.GET_GUILD_INFO_DONE or slot2 == GAME.GET_GUILD_CHAT_LIST_DONE then
-		slot0.viewComponent:OnUpdateChatMsg()
+		slot0.viewComponent:emit(NewMainScene.ON_CHAT_MSG_UPDATE)
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == ChapterProxy.CHAPTER_TIMESUP then
 		MainChapterTimeUpSequence.New():Execute()
 	elseif slot2 == TaskProxy.TASK_ADDED then
-		slot0.viewComponent:OnStopPaitingVoice()
+		slot0.viewComponent:emit(NewMainScene.ON_STOP_PAITING_VOICE)
 	elseif slot2 == TechnologyConst.UPDATE_REDPOINT_ON_TOP then
 		slot4 = MainTechnologySequence.New()
 
 		slot4:Execute(function ()
 		end)
 	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE or slot2 == GAME.SEND_MINI_GAME_OP_DONE then
-		slot0.viewComponent:OnActBtnUpdate()
+		slot0.viewComponent:emit(NewMainScene.ON_ACT_BTN_UPDATE)
 	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
-		slot0.viewComponent:OnZeroHour()
+		slot0.viewComponent:emit(NewMainScene.ON_ZERO_HOUR)
 	elseif slot2 == GAME.FETCH_NPC_SHIP_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
+	elseif slot2 == uv0.REFRESH_VIEW then
+		slot0.viewComponent:setVisible(false)
+		slot0.viewComponent:setVisible(true)
 	end
 end
 

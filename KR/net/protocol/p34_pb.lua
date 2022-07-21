@@ -59,6 +59,9 @@ slot2 = {
 	SC_34524_AUTO_FIGHT_FINISH_TIME_FIELD = slot0.FieldDescriptor(),
 	CS_34525_BOSS_ID_FIELD = slot0.FieldDescriptor(),
 	SC_34526_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_34526_COUNT_FIELD = slot0.FieldDescriptor(),
+	SC_34526_DAMAGE_FIELD = slot0.FieldDescriptor(),
+	SC_34526_OIL_FIELD = slot0.FieldDescriptor(),
 	CS_34527_BOSS_ID_FIELD = slot0.FieldDescriptor(),
 	SC_34528_RESULT_FIELD = slot0.FieldDescriptor(),
 	WORLDBOSS_INFO_ID_FIELD = slot0.FieldDescriptor(),
@@ -909,12 +912,42 @@ slot2.SC_34526_RESULT_FIELD.has_default_value = false
 slot2.SC_34526_RESULT_FIELD.default_value = 0
 slot2.SC_34526_RESULT_FIELD.type = 13
 slot2.SC_34526_RESULT_FIELD.cpp_type = 3
+slot2.SC_34526_COUNT_FIELD.name = "count"
+slot2.SC_34526_COUNT_FIELD.full_name = "p34.sc_34526.count"
+slot2.SC_34526_COUNT_FIELD.number = 2
+slot2.SC_34526_COUNT_FIELD.index = 1
+slot2.SC_34526_COUNT_FIELD.label = 2
+slot2.SC_34526_COUNT_FIELD.has_default_value = false
+slot2.SC_34526_COUNT_FIELD.default_value = 0
+slot2.SC_34526_COUNT_FIELD.type = 13
+slot2.SC_34526_COUNT_FIELD.cpp_type = 3
+slot2.SC_34526_DAMAGE_FIELD.name = "damage"
+slot2.SC_34526_DAMAGE_FIELD.full_name = "p34.sc_34526.damage"
+slot2.SC_34526_DAMAGE_FIELD.number = 3
+slot2.SC_34526_DAMAGE_FIELD.index = 2
+slot2.SC_34526_DAMAGE_FIELD.label = 2
+slot2.SC_34526_DAMAGE_FIELD.has_default_value = false
+slot2.SC_34526_DAMAGE_FIELD.default_value = 0
+slot2.SC_34526_DAMAGE_FIELD.type = 13
+slot2.SC_34526_DAMAGE_FIELD.cpp_type = 3
+slot2.SC_34526_OIL_FIELD.name = "oil"
+slot2.SC_34526_OIL_FIELD.full_name = "p34.sc_34526.oil"
+slot2.SC_34526_OIL_FIELD.number = 4
+slot2.SC_34526_OIL_FIELD.index = 3
+slot2.SC_34526_OIL_FIELD.label = 2
+slot2.SC_34526_OIL_FIELD.has_default_value = false
+slot2.SC_34526_OIL_FIELD.default_value = 0
+slot2.SC_34526_OIL_FIELD.type = 13
+slot2.SC_34526_OIL_FIELD.cpp_type = 3
 SC_34526.name = "sc_34526"
 SC_34526.full_name = "p34.sc_34526"
 SC_34526.nested_types = {}
 SC_34526.enum_types = {}
 SC_34526.fields = {
-	slot2.SC_34526_RESULT_FIELD
+	slot2.SC_34526_RESULT_FIELD,
+	slot2.SC_34526_COUNT_FIELD,
+	slot2.SC_34526_DAMAGE_FIELD,
+	slot2.SC_34526_OIL_FIELD
 }
 SC_34526.is_extendable = false
 SC_34526.extensions = {}

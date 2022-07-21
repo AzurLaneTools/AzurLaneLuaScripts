@@ -209,6 +209,7 @@ function slot0.initUI(slot0)
 	slot0.actExtraRank = slot0:findTF("event_btns/act_extra_rank", slot0.rightChapter)
 
 	setActive(slot0.rightChapter, true)
+	setActive(slot0.remasterAwardBtn, false)
 
 	slot5 = slot0.topPanel
 	slot0.damageTextTemplate = go(slot0:findTF("damage", slot5))
@@ -1083,6 +1084,12 @@ function slot0.updateActivityBtns(slot0)
 			slot10 = false
 		else
 			setImageSprite(slot0.activityBtn:Find("Image"), LoadSprite("LinkButton/" .. slot12.pic, ""), true)
+
+			slot15 = setActive
+			slot16 = slot0.activityBtn:Find("sub_Image")
+			slot17 = slot12.text_pic ~= nil and slot14 ~= ""
+
+			slot15(slot16, slot17)
 			setImageSprite(slot0.activityBtn:Find("sub_Image"), LoadSprite("LinkButton/" .. slot12.text_pic, ""), true)
 			setActive(slot0.activityBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end
@@ -1988,9 +1995,6 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 						pg.UIMgr.CameraUI
 					}
 				})
-
-				uv0.canvasGroup.blocksRaycasts = uv0.frozenCount == 0
-
 				uv0.levelStageView:updateStageInfo()
 				uv0.levelStageView:updateAmbushRate(uv1.fleet.line, true)
 				uv0.levelStageView:updateStageAchieve()
@@ -2005,6 +2009,9 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				end
 
 				uv0.levelStageView:updateStageStrategy()
+
+				uv0.canvasGroup.blocksRaycasts = uv0.frozenCount == 0
+
 				onNextTick(slot0)
 			end,
 			function (slot0)

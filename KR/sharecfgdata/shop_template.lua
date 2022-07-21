@@ -15589,6 +15589,174 @@ _G.pg.base.shop_template[60332] = {
 	}
 }
 
+_G.pg.base.shop_template[60333] = {
+	is_auto_use = 1,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "120钻石购买限时攻略补给（信浓轻量化复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60333,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2022,
+				7,
+				21
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				7,
+				27
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60334] = {
+	is_auto_use = 1,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "980钻石购买限时建造补给（信浓轻量化复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60334,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40118
+	},
+	time = {
+		{
+			{
+				2022,
+				7,
+				21
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				7,
+				27
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60335] = {
+	is_auto_use = 1,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "500钻石购买家具币礼包（信浓轻量化复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60335,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2022,
+				7,
+				21
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				7,
+				27
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[61001] = {
 	is_auto_use = 0,
 	resource_type = 14,
@@ -29493,8 +29661,8 @@ _G.pg.base.shop_template[70341] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -29505,8 +29673,8 @@ _G.pg.base.shop_template[70341] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -29981,8 +30149,8 @@ _G.pg.base.shop_template[70360] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -29993,8 +30161,8 @@ _G.pg.base.shop_template[70360] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32302,8 +32470,8 @@ _G.pg.base.shop_template[70406] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32314,8 +32482,8 @@ _G.pg.base.shop_template[70406] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32353,8 +32521,8 @@ _G.pg.base.shop_template[70407] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32365,8 +32533,8 @@ _G.pg.base.shop_template[70407] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32404,8 +32572,8 @@ _G.pg.base.shop_template[70408] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32416,8 +32584,8 @@ _G.pg.base.shop_template[70408] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32455,8 +32623,8 @@ _G.pg.base.shop_template[70409] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32467,8 +32635,8 @@ _G.pg.base.shop_template[70409] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32506,8 +32674,8 @@ _G.pg.base.shop_template[70410] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32518,8 +32686,8 @@ _G.pg.base.shop_template[70410] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32557,8 +32725,8 @@ _G.pg.base.shop_template[70411] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32569,8 +32737,8 @@ _G.pg.base.shop_template[70411] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32608,8 +32776,8 @@ _G.pg.base.shop_template[70412] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32620,8 +32788,8 @@ _G.pg.base.shop_template[70412] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32659,8 +32827,8 @@ _G.pg.base.shop_template[70413] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32671,8 +32839,8 @@ _G.pg.base.shop_template[70413] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32710,8 +32878,8 @@ _G.pg.base.shop_template[70414] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32722,8 +32890,8 @@ _G.pg.base.shop_template[70414] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32761,8 +32929,8 @@ _G.pg.base.shop_template[70415] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32773,8 +32941,8 @@ _G.pg.base.shop_template[70415] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -32812,8 +32980,8 @@ _G.pg.base.shop_template[70416] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -32824,8 +32992,8 @@ _G.pg.base.shop_template[70416] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -33192,8 +33360,8 @@ _G.pg.base.shop_template[70421] = {
 		{
 			{
 				2022,
-				3,
-				31
+				7,
+				21
 			},
 			{
 				0,
@@ -33204,8 +33372,8 @@ _G.pg.base.shop_template[70421] = {
 		{
 			{
 				2022,
-				4,
-				20
+				7,
+				27
 			},
 			{
 				23,
@@ -47874,6 +48042,57 @@ _G.pg.base.shop_template[70713] = {
 	}
 }
 
+_G.pg.base.shop_template[70714] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:220714阿尔及利亚童话",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70714,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		903022
+	},
+	time = {
+		{
+			{
+				2022,
+				7,
+				21
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				7,
+				27
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[90001] = {
 	is_auto_use = 0,
 	resource_type = 125,
@@ -53944,6 +54163,159 @@ _G.pg.base.shop_template[90149] = {
 				2022,
 				7,
 				20
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90150] = {
+	is_auto_use = 0,
+	resource_type = 270,
+	genre = "skin_shop_timelimit",
+	type = 6,
+	desc = "220714限时皮肤体验：阿尔及利亚童话皮肤",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90150,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		903022
+	},
+	time = {
+		{
+			{
+				2022,
+				7,
+				21
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				7,
+				27
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90151] = {
+	is_auto_use = 0,
+	resource_type = 270,
+	genre = "skin_shop_timelimit",
+	type = 6,
+	desc = "220714限时皮肤体验：天城泳装",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90151,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		304051
+	},
+	time = {
+		{
+			{
+				2022,
+				7,
+				21
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				7,
+				27
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90152] = {
+	is_auto_use = 0,
+	resource_type = 270,
+	genre = "skin_shop_timelimit",
+	type = 6,
+	desc = "220714限时皮肤体验：絮库夫泳装",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 3,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90152,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		808012
+	},
+	time = {
+		{
+			{
+				2022,
+				7,
+				21
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				7,
+				27
 			},
 			{
 				23,

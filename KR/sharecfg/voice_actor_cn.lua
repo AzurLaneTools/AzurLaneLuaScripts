@@ -1283,5 +1283,21 @@ pg.voice_actor_CN = {
 	[326] = {
 		code = 326,
 		actor_name = "Fujii Yukiyo"
+	},
+	[327] = {
+		code = 327,
+		actor_name = "Murakami Manatsu"
+	},
+	[328] = {
+		code = 328,
+		actor_name = "Asakura Momo"
+	},
+	[329] = {
+		code = 329,
+		actor_name = "Yuzuki Ryouka"
+	},
+	[330] = {
+		code = 330,
+		actor_name = "Senbongi Sayaka"
 	}
 }

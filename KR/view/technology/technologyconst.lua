@@ -15,6 +15,7 @@ slot0.GOT_TEC_CAMP_AWARD_ONESTEP = "TechnologyConst:GOT_TEC_CAMP_AWARD_ONESTEP"
 slot0.SET_TEC_ATTR_ADDITION_FINISH = "TechnologyConst:SET_TEC_ATTR_ADDITION_FINISH"
 slot0.SHIP_LEVEL_FOR_BUFF = 120
 slot0.AtlasName = "ui/technologytreeui_atlas"
+slot0.QUEUE_TOTAL_COUNT = 5
 slot0.NationOrder = {
 	Nation.US,
 	Nation.EN,
