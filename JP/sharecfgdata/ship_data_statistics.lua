@@ -232210,7 +232210,8 @@ _G.pg.base.ship_data_statistics[605011] = {
 		{}
 	},
 	tag_list = {
-		"Vittorio Veneto-Class"
+		"Vittorio Veneto-Class",
+		"Vittorio Veneto"
 	}
 }
 
@@ -232335,7 +232336,8 @@ _G.pg.base.ship_data_statistics[605012] = {
 		{}
 	},
 	tag_list = {
-		"Vittorio Veneto-Class"
+		"Vittorio Veneto-Class",
+		"Vittorio Veneto"
 	}
 }
 
@@ -232460,7 +232462,8 @@ _G.pg.base.ship_data_statistics[605013] = {
 		{}
 	},
 	tag_list = {
-		"Vittorio Veneto-Class"
+		"Vittorio Veneto-Class",
+		"Vittorio Veneto"
 	}
 }
 
@@ -232585,7 +232588,8 @@ _G.pg.base.ship_data_statistics[605014] = {
 		{}
 	},
 	tag_list = {
-		"Vittorio Veneto-Class"
+		"Vittorio Veneto-Class",
+		"Vittorio Veneto"
 	}
 }
 
@@ -338217,7 +338221,7 @@ _G.pg.base.ship_data_statistics[599011] = {
 		71,
 		0,
 		57,
-		54,
+		61,
 		33.4,
 		0,
 		36
@@ -338231,7 +338235,7 @@ _G.pg.base.ship_data_statistics[599011] = {
 		495,
 		0,
 		845,
-		834,
+		939,
 		0,
 		0,
 		423
@@ -338345,7 +338349,7 @@ _G.pg.base.ship_data_statistics[599012] = {
 		71,
 		0,
 		57,
-		54,
+		61,
 		33.4,
 		0,
 		45
@@ -338359,7 +338363,7 @@ _G.pg.base.ship_data_statistics[599012] = {
 		495,
 		0,
 		845,
-		834,
+		939,
 		0,
 		0,
 		423
@@ -338473,7 +338477,7 @@ _G.pg.base.ship_data_statistics[599013] = {
 		71,
 		0,
 		57,
-		54,
+		61,
 		33.4,
 		0,
 		62
@@ -338487,7 +338491,7 @@ _G.pg.base.ship_data_statistics[599013] = {
 		495,
 		0,
 		845,
-		834,
+		939,
 		0,
 		0,
 		423
@@ -338601,7 +338605,7 @@ _G.pg.base.ship_data_statistics[599014] = {
 		71,
 		0,
 		57,
-		54,
+		61,
 		33.4,
 		0,
 		89
@@ -338615,7 +338619,7 @@ _G.pg.base.ship_data_statistics[599014] = {
 		495,
 		0,
 		845,
-		834,
+		939,
 		0,
 		0,
 		423

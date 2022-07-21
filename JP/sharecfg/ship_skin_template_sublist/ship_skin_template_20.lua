@@ -8903,12 +8903,10 @@ pg.ship_skin_template_20 = {
 		group_index = 0,
 		prefab = "pulimaosi",
 		painting = "pulimaosi",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
 		illustrator = 1,
+		air_bullet_skin = "",
 		l2d_voice_calibrate = "",
+		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -8920,10 +8918,10 @@ pg.ship_skin_template_20 = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "軽巡洋艦--プリマス",
 		voice_actor = 327,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -9002,6 +9000,27 @@ pg.ship_skin_template_20 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-113,
+				-775,
+				0
+			},
+			{
+				0.86
+			}
+		},
+		special_effects = {
+			"lihui_pulimaosi",
+			{
+				-114,
+				236,
+				0
+			},
+			{
+				1.9
 			}
 		}
 	},
@@ -9345,12 +9364,10 @@ pg.ship_skin_template_20 = {
 		group_index = 0,
 		prefab = "buleisite",
 		painting = "buleisite",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
 		illustrator = 1,
+		air_bullet_skin = "",
 		l2d_voice_calibrate = "",
+		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -9362,10 +9379,10 @@ pg.ship_skin_template_20 = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "大型巡洋艦--ブレスト",
 		voice_actor = 330,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -9444,6 +9461,27 @@ pg.ship_skin_template_20 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-35,
+				-1749,
+				0
+			},
+			{
+				1.2
+			}
+		},
+		special_effects = {
+			"lihui_buleisite",
+			{
+				-51,
+				162,
+				0
+			},
+			{
+				2.2
 			}
 		}
 	}

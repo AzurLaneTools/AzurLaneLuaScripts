@@ -34,7 +34,7 @@ function slot0.CustomOnClick(slot0)
 	elseif slot1 == ActivityConst.MUSIC_FESTIVAL_ID_2 then
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.MUSIC_FESTIVAL2)
 	elseif slot1 == ActivityConst.MUSIC_FESTIVAL_MEDALCOLLECTION_2020 then
-		slot0:emit(NewMainMediator.GO_SCENE, SCENE.DOA_MEDAL_COLLECTION_SCENE)
+		slot0:emit(NewMainMediator.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE2)
 	else
 		slot0:OnClick()
 	end

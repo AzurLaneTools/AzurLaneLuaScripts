@@ -15,6 +15,26 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
 					"onTorpedoWeaponFire"
 				},
 				arg_list = {
@@ -36,6 +56,26 @@ return {
 				arg_list = {
 					target = "TargetSelf",
 					buff_id = 19581
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
 				}
 			},
 			{
@@ -67,6 +107,26 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
 					"onTorpedoWeaponFire"
 				},
 				arg_list = {
@@ -88,6 +148,26 @@ return {
 				arg_list = {
 					target = "TargetSelf",
 					buff_id = 19581
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
 				}
 			},
 			{
@@ -119,6 +199,26 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
 					"onTorpedoWeaponFire"
 				},
 				arg_list = {
@@ -140,6 +240,26 @@ return {
 				arg_list = {
 					target = "TargetSelf",
 					buff_id = 19581
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
 				}
 			},
 			{
@@ -171,6 +291,26 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
 					"onTorpedoWeaponFire"
 				},
 				arg_list = {
@@ -192,6 +332,26 @@ return {
 				arg_list = {
 					target = "TargetSelf",
 					buff_id = 19581
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
 				}
 			},
 			{
@@ -223,6 +383,26 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
 					"onTorpedoWeaponFire"
 				},
 				arg_list = {
@@ -244,6 +424,26 @@ return {
 				arg_list = {
 					target = "TargetSelf",
 					buff_id = 19581
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					skill_id = 19583,
+					target = "TargetSelf"
+				}
+			},
+			{
+				type = "BattleBuffCastSkill",
+				trigger = {
+					"onTorpedoWeaponFire"
+				},
+				arg_list = {
+					target = "TargetSelf",
+					skill_id = 19582
 				}
 			},
 			{
@@ -280,6 +480,26 @@ return {
 			arg_list = {
 				target = "TargetSelf",
 				buff_id = 19581
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				skill_id = 19583,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onTorpedoWeaponFire"
+			},
+			arg_list = {
+				target = "TargetSelf",
+				skill_id = 19582
 			}
 		},
 		{

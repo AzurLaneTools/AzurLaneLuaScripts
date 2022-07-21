@@ -342,6 +342,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>戦いの日々から幾星霜。輝く誓いの栄光は色褪せることなく</color>――「誠閃の剣　搖光の城」イベントで入手可能",
 		scene = {}
 	},
+	[321] = {
+		time_limit_type = 0,
+		name = "帝国の輝き",
+		gain_by = "",
+		id = 321,
+		time_second = 0,
+		desc = "限定海域イベントをクリアで入手",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -444,6 +453,7 @@ pg.item_data_frame = {
 		318,
 		319,
 		320,
+		321,
 		401,
 		402,
 		403,

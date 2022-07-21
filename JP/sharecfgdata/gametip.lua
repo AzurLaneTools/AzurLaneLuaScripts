@@ -10020,15 +10020,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「アラバマ」「ボルチモア」常設実装！"
+	tip = "「駿河」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「アレン・M・サムナー」「ステフェン・ポッター」などが常設実装！"
+	tip = "「能代」「風雲」などが常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「フォーミダブル」常設実装！"
+	tip = "「龍鳳」常設実装！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
