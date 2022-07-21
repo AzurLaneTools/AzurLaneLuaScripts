@@ -10008,15 +10008,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "巴尔的摩、阿拉巴马 建造追加！"
+	tip = "{namecode:175} 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "艾伦·萨姆纳、史蒂芬·波特、伯明翰 建造追加！"
+	tip = "{namecode:50}、{namecode:203} 等角色建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "可畏 建造追加！"
+	tip = "{namecode:179} 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {

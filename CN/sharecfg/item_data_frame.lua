@@ -351,6 +351,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「即使历经时间与战火的磨损，曾经的誓言依旧如恒星般闪耀」</color>\n「泠誓光庭」活动获取",
 		scene = {}
 	},
+	[321] = {
+		time_limit_type = 0,
+		name = "雄鹰之辉",
+		gain_by = "",
+		id = 321,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -454,6 +463,7 @@ pg.item_data_frame = {
 		318,
 		319,
 		320,
+		321,
 		401,
 		402,
 		404,

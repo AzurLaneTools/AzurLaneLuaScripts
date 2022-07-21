@@ -15996,6 +15996,132 @@ _G.pg.base.equip_data_statistics[3593] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3600] = {
+	type = 10,
+	name = "撒丁的邀请函",
+	speciality = "无",
+	tech = 0,
+	value_2 = 6,
+	ammo = 10,
+	nationality = 6,
+	descrip = "由撒丁帝国制作的精美邀请函，可于博览会期间自由出入各场馆贵宾区",
+	rarity = 4,
+	attribute_1 = "cannon",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3600,
+	icon = "3600",
+	value_1 = "5",
+	attribute_2 = "dodge",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6980
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3601] = {
+	id = 3601,
+	value_2 = 7,
+	value_1 = "5",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3602] = {
+	id = 3602,
+	value_2 = 7,
+	value_1 = "6",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3603] = {
+	id = 3603,
+	value_2 = 8,
+	value_1 = "6",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3604] = {
+	id = 3604,
+	value_2 = 9,
+	value_1 = "7",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3605] = {
+	id = 3605,
+	value_2 = 10,
+	value_1 = "7",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3606] = {
+	id = 3606,
+	value_2 = 11,
+	value_1 = "8",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3607] = {
+	id = 3607,
+	value_2 = 12,
+	value_1 = "9",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3608] = {
+	id = 3608,
+	value_2 = 13,
+	value_1 = "10",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3609] = {
+	id = 3609,
+	value_2 = 14,
+	value_1 = "11",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3610] = {
+	id = 3610,
+	value_2 = 15,
+	value_1 = "12",
+	base = 3600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3611] = {
+	value_2 = 16,
+	anti_siren = 100,
+	base = 3600,
+	id = 3611,
+	value_1 = "13",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[4000] = {
 	tech = 1,
 	name = "基础深弹投射器",

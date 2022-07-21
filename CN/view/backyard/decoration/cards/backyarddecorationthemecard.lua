@@ -13,6 +13,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.posTxt = slot0.pos:Find("new"):GetComponent(typeof(Text))
 end
 
+function slot0.RemoveSizeTag(slot0, slot1)
+	return string.gsub(string.gsub(slot1, "</size>", ""), "<size=%d+>", "")
+end
+
 function slot0.Update(slot0, slot1, slot2)
 	slot0.themeVO = slot1
 
@@ -54,7 +58,7 @@ function slot0.Update(slot0, slot1, slot2)
 		end
 
 		setActive(slot0.pos, not slot3)
-		setText(slot0.comfortableTF, shortenString(slot1:getName(), 4))
+		setText(slot0.comfortableTF, shortenString(slot0:RemoveSizeTag(slot1:getName()), 4))
 		SetActive(slot0.newTF, false)
 		slot0:UpdateState(slot2)
 	else

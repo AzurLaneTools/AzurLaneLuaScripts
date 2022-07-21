@@ -9100,6 +9100,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6980] = {
+		desc_get = "",
+		name = "撒丁的邀请",
+		id = 6980,
+		type = 0,
+		max_level = 0,
+		desc = "战斗中，自身为非撒丁阵营角色且与维托里奥·维内托同时出击时：①若自身为先锋舰队角色，自身炮击、雷击、机动属性提高10.0% ②若自身为主力舰队角色，自身炮击、航空、命中属性提高8.0% ",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "莱茵演习",
@@ -93727,6 +93741,7 @@ pg.skill_data_template = {
 		6950,
 		6960,
 		6970,
+		6980,
 		7000,
 		9010,
 		9020,

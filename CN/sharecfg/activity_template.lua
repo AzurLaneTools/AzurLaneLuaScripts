@@ -4031,12 +4031,13 @@ pg.activity_template = {
 	},
 	[4426] = {
 		mark = 20220609,
-		config_client = "",
 		title_res_tag = "LevelOpenAct",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 16,
+		config_client = "",
 		id = 4426,
 		config_data = {
 			{
@@ -4051,33 +4052,6 @@ pg.activity_template = {
 				17741,
 				17742,
 				17743
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					6,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -4699,42 +4673,16 @@ pg.activity_template = {
 	},
 	[4447] = {
 		mark = 20220714,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 7,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4447,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4448] = {
 		mark = 20220714,
@@ -4823,12 +4771,13 @@ pg.activity_template = {
 	},
 	[4450] = {
 		mark = 20220714,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4450,
 		config_data = {
@@ -4850,43 +4799,17 @@ pg.activity_template = {
 			17785,
 			17786,
 			17787
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4451] = {
 		mark = 20220714,
-		id = 4451,
 		title_res_tag = "Shinano_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 20,
+		id = 4451,
 		config_data = {
 			1410001,
 			1410002,
@@ -4896,33 +4819,6 @@ pg.activity_template = {
 			1410023,
 			1410007,
 			1410027
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "ShinanoMainPage",
@@ -4934,12 +4830,13 @@ pg.activity_template = {
 	},
 	[4452] = {
 		mark = 20220714,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4452,
 		config_data = {
 			1410004,
@@ -4952,33 +4849,6 @@ pg.activity_template = {
 			1410028,
 			1410041,
 			1410051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -5109,42 +4979,16 @@ pg.activity_template = {
 	},
 	[4455] = {
 		mark = 20220714,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 10,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4455,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4456] = {
 		mark = 20220714,
@@ -5187,42 +5031,16 @@ pg.activity_template = {
 	},
 	[4457] = {
 		mark = 20220714,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4457,
 		config_data = {
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			59327
@@ -5230,13 +5048,28 @@ pg.activity_template = {
 	},
 	[4459] = {
 		mark = 20220714,
-		config_client = "",
 		title_res_tag = "Shinano_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 28,
 		is_show = 15,
+		config_client = "",
 		id = 4459,
+		config_data = {},
+		page_info = {
+			class_name = "ShinanoLoginPage",
+			ui_name = "ShinanoLoginPage"
+		}
+	},
+	[4460] = {
+		mark = 20220721,
+		id = 4460,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 23,
 		config_data = {},
 		time = {
 			"timer",
@@ -5244,7 +5077,7 @@ pg.activity_template = {
 				{
 					2022,
 					7,
-					14
+					21
 				},
 				{
 					0,
@@ -5255,8 +5088,8 @@ pg.activity_template = {
 			{
 				{
 					2022,
-					7,
-					21
+					8,
+					17
 				},
 				{
 					23,
@@ -5266,8 +5099,180 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "ShinanoLoginPage",
-			ui_name = "ShinanoLoginPage"
+			class_name = "MainzTecCatchupPage",
+			ui_name = "MainzTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42023
+		}
+	},
+	[4461] = {
+		mark = 20220721,
+		config_client = "",
+		title_res_tag = "maoxiV3_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 25,
+		id = 4461,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3FramePage",
+			ui_name = "YidaliV3FramePage"
+		}
+	},
+	[4462] = {
+		mark = 20220721,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 19,
+		is_show = 0,
+		config_client = "",
+		id = 4462,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4463] = {
+		mark = 20220721,
+		id = 4463,
+		title_res_tag = "yidaliV3_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 24,
+		config_data = {
+			{
+				17801
+			},
+			{
+				17802
+			},
+			{
+				17803
+			},
+			{
+				17804
+			},
+			{
+				17805
+			},
+			{
+				17806
+			},
+			{
+				17807
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3SkinPage",
+			ui_name = "YidaliV3SkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"SADINGDEYAOYUE1"
+				},
+				{
+					"SADINGDEYAOYUE2"
+				},
+				{
+					"SADINGDEYAOYUE3"
+				},
+				{
+					"SADINGDEYAOYUE4"
+				},
+				{
+					"SADINGDEYAOYUE5"
+				},
+				{
+					"SADINGDEYAOYUE6"
+				},
+				{
+					"SADINGDEYAOYUE7"
+				}
+			}
 		}
 	},
 	[7001] = {
@@ -8488,6 +8493,10 @@ pg.activity_template = {
 		4456,
 		4457,
 		4459,
+		4460,
+		4461,
+		4462,
+		4463,
 		7001,
 		7002,
 		7003,
