@@ -6404,8 +6404,8 @@ _G.pg.base.item_data_statistics[13035] = {
 }
 
 _G.pg.base.item_data_statistics[13036] = {
-	display = "시제형 연장 130mm 주포 Model 1936 설계도",
-	name = "试作型双联装130mm主炮Model 1936设计图",
+	display = "시제형 2연장 130mm 주포 Model 1936 설계도",
+	name = "시제형 2연장 130mm 주포 Model 1936 설계도",
 	max_num = 0,
 	type = 9,
 	drop_oil_max = 0,
@@ -43627,7 +43627,7 @@ _G.pg.base.item_data_statistics[52051] = {
 }
 
 _G.pg.base.item_data_statistics[52061] = {
-	display = "랜덤으로 하기 강화 유닛을 획득할 수 있습니다.",
+	display = "다음의 강화 유닛 중 랜덤 획득할 수 있다.",
 	name = "강화 유닛 (랜덤)",
 	max_num = 0,
 	type = 99,
@@ -43674,7 +43674,7 @@ _G.pg.base.item_data_statistics[52061] = {
 }
 
 _G.pg.base.item_data_statistics[52062] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "다음의 설계도 중 랜덤 획득할 수 있다.",
 	name = "장비 설계도 (랜덤)",
 	max_num = 0,
 	type = 99,
@@ -160948,7 +160948,7 @@ _G.pg.base.item_data_statistics[59326] = {
 }
 
 _G.pg.base.item_data_statistics[59327] = {
-	display = "于『蝶海梦花』活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	display = "『접해몽화』 이벤트 한정 복각에서 획득. 한정 건조 무료 1회 진행 가능(이벤트 종료 후 사라짐)",
 	name = "1회 건조권",
 	max_num = 0,
 	type = 0,
@@ -160969,7 +160969,7 @@ _G.pg.base.item_data_statistics[59327] = {
 }
 
 _G.pg.base.item_data_statistics[59328] = {
-	display = "用于『蝶海梦花』复刻活动兑换，活动结束后将会消失",
+	display = "『접해몽화』 복각 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "접영",
 	max_num = 0,
 	type = 98,

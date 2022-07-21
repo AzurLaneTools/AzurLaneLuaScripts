@@ -44,7 +44,7 @@ pg.skin_page_template = {
 	},
 	[9] = {
 		id = 9,
-		name = "私服",
+		name = "",
 		res = "sifu",
 		english_name = "Outdoor Casual"
 	},
@@ -110,7 +110,7 @@ pg.skin_page_template = {
 	},
 	[20] = {
 		id = 20,
-		name = "休闲家居",
+		name = "",
 		res = "shuiyi",
 		english_name = "Home Relaxation"
 	},

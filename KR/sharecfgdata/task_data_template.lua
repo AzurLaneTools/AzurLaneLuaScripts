@@ -165317,7 +165317,7 @@ _G.pg.base.task_data_template[17775] = {
 	guild_coin_award = 0,
 	award = 97723,
 	type = 6,
-	desc = "击败T2或HT2旗舰1次",
+	desc = "T2 또는 HT2 기함 1회 격파",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -165376,7 +165376,7 @@ _G.pg.base.task_data_template[17776] = {
 	guild_coin_award = 0,
 	award = 97724,
 	type = 6,
-	desc = "击败T3或HT3旗舰1次",
+	desc = "T3 또는 HT3 기함 1회 격파",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -165435,7 +165435,7 @@ _G.pg.base.task_data_template[17777] = {
 	guild_coin_award = 0,
 	award = 97725,
 	type = 6,
-	desc = "击败T4或HT4旗舰1次",
+	desc = "T4 또는 HT4 기함 1회 격파",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -165494,7 +165494,7 @@ _G.pg.base.task_data_template[17778] = {
 	guild_coin_award = 0,
 	award = 97726,
 	type = 6,
-	desc = "击败T5或HT5旗舰1次",
+	desc = "T5 또는 HT5 기함 1회 격파",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -165553,7 +165553,7 @@ _G.pg.base.task_data_template[17779] = {
 	guild_coin_award = 0,
 	award = 97727,
 	type = 6,
-	desc = "击败T6或HT6旗舰1次",
+	desc = "T6 또는 HT6 기함 1회 격파",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -165706,7 +165706,7 @@ _G.pg.base.task_data_template[17782] = {
 	guild_coin_award = 0,
 	award = 97730,
 	type = 6,
-	desc = "T1 또는 HT1 3성 수집 완료",
+	desc = "T1/HT1 3성 클리어",
 	count_inherit = 0,
 	sub_type = 1021,
 	target_id_2 = "",
@@ -204008,7 +204008,7 @@ _G.pg.base.task_data_template[60229] = {
 }
 
 _G.pg.base.task_data_template[60231] = {
-	name = "普利茅斯开启研发前置任务",
+	name = "플리머스 개발 개방 조건",
 	guild_coin_award = 0,
 	award = 0,
 	type = 9,
@@ -204097,7 +204097,7 @@ _G.pg.base.task_data_template[60233] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程</color>\n\n——完成<color=#92fc63>8次</color>科研项目的研发",
+	desc = "<color=#a2a2a2>개발에 의한 구현화에는 기술투자가 필요하다. 기초 연구의 성과를 첨단 기술에 응용할 수 있게 되면, 개발 진도를 더욱 빠르게 할 수 있을 것이다.</color>\n\n――「과학연구」에서 임의의 연구 항목을<color=#92fc63>8회</color>완료한다.",
 	count_inherit = 0,
 	sub_type = 110,
 	target_id_2 = "",
@@ -204127,7 +204127,7 @@ _G.pg.base.task_data_template[60234] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认</color>\n\n——提交<color=#92fc63>3张</color>巡洋改造图T3",
+	desc = "<color=#a2a2a2>전술 데이터에 따른 피드백과 최첨단 기술 이론을 결합한 결과, 개발은 도면 제작 단계까지 진행될 수 있었다. 하지만, 설계의 세부 항목을 마저 완성시키기 위해선 기존의 도면 설계와의 비교를 철저히 진행할 수 밖에 없다.</color>\n\n――순양함 개조 도면 T3을<color=#92fc63>3장</color>수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -204158,10 +204158,10 @@ _G.pg.base.task_data_template[60235] = {
 	award = 0,
 	type = 8,
 	desc = [[
-<color=#a2a2a2><color=#92fc63>「需先完成皇家先锋技术测试I」</color>
-研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠</color>
+<color=#92fc63>「로열 네이비 선봉 기술 테스트 I」을 완료하여야 한다.</color>
+<color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-——使用皇家先锋角色，在任意关卡中累计获得<color=#92fc63>240万</color>经验（不同角色可累加）]],
+――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>2400000</color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -204219,10 +204219,10 @@ _G.pg.base.task_data_template[60236] = {
 	award = 0,
 	type = 8,
 	desc = [[
-<color=#a2a2a2><color=#92fc63>「需先完成大型技术理论I」</color>
-支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了</color>
+<color=#92fc63>「전술 이론 연구Ⅰ」을 완료해야 한다.</color>
+<color=#a2a2a2>>기본 설계의 다음 과정은 수정, 개선 및 최적화로써, 성공적으로 완료하게 된다면 초기 단계에서 실현하지 못했던 아이디어를 실현할 수 있는 큰 기회가 찾아올 것이다.</color>
 
-——完成<color=#92fc63>12次</color>科研项目的研发]],
+――「과학연구」에서 임의의 연구 항목을 <color=#92fc63>12회</color> 완료한다.]],
 	count_inherit = 0,
 	sub_type = 110,
 	target_id_2 = "",
@@ -204254,7 +204254,7 @@ _G.pg.base.task_data_template[60237] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考</color>\n\n——提交<color=#92fc63>8张</color>巡洋改造图T3",
+	desc = "<color=#a2a2a2>기술 이론과 실전 데이터, 견실한 설계와 대담한 발상으로 조합된 [스페셜 프로젝트] 함선의 설계가 드디어 거의 완성되었다. 나머지 문제점을 해결하고, 최고의 완성도를 목표로 하자.</color>\n\n――순양함 개조 도면 T3을 <color=#92fc63>8장</color> 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -204280,11 +204280,11 @@ _G.pg.base.task_data_template[60237] = {
 }
 
 _G.pg.base.task_data_template[60238] = {
-	name = "普利茅斯舰体塑造I",
+	name = "함체 건조I",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了</color>\n\n——提交<color=#92fc63>4万</color>物资",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――물자 <color=#92fc63>40000</color>을 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -204310,11 +204310,11 @@ _G.pg.base.task_data_template[60238] = {
 }
 
 _G.pg.base.task_data_template[60239] = {
-	name = "普利茅斯舰体塑造II",
+	name = "함체 건조II",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了</color>\n\n——提交<color=#92fc63>10个</color>心智魔方",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――성정 큐브 <color=#92fc63>10개</color> 를 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -204340,7 +204340,7 @@ _G.pg.base.task_data_template[60239] = {
 }
 
 _G.pg.base.task_data_template[60241] = {
-	name = "鲁普雷希特亲王开启研发前置任务",
+	name = "프린츠 루프레히트 개발 개방 조건",
 	guild_coin_award = 0,
 	award = 0,
 	type = 9,
@@ -204471,7 +204471,7 @@ _G.pg.base.task_data_template[60244] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>전술 데이터에 따른 피드백과 최첨단 기술 이론을 결합한 결과, 개발은 도면 제작 단계까지 진행될 수 있었다. 하지만, 설계의 세부 항목을 마저 완성시키기 위해선 기존의 도면 설계와의 비교를 철저히 진행할 수 밖에 없다.</color>\n\n――전함 개조 도면 T2를<color=#92fc63>10장</color>수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>전술 데이터에 따른 피드백과 최첨단 기술 이론을 결합한 결과, 개발은 도면 제작 단계까지 진행될 수 있었다. 하지만, 설계의 세부 항목을 마저 완성시키기 위해선 기존의 도면 설계와의 비교를 철저히 진행할 수 밖에 없다.</color>\n\n――전함 개조 도면 T2를<color=#92fc63>10장</color>수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -204502,7 +204502,7 @@ _G.pg.base.task_data_template[60245] = {
 	award = 0,
 	type = 8,
 	desc = [[
-<color=#92fc63>「메탈 블러드 주력 기술 테스트 I」을 완료하여야 한다.</color>
+<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
 ――함대를 출격시켜, 메탈 블러드 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
@@ -204610,7 +204610,7 @@ _G.pg.base.task_data_template[60247] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>기술 이론과 실전 데이터, 견실한 설계와 대담한 발상으로 조합된 [스페셜 프로젝트] 함선의 설계가 드디어 거의 완성되었다. 나머지 문제점을 해결하고, 최고의 완성도를 목표로 하자.</color>\n\n――전함 개조 도면 T3을 <color=#92fc63>5장</color> 수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>기술 이론과 실전 데이터, 견실한 설계와 대담한 발상으로 조합된 [스페셜 프로젝트] 함선의 설계가 드디어 거의 완성되었다. 나머지 문제점을 해결하고, 최고의 완성도를 목표로 하자.</color>\n\n――전함 개조 도면 T3을 <color=#92fc63>5장</color> 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -204636,11 +204636,11 @@ _G.pg.base.task_data_template[60247] = {
 }
 
 _G.pg.base.task_data_template[60248] = {
-	name = "鲁普雷希特亲王舰体塑造I",
+	name = "함체 건조I",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――물자<color=#92fc63> 30000</color>을 수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――물자<color=#92fc63> 30000</color>을 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -204666,11 +204666,11 @@ _G.pg.base.task_data_template[60248] = {
 }
 
 _G.pg.base.task_data_template[60249] = {
-	name = "鲁普雷希特亲王舰体塑造II",
+	name = "함체 건조II",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――성정 큐브<color=#92fc63>5개</color> 를 수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――성정 큐브<color=#92fc63>5개</color> 를 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -204696,7 +204696,7 @@ _G.pg.base.task_data_template[60249] = {
 }
 
 _G.pg.base.task_data_template[60251] = {
-	name = "滨江开启研发前置任务",
+	name = "하얼빈 개발 개방 조건",
 	guild_coin_award = 0,
 	award = 0,
 	type = 9,
@@ -204726,11 +204726,11 @@ _G.pg.base.task_data_template[60251] = {
 }
 
 _G.pg.base.task_data_template[60252] = {
-	name = "东煌先锋技术测试I",
+	name = "이스트 글림 선봉 기술 테스트 I",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用东煌先锋角色，在任意关卡中累计获得<color=#92fc63>100万</color>经验（不同角色可累加）",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 이스트 글림 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -204815,7 +204815,7 @@ _G.pg.base.task_data_template[60254] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>전술 데이터에 따른 피드백과 최첨단 기술 이론을 결합한 결과, 개발은 도면 제작 단계까지 진행될 수 있었다. 하지만, 설계의 세부 항목을 마저 완성시키기 위해선 기존의 도면 설계와의 비교를 철저히 진행할 수 밖에 없다.</color>\n\n――순양함 개조 도면 T2를 <color=#92fc63>10장</color> 수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>전술 데이터에 따른 피드백과 최첨단 기술 이론을 결합한 결과, 개발은 도면 제작 단계까지 진행될 수 있었다. 하지만, 설계의 세부 항목을 마저 완성시키기 위해선 기존의 도면 설계와의 비교를 철저히 진행할 수 밖에 없다.</color>\n\n――순양함 개조 도면 T2를 <color=#92fc63>10장</color> 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -204841,15 +204841,15 @@ _G.pg.base.task_data_template[60254] = {
 }
 
 _G.pg.base.task_data_template[60255] = {
-	name = "东煌先锋技术测试II ",
+	name = "이스트 글림 선봉 기술 테스트 II",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
 	desc = [[
-<color=#a2a2a2><color=#92fc63>「需先完成东煌先锋技术测试I」</color>
-研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠</color>
+<color=#92fc63>「이스트 글림 선봉 기술 테스트 I」을 완료하여야 한다.</color>
+<color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-——使用东煌先锋角色，在任意关卡中累计获得<color=#92fc63>200万</color>经验（不同角色可累加）]],
+――함대를 출격시켜, 이스트 글림 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -204942,7 +204942,7 @@ _G.pg.base.task_data_template[60257] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>기술 이론과 실전 데이터, 견실한 설계와 대담한 발상으로 조합된 [스페셜 프로젝트] 함선의 설계가 드디어 거의 완성되었다. 나머지 문제점을 해결하고, 최고의 완성도를 목표로 하자.</color>\n\n――순양함 개조 도면 T3를 <color=#92fc63>5장</color>수집한다.(「완료」을 터치하면 소모가 진행됩니다.)",
+	desc = "<color=#a2a2a2>기술 이론과 실전 데이터, 견실한 설계와 대담한 발상으로 조합된 [스페셜 프로젝트] 함선의 설계가 드디어 거의 완성되었다. 나머지 문제점을 해결하고, 최고의 완성도를 목표로 하자.</color>\n\n――순양함 개조 도면 T3를 <color=#92fc63>5장</color>수집한다.(「완료」를 터치하면 소모가 진행됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -204968,11 +204968,11 @@ _G.pg.base.task_data_template[60257] = {
 }
 
 _G.pg.base.task_data_template[60258] = {
-	name = "滨江舰体塑造I",
+	name = "함체 건조I",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――물자 <color=#92fc63>20000</color>을 모은다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――물자 <color=#92fc63>20000</color>을 모은다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -204998,11 +204998,11 @@ _G.pg.base.task_data_template[60258] = {
 }
 
 _G.pg.base.task_data_template[60259] = {
-	name = "滨江舰体塑造II",
+	name = "함체 건조II",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐이다. 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비도 잊지 말도록!</color>\n\n――성정 큐브 <color=#92fc63>5개</color>를 모은다.(「완료」을 클릭하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐이다. 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비도 잊지 말도록!</color>\n\n――성정 큐브 <color=#92fc63>5개</color>를 모은다.(「완료」를 클릭하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -205028,7 +205028,7 @@ _G.pg.base.task_data_template[60259] = {
 }
 
 _G.pg.base.task_data_template[60260] = {
-	name = "契卡洛夫开启研发前置任务1",
+	name = "치칼로프 개발 개방 조건1",
 	guild_coin_award = 0,
 	award = 0,
 	type = 9,
@@ -205058,7 +205058,7 @@ _G.pg.base.task_data_template[60260] = {
 }
 
 _G.pg.base.task_data_template[60261] = {
-	name = "契卡洛夫开启研发前置任务2",
+	name = "치칼로프 개발 개방 조건2",
 	guild_coin_award = 0,
 	award = 0,
 	type = 9,
@@ -205088,11 +205088,11 @@ _G.pg.base.task_data_template[60261] = {
 }
 
 _G.pg.base.task_data_template[60262] = {
-	name = "撒丁主力技术测试I ",
+	name = "전술 데이터 수집Ⅰ",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用撒丁或北方联合主力角色，在任意关卡中累计获得<color=#92fc63>100万</color>经验（不同角色可累加）",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 사르데냐 엠파이어 또는 노스 유니온 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -205256,10 +205256,10 @@ _G.pg.base.task_data_template[60265] = {
 	award = 0,
 	type = 8,
 	desc = [[
-<color=#a2a2a2><color=#92fc63>「需先完成撒丁主力技术测试I」</color>
-研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>
+<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-——使用白鹰或北方联合主力角色，在任意关卡中累计获得<color=#92fc63>200万</color>经验（不同角色可累加）]],
+――함대를 출격시켜, 이글 유니온 또는 사르데냐 엠파이어 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -205426,11 +205426,11 @@ _G.pg.base.task_data_template[60267] = {
 }
 
 _G.pg.base.task_data_template[60268] = {
-	name = "契卡洛夫舰体塑造I",
+	name = "함체 건조II",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――물자<color=#92fc63> 30000</color>을 수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――물자<color=#92fc63> 30000</color>을 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -205456,11 +205456,11 @@ _G.pg.base.task_data_template[60268] = {
 }
 
 _G.pg.base.task_data_template[60269] = {
-	name = "契卡洛夫舰体塑造II",
+	name = "함체 건조II",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――성정 큐브<color=#92fc63>5개</color> 를 수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――성정 큐브<color=#92fc63>5개</color> 를 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -205486,7 +205486,7 @@ _G.pg.base.task_data_template[60269] = {
 }
 
 _G.pg.base.task_data_template[60271] = {
-	name = "布雷斯特开启研发前置任务",
+	name = "브레스트 개발 개방 조건",
 	guild_coin_award = 0,
 	award = 0,
 	type = 9,
@@ -205516,11 +205516,11 @@ _G.pg.base.task_data_template[60271] = {
 }
 
 _G.pg.base.task_data_template[60272] = {
-	name = "鸢尾主力技术测试I ",
+	name = "전술 데이터 수집Ⅰ",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用自由鸢尾或维希教廷主力角色，在任意关卡中累计获得<color=#92fc63>120万</color>经验（不同角色可累加）",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 아이리스 리브레 또는 비시아 성좌 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1200000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -205653,7 +205653,7 @@ _G.pg.base.task_data_template[60274] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>전술 데이터에 따른 피드백과 최첨단 기술 이론을 결합한 결과, 개발은 도면 제작 단계까지 진행될 수 있었다. 하지만, 설계의 세부 항목을 마저 완성시키기 위해선 기존의 도면 설계와의 비교를 철저히 진행할 수 밖에 없다.</color>\n\n――전함 개조 도면 T3 를<color=#92fc63> 3장 </color>수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>전술 데이터에 따른 피드백과 최첨단 기술 이론을 결합한 결과, 개발은 도면 제작 단계까지 진행될 수 있었다. 하지만, 설계의 세부 항목을 마저 완성시키기 위해선 기존의 도면 설계와의 비교를 철저히 진행할 수 밖에 없다.</color>\n\n――전함 개조 도면 T3 를<color=#92fc63> 3장 </color>수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -205679,15 +205679,15 @@ _G.pg.base.task_data_template[60274] = {
 }
 
 _G.pg.base.task_data_template[60275] = {
-	name = "鸢尾先锋技术测试II ",
+	name = "전술 데이터 수집Ⅱ",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
 	desc = [[
-<color=#a2a2a2><color=#92fc63>「需先完成鸢尾主力技术测试I」</color>
-研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>
+<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-——使用自由鸢尾或维希教廷先锋角色，在任意关卡中累计获得<color=#92fc63>240万</color>经验（不同角色可累加）]],
+――함대를 출격시켜, 아이리스 리브레 또는 비시아 성좌 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>2400000</color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -205804,7 +205804,7 @@ _G.pg.base.task_data_template[60277] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>기술 이론과 실전 데이터, 견실한 설계와 대담한 발상으로 조합된 [스페셜 프로젝트] 함선의 설계가 드디어 거의 완성되었다. 나머지 문제점을 해결하고, 최고의 완성도를 목표로 하자.</color>\n\n――순양함 개조 도면 T3을 <color=#92fc63> 8장 </color>수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>기술 이론과 실전 데이터, 견실한 설계와 대담한 발상으로 조합된 [스페셜 프로젝트] 함선의 설계가 드디어 거의 완성되었다. 나머지 문제점을 해결하고, 최고의 완성도를 목표로 하자.</color>\n\n――순양함 개조 도면 T3을 <color=#92fc63> 8장 </color>수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -205830,11 +205830,11 @@ _G.pg.base.task_data_template[60277] = {
 }
 
 _G.pg.base.task_data_template[60278] = {
-	name = "布雷斯特舰体塑造I",
+	name = "함체 건조I",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――물자<color=#92fc63> 50000</color>을 수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――물자<color=#92fc63> 50000</color>을 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -205860,11 +205860,11 @@ _G.pg.base.task_data_template[60278] = {
 }
 
 _G.pg.base.task_data_template[60279] = {
-	name = "布雷斯特舰体塑造II",
+	name = "함체 건조II",
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――성정 큐브<color=#92fc63> 10개</color>을 수집한다.(「완료」을 터치하면 소모하게 됩니다.)",
+	desc = "<color=#a2a2a2>오랜 설계 작업이 드디어 완료되었다. 나머지는 함체의 건조뿐! 자, [스페셜 프로젝트] 함선을 완성하도록 하자! 샴페인을 열 준비를 잊지 말도록!</color>\n\n――성정 큐브<color=#92fc63> 10개</color>을 수집한다.(「완료」를 터치하면 소모하게 됩니다.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",

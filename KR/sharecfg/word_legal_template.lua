@@ -5628,6 +5628,13 @@ function temp()
 			["처"] = {
 				this = true
 			}
+		},
+		["리"] = {
+			["머"] = {
+				["스"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6049,6 +6056,11 @@ function temp()
 		},
 		["우"] = {
 			this = true
+		},
+		["얼"] = {
+			["빈"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6574,6 +6586,11 @@ function temp()
 				["튼"] = {
 					this = true
 				}
+			},
+			["스"] = {
+				["트"] = {
+					this = true
+				}
 			}
 		},
 		["리"] = {
@@ -6769,7 +6786,18 @@ function temp()
 		},
 		["펄"] = {
 			["스"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["베"] = {
@@ -7915,6 +7943,13 @@ function temp()
 			["리"] = {
 				this = true
 			}
+		},
+		["동"] = {
+			["타"] = {
+				["블"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -8206,6 +8241,17 @@ function temp()
 						["달"] = {
 							["베"] = {
 								["르"] = {
+									["트"] = {
+										this = true
+									}
+								}
+							}
+						}
+					},
+					["루"] = {
+						["프"] = {
+							["레"] = {
+								["히"] = {
 									["트"] = {
 										this = true
 									}
@@ -9442,6 +9488,13 @@ function temp()
 			["다"] = {
 				this = true
 			}
+		},
+		["칼"] = {
+			["로"] = {
+				["프"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -10215,6 +10268,11 @@ function temp()
 	uv0["조"] = {
 		["지"] = {
 			["아"] = {
+				this = true
+			}
+		},
+		["프"] = {
+			["르"] = {
 				this = true
 			}
 		}

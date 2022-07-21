@@ -836,7 +836,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20212] = {
 		shiptype = 2,
-		name = "普利茅斯",
+		name = "플리머스",
 		nation = 2,
 		id = 20212,
 		t_level_1 = 47,
@@ -2033,7 +2033,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40405] = {
 		shiptype = 4,
-		name = "鲁普雷希特",
+		name = "프린츠 루프레히트",
 		nation = 4,
 		id = 40405,
 		t_level_1 = 124,
@@ -2268,7 +2268,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50205] = {
 		shiptype = 2,
-		name = "哈尔滨",
+		name = "하얼빈",
 		nation = 5,
 		id = 50205,
 		t_level_1 = 129,
@@ -2618,7 +2618,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70702] = {
 		shiptype = 7,
-		name = "契卡洛夫",
+		name = "치칼로프",
 		nation = 7,
 		id = 70702,
 		t_level_1 = 138,
@@ -2763,7 +2763,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[81801] = {
 		shiptype = 18,
-		name = "布雷斯特",
+		name = "브레스트",
 		nation = 8,
 		id = 81801,
 		t_level_1 = 138,

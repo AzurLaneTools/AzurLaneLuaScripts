@@ -39536,7 +39536,7 @@ _G.pg.base.ship_data_breakout[299052] = {
 
 _G.pg.base.ship_data_breakout[299053] = {
 	use_gold = 0,
-	breakout_view = "专属弹幕升级/主炮底座+1",
+	breakout_view = "특수 탄막 업그레이드/주포 발사 수 +1",
 	use_char_num = 2,
 	use_char = 29905,
 	breakout_id = 299054,
@@ -39569,7 +39569,7 @@ _G.pg.base.ship_data_breakout[299054] = {
 
 _G.pg.base.ship_data_breakout[499071] = {
 	use_gold = 0,
-	breakout_view = "主炮底座+1",
+	breakout_view = "주포 발사 수 +1",
 	use_char_num = 1,
 	use_char = 49907,
 	breakout_id = 499072,
@@ -39640,7 +39640,7 @@ _G.pg.base.ship_data_breakout[499074] = {
 
 _G.pg.base.ship_data_breakout[599011] = {
 	use_gold = 0,
-	breakout_view = "获得专属弹幕I/鱼雷效率提高5%/鱼雷预装填+1",
+	breakout_view = "스킬 습득 - 특수 탄막I/어뢰 효율 +5%/어뢰 예비 장전 +1",
 	use_char_num = 1,
 	use_char = 59901,
 	breakout_id = 599012,
@@ -39658,7 +39658,7 @@ _G.pg.base.ship_data_breakout[599011] = {
 
 _G.pg.base.ship_data_breakout[599012] = {
 	use_gold = 0,
-	breakout_view = "鱼雷效率提高10%/主炮底座+1",
+	breakout_view = "어뢰 효율 +10%/주포 발사 수 +1",
 	use_char_num = 1,
 	use_char = 59901,
 	breakout_id = 599013,
@@ -39678,7 +39678,7 @@ _G.pg.base.ship_data_breakout[599012] = {
 
 _G.pg.base.ship_data_breakout[599013] = {
 	use_gold = 0,
-	breakout_view = "특수 탄막 업그레이드/어뢰 효율 15% 상승/자신이 장비한 어뢰 살포 각도 감소",
+	breakout_view = "특수 탄막 업그레이드/어뢰 효율 +15%/자신이 장비한 어뢰 살포 각도 감소",
 	use_char_num = 2,
 	use_char = 59901,
 	breakout_id = 599014,
@@ -39711,7 +39711,7 @@ _G.pg.base.ship_data_breakout[599014] = {
 
 _G.pg.base.ship_data_breakout[799011] = {
 	use_gold = 0,
-	breakout_view = "鱼雷机效率提高5%",
+	breakout_view = "뇌격기 효율 +5%",
 	use_char_num = 1,
 	use_char = 79901,
 	breakout_id = 799012,
@@ -39729,7 +39729,7 @@ _G.pg.base.ship_data_breakout[799011] = {
 
 _G.pg.base.ship_data_breakout[799012] = {
 	use_gold = 0,
-	breakout_view = "机库容量+1/鱼雷机效率提高10%",
+	breakout_view = "격납고 용량 +1/뇌격기 효율 +10%",
 	use_char_num = 1,
 	use_char = 79901,
 	breakout_id = 799013,
@@ -39749,7 +39749,7 @@ _G.pg.base.ship_data_breakout[799012] = {
 
 _G.pg.base.ship_data_breakout[799013] = {
 	use_gold = 0,
-	breakout_view = "鱼雷机效率提高15%",
+	breakout_view = "뇌격기 효율 +15%",
 	use_char_num = 2,
 	use_char = 79901,
 	breakout_id = 799014,
@@ -39784,7 +39784,7 @@ _G.pg.base.ship_data_breakout[799014] = {
 
 _G.pg.base.ship_data_breakout[899031] = {
 	use_gold = 0,
-	breakout_view = "주포 효율 5% 상승/특수 부포 추가",
+	breakout_view = "주포 효율 +5%/특수 부포 추가",
 	use_char_num = 1,
 	use_char = 89903,
 	breakout_id = 899032,

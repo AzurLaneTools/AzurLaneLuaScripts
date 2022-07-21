@@ -20710,7 +20710,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 5,
 		effect_breakout = 0,
 		need_lv = 1,
-		effect_desc = "耐久+227|防空+16|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "내구 +227|대공 +16|주포 발사 수 +1|도감 개방: 메인1, 전투개시, 임무",
 		extra_desc = "",
 		effect_skill = "",
 		special = 1,
@@ -20985,7 +20985,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 15,
 		effect_breakout = 0,
 		need_lv = 10,
-		effect_desc = "耐久+453|防空+31|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "내구 +453|대공 +31|도감 개방: 메인3, 터치1, 임무완료",
 		extra_desc = "",
 		effect_skill = "",
 		effect_base = "",
@@ -21123,7 +21123,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 20,
 		effect_breakout = 299053,
 		need_lv = 30,
-		effect_desc = "힌계돌파★5|도감 개방 : 스킬, 우편, 의뢰 완료",
+		effect_desc = "한계돌파★5|도감 개방 : 스킬, 우편, 의뢰 완료",
 		effect_equipment_proficiency = "",
 		effect_attr = "",
 		effect_base = "",
@@ -21146,8 +21146,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"主炮效率提高10%"
+			"[안티 세이렌] 업그레이드",
+			"주포 효율 +10%"
 		}
 	},
 	[2321] = {
@@ -21254,7 +21254,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 25,
 		effect_breakout = 0,
 		need_lv = 30,
-		effect_desc = "耐久+681|防空+46|主炮效率提高15%|鉴赏解锁：血量警报",
+		effect_desc = "내구 +681|대공 +46|주포 효율 +15%|도감 개방: HP 경고",
 		extra_desc = "",
 		effect_skill = "",
 		effect_base = "",
@@ -21395,7 +21395,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 30,
 		effect_breakout = 299054,
 		need_lv = 70,
-		effect_desc = "突破至6星|主炮底座+1",
+		effect_desc = "한계돌파★6|주포 발사 수 +1",
 		effect_equipment_proficiency = "",
 		effect_attr = "",
 		effect_dialog = "",
@@ -21418,8 +21418,8 @@ pg.ship_strengthen_blueprint = {
 			1
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"专属弹幕升级"
+			"[안티 세이렌] 업그레이드",
+			"특수 탄막 업그레이드"
 		}
 	},
 	[2401] = {
@@ -21530,7 +21530,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 5,
 		effect_breakout = 0,
 		need_lv = 1,
-		effect_desc = "耐久+344|防空+15|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "내구 +344|대공 +15|주포 효율 +5%|도감 개방: 메인1, 전투개시, 임무",
 		extra_desc = "",
 		effect_skill = "",
 		effect_base = "",
@@ -21695,8 +21695,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"主炮底座+1"
+			"[안티 세이렌] 습득",
+			"주포 발사 수 +1"
 		}
 	},
 	[2411] = {
@@ -21803,7 +21803,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 15,
 		effect_breakout = 0,
 		need_lv = 10,
-		effect_desc = "耐久+688|防空+29|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "내구 +688|대공 +29|대공포 효율 +10%|도감 개방: 메인3, 터치1, 임무완료",
 		extra_desc = "",
 		effect_skill = "",
 		effect_base = "",
@@ -21945,7 +21945,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 20,
 		effect_breakout = 499073,
 		need_lv = 30,
-		effect_desc = "힌계돌파★5|도감 개방 : 스킬, 우편, 의뢰 완료",
+		effect_desc = "한계돌파★5|도감 개방 : 스킬, 우편, 의뢰 완료",
 		effect_equipment_proficiency = "",
 		effect_attr = "",
 		effect_base = "",
@@ -21968,9 +21968,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"副炮底座+1",
-			"主炮效率提高10%"
+			"[안티 세이렌] 업그레이드",
+			"부포 발사 수 +1",
+			"주포 효율 +10%"
 		}
 	},
 	[2421] = {
@@ -22078,7 +22078,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 25,
 		effect_breakout = 0,
 		need_lv = 30,
-		effect_desc = "耐久+1032|防空+45|鉴赏解锁：血量警报",
+		effect_desc = "내구 +1032|대공 +45|도감 개방: HP 경고",
 		extra_desc = "",
 		effect_skill = "",
 		effect_base = "",
@@ -22236,7 +22236,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"[안티 세이렌]강화",
 			"주포 발사 수+1",
-			"주표 효율+15%"
+			"주포 효율+15%"
 		}
 	},
 	[2501] = {
@@ -22348,7 +22348,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 5,
 		effect_breakout = 0,
 		need_lv = 1,
-		effect_desc = "耐久+152|防空+19|鱼雷底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "내구 +152|대공 +19|어뢰 발사 수 +1|도감 개방: 메인1, 전투개시, 임무",
 		extra_desc = "",
 		effect_skill = "",
 		special = 1,
@@ -22513,10 +22513,10 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"获得专属弹幕I",
-			"鱼雷效率提高5%",
-			"鱼雷预装填+1"
+			"[안티 세이렌] 습득",
+			"특수 탄막I 습득",
+			"어뢰 효율 +5%",
+			"어뢰 예비 장전 +1"
 		}
 	},
 	[2511] = {
@@ -22623,7 +22623,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 15,
 		effect_breakout = 0,
 		need_lv = 10,
-		effect_desc = "耐久+305|防空+38|鱼雷效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "내구 +305|대공 +38|어뢰 효율 +10%|도감 개방: 메인3, 터치1, 임무완료",
 		extra_desc = "",
 		effect_skill = "",
 		effect_base = "",
@@ -22765,7 +22765,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 20,
 		effect_breakout = 599013,
 		need_lv = 30,
-		effect_desc = "突破至5星|主炮底座+1|鉴赏解锁：技能、邮件、委托完成",
+		effect_desc = "한계돌파★5|주포 발사 수 +1|도감 개방 : 스킬, 우편, 의뢰 완료",
 		effect_equipment_proficiency = "",
 		effect_attr = "",
 		special = 1,
@@ -22792,7 +22792,7 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"[안티 세이렌] 강화",
+			"[안티 세이렌] 업그레이드",
 			"어뢰 효율+10%"
 		}
 	},
@@ -22901,7 +22901,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 25,
 		effect_breakout = 0,
 		need_lv = 30,
-		effect_desc = "耐久+457|防空+58|鉴赏解锁：血量警报",
+		effect_desc = "내구 +457|대공 +58|도감 개방: HP 경고",
 		extra_desc = "",
 		effect_skill = "",
 		effect_base = "",
@@ -23057,10 +23057,10 @@ pg.ship_strengthen_blueprint = {
 			265
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"专属弹幕升级",
-			"鱼雷效率提高15%",
-			"自身装备的鱼雷武器散布角减小"
+			"[안티 세이렌] 업그레이드",
+			"특수 탄막 업그레이드",
+			"어뢰 효율 +15%",
+			"자신이 장비한 어뢰 살포 각도 감소"
 		}
 	},
 	[2601] = {
@@ -23172,7 +23172,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 5,
 		effect_breakout = 0,
 		need_lv = 1,
-		effect_desc = "耐久+269|防空+15|所有鱼雷机+1|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "내구 +269|대공 +15|모든 뇌격기 +1|도감 개방: 메인1, 전투개시, 임무",
 		extra_desc = "",
 		effect_skill = "",
 		special = 1,
@@ -23337,8 +23337,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"鱼雷机效率提高5%"
+			"[안티 세이렌] 습득",
+			"뇌격기 효율 +5%"
 		}
 	},
 	[2611] = {
@@ -23445,7 +23445,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 15,
 		effect_breakout = 0,
 		need_lv = 10,
-		effect_desc = "耐久+539|防空+30|鱼雷机效率提高5%|所有舰载机+1|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "내구 +539|대공 +30|뇌격기 효율 +5%|모든 함재기 +1|도감 개방: 메인3, 터치1, 임무완료",
 		extra_desc = "",
 		effect_skill = "",
 		special = 1,
@@ -23591,7 +23591,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 20,
 		effect_breakout = 799013,
 		need_lv = 30,
-		effect_desc = "힌계돌파★5|도감 개방 : 스킬, 우편, 의뢰 완료",
+		effect_desc = "한계돌파★5|도감 개방 : 스킬, 우편, 의뢰 완료",
 		effect_equipment_proficiency = "",
 		effect_attr = "",
 		effect_base = "",
@@ -23614,7 +23614,7 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【안티 세이렌】 업그레이드",
+			"[안티 세이렌] 업그레이드",
 			"격납고 용량+1",
 			"뇌격기 효율 10% 상승"
 		}
@@ -23724,7 +23724,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 25,
 		effect_breakout = 0,
 		need_lv = 30,
-		effect_desc = "耐久+809|防空+44|所有鱼雷机+1|鉴赏解锁：血量警报",
+		effect_desc = "내구 +809|대공 +44|모든 뇌격기 +1|도감 개방: HP 경고",
 		extra_desc = "",
 		effect_skill = "",
 		special = 1,
@@ -23884,8 +23884,8 @@ pg.ship_strengthen_blueprint = {
 			165
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"鱼雷机效率提高15%"
+			"[안티 세이렌] 업그레이드",
+			"뇌격기 효율 +15%"
 		}
 	},
 	[2701] = {
@@ -23997,7 +23997,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 5,
 		effect_breakout = 0,
 		need_lv = 1,
-		effect_desc = "耐久+307|防空+12|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "내구 +307|대공 +12|주포 발사 수 +1|도감 개방: 메인1, 전투개시, 임무",
 		extra_desc = "",
 		effect_skill = "",
 		special = 1,
@@ -24162,9 +24162,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"主炮效率提高5%",
-			"装备特殊后向副炮"
+			"[안티 세이렌] 습득",
+			"주포 효율 +5%",
+			"특수 부포 추가"
 		}
 	},
 	[2711] = {
@@ -24271,7 +24271,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 15,
 		effect_breakout = 0,
 		need_lv = 10,
-		effect_desc = "耐久+614|防空+23|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "내구 +614|대공 +23|대공포 효율 +10%|도감 개방: 메인3, 터치1, 임무완료",
 		extra_desc = "",
 		effect_skill = "",
 		effect_base = "",
@@ -24413,7 +24413,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 20,
 		effect_breakout = 899033,
 		need_lv = 30,
-		effect_desc = "힌계돌파★5|도감 개방 : 스킬, 우편, 의뢰 완료",
+		effect_desc = "한계돌파★5|도감 개방 : 스킬, 우편, 의뢰 완료",
 		effect_equipment_proficiency = "",
 		effect_attr = "",
 		effect_base = "",
@@ -24436,7 +24436,7 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"[안티 세이렌] 강화",
+			"[안티 세이렌] 업그레이드",
 			"부포 효율+10%"
 		}
 	},
@@ -24544,7 +24544,7 @@ pg.ship_strengthen_blueprint = {
 		lv = 25,
 		effect_breakout = 0,
 		need_lv = 30,
-		effect_desc = "耐久+921|防空+35|机动+5|防空炮效率提高10%|鉴赏解锁：血量警报",
+		effect_desc = "내구 +921|대공 +35|기동 +5|대공포 효율 +10%|도감 개방: HP 경고",
 		extra_desc = "",
 		effect_skill = "",
 		effect_base = "",
@@ -24708,7 +24708,7 @@ pg.ship_strengthen_blueprint = {
 			260
 		},
 		extra_desc = {
-			"[안티 세이렌] 강화",
+			"[안티 세이렌] 업그레이드",
 			"주포 효율+15%"
 		}
 	},

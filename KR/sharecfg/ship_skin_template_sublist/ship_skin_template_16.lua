@@ -5578,7 +5578,7 @@ pg.ship_skin_template_16 = {
 	},
 	[903022] = {
 		ship_group = 90302,
-		name = "红桃皇后的审判",
+		name = "예스 유어 마제스티",
 		bullet_skin_secondary = "",
 		hand_id = 1,
 		bgm = "",
@@ -5606,7 +5606,7 @@ pg.ship_skin_template_16 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "来的不是爱丽丝，而是指挥官啊。你也是来反抗我的么？这样的话，就不得不审判你了呢…——怎么样，我的演技如何？呵呵~",
+		desc = "어머, 온 사람이 앨리스가 아니라, 지휘관일 줄은…. 설마 지휘관도 내게 반항할 셈이야? 그렇다면 재판에 세우는 수밖에 없겠네…. 방금 연기, 어땠어? 후후후.",
 		voice_actor = 142,
 		spine_offset = "",
 		gyro = 0,

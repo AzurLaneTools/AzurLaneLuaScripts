@@ -3978,7 +3978,7 @@ _G.pg.base.spweapon_data_statistics[10090] = {
 
 _G.pg.base.spweapon_data_statistics[10100] = {
 	tech = 0,
-	name = "护教骑士战旗",
+	name = "호교 기사 전기",
 	value_2_random = 5,
 	type = 6,
 	value_1_random = 10,
@@ -4124,7 +4124,7 @@ _G.pg.base.spweapon_data_statistics[10110] = {
 
 _G.pg.base.spweapon_data_statistics[10120] = {
 	tech = 0,
-	name = "准时的怀表",
+	name = "정확한 회중시계",
 	value_2_random = 5,
 	type = 7,
 	value_1_random = 10,
