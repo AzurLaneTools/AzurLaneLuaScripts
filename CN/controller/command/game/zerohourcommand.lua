@@ -253,6 +253,7 @@ function slot0.mainHandler(slot0, slot1)
 	end
 
 	getProxy(NavalAcademyProxy):resetUsedDailyFinishCnt()
+	getProxy(AvatarFrameProxy):clearTimeOut()
 	slot0:sendNotification(GAME.ZERO_HOUR_OP_DONE)
 end
 
