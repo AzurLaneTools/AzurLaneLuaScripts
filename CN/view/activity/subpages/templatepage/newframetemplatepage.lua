@@ -13,7 +13,7 @@ function slot0.OnInit(slot0)
 	slot0.bar = slot0:findTF("AD/switcher/phase2/Image/barContent/bar")
 	slot0.cur = slot0:findTF("AD/switcher/phase2/Image/step")
 	slot0.target = slot0:findTF("AD/switcher/phase2/Image/progress")
-	slot0.gotTag = slot0:findTF("switcher/phase2/got", slot0.bg)
+	slot0.gotTag = slot0:findTF("switcher/phase2/Image/got", slot0.bg)
 end
 
 function slot0.OnDataSetting(slot0)
