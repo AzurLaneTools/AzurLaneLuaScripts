@@ -17,10 +17,6 @@ function slot0.init(slot0)
 	slot0.listPanel = slot0:findTF("list_panel")
 	slot0.content = slot0:findTF("list", slot0.listPanel)
 
-	if PLATFORM_CODE == PLATFORM_CHT then
-		slot0.content.anchoredPosition = Vector2(-775, -82)
-	end
-
 	setActive(slot0.content, true)
 
 	slot0.dailylevelTpl = slot0:getTpl("list_panel/list/captertpl")
@@ -324,13 +320,10 @@ function slot0.updateStageTF(slot0, slot1, slot2)
 	setActive(slot0:findTF("mask", slot1), slot0.player.level < slot2.level)
 
 	if slot0.player.level < slot2.level then
-		if PLATFORM_CODE == PLATFORM_US then
-			slot5 = slot0:findTF("msg/msg_contain/Text", slot4)
+		setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot2.level .. " ")
 
-			setText(slot5, "Lv." .. slot2.level .. " ")
-			slot5:SetAsLastSibling()
-		else
-			setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot2.level .. " ")
+		if PLATFORM_CODE == PLATFORM_US then
+			slot0:findTF("msg/msg_contain/Text", slot4):SetAsLastSibling()
 		end
 	end
 
@@ -501,31 +494,22 @@ function slot0.UpdateBattleBtn(slot0, slot1)
 		uv0:OnOpenPreCombat(uv1)
 	end, SFX_PANEL)
 	setText(slot7:Find("Text"), i18n("daily_level_quick_battle_label2"))
-	onButton(slot0, slot3:Find("mult"), function ()
+
+	slot8 = slot3:Find("mult")
+
+	onButton(slot0, slot8, function ()
 		uv0:OnQuickBattle(uv1, uv2)
 	end, SFX_PANEL)
-	onButton(slot0, slot3:Find("once"), function ()
+
+	slot9 = slot3:Find("once")
+
+	onButton(slot0, slot9, function ()
 		uv0:OnQuickBattle(uv1, 1)
 	end, SFX_PANEL)
-
-	if PLATFORM_CODE == PLATFORM_US then
-		setText(slot8:Find("label_us"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
-		setText(slot9:Find("label_us"), i18n("daily_level_quick_battle_label3"))
-		setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>")
-		setText(slot9:Find("Text"), "")
-		setActive(slot8:Find("label_us"), true)
-		setActive(slot9:Find("label_us"), true)
-		setActive(slot8:Find("label"), false)
-		setActive(slot9:Find("label"), false)
-	else
-		setText(slot8:Find("label"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
-		setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>")
-		setText(slot9:Find("label"), i18n("daily_level_quick_battle_label3"))
-		setText(slot9:Find("Text"), "")
-		setActive(slot8:Find("label"), true)
-		setActive(slot8:Find("Text"), true)
-		setActive(slot9:Find("label"), true)
-	end
+	setText(slot8:Find("label"), i18n("daily_level_quick_battle_label1", "   ", COLOR_WHITE))
+	setText(slot8:Find("Text"), "<color=" .. COLOR_GREEN .. ">" .. math.max(1, slot6) .. "</color>")
+	setText(slot9:Find("label"), i18n("daily_level_quick_battle_label3"))
+	setText(slot9:Find("Text"), "")
 
 	if slot6 == 0 then
 		slot0:EnableOrDisable(slot1, false)

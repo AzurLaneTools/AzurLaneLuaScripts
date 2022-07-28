@@ -970,6 +970,11 @@ pg.name_code = {
 		name = "白龍",
 		code = "白龍"
 	},
+	[205] = {
+		id = 205,
+		name = "蒼龍·META",
+		code = "蒼龍·META"
+	},
 	[207] = {
 		id = 207,
 		name = "山风",
@@ -980,6 +985,16 @@ pg.name_code = {
 		name = "扶桑·META",
 		code = "扶桑·META"
 	},
+	[211] = {
+		id = 211,
+		name = "扶桑改",
+		code = "扶桑改"
+	},
+	[212] = {
+		id = 212,
+		name = "最上改",
+		code = "最上改"
+	},
 	[220] = {
 		id = 220,
 		name = "飛鷹·META",
@@ -989,6 +1004,11 @@ pg.name_code = {
 		id = 221,
 		name = "隼鷹·META",
 		code = "隼鷹·META"
+	},
+	[223] = {
+		id = 223,
+		name = "山城·META",
+		code = "山城·META"
 	},
 	[250] = {
 		id = 250,

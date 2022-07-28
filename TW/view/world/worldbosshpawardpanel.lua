@@ -12,7 +12,6 @@ end
 
 function slot0.OnInit(slot0)
 	setText(slot0:findTF("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
-	setActive(slot0:findTF("window/top/bg/infomation/infomation_en"), PLATFORM_CODE ~= PLATFORM_US)
 
 	slot0.itemList = slot0:findTF("window/panel/viewport/list")
 

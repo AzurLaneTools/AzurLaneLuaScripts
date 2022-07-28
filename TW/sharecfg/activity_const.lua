@@ -604,10 +604,10 @@ pg.activity_const = {
 		act_id = 531
 	},
 	OUTPOST_PT = {
-		act_id = 40624
+		act_id = 40724
 	},
 	OUTPOST_TASK = {
-		act_id = 40625
+		act_id = 40725
 	},
 	APRILFOOL_DISCOVERY = {
 		act_id = 549

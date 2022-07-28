@@ -12,9 +12,7 @@ slot6.DefaultActive = {
 	"attr_panels",
 	"attr_panels/buff"
 }
-slot6.EnemyMarkList = {
-	1000
-}
+slot6.EnemyMarkList = {}
 slot6.PrimalAttr = {
 	"cannonPower",
 	"torpedoPower",
@@ -47,7 +45,7 @@ function slot6.SetUnit(slot0, slot1)
 
 	slot0._unit = slot1
 
-	if slot0._unit:GetUnitType() == uv1.UnitType.PLAY_UNIT then
+	if slot0._unit:GetUnitType() == uv1.UnitType.PLAYER_UNIT then
 		setImageSprite(slot0._icon, uv0.Battle.BattleResourceManager.GetInstance():GetCharacterQIcon(slot0._unit:GetTemplate().painting))
 
 		for slot7 = 1, slot0._unit:GetTemplate().star do
@@ -445,3 +443,8 @@ function slot6.setDeltaText(slot0, slot1)
 
 	slot0:GetComponent(typeof(Text)).color = slot1 > 0 and Color.green or Color.red
 end
+
+slot6.WeaponForger = {}
+slot6.BulletForger = {}
+slot6.BarrageForger = {}
+slot6.AircraftForger = {}

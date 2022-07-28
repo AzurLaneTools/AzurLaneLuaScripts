@@ -42,7 +42,41 @@ pg.world_joint_boss_template = {
 				{
 					2022,
 					7,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		item_id = 100000,
+		name = "蒼龍·META",
+		painting = "canglong",
+		boss_level_id = 46,
+		id = 4,
+		meta_id = 970703,
+		state = {
+			{
+				{
+					2022,
+					7,
 					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					20
 				},
 				{
 					23,
@@ -55,6 +89,7 @@ pg.world_joint_boss_template = {
 	all = {
 		1,
 		2,
-		3
+		3,
+		4
 	}
 }

@@ -8207,6 +8207,27 @@ _G.pg.base.item_data_statistics[21003] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21004] = {
+	display = "{namecode:205}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。 ",
+	name = "結晶：{namecode:205}",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21004,
+	is_world = 0,
+	icon = "Props/21004",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21005] = {
 	display = "{namecode:210}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。 ",
 	name = "結晶：{namecode:210}",
@@ -8264,6 +8285,27 @@ _G.pg.base.item_data_statistics[21008] = {
 	id = 21008,
 	is_world = 0,
 	icon = "Props/21008",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21010] = {
+	display = "{namecode:223}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。 ",
+	name = "結晶：{namecode:223}",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21010,
+	is_world = 0,
+	icon = "Props/21010",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8411,6 +8453,27 @@ _G.pg.base.item_data_statistics[21903] = {
 	id = 21903,
 	is_world = 0,
 	icon = "Props/21903",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21904] = {
+	display = "於「信標·META」戰鬥中收集的數據，可以提升蒼龍·META同步率，活動結束後將會消失。",
+	name = "同步值：{namecode:205}",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21904,
+	is_world = 0,
+	icon = "Props/21904",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -12273,6 +12336,48 @@ _G.pg.base.item_data_statistics[30401] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30402] = {
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	name = "外觀裝備箱(世界巡遊)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30402,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2005,
+			1
+		},
+		{
+			9,
+			2006,
+			1
+		},
+		{
+			9,
+			2007,
+			1
+		},
+		{
+			9,
+			2008,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用後可從「炎炎夏日」主題外觀裝備中任意選擇一種獲得1個",
 	name = "定向外觀裝備箱(夏末)",
@@ -12484,6 +12589,108 @@ _G.pg.base.item_data_statistics[30502] = {
 		{
 			9,
 			38,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30503] = {
+	display = "使用後可從「開學祭」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(開學季)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30503,
+	is_world = 0,
+	icon = "Props/appearanceboxkaixuezixuan",
+	display_icon = {
+		{
+			9,
+			50,
+			1
+		},
+		{
+			9,
+			51,
+			1
+		},
+		{
+			9,
+			52,
+			1
+		},
+		{
+			9,
+			53,
+			1
+		},
+		{
+			9,
+			54,
+			1
+		},
+		{
+			9,
+			55,
+			1
+		},
+		{
+			9,
+			56,
+			1
+		},
+		{
+			9,
+			57,
+			1
+		},
+		{
+			9,
+			58,
+			1
+		},
+		{
+			9,
+			59,
+			1
+		},
+		{
+			9,
+			60,
+			1
+		},
+		{
+			9,
+			61,
+			1
+		},
+		{
+			9,
+			62,
+			1
+		},
+		{
+			9,
+			63,
+			1
+		},
+		{
+			9,
+			64,
+			1
+		},
+		{
+			9,
+			65,
 			1
 		}
 	},
@@ -41280,6 +41487,194 @@ _G.pg.base.item_data_statistics[55052] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[55053] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 55053,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11009,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10041,
+			1
+		},
+		{
+			2,
+			10057,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[55054] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 55054,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11014,
+			1
+		},
+		{
+			2,
+			10005,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10076,
+			1
+		},
+		{
+			2,
+			10021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[55055] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 55055,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11018,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10060,
+			1
+		},
+		{
+			2,
+			10017,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[55056] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 55056,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11002,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10059,
+			1
+		},
+		{
+			2,
+			10055,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[55501] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
@@ -43463,6 +43858,174 @@ _G.pg.base.item_data_statistics[55552] = {
 		{
 			2,
 			10095,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[55553] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 55553,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10041,
+			1
+		},
+		{
+			2,
+			10057,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[55554] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 55554,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10005,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10076,
+			1
+		},
+		{
+			2,
+			10021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[55555] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 55555,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10060,
+			1
+		},
+		{
+			2,
+			10017,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[55556] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 55556,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10059,
+			1
+		},
+		{
+			2,
+			10055,
 			1
 		}
 	},
@@ -50937,16 +51500,16 @@ _G.pg.base.item_data_statistics[56053] = {
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
-	display_icon = "",
+	rarity = 1,
 	shop_id = -1,
 	replace_item = 0,
 	drop_gold_max = 0,
-	rarity = 1,
-	link_id = 0,
 	virtual_type = 0,
-	is_world = 0,
+	link_id = 0,
 	id = 56053,
-	icon = {
+	is_world = 0,
+	icon = "Props/54000",
+	display_icon = {
 		{
 			4,
 			303091,
@@ -51084,16 +51647,16 @@ _G.pg.base.item_data_statistics[56054] = {
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
-	display_icon = "",
+	rarity = 1,
 	shop_id = -1,
 	replace_item = 0,
 	drop_gold_max = 0,
-	rarity = 1,
-	link_id = 0,
 	virtual_type = 0,
-	is_world = 0,
+	link_id = 0,
 	id = 56054,
-	icon = {
+	is_world = 0,
+	icon = "Props/54000",
+	display_icon = {
 		{
 			4,
 			102151,
@@ -51231,16 +51794,16 @@ _G.pg.base.item_data_statistics[56055] = {
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
-	display_icon = "",
+	rarity = 1,
 	shop_id = -1,
 	replace_item = 0,
 	drop_gold_max = 0,
-	rarity = 1,
-	link_id = 0,
 	virtual_type = 0,
-	is_world = 0,
+	link_id = 0,
 	id = 56055,
-	icon = {
+	is_world = 0,
+	icon = "Props/54000",
+	display_icon = {
 		{
 			4,
 			102101,
@@ -51378,16 +51941,16 @@ _G.pg.base.item_data_statistics[56056] = {
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
-	display_icon = "",
+	rarity = 1,
 	shop_id = -1,
 	replace_item = 0,
 	drop_gold_max = 0,
-	rarity = 1,
-	link_id = 0,
 	virtual_type = 0,
-	is_world = 0,
+	link_id = 0,
 	id = 56056,
-	icon = {
+	is_world = 0,
+	icon = "Props/54000",
+	display_icon = {
 		{
 			4,
 			103121,
@@ -128344,6 +128907,27 @@ _G.pg.base.item_data_statistics[59242] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59243] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59243,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59245] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
@@ -128506,6 +129090,27 @@ _G.pg.base.item_data_statistics[59270] = {
 	id = 59270,
 	is_world = 0,
 	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59280] = {
+	display = "參與『世界巡遊』(2022.8.1~2022.9.30)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59280,
+	is_world = 0,
+	icon = "props/battlepass_pt",
 	display_icon = {},
 	price = {},
 	index = {},

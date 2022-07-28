@@ -19,8 +19,15 @@ function slot0.Ctor(slot0, slot1)
 	slot0.sLabel = slot0.staticTr:Find("Text/label")
 	slot0.sSynValue = slot0.staticTr:Find("Text1")
 	slot0.sLabelLpos = slot0.sLabel.localPosition
+	slot0.underwayLabelStr = nil
 
-	setText(slot0.underwayTr:Find("label"), i18n("meta_pt_point"))
+	if PLATFORM_CODE == PLATFORM_US then
+		slot0.underwayLabelStr = "<size=18>" .. i18n("meta_pt_point") .. "</size>"
+	else
+		slot0.underwayLabelStr = i18n("meta_pt_point")
+	end
+
+	setText(slot0.underwayTr:Find("label"), slot0.underwayLabelStr)
 	setText(slot0.sLabel, i18n("meta_syn_rate"))
 
 	slot0.tip = slot0._tf:Find("tip")
@@ -56,30 +63,33 @@ function slot0.Flush(slot0)
 		setFillAmount(slot0.fProgress, 1)
 	elseif slot3 then
 		setFillAmount(slot0.uProgress, slot6 / slot7)
-
-		slot0.uProgressTxt.text = "(" .. slot6 .. "/" .. slot7 .. ")"
-	elseif slot8 then
-		slot0.sProgressTxt.enabled = false
-
-		setText(slot0.staticTr:Find("label"), i18n("meta_pt_point"))
-		setText(slot0.sLabel, i18n("meta_syn_finish"))
-		setText(slot0.sSynValue, "(" .. slot6 .. "/" .. slot7 .. ")")
-
-		slot0.sLabel.localPosition = Vector3(slot0.sLabel.localPosition.x, slot0.sLabelLpos.y + 20, 0)
-
-		setFillAmount(slot0.sProgress, slot6 / slot7)
+		setText(slot0.underwayTr:Find("label"), slot0.underwayLabelStr .. "(" .. slot6 .. "/" .. slot7 .. ")")
 	else
-		slot0.sProgressTxt.enabled = true
+		setText(slot0.underwayTr:Find("label"), slot0.underwayLabelStr)
 
-		setText(slot0.staticTr:Find("label"), "")
-		setText(slot0.sSynValue, "")
-		setText(slot0.sLabel, i18n("meta_syn_rate"))
+		if slot8 then
+			slot0.sProgressTxt.enabled = false
 
-		slot10 = math.min(1, slot6 / slot1.unlockPTNum)
+			setText(slot0.staticTr:Find("label"), i18n("meta_pt_point"))
+			setText(slot0.sLabel, i18n("meta_syn_finish"))
+			setText(slot0.sSynValue, "(" .. slot6 .. "/" .. slot7 .. ")")
 
-		setFillAmount(slot0.sProgress, slot10)
+			slot0.sLabel.localPosition = Vector3(slot0.sLabel.localPosition.x, slot0.sLabelLpos.y + 20, 0)
 
-		slot0.sProgressTxt.text = string.format("%0.1f", slot10 * 100) .. "%"
+			setFillAmount(slot0.sProgress, slot6 / slot7)
+		else
+			slot0.sProgressTxt.enabled = true
+
+			setText(slot0.staticTr:Find("label"), "")
+			setText(slot0.sSynValue, "")
+			setText(slot0.sLabel, i18n("meta_syn_rate"))
+
+			slot10 = math.min(1, slot6 / slot1.unlockPTNum)
+
+			setFillAmount(slot0.sProgress, slot10)
+
+			slot0.sProgressTxt.text = string.format("%0.1f", slot10 * 100) .. "%"
+		end
 	end
 
 	slot0.nameTxt.text = ShipGroup.getDefaultShipConfig(slot1.id).name

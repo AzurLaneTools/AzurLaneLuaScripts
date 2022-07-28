@@ -88,7 +88,6 @@ function slot0.init(slot0)
 	setText(slot0.refreshBtn:Find("Text"), i18n("technology_daily_refresh"))
 
 	slot0.settingsBtn = slot0.basePage:Find("settings_btn")
-	slot0.btnQueue = slot0.basePage:Find("btn_queue")
 	slot0.selectetPanel = slot0.basePage:Find("selecte_panel")
 
 	setActive(slot0.selectetPanel, false)
@@ -108,15 +107,17 @@ function slot0.init(slot0)
 	slot0.taskDesc = slot0.taskPanel:Find("slider/Text"):GetComponent(typeof(Text))
 	slot0.descBG = slot0.selectetPanel:Find("desc/bg"):GetComponent(typeof(Image))
 	slot0.queuePage = slot0._tf:Find("main/queue_page")
-	slot0.btnAwardQueue = slot0.queuePage:Find("btn_award")
+	slot0.queueView = slot0.queuePage:Find("queue_rect/content")
+	slot1 = slot0._tf:Find("blur_panel/adapt/right")
+	slot0.btnAwardQueue = slot1:Find("btn_award")
 
 	setText(slot0.btnAwardQueue:Find("Text"), i18n("technology_queue_getaward"))
 
-	slot0.btnAwardQueueDisable = slot0.queuePage:Find("btn_award_disable")
+	slot0.btnAwardQueueDisable = slot1:Find("btn_award_disable")
 
 	setText(slot0.btnAwardQueueDisable:Find("Text"), i18n("technology_queue_getaward"))
 
-	slot0.queueView = slot0.queuePage:Find("queue_rect/content")
+	slot0.btnQueue = slot0._tf:Find("blur_panel/adapt/left/btn_queue")
 	slot0.cardtimer = {}
 	slot0.queueTimer = {}
 	slot0.queueCardTimer = {}
@@ -229,7 +230,9 @@ function slot0.setPage(slot0, slot1)
 	setActive(slot0.basePage, slot1 == uv0.PageBase)
 	setActive(slot0.queuePage, slot1 == uv0.PageQueue)
 	setActive(slot0._tf:Find("blur_panel/adapt/top/title"), slot1 == uv0.PageBase)
+	setActive(slot0._tf:Find("blur_panel/adapt/left"), slot1 == uv0.PageBase)
 	setActive(slot0._tf:Find("blur_panel/adapt/top/title_queue"), slot1 == uv0.PageQueue)
+	setActive(slot0._tf:Find("blur_panel/adapt/right"), slot1 == uv0.PageQueue)
 end
 
 function slot0.didEnter(slot0)

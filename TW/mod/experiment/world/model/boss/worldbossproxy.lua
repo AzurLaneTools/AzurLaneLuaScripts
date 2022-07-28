@@ -1,18 +1,18 @@
 slot0 = class("WorldBossProxy", import("....BaseEntity"))
-slot0.CacheKey = "WorldbossFleet"
-slot0.INFINITY = 9999999999.0
+slot1 = "WorldbossFleet"
+slot2 = "WorldbossFleet_for_archives"
 slot0.Fields = {
-	boss = "table",
-	ptTime = "number",
-	ranks = "table",
 	summonPtDailyAcc = "number",
+	ptTime = "number",
+	otherBosses = "table",
+	boss = "table",
 	highestDamage = "number",
 	isSetup = "boolean",
 	guildSupport = "number",
 	isFetched = "boolean",
-	otherBosses = "table",
+	ranks = "table",
 	summonPt = "number",
-	summonPtOldDailyAcc = "number",
+	cacheBosses = "table",
 	timers = "table",
 	archivesId = "number",
 	fleet = "table",
@@ -20,8 +20,9 @@ slot0.Fields = {
 	cacheLock = "number",
 	tipProgress = "boolean",
 	summonFree = "number",
+	fleetForArchives = "table",
 	autoFightFinishTime = "number",
-	cacheBosses = "table",
+	summonPtOldDailyAcc = "number",
 	worldSupport = "number",
 	friendSupport = "number",
 	pt = "number",
@@ -64,6 +65,7 @@ function slot0.Setup(slot0, slot1)
 	slot0.ranks = {}
 	slot0.timers = {}
 	slot0.fleet = nil
+	slot0.fleetForArchives = nil
 
 	slot0:GenFleet()
 
@@ -235,42 +237,80 @@ function slot0.SetArchivesId(slot0, slot1)
 	slot0.archivesId = slot1
 end
 
+function slot0.BossId2FleetKey(slot0, slot1)
+	if slot0:GetBossById(slot1) and not WorldBossConst._IsCurrBoss(slot2) then
+		return uv0
+	else
+		return uv1
+	end
+end
+
 function slot0.GenFleet(slot0)
 	slot0.fleet = Fleet.New({
 		0,
 		id = 1,
 		name = i18n("world_boss_fleet"),
-		ship_list = slot0:GetCacheShips()
+		ship_list = slot0:GetCacheShips(uv0)
+	})
+	slot0.fleetForArchives = Fleet.New({
+		0,
+		id = 1,
+		name = i18n("world_boss_fleet"),
+		ship_list = slot0:GetCacheShips(uv1)
 	})
 end
 
-function slot0.GetCacheShips(slot0)
-	slot3 = {}
+function slot0.GetCacheShips(slot0, slot1)
+	slot4 = {}
 
-	if string.split(PlayerPrefs.GetString(uv0.CacheKey .. getProxy(PlayerProxy):getRawData().id), "|") and #slot2 > 0 and (#slot2 ~= 1 or slot2[1] ~= "") then
-		for slot7, slot8 in ipairs(slot2) do
-			if getProxy(BayProxy):getShipById(tonumber(slot8)) then
-				table.insert(slot3, slot9)
+	if string.split(PlayerPrefs.GetString(slot1 .. getProxy(PlayerProxy):getRawData().id), "|") and #slot3 > 0 and (#slot3 ~= 1 or slot3[1] ~= "") then
+		for slot8, slot9 in ipairs(slot3) do
+			if getProxy(BayProxy):getShipById(tonumber(slot9)) then
+				table.insert(slot4, slot10)
 			end
+		end
+	end
+
+	return slot4
+end
+
+function slot0.GetFleet(slot0, slot1)
+	slot3 = nil
+	slot3 = (uv0 ~= slot0:BossId2FleetKey(slot1) or slot0.fleetForArchives) and slot0.fleet
+
+	for slot7 = #slot3.ships, 1, -1 do
+		if not getProxy(BayProxy):getShipById(slot3.ships[slot7]) then
+			slot3:removeShipById(slot8)
 		end
 	end
 
 	return slot3
 end
 
-function slot0.SavaCacheShips(slot0, slot1)
-	slot3 = ""
-
-	for slot7, slot8 in ipairs(slot1:getShipIds()) do
-		slot3 = slot3 .. slot8 .. "|"
+function slot0.UpdateFleet(slot0, slot1, slot2)
+	if uv0 == slot0:BossId2FleetKey(slot1) then
+		slot0.fleetForArchives = slot2
+	else
+		slot0.fleet = slot2
 	end
 
-	PlayerPrefs.SetString(uv0.CacheKey .. getProxy(PlayerProxy):getRawData().id, slot3)
+	slot0:DispatchEvent(uv1.EventFleetUpdated)
+end
+
+function slot0.SavaCacheShips(slot0, slot1, slot2)
+	slot3 = slot0:BossId2FleetKey(slot1)
+	slot5 = ""
+
+	for slot9, slot10 in ipairs(slot2:getShipIds()) do
+		slot5 = slot5 .. slot10 .. "|"
+	end
+
+	PlayerPrefs.SetString(slot3 .. getProxy(PlayerProxy):getRawData().id, slot5)
 	PlayerPrefs.Save()
 end
 
-function slot0.ClearCacheShips(slot0)
-	PlayerPrefs.DeleteKey(uv0.CacheKey .. getProxy(PlayerProxy):getRawData().id)
+function slot0.ClearCacheShips(slot0, slot1)
+	PlayerPrefs.DeleteKey(slot0:BossId2FleetKey(slot1) .. getProxy(PlayerProxy):getRawData().id)
 	PlayerPrefs.Save()
 end
 
@@ -381,12 +421,6 @@ function slot0.canGetSelfAward(slot0)
 	return slot0:GetSelfBoss() and slot1:isDeath()
 end
 
-function slot0.UpdateFleet(slot0, slot1)
-	slot0.fleet = slot1
-
-	slot0:DispatchEvent(uv0.EventFleetUpdated)
-end
-
 function slot0.UpdateSelfBoss(slot0, slot1)
 	if slot0.boss and slot1 and not slot1:isSameLevel(slot0.boss) then
 		slot0.fleet:clearFleet()
@@ -488,16 +522,6 @@ end
 
 function slot0.ClearRank(slot0, slot1)
 	slot0.ranks[slot1] = nil
-end
-
-function slot0.GetFleet(slot0)
-	for slot4 = #slot0.fleet.ships, 1, -1 do
-		if not getProxy(BayProxy):getShipById(slot0.fleet.ships[slot4]) then
-			slot0.fleet:removeShipById(slot5)
-		end
-	end
-
-	return slot0.fleet
 end
 
 function slot0.addTimer(slot0, slot1)

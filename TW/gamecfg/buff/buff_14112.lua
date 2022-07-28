@@ -264,7 +264,7 @@ return {
 	time = 0,
 	picture = "",
 	desc = "机动、防空属性提升",
-	stack = 8,
+	stack = 3,
 	id = 12422,
 	icon = 12420,
 	last_effect = "",

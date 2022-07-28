@@ -188,39 +188,43 @@ function slot0.RefreshChildPos(slot0, slot1)
 	slot2 = slot0.midIndex
 
 	for slot6 = 1, #slot0.childs do
-		slot7 = slot0.childs[slot6].tr
-		slot8 = slot6 - 1
+		if not IsNil(slot0.childs[slot6].tr) then
+			slot8 = slot6 - 1
 
-		if slot6 == slot2 or slot6 == slot2 + 1 then
-			slot0.padding = slot0.padding + math.abs(slot0.space) * 2
+			if slot6 == slot2 or slot6 == slot2 + 1 then
+				slot0.padding = slot0.padding + math.abs(slot0.space) * 2
+			end
+
+			if slot0.totalCnt == 0 then
+				slot0.padding = 0
+			end
+
+			slot11 = Vector3(-slot0.hrzOffset * slot8 - slot0.padding / math.tan((90 - slot0.angle) * math.rad(1)), -1 * (slot0.tplHeight + slot0.space) * slot8 - slot0.padding, 0)
+
+			if slot1 and slot10.y < slot7.localPosition.y then
+				slot11 = Vector3(slot0.hrzOffset, slot0.tplHeight + slot0.space, 0)
+			elseif not slot1 and slot7.localPosition.y < slot10.y then
+				slot7.localPosition = Vector3(slot0.hrzOffset, slot0.tplHeight + slot0.space, 0)
+			end
+
+			if slot6 == slot2 or slot0.animTime <= 0 then
+				slot7:SetAsLastSibling()
+
+				slot7.localPosition = slot10
+			end
+
+			table.insert(slot0.tweens, slot7.gameObject)
+
+			slot12 = LeanTween.moveLocal(slot7.gameObject, slot11, slot0.animTime)
+
+			slot12:setOnComplete(System.Action(function ()
+				if not IsNil(uv0) then
+					uv0.localPosition = uv1
+				end
+
+				uv2.animFlag = false
+			end))
 		end
-
-		if slot0.totalCnt == 0 then
-			slot0.padding = 0
-		end
-
-		slot11 = Vector3(-slot0.hrzOffset * slot8 - slot0.padding / math.tan((90 - slot0.angle) * math.rad(1)), -1 * (slot0.tplHeight + slot0.space) * slot8 - slot0.padding, 0)
-
-		if slot1 and slot10.y < slot7.localPosition.y then
-			slot11 = Vector3(slot0.hrzOffset, slot0.tplHeight + slot0.space, 0)
-		elseif not slot1 and slot7.localPosition.y < slot10.y then
-			slot7.localPosition = Vector3(slot0.hrzOffset, slot0.tplHeight + slot0.space, 0)
-		end
-
-		if slot6 == slot2 or slot0.animTime <= 0 then
-			slot7:SetAsLastSibling()
-
-			slot7.localPosition = slot10
-		end
-
-		table.insert(slot0.tweens, slot7.gameObject)
-
-		slot12 = LeanTween.moveLocal(slot7.gameObject, slot11, slot0.animTime)
-
-		slot12:setOnComplete(System.Action(function ()
-			uv0.localPosition = uv1
-			uv2.animFlag = false
-		end))
 	end
 end
 

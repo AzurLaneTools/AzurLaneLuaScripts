@@ -7,6 +7,12 @@ pg.shop_furniture_relation = {
 		scale = {
 			0.65,
 			0.7
+		},
+		position = {
+			[2] = {
+				0,
+				-40
+			}
 		}
 	},
 	get_id_list_by_fur_id = {

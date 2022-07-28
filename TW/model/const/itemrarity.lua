@@ -14,7 +14,7 @@ function slot0.Rarity2Print(slot0)
 			"4",
 			"5",
 			"6",
-			nil,
+			"7",
 			"8",
 			"9"
 		}

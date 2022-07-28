@@ -34,16 +34,6 @@ function slot0.findUI(slot0)
 	slot0.detailWindow = slot0:findTF("window")
 	slot0.cancelBtn = slot0:findTF("button_container/button_cancel", slot0.detailWindow)
 	slot0.confirmBtn = slot0:findTF("button_container/button_ok", slot0.detailWindow)
-
-	if PLATFORM_CODE == PLATFORM_US then
-		slot1 = {
-			y = -14
-		}
-
-		setLocalPosition(slot0:findTF("Image", slot0.cancelBtn), slot1)
-		setLocalPosition(slot0:findTF("Image", slot0.confirmBtn), slot1)
-	end
-
 	slot0.detailName = slot0:findTF("goods/name", slot0.detailWindow)
 	slot0.detailIcon = slot0:findTF("goods/icon", slot0.detailWindow)
 	slot0.detailExtraDrop = slot0:findTF("goods/extra_drop", slot0.detailWindow)

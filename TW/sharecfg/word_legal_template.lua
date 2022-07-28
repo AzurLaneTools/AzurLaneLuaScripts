@@ -2372,6 +2372,13 @@ function temp()
 			["茜"] = {
 				this = true
 			}
+		},
+		["奥"] = {
+			["尔"] = {
+				["良"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -2639,6 +2646,11 @@ function temp()
 		},
 		["澤"] = {
 			["西"] = {
+				this = true
+			}
+		},
+		["奧"] = {
+			["良"] = {
 				this = true
 			}
 		}
@@ -3744,6 +3756,17 @@ function temp()
 				["改"] = {
 					this = true
 				}
+			},
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3938,7 +3961,18 @@ temp()
 function temp()
 	uv0["蒼"] = {
 		["龍"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

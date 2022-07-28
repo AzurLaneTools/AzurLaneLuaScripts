@@ -141,7 +141,7 @@ function slot0.UpdateSkinType(slot0)
 	setActive(slot0.skinMark, slot2)
 
 	if slot2 then
-		slot0.skinDescTxt.text = Goods.GetFurnitureConfig(slot1).desc
+		slot0.skinDescTxt.text = HXSet.hxLan(Goods.GetFurnitureConfig(slot1).desc)
 	end
 end
 
@@ -206,7 +206,7 @@ function slot0.UpdateIcon(slot0)
 		slot0.icon:SetNativeSize()
 		slot0.interactionView:UnloadSpines()
 	else
-		slot0.interactionView:Flush(Goods.Id2ShipSkinId(slot1), Goods.Id2FurnitureId(slot1), Goods.GetFurnitureConfig(slot1).scale[1] or 1)
+		slot0.interactionView:Flush(Goods.Id2ShipSkinId(slot1), Goods.Id2FurnitureId(slot1), Goods.GetFurnitureConfig(slot1).scale[1] or 1, slot5.position[1])
 	end
 
 	setActive(slot0.icon.gameObject, not slot2)

@@ -419,7 +419,7 @@ pg.task_meta_data_template = {
 	[146] = {
 		target_id_2 = "970502",
 		sub_type = 180,
-		desc = "使用{namecode:223}获得1次胜利",
+		desc = "使用{namecode:223}獲得1次勝利",
 		id = 146,
 		target_num = 1,
 		target_id = "0"
@@ -427,7 +427,7 @@ pg.task_meta_data_template = {
 	[147] = {
 		target_id_2 = "970502",
 		sub_type = 180,
-		desc = "使用{namecode:223}击破等级>30的敌方1次",
+		desc = "使用{namecode:223}擊破等級>30的敵方1次",
 		id = 147,
 		target_num = 1,
 		target_id = "30"
@@ -435,7 +435,7 @@ pg.task_meta_data_template = {
 	[148] = {
 		target_id_2 = "970502",
 		sub_type = 180,
-		desc = "使用{namecode:223}击破等级>55的敌方1次",
+		desc = "使用{namecode:223}擊破等級>55的敵方1次",
 		id = 148,
 		target_num = 1,
 		target_id = "55"
@@ -443,7 +443,7 @@ pg.task_meta_data_template = {
 	[149] = {
 		target_id_2 = "970502",
 		sub_type = 180,
-		desc = "使用{namecode:223}击破等级>80的敌方1次",
+		desc = "使用{namecode:223}擊破等級>80的敵方1次",
 		id = 149,
 		target_num = 1,
 		target_id = "80"
@@ -451,7 +451,7 @@ pg.task_meta_data_template = {
 	[150] = {
 		target_id_2 = "970502",
 		sub_type = 180,
-		desc = "使用{namecode:223}击破等级>100的敌方1次",
+		desc = "使用{namecode:223}擊破等級>100的敵方1次",
 		id = 150,
 		target_num = 1,
 		target_id = "100"
@@ -533,6 +533,46 @@ pg.task_meta_data_template = {
 		sub_type = 180,
 		desc = "使用反击.META击破等级>100的敌方1次",
 		id = 160,
+		target_num = 1,
+		target_id = "100"
+	},
+	[161] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "使用特伦托.META获得1次胜利",
+		id = 161,
+		target_num = 1,
+		target_id = "0"
+	},
+	[162] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "使用特伦托.META击破等级>30的敌方1次",
+		id = 162,
+		target_num = 1,
+		target_id = "30"
+	},
+	[163] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "使用特伦托.META击破等级>55的敌方1次",
+		id = 163,
+		target_num = 1,
+		target_id = "55"
+	},
+	[164] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "使用特伦托.META击破等级>80的敌方1次",
+		id = 164,
+		target_num = 1,
+		target_id = "80"
+	},
+	[165] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "使用特伦托.META击破等级>100的敌方1次",
+		id = 165,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -827,7 +867,7 @@ pg.task_meta_data_template = {
 	[236] = {
 		target_id_2 = "970502",
 		sub_type = 302,
-		desc = "大型作战内使用{namecode:223}获得1次胜利",
+		desc = "大型作戰內使用{namecode:223}獲得1次勝利",
 		id = 236,
 		target_num = 1,
 		target_id = "0"
@@ -835,7 +875,7 @@ pg.task_meta_data_template = {
 	[237] = {
 		target_id_2 = "970502",
 		sub_type = 302,
-		desc = "大型作战内使用{namecode:223}击破等级>70的敌方1次",
+		desc = "大型作戰內使用{namecode:223}擊破等級>70的敵方1次",
 		id = 237,
 		target_num = 1,
 		target_id = "70"
@@ -843,7 +883,7 @@ pg.task_meta_data_template = {
 	[238] = {
 		target_id_2 = "970502",
 		sub_type = 302,
-		desc = "大型作战内使用{namecode:223}击破等级>90的敌方1次",
+		desc = "大型作戰內使用{namecode:223}擊破等級>90的敵方1次",
 		id = 238,
 		target_num = 1,
 		target_id = "90"
@@ -851,7 +891,7 @@ pg.task_meta_data_template = {
 	[239] = {
 		target_id_2 = "970502",
 		sub_type = 302,
-		desc = "大型作战内使用{namecode:223}击破等级>100的敌方1次",
+		desc = "大型作戰內使用{namecode:223}擊破等級>100的敵方1次",
 		id = 239,
 		target_num = 1,
 		target_id = "100"
@@ -917,6 +957,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用反击.META击破等级>100的敌方1次",
 		id = 247,
+		target_num = 1,
+		target_id = "100"
+	},
+	[248] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "大型作战内使用特伦托.META获得1次胜利",
+		id = 248,
+		target_num = 1,
+		target_id = "0"
+	},
+	[249] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "大型作战内使用特伦托.META击破等级>70的敌方1次",
+		id = 249,
+		target_num = 1,
+		target_id = "70"
+	},
+	[250] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "大型作战内使用特伦托.META击破等级>90的敌方1次",
+		id = 250,
+		target_num = 1,
+		target_id = "90"
+	},
+	[251] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "大型作战内使用特伦托.META击破等级>100的敌方1次",
+		id = 251,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1004,6 +1076,11 @@ pg.task_meta_data_template = {
 		158,
 		159,
 		160,
+		161,
+		162,
+		163,
+		164,
+		165,
 		200,
 		201,
 		202,
@@ -1052,6 +1129,10 @@ pg.task_meta_data_template = {
 		245,
 		246,
 		247,
+		248,
+		249,
+		250,
+		251,
 		301,
 		302
 	}

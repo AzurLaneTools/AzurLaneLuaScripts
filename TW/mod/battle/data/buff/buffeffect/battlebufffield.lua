@@ -16,10 +16,6 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._auraBuffID = slot3.buff_id
 	slot0._target = slot3.target
 	slot0._check_target = slot3.check_target or "TargetNull"
-	slot0._minTargetNumber = slot3.minTargetNumber or 0
-	slot0._maxDistance = slot3.max_distance
-	slot0._checkTargetMaxDistance = slot3.checkTargetMaxDistance
-	slot0._isBuffStackByCheckTarget = slot3.isBuffStackByCheckTarget
 	slot0._isUpdateAura = slot3.FAura
 	slot4 = true
 
@@ -41,7 +37,17 @@ function slot1.SetArgs(slot0, slot1, slot2)
 		end
 	end
 
-	slot0._aura = uv0.Battle.BattleDataProxy.GetInstance():SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot1:GetIFF(), Vector3(-55, 0, 55), 180, 70, 0, function (slot0)
+	slot10 = uv0.Battle.BattleDataProxy.GetInstance()
+	slot11, slot12, slot13, slot14 = slot10:GetFieldBound()
+	slot15 = Vector3((slot13 + slot14) * 0.5, 0, (slot11 + slot12) * 0.5)
+	slot16 = math.abs(slot14 - slot13)
+	slot17 = math.abs(slot11 - slot12)
+
+	print(slot15)
+	print(slot16)
+	print(slot17)
+
+	slot0._aura = slot10:SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot1:GetIFF(), slot15, slot16, slot17, 0, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then
 				slot10 = uv0._tempData.arg_list

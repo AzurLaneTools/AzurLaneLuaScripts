@@ -22,23 +22,9 @@ function slot1(slot0, slot1, slot2, slot3)
 			end, SFX_PANEL)
 			setActive(slot2:Find("award/mask"), table.contains(uv3, slot4))
 
-			if GetPerceptualSize(uv2.resTitle) > 15 then
-				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 26
-				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 26
-			elseif slot6 > 12 then
-				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 28
-				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 28
-			elseif slot6 > 10 then
-				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 30
-				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 30
-			else
-				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 32
-				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 32
-			end
-
 			if slot2:Find("target/icon") and uv2.resIcon and uv2.resIcon ~= "" then
 				setActive(slot2:Find("target/icon"), true)
-				LoadImageSpriteAsync(uv2.resIcon, slot2:Find("target/icon/image"), false)
+				LoadImageSpriteAsync(uv2.resIcon, slot2:Find("target/icon"), false)
 			else
 				setActive(slot2:Find("target/icon"), false)
 			end

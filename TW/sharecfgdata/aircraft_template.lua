@@ -28495,6 +28495,200 @@ _G.pg.base.aircraft_template[61026] = {
 	}
 }
 
+_G.pg.base.aircraft_template[63051] = {
+	attack_power = 2,
+	name = "苍龙·META_轰炸机 Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "99shijianbao1",
+	ACC_growth = 0,
+	crash_DMG = 180,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 63051,
+	icon = "99shijianbao1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1692,
+	speed = 48,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		63061,
+		63071
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[63052] = {
+	id = 63052,
+	name = "苍龙·META_轰炸机 Lv2",
+	hp_growth = 1913,
+	base = 63051,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63062,
+		63072
+	}
+}
+
+_G.pg.base.aircraft_template[63053] = {
+	id = 63053,
+	name = "苍龙·META_轰炸机 Lv3",
+	hp_growth = 2133,
+	base = 63051,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63063,
+		63073
+	}
+}
+
+_G.pg.base.aircraft_template[63054] = {
+	id = 63054,
+	name = "苍龙·META_轰炸机 Lv4",
+	hp_growth = 2354,
+	base = 63051,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63064,
+		63074
+	}
+}
+
+_G.pg.base.aircraft_template[63055] = {
+	id = 63055,
+	name = "苍龙·META_轰炸机 Lv5",
+	hp_growth = 2575,
+	base = 63051,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63065,
+		63075
+	}
+}
+
+_G.pg.base.aircraft_template[63056] = {
+	id = 63056,
+	name = "苍龙·META_轰炸机 Lv6",
+	hp_growth = 2796,
+	base = 63051,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63066,
+		63076
+	}
+}
+
+_G.pg.base.aircraft_template[63057] = {
+	id = 63057,
+	name = "苍龙·META_轰炸机 Lv7",
+	hp_growth = 3016,
+	base = 63051,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63067,
+		63077
+	}
+}
+
+_G.pg.base.aircraft_template[63058] = {
+	id = 63058,
+	name = "苍龙·META_轰炸机 Lv8",
+	hp_growth = 3237,
+	base = 63051,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63068,
+		63078
+	}
+}
+
+_G.pg.base.aircraft_template[63059] = {
+	id = 63059,
+	name = "苍龙·META_轰炸机 Lv9",
+	hp_growth = 3458,
+	base = 63051,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63069,
+		63079
+	}
+}
+
+_G.pg.base.aircraft_template[63060] = {
+	id = 63060,
+	name = "苍龙·META_轰炸机 Lv10",
+	hp_growth = 3678,
+	base = 63051,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		63070,
+		63080
+	}
+}
+
 _G.pg.base.aircraft_template[63391] = {
 	attack_power = 2,
 	name = "貉-实例化-塞壬浮游炮-LV1",
@@ -75595,6 +75789,845 @@ _G.pg.base.aircraft_template[340310] = {
 		},
 		{
 			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350005] = {
+	attack_power = 2,
+	name = "第14章通用轰炸机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "99shijianbao1",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350005,
+	icon = "99shijianbao1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 30,
+	max_hp = 920,
+	scale = 0.75,
+	weapon_ID = {
+		350008
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350006] = {
+	attack_power = 2,
+	name = "第14章通用鱼雷机",
+	type = 2,
+	accuracy = 35,
+	model_ID = "tianshan",
+	ACC_growth = 0,
+	crash_DMG = 190,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350006,
+	icon = "tianshan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 30,
+	max_hp = 762,
+	scale = 0.75,
+	weapon_ID = {
+		350009
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350007] = {
+	attack_power = 2,
+	name = "第14章通用战斗机",
+	type = 1,
+	accuracy = 35,
+	model_ID = "lingzhan52",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350007,
+	icon = "lingzhan52",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 35,
+	max_hp = 647,
+	scale = 0.75,
+	weapon_ID = {
+		350010,
+		350011
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350017] = {
+	attack_power = 2,
+	name = "第14章指挥舰 -战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ruiyun",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350017,
+	icon = "ruiyun",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 35,
+	max_hp = 647,
+	scale = 0.75,
+	weapon_ID = {
+		350010,
+		350011
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350010] = {
+	attack_power = 2,
+	name = "第14章空袭 轰炸机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "99shijianbao1",
+	ACC_growth = 0,
+	crash_DMG = 400,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350010,
+	icon = "99shijianbao1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 30,
+	max_hp = 1500,
+	scale = 0.75,
+	weapon_ID = {
+		340008
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350020] = {
+	attack_power = 2,
+	name = "第14章空袭 鱼雷机",
+	type = 2,
+	accuracy = 35,
+	model_ID = "tianshan",
+	ACC_growth = 0,
+	crash_DMG = 320,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350020,
+	icon = "tianshan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 30,
+	max_hp = 1280,
+	scale = 0.75,
+	weapon_ID = {
+		340009
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350030] = {
+	attack_power = 2,
+	name = "第14章空袭 战斗机",
+	type = 1,
+	accuracy = 35,
+	model_ID = "lingzhan52",
+	ACC_growth = 0,
+	crash_DMG = 260,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350030,
+	icon = "lingzhan52",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 35,
+	max_hp = 920,
+	scale = 0.75,
+	weapon_ID = {
+		340010,
+		340011
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350064] = {
+	attack_power = 2,
+	name = "第14章山城改 -战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ruiyun",
+	ACC_growth = 0,
+	crash_DMG = 260,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350064,
+	icon = "ruiyun",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 35,
+	max_hp = 980,
+	scale = 0.75,
+	weapon_ID = {
+		350065
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350070] = {
+	attack_power = 2,
+	name = "第14章扶桑改 -战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ruiyun",
+	ACC_growth = 0,
+	crash_DMG = 260,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350070,
+	icon = "ruiyun",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 35,
+	max_hp = 980,
+	scale = 0.75,
+	weapon_ID = {
+		350071
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350105] = {
+	attack_power = 2,
+	name = "第14章-1BOSS山城改 -战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ruiyun",
+	ACC_growth = 0,
+	crash_DMG = 300,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350105,
+	icon = "ruiyun",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 35,
+	max_hp = 1400,
+	scale = 0.75,
+	weapon_ID = {
+		350106
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[350205] = {
+	attack_power = 2,
+	name = "第14章-2BOSS扶桑改 -战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ruiyun",
+	ACC_growth = 0,
+	crash_DMG = 300,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 350205,
+	icon = "ruiyun",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 35,
+	max_hp = 1400,
+	scale = 0.75,
+	weapon_ID = {
+		350206
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
 			0,
 			0
 		},
@@ -181454,6 +182487,391 @@ _G.pg.base.aircraft_template[2966074] = {
 	scale = 0.75,
 	weapon_ID = {
 		2966079
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[2967040] = {
+	attack_power = 2,
+	name = "【大世界】黑苍龙 第二波 余烬飞机 LV1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "alter_plane2",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2967040,
+	icon = "alter_plane2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 33,
+	max_hp = 292,
+	scale = 0.75,
+	weapon_ID = {
+		2967050,
+		2967060
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[2967041] = {
+	attack_power = 2,
+	name = "【大世界】黑苍龙 第二波 余烬飞机 LV2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "alter_plane2",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2967041,
+	icon = "alter_plane2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 33,
+	max_hp = 292,
+	scale = 0.75,
+	weapon_ID = {
+		2967051,
+		2967061
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[2967042] = {
+	attack_power = 2,
+	name = "【大世界】黑苍龙 第二波 余烬飞机 LV3",
+	type = 1,
+	accuracy = 23,
+	model_ID = "alter_plane2",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2967042,
+	icon = "alter_plane2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 33,
+	max_hp = 292,
+	scale = 0.75,
+	weapon_ID = {
+		2967052,
+		2967062
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[2967043] = {
+	attack_power = 2,
+	name = "【大世界】黑苍龙 第二波 余烬飞机 LV4",
+	type = 1,
+	accuracy = 23,
+	model_ID = "alter_plane2",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2967043,
+	icon = "alter_plane2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 33,
+	max_hp = 292,
+	scale = 0.75,
+	weapon_ID = {
+		2967053,
+		2967063
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[2967044] = {
+	attack_power = 2,
+	name = "【大世界】黑苍龙 第二波 余烬飞机 LV5",
+	type = 1,
+	accuracy = 23,
+	model_ID = "alter_plane2",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2967044,
+	icon = "alter_plane2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 33,
+	max_hp = 292,
+	scale = 0.75,
+	weapon_ID = {
+		2967054,
+		2967064
 	},
 	position_offset = {
 		0,

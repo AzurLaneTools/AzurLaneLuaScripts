@@ -126,6 +126,69 @@ pg.ship_meta_breakout = {
 		pre_id = 9702023,
 		weapon_ids = {}
 	},
+	[9703011] = {
+		breakout_view = "习得技能【摇曳之火·特伦托】/主炮效率提高5%",
+		gold = 500,
+		breakout_id = 9703012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9703011,
+		item1 = 21013,
+		pre_id = 0,
+		weapon_ids = {
+			79931
+		}
+	},
+	[9703012] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		gold = 1500,
+		breakout_id = 9703013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9703012,
+		item1 = 21013,
+		pre_id = 9703011,
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[9703013] = {
+		breakout_view = "【摇曳之火·特伦托】升级/鱼雷效率提高15%",
+		gold = 2500,
+		breakout_id = 9703014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9703013,
+		item1 = 21013,
+		pre_id = 9703012,
+		weapon_ids = {
+			79932
+		}
+	},
+	[9703014] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9703014,
+		item1 = 21013,
+		pre_id = 9703013,
+		weapon_ids = {}
+	},
 	[9704011] = {
 		breakout_view = "习得技能【逐光之焰·格奈森瑙】/主炮底座+1/主炮效率提高5%",
 		gold = 1000,
@@ -391,7 +454,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705021] = {
-		breakout_view = "习得技能【摇曳之火·{namecode:79}】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "習得技能【搖曳之火·{namecode:79}】/主炮底座+1/主炮效率提高5%",
 		gold = 500,
 		breakout_id = 9705022,
 		repair = 0,
@@ -408,7 +471,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9705022] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲底座+2/主炮效率提高10%",
 		gold = 1500,
 		breakout_id = 9705023,
 		repair = 0,
@@ -426,7 +489,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9705023] = {
-		breakout_view = "【摇曳之火·{namecode:79}】升级/主炮效率提高15%",
+		breakout_view = "【搖曳之火·{namecode:79}】升級/主炮效率提高15%",
 		gold = 2500,
 		breakout_id = 9705024,
 		repair = 0,
@@ -443,7 +506,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9705024] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -733,7 +796,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707031] = {
-		breakout_view = "习得技能【摇曳之火·{namecode:205}】/所有轰炸机+1/轰炸机效率提高5%",
+		breakout_view = "習得技能【搖曳之火·{namecode:205}】/所有轟炸機+1/轟炸機效率提高5%",
 		gold = 1000,
 		breakout_id = 9707032,
 		repair = 0,
@@ -750,7 +813,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707032] = {
-		breakout_view = "机库容量+1/所有战斗机+1/轰炸机效率提高10%",
+		breakout_view = "機庫容量+1/所有戰鬥機+1/轟炸機效率提高10%",
 		gold = 3000,
 		breakout_id = 9707033,
 		repair = 0,
@@ -769,7 +832,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707033] = {
-		breakout_view = "【摇曳之火·{namecode:205}】升级/所有舰载机+1/轰炸机效率提高15%",
+		breakout_view = "【搖曳之火·{namecode:205}】升級/所有艦載機+1/轟炸機效率提高15%",
 		gold = 10000,
 		breakout_id = 9707034,
 		repair = 0,
@@ -788,7 +851,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707034] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -810,6 +873,10 @@ pg.ship_meta_breakout = {
 		9702022,
 		9702023,
 		9702024,
+		9703011,
+		9703012,
+		9703013,
+		9703014,
 		9704011,
 		9704012,
 		9704013,

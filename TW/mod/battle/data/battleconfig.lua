@@ -119,6 +119,7 @@ slot0.MAIN_UNIT_POS = {
 		Vector3(15, 0, 38)
 	}
 }
+slot0.FIELD_RIGHT_BOUND_BIAS = 0
 slot0.SUB_UNIT_POS_Z = {
 	58,
 	78,

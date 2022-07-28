@@ -15,6 +15,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot3 = slot0._tempData.arg_list
 	slot0._auraRange = slot3.cld_data.box.range
 	slot0._buffID = slot3.buff_id
+	slot0._friendly = slot3.friendly_fire or false
 	slot0._aura = uv0.Battle.BattleDataProxy.GetInstance():SpawnLastingColumnArea(uv1.AOEField.SURFACE, slot1:GetIFF(), slot1:GetPosition(), slot0._auraRange, 0, function (slot0)
 		slot1 = uv0:getTargetList(uv1, {
 			"TargetAllHarm"
@@ -43,7 +44,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 				end
 			end
 		end
-	end, false, nil, function (slot0)
+	end, slot0._friendly, nil, function (slot0)
 		if slot0.Active then
 			for slot5, slot6 in ipairs(uv0:getTargetList(uv1, {
 				"TargetAllHarm"

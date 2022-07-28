@@ -118,7 +118,7 @@ function slot0.getAwardDone(slot0)
 		slot0.challengeCurrentBossPage:ExecuteAction("CloseGetPage")
 	end
 
-	if slot0.page == slot0.currentEmptyPage or slot0.page == slot0.currentBossDetailPage then
+	if (slot0.page == slot0.currentEmptyPage or slot0.page == slot0.currentBossDetailPage) and slot0.page:GetLoaded() then
 		slot0.page.metaWorldbossBtn:Update()
 	end
 end

@@ -3588,6 +3588,78 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[4903] = {
+		subject = "特許巡遊憑證",
+		limit_group = 0,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		type = 0,
+		limit_arg = 1,
+		name = "特許巡遊憑證（四期）",
+		name_display = "特许巡游凭证",
+		extra_gem = 0,
+		id = 4903,
+		money = 330,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.hkmanjuu.azurlane.battlepass4",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵:企业限定換裝和其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.battlepass4",
+		extra_service_item = {
+			{
+				1,
+				4004,
+				1500
+			},
+			{
+				8,
+				59281,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4004,
+				1500
+			}
+		},
+		sub_display = {
+			45903,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	all = {
 		1,
 		2,
@@ -3634,6 +3706,7 @@ pg.pay_data_display = {
 		4859,
 		4900,
 		4901,
-		4902
+		4902,
+		4903
 	}
 }

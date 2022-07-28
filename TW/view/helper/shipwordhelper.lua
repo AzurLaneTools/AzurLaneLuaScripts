@@ -127,7 +127,18 @@ function slot15(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot16(slot0)
-	return PlayerPrefs.GetInt(CV_LANGUAGE_KEY .. uv0[slot0].ship_group)
+	slot2 = uv0[slot0].ship_group
+
+	if pg.ship_skin_words[slot0].voice_key <= 0 and slot1.voice_key_2 > 0 then
+		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot2, 2)
+		PlayerPrefs.Save()
+	end
+
+	return PlayerPrefs.GetInt(CV_LANGUAGE_KEY .. slot2)
+end
+
+function slot0.GetLanguageSetting(slot0)
+	return uv0(slot0)
 end
 
 function slot17(slot0, slot1, slot2)

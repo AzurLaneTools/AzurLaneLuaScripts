@@ -30,7 +30,7 @@ pg.activity_link_button = {
 					28
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -89,7 +89,7 @@ pg.activity_link_button = {
 					28
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -107,7 +107,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			40718
+			40714
 		}
 	},
 	[30] = {

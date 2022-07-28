@@ -145,7 +145,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE,
 		GAME.SUBMIT_AVATAR_TASK_DONE,
 		TaskProxy.WEEK_TASK_RESET,
-		GAME.MERGE_TASK_ONE_STEP_AWARD_DONE
+		GAME.MERGE_TASK_ONE_STEP_AWARD_DONE,
+		AvatarFrameProxy.FRAME_TASK_TIME_OUT
 	}
 end
 
@@ -262,6 +263,8 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.refreshWeekTaskPageFlag = true
 
 			slot0:sendNotification(GAME.SUBMIT_TASK_DONE, slot3.awards, slot3.taskIds)
+		elseif slot2 == AvatarFrameProxy.FRAME_TASK_TIME_OUT then
+			slot0.viewComponent:refreshPage()
 		end
 	end
 end

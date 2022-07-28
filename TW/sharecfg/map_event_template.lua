@@ -10495,6 +10495,134 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[561] = {
+		grid_color = "cell_box",
+		memory = 0,
+		gametip = "map_event_lighthouse_tip_1",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 561,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {
+			4,
+			5
+		},
+		effect = {
+			{
+				"flag",
+				0,
+				20
+			}
+		}
+	},
+	[562] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 562,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1403030,
+						{
+							7,
+							8
+						}
+					}
+				}
+			}
+		}
+	},
+	[563] = {
+		grid_color = "cell_box",
+		memory = 0,
+		gametip = "map_event_lighthouse_tip_1",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 563,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {
+			8,
+			10
+		},
+		effect = {
+			{
+				"flag",
+				0,
+				20
+			}
+		}
+	},
+	[564] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 564,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1404030,
+						{
+							8,
+							2
+						}
+					}
+				}
+			}
+		}
+	},
+	[565] = {
+		grid_color = "cell_box",
+		memory = 0,
+		gametip = "map_event_lighthouse_tip_1",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 565,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {
+			9,
+			1
+		},
+		effect = {
+			{
+				"flag",
+				0,
+				20
+			}
+		}
+	},
 	[570] = {
 		grid_color = "",
 		memory = 0,
@@ -11797,6 +11925,11 @@ pg.map_event_template = {
 		481,
 		482,
 		483,
+		561,
+		562,
+		563,
+		564,
+		565,
 		570,
 		571,
 		572,

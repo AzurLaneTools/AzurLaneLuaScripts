@@ -113,7 +113,7 @@ function slot0.register(slot0)
 			}))
 		end)
 	elseif slot7 == SYSTEM_WORLD_BOSS then
-		slot8 = getProxy(BayProxy):getShipsByFleet(nowWorld():GetBossProxy():GetFleet())
+		slot8 = getProxy(BayProxy):getShipsByFleet(nowWorld():GetBossProxy():GetFleet(slot0.contextData.bossId))
 
 		slot0.viewComponent:setTitle(slot0.contextData.name)
 	elseif slot7 == SYSTEM_DODGEM then
