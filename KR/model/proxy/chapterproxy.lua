@@ -753,10 +753,17 @@ function slot0.SortRecommendLimitation(slot0)
 	table.sort(slot0, function (slot0, slot1)
 		return CompareFuncs(slot0, slot1, {
 			function (slot0)
-				return type(slot0) == "string" and 0 or 1
-			end,
-			function (slot0)
-				return type(slot0) == "number" and -slot0 or 0
+				if type(slot0) == "number" then
+					if slot0 == 0 then
+						return 1
+					else
+						return -slot0
+					end
+				elseif type(slot0) == "string" then
+					return 0
+				else
+					assert(false)
+				end
 			end
 		})
 	end)

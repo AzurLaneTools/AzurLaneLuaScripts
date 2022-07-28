@@ -116,9 +116,13 @@ function slot0.Show(slot0, slot1, slot2)
 	setActive(slot0.saveBtn, not slot2)
 end
 
+function slot0.RemoveSizeTag(slot0, slot1)
+	return string.gsub(string.gsub(slot1, "</size>", ""), "<size=%d+>", "")
+end
+
 function slot0.ApplyTheme(slot0)
 	slot1 = slot0.theme
-	slot0.nameText.text = slot1:getName()
+	slot0.nameText.text = slot0:RemoveSizeTag(slot1:getName())
 	slot0.desc.text = i18n("backyard_theme_set_tip", slot1:getName())
 
 	if not slot1:IsSystem() and (BackYardThemeTempalteUtil.FileExists(slot1:GetTextureIconName()) or slot1:IsPushed()) then

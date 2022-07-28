@@ -342,6 +342,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>오랜 세월과 전화의 마모에도 과거의 맹세는 여전히 별처럼 빛난다——「빛나는 정원의 맹세」 이벤트 획득.</color>",
 		scene = {}
 	},
+	[321] = {
+		time_limit_type = 0,
+		name = "독수리의 광휘",
+		gain_by = "",
+		id = 321,
+		time_second = 0,
+		desc = "추후 이벤트를 통해 획득",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -417,6 +426,7 @@ pg.item_data_frame = {
 		318,
 		319,
 		320,
+		321,
 		401,
 		402,
 		413,

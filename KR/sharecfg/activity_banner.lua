@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4451",
+		param = "4461",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					7,
-					28
+					8,
+					17
 				},
 				{
 					23,
@@ -33,22 +33,82 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4463",
 		id = 2,
 		pic = "temp2",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2022,
 					7,
 					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4460",
+		id = 3,
+		pic = "temp3",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					7,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 4,
+		pic = "temp4",
+		type = 2,
+		param = {
+			"seltechnology"
+		},
+		time = {
+			{
+				{
+					2022,
+					7,
+					14
 				},
 				{
 					0,
@@ -71,8 +131,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 3,
-		pic = "temp3",
+		id = 5,
+		pic = "temp5",
 		type = 2,
 		param = {
 			"scene skinshop",
@@ -95,72 +155,6 @@ pg.activity_banner = {
 				{
 					2022,
 					7,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 4,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"seltechnology"
-		},
-		time = {
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4445",
-		id = 5,
-		pic = "temp5",
-		type = 3,
-		time = {
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
 					28
 				},
 				{
@@ -172,10 +166,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4453",
 		id = 6,
 		pic = "temp6",
-		type = 3,
+		type = 2,
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
+		},
 		time = {
 			{
 				{
@@ -348,13 +348,13 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
-			5,
-			6
+			2,
+			3
 		},
 		[2] = {
-			2,
-			3,
 			4,
+			5,
+			6,
 			7,
 			8
 		},

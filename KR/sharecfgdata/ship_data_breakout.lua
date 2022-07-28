@@ -30,7 +30,7 @@ _G.pg.base.ship_data_breakout[100011] = {
 
 _G.pg.base.ship_data_breakout[100021] = {
 	use_gold = 0,
-	breakout_view = "없음",
+	breakout_view = "없음 ",
 	use_char_num = 0,
 	use_char = 10002,
 	breakout_id = 0,

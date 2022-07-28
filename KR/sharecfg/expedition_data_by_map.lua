@@ -14428,6 +14428,182 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100200] = {
+		map = 2100200,
+		name = "빛나는 벚꽃의 그림자·상|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "FUYINGYINGHUA1",
+		ani_name = "Map_1280001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1280001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100210,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100201] = {
+		map = 2100201,
+		name = "빛나는 벚꽃의 그림자·하|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "FUYINGYINGHUA13",
+		ani_name = "Map_1280002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1280002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100211,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100210] = {
+		map = 2100210,
+		name = "빛나는 벚꽃의 그림자·상|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "FUYINGYINGHUA1",
+		ani_name = "Map_1280003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1280003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100200,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100211] = {
+		map = 2100211,
+		name = "빛나는 벚꽃의 그림자·하|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "FUYINGYINGHUA13",
+		ani_name = "Map_1280004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1280004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100201,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
@@ -15177,6 +15353,10 @@ pg.expedition_data_by_map = {
 		2100181,
 		2100190,
 		2100191,
+		2100200,
+		2100201,
+		2100210,
+		2100211,
 		2200000,
 		2200010,
 		2200020,

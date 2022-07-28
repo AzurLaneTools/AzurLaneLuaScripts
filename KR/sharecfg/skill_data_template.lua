@@ -9086,6 +9086,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6980] = {
+		desc_get = "",
+		name = "사르데냐의 초대",
+		id = 6980,
+		type = 0,
+		max_level = 0,
+		desc = "전투 중, 자신이 사르데냐 엠파이어 함선이 아니며, 비토리오 베네토와 함께 출격하지 않았을 경우: ①자신이 선봉함대일 경우, 자신의 화력, 뇌장, 기동 스탯 10.0% 상승 ②자신이 주력함대일 경우, 자신의 화력, 항공, 명중 스탯 8.0% 상승",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "라인 연습",
@@ -93461,6 +93475,7 @@ pg.skill_data_template = {
 		6950,
 		6960,
 		6970,
+		6980,
 		7000,
 		9030,
 		9031,

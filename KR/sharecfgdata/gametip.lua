@@ -9745,15 +9745,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "볼티모어, 앨라배마 건조추가！"
+	tip = "{namecode:175} 건조추가！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "알렌 M. 섬너, 스테판 포터, 버밍햄 건조추가！"
+	tip = "{namecode:50}、{namecode:203} 건조추가！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "포미더블 건조추가！"
+	tip = "{namecode:179} 건조추가！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {

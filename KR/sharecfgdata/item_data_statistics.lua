@@ -32824,7 +32824,7 @@ _G.pg.base.item_data_statistics[42041] = {
 }
 
 _G.pg.base.item_data_statistics[42042] = {
-	display = "</color>메탈 블러드 순양전함 「프린츠 루프레히트」의 강화 유닛.\n<color=#92fc63>「프린츠 루프레히트」 개발 완료 후, 「개발 도크」에서 「프린츠 루프레히트」의 성능을 강화할 수 있다.</color>",
+	display = "메탈 블러드 순양전함 「프린츠 루프레히트」의 강화 유닛.\n<color=#92fc63>「프린츠 루프레히트」 개발 완료 후, 「개발 도크」에서 「프린츠 루프레히트」의 성능을 강화할 수 있다.</color>",
 	name = "강화 유닛 「프린츠 루프레히트」",
 	max_num = 0,
 	type = 12,
@@ -161004,6 +161004,27 @@ _G.pg.base.item_data_statistics[59329] = {
 	id = 59329,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59330] = {
+	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐. ",
+	name = "훈련Pt ",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 99,
+	link_id = 4461,
+	id = 59330,
+	is_world = 0,
+	icon = "Props/xunliandianshu_yv2",
 	display_icon = {},
 	price = {},
 	index = {},

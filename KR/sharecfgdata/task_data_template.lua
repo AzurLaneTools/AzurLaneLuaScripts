@@ -27603,6 +27603,290 @@ _G.pg.base.task_data_template[5777] = {
 	}
 }
 
+_G.pg.base.task_data_template[5781] = {
+	name = "쌀쌀맞은 비서함",
+	guild_coin_award = 0,
+	award = 5562,
+	type = 5,
+	desc = "어뢰 튀김을 3개 제출한다.",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "jiaweisi",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5782",
+	auto_commit = 0,
+	story_id = "JIAWEISI1",
+	id = 5781,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5782] = {
+	name = "세심한 비서함",
+	guild_coin_award = 0,
+	award = 5563,
+	type = 5,
+	desc = "임의의 함선소녀를 10회 강화한다.",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "jiaweisi",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "JIAWEISI2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5783",
+	auto_commit = 0,
+	scene = "",
+	id = 5782,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5783] = {
+	name = "작은 상처",
+	guild_coin_award = 0,
+	award = 5564,
+	type = 5,
+	desc = "저비스를 포함한 함대를 출격시켜 20회 승리한다",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "jiaweisi",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "JIAWEISI3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "20134",
+	priority_type = 0,
+	next_task = "5784",
+	auto_commit = 0,
+	scene = "",
+	id = 5783,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5784] = {
+	name = "저비스와 재너스",
+	guild_coin_award = 0,
+	award = 5565,
+	type = 5,
+	desc = "저비스를 포함한 함대로 데일리 챌린지를 3회 클리어한다",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "jiaweisi",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "JIAWEISI4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "20134",
+	priority_type = 0,
+	next_task = "5785",
+	auto_commit = 0,
+	scene = "",
+	id = 5784,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5785] = {
+	name = "훈련 참관",
+	guild_coin_award = 0,
+	award = 5566,
+	type = 5,
+	desc = "저비스의 호감도를 100까지 달성한다",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "jiaweisi",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "JIAWEISI5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "20134",
+	priority_type = 0,
+	next_task = "5786",
+	auto_commit = 0,
+	scene = "",
+	id = 5785,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16022,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5786] = {
+	name = "감춰온 진심",
+	guild_coin_award = 0,
+	award = 5567,
+	type = 5,
+	desc = "저비스의 한계돌파를 3회 진행한다",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "jiaweisi",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "JIAWEISI6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "201344",
+	priority_type = 0,
+	next_task = "5787",
+	auto_commit = 0,
+	scene = "",
+	id = 5786,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5787] = {
+	name = "좋아한다고 말해",
+	guild_coin_award = 0,
+	award = 5568,
+	type = 5,
+	desc = "저비스의 레벨을 100까지 달성한다",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "jiaweisi",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "JIAWEISI7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "20134",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5787,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18003,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "어려움·근해 연습 ",
 	guild_coin_award = 0,
@@ -165998,6 +166282,262 @@ _G.pg.base.task_data_template[17799] = {
 			270,
 			2
 		}
+	}
+}
+
+_G.pg.base.task_data_template[17801] = {
+	name = "『意大利V3』前哨站剧情活动任务1",
+	guild_coin_award = 0,
+	award = 97750,
+	type = 26,
+	desc = "함대를 출격시켜, 10번 S 평가로 승리하라!",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17801,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17802] = {
+	name = "『意大利V3』前哨站剧情活动任务2",
+	guild_coin_award = 0,
+	award = 97751,
+	type = 26,
+	desc = "연습을 2회 수행한다",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17802,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17803] = {
+	name = "『意大利V3』前哨站剧情活动任务3",
+	guild_coin_award = 0,
+	award = 97752,
+	type = 26,
+	desc = "「데일리 챌린지」를 3번 진행한다.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17803,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17804] = {
+	name = "『意大利V3』前哨站剧情活动任务4",
+	guild_coin_award = 0,
+	award = 97753,
+	type = 26,
+	desc = "전술학원에서 전술훈련을 2번 수행한다",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17804,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17805] = {
+	name = "『意大利V3』前哨站剧情活动任务5",
+	guild_coin_award = 0,
+	award = 97754,
+	type = 26,
+	desc = "함선 건조를 2회 진행한다",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17805,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17806] = {
+	name = "『意大利V3』前哨站剧情活动任务6",
+	guild_coin_award = 0,
+	award = 97755,
+	type = 26,
+	desc = "임의의 적함을 20척 격파한다",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17806,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17807] = {
+	name = "『意大利V3』前哨站剧情活动任务7",
+	guild_coin_award = 0,
+	award = 97756,
+	type = 26,
+	desc = "적 중요함대를 3회 격파하라!",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17807,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			3,
+			3600,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 

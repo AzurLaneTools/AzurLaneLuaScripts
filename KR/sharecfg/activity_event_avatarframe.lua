@@ -116,7 +116,30 @@ pg.activity_event_avatarframe = {
 			}
 		}
 	},
+	{
+		task_level = "",
+		id = 2,
+		pt_id = 59330,
+		icon_frame = 321,
+		link_event = 0,
+		award_display = "",
+		target = 3000,
+		task_ship = "",
+		start_time = {
+			{
+				2022,
+				8,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	all = {
-		1
+		1,
+		2
 	}
 }

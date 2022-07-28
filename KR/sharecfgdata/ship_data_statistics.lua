@@ -232210,7 +232210,8 @@ _G.pg.base.ship_data_statistics[605011] = {
 		{}
 	},
 	tag_list = {
-		"Vittorio Veneto-Class"
+		"Vittorio Veneto-Class",
+		"Vittorio Veneto"
 	}
 }
 
@@ -232335,7 +232336,8 @@ _G.pg.base.ship_data_statistics[605012] = {
 		{}
 	},
 	tag_list = {
-		"Vittorio Veneto-Class"
+		"Vittorio Veneto-Class",
+		"Vittorio Veneto"
 	}
 }
 
@@ -232460,7 +232462,8 @@ _G.pg.base.ship_data_statistics[605013] = {
 		{}
 	},
 	tag_list = {
-		"Vittorio Veneto-Class"
+		"Vittorio Veneto-Class",
+		"Vittorio Veneto"
 	}
 }
 
@@ -232585,7 +232588,8 @@ _G.pg.base.ship_data_statistics[605014] = {
 		{}
 	},
 	tag_list = {
-		"Vittorio Veneto-Class"
+		"Vittorio Veneto-Class",
+		"Vittorio Veneto"
 	}
 }
 

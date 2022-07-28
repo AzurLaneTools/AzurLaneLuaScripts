@@ -10570,6 +10570,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10725,6 +10736,16 @@ pg.ship_data_group = {
 				"한정 이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -11461,6 +11482,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11937,6 +11969,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12435,6 +12478,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12879,6 +12932,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -14119,6 +14183,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14344,6 +14419,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

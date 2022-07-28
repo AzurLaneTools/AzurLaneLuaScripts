@@ -7825,6 +7825,86 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100039] = {
+		spine_extra = "",
+		describe = "무더운 여름날의 필수품!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "쥬쥬 선풍기",
+		themeId = 0,
+		icon = "jiujiufengshanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100039,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiujiufengshanB",
+				"normal"
+			},
+			{
+				"jiujiufengshanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "그래, 마음껏 메이드에게 응석을 부리라고, \"주인님\"~",
@@ -101920,6 +102000,7 @@ pg.furniture_data_template = {
 			100036,
 			100037,
 			100038,
+			100039,
 			200001,
 			200002,
 			200003,
@@ -102083,6 +102164,7 @@ pg.furniture_data_template = {
 			100036,
 			100037,
 			100038,
+			100039,
 			200001,
 			200002,
 			200003,
@@ -108273,6 +108355,7 @@ pg.furniture_data_template = {
 			100036,
 			100037,
 			100038,
+			100039,
 			54104,
 			54105
 		},
@@ -109033,7 +109116,8 @@ pg.furniture_data_template = {
 			100033,
 			100035,
 			100036,
-			100038
+			100038,
+			100039
 		},
 		[2] = {
 			120,
@@ -111309,6 +111393,7 @@ pg.furniture_data_template = {
 		100036,
 		100037,
 		100038,
+		100039,
 		200001,
 		200002,
 		200003,
