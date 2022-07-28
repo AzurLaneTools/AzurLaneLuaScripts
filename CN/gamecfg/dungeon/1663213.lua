@@ -246,7 +246,7 @@ return {
 							score = 0,
 							moveCast = true,
 							delay = 0.1,
-							monsterTemplateID = 16001303,
+							monsterTemplateID = 16003303,
 							corrdinate = {
 								-5,
 								0,

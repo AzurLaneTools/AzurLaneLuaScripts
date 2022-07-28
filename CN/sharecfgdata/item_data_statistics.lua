@@ -10090,6 +10090,33 @@ _G.pg.base.item_data_statistics[30121] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30122] = {
+	display = "使用后可获得500石油",
+	name = "石油储备箱(500)",
+	max_num = 0,
+	type = 15,
+	drop_oil_max = 500,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30122,
+	is_world = 0,
+	icon = "Props/30122",
+	display_icon = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30132] = {
 	display = "使用后可从T2改造图纸中任意选择一种获得1个",
 	name = "定向改造图纸T2",
@@ -17931,6 +17958,193 @@ _G.pg.base.item_data_statistics[40128] = {
 		}
 	},
 	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40801] = {
+	display = "恭喜您达成播放量1000，感谢您对碧蓝航线的支持！可获得石油储备箱(500)*1",
+	name = "激励计划梯度奖励(1000)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40801,
+	is_world = 0,
+	icon = "props/giftbox",
+	price = "",
+	display_icon = {
+		{
+			2,
+			30122,
+			1
+		}
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40802] = {
+	display = "恭喜您达成播放量5000，感谢您对碧蓝航线的支持！可获得石油储备箱(500)*1，钻石*200",
+	name = "激励计划梯度奖励(5000)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40802,
+	is_world = 0,
+	icon = "props/giftbox",
+	price = "",
+	display_icon = {
+		{
+			2,
+			30122,
+			1
+		},
+		{
+			2,
+			59005,
+			200
+		}
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40803] = {
+	display = "恭喜您达成播放量10000，感谢您对碧蓝航线的支持！可获得石油储备箱(1000)*1，钻石*400",
+	name = "激励计划梯度奖励(10000)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40803,
+	is_world = 0,
+	icon = "props/giftbox",
+	price = "",
+	display_icon = {
+		{
+			2,
+			30121,
+			1
+		},
+		{
+			2,
+			59005,
+			400
+		}
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40804] = {
+	display = "恭喜您达成播放量50000，感谢您对碧蓝航线的支持！可获得石油储备箱(1000)*5，钻石*2000",
+	name = "激励计划梯度奖励(50000)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40804,
+	is_world = 0,
+	icon = "props/giftbox",
+	price = "",
+	display_icon = {
+		{
+			2,
+			30121,
+			5
+		},
+		{
+			2,
+			59005,
+			2000
+		}
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40805] = {
+	display = "恭喜您达成播放量100000，感谢您对碧蓝航线的支持！可获得石油储备箱(1000)*10，钻石*4000",
+	name = "激励计划梯度奖励(100000)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40805,
+	is_world = 0,
+	icon = "props/giftbox",
+	price = "",
+	display_icon = {
+		{
+			2,
+			30121,
+			10
+		},
+		{
+			2,
+			59005,
+			4000
+		}
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40806] = {
+	display = "恭喜您达成播放量200000，感谢您对碧蓝航线的支持！可获得石油储备箱(1000)*10，钻石*5000",
+	name = "激励计划梯度奖励(200000)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40806,
+	is_world = 0,
+	icon = "props/giftbox",
+	price = "",
+	display_icon = {
+		{
+			2,
+			30121,
+			10
+		},
+		{
+			2,
+			59005,
+			5000
+		}
+	},
 	index = {},
 	shiptrans_id = {}
 }
