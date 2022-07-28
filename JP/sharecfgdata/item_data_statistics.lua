@@ -9769,6 +9769,33 @@ _G.pg.base.item_data_statistics[30121] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30122] = {
+	display = "使用すると、燃料500を入手出来ます",
+	name = "燃料貯蔵箱（500）",
+	max_num = 0,
+	type = 15,
+	drop_oil_max = 500,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30122,
+	is_world = 0,
+	icon = "Props/30122",
+	display_icon = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30132] = {
 	display = "使用すると、好きな改造図T2と交換できます",
 	name = "指向型改造図T2",

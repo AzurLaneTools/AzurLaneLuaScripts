@@ -5205,6 +5205,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[30122] = {
+		other_resource_cost = "[]",
+		display_effect = "OpenBox",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30122",
+		id = 30122,
+		compose_number = 0,
+		target_id = 0
+	},
 	[30132] = {
 		usage = "usage_drop_appointed",
 		display_effect = "",
@@ -25545,6 +25556,7 @@ pg.item_data_template = {
 		30113,
 		30114,
 		30121,
+		30122,
 		30132,
 		30133,
 		30202,
