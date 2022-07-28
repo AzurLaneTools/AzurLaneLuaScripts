@@ -2307,7 +2307,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 130,
 		t_level = 5,
 		ships = {
-			60103
+			60103,
+			60108
 		}
 	},
 	[60103] = {
@@ -2330,7 +2331,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 128,
 		t_level = 4,
 		ships = {
-			60106
+			60106,
+			60109
 		}
 	},
 	[60105] = {
@@ -2352,7 +2354,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		t_level = 7,
 		ships = {
-			60201
+			60201,
+			60202
 		}
 	},
 	[60301] = {
@@ -2379,6 +2382,17 @@ pg.fleet_tech_ship_class = {
 			60304
 		}
 	},
+	[60303] = {
+		shiptype = 3,
+		name = "Bolzano",
+		nation = 6,
+		id = 60303,
+		t_level_1 = 1,
+		t_level = 6,
+		ships = {
+			60305
+		}
+	},
 	[60501] = {
 		shiptype = 5,
 		name = "Vittorio Veneto Class",
@@ -2388,7 +2402,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			60501,
-			60502
+			60502,
+			60503
 		}
 	},
 	[60502] = {
@@ -2445,6 +2460,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 6,
 		ships = {
 			60801
+		}
+	},
+	[60802] = {
+		shiptype = 8,
+		name = "Marconi Class",
+		nation = 6,
+		id = 60802,
+		t_level_1 = 1,
+		t_level = 7,
+		ships = {
+			60802
 		}
 	},
 	[70101] = {
@@ -3070,12 +3096,14 @@ pg.fleet_tech_ship_class = {
 		60201,
 		60301,
 		60302,
+		60303,
 		60501,
 		60502,
 		60503,
 		60701,
 		60702,
 		60801,
+		60802,
 		70101,
 		70102,
 		70103,

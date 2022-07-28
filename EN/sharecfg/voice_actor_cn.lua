@@ -1299,5 +1299,29 @@ pg.voice_actor_CN = {
 	[330] = {
 		code = 330,
 		actor_name = "Senbongi Sayaka"
+	},
+	[331] = {
+		code = 331,
+		actor_name = "Kondou Yui"
+	},
+	[332] = {
+		code = 332,
+		actor_name = "Maruoka Wakana"
+	},
+	[333] = {
+		code = 333,
+		actor_name = "Sashide Maria"
+	},
+	[334] = {
+		code = 334,
+		actor_name = "Natsuyoshi Yuuko"
+	},
+	[335] = {
+		code = 335,
+		actor_name = "Maekawa Ryouko"
+	},
+	[336] = {
+		code = 336,
+		actor_name = "Houmoto Akina"
 	}
 }

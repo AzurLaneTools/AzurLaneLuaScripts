@@ -19,15 +19,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.sLabel = slot0.staticTr:Find("Text/label")
 	slot0.sSynValue = slot0.staticTr:Find("Text1")
 	slot0.sLabelLpos = slot0.sLabel.localPosition
-	slot0.underwayLabelStr = nil
 
-	if PLATFORM_CODE == PLATFORM_US then
-		slot0.underwayLabelStr = "<size=18>" .. i18n("meta_pt_point") .. "</size>"
-	else
-		slot0.underwayLabelStr = i18n("meta_pt_point")
-	end
-
-	setText(slot0.underwayTr:Find("label"), slot0.underwayLabelStr)
+	setText(slot0.underwayTr:Find("label"), i18n("meta_pt_point"))
 	setText(slot0.sLabel, i18n("meta_syn_rate"))
 
 	slot0.tip = slot0._tf:Find("tip")

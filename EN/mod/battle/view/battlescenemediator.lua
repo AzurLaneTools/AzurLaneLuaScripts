@@ -486,6 +486,10 @@ function slot5.onBulletTime(slot0, slot1)
 		for slot8, slot9 in pairs(slot0._characterList) do
 			slot9:SetAnimaSpeed(1)
 		end
+
+		for slot8, slot9 in pairs(slot0._bulletList) do
+			slot9:SetAnimaSpeed(1)
+		end
 	end
 end
 
@@ -494,6 +498,10 @@ function slot5.ResetFocus(slot0)
 	uv0.RemoveIFFFactor(uv1.FRIENDLY_CODE, uv1.SPEED_FACTOR_FOCUS_CHARACTER)
 
 	for slot4, slot5 in pairs(slot0._characterList) do
+		slot5:SetAnimaSpeed(1)
+	end
+
+	for slot4, slot5 in pairs(slot0._bulletList) do
 		slot5:SetAnimaSpeed(1)
 	end
 
@@ -534,8 +542,12 @@ end
 function slot5.AddBullet(slot0, slot1)
 	slot0._bulletList[slot1:GetBulletData():GetUniqueID()] = slot1
 
-	if slot1:GetGO() and slot2:GetComponent(typeof(ParticleSystem)) then
+	if slot1:GetGO() and slot3:GetComponent(typeof(ParticleSystem)) then
 		slot0._particleBulletList[slot1] = true
+	end
+
+	if uv0.focusExemptList[slot2:GetSpeedExemptKey()] then
+		slot1:SetAnimaSpeed(1 / slot0._state:GetTimeScaleRate())
 	end
 end
 

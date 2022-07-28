@@ -345,10 +345,10 @@ pg.item_data_frame = {
 	[321] = {
 		time_limit_type = 0,
 		name = "Splendor of Sardegna",
-		gain_by = "",
+		gain_by = "雄鹰的叙事歌",
 		id = 321,
 		time_second = 0,
-		desc = "Obtained from a limited event.",
+		desc = "<color=#ffffff>Though its path may be filled with thorns, the aquila of Sette Colli still spreads its wings and takes flight.</color>\nObtained from the \"Aquilifer's Ballade\" event.",
 		scene = {}
 	},
 	[406] = {

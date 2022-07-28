@@ -1,113 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101430] = {
-		ship_group = 10143,
-		name = "Halsey Powell",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101430,
-		group_index = 0,
-		prefab = "haerxibaoweier",
-		painting = "haerxibaoweier",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Fletcher-class destroyer – Halsey Powell, Hull Number DD-686.",
-		voice_actor = 218,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.13,
-					0.73,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.09,
-					0.79,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.19,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101431] = {
 		ship_group = 10143,
 		name = "Spring's Lucky Star",
@@ -9574,6 +9466,254 @@ pg.ship_skin_template_2 = {
 					}
 				}
 			}
+		}
+	},
+	[102290] = {
+		ship_group = 10229,
+		name = "Boise",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102290,
+		group_index = 0,
+		prefab = "boyixi",
+		painting = "boyixi",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Brooklyn-class light cruiser – Boise, Hull Number CL-47.",
+		voice_actor = 276,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.07,
+					1.13,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.05,
+					1.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.06,
+					1.08,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.7,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102291] = {
+		ship_group = 10229,
+		name = "Sheepish Sapphire",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 102291,
+		group_index = 1,
+		prefab = "boyixi_2",
+		painting = "boyixi_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70542,
+		shop_type_id = 16,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Huff... Puff... Deep breaths... I'll never get used to wearing this outfit in front of others... I think...",
+		voice_actor = 276,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			170,
+			-35,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.07,
+					1.22,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					1.29,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.11,
+					1.29,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
 		}
 	}
 }

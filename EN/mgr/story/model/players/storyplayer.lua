@@ -22,6 +22,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.flash = slot0:findTF("front/flash")
 	slot0.flashImg = slot0.flash:GetComponent(typeof(Image))
 	slot0.flashCg = slot0.flash:GetComponent(typeof(CanvasGroup))
+	slot0.curtainF = slot0:findTF("back/curtain_front")
+	slot0.curtainFCg = slot0.curtainF:GetComponent(typeof(CanvasGroup))
 	slot0.optionUIlist = UIItemList.New(slot0:findTF("front/options_panel/options"), slot0:findTF("front/options_panel/options/option_tpl"))
 	slot0.optionPrint = slot0:findTF("front/options_panel/bg")
 	slot0.optionsCg = slot0:findTF("front/options_panel"):GetComponent(typeof(CanvasGroup))
@@ -511,6 +513,14 @@ function slot0.UpdateBg(slot0, slot1)
 
 			slot0.curtainCg.alpha = 1
 		end
+
+		slot4, slot5 = slot1:IsBlackFrontGround()
+
+		if slot4 then
+			slot0.curtainFCg.alpha = slot5
+		end
+
+		setActive(slot0.curtainF, slot4)
 	end
 
 	slot0:ApplyOldPhotoEffect(slot1)

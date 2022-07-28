@@ -224,6 +224,20 @@ function slot0.execute(slot0, slot1)
 		nowWorld():GetCollectionProxy():Unlock(slot2.id)
 	elseif slot2.dropType == DROP_TYPE_META_PT then
 		getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot2.id):addPT(slot2.count)
+	elseif slot2.dropType == DROP_TYPE_SKIN_TIMELIMIT then
+		slot4 = slot2.count
+
+		if getProxy(ShipSkinProxy):getSkinById(slot2.id) and slot6:isExpireType() then
+			slot5:addSkin(ShipSkin.New({
+				id = slot3,
+				end_time = slot4 + slot6.endTime
+			}))
+		elseif not slot6 then
+			slot5:addSkin(ShipSkin.New({
+				id = slot3,
+				end_time = slot4 + pg.TimeMgr.GetInstance():GetServerTime()
+			}))
+		end
 	else
 		print("can not handle this type>>" .. slot2.dropType)
 	end

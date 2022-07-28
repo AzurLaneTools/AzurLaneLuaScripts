@@ -1,11 +1,33 @@
 slot0 = class("MainCrusingActSequence")
 
 function slot0.Execute(slot0, slot1)
+	slot4 = {}
+
 	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot3:isEnd() then
-		slot0:CheckCrusingAct(slot3, slot1)
-	else
-		slot1()
+		table.insert(slot4, function (slot0)
+			uv0:CheckCrusingAct(uv1, slot0)
+		end)
+
+		if PlayerPrefs.GetInt("cursing_first_enter_scene:" .. slot3.id, 0) == 0 then
+			table.insert(slot4, function (slot0)
+				PlayerPrefs.SetInt("cursing_first_enter_scene:" .. uv0.id, 1)
+				uv1:ShowWindow()
+				slot0()
+			end)
+		end
 	end
+
+	seriesAsync(slot4, slot1)
+end
+
+function slot0.ShowWindow(slot0)
+	pg.m02:sendNotification(GAME.LOAD_LAYERS, {
+		parentContext = getProxy(ContextProxy):getCurrentContext(),
+		context = Context.New({
+			mediator = CrusingWindowMediator,
+			viewComponent = CrusingWindowLayer
+		})
+	})
 end
 
 function slot0.CheckCrusingAct(slot0, slot1, slot2)

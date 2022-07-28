@@ -1,253 +1,21 @@
 pg = pg or {}
 pg.ship_skin_template_15 = {
-	[601032] = {
-		ship_group = 60103,
-		name = "Fair Lady's Invitation",
+	[601081] = {
+		ship_group = 60108,
+		name = "Vivacious Vivace",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
-		bg = "146",
-		id = 601032,
-		group_index = 2,
-		prefab = "wenqinzuojiaobeidi_3",
-		painting = "wenqinzuojiaobeidi_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70602,
-		shop_type_id = 7,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "\"To refuse a fair signorina's invitation would be most uncouth\"... Hehe~ Now, Commander, would you like to partake in some refreshments? Rest assured, they're all non-alcoholic♪",
-		voice_actor = 262,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.91,
-					0.92,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.92,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.23,
-					1.3,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							2.496,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[601040] = {
-		ship_group = 60104,
-		name = "Maestrale",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 601040,
-		group_index = 0,
-		prefab = "xibeifeng",
-		painting = "xibeifeng",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Maestrale-class destroyer – Maestrale.",
-		voice_actor = 268,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.284,
-					1.007,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.276,
-					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.289,
-					0.991,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.593,
-							2.538,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[601041] = {
-		ship_group = 60104,
-		name = "Lonesome Beachfarer",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 601041,
+		bg = "155",
+		id = 601081,
 		group_index = 1,
-		prefab = "xibeifeng_2",
-		painting = "xibeifeng_2",
+		prefab = "aerfuleiduo_2",
+		painting = "aerfuleiduo_2",
 		aircraft_skin = "",
 		air_bullet_skin = "",
-		shop_id = 70536,
-		shop_type_id = 6,
+		shop_id = 70720,
+		shop_type_id = 21,
 		air_bomb_skin = "",
 		illustrator = -1,
 		lip_smoothing = 0,
@@ -263,8 +31,8 @@ pg.ship_skin_template_15 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "It's way too crowded on the beach... I'd much rather be– Oh, Commander? Are you not good with crowded places either...?",
-		voice_actor = 268,
+		desc = "Found you, Commander! How would you grade this outfit of mine? ...No, no, I wasn't asking if it looked cute or pretty, I wanted to know if I was wearing it right in the first place! You know what though, I think I'll take those compliments~",
+		voice_actor = 334,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -306,29 +74,29 @@ pg.ship_skin_template_15 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.333,
-					1.011,
+					0.862,
+					0.617,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.322,
-					1.008,
+					0.84,
+					0.552,
 					0
 				}
 			},
 			torpedo = {
 				{
 					0,
-					-0.001,
+					-0.017,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					1.331,
-					1.009,
+					1.159,
+					1.346,
 					0
 				}
 			}
@@ -340,8 +108,8 @@ pg.ship_skin_template_15 = {
 					{
 						"smoke",
 						{
-							-0.546,
-							2.323,
+							-0.715,
+							1.972,
 							0
 						}
 					}
@@ -349,18 +117,18 @@ pg.ship_skin_template_15 = {
 			}
 		}
 	},
-	[601050] = {
-		ship_group = 60105,
-		name = "Libeccio",
+	[601090] = {
+		ship_group = 60109,
+		name = "Emanuele Pessagno",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
 		bg = "",
-		id = 601050,
+		id = 601090,
 		group_index = 0,
-		prefab = "xinanfeng",
-		painting = "xinanfeng",
+		prefab = "aimannuaier",
+		painting = "aimannuaier",
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
@@ -380,8 +148,8 @@ pg.ship_skin_template_15 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "Maestrale-class destroyer – Libeccio.",
-		voice_actor = 268,
+		desc = "Navigatori-class destroyer – Emanuele Pessagno.",
+		voice_actor = 333,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -421,29 +189,29 @@ pg.ship_skin_template_15 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.169,
-					1.007,
+					1.106,
+					0.869,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.153,
+					1.095,
+					0.885,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
 					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.201,
-					0.991,
+					1.217,
 					0
 				}
 			}
@@ -455,8 +223,8 @@ pg.ship_skin_template_15 = {
 					{
 						"smoke",
 						{
-							-0.6,
-							2.503,
+							-0.68,
+							2.164,
 							0
 						}
 					}
@@ -464,22 +232,22 @@ pg.ship_skin_template_15 = {
 			}
 		}
 	},
-	[601051] = {
-		ship_group = 60105,
-		name = "Beachbound Southwestern Wind!",
+	[601091] = {
+		ship_group = 60109,
+		name = "Backstage Blunders",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
-		bg = "106",
-		id = 601051,
+		bg = "109",
+		id = 601091,
 		group_index = 1,
-		prefab = "xinanfeng_2",
-		painting = "xinanfeng_2",
+		prefab = "aimannuaier_2",
+		painting = "aimannuaier_2",
 		aircraft_skin = "",
 		air_bullet_skin = "",
-		shop_id = 70535,
-		shop_type_id = 6,
+		shop_id = 70719,
+		shop_type_id = 21,
 		air_bomb_skin = "",
 		illustrator = -1,
 		lip_smoothing = 0,
@@ -487,7 +255,7 @@ pg.ship_skin_template_15 = {
 		l2d_voice_calibrate = "",
 		bullet_skin_main = "",
 		skin_type = 0,
-		bg_sp = "",
+		bg_sp = "1101",
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
@@ -495,8 +263,8 @@ pg.ship_skin_template_15 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "Libeccio's heading towards the sea! Commander, let's go to where all the excitement is!",
-		voice_actor = 268,
+		desc = "Eek! Wh-why are you guys tugging at my stockings... P-please stop that... C-Commander, please... Hurry and come help me! Waah...",
+		voice_actor = 333,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -538,136 +306,21 @@ pg.ship_skin_template_15 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.272,
-					0.991,
+					1.096,
+					0.947,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.282,
-					1.002,
+					1.102,
+					0.939,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0,
-					0.019,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.27,
-					0.996,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.498,
-							2.35,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[601060] = {
-		ship_group = 60106,
-		name = "Nicoloso da Recco",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 601060,
-		group_index = 0,
-		prefab = "daleike",
-		painting = "daleike",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Navigatori-class destroyer – Nicoloso da Recco.",
-		voice_actor = 269,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.993,
-					1.007,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.991,
-					1.024,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
+					0.014,
 					0,
 					0
 				}
@@ -687,357 +340,8 @@ pg.ship_skin_template_15 = {
 					{
 						"smoke",
 						{
-							-0.525,
-							2.415,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[601061] = {
-		ship_group = 60106,
-		name = "To a Smashing Voyage!",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 601061,
-		group_index = 1,
-		prefab = "daleike_2",
-		painting = "daleike_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70539,
-		shop_type_id = 6,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "I know this one! It's that Sakura Empire watermelon-smashing game! Just put the melon over there, Commander! ...Relax, it'll be fine! Have some faith in my navigator's intuition! Ready? Then let's go!",
-		voice_actor = 269,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.007,
-					1.012,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1,
-					1.009,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.019,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.992,
-					1.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.498,
-							2.44,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[601070] = {
-		ship_group = 60107,
-		name = "Pompeo Magno",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 601070,
-		group_index = 0,
-		prefab = "pangpeimagenuo",
-		painting = "pangpeimagenuo",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Capitani Romani-class ship – Pompeo Magno.",
-		voice_actor = 308,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.11,
-					1.07,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.02,
-					1.04,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.04,
-					1.04,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.56,
-							2.3,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[601071] = {
-		ship_group = 60107,
-		name = "Quaver Daydream",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "103",
-		id = 601071,
-		group_index = 1,
-		prefab = "pangpeimagenuo_2",
-		painting = "pangpeimagenuo_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70676,
-		shop_type_id = 4,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "*yawn*... Nothing's impossible when you've got Captain Pompey... Hmm? Commander? Wait, I fell asleep? Seems I did... Drat, I forgot what I even came here for...",
-		voice_actor = 308,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.18,
-					1.12,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.99,
-					0.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.999,
-					1.018,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.26,
+							-0.653,
+							2.176,
 							0
 						}
 					}
@@ -1270,6 +574,238 @@ pg.ship_skin_template_15 = {
 						{
 							-0.526,
 							2.461,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[602020] = {
+		ship_group = 60202,
+		name = "Giuseppe Garibaldi",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 602020,
+		group_index = 0,
+		prefab = "zhusaipei",
+		painting = "zhusaipei",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Duca degli Abruzzi-class light cruiser – Giuseppe Garibaldi.",
+		voice_actor = 286,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					1.07,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.11,
+					1.31,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.81,
+							2.09,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[602021] = {
+		ship_group = 60202,
+		name = "Noble Ivory Plumes",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "159",
+		id = 602021,
+		group_index = 1,
+		prefab = "zhusaipei_2",
+		painting = "zhusaipei_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70717,
+		shop_type_id = 21,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I am the evil swan Odile! Where oh where is my prince? ...Oh, it's you, Commander. My lines aside, pretty good performance, right?",
+		voice_actor = 286,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.004,
+					0.957,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.016,
+					0.966,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.025,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.999,
+					1.001,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.908,
+							1.813,
 							0
 						}
 					}
@@ -2249,6 +1785,238 @@ pg.ship_skin_template_15 = {
 			}
 		}
 	},
+	[603050] = {
+		ship_group = 60305,
+		name = "Bolzano",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 603050,
+		group_index = 0,
+		prefab = "boerzhanuo",
+		painting = "boerzhanuo",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Heavy cruiser – Bolzano.",
+		voice_actor = 335,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.981,
+					0.793,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.992,
+					0.801,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.02,
+					-0.022,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.936,
+					1.169,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.82,
+							1.745,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[603051] = {
+		ship_group = 60305,
+		name = "A Flutter in the Moment",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "159",
+		id = 603051,
+		group_index = 1,
+		prefab = "boerzhanuo_2",
+		painting = "boerzhanuo_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70721,
+		shop_type_id = 21,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I've never had a knack for dancing or exercise unlike Zara and her sisters... but if asked, I will dance as best as I can! Please keep your eyes on me, Commander!",
+		voice_actor = 335,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.01,
+					0.78,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1,
+					0.79,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.02,
+					-0.012,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					1.6,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.757,
+							1.965,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[605010] = {
 		ship_group = 60501,
 		name = "Vittorio Veneto",
@@ -2961,6 +2729,273 @@ pg.ship_skin_template_15 = {
 					}
 				}
 			}
+		}
+	},
+	[605030] = {
+		ship_group = 60503,
+		name = "Roma",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 605030,
+		group_index = 0,
+		prefab = "luoma",
+		painting = "luoma",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Vittorio Veneto-class battleship – Roma.",
+		voice_actor = 331,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.067,
+					1.002,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.042,
+					0.768,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.088,
+					1.298,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.768,
+							1.527,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[605031] = {
+		ship_group = 60503,
+		name = "White Heron of Darkest Night",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "159",
+		id = 605031,
+		group_index = 1,
+		prefab = "luoma_2",
+		painting = "luoma_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70716,
+		shop_type_id = 21,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "You seem to have known that I would be here. Then stay and spend the night with me. Just the two of us.",
+		voice_actor = 331,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			100,
+			-75,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.058,
+					1.003,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.992,
+					0.779,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.161,
+					1.16,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.814,
+							1.512,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			},
+			ParamEyeBallX = {
+				-0.5,
+				0.5
+			},
+			ParamEyeBallY = {
+				-0.5,
+				0.5
+			}
+		},
+		ship_l2d_id = {
+			605031
 		}
 	},
 	[605050] = {
@@ -4292,6 +4327,210 @@ pg.ship_skin_template_15 = {
 						{
 							-0.556,
 							2.471,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[608020] = {
+		ship_group = 60802,
+		name = "Leonardo da Vinci",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 608020,
+		group_index = 0,
+		prefab = "dafenqi",
+		painting = "dafenqi",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Marconi-class submarine – Leonardo da Vinci.",
+		voice_actor = 332,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.03,
+					0.612,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.696,
+							2.006,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[608021] = {
+		ship_group = 60802,
+		name = "Riverside Pirouette",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "158",
+		id = 608021,
+		group_index = 1,
+		prefab = "dafenqi_2",
+		painting = "dafenqi_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70718,
+		shop_type_id = 21,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Here to watch me rehearse just like these deer, Commander? Isn't it wonderful being surrounded by the beauty of nature? For a performance based on a fable such as this one, ambiance is key. Ehehe~♪",
+		voice_actor = 332,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.705,
+					0.629,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.729,
+							2.024,
 							0
 						}
 					}
@@ -9468,123 +9707,6 @@ pg.ship_skin_template_15 = {
 						{
 							-0.5,
 							2.346,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[705041] = {
-		ship_group = 70504,
-		name = "Relaxation Stratagem",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "136",
-		id = 705041,
-		group_index = 1,
-		prefab = "suweiaibeilaluosi_2",
-		painting = "suweiaibeilaluosi_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70506,
-		shop_type_id = 20,
-		air_bomb_skin = "",
-		illustrator = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "To pass the time by proactively reading, or by passively enjoying the company of others... Ah, good morning, Comrade, I've been expecting you. Hahaha!",
-		voice_actor = 106,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.436,
-					1.004,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.469,
-					0.999,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.453,
-					1.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.462,
-							2.446,
 							0
 						}
 					}

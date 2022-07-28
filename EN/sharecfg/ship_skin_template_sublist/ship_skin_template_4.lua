@@ -1,255 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
-	[107021] = {
-		ship_group = 10702,
-		name = "The Beauty of Spring",
-		bullet_skin_secondary = "",
-		hand_id = 9,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "102",
-		id = 107021,
-		group_index = 1,
-		prefab = "liekexingdun_2",
-		painting = "liekexingdun_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70154,
-		shop_type_id = 3,
-		air_bomb_skin = "",
-		illustrator = 10,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Hehe… sometimes you can completely change the way people see you with just a simple change in attire. Don't you agree, Commander~? Don’t worry, I'm still your Lexington~",
-		voice_actor = 26,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.63,
-					0.661,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.5,
-					0.8,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.2,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.5,
-					0.8,
-					0
-				},
-				{
-					-0.5,
-					0.8,
-					0
-				}
-			},
-			plane = {
-				{
-					0.63,
-					0.497,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.404,
-							-0.4
-						}
-					}
-				}
-			}
-		}
-	},
-	[107030] = {
-		ship_group = 10703,
-		name = "Saratoga",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 107030,
-		group_index = 0,
-		prefab = "salatuojia",
-		painting = "salatuojia",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 10,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Lexington-class aircraft carrier ー Saratoga, Hull Number CV-3!",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.772,
-					0.605,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.772,
-					0.605,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.772,
-					0.605,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.887,
-							1.243,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.642,
-							1.068,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[107031] = {
 		ship_group = 10703,
 		name = "Seven Seas of Rest",
@@ -8721,6 +8471,366 @@ pg.ship_skin_template_4 = {
 						{
 							-0.57,
 							2.16,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201032] = {
+		ship_group = 20103,
+		name = "Master Ardent?",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 201032,
+		group_index = 2,
+		prefab = "rexin_3",
+		painting = "rexin_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70584,
+		shop_type_id = 16,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Welcome to Ardent's game house~! I'm here to provide fun and excitement for everyone as the GM– ...Ehehe, actually, I'm still learning as a play~♪",
+		voice_actor = 111,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.225,
+					1.188,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.216,
+					1.181,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.266,
+					1.271,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.543,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201039] = {
+		ship_group = 20103,
+		name = "Ardent (Retrofit)",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201039,
+		group_index = 9,
+		prefab = "rexin_g",
+		painting = "rexin_g",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9997,
+		air_bomb_skin = "",
+		illustrator = 38,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "New outfit, new rigging, same ardent spirit! Ahaha, I'm serious~! Commander, thanks a lot~!",
+		voice_actor = 111,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.37,
+					1.38,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.28,
+					1.39,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.23,
+					1.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.59,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201060] = {
+		ship_group = 20106,
+		name = "Beagle",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201060,
+		group_index = 0,
+		prefab = "xiaolietuquan",
+		painting = "xiaolietuquan",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "B-class destroyer ー Beagle, Hull Number H30!",
+		voice_actor = 63,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.72,
+					0.87,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.72,
+					0.87,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.48,
+					0.34,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.72,
+					0.87,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.559,
+							0.272,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.293,
+							0.826,
 							0
 						}
 					}

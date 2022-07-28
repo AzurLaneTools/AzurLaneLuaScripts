@@ -1569,6 +1569,106 @@ pg.strategy_data_template = {
 		desc = "Your ships take 5.0% less DMG from enemies.",
 		arg = {}
 	},
+	[200000] = {
+		buff_id = 200000,
+		name = "Air Armada Support",
+		type = 10,
+		iconSize = "",
+		id = 200000,
+		icon = "200000",
+		desc = "Captain Alfredo's air armada provides supporting fire during battles.",
+		arg = {}
+	},
+	[200003] = {
+		buff_id = 200003,
+		name = "Air Armada Support",
+		type = 10,
+		iconSize = "",
+		id = 200003,
+		icon = "200000",
+		desc = "Captain Alfredo's air armada provides supporting fire during battles.",
+		arg = {}
+	},
+	[200006] = {
+		buff_id = 200006,
+		name = "Air Armada Support",
+		type = 10,
+		iconSize = "",
+		id = 200006,
+		icon = "200000",
+		desc = "Captain Alfredo's air armada provides supporting fire during battles.",
+		arg = {}
+	},
+	[200009] = {
+		buff_id = 200009,
+		name = "Miniature Mirror Sea",
+		type = 10,
+		iconSize = "",
+		id = 200009,
+		icon = "200009",
+		desc = "All your Sardegna Empire ships deal 20% more DMG and take 20% less DMG.",
+		arg = {}
+	},
+	[200011] = {
+		buff_id = 200011,
+		name = "Ancient Might",
+		type = 10,
+		iconSize = "",
+		id = 200011,
+		icon = "200011",
+		desc = "Strike with all the fury of a storm. Your fleet's FP and AVI are increased by 10%.",
+		arg = {}
+	},
+	[200012] = {
+		buff_id = 200012,
+		name = "Ancient Alacrity",
+		type = 10,
+		iconSize = "",
+		id = 200012,
+		icon = "200012",
+		desc = "Heed the call of the legion's horn. Your fleet's RLD is increased by 15%.",
+		arg = {}
+	},
+	[200013] = {
+		buff_id = 200013,
+		name = "Ancient Splendor",
+		type = 10,
+		iconSize = "",
+		id = 200013,
+		icon = "200013",
+		desc = "Bathe in the sun's splendorous light. Your fleet regains 3% HP at the start of each battle.",
+		arg = {}
+	},
+	[200015] = {
+		buff_id = 200015,
+		name = "Ancient Conquest",
+		type = 10,
+		iconSize = "",
+		id = 200015,
+		icon = "200015",
+		desc = "The world's vastness spreads out before your eyes. Your fleet's EVA is increased by 10%.",
+		arg = {}
+	},
+	[200016] = {
+		buff_id = 200016,
+		name = "Ancient Justice",
+		type = 10,
+		iconSize = "",
+		id = 200016,
+		icon = "200016",
+		desc = "Behold the turning tides of fate. The enemy takes constant DMG during battle.",
+		arg = {}
+	},
+	[200019] = {
+		buff_id = 200019,
+		name = "Ancient Apostasy",
+		type = 10,
+		iconSize = "",
+		id = 200019,
+		icon = "200019",
+		desc = "Turn your back on the dying of the light. Your Flagship starts with her first attack pre-loaded.",
+		arg = {}
+	},
 	all = {
 		1,
 		2,
@@ -1722,6 +1822,16 @@ pg.strategy_data_template = {
 		10021,
 		10031,
 		10032,
-		10033
+		10033,
+		200000,
+		200003,
+		200006,
+		200009,
+		200011,
+		200012,
+		200013,
+		200015,
+		200016,
+		200019
 	}
 }

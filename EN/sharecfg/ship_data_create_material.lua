@@ -86,11 +86,15 @@ pg.ship_data_create_material = {
 			"",
 			"Common：30%",
 			"",
-			"<color=#ffde38>Joffre</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Roma</color>：2%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>L'Indomptable</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Leonardo da Vinci</color>：2%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#d797ff>Enterprise</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Giuseppe Garibaldi</color>：0.5%",
+			"",
+			"<color=#d797ff>Alfredo Oriani</color>：2.5%(<color=#92fc63>up!</color>)",
+			"",
+			"<color=#d797ff>Bolzano</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

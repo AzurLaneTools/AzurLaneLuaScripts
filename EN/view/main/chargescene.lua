@@ -94,15 +94,6 @@ function slot0.init(slot0)
 	setText(slot0:findTF("light/title", slot0.itemToggle), i18n("shop_item_title"))
 	setText(slot0:findTF("dark/title", slot0.itemToggle), i18n("shop_item_title"))
 
-	if PLATFORM_CODE == PLATFORM_US then
-		setActive(slot0:findTF("light/title/title_en", slot0.diamondToggle), false)
-		setActive(slot0:findTF("dark/title/title_en", slot0.diamondToggle), false)
-		setActive(slot0:findTF("light/title/title_en", slot0.giftToggle), false)
-		setActive(slot0:findTF("dark/title/title_en", slot0.giftToggle), false)
-		setActive(slot0:findTF("light/title/title_en", slot0.itemToggle), false)
-		setActive(slot0:findTF("dark/title/title_en", slot0.itemToggle), false)
-	end
-
 	slot0.linkTitle = {
 		slot0:findTF("title/title_diamond", slot0.top),
 		slot0:findTF("title/title_gift", slot0.top),

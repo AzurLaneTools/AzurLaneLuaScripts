@@ -1,123 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_20 = {
-	[10600071] = {
-		ship_group = 1060007,
-		name = "The Ace of Hearts",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "doa_huanzhuang",
-		illustrator2 = -1,
-		bg = "106",
-		id = 10600071,
-		group_index = 1,
-		prefab = "monika_2_DOA",
-		painting = "monika_2_DOA",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70451,
-		shop_type_id = 6,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "\"Welcome to Monica's Fantabulous Casino! Where you can have your every whim satisfied!\" ...Oh, that doesn't sound very casino-managery? Heheh!",
-		voice_actor = 234,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.276,
-					1.068,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.001,
-					-0.004,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.221,
-					1.067,
-					0
-				}
-			},
-			plane = {
-				{
-					1.181,
-					1.042,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[10700010] = {
 		ship_group = 1070001,
 		name = "Haruka Amami",
@@ -6485,6 +6367,116 @@ pg.ship_skin_template_20 = {
 			}
 		}
 	},
+	[399033] = {
+		ship_group = 39903,
+		name = "Night of Doves and Magic",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "159",
+		id = 399033,
+		group_index = 3,
+		prefab = "beifeng_4",
+		painting = "beifeng_4",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 21,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Mm, preparations complete. If I keep it up, the production will surely be a great success. The doves have been on their best behavior too. Commander, what do you think about Kitakaze's magic show?",
+		voice_actor = 33,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.809,
+					1.012,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.089,
+					1.358,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.663,
+							2.096,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[399040] = {
 		ship_group = 39904,
 		name = "Azuma",
@@ -10061,7 +10053,7 @@ pg.ship_skin_template_20 = {
 		main_UI_FX = "",
 		special_effects = "",
 		desc = "Light cruiser - Harbin.",
-		voice_actor = -1,
+		voice_actor = 336,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",

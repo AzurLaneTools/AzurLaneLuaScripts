@@ -1,5 +1,122 @@
 pg = pg or {}
 pg.ship_skin_template_16 = {
+	[705041] = {
+		ship_group = 70504,
+		name = "Relaxation Stratagem",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "136",
+		id = 705041,
+		group_index = 1,
+		prefab = "suweiaibeilaluosi_2",
+		painting = "suweiaibeilaluosi_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70506,
+		shop_type_id = 20,
+		air_bomb_skin = "",
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "To pass the time by proactively reading, or by passively enjoying the company of others... Ah, good morning, Comrade, I've been expecting you. Hahaha!",
+		voice_actor = 106,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.436,
+					1.004,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.469,
+					0.999,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.453,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.462,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[705050] = {
 		ship_group = 70505,
 		name = "Sovetskaya Rossiya",

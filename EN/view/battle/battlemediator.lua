@@ -612,11 +612,11 @@ function slot0.GenBattleData(slot0)
 		end
 	elseif slot2 == SYSTEM_WORLD_BOSS then
 		slot6 = nowWorld():GetBossProxy()
-		slot7 = slot6:GetFleet()
-		slot8 = slot0.contextData.bossId
-		slot9 = slot6:GetBossById(slot8)
+		slot7 = slot0.contextData.bossId
+		slot8 = slot6:GetFleet(slot7)
+		slot9 = slot6:GetBossById(slot7)
 
-		assert(slot9, slot8)
+		assert(slot9, slot7)
 
 		if slot9:GetHP() then
 			if slot9:IsSelf() then
@@ -630,14 +630,14 @@ function slot0.GenBattleData(slot0)
 			end
 		end
 
-		slot11 = _.values(slot7:getCommanders())
-		slot1.CommanderList = slot7:buildBattleBuffList()
-		slot0.mainShips = slot3:getShipsByFleet(slot7)
+		slot11 = _.values(slot8:getCommanders())
+		slot1.CommanderList = slot8:buildBattleBuffList()
+		slot0.mainShips = slot3:getShipsByFleet(slot8)
 		slot12 = {}
 		slot13 = {}
 		slot14 = {}
 
-		for slot19, slot20 in ipairs(slot7:getTeamByName(TeamType.Main)) do
+		for slot19, slot20 in ipairs(slot8:getTeamByName(TeamType.Main)) do
 			if table.contains(slot4, slot20) then
 				BattleVertify.cloneShipVertiry = true
 			end
@@ -649,7 +649,7 @@ function slot0.GenBattleData(slot0)
 			table.insert(slot1.MainUnitList, uv0(slot2, slot21, slot11))
 		end
 
-		for slot20, slot21 in ipairs(slot7:getTeamByName(TeamType.Vanguard)) do
+		for slot20, slot21 in ipairs(slot8:getTeamByName(TeamType.Vanguard)) do
 			if table.contains(slot4, slot21) then
 				BattleVertify.cloneShipVertiry = true
 			end

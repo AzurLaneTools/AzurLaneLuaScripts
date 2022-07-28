@@ -229549,6 +229549,1006 @@ _G.pg.base.ship_data_statistics[601074] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[601081] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Alfredo Oriani",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601080,
+	english_name = "RN Alfredo Oriani",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601081,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		300,
+		21,
+		55,
+		29,
+		0,
+		78,
+		0,
+		73,
+		79,
+		45.6,
+		55,
+		53
+	},
+	attrs_growth = {
+		8426,
+		289,
+		734,
+		638,
+		0,
+		541,
+		0,
+		1125,
+		1456,
+		0,
+		0,
+		601
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Poeti-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601082] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Alfredo Oriani",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601080,
+	english_name = "RN Alfredo Oriani",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601082,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		373,
+		26,
+		69,
+		36,
+		0,
+		78,
+		0,
+		73,
+		79,
+		45.6,
+		55,
+		66
+	},
+	attrs_growth = {
+		8426,
+		289,
+		734,
+		638,
+		0,
+		541,
+		0,
+		1125,
+		1456,
+		0,
+		0,
+		601
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.15,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Poeti-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601083] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Alfredo Oriani",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601080,
+	english_name = "RN Alfredo Oriani",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601083,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		520,
+		36,
+		96,
+		50,
+		0,
+		78,
+		0,
+		73,
+		79,
+		45.6,
+		55,
+		92
+	},
+	attrs_growth = {
+		8426,
+		289,
+		734,
+		638,
+		0,
+		541,
+		0,
+		1125,
+		1456,
+		0,
+		0,
+		601
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.25,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Poeti-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601084] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Alfredo Oriani",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601080,
+	english_name = "RN Alfredo Oriani",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601084,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		739,
+		52,
+		136,
+		72,
+		0,
+		78,
+		0,
+		73,
+		79,
+		45.6,
+		55,
+		132
+	},
+	attrs_growth = {
+		8426,
+		289,
+		734,
+		638,
+		0,
+		541,
+		0,
+		1125,
+		1456,
+		0,
+		0,
+		601
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Poeti-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601091] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Emanuele Pessagno",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601090,
+	english_name = "RN Emanuele Pessagno",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601091,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		301,
+		22,
+		52,
+		31,
+		0,
+		75,
+		0,
+		69,
+		77,
+		39.6,
+		46,
+		51
+	},
+	attrs_growth = {
+		8445,
+		305,
+		709,
+		682,
+		0,
+		521,
+		0,
+		1062,
+		1427,
+		0,
+		0,
+		576
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		105,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.15,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Navigatori-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601092] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Emanuele Pessagno",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601090,
+	english_name = "RN Emanuele Pessagno",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601092,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		374,
+		27,
+		65,
+		39,
+		0,
+		75,
+		0,
+		69,
+		77,
+		39.6,
+		46,
+		64
+	},
+	attrs_growth = {
+		8445,
+		305,
+		709,
+		682,
+		0,
+		521,
+		0,
+		1062,
+		1427,
+		0,
+		0,
+		576
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		105,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.15,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Navigatori-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601093] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Emanuele Pessagno",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601090,
+	english_name = "RN Emanuele Pessagno",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601093,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		521,
+		38,
+		91,
+		54,
+		0,
+		75,
+		0,
+		69,
+		77,
+		39.6,
+		46,
+		89
+	},
+	attrs_growth = {
+		8445,
+		305,
+		709,
+		682,
+		0,
+		521,
+		0,
+		1062,
+		1427,
+		0,
+		0,
+		576
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		105,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.15,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Navigatori-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601094] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Emanuele Pessagno",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601090,
+	english_name = "RN Emanuele Pessagno",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601094,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		741,
+		55,
+		130,
+		77,
+		0,
+		75,
+		0,
+		69,
+		77,
+		39.6,
+		46,
+		126
+	},
+	attrs_growth = {
+		8445,
+		305,
+		709,
+		682,
+		0,
+		521,
+		0,
+		1062,
+		1427,
+		0,
+		0,
+		576
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		105,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.2,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Navigatori-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[602011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -230052,6 +231052,522 @@ _G.pg.base.ship_data_statistics[602014] = {
 	equipment_proficiency = {
 		1.25,
 		1.6,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Condottieri-Class",
+		"V"
+	}
+}
+
+_G.pg.base.ship_data_statistics[602021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Giuseppe Garibaldi",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 602020,
+	english_name = "RN Giuseppe Garibaldi",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 602021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		749,
+		33,
+		60,
+		70,
+		0,
+		66,
+		0,
+		62,
+		31,
+		35.56,
+		88,
+		23
+	},
+	attrs_growth = {
+		18588,
+		457,
+		790,
+		1464,
+		0,
+		462,
+		0,
+		892,
+		612,
+		0,
+		0,
+		288
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		251
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.25,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Condottieri-Class",
+		"V"
+	}
+}
+
+_G.pg.base.ship_data_statistics[602022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Giuseppe Garibaldi",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 602020,
+	english_name = "RN Giuseppe Garibaldi",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 602022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		932,
+		41,
+		75,
+		87,
+		0,
+		66,
+		0,
+		62,
+		31,
+		35.56,
+		88,
+		29
+	},
+	attrs_growth = {
+		18588,
+		457,
+		790,
+		1464,
+		0,
+		462,
+		0,
+		892,
+		612,
+		0,
+		0,
+		288
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		252
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.25,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Condottieri-Class",
+		"V"
+	}
+}
+
+_G.pg.base.ship_data_statistics[602023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Giuseppe Garibaldi",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 602020,
+	english_name = "RN Giuseppe Garibaldi",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 602023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1297,
+		57,
+		104,
+		122,
+		0,
+		66,
+		0,
+		62,
+		31,
+		35.56,
+		88,
+		40
+	},
+	attrs_growth = {
+		18588,
+		457,
+		790,
+		1464,
+		0,
+		462,
+		0,
+		892,
+		612,
+		0,
+		0,
+		288
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		253
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Condottieri-Class",
+		"V"
+	}
+}
+
+_G.pg.base.ship_data_statistics[602024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Giuseppe Garibaldi",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 602020,
+	english_name = "RN Giuseppe Garibaldi",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 602024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1846,
+		82,
+		149,
+		173,
+		0,
+		66,
+		0,
+		62,
+		31,
+		35.56,
+		88,
+		58
+	},
+	attrs_growth = {
+		18588,
+		457,
+		790,
+		1464,
+		0,
+		462,
+		0,
+		892,
+		612,
+		0,
+		0,
+		288
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		254
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
 		1.1,
 		0.3
 	},
@@ -232089,6 +233605,514 @@ _G.pg.base.ship_data_statistics[603044] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[603051] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Bolzano",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603050,
+	english_name = "RN Bolzano",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 603051,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		762,
+		43,
+		29,
+		42,
+		0,
+		62,
+		0,
+		39,
+		14,
+		28.8,
+		46,
+		0
+	},
+	attrs_growth = {
+		19215,
+		593,
+		407,
+		916,
+		0,
+		434,
+		0,
+		613,
+		442,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		351
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.45,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Bolzano-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603052] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Bolzano",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603050,
+	english_name = "RN Bolzano",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 603052,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		948,
+		54,
+		36,
+		52,
+		0,
+		62,
+		0,
+		39,
+		14,
+		28.8,
+		46,
+		0
+	},
+	attrs_growth = {
+		19215,
+		593,
+		407,
+		916,
+		0,
+		434,
+		0,
+		613,
+		442,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		352
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.45,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Bolzano-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603053] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Bolzano",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603050,
+	english_name = "RN Bolzano",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 603053,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1320,
+		75,
+		51,
+		73,
+		0,
+		62,
+		0,
+		39,
+		14,
+		28.8,
+		46,
+		0
+	},
+	attrs_growth = {
+		19215,
+		593,
+		407,
+		916,
+		0,
+		434,
+		0,
+		613,
+		442,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		353
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.55,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Bolzano-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603054] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Bolzano",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603050,
+	english_name = "RN Bolzano",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 603054,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1877,
+		107,
+		73,
+		104,
+		0,
+		62,
+		0,
+		39,
+		14,
+		28.8,
+		46,
+		0
+	},
+	attrs_growth = {
+		19215,
+		593,
+		407,
+		916,
+		0,
+		434,
+		0,
+		613,
+		442,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		354
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.7,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Bolzano-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[605011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -233011,6 +235035,506 @@ _G.pg.base.ship_data_statistics[605024] = {
 		990,
 		0,
 		394,
+		0,
+		307,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Vittorio Veneto-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[605031] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Roma",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 605030,
+	english_name = "RN Roma",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 605031,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1451,
+		81,
+		0,
+		45,
+		0,
+		57,
+		0,
+		19,
+		8,
+		30,
+		40,
+		0
+	},
+	attrs_growth = {
+		39246,
+		1004,
+		0,
+		982,
+		0,
+		400,
+		0,
+		307,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Vittorio Veneto-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[605032] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Roma",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 605030,
+	english_name = "RN Roma",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 605032,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1805,
+		101,
+		0,
+		56,
+		0,
+		57,
+		0,
+		19,
+		8,
+		30,
+		40,
+		0
+	},
+	attrs_growth = {
+		39246,
+		1004,
+		0,
+		982,
+		0,
+		400,
+		0,
+		307,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Vittorio Veneto-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[605033] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Roma",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 605030,
+	english_name = "RN Roma",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 605033,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2512,
+		141,
+		0,
+		78,
+		0,
+		57,
+		0,
+		19,
+		8,
+		30,
+		40,
+		0
+	},
+	attrs_growth = {
+		39246,
+		1004,
+		0,
+		982,
+		0,
+		400,
+		0,
+		307,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Vittorio Veneto-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[605034] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Roma",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 605030,
+	english_name = "RN Roma",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 605034,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3574,
+		202,
+		0,
+		111,
+		0,
+		57,
+		0,
+		19,
+		8,
+		30,
+		40,
+		0
+	},
+	attrs_growth = {
+		39246,
+		1004,
+		0,
+		982,
+		0,
+		400,
 		0,
 		307,
 		217,
@@ -236050,6 +238574,1026 @@ _G.pg.base.ship_data_statistics[608014] = {
 	},
 	tag_list = {
 		"Brin-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[608021] = {
+	raid_distance = 25,
+	oxy_max = 232,
+	name = "Leonardo da Vinci",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 608020,
+	english_name = "RN Leonardo da Vinci",
+	attack_duration = 6,
+	star = 3,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 608021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		275,
+		9,
+		104,
+		0,
+		0,
+		37,
+		0,
+		66,
+		7,
+		18,
+		57,
+		0
+	},
+	attrs_growth = {
+		7838,
+		121,
+		1242,
+		0,
+		0,
+		255,
+		0,
+		970,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.15,
+		0.85
+	},
+	strategy_list = {
+		{
+			10,
+			1
+		}
+	},
+	hunting_range = {
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				1,
+				-3
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				3
+			}
+		},
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				3,
+				0
+			}
+		}
+	},
+	tag_list = {
+		"Marconi-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[608022] = {
+	raid_distance = 25,
+	oxy_max = 232,
+	name = "Leonardo da Vinci",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 608020,
+	english_name = "RN Leonardo da Vinci",
+	attack_duration = 6,
+	star = 4,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 608022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		342,
+		11,
+		130,
+		0,
+		0,
+		37,
+		0,
+		66,
+		7,
+		18,
+		57,
+		0
+	},
+	attrs_growth = {
+		7838,
+		121,
+		1242,
+		0,
+		0,
+		255,
+		0,
+		970,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		0.85
+	},
+	strategy_list = {
+		{
+			10,
+			1
+		}
+	},
+	hunting_range = {
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				1,
+				-3
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				3
+			}
+		},
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				3,
+				0
+			}
+		}
+	},
+	tag_list = {
+		"Marconi-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[608023] = {
+	raid_distance = 25,
+	oxy_max = 232,
+	name = "Leonardo da Vinci",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 608020,
+	english_name = "RN Leonardo da Vinci",
+	attack_duration = 6,
+	star = 5,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 608023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		476,
+		15,
+		181,
+		0,
+		0,
+		37,
+		0,
+		66,
+		7,
+		18,
+		57,
+		0
+	},
+	attrs_growth = {
+		7838,
+		121,
+		1242,
+		0,
+		0,
+		255,
+		0,
+		970,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		0.85
+	},
+	strategy_list = {
+		{
+			10,
+			1
+		}
+	},
+	hunting_range = {
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				1,
+				-3
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				3
+			}
+		},
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				3,
+				0
+			}
+		}
+	},
+	tag_list = {
+		"Marconi-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[608024] = {
+	raid_distance = 25,
+	oxy_max = 232,
+	name = "Leonardo da Vinci",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 608020,
+	english_name = "RN Leonardo da Vinci",
+	attack_duration = 6,
+	star = 6,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 608024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		678,
+		22,
+		258,
+		0,
+		0,
+		37,
+		0,
+		66,
+		7,
+		18,
+		57,
+		0
+	},
+	attrs_growth = {
+		7838,
+		121,
+		1242,
+		0,
+		0,
+		255,
+		0,
+		970,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		0.85
+	},
+	strategy_list = {
+		{
+			10,
+			1
+		}
+	},
+	hunting_range = {
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				1,
+				-3
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				3
+			}
+		},
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				3,
+				0
+			}
+		}
+	},
+	tag_list = {
+		"Marconi-class"
 	}
 }
 
@@ -292306,6 +295850,518 @@ _G.pg.base.ship_data_statistics[9702024] = {
 		"MemphisMETA",
 		"Omaha-Class",
 		"TOC"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9703011] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Trento META",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 9703010,
+	english_name = "Terento.META",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9703011,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		630,
+		44,
+		32,
+		36,
+		0,
+		61,
+		0,
+		29,
+		8,
+		29,
+		42,
+		0
+	},
+	attrs_growth = {
+		10842,
+		608,
+		446,
+		487,
+		0,
+		422,
+		0,
+		453,
+		439,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		351
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.4,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"TrentoMETA",
+		"Trento-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9703012] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Trento META",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 9703010,
+	english_name = "Terento.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9703012,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		784,
+		55,
+		40,
+		45,
+		0,
+		61,
+		0,
+		29,
+		8,
+		29,
+		42,
+		0
+	},
+	attrs_growth = {
+		10842,
+		608,
+		446,
+		487,
+		0,
+		422,
+		0,
+		453,
+		439,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		352
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.4,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"TrentoMETA",
+		"Trento-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9703013] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Trento META",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 9703010,
+	english_name = "Terento.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9703013,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1091,
+		77,
+		56,
+		62,
+		0,
+		61,
+		0,
+		29,
+		8,
+		29,
+		42,
+		0
+	},
+	attrs_growth = {
+		10842,
+		608,
+		446,
+		487,
+		0,
+		422,
+		0,
+		453,
+		439,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		353
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"TrentoMETA",
+		"Trento-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9703014] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Trento META",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 9703010,
+	english_name = "Terento.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9703014,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1552,
+		109,
+		80,
+		89,
+		0,
+		61,
+		0,
+		29,
+		8,
+		29,
+		42,
+		0
+	},
+	attrs_growth = {
+		10842,
+		608,
+		446,
+		487,
+		0,
+		422,
+		0,
+		453,
+		439,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		354
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.65,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"TrentoMETA",
+		"Trento-Class"
 	}
 }
 

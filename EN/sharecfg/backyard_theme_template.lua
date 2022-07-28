@@ -3253,6 +3253,56 @@ pg.backyard_theme_template = {
 			90127
 		}
 	},
+	[91] = {
+		Cfg_1 = 5,
+		name = "Manjuu Ballroom",
+		hot = 1,
+		is_view = 1,
+		id = 91,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "It's time to show off the fruits of your dance rehearsals.",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "wdsthemeicon",
+		deblocking = 1,
+		order = 92,
+		ids = {
+			91001,
+			91002,
+			91101,
+			91102,
+			91103,
+			91104,
+			91105,
+			91106,
+			91107,
+			91108,
+			91109,
+			91111,
+			91112,
+			91113,
+			91114,
+			91115,
+			91116,
+			91119,
+			91120,
+			91121,
+			91122,
+			91123,
+			91124,
+			91125,
+			91126,
+			91127,
+			91128,
+			91301,
+			91302,
+			91303,
+			91304,
+			91305
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3325,6 +3375,7 @@ pg.backyard_theme_template = {
 		87,
 		88,
 		89,
-		90
+		90,
+		91
 	}
 }

@@ -707,7 +707,8 @@ function slot5.GetCommonResource()
 		uv0.GetUIPath("SkillPainting"),
 		uv0.GetUIPath("MonsterAppearUI"),
 		uv0.GetUIPath("CombatHPBar"),
-		uv0.GetUIPath("CombatHPPop")
+		uv0.GetUIPath("CombatHPPop"),
+		uv0.GetBulletPath("Bulletelc")
 	}
 end
 
@@ -855,13 +856,23 @@ function slot5.GetWeaponResource(slot0, slot1)
 		end
 	end
 
-	slot2[#slot2 + 1] = uv2.GetFXPath(slot3.fire_fx)
+	slot4 = nil
+
+	if slot1 and slot1 ~= 0 then
+		slot4 = uv4.Battle.BattleDataFunction.GetEquipSkinDataFromID(slot1)
+	end
+
+	if slot4 and slot4.fire_fx_name ~= "" then
+		slot2[#slot2 + 1] = uv2.GetFXPath(slot4.fire_fx_name)
+	else
+		slot2[#slot2 + 1] = uv2.GetFXPath(slot3.fire_fx)
+	end
 
 	if slot3.precast_param.fx then
 		slot2[#slot2 + 1] = uv2.GetFXPath(slot3.precast_param.fx)
 	end
 
-	if slot1 and slot1 ~= 0 and uv4.Battle.BattleDataFunction.GetEquipSkinDataFromID(slot1).orbit_combat ~= "" then
+	if slot4 and slot4.orbit_combat ~= "" then
 		slot2[#slot2 + 1] = uv2.GetOrbitPath(slot5)
 	end
 
@@ -902,50 +913,56 @@ end
 
 function slot5.GetBulletResource(slot0, slot1)
 	slot2 = {}
-	slot3 = uv0.GetBulletTmpDataFromID(slot0)
-	slot4 = nil
+	slot3 = nil
 
-	if (slot1 or 0) ~= 0 then
-		slot5 = uv0.GetEquipSkinDataFromID(slot1)
-		slot4 = slot5.bullet_name
+	if slot1 ~= nil and slot1 ~= 0 then
+		slot3 = uv0.GetEquipSkinDataFromID(slot1)
+	end
 
-		if slot5.mirror == 1 then
-			slot2[#slot2 + 1] = uv1.GetBulletPath(slot4 .. uv2.Battle.BattleBulletUnit.MIRROR_RES)
+	slot4 = uv0.GetBulletTmpDataFromID(slot0)
+	slot5 = nil
+
+	if slot3 then
+		slot5 = slot3.bullet_name
+
+		if slot3.mirror == 1 then
+			slot2[#slot2 + 1] = uv1.GetBulletPath(slot5 .. uv2.Battle.BattleBulletUnit.MIRROR_RES)
 		end
 	else
-		slot4 = slot3.modle_ID
+		slot5 = slot4.modle_ID
 	end
 
-	if slot3.type == uv3.BulletType.BEAM or slot3.type == uv3.BulletType.SPACE_LASER or slot3.type == uv3.BulletType.MISSILE or slot3.type == uv3.BulletType.ELECTRIC_ARC then
-		slot2[#slot2 + 1] = uv1.GetFXPath(slot3.modle_ID)
+	if slot4.type == uv3.BulletType.BEAM or slot4.type == uv3.BulletType.SPACE_LASER or slot4.type == uv3.BulletType.MISSILE or slot4.type == uv3.BulletType.ELECTRIC_ARC then
+		slot2[#slot2 + 1] = uv1.GetFXPath(slot4.modle_ID)
 	else
-		slot2[#slot2 + 1] = uv1.GetBulletPath(slot4)
+		slot2[#slot2 + 1] = uv1.GetBulletPath(slot5)
 	end
 
-	if slot3.extra_param.mirror then
-		slot2[#slot2 + 1] = uv1.GetBulletPath(slot4 .. uv2.Battle.BattleBulletUnit.MIRROR_RES)
+	if slot4.extra_param.mirror then
+		slot2[#slot2 + 1] = uv1.GetBulletPath(slot5 .. uv2.Battle.BattleBulletUnit.MIRROR_RES)
 	end
 
-	slot2[#slot2 + 1] = uv1.GetFXPath(slot3.hit_fx)
-	slot2[#slot2 + 1] = uv1.GetFXPath(slot3.miss_fx)
-	slot2[#slot2 + 1] = uv1.GetFXPath(slot3.alert_fx)
+	slot6 = nil
+	slot2[#slot2 + 1] = uv1.GetFXPath((not slot3 or slot3.hit_fx_name == "" or slot3.hit_fx_name) and slot4.hit_fx)
+	slot2[#slot2 + 1] = uv1.GetFXPath(slot4.miss_fx)
+	slot2[#slot2 + 1] = uv1.GetFXPath(slot4.alert_fx)
 
-	if slot3.extra_param.shrapnel then
-		for slot8, slot9 in ipairs(slot3.extra_param.shrapnel) do
-			for slot14, slot15 in ipairs(uv1.GetBulletResource(slot9.bullet_ID)) do
-				slot2[#slot2 + 1] = slot15
+	if slot4.extra_param.shrapnel then
+		for slot10, slot11 in ipairs(slot4.extra_param.shrapnel) do
+			for slot16, slot17 in ipairs(uv1.GetBulletResource(slot11.bullet_ID)) do
+				slot2[#slot2 + 1] = slot17
 			end
 		end
 	end
 
-	for slot8, slot9 in ipairs(slot3.attach_buff) do
-		if slot9.effect_id then
-			slot2[#slot2 + 1] = uv1.GetFXPath(slot9.effect_id)
+	for slot10, slot11 in ipairs(slot4.attach_buff) do
+		if slot11.effect_id then
+			slot2[#slot2 + 1] = uv1.GetFXPath(slot11.effect_id)
 		end
 
-		if slot9.buff_id then
-			for slot14, slot15 in ipairs(uv2.Battle.BattleDataFunction.GetResFromBuff(slot9.buff_id, 1, {})) do
-				slot2[#slot2 + 1] = slot15
+		if slot11.buff_id then
+			for slot16, slot17 in ipairs(uv2.Battle.BattleDataFunction.GetResFromBuff(slot11.buff_id, 1, {})) do
+				slot2[#slot2 + 1] = slot17
 			end
 		end
 	end
@@ -1175,7 +1192,7 @@ function slot5.GetEquipSkinPreviewRes(slot0)
 		end
 	end
 
-	slot4, slot5, slot6, slot7 = uv0.GetEquipSkin(slot0)
+	slot4, slot5, slot6, slot7, slot8, slot9 = uv0.GetEquipSkin(slot0)
 
 	if _.any(EquipType.AirProtoEquipTypes, function (slot0)
 		return table.contains(uv0.equip_type, slot0)
@@ -1188,6 +1205,14 @@ function slot5.GetEquipSkinPreviewRes(slot0)
 	slot3(slot5)
 	slot3(slot6)
 	slot3(slot7)
+
+	if slot8 and slot8 ~= "" then
+		slot1[#slot1 + 1] = uv1.GetFXPath(slot8)
+	end
+
+	if slot9 and slot9 ~= "" then
+		slot1[#slot1 + 1] = uv1.GetFXPath(slot9)
+	end
 
 	return slot1
 end

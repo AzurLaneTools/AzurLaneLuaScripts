@@ -239,9 +239,13 @@ slot10.ORIGNAL_RES = -1
 slot10.SKIN_RES = 0
 slot10.MIRROR_SKIN_RES = 1
 
-function slot10.SetModleID(slot0, slot1, slot2)
+function slot10.SetModleID(slot0, slot1, slot2, slot3)
 	slot0._modleID = slot1
 	slot0._mirrorSkin = slot2
+
+	if slot3 then
+		slot0._tempData.hit_fx = slot3
+	end
 end
 
 function slot10.SetShiftInfo(slot0, slot1, slot2)

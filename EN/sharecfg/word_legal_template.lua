@@ -6796,9 +6796,7 @@ function temp()
 														E = {
 															T = {
 																A = {
-																	["\""] = {
-																		this = true
-																	}
+																	this = true
 																}
 															}
 														}
@@ -12558,6 +12556,22 @@ function temp()
 								}
 							}
 						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.e = {
+		s = {
+			s = {
+				e = {
+					x = {
+						this = true
 					}
 				}
 			}

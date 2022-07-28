@@ -64744,6 +64744,1451 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	},
+	[15780] = {
+		desc_get = "",
+		name = "Equipment Level-Upper!",
+		id = 15780,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this boat's TRP and ACC by $2, and DMG dealt to Light Armor enemies by $1. If this boat has Sardegna Empire gear equipped: further increases this boat's TRP and ACC by $2.",
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[15790] = {
+		desc_get = "",
+		name = "Get 'Em, Canguro!",
+		id = 15790,
+		type = 3,
+		max_level = 10,
+		desc = "3s after entering the battle: this boat stops moving and summons Canguro. Canguro moves forward a set distance and deploys sea mines (sea mines inflict Flooding to enemies that touch them, continuously dealing DMG for 24s; Flooding DMG is based on this boat's TRP stat; Flooding cannot stack), then returns to this boat. After this boat retrieves Canguro, she resumes moving and fires a $1 special barrage (DMG is based on the skill's level).",
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[15800] = {
+		desc_get = "",
+		name = "Halo of Fervor",
+		id = 15800,
+		type = 1,
+		max_level = 10,
+		desc = "When the battle starts: increases this ship's FP, TRP, and RLD by $1 for 60s. 3s after the battle starts, and with a $3 chance every 20s: fires a $2 special barrage (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			}
+		}
+	},
+	[15810] = {
+		desc_get = "",
+		name = "Easygoing Composure",
+		id = 15810,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's DMG dealt against DDs and CLs by $2. 20s after the battle starts: decreases the loading time of this ship's mid-reload torpedoes by 20s, then increases this ship's DMG dealt by $2 and decreases her DMG taken by $1, but decreases her SPD by 8.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15820] = {
+		desc_get = "",
+		name = "Knock It Off...!",
+		id = 15820,
+		type = 2,
+		max_level = 10,
+		desc = "Decreases this ship's DMG taken from AP ammo by $1. When this ship takes DMG: 15.0% chance to deploy 2 shields that block $2 enemy torpedoes (shields last 10s; 20s cooldown between activations). Once per battle, when this ship falls below 30.0% max HP as a result of DMG taken: restores $3 of this ship's max HP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1",
+				"2"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[15830] = {
+		desc_get = "",
+		name = "Fleet-Footed Firing",
+		id = 15830,
+		type = 2,
+		max_level = 10,
+		desc = "Decreases this ship's DMG taken from AP ammo by $1. When this ship fires her Main Guns: increases this ship's EVA by $2 for 2s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15840] = {
+		desc_get = "",
+		name = "Inheritor's Will",
+		id = 15840,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: $1 chance to fire a special barrage (DMG is based on the skill's level); if this barrage fails to activate, that salvo deals $2 increased DMG and slows enemies hit by $3 for 5s (does not stack).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"45.0%",
+				"75.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	},
+	[15850] = {
+		desc_get = "",
+		name = "Veni, Vidi, Vici",
+		id = 15850,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. When the battle starts, and every 20s: performs a sonar scan that reveals enemy SSs for 8s. Every 10s, and every time this ship sinks an enemy: increases this ship's Crit Rate and Crit DMG by $2 (can be stacked up to 3 times).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[15860] = {
+		desc_get = "",
+		name = "Exalted Light",
+		id = 15860,
+		type = 2,
+		max_level = 10,
+		desc = "Decreases the enemy's TRP by $1 while this ship is afloat. If there are 3 or more Sardegna Empire ships in your fleet: decreases the loading time of this ship's first Main Gun volley by 30.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[15870] = {
+		desc_get = "",
+		name = "Frontline Scoop",
+		id = 15870,
+		type = 3,
+		max_level = 10,
+		desc = "If this ship is in the frontmost position of your Vanguard: decreases this ship's DMG taken by $1. 10s after the battle starts, and with a $2 chance every 20s after that: throws a flare (lasts 10s; prioritizes throwing flare at the enemy closest to this ship) that decreases the Evasion Rate of all enemies in its range by 25.0%. This ship deals $3 increased DMG against enemies affected by this flare.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15880] = {
+		desc_get = "",
+		name = "Paparazza's Retreat",
+		id = 15880,
+		type = 2,
+		max_level = 10,
+		desc = "Every 20s after the battle starts: increases this ship's EVA by $1 for 5s. Once per battle, when this ship or a Sardegna Empire ship in your Vanguard falls below 30.0% max HP as a result of DMG taken: deploys a smokescreen (lasts 5s) that increases Evasion Rate by $2 for all your ships in it (does not stack with other smokescreen skills).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[15890] = {
+		desc_get = "",
+		name = "Lookout's Courage",
+		id = 15890,
+		type = 3,
+		max_level = 10,
+		desc = "When this ship takes DMG: increases this ship's AA and EVA by $1 (can be stacked up to 3 times). Each sortie, for the first 3 battles fought by the fleet this ship is in: increases this ship's FP and TRP by $2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"0.5%",
+				"5.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"0.5%",
+					"+0.5%"
+				},
+				{
+					"1.0%",
+					"+0.5%"
+				},
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[15900] = {
+		desc_get = "",
+		name = "Lookout's Support",
+		id = 15900,
+		type = 2,
+		max_level = 10,
+		desc = "Once per battle, when any other ship in your Vanguard falls below 20.0% max HP as a result of DMG taken: decreases that ship's DMG taken by $1 for 8s. When any other ship in your fleet sinks: restores $2 of this ship's max HP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -75999,6 +77444,34 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[25231] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		id = 25231,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Bolzano once every 9 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25232] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		id = 25232,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Bolzano once every 6 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[25511] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -78828,6 +80301,62 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		type = 1,
 		max_level = 1,
 		desc = "Activates All Out Assault II: Harbin once every 10 times the Main Guns are fired. ",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29911] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		id = 29911,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Leonardo da Vinci immediately after entering the battle.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29912] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		id = 29912,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Leonardo da Vinci immediately after entering the battle.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29921] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		id = 29921,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Giuseppe Garibaldi once every 12 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29922] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		id = 29922,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Giuseppe Garibaldi once every 8 times the Main Guns are fired. When the battle starts, if there are 3 or more Sardegna Empire ships in your fleet: fires this barrage.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -90436,6 +91965,388 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800500] = {
+		desc_get = "",
+		name = "Blade of Shattered Dreams",
+		id = 800500,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship or a ship in your Main Fleet takes DMG: $1 chance to fire a $2 special barrage (DMG is based on the skill's level; 10s cooldown between activations).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800510] = {
+		desc_get = "",
+		name = "Fury of Shattered Dreams",
+		id = 800510,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP by $1. When this ship takes DMG: 20.0% chance to increase this ship's FP and TRP by $2 (does not stack).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[800520] = {
+		desc_get = "",
+		name = "Bulwark of Shattered Dreams",
+		id = 800520,
+		type = 3,
+		max_level = 10,
+		desc = "When a ship in your Vanguard takes DMG: $1 chance to deploy a shield (lasts 10s; can block up to 6 enemy shells; 15s cooldown between activations). The first time this shield is deployed each battle: increases this ship's EVA by $2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[800531] = {
+		desc_get = "",
+		name = "Flickering Light - Trento",
+		id = 800531,
+		type = 1,
+		max_level = 1,
+		desc = "Every 9 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 800535
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800532] = {
+		desc_get = "",
+		name = "Flickering Light - Trento",
+		id = 800532,
+		type = 1,
+		max_level = 1,
+		desc = "Every 6 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 800537
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800535] = {
+		desc_get = "",
+		name = "Flickering Light - Trento",
+		id = 800535,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 9 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		system_transform = {
+			[51.0] = 800535
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800537] = {
+		desc_get = "",
+		name = "Flickering Light - Trento",
+		id = 800537,
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 6 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+		system_transform = {
+			[51.0] = 800537
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -93432,6 +95343,19 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		15750,
 		15760,
 		15770,
+		15780,
+		15790,
+		15800,
+		15810,
+		15820,
+		15830,
+		15840,
+		15850,
+		15860,
+		15870,
+		15880,
+		15890,
+		15900,
 		18010,
 		18040,
 		18050,
@@ -93712,6 +95636,8 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		25214,
 		25221,
 		25222,
+		25231,
+		25232,
 		25511,
 		25512,
 		26011,
@@ -93914,6 +95840,10 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		29892,
 		29901,
 		29902,
+		29911,
+		29912,
+		29921,
+		29922,
 		101010,
 		101020,
 		101030,
@@ -94085,6 +96015,13 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		800492,
 		800495,
 		800497,
+		800500,
+		800510,
+		800520,
+		800531,
+		800532,
+		800535,
+		800537,
 		901010,
 		901020,
 		902010,

@@ -47,7 +47,7 @@ function slot0.GetConfig(slot0, slot1)
 		return slot2(pg.ship_data_statistics[slot1])
 	elseif slot0 == DROP_TYPE_FURNITURE then
 		return slot2(pg.furniture_data_template[slot1])
-	elseif slot0 == DROP_TYPE_SKIN then
+	elseif slot0 == DROP_TYPE_SKIN or slot0 == DROP_TYPE_SKIN_TIMELIMIT then
 		return slot2(pg.ship_skin_template[slot1])
 	elseif slot0 == DROP_TYPE_EQUIPMENT_SKIN then
 		return slot2(pg.equip_skin_template[slot1])

@@ -461,13 +461,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 101260,
 			say = "Commander... Eldridge is here to remind you... that the next round of equipment testing is starting...",
 			typewriter = {
 				speed = 0.05,
@@ -479,13 +478,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 101260,
 			say = "Um... I thought I heard Saratoga's voice...",
 			typewriter = {
 				speed = 0.05,
@@ -550,14 +548,13 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_task",
-			paintingNoise = false,
-			dir = 1,
-			actor = 101260,
-			nameColor = "#a9f548",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 101260,
 			say = "Commander, are you okay?",
 			typewriter = {
 				speed = 0.05,
@@ -569,13 +566,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 101260,
 			say = "If you're tired... Eldridge will try to... get the tests pushed back.",
 			typewriter = {
 				speed = 0.05,

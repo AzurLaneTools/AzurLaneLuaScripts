@@ -1,805 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_11 = {
-	[303181] = {
-		ship_group = 30318,
-		name = "Fancy Waves ",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 303181,
-		group_index = 1,
-		prefab = "xiongye_2",
-		painting = "xiongye_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70407,
-		shop_type_id = 6,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "It's time for Kumano's sexy swimsuit debut~! Just kidding~☆ Hey Commander, just where~ are~ you~ staring~? Ahaha~♡ ",
-		voice_actor = 181,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.144,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					1.188,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.002,
-					-0.013,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.11,
-					1.065,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.329,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[303182] = {
-		ship_group = 30318,
-		name = "PJ Poker Party",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "109",
-		id = 303182,
-		group_index = 2,
-		prefab = "xiongye_3",
-		painting = "xiongye_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70610,
-		shop_type_id = 20,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Now it's your turn, Commander! Which one's it gonna be~? You suuuure you wanna pick this card? ...I hear you, Suzuya! Stop tellin' the Commander what the cards are!",
-		voice_actor = 181,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.127,
-					1.144,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					1.128,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.037,
-					1.112,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.329,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304010] = {
-		ship_group = 30401,
-		name = "Kongou",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 304010,
-		group_index = 0,
-		prefab = "jingang",
-		painting = "jingang",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Kongou-class fast battleship number one – Kongou.",
-		voice_actor = 138,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.266,
-							0.329,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.436,
-							2.45,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[304011] = {
-		ship_group = 30401,
-		name = "The Beauties of Nature",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "101",
-		id = 304011,
-		group_index = 1,
-		prefab = "jingang_2",
-		painting = "jingang_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70167,
-		shop_type_id = 2,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "We must fully live in the present, whether during work or during leisure - this is my mantra. Commander, shall we go for an outing together?",
-		voice_actor = 138,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.44,
-					0.63,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.45,
-					0.59,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.436,
-							2.45,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[304012] = {
-		ship_group = 30401,
-		name = "Hospital Talent",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "138",
-		id = 304012,
-		group_index = 2,
-		prefab = "jingang_3",
-		painting = "jingang_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70398,
-		shop_type_id = 15,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "\"Celebrity Endorsement of the Port Medical Facilities\"... Hehehe, you've made a wise decision picking me. Commander, I can leave the ad shoot to you, right?",
-		voice_actor = 138,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.687,
-					1.13,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.011,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.612,
-					1.14,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.436,
-							2.26,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[304013] = {
-		ship_group = 30401,
-		name = "Breezy Commute",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "103",
-		id = 304013,
-		group_index = 3,
-		prefab = "jingang_4",
-		painting = "jingang_4",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70680,
-		shop_type_id = 4,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "It would be a shame to pass on this lovely weather, Commander. Why have a dull commute by train when you can enjoy a leisurely bicycle ride in the sunlight, hm? Heehee♪",
-		voice_actor = 138,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.39,
-					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.17,
-					1.18,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.14,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[304020] = {
-		ship_group = 30402,
-		name = "Hiei",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 304020,
-		group_index = 0,
-		prefab = "birui",
-		painting = "birui",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Kongou-class fast battleship number two – Hiei.",
-		voice_actor = 76,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.087,
-					1.221,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.087,
-					1.221,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.154,
-					0.067,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.087,
-					1.221,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.202,
-							2.461,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[304021] = {
 		ship_group = 30402,
 		name = "Moonlit Cruise",
@@ -9295,6 +8495,893 @@ pg.ship_skin_template_11 = {
 						{
 							-0.3,
 							2.618,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307014] = {
+		ship_group = 30701,
+		name = "Dawn-Phoenix's Summons",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "152",
+		id = 307014,
+		group_index = 4,
+		aircraft_skin = "",
+		painting = "chicheng_5",
+		shop_id = 70659,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chicheng_5",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "This banquet is my present to you... and your attendance is the greatest reward I could hope for~ Indeed, I shall not grant you leave tonight until you pass out. Ehehe... Ahahaha~♡",
+		voice_actor = 44,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			40,
+			70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.135,
+					1.344,
+					0
+				}
+			},
+			plane = {
+				{
+					1.167,
+					1.184,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.327,
+							2.423,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamBodyAngleY = {
+				0,
+				0
+			}
+		},
+		l2d_ignore_drag = e
+	},
+	[307018] = {
+		ship_group = 30701,
+		name = "Deep Crimson Poppy",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 307018,
+		group_index = 8,
+		prefab = "chicheng_h",
+		painting = "chicheng_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9998,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "We should send out even more invites... This is the best way to rid ourselves of those pesky vixens all at once!",
+		voice_actor = 44,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.584,
+					0.686,
+					0
+				}
+			},
+			plane = {
+				{
+					0.584,
+					0.686,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.24,
+							0.85,
+							0.14
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.274,
+							2.4,
+							-0.76
+						}
+					}
+				}
+			}
+		}
+	},
+	[307020] = {
+		ship_group = 30702,
+		name = "Kaga",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 307020,
+		group_index = 0,
+		prefab = "jiahe",
+		painting = "jiahe",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Aircraft carrier, {namecode:92}.",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-1.059,
+					0.492,
+					0
+				}
+			},
+			plane = {
+				{
+					0.946,
+					0.204,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.799,
+							0.453,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.304,
+							0.977,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307021] = {
+		ship_group = 30702,
+		name = "Everlasting Killing Stone",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		id = 307021,
+		group_index = 1,
+		prefab = "Jiahe_2",
+		painting = "Jiahe_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70004,
+		shop_type_id = 6,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "\"You only live once?\" Where have I heard that saying before... Commander, are you getting excited?",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.78,
+					0.68,
+					0
+				}
+			},
+			plane = {
+				{
+					1.78,
+					0.68,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.799,
+							0.453,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.304,
+							0.977,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307022] = {
+		ship_group = 30702,
+		name = "White Fox's New Year",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "101",
+		id = 307022,
+		group_index = 2,
+		prefab = "Jiahe_3",
+		painting = "Jiahe_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70033,
+		shop_type_id = 2,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "One must wear appropriate attire for the New Year. What do you think, Commander? Let me hear your opinion.",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307023] = {
+		ship_group = 30702,
+		name = "Exalted White Wings",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "135",
+		id = 307023,
+		group_index = 3,
+		prefab = "Jiahe_5",
+		painting = "Jiahe_5",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70424,
+		shop_type_id = 7,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "This statue seems to have been inspired by the teachings of the Iris Orthodoxy. Though I am unfamiliar with this kind of art, gazing upon such majesty... fills one with a sense of piety. Commander, can you feel it as well?",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.254,
+					1.12,
+					0
+				}
+			},
+			plane = {
+				{
+					1.214,
+					1.114,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307024] = {
+		ship_group = 30702,
+		name = "Gentle Blossom's Sigh",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "142",
+		id = 307024,
+		group_index = 4,
+		prefab = "jiahe_4",
+		painting = "jiahe_4",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70532,
+		shop_type_id = 2,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I never thought you'd end up taking such a long trip with me just to pick up a dress... Though I'm worried about leaving my sister behind at port, I suppose I should take your advice and relax a bit.",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.088,
+					1.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307025] = {
+		ship_group = 30702,
+		name = "Dusk-Simurgh's Vigil",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "152",
+		id = 307025,
+		group_index = 5,
+		prefab = "jiahe_6",
+		painting = "jiahe_6",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70660,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "What are you doing up here?! Oh, it's you. I thought you went to see my sister? ...You needed a breath of fresh air? That's all fine, but you should return to my sister soon before she does something mad.",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.035,
+					0.994,
+					0
+				}
+			},
+			plane = {
+				{
+					1.07,
+					1.1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.494,
+							2.391,
 							0
 						}
 					}

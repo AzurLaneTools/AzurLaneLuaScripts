@@ -32,10 +32,6 @@ function slot0.init(slot0)
 		rarityIndex = ShipIndexConst.RarityAll,
 		extraIndex = SkinAtlasIndexLayer.ExtraALL
 	}
-
-	if PLATFORM_CODE == PLATFORM_US then
-		setActive(slot0:findTF("adapt/top_panel/title_en"), false)
-	end
 end
 
 function slot0.didEnter(slot0)

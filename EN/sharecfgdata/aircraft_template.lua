@@ -159357,6 +159357,1151 @@ _G.pg.base.aircraft_template[899023] = {
 	}
 }
 
+_G.pg.base.aircraft_template[900001] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用战斗机 I",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900001,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2518,
+	speed = 33,
+	max_hp = 34,
+	scale = 0.75,
+	weapon_ID = {
+		900011,
+		900016
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900002] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用战斗机 II",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900002,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2518,
+	speed = 33,
+	max_hp = 34,
+	scale = 0.75,
+	weapon_ID = {
+		900012,
+		900017
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900003] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用战斗机 III",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900003,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2518,
+	speed = 33,
+	max_hp = 34,
+	scale = 0.75,
+	weapon_ID = {
+		900013,
+		900018
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900004] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用战斗机 IV",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900004,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2518,
+	speed = 33,
+	max_hp = 34,
+	scale = 0.75,
+	weapon_ID = {
+		900014,
+		900019
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900005] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用战斗机 V",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900005,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2518,
+	speed = 33,
+	max_hp = 34,
+	scale = 0.75,
+	weapon_ID = {
+		900015,
+		900020
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900006] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用轰炸机 I",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900006,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3377,
+	speed = 30,
+	max_hp = 48,
+	scale = 0.75,
+	weapon_ID = {
+		900021
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900007] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用轰炸机 II",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900007,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3377,
+	speed = 30,
+	max_hp = 48,
+	scale = 0.75,
+	weapon_ID = {
+		900021
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900008] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用轰炸机 III",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900008,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3377,
+	speed = 30,
+	max_hp = 48,
+	scale = 0.75,
+	weapon_ID = {
+		900021
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900009] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用轰炸机 IV",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900009,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3377,
+	speed = 30,
+	max_hp = 48,
+	scale = 0.75,
+	weapon_ID = {
+		900021
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900010] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用轰炸机 V",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 900010,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3377,
+	speed = 30,
+	max_hp = 48,
+	scale = 0.75,
+	weapon_ID = {
+		900021
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900026] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用鱼雷机 I",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 52,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 900026,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2040,
+	speed = 30,
+	max_hp = 72,
+	scale = 0.75,
+	weapon_ID = {
+		1100755
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900027] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用鱼雷机 II",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 900027,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 30,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		1100756
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900028] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用鱼雷机 III",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 90,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 900028,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2720,
+	speed = 30,
+	max_hp = 126,
+	scale = 0.75,
+	weapon_ID = {
+		1100757
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900029] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用鱼雷机 IV",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 112,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 900029,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3060,
+	speed = 30,
+	max_hp = 153,
+	scale = 0.75,
+	weapon_ID = {
+		1100758
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[900030] = {
+	attack_power = 2,
+	name = "【2022意大利活动】通用鱼雷机 V",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 136,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 900030,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 30,
+	max_hp = 180,
+	scale = 0.75,
+	weapon_ID = {
+		1100759
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.base.aircraft_template[950157] = {
 	attack_power = 2,
 	name = "挑战关卡8战斗机T1",
@@ -201813,6 +202958,2468 @@ _G.pg.base.aircraft_template[2967044] = {
 	weapon_ID = {
 		2967054,
 		2967064
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3001301] = {
+	attack_power = 2,
+	name = "【2022意大利活动A3】BOSS 塞壬执棋者II型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 66,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3001301,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		3001305
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3001302] = {
+	attack_power = 2,
+	name = "【2022意大利活动A3】BOSS 塞壬执棋者II型 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 52,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3001302,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2720,
+	speed = 33,
+	max_hp = 126,
+	scale = 0.75,
+	weapon_ID = {
+		3001306
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3001303] = {
+	attack_power = 2,
+	name = "【2022意大利活动A3】BOSS 塞壬执棋者II型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 3001303,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 600,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3001307
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3001304] = {
+	attack_power = 2,
+	name = "【2022意大利活动A3】BOSS 塞壬执棋者II型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 3001304,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 600,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3001308
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3001502] = {
+	attack_power = 2,
+	name = "【2022意大利活动A2】BOSS 天后 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 38,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3001502,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3001504
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3001503] = {
+	attack_power = 2,
+	name = "【2022意大利活动A2】BOSS 天后 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 64,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3001503,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2580,
+	speed = 30,
+	max_hp = 104,
+	scale = 0.75,
+	weapon_ID = {
+		3001505
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3002203] = {
+	attack_power = 2,
+	name = "【2022意大利活动B2】BOSS 竞技神 第二波 战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3002203,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3002206
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3002204] = {
+	attack_power = 2,
+	name = "【2022意大利活动B2】BOSS 竞技神 第二波 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 89,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3002204,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2560,
+	speed = 30,
+	max_hp = 106,
+	scale = 0.75,
+	weapon_ID = {
+		3002207
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3002205] = {
+	attack_power = 2,
+	name = "【2022意大利活动B2】BOSS 竞技神 第二波 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 69,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3002205,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 30,
+	max_hp = 96,
+	scale = 0.75,
+	weapon_ID = {
+		3002208
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3002211] = {
+	attack_power = 2,
+	name = "【2022意大利活动B2】BOSS 竞技神 第三波 轰炸机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3002211,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 30,
+	max_hp = 260,
+	scale = 0.75,
+	weapon_ID = {
+		3002212
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3002302] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 开幕鹰群",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 39,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 3002302,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2518,
+	speed = 33,
+	max_hp = 34,
+	scale = 0.75,
+	weapon_ID = {
+		3002303
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3002307] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 高速鹰掠袭 上",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	nationality = 3,
+	id = 3002307,
+	icon = "ghostfeiji",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 60,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		3002310
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3002308] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 高速鹰掠袭 中",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	nationality = 3,
+	id = 3002308,
+	icon = "ghostfeiji",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 60,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		3002311
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3002309] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 高速鹰掠袭 下",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	nationality = 3,
+	id = 3002309,
+	icon = "ghostfeiji",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 60,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		3002312
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3003301] = {
+	attack_power = 2,
+	name = "【2022意大利活动C3】BOSS 塞壬执棋者II型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3003301,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		3003305
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3003302] = {
+	attack_power = 2,
+	name = "【2022意大利活动C3】BOSS 塞壬执棋者II型 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3003302,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2720,
+	speed = 33,
+	max_hp = 126,
+	scale = 0.75,
+	weapon_ID = {
+		3003306
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3003303] = {
+	attack_power = 2,
+	name = "【2022意大利活动C3】BOSS 塞壬执棋者II型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 3003303,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 600,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3003307
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3003304] = {
+	attack_power = 2,
+	name = "【2022意大利活动C3】BOSS 塞壬执棋者II型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 3003304,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 600,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3003308
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3004502] = {
+	attack_power = 2,
+	name = "【2022意大利活动C2】BOSS 天后 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3004502,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3004504
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3004503] = {
+	attack_power = 2,
+	name = "【2022意大利活动C2】BOSS 天后 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 74,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3004503,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2580,
+	speed = 30,
+	max_hp = 104,
+	scale = 0.75,
+	weapon_ID = {
+		3004505
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005203] = {
+	attack_power = 2,
+	name = "【2022意大利活动D2】BOSS 竞技神 第二波 战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 89,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3005203,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3005206
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005204] = {
+	attack_power = 2,
+	name = "【2022意大利活动D2】BOSS 竞技神 第二波 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 126,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3005204,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2560,
+	speed = 30,
+	max_hp = 106,
+	scale = 0.75,
+	weapon_ID = {
+		3005207
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005205] = {
+	attack_power = 2,
+	name = "【2022意大利活动D2】BOSS 竞技神 第二波 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 124,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3005205,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 30,
+	max_hp = 96,
+	scale = 0.75,
+	weapon_ID = {
+		3005208
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005211] = {
+	attack_power = 2,
+	name = "【2022意大利活动D2】BOSS 竞技神 第三波 轰炸机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 126,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3005211,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 30,
+	max_hp = 260,
+	scale = 0.75,
+	weapon_ID = {
+		3005212
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005302] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 开幕鹰群",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 39,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 3005302,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2518,
+	speed = 33,
+	max_hp = 34,
+	scale = 0.75,
+	weapon_ID = {
+		3005303
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005307] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 高速鹰掠袭 上",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	nationality = 3,
+	id = 3005307,
+	icon = "ghostfeiji",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 60,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		3005310
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005308] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 高速鹰掠袭 中",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	nationality = 3,
+	id = 3005308,
+	icon = "ghostfeiji",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 60,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		3005311
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005309] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 高速鹰掠袭 下",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	nationality = 3,
+	id = 3005309,
+	icon = "ghostfeiji",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 60,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		3005312
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005402] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 开幕鹰群",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 39,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 3005402,
+	icon = "ghostfeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2518,
+	speed = 33,
+	max_hp = 34,
+	scale = 0.75,
+	weapon_ID = {
+		3005403
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005407] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 高速鹰掠袭 上",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	nationality = 3,
+	id = 3005407,
+	icon = "ghostfeiji",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 60,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		3005410
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005408] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 高速鹰掠袭 中",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	nationality = 3,
+	id = 3005408,
+	icon = "ghostfeiji",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 60,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		3005411
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3005409] = {
+	attack_power = 2,
+	name = "【2022意大利活动B3】BOSS 罗马 高速鹰掠袭 下",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ghostfeiji",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	nationality = 3,
+	id = 3005409,
+	icon = "ghostfeiji",
+	spawn_brownian = 0,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 60,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70161
+	},
+	weapon_ID = {
+		3005412
 	},
 	position_offset = {
 		0,

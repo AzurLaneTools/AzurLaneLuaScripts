@@ -1,2158 +1,687 @@
 pg = pg or {}
 pg.enemy_data_statistics_399 = {
-	[296100] = {
-		cannon = 400,
-		battle_unit_type = 49,
-		type = 2,
+	[295021] = {
+		cannon = 146,
+		name = "Ark Royal META ",
+		reload = 150,
+		cannon_growth = 0,
 		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		friendly_cld = 0,
-		durability = 1000000,
-		armor = 0,
-		id = 296100,
-		bubble_fx = "",
-		fog_fx = "",
-		dodge_growth = 140,
-		icon = "sairenboss9",
-		star = 0,
-		torpedo = 500,
-		antisub_growth = 0,
-		rarity = 0,
-		luck_growth = 0,
-		base = 294320,
-		icon_type = 2,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 126,
+		air = 358,
+		hit_growth = 0,
+		dodge = 12,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 261,
+		reload_growth = 0,
+		dodge_growth = 0,
 		speed = 30,
-		luck = 10,
-		antisub = 0,
-		scale = 136,
-		wave_fx = "movewave",
-		prefab = "sairenboss9",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 28,
-		reload_growth = 0,
-		hit = 150,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 500,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.645,
-					0.568,
-					0
-				}
-			},
-			cannon2 = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.51,
-					0.443,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.464,
-					1.052,
-					0
-				},
-				{
-					-0.439,
-					1.353,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							0.55,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.3,
-							0.87,
-							-0.4
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearBig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[296101] = {
-		cannon = 500,
-		battle_unit_type = 49,
-		type = 5,
-		speed_growth = 0,
+		luck = 11,
+		hit = 55,
+		antisub_growth = 0,
 		air_growth = 0,
-		air = 0,
-		friendly_cld = 0,
-		durability = 1000000,
-		armor = 0,
-		id = 296101,
-		bubble_fx = "",
 		fog_fx = "",
-		dodge_growth = 120,
-		icon = "sairenboss5",
-		star = 0,
 		torpedo = 0,
-		antisub_growth = 0,
-		rarity = 0,
-		luck_growth = 0,
-		base = 294310,
-		icon_type = 5,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 138,
-		speed = 20,
-		luck = 10,
-		antisub = 0,
-		scale = 145,
-		wave_fx = "movewave",
-		prefab = "sairenboss5",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 24,
-		reload_growth = 0,
-		hit = 150,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 500,
-		antiaircraft_growth = 0,
-		armor_type = 3,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.9,
-					1.55,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.21,
-					1.4,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.19,
-					0.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.83,
-					1.38,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.26,
-							0.53
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearBig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[296102] = {
-		cannon = 450,
-		battle_unit_type = 49,
-		type = 2,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		friendly_cld = 0,
-		durability = 1000000,
-		armor = 0,
-		id = 296102,
-		bubble_fx = "",
-		fog_fx = "",
-		dodge_growth = 140,
-		icon = "sairenboss6",
-		star = 0,
-		torpedo = 300,
-		antisub_growth = 0,
-		rarity = 0,
-		luck_growth = 0,
-		base = 294300,
-		icon_type = 2,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 126,
-		speed = 26,
-		luck = 10,
-		antisub = 0,
-		scale = 145,
-		wave_fx = "movewave",
-		prefab = "sairenboss6",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 28,
-		reload_growth = 0,
-		hit = 150,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 500,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.645,
-					0.568,
-					0
-				}
-			},
-			cannon2 = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.51,
-					0.443,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.464,
-					1.052,
-					0
-				},
-				{
-					-0.439,
-					1.353,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							0.55,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.3,
-							0.87,
-							-0.4
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearBig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[296110] = {
-		cannon = 400,
-		battle_unit_type = 90,
-		type = 1,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		friendly_cld = 0,
-		durability = 125000,
-		armor = 0,
-		id = 296110,
-		bubble_fx = "",
-		fog_fx = "",
-		dodge_growth = 240,
-		icon = "shenyuanboss1",
-		star = 0,
-		torpedo = 480,
-		antisub_growth = 0,
-		rarity = 0,
-		luck_growth = 0,
-		base = 294201,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 228,
-		speed = 24,
-		luck = 10,
-		antisub = 0,
-		scale = 130,
-		wave_fx = "longjuanfengditu",
-		prefab = "shenyuanboss1",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 35,
-		reload_growth = 0,
-		hit = 80,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 250,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.15,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							3.05,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearbig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[296111] = {
-		cannon = 500,
-		battle_unit_type = 90,
-		type = 5,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		friendly_cld = 0,
 		durability = 150000,
-		armor = 0,
-		id = 296111,
-		bubble_fx = "",
-		fog_fx = "",
-		dodge_growth = 240,
-		icon = "shenyuanboss4",
-		star = 0,
-		torpedo = 0,
-		antisub_growth = 0,
-		rarity = 0,
-		luck_growth = 0,
-		base = 294203,
-		icon_type = 5,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		hit_growth = 120,
-		speed = 24,
-		luck = 10,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
 		antisub = 0,
-		scale = 130,
-		wave_fx = "shenyuan4_move",
-		prefab = "shenyuanboss4",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
+		id = 295021,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295022] = {
+		cannon = 157,
+		name = "Ark Royal META ",
 		reload = 150,
-		dodge = 19,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 371,
+		hit_growth = 0,
+		dodge = 13,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 276,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 12,
 		hit = 60,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 250,
-		antiaircraft_growth = 0,
-		armor_type = 3,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.15,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							3.05,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearbig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[296112] = {
-		cannon = 450,
-		battle_unit_type = 90,
-		type = 3,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		friendly_cld = 0,
-		durability = 175000,
-		armor = 0,
-		id = 296112,
-		bubble_fx = "",
-		fog_fx = "",
-		dodge_growth = 240,
-		icon = "shenyuanboss3",
-		star = 0,
-		torpedo = 250,
 		antisub_growth = 0,
-		rarity = 0,
-		luck_growth = 0,
-		base = 294204,
-		icon_type = 3,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 230000,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		hit_growth = 228,
-		speed = 16,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295022,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295023] = {
+		cannon = 168,
+		name = "Ark Royal META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 384,
+		hit_growth = 0,
+		dodge = 13,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 291,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 13,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 310000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295023,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295024] = {
+		cannon = 179,
+		name = "Ark Royal META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 397,
+		hit_growth = 0,
+		dodge = 13,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 306,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 14,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 390000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295024,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295025] = {
+		cannon = 190,
+		name = "Ark Royal META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 410,
+		hit_growth = 0,
+		dodge = 14,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 321,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 15,
+		hit = 75,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 480000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295025,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295026] = {
+		cannon = 202,
+		name = "Ark Royal META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 423,
+		hit_growth = 0,
+		dodge = 14,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 336,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 16,
+		hit = 80,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 600000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295026,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295027] = {
+		cannon = 214,
+		name = "Ark Royal META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 436,
+		hit_growth = 0,
+		dodge = 14,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 351,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 17,
+		hit = 85,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 760000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295027,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295028] = {
+		cannon = 227,
+		name = "Ark Royal META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 449,
+		hit_growth = 0,
+		dodge = 15,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 366,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 18,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 950000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295028,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295029] = {
+		cannon = 240,
+		name = "Ark Royal META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 462,
+		hit_growth = 0,
+		dodge = 15,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 381,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 19,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 1170000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295029,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295030] = {
+		cannon = 255,
+		name = "Ark Royal META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 475,
+		hit_growth = 0,
+		dodge = 15,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 396,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 20,
+		hit = 105,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 1420000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295030,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295031] = {
+		cannon = 115,
+		name = "Helena META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 188,
+		hit_growth = 0,
+		dodge = 11,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 186,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 60,
 		luck = 10,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 40000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
 		antisub = 0,
-		scale = 130,
-		wave_fx = "longjuanfengditu",
-		prefab = "shenyuanboss3",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
+		id = 295031,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295032] = {
+		cannon = 125,
+		name = "Helena META ",
 		reload = 150,
-		dodge = 19,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 201,
+		hit_growth = 0,
+		dodge = 11,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 201,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 60,
+		luck = 10,
 		hit = 35,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 250,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.15,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							3.05,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearbig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[296120] = {
-		cannon = 22,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		base = 90420,
-		air = 0,
-		durability_growth = 0,
-		dodge = 0,
-		antiaircraft = 12,
-		speed = 15,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		battle_unit_type = 60,
-		antisub = 0,
-		hit = 5,
 		antisub_growth = 0,
 		air_growth = 0,
-		antiaircraft_growth = 0,
+		fog_fx = "",
 		torpedo = 0,
-		durability = 572000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 72,
-		armor = 0,
-		fog_fx = "",
-		id = 296120,
-		world_enhancement = {
-			10,
-			1,
-			0,
-			0.6,
-			0,
-			0,
-			0
-		},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {},
-		buff_list = {}
-	},
-	[1040002] = {
-		cannon = 490,
-		name = "Tester",
-		hit_growth = 144,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 460,
-		speed = 17,
-		dodge = 32,
-		antisub = 0,
-		cannon_growth = 0,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 360,
-		luck = 0,
-		reload = 150,
-		hit = 8,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 200,
-		base = 90247,
-		durability = 50000,
+		durability = 44000,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		luck_growth = 0,
 		antiaircraft_growth = 0,
 		armor = 0,
-		durability_growth = 0,
-		antiaircraft = 840,
-		id = 1040002,
-		battle_unit_type = 95,
-		scale = 120,
-		bound_bone = {
-			cannon = {
-				{
-					-0.27,
-					0.64,
-					0
-				}
-			},
-			vicegun = {
-				{
-					3.87,
-					4.63,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.13,
-					0.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					3.87,
-					4.63,
-					0
-				}
-			},
-			plane = {
-				{
-					0.94,
-					4.3,
-					0
-				}
+		antisub = 0,
+		id = 295032,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
 			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			534023,
-			534024,
-			534025,
-			534026,
-			534027,
-			534028
 		}
 	},
-	[999400] = {
-		cannon = 6,
-		name = "Nameless Demon",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 999400,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		star = 1,
-		hit = 5,
-		antisub_growth = 0,
-		rarity = 1,
+	[295033] = {
+		cannon = 135,
+		name = "Helena META ",
 		reload = 150,
-		base = 90182,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 17,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 214,
 		hit_growth = 0,
-		armor = 0,
-		torpedo = 28,
+		dodge = 12,
+		base = 90541,
 		durability_growth = 0,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							0.486,
-							-0.481
-						}
-					},
-					{
-						"smoke",
-						{
-							0.54,
-							0.486,
-							-0.481
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			310000
-		}
-	},
-	[999401] = {
-		cannon = 6,
-		name = "Dog Food 1",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 999401,
-		cannon_growth = 0,
+		antiaircraft = 216,
 		reload_growth = 0,
 		dodge_growth = 0,
-		speed = 15,
-		star = 1,
-		hit = 5,
+		speed = 60,
+		luck = 10,
+		hit = 40,
 		antisub_growth = 0,
-		rarity = 1,
-		reload = 150,
-		base = 90182,
-		durability = 99999999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 17,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 28,
-		durability_growth = 0,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							0.486,
-							-0.481
-						}
-					},
-					{
-						"smoke",
-						{
-							0.54,
-							0.486,
-							-0.481
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			310000
-		}
-	},
-	[999402] = {
-		cannon = 6,
-		name = "Dog Food 2",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
 		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 999402,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		star = 1,
-		hit = 5,
-		antisub_growth = 0,
-		rarity = 1,
-		reload = 150,
-		base = 90182,
-		durability = 99999999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 17,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 28,
-		durability_growth = 0,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							0.486,
-							-0.481
-						}
-					},
-					{
-						"smoke",
-						{
-							0.54,
-							0.486,
-							-0.481
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			310000
-		}
-	},
-	[999403] = {
-		cannon = 6,
-		name = "Dog Food 3",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
 		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 999403,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		star = 1,
-		hit = 5,
-		antisub_growth = 0,
-		rarity = 1,
-		reload = 150,
-		base = 90182,
-		durability = 99999999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 17,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 28,
-		durability_growth = 0,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							0.486,
-							-0.481
-						}
-					},
-					{
-						"smoke",
-						{
-							0.54,
-							0.486,
-							-0.481
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			310000
-		}
-	},
-	[999404] = {
-		cannon = 10,
-		name = "Fountain of Youth",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		luck = 0,
-		id = 999404,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		dodge_growth = 0,
-		star = 1,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90090,
-		durability = 1000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 5,
 		torpedo = 0,
-		durability_growth = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		bound_bone = {},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0,
-							0,
-							0
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0,
-							0,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1.5,
-				1,
-				-0.5
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		equipment_list = {
-			310000
-		}
-	},
-	[999405] = {
-		cannon = 29,
-		name = "Test angle. Will explode in 43 seconds.",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 999405,
-		prefab = "skeleton",
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 1,
-		hit = 4,
-		antisub_growth = 0,
-		rarity = 1,
-		cannon_growth = 0,
-		base = 90114,
-		durability = 99999,
+		durability = 52000,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		antiaircraft = 32,
-		hit_growth = 0,
-		armor = 0,
-		speed = 15,
-		torpedo = 7,
-		antisub = 0,
-		durability_growth = 0,
 		luck_growth = 0,
-		battle_unit_type = 20,
-		equipment_list = {
-			310000
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295033,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
 		}
 	},
-	[999406] = {
-		cannon = 6,
-		name = "Heavy 100000 HP Test Enemy",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 999406,
+	[295034] = {
+		cannon = 146,
+		name = "Helena META ",
+		reload = 150,
 		cannon_growth = 0,
+		speed_growth = 0,
+		air = 227,
+		hit_growth = 0,
+		dodge = 14,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 231,
 		reload_growth = 0,
 		dodge_growth = 0,
-		speed = 15,
-		star = 1,
-		hit = 5,
+		speed = 60,
+		luck = 10,
+		hit = 45,
 		antisub_growth = 0,
-		rarity = 1,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 68000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295034,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295035] = {
+		cannon = 157,
+		name = "Helena META ",
 		reload = 150,
-		base = 90182,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 240,
+		hit_growth = 0,
+		dodge = 16,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 246,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 60,
+		luck = 10,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
 		durability = 100000,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		antiaircraft = 17,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 28,
-		durability_growth = 0,
-		antisub = 0,
 		luck_growth = 0,
-		battle_unit_type = 20,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		smoke = {
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295035,
+		buff_list = {
 			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							0.486,
-							-0.481
-						}
-					},
-					{
-						"smoke",
-						{
-							0.54,
-							0.486,
-							-0.481
-						}
-					}
-				}
+				ID = 8830,
+				LV = 2
 			}
-		},
-		equipment_list = {
-			310000
 		}
 	},
-	[999407] = {
-		cannon = 6,
-		name = "Medium 100000 HP Test Enemy",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 999407,
+	[295036] = {
+		cannon = 169,
+		name = "Helena META ",
+		reload = 150,
 		cannon_growth = 0,
+		speed_growth = 0,
+		air = 253,
+		hit_growth = 0,
+		dodge = 18,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 261,
 		reload_growth = 0,
 		dodge_growth = 0,
-		speed = 15,
-		star = 1,
-		hit = 5,
+		speed = 60,
+		luck = 11,
+		hit = 55,
 		antisub_growth = 0,
-		rarity = 1,
-		reload = 150,
-		base = 90182,
-		durability = 100000,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 140000,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		antiaircraft = 17,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 28,
-		durability_growth = 0,
-		antisub = 0,
 		luck_growth = 0,
-		battle_unit_type = 20,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		smoke = {
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295036,
+		buff_list = {
 			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							0.486,
-							-0.481
-						}
-					},
-					{
-						"smoke",
-						{
-							0.54,
-							0.486,
-							-0.481
-						}
-					}
-				}
+				ID = 8830,
+				LV = 2
 			}
-		},
-		equipment_list = {
-			310000
 		}
 	},
-	[999408] = {
-		cannon = 6,
-		name = "Light 100000 HP Test Enemy",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 999408,
+	[295037] = {
+		cannon = 181,
+		name = "Helena META ",
+		reload = 150,
 		cannon_growth = 0,
+		speed_growth = 0,
+		air = 266,
+		hit_growth = 0,
+		dodge = 21,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 276,
 		reload_growth = 0,
 		dodge_growth = 0,
-		speed = 15,
-		star = 1,
-		hit = 5,
+		speed = 60,
+		luck = 12,
+		hit = 60,
 		antisub_growth = 0,
-		rarity = 1,
-		reload = 150,
-		base = 90182,
-		durability = 100000,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 190000,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		antiaircraft = 17,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 28,
-		durability_growth = 0,
-		antisub = 0,
 		luck_growth = 0,
-		battle_unit_type = 20,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		smoke = {
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295037,
+		buff_list = {
 			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							0.486,
-							-0.481
-						}
-					},
-					{
-						"smoke",
-						{
-							0.54,
-							0.486,
-							-0.481
-						}
-					}
-				}
+				ID = 8830,
+				LV = 2
 			}
-		},
-		equipment_list = {
-			310000
 		}
 	},
-	[999409] = {
-		cannon = 6,
-		name = "Heavy Infinite HP Test Enemy",
-		type = 5,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		rarity = 1,
-		armor = 0,
-		id = 999409,
+	[295038] = {
+		cannon = 194,
+		name = "Helena META ",
 		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 20,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 279,
+		hit_growth = 0,
+		dodge = 24,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 291,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "ekelahema",
-		star = 1,
+		speed = 60,
+		luck = 13,
+		hit = 65,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90182,
-		durability = 99999999,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 260000,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
 		antisub = 0,
-		prefab = "ekelahema",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 5,
-		torpedo = 28,
-		durability_growth = 0,
-		antiaircraft = 17,
-		hit_growth = 0,
-		armor_type = 3,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		smoke = {
+		id = 295038,
+		buff_list = {
 			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							0.486,
-							-0.481
-						}
-					},
-					{
-						"smoke",
-						{
-							0.54,
-							0.486,
-							-0.481
-						}
-					}
-				}
+				ID = 8830,
+				LV = 2
 			}
-		},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			310000
 		}
 	},
-	[999410] = {
-		cannon = 6,
-		name = "Medium Infinite HP Test Enemy",
-		hit_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		armor = 0,
-		id = 999410,
+	[295039] = {
+		cannon = 207,
+		name = "Helena META ",
 		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 20,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 292,
+		hit_growth = 0,
+		dodge = 27,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 306,
+		reload_growth = 0,
 		dodge_growth = 0,
-		star = 1,
+		speed = 60,
+		luck = 14,
+		hit = 70,
 		antisub_growth = 0,
-		rarity = 1,
-		base = 90182,
-		durability = 99999999,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 350000,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 5,
-		torpedo = 28,
-		durability_growth = 0,
-		antiaircraft = 17,
+		luck_growth = 0,
 		antiaircraft_growth = 0,
-		armor_type = 2,
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		smoke = {
+		armor = 0,
+		antisub = 0,
+		id = 295039,
+		buff_list = {
 			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							0.686,
-							-0.081
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							0.486,
-							-0.481
-						}
-					},
-					{
-						"smoke",
-						{
-							0.54,
-							0.486,
-							-0.481
-						}
-					}
-				}
+				ID = 8830,
+				LV = 2
 			}
-		},
-		equipment_list = {
-			310000
 		}
 	}
 }
