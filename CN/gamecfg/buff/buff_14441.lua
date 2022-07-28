@@ -261,7 +261,7 @@ return {
 	},
 	time = 0,
 	name = "",
-	init_effect = "jinengchufared",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

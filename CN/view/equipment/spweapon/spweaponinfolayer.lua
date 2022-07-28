@@ -57,7 +57,6 @@ function slot0.init(slot0)
 
 	setText(slot0.txtQuickEnable, i18n("ship_equip_check"))
 	setText(slot0._tf:Find("sample/empty/Text"), i18n("spweapon_ui_empty"))
-	setActive(slot0._tf:Find("sample/empty/en"), PLATFORM_CODE ~= PLATFORM_US)
 end
 
 function slot0.setEquipment(slot0, slot1, slot2)

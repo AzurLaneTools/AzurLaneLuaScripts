@@ -113,6 +113,7 @@ function slot4.Dispose(slot0)
 		slot0.resMgr.GetInstance():DestroyOb(slot0._trackFX)
 	end
 
+	slot0._skeleton = nil
 	slot0._go = nil
 	slot0._tf = nil
 	slot0._trackFX = nil
@@ -153,7 +154,20 @@ function slot4.AddModel(slot0, slot1)
 		slot0._bulletData:ActiveCldBox()
 		slot0:AddRotateScript()
 
+		if slot0._tf:Find("bullet") and slot2:GetComponent(typeof(SpineAnim)) then
+			slot0._skeleton = slot2:GetComponent("SkeletonAnimation")
+			slot0._spineBullet = true
+
+			slot2:GetComponent(typeof(SpineAnim)):SetAction("normal", 0, false)
+		end
+
 		return true
+	end
+end
+
+function slot4.SetAnimaSpeed(slot0, slot1)
+	if slot0._skeleton then
+		slot0._skeleton.timeScale = slot1 or 1
 	end
 end
 

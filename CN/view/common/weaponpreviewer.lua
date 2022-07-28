@@ -302,10 +302,20 @@ function slot0.SeaFire(slot0)
 						slot6:Fire(nil, slot0, slot1)
 					end
 
-					if uv0.tmpData.fire_fx and uv0.tmpData.fire_fx ~= "" then
-						slot2 = uv1.seaFXPool
+					slot2 = uv0.tmpData.fire_fx
 
-						slot2:GetCharacterFX(uv0.tmpData.fire_fx, uv1, true, function ()
+					if uv1.equipSkinId > 0 then
+						slot3, slot4, slot5, slot6, slot7, slot8 = ys.Battle.BattleDataFunction.GetEquipSkin(uv1.equipSkinId)
+
+						if slot7 ~= "" then
+							slot2 = slot7
+						end
+					end
+
+					if slot2 and slot2 ~= "" then
+						slot3 = uv1.seaFXPool
+
+						slot3:GetCharacterFX(slot2, uv1, true, function ()
 						end)
 					end
 

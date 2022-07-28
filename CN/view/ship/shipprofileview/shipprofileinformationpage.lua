@@ -10,10 +10,70 @@ function slot0.OnLoaded(slot0)
 	slot0.cvContainer = slot0:findTF("bg/lines_panel/lines_list/Grid")
 	slot0.cvTpl = slot0:getTpl("bg/lines_panel/lines_list/Grid/lines_tpl")
 	slot0.weddingReview = slot0:findTF("bg/wedding")
-	slot0.voiceBtnCN = slot0:findTF("bg/language_change/btn_ch")
-	slot0.voiceBtnJP = slot0:findTF("bg/language_change/btn_jp")
+	slot0.voiceBtn = slot0:findTF("bg/language_change")
+	slot0.voiceBtnSel = slot0.voiceBtn:Find("sel")
+	slot1 = slot0.voiceBtn
+	slot0.voiceBtnUnsel = slot1:Find("unsel")
+	slot0.voiceBtnPositions = {
+		slot0.voiceBtnSel.localPosition,
+		slot0.voiceBtnUnsel.localPosition
+	}
+	slot0.voiceBtnTxt = slot0.voiceBtn:Find("Text"):GetComponent(typeof(Text))
+	slot0.voiceBtnTxt1 = slot0.voiceBtn:Find("Text1"):GetComponent(typeof(Text))
 	slot0.profilePlayBtn = slot0:findTF("bg/prototype_panel/title/playButton")
 	slot0.profileTxt = slot0:findTF("bg/prototype_panel/desc/scroll/Text"):GetComponent(typeof(Text))
+end
+
+function slot0.UpdateCvBtn(slot0, slot1)
+	slot0.voiceBtnSel.localPosition = slot0.voiceBtnPositions[slot1 and 2 or 1]
+	slot0.voiceBtnUnsel.localPosition = slot0.voiceBtnPositions[slot1 and 1 or 2]
+	slot4 = Color.New(1, 1, 1, 1)
+	slot5 = Color.New(0.5, 0.5, 0.5, 1)
+	slot0.voiceBtnTxt.color = slot1 and slot4 or slot5
+	slot0.voiceBtnTxt1.color = slot1 and slot5 or slot4
+end
+
+function slot0.UpdateLang2(slot0)
+	if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0.skin.ship_group).id].voice_key_2 < 0 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
+
+		return
+	end
+
+	PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot1, 2)
+	slot0.cvLoader:Load(slot0.skin.id)
+	slot0:SetAuthorInfo()
+	slot0:UpdateCvList(slot0.isLive2d)
+	slot0:UpdateProfileInfo()
+end
+
+function slot0.UpdateLang1(slot0)
+	if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0.skin.ship_group).id].voice_key < 0 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
+
+		return
+	end
+
+	PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot1, 1)
+	slot0.cvLoader:Load(slot0.skin.id)
+	slot0:SetAuthorInfo()
+	slot0:UpdateCvList(slot0.isLive2d)
+	slot0:UpdateProfileInfo()
+end
+
+function slot0.OnCvBtn(slot0, slot1)
+	onButton(slot0, slot0.voiceBtn, function ()
+		uv0 = not uv0
+
+		uv1:UpdateCvBtn(uv0)
+
+		if uv0 then
+			uv1:UpdateLang2()
+		else
+			uv1:UpdateLang1()
+		end
+	end, SFX_PANEL)
+	slot0:UpdateCvBtn(slot1)
 end
 
 function slot0.OnInit(slot0)
@@ -22,36 +82,6 @@ function slot0.OnInit(slot0)
 			group = uv0.shipGroup,
 			skinID = uv0.skin.id
 		})
-	end, SFX_PANEL)
-	onButton(slot0, slot0.voiceBtnCN, function ()
-		if pg.ship_skin_words[ShipGroup.getDefaultSkin(uv0.skin.ship_group).id].voice_key < 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
-
-			return
-		end
-
-		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot0, 1)
-		setActive(uv0.voiceBtnCN, false)
-		setActive(uv0.voiceBtnJP, true)
-		uv0.cvLoader:Load(uv0.skin.id)
-		uv0:SetAuthorInfo()
-		uv0:UpdateCvList(uv0.isLive2d)
-		uv0:UpdateProfileInfo()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.voiceBtnJP, function ()
-		if pg.ship_skin_words[ShipGroup.getDefaultSkin(uv0.skin.ship_group).id].voice_key_2 < 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
-
-			return
-		end
-
-		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot0, 2)
-		setActive(uv0.voiceBtnCN, true)
-		setActive(uv0.voiceBtnJP, false)
-		uv0.cvLoader:Load(uv0.skin.id)
-		uv0:SetAuthorInfo()
-		uv0:UpdateCvList(uv0.isLive2d)
-		uv0:UpdateProfileInfo()
 	end, SFX_PANEL)
 end
 
@@ -113,7 +143,7 @@ function slot0.UpdateProfileInfo(slot0)
 	slot1, slot2, slot3 = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_PROFILE)
 	slot0.profileTxt.text = SwitchSpecialChar(slot3, true)
 
-	if pg.ship_skin_words[slot0.skin.id] and (slot4.voice_key >= 0 or slot4.voice_key == -2) then
+	if pg.ship_skin_words[slot0.skin.id] and (slot4.voice_key >= 0 or slot4.voice_key == -2) or slot4.voice_key_2 > 0 and slot4.voice_key < 0 then
 		onButton(slot0, slot0.profilePlayBtn, function ()
 			uv0.cvLoader:PlaySound(uv1)
 		end, SFX_PANEL)
@@ -131,15 +161,30 @@ function slot0.SetCallback(slot0, slot1)
 end
 
 function slot0.UpdateLanguage(slot0)
-	slot4 = PlayerPrefs.GetInt(CV_LANGUAGE_KEY .. slot0.skin.ship_group)
-	slot5 = pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0.skin.ship_group).id].voice_key_2 >= 0 or slot3.voice_key_2 == -2
+	slot2 = ShipGroup.getDefaultSkin(slot0.skin.ship_group)
+	slot4 = ShipWordHelper.GetLanguageSetting(slot2.id)
+	slot5 = pg.ship_skin_words[slot2.id].voice_key > 0 and (slot3.voice_key_2 >= 0 or slot3.voice_key_2 == -2)
 
 	if slot3.voice_key_2 >= 0 and slot4 == 0 then
 		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot1, pg.gameset.language_default.key_value)
 	end
 
-	setActive(slot0.voiceBtnJP, slot4 ~= 2 and slot5)
-	setActive(slot0.voiceBtnCN, slot4 == 2 and slot5)
+	slot0:OnCvBtn(slot4 == 2)
+
+	if slot3.voice_key_2 >= 0 or slot3.voice_key_2 == -2 then
+		slot7 = ""
+
+		if slot3.voice_key_2 % 10 == 2 then
+			slot7 = i18n("word_chinese")
+		elseif slot6 == 3 then
+			slot7 = i18n("word_japanese_2")
+		end
+
+		slot0.voiceBtnTxt.text = slot7
+		slot0.voiceBtnTxt1.text = i18n("word_japanese")
+	end
+
+	setActive(slot0.voiceBtn, slot5)
 end
 
 function slot0.SetAuthorInfo(slot0)

@@ -21,17 +21,6 @@ function slot0.init(slot0)
 	slot0.expTF = slot0:findTF("ship_word/text_contain2")
 	slot0.emptyTF = slot0:findTF("ship_word/Text")
 	slot0.uilist = UIItemList.New(slot0:findTF("container", slot0.frame), slot0:findTF("container/ship_tpl", slot0.frame))
-
-	if PLATFORM_CODE == PLATFORM_US then
-		GetComponent(slot0:findTF("ship_word/text_contain1/Text1"), typeof(Text)).fontSize = 22
-		GetComponent(slot0:findTF("ship_word/text_contain1/time"), typeof(Text)).fontSize = 24
-		GetComponent(slot0:findTF("ship_word/text_contain1/Text2"), typeof(Text)).fontSize = 22
-		GetComponent(slot0:findTF("ship_word/text_contain2/Text1"), typeof(Text)).fontSize = 22
-		GetComponent(slot0:findTF("ship_word/text_contain2/food"), typeof(Text)).fontSize = 24
-		GetComponent(slot0:findTF("ship_word/text_contain2/Text2"), typeof(Text)).fontSize = 22
-		GetComponent(slot0:findTF("ship_word/text_contain2/exp"), typeof(Text)).fontSize = 24
-		GetComponent(slot0:findTF("ship_word/text_contain2/Text3"), typeof(Text)).fontSize = 22
-	end
 end
 
 function slot0.didEnter(slot0)

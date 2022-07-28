@@ -13198,6 +13198,270 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1660001] = {
+		map = 1660001,
+		name = "雄鹰的叙事歌·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-roma-outside",
+		enter_story = "XIONGYINGDEXUSHIGE1",
+		ani_name = "Map_1660001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4471,
+		ui_type = 1,
+		bg = "Map_1660001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1660011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660002] = {
+		map = 1660002,
+		name = "雄鹰的叙事歌·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-roma-inside",
+		enter_story = "XIONGYINGDEXUSHIGE17",
+		ani_name = "Map_1660002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4471,
+		ui_type = 1,
+		bg = "Map_1660002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1660012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660011] = {
+		map = 1660011,
+		name = "雄鹰的叙事歌·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-roma-outside",
+		enter_story = "XIONGYINGDEXUSHIGE1",
+		ani_name = "Map_1660003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4471,
+		ui_type = 1,
+		bg = "Map_1660003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1660001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660012] = {
+		map = 1660012,
+		name = "雄鹰的叙事歌·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-roma-inside",
+		enter_story = "XIONGYINGDEXUSHIGE17",
+		ani_name = "Map_1660004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4471,
+		ui_type = 1,
+		bg = "Map_1660004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1660002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660025] = {
+		map = 1660025,
+		name = "雄鹰的叙事歌·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-roma-image",
+		enter_story = "",
+		ani_name = "Map_1660005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4471,
+		ui_type = 1,
+		bg = "Map_1660005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1660012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660026] = {
+		map = 1660026,
+		name = "雄鹰的叙事歌·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-roma-image",
+		enter_story = "",
+		ani_name = "Map_1660005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4471,
+		ui_type = 1,
+		bg = "Map_1660005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1650012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
@@ -15613,6 +15877,12 @@ pg.expedition_data_by_map = {
 		1650012,
 		1650025,
 		1650026,
+		1660001,
+		1660002,
+		1660011,
+		1660012,
+		1660025,
+		1660026,
 		2100000,
 		2100001,
 		2100010,

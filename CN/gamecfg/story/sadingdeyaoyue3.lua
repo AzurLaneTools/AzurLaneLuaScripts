@@ -461,13 +461,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 101260,
 			say = "指挥官……新一轮设备调试即将开始……",
 			typewriter = {
 				speed = 0.05,
@@ -479,13 +478,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 101260,
 			say = "领航员小姐已经在等你了……",
 			typewriter = {
 				speed = 0.05,
@@ -550,14 +548,13 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_task",
-			paintingNoise = false,
-			dir = 1,
-			actor = 101260,
-			nameColor = "#a9f548",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 101260,
 			say = "……指挥官，累了么？",
 			typewriter = {
 				speed = 0.05,
@@ -569,13 +566,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 101260,
 			say = "累的话，就睡一觉……我去让领航员小姐……换个时间。",
 			typewriter = {
 				speed = 0.05,

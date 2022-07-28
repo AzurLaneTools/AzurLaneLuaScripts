@@ -120,6 +120,36 @@ function slot0.Preload(slot0)
 			end
 		end
 
+		if BATTLE_DEBUG_CUSTOM_WEAPON then
+			for slot12, slot13 in pairs(ys.Battle.BattleUnitDetailView.BulletForger) do
+				pg.TipsMgr.GetInstance():ShowTips("触发自定义子弹替换>>>" .. slot12 .. "<<<，检查是否测试需要，否则联系程序")
+
+				pg.bullet_template[slot12] = slot13
+			end
+
+			for slot12, slot13 in pairs(ys.Battle.BattleUnitDetailView.BarrageForger) do
+				pg.TipsMgr.GetInstance():ShowTips("触发自定义弹幕替换>>>" .. slot12 .. "<<<，检查是否测试需要，否则联系程序")
+
+				pg.barrage_template[slot12] = slot13
+			end
+
+			for slot12, slot13 in pairs(ys.Battle.BattleUnitDetailView.AircraftForger) do
+				pg.TipsMgr.GetInstance():ShowTips("触发自定义飞机替换>>>" .. slot12 .. "<<<，检查是否测试需要，否则联系程序")
+
+				pg.aircraft_template_data[slot12] = slot13
+			end
+
+			for slot12, slot13 in pairs(ys.Battle.BattleUnitDetailView.WeaponForger) do
+				pg.TipsMgr.GetInstance():ShowTips("触发自定义武器替换>>>" .. slot12 .. "<<<，检查是否测试需要，否则联系程序")
+
+				pg.weapon_property[slot12] = slot13
+
+				for slot19, slot20 in ipairs(slot1.GetWeaponResource(slot12)) do
+					slot1:AddPreloadResource(slot20)
+				end
+			end
+		end
+
 		slot1:AddPreloadResource(slot1.GetAircraftResource(30001, {}))
 	else
 		slot3 = {}
@@ -207,7 +237,7 @@ function slot0.Preload(slot0)
 
 			uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 		elseif slot0.contextData.system == SYSTEM_WORLD_BOSS then
-			for slot12, slot13 in ipairs(slot2:getSortShipsByFleet(nowWorld():GetBossProxy():GetFleet())) do
+			for slot12, slot13 in ipairs(slot2:getSortShipsByFleet(nowWorld():GetBossProxy():GetFleet(slot0.contextData.bossId))) do
 				table.insert(slot3, slot13)
 			end
 

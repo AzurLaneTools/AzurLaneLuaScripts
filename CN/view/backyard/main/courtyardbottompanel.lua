@@ -15,10 +15,6 @@ function slot0.init(slot0)
 	slot0.decorateBtn = slot0:findTF("decorate_btn")
 	slot0.templateBtn = slot0:findTF("theme_template_btn")
 	slot0.shopTip = slot0.shopBtn:Find("tip")
-
-	if PLATFORM_CODE == PLATFORM_US then
-		slot0.stockTimeTxt.gameObject.transform.localPosition = Vector3(226, -8)
-	end
 end
 
 function slot0.OnRegister(slot0)

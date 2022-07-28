@@ -1,6 +1,8 @@
 slot0 = class("PlayerResUI", pm.Mediator)
 slot0.GO_MALL = "PlayerResUI:GO_MALL"
 slot0.CHANGE_TOUCH_ABLE = "PlayerResUI:CHANGE_TOUCH_ABLE"
+slot0.HIDE = "PlayerResUI:HIDE"
+slot0.SHOW = "PlayerResUI:SHOW"
 slot1 = 1
 slot2 = 2
 slot3 = 3
@@ -313,7 +315,9 @@ function slot0.listNotificationInterests(slot0)
 		GAME.START_LOAD_SCENE,
 		GAME.WILL_LOAD_LAYERS,
 		GAME.REMOVE_LAYERS,
-		PlayerResUI.CHANGE_TOUCH_ABLE
+		PlayerResUI.CHANGE_TOUCH_ABLE,
+		uv0.HIDE,
+		uv0.SHOW
 	}
 end
 
@@ -346,6 +350,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.balance = slot0.balance + slot1:getBody()
 	elseif slot2 == GAME.REMOVE_LAYERS then
 		slot0.balance = slot0.balance - 1
+	elseif uv0.HIDE == slot2 then
+		setActiveViaLayer(slot0._go, false)
+	elseif uv0.SHOW == slot2 then
+		setActiveViaLayer(slot0._go, true)
 	end
 
 	slot0:updateResPanel(slot2)

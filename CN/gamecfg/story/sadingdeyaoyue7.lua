@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "我也没听说过，不现在倒是听你说了~",
+			say = "我也没听说过，不过现在倒是听你说了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“大鹏一同乘风起，扶摇直上九万里”。",
+			say = "“大鹏一日同风起，扶摇直上九万里”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

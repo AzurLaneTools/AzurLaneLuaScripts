@@ -37,33 +37,22 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
-			slot4 = uv1[slot1 + 1]
 			slot5 = GetPerceptualSize(uv2.resTitle)
 
-			if PLATFORM_CODE == PLATFORM_JP then
-				if slot5 > 15 then
-					GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 26
-					GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 26
-				elseif slot5 > 12 then
-					GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 28
-					GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 28
-				elseif slot5 > 10 then
-					GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 30
-					GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 30
-				else
-					GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 32
-					GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 32
-				end
-			end
-
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
-			setText(slot2:Find("target/Text"), slot4)
+			setText(slot2:Find("target/Text"), uv1[slot1 + 1])
 
-			if slot2:Find("target/icon") and uv2.resIcon and uv2.resIcon ~= "" then
-				setActive(slot2:Find("target/icon"), true)
-				LoadImageSpriteAsync(uv2.resIcon, slot2:Find("target/icon/image"), false)
-			else
-				setActive(slot2:Find("target/icon"), false)
+			if slot2:Find("target/icon") then
+				if uv2.resIcon == "" then
+					uv2.resIcon = nil
+				end
+
+				if uv2.resIcon then
+					LoadImageSpriteAsync(uv2.resIcon, slot2:Find("target/icon"), false)
+				end
+
+				setActive(slot2:Find("target/icon"), uv2.resIcon)
+				setActive(slot2:Find("target/mark"), uv2.resIcon)
 			end
 
 			setText(slot2:Find("target/title"), HXSet.hxLan(uv2.resTitle))

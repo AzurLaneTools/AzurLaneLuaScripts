@@ -160,8 +160,17 @@ end
 
 function slot8.SetSkinData(slot0, slot1)
 	slot0._skinID = slot1
+	slot2, slot3, slot4, slot5, slot6, slot7 = uv0.GetEquipSkin(slot0._skinID)
 
-	slot0:SetModelID(uv0.GetEquipSkin(slot0._skinID))
+	slot0:SetModelID(slot2)
+
+	if slot6 ~= "" then
+		slot0._skinFireFX = slot6
+	end
+
+	if slot7 ~= "" then
+		slot0._skinHitFX = slot7
+	end
 end
 
 function slot8.SetDerivateSkin(slot0, slot1)
@@ -189,7 +198,7 @@ function slot8.setBulletSkin(slot0, slot1, slot2)
 			slot3 = uv0.GetEquipSkinDataFromID(slot0._skinID).mirror
 		end
 
-		slot1:SetModleID(slot0._modelID, slot3)
+		slot1:SetModleID(slot0._modelID, slot3, slot0._skinHitFX)
 	end
 end
 
@@ -938,7 +947,7 @@ function slot8.DispatchBulletEvent(slot0, slot1, slot2)
 	slot5 = nil
 
 	if slot0._fireFXFlag ~= 0 then
-		slot5 = slot4.fire_fx
+		slot5 = slot0._skinFireFX or slot4.fire_fx
 
 		if slot0._fireFXFlag ~= -1 then
 			slot0._fireFXFlag = slot0._fireFXFlag - 1

@@ -52,6 +52,8 @@ function slot0.OnFirstFlush(slot0)
 		sec = slot1[2][3]
 	}) > 0
 
+	setActive(slot0.battleBtn, isActive(slot0.battleBtn) and slot0.inTime)
+
 	if slot0.inTime then
 		triggerToggle(slot0.switchBtn, true)
 	end

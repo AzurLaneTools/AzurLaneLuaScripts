@@ -17,13 +17,16 @@ function slot3.Ctor(slot0, ...)
 end
 
 function slot3.Dispose(slot0)
-	if slot0._lifeEndCb then
-		slot0._lifeEndCb()
-	end
-
+	slot0._lifeEndCb = nil
 	slot0._collidedTimes = nil
 
 	uv0.super.Dispose(slot0)
+end
+
+function slot3.ExecuteLifeEndCallback(slot0)
+	if slot0._lifeEndCb then
+		slot0._lifeEndCb()
+	end
 end
 
 function slot3.AssertFields(slot0, slot1)

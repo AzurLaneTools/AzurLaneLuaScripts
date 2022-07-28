@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "到是{namecode:84}，纵使远在千里之外，依然预见到妾身回程途中将要发生的变故了么。",
+			say = "倒是{namecode:84}，纵使远在千里之外，依然预见到妾身回程途中将要发生的变故了么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

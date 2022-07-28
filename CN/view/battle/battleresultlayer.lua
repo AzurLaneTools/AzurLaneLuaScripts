@@ -89,11 +89,6 @@ function slot0.init(slot0)
 	slot0._painting = slot0:findTF("painting", slot0._blurConatiner)
 	slot0._failPainting = slot0:findTF("fail", slot0._painting)
 	slot0._chat = slot0:findTF("chat", slot0._painting)
-
-	if PLATFORM_CODE == PLATFORM_US then
-		GetComponent(slot0._chat:Find("Text"), typeof(Text)).lineSpacing = 1.1
-	end
-
 	slot0._leftPanel = slot0:findTF("leftPanel", slot0._main)
 	slot0._expResult = slot0:findTF("expResult", slot0._leftPanel)
 	slot0._expContainer = slot0:findTF("expContainer", slot0._expResult)
@@ -160,14 +155,6 @@ function slot0.customsLang(slot0)
 	setText(findTF(slot0._atkTpl, "result/kill_count_label"), i18n("battle_result_kill_count"))
 	setText(findTF(slot0._subToggle, "on"), i18n("battle_result_toggle_on"))
 	setText(findTF(slot0._subToggle, "off"), i18n("battle_result_toggle_off"))
-
-	if PLATFORM_CODE == PLATFORM_US then
-		setText(findTF(slot0._bg, "jieuan01/tips/dianjijixu/bg20/bg20_en"), "")
-
-		GetComponent(findTF(slot0._subToggle, "on"), typeof(Text)).fontSize = 40
-		GetComponent(findTF(slot0._subToggle, "off"), typeof(Text)).fontSize = 40
-	end
-
 	setText(findTF(slot0._conditions, "bg17"), i18n("battle_result_targets"))
 end
 

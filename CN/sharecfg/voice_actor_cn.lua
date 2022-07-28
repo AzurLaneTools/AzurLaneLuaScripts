@@ -1319,5 +1319,29 @@ pg.voice_actor_CN = {
 	{
 		code = 330,
 		actor_name = "千本木彩花"
+	},
+	{
+		code = 331,
+		actor_name = "近藤唯"
+	},
+	{
+		code = 332,
+		actor_name = "丸冈和佳奈"
+	},
+	{
+		code = 333,
+		actor_name = "指出毬亚"
+	},
+	{
+		code = 334,
+		actor_name = "夏吉优子"
+	},
+	{
+		code = 335,
+		actor_name = "前川凉子"
+	},
+	{
+		code = 336,
+		actor_name = "法元明菜"
 	}
 }

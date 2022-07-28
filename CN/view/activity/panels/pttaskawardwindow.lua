@@ -51,11 +51,17 @@ function slot1(slot0)
 			setText(slot2:Find("title/Text"), "PHASE " .. uv3(slot3))
 			setText(slot2:Find("target/Text"), slot4:getConfig("target_num"))
 
-			if slot2:Find("target/icon") and uv2.resIcon and uv2.resIcon ~= "" then
-				setActive(slot2:Find("target/icon"), true)
-				LoadImageSpriteAsync(uv2.resIcon, slot2:Find("target/icon/image"), false)
-			else
-				setActive(slot2:Find("target/icon"), false)
+			if slot2:Find("target/icon") then
+				if uv2.resIcon == "" then
+					uv2.resIcon = nil
+				end
+
+				if uv2.resIcon then
+					LoadImageSpriteAsync(uv2.resIcon, slot2:Find("target/icon"), false)
+				end
+
+				setActive(slot2:Find("target/icon"), uv2.resIcon)
+				setActive(slot2:Find("target/mark"), uv2.resIcon)
 			end
 
 			setText(slot2:Find("target/title"), HXSet.hxLan(uv2.resTitle))
