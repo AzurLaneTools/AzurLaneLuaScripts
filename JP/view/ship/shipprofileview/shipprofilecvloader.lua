@@ -38,17 +38,23 @@ function slot0.SetUp(slot0, slot1)
 	end)
 end
 
-function slot0.PlaySound(slot0, slot1)
+function slot0.PlaySound(slot0, slot1, slot2)
 	if not slot0.playbackInfo or slot1 ~= slot0.prevCvPath or slot0.playbackInfo.channelPlayer == nil then
 		slot0:StopSound()
 
-		slot2 = pg.CriMgr.GetInstance()
+		slot3 = pg.CriMgr.GetInstance()
 
-		slot2:PlaySoundEffect_V3(slot1, function (slot0)
+		slot3:PlaySoundEffect_V3(slot1, function (slot0)
 			if slot0 then
 				uv0.playbackInfo = slot0
 
 				uv0.playbackInfo:SetIgnoreAutoUnload(true)
+
+				if uv1 then
+					uv1(uv0.playbackInfo.cueInfo)
+				end
+			elseif uv1 then
+				uv1()
 			end
 		end)
 
@@ -63,7 +69,13 @@ function slot0.PlaySound(slot0, slot1)
 		slot0.playbackInfo:PlaybackStop()
 		slot0.playbackInfo:SetStartTimeAndPlay()
 
+		if slot2 then
+			slot2(slot0.playbackInfo.cueInfo)
+		end
+
 		return slot0.playbackInfo.cueInfo
+	elseif slot2 then
+		slot2()
 	end
 
 	return nil
@@ -74,20 +86,20 @@ function slot0.DelayPlaySound(slot0, slot1, slot2, slot3)
 
 	if slot2 > 0 then
 		slot0.timers[slot1] = Timer.New(function ()
-			slot0 = uv0:PlaySound(uv1)
-
-			if uv2 then
-				uv2(slot0)
-			end
+			slot0 = uv0:PlaySound(uv1, function (slot0)
+				if uv0 then
+					uv0(slot0)
+				end
+			end)
 		end, slot2, 1)
 
 		slot0.timers[slot1]:Start()
 	else
-		slot4 = slot0:PlaySound(slot1)
-
-		if slot3 then
-			slot3(slot4)
-		end
+		slot4 = slot0:PlaySound(slot1, function (slot0)
+			if uv0 then
+				uv0(slot0)
+			end
+		end)
 	end
 end
 

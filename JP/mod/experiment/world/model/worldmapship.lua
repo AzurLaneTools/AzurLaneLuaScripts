@@ -35,7 +35,7 @@ function slot0.GetImportWorldShipVO(slot0)
 			slot2 = false
 
 			if slot1.type == Ship.BENEFIT_SKILL then
-				if not slot0.isBroken and slot1.limit[1] == slot0.triggers.TeamNumbers then
+				if not slot0.isBroken and (not slot1.limit[1] or slot1.limit[1] == slot0.triggers.TeamNumbers) then
 					slot2 = true
 				end
 			elseif slot1.type == Ship.BENEFIT_EQUIP then

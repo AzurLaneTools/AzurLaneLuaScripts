@@ -1613,7 +1613,7 @@ function slot0.IsBenefitSkillActive(slot0, slot1)
 	slot2 = false
 
 	if slot1.type == uv0.BENEFIT_SKILL then
-		if slot1.limit[1] == slot0.triggers.TeamNumbers then
+		if not slot1.limit[1] or slot1.limit[1] == slot0.triggers.TeamNumbers then
 			slot2 = true
 		end
 	elseif slot1.type == uv0.BENEFIT_EQUIP then

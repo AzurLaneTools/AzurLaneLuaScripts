@@ -3727,6 +3727,115 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[103142] = {
+		ship_group = 10314,
+		name = "It's showtime!",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "159",
+		id = 103142,
+		group_index = 2,
+		prefab = "jiujinshan_4",
+		painting = "jiujinshan_4",
+		shop_id = 70724,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 21,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "グッドイブニングプリンちゃん！サンフランシスコのショーへようこそ！今夜はメロメロになるまで帰さないぞ♪",
+		voice_actor = 275,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.851,
+					0.805,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.837,
+					0.797,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					-0.011,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							1.854,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103160] = {
 		ship_group = 10316,
 		name = "ボルチモア",
@@ -9453,115 +9562,6 @@ pg.ship_skin_template_3 = {
 							0.642,
 							1.068,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107031] = {
-		ship_group = 10703,
-		name = "大洋の休日",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 107031,
-		group_index = 1,
-		prefab = "salatuojia_2",
-		painting = "salatuojia_2",
-		shop_id = 70007,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 6,
-		illustrator = 10,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "オフの日も気が緩まない！水着よし、準備万端！出発！シスターサラの力、見せてあげる！",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.13,
-					3.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.13,
-					3.07,
-					0
-				}
-			},
-			plane = {
-				{
-					0.2,
-					1.04,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							2.26,
-							-0.6
 						}
 					}
 				}

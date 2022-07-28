@@ -1815,6 +1815,36 @@ pg.activity_ins_ship_group_template = {
 		name = "Naka",
 		sculpture = "nake"
 	},
+	[60503] = {
+		ship_group = 60503,
+		name = "Roma ",
+		sculpture = "luoma"
+	},
+	[60802] = {
+		ship_group = 60802,
+		name = "DaVinci ",
+		sculpture = "dafenqi"
+	},
+	[60202] = {
+		ship_group = 60202,
+		name = "Giuseppe ",
+		sculpture = "zhusaipei"
+	},
+	[60109] = {
+		ship_group = 60109,
+		name = "Emanuele ",
+		sculpture = "aimannuaier"
+	},
+	[60108] = {
+		ship_group = 60108,
+		name = "Alfredo ",
+		sculpture = "aerfuleiduo"
+	},
+	[60305] = {
+		ship_group = 60305,
+		name = "Bolzano ",
+		sculpture = "boerzhanuo"
+	},
 	all = {
 		30701,
 		30702,
@@ -2178,6 +2208,12 @@ pg.activity_ins_ship_group_template = {
 		90113,
 		20232,
 		80107,
-		30214
+		30214,
+		60503,
+		60802,
+		60202,
+		60109,
+		60108,
+		60305
 	}
 }

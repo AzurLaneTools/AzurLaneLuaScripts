@@ -3,15 +3,21 @@ slot1 = 0.5
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0.container = slot1
-	slot0.position = slot2
+	slot0.initPosition = slot2
 end
 
-function slot0.Flush(slot0, slot1, slot2, slot3)
+function slot0.Flush(slot0, slot1, slot2, slot3, slot4)
 	if slot0.furnitureId == slot2 and slot0.shipSkinId == slot1 then
 		return
 	end
 
 	slot0.scale = slot3 or 1
+
+	if slot4 then
+		slot0.position = Vector3(slot4[1], slot4[2], 0)
+	else
+		slot0.position = slot0.initPosition
+	end
 
 	slot0:StartLoad(slot1, slot2)
 

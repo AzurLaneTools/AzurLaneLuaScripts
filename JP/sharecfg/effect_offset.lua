@@ -1385,5 +1385,16 @@ pg.effect_offset = {
 			0,
 			0
 		}
+	},
+	dafenqi_qianting = {
+		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			-1
+		}
 	}
 }

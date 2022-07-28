@@ -629,7 +629,7 @@ function slot0.PlayVoice(slot0, slot1, slot2)
 		return
 	end
 
-	if ShipWordHelper.CV_KEY_REPALCE <= slot5.voice_key or slot5.voice_key == ShipWordHelper.CV_KEY_BAN_NEW then
+	if ShipWordHelper.CV_KEY_REPALCE <= slot5.voice_key or ShipWordHelper.CV_KEY_REPALCE <= slot5.voice_key_2 or slot5.voice_key == ShipWordHelper.CV_KEY_BAN_NEW then
 		slot6 = 0
 
 		if slot1.isLive2d and slot0.l2dChar and slot3.voiceCalibrate then
@@ -681,9 +681,11 @@ function slot0.ShowDailogue(slot0, slot1, slot2, slot3)
 	end
 
 	if not slot1.wordData.textContent or slot4 == "" or slot4 == "nil" then
-		slot0.dailogueCallback()
+		if slot0.dailogueCallback then
+			slot0.dailogueCallback()
 
-		slot0.dailogueCallback = nil
+			slot0.dailogueCallback = nil
+		end
 
 		return
 	end
@@ -699,9 +701,11 @@ function slot0.ShowDailogue(slot0, slot1, slot2, slot3)
 	setActive(slot0.chatTF, true)
 	LeanTween.scale(rtf(slot0.chatTF.gameObject), Vector3.New(1, 1, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack):setDelay(slot5 and slot5 or 0):setOnComplete(System.Action(function ()
 		LeanTween.scale(rtf(uv0.chatTF.gameObject), Vector3.New(0, 0, 1), uv1.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(uv1.CHAT_ANIMATION_TIME + uv2[1]):setOnComplete(System.Action(function ()
-			uv0.dailogueCallback()
+			if uv0.dailogueCallback then
+				uv0.dailogueCallback()
 
-			uv0.dailogueCallback = nil
+				uv0.dailogueCallback = nil
+			end
 		end))
 	end))
 end

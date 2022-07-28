@@ -52,6 +52,8 @@ function slot0.OnFirstFlush(slot0)
 		sec = slot1[2][3]
 	}) > 0
 
+	setActive(slot0.battleBtn, isActive(slot0.battleBtn) and slot0.inTime)
+
 	if slot0.inTime then
 		triggerToggle(slot0.switchBtn, true)
 	end
@@ -132,7 +134,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot5 = slot3 <= slot2
 	slot6 = slot0.activity.data2 >= 1
 
-	setActive(slot0.battleBtn, not slot6 and not slot5)
+	setActive(slot0.battleBtn, not slot6 and not slot5 and slot0.inTime)
 	setActive(slot0.getBtn, slot5 and not slot6)
 	setActive(slot0.gotBtn, slot6)
 end

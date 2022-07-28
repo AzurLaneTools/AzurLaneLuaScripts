@@ -7,10 +7,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.nextTxt = findTF(slot0._tf, "next"):GetComponent(typeof(Text))
 	slot0.nameTxt = findTF(slot0._tf, "name"):GetComponent(typeof(Text))
 	slot0.levelTxt = findTF(slot0._tf, "name/level"):GetComponent(typeof(Text))
-
-	if PLATFORM_CODE == PLATFORM_US then
-		slot0.descTxt.lineSpacing = 1.1
-	end
 end
 
 function slot0.Enable(slot0)

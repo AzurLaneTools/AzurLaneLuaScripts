@@ -345,10 +345,10 @@ pg.item_data_frame = {
 	[321] = {
 		time_limit_type = 0,
 		name = "帝国の輝き",
-		gain_by = "",
+		gain_by = "鋼鷲の冒険譚",
 		id = 321,
 		time_second = 0,
-		desc = "限定海域イベントをクリアで入手",
+		desc = "<color=#ffffff>「棘に満ちた道だろうと、7つの丘の鷲は羽ばたき続ける――」</color>――「鋼鷲の冒険譚」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

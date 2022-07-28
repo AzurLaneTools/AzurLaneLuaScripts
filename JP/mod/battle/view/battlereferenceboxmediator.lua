@@ -186,7 +186,7 @@ function slot4.onRemoveUnit(slot0, slot1)
 		slot0:removeBox(slot1.Data.UID)
 	end
 
-	if slot0._detailViewActive and slot2 == uv0.UnitType.PLAYER_UNIT then
+	if slot0._detailViewActive and (slot2 ~= uv0.UnitType.PLAYER_UNIT or slot2 ~= uv0.UnitType.ENEMY_UNIT or slot2 ~= uv0.UnitType.BOSS_UNIT) and slot0._detailViewList[slot1.Data.UID] then
 		slot0:removeDetail(slot1.Data.UID)
 	end
 end

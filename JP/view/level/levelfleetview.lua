@@ -227,14 +227,6 @@ function slot0.InitUI(slot0)
 	slot0.tfLimitElite = slot0:findTF("panel/limit_list/limit_elite")
 	slot0.tfLimitContainer = slot0:findTF("panel/limit_list/limit_elite/limit_list")
 	slot0.rtCostLimit = slot0._tf:Find("panel/limit_list/cost_limit")
-
-	if PLATFORM_CODE == PLATFORM_US then
-		GetComponent(slot0.rtCostLimit:Find("text"), typeof(Text)).fontSize = 27
-		GetComponent(slot0.rtCostLimit:Find("cost_noraml/Text"), typeof(Text)).fontSize = 27
-		GetComponent(slot0.rtCostLimit:Find("cost_boss/Text"), typeof(Text)).fontSize = 27
-		GetComponent(slot0.rtCostLimit:Find("cost_sub/Text"), typeof(Text)).fontSize = 27
-	end
-
 	slot0.btnBack = slot0:findTF("panel/btnBack")
 	slot0.btnGo = slot0:findTF("panel/start_button")
 	slot0.formationToggle = slot0:findTF("panel/RightTabs/formation_btn")

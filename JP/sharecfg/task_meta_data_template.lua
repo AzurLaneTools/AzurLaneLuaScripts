@@ -536,6 +536,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[161] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "トレント(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 161,
+		target_num = 1,
+		target_id = "0"
+	},
+	[162] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "トレント(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 162,
+		target_num = 1,
+		target_id = "30"
+	},
+	[163] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "トレント(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 163,
+		target_num = 1,
+		target_id = "55"
+	},
+	[164] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "トレント(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 164,
+		target_num = 1,
+		target_id = "80"
+	},
+	[165] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "トレント(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 165,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -920,6 +960,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[248] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "セイレーン作戦でトレント(META)を含めた艦隊で1回勝利する",
+		id = 248,
+		target_num = 1,
+		target_id = "0"
+	},
+	[249] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 249,
+		target_num = 1,
+		target_id = "70"
+	},
+	[250] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 250,
+		target_num = 1,
+		target_id = "90"
+	},
+	[251] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv100+の敵を撃破 ",
+		id = 251,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -1004,6 +1076,11 @@ pg.task_meta_data_template = {
 		158,
 		159,
 		160,
+		161,
+		162,
+		163,
+		164,
+		165,
 		200,
 		201,
 		202,
@@ -1052,6 +1129,10 @@ pg.task_meta_data_template = {
 		245,
 		246,
 		247,
+		248,
+		249,
+		250,
+		251,
 		301,
 		302
 	}

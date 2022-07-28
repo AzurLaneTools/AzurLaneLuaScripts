@@ -31,30 +31,23 @@ function slot1(slot0)
 			slot4 = uv1:getTaskById(uv0[slot1 + 1]) or uv1:getFinishTaskById(slot3) or Task.New({
 				id = slot3
 			})
+			slot5 = GetPerceptualSize(slot4:getConfig("name"))
 
 			setText(slot2:Find("title/Text"), "PHASE " .. uv2(slot3))
 			setText(slot2:Find("target/title"), slot4:getConfig("name"))
 			setText(slot2:Find("target/Text"), "")
 
-			if GetPerceptualSize(slot4:getConfig("name")) > 15 then
-				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 26
-				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 26
-			elseif slot5 > 12 then
-				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 28
-				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 28
-			elseif slot5 > 10 then
-				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 30
-				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 30
-			else
-				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 32
-				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 32
-			end
+			if slot2:Find("target/icon") then
+				if uv3.resIcon == "" then
+					uv3.resIcon = nil
+				end
 
-			if slot2:Find("target/icon") and uv3.resIcon and uv3.resIcon ~= "" then
-				setActive(slot2:Find("target/icon"), true)
-				LoadImageSpriteAsync(uv3.resIcon, slot2:Find("target/icon/image"), false)
-			else
-				setActive(slot2:Find("target/icon"), false)
+				if uv3.resIcon then
+					LoadImageSpriteAsync(uv3.resIcon, slot2:Find("target/icon"), false)
+				end
+
+				setActive(slot2:Find("target/icon"), uv3.resIcon)
+				setActive(slot2:Find("target/mark"), uv3.resIcon)
 			end
 
 			slot6 = slot4:getConfig("award_display")[1]

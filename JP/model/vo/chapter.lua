@@ -1396,12 +1396,18 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 end
 
 function slot0.EliteShipTypeFilter(slot0)
-	function slot1(slot0, slot1, slot2)
-		ChapterProxy.SortRecommendLimitation(Clone(slot1))
+	slot1 = getProxy(BayProxy)
+	slot1 = slot1:getRawData()
 
-		for slot6, slot7 in pairs(slot2) do
+	function slot2(slot0, slot1, slot2)
+		slot1 = Clone(slot1)
+
+		ChapterProxy.SortRecommendLimitation(slot1)
+		warning(PrintTable(slot1))
+
+		for slot6, slot7 in ipairs(slot2) do
 			slot8 = nil
-			slot9 = slot6:getShipType()
+			slot9 = uv0[slot7]:getShipType()
 
 			for slot13, slot14 in ipairs(slot1) do
 				if ShipType.ContainInLimitBundle(slot14, slot9) then
@@ -1419,11 +1425,9 @@ function slot0.EliteShipTypeFilter(slot0)
 		end
 	end
 
-	slot2 = getProxy(BayProxy):getRawData()
-
 	for slot6, slot7 in ipairs(slot0.eliteFleetList) do
 		for slot11 = #slot7, 1, -1 do
-			if slot2[slot7[slot11]] == nil then
+			if slot1[slot7[slot11]] == nil then
 				table.remove(slot7, slot11)
 			end
 		end
@@ -1437,18 +1441,18 @@ function slot0.EliteShipTypeFilter(slot0)
 		slot11 = {}
 
 		for slot15, slot16 in ipairs(slot0.eliteFleetList[slot6]) do
-			if slot2[slot16]:getTeamType() == TeamType.Main then
-				slot9[slot17] = slot16
+			if slot1[slot16]:getTeamType() == TeamType.Main then
+				table.insert(slot9, slot16)
 			elseif slot18 == TeamType.Vanguard then
-				slot10[slot17] = slot16
+				table.insert(slot10, slot16)
 			elseif slot18 == TeamType.Submarine then
-				slot11[slot17] = slot16
+				table.insert(slot11, slot16)
 			end
 		end
 
-		slot1(slot8, slot7[1], slot9)
-		slot1(slot8, slot7[2], slot10)
-		slot1(slot8, {
+		slot2(slot8, slot7[1], slot9)
+		slot2(slot8, slot7[2], slot10)
+		slot2(slot8, {
 			0,
 			0,
 			0

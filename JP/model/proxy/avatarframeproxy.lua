@@ -1,5 +1,6 @@
 slot0 = class("AvatarFrameProxy", import(".NetProxy"))
 slot0.FRAME_TASK_UPDATED = "frame task updated"
+slot0.FRAME_TASK_TIME_OUT = "frame task time out"
 
 function slot0.register(slot0)
 	slot0.avatarFrames = {}
@@ -152,6 +153,27 @@ function slot0.getCanReceiveCount(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.clearTimeOut(slot0)
+	if not slot0.avatarFrames or #slot0.avatarFrames == 0 then
+		return
+	end
+
+	slot1 = false
+
+	for slot5 = #slot0.avatarFrames, 1, -1 do
+		if not getProxy(ActivityProxy):getActivityById(slot0.avatarFrames[slot5].actId) or slot7:isEnd() then
+			table.remove(slot0.avatarFrames, slot5)
+
+			slot1 = true
+		end
+	end
+
+	if slot1 then
+		slot0.facade:sendNotification(uv0.FRAME_TASK_UPDATED)
+		slot0.facade:sendNotification(uv0.FRAME_TASK_TIME_OUT)
+	end
 end
 
 return slot0

@@ -216,5 +216,19 @@ pg.ship_spine_shift = {
 			-12,
 			-32
 		}
+	},
+	dafenqi = {
+		spine = "dafenqi",
+		mainui_shift = {
+			-32,
+			0
+		}
+	},
+	dafenqi_2 = {
+		spine = "dafenqi_2",
+		mainui_shift = {
+			-20,
+			0
+		}
 	}
 }

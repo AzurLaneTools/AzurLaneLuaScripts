@@ -112,16 +112,6 @@ function slot0.init(slot0)
 	setActive(slot0.hideObjToggleTF, false)
 
 	slot0.hideObjToggle = GetComponent(slot0.hideObjToggleTF, typeof(Toggle))
-
-	if PLATFORM_CODE == PLATFORM_US then
-		setActive(slot0.titleEn, false)
-
-		slot1 = findTF(slot0.hideObjToggle, "Label2")
-		slot1.anchoredPosition = Vector2(35, 23)
-
-		GetComponent(slot1, typeof(Image)):SetNativeSize()
-	end
-
 	slot0.switchCnt = 0
 end
 
@@ -270,7 +260,7 @@ function slot0.SwitchCharBg(slot0, slot1)
 	else
 		slot3:SetAsFirstSibling()
 		slot2:SetSiblingIndex(2)
-		slot0.interactionPreview:Flush(slot4:getSkinId(), Goods.Id2FurnitureId(slot4.id), Goods.GetFurnitureConfig(slot4.id).scale[2] or 1)
+		slot0.interactionPreview:Flush(slot4:getSkinId(), Goods.Id2FurnitureId(slot4.id), Goods.GetFurnitureConfig(slot4.id).scale[2] or 1, slot13.position[2])
 	end
 
 	slot0:updateBuyBtn(slot4)
