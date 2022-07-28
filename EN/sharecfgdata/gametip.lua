@@ -10118,7 +10118,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Roma, Leonardo da Vinci, Giuseppe Garibaldi, and more!"
+	tip = "Rate UP for Roma, Leonardo da Vinci and more!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -20098,7 +20098,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 _G.pg.base.gametip.battlepass_main_tip_2208 = {
-	tip = "Complete Cruise Missions between 8/1 – 9/30 to receive <color=#854747>Memphis META</color> and other rewards!"
+	tip = "Complete Cruise Missions between 8/1 – 9/30 to receive <color=#854747>Trento META</color> and other rewards!"
 }
 
 _G.pg.base.gametip.battlepass_main_help_2208 = {
