@@ -57,5 +57,5 @@ end
 
 function slot1.OutRangeFunc(slot0)
 	slot0:ExecuteLifeEndCallback()
-	proxy:RemoveBulletUnit(slot0:GetUniqueID())
+	self:GetDataProxy():RemoveBulletUnit(slot0:GetUniqueID())
 end

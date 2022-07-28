@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "そうね。ヴェネトさんたちの後詰めまで動かしたら、他の陣営に絶対にバレます",
+			say = "ヴェネトさんたちの後詰めまで動かしたら、他の陣営に絶対にバレます",
 			painting = {
 				alpha = 0.3,
 				time = 1
