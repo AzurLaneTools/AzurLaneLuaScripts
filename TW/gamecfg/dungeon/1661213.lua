@@ -246,7 +246,7 @@ return {
 							score = 0,
 							moveCast = true,
 							delay = 0.1,
-							monsterTemplateID = 16003303,
+							monsterTemplateID = 16001303,
 							corrdinate = {
 								-5,
 								0,
@@ -254,7 +254,7 @@ return {
 							},
 							buffList = {},
 							bossData = {
-								hpBarNum = 40,
+								hpBarNum = 60,
 								icon = "sairen"
 							},
 							phase = {

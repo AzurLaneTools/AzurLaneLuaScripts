@@ -19313,3 +19313,7 @@ _G.pg.base.gametip.word_japanese_2 = {
 _G.pg.base.gametip.word_japanese = {
 	tip = "日文"
 }
+
+_G.pg.base.gametip.avatarframe_got = {
+	tip = "已領取"
+}

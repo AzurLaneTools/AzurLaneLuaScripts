@@ -244,7 +244,7 @@ return {
 							},
 							buffList = {},
 							bossData = {
-								hpBarNum = 40,
+								hpBarNum = 60,
 								icon = "sairen"
 							},
 							phase = {

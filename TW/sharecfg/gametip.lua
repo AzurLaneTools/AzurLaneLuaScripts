@@ -17667,5 +17667,10 @@ cs.gametip = {
 		596290,
 		83,
 		true
+	},
+	avatarframe_got = {
+		596373,
+		88,
+		true
 	}
 }

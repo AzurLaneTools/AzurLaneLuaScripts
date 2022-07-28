@@ -13,7 +13,7 @@ function slot0.OnInit(slot0)
 	slot0.bar = slot0:findTF("AD/switcher/phase2/Image/barContent/bar")
 	slot0.cur = slot0:findTF("AD/switcher/phase2/Image/step")
 	slot0.target = slot0:findTF("AD/switcher/phase2/Image/progress")
-	slot0.gotTag = slot0:findTF("switcher/phase2/got", slot0.bg)
+	slot0.gotTag = slot0:findTF("switcher/phase2/Image/got", slot0.bg)
 end
 
 function slot0.OnDataSetting(slot0)
@@ -44,6 +44,8 @@ function slot0.OnFirstFlush(slot0)
 	if slot0.inPhase2 then
 		triggerToggle(slot0.switchBtn, true)
 	end
+
+	setText(slot0:findTF("Text", slot0.gotTag), i18n("avatarframe_got"))
 end
 
 function slot0.OnUpdateFlush(slot0)
@@ -62,6 +64,8 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.getBtn, slot0.inPhase2 and not slot5 and slot4)
 	setActive(slot0.gotBtn, slot0.inPhase2 and slot5)
 	setActive(slot0.gotTag, slot0.inPhase2 and slot5)
+	setActive(slot0.cur, not slot5)
+	setActive(slot0.target, not slot5)
 end
 
 function slot0.Switch(slot0)

@@ -3,39 +3,13 @@ pg.activity_link_button = {
 	{
 		param = "0",
 		name = "event_all",
-		type = 3,
+		time = "stop",
 		text_pic = "",
+		type = 3,
+		pic = "event_all",
 		id = 1,
 		group_id = 1,
-		pic = "event_all",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					28
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	{
 		param = "0",
@@ -62,39 +36,13 @@ pg.activity_link_button = {
 	[10] = {
 		param = "0",
 		name = "event_map",
-		type = 0,
+		time = "stop",
 		text_pic = "",
+		type = 0,
+		pic = "event_map",
 		id = 10,
 		group_id = 2,
-		pic = "event_map",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					28
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	[20] = {
 		param = "0",
