@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「帝国正在衰亡。」",
+			say = "(How long will this continue...? Is this... someone else's memories? Or is this...)",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「在自信中走向自大。」",
+			say = "\"Soon, the sun sets.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「在自大中走向盲目。」",
+			say = "\"Sorrow begets pride, and pride begets ignorance.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「在盲目中寻求混乱。」",
+			say = "\"Ignorance swallows fact, and fiction sows chaos.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「在混乱中寻求救赎。」",
+			say = "\"And in the waves of chaos, the people crave change.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「盛极而衰，此乃万物之理。」",
+			say = "\"All that rises must fall. Such is the nature of all.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我本是知晓的，我本想避免的。」",
+			say = "\"Though here all roads once joined, not a single one remains.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「然而，交汇的命运正在分离。」",
+			say = "\"And thus, the sun sets, the end comes.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「纵使漫天雄鹰，已无人注视。」",
+			say = "\"The twin wings in the sky now cast only shadows.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「纵使呐喊悲呼，亦无人聆听。」",
+			say = "\"The sound of mourning reaches not my ears.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「一个破碎的帝国，这就是仅有的答案么？」",
+			say = "\"An empire ruined, a fate inexorable.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

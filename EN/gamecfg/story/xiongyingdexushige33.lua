@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "博览会第二日·撒丁大剧场",
+			say = "World Expo Venue - Colosseum",
 			bgm = "story-roma-inside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哇~果然不管再看多少次，带来的视觉震撼都没有丝毫改变！",
+			say = "Ahhh~ I don't think I'll ever get tired of the view from up here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嗯……再多拍几张吧！",
+			say = "Yup yup, this occasion calls for a photo op! *click*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			side = 2,
-			say = "就当阿尔弗雷多准备按下快门时，一个洁白的身影突然出现在镜头里。",
+			say = "Just as the shutter clicked, a shipgirl in white came into view through the camera's lens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "抱、抱歉！打扰你拍照了！",
+			say = "I-I'm sorry! Did I get in your way...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "你是……？昨天迷路的皇家驱逐舰雅努斯？！",
+			say = "Hm? Aren't you... Janus from the Royal Navy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "是的！",
+			say = "Y-yes!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……你今天又迷路了么？",
+			say = "What's up? Lost your way again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "没、没有啦！只是从远处看到了你们……就来道个谢。",
+			say = "N-not at all! I saw you from a distance and, um... I came to give you my thanks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "昨天走得太急，没能正式的向你们表示感谢……",
+			say = "You were kind enough to show me the directions yesterday... and I didn't even thank you properly because I was in too much of a rush...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "欸~你太客气啦，我们本来就有维持会场秩序的职责在身，昨天又只是举手之劳而已。",
+			say = "No problemo~ My job was to patrol the venue anyway, and helping lost kiddos like you is part of the job!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "不论如何，真的非常感谢你们的帮助！那我就不打扰了！再、再见！",
+			say = "I-I'm truly grateful for your help! I'll be off then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嗯~再见，好好享受博览会哦！",
+			say = "See you around! Enjoy the expo~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "撒丁大剧场·罗马的休息室",
+			say = "Colosseum - Waiting Room",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "罗马大人，我们来看望您啦~！",
+			say = "Roma, I've come to visit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嘘，不要吵……罗马大人现在需要休息。",
+			say = "Shhh! Roma is still resting after her inspection...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊……抱歉抱歉。",
+			say = "Oops, sorry about that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "……你们不用太在意。除了有些没精神之外，我已经没什么问题了。",
+			say = "There's no need to fret. I feel a bit tired, but that's about all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "感谢你们昨天的救援行动。",
+			say = "Once again, allow me to thank you for saving me yesterday.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "尤其是达·芬奇，是你亲手把我从水面下救出来的吧，非常感谢。",
+			say = "Da Vinci, I heard you rescued me from the Siren device yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "欸……哎嘿嘿……我也只是做了应该做的事而已。",
+			say = "Well... Who wouldn't rescue a friend in need? It's no big deal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "过度的谦虚不是美德，坦率接受称赞吧。",
+			say = "You're just as humble as Veneto. You should bask proudly in Roma's praise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "是！多谢罗马大人的夸奖~我会继续努力的~",
+			say = "Haha! Thanks for the words of encouragement then! I am Sardegna's pride and joy genius inventor after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "很好。",
+			say = "...Now you swung too far in the other direction, but I suppose that's fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "既然罗马大人身体无恙，我们也就彻底安心了。",
+			say = "We're all just glad you're back safe and sound, Roma!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "您慢慢休息，我们就先返回会场继续——",
+			say = "You still have a few inspections left though, right? We'll be able to take care of everything around the expo venue, so you just rest easy! See you around then––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "稍等一下，阿尔弗雷多！",
+			say = "Wait, Alfredo, there was one more thing we needed to do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……罗马大人，请恕我冒昧，我有几个问题实在想要问问您。",
+			say = "Roma, would you mind answering a few questions before we go? It's fine if you don't want to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "无妨。你在危急之时帮助过我，在可能的范围内，你的问题我一定如实相告。",
+			say = "Ask away. You saved my life after all, so it's the least I can do to repay you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "非常感谢！罗马大人，关于昨天的事，您真的什么都记不起来了么？",
+			say = "First off, do you really remember nothing about what happened yesterday?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "……嗯，我就像做了一个很漫长，很昏很沉的梦。也许梦里发生了许多事，但醒来之后就如烟云般消散了。",
+			say = "Hmm, let me think... It felt like I was in a long, long dream. Something may have happened inside the dream, but I can't exactly remember anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "幽灵雄鹰，幽灵船之类的东西，也没有在您的梦中出现过么？",
+			say = "I see, I see. So, if I say \"emerald eagle\" or \"ghost ships,\" neither of those ring a bell? Did your dreams have anything to do with those things?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "所以也许有过吧……我无法肯定。",
+			say = "There... might be some connection, but I can't say for sure...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "虽然记不起梦境的内容，不过在你们提到这些名字后，我的脑海里似乎也出现了模糊的印象。",
+			say = "I don't remember exactly what happened inside the dream, but when you said those words, I did feel something stirring inside my mind...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "原来如此……那在今天的博览会会场，您有感受到周围有什么异常之处么？",
+			say = "Alright, onto the next question... During the expo's opening ceremony, did anything feel off to you about the Colosseum?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "周围的异常之处？是指之前在文化厅里感受到的，某些东西被做过手脚的感觉么？",
+			say = "What do you mean by that? Was there something wrong with the Colosseum?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不对，不是那种！唔……我有点不太好形容。",
+			say = "Umm, not quite... well... how should I put this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "就比如感受到的会场氛围啊，在空气中的撒丁帝国浓度啊……之类的？",
+			say = "Something about the venue's vibes, or the scenery... or how it's very Sardegna-like...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "撒丁帝国浓度……？这算什么问题啊……今天的会场不是跟昨天一样，被热热闹闹的活动气息所充满么！",
+			say = "Sardegna-like? What do you mean by that? I mean, we are the sponsors, but it's still an international expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "不，我明白她想说什么了。",
+			say = "I think I somewhat understand what da Vinci is trying to convey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "氛围的话……虽然微不可查，不过我确实感受到了变化。",
+			say = "Even though I'm generally not sensitive to these kinds of things, there was something that left a deep impression within me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "就在此处，本应该是家的地方，我却感受到了些许距离感。一股疏远与陌生的感觉始终若即若离。",
+			say = "I felt the overwhelming elation of basking in Sardegna's splendor. But then, that splendor began to gradually fade away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -760,7 +760,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "你也有相同的感受么？",
+			say = "But I wonder if this incident has compromised Veneto's plans... Perhaps we should hold a military exercise after all to demonstrate our might––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,7 +777,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "嗯，虽然只有非常轻微的一点点……就好像空气中成分发生了改变一样。",
+			say = "Actually, how about we don't? On second thought, there was probably just something funny in the air yesterday!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……空气中的成分不可能发生改变吧！",
+			say = "Something in the air? What even are you talking about now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我当然知道啦！这是比喻啊，比喻！",
+			say = "Don't worry about it, it's just a figure of speech~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -828,7 +828,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我和阿尔弗雷多一样，也什么都没感受到。",
+			say = "I hate to agree with Alfredo, but I don't feel anything off either...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -845,7 +845,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……也许是达·芬奇和罗马大人在劳累过度之后产生的错觉吧。",
+			say = "Maybe that's what happens to people who work too hard all the time: you start seeing things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -862,7 +862,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "劳累过度么，也许吧。",
+			say = "Working too hard, huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,7 +880,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "这种感觉，如果是错觉就太好了……",
+			say = "I do hope that's actually the case...",
 			painting = {
 				alpha = 0.3,
 				time = 1

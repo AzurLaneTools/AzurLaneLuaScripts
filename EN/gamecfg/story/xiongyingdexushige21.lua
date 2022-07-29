@@ -15,7 +15,7 @@ return {
 			bgm = "story-roma-inside",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊真是的——这些敌人怎么打都打不完啊！",
+			say = "Ugh! They just keep coming!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "尤其是天上的那些大鸟真烦！虽然没有远程攻击手段，但是我们也没有舰载机去处理！",
+			say = "Those eagles especially! We'll run out of ammo if we keep trying to shoot them all down!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "战况不妙……这么下去不是个办法，立刻寻找撤退路线！",
+			say = "Crap... We can't win this war of attrition, so we have to fall back for now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "西边的那个岛怎么样？周围没看到敌人，地表还被密林覆盖。",
+			say = "Then we should try the island to the west. It's covered in forest, plus I can see a Siren-looking facility on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "只要能逃上去的话，幽灵舰队和幽灵鸟都拿我们没办法了。",
+			say = "The Sirens might leave us alone if we can make it there... Maybe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那个位置……很不错！不过我们得首先突出眼前的重围才行！",
+			say = "It's worth a shot! How are we supposed to shake 'em off, though?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "要逃跑的话，拉出足够的烟雾就行吧？就交给我吧——",
+			say = "By vanishing from sight! Alfredo, lay down a smokescreen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "接招————！",
+			say = "Okay! Here we go! Work your magic, Equipment Level-Upper!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "达·芬奇浮出水面，向前方的水面抛出了某个物体。",
+			say = "Da Vinci resurfaced and threw a gadget in Alfredo's direction.",
 			effects = {
 				{
 					active = true,
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "随即，海面上出现了一个巨大机械装置。",
+			say = "The gadget swiftly took effect on Alfredo's smoke bomb, kicking it into overdrive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "伴随着轰鸣声，大量烟雾开始向周围扩散，不一会儿便遮蔽了整片海域。",
+			say = "Then, in the blink of an eye, the smoke grew thicker and blanketed a vast swath of the sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "就是现在，大家停止开火，抓紧时间撤退了！",
+			say = "Now's our chance! Run like your lives depend on it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "借助烟雾的掩护，众人顺利逃入了岛上的密林中。",
+			say = "The party successfully fled from the Sirens. Arriving at the island, they went into hiding.",
 			effects = {
 				{
 					active = false,
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "一段时间后，丢失目标的幽灵舰队重新归于虚无，幽灵雄鹰也重新汇聚成了天上的光带。",
+			say = "Having lost sight of their targets, the eagles returned to the skies and the ghost ships disappeared.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "呼……好险。这下总算安全了。",
+			say = "That was close... At least we're safe for now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "达·芬奇，你刚才扔出去的是什么东西啊？",
+			say = "Will do, Teach! Let's proceed cautiously and see what we can find in here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "怎么突然变成了那么夸张的大机器！然后呼啦，整片海域就都被烟雾填满了！",
+			say = "Looking for treasure? You reckon we'll find a chest in this place? If you do, let me snap a pic before you open it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "简直就像什么魔法道具一样……",
+			say = "You're not taking this seriously at all, are you? ...That said, I'm also curious about what she's up to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这个……我也不清楚。原本我准备的只是一个能发射烟雾的诱饵而已。",
+			say = "What? I'm looking for a way to operate this facility. Seems to be an old production center of some sort.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不过…………我好像有了一个想法，如果能验证的话……",
+			say = "Let's see... If I'm remembering the Iron Blood's and the Commander's intel about Mirror Seas right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "达·芬奇若有所思地取出一些备用零件，现场组装了一批小型飞行器。",
+			say = "Da Vinci produced a gadget from her satchel and started tampering with the facility's control panel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "你们快站到我的身后来！如果我的猜想是正确的话……",
+			say = "Bingo! If my guess is correct, this is the place where those eagles and ghost ships were manufactured.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 608020,
-			say = "接下来就要有有趣的事发生了————",
+			say = "Heheh... I'm going to put this bad boy to good use♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,9 +11,9 @@ return {
 			stopbgm = true,
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			side = 2,
-			say = "「终于，一切都结束了。」",
+			say = "\"Everything must come to an end.\"",
 			bgm = "theme-roma-image",
 			flashout = {
 				black = true,
@@ -43,11 +43,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「我行走于人世间，不再留下任何痕迹。」",
+			say = "\"I have walked among the realm of humans, leaving no footsteps behind me.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,11 +59,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「我见证了名为救赎的枷锁。」",
+			say = "\"I have witnessed the shackles of so-called redemption.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,11 +75,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「见证了名为光明的黑暗。」",
+			say = "\"I have witnessed the darkness within so-called light.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,11 +91,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「见证了名为复兴的衰退。」",
+			say = "\"I have witnessed the collapse of so-called revival.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,11 +107,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「——既然如此。」",
+			say = "\"What has been shall always be.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,11 +123,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「就由我来毁灭吧。」",
+			say = "\"Therefore, I shall destroy it all.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,11 +139,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「有从无中生。」",
+			say = "\"And from nothingness, new life will arise.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,9 +158,9 @@ return {
 			side = 2,
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			blackBg = true,
-			say = "「就由我来创造出一个新的世界，一个新的帝国——」",
+			say = "\"I shall be the one to create a new world, a new Roma––\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -15,7 +15,7 @@ return {
 			bgm = "story-roma-inside",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "海面上的敌人已经消灭殆尽，空中仅存的幽灵雄鹰也在这一轮齐射中化为了虚无。",
+			say = "Garibaldi and Bolzano succeeded in repelling the ghost ships and emerald eagles with the aid of Alfredo's air armada.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "…………战斗，结束了？",
+			say = "*pant*... *pant*... Did we win?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "哟~两位都还好吧？",
+			say = "Hey! Are you girls okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "我们都没大事哦，感谢及时支援！",
+			say = "We're fine. You got us out of a real tight one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "阿尔弗雷多……你是从哪里弄来这么一支小说里才会存在的奇怪舰队的……",
+			say = "Seems our communicators function at short range. Alfredo, just what are those airships?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "这些都是达·芬奇弄出来的，我也不是很清楚！",
+			say = "Ah, please direct technical questions to da Vinci. I barely know a thing about 'em!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "哼哼~其实，这个东西的原理是————",
+			say = "Well, I'm glad you asked! Let me give you a rundown...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "大家都明白了么！",
+			say = "...And the Commander's intel was right! So I cut the facility's connection to the central control unit, gave myself administrator clearance, and rewrote the base instructions. That, in a nutshell, is how the Improvised Floaty Fleet came to be!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "不，我完全不明白！",
+			say = "Uh-huh. That went way over my head.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "我也是……不过现状我已经清楚了。",
+			say = "Likewise, but I've grasped the gist of our situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "与我和加里波第阁下此前推测的结论一致，海域中那座大的离谱的大剧场明显有问题。",
+			say = "Assuming your and da Vinci's hypothesis is correct, we will find the central control unit in the central Colosseum of this Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "只要到达那里，大概就能找到破坏镜面海域的方法了。",
+			say = "We need only to locate and destroy it, then a way out should present itself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "先一步被困在此处的罗马大人恐怕也能得出相同的结论……",
+			say = "While we still don't know where Roma is, she may have had the same idea as us and headed for the Colosseum.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "那么说来，我们可能在前往中心的路上就能遇到她？",
+			say = "Yeah. Maybe we'll even run into her on the way there if we're lucky.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "可能性很高。就是希望我们能够赶在她遇到危险之前与她汇合……",
+			say = "Precisely. Knowing her, she's bound to have engaged Sirens en route. It's likely we'll find traces of her battles, although there's no guarantee...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "那接下来就是全速赶路的时间了~",
+			say = "Either way, we won't make it out of here by standing around! Let's make a beeline for the Colosseum!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "你们要不要一起上来？这个战舰其实飞得很快哦！",
+			say = "Hop on and we'll give you a ride! These things go fast as heck!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "我很有兴趣！",
+			say = "Never been on an airship before. Could be cool.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……其实我也有些兴趣。不过，如果我们全坐上飞空战舰的话，就等于放弃了水面战场。",
+			say = "I'm inclined to agree. However, it's unwise for all of us to board because that will leave us without observers at sea level.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "飞空战舰上下不便。如果在前方遭遇敌人的密集火力，我们可能不会有平安降落的机会。",
+			say = "We might overlook something important from that high in the sky. Furthermore, I don't feel comfortable with relying solely on the airships if we get into another battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "唔……说的有道理，如果被四面八方一起攻击的话，就算被击落的概率也很高……",
+			say = "Good point. Can't use our guns while aboard, and we're screwed if they surround us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "那我们就先不上去啦，还是现在这样从空中和水面相互掩护的队形更好。",
+			say = "On second thought, no thanks. Bolzano and I will travel by sea. Try to maintain a low speed and provide support for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "嘿嘿……明明刚才还在头疼制空问题，没想到居然会以这种方式解决。",
+			say = "If you can take care of the eagles and secure air supremacy, that'd be even better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 602020,
-			say = "飞空战舰对战幽灵雄鹰，感觉越来越有趣了~",
+			say = "We'll make it to the Colosseum in no time if all goes well – and have a good time along the way. Heheh.",
 			painting = {
 				alpha = 0.3,
 				time = 1

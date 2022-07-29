@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "博览会第七日·撒丁大教堂",
+			say = "World Expo Venue - Colosseum?",
 			bgm = "story-italy",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "博览会开始已经一周了，马可波罗居然都一个人安分地呆在这里……",
+			say = "Marco Polo? Are you in here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "明明是自己提议举办的活动，也不前往会场看一眼。",
+			say = "The expo YOU proposed is going on right above you, and you're not going to go take a look?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "太不正常了……",
+			say = "...I guess not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			side = 2,
-			say = "加富尔伯爵一边发散着思维，一边推门进入了马可波罗的办公室。",
+			say = "The anxious Conte di Cavour opened the door to Marco Polo's room.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "没人…………好奇怪。",
+			say = "I should've known she wouldn't be here. Does that mean she already succeeded?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "往常的话，这个点应该是她一脸得意的坐在办公椅上读着些什么的时间啊。",
+			say = "I really don't get her. If she did succeed, shouldn't she be here lounging in a wine bath with a goofy grin on her face?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			side = 2,
-			say = "加富尔伯爵连续寻找了几间房间，都没有见到马可波罗的身影。",
+			say = "She searched around the room some more, but Marco Polo was indeed nowhere to be found.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "总不会直到今天才突然有兴致跑去会场了吧……也不提前通知一声，真是个任性的人……",
+			say = "Maybe she already went up to check out the expo? She never was one to sit still, just like Cesare.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "算了算了，这跟我也没什么关系。",
+			say = "Well, that's none of my concern.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "我的任务就是把报告书放到办公桌上，然后走人。简单又轻松~",
+			say = "Guess I'll drop my report off on her desk and be on my merry way...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			side = 2,
-			say = "加富尔伯爵将封装好的报告书放在马可波罗常用的办公桌上，然后向着教堂大门走去。",
+			say = "She placed the carefully-bound bundle of papers on Marco Polo's desk before turning to leave.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			side = 2,
-			say = "就在经过礼拜堂时，加富尔伯爵的余光发现了一个坐在角落椅子上的少女。",
+			say = "That is when she realized she wasn't alone. Another shipgirl stood in the corner of the room.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,9 +246,9 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
-			say = "……愿人都尊您的名为圣…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,9 +263,9 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
-			say = "……愿您的国度降临……",
+			say = "...So that those harrowing visions will never haunt me again...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,9 +280,9 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
-			say = "……愿您的旨意行在地上，如同行度在天上……",
+			say = "...Your will shall be done...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "……这个时候还在教堂祈祷么？还真是虔诚啊。",
+			say = "Is that really you, Trento?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605050,
-			say = "不过这个少女总感觉有些…………",
+			say = "I must say, you feel very different from the person I know...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605050,
-			say = "是我的错觉么……？",
+			say = "Hmm... I'll just pretend I saw nothing.",
 			painting = {
 				alpha = 0.3,
 				time = 1

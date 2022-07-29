@@ -15,7 +15,7 @@ return {
 			soundeffect = "event:/ui/kuaimen",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "咔嚓——咔嚓——！",
+			say = "*click click*!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "走在队伍前方的阿尔弗雷多不断按动着快门，相机的闪光灯在昏暗的海域中如同灯塔般显眼。",
+			say = "Alfredo took the lead. The flash of her camera not only took photographs, but also illuminated their surroundings.",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "呼呼呼，我已经发现这片镜面海域的一个秘密了！",
+			say = "So, I've figured something out about this place!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "你们看天上的光带，那些其实不是极光，而是很多很多的绿色雄鹰哦！",
+			say = "That aurora we saw isn't an aurora at all. It's a flock of eagles emitting a weird green light!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "之前皇家的雅努斯和那个自称调查员看到的绿色幽灵应该就是这些东西了！",
+			say = "I'd wager these birdies are the phenomenon Janus and Bristol saw!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "如此庞大的光带居然是由无数透明的绿色雄鹰构成的啊，真是太壮观了……",
+			say = "Geesh, that has to be one massive flock for us to confuse them for an aurora.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "但是不对啊……镜面海域中的投影为什么能跑到外面去……",
+			say = "What are they, though? How'd they leave and get spotted beyond the boundary of the Mirror Sea?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "难道说这些不是单纯的光与影……而是拥有实体的……",
+			say = "Wait, what if they're not mere apparitions, but full-blown mass-produced Sirens?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咔嚓————光带就先拍到这里好了。",
+			say = "Heheheh... That's enough long-distance shots for now.",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "接下来找一找特写镜头……这个拍得好的话说不定能得奖啊……",
+			say = "Wish I could get some close-ups, too. Forget selling it to the highest bidder – I could win an award for something so spectacular.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哇哦，发现了一只落单的雄鹰！那就用这个角度————",
+			say = "Oh, look! That eagle's flying alone! That deserves a pic!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "阿尔弗雷多将镜头对准天空，打开了连拍模式。",
+			say = "Alfredo aimed her lens at the lone eagle and snapped several photos of it in flight.",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "连续闪烁的闪光灯吸引了天空中正在巡逻的雄鹰，使其转变方向，向着水面俯冲而来。",
+			say = "The flash seemingly caught the bird's attention. It changed course and made a rapid descent towards the party.",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "不好，阿尔弗雷多快躲开！这些鹰是敌人！",
+			say = "Watch out, Alfredo! I think this eagle is a Siren!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……欸？",
+			say = "Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "在千钧一发之际，佩萨格诺开火命中了俯冲而来的雄鹰。",
+			say = "Emanuele promptly trained her anti-air guns on the attacking bird of prey and shot it down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好、好险……可恶，亏我还在给你拍照啊！",
+			say = "THAT was close. What the heck?! I was just taking pictures!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "真是太过分了！怎么可以袭击记者呢！果然镜面海域里就没什么好东西！",
+			say = "Ugh... That confirms it! This is definitely a Mirror Sea, and those things ARE Sirens!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "一击……没能彻底消灭。",
+			say = "Get ready! The rest of the flock has noticed us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "小心……更多的敌人飞过来了！",
+			say = "Wait... What's that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "海域中狂风突起，借助风势，被命中的雄鹰飞入高空重整架势。",
+			say = "While the three fought off the eagles with anti-air fire, they caught sight of something strange down at sea level.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "天上的光带散开为无数光点，空旷的海面上也出现了许多宛如幽灵船一般的敌人。",
+			say = "A fleet of ghostly mass-produced ships, see-through and glowing green just like the eagles, appeared on the horizon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这、这都是些什么啊？！幽灵雄鹰和幽灵船？！",
+			say = "Now there are ghost ships too?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咔嚓——这场景拍下来绝对能得奖！",
+			say = "THAT'S a rare sight! Gotta snap some photos!",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "凭空出现了宛如投影的实体，究竟是什么原理呢……好在意。",
+			say = "They may look like ghosts, but they're clearly mass-produced ships. Interesting... I'm a hundred percent sure they're a product of this Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "达·芬奇，阿尔弗雷多……我觉得现在……不是思考和拍照的时候。",
+			say = "Uh, girls? Focus. We need to fight them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 601080,
-			say = "啊对哦！大家注意，准备迎战！",
+			say = "Oh, right! We need to fight! Be careful, you two!",
 			painting = {
 				alpha = 0.3,
 				time = 1

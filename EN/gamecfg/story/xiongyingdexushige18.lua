@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "在通向大剧场地下的通道中，阿尔弗雷多一行人正打着提灯小心前进着。",
+			say = "Alfredo, da Vinci, and Emanuele continued down the staircase to the underground warehouse.",
 			bgm = "xinnong-3",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……没想到达·芬奇也会带提灯。",
+			say = "Nice one, Teach! Bringing a lantern was great foresight on your part!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "有趣的东西我可是随身带了不少哦，当然也包括提灯这种既有气氛又很实用的小道具~",
+			say = "Heheh! It's far from the only thing I brought! Check out my Dark Place Lighter-Upper – perfect for times like these!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "确实很实用……在照明失灵的通道中帮大忙了。",
+			say = "It's handy to have, considering you nearly tripped over yourselves in the darkness right after we closed the door...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "佩萨格诺，你在这种时候也要记笔记么……？",
+			say = "You still taking notes there, Ema?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "因为这是一场有意义的旅途……一定能够在日后成为有趣的故事。",
+			say = "Mhm. I'm logging every leg of our journey. Da Recco's going to want to read it when I get back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "而且……还能整理我们当前的探索进度。",
+			say = "Plus this is an easy way to track our progress and review the map.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊…………地图到头了。",
+			say = "...Oh. We can't go past this point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "什么叫地图到头了……？",
+			say = "Huh? What do you mean we can't?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "地图上已经没有路了。从我们行走过的距离来说……现在应该要碰到外墙了才对。",
+			say = "Uh, because the Colosseum's boundary lies just up ahead? There shouldn't be anywhere for us TO go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "欸？！可是我们眼前的路还在延伸哦！",
+			say = "Huh? Well, if my eyes don't deceive me, this corridor doesn't seem to end any time soon...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "没错……这是问题所在。",
+			say = "How? That doesn't make sense...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我们已经走了这么久，按理说就算横跨了整个地下区域也不为过，结果却连通道都能没走出去……",
+			say = "We've been moving in a straight line for so long we should be in the wall, based on the blueprints. And yet there's no end in sight, never mind any sign of the storage...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			side = 2,
-			say = "滋……滋滋………………",
+			say = "BZZZT... BZZZZZT...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "达·芬奇，你的提灯开始闪了哦，不会出故障了吧……",
+			say = "The light's fading... Teach, I think your lamp's broken!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "绝对不可能，我做的东西怎么会在这时候出故障！",
+			say = "Nonsense! My inventions do not break! It CAN'T break, not now when–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊，提灯熄灭了……",
+			say = "Eek! It went out completely!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "什么鬼啊————？！！！！！！",
+			say = "AAAAAAAHHHHHH!",
 			effects = {
 				{
 					active = true,
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我的提灯怎么会出问题？！可恶……看我现在就把你给拆了检查一下！！！",
+			say = "No, calm down, me... Darn you, stupid lamp! I'll fix you good!",
 			effects = {
 				{
 					active = false,
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "有、有点不太对劲…………我们不会已经中招了吧……",
+			say = "Something's not right here... I think this scoop has gone paranormal...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "要不然先回去……",
+			say = "We're in way over our heads! Let's turn back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔弗雷多回头看向入口的方向，可是映入眼帘的却是不见尽头的漆黑隧道。",
+			say = "Alfredo looked back at the way the party came, but there was only endless darkness as far as the eye could see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "得、得赶紧跟维内托大人汇报一下！",
+			say = "Eep! H-hey, I think we should call Veneto right now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我刚刚已经试过了。通讯器没有反应，联络中断了。",
+			say = "Already tried that. No response. Something's obviously blocking our signal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "也许罗马大人就是使用这条通道前往地下的时候遭遇到了相同的情况。",
+			say = "My guess is that this is the exact point Roma went missing after she went underground.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "狂怒之后的达·芬奇突然变得好冷静……",
+			say = "Teach... It's almost scary how quickly you regained your composure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "因为急也没有用嘛，不如冷静下来思考一下现状。",
+			say = "You need to calm down yourself. Panicking won't help us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "异常的空间、对外联络中断，两项加起来能得出的结论似乎只有镜面海域一个。",
+			say = "Think about this logically. We suddenly lost signal while walking forward, and the way we came from just disappeared.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "托里拆利的猜测已经基本得到证实了……虽然我们此前从未见过如此特殊的镜面海域。",
+			say = "I'll be honest, I don't believe in ghost stories. What we're dealing with here is probably a micro-sized Mirror Sea, like Torricelli speculated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 608020,
-			say = "这里是单行道，既然有进口，那绝对也有出口。打起精神来继续前进吧！",
+			say = "And we know how to deal with those. Locate the central control unit and destroy it, or look for another way out. There's our plan! Let's pull ourselves together and go get 'em, girls!",
 			painting = {
 				alpha = 0.3,
 				time = 1

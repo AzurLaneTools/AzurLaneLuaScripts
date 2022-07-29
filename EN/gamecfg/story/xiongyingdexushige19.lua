@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "一段时间，或许更长时间之后——",
+			say = "Many minutes, or possibly hours later...",
 			bgm = "xinnong-3",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好累……我不行了，我要休息一下……",
+			say = "I can't keep going... I'm dead tired... Please let me rest...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "再坚持一下啦，阿尔弗雷多。风速计的反应越来越强烈，不远处肯定有能让空气流通的出口！",
+			say = "Hang in there just a little longer. My wind gauge says there's air blowing in from up ahead. That has to mean we're near the exit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "达·芬奇的小道具就是方便……既然如此，那我就再加把劲吧！",
+			say = "Really? Your gadgets save us once again... Alright, I'll keep going just a while longer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "前方好像有亮光……",
+			say = "I see a light in the distance...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -135,7 +135,7 @@ return {
 			actor = 601080,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "噢！我也看到了，终于要到出口了么！",
+			say = "Me too! That's the sign we're almost out of here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我得赶紧把墨镜戴上！你们也记得保护一下眼睛哦！",
+			say = "Better put on my shades just to be safe. Don't wanna get flashbanged by going from pitch black to broad daylight, you know!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "在眼睛习惯黑暗之后突然进入光照环境，可是会导致短期致盲的！",
+			say = "Teach, Ema, take care you don't get blinded yourselves!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "随着众人逐渐接近出口，眼前不属于黑暗的部分正变得越来越明显。",
+			say = "As they got closer to the exit, the party felt like the darkness around them lifted up somewhat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "不过，预想中的强光却没有出现。",
+			say = "Eventually, they passed a threshold. However, they didn't emerge into broad daylight like Alfredo expected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "出口之外的世界一片荒芜。空气中没有生命的气息，天空漆黑的连星星都被隐去。",
+			say = "No, they found themselves in a barren sea beneath a starless night sky.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "…………展馆地下的空间里居然出现了广阔无垠的海面？",
+			say = "What?! There's an ocean under the Colosseum?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我已经100%可以确信了，这里就是镜面海域！",
+			say = "...No, what am I saying?! This is obviously the Mirror Sea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "虽然说起来有点奇怪……我反而有些安心了。",
+			say = "Usually, that would be a bad thing... But in this case, it's strangely reassuring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我能理解！只要是镜面海域，破坏海域维持装置就能解除危机！",
+			say = "Yeah! Now we just need to find and destroy the central control unit to get out of here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "而且更重要的是，既然明白了是塞壬搞的鬼，就没什么可怕的~！",
+			say = "Phew... I'm just glad the Sirens are behind all this, not spooky ghosts!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "“当我在人生的旅途游走过半的时候……不经意踏进一片幽暗的森林，在其中迷失了前进的方向。”",
+			say = "Even so, the scenery changed so suddenly that it makes me feel uneasy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "这里和诗歌里面描绘的地狱边境一模一样，空旷又荒凉……",
+			say = "I mean, we've never entered a Mirror Sea on foot before, have we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过天上的极光看起来还是挺美丽的嘛~",
+			say = "Hey! We're underground, yet there's sky above us! And... is that an aurora?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咔嚓——都是难得的素材，全部拍下！",
+			say = "This is a photo op you can't afford to miss! I'm gonna photograph every nook and cranny of this special Mirror Sea!",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "阿尔弗雷多，你弄出来的动静太大了，谨慎一些……",
+			say = "Um... Is this really the time for taking pictures?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "没事没事~这里空空荡荡的，什么敌人都没有啦~",
+			say = "Why not? There's not a threat in sight. I bet the Sirens abandoned this place!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "即便如此，罗马大人依然被困在这里……",
+			say = "Regardless of what you think about it, we know this is a Mirror Sea, and we still don't know where Roma is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这里一定隐藏着不为人知的危险，我也建议小心一些行动比较好。",
+			say = "Stay on your toes, girls. If it really WAS that easy to just walk your way out, we wouldn't be here searching for Roma.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 601080,
-			say = "……说的有道理！那我们就首先谨慎地，侦察一下周边环境吧！",
+			say = "Will do, Teach! Let's proceed cautiously and see what we can find in here!",
 			painting = {
 				alpha = 0.3,
 				time = 1

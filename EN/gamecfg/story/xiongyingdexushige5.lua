@@ -915,7 +915,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "They're lightweight, versatile, maneuverable and best of all... this latest model can even carry people!",
+			say = "They're lightweight, versatile, maneuverable, and best of all... this latest model can even carry people!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1108,7 +1108,7 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = " Leonardo da Vinci",
+			actorName = "Leonardo da Vinci",
 			say = "Of course! All of my inventions are a-hundred-percent safe and secure! As long as you don't suddenly deploy your rigging, there's no chance of falling!",
 			painting = {
 				alpha = 0.3,
@@ -1159,7 +1159,7 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = " Leonardo da Vinci",
+			actorName = "Leonardo da Vinci",
 			say = "Hrmm... You're right! It's Bolzano and Garibaldi...?",
 			painting = {
 				alpha = 0.3,
@@ -1176,7 +1176,7 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = " Leonardo da Vinci",
+			actorName = "Leonardo da Vinci",
 			say = "I thought those two were in charge of security around the Colosseum... Now what are they doing over here?",
 			painting = {
 				alpha = 0.3,

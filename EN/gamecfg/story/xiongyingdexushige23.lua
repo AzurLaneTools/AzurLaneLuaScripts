@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「帝国已然行将就木，我亦如此。」",
+			say = "(Is someone... calling to me...?)",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我不再哭泣，因为泪已流尽。」",
+			say = "\"The road to decline is slippery and steep.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我不再言语，因为喉已沙哑。」",
+			say = "\"Tears flow not from dry eyes, words come not from withered throats.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「然而，废墟之中，有声音再次呼唤了我的名字。」",
+			say = "\"From the shattered plinths a voice called out to me.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「那个声音是如此微弱，以至于我几乎无法察觉。」",
+			say = "\"Understand our ideals, embody our beliefs.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「声音阐述着它的理想与信念。」",
+			say = "\"You shall become the inheritor of our name.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「如同黑暗中的烛火，为无尽冬日带来了些许温暖。」",
+			say = "\"Become the brightly burning fire, the splendor that shines as the sun.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「你的祈愿，罗马已经听到。」",
+			say = "\"Roma has heard your wishes.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「快点成长为燎原烈火，为帝国带来新生吧——」",
+			say = "\"Rise, and carry on our will.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

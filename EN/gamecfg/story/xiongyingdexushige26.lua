@@ -15,7 +15,7 @@ return {
 			bgm = "story-roma-inside",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "加里波第阁下，你没事吧！",
+			say = "Garibaldi! Are you alright?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "没事，只是擦伤而已……你也小心！",
+			say = "I'm doing fine! Worry about yourself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "真没想到居然会突然陷入苦战……",
+			say = "These eagles aren't much of a threat on their own, but it's a whole 'nother story when you're talking about the entire flock!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "先不提没有远程武器的幽灵鸟，那些突然从海面上出现的幽灵船算什么啊？！",
+			say = "The ghost ships are a big problem too! This Mirror Sea is unlike anything I've ever seen before!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "非常抱歉……我也被之前平静的海面所迷惑，有些放松警惕了。",
+			say = "We would be in a better situation if I'd only paid better attention to our surroundings. I'm sorry...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "啊？你不需要道歉啊，现在的事态完全是由于我的鲁莽行动导致的。",
+			say = "Don't say that. You're a lot more cautious than I am.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "没关系，打不过就跑，准备撤退吧！",
+			say = "Well... Seeing as we have no chance of winning, our best move is to retreat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "这个恐怕做不到……我们进来的入口已经消失，没有退路了。",
+			say = "I agree, but unfortunately we can't. The entrance we arrived through seems to have disappeared.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "欸？那就看看周围有什么能撤退的地方，总要先脱困才是啊！",
+			say = "What?! Fine, then we'll just take cover somewhere over there instead!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……没办法了。加里波第阁下，接下来不论发生什么都不要停，我带你冲出去。",
+			say = "Good idea. Then I shall distract them while you go look around for a–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "你在说什么啊，这种时候应该是我来保护你才对吧？你选个方向，我带你冲出去~",
+			say = "Don't be ridiculous! Nobody is sacrificing themselves today. What you're gonna do is pick a direction and run!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "……刚刚的炮击，来自天上？",
+			say = "Did... Did that come from the sky?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "加里波第与博尔扎诺抬起头，看向炮弹飞来的方向。",
+			say = "The two looked up at the clouds, where they saw a fleet of sorts cruising through the air.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "夜幕下，一支由飞空战舰组成的庞大舰队正缓缓从绿色云层中驶出。",
+			say = "There were dozens and dozens of blimps, all bearing the same ghastly appearance as the eagles and the ghost ships, advancing on the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "由无数看似原始但威力巨大的火炮编制出的弹幕正向视野内的所有敌人倾泻着。",
+			say = "Sights trained on the emerald eagles, they unleashed a storm of fire and lead on the flock.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "这些……究竟是什么？",
+			say = "Now there's airships coming for us?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "既然没攻击我们，那肯定是援军！",
+			say = "No, not for us! They're targeting the Sirens!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……我们可没有如此怪异的飞空艇部队……究竟是从哪里冒出来的……",
+			say = "I've never heard of them deploying such weapons before... Do you think this is a case of accidental friendly fire?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 602020,
-			say = "管它的！麻烦的事等把敌人消灭干净之后再想，我们也继续上吧！",
+			say = "Don't know, don't care! Just focus on breaking the enemy line to get us out of immediate danger!",
 			painting = {
 				alpha = 0.3,
 				time = 1

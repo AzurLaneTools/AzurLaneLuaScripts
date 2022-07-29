@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "博览会第五日·维希教廷馆",
+			say = "World Expo Venue - Vichya Pavilion",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "休息室内，福煦正在整理着这几日从会场中收集到的信息，霞飞则对着窗户思考着什么。",
+			say = "Joffre opened up a memo on top of the table in the break room that detailed each faction's movements since the expo's start.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "铁血代表团访问了重樱馆……白鹰与自由鸢尾进行了会谈。",
+			say = "Iron Blood, the Sakura Empire, the Eagle Union, and Iris Libre...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "撒丁帝国与北方联合交往密切，东煌馆则每天都有人拜访……",
+			say = "Sardegna and the Northern Parliament are in close touch with each other, and the Dragon Empery is rising...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "会场上还真是热闹。相比起来我们的大圣堂可就……冷清的有点厉害啊。",
+			say = "As for me, I just hope more people will stop by our pavilion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "冷清点也挺好……能少不少麻烦事。",
+			say = "There are benefits to having fewer guests. Such as having to do less work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "我们本次的任务就是呆在这里，仅此而已。",
+			say = "Our mission is to look after this pavilion and take care of the guests. Your musings are superfluous, Foch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "就连整理这些资料也是不必要的，你在自己给自己增加工作哦。",
+			say = "Even if we know exactly what each faction is doing... It won't do us any good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "啊哈哈……说的也是。不过我就是属于那种闲不下来的性格嘛。",
+			say = "That may be the case. But unlike Dunkerque and Algérie, I'm not one to sit around on my hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "请进~",
+			say = "L'Indomptable, is someone at the door?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 901130,
-			say = "打扰了。北方联合的阿芙乐尔女士现在正在会客厅等待，说是有事情想与我们的代表商量。",
+			say = "Yes. It looks like Avrora from the Northern Parliament would like to speak to the Vichya Dominion's representative.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "阿芙乐尔……？霞飞，你怎么看？",
+			say = "Avrora, huh? Joffre, what's the plan?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "没什么看法……既然都到会客厅了，一会直接问问她就是了。",
+			say = "Nothing in particular. Let's extend a warm greeting – to our fellow shipgirl.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "那就是要见的意思咯~不屈，让她在会客厅稍候片刻，我们一会就到。",
+			say = "You're right. As representatives of the Vichya Dominion, we should show hospitality to our guests. L'Indomptable, could you tell Avrora to wait a minute? I'll be there shortly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 901130,
-			say = "遵命！",
+			say = "Understood!",
 			painting = {
 				alpha = 0.3,
 				time = 1

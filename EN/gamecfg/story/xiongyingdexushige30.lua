@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "在飞空战舰提供的火力支援下，众人向着大剧场的方向顺利推进着。",
+			say = "With the backing of the air armada, the Sardegnian girls finally made it to the Colosseum's vicinity.",
 			bgm = "story-roma-inside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "好奇怪，距离大剧场这么近的地方反而没有敌人了……",
+			say = "Strange... There are hardly any Sirens around, despite how close we are to the Colosseum.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "大剧场上空倒是有雄鹰在盘旋，不过也没像刚才一样直接扑过来。",
+			say = "Yeah, it's weird. There are eagles overhead but they're not attacking like they did when they first spotted us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "按理说，越接近重要的地方，敌人应该越密集才对吧……",
+			say = "You'd think the control unit would be their number one defense priority...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "嗯，现在的情况很反常，像是个……陷阱。",
+			say = "It's all very suspicious. Makes me think this could be a trap.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "欸，就算是陷阱我们也没有太多的选择，硬着头皮上吧！",
+			say = "Maybe. Walking into it is our only real choice, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "异常镜面海域·大剧场",
+			say = "Mirror Sea - Colosseum",
 			bgm = "theme-roma-image",
 			flashout = {
 				black = true,
@@ -163,11 +163,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "罗马大人？！太好了您没事啊，我们来接您回去了！",
+			say = "Roma! Thank god you're not hurt! We've come to bring you home!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,11 +196,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "……罗马大人？",
+			say = "Hello? Roma...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "加里波第阁下退后……那个东西怎么看都不是罗马大人！",
+			say = "Get back, Garibaldi! That's not the real Roma!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "咦？真的么？！我明明感觉就是她啊！",
+			say = "Crap, you're right! I hastily assumed it was her based on looks alone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "这是塞壬制造出来的棋子吧……都已经变成透明的绿色幽灵了。",
+			say = "I think that's a Pawn, but she doesn't look quite like one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "赞同，怎么看都是和那些幽灵船还有怪鸟一起被塞壬制造出来的！",
+			say = "Yeah! She's all see-through! You reckon she's a Siren creation, like the ghost ships?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "唔……………………",
+			say = "That doesn't sound right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "……怎么了达·芬奇，你怎么也一脸凝重的？",
+			say = "Huh? Why not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "我说不太上来……但是下方的人，感觉并没有给我带来“塞壬棋子”的感觉。",
+			say = "I don't know. I just get the feeling this Roma lookalike isn't any old regular Pawn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "塞壬棋子的感觉……是什么感觉啊？",
+			say = "How so? What's so different about her aside from her appearance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "我说不上来……！",
+			say = "I said I don't know! Let's just watch and see what she does.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,11 +388,11 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			nameColor = "#A9F548FF",
-			say = "不知道是否是对于漫长的对峙感到了厌倦，远方的“罗马”竟转过身，似乎正准备离去。",
+			say = "The \"Pawn\" turned on her heel and started walking away, as though she'd gotten bored of staring down the girls.",
 			bgm = "battle-roma-image",
 			painting = {
 				alpha = 0.3,
@@ -426,8 +426,8 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "朱塞佩・加里波第",
-			say = "等一等……罗马大人！",
+			actorName = "Giuseppe Garibaldi",
+			say = "Hey! Stop right there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			side = 2,
-			say = "情急之下，加里波第忘记了自己正身处战场中心的现实。",
+			say = "Garibaldi moved forward with the intent of seizing the Pawn. Just as she did so, the eagles circling above the Colosseum cried out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			side = 2,
-			say = "她加速向前冲去，试图阻止“罗马”的离开。",
+			say = "All at once, they swooped down in a coordinated attack on Garibaldi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			side = 2,
-			say = "作为这一行为的回应，漫天的雄鹰开始转变为攻击态势，大剧场外也逐渐出现了开始集结的幽灵舰队。",
+			say = "At the same time, the fleet of ghost ships took form once more on the horizon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,8 +491,8 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "阿尔弗雷多舰队，准备战斗！",
+			actorName = "Alfredo Oriani",
+			say = "Air armada, fire at will!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,12 +503,12 @@ return {
 			}
 		},
 		{
-			actorName = "罗马",
-			nameColor = "#ffff4d",
+			actorName = "Roma",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			side = 2,
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,8 +524,8 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "博尔扎诺",
-			say = "加里波第阁下？！",
+			actorName = "Bolzano",
+			say = "That's not Roma, Garibaldi! That's a Pawn!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,8 +541,8 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "朱塞佩・加里波第",
-			say = "你不用说了，我知道。就当只是我的错觉好了……",
+			actorName = "Giuseppe Garibaldi",
+			say = "I know that! But we can't let her escape!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,8 +558,8 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "朱塞佩・加里波第",
-			say = "天空和水面的杂鱼就交给阿尔弗雷多她们，博尔扎诺，跟我一起进攻！",
+			actorName = "Giuseppe Garibaldi",
+			say = "Alfredo and company, keep the eagles and ghost ships busy! Bolzano and I will try to capture the Pawn!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,8 +575,8 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "朱塞佩・加里波第",
-			say = "只希望这个有些怪异的棋子并没有还原出罗马大人的真实实力……",
+			actorName = "Giuseppe Garibaldi",
+			say = "Here's me praying she's only as strong as a regular one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,10 +591,10 @@ return {
 			side = 1,
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
-			actorName = "博尔扎诺",
+			actorName = "Bolzano",
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……祝我们好运，上吧！",
+			say = "Hopefully, otherwise this will be a hard fight. Let's go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "博览会第四日·会场某处",
+			say = "World Expo Venue",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "哼哼哼~♪哼哼~♪",
+			say = "Hmm~♪ Hmhm~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "……虽然你看起来成竹在胸的样子。不过请允许我提醒尊贵的欧根亲王阁下——",
+			say = "I'm glad to see you in high spirits, but umm, allow me to offer you a few words of caution.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "您放任鲁普雷希特亲王自由行动已经是第四天了，把奥丁一个人留在科技馆中也是第四天了。",
+			say = "Don't you think you should be keeping Rupprecht and Odin on a tighter leash?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "您就真的不担心会出什么问题么？",
+			say = "Are you not worried that they'll get into trouble?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "这是一场充满着爱与和平的世界博览会，哪里会有什么危险呢~",
+			say = "What trouble? The World Expo is a celebration of peace. There's no way they'd get into a fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "……我当然不是说会有什么人能对她们造成危险，我是指……",
+			say = "That's not what I'm talking about. You know, blueprint ships, out in the open...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "放心放心，既然这么多人对我们的计划舰有兴趣，那就让她们一次性看个够好了~",
+			say = "Is there a problem with that? Hehe, if you ask me, it's totally fine. People want to take a closer look at our blueprint ships, so why not let them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "这不是武力炫耀，而是成人之美哦。",
+			say = "If they want to know about our girls so badly, they can just ask~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "再说了，奥丁不喜欢热闹，鲁普雷希特亲王我也管不住她。",
+			say = "Besides, even if I tried to take a more... domineering approach, Odin's a grouchy loner and Rupprecht doesn't like taking orders. So what's the point?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "顺其自然也是一种成人之美嘛。",
+			say = "That's why it's better to let the chips fall where they may. We're all happier that way~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "不过还是感谢你的关心~",
+			say = "But look at you, worrying about other people again. You really are a sweetheart, Thiele.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "不，你误会了。相比关心你，我更在意自己会不会被卷入她们引发麻烦的事件里。",
+			say = "I'm not worried about you in the slightest. I just get the feeling that I'm being dragged into another annoying mess again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "哎，你看那边！刚从东煌馆里出来的那个人，是不是喀琅施塔得？！",
+			say = "Oh my, look who just came out from the Dragon Empery's pavilion... The one and only Kronshtadt.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "看上去好像是她……你想干什么？",
+			say = "Yeah, what about her? ...What are you trying to do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "哼哼~这几天去北方联合馆好几次都没见到她人，终于让我抓到了吧。",
+			say = "We made a promise to go out for drinks the next time we met. And now is that time~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "走吧，我们约她喝一杯去！",
+			say = "Heehee. I wonder what kinds of stories she'll tell me this time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "……等等，就你的酒量我劝你还是不要……！",
+			say = "Eugen, you'd better not do anything too reckless––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "喂~喀琅施塔得————",
+			say = "Hey, Kronshtadt! Heeeey!",
 			painting = {
 				alpha = 0.3,
 				time = 1

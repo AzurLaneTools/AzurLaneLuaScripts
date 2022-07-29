@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "在不知道前进了多久之后，无尽的通道似乎终于走到了尽头。",
+			say = "Garibaldi and Bolzano emerged from the long, dark corridor beneath the Colosseum and found themselves in a vast seascape.",
 			bgm = "story-roma-inside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "这还真是……就算在梦里也没见过的奇怪场景啊！",
+			say = "Crazy how they built all this beneath the Colosseum. Jokes aside, what is this place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "博尔扎诺，你对这里怎么看？",
+			say = "There's no way in hell this could've gone unnoticed during construction. It must've appeared very recently. What do you think, Bolzano?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……就眼见的景象来看，这里毫无疑问是镜面海域。",
+			say = "It's quite clearly a Mirror Sea. That explains why our communicators stopped working.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "没错！不过我不是问性质啦，而是看到这里的感想~",
+			say = "Well, yeah. I mean the place itself though. What do you make of it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……感想么？我感受到了荒芜、凄凉、破败与拒绝感……",
+			say = "Let's see... This place looks pretty run-down, as if it's been abandoned for quite some time. There's something disconcerting about the architecture though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "还要再加上不甘与悲伤对吧？我也有这种感觉！",
+			say = "Yeah, it almost looks like... someone decided to build an identical copy of OUR Colosseum.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "其实，我觉得这里不像是塞壬创造的。",
+			say = "The way everything's all fallen apart almost gives it a sense of foreboding...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "要得出这个结论似乎还缺少足够的证据支持……",
+			say = "Do you believe the Sirens designed it based on our World Expo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "哎~也不用太认真，我就是随便发表一下不负责任的感慨罢了~",
+			say = "Who knows? But based on the other factions' experiences with the Sirens, I'd say pretty much anything is possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "继续前进吧，继续前进~让我看看绿色雄鹰在哪里！",
+			say = "So, now that we're here, what should we do next?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……加里波第阁下，我们的此行的目的应该是跟达·芬奇等人汇合，之后一同寻找失踪的罗马大人。",
+			say = "Locate and regroup with da Vinci's team, I'd say. We'll need all the backup we can get if we're to last long enough to find Roma.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "啊，你快看天上的极光带，那些……是不是都是由绿色雄鹰构成的？",
+			say = "Sounds like a plan to me... Whoa, would you look at that aurora.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……确实是十分壮观的景象，而且总感觉散发着危险的气息。",
+			say = "Quite the sight, isn't it? But something about it feels wrong to me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "有点像翡翠，又还发着光，好想抓一只回家养起来……",
+			say = "You're right... It's actually a massive flock of emerald eagles! I thought there was just one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "喂————老鹰老鹰，快看这边！",
+			say = "Seems they're interested in us. How about we catch one and keep it as a pet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "加里波第突然兴奋地挥舞起双手，对着天空中由绿色雄鹰构成的光带呼喊起来。",
+			say = "Garibaldi waved at the swarm of eagles soaring above, and that's when the \"aurora\" took on a new behavior.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "天空的光带也随即对加里波第的“召唤”做出了回应。",
+			say = "The green-glowing Siren creatures formed a coordinated swarm and began descending.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "无数光点从光带中分离出来，向着二人的方向高速俯冲而来。",
+			say = "The passive birds had become hunters, and the two shipgirls, their prey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "笨————",
+			say = "Garibaldi! Look out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……加里波第阁下，快调整防空炮角度，准备对空作战！",
+			say = "Prepare all anti-air guns! Shoot them down before they can reach us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 602020,
-			say = "欸…………？！哎？！准、准备迎敌！",
+			say = "Huh? Okay! On it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
