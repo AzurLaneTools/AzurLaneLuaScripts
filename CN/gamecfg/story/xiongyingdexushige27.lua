@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			side = 2,
 			say = "「终于，一切都结束了。」",
 			bgm = "theme-roma-image",
@@ -43,7 +43,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
@@ -59,7 +59,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
@@ -75,7 +75,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
@@ -91,7 +91,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
@@ -107,7 +107,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
@@ -123,7 +123,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
@@ -139,7 +139,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			blackBg = true,
 			say = "「就由我来创造出一个新的世界，一个新的帝国——」",
 			painting = {

@@ -812,7 +812,7 @@ pg.equip_skin_theme_template = {
 	},
 	[102] = {
 		id = 102,
-		name = "马戏团",
+		name = "魔术剧场",
 		ids = {
 			2014,
 			2015,

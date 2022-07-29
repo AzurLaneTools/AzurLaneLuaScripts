@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "不亏是{namecode:175}阁下，真是深思熟虑！{namecode:18}一跑到外面来就得意忘形了……",
+			say = "不愧是{namecode:175}阁下，真是深思熟虑！{namecode:18}一跑到外面来就得意忘形了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "没错，我是撒丁帝国所属博尔扎诺，旁边是我的同伴博尔扎诺。请问小姐您是铁血的……？",
+			say = "没错，我是撒丁帝国所属博尔扎诺，旁边是我的同伴加里波第。请问小姐您是铁血的……？",
 			painting = {
 				alpha = 0.3,
 				time = 1

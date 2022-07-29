@@ -1501,7 +1501,6 @@ pg.ship_skin_template_12 = {
 		air_bomb_skin = "",
 		shop_type_id = 4,
 		illustrator = -1,
-		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = 4,
@@ -1522,7 +1521,6 @@ pg.ship_skin_template_12 = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
@@ -1598,6 +1596,13 @@ pg.ship_skin_template_12 = {
 			"mail",
 			"touch_body",
 			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			3070741,
+			3070742
 		}
 	},
 	[307078] = {
