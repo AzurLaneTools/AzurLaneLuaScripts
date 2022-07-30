@@ -202,7 +202,7 @@ function slot6.handleCoolDown(slot0)
 end
 
 function slot6.FlushReloadRequire(slot0)
-	if not slot0._CDstartTime then
+	if not slot0._CDstartTime or slot0._reloadRequire == 0 then
 		return true
 	end
 
