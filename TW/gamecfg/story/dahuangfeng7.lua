@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样！\n\n<size=45>七　所以说，我喜欢你！</size>",
+					"像牛仔一樣!\n\n<size=45>七 所以說，我喜歡你！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "大黄蜂和{namecode:96}的演习结束后——",
+			say = "大黃蜂和瑞鶴的演習結束後——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！我们去约会吧！",
+			say = "指揮官！我們去約會吧！",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -95,7 +95,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呃……好像有些太大声了，抱歉抱歉……",
+			say = "呃……好像有些太大聲了，抱歉抱歉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我从{namecode:98}那里搞到了两张西部片的电影票，我们一起去看电影吧！顺便再玩个一整天~",
+			say = "我從明石那裡搞到了兩張西部片的電影票，我們一起去看電影吧！順便再玩個一整天~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个是……不管作为之前事情的封口费也好……报答也好，还是单纯的邀请之类的……总之没那么多理由，一起去玩吧！",
+			say = "這個是……不管作為之前事情的封口費也好……報答也好，還是單純的邀請之類的……總之沒那麼多理由，一起去玩吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快点快点，电影要开始了！别忘了拿上3D眼镜！",
+			say = "快點快點，電影要開始了！別忘了戴上3D眼鏡！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "还以为大黄蜂那种性格肯定会在剧情高潮的时候喊出声来……",
+			say = "還以為大黃蜂那種性格肯定會在劇情高潮的時候喊出聲來……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -229,7 +229,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "没想到她只是聚精会神地沉浸在电影的世界中。",
+			say = "沒想到她只是聚精會神的沉浸在電影的世界中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "因为一直被她握着手，反倒是我这变得有点不好意思起来……",
+			say = "因為一直被她握著手，反倒是我這變得有點不好意思起來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然西部片最经典的场景就是骑马和拔枪决斗了呢~",
+			say = "果然西部片最經典的場景就是騎馬和拔槍決鬥了呢~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -294,7 +294,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎，指挥官~你该不会是握个手就脸红了吧？",
+			say = "哎，指揮官~你該不會是握個手就臉紅了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "走吧走吧，让我们去下一个地方——",
+			say = "走吧走吧，讓我們去下一個地方——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			dir = 1,
-			say = "在接下来的时光里，就这样被大黄蜂拉着体验了整栋大楼的全部娱乐设施……",
+			say = "在接下來的時光裡，就這樣被大黃蜂拉著體驗了整棟大樓的全部娛樂設施……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼哇——过瘾了过瘾了，把一整年的份量都玩够了哎~特别是那个牛仔套环，真是超有趣~！",
+			say = "呼哇——過癮了過癮了，把一整年的份量都玩夠了哎~特別是那個牛仔套環，真是超有趣~！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -396,7 +396,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？你已经撑不住了么，那我们休息一会吧！",
+			say = "哎？你已經撐不住了嗎，那我們休息一會吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			dir = 1,
-			say = "与大黄蜂一同在长椅上坐了下来。",
+			say = "與大黃蜂一同在長椅上坐了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照惯例，这种时候应该到那个什么……倾诉环节了吧？彼此说说心里话，让感情更进一步之类的？",
+			say = "按照慣例，這種時候應該到那個什麼……傾訴環節了吧？彼此說說心裡話，讓感情更進一步之類的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我是已经没有什么好倾诉的啦……多亏了你、北安普顿还有企业姐，我现在感觉状态极好~",
+			say = "不過我是已經沒有什麼好傾訴的啦……多虧了你、北安普敦還有企業姐，我現在感覺狀態極好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,40 +460,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你知道么，那个平时不爱说话的闷葫芦居然在观众席上为我大声加油了！虽然我当时离得太远完全没听到，哈哈哈……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_night",
-			actor = 107070,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "企业姐也是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107070,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "“不要回避模仿姐姐这件事，只不过不要成为企业姐的模仿者，而是学会借助姐姐的力量……”",
+			say = "你知道嗎，那個平時不愛說話的悶葫蘆居然在觀眾席上為我大聲加油了！雖然我當時離得太遠完全沒聽到，哈哈哈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +477,40 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯，说的没错，不过我还想补充一句。…我啊，也有不想用姐姐们的力量，不去模仿姐姐战斗的时候哦",
+			say = "企業姐也是……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107070,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "“不要迴避模仿姐姐這件事，只不過不要成為企業姐的模仿者，而是學會借助姐姐的力量……”",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_night",
+			actor = 107070,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "嗯嗯，說的沒錯，不過我還想補充一句。…我啊，也有不想用姐姐們的力量，不去模仿姐姐戰鬥的時候哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比如说…你看，我没有姐姐那么麻烦吧。你眼前的大黄蜂我啊，对喜欢的人是会直接说喜欢的",
+			say = "比如說…你看，我沒有姐姐那麼麻煩吧。你眼前的大黃蜂我啊，對喜歡的人是會直接說喜歡的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以说这种“战斗”就是只属于我一个人的——指挥官，我喜欢你！",
+			say = "所以說這種“戰鬥”就是只屬於我一個人的——指揮官，我喜歡你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			blackbg = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "————指挥官，你呢？",
+			say = "————指揮官，你呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

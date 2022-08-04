@@ -18354,42 +18354,16 @@ pg.activity_template = {
 	},
 	[40723] = {
 		mark = 20220728,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 5001,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40723,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[40724] = {
 		mark = 20220728,
@@ -18513,6 +18487,643 @@ pg.activity_template = {
 		},
 		config_client = {
 			id = 970703
+		}
+	},
+	[40730] = {
+		mark = 20220804,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40730,
+		config_data = {
+			80261
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40731] = {
+		mark = 20220804,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 40731,
+		config_data = {
+			5038,
+			5039,
+			5040,
+			5041,
+			5042,
+			5043,
+			5044,
+			5045,
+			5046,
+			5047,
+			5048,
+			5049,
+			5050,
+			5051,
+			5052,
+			5053,
+			5054,
+			5055,
+			5056,
+			5057,
+			5058,
+			5059,
+			5060,
+			5061,
+			5062
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_salatuojia",
+			{
+				0.176,
+				0.164,
+				0.274,
+				1
+			},
+			pt_id = 40731,
+			painting = "salatuojia_pt",
+			outline = {
+				0.5,
+				0.5,
+				0.5,
+				0
+			}
+		}
+	},
+	[40732] = {
+		mark = 20220804,
+		config_client = "",
+		title_res_tag = "saratogakr",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 26,
+		id = 40732,
+		config_data = {
+			80262,
+			80263,
+			80264,
+			80265,
+			80266,
+			80267,
+			80268,
+			80269,
+			80270,
+			80271,
+			80272,
+			80273,
+			80274,
+			80275,
+			80276,
+			80277,
+			80278,
+			80279,
+			80280,
+			80281,
+			80282,
+			80283,
+			80284,
+			80285,
+			80286,
+			80287,
+			80288,
+			80289
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SaratogaSkinPage",
+			ui_name = "saratogaskinpage"
+		}
+	},
+	[40733] = {
+		mark = 20220804,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40733,
+		config_data = {
+			17170,
+			17171,
+			17172,
+			17173,
+			17174,
+			17175,
+			17176,
+			17177,
+			17178,
+			17179,
+			17180,
+			17181,
+			17182,
+			17183,
+			17184,
+			17185,
+			17186
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40734] = {
+		mark = 20220804,
+		id = 40734,
+		title_res_tag = "francev2_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 27,
+		config_data = {
+			1360001,
+			1360002,
+			1360003,
+			1360021,
+			1360022,
+			1360023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FranceMainPage",
+			ui_name = "FranceMainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[40735] = {
+		mark = 20220804,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 40735,
+		config_data = {
+			1360004,
+			1360005,
+			1360006,
+			1360024,
+			1360025,
+			1360026,
+			1360041,
+			1360051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[40736] = {
+		mark = 20220804,
+		id = 40736,
+		title_res_tag = "francev2_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 40736,
+		is_show = 27,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FrancePTPage",
+			ui_name = "FrancePTPage"
+		},
+		config_client = {
+			linkActID = 40734
+		}
+	},
+	[40737] = {
+		mark = 20220804,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40737,
+		config_data = {
+			1395001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40738] = {
+		mark = 20220804,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 223,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 40738,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40739] = {
+		mark = 20220804,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 40739,
+		config_data = {
+			1544,
+			1545,
+			1546,
+			1547,
+			1548,
+			1549,
+			1550,
+			1551,
+			1552,
+			1553,
+			1554,
+			1555,
+			1556,
+			1557,
+			1558,
+			1559,
+			1560,
+			1561,
+			1562,
+			1563,
+			1564,
+			1565,
+			1566
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_shengyongqu2",
+			{
+				1,
+				0.97,
+				0.89,
+				1
+			},
+			pt_id = 223,
+			painting = "jialisuoniye_pt",
+			outline = {
+				0,
+				0,
+				0,
+				0.8
+			}
+		}
+	},
+	[40740] = {
+		mark = 20220804,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31982,100}]",
+		config_client = "",
+		id = 40740,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40741] = {
+		mark = 20220804,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 40741,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[45000] = {
@@ -20746,6 +21357,18 @@ pg.activity_template = {
 		40724,
 		40726,
 		40727,
+		40730,
+		40731,
+		40732,
+		40733,
+		40734,
+		40735,
+		40736,
+		40737,
+		40738,
+		40739,
+		40740,
+		40741,
 		45000,
 		45001,
 		45002,

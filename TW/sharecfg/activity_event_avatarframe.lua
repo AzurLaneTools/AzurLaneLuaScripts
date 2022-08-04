@@ -4,7 +4,7 @@ pg.activity_event_avatarframe = {
 		id = 40724,
 		pt_id = 59243,
 		icon_frame = 308,
-		link_event = 0,
+		link_event = 40734,
 		target = 3000,
 		start_time = {
 			{

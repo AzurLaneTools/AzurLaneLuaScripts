@@ -9347,7 +9347,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "大鳳(μ兵裝)、黛朵(μ兵裝)、塔什干(μ兵裝)、巴爾的摩(μ兵裝)、大青花魚(μ兵裝) 建造機率UP！"
+	tip = "可怖、黎胥留、阿爾及利亞、馬耶·布雷澤、沃克蘭 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

@@ -230270,7 +230270,7 @@ _G.pg.base.chapter_template[1360001] = {
 	name = "新的一天",
 	count = 0,
 	pop_pic = "",
-	act_id = 40347,
+	act_id = 40734,
 	pos_y = "0.392708333",
 	is_ai = 1,
 	progress_boss = 50,
@@ -230851,7 +230851,7 @@ _G.pg.base.chapter_template[1360002] = {
 	name = "廣播",
 	count = 0,
 	pop_pic = "",
-	act_id = 40347,
+	act_id = 40734,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -231463,7 +231463,7 @@ _G.pg.base.chapter_template[1360003] = {
 	name = "主教與騎士",
 	count = 0,
 	pop_pic = "",
-	act_id = 40347,
+	act_id = 40734,
 	pos_y = "0.344791667",
 	is_ai = 1,
 	progress_boss = 34,
@@ -232168,7 +232168,7 @@ _G.pg.base.chapter_template[1360004] = {
 	name = "命運",
 	count = 0,
 	pop_pic = "",
-	act_id = 40348,
+	act_id = 40735,
 	pos_y = "0.227083333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -232863,7 +232863,7 @@ _G.pg.base.chapter_template[1360005] = {
 	name = "奇襲",
 	count = 0,
 	pop_pic = "",
-	act_id = 40348,
+	act_id = 40735,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -233876,7 +233876,7 @@ _G.pg.base.chapter_template[1360006] = {
 	name = "聖旗之下",
 	count = 0,
 	pop_pic = "",
-	act_id = 40348,
+	act_id = 40735,
 	pos_y = "0.383333333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -235641,7 +235641,7 @@ _G.pg.base.chapter_template[1360021] = {
 	name = "新的一天",
 	count = 0,
 	pop_pic = "",
-	act_id = 40347,
+	act_id = 40734,
 	pos_y = "0.392708333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -236264,7 +236264,7 @@ _G.pg.base.chapter_template[1360022] = {
 	name = "廣播",
 	count = 0,
 	pop_pic = "",
-	act_id = 40347,
+	act_id = 40734,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -236918,7 +236918,7 @@ _G.pg.base.chapter_template[1360023] = {
 	name = "主教與騎士",
 	count = 0,
 	pop_pic = "",
-	act_id = 40347,
+	act_id = 40734,
 	pos_y = "0.344791667",
 	is_ai = 1,
 	progress_boss = 25,
@@ -237666,7 +237666,7 @@ _G.pg.base.chapter_template[1360024] = {
 	name = "命運",
 	count = 0,
 	pop_pic = "",
-	act_id = 40348,
+	act_id = 40735,
 	pos_y = "0.380208333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -237857,7 +237857,11 @@ _G.pg.base.chapter_template[1360024] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		29,
+		39,
+		15
+	},
 	win_condition = {
 		{
 			1,
@@ -238402,7 +238406,7 @@ _G.pg.base.chapter_template[1360025] = {
 	name = "奇襲",
 	count = 0,
 	pop_pic = "",
-	act_id = 40348,
+	act_id = 40735,
 	pos_y = "0.122916667",
 	is_ai = 1,
 	progress_boss = 20,
@@ -238595,7 +238599,11 @@ _G.pg.base.chapter_template[1360025] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		32,
+		43,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -239458,7 +239466,7 @@ _G.pg.base.chapter_template[1360026] = {
 	name = "聖旗之下",
 	count = 0,
 	pop_pic = "",
-	act_id = 40348,
+	act_id = 40735,
 	pos_y = "0.35625",
 	is_ai = 1,
 	progress_boss = 20,
@@ -239651,7 +239659,11 @@ _G.pg.base.chapter_template[1360026] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		35,
+		47,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -241266,7 +241278,7 @@ _G.pg.base.chapter_template[1360041] = {
 	name = "昔日頌歌",
 	count = 1,
 	pop_pic = "",
-	act_id = 40348,
+	act_id = 40735,
 	pos_y = "0.2979",
 	is_ai = 1,
 	progress_boss = 100,
@@ -242574,7 +242586,7 @@ _G.pg.base.chapter_template[1360051] = {
 	name = "「穹頂下的聖詠曲」",
 	count = 0,
 	pop_pic = "",
-	act_id = 40348,
+	act_id = 40735,
 	pos_y = "0.2979",
 	is_ai = 0,
 	progress_boss = 100,

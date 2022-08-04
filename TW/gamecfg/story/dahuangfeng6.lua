@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样！\n\n<size=45>六　我是大黄蜂！</size>",
+					"像牛仔一樣!\n\n<size=45>六 我是大黃蜂！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "次日 演习海域",
+			say = "次日 演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "此刻的海面上，大黄蜂与{namecode:96}两人均已就位，双方正屏息凝神聆听着开始的信号，大战一触即发。",
+			say = "此刻的海面上，大黃蜂與瑞鶴兩人均已就位，雙方正屏息凝神聆聽著開始的訊號，大戰一觸即發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "信号发出的一瞬间，两人都如同离弦之箭般动了起来——演习，开始了。",
+			say = "信號發出的一瞬間，兩人都如同離弦之箭般動了起來——演習，開始了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼……呼……果然，没那么容易轻易取胜啊。",
+			say = "呼……呼……果然，沒那麼容易輕易取勝啊。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我能看出来，你为了今天的对决做了大量的准备，甚至向你的姐姐请教了不少吧。",
+			say = "我能看出來，妳為了今天的對決做了大量的準備，甚至向妳的姐姐請教了不少吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是……！为了赢过那个灰色幽灵，为了赢过你，我也是做过大量努力的！",
+			say = "但是……！為了贏過那個灰色幽靈，為了贏過妳，我也是做過大量努力的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "在演习之初，依靠企业提供的建议确实取到些许优势的大黄蜂，此刻却在{namecode:96}逐渐调整战术后开始出现颓势。",
+			say = "在演習之初，依靠企業提供的建議確實取到些許優勢的大黃蜂，此刻卻在瑞鶴逐漸調整戰術後開始出現頹勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你真的觉得只靠模仿你的姐姐就能取得胜利么，大黄蜂？！",
+			say = "妳真的覺得只靠模仿妳的姐姐就能取得勝利嗎，大黃蜂？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵……你觉得我只是姐姐的模仿者么……",
+			say = "呵……妳覺得我只是姐姐的模仿者嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我大黄蜂，确实一直以来都在追寻着姐姐的背影奔跑，也许多少也模仿了一些吧……",
+			say = "我大黃蜂，確實一直以來都在追尋著姐姐的背影奔跑，也許多少也模仿了一些吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是！我可不是依靠单纯的模仿走到今天这一步的，我就是我，潇洒而又自信的大黄蜂大人！",
+			say = "但是！我可不是依靠單純的模仿走到今天這一步的，我就是我，瀟灑而又自信的大黃蜂大人！",
 			effects = {
 				{
 					active = true,
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个气势就对了！来吧，让我见识一下属于你自己的战斗！",
+			say = "這個氣勢就對了！來吧，讓我見識一下屬於妳自己的戰鬥！",
 			effects = {
 				{
 					active = true,
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "大黄蜂再一次高速移动了起来——",
+			say = "大黃蜂再一次高速移動了起來——",
 			effects = {
 				{
 					active = false,
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哈？怎么又是这一招？这招我已经破解过一次了，不会让你得逞的！",
+			say = "……哈？怎麼又是這一招？這招我已經破解過一次了，不會讓妳得逞的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "小心，{namecode:96}。这一次跟刚刚可不一样哦。",
+			say = "小心，瑞鶴。這一次跟剛剛可不一樣哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么——",
+			say = "什麼——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
-			say = "轰————！",
+			say = "轟————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -418,7 +418,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "判定命中！大黄蜂加一分！",
+			say = "判定命中！大黃蜂加一分！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈~得手了~作战大成功！",
+			say = "啊哈哈哈~得手了~作戰大成功！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……什么？学习企业姐的招式，然后将企业姐的招式当做假动作？",
+			say = "……什麼？學習企業姐的招式，然後將企業姐的招式當做假動作？",
 			effects = {
 				{
 					active = true,
@@ -510,7 +510,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这才是你今天请企业姐来对我进行特训的真正原因？",
+			say = "這才是妳今天請企業姐來對我進行特訓的真正原因？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然对手是对姐姐执念很深的那个{namecode:96}，这样的话确实可以骗到她……",
+			say = "既然對手是對姐姐執念很深的那個瑞鶴，這樣的話確實可以騙到她……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是为什么……指挥官不是因为觉得我是企业姐的妹妹才……",
+			say = "可是為什麼……指揮官不是因為覺得我是企業姐的妹妹才……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要回避模仿姐姐这件事，只不过不要成为企业姐的模仿者，而是学会借助姐姐的力量……？",
+			say = "不要迴避模仿姐姐這件事，只不過不要成為企業姐的模仿者，而是學會借助姐姐的力量……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……你早说啊！这么曲里拐弯的也太不像你、也太不像我了……",
+			say = "原來如此……妳早說啊！這麼拐彎抹角的也太不像你、也太不像我了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊啊……错怪了你真是对不起！有空我请你出去玩，刚才的事就请当没发生过！大黄蜂大人的黑历史啊啊啊啊啊！",
+			say = "啊啊……錯怪了你真是對不起！有空我請你出去玩，剛才的事就請當沒發生過！大黃蜂大人的黑歷史啊啊啊啊啊！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -626,7 +626,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然用企业的招式作为佯攻……利用我对于灰色幽灵的执念而设下的圈套么？",
+			say = "居然用企業的招式作為佯攻……利用我對於灰色幽靈的執念而設下的圈套嗎？",
 			effects = {
 				{
 					active = false,
@@ -663,7 +663,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这一招上确实……是你更出色。",
+			say = "在這一招上確實……是妳更出色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是演习还没结束呢，这种出其不意的战术是没办法使用第二次的？！",
+			say = "但是演習還沒結束呢，這種出其不意的戰術是沒辦法使用第二次的？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那可不一定哦~你不是叫我企业姐的模仿者么，那你最好能仔细分清楚哪一招是我模仿姐姐的，哪一招是我自己的~",
+			say = "那可不一定哦~你不是叫我企業姐的模仿者嗎，那妳最好能仔細分清楚哪一招是我模仿姐姐的，哪一招是我自己的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说什么？！",
+			say = "妳說什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是身为企业妹妹的我才能做到的战术，很厉害吧！",
+			say = "這是身為企業妹妹的我才能做到的戰術，很厲害吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来你这个妹妹也很难缠呢……放马过来吧，大黄蜂！",
+			say = "看來你這個妹妹也很難纏呢……放馬過來吧，大黃蜂！",
 			effects = {
 				{
 					active = true,
@@ -801,7 +801,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "大黄蜂与{namecode:96}的对决，在双方重整旗鼓后，再次开始了————",
+			say = "大黃蜂與瑞鶴的對決，在雙方重整旗鼓後，再次開始了————",
 			effects = {
 				{
 					active = false,

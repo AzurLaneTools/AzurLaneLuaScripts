@@ -215,9 +215,6 @@ function GetSpriteFromAtlasAsync(slot0, slot1, slot2)
 end
 
 function GetImageSpriteFromAtlasAsync(slot0, slot1, slot2, slot3)
-	print("sprite name222 " .. slot1)
-	print("atlas name111" .. slot0)
-
 	slot0, slot1 = HXSet.autoHxShiftPath(slot0, slot1)
 	slot4 = slot2:GetComponent(typeof(Image))
 	slot4.enabled = false

@@ -2896,6 +2896,22 @@ pg.memory_group = {
 			1777
 		}
 	},
+	[566] = {
+		icon = "title_chara_dahuangfeng",
+		subtype = 0,
+		type = 3,
+		id = 566,
+		title = "像牛仔一樣!",
+		memories = {
+			1781,
+			1782,
+			1783,
+			1784,
+			1785,
+			1786,
+			1787
+		}
+	},
 	[570] = {
 		icon = "title_chara_junhe",
 		subtype = 0,
@@ -3068,6 +3084,7 @@ pg.memory_group = {
 		563,
 		564,
 		565,
+		566,
 		570
 	}
 }

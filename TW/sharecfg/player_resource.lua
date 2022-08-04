@@ -1115,6 +1115,16 @@ pg.player_resource = {
 		name = "skinTicket40713",
 		itemid = 80010
 	},
+	[40730] = {
+		id = 40730,
+		name = "skinTicket40730",
+		itemid = 80013
+	},
+	[40731] = {
+		id = 40731,
+		name = "Batterytw_2",
+		itemid = 80014
+	},
 	get_id_list_by_name = {
 		gold = {
 			1
@@ -1784,6 +1794,12 @@ pg.player_resource = {
 		},
 		skinTicket40713 = {
 			40713
+		},
+		skinTicket40730 = {
+			40730
+		},
+		Batterytw_2 = {
+			40731
 		}
 	},
 	all = {
@@ -2009,6 +2025,8 @@ pg.player_resource = {
 		40615,
 		40645,
 		40629,
-		40713
+		40713,
+		40730,
+		40731
 	}
 }

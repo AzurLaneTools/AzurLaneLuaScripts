@@ -163,7 +163,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
@@ -196,7 +196,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
@@ -388,7 +388,7 @@ return {
 		},
 		{
 			actor = 900329,
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
@@ -504,7 +504,7 @@ return {
 		},
 		{
 			actorName = "罗马",
-			nameColor = "#ffff4d",
+			nameColor = "#ffa500",
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			side = 2,

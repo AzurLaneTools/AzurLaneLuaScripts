@@ -15022,7 +15022,7 @@ _G.pg.base.item_data_statistics[40918] = {
 	display = "開啟後可獲得可佈換裝「陽光、大海、聖潔之青」，此道具將於可怖實裝後開放使用。 ",
 	name = "夏日可佈換裝 ",
 	max_num = 0,
-	type = 1,
+	type = 17,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -128949,6 +128949,27 @@ _G.pg.base.item_data_statistics[59245] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59246] = {
+	display = "用於『穹頂下的聖詠曲』復刻活動兌換，活動結束後將會消失",
+	name = "鳶尾之印",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59246,
+	is_world = 0,
+	icon = "Props/faxiv2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59251] = {
 	display = "用於『交匯世界的弧光』活動兌換，活動結束後將會消失",
 	name = "弧光結晶",
@@ -138101,6 +138122,48 @@ _G.pg.base.item_data_statistics[80010] = {
 	id = 80010,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[80013] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 80013,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[80014] = {
+	display = "用於『異國的偶像？』復刻活動兌換，活動結束後將會消失",
+	name = "長鼓",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 80014,
+	is_world = 0,
+	icon = "Props/drum",
 	display_icon = {},
 	price = {},
 	index = {},

@@ -548,7 +548,7 @@ function slot8.ShiftFleetBound(slot0, slot1, slot2)
 end
 
 function slot8.GetFieldBound(slot0)
-	if slot0._battleInitData.battleType == SYSTEM_DUEL then
+	if slot0._battleInitData and slot0._battleInitData.battleType == SYSTEM_DUEL then
 		return slot0:GetTotalBounds()
 	else
 		return slot0._totalUpperBound, slot0._totalLowerBound, slot0._leftFieldBound, slot0._rightFieldBound

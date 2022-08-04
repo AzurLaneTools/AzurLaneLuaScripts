@@ -24479,6 +24479,290 @@ _G.pg.base.task_data_template[5677] = {
 	}
 }
 
+_G.pg.base.task_data_template[5681] = {
+	name = "風風火火",
+	guild_coin_award = 0,
+	award = 5492,
+	type = 5,
+	desc = "提交3個《魚雷天婦羅》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "dahuangfeng",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5682",
+	auto_commit = 0,
+	story_id = "DAHUANGFENG1",
+	id = 5681,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5682] = {
+	name = "不愛說話的朋友",
+	guild_coin_award = 0,
+	award = 5493,
+	type = 5,
+	desc = "強化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "dahuangfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "DAHUANGFENG2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5683",
+	auto_commit = 0,
+	scene = "",
+	id = 5682,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5683] = {
+	name = "關於姐姐",
+	guild_coin_award = 0,
+	award = 5494,
+	type = 5,
+	desc = "大黃蜂上陣出擊(關卡)勝利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "dahuangfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "DAHUANGFENG3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10707",
+	priority_type = 0,
+	next_task = "5684",
+	auto_commit = 0,
+	scene = "",
+	id = 5683,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5684] = {
+	name = "對決",
+	guild_coin_award = 0,
+	award = 5495,
+	type = 5,
+	desc = "大黃蜂上陣完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "dahuangfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "DAHUANGFENG4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10707",
+	priority_type = 0,
+	next_task = "5685",
+	auto_commit = 0,
+	scene = "",
+	id = 5684,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5685] = {
+	name = "企業的妹妹",
+	guild_coin_award = 0,
+	award = 5496,
+	type = 5,
+	desc = "大黃蜂好感度達到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "dahuangfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "DAHUANGFENG5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10707",
+	priority_type = 0,
+	next_task = "5686",
+	auto_commit = 0,
+	scene = "",
+	id = 5685,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5686] = {
+	name = "我是大黃蜂！",
+	guild_coin_award = 0,
+	award = 5497,
+	type = 5,
+	desc = "大黃蜂突破至滿星",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "dahuangfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "DAHUANGFENG6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "107074",
+	priority_type = 0,
+	next_task = "5687",
+	auto_commit = 0,
+	scene = "",
+	id = 5686,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5687] = {
+	name = "所以說，我喜歡你！",
+	guild_coin_award = 0,
+	award = 5498,
+	type = 5,
+	desc = "大黃蜂等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "dahuangfeng",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "DAHUANGFENG7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10707",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5687,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18032,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[5721] = {
 	name = "沒有艦歷的女孩",
 	guild_coin_award = 0,
@@ -102961,7 +103245,7 @@ _G.pg.base.task_data_template[17166] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4149
+			40734
 		}
 	}
 }
@@ -103007,7 +103291,7 @@ _G.pg.base.task_data_template[17167] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4149
+			40734
 		}
 	}
 }
@@ -103053,7 +103337,7 @@ _G.pg.base.task_data_template[17168] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4150
+			40735
 		}
 	}
 }
@@ -103099,7 +103383,794 @@ _G.pg.base.task_data_template[17169] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4150
+			40735
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17170] = {
+	name = "『法系V2复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 96325,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17170,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59246,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17171] = {
+	name = "『法系V2复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 96326,
+	type = 36,
+	desc = "艦隊出征，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17171,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59246,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17172] = {
+	name = "『法系V2复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 96327,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17172,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59246,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17173] = {
+	name = "『法系V2复刻』通关A1/C1",
+	guild_coin_award = 0,
+	award = 96311,
+	type = 6,
+	desc = "擊敗A1或C1敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17173,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360001,
+		1360021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59246,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40734
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17174] = {
+	name = "『法系V2复刻』通关A2/C2",
+	guild_coin_award = 0,
+	award = 96312,
+	type = 6,
+	desc = "擊敗A2或C2敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17174,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360002,
+		1360022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59246,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40734
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17175] = {
+	name = "『法系V2复刻』通关A3/C3",
+	guild_coin_award = 0,
+	award = 96313,
+	type = 6,
+	desc = "擊敗A3或C3敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17175,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360003,
+		1360023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59246,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40734
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17176] = {
+	name = "『法系V2复刻』通关B1/D1",
+	guild_coin_award = 0,
+	award = 96314,
+	type = 6,
+	desc = "擊敗B1或D1敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17176,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360004,
+		1360024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59246,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40735
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17177] = {
+	name = "『法系V2复刻』通关B2/D2",
+	guild_coin_award = 0,
+	award = 96315,
+	type = 6,
+	desc = "擊敗B2或D2敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17177,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360005,
+		1360025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59246,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40735
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17178] = {
+	name = "『法系V2复刻』通关B3/D3",
+	guild_coin_award = 0,
+	award = 96316,
+	type = 6,
+	desc = "擊敗B3或D3敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17178,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360006,
+		1360026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59246,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40735
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17179] = {
+	name = "『法系V2复刻』通关SP",
+	guild_coin_award = 0,
+	award = 96317,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1360041",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17179,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1360025,
+			chapterId = 1360041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17180] = {
+	name = "『法系V2复刻』通关D3",
+	guild_coin_award = 0,
+	award = 96318,
+	type = 6,
+	desc = "通關D3<color=#92fc63>（勳章無法重複獲得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1360026",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17180,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			175,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1360012,
+			chapterId = 1360026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17181] = {
+	name = "『法系V2复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 96319,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "17182",
+	auto_commit = 0,
+	story_id = "",
+	id = 17181,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360001,
+		1360021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40734
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17182] = {
+	name = "『法系V2复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 96320,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "17183",
+	auto_commit = 0,
+	story_id = "",
+	id = 17182,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360002,
+		1360022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40734
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17183] = {
+	name = "『法系V2复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 96321,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "17184",
+	auto_commit = 0,
+	story_id = "",
+	id = 17183,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360003,
+		1360023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40734
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17184] = {
+	name = "『法系V2复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 96322,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "17185",
+	auto_commit = 0,
+	story_id = "",
+	id = 17184,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360004,
+		1360024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40735
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17185] = {
+	name = "『法系V2复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 96323,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "17186",
+	auto_commit = 0,
+	story_id = "",
+	id = 17185,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360005,
+		1360025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40735
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17186] = {
+	name = "『法系V2复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 96324,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17186,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1360006,
+		1360026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40735
 		}
 	}
 }
@@ -148070,6 +149141,1070 @@ _G.pg.base.task_data_template[80260] = {
 			2,
 			80015,
 			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80261] = {
+	name = "法系V2复刻皮肤体验卷",
+	guild_coin_award = 0,
+	award = 300412,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80261,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			40730,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80262] = {
+	name = "萨拉托加韩服复刻任务战斗胜利I",
+	guild_coin_award = 0,
+	award = 300413,
+	type = 6,
+	desc = "出征獲得50次勝利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80262,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80263] = {
+	name = "萨拉托加韩服复刻任务战斗胜利II",
+	guild_coin_award = 0,
+	award = 300414,
+	type = 6,
+	desc = "出征獲得80次勝利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80263,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			150
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80264] = {
+	name = "萨拉托加韩服复刻任务战斗胜利III",
+	guild_coin_award = 0,
+	award = 300415,
+	type = 6,
+	desc = "出征獲得120次勝利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80264,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80265] = {
+	name = "萨拉托加韩服复刻任务战斗胜利IV",
+	guild_coin_award = 0,
+	award = 300416,
+	type = 6,
+	desc = "出征獲得200次勝利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80265,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80266] = {
+	name = "萨拉托加韩服复刻任务消灭旗舰I",
+	guild_coin_award = 0,
+	award = 300417,
+	type = 6,
+	desc = "出征消滅敵方旗艦10次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80266,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80267] = {
+	name = "萨拉托加韩服复刻任务消灭旗舰II",
+	guild_coin_award = 0,
+	award = 300418,
+	type = 6,
+	desc = "出征消滅敵方旗艦20次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80267,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			150
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80268] = {
+	name = "萨拉托加韩服复刻任务消灭旗舰III",
+	guild_coin_award = 0,
+	award = 300419,
+	type = 6,
+	desc = "出征消滅敵方旗艦30次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80268,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80269] = {
+	name = "萨拉托加韩服复刻任务消灭旗舰IV",
+	guild_coin_award = 0,
+	award = 300420,
+	type = 6,
+	desc = "出征消滅敵方旗艦50次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80269,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80270] = {
+	name = "萨拉托加韩服复刻任务建造I",
+	guild_coin_award = 0,
+	award = 300421,
+	type = 6,
+	desc = "建造艦船5次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80270,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80271] = {
+	name = "萨拉托加韩服复刻任务建造II",
+	guild_coin_award = 0,
+	award = 300422,
+	type = 6,
+	desc = "建造艦船20次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80271,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80272] = {
+	name = "萨拉托加韩服复刻任务强化I",
+	guild_coin_award = 0,
+	award = 300423,
+	type = 6,
+	desc = "艦船強化15次。",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80272,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80273] = {
+	name = "萨拉托加韩服复刻任务强化II",
+	guild_coin_award = 0,
+	award = 300424,
+	type = 6,
+	desc = "艦船強化30次。",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80273,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80274] = {
+	name = "萨拉托加韩服复刻任务强化III",
+	guild_coin_award = 0,
+	award = 300425,
+	type = 6,
+	desc = "艦船強化50次。",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80274,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80275] = {
+	name = "萨拉托加韩服复刻任务强化IV",
+	guild_coin_award = 0,
+	award = 300426,
+	type = 6,
+	desc = "艦船強化80次。",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80275,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80276] = {
+	name = "萨拉托加韩服复刻任务退役I",
+	guild_coin_award = 0,
+	award = 300427,
+	type = 6,
+	desc = "艦船退役5次。",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80276,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80277] = {
+	name = "萨拉托加韩服复刻任务退役II",
+	guild_coin_award = 0,
+	award = 300428,
+	type = 6,
+	desc = "艦船退役10次。",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80277,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80278] = {
+	name = "萨拉托加韩服复刻任务退役III",
+	guild_coin_award = 0,
+	award = 300429,
+	type = 6,
+	desc = "艦船退役15次。",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80278,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80279] = {
+	name = "萨拉托加韩服复刻任务退役IV",
+	guild_coin_award = 0,
+	award = 300430,
+	type = 6,
+	desc = "艦船退役20次。",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80279,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80280] = {
+	name = "萨拉托加韩服复刻任务委托I",
+	guild_coin_award = 0,
+	award = 300431,
+	type = 6,
+	desc = "執行軍事委託10次。",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80280,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80281] = {
+	name = "萨拉托加韩服复刻任务委托II",
+	guild_coin_award = 0,
+	award = 300432,
+	type = 6,
+	desc = "執行軍事委託20次。",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80281,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80282] = {
+	name = "萨拉托加韩服复刻任务委托III",
+	guild_coin_award = 0,
+	award = 300433,
+	type = 6,
+	desc = "執行軍事委託30次。",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80282,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80283] = {
+	name = "萨拉托加韩服复刻任务委托IV",
+	guild_coin_award = 0,
+	award = 300434,
+	type = 6,
+	desc = "執行軍事委託50次。",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80283,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80284] = {
+	name = "萨拉托加韩服复刻任务战斗胜利-日常",
+	guild_coin_award = 0,
+	award = 300435,
+	type = 36,
+	desc = "艦隊出征，獲得25次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80284,
+	target_num = 25,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80285] = {
+	name = "萨拉托加韩服复刻任务消灭旗舰-日常",
+	guild_coin_award = 0,
+	award = 300436,
+	type = 36,
+	desc = "艦隊出征，消滅敵方旗艦5次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80285,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80286] = {
+	name = "萨拉托加韩服复刻任务建造-日常",
+	guild_coin_award = 0,
+	award = 300437,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80286,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80287] = {
+	name = "萨拉托加韩服复刻任务强化-日常",
+	guild_coin_award = 0,
+	award = 300438,
+	type = 36,
+	desc = "艦船強化8次。",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80287,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80288] = {
+	name = "萨拉托加韩服复刻任务退役-日常",
+	guild_coin_award = 0,
+	award = 300439,
+	type = 36,
+	desc = "艦船退役3次。",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80288,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80289] = {
+	name = "萨拉托加韩服复刻任务委托-日常",
+	guild_coin_award = 0,
+	award = 300440,
+	type = 36,
+	desc = "執行軍事委託5次。",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80289,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80014,
+			60
 		}
 	}
 }

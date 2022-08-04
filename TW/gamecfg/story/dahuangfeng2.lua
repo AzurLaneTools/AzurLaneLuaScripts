@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样！\n\n<size=45>二　不爱说话的朋友</size>",
+					"像牛仔一樣!\n\n<size=45>二 不愛說話的朋友</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "北安普顿，到你了到你了！",
+			say = "北安普敦，到妳了到妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我在考虑接下来该怎么走……",
+			say = "嗯，我在考慮接下來該怎麼走……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "现在……正与大黄蜂和北安普顿一起在指挥室中玩着桌游。",
+			say = "現在……正與大黃蜂和北安普敦一起在指揮室中玩著桌遊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "要问为什么会是现在这个状况……",
+			say = "要問為什麼會是現在這個狀況……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我说指挥官！今天工作完之后要不来玩会游戏吧？",
+			say = "我說指揮官！今天工作完之後要不要來玩遊戲？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好可以把我那个不怎么喜欢说话的朋友一起叫上~",
+			say = "正好可以把我那個不怎麼喜歡說話的朋友一起叫上~",
 			effects = {
 				{
 					active = true,
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官……？别发呆别发呆，到你了哦！",
+			say = "指揮官……？別發呆別發呆，到你了哦！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -233,7 +233,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "大黄蜂从游戏开始前就是一副活力旺盛的样子，与在一旁安静思考的北安普顿正好相反。",
+			say = "大黃蜂從遊戲開始前就是一副活力旺盛的樣子，與在一旁安靜思考的北安普敦正好相反。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "稍微考虑一下之后，完成了本次行动轮。",
+			say = "稍微考慮一下之後，完成了本次行動輪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼~很有想法啊，指挥官。接下来是我的回合！那就先这样…然后再这样…OK！",
+			say = "哼~很有想法啊，指揮官。接下來是我的回合！那就先這樣…然後再這樣…OK！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……感觉有些口渴了，要不我去买些饮料回来吧！",
+			say = "啊……感覺有些口渴了，要不我去買些飲料回來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "北安普顿就老样子。指挥官呢？你想喝什么？",
+			say = "北安普敦就老樣子。指揮官呢？你想喝什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "大黄蜂离开后，整个房间也变得安静下来。",
+			say = "大黃蜂離開後，整個房間也變得安靜下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个…………",
+			say = "那個…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,23 +395,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "率先打破这片宁静的，是大黄蜂的那位安静的朋友。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "一开始听大黄蜂说指挥官会来，我还以为是她在开玩笑呢……",
+			say = "率先打破這片寧靜的，是大黃蜂的那位安靜的朋友。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,22 +411,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说她最近在当秘书舰…她没有吵闹到你吧…？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "向北安普顿简单说了下大黄蜂最近工作的状况——",
+			say = "一開始聽大黃蜂說指揮官會來，我還以為是她在開玩笑呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +427,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，是我多虑了……",
+			say = "聽說她最近在當秘書艦…她沒有吵到你吧…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,23 +442,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "机会难得，向作为好友的北安普顿多打听了一下大黄蜂的情报。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "就像你了解的一样，大黄蜂总是活泼又自信、就像牛仔一样潇洒……",
+			say = "向北安普敦簡單說了下大黃蜂最近工作的狀況——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +458,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只不过，我也说不太好……也许有两位优秀的姐姐，所带来的不只是自豪，还有压力吧……",
+			say = "原來如此，是我多慮了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +473,39 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "姐姐么……之前好像确实听大黄蜂提起过，“不能拖姐姐们的后腿”之类的。",
+			say = "機會難得，向作為好友的北安普敦多打聽了一下大黃蜂的情報。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "就像你了解的一樣，大黃蜂總是活潑又自信、就像牛仔一樣瀟灑……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "只不過，我也說不太好……也許有兩位優秀的姐姐，所帶來的不只是自豪，還有壓力吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +520,22 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "机会合适的时候问一下她本人的想法吧……",
+			say = "姐姐嗎……之前好像確實聽大黃蜂提起過，“不能拖姐姐們的後腿”之類的。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "機會合適的時候問一下她本人的想法吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "秘籍，杜立特式邮递！我回来啦！是不是很快？",
+			say = "密技，杜立特式郵遞！我回來啦！是不是很快？",
 			effects = {
 				{
 					active = true,
@@ -575,7 +575,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "给，你们的饮料——然后~游戏继续！",
+			say = "給，你們的飲料——然後~遊戲繼續！",
 			effects = {
 				{
 					active = false,

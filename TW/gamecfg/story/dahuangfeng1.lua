@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样!\n\n<size=45>一　风风火火</size>",
+					"像牛仔一樣!\n\n<size=45>一 風風火火</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天是新的秘书舰到任的日子",
+			say = "今天是新的秘書艦到任的日子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我记得这次轮到的人是——",
+			say = "我記得這次輪到的人是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "Hello，指挥官，我是大黄蜂哦！今天开始我就是你的秘书舰啦！",
+			say = "Hello，指揮官，我是大黃蜂哦！今天開始我就是你的秘書艦啦！",
 			effects = {
 				{
 					active = true,
@@ -102,7 +102,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "呃…从流程上来讲，我是不是应该先敲个门？",
+			say = "呃…從流程上來講，我是不是應該先敲個門？",
 			effects = {
 				{
 					active = false,
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然这位新秘书舰的突然闯入令人有些措手不及，不过还是向她示意了“没关系”。",
+			say = "雖然這位新秘書艦的突然闖入令人有些措手不及，不過還是向她示意了“沒關係”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "嘿嘿，秘书舰的工作我已经事先全部了解过了~指挥官请不用客气，尽管把事情交给我吧！",
+			say = "嘿嘿，秘書艦的工作我已經事先全部了解過了~指揮官請不用客氣，儘管把事情交給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如同刚才风风火火地闯入一般，大黄蜂处理起工作来也是雷厉风行。",
+			say = "如同剛才風風火火地闖入一般，大黃蜂處理起工作來也是雷厲風行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "偶尔有一些拿不准的地方，在经过提示后也能很快掌握诀窍。",
+			say = "偶爾有一些掌握不好的地方，在經過提示後也能很快掌握訣竅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "照着这个节奏，今天的工作应该很快就能结束了——",
+			say = "照著這個節奏，今天的工作應該很快就能結束了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿，指挥官，有你的信！接好了！",
+			say = "嘿，指揮官，有你的信！接好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "还没等反应过来，信件就在空中华丽优雅地转了几圈后落到了地面上。",
+			say = "還沒等反應過來，信件就在空中華麗優雅地轉了幾圈後落到了地面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，抱歉抱歉，想着你应该能接住的……",
+			say = "哎呀，抱歉抱歉，想著你應該能接住的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "大黄蜂俯身捡起落在地上的信件，这一次老老实实地递了过来。",
+			say = "大黃蜂俯身撿起落在地上的信件，這一次老老實實地遞了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "见我接住了飞来的信件，大黄蜂向我比了个大拇指。",
+			say = "見我接住了飛來的信件，大黃蜂向我比了個大拇指。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呼——第一天的工作顺利完成！指挥官辛苦啦！",
+			say = "呼——第一天的工作順利完成！指揮官辛苦啦！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -368,7 +368,7 @@ return {
 			},
 			options = {
 				{
-					content = "称赞大黄蜂",
+					content = "稱讚大黃蜂",
 					flag = 1
 				}
 			}
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#92fc63",
-			say = "毕竟我可是约克城级的小妹，不能拖了姐姐们的后腿呢！嘿嘿~",
+			say = "畢竟我可是約克鎮級的小妹，不能拖了姐姐們的後腿呢！嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
