@@ -461,13 +461,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 101260,
 			say = "지휘관…… 새로운 설비 성능 테스트 곧 시작해……",
 			typewriter = {
 				speed = 0.05,
@@ -479,13 +478,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 101260,
 			say = "네비게이터 씨가 기다리고 있어……",
 			typewriter = {
 				speed = 0.05,
@@ -550,14 +548,13 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_task",
-			paintingNoise = false,
-			dir = 1,
-			actor = 101260,
-			nameColor = "#a9f548",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 101260,
 			say = "…… 지휘관, 힘들어?",
 			typewriter = {
 				speed = 0.05,
@@ -569,13 +566,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 101260,
 			say = "힘들면, 좀 자…… 내가 가서 네비게이터 씨한테…… 시간을 바꿔달라고 말할게.",
 			typewriter = {
 				speed = 0.05,

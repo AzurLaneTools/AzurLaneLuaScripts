@@ -219,6 +219,28 @@ function slot0.onRegister(slot0)
 					}))
 				end)
 			end
+
+			if slot6.type == DROP_TYPE_SKIN_TIMELIMIT then
+				if slot6.count > 0 and not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot6.id) then
+					table.insert(slot1, function (slot0)
+						uv0:addSubLayers(Context.New({
+							mediator = NewSkinMediator,
+							viewComponent = NewSkinLayer,
+							data = {
+								timeLimit = true,
+								skinId = uv1.id,
+								LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
+							},
+							onRemoved = slot0
+						}))
+					end)
+				else
+					table.insert(slot1, function (slot0)
+						pg.TipsMgr.GetInstance():ShowTips(i18n("already_have_the_skin"))
+						slot0()
+					end)
+				end
+			end
 		end
 	end
 

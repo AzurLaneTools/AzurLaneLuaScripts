@@ -345,10 +345,10 @@ pg.item_data_frame = {
 	[321] = {
 		time_limit_type = 0,
 		name = "독수리의 광휘",
-		gain_by = "",
+		gain_by = "독수리의 서사곡",
 		id = 321,
 		time_second = 0,
-		desc = "추후 이벤트를 통해 획득",
+		desc = "<color=#ffffff>「미래가 가시덤불로 빽빽하여도 일곱 언덕 위의 독수리는 계속 날아오를 것이다.」</color>\n「독수리의 서사곡」 이벤트를 통해 획득",
 		scene = {}
 	},
 	[401] = {

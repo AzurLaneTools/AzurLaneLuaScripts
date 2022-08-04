@@ -4841,6 +4841,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[21013] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 21013,
+		compose_number = 0,
+		target_id = 0
+	},
 	[21101] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -5323,6 +5334,17 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "30121",
 		id = 30121,
+		compose_number = 0,
+		target_id = 0
+	},
+	[30122] = {
+		other_resource_cost = "[]",
+		display_effect = "OpenBox",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30122",
+		id = 30122,
 		compose_number = 0,
 		target_id = 0
 	},
@@ -5955,6 +5977,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[30336] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30336",
+		id = 30336,
+		compose_number = 0,
+		target_id = 0
+	},
 	[30401] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -5996,6 +6029,28 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "30404",
 		id = 30404,
+		compose_number = 0,
+		target_id = 0
+	},
+	[30405] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30405",
+		id = 30405,
+		compose_number = 0,
+		target_id = 0
+	},
+	[30406] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30406",
+		id = 30406,
 		compose_number = 0,
 		target_id = 0
 	},
@@ -6592,6 +6647,210 @@ pg.item_data_template = {
 			{
 				9,
 				597,
+				1
+			}
+		}
+	},
+	[30507] = {
+		usage = "usage_drop_appointed",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 30507,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			{
+				9,
+				600,
+				1
+			},
+			{
+				9,
+				601,
+				1
+			},
+			{
+				9,
+				602,
+				1
+			},
+			{
+				9,
+				603,
+				1
+			},
+			{
+				9,
+				604,
+				1
+			},
+			{
+				9,
+				605,
+				1
+			},
+			{
+				9,
+				606,
+				1
+			},
+			{
+				9,
+				607,
+				1
+			},
+			{
+				9,
+				608,
+				1
+			},
+			{
+				9,
+				609,
+				1
+			},
+			{
+				9,
+				610,
+				1
+			},
+			{
+				9,
+				611,
+				1
+			},
+			{
+				9,
+				612,
+				1
+			},
+			{
+				9,
+				613,
+				1
+			},
+			{
+				9,
+				614,
+				1
+			},
+			{
+				9,
+				615,
+				1
+			},
+			{
+				9,
+				616,
+				1
+			},
+			{
+				9,
+				617,
+				1
+			}
+		}
+	},
+	[30508] = {
+		usage = "usage_drop_appointed",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 30508,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			{
+				9,
+				160,
+				1
+			},
+			{
+				9,
+				161,
+				1
+			},
+			{
+				9,
+				162,
+				1
+			},
+			{
+				9,
+				163,
+				1
+			},
+			{
+				9,
+				164,
+				1
+			},
+			{
+				9,
+				165,
+				1
+			},
+			{
+				9,
+				166,
+				1
+			},
+			{
+				9,
+				167,
+				1
+			},
+			{
+				9,
+				168,
+				1
+			},
+			{
+				9,
+				169,
+				1
+			},
+			{
+				9,
+				170,
+				1
+			},
+			{
+				9,
+				171,
+				1
+			},
+			{
+				9,
+				172,
+				1
+			},
+			{
+				9,
+				173,
+				1
+			},
+			{
+				9,
+				174,
+				1
+			},
+			{
+				9,
+				175,
+				1
+			},
+			{
+				9,
+				176,
+				1
+			},
+			{
+				9,
+				177,
 				1
 			}
 		}
@@ -23247,6 +23506,7 @@ pg.item_data_template = {
 		21010,
 		21011,
 		21012,
+		21013,
 		21101,
 		21111,
 		21121,
@@ -23284,6 +23544,7 @@ pg.item_data_template = {
 		30113,
 		30114,
 		30121,
+		30122,
 		30132,
 		30133,
 		30201,
@@ -23324,16 +23585,21 @@ pg.item_data_template = {
 		30333,
 		30334,
 		30335,
+		30336,
 		30401,
 		30402,
 		30403,
 		30404,
+		30405,
+		30406,
 		30501,
 		30502,
 		30503,
 		30504,
 		30505,
 		30506,
+		30507,
+		30508,
 		30900,
 		30911,
 		30912,

@@ -2,115 +2,6 @@ slot0 = class("CrusingScene", import("view.base.BaseUI"))
 slot0.optionsPath = {
 	"top/home"
 }
-slot0.PhaseFrameDic = {
-	map_202110 = {
-		[0] = 0,
-		[90.0] = 1080,
-		[100.0] = 1260,
-		[95.0] = 1185
-	},
-	map_202112 = {
-		[0] = 0,
-		nil,
-		5,
-		[40.0] = 155,
-		[63.0] = 267,
-		[62.0] = 261,
-		[70.0] = 311,
-		[74.0] = 340,
-		[50.0] = 200,
-		[54.0] = 214,
-		[90.0] = 391,
-		[82.0] = 369,
-		[60.0] = 240,
-		[10.0] = 40,
-		[100.0] = 410,
-		[30.0] = 120,
-		[80.0] = 362
-	},
-	map_202202 = {
-		[0] = 410,
-		[50.0] = 606,
-		[40.0] = 570,
-		[100.0] = 860,
-		[70.0] = 716,
-		[60.0] = 664,
-		[20.0] = 490,
-		[80.0] = 772,
-		[90.0] = 812,
-		[10.0] = 450,
-		[30.0] = 530
-	},
-	map_202204 = {
-		[0] = 0,
-		nil,
-		5,
-		[40.0] = 155,
-		[63.0] = 267,
-		[62.0] = 261,
-		[70.0] = 311,
-		[74.0] = 340,
-		[50.0] = 200,
-		[54.0] = 214,
-		[90.0] = 391,
-		[82.0] = 369,
-		[60.0] = 240,
-		[10.0] = 40,
-		[100.0] = 410,
-		[30.0] = 120,
-		[80.0] = 362
-	},
-	map_202206 = {
-		[0] = 0,
-		nil,
-		5,
-		[40.0] = 155,
-		[63.0] = 267,
-		[62.0] = 261,
-		[70.0] = 311,
-		[74.0] = 340,
-		[50.0] = 200,
-		[54.0] = 214,
-		[90.0] = 391,
-		[82.0] = 369,
-		[60.0] = 240,
-		[10.0] = 40,
-		[100.0] = 410,
-		[30.0] = 120,
-		[80.0] = 362
-	}
-}
-slot0.AnimFrameAll = {
-	map_202112 = 410,
-	map_202202 = 900,
-	map_202206 = 410,
-	map_202110 = 1260,
-	map_202204 = 410
-}
-
-function slot0.GetPhaseFrame(slot0)
-	return setmetatable(Clone(uv0.PhaseFrameDic[slot0]), {
-		__index = function (slot0, slot1)
-			slot2 = 0
-			slot3 = 100
-
-			for slot7, slot8 in pairs(slot0) do
-				if slot7 < slot1 and slot2 < slot7 then
-					slot2 = slot7
-				end
-
-				if slot1 < slot7 and slot7 < slot3 then
-					slot3 = slot7
-				end
-			end
-
-			slot4 = (slot1 - slot2) / (slot3 - slot2)
-
-			return (1 - slot4) * slot0[slot2] + slot4 * slot0[slot3]
-		end
-	}), uv0.AnimFrameAll[slot0]
-end
-
 slot0.FrameSpeed = 10
 slot0.PlaySpeed = 1.5
 
@@ -125,14 +16,14 @@ function slot0.preload(slot0, slot1)
 	slot4 = {}
 
 	table.insert(slot4, function (slot0)
-		slot1 = uv0
+		slot2 = uv0
 		slot2 = uv1
 
-		slot2:GetPrefab("crusingmap/" .. slot1:getConfig("config_client").map_name, "", true, function (slot0)
+		slot2:GetPrefab("crusingmap/" .. CrusingMapInfo.VersionInfo[slot2:getConfig("config_client").map_name], "", true, function (slot0)
 			uv0.rtMap = tf(slot0)
-			uv0.PhaseFrame, uv0.AllFrameCount = uv1.GetPhaseFrame(uv2)
+			uv0.PhaseFrame, uv0.AllFrameCount = CrusingMapInfo.GetPhaseFrame(uv1)
 
-			uv3()
+			uv2()
 		end)
 	end)
 	table.insert(slot4, function (slot0)
@@ -177,18 +68,7 @@ function slot0.init(slot0)
 	slot0.btnBack = slot0.rtTop:Find("back")
 	slot0.btnHelp = slot0.rtTop:Find("help")
 	slot0.textDay = slot0.rtTop:Find("day/Text")
-	slot0.rtWindow = slot0._tf:Find("window")
 	slot0.LTDic = {}
-end
-
-function slot0.onBackPressed(slot0)
-	if isActive(slot0.rtWindow) then
-		slot0:hideWindow()
-
-		return
-	end
-
-	uv0.super.onBackPressed(slot0)
 end
 
 function slot0.didEnter(slot0)
@@ -247,25 +127,6 @@ function slot0.didEnter(slot0)
 			helps = i18n(uv0.activity:getConfig("config_client").tips[2])
 		})
 	end, SFX_PANEl)
-
-	slot3 = slot0.rtWindow
-
-	onButton(slot0, slot3:Find("bg"), function ()
-		uv0:hideWindow()
-	end, SFX_CANCEL)
-
-	slot3 = slot0.rtWindow
-
-	onButton(slot0, slot3:Find("panel/btn_back"), function ()
-		uv0:hideWindow()
-	end, SFX_CANCEL)
-
-	slot3 = slot0.rtWindow
-
-	onButton(slot0, slot3:Find("panel/btn_unlock"), function ()
-		uv0:hideWindow()
-		uv0:openBuyPanel()
-	end, SFX_CONFIRM)
 
 	slot0.maps = {
 		(function (slot0)
@@ -337,21 +198,10 @@ function slot0.didEnter(slot0)
 
 	slot0:updateMapStatus()
 	LoadImageSpriteAtlasAsync(Item.GetIcon(DROP_TYPE_RESOURCE, slot0.ptId), "", slot0.sliderPt:Find("Text/icon"), true)
-	LoadImageSpriteAtlasAsync("crusingwindow/" .. slot0.activity:getConfig("config_client").map_name, "", slot0.rtWindow:Find("panel"))
-
-	if PlayerPrefs.GetInt("cursing_first_enter_scene:" .. slot0.activity.id, 0) == 0 then
-		PlayerPrefs.SetInt("cursing_first_enter_scene:" .. slot0.activity.id, 1)
-		slot0:showWindow()
-	else
-		slot0:updateMapWay()
-	end
+	slot0:updateMapWay()
 end
 
 function slot0.willExit(slot0)
-	if isActive(slot0.rtWindow) then
-		slot0:hideWindow()
-	end
-
 	for slot4, slot5 in pairs(slot0.LTDic) do
 		if slot5 then
 			LeanTween.cancel(slot4)
@@ -359,13 +209,13 @@ function slot0.willExit(slot0)
 	end
 
 	slot1 = PoolMgr.GetInstance()
-	slot2 = "crusingmap/" .. slot0.activity:getConfig("config_client").map_name
+	slot2 = CrusingMapInfo.VersionInfo[slot0.activity:getConfig("config_client").map_name]
 	slot3 = slot0.activity:getConfig("config_client").spine_name
 
 	for slot7, slot8 in ipairs(slot0.maps) do
 		setParent(slot8.rtLine, slot8._tf, true)
 		slot1:ReturnSpineChar(slot3, go(slot8.rtIcon:Find("model"):GetChild(0)))
-		slot1:ReturnPrefab(slot2, "", go(slot8._tf))
+		slot1:ReturnPrefab("crusingmap/" .. slot2, "", go(slot8._tf))
 	end
 end
 
@@ -589,17 +439,6 @@ function slot0.updateNextAward(slot0, slot1)
 
 		slot0:updateAwardInfo(slot0.rtNextAward, slot0.awardList[slot3])
 	end
-end
-
-function slot0.showWindow(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.rtWindow)
-	setActive(slot0.rtWindow, true)
-end
-
-function slot0.hideWindow(slot0)
-	slot0:updateMapWay()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtWindow, slot0._tf)
-	setActive(slot0.rtWindow, false)
 end
 
 function slot0.checkLimitMax(slot0, slot1)

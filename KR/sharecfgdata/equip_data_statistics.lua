@@ -110121,6 +110121,59 @@ _G.pg.base.equip_data_statistics[75222] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[75231] = {
+	type = 1,
+	name = "전탄 발사-볼차노급I",
+	speciality = "없음",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "스킬 탄막",
+	id = 75231,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		75231
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[75232] = {
+	id = 75232,
+	name = "전탄 발사-볼차노급II",
+	base = 75231,
+	weapon_id = {
+		75232
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[75511] = {
 	type = 1,
 	name = "全弹发射-布林级I",
@@ -115499,6 +115552,165 @@ _G.pg.base.equip_data_statistics[79903] = {
 	},
 	equip_parameters = {},
 	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79911] = {
+	type = 1,
+	name = "专属弹幕-朱塞佩.加里波第I",
+	speciality = "없음",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "스킬 탄막",
+	id = 79911,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60861
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79912] = {
+	id = 79912,
+	name = "专属弹幕-朱塞佩.加里波第II",
+	base = 79911,
+	weapon_id = {
+		60862
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79921] = {
+	type = 1,
+	name = "专属弹幕-莱昂纳多·达·芬奇I",
+	speciality = "없음",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "스킬 탄막",
+	id = 79921,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		79921
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79922] = {
+	id = 79922,
+	name = "专属弹幕-莱昂纳多·达·芬奇II",
+	base = 79921,
+	weapon_id = {
+		79922
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79931] = {
+	type = 1,
+	name = "专属弹幕-特伦托.METAI",
+	speciality = "없음",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "스킬 탄막",
+	id = 79931,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60871
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79932] = {
+	id = 79932,
+	name = "专属弹幕-特伦托.METAII",
+	base = 79931,
+	weapon_id = {
+		60872
+	},
+	hidden_skill_id = {}
 }
 
 _G.pg.base.equip_data_statistics[85000] = {

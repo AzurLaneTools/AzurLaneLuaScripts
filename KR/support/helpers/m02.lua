@@ -752,7 +752,7 @@ function updateShip(slot0, slot1, slot2)
 		slot4 = "unknown_small"
 	end
 
-	if findTF(slot0, "icon_bg/new") then
+	if findTF(slot0, "icon_bg/new") and not slot2.isTimeLimit then
 		if slot2.isSkin then
 			setActive(slot5, not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot1.skinId))
 		else
@@ -760,54 +760,58 @@ function updateShip(slot0, slot1, slot2)
 		end
 	end
 
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. (slot2.isSkin and "-skin" or slot3)))
-
-	slot7 = findTF(slot0, "icon_bg/frame")
-	slot8 = nil
-
-	if slot1.isNpc then
-		slot8 = "frame_npc"
-	elseif slot1.propose then
-		if slot1.isMetaShip(slot1) then
-			slot8 = "frame_prop_meta"
-		else
-			slot8 = "frame_prop"
-		end
-	elseif slot2.isSkin then
-		slot8 = "frame7"
+	if findTF(slot0, "icon_bg/timelimit") then
+		setActive(slot6, slot2.isTimeLimit)
 	end
 
-	setFrame(slot7, slot3, slot8)
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. (slot2.isSkin and "-skin" or slot3)))
+
+	slot8 = findTF(slot0, "icon_bg/frame")
+	slot9 = nil
+
+	if slot1.isNpc then
+		slot9 = "frame_npc"
+	elseif slot1.propose then
+		if slot1.isMetaShip(slot1) then
+			slot9 = "frame_prop_meta"
+		else
+			slot9 = "frame_prop"
+		end
+	elseif slot2.isSkin then
+		slot9 = "frame7"
+	end
+
+	setFrame(slot8, slot3, slot9)
 
 	if slot2.gray then
-		setGray(slot6, true, true)
+		setGray(slot7, true, true)
 	end
 
 	GetImageSpriteFromAtlasAsync(slot2.Q and "QIcon/" or "SquareIcon/" .. slot4, "", findTF(slot0, "icon_bg/icon"))
 
 	if findTF(slot0, "icon_bg/lv") then
-		setActive(slot10, not slot1.isNpc)
+		setActive(slot11, not slot1.isNpc)
 
-		if not slot1.isNpc and findTF(slot10, "Text") and slot1.level then
-			setText(slot11, slot1.level)
+		if not slot1.isNpc and findTF(slot11, "Text") and slot1.level then
+			setText(slot12, slot1.level)
 		end
 	end
 
 	if findTF(slot0, "ship_type") then
-		setActive(slot11, true)
-		setImageSprite(slot11, GetSpriteFromAtlas("shiptype", shipType2print(slot1.getShipType(slot1))))
+		setActive(slot12, true)
+		setImageSprite(slot12, GetSpriteFromAtlas("shiptype", shipType2print(slot1.getShipType(slot1))))
 	end
 
-	if not IsNil(slot6.Find(slot6, "npc")) then
+	if not IsNil(slot7.Find(slot7, "npc")) then
 		if slot5 and go(slot5).activeSelf then
-			setActive(slot12, false)
+			setActive(slot13, false)
 		else
-			setActive(slot12, slot1.isActivityNpc(slot1))
+			setActive(slot13, slot1.isActivityNpc(slot1))
 		end
 	end
 
 	if slot0.Find(slot0, "group_locked") then
-		setActive(slot13, not slot2.isSkin and not getProxy(CollectionProxy):getShipGroup(slot1.groupId))
+		setActive(slot14, not slot2.isSkin and not getProxy(CollectionProxy):getShipGroup(slot1.groupId))
 	end
 
 	uv0(slot0, slot2.initStar, slot1:getStar())
@@ -984,7 +988,7 @@ function getDropInfo(slot0)
 			}):getConfig("name") .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_STRATEGY then
 			table.insert(slot1, strategy_data_template[slot8].name .. "x" .. slot9)
-		elseif slot7 == DROP_TYPE_SKIN then
+		elseif slot7 == DROP_TYPE_SKIN or slot7 == DROP_TYPE_SKIN_TIMELIMIT then
 			table.insert(slot1, pg.ship_skin_template[slot8].name .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_EQUIPMENT_SKIN then
 			table.insert(slot1, pg.equip_skin_template[slot8].name .. "x" .. slot9)
@@ -1163,6 +1167,16 @@ function updateDrop(slot0, slot1, slot2)
 		}), slot2)
 
 		slot5 = pg.item_data_statistics[slot10].display
+	elseif slot3 == DROP_TYPE_SKIN_TIMELIMIT then
+		slot9, slot10, slot5 = ShipWordHelper.GetWordAndCV(slot1.id, ShipWordHelper.WORD_TYPE_DROP)
+		slot2.isSkin = true
+		slot2.isTimeLimit = true
+		slot6 = 1
+
+		updateShip(slot0, Ship.New({
+			configId = tonumber(slot4.ship_group .. "1"),
+			skin_id = slot1.id
+		}), slot2)
 	end
 
 	slot1.cfg = slot4
@@ -1217,7 +1231,7 @@ function updateDropCfg(slot0)
 		assert(slot1, "strategy_data_template表中找不到配置: " .. slot0.id)
 
 		slot2 = slot1.desc
-	elseif slot3 == DROP_TYPE_SKIN then
+	elseif slot3 == DROP_TYPE_SKIN or slot3 == DROP_TYPE_SKIN_TIMELIMIT then
 		assert(pg.ship_skin_template[slot0.id], "ship_skin_template表中找不到配置: " .. slot0.id)
 
 		slot4, slot5, slot2 = ShipWordHelper.GetWordAndCV(slot0.id, ShipWordHelper.WORD_TYPE_DROP)
@@ -1301,7 +1315,7 @@ function GetOwnedpropCount(slot0)
 		slot1 = getProxy(DormProxy):getRawData():GetOwnFurnitrueCount(slot0.id)
 	elseif slot3 == DROP_TYPE_STRATEGY then
 		slot2 = tobool(slot0.count)
-	elseif slot3 == DROP_TYPE_SKIN then
+	elseif slot3 == DROP_TYPE_SKIN or slot3 == DROP_TYPE_SKIN_TIMELIMIT then
 		slot1 = getProxy(ShipSkinProxy):getSkinCountById(slot0.id)
 	elseif slot3 == DROP_TYPE_VITEM then
 		-- Nothing
@@ -1342,7 +1356,7 @@ function getDropRarity(slot0)
 		slot1 = pg.furniture_data_template[slot0.id].comfortable + 1
 	elseif slot2 == DROP_TYPE_STRATEGY then
 		slot1 = 1
-	elseif slot2 == DROP_TYPE_SKIN then
+	elseif slot2 == DROP_TYPE_SKIN or slot2 == DROP_TYPE_SKIN_TIMELIMIT then
 		slot1 = 5
 	elseif slot2 == DROP_TYPE_VITEM then
 		slot1 = pg.item_data_statistics[slot0.id].rarity + 1

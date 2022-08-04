@@ -536,6 +536,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[161] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "트렌토·META를 사용해 승리 1회",
+		id = 161,
+		target_num = 1,
+		target_id = "0"
+	},
+	[162] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "트렌토·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 162,
+		target_num = 1,
+		target_id = "30"
+	},
+	[163] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "트렌토·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 163,
+		target_num = 1,
+		target_id = "55"
+	},
+	[164] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "트렌토·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 164,
+		target_num = 1,
+		target_id = "80"
+	},
+	[165] = {
+		target_id_2 = "970301",
+		sub_type = 180,
+		desc = "트렌토·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 165,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -920,6 +960,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[248] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "대형 작전에서 트렌토·META를 사용해 1회 승리",
+		id = 248,
+		target_num = 1,
+		target_id = "0"
+	},
+	[249] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "대형 작전에서 트렌토·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 249,
+		target_num = 1,
+		target_id = "70"
+	},
+	[250] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "대형 작전에서 트렌토·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 250,
+		target_num = 1,
+		target_id = "90"
+	},
+	[251] = {
+		target_id_2 = "970301",
+		sub_type = 302,
+		desc = "대형 작전에서 트렌토·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 251,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -1004,6 +1076,11 @@ pg.task_meta_data_template = {
 		158,
 		159,
 		160,
+		161,
+		162,
+		163,
+		164,
+		165,
 		200,
 		201,
 		202,
@@ -1052,6 +1129,10 @@ pg.task_meta_data_template = {
 		245,
 		246,
 		247,
+		248,
+		249,
+		250,
+		251,
 		301,
 		302
 	}

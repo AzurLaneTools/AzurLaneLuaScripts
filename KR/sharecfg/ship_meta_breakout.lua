@@ -126,6 +126,69 @@ pg.ship_meta_breakout = {
 		pre_id = 9702023,
 		weapon_ids = {}
 	},
+	[9703011] = {
+		breakout_view = "스킬 [흔들리는 불빛·트렌토] 습득/주포 효율 +5%",
+		gold = 500,
+		breakout_id = 9703012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9703011,
+		item1 = 21013,
+		pre_id = 0,
+		weapon_ids = {
+			79931
+		}
+	},
+	[9703012] = {
+		breakout_view = "어뢰 발사 수 +1/어뢰 탑재량 +1/어뢰 효율 +10%",
+		gold = 1500,
+		breakout_id = 9703013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9703012,
+		item1 = 21013,
+		pre_id = 9703011,
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[9703013] = {
+		breakout_view = "[흔들리는 불빛·트렌토] 강화/어뢰 효율 +15%",
+		gold = 2500,
+		breakout_id = 9703014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9703013,
+		item1 = 21013,
+		pre_id = 9703012,
+		weapon_ids = {
+			79932
+		}
+	},
+	[9703014] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9703014,
+		item1 = 21013,
+		pre_id = 9703013,
+		weapon_ids = {}
+	},
 	[9704011] = {
 		breakout_view = "스킬 [빛을 쫓는 화염·그나이제나우] 습득/주포 발사 수 +1/주포 효율 5% 상승",
 		gold = 1000,
@@ -810,6 +873,10 @@ pg.ship_meta_breakout = {
 		9702022,
 		9702023,
 		9702024,
+		9703011,
+		9703012,
+		9703013,
+		9703014,
 		9704011,
 		9704012,
 		9704013,

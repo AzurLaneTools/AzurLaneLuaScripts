@@ -2849,12 +2849,13 @@ pg.activity_template = {
 	},
 	[4448] = {
 		mark = 20220714,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4448,
 		config_data = {
@@ -2864,38 +2865,11 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4449] = {
 		mark = 20220714,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -2903,34 +2877,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 4449,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4449
 	},
 	[4450] = {
 		mark = 20220714,
@@ -3273,7 +3221,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 16,
-		is_show = 23,
+		is_show = 20,
 		config_data = {},
 		time = {
 			"timer",
@@ -3317,7 +3265,7 @@ pg.activity_template = {
 		type = 87,
 		login_pop = 0,
 		config_id = 2,
-		is_show = 25,
+		is_show = 22,
 		id = 4461,
 		config_data = {},
 		time = {
@@ -3354,42 +3302,16 @@ pg.activity_template = {
 	},
 	[4462] = {
 		mark = 20220721,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 19,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4462,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					7,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					8,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4463] = {
 		mark = 20220721,
@@ -3398,7 +3320,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 24,
+		is_show = 21,
 		config_data = {
 			{
 				17801
@@ -3475,6 +3397,586 @@ pg.activity_template = {
 				},
 				{
 					"SADINGDEYAOYUE7"
+				}
+			}
+		}
+	},
+	[4470] = {
+		mark = 20220728,
+		config_client = "",
+		title_res_tag = "dafengJK_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 23,
+		id = 4470,
+		config_data = {
+			{
+				17808,
+				17809,
+				17810
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DaFengJKSkinPage",
+			ui_name = "DaFengJKSkinPage"
+		}
+	},
+	[4471] = {
+		mark = 20220728,
+		id = 4471,
+		title_res_tag = "yidaliV3_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 25,
+		config_data = {
+			1660001,
+			1660002,
+			1660003,
+			1660021,
+			1660022,
+			1660023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3MainPage",
+			ui_name = "YidaliV3MainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4472] = {
+		mark = 20220728,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4472,
+		config_data = {
+			1660004,
+			1660005,
+			1660006,
+			1660024,
+			1660025,
+			1660026,
+			1660041,
+			1660051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4473] = {
+		mark = 20220728,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4473,
+		config_data = {
+			17815,
+			17816,
+			17817,
+			17818,
+			17819,
+			17820,
+			17821,
+			17822,
+			17823,
+			17824,
+			17825,
+			17826,
+			17827,
+			17828,
+			17829,
+			17830,
+			17831,
+			17832,
+			17833
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4474] = {
+		mark = 20220728,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4474,
+		config_data = {
+			1665001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4475] = {
+		mark = 20220728,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 271,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4475,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4476] = {
+		mark = 20220728,
+		id = 4476,
+		title_res_tag = "yidaliV3_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4476,
+		is_show = 24,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3PtPage",
+			ui_name = "YidaliV3PtPage"
+		},
+		config_client = {
+			linkActID = 4476
+		}
+	},
+	[4477] = {
+		mark = 20220728,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 4477,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4478] = {
+		mark = 20220728,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4478,
+		config_data = {
+			17814
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4479] = {
+		mark = 20220728,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4479,
+		config_data = {
+			1780,
+			1781,
+			1782,
+			1783,
+			1784,
+			1785,
+			1786,
+			1787,
+			1788,
+			1789,
+			1790,
+			1791,
+			1792,
+			1793,
+			1794,
+			1795,
+			1796,
+			1797,
+			1798,
+			1799,
+			1800
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_yidaliv3",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "zhusaipei_pt",
+			use_secretary = false,
+			pt_id = 271,
+			outline = {
+				0,
+				0,
+				0,
+				1
+			}
+		}
+	},
+	[4480] = {
+		mark = 20220728,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31965,100}]",
+		config_client = "",
+		id = 4480,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4481] = {
+		mark = 20220728,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4481,
+		config_data = {
+			321,
+			322,
+			323,
+			324,
+			325,
+			326
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -3596,6 +4098,88 @@ pg.activity_template = {
 				"battlepass_main_tip_2206",
 				"battlepass_main_help_2206",
 				"cruise_task_help_2206"
+			}
+		}
+	},
+	[7006] = {
+		mark = 20220728,
+		id = 7006,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 22,
+		config_data = {
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage6"
+		},
+		config_client = {
+			map_name = "map_202208",
+			spine_name = "chess_beifeng",
+			tips = {
+				"battlepass_main_tip_2208",
+				"battlepass_main_help_2208",
+				"cruise_task_help_2208"
+			},
+			equip_skin = {
+				{
+					9,
+					2014,
+					1
+				},
+				{
+					9,
+					2015,
+					1
+				},
+				{
+					9,
+					2017,
+					1
+				},
+				{
+					9,
+					2018,
+					1
+				}
 			}
 		}
 	},
@@ -8249,8 +8833,21 @@ pg.activity_template = {
 		4461,
 		4462,
 		4463,
+		4470,
+		4471,
+		4472,
+		4473,
+		4474,
+		4475,
+		4476,
+		4477,
+		4478,
+		4479,
+		4480,
+		4481,
 		7004,
 		7005,
+		7006,
 		8009,
 		8010,
 		6000,

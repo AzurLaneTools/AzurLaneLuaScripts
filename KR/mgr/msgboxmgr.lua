@@ -63,7 +63,6 @@ function slot1.Init(slot0, slot1)
 		uv0._closeBtn = uv0._top:Find("btnBack")
 
 		setText(uv0._titleList:Find("infomation/title"), i18n("words_information"))
-		setActive(uv0._titleList:Find("infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
 		setText(uv0._titleList:Find("cadpa/title"), i18n("cadpa_tip1"))
 
 		uv0._res = uv0._tf:Find("res")
@@ -184,7 +183,7 @@ function slot5(slot0, slot1)
 	SetActive(slot0._exchangeShipPanel, true)
 	setActive(findTF(slot0._exchangeShipPanel, "icon_bg/own"), false)
 	updateDrop(slot0._exchangeShipPanel, slot1.drop)
-	SetActive(slot0._exchangeShipPanel:Find("intro_view/Viewport/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN)
+	SetActive(slot0._exchangeShipPanel:Find("intro_view/Viewport/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN or slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT)
 	setActive(slot0.singleItemIntro, slot0.settings.numUpdate == nil)
 	setActive(slot0._countDescTxt, slot3 ~= nil)
 	setText(slot0._exchangeShipPanel:Find("name_mode/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
@@ -298,6 +297,7 @@ function slot8(slot0, slot1)
 	slot0:commonSetting(slot1)
 	SetActive(slot0._sigleItemPanel, true)
 	setActive(findTF(slot0._sigleItemPanel, "icon_bg/own"), false)
+	setActive(findTF(slot0._sigleItemPanel, "icon_bg/timelimit"), slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT)
 
 	slot2, slot3 = GetOwnedpropCount(slot1.drop)
 
@@ -488,7 +488,7 @@ function slot8(slot0, slot1)
 		if slot1.extendDesc then
 			setText(cloneTplTo(slot6, slot6.parent), slot1.extendDesc)
 		end
-	elseif slot1.drop.type == DROP_TYPE_SKIN then
+	elseif slot1.drop.type == DROP_TYPE_SKIN or slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT then
 		setText(slot6, HXSet.hxLan(slot1.drop.cfg.desc))
 	elseif slot1.drop.type == DROP_TYPE_EQUIPMENT_SKIN then
 		setText(slot6, slot1.drop.cfg.desc .. "\n\n" .. i18n("word_fit") .. ": " .. table.concat(_.map(slot1.drop.cfg.equip_type, function (slot0)

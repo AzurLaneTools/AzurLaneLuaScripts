@@ -16,7 +16,7 @@ function slot0.Entrance(slot0, slot1)
 	slot8 = 0
 	slot9 = 0
 
-	for slot17, slot18 in ipairs(nowWorld():GetBossProxy():GetFleet().ships) do
+	for slot17, slot18 in ipairs(nowWorld():GetBossProxy():GetFleet(slot0.bossId).ships) do
 		slot7[#slot7 + 1] = slot18
 	end
 
@@ -119,7 +119,7 @@ function slot0.Exit(slot0, slot1)
 	slot3 = slot0.statistics._battleScore
 	slot4 = 0
 	slot5 = {}
-	slot8 = nowWorld():GetBossProxy():GetFleet()
+	slot8 = nowWorld():GetBossProxy():GetFleet(slot0.bossId)
 	slot9 = slot8:getEndCost()
 	gold = slot9.gold
 	slot4 = slot9.oil

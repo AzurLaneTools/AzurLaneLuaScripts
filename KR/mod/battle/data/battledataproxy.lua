@@ -305,30 +305,6 @@ function slot8.initCommanderBuff(slot0)
 	return slot1
 end
 
-function slot8.InitStageData(slot0)
-	slot0._currentStageData = slot0._dungeonInfo.stages[slot0._currentStageIndex]
-	slot0._countDown = slot0._currentStageData.timeCount
-	slot1 = slot0._currentStageData.totalArea
-	slot0._totalLeftBound = slot1[1]
-	slot0._totalRightBound = slot1[1] + slot1[3]
-	slot0._totalUpperBound = slot1[2] + slot1[4]
-	slot0._totalLowerBound = slot1[2]
-	slot2 = slot0._currentStageData.playerArea
-	slot0._leftZoneLeftBound = slot2[1]
-	slot0._leftZoneRightBound = slot2[1] + slot2[3]
-	slot0._leftZoneUpperBound = slot2[2] + slot2[4]
-	slot0._leftZoneLowerBound = slot2[2]
-	slot0._rightZoneLeftBound = slot0._leftZoneRightBound
-	slot0._rightZoneRightBound = slot0._totalRightBound
-	slot0._rightZoneUpperBound = slot0._leftZoneUpperBound
-	slot0._rightZoneLowerBound = slot0._leftZoneLowerBound
-	slot0._bulletUpperBound = slot0._totalUpperBound + 3
-	slot0._bulletLowerBound = slot0._totalLowerBound - 10
-	slot0._bulletLeftBound = slot0._totalLeftBound - 10
-	slot0._bulletRightBound = slot0._totalRightBound + 10
-	slot0._bulletUpperBoundVision = slot0._totalUpperBound + 30
-end
-
 function slot8.Clear(slot0)
 	for slot4, slot5 in pairs(slot0._teamList) do
 		slot0:KillNPCTeam(slot5)
@@ -491,6 +467,40 @@ function slot8.CelebrateVictory(slot0, slot1)
 	end
 end
 
+function slot8.InitStageData(slot0)
+	slot0._currentStageData = slot0._dungeonInfo.stages[slot0._currentStageIndex]
+	slot0._countDown = slot0._currentStageData.timeCount
+	slot1 = slot0._currentStageData.totalArea
+	slot0._totalLeftBound = slot1[1]
+	slot0._totalRightBound = slot1[1] + slot1[3]
+	slot0._totalUpperBound = slot1[2] + slot1[4]
+	slot0._totalLowerBound = slot1[2]
+	slot2 = slot0._currentStageData.playerArea
+	slot0._leftZoneLeftBound = slot2[1]
+	slot0._leftZoneRightBound = slot2[1] + slot2[3]
+	slot0._leftZoneUpperBound = slot2[2] + slot2[4]
+	slot0._leftZoneLowerBound = slot2[2]
+	slot0._rightZoneLeftBound = slot0._leftZoneRightBound
+	slot0._rightZoneRightBound = slot0._totalRightBound
+	slot0._rightZoneUpperBound = slot0._leftZoneUpperBound
+	slot0._rightZoneLowerBound = slot0._leftZoneLowerBound
+	slot0._bulletUpperBound = slot0._totalUpperBound + 3
+	slot0._bulletLowerBound = slot0._totalLowerBound - 10
+	slot0._bulletLeftBound = slot0._totalLeftBound - 10
+	slot0._bulletRightBound = slot0._totalRightBound + 10
+	slot0._bulletUpperBoundVision = slot0._totalUpperBound + 30
+
+	if slot0._battleInitData.battleType == SYSTEM_DUEL then
+		slot0._leftFieldBound = slot0._totalLeftBound
+		slot0._rightFieldBound = slot0._totalRightBound
+	else
+		slot3 = nil
+		slot3 = (not slot0._currentStageData.mainUnitPosition or not slot0._currentStageData.mainUnitPosition[uv0.FRIENDLY_CODE] or slot0._currentStageData.mainUnitPosition[uv0.FRIENDLY_CODE][1].x) and uv0.MAIN_UNIT_POS[uv0.FRIENDLY_CODE][1].x
+		slot0._leftFieldBound = slot3 - 1
+		slot0._rightFieldBound = slot0._totalRightBound + uv0.FIELD_RIGHT_BOUND_BIAS
+	end
+end
+
 function slot8.GetVanguardBornCoordinate(slot0, slot1)
 	if slot1 == uv0.FRIENDLY_CODE then
 		return slot0._currentStageData.fleetCorrdinate
@@ -534,6 +544,14 @@ function slot8.ShiftFleetBound(slot0, slot1, slot2)
 
 	for slot13, slot14 in ipairs(slot1:GetScoutList()) do
 		slot14:SetBound(slot3, slot4, slot5, slot6, slot7, slot8)
+	end
+end
+
+function slot8.GetFieldBound(slot0)
+	if slot0._battleInitData and slot0._battleInitData.battleType == SYSTEM_DUEL then
+		return slot0:GetTotalBounds()
+	else
+		return slot0._totalUpperBound, slot0._totalLowerBound, slot0._leftFieldBound, slot0._rightFieldBound
 	end
 end
 

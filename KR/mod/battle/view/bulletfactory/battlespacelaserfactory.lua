@@ -54,3 +54,8 @@ function slot1.MakeModel(slot0, slot1, slot2)
 	end)
 	slot0:GetSceneMediator():AddBullet(slot1)
 end
+
+function slot1.OutRangeFunc(slot0)
+	slot0:ExecuteLifeEndCallback()
+	uv0.GetDataProxy():RemoveBulletUnit(slot0:GetUniqueID())
+end

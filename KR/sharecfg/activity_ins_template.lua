@@ -8310,6 +8310,78 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[321] = {
+		ship_group = 60503,
+		name = "Roma ",
+		sculpture = "luoma",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 321,
+		id = 321,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[322] = {
+		ship_group = 60802,
+		name = "DaVinci ",
+		sculpture = "dafenqi",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 322,
+		id = 322,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[323] = {
+		ship_group = 60202,
+		name = "Giuseppe ",
+		sculpture = "zhusaipei",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 323,
+		id = 323,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[324] = {
+		ship_group = 60109,
+		name = "Emanuele ",
+		sculpture = "aimannuaier",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 324,
+		id = 324,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[325] = {
+		ship_group = 60108,
+		name = "Alfredo ",
+		sculpture = "aerfuleiduo",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 325,
+		id = 325,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[326] = {
+		ship_group = 60305,
+		name = "Bolzano ",
+		sculpture = "boerzhanuo",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 326,
+		id = 326,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -8628,6 +8700,12 @@ pg.activity_ins_template = {
 		317,
 		318,
 		319,
-		320
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326
 	}
 }

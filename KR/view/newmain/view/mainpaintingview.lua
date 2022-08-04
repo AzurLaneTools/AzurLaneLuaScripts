@@ -14,12 +14,8 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._bgGo = slot2.gameObject
 	slot0.chatTf = slot1.parent:Find("chat")
 	slot0.chatPos = slot0.chatTf.anchoredPosition
-	slot0.chatTxt = slot0.chatTf:Find("Text"):GetComponent(typeof(Text))
-
-	if PLATFORM_CODE == PLATFORM_US then
-		slot0.chatTxt.lineSpacing = 1.1
-	end
-
+	slot4 = slot0.chatTf:Find("Text")
+	slot0.chatTxt = slot4:GetComponent(typeof(Text))
 	slot0.paintings = {
 		MainMeshImagePainting.New(slot0._tf, slot0.chatTf),
 		MainLive2dPainting.New(slot0._tf, slot0.chatTf),

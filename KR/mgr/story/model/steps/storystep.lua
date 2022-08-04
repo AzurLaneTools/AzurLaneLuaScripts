@@ -6,6 +6,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgName = slot1.bgName
 	slot0.bgShadow = slot1.bgShadow
 	slot0.blackBg = slot1.blackBg
+	slot0.blackFg = slot1.blackFg or 0
 	slot0.bgGlitchArt = slot1.bgNoise
 	slot0.oldPhoto = slot1.oldPhoto
 	slot0.bgm = slot1.bgm
@@ -122,6 +123,10 @@ end
 
 function slot0.SetOptionSelCodes(slot0, slot1)
 	slot0.optionSelCode = slot1
+end
+
+function slot0.IsBlackFrontGround(slot0)
+	return slot0.blackFg > 0, Mathf.Clamp01(slot0.blackFg)
 end
 
 function slot0.GetOptionIndexByAutoSel(slot0)
