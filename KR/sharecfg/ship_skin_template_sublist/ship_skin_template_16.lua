@@ -4626,7 +4626,7 @@ pg.ship_skin_template_16 = {
 	},
 	[901131] = {
 		ship_group = 90113,
-		name = "'빨간 모자'의 고민",
+		name = "빨간 모자'의 고민",
 		bullet_skin_secondary = "",
 		hand_id = 5,
 		bgm = "",
