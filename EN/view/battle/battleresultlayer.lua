@@ -520,11 +520,6 @@ function slot0.calcPlayerRank(slot0)
 end
 
 function slot0.displayShips(slot0)
-	slot0._expTFs = {}
-	slot0._initExp = {}
-	slot0._skipExp = {}
-	slot0._subSkipExp = {}
-	slot0._subCardAnimaFuncList = {}
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0.shipVOs) do
@@ -552,8 +547,6 @@ function slot0.displayShips(slot0)
 	end
 
 	slot0._atkFuncs = {}
-	slot0._commonAtkTplList = {}
-	slot0._subAtkTplList = {}
 	slot7, slot8 = nil
 
 	SetActive(slot0._atkToggle, #slot0.contextData.oldMainShips > 6)
@@ -595,63 +588,43 @@ function slot0.displayShips(slot0)
 			slot22.x = slot22.x + (slot14 - slot21) * 74
 			slot22.y = slot22.y + (slot14 - slot21) * -124
 			slot19.localPosition = slot22
+			slot23 = findTF(slot19, "result/stars")
+			slot24 = findTF(slot19, "result/stars/star_tpl")
+			slot25 = slot15:getStar()
+			slot26 = slot15:getMaxStar()
+
+			while slot26 > 0 do
+				SetActive(cloneTplTo(slot24, slot23):Find("empty"), slot25 < slot26)
+				SetActive(slot27:Find("star"), slot26 <= slot25)
+
+				slot26 = slot26 - 1
+			end
+
 			slot0:findTF("result/mask/icon", slot19):GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot15:getPainting())
 
 			setImageSprite(slot0:findTF("result/type", slot19), GetSpriteFromAtlas("shiptype", shipType2print(slot15:getShipType())), true)
 			slot0:setAtkAnima(slot19, slot20, slot3[slot15.id].output / slot5, slot5, slot4 and slot15.id == slot4.id, slot3[slot15.id].output, slot3[slot15.id].kill_count)
 
-			slot27, slot28 = nil
-
-			if not slot18 then
-				slot28 = slot0._skipExp
-
-				table.insert(slot9, cloneTplTo(slot0._extpl, slot0._expContainer))
-			else
-				slot28 = slot0._subSkipExp
-
-				table.insert(slot10, cloneTplTo(slot0._extpl, slot0._subExpContainer))
-			end
-
-			flushShipCard(slot27, slot15)
-
-			slot29 = findTF(slot27, "content")
-			slot30 = findTF(slot29, "exp")
-			slot0._expTFs[#slot0._expTFs + 1] = slot27
-
-			setScrollText(findTF(slot29, "info/name_mask/name"), slot15:getName())
-
-			slot32 = findTF(slot19, "result/stars")
-			slot33 = findTF(slot19, "result/stars/star_tpl")
-			slot36 = slot15:getMaxStar() - slot15:getStar()
-			slot37 = findTF(slot29, "heartsfly")
-			slot38 = findTF(slot29, "heartsbroken")
-
-			while slot35 > 0 do
-				SetActive(cloneTplTo(slot33, slot32):Find("empty"), slot34 < slot35)
-				SetActive(slot39:Find("star"), slot35 <= slot34)
-
-				slot35 = slot35 - 1
-			end
+			slot31 = nil
+			slot32 = false
 
 			if slot4 and slot15.id == slot4.id then
+				slot32 = true
 				slot0.mvpShipVO = slot15
-
-				SetActive(findTF(slot29, "mvp"), true)
-
-				slot39, slot40 = nil
+				slot33, slot34, slot35 = nil
 
 				if slot0.contextData.score > 1 then
-					cvKey, slot40, slot39 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_MVP, nil, , slot0.mvpShipVO:getCVIntimacy())
+					slot33, slot35, slot34 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_MVP, nil, , slot0.mvpShipVO:getCVIntimacy())
 				else
-					slot39, slot40 = Ship.getWords(slot0.mvpShipVO.skinId, "lose")
+					slot33, slot35, slot34 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_LOSE)
 				end
 
-				if slot40 then
+				if slot35 then
 					slot0:stopVoice()
 
-					slot41 = pg.CriMgr.GetInstance()
+					slot36 = pg.CriMgr.GetInstance()
 
-					slot41:PlaySoundEffect_V3(slot40, function (slot0)
+					slot36:PlaySoundEffect_V3(slot35, function (slot0)
 						uv0._currentVoice = slot0
 					end)
 				end
@@ -661,203 +634,56 @@ function slot0.displayShips(slot0)
 				slot0.flagShipVO = slot15
 			end
 
-			slot39 = slot15:getConfig("rarity")
-			slot40 = findTF(slot29, "dockyard/lv/Text")
-			slot41 = findTF(slot29, "dockyard/lv_bg/levelUpLabel")
-			slot42 = findTF(slot29, "dockyard/lv_bg/levelup")
-			slot43 = findTF(slot30, "exp_text")
-			slot45 = findTF(slot30, "exp_progress"):GetComponent(typeof(Image))
-			slot48 = slot0.expBuff or slot0.shipBuff and slot0.shipBuff[slot15:getGroupId()]
+			slot33 = nil
 
-			setActive(findTF(slot30, "exp_buff_mask/exp_buff"), slot48)
-
-			if slot48 then
-				setText(slot46, slot0.expBuff and slot0.expBuff:getConfig("name") or slot47 and i18n("Word_Ship_Exp_Buff"))
+			if slot0.expBuff or slot0.shipBuff and slot0.shipBuff[slot15:getGroupId()] then
+				slot33 = slot0.expBuff and slot0.expBuff:getConfig("name") or slot34 and i18n("Word_Ship_Exp_Buff")
 			end
 
-			function slot49()
-				SetActive(uv0, true)
-				SetActive(uv1, uv2:getIntimacy() < uv3:getIntimacy())
-				SetActive(uv4, uv3:getIntimacy() < uv2:getIntimacy())
+			slot36 = nil
 
-				slot1 = getExpByRarityFromLv1(uv5, uv3.level)
-				uv6.fillAmount = uv2:getExp() / getExpByRarityFromLv1(uv5, uv2.level)
+			if not slot18 then
+				table.insert(slot0._shipResultCardList, BattleResultShipCard.New(cloneTplTo(slot0._extpl, slot0._expContainer)))
 
-				if uv2.level < uv3.level then
-					slot2 = 0
-
-					for slot6 = uv2.level, uv3.level - 1 do
-						slot2 = slot2 + getExpByRarityFromLv1(uv5, slot6)
-					end
-
-					slot3 = uv7
-					slot7 = uv3
-					slot8 = uv2
-
-					slot3:PlayAnimation(uv8, 0, slot2 + slot7:getExp() - slot8:getExp(), 1, 0, function (slot0)
-						setText(uv0, "+" .. math.ceil(slot0))
+				if slot8 then
+					slot8:ConfigCallback(function ()
+						uv0:Play()
 					end)
-
-					function slot3(slot0)
-						SetActive(uv0, true)
-						SetActive(uv1, true)
-
-						slot2 = LeanTween.moveY(rtf(uv0), uv0.localPosition.y + 30, 0.5)
-
-						slot2:setOnComplete(System.Action(function ()
-							SetActive(uv0, false)
-
-							uv0.localPosition = uv1
-
-							pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_LEVEL_UP)
-						end))
-
-						if slot0 <= uv2.level then
-							setText(uv3, slot0)
-						end
-					end
-
-					slot4 = uv2.level
-					slot7 = uv2
-
-					(function (slot0, slot1, slot2, slot3)
-						slot4 = LeanTween.value(go(uv0), slot0, slot1, slot2)
-						slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
-							uv0.fillAmount = slot0
-						end))
-
-						slot4:setOnComplete(System.Action(function ()
-							uv0 = uv0 + 1
-
-							if uv1 then
-								uv2(uv0)
-							end
-
-							if uv3.level == uv0 then
-								if uv0 == uv3:getMaxLevel() then
-									uv4.fillAmount = 1
-								else
-									uv5(0, uv3:getExp() / uv6, 1, false)
-								end
-							elseif uv0 < uv3.level then
-								uv5(0, 1, 0.7, true)
-							end
-						end))
-					end)(slot7:getExp() / slot0, 1, 0.7, true)
-
-					return
-				end
-
-				setText(uv9, "+" .. math.ceil(uv3:getExp() - uv2:getExp()))
-
-				if uv2.level == uv2:getMaxLevel() then
-					uv6.fillAmount = 1
-
-					return
-				end
-
-				slot3 = uv7
-				slot6 = uv2
-				slot7 = uv3
-
-				slot3:PlayAnimation(uv8, slot6:getExp() / slot0, slot7:getExp() / slot0, 1, 0, function (slot0)
-					uv0.fillAmount = slot0
-				end)
-			end
-
-			slot50 = slot27:GetComponent(typeof(DftAniEvent))
-
-			slot50:SetTriggerEvent(function (slot0)
-				uv0()
-			end)
-			setActive(slot27, false)
-
-			if slot18 then
-				if not slot8 then
-					slot0._subFirstExpTF = slot27
 				else
-					slot51 = slot8:GetComponent(typeof(DftAniEvent))
-
-					slot51:SetEndEvent(function (slot0)
-						setActive(uv0, true)
-					end)
+					slot36:Play()
 				end
 
-				slot8 = slot27
+				slot8 = slot36
 			else
-				if slot7 then
-					slot51 = slot7:GetComponent(typeof(DftAniEvent))
+				table.insert(slot0._subShipResultCardList, BattleResultShipCard.New(cloneTplTo(slot0._extpl, slot0._subExpContainer)))
 
-					slot51:SetEndEvent(function (slot0)
-						setActive(uv0, true)
+				if not slot7 then
+					slot0._subFirstExpCard = slot36
+				else
+					slot7:ConfigCallback(function ()
+						uv0:Play()
 					end)
-				else
-					setActive(slot27, true)
 				end
 
-				slot7 = slot27
+				slot7 = slot36
 			end
 
-			slot28[#slot28 + 1] = function ()
-				uv0:GetComponent(typeof(Animator)).enabled = false
-
-				SetActive(uv0, true)
-				SetActive(uv1, true)
-				SetActive(uv2, true)
-
-				uv0:GetComponent(typeof(CanvasGroup)).alpha = 1
-
-				LeanTween.cancel(go(uv3))
-				LeanTween.cancel(go(uv0))
-				SetActive(uv4, uv5:getIntimacy() < uv6:getIntimacy())
-				SetActive(uv7, uv6:getIntimacy() < uv5:getIntimacy())
-
-				uv1.localPosition = Vector3(0, 0, 0)
-
-				setText(uv8, uv6.level)
-
-				if uv5.level == uv5:getMaxLevel() then
-					setText(uv9, "+" .. math.ceil(uv6:getExp() - uv5:getExp()))
-
-					uv10.fillAmount = 1
-				else
-					if uv5.level < uv6.level then
-						slot0 = 0
-
-						for slot4 = uv5.level, uv6.level - 1 do
-							slot0 = slot0 + getExpByRarityFromLv1(uv11, slot4)
-						end
-
-						setText(uv9, "+" .. slot0 + uv6:getExp() - uv5:getExp())
-					else
-						setText(uv9, "+" .. math.ceil(uv6:getExp() - uv5:getExp()))
-					end
-
-					uv10.fillAmount = uv6:getExp() / getExpByRarityFromLv1(uv11, uv6.level)
-				end
-
-				SetActive(uv3, false)
-			end
+			slot36:SetShipVO(slot15, slot16, slot32, slot33)
 		end
 	end
 
-	if slot9[#slot9] then
-		slot12 = slot11:GetComponent(typeof(DftAniEvent))
-
-		slot12:SetEndEvent(function (slot0)
+	if slot8 then
+		slot8:ConfigCallback(function ()
 			uv0._stateFlag = uv1.STATE_DISPLAYED
 
-			if not uv0._subFirstExpTF then
+			if not uv0._subFirstExpCard then
 				uv0:skip()
 			end
 		end)
 	end
 
-	if #slot10 > 0 then
-		slot12 = slot10[#slot10]
-		slot13 = slot12:GetComponent(typeof(DftAniEvent))
-
-		slot13:SetEndEvent(function (slot0)
+	if slot7 then
+		slot7:ConfigCallback(function ()
 			uv0._stateFlag = uv1.STATE_SUB_DISPLAYED
 
 			uv0:skip()
@@ -960,13 +786,13 @@ function slot0.skipAtkAnima(slot0, slot1)
 end
 
 function slot0.showPainting(slot0)
-	slot1, slot2 = nil
+	slot1, slot2, slot3 = nil
 
 	SetActive(slot0._painting, true)
 
 	if slot0.contextData.score > 1 then
-		slot3 = slot0.mvpShipVO or slot0.flagShipVO
-		slot0.paintingName = slot3:getPainting()
+		slot4 = slot0.mvpShipVO or slot0.flagShipVO
+		slot0.paintingName = slot4:getPainting()
 
 		setPaintingPrefabAsync(slot0._painting, slot0.paintingName, "jiesuan", function ()
 			if findTF(uv0._painting, "fitter").childCount > 0 then
@@ -974,20 +800,20 @@ function slot0.showPainting(slot0)
 			end
 		end)
 
-		cvKey, slot2, slot1 = ShipWordHelper.GetWordAndCV(slot3.skinId, ShipWordHelper.WORD_TYPE_MVP, nil, , slot3:getCVIntimacy())
+		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot4.skinId, ShipWordHelper.WORD_TYPE_MVP, nil, , slot4:getCVIntimacy())
 
 		SetActive(slot0._failPainting, false)
 	else
-		slot3 = slot0.contextData.oldMainShips
-		cvKey, slot2, slot1 = ShipWordHelper.GetWordAndCV(slot3[math.random(#slot3)].skinId, ShipWordHelper.WORD_TYPE_LOSE)
+		slot4 = slot0.contextData.oldMainShips
+		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot4[math.random(#slot4)].skinId, ShipWordHelper.WORD_TYPE_LOSE)
 	end
 
-	setTextEN(slot0._chat:Find("Text"), slot1)
+	setText(slot0._chat:Find("Text"), slot2)
 
 	if CHAT_POP_STR_LEN < #slot0._chat:Find("Text"):GetComponent(typeof(Text)).text then
-		slot3.alignment = TextAnchor.MiddleLeft
+		slot4.alignment = TextAnchor.MiddleLeft
 	else
-		slot3.alignment = TextAnchor.MiddleCenter
+		slot4.alignment = TextAnchor.MiddleCenter
 	end
 
 	SetActive(slot0._chat, true)
@@ -996,9 +822,9 @@ function slot0.showPainting(slot0)
 
 	LeanTween.cancel(go(slot0._painting))
 
-	slot4 = LeanTween.moveX(rtf(slot0._painting), 50, 0.25)
+	slot5 = LeanTween.moveX(rtf(slot0._painting), 50, 0.25)
 
-	slot4:setOnComplete(System.Action(function ()
+	slot5:setOnComplete(System.Action(function ()
 		slot0 = LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(1, 1, 1), 0.3)
 		slot0 = slot0:setEase(LeanTweenType.easeOutBack)
 
@@ -1054,19 +880,15 @@ function slot0.skip(slot0)
 	elseif slot0._stateFlag == uv0.STATE_REWARD then
 		-- Nothing
 	elseif slot0._stateFlag == uv0.STATE_DISPLAY then
-		if slot0._skipExp then
-			for slot4, slot5 in ipairs(slot0._skipExp) do
-				slot5()
-			end
-
-			slot0._skipExp = nil
+		for slot4, slot5 in ipairs(slot0._shipResultCardList) do
+			slot5:SkipAnimation()
 		end
 
 		slot0._stateFlag = uv0.STATE_DISPLAYED
 
 		setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())
 
-		if not slot0._subFirstExpTF then
+		if not slot0._subFirstExpCard then
 			slot0:playSubExEnter()
 		elseif slot0.skipFlag then
 			slot0:skip()
@@ -1075,11 +897,10 @@ function slot0.skip(slot0)
 		setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())
 		slot0:playSubExEnter()
 	elseif slot0._stateFlag == uv0.STATE_SUB_DISPLAY then
-		for slot4, slot5 in ipairs(slot0._subSkipExp) do
-			slot5()
+		for slot4, slot5 in ipairs(slot0._subShipResultCardList) do
+			slot5:SkipAnimation()
 		end
 
-		slot0._subSkipExp = nil
 		slot0._stateFlag = uv0.STATE_SUB_DISPLAYED
 
 		if slot0.skipFlag then
@@ -1093,9 +914,9 @@ end
 function slot0.playSubExEnter(slot0)
 	slot0._stateFlag = uv0.STATE_SUB_DISPLAY
 
-	if slot0._subFirstExpTF then
+	if slot0._subFirstExpCard then
 		triggerToggle(slot0._subToggle, false)
-		setActive(slot0._subFirstExpTF, true)
+		slot0._subFirstExpCard:Play()
 	else
 		slot0:showRightBottomPanel()
 	end
@@ -1108,7 +929,7 @@ end
 function slot0.showRightBottomPanel(slot0)
 	SetActive(slot0._skipBtn, false)
 	SetActive(slot0._rightBottomPanel, true)
-	SetActive(slot0._subToggle, slot0._subFirstExpTF ~= nil)
+	SetActive(slot0._subToggle, slot0._subFirstExpCard ~= nil)
 	onButton(slot0, slot0._statisticsBtn, function ()
 		if uv0._atkBG.gameObject.activeSelf then
 			uv0:closeStatistics()
@@ -1131,7 +952,7 @@ function slot0.showRightBottomPanel(slot0)
 	end, SFX_CANCEL)
 
 	slot0._stateFlag = nil
-	slot0._subFirstExpTF = nil
+	slot0._subFirstExpCard = nil
 
 	if slot0.skipFlag then
 		triggerButton(slot0._confirmBtn)
@@ -1244,6 +1065,14 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	for slot4, slot5 in ipairs(slot0._shipResultCardList) do
+		slot5:Dispose()
+	end
+
+	for slot4, slot5 in ipairs(slot0._subShipResultCardList) do
+		slot5:Dispose()
+	end
+
 	slot0._atkFuncs = nil
 
 	LeanTween.cancel(go(slot0._tf))

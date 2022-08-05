@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "Will do, Teach! Let's proceed cautiously and see what we can find in here!",
+			say = "Hey, Teach, whatcha working on there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
