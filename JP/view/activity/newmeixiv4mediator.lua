@@ -13,11 +13,9 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end)
 	slot0:bind(uv0.GO_STORY, function (slot0, slot1)
-		WorldConst.ReqWorldCheck(function ()
-			uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION, {
-				memoryGroup = uv1
-			})
-		end)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION, {
+			memoryGroup = slot1
+		})
 	end)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end

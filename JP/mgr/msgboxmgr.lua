@@ -132,7 +132,6 @@ function slot1.Init(slot0, slot1)
 		uv0.pools = {}
 		uv0.panelDict = {}
 		uv0.timers = {}
-		uv0.settingStack = {}
 
 		uv2()
 	end)
@@ -952,13 +951,6 @@ function slot1.commonSetting(slot0, slot1)
 	slot0.settings = slot1
 
 	SetActive(slot0._go, true)
-
-	if slot1 and slot1.hideClose then
-		setActive(slot0._closeBtn, false)
-	else
-		setActive(slot0._closeBtn, true)
-	end
-
 	setActive(slot0._countSelect, slot0.settings.needCounter or false)
 
 	slot3 = slot0.settings.numUpdate
@@ -1259,7 +1251,6 @@ function slot1.Clear(slot0)
 	removeAllChildren(slot0._btnContainer)
 	uv0.UIMgr.GetInstance():UnblurPanel(slot0._tf, uv0.UIMgr.GetInstance().OverlayMain)
 	slot0.contentText:RemoveAllListeners()
-	table.removebyvalue(slot0.settingStack, slot0.settings)
 
 	slot0.settings = nil
 	slot0.enable = false
@@ -1269,10 +1260,6 @@ end
 function slot1.ShowMsgBox(slot0, slot1)
 	if slot0.locked then
 		return
-	end
-
-	if slot1.keepSettings and not table.contains(slot0.settingStack, slot1) then
-		table.insert(slot0.settingStack, slot1)
 	end
 
 	switch(slot1.type or MSGBOX_TYPE_NORMAL, {
@@ -1372,6 +1359,15 @@ function slot1.GetPanel(slot0, slot1)
 	return slot0.panelDict[slot1]
 end
 
+function slot1.CloseAndHide(slot0)
+	if not slot0.enable then
+		return
+	end
+
+	existCall(slot0.settings.onClose or not slot1.hideNo and slot1.onNo or nil)
+	slot0:hide()
+end
+
 function slot1.hide(slot0)
 	if not slot0.enable then
 		return
@@ -1379,10 +1375,5 @@ function slot1.hide(slot0)
 
 	slot0._go:SetActive(false)
 	slot0:Clear()
-
-	if #slot0.settingStack > 0 then
-		slot0:ShowMsgBox(slot0.settingStack[#slot0.settingStack])
-	else
-		uv0.m02:sendNotification(GAME.CLOSE_MSGBOX_DONE)
-	end
+	uv0.m02:sendNotification(GAME.CLOSE_MSGBOX_DONE)
 end

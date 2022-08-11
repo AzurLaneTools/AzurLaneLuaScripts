@@ -21390,3 +21390,11 @@ _G.pg.base.gametip.word_japanese = {
 _G.pg.base.gametip.avatarframe_got = {
 	tip = "受取済"
 }
+
+_G.pg.base.gametip.level_fleet_ship_desc = {
+	tip = "通常艦隊:"
+}
+
+_G.pg.base.gametip.level_fleet_sub_desc = {
+	tip = "潜水艦隊:"
+}

@@ -13,7 +13,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onSubLeader"
+				"onAttach"
 			},
 			arg_list = {
 				skill_id = 40360

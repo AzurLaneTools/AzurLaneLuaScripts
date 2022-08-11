@@ -63,8 +63,6 @@ function slot0.preload(slot0, slot1)
 	end
 
 	if not slot0.contextData.entranceStatus then
-		slot0.contextData.InitializeMap = slot3
-
 		slot0:PreloadLevelMainUI(slot3, slot1)
 	else
 		slot1()
@@ -360,26 +358,28 @@ function slot0.initEvents(slot0)
 	slot0:bind(LevelUIConst.HIDE_FLEET_EDIT, function (slot0)
 		uv0:hideFleetEdit()
 	end)
+	slot0:bind(LevelUIConst.ADD_MSG_QUEUE, function (slot0, slot1)
+		uv0:addbubbleMsgBox(slot1)
+	end)
 end
 
-function slot0.addbubbleMsgBox(slot0, slot1, slot2)
-	if #slot0.bubbleMsgBoxes > 0 then
-		table.insert(slot0.bubbleMsgBoxes, slot1)
-	else
-		slot3 = nil
+function slot0.addbubbleMsgBox(slot0, slot1)
+	table.insert(slot0.bubbleMsgBoxes, slot1)
 
-		table.insert(slot0.bubbleMsgBoxes, slot1)
-		(function ()
-			if uv0.bubbleMsgBoxes[1] then
-				slot0(function ()
-					table.remove(uv0.bubbleMsgBoxes, 1)
-					uv1()
-				end)
-			elseif uv2 then
-				uv2()
-			end
-		end)()
+	if #slot0.bubbleMsgBoxes > 1 then
+		return
 	end
+
+	slot2 = nil
+
+	(function ()
+		if uv0.bubbleMsgBoxes[1] then
+			slot0(function ()
+				table.remove(uv0.bubbleMsgBoxes, 1)
+				uv1()
+			end)
+		end
+	end)()
 end
 
 function slot0.CleanBubbleMsgbox(slot0)
@@ -627,7 +627,6 @@ function slot0.didEnter(slot0)
 	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot6)
 	slot0:initMapBtn(slot0.btnPrev, -1)
 	slot0:initMapBtn(slot0.btnNext, 1)
-	slot0:emit(LevelMediator2.ON_EVENT_LIST_UPDATE)
 
 	if slot0.contextData.editEliteChapter then
 		slot0:displayFleetEdit(getProxy(ChapterProxy):getChapterById(slot0.contextData.editEliteChapter))
@@ -650,6 +649,14 @@ function slot0.didEnter(slot0)
 
 		slot0.contextData.open_remaster = nil
 	end
+
+	slot0:ShowEntranceUI(slot0.contextData.entranceStatus)
+
+	if not slot0.contextData.entranceStatus then
+		slot0:emit(LevelMediator2.ON_ENTER_MAINLEVEL, slot0:GetInitializeMap())
+	end
+
+	slot0:emit(LevelMediator2.ON_DIDENTER)
 end
 
 function slot0.checkChallengeOpen(slot0)
@@ -1216,7 +1223,7 @@ function slot0.updateRemasterInfo(slot0)
 					end
 				}
 			})
-		end, SFX_PANEl)
+		end, SFX_PANEL)
 	end
 end
 

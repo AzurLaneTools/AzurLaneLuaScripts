@@ -796,11 +796,9 @@ function slot0.NewAtlasBottom(slot0, slot1)
 		}))
 	end, SFX_PANEL)
 	onButton(slot0, slot2.btnCollection, function ()
-		WorldConst.ReqWorldCheck(function ()
-			uv0:Op("OpOpenScene", SCENE.WORLD_COLLECTION, {
-				page = WorldMediaCollectionScene.PAGE_RECORD
-			})
-		end)
+		uv0:Op("OpOpenScene", SCENE.WORLD_COLLECTION, {
+			page = WorldMediaCollectionScene.PAGE_RECORD
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot2.btnDailyTask, function ()
 		if nowWorld():IsSystemOpen(WorldConst.SystemDailyTask) then

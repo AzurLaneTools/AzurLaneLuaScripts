@@ -171713,6 +171713,27 @@ _G.pg.base.item_data_statistics[59333] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59334] = {
+	display = "「サークルシティナイト」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "イーグルの羽根",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59334,
+	is_world = 0,
+	icon = "Props/meifu2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",

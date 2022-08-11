@@ -45,13 +45,17 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.FETCH_EVALUATION, uv0.groupId)
 	end)
 	slot0:bind(ShipProfileScene.WEDDING_REVIEW, function (slot0, slot1)
+		uv0.viewComponent:onWeddingReview(true)
 		uv0:addSubLayers(Context.New({
 			mediator = ProposeMediator,
 			viewComponent = ProposeUI,
 			data = {
 				review = true,
 				group = slot1.group,
-				skinID = slot1.skinID
+				skinID = slot1.skinID,
+				finishCallback = function ()
+					uv0.viewComponent:onWeddingReview(false)
+				end
 			}
 		}))
 	end)
