@@ -226414,7 +226414,8 @@ _G.pg.base.ship_data_statistics[521014] = {
 	},
 	tag_list = {
 		"Qinglong",
-		"Anshan-Class"
+		"Anshan-Class",
+		"PRE"
 	}
 }
 
@@ -226545,7 +226546,8 @@ _G.pg.base.ship_data_statistics[521034] = {
 	},
 	tag_list = {
 		"Baihu",
-		"Anshan-Class"
+		"Anshan-Class",
+		"PRE"
 	}
 }
 
@@ -254633,7 +254635,8 @@ _G.pg.base.ship_data_statistics[805012] = {
 	},
 	tag_list = {
 		"Richelieu-Class",
-		"Richelieu"
+		"Richelieu",
+		"PRE"
 	}
 }
 
@@ -254759,7 +254762,8 @@ _G.pg.base.ship_data_statistics[805013] = {
 	},
 	tag_list = {
 		"Richelieu-Class",
-		"Richelieu"
+		"Richelieu",
+		"PRE"
 	}
 }
 
@@ -254885,7 +254889,8 @@ _G.pg.base.ship_data_statistics[805014] = {
 	},
 	tag_list = {
 		"Richelieu-Class",
-		"Richelieu"
+		"Richelieu",
+		"PRE"
 	}
 }
 
@@ -261135,7 +261140,8 @@ _G.pg.base.ship_data_statistics[904012] = {
 		{}
 	},
 	tag_list = {
-		"Dunkerque-Class"
+		"Dunkerque-Class",
+		"PRE"
 	}
 }
 
@@ -261260,7 +261266,8 @@ _G.pg.base.ship_data_statistics[904013] = {
 		{}
 	},
 	tag_list = {
-		"Dunkerque-Class"
+		"Dunkerque-Class",
+		"PRE"
 	}
 }
 
@@ -261385,7 +261392,8 @@ _G.pg.base.ship_data_statistics[904014] = {
 		{}
 	},
 	tag_list = {
-		"Dunkerque-Class"
+		"Dunkerque-Class",
+		"PRE"
 	}
 }
 
@@ -261635,7 +261643,8 @@ _G.pg.base.ship_data_statistics[905012] = {
 		{}
 	},
 	tag_list = {
-		"Richelieu-Class"
+		"Richelieu-Class",
+		"PRE"
 	}
 }
 
@@ -261760,7 +261769,8 @@ _G.pg.base.ship_data_statistics[905013] = {
 		{}
 	},
 	tag_list = {
-		"Richelieu-Class"
+		"Richelieu-Class",
+		"PRE"
 	}
 }
 
@@ -261885,7 +261895,8 @@ _G.pg.base.ship_data_statistics[905014] = {
 		{}
 	},
 	tag_list = {
-		"Richelieu-Class"
+		"Richelieu-Class",
+		"PRE"
 	}
 }
 
@@ -331176,7 +331187,8 @@ _G.pg.base.ship_data_statistics[899022] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }
 
@@ -331301,7 +331313,8 @@ _G.pg.base.ship_data_statistics[899023] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }
 
@@ -331426,7 +331439,8 @@ _G.pg.base.ship_data_statistics[899024] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }
 

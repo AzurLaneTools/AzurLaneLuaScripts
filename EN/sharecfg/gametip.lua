@@ -19267,5 +19267,15 @@ cs.gametip = {
 		709898,
 		84,
 		true
+	},
+	level_fleet_ship_desc = {
+		709982,
+		103,
+		true
+	},
+	level_fleet_sub_desc = {
+		710085,
+		95,
+		true
 	}
 }

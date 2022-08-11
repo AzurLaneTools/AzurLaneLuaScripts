@@ -334,6 +334,32 @@ pg.activity_task_permanent = {
 			35167
 		}
 	},
+	[6014] = {
+		gametip = "Get an outfit for Fubuki!",
+		banner_route = "permanent_chuixue",
+		gametip_extra = "Takes at least 7 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6014,
+		activity_name = "Passionate Polaris",
+		over_task_id = "",
+		eliminate_task_id = {
+			35168,
+			35169,
+			35170,
+			35171,
+			35172,
+			35173,
+			35174,
+			35175,
+			35176,
+			35177,
+			35178,
+			35179,
+			35180,
+			35181
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -348,6 +374,7 @@ pg.activity_task_permanent = {
 		6010,
 		6011,
 		6012,
-		6013
+		6013,
+		6014
 	}
 }

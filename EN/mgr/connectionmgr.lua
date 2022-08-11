@@ -232,6 +232,7 @@ function slot1.onError(slot0)
 		}, slot0) then
 			uv0.ConnectionMgr.GetInstance():Reconnect(slot2)
 		else
+			uv0.MsgboxMgr.GetInstance():CloseAndHide()
 			uv0.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
 				content = i18n("reconnect_tip", slot0),

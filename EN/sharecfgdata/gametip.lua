@@ -17584,11 +17584,11 @@ _G.pg.base.gametip.charge_trade_no_error = {
 }
 
 _G.pg.base.gametip.world_reset_1 = {
-	tip = "Operation SIren resets in <color=#92fc63>$1</color> day(s) "
+	tip = "Operation Siren resets in <color=#92fc63>$1</color> day(s) "
 }
 
 _G.pg.base.gametip.world_reset_2 = {
-	tip = "Operation SIren resets in <color=#92fc63>$1</color> tomorrow "
+	tip = "Operation Siren resets in <color=#92fc63>$1</color> tomorrow "
 }
 
 _G.pg.base.gametip.world_reset_3 = {
@@ -21265,4 +21265,12 @@ _G.pg.base.gametip.word_japanese = {
 
 _G.pg.base.gametip.avatarframe_got = {
 	tip = "Owned"
+}
+
+_G.pg.base.gametip.level_fleet_ship_desc = {
+	tip = "Deployable Fleets:"
+}
+
+_G.pg.base.gametip.level_fleet_sub_desc = {
+	tip = "Sub Fleets:"
 }

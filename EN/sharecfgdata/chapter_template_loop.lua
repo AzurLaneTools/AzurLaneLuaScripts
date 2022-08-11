@@ -138914,11 +138914,10 @@ _G.pg.base.chapter_template_loop[1350003] = {
 }
 
 _G.pg.base.chapter_template_loop[1360001] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -139389,6 +139388,10 @@ _G.pg.base.chapter_template_loop[1360001] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {},
@@ -139396,11 +139399,10 @@ _G.pg.base.chapter_template_loop[1360001] = {
 }
 
 _G.pg.base.chapter_template_loop[1360002] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -139900,6 +139902,10 @@ _G.pg.base.chapter_template_loop[1360002] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {},
@@ -139907,11 +139913,10 @@ _G.pg.base.chapter_template_loop[1360002] = {
 }
 
 _G.pg.base.chapter_template_loop[1360003] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -140423,6 +140428,10 @@ _G.pg.base.chapter_template_loop[1360003] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {},
@@ -140430,11 +140439,10 @@ _G.pg.base.chapter_template_loop[1360003] = {
 }
 
 _G.pg.base.chapter_template_loop[1360004] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -140936,6 +140944,10 @@ _G.pg.base.chapter_template_loop[1360004] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {},
@@ -140943,11 +140955,10 @@ _G.pg.base.chapter_template_loop[1360004] = {
 }
 
 _G.pg.base.chapter_template_loop[1360005] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -141594,6 +141605,10 @@ _G.pg.base.chapter_template_loop[1360005] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {
@@ -141758,11 +141773,10 @@ _G.pg.base.chapter_template_loop[1360005] = {
 }
 
 _G.pg.base.chapter_template_loop[1360006] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -142801,6 +142815,10 @@ _G.pg.base.chapter_template_loop[1360006] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {
@@ -143241,11 +143259,10 @@ _G.pg.base.chapter_template_loop[1360006] = {
 }
 
 _G.pg.base.chapter_template_loop[1360021] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -143758,6 +143775,10 @@ _G.pg.base.chapter_template_loop[1360021] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {},
@@ -143765,11 +143786,10 @@ _G.pg.base.chapter_template_loop[1360021] = {
 }
 
 _G.pg.base.chapter_template_loop[1360022] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -144311,6 +144331,10 @@ _G.pg.base.chapter_template_loop[1360022] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {},
@@ -144318,11 +144342,10 @@ _G.pg.base.chapter_template_loop[1360022] = {
 }
 
 _G.pg.base.chapter_template_loop[1360023] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -144877,6 +144900,10 @@ _G.pg.base.chapter_template_loop[1360023] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {},
@@ -144884,11 +144911,10 @@ _G.pg.base.chapter_template_loop[1360023] = {
 }
 
 _G.pg.base.chapter_template_loop[1360024] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -145431,6 +145457,10 @@ _G.pg.base.chapter_template_loop[1360024] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {},
@@ -145438,11 +145468,10 @@ _G.pg.base.chapter_template_loop[1360024] = {
 }
 
 _G.pg.base.chapter_template_loop[1360025] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -146132,6 +146161,10 @@ _G.pg.base.chapter_template_loop[1360025] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {
@@ -146296,11 +146329,10 @@ _G.pg.base.chapter_template_loop[1360025] = {
 }
 
 _G.pg.base.chapter_template_loop[1360026] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -147382,6 +147414,10 @@ _G.pg.base.chapter_template_loop[1360026] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {
@@ -147790,6 +147826,1083 @@ _G.pg.base.chapter_template_loop[1360026] = {
 		{
 			0,
 			8,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			0,
+			5,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			0,
+			4,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			0,
+			3,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			0,
+			2,
+			"guangqiang",
+			"guangqiang"
+		}
+	},
+	alarm_cell = {}
+}
+
+_G.pg.base.chapter_template_loop[1360041] = {
+	group_num = 2,
+	is_ai = 0,
+	friendly_id = 0,
+	pop_pic = "",
+	model = 2,
+	avoid_ratio = 10,
+	submarine_num = 1,
+	fightauto = 1,
+	boss_refresh = 7,
+	is_limit_move = 0,
+	investigation_ratio = 6,
+	air_dominance_loop_rate = 80,
+	is_air_attack = 0,
+	is_ambush = 0,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	id = 1360041,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			110
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1394001,
+			15,
+			0
+		},
+		{
+			1394002,
+			20,
+			0
+		},
+		{
+			1394003,
+			30,
+			1
+		},
+		{
+			1394004,
+			15,
+			0
+		},
+		{
+			1394005,
+			20,
+			0
+		},
+		{
+			1394006,
+			30,
+			1
+		},
+		{
+			1394007,
+			15,
+			0
+		},
+		{
+			1394008,
+			20,
+			0
+		},
+		{
+			1394009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1394006,
+		1394009
+	},
+	ai_expedition_list = {
+		1394301,
+		1394302,
+		1394303
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1394013
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		2,
+		0,
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			10,
+			true,
+			0
+		},
+		{
+			8,
+			9,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			8,
+			0
+		},
+		{
+			8,
+			6,
+			8,
+			0
+		},
+		{
+			8,
+			5,
+			8,
+			0
+		},
+		{
+			8,
+			4,
+			8,
+			0
+		},
+		{
+			8,
+			3,
+			8,
+			0
+		},
+		{
+			8,
+			2,
+			8,
+			0
+		},
+		{
+			8,
+			1,
+			true,
+			0
+		},
+		{
+			8,
+			0,
+			false,
+			0
+		},
+		{
+			7,
+			10,
+			true,
+			0
+		},
+		{
+			7,
+			9,
+			false,
+			0
+		},
+		{
+			7,
+			8,
+			2,
+			0
+		},
+		{
+			7,
+			7,
+			5,
+			6
+		},
+		{
+			7,
+			6,
+			4,
+			6
+		},
+		{
+			7,
+			5,
+			12,
+			12
+		},
+		{
+			7,
+			4,
+			14,
+			12
+		},
+		{
+			7,
+			3,
+			5,
+			6
+		},
+		{
+			7,
+			2,
+			6,
+			6
+		},
+		{
+			7,
+			1,
+			9,
+			0
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			10,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			2,
+			0
+		},
+		{
+			6,
+			7,
+			1,
+			4
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			4,
+			0
+		},
+		{
+			6,
+			4,
+			4,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			6,
+			4
+		},
+		{
+			6,
+			0,
+			9,
+			0
+		},
+		{
+			5,
+			10,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			false,
+			0
+		},
+		{
+			5,
+			8,
+			false,
+			0
+		},
+		{
+			5,
+			7,
+			false,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			8
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			6
+		},
+		{
+			5,
+			3,
+			true,
+			4
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			4,
+			1
+		},
+		{
+			4,
+			10,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			false,
+			0
+		},
+		{
+			4,
+			8,
+			false,
+			0
+		},
+		{
+			4,
+			7,
+			false,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			8
+		},
+		{
+			4,
+			5,
+			true,
+			16
+		},
+		{
+			4,
+			4,
+			false,
+			0
+		},
+		{
+			4,
+			3,
+			false,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			6
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			10,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			false,
+			0
+		},
+		{
+			3,
+			8,
+			false,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			8
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			6
+		},
+		{
+			3,
+			3,
+			true,
+			4
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			8,
+			1
+		},
+		{
+			2,
+			10,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			2,
+			0
+		},
+		{
+			2,
+			7,
+			1,
+			4
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			8,
+			0
+		},
+		{
+			2,
+			4,
+			8,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			10,
+			4
+		},
+		{
+			2,
+			0,
+			5,
+			0
+		},
+		{
+			1,
+			10,
+			true,
+			0
+		},
+		{
+			1,
+			9,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			2,
+			0
+		},
+		{
+			1,
+			7,
+			9,
+			6
+		},
+		{
+			1,
+			6,
+			8,
+			6
+		},
+		{
+			1,
+			5,
+			12,
+			12
+		},
+		{
+			1,
+			4,
+			14,
+			12
+		},
+		{
+			1,
+			3,
+			9,
+			6
+		},
+		{
+			1,
+			2,
+			10,
+			6
+		},
+		{
+			1,
+			1,
+			5,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			10,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			4,
+			0
+		},
+		{
+			0,
+			6,
+			4,
+			0
+		},
+		{
+			0,
+			5,
+			4,
+			0
+		},
+		{
+			0,
+			4,
+			4,
+			0
+		},
+		{
+			0,
+			3,
+			4,
+			0
+		},
+		{
+			0,
+			2,
+			4,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			8,
+			0,
+			"faxiv2_hard_1x1_2",
+			0,
+			9
+		},
+		{
+			7,
+			9,
+			"faxiv2_hard_1x1_3",
+			-13,
+			-14
+		},
+		{
+			4,
+			2,
+			"faxiv2_hard_3x1_1",
+			100,
+			24
+		},
+		{
+			3,
+			7,
+			"faxiv2_normal_2x2_5",
+			102,
+			-37
+		},
+		{
+			0,
+			9,
+			"faxiv2_hard_1x2_2",
+			5,
+			-18
+		},
+		{
+			0,
+			0,
+			"faxiv2_hard_2x1_3",
+			61,
+			35
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_faxiv2_hard",
+		45,
+		20,
+		-120,
+		-14,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {},
+	land_based = {},
+	chapter_strategy = {},
+	wall_prefab = {
+		{
+			8,
+			7,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			8,
+			6,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			8,
+			5,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			8,
+			4,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			8,
+			3,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			8,
+			2,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			7,
+			8,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			7,
+			7,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			7,
+			6,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			7,
+			5,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			7,
+			4,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			7,
+			3,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			7,
+			2,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			7,
+			1,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			6,
+			8,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			6,
+			7,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			6,
+			5,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			6,
+			4,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			6,
+			1,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			6,
+			0,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			5,
+			0,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			3,
+			0,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			2,
+			8,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			2,
+			7,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			2,
+			5,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			2,
+			4,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			2,
+			1,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			2,
+			0,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			1,
+			8,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			1,
+			7,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			1,
+			6,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			1,
+			5,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			1,
+			4,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			1,
+			3,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			1,
+			2,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			1,
+			1,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			0,
+			7,
+			"guangqiang",
+			"guangqiang"
+		},
+		{
+			0,
+			6,
 			"guangqiang",
 			"guangqiang"
 		},

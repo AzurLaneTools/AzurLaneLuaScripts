@@ -73,7 +73,9 @@ function slot0.InitClickEvent(slot0)
 	slot1 = slot0.longPressEvent
 
 	slot1:AddListener(function ()
-		uv0:OnLongPress()
+		if getProxy(ContextProxy):getCurrentContext().viewComponent.__cname == "NewMainScene" then
+			uv0:OnLongPress()
+		end
 	end)
 end
 

@@ -9,13 +9,21 @@ return {
 	desc = "战斗中我方旗舰获得一次预装填效果",
 	effect_list = {
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onFlagShip"
 			},
 			arg_list = {
-				buff_id = 200020,
-				target = "TargetSelf"
+				maxTargetNumber = 0,
+				target = "TargetSelf",
+				skill_id = 200022,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"PRE"
+				}
 			}
 		}
 	}

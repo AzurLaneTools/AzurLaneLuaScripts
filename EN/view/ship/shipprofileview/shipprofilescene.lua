@@ -804,6 +804,25 @@ function slot0.DestroySpinePainting(slot0)
 	slot0.preSkinId = nil
 end
 
+function slot0.onWeddingReview(slot0, slot1)
+	if slot0.l2dChar then
+		slot0.l2dChar:SetVisible(not slot1)
+		slot0.l2dChar:Reset()
+
+		if not slot1 then
+			onNextTick(function ()
+				uv0.l2dChar:UpdateAtomSource()
+			end)
+		else
+			slot0.l2dActioning = false
+			slot0.cvLoader.prevCvPath = nil
+
+			slot0:StopDailogue()
+			slot0.cvLoader:StopSound()
+		end
+	end
+end
+
 function slot0.DisplaySpinePainting(slot0, slot1)
 	setActive(slot0.spinePaintingRoot, slot1)
 	setActive(slot0.spinePaintingBgRoot, slot1)

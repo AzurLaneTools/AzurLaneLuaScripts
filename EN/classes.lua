@@ -392,7 +392,6 @@ RequestWebVoteInofCommand = import("controller.command.vote.RequestWebVoteInofCo
 VoteCommand = import("controller.command.vote.VoteCommand")
 WorldAchieveCommand = import("controller.command.world.WorldAchieveCommand")
 WorldActivateCommand = import("controller.command.world.WorldActivateCommand")
-WorldEnterCommand = import("controller.command.world.WorldEnterCommand")
 WorldFleetRedeployCommand = import("controller.command.world.WorldFleetRedeployCommand")
 WorldKillCommand = import("controller.command.world.WorldKillCommand")
 WorldMapOpCommand = import("controller.command.world.WorldMapOpCommand")

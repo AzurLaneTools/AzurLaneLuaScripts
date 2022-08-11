@@ -10,6 +10,7 @@ slot0.Battle.BattleUnitDetailView = slot6
 slot6.__name = "BattleUnitDetailView"
 slot6.DefaultActive = {}
 slot6.EnemyMarkList = {}
+slot6.HIGH_LIGHT_BUFF = {}
 slot6.PrimalAttr = {
 	"cannonPower",
 	"torpedoPower",
@@ -225,6 +226,15 @@ function slot6.updateBuffList(slot0)
 	for slot5, slot6 in pairs(slot1) do
 		if not slot0._buffList[slot5] then
 			slot0:addBuff(slot5, slot6)
+		else
+			slot7 = slot0._buffList[slot5]
+
+			if slot6._stack > 1 then
+				slot8 = slot7:Find("buff_stack")
+
+				setActive(slot8, true)
+				setText(slot8, "x" .. slot6._stack)
+			end
 		end
 	end
 
@@ -365,12 +375,15 @@ function slot6.addBuff(slot0, slot1, slot2)
 	Canvas.ForceUpdateCanvases()
 	setText(cloneTplTo(slot0._buffTpl, slot0._buffContainer):Find("buff_id"), "buff_" .. slot1)
 
-	if slot2._tempData.high_light then
-		slot4 = slot3:Find("high_light")
+	if table.contains(uv0.HIGH_LIGHT_BUFF, slot1) then
+		setActive(slot3:Find("high_light"), true)
+	end
+
+	if slot2._stack > 1 then
+		slot4 = slot3:Find("buff_stack")
 
 		setActive(slot4, true)
-
-		slot4:GetComponent(typeof(Image)).color = slot2._tempData.high_light
+		setText(slot4, "x" .. slot2._stack)
 	end
 
 	setActive(slot3, true)

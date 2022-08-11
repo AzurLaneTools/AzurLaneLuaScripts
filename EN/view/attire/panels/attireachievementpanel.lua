@@ -135,12 +135,10 @@ function slot0.OnInitItem(slot0, slot1)
 			table.insert(slot0, uv0.trophy.id)
 			uv0:UpdateSelected(true)
 		else
-			for slot4, slot5 in ipairs(slot0) do
-				if slot5 == uv0.trophy.id then
+			for slot4 = #slot0, 1, -1 do
+				if slot0[slot4] == uv0.trophy.id or Trophy.generateDummyTrophy(slot5):getConfig("target_type") == uv0.trophy:getConfig("target_type") then
 					table.remove(slot0, slot4)
 					uv0:UpdateSelected(false)
-
-					break
 				end
 			end
 		end
