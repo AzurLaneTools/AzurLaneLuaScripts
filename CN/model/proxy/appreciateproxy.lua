@@ -245,29 +245,9 @@ function slot0.addMangaIDToReadList(slot0, slot1)
 	else
 		table.insert(slot0.mangaReadIDList, slot1)
 	end
-
-	if IsUnityEditor then
-		slot2 = ""
-
-		for slot6, slot7 in ipairs(slot0.mangaReadIDList) do
-			slot2 = slot2 .. slot7 .. " ,"
-		end
-
-		print("After Add Manga Read ID List", slot2)
-	end
 end
 
 function slot0.initMangaReadIDList(slot0, slot1)
-	if IsUnityEditor then
-		slot2 = ""
-
-		for slot6, slot7 in ipairs(slot1) do
-			slot2 = slot2 .. slot7 .. " ,"
-		end
-
-		print("Server Manga Read ID List", slot2)
-	end
-
 	slot0.mangaReadIDList = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -291,16 +271,6 @@ function slot0.addMangaIDToLikeList(slot0, slot1)
 	else
 		table.insert(slot0.mangaLikeIDList, slot1)
 	end
-
-	if IsUnityEditor then
-		slot2 = ""
-
-		for slot6, slot7 in ipairs(slot0.mangaLikeIDList) do
-			slot2 = slot2 .. slot7 .. " ,"
-		end
-
-		print("After Add Manga Like ID List", slot2)
-	end
 end
 
 function slot0.removeMangaIDFromLikeList(slot0, slot1)
@@ -309,29 +279,9 @@ function slot0.removeMangaIDFromLikeList(slot0, slot1)
 	else
 		print("not exist mangaID:" .. slot1)
 	end
-
-	if IsUnityEditor then
-		slot2 = ""
-
-		for slot6, slot7 in ipairs(slot0.mangaLikeIDList) do
-			slot2 = slot2 .. slot7 .. " ,"
-		end
-
-		print("After Remove Manga Like ID List", slot2)
-	end
 end
 
 function slot0.initMangaLikeIDList(slot0, slot1)
-	if IsUnityEditor then
-		slot2 = ""
-
-		for slot6, slot7 in ipairs(slot1) do
-			slot2 = slot2 .. slot7 .. " ,"
-		end
-
-		print("Server Manga Like ID List", slot2)
-	end
-
 	slot0.mangaLikeIDList = {}
 
 	for slot5, slot6 in ipairs(slot1) do

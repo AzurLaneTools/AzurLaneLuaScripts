@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "不，你误会了。相比关心你，我更在意自己会不会被卷入她们引发麻烦的事件里。",
+			say = "不，你误会了。相比关心你，我更在意自己会不会被卷入她们引发的麻烦事件里。",
 			painting = {
 				alpha = 0.3,
 				time = 1

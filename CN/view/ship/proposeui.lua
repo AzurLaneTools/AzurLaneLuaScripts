@@ -68,6 +68,7 @@ function slot0.init(slot0)
 	slot0.skipBtn = slot0:findTF("skip_button")
 	slot0.actorPainting = nil
 	slot0.weddingReview = slot0.contextData.review
+	slot0.finishCallback = slot0.contextData.finishCallback
 	slot0.commonTF = GameObject.Find("OverlayCamera/Overlay/UIMain/common")
 	slot0.exchangePanel = slot0._tf:Find("exchange_panel")
 
@@ -422,6 +423,12 @@ function slot0.willExit(slot0)
 
 	if slot0.contextData.callback then
 		slot0.contextData.callback()
+	end
+
+	if slot0.finishCallback then
+		slot0.finishCallback()
+
+		slot0.finishCallback = nil
 	end
 end
 

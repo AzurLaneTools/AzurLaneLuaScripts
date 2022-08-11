@@ -288,9 +288,7 @@ function slot0.goWorldFunc(slot0)
 	getProxy(ContextProxy):getContextByMediator(MetaCharacterMediator).data.lastPageIndex = pg.m02:retrieveMediator("MetaCharacterMediator").viewComponent.curPageIndex
 
 	slot0:closeView()
-	pg.m02:sendNotification(GAME.ENTER_WORLD, {
-		inWorldBoss = true
-	})
+	slot0:sendNotification(GAME.GO_SCENE, SCENE.WORLDBOSS)
 end
 
 return slot0

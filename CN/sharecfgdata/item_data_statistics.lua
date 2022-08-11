@@ -173158,6 +173158,27 @@ _G.pg.base.item_data_statistics[59333] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59334] = {
+	display = "用于『环城之夜』复刻活动兑换，活动结束后将会消失",
+	name = "鹰羽",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59334,
+	is_world = 0,
+	icon = "Props/meifu2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",

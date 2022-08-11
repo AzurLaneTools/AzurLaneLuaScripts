@@ -19,8 +19,6 @@ function slot0.OnInit(slot0)
 	function slot0._scrollView.onUpdateItem(slot0, slot1)
 		uv0:onUpdateTask(slot0, slot1)
 	end
-
-	slot0:initItemFrame()
 end
 
 function slot0.onInitTask(slot0, slot1)
@@ -78,38 +76,6 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 
 	if slot3 then
 		slot3(slot0.taskVOs)
-	end
-end
-
-function slot0.checkActivityTask(slot0, slot1)
-	if slot1:isFinish() and not slot1:isReceive() then
-		return true
-	end
-
-	if slot0.itemTasks and table.contains(slot0.itemTasks, slot1.id) then
-		if slot0.gotFrameItem then
-			return false
-		elseif slot1:getConfig("sub_type") == 16 then
-			return false
-		end
-	end
-
-	return true
-end
-
-function slot0.initItemFrame(slot0)
-	if getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASKS) and #slot2 > 0 then
-		for slot6, slot7 in ipairs(slot2) do
-			if slot7:getConfig("config_client") then
-				slot8 = slot7:getConfig("config_client")
-				slot10 = slot8.frame_item_act and slot1:getActivityById(slot8.frame_item_act) or nil
-
-				if slot8.frame_item and (not slot10 or slot10:isEnd()) and slot7:getConfig("config_data") and #slot11 > 0 then
-					slot0.itemTasks = slot11
-					slot0.gotFrameItem = getProxy(AttireProxy).data.iconFrames[slot9]:getState() == AttireFrame.STATE_UNLOCK
-				end
-			end
-		end
 	end
 end
 

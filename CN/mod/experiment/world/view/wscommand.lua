@@ -109,7 +109,7 @@ function slot0.OpSwitchMap(slot0, slot1, slot2)
 	if not master:GetInMap() then
 		slot0:OpDone()
 		slot1:Apply()
-		slot3:TriggerAutoFight(slot5:CanAutoFight() and (slot3.isAutoSwitch or World.ReplacementMapType(slot4, slot5) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area")))
+		slot3:TriggerAutoFight(slot3.isAutoSwitch or World.ReplacementMapType(slot4, slot5) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area"))
 		slot0:Op("OpSetInMap", true, slot2)
 	elseif slot1.destMapId ~= slot5.id or slot1.destGridId ~= slot5.gid then
 		slot6 = {}
@@ -127,7 +127,10 @@ function slot0.OpSwitchMap(slot0, slot1, slot2)
 		end)
 		table.insert(slot6, function (slot0)
 			uv0:Apply()
-			uv1:TriggerAutoFight(uv1:GetActiveMap():CanAutoFight() and (uv1.isAutoSwitch or World.ReplacementMapType(uv1:GetActiveEntrance(), slot2) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area")))
+
+			slot2 = uv1:GetActiveMap()
+
+			uv1:TriggerAutoFight(uv1.isAutoSwitch or World.ReplacementMapType(uv1:GetActiveEntrance(), slot2) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area"))
 			assert(slot2, "active map not exist")
 			master:LoadMap(slot2, slot0)
 		end)

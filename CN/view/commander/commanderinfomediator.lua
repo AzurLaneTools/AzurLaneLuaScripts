@@ -114,6 +114,7 @@ function slot0.register(slot0)
 		slot8, slot9 = getProxy(SettingsProxy):GetCommanderPlaySortData()
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+			prevView = true,
 			maxCount = 10,
 			mode = CommandRoomScene.MODE_SELECT,
 			fleetType = CommandRoomScene.FLEET_TYPE_COMMON,

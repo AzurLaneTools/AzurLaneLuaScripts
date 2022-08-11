@@ -21100,3 +21100,11 @@ _G.pg.base.gametip.word_japanese = {
 _G.pg.base.gametip.avatarframe_got = {
 	tip = "已领取"
 }
+
+_G.pg.base.gametip.level_fleet_ship_desc = {
+	tip = "可出击舰队数： "
+}
+
+_G.pg.base.gametip.level_fleet_sub_desc = {
+	tip = "潜艇舰队数："
+}

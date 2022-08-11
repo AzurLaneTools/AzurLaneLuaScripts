@@ -134,7 +134,7 @@ function slot0.Show(slot0, slot1, slot2)
 
 	setActive(slot0.changeBtnDis, slot4)
 	setActive(slot0.changeBtnEn, not slot4)
-	setActive(slot0.obtainBtn, not slot0.skin:OwnShip() and slot0.skin.id ~= 801072)
+	setActive(slot0.obtainBtn, not slot0.skin:OwnShip())
 end
 
 function slot0.Flush(slot0, slot1, slot2)

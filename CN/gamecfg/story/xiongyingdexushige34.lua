@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "这个没当然没问题！加深与贵方的联系也是我此行的任务之一。",
+			say = "这个当然没问题！加深与贵方的联系也是我此行的任务之一。",
 			painting = {
 				alpha = 0.3,
 				time = 1

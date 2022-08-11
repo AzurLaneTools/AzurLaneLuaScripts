@@ -1780,7 +1780,24 @@ function slot0.DoBreakAction(slot0)
 	slot2, slot3 = slot0:SafeCheck()
 
 	if slot2 then
-		slot4 = ChapterOpCommand.PrepareChapterRetreat
+		function slot4(slot0)
+			slot1 = nil
+
+			seriesAsync({
+				function (slot0)
+					uv0:emit(LevelUIConst.ADD_MSG_QUEUE, slot0)
+				end,
+				function (slot0, slot1)
+					uv0 = slot1
+
+					ChapterOpCommand.PrepareChapterRetreat(slot0)
+				end,
+				function (slot0)
+					existCall(uv0)
+					existCall(uv1)
+				end
+			})
+		end
 
 		if slot3 == ChapterConst.ReasonVictory then
 			seriesAsync({

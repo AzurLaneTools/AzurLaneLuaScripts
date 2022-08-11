@@ -84,7 +84,7 @@ return {
 			actor = 307060,
 			side = 0,
 			dir = 1,
-			say = "哈哈~没想到{namecode:82}前辈也会有示弱的时候呀嘿嘿",
+			say = "哈哈~没想到大前辈也会有示弱的时候呀嘿嘿",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

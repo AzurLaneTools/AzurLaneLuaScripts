@@ -237,6 +237,12 @@ function slot0.InitUI(slot0)
 	slot0.toggleList = slot0:findTF("mask/list")
 	slot0.toggles = {}
 
+	setText(findTF(slot0.tfLimit, "text"), i18n("level_fleet_ship_desc"))
+
+	slot7 = "level_fleet_sub_desc"
+
+	setText(findTF(slot0.tfLimit, "text_sub"), i18n(slot7))
+
 	for slot7 = 0, slot0.toggleList.childCount - 1 do
 		table.insert(slot0.toggles, slot0.toggleList:Find("item" .. slot7 + 1))
 	end

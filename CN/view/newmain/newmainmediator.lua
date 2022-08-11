@@ -1,6 +1,6 @@
 slot0 = class("NewMainMediator", import("..base.ContextMediator"))
 slot0.GO_SCENE = "NewMainMediator:GO_SCENE"
-slot0.OPEN_MAIL = "NewMainMediator:OPEN_MAIN"
+slot0.OPEN_MAIL = "NewMainMediator:OPEN_MAIL"
 slot0.OPEN_NOTICE = "NewMainMediator:OPEN_NOTICE"
 slot0.GO_SNAPSHOT = "NewMainMediator:GO_SNAPSHOT"
 slot0.OPEN_COMMISION = "NewMainMediator:OPEN_COMMISION"
@@ -84,7 +84,8 @@ function slot0.register(slot0)
 	slot0:bind(uv0.GO_SNAPSHOT, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SNAPSHOT, {
 			skinId = uv0.viewComponent.iconView.ship.skinId,
-			live2d = uv0.viewComponent.paintingView:IsLive2DState()
+			live2d = uv0.viewComponent.paintingView:IsLive2DState(),
+			propose = uv0.viewComponent.iconView.propose
 		})
 	end)
 	slot0:bind(uv0.OPEN_MAIL, function (slot0)

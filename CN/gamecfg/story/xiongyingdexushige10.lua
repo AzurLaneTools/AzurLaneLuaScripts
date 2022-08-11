@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "如果在开会第一天就对外宣布发生了这么大的事故，接下来不论做什么大概都没发挽回风评了……",
+			say = "如果在开会第一天就对外宣布发生了这么大的事故，接下来不论做什么大概都没法挽回风评了……",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -352,7 +352,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			side = 2,
-			say = "佩萨格诺观察着天空与水面，达·芬奇忙一直在碌地调整着些什么。",
+			say = "佩萨格诺观察着天空与水面，达·芬奇一直在忙碌地调整着些什么。",
 			painting = {
 				alpha = 0.3,
 				time = 1
