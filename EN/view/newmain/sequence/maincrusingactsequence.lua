@@ -11,8 +11,7 @@ function slot0.Execute(slot0, slot1)
 		if PlayerPrefs.GetInt("cursing_first_enter_scene:" .. slot3.id, 0) == 0 then
 			table.insert(slot4, function (slot0)
 				PlayerPrefs.SetInt("cursing_first_enter_scene:" .. uv0.id, 1)
-				uv1:ShowWindow()
-				slot0()
+				uv1:ShowWindow(slot0)
 			end)
 		end
 	end
@@ -20,12 +19,15 @@ function slot0.Execute(slot0, slot1)
 	seriesAsync(slot4, slot1)
 end
 
-function slot0.ShowWindow(slot0)
+function slot0.ShowWindow(slot0, slot1)
 	pg.m02:sendNotification(GAME.LOAD_LAYERS, {
 		parentContext = getProxy(ContextProxy):getCurrentContext(),
 		context = Context.New({
 			mediator = CrusingWindowMediator,
-			viewComponent = CrusingWindowLayer
+			viewComponent = CrusingWindowLayer,
+			data = {
+				onClose = slot1
+			}
 		})
 	})
 end

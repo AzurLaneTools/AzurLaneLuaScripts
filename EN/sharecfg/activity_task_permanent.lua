@@ -341,7 +341,7 @@ pg.activity_task_permanent = {
 		over_pt = 0,
 		task_extra = "",
 		id = 6014,
-		activity_name = "Passionate Polaris",
+		activity_name = "Fubuki Halation",
 		over_task_id = "",
 		eliminate_task_id = {
 			35168,

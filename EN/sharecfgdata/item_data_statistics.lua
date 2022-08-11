@@ -164249,7 +164249,7 @@ _G.pg.base.item_data_statistics[59333] = {
 
 _G.pg.base.item_data_statistics[59334] = {
 	display = "Used to exchange for items during the \"Lights of Circle City Rerun Event\". Will be removed after the event ends. ",
-	name = "Eagle's Plume ",
+	name = "Eagle's Plume",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,

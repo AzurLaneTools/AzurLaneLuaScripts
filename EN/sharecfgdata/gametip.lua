@@ -17332,7 +17332,7 @@ _G.pg.base.gametip.meta_boss_unlock = {
 }
 
 _G.pg.base.gametip.word_take_effect = {
-	tip = "In Effect "
+	tip = " in Effect "
 }
 
 _G.pg.base.gametip.world_boss_challenge_cnt = {
@@ -17584,11 +17584,11 @@ _G.pg.base.gametip.charge_trade_no_error = {
 }
 
 _G.pg.base.gametip.world_reset_1 = {
-	tip = "Operation Siren resets in <color=#92fc63>$1</color> day(s) "
+	tip = "Operation Siren resets in <color=#92fc63>$1</color> day(s)"
 }
 
 _G.pg.base.gametip.world_reset_2 = {
-	tip = "Operation Siren resets in <color=#92fc63>$1</color> tomorrow "
+	tip = "Operation Siren resets tomorrow at <color=#92fc63>$1</color>"
 }
 
 _G.pg.base.gametip.world_reset_3 = {

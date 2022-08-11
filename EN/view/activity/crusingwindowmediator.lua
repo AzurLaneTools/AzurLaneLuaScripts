@@ -3,6 +3,8 @@ slot0.GO_CRUSING = "CrusingWindowMediator.GO_CRUSING"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.GO_CRUSING, function (slot0)
+		uv0.contextData.onClose = nil
+
 		uv0.viewComponent:closeView()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.CRUSING)
 	end)
@@ -10,6 +12,12 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {}
+end
+
+function slot0.remove(slot0)
+	if slot0.contextData.onClose then
+		slot0.contextData.onClose()
+	end
 end
 
 function slot0.handleNotification(slot0, slot1)
