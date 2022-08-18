@@ -164531,7 +164531,7 @@ _G.pg.base.item_data_statistics[59333] = {
 }
 
 _G.pg.base.item_data_statistics[59334] = {
-	display = "『서클 시티』 복각 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "『라이트 오브 서클 시티』 복각 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "독수리 깃털",
 	max_num = 0,
 	type = 98,
