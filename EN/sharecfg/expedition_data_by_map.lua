@@ -12532,6 +12532,138 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1670001] = {
+		map = 1670001,
+		name = "Operation Convergence|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-6",
+		enter_story = "YUANHUIDIANZUOZHAN1",
+		ani_name = "Map_1670001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4487,
+		ui_type = 1,
+		bg = "Map_1670001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1670002] = {
+		map = 1670002,
+		name = "Operation Convergence·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-4",
+		enter_story = "",
+		ani_name = "Map_1670001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4487,
+		ui_type = 1,
+		bg = "Map_1670001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1670001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1670003] = {
+		map = 1670003,
+		name = "Operation Convergence·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-4",
+		enter_story = "",
+		ani_name = "Map_1670001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4487,
+		ui_type = 1,
+		bg = "Map_1670001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1670001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -14868,6 +15000,9 @@ pg.expedition_data_by_map = {
 		1660012,
 		1660025,
 		1660026,
+		1670001,
+		1670002,
+		1670003,
 		2100000,
 		2100001,
 		2100010,

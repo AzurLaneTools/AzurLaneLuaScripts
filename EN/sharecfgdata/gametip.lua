@@ -10025,6 +10025,14 @@ _G.pg.base.gametip.summary_page_un_rearch = {
 	tip = "Unclaimed "
 }
 
+_G.pg.base.gametip.player_summary_from = {
+	tip = "Obtained from:"
+}
+
+_G.pg.base.gametip.player_summary_data = {
+	tip = "Obtained on:"
+}
+
 _G.pg.base.gametip.commander_exp_overflow_tip = {
 	tip = "The Meowfficer will receive wasted EXP due to going beyond the level cap. Would you like to continue?"
 }
@@ -10118,7 +10126,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Roma, Leonardo da Vinci and more!"
+	tip = "Rate UP for Brünhilde and Z16!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -20977,7 +20985,7 @@ _G.pg.base.gametip.five_shujuhuigu = {
 }
 
 _G.pg.base.gametip.five_shujuhuigu1 = {
-	tip = ""
+	tip = "$1"
 }
 
 _G.pg.base.gametip.littleChaijun_npc = {
@@ -21252,7 +21260,7 @@ _G.pg.base.gametip.technology_mission_unfinish = {
 }
 
 _G.pg.base.gametip.word_chinese = {
-	tip = ""
+	tip = "中文"
 }
 
 _G.pg.base.gametip.word_japanese_2 = {
@@ -21267,10 +21275,54 @@ _G.pg.base.gametip.avatarframe_got = {
 	tip = "Owned"
 }
 
+_G.pg.base.gametip.item_is_max_cnt = {
+	tip = "You cannot obtain more of this."
+}
+
 _G.pg.base.gametip.level_fleet_ship_desc = {
 	tip = "Deployable Fleets:"
 }
 
 _G.pg.base.gametip.level_fleet_sub_desc = {
 	tip = "Sub Fleets:"
+}
+
+_G.pg.base.gametip.summerland_tip = {
+	tip = {
+		{
+			info = [[
+- Event Overview -
+The Manjuu Waterpark event is available between <color=#92fc63>August 18th and August 31st</color>.
+
+- Quick Navigation -
+· Minigame: takes you to the Manjuu Ice Cream minigame.
+· Event Missions: brings up the event mission screen.
+· Data Review: takes you to the player anniversary statistics screen.
+· Outfit Store: takes you to the store where you can purchase skins.
+· Limited Construction: takes you to the event build screen.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.icecreamgame_tip = {
+	tip = {
+		{
+			info = [[
+- Manjuu Ice Cream Overview -
+Match the correct toppings and ice cream flavors with what the customers order by tapping on the ingredients. Matching correctly scores you points. Try to get as high a score as possible before the timer runs out.
+Play the minigame for 7 days during the event to receive a special chat frame.
+
+- How to Play -
+1. Customers appear and ask for a particular combination of flavors and toppings.
+2. Tap the correct ingredients on the bottom of the screen to create their desired ice cream. The ice cream will be handed to them after you've chosen the same number of ingredients as they ask for, then you'll receive a new order.
+3. Your score and the customer's reaction depend on if you got their order correct or not. How long it took you to pick the toppings and flavors and if they were the right ones or not also influence your score.
+4. The minigame ends once the timer reaches 0 or when you quit the game early.
+
+- Combo Bonuses -
+· When you get a customer's order exactly right, there is a chance that the countdown timer for the next ice cream order will move slower for 4 seconds. This bonus cannot activate again until 5 seconds after it expires.
+· When you get 2 orders exactly right in a row, 2 seconds will be added to the next order countdown timer.
+· When you get 2 orders exactly right in a row from the same customer, you gain twice as many points from the next customer. This bonus can only activate once per unique customer.]]
+		}
+	}
 }

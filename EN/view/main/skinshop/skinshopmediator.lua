@@ -45,9 +45,10 @@ function slot0.register(slot0)
 			count = slot2
 		})
 	end)
-	slot0:bind(uv0.GO_SHOPS_LAYER, function ()
+	slot0:bind(uv0.GO_SHOPS_LAYER, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
-			warp = NewShopsScene.TYPE_ACTIVITY
+			warp = NewShopsScene.TYPE_ACTIVITY,
+			actId = slot1
 		})
 	end)
 	slot0:bind(uv0.OPEN_SCENE, function (slot0, slot1)

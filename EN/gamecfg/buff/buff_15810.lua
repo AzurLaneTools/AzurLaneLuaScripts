@@ -46,11 +46,10 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onUpdate"
+				"onStartGame"
 			},
 			arg_list = {
 				quota = 1,
-				time = 20,
 				target = "TargetSelf",
 				skill_id = 15810
 			}

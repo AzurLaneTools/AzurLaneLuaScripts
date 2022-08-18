@@ -1345,7 +1345,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41023] = {
-		desc_world = "When assigned as the Command Cat: increases the OXY of your SSs by 5.",
+		desc_world = "When assigned as the Staff Cat: increases the OXY of your SSs by 5.",
 		name = "Champion of the Sea",
 		next_id = 0,
 		exp = 0,

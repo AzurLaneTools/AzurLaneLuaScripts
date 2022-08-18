@@ -743,6 +743,30 @@ pg.equip_skin_theme_template = {
 			617
 		}
 	},
+	[37] = {
+		id = 37,
+		name = "Iron Blood Icons",
+		ids = {
+			620,
+			621,
+			622,
+			623,
+			624,
+			625,
+			626,
+			627,
+			628,
+			629,
+			630,
+			631,
+			632,
+			633,
+			634,
+			635,
+			636,
+			637
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -815,6 +839,7 @@ pg.equip_skin_theme_template = {
 		34,
 		35,
 		36,
+		37,
 		101,
 		102,
 		199

@@ -45,6 +45,15 @@ pg.item_data_frame = {
 		desc = "Granted to all Commanders who have defended the port for three years.\n (earned by participating in the 3rd Anniversary limited event)",
 		scene = {}
 	},
+	[105] = {
+		time_limit_type = 0,
+		name = "4th Anniversary",
+		gain_by = "",
+		id = 105,
+		time_second = 0,
+		desc = "<color=#ffffff>Granted to all Commanders who have defended the port for four years.</color>\nEarned by participating in the 4th Anniversary limited event.",
+		scene = {}
+	},
 	[106] = {
 		time_limit_type = 0,
 		name = "Gunslinger's Glory",
@@ -174,7 +183,7 @@ pg.item_data_frame = {
 	[302] = {
 		time_limit_type = 0,
 		name = "The Iron Blood Oath",
-		gain_by = "铁血、音符与誓言",
+		gain_by = "Scherzo of Iron and Blood",
 		id = 302,
 		time_second = 0,
 		desc = "<color=#ffffff>\"Red blood and cold iron temper our indomitable will.\"</color>\nObtained from the \"Scherzo of Iron and Blood\" event.",
@@ -183,7 +192,7 @@ pg.item_data_frame = {
 	[303] = {
 		time_limit_type = 0,
 		name = "Wings of Freedom",
-		gain_by = "箱庭疗法",
+		gain_by = "Ashen Simulacrum ",
 		id = 303,
 		time_second = 0,
 		desc = "<color=#ffffff>\"For our azure freedom! God bless the Eagle Union!\"</color>\nObtained from the \"Ashen Simulacrum\" event.",
@@ -192,7 +201,7 @@ pg.item_data_frame = {
 	[304] = {
 		time_limit_type = 0,
 		name = "Insignia of Glory",
-		gain_by = "神圣的悲喜剧",
+		gain_by = "Empyreal Tragicomedy ",
 		id = 304,
 		time_second = 0,
 		desc = "<color=#ffffff>\"Display the glory and dignity of the Sardegna Empire to the whole world!\"</color>\nObtained from the \"Empyreal Tragicomedy\" event.",
@@ -201,7 +210,7 @@ pg.item_data_frame = {
 	[305] = {
 		time_limit_type = 0,
 		name = "Sakura Ceremony ",
-		gain_by = "浮樱影华",
+		gain_by = "Swirling Cherry Blossoms",
 		id = 305,
 		time_second = 0,
 		desc = "<color=#ffffff>\"With this offering, we pray for a bright future for the Sakura Empire.\"</color>\nObtained from the \"Swirling Cherry Blossoms\" event. ",
@@ -210,7 +219,7 @@ pg.item_data_frame = {
 	[306] = {
 		time_limit_type = 0,
 		name = "Proof of Solidarity",
-		gain_by = "北境序曲",
+		gain_by = "Northern Overture ",
 		id = 306,
 		time_second = 0,
 		desc = "<color=#ffffff>\"Unite, comrades! The world is ours to change!\"</color>\nObtained from the \"Northern Overture\" event. ",
@@ -219,7 +228,7 @@ pg.item_data_frame = {
 	[307] = {
 		time_limit_type = 0,
 		name = "Wings of Lightning ",
-		gain_by = "微层混合",
+		gain_by = "Microlayer Medley ",
 		id = 307,
 		time_second = 0,
 		desc = "<color=#ffffff>\"O, fearless thunderbolts of liberty! Guide us through the darkness!\"</color> \nObtained from the \"Microlayer Medley\" event. ",
@@ -228,7 +237,7 @@ pg.item_data_frame = {
 	[308] = {
 		time_limit_type = 0,
 		name = "Iris Canto",
-		gain_by = "穹顶下的圣咏曲",
+		gain_by = "Skybound Oratorio ",
 		id = 308,
 		time_second = 0,
 		desc = "<color=#ffffff>\"May numerous hymns cross the seas to reach the skies... Vive la Iris!\"</color>\nObtained from the \"Skybound Oratorio\" event.",
@@ -237,7 +246,7 @@ pg.item_data_frame = {
 	[309] = {
 		time_limit_type = 0,
 		name = "Royal Crown",
-		gain_by = "永夜幻光",
+		gain_by = "Aurora Noctis ",
 		id = 309,
 		time_second = 0,
 		desc = "<color=#ffffff>\"For the glory of Her Majesty and the Royal Navy!\"</color>\nObtained from the \"Aurora Noctis\" event.",
@@ -255,7 +264,7 @@ pg.item_data_frame = {
 	[311] = {
 		time_limit_type = 0,
 		name = "Illusory Butterfly",
-		gain_by = "蝶海梦花",
+		gain_by = "Dreamwaker's Butterfly ",
 		id = 311,
 		time_second = 0,
 		desc = "<color=#ffffff>\"May the light of hope shine forevermore, whether in reality or in a dream.\"</color>\nObtained from \"Dreamwaker's Butterfly\" event.",
@@ -264,7 +273,7 @@ pg.item_data_frame = {
 	[312] = {
 		time_limit_type = 0,
 		name = "Weapon of the Iron Blood ",
-		gain_by = "负象限作战",
+		gain_by = "Inverted Orthant ",
 		id = 312,
 		time_second = 0,
 		desc = "<color=#ffffff>\"May my red blood flow into the frigid mold of war.\"</color>\nObtained from the \"Inverted Orthant\" event.",
@@ -273,7 +282,7 @@ pg.item_data_frame = {
 	[313] = {
 		time_limit_type = 0,
 		name = "Seal of Dawn's Rime",
-		gain_by = "破晓冰华",
+		gain_by = "Khorovod of Dawn's Rime",
 		id = 313,
 		time_second = 0,
 		desc = "<color=#ffffff>\"The Sirens' secrets shall dance in the palm of our hand!\"</color> \nObtained from the \"Khorovod of Dawn's Rime\" event.",
@@ -282,7 +291,7 @@ pg.item_data_frame = {
 	[314] = {
 		time_limit_type = 0,
 		name = "Pride of Sardegna",
-		gain_by = "复兴的赞美诗",
+		gain_by = "Daedalian Hymn ",
 		id = 314,
 		time_second = 0,
 		desc = "<color=#ffffff>\"Come, and become a pillar for our reborn empire! Let us seize glory together! \"</color> \nObtained from the \"Daedalian Hymn\" event.",
@@ -291,7 +300,7 @@ pg.item_data_frame = {
 	[315] = {
 		time_limit_type = 0,
 		name = "Voltaic Lightwings",
-		gain_by = "镜位螺旋",
+		gain_by = "Mirror Involution ",
 		id = 315,
 		time_second = 0,
 		desc = "<color=#ffffff>The indomitable Black Dragon of the Eagle Union has arrived! Together, let us shake the foundations of this world!</color>  Obtained from the \"Mirror involution\" event.",
@@ -300,7 +309,7 @@ pg.item_data_frame = {
 	[316] = {
 		time_limit_type = 0,
 		name = "Ryugu's Acknowledgment",
-		gain_by = "碧海光粼",
+		gain_by = "Upon the Shimmering Blue ",
 		id = 316,
 		time_second = 0,
 		desc = "<color=#ffffff>\"Well, this is SOME kind of treasure, I suppose.\"</color>\nObtained from the \"Upon the Shimmering Blue\" event.",
@@ -309,7 +318,7 @@ pg.item_data_frame = {
 	[317] = {
 		time_limit_type = 0,
 		name = "Mark of Transcendence",
-		gain_by = "逆转彩虹之塔",
+		gain_by = "Tower of Transcendence",
 		id = 317,
 		time_second = 0,
 		desc = "<color=#ffffff>A bridge that spans beyond reality. Is it Heaven or Hell that awaits us on the other side?</color>Obtained from the \"Tower of Transcendence\" event.",
@@ -318,7 +327,7 @@ pg.item_data_frame = {
 	[318] = {
 		time_limit_type = 0,
 		name = "Seal of the Polar Star",
-		gain_by = "深度回音",
+		gain_by = "Abyssal Refrain",
 		id = 318,
 		time_second = 0,
 		desc = "<color=#ffffff>An award given by Sovetsky Soyuz to soldiers who went above and beyond.</color> Obtainable in the Abyssal Refrain event.",
@@ -327,7 +336,7 @@ pg.item_data_frame = {
 	[319] = {
 		time_limit_type = 0,
 		name = "Singularity at Rainbow's End",
-		gain_by = "虹彩的终幕曲",
+		gain_by = "Rondo at Rainbow's End ",
 		id = 319,
 		time_second = 0,
 		desc = "<color=#ffffff>Beyond the open door lies a new future.</color>\nObtained from the \"Rondo at Rainbow's End\" event",
@@ -336,7 +345,7 @@ pg.item_data_frame = {
 	[320] = {
 		time_limit_type = 0,
 		name = "Seal of the Radiant Court",
-		gain_by = "泠誓光庭",
+		gain_by = "Pledge of the Radiant Court ",
 		id = 320,
 		time_second = 0,
 		desc = "<color=#ffffff>War and time may take their tolls, but our pledges will shine on like stars in the night sky. </color>\nObtained from the \"Pledge of the Radiant Court\" event.",
@@ -345,7 +354,7 @@ pg.item_data_frame = {
 	[321] = {
 		time_limit_type = 0,
 		name = "Splendor of Sardegna",
-		gain_by = "雄鹰的叙事歌",
+		gain_by = "Aquilifer's Ballade",
 		id = 321,
 		time_second = 0,
 		desc = "<color=#ffffff>Though its path may be filled with thorns, the aquila of Sette Colli still spreads its wings and takes flight.</color>\nObtained from the \"Aquilifer's Ballade\" event.",
@@ -387,12 +396,22 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Let your love for delicious pizza be known by all!</color>\n―Obtained in the \"Manjuu Pizzeria\" event. ",
 		scene = {}
 	},
+	[601] = {
+		time_limit_type = 0,
+		name = "A Song of Ice and Cream",
+		gain_by = "",
+		id = 601,
+		time_second = 0,
+		desc = "<color=#ffffff>I scream, you scream, we all scream for ice cream.</color>\nObtained from the \"Manjuu Ice Cream\" event.",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
 		103,
 		104,
+		105,
 		106,
 		201,
 		202,
@@ -430,6 +449,7 @@ pg.item_data_frame = {
 		406,
 		411,
 		412,
-		501
+		501,
+		601
 	}
 }

@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 4422
+		act_id = 30849
 	},
 	ACTIVITY_BOSS_PT_ID = {
 		act_id = 4437
@@ -845,5 +845,11 @@ pg.activity_const = {
 	},
 	SPECIAL_WEAPON_ACT_ID = {
 		act_id = 4426
+	},
+	MINIGAME_ICECREAM = {
+		act_id = 4495
+	},
+	ISUZU_SPORTS_SKIN_ID = {
+		act_id = 4496
 	}
 }

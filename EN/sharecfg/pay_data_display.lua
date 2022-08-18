@@ -6778,6 +6778,110 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[138] = {
+		subject = "4th Anniversary Lucky Box",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_arg = 1,
+		name = "4th Anniversary Lucky Box",
+		name_display = "4th Anniversary Lucky Box",
+		extra_gem = 0,
+		id = 138,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai76",
+		id_str = "com.yostaren.azurlane.diamond171",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		airijp_id = "com.yostaren.azurlane.diamond171",
+		extra_service_item = {
+			{
+				2,
+				69975,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69975,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	all = {
 		1,
 		2,
@@ -6856,6 +6960,7 @@ pg.pay_data_display = {
 		134,
 		135,
 		136,
-		137
+		137,
+		138
 	}
 }

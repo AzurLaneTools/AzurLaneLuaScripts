@@ -1034,7 +1034,6 @@ pg.mini_game = {
 	{
 		view_name = "CurlingGameView",
 		name = "冰壶小游戏",
-		simple_config_data = "",
 		type = 2,
 		mediator_name = "MiniHubMediator",
 		config_csv_key = "",
@@ -1042,7 +1041,47 @@ pg.mini_game = {
 		config_csv = "",
 		id = 33,
 		hub_id = 27,
-		request_data = 0
+		request_data = 0,
+		simple_config_data = {
+			skin_shop_id = 2020772,
+			drop = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					1
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					7,
+					202072,
+					1
+				}
+			}
+		}
 	},
 	{
 		view_name = "Shrine2022View",
@@ -1177,6 +1216,57 @@ pg.mini_game = {
 		request_data = 1,
 		simple_config_data = {}
 	},
+	{
+		view_name = "IceCreamGameView",
+		name = "冰淇淋小游戏",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 41,
+		hub_id = 33,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					2,
+					59840,
+					1
+				},
+				{
+					15,
+					104,
+					1
+				},
+				{
+					14,
+					105,
+					1
+				},
+				{
+					14,
+					601,
+					1
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1217,6 +1307,7 @@ pg.mini_game = {
 		37,
 		38,
 		39,
-		40
+		40,
+		41
 	}
 }

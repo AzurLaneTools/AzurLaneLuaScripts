@@ -40,6 +40,7 @@ function slot0.OnInit(slot0)
 				slot5 = uv2.summaryInfoVO.furnitures[slot4]
 				slot6 = pg.furniture_data_template[slot4]
 
+				assert(slot6, slot4)
 				GetImageSpriteFromAtlasAsync("furnitureicon/" .. slot6.icon, "", slot2:Find("icon/Image"), true)
 				setGray(slot2:Find("icon"), not slot5)
 				setText(slot2:Find("name/Text"), HXSet.hxLan(slot6.name))

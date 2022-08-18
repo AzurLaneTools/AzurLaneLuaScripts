@@ -230,5 +230,47 @@ pg.ship_spine_shift = {
 			-20,
 			0
 		}
+	},
+	bulvxieer = {
+		spine = "bulvxieer",
+		mainui_shift = {
+			-25,
+			0
+		}
+	},
+	bulvxieer_2 = {
+		spine = "bulvxieer_2",
+		mainui_shift = {
+			-10,
+			10
+		}
+	},
+	u96_3 = {
+		spine = "u96_3",
+		mainui_shift = {
+			-21,
+			7
+		}
+	},
+	wushiling_6 = {
+		spine = "wushiling_6",
+		mainui_shift = {
+			-8,
+			0
+		}
+	},
+	z16_2 = {
+		spine = "z16_2",
+		mainui_shift = {
+			-6,
+			5
+		}
+	},
+	jiluofu_4 = {
+		spine = "jiluofu_4",
+		mainui_shift = {
+			-5,
+			0
+		}
 	}
 }

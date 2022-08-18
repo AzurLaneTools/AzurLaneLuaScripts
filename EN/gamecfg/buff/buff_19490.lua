@@ -24,11 +24,37 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onChargeWeaponFire"
+				"onStartGame"
 			},
 			arg_list = {
-				buff_id = 19491,
-				target = "TargetSelf"
+				buff_id = 18490,
+				minTargetNumber = 1,
+				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"MarcoPoloPowerUp"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				buff_id = 19493,
+				maxTargetNumber = 0,
+				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"MarcoPoloPowerUp"
+				}
 			}
 		},
 		{

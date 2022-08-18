@@ -1669,6 +1669,36 @@ pg.strategy_data_template = {
 		desc = "Turn your back on the dying of the light. Your Flagship starts with her first attack pre-loaded.",
 		arg = {}
 	},
+	[200023] = {
+		buff_id = 0,
+		name = "Air Raids",
+		type = 10,
+		iconSize = "",
+		id = 200023,
+		icon = "200023",
+		desc = "Experiment Condition: you may be hit by air raids while moving on the map. The chance of this happening decreases the higher your recon value is.",
+		arg = {}
+	},
+	[200024] = {
+		buff_id = 0,
+		name = "Ambushes",
+		type = 10,
+		iconSize = "",
+		id = 200024,
+		icon = "200024",
+		desc = "Experiment Condition: you may encounter ambushes while moving on the map. The chance of this happening decreases the higher your recon value is.",
+		arg = {}
+	},
+	[200025] = {
+		buff_id = 0,
+		name = "Pursuits",
+		type = 10,
+		iconSize = "",
+		id = 200025,
+		icon = "200025",
+		desc = "Experiment Condition: some enemy fleets may pursue you on the map.",
+		arg = {}
+	},
 	all = {
 		1,
 		2,
@@ -1832,6 +1862,9 @@ pg.strategy_data_template = {
 		200013,
 		200015,
 		200016,
-		200019
+		200019,
+		200023,
+		200024,
+		200025
 	}
 }

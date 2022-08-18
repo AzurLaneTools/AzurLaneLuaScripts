@@ -283,6 +283,13 @@ function slot1.DescCDTime(slot0, slot1)
 	return string.format("%02d:%02d:%02d", math.floor(slot1 / 3600), math.floor(slot1 / 60), slot1 % 60)
 end
 
+function slot1.DescCDTimeForMinute(slot0, slot1)
+	slot2 = math.floor(slot1 / 3600)
+	slot1 = slot1 % 3600
+
+	return string.format("%02d:%02d", math.floor(slot1 / 60), slot1 % 60)
+end
+
 function slot1.parseTimeFrom(slot0, slot1)
 	return math.floor(slot1 / uv0), math.fmod(math.floor(slot1 / 3600), 24), math.fmod(math.floor(slot1 / 60), 60), math.fmod(slot1, 60)
 end

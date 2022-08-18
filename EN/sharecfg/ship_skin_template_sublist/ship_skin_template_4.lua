@@ -1,115 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_4 = {
-	[107031] = {
-		ship_group = 10703,
-		name = "Seven Seas of Rest",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 107031,
-		group_index = 1,
-		prefab = "salatuojia_2",
-		painting = "salatuojia_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70007,
-		shop_type_id = 6,
-		air_bomb_skin = "",
-		illustrator = 10,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Even if we don't get to relax on holiday, it's always good to have a swimsuit! Ok, let's go! Are you ready to swim?",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.13,
-					3.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.13,
-					3.07,
-					0
-				}
-			},
-			plane = {
-				{
-					0.2,
-					1.04,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							2.26,
-							-0.6
-						}
-					}
-				}
-			}
-		}
-	},
 	[107032] = {
 		ship_group = 10703,
 		name = "Hibiscus-scented Idol",
@@ -2788,6 +2678,109 @@ pg.ship_skin_template_4 = {
 			}
 		}
 	},
+	[107073] = {
+		ship_group = 10707,
+		name = "Cheering Justice!",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "132",
+		id = 107073,
+		group_index = 3,
+		prefab = "dahuangfeng_4",
+		painting = "dahuangfeng_4",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70732,
+		shop_type_id = 13,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Let's keep it up, everyone! One more point, and we can make a comeback!!! ...Hah... *gulp gulp*... Whew~! Thanks a billion for the drink, Commander! And thanks for watching over us as well!",
+		voice_actor = 24,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.07,
+					1.285,
+					0
+				}
+			},
+			plane = {
+				{
+					0.062,
+					0.096,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.696,
+							1.875,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107080] = {
 		ship_group = 10708,
 		name = "Wasp",
@@ -3306,6 +3299,109 @@ pg.ship_skin_template_4 = {
 						{
 							-0.41,
 							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107094] = {
+		ship_group = 10709,
+		name = "Detective Essex",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "154",
+		id = 107094,
+		group_index = 4,
+		prefab = "aisaikesi_6",
+		painting = "aisaikesi_6",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70734,
+		shop_type_id = 9999,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "My eagle has gone missing... Just as Enterprise said, there's something strange going on in this port–– Wait, I definitely smell a case in the making! Commander, let's get to the bottom of this together!",
+		voice_actor = 149,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.761,
+							1.98,
 							0
 						}
 					}

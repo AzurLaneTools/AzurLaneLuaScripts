@@ -2459,6 +2459,114 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102058] = {
+		ship_group = 10205,
+		name = "Miracle in White",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102058,
+		group_index = 8,
+		prefab = "hailunna_h",
+		painting = "hailunna_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9998,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Wh-what do you think, Commander? Does it suit me? ...I never could've imagined getting to wear this even in my dreams, let alone experience the bliss I feel now... Thank you so, so much.",
+		voice_actor = 34,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.771,
+					0.975,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.777,
+					0.983,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.969,
+					1.128,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.825,
+							1.901,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102059] = {
 		ship_group = 10205,
 		name = "Helena (Retrofit)",

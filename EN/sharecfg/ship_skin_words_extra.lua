@@ -10339,6 +10339,120 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[404050] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		profile = "",
+		expedition = "",
+		login = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		feeling1 = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 404050,
+		detail = "",
+		win_mvp = {
+			{
+				1100,
+				"Even should I sortie a thousand times, I shall not fall short of my expectations. Because they are your expectations, Commander.."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I admire your determination to cross over... but our time has not yet come. Let us retreat."
+			}
+		},
+		home = {
+			{
+				1100,
+				"So you've returned safely. The fact that you've returned from countless battles unscathed proves that you are no ordinary human. Hehehe."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"That pen looks like it's been pretty well-used... Ahem, Commander. Would you mind telling me the story behind that pen? I'd really like to know...|Rather than questions such as, \"Does Valhalla exist,\" or \"Where do souls go after death?\"... What matters to me is that I hold the hand of my beloved as long as my heart still beats."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I want you to share your feelings with me, whether they are good or bad."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"*sigh*... Just do what you want..."
+			}
+		}
+	},
+	[403020] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		home = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 403020,
+		login = {
+			{
+				1100,
+				"Heheh☆ Now begins another day of lovey-dovey cuddling and flirting together♪♪"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Heheh☆ Hey, Eugen~ Look who's the MVP~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, I know you gave me this ring 'cause you love me! I love you super duper ultra much too! Heheh☆"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You don't have to be as flirty as Eugen, buuut... Heheh☆ Just don't become as nitpicky as Hipper, Commander.|Plot a course for my Commander aaand... full speed ahead! Heheh☆ You can't escape my love!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"It's me, the girl who's so in love with you it's literally impossible to love you any more than this~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh, Commander~ I'm gonna close my eyes for you, 'kay?"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -10496,6 +10610,8 @@ pg.ship_skin_words_extra = {
 		608020,
 		601090,
 		601080,
-		603050
+		603050,
+		404050,
+		403020
 	}
 }

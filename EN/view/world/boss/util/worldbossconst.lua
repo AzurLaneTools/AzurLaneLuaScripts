@@ -284,4 +284,28 @@ function slot0.AnyArchivesBossCanGetAward()
 	end)
 end
 
+function slot0.GetCommissionSceneMetaBossBtnState()
+	if not nowWorld() or not slot0:IsActivate() then
+		return CommissionMetaBossBtn.STATE_LOCK
+	end
+
+	if not slot0:GetBossProxy() or not slot1.isSetup or not slot1:IsOpen() then
+		return CommissionMetaBossBtn.STATE_LOCK
+	end
+
+	if slot1:GetSelfBoss() and WorldBossConst.GetAutoBattleState(slot2) == WorldBossConst.AUTO_BATTLE_STATE_STARTING then
+		if WorldBossConst.GetAutoBattleLeftTime() > 0 then
+			return CommissionMetaBossBtn.STATE_AUTO_BATTLE
+		else
+			return CommissionMetaBossBtn.STATE_FINSH_BATTLE
+		end
+	end
+
+	if slot1:NeedTip() or WorldBossConst.AnyArchivesBossCanGetAward() then
+		return CommissionMetaBossBtn.STATE_GET_AWARDS
+	end
+
+	return CommissionMetaBossBtn.STATE_NORMAL
+end
+
 return slot0

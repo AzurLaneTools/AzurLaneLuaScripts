@@ -1,16 +1,21 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4482",
 		id = 1,
-		pic = "temp1",
-		type = 3,
+		pic = "temp6",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
 					2022,
 					8,
-					11
+					18
 				},
 				{
 					0,
@@ -21,8 +26,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					9,
-					7
+					8,
+					31
 				},
 				{
 					23,
@@ -33,19 +38,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4487",
 		id = 2,
-		pic = "temp2",
-		type = 2,
-		param = {
-			"scene level",
-			{}
-		},
+		pic = "temp1",
+		type = 3,
 		time = {
 			{
 				{
 					2022,
 					8,
-					12
+					18
 				},
 				{
 					0,
@@ -57,7 +59,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					21
+					31
 				},
 				{
 					23,
@@ -69,58 +71,211 @@ pg.activity_banner = {
 	},
 	{
 		id = 3,
+		pic = "temp2",
+		type = 2,
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 4,
 		pic = "temp3",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		param = "4476",
-		time = "stop",
-		type = 3,
-		id = 4,
-		pic = "temp4"
-	},
-	{
-		param = "4470",
-		time = "stop",
-		type = 3,
+		param = "4496",
 		id = 5,
-		pic = "temp5"
+		pic = "temp4",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		id = 6,
-		pic = "temp6",
-		time = "stop",
+		pic = "temp7",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene court yard"
+		},
+		time = {
 			{
-				wrap = 2
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
 	{
 		id = 7,
-		pic = "temp7",
-		time = "stop",
+		pic = "temp5",
 		type = 2,
 		param = {
-			"scene court yard"
+			"scene get boat",
+			{
+				page = 5
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
 		id = 8,
 		pic = "temp8",
-		time = "stop",
 		type = 2,
 		param = {
-			"scene shop",
+			"scene court yard"
+		},
+		time = {
 			{
-				warp = "shopstreet"
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -133,8 +288,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					7,
-					28
+					8,
+					18
 				},
 				{
 					0,
@@ -146,7 +301,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					10
+					31
 				},
 				{
 					23,
@@ -172,8 +327,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					4,
-					28
+					8,
+					18
 				},
 				{
 					0,
@@ -184,8 +339,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					5,
-					12
+					8,
+					31
 				},
 				{
 					23,
@@ -196,17 +351,17 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[3] = {
-			1,
-			4,
-			5
-		},
 		[2] = {
-			2,
+			1,
 			3,
+			4,
 			6,
 			7,
 			8
+		},
+		[3] = {
+			2,
+			5
 		},
 		[9] = {
 			9

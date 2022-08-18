@@ -87,22 +87,24 @@ function slot0.updateLogic(slot0)
 		end
 
 		slot0._tf.localScale = (slot1.scale or uv0.normalScale) * Vector2.one
+		slot5 = slot0.pathFinder:getEdge(slot1, slot2)
 
 		LeanTween.value(slot0._go, 0, 1, slot4):setOnUpdate(System.Action_float(function (slot0)
-			uv0._tf.anchoredPosition = Vector2.Lerp(uv1, uv2, slot0)
-			slot1 = math.lerp(uv1.scale or uv3.normalScale, uv2.scale or uv3.normalScale, slot0) * Vector2.one
-			slot2 = uv1.x < uv2.x and 1 or -1
+			slot1 = nil
+			uv1._tf.anchoredPosition = (not uv0 or not uv0.bezier_control_point or uv2.GetBeziersPoints(uv3, uv4, uv1.pathFinder:getPoint(uv0.bezier_control_point), slot0)) and Vector2.Lerp(uv3, uv4, slot0)
+			slot2 = math.lerp(uv3.scale or uv2.normalScale, uv4.scale or uv2.normalScale, slot0) * Vector2.one
+			slot3 = uv3.x < uv4.x and 1 or -1
 
-			if uv1.id == uv2.id then
-				slot2 = math.random(0, 1) == 1 and 1 or -1
+			if uv3.id == uv4.id then
+				slot3 = math.random(0, 1) == 1 and 1 or -1
 			end
 
-			if uv1.fixedDirection then
-				slot2 = math.sign(uv1.fixedDirection)
+			if uv3.fixedDirection then
+				slot3 = math.sign(uv3.fixedDirection)
 			end
 
-			slot1.x = math.abs(slot1.x) * slot2
-			uv0._tf.localScale = slot1
+			slot2.x = math.abs(slot2.x) * slot3
+			uv1._tf.localScale = slot2
 		end)):setOnComplete(System.Action(function ()
 			uv0.currentPoint = uv0.targetPoint
 			slot0 = uv0.currentPoint.id
@@ -144,6 +146,10 @@ function slot0.updateLogic(slot0)
 	elseif slot0.state == uv0.ShipState.Touch then
 		slot0:onClickShip()
 	end
+end
+
+function slot0.GetBeziersPoints(slot0, slot1, slot2, slot3)
+	return slot0:Clone():Mul((1 - slot3) * (1 - slot3)):Add(slot2:Clone():Mul(2 * slot3 * (1 - slot3))):Add(slot1:Clone():Mul(slot3 * slot3))
 end
 
 return slot0

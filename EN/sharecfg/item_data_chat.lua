@@ -32,6 +32,14 @@ pg.item_data_chat = {
 		desc = "Granted to all Commanders who have defended the port for three years.\n <color=#A7A7AAFF>earned by participating in the 3rd Anniversary limited event</color>",
 		scene = {}
 	},
+	[104] = {
+		time_limit_type = 0,
+		name = "4th Anniversary",
+		id = 104,
+		time_second = 0,
+		desc = "Granted to all Commanders who have defended the port for four years.\n<color=#ffffff>Earned by participating in the 4th Anniversary limited event.</color>",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "Leader",
@@ -53,6 +61,7 @@ pg.item_data_chat = {
 		101,
 		102,
 		103,
+		104,
 		300,
 		301
 	}
