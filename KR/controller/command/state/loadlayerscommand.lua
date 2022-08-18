@@ -3,11 +3,14 @@ slot0 = class("LoadLayersCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot2.type = LOAD_TYPE_LAYER
+	slot3 = slot2.context
 
-	slot2.context:extendData({
+	slot3:extendData({
 		isLayer = true
 	})
-	slot0:sendNotification(GAME.LOAD_CONTEXT, slot2)
+	SCENE.CheckPreloadData(slot2, function ()
+		uv0:sendNotification(GAME.LOAD_CONTEXT, uv1)
+	end)
 end
 
 return slot0

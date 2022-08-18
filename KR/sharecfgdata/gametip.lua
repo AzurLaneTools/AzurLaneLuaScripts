@@ -20701,3 +20701,11 @@ _G.pg.base.gametip.word_japanese = {
 _G.pg.base.gametip.avatarframe_got = {
 	tip = "수령함"
 }
+
+_G.pg.base.gametip.level_fleet_ship_desc = {
+	tip = "출격 가능 함대:"
+}
+
+_G.pg.base.gametip.level_fleet_sub_desc = {
+	tip = "잠수함대:"
+}

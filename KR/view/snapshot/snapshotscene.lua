@@ -484,20 +484,28 @@ function slot0.updateSkin(slot0)
 			uv0.live2dCom.name = uv0.paintSkin
 			uv0.live2dAnimator = slot0:GetComponent(typeof(Animator))
 
+			if uv0.live2dCom:GetCubismParameter("Paramring") then
+				if uv0.contextData and uv0.contextData.propose then
+					uv0.live2dCom:AddParameterValue(slot4, 1, CubismParameterBlendMode.Override)
+				else
+					uv0.live2dCom:AddParameterValue(slot4, 0, CubismParameterBlendMode.Override)
+				end
+			end
+
 			uv0:ResetL2dPanel()
 			uv0:setLive2dAnimsPanelState(true)
 			SetActive(uv0.spine, false)
 			SetActive(uv0.live2d, true)
 			pg.UIMgr.GetInstance():LoadingOff()
 
-			slot5 = uv0.skin.lip_smoothing
+			slot6 = uv0.skin.lip_smoothing
 
-			if uv0.skin.lip_sync_gain and slot4 ~= 0 then
-				uv0.live2d:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot4
+			if uv0.skin.lip_sync_gain and slot5 ~= 0 then
+				uv0.live2d:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot5
 			end
 
-			if slot5 and slot5 ~= 0 then
-				uv0.live2d:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot5
+			if slot6 and slot6 ~= 0 then
+				uv0.live2d:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot6
 			end
 		end)
 	elseif slot0.showType == uv0.SHOW_PAINT then

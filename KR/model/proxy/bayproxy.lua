@@ -1059,4 +1059,18 @@ function slot0.getUpgradeRecommendShip(slot0, slot1, slot2, slot3)
 	end)
 end
 
+function slot0.getGroupPropose(slot0, slot1)
+	slot2 = false
+
+	if slot0.data then
+		for slot6, slot7 in ipairs(slot0.data) do
+			if pg.ship_data_template[slot7.configId].group_type == slot1 and slot7.propose then
+				return true
+			end
+		end
+	end
+
+	return slot2
+end
+
 return slot0

@@ -334,6 +334,32 @@ pg.activity_task_permanent = {
 			35167
 		}
 	},
+	[6014] = {
+		gametip = "후부키 한정 스킨 「특형 아이돌 Fubuki」 획득 가능",
+		banner_route = "permanent_chuixue",
+		gametip_extra = "7일만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6014,
+		activity_name = "격주의 폴라리스",
+		over_task_id = "",
+		eliminate_task_id = {
+			35168,
+			35169,
+			35170,
+			35171,
+			35172,
+			35173,
+			35174,
+			35175,
+			35176,
+			35177,
+			35178,
+			35179,
+			35180,
+			35181
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -348,6 +374,7 @@ pg.activity_task_permanent = {
 		6010,
 		6011,
 		6012,
-		6013
+		6013,
+		6014
 	}
 }
