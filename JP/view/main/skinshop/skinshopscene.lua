@@ -632,7 +632,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 
 			if slot2 == 0 and pg.TimeMgr.GetInstance():inTime(slot1) or slot3 and not slot3:isEnd() then
 				if slot0.type == Goods.TYPE_ACTIVITY then
-					uv1:emit(SkinShopMediator.GO_SHOPS_LAYER)
+					uv1:emit(SkinShopMediator.GO_SHOPS_LAYER, slot0:getConfig("activity"))
 				elseif slot0.type == Goods.TYPE_ACTIVITY_EXTRA then
 					if slot0:getConfig("scene") and #slot4 > 0 then
 						uv1:emit(SkinShopMediator.OPEN_SCENE, slot4)

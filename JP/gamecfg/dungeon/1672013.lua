@@ -247,15 +247,15 @@ return {
 								hpBarNum = 60,
 								icon = ""
 							},
+							buffList = {
+								200026
+							},
 							phase = {
 								{
 									index = 0,
 									switchType = 1,
 									switchTo = 1,
 									switchParam = 1.5,
-									addBuff = {
-										200026
-									},
 									addWeapon = {
 										3012002
 									}
