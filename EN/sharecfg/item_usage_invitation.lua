@@ -542,42 +542,42 @@ pg.item_usage_invitation = {
 	},
 	[1601] = {
 		id = 1601,
-		coin_id = 60236,
+		coin_id = 60245,
 		ship_id = 408091
 	},
 	[1602] = {
 		id = 1602,
-		coin_id = 60237,
+		coin_id = 60246,
 		ship_id = 107091
 	},
 	[1603] = {
 		id = 1603,
-		coin_id = 60238,
+		coin_id = 60247,
 		ship_id = 107061
 	},
 	[1604] = {
 		id = 1604,
-		coin_id = 60239,
+		coin_id = 60248,
 		ship_id = 204031
 	},
 	[1605] = {
 		id = 1605,
-		coin_id = 60240,
+		coin_id = 60249,
 		ship_id = 301161
 	},
 	[1606] = {
 		id = 1606,
-		coin_id = 60241,
+		coin_id = 60250,
 		ship_id = 102141
 	},
 	[1607] = {
 		id = 1607,
-		coin_id = 60242,
+		coin_id = 60251,
 		ship_id = 202231
 	},
 	[1608] = {
 		id = 1608,
-		coin_id = 60243,
+		coin_id = 60252,
 		ship_id = 901111
 	},
 	all = {

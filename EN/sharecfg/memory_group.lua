@@ -3771,8 +3771,16 @@ pg.memory_group = {
 		subtype = 0,
 		type = 3,
 		id = 577,
-		title = "Work Hard",
-		memories = " Play Harder!"
+		title = "Work Hard, Play Harder!",
+		memories = {
+			2261,
+			2262,
+			2263,
+			2264,
+			2265,
+			2266,
+			2267
+		}
 	},
 	all = {
 		1,

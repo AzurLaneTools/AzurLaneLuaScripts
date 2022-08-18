@@ -16972,7 +16972,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[629] = {
-		name = "Flying Brandenburg Gate(Torpedo)",
+		name = "Flying Brandenburg Gate (Torpedo)",
 		bullet_name = "feiji_bolandengbaomen",
 		orbit_ui_bound = "",
 		type = 1,
@@ -17003,7 +17003,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[630] = {
-		name = "Flying Brandenburg Gate(Fighter)",
+		name = "Flying Brandenburg Gate (Fighter)",
 		bullet_name = "feiji_bolandengbaomen",
 		orbit_ui_bound = "",
 		type = 1,
@@ -17034,7 +17034,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[631] = {
-		name = "Flying Brandenburg Gate(Bomber)",
+		name = "Flying Brandenburg Gate (Bomber)",
 		bullet_name = "feiji_bolandengbaomen",
 		orbit_ui_bound = "",
 		type = 1,
@@ -17065,7 +17065,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[632] = {
-		name = "Cuckoo Clock(Torpedo)",
+		name = "Cuckoo Clock (Torpedo)",
 		bullet_name = "feiji_heisenlinzhon",
 		orbit_ui_bound = "",
 		type = 1,
@@ -17096,7 +17096,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[633] = {
-		name = "Cuckoo Clock(Fighter)",
+		name = "Cuckoo Clock (Fighter)",
 		bullet_name = "feiji_heisenlinzhon",
 		orbit_ui_bound = "",
 		type = 1,
@@ -17127,7 +17127,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[634] = {
-		name = "Cuckoo Clock(Bomber)",
+		name = "Cuckoo Clock (Bomber)",
 		bullet_name = "feiji_heisenlinzhon",
 		orbit_ui_bound = "",
 		type = 1,
@@ -17158,7 +17158,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[635] = {
-		name = "Nutcracker Manjuu(Torpedo)",
+		name = "Nutcracker Manjuu (Torpedo)",
 		bullet_name = "feiji_hutaojiazi",
 		orbit_ui_bound = "",
 		type = 1,
@@ -17189,7 +17189,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[636] = {
-		name = "Nutcracker Manjuu(Fighter)",
+		name = "Nutcracker Manjuu (Fighter)",
 		bullet_name = "feiji_hutaojiazi",
 		orbit_ui_bound = "",
 		type = 1,
@@ -17220,7 +17220,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[637] = {
-		name = "Nutcracker Manjuu(Bomber)",
+		name = "Nutcracker Manjuu (Bomber)",
 		bullet_name = "feiji_hutaojiazi",
 		orbit_ui_bound = "",
 		type = 1,

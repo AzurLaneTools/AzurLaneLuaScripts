@@ -15294,7 +15294,7 @@ _G.pg.base.item_data_statistics[30508] = {
 }
 
 _G.pg.base.item_data_statistics[30509] = {
-	display = "Can be opened to receive 1 Iron Blood gear skin of your choosing.",
+	display = "Can be opened to receive 1 Iron Blood Icons gear skin of your choosing.",
 	name = "Selection Gear Skin Box (Iron Blood)",
 	max_num = 0,
 	type = 13,
@@ -165709,8 +165709,8 @@ _G.pg.base.item_data_statistics[59336] = {
 }
 
 _G.pg.base.item_data_statistics[59337] = {
-	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the March 11th) ends. ",
-	name = "Rental Outfit Voucher ",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the August 31st) ends.",
+	name = "Rental Outfit Voucher",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -168220,7 +168220,7 @@ _G.pg.base.item_data_statistics[59839] = {
 }
 
 _G.pg.base.item_data_statistics[59840] = {
-	display = "A coin to commemorate Azur Lane's 4-year anniversary. Keep sailing and you will always find new horizons.",
+	display = "A coin to commemorate Azur Lane's 4th Anniversary. Keep sailing and you will always find new horizons.",
 	name = "4th Anniversary Coin",
 	max_num = 0,
 	type = 1,
@@ -174535,8 +174535,8 @@ _G.pg.base.item_data_statistics[60244] = {
 }
 
 _G.pg.base.item_data_statistics[60245] = {
-	display = "A card from U-96. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
-	name = "U-96's Gift (Early Summer 2022)",
+	display = "A card from U-96. It reads: \"Time flies, eh? Still remember the day I came here like it was yesterday, 'cept I've made tons of friends and memories since then. This year's been great so far and it's only gonna get better! Right, Commander?\"",
+	name = "U-96's Gift (4th Anniversary)",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -174556,8 +174556,8 @@ _G.pg.base.item_data_statistics[60245] = {
 }
 
 _G.pg.base.item_data_statistics[60246] = {
-	display = "A card from Essex. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
-	name = "Essex's Gift (Early Summer 2022)",
+	display = "A card from Essex. It reads: \"Happy anniversary, Commander. How many years at this port does that make it now? It feels like we've known each other practically forever... I dare say that's a bit mysterious. Maybe this is a case for Detective Ess– Err, I mean, Detective Bristol!\"",
+	name = "Essex's Gift (4th Anniversary)",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -174577,8 +174577,8 @@ _G.pg.base.item_data_statistics[60246] = {
 }
 
 _G.pg.base.item_data_statistics[60247] = {
-	display = "A card from Enterprise. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
-	name = "Enterprise's Gift (Early Summer 2022)",
+	display = "A card from Enterprise. It reads: \"Happy anniversary, Commander. It's been a real journey getting to where we are now, and there's still a long road ahead of us. Hope I can be with you every step of the way.\"",
+	name = "Enterprise's Gift (4th Anniversary)",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -174598,8 +174598,8 @@ _G.pg.base.item_data_statistics[60247] = {
 }
 
 _G.pg.base.item_data_statistics[60248] = {
-	display = "A card from Hood. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
-	name = "Hood's Gift (Early Summer 2022)",
+	display = "A card from Hood. It reads: \"My, it's been really hot lately, hasn't it? Not just the weather, but the passions in all our hearts. After all, who wouldn't be excited to celebrate another anniversary with all their friends? Here's to a continued splendid year, Commander.\"",
+	name = "Hood's Gift (4th Anniversary)",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -174619,8 +174619,8 @@ _G.pg.base.item_data_statistics[60248] = {
 }
 
 _G.pg.base.item_data_statistics[60249] = {
-	display = "A card from Yukikaze. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
-	name = "Yukikaze's Gift (Early Summer 2022)",
+	display = "A card from Yukikaze. It reads: \"Le Malin thought she could draw a better straw than Yukikaze the Great! What a moron! Listen, Commander, this is an occasion to celebrate, so I'm going to give you my blessing of luck! Make the most of it while it lasts~\"",
+	name = "Yukikaze's Gift (4th Anniversary)",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -174640,8 +174640,8 @@ _G.pg.base.item_data_statistics[60249] = {
 }
 
 _G.pg.base.item_data_statistics[60250] = {
-	display = "A card from Montpelier. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
-	name = "Montpelier's Gift (Early Summer 2022)",
+	display = "A card from Montpelier. It reads: \"Crazy how much has changed in one year and how much has stayed the same. I've gotten closer to Cleve, hung out with friends, celebrated holidays... In a way it's been like any other year, but fresh in some way. Anyway, happy anniversary, Commander.\"",
+	name = "Montpelier's Gift (4th Anniversary)",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -174661,8 +174661,8 @@ _G.pg.base.item_data_statistics[60250] = {
 }
 
 _G.pg.base.item_data_statistics[60251] = {
-	display = "A card from Swiftsure. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
-	name = "Swiftsure's Gift (Early Summer 2022)",
+	display = "A card from Swiftsure. It reads: \"I've never felt quite sure I'm celebrating the port's anniversary right. Sure, I can dance decently, strike up conversations, and just have fun, but... I don't know, it feels like something's missing. Maybe I'm just being weird. At any rate, happy anniversary, Commander!\"",
+	name = "Swiftsure's Gift (4th Anniversary)",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -174682,8 +174682,8 @@ _G.pg.base.item_data_statistics[60251] = {
 }
 
 _G.pg.base.item_data_statistics[60252] = {
-	display = "A card from Le Malin. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
-	name = "Le Malin's Gift (Early Summer 2022)",
+	display = "A card from Le Malin. It reads: \"Ugghhh... I'm gonna melt like ice cream in this heat... Can I really not get one of my sisters to fill in for me? I'll be with you in spirit, celebrating from the comfort of my air-conditioned room, I promise...\"",
+	name = "Le Malin's Gift (4th Anniversary)",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -176080,7 +176080,7 @@ The available outfits and their rarities are as follows:
 （<color=#92fc70>10.4%</color>）Magdeburg - Gone Fishing ；
 （<color=#92fc71>9.3%</color>）Weser - Wave-Washed Paradise ；
 （<color=#92fc72>9.5%</color>）Hornet - Cheering Justice! ]],
-	name = "Random Ship skin ",
+	name = "Random Ship skin",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
