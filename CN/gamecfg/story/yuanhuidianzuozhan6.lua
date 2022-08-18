@@ -126,7 +126,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "呼……到底是航空母舰，真是废了一番功夫啊。",
+			say = "呼……到底是航空母舰，真是费了一番功夫啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

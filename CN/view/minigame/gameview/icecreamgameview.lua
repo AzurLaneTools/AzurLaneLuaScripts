@@ -1201,22 +1201,39 @@ function slot0.getGameTotalTime(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if not slot0.gameStartFlag then
-		slot0:emit(uv0.ON_BACK_PRESSED)
-	else
-		if slot0.gameEndFlag then
-			return
-		end
+	if slot0.gameEndFlag then
+		return
+	end
 
-		if isActive(slot0.pauseUI) then
-			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.pauseUI, slot0._tf:Find("ui"))
-			setActive(slot0.pauseUI, false)
-		end
+	if isActive(slot0.pauseUI) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.pauseUI, slot0._tf:Find("ui"))
+		setActive(slot0.pauseUI, false)
+		slot0:resumeGame()
 
+		return
+	end
+
+	if isActive(slot0.returnUI) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.returnUI, slot0._tf:Find("ui"))
+		setActive(slot0.returnUI, false)
+		slot0:resumeGame()
+
+		return
+	end
+
+	if isActive(slot0.endUI) then
+		return
+	end
+
+	if slot0.gameStartFlag then
 		slot0:pauseGame()
 		pg.UIMgr.GetInstance():OverlayPanel(slot0.returnUI)
 		setActive(slot0.returnUI, true)
+
+		return
 	end
+
+	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
 function slot0.willExit(slot0)

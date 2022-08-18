@@ -65,7 +65,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "领头的是……Z46的棋子和大量余我们相同的塞壬I型量产型！",
+			say = "领头的是……Z46的棋子和大量与我们相同的塞壬I型量产型！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

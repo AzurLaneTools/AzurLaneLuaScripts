@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……既然如此，我就小小的期待一下好了。",
+			say = "……既然如此，我就小小地期待一下好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "Eisen und Blut über alles，希望我们有能再次相见一天，腓特烈。",
+			say = "Eisen und Blut über alles，希望我们有能再次相见的一天，腓特烈。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -55,10 +55,13 @@ function slot0.GetBgAndBgm()
 end
 
 function slot0.Ctor(slot0, slot1)
-	slot0._parentTF = slot1.parent
-	slot0.sortingOrder = slot0._parentTF:GetComponent(typeof(Canvas)).sortingOrder
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
+	slot0.paintingCanvases = {
+		slot1.parent.parent:Find("paintBg"):GetComponent(typeof(Canvas)),
+		slot1.parent.parent:Find("paint"):GetComponent(typeof(Canvas)),
+		slot1.parent.parent:Find("chat"):GetComponent(typeof(Canvas))
+	}
 	slot0.isSpecialBg = false
 	slot0.isloading = false
 end
@@ -68,6 +71,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.Init(slot0, slot1)
+	slot0.ship = slot1
+
 	slot0:ClearSpecailBg()
 
 	slot0.isSpecialBg = slot1:getShipBgPrint() ~= slot1:rarity2bgPrintForGet()
@@ -153,18 +158,32 @@ function slot0.ClearMapBg(slot0)
 		slot0.effectGo = nil
 	end
 
+	for slot4, slot5 in ipairs(slot0.paintingCanvases) do
+		slot5.overrideSorting = false
+		slot5.sortingOrder = 0
+	end
+
 	slot0.mapLoaderKey = nil
 end
 
 function slot0.AdjustMapEffect(slot0, slot1)
-	for slot6 = 1, slot1:GetComponentsInChildren(typeof(Canvas)).Length do
-		slot2[slot6 - 1].sortingOrder = slot0.sortingOrder
+	slot2 = -math.huge
+
+	for slot7 = 1, slot1:GetComponentsInChildren(typeof(Canvas)).Length do
+		if slot2 < slot3[slot7 - 1].sortingOrder then
+			slot2 = slot8.sortingOrder
+		end
 	end
 
-	for slot7 = 1, slot1:GetComponentsInChildren(typeof(MeshRenderer)).Length do
-		slot8 = slot3[slot7 - 1]
-		slot9 = slot8.gameObject.transform.localPosition
-		slot8.gameObject.transform.localPosition = Vector3(slot9.x, slot9.y, -1)
+	for slot8 = 1, slot1:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
+		if slot2 < ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot4[slot8 - 1]) then
+			slot2 = slot10
+		end
+	end
+
+	for slot8, slot9 in ipairs(slot0.paintingCanvases) do
+		slot9.overrideSorting = true
+		slot9.sortingOrder = slot2 + (slot8 == 3 and 2 or 1)
 	end
 end
 

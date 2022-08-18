@@ -7,6 +7,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.cg = slot0.live2dContainer:GetComponent(typeof(CanvasGroup))
 	slot0.currentWidth = Screen.width
 	slot0.currentHeight = Screen.height
+	slot0.isModifyOrder = false
 end
 
 function slot0.GetHalfBodyOffsetY(slot0)
@@ -23,11 +24,28 @@ function slot0.OnLoad(slot0, slot1)
 		position = Vector3(0, 0, 100),
 		parent = slot0.live2dContainer
 	}), function (slot0)
-		uv0()
+		uv0:AdJustOrderInLayer(slot0)
+		uv1()
 	end)
 
 	slot0:UpdateContainerPosition()
 	slot0:AddScreenChangeTimer()
+end
+
+function slot0.AdJustOrderInLayer(slot0, slot1)
+	if slot0.container:GetComponent(typeof(Canvas)) and slot2.overrideSorting and slot2.sortingOrder ~= 0 then
+		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot1._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), slot2.sortingOrder)
+
+		slot0.isModifyOrder = true
+	end
+end
+
+function slot0.ResetOrderInLayer(slot0)
+	if not slot0.live2dChar then
+		return
+	end
+
+	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0.live2dChar._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), 0)
 end
 
 function slot0.AddScreenChangeTimer(slot0)
@@ -71,6 +89,12 @@ function slot0.OnUnload(slot0)
 	if slot0.live2dChar then
 		slot0:RemoveScreenChangeTimer()
 		slot0:ResetContainerPosition()
+
+		if slot0.isModifyOrder then
+			slot0.isModifyOrder = false
+
+			slot0:ResetOrderInLayer()
+		end
 
 		slot0.cg.blocksRaycasts = false
 
