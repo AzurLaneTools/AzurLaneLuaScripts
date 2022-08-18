@@ -155,7 +155,7 @@ function slot0.UpdateBlueprint(slot0, slot1)
 	slot7 = slot2
 	slot8 = "name"
 
-	setText(slot0.rtResult:Find("title/Text"), HXSet.hxLan(slot2.getConfig(slot7, slot8)))
+	changeToScrollText(slot0.rtResult:Find("title/Text"), HXSet.hxLan(slot2.getConfig(slot7, slot8)))
 
 	slot0.displayList = {}
 	slot0.awardList = {}

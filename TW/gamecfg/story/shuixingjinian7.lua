@@ -266,7 +266,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "水晶球里白色的小房子静静地矗立在小小的雪原当中，按下开关就有纷纷{namecode:3}落下。",
+			say = "水晶球里白色的小房子静静地矗立在小小的雪原当中，按下开关就有纷纷白雪落下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
-			say = "黄昏之时，火色的落{namecode:180}融化在路面上，把整个世界都染成金黄。",
+			say = "黄昏之时，火色的落霞融化在路面上，把整个世界都染成金黄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

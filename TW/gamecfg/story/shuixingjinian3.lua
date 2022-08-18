@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "正当打算给阿芙乐尔打个{namecode:14}话的时候，哒哒哒的皮靴声出现了。",
+			say = "正当打算给阿芙乐尔打个电话的时候，哒哒哒的皮靴声出现了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

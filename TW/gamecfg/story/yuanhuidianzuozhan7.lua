@@ -185,7 +185,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "哇哦……只要让聪明的人在耳边没日没夜的唠叨，就算是布吕歇尔也能变聪明啊……",
+			say = "哇哦……只要让聪明的人在耳边没日没夜地唠叨，就算是布吕歇尔也能变聪明啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

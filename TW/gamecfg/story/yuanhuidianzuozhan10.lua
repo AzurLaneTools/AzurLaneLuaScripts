@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "世界上最前的战列舰！能打败俾斯麦大人的人钢板都还没铺出去呢！",
+			say = "世界上最强的战列舰！能打败俾斯麦大人的人钢板都还没铺出去呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

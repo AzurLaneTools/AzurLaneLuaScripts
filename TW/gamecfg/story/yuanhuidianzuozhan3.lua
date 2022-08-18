@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "Z1、Z2、卡尔斯厄鲁、哇！这边是欧根和希佩尔……",
+			say = "Z1、Z2、卡尔斯鲁厄、哇！这边是欧根和希佩尔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

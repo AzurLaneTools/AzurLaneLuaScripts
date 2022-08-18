@@ -997,11 +997,12 @@ function slot0.onTimer(slot0)
 	slot0.lastTime = slot0.lastTime - slot0:getIntervalTime()
 
 	slot0:updateWalker()
-	setText(slot0.timeTF, math.floor(slot0.lastTime))
 
 	if slot0.lastTime <= 0 then
 		slot0:endGame()
 	else
+		setText(slot0.timeTF, math.floor(slot0.lastTime))
+
 		if not slot0.iceBuild and slot0.targetList[slot0.targetIndex]._tf.anchoredPosition.x > 0 then
 			slot0:DoIceCream()
 		end

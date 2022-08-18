@@ -164,7 +164,26 @@ function slot0.AdjustMapEffect(slot0, slot1)
 	for slot7 = 1, slot1:GetComponentsInChildren(typeof(MeshRenderer)).Length do
 		slot8 = slot3[slot7 - 1]
 		slot9 = slot8.gameObject.transform.localPosition
-		slot8.gameObject.transform.localPosition = Vector3(slot9.x, slot9.y, -1)
+		slot8.gameObject.transform.localPosition = Vector3(slot9.x, slot9.y, 1)
+	end
+
+	slot4 = math.huge
+	slot5 = {}
+
+	for slot9 = 1, slot1.transform.childCount do
+		if slot1.transform:GetChild(slot9 - 1).localPosition.z < slot4 then
+			slot4 = slot11
+		end
+
+		table.insert(slot5, slot10)
+	end
+
+	slot6 = 0 - slot4
+
+	for slot10 = 1, #slot5 do
+		slot11 = slot5[slot10]
+		slot12 = slot11.localPosition
+		slot11.localPosition = Vector3(slot12.x, slot12.y, slot12.z + slot6 + 1)
 	end
 end
 

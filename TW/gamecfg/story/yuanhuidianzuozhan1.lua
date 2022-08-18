@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "比如……有关”你们的对手是谁“之类的。",
+			say = "比如……有关“你们的对手是谁”之类的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
