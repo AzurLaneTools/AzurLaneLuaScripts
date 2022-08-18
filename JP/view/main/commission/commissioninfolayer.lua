@@ -33,6 +33,7 @@ function slot0.init(slot0)
 	slot0.activtyUrExchangeCG = slot0.activtyUrExchangeBtn:GetComponent(typeof(CanvasGroup))
 	slot0.activtyUrExchangeTip = slot0:findTF("frame/link_btns/btns/urEx/tip")
 	slot0.activityCrusingBtn = slot0:findTF("frame/link_btns/btns/crusing")
+	slot0.metaBossBtn = CommissionMetaBossBtn.New(slot0:findTF("frame/link_btns/btns/meta_boss"), slot0.event)
 end
 
 function slot0.UpdateUrItemEntrance(slot0)
@@ -127,6 +128,7 @@ function slot0.didEnter(slot0)
 	slot0:InitItems()
 	slot0:UpdateUrItemEntrance()
 	slot0:updateCrusingEntrance()
+	slot0.metaBossBtn:Flush()
 end
 
 function slot0.InitItems(slot0)
@@ -178,6 +180,10 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.items = nil
+
+	slot0.metaBossBtn:Dispose()
+
+	slot0.metaBossBtn = nil
 end
 
 return slot0

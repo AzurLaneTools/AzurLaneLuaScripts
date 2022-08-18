@@ -414,6 +414,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>美味しいピザを食べるピョ！</color>\n――コラボキャンペーン参加で入手可能",
 		scene = {}
 	},
+	[601] = {
+		time_limit_type = 0,
+		name = "アイスチャット",
+		gain_by = "",
+		id = 601,
+		time_second = 0,
+		desc = "<color=#ffffff>暑い夏に涼しき瞬間のアイスチャット！</color>\n「饅頭アイス」イベント参加で入手可能",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -460,6 +469,7 @@ pg.item_data_frame = {
 		408,
 		409,
 		410,
-		501
+		501,
+		601
 	}
 }

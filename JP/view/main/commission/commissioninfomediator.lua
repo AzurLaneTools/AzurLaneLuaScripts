@@ -13,9 +13,13 @@ slot0.ON_UR_ACTIVITY = "CommanderInfoMediator:ON_UR_ACTIVITY"
 slot0.ON_CRUSING = "CommanderInfoMediator.ON_CRUSING"
 slot0.GET_CLASS_RES = "CommanderInfoMediator:GET_CLASS_RES"
 slot0.FINISH_CLASS_ALL = "CommanderInfoMediator:FINISH_CLASS_ALL"
+slot0.GO_META_BOSS = "CommanderInfoMediator:GO_META_BOSS"
 
 function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot0:bind(uv0.GO_META_BOSS, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLDBOSS)
+	end)
 	slot0:bind(uv0.ON_UR_ACTIVITY, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = ActivityConst.UR_ITEM_ACT_ID

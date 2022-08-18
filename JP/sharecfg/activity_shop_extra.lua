@@ -2675,6 +2675,42 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[89] = {
+		commodity_type = 7,
+		activity = 4496,
+		commodity_id = 302054,
+		scene = "",
+		id = 89,
+		num = 1,
+		num_limit = 1,
+		order = 14,
+		time = {
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	get_id_list_by_commodity_type = {
 		[7] = {
 			1,
@@ -2757,7 +2793,8 @@ pg.activity_shop_extra = {
 			85,
 			86,
 			87,
-			88
+			88,
+			89
 		}
 	},
 	all = {
@@ -2841,6 +2878,7 @@ pg.activity_shop_extra = {
 		85,
 		86,
 		87,
-		88
+		88,
+		89
 	}
 }

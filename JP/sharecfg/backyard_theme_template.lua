@@ -3438,6 +3438,45 @@ pg.backyard_theme_template = {
 			91305
 		}
 	},
+	[93] = {
+		Cfg_1 = 5,
+		name = "清涼盛夏",
+		hot = 1,
+		is_view = 1,
+		id = 93,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "アツい夏に海のサマーパーク！",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "ssly2themeicon",
+		deblocking = 1,
+		order = 93,
+		ids = {
+			93001,
+			93002,
+			93101,
+			93102,
+			93103,
+			93104,
+			93105,
+			93106,
+			93107,
+			93108,
+			93109,
+			93110,
+			93111,
+			93113,
+			93114,
+			93115,
+			93116,
+			93117,
+			93118,
+			93119,
+			93120
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3516,6 +3555,7 @@ pg.backyard_theme_template = {
 		88,
 		89,
 		90,
-		91
+		91,
+		93
 	}
 }
