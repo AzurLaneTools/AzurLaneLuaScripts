@@ -8502,6 +8502,189 @@ pg.activity_ins_language = {
 	op_reply_263_1_1 = {
 		value = "看來是有過慘痛的教訓呢，指揮官。"
 	},
+	ins_289 = {
+		value = ""
+	},
+	ins_discuss_289_1 = {
+		value = ""
+	},
+	ins_reply_289_1_1 = {
+		value = ""
+	},
+	ins_reply_289_1_2 = {
+		value = ""
+	},
+	ins_discuss_289_2 = {
+		value = ""
+	},
+	ins_reply_289_2_1 = {
+		value = ""
+	},
+	ins_reply_289_2_2 = {
+		value = ""
+	},
+	ins_op_289_1_1 = {
+		value = ""
+	},
+	op_reply_289_1_1 = {
+		value = ""
+	},
+	ins_290 = {
+		value = ""
+	},
+	ins_discuss_290_1 = {
+		value = ""
+	},
+	ins_reply_290_1_1 = {
+		value = ""
+	},
+	ins_reply_290_1_2 = {
+		value = ""
+	},
+	ins_discuss_290_2 = {
+		value = ""
+	},
+	ins_reply_290_2_1 = {
+		value = ""
+	},
+	ins_reply_290_2_2 = {
+		value = ""
+	},
+	ins_op_290_1_1 = {
+		value = ""
+	},
+	op_reply_290_1_1 = {
+		value = ""
+	},
+	ins_291 = {
+		value = ""
+	},
+	ins_discuss_291_1 = {
+		value = ""
+	},
+	ins_reply_291_1_1 = {
+		value = ""
+	},
+	ins_reply_291_1_2 = {
+		value = ""
+	},
+	ins_reply_291_1_3 = {
+		value = ""
+	},
+	ins_discuss_291_2 = {
+		value = ""
+	},
+	ins_reply_291_2_1 = {
+		value = ""
+	},
+	ins_op_291_1_1 = {
+		value = ""
+	},
+	op_reply_291_1_1 = {
+		value = ""
+	},
+	ins_292 = {
+		value = ""
+	},
+	ins_discuss_292_1 = {
+		value = ""
+	},
+	ins_reply_292_1_1 = {
+		value = ""
+	},
+	ins_discuss_292_2 = {
+		value = ""
+	},
+	ins_reply_292_2_1 = {
+		value = ""
+	},
+	ins_reply_292_2_2 = {
+		value = ""
+	},
+	ins_reply_292_2_3 = {
+		value = ""
+	},
+	ins_discuss_292_3 = {
+		value = ""
+	},
+	ins_reply_292_3_1 = {
+		value = ""
+	},
+	ins_op_292_1_1 = {
+		value = ""
+	},
+	op_reply_292_1_1 = {
+		value = ""
+	},
+	ins_293 = {
+		value = ""
+	},
+	ins_discuss_293_1 = {
+		value = ""
+	},
+	ins_reply_293_1_1 = {
+		value = ""
+	},
+	ins_discuss_293_2 = {
+		value = ""
+	},
+	ins_reply_293_2_1 = {
+		value = ""
+	},
+	ins_discuss_293_3 = {
+		value = ""
+	},
+	ins_reply_293_3_1 = {
+		value = ""
+	},
+	ins_reply_293_3_2 = {
+		value = ""
+	},
+	ins_op_293_1_1 = {
+		value = ""
+	},
+	op_reply_293_1_1 = {
+		value = ""
+	},
+	ins_op_293_1_2 = {
+		value = ""
+	},
+	op_reply_293_1_2 = {
+		value = ""
+	},
+	ins_294 = {
+		value = ""
+	},
+	ins_discuss_294_1 = {
+		value = ""
+	},
+	ins_reply_294_1_1 = {
+		value = ""
+	},
+	ins_reply_294_1_2 = {
+		value = ""
+	},
+	ins_reply_294_1_3 = {
+		value = ""
+	},
+	ins_discuss_294_2 = {
+		value = ""
+	},
+	ins_reply_294_2_1 = {
+		value = ""
+	},
+	ins_op_294_1_1 = {
+		value = ""
+	},
+	op_reply_294_1_1 = {
+		value = ""
+	},
+	ins_op_294_1_2 = {
+		value = ""
+	},
+	op_reply_294_1_2 = {
+		value = ""
+	},
 	all = {
 		ins_op_1_1_1,
 		ins_op_1_1_2,
@@ -11336,6 +11519,67 @@ pg.activity_ins_language = {
 		ins_discuss_263_2,
 		ins_reply_263_2_1,
 		ins_op_263_1_1,
-		op_reply_263_1_1
+		op_reply_263_1_1,
+		ins_289,
+		ins_discuss_289_1,
+		ins_reply_289_1_1,
+		ins_reply_289_1_2,
+		ins_discuss_289_2,
+		ins_reply_289_2_1,
+		ins_reply_289_2_2,
+		ins_op_289_1_1,
+		op_reply_289_1_1,
+		ins_290,
+		ins_discuss_290_1,
+		ins_reply_290_1_1,
+		ins_reply_290_1_2,
+		ins_discuss_290_2,
+		ins_reply_290_2_1,
+		ins_reply_290_2_2,
+		ins_op_290_1_1,
+		op_reply_290_1_1,
+		ins_291,
+		ins_discuss_291_1,
+		ins_reply_291_1_1,
+		ins_reply_291_1_2,
+		ins_reply_291_1_3,
+		ins_discuss_291_2,
+		ins_reply_291_2_1,
+		ins_op_291_1_1,
+		op_reply_291_1_1,
+		ins_292,
+		ins_discuss_292_1,
+		ins_reply_292_1_1,
+		ins_discuss_292_2,
+		ins_reply_292_2_1,
+		ins_reply_292_2_2,
+		ins_reply_292_2_3,
+		ins_discuss_292_3,
+		ins_reply_292_3_1,
+		ins_op_292_1_1,
+		op_reply_292_1_1,
+		ins_293,
+		ins_discuss_293_1,
+		ins_reply_293_1_1,
+		ins_discuss_293_2,
+		ins_reply_293_2_1,
+		ins_discuss_293_3,
+		ins_reply_293_3_1,
+		ins_reply_293_3_2,
+		ins_op_293_1_1,
+		op_reply_293_1_1,
+		ins_op_293_1_2,
+		op_reply_293_1_2,
+		ins_294,
+		ins_discuss_294_1,
+		ins_reply_294_1_1,
+		ins_reply_294_1_2,
+		ins_reply_294_1_3,
+		ins_discuss_294_2,
+		ins_reply_294_2_1,
+		ins_op_294_1_1,
+		op_reply_294_1_1,
+		ins_op_294_1_2,
+		op_reply_294_1_2
 	}
 }

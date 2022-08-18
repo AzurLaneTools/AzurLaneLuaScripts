@@ -8714,6 +8714,167 @@ pg.expedition_data_by_map = {
 			0.5
 		}
 	},
+	[1630001] = {
+		map = 1630001,
+		name = "虛像構築之塔·序章|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-arbitrator-tower",
+		enter_story = "",
+		ani_name = "Map_1620001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40751,
+		ui_type = 1,
+		bg = "Map_1620001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1630001,
+					"jianzhu01"
+				}
+			},
+			{
+				1,
+				{
+					1630002,
+					"jianzhu02"
+				}
+			},
+			{
+				1,
+				{
+					1630003,
+					"jianzhu03"
+				}
+			},
+			{
+				1,
+				{
+					1630004,
+					"jianzhu04"
+				}
+			}
+		}
+	},
+	[1630002] = {
+		map = 1630002,
+		name = "虛像構築之塔·序章·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-arbitrator-tower",
+		enter_story = "",
+		ani_name = "Map_1620001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40751,
+		ui_type = 1,
+		bg = "Map_1620001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1630001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1630003] = {
+		map = 1630003,
+		name = "虛像構築之塔·序章·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-arbitrator-tower",
+		enter_story = "",
+		ani_name = "Map_1620001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40751,
+		ui_type = 1,
+		bg = "Map_1620001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1630001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -10546,6 +10707,9 @@ pg.expedition_data_by_map = {
 		1590001,
 		1590002,
 		1590003,
+		1630001,
+		1630002,
+		1630003,
 		2100000,
 		2100001,
 		2100010,

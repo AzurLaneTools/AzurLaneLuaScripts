@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "距离抵达港区还有半日航程，石油剩余五成上，弹药储备充足，不过食物储备就……",
+			say = "距離抵達港區還有半日航程，石油剩餘五成以上，彈藥儲備充足，不過食物儲備就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "哇…明明马上就到港区了居然还在进行物资统计……",
+			say = "哇…明明馬上就到港區了居然還在進行物資統計……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "你这个军需官也太敬业了吧？！",
+			say = "妳這個軍需官也太敬業了吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "物资储备事关重大。重则影响战斗成败，轻则影响……你今天中午的午餐。",
+			say = "物資儲備事關重大。重則影響戰鬥成敗，輕則影響……妳今天中午的午餐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "欸？！！连今天午餐份的食物都没有了么！？",
+			say = "欸？！！連今天午餐份的食物都沒有了嗎！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "呼呼呼……放心。一路上我都有好好管理，剩下的食物足够再吃三天的。",
+			say = "呼呼呼……放心。一路上我都有好好管理，剩下的食物足夠再吃三天的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "……比出发前携带的量还多了一天？！",
+			say = "……比出發前攜帶的量還多了一天？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "物资管理，很神奇吧？",
+			say = "物資管理，很神奇吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "......意面。",
+			say = "......義大利麵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……？帝国中午想吃意面么？",
+			say = "嗯……？帝國中午想吃義大利麵嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "伟大的庞培队长非常认同你的观点，一会午饭就吃意面吧！",
+			say = "偉大的龐培隊長非常認同妳的觀點，一會午飯就吃義大利麵吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "舰载机意面，从舰载机里面发射出意面来......",
+			say = "艦載機義大利麵，從艦載機裡面發射出義大利麵來......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "那是什么东西啦！不要把舰载机和意面结合起来啊！",
+			say = "那是什麼東西啦！不要把艦載機和義大利麵結合起來啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "而且为什么要用舰载机发射？",
+			say = "而且為什麼要用艦載機發射？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "舰载机可以给意面保温。",
+			say = "艦載機可以給義大利麵保溫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "因为帝国还要睡觉泡澡......舰载机发射意面，可以随时吃到......",
+			say = "因為帝國還要睡覺泡澡......艦載機發射義大利麵，可以隨時吃到......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帝国又在产出奇妙的想法了……",
+			say = "帝國又在產出奇妙的想法了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "唔嗯…好像有些道理……伟大的庞培队长也心动了！",
+			say = "唔嗯…好像有些道理……偉大的龐培隊長也心動了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次又想到什么了……飞天披萨么？",
+			say = "這次又想到什麼了……飛天披薩嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "......帝国的舰载机，失去联系了。",
+			say = "......帝國的艦載機，失去聯繫了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "哎？！是被塞壬袭击了么？舰载机失联之前最后发来的情报是什么？",
+			say = "哎？！是被塞壬襲擊了嗎？艦載機失聯之前最後發來的情報是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "一座奇怪的城市和一座奇怪的高塔……舰载机就是在那失联的（气）。",
+			say = "一座奇怪的城市和一座奇怪的高塔……艦載機就是在那失聯的（氣）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来像是遭遇了一片镜面海域呢……",
+			say = "聽起來像是遭遇了一片鏡面海域呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "距离港区半日的地方出现镜面海域可是一件值得重视的事。",
+			say = "距離港區半日的地方出現鏡面海域可是一件值得重視的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "先向港区申请支援，然后我们转向去侦察一下情况吧。",
+			say = "先向港區申請支援，然後我們轉向去偵察一下情況吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "没问题！不过也许等不到港区的增援到达，塞壬就被伟大的庞培队长及其同伴摆平了哦！",
+			say = "沒問題！不過也許等不到港區的增援到達，塞壬就被偉大的龐培隊長及其同伴擺平了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "居然打掉了帝国的舰载机……意面计划取消，先送它们去外太空（气！）。",
+			say = "居然打掉了帝國的艦載機……義大利麵計劃取消，先送它們去外太空（氣！）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			say = "港区·通讯室",
+			say = "港區·通訊室",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "通讯联络到了！看来庞培她们会准时回港呢。",
+			say = "通訊聯絡到了！看來龐培她們會準時回港呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			say = "龙骑兵播放了收到的通讯，不过内容却完全出乎她的预料。",
+			say = "龍騎兵播放了收到的通訊，不過內容卻完全出乎她的預料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "求、求援通讯？！",
+			say = "求、求援通訊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？！求援的话应……立刻发给指挥官一份！",
+			say = "欸？！求援的話應……立刻發給指揮官一份！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "应该是这样操作的吧.......好————完成。",
+			say = "應該是這樣操作的吧.......好————完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "……然后就等指挥室的回复，希望庞培她们别出什么事。",
+			say = "……然後就等指揮室的回復，希望龐培她們別出什麼事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			say = "滴————",
 			typewriter = {
 				speed = 0.05,
@@ -744,7 +744,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯~确认回复收到，今天的秘书舰效率好高啊~",
+			say = "嗯~確認回復收到，今天的秘書艦效率好高啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			say = "滴滴————",
 			typewriter = {
 				speed = 0.05,
@@ -777,7 +777,7 @@ return {
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			say = "滴滴滴————",
 			typewriter = {
 				speed = 0.05,
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "欸……怎、怎么又收到了两份确认的回复......？",
+			say = "欸……怎、怎麼又收到了兩份確認的回復......？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			bgName = "bg_map_maliyana",
 			dir = 1,
 			blackBg = true,
-			say = "龙骑兵浑身一颤，想到了某种可能性————",
+			say = "龍騎兵渾身一顫，想到了某種可能性————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

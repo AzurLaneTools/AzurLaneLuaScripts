@@ -99,6 +99,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2022.5.5-2022.8.7）",
 		scene = {}
 	},
+	[208] = {
+		time_limit_type = 0,
+		name = "限界的挑戰者VIII",
+		gain_by = "",
+		id = 208,
+		time_second = 0,
+		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2022.8.18-2022.11.13）",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "召集者",
@@ -270,6 +279,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有對美味披薩有愛的指揮官們</color>\n通過參與「啾啾歡樂餐廳」活動獲取",
 		scene = {}
 	},
+	[601] = {
+		time_limit_type = 0,
+		name = "冰淇淋紀念",
+		gain_by = "",
+		id = 601,
+		time_second = 0,
+		desc = "<color=#ffffff>在炎炎夏日中感受片刻的清涼！ </color>\n通過參與「啾啾冰淇淋」活動獲取",
+		scene = {}
+	},
 	[1001] = {
 		time_limit_type = 0,
 		name = "開服紀念",
@@ -291,6 +309,7 @@ pg.item_data_frame = {
 		205,
 		206,
 		207,
+		208,
 		300,
 		301,
 		302,
@@ -310,6 +329,7 @@ pg.item_data_frame = {
 		402,
 		414,
 		501,
+		601,
 		1001
 	}
 }

@@ -113,6 +113,14 @@ function slot0.InitCommodities(slot0)
 end
 
 function slot0.OnPurchase(slot0, slot1, slot2)
+	slot4 = slot1:getConfig("commodity_id")
+
+	if slot1:getConfig("commodity_type") == DROP_TYPE_ITEM and getProxy(BagProxy):RawGetItemById(slot4) and slot5:IsShipExpType() and slot5:IsMaxCnt() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("item_is_max_cnt"))
+
+		return
+	end
+
 	slot0:emit(NewShopsMediator.ON_ACT_SHOPPING, slot0.shop.activityId, 1, slot1.id, slot2)
 end
 

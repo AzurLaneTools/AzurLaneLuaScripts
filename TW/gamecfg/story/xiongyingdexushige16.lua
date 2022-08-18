@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……我们的人不可能如此这么不谨慎。况且门一定时间没有关闭的话，安保系统一定会提醒的。",
+			say = "……我们的人不可能这么不谨慎。况且门一定时间没有关闭的话，安保系统一定会提醒的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			side = 2,
-			say = "自称调查员的布里斯托尔带着点亮的提灯，风风火火地跑来，又有风风火火地跑走了。",
+			say = "自称调查员的布里斯托尔带着点亮的提灯，风风火火地跑来，又风风火火地跑走了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

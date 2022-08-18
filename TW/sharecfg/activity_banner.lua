@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "40734",
+		param = "40751",
 		id = 1,
 		pic = "temp9",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					4
+					18
 				},
 				{
 					0,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					8,
-					18
+					9,
+					1
 				},
 				{
 					23,
@@ -47,7 +47,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					4
+					18
 				},
 				{
 					0,
@@ -58,8 +58,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					8,
-					18
+					9,
+					1
 				},
 				{
 					23,
@@ -81,7 +81,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					4
+					18
 				},
 				{
 					0,
@@ -93,7 +93,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					17
+					31
 				},
 				{
 					23,
@@ -104,7 +104,39 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "40763",
 		id = 4,
+		pic = "temp6",
+		type = 3,
+		time = {
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 5,
 		pic = "temp11",
 		type = 2,
 		param = {
@@ -118,7 +150,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					4
+					18
 				},
 				{
 					0,
@@ -130,41 +162,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 5,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2022,
-					8,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					8,
-					17
+					31
 				},
 				{
 					23,
@@ -176,17 +174,17 @@ pg.activity_banner = {
 	},
 	{
 		id = 6,
-		pic = "temp3",
+		pic = "temp4",
 		type = 2,
 		param = {
-			"scene shop"
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2022,
 					8,
-					4
+					18
 				},
 				{
 					0,
@@ -198,7 +196,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					17
+					31
 				},
 				{
 					23,
@@ -351,7 +349,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					4
+					18
 				},
 				{
 					0,
@@ -363,7 +361,7 @@ pg.activity_banner = {
 				{
 					2022,
 					8,
-					17
+					31
 				},
 				{
 					23,
@@ -614,6 +612,7 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
+			4,
 			7,
 			8,
 			10,
@@ -622,7 +621,6 @@ pg.activity_banner = {
 		[2] = {
 			2,
 			3,
-			4,
 			5,
 			6,
 			9,

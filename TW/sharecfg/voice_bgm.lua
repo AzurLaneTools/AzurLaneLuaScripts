@@ -235,5 +235,9 @@ pg.voice_bgm = {
 	ActivityBossJofferScene = {
 		default_bgm = "theme-richelieu",
 		bgm = "theme-richelieu"
+	},
+	IceCreamGameView = {
+		default_bgm = "bar-soft",
+		bgm = "bar-soft"
 	}
 }

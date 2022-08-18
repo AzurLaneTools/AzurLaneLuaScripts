@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我们已经走了这么久，按理说就算横跨了整个地下区域也不为过，结果却连通道都能没走出去……",
+			say = "我们已经走了这么久，按理说就算横跨了整个地下区域也不为过，结果却连通道没能走出去……",
 			painting = {
 				alpha = 0.3,
 				time = 1

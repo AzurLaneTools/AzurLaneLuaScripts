@@ -851,5 +851,11 @@ pg.activity_const = {
 	},
 	SPRING_FESTIVAL_PT_2022_ID = {
 		act_id = 40511
+	},
+	MINIGAME_ICECREAM = {
+		act_id = 40762
+	},
+	ISUZU_SPORTS_SKIN_ID = {
+		act_id = 40763
 	}
 }

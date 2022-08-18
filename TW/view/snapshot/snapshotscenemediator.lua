@@ -32,6 +32,10 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == SnapshotSelectCharMediator.SELECT_CHAR then
+		if pg.ship_skin_template[slot3] then
+			slot0.viewComponent.contextData.propose = getProxy(BayProxy):getGroupPropose(pg.ship_skin_template[slot3].ship_group)
+		end
+
 		slot0.viewComponent:setSkin(slot3)
 	elseif PERMISSION_GRANTED == slot2 then
 		if slot3 == ANDROID_RECORD_AUDIO_PERMISSION then

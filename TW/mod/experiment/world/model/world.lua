@@ -1181,7 +1181,7 @@ function slot0.InitAutoInfos(slot0)
 end
 
 function slot0.TriggerAutoFight(slot0, slot1)
-	if tobool(slot1) ~= tobool(slot0.isAutoFight) then
+	if tobool(slot1 and slot0:GetActiveMap():CanAutoFight()) ~= tobool(slot0.isAutoFight) then
 		slot0.isAutoFight = slot1
 
 		pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(slot1)

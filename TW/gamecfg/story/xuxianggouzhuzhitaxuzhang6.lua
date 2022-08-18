@@ -15,7 +15,7 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼，杀敌数是我略微领先哦！怎么样？",
+			say = "哼哼，殺敵數是我略微領先哦！怎麼樣？",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "那是因为周围就只有这么多敌人可以打吧……",
+			say = "那是因為周圍就只有這麼多敵人可以打吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "这片镜面海域还真是奇怪，明明看上去压迫感十足，敌人却又少又弱……",
+			say = "這片鏡面海域還真是奇怪，明明看上去壓迫感十足，敵人卻又少又弱……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论怎么说，现在赢下来的是我！",
+			say = "不論怎麼說，現在贏下來的是我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回去告诉你的企业姐，下一次演习我们来一场姐妹对决吧——我和翔鹤姐对战你和灰色幽灵！",
+			say = "回去告訴妳的企業姐，下一次演習我們來一場姐妹對決吧——我和翔鶴姐對戰妳和灰色幽靈！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "结果还是想和企业姐打啊......",
+			say = "結果還是想和企業姐打啊......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总有一天我会打败灰色幽灵的！",
+			say = "總有一天我會打敗灰色幽靈的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "真是坚定的决心……如果不是对灰色幽灵的妹妹说就更好了。",
+			say = "真是堅定的決心……如果不是對灰色幽靈的妹妹說就更好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这可是胜利者的要求哦——",
+			say = "這可是勝利者的要求哦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗还没结束，最后谁赢谁输还说不好呢！",
+			say = "戰鬥還沒結束，最後誰贏誰輸還說不好呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "不过我知道了，如果你赢了的话，我一定帮你把企业姐拉到演习场上来——",
+			say = "不過我知道了，如果妳贏了的話，我一定幫妳把企業姐拉到演習場上來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			say = "轰————！",
+			say = "轟————！",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "炮声是从中心区域的方向传过来的！",
+			say = "炮聲是從中心區域的方向傳過來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "让我看看啊……咦？不是撒丁舰队而是……铁血的欧根和希佩尔？",
+			say = "讓我看看啊……咦？不是薩丁艦隊而是……鐵血的歐根和希佩爾？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然还有别的舰队在这里……莫非是情况很糟糕所以把周边舰队都叫过来了么？",
+			say = "居然還有別的艦隊在這裡……莫非是情況很糟糕所以把周邊艦隊都叫過來了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "听起来好像超不妙……我们先去跟她们汇合吧！",
+			say = "聽起來好像超不妙……我們先去跟她們匯合吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "与此同时，欧根亲王与希佩尔正在（有些轻松地）与塞壬交战着。",
+			say = "與此同時，歐根親王與希佩爾正在（有些輕鬆地）與塞壬交戰著。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "区区塞壬，谁允许你们反抗了？！消失吧！",
+			say = "區區塞壬，誰允許你們反抗了？！消失吧！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐你兴致既然这么高，我就不添乱了。",
+			say = "姐姐妳興致既然這麼高，我就不搗亂了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "剩下的这些就全拜托你咯？我会为你加油打气的~",
+			say = "剩下的這些就全拜託妳囉？我會為妳加油打氣的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂！认真一点啊欧根！我们可是来支援的！",
+			say = "喂！認真一點啊歐根！我們可是來支援的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最开始不想来支援的是谁呢————",
+			say = "最開始不想來支援的是誰呢————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐难道是很担心撒丁的几位么？",
+			say = "姐姐難道是很擔心薩丁的幾位嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啰、啰嗦！这是在执行任务，说那么多干什么！",
+			say = "囉、囉嗦！這是在執行任務，說那麼多幹什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有这个精力说风凉话不如快点来帮忙！",
+			say = "有這個精力說風涼話不如快點來幫忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根亲王加入战斗——虽然我想这么说，不过看起来不需要了呢。",
+			say = "歐根親王加入戰鬥——雖然我想這麼說，不過看起來不需要了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈？你在说什————",
+			say = "哈？妳在說什————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "轟————————！",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "成群结队的舰载机从二人头顶掠过，向周围残余的塞壬发动了猛烈攻击。",
+			say = "成群結隊的艦載機從二人頭頂掠過，向周圍殘餘的塞壬發動了猛烈攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白鹰的舰载机加上重樱的舰载机……我好像知道是什么组合在支援我们了。",
+			say = "白鷹的艦載機加上重櫻的艦載機……我好像知道是什麼組合在支援我們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来被求援信号召集到这片海域的舰队不止我们一支啊。",
+			say = "看來被求援訊號召集到這片海域的艦隊不止我們一支啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，既然是来帮忙的，人手不是越多越好！",
+			say = "哼，既然是來幫忙的，人手不是越多越好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "快点加速，我们去汇合吧！",
+			say = "快點加速，我們去匯合吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

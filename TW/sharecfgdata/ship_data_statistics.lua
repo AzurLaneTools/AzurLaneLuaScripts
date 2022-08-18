@@ -4486,7 +4486,8 @@ _G.pg.base.ship_data_statistics[101111] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -4611,7 +4612,8 @@ _G.pg.base.ship_data_statistics[101112] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -4736,7 +4738,8 @@ _G.pg.base.ship_data_statistics[101113] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -4861,7 +4864,8 @@ _G.pg.base.ship_data_statistics[101114] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -4986,7 +4990,8 @@ _G.pg.base.ship_data_statistics[101121] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -5111,7 +5116,8 @@ _G.pg.base.ship_data_statistics[101122] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -5236,7 +5242,8 @@ _G.pg.base.ship_data_statistics[101123] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -5361,7 +5368,8 @@ _G.pg.base.ship_data_statistics[101124] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -5486,7 +5494,8 @@ _G.pg.base.ship_data_statistics[101131] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -5611,7 +5620,8 @@ _G.pg.base.ship_data_statistics[101132] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -5736,7 +5746,8 @@ _G.pg.base.ship_data_statistics[101133] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -5861,7 +5872,8 @@ _G.pg.base.ship_data_statistics[101134] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -5986,7 +5998,8 @@ _G.pg.base.ship_data_statistics[101141] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -6111,7 +6124,8 @@ _G.pg.base.ship_data_statistics[101142] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -6236,7 +6250,8 @@ _G.pg.base.ship_data_statistics[101143] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -6361,7 +6376,8 @@ _G.pg.base.ship_data_statistics[101144] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -6486,7 +6502,8 @@ _G.pg.base.ship_data_statistics[101151] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -6611,7 +6628,8 @@ _G.pg.base.ship_data_statistics[101152] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -6736,7 +6754,8 @@ _G.pg.base.ship_data_statistics[101153] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -6861,7 +6880,8 @@ _G.pg.base.ship_data_statistics[101154] = {
 		{}
 	},
 	tag_list = {
-		"Fletcher-Class"
+		"Fletcher-Class",
+		"Little-Beavers"
 	}
 }
 
@@ -184126,7 +184146,8 @@ _G.pg.base.ship_data_statistics[403011] = {
 		{}
 	},
 	tag_list = {
-		"Admiral Hipper-Class"
+		"Admiral Hipper-Class",
+		"Admiral Hipper"
 	}
 }
 
@@ -184253,7 +184274,8 @@ _G.pg.base.ship_data_statistics[403012] = {
 		{}
 	},
 	tag_list = {
-		"Admiral Hipper-Class"
+		"Admiral Hipper-Class",
+		"Admiral Hipper"
 	}
 }
 
@@ -184380,7 +184402,8 @@ _G.pg.base.ship_data_statistics[403013] = {
 		{}
 	},
 	tag_list = {
-		"Admiral Hipper-Class"
+		"Admiral Hipper-Class",
+		"Admiral Hipper"
 	}
 }
 
@@ -184507,7 +184530,8 @@ _G.pg.base.ship_data_statistics[403014] = {
 		{}
 	},
 	tag_list = {
-		"Admiral Hipper-Class"
+		"Admiral Hipper-Class",
+		"Admiral Hipper"
 	}
 }
 
@@ -186159,6 +186183,7 @@ _G.pg.base.ship_data_statistics[403071] = {
 	},
 	tag_list = {
 		"Admiral Hipper-Class",
+		"Admiral Hipper",
 		"μ",
 		"special"
 	}
@@ -186288,6 +186313,7 @@ _G.pg.base.ship_data_statistics[403072] = {
 	},
 	tag_list = {
 		"Admiral Hipper-Class",
+		"Admiral Hipper",
 		"μ",
 		"special"
 	}
@@ -186417,6 +186443,7 @@ _G.pg.base.ship_data_statistics[403073] = {
 	},
 	tag_list = {
 		"Admiral Hipper-Class",
+		"Admiral Hipper",
 		"μ",
 		"special"
 	}
@@ -186546,6 +186573,7 @@ _G.pg.base.ship_data_statistics[403074] = {
 	},
 	tag_list = {
 		"Admiral Hipper-Class",
+		"Admiral Hipper",
 		"μ",
 		"special"
 	}
@@ -209215,6 +209243,506 @@ _G.pg.base.ship_data_statistics[601064] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[601071] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "龐培·馬格諾",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601070,
+	english_name = "RN Pompeo Magno",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601071,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		457,
+		21,
+		64,
+		29,
+		0,
+		76,
+		0,
+		73,
+		59,
+		51.6,
+		75,
+		51
+	},
+	attrs_growth = {
+		12831,
+		286,
+		833,
+		642,
+		0,
+		531,
+		0,
+		1125,
+		1095,
+		0,
+		0,
+		579
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Capitani Romani-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601072] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "龐培·馬格諾",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601070,
+	english_name = "RN Pompeo Magno",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601072,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		568,
+		26,
+		80,
+		36,
+		0,
+		76,
+		0,
+		73,
+		59,
+		51.6,
+		75,
+		64
+	},
+	attrs_growth = {
+		12831,
+		286,
+		833,
+		642,
+		0,
+		531,
+		0,
+		1125,
+		1095,
+		0,
+		0,
+		579
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Capitani Romani-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601073] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "龐培·馬格諾",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601070,
+	english_name = "RN Pompeo Magno",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601073,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		791,
+		36,
+		111,
+		51,
+		0,
+		76,
+		0,
+		73,
+		59,
+		51.6,
+		75,
+		89
+	},
+	attrs_growth = {
+		12831,
+		286,
+		833,
+		642,
+		0,
+		531,
+		0,
+		1125,
+		1095,
+		0,
+		0,
+		579
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Capitani Romani-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601074] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "龐培·馬格諾",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601070,
+	english_name = "RN Pompeo Magno",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601074,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1126,
+		52,
+		159,
+		72,
+		0,
+		76,
+		0,
+		73,
+		59,
+		51.6,
+		75,
+		127
+	},
+	attrs_growth = {
+		12831,
+		286,
+		833,
+		642,
+		0,
+		531,
+		0,
+		1125,
+		1095,
+		0,
+		0,
+		579
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Capitani Romani-class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[602011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -210740,6 +211268,514 @@ _G.pg.base.ship_data_statistics[603024] = {
 	tag_list = {
 		"Zara",
 		"Zara-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603041] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "的里雅斯德",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603040,
+	english_name = "RN Trieste",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 603041,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		630,
+		44,
+		35,
+		36,
+		0,
+		61,
+		0,
+		39,
+		10,
+		28.8,
+		48,
+		0
+	},
+	attrs_growth = {
+		15877,
+		610,
+		485,
+		782,
+		0,
+		422,
+		0,
+		613,
+		482,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		351
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.45,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Trento-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603042] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "的里雅斯德",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603040,
+	english_name = "RN Trieste",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 603042,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		784,
+		55,
+		44,
+		45,
+		0,
+		61,
+		0,
+		39,
+		10,
+		28.8,
+		48,
+		0
+	},
+	attrs_growth = {
+		15877,
+		610,
+		485,
+		782,
+		0,
+		422,
+		0,
+		613,
+		482,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		352
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.45,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Trento-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603043] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "的里雅斯德",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603040,
+	english_name = "RN Trieste",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 603043,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1091,
+		77,
+		61,
+		62,
+		0,
+		61,
+		0,
+		39,
+		10,
+		28.8,
+		48,
+		0
+	},
+	attrs_growth = {
+		15877,
+		610,
+		485,
+		782,
+		0,
+		422,
+		0,
+		613,
+		482,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		353
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.55,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Trento-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603044] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "的里雅斯德",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603040,
+	english_name = "RN Trieste",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 603044,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1552,
+		109,
+		87,
+		89,
+		0,
+		61,
+		0,
+		39,
+		10,
+		28.8,
+		48,
+		0
+	},
+	attrs_growth = {
+		15877,
+		610,
+		485,
+		782,
+		0,
+		422,
+		0,
+		613,
+		482,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		354
+	},
+	default_equip_list = {
+		102,
+		105,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.7,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Trento-Class"
 	}
 }
 
@@ -213236,6 +214272,506 @@ _G.pg.base.ship_data_statistics[607014] = {
 	},
 	tag_list = {
 		"Aquila"
+	}
+}
+
+_G.pg.base.ship_data_statistics[607021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "帝國",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 607020,
+	english_name = "RN Impero",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 607021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1235,
+		0,
+		0,
+		63,
+		82,
+		45,
+		0,
+		31,
+		12,
+		30,
+		32,
+		0
+	},
+	attrs_growth = {
+		30130,
+		0,
+		0,
+		1329,
+		1011,
+		310,
+		0,
+		466,
+		259,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		148,
+		150,
+		149
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.2,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Impero"
+	}
+}
+
+_G.pg.base.ship_data_statistics[607022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "帝國",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 607020,
+	english_name = "RN Impero",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 607022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1536,
+		0,
+		0,
+		78,
+		102,
+		45,
+		0,
+		31,
+		12,
+		30,
+		32,
+		0
+	},
+	attrs_growth = {
+		30130,
+		0,
+		0,
+		1329,
+		1011,
+		310,
+		0,
+		466,
+		259,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		148,
+		150,
+		149
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.2,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Impero"
+	}
+}
+
+_G.pg.base.ship_data_statistics[607023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "帝國",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 607020,
+	english_name = "RN Impero",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 607023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2139,
+		0,
+		0,
+		109,
+		143,
+		45,
+		0,
+		31,
+		12,
+		30,
+		32,
+		0
+	},
+	attrs_growth = {
+		30130,
+		0,
+		0,
+		1329,
+		1011,
+		310,
+		0,
+		466,
+		259,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		148,
+		150,
+		149
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Impero"
+	}
+}
+
+_G.pg.base.ship_data_statistics[607024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "帝國",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 607020,
+	english_name = "RN Impero",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 607024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3043,
+		0,
+		0,
+		155,
+		204,
+		45,
+		0,
+		31,
+		12,
+		30,
+		32,
+		0
+	},
+	attrs_growth = {
+		30130,
+		0,
+		0,
+		1329,
+		1011,
+		310,
+		0,
+		466,
+		259,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		148,
+		150,
+		149
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Impero"
 	}
 }
 
@@ -226715,7 +228251,8 @@ _G.pg.base.ship_data_statistics[805012] = {
 	},
 	tag_list = {
 		"Richelieu-Class",
-		"Richelieu"
+		"Richelieu",
+		"PRE"
 	}
 }
 
@@ -226841,7 +228378,8 @@ _G.pg.base.ship_data_statistics[805013] = {
 	},
 	tag_list = {
 		"Richelieu-Class",
-		"Richelieu"
+		"Richelieu",
+		"PRE"
 	}
 }
 
@@ -226967,7 +228505,8 @@ _G.pg.base.ship_data_statistics[805014] = {
 	},
 	tag_list = {
 		"Richelieu-Class",
-		"Richelieu"
+		"Richelieu",
+		"PRE"
 	}
 }
 
@@ -232213,7 +233752,8 @@ _G.pg.base.ship_data_statistics[904012] = {
 		{}
 	},
 	tag_list = {
-		"Dunkerque-Class"
+		"Dunkerque-Class",
+		"PRE"
 	}
 }
 
@@ -232338,7 +233878,8 @@ _G.pg.base.ship_data_statistics[904013] = {
 		{}
 	},
 	tag_list = {
-		"Dunkerque-Class"
+		"Dunkerque-Class",
+		"PRE"
 	}
 }
 
@@ -232463,7 +234004,8 @@ _G.pg.base.ship_data_statistics[904014] = {
 		{}
 	},
 	tag_list = {
-		"Dunkerque-Class"
+		"Dunkerque-Class",
+		"PRE"
 	}
 }
 
@@ -232713,7 +234255,8 @@ _G.pg.base.ship_data_statistics[905012] = {
 		{}
 	},
 	tag_list = {
-		"Richelieu-Class"
+		"Richelieu-Class",
+		"PRE"
 	}
 }
 
@@ -232838,7 +234381,8 @@ _G.pg.base.ship_data_statistics[905013] = {
 		{}
 	},
 	tag_list = {
-		"Richelieu-Class"
+		"Richelieu-Class",
+		"PRE"
 	}
 }
 
@@ -232963,7 +234507,8 @@ _G.pg.base.ship_data_statistics[905014] = {
 		{}
 	},
 	tag_list = {
-		"Richelieu-Class"
+		"Richelieu-Class",
+		"PRE"
 	}
 }
 
@@ -289265,7 +290810,8 @@ _G.pg.base.ship_data_statistics[899022] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }
 
@@ -289390,7 +290936,8 @@ _G.pg.base.ship_data_statistics[899023] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }
 
@@ -289515,7 +291062,8 @@ _G.pg.base.ship_data_statistics[899024] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }
 
@@ -290650,7 +292198,8 @@ _G.pg.base.ship_data_statistics[499051] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"O-Class"
 	}
 }
 
@@ -290777,7 +292326,8 @@ _G.pg.base.ship_data_statistics[499052] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"O-Class"
 	}
 }
 
@@ -290904,7 +292454,8 @@ _G.pg.base.ship_data_statistics[499053] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"O-Class"
 	}
 }
 
@@ -291031,7 +292582,8 @@ _G.pg.base.ship_data_statistics[499054] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"O-Class"
 	}
 }
 

@@ -240,7 +240,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "达·芬奇贴着传输管线向下移动，终于发现了一个由玻璃包合围而成的透明舱室，在深海中散发着幽暗的微光。",
+			say = "达·芬奇贴着传输管线向下移动，终于发现了一个由玻璃合围而成的透明舱室，在深海中散发着幽暗的微光。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -16,7 +16,7 @@ return {
 			actor = 107070,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "明明帝国也有舰载机，居然到现在还没有汇合……",
+			say = "明明帝國也有艦載機，居然到現在還沒有匯合……",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "寻找撒丁的同伴的过程比想象中要困难啊。",
+			say = "尋找薩丁的同伴的過程比想像中要困難啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们来的时候也不知道她们的准确方位，也许是正好错开了？",
+			say = "我們來的時候也不知道她們的準確方位，也許是正好錯開了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "中心区域的塔一直在释放着强烈干扰，那里肯定有什么特别不妙的东西。",
+			say = "中心區域的塔一直在釋放著強烈干擾，那裡肯定有什麼特別不妙的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "向中心移动吧。撒丁舰队也知道破坏镜面海域的方法，目标一致肯定能碰上的。",
+			say = "向中心移動吧。薩丁艦隊也知道破壞鏡面海域的方法，目標一致肯定能碰上的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "记得一路上多弄出一些动静来，这样更容易吸引到舰载机的注意。",
+			say = "記得一路上多弄出一些動靜來，這樣更容易吸引到艦載機的注意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比如姐姐可以发出那种被萤火虫头槌击中的声音？",
+			say = "比如姐姐可以發出那種被螢火蟲頭槌擊中的聲音？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "萤火虫根本就不在这里吧？",
+			say = "螢火蟲根本就不在這裡吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对，谁会发出那种声音啊！",
+			say = "不對，誰會發出那種聲音啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "向着中心前进的话，敌人应该有很多……我觉得光是战斗的声音就足够吸引人了。",
+			say = "向著中心前進的話，敵人應該有很多……我覺得光是戰鬥的聲音就足夠吸引人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！{namecode:96}说的多有道理！",
+			say = "沒錯！瑞鶴說的多有道理！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊~这里有个老实人——",
+			say = "啊~這裡有個老實人——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根！！！",
+			say = "歐根！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "该说这姐妹俩是关系好呢还是不好呢......",
+			say = "該說這姐妹倆是關係好呢還是不好呢......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这大概就是不同的姐妹间的不同相处方式吧……",
+			say = "這大概就是不同的姐妹間的不同相處方式吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……嗯？在前往中心区域的航路上发现了更多塞壬舰队！",
+			say = "……嗯？在前往中心區域的航路上發現了更多塞壬艦隊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来愉快的闲聊时间要告一段落了呢，加油哦姐姐！",
+			say = "看來愉快的閒聊時間要告一段落了呢，加油哦姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只有你在单方面感到愉快吧！！",
+			say = "只有妳在單方面感到愉快吧！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有！这次你给我冲在最前面！",
+			say = "還有！這次妳給我衝在最前面！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "从刚刚开始就在一直摸鱼偷懒！接下来给我认真一点！",
+			say = "從剛剛開始就在一直摸魚偷懶！接下來給我認真一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

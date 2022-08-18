@@ -10,9 +10,10 @@ slot0.ON_DAILY_LEVEL = "LevelMediator2:ON_DAILY_LEVEL"
 slot0.ON_OPEN_MILITARYEXERCISE = "LevelMediator2:ON_OPEN_MILLITARYEXERCISE"
 slot0.ON_OVERRIDE_CHAPTER = "LevelMediator2:ON_OVERRIDE_CHAPTER"
 slot0.ON_TIME_UP = "LevelMediator2:ON_TIME_UP"
-slot0.ON_EVENT_LIST_UPDATE = "LevelMediator2:ON_EVENT_LIST_UPDATE"
+slot0.UPDATE_EVENT_LIST = "LevelMediator2:UPDATE_EVENT_LIST"
 slot0.ON_START = "ON_START"
 slot0.ON_ENTER_MAINLEVEL = "LevelMediator2:ON_ENTER_MAINLEVEL"
+slot0.ON_DIDENTER = "LevelMediator2:ON_DIDENTER"
 slot0.ON_PERFORM_COMBAT = "LevelMediator2.ON_PERFORM_COMBAT"
 slot0.ON_ELITE_OEPN_DECK = "LevelMediator2:ON_ELITE_OEPN_DECK"
 slot0.ON_ELITE_CLEAR = "LevelMediator2:ON_ELITE_CLEAR"
@@ -161,7 +162,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_TIME_UP, function ()
 		uv0:onTimeUp()
 	end)
-	slot0:bind(uv0.ON_EVENT_LIST_UPDATE, function ()
+	slot0:bind(uv0.UPDATE_EVENT_LIST, function ()
 		uv0.viewComponent:addbubbleMsgBox(function (slot0)
 			uv0:OnEventUpdate(slot0)
 		end)
@@ -415,8 +416,11 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_ENTER_MAINLEVEL, function (slot0, slot1)
 		uv0:DidEnterLevelMainUI(slot1)
 	end)
+	slot0:bind(slot0.ON_DIDENTER, function (slot0)
+		uv0.viewComponent:emit(LevelMediator2.UPDATE_EVENT_LIST)
+	end)
 	slot0:bind(uv0.ENTER_WORLD, function (slot0)
-		uv0:sendNotification(GAME.ENTER_WORLD)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
 	end)
 	slot0:bind(uv0.ON_CHAPTER_REMASTER_AWARD, function (slot0, slot1)
 		uv0:sendNotification(GAME.CHAPTER_REMASTER_AWARD_RECEIVE, {
@@ -451,29 +455,16 @@ function slot0.register(slot0)
 
 	slot10 = getProxy(ChapterProxy)
 
+	slot10:updateActiveChapterShips()
 	slot0.viewComponent:updateSubInfo(slot10.subRefreshCount, slot10.subProgress)
 	slot0.viewComponent:setSpecialOperationTickets(getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET))
-	slot0.viewComponent:ShowEntranceUI(slot0.contextData.entranceStatus)
-
-	if not slot0.contextData.entranceStatus and slot0.contextData.InitializeMap then
-		slot0:DidEnterLevelMainUI(slot0.contextData.InitializeMap)
-
-		slot0.contextData.InitializeMap = nil
-	end
-
-	slot10:updateActiveChapterShips()
 end
 
 function slot0.DidEnterLevelMainUI(slot0, slot1)
 	slot0.viewComponent:setMap(slot1)
 
 	if slot0.contextData.chapterVO and slot2.active then
-		slot0.contextData.isSwitchToChapter = true
-		slot3 = slot0.viewComponent
-
-		slot3:switchToChapter(slot2, function ()
-			uv0:OnSwitchChapterDone()
-		end)
+		slot0.viewComponent:switchToChapter(slot2)
 	elseif slot0.contextData.map:isSkirmish() then
 		slot3 = slot0.viewComponent
 
@@ -533,9 +524,8 @@ end
 function slot0.NoticeVoteBook(slot0, slot1)
 	if getProxy(VoteProxy):IsNewOrderBook() then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			yesText = "text_forward",
 			noText = "text_iknow",
-			keepSettings = true,
+			yesText = "text_forward",
 			content = i18n("vote_get_book"),
 			onYes = function ()
 				if getProxy(VoteProxy):GetOrderBook() and not slot0:IsExpired() then
@@ -551,7 +541,7 @@ function slot0.NoticeVoteBook(slot0, slot1)
 	end
 end
 
-function slot0.OnSwitchChapterDone(slot0)
+function slot0.TryPlaySubGuide(slot0)
 	slot0.viewComponent:tryPlaySubGuide()
 end
 
@@ -621,28 +611,7 @@ function slot0.handleNotification(slot0, slot1)
 				slot1 = uv0.win
 				slot2 = uv1.contextData.chapterVO or uv0.chapterVO
 
-				if uv0.type == ChapterConst.OpRetreat then
-					slot3 = false
-					slot5 = uv1.viewComponent
-
-					slot5:addbubbleMsgBox(function ()
-						uv0 = false
-
-						if uv1 then
-							uv2()
-						end
-
-						uv3.viewComponent:CleanBubbleMsgbox()
-					end)
-
-					if true then
-						slot3 = true
-
-						coroutine.yield()
-					end
-				end
-
-				if slot0 == ChapterConst.OpRetreat and uv0.exittype and uv0.exittype == ChapterConst.ExitFromMap then
+				if uv0.type == ChapterConst.OpRetreat and uv0.exittype and uv0.exittype == ChapterConst.ExitFromMap then
 					uv1.viewComponent:setChapter(nil)
 					uv1.viewComponent:updateChapterTF(slot2.id)
 					uv1:OnExitChapter(slot2, slot1, uv0.extendData)
@@ -714,10 +683,6 @@ function slot0.handleNotification(slot0, slot1)
 
 						if slot4:getContextByMediator(ChapterPreCombatMediator) then
 							table.insert(slot5, slot6)
-						end
-
-						if slot4:getContextByMediator(RivalInfoMediator) then
-							table.insert(slot5, slot7)
 						end
 
 						_.each(slot5, function (slot0)
@@ -1089,6 +1054,21 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 	assert(slot1)
 	seriesAsync({
 		function (slot0)
+			if not uv0.contextData.chapterVO then
+				return slot0()
+			end
+
+			uv0.viewComponent:switchToMap(slot0)
+		end,
+		function (slot0)
+			slot1 = uv0.viewComponent
+
+			slot1:addbubbleMsgBox(function ()
+				uv0.viewComponent:CleanBubbleMsgbox()
+				uv1()
+			end)
+		end,
+		function (slot0)
 			if not uv0 then
 				return slot0()
 			end
@@ -1145,13 +1125,6 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 			end
 
 			slot0()
-		end,
-		function (slot0)
-			if not uv0.contextData.chapterVO then
-				return slot0()
-			end
-
-			uv0.viewComponent:switchToMap(slot0)
 		end,
 		function (slot0)
 			if not uv0 then
@@ -1263,6 +1236,8 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 			if uv1 then
 				uv0.viewComponent:RefreshMapBG()
 			end
+
+			uv0:TryPlaySubGuide()
 		end
 	})
 end
@@ -1280,7 +1255,6 @@ function slot0.OnEventUpdate(slot0, slot1)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = false,
 				hideNo = true,
-				keepSettings = true,
 				content = i18n("event_special_update", pg.collection_template[slot4] and pg.collection_template[slot4].title or ""),
 				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = slot1,

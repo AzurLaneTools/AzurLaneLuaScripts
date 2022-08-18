@@ -736,7 +736,7 @@ function slot0.updateSelecteds(slot0)
 
 	slot0:updateSelectCntTxt()
 
-	if slot0.contextData.activeCommander then
+	if slot0.contextData.activeCommander and slot0.contextData.prevView then
 		slot2 = Clone(slot0.contextData.activeCommander)
 		slot3 = 0
 

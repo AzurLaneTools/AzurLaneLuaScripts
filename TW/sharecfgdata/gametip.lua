@@ -9254,6 +9254,14 @@ _G.pg.base.gametip.summary_page_un_rearch = {
 	tip = "未獲得"
 }
 
+_G.pg.base.gametip.player_summary_from = {
+	tip = "來自特殊作戰："
+}
+
+_G.pg.base.gametip.player_summary_data = {
+	tip = "獲得日期"
+}
+
 _G.pg.base.gametip.commander_exp_overflow_tip = {
 	tip = "陪玩後獲得的經驗將會超出上限，是否確認"
 }
@@ -9347,7 +9355,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "可怖、黎胥留、阿爾及利亞、馬耶·布雷澤、沃克蘭 建造機率UP！"
+	tip = "帝國、的里雅斯德、可畏 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -19316,4 +19324,58 @@ _G.pg.base.gametip.word_japanese = {
 
 _G.pg.base.gametip.avatarframe_got = {
 	tip = "已領取"
+}
+
+_G.pg.base.gametip.item_is_max_cnt = {
+	tip = "持有道具已達上限"
+}
+
+_G.pg.base.gametip.level_fleet_ship_desc = {
+	tip = "可出擊艦隊數： "
+}
+
+_G.pg.base.gametip.level_fleet_sub_desc = {
+	tip = "潛艇艦隊數："
+}
+
+_G.pg.base.gametip.summerland_tip = {
+	tip = {
+		{
+			info = [[
+活動時間：<color=#92fc63>2022.8.18-2022.9.1</color>
+活動簡介：
+「啾啾冰淇淋」：參與小遊戲獲取限定頭像
+「急速！騎馬戰！」：參與活動獲取限定換裝
+「換裝商店」：購買限時換裝
+「限時建造」：建造限時角色]]
+		}
+	}
+}
+
+_G.pg.base.gametip.icecreamgame_tip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.<color=#92fc63>8月24日</color>為止每日0點開放<color=#92fc63>1</color>場新的遊戲，總計<color=#92fc63>7</color>場，可累計。完成遊戲可以獲得限定頭像框在內的豐富獎勵。
+
+遊戲規則：
+1.店長需要根據客人們的需求在規定的時間內製作冰淇淋；如果超過時間或者不符合客人們的需求就會判定為失敗
+
+2.選擇冰淇淋的口味和配料製作冰淇淋，每種冰淇淋的口味和配料選擇次數有限，到達規定的次數就會製作成冰淇淋交給客人
+
+3.根據製作的冰淇淋客人們會有不同的表現，也會有相應的評價分數
+
+4.冰淇淋口味100分，配料50分，順序20分，製作剩餘時間也會轉換為分數；冰淇淋難度分為簡單、一般、困難三種類型
+
+5.時間歸零或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。
+
+特殊效果：
+1.完美製作困難冰淇淋的時候有機率觸發，下一次冰淇淋製作時間減慢90%，持續4秒，觸發之後冷卻時間為5秒
+
+2.連續2次製作的冰淇淋符合客人的需求，下一位客人的等待時間增加2秒
+
+3.連續2次達成同一位客人的需求，下一位客人的評價分數增加100%（每位客人每場小遊戲僅能觸發一次）]]
+		}
+	}
 }

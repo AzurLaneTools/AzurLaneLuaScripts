@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "异常海域·周边",
+			say = "異常海域·周邊",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202100,
-			say = "光辉大人，可畏大人，即将抵达目标海域。",
+			say = "光輝大人，可畏大人，即將抵達目標海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……确实很可疑。",
+			say = "唔……確實很可疑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像把“这里是塞壬的建筑哦”的字写成横幅挂出来一样……",
+			say = "簡直就像把“這裡是塞壬的建築哦”的字寫成橫幅掛出來一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可畏，你那边有什么发现么？",
+			say = "可畏，妳那邊有什麼發現嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "暂时没有。既没有发现撒丁舰队也没有发现塞壬舰队。",
+			say = "暫時沒有。既沒有發現薩丁艦隊也沒有發現塞壬艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "格罗斯特，你还记得那支撒丁舰队的旗舰是谁么？",
+			say = "格羅斯特，妳還記得那支薩丁艦隊的旗艦是誰嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帝国。",
+			say = "帝國。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "不妙……那个帝国带队的话，该不会已经一边喊着伟大的帝国要把所有敌人轰上天一边出击了吧……",
+			say = "不妙……那個帝國帶隊的話，該不會已經一邊喊著偉大的帝國要把所有敵人轟上天一邊出擊了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？！我还没怎么和她交流过，帝国是这样的孩子么……",
+			say = "欸？！我還沒怎麼和她交流過，帝國是這樣的孩子嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "嗯……没错！我们之前因为一些事在SNS上激烈的交锋过！",
+			say = "嗯……沒錯！我們之前因為一些事在SNS上激烈的交鋒過！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么事……？",
+			say = "什麼事……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "光辉姐不会感兴趣的话题啦……比如能不能用舰载机当乐团演奏音乐的话题。",
+			say = "光輝姐不會感興趣的話題啦……比如能不能用艦載機當樂團演奏音樂的話題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……为什么会谈论这种话题……？",
+			say = "……為什麼會談論這種話題……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "光辉姐不用在意！",
+			say = "光輝姐不用在意！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论如何，根据指挥官的命令，我们需要在撒丁舰队遇到危险之前与她们汇合，然后共同排除塞壬威胁。",
+			say = "不論如何，根據指揮官的命令，我們需要在薩丁艦隊遇到危險之前與她們匯合，然後共同排除塞壬威脅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这里毕竟是镜面海域，我们抓紧时间行动吧。",
+			say = "這裡畢竟是鏡面海域，我們抓緊時間行動吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "异常海域·中心外围",
+			say = "異常海域·中心外圍",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鳟鱼、鲑鱼、沙丁鱼。",
+			say = "鱒魚、鮭魚、沙丁魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "帝国突然开始报食物名了！",
+			say = "帝國突然開始報食物名了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "这三种鱼我都喜欢吃哦~！",
+			say = "這三種魚我都喜歡吃哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鲣鱼、鯵鱼、秋刀鱼。",
+			say = "鰹魚、鯵魚、秋刀魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……这一批感觉有些重樱的风格。",
+			say = "唔……這一批感覺有些重櫻的風格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "……不过秋刀鱼很好吃！",
+			say = "……不過秋刀魚很好吃！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鲤鱼、鲥鱼、桂花鱼。",
+			say = "鯉魚、鰣魚、桂花魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "欸……诶？！这些都是什么鱼呀……",
+			say = "欸……誒？！這些都是什麼魚呀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "这些我知道~都是些东煌那边比较爱吃的淡水鱼吧。",
+			say = "這些我知道~都是些東煌那邊比較愛吃的淡水魚吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……淡水鱼？",
+			say = "……淡水魚？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与我们常吃的生活在海中海水鱼不同，淡水鱼主要生存在淡水为主的江河湖泊中。",
+			say = "與我們常吃的生活在海中的海水魚不同，淡水魚主要生存在淡水為主的江河湖泊中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "也有一些是会在淡水与海水之间巡游洄游的类型。",
+			say = "也有一些是會在淡水與海水之間巡遊洄游的類型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "其中鲥鱼更是鱼中极品，有机会的话真想品尝一下……",
+			say = "其中鰣魚更是魚中極品，有機會的話真想品嚐一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "哇啊……不愧是军需官！对食物真了解啊！",
+			say = "哇啊……不愧是軍需官！對食物真了解啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帝国也真是厉害，从哪里知道这么多鱼的名字的……",
+			say = "帝國也真是厲害，從哪裡知道這麼多魚的名字的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鲦鱼、棘鳍、射水鱼。",
+			say = "鰷魚、棘鰭、射水魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "额，这一次感觉好像不只是在说水产的事了……！",
+			say = "額，這一次感覺好像不只是在說水產的事了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最后是，剑鱼、梭鱼、青花鱼——",
+			say = "最後是，劍魚、梭魚、青花魚——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "嗯……？这一次难道说的是……",
+			say = "嗯……？這一次難道說的是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "啊、！我也看到了！是皇家的舰载机群！",
+			say = "啊、！我也看到了！是皇家的艦載機群！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "原来帝国开始数鱼是因为看到了皇家舰载机群啊！",
+			say = "原來帝國開始數魚是因為看到了皇家艦載機群啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "港区的支援来得好快……不愧是指挥官。",
+			say = "港區的支援來得好快……不愧是指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "青花鱼意面……回头拜托一下皇家航母好了。",
+			say = "青花魚義大利麵……回頭拜託一下皇家航母好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（扶额）咳……帝国，皇家舰队的具体位置在哪里，我们还是先去汇合吧。",
+			say = "（扶額）咳……帝國，皇家艦隊的具體位置在哪裡，我們還是先去匯合吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

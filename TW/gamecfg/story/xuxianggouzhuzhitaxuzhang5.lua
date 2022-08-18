@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "稍早之前的演习海域——",
+			say = "稍早之前的演習海域——",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "灰色幽灵的妹妹，吃我这一招！",
+			say = "灰色幽靈的妹妹，吃我這一招！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "你对我姐姐未免太过执着了吧！现在是我们两个在演习！",
+			say = "妳對我姐姐未免太過執著了吧！現在是我們兩個在演習！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "企业姐虽然很强，不过我对自己也是很有自信的！接招！",
+			say = "企業姐雖然很強，不過我對自己也是很有自信的！接招！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "让你见识一下我的厉害——",
+			say = "讓妳見識一下我的厲害——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "二人激战正酣，忽然收到来自港区的通讯。",
+			say = "二人激戰正酣，忽然收到來自港區的通訊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "……撒丁舰队在回港途中发现了镜面海域正在呼叫增援？",
+			say = "……薩丁艦隊在回港途中發現了鏡面海域正在呼叫增援？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "这可不是能悠然进行演习的时候了啊。",
+			say = "這可不是能悠然進行演習的時候了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，这种情况还是以支援同伴为最优先。",
+			say = "嗯，這種情況還是以支援同伴為最優先。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来用实战战绩一决高下吧！",
+			say = "接下來用實戰戰績一決高下吧！",
 			effects = {
 				{
 					active = true,

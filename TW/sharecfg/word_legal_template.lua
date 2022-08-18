@@ -5167,3 +5167,47 @@ function temp()
 end
 
 temp()
+
+function temp()
+	uv0["龐"] = {
+		["培"] = {
+			["·"] = {
+				["馬"] = {
+					["格"] = {
+						["諾"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["的"] = {
+		["里"] = {
+			["雅"] = {
+				["斯"] = {
+					["德"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["帝"] = {
+		["國"] = {
+			this = true
+		}
+	}
+end
+
+temp()

@@ -169,7 +169,7 @@ function slot0.execute(slot0, slot1)
 				})
 			end
 		else
-			warning(string.format("SLG操作%d 请求失效，重新拉取信息", uv1.type))
+			errorMsg(string.format("SLG操作%d 请求失效，重新拉取信息", uv1.type))
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("levelScene_operation", slot0.result))
 
 			if uv1.type ~= ChapterConst.OpRequest and uv1.type ~= ChapterConst.OpRetreat and uv1.type ~= ChapterConst.OpSubTeleport then

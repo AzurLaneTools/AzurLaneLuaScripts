@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "然后……一行人抵达了高塔之下。",
+			say = "然後……一行人抵達了高塔之下。",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "面对逼近的舰队，海面之上的高塔依然毫无动静，既没有进行反击的防御设施，也没有出现任何护卫舰队。",
+			say = "面對逼近的艦隊，海面之上的高塔依然毫無動靜，既沒有進行反擊的防禦設施，也沒有出現任何護衛艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "没有花招也没有陷阱，真的只是单纯什么都没有啊……",
+			say = "沒有花招也沒有陷阱，真的只是單純什麼都沒有啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "看到了不起的帝国带领舰队抵达，吓得门都不出了么。",
+			say = "看到了不起的帝國帶領艦隊抵達，嚇得門都不出了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "哼哼，如各位所见，这座塞壬镜面海域的核心设施已经被伟大的庞培队长及其队友征服了！",
+			say = "哼哼，如各位所見，這座塞壬鏡面海域的核心設施已經被偉大的龐培隊長及其隊友征服了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说征服有些不准确，塔本身的面积很大，也不知道里面都有些什么东西……",
+			say = "說征服有些不準確，塔本身的面積很大，也不知道裡面都有些什麼東西……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐，你去开大门吧，我们给你做警戒。",
+			say = "姐姐，妳去開大門吧，我們給妳做警戒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈？！为什么是我去开啊！",
+			say = "哈？！為什麼是我去開啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是想让装甲薄弱的驱逐舰去冒险，还是让需要护航的航母去冒险呢？",
+			say = "妳是想讓裝甲薄弱的驅逐艦去冒險，還是讓需要護航的航母去冒險呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没关系，前方的探索就交给我吧。",
+			say = "沒關係，前方的探索就交給我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "算、算啦！好歹我也是重巡洋舰，情况不明的时候还是我顶在前面吧！",
+			say = "算、算啦！好歹我也是重巡洋艦，情況不明的時候還是我頂在前面吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "欧根亲王，也是重巡。",
+			say = "歐根親王，也是重巡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊————对啊！又让你蒙混过去了！",
+			say = "啊————對啊！又讓妳蒙混過去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "被发现了啊……那就。",
+			say = "被發現了啊……那就。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "轟————————！",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你突然开火做什么呀！！",
+			say = "妳突然開火做什麼呀！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎~姐姐难道是打算在情况不明的时候直接跑过去用手开么？",
+			say = "哎~姐姐難道是打算在情況不明的時候直接跑過去用手開嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是炮击没有造成任何损伤呢。",
+			say = "但是炮擊沒有造成任何損傷呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "帝国调动舰载机群对塔的正面发动了猛烈攻击，不过似乎依然没有造成损伤。",
+			say = "帝國調動艦載機群對塔的正面發動了猛烈攻擊，不過似乎依然沒有造成損傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "嗯……现在是一拳打在钢板上。",
+			say = "嗯……現在是一拳打在鋼板上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "是时候借助姐姐们的力量了。",
+			say = "是時候借助姐姐們的力量了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "维内托姐、利托里奥姐，把力量借给我吧——",
+			say = "維內托姐、利托里奧姐，把力量借給我吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "帝国高举双手，好像在自言自语地说些什么。",
+			say = "帝國高舉雙手，好像在自言自語地說些什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帝国小姐……好像突然开始了奇怪的仪式一样……",
+			say = "帝國小姐……好像突然開始了奇怪的儀式一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过有些可爱~我们也一起上吧，集合力量试一下！",
+			say = "不過有些可愛~我們也一起上吧，集合力量試一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，大家一起来波总攻击！",
+			say = "嗯，大家一起來波總攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			}
 		},
 		{
-			say = "轰—————————！",
+			say = "轟—————————！",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -632,7 +632,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "庞大的舰载机群发动了一波最为猛烈的进攻。",
+			say = "龐大的艦載機群發動了一波最為猛烈的進攻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "塔似乎依然没有产生任何损伤，不过，也不是完全没有出现变化。",
+			say = "塔似乎依然沒有產生任何損傷，不過，也不是完全沒有出現變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			say = "滴——————",
 			typewriter = {
 				speed = 0.05,
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "和港区的通讯恢复了……？",
+			say = "和港區的通訊恢復了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "周围的异常海况也在消失…？简直就像镜面海域开始解除了一样！",
+			say = "周圍的異常海況也在消失…？簡直就像鏡面海域開始解除了一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "是啊，除了正前方的塔依然纹丝不动的屹立着之外……",
+			say = "是啊，除了正前方的塔依然紋絲不動的屹立著之外……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么反常的情况我还是第一次见，果然有些意思。",
+			say = "這麼反常的情況我還是第一次見，果然有些意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "……居然干净利落的放弃了？",
+			say = "……居然乾淨俐落的放棄了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "塞壬已经认输投降，是伟大帝国的胜利。",
+			say = "塞壬已經認輸投降，是偉大帝國的勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "取胜之后就应该凯旋而还，我要回去泡澡了。",
+			say = "取勝之後就應該凱旋而還，我要回去泡澡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "听起来好像精神胜利法……",
+			say = "聽起來好像精神勝利法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过可畏，凭借我们现在的火力好像也确实打不破塔的防御……",
+			say = "不過可畏，憑藉我們現在的火力好像也確實打不破塔的防禦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,7 +857,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且根据现状，支援撒丁帝国舰队与解除镜面海域，指挥官布置的这两项任务也可以算作全部达成了哦。",
+			say = "而且根據現狀，支援薩丁帝國艦隊與解除鏡面海域，指揮官安排的這兩項任務也可以算作全部達成了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然留了一座奇怪的塔……",
+			say = "雖然留了一座奇怪的塔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -891,7 +891,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……虽然留了一座奇怪的塔。",
+			say = "嗯……雖然留了一座奇怪的塔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "凯旋咯，凯旋————",
+			say = "凱旋囉，凱旋————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "啊，自顾自准备返航了！",
+			say = "啊，自顧自準備返航了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "撒丁舰队旗舰是帝国。既然我们是来和撒丁舰队汇合的，我觉得这里就听帝国的好了？",
+			say = "薩丁艦隊旗艦是帝國。既然我們是來和薩丁艦隊匯合的，我覺得這裡就聽帝國的好了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -961,7 +961,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说的也是……也许喜欢奇思妙想的人反而最适合处理这种莫名其妙的状况吧。",
+			say = "說的也是……也許喜歡奇思妙想的人反而最適合處理這種莫名其妙的狀況吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -978,7 +978,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回去之后让{namecode:98}来调查一下，也许她能有什么打开的办法呢！",
+			say = "回去之後讓明石來調查一下，也許她能有什麼打開的辦法呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,7 +995,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等……欧根，我们也要返航么？",
+			say = "等等……歐根，我們也要返航嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1012,7 +1012,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……理论上不用。我们是度假中被任务召回的，既然任务完成，我们也可以接着度假去了。",
+			say = "唔……理論上不用。我們是度假中被任務召回的，既然任務完成，我們也可以接著度假去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,7 +1029,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过回去之后，撒丁要开一个超级豪华的茶会犒劳我们吧？",
+			say = "不過回去之後，薩丁要開一個超級豪華的茶會犒勞我們吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1046,7 +1046,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你说得对！临时加班了这么久，应该好好吃回来！",
+			say = "……妳說得對！臨時加班了這麼久，應該好好吃回來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,7 +1064,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "那大家就一起返航咯，返航——！",
+			say = "那大家就一起返航囉，返航——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1088,7 +1088,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "就这样，众人掉转航向返航了。",
+			say = "就這樣，眾人掉轉航向返航了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1102,7 +1102,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "海面上的塔渐渐远去，最后完全消失在众人的视野中。",
+			say = "海面上的塔漸漸遠去，最後完全消失在眾人的視野中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,7 +1117,7 @@ return {
 			bgName = "bg_story_tower",
 			dir = 1,
 			blackBg = true,
-			say = "至于回去之后的茶会与龙骑兵的检讨书，又是另一个故事了——",
+			say = "至於回去之後的茶會與龍騎兵的檢討書，又是另一個故事了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

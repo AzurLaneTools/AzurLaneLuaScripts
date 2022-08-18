@@ -227,7 +227,7 @@ function slot0.execute(slot0, slot1)
 		end
 	elseif slot9 == 30 then
 		if slot10 == 4 then
-			slot0:sendNotification(GAME.ENTER_WORLD)
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
 		end
 	elseif slot9 == 40 then
 		if slot10 == 2 then

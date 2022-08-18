@@ -15,6 +15,7 @@ function slot0.Init(slot0, slot1)
 	slot0:Load(slot2)
 
 	slot0.name = slot2
+	slot0.propose = slot1.propose
 end
 
 function slot0.Refresh(slot0, slot1)
@@ -23,6 +24,8 @@ function slot0.Refresh(slot0, slot1)
 	elseif slot0.spineAnim then
 		slot0.spineAnim:Resume()
 	end
+
+	slot0.propose = slot1.propose
 end
 
 function slot0.Disable(slot0)

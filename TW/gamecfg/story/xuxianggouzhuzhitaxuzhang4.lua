@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根……你怎么看？",
+			say = "歐根……妳怎麼看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "撒丁舰队的求援通讯为什么会莫名其妙发到我们这来啊！",
+			say = "薩丁艦隊的求援通訊為什麼會莫名其妙發到我們這來啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很遗憾，看来美好假期中的一部分时间要泡汤了。",
+			say = "很遺憾，看來美好假期中的一部分時間要泡湯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是我们才刚出港没多久啊！！",
+			say = "可是我們才剛出港沒多久啊！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别抱怨啦，就当稍微绕个远路咯~",
+			say = "別抱怨啦，就當稍微繞個遠路囉~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我对通讯里提到的那座奇异的“塔”还蛮有兴趣的。",
+			say = "我對通訊裡提到的那座奇異的“塔”還蠻有興趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我！完全！没有！",
+			say = "我！完全！沒有！",
 			effects = {
 				{
 					active = true,
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好好好~那我们就从没收到过什么联络，就当无事发生好了。",
+			say = "好好好~那我們就從沒收到過什麼聯絡，就當無事發生好了。",
 			effects = {
 				{
 					active = false,
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走吧，不用管撒丁舰队即将迎来的悲惨的遭遇，我们接着去度假就是了~",
+			say = "走吧，不用管薩丁艦隊即將迎來的悲慘的遭遇，我們接著去度假就是了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么了，姐姐~不走么？",
+			say = "怎麼了，姐姐~不走嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "快点掉头，我们去找那群撒丁的家伙吧！",
+			say = "快點掉頭，我們去找那群薩丁的傢伙吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
