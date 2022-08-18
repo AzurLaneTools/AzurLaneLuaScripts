@@ -455,6 +455,7 @@ function slot0.register(slot0)
 
 	slot10 = getProxy(ChapterProxy)
 
+	slot10:updateActiveChapterShips()
 	slot0.viewComponent:updateSubInfo(slot10.subRefreshCount, slot10.subProgress)
 	slot0.viewComponent:setSpecialOperationTickets(getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET))
 end
@@ -463,12 +464,7 @@ function slot0.DidEnterLevelMainUI(slot0, slot1)
 	slot0.viewComponent:setMap(slot1)
 
 	if slot0.contextData.chapterVO and slot2.active then
-		slot0.contextData.isSwitchToChapter = true
-		slot3 = slot0.viewComponent
-
-		slot3:switchToChapter(slot2, function ()
-			uv0:OnSwitchChapterDone()
-		end)
+		slot0.viewComponent:switchToChapter(slot2)
 	elseif slot0.contextData.map:isSkirmish() then
 		slot3 = slot0.viewComponent
 
@@ -545,7 +541,7 @@ function slot0.NoticeVoteBook(slot0, slot1)
 	end
 end
 
-function slot0.OnSwitchChapterDone(slot0)
+function slot0.TryPlaySubGuide(slot0)
 	slot0.viewComponent:tryPlaySubGuide()
 end
 
@@ -1240,6 +1236,8 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 			if uv1 then
 				uv0.viewComponent:RefreshMapBG()
 			end
+
+			uv0:TryPlaySubGuide()
 		end
 	})
 end

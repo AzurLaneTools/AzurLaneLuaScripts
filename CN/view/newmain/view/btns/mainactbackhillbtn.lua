@@ -25,6 +25,8 @@ function slot0.IsShowTip(slot0)
 		return slot0:IsShowTip4MusicFestival2()
 	elseif slot1 == ActivityConst.MUSIC_FESTIVAL_MEDALCOLLECTION_2020 then
 		return Activity.isHaveActivableMedal()
+	elseif slot1 == ActivityConst.MINIGAME_ICECREAM then
+		return Activity.isHaveActivableMedal()
 	end
 end
 
@@ -35,6 +37,8 @@ function slot0.CustomOnClick(slot0)
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.MUSIC_FESTIVAL2)
 	elseif slot1 == ActivityConst.MUSIC_FESTIVAL_MEDALCOLLECTION_2020 then
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE2)
+	elseif slot1 == ActivityConst.MINIGAME_ICECREAM then
+		slot0:emit(NewMainMediator.GO_SCENE, SCENE.BACKHILL_SUMMERPARK_2022)
 	else
 		slot0:OnClick()
 	end
@@ -65,6 +69,20 @@ function slot0.IsShowTip4MusicFestival2(slot0)
 		return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
 	end)() or (function ()
 		return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")).count > 0
+	end)()
+end
+
+function slot0.IsShowTip4SummerPark(slot0)
+	return (function ()
+		return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_ICECREAM)
+	end)() or (function ()
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ISUZU_SPORTS_SKIN_ID))
+	end)() or (function ()
+		if PLATFORM_CODE ~= PLATFORM_US then
+			return
+		end
+
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
 	end)()
 end
 

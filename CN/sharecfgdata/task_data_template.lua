@@ -27887,6 +27887,290 @@ _G.pg.base.task_data_template[5787] = {
 	}
 }
 
+_G.pg.base.task_data_template[5791] = {
+	name = "某个阳光明媚的午后",
+	guild_coin_award = 0,
+	award = 5569,
+	type = 5,
+	desc = "提交3个《鱼雷天妇罗》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5792",
+	auto_commit = 0,
+	story_id = "SHUIXINGJINIAN1",
+	id = 5791,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5792] = {
+	name = "为了健康作息",
+	guild_coin_award = 0,
+	award = 5570,
+	type = 5,
+	desc = "强化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "SHUIXINGJINIAN2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5793",
+	auto_commit = 0,
+	scene = "",
+	id = 5792,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5793] = {
+	name = "秘书舰的第一天",
+	guild_coin_award = 0,
+	award = 5571,
+	type = 5,
+	desc = "水星纪念上阵出击(关卡)胜利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "SHUIXINGJINIAN3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "70202",
+	priority_type = 0,
+	next_task = "5794",
+	auto_commit = 0,
+	scene = "",
+	id = 5793,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5794] = {
+	name = "秘书舰的自主原则",
+	guild_coin_award = 0,
+	award = 5572,
+	type = 5,
+	desc = "水星纪念上阵完成3次每日挑战",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "SHUIXINGJINIAN4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "70202",
+	priority_type = 0,
+	next_task = "5795",
+	auto_commit = 0,
+	scene = "",
+	id = 5794,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5795] = {
+	name = "关于奖励的话题",
+	guild_coin_award = 0,
+	award = 5573,
+	type = 5,
+	desc = "水星纪念好感度达到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "SHUIXINGJINIAN5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "70202",
+	priority_type = 0,
+	next_task = "5796",
+	auto_commit = 0,
+	scene = "",
+	id = 5795,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5796] = {
+	name = "薰衣草的香气",
+	guild_coin_award = 0,
+	award = 5574,
+	type = 5,
+	desc = "水星纪念突破至满星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "SHUIXINGJINIAN6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "70202",
+	priority_type = 0,
+	next_task = "5797",
+	auto_commit = 0,
+	scene = "",
+	id = 5796,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5797] = {
+	name = "直到落日的尽头",
+	guild_coin_award = 0,
+	award = 5575,
+	type = 5,
+	desc = "水星纪念等级达到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "SHUIXINGJINIAN7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "70202",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5797,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困难·近海演习",
 	guild_coin_award = 0,
@@ -152010,7 +152294,7 @@ _G.pg.base.task_data_template[16969] = {
 	guild_coin_award = 0,
 	award = 95999,
 	type = 6,
-	desc = "通关EX-I",
+	desc = "通关EX关卡",
 	count_inherit = 0,
 	sub_type = 1020,
 	target_id_2 = "",
@@ -152019,7 +152303,7 @@ _G.pg.base.task_data_template[16969] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 1,
-	target_id = "1560051",
+	target_id = "1560052",
 	quick_finish = 0,
 	level = 1,
 	priority_type = 0,
@@ -183621,6 +183905,1161 @@ _G.pg.base.task_data_template[17853] = {
 			1,
 			273,
 			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17854] = {
+	name = "『布吕歇尔SP』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97894,
+	type = 6,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17854,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			275,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17855] = {
+	name = "『布吕歇尔SP』日常建造",
+	guild_coin_award = 0,
+	award = 97895,
+	type = 36,
+	desc = "建造舰船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17855,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59336,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17856] = {
+	name = "『布吕歇尔SP』日常出击",
+	guild_coin_award = 0,
+	award = 97896,
+	type = 36,
+	desc = "舰队出征，获得15次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17856,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59336,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17857] = {
+	name = "『布吕歇尔SP』日常困难本",
+	guild_coin_award = 0,
+	award = 97897,
+	type = 36,
+	desc = "通关1次任意困难关卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17857,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59336,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17858] = {
+	name = "『布吕歇尔SP』通关SP1",
+	guild_coin_award = 0,
+	award = 97898,
+	type = 6,
+	desc = "通关SP1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670001",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17859",
+	auto_commit = 0,
+	story_id = "",
+	id = 17858,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59336,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17859] = {
+	name = "『布吕歇尔SP』通关SP2",
+	guild_coin_award = 0,
+	award = 97899,
+	type = 6,
+	desc = "通关SP2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17860",
+	auto_commit = 0,
+	story_id = "",
+	id = 17859,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59336,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17860] = {
+	name = "『布吕歇尔SP』通关SP3",
+	guild_coin_award = 0,
+	award = 97900,
+	type = 6,
+	desc = "通关SP3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17861",
+	auto_commit = 0,
+	story_id = "",
+	id = 17860,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59336,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17861] = {
+	name = "『布吕歇尔SP』通关SP4",
+	guild_coin_award = 0,
+	award = 97901,
+	type = 6,
+	desc = "通关SP4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17862",
+	auto_commit = 0,
+	story_id = "",
+	id = 17861,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59336,
+			800
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17862] = {
+	name = "『布吕歇尔SP』通关ESP",
+	guild_coin_award = 0,
+	award = 97902,
+	type = 6,
+	desc = "通关ESP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670041",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17862,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670002,
+			chapterId = 1670041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17863] = {
+	name = "『布吕歇尔SP』SP1三星",
+	guild_coin_award = 0,
+	award = 97903,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670001",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17864",
+	auto_commit = 0,
+	story_id = "",
+	id = 17863,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17864] = {
+	name = "『布吕歇尔SP』SP2三星",
+	guild_coin_award = 0,
+	award = 97904,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17865",
+	auto_commit = 0,
+	story_id = "",
+	id = 17864,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17865] = {
+	name = "『布吕歇尔SP』SP3三星",
+	guild_coin_award = 0,
+	award = 97905,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17866",
+	auto_commit = 0,
+	story_id = "",
+	id = 17865,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17866] = {
+	name = "『布吕歇尔SP』SP4三星",
+	guild_coin_award = 0,
+	award = 97906,
+	type = 6,
+	desc = "完成SP4的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17866,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17867] = {
+	name = "『布吕歇尔SP』通关EX",
+	guild_coin_award = 0,
+	award = 97907,
+	type = 6,
+	desc = "通关EX关卡",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1670051",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17867,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670003,
+			chapterId = 1670051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17868] = {
+	name = "『五十铃运动会』七日任务1",
+	guild_coin_award = 0,
+	award = 97908,
+	type = 26,
+	desc = "击败旗舰3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17868,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17869] = {
+	name = "『五十铃运动会』七日任务1",
+	guild_coin_award = 0,
+	award = 97909,
+	type = 26,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17869,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17870] = {
+	name = "『五十铃运动会』七日任务2",
+	guild_coin_award = 0,
+	award = 97910,
+	type = 26,
+	desc = "强化舰船5次 ",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17870,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17871] = {
+	name = "『五十铃运动会』七日任务2",
+	guild_coin_award = 0,
+	award = 97911,
+	type = 26,
+	desc = "退役舰船2次 ",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17871,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17872] = {
+	name = "『五十铃运动会』七日任务3",
+	guild_coin_award = 0,
+	award = 97912,
+	type = 26,
+	desc = "进行2次战术训练 ",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17872,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54032,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17873] = {
+	name = "『五十铃运动会』七日任务3",
+	guild_coin_award = 0,
+	award = 97913,
+	type = 26,
+	desc = "后宅补充5次食物",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17873,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17874] = {
+	name = "『五十铃运动会』七日任务4",
+	guild_coin_award = 0,
+	award = 97914,
+	type = 26,
+	desc = "击沉任意敌人20艘 ",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17874,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50004,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17875] = {
+	name = "『五十铃运动会』七日任务4",
+	guild_coin_award = 0,
+	award = 97915,
+	type = 26,
+	desc = "建造舰船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17875,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17876] = {
+	name = "『五十铃运动会』七日任务5",
+	guild_coin_award = 0,
+	award = 97916,
+	type = 26,
+	desc = "打开任意科技箱1个",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17876,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17877] = {
+	name = "『五十铃运动会』七日任务5",
+	guild_coin_award = 0,
+	award = 97917,
+	type = 26,
+	desc = "强化舰船5次 ",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17877,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17878] = {
+	name = "『五十铃运动会』七日任务6",
+	guild_coin_award = 0,
+	award = 97918,
+	type = 26,
+	desc = "完成2次委托 ",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17878,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17879] = {
+	name = "『五十铃运动会』七日任务6",
+	guild_coin_award = 0,
+	award = 97919,
+	type = 26,
+	desc = "后宅补充5次食物",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17879,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17880] = {
+	name = "『五十铃运动会』七日任务7",
+	guild_coin_award = 0,
+	award = 97920,
+	type = 26,
+	desc = "强化装备2次 ",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17880,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17881] = {
+	name = "『五十铃运动会』七日任务7",
+	guild_coin_award = 0,
+	award = 97921,
+	type = 26,
+	desc = "舰队出征，以S评价通关10次 ",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17881,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			302054,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17882] = {
+	name = "『布吕歇尔SP』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 97929,
+	type = 6,
+	desc = "开启20个外观装备箱(铁血之志)",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30337",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17882,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30509,
+			1
 		}
 	}
 }

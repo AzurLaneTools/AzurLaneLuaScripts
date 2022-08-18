@@ -172,6 +172,20 @@ function slot4.GrayScale(slot0)
 	return 0.299 * slot0.r + 0.587 * slot0.g + 0.114 * slot0.b
 end
 
+function slot4.NewHex(slot0)
+	slot1 = {}
+
+	for slot5 = 1, 4 do
+		if slot5 + slot5 > #slot0 then
+			slot1[slot5] = 1
+		else
+			slot1[slot5] = tonumber(string.sub(slot0, slot5 + slot5 - 1, slot5 + slot5), 16) / 255
+		end
+	end
+
+	return uv0.New(unpack(slot1))
+end
+
 function slot4.ToHex(slot0, slot1)
 	return slot1 and string.format("%.2X%.2X%.2X%.2X", slot0.r * 255, slot0.g * 255, slot0.b * 255, slot0.a * 255) or string.format("%.2X%.2X%.2X", slot0.r * 255, slot0.g * 255, slot0.b * 255)
 end

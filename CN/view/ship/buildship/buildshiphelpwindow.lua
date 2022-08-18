@@ -29,7 +29,9 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.Show(slot0, slot1, slot2)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.TOP_LAYER
+	})
 
 	if slot2 == "support" then
 		setText(slot0:findTF("window/rateList/title/Text"), i18n("support_rate_title"))

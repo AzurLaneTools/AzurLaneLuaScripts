@@ -1345,7 +1345,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41023] = {
-		desc_world = "作为司令位指挥喵时，提高所在舰队中潜艇5点氧气",
+		desc_world = "作为参谋位指挥喵时，提高所在舰队中潜艇5点氧气",
 		name = "海之勇者",
 		next_id = 0,
 		exp = 0,

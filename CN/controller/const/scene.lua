@@ -92,12 +92,13 @@ SCENE = {
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
 	WORLD_COLLECTION = "world collection",
 	SNAPSHOT = "snapshot",
+	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
 	RESOLVESHIPS = "scene resolve ships",
-	SHIPINFO = "scene shipinfo",
 	SELTECHNOLOGY = "seltechnology",
-	WORLD_FORMATION = "scene world formation",
+	SHIPINFO = "scene shipinfo",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
+	WORLD_FORMATION = "scene world formation",
 	CHARGE_MENU = "scene charge_menu",
 	EQUIPSCENE = "scene equip",
 	WORLD = "scene world",
@@ -534,6 +535,10 @@ slot0 = {
 	[SCENE.NEW_SERVER_CARNIVAL] = function (slot0, slot1)
 		slot0.mediator = NewServerCarnivalMediator
 		slot0.viewComponent = NewServerCarnivalScene
+	end,
+	[SCENE.BACKHILL_SUMMERPARK_2022] = function (slot0, slot1)
+		slot0.mediator = BackHillMediatorTemplate
+		slot0.viewComponent = BackHillSummerPark2022Scene
 	end
 }
 

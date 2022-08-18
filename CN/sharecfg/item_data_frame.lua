@@ -423,6 +423,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>献给所有对美味比萨有爱的指挥官们</color>\n通过参与「啾啾欢乐餐厅」活动获取",
 		scene = {}
 	},
+	[601] = {
+		time_limit_type = 0,
+		name = "冰淇淋纪念",
+		gain_by = "",
+		id = 601,
+		time_second = 0,
+		desc = "<color=#ffffff>在炎炎夏日中感受片刻的清凉！</color>\n通过参与「啾啾冰淇淋」活动获取",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -470,6 +479,7 @@ pg.item_data_frame = {
 		405,
 		406,
 		407,
-		501
+		501,
+		601
 	}
 }

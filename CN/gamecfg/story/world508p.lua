@@ -1423,7 +1423,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "余烬{namecode:94}一边神情自若的说这话，一边一副没站稳的样子突然贴了上来。",
+			say = "余烬{namecode:94}一边神情自若的说着话，一边一副没站稳的样子突然贴了上来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

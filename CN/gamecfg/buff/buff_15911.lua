@@ -1,0 +1,274 @@
+return {
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.05
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.05
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.061
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.061
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.072
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.072
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.083
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.083
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.094
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.094
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.105
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.105
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.116
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.116
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.127
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.127
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.138
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.138
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "damageRatioBullet",
+					number = 0.15
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					attr = "cri",
+					number = 0.15
+				}
+			}
+		}
+	},
+	init_effect = "jinengchufared",
+	name = "",
+	time = 0,
+	color = "red",
+	picture = "",
+	desc = "",
+	stack = 1,
+	id = 15911,
+	icon = 15911,
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				attr = "damageRatioBullet",
+				number = 0.05
+			}
+		},
+		{
+			type = "BattleBuffAddBulletAttr",
+			trigger = {
+				"onBulletCreate"
+			},
+			arg_list = {
+				attr = "cri",
+				number = 0.05
+			}
+		}
+	}
+}

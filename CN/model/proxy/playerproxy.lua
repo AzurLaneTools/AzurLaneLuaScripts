@@ -242,13 +242,14 @@ function slot0.IsShowCommssionTip(slot0)
 		end
 	end)
 
-	slot18 = false
+	slot18 = CommissionMetaBossBtn.STATE_GET_AWARDS == WorldBossConst.GetCommissionSceneMetaBossBtnState() or CommissionMetaBossBtn.STATE_FINSH_BATTLE == slot17
+	slot20 = false
 
-	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot17:isEnd() then
-		slot18 = #slot17:GetCrusingUnreceiveAward() > 0
+	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot19:isEnd() then
+		slot20 = #slot19:GetCrusingUnreceiveAward() > 0
 	end
 
-	return slot2 or slot8 or slot9 or slot12 ~= 0 and slot10 > slot12 - 10 or slot13 or slot15 > 0 or slot16 > 0 or slot18
+	return slot18 or slot2 or slot8 or slot9 or slot12 ~= 0 and slot10 > slot12 - 10 or slot13 or slot15 > 0 or slot16 > 0 or slot20
 end
 
 return slot0

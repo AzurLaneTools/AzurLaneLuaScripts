@@ -11,6 +11,26 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 6002,
+				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipType"
+				},
+				ship_type_list = {
+					1,
+					20,
+					21
+				}
+			}
+		},
+		{
 			type = "BattleBuffCastSkill",
 			trigger = {
 				"onStartGame"
