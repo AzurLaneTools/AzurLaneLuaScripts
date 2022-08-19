@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "May everyone at port be blessed with the gods' protection.",
+			say = "\"May everyone at port be blessed with the gods' protection.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

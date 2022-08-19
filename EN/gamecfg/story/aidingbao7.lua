@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "Unfortunate. Guess I have to try back another time.",
+			say = "Unfortunate. Guess I have to come back another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
