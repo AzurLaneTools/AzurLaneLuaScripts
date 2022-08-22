@@ -2,6 +2,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -10,6 +21,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.15
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -28,6 +55,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -36,6 +74,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.166
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -54,6 +108,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -62,6 +127,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.182
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -80,6 +161,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -88,6 +180,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.198
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -106,6 +214,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -114,6 +233,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.214
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -132,6 +267,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -140,6 +286,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.23
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -158,6 +320,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -166,6 +339,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.246
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -184,6 +373,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -192,6 +392,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.264
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -210,6 +426,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -218,6 +445,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.282
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -236,6 +479,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						15942
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -244,6 +498,22 @@ return {
 				arg_list = {
 					attr = "injureRatio",
 					number = -0.3
+				},
+				pop = {
+					painting = 1,
+					castCV = "skill",
+					displayID = 15940,
+					trigger = {
+						"onAttach"
+					},
+					aniEffect = {
+						effect = "jineng",
+						offset = {
+							0,
+							-2,
+							0
+						}
+					}
 				}
 			},
 			{
@@ -277,6 +547,17 @@ return {
 	},
 	effect_list = {
 		{
+			type = "BattleBuffCleanse",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id_list = {
+					15942
+				}
+			}
+		},
+		{
 			type = "BattleBuffAddAttr",
 			trigger = {
 				"onAttach",
@@ -285,6 +566,22 @@ return {
 			arg_list = {
 				attr = "injureRatio",
 				number = -0.15
+			},
+			pop = {
+				painting = 1,
+				castCV = "skill",
+				displayID = 15940,
+				trigger = {
+					"onAttach"
+				},
+				aniEffect = {
+					effect = "jineng",
+					offset = {
+						0,
+						-2,
+						0
+					}
+				}
 			}
 		},
 		{

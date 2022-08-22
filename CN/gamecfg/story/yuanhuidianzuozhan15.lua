@@ -558,7 +558,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			blackBg = true,
-			say = "在布吕歇尔于欧根亲王有一搭没一搭的闲聊中，一行人的背影逐渐远去，最终从镜面海域中消失了。",
+			say = "在布吕歇尔与欧根亲王有一搭没一搭的闲聊中，一行人的背影逐渐远去，最终从镜面海域中消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

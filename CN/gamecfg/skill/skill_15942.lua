@@ -2,10 +2,9 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 15942,
 	picture = "1",
-	castCV = "skill",
 	desc = "",
 	aniEffect = {
 		effect = "jineng",
