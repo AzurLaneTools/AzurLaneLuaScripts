@@ -979,7 +979,7 @@ pg.world_item_data_template = {
 	},
 	[2111] = {
 		item_transform_item_type = 0,
-		name = "SR Weapon Design Plans",
+		name = "T1 Ordnance Testing Report",
 		item_transform_item_id = 0,
 		display = "Contains a random Super Rare weapon design. Used in the Gear Lab.",
 		log_text = "",
@@ -3917,7 +3917,7 @@ pg.world_item_data_template = {
 		item_transform_item_type = 0,
 		name = "Emergency Repair Pack",
 		item_transform_item_id = 0,
-		display = "(Current) Can be used to restore the HP of 1 ship in your current fleet by 1,000.",
+		display = "Can be used to restore the HP of 1 ship in your current fleet by 1,000.",
 		log_text = "",
 		sort_priority = 10,
 		usage = "usage_world_healing_value",

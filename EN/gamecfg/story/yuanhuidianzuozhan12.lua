@@ -123,7 +123,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "What's happening, Blücher? Have yo taken care of the carriers yet? My fleet won't last much longer!",
+			say = "What's happening, Blücher? Have you taken care of the carriers yet? My fleet won't last much longer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
