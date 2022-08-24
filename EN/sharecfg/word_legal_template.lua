@@ -4248,6 +4248,15 @@ function temp()
 				p = {
 					y = {
 						this = true
+					},
+					e = {
+						l = {
+							i = {
+								n = {
+									this = true
+								}
+							}
+						}
 					}
 				}
 			}
@@ -12641,6 +12650,28 @@ function temp()
 			i = {
 				r = {
 					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.z = {
+		e = {
+			p = {
+				p = {
+					e = {
+						l = {
+							i = {
+								n = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}
