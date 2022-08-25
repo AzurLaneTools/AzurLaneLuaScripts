@@ -20,7 +20,7 @@ math.randomseed(os.time())
 
 CSharpVersion = NetConst.GatewayState
 
-originalPrint("C# Ver... " .. CSharpVersion)
+originalPrint("C# Ver...... " .. CSharpVersion)
 
 PLATFORM = LuaHelper.GetPlatformInt()
 SDK_EXIT_CODE = 99
