@@ -638,7 +638,7 @@ function slot0.didEnter(slot0)
 		slot0.contextData.selectedChapterVO = nil
 	end
 
-	if not slot0.contextData.isSwitchToChapter then
+	if not slot0.contextData.chapterVO or not slot7.active then
 		slot0:tryPlaySubGuide()
 	end
 

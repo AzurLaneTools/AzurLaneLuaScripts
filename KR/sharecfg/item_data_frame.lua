@@ -387,6 +387,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>맛있는 피자를 좋아하는 모든 지휘관에게 바칩니다.</color>\n「쥬쥬 해피 레스토랑」 이벤트에 참여하여 획득",
 		scene = {}
 	},
+	[601] = {
+		time_limit_type = 0,
+		name = "아이스크림 기념",
+		gain_by = "",
+		id = 601,
+		time_second = 0,
+		desc = "<color=#ffffff>무더운 여름날 잠깐의 시원함을 느껴봐!</color>\n「쥬쥬 아이스크림」 이벤트에 참여하여 획득",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -430,6 +439,7 @@ pg.item_data_frame = {
 		401,
 		402,
 		413,
-		501
+		501,
+		601
 	}
 }

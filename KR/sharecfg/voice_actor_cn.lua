@@ -1323,5 +1323,9 @@ pg.voice_actor_CN = {
 	[336] = {
 		code = 336,
 		actor_name = "Houmoto Akina"
+	},
+	[337] = {
+		code = 337,
+		actor_name = "Aimi"
 	}
 }

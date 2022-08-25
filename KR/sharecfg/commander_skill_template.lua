@@ -1345,7 +1345,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41023] = {
-		desc_world = "사령냥으로 배치되어 있을 때, 해당 함대의 잠수함의 산소를 5 증가시킨다.",
+		desc_world = "참모냥으로 배치되어 있을 때, 해당 함대의 잠수함의 산소를 5 증가시킨다.",
 		name = "바다의 용자",
 		next_id = 0,
 		exp = 0,

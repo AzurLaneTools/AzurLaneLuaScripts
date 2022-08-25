@@ -21,7 +21,8 @@ return {
 			type = "BattleSkillManualWeaponReloadBoost",
 			arg_list = {
 				value = 20,
-				weaponType = "TorpedoWeapon"
+				weaponType = "TorpedoWeapon",
+				delay = 20
 			}
 		}
 	}

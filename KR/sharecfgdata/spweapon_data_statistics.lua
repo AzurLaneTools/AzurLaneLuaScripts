@@ -4269,3 +4269,300 @@ _G.pg.base.spweapon_data_statistics[10130] = {
 		}
 	}
 }
+
+_G.pg.base.spweapon_data_statistics[10140] = {
+	tech = 0,
+	name = "강화형 탐조 투사 공격 함장 NT",
+	value_2_random = 5,
+	type = 7,
+	value_1_random = 10,
+	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
+	value_1 = 22,
+	level = 1,
+	id = 10140,
+	next = 10141,
+	upgrade_id = 101,
+	value_2 = 4,
+	icon = "10140",
+	effect_id = 902060,
+	attribute_2 = "reload",
+	rarity = 4,
+	unique = 40701,
+	important = 2,
+	prev = 0,
+	attribute_1 = "air",
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			1110690
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10141] = {
+	prev = 10140,
+	base = 10140,
+	next = 10142,
+	upgrade_id = 102,
+	id = 10141,
+	value_2 = 5,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10142] = {
+	prev = 10141,
+	base = 10140,
+	next = 10143,
+	upgrade_id = 103,
+	id = 10142,
+	value_2 = 5,
+	value_1 = 23,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10143] = {
+	prev = 10142,
+	base = 10140,
+	next = 10144,
+	upgrade_id = 104,
+	id = 10143,
+	value_2 = 6,
+	value_1 = 23,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10144] = {
+	prev = 10143,
+	base = 10140,
+	next = 10145,
+	upgrade_id = 105,
+	id = 10144,
+	value_2 = 6,
+	value_1 = 24,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10145] = {
+	prev = 10144,
+	base = 10140,
+	next = 10146,
+	upgrade_id = 106,
+	id = 10145,
+	value_2 = 7,
+	value_1 = 25,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10146] = {
+	prev = 10145,
+	base = 10140,
+	next = 10147,
+	upgrade_id = 107,
+	id = 10146,
+	value_2 = 7,
+	value_1 = 26,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10147] = {
+	prev = 10146,
+	base = 10140,
+	next = 10148,
+	upgrade_id = 108,
+	id = 10147,
+	value_2 = 8,
+	value_1 = 27,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10148] = {
+	prev = 10147,
+	base = 10140,
+	next = 10149,
+	upgrade_id = 109,
+	id = 10148,
+	value_2 = 8,
+	value_1 = 28,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10149] = {
+	prev = 10148,
+	base = 10140,
+	next = 10150,
+	upgrade_id = 110,
+	id = 10149,
+	value_2 = 9,
+	value_1 = 29,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10150] = {
+	base = 10140,
+	prev = 10149,
+	next = 0,
+	upgrade_id = 111,
+	id = 10150,
+	value_2 = 10,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			10690,
+			1010690
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10160] = {
+	tech = 0,
+	name = "근위병의 자부심과 안심",
+	value_2_random = 5,
+	type = 1,
+	value_1_random = 10,
+	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
+	value_1 = 9,
+	level = 1,
+	id = 10160,
+	next = 10161,
+	upgrade_id = 101,
+	value_2 = 4,
+	icon = "10160",
+	effect_id = 901010,
+	attribute_2 = "hit",
+	rarity = 4,
+	unique = 60102,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1112670
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10161] = {
+	prev = 10160,
+	base = 10160,
+	next = 10162,
+	upgrade_id = 102,
+	id = 10161,
+	value_2 = 5,
+	value_1 = 10,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10162] = {
+	prev = 10161,
+	base = 10160,
+	next = 10163,
+	upgrade_id = 103,
+	id = 10162,
+	value_2 = 5,
+	value_1 = 11,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10163] = {
+	prev = 10162,
+	base = 10160,
+	next = 10164,
+	upgrade_id = 104,
+	id = 10163,
+	value_2 = 6,
+	value_1 = 12,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10164] = {
+	prev = 10163,
+	base = 10160,
+	next = 10165,
+	upgrade_id = 105,
+	id = 10164,
+	value_2 = 6,
+	value_1 = 13,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10165] = {
+	prev = 10164,
+	base = 10160,
+	next = 10166,
+	upgrade_id = 106,
+	id = 10165,
+	value_2 = 7,
+	value_1 = 14,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10166] = {
+	prev = 10165,
+	base = 10160,
+	next = 10167,
+	upgrade_id = 107,
+	id = 10166,
+	value_2 = 7,
+	value_1 = 15,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10167] = {
+	prev = 10166,
+	base = 10160,
+	next = 10168,
+	upgrade_id = 108,
+	id = 10167,
+	value_2 = 8,
+	value_1 = 16,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10168] = {
+	prev = 10167,
+	base = 10160,
+	next = 10169,
+	upgrade_id = 109,
+	id = 10168,
+	value_2 = 8,
+	value_1 = 17,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10169] = {
+	prev = 10168,
+	base = 10160,
+	next = 10170,
+	upgrade_id = 110,
+	id = 10169,
+	value_2 = 9,
+	value_1 = 18,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10170] = {
+	base = 10160,
+	prev = 10169,
+	next = 0,
+	upgrade_id = 111,
+	id = 10170,
+	value_2 = 10,
+	value_1 = 20,
+	level = 11,
+	skill_upgrade = {
+		{
+			12670,
+			1012670
+		}
+	}
+}

@@ -9648,6 +9648,14 @@ _G.pg.base.gametip.summary_page_un_rearch = {
 	tip = "미획득"
 }
 
+_G.pg.base.gametip.player_summary_from = {
+	tip = "특수 작전:"
+}
+
+_G.pg.base.gametip.player_summary_data = {
+	tip = "획득 날짜"
+}
+
 _G.pg.base.gametip.commander_exp_overflow_tip = {
 	tip = "입수하는 경험치가 최대 경험치를 초과하게 됩니다. 강화하시겠습니까?"
 }
@@ -9741,7 +9749,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "로마, 레오나르도 다 빈치 등 함선 건조 확률 UP!"
+	tip = "브륀힐드, Z16 등 캐릭터 건조 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -20702,10 +20710,56 @@ _G.pg.base.gametip.avatarframe_got = {
 	tip = "수령함"
 }
 
+_G.pg.base.gametip.item_is_max_cnt = {
+	tip = "보유 아이템 상한 도달"
+}
+
 _G.pg.base.gametip.level_fleet_ship_desc = {
 	tip = "출격 가능 함대:"
 }
 
 _G.pg.base.gametip.level_fleet_sub_desc = {
 	tip = "잠수함대:"
+}
+
+_G.pg.base.gametip.summerland_tip = {
+	tip = {
+		{
+			info = [[
+이벤트 기간: <color=#92fc63>2022.8.25-2022.9.8</color>
+이벤트 소개:
+「쥬쥬 아이스크림」: 미니 게임 참여하고 한정 테두리 획득
+「준마?와 함께 출격!」: 이벤트 참여하고 한정 스킨 획득
+「스킨 상점」: 한정 스킨 구매
+「한정 건조」: 한정 캐릭터 건조]]
+		}
+	}
+}
+
+_G.pg.base.gametip.icecreamgame_tip = {
+	tip = {
+		{
+			info = [[
+이벤트 규칙:
+1. <color=#92fc63>8월 31일</color>까지 매일 0시마다 게임이 <color=#92fc63>1</color>판씩 오픈됩니다. 총 <color=#92fc63>7</color>판까지 있으며, 누적 가능합니다. 게임 완료 후 한정 테두리가 포함된 풍부한 보상을 획득할 수 있습니다.
+
+게임 규칙:
+1. 점장은 손님들의 요구에 따라 정해진 시간 내에 아이스크림을 제작해야 합니다. 시간 초과 또는 손님의 요구에 맞지 않을 경우 실패로 판정됩니다.
+
+2. 아이스크림의 맛과 재료를 선택해 아이스크림을 제작하세요. 각 아이스크림의 맛과 재료를 선택하는 횟수에는 제한이 있으며, 정해진 횟수 도달 시 아이스크림을 손님에게 전달합니다.
+
+3. 만들어진 아이스크림에 따라 손님의 기분이 달라지며, 각각의 평가와 점수를 받습니다.
+
+4. 아이스크림 맛 100점, 재료 50점, 순서 20점이며, 제작 잔여 시간도 점수로 전환됩니다. 아이스크림 난이도는 이지, 노멀, 하드 3가지 유형으로 나뉩니다.
+
+5. 시간을 전부 소모하거나 게임 내 퇴장 버튼 터치 시 게임을 완료한 것으로 간주됩니다. 기타 원인으로 인하여 게임에서 중도 퇴장할 경우 미완료한 것으로 간주됩니다.
+
+특수 효과:
+1. 하드 아이스크림을 완벽히 제작한 경우 확률적으로 발동하며, 다음 아이스크림 제작 시간이 90% 둔화됩니다. 4초 지속되며, 발동 후 5초의 쿨타임이 있습니다.
+
+2. 연속으로 2회 손님의 요구에 맞는 아이스크림 제작 시, 다음 손님의 대기 시간이 2초 증가합니다.
+
+3. 동일한 손님의 요구를 연속으로 2회 맞춰줄 경우 다음 손님의 평가 점수가 100% 증가합니다. (각 손님마다 게임 1판당 1회만 발동)]]
+		}
+	}
 }

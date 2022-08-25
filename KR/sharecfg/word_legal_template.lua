@@ -4088,6 +4088,9 @@ function temp()
 			},
 			["9"] = {
 				this = true
+			},
+			["6"] = {
+				this = true
 			}
 		},
 		["2"] = {
@@ -6616,6 +6619,13 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["륀"] = {
+			["힐"] = {
+				["드"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -8414,6 +8424,11 @@ function temp()
 		},
 		["랑"] = {
 			this = true
+		},
+		["뤼"] = {
+			["허"] = {
+				this = true
+			}
 		}
 	}
 end

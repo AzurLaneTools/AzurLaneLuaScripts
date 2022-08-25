@@ -173,6 +173,14 @@ function slot0.getItemById(slot0, slot1)
 	return nil
 end
 
+function slot0.RawGetItemById(slot0, slot1)
+	if slot0.data[slot1] ~= nil then
+		return slot0.data[slot1]
+	end
+
+	return nil
+end
+
 function slot0.getItemCountById(slot0, slot1)
 	return slot0.data[slot1] and slot2.count or 0
 end

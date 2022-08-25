@@ -1,120 +1,82 @@
 slot0 = class("CurlingGameView", import("..BaseMiniGameView"))
-slot1 = 202072
-slot2 = {
-	{
-		2,
-		54006,
-		1
-	},
-	{
-		2,
-		50004,
-		5
-	},
-	{
-		1,
-		2,
-		300
-	},
-	{
-		2,
-		54034,
-		1
-	},
-	{
-		2,
-		20013,
-		1
-	},
-	{
-		2,
-		54051,
-		1
-	},
-	{
-		7,
-		202072,
-		1
-	}
-}
-slot3 = "event:/ui/ddldaoshu2"
-slot4 = "event:/ui/taosheng"
-slot5 = "event:/ui/minigame_hitcake"
-slot6 = "event:/ui/zhengque"
-slot7 = "event:/ui/shibai"
-slot8 = 1
-slot9 = 2
-slot10 = 3
-slot11 = {
+slot1 = "event:/ui/ddldaoshu2"
+slot2 = "event:/ui/taosheng"
+slot3 = "event:/ui/minigame_hitcake"
+slot4 = "event:/ui/zhengque"
+slot5 = "event:/ui/shibai"
+slot6 = 1
+slot7 = 2
+slot8 = 3
+slot9 = {
 	20,
 	40,
 	60
 }
-slot12 = 4
-slot13 = Vector2(-720, 0)
-slot14 = {
+slot10 = 4
+slot11 = Vector2(-720, 0)
+slot12 = {
 	-250,
 	250
 }
-slot15 = Vector2(-250, -42)
-slot16 = {
+slot13 = Vector2(-250, -42)
+slot14 = {
 	1,
 	10,
 	30
 }
-slot17 = 0.2
-slot18 = false
-slot19 = {
+slot15 = 0.2
+slot16 = false
+slot17 = {
 	walker = 0.1,
 	miner = 0.2,
 	wall = 0,
 	oil = 0.2,
 	cube = 0.2
 }
-slot20 = {
+slot18 = {
 	walker = 2,
 	miner = 2,
 	wall = 0,
 	oil = 2,
 	cube = 2
 }
-slot21 = {
+slot19 = {
 	0.5,
 	5,
 	10
 }
-slot22 = {
+slot20 = {
 	0.5,
 	5,
 	10
 }
-slot23 = Vector2(400, -600)
-slot24 = Vector2(400, 500)
-slot29 = Vector2(617, -108)
-slot30 = 0.7
-slot31 = {
+slot21 = Vector2(400, -600)
+slot22 = Vector2(400, 500)
+slot27 = Vector2(617, -108)
+slot28 = 0.7
+slot29 = {
 	111,
 	222,
 	333
 }
-slot32 = {
+slot30 = {
 	3000,
 	2000,
 	1000
 }
-slot33 = 1
-slot34 = 2
-slot35 = 3
-slot36 = 4
-slot37 = {
+slot31 = 1
+slot32 = 2
+slot33 = 3
+slot34 = 4
+slot35 = {
 	walker = 900,
 	miner = 300,
 	wall = 100,
 	oil = 300,
 	cube = 300
 }
-slot38 = 1
-slot39 = {
+slot36 = 1
+slot37 = {
 	oil = {
 		{
 			appear = 0.8,
@@ -155,23 +117,23 @@ slot39 = {
 		}
 	}
 }
-slot40 = {
+slot38 = {
 	cube = 3.5,
 	miner = 3.5,
 	walker = 4.5,
 	oil = 3.5
 }
-slot41 = true
-slot42 = "event_push"
-slot43 = "event_speed"
-slot44 = "event_hit"
-slot45 = "event_result"
-slot46 = "event_next"
-slot47 = "event_game_pause"
-slot48 = "event_game_resume"
-slot49 = "event_add_score"
+slot39 = true
+slot40 = "event_push"
+slot41 = "event_speed"
+slot42 = "event_hit"
+slot43 = "event_result"
+slot44 = "event_next"
+slot45 = "event_game_pause"
+slot46 = "event_game_resume"
+slot47 = "event_add_score"
 
-function slot50(slot0, slot1)
+function slot48(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -294,7 +256,7 @@ function slot50(slot0, slot1)
 	return slot2
 end
 
-function slot51(slot0, slot1, slot2)
+function slot49(slot0, slot1, slot2)
 	slot3 = {
 		Ctor = function (slot0)
 			slot0.tpls = uv0
@@ -496,7 +458,7 @@ function slot51(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot52(slot0, slot1)
+function slot50(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -539,7 +501,7 @@ function slot52(slot0, slot1)
 	return slot2
 end
 
-function slot53(slot0, slot1)
+function slot51(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -576,7 +538,7 @@ function slot53(slot0, slot1)
 	return slot2
 end
 
-function slot54(slot0, slot1)
+function slot52(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -640,7 +602,7 @@ function slot54(slot0, slot1)
 	return slot2
 end
 
-function slot55(slot0, slot1)
+function slot53(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -865,7 +827,7 @@ function slot0.initUI(slot0)
 
 	onButton(slot0, slot0:findTF("skin_btn", slot0.mainUI), function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP, {
-			skinId = uv0
+			skinId = pg.mini_game[uv0:GetMGData().id].simple_config_data.skin_shop_id
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("return_btn", slot0.mainUI), function ()
@@ -902,25 +864,25 @@ function slot0.initUI(slot0)
 	slot2 = slot0:findTF("item_tpl", slot0.mainUI)
 	slot0.itemList = {}
 
-	for slot6 = 1, #uv2 do
-		slot7 = tf(instantiate(slot2))
-		slot7.name = "item_" .. slot6
+	for slot7 = 1, #pg.mini_game[slot0:GetMGData().id].simple_config_data.drop do
+		slot8 = tf(instantiate(slot2))
+		slot8.name = "item_" .. slot7
 
-		setParent(slot7, slot0:findTF("item_list/Viewport/Content", slot0.mainUI))
-		GetSpriteFromAtlasAsync("ui/curlinggameui_atlas", "text_" .. slot6, function (slot0)
+		setParent(slot8, slot0:findTF("item_list/Viewport/Content", slot0.mainUI))
+		GetSpriteFromAtlasAsync("ui/curlinggameui_atlas", "text_" .. slot7, function (slot0)
 			setImageSprite(uv0:findTF("bg/text", uv1), slot0, true)
 		end)
-		setActive(slot7, true)
-		table.insert(slot0.itemList, slot7)
+		setActive(slot8, true)
+		table.insert(slot0.itemList, slot8)
 
-		slot9 = slot0:findTF("award", slot7)
+		slot10 = slot0:findTF("award", slot8)
 
-		updateDrop(slot9, {
-			type = uv2[slot6][1],
-			id = uv2[slot6][2],
-			count = uv2[slot6][3]
+		updateDrop(slot10, {
+			type = slot3[slot7][1],
+			id = slot3[slot7][2],
+			count = slot3[slot7][3]
 		})
-		onButton(slot0, slot9, function ()
+		onButton(slot0, slot10, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
 	end
@@ -928,14 +890,14 @@ function slot0.initUI(slot0)
 	slot0.countUI = slot0:findTF("ui/count_ui")
 	slot0.countAnimator = GetComponent(slot0:findTF("count", slot0.countUI), typeof(Animator))
 	slot0.countDft = GetOrAddComponent(slot0:findTF("count", slot0.countUI), typeof(DftAniEvent))
-	slot3 = slot0.countDft
+	slot4 = slot0.countDft
 
-	slot3:SetTriggerEvent(function ()
+	slot4:SetTriggerEvent(function ()
 	end)
 
-	slot3 = slot0.countDft
+	slot4 = slot0.countDft
 
-	slot3:SetEndEvent(function ()
+	slot4:SetEndEvent(function ()
 		setActive(uv0.countUI, false)
 		uv0:startGame()
 	end)

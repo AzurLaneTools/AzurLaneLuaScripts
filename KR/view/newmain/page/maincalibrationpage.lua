@@ -126,6 +126,7 @@ function slot0.Show(slot0)
 	slot0:DoBottomAnimation(0, 100)
 	slot0:DoLeftAnimation(0, -150, function ()
 	end)
+	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 end
 
 function slot0.DoLeftAnimation(slot0, slot1, slot2, slot3)
@@ -141,6 +142,7 @@ function slot0.DoBottomAnimation(slot0, slot1, slot2)
 		uv0.moveBtn.anchoredPosition = Vector2(uv0.moveBtn.anchoredPosition.x, slot0)
 		uv0.setBtn.anchoredPosition = Vector2(uv0.setBtn.anchoredPosition.x, slot0)
 	end))
+	setParent(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 
 function slot0.Hide(slot0)
