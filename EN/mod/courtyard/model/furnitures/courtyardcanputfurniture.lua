@@ -15,6 +15,16 @@ function slot0.GetChilds(slot0)
 	return slot0.childs
 end
 
+function slot0.AnyNotRotateChilds(slot0)
+	if #slot0.childs > 0 then
+		return _.any(slot0.childs, function (slot0)
+			return isa(slot0, CourtYardFurniture) and slot0:DisableRotation()
+		end)
+	end
+
+	return false
+end
+
 function slot0.GetCanputonPosition(slot0)
 	slot1 = slot0:GetPosition()
 

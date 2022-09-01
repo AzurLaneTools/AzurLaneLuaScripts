@@ -20695,7 +20695,7 @@ _G.pg.base.gametip.world_boss_switch_archives = {
 }
 
 _G.pg.base.gametip.world_boss_switch_archives_success = {
-	tip = "You have unlocked the Dossier Analysis feature and can now analyze Dossier Coordinate Data."
+	tip = "You have unlocked the Dossier Analysis feature."
 }
 
 _G.pg.base.gametip.world_boss_archives_auto_battle_unopen = {

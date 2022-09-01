@@ -18745,566 +18745,566 @@ cs.gametip = {
 	},
 	world_boss_switch_archives_success = {
 		689598,
-		190,
+		146,
 		true
 	},
 	world_boss_archives_auto_battle_unopen = {
-		689788,
+		689744,
 		169,
 		true
 	},
 	world_boss_archives_need_stop_auto_battle = {
-		689957,
+		689913,
 		164,
 		true
 	},
 	world_boss_archives_stop_auto_battle = {
-		690121,
+		690077,
 		137,
 		true
 	},
 	world_boss_archives_continue_auto_battle = {
-		690258,
+		690214,
 		140,
 		true
 	},
 	world_boss_archives_auto_battle_reusle_title = {
-		690398,
+		690354,
 		145,
 		true
 	},
 	world_boss_archives_stop_auto_battle_title = {
-		690543,
+		690499,
 		146,
 		true
 	},
 	world_boss_archives_stop_auto_battle_tip = {
-		690689,
+		690645,
 		119,
 		true
 	},
 	world_boss_archives_stop_auto_battle_tip1 = {
-		690808,
+		690764,
 		241,
 		true
 	},
 	world_archives_boss_help = {
-		691049,
+		691005,
 		3343,
 		true
 	},
 	world_archives_boss_list_help = {
-		694392,
+		694348,
 		570,
 		true
 	},
 	archives_boss_was_opened = {
-		694962,
+		694918,
 		163,
 		true
 	},
 	current_boss_was_opened = {
-		695125,
+		695081,
 		162,
 		true
 	},
 	world_boss_title_auto_battle = {
-		695287,
+		695243,
 		103,
 		true
 	},
 	world_boss_title_highest_damge = {
-		695390,
+		695346,
 		105,
 		true
 	},
 	world_boss_title_estimation = {
-		695495,
+		695451,
 		113,
 		true
 	},
 	world_boss_title_battle_cnt = {
-		695608,
+		695564,
 		99,
 		true
 	},
 	world_boss_title_consume_oil_cnt = {
-		695707,
+		695663,
 		104,
 		true
 	},
 	world_boss_title_spend_time = {
-		695811,
+		695767,
 		104,
 		true
 	},
 	world_boss_title_total_damage = {
-		695915,
+		695871,
 		102,
 		true
 	},
 	world_no_time_to_auto_battle = {
-		696017,
+		695973,
 		143,
 		true
 	},
 	world_boss_current_boss_label = {
-		696160,
+		696116,
 		104,
 		true
 	},
 	world_boss_current_boss_label1 = {
-		696264,
+		696220,
 		107,
 		true
 	},
 	world_boss_archives_boss_tip = {
-		696371,
+		696327,
 		158,
 		true
 	},
 	world_boss_progress_no_enough = {
-		696529,
+		696485,
 		127,
 		true
 	},
 	world_boss_auto_battle_no_oil = {
-		696656,
+		696612,
 		119,
 		true
 	},
 	meta_syn_value_label = {
-		696775,
+		696731,
 		108,
 		true
 	},
 	meta_syn_finish = {
-		696883,
+		696839,
 		103,
 		true
 	},
 	index_meta_repair = {
-		696986,
+		696942,
 		104,
 		true
 	},
 	index_meta_tactics = {
-		697090,
+		697046,
 		103,
 		true
 	},
 	index_meta_energy = {
-		697193,
+		697149,
 		104,
 		true
 	},
 	tactics_continue_to_learn_other_skill = {
-		697297,
+		697253,
 		162,
 		true
 	},
 	tactics_continue_to_learn_other_ship_skill = {
-		697459,
+		697415,
 		161,
 		true
 	},
 	tactics_no_recent_ships = {
-		697620,
+		697576,
 		113,
 		true
 	},
 	activity_kill = {
-		697733,
+		697689,
 		95,
 		true
 	},
 	battle_result_dmg = {
-		697828,
+		697784,
 		87,
 		true
 	},
 	battle_result_kill_count = {
-		697915,
+		697871,
 		100,
 		true
 	},
 	battle_result_toggle_on = {
-		698015,
+		697971,
 		96,
 		true
 	},
 	battle_result_toggle_off = {
-		698111,
+		698067,
 		101,
 		true
 	},
 	battle_result_continue_battle = {
-		698212,
+		698168,
 		101,
 		true
 	},
 	battle_result_quit_battle = {
-		698313,
+		698269,
 		96,
 		true
 	},
 	battle_result_share_battle = {
-		698409,
+		698365,
 		95,
 		true
 	},
 	pre_combat_team = {
-		698504,
+		698460,
 		91,
 		true
 	},
 	pre_combat_vanguard = {
-		698595,
+		698551,
 		97,
 		true
 	},
 	pre_combat_main = {
-		698692,
+		698648,
 		89,
 		true
 	},
 	pre_combat_submarine = {
-		698781,
+		698737,
 		93,
 		true
 	},
 	destroy_confirm_access = {
-		698874,
+		698830,
 		93,
 		true
 	},
 	destroy_confirm_cancel = {
-		698967,
+		698923,
 		92,
 		true
 	},
 	pt_count_tip = {
-		699059,
+		699015,
 		81,
 		true
 	},
 	dockyard_data_loss_detected = {
-		699140,
+		699096,
 		167,
 		true
 	},
 	littleEugen_npc = {
-		699307,
+		699263,
 		1372,
 		true
 	},
 	five_shujuhuigu = {
-		700679,
+		700635,
 		121,
 		true
 	},
 	five_shujuhuigu1 = {
-		700800,
+		700756,
 		82,
 		true
 	},
 	littleChaijun_npc = {
-		700882,
+		700838,
 		1288,
 		true
 	},
 	five_qingdian = {
-		702170,
+		702126,
 		622,
 		true
 	},
 	friend_resume_title_detail = {
-		702792,
+		702748,
 		94,
 		true
 	},
 	item_type13_tip1 = {
-		702886,
+		702842,
 		88,
 		true
 	},
 	item_type13_tip2 = {
-		702974,
+		702930,
 		88,
 		true
 	},
 	item_type16_tip1 = {
-		703062,
+		703018,
 		88,
 		true
 	},
 	item_type16_tip2 = {
-		703150,
+		703106,
 		88,
 		true
 	},
 	item_type17_tip1 = {
-		703238,
+		703194,
 		87,
 		true
 	},
 	item_type17_tip2 = {
-		703325,
+		703281,
 		87,
 		true
 	},
 	five_duomaomao = {
-		703412,
+		703368,
 		788,
 		true
 	},
 	main_4 = {
-		704200,
+		704156,
 		75,
 		true
 	},
 	main_5 = {
-		704275,
+		704231,
 		75,
 		true
 	},
 	honor_medal_support_tips_display = {
-		704350,
+		704306,
 		460,
 		true
 	},
 	honor_medal_support_tips_confirm = {
-		704810,
+		704766,
 		207,
 		true
 	},
 	support_rate_title = {
-		705017,
+		704973,
 		87,
 		true
 	},
 	support_times_limited = {
-		705104,
+		705060,
 		128,
 		true
 	},
 	support_times_tip = {
-		705232,
+		705188,
 		95,
 		true
 	},
 	build_times_tip = {
-		705327,
+		705283,
 		90,
 		true
 	},
 	tactics_recent_ship_label = {
-		705417,
+		705373,
 		105,
 		true
 	},
 	title_info = {
-		705522,
+		705478,
 		78,
 		true
 	},
 	eventshop_unlock_info = {
-		705600,
+		705556,
 		93,
 		true
 	},
 	eventshop_unlock_hint = {
-		705693,
+		705649,
 		142,
 		true
 	},
 	commission_event_tip = {
-		705835,
+		705791,
 		832,
 		true
 	},
 	decoration_medal_placeholder = {
-		706667,
+		706623,
 		122,
 		true
 	},
 	technology_filter_placeholder = {
-		706789,
+		706745,
 		119,
 		true
 	},
 	eva_comment_send_null = {
-		706908,
+		706864,
 		101,
 		true
 	},
 	rename_input = {
-		707009,
+		706965,
 		93,
 		true
 	},
 	avatar_task_level = {
-		707102,
+		707058,
 		169,
 		true
 	},
 	avatar_upgrad_1 = {
-		707271,
+		707227,
 		92,
 		true
 	},
 	avatar_upgrad_2 = {
-		707363,
+		707319,
 		92,
 		true
 	},
 	avatar_upgrad_3 = {
-		707455,
+		707411,
 		94,
 		true
 	},
 	avatar_task_ship_1 = {
-		707549,
+		707505,
 		92,
 		true
 	},
 	avatar_task_ship_2 = {
-		707641,
+		707597,
 		103,
 		true
 	},
 	technology_queue_complete = {
-		707744,
+		707700,
 		97,
 		true
 	},
 	technology_queue_processing = {
-		707841,
+		707797,
 		102,
 		true
 	},
 	technology_queue_waiting = {
-		707943,
+		707899,
 		94,
 		true
 	},
 	technology_queue_getaward = {
-		708037,
+		707993,
 		94,
 		true
 	},
 	technology_daily_refresh = {
-		708131,
+		708087,
 		119,
 		true
 	},
 	technology_queue_full = {
-		708250,
+		708206,
 		113,
 		true
 	},
 	technology_queue_in_mission_incomplete = {
-		708363,
+		708319,
 		177,
 		true
 	},
 	technology_consume = {
-		708540,
+		708496,
 		95,
 		true
 	},
 	technology_request = {
-		708635,
+		708591,
 		103,
 		true
 	},
 	technology_queue_in_doublecheck = {
-		708738,
+		708694,
 		242,
 		true
 	},
 	technology_queue_in_success = {
-		708980,
+		708936,
 		130,
 		true
 	},
 	star_require_enemy_text = {
-		709110,
+		709066,
 		116,
 		true
 	},
 	star_require_enemy_title = {
-		709226,
+		709182,
 		107,
 		true
 	},
 	star_require_enemy_check = {
-		709333,
+		709289,
 		95,
 		true
 	},
 	worldboss_rank_timer_label = {
-		709428,
+		709384,
 		116,
 		true
 	},
 	technology_detail = {
-		709544,
+		709500,
 		88,
 		true
 	},
 	technology_mission_unfinish = {
-		709632,
+		709588,
 		111,
 		true
 	},
 	word_chinese = {
-		709743,
+		709699,
 		82,
 		true
 	},
 	word_japanese_2 = {
-		709825,
+		709781,
 		80,
 		true
 	},
 	word_japanese = {
-		709905,
+		709861,
 		78,
 		true
 	},
 	avatarframe_got = {
-		709983,
+		709939,
 		84,
 		true
 	},
 	item_is_max_cnt = {
-		710067,
+		710023,
 		110,
 		true
 	},
 	level_fleet_ship_desc = {
-		710177,
+		710133,
 		103,
 		true
 	},
 	level_fleet_sub_desc = {
-		710280,
+		710236,
 		95,
 		true
 	},
 	summerland_tip = {
-		710375,
+		710331,
 		560,
 		true
 	},
 	icecreamgame_tip = {
-		710935,
+		710891,
 		1578,
 		true
 	},
 	unlock_date_tip = {
-		712513,
+		712469,
 		118,
 		true
 	}
