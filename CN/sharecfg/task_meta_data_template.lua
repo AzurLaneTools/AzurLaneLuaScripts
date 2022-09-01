@@ -576,6 +576,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[166] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "使用声望.META获得1次胜利",
+		id = 166,
+		target_num = 1,
+		target_id = "0"
+	},
+	[167] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "使用声望.META击破等级>30的敌方1次",
+		id = 167,
+		target_num = 1,
+		target_id = "30"
+	},
+	[168] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "使用声望.META击破等级>55的敌方1次",
+		id = 168,
+		target_num = 1,
+		target_id = "55"
+	},
+	[169] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "使用声望.META击破等级>80的敌方1次",
+		id = 169,
+		target_num = 1,
+		target_id = "80"
+	},
+	[170] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "使用声望.META击破等级>100的敌方1次",
+		id = 170,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -992,6 +1032,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[252] = {
+		target_id_2 = "970404",
+		sub_type = 302,
+		desc = "大型作战内使用声望.META获得1次胜利",
+		id = 252,
+		target_num = 1,
+		target_id = "0"
+	},
+	[253] = {
+		target_id_2 = "970404",
+		sub_type = 302,
+		desc = "大型作战内使用声望.META击破等级>70的敌方1次",
+		id = 253,
+		target_num = 1,
+		target_id = "70"
+	},
+	[254] = {
+		target_id_2 = "970404",
+		sub_type = 302,
+		desc = "大型作战内使用声望.META击破等级>90的敌方1次",
+		id = 254,
+		target_num = 1,
+		target_id = "90"
+	},
+	[255] = {
+		target_id_2 = "970404",
+		sub_type = 302,
+		desc = "大型作战内使用声望.META击破等级>100的敌方1次",
+		id = 255,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -1081,6 +1153,11 @@ pg.task_meta_data_template = {
 		163,
 		164,
 		165,
+		166,
+		167,
+		168,
+		169,
+		170,
 		200,
 		201,
 		202,
@@ -1133,6 +1210,10 @@ pg.task_meta_data_template = {
 		249,
 		250,
 		251,
+		252,
+		253,
+		254,
+		255,
 		301,
 		302
 	}

@@ -28,14 +28,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -81,14 +73,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -134,14 +118,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -187,14 +163,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -240,14 +208,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -293,14 +253,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -346,14 +298,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -399,14 +343,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -452,14 +388,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -505,14 +433,6 @@ return {
 					displayID = 15940,
 					trigger = {
 						"onAttach"
-					},
-					aniEffect = {
-						effect = "jineng",
-						offset = {
-							0,
-							-2,
-							0
-						}
 					}
 				}
 			},
@@ -531,7 +451,7 @@ return {
 	},
 	time = 0,
 	name = "",
-	init_effect = "jinengchufared",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -573,14 +493,6 @@ return {
 				displayID = 15940,
 				trigger = {
 					"onAttach"
-				},
-				aniEffect = {
-					effect = "jineng",
-					offset = {
-						0,
-						-2,
-						0
-					}
 				}
 			}
 		},

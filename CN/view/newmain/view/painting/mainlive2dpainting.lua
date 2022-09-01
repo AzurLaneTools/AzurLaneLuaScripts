@@ -190,17 +190,9 @@ end
 function slot0.OnResume(slot0)
 	slot0:AddScreenChangeTimer()
 	slot0:UpdateContainerPosition()
-
-	slot1 = slot0.live2dChar
-
-	slot1:SetVisible(true)
-
-	slot1 = slot0.live2dChar
-
-	slot1:Reset()
-	onNextTick(function ()
-		uv0.live2dChar:UpdateAtomSource()
-	end)
+	slot0.live2dChar:SetVisible(true)
+	slot0.live2dChar:Reset()
+	slot0.live2dChar:UpdateAtomSource()
 end
 
 function slot0.Dispose(slot0)

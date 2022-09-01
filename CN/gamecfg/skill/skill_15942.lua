@@ -6,14 +6,6 @@ return {
 	id = 15942,
 	picture = "1",
 	desc = "",
-	aniEffect = {
-		effect = "jineng",
-		offset = {
-			0,
-			-2,
-			0
-		}
-	},
 	effect_list = {
 		{
 			type = "BattleSkillAddBuff",

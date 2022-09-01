@@ -17,9 +17,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 73501,
-				hpOutInterval = true,
+				hpUpperBound = 0.3,
 				target = "TargetSelf",
-				hpLowerBound = 0.3
+				quota = 1
 			}
 		}
 	}

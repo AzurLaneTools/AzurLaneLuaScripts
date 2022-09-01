@@ -950,6 +950,34 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[19] = {
+		memory_group = 170,
+		name = "最珍贵的宝物常驻复刻",
+		activity_type = 2,
+		id = 19,
+		bg = "temp_u110",
+		order = 19,
+		config_data = {
+			2200061,
+			2200062,
+			2200063
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					2,
+					11005
+				},
+				"SP3"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -967,6 +995,7 @@ pg.re_map_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19
 	}
 }

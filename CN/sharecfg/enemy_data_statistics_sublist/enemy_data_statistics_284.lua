@@ -1,5 +1,86 @@
 pg = pg or {}
 pg.enemy_data_statistics_284 = {
+	[14603005] = {
+		cannon = 0,
+		antiaircraft_growth = 1800,
+		bubble_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 20004,
+		air = 48,
+		rarity = 2,
+		dodge = 0,
+		luck = 0,
+		id = 14603005,
+		cannon_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 2,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 2000,
+		fog_fx = "",
+		base = 90462,
+		durability = 4420,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		speed = 15,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 65600,
+		antiaircraft = 115,
+		battle_unit_type = 65,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.07,
+					0.24,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1003059,
+			1003064,
+			1003069,
+			1003074
+		},
+		buff_list = {}
+	},
 	[14603006] = {
 		cannon = 60,
 		hit_growth = 1200,
@@ -954,63 +1035,6 @@ pg.enemy_data_statistics_284 = {
 			1003189,
 			1003194,
 			1003199
-		},
-		buff_list = {}
-	},
-	[14603301] = {
-		cannon = 230,
-		hit_growth = 330,
-		bubble_fx = "",
-		speed_growth = 0,
-		rarity = 4,
-		air = 0,
-		luck = 25,
-		id = 14603301,
-		reload = 150,
-		antiaircraft = 250,
-		battle_unit_type = 95,
-		dodge_growth = 252,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90467,
-		durability = 78200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 16,
-		armor = 0,
-		antisub = 0,
-		scale = 144,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		fog_fx = "",
-		dodge = 20,
-		reload_growth = 0,
-		hit = 35,
-		torpedo = 180,
-		durability_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			773001,
-			773002,
-			773003,
-			773004,
-			773005
 		},
 		buff_list = {}
 	}

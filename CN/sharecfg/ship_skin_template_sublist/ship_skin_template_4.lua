@@ -7350,6 +7350,113 @@ pg.ship_skin_template_4 = {
 			}
 		}
 	},
+	[131170] = {
+		ship_group = 10117,
+		name = "鸡肉卷，还有倦意…",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 131170,
+		group_index = 10,
+		prefab = "lafei_11",
+		painting = "lafei_11",
+		shop_id = 70735,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "欢迎光临，要来份鸡肉卷吗？那个面饼用来当被子的话睡觉一定很舒服……嗯，大概。",
+		voice_actor = 35,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.883,
+					0.965,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.005,
+					-0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.174,
+					1.55,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.735,
+							1.824,
+							-0.13
+						}
+					}
+				}
+			}
+		}
+	},
 	[137030] = {
 		ship_group = 10703,
 		name = "杯面大使？",
@@ -8825,133 +8932,6 @@ pg.ship_skin_template_4 = {
 						{
 							-0.37,
 							2.59,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201060] = {
-		ship_group = 20106,
-		name = "小猎兔犬",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201060,
-		group_index = 0,
-		prefab = "xiaolietuquan",
-		painting = "xiaolietuquan",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 16,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "B级驱逐舰—小猎兔犬，舷号H30",
-		voice_actor = 63,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.72,
-					0.87,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.72,
-					0.87,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.48,
-					0.34,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.72,
-					0.87,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.559,
-							0.272,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.293,
-							0.826,
 							0
 						}
 					}

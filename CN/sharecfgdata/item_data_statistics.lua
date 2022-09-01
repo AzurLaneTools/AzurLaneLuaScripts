@@ -6943,7 +6943,7 @@ _G.pg.base.item_data_statistics[15012] = {
 }
 
 _G.pg.base.item_data_statistics[15013] = {
-	display = "可用于『世界巡游』活动中，快速完成巡游任务，活动结束不会消失",
+	display = "可用于「世界巡游」活动中，快速完成巡游任务，活动结束不会消失",
 	name = "巡游任务快速完成券",
 	max_num = 0,
 	type = 1,
@@ -9085,7 +9085,7 @@ _G.pg.base.item_data_statistics[21010] = {
 }
 
 _G.pg.base.item_data_statistics[21011] = {
-	display = "孟菲斯·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。'",
+	display = "孟菲斯·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
 	name = "结晶：孟菲斯·META",
 	max_num = 0,
 	type = 4,
@@ -9106,7 +9106,7 @@ _G.pg.base.item_data_statistics[21011] = {
 }
 
 _G.pg.base.item_data_statistics[21012] = {
-	display = "反击·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。'",
+	display = "反击·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
 	name = "结晶：反击·META",
 	max_num = 0,
 	type = 4,
@@ -9127,7 +9127,7 @@ _G.pg.base.item_data_statistics[21012] = {
 }
 
 _G.pg.base.item_data_statistics[21013] = {
-	display = "特伦托·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。'",
+	display = "特伦托·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
 	name = "结晶：特伦托·META",
 	max_num = 0,
 	type = 4,
@@ -9141,6 +9141,27 @@ _G.pg.base.item_data_statistics[21013] = {
 	id = 21013,
 	is_world = 0,
 	icon = "Props/21013",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21014] = {
+	display = "声望·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：声望·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21014,
+	is_world = 0,
+	icon = "Props/21014",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9372,6 +9393,27 @@ _G.pg.base.item_data_statistics[21907] = {
 	id = 21907,
 	is_world = 0,
 	icon = "Props/21907",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21908] = {
+	display = "于「信标·META」战斗中收集的数据，可以提升声望·META同步率。",
+	name = "同步值：声望·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21908,
+	is_world = 0,
+	icon = "Props/21908",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170295,7 +170337,7 @@ _G.pg.base.item_data_statistics[59106] = {
 }
 
 _G.pg.base.item_data_statistics[59107] = {
-	display = "用于『红染的参访者』活动兑换，活动结束后将会消失",
+	display = "用于「红染的参访者」活动兑换，活动结束后将会消失",
 	name = "绘马",
 	max_num = 0,
 	type = 98,
@@ -170316,7 +170358,7 @@ _G.pg.base.item_data_statistics[59107] = {
 }
 
 _G.pg.base.item_data_statistics[59108] = {
-	display = "用于『啾啾总动员』累计兑换活动，活动结束后将会消失",
+	display = "用于「啾啾总动员」累计兑换活动，活动结束后将会消失",
 	name = "啾啾",
 	max_num = 0,
 	type = 98,
@@ -170337,7 +170379,7 @@ _G.pg.base.item_data_statistics[59108] = {
 }
 
 _G.pg.base.item_data_statistics[59109] = {
-	display = "用于『墨染的钢铁之花』活动兑换，活动结束后将会消失",
+	display = "用于「墨染的钢铁之花」活动兑换，活动结束后将会消失",
 	name = "樱之御守",
 	max_num = 0,
 	type = 98,
@@ -170379,7 +170421,7 @@ _G.pg.base.item_data_statistics[59110] = {
 }
 
 _G.pg.base.item_data_statistics[59111] = {
-	display = "用于『异色格』活动兑换，活动结束后将会消失",
+	display = "用于「异色格」活动兑换，活动结束后将会消失",
 	name = "PT点数",
 	max_num = 0,
 	type = 98,
@@ -170400,7 +170442,7 @@ _G.pg.base.item_data_statistics[59111] = {
 }
 
 _G.pg.base.item_data_statistics[59112] = {
-	display = "用于『光与影的鸢尾之华』活动兑换，活动结束后将会消失",
+	display = "用于「光与影的鸢尾之华」活动兑换，活动结束后将会消失",
 	name = "爱丽丝之徽",
 	max_num = 0,
 	type = 98,
@@ -170421,7 +170463,7 @@ _G.pg.base.item_data_statistics[59112] = {
 }
 
 _G.pg.base.item_data_statistics[59113] = {
-	display = "用于『啾啾总动员』复刻累计兑换活动，活动结束后将会消失",
+	display = "用于「啾啾总动员」复刻累计兑换活动，活动结束后将会消失",
 	name = "啾啾",
 	max_num = 0,
 	type = 98,
@@ -170484,7 +170526,7 @@ _G.pg.base.item_data_statistics[59115] = {
 }
 
 _G.pg.base.item_data_statistics[59116] = {
-	display = "用于『坠落之翼』活动抽取，活动结束后将会消失",
+	display = "用于「坠落之翼」活动抽取，活动结束后将会消失",
 	name = "战斗之星",
 	max_num = 0,
 	type = 98,
@@ -170505,7 +170547,7 @@ _G.pg.base.item_data_statistics[59116] = {
 }
 
 _G.pg.base.item_data_statistics[59117] = {
-	display = "用于『传颂之物』活动提升角色好感，活动结束后将会消失",
+	display = "用于「传颂之物」活动提升角色好感，活动结束后将会消失",
 	name = "友好度-芙米露露",
 	max_num = 0,
 	type = 98,
@@ -170526,7 +170568,7 @@ _G.pg.base.item_data_statistics[59117] = {
 }
 
 _G.pg.base.item_data_statistics[59118] = {
-	display = "用于『传颂之物』联动活动兑换，活动结束后将会消失",
+	display = "用于「传颂之物」联动活动兑换，活动结束后将会消失",
 	name = "可可波币",
 	max_num = 0,
 	type = 98,
@@ -170547,7 +170589,7 @@ _G.pg.base.item_data_statistics[59118] = {
 }
 
 _G.pg.base.item_data_statistics[59119] = {
-	display = "用于『斯图尔特的硝烟』活动兑换，活动结束后将会消失",
+	display = "用于「斯图尔特的硝烟」活动兑换，活动结束后将会消失",
 	name = "式符-J",
 	max_num = 0,
 	type = 98,
@@ -170568,7 +170610,7 @@ _G.pg.base.item_data_statistics[59119] = {
 }
 
 _G.pg.base.item_data_statistics[59120] = {
-	display = "用于『苍红的回响』活动兑换，活动结束后将会消失",
+	display = "用于「苍红的回响」活动兑换，活动结束后将会消失",
 	name = "Pt-樱 ",
 	max_num = 0,
 	type = 98,
@@ -170610,7 +170652,7 @@ _G.pg.base.item_data_statistics[59121] = {
 }
 
 _G.pg.base.item_data_statistics[59122] = {
-	display = "参与『特别演习·埃塞克斯级』获得的点数，累计一定程度可以领取报酬",
+	display = "参与「特别演习·埃塞克斯级」获得的点数，累计一定程度可以领取报酬",
 	name = "贡献值",
 	max_num = 0,
 	type = 98,
@@ -170631,7 +170673,7 @@ _G.pg.base.item_data_statistics[59122] = {
 }
 
 _G.pg.base.item_data_statistics[59123] = {
-	display = "用于『纳尔维克海战』活动提升角色好感，活动结束后将会消失",
+	display = "用于「纳尔维克海战」活动提升角色好感，活动结束后将会消失",
 	name = "友好度-猎人",
 	max_num = 0,
 	type = 98,
@@ -170652,7 +170694,7 @@ _G.pg.base.item_data_statistics[59123] = {
 }
 
 _G.pg.base.item_data_statistics[59124] = {
-	display = "用于『墨染的钢铁之花』活动兑换，活动结束后将会消失",
+	display = "用于「墨染的钢铁之花」活动兑换，活动结束后将会消失",
 	name = "樱之御守",
 	max_num = 0,
 	type = 98,
@@ -170673,7 +170715,7 @@ _G.pg.base.item_data_statistics[59124] = {
 }
 
 _G.pg.base.item_data_statistics[59125] = {
-	display = "用于『异国的偶像？』活动兑换，活动结束后将会消失",
+	display = "用于「异国的偶像？」活动兑换，活动结束后将会消失",
 	name = "长鼓",
 	max_num = 0,
 	type = 98,
@@ -170694,7 +170736,7 @@ _G.pg.base.item_data_statistics[59125] = {
 }
 
 _G.pg.base.item_data_statistics[59126] = {
-	display = "用于『虚拟链接的共时性』活动兑换，活动结束后将会消失",
+	display = "用于「虚拟链接的共时性」活动兑换，活动结束后将会消失",
 	name = "Pt-绊",
 	max_num = 0,
 	type = 98,
@@ -170715,7 +170757,7 @@ _G.pg.base.item_data_statistics[59126] = {
 }
 
 _G.pg.base.item_data_statistics[59127] = {
-	display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
+	display = "用于「司令部动员指令」活动累计奖励，活动结束后将会消失",
 	name = "集结点",
 	max_num = 0,
 	type = 98,
@@ -170736,7 +170778,7 @@ _G.pg.base.item_data_statistics[59127] = {
 }
 
 _G.pg.base.item_data_statistics[59128] = {
-	display = "用于『限时体验商店』兑换角色限时换装，2019年7月11日后将无法使用",
+	display = "用于「限时体验商店」兑换角色限时换装，2019年7月11日后将无法使用",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -170757,7 +170799,7 @@ _G.pg.base.item_data_statistics[59128] = {
 }
 
 _G.pg.base.item_data_statistics[59129] = {
-	display = "用于『铁血、音符与誓言』活动兑换，活动结束后将会消失",
+	display = "用于「铁血、音符与誓言」活动兑换，活动结束后将会消失",
 	name = "铁血纹章",
 	max_num = 0,
 	type = 98,
@@ -170778,7 +170820,7 @@ _G.pg.base.item_data_statistics[59129] = {
 }
 
 _G.pg.base.item_data_statistics[59130] = {
-	display = "用于『明日之星✩闪亮登场！ 』活动提升角色好感，活动结束后将会消失",
+	display = "用于「明日之星✩闪亮登场！ 」活动提升角色好感，活动结束后将会消失",
 	name = "友好度",
 	max_num = 0,
 	type = 98,
@@ -170820,7 +170862,7 @@ _G.pg.base.item_data_statistics[59132] = {
 }
 
 _G.pg.base.item_data_statistics[59133] = {
-	display = "用于『光与影的鸢尾之华』活动兑换，活动结束后将会消失",
+	display = "用于「光与影的鸢尾之华」活动兑换，活动结束后将会消失",
 	name = "爱丽丝之徽",
 	max_num = 0,
 	type = 98,
@@ -170841,7 +170883,7 @@ _G.pg.base.item_data_statistics[59133] = {
 }
 
 _G.pg.base.item_data_statistics[59134] = {
-	display = "用于『箱庭疗法』活动兑换，活动结束后将会消失",
+	display = "用于「箱庭疗法」活动兑换，活动结束后将会消失",
 	name = "战斗之星·黑",
 	max_num = 0,
 	type = 98,
@@ -170862,7 +170904,7 @@ _G.pg.base.item_data_statistics[59134] = {
 }
 
 _G.pg.base.item_data_statistics[59135] = {
-	display = "关于「传说中的海豹」的线索，收集更多情报，寻找传说中的小海豹吧！用于『碧海的偶像』活动，活动结束后将会消失",
+	display = "关于「传说中的海豹」的线索，收集更多情报，寻找传说中的小海豹吧！用于「碧海的偶像」活动，活动结束后将会消失",
 	name = "线索",
 	max_num = 0,
 	type = 98,
@@ -170883,7 +170925,7 @@ _G.pg.base.item_data_statistics[59135] = {
 }
 
 _G.pg.base.item_data_statistics[59136] = {
-	display = "用于『Azurlane人气投票』活动累计获得投票，每轮投票结束时次数清零",
+	display = "用于「Azurlane人气投票」活动累计获得投票，每轮投票结束时次数清零",
 	name = "应援棒",
 	max_num = 0,
 	type = 98,
@@ -170904,7 +170946,7 @@ _G.pg.base.item_data_statistics[59136] = {
 }
 
 _G.pg.base.item_data_statistics[59137] = {
-	display = "用于『神圣的悲喜剧』活动兑换，活动结束后将会消失",
+	display = "用于「神圣的悲喜剧」活动兑换，活动结束后将会消失",
 	name = "帝国的荣光",
 	max_num = 0,
 	type = 98,
@@ -170925,7 +170967,7 @@ _G.pg.base.item_data_statistics[59137] = {
 }
 
 _G.pg.base.item_data_statistics[59138] = {
-	display = "用于『神圣的序幕』活动兑换，活动结束后将会消失",
+	display = "用于「神圣的序幕」活动兑换，活动结束后将会消失",
 	name = "训练点数",
 	max_num = 0,
 	type = 98,
@@ -170946,7 +170988,7 @@ _G.pg.base.item_data_statistics[59138] = {
 }
 
 _G.pg.base.item_data_statistics[59139] = {
-	display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
+	display = "用于「司令部动员指令」活动累计奖励，活动结束后将会消失",
 	name = "集结点",
 	max_num = 0,
 	type = 98,
@@ -170967,7 +171009,7 @@ _G.pg.base.item_data_statistics[59139] = {
 }
 
 _G.pg.base.item_data_statistics[59140] = {
-	display = "用于『限时体验商店』兑换角色限时换装，2019年11月14日后将无法使用",
+	display = "用于「限时体验商店」兑换角色限时换装，2019年11月14日后将无法使用",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -170988,7 +171030,7 @@ _G.pg.base.item_data_statistics[59140] = {
 }
 
 _G.pg.base.item_data_statistics[59141] = {
-	display = "参与『穿越彼方的水线』获得的点数，累计一定程度可以领取报酬",
+	display = "参与「穿越彼方的水线」获得的点数，累计一定程度可以领取报酬",
 	name = "贡献值",
 	max_num = 0,
 	type = 98,
@@ -171009,7 +171051,7 @@ _G.pg.base.item_data_statistics[59141] = {
 }
 
 _G.pg.base.item_data_statistics[59142] = {
-	display = "参与『穿越彼方的水线』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	display = "参与「穿越彼方的水线」EX关的必要道具，也可以用来增加普通关额外奖励次数",
 	name = "特别挑战券",
 	max_num = 0,
 	type = 98,
@@ -171030,7 +171072,7 @@ _G.pg.base.item_data_statistics[59142] = {
 }
 
 _G.pg.base.item_data_statistics[59143] = {
-	display = "用于『激奏的Polaris』活动兑换，活动结束后将会消失",
+	display = "用于「激奏的Polaris」活动兑换，活动结束后将会消失",
 	name = "激奏徽章",
 	max_num = 0,
 	type = 98,
@@ -171051,7 +171093,7 @@ _G.pg.base.item_data_statistics[59143] = {
 }
 
 _G.pg.base.item_data_statistics[59144] = {
-	display = "用于『虚拟与真实的双向镜』活动兑换，活动结束后将会消失",
+	display = "用于「虚拟与真实的双向镜」活动兑换，活动结束后将会消失",
 	name = "P-TNT",
 	max_num = 0,
 	type = 98,
@@ -171072,7 +171114,7 @@ _G.pg.base.item_data_statistics[59144] = {
 }
 
 _G.pg.base.item_data_statistics[59145] = {
-	display = "用于『澪的港区占卜馆 』活动提升角色好感，活动结束后将会消失",
+	display = "用于「澪的港区占卜馆 」活动提升角色好感，活动结束后将会消失",
 	name = "友好度-大神澪",
 	max_num = 0,
 	type = 98,
@@ -171114,7 +171156,7 @@ _G.pg.base.item_data_statistics[59146] = {
 }
 
 _G.pg.base.item_data_statistics[59147] = {
-	display = "用于『浮樱影华』活动兑换，活动结束后将会消失",
+	display = "用于「浮樱影华」活动兑换，活动结束后将会消失",
 	name = "勾玉",
 	max_num = 0,
 	type = 98,
@@ -171156,7 +171198,7 @@ _G.pg.base.item_data_statistics[59148] = {
 }
 
 _G.pg.base.item_data_statistics[59149] = {
-	display = "用于『北境序曲』活动兑换，活动结束后将会消失",
+	display = "用于「北境序曲」活动兑换，活动结束后将会消失",
 	name = "情报Pt",
 	max_num = 0,
 	type = 98,
@@ -171177,7 +171219,7 @@ _G.pg.base.item_data_statistics[59149] = {
 }
 
 _G.pg.base.item_data_statistics[59150] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -171198,7 +171240,7 @@ _G.pg.base.item_data_statistics[59150] = {
 }
 
 _G.pg.base.item_data_statistics[59151] = {
-	display = "用于『斯图尔特的硝烟』活动兑换，活动结束后将会消失",
+	display = "用于「斯图尔特的硝烟」活动兑换，活动结束后将会消失",
 	name = "式符-J",
 	max_num = 0,
 	type = 98,
@@ -171240,7 +171282,7 @@ _G.pg.base.item_data_statistics[59152] = {
 }
 
 _G.pg.base.item_data_statistics[59153] = {
-	display = "用于『异国的偶像？』复刻活动兑换，活动结束后将会消失",
+	display = "用于「异国的偶像？」复刻活动兑换，活动结束后将会消失",
 	name = "长鼓",
 	max_num = 0,
 	type = 98,
@@ -171282,7 +171324,7 @@ _G.pg.base.item_data_statistics[59154] = {
 }
 
 _G.pg.base.item_data_statistics[59155] = {
-	display = "用于『微层混合』活动兑换，活动结束后将会消失",
+	display = "用于「微层混合」活动兑换，活动结束后将会消失",
 	name = "银翼之徽",
 	max_num = 0,
 	type = 98,
@@ -171303,7 +171345,7 @@ _G.pg.base.item_data_statistics[59155] = {
 }
 
 _G.pg.base.item_data_statistics[59156] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -171324,7 +171366,7 @@ _G.pg.base.item_data_statistics[59156] = {
 }
 
 _G.pg.base.item_data_statistics[59157] = {
-	display = "用于『苍红的回响』活动兑换，活动结束后将会消失",
+	display = "用于「苍红的回响」活动兑换，活动结束后将会消失",
 	name = "Pt-樱 ",
 	max_num = 0,
 	type = 98,
@@ -171345,7 +171387,7 @@ _G.pg.base.item_data_statistics[59157] = {
 }
 
 _G.pg.base.item_data_statistics[59158] = {
-	display = "用于『小骑士的训练日 』活动提升角色好感，活动结束后将会消失",
+	display = "用于「小骑士的训练日 」活动提升角色好感，活动结束后将会消失",
 	name = "友好度-小声望",
 	max_num = 0,
 	type = 98,
@@ -171366,7 +171408,7 @@ _G.pg.base.item_data_statistics[59158] = {
 }
 
 _G.pg.base.item_data_statistics[59159] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -171408,7 +171450,7 @@ _G.pg.base.item_data_statistics[59160] = {
 }
 
 _G.pg.base.item_data_statistics[59162] = {
-	display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
+	display = "用于「司令部动员指令」活动累计奖励，活动结束后将会消失",
 	name = "集结点",
 	max_num = 0,
 	type = 98,
@@ -171450,7 +171492,7 @@ _G.pg.base.item_data_statistics[59163] = {
 }
 
 _G.pg.base.item_data_statistics[59164] = {
-	display = "用于『庆典广场』活动升级建筑，活动结束后将会消失",
+	display = "用于「庆典广场」活动升级建筑，活动结束后将会消失",
 	name = "庆典建材",
 	max_num = 0,
 	type = 0,
@@ -171471,7 +171513,7 @@ _G.pg.base.item_data_statistics[59164] = {
 }
 
 _G.pg.base.item_data_statistics[59165] = {
-	display = "用于『穹顶下的圣咏曲』活动兑换，活动结束后将会消失",
+	display = "用于「穹顶下的圣咏曲」活动兑换，活动结束后将会消失",
 	name = "鸢尾之印",
 	max_num = 0,
 	type = 98,
@@ -171492,7 +171534,7 @@ _G.pg.base.item_data_statistics[59165] = {
 }
 
 _G.pg.base.item_data_statistics[59166] = {
-	display = "用于『换装商店』内8折购买「完美的代理店长」换装    有效期至：2020年6月17日23时59分59秒",
+	display = "用于「换装商店」内8折购买「完美的代理店长」换装    有效期至：2020年6月17日23时59分59秒",
 	name = "必胜客联动换装打折券 ",
 	max_num = 0,
 	type = 0,
@@ -171534,7 +171576,7 @@ _G.pg.base.item_data_statistics[59167] = {
 }
 
 _G.pg.base.item_data_statistics[59168] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -171555,7 +171597,7 @@ _G.pg.base.item_data_statistics[59168] = {
 }
 
 _G.pg.base.item_data_statistics[59169] = {
-	display = "用于『峡湾间的反击』活动兑换，活动结束后将会消失",
+	display = "用于「峡湾间的反击」活动兑换，活动结束后将会消失",
 	name = "峡湾之徽 ",
 	max_num = 0,
 	type = 98,
@@ -171597,7 +171639,7 @@ _G.pg.base.item_data_statistics[59170] = {
 }
 
 _G.pg.base.item_data_statistics[59171] = {
-	display = "用于『永夜幻光』活动兑换，活动结束后将会消失",
+	display = "用于「永夜幻光」活动兑换，活动结束后将会消失",
 	name = "荣誉之冠",
 	max_num = 0,
 	type = 98,
@@ -171618,7 +171660,7 @@ _G.pg.base.item_data_statistics[59171] = {
 }
 
 _G.pg.base.item_data_statistics[59172] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -171639,7 +171681,7 @@ _G.pg.base.item_data_statistics[59172] = {
 }
 
 _G.pg.base.item_data_statistics[59173] = {
-	display = "用于『环城之夜』活动兑换，活动结束后将会消失",
+	display = "用于「环城之夜」活动兑换，活动结束后将会消失",
 	name = "鹰羽",
 	max_num = 0,
 	type = 98,
@@ -171660,7 +171702,7 @@ _G.pg.base.item_data_statistics[59173] = {
 }
 
 _G.pg.base.item_data_statistics[59174] = {
-	display = "用于『铁血、音符与誓言』活动兑换，活动结束后将会消失",
+	display = "用于「铁血、音符与誓言」活动兑换，活动结束后将会消失",
 	name = "铁血纹章",
 	max_num = 0,
 	type = 98,
@@ -171681,7 +171723,7 @@ _G.pg.base.item_data_statistics[59174] = {
 }
 
 _G.pg.base.item_data_statistics[59175] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -171702,7 +171744,7 @@ _G.pg.base.item_data_statistics[59175] = {
 }
 
 _G.pg.base.item_data_statistics[59176] = {
-	display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
+	display = "用于「司令部动员指令」活动累计奖励，活动结束后将会消失",
 	name = "集结点",
 	max_num = 0,
 	type = 98,
@@ -171723,7 +171765,7 @@ _G.pg.base.item_data_statistics[59176] = {
 }
 
 _G.pg.base.item_data_statistics[59177] = {
-	display = "用于『庆典广场』活动升级建筑，活动结束后将会消失",
+	display = "用于「庆典广场」活动升级建筑，活动结束后将会消失",
 	name = "庆典建材",
 	max_num = 0,
 	type = 0,
@@ -171765,7 +171807,7 @@ _G.pg.base.item_data_statistics[59178] = {
 }
 
 _G.pg.base.item_data_statistics[59179] = {
-	display = "用于『啾啾历险记』探索关卡地图，活动结束后将会消失",
+	display = "用于「啾啾历险记」探索关卡地图，活动结束后将会消失",
 	name = "探索点数",
 	max_num = 0,
 	type = 0,
@@ -171786,7 +171828,7 @@ _G.pg.base.item_data_statistics[59179] = {
 }
 
 _G.pg.base.item_data_statistics[59181] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -171807,7 +171849,7 @@ _G.pg.base.item_data_statistics[59181] = {
 }
 
 _G.pg.base.item_data_statistics[59182] = {
-	display = "用于『蝶海梦花』活动兑换，活动结束后将会消失",
+	display = "用于「蝶海梦花」活动兑换，活动结束后将会消失",
 	name = "蝶影",
 	max_num = 0,
 	type = 98,
@@ -171849,7 +171891,7 @@ _G.pg.base.item_data_statistics[59180] = {
 }
 
 _G.pg.base.item_data_statistics[59183] = {
-	display = "用于『划破海空之翼』活动兑换，活动结束后将会消失",
+	display = "用于「划破海空之翼」活动兑换，活动结束后将会消失",
 	name = "翼之徽",
 	max_num = 0,
 	type = 98,
@@ -171891,7 +171933,7 @@ _G.pg.base.item_data_statistics[59184] = {
 }
 
 _G.pg.base.item_data_statistics[59185] = {
-	display = "用于『激唱的UNIVERSE』活动兑换，活动结束后将会消失",
+	display = "用于「激唱的UNIVERSE」活动兑换，活动结束后将会消失",
 	name = "激唱徽章",
 	max_num = 0,
 	type = 98,
@@ -171912,7 +171954,7 @@ _G.pg.base.item_data_statistics[59185] = {
 }
 
 _G.pg.base.item_data_statistics[59186] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -171954,7 +171996,7 @@ _G.pg.base.item_data_statistics[59187] = {
 }
 
 _G.pg.base.item_data_statistics[59188] = {
-	display = "用于『峡湾间的猎人』活动提升角色好感，活动结束后将会消失",
+	display = "用于「峡湾间的猎人」活动提升角色好感，活动结束后将会消失",
 	name = "友好度-猎人",
 	max_num = 0,
 	type = 98,
@@ -171975,7 +172017,7 @@ _G.pg.base.item_data_statistics[59188] = {
 }
 
 _G.pg.base.item_data_statistics[59189] = {
-	display = "用于『假日航线』活动兑换，活动结束后将会消失",
+	display = "用于「假日航线」活动兑换，活动结束后将会消失",
 	name = "维纳斯点数",
 	max_num = 0,
 	type = 98,
@@ -171996,7 +172038,7 @@ _G.pg.base.item_data_statistics[59189] = {
 }
 
 _G.pg.base.item_data_statistics[59190] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172017,7 +172059,7 @@ _G.pg.base.item_data_statistics[59190] = {
 }
 
 _G.pg.base.item_data_statistics[59192] = {
-	display = "用于『负象限作战』活动兑换，活动结束后将会消失",
+	display = "用于「负象限作战」活动兑换，活动结束后将会消失",
 	name = "铁血密钥",
 	max_num = 0,
 	type = 98,
@@ -172038,7 +172080,7 @@ _G.pg.base.item_data_statistics[59192] = {
 }
 
 _G.pg.base.item_data_statistics[59193] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172122,7 +172164,7 @@ _G.pg.base.item_data_statistics[59195] = {
 }
 
 _G.pg.base.item_data_statistics[59196] = {
-	display = "用于『神圣的悲喜剧』活动兑换，活动结束后将会消失",
+	display = "用于「神圣的悲喜剧」活动兑换，活动结束后将会消失",
 	name = "帝国的荣光",
 	max_num = 0,
 	type = 98,
@@ -172143,7 +172185,7 @@ _G.pg.base.item_data_statistics[59196] = {
 }
 
 _G.pg.base.item_data_statistics[59197] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172164,7 +172206,7 @@ _G.pg.base.item_data_statistics[59197] = {
 }
 
 _G.pg.base.item_data_statistics[59198] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172185,7 +172227,7 @@ _G.pg.base.item_data_statistics[59198] = {
 }
 
 _G.pg.base.item_data_statistics[59199] = {
-	display = "用于『新岁祝福·辛丑』活动兑换，活动结束后将会消失",
+	display = "用于「新岁祝福·辛丑」活动兑换，活动结束后将会消失",
 	name = "东煌结",
 	max_num = 0,
 	type = 98,
@@ -172227,7 +172269,7 @@ _G.pg.base.item_data_statistics[59200] = {
 }
 
 _G.pg.base.item_data_statistics[59201] = {
-	display = "用于『破晓冰华』活动兑换，活动结束后将会消失",
+	display = "用于「破晓冰华」活动兑换，活动结束后将会消失",
 	name = "未知晶体",
 	max_num = 0,
 	type = 98,
@@ -172248,7 +172290,7 @@ _G.pg.base.item_data_statistics[59201] = {
 }
 
 _G.pg.base.item_data_statistics[59202] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172269,7 +172311,7 @@ _G.pg.base.item_data_statistics[59202] = {
 }
 
 _G.pg.base.item_data_statistics[59203] = {
-	display = "用于『最可爱的伙伴』活动，活动结束后将会消失",
+	display = "用于「最可爱的伙伴」活动，活动结束后将会消失",
 	name = "美味竹子",
 	max_num = 0,
 	type = 98,
@@ -172290,7 +172332,7 @@ _G.pg.base.item_data_statistics[59203] = {
 }
 
 _G.pg.base.item_data_statistics[59204] = {
-	display = "用于『最可爱的伙伴』活动，活动结束后将会消失",
+	display = "用于「最可爱的伙伴」活动，活动结束后将会消失",
 	name = "美味竹子",
 	max_num = 0,
 	type = 98,
@@ -172311,7 +172353,7 @@ _G.pg.base.item_data_statistics[59204] = {
 }
 
 _G.pg.base.item_data_statistics[59205] = {
-	display = "用于『最可爱的伙伴』活动，活动结束后将会消失",
+	display = "用于「最可爱的伙伴」活动，活动结束后将会消失",
 	name = "美味竹子",
 	max_num = 0,
 	type = 98,
@@ -172353,7 +172395,7 @@ _G.pg.base.item_data_statistics[59206] = {
 }
 
 _G.pg.base.item_data_statistics[59207] = {
-	display = "用于『箱庭疗法』复刻活动兑换，活动结束后将会消失",
+	display = "用于「箱庭疗法」复刻活动兑换，活动结束后将会消失",
 	name = "战斗之星·黑",
 	max_num = 0,
 	type = 98,
@@ -172374,7 +172416,7 @@ _G.pg.base.item_data_statistics[59207] = {
 }
 
 _G.pg.base.item_data_statistics[59208] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172395,7 +172437,7 @@ _G.pg.base.item_data_statistics[59208] = {
 }
 
 _G.pg.base.item_data_statistics[59209] = {
-	display = "用于『复兴的赞美诗』活动兑换，活动结束后将会消失",
+	display = "用于「复兴的赞美诗」活动兑换，活动结束后将会消失",
 	name = "复兴之证",
 	max_num = 0,
 	type = 98,
@@ -172416,7 +172458,7 @@ _G.pg.base.item_data_statistics[59209] = {
 }
 
 _G.pg.base.item_data_statistics[59210] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172437,7 +172479,7 @@ _G.pg.base.item_data_statistics[59210] = {
 }
 
 _G.pg.base.item_data_statistics[59211] = {
-	display = "用于『小小军师成长记 』活动提升角色好感，活动结束后将会消失",
+	display = "用于「小小军师成长记」活动提升角色好感，活动结束后将会消失",
 	name = "友好度-小鳐",
 	max_num = 0,
 	type = 98,
@@ -172479,7 +172521,7 @@ _G.pg.base.item_data_statistics[59212] = {
 }
 
 _G.pg.base.item_data_statistics[59213] = {
-	display = "用于『啾啾冰棒屋』活动，活动结束后将会消失。 ",
+	display = "用于「啾啾冰棒屋」活动，活动结束后将会消失。 ",
 	name = "啾啾冰棒材料",
 	max_num = 0,
 	type = 98,
@@ -172500,7 +172542,7 @@ _G.pg.base.item_data_statistics[59213] = {
 }
 
 _G.pg.base.item_data_statistics[59214] = {
-	display = "用于『镜位螺旋』活动兑换，活动结束后将会消失",
+	display = "用于「镜位螺旋」活动兑换，活动结束后将会消失",
 	name = "镜位之证",
 	max_num = 0,
 	type = 98,
@@ -172521,7 +172563,7 @@ _G.pg.base.item_data_statistics[59214] = {
 }
 
 _G.pg.base.item_data_statistics[59215] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172542,7 +172584,7 @@ _G.pg.base.item_data_statistics[59215] = {
 }
 
 _G.pg.base.item_data_statistics[59216] = {
-	display = "用于『奋斗吧，小企业！ 』活动提升角色好感，活动结束后将会消失",
+	display = "用于「奋斗吧，小企业！ 」活动提升角色好感，活动结束后将会消失",
 	name = "友好度-小企业",
 	max_num = 0,
 	type = 98,
@@ -172563,7 +172605,7 @@ _G.pg.base.item_data_statistics[59216] = {
 }
 
 _G.pg.base.item_data_statistics[59217] = {
-	display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
+	display = "用于「司令部动员指令」活动累计奖励，活动结束后将会消失",
 	name = "集结点",
 	max_num = 0,
 	type = 98,
@@ -172584,7 +172626,7 @@ _G.pg.base.item_data_statistics[59217] = {
 }
 
 _G.pg.base.item_data_statistics[59218] = {
-	display = "用于『啾啾乐园』活动升级建筑，活动结束后将会消失",
+	display = "用于「啾啾乐园」活动升级建筑，活动结束后将会消失",
 	name = "乐园建材",
 	max_num = 0,
 	type = 0,
@@ -172605,7 +172647,7 @@ _G.pg.base.item_data_statistics[59218] = {
 }
 
 _G.pg.base.item_data_statistics[59219] = {
-	display = "用于『啾啾兑换屋』兑换奖品，活动结束后将会消失",
+	display = "用于「啾啾兑换屋」兑换奖品，活动结束后将会消失",
 	name = "啾啾兑换券",
 	max_num = 0,
 	type = 98,
@@ -172668,7 +172710,7 @@ _G.pg.base.item_data_statistics[59221] = {
 }
 
 _G.pg.base.item_data_statistics[59222] = {
-	display = "帮鲼收集的度假海滩的空气。用于『假日攻势』活动兑换，活动结束后将会消失。",
+	display = "帮鲼收集的度假海滩的空气。用于「假日攻势」活动兑换，活动结束后将会消失。",
 	name = "空气瓶",
 	max_num = 0,
 	type = 98,
@@ -172689,7 +172731,7 @@ _G.pg.base.item_data_statistics[59222] = {
 }
 
 _G.pg.base.item_data_statistics[59223] = {
-	display = "用于『浮樱影华』复刻活动兑换，活动结束后将会消失",
+	display = "用于「浮樱影华」复刻活动兑换，活动结束后将会消失",
 	name = "勾玉",
 	max_num = 0,
 	type = 98,
@@ -172710,7 +172752,7 @@ _G.pg.base.item_data_statistics[59223] = {
 }
 
 _G.pg.base.item_data_statistics[59224] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172731,7 +172773,7 @@ _G.pg.base.item_data_statistics[59224] = {
 }
 
 _G.pg.base.item_data_statistics[59225] = {
-	display = "参与『穿越彼方的水线』获得的点数，累计一定程度可以领取报酬",
+	display = "参与「穿越彼方的水线」获得的点数，累计一定程度可以领取报酬",
 	name = "贡献值",
 	max_num = 0,
 	type = 98,
@@ -172752,7 +172794,7 @@ _G.pg.base.item_data_statistics[59225] = {
 }
 
 _G.pg.base.item_data_statistics[59226] = {
-	display = "参与『穿越彼方的水线』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	display = "参与「穿越彼方的水线」EX关的必要道具，也可以用来增加普通关额外奖励次数",
 	name = "特别挑战券",
 	max_num = 0,
 	type = 98,
@@ -172794,7 +172836,7 @@ _G.pg.base.item_data_statistics[59227] = {
 }
 
 _G.pg.base.item_data_statistics[59229] = {
-	display = "用于『微层混合』复刻活动兑换，活动结束后将会消失",
+	display = "用于「微层混合」复刻活动兑换，活动结束后将会消失",
 	name = "银翼之徽",
 	max_num = 0,
 	type = 98,
@@ -172815,7 +172857,7 @@ _G.pg.base.item_data_statistics[59229] = {
 }
 
 _G.pg.base.item_data_statistics[59230] = {
-	display = "用于『响彻碧海的偶像歌』活动兑换，活动结束后将会消失",
+	display = "用于「响彻碧海的偶像歌」活动兑换，活动结束后将会消失",
 	name = "联动Pt",
 	max_num = 0,
 	type = 98,
@@ -172836,7 +172878,7 @@ _G.pg.base.item_data_statistics[59230] = {
 }
 
 _G.pg.base.item_data_statistics[59231] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172878,7 +172920,7 @@ _G.pg.base.item_data_statistics[59232] = {
 }
 
 _G.pg.base.item_data_statistics[59233] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -172920,7 +172962,7 @@ _G.pg.base.item_data_statistics[59234] = {
 }
 
 _G.pg.base.item_data_statistics[59235] = {
-	display = "用于『碧海光粼』活动兑换，活动结束后将会消失",
+	display = "用于「碧海光粼」活动兑换，活动结束后将会消失",
 	name = "玉贝",
 	max_num = 0,
 	type = 98,
@@ -172941,7 +172983,7 @@ _G.pg.base.item_data_statistics[59235] = {
 }
 
 _G.pg.base.item_data_statistics[59237] = {
-	display = "用于『啾啾水上乐园』活动升级建筑，活动结束后将会消失",
+	display = "用于「啾啾水上乐园」活动升级建筑，活动结束后将会消失",
 	name = "乐园建材",
 	max_num = 0,
 	type = 0,
@@ -172962,7 +173004,7 @@ _G.pg.base.item_data_statistics[59237] = {
 }
 
 _G.pg.base.item_data_statistics[59238] = {
-	display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
+	display = "用于「司令部动员指令」活动累计奖励，活动结束后将会消失",
 	name = "集结点",
 	max_num = 0,
 	type = 98,
@@ -172983,7 +173025,7 @@ _G.pg.base.item_data_statistics[59238] = {
 }
 
 _G.pg.base.item_data_statistics[59239] = {
-	display = "用于『啾啾摇摇乐』兑换奖品，活动结束后将会消失",
+	display = "用于「啾啾摇摇乐」兑换奖品，活动结束后将会消失",
 	name = "摇摇券",
 	max_num = 0,
 	type = 0,
@@ -173004,7 +173046,7 @@ _G.pg.base.item_data_statistics[59239] = {
 }
 
 _G.pg.base.item_data_statistics[59240] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -173025,7 +173067,7 @@ _G.pg.base.item_data_statistics[59240] = {
 }
 
 _G.pg.base.item_data_statistics[59241] = {
-	display = "参与『世界巡游』(2021.10.1~11.30)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	display = "参与「世界巡游」(2021.10.1~11.30)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
 	name = "巡游点数",
 	max_num = 0,
 	type = 0,
@@ -173088,7 +173130,7 @@ _G.pg.base.item_data_statistics[59243] = {
 }
 
 _G.pg.base.item_data_statistics[59246] = {
-	display = "用于『穹顶下的圣咏曲』复刻活动兑换，活动结束后将会消失",
+	display = "用于「穹顶下的圣咏曲」复刻活动兑换，活动结束后将会消失",
 	name = "鸢尾之印",
 	max_num = 0,
 	type = 98,
@@ -173130,7 +173172,7 @@ _G.pg.base.item_data_statistics[59247] = {
 }
 
 _G.pg.base.item_data_statistics[59248] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -173151,7 +173193,7 @@ _G.pg.base.item_data_statistics[59248] = {
 }
 
 _G.pg.base.item_data_statistics[59249] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -173172,7 +173214,7 @@ _G.pg.base.item_data_statistics[59249] = {
 }
 
 _G.pg.base.item_data_statistics[59250] = {
-	display = "用于『杰诺瓦的焰火』活动累计奖励，活动结束后将会消失",
+	display = "用于「杰诺瓦的焰火」活动累计奖励，活动结束后将会消失",
 	name = "鸢尾之刃",
 	max_num = 0,
 	type = 98,
@@ -173193,7 +173235,7 @@ _G.pg.base.item_data_statistics[59250] = {
 }
 
 _G.pg.base.item_data_statistics[59251] = {
-	display = "用于『交汇世界的弧光』活动兑换，活动结束后将会消失",
+	display = "用于「交汇世界的弧光」活动兑换，活动结束后将会消失",
 	name = "弧光结晶",
 	max_num = 0,
 	type = 98,
@@ -173214,7 +173256,7 @@ _G.pg.base.item_data_statistics[59251] = {
 }
 
 _G.pg.base.item_data_statistics[59252] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -173235,7 +173277,7 @@ _G.pg.base.item_data_statistics[59252] = {
 }
 
 _G.pg.base.item_data_statistics[59253] = {
-	display = "参与『世界巡游』(2021.12.1~2022.1.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	display = "参与「世界巡游」(2021.12.1~2022.1.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
 	name = "巡游点数",
 	max_num = 0,
 	type = 0,
@@ -173277,7 +173319,7 @@ _G.pg.base.item_data_statistics[59254] = {
 }
 
 _G.pg.base.item_data_statistics[59255] = {
-	display = "用于『明日之星✩闪亮登场！ 』活动提升角色好感，活动结束后将会消失",
+	display = "用于「明日之星✩闪亮登场！ 」活动提升角色好感，活动结束后将会消失",
 	name = "友好度-小圣地亚哥",
 	max_num = 0,
 	type = 98,
@@ -173319,7 +173361,7 @@ _G.pg.base.item_data_statistics[59256] = {
 }
 
 _G.pg.base.item_data_statistics[59257] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -173340,7 +173382,7 @@ _G.pg.base.item_data_statistics[59257] = {
 }
 
 _G.pg.base.item_data_statistics[59258] = {
-	display = "用于『逆转彩虹之塔』活动兑换，活动结束后将会消失",
+	display = "用于「逆转彩虹之塔」活动兑换，活动结束后将会消失",
 	name = "破碎的金属板",
 	max_num = 0,
 	type = 98,
@@ -173361,7 +173403,7 @@ _G.pg.base.item_data_statistics[59258] = {
 }
 
 _G.pg.base.item_data_statistics[59259] = {
-	display = "用于『碳酸与红茶』活动升级建筑，活动结束后将会消失",
+	display = "用于「碳酸与红茶」活动升级建筑，活动结束后将会消失",
 	name = "店铺升级许可证",
 	max_num = 0,
 	type = 0,
@@ -173424,7 +173466,7 @@ _G.pg.base.item_data_statistics[59261] = {
 }
 
 _G.pg.base.item_data_statistics[59263] = {
-	display = "用于『新岁祝福·壬寅』活动兑换，活动结束后将会消失",
+	display = "用于「新岁祝福·壬寅」活动兑换，活动结束后将会消失",
 	name = "东煌结",
 	max_num = 0,
 	type = 98,
@@ -173445,7 +173487,7 @@ _G.pg.base.item_data_statistics[59263] = {
 }
 
 _G.pg.base.item_data_statistics[59264] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -173466,7 +173508,7 @@ _G.pg.base.item_data_statistics[59264] = {
 }
 
 _G.pg.base.item_data_statistics[59265] = {
-	display = "参与『演习神秘事件调查』获得的点数，累计一定程度可以领取报酬",
+	display = "参与「演习神秘事件调查」获得的点数，累计一定程度可以领取报酬",
 	name = "贡献值",
 	max_num = 0,
 	type = 98,
@@ -173487,7 +173529,7 @@ _G.pg.base.item_data_statistics[59265] = {
 }
 
 _G.pg.base.item_data_statistics[59266] = {
-	display = "参与『演习神秘事件调查』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	display = "参与「演习神秘事件调查」EX关的必要道具，也可以用来增加普通关额外奖励次数",
 	name = "特别挑战券",
 	max_num = 0,
 	type = 98,
@@ -173508,7 +173550,7 @@ _G.pg.base.item_data_statistics[59266] = {
 }
 
 _G.pg.base.item_data_statistics[59267] = {
-	display = "用于『海天与海祈的画中世界』进行游历，活动结束后将会消失",
+	display = "用于「海天与海祈的画中世界」进行游历，活动结束后将会消失",
 	name = "游历点数",
 	max_num = 0,
 	type = 0,
@@ -173529,7 +173571,7 @@ _G.pg.base.item_data_statistics[59267] = {
 }
 
 _G.pg.base.item_data_statistics[59268] = {
-	display = "用于『海天与海祈的画中世界』进行绘制，活动结束后将会消失",
+	display = "用于「海天与海祈的画中世界」进行绘制，活动结束后将会消失",
 	name = "绘制点数",
 	max_num = 0,
 	type = 0,
@@ -173550,7 +173592,7 @@ _G.pg.base.item_data_statistics[59268] = {
 }
 
 _G.pg.base.item_data_statistics[59269] = {
-	display = "参与『世界巡游』(2022.2.1~2022.3.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	display = "参与「世界巡游」(2022.2.1~2022.3.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
 	name = "巡游点数",
 	max_num = 0,
 	type = 0,
@@ -173592,7 +173634,7 @@ _G.pg.base.item_data_statistics[59270] = {
 }
 
 _G.pg.base.item_data_statistics[59271] = {
-	display = "用于『北境序曲』活动兑换，活动结束后将会消失",
+	display = "用于「北境序曲」活动兑换，活动结束后将会消失",
 	name = "情报Pt",
 	max_num = 0,
 	type = 98,
@@ -173634,7 +173676,7 @@ _G.pg.base.item_data_statistics[59272] = {
 }
 
 _G.pg.base.item_data_statistics[59274] = {
-	display = "于『北境序曲』活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	display = "于「北境序曲」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
 	name = "单次建造券",
 	max_num = 0,
 	type = 0,
@@ -173676,7 +173718,7 @@ _G.pg.base.item_data_statistics[59275] = {
 }
 
 _G.pg.base.item_data_statistics[59276] = {
-	display = "用于『深度回音』活动兑换，活动结束后将会消失",
+	display = "用于「深度回音」活动兑换，活动结束后将会消失",
 	name = "极地样本",
 	max_num = 0,
 	type = 98,
@@ -173697,7 +173739,7 @@ _G.pg.base.item_data_statistics[59276] = {
 }
 
 _G.pg.base.item_data_statistics[59277] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -173718,7 +173760,7 @@ _G.pg.base.item_data_statistics[59277] = {
 }
 
 _G.pg.base.item_data_statistics[59278] = {
-	display = "用于『峡湾间的反击』活动兑换，活动结束后将会消失",
+	display = "用于「峡湾间的反击」活动兑换，活动结束后将会消失",
 	name = "峡湾之徽",
 	max_num = 0,
 	type = 98,
@@ -173739,7 +173781,7 @@ _G.pg.base.item_data_statistics[59278] = {
 }
 
 _G.pg.base.item_data_statistics[59279] = {
-	display = "用于『虚像构筑之塔』活动兑换，活动结束后将会消失",
+	display = "用于「虚像构筑之塔」活动兑换，活动结束后将会消失",
 	name = "虚像PT",
 	max_num = 0,
 	type = 98,
@@ -173760,7 +173802,7 @@ _G.pg.base.item_data_statistics[59279] = {
 }
 
 _G.pg.base.item_data_statistics[59280] = {
-	display = "参与『世界巡游』(2022.4.1~5.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	display = "参与「世界巡游」(2022.4.1~5.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
 	name = "巡游点数",
 	max_num = 0,
 	type = 0,
@@ -173802,7 +173844,7 @@ _G.pg.base.item_data_statistics[59281] = {
 }
 
 _G.pg.base.item_data_statistics[59282] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -173823,7 +173865,7 @@ _G.pg.base.item_data_statistics[59282] = {
 }
 
 _G.pg.base.item_data_statistics[59283] = {
-	display = "用于『永夜幻光』复刻活动兑换，活动结束后将会消失",
+	display = "用于「永夜幻光」复刻活动兑换，活动结束后将会消失",
 	name = "荣誉之冠",
 	max_num = 0,
 	type = 98,
@@ -173844,7 +173886,7 @@ _G.pg.base.item_data_statistics[59283] = {
 }
 
 _G.pg.base.item_data_statistics[59284] = {
-	display = "于『永夜幻光』活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	display = "于「永夜幻光」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
 	name = "单次建造券",
 	max_num = 0,
 	type = 0,
@@ -173865,7 +173907,7 @@ _G.pg.base.item_data_statistics[59284] = {
 }
 
 _G.pg.base.item_data_statistics[59286] = {
-	display = "用于『小骑士的训练日』复刻活动提升角色好感，活动结束后将会消失",
+	display = "用于「小骑士的训练日」复刻活动提升角色好感，活动结束后将会消失",
 	name = "友好度-小声望",
 	max_num = 0,
 	type = 98,
@@ -173907,7 +173949,7 @@ _G.pg.base.item_data_statistics[59287] = {
 }
 
 _G.pg.base.item_data_statistics[59288] = {
-	display = "于『新服开服庆典』活动中获取，可以在新手池中免费进行一次期间限定建造（活动结束后消失）",
+	display = "于「新服开服庆典」活动中获取，可以在新手池中免费进行一次期间限定建造（活动结束后消失）",
 	name = "新手单次建造券",
 	max_num = 0,
 	type = 0,
@@ -173928,7 +173970,7 @@ _G.pg.base.item_data_statistics[59288] = {
 }
 
 _G.pg.base.item_data_statistics[59289] = {
-	display = "用于『新服开服庆典』活动兑换，活动结束后将会消失",
+	display = "用于「新服开服庆典」活动兑换，活动结束后将会消失",
 	name = "新服庆典Pt",
 	max_num = 0,
 	type = 98,
@@ -173949,7 +173991,7 @@ _G.pg.base.item_data_statistics[59289] = {
 }
 
 _G.pg.base.item_data_statistics[59290] = {
-	display = "参与『世界巡游』(2022.6.1~7.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	display = "参与「世界巡游」(2022.6.1~7.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
 	name = "巡游点数",
 	max_num = 0,
 	type = 0,
@@ -174012,7 +174054,7 @@ _G.pg.base.item_data_statistics[59292] = {
 }
 
 _G.pg.base.item_data_statistics[59293] = {
-	display = "参与『世界巡游』(2022.8.1~9.30)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	display = "参与「世界巡游」(2022.8.1~9.30)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
 	name = "巡游点数",
 	max_num = 0,
 	type = 0,
@@ -174054,7 +174096,7 @@ _G.pg.base.item_data_statistics[59305] = {
 }
 
 _G.pg.base.item_data_statistics[59307] = {
-	display = "用于『虹彩的终幕曲』活动兑换，活动结束后将会消失",
+	display = "用于「虹彩的终幕曲」活动兑换，活动结束后将会消失",
 	name = "破碎之证",
 	max_num = 0,
 	type = 98,
@@ -174075,7 +174117,7 @@ _G.pg.base.item_data_statistics[59307] = {
 }
 
 _G.pg.base.item_data_statistics[59308] = {
-	display = "用于『芝士奶酪要加糖！』活动提升角色好感，活动结束后将会消失",
+	display = "用于「芝士奶酪要加糖！」活动提升角色好感，活动结束后将会消失",
 	name = "芝士蛋糕",
 	max_num = 0,
 	type = 98,
@@ -174096,7 +174138,7 @@ _G.pg.base.item_data_statistics[59308] = {
 }
 
 _G.pg.base.item_data_statistics[59309] = {
-	display = "用于『芝士奶酪要加糖！』活动提升角色好感，活动结束后将会消失",
+	display = "用于「芝士奶酪要加糖！」活动提升角色好感，活动结束后将会消失",
 	name = "芝士蛋糕",
 	max_num = 0,
 	type = 98,
@@ -174117,7 +174159,7 @@ _G.pg.base.item_data_statistics[59309] = {
 }
 
 _G.pg.base.item_data_statistics[59310] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -174159,7 +174201,7 @@ _G.pg.base.item_data_statistics[59311] = {
 }
 
 _G.pg.base.item_data_statistics[59316] = {
-	display = "用于『泠誓光庭』活动兑换，活动结束后将会消失",
+	display = "用于「泠誓光庭」活动兑换，活动结束后将会消失",
 	name = "誓言之星",
 	max_num = 0,
 	type = 98,
@@ -174180,7 +174222,7 @@ _G.pg.base.item_data_statistics[59316] = {
 }
 
 _G.pg.base.item_data_statistics[59317] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -174201,7 +174243,7 @@ _G.pg.base.item_data_statistics[59317] = {
 }
 
 _G.pg.base.item_data_statistics[59318] = {
-	display = "用于『奶油曲奇要夹心！』活动提升角色好感，活动结束后将会消失",
+	display = "用于「奶油曲奇要夹心！」活动提升角色好感，活动结束后将会消失",
 	name = "奶油曲奇",
 	max_num = 0,
 	type = 98,
@@ -174222,7 +174264,7 @@ _G.pg.base.item_data_statistics[59318] = {
 }
 
 _G.pg.base.item_data_statistics[59319] = {
-	display = "用于『奶油曲奇要夹心！』活动提升角色好感，活动结束后将会消失",
+	display = "用于「奶油曲奇要夹心！」活动提升角色好感，活动结束后将会消失",
 	name = "奶油曲奇",
 	max_num = 0,
 	type = 98,
@@ -174243,7 +174285,7 @@ _G.pg.base.item_data_statistics[59319] = {
 }
 
 _G.pg.base.item_data_statistics[59320] = {
-	display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
+	display = "用于「司令部动员指令」活动累计奖励，活动结束后将会消失",
 	name = "集结点",
 	max_num = 0,
 	type = 98,
@@ -174264,7 +174306,7 @@ _G.pg.base.item_data_statistics[59320] = {
 }
 
 _G.pg.base.item_data_statistics[59321] = {
-	display = "用于『划破海空之翼』复刻活动兑换，活动结束后将会消失",
+	display = "用于「划破海空之翼」复刻活动兑换，活动结束后将会消失",
 	name = "翼之徽",
 	max_num = 0,
 	type = 98,
@@ -174285,7 +174327,7 @@ _G.pg.base.item_data_statistics[59321] = {
 }
 
 _G.pg.base.item_data_statistics[59322] = {
-	display = "用于『委托兑换计划』活动兑换，活动结束后将会消失",
+	display = "用于「委托兑换计划」活动兑换，活动结束后将会消失",
 	name = "军事委托凭证",
 	max_num = 0,
 	type = 98,
@@ -174306,7 +174348,7 @@ _G.pg.base.item_data_statistics[59322] = {
 }
 
 _G.pg.base.item_data_statistics[59323] = {
-	display = "参与『来自鸢尾的天使』获得的点数，累计一定程度可以领取报酬",
+	display = "参与「来自鸢尾的天使」获得的点数，累计一定程度可以领取报酬",
 	name = "贡献值",
 	max_num = 0,
 	type = 98,
@@ -174327,7 +174369,7 @@ _G.pg.base.item_data_statistics[59323] = {
 }
 
 _G.pg.base.item_data_statistics[59324] = {
-	display = "参与『来自鸢尾的天使』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	display = "参与「来自鸢尾的天使」EX关的必要道具，也可以用来增加普通关额外奖励次数",
 	name = "特别挑战券",
 	max_num = 0,
 	type = 98,
@@ -174348,7 +174390,7 @@ _G.pg.base.item_data_statistics[59324] = {
 }
 
 _G.pg.base.item_data_statistics[59325] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -174390,7 +174432,7 @@ _G.pg.base.item_data_statistics[59326] = {
 }
 
 _G.pg.base.item_data_statistics[59327] = {
-	display = "于『蝶海梦花』活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	display = "于「蝶海梦花」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
 	name = "单次建造券",
 	max_num = 0,
 	type = 0,
@@ -174411,7 +174453,7 @@ _G.pg.base.item_data_statistics[59327] = {
 }
 
 _G.pg.base.item_data_statistics[59328] = {
-	display = "用于『蝶海梦花』复刻活动兑换，活动结束后将会消失",
+	display = "用于「蝶海梦花」复刻活动兑换，活动结束后将会消失",
 	name = "蝶影",
 	max_num = 0,
 	type = 98,
@@ -174453,7 +174495,7 @@ _G.pg.base.item_data_statistics[59330] = {
 }
 
 _G.pg.base.item_data_statistics[59331] = {
-	display = "用于『雄鹰的叙事歌』活动兑换，活动结束后将会消失",
+	display = "用于「雄鹰的叙事歌」活动兑换，活动结束后将会消失",
 	name = "博览会纪念币",
 	max_num = 0,
 	type = 98,
@@ -174495,7 +174537,7 @@ _G.pg.base.item_data_statistics[59332] = {
 }
 
 _G.pg.base.item_data_statistics[59333] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -174516,7 +174558,7 @@ _G.pg.base.item_data_statistics[59333] = {
 }
 
 _G.pg.base.item_data_statistics[59334] = {
-	display = "用于『环城之夜』复刻活动兑换，活动结束后将会消失",
+	display = "用于「环城之夜」复刻活动兑换，活动结束后将会消失",
 	name = "鹰羽",
 	max_num = 0,
 	type = 98,
@@ -174536,8 +174578,29 @@ _G.pg.base.item_data_statistics[59334] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59335] = {
+	display = "用于「换装商店」内8折购买换装「鸡肉卷，还有倦意…」或「可乐，加上努力？」（仅可使用一次）\n有效期至：2022年9月14日23时59分59秒",
+	name = "KFC联动换装打折券",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 13,
+	link_id = 4498,
+	id = 59335,
+	is_world = 0,
+	icon = "Props/kfc_coupon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59336] = {
-	display = "用于『远汇点作战』活动兑换，活动结束后将会消失",
+	display = "用于「远汇点作战」活动兑换，活动结束后将会消失",
 	name = "PT点数",
 	max_num = 0,
 	type = 98,
@@ -174558,7 +174621,7 @@ _G.pg.base.item_data_statistics[59336] = {
 }
 
 _G.pg.base.item_data_statistics[59337] = {
-	display = "用于『限时体验商店』兑换角色限时换装",
+	display = "用于「限时体验商店」兑换角色限时换装",
 	name = "换装体验券",
 	max_num = 0,
 	type = 98,
@@ -174572,6 +174635,132 @@ _G.pg.base.item_data_statistics[59337] = {
 	id = 59337,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59338] = {
+	display = "用于「啾啾快餐店」活动兑换，活动结束后将会消失",
+	name = "餐厅经营物资",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59338,
+	is_world = 0,
+	icon = "Props/kfc_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59339] = {
+	display = "包含多件家具的套装组合。领取可获得限定家具「美味海报x1」、「黑白海报x1」",
+	name = "餐厅海报套装",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59339,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59340] = {
+	display = "包含多件家具的套装组合。领取可获得限定家具「速食餐厅地板x1」、「速食餐厅墙纸x1」",
+	name = "餐厅地板墙纸套装",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59340,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59341] = {
+	display = "包含多件家具的套装组合。领取可获得限定家具「美味餐桌x1」、「美味餐椅x2」、「美味餐盘x1」",
+	name = "餐桌套装A",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59341,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet3",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59342] = {
+	display = "包含多件家具的套装组合。领取可获得限定家具「美味餐桌x1」、「美味餐椅x2」、「美味餐盘(中)x1」",
+	name = "餐桌套装B",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59342,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet4",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59343] = {
+	display = "包含多件家具的套装组合。领取可获得限定家具「美味餐桌x1」、「美味餐椅x2」、「美味餐盘(大)x1」、「全家桶x1」",
+	name = "餐桌套装C",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59343,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet5",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174873,7 +175062,7 @@ _G.pg.base.item_data_statistics[59614] = {
 }
 
 _G.pg.base.item_data_statistics[59615] = {
-	display = "用于『回流活动』累计点数获得奖励，活动结束后将会消失",
+	display = "用于「回流活动」累计点数获得奖励，活动结束后将会消失",
 	name = "回流pt点",
 	max_num = 0,
 	type = 0,
@@ -179699,7 +179888,7 @@ _G.pg.base.item_data_statistics[59966] = {
 }
 
 _G.pg.base.item_data_statistics[59967] = {
-	display = "参与『战斗！皇家女仆队2nd』获得的点数，累计一定程度可以领取报酬",
+	display = "参与「战斗！皇家女仆队2nd」获得的点数，累计一定程度可以领取报酬",
 	name = "贡献值",
 	max_num = 0,
 	type = 98,
@@ -179720,7 +179909,7 @@ _G.pg.base.item_data_statistics[59967] = {
 }
 
 _G.pg.base.item_data_statistics[59968] = {
-	display = "参与『战斗！皇家女仆队2nd』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	display = "参与「战斗！皇家女仆队2nd」EX关的必要道具，也可以用来增加普通关额外奖励次数",
 	name = "特别挑战券",
 	max_num = 0,
 	type = 98,
@@ -180995,7 +181184,7 @@ _G.pg.base.item_data_statistics[60056] = {
 }
 
 _G.pg.base.item_data_statistics[60057] = {
-	display = "参与『特别演习·埃塞克斯级』获得的点数，累计一定程度可以领取报酬",
+	display = "参与「特别演习·埃塞克斯级」获得的点数，累计一定程度可以领取报酬",
 	name = "贡献值",
 	max_num = 0,
 	type = 98,
@@ -181016,7 +181205,7 @@ _G.pg.base.item_data_statistics[60057] = {
 }
 
 _G.pg.base.item_data_statistics[60058] = {
-	display = "参与『特别演习·埃塞克斯级』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	display = "参与「特别演习·埃塞克斯级」EX关的必要道具，也可以用来增加普通关额外奖励次数",
 	name = "特别挑战券",
 	max_num = 0,
 	type = 98,
@@ -183920,7 +184109,7 @@ _G.pg.base.item_data_statistics[60233] = {
 }
 
 _G.pg.base.item_data_statistics[60234] = {
-	display = "用于『情报解密』，活动结束后将会消失",
+	display = "用于「情报解密」，活动结束后将会消失",
 	name = "情报点",
 	max_num = 0,
 	type = 0,
@@ -184125,6 +184314,153 @@ _G.pg.base.item_data_statistics[60243] = {
 	icon = "Props/yaoqinghan",
 	price = "",
 	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60253] = {
+	display = "颜料A，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60253,
+	is_world = 0,
+	icon = "props/draw_a",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60254] = {
+	display = "颜料B，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60254,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60255] = {
+	display = "颜料C，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60255,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60256] = {
+	display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60256,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60257] = {
+	display = "颜料E，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60257,
+	is_world = 0,
+	icon = "props/draw_e",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60258] = {
+	display = "颜料F，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60258,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60259] = {
+	display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60259,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
 	index = {},
 	shiptrans_id = {}
 }

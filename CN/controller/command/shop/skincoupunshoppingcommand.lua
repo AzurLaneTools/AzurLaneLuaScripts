@@ -2,12 +2,8 @@ slot0 = class("SkinCoupunShoppingCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.shopId
 	slot4 = slot2.cnt
-
-	if not getProxy(ActivityProxy):ExistSkinCouponActivityAndShopId(slot2.shopId) then
-		return
-	end
-
 	slot5 = getProxy(ShipSkinProxy)
 
 	if not _.detect(slot5:GetAllSkins(), function (slot0)
@@ -39,19 +35,22 @@ function slot0.execute(slot0, slot1)
 		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
+			uv0.data1 = 2
+
+			getProxy(ActivityProxy):updateActivity(uv0)
 			getProxy(ShipSkinProxy):addSkin(ShipSkin.New({
-				id = uv0:getSkinId()
+				id = uv1:getSkinId()
 			}))
 
-			slot5 = uv1:getData()
+			slot5 = uv2:getData()
 
 			slot5:consume({
-				[id2res(uv0:getConfig("resource_type"))] = uv2
+				[id2res(uv1:getConfig("resource_type"))] = uv3
 			})
-			uv1:updatePlayer(slot5)
+			uv2:updatePlayer(slot5)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
-			uv3:sendNotification(GAME.SKIN_COUPON_SHOPPING_DONE, {
-				id = uv4,
+			uv4:sendNotification(GAME.SKIN_COUPON_SHOPPING_DONE, {
+				id = uv5,
 				awards = {}
 			})
 		else

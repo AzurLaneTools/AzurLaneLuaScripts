@@ -8824,6 +8824,89 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[75019] = {
+		id = 75019,
+		name = "黑声望 开幕弹移动方式",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					z = 25,
+					duration = 1,
+					x = -13,
+					valve = 1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 0.3
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					z = 55,
+					duration = 1,
+					x = -21,
+					valve = 1
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 0,
+				param = {
+					duration = 0.3
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					z = 75,
+					duration = 1,
+					x = -13,
+					valve = 1
+				}
+			},
+			{
+				index = 6,
+				to = 7,
+				type = 0,
+				param = {
+					duration = 0.3
+				}
+			},
+			{
+				index = 7,
+				to = 8,
+				type = 1,
+				param = {
+					z = 55,
+					duration = 1,
+					x = -5,
+					valve = 1
+				}
+			},
+			{
+				index = 8,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[80000] = {
 		id = 80000,
 		name = "自爆船AI",

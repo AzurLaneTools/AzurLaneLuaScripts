@@ -3692,6 +3692,39 @@ pg.backyard_theme_template = {
 			91305
 		}
 	},
+	[92] = {
+		Cfg_1 = 5,
+		name = "啾啾速食餐厅",
+		hot = 1,
+		is_view = 1,
+		id = 92,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "生活如此多娇，尽情享受美味~",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "kfcthemeicon",
+		deblocking = 1,
+		order = 94,
+		ids = {
+			92001,
+			92002,
+			92101,
+			92102,
+			92103,
+			92106,
+			92112,
+			92201,
+			92202,
+			92203,
+			92204,
+			92301,
+			92306,
+			92307,
+			92308
+		}
+	},
 	[93] = {
 		Cfg_1 = 5,
 		name = "清凉盛夏",
@@ -3815,6 +3848,7 @@ pg.backyard_theme_template = {
 		89,
 		90,
 		91,
+		92,
 		93
 	}
 }

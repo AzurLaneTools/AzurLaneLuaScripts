@@ -185064,6 +185064,438 @@ _G.pg.base.task_data_template[17882] = {
 	}
 }
 
+_G.pg.base.task_data_template[17883] = {
+	name = "三周年送小光辉耗油1【复刻】",
+	guild_coin_award = 0,
+	award = 97939,
+	type = 6,
+	desc = "累计消耗石油500",
+	count_inherit = 17884,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17884",
+	auto_commit = 0,
+	story_id = "",
+	id = 17883,
+	target_num = 500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60253,
+			70
+		},
+		{
+			8,
+			60254,
+			20
+		},
+		{
+			8,
+			60255,
+			80
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17884] = {
+	name = "三周年送小光辉耗油2【复刻】",
+	guild_coin_award = 0,
+	award = 97940,
+	type = 6,
+	desc = "累计消耗石油1000",
+	count_inherit = 17885,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17885",
+	auto_commit = 0,
+	story_id = "",
+	id = 17884,
+	target_num = 1000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60257,
+			20
+		},
+		{
+			8,
+			60258,
+			150
+		},
+		{
+			8,
+			60259,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17885] = {
+	name = "三周年送小光辉耗油3【复刻】",
+	guild_coin_award = 0,
+	award = 97941,
+	type = 6,
+	desc = "累计消耗石油1500",
+	count_inherit = 17886,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17886",
+	auto_commit = 0,
+	story_id = "",
+	id = 17885,
+	target_num = 1500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60253,
+			76
+		},
+		{
+			8,
+			60256,
+			100
+		},
+		{
+			8,
+			60255,
+			81
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17886] = {
+	name = "三周年送小光辉耗油4【复刻】",
+	guild_coin_award = 0,
+	award = 97942,
+	type = 6,
+	desc = "累计消耗石油2000",
+	count_inherit = 17887,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17887",
+	auto_commit = 0,
+	story_id = "",
+	id = 17886,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60253,
+			30
+		},
+		{
+			8,
+			60254,
+			20
+		},
+		{
+			8,
+			60255,
+			80
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17887] = {
+	name = "三周年送小光辉耗油5【复刻】",
+	guild_coin_award = 0,
+	award = 97943,
+	type = 6,
+	desc = "累计消耗石油2500",
+	count_inherit = 17888,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17888",
+	auto_commit = 0,
+	story_id = "",
+	id = 17887,
+	target_num = 2500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60257,
+			30
+		},
+		{
+			8,
+			60258,
+			150
+		},
+		{
+			8,
+			60259,
+			212
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17888] = {
+	name = "三周年送小光辉耗油6【复刻】",
+	guild_coin_award = 0,
+	award = 97944,
+	type = 6,
+	desc = "累计消耗石油3000",
+	count_inherit = 17889,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17889",
+	auto_commit = 0,
+	story_id = "",
+	id = 17888,
+	target_num = 3000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60253,
+			20
+		},
+		{
+			8,
+			60254,
+			10
+		},
+		{
+			8,
+			60255,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17889] = {
+	name = "三周年送小光辉耗油7【复刻】",
+	guild_coin_award = 0,
+	award = 97945,
+	type = 6,
+	desc = "累计消耗石油4000",
+	count_inherit = 17890,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17890",
+	auto_commit = 0,
+	story_id = "",
+	id = 17889,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60256,
+			71
+		},
+		{
+			8,
+			60257,
+			20
+		},
+		{
+			8,
+			60258,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17890] = {
+	name = "三周年送小光辉耗油8【复刻】",
+	guild_coin_award = 0,
+	award = 97946,
+	type = 6,
+	desc = "累计消耗石油5000",
+	count_inherit = 17891,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17891",
+	auto_commit = 0,
+	story_id = "",
+	id = 17890,
+	target_num = 5000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60253,
+			30
+		},
+		{
+			8,
+			60254,
+			20
+		},
+		{
+			8,
+			60255,
+			50
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17891] = {
+	name = "三周年送小光辉耗油9【复刻】",
+	guild_coin_award = 0,
+	award = 97947,
+	type = 6,
+	desc = "累计消耗石油6000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17891,
+	target_num = 6000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60253,
+			30
+		},
+		{
+			8,
+			60258,
+			116
+		},
+		{
+			8,
+			60255,
+			50
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[30101] = {
 	name = "战斗胜利-日常",
 	guild_coin_award = 0,
