@@ -48823,7 +48823,7 @@ pg.skill_data_template = {
 		id = 14420,
 		type = 1,
 		max_level = 10,
-		desc = "When any ship in your fleet (other than this one) takes DMG: 30.0% chance to deploy a $1 smokescreen (15s cooldown). Smokescreen strength is based on the skill's level.",
+		desc = "When any ship in your fleet (other than this one) takes DMG: 30.0% chance to fire a $1 special barrage (15s cooldown). DMG is based on the skill's level.",
 		system_transform = {},
 		world_death_mark = {
 			1

@@ -2712,7 +2712,8 @@ _G.pg.base.gametip.coloring_help_tip = {
 5. Paint can be obtained by completing event missions to consume a total amount of oil. 
 6. Completing pages in the Coloring Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: T3 General Parts x4;n	 Complete Page 2: Random T3 Skill Book x3
+	 Complete Page 1: T3 General Parts x4
+	 Complete Page 2: Random T3 Skill Book x3
 	 Complete Page 3: Little Illustrious x1;
 8. After the event ends, unused paint will be removed.
 9. One new page will be unlocked every day up to September 3rd.]]
