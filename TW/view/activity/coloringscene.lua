@@ -6,7 +6,11 @@ slot4 = 1200
 slot5 = Vector2(49, -436.12)
 
 function slot0.getUIName(slot0)
-	return "ColoringUI"
+	if (getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and slot1.id or 0) == ActivityConst.PIXEL_DRAW_ILLUSTRIOUS then
+		return "ColoringIllustriousUI"
+	else
+		assert(false, "Not Found PixelDraw Activity")
+	end
 end
 
 function slot0.setActivity(slot0, slot1)
@@ -27,6 +31,7 @@ function slot0.init(slot0)
 	slot0.title = slot0:findTF("center/title_bar/text")
 	slot0.bg = slot0:findTF("center/board/container/bg")
 	slot0.painting = slot0:findTF("center/painting")
+	slot0.paintingCompleted = slot0:findTF("center/painting_completed")
 	slot0.zoom = slot0.bg:GetComponent("Zoom")
 	slot0.zoom.maxZoom = 3
 	slot0.cells = slot0:findTF("cells", slot0.bg)
@@ -45,19 +50,10 @@ function slot0.init(slot0)
 	setActive(slot0.cell, false)
 	setActive(slot0.line, false)
 	setActive(slot0.barExtra, false)
-
-	slot0.loader = AutoLoader.New()
 end
 
 function slot0.DidMediatorRegisterDone(slot0)
-	slot6 = "content"
-	slot5 = #slot0.colorGroups[1]:getConfig("color_id_list")
-	slot0.colorPlates = slot0:Clone2Full(slot0:findTF(slot6, slot0.scrollColor), slot5)
-
-	for slot5, slot6 in ipairs(slot0.colorPlates) do
-		slot0.loader:GetSprite("ui/coloring_atlas", string.char(string.byte("A") + slot5 - 1), slot6:Find("icon"))
-	end
-
+	slot0.colorPlates = CustomIndexLayer.Clone2Full(slot0:findTF("content", slot0.scrollColor), #slot0.colorGroups[1]:getConfig("color_id_list"))
 	slot0.coloringUIGroupName = "ColoringUIGroupSize" .. #slot0.colorGroups
 
 	PoolMgr.GetInstance():GetUI(slot0.coloringUIGroupName, false, function (slot0)
@@ -156,7 +152,7 @@ function slot0.initColoring(slot0)
 	slot0.selectedIndex = 0
 	slot0.selectedColorIndex = 0
 
-	triggerButton(slot0.paintsgroup[Mathf.Min(slot1, #slot0.paintsgroup)], true)
+	triggerButton(slot0.paintsgroup[Mathf.Min(slot1, #slot0.paintsgroup)])
 end
 
 function slot0.initInteractive(slot0)
@@ -243,27 +239,30 @@ function slot0.updatePage(slot0)
 		end
 	end
 
+	if getProxy(ColoringProxy):IsALLAchieve() and not IsNil(slot0.paintingCompleted) then
+		setActive(slot0.painting, false)
+		setActive(slot0.paintingCompleted, true)
+	end
+
 	slot0:TryPlayStory()
 end
 
 function slot0.updateSelectedColoring(slot0)
-	slot1 = slot0.colorGroups[slot0.selectedIndex]
-	slot2 = slot1:getConfig("color_id_list")
-	slot3 = slot1.colors
+	slot2 = slot0.colorGroups[slot0.selectedIndex]:getConfig("color_id_list")
 
-	for slot7 = 1, #slot0.colorPlates do
-		setText(slot0.colorPlates[slot7]:Find("icon/x/nums"), slot0.colorItems[slot2[slot7]] or 0)
+	for slot6 = 1, #slot0.colorPlates do
+		setText(slot0.colorPlates[slot6]:Find("icon/x/nums"), slot0.colorItems[slot2[slot6]] or 0)
 	end
 
-	slot4 = slot1:getConfig("name")
+	slot3 = slot1:getConfig("name")
 
-	setText(slot0.title, slot4)
-	setActive(slot0.title.parent, slot4 ~= nil)
+	setText(slot0.title, slot3)
+	setActive(slot0.title.parent, slot3 ~= nil)
 	setActive(slot0.barExtra, slot1:canBeCustomised())
 
-	slot5 = slot0.scrollColor.sizeDelta
-	slot5.y = slot1:canBeCustomised() and uv0 or uv1
-	slot0.scrollColor.sizeDelta = slot5
+	slot4 = slot0.scrollColor.sizeDelta
+	slot4.y = slot1:canBeCustomised() and uv0 or uv1
+	slot0.scrollColor.sizeDelta = slot4
 	slot0.scrollColor:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 1
 
 	setActive(slot0.scrollColor, false)
@@ -273,6 +272,7 @@ function slot0.updateSelectedColoring(slot0)
 
 	slot0:updateCells()
 	slot0:updateLines()
+	getProxy(ColoringProxy):SetViewedPage(slot0.selectedIndex or 1)
 end
 
 function slot0.updateCells(slot0)
@@ -295,15 +295,20 @@ function slot0.updateCells(slot0)
 	slot5 = false
 
 	slot4:AddPointClickFunc(function (slot0, slot1)
-		if uv0 then
+		if not uv0:canBeCustomised() then
 			return
 		end
 
-		slot2 = LuaHelper.ScreenToLocal(uv1.bg, slot1.position, GameObject.Find("UICamera"):GetComponent(typeof(Camera)))
-		slot5 = uv2:getCell(math.floor(-slot2.y / uv1.cellSize.y), math.floor(slot2.x / uv1.cellSize.x))
+		if uv1 then
+			return
+		end
 
-		if uv2:getState() == ColorGroup.StateColoring then
-			function slot6()
+		slot2 = LuaHelper.ScreenToLocal(uv2.bg, slot1.position, GameObject.Find("UICamera"):GetComponent(typeof(Camera)))
+		slot3 = math.floor(-slot2.y / uv2.cellSize.y)
+		slot4 = math.floor(slot2.x / uv2.cellSize.x)
+
+		if uv0:getState() == ColorGroup.StateColoring then
+			function slot5()
 				uv0:emit(ColoringMediator.EVENT_COLORING_CELL, {
 					activityId = uv0.activity.id,
 					id = uv1.id,
@@ -311,13 +316,13 @@ function slot0.updateCells(slot0)
 				})
 			end
 
-			if not uv2:canBeCustomised() then
+			if not uv0:canBeCustomised() then
 				return
-			elseif uv1.selectedColorIndex == 0 and not uv2:hasFill(slot3, slot4) then
+			elseif uv2.selectedColorIndex == 0 and not uv0:hasFill(slot3, slot4) then
 				return
 			end
 
-			slot6()
+			slot5()
 		end
 	end)
 	slot4:AddBeginDragFunc(function ()
@@ -539,23 +544,7 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
-	slot0.loader:Clear()
 	PoolMgr.GetInstance():ReturnUI(slot0.coloringUIGroupName, slot0.colorgroupbehind)
-end
-
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
 end
 
 return slot0

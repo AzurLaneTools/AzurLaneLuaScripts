@@ -1,22 +1,62 @@
 pg = pg or {}
 pg.world_joint_boss_template = {
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "飛龍·META",
 		painting = "feilong",
 		boss_level_id = 1,
 		id = 1,
 		meta_id = 970701,
-		state = "stop"
+		item_id = 100000,
+		description = {
+			{
+				"光暗花札",
+				3,
+				"戰鬥中發射特殊的光之花札與暗之花札，持續造成範圍傷害。"
+			},
+			{
+				"次元蟲洞",
+				2,
+				"戰鬥中出現特殊區域，發射高能量球體造成高額傷害。"
+			}
+		},
+		p_offset = {
+			-36.45481,
+			717.0379
+		},
+		p_offset_other = {
+			411,
+			777
+		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "皇家方舟·META",
 		painting = "huangjiafangzhou",
 		boss_level_id = 16,
 		id = 2,
 		meta_id = 970702,
-		state = "stop"
+		item_id = 100000,
+		description = {
+			{
+				"魔彈射手",
+				1,
+				"戰鬥中出現特殊槍管對場上發動猛烈攻擊。"
+			},
+			{
+				"幻影強襲",
+				2,
+				"戰鬥中會出現量產型驅逐艦的幻影向敵人發起衝鋒。"
+			}
+		},
+		p_offset = {
+			-36.45481,
+			629.5
+		},
+		p_offset_other = {
+			411,
+			574
+		}
 	},
 	{
 		item_id = 100000,
@@ -25,6 +65,18 @@ pg.world_joint_boss_template = {
 		boss_level_id = 31,
 		id = 3,
 		meta_id = 970201,
+		description = {
+			{
+				"雷達掃描·Hacking",
+				2,
+				"戰鬥中生成雷達掃描區域，區域內敵方單位會受到傷害加深效果影響。"
+			},
+			{
+				"「零」象限展開-5%",
+				1,
+				"戰鬥中釋放某種影響整個海域狀態的的特殊領域，使敵我雙方同時受到傷害加深效果影響。"
+			}
+		},
 		state = {
 			{
 				{
@@ -50,6 +102,18 @@ pg.world_joint_boss_template = {
 					59
 				}
 			}
+		},
+		p_offset = {
+			-36.45481,
+			610.5,
+			0.95,
+			0.95
+		},
+		p_offset_other = {
+			296,
+			610,
+			0.95,
+			0.95
 		}
 	},
 	{
@@ -59,6 +123,18 @@ pg.world_joint_boss_template = {
 		boss_level_id = 46,
 		id = 4,
 		meta_id = 970703,
+		description = {
+			{
+				"焰舞花札",
+				3,
+				"戰鬥中使用能夠產生連環爆炸並噴發出火焰的特殊花札攻擊敵人。"
+			},
+			{
+				"燃燼之海",
+				2,
+				"將整片海域圍困在熊熊烈火之中，敵人觸碰火焰後會受到點燃效果。"
+			}
+		},
 		state = {
 			{
 				{
@@ -84,6 +160,18 @@ pg.world_joint_boss_template = {
 					59
 				}
 			}
+		},
+		p_offset = {
+			818,
+			1268.1,
+			1.7,
+			1.7
+		},
+		p_offset_other = {
+			1424,
+			1267.9,
+			1.7,
+			1.7
 		}
 	},
 	all = {

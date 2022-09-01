@@ -98000,11 +98000,10 @@ _G.pg.base.chapter_template_loop[1190016] = {
 }
 
 _G.pg.base.chapter_template_loop[1200002] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 8,
 	submarine_num = 1,
@@ -98615,17 +98614,20 @@ _G.pg.base.chapter_template_loop[1200002] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1200003] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 9,
 	submarine_num = 1,
@@ -99245,17 +99247,20 @@ _G.pg.base.chapter_template_loop[1200003] = {
 		1
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1200004] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -99870,6 +99875,10 @@ _G.pg.base.chapter_template_loop[1200004] = {
 		1
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -283636,6 +283645,1418 @@ _G.pg.base.chapter_template_loop[2200023] = {
 	},
 	box_refresh = {
 		1
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+_G.pg.base.chapter_template_loop[2200031] = {
+	group_num = 2,
+	is_ai = 0,
+	friendly_id = 0,
+	pop_pic = "",
+	model = 1,
+	avoid_ratio = 12,
+	submarine_num = 0,
+	fightauto = 1,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	air_dominance_loop_rate = 80,
+	is_air_attack = 0,
+	is_ambush = 0,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	id = 2200031,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1130010,
+			15,
+			0
+		},
+		{
+			1130020,
+			20,
+			0
+		},
+		{
+			1130030,
+			30,
+			1
+		},
+		{
+			1130040,
+			15,
+			0
+		},
+		{
+			1130050,
+			20,
+			0
+		},
+		{
+			1130060,
+			30,
+			1
+		},
+		{
+			1130100,
+			0,
+			2
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1130020,
+		1130050
+	},
+	elite_expedition_list = {
+		1130020,
+		1130040
+	},
+	ai_expedition_list = {
+		1
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1130500
+	},
+	enemy_refresh = {
+		0,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		3,
+		0,
+		0
+	},
+	ai_refresh = {
+		0
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			4
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			6
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			1
+		},
+		{
+			4,
+			0,
+			true,
+			1
+		},
+		{
+			3,
+			7,
+			true,
+			6
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			6
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			1
+		},
+		{
+			3,
+			0,
+			true,
+			1
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			8
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			4
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			6
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			4
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			8
+		},
+		{
+			0,
+			5,
+			true,
+			6
+		},
+		{
+			0,
+			4,
+			true,
+			6
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			2,
+			5,
+			"1x2YWIsland_2",
+			10,
+			-36
+		},
+		{
+			2,
+			2,
+			"1x1YWIsland_1",
+			0,
+			0
+		},
+		{
+			0,
+			7,
+			"1x1depot_night",
+			-11,
+			30
+		},
+		{
+			0,
+			1,
+			"1x3YWIsland_2",
+			-4,
+			8
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {
+		{
+			-20000
+		}
+	},
+	theme = {
+		"sea_YW",
+		45,
+		20,
+		96,
+		-156,
+		100,
+		100,
+		4,
+		4
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+_G.pg.base.chapter_template_loop[2200032] = {
+	group_num = 2,
+	is_ai = 0,
+	friendly_id = 0,
+	pop_pic = "",
+	model = 1,
+	avoid_ratio = 14,
+	submarine_num = 0,
+	fightauto = 1,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	air_dominance_loop_rate = 80,
+	is_air_attack = 0,
+	is_ambush = 0,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	id = 2200032,
+	uifx = "",
+	scale = {
+		0.49,
+		0.35,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1131010,
+			15,
+			0
+		},
+		{
+			1131020,
+			20,
+			0
+		},
+		{
+			1131030,
+			30,
+			1
+		},
+		{
+			1131040,
+			15,
+			0
+		},
+		{
+			1131050,
+			20,
+			0
+		},
+		{
+			1131060,
+			30,
+			1
+		},
+		{
+			1131100,
+			0,
+			2
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1131020,
+		1131050
+	},
+	elite_expedition_list = {
+		1131020,
+		1131050
+	},
+	ai_expedition_list = {
+		1
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1131500
+	},
+	enemy_refresh = {
+		0,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		3,
+		0,
+		0
+	},
+	ai_refresh = {
+		0
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			6
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			4
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			1
+		},
+		{
+			6,
+			0,
+			false,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			6
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			false,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			1
+		},
+		{
+			5,
+			0,
+			true,
+			1
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			6
+		},
+		{
+			4,
+			4,
+			false,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			8
+		},
+		{
+			3,
+			5,
+			true,
+			6
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			4
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			false,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			4
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			8
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			6
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			false,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			2
+		},
+		{
+			0,
+			6,
+			true,
+			8
+		},
+		{
+			0,
+			5,
+			true,
+			6
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			6
+		},
+		{
+			0,
+			2,
+			true,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			0,
+			"1x1YWIsland_1",
+			5,
+			0
+		},
+		{
+			4,
+			4,
+			"1x2YWIsland_2",
+			6,
+			-41
+		},
+		{
+			4,
+			2,
+			"1x1YWIsland_2",
+			0,
+			4
+		},
+		{
+			2,
+			5,
+			"1x3YWIsland_2",
+			0,
+			4
+		},
+		{
+			0,
+			1,
+			"2x2YWIsland_1",
+			-42,
+			-24
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {
+		{
+			-20000
+		}
+	},
+	theme = {
+		"sea_YW",
+		45,
+		20,
+		162,
+		-58,
+		100,
+		100,
+		4,
+		4
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		1
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+_G.pg.base.chapter_template_loop[2200033] = {
+	group_num = 2,
+	is_ai = 0,
+	friendly_id = 0,
+	pop_pic = "",
+	model = 1,
+	avoid_ratio = 16,
+	submarine_num = 0,
+	fightauto = 1,
+	boss_refresh = 5,
+	is_limit_move = 0,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	air_dominance_loop_rate = 80,
+	is_air_attack = 0,
+	is_ambush = 0,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	id = 2200033,
+	uifx = "",
+	scale = {
+		0.61,
+		0.41,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1132010,
+			15,
+			0
+		},
+		{
+			1132020,
+			20,
+			0
+		},
+		{
+			1132030,
+			30,
+			1
+		},
+		{
+			1132040,
+			15,
+			0
+		},
+		{
+			1132050,
+			20,
+			0
+		},
+		{
+			1132060,
+			30,
+			1
+		},
+		{
+			1132100,
+			0,
+			2
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1132020,
+		1132050
+	},
+	elite_expedition_list = {
+		1132020,
+		1132050
+	},
+	ai_expedition_list = {
+		1
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1132500
+	},
+	enemy_refresh = {
+		0,
+		0,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		2,
+		2,
+		0,
+		0
+	},
+	ai_refresh = {
+		0
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			5,
+			8,
+			true,
+			1
+		},
+		{
+			5,
+			7,
+			true,
+			1
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			false,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			6
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			1
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			false,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			4
+		},
+		{
+			4,
+			2,
+			true,
+			6
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			8
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			4
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			6
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			false,
+			0
+		},
+		{
+			3,
+			0,
+			false,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			6
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			6
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			4
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			6
+		},
+		{
+			2,
+			0,
+			true,
+			8
+		},
+		{
+			1,
+			8,
+			false,
+			0
+		},
+		{
+			1,
+			7,
+			false,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			false,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			6
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			8
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			4
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			6
+		},
+		{
+			0,
+			2,
+			true,
+			0
+		},
+		{
+			0,
+			1,
+			true,
+			8
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			4,
+			5,
+			"1x2YWIsland_2",
+			7,
+			-37
+		},
+		{
+			3,
+			7,
+			"1x1YWIsland_2",
+			0,
+			7
+		},
+		{
+			3,
+			1,
+			"1x3YWIsland_2",
+			0,
+			6
+		},
+		{
+			1,
+			4,
+			"1x1YWIsland_1",
+			3,
+			3
+		},
+		{
+			0,
+			8,
+			"2x3YWIsland_1",
+			-39,
+			-23
+		},
+		{
+			0,
+			0,
+			"1x1YWIsland_2",
+			-1,
+			5
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {
+		{
+			-20000
+		}
+	},
+	theme = {
+		"sea_YW",
+		45,
+		20,
+		34,
+		-99,
+		100,
+		100,
+		4,
+		4
+	},
+	box_list = {},
+	random_box_list = {
+		5,
+		22,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
 	},
 	npc_data = {},
 	special_operation_list = {

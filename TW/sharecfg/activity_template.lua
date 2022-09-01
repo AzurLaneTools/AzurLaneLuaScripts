@@ -1794,8 +1794,8 @@ pg.activity_template = {
 			{
 				{
 					2022,
-					2,
-					10
+					9,
+					1
 				},
 				{
 					0,
@@ -1806,8 +1806,8 @@ pg.activity_template = {
 			{
 				{
 					2022,
-					2,
-					16
+					9,
+					14
 				},
 				{
 					23,
@@ -18489,6 +18489,325 @@ pg.activity_template = {
 			id = 970703
 		}
 	},
+	[40770] = {
+		mark = 20220901,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40770,
+		config_data = {
+			16081,
+			16082,
+			16083,
+			16084,
+			16085,
+			16086,
+			16087
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40771] = {
+		mark = 20220901,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 176,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		id = 40771,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40772] = {
+		mark = 20220901,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 40772,
+		config_data = {
+			16088
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				16088
+			}
+		}
+	},
+	[40773] = {
+		mark = 20220901,
+		config_client = "",
+		title_res_tag = "HMSHardyTask",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 29,
+		id = 40773,
+		config_data = {
+			16089,
+			16090,
+			16091,
+			16092
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HMSHardyTaskPage",
+			ui_name = "HMSHardyTaskPage"
+		}
+	},
+	[40774] = {
+		mark = 20220901,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_40774",
+		id = 40774,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "勇敢、Z2 建造概率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：26%",
+				"普通艦船：55%",
+				"<color=#d797ff>勇敢</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>Z2</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[40775] = {
+		mark = 20220901,
+		config_client = "",
+		title_res_tag = "HMSHunter",
+		type = 74,
+		login_pop = 0,
+		config_id = 40775,
+		is_show = 28,
+		id = 40775,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HMSHunterPTPage",
+			ui_name = "HMSHunterPTPage"
+		}
+	},
+	[40776] = {
+		mark = 20201112,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 40776,
+		config_data = {
+			1200001,
+			1200002,
+			1200003,
+			1200004
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
 	[40730] = {
 		mark = 20220804,
 		time = "stop",
@@ -18881,12 +19200,13 @@ pg.activity_template = {
 	},
 	[40750] = {
 		mark = 20220818,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40750,
 		config_data = {
@@ -18896,43 +19216,17 @@ pg.activity_template = {
 			292,
 			293,
 			294
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40751] = {
 		mark = 20220818,
-		id = 40751,
 		title_res_tag = "yidalisp_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 30,
+		is_show = 25,
+		id = 40751,
 		config_data = {
 			1630001,
 			1630002,
@@ -18940,33 +19234,6 @@ pg.activity_template = {
 			1630004,
 			1630041,
 			1630051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "YidaliSPMainPage",
@@ -18978,12 +19245,13 @@ pg.activity_template = {
 	},
 	[40752] = {
 		mark = 20220818,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40752,
 		config_data = {
@@ -19000,33 +19268,6 @@ pg.activity_template = {
 			17466,
 			17467,
 			17468
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40753] = {
@@ -19036,7 +19277,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 40753,
-		is_show = 29,
+		is_show = 25,
 		config_data = {},
 		time = {
 			"timer",
@@ -19193,82 +19434,30 @@ pg.activity_template = {
 	},
 	[40756] = {
 		mark = 20220818,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40756,
 		config_data = {
 			17455
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					8,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40757] = {
 		mark = 20220818,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		id = 40757,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -19471,41 +19660,15 @@ pg.activity_template = {
 	},
 	[40762] = {
 		mark = 20220818,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 33,
 		is_show = 0,
 		config_data = "0",
+		title_res_tag = "",
 		id = 40762,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"u96_3",
@@ -19520,12 +19683,13 @@ pg.activity_template = {
 	},
 	[40763] = {
 		mark = 20220818,
-		config_client = "",
 		title_res_tag = "bulvxieersp_skin",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 29,
+		config_client = "",
 		id = 40763,
 		config_data = {
 			{
@@ -19557,13 +19721,28 @@ pg.activity_template = {
 				17881
 			}
 		},
+		page_info = {
+			class_name = "BulvxieerSPSkinPage",
+			ui_name = "BulvxieerSPSkinPage"
+		}
+	},
+	[40764] = {
+		mark = 20220901,
+		config_client = "",
+		title_res_tag = "kfc_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 40764,
+		is_show = 26,
+		id = 40764,
+		config_data = {},
 		time = {
 			"timer",
 			{
 				{
 					2022,
-					8,
-					18
+					9,
+					1
 				},
 				{
 					0,
@@ -19575,7 +19754,7 @@ pg.activity_template = {
 				{
 					2022,
 					9,
-					1
+					15
 				},
 				{
 					23,
@@ -19585,8 +19764,8 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "BulvxieerSPSkinPage",
-			ui_name = "BulvxieerSPSkinPage"
+			class_name = "KFCPtPage",
+			ui_name = "KFCPtPage"
 		}
 	},
 	[45000] = {
@@ -21820,6 +21999,13 @@ pg.activity_template = {
 		40724,
 		40726,
 		40727,
+		40770,
+		40771,
+		40772,
+		40773,
+		40774,
+		40775,
+		40776,
 		40730,
 		40731,
 		40732,
@@ -21846,6 +22032,7 @@ pg.activity_template = {
 		40741,
 		40762,
 		40763,
+		40764,
 		45000,
 		45001,
 		45002,

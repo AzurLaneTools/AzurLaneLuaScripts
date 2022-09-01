@@ -2932,6 +2932,22 @@ pg.memory_group = {
 			1787
 		}
 	},
+	[567] = {
+		icon = "title_chara_kasabulanka",
+		subtype = 0,
+		type = 3,
+		id = 567,
+		title = "突如其來的羅曼史",
+		memories = {
+			1791,
+			1792,
+			1793,
+			1794,
+			1795,
+			1796,
+			1797
+		}
+	},
 	[570] = {
 		icon = "title_chara_junhe",
 		subtype = 0,
@@ -3106,6 +3122,7 @@ pg.memory_group = {
 		564,
 		565,
 		566,
+		567,
 		570
 	}
 }

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>一　交叠的指尖</size>",
+					"突如其來的羅曼史\n\n<size=45>一  『交疊的指尖』</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "（几天之前，收到了就任秘书舰的指令。）",
+			say = "（幾天之前，收到了就任秘書艦的指令。）",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（虽说今天是就任第一天，但还是有些不敢相信自己真的被选为秘书舰了……）",
+			say = "（雖說今天是就任第一天，但還是有些不敢相信自己真的被選為秘書艦了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（据说还是指挥官亲自指名的…可为什么是我呢？）",
+			say = "（據說還是指揮官親自指名的…可為什麼是我呢？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（还是坦率地当做是“认真工作的能力受到了肯定”比较好吧……）",
+			say = "（還是坦率地當做是“認真工作的能力受到了肯定”比較好吧……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，打扰了。我是前来就任的秘书舰卡萨布兰卡。",
+			say = "指揮官，打擾了。我是前來就任的秘書艦卡薩布蘭卡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论是公事公务还是琐碎杂务，我都会积极努力地完成，之后就请您多多指教了。",
+			say = "不論是公事公務還是瑣碎雜務，我都會積極努力地完成，之後就請您多多指教了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事不宜迟，我想现在就开始今天的工作，就从文件整理开始可以么？",
+			say = "事不宜遲，我想現在就開始今天的工作，就從文件整理開始可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（只要按照指挥官的指示，将文件依据类型分类整理起来就行。）",
+			say = "（只要按照指揮官的指示，將文件依據類型分類整理起來就行。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（照这个样子，整理工作应该很快就能完成了。也许还有时间帮指挥官处理一下文书工作……）",
+			say = "（照這個樣子，整理工作應該很快就能完成了。也許還有時間幫指揮官處理一下文書工作……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（“工作效率很高”……被这样夸奖了。）",
+			say = "（“工作效率很高”……被這樣誇獎了。）",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…从指挥官的态度判断，应该就是在认可了我以前的工作后才做出了这样的指名吧。）",
+			say = "（…從指揮官的態度判斷，應該就是在認可了我以前的工作後才做出了這樣的指名吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（这么一想，在战场上擅长在后方辅佐的我确实挺适合秘书舰这个职务的……）",
+			say = "（這麼一想，在戰場上擅長在後方輔佐的我確實挺適合秘書艦這個職務的……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…？刚刚的声音……",
+			say = "嗯…？剛剛的聲音……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（好像是指挥官的钢笔落到地上发出的……）",
+			say = "（好像是指揮官的鋼筆落到地上發出的……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你的这个掉到地上了——",
+			say = "指揮官，你的這個掉到地上了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（钢笔掉落的位置，好像就在这里——）",
+			say = "（鋼筆掉落的位置，好像就在這裡——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（刚、刚刚的触感是——指挥官的手？！）",
+			say = "（剛、剛剛的觸感是——指揮官的手？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……抱歉，被吓到了所以……",
+			say = "……抱歉，被嚇到了所以……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我，我先继续工作了。",
+			say = "我，我先繼續工作了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（还很难把握和指挥官之间的距离——我的秘书舰工作，才刚刚开始啊……）",
+			say = "（還很難把握和指揮官之間的距離——我的秘書艦工作，才剛剛開始啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

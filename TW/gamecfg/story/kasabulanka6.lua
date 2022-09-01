@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>六　情愫日长</size>",
+					"突如其來的羅曼史\n\n<size=45>六  『情愫日長』</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "（一边参照资料一边整理会议记录，不知不觉间太阳已经落山了。）",
+			say = "（一邊參照資料一邊整理會議紀錄，不知不覺間太陽已經落山了。）",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（花了不少时间啊……如果时间允许的话，还想再找些更有用的资料呢。）",
+			say = "（花了不少時間啊……如果時間允許的話，還想再找些更有用的資料呢。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，会议记录整理完毕。应该不会有什么疏漏的地方才对……请过目。",
+			say = "指揮官，會議紀錄整理完畢。應該不會有什麼疏漏的地方才對……請過目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（指挥官平时那么忙，难免会有疏忽的地方，因此我必须好好辅佐才行。）",
+			say = "（指揮官平時那麼忙，難免會有疏忽的地方，因此我必須好好輔佐才行。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（嗯，接下来也要打起精神！）",
+			say = "（嗯，接下來也要打起精神！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（欸，指挥官手中的那个是——）",
+			say = "（欸，指揮官手中的那個是——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（钢笔啊……之前看过的电影里，就有以这个为契机发展成恋爱关系的呢……真是部好电影啊。）",
+			say = "（鋼筆啊……之前看過的電影裡，就有以這個為契機發展成戀愛關係的呢……真是部好電影啊。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（说起来……我任职的第一天也是在捡钢笔的时候碰到了指挥官的手……当时就有点心动的感觉――――）",
+			say = "（說起來……我任職的第一天也是在撿鋼筆的時候碰到了指揮官的手……當時就有點心動的感覺――――）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（——等等！我，我在想什么呢…！）",
+			say = "（——等等！我，我在想什麼呢…！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（现在还在工作中，得赶紧把这些奇怪的想法甩掉才是！但……）",
+			say = "（現在還在工作中，得趕緊把這些奇怪的想法甩掉才是！但……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（电影里，那个对女主角很亲切的人在离开的时候把钢笔落下了，而那就是两人感情线的开始……）",
+			say = "（電影裡，那個對女主角很親切人在離開的時候把鋼筆落下了，而那就是兩人感情線的開始……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（之后再会的时候才知道，那是一位身份高贵的人，而且还温柔地帮被雨淋湿的她披上了外套……）",
+			say = "（之後再會的時候才知道，那是一位身份高貴的人，而且還溫柔地幫被雨淋濕的她披上了外套……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（指挥官是我的上司，也是身份更加高贵的人，但这样下去的话……）",
+			say = "（指揮官是我的上司，也是身份更加高貴的人，但這樣下去的話……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（我……我刚刚……是睡着了？）",
+			say = "（我……我剛剛……是睡著了？）",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -327,7 +327,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——唔……不行不行，还在工作中呢……",
+			say = "——唔……不行不行，還在工作中呢……",
 			action = {
 				{
 					type = "shake",
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都怪自己想了多余的事情才会犯困……嗯？这是——",
+			say = "都怪自己想了多餘的事情才會犯睏……嗯？這是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（背上好像有什么东西……）",
+			say = "（背上好像有什麼東西……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……是，是外套？这披在我身上的外套，难道是……指挥官的——",
+			say = "……是，是外套？這披在我身上的外套，難道是……指揮官的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（而且现在这个状况……该、该不会指挥官一直在旁边看着吧？！）",
+			say = "（而且現在這個狀況……該、該不會指揮官一直在旁邊看著吧？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱、抱歉指挥官！在工作中不小心睡过去……还借用了你的外套实在是不好意思……我这就继续工作！——",
+			say = "抱、抱歉指揮官！在工作中不小心睡過去……還借用了你的外套實在是不好意思……我這就繼續工作！——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "咣当！",
+			say = "咣當！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -494,7 +494,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（在慌慌张张即将跌倒的瞬间，我被指挥官的双臂牢牢地抱住了。）",
+			say = "（在慌慌張張即將跌倒的瞬間，我被指揮官的雙臂牢牢地抱住了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（脸好近……再这么被近距离看着，要、要窒息了……）",
+			say = "（臉好近……再這麼被近距離看著，要、要窒息了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（被放开了……差点就要晕过去了……）",
+			say = "（被放開了……差點就要暈過去了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（心……跳的好快……没、没想到和指挥官上演了宛如爱情电影的一幕……）",
+			say = "（心……跳的好快……沒、沒想到和指揮官上演了宛如愛情電影的一幕……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（那部电影里……好像女主角她……）",
+			say = "（那部電影裡……好像女主角她……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，那个，其实我……！",
+			say = "指揮官，那個，其實我……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？……“今天还是先去休息吧”？既，既然指挥官都这么说了……",
+			say = "欸？……“今天還是先去休息吧”？既，既然指揮官都這麼說了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（结果，在结结巴巴地离开了办公室以后，自己还是听从指挥官的话，老老实实去休息了。）",
+			say = "（結果，在結結巴巴地離開了辦公室以後，自己還是聽從指揮官的話，老老實實去休息了。）",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -689,7 +689,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（差不多……也该下定决心了。）",
+			say = "（差不多……也該下定決心了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

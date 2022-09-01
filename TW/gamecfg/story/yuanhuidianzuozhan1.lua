@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "听说现在各处局势都挺紧张的，我这艘主力重巡洋舰远离再前线的话，不知道会不会出什么问题……",
+			say = "听说现在各处局势都挺紧张的，我这艘主力重巡洋舰再远离前线的话，不知道会不会出什么问题……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "唔…………等下等下，第十五页……我让我看看哦……",
+			say = "唔…………等下等下，第十五页……让我看看哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

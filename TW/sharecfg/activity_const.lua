@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 40670
+		act_id = 40772
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -190,10 +190,10 @@ pg.activity_const = {
 		act_id = 243
 	},
 	NARVIK_PREVIEW_ID = {
-		act_id = 40356
+		act_id = 40776
 	},
 	HUNTER_PT_ID = {
-		act_id = 40362
+		act_id = 40775
 	},
 	MORAN_RE_PREVIEW_ID = {
 		act_id = 263
@@ -655,7 +655,7 @@ pg.activity_const = {
 		act_id = 40718
 	},
 	HMS_Hunter_PT_ID = {
-		act_id = 40362
+		act_id = 40775
 	},
 	DOA_COLLECTION_FURNITURE = {
 		act_id = 40228
@@ -857,5 +857,8 @@ pg.activity_const = {
 	},
 	ISUZU_SPORTS_SKIN_ID = {
 		act_id = 40763
+	},
+	PIXEL_DRAW_ILLUSTRIOUS = {
+		act_id = 4499
 	}
 }

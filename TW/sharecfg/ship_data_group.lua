@@ -3224,6 +3224,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"核心兌換獲取",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3328,6 +3338,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3357,6 +3377,16 @@ pg.ship_data_group = {
 				"限時活動：月光下的序曲",
 				{
 					""
+				},
+				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -11594,6 +11624,17 @@ pg.ship_data_group = {
 				"限時活動：紅染的參訪者",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

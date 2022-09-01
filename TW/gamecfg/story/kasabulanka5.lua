@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>五　友人的忠告</size>",
+					"突如其來的羅曼史\n\n<size=45>五  『友人的忠告』</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "指挥官，这是接下来的预定日程——诶？之后有客人要来吗？",
+			say = "指揮官，這是接下來的預定日程——欸？之後有客人要來嗎？",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我管理的日程表上好像没写——唔，是临时决定的吗……",
+			say = "我管理的日程表上好像沒寫——唔，是臨時決定的嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白了。虽然预定有一些变更，但没有大碍。请问具体是哪位——",
+			say = "明白了。雖然預定有一些變更，但沒有大礙。請問具體是哪位——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 107290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "卡萨布兰卡，之前我们刚见过呢。",
+			say = "卡薩布蘭卡，之前我們剛見過呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原，原来是你们啊……",
+			say = "原，原來是妳們啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（好像在观察我的样子……难道是因为几天前的事情，让她们产生了不必要的担心……）",
+			say = "（好像在觀察我的樣子……難道是因為幾天前的事情，讓她們產生了不必要的擔心……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两位来指挥官这里是有什么事吗？",
+			say = "兩位來指揮官這裡是有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，我们两人准备进行模拟作战演习，而拟定这次作战的人就是指挥官。",
+			say = "嗯，我們兩人準備進行模擬作戰演習，而擬定這次作戰的人就是指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我们直接商量正事吧。",
+			say = "指揮官，我們直接商量正事吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（时间慢慢流逝，但是在一个关键问题上指挥官和普林斯顿产生了分歧。虽然指挥官的考虑有道理，但是普林斯顿说的情况也不是绝对不可能……）",
+			say = "（時間慢慢流逝，但是在一個關鍵問題上指揮官和普林斯頓產生了分歧。雖然指揮官的考慮有道理，但是普林斯頓說的情況也不是絕對不可能……）",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -254,7 +254,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样下去可不是个办法……卡萨布兰卡，你怎么看这个问题？",
+			say = "這樣下去可不是辦法……卡薩布蘭卡，妳怎麼看這個問題？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？我的看法么…不过我不是这场会议的参会人……",
+			say = "哎？我的看法嗎…不過我不是這場會議的參會人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（这是指挥官和普林斯顿等人的作战，作为秘书舰的我不应该插手才是。）",
+			say = "（這是指揮官和普林斯頓等人的作戰，作為秘書艦的我不應該插手才是。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 107290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题的。卡萨布兰卡，你不是指挥官的秘书舰嘛。",
+			say = "沒問題的。卡薩布蘭卡，妳不是指揮官的秘書艦嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。既然是指挥官的秘书舰，协助指挥官的工作自然是理所应当的。",
+			say = "沒錯。既然是指揮官的秘書艦，協助指揮官的工作自然是理所應當的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…明白了。那，普林斯顿、巴丹、还有指挥官，我就冒昧地说一下看法了。",
+			say = "…明白了。那，卡薩布蘭卡、巴丹、還有指揮官，我就冒昧地說一下看法了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然是折中方案，不过总算顺利解决~大家都辛苦了。指挥官，卡萨布兰卡工作非常认真，也许会有一些认真到固执的地方，绝对不能勉强她哦。",
+			say = "雖然是折衷方案，不過總算順利解決~大家都辛苦了。指揮官，卡薩布蘭卡工作非常認真，也許會有一些認真到固執的地方，絕對不能勉強她哦。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -388,7 +388,7 @@ return {
 			actor = 107290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊。之前还见到她一边叹着气，一边烦恼着“悲伤”什么的——",
+			say = "是啊。之前還見到她一邊嘆著氣，一邊煩惱著“悲傷”什麼的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳、咳咳！我真的什么问题都没有，大家不用那么担心我的！",
+			say = "咳、咳咳！我真的什麼問題都沒有，大家不用那麼擔心我的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（会议顺利结束，接下来要整理一下会议记录……不行，没法集中精神。）",
+			say = "（會議順利結束，接下來要整理一下會議紀錄……不行，沒法集中精神。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（本来舰船和指挥官，从立场上来说就不该做那样的事…）",
+			say = "（本來艦船和指揮官，從立場上來說就不該做那樣的事…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（唉……我到底接下来应该怎么跟指挥官相处呢……）",
+			say = "（唉……我到底接下來應該怎麼跟指揮官相處呢……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

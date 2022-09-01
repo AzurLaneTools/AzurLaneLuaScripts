@@ -24,7 +24,7 @@ function slot1(slot0)
 		end
 	end
 
-	slot4 = slot4 or slot1[math.min(slot0.index, #slot1)]
+	slot4 = slot4 or slot1[(slot0.index - 1) * 2 + 1]
 
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then

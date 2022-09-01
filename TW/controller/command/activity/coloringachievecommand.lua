@@ -11,11 +11,10 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 			slot2 = getProxy(ColoringProxy)
-			slot3 = slot2:getColorGroups()
-			slot4 = slot2:getColorGroup(uv0)
+			slot3 = slot2:getColorGroup(uv0)
 
-			slot4:setDrops(slot1)
-			slot4:setState(ColorGroup.StateAchieved)
+			slot3:setDrops(slot1)
+			slot3:setState(ColorGroup.StateAchieved)
 			slot2:checkState()
 			uv1:sendNotification(GAME.COLORING_ACHIEVE_DONE, {
 				drops = slot1

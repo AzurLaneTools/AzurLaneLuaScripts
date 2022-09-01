@@ -10,27 +10,7 @@ return {
 			side = 2,
 			actorName = "神秘商人",
 			dir = 1,
-			say = "這位客官，真是偶遇喵！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 312010,
-			nameColor = "#a9f548",
-			side = 2,
-			actorName = "神秘商人",
-			dir = 1,
-			say = "走過路過，不能錯過喵，來看看本次的全新商品喵？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
+			say = "這位客官，真是偶遇喵！走過路過，不能錯過喵，來看看本次的全新商品喵？",
 			painting = {
 				alpha = 0.3,
 				time = 1

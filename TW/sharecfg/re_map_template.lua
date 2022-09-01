@@ -447,6 +447,34 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[12] = {
+		memory_group = 132,
+		name = "月光下的序曲常驻复刻",
+		activity_type = 2,
+		id = 12,
+		bg = "temp_xinaoerliang",
+		order = 12,
+		config_data = {
+			2200031,
+			2200032,
+			2200033
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					2,
+					11006
+				},
+				"SP3"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -455,6 +483,7 @@ pg.re_map_template = {
 		6,
 		7,
 		9,
-		10
+		10,
+		12
 	}
 }

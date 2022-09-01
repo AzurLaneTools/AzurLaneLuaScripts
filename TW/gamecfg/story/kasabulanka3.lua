@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>三　认真的另一面</size>",
+					"突如其來的羅曼史\n\n<size=45>三  『認真的另一面』</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "——指挥官，今天我很开心哦。以后要是都能像今天一样遵守约定的话，我会更加高兴的呢~",
+			say = "——指揮官，今天我很開心哦。以後要是都能像今天一樣遵守約定的話，我會更加高興的呢~",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——指挥官，游戏玩得很开心！如果今后还有空一起对战的话，请务必要告诉我哦",
+			say = "——指揮官，遊戲玩得很開心！如果今後還有空一起對戰的話，請務必要告訴我哦",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -111,7 +111,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明天日程安排是……清晨和博格进行投接球锻炼，之后处理公务，午饭后去兰利的战术教室参观，再之后……",
+			say = "明天日程安排是……清晨和博格進行投接球鍛煉，之後處理公務，午飯後去蘭利的戰術教室參觀，再之後……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -145,7 +145,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？有我管理日程帮大忙了吗？",
+			say = "欸？有我管理日程幫大忙了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……很高兴能得到您的夸奖。不过比起这些约定，工作上的事也不能落后哦。今后还会很忙，请做好心理准备吧。",
+			say = "……很高興能得到您的誇獎。不過比起這些約定，工作上的事也不能落後哦。今後還會很忙，請做好心理準備吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也会好好辅佐你的，一起加油吧。",
+			say = "我也會好好輔佐你的，一起加油吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（指挥官看起来有些疲惫啊……）",
+			say = "（指揮官看起來有些疲憊啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（我是不是有些严格过头了，说点“你很努力了”之类的夸奖下会不会比较好……）",
+			say = "（我是不是有些嚴格過頭了，說點“你很努力了”之類的誇獎下會不會比較好……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不，严格也是必要的。不这样的话，指挥官是没有办法率领整个港区的。）",
+			say = "（不，嚴格也是必要的。不這樣的話，指揮官是沒有辦法率領整個港區的。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然今天的工作告一段落，我就先告辞了。指挥官也请早点休息吧，别忘了明天还要早起哦。",
+			say = "既然今天的工作告一段落，我就先告辭了。指揮官也請早點休息吧，別忘了明天還要早起哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼……难得工作早早结束，久违地看看喜欢的电影吧。",
+			say = "呼……難得工作早早結束，久違地看看喜歡的電影吧。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -304,7 +304,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "应该就放在这个架子上——嗯，找到了。",
+			say = "應該就放在這個架子上——嗯，找到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然要看电影，果然还是让房间暗一些比较好。也准备一下饮料——",
+			say = "既然要看電影，果然還是讓房間暗一些比較好。也準備一下飲料——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不知不觉已经过了一个半小时了吗……电影也差不多快到高潮部分了。）",
+			say = "（不知不覺已經過了一個半小時了嗎……電影也差不多快到高潮部分了。）",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -371,7 +371,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……好悲伤啊。明明知道了意中人的身份，她还是――――",
+			say = "啊……好悲傷啊。明明知道了意中人的身份，她還是――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……呜呜怎么这个时间都有人来？！电影正好进入到关键情节啊……！",
+			say = "……嗚嗚怎麼這個時間都有人來？！電影正好進入到關鍵情節啊……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我在，房间门没锁，请进——",
+			say = "我在，房間門沒鎖，請進——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指、指挥官？请、请稍等一下！！",
+			say = "指、指揮官？請、請稍等一下！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜…………！",
+			say = "嗚…………！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -525,7 +525,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（实、实在是太羞耻了……！）",
+			say = "（實、實在是太羞恥了……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（为什么偏偏在这个时候指挥官会过来？！难道我喜欢看浪漫爱情电影的事已经——）",
+			say = "（為什麼偏偏在這個時候指揮官會過來？！難道我喜歡看浪漫愛情電影的事已經——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是，是把我忘掉的东西送了过来吗？原来如此……是我疏忽了。",
+			say = "是，是把我忘掉的東西送了過來嗎？原來如此……是我疏忽了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？在、在看的电影吗？！",
+			say = "欸？在、在看的電影嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没、没什么特别的哦？完全不值得指挥官上心就是了…",
+			say = "沒、沒什麼特別的哦？完全不值得指揮官關注就是了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（……说不出口啊！至今为止一直严格对待指挥官的自己，其实有这样的爱好什么的…）",
+			say = "（……說不出口啊！至今為止一直嚴格對待指揮官的自己，其實有這樣的愛好什麼的…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（这样下去的话，我……哎，可我又能跟谁坦白这样的爱好呢……）",
+			say = "（這樣下去的話，我……哎，可我又能跟誰坦白這樣的愛好呢……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

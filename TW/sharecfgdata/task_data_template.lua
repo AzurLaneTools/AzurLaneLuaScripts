@@ -24763,6 +24763,290 @@ _G.pg.base.task_data_template[5687] = {
 	}
 }
 
+_G.pg.base.task_data_template[5691] = {
+	name = "交疊的指尖",
+	guild_coin_award = 0,
+	award = 5499,
+	type = 5,
+	desc = "提交3個《魚雷天婦羅》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "kasabulanka",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5692",
+	auto_commit = 0,
+	story_id = "KASABULANKA1",
+	id = 5691,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5692] = {
+	name = "約定太多啦",
+	guild_coin_award = 0,
+	award = 5500,
+	type = 5,
+	desc = "強化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "kasabulanka",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "KASABULANKA2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5693",
+	auto_commit = 0,
+	scene = "",
+	id = 5692,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5693] = {
+	name = "認真的另一面",
+	guild_coin_award = 0,
+	award = 5501,
+	type = 5,
+	desc = "卡薩布蘭卡上陣出擊(關卡)勝利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "kasabulanka",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "KASABULANKA3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10655",
+	priority_type = 0,
+	next_task = "5694",
+	auto_commit = 0,
+	scene = "",
+	id = 5693,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5694] = {
+	name = "難以言表",
+	guild_coin_award = 0,
+	award = 5502,
+	type = 5,
+	desc = "卡薩布蘭卡上陣完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "kasabulanka",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "KASABULANKA4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10655",
+	priority_type = 0,
+	next_task = "5695",
+	auto_commit = 0,
+	scene = "",
+	id = 5694,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5695] = {
+	name = "友人的忠告",
+	guild_coin_award = 0,
+	award = 5503,
+	type = 5,
+	desc = "卡薩布蘭卡好感度達到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "kasabulanka",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "KASABULANKA5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10655",
+	priority_type = 0,
+	next_task = "5696",
+	auto_commit = 0,
+	scene = "",
+	id = 5695,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5696] = {
+	name = "情愫日長",
+	guild_coin_award = 0,
+	award = 5504,
+	type = 5,
+	desc = "卡薩布蘭卡突破至滿星",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "kasabulanka",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "KASABULANKA6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "106554",
+	priority_type = 0,
+	next_task = "5697",
+	auto_commit = 0,
+	scene = "",
+	id = 5696,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5697] = {
+	name = "浪漫的預感",
+	guild_coin_award = 0,
+	award = 5505,
+	type = 5,
+	desc = "卡薩布蘭卡等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "kasabulanka",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "KASABULANKA7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10655",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5697,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18032,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[5721] = {
 	name = "沒有艦歷的女孩",
 	guild_coin_award = 0,
@@ -86839,6 +87123,524 @@ _G.pg.base.task_data_template[16080] = {
 			1,
 			40713,
 			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16081] = {
+	name = "『纳尔维克上复刻』通关序章",
+	guild_coin_award = 0,
+	award = 94021,
+	type = 6,
+	desc = "擊敗序章敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1200001",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16081,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16082] = {
+	name = "『纳尔维克上复刻』通关SP1",
+	guild_coin_award = 0,
+	award = 94022,
+	type = 6,
+	desc = "擊敗SP1敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1200002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16082,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16083] = {
+	name = "『纳尔维克上复刻』通关SP2",
+	guild_coin_award = 0,
+	award = 94023,
+	type = 6,
+	desc = "擊敗SP2敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1200003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16083,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16084] = {
+	name = "『纳尔维克上复刻』通关SP3",
+	guild_coin_award = 0,
+	award = 94024,
+	type = 6,
+	desc = "擊敗SP3敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1200004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16084,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16085] = {
+	name = "『纳尔维克上复刻』SP1三星",
+	guild_coin_award = 0,
+	award = 94025,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1200002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16085,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18002,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16086] = {
+	name = "『纳尔维克上复刻』SP2三星",
+	guild_coin_award = 0,
+	award = 94026,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1200003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16086,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18002,
+			2
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16087] = {
+	name = "『纳尔维克上复刻』SP3三星",
+	guild_coin_award = 0,
+	award = 94027,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1200004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16087,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18003,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16088] = {
+	name = "『纳尔维克上复刻』临时角色加入",
+	guild_coin_award = 0,
+	award = 94028,
+	type = 6,
+	desc = "不該看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16088,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			201201,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16089] = {
+	name = "『纳尔维克上复刻』sp3累计通关1",
+	guild_coin_award = 0,
+	award = 94029,
+	type = 6,
+	desc = "通關10次SP3",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1200004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16089,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18002,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16090] = {
+	name = "『纳尔维克上复刻』sp3累计通关2",
+	guild_coin_award = 0,
+	award = 94030,
+	type = 6,
+	desc = "通關20次SP3",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1200004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16090,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18002,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16091] = {
+	name = "『纳尔维克上复刻』sp3累计通关3",
+	guild_coin_award = 0,
+	award = 94031,
+	type = 6,
+	desc = "通關30次SP3",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1200004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16091,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18003,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16092] = {
+	name = "『纳尔维克上复刻』sp3累计通关4",
+	guild_coin_award = 0,
+	award = 94032,
+	type = 6,
+	desc = "通關40次SP3",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1200004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16092,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			201161,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1200100,
+			chapterId = 1200004
 		}
 	}
 }

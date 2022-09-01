@@ -86633,6 +86633,606 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[92001] = {
+		spine_extra = "",
+		describe = "生活如此多嬌，盡情享受美味~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "速食餐廳地板",
+		effect = "",
+		advice = 0,
+		icon = "dibankfcicon",
+		spine_action_replace = "",
+		picture = "kfc/dibankfc",
+		comfortable = 4,
+		canputon = 0,
+		id = 92001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92002] = {
+		spine_extra = "",
+		describe = "生活如此多嬌，盡情享受美味~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "速食餐廳壁紙",
+		effect = "",
+		advice = 0,
+		icon = "qiangbikfcicon",
+		spine_action_replace = "",
+		picture = "kfc/qiangbikfc",
+		comfortable = 4,
+		canputon = 0,
+		id = 92002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92101] = {
+		spine_extra = "",
+		describe = "最近的推薦套餐是——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kanbankfcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美味看板",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "kfc/kanbankfc",
+		canputon = 0,
+		id = 92101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92102] = {
+		spine_extra = "",
+		describe = "要注意分類哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "lajitongkfcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "餐廳垃圾桶",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "kfc/lajitongkfc",
+		canputon = 0,
+		id = 92102,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92103] = {
+		spine_extra = "",
+		describe = "內用一名~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zhuozikfcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美味餐桌",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "kfc/zhuozikfc",
+		canputon = 1,
+		id = 92103,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {
+			0,
+			63.17
+		},
+		canputonGrid = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92106] = {
+		spine_extra = "",
+		describe = "內用一名~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 92,
+		is_3d_obj = 0,
+		count = 6,
+		tag = 1,
+		icon = "dengzikfcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美味餐椅",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "kfc/dengzikfc",
+		canputon = 0,
+		id = 92106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					7,
+					41
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92112] = {
+		spine_extra = "",
+		describe = "稍等片刻，馬上上餐啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 92,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "taocanhouchukfcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美味出餐系統",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 92112,
+		can_rotate = 1,
+		size = {
+			21,
+			22
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taocanhouchukfc",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[92201] = {
+		spine_extra = "",
+		describe = "盡享美味組合~",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "hanbaopankfcicon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "美味餐盤",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "kfc/hanbaopankfc",
+		canputon = 0,
+		id = 92201,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92202] = {
+		spine_extra = "",
+		describe = "盡享美味組合~",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "hanbaopan2kfcicon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "美味餐盤(中)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "kfc/hanbaopan2kfc",
+		canputon = 0,
+		id = 92202,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92203] = {
+		spine_extra = "",
+		describe = "盡享美味組合~",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "taocankfcicon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "美味餐盤(大)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "kfc/taocankfc",
+		canputon = 0,
+		id = 92203,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92204] = {
+		spine_extra = "",
+		describe = "是讓人快樂的味道~",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "quanjiatongkfcicon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "全家桶",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "kfc/quanjiatongkfc",
+		canputon = 0,
+		id = 92204,
+		can_rotate = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92301] = {
+		spine_extra = "",
+		describe = "營造溫暖的美好氛圍。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 5,
+		tag = 5,
+		icon = "diaodengkfcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "餐廳吊燈",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "kfc/diaodengkfc",
+		canputon = 0,
+		id = 92301,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92306] = {
+		spine_extra = "",
+		describe = "歡迎光臨啾~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao1kfcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美味海報",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "kfc/haibao1kfc",
+		canputon = 0,
+		id = 92306,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92307] = {
+		spine_extra = "",
+		describe = "快來享受美味薯條啾~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao2kfcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "黑白海報",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "kfc/haibao2kfc",
+		canputon = 0,
+		id = 92307,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92308] = {
+		spine_extra = "",
+		describe = "隨時恭候客人的到來啾！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 92,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "dianmenkfcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美味餐廳入口",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "kfc/dianmenkfc",
+		canputon = 0,
+		id = 92308,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -90693,6 +91293,38 @@ pg.furniture_data_template = {
 			89307,
 			89308,
 			89309
+		},
+		[92] = {
+			92001,
+			92002,
+			92101,
+			92102,
+			92103,
+			92106,
+			92112,
+			92201,
+			92202,
+			92203,
+			92204,
+			92301,
+			92306,
+			92307,
+			92308,
+			92001,
+			92002,
+			92101,
+			92102,
+			92103,
+			92106,
+			92112,
+			92201,
+			92202,
+			92203,
+			92204,
+			92301,
+			92306,
+			92307,
+			92308
 		}
 	},
 	get_id_list_by_tag = {
@@ -91966,7 +92598,12 @@ pg.furniture_data_template = {
 			89122,
 			89123,
 			89124,
-			89125
+			89125,
+			92101,
+			92102,
+			92103,
+			92106,
+			92112
 		},
 		{
 			1108,
@@ -92081,7 +92718,11 @@ pg.furniture_data_template = {
 			48201,
 			48202,
 			48203,
-			89201
+			89201,
+			92201,
+			92202,
+			92203,
+			92204
 		},
 		[6] = {
 			1,
@@ -92264,7 +92905,8 @@ pg.furniture_data_template = {
 			81001,
 			84001,
 			87001,
-			89001
+			89001,
+			92001
 		},
 		[3] = {
 			1002,
@@ -92332,7 +92974,8 @@ pg.furniture_data_template = {
 			81002,
 			84002,
 			87002,
-			89002
+			89002,
+			92002
 		},
 		[5] = {
 			1301,
@@ -92562,7 +93205,11 @@ pg.furniture_data_template = {
 			89303,
 			89307,
 			89308,
-			89309
+			89309,
+			92301,
+			92306,
+			92307,
+			92308
 		},
 		[7] = {
 			13101,
@@ -92742,7 +93389,8 @@ pg.furniture_data_template = {
 			81002,
 			84002,
 			87002,
-			89002
+			89002,
+			92002
 		},
 		[7] = {
 			1,
@@ -94090,7 +94738,12 @@ pg.furniture_data_template = {
 			89122,
 			89123,
 			89124,
-			89125
+			89125,
+			92101,
+			92102,
+			92103,
+			92106,
+			92112
 		},
 		[11] = {
 			131,
@@ -94195,7 +94848,8 @@ pg.furniture_data_template = {
 			81001,
 			84001,
 			87001,
-			89001
+			89001,
+			92001
 		},
 		[5] = {
 			1101,
@@ -94420,7 +95074,11 @@ pg.furniture_data_template = {
 			48201,
 			48202,
 			48203,
-			89201
+			89201,
+			92201,
+			92202,
+			92203,
+			92204
 		},
 		[6] = {
 			1301,
@@ -94647,7 +95305,11 @@ pg.furniture_data_template = {
 			89303,
 			89307,
 			89308,
-			89309
+			89309,
+			92301,
+			92306,
+			92307,
+			92308
 		},
 		[8] = {
 			17121
@@ -96633,6 +97295,21 @@ pg.furniture_data_template = {
 		89303,
 		89307,
 		89308,
-		89309
+		89309,
+		92001,
+		92002,
+		92101,
+		92102,
+		92103,
+		92106,
+		92112,
+		92201,
+		92202,
+		92203,
+		92204,
+		92301,
+		92306,
+		92307,
+		92308
 	}
 }

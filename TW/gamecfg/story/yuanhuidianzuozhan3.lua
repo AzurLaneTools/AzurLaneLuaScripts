@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "再怎么说……和棋子对话也怪了，咱们还是继续视察舰队吧。",
+			say = "再怎么说……和棋子对话也太怪了，咱们还是继续视察舰队吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -129218,6 +129218,27 @@ _G.pg.base.item_data_statistics[59187] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59188] = {
+	display = "用於『峽灣間的獵人』復刻活動提升角色好感，活動結束後將會消失",
+	name = "友好度-獵人",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59188,
+	is_world = 0,
+	icon = "Props/lierenPT",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59189] = {
 	display = "用於『假日航線』活動兌換，活動結束後將會消失",
 	name = "維納斯點數",
@@ -129744,7 +129765,7 @@ _G.pg.base.item_data_statistics[59216] = {
 }
 
 _G.pg.base.item_data_statistics[59217] = {
-	display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
+	display = "用于「司令部动员指令」活动累计奖励，活动结束后将会消失",
 	name = "集结点",
 	max_num = 0,
 	type = 98,
@@ -130472,6 +130493,132 @@ _G.pg.base.item_data_statistics[59320] = {
 	id = 59320,
 	is_world = 0,
 	icon = "Props/union_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59338] = {
+	display = "用於「啾啾速食店」活動兌換，活動結束後將會消失",
+	name = "餐廳經營物資",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59338,
+	is_world = 0,
+	icon = "Props/kfc_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59339] = {
+	display = "包含多件傢俱的套裝組合。領取可獲得限定傢俱「美味海報x1」、「黑白海報x1」",
+	name = "餐廳海報套裝",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59339,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59340] = {
+	display = "包含多件傢俱的套裝組合。領取可獲得限定傢俱「速食餐廳地板x1」、「速食餐廳壁紙x1」",
+	name = "餐廳地板壁紙套裝",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59340,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59341] = {
+	display = "包含多件傢俱的套裝組合。領取可獲得限定傢俱「美味餐桌x1」、「美味餐椅x2」、「美味餐盤x1」",
+	name = "餐桌套裝A",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59341,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet3",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59342] = {
+	display = "包含多件傢俱的套裝組合。領取可獲得限定傢俱「美味餐桌x1」、「美味餐椅x2」、「美味餐盤(中)x1」",
+	name = "餐桌套裝B",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59342,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet4",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59343] = {
+	display = "包含多件傢俱的套裝組合。領取可獲得限定傢俱「美味餐桌x1」、「美味餐椅x2」、「美味餐盤(大)x1」、「全家桶x1」",
+	name = "餐桌套裝C",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59343,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet5",
 	display_icon = {},
 	price = {},
 	index = {},

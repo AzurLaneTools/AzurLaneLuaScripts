@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>七　浪漫的预感</size>",
+					"突如其來的羅曼史\n\n<size=45>七  『浪漫的預感』</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "（时间慢慢地过去，自己也迎来了作为秘书舰的最后一天）",
+			say = "（時間慢慢地過去，自己也迎來了作為秘書艦的最後一天）",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……说起来，您今天有空吗？",
+			say = "那個……說起來，您今天有空嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不介意的话，今天的晚餐我请客吧？这既是对上次外套的答谢，也是对平日里工作繁忙的指挥官的慰劳哦。",
+			say = "不介意的話，今天的晚餐我請客吧？這既是對上次外套的答謝，也是對平日裡工作繁忙的指揮官的慰勞哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "star_level_bg_145",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（终于到晚餐的时候了……）",
+			say = "（終於到晚餐的時候了……）",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -135,7 +135,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（我已经下定决心了，今天一定要说出口…！）",
+			say = "（我已經下定決心了，今天一定要說出口…！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我想再问一下……在最开始的时候，为什么您会指名选择我作为秘书舰呢？",
+			say = "指揮官，我想再問一下……在最開始的時候，為什麼您會指名選擇我作為秘書艦呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“觉得在一起很舒适”吗？我、我还以为一定是我工作认真的缘故……",
+			say = "“覺得在一起很舒適”嗎？我、我還以為一定是我工作認真的緣故……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那意思就是，指挥官其实也对我有好感——没，没什么！……抱歉，我想得太多了……",
+			say = "那意思就是，指揮官其實也對我有好感——沒，沒什麼！……抱歉，我想得太多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（果然你还是平时的那样子呢。所以我才会——）",
+			say = "（果然你還是平時的那樣子呢。所以我才會——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这么想的话，我们一直忙着工作，从来没有机会像这样好好地聊会天……要是早点这么做就好了。",
+			say = "……這麼想的話，我們一直忙著工作，從來沒有機會像這樣好好地聊會天……要是早點這麼做就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也觉得，和你一起工作的时候很舒服。希望今后也能一点点、一点点地，更加了解指挥官的事呢。",
+			say = "我也覺得，和你一起工作的時候很舒服。希望今後也能一點點、一點點地，更加了解指揮官的事呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后，我逐渐了解指挥官的同时，指挥官也能逐渐了解我的话，我会很开心的。",
+			say = "然後，我逐漸了解指揮官的同時，指揮官也能逐漸了解我的話，我會很開心的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了。如果可以的话，要不要一起去看电影？",
+			say = "對了。如果可以的話，要不要一起去看電影？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“什么样的电影”……嗯，其实……是一种特定类型的电影哦。",
+			say = "“什麼樣的電影”……嗯，其實……是一種特定類型的電影哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "自、自己有些说不出口……要不，我给你个提示吧？那种电影里会出现这样的台词——",
+			say = "自、自己有些說不出口……要不，我給你個提示吧？那種電影裡會出現這樣的台詞——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（没有比这合适的机会了……就用这句话，把我长久以来寄宿的情愫，全部倾吐出去吧。）",
+			say = "（沒有比這合適的機會了……就用這句話，把我長久以來寄宿的情愫，全部傾吐出去吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "——“为你的眼眸干杯”。",
+			say = "——“為你的眼眸乾杯”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9363,7 +9363,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "江風、宵月、春月、文月、朝潮 建造追加！"
+	tip = "三隈 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -19378,4 +19378,8 @@ _G.pg.base.gametip.icecreamgame_tip = {
 3.連續2次達成同一位客人的需求，下一位客人的評價分數增加100%（每位客人每場小遊戲僅能觸發一次）]]
 		}
 	}
+}
+
+_G.pg.base.gametip.unlock_date_tip = {
+	tip = "<color=#92fc63>$1月$2日</color>解鎖"
 }

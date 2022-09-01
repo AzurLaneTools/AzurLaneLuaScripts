@@ -2713,6 +2713,116 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[103082] = {
+		ship_group = 10308,
+		name = "黑兔嘉年華",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "104",
+		id = 103082,
+		group_index = 2,
+		prefab = "asituoliya_2",
+		painting = "asituoliya_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70527,
+		shop_type_id = 16,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "囉哈，準備好了嗎，指揮官？狂歡之夜開始了哦～不用擔心飲料供應，盡情地享受嘉年華吧～",
+		voice_actor = 143,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					0.83,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					0.84,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[103090] = {
 		ship_group = 10309,
 		name = "昆西",
@@ -8107,121 +8217,6 @@ pg.ship_skin_template_3 = {
 						"smoke",
 						{
 							-0.45,
-							2.16,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[105200] = {
-		ship_group = 10520,
-		name = "阿拉巴馬",
-		bullet_skin_secondary = "",
-		hand_id = 3,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 105200,
-		group_index = 0,
-		prefab = "alabama",
-		painting = "alabama",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "南達科他級戰列艦—阿拉巴馬，舷號BB-60",
-		voice_actor = 190,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.32,
-					1.339,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.37,
-					1.356,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.17,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.144,
-					0.875,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.522,
 							2.16,
 							0
 						}

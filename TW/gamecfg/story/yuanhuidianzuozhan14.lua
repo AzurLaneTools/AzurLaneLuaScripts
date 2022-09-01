@@ -108,7 +108,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "谁输谁赢，其实是早就是注定的事情。我们彼此都只是在承担测试人员的职责罢了。",
+			say = "谁输谁赢，其实是早就注定的事情。我们彼此都只是在承担测试人员的职责罢了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

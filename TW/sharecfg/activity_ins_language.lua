@@ -8503,187 +8503,187 @@ pg.activity_ins_language = {
 		value = "看來是有過慘痛的教訓呢，指揮官。"
 	},
 	ins_289 = {
-		value = ""
+		value = "偉大的龐培隊長，今天也在為艦隊的各項事務奔走忙碌著！"
 	},
 	ins_discuss_289_1 = {
-		value = ""
+		value = "不愧是龐培隊長，果真是我輩之楷模！"
 	},
 	ins_reply_289_1_1 = {
-		value = ""
+		value = "我、我也要更努力才行…！"
 	},
 	ins_reply_289_1_2 = {
-		value = ""
+		value = "哼哼，沒錯，再多讚揚讚揚偉大的龐培隊長吧！"
 	},
 	ins_discuss_289_2 = {
-		value = ""
+		value = "哇~龐培精力好旺盛呀，都不會累的嗎？"
 	},
 	ins_reply_289_2_1 = {
-		value = ""
+		value = "可別小看了偉大的龐培隊長！想到能得到大家的認同和讚揚，精力就源源不斷湧上來啦！"
 	},
 	ins_reply_289_2_2 = {
-		value = ""
+		value = "真是羨慕你的旺盛精力…啊不，不羨慕，一點也不羨慕…"
 	},
 	ins_op_289_1_1 = {
-		value = ""
+		value = "龐培隊長真可靠！"
 	},
 	op_reply_289_1_1 = {
-		value = ""
+		value = "哼哼，我可是偉大的龐培隊長！"
 	},
 	ins_290 = {
-		value = ""
+		value = "傳統的薩丁料理，無論何時品嚐都讓人感覺無比美味。"
 	},
 	ins_discuss_290_1 = {
-		value = ""
+		value = "將讚美與鮮花贈與最美好的薩丁料理和妳~"
 	},
 	ins_reply_290_1_1 = {
-		value = ""
+		value = "利托里奧還是老樣子呢…下次來共進傳統的薩丁料理晚餐吧？"
 	},
 	ins_reply_290_1_2 = {
-		value = ""
+		value = "榮幸之至，我非常期待~"
 	},
 	ins_discuss_290_2 = {
-		value = ""
+		value = "薩丁料理啊~上次吃到的鳳梨披薩，味道很棒呢！"
 	},
 	ins_reply_290_2_1 = {
-		value = ""
+		value = "嗯嗯，還有…巧克力義大利麵什麼的？不管是視覺還是味覺都很有衝擊力呢…"
 	},
 	ins_reply_290_2_2 = {
-		value = ""
+		value = "呣呣，那都是邪道啊啊啊啊！"
 	},
 	ins_op_290_1_1 = {
-		value = ""
+		value = "傳統的薩丁料理，確實名不虛傳。"
 	},
 	op_reply_290_1_1 = {
-		value = ""
+		value = "嗯哼，算你品味還不錯，指揮官。"
 	},
 	ins_291 = {
-		value = ""
+		value = "地上有麥田怪圈……月亮上……會有乳牛嗎？"
 	},
 	ins_discuss_291_1 = {
-		value = ""
+		value = "呼呼呼…不如說，月亮上會長蘑菇嗎？"
 	},
 	ins_reply_291_1_1 = {
-		value = ""
+		value = "……蘑菇？"
 	},
 	ins_reply_291_1_2 = {
-		value = ""
+		value = "開、開個玩笑而已…偏僻又暗的地方，感覺很適合蘑菇的生長……"
 	},
 	ins_reply_291_1_3 = {
-		value = ""
+		value = "……有道理。"
 	},
 	ins_discuss_291_2 = {
-		value = ""
+		value = "月亮上還有…兔子！"
 	},
 	ins_reply_291_2_1 = {
-		value = ""
+		value = "…聽起來很有趣。下次再P張帶兔子的……"
 	},
 	ins_op_291_1_1 = {
-		value = ""
+		value = "很有趣的照片！"
 	},
 	op_reply_291_1_1 = {
-		value = ""
+		value = "指揮官也覺得有趣嗎…？回頭把你也加上去……"
 	},
 	ins_292 = {
-		value = ""
+		value = "好天氣，就該騎車享受微風才叫“風雅”~"
 	},
 	ins_discuss_292_1 = {
-		value = ""
+		value = "我也騎個車過去，我們來比賽吧，{namecode:70}姐！"
 	},
 	ins_reply_292_1_1 = {
-		value = ""
+		value = "哎？雖然那樣也挺有趣，不過就跟“風雅”沾不上邊了呢…"
 	},
 	ins_discuss_292_2 = {
-		value = ""
+		value = "感覺組織一起賞賞櫻花也不錯呢。"
 	},
 	ins_reply_292_2_1 = {
-		value = ""
+		value = "好主意，便當就交給我吧~"
 	},
 	ins_reply_292_2_2 = {
-		value = ""
+		value = "賞櫻啊~這個就有“風雅”的感覺了~"
 	},
 	ins_reply_292_2_3 = {
-		value = ""
+		value = "啊，我也要一起去！"
 	},
 	ins_discuss_292_3 = {
-		value = ""
+		value = "呼呼，是適合舉辦露天茶會的好天氣呢。"
 	},
 	ins_reply_292_3_1 = {
-		value = ""
+		value = "茶會啊~確實是挺合適的呢~"
 	},
 	ins_op_292_1_1 = {
-		value = ""
+		value = "騎車還是挺鍛煉人的呢。"
 	},
 	op_reply_292_1_1 = {
-		value = ""
+		value = "下次還要一起來哦，指揮官！"
 	},
 	ins_293 = {
-		value = ""
+		value = "八驅的大家都太可愛了~我真是太幸福了~"
 	},
 	ins_discuss_293_1 = {
-		value = ""
+		value = "呣…{namecode:146}，興奮過頭了……"
 	},
 	ins_reply_293_1_1 = {
-		value = ""
+		value = "難得大家穿著這麼可愛的衣服一起拍照嘛~"
 	},
 	ins_discuss_293_2 = {
-		value = ""
+		value = "呼…被拉來的時候還以為要做什麼呢…"
 	},
 	ins_reply_293_2_1 = {
-		value = ""
+		value = "經常像這樣一起玩也挺好的~"
 	},
 	ins_discuss_293_3 = {
-		value = ""
+		value = "哦哦，拍集體照真不錯呀！下次喊六驅的大家也這麼玩！"
 	},
 	ins_reply_293_3_1 = {
-		value = ""
+		value = "好！時間定了我去喊上{namecode:13}和{namecode:14}！"
 	},
 	ins_reply_293_3_2 = {
-		value = ""
+		value = "呼呼，務必讓我幫你們準備可愛的衣服~！"
 	},
 	ins_op_293_1_1 = {
-		value = ""
+		value = "大家都很可愛呢"
 	},
 	op_reply_293_1_1 = {
-		value = ""
+		value = "指揮官眼光真不錯~也謝謝指揮官充當臨時攝影師了呢~"
 	},
 	ins_op_293_1_2 = {
-		value = ""
+		value = "{namecode:146}也很可愛呢"
 	},
 	op_reply_293_1_2 = {
-		value = ""
+		value = "指揮官真會說話~也謝謝你充當臨時攝影師了呢~"
 	},
 	ins_294 = {
-		value = ""
+		value = "嘻嘻，這個大頭照有沒有很有趣呀~？"
 	},
 	ins_discuss_294_1 = {
-		value = ""
+		value = "哇哦，這個有意思~哪拍的呀？告訴我告訴我~"
 	},
 	ins_reply_294_1_1 = {
-		value = ""
+		value = "有個特效相機的軟體~用那個拍照就可以選擇效果了哦！"
 	},
 	ins_reply_294_1_2 = {
-		value = ""
+		value = "我這就去試試~"
 	},
 	ins_reply_294_1_3 = {
-		value = ""
+		value = "拍好了也給我看看哦~"
 	},
 	ins_discuss_294_2 = {
-		value = ""
+		value = "哦？！這個比起自拍，拿來給別人拍好像會更有趣的樣子欸！嘻嘻嘻~"
 	},
 	ins_reply_294_2_1 = {
-		value = ""
+		value = "倒是確實有不少搞怪的裝飾效果可以選就是了…？"
 	},
 	ins_op_294_1_1 = {
-		value = ""
+		value = "很可愛！"
 	},
 	op_reply_294_1_1 = {
-		value = ""
+		value = "嘿嘿，謝謝指揮官~下次指揮官也來拍一組嘛~"
 	},
 	ins_op_294_1_2 = {
-		value = ""
+		value = "很有趣！"
 	},
 	op_reply_294_1_2 = {
-		value = ""
+		value = "嘿嘿，是吧是吧~下次指揮官也來拍一組嘛~"
 	},
 	all = {
 		ins_op_1_1_1,
