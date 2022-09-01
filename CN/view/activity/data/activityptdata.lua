@@ -31,7 +31,7 @@ function slot0.Update(slot0, slot1)
 		end
 	end
 
-	slot0.startTime = slot1:getStartTime()
+	slot0.startTime = slot1.data2
 	slot0.value2 = slot1.data3
 	slot0.isDayUnlock = slot0:CheckDayUnlock() and 1 or 0
 	slot0.curHasBuffs = slot1.data2_list

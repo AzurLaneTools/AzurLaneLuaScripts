@@ -696,10 +696,19 @@ function slot0.RotateFurniture(slot0, slot1)
 	elseif not slot0:CanRotateItem(slot2) then
 		slot0:DispatchEvent(CourtYardEvent.ROTATE_ITEM_FAILED)
 	else
-		slot0:RemoveItem(slot2)
+		if not slot2:HasParent() then
+			slot0:RemoveItem(slot2)
+		end
+
 		slot2:Rotate()
-		slot0:AddItem(slot2)
-		slot0:DispatchEvent(CourtYardEvent.ROTATE_ITEM, slot2, slot0:AreaWithInfo(slot2, slot2:GetPosition(), slot2:GetOffset()))
+
+		slot4 = slot0:AreaWithInfo(slot2, slot2:GetPosition(), slot2:GetOffset())
+
+		if not slot3 then
+			slot0:AddItem(slot2)
+		end
+
+		slot0:DispatchEvent(CourtYardEvent.ROTATE_ITEM, slot2, slot4)
 	end
 end
 
