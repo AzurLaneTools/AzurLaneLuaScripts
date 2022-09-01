@@ -10,27 +10,7 @@ return {
 			side = 2,
 			actorName = "謎の商人",
 			dir = 1,
-			say = "指揮官にゃ！こんな場所に会えるなんて奇遇にゃ！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 312010,
-			nameColor = "#a9f548",
-			side = 2,
-			actorName = "謎の商人",
-			dir = 1,
-			say = "新しい商品を見てみるのはどうかにゃ？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
+			say = "指揮官にゃ！こんな場所に会えるなんて奇遇にゃ！新しい商品を見てみるのはどうかにゃ？",
 			painting = {
 				alpha = 0.3,
 				time = 1

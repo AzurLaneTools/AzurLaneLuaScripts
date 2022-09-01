@@ -816,9 +816,7 @@ function slot0.onWeddingReview(slot0, slot1)
 		slot0.l2dChar:Reset()
 
 		if not slot1 then
-			onNextTick(function ()
-				uv0.l2dChar:UpdateAtomSource()
-			end)
+			slot0.l2dChar:UpdateAtomSource()
 		else
 			slot0.l2dActioning = false
 			slot0.cvLoader.prevCvPath = nil

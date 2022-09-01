@@ -28,7 +28,8 @@ function slot0.OnFirstFlush(slot0)
 			targets = uv0.ptData.targets,
 			level = uv0.ptData.level,
 			count = uv0.ptData.count,
-			resId = uv0.ptData.resId
+			resId = uv0.ptData.resId,
+			unlockStamps = uv0.ptData:GetDayUnlockStamps()
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.battleBtn, function ()

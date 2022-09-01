@@ -1307,5 +1307,9 @@ pg.voice_actor_CN = {
 	[337] = {
 		code = 337,
 		actor_name = "愛美"
+	},
+	[338] = {
+		code = 338,
+		actor_name = "大木咲絵子"
 	}
 }

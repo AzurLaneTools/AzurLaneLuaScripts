@@ -15049,7 +15049,7 @@ pg.expedition_data_by_map = {
 	[2200000] = {
 		map = 2200000,
 		name = "努力、希望と計画|| ||CHAPTER SP||S.P.",
-		level_limit = 15,
+		level_limit = 1,
 		type = 3,
 		anchor = "",
 		title = "SP",
@@ -15287,6 +15287,50 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 0,
 		bind_map = 2200051,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200060] = {
+		map = 2200060,
+		name = "鉄血鮫とエニグマ|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "ZUIZHENGUIDEBAOWU1",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "purple",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1250001",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
 		clouds_pos = {
 			{
 				332,
@@ -15658,6 +15702,7 @@ pg.expedition_data_by_map = {
 		2200020,
 		2200030,
 		2200040,
-		2200050
+		2200050,
+		2200060
 	}
 }

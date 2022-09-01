@@ -8826,6 +8826,27 @@ _G.pg.base.item_data_statistics[21013] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21014] = {
+	display = "レナウン(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：レナウン(META)",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21014,
+	is_world = 0,
+	icon = "Props/21014",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -9051,6 +9072,27 @@ _G.pg.base.item_data_statistics[21907] = {
 	id = 21907,
 	is_world = 0,
 	icon = "Props/21907",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21908] = {
+	display = "レナウン(META)の解析ポイント",
+	name = "レナウン(META)解析Pt",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21908,
+	is_world = 0,
+	icon = "Props/21908",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173138,6 +173180,132 @@ _G.pg.base.item_data_statistics[59337] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59338] = {
+	display = "「饅頭レストラン」報酬交換用。イベント終了後に削除されます",
+	name = "レストランPt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59338,
+	is_world = 0,
+	icon = "Props/kfc_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59339] = {
+	display = "下記の家具を入手可能：カラーポスター、モノクロポスター",
+	name = "ポスターセット",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59339,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59340] = {
+	display = "下記の家具を入手可能：ファストフード床、ファストフード壁",
+	name = "フローリングセット",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59340,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59341] = {
+	display = "下記の家具を入手可能：ファストテーブル、ファストチェア×2、フードセットA",
+	name = "テーブルセットA",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59341,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet3",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59342] = {
+	display = "下記の家具を入手可能：ファストテーブル、ファストチェア×2、フードセットB",
+	name = "テーブルセットB",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59342,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet4",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59343] = {
+	display = "下記の家具を入手可能：ファストテーブル、ファストチェア×2、フードセットC、バーレルセット×1",
+	name = "テーブルセットC",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59343,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet5",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -182509,6 +182677,153 @@ _G.pg.base.item_data_statistics[60243] = {
 	icon = "Props/yaoqinghan",
 	price = "",
 	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60253] = {
+	display = "絵の具A",
+	name = "絵の具A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60253,
+	is_world = 0,
+	icon = "props/draw_a",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60254] = {
+	display = "絵の具B",
+	name = "絵の具B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60254,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60255] = {
+	display = "絵の具C",
+	name = "絵の具C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60255,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60256] = {
+	display = "絵の具D",
+	name = "絵の具D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60256,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60257] = {
+	display = "絵の具E",
+	name = "絵の具E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60257,
+	is_world = 0,
+	icon = "props/draw_e",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60258] = {
+	display = "絵の具F",
+	name = "絵の具F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60258,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60259] = {
+	display = "絵の具G",
+	name = "絵の具G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60259,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
 	index = {},
 	shiptrans_id = {}
 }

@@ -2139,7 +2139,7 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			31,
-			68,
+			75,
 			8832
 		}
 	},

@@ -839,5 +839,8 @@ pg.activity_const = {
 	},
 	ISUZU_SPORTS_SKIN_ID = {
 		act_id = 4496
+	},
+	PIXEL_DRAW_ILLUSTRIOUS = {
+		act_id = 4499
 	}
 }

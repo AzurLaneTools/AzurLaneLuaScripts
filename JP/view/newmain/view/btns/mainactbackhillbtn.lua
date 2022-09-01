@@ -26,7 +26,7 @@ function slot0.IsShowTip(slot0)
 	elseif slot1 == ActivityConst.MUSIC_FESTIVAL_MEDALCOLLECTION_2020 then
 		return Activity.isHaveActivableMedal()
 	elseif slot1 == ActivityConst.MINIGAME_ICECREAM then
-		return Activity.isHaveActivableMedal()
+		return slot0:IsShowTip4SummerPark()
 	end
 end
 

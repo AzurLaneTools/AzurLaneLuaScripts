@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_340 = {
+	[15901207] = {
+		cannon = 55,
+		name = "演算投影「駆逐艦」",
+		type = 1,
+		speed_growth = 0,
+		hit_growth = 210,
+		air = 0,
+		durability = 1480,
+		armor = 0,
+		antisub = 0,
+		reload = 150,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		dodge_growth = 156,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90639,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		speed = 24,
+		luck = 4,
+		id = 15901207,
+		cannon_growth = 1600,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 80,
+		durability_growth = 125600,
+		antiaircraft = 145,
+		antiaircraft_growth = 3600,
+		armor_type = 1,
+		specific_fx_scale = {},
+		appear_fx = {
+			"heisewuqi_stg",
+			"appearQ"
+		},
+		equipment_list = {
+			871901,
+			871902,
+			1100131,
+			1003107,
+			1003197
+		}
+	},
 	[15901208] = {
 		cannon = 110,
 		name = "演算投影「空母」",
@@ -710,46 +757,6 @@ pg.enemy_data_statistics_340 = {
 		equipment_list = {
 			1003093,
 			1003098
-		}
-	},
-	[15902101] = {
-		cannon = 22,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 626,
-		pilot_ai_template_id = 20004,
-		air = 0,
-		battle_unit_type = 50,
-		dodge = 22,
-		base = 90624,
-		durability_growth = 21600,
-		antiaircraft = 72,
-		reload_growth = 0,
-		dodge_growth = 360,
-		speed = 36,
-		luck = 0,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 3000,
-		torpedo = 94,
-		durability = 3060,
-		armor_growth = 0,
-		torpedo_growth = 5200,
-		luck_growth = 0,
-		hit_growth = 280,
-		armor = 0,
-		id = 15902101,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"appearsmall",
-			"nuofukedanchuan_buff_01"
-		},
-		equipment_list = {
-			1005592,
-			896003,
-			896007
 		}
 	}
 }
