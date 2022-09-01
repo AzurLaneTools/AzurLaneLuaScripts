@@ -387,7 +387,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704041] = {
-		breakout_view = "Unlock Ashen Might – Renown/Main gun base +1/Main gun efficiency +5%",
+		breakout_view = "Unlock Ashen Might - Renown/Main gun base +1/Main gun efficiency +5%",
 		gold = 1000,
 		breakout_id = 9704042,
 		repair = 0,
@@ -422,7 +422,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704043] = {
-		breakout_view = "Improve Ashen Might – Renown/ Main gun base +1/Main gun efficiency +15%",
+		breakout_view = "Improve Ashen Might - Renown/Main gun base +1/Main gun efficiency +15%",
 		gold = 10000,
 		breakout_id = 9704044,
 		repair = 0,

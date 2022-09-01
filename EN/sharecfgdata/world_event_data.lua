@@ -83788,7 +83788,7 @@ _G.pg.base.world_event_data[1001000] = {
 
 _G.pg.base.world_event_data[1001001] = {
 	visuality = 0,
-	name = "Siren Rally Point",
+	name = "Siren Blockade Device",
 	compass_index = 0,
 	expedition_icon = 0,
 	enemyicon = 0,
@@ -83801,7 +83801,7 @@ _G.pg.base.world_event_data[1001001] = {
 	auto_pri = 0,
 	discover_type = 2,
 	is_scanevent = 1,
-	scan_desc = "The gathering point for Siren reinforcements. Quickly find a way to cut off the enemy reinforcements.",
+	scan_desc = "A massive facility that is blocking the path forward. Operating the switches around this area may be able to disable it.",
 	is_guide = 1,
 	object_icon = "",
 	id = 1001001,

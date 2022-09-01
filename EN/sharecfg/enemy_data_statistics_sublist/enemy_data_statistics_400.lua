@@ -11163,7 +11163,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295961] = {
 		cannon = 12,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11228,7 +11228,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295962] = {
 		cannon = 14,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11293,7 +11293,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295963] = {
 		cannon = 16,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11358,7 +11358,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295964] = {
 		cannon = 18,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11423,7 +11423,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295965] = {
 		cannon = 20,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11488,7 +11488,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295966] = {
 		cannon = 22,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11553,7 +11553,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295967] = {
 		cannon = 24,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11618,7 +11618,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295968] = {
 		cannon = 26,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11683,7 +11683,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295969] = {
 		cannon = 28,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11748,7 +11748,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295970] = {
 		cannon = 30,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11813,7 +11813,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295971] = {
 		cannon = 34,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11878,7 +11878,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295972] = {
 		cannon = 38,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -11943,7 +11943,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295973] = {
 		cannon = 42,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -12008,7 +12008,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295974] = {
 		cannon = 46,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -12073,7 +12073,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295975] = {
 		cannon = 50,
-		name = "Fire ball",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,

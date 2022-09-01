@@ -165772,7 +165772,7 @@ _G.pg.base.item_data_statistics[59337] = {
 }
 
 _G.pg.base.item_data_statistics[59338] = {
-	display = "Used to exchange for items during the \"Manjuu Fast Food\". Will be removed after the event ends. ",
+	display = "Used to exchange for items during the \"Manjuu Fast Food\". Will be removed after the event ends.",
 	name = "Restaurant Tokens",
 	max_num = 0,
 	type = 98,
@@ -174871,7 +174871,7 @@ _G.pg.base.item_data_statistics[60252] = {
 }
 
 _G.pg.base.item_data_statistics[60253] = {
-	display = "Pigment A used during Anshan's Diary event. Disappears after event has ended.",
+	display = "Pigment A used during the Dreams of Love and Peace event. Disappears after event has ended.",
 	name = "Pigment A",
 	max_num = 0,
 	type = 0,
@@ -174892,7 +174892,7 @@ _G.pg.base.item_data_statistics[60253] = {
 }
 
 _G.pg.base.item_data_statistics[60254] = {
-	display = "Pigment B used during Anshan's Diary event. Disappears after event has ended.",
+	display = "Pigment B used during the Dreams of Love and Peace event. Disappears after event has ended.",
 	name = "Pigment B",
 	max_num = 0,
 	type = 0,
@@ -174913,7 +174913,7 @@ _G.pg.base.item_data_statistics[60254] = {
 }
 
 _G.pg.base.item_data_statistics[60255] = {
-	display = "Pigment C used during Anshan's Diary event. Disappears after event has ended.",
+	display = "Pigment C used during the Dreams of Love and Peace event. Disappears after event has ended.",
 	name = "Pigment C",
 	max_num = 0,
 	type = 0,
@@ -174934,7 +174934,7 @@ _G.pg.base.item_data_statistics[60255] = {
 }
 
 _G.pg.base.item_data_statistics[60256] = {
-	display = "Pigment D used during Anshan's Diary event. Disappears after event has ended.",
+	display = "Pigment D used during the Dreams of Love and Peace event. Disappears after event has ended.",
 	name = "Pigment D",
 	max_num = 0,
 	type = 0,
@@ -174955,7 +174955,7 @@ _G.pg.base.item_data_statistics[60256] = {
 }
 
 _G.pg.base.item_data_statistics[60257] = {
-	display = "Pigment E used during Anshan's Diary event. Disappears after event has ended.",
+	display = "Pigment E used during the Dreams of Love and Peace event. Disappears after event has ended.",
 	name = "Pigment E",
 	max_num = 0,
 	type = 0,
@@ -174976,7 +174976,7 @@ _G.pg.base.item_data_statistics[60257] = {
 }
 
 _G.pg.base.item_data_statistics[60258] = {
-	display = "Pigment F used during Anshan's Diary event. Disappears after event has ended.",
+	display = "Pigment F used during the Dreams of Love and Peace event. Disappears after event has ended.",
 	name = "Pigment F",
 	max_num = 0,
 	type = 0,
@@ -174997,7 +174997,7 @@ _G.pg.base.item_data_statistics[60258] = {
 }
 
 _G.pg.base.item_data_statistics[60259] = {
-	display = "Pigment G used during Anshan's Diary event. Disappears after event has ended.",
+	display = "Pigment G used during the Dreams of Love and Peace event. Disappears after event has ended.",
 	name = "Pigment G",
 	max_num = 0,
 	type = 0,

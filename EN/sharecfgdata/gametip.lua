@@ -2701,28 +2701,21 @@ _G.pg.base.gametip.coloring_wait_open = {
 _G.pg.base.gametip.coloring_help_tip = {
 	tip = {
 		{
-			info = "- How to Play:"
+			info = "Game Rules:\n"
 		},
 		{
 			info = [[
-To fill in an uncolored square, first select the color of paint with the corresponding number, then simply tap the square.
-You can zoom in on the drawing area by putting 2 fingers on your screen and pinching them together. Do the same in reverse to zoom
-If you run out of paint, you can get more by completing Oil Spent milestone missions during the event. out.
-Every square costs 1 paint to fill in. Adjacent squares of the same color will automatically be filled in until there are no more adjacent squares of the same color, or until you run out of the specified paint.]]
-		},
-		{
-			info = [[
-Every time you fully color in a page, you'll receive a reward. The rewards for completing each page are as follows: 
-Page 1: 2 random T3 Skill Books
-Page 2: 1 Red Envelope
-Page 3: 2 T3 Main Gun Parts
-Page 4: 1 Red Envelope
-Page 5: 3 T3 General Parts
-Page 6: 1 Red Envelope
-Page 7: An Shan-class destroyer – An Shan]]
-		},
-		{
-			info = "After the event concludes, any unspent paint will be removed from your inventory.\nOne new page will be unlocked every day up to February 2nd."
+1. Each cell of the Coloring Book is marked with a number that corresponds to the paint color of the same number. Select the paint color from the palette on the right and click on the cell to color it. 
+2. The drawing area can be zoomed in and out by stretching or pinching with two fingers. 
+3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no paint of that color left. 
+4. Coloring each cell will consume paint. If no paint is left, no more cells may be colored. 
+5. Paint can be obtained by completing event missions to consume a total amount of oil. 
+6. Completing pages in the Coloring Book will grant rewards. 
+7. The rewards for completing each page are as follows: 
+	 Complete Page 1: T3 General Parts x4;n	 Complete Page 2: Random T3 Skill Book x3
+	 Complete Page 3: Little Illustrious x1;
+8. After the event ends, unused paint will be removed.
+9. One new page will be unlocked every day up to September 3rd.]]
 		}
 	}
 }
@@ -4485,9 +4478,9 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>6/9/22 to 9/1/22</color>, challenge Repulse META
+From <color=#92fc63>9/1/22 to 12/7/22</color>, challenge Renown META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Repulse META</color> as well
+to obtain the limited character, <color=#92fc63>Renown META</color> as well
 as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
@@ -10142,7 +10135,7 @@ _G.pg.base.gametip.buildship_special_tip = {
 }
 
 _G.pg.base.gametip.open_skill_pos = {
-	tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"
+	tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock another slot, Do you wish to proceed?"
 }
 
 _G.pg.base.gametip.open_skill_pos_discount = {
@@ -21328,5 +21321,5 @@ Play the minigame for 7 days during the event to receive a special chat frame.
 }
 
 _G.pg.base.gametip.unlock_date_tip = {
-	tip = "Unlocks on <color=#92fc63>$2/$1</color>"
+	tip = "Unlocks on <color=#92fc63>$1/$2</color>"
 }

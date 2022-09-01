@@ -126,7 +126,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "stop",
-		name = "Gneisenau META ",
+		name = "Gneisenau META",
 		painting = "genaisennao",
 		boss_level_id = 61,
 		id = 5,
@@ -183,53 +183,28 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "Repulse META",
 		painting = "fanji",
 		boss_level_id = 91,
 		id = 7,
 		meta_id = 970403,
+		item_id = 100000,
 		description = {
 			{
 				"Repulsing Pyrotechnics",
 				3,
-				"When the battle starts, this ship can create 3 barriers that reduce the damage she takes. Every time your ships fire torpedoes, a main gun volley, or launch an airstrike, the barrier counter increases by 1, 2, and 2, respectively. Every time the barrier counter reaches 6, 1 barrier is negated."
+				"When the battle starts, this ship can create 3 barriers that reduce the damage she takes. \n<color=#92fc63>Every time your ships fire torpedoes, a main gun volley, or launch an airstrike, the barrier counter increases by 1, 2, and 2, respectively. Every time the barrier counter reaches 6, 1 barrier is negated.</color>"
 			},
 			{
 				"Repulse's Resolve",
 				1,
-				"Each time a \"Repulsing Pyrotechnics\" barrier is negated, this ship's damage dealt increases and her attack pattern changes. Once all barriers have been negated, this ship will enter a ferocious attack phase."
+				"Each time a \"Repulsing Pyrotechnics\" barrier is negated, this ship's damage dealt increases and her attack pattern changes. \n<color=#92fc63>Once all barriers have been negated, this ship will enter a ferocious attack phase.</color>"
 			},
 			{
 				"Heart of Lava",
 				2,
 				"This ship can launch huge lava projectiles, inflicting huge damage to Main Fleet ships they come in contact with as well as rendering aircraft carriers Detected."
-			}
-		},
-		state = {
-			{
-				{
-					2022,
-					6,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					8,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -261,12 +236,12 @@ pg.world_joint_boss_template = {
 			{
 				"Ashen Might - Storm",
 				1,
-				"This ship can execute a charged attack. Every time this attack goes off without being interrupted, this ship's damage dealt increases. The second time this attack is successfully executed, this ship's attack pattern changes and her ACC and damage dealt increases, but her damage taken increases."
+				"This ship can execute a charged attack. Every time this attack goes off without being interrupted, this ship's damage dealt increases. \n<color=#92fc63>The second time this attack is successfully executed, this ship's attack pattern changes and her ACC and damage dealt increases, but her damage taken increases.</color>"
 			},
 			{
 				"Ashen Might - Lull",
 				1,
-				"Every time this ship's charged attack is interrupted as a result of damage from your ships, a portion of this ship's HP is restored and her damage taken is decreased. The second time this attack is interrupted, this ship's attack pattern changes and her damage taken decreases, but her ACC and damage dealt decreases."
+				"Every time this ship's charged attack is interrupted as a result of damage from your ships, a portion of this ship's HP is restored and her damage taken is decreased. \n<color=#92fc63>The second time this attack is interrupted, this ship's attack pattern changes and her damage taken decreases, but her ACC and damage dealt decreases.</color>"
 			},
 			{
 				"Heart of Lava",
@@ -291,7 +266,7 @@ pg.world_joint_boss_template = {
 				{
 					2022,
 					12,
-					8
+					7
 				},
 				{
 					23,
