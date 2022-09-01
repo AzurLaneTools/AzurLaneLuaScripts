@@ -282,6 +282,8 @@ end
 function slot0.CanRotateItem(slot0, slot1)
 	if slot1:HasParent() then
 		return slot1:GetParent():CanRotateChild(slot1)
+	elseif isa(slot1, CourtYardCanPutFurniture) and slot1:AnyNotRotateChilds() then
+		return false
 	else
 		slot2 = slot0:GetMapNotIncludeItem(slot1)
 
