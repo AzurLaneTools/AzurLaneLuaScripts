@@ -87,9 +87,11 @@ function slot0.GetPrice(slot0)
 end
 
 function slot0.IsItemDiscountType(slot0)
-	return slot0:getConfig("genre") == ShopArgs.SkinShop and pg.shop_discount_coupon_template[slot0.id] ~= nil and (function ()
-		return getProxy(ActivityProxy):ExistSkinCouponActivityAndShopId(uv0.id)
-	end)()
+	slot2 = pg.shop_discount_coupon_template
+
+	return slot0:getConfig("genre") == ShopArgs.SkinShop and slot2[slot0.id] ~= nil and (function (slot0)
+		return getProxy(ActivityProxy):ExistSkinCouponActivityAndItemId(slot0)
+	end)(slot2[slot0.id].item)
 end
 
 function slot0.getLimitCount(slot0)

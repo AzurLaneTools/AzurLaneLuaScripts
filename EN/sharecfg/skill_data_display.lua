@@ -8400,6 +8400,22 @@ pg.skill_data_display = {
 		id = 800523,
 		name = "Bulwark of Shattered Dreams"
 	},
+	[800540] = {
+		id = 800540,
+		name = "Flameforged Edge"
+	},
+	[800550] = {
+		id = 800550,
+		name = "Knights of Renown"
+	},
+	[800551] = {
+		id = 800551,
+		name = "Knights of Renown"
+	},
+	[800560] = {
+		id = 800560,
+		name = "Guardian's Pledge"
+	},
 	[1010140] = {
 		id = 1010140,
 		name = "Eagle's Tears+"
@@ -8479,6 +8495,14 @@ pg.skill_data_display = {
 	[200008] = {
 		id = 200008,
 		name = "Air Armada Support"
+	},
+	[200038] = {
+		id = 200038,
+		name = "Ashen Might - Storm"
+	},
+	[200040] = {
+		id = 200040,
+		name = "Ashen Might - Lull"
 	},
 	[1011540] = {
 		id = 1011540,
@@ -10593,6 +10617,10 @@ pg.skill_data_display = {
 		800520,
 		800521,
 		800523,
+		800540,
+		800550,
+		800551,
+		800560,
 		1010140,
 		1010143,
 		1010144,
@@ -10613,6 +10641,8 @@ pg.skill_data_display = {
 		200002,
 		200005,
 		200008,
+		200038,
+		200040,
 		1011540,
 		1011541,
 		1090010

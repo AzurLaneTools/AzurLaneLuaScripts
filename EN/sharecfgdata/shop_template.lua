@@ -4619,6 +4619,32 @@ _G.pg.base.shop_template[43022] = {
 	}
 }
 
+_G.pg.base.shop_template[43023] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "8000功勋兑换龙骧",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43023,
+	resource_num = 8000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		306061
+	}
+}
+
 _G.pg.base.shop_template[43024] = {
 	is_auto_use = 0,
 	resource_type = 3,
@@ -18807,7 +18833,8 @@ _G.pg.base.shop_template[70124] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 8900,
+	order = 8530,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -18818,32 +18845,6 @@ _G.pg.base.shop_template[70124] = {
 	limit_args = {},
 	effect_args = {
 		306061
-	},
-	time = {
-		{
-			{
-				2021,
-				11,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				1
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -36529,7 +36530,8 @@ _G.pg.base.shop_template[70566] = {
 	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 8559,
+	order = 8530,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36540,32 +36542,6 @@ _G.pg.base.shop_template[70566] = {
 	limit_args = {},
 	effect_args = {
 		306062
-	},
-	time = {
-		{
-			{
-				2021,
-				6,
-				24
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				7,
-				7
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -45076,6 +45052,108 @@ _G.pg.base.shop_template[70734] = {
 				2022,
 				8,
 				31
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70735] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:220901拉菲KFC",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 8527,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70735,
+	resource_num = 700,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		131170
+	},
+	time = {
+		{
+			{
+				2022,
+				9,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				9,
+				29
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70736] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:220901绫波KFC",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 8527,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70736,
+	resource_num = 700,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		331054
+	},
+	time = {
+		{
+			{
+				2022,
+				9,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				9,
+				29
 			},
 			{
 				23,

@@ -8868,6 +8868,27 @@ _G.pg.base.item_data_statistics[21013] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21014] = {
+	display = "An item that increases the potential of Renown META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Renown",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21014,
+	is_world = 0,
+	icon = "Props/21014",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -9093,6 +9114,27 @@ _G.pg.base.item_data_statistics[21907] = {
 	id = 21907,
 	is_world = 0,
 	icon = "Props/21907",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21908] = {
+	display = "Sync Points for Renown META.",
+	name = "Synchronization Point – Renown META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21908,
+	is_world = 0,
+	icon = "Props/21908",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165729,6 +165771,132 @@ _G.pg.base.item_data_statistics[59337] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59338] = {
+	display = "Used to exchange for items during the \"Manjuu Fast Food\". Will be removed after the event ends. ",
+	name = "Restaurant Tokens",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59338,
+	is_world = 0,
+	icon = "Props/kfc_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59339] = {
+	display = "Unlocks the following furniture: Colored Poster, Black-and-White Poster",
+	name = "Posters",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59339,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59340] = {
+	display = "Unlocks the following furniture: Fast Food Flooring, Fast Food Wallpaper",
+	name = "Flooring & Wallpaper",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59340,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59341] = {
+	display = "Unlocks the following furniture: Fast Food Table, Fast Food Stool (2), Fast Food Order 1",
+	name = "Table Set 1",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59341,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet3",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59342] = {
+	display = "Unlocks the following furniture: Fast Food Table, Fast Food Stool (2), Fast Food Order 2",
+	name = "Table Set 2",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59342,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet4",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59343] = {
+	display = "Unlocks the following furniture: Fast Food Table, Fast Food Stool (2), Fast Food Order 3, Bucket of Drumsticks",
+	name = "Table Set 3",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59343,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet5",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -174698,6 +174866,153 @@ _G.pg.base.item_data_statistics[60252] = {
 	icon = "Props/yaoqinghan",
 	price = "",
 	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60253] = {
+	display = "Pigment A used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60253,
+	is_world = 0,
+	icon = "props/draw_a",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60254] = {
+	display = "Pigment B used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60254,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60255] = {
+	display = "Pigment C used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60255,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60256] = {
+	display = "Pigment D used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60256,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60257] = {
+	display = "Pigment E used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60257,
+	is_world = 0,
+	icon = "props/draw_e",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60258] = {
+	display = "Pigment F used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60258,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60259] = {
+	display = "Pigment G used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60259,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
 	index = {},
 	shiptrans_id = {}
 }

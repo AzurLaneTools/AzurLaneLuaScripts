@@ -1327,5 +1327,9 @@ pg.voice_actor_CN = {
 	[337] = {
 		code = 337,
 		actor_name = "Aimi "
+	},
+	[338] = {
+		code = 338,
+		actor_name = "Ookizaki Saeo"
 	}
 }

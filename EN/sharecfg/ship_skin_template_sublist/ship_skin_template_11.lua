@@ -1,5 +1,115 @@
 pg = pg or {}
 pg.ship_skin_template_11 = {
+	[304031] = {
+		ship_group = 30403,
+		name = "Free Time Before Class",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 304031,
+		group_index = 1,
+		prefab = "Zhenming_2",
+		painting = "Zhenming_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70068,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I think it's fine to enjoy school life once in a while... Hm? You wanna know what I'm listening to? Sure, if you're okay with just one earbud.",
+		voice_actor = 127,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.629,
+					1.045,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.555,
+					1.073,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.48,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[304032] = {
 		ship_group = 30403,
 		name = "Scarlet Innocence",
@@ -4045,7 +4155,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -8197,7 +8307,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -8311,7 +8421,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -8427,7 +8537,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -8530,7 +8640,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -8633,7 +8743,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -8743,7 +8853,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "1102",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -8846,7 +8956,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -9337,120 +9447,6 @@ pg.ship_skin_template_11 = {
 						{
 							-0.45,
 							2.36,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[307040] = {
-		ship_group = 30704,
-		name = "Hiryuu",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 307040,
-		group_index = 0,
-		prefab = "feilong",
-		painting = "feilong",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 12,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Aircraft carrier, {namecode:94}.",
-		voice_actor = 30,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.628,
-					0.908,
-					0
-				}
-			},
-			plane = {
-				{
-					-1.188,
-					0.832,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.456,
-							0.32,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.118,
-							0.905,
 							0
 						}
 					}

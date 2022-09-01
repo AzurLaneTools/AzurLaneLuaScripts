@@ -1,5 +1,69 @@
 pg = pg or {}
 pg.enemy_data_statistics_399 = {
+	[293012] = {
+		cannon = 14,
+		battle_unit_type = 90,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 3,
+		air = 0,
+		speed = 24,
+		dodge = 19,
+		id = 293012,
+		cannon_growth = 1152,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 240,
+		luck = 10,
+		star = 4,
+		hit = 15,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 43,
+		base = 90249,
+		durability = 188,
+		armor_growth = 0,
+		torpedo_growth = 3456,
+		luck_growth = 0,
+		hit_growth = 228,
+		armor = 0,
+		durability_growth = 75000,
+		antiaircraft = 58,
+		antisub = 0,
+		antiaircraft_growth = 4608,
+		scale = 160,
+		world_enhancement = {
+			9.3,
+			4.6,
+			1.1,
+			0,
+			0.9,
+			0.9,
+			0
+		},
+		equipment_list = {
+			2029600,
+			2029601,
+			2029602,
+			2029603
+		},
+		random_equipment_list = {
+			{
+				2029611,
+				2029612,
+				2029613,
+				2029614
+			},
+			{
+				2029621,
+				2029623
+			}
+		},
+		random_nub = {
+			1,
+			1
+		}
+	},
 	[293013] = {
 		cannon = 25,
 		battle_unit_type = 90,
@@ -916,60 +980,6 @@ pg.enemy_data_statistics_399 = {
 			2029802,
 			2029803,
 			2029880
-		},
-		random_nub = {
-			1,
-			1
-		}
-	},
-	[293044] = {
-		cannon = 0,
-		antiaircraft_growth = 3744,
-		fog_fx = "",
-		speed_growth = 0,
-		rarity = 3,
-		air = 50,
-		speed = 18,
-		dodge = 6,
-		id = 293044,
-		wave_fx = "shenyuanxiaoguai_move",
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 80,
-		luck = 10,
-		star = 4,
-		hit = 8,
-		antisub_growth = 0,
-		air_growth = 4032,
-		reload = 150,
-		base = 90252,
-		durability = 338,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 126,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 135000,
-		antisub = 0,
-		antiaircraft = 47,
-		scale = 160,
-		battle_unit_type = 90,
-		world_enhancement = {
-			9.3,
-			1.9,
-			1.7,
-			0.7,
-			0.1,
-			2,
-			0.1
-		},
-		equipment_list = {
-			2029900,
-			2029901,
-			2029902,
-			2029903,
-			2029970
 		},
 		random_nub = {
 			1,

@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_360 = {
+	[16002302] = {
+		cannon = 81,
+		name = "Juno's Phantom",
+		type = 7,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 445,
+		durability = 46820,
+		armor = 0,
+		antisub = 0,
+		reload = 150,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90666,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 18,
+		id = 16002302,
+		scale = 180,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		dodge = 20,
+		reload_growth = 0,
+		hit = 32,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 428,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3004501,
+			3004502,
+			3004503,
+			3004506,
+			3004507,
+			3004508
+		}
+	},
 	[16002303] = {
 		cannon = 255,
 		name = "Neptune's Phantom",
@@ -761,48 +809,6 @@ pg.enemy_data_statistics_360 = {
 				ID = 50500,
 				LV = 4
 			}
-		}
-	},
-	[16003204] = {
-		cannon = 130,
-		type = 7,
-		antiaircraft_growth = 3200,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 206,
-		icon_type = 7,
-		dodge = 11,
-		luck = 18,
-		id = 16003204,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 156,
-		reload = 150,
-		speed = 20,
-		hit = 20,
-		antisub_growth = 0,
-		air_growth = 3500,
-		fog_fx = "",
-		base = 90669,
-		durability = 17020,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 251,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 308000,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor_type = 2,
-		equipment_list = {
-			783318,
-			1101093,
-			1101078,
-			1101118,
-			900004,
-			900009
 		}
 	}
 }

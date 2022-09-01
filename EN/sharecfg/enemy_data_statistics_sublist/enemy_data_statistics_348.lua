@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_348 = {
+	[15901121] = {
+		cannon = 6,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 468,
+		battle_unit_type = 50,
+		air = 0,
+		base = 90248,
+		dodge = 15,
+		durability_growth = 20080,
+		antiaircraft = 20,
+		speed = 32,
+		reload_growth = 0,
+		dodge_growth = 222,
+		luck = 0,
+		antiaircraft_growth = 1638,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		torpedo = 54,
+		durability = 640,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		fog_fx = "",
+		id = 15901121,
+		appear_fx = {
+			"heisewuqi_stg"
+		},
+		equipment_list = {
+			1000711,
+			1000716,
+			1000721
+		}
+	},
 	[15901122] = {
 		cannon = 20,
 		reload = 150,
@@ -834,46 +872,5 @@ pg.enemy_data_statistics_348 = {
 			893408,
 			893409
 		}
-	},
-	[15901303] = {
-		cannon = 186,
-		name = "Vision of Vanguard",
-		hit_growth = 210,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		speed = 16,
-		dodge = 12,
-		antisub = 0,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck = 8,
-		torpedo = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		durability_growth = 0,
-		base = 90642,
-		durability = 32400,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antiaircraft = 365,
-		battle_unit_type = 95,
-		id = 15901303,
-		scale = 180,
-		specific_fx_scale = {
-			heisewuqi_stg = 1.5
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ",
-			"heisewuqi_stg"
-		},
-		equipment_list = {}
 	}
 }

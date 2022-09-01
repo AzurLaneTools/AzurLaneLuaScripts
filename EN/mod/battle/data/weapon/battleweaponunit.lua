@@ -782,6 +782,7 @@ function slot8.Interrupt(slot0)
 
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.WEAPON_PRE_CAST_FINISH, slot1))
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.WEAPON_INTERRUPT, slot1))
+	slot0:TriggerBuffWhenPrecastFinish(uv1.BuffEffectType.ON_WEAPON_INTERRUPT)
 	slot0:RemovePrecastTimer()
 	slot0:EnterCoolDown()
 end
@@ -861,6 +862,7 @@ function slot8.AddPreCastTimer(slot0)
 
 		uv0:RemovePrecastTimer()
 		uv0:DispatchEvent(uv1.Event.New(uv1.Battle.BattleUnitEvent.WEAPON_PRE_CAST_FINISH, uv0._preCastInfo))
+		uv0:TriggerBuffWhenPrecastFinish(uv2.BuffEffectType.ON_WEAPON_SUCCESS)
 		uv0:Tracking()
 	end, true)
 end
@@ -939,6 +941,14 @@ function slot8.TriggerBuffWhenSpawn(slot0, slot1, slot2)
 		equipIndex = slot0._equipmentIndex,
 		bulletTag = slot1:GetExtraTag()
 	})
+end
+
+function slot8.TriggerBuffWhenPrecastFinish(slot0, slot1)
+	if slot0._preCastInfo.armor then
+		slot0._host:TriggerBuff(slot1, {
+			weaponID = slot0._tmpData.id
+		})
+	end
 end
 
 function slot8.DispatchBulletEvent(slot0, slot1, slot2)

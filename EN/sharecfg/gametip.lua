@@ -19302,5 +19302,10 @@ cs.gametip = {
 		711016,
 		1578,
 		true
+	},
+	unlock_date_tip = {
+		712594,
+		118,
+		true
 	}
 }

@@ -146,11 +146,13 @@ function slot0.isTecSpeedUpType(slot0)
 end
 
 function slot0.VItem2SkinCouponShopId(slot0)
-	for slot5, slot6 in ipairs(pg.shop_discount_coupon_template.all) do
-		if slot1[slot6].item == slot0 then
-			return slot6
-		end
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(pg.shop_discount_coupon_template.get_id_list_by_item[slot0]) do
+		table.insert(slot1, slot7)
 	end
+
+	return slot1
 end
 
 function slot0.IsMaxCnt(slot0)

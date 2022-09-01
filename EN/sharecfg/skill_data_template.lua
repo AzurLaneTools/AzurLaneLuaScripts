@@ -93509,6 +93509,289 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800540] = {
+		desc_get = "",
+		name = "Flameforged Edge",
+		id = 800540,
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: executes a $1 special sword and meteor attack (DMG is based on the skill's level). Enemies hit by the sword strike suffer a special Armor Break ailment for 8s; enemies hit by the meteors are Burned.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800550] = {
+		desc_get = "",
+		name = "Knights of Renown",
+		id = 800550,
+		type = 3,
+		max_level = 10,
+		desc = "Decreases the loading time of this ship's first 2 Main Gun volleys by $1 every battle. Every time this ship's Main Guns finish loading: increases this ship's DMG dealt by $2 until the battle ends (can be stacked up to 2 times).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30.0%",
+				"50.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+2.2%"
+				},
+				{
+					"32.2%",
+					"+2.2%"
+				},
+				{
+					"34.4%",
+					"+2.2%"
+				},
+				{
+					"36.6%",
+					"+2.2%"
+				},
+				{
+					"38.8%",
+					"+2.2%"
+				},
+				{
+					"41.0%",
+					"+2.2%"
+				},
+				{
+					"43.2%",
+					"+2.2%"
+				},
+				{
+					"45.4%",
+					"+2.2%"
+				},
+				{
+					"47.6%",
+					"+2.4%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[800560] = {
+		desc_get = "",
+		name = "Guardian's Pledge",
+		id = 800560,
+		type = 2,
+		max_level = 10,
+		desc = "When a ship in your Vanguard takes DMG: deploys 2 rotating shields (last 10s; can block up to 6 enemy shells; 30s cooldown between activations) around the ship in the frontmost position of your Vanguard. When the battle starts, if this ship has Royal Navy gear equipped: increases this ship's AA by $1.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[800571] = {
+		desc_get = "",
+		name = "Ashen Might - Renown",
+		id = 800571,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's FP and AA by 5.0%.",
+		system_transform = {
+			[51.0] = 800575
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800572] = {
+		desc_get = "",
+		name = "Ashen Might - Renown",
+		id = 800572,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's FP and AA by 8.0%.",
+		system_transform = {
+			[51.0] = 800577
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800575] = {
+		desc_get = "",
+		name = "Ashen Might - Renown",
+		id = 800575,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's FP and AA by 5.0%.",
+		system_transform = {
+			[51.0] = 800575
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800577] = {
+		desc_get = "",
+		name = "Ashen Might - Renown",
+		id = 800577,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's FP and AA by 8.0%.",
+		system_transform = {
+			[51.0] = 800577
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -97763,6 +98046,13 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		800532,
 		800535,
 		800537,
+		800540,
+		800550,
+		800560,
+		800571,
+		800572,
+		800575,
+		800577,
 		901010,
 		901020,
 		902010,

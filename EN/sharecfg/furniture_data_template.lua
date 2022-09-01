@@ -94954,6 +94954,606 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[92001] = {
+		icon = "dibankfcicon",
+		name = "Fast Food Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 92,
+		picture = "kfc/dibankfc",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Smells clean.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 92001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92002] = {
+		icon = "qiangbikfcicon",
+		name = "Fast Food Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 92,
+		picture = "kfc/qiangbikfc",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "The color red has been scientifically proven to make you hungry.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 92002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92101] = {
+		effect = "",
+		name = "Fast Food Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/kanbankfc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If the smell of spice doesn't tickle your appetite then these pictures might.",
+		tag = 1,
+		icon = "kanbankfcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 92101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92102] = {
+		effect = "",
+		name = "Fast Food Trash Can",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/lajitongkfc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Let's all make a service worker's day just that bit easier and clean up the table after we're done eating.",
+		tag = 1,
+		icon = "lajitongkfcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 92102,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92103] = {
+		effect = "",
+		name = "Fast Food Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/zhuozikfc",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "White as sour cream.",
+		tag = 1,
+		icon = "zhuozikfcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 92103,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {
+			0,
+			-16.1
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92106] = {
+		effect = "",
+		name = "Fast Food Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "kfc/dengzikfc",
+		is_get_time_note = 0,
+		themeId = 92,
+		count = 6,
+		is_3d_obj = 0,
+		describe = "Why not have a seat and enjoy the atmosphere?",
+		tag = 1,
+		icon = "dengzikfcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 92106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					7,
+					41
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92112] = {
+		effect = "",
+		name = "Conveyor Belt Kitchen",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 92,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Want to watch your order get put together step by step? You absolutely can!",
+		tag = 1,
+		icon = "taocanhouchukfcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 92112,
+		can_rotate = 1,
+		size = {
+			21,
+			22
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taocanhouchukfc",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[92201] = {
+		effect = "",
+		name = "Fast Food Order 1",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/hanbaopankfc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A number 6 with soda.",
+		tag = 2,
+		icon = "hanbaopankfcicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 92201,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92202] = {
+		effect = "",
+		name = "Fast Food Order 2",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/hanbaopan2kfc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A number 45 with cheese, soda, and fries.",
+		tag = 2,
+		icon = "hanbaopan2kfcicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 92202,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92203] = {
+		effect = "",
+		name = "Fast Food Order 3",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/taocankfc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A number 9 large with fries, a number 7, and a large soda.",
+		tag = 2,
+		icon = "taocankfcicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 92203,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92204] = {
+		effect = "",
+		name = "Bucket of Drumsticks",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/quanjiatongkfc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's stub-lickin' good.",
+		tag = 2,
+		icon = "quanjiatongkfcicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 92204,
+		can_rotate = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92301] = {
+		effect = "",
+		name = "Ceiling Lamp",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/diaodengkfc",
+		count = 5,
+		is_3d_obj = 0,
+		describe = "Did you know lighting can greatly affect how tasty you perceive food to be?",
+		tag = 5,
+		icon = "diaodengkfcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 92301,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92306] = {
+		effect = "",
+		name = "Colored Poster",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/haibao1kfc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Featuring Colonel Sandjuu himself.",
+		tag = 5,
+		icon = "haibao1kfcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		id = 92306,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92307] = {
+		effect = "",
+		name = "Black-and-White Poster",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/haibao2kfc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Not everything is black and white, but this poster is.",
+		tag = 5,
+		icon = "haibao2kfcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		id = 92307,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[92308] = {
+		effect = "",
+		name = "Fast Food Entry Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 92,
+		is_get_time_note = 0,
+		picture = "kfc/dianmenkfc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Come on in!",
+		tag = 5,
+		icon = "dianmenkfcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		id = 92308,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[93001] = {
 		icon = "dibanssly2icon",
 		name = "Summer Park Flooring",
@@ -100228,6 +100828,38 @@ pg.furniture_data_template = {
 			91304,
 			91305
 		},
+		[92] = {
+			92001,
+			92002,
+			92101,
+			92102,
+			92103,
+			92106,
+			92112,
+			92201,
+			92202,
+			92203,
+			92204,
+			92301,
+			92306,
+			92307,
+			92308,
+			92001,
+			92002,
+			92101,
+			92102,
+			92103,
+			92106,
+			92112,
+			92201,
+			92202,
+			92203,
+			92204,
+			92301,
+			92306,
+			92307,
+			92308
+		},
 		[93] = {
 			93001,
 			93002,
@@ -101636,6 +102268,11 @@ pg.furniture_data_template = {
 			91126,
 			91127,
 			91128,
+			92101,
+			92102,
+			92103,
+			92106,
+			92112,
 			93101,
 			93102,
 			93103,
@@ -101789,7 +102426,11 @@ pg.furniture_data_template = {
 			85201,
 			85202,
 			85203,
-			89201
+			89201,
+			92201,
+			92202,
+			92203,
+			92204
 		},
 		[6] = {
 			1,
@@ -102132,6 +102773,7 @@ pg.furniture_data_template = {
 			89001,
 			90001,
 			91001,
+			92001,
 			93001
 		},
 		[3] = {
@@ -102207,6 +102849,7 @@ pg.furniture_data_template = {
 			89002,
 			90002,
 			91002,
+			92002,
 			93002
 		},
 		[5] = {
@@ -102464,7 +103107,11 @@ pg.furniture_data_template = {
 			91302,
 			91303,
 			91304,
-			91305
+			91305,
+			92301,
+			92306,
+			92307,
+			92308
 		}
 	},
 	get_id_list_by_type = {
@@ -102541,6 +103188,7 @@ pg.furniture_data_template = {
 			89002,
 			90002,
 			91002,
+			92002,
 			93002
 		},
 		[7] = {
@@ -104005,6 +104653,11 @@ pg.furniture_data_template = {
 			91126,
 			91127,
 			91129,
+			92101,
+			92102,
+			92103,
+			92106,
+			92112,
 			93101,
 			93102,
 			93103,
@@ -104141,6 +104794,7 @@ pg.furniture_data_template = {
 			89001,
 			90001,
 			91001,
+			92001,
 			93001
 		},
 		[5] = {
@@ -104399,7 +105053,11 @@ pg.furniture_data_template = {
 			85201,
 			85202,
 			85203,
-			89201
+			89201,
+			92201,
+			92202,
+			92203,
+			92204
 		},
 		[6] = {
 			1301,
@@ -104655,7 +105313,11 @@ pg.furniture_data_template = {
 			91302,
 			91303,
 			91304,
-			91305
+			91305,
+			92301,
+			92306,
+			92307,
+			92308
 		},
 		[8] = {
 			17121
@@ -106833,6 +107495,21 @@ pg.furniture_data_template = {
 		91303,
 		91304,
 		91305,
+		92001,
+		92002,
+		92101,
+		92102,
+		92103,
+		92106,
+		92112,
+		92201,
+		92202,
+		92203,
+		92204,
+		92301,
+		92306,
+		92307,
+		92308,
 		93001,
 		93002,
 		93101,

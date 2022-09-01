@@ -67,6 +67,8 @@ function slot0.init(slot0)
 	slot0.maskTF = slot0:findTF("mask")
 	slot0.skipBtn = slot0:findTF("skip_button")
 	slot0.actorPainting = nil
+	slot0.materialFace = slot0._tf:Find("Resource/face"):GetComponent(typeof(Image)).material
+	slot0.materialPaint = slot0._tf:Find("Resource/paint"):GetComponent(typeof(Image)).material
 	slot0.weddingReview = slot0.contextData.review
 	slot0.finishCallback = slot0.contextData.finishCallback
 	slot0.commonTF = GameObject.Find("OverlayCamera/Overlay/UIMain/common")
@@ -385,6 +387,18 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	if not IsNil(slot0.actorPainting) then
+		if tf(slot0.actorPainting):Find("temp_mask") then
+			Destroy(slot1:Find("temp_mask"))
+		end
+
+		slot1:GetComponent(typeof(Image)).material = nil
+
+		PoolMgr.GetInstance():ReturnPainting(slot0.paintingName, slot0.actorPainting)
+
+		slot0.actorPainting = nil
+	end
+
 	if slot0.delayTId then
 		LeanTween.cancel(slot0.delayTId)
 	end
@@ -526,7 +540,8 @@ end
 function slot0.stampWindow(slot0)
 	slot0.proposeEndFlag = true
 
-	slot0:loadChar()
+	slot0:loadChar(nil, , function ()
+	end)
 	setActive(slot0.window, true)
 	setActive(slot0.button, false)
 	setActive(slot0:findTF("live2d", slot0.targetActorTF), false)
@@ -589,6 +604,12 @@ function slot0.showProposePanel(slot0)
 	slot0.proposeSkin = ShipGroup.getProposeSkin(slot0.shipGroupID)
 
 	if slot0.proposeSkin and slot0.actorPainting then
+		if tf(slot0.actorPainting):Find("temp_mask") then
+			Destroy(slot2:Find("temp_mask"))
+		end
+
+		slot2:GetComponent(typeof(Image)).material = nil
+
 		PoolMgr.GetInstance():ReturnPainting(slot0.paintingName, slot0.actorPainting)
 
 		slot0.actorPainting = nil

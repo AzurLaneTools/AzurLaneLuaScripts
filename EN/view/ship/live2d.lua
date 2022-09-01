@@ -384,9 +384,7 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.UpdateAtomSource(slot0)
-	slot1 = slot0._go:GetComponent("CubismCriSrcMouthInput")
-
-	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Framework.MouthMovement.CubismCriSrcMouthInput"), "AtomSource", slot1, ReflectionHelp.RefGetProperty(typeof("Live2D.Cubism.Framework.MouthMovement.CubismCriSrcMouthInput"), "AtomSource", slot1))
+	pg.CriMgr.GetInstance():getAtomSource(pg.CriMgr.C_VOICE):AttachToAnalyzer(ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Framework.MouthMovement.CubismCriSrcMouthInput"), "Analyzer", slot0._go:GetComponent("CubismCriSrcMouthInput")))
 end
 
 return slot0

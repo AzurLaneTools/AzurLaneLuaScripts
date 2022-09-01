@@ -14377,6 +14377,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23013,6 +23023,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30014] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30014,
+		code = 30014,
+		group_type = 970404,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"META Lab - Coordinate Analysis",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9704041
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -23588,6 +23632,7 @@ pg.ship_data_group = {
 		30010,
 		30011,
 		30012,
-		30013
+		30013,
+		30014
 	}
 }

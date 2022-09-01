@@ -1,5 +1,120 @@
 pg = pg or {}
 pg.ship_skin_template_10 = {
+	[301860] = {
+		ship_group = 30186,
+		name = "Kazagumo",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301860,
+		group_index = 0,
+		prefab = "fengyun",
+		painting = "fengyun",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Yuugumo-class destroyer number three – Kazagumo.",
+		voice_actor = 279,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.379,
+					1.012,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.38,
+					1.009,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.375,
+					1.016,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.499,
+							2.417,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301861] = {
 		ship_group = 30186,
 		name = "After-School Melody",
@@ -1141,15 +1256,15 @@ pg.ship_skin_template_10 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.85,
-					0.814,
+					1.75,
+					1.94,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.76,
-					0.828,
+					1.78,
+					1.99,
 					0
 				}
 			},
@@ -1162,8 +1277,8 @@ pg.ship_skin_template_10 = {
 			},
 			antiaircraft = {
 				{
-					0.989,
-					1.087,
+					1.52,
+					3.23,
 					0
 				}
 			}
@@ -7192,7 +7307,7 @@ pg.ship_skin_template_10 = {
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 338,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -7318,7 +7433,7 @@ pg.ship_skin_template_10 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 338,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -7465,7 +7580,7 @@ pg.ship_skin_template_10 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 338,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -7582,7 +7697,7 @@ pg.ship_skin_template_10 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 338,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -7699,7 +7814,7 @@ pg.ship_skin_template_10 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 338,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -7816,7 +7931,7 @@ pg.ship_skin_template_10 = {
 		bullet_skin_main = "",
 		skin_type = 1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 338,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -9864,116 +9979,6 @@ pg.ship_skin_template_10 = {
 						{
 							-0.615,
 							2.316,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304031] = {
-		ship_group = 30403,
-		name = "Free Time Before Class",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "103",
-		id = 304031,
-		group_index = 1,
-		prefab = "Zhenming_2",
-		painting = "Zhenming_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70068,
-		shop_type_id = 4,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "I think it's fine to enjoy school life once in a while... Hm? You wanna know what I'm listening to? Sure, if you're okay with just one earbud.",
-		voice_actor = 127,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.629,
-					1.045,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.555,
-					1.073,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.48,
 							0
 						}
 					}

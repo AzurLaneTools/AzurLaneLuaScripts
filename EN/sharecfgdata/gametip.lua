@@ -21326,3 +21326,7 @@ Play the minigame for 7 days during the event to receive a special chat frame.
 		}
 	}
 }
+
+_G.pg.base.gametip.unlock_date_tip = {
+	tip = "Unlocks on <color=#92fc63>$2/$1</color>"
+}

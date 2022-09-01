@@ -32,7 +32,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateList(slot0, slot1, slot2, slot3)
+function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
 	assert(#slot1 == #slot2)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -67,6 +67,13 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3)
 				uv0.binder:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
 			setActive(slot2:Find("award/mask"), slot1 + 1 <= uv3)
+
+			if uv4 then
+				setActive(slot2:Find("mask"), pg.TimeMgr.GetInstance():GetServerTime() < uv4[slot1 + 1])
+				setText(slot2:Find("mask/Text"), i18n("unlock_date_tip", slot7:STimeDescS(slot8, "%m"), slot7:STimeDescS(slot8, "%d")))
+			else
+				setActive(slot2:Find("mask"), false)
+			end
 		end
 	end)
 	slot0.UIlist:align(#slot1)
@@ -79,12 +86,13 @@ function slot0.Show(slot0, slot1)
 	slot4 = slot1.level
 	slot5 = slot1.count
 	slot6 = slot1.resId
-	slot8 = ""
+	slot8 = slot1.unlockStamps
+	slot9 = ""
 	slot0.resIcon = nil
 
 	if slot1.type == 2 then
-		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot8))
-		slot0.resTitle = i18n("pt_cosume", slot8)
+		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot9))
+		slot0.resTitle = i18n("pt_cosume", slot9)
 		slot0.cntTitle = string.gsub(slot0.cntTitle, "：", "")
 	elseif slot7 == 3 then
 		slot0.cntTitle = i18n("pt_ship_now")
@@ -96,13 +104,13 @@ function slot0.Show(slot0, slot1)
 		slot0.cntTitle = i18n("npcfriendly_total_count")
 		slot0.resTitle = i18n("npcfriendly_count")
 	else
-		slot0.cntTitle = i18n("pt_total_count", slot8)
+		slot0.cntTitle = i18n("pt_total_count", slot9)
 		slot0.resTitle = i18n("target_get_tip")
 		slot0.cntTitle = string.gsub(slot0.cntTitle, "：", "")
 	end
 
 	slot0:updateResIcon(slot1.resId, slot1.resIcon, slot1.type)
-	slot0:UpdateList(slot2, slot3, slot4)
+	slot0:UpdateList(slot2, slot3, slot4, slot8)
 
 	slot0.totalTxt.text = slot5
 	slot0.totalTitleTxt.text = HXSet.hxLan(slot0.cntTitle)

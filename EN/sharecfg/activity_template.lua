@@ -2334,8 +2334,10 @@ pg.activity_template = {
 				0.89,
 				1
 			},
-			pt_id = 273,
 			painting = "bolisi_pt",
+			taskLinkActID = 4483,
+			pt_id = 273,
+			fightLinkActID = 4483,
 			outline = {
 				0,
 				0,
@@ -2996,6 +2998,188 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[4498] = {
+		mark = 20220901,
+		title_res_tag = "",
+		page_info = "",
+		type = 68,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4498,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4499] = {
+		mark = 20220901,
+		title_res_tag = "",
+		page_info = "",
+		type = 43,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4499,
+		config_data = {
+			{
+				79,
+				97948
+			},
+			{
+				80,
+				97949
+			},
+			{
+				81,
+				97950
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4500] = {
+		mark = 20220901,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4500,
+		config_data = {
+			17883,
+			17884,
+			17885,
+			17886,
+			17887,
+			17888,
+			17889,
+			17890,
+			17891
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4501] = {
+		mark = 20220901,
+		config_client = "",
+		title_res_tag = "kfc_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4501,
+		is_show = 25,
+		id = 4501,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "KFCPtPage",
+			ui_name = "KFCPtPage"
 		}
 	},
 	[7001] = {
@@ -22229,6 +22413,10 @@ pg.activity_template = {
 		4495,
 		4496,
 		4497,
+		4498,
+		4499,
+		4500,
+		4501,
 		7001,
 		7002,
 		7003,

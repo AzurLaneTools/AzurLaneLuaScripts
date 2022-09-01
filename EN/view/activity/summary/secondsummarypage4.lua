@@ -34,6 +34,8 @@ function slot0.OnInit(slot0)
 			setActive(slot2:Find("icon/Image"), uv0 == uv1.PageTypeFurniture)
 			setActive(slot2:Find("icon/frame"), uv0 == uv1.PageTypeIconFrame)
 			setActive(slot2:Find("date"), uv0 == uv1.PageTypeFurniture)
+			setText(slot2:Find("date"), i18n("player_summary_data"))
+			setText(slot2:Find("from"), i18n("player_summary_from"))
 
 			if uv2.summaryInfoVO.pageType == uv1.PageTypeFurniture then
 				slot4 = uv3[slot3]

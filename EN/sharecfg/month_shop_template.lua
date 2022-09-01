@@ -68,7 +68,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -191,7 +192,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -314,7 +316,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -437,7 +440,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -560,7 +564,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -682,7 +687,9 @@ pg.month_shop_template = {
 			10064,
 			10065,
 			10066,
-			10067
+			10067,
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -805,7 +812,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -928,7 +936,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -1051,7 +1060,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -1174,7 +1184,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -1297,7 +1308,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,
@@ -1420,7 +1432,8 @@ pg.month_shop_template = {
 			10065,
 			10066,
 			10067,
-			10068
+			10068,
+			10069
 		},
 		blueprint_shop_goods = {
 			11003,

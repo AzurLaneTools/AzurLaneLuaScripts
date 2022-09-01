@@ -778,6 +778,34 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[16] = {
+		memory_group = 145,
+		name = "斯图尔特的硝烟常驻复刻",
+		activity_type = 2,
+		id = 16,
+		bg = "temp_longxiang",
+		order = 17,
+		config_data = {
+			2200051,
+			2200052,
+			2200053
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		character_gain = {},
+		drop_display = {
+			{
+				{
+					2,
+					11024
+				},
+				"SP3"
+			}
+		}
+	},
 	[17] = {
 		memory_group = 163,
 		name = "箱庭疗法常驻复刻",
@@ -873,6 +901,7 @@ pg.re_map_template = {
 		13,
 		14,
 		15,
+		16,
 		17
 	}
 }

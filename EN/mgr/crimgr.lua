@@ -405,3 +405,7 @@ end
 function slot1.IsDefaultBGM(slot0)
 	return slot0.isDefaultBGM
 end
+
+function slot1.getAtomSource(slot0, slot1)
+	return GetComponent(GameObject.Find("CRIWARE/" .. slot1), "CriAtomSource")
+end

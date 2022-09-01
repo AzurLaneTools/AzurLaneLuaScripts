@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_355 = {
+	[15908204] = {
+		cannon = 120,
+		prefab = "xiafei_boss",
+		speed_growth = 0,
+		cannon_growth = 0,
+		battle_unit_type = 95,
+		reload = 150,
+		base = 90648,
+		dodge = 0,
+		durability_growth = 0,
+		antiaircraft = 468,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 284,
+		luck = 0,
+		air = 380,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		torpedo = 0,
+		durability = 60000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor = 0,
+		antiaircraft_growth = 0,
+		fog_fx = "",
+		id = 15908204,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[15908205] = {
 		cannon = 144,
 		reload = 150,
@@ -789,45 +825,5 @@ pg.enemy_data_statistics_355 = {
 			1001096
 		},
 		buff_list = {}
-	},
-	[16000101] = {
-		cannon = 20,
-		type = 2,
-		antiaircraft_growth = 3744,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		icon_type = 2,
-		dodge = 11,
-		luck = 0,
-		id = 16000101,
-		cannon_growth = 936,
-		reload_growth = 0,
-		dodge_growth = 162,
-		reload = 150,
-		speed = 25,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		base = 90666,
-		durability = 630,
-		armor_growth = 0,
-		torpedo_growth = 3366,
-		antiaircraft = 28,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 27,
-		durability_growth = 23120,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 55,
-		armor_type = 1,
-		equipment_list = {
-			1100020,
-			1100100,
-			1100185,
-			1100475
-		}
 	}
 }

@@ -118,8 +118,6 @@ function slot0.CanRotateChild(slot0, slot1)
 	if _.all(slot1:GetRotatePositions(), function (slot0)
 		return uv0.placeableArea:LegalPosition(slot0)
 	end) then
-		slot1:Rotate()
-
 		slot2 = true
 	end
 

@@ -246,6 +246,14 @@ function slot2.onAllInStrikeSteady(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
+function slot2.onWeaonInterrupt(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2)
+end
+
+function slot2.onWeaponSuccess(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2)
+end
+
 function slot2.onChargeWeaponReady(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
