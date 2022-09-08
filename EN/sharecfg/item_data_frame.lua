@@ -362,7 +362,7 @@ pg.item_data_frame = {
 	},
 	[322] = {
 		time_limit_type = 0,
-		name = "Violet Lightning Storm ",
+		name = "Violet Lightning Storm",
 		gain_by = "",
 		id = 322,
 		time_second = 0,

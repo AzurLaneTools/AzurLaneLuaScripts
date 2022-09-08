@@ -296,7 +296,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious!<color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
+		param = "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes.)</color>",
 		id = 10,
 		pic = "guihuagao",
 		type = 10,

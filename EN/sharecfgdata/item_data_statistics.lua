@@ -165898,8 +165898,8 @@ _G.pg.base.item_data_statistics[59343] = {
 }
 
 _G.pg.base.item_data_statistics[59344] = {
-	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
-	name = "Training Points ",
+	display = "Used to exchange for a portrait frame. Expires after the event ends.",
+	name = "Training Points",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,

@@ -10669,7 +10669,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: Fight On, Royal Maids!",
+				"Event: Uranami's Collection of Cuties",
 				{
 					""
 				},
