@@ -99,6 +99,8 @@ function slot0.GetDesc(slot0, slot1)
 end
 
 function slot0.Show(slot0, slot1)
+	slot0.showing = true
+
 	for slot5, slot6 in pairs(slot1) do
 		slot0[slot5] = slot6
 	end
@@ -112,6 +114,8 @@ function slot0.Show(slot0, slot1)
 end
 
 function slot0.Hide(slot0)
+	slot0.showing = false
+
 	if slot0._go then
 		slot0.onConfirm = nil
 		slot0.count = 1
@@ -121,6 +125,10 @@ function slot0.Hide(slot0)
 	end
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+end
+
+function slot0.isShowing(slot0)
+	return slot0.showing
 end
 
 function slot0.OnDestroy(slot0)

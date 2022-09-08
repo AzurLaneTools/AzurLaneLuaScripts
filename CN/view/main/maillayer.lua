@@ -16,9 +16,6 @@ function slot0.init(slot0)
 	slot1 = slot0.mailList
 	slot0.mailTpl = slot1:Find("mail_tpl")
 	slot0.nullTpl = slot0:findTF("null_tpl", slot0.mailPanel)
-
-	setText(slot0:findTF("Text", slot0.nullTpl), i18n("empty_tip_mailboxui"))
-
 	slot0.scrollBar = slot0:findTF("Scrollbar", slot0.mailPanel)
 	slot0.mailCount = slot0:findTF("main/count_bg/Text")
 	slot0.toggleNormal = slot0:findTF("main/toggle_normal")
@@ -237,8 +234,15 @@ function slot0.updateMailList(slot0)
 	end
 
 	slot0.mailItemList:align(#slot0.filterMailVOs)
+	setActive(slot0.nullTpl, #slot0.filterMailVOs == 0)
+
+	if slot1 and slot2 then
+		setText(slot0.nullTpl:Find("Text"), i18n("empty_tip_mailboxui"))
+	else
+		setText(slot0.nullTpl:Find("Text"), i18n("mail_filter_placeholder"))
+	end
+
 	setActive(slot0.deleteAllButton, slot1 or not slot2)
-	setActive(slot0.nullTpl, #slot0.mailVOs == 0)
 	setText(slot0.mailCount, slot0.totalCount .. "<color=#B1BAC9FF>/1000</color>")
 	slot0:showMailTip(#slot0.mailVOs ~= slot0.totalCount)
 end

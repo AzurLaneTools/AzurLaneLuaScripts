@@ -2743,6 +2743,22 @@ pg.memory_group = {
 			2286
 		}
 	},
+	[225] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 225,
+		title = "静海惊雷",
+		memories = {
+			2291,
+			2292,
+			2293,
+			2294,
+			2295,
+			2296,
+			2297
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -4086,6 +4102,7 @@ pg.memory_group = {
 		222,
 		223,
 		224,
+		225,
 		501,
 		502,
 		503,

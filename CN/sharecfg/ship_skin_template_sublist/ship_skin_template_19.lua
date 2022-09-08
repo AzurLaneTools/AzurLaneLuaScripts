@@ -1,5 +1,246 @@
 pg = pg or {}
 pg.ship_skin_template_19 = {
+	[900313] = {
+		ship_group = 900313,
+		name = "？？？？？",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 900313,
+		group_index = 0,
+		prefab = "bisimai",
+		painting = "unknown1_xinshou",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "无描述",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.81,
+							0.402,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.63,
+							0.433,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900314] = {
+		ship_group = 900314,
+		name = "{namecode:93}·META",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 900314,
+		group_index = 0,
+		prefab = "canglong_alter_hei",
+		painting = "canglong_alter_hei",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "{namecode:93}·META",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.07,
+					1.53,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.1,
+					1.55,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.04,
+					-0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.01,
+					1.56,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							2.2,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[900315] = {
 		ship_group = 900315,
 		name = "海伦娜·META",
@@ -9245,223 +9486,6 @@ pg.ship_skin_template_19 = {
 						{
 							-0.42,
 							2.33,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10600041] = {
-		ship_group = 1060004,
-		name = "金色的特别摄影",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "doa_huanzhuang",
-		illustrator2 = -1,
-		bg = "106",
-		id = 10600041,
-		group_index = 1,
-		prefab = "haixiao_2_DOA",
-		painting = "haixiao_2_DOA",
-		shop_id = 70448,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 6,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "特别摄影啊…虽然以前也参与过类似的活动，但是这套衣服多少有点…指挥官喜欢这种的吗？果然…还是好羞耻啊……",
-		voice_actor = 144,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.012,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.19,
-					1.038,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.42,
-							2.482,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10600050] = {
-		ship_group = 1060005,
-		name = "凪咲",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 10600050,
-		group_index = 0,
-		prefab = "zhixiao_DOA",
-		painting = "zhixiao_DOA",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "你就是把海咲带来这个港口的人吧？是叫“指挥官”对么…哼，虽然不知道你是怎么把海咲骗来的，身为姐姐的我可没那么好对付。敢乱来的话，要你好看！…我的名字？…叫我凪咲就好了，你这“大笨狗”！",
-		voice_actor = 182,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.758,
-					1.049,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.009,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.73,
-					1.112,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.35,
 							0
 						}
 					}

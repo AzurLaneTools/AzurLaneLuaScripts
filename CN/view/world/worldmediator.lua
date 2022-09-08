@@ -124,7 +124,6 @@ function slot0.listNotificationInterests(slot0)
 		uv0.OnTriggerTaskGo,
 		GAME.WORLD_MAP_REQ_DONE,
 		uv0.OnNotificationOpenLayer,
-		GAME.ON_RECONNECTION_GAME,
 		GAME.WORLD_TRIGGER_AUTO_FIGHT,
 		GAME.WORLD_TRIGGER_AUTO_SWITCH,
 		uv0.OnStartAutoSwitch
@@ -348,8 +347,6 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == uv0.OnNotificationOpenLayer then
 		slot0:addSubLayers(slot3.context)
-	elseif slot2 == GAME.ON_RECONNECTION_GAME then
-		-- Nothing
 	elseif slot2 == GAME.WORLD_TRIGGER_AUTO_FIGHT then
 		slot0.viewComponent:UpdateAutoFightDisplay()
 	elseif slot2 == GAME.WORLD_TRIGGER_AUTO_SWITCH then

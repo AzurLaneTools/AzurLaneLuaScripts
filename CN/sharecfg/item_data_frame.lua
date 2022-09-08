@@ -360,6 +360,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「纵使未来荆棘密布，七丘之上的雄鹰也将继续翱翔。」</color>\n「雄鹰的叙事歌」活动获取",
 		scene = {}
 	},
+	[322] = {
+		time_limit_type = 0,
+		name = "流岚紫霆",
+		gain_by = "",
+		id = 322,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -473,6 +482,7 @@ pg.item_data_frame = {
 		319,
 		320,
 		321,
+		322,
 		401,
 		402,
 		404,

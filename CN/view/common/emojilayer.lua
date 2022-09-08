@@ -21,6 +21,7 @@ function slot0.init(slot0)
 	slot0.emojiIconDots = slot0:findTF("frame/emojiDots")
 	slot0.emojiDot = slot0:findTF("dot", slot0.emojiSnap)
 
+	setText(slot0.emojiEvent:Find("null_tpl/Text"), i18n("recently_sticker_placeholder"))
 	setActive(slot0.emojiItem, false)
 	setActive(slot0.emojiDot, false)
 
@@ -146,7 +147,9 @@ function slot0.filter(slot0, slot1)
 
 	slot0.tplCaches = slot0.tplCaches or {}
 
-	for slot10 = slot0.emojiContent.childCount - 1, math.ceil(#slot2 / uv0.PageEmojiNums), -1 do
+	setActive(slot0.emojiEvent:Find("null_tpl"), math.ceil(#slot2 / uv0.PageEmojiNums) == 0)
+
+	for slot10 = slot0.emojiContent.childCount - 1, slot6, -1 do
 		Destroy(slot0.emojiDots:GetChild(slot10))
 
 		slot11 = slot0.emojiSnap:RemoveChild(slot10)

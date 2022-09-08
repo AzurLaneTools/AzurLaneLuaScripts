@@ -15621,7 +15621,7 @@ _G.pg.base.gametip.guild_member_tip = {
 			info = "1.大舰队成员可在此界面查看其他成员的指挥官信息。"
 		},
 		{
-			info = "2.舰队司令、副司令可以任命变更<color=#92fc63>职位比自己低</color>的成员的职位。"
+			info = "2.舰队司令、副司令可以任命变更<color=#92fc63>职位比自己低</color>的成员的职位，舰队司令可以从<color=#92fc63>副司令</color>中任命新的舰队司令。大舰队可委任的副司令人数上限为<color=#92fc63>4</color>人。"
 		},
 		{
 			info = "3.舰队司令、副司令可以开除<color=#92fc63>职位比自己低</color>的成员。"
@@ -21161,4 +21161,24 @@ _G.pg.base.gametip.icecreamgame_tip = {
 
 _G.pg.base.gametip.unlock_date_tip = {
 	tip = "<color=#92fc63>$1月$2日</color>解锁"
+}
+
+_G.pg.base.gametip.guild_duty_shoule_be_deputy_commander = {
+	tip = "舰队司令仅能从副司令成员中任命 "
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt_is_full = {
+	tip = "<color=#C3C3C3>人数已满</color>"
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt = {
+	tip = "<color=#C3C3C3>已委任：<color=#92fc63>$1/$2</color></color>"
+}
+
+_G.pg.base.gametip.mail_filter_placeholder = {
+	tip = "暂无此类邮件"
+}
+
+_G.pg.base.gametip.recently_sticker_placeholder = {
+	tip = "暂无常用表情"
 }

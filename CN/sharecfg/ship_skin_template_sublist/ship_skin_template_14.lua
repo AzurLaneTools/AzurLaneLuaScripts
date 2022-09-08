@@ -1,5 +1,209 @@
 pg = pg or {}
 pg.ship_skin_template_14 = {
+	[408011] = {
+		ship_group = 40801,
+		name = "静谧小夜曲",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "107",
+		id = 408011,
+		group_index = 1,
+		prefab = "U81_2",
+		painting = "U81_2",
+		shop_id = 70105,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗯…这种轻飘飘的裙子还是不太习惯…欸？很漂亮吗？唔唔，有点难为情…",
+		voice_actor = 130,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.74,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.54,
+					0.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408012] = {
+		ship_group = 40801,
+		name = "灯映满月",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "152",
+		id = 408012,
+		group_index = 2,
+		prefab = "u81_3",
+		painting = "u81_3",
+		shop_id = 70738,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指挥官，U-81在这里哦。你不是说要一起看月亮嘛，所以我就在这里等你啦！月饼和茶都准备好了哦？",
+		voice_actor = 130,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.32,
+					0.75,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.1,
+					0.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							1.63,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[408020] = {
 		ship_group = 40802,
 		name = "U-47",
@@ -9238,236 +9442,6 @@ pg.ship_skin_template_14 = {
 						{
 							-0.776,
 							2.067,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[601081] = {
-		ship_group = 60108,
-		name = "华丽的Vivace",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "155",
-		id = 601081,
-		group_index = 1,
-		prefab = "aerfuleiduo_2",
-		painting = "aerfuleiduo_2",
-		shop_id = 70720,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 21,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "找到你了，指挥官！快评价一下阿尔弗雷多特地准备的装扮吧！……不不不，我要的不是好看或者华丽这种的评价，而是“这身衣服穿对了吗”！虽然你说好看我也会很开心就是了~",
-		voice_actor = 334,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.862,
-					0.617,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.84,
-					0.552,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.017,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.159,
-					1.346,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.715,
-							1.972,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[601090] = {
-		ship_group = 60109,
-		name = "埃曼努埃尔·佩萨格诺",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 601090,
-		group_index = 0,
-		prefab = "aimannuaier",
-		painting = "aimannuaier",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "航海家级驱逐舰—埃曼努埃尔·佩萨格诺",
-		voice_actor = 333,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.106,
-					0.869,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.095,
-					0.885,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.99,
-					1.217,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.68,
-							2.164,
 							0
 						}
 					}

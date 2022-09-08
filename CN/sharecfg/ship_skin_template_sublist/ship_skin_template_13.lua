@@ -2020,6 +2020,122 @@ pg.ship_skin_template_13 = {
 			use_event = true
 		}
 	},
+	[402072] = {
+		ship_group = 40207,
+		name = "探求的水月之涧",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "152",
+		id = 402072,
+		group_index = 2,
+		prefab = "aimudeng_3",
+		painting = "aimudeng_3",
+		shop_id = 70737,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "欢迎你，埃姆登的可爱人类。你在寻找什么吗？如果你期望的是和埃姆登的团聚，那么你的愿望已经实现了哦。「埃姆登，即我们——已经在你面前了」",
+		voice_actor = 310,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1,
+					1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.4,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
 	[402080] = {
 		ship_group = 40208,
 		name = "埃尔宾",
@@ -9213,7 +9329,7 @@ pg.ship_skin_template_13 = {
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
-		voice_actor_2 = 73,
+		voice_actor_2 = -1,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -9221,7 +9337,7 @@ pg.ship_skin_template_13 = {
 		main_UI_FX = "",
 		special_effects = "",
 		desc = "齐柏林伯爵号航空母舰",
-		voice_actor = -1,
+		voice_actor = 73,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -9324,7 +9440,7 @@ pg.ship_skin_template_13 = {
 		bullet_skin_main = "",
 		skin_type = 4,
 		bg_sp = "",
-		voice_actor_2 = 73,
+		voice_actor_2 = -1,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -9332,7 +9448,7 @@ pg.ship_skin_template_13 = {
 		main_UI_FX = "",
 		special_effects = "",
 		desc = "第二乐章，夏与海的慢板(lento)吗……也罢，既然终焉必将来临，在那之前，姑且就与你一起享受这片刻的安宁吧",
-		voice_actor = -1,
+		voice_actor = 73,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -9444,7 +9560,7 @@ pg.ship_skin_template_13 = {
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
-		voice_actor_2 = 73,
+		voice_actor_2 = -1,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -9452,7 +9568,7 @@ pg.ship_skin_template_13 = {
 		main_UI_FX = "",
 		special_effects = "",
 		desc = "齐柏林伯爵号航空母舰",
-		voice_actor = -1,
+		voice_actor = 73,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -9932,108 +10048,6 @@ pg.ship_skin_template_13 = {
 						{
 							-0.64,
 							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408011] = {
-		ship_group = 40801,
-		name = "静谧小夜曲",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "107",
-		id = 408011,
-		group_index = 1,
-		prefab = "U81_2",
-		painting = "U81_2",
-		shop_id = 70105,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "嗯…这种轻飘飘的裙子还是不太习惯…欸？很漂亮吗？唔唔，有点难为情…",
-		voice_actor = 130,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.74,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.54,
-					0.3,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							2.35,
 							0
 						}
 					}

@@ -174767,6 +174767,27 @@ _G.pg.base.item_data_statistics[59343] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59344] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 99,
+	link_id = 0,
+	id = 59344,
+	is_world = 0,
+	icon = "Props/xunliandianshu_s",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",
