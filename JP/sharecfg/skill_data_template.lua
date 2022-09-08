@@ -9095,6 +9095,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6990] = {
+		desc_get = "",
+		name = "結界通行手形",
+		id = 6990,
+		type = 0,
+		max_level = 0,
+		desc = "重桜艦船が装備している場合、戦闘開始時100ダメージまで無効にできるシールドを生成する",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "ライン演習",
@@ -97420,6 +97434,7 @@ pg.skill_data_template = {
 		6960,
 		6970,
 		6980,
+		6990,
 		7000,
 		9030,
 		9031,

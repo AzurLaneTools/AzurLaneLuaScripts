@@ -193,7 +193,7 @@ function slot0.Register(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddShiftOnly(function (slot0)
-		uv0:emit(WorldBossFormationMediator.CHANGE_FLEET_SHIPS_ORDER)
+		uv0:emit(PreCombatMediator.CHANGE_FLEET_SHIPS_ORDER, slot0)
 	end)
 
 	slot1 = slot0._formationLogic

@@ -351,6 +351,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「棘に満ちた道だろうと、7つの丘の鷲は羽ばたき続ける――」</color>――「鋼鷲の冒険譚」イベントで入手可能",
 		scene = {}
 	},
+	[322] = {
+		time_limit_type = 0,
+		name = "紫電雷嵐",
+		gain_by = "",
+		id = 322,
+		time_second = 0,
+		desc = "イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -463,6 +472,7 @@ pg.item_data_frame = {
 		319,
 		320,
 		321,
+		322,
 		401,
 		402,
 		403,

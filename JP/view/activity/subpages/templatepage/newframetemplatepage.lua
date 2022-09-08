@@ -18,7 +18,12 @@ end
 
 function slot0.OnDataSetting(slot0)
 	slot0.avatarConfig = pg.activity_event_avatarframe[slot0.activity:getConfig("config_id")]
-	slot0.timeStamp = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.avatarConfig.start_time)
+
+	if slot0.avatarConfig.start_time == "stop" then
+		slot0.timeStamp = nil
+	else
+		slot0.timeStamp = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1)
+	end
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -39,7 +44,7 @@ function slot0.OnFirstFlush(slot0)
 		uv0:Switch()
 	end, SFX_PANEL)
 
-	slot0.inPhase2 = pg.TimeMgr.GetInstance():GetServerTime() - slot0.timeStamp > 0
+	slot0.inPhase2 = slot0.timeStamp and pg.TimeMgr.GetInstance():GetServerTime() - slot0.timeStamp > 0
 
 	if slot0.inPhase2 then
 		triggerToggle(slot0.switchBtn, true)

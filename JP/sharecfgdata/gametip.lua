@@ -15773,7 +15773,7 @@ _G.pg.base.gametip.guild_member_tip = {
 			info = "1.大艦隊のメンバーはこの画面で他のメンバー情報を確認できます。"
 		},
 		{
-			info = "2.艦隊司令・副司令は<color=#92fc63>職位が自分より低いメンバー</color>の役割を自由に変更できます。"
+			info = "2.艦隊司令・副司令は<color=#92fc63>職位が自分より低いメンバー</color>の役割を自由に変更できます。大艦隊司令は<color=#92fc63>副司令</color>から新しい司令を任命することが可能です。また、大艦隊副司令は最大<color=#92fc63>4</color>人まで任命できます"
 		},
 		{
 			info = "3.艦隊司令・副司令は<color=#92fc63>職位が自分より低いメンバー</color>を大艦隊から除名できます。"
@@ -21453,4 +21453,24 @@ _G.pg.base.gametip.icecreamgame_tip = {
 
 _G.pg.base.gametip.unlock_date_tip = {
 	tip = "<color=#92fc63>$1月$2日</color>開放"
+}
+
+_G.pg.base.gametip.guild_duty_shoule_be_deputy_commander = {
+	tip = "大艦隊司令は副司令からに限り、新たに任命することができます"
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt_is_full = {
+	tip = "<color=#C3C3C3>定員がいっぱいです</color>"
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt = {
+	tip = "<color=#C3C3C3>任命しました：<color=#92fc63>$1/$2</color></color>"
+}
+
+_G.pg.base.gametip.mail_filter_placeholder = {
+	tip = "対象のメールがありません"
+}
+
+_G.pg.base.gametip.recently_sticker_placeholder = {
+	tip = "お気に入りのスタンプがありません"
 }
