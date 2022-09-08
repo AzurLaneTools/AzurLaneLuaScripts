@@ -165897,6 +165897,27 @@ _G.pg.base.item_data_statistics[59343] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59344] = {
+	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
+	name = "Training Points ",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 99,
+	link_id = 0,
+	id = 59344,
+	is_world = 0,
+	icon = "Props/xunliandianshu_s",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",

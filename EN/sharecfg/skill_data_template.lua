@@ -9114,6 +9114,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6990] = {
+		desc_get = "",
+		name = "Boundary-Crossing Permit",
+		id = 6990,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by a Sakura Empire ship: when the battle starts, deploys a shield that can absorb up to 100 DMG around the ship equipping this gear.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -96768,6 +96782,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		6960,
 		6970,
 		6980,
+		6990,
 		7000,
 		9010,
 		9020,

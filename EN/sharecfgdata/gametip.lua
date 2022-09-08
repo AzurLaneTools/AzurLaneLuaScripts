@@ -15629,7 +15629,7 @@ _G.pg.base.gametip.guild_member_tip = {
 			info = "1. Guild members can view the details of fellow members on this screen."
 		},
 		{
-			info = "2. The Guild Leader and Officers can freely change the position of <color=#92fc63>all members of lower rank than themselves</color>."
+			info = "2. The Guild Leader and Officers can freely change the position of <color=#92fc63>all members of lower rank than themselves</color>. The Guild Leader can step down and promote an Officer to the rank of new Guild Leader. A Guild may have up to a maximum of 4 Officers."
 		},
 		{
 			info = "3. The Guild Leader and Officers have the power to remove <color=#92fc63>any member of lower rank than themselves</color> from the Guild. "
@@ -15638,7 +15638,7 @@ _G.pg.base.gametip.guild_member_tip = {
 			info = "4. If the Guild Leader has not logged in for <color=#92fc63>10 consecutive days</color>, Officers have the option to <color=#92fc63>denounce</color> them and call for a new Guild Leader."
 		},
 		{
-			info = "5. When an Officer moves forward with a denunciation, and the current Guild Leader does not log in within <color=#92fc63>24</color> hours to overrule it, then at the end of the 24-hour period, leadership will be transferred to the member with <color=#92fc63>the most contributions to the Guild</color>."
+			info = "5. When an Officer moves forward with a denunciation, and the current Guild Leader does not log in within <color=#92fc63>24</color> hours to overrule it, then at the end of the 24-hour period, leadership will be transferred to the Officer with <color=#92fc63>the most contributions to the Guild</color>."
 		},
 		{
 			info = "<color=#92fc63>6. - Trainee Members Info:</color>"
@@ -21323,4 +21323,24 @@ Play the minigame for 7 days during the event to receive a special chat frame.
 
 _G.pg.base.gametip.unlock_date_tip = {
 	tip = "Unlocks on <color=#92fc63>$1/$2</color>"
+}
+
+_G.pg.base.gametip.guild_duty_shoule_be_deputy_commander = {
+	tip = "Only Officers can be appointed to become the new Guild Leader."
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt_is_full = {
+	tip = "<color=#C3C3C3>No more Officer slots available.</color>"
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt = {
+	tip = "<color=#C3C3C3>Appointed: <color=#92fc63>$1/$2</color></color>"
+}
+
+_G.pg.base.gametip.mail_filter_placeholder = {
+	tip = "Nothing to see here."
+}
+
+_G.pg.base.gametip.recently_sticker_placeholder = {
+	tip = "No recent stickers."
 }

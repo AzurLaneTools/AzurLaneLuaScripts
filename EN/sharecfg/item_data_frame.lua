@@ -360,6 +360,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Though its path may be filled with thorns, the aquila of Sette Colli still spreads its wings and takes flight.</color>\nObtained from the \"Aquilifer's Ballade\" event.",
 		scene = {}
 	},
+	[322] = {
+		time_limit_type = 0,
+		name = "Violet Lightning Storm ",
+		gain_by = "",
+		id = 322,
+		time_second = 0,
+		desc = "Obtained from an event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -446,6 +455,7 @@ pg.item_data_frame = {
 		319,
 		320,
 		321,
+		322,
 		406,
 		411,
 		412,
