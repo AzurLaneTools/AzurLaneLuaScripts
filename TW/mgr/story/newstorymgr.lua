@@ -314,10 +314,6 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		return nil
 	end
 
-	if pg.SeriesGuideMgr.GetInstance():isNotFinish() and ENABLE_AUTO_GUIDE then
-		slot0.autoPlayFlag = true
-	end
-
 	slot0:OnStart()
 
 	slot0.records = {}
