@@ -74,13 +74,13 @@ return {
 			child = {
 				{
 					id = 92204,
-					x = 0,
-					y = 0
+					x = 2,
+					y = 2
 				},
 				{
 					id = 92203,
-					x = 1,
-					y = 0
+					x = 3,
+					y = 2
 				}
 			}
 		},
@@ -93,8 +93,8 @@ return {
 			child = {
 				{
 					id = 92202,
-					x = 1,
-					y = 0
+					x = 3,
+					y = 2
 				}
 			}
 		},
@@ -107,8 +107,8 @@ return {
 			child = {
 				{
 					id = 92201,
-					x = 0,
-					y = 0
+					x = 2,
+					y = 2
 				}
 			}
 		},
@@ -171,33 +171,33 @@ return {
 		{
 			id = 92201,
 			parent = 92105,
-			y = 10,
+			y = 12,
 			dir = 1,
-			x = 0,
+			x = 2,
 			child = {}
 		},
 		{
 			id = 92202,
 			parent = 92104,
-			y = 20,
+			y = 22,
 			dir = 1,
-			x = 1,
+			x = 3,
 			child = {}
 		},
 		{
 			id = 92203,
 			parent = 92103,
-			y = 15,
+			y = 17,
 			dir = 1,
-			x = 1,
+			x = 3,
 			child = {}
 		},
 		{
 			id = 92204,
 			parent = 92103,
-			y = 15,
+			y = 17,
 			dir = 1,
-			x = 0,
+			x = 2,
 			child = {}
 		},
 		{
@@ -307,13 +307,13 @@ return {
 			child = {
 				{
 					id = 92204,
-					x = 0,
-					y = 0
+					x = 2,
+					y = 2
 				},
 				{
 					id = 92201,
-					x = 1,
-					y = 0
+					x = 3,
+					y = 2
 				}
 			}
 		},
@@ -326,8 +326,8 @@ return {
 			child = {
 				{
 					id = 92203,
-					x = 0,
-					y = 0
+					x = 2,
+					y = 2
 				}
 			}
 		},
@@ -340,8 +340,8 @@ return {
 			child = {
 				{
 					id = 92202,
-					x = 1,
-					y = 0
+					x = 3,
+					y = 2
 				}
 			}
 		},
@@ -396,33 +396,33 @@ return {
 		{
 			id = 92201,
 			parent = 92103,
-			y = 19,
+			y = 21,
 			dir = 1,
-			x = 19,
+			x = 21,
 			child = {}
 		},
 		{
 			id = 92202,
 			parent = 92105,
-			y = 9,
+			y = 11,
 			dir = 1,
-			x = 19,
+			x = 21,
 			child = {}
 		},
 		{
 			id = 92203,
 			parent = 92104,
-			y = 14,
+			y = 16,
 			dir = 1,
-			x = 18,
+			x = 20,
 			child = {}
 		},
 		{
 			id = 92204,
 			parent = 92103,
-			y = 19,
+			y = 21,
 			dir = 1,
-			x = 18,
+			x = 20,
 			child = {}
 		},
 		{
@@ -510,10 +510,35 @@ return {
 		{
 			id = 92103,
 			parent = 0,
+			y = 10,
+			dir = 1,
+			x = 17,
+			child = {
+				{
+					id = 92204,
+					x = 4,
+					y = 2
+				},
+				{
+					id = 92201,
+					x = 2,
+					y = 2
+				}
+			}
+		},
+		{
+			id = 92103,
+			parent = 0,
 			y = 20,
 			dir = 1,
 			x = 17,
-			child = {}
+			child = {
+				{
+					id = 92203,
+					x = 3,
+					y = 2
+				}
+			}
 		},
 		{
 			id = 92103,
@@ -521,20 +546,18 @@ return {
 			y = 15,
 			dir = 1,
 			x = 17,
-			child = {}
-		},
-		{
-			id = 92103,
-			parent = 0,
-			y = 10,
-			dir = 1,
-			x = 17,
-			child = {}
+			child = {
+				{
+					id = 92202,
+					x = 2,
+					y = 2
+				}
+			}
 		},
 		{
 			id = 92106,
 			parent = 0,
-			y = 19,
+			y = 17,
 			dir = 1,
 			x = 18,
 			child = {}
@@ -550,7 +573,7 @@ return {
 		{
 			id = 92106,
 			parent = 0,
-			y = 17,
+			y = 19,
 			dir = 1,
 			x = 18,
 			child = {}
@@ -566,7 +589,7 @@ return {
 		{
 			id = 92106,
 			parent = 0,
-			y = 12,
+			y = 9,
 			dir = 1,
 			x = 18,
 			child = {}
@@ -574,9 +597,41 @@ return {
 		{
 			id = 92106,
 			parent = 0,
-			y = 9,
+			y = 12,
 			dir = 1,
 			x = 18,
+			child = {}
+		},
+		{
+			id = 92201,
+			parent = 92103,
+			y = 12,
+			dir = 1,
+			x = 19,
+			child = {}
+		},
+		{
+			id = 92202,
+			parent = 92105,
+			y = 17,
+			dir = 1,
+			x = 19,
+			child = {}
+		},
+		{
+			id = 92203,
+			parent = 92104,
+			y = 22,
+			dir = 1,
+			x = 20,
+			child = {}
+		},
+		{
+			id = 92204,
+			parent = 92103,
+			y = 12,
+			dir = 1,
+			x = 21,
 			child = {}
 		},
 		{
@@ -666,8 +721,14 @@ return {
 			parent = 0,
 			y = 14,
 			dir = 1,
-			x = 13,
-			child = {}
+			x = 19,
+			child = {
+				{
+					id = 92203,
+					x = 3,
+					y = 2
+				}
+			}
 		},
 		{
 			id = 92103,
@@ -675,14 +736,39 @@ return {
 			y = 20,
 			dir = 1,
 			x = 19,
-			child = {}
+			child = {
+				{
+					id = 92204,
+					x = 2,
+					y = 2
+				},
+				{
+					id = 92201,
+					x = 3,
+					y = 2
+				}
+			}
 		},
 		{
 			id = 92103,
 			parent = 0,
 			y = 14,
 			dir = 1,
-			x = 19,
+			x = 13,
+			child = {
+				{
+					id = 92202,
+					x = 2,
+					y = 2
+				}
+			}
+		},
+		{
+			id = 92106,
+			parent = 0,
+			y = 19,
+			dir = 1,
+			x = 20,
 			child = {}
 		},
 		{
@@ -696,23 +782,7 @@ return {
 		{
 			id = 92106,
 			parent = 0,
-			y = 19,
-			dir = 1,
-			x = 20,
-			child = {}
-		},
-		{
-			id = 92106,
-			parent = 0,
 			y = 16,
-			dir = 1,
-			x = 20,
-			child = {}
-		},
-		{
-			id = 92106,
-			parent = 0,
-			y = 13,
 			dir = 1,
 			x = 20,
 			child = {}
@@ -730,7 +800,47 @@ return {
 			parent = 0,
 			y = 13,
 			dir = 1,
+			x = 20,
+			child = {}
+		},
+		{
+			id = 92106,
+			parent = 0,
+			y = 13,
+			dir = 1,
 			x = 14,
+			child = {}
+		},
+		{
+			id = 92201,
+			parent = 92104,
+			y = 22,
+			dir = 1,
+			x = 22,
+			child = {}
+		},
+		{
+			id = 92202,
+			parent = 92105,
+			y = 16,
+			dir = 1,
+			x = 15,
+			child = {}
+		},
+		{
+			id = 92203,
+			parent = 92103,
+			y = 16,
+			dir = 1,
+			x = 22,
+			child = {}
+		},
+		{
+			id = 92204,
+			parent = 92104,
+			y = 22,
+			dir = 1,
+			x = 21,
 			child = {}
 		},
 		{

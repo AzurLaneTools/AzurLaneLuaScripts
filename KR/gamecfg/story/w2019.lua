@@ -10,27 +10,7 @@ return {
 			side = 2,
 			actorName = "신비한 상인",
 			dir = 1,
-			say = "냥? 내가 누구냐고냥!? 난 단지 무릅쓰고 일선 작전 요원에게 보급 판매를 하는 신비한 상인일 뿐이다냥!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 312010,
-			nameColor = "#a9f548",
-			side = 2,
-			actorName = "신비한 상인",
-			dir = 1,
-			say = "그래서 물건을 살 거냥?",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
+			say = "그래서 물건을 살 거냥?냥? 내가 누구냐고냥!? 난 단지 무릅쓰고 일선 작전 요원에게 보급 판매를 하는 신비한 상인일 뿐이다냥!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1,5 +1,86 @@
 pg = pg or {}
 pg.enemy_data_statistics_115 = {
+	[10044009] = {
+		cannon = 17,
+		battle_unit_type = 35,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 2,
+		air = 0,
+		speed = 15,
+		dodge = 0,
+		luck = 0,
+		id = 10044009,
+		cannon_growth = 1800,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 3,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 14,
+		base = 90113,
+		durability = 1400,
+		armor_growth = 0,
+		torpedo_growth = 1125,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		durability_growth = 44000,
+		antiaircraft = 180,
+		antisub = 0,
+		antiaircraft_growth = 1404,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.35,
+							1.17,
+							0.51
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.39,
+							1.41,
+							0.54
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.02,
+							1.82,
+							0.76
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			100205,
+			100506,
+			100406
+		}
+	},
 	[10044010] = {
 		cannon = 17,
 		reload = 150,
@@ -770,48 +851,6 @@ pg.enemy_data_statistics_115 = {
 		equipment_list = {
 			513035,
 			513036
-		}
-	},
-	[10044030] = {
-		cannon = 100,
-		battle_unit_type = 35,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 32,
-		dodge = 22,
-		id = 10044030,
-		cannon_growth = 900,
-		rarity = 5,
-		reload_growth = 0,
-		dodge_growth = 324,
-		armor = 0,
-		star = 6,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90167,
-		durability = 2400,
-		armor_growth = 0,
-		torpedo_growth = 6000,
-		luck_growth = 0,
-		hit_growth = 210,
-		luck = 0,
-		torpedo = 230,
-		durability_growth = 64000,
-		antisub = 0,
-		antiaircraft = 140,
-		antiaircraft_growth = 2394,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			513037,
-			513038,
-			513039,
-			513040
 		}
 	}
 }

@@ -134,16 +134,24 @@ function slot0.CheckTodayTip(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot2:isEnd() and slot0.startTime then
 		slot3 = pg.TimeMgr.GetInstance()
 		slot9 = slot3
-		slot8 = slot3.GetServerTime
-		slot4 = math.min(slot3:DiffDay(slot0.startTime, slot8(slot9)) + 1, #slot0.colorGroups)
+		slot4 = math.min(slot3:DiffDay(slot0.startTime, slot3.GetServerTime(slot9)) + 1, #slot0.colorGroups)
+		slot5 = slot0:GetViewedPage()
 
-		for slot8, slot9 in ipairs(slot0.colorGroups) do
-			if slot4 < slot8 then
+		for slot9, slot10 in ipairs(slot0.colorGroups) do
+			if slot4 < slot9 then
 				break
 			end
 
-			if slot9:getState() ~= ColorGroup.StateAchieved and not slot9:canBeCustomised() then
-				if slot9:getState() == ColorGroup.StateFinish or slot9:HasEnoughItem2FillAll(slot0:getColorItems()) then
+			if slot10:getState() == ColorGroup.StateLock then
+				break
+			end
+
+			if slot10:getState() ~= ColorGroup.StateAchieved and not slot10:canBeCustomised() then
+				if slot5 < slot9 then
+					return true
+				end
+
+				if slot10:getState() == ColorGroup.StateFinish or slot10:HasEnoughItem2FillAll(slot0:getColorItems()) then
 					return true
 				end
 
@@ -161,6 +169,26 @@ function slot0.IsALLAchieve(slot0)
 	return _.all(slot0.colorGroups, function (slot0)
 		return slot0:canBeCustomised() or slot0:getState() == ColorGroup.StateAchieved
 	end)
+end
+
+function slot0.GetViewedPage(slot0)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) or slot1:isEnd() then
+		return 0
+	end
+
+	return PlayerPrefs.GetInt("pixelDraw_maxPage_" .. slot1.id .. "_" .. getProxy(PlayerProxy):getRawData().id, 0)
+end
+
+function slot0.SetViewedPage(slot0, slot1)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) or slot2:isEnd() then
+		return
+	end
+
+	if slot1 <= slot0:GetViewedPage() then
+		return
+	end
+
+	return PlayerPrefs.SetInt("pixelDraw_maxPage_" .. slot2.id .. "_" .. getProxy(PlayerProxy):getRawData().id, slot1)
 end
 
 return slot0

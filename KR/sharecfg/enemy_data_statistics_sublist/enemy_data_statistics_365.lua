@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_365 = {
+	[16104001] = {
+		cannon = 8,
+		luck_growth = 0,
+		hit_growth = 144,
+		speed_growth = 0,
+		pilot_ai_template_id = 20005,
+		air = 0,
+		speed = 15,
+		dodge = 0,
+		id = 16104001,
+		cannon_growth = 560,
+		fog_fx = "",
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		reload = 150,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 36,
+		base = 90123,
+		durability = 640,
+		armor_growth = 0,
+		torpedo_growth = 3250,
+		antiaircraft = 80,
+		battle_unit_type = 25,
+		armor = 0,
+		durability_growth = 13200,
+		bubble_fx = "",
+		antisub = 0,
+		antiaircraft_growth = 1000,
+		specific_fx_scale = {},
+		equipment_list = {
+			1000594,
+			1000599,
+			1000604
+		},
+		buff_list = {}
+	},
 	[16104002] = {
 		cannon = 16,
 		luck_growth = 0,
@@ -869,96 +908,6 @@ pg.enemy_data_statistics_365 = {
 							-0.53,
 							2.92,
 							-0.38
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		}
-	},
-	[900005] = {
-		cannon = 130,
-		name = "아야나미",
-		battle_unit_type = 90,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		id = 900005,
-		reload = 150,
-		nationality = 1,
-		antiaircraft = 200,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "lingbo_g",
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90160,
-		durability = 150000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 35,
-		armor = 0,
-		antisub = 0,
-		prefab = "lingbo_g",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 250,
-		durability_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		bound_bone = {
-			cannon = {
-				{
-					-0.37,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.53,
-					0.39,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.37,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.293,
-							0.826,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.559,
-							2.57,
-							-0.13
 						}
 					}
 				}

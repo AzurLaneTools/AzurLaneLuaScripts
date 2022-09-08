@@ -13,9 +13,6 @@ function slot0.OnFirstFlush(slot0)
 			actId = uv0.activity.id
 		})
 	end)
-	onButton(slot0, findTF(slot0.bg, "btn_list/fight"), function ()
-		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
-	end)
 end
 
 return slot0

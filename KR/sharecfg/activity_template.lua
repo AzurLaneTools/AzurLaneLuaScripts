@@ -1930,8 +1930,10 @@ pg.activity_template = {
 				0.89,
 				1
 			},
-			pt_id = 273,
 			painting = "bolisi_pt",
+			taskLinkActID = 4483,
+			pt_id = 273,
+			fightLinkActID = 4483,
 			outline = {
 				0,
 				0,
@@ -1942,12 +1944,13 @@ pg.activity_template = {
 	},
 	[4483] = {
 		mark = 20220811,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4483,
 		config_data = {
@@ -1965,43 +1968,17 @@ pg.activity_template = {
 			17845,
 			17846,
 			17847
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4484] = {
 		mark = 20220811,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4484,
 		config_data = {
@@ -2011,43 +1988,17 @@ pg.activity_template = {
 			17851,
 			17852,
 			17853
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4487] = {
 		mark = 20220818,
-		id = 4487,
 		title_res_tag = "bulvxieersp_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 24,
+		id = 4487,
 		config_data = {
 			1670001,
 			1670002,
@@ -2055,33 +2006,6 @@ pg.activity_template = {
 			1670004,
 			1670041,
 			1670051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "BulvxieerSPMainPage",
@@ -2093,12 +2017,13 @@ pg.activity_template = {
 	},
 	[4488] = {
 		mark = 20220818,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4488,
 		config_data = {
@@ -2116,33 +2041,6 @@ pg.activity_template = {
 			17866,
 			17867,
 			17882
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4489] = {
@@ -2433,41 +2331,15 @@ pg.activity_template = {
 	},
 	[4495] = {
 		mark = 20220818,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 33,
 		is_show = 0,
 		config_data = "0",
+		title_res_tag = "",
 		id = 4495,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"bulunxierde_2",
@@ -2486,12 +2358,13 @@ pg.activity_template = {
 	},
 	[4496] = {
 		mark = 20220818,
-		config_client = "",
 		title_res_tag = "bulvxieersp_skin",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 22,
+		config_client = "",
 		id = 4496,
 		config_data = {
 			{
@@ -2523,13 +2396,55 @@ pg.activity_template = {
 				17881
 			}
 		},
+		page_info = {
+			class_name = "BulvxieerSPSkinPage",
+			ui_name = "BulvxieerSPSkinPage"
+		}
+	},
+	[4497] = {
+		mark = 20220818,
+		time = "stop",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 4497,
+		config_data = {}
+	},
+	[4499] = {
+		mark = 20220901,
+		title_res_tag = "",
+		page_info = "",
+		type = 43,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4499,
+		config_data = {
+			{
+				79,
+				97948
+			},
+			{
+				80,
+				97949
+			},
+			{
+				81,
+				97950
+			}
+		},
 		time = {
 			"timer",
 			{
 				{
 					2022,
-					8,
-					25
+					9,
+					8
 				},
 				{
 					0,
@@ -2541,7 +2456,94 @@ pg.activity_template = {
 				{
 					2022,
 					9,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4500] = {
+		mark = 20220901,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4500,
+		config_data = {
+			17883,
+			17884,
+			17885,
+			17886,
+			17887,
+			17888,
+			17889,
+			17890,
+			17891
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
 					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4501] = {
+		mark = 20220901,
+		config_client = "",
+		title_res_tag = "kfc_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4501,
+		is_show = 25,
+		id = 4501,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					22
 				},
 				{
 					23,
@@ -2551,47 +2553,8 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "BulvxieerSPSkinPage",
-			ui_name = "BulvxieerSPSkinPage"
-		}
-	},
-	[4497] = {
-		mark = 20220818,
-		title_res_tag = "",
-		page_info = "",
-		type = 1,
-		login_pop = 0,
-		config_id = 4,
-		is_show = 0,
-		config_client = "",
-		id = 4497,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					8,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			class_name = "KFCPtPage",
+			ui_name = "KFCPtPage"
 		}
 	},
 	[7004] = {
@@ -7458,6 +7421,9 @@ pg.activity_template = {
 		4495,
 		4496,
 		4497,
+		4499,
+		4500,
+		4501,
 		7004,
 		7005,
 		7006,

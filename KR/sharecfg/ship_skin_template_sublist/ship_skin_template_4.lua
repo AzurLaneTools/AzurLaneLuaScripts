@@ -6918,6 +6918,113 @@ pg.ship_skin_template_4 = {
 			}
 		}
 	},
+	[131170] = {
+		ship_group = 10117,
+		name = "치킨랩, 그리고 졸음…",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 131170,
+		group_index = 10,
+		prefab = "lafei_11",
+		painting = "lafei_11",
+		shop_id = 70735,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "어서 오세요. 치킨랩? 그 또띠아를 이불처럼 덮고 자면 편하겠다…… 응, 그럴 거야.",
+		voice_actor = 35,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.883,
+					0.965,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.005,
+					-0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.174,
+					1.55,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.735,
+							1.824,
+							-0.13
+						}
+					}
+				}
+			}
+		}
+	},
 	[137030] = {
 		ship_group = 10703,
 		name = "컵라면 대사?",
@@ -8874,126 +8981,6 @@ pg.ship_skin_template_4 = {
 						{
 							-0.31,
 							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201090] = {
-		ship_group = 20109,
-		name = "크레센트",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201090,
-		group_index = 0,
-		prefab = "xinyue",
-		painting = "xinyue",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 17,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "C급 구축함·크레센트 (H48)",
-		voice_actor = 53,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.159,
-					0.552,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.356,
-					0.378,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.159,
-					0.552,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.273,
-							0.534,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.358,
-							0.288,
 							0
 						}
 					}

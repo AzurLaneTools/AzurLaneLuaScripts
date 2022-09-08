@@ -34,11 +34,8 @@ function slot0.UpdateCvBtn(slot0, slot1)
 end
 
 function slot0.UpdateLang2(slot0)
-	if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0.skin.ship_group).id].voice_key_2 < 0 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
-
-		return
-	end
+	slot1 = slot0.skin.ship_group
+	slot3 = pg.ship_skin_words[ShipGroup.getDefaultSkin(slot1).id]
 
 	PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot1, 2)
 	slot0.cvLoader:Load(slot0.skin.id)
@@ -48,11 +45,8 @@ function slot0.UpdateLang2(slot0)
 end
 
 function slot0.UpdateLang1(slot0)
-	if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0.skin.ship_group).id].voice_key < 0 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
-
-		return
-	end
+	slot1 = slot0.skin.ship_group
+	slot3 = pg.ship_skin_words[ShipGroup.getDefaultSkin(slot1).id]
 
 	PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot1, 1)
 	slot0.cvLoader:Load(slot0.skin.id)
@@ -163,7 +157,7 @@ end
 function slot0.UpdateLanguage(slot0)
 	slot2 = ShipGroup.getDefaultSkin(slot0.skin.ship_group)
 	slot4 = ShipWordHelper.GetLanguageSetting(slot2.id)
-	slot5 = pg.ship_skin_words[slot2.id].voice_key > 0 and (slot3.voice_key_2 >= 0 or slot3.voice_key_2 == -2)
+	slot5 = pg.ship_skin_words[slot2.id].voice_key_2 >= 0 or slot3.voice_key_2 == -2
 
 	if slot3.voice_key_2 >= 0 and slot4 == 0 then
 		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot1, pg.gameset.language_default.key_value)

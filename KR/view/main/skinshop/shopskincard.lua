@@ -95,7 +95,7 @@ function slot0.update(slot0, slot1)
 			slot15 = slot0.goodsVO:getConfig("tag")
 
 			if slot9 or slot15 == 5 then
-				setText(slot0._tagTFs[5]:Find("Text"), slot11 .. "%")
+				setText(slot0._tagTFs[5]:Find("Text"), string.format("%0.2f", slot11) .. "%")
 				setActive(slot0._tagTFs[5], true)
 			elseif slot0._tagTFs[slot15] then
 				setActive(slot0._tagTFs[slot15], true)

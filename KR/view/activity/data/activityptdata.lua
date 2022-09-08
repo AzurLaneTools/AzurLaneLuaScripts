@@ -44,6 +44,17 @@ function slot0.CheckDayUnlock(slot0)
 	return slot2:DiffDay(slot0.startTime, slot2:GetServerTime()) + 1 >= (slot0.unlockDay[math.min(slot0.level + 1, #slot0.targets)] or 0)
 end
 
+function slot0.GetDayUnlockStamps(slot0)
+	slot1 = pg.TimeMgr.GetInstance()
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0.unlockDay) do
+		table.insert(slot2, slot0.startTime + (slot7 - 1) * 86400)
+	end
+
+	return slot2
+end
+
 function slot0.GetLevelProgress(slot0)
 	slot1 = slot0:getTargetLevel()
 

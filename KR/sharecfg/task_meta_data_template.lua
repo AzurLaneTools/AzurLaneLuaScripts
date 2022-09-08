@@ -576,6 +576,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[166] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "리나운·META를 사용해 승리 1회",
+		id = 166,
+		target_num = 1,
+		target_id = "0"
+	},
+	[167] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "리나운·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 167,
+		target_num = 1,
+		target_id = "30"
+	},
+	[168] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "리나운·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 168,
+		target_num = 1,
+		target_id = "55"
+	},
+	[169] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "리나운·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 169,
+		target_num = 1,
+		target_id = "80"
+	},
+	[170] = {
+		target_id_2 = "970404",
+		sub_type = 180,
+		desc = "리나운·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 170,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -992,6 +1032,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[252] = {
+		target_id_2 = "970404",
+		sub_type = 302,
+		desc = "대형 작전에서 리나운·META를 사용해 1회 승리",
+		id = 252,
+		target_num = 1,
+		target_id = "0"
+	},
+	[253] = {
+		target_id_2 = "970404",
+		sub_type = 302,
+		desc = "대형 작전에서 리나운·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 253,
+		target_num = 1,
+		target_id = "70"
+	},
+	[254] = {
+		target_id_2 = "970404",
+		sub_type = 302,
+		desc = "대형 작전에서 리나운·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 254,
+		target_num = 1,
+		target_id = "90"
+	},
+	[255] = {
+		target_id_2 = "970404",
+		sub_type = 302,
+		desc = "대형 작전에서 리나운·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 255,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -1081,6 +1153,11 @@ pg.task_meta_data_template = {
 		163,
 		164,
 		165,
+		166,
+		167,
+		168,
+		169,
+		170,
 		200,
 		201,
 		202,
@@ -1133,6 +1210,10 @@ pg.task_meta_data_template = {
 		249,
 		250,
 		251,
+		252,
+		253,
+		254,
+		255,
 		301,
 		302
 	}

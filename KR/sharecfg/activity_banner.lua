@@ -1,16 +1,19 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4487",
 		id = 1,
 		pic = "temp1",
-		type = 3,
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		},
 		time = {
 			{
 				{
 					2022,
-					8,
-					25
+					9,
+					8
 				},
 				{
 					0,
@@ -22,7 +25,7 @@ pg.activity_banner = {
 				{
 					2022,
 					9,
-					8
+					21
 				},
 				{
 					23,
@@ -33,22 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4501",
 		id = 2,
 		pic = "temp2",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2022,
-					8,
-					25
+					9,
+					8
 				},
 				{
 					0,
@@ -60,7 +57,7 @@ pg.activity_banner = {
 				{
 					2022,
 					9,
-					8
+					22
 				},
 				{
 					23,
@@ -75,15 +72,14 @@ pg.activity_banner = {
 		pic = "temp3",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"scene coloring"
 		},
 		time = {
 			{
 				{
 					2022,
-					8,
-					25
+					9,
+					8
 				},
 				{
 					0,
@@ -95,7 +91,7 @@ pg.activity_banner = {
 				{
 					2022,
 					9,
-					7
+					22
 				},
 				{
 					23,
@@ -106,35 +102,12 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4496",
 		id = 4,
 		pic = "temp4",
-		type = 3,
-		time = {
-			{
-				{
-					2022,
-					8,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+		time = "stop",
+		type = 2,
+		param = {
+			"scene level"
 		}
 	},
 	{
@@ -142,18 +115,18 @@ pg.activity_banner = {
 		pic = "temp5",
 		type = 2,
 		param = {
-			"scene equip",
+			"scene level",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				open_remaster = true,
+				isSP = true
 			}
 		},
 		time = {
 			{
 				{
 					2022,
-					8,
-					25
+					9,
+					8
 				},
 				{
 					0,
@@ -165,7 +138,7 @@ pg.activity_banner = {
 				{
 					2022,
 					9,
-					8
+					22
 				},
 				{
 					23,
@@ -292,8 +265,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					8,
-					25
+					9,
+					8
 				},
 				{
 					0,
@@ -305,7 +278,7 @@ pg.activity_banner = {
 				{
 					2022,
 					9,
-					7
+					21
 				},
 				{
 					23,
@@ -316,11 +289,36 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "해군 카레|단맛? 매운맛? 취향은 사람마다 제각각...<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
-		time = "stop",
-		type = 10,
+		param = "계화꽃떡|월궁에서 따온 계수나무로 만든 떡. 향긋하고 맛있다! <color=#6dd329> (60분 동안 숙소 경험치 효율 5% 상승) </color>",
 		id = 10,
-		pic = "haijungali"
+		pic = "guihuagao",
+		type = 10,
+		time = {
+			{
+				{
+					2022,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		param = "",
@@ -355,17 +353,17 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[3] = {
-			1,
-			4
-		},
 		[2] = {
-			2,
+			1,
 			3,
+			4,
 			5,
 			6,
 			7,
 			8
+		},
+		[3] = {
+			2
 		},
 		[9] = {
 			9

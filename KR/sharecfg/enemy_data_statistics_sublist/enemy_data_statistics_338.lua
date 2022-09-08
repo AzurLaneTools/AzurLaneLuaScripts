@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_338 = {
+	[15801016] = {
+		cannon = 50,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		air = 0,
+		battle_unit_type = 15,
+		dodge = 0,
+		base = 90422,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 0,
+		hit = 81,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 100,
+		durability = 70,
+		armor_growth = 0,
+		torpedo_growth = 1080,
+		luck_growth = 0,
+		hit_growth = 1200,
+		armor = 0,
+		id = 15801016,
+		fog_fx = "",
+		antisub = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			1000866,
+			1000876
+		}
+	},
 	[15801017] = {
 		cannon = 5,
 		reload = 150,
@@ -697,40 +735,5 @@ pg.enemy_data_statistics_338 = {
 				LV = 1
 			}
 		}
-	},
-	[15801205] = {
-		cannon = 11,
-		name = "컴파일러 α형",
-		hit_growth = 210,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 90,
-		speed = 20,
-		dodge = 15,
-		antisub = 0,
-		cannon_growth = 1000,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 260,
-		luck = 4,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 2400,
-		torpedo = 40,
-		base = 90438,
-		durability = 760,
-		armor_growth = 0,
-		torpedo_growth = 2400,
-		luck_growth = 0,
-		antiaircraft_growth = 3600,
-		armor = 0,
-		durability_growth = 100000,
-		antiaircraft = 120,
-		id = 15801205,
-		battle_unit_type = 90,
-		scale = 160,
-		specific_fx_scale = {},
-		equipment_list = {}
 	}
 }

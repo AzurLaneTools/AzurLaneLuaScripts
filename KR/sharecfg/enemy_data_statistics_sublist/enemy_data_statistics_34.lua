@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_34 = {
+	[851] = {
+		cannon = 95,
+		name = "에이스 순양함",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		reload = 150,
+		air = 0,
+		fog_fx = "",
+		dodge = 0,
+		speed = 15,
+		luck = 0,
+		id = 851,
+		reload_growth = 0,
+		dodge_growth = 0,
+		air_growth = 0,
+		star = 2,
+		hit = 105,
+		antisub_growth = 0,
+		rarity = 2,
+		cannon_growth = 0,
+		base = 90124,
+		durability = 3410,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 60,
+		hit_growth = 0,
+		armor = 0,
+		torpedo = 120,
+		durability_growth = 0,
+		antisub = 100,
+		luck_growth = 0,
+		scale = 150,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.66,
+				-0.19,
+				-0.02
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong2 = 0.75
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			300200,
+			300203,
+			300204
+		}
+	},
 	[852] = {
 		cannon = 0,
 		name = "수송선",
@@ -587,47 +659,6 @@ pg.enemy_data_statistics_34 = {
 			200204,
 			200205,
 			200206
-		}
-	},
-	[70011] = {
-		cannon = 143,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		battle_unit_type = 95,
-		air = 0,
-		base = 90250,
-		dodge = 22,
-		durability_growth = 0,
-		antiaircraft = 255,
-		speed = 22,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		antiaircraft_growth = 0,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		torpedo = 113,
-		durability = 1000000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor = 0,
-		fog_fx = "",
-		id = 70011,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			200301,
-			200302,
-			200303,
-			200304,
-			200305
 		}
 	}
 }

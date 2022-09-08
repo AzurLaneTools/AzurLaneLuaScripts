@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_33 = {
+	[821] = {
+		cannon = 65,
+		name = "표준 순양함",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		reload = 150,
+		air = 0,
+		fog_fx = "",
+		dodge = 0,
+		speed = 15,
+		luck = 0,
+		id = 821,
+		reload_growth = 0,
+		dodge_growth = 0,
+		air_growth = 0,
+		star = 2,
+		hit = 10,
+		antisub_growth = 0,
+		rarity = 2,
+		cannon_growth = 0,
+		base = 90124,
+		durability = 860,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 30,
+		hit_growth = 0,
+		armor = 0,
+		torpedo = 80,
+		durability_growth = 0,
+		antisub = 60,
+		luck_growth = 0,
+		scale = 150,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.66,
+				-0.19,
+				-0.02
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong2 = 0.75
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			300140,
+			300143,
+			300144
+		}
+	},
 	[822] = {
 		cannon = 0,
 		name = "수송선",
@@ -946,78 +1018,6 @@ pg.enemy_data_statistics_33 = {
 			300200,
 			300201,
 			300202
-		}
-	},
-	[851] = {
-		cannon = 95,
-		name = "에이스 순양함",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		reload = 150,
-		air = 0,
-		fog_fx = "",
-		dodge = 0,
-		speed = 15,
-		luck = 0,
-		id = 851,
-		reload_growth = 0,
-		dodge_growth = 0,
-		air_growth = 0,
-		star = 2,
-		hit = 105,
-		antisub_growth = 0,
-		rarity = 2,
-		cannon_growth = 0,
-		base = 90124,
-		durability = 3410,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 60,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 120,
-		durability_growth = 0,
-		antisub = 100,
-		luck_growth = 0,
-		scale = 150,
-		battle_unit_type = 30,
-		cld_box = {
-			9.75,
-			5.625,
-			6.75
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.66,
-				-0.19,
-				-0.02
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			danchuanlanghuazhong2 = 0.75
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			300200,
-			300203,
-			300204
 		}
 	}
 }

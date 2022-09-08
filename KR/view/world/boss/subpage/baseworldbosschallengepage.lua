@@ -177,13 +177,13 @@ function slot0.UpdatePainting(slot0, slot1)
 		slot2:SetNativeSize()
 		setPaintingPrefabAsync(slot0.painting, slot0.groupId, "lihuisha")
 
-		if uv0[slot0.groupId] then
+		if pg.world_joint_boss_template[WorldBossConst.MetaId2BossId(slot0.groupId)].p_offset_other or uv0[slot0.groupId] then
 			setAnchoredPosition(slot0.painting, {
-				x = uv0[slot0.groupId][1],
-				y = uv0[slot0.groupId][2]
+				x = slot4[1],
+				y = slot4[2]
 			})
 
-			slot0.painting.localScale = Vector3(uv0[slot0.groupId][3] or 1, uv0[slot0.groupId][4] or 1, 1)
+			slot0.painting.localScale = Vector3(slot4[3] or 1, slot4[4] or 1, 1)
 		end
 	end
 end

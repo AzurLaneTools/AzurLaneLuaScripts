@@ -1,5 +1,131 @@
 pg = pg or {}
 pg.ship_skin_template_7 = {
+	[205029] = {
+		ship_group = 20502,
+		name = "워스파이트·改 ",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 205029,
+		group_index = 9,
+		prefab = "yanzhan_g",
+		painting = "yanzhan_g",
+		illustrator = 19,
+		air_bullet_skin = "",
+		l2d_voice_calibrate = "",
+		shop_type_id = 9997,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "워스파이트, 개조 종료. 흠, 이 새로워진 기분, 나쁘지 않군…그럼 지휘관, 새로운 전장으로 가볼까! ",
+		voice_actor = 28,
+		air_bomb_skin = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.292,
+					1.094,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.204,
+					1.064,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.243,
+					1.164,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.654,
+							2.41,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				37,
+				-473,
+				0
+			},
+			{
+				0.85
+			}
+		},
+		special_effects = {
+			"yanzhan",
+			{
+				37,
+				138,
+				0
+			},
+			{
+				1.6
+			}
+		}
+	},
 	[205030] = {
 		ship_group = 20503,
 		name = "넬슨",
@@ -9683,122 +9809,6 @@ pg.ship_skin_template_7 = {
 		},
 		l2d_voice_calibrate = {
 			propose = 2.5
-		}
-	},
-	[301014] = {
-		ship_group = 30101,
-		name = "특형 아이돌 Fubuki ",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "120",
-		id = 301014,
-		group_index = 4,
-		prefab = "chuixue_5",
-		painting = "chuixue_5",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 11,
-		illustrator = 2,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "세계를 흔드는 특형 아이돌, 후부키, 정식 데뷔! ",
-		voice_actor = 116,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.992,
-					0.992,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.996,
-					0.987,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.004,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.996,
-					0.997,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.45,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

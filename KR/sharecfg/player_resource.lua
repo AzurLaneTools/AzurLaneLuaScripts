@@ -870,6 +870,11 @@ pg.player_resource = {
 		name = "skinTicket37",
 		itemid = 59337
 	},
+	[276] = {
+		id = 276,
+		name = "kfc_pt",
+		itemid = 59338
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1014,6 +1019,11 @@ pg.player_resource = {
 		id = 3008,
 		name = "synchronize_fanji",
 		itemid = 21907
+	},
+	[3009] = {
+		id = 3009,
+		name = "synchronize_fanji1",
+		itemid = 21908
 	},
 	[3106] = {
 		id = 3106,
@@ -1598,6 +1608,9 @@ pg.player_resource = {
 		skinTicket37 = {
 			275
 		},
+		kfc_pt = {
+			276
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1684,6 +1697,9 @@ pg.player_resource = {
 		},
 		synchronize_fanji = {
 			3008
+		},
+		synchronize_fanji1 = {
+			3009
 		},
 		twhongran_pt = {
 			3106
@@ -1897,6 +1913,7 @@ pg.player_resource = {
 		273,
 		274,
 		275,
+		276,
 		950,
 		951,
 		952,
@@ -1926,6 +1943,7 @@ pg.player_resource = {
 		3006,
 		3007,
 		3008,
+		3009,
 		3106,
 		3137,
 		4001,

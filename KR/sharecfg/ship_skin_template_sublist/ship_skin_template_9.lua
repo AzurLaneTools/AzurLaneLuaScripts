@@ -1,5 +1,119 @@
 pg = pg or {}
 pg.ship_skin_template_9 = {
+	[301330] = {
+		ship_group = 30133,
+		name = "키사라기",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301330,
+		group_index = 0,
+		prefab = "ruyue",
+		painting = "ruyue",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 34,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "무츠키형 구축함 2번함·키사라기",
+		voice_actor = 49,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.27,
+					0.57,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.27,
+					0.57,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.09,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.27,
+					0.57,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301331] = {
 		ship_group = 30133,
 		name = "정월의 소원",
@@ -9506,15 +9620,15 @@ pg.ship_skin_template_9 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.85,
-					0.814,
+					1.75,
+					1.94,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.76,
-					0.828,
+					1.78,
+					1.99,
 					0
 				}
 			},
@@ -9527,8 +9641,8 @@ pg.ship_skin_template_9 = {
 			},
 			antiaircraft = {
 				{
-					0.989,
-					1.087,
+					1.52,
+					3.23,
 					0
 				}
 			}
@@ -9543,133 +9657,6 @@ pg.ship_skin_template_9 = {
 							-0.709,
 							1.885,
 							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[302059] = {
-		ship_group = 30205,
-		name = "이스즈·改",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 302059,
-		group_index = 9,
-		prefab = "wushiling_g",
-		painting = "wushiling_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9997,
-		illustrator = 2,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "이걸로 개조 완료! …… 응, 지휘관? 저기…… 많이 놀란 것 같네. 나 그렇게 많이 변했어?",
-		voice_actor = 82,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.082,
-					1.122,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.052,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.002,
-					0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.112,
-					1.14,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.39,
-							0.58,
-							-0.16
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.56,
-							2.57,
-							-0.58
 						}
 					}
 				}

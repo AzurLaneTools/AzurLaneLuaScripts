@@ -274,23 +274,22 @@ function slot0.FlushEntranceItem(slot0, slot1)
 	slot0:UpdateGetAllAwardBtn()
 end
 
-function slot0.UpdateAchievement(slot0, slot1)
-	if slot0.selectedIndex ~= slot1 then
-		slot0:UpdateSelectedEntrance(slot1)
-
+function slot0.UpdateAchievement(slot0, slot1, slot2)
+	if slot2 or slot0.selectedIndex ~= slot1 then
 		slot0.selectedIndex = slot1
 
-		slot0:UpdateSelectedEntrance(slot1)
+		for slot6, slot7 in ipairs({
+			slot0.selectedIndex,
+			slot0.selectedIndex
+		}) do
+			if slot0.entranceOjbecDic[slot7] then
+				setActive(slot8:Find("icon/select"), slot0.selectedIndex == slot7)
+			end
+		end
 
 		slot0.entrance = slot0.achEntranceList[slot0.selectedIndex]
 
 		slot0:FlushAchievement()
-	end
-end
-
-function slot0.UpdateSelectedEntrance(slot0, slot1)
-	if slot0.entranceOjbecDic[slot0.selectedIndex] then
-		setActive(slot2:Find("icon/select"), slot0.selectedIndex == slot1)
 	end
 end
 
@@ -321,7 +320,7 @@ function slot0.GetAwardIndex(slot0, slot1)
 end
 
 function slot0.ScrollAndSelectEntrance(slot0, slot1)
-	slot0:UpdateAchievement(slot1)
+	slot0:UpdateAchievement(slot1, true)
 	slot0.scrollEntrance:ScrollTo(math.clamp(slot0.entrancePos[slot1] - (slot0.entrancePos[#slot0.achEntranceList] - 1) / 2, 0, 1))
 end
 

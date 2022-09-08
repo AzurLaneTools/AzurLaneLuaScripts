@@ -1,5 +1,121 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
+	[202152] = {
+		ship_group = 20215,
+		name = "여명에 바치는 찬가 ",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "107",
+		id = 202152,
+		group_index = 2,
+		prefab = "ouruola_3",
+		painting = "ouruola_3",
+		shop_id = 70097,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "음악은 사람의 마음을 움직이는 특별한 힘을 갖고 있다고 늘 믿고 있답니다. 그래서 저, 바이올린을 조금 공부해보았어요. 지휘관, 부디 들어주세요. ",
+		voice_actor = 90,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.93,
+					1.33,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.73,
+					1.34,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.168,
+					0.071,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.8,
+					1.31,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202153] = {
 		ship_group = 20215,
 		name = "투성의 비기",
@@ -7963,7 +8079,7 @@ pg.ship_skin_template_6 = {
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 183,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -8770,7 +8886,7 @@ pg.ship_skin_template_6 = {
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 183,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -9906,132 +10022,6 @@ pg.ship_skin_template_6 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[205029] = {
-		ship_group = 20502,
-		name = "워스파이트·改 ",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 205029,
-		group_index = 9,
-		prefab = "yanzhan_g",
-		painting = "yanzhan_g",
-		illustrator = 19,
-		air_bullet_skin = "",
-		l2d_voice_calibrate = "",
-		shop_type_id = 9997,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		desc = "워스파이트, 개조 종료. 흠, 이 새로워진 기분, 나쁘지 않군…그럼 지휘관, 새로운 전장으로 가볼까! ",
-		voice_actor = 28,
-		air_bomb_skin = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.292,
-					1.094,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.204,
-					1.064,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.243,
-					1.164,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.654,
-							2.41,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				37,
-				-473,
-				0
-			},
-			{
-				0.85
-			}
-		},
-		special_effects = {
-			"yanzhan",
-			{
-				37,
-				138,
-				0
-			},
-			{
-				1.6
 			}
 		}
 	}

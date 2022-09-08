@@ -1,5 +1,105 @@
 pg = pg or {}
 pg.ship_skin_template_12 = {
+	[307078] = {
+		ship_group = 30707,
+		name = "바닷바람의 유혹",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 307078,
+		group_index = 8,
+		prefab = "dafeng_h",
+		painting = "dafeng_h",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9998,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관님～ 다이호가 선택한 이 곳이 맘에 드시나요~? 여기서는 지휘관님과 단둘이 있을 수 있어요. 누구에게도 방해 받지 않고...! 아아, 다이호의 심장 박동 소리가 파도 소리보다 더 크게 울리네요♡",
+		voice_actor = 145,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.103,
+					1.125,
+					0
+				}
+			},
+			plane = {
+				{
+					1.15,
+					1.132,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307080] = {
 		ship_group = 30708,
 		name = "{namecode:182}",
@@ -3793,6 +3893,120 @@ pg.ship_skin_template_12 = {
 						{
 							-0.603,
 							2.468,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[331054] = {
+		ship_group = 30105,
+		name = "콜라에 노력을 담아",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 331054,
+		group_index = 14,
+		prefab = "lingbo_14",
+		painting = "lingbo_14",
+		shop_id = 70736,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "어서 오세요. 주문은 {namecode:6}에게 맡겨 주세요. 드시고 가시나요? 아니면 포장하실 건가요? {namecode:6}의 추천 메뉴는…… 콜라에요.",
+		voice_actor = 32,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.994,
+					0.819,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.997,
+					0.824,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.008,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.109,
+					1.417,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.82,
+							1.8,
 							0
 						}
 					}
@@ -9443,236 +9657,6 @@ pg.ship_skin_template_12 = {
 							-0.64,
 							2.462,
 							-0.472
-						}
-					}
-				}
-			}
-		}
-	},
-	[402050] = {
-		ship_group = 40205,
-		name = "뉘른베르크",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 402050,
-		group_index = 0,
-		prefab = "niulunbao",
-		painting = "niulunbao",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "라이프치히급 경순양함—뉘른베르크",
-		voice_actor = 258,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.226,
-					1.002,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.232,
-					0.996,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.262,
-					1.014,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.444,
-							2.549,
-							-0.568
-						}
-					}
-				}
-			}
-		}
-	},
-	[402051] = {
-		ship_group = 40205,
-		name = "정월의 여행",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "126",
-		id = 402051,
-		group_index = 1,
-		prefab = "niulunbao_2",
-		painting = "niulunbao_2",
-		shop_id = 70470,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 2,
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "이렇게 흔쾌히 여행을 함께해 주시다니, 지휘관은 분명 다른 목적이... 아, 제 말은, 지휘관님 준비 끝나셨으면, 언제든 출발 가능하시죠?",
-		voice_actor = 258,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.064,
-					1.002,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.058,
-					1.008,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.082,
-					1.002,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.438,
-							2.465,
-							-0.568
 						}
 					}
 				}

@@ -6808,7 +6808,18 @@ function temp()
 		},
 		["나"] = {
 			["운"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["펄"] = {

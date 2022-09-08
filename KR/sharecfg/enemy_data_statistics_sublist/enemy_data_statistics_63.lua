@@ -1,5 +1,66 @@
 pg = pg or {}
 pg.enemy_data_statistics_63 = {
+	[13045] = {
+		cannon = 0,
+		antiaircraft_growth = 0,
+		reload = 150,
+		speed_growth = 0,
+		fog_fx = "",
+		air = 0,
+		air_growth = 0,
+		dodge = 0,
+		speed = 20,
+		luck = 0,
+		id = 13045,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon_type = 12,
+		star = 2,
+		hit = 30,
+		antisub_growth = 0,
+		rarity = 1,
+		cannon_growth = 0,
+		base = 90134,
+		durability = 12600,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 200,
+		hit_growth = 0,
+		armor = 0,
+		torpedo = 0,
+		durability_growth = 74000,
+		antisub = 0,
+		luck_growth = 0,
+		battle_unit_type = 85,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				-1,
+				2.2
+			}
+		},
+		specific_fx_scale = {
+			zhihuiRing02_buff = 2
+		},
+		equipment_list = {
+			1100136
+		}
+	},
 	[13046] = {
 		cannon = 0,
 		antiaircraft_growth = 0,
@@ -831,78 +892,6 @@ pg.enemy_data_statistics_63 = {
 		equipment_list = {
 			100582,
 			100585
-		}
-	},
-	[14021] = {
-		cannon = 625,
-		reload = 150,
-		battle_unit_type = 75,
-		speed_growth = 0,
-		pilot_ai_template_id = 20004,
-		air = 400,
-		rarity = 1,
-		dodge = 20,
-		luck = 0,
-		id = 14021,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 20,
-		star = 2,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		base = 90143,
-		durability = 18670,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 162600,
-		antisub = 0,
-		antiaircraft = 300,
-		antiaircraft_growth = 0,
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1,
-				0.2,
-				-0.3464
-			},
-			{
-				0,
-				-1,
-				2.2
-			}
-		},
-		specific_fx_scale = {
-			zhihuiRing02_buff = 2
-		},
-		equipment_list = {
-			100207,
-			100517,
-			100347,
-			350017,
-			350014,
-			350018
-		},
-		buff_list = {
-			{
-				ID = 50520,
-				LV = 7
-			}
 		}
 	}
 }

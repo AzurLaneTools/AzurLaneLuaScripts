@@ -6888,7 +6888,7 @@ _G.pg.base.item_data_statistics[15012] = {
 }
 
 _G.pg.base.item_data_statistics[15013] = {
-	display = "『월드 투어』 이벤트용. 투어 임무를 신속히 완료할 수 있다. 이벤트 종료 후 사라지지 않음.",
+	display = "「월드 투어」 이벤트용. 투어 임무를 신속히 완료할 수 있다. 이벤트 종료 후 사라지지 않음.",
 	name = "투어 임무 완료 쿠폰",
 	max_num = 0,
 	type = 1,
@@ -9092,6 +9092,27 @@ _G.pg.base.item_data_statistics[21013] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21014] = {
+	display = "리나운·META 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정: 리나운·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21014,
+	is_world = 0,
+	icon = "Props/21014",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "결정화 내열강",
@@ -9317,6 +9338,27 @@ _G.pg.base.item_data_statistics[21907] = {
 	id = 21907,
 	is_world = 0,
 	icon = "Props/21907",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21908] = {
+	display = "「비콘·META」 전투 중 수집한 데이터. 리나운·META 동기화율 상승 가능.",
+	name = "동기화 수치: 리나운·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21908,
+	is_world = 0,
+	icon = "Props/21908",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -161840,7 +161882,7 @@ _G.pg.base.item_data_statistics[59112] = {
 }
 
 _G.pg.base.item_data_statistics[59113] = {
-	display = "[귀여운 꼬마 메이드] 이벤트에 사용된다. 이벤트 기간 종료 시 인벤토리에서 자동 소멸된다.",
+	display = "「귀여운 꼬마 메이드」 이벤트에 사용된다. 이벤트 기간 종료 시 인벤토리에서 자동 소멸된다.",
 	name = "쥬쥬",
 	max_num = 0,
 	type = 98,
@@ -161966,7 +162008,7 @@ _G.pg.base.item_data_statistics[59118] = {
 }
 
 _G.pg.base.item_data_statistics[59119] = {
-	display = "『솔로몬의 무사』 이벤트 전용 교환 아이템. 이벤트 종료 시 자동적으로 사라진다. ",
+	display = "「솔로몬의 무사」 이벤트 전용 교환 아이템. 이벤트 종료 시 자동적으로 사라진다. ",
 	name = "류조 부적 ",
 	max_num = 0,
 	type = 98,
@@ -162134,7 +162176,7 @@ _G.pg.base.item_data_statistics[59126] = {
 }
 
 _G.pg.base.item_data_statistics[59127] = {
-	display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다. ",
+	display = "「사령부 동원지령」 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다. ",
 	name = "집결 포인트 ",
 	max_num = 0,
 	type = 98,
@@ -162155,7 +162197,7 @@ _G.pg.base.item_data_statistics[59127] = {
 }
 
 _G.pg.base.item_data_statistics[59128] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능2019년 7월 11일 후 사용할 수 없습니다.",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능2019년 7월 11일 후 사용할 수 없습니다.",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -162176,7 +162218,7 @@ _G.pg.base.item_data_statistics[59128] = {
 }
 
 _G.pg.base.item_data_statistics[59129] = {
-	display = "[메탈 블로드, 음표 & 맹세] 이벤트 교환에 사용된다. 이벤트 종료 후 사라진다. ",
+	display = "「메탈 블로드, 음표 & 맹세」 이벤트 교환에 사용된다. 이벤트 종료 후 사라진다. ",
 	name = "메탈 블러드 문장 ",
 	max_num = 0,
 	type = 98,
@@ -162197,7 +162239,7 @@ _G.pg.base.item_data_statistics[59129] = {
 }
 
 _G.pg.base.item_data_statistics[59130] = {
-	display = "이벤트[내일의 스타? 깜짝 등장!] 중 캐릭터의 호감도 증가에 사용됩니다, 이벤트 종료 후 사라집니다. ",
+	display = "이벤트「내일의 스타? 깜짝 등장!」 중 캐릭터의 호감도 증가에 사용됩니다, 이벤트 종료 후 사라집니다. ",
 	name = "호감도",
 	max_num = 0,
 	type = 98,
@@ -162260,7 +162302,7 @@ _G.pg.base.item_data_statistics[59134] = {
 }
 
 _G.pg.base.item_data_statistics[59135] = {
-	display = "「전설 속의 하프물범」에 관한 단서. 더 많은 정보를 수집하고, 하프물범을 찾아라! 『바다의 아이돌』 이벤트에 사용되며, 이벤트 종료 후 사라짐. ",
+	display = "「전설 속의 하프물범」에 관한 단서. 더 많은 정보를 수집하고, 하프물범을 찾아라! 「바다의 아이돌」 이벤트에 사용되며, 이벤트 종료 후 사라짐. ",
 	name = "하프물범 목격 정보 ",
 	max_num = 0,
 	type = 98,
@@ -162281,7 +162323,7 @@ _G.pg.base.item_data_statistics[59135] = {
 }
 
 _G.pg.base.item_data_statistics[59136] = {
-	display = "『Azurlane 인기 투표』 이벤트에서 누적하여 투표권 획득 가능. 매 라운드 투표 종료 시 초기화.",
+	display = "「Azurlane 인기 투표」 이벤트에서 누적하여 투표권 획득 가능. 매 라운드 투표 종료 시 초기화.",
 	name = "응원봉",
 	max_num = 0,
 	type = 98,
@@ -162302,7 +162344,7 @@ _G.pg.base.item_data_statistics[59136] = {
 }
 
 _G.pg.base.item_data_statistics[59137] = {
-	display = "『디바인 트래지코미디』 이벤트에서 교환, 이벤트 종료 후 소실됨. ",
+	display = "「디바인 트래지코미디」 이벤트에서 교환, 이벤트 종료 후 소실됨. ",
 	name = "제국의 영광 ",
 	max_num = 0,
 	type = 98,
@@ -162344,7 +162386,7 @@ _G.pg.base.item_data_statistics[59138] = {
 }
 
 _G.pg.base.item_data_statistics[59139] = {
-	display = "『사령부 동원 지령』 이벤트에서 누적할 시 보상, 이벤트 종료 후 소실됨. ",
+	display = "「사령부 동원 지령」 이벤트에서 누적할 시 보상, 이벤트 종료 후 소실됨. ",
 	name = "집결지 ",
 	max_num = 0,
 	type = 98,
@@ -162365,7 +162407,7 @@ _G.pg.base.item_data_statistics[59139] = {
 }
 
 _G.pg.base.item_data_statistics[59140] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능2019년 11월 14일 후 사용할 수 없습니다.",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능2019년 11월 14일 후 사용할 수 없습니다.",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -162386,7 +162428,7 @@ _G.pg.base.item_data_statistics[59140] = {
 }
 
 _G.pg.base.item_data_statistics[59141] = {
-	display = "[저편을 건너온 물결]에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
+	display = "「저편을 건너온 물결」에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
 	name = "공헌도",
 	max_num = 0,
 	type = 98,
@@ -162407,7 +162449,7 @@ _G.pg.base.item_data_statistics[59141] = {
 }
 
 _G.pg.base.item_data_statistics[59142] = {
-	display = "[저편을 건너온 물결] EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
+	display = "「저편을 건너온 물결」 EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
 	name = "특별 도전권",
 	max_num = 0,
 	type = 98,
@@ -162512,7 +162554,7 @@ _G.pg.base.item_data_statistics[59146] = {
 }
 
 _G.pg.base.item_data_statistics[59147] = {
-	display = "『빛나는 벚꽃의 그림자』이벤트에서 교환. 이벤트 종료 후 사라짐 ",
+	display = "「빛나는 벚꽃의 그림자」이벤트에서 교환. 이벤트 종료 후 사라짐 ",
 	name = "곡옥 ",
 	max_num = 0,
 	type = 98,
@@ -162575,7 +162617,7 @@ _G.pg.base.item_data_statistics[59149] = {
 }
 
 _G.pg.base.item_data_statistics[59150] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -162596,7 +162638,7 @@ _G.pg.base.item_data_statistics[59150] = {
 }
 
 _G.pg.base.item_data_statistics[59151] = {
-	display = "『솔로몬의 무사』 이벤트 전용 교환 아이템. 이벤트 종료 시 자동적으로 사라진다. ",
+	display = "「솔로몬의 무사」 이벤트 전용 교환 아이템. 이벤트 종료 시 자동적으로 사라진다. ",
 	name = "류조 부적 ",
 	max_num = 0,
 	type = 98,
@@ -162701,7 +162743,7 @@ _G.pg.base.item_data_statistics[59155] = {
 }
 
 _G.pg.base.item_data_statistics[59156] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -162743,7 +162785,7 @@ _G.pg.base.item_data_statistics[59157] = {
 }
 
 _G.pg.base.item_data_statistics[59158] = {
-	display = "『꼬마 기사의 훈련일 』 이벤트에서 캐릭터 호감도 상승에 사용되며, 이벤트 종료 후 사라집니다. ",
+	display = "「꼬마 기사의 훈련일 」 이벤트에서 캐릭터 호감도 상승에 사용되며, 이벤트 종료 후 사라집니다. ",
 	name = "호감도-꼬마 리나운",
 	max_num = 0,
 	type = 98,
@@ -162764,7 +162806,7 @@ _G.pg.base.item_data_statistics[59158] = {
 }
 
 _G.pg.base.item_data_statistics[59159] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -162827,7 +162869,7 @@ _G.pg.base.item_data_statistics[59163] = {
 }
 
 _G.pg.base.item_data_statistics[59164] = {
-	display = "『축제광장』에서 건물 업그레이드용 아이템. 이벤트 종료 후 사라짐",
+	display = "「축제광장」에서 건물 업그레이드용 아이템. 이벤트 종료 후 사라짐",
 	name = "축제용 건축 자재",
 	max_num = 0,
 	type = 0,
@@ -162848,7 +162890,7 @@ _G.pg.base.item_data_statistics[59164] = {
 }
 
 _G.pg.base.item_data_statistics[59165] = {
-	display = "『하늘 아래의 찬송가』 이벤트 교환용 아이템. 이벤트 종료 후 사라짐",
+	display = "「하늘 아래의 찬송가」 이벤트 교환용 아이템. 이벤트 종료 후 사라짐",
 	name = "아이리스 인장",
 	max_num = 0,
 	type = 98,
@@ -162890,7 +162932,7 @@ _G.pg.base.item_data_statistics[59167] = {
 }
 
 _G.pg.base.item_data_statistics[59168] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -162911,7 +162953,7 @@ _G.pg.base.item_data_statistics[59168] = {
 }
 
 _G.pg.base.item_data_statistics[59169] = {
-	display = "『피오르드 반격전』 이벤트 교환용 아이템. 이벤트 종료 후 사라집니다. ",
+	display = "「피오르드 반격전」 이벤트 교환용 아이템. 이벤트 종료 후 사라집니다. ",
 	name = "피오르드 휘장 ",
 	max_num = 0,
 	type = 98,
@@ -162953,7 +162995,7 @@ _G.pg.base.item_data_statistics[59170] = {
 }
 
 _G.pg.base.item_data_statistics[59171] = {
-	display = "『영원한 밤의 환광』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「영원한 밤의 환광」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "영예의 왕관",
 	max_num = 0,
 	type = 98,
@@ -162974,7 +163016,7 @@ _G.pg.base.item_data_statistics[59171] = {
 }
 
 _G.pg.base.item_data_statistics[59172] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 코스튬 교환용.",
+	display = "「한정 체험 상점」에서 캐릭터 한정 코스튬 교환용.",
 	name = "코스튬 체험권",
 	max_num = 0,
 	type = 98,
@@ -162995,7 +163037,7 @@ _G.pg.base.item_data_statistics[59172] = {
 }
 
 _G.pg.base.item_data_statistics[59173] = {
-	display = "『서클 시티』 이벤트 교환용. 이벤트 종료 시 사라짐.",
+	display = "「서클 시티」 이벤트 교환용. 이벤트 종료 시 사라짐.",
 	name = "독수리 깃털",
 	max_num = 0,
 	type = 98,
@@ -163016,7 +163058,7 @@ _G.pg.base.item_data_statistics[59173] = {
 }
 
 _G.pg.base.item_data_statistics[59174] = {
-	display = "[메탈 블로드, 음표 & 맹세] 이벤트 교환에 사용된다. 이벤트 종료 후 사라진다. ",
+	display = "「메탈 블로드, 음표 & 맹세」 이벤트 교환에 사용된다. 이벤트 종료 후 사라진다. ",
 	name = "메탈 블러드 문장 ",
 	max_num = 0,
 	type = 98,
@@ -163037,7 +163079,7 @@ _G.pg.base.item_data_statistics[59174] = {
 }
 
 _G.pg.base.item_data_statistics[59175] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권 ",
 	max_num = 0,
 	type = 98,
@@ -163058,7 +163100,7 @@ _G.pg.base.item_data_statistics[59175] = {
 }
 
 _G.pg.base.item_data_statistics[59176] = {
-	display = "『사령부 동원 지령』 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
+	display = "「사령부 동원 지령」 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
 	name = "집결 PT",
 	max_num = 0,
 	type = 98,
@@ -163079,7 +163121,7 @@ _G.pg.base.item_data_statistics[59176] = {
 }
 
 _G.pg.base.item_data_statistics[59177] = {
-	display = "『축제 광장』 건물 업그레이드용. 이벤트 종료 후 사라짐.",
+	display = "「축제 광장」 건물 업그레이드용. 이벤트 종료 후 사라짐.",
 	name = "축제 건축 자재",
 	max_num = 0,
 	type = 0,
@@ -163121,7 +163163,7 @@ _G.pg.base.item_data_statistics[59178] = {
 }
 
 _G.pg.base.item_data_statistics[59179] = {
-	display = "『쥬쥬 모험기』 스테이지 맵 탐색용. 이벤트 종료 후 사라짐.",
+	display = "「쥬쥬 모험기」 스테이지 맵 탐색용. 이벤트 종료 후 사라짐.",
 	name = "탐색 PT",
 	max_num = 0,
 	type = 0,
@@ -163142,7 +163184,7 @@ _G.pg.base.item_data_statistics[59179] = {
 }
 
 _G.pg.base.item_data_statistics[59181] = {
-	display = "『한정 체험 상점』에서 캐릭터 코스튬 기간 한정 교환용.",
+	display = "「한정 체험 상점」에서 캐릭터 코스튬 기간 한정 교환용.",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163163,7 +163205,7 @@ _G.pg.base.item_data_statistics[59181] = {
 }
 
 _G.pg.base.item_data_statistics[59182] = {
-	display = "『접해몽화』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「접해몽화」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "접영",
 	max_num = 0,
 	type = 98,
@@ -163205,7 +163247,7 @@ _G.pg.base.item_data_statistics[59180] = {
 }
 
 _G.pg.base.item_data_statistics[59183] = {
-	display = "『날카로운 해상의 날개』 이벤트 교환용 아이템. 이벤트 종료 후 사라짐.",
+	display = "「날카로운 해상의 날개」 이벤트 교환용 아이템. 이벤트 종료 후 사라짐.",
 	name = "날개의 휘장",
 	max_num = 0,
 	type = 98,
@@ -163247,7 +163289,7 @@ _G.pg.base.item_data_statistics[59184] = {
 }
 
 _G.pg.base.item_data_statistics[59185] = {
-	display = "『격창의 유니버스』이벤트 교환용. 이벤트 종료 후 사라집니다.",
+	display = "「격창의 유니버스」이벤트 교환용. 이벤트 종료 후 사라집니다.",
 	name = "격창휘장",
 	max_num = 0,
 	type = 98,
@@ -163268,7 +163310,7 @@ _G.pg.base.item_data_statistics[59185] = {
 }
 
 _G.pg.base.item_data_statistics[59186] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163331,7 +163373,7 @@ _G.pg.base.item_data_statistics[59188] = {
 }
 
 _G.pg.base.item_data_statistics[59189] = {
-	display = "『휴일항로』 이벤트 교환용. 이벤트 종료 후 사라짐",
+	display = "「휴일항로」 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "비너스 포인트",
 	max_num = 0,
 	type = 98,
@@ -163352,7 +163394,7 @@ _G.pg.base.item_data_statistics[59189] = {
 }
 
 _G.pg.base.item_data_statistics[59190] = {
-	display = "『한정 체험 상점』에서 캐릭터 코스튬을 기간 한정 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 코스튬을 기간 한정 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163373,7 +163415,7 @@ _G.pg.base.item_data_statistics[59190] = {
 }
 
 _G.pg.base.item_data_statistics[59192] = {
-	display = "『부상한 작전』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「부상한 작전」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "철혈의 열쇠",
 	max_num = 0,
 	type = 98,
@@ -163394,7 +163436,7 @@ _G.pg.base.item_data_statistics[59192] = {
 }
 
 _G.pg.base.item_data_statistics[59193] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163478,7 +163520,7 @@ _G.pg.base.item_data_statistics[59195] = {
 }
 
 _G.pg.base.item_data_statistics[59196] = {
-	display = "『디바인 트래지코미디』 이벤트에서 교환, 이벤트 종료 후 소실됨. ",
+	display = "「디바인 트래지코미디」 이벤트에서 교환, 이벤트 종료 후 소실됨. ",
 	name = "제국의 영광 ",
 	max_num = 0,
 	type = 98,
@@ -163499,7 +163541,7 @@ _G.pg.base.item_data_statistics[59196] = {
 }
 
 _G.pg.base.item_data_statistics[59197] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163520,7 +163562,7 @@ _G.pg.base.item_data_statistics[59197] = {
 }
 
 _G.pg.base.item_data_statistics[59198] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163541,7 +163583,7 @@ _G.pg.base.item_data_statistics[59198] = {
 }
 
 _G.pg.base.item_data_statistics[59199] = {
-	display = "『새해축복·신축』 이벤트 교환용. 이벤트 종료 후 사라집니다.",
+	display = "「새해축복·신축」 이벤트 교환용. 이벤트 종료 후 사라집니다.",
 	name = "이스트 글림 매듭",
 	max_num = 0,
 	type = 98,
@@ -163583,7 +163625,7 @@ _G.pg.base.item_data_statistics[59200] = {
 }
 
 _G.pg.base.item_data_statistics[59201] = {
-	display = "『새벽녘에 비치는 빙화』 이벤트 교환용. 이벤트 종료 후 사라집니다.",
+	display = "「새벽녘에 비치는 빙화」 이벤트 교환용. 이벤트 종료 후 사라집니다.",
 	name = "미지 결정",
 	max_num = 0,
 	type = 98,
@@ -163604,7 +163646,7 @@ _G.pg.base.item_data_statistics[59201] = {
 }
 
 _G.pg.base.item_data_statistics[59202] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163625,7 +163667,7 @@ _G.pg.base.item_data_statistics[59202] = {
 }
 
 _G.pg.base.item_data_statistics[59203] = {
-	display = "『가장 귀여운 친구』 이벤트용. 이벤트 종료 후 사라짐.",
+	display = "「가장 귀여운 친구」 이벤트용. 이벤트 종료 후 사라짐.",
 	name = "맛있는 대나무",
 	max_num = 0,
 	type = 98,
@@ -163646,7 +163688,7 @@ _G.pg.base.item_data_statistics[59203] = {
 }
 
 _G.pg.base.item_data_statistics[59204] = {
-	display = "『가장 귀여운 친구』 이벤트용. 이벤트 종료 후 사라짐.",
+	display = "「가장 귀여운 친구」 이벤트용. 이벤트 종료 후 사라짐.",
 	name = "맛있는 대나무",
 	max_num = 0,
 	type = 98,
@@ -163667,7 +163709,7 @@ _G.pg.base.item_data_statistics[59204] = {
 }
 
 _G.pg.base.item_data_statistics[59205] = {
-	display = "『가장 귀여운 친구』 이벤트용. 이벤트 종료 후 사라짐.",
+	display = "「가장 귀여운 친구」 이벤트용. 이벤트 종료 후 사라짐.",
 	name = "맛있는 대나무",
 	max_num = 0,
 	type = 98,
@@ -163730,7 +163772,7 @@ _G.pg.base.item_data_statistics[59207] = {
 }
 
 _G.pg.base.item_data_statistics[59208] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163772,7 +163814,7 @@ _G.pg.base.item_data_statistics[59209] = {
 }
 
 _G.pg.base.item_data_statistics[59210] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163835,7 +163877,7 @@ _G.pg.base.item_data_statistics[59212] = {
 }
 
 _G.pg.base.item_data_statistics[59213] = {
-	display = "『쥬쥬 아이스크림』 보상 교환용. 이벤트 종료 후 사라짐",
+	display = "「쥬쥬 아이스크림」 보상 교환용. 이벤트 종료 후 사라짐",
 	name = "쥬쥬 아이스크림 재료",
 	max_num = 0,
 	type = 98,
@@ -163856,7 +163898,7 @@ _G.pg.base.item_data_statistics[59213] = {
 }
 
 _G.pg.base.item_data_statistics[59214] = {
-	display = "『비추는 나선의 경해』이벤트에서 교환할 수 있으며, 이벤트 종료 후 사라집니다 ",
+	display = "「비추는 나선의 경해」이벤트에서 교환할 수 있으며, 이벤트 종료 후 사라집니다 ",
 	name = "경해의 증표",
 	max_num = 0,
 	type = 98,
@@ -163877,7 +163919,7 @@ _G.pg.base.item_data_statistics[59214] = {
 }
 
 _G.pg.base.item_data_statistics[59215] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -163919,7 +163961,7 @@ _G.pg.base.item_data_statistics[59216] = {
 }
 
 _G.pg.base.item_data_statistics[59217] = {
-	display = "『사령부 동원 지령』 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
+	display = "「사령부 동원 지령」 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
 	name = "집결 PT",
 	max_num = 0,
 	type = 98,
@@ -163940,7 +163982,7 @@ _G.pg.base.item_data_statistics[59217] = {
 }
 
 _G.pg.base.item_data_statistics[59218] = {
-	display = "『쥬쥬랜드』 건물 업그레이드용. 이벤트 종료 후 사라짐",
+	display = "「쥬쥬랜드」 건물 업그레이드용. 이벤트 종료 후 사라짐",
 	name = "랜드 건설 재료",
 	max_num = 0,
 	type = 0,
@@ -163961,7 +164003,7 @@ _G.pg.base.item_data_statistics[59218] = {
 }
 
 _G.pg.base.item_data_statistics[59219] = {
-	display = "『쥬쥬 교환소』 보상 교환용. 이벤트 종료 후 사라짐",
+	display = "「쥬쥬 교환소」 보상 교환용. 이벤트 종료 후 사라짐",
 	name = "쥬쥬 교환권",
 	max_num = 0,
 	type = 98,
@@ -164024,7 +164066,7 @@ _G.pg.base.item_data_statistics[59221] = {
 }
 
 _G.pg.base.item_data_statistics[59222] = {
-	display = "야마시로를 도와 수집한 휴일 해변의 공기. 『휴일의 공세』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "야마시로를 도와 수집한 휴일 해변의 공기. 「휴일의 공세」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "공기를 담은 병",
 	max_num = 0,
 	type = 98,
@@ -164045,7 +164087,7 @@ _G.pg.base.item_data_statistics[59222] = {
 }
 
 _G.pg.base.item_data_statistics[59223] = {
-	display = "『빛나는 벚꽃의 그림자』이벤트에서 교환. 이벤트 종료 후 사라짐 ",
+	display = "「빛나는 벚꽃의 그림자」이벤트에서 교환. 이벤트 종료 후 사라짐 ",
 	name = "곡옥 ",
 	max_num = 0,
 	type = 98,
@@ -164066,7 +164108,7 @@ _G.pg.base.item_data_statistics[59223] = {
 }
 
 _G.pg.base.item_data_statistics[59224] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -164087,7 +164129,7 @@ _G.pg.base.item_data_statistics[59224] = {
 }
 
 _G.pg.base.item_data_statistics[59225] = {
-	display = "[저편을 건너온 물결]에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
+	display = "「저편을 건너온 물결」에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
 	name = "공헌도",
 	max_num = 0,
 	type = 98,
@@ -164108,7 +164150,7 @@ _G.pg.base.item_data_statistics[59225] = {
 }
 
 _G.pg.base.item_data_statistics[59226] = {
-	display = "[저편을 건너온 물결] EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
+	display = "「저편을 건너온 물결」 EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
 	name = "특별 도전권",
 	max_num = 0,
 	type = 98,
@@ -164150,7 +164192,7 @@ _G.pg.base.item_data_statistics[59227] = {
 }
 
 _G.pg.base.item_data_statistics[59229] = {
-	display = "『어둠을 쫓는 은익』이벤트에서 교환. 이벤트 종료 후 사라짐 ",
+	display = "「어둠을 쫓는 은익」이벤트에서 교환. 이벤트 종료 후 사라짐 ",
 	name = "은익 휘장",
 	max_num = 0,
 	type = 98,
@@ -164171,7 +164213,7 @@ _G.pg.base.item_data_statistics[59229] = {
 }
 
 _G.pg.base.item_data_statistics[59230] = {
-	display = "『바다에 울려퍼지는 아이돌 노래』이벤트에서 교환. 이벤트 종료 후 사라짐 ",
+	display = "「바다에 울려퍼지는 아이돌 노래」이벤트에서 교환. 이벤트 종료 후 사라짐 ",
 	name = "콜라보PT",
 	max_num = 0,
 	type = 98,
@@ -164192,7 +164234,7 @@ _G.pg.base.item_data_statistics[59230] = {
 }
 
 _G.pg.base.item_data_statistics[59231] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -164234,7 +164276,7 @@ _G.pg.base.item_data_statistics[59232] = {
 }
 
 _G.pg.base.item_data_statistics[59233] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -164276,7 +164318,7 @@ _G.pg.base.item_data_statistics[59234] = {
 }
 
 _G.pg.base.item_data_statistics[59235] = {
-	display = "『맑고 푸른 바다』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「맑고 푸른 바다」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "옥패",
 	max_num = 0,
 	type = 98,
@@ -164297,7 +164339,7 @@ _G.pg.base.item_data_statistics[59235] = {
 }
 
 _G.pg.base.item_data_statistics[59237] = {
-	display = "『쥬쥬 워터파크』 이벤트 건물 업그레이드용. 이벤트 종료 후 사라짐.",
+	display = "「쥬쥬 워터파크」 이벤트 건물 업그레이드용. 이벤트 종료 후 사라짐.",
 	name = "파크 건설 재료",
 	max_num = 0,
 	type = 0,
@@ -164318,7 +164360,7 @@ _G.pg.base.item_data_statistics[59237] = {
 }
 
 _G.pg.base.item_data_statistics[59238] = {
-	display = "『사령부 동원 지령』 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
+	display = "「사령부 동원 지령」 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
 	name = "집결 PT",
 	max_num = 0,
 	type = 98,
@@ -164339,7 +164381,7 @@ _G.pg.base.item_data_statistics[59238] = {
 }
 
 _G.pg.base.item_data_statistics[59239] = {
-	display = "『쥬쥬 추첨』 보상 교환용. 이벤트 종료 후 사라짐.",
+	display = "「쥬쥬 추첨」 보상 교환용. 이벤트 종료 후 사라짐.",
 	name = "추첨권",
 	max_num = 0,
 	type = 0,
@@ -164360,7 +164402,7 @@ _G.pg.base.item_data_statistics[59239] = {
 }
 
 _G.pg.base.item_data_statistics[59240] = {
-	display = "『한정 스킨 상점』에서 캐릭터 한정 스킨 교환용",
+	display = "「한정 스킨 상점」에서 캐릭터 한정 스킨 교환용",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -164381,7 +164423,7 @@ _G.pg.base.item_data_statistics[59240] = {
 }
 
 _G.pg.base.item_data_statistics[59241] = {
-	display = "『월드 투어』(2021.10.1~11.30) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
+	display = "「월드 투어」(2021.10.1~11.30) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
 	type = 0,
@@ -164444,7 +164486,7 @@ _G.pg.base.item_data_statistics[59243] = {
 }
 
 _G.pg.base.item_data_statistics[59246] = {
-	display = "『하늘 아래의 찬송가』 이벤트 교환용 아이템. 이벤트 종료 후 사라짐",
+	display = "「하늘 아래의 찬송가」 이벤트 교환용 아이템. 이벤트 종료 후 사라짐",
 	name = "아이리스 인장",
 	max_num = 0,
 	type = 98,
@@ -164486,7 +164528,7 @@ _G.pg.base.item_data_statistics[59247] = {
 }
 
 _G.pg.base.item_data_statistics[59248] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -164507,7 +164549,7 @@ _G.pg.base.item_data_statistics[59248] = {
 }
 
 _G.pg.base.item_data_statistics[59249] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -164528,7 +164570,7 @@ _G.pg.base.item_data_statistics[59249] = {
 }
 
 _G.pg.base.item_data_statistics[59250] = {
-	display = "『제노바의 화염』 이벤트용 누적 보상. 이벤트 종료 후 사라짐.",
+	display = "「제노바의 화염」 이벤트용 누적 보상. 이벤트 종료 후 사라짐.",
 	name = "아이리스의 칼날",
 	max_num = 0,
 	type = 98,
@@ -164549,7 +164591,7 @@ _G.pg.base.item_data_statistics[59250] = {
 }
 
 _G.pg.base.item_data_statistics[59251] = {
-	display = "『호광은 교차하는 세계에서』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「호광은 교차하는 세계에서」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "호광 결정",
 	max_num = 0,
 	type = 98,
@@ -164570,7 +164612,7 @@ _G.pg.base.item_data_statistics[59251] = {
 }
 
 _G.pg.base.item_data_statistics[59252] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -164591,7 +164633,7 @@ _G.pg.base.item_data_statistics[59252] = {
 }
 
 _G.pg.base.item_data_statistics[59253] = {
-	display = "『월드 투어』(2021.12.8~2.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
+	display = "「월드 투어」(2021.12.8~2.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
 	type = 0,
@@ -164633,7 +164675,7 @@ _G.pg.base.item_data_statistics[59254] = {
 }
 
 _G.pg.base.item_data_statistics[59255] = {
-	display = "이벤트[내일의 스타? 깜짝 등장!] 중 캐릭터의 호감도 증가에 사용됩니다, 이벤트 종료 후 사라집니다. ",
+	display = "이벤트「내일의 스타? 깜짝 등장!」 중 캐릭터의 호감도 증가에 사용됩니다, 이벤트 종료 후 사라집니다. ",
 	name = "호감도-꼬마 샌디에이고",
 	max_num = 0,
 	type = 98,
@@ -164675,7 +164717,7 @@ _G.pg.base.item_data_statistics[59256] = {
 }
 
 _G.pg.base.item_data_statistics[59257] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -164696,7 +164738,7 @@ _G.pg.base.item_data_statistics[59257] = {
 }
 
 _G.pg.base.item_data_statistics[59258] = {
-	display = "『역행하는 무지개 탑』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「역행하는 무지개 탑」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "깨진 금속판",
 	max_num = 0,
 	type = 98,
@@ -164717,7 +164759,7 @@ _G.pg.base.item_data_statistics[59258] = {
 }
 
 _G.pg.base.item_data_statistics[59259] = {
-	display = "『탄산과 홍차』 이벤트 건물 업그레이드용. 이벤트 종료 후 사라짐.",
+	display = "「탄산과 홍차」 이벤트 건물 업그레이드용. 이벤트 종료 후 사라짐.",
 	name = "업그레이드 허가증",
 	max_num = 0,
 	type = 0,
@@ -164780,7 +164822,7 @@ _G.pg.base.item_data_statistics[59261] = {
 }
 
 _G.pg.base.item_data_statistics[59263] = {
-	display = "『새해축복·신축』 이벤트 교환용. 이벤트 종료 후 사라집니다.",
+	display = "「새해축복·신축」 이벤트 교환용. 이벤트 종료 후 사라집니다.",
 	name = "이스트 글림 매듭",
 	max_num = 0,
 	type = 98,
@@ -164801,7 +164843,7 @@ _G.pg.base.item_data_statistics[59263] = {
 }
 
 _G.pg.base.item_data_statistics[59264] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -164822,7 +164864,7 @@ _G.pg.base.item_data_statistics[59264] = {
 }
 
 _G.pg.base.item_data_statistics[59265] = {
-	display = "『연습 신비 사건 조사』에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
+	display = "「연습 신비 사건 조사」에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
 	name = "공헌도",
 	max_num = 0,
 	type = 98,
@@ -164843,7 +164885,7 @@ _G.pg.base.item_data_statistics[59265] = {
 }
 
 _G.pg.base.item_data_statistics[59266] = {
-	display = "『연습 신비 사건 조사』EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
+	display = "「연습 신비 사건 조사」EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
 	name = "특별 도전권",
 	max_num = 0,
 	type = 98,
@@ -164864,7 +164906,7 @@ _G.pg.base.item_data_statistics[59266] = {
 }
 
 _G.pg.base.item_data_statistics[59267] = {
-	display = "『하이티엔과 하이치의 그림 세계』에서 탐사 가능. 이벤트 종료 후 사라짐.",
+	display = "「하이티엔과 하이치의 그림 세계」에서 탐사 가능. 이벤트 종료 후 사라짐.",
 	name = "탐사 PT",
 	max_num = 0,
 	type = 0,
@@ -164885,7 +164927,7 @@ _G.pg.base.item_data_statistics[59267] = {
 }
 
 _G.pg.base.item_data_statistics[59268] = {
-	display = "『하이티엔과 하이치의 그림 세계』에서 탐사 가능. 이벤트 종료 후 사라짐.",
+	display = "「하이티엔과 하이치의 그림 세계」에서 탐사 가능. 이벤트 종료 후 사라짐.",
 	name = "제작 PT",
 	max_num = 0,
 	type = 0,
@@ -164906,7 +164948,7 @@ _G.pg.base.item_data_statistics[59268] = {
 }
 
 _G.pg.base.item_data_statistics[59269] = {
-	display = "『월드 투어』(2022.2.8~2022.4.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
+	display = "「월드 투어」(2022.2.8~2022.4.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
 	type = 0,
@@ -164990,7 +165032,7 @@ _G.pg.base.item_data_statistics[59272] = {
 }
 
 _G.pg.base.item_data_statistics[59273] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165011,7 +165053,7 @@ _G.pg.base.item_data_statistics[59273] = {
 }
 
 _G.pg.base.item_data_statistics[59274] = {
-	display = "『동절의 북해』 한정 복각 이벤트에서 획득. 무료 한정 건조 1회 가능(이벤트 종료 후 사라짐)",
+	display = "「동절의 북해」 한정 복각 이벤트에서 획득. 무료 한정 건조 1회 가능(이벤트 종료 후 사라짐)",
 	name = "1회 건조권",
 	max_num = 0,
 	type = 0,
@@ -165053,7 +165095,7 @@ _G.pg.base.item_data_statistics[59275] = {
 }
 
 _G.pg.base.item_data_statistics[59276] = {
-	display = "『깊게 울리는 메아리』이벤트에서 교환. 이벤트 종료 후 사라집니다. ",
+	display = "「깊게 울리는 메아리」이벤트에서 교환. 이벤트 종료 후 사라집니다. ",
 	name = "극지 샘플",
 	max_num = 0,
 	type = 98,
@@ -165074,7 +165116,7 @@ _G.pg.base.item_data_statistics[59276] = {
 }
 
 _G.pg.base.item_data_statistics[59277] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165095,7 +165137,7 @@ _G.pg.base.item_data_statistics[59277] = {
 }
 
 _G.pg.base.item_data_statistics[59278] = {
-	display = "『피오르드 반격전』 이벤트 교환용 아이템. 이벤트 종료 후 사라집니다. ",
+	display = "「피오르드 반격전」 이벤트 교환용 아이템. 이벤트 종료 후 사라집니다. ",
 	name = "피오르드 휘장 ",
 	max_num = 0,
 	type = 98,
@@ -165116,7 +165158,7 @@ _G.pg.base.item_data_statistics[59278] = {
 }
 
 _G.pg.base.item_data_statistics[59279] = {
-	display = "『허상의 탑』 이벤트 교환용. 이벤트 종료 후 사라짐",
+	display = "「허상의 탑」 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "허상PT",
 	max_num = 0,
 	type = 98,
@@ -165137,7 +165179,7 @@ _G.pg.base.item_data_statistics[59279] = {
 }
 
 _G.pg.base.item_data_statistics[59280] = {
-	display = "『월드 투어』(2022.4.8~2022.6.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
+	display = "「월드 투어」(2022.4.8~2022.6.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
 	type = 0,
@@ -165179,7 +165221,7 @@ _G.pg.base.item_data_statistics[59281] = {
 }
 
 _G.pg.base.item_data_statistics[59282] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165200,7 +165242,7 @@ _G.pg.base.item_data_statistics[59282] = {
 }
 
 _G.pg.base.item_data_statistics[59283] = {
-	display = "『영원한 밤의 환광』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「영원한 밤의 환광」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "영예의 왕관",
 	max_num = 0,
 	type = 98,
@@ -165221,7 +165263,7 @@ _G.pg.base.item_data_statistics[59283] = {
 }
 
 _G.pg.base.item_data_statistics[59284] = {
-	display = "『영원한 밤의 환광』 한정 복각 이벤트에서 획득. 무료 한정 건조 1회 가능(이벤트 종료 후 사라짐)",
+	display = "「영원한 밤의 환광」 한정 복각 이벤트에서 획득. 무료 한정 건조 1회 가능(이벤트 종료 후 사라짐)",
 	name = "1회 건조권",
 	max_num = 0,
 	type = 0,
@@ -165242,7 +165284,7 @@ _G.pg.base.item_data_statistics[59284] = {
 }
 
 _G.pg.base.item_data_statistics[59285] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165263,7 +165305,7 @@ _G.pg.base.item_data_statistics[59285] = {
 }
 
 _G.pg.base.item_data_statistics[59286] = {
-	display = "『꼬마 기사의 훈련일 』 이벤트에서 캐릭터 호감도 상승에 사용되며, 이벤트 종료 후 사라집니다. ",
+	display = "「꼬마 기사의 훈련일 」 이벤트에서 캐릭터 호감도 상승에 사용되며, 이벤트 종료 후 사라집니다. ",
 	name = "호감도-꼬마 리나운",
 	max_num = 0,
 	type = 98,
@@ -165305,7 +165347,7 @@ _G.pg.base.item_data_statistics[59287] = {
 }
 
 _G.pg.base.item_data_statistics[59290] = {
-	display = "『월드 투어』(2022.6.8~2022.8.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
+	display = "「월드 투어」(2022.6.8~2022.8.7) 이벤트에 참여하여 획득한 포인트. 일정 수량 누적 시 보상 수령 가능. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
 	type = 0,
@@ -165368,7 +165410,7 @@ _G.pg.base.item_data_statistics[59292] = {
 }
 
 _G.pg.base.item_data_statistics[59293] = {
-	display = "『월드투어』(2022.8.1~9.30) 참여 시 획득하는 포인트. 누적하여 보상을 수령할 수 있다. 이벤트 종료 후 사라짐.",
+	display = "「월드투어」(2022.8.1~9.30) 참여 시 획득하는 포인트. 누적하여 보상을 수령할 수 있다. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
 	type = 0,
@@ -165410,7 +165452,7 @@ _G.pg.base.item_data_statistics[59305] = {
 }
 
 _G.pg.base.item_data_statistics[59307] = {
-	display = "『레인보우 피날레』 이벤트 교환용. 이벤트 종료 후 사라짐",
+	display = "「레인보우 피날레」 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "파쇄의 증인",
 	max_num = 0,
 	type = 98,
@@ -165431,7 +165473,7 @@ _G.pg.base.item_data_statistics[59307] = {
 }
 
 _G.pg.base.item_data_statistics[59308] = {
-	display = "『치즈치즈 설탕듬뿍!』 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
+	display = "「치즈치즈 설탕듬뿍!」 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
 	name = "치즈 케이크",
 	max_num = 0,
 	type = 98,
@@ -165452,7 +165494,7 @@ _G.pg.base.item_data_statistics[59308] = {
 }
 
 _G.pg.base.item_data_statistics[59309] = {
-	display = "『치즈치즈 설탕듬뿍!』 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
+	display = "「치즈치즈 설탕듬뿍!」 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
 	name = "치즈 케이크",
 	max_num = 0,
 	type = 98,
@@ -165473,7 +165515,7 @@ _G.pg.base.item_data_statistics[59309] = {
 }
 
 _G.pg.base.item_data_statistics[59310] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165515,7 +165557,7 @@ _G.pg.base.item_data_statistics[59311] = {
 }
 
 _G.pg.base.item_data_statistics[59316] = {
-	display = "『빛나는 정원의 맹세』 이벤트 교환용. 이벤트 종료 후 사라짐",
+	display = "「빛나는 정원의 맹세」 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "맹세의 별",
 	max_num = 0,
 	type = 98,
@@ -165536,7 +165578,7 @@ _G.pg.base.item_data_statistics[59316] = {
 }
 
 _G.pg.base.item_data_statistics[59317] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165557,7 +165599,7 @@ _G.pg.base.item_data_statistics[59317] = {
 }
 
 _G.pg.base.item_data_statistics[59318] = {
-	display = "『크림 쿠키 앤하트!』 이벤트 호감도 상승용. 이벤트 종료 후 사라짐",
+	display = "「크림 쿠키 앤하트!」 이벤트 호감도 상승용. 이벤트 종료 후 사라짐",
 	name = "크림 쿠키",
 	max_num = 0,
 	type = 98,
@@ -165578,7 +165620,7 @@ _G.pg.base.item_data_statistics[59318] = {
 }
 
 _G.pg.base.item_data_statistics[59319] = {
-	display = "『크림 쿠키 앤하트!』 이벤트 호감도 상승용. 이벤트 종료 후 사라짐",
+	display = "「크림 쿠키 앤하트!」 이벤트 호감도 상승용. 이벤트 종료 후 사라짐",
 	name = "크림 쿠키",
 	max_num = 0,
 	type = 98,
@@ -165599,7 +165641,7 @@ _G.pg.base.item_data_statistics[59319] = {
 }
 
 _G.pg.base.item_data_statistics[59320] = {
-	display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다. ",
+	display = "「사령부 동원지령」 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다. ",
 	name = "집결 포인트 ",
 	max_num = 0,
 	type = 98,
@@ -165620,7 +165662,7 @@ _G.pg.base.item_data_statistics[59320] = {
 }
 
 _G.pg.base.item_data_statistics[59321] = {
-	display = "『날카로운 해상의 날개』 이벤트 교환용 아이템. 이벤트 종료 후 사라짐.",
+	display = "「날카로운 해상의 날개」 이벤트 교환용 아이템. 이벤트 종료 후 사라짐.",
 	name = "날개의 휘장",
 	max_num = 0,
 	type = 98,
@@ -165641,7 +165683,7 @@ _G.pg.base.item_data_statistics[59321] = {
 }
 
 _G.pg.base.item_data_statistics[59322] = {
-	display = "『의뢰 교환 계획』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「의뢰 교환 계획」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "군사의뢰 증빙",
 	max_num = 0,
 	type = 98,
@@ -165662,7 +165704,7 @@ _G.pg.base.item_data_statistics[59322] = {
 }
 
 _G.pg.base.item_data_statistics[59323] = {
-	display = "『아이리스의 천사』에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
+	display = "「아이리스의 천사」에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
 	name = "기여치 ",
 	max_num = 0,
 	type = 98,
@@ -165683,7 +165725,7 @@ _G.pg.base.item_data_statistics[59323] = {
 }
 
 _G.pg.base.item_data_statistics[59324] = {
-	display = "『아이리스의 천사』EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
+	display = "「아이리스의 천사」EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
 	name = "특별 도전권",
 	max_num = 0,
 	type = 98,
@@ -165704,7 +165746,7 @@ _G.pg.base.item_data_statistics[59324] = {
 }
 
 _G.pg.base.item_data_statistics[59325] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165746,7 +165788,7 @@ _G.pg.base.item_data_statistics[59326] = {
 }
 
 _G.pg.base.item_data_statistics[59327] = {
-	display = "『접해몽화』 이벤트 한정 복각에서 획득. 한정 건조 무료 1회 진행 가능(이벤트 종료 후 사라짐)",
+	display = "「접해몽화」 이벤트 한정 복각에서 획득. 한정 건조 무료 1회 진행 가능(이벤트 종료 후 사라짐)",
 	name = "1회 건조권",
 	max_num = 0,
 	type = 0,
@@ -165767,7 +165809,7 @@ _G.pg.base.item_data_statistics[59327] = {
 }
 
 _G.pg.base.item_data_statistics[59328] = {
-	display = "『접해몽화』 복각 이벤트 교환용. 이벤트 종료 후 사라짐",
+	display = "「접해몽화」 복각 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "접영",
 	max_num = 0,
 	type = 98,
@@ -165788,7 +165830,7 @@ _G.pg.base.item_data_statistics[59328] = {
 }
 
 _G.pg.base.item_data_statistics[59329] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165830,7 +165872,7 @@ _G.pg.base.item_data_statistics[59330] = {
 }
 
 _G.pg.base.item_data_statistics[59331] = {
-	display = "『독수리의 서사곡』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「독수리의 서사곡」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "박람회 기념 코인",
 	max_num = 0,
 	type = 98,
@@ -165872,7 +165914,7 @@ _G.pg.base.item_data_statistics[59332] = {
 }
 
 _G.pg.base.item_data_statistics[59333] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165893,7 +165935,7 @@ _G.pg.base.item_data_statistics[59333] = {
 }
 
 _G.pg.base.item_data_statistics[59334] = {
-	display = "『라이트 오브 서클 시티』 복각 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「라이트 오브 서클 시티」 복각 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "독수리 깃털",
 	max_num = 0,
 	type = 98,
@@ -165914,7 +165956,7 @@ _G.pg.base.item_data_statistics[59334] = {
 }
 
 _G.pg.base.item_data_statistics[59336] = {
-	display = "『결상점 작전』 이벤트 교환용. 이벤트 종료 후 사라짐",
+	display = "「결상점 작전」 이벤트 교환용. 이벤트 종료 후 사라짐",
 	name = "PT",
 	max_num = 0,
 	type = 98,
@@ -165935,7 +165977,7 @@ _G.pg.base.item_data_statistics[59336] = {
 }
 
 _G.pg.base.item_data_statistics[59337] = {
-	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	display = "「한정 체험 상점」에서 캐릭터 한정 스킨과 교환 가능",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -165949,6 +165991,132 @@ _G.pg.base.item_data_statistics[59337] = {
 	id = 59337,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59338] = {
+	display = "「쥬쥬 패스트푸드」 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "매장 경영 물자",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59338,
+	is_world = 0,
+	icon = "Props/kfc_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59339] = {
+	display = "여러 가구가 포함된 세트. 한정 가구 「컬러 포스터x1」, 「흑백 포스터x1」 획득 가능",
+	name = "포스터 세트",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59339,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59340] = {
+	display = "여러 가구가 포함된 세트. 한정 가구「패스트푸드 바닥x1」, 「패스트푸드 벽지x1」 획득 가능",
+	name = "바닥 벽지 세트",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59340,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59341] = {
+	display = "여러 가구가 포함된 세트. 한정 가구「패스트푸드 테이블x1」, 「패스트푸드 의자x2」, 「쥬쥬 세트x1」 획득 가능",
+	name = "테이블 세트A",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59341,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet3",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59342] = {
+	display = "여러 가구가 포함된 세트. 한정 가구「패스트푸드 테이블x1」, 「패스트푸드 의자x2」, 「쥬쥬 세트(중)x1」 획득 가능",
+	name = "테이블 세트B",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59342,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet4",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59343] = {
+	display = "여러 가구가 포함된 세트. 한정 가구「패스트푸드 테이블x1」, 「패스트푸드 의자x2」, 「쥬쥬 세트(대)x1」, 「패밀리팩x1」 획득 가능",
+	name = "테이블 세트C",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59343,
+	is_world = 0,
+	icon = "Props/kfcFurnitureSet5",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166250,7 +166418,7 @@ _G.pg.base.item_data_statistics[59614] = {
 }
 
 _G.pg.base.item_data_statistics[59615] = {
-	display = "『리플럭스』 이벤트에 쓰이는 누게 점수 보상 획득에 쓰인다. 이벤트 기간이 끝나면 자동으로 소멸된다.",
+	display = "「리플럭스」 이벤트에 쓰이는 누게 점수 보상 획득에 쓰인다. 이벤트 기간이 끝나면 자동으로 소멸된다.",
 	name = "리플럭스 PT",
 	max_num = 0,
 	type = 0,
@@ -171649,7 +171817,7 @@ _G.pg.base.item_data_statistics[60056] = {
 }
 
 _G.pg.base.item_data_statistics[60057] = {
-	display = "『특별 연습·에식스급』에서 획득한 포인트. 일정 수량 누적하여 보상 획득 가능",
+	display = "「특별 연습·에식스급」에서 획득한 포인트. 일정 수량 누적하여 보상 획득 가능",
 	name = "공헌도",
 	max_num = 0,
 	type = 98,
@@ -171670,7 +171838,7 @@ _G.pg.base.item_data_statistics[60057] = {
 }
 
 _G.pg.base.item_data_statistics[60058] = {
-	display = "『특별 연습·에식스급』 EX 해역의 필요 아이템. 일반 해역 추가 보상 횟수를 증가시킬 수도 있다. ",
+	display = "「특별 연습·에식스급」 EX 해역의 필요 아이템. 일반 해역 추가 보상 횟수를 증가시킬 수도 있다. ",
 	name = "특별 도전권",
 	max_num = 0,
 	type = 98,
@@ -174507,7 +174675,7 @@ _G.pg.base.item_data_statistics[60233] = {
 }
 
 _G.pg.base.item_data_statistics[60234] = {
-	display = "『정보 해독』에 사용할 수 있다. 이벤트 종료 후 사라짐",
+	display = "「정보 해독」에 사용할 수 있다. 이벤트 종료 후 사라짐",
 	name = "정보PT",
 	max_num = 0,
 	type = 0,
@@ -174712,6 +174880,153 @@ _G.pg.base.item_data_statistics[60243] = {
 	icon = "Props/yaoqinghan",
 	price = "",
 	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60253] = {
+	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60253,
+	is_world = 0,
+	icon = "props/draw_a",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60254] = {
+	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60254,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60255] = {
+	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60255,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60256] = {
+	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60256,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60257] = {
+	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60257,
+	is_world = 0,
+	icon = "props/draw_e",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60258] = {
+	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60258,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60259] = {
+	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4499,
+	id = 60259,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
 	index = {},
 	shiptrans_id = {}
 }
@@ -177531,7 +177846,7 @@ _G.pg.base.item_data_statistics[70104] = {
 }
 
 _G.pg.base.item_data_statistics[99950] = {
-	display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다.",
+	display = "「사령부 동원지령」 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다.",
 	name = "집결 포인트",
 	max_num = 0,
 	type = 98,
@@ -177552,7 +177867,7 @@ _G.pg.base.item_data_statistics[99950] = {
 }
 
 _G.pg.base.item_data_statistics[99951] = {
-	display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다.",
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
 	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
@@ -177636,7 +177951,7 @@ _G.pg.base.item_data_statistics[99956] = {
 }
 
 _G.pg.base.item_data_statistics[99957] = {
-	display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다.",
+	display = "「사령부 동원지령」 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다.",
 	name = "집결 포인트",
 	max_num = 0,
 	type = 98,

@@ -109,11 +109,13 @@ function slot0.addTranDrop(slot0, slot1)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_timeout_tip", slot4))
 
 					return
-				elseif slot3:ExistSkinCouponActivityAndShopId(slot5) then
+				elseif slot3:ExistSkinCoupon(slot0.id) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", slot4))
 
 					return
-				elseif getProxy(ShipSkinProxy):hasSkin(pg.shop_template[slot5].effect_args[1]) then
+				elseif _.all(slot5, function (slot0)
+					return getProxy(ShipSkinProxy):hasSkin(pg.shop_template[slot0].effect_args[1])
+				end) then
 					if slot1.count > 1 then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", slot4))
 					end
@@ -123,7 +125,7 @@ function slot0.addTranDrop(slot0, slot1)
 					return Item.New({
 						type = DROP_TYPE_RESOURCE,
 						id = slot6,
-						count = pg.shop_discount_coupon_template[slot5].change,
+						count = pg.shop_discount_coupon_template[slot5[1]].change,
 						name = Item.GetName(DROP_TYPE_RESOURCE, slot6) .. "(" .. slot4 .. ")"
 					}), slot1
 				end

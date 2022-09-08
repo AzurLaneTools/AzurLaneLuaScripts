@@ -566,7 +566,11 @@ function slot0.ShouldShowInsTip(slot0)
 	return slot1:ShouldShowTip()
 end
 
-function slot0.ExistSkinCouponActivityAndShopId(slot0, slot1)
+function slot0.ExistSkinCouponActivityAndItemId(slot0, slot1)
+	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() and table.contains(slot2.data1_list, slot1) and slot2.data1 == 1
+end
+
+function slot0.ExistSkinCoupon(slot0, slot1)
 	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() and table.contains(slot2.data1_list, slot1)
 end
 
@@ -576,9 +580,7 @@ end
 
 function slot0.MarkSkinCoupon(slot0, slot1)
 	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() then
-		slot2.data1 = slot2.data1 + 1
-
-		assert(slot1)
+		slot2.data1 = 1
 
 		if not table.contains(slot2.data1_list, slot1) then
 			table.insert(slot2.data1_list, slot1)

@@ -10,27 +10,7 @@ return {
 			side = 2,
 			actorName = "신비한 상인",
 			dir = 1,
-			say = "손님, 정말 우연이다냥!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 312010,
-			nameColor = "#a9f548",
-			side = 2,
-			actorName = "신비한 상인",
-			dir = 1,
-			say = "놓치면 안된다냥. 이번에 새로 들어온 상품을 보겠냥?",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
+			say = "손님, 정말 우연이다냥!놓치면 안된다냥. 이번에 새로 들어온 상품을 보겠냥?",
 			painting = {
 				alpha = 0.3,
 				time = 1

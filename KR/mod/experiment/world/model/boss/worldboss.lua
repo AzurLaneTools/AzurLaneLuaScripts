@@ -190,6 +190,10 @@ function slot0.GetMaxHp(slot0)
 	return slot0.config.hp
 end
 
+function slot0.IsFullHp(slot0)
+	return slot0:GetMaxHp() <= slot0.hp
+end
+
 function slot0.GetName(slot0)
 	return slot0.config.name
 end

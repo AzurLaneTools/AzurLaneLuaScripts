@@ -1,5 +1,119 @@
 pg = pg or {}
 pg.ship_skin_template_11 = {
+	[305010] = {
+		ship_group = 30501,
+		name = "후소",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 305010,
+		group_index = 0,
+		prefab = "fusang",
+		painting = "fusang",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 22,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "후소형 전함 1번함·후소",
+		voice_actor = 71,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					0.43,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.27,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					0.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305011] = {
 		ship_group = 30501,
 		name = "봄의 축복",
@@ -2527,7 +2641,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -6640,7 +6754,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -6753,7 +6867,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -6868,7 +6982,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -6970,7 +7084,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -7072,7 +7186,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -7181,7 +7295,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "1102",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -7283,7 +7397,7 @@ pg.ship_skin_template_11 = {
 		bullet_skin_main = "",
 		skin_type = 1,
 		bg_sp = "",
-		voice_actor_2 = -1,
+		voice_actor_2 = 137,
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
@@ -9281,106 +9395,6 @@ pg.ship_skin_template_11 = {
 		ship_l2d_id = {
 			3070741,
 			3070742
-		}
-	},
-	[307078] = {
-		ship_group = 30707,
-		name = "바닷바람의 유혹",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 307078,
-		group_index = 8,
-		prefab = "dafeng_h",
-		painting = "dafeng_h",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9998,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관님～ 다이호가 선택한 이 곳이 맘에 드시나요~? 여기서는 지휘관님과 단둘이 있을 수 있어요. 누구에게도 방해 받지 않고...! 아아, 다이호의 심장 박동 소리가 파도 소리보다 더 크게 울리네요♡",
-		voice_actor = 145,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.103,
-					1.125,
-					0
-				}
-			},
-			plane = {
-				{
-					1.15,
-					1.132,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.31,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }
