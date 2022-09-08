@@ -37715,6 +37715,108 @@ _G.pg.base.shop_template[70590] = {
 	}
 }
 
+_G.pg.base.shop_template[70592] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:埃尔德里奇中秋",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70592,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		101265
+	},
+	time = {
+		{
+			{
+				2022,
+				9,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				9,
+				14
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70593] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:马布尔黑德中秋",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 170,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70593,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		102273
+	},
+	time = {
+		{
+			{
+				2022,
+				9,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				9,
+				14
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[70599] = {
 	is_auto_use = 0,
 	resource_type = 14,
@@ -39898,6 +40000,57 @@ _G.pg.base.shop_template[70736] = {
 				2022,
 				9,
 				29
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70738] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤:220908U-81中秋节",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 150,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70738,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		408012
+	},
+	time = {
+		{
+			{
+				2022,
+				9,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				9,
+				14
 			},
 			{
 				23,

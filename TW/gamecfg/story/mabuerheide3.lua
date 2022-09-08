@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>三　发起攻势吧！</size>",
+					"太陽般的辣妹\n\n<size=45>三 發起攻勢吧！</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "某日·港区食堂",
+			say = "某日·港區食堂",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗨，马布尔黑德。我听说了哦――？你跟指挥官拍了双人照是吧～？",
+			say = "嗨，馬布爾黑德。我聽說了哦――？你跟指揮官拍了雙人照是吧～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，{namecode:60}也有兴趣吗？拍得还挺不错的哦，要看看么？",
+			say = "嗯嗯，熊野也有興趣嗎？拍得還挺不錯的哦，要看看嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看……奇怪？还以为你们会像恋人一样贴在一起，结果不是那种感觉呢~",
+			say = "我看看……奇怪？還以為你們會像戀人一樣貼在一起，結果不是那種感覺呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟是我这边硬邀请的，如果再贴上去的话就过头了吧？",
+			say = "畢竟是我這邊硬邀請的，如果再貼上去的話就過頭了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是日常生活中普通会有的接触程度吧，难得的双人照，我觉得完全不够哦~",
+			say = "也就是日常生活中普通會有的接觸程度吧，難得的雙人照，我覺得完全不夠哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是吗？孟菲斯觉得呢？",
+			say = "是嗎？曼非斯覺得呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我没什么想法，不要用跟指挥官的接触程度当成炫耀的话题啊……不过那天指挥官倒是说了“转换了个好心情”之类的话呢。",
+			say = "我沒什麼想法，不要用跟指揮官的接觸程度當成炫耀的話題啊……不過那天指揮官倒是說了“轉換了個好心情”之類的話呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是么！出乎意料啊，我一直觉得指挥官是被迫陪着我的呢！",
+			say = "是嗎！出乎意料啊，我一直覺得指揮官是被迫陪著我的呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道说……指挥官其实喜欢比较主动的类型吗？哼哼，看来值得调查一番。",
+			say = "難道說……指揮官其實喜歡比較主動的類型嗎？哼哼，看來值得調查一番。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔——要是一下子就进入拥抱阶段的话会不会有点过了？虽然也有那种手挽手一起走路的人就是了。",
+			say = "唔——要是一下子就進入擁抱階段的話會不會有點過了？雖然也有那種手挽手一起走路的人就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那对原本不起眼的我来说难度还是太高了啦—",
+			say = "那對原本不起眼的我來說難度還是太高了啦—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过下次还是更主动一点，对指挥官发起攻势好了~",
+			say = "不過下次還是更主動一點，對指揮官發起攻勢好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……那你加油哦，我姑且还是支持你的。",
+			say = "……那妳加油哦，我姑且還是支持妳的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从语言之中没有感受到一丝激情！不过总之还是谢谢你啦~",
+			say = "從語言之中沒有感受到一絲激情！不過總之還是謝謝妳啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是指挥官下次也能陪我会就好了。真期待下次的见面啊——",
+			say = "要是指揮官下次也能陪我會就好了。真期待下次的見面啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,
-			say = "感觉好像听到了不得了的对话……",
+			say = "感覺好像聽到了不得了的對話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

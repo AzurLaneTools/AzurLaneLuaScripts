@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>六　夕阳下的真心话</size>",
+					"太陽般的辣妹\n\n<size=45>六  夕陽下的真心話</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "在港区内闲逛了一会后，与马布尔黑德来到后山。不知不觉，时间已经来到了傍晚。",
+			say = "在港區內閒逛了一會後，與馬布爾黑德來到後山。不知不覺，時間已經來到了傍晚。",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论什么时候看，港区的景色都是这么美啊——",
+			say = "無論什麼時候看，港區的景色都是這麼美啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我最喜欢从这里看到的港区了。指挥官也是吧？",
+			say = "我最喜歡從這裡看到的港區了。指揮官也是吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你这是在看哪儿呢——啊，你注意到我胸前的照片了？",
+			say = "你這是在看哪兒呢——啊，你注意到我胸前的照片了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "马布尔黑德将外套胸前的照片递了过来。",
+			say = "馬布爾黑德將外套胸前的照片遞了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我其实本来是个很不起眼的人。刚才对贝壳那么详细的说明也是因为我过去性格的残留吧。",
+			say = "我其實本來是個很不起眼的人。剛才對貝殼那麼詳細的說明也是因為我過去性格的殘留吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然！比起以前，现在的我才是真正的我。我可完全没有想要回到过去的打算哦？",
+			say = "當然！比起以前，現在的我才是真正的我。我可完全沒有想要回到過去的打算哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为――――要是那样的话，我肯定不会像现在这样跟指挥官约会啦――！",
+			say = "因為――――要是那樣的話，我肯定不會像現在這樣跟指揮官約會啦――！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "夕阳映照着她的表情，那是比之前看到的任何表情都要可爱的笑容——",
+			say = "夕陽映照著她的表情，那是比之前看到的任何表情都要可愛的笑容——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？难道刚刚你看呆了吗？",
+			say = "咦？難道剛剛你看呆了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "生活不光是学习和工作——这是我从现在的自己这里学到的。",
+			say = "生活不光是學習和工作——這是我從現在的自己這裡學到的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，今后要是工作上遇到困难的话，就约我出来好好玩一场吧~",
+			say = "指揮官，今後要是工作上遇到困難的話，就約我出來好好玩一場吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,23 +243,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "伸出小指，与马布尔黑德拉勾约定。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯，这样就约好啦☆",
+			say = "伸出小指，與馬布爾黑德拉勾約定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +259,23 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天玩得很开心！指挥官接下来的工作加油哦~",
+			say = "嗯，這樣就約好啦☆",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			bgName = "bg_main_twilight",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "今天玩得很開心！指揮官接下來的工作加油哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "如果再陷入烦恼中的话……下次玩一些更开心怎么样~？",
+			say = "如果再陷入煩惱中的話……下次玩一些更開心怎麼樣~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -243,6 +243,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「白鷹最大最強的Black Dragon登場！一起去撼動世界吧！」</color>\n「鏡位螺旋」活動獲取",
 		scene = {}
 	},
+	[316] = {
+		time_limit_type = 0,
+		name = "龍宮之證",
+		gain_by = "龍宮之證",
+		id = 316,
+		time_second = 0,
+		desc = "<color=#ffffff>「願汝等揭開龍宮城中謎題，尋獲真正的寶藏」</color>\n「碧海光粼」活動獲取",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -325,6 +334,7 @@ pg.item_data_frame = {
 		313,
 		314,
 		315,
+		316,
 		401,
 		402,
 		414,

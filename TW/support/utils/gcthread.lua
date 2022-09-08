@@ -12,26 +12,16 @@ function slot0.Ctor(slot0)
 end
 
 function slot0.GC(slot0, slot1)
-	if slot1 then
-		collectgarbage("collect")
-		slot0:GCFinal()
-	elseif not slot0.running then
-		slot0.running = true
+	slot0.needUnityGC = true
 
-		slot0:CalcStep()
-
-		slot0.gctick = 0
-		slot0.gccost = 0
-
-		UpdateBeat:AddListener(slot0.gcHandle)
-	end
+	slot0:LuaGC(slot1)
 end
 
 function slot0.LuaGC(slot0, slot1)
 	if slot1 then
 		collectgarbage("collect")
+		slot0:GCFinal()
 	elseif not slot0.running then
-		slot0.onLuaGC = true
 		slot0.running = true
 
 		slot0:CalcStep()
@@ -48,7 +38,8 @@ function slot0.GCFinal(slot0)
 
 	UpdateBeat:RemoveListener(slot0.gcHandle)
 
-	if not slot0.onLuaGC then
+	if slot0.needUnityGC then
+		slot0.needUnityGC = false
 		slot2 = PoolMgr.GetInstance():SpriteMemUsage()
 		slot3 = 24
 
@@ -62,8 +53,6 @@ function slot0.GCFinal(slot0)
 
 		LuaHelper.UnityGC()
 	end
-
-	slot0.onLuaGC = false
 
 	if IsUnityEditor then
 		print("lua mem: " .. collectgarbage("count") * uv0.R1024 .. "MB")

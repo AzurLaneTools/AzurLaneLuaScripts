@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一直以来辛苦指挥官了呢，呵呵~",
+			say = "一直以來辛苦指揮官了呢，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 399040,
 			dir = 1,
-			say = "和指挥官一起的这段时光，真的是非常美好呢…",
+			say = "和指揮官一起的這段時光，真的是非常美好呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，我们是不会仅仅止步于此的，对吧？",
+			say = "當然，我們是不會僅僅止步於此的，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 399040,
 			dir = 1,
-			say = "请放心，今后{namecode:165}也会一直陪着你的，指挥官~",
+			say = "請放心，今後{namecode:165}也會一直陪著你的，指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

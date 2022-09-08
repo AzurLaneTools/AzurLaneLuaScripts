@@ -14698,19 +14698,70 @@ _G.pg.base.gametip.guild_member_tip = {
 			info = "成員管理說明："
 		},
 		{
-			info = "1.大艦隊成員可在此介面查看其他成員的指揮官信息。 "
+			info = "1.大艦隊成員可在此介面查看其他成員的指揮官訊息。"
 		},
 		{
-			info = "2.艦隊司令、副司令可以任命變更<color=#92fc63>職位比自己低</color>的成員的職位。 "
+			info = "2.艦隊司令、副司令可以任命變更<color=#92fc63>職位比自己低</color>的成員的職位，艦隊司令可以從<color=#92fc63>副司令</color>中任命新的艦隊司令。大艦隊可委任的副司令人數上限為<color=#92fc63>4</color>人。"
 		},
 		{
-			info = "3.艦隊司令、副司令可以開除<color=#92fc63>職位比自己低</color>的成員。 "
+			info = "3.艦隊司令、副司令可以開除<color=#92fc63>職位比自己低</color>的成員。"
 		},
 		{
 			info = "4.當艦隊司令超過<color=#92fc63>10</color>天沒有上線，副司令可以<color=#92fc63>彈劾</color>艦隊司令。"
 		},
 		{
-			info = "5.彈劾流程：申請彈劾後<color=#92fc63>24</color>小時內，艦隊司令可以在大艦隊介面內駁回彈劾，如過<color=#92fc63 >24</color>小時內未能駁回彈劾，則艦隊司令移交給<color=#92fc63>活躍度最高</color>的副司令。 "
+			info = "5.彈劾流程：申請彈劾後<color=#92fc63>24</color>小時內，艦隊司令可以在大艦隊介面內駁回彈劾，如果<color=#92fc63>24</color>小時內未能駁回彈劾，則艦隊司令移交給<color=#92fc63>活躍度最高</color>的副司令。"
+		},
+		{
+			info = "6.關於<color=#92fc63>見習成員</color>："
+		},
+		{
+			info = "   初入大艦隊的指揮官默認為見習成員"
+		},
+		{
+			info = "   見習成員活躍度達到100自動轉正"
+		},
+		{
+			info = "    見習成員無法被管理變更職位"
+		},
+		{
+			info = "    見習成員無法學習大艦隊科技"
+		},
+		{
+			info = "    見習成員無法領取大艦隊補給"
+		},
+		{
+			info = "    見習成員無法領取作戰報告獎勵"
+		},
+		{
+			info = "    其餘權限等同於普通成員"
+		},
+		{
+			info = "※見習成員被開除後，可以從系統郵箱領取屬於在艦隊期間累積的作戰報告獎勵"
+		},
+		{
+			info = "7.關於<color=#92fc63>活躍度</color>："
+		},
+		{
+			info = "在遊戲內完成各種日常&周常&大艦隊相關行為，可以獲得<color=#92fc63>活躍度</color>，相應計數如下："
+		},
+		{
+			info = "    完成日常任務：<color=#92fc63>2</color>點"
+		},
+		{
+			info = "    完成周常任務：<color=#92fc63>5</color>點"
+		},
+		{
+			info = "    完成1次大艦隊個人任務：<color =#92fc63>2</color>點"
+		},
+		{
+			info = "    完成1次軍需籌備：<color=#92fc63>10</color>點"
+		},
+		{
+			info = "    大艦隊作戰事件派遣1次：<color=#92fc63>1</color>點"
+		},
+		{
+			info = "    挑戰1次大艦隊作戰首領戰：<color=#92fc63>10</color>點"
 		}
 	}
 }
@@ -19210,6 +19261,10 @@ _G.pg.base.gametip.title_info = {
 	tip = "訊息"
 }
 
+_G.pg.base.gametip.eva_comment_send_null = {
+	tip = "請輸入評論"
+}
+
 _G.pg.base.gametip.rename_input = {
 	tip = "輸入名稱"
 }
@@ -19382,4 +19437,16 @@ _G.pg.base.gametip.icecreamgame_tip = {
 
 _G.pg.base.gametip.unlock_date_tip = {
 	tip = "<color=#92fc63>$1月$2日</color>解鎖"
+}
+
+_G.pg.base.gametip.guild_duty_shoule_be_deputy_commander = {
+	tip = "艦隊司令僅能從副司令成員中任命"
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt_is_full = {
+	tip = "<color=#C3C3C3>人數已滿</color>"
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt = {
+	tip = "<color=#C3C3C3>已委任：<color=#92fc63>$1/$2</color></color>"
 }

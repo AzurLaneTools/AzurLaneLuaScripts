@@ -76,6 +76,8 @@ function slot0.OnInitItem(slot0, slot1)
 
 		uv0.selected:SetSelected(true)
 
+		uv0.selectedId = uv1.memberVO.id
+
 		if uv0.OnClickMember then
 			uv0.OnClickMember(uv1.memberVO)
 		end
@@ -92,6 +94,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	end
 
 	slot3:Update(slot0.memberVOs[slot1 + 1], slot0.guildVO)
+	slot3:SetSelected(slot0.selectedId and slot0.selectedId == slot4.id)
 
 	if not slot0.selected and slot1 == 0 then
 		triggerButton(slot3.tf)

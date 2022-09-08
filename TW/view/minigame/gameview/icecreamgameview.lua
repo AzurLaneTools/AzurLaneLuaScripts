@@ -1200,6 +1200,14 @@ function slot0.getGameTotalTime(slot0)
 	return slot0:GetMGHubData():getConfig("reward_need")
 end
 
+function slot0.OnApplicationPaused(slot0, slot1)
+	if slot1 and not slot0.gameEndFlag and slot0.gameStartFlag and not slot0.gamePause then
+		slot0:pauseGame()
+		pg.UIMgr.GetInstance():OverlayPanel(slot0.pauseUI)
+		setActive(slot0.pauseUI, true)
+	end
+end
+
 function slot0.onBackPressed(slot0)
 	if slot0.gameEndFlag then
 		return
@@ -1227,8 +1235,8 @@ function slot0.onBackPressed(slot0)
 
 	if slot0.gameStartFlag then
 		slot0:pauseGame()
-		pg.UIMgr.GetInstance():OverlayPanel(slot0.returnUI)
-		setActive(slot0.returnUI, true)
+		pg.UIMgr.GetInstance():OverlayPanel(slot0.pauseUI)
+		setActive(slot0.pauseUI, true)
 
 		return
 	end

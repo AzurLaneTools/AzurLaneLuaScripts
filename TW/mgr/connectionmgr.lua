@@ -126,18 +126,23 @@ function slot1.Reconnect(slot0, slot1)
 				uv1:setLastLogin(uv0)
 				uv2()
 
-				if uv3 ~= DISCONNECT_TIME_OUT and uv4:getPacketIdx() > 0 then
+				if uv3 == DISCONNECT_TIME_OUT then
+					if nowWorld() and slot1.type ~= World.TypeBase then
+						WorldConst.ReqWorldForServer()
+					end
+				elseif uv4:getPacketIdx() > 0 then
 					uv5.needStartSend = false
+					slot1 = uv4
 
-					uv4:Send(11001, {
+					slot1:Send(11001, {
 						timestamp = 1
 					}, 11002, function (slot0)
 						uv0.TimeMgr.GetInstance():SetServerTime(slot0.timestamp, slot0.monday_0oclock_timestamp)
 						uv0.m02:sendNotification(GAME.CHANGE_CHAT_ROOM, 0)
 					end)
-					uv6.m02:sendNotification(GAME.ON_RECONNECTION_GAME)
-					WorldConst.ReqWorldForServer()
-				elseif uv5.needStartSend then
+				end
+
+				if uv5.needStartSend then
 					uv5.needStartSend = false
 
 					uv4:StartSend()

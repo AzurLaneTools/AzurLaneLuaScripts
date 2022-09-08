@@ -25047,6 +25047,290 @@ _G.pg.base.task_data_template[5697] = {
 	}
 }
 
+_G.pg.base.task_data_template[5701] = {
+	name = "猜猜我是誰",
+	guild_coin_award = 0,
+	award = 5506,
+	type = 5,
+	desc = "提交3個《魚雷天婦羅》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "mabuerheide",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5702",
+	auto_commit = 0,
+	story_id = "MABUERHEIDE1",
+	id = 5701,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5702] = {
+	name = "好，茄子☆",
+	guild_coin_award = 0,
+	award = 5507,
+	type = 5,
+	desc = "強化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "mabuerheide",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "MABUERHEIDE2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5703",
+	auto_commit = 0,
+	scene = "",
+	id = 5702,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5703] = {
+	name = "發起攻勢吧！",
+	guild_coin_award = 0,
+	award = 5508,
+	type = 5,
+	desc = "馬布爾黑德上陣出擊(關卡)勝利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "mabuerheide",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "MABUERHEIDE3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10227",
+	priority_type = 0,
+	next_task = "5704",
+	auto_commit = 0,
+	scene = "",
+	id = 5703,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5704] = {
+	name = "甜蜜的關係",
+	guild_coin_award = 0,
+	award = 5509,
+	type = 5,
+	desc = "馬布爾黑德上陣完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "mabuerheide",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "MABUERHEIDE4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10227",
+	priority_type = 0,
+	next_task = "5705",
+	auto_commit = 0,
+	scene = "",
+	id = 5704,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5705] = {
+	name = "開玩笑的",
+	guild_coin_award = 0,
+	award = 5510,
+	type = 5,
+	desc = "馬布爾黑德好感度達到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "mabuerheide",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "MABUERHEIDE5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10227",
+	priority_type = 0,
+	next_task = "5706",
+	auto_commit = 0,
+	scene = "",
+	id = 5705,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5706] = {
+	name = "夕陽下的真心話",
+	guild_coin_award = 0,
+	award = 5511,
+	type = 5,
+	desc = "馬布爾黑德突破至滿星",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "mabuerheide",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "MABUERHEIDE6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "102274",
+	priority_type = 0,
+	next_task = "5707",
+	auto_commit = 0,
+	scene = "",
+	id = 5706,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5707] = {
+	name = "浪漫的預感",
+	guild_coin_award = 0,
+	award = 5512,
+	type = 5,
+	desc = "馬布爾黑德等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "mabuerheide",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "MABUERHEIDE7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10227",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5707,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[5721] = {
 	name = "沒有艦歷的女孩",
 	guild_coin_award = 0,

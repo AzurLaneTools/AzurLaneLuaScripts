@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>四　甜蜜的关系</size>",
+					"太陽般的辣妹\n\n<size=45>四 甜蜜的關係</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "港区·学园内",
+			say = "港區·學園內",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——啊！马布尔黑德！来的正好，这些给你！",
+			say = "——啊！馬布爾黑德！來的正好，這些給妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？怎么了——这，这座巧克力山是怎么回事啊？！",
+			say = "欸？怎麼了——這，這座巧克力山是怎麼回事啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些是我珍藏了很久的巧克力哦！其实从今天开始我就要挑战减肥啦！",
+			say = "這些是我珍藏了很久的巧克力哦！其實從今天開始我就要挑戰減肥啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然非～～～常不愿意送给你，可这也是为了减肥所必要的牺牲！",
+			say = "雖然非～～～常不願意送給妳，可這也是為了減肥所必要的犧牲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别勉强自己啦。之前不也说过类似的话然后失败了么——",
+			say = "別勉強自己啦。之前不也說過類似的話然後失敗了嗎——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次一定会成功的！总而言之，这些都送给你了！",
+			say = "這次一定會成功的！總而言之，這些都送給妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等——走掉了哎……这么多我也吃不完，要不分一些给康克德——",
+			say = "等等——走掉了哎……這麼多我也吃不完，要不分一些給康克德——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！指挥官！喂——！这边这边！",
+			say = "啊！指揮官！喂——！這邊這邊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "走在路上的时候，被突然出现的声音叫住了。",
+			say = "走在路上的時候，被突然出現的聲音叫住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……啊！糟了，两只手都拿着东西，没法和指挥官玩“猜猜我是谁？”的游戏了！",
+			say = "……啊！糟了，兩隻手都拿著東西，沒法和指揮官玩“猜猜我是誰？”的遊戲了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,11 +253,11 @@ return {
 			},
 			options = {
 				{
-					content = "已经猜到了。",
+					content = "已經猜到了。",
 					flag = 1
 				},
 				{
-					content = "是马布尔黑德。",
+					content = "是馬布爾黑德。",
 					flag = 1
 				}
 			}
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是……这次指挥官是被我从正面叫住的嘛——算啦，比起这个，眼下的巧克力山才是更重要的问题！",
+			say = "說的也是……這次指揮官是被我從正面叫住的嘛——算啦，比起這個，眼下的巧克力山才是更重要的問題！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我一个人实在是吃不完这么多，指挥官能帮帮忙吗？",
+			say = "我一個人實在是吃不完這麼多，指揮官能幫幫忙嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "――――哈啊，口中被甜味充满了，超满足——！",
+			say = "――――哈啊，口中被甜味充滿了，超滿足——！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是美食家奥马哈的存粮，真是绝品！",
+			say = "不愧是美食家奧馬哈的存糧，真是絕品！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,56 +361,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也是这么觉得吧~唔……嘿嘿，指挥官刚才急匆匆的打算去哪儿呀？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_103",
-			actor = 102270,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "“只是在转换心情而已？”嗯嗯……原来如此原来如此。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "那不如来个彻底转换，接下来我们在港区里进行二人约会怎么样！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "太突然了吗？可是吃了这么多巧克力，必须要稍微运动一下才好吧。",
+			say = "指揮官也是這麼覺得吧~唔……嘿嘿，指揮官剛才急匆匆的打算去哪兒呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +378,56 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然如此，和我去约会不是最好的选择么~？",
+			say = "“只是在轉換心情而已？”嗯嗯……原來如此原來如此。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "那不如來個徹底轉換，接下來我們在港區裡進行二人約會怎麼樣！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "太突然了嗎？可是吃了這麼多巧克力，必須要稍微運動一下才好吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_103",
+			actor = 102270,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "既然如此，和我去約會不是最好的選擇嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "还是一如既往地马布尔黑德风格……不过当成气氛转换的话——",
+			say = "還是一如既往地馬布爾黑德風格……不過當成氣氛轉換的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

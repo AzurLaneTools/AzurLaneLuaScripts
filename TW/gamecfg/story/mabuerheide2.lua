@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>二　好，茄子☆</size>",
+					"太陽般的辣妹\n\n<size=45>二 好，茄子☆</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "来到室外之后，阳光和煦，微风清爽，比想象中的要舒适许多。",
+			say = "來到室外之後，陽光和煦，微風清爽，比想像中的要舒適許多。",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……既然顺着势头出了门，接下来做些什么好呢？",
+			say = "唔……既然順著勢頭出了門，接下來做些什麼好呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦？从那边走过来的难道是——",
+			say = "哦？從那邊走過來的難道是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "上午好，这不是指挥官和马布尔黑德么，你们在这里做什么？",
+			say = "上午好，這不是指揮官和馬布爾黑德嗎，你們在這裡做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在带指挥官转换气氛中~孟菲斯是在散步吗?",
+			say = "正在帶指揮官轉換氣氛中~曼非斯是在散步嗎?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与其说是散步，不如说是正在向着目的地移动的过程中。今天天气合适，所以想着用相机去拍拍港区景色优美的地方。",
+			say = "與其說是散步，不如說是正在向著目的地移動的過程中。今天天氣合適，所以想著用相機去拍拍港區景色優美的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！那我可以一个很值得拍的风景哦！",
+			say = "哦哦！那我可以推薦一個很值得拍的風景哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在哪里？",
+			say = "在哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然我 and 指挥官啦！指挥官指挥官，快过来这边对着镜头一起笑一个~",
+			say = "當然我 and 指揮官啦！指揮官指揮官，快過來這邊對著鏡頭一起笑一個~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我就知道……好吧，两位再靠近一些我才好拍哦。",
+			say = "我就知道……好吧，兩位再靠近一些我才好拍哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然孟菲斯都这么说，指挥官就再靠过来点……OK！那就，茄子☆",
+			say = "既然曼非斯都這麼說，指揮官就再靠過來點……OK！那就，茄子☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "幸好今天带着的是拍立得。稍等一下，马上就好。",
+			say = "幸好今天帶著的是拍立得。稍等一下，馬上就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_113",
 			dir = 1,
-			say = "不长时间，孟菲斯就把显影后的照片递给了马布尔黑德。",
+			say = "不長時間，曼非斯就把顯影後的照片遞給了馬布爾黑德。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不错~接下来让我来加工加工——",
+			say = "不錯~接下來讓我來加工加工——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "用荧光笔这么一画……嘿！怎么样指挥官？稍微涂了几下之后是不是有稍微有点感觉了？",
+			say = "用螢光筆這麼一畫……嘿！怎麼樣指揮官？稍微塗了幾下之後是不是有稍微有點感覺了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,23 +342,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_113",
 			dir = 1,
-			say = "在被她用荧光笔添上涂鸦后，照片确实变得像华丽的大头贴一样了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不错不错，这张就作为纪念放到我的相册里好了，嘿嘿~",
+			say = "在被她用螢光筆添上塗鴉後，照片確實變得像華麗的大頭貼一樣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +358,23 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官有感觉放松下来么~哼，那么下次一定要猜对哦，再见啦——",
+			say = "不錯不錯，這張就作為紀念放到我的相冊裡好了，嘿嘿~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			bgName = "star_level_bg_113",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "指揮官有感覺放鬆下來嗎~哼，那麼下次一定要猜對哦，再見啦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，马布尔黑德，等一下——真是的……一直被那孩子牵着鼻子走，指挥官你也不容易呢。",
+			say = "啊，馬布爾黑德，等一下——真是的……一直被那孩子牽著鼻子走，指揮官你也不容易呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过要是能因此转换下心情，我也就不说什么了。",
+			say = "不過要是能因此轉換下心情，我也就不說什麼了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我差不多也该走了。难得的休息日，不要太勉强哦。",
+			say = "我差不多也該走了。難得的休息日，不要太勉強哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

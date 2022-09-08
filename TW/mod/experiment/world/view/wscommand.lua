@@ -1544,17 +1544,13 @@ function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
 
 				if _.detect(uv0[2], function (slot0)
 					return slot0[1] == uv0
-				end) then
-					if slot2[2] > 0 then
-						uv1:Op("OpTriggerEvent", master:NewMapOp({
-							attachment = uv2,
-							effect = pg.world_effect_data[slot2[2]]
-						}), slot0)
-					else
-						slot0()
-					end
+				end) and slot2[2] > 0 then
+					uv1:Op("OpTriggerEvent", master:NewMapOp({
+						attachment = uv2,
+						effect = pg.world_effect_data[slot2[2]]
+					}), slot0)
 				else
-					uv1:Op("OpInteractive")
+					slot0()
 				end
 			end)
 

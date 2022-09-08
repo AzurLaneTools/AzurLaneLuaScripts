@@ -19768,6 +19768,173 @@ pg.activity_template = {
 			ui_name = "KFCPtPage"
 		}
 	},
+	[40780] = {
+		mark = 20220908,
+		config_client = "",
+		title_res_tag = "Wuqitianyun",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 26,
+		id = 40780,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WuQiFittingDisplayPage",
+			ui_name = "WuQiFittingDisplayPage"
+		}
+	},
+	[40781] = {
+		mark = 20220908,
+		id = 40781,
+		title_res_tag = "Neptune_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 26,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AzumaTecCatchupPage",
+			ui_name = "AzumaTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42014
+		}
+	},
+	[40782] = {
+		mark = 20210916,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 14,
+		is_show = 0,
+		config_client = "",
+		id = 40782,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40783] = {
+		mark = 20210916,
+		config_client = "",
+		title_res_tag = "JapanV2_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 40783,
+		is_show = 27,
+		id = 40783,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JapanV2frameRePage",
+			ui_name = "JapanV2framePage"
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		time = "stop",
@@ -22033,6 +22200,10 @@ pg.activity_template = {
 		40762,
 		40763,
 		40764,
+		40780,
+		40781,
+		40782,
+		40783,
 		45000,
 		45001,
 		45002,

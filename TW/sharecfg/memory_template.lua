@@ -6787,6 +6787,17 @@ pg.memory_template = {
 		icon = "memory_jhbeifeng",
 		is_open = 0
 	},
+	[724] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-{namecode:165}",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK39904",
+		id = 724,
+		icon = "memory_jhwuqi",
+		is_open = 0
+	},
 	[725] = {
 		type = 1,
 		subtitle = "",
@@ -15895,6 +15906,83 @@ pg.memory_template = {
 		icon = "memory_kasabulanka",
 		is_open = 0
 	},
+	[1841] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "猜猜我是誰",
+		condition = "解鎖「太陽般的辣妹」任務1",
+		story = "MABUERHEIDE1",
+		id = 1841,
+		icon = "memory_mabuerheide",
+		is_open = 0
+	},
+	[1842] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "好，茄子☆",
+		condition = "解鎖「太陽般的辣妹」任務2",
+		story = "MABUERHEIDE2",
+		id = 1842,
+		icon = "memory_mabuerheide",
+		is_open = 0
+	},
+	[1843] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "發起攻勢吧！",
+		condition = "解鎖「太陽般的辣妹」任務3",
+		story = "MABUERHEIDE3",
+		id = 1843,
+		icon = "memory_mabuerheide",
+		is_open = 0
+	},
+	[1844] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "甜蜜的關係",
+		condition = "解鎖「太陽般的辣妹」任務4",
+		story = "MABUERHEIDE4",
+		id = 1844,
+		icon = "memory_mabuerheide",
+		is_open = 0
+	},
+	[1845] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "開玩笑的",
+		condition = "解鎖「太陽般的辣妹」任務5",
+		story = "MABUERHEIDE5",
+		id = 1845,
+		icon = "memory_mabuerheide",
+		is_open = 0
+	},
+	[1846] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "夕陽下的真心話",
+		condition = "解鎖「太陽般的辣妹」任務6",
+		story = "MABUERHEIDE6",
+		id = 1846,
+		icon = "memory_mabuerheide",
+		is_open = 0
+	},
+	[1847] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "浪漫的預感 ",
+		condition = "解鎖「太陽般的辣妹」任務7",
+		story = "MABUERHEIDE7",
+		id = 1847,
+		icon = "memory_mabuerheide",
+		is_open = 0
+	},
 	[1861] = {
 		type = 1,
 		subtitle = "",
@@ -17481,6 +17569,7 @@ pg.memory_template = {
 		720,
 		721,
 		722,
+		724,
 		725,
 		726,
 		727,
@@ -18309,6 +18398,13 @@ pg.memory_template = {
 		1795,
 		1796,
 		1797,
+		1841,
+		1842,
+		1843,
+		1844,
+		1845,
+		1846,
+		1847,
 		1861,
 		1862,
 		1863,

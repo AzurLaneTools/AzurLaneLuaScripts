@@ -2948,6 +2948,22 @@ pg.memory_group = {
 			1797
 		}
 	},
+	[568] = {
+		icon = "title_chara_mabuerheide",
+		subtype = 0,
+		type = 3,
+		id = 568,
+		title = "太陽般的辣妹",
+		memories = {
+			1841,
+			1842,
+			1843,
+			1844,
+			1845,
+			1846,
+			1847
+		}
+	},
 	[570] = {
 		icon = "title_chara_junhe",
 		subtype = 0,
@@ -3123,6 +3139,7 @@ pg.memory_group = {
 		565,
 		566,
 		567,
+		568,
 		570
 	}
 }
