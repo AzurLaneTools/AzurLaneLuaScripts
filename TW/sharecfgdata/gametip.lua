@@ -14752,7 +14752,7 @@ _G.pg.base.gametip.guild_member_tip = {
 			info = "    完成周常任務：<color=#92fc63>5</color>點"
 		},
 		{
-			info = "    完成1次大艦隊個人任務：<color =#92fc63>2</color>點"
+			info = "    完成1次大艦隊個人任務：<color=#92fc63>2</color>點"
 		},
 		{
 			info = "    完成1次軍需籌備：<color=#92fc63>10</color>點"

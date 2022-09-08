@@ -33,8 +33,42 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "40780",
 		id = 2,
+		pic = "temp12",
+		type = 2,
+		param = {
+			"scene skinshop"
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "40780",
+		id = 3,
 		pic = "temp4",
 		type = 3,
 		time = {
@@ -66,7 +100,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "40781",
-		id = 3,
+		id = 4,
 		pic = "temp14",
 		type = 3,
 		time = {
@@ -98,7 +132,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "40775",
-		id = 4,
+		id = 5,
 		pic = "temp9",
 		type = 3,
 		time = {
@@ -129,7 +163,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 5,
+		id = 6,
 		pic = "temp13",
 		type = 2,
 		param = {
@@ -156,40 +190,6 @@ pg.activity_banner = {
 					2022,
 					9,
 					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp12",
-		type = 2,
-		param = {
-			"scene skinshop"
-		},
-		time = {
-			{
-				{
-					2022,
-					9,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					14
 				},
 				{
 					23,
@@ -731,9 +731,9 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
-			2,
 			3,
 			4,
+			5,
 			7,
 			8,
 			10,
@@ -742,7 +742,7 @@ pg.activity_banner = {
 			18
 		},
 		[2] = {
-			5,
+			2,
 			6,
 			9,
 			12,
