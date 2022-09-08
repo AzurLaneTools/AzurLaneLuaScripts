@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我迫切的等待前辈回来之后揭露谜底哟。",
+			say = "我迫切地等待前辈回来之后揭露谜底哟。",
 			painting = {
 				alpha = 0.3,
 				time = 1

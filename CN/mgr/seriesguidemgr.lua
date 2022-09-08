@@ -26,10 +26,8 @@ end
 
 function slot0.isNotFinish(slot0)
 	if getProxy(PlayerProxy) then
-		return slot1:getRawData().guideIndex < uv0
+		return slot1:getRawData().guideIndex < 28
 	end
-
-	return true
 end
 
 function slot0.loadGuide(slot0, slot1)
@@ -42,14 +40,7 @@ end
 
 function slot0.Init(slot0, slot1)
 	slot0.state = uv0.IDLE
-
-	if ENABLE_AUTO_GUIDE then
-		slot0.guideCfgs = slot0:loadGuide("AutoG001")
-	else
-		slot0.guideCfgs = slot0:loadGuide("SG001")
-	end
-
-	uv1 = #slot0.guideCfgs
+	slot0.guideCfgs = slot0:loadGuide("SG001")
 	slot0.guideMgr = pg.GuideMgr.GetInstance()
 	slot0.protocols = {}
 	slot0.onReceiceProtocol = nil
@@ -59,7 +50,7 @@ end
 
 function slot0.dispatch(slot0, slot1)
 	if slot0:canPlay(slot1) then
-		slot0:Mask()
+		slot0.guideMgr:mask()
 	end
 end
 
@@ -67,109 +58,82 @@ function slot0.start(slot0, slot1)
 	if slot0:canPlay(slot1) then
 		slot0.state = uv0.BUSY
 
-		slot0:UnMask()
+		slot0.guideMgr:unMask()
 
 		slot0.stepConfig = slot0:getStepConfig(slot0.currIndex)
 
-		function slot2(slot0, slot1)
+		function slot2(slot0)
 			uv0.state = uv1.IDLE
-
-			if slot1 then
-				print("clearProtocol" .. uv0.stepConfig.index)
-
-				uv0.protocols = {}
-			end
+			uv0.protocols = {}
 
 			if not uv0.stepConfig.interrupt then
 				uv0:doNextStep(uv0.currIndex, slot0)
 			end
 		end
 
-		slot0:doGuideStep(slot1, function (slot0, slot1, slot2)
-			slot2 = defaultValue(slot2, true)
-
+		slot0:doGuideStep(slot1, function (slot0, slot1)
 			if uv0.stepConfig.end_segment and slot1 then
 				uv0.guideMgr:play(uv0.stepConfig.end_segment, uv1.code, function ()
-					uv0(uv1, uv2)
+					uv0(uv1)
 				end)
 			else
-				uv2(slot0, slot2)
+				uv2(slot0)
 			end
 		end)
 	end
 end
 
 function slot0.doGuideStep(slot0, slot1, slot2)
-	if slot0.stepConfig.non_protocol then
-		slot0.guideMgr:play(slot0.stepConfig.segment, {}, function ()
-			uv0:increaseIndex(function ()
-				uv0({
-					uv1.CODES.GUIDER
-				}, false, false)
-			end)
-		end, function ()
-			uv0:updateIndex(uv1)
-		end)
-	else
-		if slot0.stepConfig.condition then
-			slot3, slot4 = slot0:checkCondition(slot1)
-			slot5 = slot0.currIndex < slot4
+	if slot0.stepConfig.condition then
+		slot3, slot4 = slot0:checkCondition(slot1)
+		slot5 = slot0.currIndex < slot4
 
-			slot0:updateIndex(slot4, function ()
-				uv0({
-					uv1
-				}, uv2)
-			end)
-
-			return
-		end
-
-		slot3 = slot0.stepConfig.segment[slot0:getSegmentIndex()]
-		slot4 = slot3[1]
-
-		assert(slot3[2], "protocol can not be nil")
-		seriesAsync({
-			function (slot0)
-				uv0.guideMgr:play(uv1, uv2.code, slot0, function ()
-					uv0:updateIndex(uv1)
-				end)
-				uv0:Mask()
-			end,
-			function (slot0)
-				if _.any(uv0.protocols, function (slot0)
-					return slot0.protocol == uv0
-				end) then
-					slot0()
-
-					return
-				end
-
-				function uv0.onReceiceProtocol(slot0)
-					if slot0 == uv0 then
-						uv1.onReceiceProtocol = nil
-
-						uv2()
-					end
-				end
-			end,
-			function (slot0)
-				uv0:UnMask()
-				uv0:increaseIndex(slot0)
-			end
-		}, function ()
+		slot0:updateIndex(slot4, function ()
 			uv0({
-				uv1.CODES.GUIDER
-			}, true)
+				uv1
+			}, uv2)
 		end)
+
+		return
 	end
-end
 
-function slot0.Mask(slot0)
-	pg.GuideMgr.GetInstance()._go:SetActive(true)
-end
+	slot3 = slot0.stepConfig.segment[slot0:getSegmentIndex()]
+	slot4 = slot3[1]
 
-function slot0.UnMask(slot0)
-	pg.GuideMgr.GetInstance()._go:SetActive(false)
+	assert(slot3[2], "protocol can not be nil")
+	seriesAsync({
+		function (slot0)
+			uv0.guideMgr:play(uv1, uv2.code, slot0, function ()
+				uv0:updateIndex(uv1)
+			end)
+			uv0.guideMgr:mask()
+		end,
+		function (slot0)
+			if _.any(uv0.protocols, function (slot0)
+				return slot0.protocol == uv0
+			end) then
+				slot0()
+
+				return
+			end
+
+			function uv0.onReceiceProtocol(slot0)
+				if slot0 == uv0 then
+					uv1.onReceiceProtocol = nil
+
+					uv2()
+				end
+			end
+		end,
+		function (slot0)
+			uv0.guideMgr:unMask()
+			uv0:increaseIndex(slot0)
+		end
+	}, function ()
+		uv0({
+			uv1.CODES.GUIDER
+		}, true)
+	end)
 end
 
 function slot0.getSegmentIndex(slot0)
@@ -240,7 +204,7 @@ function slot0.doNextStep(slot0, slot1, slot2)
 end
 
 function slot0.isEnd(slot0)
-	return slot0.currIndex and slot0.currIndex > #slot0.guideCfgs or not ENABLE_GUIDE
+	return slot0.currIndex > #slot0.guideCfgs or not ENABLE_GUIDE
 end
 
 function slot0.receiceProtocol(slot0, slot1, slot2, slot3)
