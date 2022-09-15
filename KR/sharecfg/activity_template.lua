@@ -2522,7 +2522,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4501,
-		is_show = 25,
+		is_show = 23,
 		id = 4501,
 		config_data = {},
 		time = {
@@ -2555,6 +2555,290 @@ pg.activity_template = {
 		page_info = {
 			class_name = "KFCPtPage",
 			ui_name = "KFCPtPage"
+		}
+	},
+	[4502] = {
+		mark = 20220908,
+		config_client = "",
+		title_res_tag = "japanV3_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 25,
+		id = 4502,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JapanV3FramePage",
+			ui_name = "JapanV3FramePage"
+		}
+	},
+	[4503] = {
+		mark = 20220908,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 20,
+		is_show = 0,
+		config_client = "",
+		id = 4503,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4504] = {
+		mark = 20220908,
+		id = 4504,
+		title_res_tag = "japanV3_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 24,
+		config_data = {
+			{
+				17906
+			},
+			{
+				17907
+			},
+			{
+				17908
+			},
+			{
+				17909
+			},
+			{
+				17910
+			},
+			{
+				17911
+			},
+			{
+				17912
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JapanV3SkinPage",
+			ui_name = "JapanV3SkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"JINGHAIJINGLEI1"
+				},
+				{
+					"JINGHAIJINGLEI2"
+				},
+				{
+					"JINGHAIJINGLEI3"
+				},
+				{
+					"JINGHAIJINGLEI4"
+				},
+				{
+					"JINGHAIJINGLEI5"
+				},
+				{
+					"JINGHAIJINGLEI6"
+				},
+				{
+					"JINGHAIJINGLEI7"
+				}
+			}
+		}
+	},
+	[4505] = {
+		mark = 20220908,
+		config_client = "",
+		title_res_tag = "manchao_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 22,
+		id = 4505,
+		config_data = {
+			{
+				17892,
+				17893
+			},
+			{
+				17894,
+				17895
+			},
+			{
+				17896,
+				17897
+			},
+			{
+				17898,
+				17899
+			},
+			{
+				17900,
+				17901
+			},
+			{
+				17902,
+				17903
+			},
+			{
+				17904,
+				17905
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ManChaoSkinPage",
+			ui_name = "ManChaoSkinPage"
+		}
+	},
+	[4506] = {
+		mark = 20220908,
+		id = 4506,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 17,
+		is_show = 21,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CheshireTecCatchupPage",
+			ui_name = "CheshireTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42021
 		}
 	},
 	[7004] = {
@@ -7424,6 +7708,11 @@ pg.activity_template = {
 		4499,
 		4500,
 		4501,
+		4502,
+		4503,
+		4504,
+		4505,
+		4506,
 		7004,
 		7005,
 		7006,

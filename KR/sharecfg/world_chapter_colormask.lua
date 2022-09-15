@@ -4228,11 +4228,11 @@ pg.world_chapter_colormask = {
 			20
 		},
 		area_pos = {
-			112,
+			160,
 			1303
 		},
 		offset_pos = {
-			50,
+			0,
 			-42
 		},
 		map_transfer = {

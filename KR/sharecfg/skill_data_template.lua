@@ -9100,6 +9100,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6990] = {
+		desc_get = "",
+		name = "결계 통행 증서",
+		id = 6990,
+		type = 0,
+		max_level = 0,
+		desc = "사쿠라 엠파이어 함선이 장비 시, 전투 개시 후 자신에게 대미지를 100 막아주는 1장의 실드 부여.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "라인 연습",
@@ -97400,6 +97414,7 @@ pg.skill_data_template = {
 		6960,
 		6970,
 		6980,
+		6990,
 		7000,
 		9030,
 		9031,

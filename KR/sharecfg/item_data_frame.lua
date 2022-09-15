@@ -351,6 +351,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「미래가 가시덤불로 빽빽하여도 일곱 언덕 위의 독수리는 계속 날아오를 것이다.」</color>\n「독수리의 서사곡」 이벤트를 통해 획득",
 		scene = {}
 	},
+	[322] = {
+		time_limit_type = 0,
+		name = "보랏빛 폭풍",
+		gain_by = "",
+		id = 322,
+		time_second = 0,
+		desc = "추후 이벤트 클리어 시 획득",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -436,6 +445,7 @@ pg.item_data_frame = {
 		319,
 		320,
 		321,
+		322,
 		401,
 		402,
 		413,

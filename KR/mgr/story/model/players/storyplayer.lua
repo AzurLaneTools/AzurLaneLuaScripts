@@ -353,6 +353,14 @@ function slot0.FadeOutStory(slot0, slot1, slot2)
 end
 
 function slot0.fadeTransform(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	if slot4 <= 0 then
+		if slot6 then
+			slot6()
+		end
+
+		return
+	end
+
 	slot7 = {}
 	slot8 = {}
 

@@ -15348,7 +15348,7 @@ _G.pg.base.gametip.guild_member_tip = {
 			info = "2. 함대 사령관 및 부사령관은 <color=#92fc63>자신보다 직위가 낮은 멤버</color>의 역할을 자유롭게 변경할 수 있습니다."
 		},
 		{
-			info = "3. 함대 사령관 및 부사령관은 <color=#92fc63>자신보다 직위가 낮은 멤버</color>를 대함대에서 제명할 수 있습니다."
+			info = "3. 함대 사령관 및 부사령관은 <color=#92fc63>자신보다 직위가 낮은 멤버</color>를 대함대에서 제명할 수 있습니다. 함대 사령관은 <color=#92fc63>부사령관</color> 중에 한하여 새로운 함대 사령관을 임명할 수 있습니다. 대함대를 위임할 수 있는 부사령관 수는 최대 <color=#92fc63>4</color>명입니다."
 		},
 		{
 			info = "4. 대함대 사령관이 <color=#92fc63>10</color>일 동안 게임에 접속하지 않은 경우, 부사령관이 대함대 사령관을 <color=#92fc63>탄핵</color>할 수 있습니다."
@@ -20763,4 +20763,24 @@ _G.pg.base.gametip.icecreamgame_tip = {
 
 _G.pg.base.gametip.unlock_date_tip = {
 	tip = "<color=#92fc63>$1월 $2일</color> 해제"
+}
+
+_G.pg.base.gametip.guild_duty_shoule_be_deputy_commander = {
+	tip = "함대 사령관은 부사령관 중에 한하여 임명할 수 있습니다."
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt_is_full = {
+	tip = "<color=#C3C3C3>최대 인원 수</color>"
+}
+
+_G.pg.base.gametip.guild_deputy_commander_cnt = {
+	tip = "<color=#C3C3C3>위임 완료:<color=#92fc63>$1/$2</color></color>"
+}
+
+_G.pg.base.gametip.mail_filter_placeholder = {
+	tip = "우편 없음"
+}
+
+_G.pg.base.gametip.recently_sticker_placeholder = {
+	tip = "이모티콘 없음"
 }

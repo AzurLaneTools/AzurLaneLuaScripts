@@ -41,8 +41,14 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(ShipProfileScene.SHOW_EVALUATION, function (slot0)
-		uv0:sendNotification(GAME.FETCH_EVALUATION, uv0.groupId)
+	slot0:bind(ShipProfileScene.SHOW_EVALUATION, function (slot0, slot1, slot2)
+		if slot2 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("npc_evaluation_tip"))
+
+			return
+		end
+
+		uv0:sendNotification(GAME.FETCH_EVALUATION, slot1)
 	end)
 	slot0:bind(ShipProfileScene.WEDDING_REVIEW, function (slot0, slot1)
 		uv0.viewComponent:onWeddingReview(true)

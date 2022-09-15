@@ -50,9 +50,10 @@ function slot0.GetCurrBossID()
 end
 
 function slot0.GetCurrBossLeftDay()
-	slot4 = pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.world_joint_boss_template[uv0.GetCurrBossID()].state[2]) - pg.TimeMgr.GetInstance():GetServerTime()
+	slot2 = pg.TimeMgr.GetInstance():GetServerTime()
+	slot3 = pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.world_joint_boss_template[uv0.GetCurrBossID()].state[2])
 
-	return math.ceil(slot4 / 86400), slot4 % 86400
+	return pg.TimeMgr.GetInstance():DiffDay(slot2, slot3), (slot3 - slot2) % 86400
 end
 
 function slot0.GetCurrBossDayIndex()
