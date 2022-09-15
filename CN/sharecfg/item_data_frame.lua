@@ -363,10 +363,10 @@ pg.item_data_frame = {
 	[322] = {
 		time_limit_type = 0,
 		name = "流岚紫霆",
-		gain_by = "",
+		gain_by = "紫绛槿岚",
 		id = 322,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「宁如镜湖，缥若云岚，天剑出鞘，万钧雷霆。」</color>\n「紫绛槿岚」活动获取",
 		scene = {}
 	},
 	[401] = {

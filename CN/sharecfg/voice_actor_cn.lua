@@ -1351,5 +1351,25 @@ pg.voice_actor_CN = {
 	{
 		code = 338,
 		actor_name = "大木咲绘子"
+	},
+	{
+		code = 339,
+		actor_name = "饭田光"
+	},
+	{
+		code = 340,
+		actor_name = "铃木爱奈"
+	},
+	{
+		code = 341,
+		actor_name = "菱川花菜"
+	},
+	{
+		code = 342,
+		actor_name = "和多田美咲"
+	},
+	{
+		code = 343,
+		actor_name = "相良茉优"
 	}
 }

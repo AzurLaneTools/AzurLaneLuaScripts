@@ -278,6 +278,66 @@ pg.activity_event_building = {
 			1
 		}
 	},
+	{
+		id = 19,
+		name = "主教学楼",
+		material_id = 59349,
+		desc = "好好学习，天天向上。",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 20,
+		name = "占卜屋",
+		material_id = 59349,
+		desc = "想要了解今日运势么？",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 21,
+		name = "演唱台",
+		material_id = 59349,
+		desc = "空闲时间任何人都能上台！",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 22,
+		name = "校园商街",
+		material_id = 59349,
+		desc = "请尽情挑选——",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
@@ -296,6 +356,10 @@ pg.activity_event_building = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21,
+		22
 	}
 }

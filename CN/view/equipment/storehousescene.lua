@@ -120,8 +120,12 @@ function slot0.setEquipment(slot0, slot1)
 	slot0.equipmentVOByIds[slot1.id] = slot1
 	slot2 = true
 
-	for slot6, slot7 in pairs(slot0.equipmentVOs) do
-		if slot7.id == slot1.id and not slot7.shipId then
+	for slot6 = #slot0.equipmentVOs, 1, -1 do
+		if slot0.equipmentVOs[slot6].id == slot1.id and slot1.count <= 0 then
+			slot0.equipmentVOByIds[slot1.id] = nil
+
+			table.remove(slot0.equipmentVOs, slot6)
+		elseif slot7.id == slot1.id and not slot7.shipId then
 			slot0.equipmentVOs[slot6] = slot1
 			slot2 = false
 		end

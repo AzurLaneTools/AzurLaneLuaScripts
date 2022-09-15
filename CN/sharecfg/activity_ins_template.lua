@@ -8585,6 +8585,66 @@ pg.activity_ins_template = {
 			2974
 		}
 	},
+	[327] = {
+		ship_group = 30510,
+		name = "Musashi",
+		sculpture = "wuzang",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 327,
+		id = 327,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[328] = {
+		ship_group = 30223,
+		name = "Sakawa ",
+		sculpture = "jiuyun",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 328,
+		id = 328,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[329] = {
+		ship_group = 30187,
+		name = "Wakatsuki",
+		sculpture = "ruoyue",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 329,
+		id = 329,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[330] = {
+		ship_group = 30104,
+		name = "Miyuki ",
+		sculpture = "shenxue",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 330,
+		id = 330,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[331] = {
+		ship_group = 30310,
+		name = "Haguro ",
+		sculpture = "yuhei",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 331,
+		id = 331,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -8910,6 +8970,11 @@ pg.activity_ins_template = {
 		323,
 		324,
 		325,
-		326
+		326,
+		327,
+		328,
+		329,
+		330,
+		331
 	}
 }

@@ -614,6 +614,22 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["吕"] = {
+			["歇"] = {
+				["尔"] = {
+					this = true
+				}
+			}
+		},
+		["伦"] = {
+			["希"] = {
+				["尔"] = {
+					["德"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -1162,7 +1178,12 @@ temp()
 function temp()
 	uv0["朱"] = {
 		["诺"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		},
 		["利"] = {
 			["奥"] = {
@@ -2716,7 +2737,12 @@ function temp()
 		["罗"] = {
 			["普"] = {
 				["郡"] = {
-					this = true
+					this = true,
+					["."] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}
@@ -2803,7 +2829,18 @@ temp()
 function temp()
 	uv0["声"] = {
 		["望"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -4332,6 +4369,9 @@ function temp()
 				this = true
 			},
 			["9"] = {
+				this = true
+			},
+			["6"] = {
 				this = true
 			}
 		},
@@ -5908,6 +5948,56 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["梧"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["若"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["貄"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["犰"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鳄"] = {
+		this = {
+			this = true
 		}
 	}
 end

@@ -11,7 +11,9 @@ function slot0.setShip(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, slot0.contextData.weight and {
+		weight = slot0.contextData.weight
+	} or {})
 
 	slot0.displayPanel = slot0:findTF("display")
 

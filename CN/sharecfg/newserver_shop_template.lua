@@ -17,24 +17,7 @@ pg.newserver_shop_template = {
 			305051
 		}
 	},
-	{
-		unlock_time = 0,
-		resource_category = 1,
-		goods_purchase_limit = 40,
-		type = 8,
-		goods_type = 1,
-		num = 1,
-		goods_icon = "Props/buildTicket_newserver",
-		goods_name = "新手单次建造券",
-		resource_type = 249,
-		id = 2,
-		resource_num = 100,
-		goods_rarity = 4,
-		goods = {
-			59288
-		}
-	},
-	{
+	[3] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 29,
@@ -79,7 +62,7 @@ pg.newserver_shop_template = {
 			1440
 		}
 	},
-	{
+	[4] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 50,
@@ -111,7 +94,7 @@ pg.newserver_shop_template = {
 			2540
 		}
 	},
-	{
+	[5] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 20,
@@ -128,7 +111,7 @@ pg.newserver_shop_template = {
 			20001
 		}
 	},
-	{
+	[6] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 10,
@@ -145,7 +128,7 @@ pg.newserver_shop_template = {
 			15003
 		}
 	},
-	{
+	[7] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 4,
@@ -162,7 +145,7 @@ pg.newserver_shop_template = {
 			100011
 		}
 	},
-	{
+	[8] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 4,
@@ -179,7 +162,7 @@ pg.newserver_shop_template = {
 			100001
 		}
 	},
-	{
+	[9] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 5,
@@ -196,7 +179,7 @@ pg.newserver_shop_template = {
 			16502
 		}
 	},
-	{
+	[10] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 10,
@@ -213,7 +196,7 @@ pg.newserver_shop_template = {
 			15008
 		}
 	},
-	{
+	[11] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 15,
@@ -230,7 +213,7 @@ pg.newserver_shop_template = {
 			61001
 		}
 	},
-	{
+	[12] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 100,
@@ -251,7 +234,7 @@ pg.newserver_shop_template = {
 			17043
 		}
 	},
-	{
+	[13] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 50,
@@ -272,7 +255,7 @@ pg.newserver_shop_template = {
 			17042
 		}
 	},
-	{
+	[14] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 20,
@@ -293,7 +276,7 @@ pg.newserver_shop_template = {
 			17041
 		}
 	},
-	{
+	[15] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 15,
@@ -312,7 +295,7 @@ pg.newserver_shop_template = {
 			16024
 		}
 	},
-	{
+	[16] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 25,
@@ -331,7 +314,7 @@ pg.newserver_shop_template = {
 			16023
 		}
 	},
-	{
+	[17] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 50,
@@ -350,7 +333,7 @@ pg.newserver_shop_template = {
 			16022
 		}
 	},
-	{
+	[18] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 100,
@@ -369,7 +352,7 @@ pg.newserver_shop_template = {
 			16021
 		}
 	},
-	{
+	[19] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 10,
@@ -389,7 +372,7 @@ pg.newserver_shop_template = {
 			18033
 		}
 	},
-	{
+	[20] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 20,
@@ -409,7 +392,7 @@ pg.newserver_shop_template = {
 			18032
 		}
 	},
-	{
+	[21] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 20,
@@ -429,7 +412,7 @@ pg.newserver_shop_template = {
 			18031
 		}
 	},
-	{
+	[22] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 120,
@@ -446,7 +429,7 @@ pg.newserver_shop_template = {
 			42000
 		}
 	},
-	{
+	[23] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 120,
@@ -463,7 +446,7 @@ pg.newserver_shop_template = {
 			42010
 		}
 	},
-	{
+	[24] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 10,
@@ -480,7 +463,7 @@ pg.newserver_shop_template = {
 			1
 		}
 	},
-	{
+	[25] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 5,
@@ -497,7 +480,7 @@ pg.newserver_shop_template = {
 			2
 		}
 	},
-	{
+	[26] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 10,
@@ -514,7 +497,7 @@ pg.newserver_shop_template = {
 			3
 		}
 	},
-	{
+	[27] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_purchase_limit = 10,
@@ -1391,7 +1374,6 @@ pg.newserver_shop_template = {
 	get_id_list_by_unlock_time = {
 		[0] = {
 			1,
-			2,
 			3,
 			4,
 			5,
@@ -1472,7 +1454,6 @@ pg.newserver_shop_template = {
 	},
 	all = {
 		1,
-		2,
 		3,
 		4,
 		5,

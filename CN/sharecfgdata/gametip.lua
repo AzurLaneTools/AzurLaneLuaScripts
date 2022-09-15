@@ -7322,6 +7322,10 @@ _G.pg.base.gametip.ship_remould_warning_102284 = {
 	tip = "此次改造操作后<color=#92fc63>【雷达扫描】</color>技能\n将升级为<color=#92fc63>【雷达扫描·改】</color>"
 }
 
+_G.pg.base.gametip.ship_remould_warning_102304 = {
+	tip = "此次改造操作后<color=#92fc63>【主炮底座+1】</color>\n<color=#92fc63>【战争之殇】</color>技能将升级为<color=#92fc63>【战争之殇·改】</color>\n<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【全弹发射III】</color>"
+}
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "此次改造操作后<color=#92fc63>【所有战斗机+1】、【所有鱼雷机+1】</color>\n是否确认继续操作？"
 }
@@ -7331,6 +7335,10 @@ _G.pg.base.gametip.ship_remould_warning_201514 = {
 }
 
 _G.pg.base.gametip.ship_remould_warning_203114 = {
+	tip = "此次改造操作将导致<color=#92fc63>【鱼雷】栏位</color>变更为<color=#92fc63>【副武器】栏位</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>查看详情</material></color>\n是否确认继续操作？"
+}
+
+_G.pg.base.gametip.ship_remould_warning_203124 = {
 	tip = "此次改造操作将导致<color=#92fc63>【鱼雷】栏位</color>变更为<color=#92fc63>【副武器】栏位</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>查看详情</material></color>\n是否确认继续操作？"
 }
 
@@ -10008,7 +10016,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "布伦希尔德、Z16 等角色 建造概率UP!"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:84}(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11823,13 +11831,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀请者：
 回归指挥官：
-在2022年5月12日至5月26日维护期间没有过登录行为的
+在2022年9月1日至9月15日维护期间没有过登录行为的
 指挥官
 新人指挥官：
-在2022年5月26日至6月16日维护期间新注册的指挥官
+在2022年9月15日至10月31日维护期间新注册的指挥官
 满足被邀请资格的指挥官在活动期间登录可在特别活动页内输入邀请者的UID参与活动
 邀请者：
-2022年5月12日至5月26日维护前有过登录行为的指挥官
+2022年9月1日至9月15日维护前有过登录行为的指挥官
 邀请者可以使用自己的UID邀请满足被邀请资格的指挥官参与活动
 召集指挥官：
 单个邀请者最多可邀请两位指挥官，在其完成专属任务后可获得集结积分。召集信号发布后还可以解锁邀请者专属任务，完成任务后也可获得集结积分。集结积分达到指定数值后可以获得丰富奖励。
@@ -11898,7 +11906,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指挥官可以从中选择2名角色作为祈愿角色"
 		},
 		{
-			info = "5.可选名单仅包含3月25日前常驻加入对应建造的角色"
+			info = "5.可选名单仅包含7月14日前常驻加入对应建造的角色"
 		},
 		{
 			info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
@@ -18645,7 +18653,8 @@ _G.pg.base.gametip.eatgame_tips = {
 		{
 			info = [[
 活动规则：
-1.<color=#92fc63>10月6日</color>为止每日0点开放<color=#92fc63>1</color>场新的游戏，总计<color=#92fc63>7</color>场，可累计。完成游戏获取7块「烤肉」可获得椿限定改造道具「烤肉味香水」
+1.<color=#92fc63>9月21日</color>为止每日0点开放<color=#92fc63>1</color>场新的游戏，总计<color=#92fc63>7</color>场，可累计。完成游戏获取7块「烤肉」可获得椿限定改造道具「烤肉味香水」
+当前拥有「烤肉味香水」或船坞中有改造完成的椿时，本次获得的「烤肉味香水」将替换成纪念品「大胃王之证」
 游戏规则：
 1.屏幕中会出现滚动条，在鸡腿移动时点击屏幕任意位置可使鸡腿停止移动，让鸡腿停留在绿色区域以让椿吃的更快。累计在绿色区域中停留15次即可赢下大胃王比赛。
 2.鸡腿停留在不同颜色区域时获取的积分不同：停留在绿色区域时越靠近绿色中心得分越高，停留在黄色区域不得分，停留在红色区域扣分。
@@ -20856,9 +20865,9 @@ _G.pg.base.gametip.five_qingdian = {
 			info = [[
 活动规则：
 活动期间每日可获得<color=#92fc63>1</color>次可用次数，可用次数最多可以叠加<color=#92fc63>7</color>次
-1.在有可用次数的情况下参与啾啾躲猫猫会消耗掉可用次数并获得签到次数，集齐<color=#92fc63>7</color>次签到次数可以获得<color=#92fc63>「庆典邀请函」</color>
+1.在有可用次数的情况下参与甜品大作战会消耗掉可用次数并获得签到次数，集齐<color=#92fc63>7</color>次签到次数可以获得<color=#92fc63>「庆典邀请函」</color>
 2.可用次数可以在庆典广场页面右侧看到，签到进度可以通过点击庆典广场页面<color=#92fc63>「邀请函」</color>按钮查看
-3.在没有可用次数的情况下进行啾啾躲猫猫不会获得签到次数]]
+3.在没有可用次数的情况下进行甜品大作战不会获得签到次数]]
 		}
 	}
 }
@@ -21181,4 +21190,73 @@ _G.pg.base.gametip.mail_filter_placeholder = {
 
 _G.pg.base.gametip.recently_sticker_placeholder = {
 	tip = "暂无常用表情"
+}
+
+_G.pg.base.gametip.backhill_campusfestival_tip = {
+	tip = {
+		{
+			info = [[
+活动时间：2022.9.15-10.13
+活动规则：
+1.<color=#92fc63>9月21日</color>为止每天零点解锁1个任务，完成活动任务可以获得「装饰用品」及奖励，活动任务可累积
+2.消耗「装饰用品」可以在啾啾学园庆典中升级建筑，每种建筑会提供不同的BUFF加成
+3.每种建筑分为三个等级，随着等级的提升，提供的BUFF加成也会增加
+4.可升级建筑有四种：
+主教学楼
+校园商街
+演唱台
+占卜屋
+5.活动期间每日可获得一次可用次数，可用次数最多可以叠加7次
+6.在有可用次数的情况下参与甜品大作战会消耗掉可用次数并获得签到次数，集齐7次签到次数可以获得<color=#92fc63>「庆典邀请函」</color>
+7.可用次数可以在啾啾学园庆典页面右侧看到，签到进度可以通过点击啾啾学园庆典页面「邀请函」按钮查看
+8.在没有可用次数的情况下进行甜品大作战不会获得签到次数]]
+		}
+	}
+}
+
+_G.pg.base.gametip.mini_cookgametip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.<color=#92fc63>9月21日</color>为止每日0点开放<color=#92fc63>1</color>场新的游戏，总计<color=#92fc63>7</color>场，可累计。完成游戏可以获得限定家具在内的丰富奖励。
+
+游戏规则：
+1.指挥官需要操控角色获取对应甜品送给场中的黄鸡裁判，上对甜品加1分，上错扣1分，时间结束时分数高的一方获胜
+2.甜品大作战共计8位角色，指挥官可以选择任意角色和队友进行作战
+3.时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cook_game_Albacore = {
+	tip = "能远距离上甜品"
+}
+
+_G.pg.base.gametip.cook_game_august = {
+	tip = "移动速度更快"
+}
+
+_G.pg.base.gametip.cook_game_elbe = {
+	tip = "同时端两盘甜品"
+}
+
+_G.pg.base.gametip.cook_game_hakuryu = {
+	tip = "连续上对甜点时增加移动速度"
+}
+
+_G.pg.base.gametip.cook_game_howe = {
+	tip = "每次成功上甜品时50%概率额外加1分"
+}
+
+_G.pg.base.gametip.cook_game_marcopolo = {
+	tip = "增加己方游戏时间"
+}
+
+_G.pg.base.gametip.cook_game_noshiro = {
+	tip = "上错甜品也会加1分"
+}
+
+_G.pg.base.gametip.cook_game_pnelope = {
+	tip = "每成功上两个甜品额外加1分"
 }

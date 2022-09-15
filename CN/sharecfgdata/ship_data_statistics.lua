@@ -33888,6 +33888,134 @@ _G.pg.base.ship_data_statistics[102294] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[102304] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "朱诺.改",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 102070,
+	english_name = "USS Juneau",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 3,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 102304,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1490,
+		59,
+		72,
+		201,
+		0,
+		66,
+		0,
+		58,
+		28,
+		32.5,
+		18,
+		114
+	},
+	attrs_growth = {
+		15365,
+		330,
+		401,
+		1661,
+		0,
+		457,
+		0,
+		852,
+		629,
+		0,
+		0,
+		532
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		204
+	},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.35,
+		1.6,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Atlanta-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[103011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -95751,6 +95879,133 @@ _G.pg.base.ship_data_statistics[203024] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[203124] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "什罗普郡.改",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 203020,
+	english_name = "HMS Shropshire",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 3,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 203124,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1453,
+		100,
+		99,
+		96,
+		0,
+		59,
+		0,
+		38,
+		9,
+		25.6,
+		75,
+		0
+	},
+	attrs_growth = {
+		15232,
+		557,
+		551,
+		844,
+		0,
+		409,
+		0,
+		607,
+		459,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		314
+	},
+	default_equip_list = {
+		102,
+		107,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.6,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"County-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[203031] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -117099,6 +117354,510 @@ _G.pg.base.ship_data_statistics[301024] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[301041] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "深雪",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301040,
+	english_name = "IJN Miyuki",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301041,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		290,
+		12,
+		98,
+		27,
+		0,
+		78,
+		0,
+		67,
+		72,
+		45.6,
+		10,
+		47
+	},
+	attrs_growth = {
+		8257,
+		166,
+		1175,
+		598,
+		0,
+		546,
+		0,
+		1032,
+		1332,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		1.4,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Special Type",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301042] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "深雪",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301040,
+	english_name = "IJN Miyuki",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301042,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		361,
+		15,
+		122,
+		34,
+		0,
+		78,
+		0,
+		67,
+		72,
+		45.6,
+		10,
+		59
+	},
+	attrs_growth = {
+		8257,
+		166,
+		1175,
+		598,
+		0,
+		546,
+		0,
+		1032,
+		1332,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		1.45,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Special Type",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301043] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "深雪",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301040,
+	english_name = "IJN Miyuki",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301043,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		502,
+		21,
+		171,
+		47,
+		0,
+		78,
+		0,
+		67,
+		72,
+		45.6,
+		10,
+		82
+	},
+	attrs_growth = {
+		8257,
+		166,
+		1175,
+		598,
+		0,
+		546,
+		0,
+		1032,
+		1332,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		1.55,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Special Type",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301044] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "深雪",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301040,
+	english_name = "IJN Miyuki",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301044,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		714,
+		30,
+		244,
+		67,
+		0,
+		78,
+		0,
+		67,
+		72,
+		45.6,
+		10,
+		117
+	},
+	attrs_growth = {
+		8257,
+		166,
+		1175,
+		598,
+		0,
+		546,
+		0,
+		1032,
+		1332,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.75,
+		1.6,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Special Type",
+		"Musashi-Game"
+	}
+}
+
 _G.pg.base.ship_data_statistics[301051] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -132744,7 +133503,8 @@ _G.pg.base.ship_data_statistics[301491] = {
 		{}
 	},
 	tag_list = {
-		"Shiratsuyu-Class"
+		"Shiratsuyu-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -132869,7 +133629,8 @@ _G.pg.base.ship_data_statistics[301492] = {
 		{}
 	},
 	tag_list = {
-		"Shiratsuyu-Class"
+		"Shiratsuyu-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -132994,7 +133755,8 @@ _G.pg.base.ship_data_statistics[301493] = {
 		{}
 	},
 	tag_list = {
-		"Shiratsuyu-Class"
+		"Shiratsuyu-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -133119,7 +133881,8 @@ _G.pg.base.ship_data_statistics[301494] = {
 		{}
 	},
 	tag_list = {
-		"Shiratsuyu-Class"
+		"Shiratsuyu-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -134370,7 +135133,8 @@ _G.pg.base.ship_data_statistics[301571] = {
 		{}
 	},
 	tag_list = {
-		"Akizuki-Class"
+		"Akizuki-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -134495,7 +135259,8 @@ _G.pg.base.ship_data_statistics[301572] = {
 		{}
 	},
 	tag_list = {
-		"Akizuki-Class"
+		"Akizuki-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -134620,7 +135385,8 @@ _G.pg.base.ship_data_statistics[301573] = {
 		{}
 	},
 	tag_list = {
-		"Akizuki-Class"
+		"Akizuki-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -134745,7 +135511,8 @@ _G.pg.base.ship_data_statistics[301574] = {
 		{}
 	},
 	tag_list = {
-		"Akizuki-Class"
+		"Akizuki-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -139890,7 +140657,8 @@ _G.pg.base.ship_data_statistics[301791] = {
 		{}
 	},
 	tag_list = {
-		"Kamikaze-Class"
+		"Kamikaze-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -140015,7 +140783,8 @@ _G.pg.base.ship_data_statistics[301792] = {
 		{}
 	},
 	tag_list = {
-		"Kamikaze-Class"
+		"Kamikaze-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -140140,7 +140909,8 @@ _G.pg.base.ship_data_statistics[301793] = {
 		{}
 	},
 	tag_list = {
-		"Kamikaze-Class"
+		"Kamikaze-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -140265,7 +141035,8 @@ _G.pg.base.ship_data_statistics[301794] = {
 		{}
 	},
 	tag_list = {
-		"Kamikaze-Class"
+		"Kamikaze-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -142394,7 +143165,8 @@ _G.pg.base.ship_data_statistics[301841] = {
 		{}
 	},
 	tag_list = {
-		"Akizuki-Class"
+		"Akizuki-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -142519,7 +143291,8 @@ _G.pg.base.ship_data_statistics[301842] = {
 		{}
 	},
 	tag_list = {
-		"Akizuki-Class"
+		"Akizuki-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -142644,7 +143417,8 @@ _G.pg.base.ship_data_statistics[301843] = {
 		{}
 	},
 	tag_list = {
-		"Akizuki-Class"
+		"Akizuki-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -142769,7 +143543,8 @@ _G.pg.base.ship_data_statistics[301844] = {
 		{}
 	},
 	tag_list = {
-		"Akizuki-Class"
+		"Akizuki-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -143895,6 +144670,510 @@ _G.pg.base.ship_data_statistics[301874] = {
 	},
 	tag_list = {
 		"Shiratsuyu-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301881] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "若月",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301880,
+	english_name = "IJN Wakatsuki",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301881,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		409,
+		16,
+		74,
+		37,
+		0,
+		80,
+		0,
+		67,
+		67,
+		39.6,
+		43,
+		52
+	},
+	attrs_growth = {
+		11652,
+		219,
+		935,
+		799,
+		0,
+		557,
+		0,
+		1032,
+		1226,
+		0,
+		0,
+		593
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Akizuki-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301882] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "若月",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301880,
+	english_name = "IJN Wakatsuki",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301882,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		509,
+		20,
+		92,
+		46,
+		0,
+		80,
+		0,
+		67,
+		67,
+		39.6,
+		43,
+		65
+	},
+	attrs_growth = {
+		11652,
+		219,
+		935,
+		799,
+		0,
+		557,
+		0,
+		1032,
+		1226,
+		0,
+		0,
+		593
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Akizuki-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301883] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "若月",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301880,
+	english_name = "IJN Wakatsuki",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301883,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		708,
+		28,
+		129,
+		64,
+		0,
+		80,
+		0,
+		67,
+		67,
+		39.6,
+		43,
+		91
+	},
+	attrs_growth = {
+		11652,
+		219,
+		935,
+		799,
+		0,
+		557,
+		0,
+		1032,
+		1226,
+		0,
+		0,
+		593
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.3,
+		1.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Akizuki-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301884] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "若月",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301880,
+	english_name = "IJN Wakatsuki",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301884,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1008,
+		39,
+		184,
+		91,
+		0,
+		80,
+		0,
+		67,
+		67,
+		39.6,
+		43,
+		130
+	},
+	attrs_growth = {
+		11652,
+		219,
+		935,
+		799,
+		0,
+		557,
+		0,
+		1032,
+		1226,
+		0,
+		0,
+		593
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.35,
+		1.45
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Akizuki-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -146062,7 +147341,8 @@ _G.pg.base.ship_data_statistics[302081] = {
 		{}
 	},
 	tag_list = {
-		"Nagara-Class"
+		"Nagara-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -146190,7 +147470,8 @@ _G.pg.base.ship_data_statistics[302082] = {
 		{}
 	},
 	tag_list = {
-		"Nagara-Class"
+		"Nagara-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -146318,7 +147599,8 @@ _G.pg.base.ship_data_statistics[302083] = {
 		{}
 	},
 	tag_list = {
-		"Nagara-Class"
+		"Nagara-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -146446,7 +147728,8 @@ _G.pg.base.ship_data_statistics[302084] = {
 		{}
 	},
 	tag_list = {
-		"Nagara-Class"
+		"Nagara-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -148622,7 +149905,8 @@ _G.pg.base.ship_data_statistics[302131] = {
 		{}
 	},
 	tag_list = {
-		"Sendai-Class"
+		"Sendai-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -148750,7 +150034,8 @@ _G.pg.base.ship_data_statistics[302132] = {
 		{}
 	},
 	tag_list = {
-		"Sendai-Class"
+		"Sendai-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -148878,7 +150163,8 @@ _G.pg.base.ship_data_statistics[302133] = {
 		{}
 	},
 	tag_list = {
-		"Sendai-Class"
+		"Sendai-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -149006,7 +150292,8 @@ _G.pg.base.ship_data_statistics[302134] = {
 		{}
 	},
 	tag_list = {
-		"Sendai-Class"
+		"Sendai-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -150547,6 +151834,522 @@ _G.pg.base.ship_data_statistics[302214] = {
 	},
 	tag_list = {
 		"Agano-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[302231] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "酒匂",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 302230,
+	english_name = "IJN Sakawa",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 302231,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		576,
+		31,
+		71,
+		63,
+		0,
+		66,
+		0,
+		60,
+		32,
+		35.56,
+		74,
+		24
+	},
+	attrs_growth = {
+		14816,
+		434,
+		910,
+		1337,
+		0,
+		459,
+		0,
+		884,
+		763,
+		0,
+		0,
+		299
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		321
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.5,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Agano-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[302232] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "酒匂",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 302230,
+	english_name = "IJN Sakawa",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 302232,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		717,
+		39,
+		89,
+		79,
+		0,
+		66,
+		0,
+		60,
+		32,
+		35.56,
+		74,
+		30
+	},
+	attrs_growth = {
+		14816,
+		434,
+		910,
+		1337,
+		0,
+		459,
+		0,
+		884,
+		763,
+		0,
+		0,
+		299
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		322
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.5,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Agano-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[302233] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "酒匂",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 302230,
+	english_name = "IJN Sakawa",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 302233,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		998,
+		54,
+		124,
+		110,
+		0,
+		66,
+		0,
+		60,
+		32,
+		35.56,
+		74,
+		42
+	},
+	attrs_growth = {
+		14816,
+		434,
+		910,
+		1337,
+		0,
+		459,
+		0,
+		884,
+		763,
+		0,
+		0,
+		299
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		323
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.6,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Agano-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[302234] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "酒匂",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 302230,
+	english_name = "IJN Sakawa",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 302234,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1420,
+		78,
+		177,
+		156,
+		0,
+		66,
+		0,
+		60,
+		32,
+		35.56,
+		74,
+		60
+	},
+	attrs_growth = {
+		14816,
+		434,
+		910,
+		1337,
+		0,
+		459,
+		0,
+		884,
+		763,
+		0,
+		0,
+		299
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.75,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Agano-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -154614,6 +156417,522 @@ _G.pg.base.ship_data_statistics[303094] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[303101] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "羽黑",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 303100,
+	english_name = "IJN Haguro",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 303101,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		817,
+		44,
+		39,
+		38,
+		0,
+		60,
+		0,
+		43,
+		13,
+		28.8,
+		82,
+		0
+	},
+	attrs_growth = {
+		19935,
+		610,
+		534,
+		827,
+		0,
+		417,
+		0,
+		630,
+		495,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		321
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.4,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Myoko-Class",
+		"Musashi-Game",
+		"Haguro"
+	}
+}
+
+_G.pg.base.ship_data_statistics[303102] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "羽黑",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 303100,
+	english_name = "IJN Haguro",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 303102,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1016,
+		55,
+		49,
+		47,
+		0,
+		60,
+		0,
+		43,
+		13,
+		28.8,
+		82,
+		0
+	},
+	attrs_growth = {
+		19935,
+		610,
+		534,
+		827,
+		0,
+		417,
+		0,
+		630,
+		495,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		322
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.4,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Myoko-Class",
+		"Musashi-Game",
+		"Haguro"
+	}
+}
+
+_G.pg.base.ship_data_statistics[303103] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "羽黑",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 303100,
+	english_name = "IJN Haguro",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 303103,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1415,
+		77,
+		68,
+		66,
+		0,
+		60,
+		0,
+		43,
+		13,
+		28.8,
+		82,
+		0
+	},
+	attrs_growth = {
+		19935,
+		610,
+		534,
+		827,
+		0,
+		417,
+		0,
+		630,
+		495,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		323
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.5,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Myoko-Class",
+		"Musashi-Game",
+		"Haguro"
+	}
+}
+
+_G.pg.base.ship_data_statistics[303104] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "羽黑",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 303100,
+	english_name = "IJN Haguro",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 303104,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2013,
+		109,
+		96,
+		94,
+		0,
+		60,
+		0,
+		43,
+		13,
+		28.8,
+		82,
+		0
+	},
+	attrs_growth = {
+		19935,
+		610,
+		534,
+		827,
+		0,
+		417,
+		0,
+		630,
+		495,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.65,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Myoko-Class",
+		"Musashi-Game",
+		"Haguro"
+	}
+}
+
 _G.pg.base.ship_data_statistics[303111] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -157910,7 +160229,8 @@ _G.pg.base.ship_data_statistics[304011] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -158035,7 +160355,8 @@ _G.pg.base.ship_data_statistics[304012] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -158160,7 +160481,8 @@ _G.pg.base.ship_data_statistics[304013] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -158285,7 +160607,8 @@ _G.pg.base.ship_data_statistics[304014] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -158410,7 +160733,8 @@ _G.pg.base.ship_data_statistics[304021] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -158535,7 +160859,8 @@ _G.pg.base.ship_data_statistics[304022] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -158660,7 +160985,8 @@ _G.pg.base.ship_data_statistics[304023] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -158785,7 +161111,8 @@ _G.pg.base.ship_data_statistics[304024] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -158910,7 +161237,8 @@ _G.pg.base.ship_data_statistics[304031] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -159035,7 +161363,8 @@ _G.pg.base.ship_data_statistics[304032] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -159160,7 +161489,8 @@ _G.pg.base.ship_data_statistics[304033] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -159285,7 +161615,8 @@ _G.pg.base.ship_data_statistics[304034] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -159410,7 +161741,8 @@ _G.pg.base.ship_data_statistics[304041] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -159535,7 +161867,8 @@ _G.pg.base.ship_data_statistics[304042] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -159660,7 +161993,8 @@ _G.pg.base.ship_data_statistics[304043] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -159785,7 +162119,8 @@ _G.pg.base.ship_data_statistics[304044] = {
 		{}
 	},
 	tag_list = {
-		"Kongo-Class"
+		"Kongo-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -161906,7 +164241,8 @@ _G.pg.base.ship_data_statistics[305021] = {
 		{}
 	},
 	tag_list = {
-		"Fuso-Class"
+		"Fuso-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -162031,7 +164367,8 @@ _G.pg.base.ship_data_statistics[305022] = {
 		{}
 	},
 	tag_list = {
-		"Fuso-Class"
+		"Fuso-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -162156,7 +164493,8 @@ _G.pg.base.ship_data_statistics[305023] = {
 		{}
 	},
 	tag_list = {
-		"Fuso-Class"
+		"Fuso-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -162281,7 +164619,8 @@ _G.pg.base.ship_data_statistics[305024] = {
 		{}
 	},
 	tag_list = {
-		"Fuso-Class"
+		"Fuso-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -163407,7 +165746,8 @@ _G.pg.base.ship_data_statistics[305051] = {
 	},
 	tag_list = {
 		"Nagato-Class",
-		"Big Seven"
+		"Big Seven",
+		"Musashi-Game"
 	}
 }
 
@@ -163533,7 +165873,8 @@ _G.pg.base.ship_data_statistics[305052] = {
 	},
 	tag_list = {
 		"Nagato-Class",
-		"Big Seven"
+		"Big Seven",
+		"Musashi-Game"
 	}
 }
 
@@ -163659,7 +166000,8 @@ _G.pg.base.ship_data_statistics[305053] = {
 	},
 	tag_list = {
 		"Nagato-Class",
-		"Big Seven"
+		"Big Seven",
+		"Musashi-Game"
 	}
 }
 
@@ -163785,7 +166127,8 @@ _G.pg.base.ship_data_statistics[305054] = {
 	},
 	tag_list = {
 		"Nagato-Class",
-		"Big Seven"
+		"Big Seven",
+		"Musashi-Game"
 	}
 }
 
@@ -165293,6 +167636,514 @@ _G.pg.base.ship_data_statistics[305084] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[305101] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "武藏",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 305100,
+	english_name = "IJN Musashi",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 305101,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1819,
+		91,
+		0,
+		43,
+		0,
+		57,
+		0,
+		22,
+		7,
+		26.5,
+		33,
+		0
+	},
+	attrs_growth = {
+		48455,
+		1091,
+		0,
+		933,
+		0,
+		394,
+		0,
+		388,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		2.2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Yamato-Class",
+		"Musashi",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[305102] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "武藏",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 305100,
+	english_name = "IJN Musashi",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 305102,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2263,
+		114,
+		0,
+		53,
+		0,
+		57,
+		0,
+		22,
+		7,
+		26.5,
+		33,
+		0
+	},
+	attrs_growth = {
+		48455,
+		1091,
+		0,
+		933,
+		0,
+		394,
+		0,
+		388,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2.2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Yamato-Class",
+		"Musashi",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[305103] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "武藏",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 305100,
+	english_name = "IJN Musashi",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 305103,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3150,
+		159,
+		0,
+		74,
+		0,
+		57,
+		0,
+		22,
+		7,
+		26.5,
+		33,
+		0
+	},
+	attrs_growth = {
+		48455,
+		1091,
+		0,
+		933,
+		0,
+		394,
+		0,
+		388,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		2.2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Yamato-Class",
+		"Musashi",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[305104] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "武藏",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 305100,
+	english_name = "IJN Musashi",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 305104,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		4480,
+		226,
+		0,
+		106,
+		0,
+		57,
+		0,
+		22,
+		7,
+		26.5,
+		33,
+		0
+	},
+	attrs_growth = {
+		48455,
+		1091,
+		0,
+		933,
+		0,
+		394,
+		0,
+		388,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		2.2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Yamato-Class",
+		"Musashi",
+		"Musashi-Game"
+	}
+}
+
 _G.pg.base.ship_data_statistics[305111] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -165414,7 +168265,8 @@ _G.pg.base.ship_data_statistics[305111] = {
 		{}
 	},
 	tag_list = {
-		"Mikasa"
+		"Mikasa",
+		"Musashi-Game"
 	}
 }
 
@@ -165539,7 +168391,8 @@ _G.pg.base.ship_data_statistics[305112] = {
 		{}
 	},
 	tag_list = {
-		"Mikasa"
+		"Mikasa",
+		"Musashi-Game"
 	}
 }
 
@@ -165664,7 +168517,8 @@ _G.pg.base.ship_data_statistics[305113] = {
 		{}
 	},
 	tag_list = {
-		"Mikasa"
+		"Mikasa",
+		"Musashi-Game"
 	}
 }
 
@@ -165789,7 +168643,8 @@ _G.pg.base.ship_data_statistics[305114] = {
 		{}
 	},
 	tag_list = {
-		"Mikasa"
+		"Mikasa",
+		"Musashi-Game"
 	}
 }
 
@@ -169381,7 +172236,8 @@ _G.pg.base.ship_data_statistics[306071] = {
 		{}
 	},
 	tag_list = {
-		"Ryuhou"
+		"Ryuhou",
+		"Musashi-Game"
 	}
 }
 
@@ -169505,7 +172361,8 @@ _G.pg.base.ship_data_statistics[306072] = {
 		{}
 	},
 	tag_list = {
-		"Ryuhou"
+		"Ryuhou",
+		"Musashi-Game"
 	}
 }
 
@@ -169629,7 +172486,8 @@ _G.pg.base.ship_data_statistics[306073] = {
 		{}
 	},
 	tag_list = {
-		"Ryuhou"
+		"Ryuhou",
+		"Musashi-Game"
 	}
 }
 
@@ -169753,7 +172611,8 @@ _G.pg.base.ship_data_statistics[306074] = {
 		{}
 	},
 	tag_list = {
-		"Ryuhou"
+		"Ryuhou",
+		"Musashi-Game"
 	}
 }
 
@@ -169877,7 +172736,8 @@ _G.pg.base.ship_data_statistics[306081] = {
 		{}
 	},
 	tag_list = {
-		"Zuihou-Class"
+		"Zuihou-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -170001,7 +172861,8 @@ _G.pg.base.ship_data_statistics[306082] = {
 		{}
 	},
 	tag_list = {
-		"Zuihou-Class"
+		"Zuihou-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -170125,7 +172986,8 @@ _G.pg.base.ship_data_statistics[306083] = {
 		{}
 	},
 	tag_list = {
-		"Zuihou-Class"
+		"Zuihou-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -170249,7 +173111,8 @@ _G.pg.base.ship_data_statistics[306084] = {
 		{}
 	},
 	tag_list = {
-		"Zuihou-Class"
+		"Zuihou-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -170373,7 +173236,8 @@ _G.pg.base.ship_data_statistics[306091] = {
 		{}
 	},
 	tag_list = {
-		"Zuihou-Class"
+		"Zuihou-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -170497,7 +173361,8 @@ _G.pg.base.ship_data_statistics[306092] = {
 		{}
 	},
 	tag_list = {
-		"Zuihou-Class"
+		"Zuihou-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -170621,7 +173486,8 @@ _G.pg.base.ship_data_statistics[306093] = {
 		{}
 	},
 	tag_list = {
-		"Zuihou-Class"
+		"Zuihou-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -170745,7 +173611,8 @@ _G.pg.base.ship_data_statistics[306094] = {
 		{}
 	},
 	tag_list = {
-		"Zuihou-Class"
+		"Zuihou-Class",
+		"Musashi-Game"
 	}
 }
 
@@ -170872,7 +173739,8 @@ _G.pg.base.ship_data_statistics[307011] = {
 	tag_list = {
 		"Amagi-Class",
 		"1st-airfleet",
-		"Akagi"
+		"Akagi",
+		"Musashi-Game"
 	}
 }
 
@@ -170999,7 +173867,8 @@ _G.pg.base.ship_data_statistics[307012] = {
 	tag_list = {
 		"Amagi-Class",
 		"1st-airfleet",
-		"Akagi"
+		"Akagi",
+		"Musashi-Game"
 	}
 }
 
@@ -171126,7 +173995,8 @@ _G.pg.base.ship_data_statistics[307013] = {
 	tag_list = {
 		"Amagi-Class",
 		"1st-airfleet",
-		"Akagi"
+		"Akagi",
+		"Musashi-Game"
 	}
 }
 
@@ -171253,7 +174123,8 @@ _G.pg.base.ship_data_statistics[307014] = {
 	tag_list = {
 		"Amagi-Class",
 		"1st-airfleet",
-		"Akagi"
+		"Akagi",
+		"Musashi-Game"
 	}
 }
 
@@ -171380,7 +174251,8 @@ _G.pg.base.ship_data_statistics[307021] = {
 	tag_list = {
 		"Tosa-Class",
 		"1st-airfleet",
-		"Kaga"
+		"Kaga",
+		"Musashi-Game"
 	}
 }
 
@@ -171507,7 +174379,8 @@ _G.pg.base.ship_data_statistics[307022] = {
 	tag_list = {
 		"Tosa-Class",
 		"1st-airfleet",
-		"Kaga"
+		"Kaga",
+		"Musashi-Game"
 	}
 }
 
@@ -171634,7 +174507,8 @@ _G.pg.base.ship_data_statistics[307023] = {
 	tag_list = {
 		"Tosa-Class",
 		"1st-airfleet",
-		"Kaga"
+		"Kaga",
+		"Musashi-Game"
 	}
 }
 
@@ -171761,7 +174635,8 @@ _G.pg.base.ship_data_statistics[307024] = {
 	tag_list = {
 		"Tosa-Class",
 		"1st-airfleet",
-		"Kaga"
+		"Kaga",
+		"Musashi-Game"
 	}
 }
 
@@ -172895,7 +175770,8 @@ _G.pg.base.ship_data_statistics[307051] = {
 	},
 	tag_list = {
 		"5th-airfleet",
-		"Shokaku"
+		"Shokaku",
+		"Musashi-Game"
 	}
 }
 
@@ -173021,7 +175897,8 @@ _G.pg.base.ship_data_statistics[307052] = {
 	},
 	tag_list = {
 		"5th-airfleet",
-		"Shokaku"
+		"Shokaku",
+		"Musashi-Game"
 	}
 }
 
@@ -173147,7 +176024,8 @@ _G.pg.base.ship_data_statistics[307053] = {
 	},
 	tag_list = {
 		"5th-airfleet",
-		"Shokaku"
+		"Shokaku",
+		"Musashi-Game"
 	}
 }
 
@@ -173273,7 +176151,8 @@ _G.pg.base.ship_data_statistics[307054] = {
 	},
 	tag_list = {
 		"5th-airfleet",
-		"Shokaku"
+		"Shokaku",
+		"Musashi-Game"
 	}
 }
 
@@ -193209,7 +196088,8 @@ _G.pg.base.ship_data_statistics[402021] = {
 		{}
 	},
 	tag_list = {
-		"Konigsberg-Class"
+		"Konigsberg-Class",
+		"Karlsruhe"
 	}
 }
 
@@ -193337,7 +196217,8 @@ _G.pg.base.ship_data_statistics[402022] = {
 		{}
 	},
 	tag_list = {
-		"Konigsberg-Class"
+		"Konigsberg-Class",
+		"Karlsruhe"
 	}
 }
 
@@ -193465,7 +196346,8 @@ _G.pg.base.ship_data_statistics[402023] = {
 		{}
 	},
 	tag_list = {
-		"Konigsberg-Class"
+		"Konigsberg-Class",
+		"Karlsruhe"
 	}
 }
 
@@ -193593,7 +196475,8 @@ _G.pg.base.ship_data_statistics[402024] = {
 		{}
 	},
 	tag_list = {
-		"Konigsberg-Class"
+		"Konigsberg-Class",
+		"Karlsruhe"
 	}
 }
 

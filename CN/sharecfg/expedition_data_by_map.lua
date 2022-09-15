@@ -13594,6 +13594,270 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1680001] = {
+		map = 1680001,
+		name = "紫绛槿岚·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-musashi-inside",
+		enter_story = "ZIJIANGJINLAN1",
+		ani_name = "Map_1680001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4520,
+		ui_type = 1,
+		bg = "Map_1680001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1680011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680002] = {
+		map = 1680002,
+		name = "紫绛槿岚·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-1",
+		enter_story = "ZIJIANGJINLAN19",
+		ani_name = "Map_1680002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4520,
+		ui_type = 1,
+		bg = "Map_1680002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1680012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680011] = {
+		map = 1680011,
+		name = "紫绛槿岚·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-musashi-inside",
+		enter_story = "ZIJIANGJINLAN1",
+		ani_name = "Map_1680003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4520,
+		ui_type = 1,
+		bg = "Map_1680003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1680001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680012] = {
+		map = 1680012,
+		name = "紫绛槿岚·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-1",
+		enter_story = "ZIJIANGJINLAN19",
+		ani_name = "Map_1680004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4520,
+		ui_type = 1,
+		bg = "Map_1680004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1680002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680025] = {
+		map = 1680025,
+		name = "紫绛槿岚·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-2",
+		enter_story = "",
+		ani_name = "Map_1680005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4520,
+		ui_type = 1,
+		bg = "Map_1680005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1680012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680026] = {
+		map = 1680026,
+		name = "紫绛槿岚·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-2",
+		enter_story = "",
+		ani_name = "Map_1680005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4520,
+		ui_type = 1,
+		bg = "Map_1680005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1680012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
@@ -16062,6 +16326,12 @@ pg.expedition_data_by_map = {
 		1670001,
 		1670002,
 		1670003,
+		1680001,
+		1680002,
+		1680011,
+		1680012,
+		1680025,
+		1680026,
 		2100000,
 		2100001,
 		2100010,

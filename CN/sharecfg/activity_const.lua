@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 4422
+		act_id = 4528
 	},
 	ACTIVITY_BOSS_PT_ID = {
 		act_id = 4437
@@ -854,5 +854,11 @@ pg.activity_const = {
 	},
 	PIXEL_DRAW_ILLUSTRIOUS = {
 		act_id = 4499
+	},
+	MINIGAME_CAKEMAKING = {
+		act_id = 4530
+	},
+	INVITATION_JP_FIFTH = {
+		act_id = 4533
 	}
 }

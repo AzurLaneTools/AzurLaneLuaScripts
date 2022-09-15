@@ -6303,6 +6303,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[234] = {
+		spine_extra = "",
+		describe = "大棋盘中心黑色高塔的微缩模型，材质与构造皆不明，但散发着危险的气息。——授予在「紫绛槿岚」特别作战中获得杰出成就者的纪念章。",
+		gain_by = "紫绛槿岚",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "wuzangxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "赤红之“塔”",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 234,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"wuzangxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -113022,6 +113065,1173 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[94001] = {
+		spine_extra = "",
+		describe = "快乐的学园庆典，开催！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "学园庆典地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanxyicon",
+		spine_action_replace = "",
+		picture = "xy/dibanxy",
+		comfortable = 4,
+		canputon = 0,
+		id = 94001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94002] = {
+		spine_extra = "",
+		describe = "快乐的学园庆典，开催！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "学园庆典墙纸",
+		effect = "",
+		advice = 0,
+		icon = "qiangbixyicon",
+		spine_action_replace = "",
+		picture = "xy/qiangbixy",
+		comfortable = 4,
+		canputon = 0,
+		id = 94002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94101] = {
+		spine_extra = "",
+		describe = "茶道是一门高深的学问～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 94,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chayixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "茶道部展台",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/chayixy",
+		canputon = 0,
+		id = 94101,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					38.4,
+					6.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94102] = {
+		spine_extra = "",
+		describe = "是时候一展练习的成果了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chujuxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "厨艺部展台",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xy/chujuxy",
+		canputon = 0,
+		id = 94102,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94103] = {
+		spine_extra = "",
+		describe = "欢迎参加啾啾学园庆典！",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "damenxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "校园入口",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/damenxy",
+		canputon = 1,
+		id = 94103,
+		can_rotate = 1,
+		size = {
+			2,
+			7
+		},
+		offset = {
+			0,
+			2.32
+		},
+		canputonGrid = {
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94104] = {
+		spine_extra = "",
+		describe = "胆小啾误入！啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guiwujiuxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "鬼屋报名处",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/guiwujiuxy",
+		canputon = 0,
+		id = 94104,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94105] = {
+		spine_extra = "",
+		describe = "万众期待的后夜庆典！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huoduoxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "庆典篝火",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/huoduoxy",
+		canputon = 0,
+		id = 94105,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94106] = {
+		spine_extra = "",
+		describe = "超大份的炒面……车？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 94,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "lamianxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "啾啾炒面车",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/lamianxy",
+		canputon = 0,
+		id = 94106,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12.7,
+					-69
+				},
+				{
+					-1,
+					1
+				},
+				"xy/lamianxy_using",
+				0,
+				{
+					{
+						-54,
+						42.8
+					},
+					{
+						214.8,
+						281.9
+					},
+					"xy/miaorenouxy_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94107] = {
+		spine_extra = "",
+		describe = "一杯卡布奇诺啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "nvpukafeixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "女仆咖啡摊位",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xy/nvpukafeixy",
+		canputon = 0,
+		id = 94107,
+		can_rotate = 1,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94108] = {
+		spine_extra = "",
+		describe = "胆小啾误入！啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paizi1xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "鬼屋看板",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/paizi1xy",
+		canputon = 0,
+		id = 94108,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94109] = {
+		spine_extra = "",
+		describe = "乐队的演出马上就要开始了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paizi2xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "乐队看板",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/paizi2xy",
+		canputon = 0,
+		id = 94109,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94110] = {
+		spine_extra = "",
+		describe = "帮助你看清前方朦胧的命运…啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paizi3xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "占卜屋看板",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/paizi3xy",
+		canputon = 0,
+		id = 94110,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94111] = {
+		spine_extra = "",
+		describe = "恭候您的光临啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paizi4xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "女仆咖啡看板",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/paizi4xy",
+		canputon = 0,
+		id = 94111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94112] = {
+		spine_extra = "",
+		describe = "要体验一下弓道的乐趣吗？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "pengzixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "弓道部摊位",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xy/pengzixy",
+		canputon = 0,
+		id = 94112,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94113] = {
+		spine_extra = "",
+		describe = "蒙布朗蛋糕，追加两份啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tianpindianxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "甜品摊位",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xy/tianpindianxy",
+		canputon = 0,
+		id = 94113,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94114] = {
+		spine_extra = "",
+		describe = "参观学园庆典的同时赏赏樱花吧～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yinghuashuxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学园樱花树",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/yinghuashuxy",
+		canputon = 0,
+		id = 94114,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94115] = {
+		spine_extra = "",
+		describe = "帮助你看清前方朦胧的命运…啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 94,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhanbushixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "占卜屋",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/zhanbushixy",
+		canputon = 0,
+		id = 94115,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-97.5,
+					-117.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94116] = {
+		spine_extra = "",
+		describe = "奇妙的…休息台？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 94,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhangyuwanzixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "章鱼丸子(特大)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/zhangyuwanzixy",
+		canputon = 0,
+		id = 94116,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.1,
+					39.8
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94117] = {
+		spine_extra = "",
+		describe = "学园庆典筹备组精心制作的装饰旗帜",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "lipaixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学园庆典旗帜",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/lipaixy",
+		canputon = 0,
+		id = 94117,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94119] = {
+		spine_extra = "",
+		describe = "扮演的同学…辛苦了！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "喵喵布偶",
+		themeId = 94,
+		icon = "miaorenouxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 94119,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"miaorenouxyB",
+				"normal"
+			},
+			{
+				"miaorenouxyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					13.1,
+					92.3
+				},
+				{
+					298.3,
+					241.1
+				},
+				"xy/miaorenouxy_mask"
+			},
+			{
+				-29,
+				-102
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[94120] = {
+		spine_extra = "",
+		describe = "感受我们的表演啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "学园庆典舞台",
+		themeId = 94,
+		icon = "wutaixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 94120,
+		can_rotate = 1,
+		size = {
+			7,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaixyB",
+				"normal"
+			},
+			{
+				"wutaixyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[94301] = {
+		spine_extra = "",
+		describe = "为学园庆典增添多彩的颜色～",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuanqi1xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学园庆典装饰带(组合)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/chuanqi1xy",
+		canputon = 0,
+		id = 94301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94302] = {
+		spine_extra = "",
+		describe = "为学园庆典增添多彩的颜色～",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuanqi2xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学园庆典装饰带(三角)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/chuanqi2xy",
+		canputon = 0,
+		id = 94302,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94303] = {
+		spine_extra = "",
+		describe = "为学园庆典增添多彩的颜色～",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuanqi3xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学园庆典装饰带(圆)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/chuanqi3xy",
+		canputon = 0,
+		id = 94303,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94304] = {
+		spine_extra = "",
+		describe = "学园庆典筹备组精心制作的条幅",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "tiaofu1xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学园庆典条幅",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/tiaofu1xy",
+		canputon = 0,
+		id = 94304,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94305] = {
+		spine_extra = "",
+		describe = "学园庆典筹备组精心制作的条幅",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "tiaofu2xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "学园庆典条幅",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/tiaofu2xy",
+		canputon = 0,
+		id = 94305,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94306] = {
+		spine_extra = "",
+		describe = "胆小啾误入！啾！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guiwuxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "鬼屋",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/guiwuxy",
+		canputon = 0,
+		id = 94306,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -113155,6 +114365,7 @@ pg.furniture_data_template = {
 			229,
 			230,
 			232,
+			234,
 			100001,
 			100002,
 			100003,
@@ -113355,6 +114566,7 @@ pg.furniture_data_template = {
 			229,
 			230,
 			232,
+			234,
 			100001,
 			100002,
 			100003,
@@ -118302,6 +119514,62 @@ pg.furniture_data_template = {
 			93118,
 			93119,
 			93120
+		},
+		[94] = {
+			94001,
+			94002,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117,
+			94119,
+			94120,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306,
+			94001,
+			94002,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117,
+			94119,
+			94120,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306
 		}
 	},
 	get_id_list_by_tag = {
@@ -119908,7 +121176,24 @@ pg.furniture_data_template = {
 			93117,
 			93118,
 			93119,
-			93120
+			93120,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117
 		},
 		{
 			1108,
@@ -120229,6 +121514,7 @@ pg.furniture_data_template = {
 			229,
 			230,
 			232,
+			234,
 			100001,
 			100002,
 			100003,
@@ -120412,7 +121698,9 @@ pg.furniture_data_template = {
 			89126,
 			90104,
 			90117,
-			91129
+			91129,
+			94119,
+			94120
 		},
 		[4] = {
 			1001,
@@ -120496,7 +121784,8 @@ pg.furniture_data_template = {
 			90001,
 			91001,
 			92001,
-			93001
+			93001,
+			94001
 		},
 		[3] = {
 			1002,
@@ -120580,7 +121869,8 @@ pg.furniture_data_template = {
 			90002,
 			91002,
 			92002,
-			93002
+			93002,
+			94002
 		},
 		[5] = {
 			1301,
@@ -120874,7 +122164,13 @@ pg.furniture_data_template = {
 			92301,
 			92306,
 			92307,
-			92308
+			92308,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306
 		}
 	},
 	get_id_list_by_type = {
@@ -120960,7 +122256,8 @@ pg.furniture_data_template = {
 			90002,
 			91002,
 			92002,
-			93002
+			93002,
+			94002
 		},
 		[7] = {
 			1,
@@ -121076,6 +122373,7 @@ pg.furniture_data_template = {
 			226,
 			230,
 			232,
+			234,
 			100001,
 			100002,
 			100004,
@@ -122692,7 +123990,24 @@ pg.furniture_data_template = {
 			93115,
 			93116,
 			93118,
-			93120
+			93120,
+			94101,
+			94102,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117,
+			94120
 		},
 		[11] = {
 			131,
@@ -122728,7 +124043,8 @@ pg.furniture_data_template = {
 			84185,
 			84186,
 			90104,
-			90117
+			90117,
+			94119
 		},
 		[14] = {
 			214,
@@ -123027,7 +124343,13 @@ pg.furniture_data_template = {
 			92301,
 			92306,
 			92307,
-			92308
+			92308,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306
 		},
 		[13] = {
 			100015,
@@ -123120,7 +124442,8 @@ pg.furniture_data_template = {
 			90001,
 			91001,
 			92001,
-			93001
+			93001,
+			94001
 		},
 		[5] = {
 			1101,
@@ -123452,7 +124775,8 @@ pg.furniture_data_template = {
 			37108,
 			51107,
 			52105,
-			62112
+			62112,
+			94103
 		},
 		[10] = {
 			28306,
@@ -123598,6 +124922,7 @@ pg.furniture_data_template = {
 		229,
 		230,
 		232,
+		234,
 		100001,
 		100002,
 		100003,
@@ -126021,6 +127346,33 @@ pg.furniture_data_template = {
 		93117,
 		93118,
 		93119,
-		93120
+		93120,
+		94001,
+		94002,
+		94101,
+		94102,
+		94103,
+		94104,
+		94105,
+		94106,
+		94107,
+		94108,
+		94109,
+		94110,
+		94111,
+		94112,
+		94113,
+		94114,
+		94115,
+		94116,
+		94117,
+		94119,
+		94120,
+		94301,
+		94302,
+		94303,
+		94304,
+		94305,
+		94306
 	}
 }

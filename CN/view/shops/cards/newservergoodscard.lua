@@ -20,6 +20,7 @@ function slot0.Ctor(slot0, slot1)
 	setActive(slot0.discountTF, false)
 	setText(slot0.sellOutMaskTF:Find("ch"), i18n("word_sell_out"))
 	setText(slot0.levelMaskTF:Find("ch"), i18n("word_sell_lock"))
+	setText(slot0._tr:Find("item/count_contain/label"), i18n("activity_shop_exchange_count"))
 end
 
 function slot0.Update(slot0, slot1, slot2)
