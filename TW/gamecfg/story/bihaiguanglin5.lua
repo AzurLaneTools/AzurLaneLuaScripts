@@ -85,7 +85,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "此處夢境，即將迎來結束之時了麼……",
+			say = "此處夢境，即將迎來結束之時了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

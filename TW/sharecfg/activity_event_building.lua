@@ -122,7 +122,7 @@ pg.activity_event_building = {
 	},
 	[19] = {
 		id = 19,
-		name = "主教學樓",
+		name = "教學大樓",
 		material_id = 59349,
 		desc = "好好學習，天天向上。",
 		buff = {

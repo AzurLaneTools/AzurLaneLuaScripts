@@ -178,7 +178,7 @@ pg.activity_event_avatarframe = {
 			{
 				5,
 				30129,
-				2,
+				1,
 				800
 			},
 			{

@@ -143080,7 +143080,7 @@ _G.pg.base.item_data_statistics[80019] = {
 	link_id = 0,
 	id = 80019,
 	is_world = 0,
-	icon = "Props/appearanceboxshuishangleyuan",
+	icon = "Props/appearanceboxshuishangleyuanzixuan",
 	display_icon = {
 		{
 			9,
