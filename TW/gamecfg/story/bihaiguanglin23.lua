@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "龙宫城·中环区",
+			say = "龍宮城·中環區",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -39,7 +39,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "冲锋~冲锋~冲锋~",
+			say = "衝鋒~衝鋒~衝鋒~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:62}阁下她们真是太厉害了！能让我们挂着敌人的护盾去打敌人！",
+			say = "築摩閣下她們真是太厲害了！能讓我們掛著敵人的護盾去打敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嚯嚯~航空母舰最不擅长的就是近身战，这个护盾正好弥补了这一点！",
+			say = "嚯嚯~航空母艦最不擅長的就是近身戰，這個護盾正好彌補了這一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在这一刻的我，说是世界上最完美的正规航空母舰也不为过！",
+			say = "現在這一刻的我，說是世界上完美的正規航空母艦也不為過！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也不怕被火烧了……好厉害。",
+			say = "也不怕被火燒了……好厲害。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到现在为止终于有些探险的感觉了，看来这个龙宫城也会做些有趣的事嘛~",
+			say = "到現在為止終於有些探險的感覺了，看來這個龍宮城也會做些有趣的事嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "机关发现！{namecode:208}阁下，这次也拜托你了！",
+			say = "機關發現！葛城閣下，這次也拜託你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
-			say = "轰————————！",
+			say = "轟————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -247,7 +247,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "在{namecode:208}的轰炸下，保护装置的结界很快就消失了。",
+			say = "在葛城的轟炸下，保護裝置的結界很快就消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:208}阁下，是一个和刚才一样的控制台！",
+			say = "葛城閣下，是一個和剛才一樣的控制台！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "通过这个控制台又能收获什么秘宝呢，真是令人期待啊！",
+			say = "通過這個控制台又能收穫什麼秘寶呢，真是令人期待啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是可以变得巨大的秘宝就好了~如果变得巨大化，{namecode:207}就能一拳打瘪敌人啦！",
+			say = "要是可以變得巨大的秘寶就好了~如果變得巨大化，山風就能一拳打癟敵人啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能够变出点心和糖果的机关也不错……",
+			say = "能夠變出點心和糖果的機關也不錯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那样对于作战完全没帮助吧！",
+			say = "那樣對於作戰完全沒幫助吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "食物也是很重要的！吃饱肚子才好打仗嘛！",
+			say = "食物也是很重要的！吃飽肚子才好打仗嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "如果有点心的话，我想要胡萝卜蛋糕~",
+			say = "如果有點心的話，我想要胡蘿蔔蛋糕~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:18}，现在进展怎么样？",
+			say = "島風，現在進展怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:62}阁下，{namecode:18}队现在进展顺利，已经到达控制台的前方~",
+			say = "築摩閣下，島風隊現在進展順利，已經到達控制台的前方~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "不过这个控制台好复杂，{namecode:18}完全搞不懂要怎么弄……",
+			say = "不過這個控制台好複雜，島風完全搞不懂要怎麼弄……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这个很简单。我教你啊~首先这样……然后这样……最后这样……",
+			say = "這個很簡單。我教你啊~首先這樣……然後這樣……最後這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "原来如此！好像明白了，又好像没明白！",
+			say = "原來如此！好像明白了，又好像沒明白！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我说…现在还没到需要这个机关的时候，万一{namecode:18}弄错了会很麻烦吧？",
+			say = "我說…現在還沒到需要這個機關的時候，萬一島風弄錯了會很麻煩吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不会不会，我的说明简单易懂，只要再讲一遍就算{namecode:18}也能明白。",
+			say = "不會不會，我的說明簡單易懂，只要再講一遍就算島風也能明白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "嗯！只要{namecode:18}再听一遍 ，大概也许可能就明白了！",
+			say = "嗯！只要島風再聽一遍 ，大概也許可能就明白了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走了！继续前进！不是还在竞速比赛中么，这么磨磨蹭蹭被落下我可不管哦？",
+			say = "走了！繼續前進！不是還在競速比賽中麼，這麼磨磨蹭蹭被落下我可不管哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，被落下可不好！等等我，{namecode:175}阁下！",
+			say = "啊，被落下可不好！等等我，駿河閣下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

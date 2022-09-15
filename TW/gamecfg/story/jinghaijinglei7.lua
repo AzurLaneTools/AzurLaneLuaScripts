@@ -293,7 +293,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -332,7 +332,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -350,7 +350,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -367,7 +367,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			say = "就在{namecode:91}陷入沉思之时，一只蓝色的式神从窗外飞到了桌上。",
 			typewriter = {
@@ -378,7 +378,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -396,7 +396,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			paintingNoise = true,
 			dir = 1,
 			actor = 307020,
@@ -415,7 +415,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			paintingNoise = true,
 			dir = 1,
 			actor = 307020,
@@ -434,7 +434,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			paintingNoise = true,
 			dir = 1,
 			actor = 307020,
@@ -453,7 +453,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			paintingNoise = true,
 			dir = 1,
 			actor = 307020,
@@ -472,7 +472,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			paintingNoise = true,
 			dir = 1,
 			actor = 307020,
@@ -491,7 +491,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -509,7 +509,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -527,7 +527,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -545,7 +545,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -563,7 +563,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -581,7 +581,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -599,7 +599,7 @@ return {
 		{
 			actor = 302130,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -616,7 +616,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -634,7 +634,7 @@ return {
 		{
 			actor = 302130,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -651,7 +651,7 @@ return {
 		{
 			actor = 302130,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -668,7 +668,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -686,7 +686,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -704,7 +704,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -721,7 +721,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "bg_endingsong_15",
+			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,

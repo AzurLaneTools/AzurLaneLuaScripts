@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "龙宫城·内环区",
+			say = "龍宮城·內環區",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎？！{namecode:208}阁下，我们的屏障消失了哎！",
+			say = "哎？！葛城閣下，我們的屏障消失了哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来使用机关后得到的秘宝是有时间限制的啊，真遗憾……",
+			say = "看來使用機關後得到的秘寶是有時間限制的啊，真遺憾……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过现在已经进入了内环，前方应该就是最后一个阻拦我们前进的区域了。",
+			say = "不過現在已經進入了內環，前方應該就是最後一個阻攔我們前進的區域了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "敌人依然很弱，也没有出现火海巨浪之类的奇怪东西，不依靠屏障我们也能顺利通过。",
+			say = "敵人依然很弱，也沒有出現火海巨浪之類的奇怪東西，不依靠屏障我們也能順利通過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "可是{namecode:208}阁下，敌人的数量是不是有点太多了……",
+			say = "可是葛城閣下，敵人的數量是不是有點太多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这么弱的敌人来多少都不会引起质变的，看我用轰炸机全部清理掉，轻松有余~！",
+			say = "這麼弱的敵人來多少都不會引起質變的，看我用轟炸機全部清理掉，輕鬆有餘~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

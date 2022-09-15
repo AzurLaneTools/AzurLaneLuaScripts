@@ -875,6 +875,21 @@ pg.player_resource = {
 		name = "kfc_pt",
 		itemid = 59338
 	},
+	[277] = {
+		id = 277,
+		name = "rixiv3_pt",
+		itemid = 59345
+	},
+	[278] = {
+		id = 278,
+		name = "skinTicket38",
+		itemid = 59346
+	},
+	[279] = {
+		id = 279,
+		name = "union8_pt",
+		itemid = 59348
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1149,6 +1164,11 @@ pg.player_resource = {
 		id = 40731,
 		name = "Batterytw_2",
 		itemid = 80014
+	},
+	[40807] = {
+		id = 40807,
+		name = "tw_2022yaoqing",
+		itemid = 80030
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -1676,6 +1696,15 @@ pg.player_resource = {
 		kfc_pt = {
 			276
 		},
+		rixiv3_pt = {
+			277
+		},
+		skinTicket38 = {
+			278
+		},
+		union8_pt = {
+			279
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1840,6 +1869,9 @@ pg.player_resource = {
 		},
 		Batterytw_2 = {
 			40731
+		},
+		tw_2022yaoqing = {
+			40807
 		}
 	},
 	all = {
@@ -2018,6 +2050,9 @@ pg.player_resource = {
 		274,
 		275,
 		276,
+		277,
+		278,
+		279,
 		950,
 		951,
 		952,
@@ -2072,6 +2107,7 @@ pg.player_resource = {
 		40629,
 		40713,
 		40730,
-		40731
+		40731,
+		40807
 	}
 }

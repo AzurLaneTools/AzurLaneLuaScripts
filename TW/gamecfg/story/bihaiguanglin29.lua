@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:18}",
 			dir = 1,
 			bgmDelay = 1,
-			say = "这就是控制敌人无限出现的控制台，不知道开启后会发生什么呢……",
+			say = "這就是控制敵人無限出現的控制台，不知道開啟後會發生什麼呢……",
 			bgm = "battle-longgong",
 			flashin = {
 				delay = 1,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……近距离仔细一看果然好复杂啊！",
+			say = "嗚……近距離仔細一看果然好複雜啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "记得欧根亲王阁下给的操作方法是，唔唔唔……首先摁下这个，然后————",
+			say = "記得歐根親王閣下給的操作方法是，唔唔唔……首先摁下這個，然後————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「提问——」",
+			say = "「提問——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谜之音小姐又出现了？！你有什么问题要问{namecode:18}嘛？",
+			say = "謎之音小姐又出現了？！你有什麼問題要問島風嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,11 +99,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「汝为何要再次前来，为何要如此努力？」",
+			say = "「汝為何要再次前來，為何要如此努力？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个很简单~因为同伴们还在努力战斗，{namecode:18}是为了努力中的同伴而努力！",
+			say = "這個很簡單~因為同伴們還在努力戰鬥，島風是為了努力中的同伴而努力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,11 +131,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「生机之秘宝向勇者献上，继续前进吧」",
+			say = "「生機之秘寶向勇者獻上，繼續前進吧」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "谢谢你，谜之音小姐~！",
+			say = "謝謝你，謎之音小姐~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

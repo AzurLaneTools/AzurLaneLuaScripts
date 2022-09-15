@@ -544,7 +544,7 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "bg_unnamearea_1",
-			actorName = "雷&电",
+			actorName = "梓&柏",
 			blackBg = true,
 			actor = 301120,
 			nameColor = "#A9F548FF",

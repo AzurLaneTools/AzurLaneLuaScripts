@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "众人在{namecode:62}选择的航线上穿行着，最初十分顺利地绕开了战斗力低下但防御力奇高的敌舰。",
+			say = "眾人在築摩選擇的航線上穿行著，最初十分順利繞開了戰鬥力低下但防禦力奇高的敵艦。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "可是随着不断前进，敌人的密度越来越高。",
+			say = "但隨著不斷前進，敵人的密度越來越高。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "最终，居然出现了船连着船将宽广的航路彻底堵死的情况。",
+			say = "最終，居然出現了船連著船將寬廣的航路徹底堵死的情況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像屹立在河道上的群山一样……",
+			say = "簡直就像擋在河道上的群山一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不可理喻，这里的机关太不可理喻了吧？！",
+			say = "不可理喻，這裡的機關太不可理喻了吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "距离{namecode:18}提到的控制建筑已经不远了……必须在这里硬碰硬开辟出一条道路来。",
+			say = "距離島風提到的控制建築已經不遠了……必須在這裡硬碰硬開闢出一條道路來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:175}，接下来就请你全开火力，让我们见识一下重樱精锐的力量吧。",
+			say = "駿河，接下來就請妳全開火力，讓我們見識一下重櫻精銳的力量吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题，我会竭尽全力的。",
+			say = "沒問題，我會竭盡全力的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳、我们现在正在赶时间，碍事的家伙能不能让出条道路来！",
+			say = "咳、我們現在正在趕時間，礙事的傢伙能不能讓出條道路來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
-			say = "轰————————！",
+			say = "轟————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "攻击有效！大家一起上，就这样集中火力一艘一艘突破敌人的阻隔！",
+			say = "大家一起上，就這樣集中火力一艘一艘突破敵人的阻隔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（……等打完这些船，{namecode:18}说不定都从中心绕一圈过来了吧……）",
+			say = "（……等打完這些船，島風說不定都從中心繞一圈過來了吧……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（是随口说了不管遇到什么机关都好的我的报应么，运气真差……）",
+			say = "（是隨口說了不管遇到什麼機關都好的我的報應嗎，運氣真差……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "没什么……大家开火吧——！",
+			say = "沒什麼……大家開火吧——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

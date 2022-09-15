@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			say = "重樱近海某处 数月前 ",
+			say = "重櫻近海某處 數月前",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
@@ -55,7 +55,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "心情很好啊，欧根。",
+			say = "心情很好啊，歐根。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "没想到{namecode:91}那么慷慨，真是得到了意料之外的收获啊~",
+			say = "沒想到赤城那麼慷慨，真是得到了意料之外的收穫啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "就算你再怎么开心，也不能这么走走停停吧。",
+			say = "就算你再怎麼開心，也不能這麼走走停停吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们现在的航行速度也太慢了些，放松请等到归国之后。",
+			say = "我們航行的速度也太慢了些，放鬆下來請等到歸國之後再放鬆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "我们又不是做了坏事的贼，没必要那么着急嘛~",
+			say = "我們又不是做了壞事的賊，沒必要那麼著急嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "不不不……再怎么说{namecode:91}她们做的也太明显了点，如果重樱的人反应过来怎么办。",
+			say = "不不不……再怎麼說赤城她們做的也太明顯了點，如果重櫻的人反應過來怎麼辦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你也看到了吧，重樱内部还挺复杂的，{namecode:91}也没有完全掌握局势。",
+			say = "你也看到了吧，重櫻內部還挺複雜的，赤城也沒有完全掌握局勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "结果上来说，我们的行动不是间接保护了神石的安全么？她们的大人物们就算反应过来了也不至于太生气吧。",
+			say = "結果上來說，我們的行動不是間接保護了神石的安全麼？她們的大人物們就算反應過來了也不至於太生氣吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "结果好，一切就好嘛~",
+			say = "結果好，一切就好嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "希望拦在我们前方的舰队也能像你一样豁达……",
+			say = "希望攔在我們前方的艦隊也能像你一樣豁達……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgm = "theme-longgong",
 			actor = 305080,
 			nameColor = "#a9f548",
-			say = "铁血的诸位客人请留步。",
+			say = "鐵血的諸位客人請留步。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "呃……你是{namecode:161}级的，不对，{namecode:92}级的……",
+			say = "呃……你是{namecode:161}級的，不對，{namecode:92}級的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "啊~{namecode:91}大人是还有什么事要嘱咐么？难道是忘了使用说明？",
+			say = "啊~赤城大人是還有什麼事要囑咐麼？難道是忘了使用說明？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 305080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不、我是来转达某位大人给予各位的提案的。",
+			say = "不、我是來轉達某位大人給予各位的提案的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "某位大人…？你究竟是重樱哪一派的。",
+			say = "某位大人…？你究竟是重櫻哪一派的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请您不要紧张。{namecode:91}大人所做之事，那位大人已经知晓了。",
+			say = "請您不要緊張。赤城大人所做之事，那位大人已經知曉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:83}级最了解{namecode:83}级。{namecode:91}大人参加祭典和请你们来的目的，很容易被猜出来。",
+			say = "大和級最了解大和級。赤城大人參加祭典和請你們來的目的，很容易被猜出來。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在此基础上，她想要和你们谈一谈——关于铁血和重樱的未来。",
+			say = "在此基礎上，她想要和你們談一談——關於鐵血和重櫻的未來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "看来我们没有拒绝的选项吧？",
+			say = "看來我們沒有拒絕的選項吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了诸位在重樱控制区内的旅途平安，我建议还是谈一谈比较好哦。",
+			say = "為了諸位在重櫻控制區內的旅途平安，我建議還是談一談比較好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 305080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请，那位大人正在频道上等您。",
+			say = "請，那位大人正在頻道上等您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "感觉事情好像变得更加有趣了……没问题，就让我们谈谈吧~",
+			say = "感覺事情好像變得更加有趣了……沒問題，就讓我們談談吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

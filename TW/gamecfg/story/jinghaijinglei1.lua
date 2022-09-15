@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "路保养的很好，却不允许任何人进入。",
+			say = "路保养得很好，却不允许任何人进入。",
 			painting = {
 				alpha = 0.3,
 				time = 1

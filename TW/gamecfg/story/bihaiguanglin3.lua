@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "帕克菲克洋·重樱前锋舰队",
+			say = "太平洋·重櫻前鋒艦隊",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "cw-level",
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "阳光下，一位娇小的少女灵巧地穿行在泛着深海特有靛蓝色调的海面上，两只毛茸茸的兔耳随着海浪一上一下跳跃。",
+			say = "陽光下，一位嬌小的少女靈巧地穿行在泛著深海特有靛藍色調的海面上，兩隻毛茸茸的兔耳隨著海浪一上一下跳躍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "航速41节，前方目视范围安全。",
+			say = "航速41節，前方目視範圍安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "水下……确认没有鲨鱼，呼~",
+			say = "水下……確認沒有鯊魚，呼~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "（能在这么好的天气里航行真是十分舒适，只不过……）",
+			say = "（能在這麼好的天氣裡航行真是十分舒適，只不過……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "少女活泼的脸上不知为何出现了一丝阴云。",
+			say = "少女活潑的臉上不知為何出現了一絲陰雲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "噗哈哈哈……居然真的会迷路啊，还是直接撞到了{namecode:182}大人面前，甚至面对面的时候都没认出来！",
+			say = "噗哈哈哈……居然真的會迷路啊，還是直接撞到了信濃大人面前，甚至面對面的時候都沒認出來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "{namecode:18}你真是太厉害了！",
+			say = "島風妳真是太厲害了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "这种事完全不能用厉害来形容吧！",
+			say = "這種事完全不能用厲害來形容吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜，一想起来就恨不得找个缝钻进去……",
+			say = "嗚，一想起來就恨不得找個縫鑽進去……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我明白的，那种太紧张然后晕倒的感觉……",
+			say = "我明白的，那種太緊張然後暈倒的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈，没关系！只要身为先锋舰队的我们抓住机会立下什么功劳的话，{namecode:182}大人一定会对我们刮目相看的！",
+			say = "哈哈，沒關係！只要身為先鋒艦隊的我們抓住機會立下什麼功勞的話，信濃大人一定會對我們刮目相看的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "（果然之前太过丢人了，必须要努力一番来挽回{namecode:182}大人对我的印象了。）",
+			say = "（果然之前太過丟人了，必須要努力一番來挽回信濃大人對我的印象了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "说得没错！不管是塞壬还是别的什么敌人，尽管放马过来吧！",
+			say = "說得沒錯！不管是塞壬還是別的敵人什麼，儘管放馬過來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "别说是塞壬了，就连海浪都平稳得不行。这样下去哪有我活跃的机会啊……！",
+			say = "別說是塞壬了，就連海浪都平穩得不行。這樣下去哪有我活躍的機會啊……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "哈啊，好无聊……",
+			say = "哈啊，好無聊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301470,
-			say = "但是，海上的风景还是不错的哦。碧海蓝天，晴空万里，还有飞过的海鸟……",
+			say = "但是，海上的風景還是不錯的哦。碧海藍天，晴空萬里，還有飛過的海鳥……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等……这种地方哪儿来的海鸟啊？！",
+			say = "等等……這種地方哪兒來的海鳥啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许是附近某个不知名小岛上的吧。",
+			say = "也許是附近某個不知名小島上的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不可能！我这里有{namecode:62}阁下提供的精确地图，附近没有任何岛屿哦！",
+			say = "不可能！我這裡有築摩閣下提供的精確地圖，附近沒有任何島嶼哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不会吧，没有岛怎么会有海鸟嘛……等我侦察一下哦！",
+			say = "不會吧，沒有島怎麼會有海鳥嘛……等我偵察一下哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔———哼哼，没想到{namecode:62}的情报也有出错的时候啊~",
+			say = "唔———哼哼，沒想到築摩的情報也有出錯的時候啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:18}，向着西南方向冲锋！你很快就能看到一座岛屿了！",
+			say = "島風，向著西南方向衝鋒！妳很快就能看到一座島嶼了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎？！真的有么？！交给我吧！{namecode:18}高速前进！",
+			say = "哎？！真的有嗎？！交給我吧！島風高速前進！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

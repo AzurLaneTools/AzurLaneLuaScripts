@@ -30915,6 +30915,772 @@ _G.pg.base.aircraft_template[64580] = {
 	}
 }
 
+_G.pg.base.aircraft_template[64671] = {
+	attack_power = 2,
+	name = "筑摩水上机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "lingshishuizhen",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 64671,
+	icon = "lingshishuizhen",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1404,
+	speed = 46,
+	max_hp = 37,
+	scale = 1,
+	weapon_ID = {
+		64681
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[64672] = {
+	id = 64672,
+	name = "筑摩水上机Lv2",
+	hp_growth = 1615,
+	base = 64671,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64682
+	}
+}
+
+_G.pg.base.aircraft_template[64673] = {
+	id = 64673,
+	name = "筑摩水上机Lv3",
+	hp_growth = 1826,
+	base = 64671,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64683
+	}
+}
+
+_G.pg.base.aircraft_template[64674] = {
+	id = 64674,
+	name = "筑摩水上机Lv4",
+	hp_growth = 2036,
+	base = 64671,
+	max_hp = 53,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64684
+	}
+}
+
+_G.pg.base.aircraft_template[64675] = {
+	id = 64675,
+	name = "筑摩水上机Lv5",
+	hp_growth = 2247,
+	base = 64671,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64685
+	}
+}
+
+_G.pg.base.aircraft_template[64676] = {
+	id = 64676,
+	name = "筑摩水上机Lv6",
+	hp_growth = 2458,
+	base = 64671,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64686
+	}
+}
+
+_G.pg.base.aircraft_template[64677] = {
+	id = 64677,
+	name = "筑摩水上机Lv7",
+	hp_growth = 2669,
+	base = 64671,
+	max_hp = 69,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64687
+	}
+}
+
+_G.pg.base.aircraft_template[64678] = {
+	id = 64678,
+	name = "筑摩水上机Lv8",
+	hp_growth = 2879,
+	base = 64671,
+	max_hp = 75,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64688
+	}
+}
+
+_G.pg.base.aircraft_template[64679] = {
+	id = 64679,
+	name = "筑摩水上机Lv9",
+	hp_growth = 3090,
+	base = 64671,
+	max_hp = 80,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64689
+	}
+}
+
+_G.pg.base.aircraft_template[64680] = {
+	id = 64680,
+	name = "筑摩水上机Lv10",
+	hp_growth = 3301,
+	base = 64671,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64690
+	}
+}
+
+_G.pg.base.aircraft_template[64691] = {
+	attack_power = 2,
+	name = "筑摩水上机Lv1 重樱航母",
+	type = 3,
+	accuracy = 23,
+	model_ID = "lingshishuizhen",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 64691,
+	icon = "lingshishuizhen",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1404,
+	speed = 46,
+	max_hp = 37,
+	scale = 1,
+	weapon_ID = {
+		64701
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[64692] = {
+	id = 64692,
+	name = "筑摩水上机Lv2",
+	hp_growth = 1615,
+	base = 64691,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64702
+	}
+}
+
+_G.pg.base.aircraft_template[64693] = {
+	id = 64693,
+	name = "筑摩水上机Lv3",
+	hp_growth = 1826,
+	base = 64691,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64703
+	}
+}
+
+_G.pg.base.aircraft_template[64694] = {
+	id = 64694,
+	name = "筑摩水上机Lv4",
+	hp_growth = 2036,
+	base = 64691,
+	max_hp = 53,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64704
+	}
+}
+
+_G.pg.base.aircraft_template[64695] = {
+	id = 64695,
+	name = "筑摩水上机Lv5",
+	hp_growth = 2247,
+	base = 64691,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64705
+	}
+}
+
+_G.pg.base.aircraft_template[64696] = {
+	id = 64696,
+	name = "筑摩水上机Lv6",
+	hp_growth = 2458,
+	base = 64691,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64706
+	}
+}
+
+_G.pg.base.aircraft_template[64697] = {
+	id = 64697,
+	name = "筑摩水上机Lv7",
+	hp_growth = 2669,
+	base = 64691,
+	max_hp = 69,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64707
+	}
+}
+
+_G.pg.base.aircraft_template[64698] = {
+	id = 64698,
+	name = "筑摩水上机Lv8",
+	hp_growth = 2879,
+	base = 64691,
+	max_hp = 75,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64708
+	}
+}
+
+_G.pg.base.aircraft_template[64699] = {
+	id = 64699,
+	name = "筑摩水上机Lv9",
+	hp_growth = 3090,
+	base = 64691,
+	max_hp = 80,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64709
+	}
+}
+
+_G.pg.base.aircraft_template[64700] = {
+	id = 64700,
+	name = "筑摩水上机Lv10",
+	hp_growth = 3301,
+	base = 64691,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64710
+	}
+}
+
+_G.pg.base.aircraft_template[64721] = {
+	attack_power = 2,
+	name = "葛城支援弹幕烈风Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "liefeng",
+	ACC_growth = 0,
+	crash_DMG = 162,
+	dodge = 0.297,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 64721,
+	icon = "liefeng",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 10,
+	hp_growth = 1762,
+	speed = 60,
+	max_hp = 46,
+	scale = 1,
+	weapon_ID = {
+		59541,
+		64741
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[64722] = {
+	id = 64722,
+	name = "葛城支援弹幕烈风Lv2",
+	hp_growth = 1992,
+	base = 64721,
+	max_hp = 52,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59542,
+		64742
+	}
+}
+
+_G.pg.base.aircraft_template[64723] = {
+	id = 64723,
+	name = "葛城支援弹幕烈风Lv3",
+	hp_growth = 2222,
+	base = 64721,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59543,
+		64743
+	}
+}
+
+_G.pg.base.aircraft_template[64724] = {
+	id = 64724,
+	name = "葛城支援弹幕烈风Lv4",
+	hp_growth = 2451,
+	base = 64721,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59544,
+		64744
+	}
+}
+
+_G.pg.base.aircraft_template[64725] = {
+	id = 64725,
+	name = "葛城支援弹幕烈风Lv5",
+	hp_growth = 2681,
+	base = 64721,
+	max_hp = 70,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59545,
+		64745
+	}
+}
+
+_G.pg.base.aircraft_template[64726] = {
+	id = 64726,
+	name = "葛城支援弹幕烈风Lv6",
+	hp_growth = 2911,
+	base = 64721,
+	max_hp = 76,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59546,
+		64746
+	}
+}
+
+_G.pg.base.aircraft_template[64727] = {
+	id = 64727,
+	name = "葛城支援弹幕烈风Lv7",
+	hp_growth = 3141,
+	base = 64721,
+	max_hp = 82,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59547,
+		64747
+	}
+}
+
+_G.pg.base.aircraft_template[64728] = {
+	id = 64728,
+	name = "葛城支援弹幕烈风Lv8",
+	hp_growth = 3371,
+	base = 64721,
+	max_hp = 88,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59548,
+		64748
+	}
+}
+
+_G.pg.base.aircraft_template[64729] = {
+	id = 64729,
+	name = "葛城支援弹幕烈风Lv9",
+	hp_growth = 3601,
+	base = 64721,
+	max_hp = 94,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59549,
+		64749
+	}
+}
+
+_G.pg.base.aircraft_template[64730] = {
+	id = 64730,
+	name = "葛城支援弹幕烈风Lv10",
+	hp_growth = 3830,
+	base = 64721,
+	max_hp = 100,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59550,
+		64750
+	}
+}
+
+_G.pg.base.aircraft_template[64731] = {
+	attack_power = 2,
+	name = "葛城技能流星 LV1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "liuxing",
+	ACC_growth = 0,
+	crash_DMG = 188,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 64731,
+	icon = "liuxing",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 5,
+	hp_growth = 1594,
+	speed = 52,
+	max_hp = 41,
+	scale = 1,
+	weapon_ID = {
+		50541,
+		50841,
+		51461
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[64732] = {
+	id = 64732,
+	name = "葛城技能流星 LV2",
+	hp_growth = 1802,
+	base = 64731,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50542,
+		50842,
+		51462
+	}
+}
+
+_G.pg.base.aircraft_template[64733] = {
+	id = 64733,
+	name = "葛城技能流星 LV3",
+	hp_growth = 2010,
+	base = 64731,
+	max_hp = 52,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50543,
+		50843,
+		51463
+	}
+}
+
+_G.pg.base.aircraft_template[64734] = {
+	id = 64734,
+	name = "葛城技能流星 LV4",
+	hp_growth = 2218,
+	base = 64731,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50544,
+		50844,
+		51464
+	}
+}
+
+_G.pg.base.aircraft_template[64735] = {
+	id = 64735,
+	name = "葛城技能流星 LV5",
+	hp_growth = 2426,
+	base = 64731,
+	max_hp = 63,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50545,
+		50845,
+		51465
+	}
+}
+
+_G.pg.base.aircraft_template[64736] = {
+	id = 64736,
+	name = "葛城技能流星 LV6",
+	hp_growth = 2634,
+	base = 64731,
+	max_hp = 68,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50546,
+		50846,
+		51466
+	}
+}
+
+_G.pg.base.aircraft_template[64737] = {
+	id = 64737,
+	name = "葛城技能流星 LV7",
+	hp_growth = 2842,
+	base = 64731,
+	max_hp = 74,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50547,
+		50847,
+		51467
+	}
+}
+
+_G.pg.base.aircraft_template[64738] = {
+	id = 64738,
+	name = "葛城技能流星 LV8",
+	hp_growth = 3050,
+	base = 64731,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50548,
+		50848,
+		51468
+	}
+}
+
+_G.pg.base.aircraft_template[64739] = {
+	id = 64739,
+	name = "葛城技能流星 LV9",
+	hp_growth = 3258,
+	base = 64731,
+	max_hp = 85,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50549,
+		50849,
+		51469
+	}
+}
+
+_G.pg.base.aircraft_template[64740] = {
+	id = 64740,
+	name = "葛城技能流星 LV10",
+	hp_growth = 3466,
+	base = 64731,
+	max_hp = 90,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50550,
+		50850,
+		51470
+	}
+}
+
 _G.pg.base.aircraft_template[64771] = {
 	attack_power = 2,
 	name = "飞鹰META鱼雷机Lv1",
@@ -140099,6 +140865,1772 @@ _G.pg.base.aircraft_template[819608] = {
 		},
 		{
 			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820211] = {
+	attack_power = 2,
+	name = "【2021岛风活动B2】BOSS 执棋者I型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820211,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		820215
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820212] = {
+	attack_power = 2,
+	name = "【2021岛风活动B2】BOSS 执棋者I型 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820212,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		820216
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820213] = {
+	attack_power = 2,
+	name = "【2021岛风活动B2】BOSS 执棋者I型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 820213,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 70,
+	max_hp = 98,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		820217
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820214] = {
+	attack_power = 2,
+	name = "【2021岛风活动B2】BOSS 执棋者I型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 820214,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 70,
+	max_hp = 98,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		820218
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820232] = {
+	attack_power = 2,
+	name = "【2021岛风活动B3】BOSS 白龙 天雷轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "tianlei",
+	ACC_growth = 0,
+	crash_DMG = 66,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820232,
+	icon = "tianlei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 34,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		820234
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820233] = {
+	attack_power = 2,
+	name = "【2021岛风活动B3】BOSS 白龙 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "caiyun",
+	ACC_growth = 0,
+	crash_DMG = 168,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820233,
+	icon = "caiyun",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2680,
+	speed = 34,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		820235
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820411] = {
+	attack_power = 2,
+	name = "【2021岛风活动D2】BOSS 执棋者I型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 160,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820411,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3260,
+	speed = 30,
+	max_hp = 202,
+	scale = 0.75,
+	weapon_ID = {
+		820416
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820412] = {
+	attack_power = 2,
+	name = "【2021岛风活动D2】BOSS 执棋者I型 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 124,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820412,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3080,
+	speed = 33,
+	max_hp = 194,
+	scale = 0.75,
+	weapon_ID = {
+		820417
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820413] = {
+	attack_power = 2,
+	name = "【2021岛风活动D2】BOSS 执棋者I型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 1,
+	nationality = 3,
+	id = 820413,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2960,
+	speed = 70,
+	max_hp = 180,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		820418
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820414] = {
+	attack_power = 2,
+	name = "【2021岛风活动D2】BOSS 执棋者I型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 1,
+	nationality = 3,
+	id = 820414,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2960,
+	speed = 70,
+	max_hp = 180,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		820419
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820432] = {
+	attack_power = 2,
+	name = "【2021岛风活动D3】BOSS 白龙 天雷轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "tianlei",
+	ACC_growth = 0,
+	crash_DMG = 90,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820432,
+	icon = "tianlei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 34,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		820434
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820433] = {
+	attack_power = 2,
+	name = "【2021岛风活动D3】BOSS 白龙 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "caiyun",
+	ACC_growth = 0,
+	crash_DMG = 212,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820433,
+	icon = "caiyun",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2680,
+	speed = 34,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		820435
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820603] = {
+	attack_power = 2,
+	name = "【2021岛风活动EX】BOSS 白龙 天雷轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "tianlei",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820603,
+	icon = "tianlei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2960,
+	speed = 30,
+	max_hp = 9999,
+	scale = 0.75,
+	weapon_ID = {
+		820604
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820614] = {
+	attack_power = 2,
+	name = "【2021岛风活动EX】BOSS 白龙 天雷轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "tianlei",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820614,
+	icon = "tianlei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2960,
+	speed = 30,
+	max_hp = 9999,
+	scale = 0.75,
+	weapon_ID = {
+		820615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820803] = {
+	attack_power = 2,
+	name = "【2021岛风活动EX2】BOSS 白龙 天雷轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "tianlei",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820803,
+	icon = "tianlei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 30,
+	max_hp = 1500,
+	scale = 0.75,
+	weapon_ID = {
+		820604
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820814] = {
+	attack_power = 2,
+	name = "【2021岛风活动EX2】BOSS 白龙 天雷轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "tianlei",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820814,
+	icon = "tianlei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 30,
+	max_hp = 1500,
+	scale = 0.75,
+	weapon_ID = {
+		820615
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820705] = {
+	attack_power = 2,
+	name = "【2021岛风活动剧情】BOSS 白龙 天雷轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "tianlei",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820705,
+	icon = "tianlei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 34,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		820707
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820706] = {
+	attack_power = 2,
+	name = "【2021岛风活动剧情】BOSS 白龙 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "caiyun",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820706,
+	icon = "caiyun",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2680,
+	speed = 34,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		820708
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820711] = {
+	attack_power = 2,
+	name = "【2021岛风活动剧情】BOSS 白龙 特殊航空弹幕 天雷轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "huoyanshishen",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820711,
+	icon = "huoyanshishen",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 34,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		820713
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820712] = {
+	attack_power = 2,
+	name = "【2021岛风活动剧情】BOSS 白龙 特殊航空弹幕 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "huoyanshishen",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820712,
+	icon = "huoyanshishen",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2680,
+	speed = 34,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		820714
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820858] = {
+	attack_power = 2,
+	name = "【2021岛风活动剧情】零战五二型（极速装填）",
+	type = 1,
+	accuracy = 23,
+	model_ID = "lingzhan52",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820858,
+	icon = "lingzhan52",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 3830,
+	speed = 55,
+	max_hp = 100,
+	scale = 1,
+	weapon_ID = {
+		50050,
+		50550,
+		52150
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820859] = {
+	attack_power = 2,
+	name = "【2021岛风活动剧情】彗星（极速装填）",
+	type = 3,
+	accuracy = 23,
+	model_ID = "huixing",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 3.33,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820859,
+	icon = "huixing",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 1,
+	hp_growth = 4013,
+	speed = 48,
+	max_hp = 104,
+	scale = 1,
+	weapon_ID = {
+		50050,
+		52650,
+		52150
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[820860] = {
+	attack_power = 2,
+	name = "【2021岛风活动剧情】流星（极速装填）",
+	type = 2,
+	accuracy = 23,
+	model_ID = "liuxing",
+	ACC_growth = 0,
+	crash_DMG = 188,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 820860,
+	icon = "liuxing",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 5,
+	hp_growth = 3466,
+	speed = 52,
+	max_hp = 90,
+	scale = 1,
+	weapon_ID = {
+		50550,
+		50850,
+		51470
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
 			0,
 			0
 		},

@@ -8573,6 +8573,270 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1560001] = {
+		map = 1560001,
+		name = "碧海光粼·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-pacific",
+		enter_story = "BIHAIGUANGLIN1",
+		ani_name = "Map_1560001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40790,
+		ui_type = 1,
+		bg = "Map_1560001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560002] = {
+		map = 1560002,
+		name = "碧海光粼·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "map-longgong",
+		enter_story = "BIHAIGUANGLIN17",
+		ani_name = "Map_1560002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40790,
+		ui_type = 1,
+		bg = "Map_1560002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560011] = {
+		map = 1560011,
+		name = "碧海光粼·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-pacific",
+		enter_story = "BIHAIGUANGLIN1",
+		ani_name = "Map_1560011",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40790,
+		ui_type = 1,
+		bg = "Map_1560011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560012] = {
+		map = 1560012,
+		name = "碧海光粼·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "map-longgong",
+		enter_story = "BIHAIGUANGLIN17",
+		ani_name = "Map_1560012",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40790,
+		ui_type = 1,
+		bg = "Map_1560012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560025] = {
+		map = 1560025,
+		name = "碧海光粼·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-longgong",
+		enter_story = "",
+		ani_name = "Map_1560012",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40790,
+		ui_type = 1,
+		bg = "Map_1560012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560026] = {
+		map = 1560026,
+		name = "碧海光粼·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-longgong",
+		enter_story = "",
+		ani_name = "Map_1560012",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40790,
+		ui_type = 1,
+		bg = "Map_1560012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1590001] = {
 		map = 1590001,
 		name = "交匯世界的弧光|| ||CHAPTER EX||E.X.",
@@ -10748,6 +11012,12 @@ pg.expedition_data_by_map = {
 		1540001,
 		1540002,
 		1540003,
+		1560001,
+		1560002,
+		1560011,
+		1560012,
+		1560025,
+		1560026,
 		1590001,
 		1590002,
 		1590003,

@@ -11,7 +11,7 @@ return {
 			actor = 301480,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "屏障启动！略略略~你的攻击打不穿我们了，{namecode:204}！",
+			say = "屏障啟動！略略略~妳的攻擊打不穿我們了，白龍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "雕虫小技。",
+			say = "雕蟲小技。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "看起来你不是塞壬，也不是塞壬的棋子，为什么一定要在这里与我们战斗？",
+			say = "看起來妳不是塞壬，也不是塞壬的棋子，為什麼一定要在這裡與我們戰鬥？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明有着这么好的身手……比起跟我们战斗，外面拥有无尽广阔的海域能让你自由驰骋呢！",
+			say = "明明有著這麼好的身手……比起跟我們戰鬥，外面擁有無盡廣闊的海域能讓你自由馳騁呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "无需多言，吾乃守护此地的存在。面对闯入者，此处就是吾的战场！",
+			say = "無需多言，吾乃守護此地的存在。面對闖入者，此處就是吾的戰場！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 399050,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "临。兵。斗。者。皆。阵。列。在。前。",
+			say = "臨。兵。鬥。者。皆。陣。列。在。前。",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小心，她的舰装结构发生改变了！",
+			say = "小心，她的艦裝結構發生改變了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 307120,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开开开开什么玩笑！她不是航空母舰么？！那两个夸张的炮管是什么啊？！！",
+			say = "開開開開什麼玩笑！她不是航空母艦嗎？！那兩個誇張的炮管是什麼啊？！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家注意，炮击要开始了……！",
+			say = "大家注意，炮擊要開始了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

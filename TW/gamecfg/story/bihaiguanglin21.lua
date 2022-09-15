@@ -13,7 +13,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			bgmDelay = 1,
-			say = "奥丁，准备好了么？",
+			say = "奧丁，準備好了嗎？",
 			bgm = "xinnong-2",
 			flashin = {
 				delay = 1,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "决战武装——主神之枪充能完毕。",
+			say = "決戰武裝——主神之槍充能完畢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 499040,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "刺穿吧————————冈格尼尔！",
+			say = "刺穿吧————————岡格尼爾！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
-			say = "一道粗大光束毫无征兆出现在奥丁正前方，然后紧贴水面向远方的敌人直射而去。",
+			say = "一道粗大的光束毫無徵兆的突然出現在奧丁的前方，然後緊貼水面向遠方的敵人直射而去。",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -101,7 +101,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_5",
 			dir = 1,
-			say = "光束的炫目仿佛刺破了眼皮，将耀眼的白光强行投射在眼球之上。",
+			say = "光束的炫目彷彿刺破了眼皮，將耀眼的白光強行投射在眼球之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_5",
 			dir = 1,
-			say = "由攻击引发的冲击则掀起巨浪，使人几乎难以维持平衡。",
+			say = "由攻擊引發的衝擊則掀起巨浪，使人幾乎難以維持平衡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_5",
 			dir = 1,
-			say = "在双眼终于从致盲中恢复后，不久前还占据着水道的庞大敌方舰队已经荡然无存了。",
+			say = "在雙眼終於從致盲中恢復後，不久前還佔據著水道的龐大敵方艦隊已經蕩然無存了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "攻击结束，欧根亲王，请确认战斗结果。",
+			say = "攻擊結束，歐根親王，請確認戰鬥結果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "战斗结果已确认，辛苦了，奥丁。",
+			say = "戰鬥結果已確認，辛苦了，奧丁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "好啦~现在前方畅通无阻，大家继续前进吧。",
+			say = "好啦~現在前方暢通無阻，大家繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "……额，你们怎么了……？",
+			say = "……額，你們怎麼了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直像是大天狗的龙卷一样…………",
+			say = "簡直像是大天狗的龍捲一樣…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚刚的攻击是什么……？那个夸张的冲击波是从舰装上发射出来的？？",
+			say = "剛剛的攻擊是什麼……？那個誇張的衝擊波是從艦裝上發射出來的？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "奥丁小姐真和我们一样同为「舰船」么？！",
+			say = "奧丁小姐真和我們一樣同為「艦船」麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "虽然细节上有些区别，不过我觉得奥丁和我们一样都是「舰船」哦。",
+			say = "雖然細節上有些區別，不過我覺得奧丁和我們一樣都是「艦船」哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「计划舰」……没错吧？",
+			say = "「計劃艦」……沒錯吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "情报收集很充分嘛~没错，奥丁就是被称为计划舰的舰船。",
+			say = "情報收集很充分嘛~沒錯，奧丁就是被稱為計劃艦的艦船。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "既然已经知道的话，也不用这么惊讶吧。",
+			say = "既然已經知道的話，也不用這麼驚訝吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原本只是作为情报了解过的程度而已，实际见到还是第一次…………",
+			say = "原本只是作為情報了解過的程度而已，實際見到還是第一次…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些情报从阿非利加飘过来的时候我还在怀疑有夸大的成分……现在看来那些情报最大的问题是描述不足啊！",
+			say = "那些情報從阿非利加飄過來的時候我還在懷疑有誇大的成分……現在看來那些情報最大的問題是描述不足啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "好啦好啦~敌人虽然清理掉了，机关还在运作着呢。如果放着不管的话，说不定敌人还会冒出来哦。",
+			say = "好啦好啦~敵人雖然清理掉了，機關還在運作著呢。如果放著不管的話，說不定敵人還會冒出哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "奥丁已经没法再次开火了，我们还是先去解决掉机关的问题吧~",
+			say = "奧丁已經沒法再次開火了，我們還是先去解決掉機關的問題吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

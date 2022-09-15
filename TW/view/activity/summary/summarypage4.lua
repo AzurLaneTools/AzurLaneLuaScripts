@@ -6,9 +6,12 @@ function slot0.OnInit(slot0)
 
 	for slot7 = 1, findTF(slot0._go, "content").childCount do
 		slot8 = slot1:GetChild(slot7 - 1)
+		slot9 = findTF(slot8, "info")
 		slot11 = slot2[tonumber(go(slot8).name)]
 
-		triggerToggle(findTF(slot8, "info"), slot11)
+		triggerToggle(slot9, slot11)
+		setText(slot9:Find("from"), i18n("player_summary_from"))
+		setText(slot9:Find("date"), i18n("player_summary_data"))
 
 		if slot11 then
 			setText(slot9:Find("from/Text"), slot11:getConfig("gain_by"))

@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:18}",
 			dir = 1,
 			bgmDelay = 1,
-			say = "谜之音小姐，我来啦~这次的问题是什么？",
+			say = "謎之音小姐，我來啦~這次的問題是什麼？",
 			bgm = "battle-longgong",
 			flashin = {
 				delay = 1,
@@ -35,11 +35,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「继续提问——」",
+			say = "「繼續提問——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「汝在战斗之尽头所求为何？胜利对汝来说有何意义？」",
+			say = "「汝在戰鬥之盡頭所求為何？勝利對汝來說有何意義？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在战斗尽头的所求……？当然是为了和平啦！",
+			say = "在戰鬥盡頭的所求……？當然是為了和平啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胜利的意义就是，赢回和平的大海，和同伴们一起幸福快乐的生活下去！",
+			say = "勝利的意義就是，贏回和平的大海，和同伴們一起幸福快樂的生活下去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为此，我不得不突破现在的难关才行！",
+			say = "為此，我不得不突破現在的難關才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,12 +115,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "「了然。烈焰之秘宝向勇者献上，继续前进吧」",
+			say = "「了然。烈焰之秘寶向勇者獻上，繼續前進吧」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "龙宫城·外环区 ",
+			say = "龍宮城·外環區",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "在一阵阵炮火中，{namecode:62}队用尽全力的艰难前行着。",
+			say = "在一陣陣炮火中，築摩隊用盡全力的艱難前行著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:175}，好厉害啊……就算是坚硬的像乌龟妖怪一样的敌人也被一个个消灭了。",
+			say = "駿河，好厲害啊……就算是堅硬的像烏龜妖怪一樣的敵人也被一個個消滅了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "新锐战列舰的实力果然厉害！不愧是我们重樱的精锐！",
+			say = "新銳戰列艦的實力果然厲害！不愧是我們重櫻的精銳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家都过奖了……我还有很多需要提高的地方呢。",
+			say = "妳們都過獎了……我還有很多需要提高的地方呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（有没有人来救救我啊………………）",
+			say = "（有沒有人來救救我啊………………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "喂~~~有没有人来救救我啊——！",
+			say = "喂~~~有沒有人來救救我啊——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们快听，有人在呼救！",
+			say = "妳們快聽，有人在呼救！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！这次我什么都没说哦！绝对没出声！",
+			say = "哎？！這次我什麼都沒說哦！絕對沒出聲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……？不是指你啦，你仔细听，附近好像有人在呼救的声音。",
+			say = "……？不是指妳啦，妳仔細聽，附近好像有人在呼救的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——找到了！是从那边的建筑里传来的！",
+			say = "——找到了！是從那邊的建築裡傳來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "建筑上有结界的痕迹。既然在求救，大概是被某种结界关在里面了吧……",
+			say = "建築上有結界的痕跡。既然在求救，大概是被某種結界關在裡面了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真没想到除了我们之外居然还有人被困在这里。",
+			say = "真沒想到除了我們之外居然還有人被困在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "大家转移火力，准备开展营救行动！",
+			say = "大家轉移火力，準備開展營救行動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

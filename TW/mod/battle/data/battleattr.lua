@@ -213,6 +213,30 @@ function slot0.RemoveTargetSelect(slot0, slot1)
 	end
 end
 
+function slot0.GetCurrentGuardianID(slot0)
+	if #uv0.GetCurrent(slot0, "guardian") == 0 then
+		return nil
+	else
+		return slot1[slot2]
+	end
+end
+
+function slot0.AddGuardianID(slot0, slot1)
+	if not table.contains(uv0.GetCurrent(slot0, "guardian"), slot1) then
+		table.insert(slot2, slot1)
+	end
+end
+
+function slot0.RemoveGuardianID(slot0, slot1)
+	for slot6, slot7 in ipairs(uv0.GetCurrent(slot0, "guardian")) do
+		if slot7 == slot1 then
+			table.remove(slot2, slot6)
+
+			return
+		end
+	end
+end
+
 function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3 = slot0._attr or {}
 	slot0._attr = slot3
@@ -261,6 +285,7 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.labelTag = {}
 	slot3.barrageCounterMod = 1
 	slot3.TargetChoise = {}
+	slot3.guardian = {}
 
 	uv0.SetBaseAttr(slot0)
 end
@@ -319,6 +344,7 @@ function slot0.SetEnemyAttr(slot0, slot1)
 	slot4.comboTag = "combo_" .. slot4.battleUID
 	slot4.labelTag = {}
 	slot4.TargetChoise = {}
+	slot4.guardian = {}
 
 	uv0.SetBaseAttr(slot0)
 end
@@ -399,6 +425,7 @@ function slot0.SetAircraftAttFromMother(slot0, slot1)
 		__index = slot1._attr.labelTag
 	})
 	slot2.TargetChoise = {}
+	slot2.guardian = {}
 	slot2.comboTag = "combo_" .. slot2.hostUID
 end
 
@@ -444,6 +471,7 @@ function slot0.SetAirFighterAttr(slot0, slot1)
 	slot2.velocity = ys.Battle.BattleFormulas.ConvertAircraftSpeed(slot1.speed)
 	slot2.repressReduce = 1
 	slot2.TargetChoise = {}
+	slot2.guardian = {}
 	slot2.crashDMG = slot1.crash_DMG
 end
 

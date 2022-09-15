@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "真是个不输给{namecode:84}大人家的豪华住所…！{namecode:182}大人就住在这里没错吧？！",
+			say = "真是個不輸給武藏大人家的豪華住所…！信濃大人就住在這裡沒錯吧？！",
 			bgm = "cw-story",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错没错，你这一路上已经确认了五遍了。",
+			say = "沒錯沒錯，妳這一路上已經確認了五遍了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不是不信你情报的意思哦，单纯是我有些太兴奋了嘛！",
+			say = "不是不信妳情報的意思哦，單純是我有些太興奮了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟要拜访的是{namecode:182}大人，还是和我同样的航空母舰！真是令人迫不及待啊~！",
+			say = "畢竟要拜訪的是信濃大人，還是和我同樣的航空母艦！真是令人迫不及待啊~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个说辞也是第五……唉。",
+			say = "這個說辭也是第五……唉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:208}阁下，我觉得就算同样是航空母舰，你与{namecode:182}大人之间也不一定有很多相似之处哦。",
+			say = "葛城閣下，我覺得就算同樣是航空母艦，妳與信濃大人之間也不一定有很多相似之處哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你这是什么意思，{namecode:18}？！你是指我配不上航空母舰之名么？还是觉得我更适合去做运输舰的工作？！",
+			say = "妳這是什麼意思，島風？！妳是指我配不上航空母艦之名嗎？還是覺得我更適合去做運輸艦的工作？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎！{namecode:208}阁下你误会了！{namecode:18}的意思是{namecode:208}阁下拥有自己的作为航空母舰的特色，不需要跟其他人比较啦！",
+			say = "哎！葛城閣下妳誤會了！島風的意思是葛城閣下擁有自己的作為航空母艦的特色，不需要跟其他人比較啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼~早说清楚就好嘛。",
+			say = "哼~早說清楚就好嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为{namecode:18}很有眼光的奖励，第一个前往{namecode:182}大人的宅邸的殊荣就让给你了，快去通报吧。",
+			say = "作為島風很有眼光的獎勵，第一個前往信濃大人的宅邸的殊榮就讓給妳了，快去通報吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎？！真的可以么？！{namecode:18}，向着{namecode:182}大人的宅邸全速出发！",
+			say = "哎？！真的可以嗎？！島風，向著信濃大人的宅邸全速出發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论看多少次都想说，那孩子的行动速度真的好快啊……",
+			say = "不論看多少次都想說，那孩子的行動速度真的好快啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
-			say = "十分钟后——",
+			say = "十分鐘後——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -301,7 +301,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好慢……{namecode:18}怎么还没回来，不就是去敲门打个招呼而已么。",
+			say = "好慢……島風怎麼還沒回來，不就是去敲門打個招呼而已嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……{namecode:208}，我们还是直接上门吧。",
+			say = "……葛城，我們還是直接上門吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			say = "重樱本岛·{namecode:182}居城",
+			say = "重櫻本島·信濃居城",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-pacific",
@@ -378,7 +378,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎各位的到来，请不用客气，随便坐吧。",
+			say = "歡迎各位的到來，請不用客氣，隨便坐吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人的居城……感觉好冷清啊。",
+			say = "信濃大人的居城……感覺好冷清啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许是{namecode:50}和{namecode:179}她们都外出执行任务的原因……？",
+			say = "也許是能代和龍鳳她們都外出執行任務的原因……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过平时这里也没什么人出入就是了。{namecode:182}大人既然在静养，冷清一些也好。",
+			say = "不過平時這裡也沒什麼人出入就是了。信濃大人既然在靜養，冷清一些也好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "临行前{namecode:84}大人也托我们转达她的问候，希望{namecode:182}大人能够早日康复。",
+			say = "臨行前武藏大人也託我們轉達她的問候，希望信濃大人能夠早日康復。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们会在本次任务中全心全意随侍左右，绝对会保护好{namecode:182}大人的安全的。",
+			say = "我們會在本次任務中全心全意隨侍左右，絕對會保護好信濃大人的安全的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就拜托诸位了，{namecode:182}大人也很期待这次行动。",
+			say = "就拜託諸位了，信濃大人也很期待這次行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正式开始时间是在两日后对吧？",
+			say = "正式開始時間是在兩日後對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，不过我们今天就会驻扎在这里，直至跟随{namecode:182}大人启程。",
+			say = "是的，不過我們今天就會駐紮在這裡，直至跟隨信濃大人啟程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题。之后会有驱逐舰的孩子为各位介绍居城的结构，请把这里当成自己家就好。",
+			say = "沒問題。之後會有驅逐艦的孩子為各位介紹居城的結構，請把這裡當成自己家就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请问、请问我们什么时候才能见到{namecode:182}大人？！",
+			say = "請問、請問我們什麼時候才能見到信濃大人？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:208}，太心急了……非常抱歉。",
+			say = "葛城，太心急了……非常抱歉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，不用这么拘束，{namecode:182}大人并非十分严厉的人，你们见到之后就明白了。",
+			say = "呵呵，不用這麼拘束，信濃大人並非十分嚴厲的人，妳們見到之後就明白了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只不过现在是{namecode:182}大人的休息时间。正式会面时间定在傍晚时分，{namecode:182}大人会亲自设下宴会招待各位的。",
+			say = "只不過現在是信濃大人的休息時間。正式會面時間定在傍晚時分，信濃大人會親自設下了宴會招待各位的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊对……差点给忘了。{namecode:175}，在我们来之前你有见到一个来敲门的小个子么？",
+			say = "啊對……差點給忘了。駿河，在我們來之前妳有見到一個來敲門的小個子嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有印象，你们还有其他同伴么？",
+			say = "沒有印象，妳們還有其他同伴嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是……原本她应该先我们一步来这里打招呼，看来大概是迷路了吧。",
+			say = "正是……原本她應該先我們一步來這裡打招呼，看來大概是迷路了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}大人的居城比较复杂，外人进入的话确实可能迷路……没问题，我会安排人手搜寻的。",
+			say = "信濃大人的居城比較複雜，外人進入的話確實可能迷路……沒問題，我會安排人手搜尋的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢，给你添麻烦了。",
+			say = "非常感謝，給妳添麻煩了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原本只是看到美丽的飞鸟，不知不觉跟随了一阵……",
+			say = "原本只是看到美麗的飛鳥，不知不覺跟隨了一陣……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "等回过神来，凭借记忆原路返回……结果却越绕越远，甚至完全迷路了！",
+			say = "等回過神來，憑藉記憶原路返回……結果卻越繞越遠，甚至完全迷路了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "怎么会发生这种事…这是何等的失态啊{namecode:18}！",
+			say = "怎麼會發生這種事…這是何等的失態啊島風！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜……被困在这里不知道何时才会被人发现，看来只能高声呼救了。",
+			say = "嗚……被困在這裡不知道什麼時候才會被人發現，看來只能高聲呼救了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请问————有人么————附近有没有人呀！",
+			say = "請問————有人嗎————附近有沒有人呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "啊！在以为万事休矣的时候遇到同伴真是太好了！",
+			say = "啊！在以為萬事休矣的時候遇到同伴真是太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "汝在灌木丛中做什么？",
+			say = "汝在灌木叢中做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "实不相瞒，我受到{namecode:84}大人的委派与{namecode:62}阁下一起前来拜访{namecode:182}大人。",
+			say = "實不相瞞，我受到武藏大人的委派與築摩閣下一起前來拜訪信濃大人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "可回过神来已经在庞大的宅院中迷路了……现在陷入绝境中……",
+			say = "可回過神來已經在龐大的宅院中迷路了……現在陷入絕境中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "汝不认识{namecode:182}大人么？",
+			say = "汝不認識信濃大人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "说来惭愧，我一次都没有见过……不过你想啊，{namecode:83}级的大人本来也不是想见就能见到的。",
+			say = "說來慚愧，我一次都沒有見過……不過妳想啊，大和級的大人本來也不是想見就能見到的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "尤其是之前一直在离岛上修养的{namecode:182}大人……没想到突然就有一同出访的任务了，简直像做梦一样~",
+			say = "尤其是之前一直在離島上休養的信濃大人……沒想到突然就有一同出訪的任務了，簡直像做夢一樣~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "梦啊……汝应该是，{namecode:18}？",
+			say = "夢啊……汝應該是，島風？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "没错没错！我就是独一无二的{namecode:18}型驱逐舰{namecode:18}~！",
+			say = "沒錯沒錯！我就是獨一無二的島風型驅逐艦島風~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1046,7 +1046,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "汝和{namecode:175}好像关系不错吧？",
+			say = "汝和駿河好像關係不錯吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1063,7 +1063,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！我和{namecode:175}阁下一起行动过几次！对于最开始没什么战斗经验的我，{namecode:175}阁下很亲切的帮助了我很多事！",
+			say = "嗯！我和駿河閣下一起行動過幾次！對於最開始沒什麼戰鬥經驗的我，駿河閣下幫助了我很多事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1081,7 +1081,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "不过我也给她添了不少麻烦……不知道{namecode:175}阁下是怎么看{namecode:18}的呢……",
+			say = "不過我也給她添了不少麻煩……不知道駿河閣下是怎麼看島風的呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1098,7 +1098,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "安心，汝等一定能成为好友的。",
+			say = "安心，汝等一定能成為好友的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1116,7 +1116,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "真的么？！啊！只有你知道我的事太不公平了，我还不知道你的名字呢？",
+			say = "真的嗎？！啊！只有妳知道我的事太不公平了，我還不知道妳的名字呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1159,7 +1159,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，{namecode:84}大人派来的护卫已经安排妥当，只等之后的晚宴——",
+			say = "信濃大人，武藏大人派來的護衛已經安排妥當，只等之後的晚宴——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1193,7 +1193,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不会吧，不会吧……{namecode:62}说的走丢的小个子不会就是{namecode:18}吧！这可是{namecode:182}大人休息的后院，竟然迷路到这种地方？！）",
+			say = "（不會吧，不會吧……築摩說的走丟的小個子不會就是島風吧！這可是信濃大人休息的後院，竟然迷路到這種地方？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1214,7 +1214,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你在这里做什么？",
+			say = "……妳在這裡做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1232,7 +1232,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:175}阁下！没想到能在这里见到你！{namecode:18}原本跟随{namecode:62}阁下前来拜访，一不小心走迷路了……",
+			say = "駿河閣下！沒想到能在這裡見到妳！島風原本跟隨築摩閣下前來拜訪，一不小心走迷路了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1260,7 +1260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "你知道{namecode:182}大人在哪里么？{namecode:18}得尽快过去打招呼去才行，同伴还等着我呢！",
+			say = "妳知道信濃大人在哪裡嗎？我得盡快過打招呼去才行，同伴還等著我呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1278,7 +1278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "等等，你刚才过来的时候喊了{namecode:182}大人的名字……？",
+			say = "等等，妳剛才過來的時候喊了信濃大人的名字……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1340,7 +1340,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "（晕）………………",
+			say = "（暈）………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1366,7 +1366,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "晕过去了。",
+			say = "暈過去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1383,7 +1383,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（晕过去了？！居然在{namecode:182}大人面前晕过去了？！为什么我要遭遇到这样的场面啊……）",
+			say = "（暈過去了？！居然在信濃大人面前暈過去了？！為什麼我要遭遇到這樣的場面啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1410,7 +1410,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}大人，发生如此的失态真的非常抱歉……",
+			say = "信濃大人，發生如此的失態真的非常抱歉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1428,7 +1428,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "无妨。有如此可爱的孩子相伴，感觉这趟旅途会有些有趣的展开了~",
+			say = "無妨。有如此可愛的孩子相伴，感覺這趟旅途會有些有趣的展開了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

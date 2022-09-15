@@ -68294,7 +68294,7 @@ _G.pg.base.equip_data_statistics[35340] = {
 	name = "五聯裝610mm魚雷",
 	speciality = "雷擊",
 	type = 5,
-	descrip = "說明未填寫",
+	descrip = "{namecode:18}級驅逐艦搭載的五聯裝610mm魚雷",
 	ammo = 5,
 	damage = "70 x 5",
 	nationality = 3,
@@ -100091,6 +100091,56 @@ _G.pg.base.equip_data_statistics[60683] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[60711] = {
+	type = 99,
+	name = "航空攻击展示-葛城I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "航母空袭展示用",
+	id = 60711,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60711
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[60712] = {
+	id = 60712,
+	name = "航空攻击展示-葛城II",
+	base = 60711,
+	weapon_id = {
+		60712
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[60713] = {
+	id = 60713,
+	name = "航空攻击展示-葛城II",
+	base = 60711,
+	weapon_id = {
+		60713
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[60781] = {
 	type = 99,
 	name = "航空攻击展示-帝国I",
@@ -109876,6 +109926,59 @@ _G.pg.base.equip_data_statistics[79752] = {
 	base = 79751,
 	weapon_id = {
 		60662
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79771] = {
+	type = 1,
+	name = "专属弹幕-岛风I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79771,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60721
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79772] = {
+	id = 79772,
+	name = "专属弹幕-岛风II",
+	base = 79771,
+	weapon_id = {
+		60722
 	},
 	hidden_skill_id = {}
 }
@@ -125400,6 +125503,657 @@ _G.pg.base.equip_data_statistics[800009] = {
 		800009
 	},
 	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[820850] = {
+	type = 1,
+	name = "【2021岛风活动剧情用】双联100mm98式高射炮",
+	attribute_3 = "antiaircraft",
+	tech = 3,
+	rarity = 5,
+	ammo = 3,
+	nationality = 3,
+	id = 820850,
+	torpedo_ammo = 0,
+	value_3 = 30,
+	value_2 = 15,
+	icon = "31000",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			1,
+			1200
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1200
+		},
+		{
+			4,
+			1001
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		820850
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DD",
+		"MG"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820851] = {
+	type = 3,
+	name = "【2021岛风活动剧情用】203mm连装炮",
+	rarity = 4,
+	tech = 3,
+	nationality = 3,
+	ammo = 2,
+	id = 820851,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "33000",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1402
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1402
+		},
+		{
+			4,
+			1205
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		820851
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820852] = {
+	type = 3,
+	name = "【2021岛风活动剧情用】双联装203mmSKC主炮",
+	rarity = 5,
+	tech = 3,
+	nationality = 4,
+	ammo = 1,
+	id = 820852,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "43000",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1401
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1401
+		},
+		{
+			4,
+			1206
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		820852
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"CA",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820853] = {
+	type = 4,
+	name = "【2021岛风活动剧情用】410mm连装炮",
+	rarity = 4,
+	tech = 3,
+	nationality = 3,
+	ammo = 2,
+	id = 820853,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "34100",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			2,
+			1502
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		820853
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"BB",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820854] = {
+	type = 5,
+	name = "【2021岛风活动剧情用】四联装610mm鱼雷",
+	rarity = 5,
+	tech = 3,
+	nationality = 3,
+	ammo = 5,
+	id = 820854,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "35200",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1801
+		}
+	},
+	equip_info = {
+		{
+			3,
+			1801
+		},
+		{
+			4,
+			1403
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		820854
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"ST",
+		"TP",
+		"QUAD"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820855] = {
+	type = 5,
+	name = "【2021岛风活动剧情用】四联装533mm磁性鱼雷",
+	rarity = 5,
+	tech = 3,
+	nationality = 4,
+	ammo = 4,
+	id = 820855,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "45100",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1803
+		}
+	},
+	equip_info = {
+		{
+			3,
+			1803
+		},
+		{
+			4,
+			1403
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		820855
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"ST",
+		"TP",
+		"QUAD"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820856] = {
+	type = 4,
+	name = "【2021岛风活动剧情用】410mm连装炮（奥丁用高装填）",
+	rarity = 4,
+	tech = 3,
+	nationality = 3,
+	ammo = 2,
+	id = 820856,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "34100",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			2,
+			1502
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		820856
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"BB",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820857] = {
+	type = 5,
+	name = "【2021岛风活动剧情用】四联装533mm磁性鱼雷（奥丁用高装填）",
+	rarity = 5,
+	tech = 3,
+	nationality = 4,
+	ammo = 4,
+	id = 820857,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "45100",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1803
+		}
+	},
+	equip_info = {
+		{
+			3,
+			1803
+		},
+		{
+			4,
+			1403
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		820857
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"ST",
+		"TP",
+		"QUAD"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820858] = {
+	type = 7,
+	name = "【2021岛风活动剧情用】零战五二型",
+	rarity = 5,
+	tech = 3,
+	nationality = 3,
+	ammo = 5,
+	id = 820858,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "37200",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50050
+		},
+		{
+			6,
+			50550
+		},
+		{
+			5,
+			52150
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		820858
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"CV",
+		"FT"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820859] = {
+	type = 9,
+	name = "【2021岛风活动剧情用】彗星",
+	rarity = 5,
+	tech = 3,
+	nationality = 3,
+	ammo = 5,
+	id = 820859,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "39100",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50050
+		},
+		{
+			5,
+			52650
+		},
+		{
+			5,
+			52150
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		820859
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"CV",
+		"DB"
+	}
+}
+
+_G.pg.base.equip_data_statistics[820860] = {
+	type = 8,
+	name = "【2021岛风活动剧情用】流星",
+	rarity = 5,
+	tech = 3,
+	nationality = 3,
+	ammo = 5,
+	id = 820860,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "38200",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50550
+		},
+		{
+			6,
+			50850
+		},
+		{
+			4,
+			51470
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		820860
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"CV",
+		"TB"
+	}
 }
 
 _G.pg.base.equip_data_statistics[960001] = {

@@ -27,6 +27,8 @@ function slot0.IsShowTip(slot0)
 		return Activity.isHaveActivableMedal()
 	elseif slot1 == ActivityConst.MINIGAME_ICECREAM then
 		return slot0:IsShowTip4SummerPark()
+	elseif slot1 == ActivityConst.MINIGAME_CAKEMAKING then
+		return slot0:IsShowTip4CampusFestival2022()
 	end
 end
 
@@ -39,6 +41,8 @@ function slot0.CustomOnClick(slot0)
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE2)
 	elseif slot1 == ActivityConst.MINIGAME_ICECREAM then
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.BACKHILL_SUMMERPARK_2022)
+	elseif slot1 == ActivityConst.MINIGAME_CAKEMAKING then
+		slot0:emit(NewMainMediator.GO_SCENE, SCENE.BACKHILL_CAMPUSFESTIVAL_2022)
 	else
 		slot0:OnClick()
 	end
@@ -79,6 +83,20 @@ function slot0.IsShowTip4SummerPark(slot0)
 		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ISUZU_SPORTS_SKIN_ID))
 	end)() or (function ()
 		if PLATFORM_CODE ~= PLATFORM_US then
+			return
+		end
+
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
+	end)()
+end
+
+function slot0.IsShowTip4CampusFestival2022(slot0)
+	return (function ()
+		return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_CAKEMAKING)
+	end)() or (function ()
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF))
+	end)() or (function ()
+		if PLATFORM_CODE ~= PLATFORM_JP then
 			return
 		end
 

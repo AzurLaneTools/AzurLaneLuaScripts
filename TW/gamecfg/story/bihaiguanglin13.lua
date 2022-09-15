@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "轰————————！",
+			say = "轟————————！",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "battle-boss-longgong",
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			actor = 302070,
 			dir = 1,
-			say = "那个……我应该是被打中了吧？但是完全没有受伤哎……",
+			say = "那個……我應該是被打中了吧？但是完全沒有受傷哎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是以旧型号的标准来说，这些敌人的攻击力也是弱的离谱。",
+			say = "就算是以舊型號的標準來說，這些敵人的攻擊力也是弱的離譜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "不过我这边的攻击也没起到什么效果就是了……敌人的船体好像被特殊的护盾保护着。",
+			say = "不過我這邊的攻擊也沒起到什麼效果就是了……敵人的船體好像被特殊的護盾保護著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}，你那边也不行么。",
+			say = "駿河，妳那邊也不行嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "造成的损伤很有限……这些敌人真是硬的离谱啊！",
+			say = "造成的損傷很有限……這些敵人真是硬的離譜啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "看来强攻不是上策……我仔细侦察一下前方海域，看看能否找到避开敌人前进的道路。",
+			say = "看來強攻不是上策……我仔細偵察一下前方海域，看看能否找到避開敵人前進的道路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（要是{namecode:18}带队的话肯定会说什么“{namecode:175}阁下，让我们一起加油努力冲过去吧！”之类荒唐的话。）",
+			say = "（要是島風帶隊的話肯定會說什麼“駿河閣下，讓我們一起加油努力衝過去吧！”之類荒唐的話。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（不过重视分析的{namecode:62}就不一样了……就是这样作战才对，认真的收集情报，制定战术，然后仔细思考！）",
+			say = "（不過重視分析的築摩就不一樣了……就是這樣作戰才對，認真的收集情報，制定戰術，然後仔細思考！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "啊~有可靠的{namecode:62}带队真是太好了~",
+			say = "啊~有可靠的築摩帶隊真是太好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……？{namecode:175}你刚刚说了什么么？",
+			say = "嗯……？駿河妳剛剛說了什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（糟糕，不小心放松过头了！）",
+			say = "（糟糕，不小心放鬆過頭了！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "刚刚我是在……嗯，是在感慨{namecode:62}真是太可靠了！",
+			say = "剛剛我是在……嗯，是在感慨築摩真是太可靠了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "过奖了~跟{namecode:175}相比，我还有很多需要提升的地方呢。",
+			say = "過獎了~跟駿河相比，我還有很多需要提升的地方呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要你愿意，我可以随时把旗舰的位置交给你。",
+			say = "只要妳願意，我可以隨時把旗艦的位置交給妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 305140,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用不用，保持现状就好！不要在意这些细节，我们去寻找前进的道路吧！",
+			say = "不用不用，保持現狀就好！不要在意這些細節，我們去尋找前進的道路吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

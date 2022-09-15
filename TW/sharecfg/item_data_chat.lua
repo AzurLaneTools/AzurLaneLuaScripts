@@ -18,10 +18,18 @@ pg.item_data_chat = {
 	},
 	[102] = {
 		time_limit_type = 0,
-		name = "二周年紀念",
+		name = "二週年紀念",
 		id = 102,
 		time_second = 0,
-		desc = "獻給所有兩年間持續奮鬥在港區的指揮官們\n<color=#A7A7AAFF>通過參與二周年限定活動獲得</color>",
+		desc = "獻給所有兩年間持續奮鬥在港區的指揮官們\n<color=#A7A7AAFF>通過參與二週年限定活動獲得</color>",
+		scene = {}
+	},
+	[103] = {
+		time_limit_type = 0,
+		name = "三週年紀念",
+		id = 103,
+		time_second = 0,
+		desc = "獻給所有三年間持續奮鬥在港區的指揮官們\n<color=#A7A7AAFF>通過參與三週年限定活動獲得</color>",
 		scene = {}
 	},
 	[300] = {
@@ -52,6 +60,7 @@ pg.item_data_chat = {
 		0,
 		101,
 		102,
+		103,
 		300,
 		301,
 		1001

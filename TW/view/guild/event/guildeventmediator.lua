@@ -262,7 +262,7 @@ function slot0.OnDockSelectCommander(slot0, slot1, slot2, slot3, slot4, slot5, s
 
 	if slot1 then
 		for slot18, slot19 in pairs(slot10) do
-			if slot19:isSameGroup(slot8.groupId) then
+			if slot3 ~= slot18 and slot19:isSameGroup(slot8.groupId) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
 
 				return

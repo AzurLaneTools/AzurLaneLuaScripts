@@ -356,8 +356,21 @@ slot8.TrackingFunc = {
 
 function slot8.Tracking(slot0)
 	slot2 = nil
+	slot3 = slot0:GetFilteredList()
 
-	return (not uv0.GetCurrentTargetSelect(slot0._host) or (not uv1.TrackingFunc[slot1] or slot3(slot0, slot0:GetFilteredList())) and slot0:TrackingTag(slot0:GetFilteredList(), slot1)) and slot0:TrackingNearest(slot0:GetFilteredList())
+	if (not uv0.GetCurrentTargetSelect(slot0._host) or (not uv1.TrackingFunc[slot1] or slot4(slot0, slot3)) and slot0:TrackingTag(slot3, slot1)) and slot0:TrackingNearest(slot3) and uv0.GetCurrentGuardianID(slot2) then
+		slot4 = uv0.GetCurrentGuardianID(slot2)
+
+		for slot8, slot9 in ipairs(slot3) do
+			if slot9:GetUniqueID() == slot4 then
+				slot2 = slot9
+
+				break
+			end
+		end
+	end
+
+	return slot2
 end
 
 function slot8.GetFilteredList(slot0)

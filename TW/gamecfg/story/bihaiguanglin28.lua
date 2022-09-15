@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "轰————————！",
+			say = "轟————————！",
 			dir = 1,
 			bgm = "battle-longgong",
 			flashN = {
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰队居然被她一个人压制了？！——这个敌人很强！",
+			say = "艦隊居然被她一個人壓制了？！ ——這個敵人很強！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "如果能利用之前的机关进行战斗的话，战斗说不定会轻松一些。",
+			say = "如果能利用之前的機關進行戰鬥的話，戰斗說不定會輕鬆一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你想利用哪个呢？",
+			say = "你想利用哪個呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "既然已经是决战了，不如把四个都打开试试吧？",
+			say = "現在已經是決戰了，要不然把四個都打開吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊~不知道把所有机关一起打开会出现什么情况，我也想看看！",
+			say = "哦哦~不知道把所有機關一起打開會出現什麼情況啊，我也想看看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "时间紧迫，只有{namecode:18}的速度能在最短时间内开启四处机关，这次任务请务必让我来做。",
+			say = "時間緊迫，只有島風的速度能在最短時間內開啟四處機關，這次任務就交給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "要给同伴多一些信任哦，{namecode:175}。{namecode:18}你过来我再跟你说一遍，如此如此……这般这般……",
+			say = "要給同伴多一些信任哦，駿河。島風你過來我再跟你說一遍，如此如此……這般這般……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感谢欧根亲王阁下……我完全明白了！大家请放心，机关的事就交给我吧！",
+			say = "感謝歐根親王閣下……我完全明白了！大家請放心，機關的事就給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是，{namecode:18}明白！",
+			say = "是，島風明白！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "两轮齐射后，建筑的结界被打破了。看来这里的封印并没有比量产型上的坚固多少。",
+			say = "兩輪齊射後，建築的結界被打破了。看來這裡的封印並沒有比量產型上的堅固多少。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "烟雾落下，出现在众人面前的身影居然是————",
+			say = "煙霧落下，出現在眾人面前的身影居然是————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是……铁血的欧根亲王？",
+			say = "妳是……鐵血的歐根親王？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "哟~重樱的各位盟友们，没想到能在这样的场合下相遇啊。",
+			say = "喲~重櫻的各位盟友們，沒想到能在這樣的場合下相遇啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "各位的营救真是太及时了，我还以为要被困死在那个奇怪的房间里了。",
+			say = "各位的營救真是太及時了，我還以為要被困死在那個奇怪的房間裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们是在作战途中恰好路过这里的，没想到会碰巧听到你们的呼救声。",
+			say = "我們是在作戰途中恰好路過這裡的，沒想到會碰巧聽到妳們的呼救聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "您身后的那位小姐是？",
+			say = "您身後的那位小姐是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "她的名字叫奥丁。你们不用在意她，就当她是我的侍从就好。",
+			say = "她的名字叫奧丁。妳們不用在意她，就當她是我的侍從就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奥丁小姐，真是一个沉默寡言的人啊……哈哈。",
+			say = "奧丁小姐，真是一個沉默寡言的人啊……哈哈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两位是怎么被困在这里的呢？",
+			say = "兩位是怎麼被困在這裡的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "好问题，我们是怎么被困在这里的呢……",
+			say = "好問題，我們是怎麼被困在這裡的呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（自己的事不要出来反问别人啊……！）",
+			say = "（自己的事不要出來反問別人啊……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:62}阁下、{namecode:175}阁下！我们遇到新的机关了————咦？？",
+			say = "築摩閣下、駿河閣下！我們遇到新的機關了————咦？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这不是欧根亲王阁下么！你也是被龙宫城美丽的风景吸引进来之后受困于此的么？！",
+			say = "這不是歐根親王閣下嗎！妳也是被龍宮城美麗的風景吸引進來之後受困於此的嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "啊……我想起来了，没错，就是这么回事。",
+			say = "啊……我想起來了，沒錯，就是這麼回事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "原本我们是为了迎接诸位的到来而先期出发的引航舰队，在离开基地不久后就发现了这座奇怪的浮岛建筑群。",
+			say = "原本我們是為了迎接諸位的到來而先期出發的引航艦隊，在離開基地不久後就發現了這座奇怪的浮島建築群。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "本来想着稍微做些侦查，多少能够排除一点安全隐患，没想到就被困在机关中了。",
+			say = "本來想著稍微做些偵查，多少能夠排除一點安全隱患，沒想到就被困在機關中了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "要不是在这里遇到你们，我们可就凶多吉少了啊~",
+			say = "要不是在這裡遇到妳們，我們可就兇多吉少了啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（这幅游刃有余的态度……绝对是刚编的借口吧！）",
+			say = "（這幅游刃有餘的態度……絕對是剛編的藉口吧！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的！如果不是碰巧我们也被困进来，你们的处境就危险了！",
+			say = "真是的！如果不是碰巧我們也被困進來，妳們的處境就危險了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过现在已经没问题了哦~不用担心，可靠的{namecode:62}阁下和{namecode:175}阁下一定能带我们脱离困境的！",
+			say = "不過現在已經沒問題了哦~不用擔心，可靠的築摩閣下和駿河閣下一定能帶我們脫離困境的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "那可真是个好消息。被关了这么久，感觉都要出现幽闭恐惧症了……",
+			say = "那可真是個好消息。被關了這麼久，感覺都要出現幽閉恐懼症了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根亲王，既然你们是先于我们被困在这里的。那就证明龙宫城至少出水入水了两次。",
+			say = "歐根親王，既然妳們是先於我們被困在這裡的。那就證明龍宮城至少出水入水了兩次。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这期间你们有收集到关于龙宫城的情报么，任何内容都好。",
+			say = "在這期間妳們有收集到關於龍宮城的情報嗎，任何內容都好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "作为结论来说，我十分确定这里是塞壬的机关。",
+			say = "作為結論來說，我十分確定這裡是塞壬的機關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "除了一路上看到的塞壬舰队，这个庞大的浮岛要塞存在的本身就是证据。",
+			say = "除了一路上看到的塞壬艦隊，這個龐大的浮島要塞存在的本身就是證據。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "铁血也在做浮岛要塞的研究所以我能格外明白，现在没有任何一个阵营具有制作出此等规模浮岛的能力。",
+			say = "鐵血也在做浮島要塞的研究所以我能格外明白，現在沒有任何一個陣營具有製作出此等規模浮島的能力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "虽然只是判断，不过我认为这种圆形要塞的控制核心应该就在内环中心的那座最高的控制塔中。",
+			say = "雖然只是判斷，不過我認為這種圓形要塞的控制核心應該就在內環中心的那座最高的控制塔中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "只要能到那里，也许就能找到脱离困境的方法了。",
+			say = "只要能到那裡，也許就能找到脫離困境的方法了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "之前进来的时候有一个谜之音也说过类似的话！说中间有敌人宝藏还有回家的路之类的！",
+			say = "之前進來的時候有一個謎之音也說過類似的話！說中間有敵人寶藏還有回家的路之類的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我有个疑问……算上欧根亲王，现在合计三支舰队陆续在海域中失联。",
+			say = "我有個疑問……算上歐根親王，現在合計三支艦隊陸續在海域中失聯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血和重樱两边肯定都已经在布置搜索行动了，我们就在这里等待支援不是更稳妥么？",
+			say = "鐵血和重櫻兩邊肯定都已經在佈置搜索行動了，我們就在這裡等待支援不是更穩妥麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是她们没有我们已经随龙宫城进入水下的情报……单纯从海面上找应该很难发现我们的位置。",
+			say = "可是她們沒有我們已經隨龍宮城進入水下的情報……單純從海面上找應該很難發現我們的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "没错~如果不由我们从内部破解机关让龙宫城浮上去的话，我们可能一生都要被困在这里了哦。",
+			say = "沒錯~如果不由我們從內部破解機關讓龍宮城浮上去的話，我們可能一生都要被困在這裡了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:175}阁下！眼前的困境只能通过我们自己的努力克服啊！",
+			say = "駿河閣下！眼前的困境只能通過我們自己的努力克服啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "打起精神来，龙宫城探险竞速赛还在进行中呢！",
+			say = "打起精神來，龍宮城探險競速賽還在進行中呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "是…………大家集中火力，继续清理敌人吧！",
+			say = "是…………大家集中火力，繼續清理敵人吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			bgm = "battle-longgong",
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "{namecode:18}，我们已经到达中心区域的外围，你们现在在哪里？",
+			say = "島風，我們已經到達中心區域的外圍，你們現在在哪裡？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎？速度好快！我们才刚进入内环区，你们没有再遇到奇怪机关么？！",
+			say = "哎？速度好快！我們才剛進入內環區，你們沒有再遇到奇怪機關麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有哦。",
+			say = "沒有哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不公平！我这边已经遇到第三个了！",
+			say = "不公平！我這邊已經遇到第三個了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "运气也是实力的一环。看来这次竞速的获胜方是我们啦~",
+			say = "運氣也是實力的一環。這次競速的獲勝方是我們哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜……",
+			say = "嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别那么消沉，进入最后的大门之前我们会等你一起的。",
+			say = "別那麼消沉，進入最後的大門之前我們會等你一起的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜呜呜，{namecode:62}阁下真是太善良了！",
+			say = "嗚嗚嗚，築摩閣下真是太善良了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "不过我们这里遇到的敌人好多，不知道战斗还要多久才能结束……",
+			say = "不過我們這裡遇到的敵人好多，不知道戰鬥還要多久才能結束……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "你们现在遇到的是什么类型的机关？",
+			say = "你們現在遇到的是什麼類型的機關？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:18}完全不清楚！海域中没有遇到奇怪的现象，但是敌人特别特别特别得多，仿佛怎么打都打不完！",
+			say = "島風完全不清楚！海域中沒有遇到奇怪的現象，但是敵人特別特別特別得多，彷彿怎麼打都打不完！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "如果异常之处只有这一点的话，也许……这些大量的敌人就是机关的特性。",
+			say = "如果異常之處只有這一點的話，也許……這些大量的敵人就是機關的特性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 302070,
 			nameColor = "#a9f548",
-			say = "……就像不停地再生的妖怪一样？",
+			say = "……就像不停地再生的妖怪一樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "如果把敌人想象成一个整体的话，确实有这种感觉呢。",
+			say = "如果把敵人想像成一個整體的話，確實有這種感覺呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是生命力顽强的象征啊~",
+			say = "真是生命力頑強的象徵啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "现在不是谈哲学感悟的时候吧，{namecode:62}……",
+			say = "現在不是談哲學感悟的時候吧，築摩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "既然为敌人提供屏障的机关可以转而为我们提供屏障，那怒涛和火海的机关应该也会有类似的效果吧。",
+			say = "既然為敵人提供屏障的機關可以轉而為我們提供屏障，那怒濤和火海的機關應該也會有類似的效果吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果把所有敌人当成一个再生能力很强的整体进行考虑的话，必须想办法一次性给予其大量伤害才行。",
+			say = "如果把所有敵人當成一個再生能力很強的整體進行考慮的話，必須想辦法一次性給予其大量傷害才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你的意思是同时启动怒涛和火海的机关，一次性大面积摧毁敌人？",
+			say = "你的意思是同時啟動怒濤和火海的機關，一次性大面積摧毀敵人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "听起来好像可行，不过应该派谁去操作机关呢。",
+			say = "聽起來好像可行，不過應該派誰去操作機關呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不用担心，合适的人不是就在这里嘛。",
+			say = "不用擔心，合適的人不是就在這裡嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我一路打下来早就已经精疲力尽了，奥丁也没办法持续作战。",
+			say = "我一路打下來早就已經精疲力盡了，奧丁也沒辦法持續作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "现在可以绕过中心区域前往{namecode:18}的那一侧。你们留在这里侦察，开机关的事就交给我们两个闲人吧。",
+			say = "現在可以繞過中心區域前往島風的那一側。駿河你們留在這裡偵察，開機關的事就交給我們兩個閒人吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欧根阁下真是大好人！还有奥丁阁下也是，就拜托你们了！",
+			say = "歐根閣下真是大好人！還有奧丁閣下也是，就拜託你們了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1292,6 +1292,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["風"] = {
+			this = true
 		}
 	}
 end
@@ -3779,6 +3782,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["風"] = {
+			this = true
 		}
 	}
 end
@@ -5205,6 +5211,46 @@ temp()
 function temp()
 	uv0["帝"] = {
 		["國"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["島"] = {
+		["風"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["由"] = {
+		["良"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["築"] = {
+		["摩"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["葛"] = {
+		["城"] = {
 			this = true
 		}
 	}

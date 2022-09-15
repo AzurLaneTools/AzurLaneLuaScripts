@@ -16346,6 +16346,75 @@ _G.pg.base.ship_data_breakout[301284] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.base.ship_data_breakout[301291] = {
+	use_gold = 1500,
+	breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
+	use_char_num = 1,
+	use_char = 30129,
+	breakout_id = 301292,
+	level = 10,
+	id = 301291,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		79771
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[301292] = {
+	use_gold = 4500,
+	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
+	use_char_num = 1,
+	use_char = 30129,
+	breakout_id = 301293,
+	level = 30,
+	id = 301292,
+	icon = "10001",
+	pre_id = 301291,
+	use_item = {},
+	weapon_ids = {
+		108,
+		108
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[301293] = {
+	use_gold = 20000,
+	breakout_view = "專屬彈幕升級/魚雷預裝填+1/全武器效率提高5%",
+	use_char_num = 2,
+	use_char = 30129,
+	breakout_id = 301294,
+	level = 70,
+	id = 301293,
+	icon = "10001",
+	pre_id = 301292,
+	use_item = {},
+	weapon_ids = {
+		79772
+	},
+	ultimate_bonus = {
+		"TORP"
+	}
+}
+
+_G.pg.base.ship_data_breakout[301294] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 30129,
+	breakout_id = 0,
+	level = 0,
+	id = 301294,
+	icon = "10001",
+	pre_id = 301293,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.base.ship_data_breakout[301301] = {
 	use_gold = 300,
 	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
@@ -16962,6 +17031,144 @@ _G.pg.base.ship_data_breakout[301414] = {
 	id = 301414,
 	icon = "10001",
 	pre_id = 301413,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[301471] = {
+	use_gold = 500,
+	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
+	use_char_num = 1,
+	use_char = 30147,
+	breakout_id = 301472,
+	level = 10,
+	id = 301471,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		72031
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[301472] = {
+	use_gold = 1500,
+	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
+	use_char_num = 1,
+	use_char = 30147,
+	breakout_id = 301473,
+	level = 30,
+	id = 301472,
+	icon = "10001",
+	pre_id = 301471,
+	use_item = {},
+	weapon_ids = {
+		107,
+		107
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[301473] = {
+	use_gold = 2500,
+	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
+	use_char_num = 2,
+	use_char = 30147,
+	breakout_id = 301474,
+	level = 70,
+	id = 301473,
+	icon = "10001",
+	pre_id = 301472,
+	use_item = {},
+	weapon_ids = {
+		72032
+	},
+	ultimate_bonus = {
+		"TORP"
+	}
+}
+
+_G.pg.base.ship_data_breakout[301474] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 30147,
+	breakout_id = 0,
+	level = 0,
+	id = 301474,
+	icon = "10001",
+	pre_id = 301473,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[301481] = {
+	use_gold = 500,
+	breakout_view = "獲得全彈發射I/魚雷效率提高5%",
+	use_char_num = 1,
+	use_char = 30148,
+	breakout_id = 301482,
+	level = 10,
+	id = 301481,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		72031
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[301482] = {
+	use_gold = 1500,
+	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
+	use_char_num = 1,
+	use_char = 30148,
+	breakout_id = 301483,
+	level = 30,
+	id = 301482,
+	icon = "10001",
+	pre_id = 301481,
+	use_item = {},
+	weapon_ids = {
+		107,
+		107
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[301483] = {
+	use_gold = 2500,
+	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
+	use_char_num = 2,
+	use_char = 30148,
+	breakout_id = 301484,
+	level = 70,
+	id = 301483,
+	icon = "10001",
+	pre_id = 301482,
+	use_item = {},
+	weapon_ids = {
+		72032
+	},
+	ultimate_bonus = {
+		"TORP"
+	}
+}
+
+_G.pg.base.ship_data_breakout[301484] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 30148,
+	breakout_id = 0,
+	level = 0,
+	id = 301484,
+	icon = "10001",
+	pre_id = 301483,
 	use_item = {},
 	weapon_ids = {},
 	ultimate_bonus = {}
@@ -18683,6 +18890,73 @@ _G.pg.base.ship_data_breakout[302054] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.base.ship_data_breakout[302071] = {
+	use_gold = 500,
+	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
+	use_char_num = 1,
+	use_char = 30207,
+	breakout_id = 302072,
+	level = 10,
+	id = 302071,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		72141
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[302072] = {
+	use_gold = 1500,
+	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
+	use_char_num = 1,
+	use_char = 30207,
+	breakout_id = 302073,
+	level = 30,
+	id = 302072,
+	icon = "10001",
+	pre_id = 302071,
+	use_item = {},
+	weapon_ids = {
+		107,
+		107
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[302073] = {
+	use_gold = 2500,
+	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
+	use_char_num = 2,
+	use_char = 30207,
+	breakout_id = 302074,
+	level = 70,
+	id = 302073,
+	icon = "10001",
+	pre_id = 302072,
+	use_item = {},
+	weapon_ids = {
+		72142
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[302074] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 30207,
+	breakout_id = 0,
+	level = 0,
+	id = 302074,
+	icon = "10001",
+	pre_id = 302073,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.base.ship_data_breakout[302081] = {
 	use_gold = 500,
 	breakout_view = "獲得全彈發射I/防空炮效率提高5%",
@@ -19549,6 +19823,73 @@ _G.pg.base.ship_data_breakout[303044] = {
 	id = 303044,
 	icon = "10001",
 	pre_id = 303043,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[303061] = {
+	use_gold = 1000,
+	breakout_view = "獲得全彈發射I/主炮效率提高5%",
+	use_char_num = 1,
+	use_char = 30306,
+	breakout_id = 303062,
+	level = 10,
+	id = 303061,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		72241
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[303062] = {
+	use_gold = 3000,
+	breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
+	use_char_num = 1,
+	use_char = 30306,
+	breakout_id = 303063,
+	level = 30,
+	id = 303062,
+	icon = "10001",
+	pre_id = 303061,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[303063] = {
+	use_gold = 10000,
+	breakout_view = "全彈發射彈幕升級/魚雷效率提高15%",
+	use_char_num = 2,
+	use_char = 30306,
+	breakout_id = 303064,
+	level = 70,
+	id = 303063,
+	icon = "10001",
+	pre_id = 303062,
+	use_item = {},
+	weapon_ids = {
+		72242
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[303064] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 30306,
+	breakout_id = 0,
+	level = 0,
+	id = 303064,
+	icon = "10001",
+	pre_id = 303063,
 	use_item = {},
 	weapon_ids = {},
 	ultimate_bonus = {}
@@ -22885,6 +23226,79 @@ _G.pg.base.ship_data_breakout[307114] = {
 	id = 307114,
 	icon = "10001",
 	pre_id = 307113,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[307121] = {
+	use_gold = 1000,
+	breakout_view = "所有魚雷機+1/艦載機效率提高3%",
+	use_char_num = 1,
+	use_char = 30712,
+	breakout_id = 307122,
+	level = 10,
+	id = 307121,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		60711,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[307122] = {
+	use_gold = 3000,
+	breakout_view = "機庫容量+1/所有戰鬥機+1/艦載機效率提高5%",
+	use_char_num = 1,
+	use_char = 30712,
+	breakout_id = 307123,
+	level = 30,
+	id = 307122,
+	icon = "10001",
+	pre_id = 307121,
+	use_item = {},
+	weapon_ids = {
+		60712,
+		54014,
+		60712,
+		54014
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[307123] = {
+	use_gold = 10000,
+	breakout_view = "所有艦載機+1/艦載機效率提高7%",
+	use_char_num = 2,
+	use_char = 30712,
+	breakout_id = 307124,
+	level = 70,
+	id = 307123,
+	icon = "10001",
+	pre_id = 307122,
+	use_item = {},
+	weapon_ids = {
+		60713,
+		54015,
+		60713,
+		54015
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.base.ship_data_breakout[307124] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 30712,
+	breakout_id = 0,
+	level = 0,
+	id = 307124,
+	icon = "10001",
+	pre_id = 307123,
 	use_item = {},
 	weapon_ids = {},
 	ultimate_bonus = {}

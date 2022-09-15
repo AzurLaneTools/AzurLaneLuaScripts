@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "龙宫城·中环区 ",
+			say = "龍宮城·中環區",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "这里建筑的精美程度相比外环有过之而无不及……",
+			say = "這裡建築的精美程度相比外環有過之而不及……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:208}阁下，我们真的要摧毁这里么？",
+			say = "葛城閣下，我們真的要摧毀這裡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然是塞壬设下的机关，也没什么更好的办法吧。",
+			say = "既然是塞壬設下的機關，也沒什麼更好的辦法吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "如此美丽的城市……不让重樱的同伴们见一见也太可惜了。",
+			say = "如此美麗的城市……不讓重櫻的同伴們見一見也太可惜了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "我想在平安离开之后跟{namecode:182}大人商量一下……我们把这里控制下来之后移动到重樱本岛去吧！",
+			say = "我想在平安離開之後跟信濃大人商量一下……我們把這裡控制下來之後移動到重櫻本島去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是个不得了的想法……不过如果能做成这件事的话，整个重樱都会对我们刮目相看吧？",
+			say = "真是個不得了的想法……不過如果能做成這件事的話，整個重櫻都會對我們刮目相看吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嚯嚯嚯~在那之后我就是了不起的{namecode:208}大人，你的话，就叫了不起的{namecode:18}大人好了~",
+			say = "嚯嚯嚯~在那之後我就是了不起的葛城大人，妳的話，就叫了不起的島風大人好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎？！{namecode:18}大人？！这个称呼还是有些……",
+			say = "哎？！島風大人？！這個稱呼還是有些……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，总有一天我们都会被这么称呼的，还是尽早熟悉一下好哦~",
+			say = "哼哼，總有一天我們都會被這麼稱呼的，還是儘早熟悉一下好哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 301470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……我们离开龙宫城之后，会不会像故事里一样已经几百年过去了……",
+			say = "那個……我們離開龍宮城之後，會不會像故事裡一樣已經幾百年過去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "才不会吧……这里和故事里可完全不一样。什么热情的接待啊，豪华的大餐啊，一样都没见到！",
+			say = "才不會吧……這里和故事裡可完全不一樣。什麼熱情的接待啊，豪華的大餐啊，一樣都沒見到！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果硬要把敌人的迎接也算到迎接里的话，热情的接待还是有的哦。",
+			say = "如果硬要把敵人的迎接也算到迎接裡的話，熱情地接待還是有的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们看前方出现的塞壬舰队，我们大概进入新的区域了。",
+			say = "妳們看前方出現的塞壬艦隊，我們大概進入新的區域了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "不知道这次会遇到什么厉害的机关呢！",
+			say = "不知道這次會遇到什麼厲害的機關呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "粗看上去倒没什么不同的……和之前一样瞄准机关上的封印出击就好吧~",
+			say = "一眼看上去倒沒什麼不同的……和之前一樣瞄準機關上的封印出擊就好吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "明白。{namecode:18}，全速前进————哎哟！",
+			say = "明白。島風，全速前進————哎喲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "{namecode:18}全速向前方冲去，但是很快就像凭空撞上了什么似的突然急停了下来。",
+			say = "島風全速向前方衝去，但是很快就像憑空撞上了什麼似的突然急停了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哇啊啊啊！！大家快检查一下舰装，有谁漏油了么！",
+			say = "哇啊啊啊！！大家快檢查一下，有誰漏油了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "前方，原本在龙宫城的辉光映射下有些幽蓝的水面之上不知何时出现了大量漂浮的油料。",
+			say = "前方，原本在龍宮城的輝光映射下有些幽藍的水面之上不知何時出現了大量漂浮的油料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "漏油？怎么可能啊？！",
+			say = "漏油？怎麼可能啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且你看看这个量……不是已经飘得到处都是了么！我们再怎么漏也漏不了这么多吧……！",
+			say = "而且妳看看這個量……不是已經飄得到處都是了麼！我們再怎麼漏也漏不了這麼多吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道是那些敌人的量产型在漏油么？！",
+			say = "難道是那些敵人的量產型在漏油嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇，海面上有这么多油料……如果遇到明火的话会很危险吧……",
+			say = "嗚哇，海面上有這麼多油料……如果遇到明火的話會很危險吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总之大家小心开火，要是把水面点着我们就完了！",
+			say = "總之大家小心開火，要是把水面點著我們就完了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不，请大家干脆不要开火……加速行驶通过这里吧！",
+			say = "不，請大家乾脆不要開火……加速行駛通過這裡吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

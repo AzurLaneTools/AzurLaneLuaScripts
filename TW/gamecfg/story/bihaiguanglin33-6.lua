@@ -9,7 +9,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			say = "轰————————！",
+			say = "轟————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:204}，你就要输了！",
+			say = "白龍，妳就要輸了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "看来确实如此呢，汝等确实武艺非凡。",
+			say = "看來確實如此呢，汝等確實武藝非凡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "但是真正压倒吾的不是汝等的力量，而是吾本应守护的龙宫城。",
+			say = "但是真正壓倒吾的不是汝等的力量，而是吾本應守護的龍宮城。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "不论如何，在战胜之后，吾会如约放你们离开的。",
+			say = "不論如何，在戰勝之後，吾會如約放妳們離開的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "不止于此吧，龙宫城的守护者应该不会反悔自己说过的话吧？",
+			say = "不止於此吧，龍宮城的守護者應該不會反悔自己說過的話吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "说过的话……？额……",
+			say = "說過的話……？呃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "“仅凭汝等要是真赢了吾，看上城中什么奖励随便拿走便是。”，你当时是这么说的吧。",
+			say = "“僅憑汝等要是真贏了吾，看上城中什麼獎勵隨便拿走便是。”，妳當時是這麼說的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "好像确实有这件事，唉……大意了。",
+			say = "好像確實有這件事，唉……大意了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "行吧，我{namecode:204}说话算话，你们看上什么直接拿走就是了。",
+			say = "行吧，我白龍說話算話，妳們看上什麼直接拿走就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "哎哟，可以趁机好好大捞一笔了~",
+			say = "哎喲，可以趁機好好大撈一筆了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（不妙，这个人真的超恶劣……）",
+			say = "（不妙，這個人真的超惡劣……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次取胜很大程度要归功于{namecode:18}及时快速的开启机关。{namecode:18}，这个奖励就由你来选吧。",
+			say = "這次取勝很大程度要歸功於島風及時快速的開啟機關。島風，這個獎勵就由妳來選吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉？由我来真的可以么？！",
+			say = "欸？由我來真的可以嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "可以。说出你的愿望吧，{namecode:18}。",
+			say = "可以。說出妳的願望吧，島風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…………决定了！",
+			say = "唔…………決定了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:204}，我想要的奖励就是你！",
+			say = "白龍，我想要的獎勵就是妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在我们获得胜利之后，你就成为我们的同伴，和我们一起回重樱吧！",
+			say = "在我們獲得勝利之後，妳就成為我們的同伴，和我們一起回重櫻吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哈啊？！用常理来想我也不可能被算在奖励之内吧？！",
+			say = "哈啊？！用常理來想我也不可能被算在獎勵之內吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "龙宫城中的守护者不也是城中的存在嘛，只要我看上就能随便挑了带走不是你说的！",
+			say = "龍宮城中的守護者不也是城中的存在嘛，只要我看上就能隨便挑了帶走不是妳說的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "汝如此确信，吾能成为汝等的同伴？",
+			say = "汝如此確信，吾能成為汝等的同伴？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！龙宫城外的世界可是很广阔的，重樱也有很多有趣的伙伴！一定会比你一个人孤零零在这里好的多！",
+			say = "嗯！龍宮城外的世界可是很廣闊的，重櫻也有很多有趣的伙伴！一定會比妳一個人孤零零在這裡好的多！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "龙宫城会帮助我们与你战斗，说明它也是这个意思吧！",
+			say = "龍宮城會幫助我們與妳戰鬥，說明它也是這個意思吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……有趣的观点，好吧，说话算话，我答应你。",
+			say = "……有趣的觀點，好吧，說話算話，我答應妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "前提是，你们真的能取胜！",
+			say = "前提是，妳們真的能取勝！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "吾还没有输，吾手中的剑也没有输，继续放马过来，战至最后一回合吧！",
+			say = "吾還沒有輸，吾手中的劍也沒有輸，繼續放馬過來，戰至最後一回合吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "乐意奉陪！现在正是时候，就让你见识一下{namecode:18}流操舰术的精髓吧！",
+			say = "樂意奉陪！現在正是時候，就讓妳見識一下高山流操艦術的精髓吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:18}级驱逐舰{namecode:18}，参上！",
+			say = "島風級驅逐艦島風，參上！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

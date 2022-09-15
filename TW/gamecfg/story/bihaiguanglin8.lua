@@ -15,7 +15,7 @@ return {
 			bgm = "battle-longgong",
 			actor = 307120,
 			nameColor = "#a9f548",
-			say = "附近区域我已经用侦察机全部探查清楚了，接下来顺着这条水道走！",
+			say = "附近區域我已經用偵察機全部探查清楚了，接下來順著這條水道走！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:208}阁下真可靠，跟着你就完全不用担心迷路了，不愧是正规航空母舰！",
+			say = "葛城閣下真可靠，跟著妳就完全不用擔心迷路了，不愧是正規航空母艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~{namecode:62}虽然也有侦察机，但是和身为正规航母的我相比差的还远呢！",
+			say = "哼哼~築摩雖然也有偵察機，但是和身為正規航母的我相比還是差遠了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周围的敌人也是轻松有余，迎上来的尽是些老旧型号。",
+			say = "周圍的敵人也是輕鬆有餘，迎上來的盡是些老舊型號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吼吼吼~这里被废弃的感觉越来越明显了。",
+			say = "吼吼吼~這裡被廢棄的感覺越來越明顯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是那个…大家有没有觉得海浪也越来越明显了……",
+			say = "就是那個…大家有沒有覺得海浪也越來越明顯了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，{namecode:18}也感觉到了！",
+			say = "沒錯，島風也感覺到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是奇怪…现在是海底，我们又在结界之中，没理由出现这么大的风浪啊。",
+			say = "真是奇怪…現在是海底，我們又在結界之中，沒理由出現這麼大的風浪啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊我想起来了，之前那个谜之音是不是说过什么要突破机关笔直前行之类的？",
+			say = "啊我想起來了，之前那個謎之音是不是說過什麼要突破機關筆直前行之類的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此…！那这些风浪就是机关了吧？而只要突破了机关，我们就是勇者！",
+			say = "原來如此…！那這些風浪就是機關了吧？而只要突破了機關，我們就是勇者！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉燃起来了！",
+			say = "感覺燃起來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:18}也是，感觉浑身充满了干劲！",
+			say = "島風也是，感覺渾身充滿了幹勁！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 301470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是这么大的风浪……我们要怎么过去呢？",
+			say = "可是這麼大的風浪……我們要怎麼過去呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那些笨重的量产型敌人不会给我们带来威胁，反而会帮我们减小风浪。",
+			say = "那些笨重的敵人量產型不會給我們帶來威脅，反而會幫我們減小風浪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "只要灵活穿梭于敌阵之中，加速向前总是能冲过去的！",
+			say = "只要靈活穿梭於敵陣之中，加速向前總是能衝過去的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来好像很有趣啊~不过这是你们这样灵活的驱逐舰才能用的战术，身为正规航母的我是没办法了。",
+			say = "聽起來好像很有趣啊~不過這是妳們這樣的靈活的驅逐艦才能用的戰術，身為正規航母的我是沒辦法了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我会用舰载机为你护航的，火力掩护就交给我吧！",
+			say = "不過我會用艦載機為你護航的，火力掩護就交給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "非常感谢，{namecode:208}阁下！",
+			say = "非常感謝，葛城閣下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "区区怒涛是无法让我停下脚步的！{namecode:18}去去就回！",
+			say = "區區怒濤是無法扔我停下腳步的！島風去去就回！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

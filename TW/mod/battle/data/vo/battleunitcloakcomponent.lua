@@ -42,7 +42,7 @@ function slot5.SetRecoverySpeed(slot0, slot1)
 end
 
 function slot5.AppendExpose(slot0, slot1)
-	slot0._cloakValue = Mathf.Clamp(slot0._cloakValue + slot1, slot0._cloakBottom, slot0._exposeValue)
+	slot0._cloakValue = Mathf.Clamp(slot0._cloakValue + slot1, slot0:GetCloakBottom(), slot0._exposeValue)
 
 	slot0:UpdateCloakState()
 end
@@ -69,23 +69,6 @@ function slot5.ForceToMax(slot0)
 	slot0:UpdateCloakState()
 end
 
-function slot5.AppendExposeDot(slot0, slot1, slot2)
-	slot0._exposeDotList[slot1] = slot2
-
-	slot0:AppendExpose(slot2)
-	slot0:updateCloakBottom()
-end
-
-function slot5.RemoveExposeDot(slot0, slot1)
-	for slot5, slot6 in pairs(slot0._exposeDotList) do
-		slot0._exposeDotList[slot5] = nil
-
-		break
-	end
-
-	slot0:updateCloakBottom()
-end
-
 function slot5.UpdateDotExpose(slot0, slot1)
 	if slot1 ~= slot0._cloakBottom then
 		slot0._cloakBottom = slot1
@@ -94,12 +77,20 @@ function slot5.UpdateDotExpose(slot0, slot1)
 	end
 end
 
+function slot5.UpdateTauntExpose(slot0, slot1)
+	if slot1 then
+		slot0._tauntCloakBottom = slot0._restoreValue
+	else
+		slot0._tauntCloakBottom = nil
+	end
+end
+
 function slot5.UpdateCloakState(slot0)
 	slot1 = nil
 
 	if slot0._exposeValue <= slot0._cloakValue then
 		slot1 = uv0.STATE_UNCLOAK
-	elseif slot0._cloakValue <= slot0._restoreValue then
+	elseif slot0._cloakValue < slot0._restoreValue then
 		slot1 = uv0.STATE_CLOAK
 	end
 
@@ -133,7 +124,11 @@ function slot5.GetCloakRestoreValue(slot0)
 end
 
 function slot5.GetCloakBottom(slot0)
-	return slot0._cloakBottom
+	if slot0._tauntCloakBottom then
+		return math.max(slot0._tauntCloakBottom, slot0._cloakBottom)
+	else
+		return slot0._cloakBottom
+	end
 end
 
 function slot5.GetCurrentState(slot0)
@@ -174,9 +169,9 @@ function slot5.initCloak(slot0)
 end
 
 function slot5.triggerBuff(slot0)
-	slot0._client:TriggerBuff(uv1.BuffEffectType.ON_CLOAK_UPDATE, {
-		cloakState = uv0.GetCurrent(slot0._client, "isCloak")
-	})
+	slot1 = uv0.GetCurrent(slot0._client, "isCloak")
+
+	slot0._client:DispatchCloakStateUpdate()
 end
 
 function slot5.adjustCloakAttr(slot0)

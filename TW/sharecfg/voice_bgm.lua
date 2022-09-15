@@ -239,5 +239,13 @@ pg.voice_bgm = {
 	IceCreamGameView = {
 		default_bgm = "bar-soft",
 		bgm = "bar-soft"
+	},
+	CookGameView = {
+		default_bgm = "bar-soft",
+		bgm = "bar-soft"
+	},
+	BackHillCampusFestival2022Scene = {
+		default_bgm = "blueocean-image",
+		bgm = "blueocean-image"
 	}
 }

@@ -18,7 +18,7 @@ return {
 			actor = 900315,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "时间紧迫。{namecode:182}，请回答我的问题——你觉得指挥官怎么样？",
+			say = "時間緊迫。信濃，請回答我的問題——妳覺得指揮官怎麼樣？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官么……一位能够对话的，有趣的人。",
+			say = "指揮官嗎……一位能夠對話的，有趣的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "醒来之后也不要忘记今天发生的事哦。",
+			say = "醒來之後也不要忘記今天發生的事哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "此处梦境，即将迎来结束之时了么……",
+			say = "此處夢境，即將迎來結束之時了麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "嗯，接下来我要对这里做一些“改造”。",
+			say = "嗯，接下來我要對這裡做一些“改造”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "虽然不清楚你梦境的具体原理，但是“改造”引发的冲击会将摧毁你所引发的脆弱干涉。",
+			say = "雖然不清楚妳夢境的具體原理，但是“改造”引發的衝擊會將摧毀妳所引發的脆弱干涉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "你的梦境也就无法继续了。",
+			say = "妳的夢境也就無法繼續了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "看来妾身就要到此为止了，遗憾……真想将这趟奇妙旅程继续下去啊……",
+			say = "看來妾身就要到此為止了，遺憾……真想將這趟奇妙旅程繼續下去啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "其余诸位，你们现在的位置…………嗯，已经确认了，就这样各自站在原位千万别动哦。",
+			say = "其餘諸位，妳們現在的位置…………嗯，已經確認了，就這樣各自站在原位千萬別動哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "轟————————！",
 			side = 2,
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
@@ -293,7 +293,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "帕克菲克洋·重樱主力舰队",
+			say = "太平洋·重櫻主力艦隊",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-pacific",
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，您休息得还好么？",
+			say = "信濃大人，您休息的還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "又是一个漫长，又逼真的梦境……让人忍不住想继续沉沦进去。",
+			say = "又是一個漫長，又逼真的夢境……讓人忍不住想繼續沉淪進去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:180}，去整理一下碧蓝航线指挥官的资料给我。",
+			say = "霞，去整理一下碧藍航線指揮官的資料給我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "碧蓝航线的那位指挥官的资料么？{namecode:180}明白了。",
+			say = "碧藍航線的那位指揮官的資料嗎？霞明白了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，我们之后有和白鹰作战的行动么？",
+			say = "信濃大人，我們之後有和白鷹作戰的行動嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "目前妾身还没听说过这样的计划，收集指挥官的资料只是单纯的好奇罢了。",
+			say = "目前妾身還沒聽說過這樣的計劃，收集指揮官的資料只是單純的好奇罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰队的情况如何？",
+			say = "艦隊的情況如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰队正在按照计划前往铁血浮岛要塞，一路没有遭遇到敌人。",
+			say = "艦隊正在按照計劃前往的鐵血浮島要塞，一路沒有遭遇到敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过……侦察舰队在前方海域发现了一座所属不明的人工浮岛。",
+			say = "不過……偵察艦隊在前方海域發現了一座所屬不明的人工浮島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:18}在汇报时将其称为“龙宫城”，这份简报请您过目。",
+			say = "島風在匯報時將其稱為“龍宮城”，這份簡報請您過目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……龙宫城么，妾身在梦中也未曾见过。",
+			say = "……龍宮城嗎，妾身在夢中也未曾見過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的海上“奇景”通常会被塞壬隐藏在镜面海域之中。",
+			say = "這樣的海上“奇景”通常會被塞壬隱藏在鏡面海域之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "像这样明目张胆的放出来，我觉得是诱饵的可能性极高。",
+			say = "像這樣明目張膽的放出來，我覺得是誘餌的可能性極高。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也觉得应该是塞壬的把戏，直接无视呢？",
+			say = "我也覺得應該是塞壬的把戲，直接無視呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不可。塞壬对于吾等之行已有所警觉，将其布下的陷阱无防备置于身后过于危险。",
+			say = "不可。塞壬對於吾等之行已有所警覺，將其布下的陷阱無防備置於身後過於危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要不然集中火力直接摧毁吧？",
+			say = "要不然集中火力直接摧毀吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倘若如{namecode:18}所言是一座华美的海龙宫，直接摧毁未免有些可惜。",
+			say = "倘若如島風所言是一座華美的海龍宮，直接摧毀未免有些可惜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……嚱，既然是塞壬的机关，也只能如此了。",
+			say = "……唉，既然是塞壬的機關，也只能如此了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:62}，带领增援与{namecode:18}队汇合。然后……{namecode:175}也同行吧。",
+			say = "築摩，帶領增援與島風隊匯合。然後……駿河也同行吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？我也要去么？！可这样您的身边……",
+			say = "哎？我也要去嗎？！可這樣您的身邊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用担心，妾身在本阵中很安全，{namecode:180}也在。",
+			say = "不用擔心，妾身在本陣中很安全，霞也在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（不知道为什么，有种非常不妙的预感…………）",
+			say = "（不知道為什麼，有種非常不妙的預感…………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

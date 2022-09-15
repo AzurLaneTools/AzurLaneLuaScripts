@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "轰————————！",
+			say = "轟————————！",
 			bgm = "map-longgong",
 			flashin = {
 				delay = 1,
@@ -77,7 +77,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "伴随一声巨响，笼罩在建筑外的结界被打破了。",
+			say = "伴隨一聲巨響，籠罩在建築外的結界被打破了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,11 +89,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「试炼完成，怒涛将平息，继续前进吧」",
+			say = "「試煉完成，怒濤將平息，繼續前進吧」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "谜之音说完后，建筑上的光芒熄灭，狂风与巨浪也停止了。",
+			say = "謎之音說完後，建築上的光芒熄滅，狂風與巨浪也停止了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "咦？浪涛真的停止了，这个谜之音说话算话啊！",
+			say = "咦？浪濤真的停止了，這個謎之音說話算話啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吼吼~离近了才发现，还真是个奇怪的大台子啊。",
+			say = "吼吼~離近了才發現，還真是個奇怪的大台子啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 301470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在我们在敌人陷阱里，不要太轻举妄动比较好哦，{namecode:207}……",
+			say = "現在我們在敵人陷阱裡，不要太輕舉妄動比較好哦，山風……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，不要轻易靠近！这个很可能还有结界影响的残留。总之让我来检查一下。",
+			say = "沒錯，不要輕易靠近！這個很可能還有結界影響的殘留。總之讓我來檢查一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！原来这么危险么！好险好险……",
+			say = "哎？！原來這麼危險嗎！好險好險……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "没想到{namecode:208}阁下对于结界也有研究啊。",
+			say = "沒想到葛城閣下對於結界也有研究啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:84}大人公务繁忙，神社相关的事务都是由我进行处理的哦~",
+			say = "武藏大人公務繁忙，神社相關的事務很多都是由我進行協助處理的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "噢噢！{namecode:208}阁下真是太厉害了！",
+			say = "噢噢！築摩閣下真是太厲害了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是自然的，谁让我是正规航母呢~",
+			say = "那是自然的，誰讓我是正規航母呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "可是为什么{namecode:208}阁下没有和{namecode:206}小姐一样穿巫女服呢？",
+			say = "可是為什麼葛城閣下沒有和由良小姐一樣穿巫女服呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为……额！{namecode:206}是负责协助我来进行工作的！所以巫女服只要她去穿就好，我不用穿！",
+			say = "因為……呃！由良是負責協助我來進行工作的！所以巫女服只要她去穿就好，我不用穿！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来有股可疑的气息……",
+			say = "聽起來有股可疑的氣息……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么可疑的！就、就是这么回事啦！",
+			say = "沒什麼可疑的！就、就是這麼回事啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这里已经没什么值得在意的东西了，我们快走吧，现在不还在竞速比赛中么！",
+			say = "這裡已經沒什麼值得在意的東西了，我們快走吧，現在不是還在競速比賽中嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

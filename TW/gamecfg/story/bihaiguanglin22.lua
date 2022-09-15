@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "龙宫城·外环区  机关前",
+			say = "龍宮城·外環區  機關前",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -41,7 +41,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:62}阁下！刚才从你们的方向传来了剧烈的震动和闪耀的白光，大家都没出事吧！",
+			say = "築摩閣下！剛才從你們的方向傳來了劇烈的震動和閃耀的白光，大家都沒出事吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我们没事。是铁血舰队发动攻击后引发的现象，现在我们已经让机关停止运作了。",
+			say = "嗯，我們沒事。是鐵血艦隊發動攻擊後引發的現象，現在我們已經讓機關停止運作了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？！那么大的动静居然是铁血舰队的攻击？！！太不可思议了。",
+			say = "咦？！那麼大的動靜居然是鐵血艦隊的攻擊？！！太不可思議了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 307120,
 			nameColor = "#a9f548",
-			say = "{namecode:206}{namecode:206}~刚才我是在观察了结界的弱点之后集中火力一口气破坏掉的，",
+			say = "由良由良~剛才我是在觀察了結界的弱點之後集中火力一口氣破壞掉的，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 307120,
 			nameColor = "#a9f548",
-			say = "这种类型的结界是不是这样处理最好呀？",
+			say = "這種類型的結界是不是這樣處理最好呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔嗯……如果是你所说的那种类型的话，不过实际上我也没见到结界没法判断……",
+			say = "唔嗯……如果是你所說的那種類型的話，不過實際上我也沒見到結界沒法判斷……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "保护在外围的封印已经在奥丁小姐的一击中灰飞烟灭了……",
+			say = "保護在外圍的封印已經在奧丁小姐的一擊中灰飛煙滅了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过机关本身还完整，我打算仔细检查一下……那个，欧根亲王阁下……?",
+			say = "不過機關本身還完整，我打算仔細檢查一下……那個，歐根親王閣下……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，那边的欧根亲王！不要趁机乱动操作台啊，很危险吧！",
+			say = "啊，那邊的歐根親王！不要趁機亂動操作台啊，很危險吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "不危险~不危险~操作塞壬装置我早就已经轻车熟路了。",
+			say = "不危險~不危險~操作塞壬裝置我早就已經輕車熟路了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "会发生事故的概率连五成都不到哦。",
+			say = "會發生事故的概率連五成都不到哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要给五成成功率换个好听的说法啊！",
+			say = "不要給五成成功率換個好聽的說法啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "先这样……再这样……最后这样————完成！",
+			say = "先這樣……再這樣……最後這樣————完成！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "随着欧根亲王的操作结束，控制台发出了一阵机械启动的震动声，相同的谜之音也再次出现了。",
+			say = "隨著歐根親王的操作結束，控制台發出了一陣機械啟動的轟鳴聲，相同的謎之音也再次出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,11 +298,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「龙宫城中的秘宝，在此向勇者献上」",
+			say = "「龍宮城中的秘寶，在此向勇者獻上」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……秘宝？",
+			say = "……秘寶？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:62}阁下！{namecode:175}阁下！！你们刚才说的出现在敌人身上的护盾，也出现在我们身上了哎！",
+			say = "築摩閣下！駿河閣下！！你們剛才說的出現在敵人身上的護盾，也出現在我們身上了哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道龙宫城中各个机关区域之间是有关联的……？只要夺下来就能为我们所用。",
+			say = "難道龍宮城中各個機關區域之間是有關聯的……？只要奪下來就能為我們所用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "果然是这样的设计，跟我预想的一样。",
+			say = "果然是這樣的設計，跟我預想的一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在你预想中不是只有五成成功率么……如果运气不好失败了呢？",
+			say = "在你預想中不是只有五成成功率麼……如果運氣不好失敗了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "大概是机关重新启动，然后我们重新被大量敌人包围……？",
+			say = "大概是機關重新啟動，然後我們重新被大量敵人包圍……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不行，太累了……跟这个危险分子完全合不来。）",
+			say = "（不行，太累了……跟這個危險分子完全合不來。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "不要一副垂头丧气的样子嘛。只要结果好，一切都好~",
+			say = "不要一副垂頭喪氣的樣子嘛。只要結果好，一切都好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常感谢，欧根亲王阁下！有了这些护盾，火海就无法阻挡我们的前进了！",
+			say = "非常感謝，歐根親王閣下！有了這些護盾，火海就無法阻擋我們的前進了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家跟紧我，向着机关的方向，冲锋~！",
+			say = "大家跟緊我，向著機關的方向，衝鋒~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

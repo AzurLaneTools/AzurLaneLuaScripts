@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_1",
-			say = "随着舰队接近，岛屿的轮廓也变得逐渐清晰起来。",
+			say = "隨著艦隊接近，島嶼的輪廓也變得逐漸清晰起來。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_1",
 			dir = 1,
-			say = "金碧辉煌的亭台与错综复杂的水道构成一座宛如巨大宫殿群一般的海中都市。",
+			say = "金碧輝煌的亭台與錯綜複雜的水道構成一座宛如巨大宮殿群一般的海中都市。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:18}",
-			say = "真是太壮观了…………{namecode:208}阁下，这究竟是什么啊！",
+			say = "真是太壯觀了…………葛城閣下，這究竟是什麼啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:208}",
-			say = "我也不是很清楚，不过根据我作为正规航母的分析和判断来说……这不是自然形成的岛屿！",
+			say = "我也不是很清楚，不過根據我作為正規航母的分析和判斷來說……這不是自然形成的島嶼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:207}",
-			say = "简直就像传说中的“龙宫城”一样！",
+			say = "簡直就像傳說中的“龍宮城”一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:208}",
-			say = "哼~{namecode:18}，立刻联络本阵，我们有大发现了！",
+			say = "哼哼~島風，立刻聯絡本陣，我們有大發現了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "{namecode:18}",
-			say = "是——{namecode:62}阁下，能听到么？",
+			say = "是——築摩閣下，能聽到嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:62}",
-			say = "这里是{namecode:62}，请问有什么事？",
+			say = "這裡是築摩，請問有什麼事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:18}",
-			say = "是这样，我们在侦察路上发现了一个巨大的奇怪岛屿——",
+			say = "是這樣，我們在偵察路上發現了一個巨大的奇怪島嶼——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "情况我都明白了，{namecode:182}大人正在休息，我稍后向她汇报。麻烦各位继续收集情报，不要轻举妄动，{namecode:62}通讯结束。",
+			say = "情況我都明白了，信濃大人正在休息，我稍後向她匯報。麻煩各位繼續收集情報，不要輕舉妄動，築摩通訊結束。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -219,7 +219,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "越叫人不要轻举妄动，越让人有行动的欲望啊！",
+			say = "越叫人不要輕舉妄動，越讓人有行動的慾望啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "我完全明白你的感觉，{namecode:208}阁下！",
+			say = "我完全明白妳的感覺，葛城閣下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果不进去看看的话，就没办法更好侦察了，你们说是吧！",
+			say = "如果不進去看看的話，就沒辦法更好偵察了，妳們說是吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "唔……确实是这样！而且这么金碧辉煌的宫殿，说不定会有宝藏藏在里面呢！",
+			say = "唔……確實是這樣！而且這麼金碧輝煌的宮殿，說不定會有寶藏藏在裡面呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301470,
-			say = "确实有一种，会埋藏有宝藏的感觉……",
+			say = "確實有一種，埋藏有寶藏的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_daofeng_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "立功的机会到了！既然意见统一，那我们就进去吧！",
+			say = "看來立功的機會到了！既然意見統一，那就我們進去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "噢噢噢——龙宫城探险队，出发！",
+			say = "噢噢噢——龍宮城探險隊，出發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

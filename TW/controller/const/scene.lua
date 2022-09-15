@@ -103,6 +103,7 @@ SCENE = {
 	EQUIPSCENE = "scene equip",
 	WORLD = "scene world",
 	DEPOTSCENE = "scene depot scene",
+	BACKHILL_CAMPUSFESTIVAL_2022 = "BACKHILL_CAMPUSFESTIVAL_2022",
 	EXERCISEFORMATION = "scene exerciseformation",
 	AIRFORCE_DRAGONEMPERY = "scene AirForceOfDragonEmpery",
 	SPRING_FESTIVAL_BACKHILL_2022 = "springfestival BackHill 2022",
@@ -539,6 +540,10 @@ slot0 = {
 	[SCENE.BACKHILL_SUMMERPARK_2022] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
 		slot0.viewComponent = BackHillSummerPark2022Scene
+	end,
+	[SCENE.BACKHILL_CAMPUSFESTIVAL_2022] = function (slot0, slot1)
+		slot0.mediator = BackHillMediatorTemplate
+		slot0.viewComponent = BackHillCampusFestival2022Scene
 	end
 }
 

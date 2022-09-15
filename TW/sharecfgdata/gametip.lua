@@ -9355,7 +9355,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "帝國、的里雅斯德、可畏 建造機率UP！"
+	tip = "島風、葛城、由良、海風 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11049,13 +11049,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀請者：
 回歸指揮官：
-在2022年5月12日至5月26日維護期間沒有過登入行為的
+在2022年9月1日至9月15日維護期間沒有過登入行為的
 指揮官
 新人指揮官：
-在2022年5月26日至6月16日維護期間新註冊的指揮官
+在2022年9月15日至10月13日維護期間新註冊的指揮官
 滿足被邀請資格的指揮官在活動期間登入可在特別活動頁內輸入邀請者的UID參與活動
 邀請者：
-2022年5月12日至5月26日維護前有過登入行為的指揮官
+2022年9月1日至9月15日維護前有過登入行為的指揮官
 邀請者可以使用自己的UID邀請滿足被邀請資格的指揮官
 參與活動
 召集指揮官：
@@ -11129,7 +11129,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指揮官可以從中選擇2名角色作為祈願角色"
 		},
 		{
-			info = "5.可選名單僅包含3月24日前常駐加入對應建造的角色"
+			info = "5.可選名單僅包含7月14日前常駐加入對應建造的角色"
 		},
 		{
 			info = "6.有建造解鎖條件的角色無法被選為祈願角色，\n不會在祈願建造中出現。 "
@@ -19126,6 +19126,14 @@ _G.pg.base.gametip.dockyard_data_loss_detected = {
 	tip = "檢測到船塢數據遺失是否重新讀取？"
 }
 
+_G.pg.base.gametip.five_shujuhuigu = {
+	tip = "暂未开放"
+}
+
+_G.pg.base.gametip.five_shujuhuigu1 = {
+	tip = "推进至$1"
+}
+
 _G.pg.base.gametip.littleChaijun_npc = {
 	tip = {
 		{
@@ -19161,9 +19169,9 @@ _G.pg.base.gametip.five_qingdian = {
 			info = [[
 活動規則：
 活動期間每日可獲得<color=#92fc63>1</color>次可用次數，可用次數最多可以疊加<color=#92fc63>7</color>次
-1.在有可用次數的情況下參與啾啾躲貓貓會消耗掉可用次數並獲得簽到次數，集齊<color=#92fc63>7</color>次簽到次數可以獲得<color=#92fc63>「初夏2022邀請函」</color>
+1.在有可用次數的情況下參與甜品大作戰會消耗掉可用次數並獲得簽到次數，集齊<color=#92fc63>7</color>次簽到次數可以獲得<color=#92fc63>「慶典邀請函」</color>
 2.可用次數可以在慶典廣場頁面右側看到，簽到進度可以通過點擊慶典廣場頁面<color=#92fc63>「邀請函」</color>按鈕查看
-3.在沒有可用次數的情況下進行啾啾躲貓貓不會獲得簽到次數]]
+3.在沒有可用次數的情況下進行甜品大作戰不會獲得簽到次數]]
 		}
 	}
 }
@@ -19259,6 +19267,14 @@ _G.pg.base.gametip.tactics_recent_ship_label = {
 
 _G.pg.base.gametip.title_info = {
 	tip = "訊息"
+}
+
+_G.pg.base.gametip.decoration_medal_placeholder = {
+	tip = "尚未獲得任何勛章"
+}
+
+_G.pg.base.gametip.technology_filter_placeholder = {
+	tip = "無當前分類角色"
 }
 
 _G.pg.base.gametip.eva_comment_send_null = {
@@ -19449,4 +19465,81 @@ _G.pg.base.gametip.guild_deputy_commander_cnt_is_full = {
 
 _G.pg.base.gametip.guild_deputy_commander_cnt = {
 	tip = "<color=#C3C3C3>已委任：<color=#92fc63>$1/$2</color></color>"
+}
+
+_G.pg.base.gametip.mail_filter_placeholder = {
+	tip = "暫無此類郵件"
+}
+
+_G.pg.base.gametip.recently_sticker_placeholder = {
+	tip = "暫無常用表情"
+}
+
+_G.pg.base.gametip.backhill_campusfestival_tip = {
+	tip = {
+		{
+			info = [[
+活動時間：2022.9.15-10.13
+活動規則：
+1.<color=#92fc63>9月21日</color>為止每天零點解鎖1個任務，完成活動任務可以獲得「裝飾用品」及獎勵，活動任務可累積
+2.消耗「裝飾用品」可以在啾啾學園慶典中升級建築，每種建築會提供不同的BUFF加成
+3.每種建築分為三個等級，隨著等級的提升，提供的BUFF加成也會增加
+4.可升級建築有四種：
+教學大樓
+校園商街
+演唱台
+占卜屋
+5.活動期間每日可獲得一次可用次數，可用次數最多可以疊加7次
+6.在有可用次數的情況下參與甜品大作戰會消耗掉可用次數並獲得簽到次數，集齊7次簽到次數可以獲得<color=#92fc63>「慶典邀請函」</color>
+7.可用次數可以在啾啾學園慶典頁面右側看到，簽到進度可以通過點擊啾啾學園慶典頁面「邀請函」按鈕查看
+8.在沒有可用次數的情況下進行甜品大作戰不會獲得簽到次數]]
+		}
+	}
+}
+
+_G.pg.base.gametip.mini_cookgametip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.<color=#92fc63>9月21日</color>為止每日0點開放<color=#92fc63>1</color>場新的遊戲，總計<color=#92fc63>7</color>場，可累計。完成遊戲可以獲得限定傢俱在內的豐富獎勵。
+
+遊戲規則：
+1.指揮官需要操控角色獲取對應甜點送給場中的黃雞裁判，上對甜點加1分，上錯扣1分，時間結束時分數高的一方獲勝
+2.甜點大作戰共計8位角色，指揮官可以選擇任意角色和隊友進行作戰
+3.時間歸零或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。 ]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cook_game_Albacore = {
+	tip = "能遠距離上甜點"
+}
+
+_G.pg.base.gametip.cook_game_august = {
+	tip = "移動速度更快"
+}
+
+_G.pg.base.gametip.cook_game_elbe = {
+	tip = "同時端兩盤甜點"
+}
+
+_G.pg.base.gametip.cook_game_hakuryu = {
+	tip = "連續上對甜點時增加移動速度"
+}
+
+_G.pg.base.gametip.cook_game_howe = {
+	tip = "每次成功上甜點時50%概率額外加1分"
+}
+
+_G.pg.base.gametip.cook_game_marcopolo = {
+	tip = "增加己方遊戲時間"
+}
+
+_G.pg.base.gametip.cook_game_noshiro = {
+	tip = "上錯甜點也會加1分"
+}
+
+_G.pg.base.gametip.cook_game_pnelope = {
+	tip = "每成功上兩個甜點額外加1分"
 }

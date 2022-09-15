@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "龙宫城·中心区 稍早前",
+			say = "龍宮城·中心區 稍早前",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "掩护{namecode:18}离开后，战斗依然在激烈地进行着。",
+			say = "掩護島風離開後，戰鬥依然在激烈地進行著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 307120,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个{namecode:204}的舰装……明显是航空母舰吧！",
+			say = "那個白龍的艦裝……明顯是航空母艦吧！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			actor = 307120,
 			dir = 1,
-			say = "……同为航空母舰，为什么她的威力能到这么夸张啊！",
+			say = "……同為航空母艦，為什麼她的威力能到這麼誇張啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要勉强，{namecode:208}！敌人不是你单枪匹马就能对付的。",
+			say = "不要勉強，葛城！敵人不是妳單槍匹馬就能對付的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			actor = 301470,
 			dir = 1,
-			say = "那个……非常感谢你，欧根亲王小姐。从战斗开始后就一直在保护我和{namecode:207}……",
+			say = "那個……非常感謝妳，歐根親王小姐。從戰鬥開始後就一直在保護我和山風……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "小事一桩，我可不忍心看到你们这样可爱的女孩子受伤啊。",
+			say = "小事一樁，我可不忍心看到你們這樣可愛的女孩子受傷啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "虽然精疲力尽的我在战斗上已经没什么用处了，不过防御上还是可以再努努力的！",
+			say = "雖然精疲力盡的我在戰鬥上已經沒什麼用處了，不過防禦上還是可以再努努力的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "姑且也算生死攸关的局面，我怎么说也得再加把劲才是。",
+			say = "姑且也算生死攸關的局面，我怎麼說也得再加把勁才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（什么再加把劲……当时在天宇启户祭上你对{namecode:50}可不是这么打的！）",
+			say = "（什麼再加把勁……當時在天宇啟戶祭上妳對能代可不是這麼打的！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（……那个奥丁更是连主炮都没有再发射过一次，这些铁血的人是怎么回事啊，一点紧张感都没有么！）",
+			say = "（……那個奧丁更是連主炮都沒有再發射過一次，這些鐵血的人是怎麼回事啊，一點緊張感都沒有嗎！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 305140,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（等等，这么说作为唯一的战列舰，战斗的火力不是只能靠我了么！）",
+			say = "（等等，這麼說作為唯一的戰列艦，戰鬥的火力不是只能靠我了嗎！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "大家注意防空，不要急于取胜。",
+			say = "大家注意防空，不要急於取勝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "在{namecode:18}成功启动机关之前，尽可能长时间的拖下去！",
+			say = "在島風成功啟動機關之前，盡可能長時間的拖下去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

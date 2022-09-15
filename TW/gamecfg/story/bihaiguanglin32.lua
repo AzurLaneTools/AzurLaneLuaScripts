@@ -10,10 +10,10 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			bgName = "bg_daofeng_6",
-			actorName = "谜之音",
+			actorName = "謎之音",
 			dir = 1,
 			bgmDelay = 1,
-			say = "「这就是最后的问题了」",
+			say = "「這就是最後的問題了」",
 			bgm = "battle-longgong",
 			flashin = {
 				delay = 1,
@@ -35,11 +35,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「提问——」",
+			say = "「提問——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「倘若战争结束，和平降临，作为兵器的舰船将会如何？」",
+			say = "「倘若戰爭結束，和平降臨，作為兵器的艦船將會如何？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，我还从来没想过这个问题呢。",
+			say = "唔，我還從來沒想過這個問題呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果和平到来的话，也许会去开一间道馆之类的？我对于这方面还是很有兴趣的哦~！",
+			say = "如果和平到來的話，也許會去開一間道館之類的？我對於這方面還是很有興趣的哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,11 +99,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「……不是问你个人，而是如果没有战斗了，舰船这一存在将会如何？」",
+			say = "「……不是問你個人，而是如果沒有戰鬥了，艦船這一存在將會如何？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……就算是在战争期间，战斗也不是我们生活的全部啊。",
+			say = "唔……就算是在戰爭期間，戰鬥也不是我們生活的全部啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果不用再继续战斗的话，空出来的时间正好可以去做些别的事…",
+			say = "如果不用再繼續戰鬥的話，空出來的時間正好可以去做些別的事…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是什么会引起困扰的事情么…？",
+			say = "這是什麼會引起困擾的事情麼…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,11 +163,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「……这次真是来了个好目标」",
+			say = "「……這次真是來了個好目標」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +179,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「算了，我的任务完成，接下来是欧根去要去头疼的问题了」",
+			say = "「算了，我的任務完成，接下來是歐根去要去頭疼的問題了」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？谜之音小姐你说什么，欧根亲王阁下要有什么困扰了么？！",
+			say = "哎？謎之音小姐你說什麼，歐根親王閣下要有什麼困擾了麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,11 +211,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「（糟了……）咳、{namecode:18}哟！」",
+			say = "「（糟了……）咳、島風喲！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,11 +243,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「至此，怒涛、烈焰、坚石、生机四秘宝均已献上」",
+			say = "「至此，怒濤、烈焰、堅石、生機四秘寶均已獻上」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,12 +259,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "謎之音",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "「汝之同伴激战正酣，速速返回，向着未来前进吧！」",
+			say = "「汝之同伴激戰正酣，速速返回，向著未來前進吧！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

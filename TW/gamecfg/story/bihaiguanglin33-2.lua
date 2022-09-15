@@ -10,7 +10,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:18}启动第一个机关了！",
+			say = "島風啟動第一個機關了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "原来如此……对敌人来说是数量增加，对我们来说就是损伤恢复啊。",
+			say = "原來如此……對敵人來說是數量增加，對我們來說就是損傷恢復啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "这样持续战斗下去就没问题了，好样的，{namecode:18}！",
+			say = "這樣持續戰鬥下去就沒問題了，好樣的，島風！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 307120,
 			dir = 1,
-			say = "我说{namecode:204}……你用的舰载机绝对是我们重樱的型号吧！",
+			say = "我說白龍……你用的艦載機絕對是我們重櫻的型號吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 307120,
 			dir = 1,
-			say = "服饰也跟我们很像……你为什么要和塞壬一伙阻拦我们？！",
+			say = "服飾也跟我們很像……妳為什麼要和塞壬一夥阻攔我們？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "从刚才开始就不知道你们口中的重樱和塞壬都是什么。",
+			say = "從剛才開始就不知道妳們口中的重櫻和塞壬都是什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "吾自有记忆以来就在此处镇守龙宫城，消灭汝等入侵者是吾存在于此的使命。",
+			say = "吾自有記憶以來就在此處鎮守龍宮城，消滅汝等入侵者是吾存在於此的使命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "汝等看来是活用了龙宫城内的机关啊……哼，仅凭这种程度就想拦住我？",
+			say = "汝等看來是活用了龍宮城內的機關啊……哼，僅憑這種程度就想攔住我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "既然开始恢复，那就让攻击变得更加猛烈好了！接招吧！",
+			say = "既然開始恢復，那就讓攻擊變得更加猛烈好了！接招吧！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
