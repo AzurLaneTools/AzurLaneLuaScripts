@@ -67034,7 +67034,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 15970,
 		type = 1,
 		max_level = 10,
-		desc = "Increases this ship's TRP by $1. Once per battle, when this ship has taken DMG totaling more than 5.0% of her max HP: deploys a shield around this ship that can negate up to $2 of this ship's max HP in DMG; if this shield is destroyed: increases this ship's EVA and DMG dealt by $3 until the battle ends.",
+		desc = "Increases this ship's TRP by $1. Once per battle, when this ship takes DMG totaling more than 5.0% of her max HP from one hit: deploys a shield around this ship that can negate up to $2 of this ship's max HP in DMG; if this shield is destroyed: increases this ship's EVA and DMG dealt by $3 until the battle ends.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -67620,7 +67620,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 16010,
 		type = 2,
 		max_level = 10,
-		desc = "When the battle starts: increases this ship's ASW by $1 and grants this ship a special $2 ASW weapon (DMG is based on the skill's level). Every 15s: performs a sonar scan that renders enemy SSs detected for 8s. When sortied with an Akizuki-class DD: incre",
+		desc = "When the battle starts: increases this ship's ASW by $1 and grants this ship a special $2 ASW weapon (DMG is based on the skill's level). Every 15s: performs a sonar scan that renders enemy SSs detected for 8s. When sortied with an Akizuki-class DD: increases this ship's EVA by $1. Once per battle, when a ship in your Vanguard falls below 30.0% HP as a result of DMG taken: that ship evades all attacks for 2s and gains a shield that can block up to $3 of Wakatsuki's max HP in DMG.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -67906,7 +67906,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 16030,
 		type = 1,
 		max_level = 10,
-		desc = "When this ship fires her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level); if this ship has a Sakura Empire Main Gun equipped, this barrage is improved. This special barrage has 50.0% increased Crit Rate, and the light",
+		desc = "When this ship fires her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level); if this ship has a Sakura Empire Main Gun equipped, this barrage is improved. This special barrage has 50.0% increased Crit Rate, and the lightning bolts from this barrage inflict a special Armor Break ailment to enemies hit, increasing their DMG taken by 5.0% for 8s; if the enemy hit has Heavy Armor, the Armor Break ailment is increased to 10.0% instead.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -68199,7 +68199,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 16050,
 		type = 3,
 		max_level = 10,
-		desc = "When the battle starts, if this ship is NOT your Flagship OR your Airspace Control status is not Air Incapability or Air Denial: reduces this ship's DMG taken by $1 in that battle.\nIf this ship is afloat, when a fleet this ship is NOT in enters a battle",
+		desc = "When the battle starts, if this ship is NOT your Flagship OR your Airspace Control status is not Air Incapability or Air Denial: reduces this ship's DMG taken by $1 in that battle.\nIf this ship is afloat, when a fleet this ship is NOT in enters a battle: fires a $2 supporting barrage 15s and 35s after the battle starts (DMG is based on the skill's level).\n[Non-Exercise Only] While this ship is above 40.0% HP: grants the \"Musashi's Guardianship\" status to all your other Main Fleet ships. Ships with this status: 1) No longer take Ramming DMG; 2) Force Musashi to become Detected as well if they become Detected; 3) Cause Musashi to be prioritized by enemy attacks if they are both valid targets.",
 		system_transform = {
 			[3.0] = 16056
 		},
@@ -68298,7 +68298,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 16060,
 		type = 3,
 		max_level = 10,
-		desc = "",
+		desc = "跨队效果占位用，不显示",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -95600,11 +95600,11 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[902130] = {
 		desc_get = "",
-		name = "Suppressive Counterattack - Aviation",
+		name = "Covering Fire - Aviation",
 		id = 902130,
 		type = 3,
 		max_level = 1,
-		desc = "As long as your Airspace Control status is not Air Denial or Air Incapability, when this ship launches her first airstrike: decreases your Vanguard's DMG taken by 5.0%.",
+		desc = "As long as your Airspace Control status is not Air Denial or Air Incapability, when this ship launches her first airstrike: decreases your Vanguard's DMG taken by 5.0% for 50s.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -98038,7 +98038,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 1110730,
 		type = 1,
 		max_level = 10,
-		desc = "<color=#a2a2a2>(Locked)Increases this ship's torpedo DMG dealt by $1. When this ship fires her Main Guns: 5.0% chance to increase this ship's TRP by $2 for 12s (5s cooldown between activations). When the battle starts: increases this ship's TRP by $3 for 8s; after this buff expires, decreases this ship's DMG taken by $4 until the battle ends.</color>",
+		desc = "<color=#a2a2a2>(Locked) Increases this ship's torpedo DMG dealt by $1. When this ship fires her Main Guns: 5.0% chance to increase this ship's TRP by $2 for 12s (5s cooldown between activations). When the battle starts: increases this ship's TRP by $3 for 8s; after this buff expires, decreases this ship's DMG taken by $4 until the battle ends.</color>",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -98581,7 +98581,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 1110580,
 		type = 2,
 		max_level = 10,
-		desc = "<color=#a2a2a2>(Locked)Every $1s: fires 3 special torpedoes that heal this ship for 20.0% of the DMG dealt and all other ships in your Vanguard for 8.0% of the DMG dealt.</color>",
+		desc = "<color=#a2a2a2>(Locked) Every $1s: fires 3 special torpedoes that heal this ship for 20.0% of the DMG dealt and all other ships in your Vanguard for 8.0% of the DMG dealt.</color>",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -98930,7 +98930,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 1190020,
 		type = 1,
 		max_level = 10,
-		desc = "<color=#a2a2a2>(Locked)Every 20s: $1 chance to increase this ship's FP by $2 for 10s; when this effect activates, performs a special slash attack.</color>",
+		desc = "<color=#a2a2a2>(Locked) Every 20s: $1 chance to increase this ship's FP by $2 for 10s; when this effect activates, performs a special slash attack.</color>",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -99424,11 +99424,11 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[1902130] = {
 		desc_get = "",
-		name = "<color=#a2a2a2>Suppressive Counterattack – Aviation</color>",
+		name = "<color=#a2a2a2>Covering Fire – Aviation</color>",
 		id = 1902130,
 		type = 3,
 		max_level = 1,
-		desc = "<color=#a2a2a2>(Locked) As long as your Airspace Control status is not Air Denial or Air Incapability, when this ship launches her first airstrike: decreases your Vanguard's DMG taken by 5.0%.</color>",
+		desc = "<color=#a2a2a2>(Locked) As long as your Airspace Control status is not Air Denial or Air Incapability, when this ship launches her first airstrike: decreases your Vanguard's DMG taken by 5.0% for 50s.</color>",
 		system_transform = {},
 		world_death_mark = {
 			1

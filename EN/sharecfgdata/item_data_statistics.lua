@@ -15563,7 +15563,7 @@ _G.pg.base.item_data_statistics[30509] = {
 }
 
 _G.pg.base.item_data_statistics[30510] = {
-	display = "Can be opened to receive 1 Academy Festival Icons gear skin of your choosing.",
+	display = "Can be opened to receive 1 Academy Festival gear skin of your choosing.",
 	name = "Selection Gear Skin Box (Academy Festival)",
 	max_num = 0,
 	type = 13,
@@ -169100,7 +169100,7 @@ _G.pg.base.item_data_statistics[59345] = {
 }
 
 _G.pg.base.item_data_statistics[59346] = {
-	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the August 31st) ends.",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the October 12th) ends.",
 	name = "Rental Outfit Voucher",
 	max_num = 0,
 	type = 98,
@@ -169122,7 +169122,7 @@ _G.pg.base.item_data_statistics[59346] = {
 
 _G.pg.base.item_data_statistics[59348] = {
 	display = "Used to exchange for items in \"Headquarters Mobilization Request\" Will be removed after the event ends.",
-	name = "Returnee Points ",
+	name = "Returnee Points",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,

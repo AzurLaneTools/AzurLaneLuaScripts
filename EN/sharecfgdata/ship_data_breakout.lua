@@ -23166,7 +23166,7 @@ _G.pg.base.ship_data_breakout[305101] = {
 
 _G.pg.base.ship_data_breakout[305102] = {
 	use_gold = 4500,
-	breakout_view = "Auxiliary gun base +2/Main gun efficiency +10%",
+	breakout_view = "Secondary gun base +2/Main gun efficiency +10%",
 	use_char_num = 1,
 	use_char = 30510,
 	breakout_id = 305103,

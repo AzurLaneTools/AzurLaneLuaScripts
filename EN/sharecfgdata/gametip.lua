@@ -3421,7 +3421,7 @@ _G.pg.base.gametip.spweapon_tip_upgrade = {
 }
 
 _G.pg.base.gametip.spweapon_tip_attr_modify = {
-	tip = "You won't be able to perform conversion again until you decide whether to keep or replace your old attributes."
+	tip = "Please decide whether to replace the old attributes first. "
 }
 
 _G.pg.base.gametip.spweapon_tip_materal_no_enough = {
@@ -7747,7 +7747,7 @@ _G.pg.base.gametip.ship_remould_warning_203114 = {
 }
 
 _G.pg.base.gametip.ship_remould_warning_203124 = {
-	tip = "<size=35>Completing the retrofit will change this ship's <color=#92fc63>Torpedo gear slot</color> into a <color=#92fc63>Secondary Weapon gear slot</color>.\n<color=#92fc63><material=underline c=#A9F548 event=clickDetail>Details</material></color>\nProceed with retrofit?</size>"
+	tip = "Completing the retrofit will change this ship's <color=#92fc63>Torpedo gear slot</color> into a <color=#92fc63>Secondary Weapon gear slot</color><color=#92fc63>.\n<material=underline c=#92fc63 event=clickDetail>Details</material></color>\nProceed with retrofit?"
 }
 
 _G.pg.base.gametip.ship_remould_warning_205124 = {
@@ -18664,7 +18664,20 @@ _G.pg.base.gametip.coures_tip_exceeded_lv = {
 }
 
 _G.pg.base.gametip.eatgame_tips = {
-	tip = "\nIf you already have Eau de Barbecue or Yuudachi (Retrofit), you will instead receive the Port Eating Contest 1st Place Prize."
+	tip = {
+		{
+			info = [[
+- Event Details -
+Play the Port Eating Contest minigame for a total of 7 days to get Yuudachi's exclusive retrofit item. A new minigame round will become available every day until 9/21.
+
+- How to Play - 
+· When the game starts, a cursor will appear on the game screen, sliding across a colored gauge.
+· Tap the screen to stop the cursor.
+· You'll receive points based on where your cursor stops along the gauge. The green portion rewards the most points, but you'll lose points on the red portions.
+· You'll receive credit for completing a round when the game timer reaches 0, or you manually exit from the game.
+If you already have Eau de Barbecue or Yuudachi (Retrofit), you will instead receive the Port Eating Contest 1st Place Prize.]]
+		}
+	}
 }
 
 _G.pg.base.gametip.breakout_tip_ultimatebonus_gunner = {
@@ -20250,7 +20263,7 @@ _G.pg.base.gametip.dorm_2f_lock = {
 }
 
 _G.pg.base.gametip.word_get_way = {
-	tip = "Acquisition method:"
+	tip = "Acquired from:"
 }
 
 _G.pg.base.gametip.word_get_date = {
@@ -20980,7 +20993,7 @@ _G.pg.base.gametip.five_shujuhuigu = {
 }
 
 _G.pg.base.gametip.five_shujuhuigu1 = {
-	tip = "reached$1"
+	tip = "Reached$1"
 }
 
 _G.pg.base.gametip.littleChaijun_npc = {

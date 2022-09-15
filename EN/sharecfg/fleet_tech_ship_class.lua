@@ -1573,7 +1573,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30508] = {
 		shiptype = 5,
-		name = "Yamato Class ",
+		name = "Yamato Class",
 		nation = 3,
 		id = 30508,
 		t_level_1 = 100,

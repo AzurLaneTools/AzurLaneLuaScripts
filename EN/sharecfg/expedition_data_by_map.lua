@@ -12666,7 +12666,7 @@ pg.expedition_data_by_map = {
 	},
 	[1680001] = {
 		map = 1680001,
-		name = "Violet Tempest, Blooming Lycoris - PT.1|| ||CHAPTER EX||E.X.",
+		name = "Violet Tempest, Blooming Lycoris - PT. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12710,7 +12710,7 @@ pg.expedition_data_by_map = {
 	},
 	[1680002] = {
 		map = 1680002,
-		name = "Violet Tempest, Blooming Lycoris - PT.2|| ||CHAPTER EX||E.X.",
+		name = "Violet Tempest, Blooming Lycoris - PT. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12754,7 +12754,7 @@ pg.expedition_data_by_map = {
 	},
 	[1680011] = {
 		map = 1680011,
-		name = "Violet Tempest, Blooming Lycoris - PT.1|| ||CHAPTER EX||E.X.",
+		name = "Violet Tempest, Blooming Lycoris - PT. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12798,7 +12798,7 @@ pg.expedition_data_by_map = {
 	},
 	[1680012] = {
 		map = 1680012,
-		name = "Violet Tempest, Blooming Lycoris - PT.2|| ||CHAPTER EX||E.X.",
+		name = "Violet Tempest, Blooming Lycoris - PT. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12842,7 +12842,7 @@ pg.expedition_data_by_map = {
 	},
 	[1680025] = {
 		map = 1680025,
-		name = "Violet Tempest, Blooming Lycoris·SP|| ||CHAPTER EX||E.X.",
+		name = "Violet Tempest, Blooming Lycoris - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -12886,7 +12886,7 @@ pg.expedition_data_by_map = {
 	},
 	[1680026] = {
 		map = 1680026,
-		name = "Violet Tempest, Blooming Lycoris·EX|| ||CHAPTER EX||E.X.",
+		name = "Violet Tempest, Blooming Lycoris - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
