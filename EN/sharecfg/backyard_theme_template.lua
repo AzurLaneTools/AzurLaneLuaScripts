@@ -3179,7 +3179,7 @@ pg.backyard_theme_template = {
 		desc = "Simple yet sophisticated, elegant yet restrained.",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "cn2themeicon",
 		deblocking = 1,
 		order = 90,
@@ -3225,7 +3225,7 @@ pg.backyard_theme_template = {
 		desc = "♪ Is this the folk tale? Is this just fantasy? ♪",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "ththemeicon",
 		deblocking = 1,
 		order = 91,
@@ -3375,6 +3375,47 @@ pg.backyard_theme_template = {
 			93120
 		}
 	},
+	[94] = {
+		Cfg_1 = 5,
+		name = "Manjuu Academy Festival",
+		hot = 1,
+		is_view = 1,
+		id = 94,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "Haven't chosen a club to join yet? This festival will help you decide!",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "xythemeicon",
+		deblocking = 1,
+		order = 95,
+		ids = {
+			94001,
+			94002,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94114,
+			94115,
+			94116,
+			94117,
+			94301,
+			94302,
+			94303,
+			94305,
+			94306
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3450,6 +3491,7 @@ pg.backyard_theme_template = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

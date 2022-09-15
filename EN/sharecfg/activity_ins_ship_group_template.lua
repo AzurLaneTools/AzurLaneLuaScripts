@@ -1845,6 +1845,41 @@ pg.activity_ins_ship_group_template = {
 		name = "Bolzano ",
 		sculpture = "boerzhanuo"
 	},
+	[30510] = {
+		ship_group = 30510,
+		name = "Musashi",
+		sculpture = "wuzang"
+	},
+	[30187] = {
+		ship_group = 30187,
+		name = "Wakatsuki",
+		sculpture = "ruoyue"
+	},
+	[30223] = {
+		ship_group = 30223,
+		name = "Sakawa ",
+		sculpture = "jiuyun"
+	},
+	[30310] = {
+		ship_group = 30310,
+		name = "Haguro ",
+		sculpture = "yuhei"
+	},
+	[30104] = {
+		ship_group = 30104,
+		name = "Miyuki ",
+		sculpture = "shenxue"
+	},
+	[30102] = {
+		ship_group = 30102,
+		name = "Shirayuki ",
+		sculpture = "baixue"
+	},
+	[30309] = {
+		ship_group = 30309,
+		name = "Ashigara",
+		sculpture = "zubing"
+	},
 	all = {
 		30701,
 		30702,
@@ -2214,6 +2249,13 @@ pg.activity_ins_ship_group_template = {
 		60202,
 		60109,
 		60108,
-		60305
+		60305,
+		30510,
+		30187,
+		30223,
+		30310,
+		30104,
+		30102,
+		30309
 	}
 }

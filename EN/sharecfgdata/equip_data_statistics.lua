@@ -68920,7 +68920,7 @@ _G.pg.base.equip_data_statistics[34193] = {
 
 _G.pg.base.equip_data_statistics[34200] = {
 	tech = 1,
-	name = "Triple 460mm Mounted Gun",
+	name = "Triple 460mm Main Gun Mount",
 	speciality = "Volley",
 	type = 4,
 	descrip = "No description",
@@ -69074,7 +69074,7 @@ _G.pg.base.equip_data_statistics[34210] = {
 
 _G.pg.base.equip_data_statistics[34220] = {
 	tech = 2,
-	name = "Triple 460mm Mounted Gun",
+	name = "Triple 460mm Main Gun Mount",
 	speciality = "Volley",
 	type = 4,
 	descrip = "No description",
@@ -69227,11 +69227,11 @@ _G.pg.base.equip_data_statistics[34230] = {
 }
 
 _G.pg.base.equip_data_statistics[34240] = {
-	tech = 3,
-	name = "Triple 460mm Mounted Gun",
+	tech = 0,
+	name = "Triple 460mm Main Gun Mount",
 	speciality = "Volley",
 	type = 4,
-	descrip = "No description",
+	descrip = "The 460mm main cannons that saw use on the Yamato-class battleships.",
 	ammo = 1,
 	damage = "72 x 3",
 	nationality = 3,
@@ -69239,7 +69239,7 @@ _G.pg.base.equip_data_statistics[34240] = {
 	id = 34240,
 	value_3 = 0,
 	torpedo_ammo = 0,
-	value_2 = 70,
+	value_2 = 65,
 	icon = "34200",
 	attribute_2 = "cannon",
 	property_rate = {},
@@ -69249,7 +69249,7 @@ _G.pg.base.equip_data_statistics[34240] = {
 	ammo_info = {
 		{
 			2,
-			1511
+			1514
 		}
 	},
 	equip_info = {
@@ -115881,6 +115881,112 @@ _G.pg.base.equip_data_statistics[79932] = {
 	base = 79931,
 	weapon_id = {
 		60872
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79941] = {
+	type = 1,
+	name = "专属弹幕-酒匂I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 79941,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60881
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79942] = {
+	id = 79942,
+	name = "专属弹幕-酒匂II",
+	base = 79941,
+	weapon_id = {
+		60882
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79951] = {
+	type = 1,
+	name = "专属弹幕-若月I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 79951,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60891
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79952] = {
+	id = 79952,
+	name = "专属弹幕-若月II",
+	base = 79951,
+	weapon_id = {
+		60892
 	},
 	hidden_skill_id = {}
 }

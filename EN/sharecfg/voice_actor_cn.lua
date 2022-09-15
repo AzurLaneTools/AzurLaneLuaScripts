@@ -1331,5 +1331,25 @@ pg.voice_actor_CN = {
 	[338] = {
 		code = 338,
 		actor_name = "Ookizaki Saeo"
+	},
+	[339] = {
+		code = 339,
+		actor_name = "Hikaru Iida"
+	},
+	[340] = {
+		code = 340,
+		actor_name = "Aina Suzuki"
+	},
+	[341] = {
+		code = 341,
+		actor_name = "Hana Hishikawa"
+	},
+	[342] = {
+		code = 342,
+		actor_name = "Misaki Watada"
+	},
+	[343] = {
+		code = 343,
+		actor_name = "Mayu Sagara"
 	}
 }

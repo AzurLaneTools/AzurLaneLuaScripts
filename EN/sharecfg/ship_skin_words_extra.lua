@@ -10339,6 +10339,366 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[305100] = {
+		unlock = "",
+		feeling3 = "",
+		feeling5 = "",
+		main = "",
+		mail = "",
+		profile = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		battle = "",
+		id = 305100,
+		feeling1 = "",
+		feeling4 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, I have already arranged your activities for the day. First off..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Relax and bask in the afterglow of victory. Hehe."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Fighting until the bitter end serves no purpose. Withdraw for now, and come back after regrouping your forces."
+			}
+		},
+		home = {
+			{
+				1100,
+				"You're back already? Did I not ask you to inform me beforehand so I can escort you personally...?"
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"Return to my embrace after finishing today's work. What do I mean by \"return,\" you ask? Exactly how it sounds. I wish to pamper... I mean, protect you from those who would take advantage of you in your sleep."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You find some of my colleagues difficult to deal with? Just bring me along next time. I shall teach them that an insult to you is an insult to me as well... Oh, that's not what you meant?|Phew... What a long day. Would you like to soak in the foot bath with me? I believe you've earned yourself a break.|My favorite food? It'd have to be sea bream. Especially freshly-fried sea bream tempura. Truly a wonderful taste not to be missed.|If you ever tire of petty formalities, allow me to handle the socializing for you. As always, I will make sure everything is done to perfection."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"My lap awaits you. Hurry and come enjoy your respite."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The children of the commission fleet have returned. If you are going to greet them, do bring me with you."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"If this sensation is to your liking, you are welcome to dive in face-first. Hehe."
+			}
+		}
+	},
+	[301880] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		feeling1 = "",
+		profile = "",
+		skill = "",
+		login = "",
+		mail = "",
+		touch = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		id = 301880,
+		battle = {
+			{
+				1100,
+				"With your vision, Commander, our victory is assured!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"The more good things I do, the more rewards I'll get from you, right?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"That voice... A friend is calling out to us! We can't abandon someone in their time of need, Commander! Let's go help them right away!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Look, Commander, the little birdies aren't afraid of me anymore! Ehehe, that's because I've been feeding them~|Commander, I still cannot make sense of these documents, but I can certainly run errands for you! Let me deliver these papers for you! ...I probably won't get the place mixed up this time!|Commander! I heard that a good way to develop a strong bond with someone is to spar with them! Want to give it a try? ...Huh? There's more than one way to do that?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander, if you're doing this kind of stuff to other girls... I, I think you should stop that!"
+			}
+		}
+	},
+	[302230] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		feeling1 = "",
+		upgrade = "",
+		feeling4 = "",
+		unlock = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		id = 302230,
+		touch = "",
+		login = {
+			{
+				1100,
+				"Good day, my dearest~♪ You look more energetic than usual today~"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"You're the best, Sakawa. You're amazing, Sakawa. I'm proud of you, Sakawa– What's wrong? Haven't decided what to say yet~?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back! Let's finish reviewing the mission, and then you'll have some Sakura confections waiting for you!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'm calling the shots~!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Alright, alright. Heehee~♡"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Wow, you came to see me again today! Oh, it was just a coincidence? Heehee, what a prankster you are~ You totally knew I'd be waiting right here for you~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Ehehe, you're going to make me blush if you do that while we're still at work... Huh? I haven't been working for quite some time now? I, I totally knew that!|Want me to whip up a light snack for you? Hey, just because I like eating doesn't mean I don't know how to cook~♪|Noshiro is totally head-over-heels in love with you, but she just won't admit it... I don't get her at all. Heehee."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"If we're going to go greet the commission team, how about bringing Noshiro along?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You let missions pile up just so you can spend more time working with me, didn't you~♪"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"And that's all of 'em! See, everything's fine when we take things slow and steady~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Please pay more attention to me... Okay?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Aren't you dying to tell me how much you love me? Ehehe, I'm going to steal those words right from your lips, so you'd better think carefully about how to return my feelings. The longer you spend agonizing over it, the more my love for you deepens~"
+			}
+		}
+	},
+	[303100] = {
+		mail = "",
+		feeling3 = "",
+		feeling5 = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
+		mission_complete = "",
+		unlock = "",
+		feeling2 = "",
+		feeling1 = "",
+		skill = "",
+		battle = "",
+		id = 303100,
+		touch = "",
+		profile = "",
+		headtouch = "",
+		login = {
+			{
+				1100,
+				"*Yaaawn*... Commander, you're always so early. What'll we be starting off with today?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I'm the MVP this time around~! Whew, who would've thought a proper night's sleep would make such a difference?"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I'll be sure to protect you at any cost, Commander...!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Another win under your belt, huh? Nah, I'm not annoyed or anything, it's just... I'd like to prove my mettle on the battlefield instead of housesitting back here."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"What'll you be having me do today? Eh, you don't have anything in mind? You just want me to sleep for once... Is that my mission? Or are you trying to scold me like Myoukou? E-either way, I know it's for my sake, but..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Whew... everything's sparkling clean now. Tidying up the office always lifts my spirits. Same goes for you, right?|Whenever I wake up early, I always end up bumping into Nachi, and the atmosphere always gets all awkward... Commander, you should watch out as well.|It's surprisingly a lot of work being your bodyguard. Not only do I have to watch out for your safety, but also for the other girls who try to... N-never mind what I just said..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commission completed. Now we need to welcome the girls back, right? Yeah, yeah. I know."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You've still got some missions left. Plannin' on staying up late to finish 'em? Alright, but I'll stay here with you 'til you call it a day."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Pfft, hahaha... No need to be nervous. I'm not the angry type like Myoukou."
+			}
+		}
+	},
+	[301040] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		battle = "",
+		id = 301040,
+		feeling1 = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"*sniff* *sniff*... Ahhn... It's the Commander's scent... Commander, welcome back! I, um, I haven't been waiting that long for you, it's fine..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I did it... Finally... Ehehe!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"As long as I can return to the Commander's side..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander! I've been praying and praying for your safe return... *sniffle*... Thank goodness..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"It, it doesn't hurt at all... I feel warm and fuzzy inside when you pat my head..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander! When you go on your next mission, c-can you take me with you? I want to stay with you... I know I'll be able to make myself useful somehow!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I'm sunnier and more positive than before...? Fubuki told me the same thing... Ehehe...|I, I don't mind if you like touching my tail... I can do anything for your sake... *blushes*|The weather looks pretty bad outside... But I'll be fine! Because, you promised to always stay by my side... and to save me even if I get hurt...|Mmgh... Ahh... Hnng?! *pant* *pant*... C-Commander? I wasn't d-d-doing anything! I was just, umm... i-imagining what it was like for you to stroke my tail... s-so I can get ready for the real thing..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Is it okay if... Umm, we hold hands a bit longer...?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I, um... I don't mind... *blushes*"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"My most heartfelt wish...? Well, just getting to spend every day with you is already enough to make me happy... Um, but if I have to make a wish, I'd like to always stay here, a place I can call home, with the person I love..."
+			}
+		}
+	},
 	[404050] = {
 		unlock = "",
 		feeling3 = "",
@@ -10450,6 +10810,88 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"Oh, Commander~ I'm gonna close my eyes for you, 'kay?"
+			}
+		}
+	},
+	[401160] = {
+		feeling4 = "",
+		feeling3 = "",
+		feeling5 = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		feeling1 = "",
+		unlock = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		profile = "",
+		id = 401160,
+		lose = "",
+		login = {
+			{
+				1100,
+				"Yo, Commander! Hehe, didn't get the wrong person this time~ Let's get started with the day's work!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Did you see that, Commander? I'm the one-and-only top shark!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Ugh, took you long enough. There's nothing to do here in the office except that stupid headache-causing paperwork... Next time, bring me along to your sortie! You'd better keep your promise!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'll tear you to shreds!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, you can do the thinkin' with your noggin, and I'll do the thumpin' with my fists! Ehehe, the two of us make a good team!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, these mint candies are out of this world! Here, I'll give you one! Huh? You're not supposed to bite on them?|Commander... Commander! If you ignore me, I'm gonna bite you! ...Hmph. I was just joking around, but that's what you get when you don't pay attention to me. I don't really bite..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ehehe~"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"A mission? Freaking boring... Well, whatever, I don't mind doing it for you, Commander!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"After we're done with missions, it's time for the usual stamping, yeah? Lemme do it!"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"I left the flimsy ol' envelope over there on the desk."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"H-hey, I told you to cut that out!"
 			}
 		}
 	},
@@ -10611,7 +11053,13 @@ pg.ship_skin_words_extra = {
 		601090,
 		601080,
 		603050,
+		305100,
+		301880,
+		302230,
+		303100,
+		301040,
 		404050,
-		403020
+		403020,
+		401160
 	}
 }

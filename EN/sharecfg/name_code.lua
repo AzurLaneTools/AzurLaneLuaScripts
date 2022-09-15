@@ -1115,6 +1115,16 @@ pg.name_code = {
 		name = "Harbin",
 		code = "Harbin"
 	},
+	[225] = {
+		id = 225,
+		name = "Wakatsuki",
+		code = "Wakatsuki"
+	},
+	[226] = {
+		id = 226,
+		name = "Sakawa",
+		code = "Sakawa"
+	},
 	[250] = {
 		id = 250,
 		name = "I-9",
@@ -1184,5 +1194,30 @@ pg.name_code = {
 		id = 285,
 		name = "I-Type",
 		code = "I-Type"
+	},
+	[286] = {
+		id = 286,
+		name = "Mass-Produced Yuugumo Class MK 2",
+		code = "Mass-Produced Yuugumo Class MK 2"
+	},
+	[287] = {
+		id = 287,
+		name = "Mass-Produced Sendai Class MK 2",
+		code = "Mass-Produced Sendai Class MK 2"
+	},
+	[288] = {
+		id = 288,
+		name = "Mass-Produced Mogami Class MK 2",
+		code = "Mass-Produced Mogami Class MK 2"
+	},
+	[289] = {
+		id = 289,
+		name = "Mass-Produced Fusou Class MK 2",
+		code = "Mass-Produced Fusou Class MK 2"
+	},
+	[290] = {
+		id = 290,
+		name = "Mass-Produced Akagi Class MK 2",
+		code = "Mass-Produced Akagi Class MK 2"
 	}
 }

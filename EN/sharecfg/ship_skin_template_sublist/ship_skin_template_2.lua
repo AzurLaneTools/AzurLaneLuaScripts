@@ -1,115 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101431] = {
-		ship_group = 10143,
-		name = "Spring's Lucky Star",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "127",
-		id = 101431,
-		group_index = 1,
-		prefab = "haerxibaoweier_3",
-		painting = "haerxibaoweier_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70313,
-		shop_type_id = 3,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Halsey Powell is making her debut as your lucky star for the Spring Festival! Commander, if you show me a fun time, you'll be blessed with good luck this year!",
-		voice_actor = 218,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.17,
-					0.83,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.16,
-					0.85,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.18,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101440] = {
 		ship_group = 10144,
 		name = "Cooper",
@@ -352,10 +242,10 @@ pg.ship_skin_template_2 = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
+			touch2 = 0.54,
 			main_2 = 1.47,
 			main_1 = 3.05,
 			login = 1.32,
-			touch_special = 0.54,
 			mission = 1.6
 		}
 	},
@@ -378,6 +268,7 @@ pg.ship_skin_template_2 = {
 		air_bomb_skin = "",
 		illustrator = -1,
 		lip_smoothing = 0,
+		l2d_voice_calibrate = "",
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "",
@@ -479,13 +370,6 @@ pg.ship_skin_template_2 = {
 			"mail",
 			"touch_body",
 			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			main_2 = 1.47,
-			main_1 = 3.05,
-			login = 1.32,
-			touch_special = 0.54,
-			mission = 1.6
 		}
 	},
 	[101450] = {
@@ -2921,6 +2805,121 @@ pg.ship_skin_template_2 = {
 							0.3,
 							0.87,
 							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
+	[102079] = {
+		ship_group = 10207,
+		name = "Juneau (Retrofit)",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102079,
+		group_index = 9,
+		prefab = "zhunuo_g",
+		painting = "zhunuo_g",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "After all that painstaking work, I've f-finally managed to complete my retrofit! Even though I'm still afraid of getting hurt, I'll try to be brave for you, Commander!",
+		voice_actor = 62,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.077,
+					0.888,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.948,
+					1.069,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.009,
+					1.232,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.4,
+							0
 						}
 					}
 				}
@@ -9822,6 +9821,123 @@ pg.ship_skin_template_2 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		}
+	},
+	[102292] = {
+		ship_group = 10229,
+		name = "Castle Tales",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "119",
+		id = 102292,
+		group_index = 2,
+		prefab = "boyixi_3",
+		painting = "boyixi_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70612,
+		shop_type_id = 8,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Um, I decided to try on a costume, since it's Halloween and all... Do you think I got that witchy look down...?",
+		voice_actor = 276,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.07,
+					1.048,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.169,
+					1.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.097,
+					1.095,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.618,
+							2.466,
+							0
+						}
+					}
+				}
+			}
 		}
 	}
 }

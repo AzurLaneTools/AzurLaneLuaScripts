@@ -767,6 +767,30 @@ pg.equip_skin_theme_template = {
 			637
 		}
 	},
+	[38] = {
+		id = 38,
+		name = "Academy Festival",
+		ids = {
+			638,
+			639,
+			640,
+			641,
+			642,
+			643,
+			644,
+			645,
+			646,
+			647,
+			648,
+			649,
+			650,
+			651,
+			652,
+			653,
+			654,
+			655
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -840,6 +864,7 @@ pg.equip_skin_theme_template = {
 		35,
 		36,
 		37,
+		38,
 		101,
 		102,
 		199

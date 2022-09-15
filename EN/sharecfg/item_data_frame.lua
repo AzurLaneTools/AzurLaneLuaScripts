@@ -363,10 +363,10 @@ pg.item_data_frame = {
 	[322] = {
 		time_limit_type = 0,
 		name = "Violet Lightning Storm",
-		gain_by = "",
+		gain_by = "Violet Tempest, Blooming Lycoris",
 		id = 322,
 		time_second = 0,
-		desc = "Obtained from an event.",
+		desc = "<color=#ffffff>\"From sea of cloud comes lonely rays, as fleeting as the morning haze. From its scabbard does heavenly sword draw, a violet flash sundering sky, earth, and all.\"</color>\nObtained from the \"Violet Tempest, Blooming Lycoris\" event.",
 		scene = {}
 	},
 	[406] = {

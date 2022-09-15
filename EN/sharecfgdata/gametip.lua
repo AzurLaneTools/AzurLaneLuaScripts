@@ -7725,6 +7725,15 @@ _G.pg.base.gametip.ship_remould_warning_102284 = {
 	tip = "After retrofit, <color=#92fc63>\"Radar Scan\"</color>will be\nupgraded to <color=#92fc63>\"Radar Scan Plus\".</color> "
 }
 
+_G.pg.base.gametip.ship_remould_warning_102304 = {
+	tip = [[
+Completing the retrofit will have the following effects:
+
+<color=#92fc63>Main Gun mount +1</color>.
+The skill <color=#92fc63>Martyr</color> will change into <color=#92fc63>Martyr+</color>.
+This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]]
+}
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "Fully retrofitting this ship will give her <color=#92fc63>Fighters +1 and Torpedo Bombers +1</color>.\nDo you want to proceed with this retrofit? "
 }
@@ -7735,6 +7744,10 @@ _G.pg.base.gametip.ship_remould_warning_201514 = {
 
 _G.pg.base.gametip.ship_remould_warning_203114 = {
 	tip = "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? "
+}
+
+_G.pg.base.gametip.ship_remould_warning_203124 = {
+	tip = "<size=35>Completing the retrofit will change this ship's <color=#92fc63>Torpedo gear slot</color> into a <color=#92fc63>Secondary Weapon gear slot</color>.\n<color=#92fc63><material=underline c=#A9F548 event=clickDetail>Details</material></color>\nProceed with retrofit?</size>"
 }
 
 _G.pg.base.gametip.ship_remould_warning_205124 = {
@@ -10120,7 +10133,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Brünhilde and Z16!"
+	tip = "Build 200 times to receive a guaranteed copy of Musashi! (Up to 4 copies can be claimed this way)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -18651,19 +18664,7 @@ _G.pg.base.gametip.coures_tip_exceeded_lv = {
 }
 
 _G.pg.base.gametip.eatgame_tips = {
-	tip = {
-		{
-			info = [[
-- Event Details -
-Play the Port Eating Contest minigame for a total of 7 days to get Yuudachi's exclusive retrofit item. A new minigame round will become available every day until 10/6.
-
-- How to Play - 
-· When the game starts, a cursor will appear on the game screen, sliding across a colored gauge.
-· Tap the screen to stop the cursor.
-· You'll receive points based on where your cursor stops along the gauge. The green portion rewards the most points, but you'll lose points on the red portions.
-· You'll receive credit for completing a round when the game timer reaches 0, or you manually exit from the game.]]
-		}
-	}
+	tip = "\nIf you already have Eau de Barbecue or Yuudachi (Retrofit), you will instead receive the Port Eating Contest 1st Place Prize."
 }
 
 _G.pg.base.gametip.breakout_tip_ultimatebonus_gunner = {
@@ -20979,7 +20980,7 @@ _G.pg.base.gametip.five_shujuhuigu = {
 }
 
 _G.pg.base.gametip.five_shujuhuigu1 = {
-	tip = "$1"
+	tip = "reached$1"
 }
 
 _G.pg.base.gametip.littleChaijun_npc = {
@@ -21343,4 +21344,80 @@ _G.pg.base.gametip.mail_filter_placeholder = {
 
 _G.pg.base.gametip.recently_sticker_placeholder = {
 	tip = "No recent stickers."
+}
+
+_G.pg.base.gametip.backhill_campusfestival_tip = {
+	tip = {
+		{
+			info = [[
+- Event Overview -
+The Manjuu Campus event is available between <color=#92fc63>September 15th and October 12th</color>.
+A new event mission will unlock every day from the event's start up to <color=#92fc63>September 21st</color>. Complete the missions to gain Campus Upgrade Materials.
+The materials can be used to improve the buildings around the campus, granting your whole fleet special benefits for the duration of the event.
+Each building provides a different benefit, and they can each be upgraded to level 3. The higher the building's level, the better the benefit it provides.
+The following buildings on the Manjuu Campus can be upgraded:
+· Manjuu Schoolhouse
+· Manjuu School Shops
+· Manjuu Stage
+· Manjuu Fortune Teller
+
+The Operation: Patisserie minigame is also available during this event.
+Every day, you will automatically receive 1 Minigame Point. You can store up to 7 points. Finishing the minigame will subtract 1 point, if you have any, and grant you a reward at the end of the minigame.
+The minigame can be played without Minigame Points, but doing so will not grant any rewards.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.mini_cookgametip = {
+	tip = {
+		{
+			info = [[
+- Operation: Patisserie Overview -
+See what the manjuus want to order, then pick out the correct dessert from the left side of the screen by tapping on it.
+Completing orders correctly scores you points. Try to get as high a score as possible before the timer runs out.
+You'll receive a reward at the end of the minigame if you have at least 1 Minigame Point.
+
+- How to Play -
+1. Before the game starts, you must select a Main and Sub shipgirl to bring over the desserts.
+2. Tap a dessert on the table on the left side of the screen to instruct your shipgirls to fetch it.
+3. After a shipgirl has picked up a dessert, tap one of the manjuus at the center of the screen to serve the dessert.
+4. Serving the correct dessert scores 1 point for your team. Serving the wrong dessert subtracts 1 point.
+5. The Sub shipgirl you select serves desserts on her own, just like the CPU team you're playing against (using the table on the right side).
+6. The minigame ends when the timer hits 0. The team with the most points wins.
+
+Every Main and Sub shipgirl has a unique trait. Choose your team wisely!]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cook_game_Albacore = {
+	tip = "Can serve desserts from far away!"
+}
+
+_G.pg.base.gametip.cook_game_august = {
+	tip = "Moves faster than the others!"
+}
+
+_G.pg.base.gametip.cook_game_elbe = {
+	tip = "Can carry 2 desserts at once!"
+}
+
+_G.pg.base.gametip.cook_game_hakuryu = {
+	tip = "Gains speed after serving the right dessert!"
+}
+
+_G.pg.base.gametip.cook_game_howe = {
+	tip = "50% chance for 1 bonus point after serving the right dessert!"
+}
+
+_G.pg.base.gametip.cook_game_marcopolo = {
+	tip = "Gives your team a longer timer!"
+}
+
+_G.pg.base.gametip.cook_game_noshiro = {
+	tip = "Scores 1 point for serving the wrong dessert!"
+}
+
+_G.pg.base.gametip.cook_game_pnelope = {
+	tip = "1 bonus point for every 2 right desserts served!"
 }

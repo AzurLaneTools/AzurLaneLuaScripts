@@ -41,7 +41,7 @@ pg.benefit_buff_template = {
 		name = "EXP Bonus",
 		hide = 0,
 		max_time = 0,
-		desc = "Earn 100% bonus Commander EXP and Ship EXP from Normal stages, Hard stages, Event stages, War Archives stages and daily missions when you are lower than lv. 60.",
+		desc = "Earn 100% bonus Commander EXP and Ship EXP from Normal stages, Hard stages, Event stages, War Archives stages and daily missions when you are lower than lv. 80.",
 		benefit_effect = "100",
 		id = 4,
 		type_priority = 0,
@@ -49,7 +49,7 @@ pg.benefit_buff_template = {
 		benefit_condition = {
 			"lv",
 			"<",
-			60
+			80
 		}
 	},
 	{
@@ -160,9 +160,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				13,
+				19,
 				1
 			}
 		}
@@ -179,9 +179,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				13,
+				19,
 				2
 			}
 		}
@@ -198,9 +198,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				13,
+				19,
 				3
 			}
 		}
@@ -217,9 +217,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				14,
+				20,
 				1
 			}
 		}
@@ -236,9 +236,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				14,
+				20,
 				2
 			}
 		}
@@ -255,9 +255,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				14,
+				20,
 				3
 			}
 		}
@@ -274,9 +274,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				15,
+				21,
 				1
 			}
 		}
@@ -293,9 +293,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				15,
+				21,
 				2
 			}
 		}
@@ -312,9 +312,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				15,
+				21,
 				3
 			}
 		}
@@ -331,9 +331,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				16,
+				22,
 				1
 			}
 		}
@@ -350,9 +350,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				16,
+				22,
 				2
 			}
 		}
@@ -369,9 +369,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				16,
+				22,
 				3
 			}
 		}

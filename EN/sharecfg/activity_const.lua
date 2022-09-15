@@ -854,5 +854,11 @@ pg.activity_const = {
 	},
 	PIXEL_DRAW_ILLUSTRIOUS = {
 		act_id = 4499
+	},
+	MINIGAME_CAKEMAKING = {
+		act_id = 4530
+	},
+	INVITATION_JP_FIFTH = {
+		act_id = 4533
 	}
 }

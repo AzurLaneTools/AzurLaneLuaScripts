@@ -278,6 +278,66 @@ pg.activity_event_building = {
 			1
 		}
 	},
+	{
+		id = 19,
+		name = "Manjuu Schoolhouse",
+		material_id = 59349,
+		desc = "\"Myoukou, how many times do I have to tell you not to run in the hallway...?\" – Upgrade this facility to improve its benefits.",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 20,
+		name = "Manjuu Fortune Teller",
+		material_id = 59349,
+		desc = "\"Hey, stop flipping over the tarot cards without me telling you to!\" – Upgrade this facility to improve its benefits.",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 21,
+		name = "Manjuu Stage",
+		material_id = 59349,
+		desc = "\"Stop it, Cygnet! You can't go to the stalls until AFTER the concert!\" – Upgrade this facility to improve its benefits.",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 22,
+		name = "Manjuu School Shops",
+		material_id = 59349,
+		desc = "\"Thank you for your patronyage. Heh heh heh.\" – Upgrade this facility to improve its benefits.",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
@@ -296,6 +356,10 @@ pg.activity_event_building = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21,
+		22
 	}
 }

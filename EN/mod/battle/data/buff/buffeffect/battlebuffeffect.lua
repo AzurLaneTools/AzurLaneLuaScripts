@@ -17,6 +17,7 @@ function slot2.Ctor(slot0, slot1)
 	slot0._quota = slot0._tempData.arg_list.quota or -1
 	slot0._indexRequire = slot2.index
 	slot0._damageAttrRequire = slot2.damageAttr
+	slot0._damageReasonRequire = slot2.damageReason
 	slot0._countType = slot2.countType
 	slot0._behit = slot2.be_hit_condition
 	slot0._ammoTypeRequire = slot2.ammoType
@@ -65,6 +66,10 @@ function slot2.ConfigHPTrigger(slot0)
 
 	slot0._hpSigned = slot1.hpSigned or -1
 	slot0._hpOutInterval = slot1.hpOutInterval
+	slot0._dHPGreater = slot1.dhpGreater
+	slot0._dhpSmaller = slot1.dhpSmaller
+	slot0._dHPGreaterMaxHP = slot1.dhpGreaterMaxhp
+	slot0._dhpSmallerMaxhp = slot1.dhpSmallerMaxhp
 end
 
 function slot2.ConfigAttrTrigger(slot0)
@@ -133,6 +138,10 @@ function slot2.onBulletHit(slot0, slot1, slot2, slot3)
 	end
 
 	slot0:onTrigger(slot1, slot2, slot3)
+end
+
+function slot2.onTeammateBulletHit(slot0, slot1, slot2, slot3)
+	slot0:onBulletHit(slot1, slot2, slot3)
 end
 
 function slot2.onBeHit(slot0, slot1, slot2, slot3)
@@ -484,7 +493,7 @@ function slot2.onManualBulletCreate(slot0, slot1, slot2, slot3)
 end
 
 function slot2.onTakeDamage(slot0, slot1, slot2, slot3)
-	if slot0:damageAttrRequire(slot3.damageAttr) then
+	if slot0:damageCheck(slot3) then
 		slot0:onTrigger(slot1, slot2, slot3)
 	end
 end
@@ -493,8 +502,20 @@ function slot2.onTakeHealing(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
+function slot2.damageCheck(slot0, slot1)
+	return slot0:damageAttrRequire(slot1.damageAttr) and slot0:damageReasonRequire(slot1.damageReason)
+end
+
 function slot2.damageAttrRequire(slot0, slot1)
 	if not slot0._damageAttrRequire or table.contains(slot0._damageAttrRequire, slot1) then
+		return true
+	else
+		return false
+	end
+end
+
+function slot2.damageReasonRequire(slot0, slot1)
+	if not slot0._damageReasonRequire or table.contains(slot0._damageReasonRequire, slot1) then
 		return true
 	else
 		return false
@@ -527,6 +548,20 @@ function slot2.hpIntervalRequire(slot0, slot1, slot2)
 	return slot3
 end
 
+function slot2.dhpRequire(slot0, slot1, slot2)
+	if slot0._dHPGreater then
+		return slot2 * slot0._dHPGreater > 0 and math.abs(slot0._dHPGreater) < math.abs(slot2)
+	elseif slot0._dHPGreaterMaxHP then
+		return slot2 * slot0._dHPGreaterMaxHP * slot1 > 0 and math.abs(slot3) < math.abs(slot2)
+	elseif slot0._dhpSmaller then
+		return slot2 * slot0._dhpSmaller > 0 and math.abs(slot2) < math.abs(slot0._dhpSmaller)
+	elseif slot0._dhpSmallerMaxhp then
+		return slot2 * slot0._dhpSmallerMaxhp * slot1 > 0 and math.abs(slot2) < math.abs(slot3)
+	else
+		return true
+	end
+end
+
 function slot2.attrIntervalRequire(slot0, slot1)
 	slot2 = true
 
@@ -542,13 +577,13 @@ function slot2.attrIntervalRequire(slot0, slot1)
 end
 
 function slot2.onHPRatioUpdate(slot0, slot1, slot2, slot3)
-	if slot0:hpIntervalRequire(slot1:GetHPRate(), slot3.dHP) then
+	if slot0:hpIntervalRequire(slot1:GetHPRate(), slot3.dHP) and slot0:dhpRequire(slot1:GetMaxHP(), slot5) then
 		slot0:doOnHPRatioUpdate(slot1, slot2, slot3)
 	end
 end
 
 function slot2.onFriendlyHpRatioUpdate(slot0, slot1, slot2, slot3)
-	if slot0:hpIntervalRequire(slot3.unit:GetHPRate(), slot3.dHP) then
+	if slot0:hpIntervalRequire(slot3.unit:GetHPRate(), slot3.dHP) and slot0:dhpRequire(slot4:GetMaxHP(), slot5) then
 		slot0:doOnHPRatioUpdate(slot1, slot2, slot3)
 	end
 end
@@ -636,6 +671,12 @@ function slot2.onRetreat(slot0, slot1, slot2, slot3)
 end
 
 function slot2.onCloakUpdate(slot0, slot1, slot2, slot3)
+	if slot0:cloakStateRequire(slot3.cloakState) then
+		slot0:onTrigger(slot1, slot2, slot3)
+	end
+end
+
+function slot2.onTeammateCloakUpdate(slot0, slot1, slot2, slot3)
 	if slot0:cloakStateRequire(slot3.cloakState) then
 		slot0:onTrigger(slot1, slot2, slot3)
 	end

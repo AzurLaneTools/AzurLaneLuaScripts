@@ -5889,6 +5889,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[30338] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30338",
+		id = 30338,
+		compose_number = 0,
+		target_id = 0
+	},
 	[30401] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -6854,6 +6865,108 @@ pg.item_data_template = {
 			{
 				9,
 				637,
+				1
+			}
+		}
+	},
+	[30510] = {
+		usage = "usage_drop_appointed",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 30510,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			{
+				9,
+				638,
+				1
+			},
+			{
+				9,
+				639,
+				1
+			},
+			{
+				9,
+				640,
+				1
+			},
+			{
+				9,
+				641,
+				1
+			},
+			{
+				9,
+				642,
+				1
+			},
+			{
+				9,
+				643,
+				1
+			},
+			{
+				9,
+				644,
+				1
+			},
+			{
+				9,
+				645,
+				1
+			},
+			{
+				9,
+				646,
+				1
+			},
+			{
+				9,
+				647,
+				1
+			},
+			{
+				9,
+				648,
+				1
+			},
+			{
+				9,
+				649,
+				1
+			},
+			{
+				9,
+				650,
+				1
+			},
+			{
+				9,
+				651,
+				1
+			},
+			{
+				9,
+				652,
+				1
+			},
+			{
+				9,
+				653,
+				1
+			},
+			{
+				9,
+				654,
+				1
+			},
+			{
+				9,
+				655,
 				1
 			}
 		}
@@ -21306,6 +21419,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[59848] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 59848,
+		compose_number = 0,
+		target_id = 0
+	},
 	[59900] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -24286,6 +24410,7 @@ pg.item_data_template = {
 		30335,
 		30336,
 		30337,
+		30338,
 		30401,
 		30402,
 		30403,
@@ -24301,6 +24426,7 @@ pg.item_data_template = {
 		30507,
 		30508,
 		30509,
+		30510,
 		30900,
 		30911,
 		30912,
@@ -25553,6 +25679,7 @@ pg.item_data_template = {
 		59843,
 		59844,
 		59845,
+		59848,
 		59900,
 		59901,
 		59902,

@@ -38,6 +38,12 @@ slot0.UnitType = {
 	SUB_UNIT = 10,
 	CONST_UNIT = 11
 }
+slot0.AircraftUnitType = {
+	slot0.UnitType.AIRCRAFT_UNIT,
+	slot0.UnitType.AIRFIGHTER_UNIT,
+	slot0.UnitType.FUNNEL_UNIT,
+	slot0.UnitType.UAV_UNIT
+}
 slot0.EquipmentType = {
 	MAIN_CANNON = 1,
 	SUB_CANNON = 2,
@@ -238,6 +244,7 @@ slot0.BuffEffectType = {
 	ON_BULLET_COLLIDE = "onBulletCollide",
 	ON_BULLET_HIT_BEFORE = "onBulletHitBefore",
 	ON_BULLET_HIT = "onBulletHit",
+	ON_TEAMMATE_BULLET_HIT = "onTeammateBulletHit",
 	ON_BULLET_KILL = "onBulletKill",
 	ON_BE_HIT = "onBeHit",
 	ON_TAKE_DAMAGE = "onTakeDamage",
@@ -284,7 +291,8 @@ slot0.BuffEffectType = {
 	ON_SUB_UNDETECTED = "onSubUnDetected",
 	ON_ANTI_SUB_HATE_CHAIN = "onAntiSubHateChain",
 	ON_RECORD = "onRecord",
-	ON_CLOAK_UPDATE = "onCloakUpdate"
+	ON_CLOAK_UPDATE = "onCloakUpdate",
+	ON_TEAMMATE_CLOAK_UPDATE = "onTeammateCloakUpdate"
 }
 slot0.FXContainerIndex = {
 	"center",

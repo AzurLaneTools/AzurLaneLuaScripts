@@ -64,6 +64,16 @@ function slot0.onRegister(slot0)
 					LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
 				}
 			}))
+		elseif slot1.type == DROP_TYPE_EQUIPMENT_SKIN then
+			uv0:addSubLayers(Context.New({
+				mediator = EquipmentSkinMediator,
+				viewComponent = EquipmentSkinLayer,
+				data = {
+					skinId = slot1.cfg.id,
+					mode = EquipmentSkinLayer.DISPLAY,
+					weight = LayerWeightConst.TOP_LAYER
+				}
+			}))
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_SINGLE_ITEM,

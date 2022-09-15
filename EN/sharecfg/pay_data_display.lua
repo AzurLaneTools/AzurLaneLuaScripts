@@ -2941,6 +2941,105 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[2011] = {
+		subject = "Skill Book Pack",
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		limit_arg = 4,
+		name = "Skill Book Pack",
+		name_display = "Skill Book Pack",
+		extra_gem = 0,
+		id = 2011,
+		money = 299,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		id_str = "com.yostaren.azurlane.diamond172",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Buy to receive a large amount of Skill Books.",
+		airijp_id = "com.yostaren.azurlane.diamond172",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[100] = {
 		subject = "Nep's Lucky Bag",
 		limit_group = 0,
@@ -6923,6 +7022,7 @@ pg.pay_data_display = {
 		2008,
 		2009,
 		2010,
+		2011,
 		100,
 		101,
 		102,

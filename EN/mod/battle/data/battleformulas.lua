@@ -294,7 +294,7 @@ function slot0.CalculateCrashDamage(slot0, slot1)
 	slot3 = uv0.GetCurrent(slot1, "maxHP")
 	slot10 = math.sqrt(slot2 * slot3) * uv1.CRASH_RATE[2]
 
-	return math.floor(math.floor(math.min(slot2 * uv1.CRASH_RATE[1], slot10) * (1 + uv0.GetCurrent(slot1, "hammerDamageRatio")) * (1 - uv0.GetCurrent(slot0, "hammerDamagePrevent"))) * uv0.GetCurrent(slot0, "repressReduce")), math.floor(math.floor(math.min(slot3 * uv1.CRASH_RATE[1], slot10) * (1 + uv0.GetCurrent(slot0, "hammerDamageRatio")) * (1 - uv0.GetCurrent(slot1, "hammerDamagePrevent"))) * uv0.GetCurrent(slot1, "repressReduce"))
+	return math.floor(math.floor(math.min(slot2 * uv1.CRASH_RATE[1], slot10) * (1 + uv0.GetCurrent(slot1, "hammerDamageRatio")) * (1 - math.min(uv0.GetCurrent(slot0, "hammerDamagePrevent"), uv2.HammerCFG.PreventUpperBound))) * uv0.GetCurrent(slot0, "repressReduce")), math.floor(math.floor(math.min(slot3 * uv1.CRASH_RATE[1], slot10) * (1 + uv0.GetCurrent(slot0, "hammerDamageRatio")) * (1 - math.min(uv0.GetCurrent(slot1, "hammerDamagePrevent"), uv2.HammerCFG.PreventUpperBound))) * uv0.GetCurrent(slot1, "repressReduce"))
 end
 
 function slot0.CalculateFleetDamage(slot0)

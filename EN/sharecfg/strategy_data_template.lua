@@ -1699,6 +1699,96 @@ pg.strategy_data_template = {
 		desc = "Experiment Condition: some enemy fleets may pursue you on the map.",
 		arg = {}
 	},
+	[200052] = {
+		buff_id = 200052,
+		name = "Violet Domain",
+		type = 10,
+		iconSize = "",
+		id = 200052,
+		icon = "200052",
+		desc = "Increases all stats of the shipgirls participating in this game in the event story by 3.0%.",
+		arg = {}
+	},
+	[200054] = {
+		buff_id = 200054,
+		name = "Obscuring Fog",
+		type = 10,
+		iconSize = "",
+		id = 200054,
+		icon = "200054",
+		desc = "Reduces the ACC of all ships other than CVs by 5.0%.",
+		arg = {}
+	},
+	[200057] = {
+		buff_id = 200057,
+		name = "Vision for a New Path",
+		type = 10,
+		iconSize = "",
+		id = 200057,
+		icon = "200057",
+		desc = "Increases the SPD of all ships by 5.0%.",
+		arg = {}
+	},
+	[200060] = {
+		buff_id = 200060,
+		name = "Image of a Solitary Future",
+		type = 10,
+		iconSize = "",
+		id = 200060,
+		icon = "200060",
+		desc = "Increases DMG taken by all ships by 5.0%.",
+		arg = {}
+	},
+	[200063] = {
+		buff_id = 200063,
+		name = "Fair Winds, Fair Fight",
+		type = 10,
+		iconSize = "",
+		id = 200063,
+		icon = "200063",
+		desc = "Increases the FP and EVA of all BBs and BCs by 5.0%, but decreases the FP and EVA of all DDs by 5.0%.",
+		arg = {}
+	},
+	[200067] = {
+		buff_id = 200067,
+		name = "Overbearing Ambitions",
+		type = 10,
+		iconSize = "",
+		id = 200067,
+		icon = "200067",
+		desc = "Increases the Spread Range of all BBs and BCs by 2, and increases their FP by 5.0%.",
+		arg = {}
+	},
+	[200070] = {
+		buff_id = 200070,
+		name = "Thunder's Roar",
+		type = 10,
+		iconSize = "",
+		id = 200070,
+		icon = "200070",
+		desc = "During battle, lightning bolts periodically strike the battlefield, dealing damage proportional to current HP to both allies and enemies within range.",
+		arg = {}
+	},
+	[200074] = {
+		buff_id = 200074,
+		name = "Irreconcilable Promises",
+		type = 10,
+		iconSize = "",
+		id = 200074,
+		icon = "200074",
+		desc = "During battle, all ships periodically restore a small amount of HP.",
+		arg = {}
+	},
+	[200078] = {
+		buff_id = 200078,
+		name = "Guardian's Determination",
+		type = 10,
+		iconSize = "",
+		id = 200078,
+		icon = "200078",
+		desc = "All ships take 3.0% less DMG. At regular intervals, all ships either gain a shield that can block a number of shells, or restore a small amount of HP.",
+		arg = {}
+	},
 	all = {
 		1,
 		2,
@@ -1865,6 +1955,15 @@ pg.strategy_data_template = {
 		200019,
 		200023,
 		200024,
-		200025
+		200025,
+		200052,
+		200054,
+		200057,
+		200060,
+		200063,
+		200067,
+		200070,
+		200074,
+		200078
 	}
 }

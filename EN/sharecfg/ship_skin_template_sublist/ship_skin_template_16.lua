@@ -1,5 +1,122 @@
 pg = pg or {}
 pg.ship_skin_template_16 = {
+	[703011] = {
+		ship_group = 70301,
+		name = "Nostalgic Pilsner",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "136",
+		id = 703011,
+		group_index = 1,
+		prefab = "talin_3",
+		painting = "talin_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70505,
+		shop_type_id = 20,
+		air_bomb_skin = "",
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "What, you've never seen the inside of a shipgirl's room? It's not like you're here on official business, so stop standing around already. Find a place to sit and relax.",
+		voice_actor = 113,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.318,
+					0.999,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.307,
+					1.014,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.3,
+					1.006,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.506,
+							2.453,
+							-0.081
+						}
+					}
+				}
+			}
+		}
+	},
 	[703012] = {
 		ship_group = 70301,
 		name = "As You Say, Ma'am!",
@@ -3973,7 +4090,7 @@ pg.ship_skin_template_16 = {
 			propose = 0,
 			main_1 = 1.67,
 			home = 4,
-			expendition = 0,
+			expedition = 0,
 			mail = 1.42,
 			mission_complete = 0.5,
 			mission = 0,
@@ -9247,7 +9364,7 @@ pg.ship_skin_template_16 = {
 		},
 		l2d_voice_calibrate = {
 			login = 4.1,
-			touch_special = 0.3
+			touch2 = 0.3
 		}
 	},
 	[905013] = {
@@ -9379,10 +9496,10 @@ pg.ship_skin_template_16 = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
+			touch2 = 0.3,
 			login = 7.17,
 			main_1 = 0.3,
 			mail = 0.3,
-			touch_special = 0.3,
 			mission_complete = 0.3
 		},
 		l2d_para_range = {

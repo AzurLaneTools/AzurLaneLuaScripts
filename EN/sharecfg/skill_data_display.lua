@@ -5184,6 +5184,130 @@ pg.skill_data_display = {
 		id = 15961,
 		name = "Pantheon of War"
 	},
+	[15983] = {
+		id = 15983,
+		name = "Adaptive Bladework"
+	},
+	[15984] = {
+		id = 15984,
+		name = "Adaptive Bladework"
+	},
+	[15985] = {
+		id = 15985,
+		name = "Adaptive Bladework"
+	},
+	[16000] = {
+		id = 16000,
+		name = "Swallow's Sword-Dance"
+	},
+	[16010] = {
+		id = 16010,
+		name = "Imperturbable Heart"
+	},
+	[16013] = {
+		id = 16013,
+		name = "Imperturbable Heart"
+	},
+	[16014] = {
+		id = 16014,
+		name = "Imperturbable Heart"
+	},
+	[16015] = {
+		id = 16015,
+		name = "Imperturbable Heart"
+	},
+	[16020] = {
+		id = 16020,
+		name = "Martyr+"
+	},
+	[16021] = {
+		id = 16021,
+		name = "Martyr+"
+	},
+	[16025] = {
+		id = 16025,
+		name = "Martyr+"
+	},
+	[16026] = {
+		id = 16026,
+		name = "Martyr+"
+	},
+	[16030] = {
+		id = 16030,
+		name = "Violet Lightning Storm"
+	},
+	[16031] = {
+		id = 16031,
+		name = "Violet Lightning Storm"
+	},
+	[16032] = {
+		id = 16032,
+		name = "Violet Lightning Storm"
+	},
+	[16033] = {
+		id = 16033,
+		name = "Violet Lightning Storm"
+	},
+	[16034] = {
+		id = 16034,
+		name = "Violet Lightning Storm"
+	},
+	[16040] = {
+		id = 16040,
+		name = "Tempestuous Blade"
+	},
+	[16041] = {
+		id = 16041,
+		name = "Tempestuous Blade"
+	},
+	[16050] = {
+		id = 16050,
+		name = "Musashi's Guardianship"
+	},
+	[16051] = {
+		id = 16051,
+		name = "Musashi's Guardianship"
+	},
+	[16060] = {
+		id = 16060,
+		name = "Musashi's Guardianship"
+	},
+	[16061] = {
+		id = 16061,
+		name = "Musashi's Guardianship"
+	},
+	[16062] = {
+		id = 16062,
+		name = "Musashi's Guardianship"
+	},
+	[16070] = {
+		id = 16070,
+		name = "Plumes of Darkest Night"
+	},
+	[16071] = {
+		id = 16071,
+		name = "Plumes of Darkest Night"
+	},
+	[16072] = {
+		id = 16072,
+		name = "Plumes of Darkest Night"
+	},
+	[16080] = {
+		id = 16080,
+		name = "Follow the Trends"
+	},
+	[16081] = {
+		id = 16081,
+		name = "Follow the Trends"
+	},
+	[16082] = {
+		id = 16082,
+		name = "Follow the Trends"
+	},
+	[16083] = {
+		id = 16083,
+		name = "Follow the Trends"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -8516,6 +8640,42 @@ pg.skill_data_display = {
 		id = 1090010,
 		name = "Fleet Carrier - Glorious"
 	},
+	[1010731] = {
+		id = 1010731,
+		name = "The Demon+"
+	},
+	[1010732] = {
+		id = 1010732,
+		name = "The Demon+"
+	},
+	[1090030] = {
+		id = 1090030,
+		name = "Anti-Air Mode - Montpelier"
+	},
+	[1090031] = {
+		id = 1090031,
+		name = "Anti-Air Mode - Montpelier"
+	},
+	[1090032] = {
+		id = 1090032,
+		name = "Anti-Air Mode - Montpelier"
+	},
+	[1090033] = {
+		id = 1090033,
+		name = "Anti-Air Mode - Montpelier"
+	},
+	[1010340] = {
+		id = 1010340,
+		name = "Armored Carrier+"
+	},
+	[1010580] = {
+		id = 1010580,
+		name = "Vampire's Kiss+"
+	},
+	[1090020] = {
+		id = 1090020,
+		name = "Full Firepower - Karlsruhe"
+	},
 	all = {
 		4,
 		10,
@@ -9813,6 +9973,37 @@ pg.skill_data_display = {
 		15951,
 		15960,
 		15961,
+		15983,
+		15984,
+		15985,
+		16000,
+		16010,
+		16013,
+		16014,
+		16015,
+		16020,
+		16021,
+		16025,
+		16026,
+		16030,
+		16031,
+		16032,
+		16033,
+		16034,
+		16040,
+		16041,
+		16050,
+		16051,
+		16060,
+		16061,
+		16062,
+		16070,
+		16071,
+		16072,
+		16080,
+		16081,
+		16082,
+		16083,
 		18010,
 		18040,
 		18041,
@@ -10645,6 +10836,15 @@ pg.skill_data_display = {
 		200040,
 		1011540,
 		1011541,
-		1090010
+		1090010,
+		1010731,
+		1010732,
+		1090030,
+		1090031,
+		1090032,
+		1090033,
+		1010340,
+		1010580,
+		1090020
 	}
 }

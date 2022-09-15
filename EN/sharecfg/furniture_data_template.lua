@@ -5012,6 +5012,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[234] = {
+		effect = "",
+		name = "Sealed Crimson Tower",
+		gain_by = "Violet Tempest, Blooming Lycoris",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A replica made in the likeness of the sealed tower at the center of Musashi's domain. Nobody knows how it was made, or what materials it is made of, and it gives off an aura just as imposing as the original. Awarded to Commanders who displayed excellence during the \"Violet Tempest, Blooming Lycoris\" event.",
+		tag = 6,
+		icon = "wuzangxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 234,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"wuzangxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -96367,6 +96410,1173 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[94001] = {
+		icon = "dibanxyicon",
+		name = "Academy Festival Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 94,
+		picture = "xy/dibanxy",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Now that's a floor with layers.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 4,
+		comfortable = 4,
+		canputon = 0,
+		id = 94001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94002] = {
+		icon = "qiangbixyicon",
+		name = "Academy Festival Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 94,
+		picture = "xy/qiangbixy",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "You couldn't ask for better indoor weather!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 3,
+		comfortable = 4,
+		canputon = 0,
+		id = 94002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94101] = {
+		effect = "",
+		name = "Tea Club Set",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xy/chayixy",
+		is_get_time_note = 0,
+		themeId = 94,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You've got to love tea ceremonies.",
+		tag = 1,
+		icon = "chayixyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94101,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					38.4,
+					6.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94102] = {
+		effect = "",
+		name = "Cooking Club Set",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/chujuxy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Who's hungry for some stew?",
+		tag = 1,
+		icon = "chujuxyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94102,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94103] = {
+		effect = "",
+		name = "Academy Festival Entrance",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/damenxy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"It's just past the golden arch... No, not the one you're thinking of.\"",
+		tag = 1,
+		icon = "damenxyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 94103,
+		can_rotate = 1,
+		size = {
+			2,
+			7
+		},
+		offset = {
+			0,
+			2.32
+		},
+		canputonGrid = {
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94104] = {
+		effect = "",
+		name = "Haunted House Desk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/guiwujiuxy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Heads up – it's not for the faint of heart.",
+		tag = 1,
+		icon = "guiwujiuxyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94104,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94105] = {
+		effect = "",
+		name = "Academy Festival Bonfire",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/huoduoxy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's lit.",
+		tag = 1,
+		icon = "huoduoxyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94105,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94106] = {
+		effect = "",
+		name = "Noodlemobile",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xy/lamianxy",
+		is_get_time_note = 0,
+		themeId = 94,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Rumors say it's on lease from Colonel Noodle.",
+		tag = 1,
+		icon = "lamianxyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94106,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12.7,
+					-69
+				},
+				{
+					-1,
+					1
+				},
+				"xy/lamianxy_using",
+				0,
+				{
+					{
+						-54,
+						42.8
+					},
+					{
+						214.8,
+						281.9
+					},
+					"xy/miaorenouxy_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94107] = {
+		effect = "",
+		name = "Maid Café Tent",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/nvpukafeixy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What the maids here lack in experience they make up for with charm.",
+		tag = 1,
+		icon = "nvpukafeixyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94107,
+		can_rotate = 1,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94108] = {
+		effect = "",
+		name = "Haunted House Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/paizi1xy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Forget waivers and fine print. It's time to get spooked.",
+		tag = 1,
+		icon = "paizi1xyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94108,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94109] = {
+		effect = "",
+		name = "Band Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/paizi2xy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "School band The Manjuuheims is playing today.",
+		tag = 1,
+		icon = "paizi2xyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94109,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94110] = {
+		effect = "",
+		name = "Fortune Teller Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/paizi3xy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"In your future, I see... you paying 50 Coins as payment for my services.\"",
+		tag = 1,
+		icon = "paizi3xyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94110,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94111] = {
+		effect = "",
+		name = "Café Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/paizi4xy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Free refills!",
+		tag = 1,
+		icon = "paizi4xyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94112] = {
+		effect = "",
+		name = "Archery Club Tent",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/pengzixy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Some say practicing archery made them better at aiming cannons too.",
+		tag = 1,
+		icon = "pengzixyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94112,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94113] = {
+		effect = "",
+		name = "Dessert Booth",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/tianpindianxy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You name the dessert, they have it.",
+		tag = 1,
+		icon = "tianpindianxyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94113,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94114] = {
+		effect = "",
+		name = "Academy Festival Cherry Blossom Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/yinghuashuxy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Even the trees are in the festival mood.",
+		tag = 1,
+		icon = "yinghuashuxyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94114,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94115] = {
+		effect = "",
+		name = "Fortune Teller Tent",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xy/zhanbushixy",
+		is_get_time_note = 0,
+		themeId = 94,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Look no further if you want to know how good your RNG will be.",
+		tag = 1,
+		icon = "zhanbushixyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94115,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-97.5,
+					-117.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94116] = {
+		effect = "",
+		name = "Giant Takoyaki Bowl",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xy/zhangyuwanzixy",
+		is_get_time_note = 0,
+		themeId = 94,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Edible? Sadly not. Comfy? Absolutely.",
+		tag = 1,
+		icon = "zhangyuwanzixyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94116,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.1,
+					39.8
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94117] = {
+		effect = "",
+		name = "Academy Festival Flag",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/lipaixy",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Designed by the Festival Committee.",
+		tag = 1,
+		icon = "lipaixyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94117,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94119] = {
+		effect = "",
+		name = "Meowfficer Plushie",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"It's sooo cute! Can we keep it?\"",
+		themeId = 94,
+		icon = "miaorenouxyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94119,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"miaorenouxyB",
+				"normal"
+			},
+			{
+				"miaorenouxyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					13.1,
+					92.3
+				},
+				{
+					298.3,
+					241.1
+				},
+				"xy/miaorenouxy_mask"
+			},
+			{
+				-29,
+				-102
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[94120] = {
+		effect = "",
+		name = "Academy Festival Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "♪ Please don't say you are lazy ♪",
+		themeId = 94,
+		icon = "wutaixyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 94120,
+		can_rotate = 1,
+		size = {
+			7,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaixyB",
+				"normal"
+			},
+			{
+				"wutaixyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[94301] = {
+		effect = "",
+		name = "Festival Buntings",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/chuanqi1xy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Colorful, festive, and cheap to boot.",
+		tag = 5,
+		icon = "chuanqi1xyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 94301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94302] = {
+		effect = "",
+		name = "Triangle Bunting",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/chuanqi2xy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Colorful, festive, and cheap to boot.",
+		tag = 5,
+		icon = "chuanqi2xyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 94302,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94303] = {
+		effect = "",
+		name = "Oval Bunting",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/chuanqi3xy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Colorful, festive, and cheap to boot.",
+		tag = 5,
+		icon = "chuanqi3xyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 94303,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94304] = {
+		effect = "",
+		name = "Manjuu Banners",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/tiaofu1xy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Drawn in the style of old Sakura Empire art.",
+		tag = 5,
+		icon = "tiaofu1xyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 94304,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94305] = {
+		effect = "",
+		name = "Academy Festival Banners",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/tiaofu2xy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Drawn in the style of old Sakura Empire art.",
+		tag = 5,
+		icon = "tiaofu2xyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		id = 94305,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94306] = {
+		effect = "",
+		name = "Haunted House Entryway",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 94,
+		is_get_time_note = 0,
+		picture = "xy/guiwuxy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't worry, the monsters are all (un)paid actors.",
+		tag = 5,
+		icon = "guiwuxyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		id = 94306,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -96474,6 +97684,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			234,
 			100002,
 			100003,
 			100004,
@@ -96629,6 +97840,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			234,
 			100002,
 			100003,
 			100004,
@@ -100903,6 +102115,62 @@ pg.furniture_data_template = {
 			93118,
 			93119,
 			93120
+		},
+		[94] = {
+			94001,
+			94002,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117,
+			94119,
+			94120,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306,
+			94001,
+			94002,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117,
+			94119,
+			94120,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306
 		}
 	},
 	get_id_list_by_tag = {
@@ -102291,7 +103559,24 @@ pg.furniture_data_template = {
 			93117,
 			93118,
 			93119,
-			93120
+			93120,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117
 		},
 		{
 			1108,
@@ -102539,6 +103824,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			234,
 			100002,
 			100003,
 			100004,
@@ -102699,7 +103985,9 @@ pg.furniture_data_template = {
 			89126,
 			90104,
 			90117,
-			91129
+			91129,
+			94119,
+			94120
 		},
 		[4] = {
 			1001,
@@ -102774,7 +104062,8 @@ pg.furniture_data_template = {
 			90001,
 			91001,
 			92001,
-			93001
+			93001,
+			94001
 		},
 		[3] = {
 			1002,
@@ -102850,7 +104139,8 @@ pg.furniture_data_template = {
 			90002,
 			91002,
 			92002,
-			93002
+			93002,
+			94002
 		},
 		[5] = {
 			1301,
@@ -103111,7 +104401,13 @@ pg.furniture_data_template = {
 			92301,
 			92306,
 			92307,
-			92308
+			92308,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306
 		}
 	},
 	get_id_list_by_type = {
@@ -103189,7 +104485,8 @@ pg.furniture_data_template = {
 			90002,
 			91002,
 			92002,
-			93002
+			93002,
+			94002
 		},
 		[7] = {
 			1,
@@ -103281,6 +104578,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			234,
 			100002,
 			100004,
 			100005,
@@ -104674,7 +105972,24 @@ pg.furniture_data_template = {
 			93115,
 			93116,
 			93118,
-			93120
+			93120,
+			94101,
+			94102,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117,
+			94120
 		},
 		[11] = {
 			131,
@@ -104707,7 +106022,8 @@ pg.furniture_data_template = {
 			84185,
 			84186,
 			90104,
-			90117
+			90117,
+			94119
 		},
 		[14] = {
 			214,
@@ -104795,7 +106111,8 @@ pg.furniture_data_template = {
 			90001,
 			91001,
 			92001,
-			93001
+			93001,
+			94001
 		},
 		[5] = {
 			1101,
@@ -105317,7 +106634,13 @@ pg.furniture_data_template = {
 			92301,
 			92306,
 			92307,
-			92308
+			92308,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306
 		},
 		[8] = {
 			17121
@@ -105327,7 +106650,8 @@ pg.furniture_data_template = {
 			37108,
 			51107,
 			52105,
-			62112
+			62112,
+			94103
 		},
 		[10] = {
 			38301,
@@ -105445,6 +106769,7 @@ pg.furniture_data_template = {
 		225,
 		226,
 		232,
+		234,
 		100002,
 		100003,
 		100004,
@@ -107530,6 +108855,33 @@ pg.furniture_data_template = {
 		93117,
 		93118,
 		93119,
-		93120
+		93120,
+		94001,
+		94002,
+		94101,
+		94102,
+		94103,
+		94104,
+		94105,
+		94106,
+		94107,
+		94108,
+		94109,
+		94110,
+		94111,
+		94112,
+		94113,
+		94114,
+		94115,
+		94116,
+		94117,
+		94119,
+		94120,
+		94301,
+		94302,
+		94303,
+		94304,
+		94305,
+		94306
 	}
 }
