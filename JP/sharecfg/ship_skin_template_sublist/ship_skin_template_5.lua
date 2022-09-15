@@ -1,5 +1,112 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
+	[201089] = {
+		ship_group = 20108,
+		name = "コメット改",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201089,
+		group_index = 9,
+		prefab = "huixing_g",
+		painting = "huixing_g",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9997,
+		illustrator = 17,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "うちは……わたし、ちょっとアイドルっぽくなりました？うん！新人アイドルとして、う……わたし、もっともっと頑張ります！",
+		voice_actor = 53,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.12,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.11,
+					0.16,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.12,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.31,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201090] = {
 		ship_group = 20109,
 		name = "クレセント",
@@ -3832,18 +3939,7 @@ pg.ship_skin_template_5 = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			login = 1.43,
-			home = 1.43,
-			main_1 = 1.27,
-			propose = 3.77,
-			expedition = 1.96,
-			main_2 = 1.27,
-			mission_complete = 1.96,
-			mission = 1.96,
-			touch2 = 1.47,
-			main_3 = 1.5,
-			mail = 1.96,
-			touch1 = 1.6
+			login = 3.4
 		}
 	},
 	[201234] = {
@@ -8798,7 +8894,7 @@ pg.ship_skin_template_5 = {
 			login = 1.43,
 			home = 1.43,
 			main_1 = 1.27,
-			propose = 3.77,
+			propose = 1.27,
 			expedition = 1.96,
 			main_2 = 1.27,
 			mission_complete = 1.96,
@@ -9860,122 +9956,6 @@ pg.ship_skin_template_5 = {
 						{
 							-0.44,
 							2.32,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202151] = {
-		ship_group = 20215,
-		name = "春の語り",
-		bullet_skin_secondary = "",
-		hand_id = 9,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "102",
-		id = 202151,
-		group_index = 1,
-		prefab = "ouruola_2",
-		painting = "ouruola_2",
-		shop_id = 70043,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "この日のために結構準備しましたわ。指揮官さん、私の「評書」（ひょうしょ）、お聞きになりますか？",
-		voice_actor = 90,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.112,
-					0.896,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.103,
-					0.869,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.168,
-					0.071,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.077,
-					0.825,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.43,
 							0
 						}
 					}

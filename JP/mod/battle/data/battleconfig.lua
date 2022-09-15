@@ -62,6 +62,9 @@ slot0.TorpedoCFG = {
 slot0.AirAssistCFG = {
 	GCD = 0.5
 }
+slot0.HammerCFG = {
+	PreventUpperBound = 0.8
+}
 slot0.BulletHeight = 1
 slot0.HeightOffsetRate = 1.5
 slot0.CharacterFeetHight = -0.5

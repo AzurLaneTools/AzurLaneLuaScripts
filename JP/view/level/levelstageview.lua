@@ -1678,7 +1678,15 @@ slot5 = {
 	[ChapterConst.StatusMissile1] = "MissileBar",
 	[ChapterConst.StatusMissileInit] = "MissileWarningBar",
 	[ChapterConst.StatusMissile1B] = "MissileBar",
-	[ChapterConst.StatusMissileInitB] = "MissileWarningBar"
+	[ChapterConst.StatusMissileInitB] = "MissileWarningBar",
+	[ChapterConst.StatusMusashiGame1] = "MusashiGameBar_1",
+	[ChapterConst.StatusMusashiGame2] = "MusashiGameBar_2",
+	[ChapterConst.StatusMusashiGame3] = "MusashiGameBar_3",
+	[ChapterConst.StatusMusashiGame4] = "MusashiGameBar_4",
+	[ChapterConst.StatusMusashiGame5] = "MusashiGameBar_5",
+	[ChapterConst.StatusMusashiGame6] = "MusashiGameBar_6",
+	[ChapterConst.StatusMusashiGame7] = "MusashiGameBar_7",
+	[ChapterConst.StatusMusashiGame8] = "MusashiGameBar_8"
 }
 
 function slot0.PopBar(slot0)

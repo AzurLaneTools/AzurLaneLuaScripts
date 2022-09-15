@@ -313,6 +313,14 @@ slot0.StatusMaoxiv3 = 38
 slot0.StatusGonghai = 39
 slot0.StatusGonghai = 40
 slot0.StatusGonghai = 41
+slot0.StatusMusashiGame1 = 42
+slot0.StatusMusashiGame2 = 43
+slot0.StatusMusashiGame3 = 44
+slot0.StatusMusashiGame4 = 45
+slot0.StatusMusashiGame5 = 46
+slot0.StatusMusashiGame6 = 47
+slot0.StatusMusashiGame7 = 48
+slot0.StatusMusashiGame8 = 49
 slot0.StatusDefaultList = {
 	0
 }

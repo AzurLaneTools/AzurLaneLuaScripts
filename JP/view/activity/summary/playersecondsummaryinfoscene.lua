@@ -65,7 +65,13 @@ function slot0.initSummaryInfo(slot0)
 	slot1(slot0.pageContainer:Find("page6"), SecondSummaryPage6, slot0.summaryInfoVO)
 	setActive(slot0.pageContainer:Find("page4"), false)
 
-	for slot7 = 1, math.floor((#slot0.summaryInfoVO.medalList - 1) / SecondSummaryPage4.PerPageCount) + 1 do
+	slot3 = 0
+
+	if #slot0.summaryInfoVO.medalList > 0 then
+		slot3 = math.floor((#slot0.summaryInfoVO.medalList - 1) / SecondSummaryPage4.PerPageCount) + 1
+	end
+
+	for slot7 = 1, slot3 do
 		slot1(cloneTplTo(slot2, slot0.pageContainer, "page4_1_" .. slot7), SecondSummaryPage4, setmetatable({
 			pageType = SecondSummaryPage4.PageTypeFurniture,
 			samePage = slot7,
@@ -75,7 +81,13 @@ function slot0.initSummaryInfo(slot0)
 		}))
 	end
 
-	for slot7 = 1, math.floor((#slot0.summaryInfoVO.iconFrameList - 1) / SecondSummaryPage4.PerPageCount) + 1 do
+	slot3 = 0
+
+	if #slot0.summaryInfoVO.iconFrameList > 0 then
+		slot3 = math.floor((#slot0.summaryInfoVO.iconFrameList - 1) / SecondSummaryPage4.PerPageCount) + 1
+	end
+
+	for slot7 = 1, slot3 do
 		slot1(cloneTplTo(slot2, slot0.pageContainer, "page4_2_" .. slot7), SecondSummaryPage4, setmetatable({
 			pageType = SecondSummaryPage4.PageTypeIconFrame,
 			samePage = slot7,

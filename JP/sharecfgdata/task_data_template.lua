@@ -180168,6 +180168,2748 @@ _G.pg.base.task_data_template[17912] = {
 	}
 }
 
+_G.pg.base.task_data_template[17913] = {
+	name = "『武藏活动』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 98019,
+	type = 6,
+	desc = "装備外装箱(学園祭)を20個開ける",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30338",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17913,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30510,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17914] = {
+	name = "『武藏活动』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98059,
+	type = 6,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17914,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			278,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17915] = {
+	name = "『武藏活动』-日常建造",
+	guild_coin_award = 0,
+	award = 98077,
+	type = 36,
+	desc = "3回建造する",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17915,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59345,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17916] = {
+	name = "『武藏活动』-日常出击",
+	guild_coin_award = 0,
+	award = 98078,
+	type = 36,
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17916,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59345,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17917] = {
+	name = "『武藏活动』-日常困难本",
+	guild_coin_award = 0,
+	award = 98079,
+	type = 36,
+	desc = "通常海域ハードを1回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17917,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59345,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17918] = {
+	name = "『武藏活动』通关A1/C1",
+	guild_coin_award = 0,
+	award = 98080,
+	type = 6,
+	desc = "イベントステージA1かC1をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17919",
+	auto_commit = 0,
+	story_id = "",
+	id = 17918,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680001,
+		1680021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59345,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4520
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17919] = {
+	name = "『武藏活动』通关A2/C2",
+	guild_coin_award = 0,
+	award = 98081,
+	type = 6,
+	desc = "イベントステージA2かC2をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17920",
+	auto_commit = 0,
+	story_id = "",
+	id = 17919,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680002,
+		1680022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59345,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4520
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17920] = {
+	name = "『武藏活动』通关A3/C3",
+	guild_coin_award = 0,
+	award = 98082,
+	type = 6,
+	desc = "イベントステージA3かC3をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17921",
+	auto_commit = 0,
+	story_id = "",
+	id = 17920,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680003,
+		1680023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59345,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4520
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17921] = {
+	name = "『武藏活动』通关B1/D1",
+	guild_coin_award = 0,
+	award = 98083,
+	type = 6,
+	desc = "イベントステージB1かD1をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17922",
+	auto_commit = 0,
+	story_id = "",
+	id = 17921,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680004,
+		1680024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59345,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4521
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17922] = {
+	name = "『武藏活动』通关B2/D2",
+	guild_coin_award = 0,
+	award = 98084,
+	type = 6,
+	desc = "イベントステージB2かD2をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17923",
+	auto_commit = 0,
+	story_id = "",
+	id = 17922,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680005,
+		1680025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59345,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4521
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17923] = {
+	name = "『武藏活动』通关B3/D3",
+	guild_coin_award = 0,
+	award = 98085,
+	type = 6,
+	desc = "イベントステージB3かD3をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17924",
+	auto_commit = 0,
+	story_id = "",
+	id = 17923,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680006,
+		1680026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59345,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4521
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17924] = {
+	name = "『武藏活动』通关SP",
+	guild_coin_award = 0,
+	award = 98086,
+	type = 6,
+	desc = "イベントステージSPをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1680041",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17924,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1680025,
+			chapterId = 1680041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17925] = {
+	name = "『武藏活动』通关EX",
+	guild_coin_award = 0,
+	award = 98087,
+	type = 6,
+	desc = "EXステージをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1680051",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17925,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1680026,
+			chapterId = 1680051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17926] = {
+	name = "『武藏活动』通关D3",
+	guild_coin_award = 0,
+	award = 98088,
+	type = 6,
+	desc = "イベントステージD3をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1680026",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17926,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			234,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1680012,
+			chapterId = 1680026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17927] = {
+	name = "『武藏活动』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 98089,
+	type = 6,
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17928",
+	auto_commit = 0,
+	story_id = "",
+	id = 17927,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680001,
+		1680021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4520
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17928] = {
+	name = "『武藏活动』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 98090,
+	type = 6,
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17929",
+	auto_commit = 0,
+	story_id = "",
+	id = 17928,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680002,
+		1680022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4520
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17929] = {
+	name = "『武藏活动』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 98091,
+	type = 6,
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17930",
+	auto_commit = 0,
+	story_id = "",
+	id = 17929,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680003,
+		1680023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4520
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17930] = {
+	name = "『武藏活动』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 98092,
+	type = 6,
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17931",
+	auto_commit = 0,
+	story_id = "",
+	id = 17930,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680004,
+		1680024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4521
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17931] = {
+	name = "『武藏活动』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 98093,
+	type = 6,
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17932",
+	auto_commit = 0,
+	story_id = "",
+	id = 17931,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680005,
+		1680025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4521
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17932] = {
+	name = "『武藏活动』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 98094,
+	type = 6,
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17932,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1680006,
+		1680026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4521
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17933] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98153,
+	type = 26,
+	desc = "艦隊を出撃させ、25回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17933,
+	target_num = 25,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17934] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98154,
+	type = 26,
+	desc = "戦術教室で戦術訓練を6回遂行せよ",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17934,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17935] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98155,
+	type = 26,
+	desc = "艦隊を出撃させ、敵中枢艦隊を5回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17935,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17936] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98156,
+	type = 26,
+	desc = "演習を10回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17936,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17937] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98157,
+	type = 26,
+	desc = "敵艦を250隻撃沈せよ！",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17937,
+	target_num = 250,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17938] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98158,
+	type = 26,
+	desc = "艦隊を出撃させ、35回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17938,
+	target_num = 35,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17939] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98159,
+	type = 26,
+	desc = "軍事委託を10回遂行する",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17939,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17940] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98160,
+	type = 26,
+	desc = "艦隊を出撃させ、敵中枢艦隊を8回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17940,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17941] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98161,
+	type = 26,
+	desc = "「強化」を20回行う",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17941,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17942] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98162,
+	type = 26,
+	desc = "敵艦を350隻撃沈せよ！",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17942,
+	target_num = 350,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17943] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98163,
+	type = 26,
+	desc = "艦隊を出撃させ、45回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17943,
+	target_num = 45,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17944] = {
+	name = "召集者任务可获得PT：35",
+	guild_coin_award = 0,
+	award = 98164,
+	type = 26,
+	desc = "デイリーチャレンジを3回クリアする",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17944,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			35
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17945] = {
+	name = "召集者任务可获得PT：40",
+	guild_coin_award = 0,
+	award = 98165,
+	type = 26,
+	desc = "艦隊を出撃させ、敵中枢艦隊を10回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17945,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			40
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17946] = {
+	name = "召集者任务可获得PT：40",
+	guild_coin_award = 0,
+	award = 98166,
+	type = 26,
+	desc = "敵艦を500隻撃沈せよ！",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17946,
+	target_num = 500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59320,
+			40
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17947] = {
+	name = "現役指揮官入手Pt：30",
+	guild_coin_award = 0,
+	award = 98095,
+	type = 26,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17947,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			14,
+			301,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17948] = {
+	name = "現役指揮官入手Pt：30",
+	guild_coin_award = 0,
+	award = 98096,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17948,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30305,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17949] = {
+	name = "現役指揮官入手Pt：30",
+	guild_coin_award = 0,
+	award = 98097,
+	type = 26,
+	desc = "建造を1回行う",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17949,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42040,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17950] = {
+	name = "現役指揮官入手Pt：30",
+	guild_coin_award = 0,
+	award = 98098,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17950,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17951] = {
+	name = "現役指揮官入手Pt：25",
+	guild_coin_award = 0,
+	award = 98099,
+	type = 26,
+	desc = "寮舎で食糧を5回補充する",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17951,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50005,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17952] = {
+	name = "現役指揮官入手Pt：25",
+	guild_coin_award = 0,
+	award = 98100,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17952,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30310,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17953] = {
+	name = "現役指揮官入手Pt：25",
+	guild_coin_award = 0,
+	award = 98101,
+	type = 26,
+	desc = "デイリーチャレンジを3回クリアする",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17953,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17954] = {
+	name = "現役指揮官入手Pt：25",
+	guild_coin_award = 0,
+	award = 98102,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17954,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17955] = {
+	name = "現役指揮官入手Pt：20",
+	guild_coin_award = 0,
+	award = 98103,
+	type = 26,
+	desc = "軍事委託を3回行う",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17955,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15003,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17956] = {
+	name = "現役指揮官入手Pt：20",
+	guild_coin_award = 0,
+	award = 98104,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17956,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			15,
+			301,
+			1
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17957] = {
+	name = "現役指揮官入手Pt：20",
+	guild_coin_award = 0,
+	award = 98105,
+	type = 26,
+	desc = "艦を5回「強化」せよ！",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17957,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17958] = {
+	name = "現役指揮官入手Pt：20",
+	guild_coin_award = 0,
+	award = 98106,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17958,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17959] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 98107,
+	type = 26,
+	desc = "演習を2回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17959,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17960] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 98108,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17960,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30309,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17961] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 98109,
+	type = 26,
+	desc = "建造を1回行う",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17961,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42040,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17962] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 98110,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17962,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17963] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 98111,
+	type = 26,
+	desc = "寮舎で食糧を5回補充する",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17963,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50006,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17964] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 98112,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17964,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17965] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 98113,
+	type = 26,
+	desc = "軍事委託を3回行う",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17965,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15003,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17966] = {
+	name = "現役指揮官入手Pt：15",
+	guild_coin_award = 0,
+	award = 98114,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17966,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42040,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17967] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 98115,
+	type = 26,
+	desc = "デイリーチャレンジを3回クリアする",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17967,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17968] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 98116,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17968,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17969] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 98117,
+	type = 26,
+	desc = "艦を5回「強化」せよ！",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17969,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17970] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 98118,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17970,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17971] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 98119,
+	type = 26,
+	desc = "演習を2回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17971,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42040,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17972] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 98120,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17972,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17973] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 98121,
+	type = 26,
+	desc = "建造を1回行う",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17973,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17974] = {
+	name = "現役指揮官入手Pt：10",
+	guild_coin_award = 0,
+	award = 98122,
+	type = 26,
+	desc = "ハードステージを3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "10101",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17974,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30307,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17975] = {
+	name = "日服五周年后山活动1",
+	guild_coin_award = 0,
+	award = 98167,
+	type = 26,
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17975,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			5
+		},
+		{
+			8,
+			59349,
+			15
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17976] = {
+	name = "日服五周年后山活动2",
+	guild_coin_award = 0,
+	award = 98168,
+	type = 26,
+	desc = "戦術教室で戦術訓練を2回行う",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17976,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		},
+		{
+			8,
+			59349,
+			15
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17977] = {
+	name = "日服五周年后山活动3",
+	guild_coin_award = 0,
+	award = 98169,
+	type = 26,
+	desc = "デイリーチャレンジを3回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17977,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50005,
+			3
+		},
+		{
+			8,
+			59349,
+			15
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17978] = {
+	name = "日服五周年后山活动4",
+	guild_coin_award = 0,
+	award = 98170,
+	type = 26,
+	desc = "任意の敵艦を20隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17978,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54051,
+			2
+		},
+		{
+			8,
+			59349,
+			15
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17979] = {
+	name = "日服五周年后山活动5",
+	guild_coin_award = 0,
+	award = 98171,
+	type = 26,
+	desc = "艦を2隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17979,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54003,
+			2
+		},
+		{
+			8,
+			59349,
+			15
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17980] = {
+	name = "日服五周年后山活动6",
+	guild_coin_award = 0,
+	award = 98172,
+	type = 26,
+	desc = "軍事委託を2回行う",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17980,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54024,
+			2
+		},
+		{
+			8,
+			59349,
+			15
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17981] = {
+	name = "日服五周年后山活动7",
+	guild_coin_award = 0,
+	award = 98173,
+	type = 26,
+	desc = "装備強化を2回行う",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17981,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50006,
+			3
+		},
+		{
+			8,
+			59349,
+			10
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "戦闘勝利-日常",
 	guild_coin_award = 0,
@@ -216410,6 +219152,5588 @@ _G.pg.base.task_data_template[52032] = {
 	added_tip = 0,
 	open_need = {},
 	award_display = {}
+}
+
+_G.pg.base.task_data_template[55001] = {
+	name = "【2022年4月新服狂欢】【每日】任务1",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 36,
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55001,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55002] = {
+	name = "【2022年4月新服狂欢】【每日】任务2",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 36,
+	desc = "艦を1隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55002,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55003] = {
+	name = "【2022年4月新服狂欢】【每日】任务3",
+	guild_coin_award = 0,
+	award = 8981,
+	type = 36,
+	desc = "艦隊を出撃させ、デイリーチャレンジを1回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55003,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55004] = {
+	name = "【2022年4月新服狂欢】【每日】任务4",
+	guild_coin_award = 0,
+	award = 8981,
+	type = 36,
+	desc = "任意のハード海域を1回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55004,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55005] = {
+	name = "【2022年4月新服狂欢】【每日】任务5",
+	guild_coin_award = 0,
+	award = 8981,
+	type = 36,
+	desc = "演習を1回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55005,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55006] = {
+	name = "【2022年4月新服狂欢】【每日】任务6",
+	guild_coin_award = 0,
+	award = 8981,
+	type = 36,
+	desc = "軍事委託を1回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55006,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55007] = {
+	name = "【2022年4月新服狂欢】【每日】任务7",
+	guild_coin_award = 0,
+	award = 8981,
+	type = 36,
+	desc = "科学研究を1回行う",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55007,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55101] = {
+	name = "【2022年4月新服狂欢】通关1-4",
+	guild_coin_award = 0,
+	award = 8981,
+	type = 26,
+	desc = "1-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "104",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55101,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1,
+			chapterId = 104
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55102] = {
+	name = "【2022年4月新服狂欢】通关2-2",
+	guild_coin_award = 0,
+	award = 8981,
+	type = 26,
+	desc = "2-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "202",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55102,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2,
+			chapterId = 202
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55103] = {
+	name = "【2022年4月新服狂欢】通关2-4",
+	guild_coin_award = 0,
+	award = 8981,
+	type = 26,
+	desc = "2-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "204",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55103,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2,
+			chapterId = 204
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55104] = {
+	name = "【2022年4月新服狂欢】通关3-2",
+	guild_coin_award = 0,
+	award = 8981,
+	type = 26,
+	desc = "3-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "302",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55104,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 3,
+			chapterId = 302
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55105] = {
+	name = "【2022年4月新服狂欢】通关3-4",
+	guild_coin_award = 0,
+	award = 8991,
+	type = 26,
+	desc = "3-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "304",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55105,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			207021,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 3,
+			chapterId = 304
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55106] = {
+	name = "【2022年4月新服狂欢】通关4-2",
+	guild_coin_award = 0,
+	award = 8982,
+	type = 26,
+	desc = "4-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "402",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55106,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 4,
+			chapterId = 402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55107] = {
+	name = "【2022年4月新服狂欢】通关4-4",
+	guild_coin_award = 0,
+	award = 8982,
+	type = 26,
+	desc = "4-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "404",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55107,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 4,
+			chapterId = 404
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55108] = {
+	name = "【2022年4月新服狂欢】通关5-2",
+	guild_coin_award = 0,
+	award = 8982,
+	type = 26,
+	desc = "5-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "502",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55108,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 5,
+			chapterId = 502
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55109] = {
+	name = "【2022年4月新服狂欢】通关5-4",
+	guild_coin_award = 0,
+	award = 8982,
+	type = 26,
+	desc = "5-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "504",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55109,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 5,
+			chapterId = 504
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55110] = {
+	name = "【2022年4月新服狂欢】通关6-2",
+	guild_coin_award = 0,
+	award = 8984,
+	type = 26,
+	desc = "6-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "602",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55110,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 6,
+			chapterId = 602
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55111] = {
+	name = "【2022年4月新服狂欢】通关6-4",
+	guild_coin_award = 0,
+	award = 8992,
+	type = 26,
+	desc = "6-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "604",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55111,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			408021,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 6,
+			chapterId = 604
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55112] = {
+	name = "【2022年4月新服狂欢】通关7-2",
+	guild_coin_award = 0,
+	award = 8984,
+	type = 26,
+	desc = "7-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "702",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55112,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 7,
+			chapterId = 702
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55113] = {
+	name = "【2022年4月新服狂欢】通关7-4",
+	guild_coin_award = 0,
+	award = 8984,
+	type = 26,
+	desc = "7-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "704",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55113,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 7,
+			chapterId = 704
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55114] = {
+	name = "【2022年4月新服狂欢】通关8-2",
+	guild_coin_award = 0,
+	award = 8985,
+	type = 26,
+	desc = "8-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "802",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55114,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			800
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 8,
+			chapterId = 802
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55115] = {
+	name = "【2022年4月新服狂欢】通关8-4",
+	guild_coin_award = 0,
+	award = 8985,
+	type = 26,
+	desc = "8-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "804",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55115,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			800
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 8,
+			chapterId = 804
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55116] = {
+	name = "【2022年4月新服狂欢】通关9-2",
+	guild_coin_award = 0,
+	award = 8987,
+	type = 26,
+	desc = "9-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "902",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55116,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 9,
+			chapterId = 902
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55117] = {
+	name = "【2022年4月新服狂欢】通关9-4",
+	guild_coin_award = 0,
+	award = 8987,
+	type = 26,
+	desc = "9-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "904",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55117,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 9,
+			chapterId = 904
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55118] = {
+	name = "【2022年4月新服狂欢】通关10-2",
+	guild_coin_award = 0,
+	award = 8988,
+	type = 26,
+	desc = "10-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55118,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			2000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 10,
+			chapterId = 1002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55119] = {
+	name = "【2022年4月新服狂欢】通关10-4",
+	guild_coin_award = 0,
+	award = 8993,
+	type = 26,
+	desc = "10-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55119,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			202201,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 10,
+			chapterId = 1004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55120] = {
+	name = "【2022年4月新服狂欢】通关11-2",
+	guild_coin_award = 0,
+	award = 8989,
+	type = 26,
+	desc = "11-2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1102",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55120,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			3000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 11,
+			chapterId = 1102
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55121] = {
+	name = "【2022年4月新服狂欢】通关11-4",
+	guild_coin_award = 0,
+	award = 8990,
+	type = 26,
+	desc = "11-4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1104",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55121,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			5000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 11,
+			chapterId = 1104
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55201] = {
+	name = "【2022年4月新服狂欢】大舰队商店兑换角色",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "大艦隊ショップで「ヘレナ」を交換する",
+	count_inherit = 0,
+	sub_type = 151,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "102051",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55201,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55211] = {
+	name = "【2022年4月新服狂欢】军事演习1",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【1/20】演習を1回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55211,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55212] = {
+	name = "【2022年4月新服狂欢】军事演习2",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【2/20】演習を4回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55212,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55213] = {
+	name = "【2022年4月新服狂欢】军事演习3",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【3/20】演習を10回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55213,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55214] = {
+	name = "【2022年4月新服狂欢】军事演习4",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【4/20】演習を20回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55214,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55215] = {
+	name = "【2022年4月新服狂欢】军事演习5",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【5/20】演習を30回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55215,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55216] = {
+	name = "【2022年4月新服狂欢】军事演习6",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【6/20】演習を40回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55216,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55217] = {
+	name = "【2022年4月新服狂欢】军事演习7",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【7/20】演習を50回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55217,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55218] = {
+	name = "【2022年4月新服狂欢】军事演习8",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【8/20】演習を60回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55218,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55219] = {
+	name = "【2022年4月新服狂欢】军事演习9",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【9/20】演習を70回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55219,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55220] = {
+	name = "【2022年4月新服狂欢】军事演习10",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【10/20】演習を80回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55220,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55221] = {
+	name = "【2022年4月新服狂欢】军事演习11",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【11/20】演習を90回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55221,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55222] = {
+	name = "【2022年4月新服狂欢】军事演习12",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【12/20】演習を100回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55222,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55223] = {
+	name = "【2022年4月新服狂欢】军事演习13",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【13/20】演習を110回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55223,
+	target_num = 110,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55224] = {
+	name = "【2022年4月新服狂欢】军事演习14",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【14/20】演習を120回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55224,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55225] = {
+	name = "【2022年4月新服狂欢】军事演习15",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【15/20】演習を130回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55225,
+	target_num = 130,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55226] = {
+	name = "【2022年4月新服狂欢】军事演习16",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【16/20】演習を140回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55226,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55227] = {
+	name = "【2022年4月新服狂欢】军事演习17",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【17/20】演習を150回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55227,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55228] = {
+	name = "【2022年4月新服狂欢】军事演习18",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【18/20】演習を160回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55228,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55229] = {
+	name = "【2022年4月新服狂欢】军事演习19",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【19/20】演習を180回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55229,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55230] = {
+	name = "【2022年4月新服狂欢】军事演习20",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【20/20】演習を200回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55211,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55230,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55231] = {
+	name = "【2022年4月新服狂欢】获得胜利1",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【1/20】艦隊を出撃させ、戦闘で1回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55231,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55232] = {
+	name = "【2022年4月新服狂欢】获得胜利2",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【2/20】艦隊を出撃させ、戦闘で4回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55232,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55233] = {
+	name = "【2022年4月新服狂欢】获得胜利3",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【3/20】艦隊を出撃させ、戦闘で10回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55233,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55234] = {
+	name = "【2022年4月新服狂欢】获得胜利4",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【4/20】艦隊を出撃させ、戦闘で20回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55234,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55235] = {
+	name = "【2022年4月新服狂欢】获得胜利5",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【5/20】艦隊を出撃させ、戦闘で30回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55235,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55236] = {
+	name = "【2022年4月新服狂欢】获得胜利6",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【6/20】艦隊を出撃させ、戦闘で40回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55236,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55237] = {
+	name = "【2022年4月新服狂欢】获得胜利7",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【7/20】艦隊を出撃させ、戦闘で50回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55237,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55238] = {
+	name = "【2022年4月新服狂欢】获得胜利8",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【8/20】艦隊を出撃させ、戦闘で60回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55238,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55239] = {
+	name = "【2022年4月新服狂欢】获得胜利9",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【9/20】艦隊を出撃させ、戦闘で70回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55239,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55240] = {
+	name = "【2022年4月新服狂欢】获得胜利10",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【10/20】艦隊を出撃させ、戦闘で80回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55240,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55241] = {
+	name = "【2022年4月新服狂欢】获得胜利11",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【11/20】艦隊を出撃させ、戦闘で90回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55241,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55242] = {
+	name = "【2022年4月新服狂欢】获得胜利12",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【12/20】艦隊を出撃させ、戦闘で100回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55242,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55243] = {
+	name = "【2022年4月新服狂欢】获得胜利13",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【13/20】艦隊を出撃させ、戦闘で110回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55243,
+	target_num = 110,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55244] = {
+	name = "【2022年4月新服狂欢】获得胜利14",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【14/20】艦隊を出撃させ、戦闘で120回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55244,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55245] = {
+	name = "【2022年4月新服狂欢】获得胜利15",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【15/20】艦隊を出撃させ、戦闘で130回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55245,
+	target_num = 130,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55246] = {
+	name = "【2022年4月新服狂欢】获得胜利16",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【16/20】艦隊を出撃させ、戦闘で140回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55246,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55247] = {
+	name = "【2022年4月新服狂欢】获得胜利17",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【17/20】艦隊を出撃させ、戦闘で150回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55247,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55248] = {
+	name = "【2022年4月新服狂欢】获得胜利18",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【18/20】艦隊を出撃させ、戦闘で160回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55248,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55249] = {
+	name = "【2022年4月新服狂欢】获得胜利19",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【19/20】艦隊を出撃させ、戦闘で180回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55249,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55250] = {
+	name = "【2022年4月新服狂欢】获得胜利20",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【20/20】艦隊を出撃させ、戦闘で200回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55231,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55250,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55251] = {
+	name = "【2022年4月新服狂欢】击沉敌人1",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【1/20】任意の敵艦を10隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55251,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55252] = {
+	name = "【2022年4月新服狂欢】击沉敌人2",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【2/20】任意の敵艦を40隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55252,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55253] = {
+	name = "【2022年4月新服狂欢】击沉敌人3",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【3/20】任意の敵艦を100隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55253,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55254] = {
+	name = "【2022年4月新服狂欢】击沉敌人4",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【4/20】任意の敵艦を200隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55254,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55255] = {
+	name = "【2022年4月新服狂欢】击沉敌人5",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【5/20】任意の敵艦を400隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55255,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55256] = {
+	name = "【2022年4月新服狂欢】击沉敌人6",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【6/20】任意の敵艦を600隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55256,
+	target_num = 600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55257] = {
+	name = "【2022年4月新服狂欢】击沉敌人7",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【7/20】任意の敵艦を800隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55257,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55258] = {
+	name = "【2022年4月新服狂欢】击沉敌人8",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【8/20】任意の敵艦を1000隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55258,
+	target_num = 1000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55259] = {
+	name = "【2022年4月新服狂欢】击沉敌人9",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【9/20】任意の敵艦を1200隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55259,
+	target_num = 1200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55260] = {
+	name = "【2022年4月新服狂欢】击沉敌人10",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【10/20】任意の敵艦を1400隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55260,
+	target_num = 1400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55261] = {
+	name = "【2022年4月新服狂欢】击沉敌人11",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【11/20】任意の敵艦を1600隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55261,
+	target_num = 1600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55262] = {
+	name = "【2022年4月新服狂欢】击沉敌人12",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【12/20】任意の敵艦を1800隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55262,
+	target_num = 1800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55263] = {
+	name = "【2022年4月新服狂欢】击沉敌人13",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【13/20】任意の敵艦を2000隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55263,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55264] = {
+	name = "【2022年4月新服狂欢】击沉敌人14",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【14/20】任意の敵艦を2200隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55264,
+	target_num = 2200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55265] = {
+	name = "【2022年4月新服狂欢】击沉敌人15",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【15/20】任意の敵艦を2400隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55265,
+	target_num = 2400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55266] = {
+	name = "【2022年4月新服狂欢】击沉敌人16",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【16/20】任意の敵艦を2600隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55266,
+	target_num = 2600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55267] = {
+	name = "【2022年4月新服狂欢】击沉敌人17",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【17/20】任意の敵艦を2800隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55267,
+	target_num = 2800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55268] = {
+	name = "【2022年4月新服狂欢】击沉敌人18",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【18/20】任意の敵艦を3200隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55268,
+	target_num = 3200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55269] = {
+	name = "【2022年4月新服狂欢】击沉敌人19",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【19/20】任意の敵艦を3600隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55269,
+	target_num = 3600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55270] = {
+	name = "【2022年4月新服狂欢】击沉敌人20",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【20/20】任意の敵艦を4000隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55251,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55270,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55271] = {
+	name = "【2022年4月新服狂欢】技能战术训练1",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【1/20】戦術教室で戦術訓練を1回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55271,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55272] = {
+	name = "【2022年4月新服狂欢】技能战术训练2",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【2/20】戦術教室で戦術訓練を4回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55272,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55273] = {
+	name = "【2022年4月新服狂欢】技能战术训练3",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【3/20】戦術教室で戦術訓練を10回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55273,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55274] = {
+	name = "【2022年4月新服狂欢】技能战术训练4",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【4/20】戦術教室で戦術訓練を20回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55274,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55275] = {
+	name = "【2022年4月新服狂欢】技能战术训练5",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【5/20】戦術教室で戦術訓練を30回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55275,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55276] = {
+	name = "【2022年4月新服狂欢】技能战术训练6",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【6/20】戦術教室で戦術訓練を40回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55276,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55277] = {
+	name = "【2022年4月新服狂欢】技能战术训练7",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【7/20】戦術教室で戦術訓練を50回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55277,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55278] = {
+	name = "【2022年4月新服狂欢】技能战术训练8",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【8/20】戦術教室で戦術訓練を60回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55278,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55279] = {
+	name = "【2022年4月新服狂欢】技能战术训练9",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【9/20】戦術教室で戦術訓練を70回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55279,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55280] = {
+	name = "【2022年4月新服狂欢】技能战术训练10",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【10/20】戦術教室で戦術訓練を80回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55271,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55280,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55281] = {
+	name = "【2022年4月新服狂欢】技能战术训练11",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【11/20】戦術教室で戦術訓練を90回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55281,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55282] = {
+	name = "【2022年4月新服狂欢】技能战术训练12",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【12/20】戦術教室で戦術訓練を100回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55282,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55283] = {
+	name = "【2022年4月新服狂欢】技能战术训练13",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【13/20】戦術教室で戦術訓練を110回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55283,
+	target_num = 110,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55284] = {
+	name = "【2022年4月新服狂欢】技能战术训练14",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【14/20】戦術教室で戦術訓練を120回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55284,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55285] = {
+	name = "【2022年4月新服狂欢】技能战术训练15",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【15/20】戦術教室で戦術訓練を130回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55285,
+	target_num = 130,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55286] = {
+	name = "【2022年4月新服狂欢】技能战术训练16",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【16/20】戦術教室で戦術訓練を140回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55286,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55287] = {
+	name = "【2022年4月新服狂欢】技能战术训练17",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【17/20】戦術教室で戦術訓練を150回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55287,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55288] = {
+	name = "【2022年4月新服狂欢】技能战术训练18",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【18/20】戦術教室で戦術訓練を160回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55288,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55289] = {
+	name = "【2022年4月新服狂欢】技能战术训练19",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【19/20】戦術教室で戦術訓練を180回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55289,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55290] = {
+	name = "【2022年4月新服狂欢】技能战术训练20",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【20/20】戦術教室で戦術訓練を200回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55281,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55290,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55291] = {
+	name = "【2022年4月新服狂欢】建造舰船1",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【1/10】艦を1隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55291,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55292] = {
+	name = "【2022年4月新服狂欢】建造舰船2",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【2/10】艦を3隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55292,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55293] = {
+	name = "【2022年4月新服狂欢】建造舰船3",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【3/10】艦を6隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55293,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55294] = {
+	name = "【2022年4月新服狂欢】建造舰船4",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【4/10】艦を10隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55294,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55295] = {
+	name = "【2022年4月新服狂欢】建造舰船5",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【5/10】艦を15隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55295,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55296] = {
+	name = "【2022年4月新服狂欢】建造舰船6",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【6/10】艦を20隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55296,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55297] = {
+	name = "【2022年4月新服狂欢】建造舰船7",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【7/10】艦を25隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55297,
+	target_num = 25,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55298] = {
+	name = "【2022年4月新服狂欢】建造舰船8",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【8/10】艦を30隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55298,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55299] = {
+	name = "【2022年4月新服狂欢】建造舰船9",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【9/10】艦を35隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55299,
+	target_num = 35,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55300] = {
+	name = "【2022年4月新服狂欢】建造舰船10",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【10/10】艦を40隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55291,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55300,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55301] = {
+	name = "【2022年4月新服狂欢】100级舰船数量1",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【1/10】艦船1隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55301,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55302] = {
+	name = "【2022年4月新服狂欢】100级舰船数量2",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【2/10】艦船2隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55302,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55303] = {
+	name = "【2022年4月新服狂欢】100级舰船数量3",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【3/10】艦船3隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55303,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55304] = {
+	name = "【2022年4月新服狂欢】100级舰船数量4",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【4/10】艦船6隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55304,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55305] = {
+	name = "【2022年4月新服狂欢】100级舰船数量5",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【5/10】艦船8隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55305,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55306] = {
+	name = "【2022年4月新服狂欢】100级舰船数量6",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【6/10】艦船10隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55306,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55307] = {
+	name = "【2022年4月新服狂欢】100级舰船数量7",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【7/10】艦船12隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55307,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55308] = {
+	name = "【2022年4月新服狂欢】100级舰船数量8",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【8/10】艦船14隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55308,
+	target_num = 14,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55309] = {
+	name = "【2022年4月新服狂欢】100级舰船数量9",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【9/10】艦船16隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55309,
+	target_num = 16,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55310] = {
+	name = "【2022年4月新服狂欢】100级舰船数量10",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【10/10】艦船18隻のレベルを100に上げる",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55301,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55310,
+	target_num = 18,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55311] = {
+	name = "【2022年4月新服狂欢】训练指挥喵1",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【1/10】オフニャを1回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55311,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55312] = {
+	name = "【2022年4月新服狂欢】训练指挥喵2",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【2/10】オフニャを2回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55312,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55313] = {
+	name = "【2022年4月新服狂欢】训练指挥喵3",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【3/10】オフニャを4回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55313,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55314] = {
+	name = "【2022年4月新服狂欢】训练指挥喵4",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【4/10】オフニャを6回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55314,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55315] = {
+	name = "【2022年4月新服狂欢】训练指挥喵5",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【5/10】オフニャを8回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55315,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55316] = {
+	name = "【2022年4月新服狂欢】训练指挥喵6",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【6/10】オフニャを10回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55316,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55317] = {
+	name = "【2022年4月新服狂欢】训练指挥喵7",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【7/10】オフニャを12回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55317,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55318] = {
+	name = "【2022年4月新服狂欢】训练指挥喵8",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【8/10】オフニャを14回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55318,
+	target_num = 14,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55319] = {
+	name = "【2022年4月新服狂欢】训练指挥喵9",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【9/10】オフニャを16回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55319,
+	target_num = 16,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55320] = {
+	name = "【2022年4月新服狂欢】训练指挥喵10",
+	guild_coin_award = 0,
+	award = 8986,
+	type = 26,
+	desc = "【10/10】オフニャを18回訓練する",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55311,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55320,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55321] = {
+	name = "【2022年4月新服狂欢】通关主线困难1",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【1/10】任意のハード海域を1回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55321,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55322] = {
+	name = "【2022年4月新服狂欢】通关主线困难2",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【2/10】任意のハード海域を3回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55322,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55323] = {
+	name = "【2022年4月新服狂欢】通关主线困难3",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【3/10】任意のハード海域を6回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55323,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55324] = {
+	name = "【2022年4月新服狂欢】通关主线困难4",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【4/10】任意のハード海域を10回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55324,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55325] = {
+	name = "【2022年4月新服狂欢】通关主线困难5",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【5/10】任意のハード海域を15回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55325,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55326] = {
+	name = "【2022年4月新服狂欢】通关主线困难6",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【6/10】任意のハード海域を20回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55326,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55327] = {
+	name = "【2022年4月新服狂欢】通关主线困难7",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【7/10】任意のハード海域を25回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55327,
+	target_num = 25,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55328] = {
+	name = "【2022年4月新服狂欢】通关主线困难8",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【8/10】任意のハード海域を30回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55328,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55329] = {
+	name = "【2022年4月新服狂欢】通关主线困难9",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【9/10】任意のハード海域を35回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55329,
+	target_num = 35,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55330] = {
+	name = "【2022年4月新服狂欢】通关主线困难10",
+	guild_coin_award = 0,
+	award = 8983,
+	type = 26,
+	desc = "【10/10】任意のハード海域を40回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55321,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55330,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			249,
+			500
+		}
+	}
 }
 
 _G.pg.base.task_data_template[60011] = {

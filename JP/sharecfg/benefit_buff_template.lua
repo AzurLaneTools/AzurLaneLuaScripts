@@ -41,7 +41,7 @@ pg.benefit_buff_template = {
 		name = "経験値強化",
 		hide = 0,
 		max_time = 0,
-		desc = "指揮官Lvが60以下の場合、通常海域のノーマルモード・ハードモード、デイリーチャレンジで入手する指揮官と艦の経験値が100%アップ",
+		desc = "指揮官Lvが80以下の場合、通常海域のノーマルモード・ハードモード、デイリーチャレンジで入手する指揮官と艦の経験値が100%アップ",
 		benefit_effect = "100",
 		id = 4,
 		type_priority = 0,
@@ -49,7 +49,7 @@ pg.benefit_buff_template = {
 		benefit_condition = {
 			"lv",
 			"<",
-			60
+			80
 		}
 	},
 	{
@@ -160,9 +160,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				13,
+				19,
 				1
 			}
 		}
@@ -179,9 +179,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				13,
+				19,
 				2
 			}
 		}
@@ -198,9 +198,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				13,
+				19,
 				3
 			}
 		}
@@ -217,9 +217,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				14,
+				20,
 				1
 			}
 		}
@@ -236,9 +236,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				14,
+				20,
 				2
 			}
 		}
@@ -255,9 +255,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				14,
+				20,
 				3
 			}
 		}
@@ -274,9 +274,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				15,
+				21,
 				1
 			}
 		}
@@ -293,9 +293,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				15,
+				21,
 				2
 			}
 		}
@@ -312,9 +312,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				15,
+				21,
 				3
 			}
 		}
@@ -331,9 +331,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				16,
+				22,
 				1
 			}
 		}
@@ -350,9 +350,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				16,
+				22,
 				2
 			}
 		}
@@ -369,9 +369,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			4113,
+			4532,
 			{
-				16,
+				22,
 				3
 			}
 		}
@@ -1020,6 +1020,34 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
+	[101] = {
+		icon = "Props/newserver_xinshou",
+		name = "新人指揮官出撃経験UP",
+		hide = 0,
+		max_time = 0,
+		desc = "指揮官レベルが100以下の場合、メイン海域・イベント海域・デイリーチャレンジで得られる指揮官・艦船経験値が100%UP",
+		benefit_effect = "100",
+		id = 101,
+		type_priority = 1,
+		benefit_type = "rookie_battle_exp",
+		benefit_condition = {
+			"lv",
+			"<",
+			100
+		}
+	},
+	[102] = {
+		icon = "Props/newserver_backyard",
+		name = "新人指揮官寮舎経験UP",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "寮舎で入手できる経験値が50％UP",
+		benefit_effect = "50",
+		id = 102,
+		type_priority = 0,
+		benefit_type = "dorm_exp"
+	},
 	[103] = {
 		icon = "Props/newserver_skill",
 		name = "新人指揮官スキル強化速度UP",
@@ -1031,6 +1059,18 @@ pg.benefit_buff_template = {
 		id = 103,
 		type_priority = 0,
 		benefit_type = "skill_learn_time"
+	},
+	[104] = {
+		icon = "Props/newserver_upgrade",
+		name = "新人指揮官艦船強化UP",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "ドックで艦船を強化する場合、得られる強化経験値が50%UP",
+		benefit_effect = "100",
+		id = 104,
+		type_priority = 0,
+		benefit_type = "character_strengthen_exp"
 	},
 	all = {
 		1,
@@ -1098,6 +1138,9 @@ pg.benefit_buff_template = {
 		63,
 		64,
 		65,
-		103
+		101,
+		102,
+		103,
+		104
 	}
 }

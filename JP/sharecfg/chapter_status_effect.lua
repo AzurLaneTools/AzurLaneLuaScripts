@@ -187,6 +187,46 @@ pg.chapter_status_effect = {
 		id = 41,
 		camera_focus = ""
 	},
+	[42] = {
+		strategy = 200054,
+		id = 42,
+		camera_focus = ""
+	},
+	[43] = {
+		strategy = 200057,
+		id = 43,
+		camera_focus = ""
+	},
+	[44] = {
+		strategy = 200060,
+		id = 44,
+		camera_focus = ""
+	},
+	[45] = {
+		strategy = 200063,
+		id = 45,
+		camera_focus = ""
+	},
+	[46] = {
+		strategy = 200067,
+		id = 46,
+		camera_focus = ""
+	},
+	[47] = {
+		strategy = 200070,
+		id = 47,
+		camera_focus = ""
+	},
+	[48] = {
+		strategy = 200074,
+		id = 48,
+		camera_focus = ""
+	},
+	[49] = {
+		strategy = 200078,
+		id = 49,
+		camera_focus = ""
+	},
 	all = {
 		1,
 		2,
@@ -222,6 +262,14 @@ pg.chapter_status_effect = {
 		37,
 		39,
 		40,
-		41
+		41,
+		42,
+		43,
+		44,
+		45,
+		46,
+		47,
+		48,
+		49
 	}
 }

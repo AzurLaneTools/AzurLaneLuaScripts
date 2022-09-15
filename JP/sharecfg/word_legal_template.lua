@@ -1848,7 +1848,10 @@ function temp()
 						["シ"] = {
 							["ャ"] = {
 								["ー"] = {
-									this = true
+									this = true,
+									["改"] = {
+										this = true
+									}
 								}
 							}
 						}
@@ -1964,7 +1967,10 @@ function temp()
 		["ュ"] = {
 			["ノ"] = {
 				["ー"] = {
-					this = true
+					this = true,
+					["改"] = {
+						this = true
+					}
 				}
 			},
 			["ピ"] = {
@@ -4287,6 +4293,9 @@ function temp()
 	uv0["若"] = {
 		["葉"] = {
 			this = true
+		},
+		["月"] = {
+			this = true
 		}
 	}
 end
@@ -6097,6 +6106,46 @@ temp()
 function temp()
 	uv0["鎮"] = {
 		["海"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["深"] = {
+		["雪"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["酒"] = {
+		["匂"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["羽"] = {
+		["黒"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["武"] = {
+		["蔵"] = {
 			this = true
 		}
 	}

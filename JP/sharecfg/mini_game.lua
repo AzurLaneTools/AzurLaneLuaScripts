@@ -1015,7 +1015,7 @@ pg.mini_game = {
 		config_data = "",
 		config_csv = "",
 		id = 31,
-		hub_id = 24,
+		hub_id = 35,
 		request_data = 0
 	},
 	{
@@ -1267,6 +1267,57 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "CookGameView",
+		name = "女仆蛋糕小游戏",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 42,
+		hub_id = 34,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					5,
+					94304,
+					1
+				},
+				{
+					2,
+					54034,
+					2
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					5,
+					94113,
+					1
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1308,6 +1359,7 @@ pg.mini_game = {
 		38,
 		39,
 		40,
-		41
+		41,
+		42
 	}
 }

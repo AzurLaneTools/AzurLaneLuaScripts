@@ -54,6 +54,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Fourth　Anniversary！</color>\n　四周年記念イベントで開放可能",
 		scene = {}
 	},
+	[107] = {
+		time_limit_type = 0,
+		name = "五周年記念",
+		gain_by = "",
+		id = 107,
+		time_second = 0,
+		desc = "<color=#ffffff>Fifth　Anniversary！</color>\n　五周年記念イベントで開放可能",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "チャレンジャー",
@@ -354,10 +363,10 @@ pg.item_data_frame = {
 	[322] = {
 		time_limit_type = 0,
 		name = "紫電雷嵐",
-		gain_by = "",
+		gain_by = "赫の涙月 菫の暁風",
 		id = 322,
 		time_second = 0,
-		desc = "イベントで入手可能",
+		desc = "<color=#ffffff>「寂々なり雲海の如く、飄々なり雲霞の如し」</color>\nイベント「赫の涙月 菫の暁風」にて入手可能",
 		scene = {}
 	},
 	[401] = {
@@ -439,6 +448,7 @@ pg.item_data_frame = {
 		103,
 		104,
 		105,
+		107,
 		201,
 		202,
 		203,
