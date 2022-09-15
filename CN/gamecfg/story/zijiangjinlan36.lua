@@ -381,10 +381,11 @@ return {
 			}
 		},
 		{
-			side = 2,
+			actor = 307060,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
+			side = 2,
 			say = "尺寸不对，颜色不对形状也不对……好奇怪，刚刚我为什么第一眼会把它当成海若呢？",
 			typewriter = {
 				speed = 0.05,

@@ -10719,8 +10719,8 @@ _G.pg.base.item_data_statistics[30304] = {
 }
 
 _G.pg.base.item_data_statistics[30305] = {
-	display = "可以获得一件随机的开学祭外观装备",
-	name = "外观装备箱(开学祭)",
+	display = "可以获得一件随机的开学季外观装备",
+	name = "外观装备箱(开学季)",
 	max_num = 0,
 	type = 11,
 	drop_oil_max = 0,

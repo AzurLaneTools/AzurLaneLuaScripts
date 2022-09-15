@@ -238,19 +238,42 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
-			mode = 1,
 			bgName = "bg_wuzang_cg5",
-			bgm = "battle-inthememory",
+			mode = 1,
+			flashout = {
+				black = true,
+				dur = 0.1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.1,
+				dur = 0.1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
 			sequence = {
 				{
 					"",
 					0
-				},
-				{
-					"<size=60>「就在{namecode:65}、{namecode:226}、{namecode:157}三人各自做好准备，迎接即将到来的剑与炮火之时——」</size>",
-					0
 				}
+			}
+		},
+		{
+			side = 2,
+			stopbgm = true,
+			bgName = "bg_wuzang_cg5",
+			nameColor = "#A9F548FF",
+			bgm = "battle-inthememory",
+			say = "就在{namecode:65}、{namecode:226}、{namecode:157}三人各自做好准备，迎接即将到来的剑与炮火之时——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			}
 		},
 		{

@@ -481,6 +481,33 @@ return {
 			}
 		},
 		{
+			bgName = "bg_wuzang_cg8",
+			mode = 1,
+			flashout = {
+				black = true,
+				dur = 0.1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.1,
+				dur = 0.1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			sequence = {
+				{
+					"",
+					0
+				}
+			}
+		},
+		{
 			side = 2,
 			nameColor = "#ffa500",
 			bgName = "bg_wuzang_cg8",
