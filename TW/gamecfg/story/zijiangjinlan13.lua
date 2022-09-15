@@ -709,11 +709,17 @@ return {
 				{
 					"",
 					0
-				},
-				{
-					"<size=60>「——————汝等，就到此为止吧。」</size>",
-					0
 				}
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_wuzang_cg2",
+			say = "——————汝等，就到此为止吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			}
 		},
 		{

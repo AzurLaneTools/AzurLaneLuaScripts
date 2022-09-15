@@ -30,8 +30,6 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 		end
 
 		if uv0._serveSpeed then
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(CookGameConst.sound_speed_up)
-
 			if uv0.directX == -1 then
 				setActive(findTF(uv0._tf, "effectW"), false)
 				setActive(findTF(uv0._tf, "effectW"), true)
@@ -340,6 +338,8 @@ function slot0.serveCake(slot0)
 			slot0.serveRight = true
 			slot0.serveWrong = false
 			slot0._serveSpeed = true
+
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(CookGameConst.sound_speed_up)
 		else
 			slot0.serveRight = false
 			slot0.serveWrong = true

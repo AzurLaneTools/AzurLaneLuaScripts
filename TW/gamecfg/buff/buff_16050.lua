@@ -26,6 +26,7 @@ return {
 			trigger = {
 				"onStartGame"
 			},
+			pop = {},
 			arg_list = {
 				maxTargetNumber = 0,
 				buff_id = 16051,

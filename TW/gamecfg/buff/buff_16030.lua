@@ -24,11 +24,10 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onUpdate"
+				"onChargeWeaponFire"
 			},
 			arg_list = {
-				buff_id = 16031,
-				time = 20
+				buff_id = 16031
 			}
 		}
 	}

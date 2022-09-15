@@ -239,9 +239,9 @@ return {
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "",
 	time = 15,
+	name = "",
+	init_effect = "jinengchufared",
 	color = "red",
 	picture = "",
 	desc = "",
@@ -249,6 +249,13 @@ return {
 	id = 15984,
 	icon = 15984,
 	last_effect = "",
+	blink = {
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	},
 	effect_list = {
 		{
 			type = "BattleBuffAddBulletAttr",

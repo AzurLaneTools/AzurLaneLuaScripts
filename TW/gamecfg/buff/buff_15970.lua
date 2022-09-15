@@ -23,6 +23,7 @@ return {
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
+			pop = {},
 			trigger = {
 				"onStartGame"
 			},

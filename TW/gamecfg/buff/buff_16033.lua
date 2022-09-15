@@ -11,7 +11,7 @@ return {
 	{},
 	init_effect = "",
 	name = "",
-	time = 5,
+	time = 8,
 	picture = "",
 	desc = "使得非装备武器发射的子弹暴击率提高50%",
 	stack = 1,

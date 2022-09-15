@@ -834,7 +834,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_cg1",
-			actorName = "{namecode:74}",
+			actorName = "{namecode:226}",
 			dir = 1,
 			actor = 302230,
 			nameColor = "#A9F548FF",

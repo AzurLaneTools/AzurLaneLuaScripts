@@ -15,7 +15,7 @@ return {
 				"TargetSelf"
 			},
 			arg_list = {
-				buff_id = 16032
+				buff_id = 16034
 			}
 		},
 		{

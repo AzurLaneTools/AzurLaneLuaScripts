@@ -16,7 +16,8 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61529
+					weapon_id = 61529,
+					delay = 0.5
 				}
 			}
 		}
@@ -38,7 +39,8 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61529
+					weapon_id = 61529,
+					delay = 0.5
 				}
 			}
 		}

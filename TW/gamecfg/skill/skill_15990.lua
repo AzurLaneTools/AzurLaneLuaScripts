@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "固定6点",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 15990,
 	picture = "0",
-	castCV = "skill",
+	castCV = "",
 	desc = "固定6点",
 	effect_list = {
 		{
