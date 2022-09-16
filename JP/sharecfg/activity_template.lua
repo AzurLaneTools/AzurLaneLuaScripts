@@ -5418,7 +5418,7 @@ pg.activity_template = {
 		}
 	},
 	[4534] = {
-		mark = 20220421,
+		mark = 20220915,
 		title_res_tag = "",
 		page_info = "",
 		type = 2,
@@ -5466,7 +5466,7 @@ pg.activity_template = {
 				{
 					2022,
 					9,
-					1
+					15
 				},
 				{
 					0,
