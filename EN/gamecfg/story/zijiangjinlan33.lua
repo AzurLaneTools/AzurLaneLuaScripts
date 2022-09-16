@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg15",
 			stopbgm = true,
-			say = "大棋盘·{namecode:84}控制区 第十回合",
+			say = "Exercise Area",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "在这个无比关键的回合，{namecode:84}没有打出自己的最后一张指挥卡。",
+			say = "While Mikasa and Nagato were finalizing their plans to capture the central tower...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人是放弃了么……？",
+			say = "Musashi still hasn't done anything yet... Has she given up on commanding altogether?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那可是{namecode:84}大人，不会这么轻易放弃的。她一定是有什么其他安排，我有种不太好的预感……",
+			say = "That's impossible – this is Musashi we're talking about here. There's no way she doesn't have her own plans and ambitions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家快看，{namecode:84}大人的侍从开始行动了！",
+			say = "Wait, Musashi's fleet is starting to move... towards the central tower?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人的命令确认，即将对中心区域的仲裁者·赫忒米·IX展开攻击。",
+			say = "We have orders from Musashi: we'll start attacking the Arbiter vessel at the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:103}，我来支援你了哦。",
+			say = "I'll back you up, Chitose!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……{namecode:225}，你之前一直在进攻据点，都没有休整过吧。",
+			say = "Did you get the same order, Wakatsuki?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的，{namecode:103}不也一样？",
+			say = "Sure did! But to be honest, I've taken a lot of damage already, so I don't know how much I'll be able to do. How are you holding up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以我们现在的状态，恐怕受到进攻的反击之后就要双双退场了……",
+			say = "I lost a lot of planes in the last attack... I'm not sure I'll be able to do much to the Arbiter with what I have left...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕是的……没能在场内见证棋盘的结局确实有些遗憾，不过既然是{namecode:84}大人的命令，我心中便没有丝毫犹豫。",
+			say = "I guess this will be our last command, then... There's one last thing I wanted to do here, and I might just get the opportunity to do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说的也是……已经在棋盘中待了这么久，乐趣也享受的差不多了。",
+			say = "Mm, yeah... I had a lot of fun too... I'm just glad I'll get to see Chiyoda soon...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来就去休息室里和{namecode:104}一起边吃好吃的，边等待最终结果好了~",
+			say = "Maybe we can grab some sweets once we're back... and see how this game finishes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实……我昨天在休息室内藏了一大盒点心哦，想着给先进入休息室内的同伴们留点惊喜。",
+			say = "If you're looking for sweets, Musashi has a whole big stash of 'em in the lounge! I was thinking, if I got taken out first, I'd go and prepare refreshments for everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果还没有被人发现的话，我们就先偷偷吃掉一部分，再跟大家分掉吧~",
+			say = "After all, sweets are best enjoyed with friends! Oh, I just hope Pooky didn't pilfer them all first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好主意！那事不宜迟，就让我们开始最后的进攻吧！",
+			say = "Then, um... Let's get back to the lounge as quickly as possible!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#ff5c5c",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "KABOOM––––!!",
 			flashN = {
 				color = {
 					1,
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "就这样，{namecode:225}与{namecode:103}退场了。",
+			say = "And thus, Wakatsuki and Chitose disappeared without a trace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "与此同时——————",
+			say = "At the same time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:92}大人，得罪了，这也是{namecode:84}大人的命令。",
+			say = "Sorry, Kaga. Looks like I'll be playing the villain through-and-through today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果想来进攻我，也要做好被反噬的觉悟哦。",
+			say = "Do what you must. Akagi must've seen this coming as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:92}大人难道有什么危险的技能么？",
+			say = "Huh? You're not going to try to run?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，这个你很快就能知道了，尽管攻过来吧。",
+			say = "Akagi already got Mikasa to take the \"opening\" she left for her. Now, the only thing left to do is––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "KABOOM––––!!",
 			flashN = {
 				color = {
 					1,
@@ -499,7 +499,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "光芒闪过，{namecode:92}化为了发光的碎片。",
+			say = "Sakawa unloaded her cannon at Kaga, who didn't move a muscle. Suddenly, her rigging erupted in a pale blue flame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "但是，与此前退场的人不同，碎片并没有消散，而是化为了一只巨大的妖狐",
+			say = "Kaga continued standing there, letting attacks from the Arbiter's forces as well as Sakawa pour into her body. Then, she slowly raised her flame-wreathed hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "妖狐向着{namecode:226}扑去，{namecode:226}立刻被蓝色的烈焰所覆盖。",
+			say = "The ghostly, dancing flames started to congeal into a giant, otherworldly fox spirit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			actor = 302230,
 			nameColor = "#A9F548FF",
-			say = "哎…………欸？！这是什么情况！要烧起来了欸！！",
+			say = "Huh? Whaaaaaat?! K-Kaga, what the heck is that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "信条……「弱肉强食」。你就与我一同随着苍蓝的火焰消散吧。",
+			say = "My shikigami, the Nine-Tailed Fox. It was originally a technique I was developing against the Grey Ghost, but I seem to be able to manifest it already thanks to the effects of this domain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "伴随着{namecode:92}与{namecode:226}的退场，原本处于{namecode:84}控制的所有据点上空也出现了猛烈的白光。",
+			say = "The unsealed shikigami roared, Kaga's figure disappearing into its core as it smothered the entire area with blue flames.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚发生了……什么？",
+			say = "Sakawa was taken out? And those blue flames... Was that Kaga's doing?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:84}大人直到侍从全灭都没有进场……换言之，现在棋盘上没有任何属于{namecode:84}大人的棋子。",
+			say = "That appears to be the case. With Sakawa's defeat, the rest of Musashi's forces have been eliminated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从规则上来看，{namecode:84}大人已经输了。因此……所有原本由{namecode:84}大人控制的据点也会变为无人所属状态。",
+			say = "With her elimination, the points she occupied also have become neutral once again. If Akagi captures them, she'll match your score even without the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}！汝见到没有取胜机会之后，就用这种方式放弃了么！",
+			say = "Ugh... But, that doesn't change our strategy. If Akagi captures the central tower, we'd lose either way. All this means is, trying to run the clock out is no longer an option!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……是见到自己没有取胜机会后，就果断用最后的全部力量为{namecode:91}的胜利做铺垫了……",
+			say = "Musashi won't be able to intervene on Akagi's behalf anymore. In other words, Akagi doesn't have anything left to spare.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:82}，吾等还有机会。如果吾先一步接收了{namecode:84}的领地，那么吾就拥有了22分。而{namecode:91}的得分极限是21分。",
+			say = "That's right. She won't be able to capture the bases left behind by Musashi without abandoning the central tower. But, we can't afford to let up the pressure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……不用这么长时间，只要吾能拿下{namecode:84}的那一个小据点，吾就会变为17分。{namecode:91}就算之后再拿下中心据点也没用。",
+			say = "If Akagi takes the central tower while we're busy trying to capture Musashi's bases, our forces will be spread thin and prone to being picked off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时间已经不允许她多线作战了！",
+			say = "We'll have to wager everything on whether or not we can capture the tower on our next attack!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人，大前辈你们看……那只狐狸还停留在场上，与{namecode:91}停在同一格了。",
+			say = "Yeah. Besides, even if we tried to go around, we'd just run into Kaga. And I do NOT want to deal with whatever that pet of hers is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然还有后手……",
+			say = "That fox caught me completely off-guard as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			nameColor = "#A9F548FF",
-			say = "{namecode:82}前辈，对于我与姐姐一直隐藏的技能，你应该有了不少猜测吧。",
+			say = "That is the manifestation of my will... I would gladly burn away my own life to clear the path for my sister.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……从你退场之后还能以这样的形式留在场上的情况来看，说明我的猜测基本正确啊。",
+			say = "So even though Kaga has been rendered incapacitated, her shikigami still remains on the battlefield?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在谜底揭晓之前，不妨前辈先来说说推论吧？",
+			say = "Yes... And now, the closer Akagi is to being alone once again, the closer she is to being able to make her true feelings heard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚一次性退场了4人，目前现阶段合计退场了9人。",
+			say = "The closer she is to being alone? So there was some purpose behind Musashi's actions after all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}一直在等待着场上侍从退场，说明她的另一个技能应该是退场的侍从越多，自身的的战斗力就越强。",
+			say = "Wait, is this Akagi's way of saying, \"don't get anyone else involved?\" The fewer allies she has left, the more she is able to demonstrate her true powers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -829,7 +829,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为在战斗过程中没看到她的战斗力出现明显变化，说明这应该是一个可以自由选择时机进行激活的主动技能。",
+			say = "It's true that this domain has restricted the functionality of our riggings.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -846,7 +846,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而你虽然退场了，却依旧以这样的形式停留在{namecode:91}的格子里，说明你的另一个技能可以在退场之后给予{namecode:91}某些帮助。",
+			say = "You never cared about cooperating with Nagato and me to take down the central tower...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -863,7 +863,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我猜的不错吧？",
+			say = "Akagi, you have some trump card to take that tower by yourself, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,7 +880,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（鼓掌声）不愧是{namecode:82}大前辈，猜的完全正确哦。",
+			say = "You've finally figured it out, Great Veteran.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -896,7 +896,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看你的部署，你应该还盘算着等到下回合，我的进攻失败后，与{namecode:74}接力抢下中心据点吧。",
+			say = "Now I see, Musashi's intentions were clear from the very beginning. Sometimes, things are exactly as they appear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -913,7 +913,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或者因为{namecode:84}退场，领地空出，你们想重新把她的领地占领回来依靠积分取胜？",
+			say = "I chose to attack the central tower from the very beginning as a statement of my own intentions - if we have a common enemy, working together is not an impossibility for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +929,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哈哈哈哈，我怎么可能留出这种机会给你们？",
+			say = "However, if you were waiting for my attack to fail so you could swoop in afterwards, do not think I am so soft as to leave victory for someone else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}……现在日蚀尚在，依然还是第十回合，汝为何可以行动？",
+			say = "How do you plan on taking down an Arbiter all by yourself? Don't tell me you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:74}大人，你的问题应该是，为什么{namecode:84}已经退场了，新的回合却还没有开始呢？",
+			say = "Keep your eyes peeled, and watch me. I have waited a long time for this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -979,7 +979,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在谜底揭晓。{namecode:82}前辈，我在自己退场时，可以赋予姐姐一次移动和与本回合退场人数相同的额外攻击次数。",
+			say = "Convictions are worthless without the strength to back them up. The powerless will know nothing but defeat, their dreams ground to dust.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,7 +997,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			nameColor = "#A9F548FF",
-			say = "本回合退场的侍从数量是4，也就是说，姐姐接下来可以进行四次战斗。",
+			say = "My sister's wish is also my wish... And this power is the power with which she will break open the future!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而姐姐的技能就如同你猜测的那样，我就不在此赘述了。",
+			say = "If you seek to defeat her, you will have to get past my shikigami first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}，汝就为了这个，就让一半人退场了么？！",
+			say = "Akagi... Is there anything, or anyone, you won't sacrifice for the sake of power?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1048,7 +1048,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊，不然呢？而且，我就要因此而取得胜利了哦？",
+			say = "Hahaha... You know nothing of the world, child. With this, my victory is assured!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1065,7 +1065,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "失败者就请在一旁看好，接下来，是属于胜利者的表演时间了——",
+			say = "Now, bear witness to my convictions, the path that I've chosen! The winds that shall carry us to our future!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1081,7 +1081,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵呵呵，哈哈哈哈哈哈哈————",
+			say = "Heehee... Ahahahahaha!!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg14",
 			stopbgm = true,
-			say = "大棋盘·{namecode:82}控制区 第九回合",
+			say = "Exercise Area - Turn 9 (Mikasa's Action)",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，果然对我发动攻击了，还好吾的机动护卫能连自己也护卫上。",
+			say = "Damnit... I can't move my rigging anymore after taking that shockwave head-on... I think I'm done for...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这下大前辈你的猜测就完全证实了呢。",
+			say = "But... this proves that Mikasa's intuition was right. Akagi's trying to thin out our ranks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，果然如此……既然已经证实了猜测，就必须要针对一下了。",
+			say = "We'll have to respond accordingly. We can't let her get away with this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,40 +92,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "暂停对中心的攻略，{namecode:140}你撤出来吧，前往据点CD34内休整。只要我们控制住侍从退场的数量，就能遏制住{namecode:91}的战略。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			actor = 305110,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "现在临近终盘，如果她再不行动进攻中心据点的话，按照目前的积分，胜利的就是{namecode:74}的了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "{namecode:91}才是着急的那一边，我们以不变应万变，等待她的下一步行动。",
+			say = "Hatakaze, retreat while you still can. I don't know how much time we have, but we need to stall as long as possible while there's still no clear route to capturing the tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +109,40 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:181}{namecode:65}继续进攻据点AB12，帮助{namecode:74}大人占领这个据点。",
+			say = "If we can hold out until time runs out, Nagato will be the winner.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "Musashi... No, her and Akagi too, are both on a timer. We just need to keep things under control.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			actor = 305110,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Haguro, Kinu, can the two of you take the rest of the mass-produced ships to help Nagato take the remaining bases?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "了解……包在我们身上。",
+			say = "Understood. Safety in numbers, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来的唯一变数就是{namecode:84}……不过她只有一架航母，不论如何也不可能越过中心区消灭刚刚进行过两次恢复的{namecode:140}。",
+			say = "Precisely. The biggest toss-up is what Musashi plans to do, but if we can get Hatakaze patched up this turn, Musashi will have to decide if it's worth for her to finish the job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯……{namecode:70}前往E4，我亲自看住D5，这样就万无一失了。",
+			say = "Kongou, move north to make sure Musashi can't attack without crossing through the Siren-controlled central area first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，这样一来，{namecode:84}大人就是想闯过中心区域强攻也不可能了呢。",
+			say = "Leave it to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错。我已经做了所有能做的准备，接下来就让局势自然发展吧。",
+			say = "(This is my test to the two of you, Musashi and Akagi. You thought Hatakaze would be easy pickings, but let's see what you're willing to do to thin out our numbers.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			say = "大棋盘·{namecode:74}控制区 第九回合",
+			say = "Exercise Area - Turn 9 (Nagato's Action)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 301570,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人，针对据点AB12的攻击结束了，我们又拿下了一分。",
+			say = "Lady Nagato, we've finished capturing this point as well! That's one closer to victory!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾知道了，非常感谢二位的协助。",
+			say = "Thank you for your efforts. That goes for Hiei and Haruna as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 304020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人，我们这边也结束了，我们成功赶在{namecode:84}大人前面抢下了据点IJ78。",
+			say = "We were able to impede Wakatsuki long enough to capture the base without having to engage in direct combat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人，您能够抓住机会进行如此果断的行动，令我十分佩服……",
+			say = "As expected... Nagato isn't going to take the bait, and I can't get through those battleships...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾是不会攻击汝的，但是视线所能及的一切据点，吾都要收下。",
+			say = "Once a base has been captured, it cannot be taken away by someone else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			actor = 301880,
 			nameColor = "#A9F548FF",
-			say = "如果{namecode:84}大人不命令我阻止您的话……{namecode:225}只能祝您一切顺利。",
+			say = "If not for these orders... I would be wishing for your success, Lady Nagato...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾的行动结束，{namecode:84}，{namecode:91}，出招吧。",
+			say = "...Thank you. That concludes my turn.",
 			painting = {
 				alpha = 0.3,
 				time = 1

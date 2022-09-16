@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg11",
 			stopbgm = true,
-			say = "大棋盘·{namecode:74}控制区 第七回合",
+			say = "Exercise Area - Turn 7 (Nagato's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:74}大人，大前辈居然刚刚没有打掉那个据点？！是计算失误了么……",
+			say = "Lady Nagato, why did Mikasa leave that base before clearing out all the enemies? Is this some sort of miscalculation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非也，那里是故意而为之……",
+			say = "No, she most likely did that on purpose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			say = "{namecode:74}看向{namecode:82}的方向，有些犹豫地打开了通讯器。",
+			say = "After defeating the rest of the enemies occupying the base node, Nagato looked into the distance towards Mikasa and opened a communication channel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:82}，那个据点是汝故意留给吾的吧。",
+			say = "Did you leave that base for me on purpose, Mikasa?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正是。",
+			say = "That's right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常感谢……",
+			say = "Th-thank you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚刚汝入场，虽然保护的是{namecode:65}，但{namecode:65}是因为保护了{namecode:157}才会被攻击的……再次感谢。",
+			say = "You protected Harutsuki until you yourself joined the battlefield... I, I cannot thank you enough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无妨，反正在里面坐的时间也够长了。",
+			say = "Don't worry about it. The tea party up there was making me sleepy, so I needed a change in scenery.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#A9F548FF",
-			say = "如此美妙的棋盘，不亲自进来体验一下也太可惜了，不是么？",
+			say = "Since we don't get an opportunity to experience a place like this every day, I figured it'd be nice to take advantage of the front-row seats.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最后……抱歉。",
+			say = "Regardless, I must thank you again...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#A9F548FF",
-			say = "呵呵，你怎么突然跟我客气起来了。",
+			say = "What's wrong? You sound like you're about to cry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有什么事等赢了之后再说。现在还在战场之上，大将犹豫不定成何体统？贯彻你的路线坚定行动吧。",
+			say = "Remember what Musashi said? This domain reflects your mental imagery and your convictions. If you don't keep your will strong, you'll be put on the back foot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好，那吾就不客气了。",
+			say = "I just need to believe in my ideals... and capture this base without hesitation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			say = "通讯结束，{namecode:74}深吁了一口气，原先的犹豫逐渐褪去，变成了一副坚毅的神色。",
+			say = "Nagato ended the communication, repeating Mikasa's words in her head again and again, a slight sigh escaping from her lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼…………{namecode:158}前往F2，配合{namecode:95}拿下边界据点EF12。",
+			say = "Alright... Kawakaze, Shoukaku, let's move on to the next base. We can't wait for Mikasa to serve everything to us on a silver platter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:72}移动至G4，{namecode:71}移动至H5，与吾一起维持住对{namecode:84}的防御阵型。",
+			say = "Haruna, Hiei, the two of you should make preparations to attack the central base.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:157}就地展开回复结界，让所有人都休息一下。",
+			say = "Harutsuki, the two of us will go check on Sakawa and Miyuki. If you have any emergency repair supplies left, we'll give those to them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:74}大人，{namecode:5}和{namecode:226}也在{namecode:157}的恢复范围内哦……？",
+			say = "Understood!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "无妨，去做吧。",
+			say = "Focus on healing anyone who needs it. We do not make foes amongst ourselves in the Sakura Empire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "是————接下来是来自{namecode:157}的结界「春意盎然」，大家都好好休息一下吧~",
+			say = "Are these the rest of your emergency repair supplies? Thank you, Lady Nagato! I'll be sure to put them to good use!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			say = "{namecode:157}轻轻舞动起手中的神乐杖，如同{namecode:139}一般的绿色雨点从天空落下，将周围的所有人都笼罩其中。",
+			say = "Harutsuki waved her gohei around and offered an earnest prayer. Miraculously, some of the signs of damage on Miyuki's and Sakawa's riggings seemed to recede.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 301040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼啊~身上有种暖洋洋的感觉……谢谢{namecode:157}~",
+			say = "Woah... What a warm sensation... Th-thank you very much...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:74}大人，你为什么要给我们提供回复呢，我们正处于对抗状态吧？",
+			say = "I can feel Harutsuki's prayers healing me up! Ahh, even after everything I've done, you're still so kind to me, Lady Nagato!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾认为，相互战斗没有益处，吾想寻找一条不相互争斗也能取胜的道路，仅此而已。",
+			say = "Sakawa, I know why Musashi sent you over and over. But no matter how many times she tries, she will not shake my resolve.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此胸襟，不愧是{namecode:74}大人……不过，如果{namecode:84}大人有命令的话，我还是不会手下留情哦。",
+			say = "Look, I really appreciate you giving me the benefit of the doubt... But if Musashi orders it, I'm going to have to attack you again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不用介意，到时候汝尽管出招即可，不过，现在就在此处享受片刻的安宁吧。",
+			say = "We'll cross that bridge when we get there. But nothing changes the fact that you're also a member of the Sakura Empire and one of our friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎嘿嘿……那我就不客气了。",
+			say = "Ahh, you're so pure-hearted it hurts to look at you! Buuut, you'd better be careful not to let others take advantage of that~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚刚{namecode:157}发动的结界名字是叫春意盎然对么？如同令人置身于翠绿色的春雨之中一般……真可惜{namecode:206}没过来看看！",
+			say = "Musashi was right about one thing - this place definitely HAS been quite the experience. Too bad my sisters aren't here to witness it as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#A9F548FF",
-			say = "{namecode:226}，你知道{namecode:206}去哪儿了么？",
+			say = "Speaking of your sisters... I haven't seen Yura in a while. Do you know where she is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不知道诶……她之前被{namecode:84}大人派出去执行任务就没回来，我也不知道去哪儿了。",
+			say = "Hmm... I heard Musashi gave her some top-secret mission not too long ago, but I obviously don't know the details beyond that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大前辈找她有事么？",
+			say = "Why, did you need her for something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#A9F548FF",
-			say = "没事，只是随口问问而已。",
+			say = "No, I was just curious.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……如此一来，吾的行动也结束了。",
+			say = "Phew... That concludes my turn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:84}，接下来汝要如何出招呢？",
+			say = "I can only hope Musashi comes to understand my intentions.",
 			painting = {
 				alpha = 0.3,
 				time = 1

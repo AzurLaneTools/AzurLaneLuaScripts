@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "稍早前的会客室中——",
+			say = "Sanctuary Pagoda - Reception Room",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}……你居然想把第一送给{namecode:74}啊。",
+			say = "There's nothing wrong with letting someone else win. But do you know what it means to entrust your will to someone else?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "桌面上的三杯清茶余温未尽，但会客室内已冷清无比。",
+			say = "Musashi now sat alone at the board, quietly overlooking the situation in the exercise area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "原本以为你更有格局一些呢……",
+			say = "Unlike Nagato and Akagi, you already have true strength. It is unsurprising that we would not be able to see eye-to-eye.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "在{namecode:84}眉头微皱之时，一阵熟悉的鸟鸣声由远及近，最后轻巧地落在了{namecode:84}的肩头。",
+			say = "Just as Musashi furrowed her brow in discontent, a familiar chirping sound came from the window. A small bird gently landed atop Musashi's shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "又是你这个小家伙，不是让你找个别的地方去避雨么。",
+			say = "So you came again. Did I not say that this pagoda would not shelter you from the elements?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,52 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "风暴已如此接近，你却还在此处踟蹰……也罢，想留就留吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
-			say = "燕子轻轻叫了几声，似乎对于这个回答格外满意。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "你这小家伙真是有趣……既然这样，燕子啊燕子，我考考你。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "你说，这棋盘之上，何人会输，何人会赢呢？",
+			say = "But if you insist on being my companion... I can at least keep you safe through the coming storm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "燕子似乎听懂了一般，歪头盯着桌子看了看，然后摇了摇头，继续梳理羽毛去了。",
+			say = "As if buoyed by Musashi's words, the fledgling swallow chirped a few times.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "汝看不懂是么……呵呵，也是啊，有些难为你了。",
+			say = "What an interesting one you are... Now, I have a little question for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,12 +155,57 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "Who do you think will be the winner of this \"exercise?\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg6",
+			hidePaintObj = true,
+			say = "Musashi gestured to the holographic display in front of her, and the swallow fluttered its wings a few times as if to respond.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "Haha, that question may indeed be too difficult for you... just as it is for me.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			side = 2,
-			say = "滴——滴——滴————",
+			say = "BEEP! BEEP! BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "{namecode:84}身边的通讯器突然响了三声，然后沉寂下来。",
+			say = "The communicator next to her beeped three times in warning before falling silent again. Musashi returned her gaze back to the board.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "第七回合还没结束，有些人就已经等不急了么……",
+			say = "Now that everyone has gathered around the tower... Let us put an end to this game.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "呵呵，也罢。那就让本日的重头戏开始吧",
+			say = "I have assembled the pieces for you. I have brought you before the power you seek.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "吾会如约让汝在今日登上华丽舞台的正中央，成为整个重樱内当之无愧的焦点。",
+			say = "But I can do no more than to set the stage for you. Whether you can become the star of this show... now depends on the strength of your will.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "……毕竟这舞台，本就是为你量身定制的啊，呵呵呵……",
+			say = "Make the most of this performance, o feeble child.",
 			painting = {
 				alpha = 0.3,
 				time = 1

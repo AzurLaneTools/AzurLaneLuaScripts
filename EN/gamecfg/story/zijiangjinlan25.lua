@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg12",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第八回合",
+			say = "Exercise Area - Turn 8 (Akagi's Action)",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔啊啊啊啊啊阿，要被击沉了要被击沉了要被击沉了！",
+			say = "Woaaaah... I could've sworn I was going to sink! My head's still spinning...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			actor = 301040,
 			nameColor = "#A9F548FF",
-			say = "冷静点{namecode:79}……已经没事了。",
+			say = "Y-Yamashiro... Are you still able to stand...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "倒不如说你居然能没事啊……",
+			say = "What incredible tenacity. Is that the strength of your determination to overcome bad luck?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还好我的保命技能「神乐舞」可以锁血啊！不然就要瞬间下场了呀！",
+			say = "Ehehe... I'm not sure what happened, but, I kept thinking about how I didn't want to let everyone down! And then, it didn't hurt anymore!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚刚那是什么情况啊，怎么一下子退场了三个人？！",
+			say = "Wait, huh? Are we missing some people? Where did Chiyoda and Suzutsuki go? And is Kirishima gone too?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是危机四伏的战争哦。局势瞬息万变，稍有不慎便会粉身碎骨。",
+			say = "That tower almost took all four of you down in a single blow. I always had a feeling you couldn't just march right up and capture it, but I never expected something like this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈是真敢应邀，但我的策略可不是随便观察几下就能理解的。",
+			say = "Musashi aside, I can see Nagato and Mikasa preparing to attack this tower as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不清楚情况就盲目跟在我后面想要反制我，结果呢？呵呵呵~",
+			say = "Do they think we can still work together? Or are they trying to seize victory away from me at the last moment? Not that it matters in the end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:91}前辈，新的回合开始了。",
+			say = "Akagi, it's your turn again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本回合的事件卡是「天晴浪高」，按效果所说，在本回合内所有战列舰得到强化的同时，所有驱逐舰会获得减益。",
+			say = "After the tower's last attack, the turbulence in these waters has made it harder for certain ships to operate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啧……是大前辈准备的战列舰特化卡啊。",
+			say = "I see... Meanwhile, battleships have greater stability under these conditions, giving them a significant advantage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是个喜欢沉湎于过去的人……也不看看现在是什么时代了。",
+			say = "But we're hardly old-fashioned ships prone to being battered around by the waves. This won't affect how we proceed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}，接下来要继续进攻中心据点么？",
+			say = "Akagi, should we continue attacking the tower?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，中心据点接下来会有点麻烦，现在还不是时候。",
+			say = "No, we need to regroup and investigate the tower more thoroughly. It's clear that it cannot be captured through conventional means.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "首先把阵型收回来，观察一下局势再做决定。{namecode:5}，你的情况如何？",
+			say = "Everyone, get back into formation first. Miyuki, how's the situation over there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 301040,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}大人，非常抱歉……周围都是其他侍从的控制区，{namecode:5}还是没法回来。",
+			say = "I, I'm seeing increased activity from mass-produced ships! Should I continue observing them and alert you if they're headed your way?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……看来她们铁了心是要卡住你了。你先安心呆在那里，等到{namecode:82}的止戈效果结束后我另有安排。",
+			say = "Very well. You'll have safety in numbers around Mikasa's forces. I'll be in touch with you later, Miyuki.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 301040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。",
+			say = "Understood!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只是收回阵型……这回合不进攻其他据点么？",
+			say = "Um... Is there anything I can do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也不是不能打，就是打的话，又要麻烦你去当先锋吸引火力了哦？",
+			say = "You don't look like you're in any condition to fight, so you might as well head back and try to capture some of the perimeter bases we skipped over, and see if you can find any emergency repairs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不不不不不了不了，大家还是花时间恢复一下，恢复好了再打嘛！",
+			say = "O-okay, thank you very much! But wow, that attack from the tower was something else!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵呵，这件事就交给你了哦，{namecode:179}。",
+			say = "Ryuuhou, go with Yamashiro and cover her until she can patch herself up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，尽管放心包在我身上！团队回复的事就交给我的「樱绽凤华」吧~",
+			say = "Yes ma'am! I haven't seen much action for a while, so it'll be a nice change of pace to go back and capture some bases.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_fuxiangxian_0",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "帕克菲克洋·铁血浮岛要塞",
+			say = "Iron Blood Floating Fortress",
 			bgm = "battle-midgard-hunting",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……就是这里了吧。之前那次镜面海域生成设施不是被破坏了么，没想到又重新修好了啊……不愧是铁血。",
+			say = "Phew, I really need to ask for overtime pay when I get back... Anyway, I heard this place was attacked by a real Siren and almost blew up after their last experiment, but everything seems back to normal now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,12 +54,12 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_0",
 			hidePaintObj = true,
 			side = 2,
-			say = "请出示身份证明————",
+			say = "Please state your identity and security code.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重樱航空母舰{namecode:96}，前来进行外交访问。验证编码为————",
+			say = "I'm Zuikaku, aircraft carrier from the Sakura Empire. I was sent here on a special mission by Musashi, and my code is, uh... Hold on a sec...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,19 +87,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_0",
 			hidePaintObj = true,
-			say = "{namecode:96}面对空无一物的水面，对着突然从通讯器中响起的声音报上了身份与识别码。",
+			say = "Facing the vast blue expanse in front of her, Zuikaku announced her identification and code into the communicator that had been prepared in advance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_0",
 			hidePaintObj = true,
 			side = 2,
-			say = "身份已验证成功，欢迎您的来访，{namecode:96}小姐。",
+			say = "Authorization complete. Welcome to the floating fortress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "在验明身份获得进入许可后，巨大的铁血浮岛要塞随即出现在眼前。",
+			say = "Almost as soon as she completed the authorization process, Zuikaku was sucked into a Mirror Sea, the clear blue skies outside replaced with an ominous darkness.",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………这也是某种全新设计……？此前的镜面海域并没有这种东西啊……",
+			say = "Huh, this security check wasn't here before. Did they just put it in?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要知道具体位置不论什么人都能进来……镜面海域不就是这种东西么？",
+			say = "Usually, you can tell you're in a Mirror Sea because of some strange storm or sea fog... But I guess the verbal prompt made it seem a lot more inviting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到设计了某种进入认证，是为了防止再被塞壬渗透进来么……",
+			say = "Having a bit more security isn't a bad thing though, since there was that Siren breach last time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "{namecode:96}一边思考着，一边穿梭在要塞巨大的构件之中。",
+			say = "Zuikaku looked around at the grotesque facilities around her as she went deeper into the floating fortress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "虽是故地重游，但她还是惊讶地发现，映入眼中的风景相比于上次到访已经发生了翻天覆地的变化。",
+			say = "Almost everything had changed since her last visit, from the layout of the facilities to the position of the islands. Zuikaku chuckled wryly to herself when she noticed some out-of-place map displays that made the place seem like a theme park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "一路上，除了各处或是宣示警戒或是协助导航的语音，{namecode:96}没有碰到任何一个人。",
+			say = "Nobody was there in the Mirror Sea to greet her. Only the mechanical rumbling and grinding of Siren factories and test sites reached her ears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,24 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "所见之处只有在自动化运行的各类工厂设施，以及在设备间穿梭的，不知由何人操控的量产型。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "有种好奇怪的感觉……上次来的时候这里还是训练场，现在已经变成某种巨型生产基地了么……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "For a brief moment, she felt as if she was the sole audience member in a grand symphony.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且……怎么会一个人都没有。",
+			say = "Well, that's odd. I could've sworn this place was an empty test site before. And now, there's an entire factory sitting here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "铁血要塞虽然历来都有种阴森的气氛，但是今天这个……格外阴森啊。",
+			say = "And this is all running without anyone attending it? That's pretty spooky.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,46 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………如果不是身负{namecode:84}大人的正式命令，我真想掉头回去…………",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			say = "跟随着通讯器中没有任何感情的机械音，{namecode:96}最终来到了一处高塔前，这里似乎是铁血要塞的核心位置。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			say = "而在高塔之前，{namecode:96}在一个如同入口雕塑的设施上发现了一个似曾相识的“物件”。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "镶嵌在其中的……难道是“海若”？",
+			say = "I guess this really goes to show, you can't renovate the Siren out of Siren tech. I won't ever NOT get goosebumps from being in a Mirror Sea...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +286,46 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不对不对……海若不是早就跟随{namecode:182}大人的舰队返回本土了么，大前辈也是这么说的肯定错不了。",
+			say = "This isn't exactly my prime choice for a vacation spot either. Had Musashi not sent me, I...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			say = "Zuikaku followed the instructions from the voice that occasionally piped up through the communicator, eventually making her way to a tower that served as the Mirror Sea's control facility.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			say = "As she made her way through the entrance, she noticed a certain familiar object placed on a plinth near the door.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Is that... the Watatsumi?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +342,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那这个究竟是什么东西……？",
+			say = "Wait, hold on, there's no way that's possible. Watatsumi should've already been brought back home. At least, that's what Mikasa told me...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Then, what the heck is this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "{namecode:96}走到近处，仔细观察着面前被镶嵌入机械结构的“神石”状物体。",
+			say = "When Zuikaku approached the plinth, she could clearly see that a machine was hooked up to the Watatsumi-like object at its base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
 			side = 2,
-			say = "尺寸不对，颜色不对形状也不对……好奇怪，刚刚我为什么第一眼会把它当成海若呢？",
+			say = "Wait, now that I'm seeing it up close, it looks nothing like the Watatsumi. Why did I think they were the same thing in the first place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎你的到来，{namecode:96}小姐。",
+			say = "Welcome back to the floating fortress, Zuikaku.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,24 +417,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一旁突然出现在空气中的影像打断了{namecode:96}的沉思。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "您是……铁血的俾斯麦？！",
+			say = "Zuikaku's thoughts were quickly pushed out of her head when a floating screen next to her suddenly came on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之前在对战构建者的决战时，从广播中听闻您的身体已经康复的消息，真是令人无比振奋。",
+			say = "Woah, is that Bismarck?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过据我所知，在腓特烈大帝走后您现在应该接过了铁血的领导权，应该位于铁血本土才对……",
+			say = "Man, was I surprised to hear your voice during that fight against Compiler. I'm glad you're doing well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为什么您现在会出现在这里？！",
+			say = "But, aren't you supposed to be back home after Friedrich departed?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且……我面前这个镶嵌在装置中的物体究竟是？",
+			say = "How'd you know I was here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +502,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它和我们的神石海若之间有什么关系么？",
+			say = "Oh, and what's the stone over there with the machine hooked up to it?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Does it have anything to do with our Watatsumi?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，你一次问的问题太多了，{namecode:96}小姐。",
+			say = "Calm down, Zuikaku. I won't be able to answer your questions if you keep firing them out one after another.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……非常抱歉，一下子稍微有点震惊就……",
+			say = "Oh, my bad... There are just too many thoughts going through my head right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "没关系，总之进来聊吧。",
+			say = "Don't worry about it. Come in first, there's a lot I'd like to show you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我相信你有很多问题，而在你完成任务返回重樱之前，我有很长时间可以替你解答呢————",
+			say = "I know you have a lot of questions for me, and I intend to answer as many of them as I can before you return to the Sakura Empire.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg12",
 			stopbgm = true,
-			say = "大棋盘·{namecode:84}控制区 第七回合",
+			say = "Exercise Area - Turn 7 (Musashi's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			say = "{namecode:74}的选择让剑拔弩张的气氛得到了缓解，不过随着{namecode:84}行动的开始，{namecode:226}的身边突然出现了众多飞舞的紫色蝴蝶。",
+			say = "When Musashi's turn rolled around, Sakawa, who was still with Nagato's fleet, suddenly found herself surrounded by purple butterflies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个是……{namecode:84}大人的指挥卡么？",
+			say = "What is she planning to do this time...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错哦，其名为——指挥卡「如梦似幻」！在本次行动轮中，所有己方侍从对于据点的伤害提高50%。",
+			say = "I suppose I'll be heading towards the tower now. These butterflies seem to be patching me up and making me stronger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以不用紧张，我们之间暂时不用战斗了。",
+			say = "Lady Nagato, I think you've gotten your point across! Hopefully we won't have to fight anymore!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "既然{namecode:91}大人和{namecode:82}大前辈都对中心据点发动了进攻，{namecode:84}大人也不能落后啊~",
+			say = "I was just wondering why we had to jump through so many hoops in the first place. I thought there'd be a lot more competition over the big 10-point base in the middle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			say = "{namecode:226}看向屹立在海域中心的黑色高塔。即使历经了之前的猛烈战斗，那座高塔似乎依然没什么破损的迹象。",
+			say = "Sakawa looked towards the imposing tower in the middle of the exercise area. Akagi had tried to scout it out earlier, but waves of Siren enemies made any movement around the area difficult.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			say = "而在高塔之下，{namecode:27}和{namecode:104}已经就位了。",
+			say = "One after another, ships from the four fleets began to arrive around the tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "比起远望时的压迫感，近距离下观察这个塔，感觉……简直就像某种拥有心脏的活物一样……",
+			say = "That ominous red aura was spooky enough from a distance, but up close, the thing looks like it might even be alive!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要用这么恐怖的形容词啊……这不只是一座机械塔而已么。",
+			say = "Ugh, please don't say that. The way the light is flickering makes it seem like it's breathing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 301880,
 			nameColor = "#A9F548FF",
-			say = "说起来……为什么四个区域据点里是人型塞壬精英，到了中心据点却只有一座塔呢？",
+			say = "The other four facilities here were some of the Sakura Empire's most sacred sites... So why would this Siren facility be sitting in the middle of this whole place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "听说之前打倒构建者的时候，{namecode:91}大人一行人也破坏了一座塔。",
+			say = "Do you remember hearing from Akagi and the Commander that they also had to destroy some kind of tower during the Iron Blood rebellion?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许这个塔，代表的是某种塞壬的高级形式吧？",
+			say = "Do you think this tower represents some higher form of Siren?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬的高级形式……？看起来也没什么了不起的，{namecode:103}姐，我们一起上吧。",
+			say = "How much \"higher\" can it be if it lost the ability to move around? Chitose, let's go smash that thing up, just the two of us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯，让中心据点见识一下我们连携技的威力——",
+			say = "O-okay...! Um, also, I've decided on a name for our combo attack... F-Featherstorm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇哦~哼哼哼，{namecode:84}大人让我使用技能的指令终于下来了！",
+			say = "Is everyone showing off the special techniques they've developed here? I guess I have no choice but to join in on the fun myself––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是时候让大家，还有我自己见识一下，我所设定技能的恐怖威力了！看招，「{namecode:226}鬼神斩」——————！",
+			say = "Ahem! ...I am the piercer of the blue waves, inheritor of the Rakshasa's blade! True Demon Slash!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			say = "{namecode:226}身后突然出现了一个逐渐凝聚为实体的巨大的影子，挥舞着近百米的长刀，对水面发出了猛烈一击。",
+			say = "Sakawa and Wakatsuki both unleashed a blade of light from their riggings, the rippling bolts of energy expanding to several times their original size as they hurtled towards the tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			say = "产生的剑气劈开海水，向着塔身冲去。不过比剑气更先到的是舰载机的机炮与炸弹，猛烈的攻击让塔身逐渐出现了裂缝。",
+			say = "Chitose and Chiyoda's combination attack also landed a direct hit on the base of the tower, a plume of flame and smoke quickly rising in the aftermath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			say = "紧接着，数道细小的冲击波凭空出现，对水面上的{namecode:27}等人发动了反击。",
+			say = "But in a heartbeat, the tower released a nigh-intangible shockwave back at the shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯……跟我们之前进攻的结果一样，被攻击次数增多，反击次数也变多了。不过伤害就……",
+			say = "It absorbed our attacks, just like before... Except this time, the shockwaves seem to be stronger corresponding to the strength of the attacks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "作为中心据点，单次反击的伤害居然还不如区域据点高，这太反常了。",
+			say = "That's not much of a \"counterattack\" though - it's barely enough to rock the waters. That can't be all there is to this tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我注意到了一件事……你们仔细看塔的状态栏，有人能看清它的具体状态么？",
+			say = "Wait, there's something different about the tower now. Do you see any differences in the pattern of light coming from it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔……嗯？模块的数量在不停变化……？",
+			say = "You're right, it's not the same as before. Do you think it's reacting to the attacks we just threw at it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有猫腻。它不想让我们看清自己的状态，说明这座塔正在刻意隐藏着什么。",
+			say = "It's too early to say... But if it's like the tower the Commander encountered during that battle, there might be something nasty sleeping inside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "确实，感觉值得再观望一下……",
+			say = "Those weak shockwaves won't even leave a scratch on us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			say = "在众人的观察中，{namecode:84}结束了回合。不过第八回合没有开始，而是进入了结算阶段。",
+			say = "However, the moment Musashi's fleet stopped attacking, a blinding flash radiated out from the tip of the tower, tearing violently through the entire domain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结算阶段……？哎？这回合没什么要结算的啊。",
+			say = "Wh-what in the world was that?! The tower's counterattacking for real now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个光芒是…………大家小心，有什么事要发生了！",
+			say = "Damnit, I spoke too soon... Watch out, everyone! Something's totally different about that tower!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			say = "无声的光芒散去之后，原本位于中心据点周边的{namecode:73}、{namecode:27}、{namecode:104}和{namecode:79}都消失了，一个新的身影出现在水面上。",
+			say = "When the shipgirls gathered their senses from the previous shockwave, they quickly noticed that Kirishima, Suzutsuki, Chiyoda, and Yamashiro were no longer present. Instead, they had been replaced by Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#ff5c5c",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "开玩笑吧……满状态的{namecode:73}，被直接消灭了？！",
+			say = "Kirishima... got taken out in one blow?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道塔是把本回合受到的所有伤害全部释放给了周围的人么……",
+			say = "I guess the first pulse was just a warning shot... This tower seems to throw back all the energy we pump into it, several times over...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大意了，没想到还有这种机制，应该再观察一个回合的……！",
+			say = "Did the Commander also have to fight against an enemy like this, or...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……真是惨状。可是令人不解啊……这是{namecode:84}设计的棋局她应该对规则心知肚明吧？",
+			say = "Three of Musashi's retainers were taken out in a single blow... They aren't even present in the domain anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为什么明知会发生这种事，还要把自己的两个人送进去？她这么做的目的究竟是……",
+			say = "If Musashi designed this place, shouldn't she have been aware of exactly what she's up against? Why did she waste her own troops like this then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……大前辈，中间出现的人型，是塞壬么？",
+			say = "G-Great Veteran, look over there at that Siren...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不知道，看起来是塞壬人形的风格，但是我没见过它。",
+			say = "The Arbiter that appeared in the NA Ocean...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "吾也没见过。",
+			say = "It must be a vessel...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:74}大人，我感觉她有点眼熟，我好像之前见过这个塞壬。",
+			say = "I see. I've heard all about the Commander's exploits in the NA Ocean, but it seems these towers are guarded by Arbiters...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵呵，这就是你所准备的惊喜么，{namecode:84}？",
+			say = "Is this the surprise you prepared for us, Musashi?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是连我也大吃一惊啊，不是说好的观察者，而是这个塞壬的仲裁机关，仲裁者·赫米忒·IX。",
+			say = "I'll admit, I'm impressed. How did you manage to procure data on an Arbiter and even manufacture a vessel for it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:95}，你的记忆力没错。你与我都见过它，之前在NA海域中心就是她让我们吃了个大亏，还记得么？",
+			say = "Shoukaku, you remember this Siren too, don't you? We encountered it briefly in the heart of the NA Ocean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当时具有腐蚀性的海雾就是这东西使出来的伎俩，我绝对不会忘记这家伙的样子的。",
+			say = "I won't forgive it for what it did... Making such a vile imitation of Amagi...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵，如此近距离一看做的真是逼真又还原啊，一下子消灭了三个人么……",
+			say = "Hahaha... Hahahahaha... Even if you're nothing more than a vessel, I'll make you pay!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,7 +730,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵呵，这才是与演出高潮相匹配的战斗力！就让我来华丽地，把你消灭掉吧！",
+			say = "If this is what I was invited here to do, then I will entertain you, Musashi!",
 			painting = {
 				alpha = 0.3,
 				time = 1

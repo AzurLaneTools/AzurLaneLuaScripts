@@ -17,7 +17,7 @@ return {
 			actor = 307080,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "{namecode:84}，妾身发现了一系列比较在意的事，因此发来了这封联络。",
+			say = "\"From Aircraft Carrier Shinano, to Musashi\"",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "博览会举行首日，妾身在会场中发现了不寻常的气息。",
+			say = "\"...I apologize for contacting you so suddenly, but something happened at the Expo that must be reported on.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在妾身第一时间提醒了维内托之后，问题似乎被撒丁帝国在暗中解决了。",
+			say = "\"Sardegna managed to resolve the underground warehouse incident involving the Mirror Sea.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，在那之后妾身依然隐约有些不协调感，而且异样感一直没有消失。",
+			say = "\"But my sense of restlessness, as well as the dream that I've been having, have not gone away.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这件事妾身还在调查之中，也许只是错觉吧。",
+			say = "\"This may be due to other factors, and I plan to follow up at a later date.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后的几日，会场中十分和平。各大阵营都严格遵守了停火协议，没有发生冲突。",
+			say = "\"During the World Expo itself, all the factions seem to be on cordial terms with one another. There is nothing out of the ordinary to report in that regard.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "塞壬也没有来捣乱，听撒丁帝国说，整片陆间海都没有出现塞壬袭击。",
+			say = "\"While the Sirens have remained silent in the Mediteranée, I was notified of a situation that developed around the Royal Islands.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然而在第六日，塞壬似乎对皇家群岛发动了一次规模介于试探与进攻之间的不大不小的突袭。",
+			say = "\"Sources from the Naval HQ claimed that the Sirens launched an attack on the Royal Navy as an act of retaliation for the Iron Blood rebellion.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最合理的猜测是，这是塞壬对于此前皇家在NA海域中行动的报复。",
+			say = "\"The attack was said to have been medium-scale, with the objective of probing the Royal Navy's capabilities.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过这次事件的异常之处有三点——",
+			say = "\"However, there are a number of incongruities with this account that I will record thusly.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其一，皇家舰队根本就没有参与针对构建者主机的作战行动。",
+			say = "\"First: the Royal Navy was absent from combat operations against Compiler.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其二，NA海域在构建者的主机被消灭后，塞壬的控制力已经大幅减弱，此等规模的舰队究竟是如何被组织起来的令人生疑。",
+			say = "\"Second: there were no signs of a breach, and there were no reports of the Royal Navy having located an incoming Siren fleet.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其三，这次袭击似乎也在皇家的预料之中，因为伊丽莎白女王早就部署了大量舰队因此没有受到太大的损失。",
+			say = "\"Third: despite the second point, the Queen already had forces ready to intercept the attackers, as if she had prepared for them in advance.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也许其中另有隐情，妾身也在调查之中。",
+			say = "\"I will continue to investigate this matter while continuing my activities at the World Expo.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但，倘若真是塞壬的报复行为，那吾等一定要小心。",
+			say = "\"If the threat of Siren retaliation is indeed imminent, the Sakura Empire must be vigilant as well.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请一定要提高警惕。",
+			say = "\"I cannot stress this enough - do not let the Watatsumi fall into the wrong hands. This, I beseech of you.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:182}敬上。",
+			say = "\"...This concludes my report.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

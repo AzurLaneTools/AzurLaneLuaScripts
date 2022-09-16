@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "与此同时的会客室中——",
+			say = "Sanctuary Pagoda - Reception Room",
 			bgm = "theme-shinanometa",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "雷声轰隆，暴雨倾盆。",
+			say = "Lightning flashed, thunder roared. A storm had begun raging outside the pagoda.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "{namecode:84}没有点灯，只是静静坐在愈发昏暗的会客室中注视着棋盘。",
+			say = "Musashi continued to sit alone in the dark room, lit only by the holographic board to which her eyes were fixed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "凭借你的智慧，应该已经猜到{namecode:91}的意图了吧……",
+			say = "Until now, there was nothing I could do for you. But now, I shall grant your wish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "呵呵，没错，退场的人越多，{namecode:91}就越强。",
+			say = "Yes, Akagi... Your audience still awaits.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "现在已经退场了5人，再这么继续下去，可能会发生非常恐怖的事哦。",
+			say = "Your tenacity, your willpower. The path of thorns you've chosen to tread that earns you nothing but scorn and distrust.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "当然，我会全力帮助{namecode:91}实现这一意图就是了。",
+			say = "To unleash that passion bordering on madness, you need to sever all your ties.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}，虽然你有意保护{namecode:140}，但是……能撑得住吾这一轮攻势么？",
+			say = "For your weak self to finally become strong... I shall give you the final push you need.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "{namecode:84}打出的指挥卡在小棋盘上化为一把利刃，笔直地插在了{namecode:140}所在的位置。",
+			say = "An order was given. Rings of light appeared beneath Chitose and her mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "紧接着，{namecode:103}的位置上出现了一队舰载机，对{namecode:140}进行了一轮猛烈轰炸。",
+			say = "Wave after wave of planes began to pour out from them, the humming of engines filling the sky as the metallic flock descended upon the still-injured Hatakaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "闪光过后，{namecode:140}从棋盘上消失了。",
+			say = "Musashi knew that Mikasa lacked the ability to ward off a large-scale aerial assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这样一来就是6人退场。很遗憾，看来汝没挡住呢……",
+			say = "Join forces all you'd like. But alliances that fail to produce results are worthless, nothing more than vacuous words on a page.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "那就再进一步，让{namecode:226}{namecode:103}一起进入中心据点的控制区好了。",
+			say = "In order for the Sakura Empire to move forward, our convictions must all be subject to a trial by fire, where every benefit and every flaw is brought before the light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "然后是{namecode:74}那边……吾又让{namecode:225}进攻了一个小据点。",
+			say = "Are those ideals strong enough to bear the burden of our future, or are they nothing more than self-serving whims?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:74}应该也差不多看懂吾的意图了……当然，就算没明白也肯定会紧追而上。",
+			say = "I may not agree with Akagi's ideals in their entirety, but I believe she does deserve the opportunity to fight for them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "既然下决心想要用积分取胜，那每一分就无比关键……",
+			say = "Similarly, Nagato must get the opportunity to show that her will to protect is not pacifism or isolationism, but rather a way of seizing victory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "只是，不论汝现在分数如何领先，只要{namecode:91}攻破中心据点的话，就是她的完美逆转。",
+			say = "The question of our future has never been mine to decide, nor is it even a matter of who holds on the most points on this board.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "呵呵，两边我都在推波助澜，{namecode:82}，你打算如何应对呢？",
+			say = "Now show me, my friends. Let your hearts sing, and let your wills be heard.",
 			painting = {
 				alpha = 0.3,
 				time = 1

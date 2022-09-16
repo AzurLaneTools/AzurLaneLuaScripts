@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg13",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第九回合",
+			say = "Exercise Area - Turn 9 (Akagi's Action)",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			say = "伴随着回合开始的提示，和煦的微风拂过了棋盘的每一个角落，也拂过了{namecode:91}队的各位侍从。",
+			say = "As more ships began to drop out of the game from the intensifying battles, the waters continued to become more turbulent as if reflecting the participants' anxiousness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			say = "触发的事件卡名为「神木之风」，在每一名侍从开始行动和结束时，会分别获得一次恢复效果。",
+			say = "Everyone waited with bated breaths for the next command to be issued, each move feeling less and less like a game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "一看就是{namecode:74}大人准备的事件卡……这是要当乌龟当到底啊。",
+			say = "So that's what you've been after all along, Musashi... Whittling our numbers down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可惜{namecode:5}没机会体验了……我还是不明白，{namecode:91}大人，{namecode:84}大人刚刚为什么会突然对{namecode:5}发动攻击啊？",
+			say = "Musashi's turn has ended, but I still can't figure out why she'd attack Miyuki like that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不用担心，都是计划内的一环。",
+			say = "It's all a part of her plan, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。既然，{namecode:74}和{namecode:82}铁了心要把她卡住，那除此之外就没有其他办法了。",
+			say = "I'd imagine so. Miyuki was cut off from the rest of us anyway, so Musashi likely saw her as a liability.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这样啊。那我们本回合怎么办？大前辈又继续开始对中心区域的攻略了，我们要跟上么？",
+			say = "So what do we do now? Without her to keep track of Nagato's and Mikasa's forces, we'll have a harder time controlling the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，把{namecode:140}消灭掉确实也是可选项之一。",
+			say = "We'll consolidate our forces and prepare to attack the tower as before. However, I do have a special task for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还挺想看看如果{namecode:140}退场了，大前辈接下来要再选谁进去顶着呢~",
+			say = "Now that Musashi's tipped her hand, two can play at her game.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:179}，{namecode:92}跟我一起对{namecode:140}发动攻击。",
+			say = "Ryuuhou, Kaga, I want the two of you to launch a long-ranged bombing attack on the tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前辈，舰载机飞过中心区域时会遭受干扰，{namecode:140}现在的状态还很好，我们不一定能将她一举拿下。",
+			say = "Wait, if we do that, it'll trigger another shockwave... Isn't Hatakaze still in range of the tower?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无妨，反正大前辈也差不多能猜到我想做什么了，意思到了就行。",
+			say = "Precisely. If we don't engage in combat with another shipgirl, we can do some damage while bypassing Mikasa and Nagato's pesky defenses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那我呢？我不进入中心区域就攻击不到{namecode:140}哦——当然我不会进去就是了！",
+			say = "Why are we still trying to attack our own friends? I thought we were going to work together to knock down that tower!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你的话，这回合干脆利用一下事件卡的效果，向着周围随便走走好了。",
+			say = "I never said anything to the contrary. Just focus on taking this time to get patched up. I'll need you again later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "真的吗？太好了……这么下去{namecode:79}很快就能满血复活了！",
+			say = "O-okay! I'll stay put over here and let the repairs continue to run then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，加油哦，{namecode:79}，之后中心据点的攻略还需要你呢！",
+			say = "That's right, I still need you to soak up damage for me later, so don't get yourself knocked out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸~~~~~~~~~",
+			say = "Ahaha... I'm not sure if that's supposed to be a compliment, but I'll do my best!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，我们就充分利用一下{namecode:74}大人准备的事件卡，先让大前辈先在中间努力吧~",
+			say = "(Neither Nagato nor Mikasa will let you get your way easily, Musashi... Now, what will you do?)",
 			painting = {
 				alpha = 0.3,
 				time = 1

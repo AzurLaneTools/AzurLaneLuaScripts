@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "——此处乃重樱圣地，尊贵之人所处的居所。",
+			say = "In the Sakura Empire's Sanctuary, an heir to great power sat amidst comfort and luxury.",
 			bgm = "story-maystorm",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
-			say = "宏伟城池的天守阁中，黑发的丽人静静凝视着前方。",
+			say = "In a pagoda that rose above the clouds, a black-haired woman kept her eyes on a modified Go board.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
-			say = "电光划破阴云落在她的身上，于木质地板上落下若隐若现的淡影。",
+			say = "Unobstructed by dark clouds, flashes of lightning left slender, fleeting shadows across the wooden floorboards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "如此一来，胜负已定……",
+			say = "Win or lose, this game ends here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
-			say = "窗外，呼啸而过的风雨正猎猎作响，屋内，燕子已经不见踪影了。",
+			say = "A terrible, howling wind clawed at the window, a small lost swallow shuddering fearfully in Musashi's palm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
-			say = "也许是找到了更好的避雨之处，也许是被眼前突变的景象吓到了。",
+			say = "The pagoda would give it no refuge... But it had found someone who would.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "「月下彼岸花」，{namecode:91}为自己的表演准备了一个哀伤又浪漫的名字哦。",
+			say = "This is the storm within my mind, a vision that would engulf the Sakura Empire... No, the entire world, in turmoil.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}，汝是想要下回合与{namecode:74}一起从{namecode:91}手中抢下胜利吧。",
+			say = "Nagato, Mikasa. There is nothing wrong with adhering to your ideals. But you were too overcome with paranoia to see the opportunity in front of you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "只可惜，日蚀之下，一切战斗结果都是确定的……",
+			say = "You missed the opportunity to speak with me, and the victory I could have handed you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "中心据点将会陷落，对局也将迎来终结。很遗憾，汝输了。",
+			say = "But alas, this is nothing more than a single game. Alone, how could it possibly determine the Sakura Empire's future?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "汝过于在意吾的行动，因而丧失了时机。",
+			say = "Have you heard the unspoken words of each others' hearts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "此番棋局，吾只是为了享受乐趣罢了。",
+			say = "Have you found the power you wish to show to your people?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "可是汝又如何？明知目标在于{namecode:91}，却没有集中力量应对她。",
+			say = "Great power always comes at a great price, and you understand this better than anyone else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "既已意识到危险，就应该干净利落地将其排除……",
+			say = "But if you can press forward despite knowing that, the love you hold must be deep and profound, and the price you pay well worth it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "可惜，汝听不到吾的答案了。",
+			say = "Tell me, Akagi, what awaits at the end of the future you strive for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "实在是，可惜……",
+			say = "How much of yourself are you willing to give to make that reality happen?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这场棋盘为舞台的剧目，终于到了属于谢幕之时。",
+			say = "Our paths may diverge time and time again, but each step we take will forever be etched within our hearts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "该去迎接胜利者归来了————",
+			say = "And one day... those paths will converge once more.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "中心区域此刻正笼罩在一片赤红之中。",
+			say = "The lightless moon gave way, shedding a silent tear that illuminated the entire sea with a bright-red flame.",
 			bgm = "theme-shinanometa",
 			typewriter = {
 				speed = 0.05,
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg16",
 			hidePaintObj = true,
-			say = "高塔已经破碎，不受控的能量肆意向周边扩散着，诉说着这里发生战斗的惨状。",
+			say = "The tower in the center of the exercise area shuddered and convulsed, a sea of burning flowers uprooting its dark tendrils. The energy accumulated in the tower spewed out from the top, turning into rings of light that scattered and dissipated in every direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，真想不到，我们会在这种场合下见面，{namecode:84}还真是给了我一个惊喜。",
+			say = "Hahaha... Wonderful, Musashi left us a nice surprise at the end after all. I'll enjoy bringing this little souvenir back home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "我可是等这一刻很久了哟，赫米忒。",
+			say = "You have no idea how long I've waited for this, Hermit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "如何？冒犯我的代价，不好受吧？",
+			say = "Poisoning our land. Deceiving our people. And... pretending to be Amagi...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg16",
 			hidePaintObj = true,
-			say = "不久前还不可一世的仲裁者·赫米忒·IX，此刻正如同垃圾一般倒在水面上。",
+			say = "The wreckage of the Arbiter's vessel crumpled pathetically before Akagi's feet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，我知道你不过是被创造出来的和本体毫无关系的量产机罢了。",
+			say = "This is the price you pay for crossing me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "但是又有什么关系呢？这次我打倒了你的象征，下次我就能打倒你的本体。",
+			say = "You may be nothing more than a vessel, but I know how to defeat you now. And mark my words - I am coming for your mainframe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你觉得我说得对不对啊，赫米忒？",
+			say = "Watch your step, or you'll become just like this lifeless vessel over here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg16",
 			hidePaintObj = true,
-			say = "{namecode:91}慢慢走近倒下的赫米忒，扯下了仲裁者舰装上的提灯。",
+			say = "Akagi ripped a dimly-glowing lantern from the Siren vessel's rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg16",
 			hidePaintObj = true,
-			say = "提灯之上已经没有了此前战斗时萦绕周边的危险光芒，留下的仅仅是一个完好无损的废弃品。",
+			say = "She turned the curious object around in her hands, noting how it had remained undamaged throughout the rain of destruction she had inflicted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "呵呵呵呵，你也就这般本事啊。",
+			say = "It's over, Siren.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "没错，像废品一样堆在垃圾堆里才是你们这群自诩为塞壬的机器人的最终命运。",
+			say = "Just stay here like the pile of refuse that you are. It suits you better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "想要来操纵我？就凭你们还差的远呢~哈哈哈哈哈~",
+			say = "From now on, I will outwit you at every turn. All your calculations, all your \"Reenactments.\" I will crush them all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "大前辈和{namecode:74}到现在还被蒙在鼓里吧。",
+			say = "Neither Nagato nor Mikasa ever need to find out about what happened here, because this is my battle, and my battle alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "就算见到了由中心装置释放出的如此规模的能量冲击，恐怕也只会当成什么结界里设定的余兴节目吧。",
+			say = "Thanks to Musashi and Kaga, nobody else will find out about this manifestation of power.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,63 +599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "呵呵呵呵呵，连这场实验的目的都没看出来……真是愚昧，愚不可及啊……！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffa500",
-			bgName = "bg_wuzang_cg8",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:91}",
-			say = "就凭你们也想来阻止我么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffa500",
-			bgName = "bg_wuzang_cg8",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:91}",
-			say = "就凭你们也想掌控重樱的命运么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffa500",
-			bgName = "bg_wuzang_cg8",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:91}",
-			say = "狂妄！自大！能够掌控重樱命运的人在很久以前就不存在了！",
+			say = "And even if they see it, they will never know if the power is \"mine,\" or simply a product of this domain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +621,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "为什么从来就没人认识到这一点呢？！",
+			say = "There's nothing you can do to stop me.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffa500",
+			bgName = "bg_wuzang_cg8",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:91}",
+			say = "The future of the Sakura Empire is no longer yours to play with.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffa500",
+			bgName = "bg_wuzang_cg8",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:91}",
+			say = "...Nagato. The future is not something that can be built from empty ideals alone. That is the difference between you and me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +677,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "……我并不适合领导重樱前进？你们以为这种事我本人心里不清楚吗？！",
+			say = "You have not seen the oblivion of the future you would have us embrace.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +699,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "…………我是迫不得已啊，除此之外已经没有别的办法了！",
+			say = "I am not qualified to be the leader of the Sakura Empire. Nobody understands that better than myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +721,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "必须由我来负担重樱的命运，必须由我来决定重樱的道路才行！",
+			say = "But I AM the only person who can save our land and our people.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +743,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "姐姐没有做到的事，必须由我这个妹妹来做！",
+			say = "Without power, the Sakura Empire can never become strong. Without power, I... will never be able to save anyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,7 +765,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "只有我才有资格，亲手把重樱的命运交还给她！",
+			say = "I must do what Amagi could not...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -809,7 +787,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "你们明白么？！除了我之外，交给你们任何人都不行！",
+			say = "...So that I will never lose her again. So that I can meet her again... together with all our friends in the Sakura Empire––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +809,29 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "啊，跟你这个垃圾说你也听不明白吧……",
+			say = "That is my path, the future I would give anything for.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffa500",
+			bgName = "bg_wuzang_cg8",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:91}",
+			say = "...The death throes of the tower should be stopping soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,7 +848,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "不过算了，我现在心情好，允许你在消失之前当个安安静静的旁听者。",
+			say = "There's just one last thing to do before this \"domain\"... or rather, this Mirror Sea, becomes worthless to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -863,7 +863,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
-			say = "{namecode:91}举起提灯对准塔的方向，不再关注一旁尚未完全终止活动的仲裁者",
+			say = "Akagi lifted the Arbiter vessel's lantern and pointed its light towards the tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,24 +874,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
-			say = "透过水晶面，塔肆意而出的能量仿佛呈现出五彩斑斓的虹光。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg8",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:91}",
-			say = "……呵呵呵呵，俾斯麦也不过是懦夫而已。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "The patterns of light on the fading tower shifted once more. The moon in the sky, along with all the surrounding clouds around it, flickered like a broken display, crystalline and iridescent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +887,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "你不敢做的事，就由我来做。你不敢接受的力量，就由我来接受。",
+			say = "Bismarck, you foolishly rejected this gift.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -921,7 +904,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "我会收下这股力量，引领重樱继续前进，直到把重樱交付到正确的人手中为止。",
+			say = "But, I am not like you. I am not afraid to wield this great power.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,7 +921,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "为此，我不在乎牺牲，也不在乎代价……",
+			say = "And with this power, I will continue to guide the Sakura Empire towards its true future, until this power can be passed over to righteous hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +938,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "就算将重樱燃烧殆尽，就算将我自身燃烧殆尽，就算将世界燃烧殆尽——",
+			say = "To those ends, there is no sacrifice I will not make.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -972,7 +955,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "————又有何妨呢？",
+			say = "Even if I am rejected, spurned, and burned at the stake... Not only by the Sakura Empire, but by the whole world...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg8",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:91}",
+			say = "I... will transcend \"God.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

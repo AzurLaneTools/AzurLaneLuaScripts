@@ -6148,6 +6148,10 @@ pg.skill_data_display = {
 		id = 20132,
 		name = "All Out Assault Ⅱ"
 	},
+	[20133] = {
+		id = 20133,
+		name = "All Out Assault Ⅲ"
+	},
 	[20141] = {
 		id = 20141,
 		name = "All Out Assault Ⅰ"
@@ -10214,6 +10218,7 @@ pg.skill_data_display = {
 		20122,
 		20131,
 		20132,
+		20133,
 		20141,
 		20142,
 		20211,

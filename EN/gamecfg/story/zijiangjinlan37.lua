@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg16",
 			stopbgm = true,
-			say = "大棋盘·中心区域",
+			say = "Exercise Area - Central Sector",
 			bgm = "theme-shinanometa",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:39}，观测的结果如何？",
+			say = "What are the results of your observation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "很顺利。从数据上来看，海若的表现很稳定……",
+			say = "Watatsumi's output was stable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "其已经成功将元魔方以{namecode:91}希望的某种方式进行重塑了。",
+			say = "It was able to successfully reconstruct the Origin Cube, changing its structure and shape in accordance to Akagi's \"mental image.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "现在她可以自由地以自己的意志使用元魔方，而不用担心步俾斯麦的后尘。",
+			say = "Though there are some restrictions, Akagi is able to safely draw energy from this cube.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看起来是成功了……不过这种事真的就能这么顺利么？",
+			say = "That's a relief... Assuming that IS the end of the story.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "曾经我们做过类似的实验，这一次不过是再次实践罢了。",
+			say = "This isn't anything new. We've already conducted experiments like this before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是经过处理的只有元魔方……承受着如此强烈的能量流动，构成{namecode:91}「基础」的魔方会怎么样？",
+			say = "But this is an Origin Cube we're talking about... How will this \"power\" reshape the Cube that serves as the basis for Akagi's foundation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "会不可避免的受到影响，然后逐渐崩坏解体……至于时间就因人而异了。",
+			say = "In theory, the Origin Cube eats away at the user's hull, eventually erasing them from existence. But, the speed at which this occurs differs from person to person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "当然，这个过程比直接用元魔方照一下要好得多，及时停手的话也能有救。",
+			say = "Of course, this method is much more preferable than directly tapping into the Origin Cube and disappearing like a flash in the pan. We might even be able to halt the METAmorphosis process if we cut off the flow of energy early enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "不过其实，你也不怎么在乎{namecode:91}的事吧……",
+			say = "I must say though, Musashi, you seem to have an abundance of concern for Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说这项技术的本质，并不是将META化变的无害，而只是尽可能延长META化舰船的使用期限罢了……",
+			say = "In other words, this isn't a cure. It's just a stopgap measure that drags out the time you have before you lose yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "因为这只是一个中间过程，但只要以海若为核心的决战兵器能够成功制作出来，彻底可控又稳定的META化就不再是问题了。",
+			say = "Well, this was just a byproduct of our research. If we can remake our ultimate weapon using Watatsumi as its core, that would solve all of our problems.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你自己是如何META化的？",
+			say = "Were you a sacrifice to that research as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "你不是已经靠自己推理出答案了么……咳咳咳……",
+			say = "You can figure that out yourself, can't you? ...*cough* *cough*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这么差的身体也和这个“中间过程”有关？",
+			say = "The way you are now... Does that not speak volumes about the risks of using this technology?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "那倒不是，我在使用的时候这项技术已经很成熟了。我的身体问题源于某个更加悲惨的事件，我不是很想回忆。",
+			say = "You misunderstand. This technology was incredibly robust by the time I utilized it. As for why my body is in this condition... that stems from a tragedy I'd rather not talk about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "况且尽管如此，我也有理智有力量地活着，这还不够么？",
+			say = "Besides, if my own METAmorphosis was progressing poorly, the two of us wouldn't be talking right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你一直都在强调决战兵器的用处。",
+			say = "An \"ultimate weapon\" using Watatsumi, huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是之前你们有决战兵器，为什么也打输了？",
+			say = "If you had something so powerful, how did you still lose to \"them?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "……那是因为，决战兵器没有被投入战场，有一个过于谨慎的人一直在阻止这件事。",
+			say = "Because we never got to use that weapon. Someone was trying to stop us from doing so at all costs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "而且很遗憾，那个人在最后成功了。",
+			say = "...And unfortunately, they managed to succeed in the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "所以我们这次一定不能重蹈覆辙，你明白么？",
+			say = "But let's not talk about that any more. The only thing that matters is that we don't repeat the mistakes of the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你的话语中有一种令人熟悉又让人安心的气息。",
+			say = "So you've pinned your hopes on us? Or rather, on this branch? I feel like I've heard those reassuring words before, but that makes me even less inclined to trust you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这实在是太危险了。你的目的究竟是什么，为什么要来帮我？",
+			say = "What do you really want from us, and from Akagi?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "我已经时日无多，只是想在倒下之前，弥补过去记忆中的些许遗憾罢了……",
+			say = "My time is already short. I only wish to rid myself of a few lingering regrets before I fall into the abyss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "今天的成功只是万里之路的第一步，{namecode:84}大人，让我们抓紧时间吧……",
+			say = "A journey of a thousand miles begins with a single step, after all. You've taken the first step towards saving your world - but don't take too long, lest you also run out of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

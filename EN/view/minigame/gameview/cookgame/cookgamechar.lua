@@ -443,6 +443,11 @@ end
 
 function slot0.setVelocity(slot0, slot1, slot2, slot3)
 	slot0._velocity = Vector2(slot1 * slot0._baseSpeed * (1 + slot0.speedNum / 3), slot2 * slot0._baseSpeed * (1 + slot0.speedNum / 3))
+
+	if not slot0._isPlayer and not slot0._isPartner then
+		slot0._velocity = Vector2(slot0._velocity.x * 0.9, slot0._velocity.y * 0.9)
+	end
+
 	slot5 = slot1 > 0 and 1 or -1
 	slot6 = slot2 > 0 and 1 or -1
 

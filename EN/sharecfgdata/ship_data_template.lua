@@ -8623,6 +8623,7 @@ _G.pg.base.ship_data_template[102081] = {
 	},
 	buff_list_display = {
 		10090,
+		11720,
 		20131
 	},
 	hide_buff_list = {}
@@ -8669,6 +8670,7 @@ _G.pg.base.ship_data_template[102082] = {
 	},
 	buff_list_display = {
 		10090,
+		11720,
 		20131
 	},
 	hide_buff_list = {}
@@ -8715,6 +8717,7 @@ _G.pg.base.ship_data_template[102083] = {
 	},
 	buff_list_display = {
 		10090,
+		11720,
 		20131
 	},
 	hide_buff_list = {}
@@ -8761,6 +8764,7 @@ _G.pg.base.ship_data_template[102084] = {
 	},
 	buff_list_display = {
 		10090,
+		11720,
 		20132
 	},
 	hide_buff_list = {}
@@ -33795,6 +33799,7 @@ _G.pg.base.ship_data_template[203021] = {
 	},
 	buff_list_display = {
 		2061,
+		1004,
 		21211
 	},
 	hide_buff_list = {}
@@ -33838,6 +33843,7 @@ _G.pg.base.ship_data_template[203022] = {
 	},
 	buff_list_display = {
 		2061,
+		1004,
 		21211
 	},
 	hide_buff_list = {}
@@ -33881,6 +33887,7 @@ _G.pg.base.ship_data_template[203023] = {
 	},
 	buff_list_display = {
 		2061,
+		1004,
 		21211
 	},
 	hide_buff_list = {}
@@ -33924,6 +33931,7 @@ _G.pg.base.ship_data_template[203024] = {
 	},
 	buff_list_display = {
 		2061,
+		1004,
 		21212
 	},
 	hide_buff_list = {}
@@ -36294,7 +36302,8 @@ _G.pg.base.ship_data_template[205021] = {
 		10310
 	},
 	buff_list_display = {
-		10310
+		10310,
+		11880
 	},
 	hide_buff_list = {
 		340
@@ -36338,7 +36347,8 @@ _G.pg.base.ship_data_template[205022] = {
 		10310
 	},
 	buff_list_display = {
-		10310
+		10310,
+		11880
 	},
 	hide_buff_list = {
 		1,
@@ -36383,7 +36393,8 @@ _G.pg.base.ship_data_template[205023] = {
 		10310
 	},
 	buff_list_display = {
-		10310
+		10310,
+		11880
 	},
 	hide_buff_list = {
 		1,
@@ -36428,7 +36439,8 @@ _G.pg.base.ship_data_template[205024] = {
 		10310
 	},
 	buff_list_display = {
-		10310
+		10310,
+		11880
 	},
 	hide_buff_list = {
 		2,
@@ -77771,6 +77783,7 @@ _G.pg.base.ship_data_template[501011] = {
 	},
 	buff_list_display = {
 		11040,
+		15190,
 		24011
 	},
 	hide_buff_list = {}
@@ -77816,6 +77829,7 @@ _G.pg.base.ship_data_template[501012] = {
 	},
 	buff_list_display = {
 		11040,
+		15190,
 		24011
 	},
 	hide_buff_list = {}
@@ -77861,6 +77875,7 @@ _G.pg.base.ship_data_template[501013] = {
 	},
 	buff_list_display = {
 		11040,
+		15190,
 		24011
 	},
 	hide_buff_list = {}
@@ -77908,6 +77923,7 @@ _G.pg.base.ship_data_template[501014] = {
 	},
 	buff_list_display = {
 		11040,
+		15190,
 		24012
 	},
 	hide_buff_list = {}
@@ -78133,6 +78149,7 @@ _G.pg.base.ship_data_template[501031] = {
 	},
 	buff_list_display = {
 		11060,
+		15200,
 		24011
 	},
 	hide_buff_list = {}
@@ -78178,6 +78195,7 @@ _G.pg.base.ship_data_template[501032] = {
 	},
 	buff_list_display = {
 		11060,
+		15200,
 		24011
 	},
 	hide_buff_list = {}
@@ -78223,6 +78241,7 @@ _G.pg.base.ship_data_template[501033] = {
 	},
 	buff_list_display = {
 		11060,
+		15200,
 		24011
 	},
 	hide_buff_list = {}
@@ -78270,6 +78289,7 @@ _G.pg.base.ship_data_template[501034] = {
 	},
 	buff_list_display = {
 		11060,
+		15200,
 		24012
 	},
 	hide_buff_list = {}
@@ -93284,7 +93304,10 @@ _G.pg.base.ship_data_template[900040] = {
 	buff_list = {
 		10730
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		10730,
+		29111
+	},
 	hide_buff_list = {}
 }
 
@@ -93326,7 +93349,11 @@ _G.pg.base.ship_data_template[900041] = {
 		2041,
 		2051
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		2041,
+		2051,
+		22261
+	},
 	hide_buff_list = {}
 }
 
@@ -93368,7 +93395,11 @@ _G.pg.base.ship_data_template[900042] = {
 		10570,
 		2051
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		10570,
+		2051,
+		22261
+	},
 	hide_buff_list = {}
 }
 
@@ -93412,7 +93443,10 @@ _G.pg.base.ship_data_template[900043] = {
 		10790,
 		10810
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		10790,
+		10810
+	},
 	hide_buff_list = {}
 }
 
@@ -93456,7 +93490,10 @@ _G.pg.base.ship_data_template[900044] = {
 		10800,
 		10820
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		10800,
+		10820
+	},
 	hide_buff_list = {}
 }
 
@@ -93498,7 +93535,9 @@ _G.pg.base.ship_data_template[900045] = {
 	buff_list = {
 		10310
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		10310
+	},
 	hide_buff_list = {
 		340
 	}
@@ -93542,7 +93581,9 @@ _G.pg.base.ship_data_template[900046] = {
 	buff_list = {
 		10310
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		10310
+	},
 	hide_buff_list = {
 		340
 	}
@@ -93586,7 +93627,10 @@ _G.pg.base.ship_data_template[900132] = {
 		10070,
 		20122
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		10070,
+		20122
+	},
 	hide_buff_list = {}
 }
 
@@ -93626,7 +93670,10 @@ _G.pg.base.ship_data_template[900133] = {
 		10980,
 		10990
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		10980,
+		10990
+	},
 	hide_buff_list = {
 		2,
 		340
@@ -93669,7 +93716,10 @@ _G.pg.base.ship_data_template[900134] = {
 		11000,
 		11010
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		11000,
+		11010
+	},
 	hide_buff_list = {
 		2,
 		340
@@ -93714,7 +93764,9 @@ _G.pg.base.ship_data_template[900135] = {
 	buff_list = {
 		10200
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		10200
+	},
 	hide_buff_list = {}
 }
 
@@ -94125,7 +94177,7 @@ _G.pg.base.ship_data_template[900188] = {
 	},
 	buff_list_display = {
 		9101,
-		9111,
+		9110,
 		20142
 	},
 	hide_buff_list = {
@@ -94424,9 +94476,7 @@ _G.pg.base.ship_data_template[900235] = {
 	},
 	airassist_time = {},
 	buff_list = {},
-	buff_list_display = {
-		14
-	},
+	buff_list_display = {},
 	hide_buff_list = {}
 }
 
@@ -98214,7 +98264,12 @@ _G.pg.base.ship_data_template[900907] = {
 		19002,
 		29392
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		19130,
+		19140,
+		19002,
+		29392
+	},
 	hide_buff_list = {}
 }
 
@@ -98255,7 +98310,11 @@ _G.pg.base.ship_data_template[900908] = {
 		19160,
 		19002
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		19150,
+		19160,
+		19002
+	},
 	hide_buff_list = {
 		1,
 		340
@@ -98302,7 +98361,12 @@ _G.pg.base.ship_data_template[900909] = {
 		19002,
 		29382
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		19170,
+		19180,
+		19002,
+		29382
+	},
 	hide_buff_list = {}
 }
 
@@ -98345,7 +98409,12 @@ _G.pg.base.ship_data_template[900910] = {
 		19210,
 		19002
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		19190,
+		19200,
+		19210,
+		19002
+	},
 	hide_buff_list = {}
 }
 
@@ -98388,7 +98457,12 @@ _G.pg.base.ship_data_template[900911] = {
 		19240,
 		19002
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		19220,
+		19230,
+		19240,
+		19002
+	},
 	hide_buff_list = {
 		2,
 		340
@@ -98433,7 +98507,11 @@ _G.pg.base.ship_data_template[900912] = {
 		19260,
 		19002
 	},
-	buff_list_display = {},
+	buff_list_display = {
+		19250,
+		19260,
+		19002
+	},
 	hide_buff_list = {
 		340
 	}

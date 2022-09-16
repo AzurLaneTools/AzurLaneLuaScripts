@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_cg4",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "不知不觉间日色已然西斜，对局也来到了焦灼的中盘——第六回合的结束之时。",
+			say = "As the vermillion light of the setting sun began to filter through the pagoda's windows, both the state of the game and the situation on the battlefield had reached a tense stalemate.",
 			bgm = "theme-musashi-inside",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg4",
 			hidePaintObj = true,
-			say = "第五回合中，{namecode:74}准备的事件卡「天宇启户祭」有如一盆冷水，让场上不断升温的局势暂时得到缓和——",
+			say = "Through the fifth and sixth turns, the participants continued to jockey for an advantage, but nobody emerged as a clear favorite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg4",
 			hidePaintObj = true,
-			say = "而第六回合触发的事件卡「静海惊雷」则彻底搅乱了战局，突然出现的多处雷击预警区让各方势力都进行了阵型的紧急调整。",
+			say = "Fatigue began to set in, and this began to reflect across the board. Enemies that were previously easy to deal with appeared larger and more fearsome as they ramped up their attacks on the various shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,58 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:84}大人，你准备的这张事件卡真的十分厉害啊……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:82}",
-			say = "虽然没能直接造成伤害，但却如高悬的利剑一般搅乱了所有人的部署。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "这话可不严谨，是几乎所有人的部署才对。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "{namecode:91}大人就无视了这个在结算时才会造成伤害的事件，坚定地完成了拿下你与{namecode:74}大人之间连接据点的目标哦。",
+			say = "What's going on here, Musashi? We're getting completely pushed back by the game itself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +82,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "但是作为代价，停留在雷击区中的{namecode:39}就要退场了。",
+			say = "The enemies may not be particularly strong, but everyone's forces have been deployed in ways that would never be considered in an actual naval engagement.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "This has caused disarray to spread. While some have been able to accomplish their objectives...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "With the amount of damage that's been piling up, I wouldn't be surprised if we start seeing people retire from the game soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,24 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "比起部署被打乱，侍从数量的减少才更得不偿失吧？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "这就取决于为将者对于价值的判断了，有得必有失嘛。",
+			say = "Is Jintsuu about to be the first to go? What a pity...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +150,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "那，我觉得这个判断尚有待商榷。毕竟，这就是她这次突击行动的仅有战果了。",
+			say = "I suppose the one upside is, we didn't inflict this upon each other.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "Everyone has their hands full just dealing with the mass-produced enemies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,41 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "待到下回合封锁解除，我会拿下另一处边界据点，她将我与{namecode:74}分开的战略意图也就无法实现了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "但是如此一来，你们二人的侍从就都来到了距离中心区域相当遥远的位置。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "这场棋局，终究还是以占领据点为评判标准的积分制哦。",
+			say = "I do wonder about that. If the balance of power is broken, the game may well be blown wide open.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +201,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "现在谈论中心区域还有些为时尚早吧，{namecode:84}大人。",
+			say = "I assumed that as long as you remained on Akagi's side, the stalement would inevitably continue. But, unexpected things can happen.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "Akagi's forces have traveled a long way.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "But now, they've already converged upon the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "从场面上来看，我与{namecode:74}大人虽处于不利位置，但是侍从们的状态良好。",
+			say = "Surely that isn't your idea of a victory, is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "反观你与{namecode:91}大人。虽然占据地利，但是已经受到了不少消耗。量产型舰队基本消耗一空，侍从也有不同程度的损伤。",
+			say = "The two of you, especially Akagi, put your forces through too much punishment just to reach the central tower. You've also lost a bulk of your mass-produced ships because they weren't able to keep up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,194 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "你们已经是强弩之末，而我们正要进入锐不可当之时呢。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "倘若你与{namecode:74}大人的联军能完全按照你的策略来执行的话，确实是这样。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "可是如果{namecode:74}大人继续选择固守战略，最后的结果就很难说了哦。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "信念要靠实力守护，究竟是过于天真还是坚定不移……就让我试探一下吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "接下来，我要使用的指挥卡名为「百韵连歌」。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "选择一个场上的目标，若其在本行动轮内被消灭，则所有对其造成伤害的己方侍从都将获得一次伤害减半的额外进攻行动。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "我指定的目标为你位于的E4的{namecode:65}，然后让{namecode:226}、{namecode:27}、{namecode:103}、{namecode:104}依次对其发动攻击。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "在消灭了{namecode:65}之后，其「黑之羽」的援护效果就会消失，继而刚攻略了区域据点正在G4休整的{namecode:157}就会变为无保护状态。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "虽然第二次进攻造成的伤害减半，不过用于消灭{namecode:157}还是绰绰有余了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "如此一来，{namecode:74}的信念也要被击碎了吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "原本依靠她所拥有的力量是能够阻止这件事发生的，可惜她早早将力量用了出去。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:84}",
-			say = "真是令人遗憾，除非——你能阻止这件事的发生。",
+			say = "On the other hand, Nagato and I have sustained very little damage and can operate at pretty much full capacity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:84}，你好像在巧妙地逼我下场哦。",
+			say = "Your failure to consider this has left you wide open. Hah hah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "怎么可能呢~现在只剩你一个人还在这里陪我聊天了，你也下去了我岂不是要一个人下闷棋？",
+			say = "And what have you earned for yourself? A slight land advantage? While we occupy our position, you will not be able to assault the tower...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +337,160 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "汝也可以选择不下场，毕竟汝也不完全支持{namecode:74}的战略吧。",
+			say = "Especially if Nagato insists on clinging to her idealism.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "I am quite interested in seeing what matters most to her: adhering to her own path, or seizing the victory she needs.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "To those ends, I have a test for you.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "I will turn all my ships around and attack Haguro, who is monitoring my fleet's movements and closest to Nagato's forces.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "Sakawa, Suzutsuki, Chitose, and then Chiyoda will attack her in turn, and at this distance, Nagato will not able to lend aid even if she wants to.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "While it pains me to resort to such tactics, this stalemate must be broken.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "After Haguro is defeated, Nagato's forces will also be exposed as well.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "There was one way she could have stopped this outcome, but she unfortunately wasted it earlier.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "No matter how strong your will is, this domain will not respond to the same mental imagery twice.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "But if that will is shared by another individual...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,24 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "这个嘛，一码归一码。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:82}",
-			say = "虽然在这里聊天对弈很开心，不过守护后辈成长也是前辈应该做的事啊。",
+			say = "...Then they must fight for those ideals. Say no more. I will uphold Nagato's vision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "盾能守护，剑亦能守护。",
+			say = "Excellent. My only regret is, it'll be quite lonely here with nobody left to chat with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +541,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:74}选择了盾，{namecode:91}选择了剑，你呢？",
+			say = "Just to confirm one last time: Is this what you truly want, Great Veteran?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +558,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "这个问题，我想首先听一下您的答案呢？",
+			say = "I decided a long time ago that I would stand by her side until the very end. I won't turn back now.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:82}",
+			say = "There might be advantages to managing everything from up here, but I have friends who are counting on me to do the right thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,41 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "如果汝能取胜的话，就告诉汝吾的答案。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:82}",
-			say = "有了这句话，我就更要打起精神来认真对局了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_wuzang_cg4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:82}",
-			say = "那么{namecode:84}大人，我在此先走一步。如果一个人在房间里无聊的话，也请尽快下来哦。",
+			say = "Nagato would sacrifice herself to protect her friends, and there is nothing Akagi will not sacrifice to protect what she desires.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,7 +609,92 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "呵呵，走好~",
+			say = "Now then, Mikasa, will you take up the sword, or the shield?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:82}",
+			say = "My answer should already be clear. But what about you?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "If you and Nagato can emerge victorious, I shall give you my answer.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:82}",
+			say = "Hah. If you're going to say that, you'd better not expect me to go easy on you.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:82}",
+			say = "I'll be going then, Musashi. Oh, and if you get too lonely, you're always welcome to join the rest of us. Hahaha!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_wuzang_cg4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:84}",
+			say = "Hehe. We will see about that.",
 			painting = {
 				alpha = 0.3,
 				time = 1

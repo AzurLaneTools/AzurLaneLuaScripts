@@ -198,7 +198,7 @@ function slot0.step(slot0, slot1)
 
 	slot2 = slot0:getFillterWanted(slot0.partnerChar)
 	slot3 = slot0:getFillterWanted(slot0.playerChar)
-	slot4 = slot0:getFillterWanted(slot0.enemy2Char)
+	slot4 = slot0:getFillterWanted(slot0.playerChar)
 	slot5 = slot0:getFillterWanted(slot0.enemy1Char)
 
 	if CookGameConst.player_use_ai then
@@ -268,14 +268,6 @@ end
 function slot0.setCharAction(slot0, slot1, slot2, slot3)
 	if slot1:isActiving() then
 		return
-	end
-
-	if slot1 == slot0.partnerChar then
-		slot4 = 1
-	elseif slot1 == slot0.enemy1Char then
-		slot4 = 1
-	elseif slot1 == slot0.enemy2Char then
-		slot4 = 1
 	end
 
 	slot5 = slot1:isFullCakes()

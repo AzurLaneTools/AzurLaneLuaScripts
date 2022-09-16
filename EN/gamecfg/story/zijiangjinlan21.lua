@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg11",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第七回合",
+			say = "Exercise Area - Turn 7 (Akagi's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，{namecode:91}前辈准备的事件「技术革新」终于触发了！本回合，拥有最多舰载机武器的我们将处于巨大的优势中。",
+			say = "The most recent report from my recons looks good. We've managed to control this area for several turns now, and we have a clear picture as to how the other fleets are deployed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过{namecode:5}那边就……因为{namecode:82}大前辈的效果，似乎两回合内都那边都没法进行战斗了，转而去进攻{namecode:74}大人么？",
+			say = "Miyuki is pretty much surrounded, and we just lost Jintsuu. Mikasa entered the battlefield and is sealing off all shipgirls from fighting around her territory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不，那边打到这个程度就行了。",
+			say = "Now that the Great Veteran has thrown her hat into the ring, we won't be able to avoid a direct confrontation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:79}后退至E6，把{namecode:82}进攻中心据点的通道留出来。",
+			say = "Yamashiro, Ryuuhou, I want the two of you to back off and give Mikasa a clear avenue to attack the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸~~救命呀~~~我已经在中间吃了好几轮伤害了，快不行了！",
+			say = "Phew... It was getting harder and harder to fight off the mass-produced Sirens...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别以为我看不到你的状态栏，技能一个没用过，损伤也还不到三成，给我老实呆在里面。",
+			say = "In spite of that, you still have most of your ammo and barely took any damage. Do a quick resupply, and I expect you to come back ready to go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "是————",
+			say = "Y-yes ma'am!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:5}的话，很不幸，你的所有撤离通道都被封死了，暂时先呆在原地，等待后续指令。",
+			say = "Miyuki, just stay where you are. Give us an update on Nagato and Mikasa's movements later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			actor = 301040,
 			nameColor = "#A9F548FF",
-			say = "遵命……{namecode:91}大人！",
+			say = "G-got it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:179}、{namecode:92}还有到位之后的{namecode:79}随我一起进攻。",
+			say = "Kaga, Ryuuhou, I want you two to launch a large-scale recon effort on the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，总之，中心据点的战斗就由我们先打响吧~",
+			say = "We need to find out what Musashi is trying to hide from us within that tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			say = "大棋盘·{namecode:82}控制区 第七回合",
+			say = "Exercise Area - Turn 7 (Mikasa's Action)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:82}前辈，{namecode:91}开始进攻中心据点了，我们是不是跟上？",
+			say = "Look, those are Sakura Empire recon aircraft... Akagi must be getting ready to attack the central tower! Mikasa, should we make our move as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:70}，你觉得{namecode:91}为什么要让{namecode:79}撤退，把E5这个接触点留空给我们？",
+			say = "Hmm... Have we finally broken through to Akagi? She seems to be leaving a path for us straight to the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许是因为我们彻底控制了边界，她害怕过于冒进致使{namecode:79}也像{namecode:39}{namecode:5}那样陷入死地？",
+			say = "Does that mean... She's given up on trying to fight us, and is telling us to focus on the central base first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "有这种可能性。不过在我看来，这更像是{namecode:91}对我们发起的进攻中心据点的邀请。",
+			say = "That is one possibility, but she also might've found something there that requires us to be there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:91}怎么会突然这么好心……？",
+			say = "So that's why she pulled back her forces?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "也许是在等我们出力之后，再在关键时刻用出其不意的手段抢下来哦。",
+			say = "She might be planning to use us as cannon fodder to find out exactly what's in that tower, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果她是这样盘算的话，我也有相应的反制手段。这里先就接受邀请，看看{namecode:91}接下来的企图吧。",
+			say = "Knowing Akagi, she wouldn't do anything unless she seeks to gain an advantage from it, but we can't afford to sit around idly either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:73}进入E5保持与中心据点的接触，之后与{namecode:70}一同对位于中心区域的塔进行一轮试探性进攻。",
+			say = "Kirishima, Kongou, can I trouble you two to get visuals on the tower itself? We need to know what we're up against.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:65}原地不动保持对{namecode:5}的封锁，{namecode:181}{namecode:140}与我一同进攻边界据点EF12。",
+			say = "Haguro, continue to monitor Akagi's and Musashi's movements. Let me know if they show any signs of trying to attack us again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？我不参与吗？大前辈，这个边界据点只靠你们打不掉啊……？",
+			say = "So, how about you and Kinu? What are you two going to do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这正是关键。在我们结束之后，边界据点就能让{namecode:74}用最小的代价将其收下。",
+			say = "I'm going to meet up with Nagato. Even without the central tower, Nagato can still win if she captures all the bases along the perimeter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "既然{namecode:74}选择靠据点的积分来取胜，我就来帮一帮她好了~",
+			say = "More importantly, I need to tie up a few loose ends before this game is finished.",
 			painting = {
 				alpha = 0.3,
 				time = 1
