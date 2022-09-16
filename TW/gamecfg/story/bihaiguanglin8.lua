@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "區區怒濤是無法扔我停下腳步的！島風去去就回！",
+			say = "區區怒濤是無法讓我停下腳步的！島風去去就回！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

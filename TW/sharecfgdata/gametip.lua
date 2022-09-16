@@ -19127,11 +19127,11 @@ _G.pg.base.gametip.dockyard_data_loss_detected = {
 }
 
 _G.pg.base.gametip.five_shujuhuigu = {
-	tip = "暂未开放"
+	tip = "暫未開放"
 }
 
 _G.pg.base.gametip.five_shujuhuigu1 = {
-	tip = "推进至$1"
+	tip = "推進至$1"
 }
 
 _G.pg.base.gametip.littleChaijun_npc = {

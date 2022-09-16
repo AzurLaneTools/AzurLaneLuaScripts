@@ -64940,11 +64940,11 @@ pg.skill_data_template = {
 	},
 	[29621] = {
 		desc_get = "",
-		name = "專屬彈幕-恶毒(μ兵裝)I",
+		name = "專屬彈幕-惡毒(μ兵裝)I",
 		id = 29621,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每進行15次攻擊，觸發專屬彈幕-恶毒(μ兵裝)I",
+		desc = "主炮每進行15次攻擊，觸發專屬彈幕-惡毒(μ兵裝)I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -64954,11 +64954,11 @@ pg.skill_data_template = {
 	},
 	[29622] = {
 		desc_get = "",
-		name = "專屬彈幕-恶毒(μ兵裝)II",
+		name = "專屬彈幕-惡毒(μ兵裝)II",
 		id = 29622,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每進行10次攻擊，觸發專屬彈幕-恶毒(μ兵裝)II",
+		desc = "主炮每進行10次攻擊，觸發專屬彈幕-惡毒(μ兵裝)II",
 		system_transform = {},
 		world_death_mark = {
 			1
