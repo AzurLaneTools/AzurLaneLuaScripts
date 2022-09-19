@@ -241,7 +241,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………{namecode:5}。",
+			say = "Um... Miyuki?",
 			painting = {
 				alpha = 0.3,
 				time = 1

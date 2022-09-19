@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "Sakawa, Suzutsuki, Chitose, and then Chiyoda will attack her in turn, and at this distance, Nagato will not able to lend aid even if she wants to.",
+			say = "Sakawa, Suzutsuki, Chitose, and then Chiyoda will attack her in turn, and at this distance, Nagato will not be able to lend aid even if she wants to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
