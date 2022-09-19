@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			say = "{namecode:157}轻轻舞动起手中的神乐杖，如同{namecode:139}一般的绿色雨点从天空落下，将周围的所有人都笼罩其中。",
+			say = "{namecode:157}轻轻舞动起手中的神乐杖，如同春风一般的绿色雨点从天空落下，将周围的所有人都笼罩其中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
