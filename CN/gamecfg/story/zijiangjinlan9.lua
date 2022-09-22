@@ -147,7 +147,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你们现在看到的这片雾气，只使用了海雾这个形式进行表现的其他东西而已。",
+			say = "你们现在看到的这片雾气，只是使用了海雾这个形式进行表现的其他东西而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我感觉姐姐很快就要亲自进场大闹一番了，到时候的形式也许又要发生变化吧……",
+			say = "我感觉姐姐很快就要亲自进场大闹一番了，到时候的形势也许又要发生变化吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1

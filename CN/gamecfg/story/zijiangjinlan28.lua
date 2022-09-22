@@ -308,7 +308,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，我们就充分利用一下{namecode:74}大人准备的事件卡，先让大前辈先在中间努力吧~",
+			say = "呵呵，我们就充分利用一下{namecode:74}大人准备的事件卡，先让大前辈在中间努力吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

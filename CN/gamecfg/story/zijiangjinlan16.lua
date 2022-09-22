@@ -314,7 +314,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可是我们本来也不着急过去，就先让{namecode:91}队的人先替我们探一探中心区域的机关好了~",
+			say = "可是我们本来也不着急过去，就先让{namecode:91}队的人替我们探一探中心区域的机关好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过{namecode:84}大人进攻区域据点用了三回合，我们也要差不多要三回合吧。",
+			say = "不过{namecode:84}大人进攻区域据点用了三回合，我们也差不多要三回合吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "主攻就交给我这个{namecode:70}级光荣的一番舰，大家在拿下之这里之后向据点EF34全线移动，阻止入侵之敌的继续深入！",
+			say = "主攻就交给我这个{namecode:70}级光荣的一番舰，大家在拿下这里之后向据点EF34全线移动，阻止入侵之敌的继续深入！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -4424,7 +4424,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4509,
-		is_show = 29,
+		is_show = 30,
 		id = 4509,
 		config_data = {},
 		time = {
@@ -4687,7 +4687,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 30,
+		is_show = 31,
 		config_data = {
 			1680001,
 			1680002,
@@ -4850,8 +4850,8 @@ pg.activity_template = {
 			{
 				{
 					2022,
-					10,
-					12
+					9,
+					29
 				},
 				{
 					23,
@@ -4876,7 +4876,13 @@ pg.activity_template = {
 			328,
 			329,
 			330,
-			331
+			331,
+			332,
+			333,
+			334,
+			335,
+			336,
+			337
 		},
 		time = {
 			"timer",
@@ -4896,7 +4902,7 @@ pg.activity_template = {
 				{
 					2022,
 					10,
-					12
+					5
 				},
 				{
 					23,
@@ -4908,12 +4914,13 @@ pg.activity_template = {
 	},
 	[4525] = {
 		mark = 20220915,
-		id = 4525,
+		config_client = "",
 		title_res_tag = "japan_fifth_login",
 		type = 3,
 		login_pop = 0,
 		config_id = 30,
 		is_show = 22,
+		id = 4525,
 		config_data = {},
 		time = {
 			"timer",
@@ -4933,7 +4940,7 @@ pg.activity_template = {
 				{
 					2022,
 					10,
-					13
+					5
 				},
 				{
 					23,
@@ -4945,35 +4952,6 @@ pg.activity_template = {
 		page_info = {
 			class_name = "JapanFifthLoginPage",
 			ui_name = "JapanFifthLoginPage"
-		},
-		config_client = {
-			"https://game.bilibili.com/blhx/2022-5thanniversary/h5/",
-			{
-				{
-					{
-						2022,
-						5,
-						26
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2022,
-						6,
-						8
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
 		}
 	},
 	[4526] = {
@@ -5301,6 +5279,160 @@ pg.activity_template = {
 		},
 		config_client = {
 			mini_game_id = 42
+		}
+	},
+	[4535] = {
+		mark = 20220922,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4535,
+		config_data = {
+			17982
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4536] = {
+		mark = 20220922,
+		config_client = "",
+		title_res_tag = "FourthJp",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 32,
+		id = 4536,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FiveAnniversaryPage",
+			ui_name = "FiveAnniversaryPage"
+		}
+	},
+	[4537] = {
+		mark = 20220922,
+		config_client = "",
+		title_res_tag = "neihuada_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 29,
+		id = 4537,
+		config_data = {
+			{
+				17983,
+				17984
+			},
+			{
+				17985,
+				17986
+			},
+			{
+				17987,
+				17988
+			},
+			{
+				17989,
+				17990
+			},
+			{
+				17991,
+				17992
+			},
+			{
+				17993,
+				17994
+			},
+			{
+				17995,
+				17996
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeihuadaSkinPage",
+			ui_name = "NeihuadaSkinPage"
 		}
 	},
 	[7001] = {
@@ -8762,6 +8894,9 @@ pg.activity_template = {
 		4531,
 		4532,
 		4533,
+		4535,
+		4536,
+		4537,
 		7001,
 		7002,
 		7003,

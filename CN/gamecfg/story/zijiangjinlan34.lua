@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这场棋盘为舞台的剧目，终于到了属于谢幕之时。",
+			say = "这场棋盘为舞台的剧目，终于到了谢幕之时。",
 			painting = {
 				alpha = 0.3,
 				time = 1

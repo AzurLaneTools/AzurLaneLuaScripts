@@ -1,117 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101440] = {
-		ship_group = 10144,
-		name = "库珀",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101440,
-		group_index = 0,
-		prefab = "kubo",
-		painting = "kubo",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "艾伦·萨姆纳级驱逐舰—库珀，舷号DD-695",
-		voice_actor = 229,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.112,
-					1.049,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.125,
-					1.05,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			remote = {
-				-50,
-				0,
-				0
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.19,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101441] = {
 		ship_group = 10144,
 		name = "烈日的网球场",
@@ -2773,6 +2661,115 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102071] = {
+		ship_group = 10207,
+		name = "白鸟花园之约",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "161",
+		id = 102071,
+		group_index = 1,
+		prefab = "zhunuo_2",
+		painting = "zhunuo_2",
+		shop_id = 70752,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "白鸟先生羽毛蓬松，抱着又暖暖的，好舒服~欸嘿嘿…还戴上了配合朱诺新衣服的蝴蝶结…欸？指挥官要帮我们拍照吗？如、如果不麻烦的话，就拜托你了…！",
+		voice_actor = 62,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.905,
+					0.661,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.017,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.051,
+					1.264,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.778,
+							1.775,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102079] = {
 		ship_group = 10207,
 		name = "朱诺.改",
@@ -2803,7 +2800,7 @@ pg.ship_skin_template_2 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "改造项目好多…不、不过朱诺总算坚持到改造完成了！虽然还是怕疼…但会为了指挥官，朱诺还是可以鼓起勇气的！",
+		desc = "改造项目好多…不、不过朱诺总算坚持到改造完成了！虽然还是怕疼…但为了指挥官，朱诺还是可以鼓起勇气的！",
 		voice_actor = 62,
 		spine_offset = "",
 		gyro = 0,
@@ -9944,6 +9941,133 @@ pg.ship_skin_template_2 = {
 						{
 							-0.58,
 							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[103010] = {
+		ship_group = 10301,
+		name = "彭萨科拉",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 103010,
+		group_index = 0,
+		prefab = "pengsakela",
+		painting = "pengsakela",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 9,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "彭萨科拉级重巡洋舰—彭萨科拉，舷号CA-24",
+		voice_actor = 56,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.05,
+					0.8,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.05,
+					0.8,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.35,
+					0.4,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.05,
+					0.8,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.559,
+							0.272,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.293,
+							0.826,
 							0
 						}
 					}

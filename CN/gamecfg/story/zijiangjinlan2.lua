@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "呵呵，这些是我之前让{namecode:29}准备的。当然，我也学着做了一点，调制花茶比想象还要有趣哦。",
+			say = "呵呵，这些是我之前让{namecode:29}准备的。当然，我也学着做了一点，调制花茶比想象中的还要有趣哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1

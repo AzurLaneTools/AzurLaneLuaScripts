@@ -298,7 +298,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错，现在我与{namecode:84}{namecode:91}三人都将都目光着眼于中心据点，无法分神。",
+			say = "没错，现在我与{namecode:84}{namecode:91}三人都将目光着眼于中心据点，无法分神。",
 			painting = {
 				alpha = 0.3,
 				time = 1

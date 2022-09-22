@@ -21002,6 +21002,74 @@ _G.pg.base.gametip.eva_comment_send_null = {
 	tip = "请输入评论"
 }
 
+_G.pg.base.gametip.report_sent_thank = {
+	tip = "举报信息已成功发送，感谢您为净化游戏环境作出贡献 "
+}
+
+_G.pg.base.gametip.report_ship_cannot_comment = {
+	tip = "评论功能正在维护中"
+}
+
+_G.pg.base.gametip.report_cannot_comment = {
+	tip = "您已被禁止评论，请联系客服进行处理 "
+}
+
+_G.pg.base.gametip.report_sent_title = {
+	tip = "举报 "
+}
+
+_G.pg.base.gametip.report_sent_desc = {
+	tip = "请选择举报类型（单选） "
+}
+
+_G.pg.base.gametip.report_type_1 = {
+	tip = "敏感言论"
+}
+
+_G.pg.base.gametip.report_type_1_1 = {
+	tip = "敏感、危险发言"
+}
+
+_G.pg.base.gametip.report_type_2 = {
+	tip = "口头谩骂"
+}
+
+_G.pg.base.gametip.report_type_2_1 = {
+	tip = "脏话、语言攻击"
+}
+
+_G.pg.base.gametip.report_type_3 = {
+	tip = "仇恨言论"
+}
+
+_G.pg.base.gametip.report_type_3_1 = {
+	tip = "种族、性别歧视"
+}
+
+_G.pg.base.gametip.report_type_other = {
+	tip = "其他"
+}
+
+_G.pg.base.gametip.report_type_other_1 = {
+	tip = "举报内容说明（最多150个字符）"
+}
+
+_G.pg.base.gametip.report_type_other_2 = {
+	tip = "输入内容不能为空"
+}
+
+_G.pg.base.gametip.report_sent_help = {
+	tip = {
+		{
+			info = [[
+举报说明：
+1.遇到恶意发言的违规玩家，通过点击举报按钮即可对该玩家进行举报
+2.选择对应违规内容类别，如果有其他类别，请您附上投诉内容。填写完毕后点击举报即可
+3. 被举报的评论会根据违规情况进行处理，违规严重的玩家将会面临处罚]]
+		}
+	}
+}
+
 _G.pg.base.gametip.rename_input = {
 	tip = "输入名称"
 }

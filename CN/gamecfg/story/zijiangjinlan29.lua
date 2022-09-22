@@ -109,7 +109,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在临近终盘，如果她再不行动进攻中心据点的话，按照目前的积分，胜利的就是{namecode:74}的了。",
+			say = "现在临近终盘，如果她再不行动进攻中心据点的话，按照目前的积分，胜利就是{namecode:74}的了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来的唯一变数就是{namecode:84}……不过她只有一架航母，不论如何也不可能越过中心区消灭刚刚进行过两次恢复的{namecode:140}。",
+			say = "接下来的唯一变数就是{namecode:84}……不过她只有一艘航母，不论如何也不可能越过中心区消灭刚刚进行过两次恢复的{namecode:140}。",
 			painting = {
 				alpha = 0.3,
 				time = 1

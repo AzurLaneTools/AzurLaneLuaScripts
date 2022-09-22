@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "这个嘛，就要看具体的形式变化了。",
+			say = "这个嘛，就要看具体的形势变化了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -306,7 +306,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "若想战斗，我们也奉陪到底，",
+			say = "若想战斗，我们也奉陪到底。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			say = "伴随着炮击声，{namecode:226}突然着{namecode:157}高速驶去。",
+			say = "伴随着炮击声，{namecode:226}突然向着{namecode:157}高速驶去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是，现在不是像演习的状况一样么……？而且{namecode:84}大人说了可以让让我们享受棋局……",
+			say = "就是，现在不是像演习的状况一样么……？而且{namecode:84}大人说了可以让我们享受棋局……",
 			painting = {
 				alpha = 0.3,
 				time = 1

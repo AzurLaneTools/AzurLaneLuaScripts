@@ -10366,10 +10366,10 @@ pg.ship_skin_words_extra = {
 	[305100] = {
 		unlock = "",
 		feeling3 = "",
-		feeling5 = "",
-		main = "",
 		mail = "",
-		profile = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
 		mission_complete = "",
 		mission = "",
 		feeling2 = "",
@@ -10378,7 +10378,7 @@ pg.ship_skin_words_extra = {
 		battle = "",
 		id = 305100,
 		feeling1 = "",
-		feeling4 = "",
+		profile = "",
 		detail = "",
 		login = {
 			{
@@ -10404,12 +10404,6 @@ pg.ship_skin_words_extra = {
 				"已经回来了？明明和你说了准备返航的时候告诉我一声，让我亲自护送你回来的…"
 			}
 		},
-		upgrade = {
-			{
-				1100,
-				"忙完今天最后的事情之后，就早点回来睡觉吧。……你说“回来”是指？当然是字面意思。若是有心怀不轨之人趁熟睡之际偷袭……偷偷占你便宜时，若有我在身边坐镇，你就能高枕无忧了。"
-			}
-		},
 		main_extra = {
 			{
 				1100,
@@ -10432,6 +10426,12 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"喜欢这种触感的话，把头整个埋进来也无妨哦?呵呵~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"忙完今天最后的事情之后，就早点回来睡觉吧。……你说“回来”是指？当然是字面意思。若是有心怀不轨之人趁熟睡之际偷袭……偷偷占你便宜时，若有我在身边坐镇，你就能高枕无忧了。"
 			}
 		}
 	},

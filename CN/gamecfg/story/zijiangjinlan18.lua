@@ -1155,7 +1155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "吾也如此觉得，也因此，吾等想要确保这个记录也能够成为于对我们而言没有任何意义的“幻象”。",
+			say = "吾也如此觉得，也因此，吾等想要确保这个记录也能够成为对于我们而言没有任何意义的“幻象”。",
 			painting = {
 				alpha = 0.3,
 				time = 1

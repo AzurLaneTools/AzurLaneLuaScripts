@@ -8,6 +8,7 @@ pg.pay_data_display = {
 		limit_arg = 7,
 		name = "贸易许可证（30日）",
 		name_display = "贸易许可证（30日）",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1,
 		money = 30,
@@ -67,6 +68,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新手启航补给",
 		name_display = "新手启航补给",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2,
 		money = 1,
@@ -121,10 +123,11 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		name = "几个钻石",
 		name_display = "几个钻石",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 0,
-		id = 3,
 		money = 6,
+		id = 3,
 		tag = 0,
 		gem = 60,
 		limit_type = 99,
@@ -148,10 +151,11 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		name = "一小堆钻石",
 		name_display = "一小堆钻石",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 30,
-		id = 4,
 		money = 30,
+		id = 4,
 		tag = 0,
 		gem = 300,
 		limit_type = 99,
@@ -175,10 +179,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "一大袋钻石",
 		name_display = "一大袋钻石",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 120,
-		id = 5,
 		money = 98,
+		id = 5,
 		tag = 0,
 		gem = 980,
 		limit_type = 0,
@@ -202,10 +207,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "一小箱钻石",
 		name_display = "一小箱钻石",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 300,
-		id = 6,
 		money = 198,
+		id = 6,
 		tag = 0,
 		gem = 1980,
 		limit_type = 0,
@@ -229,10 +235,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "一大箱钻石",
 		name_display = "一大箱钻石",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 720,
-		id = 7,
 		money = 328,
+		id = 7,
 		tag = 0,
 		gem = 3280,
 		limit_type = 0,
@@ -256,10 +263,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "一整船钻石",
 		name_display = "一整船钻石",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 2400,
-		id = 8,
 		money = 648,
+		id = 8,
 		tag = 1,
 		gem = 6480,
 		limit_type = 0,
@@ -283,6 +291,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋",
 		name_display = "新年福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 9,
 		money = 198,
@@ -382,6 +391,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "国庆福袋",
 		name_display = "国庆福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 11,
 		money = 198,
@@ -481,6 +491,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2019新年福袋",
 		name_display = "2019新年福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 12,
 		money = 198,
@@ -580,6 +591,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2019春节福袋",
 		name_display = "2019春节福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 13,
 		money = 198,
@@ -679,6 +691,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "二周年礼盒",
 		name_display = "二周年礼盒",
+		type_order = 0,
 		extra_gem = 0,
 		id = 14,
 		money = 198,
@@ -778,6 +791,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2019国庆礼盒",
 		name_display = "2019国庆礼盒",
+		type_order = 0,
 		extra_gem = 0,
 		id = 15,
 		money = 198,
@@ -877,6 +891,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋2020",
 		name_display = "新年福袋2020",
+		type_order = 0,
 		extra_gem = 0,
 		id = 16,
 		money = 198,
@@ -981,6 +996,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋复刻(2019)",
 		name_display = "新年福袋复刻(2019)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 17,
 		money = 198,
@@ -1080,6 +1096,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春节福袋2020",
 		name_display = "春节福袋2020",
+		type_order = 0,
 		extra_gem = 0,
 		id = 18,
 		money = 198,
@@ -1184,6 +1201,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春节福袋复刻(2019)",
 		name_display = "春节福袋复刻(2019)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 19,
 		money = 198,
@@ -1283,6 +1301,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新晋指挥官支援包·I",
 		name_display = "新晋指挥官支援包·I",
+		type_order = 0,
 		extra_gem = 0,
 		id = 20,
 		money = 18,
@@ -1367,6 +1386,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新晋指挥官支援包·II",
 		name_display = "新晋指挥官支援包·II",
+		type_order = 0,
 		extra_gem = 0,
 		id = 21,
 		money = 78,
@@ -1476,6 +1496,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新晋指挥官支援包·III",
 		name_display = "新晋指挥官支援包·III",
+		type_order = 0,
 		extra_gem = 0,
 		id = 22,
 		money = 168,
@@ -1590,6 +1611,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "三周年礼盒",
 		name_display = "三周年礼盒",
+		type_order = 0,
 		extra_gem = 0,
 		id = 23,
 		money = 198,
@@ -1694,6 +1716,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2020国庆礼盒",
 		name_display = "2020国庆礼盒",
+		type_order = 0,
 		extra_gem = 0,
 		id = 24,
 		money = 198,
@@ -1798,6 +1821,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋2021",
 		name_display = "新年福袋2021",
+		type_order = 0,
 		extra_gem = 0,
 		id = 25,
 		money = 198,
@@ -1902,6 +1926,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋复刻(2020)",
 		name_display = "新年福袋复刻(2020)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 26,
 		money = 198,
@@ -2006,6 +2031,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春节福袋2021",
 		name_display = "春节福袋2021",
+		type_order = 0,
 		extra_gem = 0,
 		id = 27,
 		money = 198,
@@ -2110,6 +2136,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春节福袋复刻(2020)",
 		name_display = "春节福袋复刻(2020)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 28,
 		money = 198,
@@ -2214,6 +2241,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "四周年礼盒",
 		name_display = "四周年礼盒",
+		type_order = 0,
 		extra_gem = 0,
 		id = 29,
 		money = 198,
@@ -2318,6 +2346,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "三周年礼盒复刻",
 		name_display = "三周年礼盒复刻",
+		type_order = 0,
 		extra_gem = 0,
 		id = 30,
 		money = 198,
@@ -2422,6 +2451,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "大型作战攻略支援包",
 		name_display = "大型作战攻略支援包",
+		type_order = 0,
 		extra_gem = 0,
 		id = 31,
 		money = 198,
@@ -2526,6 +2556,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2021国庆礼盒",
 		name_display = "2021国庆礼盒",
+		type_order = 0,
 		extra_gem = 0,
 		id = 32,
 		money = 198,
@@ -2630,6 +2661,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "国庆礼盒复刻（2020）",
 		name_display = "国庆礼盒复刻（2020）",
+		type_order = 0,
 		extra_gem = 0,
 		id = 33,
 		money = 198,
@@ -2734,6 +2766,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋2022",
 		name_display = "新年福袋2022",
+		type_order = 0,
 		extra_gem = 0,
 		id = 34,
 		money = 198,
@@ -2838,6 +2871,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋复刻(2021)",
 		name_display = "新年福袋复刻(2021)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 35,
 		money = 198,
@@ -2942,6 +2976,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春节福袋2022",
 		name_display = "春节福袋2022",
+		type_order = 0,
 		extra_gem = 0,
 		id = 36,
 		money = 198,
@@ -3046,6 +3081,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春节福袋复刻(2021)",
 		name_display = "春节福袋复刻(2021)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 37,
 		money = 198,
@@ -3150,6 +3186,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "五周年礼盒",
 		name_display = "五周年礼盒",
+		type_order = 0,
 		extra_gem = 0,
 		id = 38,
 		money = 198,
@@ -3254,6 +3291,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "四周年礼盒复刻",
 		name_display = "四周年礼盒复刻",
+		type_order = 0,
 		extra_gem = 0,
 		id = 39,
 		money = 198,
@@ -3350,6 +3388,216 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[40] = {
+		subject = "金秋庆典礼盒",
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		limit_arg = 1,
+		name = "金秋庆典礼盒",
+		name_display = "金秋庆典礼盒",
+		type_order = 2,
+		extra_gem = 0,
+		id = 40,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe8_l",
+		id_str = "com.bilibili.blhx.zuanshi139",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond131",
+		extra_service_item = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[41] = {
+		subject = "金秋庆典礼盒（2021）",
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		limit_arg = 1,
+		name = "金秋庆典礼盒（2021）",
+		name_display = "金秋庆典礼盒（2021）",
+		type_order = 2,
+		extra_gem = 0,
+		id = 41,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe6_l",
+		id_str = "com.bilibili.blhx.zuanshi140",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond132",
+		extra_service_item = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[1000] = {
 		subject = "特许巡游凭证",
 		limit_group = 0,
@@ -3358,6 +3606,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "特许巡游凭证",
 		name_display = "特许巡游凭证",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1000,
 		money = 68,
@@ -3430,6 +3679,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "特许巡游凭证(2021.12.1-1.31)",
 		name_display = "特许巡游凭证",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1001,
 		money = 68,
@@ -3502,6 +3752,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "特许巡游凭证(2022.2)",
 		name_display = "特许巡游凭证",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1002,
 		money = 68,
@@ -3574,6 +3825,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "特许巡游凭证(2022.4)",
 		name_display = "特许巡游凭证",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1003,
 		money = 68,
@@ -3646,6 +3898,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "特许巡游凭证(2022.6)",
 		name_display = "特许巡游凭证",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1004,
 		money = 68,
@@ -3718,6 +3971,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "特许巡游凭证(2022.8)",
 		name_display = "特许巡游凭证",
+		type_order = 4,
 		extra_gem = 0,
 		id = 1005,
 		money = 68,
@@ -3790,6 +4044,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "最高方案研发礼包(一期)",
 		name_display = "最高方案研发礼包(一期)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2001,
 		money = 108,
@@ -3844,6 +4099,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "最高方案研发礼包(一期)高级版",
 		name_display = "高级版",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2002,
 		money = 108,
@@ -3898,6 +4154,7 @@ pg.pay_data_display = {
 		limit_arg = 2,
 		name = "最高方案研发礼包(一期)标准版",
 		name_display = "标准版",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2003,
 		money = 68,
@@ -3942,6 +4199,7 @@ pg.pay_data_display = {
 		limit_arg = 3,
 		name = "最高方案研发礼包(一期)升级版",
 		name_display = "高级版",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2004,
 		money = 40,
@@ -3986,6 +4244,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "最高方案研发礼包(二期)",
 		name_display = "最高方案研发礼包(二期)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2005,
 		money = 108,
@@ -4040,6 +4299,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "最高方案研发礼包(二期)高级版",
 		name_display = "高级版",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2006,
 		money = 108,
@@ -4094,6 +4354,7 @@ pg.pay_data_display = {
 		limit_arg = 2,
 		name = "最高方案研发礼包(二期)标准版",
 		name_display = "标准版",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2007,
 		money = 68,
@@ -4138,6 +4399,7 @@ pg.pay_data_display = {
 		limit_arg = 3,
 		name = "最高方案研发礼包(二期)升级版",
 		name_display = "高级版",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2008,
 		money = 40,
@@ -4182,6 +4444,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "即刻出战礼包",
 		name_display = "即刻出战礼包",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2009,
 		money = 30,
@@ -4256,6 +4519,7 @@ pg.pay_data_display = {
 		limit_arg = 4,
 		name = "舰艇教材礼包",
 		name_display = "舰艇教材礼包",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2010,
 		money = 18,
@@ -4355,6 +4619,7 @@ pg.pay_data_display = {
 		limit_arg = 4,
 		name = "舰艇教材礼包(2022秋)",
 		name_display = "舰艇教材礼包",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2011,
 		money = 18,
@@ -4485,6 +4750,8 @@ pg.pay_data_display = {
 		37,
 		38,
 		39,
+		40,
+		41,
 		1000,
 		1001,
 		1002,

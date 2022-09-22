@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onSubmarineRaid"
 			},
 			arg_list = {
-				buff_id = 15783,
+				skill_id = 15781,
 				minWeaponNumber = 1,
 				check_weapon = true,
 				label = {

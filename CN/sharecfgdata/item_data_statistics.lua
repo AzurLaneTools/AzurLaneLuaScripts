@@ -19358,7 +19358,7 @@ _G.pg.base.item_data_statistics[40914] = {
 
 _G.pg.base.item_data_statistics[40915] = {
 	display = "购买礼包可获得随机换装*1，钻石*2021，心智单元*50，心智魔方*20，高级定向蓝图·四期*2，快速完成工具*10，家具币*100",
-	name = "2021国庆礼盒",
+	name = "金秋庆典礼盒2021",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -19583,6 +19583,63 @@ _G.pg.base.item_data_statistics[40919] = {
 		{
 			2,
 			42036,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40920] = {
+	display = "购买礼包可获得随机换装*1，钻石*2022，心智单元*50，心智魔方*20，高级定向蓝图五期*2，快速完成工具*10，家具币*100",
+	name = "金秋庆典礼盒",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40920,
+	is_world = 0,
+	icon = "Props/lihe8",
+	display_icon = {
+		{
+			2,
+			69920,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42046,
 			2
 		},
 		{
@@ -188492,7 +188549,7 @@ _G.pg.base.item_data_statistics[69915] = {
 （<color=#92fc63>10.7%</color>）埃米尔·贝尔汀换装  芬芳的舞姬；
 （<color=#92fc63>9.5%</color>）命运女神换装  晴空下的命运丝线；
 ]],
-	name = "随机国庆换装2021",
+	name = "随机金秋庆典换装2021",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -188617,6 +188674,39 @@ _G.pg.base.item_data_statistics[69919] = {
 	virtual_type = 0,
 	link_id = 0,
 	id = 69919,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[69920] = {
+	display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>13.0%</color>）{namecode:188}换装 绊倒的迷糊女仆<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）海王星换装   海洋女王的迎接；
+（<color=#92fc63>12.0%</color>）塞德利茨换装 绽放的苍之华；
+（<color=#92fc63>11.5%</color>）卡律布狄斯换装  霞辉之华裳；
+（<color=#92fc63>11.5%</color>）{namecode:74}换装  神子的华服；
+（<color=#92fc63>10.0%</color>）朱诺换装  白鸟花园之约；
+（<color=#92fc63>10.0%</color>）镇海换装  潋滟水色；
+（<color=#92fc63>10.0%</color>）Z28换装  森林中的派对；
+（<color=#92fc63>10.0%</color>）马耶·布雷泽换装  糖分小憩
+]],
+	name = "随机金秋庆典换装",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69920,
 	is_world = 0,
 	icon = "Props/clothIcon",
 	display_icon = {},

@@ -2259,6 +2259,87 @@ pg.drop_data_restore = {
 		drop_id = 0,
 		target_id = 311
 	},
+	[320] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 320,
+		resource_num = 1080,
+		drop_id = 4920,
+		target_id = 319012
+	},
+	[321] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 321,
+		resource_num = 900,
+		drop_id = 4920,
+		target_id = 299012
+	},
+	[322] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 322,
+		resource_num = 900,
+		drop_id = 4920,
+		target_id = 404032
+	},
+	[323] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 323,
+		resource_num = 880,
+		drop_id = 4920,
+		target_id = 202302
+	},
+	[324] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 324,
+		resource_num = 880,
+		drop_id = 4920,
+		target_id = 305054
+	},
+	[325] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 325,
+		resource_num = 800,
+		drop_id = 4920,
+		target_id = 102071
+	},
+	[326] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 326,
+		resource_num = 800,
+		drop_id = 4920,
+		target_id = 506012
+	},
+	[327] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 327,
+		resource_num = 780,
+		drop_id = 4920,
+		target_id = 401282
+	},
+	[328] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 328,
+		resource_num = 780,
+		drop_id = 4920,
+		target_id = 801082
+	},
 	[1020] = {
 		target_type = 7,
 		type = 1,
@@ -2474,6 +2555,15 @@ pg.drop_data_restore = {
 		resource_num = 2000,
 		drop_id = 98018,
 		target_id = 301651
+	},
+	[5014] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 1,
+		id = 5014,
+		resource_num = 2000,
+		drop_id = 98200,
+		target_id = 105011
 	},
 	[6000] = {
 		target_type = 5,
@@ -2736,6 +2826,15 @@ pg.drop_data_restore = {
 		317,
 		318,
 		319,
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
 		1020,
 		1142,
 		1143,
@@ -2760,6 +2859,7 @@ pg.drop_data_restore = {
 		5011,
 		5012,
 		5013,
+		5014,
 		6000
 	}
 }
