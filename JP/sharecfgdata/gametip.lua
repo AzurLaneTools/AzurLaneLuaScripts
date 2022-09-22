@@ -21339,6 +21339,74 @@ _G.pg.base.gametip.eva_comment_send_null = {
 	tip = "コメントを入力してください"
 }
 
+_G.pg.base.gametip.report_sent_thank = {
+	tip = "通報が完了しました。運営にて調査の上、対応させていただきます"
+}
+
+_G.pg.base.gametip.report_ship_cannot_comment = {
+	tip = "コメント機能が一時停止されています"
+}
+
+_G.pg.base.gametip.report_cannot_comment = {
+	tip = "コメント機能が一時停止されています"
+}
+
+_G.pg.base.gametip.report_sent_title = {
+	tip = "通報"
+}
+
+_G.pg.base.gametip.report_sent_desc = {
+	tip = "コメントが該当する項目を選択してください"
+}
+
+_G.pg.base.gametip.report_type_1 = {
+	tip = "不適切な発言"
+}
+
+_G.pg.base.gametip.report_type_1_1 = {
+	tip = "スパムやセンシティブ・不適切な発言"
+}
+
+_G.pg.base.gametip.report_type_2 = {
+	tip = "攻撃的な発言"
+}
+
+_G.pg.base.gametip.report_type_2_1 = {
+	tip = "他者への攻撃的な発言"
+}
+
+_G.pg.base.gametip.report_type_3 = {
+	tip = "ヘイト発言"
+}
+
+_G.pg.base.gametip.report_type_3_1 = {
+	tip = "人種や性別、特定の対象への攻撃的な発言"
+}
+
+_G.pg.base.gametip.report_type_other = {
+	tip = "その他"
+}
+
+_G.pg.base.gametip.report_type_other_1 = {
+	tip = "通報理由を記入して下さい（最大75文字）"
+}
+
+_G.pg.base.gametip.report_type_other_2 = {
+	tip = "内容を記入してください"
+}
+
+_G.pg.base.gametip.report_sent_help = {
+	tip = {
+		{
+			info = [[
+コメント通報機能について：
+1.通報ボタンをタップすると、該当ユーザーについて運営チームに通報することが可能です
+2.通報を行う際、該当する項目を選択する必要があります。その他を選択する場合、通報理由の記入をお願いします
+3.通報されたコメントについては運営チームにて調査の上、対応させていただきます]]
+		}
+	}
+}
+
 _G.pg.base.gametip.rename_input = {
 	tip = "名前を入力してください"
 }

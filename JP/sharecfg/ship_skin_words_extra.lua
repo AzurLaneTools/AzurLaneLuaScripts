@@ -10359,10 +10359,10 @@ pg.ship_skin_words_extra = {
 	[305100] = {
 		unlock = "",
 		feeling3 = "",
-		feeling5 = "",
-		main = "",
 		mail = "",
-		profile = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
 		mission_complete = "",
 		mission = "",
 		feeling2 = "",
@@ -10371,7 +10371,7 @@ pg.ship_skin_words_extra = {
 		battle = "",
 		id = 305100,
 		feeling1 = "",
-		feeling4 = "",
+		profile = "",
 		detail = "",
 		login = {
 			{
@@ -10397,12 +10397,6 @@ pg.ship_skin_words_extra = {
 				"もう戻ってきたの？帰途には妾に護衛をつけさせてほしいと申したのに……"
 			}
 		},
-		upgrade = {
-			{
-				1100,
-				"本日の奉公を終えたら妾の側に戻るといいわ。……戻る、とはだと？そのままの意味であろう？汝の寝首をかく…いや、汝の寝込みを襲うような子が現れようと妾の側なら安全であろうに"
-			}
-		},
 		main_extra = {
 			{
 				1100,
@@ -10425,6 +10419,12 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"この感触が気に入ったなら、頭をうずめても構わないわ。ふふふ"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"本日の奉公を終えたら妾の側に戻るといいわ。……戻る、とはだと？そのままの意味であろう？汝の寝首をかく…いや、汝の寝込みを襲うような子が現れようと妾の側なら安全であろうに"
 			}
 		}
 	},

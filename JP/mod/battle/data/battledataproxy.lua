@@ -162,6 +162,7 @@ function slot8.InitData(slot0, slot1)
 	slot0._shelterIndex = 0
 	slot0._environmentList = {}
 	slot0._environmentIndex = 0
+	slot0._deadUnitList = {}
 	slot0._enemySubmarineCount = 0
 	slot0._airFighterList = {}
 	slot0._currentStageIndex = 1
@@ -323,6 +324,12 @@ function slot8.Clear(slot0)
 	end
 
 	slot0._unitList = nil
+
+	for slot4, slot5 in ipairs(slot0._deadUnitList) do
+		slot5:Dispose()
+	end
+
+	slot0._deadUnitList = nil
 
 	for slot4, slot5 in pairs(slot0._aircraftList) do
 		slot0:KillAircraft(slot4)
@@ -638,6 +645,7 @@ end
 function slot8.updateLoop(slot0, slot1)
 	slot0.FrameIndex = slot0.FrameIndex + 1
 
+	slot0:updateDeadList()
 	slot0:UpdateCountDown(slot1)
 	slot0:UpdateWeather(slot1)
 
@@ -1169,6 +1177,17 @@ function slot8.ShutdownPlayerUnit(slot0, slot1)
 	}))
 end
 
+function slot8.updateDeadList(slot0)
+	slot1 = #slot0._deadUnitList
+
+	while slot1 > 0 do
+		slot0._deadUnitList[slot1]:Dispose()
+
+		slot0._deadUnitList[slot1] = nil
+		slot1 = slot1 - 1
+	end
+end
+
 function slot8.KillUnit(slot0, slot1)
 	if slot0._unitList[slot1] == nil then
 		return
@@ -1228,7 +1247,7 @@ function slot8.KillUnit(slot0, slot1)
 		deadReason = slot5,
 		unit = slot2
 	}))
-	slot2:Dispose()
+	table.insert(slot0._deadUnitList, slot2)
 end
 
 function slot8.KillAllEnemy(slot0)

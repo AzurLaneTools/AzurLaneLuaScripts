@@ -24,44 +24,52 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot4 = slot0._dftEvent
 
 	slot4:SetEndEvent(function (slot0)
-		if uv0.activing then
-			uv0.activing = false
-			uv0.activingTime = nil
-		end
-
-		if uv0._serveSpeed then
-			if uv0.directX == -1 then
-				setActive(findTF(uv0._tf, "effectW"), false)
-				setActive(findTF(uv0._tf, "effectW"), true)
-			else
-				setActive(findTF(uv0._tf, "effectE"), false)
-				setActive(findTF(uv0._tf, "effectE"), true)
-			end
-
-			uv0._serveSpeed = false
-		end
-
-		if uv0._serveFresh then
-			uv0._serveFresh = false
-			uv0.num = uv0.num - 1
-
-			if uv0.num < 0 then
-				uv0.num = 0
-			end
-
-			uv0:clearJudge()
-			uv0:freshChar()
-			uv0:updateParame()
-		elseif uv0.sendExtend then
-			uv0.sendExtend = false
-
-			uv0._event:emit(CookGameView.EXTEND_EVENT)
-		end
-
-		uv0:setTrigger("clear", true)
-
-		uv0.clearing = true
+		uv0:endEventHandle()
 	end)
+end
+
+function slot0.endEventHandle(slot0)
+	if slot0.activing then
+		slot0.activing = false
+		slot0.activingTime = nil
+	end
+
+	if slot0.timeToEventHandle and slot0.timeToEventHandle > 0 then
+		slot0.timeToEventHandle = nil
+	end
+
+	if slot0._serveSpeed then
+		if slot0.directX == -1 then
+			setActive(findTF(slot0._tf, "effectW"), false)
+			setActive(findTF(slot0._tf, "effectW"), true)
+		else
+			setActive(findTF(slot0._tf, "effectE"), false)
+			setActive(findTF(slot0._tf, "effectE"), true)
+		end
+
+		slot0._serveSpeed = false
+	end
+
+	if slot0._serveFresh then
+		slot0._serveFresh = false
+		slot0.num = slot0.num - 1
+
+		if slot0.num < 0 then
+			slot0.num = 0
+		end
+
+		slot0:clearJudge()
+		slot0:freshChar()
+		slot0:updateParame()
+	elseif slot0.sendExtend then
+		slot0.sendExtend = false
+
+		slot0._event:emit(CookGameView.EXTEND_EVENT)
+	end
+
+	slot0:setTrigger("clear", true)
+
+	slot0.clearing = true
 end
 
 function slot0.changeSpeed(slot0, slot1)
@@ -99,6 +107,16 @@ function slot0.step(slot0, slot1)
 
 	if slot0._velocity then
 		slot0:move()
+	end
+
+	if slot0.timeToEventHandle then
+		slot0.timeToEventHandle = slot0.timeToEventHandle - slot1
+
+		if slot0.timeToEventHandle <= 0 then
+			slot0.timeToEventHandle = nil
+
+			slot0:endEventHandle()
+		end
 	end
 
 	if slot0.activingTime and slot0.activingTime > 0 then
@@ -552,6 +570,8 @@ function slot0.extend(slot0)
 
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(CookGameConst.sound_marcopolo_skill)
 		slot0:setTrigger("Extend", true)
+
+		slot0.timeToEventHandle = 3
 	end
 end
 

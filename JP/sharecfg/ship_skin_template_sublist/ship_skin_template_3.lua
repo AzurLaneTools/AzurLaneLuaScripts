@@ -1,121 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
-	[102293] = {
-		ship_group = 10229,
-		name = "翠玉の海人魚",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "157",
-		id = 102293,
-		group_index = 3,
-		prefab = "boyixi_4",
-		painting = "boyixi_4",
-		shop_id = 70704,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ふーはー…東煌の衣装、に、似合う？ちょっと隙間とかすーすーするところが多くて、落ち着かないけど…指揮官がいいなら、いい…",
-		voice_actor = 276,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.12,
-					1.06,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					1.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.1,
-					1.17,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.58,
-							2.33,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[103010] = {
 		ship_group = 10301,
 		name = "ペンサコーラ",
@@ -4993,6 +4877,115 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105011] = {
+		ship_group = 10501,
+		name = "煌びやかなる宴",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "161",
+		id = 105011,
+		group_index = 1,
+		prefab = "neihuada_2",
+		painting = "neihuada_2",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "よっ、少年。各所の挨拶に回って疲れてないかい？ほら、こっちに来な。いいものでも食べながらちょっと休みなよ",
+		voice_actor = 73,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.078,
+					1.096,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.393,
+					0.838,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.21,
+					1.368,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.892,
+							1.843,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[105019] = {
 		ship_group = 10501,
 		name = "ネバダ改",
@@ -9770,6 +9763,113 @@ pg.ship_skin_template_3 = {
 						{
 							-0.45,
 							2.36,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
+	[107034] = {
+		ship_group = 10703,
+		name = "青き海のチャリティーライブ",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 107034,
+		group_index = 4,
+		prefab = "salatuojia_5",
+		painting = "salatuojia_5",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "海と空の仲間、チャリティーアイドルのサラトガちゃん、ただいま新登場！えへへ～指揮官、サラトガちゃんと一緒にこの青い美しい海を守ってね♪",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.634,
+					1.181,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.403,
+					1.1,
+					0
+				}
+			},
+			plane = {
+				{
+					0.035,
+					-0.017,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.562,
+							2.241,
 							-0.6
 						}
 					}

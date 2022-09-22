@@ -18743,248 +18743,323 @@ cs.gametip = {
 		124,
 		true
 	},
-	rename_input = {
+	report_sent_thank = {
 		761641,
+		172,
+		true
+	},
+	report_ship_cannot_comment = {
+		761813,
+		142,
+		true
+	},
+	report_cannot_comment = {
+		761955,
+		137,
+		true
+	},
+	report_sent_title = {
+		762092,
+		87,
+		true
+	},
+	report_sent_desc = {
+		762179,
+		141,
+		true
+	},
+	report_type_1 = {
+		762320,
+		95,
+		true
+	},
+	report_type_1_1 = {
+		762415,
+		131,
+		true
+	},
+	report_type_2 = {
+		762546,
+		95,
+		true
+	},
+	report_type_2_1 = {
+		762641,
+		109,
+		true
+	},
+	report_type_3 = {
+		762750,
+		92,
+		true
+	},
+	report_type_3_1 = {
+		762842,
+		137,
+		true
+	},
+	report_type_other = {
+		762979,
+		90,
+		true
+	},
+	report_type_other_1 = {
+		763069,
+		140,
+		true
+	},
+	report_type_other_2 = {
+		763209,
+		116,
+		true
+	},
+	report_sent_help = {
+		763325,
+		538,
+		true
+	},
+	rename_input = {
+		763863,
 		109,
 		true
 	},
 	avatar_task_level = {
-		761750,
+		763972,
 		171,
 		true
 	},
 	avatar_upgrad_1 = {
-		761921,
+		764143,
 		89,
 		true
 	},
 	avatar_upgrad_2 = {
-		762010,
+		764232,
 		89,
 		true
 	},
 	avatar_upgrad_3 = {
-		762099,
+		764321,
 		88,
 		true
 	},
 	avatar_task_ship_1 = {
-		762187,
+		764409,
 		105,
 		true
 	},
 	avatar_task_ship_2 = {
-		762292,
+		764514,
 		115,
 		true
 	},
 	technology_queue_complete = {
-		762407,
+		764629,
 		101,
 		true
 	},
 	technology_queue_processing = {
-		762508,
+		764730,
 		100,
 		true
 	},
 	technology_queue_waiting = {
-		762608,
+		764830,
 		100,
 		true
 	},
 	technology_queue_getaward = {
-		762708,
+		764930,
 		101,
 		true
 	},
 	technology_daily_refresh = {
-		762809,
+		765031,
 		114,
 		true
 	},
 	technology_queue_full = {
-		762923,
+		765145,
 		149,
 		true
 	},
 	technology_queue_in_mission_incomplete = {
-		763072,
+		765294,
 		190,
 		true
 	},
 	technology_consume = {
-		763262,
+		765484,
 		109,
 		true
 	},
 	technology_request = {
-		763371,
+		765593,
 		100,
 		true
 	},
 	technology_queue_in_doublecheck = {
-		763471,
+		765693,
 		274,
 		true
 	},
 	technology_queue_in_success = {
-		763745,
+		765967,
 		121,
 		true
 	},
 	star_require_enemy_text = {
-		763866,
+		766088,
 		135,
 		true
 	},
 	star_require_enemy_title = {
-		764001,
+		766223,
 		106,
 		true
 	},
 	star_require_enemy_check = {
-		764107,
+		766329,
 		94,
 		true
 	},
 	worldboss_rank_timer_label = {
-		764201,
+		766423,
 		115,
 		true
 	},
 	technology_detail = {
-		764316,
+		766538,
 		93,
 		true
 	},
 	technology_mission_unfinish = {
-		764409,
+		766631,
 		106,
 		true
 	},
 	word_chinese = {
-		764515,
+		766737,
 		82,
 		true
 	},
 	word_japanese_2 = {
-		764597,
+		766819,
 		82,
 		true
 	},
 	word_japanese = {
-		764679,
+		766901,
 		80,
 		true
 	},
 	avatarframe_got = {
-		764759,
+		766981,
 		88,
 		true
 	},
 	item_is_max_cnt = {
-		764847,
+		767069,
 		115,
 		true
 	},
 	level_fleet_ship_desc = {
-		764962,
+		767184,
 		98,
 		true
 	},
 	level_fleet_sub_desc = {
-		765060,
+		767282,
 		97,
 		true
 	},
 	summerland_tip = {
-		765157,
+		767379,
 		542,
 		true
 	},
 	icecreamgame_tip = {
-		765699,
+		767921,
 		1943,
 		true
 	},
 	unlock_date_tip = {
-		767642,
+		769864,
 		118,
 		true
 	},
 	guild_duty_shoule_be_deputy_commander = {
-		767760,
+		769982,
 		189,
 		true
 	},
 	guild_deputy_commander_cnt_is_full = {
-		767949,
+		770171,
 		149,
 		true
 	},
 	guild_deputy_commander_cnt = {
-		768098,
+		770320,
 		163,
 		true
 	},
 	mail_filter_placeholder = {
-		768261,
+		770483,
 		123,
 		true
 	},
 	recently_sticker_placeholder = {
-		768384,
+		770606,
 		141,
 		true
 	},
 	backhill_campusfestival_tip = {
-		768525,
+		770747,
 		1548,
 		true
 	},
 	mini_cookgametip = {
-		770073,
+		772295,
 		1331,
 		true
 	},
 	cook_game_Albacore = {
-		771404,
+		773626,
 		112,
 		true
 	},
 	cook_game_august = {
-		771516,
+		773738,
 		94,
 		true
 	},
 	cook_game_elbe = {
-		771610,
+		773832,
 		102,
 		true
 	},
 	cook_game_hakuryu = {
-		771712,
+		773934,
 		116,
 		true
 	},
 	cook_game_howe = {
-		771828,
+		774050,
 		117,
 		true
 	},
 	cook_game_marcopolo = {
-		771945,
+		774167,
 		113,
 		true
 	},
 	cook_game_noshiro = {
-		772058,
+		774280,
 		106,
 		true
 	},
 	cook_game_pnelope = {
-		772164,
+		774386,
 		119,
 		true
 	}

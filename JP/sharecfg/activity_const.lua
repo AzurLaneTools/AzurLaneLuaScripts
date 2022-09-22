@@ -228,6 +228,18 @@ pg.activity_const = {
 	ACTIVITY_TYPE_RETURN_AWARD_ID = {
 		act_id = 10251
 	},
+	ACTIVITY_TYPE_RETURN_AWARD_ID2 = {
+		act_id = 369
+	},
+	ACTIVITY_TYPE_RETURN_AWARD_ID3 = {
+		act_id = 590
+	},
+	ACTIVITY_TYPE_RETURN_AWARD_ID4 = {
+		act_id = 990
+	},
+	ACTIVITY_TYPE_RETURN_AWARD_ID5 = {
+		act_id = 4526
+	},
 	BISMARCK_CHAPTER_ID = {
 		act_id = 10264
 	},
@@ -314,15 +326,6 @@ pg.activity_const = {
 	},
 	ACTIVITY_ID_STORY_AWARD = {
 		act_id = 368
-	},
-	ACTIVITY_TYPE_RETURN_AWARD_ID2 = {
-		act_id = 369
-	},
-	ACTIVITY_TYPE_RETURN_AWARD_ID3 = {
-		act_id = 590
-	},
-	ACTIVITY_TYPE_RETURN_AWARD_ID4 = {
-		act_id = 990
 	},
 	ANNIVERSARY_LOGIN_ID = {
 		act_id = 371

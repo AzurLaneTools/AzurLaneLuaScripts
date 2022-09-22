@@ -18796,7 +18796,7 @@ _G.pg.base.item_data_statistics[40915] = {
 	link_id = 0,
 	id = 40915,
 	is_world = 0,
-	icon = "Props/lihe6",
+	icon = "Props/lihe5",
 	display_icon = {
 		{
 			2,
@@ -19009,6 +19009,63 @@ _G.pg.base.item_data_statistics[40919] = {
 		{
 			2,
 			42036,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40920] = {
+	display = "ランダムなドレスシリーズ（2022秋）の着せ替え衣装、上級指向型強化ユニット・五期目×2、ダイヤ×2022、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	name = "五周年福袋",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40920,
+	is_world = 0,
+	icon = "Props/lihe7",
+	display_icon = {
+		{
+			2,
+			69920,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42046,
 			2
 		},
 		{
@@ -187203,6 +187260,39 @@ _G.pg.base.item_data_statistics[69919] = {
 	virtual_type = 0,
 	link_id = 0,
 	id = 69919,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[69920] = {
+	display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>13.0%</color>）樫野：つまずきトラブルメイド；
+（<color=#92fc63>12.0%</color>）ネプチューン：深海艦船マリンスノー；
+（<color=#92fc63>12.0%</color>）ザイドリッツ：フラワリー・リベレーション；
+（<color=#92fc63>11.5%</color>）カリブディス：輝かしの麗裳；
+（<color=#92fc63>11.5%</color>）長門：御狐の宴衣裳；
+（<color=#92fc63>10.0%</color>）ジュノー：白鳥の花園へ；
+（<color=#92fc63>10.0%</color>）鎮海：たゆたう波間；
+（<color=#92fc63>10.0%</color>）Z28：森の中のパーティー；
+（<color=#92fc63>10.0%</color>）マイレ·ブレゼ：糖分休暇するのであーる
+]],
+	name = "ランダム衣装",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69920,
 	is_world = 0,
 	icon = "Props/clothIcon",
 	display_icon = {},

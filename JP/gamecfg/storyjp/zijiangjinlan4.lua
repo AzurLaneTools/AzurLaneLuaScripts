@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302080,
-			say = "……ついにあてたちの版が回ってきたな",
+			say = "……ついにあてたちの番が回ってきたな",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1,117 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101440] = {
-		ship_group = 10144,
-		name = "クーパー",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101440,
-		group_index = 0,
-		prefab = "kubo",
-		painting = "kubo",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "アレン・M・サムナー級駆逐艦「クーパー」（DD-695)",
-		voice_actor = 229,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.112,
-					1.049,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.125,
-					1.05,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			remote = {
-				-50,
-				0,
-				0
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.19,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101441] = {
 		ship_group = 10144,
 		name = "烈日のテニスバトル",
@@ -2769,6 +2657,115 @@ pg.ship_skin_template_2 = {
 							0.3,
 							0.87,
 							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
+	[102071] = {
+		ship_group = 10207,
+		name = "白鳥の花園へ",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "161",
+		id = 102071,
+		group_index = 1,
+		prefab = "zhunuo_2",
+		painting = "zhunuo_2",
+		shop_id = 70752,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "白鳥さん、ふわふわ暖かくてとても気持ちいいです。えへへ、ジュノーのドレスに合わせて、お揃いのリボンまでつけてもらって…え？指揮官さん、写真を撮ってくれるのですか？め、迷惑じゃなければお願いします…！",
+		voice_actor = 62,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.905,
+					0.661,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.017,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.051,
+					1.264,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.778,
+							1.775,
+							0
 						}
 					}
 				}
@@ -9838,6 +9835,122 @@ pg.ship_skin_template_2 = {
 						{
 							-0.618,
 							2.466,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102293] = {
+		ship_group = 10229,
+		name = "翠玉の海人魚",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "157",
+		id = 102293,
+		group_index = 3,
+		prefab = "boyixi_4",
+		painting = "boyixi_4",
+		shop_id = 70704,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ふーはー…東煌の衣装、に、似合う？ちょっと隙間とかすーすーするところが多くて、落ち着かないけど…指揮官がいいなら、いい…",
+		voice_actor = 276,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					1.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					1.17,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.33,
 							0
 						}
 					}

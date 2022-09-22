@@ -2590,7 +2590,7 @@ pg.gameset = {
 		key_value = 43200
 	},
 	naval_academy_theme = {
-		description = "summer",
+		description = "autumn",
 		key_value = 0
 	},
 	package_lv = {
@@ -2626,5 +2626,21 @@ pg.gameset = {
 			},
 			999
 		}
+	},
+	report_low_limit = {
+		description = "",
+		key_value = 10
+	},
+	report_max_limit = {
+		description = "",
+		key_value = 30
+	},
+	report_legal_limit = {
+		description = "",
+		key_value = 100
+	},
+	report_level_limit = {
+		description = "",
+		key_value = 70
 	}
 }

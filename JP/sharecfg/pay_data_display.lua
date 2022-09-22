@@ -8,6 +8,7 @@ pg.pay_data_display = {
 		limit_arg = 7,
 		name = "貿易許可証（30日間）",
 		name_display = "貿易許可証（30日間）",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1,
 		money = 980,
@@ -51,6 +52,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新規着任パック",
 		name_display = "新規着任パック",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2,
 		money = 120,
@@ -110,10 +112,11 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		name = "ダイヤ一摘み",
 		name_display = "ダイヤ一摘み",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 0,
-		id = 3,
 		money = 120,
+		id = 3,
 		tag = 0,
 		gem = 60,
 		limit_type = 99,
@@ -137,10 +140,11 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		name = "ダイヤ一握り",
 		name_display = "ダイヤ一握り",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 30,
-		id = 4,
 		money = 610,
+		id = 4,
 		tag = 0,
 		gem = 305,
 		limit_type = 99,
@@ -164,10 +168,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "ダイヤ一袋",
 		name_display = "ダイヤ一袋",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 150,
-		id = 5,
 		money = 1220,
+		id = 5,
 		tag = 0,
 		gem = 610,
 		limit_type = 0,
@@ -191,10 +196,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "ダイヤ小箱",
 		name_display = "ダイヤ小箱",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 360,
-		id = 6,
 		money = 2440,
+		id = 6,
 		tag = 0,
 		gem = 1220,
 		limit_type = 0,
@@ -218,10 +224,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "ダイヤ大箱",
 		name_display = "ダイヤ大箱",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 880,
-		id = 7,
 		money = 4900,
+		id = 7,
 		tag = 0,
 		gem = 2450,
 		limit_type = 0,
@@ -245,10 +252,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "ダイヤ一船",
 		name_display = "ダイヤ一船",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 2500,
-		id = 8,
 		money = 10000,
+		id = 8,
 		tag = 1,
 		gem = 5000,
 		limit_type = 0,
@@ -272,6 +280,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "福袋",
 		name_display = "福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 9,
 		money = 3680,
@@ -371,6 +380,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新生活キャンペｰン",
 		name_display = "新生活キャンペｰン",
+		type_order = 0,
 		extra_gem = 0,
 		id = 10,
 		money = 1200,
@@ -470,6 +480,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "一周年福袋",
 		name_display = "一周年福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 11,
 		money = 3680,
@@ -569,6 +580,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "福袋2019",
 		name_display = "福袋2019",
+		type_order = 0,
 		extra_gem = 0,
 		id = 12,
 		money = 3680,
@@ -668,6 +680,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春節福袋",
 		name_display = "春節福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 13,
 		money = 3680,
@@ -767,6 +780,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "福袋",
 		name_display = "福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 14,
 		money = 3680,
@@ -866,6 +880,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "二週年福袋",
 		name_display = "二週年福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 15,
 		money = 3680,
@@ -965,6 +980,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋2020",
 		name_display = "新年福袋2020",
+		type_order = 0,
 		extra_gem = 0,
 		id = 16,
 		money = 3680,
@@ -1069,6 +1085,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋復刻(2019)",
 		name_display = "新年福袋復刻(2019)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 17,
 		money = 3680,
@@ -1168,6 +1185,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春節福袋2020",
 		name_display = "春節福袋2020",
+		type_order = 0,
 		extra_gem = 0,
 		id = 18,
 		money = 3680,
@@ -1272,6 +1290,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春節福袋復刻(2019)",
 		name_display = "春節福袋復刻(2019)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 19,
 		money = 3680,
@@ -1371,6 +1390,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "着任応援パック・Ⅰ",
 		name_display = "着任応援パック・Ⅰ",
+		type_order = 0,
 		extra_gem = 0,
 		id = 20,
 		money = 250,
@@ -1455,6 +1475,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "着任応援パック・Ⅱ",
 		name_display = "着任応援パック・Ⅱ",
+		type_order = 0,
 		extra_gem = 0,
 		id = 21,
 		money = 1480,
@@ -1564,6 +1585,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "着任応援パック・Ⅲ",
 		name_display = "着任応援パック・Ⅲ",
+		type_order = 0,
 		extra_gem = 0,
 		id = 22,
 		money = 2940,
@@ -1678,6 +1700,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "福袋（夏2020）",
 		name_display = "福袋（夏2020）",
+		type_order = 0,
 		extra_gem = 0,
 		id = 23,
 		money = 3680,
@@ -1782,6 +1805,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "三周年福袋",
 		name_display = "三周年福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 24,
 		money = 3680,
@@ -1886,6 +1910,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋2021",
 		name_display = "新年福袋2021",
+		type_order = 0,
 		extra_gem = 0,
 		id = 25,
 		money = 3680,
@@ -1990,6 +2015,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋2020(復刻)",
 		name_display = "新年福袋2020(復刻)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 26,
 		money = 3680,
@@ -2094,6 +2120,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春節福袋2021",
 		name_display = "春節福袋2021",
+		type_order = 0,
 		extra_gem = 0,
 		id = 27,
 		money = 3680,
@@ -2198,6 +2225,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春節福袋2020(復刻)",
 		name_display = "春節福袋2020(復刻)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 28,
 		money = 3680,
@@ -2302,6 +2330,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "福袋(夏2021)",
 		name_display = "福袋(夏2021)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 29,
 		money = 3680,
@@ -2406,6 +2435,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "福袋(夏2020) (復刻)",
 		name_display = "福袋(夏2020) (復刻)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 30,
 		money = 3680,
@@ -2510,6 +2540,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "着任応援パック・Ⅳ",
 		name_display = "着任応援パック・Ⅳ",
+		type_order = 0,
 		extra_gem = 0,
 		id = 31,
 		money = 3680,
@@ -2614,6 +2645,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "四周年福袋",
 		name_display = "四周年福袋",
+		type_order = 0,
 		extra_gem = 0,
 		id = 32,
 		money = 3680,
@@ -2718,6 +2750,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "三周年福袋 (復刻)",
 		name_display = "三周年福袋 (復刻)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 33,
 		money = 3680,
@@ -2822,6 +2855,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋2022",
 		name_display = "新年福袋2022",
+		type_order = 0,
 		extra_gem = 0,
 		id = 34,
 		money = 3680,
@@ -2926,6 +2960,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "新年福袋2021(復刻)",
 		name_display = "新年福袋2021(復刻)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 35,
 		money = 3680,
@@ -3030,6 +3065,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春節福袋2022",
 		name_display = "春節福袋2022",
+		type_order = 0,
 		extra_gem = 0,
 		id = 36,
 		money = 3680,
@@ -3134,6 +3170,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "春節福袋2021(復刻)",
 		name_display = "春節福袋2021(復刻)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 37,
 		money = 3680,
@@ -3238,6 +3275,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "福袋(夏2022)",
 		name_display = "福袋(夏2022)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 38,
 		money = 3680,
@@ -3342,6 +3380,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "福袋(夏2021) (復刻)",
 		name_display = "福袋(夏2021) (復刻)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 39,
 		money = 3680,
@@ -3438,6 +3477,216 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	{
+		subject = "五周年福袋",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "五周年福袋",
+		name_display = "五周年福袋",
+		type_order = 2,
+		extra_gem = 0,
+		id = 40,
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe7_l",
+		id_str = "com.bilibili.blhx.zuanshi139",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond131",
+		extra_service_item = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	{
+		subject = "四周年福袋 (復刻)",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "四周年福袋 (復刻)",
+		name_display = "四周年福袋 (復刻)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 41,
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe5_l",
+		id_str = "com.bilibili.blhx.zuanshi140",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond132",
+		extra_service_item = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[1000] = {
 		subject = "クルーズパス",
 		limit_group = 0,
@@ -3446,6 +3695,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "クルーズパス",
 		name_display = "クルーズパス",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1000,
 		money = 1220,
@@ -3518,6 +3768,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "クルーズパス(21初冬)",
 		name_display = "クルーズパス(21初冬)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1001,
 		money = 1220,
@@ -3590,6 +3841,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "クルーズパス(22冬)",
 		name_display = "クルーズパス(22冬)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1002,
 		money = 1220,
@@ -3662,6 +3914,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "クルーズパス(22春)",
 		name_display = "クルーズパス(22春)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1003,
 		money = 1220,
@@ -3734,6 +3987,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "クルーズパス(22初夏)",
 		name_display = "クルーズパス(22初夏)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1004,
 		money = 1220,
@@ -3806,6 +4060,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "クルーズパス(22夏)",
 		name_display = "クルーズパス(22夏)",
+		type_order = 4,
 		extra_gem = 0,
 		id = 1005,
 		money = 1220,
@@ -3878,6 +4133,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "PR特別計画艦パック・Ⅰ期",
 		name_display = "PR特別計画艦パック・Ⅰ期",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2001,
 		money = 1960,
@@ -3932,6 +4188,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "PR艦船Ⅰ期交換アイテム＋強化ユニットセット",
 		name_display = "PR艦船Ⅰ期交換アイテム\n＋強化ユニットセット",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2002,
 		money = 1960,
@@ -3986,6 +4243,7 @@ pg.pay_data_display = {
 		limit_arg = 2,
 		name = "PR艦船Ⅰ期交換アイテム",
 		name_display = "PR艦船Ⅰ期交換アイテム",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2003,
 		money = 1220,
@@ -4030,6 +4288,7 @@ pg.pay_data_display = {
 		limit_arg = 3,
 		name = "PR特別計画艦Ⅰ期強化ユニットセット",
 		name_display = "強化ユニット",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2004,
 		money = 860,
@@ -4074,6 +4333,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "PR特別計画艦パック・Ⅱ期",
 		name_display = "PR特別計画艦パック・Ⅱ期",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2005,
 		money = 1960,
@@ -4128,6 +4388,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "PR艦船Ⅱ期交換アイテム＋強化ユニットセット",
 		name_display = "PR艦船Ⅱ期交換アイテム\n＋強化ユニットセット",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2006,
 		money = 1960,
@@ -4182,6 +4443,7 @@ pg.pay_data_display = {
 		limit_arg = 2,
 		name = "PR艦船Ⅱ期交換アイテム",
 		name_display = "PR艦船Ⅱ期交換アイテム",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2007,
 		money = 1220,
@@ -4226,6 +4488,7 @@ pg.pay_data_display = {
 		limit_arg = 3,
 		name = "PR特別計画艦Ⅱ期強化ユニットセット",
 		name_display = "強化ユニット",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2008,
 		money = 860,
@@ -4270,6 +4533,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "指揮官レベルアップパック",
 		name_display = "指揮官レベルアップパック",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2009,
 		money = 610,
@@ -4344,6 +4608,7 @@ pg.pay_data_display = {
 		limit_arg = 4,
 		name = "教科書パック",
 		name_display = "教科書パック",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2010,
 		money = 400,
@@ -4443,6 +4708,7 @@ pg.pay_data_display = {
 		limit_arg = 4,
 		name = "教科書パック",
 		name_display = "教科書パック",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2011,
 		money = 400,
@@ -4574,6 +4840,8 @@ pg.pay_data_display = {
 		37,
 		38,
 		39,
+		40,
+		41,
 		1000,
 		1001,
 		1002,
