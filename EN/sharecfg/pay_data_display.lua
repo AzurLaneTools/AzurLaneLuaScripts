@@ -1983,6 +1983,7 @@ pg.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "lihe8_l",
 		id_str = "com.yostaren.azurlane.diamond173",
 		first_pay_double = 0,
@@ -2026,32 +2027,6 @@ pg.pay_data_display = {
 				100
 			}
 		},
-		time = {
-			{
-				{
-					2022,
-					9,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		display = {
 			{
 				2,
@@ -2088,6 +2063,7 @@ pg.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "lihe6_l",
 		id_str = "com.yostaren.azurlane.diamond174",
 		first_pay_double = 0,
@@ -2129,32 +2105,6 @@ pg.pay_data_display = {
 				1,
 				6,
 				100
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					9,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {

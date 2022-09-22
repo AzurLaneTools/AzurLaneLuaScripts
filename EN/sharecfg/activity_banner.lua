@@ -3,37 +3,12 @@ pg.activity_banner = {
 	{
 		id = 1,
 		pic = "temp7",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene charge",
 			{
 				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					9,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
