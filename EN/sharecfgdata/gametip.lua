@@ -21171,6 +21171,74 @@ _G.pg.base.gametip.eva_comment_send_null = {
 	tip = "Write a comment."
 }
 
+_G.pg.base.gametip.report_sent_thank = {
+	tip = "Report submitted. HQ will look into this issue and respond as appropriate."
+}
+
+_G.pg.base.gametip.report_ship_cannot_comment = {
+	tip = "You have been barred from commenting."
+}
+
+_G.pg.base.gametip.report_cannot_comment = {
+	tip = "Comments cannot be left on this shipgirl right now."
+}
+
+_G.pg.base.gametip.report_sent_title = {
+	tip = "Report"
+}
+
+_G.pg.base.gametip.report_sent_desc = {
+	tip = "Please select why you are reporting this comment:"
+}
+
+_G.pg.base.gametip.report_type_1 = {
+	tip = "Inappropriate Comment"
+}
+
+_G.pg.base.gametip.report_type_1_1 = {
+	tip = "<size=23>Comment is spam or inappropriate/sexual in nature.</size>"
+}
+
+_G.pg.base.gametip.report_type_2 = {
+	tip = "Offensive Comment"
+}
+
+_G.pg.base.gametip.report_type_2_1 = {
+	tip = "<size=23>Comment contains offensive language or harassment.</size>"
+}
+
+_G.pg.base.gametip.report_type_3 = {
+	tip = "Hate Speech"
+}
+
+_G.pg.base.gametip.report_type_3_1 = {
+	tip = "<size=23>Comment attacks a person or a group of people on \nthe basis of race, gender, etc.</size>"
+}
+
+_G.pg.base.gametip.report_type_other = {
+	tip = "Other"
+}
+
+_G.pg.base.gametip.report_type_other_1 = {
+	tip = "Please enter the reason for your report (Max: 150 characters)"
+}
+
+_G.pg.base.gametip.report_type_other_2 = {
+	tip = "This field cannot be left blank."
+}
+
+_G.pg.base.gametip.report_sent_help = {
+	tip = {
+		{
+			info = [[
+Reporting Comments
+1. Tap the "Report" button to submit a ticket for the HQ to review the comment in question.
+2. When submitting a report, please select the corresponding reason. If you select "Other," please fill out the reason why you are reporting.
+3. Reported comments will be investigated by the HQ and dealt with appropriately.]]
+		}
+	}
+}
+
 _G.pg.base.gametip.rename_input = {
 	tip = "Enter a new name."
 }

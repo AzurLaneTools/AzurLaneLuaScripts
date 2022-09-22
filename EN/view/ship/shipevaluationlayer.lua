@@ -2,6 +2,7 @@ slot0 = class("ShipEvaluationLayer", import("..base.BaseUI"))
 slot0.EVENT_LIKE = "event like"
 slot0.EVENT_EVA = "event eva"
 slot0.EVENT_ZAN = "event zan"
+slot0.EVENT_IMPEACH = "event impeach"
 
 function slot0.getUIName(slot0)
 	return "EvaluationUI"
@@ -30,20 +31,41 @@ function slot0.init(slot0)
 	slot0.stars = findTF(slot0.head, "content/main_bg/stars")
 	slot0.star = findTF(slot0.stars, "tpl")
 	slot0.bg = slot0:findTF("BG")
+	slot0.btnHelp = slot0._tf:Find("mainPanel/bg/top_panel/title/help")
 
+	setActive(slot0.btnHelp, getProxy(PlayerProxy):getRawData():IsOpenShipEvaluationImpeach())
+	slot0:initImpeachPanel()
+	setActive(slot0.mainPanel, true)
+	setActive(slot0.impackPanel, false)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		groupName = slot0:getGroupNameFromData(),
 		weight = slot0:getWeightFromData()
 	})
 end
 
+function slot0.onBackPressed(slot0)
+	if isActive(slot0.impackPanel) then
+		setActive(slot0.mainPanel, true)
+		setActive(slot0.impackPanel, false)
+	else
+		slot0:closeView()
+	end
+end
+
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.bg, function ()
-		uv0:emit(BaseUI.ON_CLOSE)
+		uv0:onBackPressed()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("mainPanel/bg/top_panel/btnBack"), function ()
-		uv0:emit(BaseUI.ON_CLOSE)
+		uv0:onBackPressed()
 	end, SFX_CANCEL)
+	onButton(slot0, slot0.btnHelp, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = i18n("report_sent_help"),
+			weight = uv0:getWeightFromData()
+		})
+	end, SFX_PANEl)
 	onButton(slot0, slot0.btnLike, function ()
 		uv0:emit(uv1.EVENT_LIKE)
 	end, SFX_PANEL)
@@ -145,18 +167,20 @@ function slot0.flushEva(slot0)
 		end
 	end
 
-	for slot6 = 1, #slot2 do
-		slot7 = nil
-		slot7 = (not slot2[slot6].hot or cloneTplTo(slot0.hotTpl, slot0.hotContent)) and cloneTplTo(slot0.commonTpl, slot0.commonContent)
-		slot9 = slot0:findTF("bg/evaluation", slot7):GetComponent(typeof(Text))
+	slot3 = getProxy(PlayerProxy):getRawData():IsOpenShipEvaluationImpeach()
 
-		setText(slot0:findTF("bg/name", slot7), slot8.nick_name .. ":")
-		setText(slot0:findTF("bg/zan_bg/Text", slot7), slot8.good_count - slot8.bad_count)
+	for slot7 = 1, #slot2 do
+		slot8 = nil
+		slot8 = (not slot2[slot7].hot or cloneTplTo(slot0.hotTpl, slot0.hotContent)) and cloneTplTo(slot0.commonTpl, slot0.commonContent)
+		slot10 = slot0:findTF("bg/evaluation", slot8):GetComponent(typeof(Text))
 
-		slot9.supportRichText = false
-		slot9.text = slot8.context
+		setText(slot0:findTF("bg/name", slot8), slot9.nick_name .. ":")
+		setText(slot0:findTF("bg/zan_bg/Text", slot8), slot9.good_count - slot9.bad_count)
 
-		function slot12(slot0)
+		slot10.supportRichText = false
+		slot10.text = slot9.context
+
+		function slot13(slot0)
 			if not uv0.izan then
 				uv1:emit(uv2.EVENT_ZAN, uv0.id, slot0)
 			else
@@ -164,27 +188,27 @@ function slot0.flushEva(slot0)
 			end
 		end
 
-		onButton(slot0, slot7:Find("bg/zan_bg/up"), function ()
+		onButton(slot0, slot8:Find("bg/zan_bg/up"), function ()
 			uv0(0)
 		end, SFX_PANEL)
-		onButton(slot0, slot7:Find("bg/zan_bg/down"), function ()
+		onButton(slot0, slot8:Find("bg/zan_bg/down"), function ()
 			uv0(1)
 		end, SFX_PANEL)
-		SetActive(slot7:Find("bg/zan_bg/down"), not LOCK_DOWNVOTE or false)
-
-		if LOCK_DOWNVOTE then
-			slot7:Find("bg/zan_bg/up").position = slot7:Find("bg/zan_bg/down").position
-		end
+		onButton(slot0, slot8:Find("bg/zan_bg/impeach"), function ()
+			uv0:openImpeachPanel(uv1.id)
+		end, SFX_PANEl)
+		SetActive(slot8:Find("bg/zan_bg/down"), not defaultValue(LOCK_DOWNVOTE, true))
+		setActive(slot8:Find("bg/zan_bg/impeach"), slot3)
 	end
 
-	slot3 = 1
+	slot4 = 1
 
-	for slot7 = 1, slot0.hotContent.childCount do
-		if go(slot0.hotContent:GetChild(slot7 - 1)).name ~= "tag" then
-			setActive(slot8:Find("print1"), slot3 % 2 ~= 0)
-			setActive(slot8:Find("print2"), slot3 % 2 == 0)
+	for slot8 = 1, slot0.hotContent.childCount do
+		if go(slot0.hotContent:GetChild(slot8 - 1)).name ~= "tag" then
+			setActive(slot9:Find("print1"), slot4 % 2 ~= 0)
+			setActive(slot9:Find("print2"), slot4 % 2 == 0)
 
-			slot3 = slot3 + 1
+			slot4 = slot4 + 1
 		end
 	end
 
@@ -192,6 +216,79 @@ function slot0.flushEva(slot0)
 	setActive(slot0.commonContent:Find("tag"), slot0.commonContent.childCount > 1)
 	slot0.hotContent:Find("tag"):SetAsLastSibling()
 	slot0.commonContent:Find("tag"):SetAsLastSibling()
+end
+
+slot1 = 3
+
+function slot0.initImpeachPanel(slot0)
+	slot1 = slot0._tf
+	slot0.impackPanel = slot1:Find("impeachPanel")
+	slot2 = slot0.impackPanel
+
+	setText(slot2:Find("window/top/bg/impeach/title"), i18n("report_sent_title"))
+
+	slot3 = slot0.impackPanel
+
+	onButton(slot0, slot3:Find("window/top/btnBack"), function ()
+		uv0:onBackPressed()
+	end, SFX_CANCEL)
+
+	slot1 = slot0.impackPanel
+	slot1 = slot1:Find("window/msg_panel/content")
+
+	setText(slot1:Find("title"), i18n("report_sent_desc"))
+
+	slot2 = UIItemList.New(slot1:Find("options"), slot1:Find("options/tpl"))
+
+	slot2:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
+		if slot0 == UIItemList.EventUpdate then
+			setText(slot2:Find("Text"), i18n("report_type_" .. slot1))
+			setText(slot2:Find("Text_2"), i18n("report_type_" .. slot1 .. "_1"))
+			onToggle(uv0, slot2, function (slot0)
+				uv0.impeachOption = uv1
+			end)
+		end
+	end)
+	slot2:align(uv0)
+	setText(slot1:Find("other/field/Text"), i18n("report_type_other"))
+	setText(slot1:Find("other/field/input/Placeholder"), i18n("report_type_other_1"))
+	onToggle(slot0, slot1:Find("other"), function (slot0)
+		uv0.impeachOption = "other"
+
+		setActive(uv1:Find("other/field/input"), slot0)
+	end)
+	onInputChanged(slot0, slot1:Find("other/field/input"), function ()
+		Canvas.ForceUpdateCanvases()
+	end)
+
+	slot6 = slot0.impackPanel
+
+	onButton(slot0, slot6:Find("window/button_container/button"), function ()
+		if uv0.impeachOption == "other" then
+			if string.len(getInputText(uv1)) > 0 then
+				uv0:emit(uv2.EVENT_IMPEACH, uv0.targetEvaId, i18n("report_type_other") .. ":" .. slot0)
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("report_type_other_2"))
+
+				return
+			end
+		else
+			uv0:emit(uv2.EVENT_IMPEACH, uv0.targetEvaId, i18n("report_type_" .. uv0.impeachOption))
+		end
+
+		uv0:onBackPressed()
+	end, SFX_CONFIRM)
+end
+
+function slot0.openImpeachPanel(slot0, slot1)
+	slot0.targetEvaId = slot1
+
+	setActive(slot0.mainPanel, false)
+	setActive(slot0.impackPanel, true)
+	triggerToggle(slot0.impackPanel:Find("window/msg_panel/content/other"), true)
+	triggerToggle(slot0.impackPanel:Find("window/msg_panel/content/options/tpl"), true)
 end
 
 function slot0.willExit(slot0)

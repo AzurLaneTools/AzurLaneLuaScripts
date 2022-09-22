@@ -280,40 +280,38 @@ function slot0.sortGiftGoodsVOList(slot0)
 		end
 	end
 
+	function slot1(slot0)
+		slot2 = 0
+
+		return type(slot0:getConfig("time")) == "string" and slot2 + 999999999999.0 or type(slot1) == "table" and (pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[2]) - pg.TimeMgr.GetInstance():GetServerTime() > 0 and slot2 or 999999999999.0) or slot2 + 999999999999.0
+	end
+
 	table.sort(slot0.giftGoodsVOListForShow, function (slot0, slot1)
-		slot3 = not table.contains(uv0.firstChargeIds, slot0.id) and slot0:firstPayDouble() and 1 or 0
-		slot5 = not table.contains(uv0.firstChargeIds, slot1.id) and slot1:firstPayDouble() and 1 or 0
-		slot6 = 0
-		slot7 = 0
-		slot8 = nil
+		slot4 = uv0(slot0)
+		slot5 = uv0(slot1)
+		slot6 = slot0:getConfig("tag") == 0 and -1 or slot0:getConfig("tag")
+		slot7 = slot1:getConfig("tag") == 0 and -1 or slot1:getConfig("tag")
+		slot8 = slot0:getConfig("order") and slot0:getConfig("order") or 999
+		slot9 = slot1:getConfig("order") and slot1:getConfig("order") or 999
+		slot10 = slot0.id
+		slot11 = slot1.id
 
-		if slot0:isFree() then
-			return true
-		elseif slot1:isFree() then
-			return false
-		end
-
-		if slot0:isChargeType() and slot0:isMonthCard() and uv0.player:getCardById(VipCard.MONTH) then
-			slot6 = math.floor((slot9:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400) > (slot0:getConfig("limit_arg") or 0) and 1 or 0
-		end
-
-		if slot1:isChargeType() and slot1:isMonthCard() and uv0.player:getCardById(VipCard.MONTH) then
-			slot7 = math.floor((slot9:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400) > (slot1:getConfig("limit_arg") or 0) and 1 or 0
-		end
-
-		if slot6 ~= slot7 then
-			return slot6 < slot7
-		end
-
-		slot9 = slot0:getConfig("tag") == 2 and 1 or 0
-		slot10 = slot1:getConfig("tag") == 2 and 1 or 0
-
-		if slot3 == slot5 and slot9 == slot10 then
-			return slot0.id < slot1.id
+		if (slot0:getConfig("type_order") == 0 and 999 or slot0:getConfig("type_order")) == (slot1:getConfig("type_order") == 0 and 999 or slot1:getConfig("type_order")) then
+			if slot4 == slot5 then
+				if slot6 == slot7 then
+					if slot8 == slot9 then
+						return slot10 < slot11
+					else
+						return slot8 < slot9
+					end
+				else
+					return slot7 < slot6
+				end
+			else
+				return slot4 < slot5
+			end
 		else
-			slot11 = slot5 < slot3 or slot3 == slot5 and slot10 < slot9
-
-			return slot11
+			return slot2 < slot3
 		end
 	end)
 end

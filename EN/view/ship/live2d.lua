@@ -64,6 +64,10 @@ function slot4(slot0)
 end
 
 function slot5(slot0, slot1, slot2)
+	if slot0.updateAtom then
+		slot0:AtomSouceFresh()
+	end
+
 	if slot0.animationClipNames and (not table.indexof(slot0.animationClipNames, slot1) or slot3 == false) and string.find(slot1, "main_") then
 		slot1 = "main_3"
 	end
@@ -384,7 +388,15 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.UpdateAtomSource(slot0)
+	slot0.updateAtom = true
+end
+
+function slot0.AtomSouceFresh(slot0)
 	pg.CriMgr.GetInstance():getAtomSource(pg.CriMgr.C_VOICE):AttachToAnalyzer(ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Framework.MouthMovement.CubismCriSrcMouthInput"), "Analyzer", slot0._go:GetComponent("CubismCriSrcMouthInput")))
+
+	if slot0.updateAtom then
+		slot0.updateAtom = false
+	end
 end
 
 return slot0

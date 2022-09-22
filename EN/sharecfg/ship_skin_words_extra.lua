@@ -10342,10 +10342,10 @@ pg.ship_skin_words_extra = {
 	[305100] = {
 		unlock = "",
 		feeling3 = "",
-		feeling5 = "",
-		main = "",
 		mail = "",
-		profile = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
 		mission_complete = "",
 		mission = "",
 		feeling2 = "",
@@ -10354,7 +10354,7 @@ pg.ship_skin_words_extra = {
 		battle = "",
 		id = 305100,
 		feeling1 = "",
-		feeling4 = "",
+		profile = "",
 		detail = "",
 		login = {
 			{
@@ -10380,12 +10380,6 @@ pg.ship_skin_words_extra = {
 				"You're back already? Did I not ask you to inform me beforehand so I can escort you personally...?"
 			}
 		},
-		upgrade = {
-			{
-				1100,
-				"Return to my embrace after finishing today's work. What do I mean by \"return,\" you ask? Exactly how it sounds. I wish to pamper... I mean, protect you from those who would take advantage of you in your sleep."
-			}
-		},
 		main_extra = {
 			{
 				1100,
@@ -10408,6 +10402,12 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"If this sensation is to your liking, you are welcome to dive in face-first. Hehe."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Return to my embrace after finishing today's work. What do I mean by \"return,\" you ask? Exactly how it sounds. I wish to pamper... I mean, protect you from those who would take advantage of you in your sleep."
 			}
 		}
 	},

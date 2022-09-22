@@ -660,4 +660,8 @@ function slot0.RawSetRandomShipAndSkinValueInpos(slot0, slot1, slot2)
 	slot0.randomFlagShipSoltSetting[slot1] = slot2
 end
 
+function slot0.IsOpenShipEvaluationImpeach(slot0)
+	return not LOCK_IMPEACH and pg.gameset.report_level_limit.key_value <= slot0.level
+end
+
 return slot0

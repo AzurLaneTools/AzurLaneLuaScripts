@@ -17,10 +17,14 @@ function slot0.execute(slot0, slot1)
 			end
 
 			pg.TipsMgr.GetInstance():ShowTips(i18n("eva_ship_success"))
+		elseif slot0.result == 1 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("report_ship_cannot_comment"))
 		elseif slot0.result == 2011 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("evaluate_too_loog"))
 		elseif slot0.result == 2013 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("evaluate_ban_word"))
+		elseif slot0.result == 40 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("report_cannot_comment"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("eva_ship", slot0.result))
 		end

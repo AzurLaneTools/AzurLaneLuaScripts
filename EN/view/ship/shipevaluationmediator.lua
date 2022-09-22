@@ -31,6 +31,13 @@ function slot0.register(slot0)
 			operation = slot2
 		})
 	end)
+	slot0:bind(ShipEvaluationLayer.EVENT_IMPEACH, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.IMPEACH_SHIP_EVALUATION, {
+			groupId = uv0.groupId,
+			evaId = slot1,
+			reason = slot2
+		})
+	end)
 end
 
 function slot0.listNotificationInterests(slot0)

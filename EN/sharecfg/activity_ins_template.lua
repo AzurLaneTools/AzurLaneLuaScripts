@@ -9002,6 +9002,84 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	{
+		ship_group = 50601,
+		name = "ChenHai",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "zhenhai",
+		id = 332,
+		group_id = 332,
+		order = 33,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 80108,
+		name = "Brézé",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Mayebuleize_2",
+		id = 333,
+		group_id = 333,
+		order = 33,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10501,
+		name = "Nevada",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "neihuada",
+		id = 334,
+		group_id = 334,
+		order = 33,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30505,
+		name = "SakuraCombinedFleet",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "changmen",
+		id = 335,
+		group_id = 335,
+		order = 33,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 29901,
+		name = "Neptune",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "haiwangxing",
+		id = 336,
+		group_id = 336,
+		order = 33,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10207,
+		name = "Juneau",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Zhunuo_2",
+		id = 337,
+		group_id = 337,
+		order = 33,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -9333,6 +9411,12 @@ pg.activity_ins_template = {
 		328,
 		329,
 		330,
-		331
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337
 	}
 }

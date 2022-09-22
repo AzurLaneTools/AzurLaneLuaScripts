@@ -18492,6 +18492,63 @@ _G.pg.base.item_data_statistics[40919] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40920] = {
+	display = "Buy to receive 1 random 2022 party dress skin, 2 Specialized General Blueprints - Series 5, 2022 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 100 Decor Tokens, and 10 Quick Finishers.",
+	name = "2022 Party Dress Lucky Box",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40920,
+	is_world = 0,
+	icon = "Props/lihe8",
+	display_icon = {
+		{
+			2,
+			69920,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40951] = {
 	display = "Nep's Lucky Bag contains 1 x Nep Ship skin, 3 x Nep Gear skins, 8 x Wisdom Cubes, 4 x Quick Finishers, 100 x Decor Tokens, and 2018 x Gems",
 	name = "Nep's Lucky Bag ",
@@ -178929,6 +178986,39 @@ The available outfits and their rarities are as follows:
 	virtual_type = 0,
 	link_id = 0,
 	id = 69919,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[69920] = {
+	display = [[
+Use this to randomly obtain one of the following skins (duplicate skins will be converted into a corresponding sum of Gems).
+The available skins and their rarities are as follows:
+(<color=#92fc63>13.0%</color>) Kashino - Maid for Mayhem (<color=#92fc63>Live2D</color>);
+(<color=#92fc63>12.0%</color>) Neptune - Nereid's Invitation;
+(<color=#92fc63>12.0%</color>) Seydlitz - Floral Liberation;
+(<color=#92fc63>11.5%</color>) Charybdis - Brilliant Belle;
+(<color=#92fc63>11.5%</color>) Nagato - Guardian Fox's Procession;
+(<color=#92fc63>10.0%</color>) Juneau - In the Swan Garden;
+(<color=#92fc63>10.0%</color>) Chen Hai - Cerulean Ripples;
+(<color=#92fc63>10.0%</color>) Z28 - Sylvan Celebration;
+(<color=#92fc63>10.0%</color>) Maillé Brézé - Sugary Sabbatical
+]],
+	name = "Random Party Dress Skin",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69920,
 	is_world = 0,
 	icon = "Props/clothIcon",
 	display_icon = {},
