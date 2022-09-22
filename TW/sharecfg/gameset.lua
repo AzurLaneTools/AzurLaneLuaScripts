@@ -2581,20 +2581,8 @@ pg.gameset = {
 			999
 		}
 	},
-	report_low_limit = {
-		description = "",
-		key_value = 10
-	},
-	report_max_limit = {
-		description = "",
-		key_value = 30
-	},
-	report_legal_limit = {
-		description = "",
-		key_value = 100
-	},
 	report_level_limit = {
 		description = "",
-		key_value = 70
+		key_value = 75
 	}
 }

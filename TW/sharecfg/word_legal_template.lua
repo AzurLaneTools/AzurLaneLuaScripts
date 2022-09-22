@@ -514,6 +514,65 @@ end
 temp()
 
 function temp()
+	uv0.H = {
+		a = {
+			k = {
+				u = {
+					r = {
+						y = {
+							u = {
+								this = true
+							},
+							["ū"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		A = {
+			K = {
+				U = {
+					R = {
+						Y = {
+							U = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.h = {
+		a = {
+			k = {
+				u = {
+					r = {
+						y = {
+							u = {
+								this = true
+							},
+							["ū"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["泛"] = {
 		["用"] = {
 			["型"] = {

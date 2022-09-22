@@ -141003,13 +141003,13 @@ _G.pg.base.item_data_statistics[69938] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
+（<color=#92fc63>14.8%</color>）信濃換裝  朧月十夜；
 （<color=#92fc63>14.8%</color>）可畏換裝   梳妝的“大小姐”；
 （<color=#92fc63>14.8%</color>）赫敏換裝 女僕的優雅午後；
 （<color=#92fc63>14.8%</color>）蒙彼利埃換裝  魔境的公主？ ；
 （<color=#92fc63>14.8%</color>）胡德換裝  晨曦的淑女；
 （<color=#92fc63>13.0%</color>）黑太子換裝  Pop The Cork；
-（<color=#92fc63>13.0%</color>）英勇換裝   英勇女王陛下？ ；
-（<color=#92fc63>14.8%</color>）信濃換裝  朧月十夜；
+（<color=#92fc63>13.0%</color>）英勇換裝   英勇女王陛下？；
 ]],
 	name = "隨機換裝",
 	max_num = 0,
