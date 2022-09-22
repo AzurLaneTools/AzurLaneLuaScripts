@@ -208,7 +208,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 10,
 		icon = "build_4",
-		exchange_ship_id = 307081,
+		exchange_ship_id = 305101,
 		rate_tip = {
 			"<color=#ff5e39>UR</color>：1.2%",
 			"<color=#ffde38>SSR</color>：7%",
@@ -216,17 +216,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>R</color>：51%",
 			"N：28.8%",
 			" ",
-			"<color=#ff5e39>{namecode:182}</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>{namecode:84}</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:27}</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:226}</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:80}</color>：0.5%",
+			"<color=#ffde38>{namecode:225}</color>：0.5%",
 			" ",
-			"<color=#d797ff>{namecode:188}</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>{namecode:103}</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>{namecode:104}</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>{namecode:65}</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

@@ -1,5 +1,5 @@
 slot0 = class("EatFoodPage", import("...base.BaseActivityPage"))
-slot1 = 24
+slot1 = 35
 slot2 = 31
 
 function slot0.OnInit(slot0)

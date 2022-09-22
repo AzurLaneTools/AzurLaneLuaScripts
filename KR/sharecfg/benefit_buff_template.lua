@@ -41,7 +41,7 @@ pg.benefit_buff_template = {
 		name = "경험치 보너스 ",
 		hide = 0,
 		max_time = 0,
-		desc = "지휘관 레벨 60 미만일 시, 일반 스테이지, 어려움 스테이지, 이벤트 스테이지, 데일리 이벤트에서 획득하는 지휘관 경험치와 캐릭터 경험치 100% 상승 ",
+		desc = "지휘관 레벨 80 미만일 시, 일반 스테이지, 어려움 스테이지, 이벤트 스테이지, 데일리 이벤트에서 획득하는 지휘관 경험치와 캐릭터 경험치 100% 상승 ",
 		benefit_effect = "100",
 		id = 4,
 		type_priority = 0,
@@ -49,7 +49,7 @@ pg.benefit_buff_template = {
 		benefit_condition = {
 			"lv",
 			"<",
-			60
+			80
 		}
 	},
 	{
@@ -160,9 +160,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				13,
+				19,
 				1
 			}
 		}
@@ -179,9 +179,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				13,
+				19,
 				2
 			}
 		}
@@ -198,9 +198,9 @@ pg.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				13,
+				19,
 				3
 			}
 		}
@@ -217,9 +217,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				14,
+				20,
 				1
 			}
 		}
@@ -236,9 +236,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				14,
+				20,
 				2
 			}
 		}
@@ -255,9 +255,9 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				14,
+				20,
 				3
 			}
 		}
@@ -274,9 +274,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				15,
+				21,
 				1
 			}
 		}
@@ -293,9 +293,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				15,
+				21,
 				2
 			}
 		}
@@ -312,9 +312,9 @@ pg.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				15,
+				21,
 				3
 			}
 		}
@@ -331,9 +331,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				16,
+				22,
 				1
 			}
 		}
@@ -350,9 +350,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				16,
+				22,
 				2
 			}
 		}
@@ -369,9 +369,9 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			20853,
+			4532,
 			{
-				16,
+				22,
 				3
 			}
 		}

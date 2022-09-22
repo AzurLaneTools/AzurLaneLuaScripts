@@ -9,8 +9,11 @@ end
 
 function slot0.init(slot0)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
+	slot1 = slot0.UIMgr
 
-	slot0.UIMgr:BlurPanel(slot0._tf)
+	slot1:BlurPanel(slot0._tf, false, slot0.contextData.weight and {
+		weight = slot0.contextData.weight
+	} or {})
 
 	slot0.UIMain = slot0.UIMgr.UIMain
 	slot0.seaCameraGO = GameObject.Find("BarrageCamera")

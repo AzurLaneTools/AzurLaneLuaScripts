@@ -1,5 +1,121 @@
 pg = pg or {}
 pg.ship_skin_template_16 = {
+	[801022] = {
+		ship_group = 80102,
+		name = "학원의 견습 기사",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 801022,
+		group_index = 2,
+		prefab = "fuerban_3",
+		painting = "fuerban_3",
+		shop_id = 70201,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 4,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "아이리스 리브레의 견습 기사 포르뱅입니다. 지금은 학생으로서 학원 생활에 적응하기 위해 노력하고 있습니다. 음...... 이러면 약간 지나치게 여유로운 거 아닌가요?",
+		voice_actor = 124,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.93,
+					0.997,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.964,
+					0.981,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.14,
+					0.042,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.95,
+					1.009,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[801023] = {
 		ship_group = 80102,
 		name = "샴페인 연회",
@@ -1876,7 +1992,7 @@ pg.ship_skin_template_16 = {
 			propose = 0,
 			main_1 = 1.67,
 			home = 4,
-			expendition = 0,
+			expedition = 0,
 			mail = 1.42,
 			mission_complete = 0.5,
 			mission = 0,
@@ -7105,7 +7221,7 @@ pg.ship_skin_template_16 = {
 		},
 		l2d_voice_calibrate = {
 			login = 4.1,
-			touch_special = 0.3
+			touch2 = 0.3
 		}
 	},
 	[905013] = {
@@ -7236,10 +7352,10 @@ pg.ship_skin_template_16 = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
+			touch2 = 0.3,
 			login = 7.17,
 			main_1 = 0.3,
 			mail = 0.3,
-			touch_special = 0.3,
 			mission_complete = 0.3
 		},
 		l2d_para_range = {

@@ -91,64 +91,27 @@ slot8 = {
 	}
 }
 slot9 = {
-	{
-		2,
-		54050,
-		2
-	},
-	{
-		1,
-		1,
-		300
-	},
-	{
-		2,
-		54051,
-		1
-	},
-	{
-		1,
-		1,
-		300
-	},
-	{
-		2,
-		50004,
-		5
-	},
-	{
-		1,
-		1,
-		300
-	},
-	{
-		2,
-		20012,
-		2
-	}
-}
-slot10 = {
 	-50,
 	50
 }
-slot11 = 0.75
-slot12 = 1700
-slot13 = 4
-slot14 = 0
-slot15 = 1
-slot16 = 2
-slot17 = "cow_event_capture"
-slot18 = "player_event_capture"
-slot22 = "idol"
-slot23 = "miss"
-slot24 = "get"
-slot25 = "throw"
-slot26 = "event_capture"
-slot27 = "scene_item_type_time"
-slot29 = {
+slot10 = 0.75
+slot11 = 1700
+slot12 = 4
+slot13 = 0
+slot14 = 1
+slot15 = 2
+slot16 = "cow_event_capture"
+slot17 = "player_event_capture"
+slot21 = "idol"
+slot22 = "miss"
+slot23 = "get"
+slot24 = "throw"
+slot25 = "event_capture"
+slot26 = "scene_item_type_time"
+slot28 = {
 	{
 		name = "backGround/2/jiujiuA",
-		type = slot27,
+		type = slot26,
 		params = {
 			15,
 			20
@@ -161,7 +124,7 @@ slot29 = {
 	},
 	{
 		name = "backGround/2/jiujiuB",
-		type = slot27,
+		type = slot26,
 		params = {
 			15,
 			20
@@ -174,7 +137,7 @@ slot29 = {
 	{
 		trigger = true,
 		name = "backGround/2/jiujiuC",
-		type = slot27,
+		type = slot26,
 		params = {
 			15,
 			20
@@ -183,7 +146,7 @@ slot29 = {
 	{
 		trigger = true,
 		name = "backGround/3/jiujiuD",
-		type = slot27,
+		type = slot26,
 		params = {
 			20,
 			22
@@ -192,7 +155,7 @@ slot29 = {
 	{
 		trigger = true,
 		name = "backGround/3/train",
-		type = slot27,
+		type = slot26,
 		params = {
 			20,
 			23
@@ -200,7 +163,7 @@ slot29 = {
 	},
 	{
 		name = "backGround/2/saloon",
-		type = slot27,
+		type = slot26,
 		params = {
 			15,
 			20
@@ -213,7 +176,7 @@ slot29 = {
 	},
 	{
 		name = "backGround/1/meow",
-		type = slot27,
+		type = slot26,
 		params = {
 			15,
 			20
@@ -238,10 +201,10 @@ slot29 = {
 		}
 	}
 }
-slot30 = "state"
-slot31 = "trigger"
+slot29 = "state"
+slot30 = "trigger"
 
-function slot32(slot0, slot1, slot2)
+function slot31(slot0, slot1, slot2)
 	slot3 = {
 		ctor = function (slot0)
 			slot0._tplCows = uv0
@@ -402,7 +365,7 @@ function slot32(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot33(slot0, slot1)
+function slot32(slot0, slot1)
 	slot2 = {
 		ctor = function (slot0)
 			slot0._playerTf = uv0
@@ -468,7 +431,7 @@ function slot33(slot0, slot1)
 	return slot2
 end
 
-function slot34(slot0)
+function slot33(slot0)
 	slot1 = {
 		ctor = function (slot0)
 			slot0._backSceneTf = uv0
@@ -667,31 +630,31 @@ function slot0.initUI(slot0)
 	slot0.battleItems = {}
 	slot0.dropItems = {}
 
-	for slot6 = 1, #uv0 do
-		slot7 = tf(instantiate(slot2))
-		slot7.name = "battleItem_" .. slot6
+	for slot7 = 1, #pg.mini_game[slot0:GetMGData().id].simple_config_data.drop do
+		slot8 = tf(instantiate(slot2))
+		slot8.name = "battleItem_" .. slot7
 
-		setParent(slot7, findTF(slot0.menuUI, "battList/Viewport/Content"))
-		GetSpriteFromAtlasAsync("ui/minigameui/ropingcowgameui", "battleDesc" .. slot6, function (slot0)
+		setParent(slot8, findTF(slot0.menuUI, "battList/Viewport/Content"))
+		GetSpriteFromAtlasAsync("ui/minigameui/ropingcowgameui", "battleDesc" .. slot7, function (slot0)
 			setImageSprite(findTF(uv0, "state_open/buttomDesc"), slot0, true)
 			setImageSprite(findTF(uv0, "state_clear/buttomDesc"), slot0, true)
 			setImageSprite(findTF(uv0, "state_current/buttomDesc"), slot0, true)
 			setImageSprite(findTF(uv0, "state_closed/buttomDesc"), slot0, true)
 		end)
 
-		slot9 = findTF(slot7, "icon")
+		slot10 = findTF(slot8, "icon")
 
-		updateDrop(slot9, {
-			type = uv0[slot6][1],
-			id = uv0[slot6][2],
-			amount = uv0[slot6][3]
+		updateDrop(slot10, {
+			type = slot3[slot7][1],
+			id = slot3[slot7][2],
+			amount = slot3[slot7][3]
 		})
-		onButton(slot0, slot9, function ()
+		onButton(slot0, slot10, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
-		table.insert(slot0.dropItems, slot9)
-		setActive(slot7, true)
-		table.insert(slot0.battleItems, slot7)
+		table.insert(slot0.dropItems, slot10)
+		setActive(slot8, true)
+		table.insert(slot0.battleItems, slot8)
 	end
 
 	if not slot0.handle then

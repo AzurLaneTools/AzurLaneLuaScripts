@@ -13,6 +13,16 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 6753,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
 				"onBeforeFatalDamage"
 			},
 			arg_list = {

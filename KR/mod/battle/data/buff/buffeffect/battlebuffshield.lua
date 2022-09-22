@@ -30,7 +30,7 @@ function slot1.onStack(slot0, slot1, slot2)
 end
 
 function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
-	if slot0:damageAttrRequire(slot3.damageAttr) then
+	if slot0:damageCheck(slot3) then
 		slot0._shield = slot0._shield - slot3.damage
 
 		if slot0._shield > 0 then

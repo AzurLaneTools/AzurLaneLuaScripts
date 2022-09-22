@@ -278,6 +278,66 @@ pg.activity_event_building = {
 			1
 		}
 	},
+	{
+		id = 19,
+		name = "메인 빌딩",
+		material_id = 59349,
+		desc = "열심히 공부해 나날이 발전해요.",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 20,
+		name = "점술집",
+		material_id = 59349,
+		desc = "오늘의 운세를 알아볼까요?",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 21,
+		name = "공연 무대",
+		material_id = 59349,
+		desc = "자유시간에는 누구나 무대에 오를 수 있어요!",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 22,
+		name = "축제 상가",
+		material_id = 59349,
+		desc = "마음껏 골라보세요——",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
@@ -296,6 +356,10 @@ pg.activity_event_building = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21,
+		22
 	}
 }

@@ -33,7 +33,7 @@ function slot3.onTrigger(slot0, slot1, slot2)
 end
 
 function slot3.onTakeDamage(slot0, slot1, slot2, slot3)
-	if slot0:damageAttrRequire(slot3.damageAttr) then
+	if slot0:damageCheck(slot3) then
 		slot0._count = slot0._count + slot3.damage
 
 		if slot0._countTarget <= slot0._count then

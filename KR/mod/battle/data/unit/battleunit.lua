@@ -190,66 +190,68 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 	slot6 = slot2.isCri
 	slot8 = slot2.isShare
 	slot9 = slot2.attr
-	slot10 = slot2.font
-	slot11 = slot2.cldPos
-	slot12 = slot1
+	slot10 = slot2.damageReason
+	slot11 = slot2.font
+	slot12 = slot2.cldPos
+	slot13 = slot1
 
 	if not slot2.isHeal then
-		slot13 = {
+		slot14 = {
 			damage = -slot1,
 			isShare = slot8,
 			miss = slot5,
 			cri = slot6,
 			damageSrc = slot2.srcID,
-			damageAttr = slot9
+			damageAttr = slot9,
+			damageReason = slot10
 		}
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot13)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot14)
 
-		if slot0._currentHP <= slot13.damage then
+		if slot0._currentHP <= slot14.damage then
 			slot0:TriggerBuff(uv0.BuffEffectType.ON_BEFORE_FATAL_DAMAGE, {})
 		end
 
-		slot1 = -slot13.damage
+		slot1 = -slot14.damage
 
 		if uv1.IsInvincible(slot0) then
 			return
 		end
 	else
-		slot13 = {
+		slot14 = {
 			damage = slot1,
 			isHeal = slot7
 		}
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot13)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot14)
 
-		slot7 = slot13.isHeal
-		slot1 = slot13.damage
+		slot7 = slot14.isHeal
+		slot1 = slot14.damage
 	end
 
-	slot13 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
+	slot14 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
 
-	slot0:SetCurrentHP(slot13)
+	slot0:SetCurrentHP(slot14)
 
-	slot15 = {
-		preShieldHP = slot12,
+	slot16 = {
+		preShieldHP = slot13,
 		dHP = slot1,
-		validDHP = slot13 - slot0._currentHP,
+		validDHP = slot14 - slot0._currentHP,
 		isMiss = slot5,
 		isCri = slot6,
 		isHeal = slot7,
-		font = slot10
+		font = slot11
 	}
 
-	if slot11 and not slot11:EqualZero() then
-		slot16 = slot0:GetPosition()
-		slot17 = slot0:GetBoxSize().x
-		slot20 = slot11:Clone()
-		slot20.x = Mathf.Clamp(slot20.x, slot16.x - slot17, slot16.x + slot17)
-		slot15.posOffset = slot16 - slot20
+	if slot12 and not slot12:EqualZero() then
+		slot17 = slot0:GetPosition()
+		slot18 = slot0:GetBoxSize().x
+		slot21 = slot12:Clone()
+		slot21.x = Mathf.Clamp(slot21.x, slot17.x - slot18, slot17.x + slot18)
+		slot16.posOffset = slot17 - slot21
 	end
 
-	slot0:UpdateHPAction(slot15)
+	slot0:UpdateHPAction(slot16)
 
 	if not slot0:IsAlive() and slot4 then
 		slot0:SetDeathReason(slot2.damageReason)
@@ -1624,6 +1626,12 @@ function slot9.UpdateCloakConfig(slot0)
 	if slot0._cloak then
 		slot0._cloak:UpdateCloakConfig()
 		slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_CLOAK_CONFIG))
+	end
+end
+
+function slot9.DispatchCloakStateUpdate(slot0)
+	if slot0._cloak then
+		slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_CLOAK_STATE))
 	end
 end
 

@@ -4232,6 +4232,105 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[2011] = {
+		subject = "스킬 교본 패키지",
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		limit_arg = 4,
+		name = "스킬 교본 패키지(2022가을)",
+		name_display = "스킬 교본 패키지",
+		extra_gem = 0,
+		id = 2011,
+		money = 3900,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		id_str = "alkrgift44",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "대량의 스킬 교본 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package106",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	all = {
 		1,
 		2,
@@ -4285,6 +4384,7 @@ pg.pay_data_display = {
 		2007,
 		2008,
 		2009,
-		2010
+		2010,
+		2011
 	}
 }

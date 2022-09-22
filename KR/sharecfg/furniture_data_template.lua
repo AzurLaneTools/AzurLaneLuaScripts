@@ -5230,6 +5230,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[234] = {
+		spine_extra = "",
+		describe = "커다란 장기판 중앙의 진홍색 탑 축소 모형. 소재와 구조는 알 수 없지만 위험한 분위기가 풍긴다.——「짙은 자줏빛의 안개」 특별 작전에서 우수한 업적을 거둔 자에게 수여하는 기념장.",
+		gain_by = "짙은 자줏빛의 안개",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "wuzangxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "진홍색 “탑”",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 234,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"wuzangxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -104722,6 +104765,1173 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[94001] = {
+		spine_extra = "",
+		describe = "즐거운 학원 축제, 개최!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "학원 축제 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanxyicon",
+		spine_action_replace = "",
+		picture = "xy/dibanxy",
+		comfortable = 4,
+		canputon = 0,
+		id = 94001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94002] = {
+		spine_extra = "",
+		describe = "즐거운 학원 축제, 개최!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "학원 축제 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbixyicon",
+		spine_action_replace = "",
+		picture = "xy/qiangbixy",
+		comfortable = 4,
+		canputon = 0,
+		id = 94002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94101] = {
+		spine_extra = "",
+		describe = "다도는 심오한 학문이랍니다~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 94,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chayixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "다도부 부스",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/chayixy",
+		canputon = 0,
+		id = 94101,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					38.4,
+					6.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94102] = {
+		spine_extra = "",
+		describe = "연습한 성과를 보일 때군요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chujuxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요리부 부스",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xy/chujuxy",
+		canputon = 0,
+		id = 94102,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94103] = {
+		spine_extra = "",
+		describe = "쥬쥬 학원 축제에 오신 걸 환영합니다!",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "damenxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "학원 축제 입구",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/damenxy",
+		canputon = 1,
+		id = 94103,
+		can_rotate = 1,
+		size = {
+			2,
+			7
+		},
+		offset = {
+			0,
+			2.32
+		},
+		canputonGrid = {
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94104] = {
+		spine_extra = "",
+		describe = "겁쟁이 출입 금지! 쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guiwujiuxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "귀신의 집 접수처",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/guiwujiuxy",
+		canputon = 0,
+		id = 94104,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94105] = {
+		spine_extra = "",
+		describe = "기대되는 밤중의 축제~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huoduoxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 모닥불",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/huoduoxy",
+		canputon = 0,
+		id = 94105,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94106] = {
+		spine_extra = "",
+		describe = "엄청 커다란 볶음면…… 자동차?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 94,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "lamianxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "쥬쥬 볶음면 카",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/lamianxy",
+		canputon = 0,
+		id = 94106,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12.7,
+					-69
+				},
+				{
+					-1,
+					1
+				},
+				"xy/lamianxy_using",
+				0,
+				{
+					{
+						-54,
+						42.8
+					},
+					{
+						214.8,
+						281.9
+					},
+					"xy/miaorenouxy_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94107] = {
+		spine_extra = "",
+		describe = "카푸치노 한 잔 쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "nvpukafeixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "메이드 카페 노점",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xy/nvpukafeixy",
+		canputon = 0,
+		id = 94107,
+		can_rotate = 1,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94108] = {
+		spine_extra = "",
+		describe = "겁쟁이 출입 금지! 쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paizi1xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "귀신의 집 간판",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/paizi1xy",
+		canputon = 0,
+		id = 94108,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94109] = {
+		spine_extra = "",
+		describe = "밴드 공연이 곧 시작됩니다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paizi2xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "밴드 간판",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/paizi2xy",
+		canputon = 0,
+		id = 94109,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94110] = {
+		spine_extra = "",
+		describe = "불분명한 미래의 운명을 볼 수 있다…쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paizi3xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "점술집 간판",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/paizi3xy",
+		canputon = 0,
+		id = 94110,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94111] = {
+		spine_extra = "",
+		describe = "널 기다리고 있다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paizi4xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "메이드 카페 간판",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/paizi4xy",
+		canputon = 0,
+		id = 94111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94112] = {
+		spine_extra = "",
+		describe = "궁도의 재미를 체험해 보고 싶은가요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "pengzixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "궁도부 부스",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xy/pengzixy",
+		canputon = 0,
+		id = 94112,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94113] = {
+		spine_extra = "",
+		describe = "몽블랑 케이크, 2개 추가 쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tianpindianxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "디저트 노점",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xy/tianpindianxy",
+		canputon = 0,
+		id = 94113,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94114] = {
+		spine_extra = "",
+		describe = "축제에서 벚꽃도 감상해요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yinghuashuxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "학원 축제 벚꽃 나무",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/yinghuashuxy",
+		canputon = 0,
+		id = 94114,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94115] = {
+		spine_extra = "",
+		describe = "불분명한 미래의 운명을 볼 수 있다…쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 94,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhanbushixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "점술집",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/zhanbushixy",
+		canputon = 0,
+		id = 94115,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-97.5,
+					-117.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94116] = {
+		spine_extra = "",
+		describe = "기묘한… 휴식처?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 94,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhangyuwanzixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "타코야끼(특대)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/zhangyuwanzixy",
+		canputon = 0,
+		id = 94116,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.1,
+					39.8
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94117] = {
+		spine_extra = "",
+		describe = "축제 준비팀이 정성껏 제작한 깃발",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "lipaixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "학원 축제 깃발",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/lipaixy",
+		canputon = 0,
+		id = 94117,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94119] = {
+		spine_extra = "",
+		describe = "연기 중인 학생… 수고가 많아요!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "고양이 인형",
+		themeId = 94,
+		icon = "miaorenouxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 94119,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"miaorenouxyB",
+				"normal"
+			},
+			{
+				"miaorenouxyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					13.1,
+					92.3
+				},
+				{
+					298.3,
+					241.1
+				},
+				"xy/miaorenouxy_mask"
+			},
+			{
+				-29,
+				-102
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[94120] = {
+		spine_extra = "",
+		describe = "우리의 공연을 즐겨라쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "학원 축제 무대",
+		themeId = 94,
+		icon = "wutaixyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 94120,
+		can_rotate = 1,
+		size = {
+			7,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaixyB",
+				"normal"
+			},
+			{
+				"wutaixyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[94301] = {
+		spine_extra = "",
+		describe = "학원 축제에 다채로운 색을 더해요~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuanqi1xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 장식용 깃발(세트)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/chuanqi1xy",
+		canputon = 0,
+		id = 94301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94302] = {
+		spine_extra = "",
+		describe = "학원 축제에 다채로운 색을 더해요~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuanqi2xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 장식용 깃발(세모)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/chuanqi2xy",
+		canputon = 0,
+		id = 94302,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94303] = {
+		spine_extra = "",
+		describe = "학원 축제에 다채로운 색을 더해요~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuanqi3xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 장식용 깃발(원형)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xy/chuanqi3xy",
+		canputon = 0,
+		id = 94303,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94304] = {
+		spine_extra = "",
+		describe = "축제 준비팀이 정성껏 제작한 현수막",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "tiaofu1xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "학원 축제 현수막",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/tiaofu1xy",
+		canputon = 0,
+		id = 94304,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94305] = {
+		spine_extra = "",
+		describe = "축제 준비팀이 정성껏 제작한 현수막",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "tiaofu2xyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "학원 축제 현수막",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/tiaofu2xy",
+		canputon = 0,
+		id = 94305,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[94306] = {
+		spine_extra = "",
+		describe = "겁쟁이 출입 금지! 쥬!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 94,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guiwuxyicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "귀신의 집",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xy/guiwuxy",
+		canputon = 0,
+		id = 94306,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -104833,6 +106043,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			234,
 			100002,
 			100003,
 			100004,
@@ -105001,6 +106212,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			234,
 			100002,
 			100003,
 			100004,
@@ -109622,6 +110834,62 @@ pg.furniture_data_template = {
 			93118,
 			93119,
 			93120
+		},
+		[94] = {
+			94001,
+			94002,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117,
+			94119,
+			94120,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306,
+			94001,
+			94002,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117,
+			94119,
+			94120,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306
 		}
 	},
 	get_id_list_by_tag = {
@@ -111133,7 +112401,24 @@ pg.furniture_data_template = {
 			93117,
 			93118,
 			93119,
-			93120
+			93120,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117
 		},
 		{
 			1108,
@@ -111393,6 +112678,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			234,
 			100002,
 			100003,
 			100004,
@@ -111572,7 +112858,9 @@ pg.furniture_data_template = {
 			89126,
 			90104,
 			90117,
-			91129
+			91129,
+			94119,
+			94120
 		},
 		[4] = {
 			1001,
@@ -111652,7 +112940,8 @@ pg.furniture_data_template = {
 			90001,
 			91001,
 			92001,
-			93001
+			93001,
+			94001
 		},
 		[3] = {
 			1002,
@@ -111733,7 +113022,8 @@ pg.furniture_data_template = {
 			90002,
 			91002,
 			92002,
-			93002
+			93002,
+			94002
 		},
 		[5] = {
 			1301,
@@ -112008,7 +113298,13 @@ pg.furniture_data_template = {
 			92301,
 			92306,
 			92307,
-			92308
+			92308,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306
 		}
 	},
 	get_id_list_by_type = {
@@ -112091,7 +113387,8 @@ pg.furniture_data_template = {
 			90002,
 			91002,
 			92002,
-			93002
+			93002,
+			94002
 		},
 		[7] = {
 			1,
@@ -112188,6 +113485,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			234,
 			100002,
 			100004,
 			100005,
@@ -113711,7 +115009,24 @@ pg.furniture_data_template = {
 			93115,
 			93116,
 			93118,
-			93120
+			93120,
+			94101,
+			94102,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94113,
+			94114,
+			94115,
+			94116,
+			94117,
+			94120
 		},
 		[11] = {
 			131,
@@ -113747,7 +115062,8 @@ pg.furniture_data_template = {
 			84185,
 			84186,
 			90104,
-			90117
+			90117,
+			94119
 		},
 		[14] = {
 			214,
@@ -113841,7 +115157,8 @@ pg.furniture_data_template = {
 			90001,
 			91001,
 			92001,
-			93001
+			93001,
+			94001
 		},
 		[5] = {
 			1101,
@@ -114389,7 +115706,13 @@ pg.furniture_data_template = {
 			92301,
 			92306,
 			92307,
-			92308
+			92308,
+			94301,
+			94302,
+			94303,
+			94304,
+			94305,
+			94306
 		},
 		[8] = {
 			17121
@@ -114400,7 +115723,8 @@ pg.furniture_data_template = {
 			37108,
 			51107,
 			52105,
-			62112
+			62112,
+			94103
 		},
 		[10] = {
 			28306,
@@ -114524,6 +115848,7 @@ pg.furniture_data_template = {
 		225,
 		226,
 		232,
+		234,
 		100002,
 		100003,
 		100004,
@@ -116783,6 +118108,33 @@ pg.furniture_data_template = {
 		93117,
 		93118,
 		93119,
-		93120
+		93120,
+		94001,
+		94002,
+		94101,
+		94102,
+		94103,
+		94104,
+		94105,
+		94106,
+		94107,
+		94108,
+		94109,
+		94110,
+		94111,
+		94112,
+		94113,
+		94114,
+		94115,
+		94116,
+		94117,
+		94119,
+		94120,
+		94301,
+		94302,
+		94303,
+		94304,
+		94305,
+		94306
 	}
 }

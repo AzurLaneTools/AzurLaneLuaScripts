@@ -354,10 +354,10 @@ pg.item_data_frame = {
 	[322] = {
 		time_limit_type = 0,
 		name = "보랏빛 폭풍",
-		gain_by = "",
+		gain_by = "짙은 자줏빛의 안개",
 		id = 322,
 		time_second = 0,
-		desc = "추후 이벤트 클리어 시 획득",
+		desc = "<color=#ffffff>「호수처럼 평온하고, 안개처럼 가볍도다. 천검을 꺼내드니, 기세를 막을 수 없다.」</color>\n「짙은 자줏빛의 안개」 이벤트 획득",
 		scene = {}
 	},
 	[401] = {

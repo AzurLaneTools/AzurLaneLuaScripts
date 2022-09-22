@@ -130,3 +130,4 @@ GCHandleType = System.Runtime.InteropServices.GCHandleType
 BundleWizard = YongShi.BundleWizardRuntime.BundleWizard
 DownloadState = YongShi.BundleWizardRuntime.DownloadState
 CubismParameterBlendMode = Live2D.Cubism.Framework.CubismParameterBlendMode
+RuntimeAnimatorController = UnityEngine.RuntimeAnimatorController

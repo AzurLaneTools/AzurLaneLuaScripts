@@ -389,6 +389,19 @@ function slot8(slot0, slot1)
 						}
 					})
 				})
+			elseif slot0.type == DROP_TYPE_EQUIPMENT_SKIN then
+				uv0.m02:sendNotification(GAME.LOAD_LAYERS, {
+					parentContext = getProxy(ContextProxy):getCurrentContext(),
+					context = Context.New({
+						mediator = EquipmentSkinMediator,
+						viewComponent = EquipmentSkinLayer,
+						data = {
+							skinId = slot0.cfg.id,
+							mode = EquipmentSkinLayer.DISPLAY,
+							weight = LayerWeightConst.TOP_LAYER
+						}
+					})
+				})
 			else
 				uv2(uv3, {
 					drop = slot0,

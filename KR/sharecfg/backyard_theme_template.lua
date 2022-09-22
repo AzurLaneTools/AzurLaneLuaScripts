@@ -3283,7 +3283,7 @@ pg.backyard_theme_template = {
 		desc = "후후… 내 성에 온 걸 환영한다…쥬",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "xxgthemeicon",
 		deblocking = 1,
 		order = 89,
@@ -3324,7 +3324,7 @@ pg.backyard_theme_template = {
 		desc = "심플하면서도 심플하지 않고 럭셔리하면서도 과하지 않아요.",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "cn2themeicon",
 		deblocking = 1,
 		order = 90,
@@ -3370,7 +3370,7 @@ pg.backyard_theme_template = {
 		desc = "환상의 색채가 물씬 풍기는 기묘한 숲~",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "ththemeicon",
 		deblocking = 1,
 		order = 91,
@@ -3520,6 +3520,47 @@ pg.backyard_theme_template = {
 			93120
 		}
 	},
+	[94] = {
+		Cfg_1 = 5,
+		name = "쥬쥬 학원 축제",
+		hot = 1,
+		is_view = 1,
+		id = 94,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "즐거운 학원 축제, 개최!",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "xythemeicon",
+		deblocking = 1,
+		order = 95,
+		ids = {
+			94001,
+			94002,
+			94101,
+			94102,
+			94103,
+			94104,
+			94105,
+			94106,
+			94107,
+			94108,
+			94109,
+			94110,
+			94111,
+			94112,
+			94114,
+			94115,
+			94116,
+			94117,
+			94301,
+			94302,
+			94303,
+			94305,
+			94306
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3599,6 +3640,7 @@ pg.backyard_theme_template = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

@@ -34,6 +34,12 @@ function slot0.Init(slot0)
 			return
 		end
 
+		if tonumber(slot0) > 2147483647 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("word_notExist"))
+
+			return
+		end
+
 		uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
 			activity_id = uv0.activity.id,
 			cmd = ActivityConst.RETURN_AWARD_OP_SET_RETRUNER,

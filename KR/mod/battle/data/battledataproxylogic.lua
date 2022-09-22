@@ -108,6 +108,20 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 
 	if not slot14 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then
 		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot19)
+
+		if slot1:GetHost() and slot22:IsAlive() and slot22:GetUnitType() ~= ys.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
+			if table.contains(uv2.AircraftUnitType, slot22:GetUnitType()) then
+				slot22 = slot22:GetMotherUnit()
+			end
+
+			slot23 = slot22:GetIFF()
+
+			for slot27, slot28 in pairs(slot0._unitList) do
+				if slot28:GetIFF() == slot23 and slot28 ~= slot22 then
+					slot28:TriggerBuff(ys.Battle.BattleConst.BuffEffectType.ON_TEAMMATE_BULLET_HIT, slot19)
+				end
+			end
+		end
 	end
 
 	slot23 = true
