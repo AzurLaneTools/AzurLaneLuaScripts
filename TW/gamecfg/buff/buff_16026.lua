@@ -50,7 +50,7 @@ return {
 				buff_id = 6751,
 				target = "TargetSelf",
 				check_target = {
-					"TargetAllHelp",
+					"TargetSelf",
 					"TargetShipTag"
 				},
 				ship_tag_list = {

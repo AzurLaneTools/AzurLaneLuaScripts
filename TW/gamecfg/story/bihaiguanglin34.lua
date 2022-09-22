@@ -376,7 +376,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "危機基本度過了呢，那麼祝愿你的此次訪問能夠取得圓滿成功。",
+			say = "危機基本度過了呢，那麼祝願你的此次訪問能夠取得圓滿成功。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

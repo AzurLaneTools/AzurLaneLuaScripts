@@ -143427,6 +143427,63 @@ _G.pg.base.item_data_statistics[81003] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[81004] = {
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2022，高級定向藍圖・四期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
+	name = "三周年禮盒",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 81004,
+	is_world = 0,
+	icon = "Props/lihe9",
+	display_icon = {
+		{
+			2,
+			86004,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42036,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[86000] = {
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
@@ -143573,6 +143630,41 @@ _G.pg.base.item_data_statistics[86003] = {
 	virtual_type = 0,
 	link_id = 0,
 	id = 86003,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[86004] = {
+	display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+ 包含的換裝和機率如下：
+ （<color=#92fc63>12.0%</color>）{namecode:188}換裝 絆倒的迷糊女僕（<color=#92fc63>Live 2d</color>）；
+ （<color=#92fc63>12.0%</color>）威悉換裝  黯調鉛華（<color=#92fc63>Live 2d</color>）；
+ （<color=#92fc63>9.1%</color>）海王星換裝   海洋女王的迎接；
+ （<color=#92fc63>9.0%</color>）{namecode:74}換裝  神子的華服；
+ （<color=#92fc63>9.0%</color>）天鷹換裝  綠苑的優雅花園；
+ （<color=#92fc63>9.0%</color>）彼得·史特拉塞換裝  Weiß Uhrzeiger；
+ （<color=#92fc63>8.1%</color>）朱諾換裝  白鳥花園之約；
+ （<color=#92fc63>8.1%</color>）U-110換裝  鯊魚小可愛；
+ （<color=#92fc63>7.9%</color>）Z28換裝  森林中的派對；
+ （<color=#92fc63>7.9%</color>）馬耶·布雷澤換裝  糖分小憩
+ （<color=#92fc63>7.9%</color>）{namecode:185}換裝  安心的“長波”；
+]],
+	name = "隨機換裝",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 86004,
 	is_world = 0,
 	icon = "Props/clothIcon",
 	display_icon = {},

@@ -44,13 +44,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 12212,
-				time = 10,
-				minWeaponNumber = 1,
-				check_weapon = true,
 				quota = 1,
-				weapon_group = {
-					740
-				}
+				time = 10
 			}
 		}
 	}

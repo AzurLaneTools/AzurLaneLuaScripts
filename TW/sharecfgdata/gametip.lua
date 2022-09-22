@@ -19281,6 +19281,74 @@ _G.pg.base.gametip.eva_comment_send_null = {
 	tip = "請輸入評論"
 }
 
+_G.pg.base.gametip.report_sent_thank = {
+	tip = "檢舉已成功發送，感謝您為遊戲環境作出貢獻"
+}
+
+_G.pg.base.gametip.report_ship_cannot_comment = {
+	tip = "評論功能正在維護中"
+}
+
+_G.pg.base.gametip.report_cannot_comment = {
+	tip = "您已被禁止評論，請聯繫客服進行處理"
+}
+
+_G.pg.base.gametip.report_sent_title = {
+	tip = "檢舉"
+}
+
+_G.pg.base.gametip.report_sent_desc = {
+	tip = "請選擇檢舉類型（單選）"
+}
+
+_G.pg.base.gametip.report_type_1 = {
+	tip = "爭議言論"
+}
+
+_G.pg.base.gametip.report_type_1_1 = {
+	tip = "爭議、不當發言"
+}
+
+_G.pg.base.gametip.report_type_2 = {
+	tip = "口頭謾罵"
+}
+
+_G.pg.base.gametip.report_type_2_1 = {
+	tip = "不雅詞彙、言語攻擊"
+}
+
+_G.pg.base.gametip.report_type_3 = {
+	tip = "仇恨言論"
+}
+
+_G.pg.base.gametip.report_type_3_1 = {
+	tip = "種族、性別歧視"
+}
+
+_G.pg.base.gametip.report_type_other = {
+	tip = "其他"
+}
+
+_G.pg.base.gametip.report_type_other_1 = {
+	tip = "檢舉內容說明（最多150個字元）"
+}
+
+_G.pg.base.gametip.report_type_other_2 = {
+	tip = "輸入內容不能為空"
+}
+
+_G.pg.base.gametip.report_sent_help = {
+	tip = {
+		{
+			info = [[
+檢舉說明：
+1.遇到惡意發言的違規玩家，通過點擊檢舉按鈕即可對該玩家進行檢舉
+2.選擇對應違規內容類別，如果有其他類別，請您附上檢舉內容。填寫完畢後點擊檢舉即可
+3. 被檢舉的評論會根據違規情況進行處理，嚴重違規的玩家將會受到處罰]]
+		}
+	}
+}
+
 _G.pg.base.gametip.rename_input = {
 	tip = "輸入名稱"
 }

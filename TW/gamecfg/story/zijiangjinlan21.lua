@@ -58,7 +58,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过{namecode:5}那边就……因为{namecode:82}大前辈的效果，似乎两回合内都那边都没法进行战斗了，转而去进攻{namecode:74}大人么？",
+			say = "不过{namecode:5}那边就……因为{namecode:82}大前辈的效果，似乎两回合内那边都没法进行战斗了，转而去进攻{namecode:74}大人么？",
 			painting = {
 				alpha = 0.3,
 				time = 1

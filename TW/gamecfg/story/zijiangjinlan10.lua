@@ -193,7 +193,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:74}大人也在上回合也主动拿下了一个与{namecode:84}大人相邻的边界据点哦。",
+			say = "{namecode:74}大人也在上回合主动拿下了一个与{namecode:84}大人相邻的边界据点哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1

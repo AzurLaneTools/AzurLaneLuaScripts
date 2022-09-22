@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "……感觉屋里的气氛实有些沉闷，我还是追随{namecode:74}大人的脚步，先去大棋盘内恭候各位好了。",
+			say = "……感觉屋里的气氛实在有些沉闷，我还是追随{namecode:74}大人的脚步，先去大棋盘内恭候各位好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

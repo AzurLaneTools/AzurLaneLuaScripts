@@ -16509,6 +16509,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[81004] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "998104",
+		id = 81004,
+		compose_number = 0,
+		target_id = 0
+	},
 	[89001] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -17879,6 +17890,7 @@ pg.item_data_template = {
 		81001,
 		81002,
 		81003,
+		81004,
 		89001
 	}
 }

@@ -19714,6 +19714,118 @@ pg.activity_template = {
 			ui_name = "JapanV2framePage"
 		}
 	},
+	[40820] = {
+		mark = 20220922,
+		config_client = "",
+		title_res_tag = "manchao_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 28,
+		id = 40820,
+		config_data = {
+			{
+				17046,
+				17047
+			},
+			{
+				17048,
+				17049
+			},
+			{
+				17050,
+				17051
+			},
+			{
+				17052,
+				17053
+			},
+			{
+				17054,
+				17055
+			},
+			{
+				17056,
+				17057
+			},
+			{
+				17058,
+				17059
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ManChaoSkinPage",
+			ui_name = "ManChaoSkinPage"
+		}
+	},
+	[40821] = {
+		mark = 20220922,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40821,
+		config_data = {
+			17060
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[40790] = {
 		mark = 20220915,
 		id = 40790,
@@ -20725,6 +20837,48 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[40822] = {
+		mark = 20220922,
+		config_client = "",
+		title_res_tag = "sizhounianhuizong",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 28,
+		id = 40822,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FiveAnniversaryPage",
+			ui_name = "FiveAnniversaryPage"
 		}
 	},
 	[45000] = {
@@ -23028,6 +23182,8 @@ pg.activity_template = {
 		40781,
 		40782,
 		40783,
+		40820,
+		40821,
 		40790,
 		40791,
 		40792,
@@ -23049,6 +23205,7 @@ pg.activity_template = {
 		40810,
 		40811,
 		40812,
+		40822,
 		45000,
 		45001,
 		45002,

@@ -3357,6 +3357,105 @@ pg.drop_data_restore = {
 		drop_id = 998103,
 		target_id = 701024
 	},
+	[10173] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10173,
+		resource_num = 1080,
+		drop_id = 998104,
+		target_id = 319012
+	},
+	[10174] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10174,
+		resource_num = 1080,
+		drop_id = 998104,
+		target_id = 406012
+	},
+	[10175] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10175,
+		resource_num = 900,
+		drop_id = 998104,
+		target_id = 299012
+	},
+	[10176] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10176,
+		resource_num = 880,
+		drop_id = 998104,
+		target_id = 305054
+	},
+	[10177] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10177,
+		resource_num = 880,
+		drop_id = 998104,
+		target_id = 607012
+	},
+	[10178] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10178,
+		resource_num = 880,
+		drop_id = 998104,
+		target_id = 407032
+	},
+	[10179] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10179,
+		resource_num = 800,
+		drop_id = 998104,
+		target_id = 102071
+	},
+	[10180] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10180,
+		resource_num = 800,
+		drop_id = 998104,
+		target_id = 408082
+	},
+	[10181] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10181,
+		resource_num = 780,
+		drop_id = 998104,
+		target_id = 401282
+	},
+	[10182] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10182,
+		resource_num = 780,
+		drop_id = 998104,
+		target_id = 801082
+	},
+	[10183] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 10183,
+		resource_num = 780,
+		drop_id = 998104,
+		target_id = 301832
+	},
 	[15000] = {
 		target_type = 7,
 		type = 1,
@@ -3740,6 +3839,17 @@ pg.drop_data_restore = {
 		10170,
 		10171,
 		10172,
+		10173,
+		10174,
+		10175,
+		10176,
+		10177,
+		10178,
+		10179,
+		10180,
+		10181,
+		10182,
+		10183,
 		15000
 	}
 }

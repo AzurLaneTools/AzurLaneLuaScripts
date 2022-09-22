@@ -337,6 +337,11 @@ function slot0.clearSkin(slot0)
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.spineSkin, go(slot0:findTF("model", slot0.spine)))
 	end
 
+	if slot0.live2dCom then
+		slot0.live2dCom.FinishAction = nil
+		slot0.live2dCom.EventAction = nil
+	end
+
 	if slot0.live2dCom and slot0.showType == uv0.SHOW_LIVE2D then
 		Destroy(slot0.live2dCom.gameObject)
 
@@ -475,13 +480,15 @@ function slot0.updateSkin(slot0)
 			slot2:SetAction(pg.AssistantInfo.action2Id.idle)
 
 			function slot2.FinishAction(slot0)
-				if slot0 ~= pg.AssistantInfo.action2Id.idle then
-					uv0.live2dCom:SetAction(uv0.selectedID)
+				if uv0.selectedID and uv0.selectedID ~= pg.AssistantInfo.action2Id.idle then
+					uv0:setL2dAction(uv0.selectedID)
 				end
 			end
 
 			uv0.live2dCom = slot2
 			uv0.live2dCom.name = uv0.paintSkin
+			uv0.playActionId = pg.AssistantInfo.action2Id.idle
+			uv0.selectedID = pg.AssistantInfo.action2Id.idle
 			uv0.live2dAnimator = slot0:GetComponent(typeof(Animator))
 
 			if uv0.live2dCom:GetCubismParameter("Paramring") then
@@ -603,6 +610,10 @@ function slot0.onInitItem(slot0, slot1)
 			return
 		end
 
+		if uv0.selectedID == uv2:GetID() then
+			return
+		end
+
 		if uv2:GetID() == 6 or uv2:GetID() == 7 then
 			uv0.l2dClickCD = Time.fixedTime
 		end
@@ -610,10 +621,28 @@ function slot0.onInitItem(slot0, slot1)
 		uv0.selectedID = uv2:GetID()
 
 		uv0:updateSelectedItem()
-		uv0.live2dCom:SetAction(uv0.selectedID)
+		uv0:setL2dAction(uv0.selectedID)
 	end, SFX_CONFIRM)
 
 	slot0.scrollItems[slot1] = slot2
+end
+
+function slot0.setL2dAction(slot0, slot1)
+	if slot1 ~= pg.AssistantInfo.action2Id.idle then
+		-- Nothing
+	end
+
+	if slot0.live2dCom and slot1 then
+		if slot1 == pg.AssistantInfo.action2Id.idle then
+			slot0.live2dCom:SetAction(slot1)
+		elseif slot0.playActionId == pg.AssistantInfo.action2Id.idle then
+			slot0.live2dCom:SetAction(slot1)
+		elseif slot0.playActionId == slot1 then
+			slot0.live2dCom:SetAction(slot1)
+		end
+
+		slot0.playActionId = slot1
+	end
 end
 
 function slot0.onUpdateItem(slot0, slot1, slot2)
