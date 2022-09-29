@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最近はずっと働き詰めだったし、明日からはしばらく頭を空っぽにして思い存分休みを楽しみな！",
+			say = "最近はずっと働き詰めだったし、明日からはしばらく頭を空っぽにして思う存分休みを楽しみな！",
 			painting = {
 				alpha = 0.3,
 				time = 1

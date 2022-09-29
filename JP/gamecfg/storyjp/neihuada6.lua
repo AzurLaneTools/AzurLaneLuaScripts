@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "夕日に沈む荒野を、二匹の馬が駆け巡っていく。",
+			say = "夕日に沈む荒野を、二頭の馬が駆け巡っていく。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "地平線に溶け込む寸前の赤き夕日。",
+			say = "地平線に溶け込む寸前の赤い夕日。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "荒原、夕日、馬に乗る二人。",
+			say = "荒原、夕日、馬に乗る二人。あとは――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "ネバダは腰にしまっている空包弾の込めた拳銃を取り出し、夕日に向かって発砲した。",
+			say = "ネバダは腰にしまっている拳銃を取り出し、夕日に向かって空砲弾を発砲した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "少年、気分はどうだい？たまにはこういうのもなかなか味あるでしょ？",
+			say = "少年、気分はどうだい？たまにはこういうのもなかなか味があるでしょ？",
 			painting = {
 				alpha = 0.3,
 				time = 1

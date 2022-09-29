@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "それを抜きにしても、わざわざ荒原を選んだのにも理由がある",
+			say = "それを抜きにしても、わざわざ荒原を選んだのには理由がある",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "だが意外なことに、肝心の馬は一匹しか連れてきていないようだ。",
+			say = "だが意外なことに、肝心の馬は一頭しか連れてきていないようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 2,
-			say = "だったらホースボイでよくないか…？",
+			say = "だったらホースボーイでよくないか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 1,
-			say = "馬は嬉しそうに食いつき、あっという間に手のひらを平らげた。",
+			say = "馬は嬉しそうに食いつき、あっという間に平らげた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "少年、これから一人に馬に乗ってみない？大丈夫、あたしがちゃんと付いてあげるから、コツさえ掴めばもっと楽しめるぞ",
+			say = "少年、これからは一人で馬に乗ってみない？大丈夫、あたしがちゃんと付いてあげるから、コツさえ掴めばもっと楽しめるぞ",
 			painting = {
 				alpha = 0.3,
 				time = 1
