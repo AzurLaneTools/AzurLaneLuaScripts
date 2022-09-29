@@ -8889,6 +8889,27 @@ _G.pg.base.item_data_statistics[21014] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21015] = {
+	display = "An item that increases the potential of Hunter META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Hunter",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21015,
+	is_world = 0,
+	icon = "Props/21015",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -10145,6 +10166,73 @@ _G.pg.base.item_data_statistics[30203] = {
 		{
 			3,
 			48040,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30204] = {
+	display = "Can be used to obtain a piece of <color=#ffde38>gear</color> from the included options.",
+	name = "Gear Development Pack - Support Campaign",
+	max_num = 0,
+	type = 16,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30204,
+	is_world = 0,
+	icon = "Props/30204",
+	display_icon = {
+		{
+			3,
+			5240,
+			1
+		},
+		{
+			3,
+			11240,
+			1
+		},
+		{
+			3,
+			17340,
+			1
+		},
+		{
+			3,
+			24340,
+			1
+		},
+		{
+			3,
+			29200,
+			1
+		},
+		{
+			3,
+			32240,
+			1
+		},
+		{
+			3,
+			38240,
+			1
+		},
+		{
+			3,
+			43040,
+			1
+		},
+		{
+			3,
+			46340,
 			1
 		}
 	},
@@ -14569,6 +14657,95 @@ _G.pg.base.item_data_statistics[30406] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30407] = {
+	display = "Contains 1 random Cruise Mission gear skin.",
+	name = "Random Gear Skin Box",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30407,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2019,
+			1
+		},
+		{
+			9,
+			2020,
+			1
+		},
+		{
+			9,
+			2021,
+			1
+		},
+		{
+			9,
+			2022,
+			1
+		},
+		{
+			9,
+			2023,
+			1
+		},
+		{
+			9,
+			2024,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30408] = {
+	display = "Use to receive 1 Fantastic Phoenix (Torpedo), 1 Fantastic Phoenix (Fighter), and 1 Fantastic Phoenix (Bomber).",
+	name = "Fantastic Phoenix",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30408,
+	is_world = 0,
+	icon = "Equips/96331",
+	display_icon = {
+		{
+			9,
+			2019,
+			1
+		},
+		{
+			9,
+			2020,
+			1
+		},
+		{
+			9,
+			2021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "Contains a random gear skin. ",
 	name = "Gear Skin Development Pack (Late Summer)",
@@ -15666,6 +15843,118 @@ _G.pg.base.item_data_statistics[30510] = {
 		{
 			9,
 			655,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30511] = {
+	display = "Use to receive 1 Northern Parliament Style-themed gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Northern)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30511,
+	is_world = 0,
+	icon = "Props/appearanceboxbeilianzixuan",
+	display_icon = {
+		{
+			9,
+			220,
+			1
+		},
+		{
+			9,
+			221,
+			1
+		},
+		{
+			9,
+			222,
+			1
+		},
+		{
+			9,
+			223,
+			1
+		},
+		{
+			9,
+			224,
+			1
+		},
+		{
+			9,
+			225,
+			1
+		},
+		{
+			9,
+			226,
+			1
+		},
+		{
+			9,
+			227,
+			1
+		},
+		{
+			9,
+			228,
+			1
+		},
+		{
+			9,
+			229,
+			1
+		},
+		{
+			9,
+			230,
+			1
+		},
+		{
+			9,
+			231,
+			1
+		},
+		{
+			9,
+			232,
+			1
+		},
+		{
+			9,
+			233,
+			1
+		},
+		{
+			9,
+			234,
+			1
+		},
+		{
+			9,
+			235,
+			1
+		},
+		{
+			9,
+			236,
+			1
+		},
+		{
+			9,
+			237,
 			1
 		}
 	},
@@ -168413,6 +168702,48 @@ _G.pg.base.item_data_statistics[59293] = {
 	virtual_type = 0,
 	link_id = 0,
 	id = 59293,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59294] = {
+	display = "",
+	name = "Progress Point",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 21,
+	link_id = 7007,
+	id = 59294,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59295] = {
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign (10/1 – 11/30), used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	name = "Progress Point",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59295,
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	display_icon = {},

@@ -791,6 +791,201 @@ pg.activity_event_monopoly_event = {
 		story = "0",
 		effect = {}
 	},
+	[501] = {
+		id = 501,
+		drop = 98217,
+		story = "0",
+		effect = {}
+	},
+	[502] = {
+		id = 502,
+		drop = 98218,
+		story = "0",
+		effect = {}
+	},
+	[503] = {
+		id = 503,
+		drop = 98242,
+		story = "0",
+		effect = {}
+	},
+	[504] = {
+		id = 504,
+		drop = 98219,
+		story = "SAICHEDAFUWENGEVENT1-1",
+		effect = {}
+	},
+	[505] = {
+		id = 505,
+		drop = 98220,
+		story = "SAICHEDAFUWENGEVENT1-2",
+		effect = {}
+	},
+	[506] = {
+		id = 506,
+		drop = 98221,
+		story = "SAICHEDAFUWENGEVENT1-3",
+		effect = {}
+	},
+	[507] = {
+		id = 507,
+		drop = 98222,
+		story = "0",
+		effect = {}
+	},
+	[508] = {
+		id = 508,
+		drop = 98223,
+		story = "SAICHEDAFUWENGEVENT2-1",
+		effect = {}
+	},
+	[509] = {
+		id = 509,
+		drop = 98224,
+		story = "SAICHEDAFUWENGEVENT2-2",
+		effect = {}
+	},
+	[510] = {
+		id = 510,
+		drop = 98225,
+		story = "SAICHEDAFUWENGEVENT2-3",
+		effect = {}
+	},
+	[511] = {
+		id = 511,
+		drop = 98226,
+		story = "SAICHEDAFUWENGEVENT3-1",
+		effect = {}
+	},
+	[512] = {
+		id = 512,
+		drop = 98227,
+		story = "SAICHEDAFUWENGEVENT3-2",
+		effect = {}
+	},
+	[513] = {
+		id = 513,
+		drop = 98228,
+		story = "SAICHEDAFUWENGEVENT3-3",
+		effect = {}
+	},
+	[514] = {
+		id = 514,
+		drop = 98229,
+		story = "SAICHEDAFUWENGEVENT4-1",
+		effect = {}
+	},
+	[515] = {
+		id = 515,
+		drop = 98230,
+		story = "SAICHEDAFUWENGEVENT4-2",
+		effect = {}
+	},
+	[516] = {
+		id = 516,
+		drop = 98231,
+		story = "SAICHEDAFUWENGEVENT4-3",
+		effect = {}
+	},
+	[517] = {
+		id = 517,
+		drop = 98232,
+		story = "SAICHEDAFUWENGEVENT5-1",
+		effect = {}
+	},
+	[518] = {
+		id = 518,
+		drop = 98233,
+		story = "SAICHEDAFUWENGEVENT5-2",
+		effect = {}
+	},
+	[519] = {
+		id = 519,
+		drop = 98234,
+		story = "SAICHEDAFUWENGEVENT5-3",
+		effect = {}
+	},
+	[520] = {
+		id = 520,
+		drop = 98235,
+		story = "SAICHEDAFUWENGEVENT6-4",
+		effect = {}
+	},
+	[521] = {
+		id = 521,
+		drop = 98236,
+		story = "SAICHEDAFUWENGEVENT6-5",
+		effect = {}
+	},
+	[522] = {
+		id = 522,
+		drop = 98237,
+		story = "SAICHEDAFUWENGEVENT6-6",
+		effect = {}
+	},
+	[523] = {
+		id = 523,
+		drop = 98238,
+		story = "SAICHEDAFUWENGEVENT6-1",
+		effect = {}
+	},
+	[524] = {
+		id = 524,
+		drop = 98239,
+		story = "SAICHEDAFUWENGEVENT6-2",
+		effect = {}
+	},
+	[525] = {
+		id = 525,
+		drop = 98240,
+		story = "SAICHEDAFUWENGEVENT6-3",
+		effect = {}
+	},
+	[526] = {
+		id = 526,
+		drop = 98241,
+		story = "SAICHEDAFUWENGEVENT7-1",
+		effect = {}
+	},
+	[527] = {
+		id = 527,
+		drop = 0,
+		story = "0",
+		effect = {}
+	},
+	[528] = {
+		id = 528,
+		drop = 0,
+		story = "0",
+		effect = {}
+	},
+	[529] = {
+		id = 529,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENT8-1",
+		effect = {
+			"go_forward",
+			1
+		}
+	},
+	[530] = {
+		id = 530,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENT8-2",
+		effect = {
+			"go_forward",
+			2
+		}
+	},
+	[531] = {
+		id = 531,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENT8-3",
+		effect = {
+			"go_forward",
+			3
+		}
+	},
 	all = {
 		101,
 		102,
@@ -918,6 +1113,37 @@ pg.activity_event_monopoly_event = {
 		433,
 		434,
 		435,
-		436
+		436,
+		501,
+		502,
+		503,
+		504,
+		505,
+		506,
+		507,
+		508,
+		509,
+		510,
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517,
+		518,
+		519,
+		520,
+		521,
+		522,
+		523,
+		524,
+		525,
+		526,
+		527,
+		528,
+		529,
+		530,
+		531
 	}
 }

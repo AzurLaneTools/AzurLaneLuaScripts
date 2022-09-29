@@ -54,6 +54,7 @@ slot0.VersionInfo = {
 	map_202202 = "CrusingMap_2",
 	map_202206 = "CrusingMap_1",
 	map_202110 = "CrusingMap_0",
+	map_202210 = "CrusingMap_1",
 	map_202208 = "CrusingMap_1"
 }
 

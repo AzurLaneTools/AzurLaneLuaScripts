@@ -16,6 +16,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.gyroX = slot1.gyro_x == 1
 	slot0.gyroY = slot1.gyro_y == 1
 	slot0.gyroZ = slot1.gyro_z == 1
+	slot0.ignoreAction = slot1.ignore_action == 1
 	slot0.dragDirect = slot1.drag_direct
 	slot0.rangeAbs = slot1.range_abs == 1
 	slot0.actionTrigger = slot1.action_trigger
@@ -26,12 +27,18 @@ function slot0.Ctor(slot0, slot1)
 	slot0.parameterTargetValue = slot0.startValue
 	slot0.parameterSmooth = 0
 	slot0.mouseInputDown = Vector2(0, 0)
-	slot0.nextTriggerTime = uv0
+	slot0.nextTriggerTime = 0
 	slot0.triggerActionTime = 0
 	slot0.sensitive = 4
 end
 
 function slot0.startDrag(slot0, slot1)
+	if slot0.ignoreAction and slot0.live2dAction then
+		print("播放动作中 不允许拖拽")
+
+		return
+	end
+
 	if not slot0.active then
 		slot0.active = true
 
@@ -78,8 +85,8 @@ function slot0.getParameterValue(slot0)
 	if slot0.actionTrigger then
 		slot0.nextTriggerTime = slot0.nextTriggerTime - Time.deltaTime
 
-		if slot0.active and not slot0.triggerActionFlag and slot0.nextTriggerTime < 0 and slot0.actionTrigger.type == Live2D.DRAG_EVENT_ACTION then
-			if math.abs(slot0.parameterValue - slot0.actionTrigger.num) < 0.25 then
+		if slot0.active and not slot0.triggerActionFlag and slot0.nextTriggerTime <= 0 and slot0.actionTrigger.type == Live2D.DRAG_EVENT_ACTION then
+			if math.abs(slot0.parameterValue - slot0.actionTrigger.num) < math.abs(slot0.actionTrigger.num) * 0.25 then
 				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
 
 				if slot0.actionTrigger.time < slot0.triggerActionTime and not slot0.live2dAction then
@@ -185,6 +192,10 @@ function slot0.getParameterValue(slot0)
 	end
 
 	return slot0.parameterValue
+end
+
+function slot0.live2dActionChange(slot0, slot1)
+	slot0.live2dAction = slot1
 end
 
 function slot0.dispose(slot0)

@@ -4,55 +4,7 @@ slot0.word_template_59 = {}
 slot1 = slot0.word_template_59
 
 function temp()
-	uv0["变"] = {
-		["牌"] = {
-			["道"] = {
-				["具"] = {
-					this = true
-				}
-			},
-			["教"] = {
-				["学"] = {
-					this = true
-				}
-			},
-			["揭"] = {
-				["秘"] = {
-					this = true
-				}
-			},
-			["器"] = {
-				this = true
-			},
-			["衣"] = {
-				this = true
-			}
-		},
-		["态"] = {
-			this = true,
-			["帝"] = {
-				["制"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["辩"] = {
-		["證"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["颮"] = {
+	uv0["ㄧ"] = {
 		this = {
 			this = true
 		}
@@ -62,19 +14,39 @@ end
 temp()
 
 function temp()
-	uv0["镖"] = {
-		["镖"] = {
-			["关"] = {
-				["在"] = {
-					["你"] = {
-						["妈"] = {
-							["腰"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
+	uv0["ㄨ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ㄩ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鞴"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鐾"] = {
+		this = {
+			this = true
 		}
 	}
 end
@@ -95,6 +67,56 @@ function temp()
 	uv0["镳"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["黪"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["瘥"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["觇"] = {
+		this = {
+			this = true
+		},
+		["锅"] = {
+			["孔"] = {
+				this = true
+			}
+		},
+		["孔"] = {
+			this = true,
+			["表"] = {
+				["尺"] = {
+					this = true
+				}
+			},
+			["瞄"] = {
+				["准"] = {
+					["具"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

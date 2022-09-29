@@ -5012,6 +5012,86 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[233] = {
+		effect = "",
+		name = "Moonlit Chrome",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you're lucky, you'll catch a silvery glimpse as it speeds past you.",
+		themeId = 0,
+		icon = "paocheicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 233,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paocheB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"paocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[234] = {
 		effect = "",
 		name = "Sealed Crimson Tower",
@@ -6882,6 +6962,81 @@ pg.furniture_data_template = {
 				0,
 				0
 			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100030] = {
+		effect = "",
+		name = "Tactical Cardboard Box",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Remember, Commander, this is a sneaking mission.\"",
+		themeId = 0,
+		icon = "yinmizhixiangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100030,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinmizhixiangB",
+				"normal"
+			},
+			{
+				"yinmizhixiangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
 		},
 		followBone = {
 			"char",
@@ -97684,6 +97839,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			233,
 			234,
 			100002,
 			100003,
@@ -97710,6 +97866,7 @@ pg.furniture_data_template = {
 			100027,
 			100028,
 			100029,
+			100030,
 			100031,
 			100032,
 			200001,
@@ -97840,6 +97997,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			233,
 			234,
 			100002,
 			100003,
@@ -97866,6 +98024,7 @@ pg.furniture_data_template = {
 			100027,
 			100028,
 			100029,
+			100030,
 			100031,
 			100032,
 			200001,
@@ -103824,6 +103983,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			233,
 			234,
 			100002,
 			100003,
@@ -103850,6 +104010,7 @@ pg.furniture_data_template = {
 			100027,
 			100028,
 			100029,
+			100030,
 			100031,
 			100032,
 			31101,
@@ -105996,10 +106157,12 @@ pg.furniture_data_template = {
 			143,
 			147,
 			215,
+			233,
 			100003,
 			100008,
 			100021,
 			100022,
+			100030,
 			30123,
 			35128,
 			37121,
@@ -106769,6 +106932,7 @@ pg.furniture_data_template = {
 		225,
 		226,
 		232,
+		233,
 		234,
 		100002,
 		100003,
@@ -106795,6 +106959,7 @@ pg.furniture_data_template = {
 		100027,
 		100028,
 		100029,
+		100030,
 		100031,
 		100032,
 		200001,

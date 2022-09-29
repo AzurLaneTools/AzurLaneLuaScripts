@@ -4,101 +4,12 @@ slot0.word_template_67 = {}
 slot1 = slot0.word_template_67
 
 function temp()
-	uv0["曹"] = {
-		["長"] = {
-			["青"] = {
-				this = true
-			}
-		},
-		["刚"] = {
-			["川"] = {
-				this = true
-			}
-		},
-		["剛"] = {
-			["川"] = {
-				this = true
-			}
-		},
-		["建"] = {
-			["明"] = {
-				this = true
-			}
-		},
-		["培"] = {
-			["玺"] = {
-				this = true
-			}
-		},
-		["长"] = {
-			["青"] = {
-				this = true
-			}
-		},
-		["政"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["草"] = {
+	uv0["彐"] = {
 		this = {
 			this = true
 		},
-		n = {
-			i = {
-				["马"] = {
-					this = true
-				}
-			}
-		},
-		["的"] = {
-			["你"] = {
-				["妈"] = {
-					this = true
-				}
-			}
-		},
-		["地"] = {
-			["一"] = {
-				["次"] = {
-					["十"] = {
-						["块"] = {
-							["钱"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["妈"] = {
-			this = true
-		},
-		["泥"] = {
-			["马"] = {
-				this = true
-			}
-		},
-		["拟"] = {
-			["妈"] = {
-				this = true
-			}
-		},
-		["你"] = {
-			this = true,
-			["妈"] = {
-				this = true
-			},
-			["媽"] = {
-				this = true
-			}
-		},
-		["擬"] = {
-			["媽"] = {
+		["逅"] = {
+			["乎"] = {
 				this = true
 			}
 		}
@@ -108,44 +19,18 @@ end
 temp()
 
 function temp()
-	uv0["肏"] = {
+	uv0["芰"] = {
 		this = {
 			this = true
-		},
-		["屄"] = {
-			this = true
-		},
-		["干"] = {
-			this = true
-		},
-		["你"] = {
-			this = true
-		},
-		["妳"] = {
-			this = true
-		},
-		["娘"] = {
-			this = true
-		},
-		["破"] = {
-			this = true
-		},
-		["入"] = {
-			this = true
-		},
-		["死"] = {
-			this = true
-		},
-		["她"] = {
-			this = true
-		},
-		["我"] = {
-			this = true
-		},
-		["穴"] = {
-			this = true
-		},
-		["这"] = {
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["跽"] = {
+		this = {
 			this = true
 		}
 	}
@@ -154,37 +39,9 @@ end
 temp()
 
 function temp()
-	uv0["册"] = {
-		["那"] = {
-			["娘"] = {
-				["餓"] = {
-					["比"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["厕"] = {
-		["奴"] = {
+	uv0["鲚"] = {
+		this = {
 			this = true
-		},
-		["所"] = {
-			["盗"] = {
-				["摄"] = {
-					this = true
-				}
-			},
-			["偷"] = {
-				["拍"] = {
-					this = true
-				}
-			}
 		}
 	}
 end
@@ -192,13 +49,58 @@ end
 temp()
 
 function temp()
-	uv0["测"] = {
-		["绘"] = {
-			["局"] = {
-				this = true
-			}
-		},
-		["拿"] = {
+	uv0["葭"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["恝"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["湔"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["搛"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鲣"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鞯"] = {
+		this = {
 			this = true
 		}
 	}

@@ -10895,6 +10895,68 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[101110] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 101110,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Here comes Captain Ausburne of the Little Beavers! Let's give it our all today, as fellow allies of justice!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Justice! Always! Wins! Heheh~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good work out there, everyone! And Commander, upholding justice is fine and all, but don't forget to rest as well!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I heard that if you go on an adventure together with your fellow ally of justice, the two of you will be able to strengthen your bonds... A date? What's that supposed to be...?|Justice exists not only to defeat evil, but to also protect our precious here-and-now! Let's keep our beautiful oceans safe!|According to my radar, your heart is throbbing fast right now... Ah, wait, why is mine throbbing as well?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Wooah! I can feel the warmth of justice's power flowing through me!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Uhh, erm, I don't think this counts as justice..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"\"Even after banishing the forces of evil, the allies of justice did not separate. Instead, they were bound together by the ties formed through fighting alongside each other and lived happily ever after!\" –Alrighty! That's the ending I came up with! Pretty awesome, huh?"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -11060,6 +11122,7 @@ pg.ship_skin_words_extra = {
 		301040,
 		404050,
 		403020,
-		401160
+		401160,
+		101110
 	}
 }

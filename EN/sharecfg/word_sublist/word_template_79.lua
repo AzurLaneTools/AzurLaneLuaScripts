@@ -4,65 +4,204 @@ slot0.word_template_79 = {}
 slot1 = slot0.word_template_79
 
 function temp()
-	uv0["抽"] = {
-		["叉"] = {
+	uv0["專"] = {
+		["政"] = {
 			this = true
 		},
-		["插"] = {
-			this = true,
-			["仿"] = {
-				["真"] = {
-					["器"] = {
-						["具"] = {
+		["制"] = {
+			this = true
+		},
+		["5"] = {
+			["4"] = {
+				["氣"] = {
+					["槍"] = {
+						["子"] = {
+							["彈"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["⑤"] = {
+			["④"] = {
+				["鉽"] = {
+					["手"] = {
+						["槍"] = {
 							this = true
 						}
 					}
 				}
 			}
 		},
-		["捣"] = {
-			this = true
+		["7"] = {
+			["7"] = {
+				["始"] = {
+					["手"] = {
+						["槍"] = {
+							this = true
+						}
+					}
+				},
+				["式"] = {
+					["手"] = {
+						["槍"] = {
+							this = true
+						}
+					}
+				}
+			}
 		},
-		["动"] = {
-			this = true
-		},
-		["拉"] = {
-			this = true
-		},
-		["你"] = {
-			["丫"] = {
-				["的"] = {
+		["機"] = {
+			["走"] = {
+				["私"] = {
 					this = true
 				}
 			}
 		},
-		["送"] = {
-			this = true,
-			["着"] = {
+		["門"] = {
+			["各"] = {
+				["種"] = {
+					["手"] = {
+						["弩"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["汽"] = {
+			["狗"] = {
 				this = true
 			}
 		},
-		["提"] = {
-			this = true
-		},
-		["头"] = {
-			this = true
-		},
-		["頭"] = {
-			this = true
-		},
-		["烟"] = {
-			["要"] = {
-				["抽"] = {
-					["到"] = {
-						["玉"] = {
-							["溪"] = {
-								["俱"] = {
-									["焚"] = {
-										this = true
-									}
-								}
+		["手"] = {
+			["狗"] = {
+				this = true
+			},
+			["機"] = {
+				["窃"] = {
+					["厛"] = {
+						["軟"] = {
+							["件"] = {
+								this = true
 							}
+						}
+					}
+				}
+			}
+		},
+		["冂"] = {
+			["矢"] = {
+				["裑"] = {
+					["蒶"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["五"] = {
+			["四"] = {
+				["式"] = {
+					["手"] = {
+						["槍"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["业"] = {
+			["打"] = {
+				["手"] = {
+					["公"] = {
+						["司"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["業"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["颛"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["丬"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["隹"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["窀"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["卓"] = {
+		["伯"] = {
+			["源"] = {
+				this = true
+			}
+		},
+		["华"] = {
+			["枪"] = {
+				["模"] = {
+					this = true
+				}
+			}
+		},
+		["越"] = {
+			["物"] = {
+				["流"] = {
+					["中"] = {
+						["心"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["韵"] = {
+			["芝"] = {
+				["不"] = {
+					["雅"] = {
+						["照"] = {
+							this = true
 						}
 					}
 				}
@@ -74,7 +213,7 @@ end
 temp()
 
 function temp()
-	uv0["瘳"] = {
+	uv0["倬"] = {
 		this = {
 			this = true
 		}
@@ -84,17 +223,7 @@ end
 temp()
 
 function temp()
-	uv0["筹"] = {
-		["码"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["雠"] = {
+	uv0["斫"] = {
 		this = {
 			this = true
 		}
@@ -104,8 +233,8 @@ end
 temp()
 
 function temp()
-	uv0["籌"] = {
-		["碼"] = {
+	uv0["诼"] = {
+		this = {
 			this = true
 		}
 	}
@@ -114,77 +243,8 @@ end
 temp()
 
 function temp()
-	uv0["臭"] = {
-		["7"] = {
-			["8"] = {
-				this = true
-			}
-		},
-		["７"] = {
-			["８"] = {
-				this = true
-			}
-		},
-		G = {
-			Y = {
-				this = true
-			}
-		},
-		["Ｇ"] = {
-			["Ｙ"] = {
-				this = true
-			}
-		},
-		["化"] = {
-			["西"] = {
-				this = true
-			}
-		},
-		["机"] = {
-			this = true,
-			["八"] = {
-				this = true
-			}
-		},
-		["鸡"] = {
-			this = true,
-			["巴"] = {
-				this = true
-			}
-		},
-		["尼"] = {
-			["姑"] = {
-				this = true
-			}
-		},
-		["你"] = {
-			this = true
-		},
-		["妳"] = {
-			this = true
-		},
-		["女"] = {
-			["也"] = {
-				this = true
-			}
-		},
-		["七"] = {
-			["八"] = {
-				this = true
-			}
-		},
-		["人"] = {
-			["也"] = {
-				this = true
-			}
-		},
-		["他"] = {
-			this = true
-		},
-		["她"] = {
-			this = true
-		},
-		["西"] = {
+	uv0["髭"] = {
+		this = {
 			this = true
 		}
 	}

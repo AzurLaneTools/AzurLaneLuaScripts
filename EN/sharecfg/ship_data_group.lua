@@ -23228,6 +23228,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30015] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30015,
+		code = 30015,
+		group_type = 970101,
+		trans_type = 0,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Cruise Missions",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701011
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -23809,6 +23843,7 @@ pg.ship_data_group = {
 		30011,
 		30012,
 		30013,
-		30014
+		30014,
+		30015
 	}
 }

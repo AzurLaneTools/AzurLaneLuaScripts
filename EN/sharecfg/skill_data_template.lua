@@ -95402,6 +95402,273 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800580] = {
+		desc_get = "",
+		name = "Vicious Rend",
+		id = 800580,
+		type = 1,
+		max_level = 10,
+		desc = "For the first 60s after the battle starts: executes a $1 special slashing attack every 3s (DMG is based on the skill's level). Enemies hit by this attack suffer a minus 5.0% SPD debuff and take $2 more DMG from this ship for 10s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[800590] = {
+		desc_get = "",
+		name = "Forbidden Knowledge",
+		id = 800590,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's FP and TRP by $1. Every 20s, actives one of the following effects chosen at random: 1) This ship recovers 50 HP; 2) Increases this ship's AA by $2 for 20s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[800601] = {
+		desc_get = "",
+		name = "Cinders of Hope - Hunter",
+		id = 800601,
+		type = 3,
+		max_level = 1,
+		desc = "Every 15 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 800605
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800602] = {
+		desc_get = "",
+		name = "Cinders of Hope - Hunter",
+		id = 800602,
+		type = 3,
+		max_level = 1,
+		desc = "Every 10 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 800607
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800605] = {
+		desc_get = "",
+		name = "Cinders of Hope - Hunter",
+		id = 800605,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		system_transform = {
+			[51.0] = 800605
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800607] = {
+		desc_get = "",
+		name = "Cinders of Hope - Hunter",
+		id = 800607,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+		system_transform = {
+			[51.0] = 800607
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -101011,6 +101278,12 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		800572,
 		800575,
 		800577,
+		800580,
+		800590,
+		800601,
+		800602,
+		800605,
+		800607,
 		901010,
 		901020,
 		902010,

@@ -1,239 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
-	[102292] = {
-		ship_group = 10229,
-		name = "Castle Tales",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "119",
-		id = 102292,
-		group_index = 2,
-		prefab = "boyixi_3",
-		painting = "boyixi_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70612,
-		shop_type_id = 8,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Um, I decided to try on a costume, since it's Halloween and all... Do you think I got that witchy look down...?",
-		voice_actor = 276,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.07,
-					1.048,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.169,
-					1.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.097,
-					1.095,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.618,
-							2.466,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102293] = {
-		ship_group = 10229,
-		name = "Jade Mermaid",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "157",
-		id = 102293,
-		group_index = 3,
-		prefab = "boyixi_4",
-		painting = "boyixi_4",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70704,
-		shop_type_id = 3,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Huff... Puff... These Dragon Empery clothes look good on me? It's rather revealing and breezy, and makes me feel self-conscious... but if you like it, I suppose it's fine...",
-		voice_actor = 276,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.12,
-					1.06,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					1.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.1,
-					1.17,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.58,
-							2.33,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[103010] = {
 		ship_group = 10301,
 		name = "Pensacola",
@@ -4435,6 +4201,134 @@ pg.ship_skin_template_3 = {
 					}
 				}
 			}
+		}
+	},
+	[103165] = {
+		ship_group = 10316,
+		name = "Finish Line Flagbearer",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "132",
+		id = 103165,
+		group_index = 5,
+		prefab = "baerdimo_6",
+		painting = "baerdimo_6",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70758,
+		shop_type_id = 14,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Heya, Commander. You here to spectate the race? Strap in, 'cause it's gonna be wild... My getup? They asked me to help out the grid girls, so yeah. Just hope I'll do a good job of building hype for the race.",
+		voice_actor = 191,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			-40,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					0.87,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.94,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.009,
+					0.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.433,
+							2.34,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			1031651
 		}
 	},
 	[103240] = {
@@ -9860,6 +9754,224 @@ pg.ship_skin_template_3 = {
 						{
 							-0.61,
 							2.26,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
+	[107032] = {
+		ship_group = 10703,
+		name = "Hibiscus-scented Idol",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 107032,
+		group_index = 2,
+		prefab = "salatuojia_3",
+		painting = "salatuojia_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9999,
+		air_bomb_skin = "",
+		illustrator = 10,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Hey everyone~! This time, Sister Sara has brought you fashion from a faraway land! Commander, what do you think of it?",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.9,
+					1.26,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.95,
+					1.29,
+					0
+				}
+			},
+			plane = {
+				{
+					0.9,
+					1.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.26,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
+	[107033] = {
+		ship_group = 10703,
+		name = "Virtual Idol",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "210",
+		id = 107033,
+		group_index = 3,
+		prefab = "salatuojia_4",
+		painting = "salatuojia_4",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70179,
+		shop_type_id = 9999,
+		air_bomb_skin = "",
+		illustrator = 10,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "HAI DOMO~! I’m the virtual idol, Saratoga! Well, Commander, what do you think? I asked Kizuna AI to make this dress specifically for me, modeled after her outfit!",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.26,
+					1.13,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					1.1,
+					0
+				}
+			},
+			plane = {
+				{
+					1.24,
+					1.06,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.36,
 							-0.6
 						}
 					}

@@ -3554,7 +3554,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4509,
-		is_show = 30,
+		is_show = 32,
 		id = 4509,
 		config_data = {},
 		time = {
@@ -3817,7 +3817,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 31,
+		is_show = 33,
 		config_data = {
 			1680001,
 			1680002,
@@ -4435,6 +4435,131 @@ pg.activity_template = {
 			ui_name = "NeihuadaSkinPage"
 		}
 	},
+	[4538] = {
+		mark = 20220929,
+		config_client = "",
+		title_res_tag = "monopoly_car",
+		type = 51,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 30,
+		id = 4538,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyCar2Page",
+			ui_name = "MonopolyCar2Page"
+		}
+	},
+	[4539] = {
+		mark = 20220929,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4539,
+		config_data = {
+			17997
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4540] = {
+		mark = 20220929,
+		config_client = "",
+		title_res_tag = "equipbox_victory",
+		type = 74,
+		login_pop = 0,
+		config_id = 4540,
+		is_show = 31,
+		id = 4540,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EquipBoxVictoryPtPage",
+			ui_name = "EquipBoxVictoryPtPage"
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -4812,6 +4937,88 @@ pg.activity_template = {
 				{
 					9,
 					2018,
+					1
+				}
+			}
+		}
+	},
+	[7007] = {
+		mark = 20220929,
+		id = 7007,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67,
+			68,
+			69
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage7"
+		},
+		config_client = {
+			map_name = "map_202210",
+			spine_name = "chess_shuixingjinian",
+			tips = {
+				"battlepass_main_tip_2210",
+				"battlepass_main_help_2210",
+				"cruise_task_help_2210"
+			},
+			equip_skin = {
+				{
+					9,
+					2019,
+					1
+				},
+				{
+					9,
+					2022,
+					1
+				},
+				{
+					9,
+					2023,
+					1
+				},
+				{
+					9,
+					2024,
 					1
 				}
 			}
@@ -23812,12 +24019,16 @@ pg.activity_template = {
 		4535,
 		4536,
 		4537,
+		4538,
+		4539,
+		4540,
 		7001,
 		7002,
 		7003,
 		7004,
 		7005,
 		7006,
+		7007,
 		8009,
 		8010,
 		8019,

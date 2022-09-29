@@ -1968,174 +1968,14 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
-	[40] = {
-		subject = "2022 Party Dress Lucky Box",
-		limit_group = 0,
-		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
-		type = 1,
-		limit_arg = 1,
-		name = "2022 Party Dress Lucky Box",
-		name_display = "2022 Party Dress Lucky Box",
-		type_order = 2,
-		extra_gem = 0,
-		id = 40,
-		money = 2999,
-		tag = 2,
-		gem = 0,
-		limit_type = 2,
-		time = "stop",
-		picture = "lihe8_l",
-		id_str = "com.yostaren.azurlane.diamond173",
-		first_pay_double = 0,
-		extra_service = 3,
-		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
-		airijp_id = "com.yostaren.azurlane.diamond173",
-		extra_service_item = {
-			{
-				2,
-				69920,
-				1
-			},
-			{
-				1,
-				4,
-				2022
-			},
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		display = {
-			{
-				2,
-				69920,
-				1
-			},
-			{
-				1,
-				4,
-				2022
-			},
-			{
-				2,
-				42046,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {}
-	},
-	[41] = {
-		subject = "2021 Party Dress Lucky Box Rerun",
-		limit_group = 0,
-		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
-		type = 1,
-		limit_arg = 1,
-		name = "2021 Party Dress Lucky Box Rerun",
-		name_display = "2021 Party Dress Lucky Box Rerun",
-		type_order = 2,
-		extra_gem = 0,
-		id = 41,
-		money = 2999,
-		tag = 2,
-		gem = 0,
-		limit_type = 2,
-		time = "stop",
-		picture = "lihe6_l",
-		id_str = "com.yostaren.azurlane.diamond174",
-		first_pay_double = 0,
-		extra_service = 3,
-		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies.",
-		airijp_id = "com.yostaren.azurlane.diamond174",
-		extra_service_item = {
-			{
-				2,
-				69915,
-				1
-			},
-			{
-				1,
-				4,
-				2021
-			},
-			{
-				2,
-				42036,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		display = {
-			{
-				2,
-				69915,
-				1
-			},
-			{
-				1,
-				4,
-				2021
-			},
-			{
-				2,
-				42036,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {}
-	},
 	[42] = {
-		subject = "2021 Party Dress Lucky Box Rerun",
+		subject = "Party Dress Lucky Box 2021 Rerun",
 		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_arg = 1,
-		name = "2021 Party Dress Lucky Box Rerun",
-		name_display = "2021 Party Dress Lucky Box Rerun",
+		name = "Party Dress Lucky Box 2021 Rerun",
+		name_display = "Party Dress Lucky Box 2021 Rerun",
 		type_order = 2,
 		extra_gem = 0,
 		id = 42,
@@ -2234,13 +2074,13 @@ pg.pay_data_display = {
 		limit_args = {}
 	},
 	[43] = {
-		subject = "2022 Party Dress Lucky Box",
+		subject = "Party Dress Lucky Box 2022",
 		limit_group = 0,
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_arg = 1,
-		name = "2022 Party Dress Lucky Box",
-		name_display = "2022 Party Dress Lucky Box",
+		name = "Party Dress Lucky Box 2022",
+		name_display = "Party Dress Lucky Box 2022",
 		type_order = 2,
 		extra_gem = 0,
 		id = 43,
@@ -2771,6 +2611,79 @@ pg.pay_data_display = {
 		},
 		sub_display = {
 			7006,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[1006] = {
+		subject = "Fair Winds Cruise Pass",
+		limit_group = 0,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		type = 0,
+		limit_arg = 1,
+		name = "Fair Winds Cruise Pass",
+		name_display = "Fair Winds Cruise Pass",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1006,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.yostaren.azurlane.passport8",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		airijp_id = "com.yostaren.azurlane.passport8",
+		extra_service_item = {
+			{
+				1,
+				4007,
+				1500
+			},
+			{
+				8,
+				59294,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4007,
+				1500
+			}
+		},
+		sub_display = {
+			7007,
 			1500
 		},
 		ignorePlatform = {},
@@ -7456,8 +7369,6 @@ pg.pay_data_display = {
 		37,
 		38,
 		39,
-		40,
-		41,
 		42,
 		43,
 		1000,
@@ -7466,6 +7377,7 @@ pg.pay_data_display = {
 		1003,
 		1004,
 		1005,
+		1006,
 		2001,
 		2002,
 		2003,

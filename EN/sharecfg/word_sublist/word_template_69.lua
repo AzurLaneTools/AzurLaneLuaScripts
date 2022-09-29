@@ -4,52 +4,7 @@ slot0.word_template_69 = {}
 slot1 = slot0.word_template_69
 
 function temp()
-	uv0["拆"] = {
-		["迁"] = {
-			["户"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["柴"] = {
-		["琳"] = {
-			this = true
-		},
-		["玲"] = {
-			this = true
-		},
-		["铃"] = {
-			this = true
-		},
-		["契"] = {
-			["爾"] = {
-				this = true
-			}
-		},
-		["绍"] = {
-			["良"] = {
-				this = true
-			}
-		},
-		["总"] = {
-			["指"] = {
-				["挥"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["瘥"] = {
+	uv0["谲"] = {
 		this = {
 			this = true
 		}
@@ -59,7 +14,7 @@ end
 temp()
 
 function temp()
-	uv0["觇"] = {
+	uv0["爝"] = {
 		this = {
 			this = true
 		}
@@ -69,7 +24,7 @@ end
 temp()
 
 function temp()
-	uv0["覘"] = {
+	uv0["麇"] = {
 		this = {
 			this = true
 		}
@@ -79,7 +34,67 @@ end
 temp()
 
 function temp()
-	uv0["孱"] = {
+	uv0["贶"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["悝"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["喟"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["仂"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["泐"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鳓"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["诔"] = {
 		this = {
 			this = true
 		}

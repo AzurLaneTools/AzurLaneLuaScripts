@@ -12,7 +12,7 @@ function slot0.execute(slot0, slot1)
 			slot1 = {}
 
 			for slot5, slot6 in ipairs(slot0.ship_list) do
-				table.insert(slot1, Ship.New(slot6))
+				table.insert(slot1, MetaBossRankShip.New(slot6))
 			end
 
 			uv0:sendNotification(GAME.WORLD_BOSS_GET_FORMATION_DONE, {

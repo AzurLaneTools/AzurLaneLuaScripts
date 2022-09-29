@@ -4,73 +4,22 @@ slot0.word_template_58 = {}
 slot1 = slot0.word_template_58
 
 function temp()
-	uv0["避"] = {
-		["孕"] = {
-			["套"] = {
-				["对"] = {
-					["卫"] = {
-						["生"] = {
-							["巾"] = {
-								this = true
-							}
-						}
-					}
-				}
-			},
-			["药"] = {
-				["催"] = {
-					["大"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["蹕"] = {
+	uv0["ㄝ"] = {
 		this = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["臂"] = {
-		["推"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["边"] = {
-		["抚"] = {
-			["摸"] = {
-				["边"] = {
-					["洗"] = {
+		},
+		["技"] = {
+			["師"] = {
+				["菔"] = {
+					["務"] = {
 						this = true
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["鞭"] = {
-		["走"] = {
-			["鞭"] = {
-				["爱"] = {
+		},
+		["茼"] = {
+			["性"] = {
+				["噯"] = {
 					this = true
 				}
 			}
@@ -81,16 +30,89 @@ end
 temp()
 
 function temp()
-	uv0["苄"] = {
-		["吗"] = {
-			["啡"] = {
-				this = true
-			}
-		},
-		["替"] = {
-			["定"] = {
-				this = true
-			}
+	uv0["ㄞ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ㄟ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ㄠ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ㄡ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ㄢ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ㄣ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ㄤ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ㄥ"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ㄦ"] = {
+		this = {
+			this = true
 		}
 	}
 end

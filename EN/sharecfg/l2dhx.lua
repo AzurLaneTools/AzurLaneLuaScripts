@@ -17,5 +17,6 @@ pg.l2dhx = {
 	weiyan_4 = {},
 	aimudeng_2 = {},
 	ougen_6 = {},
-	daofeng_5 = {}
+	daofeng_5 = {},
+	xinnong_3 = {}
 }

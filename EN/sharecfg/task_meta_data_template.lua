@@ -1080,6 +1080,78 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "0"
 	},
+	[100001] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "Win 1 battle with Hunter META in your fleet.",
+		id = 100001,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100002] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Hunter META in your fleet.",
+		id = 100002,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100003] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Hunter META in your fleet.",
+		id = 100003,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100004] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Hunter META in your fleet.",
+		id = 100004,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100005] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Hunter META in your fleet.",
+		id = 100005,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200001] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "Win 1 battle in Operation Siren with Hunter META in your fleet.",
+		id = 200001,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200002] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Hunter META in your fleet.",
+		id = 200002,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200003] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Hunter META in your fleet.",
+		id = 200003,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200004] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ enemy in Operation Siren with Hunter META in your fleet.",
+		id = 200004,
+		target_num = 1,
+		target_id = "100"
+	},
 	all = {
 		1,
 		2,
@@ -1215,6 +1287,15 @@ pg.task_meta_data_template = {
 		254,
 		255,
 		301,
-		302
+		302,
+		100001,
+		100002,
+		100003,
+		100004,
+		100005,
+		200001,
+		200002,
+		200003,
+		200004
 	}
 }

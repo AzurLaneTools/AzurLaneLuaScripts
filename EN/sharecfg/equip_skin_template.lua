@@ -5479,7 +5479,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[229] = {
-		name = "Airborne Guard Manjuu",
+		name = "Airborne Guard Manjuu(Torpedo)",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5510,7 +5510,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[230] = {
-		name = "Airborne Guard Manjuu",
+		name = "Airborne Guard Manjuu(Fighter)",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5541,7 +5541,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[231] = {
-		name = "Airborne Guard Manjuu",
+		name = "Airborne Guard Manjuu(Bomber)",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5572,7 +5572,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[232] = {
-		name = "Airborne Escapee Manjuu",
+		name = "Airborne Escapee Manjuu(Torpedo)",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5603,7 +5603,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[233] = {
-		name = "Airborne Escapee Manjuu",
+		name = "Airborne Escapee Manjuu(Fighter)",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5634,7 +5634,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[234] = {
-		name = "Airborne Escapee Manjuu",
+		name = "Airborne Escapee Manjuu(Bomber)",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5665,7 +5665,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[235] = {
-		name = "Airbearn Ursus Manjuu",
+		name = "Airbearn Ursus Manjuu(Torpedo)",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5696,7 +5696,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[236] = {
-		name = "Airbearn Ursus Manjuu",
+		name = "Airbearn Ursus Manjuu(Fighter)",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5727,7 +5727,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[237] = {
-		name = "Airbearn Ursus Manjuu",
+		name = "Airbearn Ursus Manjuu(Bomber)",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
 		type = 1,
@@ -19570,6 +19570,197 @@ pg.equip_skin_template = {
 			107
 		}
 	},
+	[2019] = {
+		name = "Fantastic Phoenix(Torpedo)",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "It's risen from the ashes to turn your foes into ashes.",
+		themeid = 101,
+		id = 2019,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_aixin",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[2020] = {
+		name = "Fantastic Phoenix(Fighter)",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "It's risen from the ashes to turn your foes into ashes.",
+		themeid = 101,
+		id = 2020,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yingbi",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[2021] = {
+		name = "Fantastic Phoenix(Bomber)",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "It's risen from the ashes to turn your foes into ashes.",
+		themeid = 101,
+		id = 2021,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yingbi",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[2022] = {
+		name = "Balloon Shell",
+		bullet_name = "zidan_moshuqiqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Way to be a party pooper.",
+		themeid = 101,
+		id = 2022,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96311",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "moshukapai_fire",
+		hit_fx_name = "qiqiu_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2023] = {
+		name = "Coin Shell",
+		bullet_name = "paodan_yingbi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Your odds of hitting with it are much better than a coin toss.",
+		themeid = 101,
+		id = 2023,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96312",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2024] = {
+		name = "Lovely Heart Torpedo",
+		bullet_name = "yulei_aixin",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "They say the quickest way to a shipgirl's heart is through her armor.",
+		themeid = 101,
+		id = 2024,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96321",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
 	all = {
 		1,
 		2,
@@ -20182,6 +20373,12 @@ pg.equip_skin_template = {
 		2015,
 		2016,
 		2017,
-		2018
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024
 	}
 }

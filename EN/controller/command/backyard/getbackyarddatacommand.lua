@@ -3,8 +3,8 @@ slot0 = class("GetBackYardDataCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.data
-	slot4 = slot2.isMine
-	slot5 = Dorm.New(slot3)
+	slot5 = nil
+	slot5 = (not slot2.isMine or Dorm.New(slot3)) and FriendDorm.New(slot3)
 	slot6 = {}
 
 	for slot10, slot11 in ipairs(slot3.ship_id_list) do
