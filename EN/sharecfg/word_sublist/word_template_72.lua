@@ -4,128 +4,118 @@ slot0.word_template_72 = {}
 slot1 = slot0.word_template_72
 
 function temp()
-	uv0["汔"] = {
+	uv0["猖"] = {
+		["妓"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["娼"] = {
 		this = {
 			this = true
 		},
-		["狗"] = {
-			this = true,
-			["子"] = {
-				["弹"] = {
+		["妓"] = {
+			["业"] = {
+				["进"] = {
+					["程"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["閶"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["長"] = {
+		["安"] = {
+			["街"] = {
+				["逆"] = {
+					["向"] = {
+						["行"] = {
+							["駛"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["谷"] = {
+			["川"] = {
+				["瞳"] = {
 					this = true
 				}
-			},
-			["专"] = {
+			}
+		},
+		["官"] = {
+			["沙"] = {
+				["塔"] = {
+					["特"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["瀬"] = {
+			["愛"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["尝"] = {
+		["你"] = {
+			["乾"] = {
+				["坤"] = {
+					["棒"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["舔"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["常"] = {
+		["勁"] = {
+			this = true
+		},
+		["受"] = {
+			["教"] = {
 				this = true
 			}
 		},
-		["枪"] = {
-			this = true,
-			["打"] = {
-				["鸟"] = {
-					this = true
-				}
-			},
-			["订"] = {
-				["购"] = {
-					this = true
-				}
-			},
-			["直"] = {
-				["销"] = {
-					this = true
-				}
+		["万"] = {
+			["全"] = {
+				this = true
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["碛"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["葜"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["佥"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["岍"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["愆"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["搴"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["钤"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["掮"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["凵"] = {
-		this = {
-			this = true
 		}
 	}
 end

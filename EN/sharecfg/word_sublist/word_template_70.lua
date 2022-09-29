@@ -4,7 +4,7 @@ slot0.word_template_70 = {}
 slot1 = slot0.word_template_70
 
 function temp()
-	uv0["酹"] = {
+	uv0["廛"] = {
 		this = {
 			this = true
 		}
@@ -14,8 +14,47 @@ end
 temp()
 
 function temp()
-	uv0["嫠"] = {
-		this = {
+	uv0["潺"] = {
+		["潺"] = {
+			["圣"] = {
+				["水"] = {
+					["红"] = {
+						["莲"] = {
+							["间"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["纏"] = {
+		["棉"] = {
+			["辦"] = {
+				["公"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["产"] = {
+		["权"] = {
+			["局"] = {
+				this = true
+			}
+		},
+		["傥"] = {
 			this = true
 		}
 	}
@@ -24,9 +63,30 @@ end
 temp()
 
 function temp()
-	uv0["黧"] = {
-		this = {
-			this = true
+	uv0["铲"] = {
+		["车"] = {
+			["事"] = {
+				["件"] = {
+					this = true
+				}
+			},
+			["肇"] = {
+				["事"] = {
+					this = true
+				}
+			},
+			["撞"] = {
+				["人"] = {
+					this = true
+				}
+			}
+		},
+		["除"] = {
+			["共"] = {
+				["匪"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -34,68 +94,8 @@ end
 temp()
 
 function temp()
-	uv0["蠡"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["醴"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["鳢"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["轹"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["詈"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["跞"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["奁"] = {
-		this = {
+	uv0["産"] = {
+		["谠"] = {
 			this = true
 		}
 	}

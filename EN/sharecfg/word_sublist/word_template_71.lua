@@ -4,7 +4,7 @@ slot0.word_template_71 = {}
 slot1 = slot0.word_template_71
 
 function temp()
-	uv0["臁"] = {
+	uv0["蒇"] = {
 		this = {
 			this = true
 		}
@@ -14,7 +14,7 @@ end
 temp()
 
 function temp()
-	uv0["蚍"] = {
+	uv0["蕆"] = {
 		this = {
 			this = true
 		}
@@ -24,7 +24,7 @@ end
 temp()
 
 function temp()
-	uv0["埤"] = {
+	uv0["冁"] = {
 		this = {
 			this = true
 		}
@@ -34,7 +34,7 @@ end
 temp()
 
 function temp()
-	uv0["罴"] = {
+	uv0["囅"] = {
 		this = {
 			this = true
 		}
@@ -44,9 +44,15 @@ end
 temp()
 
 function temp()
-	uv0["鼙"] = {
-		this = {
-			this = true
+	uv0["颤"] = {
+		["栗"] = {
+			["的"] = {
+				["情"] = {
+					["人"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -54,47 +60,7 @@ end
 temp()
 
 function temp()
-	uv0["庀"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["仳"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["圮"] = {
-		["綦"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["屺"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["綮"] = {
+	uv0["羼"] = {
 		this = {
 			this = true
 		}

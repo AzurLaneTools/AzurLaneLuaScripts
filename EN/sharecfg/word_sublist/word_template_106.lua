@@ -4,39 +4,7 @@ slot0.word_template_106 = {}
 slot1 = slot0.word_template_106
 
 function temp()
-	uv0["麥"] = {
-		["克"] = {
-			["斯"] = {
-				this = true
-			}
-		},
-		["角"] = {
-			["醇"] = {
-				this = true
-			},
-			["酸"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["賣"] = {
-		["逼"] = {
-			this = true
-		},
-		["比"] = {
-			this = true
-		},
-		["國"] = {
-			this = true
-		},
-		["騷"] = {
-			this = true
-		},
+	uv0["墮"] = {
 		["淫"] = {
 			this = true
 		}
@@ -46,17 +14,7 @@ end
 temp()
 
 function temp()
-	uv0["瞞"] = {
-		["報"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["禰"] = {
+	uv0["屙"] = {
 		this = {
 			this = true
 		}
@@ -66,7 +24,39 @@ end
 temp()
 
 function temp()
-	uv0["羋"] = {
+	uv0["俄"] = {
+		["國"] = {
+			this = true
+		},
+		["罗"] = {
+			["斯"] = {
+				["6"] = {
+					["5"] = {
+						["4"] = {
+							K = {
+								["出"] = {
+									["售"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				},
+				["轮"] = {
+					["盘"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["莪"] = {
 		this = {
 			this = true
 		}
@@ -76,9 +66,25 @@ end
 temp()
 
 function temp()
-	uv0["綿"] = {
-		["恒"] = {
-			this = true
+	uv0["峨"] = {
+		["嵋"] = {
+			["弹"] = {
+				["簧"] = {
+					this = true
+				}
+			},
+			["密"] = {
+				["封"] = {
+					["圈"] = {
+						this = true
+					}
+				}
+			},
+			["皮"] = {
+				["碗"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -86,39 +92,13 @@ end
 temp()
 
 function temp()
-	uv0["黽"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["緡"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["湣"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["鰵"] = {
-		this = {
-			this = true
+	uv0["额"] = {
+		["尔"] = {
+			["德"] = {
+				["尼"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

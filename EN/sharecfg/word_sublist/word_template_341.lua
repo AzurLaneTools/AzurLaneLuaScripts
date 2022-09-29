@@ -4,130 +4,34 @@ slot0.word_template_341 = {}
 slot1 = slot0.word_template_341
 
 function temp()
-	uv0["频"] = {
-		["传"] = {
-			["江"] = {
-				["病"] = {
-					["危"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["谱"] = {
-			["分"] = {
-				["析"] = {
-					["仪"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["朩"] = {
-		["村"] = {
-			["茜"] = {
-				["ｂ"] = {
-					["τ"] = {
-						this = true
-					}
-				},
-				["電"] = {
-					["驴"] = {
-						this = true
-					}
-				},
-				["佺"] = {
-					["雧"] = {
-						this = true
-					}
-				},
-				["兂"] = {
-					["碼"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["丅"] = {
-			["柚"] = {
-				["埖"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["凭"] = {
-		["证"] = {
+	uv0["溫"] = {
+		B = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["泙"] = {
-		["屾"] = {
-			["朝"] = {
-				["稥"] = {
-					["種"] = {
-						["孒"] = {
+		},
+		["逼"] = {
+			this = true
+		},
+		["比"] = {
+			this = true
+		},
+		["家"] = {
+			["寶"] = {
+				this = true
+			}
+		},
+		["切"] = {
+			["斯"] = {
+				["特"] = {
+					["出"] = {
+						["售"] = {
 							this = true
 						}
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["蘋"] = {
-		["果"] = {
-			["版"] = {
-				["電"] = {
-					["視"] = {
-						["棒"] = {
-							this = true
-						}
-					}
-				}
-			},
-			["電"] = {
-				["視"] = {
-					["棒"] = {
-						this = true
-					}
-				}
-			},
-			["日"] = {
-				["報"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["岥"] = {
-		["壞"] = {
-			["迋"] = {
+		},
+		["元"] = {
+			["凱"] = {
 				this = true
 			}
 		}
@@ -137,8 +41,68 @@ end
 temp()
 
 function temp()
-	uv0["酦"] = {
-		["票"] = {
+	uv0["瘟"] = {
+		["家"] = {
+			["饱"] = {
+				this = true
+			},
+			["宝"] = {
+				this = true
+			},
+			["寶"] = {
+				this = true
+			},
+			["暴"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["闻"] = {
+		["齐"] = {
+			["阴"] = {
+				this = true
+			}
+		},
+		["香"] = {
+			["教"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["蚊"] = {
+		["子"] = {
+			["跟"] = {
+				["螳"] = {
+					["螂"] = {
+						["去"] = {
+							["偷"] = {
+								["看"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["閿"] = {
+		this = {
 			this = true
 		}
 	}
@@ -147,52 +111,11 @@ end
 temp()
 
 function temp()
-	uv0["婆"] = {
-		["孙"] = {
-			["玩"] = {
-				["肛"] = {
-					["交"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["鄱"] = {
-		["阳"] = {
-			["人"] = {
-				["体"] = {
-					["艺"] = {
-						["术"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["撲"] = {
-		["克"] = {
-			["分"] = {
-				["析"] = {
-					["道"] = {
-						["具"] = {
-							this = true
-						}
-					},
-					["儀"] = {
-						this = true
-					}
+	uv0["稳"] = {
+		["健"] = {
+			["赢"] = {
+				["利"] = {
+					this = true
 				}
 			}
 		}
