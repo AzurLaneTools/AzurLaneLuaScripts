@@ -432,6 +432,13 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["机"] = {
+			["袖"] = {
+				["章"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -551,6 +558,16 @@ function temp()
 				["炬"] = {
 					this = true
 				}
+			},
+			["入"] = {
+				["宪"] = {
+					this = true
+				}
+			},
+			["异"] = {
+				["变"] = {
+					this = true
+				}
 			}
 		},
 		["雅"] = {
@@ -561,6 +578,13 @@ function temp()
 							this = true
 						}
 					}
+				}
+			}
+		},
+		["维"] = {
+			["江"] = {
+				["硬"] = {
+					this = true
 				}
 			}
 		}

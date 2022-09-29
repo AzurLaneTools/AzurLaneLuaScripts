@@ -379,6 +379,19 @@ function temp()
 					this = true
 				}
 			}
+		},
+		d = {
+			a = {
+				i = {
+					d = {
+						a = {
+							i = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -426,6 +439,11 @@ function temp()
 					["壹"] = {
 						this = true
 					}
+				}
+			},
+			["暴"] = {
+				["徒"] = {
+					this = true
 				}
 			}
 		},
@@ -513,6 +531,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		this = {
+			this = true
 		}
 	}
 end

@@ -5479,7 +5479,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[229] = {
-		name = "追缉啾",
+		name = "追缉啾(鱼雷)",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5510,7 +5510,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[230] = {
-		name = "追缉啾",
+		name = "追缉啾(战斗)",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5541,7 +5541,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[231] = {
-		name = "追缉啾",
+		name = "追缉啾(轰炸)",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5572,7 +5572,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[232] = {
-		name = "脱逃啾",
+		name = "脱逃啾(鱼雷)",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5603,7 +5603,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[233] = {
-		name = "脱逃啾",
+		name = "脱逃啾(战斗)",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5634,7 +5634,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[234] = {
-		name = "脱逃啾",
+		name = "脱逃啾(轰炸)",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5665,7 +5665,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[235] = {
-		name = "毛熊啾",
+		name = "毛熊啾(鱼雷)",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5696,7 +5696,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[236] = {
-		name = "毛熊啾",
+		name = "毛熊啾(战斗)",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5727,7 +5727,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[237] = {
-		name = "毛熊啾",
+		name = "毛熊啾(轰炸)",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
 		type = 1,
@@ -20143,6 +20143,197 @@ pg.equip_skin_template = {
 			107
 		}
 	},
+	[2019] = {
+		name = "幻惑不死鸟(鱼雷)",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "猜猜看，这是魔术还是魔法~？",
+		themeid = 101,
+		id = 2019,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_aixin",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[2020] = {
+		name = "幻惑不死鸟(战斗)",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "猜猜看，这是魔术还是魔法~？",
+		themeid = 101,
+		id = 2020,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yingbi",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[2021] = {
+		name = "幻惑不死鸟(轰炸)",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "猜猜看，这是魔术还是魔法~？",
+		themeid = 101,
+		id = 2021,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yingbi",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[2022] = {
+		name = "气球子弹",
+		bullet_name = "zidan_moshuqiqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "演出常用的辅助小道具~",
+		themeid = 101,
+		id = 2022,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96311",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "moshukapai_fire",
+		hit_fx_name = "qiqiu_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2023] = {
+		name = "硬币炮弹",
+		bullet_name = "paodan_yingbi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "不可以随便摸高速飞行中的硬币哦(笑)",
+		themeid = 101,
+		id = 2023,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96312",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2024] = {
+		name = "甜心鱼雷",
+		bullet_name = "yulei_aixin",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "感受心灵的“碰撞”~",
+		themeid = 101,
+		id = 2024,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96321",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
 	all = {
 		1,
 		2,
@@ -20773,6 +20964,12 @@ pg.equip_skin_template = {
 		2015,
 		2016,
 		2017,
-		2018
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024
 	}
 }

@@ -175,6 +175,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["履"] = {
+			["历"] = {
+				this = true
+			}
 		}
 	}
 end

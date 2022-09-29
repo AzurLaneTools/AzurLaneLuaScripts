@@ -79,6 +79,11 @@ function temp()
 			["询"] = {
 				this = true
 			}
+		},
+		["啧"] = {
+			["名"] = {
+				this = true
+			}
 		}
 	}
 end

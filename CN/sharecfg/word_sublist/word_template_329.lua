@@ -13,6 +13,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["战"] = {
+			["书"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -61,6 +66,13 @@ function temp()
 		["眼"] = {
 			["都"] = {
 				["插"] = {
+					this = true
+				}
+			}
+		},
+		h = {
+			u = {
+				i = {
 					this = true
 				}
 			}

@@ -42,6 +42,9 @@ function temp()
 		},
 		["链"] = {
 			this = true
+		},
+		["柑"] = {
+			this = true
 		}
 	}
 end
@@ -97,6 +100,13 @@ function temp()
 			},
 			["开"] = {
 				this = true
+			}
+		},
+		["冬"] = {
+			["粒"] = {
+				["亚"] = {
+					this = true
+				}
 			}
 		}
 	}

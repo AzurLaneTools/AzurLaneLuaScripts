@@ -355,6 +355,96 @@ pg.activity_event_monopoly_map = {
 		icon = "icon_2",
 		type = 2
 	},
+	[5001] = {
+		id = 5001,
+		icon = "icon_4",
+		type = 1
+	},
+	[5002] = {
+		id = 5002,
+		icon = "icon_2",
+		type = 2
+	},
+	[5003] = {
+		id = 5003,
+		icon = "icon_6",
+		type = 2
+	},
+	[5004] = {
+		id = 5004,
+		icon = "icon_1",
+		type = 2
+	},
+	[5005] = {
+		id = 5005,
+		icon = "icon_5",
+		type = 2
+	},
+	[5006] = {
+		id = 5006,
+		icon = "icon_3",
+		type = 2
+	},
+	[5007] = {
+		id = 5007,
+		icon = "icon_2",
+		type = 2
+	},
+	[5008] = {
+		id = 5008,
+		icon = "icon_6",
+		type = 2
+	},
+	[5009] = {
+		id = 5009,
+		icon = "icon_5",
+		type = 2
+	},
+	[5010] = {
+		id = 5010,
+		icon = "icon_3",
+		type = 2
+	},
+	[5011] = {
+		id = 5011,
+		icon = "icon_2",
+		type = 2
+	},
+	[5012] = {
+		id = 5012,
+		icon = "icon_6",
+		type = 2
+	},
+	[5013] = {
+		id = 5013,
+		icon = "icon_1",
+		type = 2
+	},
+	[5014] = {
+		id = 5014,
+		icon = "icon_2",
+		type = 2
+	},
+	[5015] = {
+		id = 5015,
+		icon = "icon_3",
+		type = 2
+	},
+	[5016] = {
+		id = 5016,
+		icon = "icon_5",
+		type = 2
+	},
+	[5017] = {
+		id = 5017,
+		icon = "icon_1",
+		type = 2
+	},
+	[5018] = {
+		id = 5018,
+		icon = "icon_2",
+		type = 2
+	},
 	all = {
 		1001,
 		1002,
@@ -426,6 +516,24 @@ pg.activity_event_monopoly_map = {
 		4015,
 		4016,
 		4017,
-		4018
+		4018,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5009,
+		5010,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
+		5016,
+		5017,
+		5018
 	}
 }

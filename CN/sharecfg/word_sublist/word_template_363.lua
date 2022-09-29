@@ -80,6 +80,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["计"] = {
+			["师"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -119,6 +124,11 @@ function temp()
 			},
 			["人"] = {
 				["皮"] = {
+					this = true
+				}
+			},
+			["重"] = {
+				["开"] = {
 					this = true
 				}
 			}

@@ -89,6 +89,11 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["建"] = {
+				["设"] = {
+					this = true
+				}
 			}
 		},
 		["价"] = {
@@ -199,6 +204,11 @@ function temp()
 		},
 		["晖"] = {
 			this = true
+		},
+		["亦"] = {
+			["武"] = {
+				this = true
+			}
 		}
 	}
 end

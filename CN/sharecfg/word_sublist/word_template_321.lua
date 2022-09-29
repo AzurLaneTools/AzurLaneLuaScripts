@@ -331,6 +331,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["屏"] = {
+			this = true
 		}
 	}
 end

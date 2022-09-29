@@ -45,6 +45,11 @@ function temp()
 			["民"] = {
 				this = true
 			}
+		},
+		["责"] = {
+			["岷"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -141,6 +146,14 @@ function temp()
 				["碱"] = {
 					this = true
 				}
+			}
+		},
+		["薪"] = {
+			["办"] = {
+				this = true
+			},
+			["潮"] = {
+				this = true
 			}
 		}
 	}

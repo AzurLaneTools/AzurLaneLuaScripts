@@ -190,6 +190,14 @@ function temp()
 					}
 				}
 			}
+		},
+		["哥"] = {
+			this = true
+		},
+		["卫"] = {
+			["兵"] = {
+				this = true
+			}
 		}
 	}
 end

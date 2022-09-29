@@ -409,6 +409,20 @@ function temp()
 		},
 		["张"] = {
 			this = true
+		},
+		["夕"] = {
+			["踢"] = {
+				["薇"] = {
+					this = true
+				}
+			}
+		},
+		["卜"] = {
+			x = {
+				["部"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

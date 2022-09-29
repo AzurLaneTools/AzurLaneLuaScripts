@@ -97,6 +97,25 @@ function temp()
 					}
 				}
 			}
+		},
+		["可"] = {
+			["枪"] = {
+				this = true
+			}
+		},
+		["克"] = {
+			q = {
+				this = true,
+				i = {
+					a = {
+						n = {
+							["9"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

@@ -124,6 +124,16 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["亡"] = {
+				["灵"] = {
+					this = true
+				}
+			}
+		},
+		["尚"] = {
+			["妃"] = {
+				this = true
 			}
 		}
 	}
@@ -172,6 +182,15 @@ function temp()
 						["子"] = {
 							this = true
 						}
+					}
+				}
+			}
+		},
+		["浪"] = {
+			["上"] = {
+				["轻"] = {
+					["功"] = {
+						this = true
 					}
 				}
 			}

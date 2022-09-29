@@ -95,6 +95,15 @@ function temp()
 			this = true,
 			["爹"] = {
 				this = true
+			},
+			["是"] = {
+				["他"] = {
+					["儿"] = {
+						["子"] = {
+							this = true
+						}
+					}
+				}
 			}
 		},
 		["批"] = {

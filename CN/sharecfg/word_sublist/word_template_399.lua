@@ -141,6 +141,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["梅"] = {
+			["岩"] = {
+				this = true
+			}
 		}
 	}
 end

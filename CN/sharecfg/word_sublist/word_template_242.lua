@@ -131,6 +131,17 @@ function temp()
 			["秋"] = {
 				this = true
 			}
+		},
+		["某"] = {
+			["文"] = {
+				this = true
+			},
+			["侠"] = {
+				this = true
+			},
+			["进"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -233,7 +244,10 @@ temp()
 function temp()
 	uv0["捅"] = {
 		["你"] = {
-			this = true
+			this = true,
+			["牙"] = {
+				this = true
+			}
 		},
 		["我"] = {
 			this = true
@@ -383,6 +397,11 @@ function temp()
 							}
 						}
 					}
+				}
+			},
+			["清"] = {
+				["单"] = {
+					this = true
 				}
 			}
 		},

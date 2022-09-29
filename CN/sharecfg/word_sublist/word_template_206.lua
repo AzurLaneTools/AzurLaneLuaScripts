@@ -54,6 +54,28 @@ function temp()
 		},
 		["炜"] = {
 			this = true
+		},
+		["近"] = {
+			["丰"] = {
+				this = true
+			}
+		},
+		["帝"] = {
+			["连"] = {
+				r = {
+					this = true
+				}
+			}
+		},
+		["和"] = {
+			["稻"] = {
+				this = true
+			}
+		},
+		["肉"] = {
+			["馅"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -395,6 +417,15 @@ function temp()
 				this = true,
 				["娱"] = {
 					["乐"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["皿"] = {
+			["大"] = {
+				["会"] = {
+					["堂"] = {
 						this = true
 					}
 				}

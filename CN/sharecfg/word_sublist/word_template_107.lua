@@ -562,6 +562,13 @@ function temp()
 					}
 				}
 			}
+		},
+		["位"] = {
+			["驾"] = {
+				["崩"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -673,6 +680,11 @@ function temp()
 				["*"] = {
 					this = true
 				}
+			}
+		},
+		["小"] = {
+			["能"] = {
+				this = true
 			}
 		}
 	}

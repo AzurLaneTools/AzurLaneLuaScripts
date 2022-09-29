@@ -122,6 +122,13 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["辰"] = {
+			["接"] = {
+				["班"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -144,6 +151,38 @@ function temp()
 			["民"] = {
 				this = true
 			}
+		},
+		["皇"] = {
+			["子"] = {
+				this = true
+			}
+		},
+		["太"] = {
+			["子"] = {
+				this = true
+			}
+		},
+		["心"] = {
+			["积"] = {
+				["虑"] = {
+					this = true
+				}
+			}
+		},
+		["门"] = {
+			["的"] = {
+				["世"] = {
+					["界"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["阳"] = {
+			this = true
+		},
+		["宸"] = {
+			this = true
 		}
 	}
 end

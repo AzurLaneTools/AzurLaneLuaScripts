@@ -405,8 +405,17 @@ function slot0.initPreviewPanel(slot0, slot1)
 
 		onToggle(slot0, slot0:findTF("Stage" .. slot7, slot0.stages), function (slot0)
 			if slot0 then
-				setText(uv0.breakView, HXSet.hxLan(uv1[uv2].breakout_view))
-				uv0:switchStage(uv2)
+				slot1 = uv0.breakout_view
+				slot2 = checkExist(pg.ship_data_template[uv0.breakout_id], {
+					"specific_type"
+				}) or {}
+
+				for slot6, slot7 in ipairs(slot2) do
+					slot1 = slot1 .. "/" .. i18n(ShipType.SpecificTableTips[slot7])
+				end
+
+				changeToScrollText(uv1.breakView, HXSet.hxLan(slot1))
+				uv1:switchStage(uv2)
 			end
 		end, SFX_PANEL)
 

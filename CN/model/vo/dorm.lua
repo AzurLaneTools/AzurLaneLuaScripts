@@ -156,6 +156,10 @@ function slot0.setName(slot0, slot1)
 	slot0.name = slot1
 end
 
+function slot0.GetName(slot0)
+	return slot0.name
+end
+
 function slot0.getExtendTrainPosShopId(slot0)
 	slot1 = pg.shop_template
 

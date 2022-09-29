@@ -163,6 +163,16 @@ function temp()
 					}
 				}
 			}
+		},
+		["敞"] = {
+			["篷"] = {
+				this = true
+			}
+		},
+		O = {
+			["迪"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -178,6 +188,11 @@ function temp()
 						this = true
 					}
 				}
+			}
+		},
+		["尼"] = {
+			["迪"] = {
+				this = true
 			}
 		}
 	}

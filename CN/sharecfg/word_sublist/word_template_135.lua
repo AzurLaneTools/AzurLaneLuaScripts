@@ -74,6 +74,11 @@ function temp()
 			["宏"] = {
 				this = true
 			}
+		},
+		["小"] = {
+			["强"] = {
+				this = true
+			}
 		}
 	}
 end

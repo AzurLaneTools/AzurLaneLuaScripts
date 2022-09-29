@@ -16,7 +16,7 @@ function slot0.update(slot0, slot1)
 	uv0.super.update(slot0, slot1)
 	setActive(slot0.chatTip, slot1.unreadCount > 0)
 
-	slot0.manifestoTF.text = slot1.manifesto or ""
+	slot0.manifestoTF.text = slot1:GetManifesto()
 
 	setActive(slot0.online, slot1.online == Friend.ONLINE)
 	setActive(slot0.date.gameObject, slot1.online ~= Friend.ONLINE)

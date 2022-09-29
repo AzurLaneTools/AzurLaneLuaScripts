@@ -2062,7 +2062,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 						slot1 = {}
 
 						if uv1:getConfig("bg") and #slot2 > 0 then
-							slot1:insert({
+							table.insert(slot1, {
 								BG = slot2
 							})
 						end

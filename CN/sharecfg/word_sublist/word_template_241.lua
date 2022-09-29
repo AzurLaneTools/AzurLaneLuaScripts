@@ -149,6 +149,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["及"] = {
+			["师"] = {
+				this = true
+			}
 		}
 	}
 end

@@ -77,6 +77,9 @@ function temp()
 			["乎"] = {
 				this = true
 			}
+		},
+		["支"] = {
+			this = true
 		}
 	}
 end

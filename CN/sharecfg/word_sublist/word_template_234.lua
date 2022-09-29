@@ -563,6 +563,11 @@ function temp()
 		},
 		["嘢"] = {
 			this = true
+		},
+		["泽"] = {
+			["旻"] = {
+				this = true
+			}
 		}
 	}
 end

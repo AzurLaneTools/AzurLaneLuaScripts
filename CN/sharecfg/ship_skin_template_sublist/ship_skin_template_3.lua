@@ -4039,6 +4039,133 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[103165] = {
+		ship_group = 10316,
+		name = "迅疾的蓝星",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "132",
+		id = 103165,
+		group_index = 5,
+		prefab = "baerdimo_6",
+		painting = "baerdimo_6",
+		shop_id = 70758,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 14,
+		illustrator = -1,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗨指挥官，今天是来看比赛的吗？那就好好享受吧。我？因为被拜托，所以就来帮个忙，兼职下赛车女郎。能让这场比赛更加“燃起来”就好了ーー",
+		voice_actor = 191,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			-40,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					0.87,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.94,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.009,
+					0.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.433,
+							2.34,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			1031651
+		}
+	},
 	[103240] = {
 		ship_group = 10324,
 		name = "布莱默顿",
@@ -9844,115 +9971,6 @@ pg.ship_skin_template_3 = {
 						{
 							-0.61,
 							2.26,
-							-0.6
-						}
-					}
-				}
-			}
-		}
-	},
-	[107033] = {
-		ship_group = 10703,
-		name = "虚拟偶像？",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "210",
-		id = 107033,
-		group_index = 3,
-		prefab = "salatuojia_4",
-		painting = "salatuojia_4",
-		shop_id = 70179,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9999,
-		illustrator = 10,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "嗨多磨～！我是虚拟偶像…萨拉托加哟～指挥官觉得怎么样？这可是拜托爱酱特别制作的，萨拉托加专用绊爱服装哟！",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.26,
-					1.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.25,
-					1.1,
-					0
-				}
-			},
-			plane = {
-				{
-					1.24,
-					1.06,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.36,
 							-0.6
 						}
 					}

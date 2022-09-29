@@ -22,6 +22,16 @@ function temp()
 					}
 				}
 			}
+		},
+		["路"] = {
+			["西"] = {
+				this = true
+			}
+		},
+		["壬"] = {
+			["螳"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -215,6 +225,19 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["酷"] = {
+			["，"] = {
+				["说"] = {
+					["不"] = {
+						["了"] = {
+							["话"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -322,6 +345,9 @@ function temp()
 			},
 			["地"] = {
 				["肏"] = {
+					this = true
+				},
+				["图"] = {
 					this = true
 				}
 			},
@@ -804,6 +830,13 @@ function temp()
 			["区"] = {
 				this = true
 			}
+		},
+		["会"] = {
+			["主"] = {
+				["意"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -829,6 +862,18 @@ function temp()
 			},
 			["王"] = {
 				this = true
+			},
+			["开"] = {
+				D = {
+					["会"] = {
+						this = true
+					}
+				}
+			},
+			["老"] = {
+				["大"] = {
+					this = true
+				}
 			}
 		},
 		["妹"] = {

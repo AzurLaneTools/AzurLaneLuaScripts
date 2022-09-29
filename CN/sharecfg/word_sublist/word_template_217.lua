@@ -744,6 +744,11 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["特"] = {
+				["首"] = {
+					this = true
+				}
 			}
 		},
 		["本"] = {
@@ -757,6 +762,11 @@ function temp()
 					["人"] = {
 						this = true
 					}
+				}
+			},
+			["特"] = {
+				["首"] = {
+					this = true
 				}
 			}
 		},
@@ -842,6 +852,9 @@ function temp()
 			["民"] = {
 				this = true
 			}
+		},
+		["青"] = {
+			this = true
 		}
 	}
 end

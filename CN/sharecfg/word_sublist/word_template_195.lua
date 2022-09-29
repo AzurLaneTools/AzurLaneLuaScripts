@@ -2410,6 +2410,24 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["瓦"] = {
+			["尔"] = {
+				this = true
+			}
+		},
+		["世"] = {
+			["凯"] = {
+				this = true
+			}
+		},
+		["退"] = {
+			["味"] = {
+				this = true
+			}
+		},
+		this = {
+			this = true
 		}
 	}
 end
@@ -2662,6 +2680,9 @@ function temp()
 			},
 			["伞"] = {
 				this = true
+			},
+			["十"] = {
+				this = true
 			}
 		},
 		["猪"] = {
@@ -2671,7 +2692,24 @@ function temp()
 			}
 		},
 		["皇"] = {
-			this = true
+			this = true,
+			["帝"] = {
+				["座"] = {
+					["位"] = {
+						["涂"] = {
+							["了"] = {
+								["5"] = {
+									["0"] = {
+										["2"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		},
 		["圣"] = {
 			["上"] = {
@@ -3449,6 +3487,21 @@ function temp()
 		["某"] = {
 			["某"] = {
 				this = true
+			},
+			["座"] = {
+				["位"] = {
+					["涂"] = {
+						["了"] = {
+							["5"] = {
+								["0"] = {
+									["2"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["那"] = {
@@ -3514,6 +3567,9 @@ function temp()
 				this = true
 			},
 			["蘋"] = {
+				this = true
+			},
+			["干"] = {
 				this = true
 			}
 		},
@@ -3739,6 +3795,19 @@ function temp()
 			}
 		},
 		["毛"] = {
+			this = true
+		},
+		["逝"] = {
+			["乎"] = {
+				this = true
+			}
+		},
+		["朋"] = {
+			["择"] = {
+				this = true
+			}
+		},
+		this = {
 			this = true
 		}
 	}

@@ -253,6 +253,8 @@ function slot0.OnDisVisible(slot0)
 	pg.redDotHelper:Disable()
 	slot0.buffDescPage:Disable()
 	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0.mainCG.gameObject.transform, false)
+	slot0.sequenceView:Disable()
+	slot0.awakeSequenceView:Disable()
 end
 
 function slot0.onBackPressed(slot0)

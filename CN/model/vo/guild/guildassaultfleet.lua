@@ -22,7 +22,7 @@ function slot0.Ctor(slot0, slot1)
 	slot4 = slot1.ships or {}
 
 	for slot6, slot7 in slot3(slot4) do
-		slot2[slot6] = Ship.New(slot7)
+		slot2[slot6] = GuildAssaultShip.New(slot7)
 	end
 
 	slot0:InitShips(slot1.user_id, slot2)

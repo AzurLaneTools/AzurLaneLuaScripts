@@ -173,6 +173,15 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["歌"] = {
+			["就"] = {
+				["饱"] = {
+					["了"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

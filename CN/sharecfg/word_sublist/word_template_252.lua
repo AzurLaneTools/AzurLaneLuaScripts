@@ -174,6 +174,11 @@ function temp()
 	uv0["翠"] = {
 		["党"] = {
 			this = true
+		},
+		["鞑"] = {
+			["靼"] = {
+				this = true
+			}
 		}
 	}
 end

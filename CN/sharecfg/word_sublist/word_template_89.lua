@@ -104,6 +104,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["配"] = {
+			["制"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -494,6 +499,20 @@ function temp()
 				["动"] = {
 					this = true
 				}
+			}
+		},
+		["闭"] = {
+			["半"] = {
+				["封"] = {
+					["闭"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["控"] = {
+			["区"] = {
+				this = true
 			}
 		}
 	}

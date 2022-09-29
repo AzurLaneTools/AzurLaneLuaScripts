@@ -155,6 +155,15 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["译"] = {
+			["大"] = {
+				["动"] = {
+					["运"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -285,6 +294,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["拱"] = {
+			this = true
 		}
 	}
 end

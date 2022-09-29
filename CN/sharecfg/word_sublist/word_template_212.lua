@@ -278,6 +278,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["茎"] = {
+			["山"] = {
+				this = true
+			}
 		}
 	}
 end

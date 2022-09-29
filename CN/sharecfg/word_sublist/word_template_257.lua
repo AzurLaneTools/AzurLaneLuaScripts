@@ -121,6 +121,11 @@ function temp()
 			["何"] = {
 				this = true
 			}
+		},
+		["稼"] = {
+			["訶"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -217,6 +222,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["统"] = {
+			this = true
 		}
 	}
 end

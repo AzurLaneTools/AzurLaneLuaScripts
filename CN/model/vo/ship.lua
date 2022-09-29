@@ -291,6 +291,10 @@ function slot0.getName(slot0)
 	return pg.ship_data_statistics[slot0.configId].name
 end
 
+function slot0.GetDefaultName(slot0)
+	return HXSet.hxLan(pg.ship_data_statistics[slot0.configId].name)
+end
+
 function slot0.getShipName(slot0)
 	return pg.ship_data_statistics[slot0].name
 end

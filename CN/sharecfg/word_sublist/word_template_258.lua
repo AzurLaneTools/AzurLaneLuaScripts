@@ -100,6 +100,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["帥"] = {
+			this = true
 		}
 	}
 end
@@ -200,6 +203,13 @@ function temp()
 					["壳"] = {
 						this = true
 					}
+				}
+			}
+		},
+		["子"] = {
+			["修"] = {
+				["仙"] = {
+					this = true
 				}
 			}
 		}

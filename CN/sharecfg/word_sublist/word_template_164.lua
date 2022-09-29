@@ -316,6 +316,13 @@ function temp()
 		},
 		["磺"] = {
 			this = true
+		},
+		["似"] = {
+			["事"] = {
+				["件"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

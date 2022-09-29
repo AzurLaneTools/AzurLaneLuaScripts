@@ -279,6 +279,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["德"] = {
+			["江"] = {
+				this = true
+			}
 		}
 	}
 end

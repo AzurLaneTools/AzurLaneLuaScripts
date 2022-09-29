@@ -11,6 +11,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["猿"] = {
+			this = true
 		}
 	}
 end

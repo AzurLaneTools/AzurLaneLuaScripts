@@ -90,6 +90,13 @@ function temp()
 	uv0["表"] = {
 		["砸"] = {
 			this = true
+		},
+		["演"] = {
+			["解"] = {
+				["封"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -199,6 +206,9 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["心"] = {
+				this = true
 			}
 		}
 	}

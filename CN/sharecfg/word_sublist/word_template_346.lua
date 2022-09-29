@@ -582,6 +582,15 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["仔"] = {
+			["说"] = {
+				["电"] = {
+					["影"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

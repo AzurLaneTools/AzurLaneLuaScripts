@@ -160,6 +160,15 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["眼"] = {
+			["看"] = {
+				["世"] = {
+					["界"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

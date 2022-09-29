@@ -2411,7 +2411,18 @@ temp()
 function temp()
 	uv0["猎"] = {
 		["人"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

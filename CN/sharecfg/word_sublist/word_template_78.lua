@@ -90,6 +90,26 @@ function temp()
 					}
 				}
 			}
+		},
+		O = {
+			D = {
+				["会"] = {
+					this = true
+				}
+			},
+			d = {
+				a = {
+					this = true
+				}
+			},
+			["大"] = {
+				this = true
+			}
+		},
+		["0"] = {
+			["大"] = {
+				this = true
+			}
 		}
 	}
 end

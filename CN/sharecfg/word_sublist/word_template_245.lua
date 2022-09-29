@@ -376,6 +376,11 @@ function temp()
 		},
 		["弹"] = {
 			this = true
+		},
+		["搞"] = {
+			["丽"] = {
+				this = true
+			}
 		}
 	}
 end

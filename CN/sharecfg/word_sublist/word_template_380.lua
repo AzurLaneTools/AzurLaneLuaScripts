@@ -107,6 +107,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["时"] = {
+			["代"] = {
+				this = true
+			}
 		}
 	}
 end

@@ -6303,6 +6303,86 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[233] = {
+		spine_extra = "",
+		describe = "飘逸的「银月」留给对手的只有那梦幻般的背影！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "赛车「银月」",
+		themeId = 0,
+		icon = "paocheicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 233,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paocheB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"paocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[234] = {
 		spine_extra = "",
 		describe = "大棋盘中心黑色高塔的微缩模型，材质与构造皆不明，但散发着危险的气息。——授予在「紫绛槿岚」特别作战中获得杰出成就者的纪念章。",
@@ -9277,6 +9357,84 @@ pg.furniture_data_template = {
 					"event:/ui/meow"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100042] = {
+		spine_extra = "",
+		describe = "它可不是普通的扫帚！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "魔法扫帚2022",
+		themeId = 0,
+		icon = "feixingsaozhouicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100042,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingsaozhou",
+				"normal",
+				nil,
+				true
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -114365,6 +114523,7 @@ pg.furniture_data_template = {
 			229,
 			230,
 			232,
+			233,
 			234,
 			100001,
 			100002,
@@ -114407,6 +114566,7 @@ pg.furniture_data_template = {
 			100039,
 			100040,
 			100041,
+			100042,
 			200001,
 			200002,
 			200003,
@@ -114566,6 +114726,7 @@ pg.furniture_data_template = {
 			229,
 			230,
 			232,
+			233,
 			234,
 			100001,
 			100002,
@@ -114608,6 +114769,7 @@ pg.furniture_data_template = {
 			100039,
 			100040,
 			100041,
+			100042,
 			200001,
 			200002,
 			200003,
@@ -121514,6 +121676,7 @@ pg.furniture_data_template = {
 			229,
 			230,
 			232,
+			233,
 			234,
 			100001,
 			100002,
@@ -121556,6 +121719,7 @@ pg.furniture_data_template = {
 			100039,
 			100040,
 			100041,
+			100042,
 			31101,
 			54101,
 			54102,
@@ -124013,12 +124177,14 @@ pg.furniture_data_template = {
 			131,
 			143,
 			215,
+			233,
 			100003,
 			100008,
 			100021,
 			100022,
 			100030,
 			100034,
+			100042,
 			30123,
 			35128,
 			36125,
@@ -124922,6 +125088,7 @@ pg.furniture_data_template = {
 		229,
 		230,
 		232,
+		233,
 		234,
 		100001,
 		100002,
@@ -124964,6 +125131,7 @@ pg.furniture_data_template = {
 		100039,
 		100040,
 		100041,
+		100042,
 		200001,
 		200002,
 		200003,

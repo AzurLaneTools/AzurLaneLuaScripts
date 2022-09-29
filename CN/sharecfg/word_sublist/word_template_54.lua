@@ -90,6 +90,21 @@ function temp()
 					}
 				}
 			}
+		},
+		["镜"] = {
+			["坪"] = {
+				this = true
+			}
+		},
+		["总"] = {
+			["数"] = {
+				["级"] = {
+					this = true
+				}
+			}
+		},
+		this = {
+			this = true
 		}
 	}
 end
@@ -329,6 +344,19 @@ function temp()
 					["气"] = {
 						["枪"] = {
 							this = true
+						}
+					}
+				}
+			},
+			V = {
+				I = {
+					D = {
+						["-"] = {
+							X = {
+								i = {
+									this = true
+								}
+							}
 						}
 					}
 				}
@@ -729,6 +757,21 @@ function temp()
 						}
 					}
 				}
+			},
+			I = {
+				N = {
+					E = {
+						S = {
+							E = {
+								["病"] = {
+									["毒"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		K = {
@@ -893,6 +936,60 @@ function temp()
 						}
 					}
 				}
+			},
+			r = {
+				i = {
+					s = {
+						E = {
+							v = {
+								e = {
+									r = {
+										t = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		o = {
+			r = {
+				e = {
+					s = {
+						o = {
+							c = {
+								i = {
+									a = {
+										l = {
+											i = {
+												s = {
+													t = {
+														v = {
+															a = {
+																l = {
+																	u = {
+																		e = {
+																			s = {
+																				this = true
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -906,6 +1003,7 @@ function temp()
 			this = true
 		},
 		["手"] = {
+			this = true,
 			["威"] = {
 				["爾"] = {
 					["特"] = {
@@ -1113,6 +1211,7 @@ temp()
 function temp()
 	uv0["辅"] = {
 		["助"] = {
+			this = true,
 			["程"] = {
 				["序"] = {
 					this = true

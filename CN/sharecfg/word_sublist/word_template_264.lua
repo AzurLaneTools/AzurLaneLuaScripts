@@ -2417,6 +2417,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["時"] = {
+			["大"] = {
+				this = true
+			}
 		}
 	}
 end

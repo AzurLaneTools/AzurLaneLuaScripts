@@ -171,6 +171,16 @@ function temp()
 			["社"] = {
 				this = true
 			}
+		},
+		["子"] = {
+			["鱼"] = {
+				this = true
+			},
+			y = {
+				u = {
+					this = true
+				}
+			}
 		}
 	}
 end

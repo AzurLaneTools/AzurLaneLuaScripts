@@ -721,6 +721,16 @@ function temp()
 		},
 		["照"] = {
 			this = true
+		},
+		["着"] = {
+			["乐"] = {
+				this = true
+			}
+		},
+		["乐"] = {
+			["国"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -917,6 +927,11 @@ function temp()
 		},
 		["娱"] = {
 			["乐"] = {
+				this = true
+			}
+		},
+		["迈"] = {
+			["哥"] = {
 				this = true
 			}
 		}
@@ -1216,6 +1231,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["北"] = {
+			["者"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -1446,6 +1466,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		this = {
+			this = true
 		}
 	}
 end

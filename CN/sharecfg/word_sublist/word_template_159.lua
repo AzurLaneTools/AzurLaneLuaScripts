@@ -118,7 +118,18 @@ temp()
 function temp()
 	uv0["钞"] = {
 		["票"] = {
-			this = true
+			this = true,
+			["上"] = {
+				["那"] = {
+					["个"] = {
+						["头"] = {
+							["像"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

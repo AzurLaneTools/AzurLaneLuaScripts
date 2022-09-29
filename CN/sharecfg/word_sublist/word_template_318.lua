@@ -277,6 +277,16 @@ function temp()
 			["鹏"] = {
 				this = true
 			}
+		},
+		["瓶"] = {
+			["铜"] = {
+				["渍"] = {
+					this = true
+				}
+			}
+		},
+		["评"] = {
+			this = true
 		}
 	}
 end

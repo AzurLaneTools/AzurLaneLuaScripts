@@ -318,6 +318,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["金"] = {
+			this = true
 		}
 	}
 end
@@ -730,6 +733,16 @@ function temp()
 		},
 		["学"] = {
 			["智"] = {
+				this = true
+			}
+		},
+		["委"] = {
+			["兵"] = {
+				this = true
+			}
+		},
+		["微"] = {
+			["兵"] = {
 				this = true
 			}
 		}

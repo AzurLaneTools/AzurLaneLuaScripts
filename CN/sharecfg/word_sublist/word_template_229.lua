@@ -30,6 +30,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["嫌"] = {
+			["Ξ"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -210,6 +215,13 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["肝"] = {
+			["爷"] = {
+				["爷"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -235,6 +247,9 @@ temp()
 function temp()
 	uv0["丑"] = {
 		["化"] = {
+			this = true
+		},
+		["港"] = {
 			this = true
 		}
 	}

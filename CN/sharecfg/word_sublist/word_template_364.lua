@@ -184,6 +184,9 @@ function temp()
 			["娅"] = {
 				this = true
 			}
+		},
+		["毒"] = {
+			this = true
 		}
 	}
 end

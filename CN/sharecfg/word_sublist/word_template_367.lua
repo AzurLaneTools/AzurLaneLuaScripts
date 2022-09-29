@@ -165,6 +165,15 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["安"] = {
+			["门"] = {
+				["事"] = {
+					["件"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

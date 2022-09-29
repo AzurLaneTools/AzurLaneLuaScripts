@@ -17,6 +17,13 @@ function temp()
 					}
 				}
 			}
+		},
+		v = {
+			["团"] = {
+				["建"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

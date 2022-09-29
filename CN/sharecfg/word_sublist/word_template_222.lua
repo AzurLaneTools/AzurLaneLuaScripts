@@ -22,6 +22,15 @@ function temp()
 					}
 				}
 			}
+		},
+		["子"] = {
+			["倒"] = {
+				["汽"] = {
+					["车"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -60,6 +69,16 @@ function temp()
 		},
 		["睿"] = {
 			["宁"] = {
+				this = true
+			}
+		},
+		["允"] = {
+			["慷"] = {
+				this = true
+			}
+		},
+		["总"] = {
+			["理"] = {
 				this = true
 			}
 		}
@@ -148,6 +167,11 @@ function temp()
 		},
 		["渔"] = {
 			this = true
+		},
+		["丽"] = {
+			["波"] = {
+				this = true
+			}
 		}
 	}
 end

@@ -72,6 +72,26 @@ function temp()
 	uv0["乾"] = {
 		["爽"] = {
 			this = true
+		},
+		["隆"] = {
+			["爷"] = {
+				["的"] = {
+					["天"] = {
+						["下"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["龙"] = {
+			T = {
+				O = {
+					M = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -134,6 +154,9 @@ function temp()
 					}
 				}
 			}
+		},
+		this = {
+			this = true
 		}
 	}
 end

@@ -161,6 +161,14 @@ function temp()
 			["门"] = {
 				this = true
 			}
+		},
+		["忠"] = {
+			["潮"] = {
+				this = true
+			}
+		},
+		["祭"] = {
+			this = true
 		}
 	}
 end

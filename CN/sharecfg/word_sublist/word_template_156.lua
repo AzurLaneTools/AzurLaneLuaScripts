@@ -355,6 +355,11 @@ function temp()
 						}
 					}
 				}
+			},
+			["法"] = {
+				["利"] = {
+					this = true
+				}
 			}
 		},
 		["盈"] = {
@@ -841,6 +846,11 @@ function temp()
 						}
 					}
 				}
+			},
+			["小"] = {
+				["竹"] = {
+					this = true
+				}
 			}
 		},
 		["怀"] = {
@@ -908,6 +918,9 @@ function temp()
 			["仳"] = {
 				this = true
 			}
+		},
+		q = {
+			this = true
 		}
 	}
 end
