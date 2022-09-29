@@ -59,7 +59,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "헬레나·META",
 		painting = "hailunna",
 		boss_level_id = 31,
