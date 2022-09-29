@@ -1,5 +1,5 @@
 slot0 = class("Live2dDrag")
-slot1 = 1
+slot1 = 6
 
 function slot0.Ctor(slot0, slot1)
 	slot0.drawAbleName = slot1.draw_able_name or ""

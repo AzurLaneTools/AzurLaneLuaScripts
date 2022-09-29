@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>二  莽撞也要適可而止</size>",
+					"欲速則不達\n\n<size=45>二  莽撞也要適可而止</size>",
 					1
 				}
 			}
