@@ -17663,7 +17663,7 @@ _G.pg.base.item_data_statistics[40100] = {
 	link_id = 0,
 	id = 40100,
 	is_world = 0,
-	icon = "ChargeIcon/box4",
+	icon = "ChargeIcon/ringbox",
 	display_icon = {
 		{
 			2,
