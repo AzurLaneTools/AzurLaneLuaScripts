@@ -9,7 +9,7 @@ function slot0.execute(slot0, slot1)
 
 	if slot2.type == BackYardConst.THEME_TEMPLATE_TYPE_SHOP or slot3 == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
 		function slot8(slot0)
-			slot1 = Player.New(slot0.player)
+			slot1 = CourtYardThemeOwner.New(slot0.player)
 
 			if uv0:GetShopThemeTemplateById(uv1) then
 				slot2:SetPlayerInfo(slot1)

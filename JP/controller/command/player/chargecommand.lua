@@ -73,6 +73,8 @@ function slot0.execute(slot0, slot1)
 			end
 		elseif slot0.result == 6 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("charge_error_count_limit"))
+		elseif slot0.result == 5002 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("charge_error_disable"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("charge", slot0.result))
 		end

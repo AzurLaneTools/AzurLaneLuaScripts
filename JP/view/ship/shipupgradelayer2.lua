@@ -281,12 +281,6 @@ function slot0.updateStagesScrollView(slot0)
 	end
 end
 
-slot2 = {
-	GNR = "breakout_tip_ultimatebonus_gunner",
-	TORP = "breakout_tip_ultimatebonus_torpedo",
-	AUX = "breakout_tip_ultimatebonus_aux"
-}
-
 function slot0.updateBattleView(slot0)
 	if #slot0.breakIds < uv0 then
 		return
@@ -304,11 +298,11 @@ function slot0.updateBattleView(slot0)
 				}) or {}
 
 				for slot6, slot7 in ipairs(slot2) do
-					slot1 = slot1 .. "/" .. i18n(uv1[slot7])
+					slot1 = slot1 .. "/" .. i18n(ShipType.SpecificTableTips[slot7])
 				end
 
-				changeToScrollText(uv2.breakView, slot1)
-				uv2:switchStage(uv3)
+				changeToScrollText(uv1.breakView, HXSet.hxLan(slot1))
+				uv1:switchStage(uv2)
 			end
 		end, SFX_PANEL)
 	end
@@ -320,7 +314,7 @@ function slot0.updateBattleView(slot0)
 	end
 end
 
-slot3 = {
+slot2 = {
 	"level",
 	"durability",
 	"cannon",

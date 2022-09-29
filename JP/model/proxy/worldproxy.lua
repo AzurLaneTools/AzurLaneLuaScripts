@@ -83,7 +83,10 @@ function slot0.register(slot0)
 end
 
 function slot0.remove(slot0)
-	slot0.world:GetBossProxy():Dispose()
+	if slot0.world then
+		slot0.world:GetBossProxy():Dispose()
+	end
+
 	removeWorld()
 	WPool:Dispose()
 

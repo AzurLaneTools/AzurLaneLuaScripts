@@ -262,12 +262,44 @@ pg.activity_event_monopoly = {
 			96859
 		}
 	},
+	{
+		daily_time = 5,
+		id = 7,
+		version = 1,
+		reward_time = 0,
+		effective_times = 0,
+		map = {
+			5001,
+			5002,
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5009,
+			5010,
+			5011,
+			5012,
+			5013,
+			5014,
+			5015,
+			5016,
+			5017,
+			5018
+		},
+		reward = {},
+		reward_extra = {},
+		story = {},
+		drop_times = {}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
 		5,
-		6
+		6,
+		7
 	}
 }

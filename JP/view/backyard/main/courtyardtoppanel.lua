@@ -53,7 +53,7 @@ function slot0.OnFlush(slot0, slot1)
 end
 
 function slot0.FlushName(slot0)
-	if not slot0.dorm.name or slot2 == "" then
+	if not slot0.dorm:GetName() or slot2 == "" then
 		slot0.nameTxt.text = i18n("backyard_backyardScene_name", getProxy(PlayerProxy):getRawData().name)
 	else
 		slot0.nameTxt.text = slot2

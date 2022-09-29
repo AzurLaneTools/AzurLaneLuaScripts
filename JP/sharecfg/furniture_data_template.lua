@@ -5582,6 +5582,86 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[233] = {
+		spine_extra = "",
+		describe = "相手に見せるのは背中のみ。これぞレースの流儀なり",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "シルバームーン",
+		themeId = 0,
+		icon = "paocheicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 233,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paocheB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"paocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[234] = {
 		spine_extra = "",
 		describe = "重桜結界の中心拠点「塔」をモチーフに作られたレプリカ。その材質・構造は謎に包まれており、オリジナル同様危険な雰囲気が漂っている。――「赫の涙月 菫の暁風」に参加した指揮官に贈る",
@@ -8420,6 +8500,55 @@ pg.furniture_data_template = {
 					nil,
 					"houzhai_pugongying",
 					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100041] = {
+		spine_extra = "",
+		describe = "「じゃじゃーん！出来たよ！ダ・ヴィンチ会心の『イヌ型ニャンニャンロボット』だ！」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "miaomiaowangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "イヌ型ニャンニャンロボット",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100041,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"miaomiaowang",
+				"normal",
+				{
+					"action",
+					false,
+					nil,
+					"event:/ui/meow"
 				}
 			}
 		},
@@ -106784,6 +106913,7 @@ pg.furniture_data_template = {
 			226,
 			231,
 			232,
+			233,
 			234,
 			100002,
 			100003,
@@ -106824,6 +106954,7 @@ pg.furniture_data_template = {
 			100038,
 			100039,
 			100040,
+			100041,
 			200001,
 			200002,
 			200003,
@@ -106963,6 +107094,7 @@ pg.furniture_data_template = {
 			226,
 			231,
 			232,
+			233,
 			234,
 			100002,
 			100003,
@@ -107003,6 +107135,7 @@ pg.furniture_data_template = {
 			100038,
 			100039,
 			100040,
+			100041,
 			200001,
 			200002,
 			200003,
@@ -113449,6 +113582,7 @@ pg.furniture_data_template = {
 			226,
 			231,
 			232,
+			233,
 			234,
 			100002,
 			100003,
@@ -113489,6 +113623,7 @@ pg.furniture_data_template = {
 			100038,
 			100039,
 			100040,
+			100041,
 			31101,
 			54104,
 			54105
@@ -114299,7 +114434,8 @@ pg.furniture_data_template = {
 			100036,
 			100038,
 			100039,
-			100040
+			100040,
+			100041
 		},
 		[2] = {
 			120,
@@ -115808,6 +115944,7 @@ pg.furniture_data_template = {
 		[11] = {
 			143,
 			215,
+			233,
 			100003,
 			100008,
 			100021,
@@ -116643,6 +116780,7 @@ pg.furniture_data_template = {
 		226,
 		231,
 		232,
+		233,
 		234,
 		100002,
 		100003,
@@ -116683,6 +116821,7 @@ pg.furniture_data_template = {
 		100038,
 		100039,
 		100040,
+		100041,
 		200001,
 		200002,
 		200003,

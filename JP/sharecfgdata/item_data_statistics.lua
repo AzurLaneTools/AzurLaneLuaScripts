@@ -8847,6 +8847,27 @@ _G.pg.base.item_data_statistics[21014] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21015] = {
+	display = "ハンター(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：ハンター(META)",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21015,
+	is_world = 0,
+	icon = "Props/21015",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -10103,6 +10124,73 @@ _G.pg.base.item_data_statistics[30203] = {
 		{
 			3,
 			48040,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30204] = {
+	display = "使用すると、<color=#ffde38>装備</color>を1つ選択して入手可能",
+	name = "指向型装備箱・装備支援",
+	max_num = 0,
+	type = 16,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30204,
+	is_world = 0,
+	icon = "Props/30204",
+	display_icon = {
+		{
+			3,
+			5240,
+			1
+		},
+		{
+			3,
+			11240,
+			1
+		},
+		{
+			3,
+			17340,
+			1
+		},
+		{
+			3,
+			24340,
+			1
+		},
+		{
+			3,
+			29200,
+			1
+		},
+		{
+			3,
+			32240,
+			1
+		},
+		{
+			3,
+			38240,
+			1
+		},
+		{
+			3,
+			43040,
+			1
+		},
+		{
+			3,
+			46340,
 			1
 		}
 	},
@@ -14551,6 +14639,95 @@ _G.pg.base.item_data_statistics[30406] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30407] = {
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	name = "ランダム装備外装",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30407,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2019,
+			1
+		},
+		{
+			9,
+			2020,
+			1
+		},
+		{
+			9,
+			2021,
+			1
+		},
+		{
+			9,
+			2022,
+			1
+		},
+		{
+			9,
+			2023,
+			1
+		},
+		{
+			9,
+			2024,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30408] = {
+	display = "幻惑の不死鳥（攻撃）、幻惑の不死鳥（戦闘）、幻惑の不死鳥（爆撃）を1個ずつ入手できます",
+	name = "幻惑の不死鳥",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30408,
+	is_world = 0,
+	icon = "Equips/96331",
+	display_icon = {
+		{
+			9,
+			2019,
+			1
+		},
+		{
+			9,
+			2020,
+			1
+		},
+		{
+			9,
+			2021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用すると、装備外装（晩夏）から任意の装備外装を1個選択して入手できます",
 	name = "選択装備外装箱（晩夏）",
@@ -15648,6 +15825,118 @@ _G.pg.base.item_data_statistics[30510] = {
 		{
 			9,
 			655,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30511] = {
+	display = "使用すると、装備外装（風雲北連）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（北連）",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30511,
+	is_world = 0,
+	icon = "Props/appearanceboxbeilianzixuan",
+	display_icon = {
+		{
+			9,
+			220,
+			1
+		},
+		{
+			9,
+			221,
+			1
+		},
+		{
+			9,
+			222,
+			1
+		},
+		{
+			9,
+			223,
+			1
+		},
+		{
+			9,
+			224,
+			1
+		},
+		{
+			9,
+			225,
+			1
+		},
+		{
+			9,
+			226,
+			1
+		},
+		{
+			9,
+			227,
+			1
+		},
+		{
+			9,
+			228,
+			1
+		},
+		{
+			9,
+			229,
+			1
+		},
+		{
+			9,
+			230,
+			1
+		},
+		{
+			9,
+			231,
+			1
+		},
+		{
+			9,
+			232,
+			1
+		},
+		{
+			9,
+			233,
+			1
+		},
+		{
+			9,
+			234,
+			1
+		},
+		{
+			9,
+			235,
+			1
+		},
+		{
+			9,
+			236,
+			1
+		},
+		{
+			9,
+			237,
 			1
 		}
 	},
@@ -175959,6 +176248,48 @@ _G.pg.base.item_data_statistics[59293] = {
 	virtual_type = 0,
 	link_id = 0,
 	id = 59293,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59294] = {
+	display = "不该被看到",
+	name = "通行证七期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 21,
+	link_id = 7007,
+	id = 59294,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59295] = {
+	display = "キャンペーン「シーズン任務」(2022.10.1~2022.11.30)で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	name = "進捗Pt",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59295,
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	display_icon = {},

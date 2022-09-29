@@ -43,6 +43,11 @@ slot0.SpecificTypeTable = {
 	gunner = "GNR",
 	torpedo = "TORP"
 }
+slot0.SpecificTableTips = {
+	GNR = "breakout_tip_ultimatebonus_gunner",
+	TORP = "breakout_tip_ultimatebonus_torpedo",
+	AUX = "breakout_tip_ultimatebonus_aux"
+}
 
 function slot0.Type2Name(slot0)
 	return pg.ship_data_by_type[slot0].type_name

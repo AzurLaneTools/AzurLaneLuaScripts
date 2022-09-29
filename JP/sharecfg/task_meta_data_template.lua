@@ -1080,6 +1080,78 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "0"
 	},
+	[100001] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "ハンター(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100001,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100002] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "ハンター(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100002,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100003] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "ハンター(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100003,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100004] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "ハンター(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100004,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100005] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "ハンター(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100005,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200001] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "セイレーン作戦でハンター(META)を含めた艦隊で1回勝利する",
+		id = 200001,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200002] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200002,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200003] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200003,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200004] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200004,
+		target_num = 1,
+		target_id = "100"
+	},
 	all = {
 		1,
 		2,
@@ -1215,6 +1287,15 @@ pg.task_meta_data_template = {
 		254,
 		255,
 		301,
-		302
+		302,
+		100001,
+		100002,
+		100003,
+		100004,
+		100005,
+		200001,
+		200002,
+		200003,
+		200004
 	}
 }

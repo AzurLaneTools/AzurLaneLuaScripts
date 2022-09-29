@@ -599,7 +599,7 @@ end
 function slot0.GetShopTime(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 
-	return slot1:STimeDescC(slot0:getStartTime(), "%y.%m.%d") .. " - " .. slot1:STimeDescC(slot0.stopTime, "%y.%m.%d")
+	return slot1:STimeDescS(slot0:getStartTime(), "%y.%m.%d") .. " - " .. slot1:STimeDescS(slot0.stopTime, "%y.%m.%d")
 end
 
 function slot0.GetCrusingUnreceiveAward(slot0)

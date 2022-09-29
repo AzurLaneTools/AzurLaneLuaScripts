@@ -16,8 +16,9 @@ return {
 				"onWeaponSteday"
 			},
 			arg_list = {
-				skill_id = 902030,
+				quota = 1,
 				target = "TargetSelf",
+				skill_id = 902030,
 				index = {
 					1
 				}

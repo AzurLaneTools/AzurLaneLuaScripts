@@ -20143,6 +20143,197 @@ pg.equip_skin_template = {
 			107
 		}
 	},
+	[2019] = {
+		name = "幻惑の不死鳥（攻撃）",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "これが手品（マジック）か、それとも魔法（マジック）かな…！",
+		themeid = 101,
+		id = 2019,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_aixin",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[2020] = {
+		name = "幻惑の不死鳥（戦闘）",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "これが手品（マジック）か、それとも魔法（マジック）かな…！",
+		themeid = 101,
+		id = 2020,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yingbi",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[2021] = {
+		name = "幻惑の不死鳥（爆撃）",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "これが手品（マジック）か、それとも魔法（マジック）かな…！",
+		themeid = 101,
+		id = 2021,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yingbi",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[2022] = {
+		name = "バルーン弾",
+		bullet_name = "zidan_moshuqiqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "マジックショーによく見かける補助用の小道具",
+		themeid = 101,
+		id = 2022,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96311",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "moshukapai_fire",
+		hit_fx_name = "qiqiu_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2023] = {
+		name = "コイン砲弾",
+		bullet_name = "paodan_yingbi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "へっ、こいつは中々値がつくぜ",
+		themeid = 101,
+		id = 2023,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96312",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2024] = {
+		name = "スイートハート魚雷",
+		bullet_name = "yulei_aixin",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "爆発するハート！燃え尽きるほどヒート！",
+		themeid = 101,
+		id = 2024,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96321",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
 	all = {
 		1,
 		2,
@@ -20773,6 +20964,12 @@ pg.equip_skin_template = {
 		2015,
 		2016,
 		2017,
-		2018
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024
 	}
 }

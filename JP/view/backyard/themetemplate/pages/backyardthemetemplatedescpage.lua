@@ -212,7 +212,7 @@ function slot0.UpdatePlayer(slot0)
 	else
 		slot1 = slot0.template.player
 		slot0.player = slot1
-		slot0.nameTxt.text = slot1.name
+		slot0.nameTxt.text = slot1:GetName()
 		slot0.idTxt.text = slot0.template.id
 		slot4 = slot0.template
 		slot0.timeTxt.text = i18n("backyard_theme_upload_time") .. slot4:GetUploadTime()
