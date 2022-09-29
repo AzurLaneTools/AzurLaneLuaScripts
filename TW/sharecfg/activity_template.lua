@@ -20570,45 +20570,19 @@ pg.activity_template = {
 	},
 	[40808] = {
 		mark = 20220915,
-		config_client = "",
 		title_res_tag = "dafengJK_skin",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 28,
+		config_client = "",
 		id = 40808,
 		config_data = {
 			{
 				17808,
 				17809,
 				17810
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -20879,6 +20853,131 @@ pg.activity_template = {
 		page_info = {
 			class_name = "FiveAnniversaryPage",
 			ui_name = "FiveAnniversaryPage"
+		}
+	},
+	[40825] = {
+		mark = 20220929,
+		title_res_tag = "eatFood",
+		type = 57,
+		login_pop = 0,
+		config_id = 35,
+		is_show = 28,
+		config_data = "0",
+		config_client = "",
+		id = 40825,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EatFoodPage",
+			ui_name = "EatFoodPage"
+		}
+	},
+	[40826] = {
+		mark = 20220929,
+		config_client = "",
+		title_res_tag = "monopoly_car",
+		type = 51,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 28,
+		id = 40826,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyCar2Page",
+			ui_name = "MonopolyCar2Page"
+		}
+	},
+	[40827] = {
+		mark = 20220929,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40827,
+		config_data = {
+			17997
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[45000] = {
@@ -22555,6 +22654,88 @@ pg.activity_template = {
 			}
 		}
 	},
+	[45904] = {
+		mark = 20220929,
+		id = 45904,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 28,
+		config_data = {
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage5"
+		},
+		config_client = {
+			map_name = "map_202206",
+			spine_name = "chess_xiao",
+			tips = {
+				"battlepass_main_tip_2206",
+				"battlepass_main_help_2206",
+				"cruise_task_help_2206"
+			},
+			equip_skin = {
+				{
+					9,
+					2009,
+					1
+				},
+				{
+					9,
+					2010,
+					1
+				},
+				{
+					9,
+					2011,
+					1
+				},
+				{
+					9,
+					2012,
+					1
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -23206,6 +23387,9 @@ pg.activity_template = {
 		40811,
 		40812,
 		40822,
+		40825,
+		40826,
+		40827,
 		45000,
 		45001,
 		45002,
@@ -23251,6 +23435,7 @@ pg.activity_template = {
 		45900,
 		45901,
 		45902,
-		45903
+		45903,
+		45904
 	}
 }

@@ -162,10 +162,10 @@ function slot4.AddModel(slot0, slot1)
 		end
 
 		if slot0._tf:Find("bullet_random") and slot3:GetComponent(typeof(SpineAnim)) then
-			slot0._skeleton = slot2:GetComponent("SkeletonAnimation")
+			slot0._skeleton = slot3:GetComponent("SkeletonAnimation")
 			slot0._spineBullet = true
 
-			slot2:GetComponent(typeof(SpineAnim)):SetAction(tostring(math.random(3)), 0, false)
+			slot3:GetComponent(typeof(SpineAnim)):SetAction(tostring(math.random(3)), 0, false)
 		end
 
 		return true

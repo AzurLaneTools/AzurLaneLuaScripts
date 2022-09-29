@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>三　从「风筝」开始的联系</size>",
+					"欲速则不达\n\n<size=45>三  從「風箏」開始的聯繫</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区・指挥室",
+			say = "港區・指揮室",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "正午刚过。{namecode:18}就已经把本日的工作都做完了。",
+			say = "正午剛過。島風就已經把本日的工作都做完了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，到头来检讨书才是最费事的工作……啊，当然我很用心地写了哦！",
+			say = "哎呀，到頭來檢討書才是最費事的工作……啊，當然我很用心地寫了哦！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "为了犒劳她这段时间的努力，批准她今天剩下的时间可以自由行动。",
+			say = "為了犒勞她這段時間的努力，批准她今天剩下的時間可以自由行動。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "当然，这里面也多少有点想借机观察下{namecode:18}的想法。",
+			say = "當然，這裡面也多少有點想藉機觀察下島風的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "那么{namecode:18}现在在哪呢——",
+			say = "那麼島風現在在哪呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "诶嘿嘿！挺不错的吧！只用塑料袋和吸管就能做一个风筝！",
+			say = "欸嘿嘿！挺不錯的吧！只用塑膠袋和吸管就能做一個風箏！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！{namecode:18}的“个人档案”里也写了喜欢收集风筝呢！",
+			say = "原來如此！島風的“個人檔案”裡也寫了喜歡收集風箏呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "你很懂嘛~不过我自己没什么有在哪里写过这个的印象哎……总之就觉得光是收集还不够，于是自己也学会制作了！",
+			say = "妳很懂嘛~不過我自己沒什麼有在哪裡寫過這個的印象哎……總之就覺得光是收集還不夠，於是自己也學會製作了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "机会难得，放飞这个风筝前，我想再装饰装饰。",
+			say = "機會難得，放飛這個風箏前，我想再裝飾裝飾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让{namecode:13}大人画上可爱的图案吧！",
+			say = "那就讓雷大人畫上可愛的圖案吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看来{namecode:18}在和{namecode:14}、{namecode:13}一起热闹地扎着风筝。继续观望吧————",
+			say = "看來島風在和電、雷一起熱鬧地紮著風箏。繼續觀望吧————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "做好了！画了可爱的{namecode:18}插图贴上去了。",
+			say = "做好了！畫了可愛的島風插圖貼上去了。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哇——！这个是{namecode:18}哎！呜……我果然是一副不讨喜的样子么……",
+			say = "哇——！這個是島風哎！嗚……我果然是一副不討喜的樣子嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是艺术的夸张表现啦，你要是这么在意我可就头疼了。",
+			say = "只是藝術的誇張表現啦，妳要是這麼在意我可就頭疼了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且比画{namecode:18}舰装的时候进步了哦。",
+			say = "而且比畫島風艦裝的時候進步了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "啊哈哈，原来如此原来如此，那个我现在也很喜欢呢！",
+			say = "啊哈哈，原來如此原來如此，那個我現在也很喜歡呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦好啦，快点放风筝吧！",
+			say = "好啦好啦，快點放風箏吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "好啊，不过这里不太适合放风筝……啊稍等一下。",
+			say = "好啊，不過這裡不太適合放風箏……啊稍等一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "（嗯……？手机响了……是{namecode:18}？）",
+			say = "（嗯……？手機響了……是島風？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "指挥官，打扰了。我现在和{namecode:13}、{namecode:14}在一起……接下来要去海岸边放风筝。我会尽早回去的！",
+			say = "指揮官，打擾了。我現在和雷、電在一起……接下來要去海岸邊放風箏。我會儘早回去的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "同意了{namecode:18}的请求。这次她会好好地进行联络了呢。",
+			say = "同意了島風的請求。這次她會好好地進行聯絡了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

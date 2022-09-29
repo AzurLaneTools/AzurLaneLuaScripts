@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>五　不可思议的兔子</size>",
+					"欲速则不达\n\n<size=45>五  不可思議的兔子</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "港区·游乐园",
+			say = "港區·遊樂園",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "想着巡览下街道上的设施应该对今后有益，便和{namecode:18}来到了这里——",
+			say = "想著巡覽下街道上的設施應該對今後有益，便和島風來到了這裡——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜哇！今天来到的地方是游乐园欸！有种来玩的感觉呢！",
+			say = "嗚哇！今天來到的地方是遊樂園欸！有種來玩的感覺呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "虽然是以视察的名义来的，不过能看到她欢天喜地的样子，这点小小的偷懒也没问题吧。",
+			say = "雖然是以視察的名義來的，不過能看到她歡天喜地的樣子，這點小小的偷懶也沒問題吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那么就马上开始巡览吧！",
+			say = "那麼就馬上開始巡覽吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			},
 			options = {
 				{
-					content = "你要一个人去哪？",
+					content = "妳要一個人去哪？",
 					flag = 1
 				}
 			}
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:18}可快了哦ーー！",
+			say = "島風可快了哦ーー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "还没来得及让{namecode:18}等等，她就已经跑远了——",
+			say = "還沒來得及讓島風等等，她就已經跑遠了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "噜~噜噜~♪",
+			say = "嚕~嚕嚕~♪",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦，这里就是镜子屋了对吧！里面有好多样子奇怪的{namecode:18}呢ー！",
+			say = "哦哦，這裡就是鏡子屋了對吧！裡面有好多樣子奇怪的島風呢ー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "star_level_bg_108",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			say = "盯……",
 			typewriter = {
 				speed = 0.05,
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哇！{namecode:18}的表情变奇怪了！",
+			say = "哇！島風的表情變奇怪了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲的脸是奇异系的吗……？",
+			say = "拉菲的臉是奇異系的嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "诶……吓？！镜，镜子说话了……！难道这里是鬼屋吗……？！",
+			say = "欸……嚇？！鏡，鏡子說話了……！難道這裡是鬼屋嗎……？！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是的，是拉菲在说话。",
+			say = "不是的，是拉菲在說話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………啊！！是白鹰的拉菲吗……？！",
+			say = "…………啊！！是白鷹的拉菲嗎……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "终于在镜子屋中追上了{namecode:18}，不过————",
+			say = "終於在鏡子屋中追上了島風，不過————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最恐怖的驱逐舰，可怕的拉菲……",
+			say = "最恐怖的驅逐艦，可怕的拉菲……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呀！{namecode:18}很怕恐怖的东西——！别吓我啦——！！",
+			say = "呀！島風很怕恐怖的東西——！別嚇我啦——！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "……这是什么情况？",
+			say = "……這是什麼情況？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "偶然遇见，却被请客了，拉菲很开心。",
+			say = "偶然遇見，卻被請客了，拉菲很開心。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎呀，能碰到白鹰里的名人，我才更开心呢！请客的事就不要在意啦！",
+			say = "哎呀，能碰到白鷹裡的名人，我才更開心呢！請客的事就不要在意啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，指挥官。结账就拜托你了。",
+			say = "嗯，指揮官。結帳就拜託你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			},
 			options = {
 				{
-					content = "交给我吧！",
+					content = "交給我吧！",
 					flag = 1
 				}
 			}
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_108",
 			dir = 1,
 			blackBg = true,
-			say = "虽然没怎么视察这里的娱乐设施，不过作为替代，与白鹰的“兔子”一起享用了美味的午餐。",
+			say = "雖然沒怎麼視察這裡的娛樂設施，不過作為替代，與白鷹的“兔子”一起享用了美味的午餐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

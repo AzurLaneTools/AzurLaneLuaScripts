@@ -4722,6 +4722,86 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[233] = {
+		spine_extra = "",
+		describe = "飄逸的「銀月」留給對手的只有那夢幻般的背影！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "賽車「銀月」",
+		themeId = 0,
+		icon = "paocheicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 233,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paocheB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"paocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "飛高高～飛高高～…唔！？太高了太高了！！QAQ",
@@ -5763,6 +5843,61 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"fengshanCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100017] = {
+		spine_extra = "",
+		describe = "月亮出來了嗎？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "yueicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "月相模擬裝置",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100017,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yue",
+				"normal",
+				{
+					"action",
+					true,
+					{
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7"
+					}
+				}
 			}
 		},
 		interAction_group = {}
@@ -89227,6 +89362,7 @@ pg.furniture_data_template = {
 			214,
 			215,
 			222,
+			233,
 			100002,
 			100003,
 			100004,
@@ -89240,6 +89376,7 @@ pg.furniture_data_template = {
 			100014,
 			100015,
 			100016,
+			100017,
 			12002,
 			12102,
 			12103,
@@ -89351,6 +89488,7 @@ pg.furniture_data_template = {
 			214,
 			215,
 			222,
+			233,
 			100002,
 			100003,
 			100004,
@@ -89364,6 +89502,7 @@ pg.furniture_data_template = {
 			100014,
 			100015,
 			100016,
+			100017,
 			12002,
 			12102,
 			12103,
@@ -94843,6 +94982,7 @@ pg.furniture_data_template = {
 			214,
 			215,
 			222,
+			233,
 			100002,
 			100003,
 			100004,
@@ -94856,6 +94996,7 @@ pg.furniture_data_template = {
 			100014,
 			100015,
 			100016,
+			100017,
 			54104,
 			54105
 		},
@@ -95523,7 +95664,8 @@ pg.furniture_data_template = {
 			100010,
 			100013,
 			100014,
-			100016
+			100016,
+			100017
 		},
 		[2] = {
 			122,
@@ -96817,6 +96959,7 @@ pg.furniture_data_template = {
 			131,
 			143,
 			215,
+			233,
 			100003,
 			100008,
 			30123,
@@ -97510,6 +97653,7 @@ pg.furniture_data_template = {
 		214,
 		215,
 		222,
+		233,
 		100002,
 		100003,
 		100004,
@@ -97523,6 +97667,7 @@ pg.furniture_data_template = {
 		100014,
 		100015,
 		100016,
+		100017,
 		1001,
 		1002,
 		1101,

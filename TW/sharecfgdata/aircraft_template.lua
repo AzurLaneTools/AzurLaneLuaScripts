@@ -30915,6 +30915,181 @@ _G.pg.base.aircraft_template[64580] = {
 	}
 }
 
+_G.pg.base.aircraft_template[64601] = {
+	attack_power = 2,
+	name = "皇家方舟改技能剑鱼",
+	type = 2,
+	accuracy = 23,
+	model_ID = "jianyu",
+	ACC_growth = 0,
+	crash_DMG = 306,
+	dodge = 1.11,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 64601,
+	icon = "jianyu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 4,
+	hp_growth = 1338,
+	speed = 45,
+	max_hp = 35,
+	scale = 1,
+	weapon_ID = {
+		64611
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.52,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[64602] = {
+	max_hp = 40,
+	hp_growth = 1538,
+	base = 64601,
+	id = 64602,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64612
+	}
+}
+
+_G.pg.base.aircraft_template[64603] = {
+	max_hp = 45,
+	hp_growth = 1739,
+	base = 64601,
+	id = 64603,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64613
+	}
+}
+
+_G.pg.base.aircraft_template[64604] = {
+	max_hp = 50,
+	hp_growth = 1940,
+	base = 64601,
+	id = 64604,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64614
+	}
+}
+
+_G.pg.base.aircraft_template[64605] = {
+	max_hp = 56,
+	hp_growth = 2140,
+	base = 64601,
+	id = 64605,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64615
+	}
+}
+
+_G.pg.base.aircraft_template[64606] = {
+	max_hp = 61,
+	hp_growth = 2341,
+	base = 64601,
+	id = 64606,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64616
+	}
+}
+
+_G.pg.base.aircraft_template[64607] = {
+	max_hp = 66,
+	hp_growth = 2541,
+	base = 64601,
+	id = 64607,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64617
+	}
+}
+
+_G.pg.base.aircraft_template[64608] = {
+	max_hp = 71,
+	hp_growth = 2742,
+	base = 64601,
+	id = 64608,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64618
+	}
+}
+
+_G.pg.base.aircraft_template[64609] = {
+	max_hp = 77,
+	hp_growth = 2943,
+	base = 64601,
+	id = 64609,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64619
+	}
+}
+
+_G.pg.base.aircraft_template[64610] = {
+	max_hp = 82,
+	hp_growth = 3143,
+	base = 64601,
+	id = 64610,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64620
+	}
+}
+
 _G.pg.base.aircraft_template[64671] = {
 	attack_power = 2,
 	name = "筑摩水上机Lv1",

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>四　港区海洋博物馆</size>",
+					"欲速则不达\n\n<size=45>四  港區海洋博物館</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区・指挥室",
+			say = "港區・指揮室",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "昨天几乎都在玩，实在有点不好意思……",
+			say = "昨天幾乎都在玩，實在有點不好意思……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "既然下达了自由行动许可，自然是没什么问题。",
+			say = "既然下達了自由行動許可，自然是沒什麼問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…好像确实如此？！",
+			say = "…好像確實如此？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "而且今天的工作也完成得特别快，剩下的时间继续自由行动好了。",
+			say = "而且今天的工作也完成得特別快，剩下的時間繼續自由行動好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎？！真的么，那指挥官能不能来陪我一起，{namecode:18}有想去参观的设施……！",
+			say = "哎？！真的嗎，那指揮官能不能來陪我一起，島風有想去參觀的設施……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "来到了郊外一处刚建好的博物馆。",
+			say = "來到了郊外一處剛建好的博物館。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哇…是武器装备的博物馆啊~好厉害！",
+			say = "哇…是武器裝備的博物館啊~好厲害！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "看她像小狗一样……不对，应该是兔子一样手舞足蹈的样子，应该是很中意这个地方了。",
+			say = "看她像小狗一樣……不對，應該是兔子一樣手舞足蹈的樣子，應該是很中意這個地方了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "指挥官，快看这里的说明！",
+			say = "指揮官，快看這裡的說明！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "顺着{namecode:18}指着地方看去，上面的内容是……",
+			say = "順著島風指著地方看去，上面的內容是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "这个展区内的装备都不是仿造品,而是真品哦·！",
+			say = "這個展區內的裝備都不是仿造品,而是真品哦·！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "确实如此。该不会里面还装填着炮弹吧……",
+			say = "確實如此。該不會裡面還裝填著炮彈吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊！看这里，居然还有重樱式五联装的鱼雷发射管哎！！",
+			say = "啊！看這裡，居然還有重櫻式五聯裝的魚雷發射管哎！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "勉强拦住了在博物馆里动如脱兔的{namecode:18}。",
+			say = "勉強攔住了在博物館裡動如脫兔的島風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，为什么要拦住我呀！我想再靠近点看的……啊。",
+			say = "指揮官，為什麼要攔住我呀！我想再靠近點看的……啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "向{namecode:18}指了指立在一旁的指示牌。",
+			say = "向島風指了指立在一旁的指示牌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "——「请勿触摸展品」以及「馆内请保持安静」。",
+			say = "——「請勿觸摸展品」以及「館內請保持安靜」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜，呜呜呜……对不起……{namecode:18}又犯错了……！",
+			say = "嗚，嗚嗚嗚……對不起……島風又犯錯了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "毫不掩饰失落模样的{namecode:18}，样子有点可爱……",
+			say = "毫不掩飾失落模樣的島風，樣子有點可愛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看在她有好好反省的份上，安慰了她之后牵手绕着馆内看了一圈。",
+			say = "看在她有好好反省的份上，安慰了她之後牽手繞著館內看了一圈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

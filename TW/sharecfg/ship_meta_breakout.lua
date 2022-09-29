@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.ship_meta_breakout = {
+	[9701011] = {
+		breakout_view = "习得技能【逐光之焰·猎人】/主炮效率提高5%",
+		gold = 500,
+		breakout_id = 9701012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701011,
+		item1 = 21015,
+		pre_id = 0,
+		weapon_ids = {
+			79961
+		}
+	},
+	[9701012] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		gold = 1500,
+		breakout_id = 9701013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701012,
+		item1 = 21015,
+		pre_id = 9701011,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9701013] = {
+		breakout_view = "【逐光之焰·猎人】升级/全武器效率提高5%",
+		gold = 2500,
+		breakout_id = 9701014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701013,
+		item1 = 21015,
+		pre_id = 9701012,
+		weapon_ids = {
+			79962
+		}
+	},
+	[9701014] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701014,
+		item1 = 21015,
+		pre_id = 9701013,
+		weapon_ids = {}
+	},
 	[9702011] = {
 		breakout_view = "習得技能【破敵之炬·海倫娜】/主炮效率提高5%",
 		gold = 1000,
@@ -64,7 +127,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702021] = {
-		breakout_view = "习得技能【构造之理·孟菲斯】/全武器效率提高2%",
+		breakout_view = "習得技能【構造之理·曼非斯】/全武器效率提高2%",
 		gold = 500,
 		breakout_id = 9702022,
 		repair = 0,
@@ -80,7 +143,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9702022] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
 		gold = 1500,
 		breakout_id = 9702023,
 		repair = 0,
@@ -97,7 +160,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9702023] = {
-		breakout_view = "【构造之理·孟菲斯】升级/全武器效率提高5%",
+		breakout_view = "【構造之理·曼非斯】升級/全武器效率提高5%",
 		gold = 2500,
 		breakout_id = 9702024,
 		repair = 0,
@@ -113,7 +176,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9702024] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -932,6 +995,10 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	all = {
+		9701011,
+		9701012,
+		9701013,
+		9701014,
 		9702011,
 		9702012,
 		9702013,

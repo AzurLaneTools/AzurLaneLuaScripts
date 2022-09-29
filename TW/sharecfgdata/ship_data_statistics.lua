@@ -271194,6 +271194,526 @@ _G.pg.base.ship_data_statistics[9702014] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[9702021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曼非斯·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702020,
+	english_name = "Memphis.META",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		581,
+		28,
+		40,
+		57,
+		0,
+		70,
+		0,
+		39,
+		23,
+		35,
+		67,
+		20
+	},
+	attrs_growth = {
+		10009,
+		383,
+		552,
+		750,
+		0,
+		486,
+		0,
+		555,
+		394,
+		0,
+		0,
+		288
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		201
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.45,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"MemphisMETA",
+		"Omaha-Class",
+		"TOC"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曼非斯·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702020,
+	english_name = "Memphis.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		723,
+		35,
+		50,
+		71,
+		0,
+		70,
+		0,
+		39,
+		23,
+		35,
+		67,
+		25
+	},
+	attrs_growth = {
+		10009,
+		383,
+		552,
+		750,
+		0,
+		486,
+		0,
+		555,
+		394,
+		0,
+		0,
+		288
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		202
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.17,
+		1.47,
+		1.17,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"MemphisMETA",
+		"Omaha-Class",
+		"TOC"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曼非斯·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702020,
+	english_name = "Memphis.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1006,
+		49,
+		70,
+		99,
+		0,
+		70,
+		0,
+		39,
+		23,
+		35,
+		67,
+		35
+	},
+	attrs_growth = {
+		10009,
+		383,
+		552,
+		750,
+		0,
+		486,
+		0,
+		555,
+		394,
+		0,
+		0,
+		288
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		203
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.5,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"MemphisMETA",
+		"Omaha-Class",
+		"TOC"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曼非斯·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702020,
+	english_name = "Memphis.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1432,
+		69,
+		99,
+		141,
+		0,
+		70,
+		0,
+		39,
+		23,
+		35,
+		67,
+		50
+	},
+	attrs_growth = {
+		10009,
+		383,
+		552,
+		750,
+		0,
+		486,
+		0,
+		555,
+		394,
+		0,
+		0,
+		288
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		204
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.55,
+		1.25,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"MemphisMETA",
+		"Omaha-Class",
+		"TOC"
+	}
+}
+
 _G.pg.base.ship_data_statistics[9705011] = {
 	raid_distance = 0,
 	oxy_max = 0,

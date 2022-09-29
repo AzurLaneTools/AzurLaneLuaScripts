@@ -1578,7 +1578,18 @@ function temp()
 	uv0["曼"] = {
 		["非"] = {
 			["斯"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

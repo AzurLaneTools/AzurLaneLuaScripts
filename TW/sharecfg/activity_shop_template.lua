@@ -9735,7 +9735,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10048,
 		resource_num = 500,
-		order = 4
+		order = 5
 	},
 	[10049] = {
 		limit_args = "",

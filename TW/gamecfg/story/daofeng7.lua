@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>七　我为人人</size>",
+					"欲速则不达\n\n<size=45>七  我為人人</size>",
 					1
 				}
 			}
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在指挥室中听取了{namecode:18}整理的关于之前演习时跟塞壬战斗的报告。",
+			say = "在指揮室中聽取了島風整理的關於之前演習時跟塞壬戰鬥的報告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "已经能制作的有模有样了，不论怎么看都是出自一流秘书舰的手中。",
+			say = "已經能製作的有模有樣了，不論怎麼看都是出自一流秘書艦的手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "嘿嘿嘿，能帮到指挥官就太好啦~！",
+			say = "嘿嘿嘿，能幫到指揮官就太好啦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "面前正自豪笑着的{namecode:18}，相比刚担任秘书舰时也成熟了许多。",
+			say = "面前正自豪笑著的島風，相比剛擔任秘書艦時也成熟了許多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那指挥官觉得这次的报告能拿多少分呢？",
+			say = "那指揮官覺得這次的報告能拿多少分呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样吗，那下次我会争取拿更高分的……！",
+			say = "這樣嗎，那下次我會爭取拿更高分的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "其实给100也不是不行，不过想让她能更加努力。",
+			say = "其實給100也不是不行，不過想讓她能更加努力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "秘书舰的工作真是很有意义呢！",
+			say = "秘書艦的工作真是很有意義呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "刚开始的时候，想着只要自己拼尽全力就行，可是……",
+			say = "剛開始的時候，想著只要自己拼盡全力就行，可是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "看到在我的努力的影响下，其他的人也变得更加努力的时候，我真的很开心……啊，这么说会不会太自大了！？",
+			say = "看到在我的努力的影響下，其他的人也變得更加努力的時候，我真的很開心……啊，這麼說會不會太自大了！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,11 +250,11 @@ return {
 			},
 			options = {
 				{
-					content = "不会，100分！",
+					content = "不會，100分！",
 					flag = 1
 				},
 				{
-					content = "（温和的微笑）",
+					content = "（溫和的微笑）",
 					flag = 2
 				}
 			}
@@ -264,7 +264,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "看着一会害羞一会惶恐的{namecode:18}，不禁也感到开心起来。",
+			say = "看著一會害羞一會惶恐的島風，不禁也感到開心起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "多亏了{namecode:18}，自己也获得了新的力量。",
+			say = "多虧了島風，自己也獲得了新的力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,11 +290,11 @@ return {
 			},
 			options = {
 				{
-					content = "（轻笑一下）",
+					content = "（輕笑一下）",
 					flag = 1
 				},
 				{
-					content = "（开玩笑的）",
+					content = "（開玩笑的）",
 					flag = 2
 				}
 			}
@@ -322,7 +322,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "好像冷场了……",
+			say = "好像冷場了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "就是这样……就是这样才对！",
+			say = "就是這樣……就是這樣才對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "真是的！想让我都说出来吗？没办法了……！",
+			say = "真是的！想讓我都說出來嗎？沒辦法了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "又强大，又温柔，又聪明，而且还能适时灵活的打趣，这样的指挥官……",
+			say = "又強大，又溫柔，又聰明，而且還能適時靈活的打趣，這樣的指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:18}从以前开始，就一直很喜欢了！",
+			say = "島風從以前開始，就一直很喜歡了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "激动地挥舞着双手的{namecode:18}突然发出了内容不得了的宣告，然后——",
+			say = "激動地揮舞著雙手的島風突然發出了內容不得了的宣告，然後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "打翻了桌子上的咖啡……看来一会的工作又要变得稍微忙碌一点了。",
+			say = "打翻了桌子上的咖啡……看來一會的工作又要變得稍微忙碌一點了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

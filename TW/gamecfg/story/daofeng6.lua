@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>六　日新月异</size>",
+					"欲速则不达\n\n<size=45>六  日新月異</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "演习海域",
+			say = "演習海域",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能战斗的人请尽快就位！后勤舰队由{namecode:175}负责引导避难！",
+			say = "能戰鬥的人請盡快就位！後勤艦隊由駿河負責引導避難！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…没问题，我会完成任务的。{namecode:18}……好好履行秘书舰的职责哦。",
+			say = "…沒問題，我會完成任務的。島風……好好履行秘書艦的職責哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "嗯，肯定没问题的！对吧，指挥官！",
+			say = "嗯，肯定沒問題的！對吧，指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,11 +122,11 @@ return {
 			},
 			options = {
 				{
-					content = "嗯，当然",
+					content = "嗯，當然",
 					flag = 1
 				},
 				{
-					content = "（默默地点头）",
+					content = "（默默地點頭）",
 					flag = 2
 				}
 			}
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么指挥官，我就先行一步了，你和{namecode:18}可都别受伤哦！",
+			say = "那麼指揮官，我就先行一步了，你和島風可都別受傷哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "原本正在进行的演习因为塞壬量产型舰队的出现而被迫中断。",
+			say = "原本正在進行的演習因為塞壬量產型艦隊的出現而被迫中斷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "现在正在与{namecode:18}一起全力应对这一意料之外的突发状况——",
+			say = "現在正在與島風一起全力應對這一意料之外的突發狀況——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "秘书舰真是一份承担了同伴们期望的工作呢！{namecode:18}，全力——哎？！指挥官怎么啦？",
+			say = "秘書艦真是一份承擔了同伴們期望的工作呢！島風，全力——哎？！指揮官怎麼啦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "在即将启动的千钧一发之际叫住了要独自一人冲向前线的{namecode:18}。",
+			say = "在即將啟動的千鈞一髮之際叫住了要獨自一人沖向前線的島風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "啊……！哦、对，对哦！",
+			say = "啊……！哦、對，對哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "能立刻反应过来，说明多少也成长了一些吧…",
+			say = "能立刻反應過來，說明多少也成長了一些吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种时候，应该是与同伴一起并肩战斗的场合才对！",
+			say = "這種時候，應該是與同伴一起並肩戰鬥的場合才對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只靠“主角光环”可不行哦！",
+			say = "只靠“主角光環”可不行哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也请别忘了在下！",
+			say = "也請別忘了在下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "与可靠的同伴面前，展现出指挥官和秘书舰的合作吧。",
+			say = "與可靠的同伴面前，展現出指揮官和秘書艦的合作吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯……我了解了！在开始避难的大家撤退到安全区域之前，要把目标控制在这里！",
+			say = "嗯嗯……我了解了！在開始避難的大家撤退到安全區域之前，要把目標控制在這裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:47}和{namecode:11}，扰乱对方就交给你们了！",
+			say = "阿武隈和曉，擾亂對方就交給妳們了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "先发制胜，是吧。",
+			say = "先發制人，是吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "{namecode:18}在进行战斗任务布置的场景也是难得一见。这里应该不会出什么问题，就暂时都交给她吧、",
+			say = "島風在進行戰鬥任務佈置的場景也是難得一見。這裡應該不會出什麼問題，就暫時都交給她吧、",
 			effects = {
 				{
 					active = false,
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:13}和{namecode:14}，加上{namecode:18}三艘将伺机对敌方舰队旗舰进行…………唔，进行总攻击！",
+			say = "雷和電，加上島風三艘將伺機對敵方艦隊旗艦進行…………唔，進行總攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开始突击……！",
+			say = "開始突擊……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "看着众人们以万全的态势应战的场景，不禁衷心觉得，拥有这支舰队以及秘书舰{namecode:18}的自己，实在是太幸运了。",
+			say = "看著眾人們以萬全的態勢應戰的場景，不禁衷心覺得，擁有這支艦隊以及秘書艦島風的自己，實在是太幸運了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

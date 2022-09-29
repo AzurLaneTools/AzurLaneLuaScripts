@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>一　最速剧情高潮传说</size>",
+					"欲速则不达\n\n<size=45>一  最速劇情高潮傳說</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区・指挥室",
+			say = "港區・指揮室",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天是{namecode:18}上任秘书舰的第一天。",
+			say = "今天是島風上任秘書艦的第一天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "之前从她的友人{namecode:175}那里听了不少关于她的事。据{namecode:175}所说……",
+			say = "之前從她的友人駿河那裡聽了不少關於她的事。據駿河所說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让{namecode:18}当秘书舰吗……啊，她绝对不是什么坏人。",
+			say = "讓島風當秘書艦嗎……啊，她絕對不是什麼壞人。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -121,7 +121,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……就是，打个比方的话，她是那种看起来比较机灵其实并不是的类型。虽然看上去好像很灵活，其实挺笨手笨脚的……",
+			say = "……就是，打個比方的話，她是那種看起來比較機靈其實並不是的類型。雖然看上去好像很靈活，其實挺笨手笨腳的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总之，请不要抱过度的期待，当做是个喜欢逞强的孩子来相处就好。",
+			say = "總之，請不要抱過度的期待，當做是個喜歡逞強的孩子來相處就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "本以为就性能而言是个不错的选择，没想到{namecode:175}的评价意外地严厉。",
+			say = "本以為就性能而言是個不錯的選擇，沒想到駿河的評價意外地嚴厲。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -185,7 +185,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，马上就要到{namecode:18}来报道的时间了……",
+			say = "啊，馬上就要到島風來報到的時間了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,11 +211,11 @@ return {
 			},
 			options = {
 				{
-					content = "怀着期待的心情等着",
+					content = "懷著期待的心情等著",
 					flag = 1
 				},
 				{
-					content = "慢悠悠地等着",
+					content = "慢悠悠地等著",
 					flag = 2
 				}
 			}
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task",
 			stopbgm = true,
 			dir = 1,
-			say = "……距离约好的时间已经过了30分钟，{namecode:18}依然没有出现。难道迷路了么……",
+			say = "……距離約好的時間已經過了30分鐘，島風依然沒有出現。難道迷路了嗎……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等……收到了塞壬量产型舰队正在接近的报告。",
+			say = "等等……收到了塞壬量產型艦隊正在接近的報告。",
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
@@ -271,7 +271,7 @@ return {
 			},
 			options = {
 				{
-					content = "进行迎击准备",
+					content = "進行迎擊準備",
 					flag = 1
 				}
 			}
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然对不住还没报道的{namecode:18}，但是眼下必须优先处理袭击的问题。",
+			say = "雖然對不起還沒報到的島風，但是眼下必須優先處理襲擊的問題。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，海域里起了碍事的雾气，舰队丢失目标了。",
+			say = "指揮官，海域裡起了礙事的霧氣，艦隊丟失目標了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "事情有些麻烦，必须尽快确认隐藏在浓雾中的敌人位置才行。",
+			say = "事情有些麻煩，必須盡快確認隱藏在濃霧中的敵人位置才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……指挥官，雷达上发现了友方信号！",
+			say = "……指揮官，雷達上發現了友方訊號！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "难道是有恰好路过的舰队自主加入战斗了么。",
+			say = "難道是有恰好路過的艦隊自主加入戰鬥了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就在七点钟方向……哎，正在战斗的难道是——",
+			say = "就在七點鐘方向……哎，正在戰鬥的難道是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "一边顺着七点钟方向靠近过去，出现在浓雾中的身影是——",
+			say = "一邊順著七點鐘方向靠近過去，出現在濃霧中的身影是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,12 +421,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的！喂，坏蛋量产舰！赶快停下来！今天可是我重要的日子！",
+			say = "真是的！喂，壞蛋量產艦！趕快停下來！今天可是我重要的日子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,9 +454,9 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 301290,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			hidePaintObj = true,
-			say = "好痛？！就知道攻击耳朵……真是又准有狠的攻击呢！但是我不会输的，全力迎击！",
+			say = "好痛？！就知道攻擊耳朵……真是又準又狠的攻擊呢！但是我不會輸的，全力迎擊！",
 			flashN = {
 				color = {
 					1,
@@ -510,7 +510,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "可爱而勇敢的声音与电击般迅疾的身影，没错，前方正在战斗的正是迟迟没有出现在指挥室中的{namecode:18}。",
+			say = "可愛而勇敢的聲音與電擊般迅疾的身影，沒錯，前方正在戰鬥的正是遲遲沒有出現在指揮室中的島風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "鱼雷反击！驱逐舰{namecode:18}，参上！！",
+			say = "魚雷反擊！驅逐艦島風，參上！！",
 			effects = {
 				{
 					active = true,

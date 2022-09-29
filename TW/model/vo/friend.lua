@@ -30,4 +30,12 @@ function slot0.hasUnreadMsg(slot0)
 	return slot0.unreadCount > 0
 end
 
+function slot0.GetManifesto(slot0)
+	if getProxy(PlayerProxy):getRawData():ShouldCheckCustomName() then
+		return ""
+	else
+		return uv0.super.GetManifesto(slot0)
+	end
+end
+
 return slot0

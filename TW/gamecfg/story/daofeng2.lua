@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>二　莽撞也要适可而止</size>",
+					"欲速则不达\n\n<size=45>二  莽撞也要適可而止</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区・指挥室",
+			say = "港區・指揮室",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第二天一大早，{namecode:18}就充满精力地做起了秘书舰的工作。",
+			say = "第二天一大早，島風就充滿精力地做起了秘書艦的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "把这个移到那边，再确认下洗衣机的状况…然后顺便把文件放回原来的地方…！",
+			say = "把這個移到那邊，再確認下洗衣機的狀況…然後順便把文件放回原來的地方…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "打扫、清洗衣服外加整理资料，不论怎么看都是令人赞叹的多线程工作场面。",
+			say = "打掃、清洗衣服外加整理資料，不論怎麼看都是令人讚嘆一心多用的工作場面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哼哼！小菜一碟！虽然小菜刚才都被我吃光了！",
+			say = "哼哼！小菜一碟！雖然小菜剛才都被我吃光了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然她兴致勃勃工作的样子真的很有感染力，但……",
+			say = "雖然她興致勃勃工作的樣子真的很有感染力，但……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "嗯？指挥官有什么话要对{namecode:18}说吗？",
+			say = "嗯？指揮官有什麼話要對島風說嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "问了问她，今天一开始交代去做的事情怎么样了。",
+			say = "問了問她，今天一開始交代去做的事情怎麼樣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "咕呜——",
+			say = "咕嗚——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,25 +197,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "果然忘记了啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 301290,
-			say = "嗯，那个，这个……是指“写检讨书”对吧……",
+			say = "果然忘記了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +215,25 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:18}记得哦……就是那件事对吧？昨天迎击塞壬量产舰那个……",
+			say = "嗯，那個，這個……是指“寫檢討書”對吧……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "島風記得哦……就是那件事對吧？昨天迎擊塞壬量產艦那個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "因为处置及时，不知道为何出现在近海的塞壬舰队并没有来得及造成任何危害。",
+			say = "因為處置及時，不知道為何出現在近海的塞壬艦隊並沒有來得及造成任何危害。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那，那就，没什么问题对吧……额，难道是指我报到迟了这件事吗？",
+			say = "那，那就，沒什麼問題對吧……呃，難道是指我報到晚了這件事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			},
 			options = {
 				{
-					content = "当然也包括在内。",
+					content = "當然也包括在內。",
 					flag = 1
 				}
 			}
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "原来并不是没问题啊……",
+			say = "原來並不是沒問題啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "海域中通讯并未遭到干扰，但直到收到警报组织舰队并抵达现场之前，并没有获得来自{namecode:18}的任何汇报。",
+			say = "海域中通訊並未遭到干擾，但直到收到警報組織艦隊並抵達現場之前，並沒有獲得來自島風的任何匯報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "发现塞壬之后，应该先报告的……很抱歉给大家添麻烦了！！",
+			say = "發現塞壬之後，應該先報告的……很抱歉給大家添麻煩了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "从她沮丧的眼神和口吻中，能感受到她确实有在好好反省，但……",
+			say = "從她沮喪的眼神和口吻中，能感受到她確實有在好好反省，但……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "诶，没有添麻烦的意思……？",
+			say = "欸，沒有添麻煩的意思……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "战斗中应该学习保护自己和依靠同伴，不应该不向港区确认就进行那么危险的战斗。",
+			say = "戰鬥中應該學習保護自己和依靠同伴，不應該不向港區確認就進行那麼危險的戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "指挥官……！没想到您这么担心{namecode:18}……我现在就写检讨书！！",
+			say = "指揮官……！沒想到您這麼擔心島風……我現在就寫檢討書！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "目前看来，{namecode:18}是那种一但做好决定就会迅速行动起来的类型。",
+			say = "目前看來，島風是那種一但做好決定就會迅速行動起來的類型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "啊！写字太用力把纸弄破了——！",
+			say = "啊！寫字太用力把紙弄破了——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "只不过，看来{namecode:175}的评价大体是对的呢……",
+			say = "只不過，看來駿河的評價大體是對的呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

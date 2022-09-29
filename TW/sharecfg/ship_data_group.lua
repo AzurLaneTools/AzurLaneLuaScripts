@@ -8920,7 +8920,7 @@ pg.ship_data_group = {
 		}
 	},
 	[144] = {
-		trans_skin = 0,
+		trans_skin = 207029,
 		redirect_id = 101,
 		hide = 0,
 		type = 7,
@@ -8938,8 +8938,17 @@ pg.ship_data_group = {
 			"B",
 			"B"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"A"
+		},
+		trans_skill = {
+			14710
+		},
 		description = {
 			{
 				"勳章支援（機率產出）",
@@ -19473,6 +19482,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30011] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30011,
+		code = 30011,
+		group_type = 970202,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702020
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -19971,6 +20014,7 @@ pg.ship_data_group = {
 		30005,
 		30006,
 		30008,
-		30010
+		30010,
+		30011
 	}
 }

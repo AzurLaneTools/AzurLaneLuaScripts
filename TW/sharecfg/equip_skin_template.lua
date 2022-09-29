@@ -12397,6 +12397,184 @@ pg.equip_skin_template = {
 			107
 		}
 	},
+	[2009] = {
+		name = "耀星魚雷",
+		bullet_name = "yulei_yaoxing",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "閃耀於群星之間",
+		themeid = 101,
+		id = 2009,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96123",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2010] = {
+		name = "黑洞炮彈",
+		bullet_name = "paodan_tianti",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "深邃而又神秘的吸引力！",
+		themeid = 101,
+		id = 2010,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96114",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2011] = {
+		name = "星雲子彈(黃)",
+		bullet_name = "xingyunzidan01",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "星海中的璀璨光芒",
+		themeid = 101,
+		id = 2011,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96115",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2012] = {
+		name = "古柏帶",
+		bullet_name = "",
+		desc = "旋轉和碰撞間蘊藏無限可能！",
+		type = 1,
+		themeid = 101,
+		id = 2012,
+		orbit_combat = "shebei_keyibodai",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_keyibodaiui",
+		icon = "96154",
+		mirror = 0,
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-1.25,
+				0.9,
+				-10
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-30,
+				100
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2013] = {
+		name = "星雲子彈(藍)",
+		bullet_name = "xingyunzidan02",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "星海中的璀璨光芒",
+		themeid = 101,
+		id = 2013,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96116",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
 	all = {
 		1,
 		2,
@@ -12785,6 +12963,11 @@ pg.equip_skin_template = {
 		2005,
 		2006,
 		2007,
-		2008
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2013
 	}
 }

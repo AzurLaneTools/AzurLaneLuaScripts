@@ -2581,6 +2581,12 @@ pg.gameset = {
 			999
 		}
 	},
+	player_name_illegal = {
+		key_value = 0,
+		description = {
+			"違規使用者名稱"
+		}
+	},
 	report_level_limit = {
 		description = "",
 		key_value = 75

@@ -6404,6 +6404,132 @@ _G.pg.base.item_data_statistics[15013] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[15014] = {
+	display = "特殊兵裝核心，主要用於特殊兵裝製造、突破",
+	name = "特殊兵裝核心",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15014,
+	is_world = 0,
+	icon = "Props/15014",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15015] = {
+	display = "兵裝強化石，主要用於特殊兵裝的製造、強化、突破",
+	name = "兵裝強化石T1",
+	max_num = 0,
+	type = 24,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15015,
+	is_world = 0,
+	icon = "Props/15015",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15016] = {
+	display = "兵裝強化石，主要用於特殊兵裝的製造、強化、突破",
+	name = "兵裝強化石T2",
+	max_num = 0,
+	type = 24,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15016,
+	is_world = 0,
+	icon = "Props/15016",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15017] = {
+	display = "兵裝強化石，主要用於特殊兵裝的製造、強化、突破",
+	name = "兵裝強化石T3",
+	max_num = 0,
+	type = 24,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15017,
+	is_world = 0,
+	icon = "Props/15017",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15020] = {
+	display = "兵裝強化石，主要用於特殊兵裝改裝",
+	name = "兵裝重構核心T1",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15020,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[15021] = {
+	display = "兵裝強化石，主要用於特殊兵裝改裝",
+	name = "兵裝重構核心T2",
+	max_num = 0,
+	type = 2,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15021,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[16001] = {
 	display = "艦艇攻擊教材T1，用於訓練角色攻擊技能可以獲得額外的經驗\n*可消耗<color=#ffde38>6</color>個合成<color=#ffde38>1</color>個<color=#d797ff>艦艇攻擊教材T2</color>",
 	name = "艦艇攻擊教材T1",
@@ -8327,6 +8453,27 @@ _G.pg.base.item_data_statistics[21010] = {
 	id = 21010,
 	is_world = 0,
 	icon = "Props/21010",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21011] = {
+	display = "曼非斯·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	name = "結晶：曼非斯·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21011,
+	is_world = 0,
+	icon = "Props/21011",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -12514,6 +12661,90 @@ _G.pg.base.item_data_statistics[30402] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30403] = {
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	name = "外觀裝備箱(世界巡遊)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30403,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2009,
+			1
+		},
+		{
+			9,
+			2010,
+			1
+		},
+		{
+			9,
+			2011,
+			1
+		},
+		{
+			9,
+			2012,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30404] = {
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	name = "外觀裝備箱(世界巡遊)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30404,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2009,
+			1
+		},
+		{
+			9,
+			2010,
+			1
+		},
+		{
+			9,
+			2011,
+			1
+		},
+		{
+			9,
+			2013,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用後可從「炎炎夏日」主題外觀裝備中任意選擇一種獲得1個",
 	name = "定向外觀裝備箱(夏末)",
@@ -12827,6 +13058,118 @@ _G.pg.base.item_data_statistics[30503] = {
 		{
 			9,
 			65,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30505] = {
+	display = "使用後可從「皇家格調」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(皇家)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30505,
+	is_world = 0,
+	icon = "Props/appearanceboxhuangjiazixuan",
+	display_icon = {
+		{
+			9,
+			140,
+			1
+		},
+		{
+			9,
+			141,
+			1
+		},
+		{
+			9,
+			142,
+			1
+		},
+		{
+			9,
+			143,
+			1
+		},
+		{
+			9,
+			144,
+			1
+		},
+		{
+			9,
+			145,
+			1
+		},
+		{
+			9,
+			146,
+			1
+		},
+		{
+			9,
+			147,
+			1
+		},
+		{
+			9,
+			148,
+			1
+		},
+		{
+			9,
+			149,
+			1
+		},
+		{
+			9,
+			150,
+			1
+		},
+		{
+			9,
+			151,
+			1
+		},
+		{
+			9,
+			152,
+			1
+		},
+		{
+			9,
+			153,
+			1
+		},
+		{
+			9,
+			154,
+			1
+		},
+		{
+			9,
+			155,
+			1
+		},
+		{
+			9,
+			156,
+			1
+		},
+		{
+			9,
+			157,
 			1
 		}
 	},
@@ -133453,6 +133796,27 @@ _G.pg.base.item_data_statistics[59282] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59290] = {
+	display = "參與『世界巡遊』(2022.10.1~2022.11.30)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59290,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59301] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
@@ -136775,6 +137139,48 @@ _G.pg.base.item_data_statistics[59843] = {
 	shiptrans_id = {
 		301874
 	}
+}
+
+_G.pg.base.item_data_statistics[59847] = {
+	display = "集齊7個可以獲得夕立專屬改造道具-烤肉味香水",
+	name = "烤肉",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 8,
+	link_id = 40825,
+	id = 59847,
+	is_world = 0,
+	icon = "Props/barbecue",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59848] = {
+	display = "參與活動「啾啾大胃王比賽」的紀念品",
+	name = "大胃王之證",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 40825,
+	id = 59848,
+	is_world = 0,
+	icon = "Props/barbecue_badge",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
 }
 
 _G.pg.base.item_data_statistics[59900] = {

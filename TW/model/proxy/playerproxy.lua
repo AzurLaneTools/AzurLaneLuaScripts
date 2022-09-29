@@ -80,6 +80,12 @@ function slot0.register(slot0)
 			gem_free = slot0.gem_free
 		})
 	end)
+	slot0:on(11802, function (slot0)
+		slot1 = uv0.data:clone()
+
+		slot1:SetCommonFlag(slot0.id, slot0.value == 1)
+		uv0:updatePlayer(slot1)
+	end)
 end
 
 function slot0.remove(slot0)
