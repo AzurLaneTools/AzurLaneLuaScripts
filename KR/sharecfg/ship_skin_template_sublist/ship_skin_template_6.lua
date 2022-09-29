@@ -1,119 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
-	[202161] = {
-		ship_group = 20216,
-		name = "패션 스타일?",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 202161,
-		group_index = 1,
-		prefab = "feiji_2",
-		painting = "feiji_2",
-		shop_id = 70195,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9,
-		illustrator = 6,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관, 오래 기다렸어? 아하하... 여자는 외출 준비하는데 시간이 오래 걸린다구, 알았지~? 자, 손 잡고, 출발~ 히힛",
-		voice_actor = 97,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.014,
-					1.013,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.935,
-					1.009,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.026,
-					0.077,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.93,
-					1.024,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.35,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[202170] = {
 		ship_group = 20217,
 		name = "자메이카",
@@ -4806,6 +4692,122 @@ pg.ship_skin_template_6 = {
 			use_event = true
 		}
 	},
+	[202302] = {
+		ship_group = 20230,
+		name = "반짝이는 드레스",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "155",
+		id = 202302,
+		group_index = 2,
+		prefab = "kalvbudisi_3",
+		painting = "kalvbudisi_3",
+		shop_id = 70750,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "어서 오세요, 주인님. 오늘은 저 카리브디스가 상대해 드리지요. …아, 방금 건 그럴싸하게 말해본 것 뿐이에요! 그렇게 걱정스러운 표정은 짓지 말아 주세요!",
+		voice_actor = 303,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.929,
+					0.94,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.896,
+					0.921,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.108,
+					1.161,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.8,
+							1.752,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202310] = {
 		ship_group = 20231,
 		name = "벨로나",
@@ -5280,6 +5282,120 @@ pg.ship_skin_template_6 = {
 						{
 							0.538,
 							0.382,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203018] = {
+		ship_group = 20301,
+		name = "세리머니 오브 플래티넘",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 203018,
+		group_index = 8,
+		prefab = "lundun_h",
+		painting = "lundun_h",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9998,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "추억으로 남을만한 특별한 세리머니'를 주문하신 건 각하시면서, 뭘 그렇게 멍하니 계세요? 후후, 계속 바라보시기만 하면 저까지 부끄러워질 것 같으니, 어서 손을 잡아주시겠어요?",
+		voice_actor = 16,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					1.19,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.11,
+					0.89,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.08,
+					0.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.35,
+					1.13,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.26,
 							0
 						}
 					}

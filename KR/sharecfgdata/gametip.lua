@@ -14280,6 +14280,76 @@ _G.pg.base.gametip.help_monopoly_car = {
 	}
 }
 
+_G.pg.base.gametip.help_monopoly_car_2 = {
+	tip = {
+		{
+			info = "이벤트 설명:"
+		},
+		{
+			info = "1. 이벤트 기간 첫날 가속 횟수를<color=#92fc63>5</color>회 획득하며, 이후 매일 24시마다 <color=#92fc63>5</color>회씩 획득합니다. 가속 횟수는 누적 가능합니다."
+		},
+		{
+			info = "2. 게임 중 정지한 칸에 따라 획득하는 보상도 달리집니다."
+		},
+		{
+			info = "출발점을 통과할 떄마다 물자*200를 획득합니다."
+		},
+		{
+			info = "    ：일정량의 물자 획득",
+			icon = {
+				path = "saichejinbi",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：일정량의 연료 획득",
+			icon = {
+				path = "saicheshiyou",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：랜덤 사건 발동",
+			icon = {
+				path = "saicheminyun",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：랜덤 보상 발동",
+			icon = {
+				path = "saichedaoju",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：랜덤 이동 사건 발동",
+			icon = {
+				path = "saicheteshu",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "경기를 <color=#92fc63>4</color>회 완료하면, 한정 가구 <color=#92fc63>레이싱카 「실버문」</color>을 획득할 수 있습니다."
+		}
+	}
+}
+
 _G.pg.base.gametip.help_monopoly_3th = {
 	tip = {
 		{
@@ -17378,6 +17448,10 @@ _G.pg.base.gametip.charge_error_count_limit = {
 	tip = "금일 구매 횟수 최대치 도달."
 }
 
+_G.pg.base.gametip.charge_error_disable = {
+	tip = "해당 루트로 구매할 수 없습니다."
+}
+
 _G.pg.base.gametip.levelScene_select_sp = {
 	tip = "고효율 작전 명령서 사용 중"
 }
@@ -19326,6 +19400,18 @@ _G.pg.base.gametip.change_player_name_input_tip = {
 	tip = "닉네임 입력"
 }
 
+_G.pg.base.gametip.change_player_name_illegal = {
+	tip = "닉네임에 부적절한 단어가 포함되어, <color=#FFDE38FF>$1</color>로 수정되었습니다.\n닉네임을 다시 입력해 주세요."
+}
+
+_G.pg.base.gametip.nodisplay_player_home_name = {
+	tip = "숙소"
+}
+
+_G.pg.base.gametip.nodisplay_player_home_share = {
+	tip = "공유 테마"
+}
+
 _G.pg.base.gametip.tactics_class_start = {
 	tip = "수업 시작"
 }
@@ -19781,6 +19867,83 @@ _G.pg.base.gametip.cruise_task_help_2208 = {
 
 ·<color=#92fc63>개방 기간</color>
  2022.8.8 0시 ~ 2022.10.7 23:59:59
+
+·<color=#92fc63>투어 임무는 2가지로 나뉘어집니다.</color>
+(1)주간 임무
+ 투어 임무에 8세트 주간 임무가 존재합니다. 이벤트 시작 후 1주차 임무가 해제되며, 이후 월요일 0시마다 다음 주간 임무가 해제됩니다.
+(2)S.P. 임무
+ S.P. 임무는 특수 임무로, 이벤트 시작 후 모든 임무가 해제됩니다.
+(3)투어 임무는 해제 후 자동으로 접수되며, 임무 완성 조건 만족 시, 자동 완성 및 보상을 획득합니다.
+
+·<color=#92fc63>「투어 임무 완료 쿠폰」설명</color>
+(1)「투어 임무 완료 쿠폰」은 투어 임무 화면에서 사용할 수 있으며, 일정 수량의「투어 임무 완료 쿠폰」을 소비하여 주간 투어 임무를 즉시 완료할 수 있습니다.
+(2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
+(3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
+(4)「투어 임무 완료 쿠폰」은 <color=#92fc63>이번 이벤트 종료 시 사라지지 않습니다.</color>]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2210 = {
+	tip = "2022.10.8-2022.12.7까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「헌터·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
+}
+
+_G.pg.base.gametip.battlepass_main_help_2210 = {
+	tip = {
+		{
+			info = [[
+월드 투어(2022.10.8-2022.12.7)
+
+·<color=#92fc63>개방 기간</color>
+ 2022.10.8 0시 ~ 2022.12.7 23:59:59
+
+·<color=#92fc63>투어 진도 설명</color>
+(1)이벤트 기간 동안, 투어 임무를 통해「투어 PT」를 획득할 수 있습니다.
+(2)투어 임무는 시간에 따라 개방됩니다.
+(3)「투어 PT」를 100 획득할 때마다 투어 진도가 1씩 증가합니다.
+(4)투어 진도 상승 후, 해당 레벨 보상을 획득할 수 있으며, 투어 진도는 최고 100까지 달성할 수 있습니다.
+
+·<color=#92fc63>보상 규칙</color>
+투어 진도 보상은 2가지로 나뉘어집니다:
+(1)기본 투어 보상: <color=#ff5c5c>「헌터·META」</color>, <color=#ff5c5c>성정 큐브</color>, <color=#ff5c5c>고급 지향형 강화 유닛·제5기</color> 등
+ 지정 투어 진도 도달 시, 기본 투어 보상을 즉시 수령할 수 있습니다.
+(2)특허 투어 보상: <color=#ff5c5c>파먀티 메르쿠리야 스킨 「대기 스타일」</color>, <color=#ff5c5c>다이아</color> 등
+ 「특허 투어 패스」 구매 및 지정 투어 진도 도달 시, 특허 투어 보상을 수령할 수 있습니다.
+ 주의: 「특허 투어 패스」 구매 후, 기본 투어 보상 수령에 영향을 끼치지 않습니다.
+
+·<color=#92fc63>「특허 투어 패스」설명</color>
+(1)「특허 투어 패스」는 「상점」-「특혜 패키지」에서 구매할 수 있으며, 구매 즉시 <color=#ff5c5c>1500</color> 「투어 PT」를 획득하며 특허 투어 보상이 해제됩니다.
+（2）「특허 투어 패스」는 <color=#ff5c5c>이벤트 종료 1시간 전</color> 판매가 중지됩니다(12.7 22:59:59). 구매 시간에 주의해 주세요.
+
+·<color=#92fc63>임무 설명</color>
+투어 임무는 2가지로 나뉘어집니다:
+(1)주간 임무 
+ 투어 임무에 8세트 주간 임무가 존재합니다. 이벤트 시작 후 1주차 임무가 해제되며, 이후 월요일 0시마다 다음 주간 임무가 해제됩니다.
+(2)S.P. 임무
+ S.P. 임무는 특수 임무로, 이벤트 시작 후 모든 임무가 해제됩니다.
+(3)투어 임무는 해제 후 자동으로 접수되며, 임무 완성 조건 만족 시, 자동 완성 및 보상을 획득합니다.
+
+·<color=#92fc63>「투어 임무 완료 쿠폰」설명</color>
+(1)「투어 임무 완료 쿠폰」은 투어 임무 화면에서 사용할 수 있으며, 일정 수량의「투어 임무 완료 쿠폰」을 소비하여 대부분의 투어 임무를 즉시 완료할 수 있습니다.
+(2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
+(3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
+(4)「투어 임무 완료 쿠폰」은 이번 이벤트 종료 시 사라지지 않습니다.
+
+·<color=#ff5c5c>특별 알림</color>
+(1)이번 월드 투어 이벤트 종료 후, 모든 투어 임무는 진행이 불가하며, 모든 투어 보상을 수령할 수 없습니다. 각 지휘관 여러분께서는 반드시 이벤트 시간을 주의하여 미리 보상을 수령해 주시기 바랍니다.
+(2)투어 진도, [특허 투어 패스]는 이번 월드 투어 이벤트에서만 효력이 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2210 = {
+	tip = {
+		{
+			info = [[
+투어 임무 설명
+
+·<color=#92fc63>개방 기간</color>
+ 2022.10.8 0시 ~ 2022.12.7 23:59:59
 
 ·<color=#92fc63>투어 임무는 2가지로 나뉘어집니다.</color>
 (1)주간 임무
@@ -20602,6 +20765,74 @@ _G.pg.base.gametip.technology_filter_placeholder = {
 
 _G.pg.base.gametip.eva_comment_send_null = {
 	tip = "코멘트를 입력하세요."
+}
+
+_G.pg.base.gametip.report_sent_thank = {
+	tip = "신고가 성공적으로 발송되었습니다. 클린한 게임 환경을 위해 기여해 주셔서 감사합니다."
+}
+
+_G.pg.base.gametip.report_ship_cannot_comment = {
+	tip = "댓글 기능 정비 중"
+}
+
+_G.pg.base.gametip.report_cannot_comment = {
+	tip = "댓글 등록이 금지되었습니다. 고객 센터로 연락해 주세요."
+}
+
+_G.pg.base.gametip.report_sent_title = {
+	tip = "신고"
+}
+
+_G.pg.base.gametip.report_sent_desc = {
+	tip = "신고 유형을 1개 선택하세요."
+}
+
+_G.pg.base.gametip.report_type_1 = {
+	tip = "부적절한 댓글"
+}
+
+_G.pg.base.gametip.report_type_1_1 = {
+	tip = "민감, 위험성 댓글"
+}
+
+_G.pg.base.gametip.report_type_2 = {
+	tip = "공격적인 댓글"
+}
+
+_G.pg.base.gametip.report_type_2_1 = {
+	tip = "욕설, 비난 등 공격성 댓글"
+}
+
+_G.pg.base.gametip.report_type_3 = {
+	tip = "혐오성 댓글"
+}
+
+_G.pg.base.gametip.report_type_3_1 = {
+	tip = "인종, 성별 차별"
+}
+
+_G.pg.base.gametip.report_type_other = {
+	tip = "기타"
+}
+
+_G.pg.base.gametip.report_type_other_1 = {
+	tip = "신고 내용(최대 150자)"
+}
+
+_G.pg.base.gametip.report_type_other_2 = {
+	tip = "내용을 입력해 주세요."
+}
+
+_G.pg.base.gametip.report_sent_help = {
+	tip = {
+		{
+			info = [[
+신고 설명: 
+1. 신고 버튼을 터치하여 악의적인 발언의 규정 위반  플레이어를 신고할 수 있습니다.
+2. 위반사항에 해당하는 유형을 선택하세요. 기타 유형일 경우 신고 내용을 입력한 후 신고할 수 있습니다.
+3. 신고된 댓글은 위반사항에 따라 처리되며, 위반이 심할 경우 플레이어는 처벌을 받게 됩니다.]]
+		}
+	}
 }
 
 _G.pg.base.gametip.rename_input = {

@@ -20,14 +20,14 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	for slot6, slot7 in ipairs(slot1.vanguard_ship_list) do
-		slot8 = Ship.New(slot7)
+		slot8 = RivalShip.New(slot7)
 		slot8.isRival = true
 
 		slot2(slot8)
 	end
 
 	for slot6, slot7 in ipairs(slot1.main_ship_list) do
-		slot8 = Ship.New(slot7)
+		slot8 = RivalShip.New(slot7)
 		slot8.isRival = true
 
 		slot2(slot8)

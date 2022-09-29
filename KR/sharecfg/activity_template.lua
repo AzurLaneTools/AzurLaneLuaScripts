@@ -2773,7 +2773,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4509,
-		is_show = 29,
+		is_show = 32,
 		id = 4509,
 		config_data = {},
 		time = {
@@ -3036,7 +3036,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 30,
+		is_show = 33,
 		config_data = {
 			1680001,
 			1680002,
@@ -3188,7 +3188,7 @@ pg.activity_template = {
 				{
 					2022,
 					9,
-					22
+					29
 				},
 				{
 					0,
@@ -3225,7 +3225,13 @@ pg.activity_template = {
 			328,
 			329,
 			330,
-			331
+			331,
+			332,
+			333,
+			334,
+			335,
+			336,
+			337
 		},
 		time = {
 			"timer",
@@ -3245,7 +3251,7 @@ pg.activity_template = {
 				{
 					2022,
 					10,
-					19
+					12
 				},
 				{
 					23,
@@ -3257,12 +3263,13 @@ pg.activity_template = {
 	},
 	[4525] = {
 		mark = 20220915,
-		id = 4525,
+		config_client = "",
 		title_res_tag = "japan_fifth_login",
 		type = 3,
 		login_pop = 0,
 		config_id = 30,
 		is_show = 22,
+		id = 4525,
 		config_data = {},
 		time = {
 			"timer",
@@ -3282,7 +3289,7 @@ pg.activity_template = {
 				{
 					2022,
 					10,
-					20
+					12
 				},
 				{
 					23,
@@ -3294,35 +3301,6 @@ pg.activity_template = {
 		page_info = {
 			class_name = "JapanFifthLoginPage",
 			ui_name = "JapanFifthLoginPage"
-		},
-		config_client = {
-			"https://game.bilibili.com/blhx/2022-5thanniversary/h5/",
-			{
-				{
-					{
-						2022,
-						5,
-						26
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2022,
-						6,
-						8
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
 		}
 	},
 	[4526] = {
@@ -3652,6 +3630,259 @@ pg.activity_template = {
 			mini_game_id = 42
 		}
 	},
+	[4535] = {
+		mark = 20220922,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4535,
+		config_data = {
+			17982
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4536] = {
+		mark = 20220922,
+		config_client = "",
+		title_res_tag = "FourthJp",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 32,
+		id = 4536,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FiveAnniversaryPage",
+			ui_name = "FiveAnniversaryPage"
+		}
+	},
+	[4537] = {
+		mark = 20220922,
+		config_client = "",
+		title_res_tag = "neihuada_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 29,
+		id = 4537,
+		config_data = {
+			{
+				17983,
+				17984
+			},
+			{
+				17985,
+				17986
+			},
+			{
+				17987,
+				17988
+			},
+			{
+				17989,
+				17990
+			},
+			{
+				17991,
+				17992
+			},
+			{
+				17993,
+				17994
+			},
+			{
+				17995,
+				17996
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeihuadaSkinPage",
+			ui_name = "NeihuadaSkinPage"
+		}
+	},
+	[4538] = {
+		mark = 20220929,
+		config_client = "",
+		title_res_tag = "monopoly_car",
+		type = 51,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 30,
+		id = 4538,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyCar2Page",
+			ui_name = "MonopolyCar2Page"
+		}
+	},
+	[4539] = {
+		mark = 20220929,
+		time = "stop",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 4539,
+		config_data = {
+			17997
+		}
+	},
+	[4540] = {
+		mark = 20220929,
+		config_client = "",
+		title_res_tag = "equipbox_victory",
+		type = 74,
+		login_pop = 0,
+		config_id = 4540,
+		is_show = 31,
+		id = 4540,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EquipBoxVictoryPtPage",
+			ui_name = "EquipBoxVictoryPtPage"
+		}
+	},
 	[7004] = {
 		mark = 20220324,
 		id = 7004,
@@ -3849,6 +4080,88 @@ pg.activity_template = {
 				{
 					9,
 					2018,
+					1
+				}
+			}
+		}
+	},
+	[7007] = {
+		mark = 20220929,
+		id = 7007,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67,
+			68,
+			69
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage7"
+		},
+		config_client = {
+			map_name = "map_202210",
+			spine_name = "chess_shuixingjinian",
+			tips = {
+				"battlepass_main_tip_2210",
+				"battlepass_main_help_2210",
+				"cruise_task_help_2210"
+			},
+			equip_skin = {
+				{
+					9,
+					2019,
+					1
+				},
+				{
+					9,
+					2022,
+					1
+				},
+				{
+					9,
+					2023,
+					1
+				},
+				{
+					9,
+					2024,
 					1
 				}
 			}
@@ -8661,9 +8974,16 @@ pg.activity_template = {
 		4531,
 		4532,
 		4533,
+		4535,
+		4536,
+		4537,
+		4538,
+		4539,
+		4540,
 		7004,
 		7005,
 		7006,
+		7007,
 		8009,
 		8010,
 		8019,

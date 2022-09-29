@@ -16,7 +16,7 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.Flush(slot0, slot1, slot2)
-	slot0.shipNameTxt.text = slot2.name
+	slot0.shipNameTxt.text = slot2:getName()
 	slot0.ship = slot2
 	slot0.member = slot1
 	slot0.levelTxt.text = slot2.level

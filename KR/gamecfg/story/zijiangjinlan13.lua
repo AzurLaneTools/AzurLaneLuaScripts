@@ -629,7 +629,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			say = "나가토가 자세를 취하자 검기가 그녀 곁을 에워쌓았다. 앞에 있는 적이 나서기 전에 예리한 칼날이 적의 침범을 막을 것이다.",
+			say = "카와카제가 자세를 취하자 검기가 그녀 곁을 에워쌓았다. 앞에 있는 적이 나서기 전에 예리한 칼날이 적의 침범을 막을 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:157}",
+			actorName = "하루츠키",
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -760,7 +760,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:74}",
+			actorName = "나가토",
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -776,7 +776,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:158}",
+			actorName = "카와카제",
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -792,7 +792,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:74}",
+			actorName = "나가토",
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -808,7 +808,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:74}",
+			actorName = "나가토",
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,

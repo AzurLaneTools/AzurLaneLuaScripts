@@ -24410,7 +24410,7 @@ _G.pg.base.task_data_template[5666] = {
 	auto_commit = 0,
 	scene = "",
 	id = 5666,
-	target_num = 1,
+	target_num = 5,
 	fix_task = 0,
 	added_tip = 1,
 	open_need = {},
@@ -28102,7 +28102,7 @@ _G.pg.base.task_data_template[5796] = {
 	auto_commit = 0,
 	scene = "",
 	id = 5796,
-	target_num = 1,
+	target_num = 5,
 	fix_task = 0,
 	added_tip = 1,
 	open_need = {},
@@ -28166,6 +28166,290 @@ _G.pg.base.task_data_template[5797] = {
 		{
 			2,
 			18012,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5801] = {
+	name = "정시 퇴근에 관한 일",
+	guild_coin_award = 0,
+	award = 5576,
+	type = 5,
+	desc = "어뢰 튀김을 3개 제출한다",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "neihuada",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5802",
+	auto_commit = 0,
+	story_id = "NEIHUADA1",
+	id = 5801,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5802] = {
+	name = " 카우보이와 피스톨",
+	guild_coin_award = 0,
+	award = 5577,
+	type = 5,
+	desc = "임의의 함선소녀를 10회 강화한다",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "neihuada",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "NEIHUADA2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5803",
+	auto_commit = 0,
+	scene = "",
+	id = 5802,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5803] = {
+	name = "여행 준비",
+	guild_coin_award = 0,
+	award = 5578,
+	type = 5,
+	desc = "네바다를 포함한 함대를 출격시켜\n20회 승리한다.",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "neihuada",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "NEIHUADA3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10501",
+	priority_type = 0,
+	next_task = "5804",
+	auto_commit = 0,
+	scene = "",
+	id = 5803,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5804] = {
+	name = "말과 함께",
+	guild_coin_award = 0,
+	award = 5579,
+	type = 5,
+	desc = "네바다를 포함한 함대로 데일리 챌린지를\n3회 클리어한다.",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "neihuada",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "NEIHUADA4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10501",
+	priority_type = 0,
+	next_task = "5805",
+	auto_commit = 0,
+	scene = "",
+	id = 5804,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5805] = {
+	name = " 운동 후에는 휴식",
+	guild_coin_award = 0,
+	award = 5580,
+	type = 5,
+	desc = "네바다의 호감도를 100까지 달성한다.",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "neihuada",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "NEIHUADA5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10501",
+	priority_type = 0,
+	next_task = "5806",
+	auto_commit = 0,
+	scene = "",
+	id = 5805,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5806] = {
+	name = "황야의 석양",
+	guild_coin_award = 0,
+	award = 5581,
+	type = 5,
+	desc = "네바다의 한계돌파를 3회 진행한다.",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "neihuada",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "NEIHUADA6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "105014",
+	priority_type = 0,
+	next_task = "5807",
+	auto_commit = 0,
+	scene = "",
+	id = 5806,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18022,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5807] = {
+	name = "전설이 된 여행",
+	guild_coin_award = 0,
+	award = 5582,
+	type = 5,
+	desc = "네바다스의 레벨을 100까지 달성한다.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "neihuada",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "NEIHUADA7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10501",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5807,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18022,
 			2
 		}
 	}
@@ -125580,7 +125864,7 @@ _G.pg.base.task_data_template[16485] = {
 }
 
 _G.pg.base.task_data_template[16486] = {
-	name = "『意大利V2』角色收集：尼科洛索·达雷科\t",
+	name = "『意大利V2』角色收集：尼科洛索·达雷科",
 	guild_coin_award = 0,
 	award = 94806,
 	type = 6,
@@ -173667,6 +173951,592 @@ _G.pg.base.task_data_template[17981] = {
 	}
 }
 
+_G.pg.base.task_data_template[17982] = {
+	name = "『日服五周年第二弹』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98186,
+	type = 6,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17982,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			278,
+			6
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17983] = {
+	name = "内华达礼服活动1",
+	guild_coin_award = 0,
+	award = 98187,
+	type = 26,
+	desc = "함대를 출격시켜, 적 중요함대를 3회 격파하라!",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17983,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17984] = {
+	name = "内华达礼服活动2",
+	guild_coin_award = 0,
+	award = 98188,
+	type = 26,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17984,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17985] = {
+	name = "内华达礼服活动3",
+	guild_coin_award = 0,
+	award = 98189,
+	type = 26,
+	desc = "함선을 5번 강화한다",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17985,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17986] = {
+	name = "内华达礼服活动4",
+	guild_coin_award = 0,
+	award = 98190,
+	type = 26,
+	desc = "함선을 2척 퇴역시킨다",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17986,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17987] = {
+	name = "内华达礼服活动5",
+	guild_coin_award = 0,
+	award = 98191,
+	type = 26,
+	desc = "전술학원에서 전술훈련을 2번 수행한다",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17987,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54032,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17988] = {
+	name = "内华达礼服活动6",
+	guild_coin_award = 0,
+	award = 98192,
+	type = 26,
+	desc = "숙소에서 식량을 5회 보충한다.",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17988,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17989] = {
+	name = "内华达礼服活动7",
+	guild_coin_award = 0,
+	award = 98193,
+	type = 26,
+	desc = "임의의 적함을 20척 격파한다",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17989,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50004,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17990] = {
+	name = "内华达礼服活动8",
+	guild_coin_award = 0,
+	award = 98194,
+	type = 26,
+	desc = "건조를 2회 진행한다.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17990,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17991] = {
+	name = "内华达礼服活动9",
+	guild_coin_award = 0,
+	award = 98195,
+	type = 26,
+	desc = "장비 상자를 1개 오픈한다",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17991,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17992] = {
+	name = "内华达礼服活动10",
+	guild_coin_award = 0,
+	award = 98196,
+	type = 26,
+	desc = "함선을 5번 강화한다",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17992,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17993] = {
+	name = "内华达礼服活动11",
+	guild_coin_award = 0,
+	award = 98197,
+	type = 26,
+	desc = "군사의뢰를 2회 완성하라!",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17993,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17994] = {
+	name = "内华达礼服活动12",
+	guild_coin_award = 0,
+	award = 98198,
+	type = 26,
+	desc = "숙소에서 식량을 5회 보충한다.",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17994,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17995] = {
+	name = "内华达礼服活动13",
+	guild_coin_award = 0,
+	award = 98199,
+	type = 26,
+	desc = "장비를 2번 강화한다",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17995,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17996] = {
+	name = "内华达礼服活动14",
+	guild_coin_award = 0,
+	award = 98200,
+	type = 26,
+	desc = "함대를 출격시켜, 10회 S평가로 승리하라!",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17996,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			105011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17997] = {
+	name = "『日服五周年第三弹』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98201,
+	type = 6,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17997,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			1,
+			278,
+			3
+		}
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			278,
+			3
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "전투승리-일상",
 	guild_coin_award = 0,
@@ -203766,6 +204636,3766 @@ _G.pg.base.task_data_template[41616] = {
 		{
 			1,
 			4006,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41617] = {
+	name = "七期·【通行证第一周】任务1",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "함대를 출격시켜, 평점 A 클리어 60회 달성.",
+	count_inherit = 0,
+	sub_type = 23,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41617,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41618] = {
+	name = "七期·【通行证第一周】任务2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "장비 10회 강화",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41618,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41619] = {
+	name = "七期·【通行证第一周】任务3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "숙소 보급 저장량 30000 달성",
+	count_inherit = 0,
+	sub_type = 60,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41619,
+	target_num = 30000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41620] = {
+	name = "七期·【通行证第一周】任务4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 과학 기술 상자 20개 오픈",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41620,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41621] = {
+	name = "七期·【通行证第一周】任务5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 연습 데이터 T1 누적 40개 소모",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "16501",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41621,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41622] = {
+	name = "七期·【通行证第一周】任务6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "장비 60개 분해",
+	count_inherit = 0,
+	sub_type = 41,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41622,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41623] = {
+	name = "七期·【通行证第一周】任务7",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "1주차 기타 모든 임무 완료",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41623,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41617,
+		41618,
+		41619,
+		41620,
+		41621,
+		41622
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41624] = {
+	name = "七期·【通行证第二周】任务1",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "함대를 출격시켜, 적 중요함대를 20번 격파하라!",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41624,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41625] = {
+	name = "七期·【通行证第二周】任务2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "코어 데이터 누적 150PT 획득",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "59900",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41625,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41626] = {
+	name = "七期·【通行证第二周】任务3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "군사 의뢰 15회 진행",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41626,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41627] = {
+	name = "七期·【通行证第二周】任务4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "「데일리 챌린지」 해역 12회 완료",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41627,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41628] = {
+	name = "七期·【通行证第二周】任务5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "고속 건조재 누적 20개 소모",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "15003",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41628,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"GETBOAT"
+	}
+}
+
+_G.pg.base.task_data_template[41629] = {
+	name = "七期·【通行证第二周】任务6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "군수 준비 임무 12회 진행",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41629,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41630] = {
+	name = "七期·【通行证第二周】任务7",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "2주차 기타 모든 임무 완료",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41630,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41624,
+		41625,
+		41626,
+		41627,
+		41628,
+		41629
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41631] = {
+	name = "七期·【通行证第三周】任务1",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "함대를 출격시켜, 전투에서 80번 승리하라!",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41631,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41632] = {
+	name = "七期·【通行证第三周】任务2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "함선 건조 5회",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41632,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41633] = {
+	name = "七期·【通行证第三周】任务3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "성정 큐브 누적 10개 획득",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41633,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41634] = {
+	name = "七期·【通行证第三周】任务4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "「어려움 해역」 12회 클리어",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41634,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41635] = {
+	name = "七期·【通行证第三周】任务5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "전술 훈련 20회 진행",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41635,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41636] = {
+	name = "七期·【通行证第三周】任务6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "군사 연습 30회 진행",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41636,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41637] = {
+	name = "七期·【通行证第三周】任务7",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "3주차 기타 모든 임무 완료",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41637,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41631,
+		41632,
+		41633,
+		41634,
+		41635,
+		41636
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41638] = {
+	name = "七期·【通行证第四周】任务1",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "함대를 출격시켜, 대형 작전 임의 해역에서 5회 전투",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41638,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41639] = {
+	name = "七期·【通行证第四周】任务2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "함선 퇴역 15회",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41639,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41640] = {
+	name = "七期·【通行证第四周】任务3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "개발 10회 진행하기",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41640,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41641] = {
+	name = "七期·【通行证第四周】任务4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 적함 1600척 격침",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41641,
+	target_num = 1600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41642] = {
+	name = "七期·【通行证第四周】任务5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "지휘냥 20마리 훈련",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41642,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41643] = {
+	name = "七期·【通行证第四周】任务6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "주간 활약 포인트 누적 800PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41643,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41644] = {
+	name = "七期·【通行证第四周】任务7",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "4주차 기타 모든 임무 완료",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41644,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41638,
+		41639,
+		41640,
+		41641,
+		41642,
+		41643
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41645] = {
+	name = "七期·【通行证第五周】任务1",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "임의의 과학 기술 상자 10개 오픈",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41645,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41646] = {
+	name = "七期·【通行证第五周】任务2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "함선 연습 데이터 T1 누적 20개 소모",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "16501",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41646,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41647] = {
+	name = "七期·【通行证第五周】任务3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "장비 30개 분해",
+	count_inherit = 0,
+	sub_type = 41,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41647,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41648] = {
+	name = "七期·【通行证第五周】任务4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함대를 출격시켜, 평점 A 클리어 120회 달성.",
+	count_inherit = 0,
+	sub_type = 23,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41648,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41649] = {
+	name = "七期·【通行证第五周】任务5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "장비 20회 강화",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41649,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41650] = {
+	name = "七期·【通行证第五周】任务6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "숙소 보급 저장량 60000 달성",
+	count_inherit = 0,
+	sub_type = 60,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41650,
+	target_num = 60000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41651] = {
+	name = "七期·【通行证第五周】任务7",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "5주차 기타 모든 임무 완료",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41651,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41645,
+		41646,
+		41647,
+		41648,
+		41649,
+		41650
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41652] = {
+	name = "七期·【通行证第六周】任务1",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "「데일리 챌린지」 해역 6회 완료",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41652,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41653] = {
+	name = "七期·【通行证第六周】任务2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "고속 건조재 누적 10개 소모",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "15003",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41653,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"GETBOAT"
+	}
+}
+
+_G.pg.base.task_data_template[41654] = {
+	name = "七期·【通行证第六周】任务3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "군수 준비 임무 6회 진행",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41654,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41655] = {
+	name = "七期·【通行证第六周】任务4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함대를 출격시켜, 적 중요함대를 40번 격파하라!",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41655,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41656] = {
+	name = "七期·【通行证第六周】任务5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "코어 데이터 누적 300PT 획득",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "59900",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41656,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41657] = {
+	name = "七期·【通行证第六周】任务6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "군사 의뢰 30회 진행",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41657,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41658] = {
+	name = "七期·【通行证第六周】任务7",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "6주차 기타 모든 임무 완료",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41658,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41652,
+		41653,
+		41654,
+		41655,
+		41656,
+		41657
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41659] = {
+	name = "七期·【通行证第七周】任务1",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "「어려움 해역」 6회 클리어",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41659,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41660] = {
+	name = "七期·【通行证第七周】任务2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "전술 훈련 10회 진행",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41660,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41661] = {
+	name = "七期·【通行证第七周】任务3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "군사 연습 15회 진행",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41661,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41662] = {
+	name = "七期·【通行证第七周】任务4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "전투에서 160번 승리하라!",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 2,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41662,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41663] = {
+	name = "七期·【通行证第七周】任务5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 건조 10회",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41663,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41664] = {
+	name = "七期·【通行证第七周】任务6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "성정 큐브 누적 20개 획득",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "20001",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41664,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41665] = {
+	name = "七期·【通行证第七周】任务7",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "7주차 기타 모든 임무 완료",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41665,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41659,
+		41660,
+		41661,
+		41662,
+		41663,
+		41664
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41666] = {
+	name = "七期·【通行证第八周】任务1",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "임의의 적함 800척 격침",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41666,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41667] = {
+	name = "七期·【通行证第八周】任务2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "지휘냥 10마리 훈련",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 1,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41667,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41668] = {
+	name = "七期·【通行证第八周】任务3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "주간 활약 포인트 누적 400PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 1,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41668,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41669] = {
+	name = "七期·【通行证第八周】任务4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함대를 출격시켜, 대형 작전 임의 해역에서 10회 전투",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41669,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41670] = {
+	name = "七期·【通行证第八周】任务5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 퇴역 30회",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41670,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41671] = {
+	name = "七期·【通行证第八周】任务6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "과학 연구 20회 진행",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 2,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41671,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41672] = {
+	name = "七期·【通行证第八周】任务7",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "8주차 기타 모든 임무 완료",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41672,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		41666,
+		41667,
+		41668,
+		41669,
+		41670,
+		41671
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41673] = {
+	name = "七期·【通行证SP】累计周任务PT1",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "주간 활약 포인트 누적 100PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41673,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41674] = {
+	name = "七期·【通行证SP】累计周任务PT2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "주간 활약 포인트 누적 300PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41674,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41675] = {
+	name = "七期·【通行证SP】累计周任务PT3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "주간 활약 포인트 누적 600PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41675,
+	target_num = 600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41676] = {
+	name = "七期·【通行证SP】累计周任务PT4",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "주간 활약 포인트 누적 1000PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41676,
+	target_num = 1000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41677] = {
+	name = "七期·【通行证SP】累计周任务PT5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "주간 활약 포인트 누적 1500PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41677,
+	target_num = 1500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41678] = {
+	name = "七期·【通行证SP】累计周任务PT6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "주간 활약 포인트 누적 2000PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41678,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41679] = {
+	name = "七期·【通行证SP】累计周任务PT7",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "주간 활약 포인트 누적 2500PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41679,
+	target_num = 2500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41680] = {
+	name = "七期·【通行证SP】累计周任务PT8",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "주간 활약 포인트 누적 3000PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41680,
+	target_num = 3000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41681] = {
+	name = "七期·【通行证SP】累计周任务PT9",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "주간 활약 포인트 누적 4000PT 획득",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41681,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[41682] = {
+	name = "七期·【通行证SP】累计建造1",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 건조 10회",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41682,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41683] = {
+	name = "七期·【通行证SP】累计建造2",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선을 20척 「건조」하라!",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41683,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41684] = {
+	name = "七期·【通行证SP】累计建造3",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 건조 30회",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41684,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41685] = {
+	name = "七期·【通行证SP】累计建造4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 건조 40회",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41685,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41686] = {
+	name = "七期·【通行证SP】累计建造5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 건조 50회",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41686,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41687] = {
+	name = "七期·【通行证SP】累计建造6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 건조 60회",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41687,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41688] = {
+	name = "七期·【通行证SP】累计建造7",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 건조 70회",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41688,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41689] = {
+	name = "七期·【通行证SP】累计建造8",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "함선 건조 80회",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41689,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41690] = {
+	name = "七期·【通行证SP】累计消耗石油1",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "누적 소모 연료 2000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41690,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41691] = {
+	name = "七期·【通行证SP】累计消耗石油2",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "누적 소모 연료 4000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41691,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41692] = {
+	name = "七期·【通行证SP】累计消耗石油3",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "누적 소모 연료 6000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41692,
+	target_num = 6000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41693] = {
+	name = "七期·【通行证SP】累计消耗石油4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "누적 소모 연료 8000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41693,
+	target_num = 8000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41694] = {
+	name = "七期·【通行证SP】累计消耗石油5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "누적 소모 연료 10000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41694,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41695] = {
+	name = "七期·【通行证SP】累计消耗石油6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "누적 소모 연료 12000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41695,
+	target_num = 12000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41696] = {
+	name = "七期·【通行证SP】累计消耗石油7",
+	guild_coin_award = 0,
+	award = 101224,
+	type = 6,
+	desc = "누적 소모 연료 15000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41696,
+	target_num = 15000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41697] = {
+	name = "七期·【通行证SP】累计消耗石油8",
+	guild_coin_award = 0,
+	award = 101224,
+	type = 6,
+	desc = "연료 누적 18000 소모",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41697,
+	target_num = 18000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41698] = {
+	name = "七期·【通行证SP】累计消耗石油9",
+	guild_coin_award = 0,
+	award = 101224,
+	type = 6,
+	desc = "연료 누적 21000 소모",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41698,
+	target_num = 21000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41699] = {
+	name = "七期·【通行证SP】累计消耗石油10",
+	guild_coin_award = 0,
+	award = 101224,
+	type = 6,
+	desc = "연료 누적 24000 소모",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41699,
+	target_num = 24000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41700] = {
+	name = "七期·【通行证SP】累计获取舰船经验1",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 25만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41700,
+	target_num = 250000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41701] = {
+	name = "七期·【通行证SP】累计获取舰船经验2",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 50만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41701,
+	target_num = 500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41702] = {
+	name = "七期·【通行证SP】累计获取舰船经验3",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 75만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41702,
+	target_num = 750000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41703] = {
+	name = "七期·【通行证SP】累计获取舰船经验4",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 100만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41703,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41704] = {
+	name = "七期·【通行证SP】累计获取舰船经验5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 125만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41704,
+	target_num = 1250000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41705] = {
+	name = "七期·【通行证SP】累计获取舰船经验6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 150만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41705,
+	target_num = 1500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41706] = {
+	name = "七期·【通行证SP】累计获取舰船经验7",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 175만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41706,
+	target_num = 1750000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41707] = {
+	name = "七期·【通行证SP】累计获取舰船经验8",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 200만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41707,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41708] = {
+	name = "七期·【通行证SP】累计获取舰船经验9",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 250만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41708,
+	target_num = 2500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41709] = {
+	name = "七期·【通行证SP】累计获取舰船经验10",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "임의의 해역에서 경험치 누적 300만 획득",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 41709,
+	target_num = 3000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[41710] = {
+	name = "七期·【通行证SP】累计登陆1",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "월간 출석 보상 누적 1회 획득",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41710,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41711] = {
+	name = "七期·【通行证SP】累计登陆2",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "월간 출석 보상 누적 3회 획득",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41711,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41712] = {
+	name = "七期·【通行证SP】累计登陆3",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "월간 출석 보상 누적 5회 획득",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41712,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41713] = {
+	name = "七期·【通行证SP】累计登陆4",
+	guild_coin_award = 0,
+	award = 101225,
+	type = 6,
+	desc = "월간 출석 보상 누적 7회 획득",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41713,
+	target_num = 7,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41714] = {
+	name = "七期·【通行证SP】累计登陆5",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "월간 출석 보상 누적 10회 획득",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41714,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41715] = {
+	name = "七期·【通行证SP】累计登陆6",
+	guild_coin_award = 0,
+	award = 101226,
+	type = 6,
+	desc = "월간 출석 보상 누적 14회 획득",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41715,
+	target_num = 14,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41716] = {
+	name = "七期·【通行证SP】累计登陆7",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "월간 출석 보상 누적 21회 획득",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41716,
+	target_num = 21,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[41717] = {
+	name = "七期·【通行证SP】累计登陆8",
+	guild_coin_award = 0,
+	award = 101227,
+	type = 6,
+	desc = "월간 출석 보상 누적 28회 획득",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 41717,
+	target_num = 28,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4007,
 			240
 		}
 	}

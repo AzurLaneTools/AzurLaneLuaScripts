@@ -3,6 +3,7 @@ slot0 = class("MainSequenceView")
 function slot0.Ctor(slot0)
 	slot0.sequence = {
 		MainRefundSequence.New(),
+		MainForcePlayerNameModificationSequence.New(),
 		MainStroySequence.New(),
 		MainRequestActDataSequence.New(),
 		MainUrgencySceneSequence.New(),
@@ -55,6 +56,14 @@ function slot0.Execute(slot0, slot1)
 	end
 
 	seriesAsync(slot0.executable, slot1)
+end
+
+function slot0.Disable(slot0)
+	for slot4, slot5 in ipairs(slot0.sequence) do
+		if slot5.Clear ~= nil then
+			slot5:Clear()
+		end
+	end
 end
 
 function slot0.Dispose(slot0)

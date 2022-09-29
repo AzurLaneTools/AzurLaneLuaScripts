@@ -116193,6 +116193,59 @@ _G.pg.base.equip_data_statistics[79952] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[79961] = {
+	type = 1,
+	name = "专属弹幕-猎人METAI",
+	speciality = "없음",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "스킬 탄막",
+	id = 79961,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		79961
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79962] = {
+	id = 79962,
+	name = "专属弹幕-猎人METAII",
+	base = 79961,
+	weapon_id = {
+		79962
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[85000] = {
 	tech = 1,
 	name = "B-13 연장 130mm 주포 B-2LM",

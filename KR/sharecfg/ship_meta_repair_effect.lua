@@ -2,7 +2,7 @@ pg = pg or {}
 pg.ship_meta_repair_effect = {
 	[101] = {
 		id = 101,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -25,7 +25,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[102] = {
 		id = 102,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -48,7 +48,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[103] = {
 		id = 103,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -71,7 +71,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[104] = {
 		id = 104,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -94,7 +94,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[105] = {
 		id = 105,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -117,7 +117,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[201] = {
 		id = 201,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -140,7 +140,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[202] = {
 		id = 202,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -163,7 +163,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[203] = {
 		id = 203,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -186,7 +186,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[204] = {
 		id = 204,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -209,7 +209,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[205] = {
 		id = 205,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -232,7 +232,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[301] = {
 		id = 301,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -255,7 +255,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[302] = {
 		id = 302,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -278,7 +278,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[303] = {
 		id = 303,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -301,7 +301,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[304] = {
 		id = 304,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -324,7 +324,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[305] = {
 		id = 305,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -347,7 +347,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[401] = {
 		id = 401,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -370,7 +370,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[402] = {
 		id = 402,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -393,7 +393,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[403] = {
 		id = 403,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -416,7 +416,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[404] = {
 		id = 404,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -439,7 +439,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[405] = {
 		id = 405,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -462,7 +462,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[501] = {
 		id = 501,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -485,7 +485,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[502] = {
 		id = 502,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -508,7 +508,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[503] = {
 		id = 503,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -531,7 +531,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[504] = {
 		id = 504,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -554,7 +554,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[505] = {
 		id = 505,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -577,7 +577,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[601] = {
 		id = 601,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -600,7 +600,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[602] = {
 		id = 602,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -623,7 +623,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[603] = {
 		id = 603,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -646,7 +646,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[604] = {
 		id = 604,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -669,7 +669,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[605] = {
 		id = 605,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -692,7 +692,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[701] = {
 		id = 701,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -715,7 +715,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[702] = {
 		id = 702,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -738,7 +738,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[703] = {
 		id = 703,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -761,7 +761,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[704] = {
 		id = 704,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -784,7 +784,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[705] = {
 		id = 705,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -807,7 +807,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[801] = {
 		id = 801,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -830,7 +830,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[802] = {
 		id = 802,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -853,7 +853,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[803] = {
 		id = 803,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -876,7 +876,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[804] = {
 		id = 804,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -899,7 +899,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[805] = {
 		id = 805,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -922,7 +922,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[901] = {
 		id = 901,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -945,7 +945,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[902] = {
 		id = 902,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -968,7 +968,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[903] = {
 		id = 903,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -991,7 +991,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[904] = {
 		id = 904,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1014,7 +1014,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[905] = {
 		id = 905,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1037,7 +1037,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1001] = {
 		id = 1001,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1060,7 +1060,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1002] = {
 		id = 1002,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1083,7 +1083,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1003] = {
 		id = 1003,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1106,7 +1106,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1004] = {
 		id = 1004,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1129,7 +1129,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1005] = {
 		id = 1005,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1152,7 +1152,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1101] = {
 		id = 1101,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1175,7 +1175,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1102] = {
 		id = 1102,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1198,7 +1198,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1103] = {
 		id = 1103,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1221,7 +1221,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1104] = {
 		id = 1104,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1244,7 +1244,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1105] = {
 		id = 1105,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1267,7 +1267,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1201] = {
 		id = 1201,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1290,7 +1290,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1202] = {
 		id = 1202,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1313,7 +1313,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1203] = {
 		id = 1203,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1336,7 +1336,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1204] = {
 		id = 1204,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1359,7 +1359,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1205] = {
 		id = 1205,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1382,7 +1382,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1301] = {
 		id = 1301,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1405,7 +1405,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1302] = {
 		id = 1302,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1428,7 +1428,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1303] = {
 		id = 1303,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1451,7 +1451,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1304] = {
 		id = 1304,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1474,7 +1474,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1305] = {
 		id = 1305,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1497,7 +1497,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1401] = {
 		id = 1401,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴、任务",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1520,7 +1520,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1402] = {
 		id = 1402,
-		effect_desc = "鉴赏解锁：主界面1、旗舰开战、任务完成、技能",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1543,7 +1543,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1403] = {
 		id = 1403,
-		effect_desc = "鉴赏解锁：主界面2、战斗MVP、失败、邮件",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1566,7 +1566,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1404] = {
 		id = 1404,
-		effect_desc = "鉴赏解锁：主界面3、触摸1、委托完成",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1589,7 +1589,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1405] = {
 		id = 1405,
-		effect_desc = "鉴赏解锁：血量警报",
+		effect_desc = "",
 		effect_attr = {
 			{
 				"durability",
@@ -1606,6 +1606,121 @@ pg.ship_meta_repair_effect = {
 			{
 				"dodge",
 				4
+			}
+		},
+		effect_dialog = {}
+	},
+	[1501] = {
+		id = 1501,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				29
+			},
+			{
+				"antiaircraft",
+				3
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[1502] = {
+		id = 1502,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				43
+			},
+			{
+				"antiaircraft",
+				5
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[1503] = {
+		id = 1503,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				58
+			},
+			{
+				"antiaircraft",
+				6
+			},
+			{
+				"hit",
+				22
+			},
+			{
+				"dodge",
+				30
+			}
+		},
+		effect_dialog = {}
+	},
+	[1504] = {
+		id = 1504,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				72
+			},
+			{
+				"antiaircraft",
+				8
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[1505] = {
+		id = 1505,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				86
+			},
+			{
+				"antiaircraft",
+				9
+			},
+			{
+				"hit",
+				32
+			},
+			{
+				"dodge",
+				44
 			}
 		},
 		effect_dialog = {}
@@ -1680,6 +1795,11 @@ pg.ship_meta_repair_effect = {
 		1402,
 		1403,
 		1404,
-		1405
+		1405,
+		1501,
+		1502,
+		1503,
+		1504,
+		1505
 	}
 }

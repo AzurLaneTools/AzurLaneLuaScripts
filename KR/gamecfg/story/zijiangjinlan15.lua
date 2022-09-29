@@ -99,7 +99,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "야마시로… 진정해. 거점은 이미 아카기가 해결했어.",
+			say = "야마시로… 진정하세요. 거점은 이미 아카기가 해결했어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			hidePaintObj = true,
 			hideOther = true,
-			actorName = "{namecode:39}&{namecode:5}",
+			actorName = "진츠&미유키",
 			side = 0,
 			say = "알겠습니다. 네, 아카기님!",
 			subActors = {

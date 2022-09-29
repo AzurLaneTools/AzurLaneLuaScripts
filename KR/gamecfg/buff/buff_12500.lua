@@ -148,12 +148,12 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onAllInStrikeSteady"
 			},
 			arg_list = {
-				buff_id = 12502,
+				skill_id = 12502,
 				minWeaponNumber = 1,
 				check_weapon = true,
 				weapon_group = {

@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#A9F548FF",
-			say = "미카사, 그대가 계획을 세우면, 난 최선을 다해 협력할 거야.",
+			say = "미카사님, 그대가 계획을 세우면, 난 최선을 다해 협력할 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -42,7 +42,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "미카사… 나가토에게 1위 자리를 내주려고 하다니.",
 			painting = {
 				alpha = 0.3,
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "좀 더 대단한 포부를 보여줄거라고 예상했는데….",
 			painting = {
 				alpha = 0.3,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "또 네 녀석인 거니? 다른 곳에 가서 비를 피하라고 했거늘.",
 			painting = {
 				alpha = 0.3,
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "폭풍이 이렇게 가까워졌는데도 아직도 이 근처를 서성이고 있다니… 그래, 이곳에 남고 싶으면 그렇게 하렴.",
 			painting = {
 				alpha = 0.3,
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "너 이 녀석, 정말 재밌구나…. 그럼 제비야, 제비야. 널 한번 시험해 봐도 되겠니?",
 			painting = {
 				alpha = 0.3,
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "너가 보기엔 이번 장기판 경기에서 누가 이기고, 누가 질 것 같니?",
 			painting = {
 				alpha = 0.3,
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "역시… 하하, 그렇지, 내가 너무 어려운 질문을 했구나.",
 			painting = {
 				alpha = 0.3,
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "7라운드가 아직 끝나지도 않았는데, 기다리기 힘든 사람이 있나보군.",
 			painting = {
 				alpha = 0.3,
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "하하, 좋아. 그럼 이제부터 오늘의 하이라이트를 시작해볼까.",
 			painting = {
 				alpha = 0.3,
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "약속대로 오늘 화려한 무대 정중앙에 널 서게 해줄게. 사쿠라 엠파이어의 모든 스포트라이트는 너의 몫이니까.",
 			painting = {
 				alpha = 0.3,
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "…이 무대는, 처음부터 널 위해 만들어진 것이니까, 하하하….",
 			painting = {
 				alpha = 0.3,

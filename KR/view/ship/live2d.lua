@@ -64,6 +64,10 @@ function slot4(slot0)
 end
 
 function slot5(slot0, slot1, slot2)
+	if slot0.updateAtom then
+		slot0:AtomSouceFresh()
+	end
+
 	if slot0.animationClipNames and (not table.indexof(slot0.animationClipNames, slot1) or slot3 == false) and string.find(slot1, "main_") then
 		slot1 = "main_3"
 	end
@@ -73,12 +77,10 @@ function slot5(slot0, slot1, slot2)
 
 		if uv0.action2Id[slot1] then
 			slot0.liveCom:SetAction(slot3)
-
-			slot0.live2dAction = true
+			slot0:live2dActionChange(true)
 		elseif slot4 then
 			slot0.liveCom:SetAction(slot4)
-
-			slot0.live2dAction = true
+			slot0:live2dActionChange(true)
 		end
 	end
 end
@@ -126,15 +128,19 @@ function slot9(slot0)
 	end
 
 	for slot4, slot5 in ipairs(slot0.live2dData.shipL2dId) do
-		if pg.ship_l2d[slot5] and slot0.liveCom:GetCubismParameter(slot6.parameter) then
-			slot8 = Live2dDrag.New(slot6)
+		if pg.ship_l2d[slot5] then
+			if slot0.liveCom:GetCubismParameter(slot6.parameter) then
+				slot8 = Live2dDrag.New(slot6)
 
-			slot8:setParameterCom(slot7, function (slot0, slot1)
-				uv0(uv1, slot0, slot1)
-			end)
-			slot0.liveCom:AddParameterValue(slot8.parameterName, slot8.startValue, uv2[slot6.mode])
-			table.insert(slot0.drags, slot8)
-			table.insert(slot0.dragParts, slot8.drawAbleName)
+				slot8:setParameterCom(slot7, function (slot0, slot1)
+					uv0(uv1, slot0, slot1)
+				end)
+				slot0.liveCom:AddParameterValue(slot8.parameterName, slot8.startValue, uv2[slot6.mode])
+				table.insert(slot0.drags, slot8)
+				table.insert(slot0.dragParts, slot8.drawAbleName)
+			else
+				print(slot6.parameter .. "找不到这个参数")
+			end
 		end
 	end
 
@@ -182,7 +188,7 @@ function slot10(slot0, slot1)
 	slot0.liveCom:SetAction(uv0.action2Id.idle)
 
 	function slot0.liveCom.FinishAction(slot0)
-		uv0.live2dAction = nil
+		uv0:live2dActionChange(false)
 
 		if uv0.finishActionCB then
 			uv0.finishActionCB()
@@ -309,7 +315,17 @@ function slot0.TriggerAction(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.Reset(slot0)
-	slot0.live2dAction = nil
+	slot0:live2dActionChange(false)
+end
+
+function slot0.live2dActionChange(slot0, slot1)
+	slot0.live2dAction = slot1
+
+	if slot0.drags and #slot0.drags > 0 then
+		for slot5 = 1, #slot0.drags do
+			slot0.drags[slot5]:live2dActionChange(slot1)
+		end
+	end
 end
 
 function slot0.CheckStopDrag(slot0)
@@ -374,7 +390,7 @@ function slot0.Dispose(slot0)
 		slot0.live2dData:Clear()
 	end
 
-	slot0.live2dAction = nil
+	slot0:live2dActionChange(false)
 
 	if slot0.timer then
 		slot0.timer:Stop()
@@ -384,7 +400,15 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.UpdateAtomSource(slot0)
+	slot0.updateAtom = true
+end
+
+function slot0.AtomSouceFresh(slot0)
 	pg.CriMgr.GetInstance():getAtomSource(pg.CriMgr.C_VOICE):AttachToAnalyzer(ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Framework.MouthMovement.CubismCriSrcMouthInput"), "Analyzer", slot0._go:GetComponent("CubismCriSrcMouthInput")))
+
+	if slot0.updateAtom then
+		slot0.updateAtom = false
+	end
 end
 
 return slot0

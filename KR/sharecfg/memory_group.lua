@@ -3934,6 +3934,22 @@ pg.memory_group = {
 			2267
 		}
 	},
+	[578] = {
+		icon = "title_chara_neihuada",
+		subtype = 0,
+		type = 3,
+		id = 578,
+		title = "카우보이와의 여행",
+		memories = {
+			2341,
+			2342,
+			2343,
+			2344,
+			2345,
+			2346,
+			2347
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4135,6 +4151,7 @@ pg.memory_group = {
 		574,
 		575,
 		576,
-		577
+		577,
+		578
 	}
 }

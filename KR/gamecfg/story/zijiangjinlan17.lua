@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "나 혼자 독단적인 행동을 해도, 미카사쪽은 조금의 동요도 없다라….",
+			say = "나 혼자 독단적인 행동을 해도, 미카사님쪽은 조금의 동요도 없다라….",
 			painting = {
 				alpha = 0.3,
 				time = 1

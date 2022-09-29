@@ -1080,6 +1080,78 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "0"
 	},
+	[100001] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "헌터·META를 사용해 승리 1회",
+		id = 100001,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100002] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "헌터·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 100002,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100003] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "헌터·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 100003,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100004] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "헌터·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 100004,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100005] = {
+		target_id_2 = "970101",
+		sub_type = 180,
+		desc = "헌터·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 100005,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200001] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "대형 작전에서 헌터·META를 사용해 1회 승리",
+		id = 200001,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200002] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "대형 작전에서 헌터·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 200002,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200003] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "대형 작전에서 헌터·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 200003,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200004] = {
+		target_id_2 = "970101",
+		sub_type = 302,
+		desc = "대형 작전에서 헌터·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 200004,
+		target_num = 1,
+		target_id = "100"
+	},
 	all = {
 		1,
 		2,
@@ -1215,6 +1287,15 @@ pg.task_meta_data_template = {
 		254,
 		255,
 		301,
-		302
+		302,
+		100001,
+		100002,
+		100003,
+		100004,
+		100005,
+		200001,
+		200002,
+		200003,
+		200004
 	}
 }

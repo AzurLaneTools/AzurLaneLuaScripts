@@ -581,6 +581,10 @@ function slot0.CancelCommonFlag(slot0, slot1)
 	slot0.commonFlagList[slot1] = false
 end
 
+function slot0.SetCommonFlag(slot0, slot1, slot2)
+	slot0.commonFlagList[slot1] = slot2
+end
+
 function slot0.updateCommanderBagMax(slot0, slot1)
 	slot0.commanderBagMax = slot0.commanderBagMax + slot1
 end
@@ -663,6 +667,26 @@ end
 
 function slot0.RawSetRandomShipAndSkinValueInpos(slot0, slot1, slot2)
 	slot0.randomFlagShipSoltSetting[slot1] = slot2
+end
+
+function slot0.IsOpenShipEvaluationImpeach(slot0)
+	return not LOCK_IMPEACH and pg.gameset.report_level_limit.key_value <= slot0.level
+end
+
+function slot0.ShouldCheckCustomName(slot0)
+	return slot0:GetCommonFlag(REVERT_CUSTOM_NAME)
+end
+
+function slot0.WhetherServerModifiesName(slot0)
+	return slot0:GetCommonFlag(ILLEGALITY_PLAYER_NAME)
+end
+
+function slot0.GetManifesto(slot0)
+	return slot0.manifesto or ""
+end
+
+function slot0.GetName(slot0)
+	return slot0.name
 end
 
 return slot0

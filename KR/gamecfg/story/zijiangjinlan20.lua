@@ -278,7 +278,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:82}",
+			actorName = "미카사",
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -304,7 +304,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:226}",
+			actorName = "사카와",
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -320,7 +320,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:65}",
+			actorName = "하구로",
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -336,7 +336,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:5}",
+			actorName = "미유키",
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -352,7 +352,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:65}",
+			actorName = "하구로",
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -368,7 +368,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:82}",
+			actorName = "미카사",
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,

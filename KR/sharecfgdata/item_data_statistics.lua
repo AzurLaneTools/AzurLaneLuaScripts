@@ -9113,6 +9113,27 @@ _G.pg.base.item_data_statistics[21014] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21015] = {
+	display = "헌터·META 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정: 헌터·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21015,
+	is_world = 0,
+	icon = "Props/21015",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "결정화 내열강",
@@ -10381,6 +10402,73 @@ _G.pg.base.item_data_statistics[30203] = {
 		{
 			3,
 			48040,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30204] = {
+	display = "사용 시 다음 지정 <color=#ffde38>장비</color> 중 1가지 선택하여 획득 가능",
+	name = "지향형 장비 상자·장비 지원",
+	max_num = 0,
+	type = 16,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30204,
+	is_world = 0,
+	icon = "Props/30204",
+	display_icon = {
+		{
+			3,
+			5240,
+			1
+		},
+		{
+			3,
+			11240,
+			1
+		},
+		{
+			3,
+			17340,
+			1
+		},
+		{
+			3,
+			24340,
+			1
+		},
+		{
+			3,
+			29200,
+			1
+		},
+		{
+			3,
+			32240,
+			1
+		},
+		{
+			3,
+			38240,
+			1
+		},
+		{
+			3,
+			43040,
+			1
+		},
+		{
+			3,
+			46340,
 			1
 		}
 	},
@@ -14895,6 +14983,95 @@ _G.pg.base.item_data_statistics[30406] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30407] = {
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	name = "장비스킨 상자(월드 투어)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30407,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2019,
+			1
+		},
+		{
+			9,
+			2020,
+			1
+		},
+		{
+			9,
+			2021,
+			1
+		},
+		{
+			9,
+			2022,
+			1
+		},
+		{
+			9,
+			2023,
+			1
+		},
+		{
+			9,
+			2024,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30408] = {
+	display = "현혹의 불사조(어뢰), 현혹의 불사조(전투), 현혹의 불사조(폭격) 장비스킨을 1개씩 획득 가능",
+	name = "현혹의 불사조",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30408,
+	is_world = 0,
+	icon = "Equips/96331",
+	display_icon = {
+		{
+			9,
+			2019,
+			1
+		},
+		{
+			9,
+			2020,
+			1
+		},
+		{
+			9,
+			2021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "사용 후 「뜨거운 여름」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
 	name = "지향형 장비 스킨 상자(늦여름)",
@@ -15992,6 +16169,118 @@ _G.pg.base.item_data_statistics[30510] = {
 		{
 			9,
 			655,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30511] = {
+	display = "사용 시 「노스 유니온 시리즈」 테마 장비스킨 중 1가지 선택하여 획득 가능",
+	name = "지향형 장비스킨 상자(노스 유니온)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30511,
+	is_world = 0,
+	icon = "Props/appearanceboxbeilianzixuan",
+	display_icon = {
+		{
+			9,
+			220,
+			1
+		},
+		{
+			9,
+			221,
+			1
+		},
+		{
+			9,
+			222,
+			1
+		},
+		{
+			9,
+			223,
+			1
+		},
+		{
+			9,
+			224,
+			1
+		},
+		{
+			9,
+			225,
+			1
+		},
+		{
+			9,
+			226,
+			1
+		},
+		{
+			9,
+			227,
+			1
+		},
+		{
+			9,
+			228,
+			1
+		},
+		{
+			9,
+			229,
+			1
+		},
+		{
+			9,
+			230,
+			1
+		},
+		{
+			9,
+			231,
+			1
+		},
+		{
+			9,
+			232,
+			1
+		},
+		{
+			9,
+			233,
+			1
+		},
+		{
+			9,
+			234,
+			1
+		},
+		{
+			9,
+			235,
+			1
+		},
+		{
+			9,
+			236,
+			1
+		},
+		{
+			9,
+			237,
 			1
 		}
 	},
@@ -18780,7 +19069,7 @@ _G.pg.base.item_data_statistics[40914] = {
 
 _G.pg.base.item_data_statistics[40915] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2021, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제4기*2, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
-	name = "2021 가을 연회복 패키지",
+	name = "가을 연회복 패키지(2021)",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -19005,6 +19294,63 @@ _G.pg.base.item_data_statistics[40919] = {
 		{
 			2,
 			42036,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40920] = {
+	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2021, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제5기*2, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥!",
+	name = "가을 연회복 패키지(2022)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40920,
+	is_world = 0,
+	icon = "Props/lihe8",
+	display_icon = {
+		{
+			2,
+			69920,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42046,
 			2
 		},
 		{
@@ -168570,7 +168916,7 @@ _G.pg.base.item_data_statistics[59292] = {
 }
 
 _G.pg.base.item_data_statistics[59293] = {
-	display = "「월드투어」(2022.8.1~9.30) 참여 시 획득하는 포인트. 누적하여 보상을 수령할 수 있다. 이벤트 종료 후 사라짐.",
+	display = "「월드투어」(2022.8.8~10.7) 참여 시 획득하는 포인트. 누적하여 보상을 수령할 수 있다. 이벤트 종료 후 사라짐.",
 	name = "투어 PT",
 	max_num = 0,
 	type = 0,
@@ -168582,6 +168928,48 @@ _G.pg.base.item_data_statistics[59293] = {
 	virtual_type = 0,
 	link_id = 0,
 	id = 59293,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59294] = {
+	display = "不该被看到",
+	name = "通行证七期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 21,
+	link_id = 7007,
+	id = 59294,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59295] = {
+	display = "「월드투어」(2022.10.8~12.7) 참여 시 획득하는 포인트. 누적하여 보상을 수령할 수 있다. 이벤트 종료 후 사라짐.",
+	name = "투어 PT",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59295,
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	display_icon = {},
@@ -179070,7 +179458,7 @@ _G.pg.base.item_data_statistics[69915] = {
 （<color=#92fc63>10.7%</color>）에밀 베르탱 스킨 향기로운 무희；
 （<color=#92fc63>9.5%</color>）포춘 스킨 하늘 아래 운명의 명주실；
 ]],
-	name = "랜덤 연회복 스킨 2021",
+	name = "랜덤 가을 연회복 패키지(2021)",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -179194,6 +179582,39 @@ _G.pg.base.item_data_statistics[69919] = {
 	virtual_type = 0,
 	link_id = 0,
 	id = 69919,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[69920] = {
+	display = [[
+다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
+각 스킨의 출현 확률：
+（<color=#92fc63>13.0%</color>）{namecode:188} 스킨 어질어질 메이드<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）넵튠 스킨 심해 함선 마린스노우；
+（<color=#92fc63>12.0%</color>）자이틀리츠 스킨 플라워리 리버레이션；
+（<color=#92fc63>11.5%</color>）카리브디스 스킨 반짝이는 드레스；
+（<color=#92fc63>11.5%</color>）{namecode:74} 스킨 여우의 연회복；
+（<color=#92fc63>10.0%</color>）쥬노 스킨  백조의 화원으로；
+（<color=#92fc63>10.0%</color>）젠하이 스킨  흔들리는 물결；
+（<color=#92fc63>10.0%</color>）Z28 스킨  숲속의 파티；
+（<color=#92fc63>10.0%</color>）마이예 브레제 스킨  당분으로 휴가 중
+]],
+	name = "랜덤 가을 연회복 패키지(2022)",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69920,
 	is_world = 0,
 	icon = "Props/clothIcon",
 	display_icon = {},

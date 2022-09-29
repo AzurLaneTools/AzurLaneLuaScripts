@@ -64,7 +64,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "승부가 결정난 것 같네….",
 			painting = {
 				alpha = 0.3,
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "'달 저편의 꽃', 아카기는 자신의 퍼포먼스를 위해 슬프고 로맨틱한 이름을 준비했구나.",
 			painting = {
 				alpha = 0.3,
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "미카사, 다음 라운드에서 나가토와 함께 아카기에게서 승리를 빼앗고 싶겠지?",
 			painting = {
 				alpha = 0.3,
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "하지만 아쉽게도 일식은 행운을 사라지게 만들지. 무기는 먹통일 테고, 폭격은 일어나지 않을 거야. 결과는 이미 정해졌어.",
 			painting = {
 				alpha = 0.3,
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "그래서 아쉽게도 전투는 이번 라운드에서 끝나게 될 거야. 그대의 패배다.",
 			painting = {
 				alpha = 0.3,
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "그대가 날 너무 의식한 탓에 타이밍을 놓쳤어.",
 			painting = {
 				alpha = 0.3,
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "이번 장기판 경기는 그저 재미를 위해 마련한 자리였을 뿐.",
 			painting = {
 				alpha = 0.3,
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "하지만 그대는 어땠나? 목표가 아카기라는 걸 알면서도 그녀에게 집중하지 못했어.",
 			painting = {
 				alpha = 0.3,
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "위험을 깨달은 순간 깔끔하게 제거했어야 했는데….",
 			painting = {
 				alpha = 0.3,
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "안타깝게도, 그대는 내 대답을 들을 수 없게 됐네.",
 			painting = {
 				alpha = 0.3,
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "정말, 안타까워….",
 			painting = {
 				alpha = 0.3,
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "이 장기판 경기는 연극의 시작일 뿐이야. 드디어 막을 내릴 때가 된 것 같군.",
 			painting = {
 				alpha = 0.3,
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_wuzang_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "승자를 맞이할 시간이 왔어———",
 			painting = {
 				alpha = 0.3,
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "후후후후, 결국 당신도 이 정도 밖에 안되네요.",
 			painting = {
 				alpha = 0.3,
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "맞아요. 쓰레기 더미 속에 폐기물처럼 쌓여 있는 거야말로 세이렌에게 가장 잘 어울리는 결말이니까요.",
 			painting = {
 				alpha = 0.3,
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "날 조종하려고 하다니, 이정도 실력 가지곤 택도 없답니다~ 하하하하하~",
 			painting = {
 				alpha = 0.3,
@@ -564,7 +564,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "대선배와 나가토는 아직도 이게 무슨 상황인지 모르겠죠?",
 			painting = {
 				alpha = 0.3,
@@ -581,7 +581,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "중앙 장치에서 이런 대규모 에너지가 뿜어지는 걸 본다고해도 아마 결계 안에 설정된 하나의 장치라고만 생각할 테니까요.",
 			painting = {
 				alpha = 0.3,
@@ -598,7 +598,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "후후후후후, 이번 실험의 목적도 알아차리지 못하다니… 정말 어리석기 그지 없네요…!",
 			painting = {
 				alpha = 0.3,
@@ -620,7 +620,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "고작 이 정도로 날 막으려고 한 건가요?",
 			painting = {
 				alpha = 0.3,
@@ -637,7 +637,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "겨우 당신들이 사쿠라 엠파이어의 운명을 책임지겠다는 거냐구요.",
 			painting = {
 				alpha = 0.3,
@@ -654,7 +654,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "건방져! 오만해! 사쿠라 엠파이어의 운명을 책임질 수 있는 자는 오래 전부터 존재하지 않았어요!",
 			painting = {
 				alpha = 0.3,
@@ -676,7 +676,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "왜 아무도 이 사실을 깨닫지 못하는 거죠!?",
 			painting = {
 				alpha = 0.3,
@@ -698,7 +698,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "…내가 사쿠라 엠파이어를 이끌기에 적합하지 않다고? 내가 그런 것도 모르고 있다고 생각하는 건가요!?",
 			painting = {
 				alpha = 0.3,
@@ -720,7 +720,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "…나도 어쩔 수 없었다구요. 이것 말고는 다른 방법이 없으니까!",
 			painting = {
 				alpha = 0.3,
@@ -742,7 +742,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "반드시 내가 사쿠라 엠파이어의 운명을 짊어져야만, 반드시 내가 사쿠라 엠파이어의 나아갈 길을 결정해야만 해요!",
 			painting = {
 				alpha = 0.3,
@@ -764,7 +764,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "언니가 하지 못한 일을 동생인 내가 해야만 한다구요!",
 			painting = {
 				alpha = 0.3,
@@ -786,7 +786,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "오로지 나만이 그럴 자격이 있어요. 내 손으로 직접 사쿠라 엠파이어의 운명을 그녀에게 돌려줄 거라구요!",
 			painting = {
 				alpha = 0.3,
@@ -808,7 +808,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "알겠어!? 나 말곤, 그 누구에게도 맡길 수 없다고!",
 			painting = {
 				alpha = 0.3,
@@ -830,7 +830,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "아, 너 같은 쓰레기한테 말한다고 해도 어차피 못 알아듣겠구나….",
 			painting = {
 				alpha = 0.3,
@@ -847,7 +847,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "하지만 아무렴 어때. 이제 기분이 좋아졌거든요. 이 세상에서 영원히 사리지기 전에 제 얘기를 들을 수 있는 영광을 주죠.",
 			painting = {
 				alpha = 0.3,
@@ -886,7 +886,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "…후후후후, 비스마르크도 겁쟁이에 불과하다니까요.",
 			painting = {
 				alpha = 0.3,
@@ -903,7 +903,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "당신이 하지 못한 일을 제가 해줄게요. 당신이 받아들이지 못한 힘은, 제가 받아들이겠어요.",
 			painting = {
 				alpha = 0.3,
@@ -920,7 +920,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "전 이 힘을 받아들이고 사쿠라 엠파이어가 올바른 자의 손에 전달될 때까지 계속해서 사쿠라 엠파이어를 이끌고 전진할 거예요.",
 			painting = {
 				alpha = 0.3,
@@ -937,7 +937,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "그러기 위해선 어떤 희생도, 어떤 대가도 치룰 수 있다고요….",
 			painting = {
 				alpha = 0.3,
@@ -954,7 +954,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "사쿠라 엠파이어가 한 줌의 재가 된다고 해도, 나 자신이 불타죽는다고 해도, 이 세상이 불길에 휘말려 멸망한다고 해도 말이죠——",
 			painting = {
 				alpha = 0.3,
@@ -971,7 +971,7 @@ return {
 			bgName = "bg_wuzang_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
+			actorName = "아카기",
 			say = "————전부 무슨 상관 있겠어요?",
 			painting = {
 				alpha = 0.3,

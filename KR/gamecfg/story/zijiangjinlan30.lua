@@ -64,7 +64,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "당신의 지혜로 이미 아카기의 의도를 눈치챘을 테죠….",
 			painting = {
 				alpha = 0.3,
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "하하, 맞아. 퇴장하는 선수가 많아질수록 아카기는 더욱 강해지지.",
 			painting = {
 				alpha = 0.3,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "지금 벌써 5명이 퇴장 당했는데, 계속 이렇게 가다간 아주 끔찍한 일이 일어날 수도 있다구.",
 			painting = {
 				alpha = 0.3,
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "물론 나 역시 아카기의 목적을 실현시키기 위해 최선을 다할 테지만 말이야.",
 			painting = {
 				alpha = 0.3,
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "미카사, 그대가 카와카제를 보호하고 있긴 하지만… 내 공세를 견뎌낼 수 있을까?",
 			painting = {
 				alpha = 0.3,
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "이렇게 6명이 퇴장하고 말았네. 아쉽게도, 그대는 막지 못했어….",
 			painting = {
 				alpha = 0.3,
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "그럼 이제 사카와를 중앙 거점 통제 구역으로 보내볼까.",
 			painting = {
 				alpha = 0.3,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "다음은 나가토 쪽… 와카츠키가 작은 거점을 한번 더 공격하게 명령했지.",
 			painting = {
 				alpha = 0.3,
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "나가토도 이제 내 의도를 알았을 테고… 물론, 이해하지 못했어도 쫓아올 게 뻔하겠지만 말이야.",
 			painting = {
 				alpha = 0.3,
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "점수로 이기겠다고 마음 먹은 이상 1점, 1점 매우 소중할 테니까….",
 			painting = {
 				alpha = 0.3,
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "하지만 그대가 아무리 몇점을 앞서고 있는 상황이라도 아카기가 중앙 거점을 손에 넣는다면 완벽한 역전이라구.",
 			painting = {
 				alpha = 0.3,
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "무사시",
 			say = "하핫, 내가 양쪽에서 부추기고 있는 상황에서, 미카사, 당신은 이제 어떻게 나올 생각이지?",
 			painting = {
 				alpha = 0.3,

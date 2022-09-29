@@ -84,7 +84,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "미카사, 저 거점은 그대가 일부러 내게 남겨준 건가?",
+			say = "미카사님, 저 거점은 그대가 일부러 내게 남겨준 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -5479,7 +5479,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[229] = {
-		name = "추적자 만쥬",
+		name = "추적자 만쥬(어뢰)",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5510,7 +5510,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[230] = {
-		name = "추적자 만쥬",
+		name = "추적자 만쥬(전투)",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5541,7 +5541,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[231] = {
-		name = "추적자 만쥬",
+		name = "추적자 만쥬(폭격)",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5572,7 +5572,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[232] = {
-		name = "도망자 만쥬",
+		name = "도망자 만쥬(어뢰)",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5603,7 +5603,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[233] = {
-		name = "도망자 만쥬",
+		name = "도망자 만쥬(전투)",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5634,7 +5634,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[234] = {
-		name = "도망자 만쥬",
+		name = "도망자 만쥬(폭격)",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5665,7 +5665,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[235] = {
-		name = "베어 만쥬",
+		name = "베어 만쥬(어뢰)",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5696,7 +5696,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[236] = {
-		name = "베어 만쥬",
+		name = "베어 만쥬(전투)",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
 		type = 1,
@@ -5727,7 +5727,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[237] = {
-		name = "베어 만쥬",
+		name = "베어 만쥬(폭격)",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
 		type = 1,
@@ -20143,6 +20143,197 @@ pg.equip_skin_template = {
 			107
 		}
 	},
+	[2019] = {
+		name = "현혹의 불사조(뇌격)",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "이건 마술일까요, 마법일까요~？",
+		themeid = 101,
+		id = 2019,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_aixin",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[2020] = {
+		name = "현혹의 불사조(전투)",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "이건 마술일까요, 마법일까요~？",
+		themeid = 101,
+		id = 2020,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yingbi",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[2021] = {
+		name = "현혹의 불사조(폭격)",
+		bullet_name = "feiji_huoyanfenghuang",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "이건 마술일까요, 마법일까요~？",
+		themeid = 101,
+		id = 2021,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yingbi",
+		orbit_ui = "",
+		icon = "96331",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[2022] = {
+		name = "풍선 총알",
+		bullet_name = "zidan_moshuqiqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "공연에 자주 쓰이는 보조 소품이에요~",
+		themeid = 101,
+		id = 2022,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96311",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "moshukapai_fire",
+		hit_fx_name = "qiqiu_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2023] = {
+		name = "코인 포탄",
+		bullet_name = "paodan_yingbi",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "고속 비행 중인 코인에 함부로 손대면 안돼요(씨익).",
+		themeid = 101,
+		id = 2023,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96312",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2024] = {
+		name = "하트 어뢰",
+		bullet_name = "yulei_aixin",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "이건 마술일까요, 마법일까요~？",
+		themeid = 101,
+		id = 2024,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "96321",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
 	all = {
 		1,
 		2,
@@ -20773,6 +20964,12 @@ pg.equip_skin_template = {
 		2015,
 		2016,
 		2017,
-		2018
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024
 	}
 }

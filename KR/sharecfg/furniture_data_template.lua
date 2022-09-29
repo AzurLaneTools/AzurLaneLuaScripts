@@ -5230,6 +5230,86 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[233] = {
+		spine_extra = "",
+		describe = "「실버문」이 상대에게 남겨둔 건 환상적인 뒷모습뿐!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "레이싱카 「실버문」",
+		themeId = 0,
+		icon = "paocheicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 233,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paocheB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"paocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[234] = {
 		spine_extra = "",
 		describe = "커다란 장기판 중앙의 진홍색 탑 축소 모형. 소재와 구조는 알 수 없지만 위험한 분위기가 풍긴다.——「짙은 자줏빛의 안개」 특별 작전에서 우수한 업적을 거둔 자에게 수여하는 기념장.",
@@ -7303,7 +7383,7 @@ pg.furniture_data_template = {
 	},
 	[100030] = {
 		spine_extra = "",
-		describe = "살금살금… 아무도 나의 완벽한 위장을 알아차릴 수 없다!",
+		describe = "슬쩍… 아무도 나의 완벽한 위장을 알아챌 수 없어!",
 		gain_by = "",
 		type = 11,
 		dir = 0,
@@ -8068,6 +8148,55 @@ pg.furniture_data_template = {
 					nil,
 					"houzhai_pugongying",
 					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100041] = {
+		spine_extra = "",
+		describe = "짜잔! 됐다! 냐옹냐옹 우는 귀여운 강아지!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "miaomiaowangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "냥아지",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100041,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"miaomiaowang",
+				"normal",
+				{
+					"action",
+					false,
+					nil,
+					"event:/ui/meow"
 				}
 			}
 		},
@@ -106043,6 +106172,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			233,
 			234,
 			100002,
 			100003,
@@ -106083,6 +106213,7 @@ pg.furniture_data_template = {
 			100038,
 			100039,
 			100040,
+			100041,
 			200001,
 			200002,
 			200003,
@@ -106212,6 +106343,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			233,
 			234,
 			100002,
 			100003,
@@ -106252,6 +106384,7 @@ pg.furniture_data_template = {
 			100038,
 			100039,
 			100040,
+			100041,
 			200001,
 			200002,
 			200003,
@@ -112678,6 +112811,7 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
+			233,
 			234,
 			100002,
 			100003,
@@ -112718,6 +112852,7 @@ pg.furniture_data_template = {
 			100038,
 			100039,
 			100040,
+			100041,
 			54104,
 			54105
 		},
@@ -113514,7 +113649,8 @@ pg.furniture_data_template = {
 			100036,
 			100038,
 			100039,
-			100040
+			100040,
+			100041
 		},
 		[2] = {
 			120,
@@ -115032,6 +115168,7 @@ pg.furniture_data_template = {
 			131,
 			143,
 			215,
+			233,
 			100003,
 			100008,
 			100021,
@@ -115848,6 +115985,7 @@ pg.furniture_data_template = {
 		225,
 		226,
 		232,
+		233,
 		234,
 		100002,
 		100003,
@@ -115888,6 +116026,7 @@ pg.furniture_data_template = {
 		100038,
 		100039,
 		100040,
+		100041,
 		200001,
 		200002,
 		200003,

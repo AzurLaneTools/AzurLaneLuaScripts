@@ -2577,7 +2577,7 @@ pg.gameset = {
 		key_value = 43200
 	},
 	naval_academy_theme = {
-		description = "summer",
+		description = "autumn",
 		key_value = 0
 	},
 	package_lv = {
@@ -2613,5 +2613,15 @@ pg.gameset = {
 			},
 			999
 		}
+	},
+	player_name_illegal = {
+		key_value = 0,
+		description = {
+			"违规用户名"
+		}
+	},
+	report_level_limit = {
+		description = "",
+		key_value = 75
 	}
 }

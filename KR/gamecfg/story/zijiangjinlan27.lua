@@ -207,7 +207,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "사카와, 치요세. 제겐 거점 IJ7을 공격하라는 명령이 들어왔어요. 그럼 전 먼저 가보겠습니다~",
+			say = "사카와, 치토세. 제겐 거점 IJ7을 공격하라는 명령이 들어왔어요. 그럼 전 먼저 가보겠습니다~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………{namecode:5}。",
+			say = "…미유키.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "미안해요. 무사시님의 명령이에요. 치요세와 함께 당신을 공격하라는 명령이 떨어졌어요.",
+			say = "미안해요. 무사시님의 명령이에요. 치토세와 함께 당신을 공격하라는 명령이 떨어졌어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -8,6 +8,7 @@ pg.pay_data_display = {
 		limit_arg = 7,
 		name = "무역 허가증(30일)",
 		name_display = "무역 허가증(30일)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1,
 		money = 6050,
@@ -51,6 +52,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신규 지원 팩",
 		name_display = "신규 지원 팩",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2,
 		money = 1210,
@@ -105,10 +107,11 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		name = "다이아 한 숟갈",
 		name_display = "다이아 한 숟갈",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 0,
-		id = 3,
 		money = 1210,
+		id = 3,
 		tag = 0,
 		gem = 66,
 		limit_type = 99,
@@ -132,10 +135,11 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		name = "다이아 한 줌",
 		name_display = "다이아 한 줌",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 30,
-		id = 4,
 		money = 6050,
+		id = 4,
 		tag = 0,
 		gem = 330,
 		limit_type = 99,
@@ -159,10 +163,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "다이아 한 보따리",
 		name_display = "다이아 한 보따리",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 240,
-		id = 5,
 		money = 18150,
+		id = 5,
 		tag = 0,
 		gem = 990,
 		limit_type = 0,
@@ -186,10 +191,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "다이아 작은 상자",
 		name_display = "다이아 작은 상자",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 600,
-		id = 6,
 		money = 36300,
+		id = 6,
 		tag = 0,
 		gem = 1980,
 		limit_type = 0,
@@ -213,10 +219,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "다이아 큰 상자",
 		name_display = "다이아 큰 상자",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 1200,
-		id = 7,
 		money = 60500,
+		id = 7,
 		tag = 0,
 		gem = 3300,
 		limit_type = 0,
@@ -240,10 +247,11 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "다이아 무역선",
 		name_display = "다이아 무역선",
+		type_order = 0,
 		extra_service_item = "0",
 		extra_gem = 3300,
-		id = 8,
 		money = 121000,
+		id = 8,
 		tag = 1,
 		gem = 6600,
 		limit_type = 0,
@@ -267,6 +275,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "아카시 패키지",
 		name_display = "아카시 패키지",
+		type_order = 0,
 		extra_gem = 0,
 		id = 11,
 		money = 36300,
@@ -366,6 +375,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2019년 복주머니",
 		name_display = "2019년 복주머니",
+		type_order = 0,
 		extra_gem = 0,
 		id = 12,
 		money = 36300,
@@ -465,6 +475,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "복주머니",
 		name_display = "복주머니",
+		type_order = 0,
 		extra_gem = 0,
 		id = 13,
 		money = 36300,
@@ -564,6 +575,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "랜덤 스페셜 스킨",
 		name_display = "랜덤 스페셜 스킨",
+		type_order = 0,
 		extra_gem = 0,
 		id = 14,
 		money = 36300,
@@ -663,6 +675,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2019 가을 스킨 패키지 ",
 		name_display = "2019 가을 스킨 패키지 ",
+		type_order = 0,
 		extra_gem = 0,
 		id = 15,
 		money = 36300,
@@ -762,6 +775,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신년 패키지(2020)",
 		name_display = "신년 패키지(2020)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 16,
 		money = 36300,
@@ -866,6 +880,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신년 패키지(2019)",
 		name_display = "신년 패키지(2019)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 17,
 		money = 36300,
@@ -965,6 +980,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "복주머니(2020)",
 		name_display = "복주머니(2020)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 18,
 		money = 36300,
@@ -1069,6 +1085,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "복주머니(2019)",
 		name_display = "복주머니(2019)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 19,
 		money = 36300,
@@ -1168,6 +1185,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신입 지휘관 지원 패키지·I",
 		name_display = "신입 지휘관 지원 패키지·I",
+		type_order = 0,
 		extra_gem = 0,
 		id = 20,
 		money = 2500,
@@ -1252,6 +1270,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신입 지휘관 지원 패키지·II",
 		name_display = "신입 지휘관 지원 패키지·II",
+		type_order = 0,
 		extra_gem = 0,
 		id = 21,
 		money = 15000,
@@ -1361,6 +1380,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신입 지휘관 지원 패키지·III",
 		name_display = "신입 지휘관 지원 패키지·III",
+		type_order = 0,
 		extra_gem = 0,
 		id = 22,
 		money = 30000,
@@ -1475,6 +1495,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "연회복 패키지 ",
 		name_display = "연회복 패키지 ",
+		type_order = 0,
 		extra_gem = 0,
 		id = 23,
 		money = 36300,
@@ -1579,6 +1600,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2020 가을 연회복 패키지",
 		name_display = "2020 가을 연회복 패키지",
+		type_order = 0,
 		extra_gem = 0,
 		id = 24,
 		money = 36300,
@@ -1683,6 +1705,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신년 패키지(2021)",
 		name_display = "신년 패키지(2021)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 25,
 		money = 36300,
@@ -1787,6 +1810,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신년 패키지 복각(2020)",
 		name_display = "신년 패키지 복각(2020)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 26,
 		money = 36300,
@@ -1891,6 +1915,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "복주머니(2021)",
 		name_display = "복주머니(2021)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 27,
 		money = 36300,
@@ -1995,6 +2020,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "복주머니(2020)",
 		name_display = "복주머니(2020)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 28,
 		money = 36300,
@@ -2099,6 +2125,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "연회복 패키지(2021)",
 		name_display = "연회복 패키지(2021)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 29,
 		money = 36300,
@@ -2203,6 +2230,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "연회복 패키지 복각(2020)",
 		name_display = "연회복 패키지 복각(2020)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 30,
 		money = 36300,
@@ -2307,6 +2335,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "대형 작전 공략 지원팩",
 		name_display = "대형 작전 공략 지원팩",
+		type_order = 0,
 		extra_gem = 0,
 		id = 31,
 		money = 36300,
@@ -2411,6 +2440,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2021 가을 연회복 패키지",
 		name_display = "2021 가을 연회복 패키지",
+		type_order = 0,
 		extra_gem = 0,
 		id = 32,
 		money = 36300,
@@ -2515,6 +2545,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "2020 가을 연회복 패키지 복각",
 		name_display = "2020 가을 연회복 패키지 복각",
+		type_order = 0,
 		extra_gem = 0,
 		id = 33,
 		money = 36300,
@@ -2619,6 +2650,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신년 패키지(2022)",
 		name_display = "신년 패키지(2022)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 34,
 		money = 36300,
@@ -2723,6 +2755,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "신년 패키지 복각(2021)",
 		name_display = "신년 패키지 복각(2021)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 35,
 		money = 36300,
@@ -2827,6 +2860,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "복주머니2022",
 		name_display = "복주머니2022",
+		type_order = 0,
 		extra_gem = 0,
 		id = 36,
 		money = 36300,
@@ -2931,6 +2965,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "복주머니 복각(2021)",
 		name_display = "복주머니 복각(2021)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 37,
 		money = 36300,
@@ -3035,6 +3070,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "연회복 패키지(2022)",
 		name_display = "연회복 패키지(2022)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 38,
 		money = 36300,
@@ -3139,6 +3175,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "연회복 패키지 복각(2021)",
 		name_display = "연회복 패키지 복각(2021)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 39,
 		money = 36300,
@@ -3235,6 +3272,216 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[40] = {
+		subject = "가을 연회복 패키지(2022)",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "가을 연회복 패키지(2022)",
+		name_display = "가을 연회복 패키지(2022)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 40,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe8_l",
+		id_str = "alkrgift45",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2022, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond131",
+		extra_service_item = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[41] = {
+		subject = "가을 연회복 패키지(2021)",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "가을 연회복 패키지(2021)",
+		name_display = "가을 연회복 패키지(2021)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 41,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe6_l",
+		id_str = "alkrgift46",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2021, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond132",
+		extra_service_item = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[1000] = {
 		subject = "특허 투어 패스",
 		limit_group = 0,
@@ -3243,6 +3490,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "특허 투어 패스",
 		name_display = "특허 투어 패스",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1000,
 		money = 12000,
@@ -3315,6 +3563,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "특허 투어 패스(2021.12.1-1.31)",
 		name_display = "특허 투어 패스",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1001,
 		money = 12000,
@@ -3387,6 +3636,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "특허 투어 패스(2022.2)",
 		name_display = "특허 투어 패스(2022.2)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1002,
 		money = 12000,
@@ -3459,6 +3709,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "특허 투어 패스(2022.4)",
 		name_display = "특허 투어 패스",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1003,
 		money = 12000,
@@ -3531,6 +3782,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "특허 투어 패스(2022.6)",
 		name_display = "특허 투어 패스",
+		type_order = 0,
 		extra_gem = 0,
 		id = 1004,
 		money = 12000,
@@ -3603,6 +3855,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "특허 투어 패스(2022.8)",
 		name_display = "특허 투어 패스",
+		type_order = 4,
 		extra_gem = 0,
 		id = 1005,
 		money = 12000,
@@ -3667,6 +3920,79 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[1006] = {
+		subject = "특허 투어 패스",
+		limit_group = 0,
+		descrip_extra = "*임무를 통해 대응 투어 진도 달성 후 획득 가능",
+		type = 0,
+		limit_arg = 1,
+		name = "특허 투어 패스(2022.10)",
+		name_display = "특허 투어 패스",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1006,
+		money = 68,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass7",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 파먀티 메르쿠리야 한정 스킨 및 기타 보상",
+		airijp_id = "com.yostarjp.azurlane.seasonpass7",
+		extra_service_item = {
+			{
+				1,
+				4007,
+				1500
+			},
+			{
+				8,
+				59294,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4007,
+				1500
+			}
+		},
+		sub_display = {
+			7007,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[2001] = {
 		subject = "PR함 개발 패키지(제1기)",
 		limit_group = 1,
@@ -3675,6 +4001,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "PR함 개발 패키지(제1기)",
 		name_display = "PR함 개발 패키지(제1기)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2001,
 		money = 20000,
@@ -3729,6 +4056,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "PR함 개발 패키지(제1기)-고급",
 		name_display = "고급",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2002,
 		money = 20000,
@@ -3783,6 +4111,7 @@ pg.pay_data_display = {
 		limit_arg = 2,
 		name = "PR함 개발 패키지(제1기)-일반",
 		name_display = "일반",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2003,
 		money = 12000,
@@ -3827,6 +4156,7 @@ pg.pay_data_display = {
 		limit_arg = 3,
 		name = "PR함 개발 패키지(제1기)-업그레이드",
 		name_display = "고급",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2004,
 		money = 8900,
@@ -3871,6 +4201,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		name = "PR함 개발 패키지(제2기)",
 		name_display = "PR함 개발 패키지(제2기)",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2005,
 		money = 20000,
@@ -3925,6 +4256,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "PR함 개발 패키지(제2기)-고급",
 		name_display = "고급",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2006,
 		money = 20000,
@@ -3979,6 +4311,7 @@ pg.pay_data_display = {
 		limit_arg = 2,
 		name = "PR함 개발 패키지(제2기)-일반",
 		name_display = "일반",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2007,
 		money = 12000,
@@ -4023,6 +4356,7 @@ pg.pay_data_display = {
 		limit_arg = 3,
 		name = "PR함 개발 패키지(제2기)-업그레이드",
 		name_display = "고급",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2008,
 		money = 8900,
@@ -4067,6 +4401,7 @@ pg.pay_data_display = {
 		limit_arg = 1,
 		name = "즉시 출격 패키지",
 		name_display = "즉시 출격 패키지",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2009,
 		money = 5900,
@@ -4141,6 +4476,7 @@ pg.pay_data_display = {
 		limit_arg = 4,
 		name = "스킬 교본 패키지",
 		name_display = "스킬 교본 패키지",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2010,
 		money = 3900,
@@ -4240,6 +4576,7 @@ pg.pay_data_display = {
 		limit_arg = 4,
 		name = "스킬 교본 패키지(2022가을)",
 		name_display = "스킬 교본 패키지",
+		type_order = 0,
 		extra_gem = 0,
 		id = 2011,
 		money = 3900,
@@ -4369,12 +4706,15 @@ pg.pay_data_display = {
 		37,
 		38,
 		39,
+		40,
+		41,
 		1000,
 		1001,
 		1002,
 		1003,
 		1004,
 		1005,
+		1006,
 		2001,
 		2002,
 		2003,

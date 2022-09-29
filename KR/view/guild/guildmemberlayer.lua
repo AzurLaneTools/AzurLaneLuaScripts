@@ -121,11 +121,11 @@ function slot0.LoadPainting(slot0, slot1)
 
 	setActive(slot0.buttonsPanel, true)
 
-	if not slot1.manifesto or slot1.manifesto == "" then
+	if not slot1:GetManifesto() or slot4 == "" then
 		setActive(slot0.chatPanel, false)
 	else
 		setActive(slot0.chatPanel, true)
-		setText(slot0:findTF("Text", slot0.chatPanel), slot1.manifesto)
+		setText(slot0:findTF("Text", slot0.chatPanel), slot4)
 	end
 
 	pg.GuildPaintingMgr:GetInstance():Update(Ship.New({
@@ -134,15 +134,15 @@ function slot0.LoadPainting(slot0, slot1)
 	}):getPainting(), Vector3(-484, 0, 0))
 	setActive(slot0.btns[4], slot3 == GuildConst.DUTY_DEPUTY_COMMANDER and slot2 == GuildConst.DUTY_COMMANDER and slot1:isLongOffLine())
 
-	slot6 = (slot3 == GuildConst.DUTY_DEPUTY_COMMANDER or slot3 == GuildConst.DUTY_COMMANDER) and slot3 < slot2
-
-	setButtonEnabled(slot0.btns[2], slot6)
-	setGray(slot0.btns[2], not slot6, true)
-
 	slot7 = (slot3 == GuildConst.DUTY_DEPUTY_COMMANDER or slot3 == GuildConst.DUTY_COMMANDER) and slot3 < slot2
 
-	setButtonEnabled(slot0.btns[3], slot7)
-	setGray(slot0.btns[3], not slot7, true)
+	setButtonEnabled(slot0.btns[2], slot7)
+	setGray(slot0.btns[2], not slot7, true)
+
+	slot8 = (slot3 == GuildConst.DUTY_DEPUTY_COMMANDER or slot3 == GuildConst.DUTY_COMMANDER) and slot3 < slot2
+
+	setButtonEnabled(slot0.btns[3], slot8)
+	setGray(slot0.btns[3], not slot8, true)
 end
 
 function slot0.RefreshMembers(slot0)

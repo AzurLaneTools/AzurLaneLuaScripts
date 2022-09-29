@@ -10,7 +10,7 @@ end
 function slot0.update(slot0, slot1)
 	uv0.super.update(slot0, slot1)
 
-	slot0.manifestoTF.text = slot1.manifesto or ""
+	slot0.manifestoTF.text = slot1:GetManifesto()
 	slot0.levelTF.text = "Lv." .. slot1.level
 end
 

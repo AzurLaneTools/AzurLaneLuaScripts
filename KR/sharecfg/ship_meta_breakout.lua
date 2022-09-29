@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.ship_meta_breakout = {
+	[9701011] = {
+		breakout_view = "스킬 [빛을 쫓는 화염·헌터] 습득/주포 발사 수 +1/주포 효율 5% 상승",
+		gold = 500,
+		breakout_id = 9701012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701011,
+		item1 = 21015,
+		pre_id = 0,
+		weapon_ids = {
+			79961
+		}
+	},
+	[9701012] = {
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 모든 무기 효율 +10%",
+		gold = 1500,
+		breakout_id = 9701013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701012,
+		item1 = 21015,
+		pre_id = 9701011,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9701013] = {
+		breakout_view = "[빛을 쫓는 화염·헌터] 업그레이드/주포 효율 5% 상승",
+		gold = 2500,
+		breakout_id = 9701014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701013,
+		item1 = 21015,
+		pre_id = 9701012,
+		weapon_ids = {
+			79962
+		}
+	},
+	[9701014] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701014,
+		item1 = 21015,
+		pre_id = 9701013,
+		weapon_ids = {}
+	},
 	[9702011] = {
 		breakout_view = "스킬 [격멸의 횃불·헬레나] 습득/주포 효율 5% 향상",
 		gold = 1000,
@@ -932,6 +995,10 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	all = {
+		9701011,
+		9701012,
+		9701013,
+		9701014,
 		9702011,
 		9702012,
 		9702013,
