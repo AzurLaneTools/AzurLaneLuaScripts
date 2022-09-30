@@ -10196,10 +10196,10 @@ pg.ship_skin_words_extra = {
 	[305100] = {
 		unlock = "",
 		feeling3 = "",
-		feeling5 = "",
-		main = "",
 		mail = "",
-		profile = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
 		mission_complete = "",
 		mission = "",
 		feeling2 = "",
@@ -10208,7 +10208,7 @@ pg.ship_skin_words_extra = {
 		battle = "",
 		id = 305100,
 		feeling1 = "",
-		feeling4 = "",
+		profile = "",
 		detail = "",
 		login = {
 			{
@@ -10234,12 +10234,6 @@ pg.ship_skin_words_extra = {
 				"벌써 돌아온 거야? 귀로 호위는 내가 하게 해달라고 분명 말했을 텐데…."
 			}
 		},
-		upgrade = {
-			{
-				1100,
-				"오늘 공무가 끝나면 내 곁으로 돌아오도록 해. …돌아오라니 무슨 말이냐고? 말 그대로의 의미겠지. 자고 있는 그대의 목덜미를 베… 아니, 그대의 침소를 덮치려는 아이가 나타나더라도 내 곁이라면 안전하겠지."
-			}
-		},
 		main_extra = {
 			{
 				1100,
@@ -10262,6 +10256,12 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"이 감촉이 맘에 든 거면, 머리를 파묻어도 상관없어. 후후후."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"오늘 공무가 끝나면 내 곁으로 돌아오도록 해. …돌아오라니 무슨 말이냐고? 말 그대로의 의미겠지. 자고 있는 그대의 목덜미를 베… 아니, 그대의 침소를 덮치려는 아이가 나타나더라도 내 곁이라면 안전하겠지."
 			}
 		}
 	},

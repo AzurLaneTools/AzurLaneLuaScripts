@@ -27,7 +27,8 @@ function slot0.OnLoaded(slot0)
 
 	slot1 = slot0.prompt:GetComponent(typeof(Text))
 	slot1.alignment = TextAnchor.MiddleCenter
-	slot1.fontSize = 30
+	slot1.fontSize = 27
+	slot1.lineSpacing = 0.8
 	slot1.verticalOverflow = ReflectionHelp.RefGetField(typeof("UnityEngine.VerticalWrapMode"), "Overflow")
 end
 

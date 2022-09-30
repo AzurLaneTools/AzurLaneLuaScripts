@@ -22334,7 +22334,7 @@ _G.pg.base.shop_template[70100] = {
 	discount = 20,
 	group_type = 0,
 	id = 70100,
-	resource_num = 780,
+	resource_num = 880,
 	discount_time = {
 		{
 			{
@@ -23407,7 +23407,7 @@ _G.pg.base.shop_template[70124] = {
 	discount = 0,
 	group_type = 0,
 	id = 70124,
-	resource_num = 700,
+	resource_num = 780,
 	discount_time = {},
 	limit_args = {},
 	effect_args = {
