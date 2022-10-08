@@ -6478,7 +6478,7 @@ pg.activity_template = {
 			{
 				"newuser",
 				0,
-				21,
+				28,
 				{
 					{
 						2022,
