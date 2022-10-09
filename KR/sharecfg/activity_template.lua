@@ -4301,7 +4301,7 @@ pg.activity_template = {
 					{
 						2022,
 						10,
-						6
+						17
 					},
 					{
 						0,
@@ -4328,7 +4328,7 @@ pg.activity_template = {
 					{
 						2022,
 						10,
-						5
+						16
 					},
 					{
 						23,
@@ -4363,7 +4363,7 @@ pg.activity_template = {
 					{
 						2022,
 						10,
-						6
+						17
 					},
 					{
 						0,
@@ -4390,7 +4390,7 @@ pg.activity_template = {
 					{
 						2022,
 						10,
-						5
+						16
 					},
 					{
 						23,

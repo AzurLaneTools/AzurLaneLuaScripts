@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"카우보이와의 여행\n\n<size=45>四　骑马同行</size>",
+					"카우보이와의 여행\n\n<size=45>4. 말과 함께</size>",
 					1
 				}
 			}
