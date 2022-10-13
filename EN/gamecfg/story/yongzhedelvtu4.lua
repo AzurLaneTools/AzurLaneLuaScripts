@@ -90,7 +90,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "柚",
+			actorName = "Ayanami",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "I've figured out the dungeon's layout.",
@@ -105,7 +105,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "柚",
+			actorName = "Ayanami",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "This wall just ahead has a weak spot in its structure. Yes, I can do this.",

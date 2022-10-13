@@ -4722,12 +4722,12 @@ pg.activity_template = {
 			pt_id = 281,
 			enter = {
 				"shop1",
-				"欢迎光临喵",
+				"Welcome, nya!",
 				"login"
 			},
 			purchase = {
 				"shop3",
-				"谢谢惠顾喵~！",
+				"Thanks for your patronyage!",
 				"main_3"
 			}
 		}
@@ -24332,17 +24332,17 @@ pg.activity_template = {
 				"<color=#d797ff>Elite</color>：12%",
 				"<color=#3dc6ff>Rare</color>：26%",
 				"Common：55%",
+				"<color=#ffde38>Ryuuhou</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>Kazagumo</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>Suruga</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
 				"<color=#ffde38>Noshiro</color>：0.5%(<color=#92fc63>up!</color>)",
-				" ",
-				"<color=#d797ff>Kazagumo</color>：2.0%(<color=#92fc63>up!</color>)",
-				" ",
-				"<color=#d797ff>Suruga</color>：2.0%(<color=#92fc63>up!</color>)",
-				" ",
-				"<color=#d797ff>Ryuuhou</color>：2.0%(<color=#92fc63>up!</color>)",
 				" ",
 				"<color=#d797ff>Shirayuki</color>：2.5%(<color=#92fc63>up!</color>)",
 				" ",
-				"<color=#3dc6ff>Kasumi</color>：2.5%(<color=#92fc63>up!</color>)"
+				"<color=#d797ff>Kasumi</color>：2.5%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},

@@ -100000,7 +100000,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 1110140,
 		type = 3,
 		max_level = 10,
-		desc = "<color=#a2a2a2>(Locked)Once per battle, when one of your ships (excluding this ship) falls below 20.0% max HP as a result of DMG taken: restores $1 max HP to that ship and fires a special barrage (DMG is based on the skill's level). When this ship fires her Main Guns: 50.0% chance to restore $2 max HP to each ship in your Vanguard.</color>",
+		desc = "<color=#a2a2a2>(Locked) Once per battle, when one of your ships (excluding this ship) falls below 20.0% max HP as a result of DMG taken: restores $1 max HP to that ship and fires a special barrage (DMG is based on the skill's level). When this ship fires her Main Guns: 50.0% chance to restore $2 max HP to each ship in your Vanguard.</color>",
 		system_transform = {
 			[3.0] = 1010145
 		},

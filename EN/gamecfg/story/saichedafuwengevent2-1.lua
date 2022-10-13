@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "You hopped on Great Shark helped with an oil transport mission! Received 10 Oil!",
+			say = "You hopped on Great Shark and helped Akashi with an oil transport mission! Received 10 Oil!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
