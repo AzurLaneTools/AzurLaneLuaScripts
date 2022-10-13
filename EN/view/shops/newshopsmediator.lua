@@ -15,6 +15,7 @@ slot0.REFRESH_GUILD_SHOP = "NewShopsMediator:REFRESH_GUILD_SHOP"
 slot0.REFRESH_MEDAL_SHOP = "NewShopsMediator:REFRESH_MEDAL_SHOP"
 slot0.ON_GUILD_PURCHASE = "NewShopsMediator:ON_GUILD_PURCHASE"
 slot0.ON_META_SHOP = "NewShopsMediator:ON_META_SHOP"
+slot0.ON_ESKIN_PREVIEW = "NewShopsMediator:ON_ESKIN_PREVIEW"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_META_SHOP, function (slot0, slot1, slot2, slot3, slot4)
@@ -118,6 +119,37 @@ function slot0.register(slot0)
 				flagID = slot1
 			})
 		end
+	end)
+	slot0:bind(uv0.ON_ESKIN_PREVIEW, function (slot0, slot1)
+		slot2 = pg.equip_skin_template[slot1]
+		slot3 = Ship.New({
+			id = slot2.ship_config_id,
+			configId = slot2.ship_config_id,
+			skin_id = slot2.ship_skin_id
+		})
+		slot4 = {}
+
+		if slot2.ship_skin_id ~= 0 then
+			slot4 = {
+				equipSkinId = 0,
+				shipVO = slot3,
+				weaponIds = {},
+				weight = uv0.contextData.weight and uv0.contextData.weight + 1
+			}
+		else
+			slot5.weight = uv0.contextData.weight and uv0.contextData.weight + 1
+			slot4 = {
+				shipVO = slot3,
+				weaponIds = Clone(slot2.weapon_ids),
+				equipSkinId = slot1
+			}
+		end
+
+		uv0:addSubLayers(Context.New({
+			viewComponent = ShipPreviewLayer,
+			mediator = ShipPreviewMediator,
+			data = slot4
+		}))
 	end)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
 	slot0.viewComponent:UpdateItems(getProxy(BagProxy):getRawData())

@@ -3620,6 +3620,26 @@ _G.pg.base.gametip.spweapon_activity_ui_text2 = {
 	tip = "Augment Module Cores/Stones are used to craft and upgrade Augment Modules."
 }
 
+_G.pg.base.gametip.spweapon_tip_skill_locked = {
+	tip = "Locked"
+}
+
+_G.pg.base.gametip.spweapon_tip_owned = {
+	tip = "Owned: $1"
+}
+
+_G.pg.base.gametip.spweapon_tip_view = {
+	tip = "<material=underline event=displayDetail>View Details</material>"
+}
+
+_G.pg.base.gametip.spweapon_tip_ship = {
+	tip = "Equipable By"
+}
+
+_G.pg.base.gametip.spweapon_tip_type = {
+	tip = "Ship Type"
+}
+
 _G.pg.base.gametip.stage_beginStage_error = {
 	tip = "Failed to begin stage: "
 }
@@ -6530,6 +6550,10 @@ _G.pg.base.gametip.shop_extendequip_success = {
 	tip = "Gear storage expanded!"
 }
 
+_G.pg.base.gametip.shop_spweapon_success = {
+	tip = "Your Augment Module storage capacity has increased."
+}
+
 _G.pg.base.gametip.naval_academy_res_desc_cateen = {
 	tip = "This is where our girls get all their tasty meals! Upgrade to increase <color=#92fc63>Oil production</color> and <color=#92fc63>capacity</color>."
 }
@@ -7771,7 +7795,6 @@ _G.pg.base.gametip.ship_remould_warning_301874 = {
 The <color=#92fc63>Eau de Barbecue</color> will be used to complete the retrofit.
 Would you like to continue?
 Fully retrofitting this ship will have the following effects:
-
 <color=#92fc63>Torpedo base -1</color>,
 <color=#92fc63>Main Gun base +1</color>,
 <color=#92fc63>Nightmare of Solomon</color> will change to <color=#92fc63>Nightmare of Solomon+</color>,
@@ -10137,15 +10160,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Baltimore, Alabama added to standard build pool! "
+	tip = "Surugaadded to standard build pool! "
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Allen M. Sumner and others added to standard build pool! "
+	tip = "Noshiro, Kazagumo, Shirayuki and Kasumi added to standard build pool ! "
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Formidable added to standard build pool!"
+	tip = "Ryuuhou added to standard build pool!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -13171,25 +13194,16 @@ _G.pg.base.gametip.pocky_help = {
 _G.pg.base.gametip.secretary_help = {
 	tip = {
 		{
-			info = "About Secretary Groups:\n"
+			info = " - Random Secretary Setting - \nYou can enable the Random Secretary setting to have the game choose a random shipgirl with a random skin as your secretary, regardless of which shipgirls you have set in your secretary slots."
 		},
 		{
-			info = "1. Slots for Secretary Groups must be unlocked by clearing the corresponding Campaign stages. Multiple copies of the same ship may be added."
+			info = "1. After you toggle this setting on, the game will randomly choose a group of secretaries to display from among all the shipgirls in your dock which you have set as \"\"locked\"\" or \"\"favorite.\"\"\nAdditionally, the game will randomly choose a shipgirl among that group to display every time you return to the main menu."
 		},
 		{
-			info = "2. <color=#92fc63>Only the ship placed in the leftmost slot will receive Affinity.</color>"
+			info = "2. The game will assemble a new group of random secretaries to display twice every day, once at 8 AM and again at 7 PM. If you do not have enough eligible shipgirls to assemble a group, this setting will automatically be toggled off."
 		},
 		{
-			info = "3. When returning to home port, your secretary ship will be randomly selected from one of the ships assigned to Secretary Groups."
-		},
-		{
-			info = "4. By toggling \"\"Skin Settings\"\" to ON, you may view additional information about the outfits each ship is using."
-		},
-		{
-			info = "5. In the Secretary Groups interface, you may directly drag ships to change their position."
-		},
-		{
-			info = "6. When in the home port, you may use the Toggle function to change which secretary is currently displayed."
+			info = "3. Even with this feature enabled, regardless of which shipgirls the game chooses, only the original shipgirl set in your leftmost secretary slot will receive the passive secretary affection bonus.\nFurthermore, you may still set and change which shipgirls originally occupy your secretary slots even with this feature toggled on.\n},{info='4. If you disable this feature, the game will resume displaying the original shipgirls you have set in your secretary slots."
 		}
 	}
 }
@@ -13897,6 +13911,10 @@ _G.pg.base.gametip.index_awakening = {
 
 _G.pg.base.gametip.index_not_lvmax = {
 	tip = "Not Max Lvl"
+}
+
+_G.pg.base.gametip.index_spweapon = {
+	tip = "Unique Module"
 }
 
 _G.pg.base.gametip.decodegame_gametip = {
@@ -17502,7 +17520,7 @@ _G.pg.base.gametip.world_boss_maintenance = {
 }
 
 _G.pg.base.gametip.world_boss_inbattle = {
-	tip = "You are currently in an META Showdown, and are unable to begin another one. "
+	tip = "You have an active META Showdown and cannot initiate a new one."
 }
 
 _G.pg.base.gametip.world_automode_title_1 = {
@@ -21450,6 +21468,10 @@ _G.pg.base.gametip.technology_queue_in_doublecheck = {
 	tip = "Do you want to add this research to your queue? All research in your queue will be completed automatically in order. You cannot unqueue research."
 }
 
+_G.pg.base.gametip.playervtae_setting_btn_label = {
+	tip = "Settings"
+}
+
 _G.pg.base.gametip.technology_queue_in_success = {
 	tip = "Research has been added to your queue."
 }
@@ -21644,4 +21666,94 @@ _G.pg.base.gametip.cook_game_noshiro = {
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "1 bonus point for every 2 right desserts served!"
+}
+
+_G.pg.base.gametip.random_ship_on = {
+	tip = "The Random Secretary setting has been toggled ON."
+}
+
+_G.pg.base.gametip.random_ship_off_0 = {
+	tip = "The Random Secretary setting has been toggled OFF because you don't have enough eligible shipgirls."
+}
+
+_G.pg.base.gametip.random_ship_off = {
+	tip = "The Random Secretary setting has been toggled OFF. Your secretary slot settings have been restored to default."
+}
+
+_G.pg.base.gametip.random_ship_forbidden = {
+	tip = "You can't change your secretary slot because the Random Secretary setting is toggled ON."
+}
+
+_G.pg.base.gametip.random_ship_now = {
+	tip = "Secretary Settings"
+}
+
+_G.pg.base.gametip.random_ship_label = {
+	tip = "Random Secretary"
+}
+
+_G.pg.base.gametip.player_vitae_skin_setting = {
+	tip = "Skin Settings"
+}
+
+_G.pg.base.gametip.random_ship_tips1 = {
+	tip = "A new set of random shipgirls will appear as your secretaries at 8 AM and 7 PM daily."
+}
+
+_G.pg.base.gametip.random_ship_tips2 = {
+	tip = "You can change the settings of your individual secretary slots."
+}
+
+_G.pg.base.gametip.random_ship_before = {
+	tip = "Return to Random Secretary menu"
+}
+
+_G.pg.base.gametip.random_ship_and_skin_title = {
+	tip = "Random Skin"
+}
+
+_G.pg.base.gametip.random_ship_frequse_mode = {
+	tip = "Frequently used ships"
+}
+
+_G.pg.base.gametip.random_ship_locked_mode = {
+	tip = "Locked ships"
+}
+
+_G.pg.base.gametip.littleSpee_npc = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Little Spee will provisionally join your fleet. Fight boss fleets to earn Info Pts to exchange for Trust. Collect enough Trust to have Little Spee permanently join your port!"
+		},
+		{
+			info = [[
+- How to Play -
+· Collect Info Pts during the event period to trade in for Trust. Once you've gathered enough Trust, Little Spee will permanently join your fleet.
+· Info Pts can be gathered by defeating the boss fleet of campaign maps starting from Chapter 3 on normal difficulty. If Little Spee is in the fleet that defeats the boss and she is still afloat, you'll receive double the amount of points.
+· The Info Pts you've collected can be converted into Trust from the event banner. Accumulating certain amounts of Trust will grant you additional rewards.]]
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Little Spee until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
+		},
+		{
+			info = "· If Little Spee has not been formally recruited by the end of the event, she will leave the port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to October 19th."
+		},
+		{
+			info = "· Little Spee cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Little Spee cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
+}
+
+_G.pg.base.gametip.random_flag_ship = {
+	tip = "Random Secretary"
+}
+
+_G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
+	tip = "Change Skins"
 }

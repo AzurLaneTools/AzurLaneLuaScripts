@@ -6782,7 +6782,7 @@ _G.pg.base.item_data_statistics[15020] = {
 	link_id = 0,
 	id = 15020,
 	is_world = 0,
-	icon = "Props/15020",
+	icon = "Props/15019",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169550,6 +169550,69 @@ _G.pg.base.item_data_statistics[59349] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59350] = {
+	display = "\"The Pursuit of Little Spee event item. Removed after the event ends.\"",
+	name = "Info Pts",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59350,
+	is_world = 0,
+	icon = "Props/little_spee_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59351] = {
+	display = "\"Rising of the Ship Heroes! event item. Can be traded for items in the event shop. Removed after the event ends.\"",
+	name = "Gold",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59351,
+	is_world = 0,
+	icon = "Props/hero_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59360] = {
+	display = "\"Increases your Augment Module storage capacity by 10.\"",
+	name = "Augment Module Depot Expansion",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59360,
+	is_world = 0,
+	icon = "props/spweapon_expand",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -178168,7 +178231,7 @@ _G.pg.base.item_data_statistics[60233] = {
 
 _G.pg.base.item_data_statistics[60234] = {
 	display = "Used to decrypt intelligence in the \"Darkness Within Dawn\" mini-event. Removed after the event ends.",
-	name = "Intel Pt ",
+	name = "Info Pts",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,

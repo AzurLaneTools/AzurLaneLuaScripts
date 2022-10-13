@@ -4560,6 +4560,379 @@ pg.activity_template = {
 			ui_name = "EquipBoxVictoryPtPage"
 		}
 	},
+	[4541] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4541,
+		config_data = {
+			17998
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				17998
+			}
+		}
+	},
+	[4542] = {
+		mark = 20221013,
+		id = 4542,
+		title_res_tag = "littlespee_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4542,
+		is_show = 22,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LittleSpeePage",
+			ui_name = "LittleSpeePage"
+		},
+		config_client = {
+			activateStory = "WEIJIAOXIAOSIPEIBOJUE2",
+			performStory = "51002",
+			story = {
+				{
+					"WEIJIAOXIAOSIPEIBOJUE1"
+				},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			}
+		}
+	},
+	[4543] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4543,
+		config_data = {
+			1877,
+			1878,
+			1879,
+			1880,
+			1881,
+			1882,
+			1883,
+			1884,
+			1885,
+			1886
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_yongzhe",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "mingshi_live2d",
+			pt_id = 281,
+			enter = {
+				"shop1",
+				"欢迎光临喵",
+				"login"
+			},
+			purchase = {
+				"shop3",
+				"谢谢惠顾喵~！",
+				"main_3"
+			}
+		}
+	},
+	[4544] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4544,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4545] = {
+		mark = 20221013,
+		id = 4545,
+		title_res_tag = "MonopolyEp_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4545,
+		is_show = 22,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyPtPage",
+			ui_name = "MonopolyPtPage"
+		},
+		config_client = {
+			story = {
+				{
+					0,
+					"YONGZHEDELVTU1"
+				},
+				{
+					5,
+					"YONGZHEDELVTU2"
+				},
+				{
+					10,
+					"YONGZHEDELVTU3"
+				},
+				{
+					15,
+					"YONGZHEDELVTU4"
+				}
+			},
+			battle = {
+				{
+					20,
+					"51003"
+				}
+			}
+		}
+	},
+	[4546] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4546,
+		config_data = {
+			17999,
+			18000,
+			18001,
+			18002,
+			18003,
+			18004,
+			18005,
+			18006,
+			18007,
+			18008,
+			18009,
+			18010,
+			18011,
+			18012,
+			18013,
+			18014
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4547] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 21,
+		is_show = 0,
+		config_client = "",
+		id = 4547,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -23913,6 +24286,164 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30850] = {
+		mark = 20221012,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30850",
+		id = 30850,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "Rate UP for Noshiro、Kazagumo、Suruga and more！",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：26%",
+				"Common：55%",
+				"<color=#ffde38>Noshiro</color>：0.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>Kazagumo</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>Suruga</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>Ryuuhou</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>Shirayuki</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#3dc6ff>Kasumi</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[30851] = {
+		mark = 20221012,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30851",
+		id = 30851,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Baltimore, Alabama added to standard build pool!  ",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%"
+			}
+		}
+	},
+	[30852] = {
+		mark = 20221012,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30852",
+		id = 30852,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Allen M. Sumner and others added to standard build pool!  ",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -24022,6 +24553,13 @@ pg.activity_template = {
 		4538,
 		4539,
 		4540,
+		4541,
+		4542,
+		4543,
+		4544,
+		4545,
+		4546,
+		4547,
 		7001,
 		7002,
 		7003,
@@ -24673,6 +25211,9 @@ pg.activity_template = {
 		30846,
 		30847,
 		30848,
-		30849
+		30849,
+		30850,
+		30851,
+		30852
 	}
 }

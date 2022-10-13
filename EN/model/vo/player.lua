@@ -89,89 +89,78 @@ function slot0.Ctor(slot0, slot1)
 	slot0.banBackyardUploadTime = slot1.theme_upload_not_allowed_time or 0
 	slot0.rmb = slot1.rmb or 0
 	slot0.identityFlag = slot1.gm_flag
-	slot3 = slot1.random_skin or {}
-	slot0.prevRandomFlagShipTime = slot3.shipTimestamp or 0
-	slot0.prevRandomFlagShipSkinTime = slot3.skinTimestamp or 0
-	slot0.randomFlagShipSoltSetting = {}
-	slot4 = ipairs
-	slot5 = slot3.slotsflag or {}
-
-	for slot7, slot8 in slot4(slot5) do
-		slot0.randomFlagShipSoltSetting[slot7] = slot8
-	end
-
-	slot4 = getProxy(AppreciateProxy)
+	slot3 = getProxy(AppreciateProxy)
 
 	if slot1.appreciation then
-		slot5 = ipairs
-		slot6 = slot1.appreciation.gallerys or {}
+		slot4 = ipairs
+		slot5 = slot1.appreciation.gallerys or {}
 
-		for slot8, slot9 in slot5(slot6) do
-			slot4:addPicIDToUnlockList(slot9)
+		for slot7, slot8 in slot4(slot5) do
+			slot3:addPicIDToUnlockList(slot8)
 		end
 
-		slot5 = ipairs
-		slot6 = slot1.appreciation.musics or {}
+		slot4 = ipairs
+		slot5 = slot1.appreciation.musics or {}
 
-		for slot8, slot9 in slot5(slot6) do
-			slot4:addMusicIDToUnlockList(slot9)
+		for slot7, slot8 in slot4(slot5) do
+			slot3:addMusicIDToUnlockList(slot8)
 		end
 
-		slot5 = ipairs
-		slot6 = slot1.appreciation.favor_gallerys or {}
+		slot4 = ipairs
+		slot5 = slot1.appreciation.favor_gallerys or {}
 
-		for slot8, slot9 in slot5(slot6) do
-			slot4:addPicIDToLikeList(slot9)
+		for slot7, slot8 in slot4(slot5) do
+			slot3:addPicIDToLikeList(slot8)
 		end
 
-		slot5 = ipairs
-		slot6 = slot1.appreciation.favor_musics or {}
+		slot4 = ipairs
+		slot5 = slot1.appreciation.favor_musics or {}
 
-		for slot8, slot9 in slot5(slot6) do
-			slot4:addMusicIDToLikeList(slot9)
+		for slot7, slot8 in slot4(slot5) do
+			slot3:addMusicIDToLikeList(slot8)
 		end
 
 		if getProxy(AppreciateProxy):getResultForVer() then
 			pg.ConnectionMgr.GetInstance():Send(15300, {
 				type = 0,
-				ver_str = slot6
+				ver_str = slot5
 			})
-			slot5:clearVer()
+			slot4:clearVer()
 		end
 	end
 
 	if slot1.cartoon_read_mark then
-		slot4:initMangaReadIDList(slot1.cartoon_read_mark)
+		slot3:initMangaReadIDList(slot1.cartoon_read_mark)
 	end
 
 	if slot1.cartoon_collect_mark then
-		slot4:initMangaLikeIDList(slot1.cartoon_collect_mark)
+		slot3:initMangaLikeIDList(slot1.cartoon_collect_mark)
 	end
 
 	slot0.cdList = {}
-	slot5 = ipairs
-	slot6 = slot1.cd_list or {}
+	slot4 = ipairs
+	slot5 = slot1.cd_list or {}
 
-	for slot8, slot9 in slot5(slot6) do
-		slot0.cdList[slot9.key] = slot9.timestamp
+	for slot7, slot8 in slot4(slot5) do
+		slot0.cdList[slot8.key] = slot8.timestamp
 	end
 
 	slot0.commonFlagList = {}
-	slot5 = ipairs
-	slot6 = slot1.flag_list or {}
+	slot4 = ipairs
+	slot5 = slot1.flag_list or {}
 
-	for slot8, slot9 in slot5(slot6) do
-		slot0.commonFlagList[slot9] = true
+	for slot7, slot8 in slot4(slot5) do
+		slot0.commonFlagList[slot8] = true
 	end
 
 	slot0.registerTime = slot1.register_time
 	slot0.vipCards = {}
-	slot5 = ipairs
-	slot6 = slot1.card_list or {}
+	slot4 = ipairs
+	slot5 = slot1.card_list or {}
 
-	for slot8, slot9 in slot5(slot6) do
-		slot10 = VipCard.New(slot9)
-		slot0.vipCards[slot10.id] = slot10
+	for slot7, slot8 in slot4(slot5) do
+		slot9 = VipCard.New(slot8)
+		slot0.vipCards[slot9.id] = slot9
 	end
 
 	slot0:updateResources(slot1.resource_list)
@@ -620,48 +609,78 @@ function slot0.GetRegisterTime(slot0)
 	return slot0.registerTime
 end
 
-function slot0.GetPrevRandomFlagShipTime(slot0)
-	return slot0.prevRandomFlagShipTime
+function slot0.GetFlagShip(slot0)
+	slot1 = getProxy(SettingsProxy)
+	slot2 = slot1:getCurrentSecretaryIndex()
+	slot3 = nil
+
+	return (not slot1:IsOpenRandomFlagShip() or slot0:GetRandomFlagShip(slot2)) and slot0:GetNativeFlagShip(slot2)
 end
 
-function slot0.GetPrevRandomFlagShipSkinTime(slot0)
-	return slot0.prevRandomFlagShipSkinTime
-end
+function slot0.GetNativeFlagShip(slot0, slot1)
+	slot2 = getProxy(SettingsProxy)
 
-function slot0.SetPrevRandomFlagShipTime(slot0, slot1)
-	slot0.prevRandomFlagShipTime = slot1
-end
-
-function slot0.SetPrevRandomFlagShipSkinTime(slot0, slot1)
-	slot0.prevRandomFlagShipSkinTime = slot1
-end
-
-function slot0.CanRandomFlagShipInPos(slot0, slot1)
-	return slot1 ~= 1
-end
-
-function slot0.IsOpenRandomFlagShipInPos(slot0, slot1)
-	if not slot0:CanRandomFlagShipInPos(slot1) then
-		return false
+	if getProxy(PlayerProxy):getFlag("battle") then
+		slot2:setCurrentSecretaryIndex(math.random(#slot0.characters))
 	end
 
-	slot2 = slot0.randomFlagShipSoltSetting[slot1] or 0
+	if not getProxy(BayProxy):RawGetShipById(slot0.characters[slot1]) then
+		slot1 = 1
 
-	return slot2 == 2 or slot2 == 3
+		slot2:setCurrentSecretaryIndex(slot1)
+
+		slot3 = getProxy(BayProxy):RawGetShipById(slot0.characters[slot1])
+	end
+
+	return slot3
 end
 
-function slot0.IsOpenRandomFlagShipSkinInPos(slot0, slot1)
-	slot2 = slot0.randomFlagShipSoltSetting[slot1] or 0
+function slot0.GetRandomFlagShip(slot0, slot1)
+	slot3 = getProxy(SettingsProxy):GetRandomFlagShipList()
 
-	return slot2 == 1 or slot2 == 3
+	if getProxy(PlayerProxy):getFlag("battle") then
+		slot2:setCurrentSecretaryIndex(math.random(#slot3))
+	end
+
+	if not getProxy(BayProxy):RawGetShipById(slot3[slot1]) then
+		slot5 = {}
+
+		for slot9, slot10 in ipairs(slot3) do
+			if getProxy(BayProxy):RawGetShipById(slot10) then
+				table.insert(slot5, slot9)
+			end
+		end
+
+		if #slot5 > 0 then
+			slot6 = slot5[math.random(1, #slot5)]
+			slot4 = getProxy(BayProxy):RawGetShipById(slot3[slot6])
+			slot1 = slot6
+
+			slot2:setCurrentSecretaryIndex(slot6)
+		end
+	end
+
+	if not slot4 then
+		slot1 = 1
+
+		slot2:setCurrentSecretaryIndex(slot1)
+
+		slot4 = getProxy(BayProxy):RawGetShipById(slot0.characters[slot1])
+	end
+
+	return slot4
 end
 
-function slot0.RawGetRandomShipAndSkinValueInpos(slot0, slot1)
-	return slot0.randomFlagShipSoltSetting[slot1] or 0
-end
+function slot0.GetNextFlagShip(slot0)
+	slot1 = getProxy(SettingsProxy):rotateCurrentSecretaryIndex()
 
-function slot0.RawSetRandomShipAndSkinValueInpos(slot0, slot1, slot2)
-	slot0.randomFlagShipSoltSetting[slot1] = slot2
+	if getProxy(SettingsProxy):IsOpenRandomFlagShip() then
+		rawShip = slot0:GetRandomFlagShip(slot1)
+	else
+		rawShip = slot0:GetNativeFlagShip(slot1)
+	end
+
+	return rawShip
 end
 
 function slot0.IsOpenShipEvaluationImpeach(slot0)

@@ -5031,7 +5031,7 @@ pg.furniture_data_template = {
 		level = 1,
 		advice = 0,
 		rarity = 4,
-		tag = 6,
+		tag = 7,
 		comfortable = 4,
 		spine_action_replace = "",
 		belong = 1,
@@ -5131,6 +5131,101 @@ pg.furniture_data_template = {
 			{
 				"wuzangxunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[235] = {
+		effect = "",
+		name = "The Chosen One's Golden... Sword?",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A legendary weapon that comes with a laundry list of stat increases. Smells like fish.",
+		tag = 6,
+		icon = "jinhaibaoicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 235,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jinhaibao",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[236] = {
+		effect = "",
+		name = "Akashi's Smithing Furnace",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Makes your gear stronger, or destroys it if you're unlucky. Hope you know how to RNG manip!",
+		tag = 7,
+		icon = "duanzaoluicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 236,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"duanzaolu",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
 			}
 		},
 		interAction_group = {}
@@ -97841,6 +97936,8 @@ pg.furniture_data_template = {
 			232,
 			233,
 			234,
+			235,
+			236,
 			100002,
 			100003,
 			100004,
@@ -97999,6 +98096,8 @@ pg.furniture_data_template = {
 			232,
 			233,
 			234,
+			235,
+			236,
 			100002,
 			100003,
 			100004,
@@ -103983,8 +104082,8 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
-			233,
 			234,
+			235,
 			100002,
 			100003,
 			100004,
@@ -104019,6 +104118,8 @@ pg.furniture_data_template = {
 		},
 		[7] = {
 			211,
+			233,
+			236,
 			200001,
 			200002,
 			200003,
@@ -104740,6 +104841,8 @@ pg.furniture_data_template = {
 			226,
 			232,
 			234,
+			235,
+			236,
 			100002,
 			100004,
 			100005,
@@ -106934,6 +107037,8 @@ pg.furniture_data_template = {
 		232,
 		233,
 		234,
+		235,
+		236,
 		100002,
 		100003,
 		100004,

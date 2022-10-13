@@ -682,7 +682,13 @@ function slot0.didEnter(slot0)
 			triggerToggle(slot0.weaponToggle, true)
 			triggerButton(slot0.BatchDisposeBtn)
 		else
-			slot0.page = slot2 == StoreHouseConst.SKIN and uv1 or uv0
+			if slot2 == StoreHouseConst.SKIN then
+				slot0.page = uv1
+			elseif slot2 == StoreHouseConst.SPWEAPON then
+				slot0.page = uv2
+			else
+				slot0.page = uv0
+			end
 
 			triggerToggle(slot0.weaponToggle, true)
 		end
@@ -1473,6 +1479,12 @@ function slot0.SwitchToDestroy(slot0)
 
 	triggerToggle(slot0.weaponToggle, true)
 	triggerButton(slot0.BatchDisposeBtn)
+end
+
+function slot0.SwitchToSpWeaponStoreHouse(slot0)
+	slot0.page = uv0
+
+	triggerToggle(slot0.weaponToggle, true)
 end
 
 function slot0.willExit(slot0)

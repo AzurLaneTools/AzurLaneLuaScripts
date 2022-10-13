@@ -485,7 +485,7 @@ function slot8(slot0, slot1)
 
 		setText(slot6, slot16 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
-		assert(false, "don't use msgbox open equip")
+		setText(slot6, slot10)
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
 		slot13 = slot1.drop.cfg.desc
 

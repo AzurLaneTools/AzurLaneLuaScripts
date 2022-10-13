@@ -28,15 +28,15 @@ function slot0.GetBg(slot0, slot1)
 end
 
 function slot0.GetPaintingEnterVoice(slot0)
-	slot1, slot2 = slot0.shop:GetEnterVoice()
+	slot1, slot2, slot3 = slot0.shop:GetEnterVoice()
 
-	return slot2, slot1
+	return slot2, slot1, slot3
 end
 
 function slot0.GetPaintingCommodityUpdateVoice(slot0)
-	slot1, slot2 = slot0.shop:GetPurchaseVoice()
+	slot1, slot2, slot3 = slot0.shop:GetPurchaseVoice()
 
-	return slot2, slot1
+	return slot2, slot1, slot3
 end
 
 function slot0.GetPaintingTouchVoice(slot0)

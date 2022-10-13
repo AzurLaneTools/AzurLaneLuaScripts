@@ -791,6 +791,19 @@ pg.equip_skin_theme_template = {
 			655
 		}
 	},
+	[39] = {
+		id = 39,
+		name = "Hero's Journey",
+		ids = {
+			656,
+			657,
+			658,
+			659,
+			660,
+			661,
+			662
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -871,6 +884,7 @@ pg.equip_skin_theme_template = {
 		36,
 		37,
 		38,
+		39,
 		101,
 		102,
 		199

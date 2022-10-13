@@ -12754,6 +12754,40 @@ _G.pg.base.ship_skin_words[131170] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[131171] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "Huh...? Are we running...?",
+	propose = "",
+	expedition = "Commission complete... Do we have funds to cover Zed's gear?",
+	win_mvp = "Laffey is MVP... Yaaay...",
+	home = "Welcome back, Commander. Poke, poke. Shouldn't we head to the next dungeon?",
+	mission = "",
+	touch2 = "Must defeat... the pervert... Zzzzz...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Zzzzz... Good night... Laffey, is leveling up... Huh? Commander? Where'd all the monsters go...?",
+	mail = "",
+	touch = "Casting Explosion... on the Commander... Zzzzz...",
+	profile = "",
+	mission_complete = "I think I accidentally blew up the rewards... Oh, those weren't the rewards? Phew, thank goodness.",
+	feeling4 = "",
+	unlock = "Zzzzz... Good night... Laffey, is leveling up... Huh? Commander? Where'd all the monsters go...?",
+	feeling5 = "Commander, Laffey does not want to party up with you... No, it's because I don't want you to be in trouble. Instead of a party member, you can be an escort target...",
+	main = "I'm out of mana... No, I wasn't trying to use Oxy-Cola to restore MP...|I had a weird dream when I fell asleep in a treasure chest... But it was super comfy, so everything's fine...|Javelin, I'll hold on to the armor... Laffey's STR stat is high enough.",
+	battle = "Battle, start... Zzz...",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Zzzzz... A wild Commander appeared...",
+	vote = "",
+	hp_warning = "",
+	id = 131171,
+	detail = "After we get back to town, Laffey is going to hit up the tavern. And then go shopping with the others... How about you, Commander?",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[137030] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -14266,6 +14300,40 @@ _G.pg.base.ship_skin_words[201216] = {
 	hp_warning = "",
 	id = 201216,
 	detail = "Hehe~ Next time, I want all four of us to get on stage and perform together!",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[201217] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "I should've put some points into emergency healing like Jervis...",
+	propose = "",
+	expedition = "Our friends are back already, Commander! You shouldn't keep them waiting!",
+	win_mvp = "Victory is ours! I sure hope we can get some rare drops...",
+	home = "Good work, Commander! Let's head back to the Adventurer's Guild for a feast! They've got great food there~",
+	mission = "New quests, huh... Oh, these rewards look pretty juicy, Zed!",
+	touch2 = "Th-this isn't that kind of game!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "*pant* *pant*... I finally got it! The legendary hero's... Ah, d-don't worry about it! This thing might look a bit weird, but my ATK stat has indeed gone up!",
+	mail = "",
+	touch = "I wonder if you can use this piece of equipment as emergency food in a pinch...",
+	profile = "",
+	mission_complete = "We get our mission rewards here, but what about the quest completion bonus...?",
+	feeling4 = "",
+	unlock = "*pant* *pant*... I finally got it! The legendary hero's... Ah, d-don't worry about it! This thing might look a bit weird, but my ATK stat has indeed gone up!",
+	feeling5 = "",
+	main = "Is that... a Slimejuu? It's not very strong, but I don't want to end up all sticky... Laffey, I'll let you handle it!|Maybe I should buy a new set of equipment for myself too... Wait, no, getting Zed geared up should be our top priority!|Commander, are you hungry? Times like these call for... my super-convenient cooking set! As long as you have the ingredients, you can whip something up anytime, anywhere!",
+	battle = "Javelin the Brave Hero, full speed ahead!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Commander! Ehehe, I just got my hands on the legendary's hero's... Uh, thingamajig?",
+	vote = "",
+	hp_warning = "",
+	id = 201217,
+	detail = "The hero and her party will defeat the Demon King for sure! ...Now that I think about it, who's supposed to be the Demon King?",
 	couple_encourage = {}
 }
 
@@ -38901,6 +38969,40 @@ _G.pg.base.ship_skin_words[331054] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[331055] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "...Oh. The commission team's back. I'm sure it'll be a Great Success.",
+	win_mvp = "Your own body is the mightiest weapon. Javelin has yet to learn this, heh.",
+	home = "Welcome back, yes. First, we must cleanse Laffey's debuffs. Oh, she's just sleeping...?",
+	mission = "This quest looks pretty tough, yes. But if we all do our best, I'm sure we'll be able to clear it!",
+	touch2 = "Commander... *blushes*",
+	voice_key_2 = -1,
+	skill = "Taste the Demon's jump-kick!",
+	drop_descrip = "Ultimate Ability: Dynamic Kick! ...Oh, I used my skill on the wrong target. Sorry, can we try that again?",
+	mail = "A message from Akashi? Probably should take it with a grain of salt, yes.",
+	touch = "Commander, can you help me practice my ultimate ability?",
+	profile = "",
+	mission_complete = "The bonus rewards are in. We should set it aside for Zed's gear.",
+	feeling4 = "",
+	unlock = "Ultimate Ability: Dynamic Kick! ...Oh, I used my skill on the wrong target. Sorry, can we try that again?",
+	feeling5 = "",
+	main = "Sorry about the dungeon repair costs... There goes all of Zed's equipment funds... *sigh*...|By the way, Commander, what kind of role do you want to play? It'd be nice if you could play some sort of healer to support us.|Look at that...! It's a Meowfficer dressed up as a monster! Can you get EXP from defeating it?",
+	battle = "When it comes to multi-hit combos, Ayanami has the upper hand, yes!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Ultimate Ability: Dynamic Kick! ...Oh, good morning, Commander. I was just practicing my ultimate ability... Thankfully it didn't hit you, yes.",
+	vote = "",
+	hp_warning = "",
+	id = 331055,
+	detail = "I've seen through this dungeon's layout, yes. I've honed my senses by training with the legendary L.I., so you can count on me.",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[401010] = {
 	feeling1 = "How disappointing, Commander. You’re no fun at all.",
 	feeling3 = "Life is short, Commander, and I want to live life on the edge. If you are going to be my partner, you have to keep up. Now, let’s see that smile!",
@@ -42268,6 +42370,65 @@ _G.pg.base.ship_skin_words[403120] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[403130] = {
+	feeling1 = "Please, Commander... don't leave me all alone...",
+	feeling3 = "Ajax is a good friend. We play together all the time. But Deutschland says she's a big meanie... Also, what does it mean when Ajax calls someone her \"piggy\"?",
+	lose = "Ugghh... I wanna go home, Commander...",
+	propose = "Weee! I'm flying! Now I'm even taller than you! ...There we go... Hehehe, um, can you keep hugging me? Also, you have to super-duper promise you'll always stay with me!",
+	expedition = "Wow, look at all these rewards! Are these all from the commission team?",
+	win_mvp = "We've taken out all the baddies, Commander. That means there's no one left to bully us.",
+	home = "Zzz... Mgh... Commander... When will you be back...?",
+	mission = "Will you stay with me after our missions are done, Commander? I-if there are still lots to go, then forget I asked...",
+	touch2 = "Um, Deutschland said she'll tear you limb from limb if you touch me here... I-it's okay, I'll make sure she doesn't!",
+	voice_key_2 = -1,
+	skill = "Don't bully my friends!",
+	drop_descrip = "Deutschland-class armored cruiser – Admiral Graf Spee.",
+	mail = "Here's a letter for you, Commander. Darn it, the envelope is so small it's hard to hold on to...",
+	touch = "Give me another hug, Commander! Hehehe...",
+	profile = "I'm Admiral Graf Spee, Deutschland-class armored cruiser of the Iron Blood. I'm stronger than regular heavy cruisers because I've got a bigger bore than them!",
+	mission_complete = "A mission's been completed? Alright! I wonder if I'll ever get to help with them one day...",
+	feeling4 = "Thanks for always being here for me, Commander! I've made tons of friends, and I'm getting better at fighting... Life here is so much fun! Hehehe, can I give you a hug as thanks? Hehehe~",
+	unlock = "Hi. I'm Admiral Graf Spee, from the Iron Blood. Umm... I hope I can make lots of friends here... Will you be my friend, Commander?",
+	feeling5 = "You're my best friend and I love you, Commander! I wanna pinky promise with you that we'll be friends forever! But I guess that'd be hard since my hands are so big... Okay, how about shaking my pinky instead?",
+	main = "You're so focused on work that we barely have time to play... *sigh*... But I know I shouldn't annoy you, because I'm a good girl!|Commander, put this on. There we go! Now you can use steel hands of your own!|Talking to my friends is fun! We talk about food, funny stories, and even... Hehehe, well, everything!|Oh, it's totally empty... Um, this bag of snacks, I mean. The crunchy cones. Can I go to Akashi's store and buy more? Please?|World's... Cutest...? Deutschland, why do you have this sign?",
+	battle = "I'll do whatever it takes for my friends!",
+	upgrade = "I'll use this new strength to protect my friends!",
+	voice_key = 40313,
+	headtouch = "Whuah! Y-you surprised me there...",
+	feeling2 = "You're the first friend I've made since I came here. Hehehe, I thought you'd be too scared of my big steel hands. I try to only use them to scare bad people.",
+	login = "Oh, welcome back, Commander. I'm glad I'm not alone anymore. Hehehe...",
+	vote = "",
+	hp_warning = "I, I can't take much more...",
+	id = 403130,
+	detail = "I'll keep you safe when danger shows up. That's just what friends do for each other!",
+	couple_encourage = {
+		{
+			{
+				40304
+			},
+			1,
+			" You don't need to watch over me all the time...",
+			0
+		},
+		{
+			{
+				20203
+			},
+			1,
+			" You're not a meanie... right?",
+			0
+		},
+		{
+			{
+				20404
+			},
+			1,
+			" W-will you be my friend?",
+			0
+		}
+	}
+}
+
 _G.pg.base.ship_skin_words[404010] = {
 	feeling1 = "Cowards have no right to stand on the battlefield!",
 	feeling3 = "You've got a pretty nice fleet here. Being here makes me feel like giving it my all.",
@@ -44862,6 +45023,40 @@ _G.pg.base.ship_skin_words[431230] = {
 	hp_warning = "",
 	id = 431230,
 	detail = "I'm SO returning these kitties to Akashi... Although, I'd feel really guilty if I did that... Ugh, what's a girl to do...",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[431232] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "Ugh... What am I supposed to do with this kind of gear...",
+	propose = "",
+	expedition = "The commission rewards seem to have come in. Not that it'll solve this problem though...",
+	win_mvp = "I have to work harder to get gold and farm up a new set of gear!",
+	home = "W-welcome back... I'm still trying to get back what I lost... Sorry... Ugh, I can't let myself cry over this!",
+	mission = "Javelin, that quest might be a bit too tough. Wait, it's to cover my equipment costs...?",
+	touch2 = "Ugh... Why now of all times...?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "N-no way... I lost the gear I worked so hard for because the upgrade failed, and now I'm completely out of gold... Ugh, I'm going to have to go farm the dungeon all over again...",
+	mail = "New mail? I hope it's a quest invitation...",
+	touch = "I'll have to head back to the Guild to pick up another quest...",
+	profile = "",
+	mission_complete = "Jeez, Laffey! Don't accidentally set our rewards on fire!",
+	feeling4 = "",
+	unlock = "N-no way... I lost the gear I worked so hard for because the upgrade failed, and now I'm completely out of gold... Ugh, I'm going to have to go farm the dungeon all over again...",
+	feeling5 = "",
+	main = "I knew from the beginning that this might happen, but still... Ugh, I hope I'm not going to be a complete liability to the others...|You think it'd be a good idea for me to class-change to Fighter? I mean... I'm not as flexible as Ayanami!|My DEF stat is solid enough. Look, I have no problem fighting even in a swimsuit.",
+	battle = "Let's zone in, everyone!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "*sigh*... I knew I should've made some extra preparations before chancing Akashi's upgrades...",
+	vote = "",
+	hp_warning = "",
+	id = 431232,
+	detail = "You need a lot of money, whether you're trying to reforge your gear or buying a new set... How am I supposed to get that much gold anyway...?",
 	couple_encourage = {}
 }
 

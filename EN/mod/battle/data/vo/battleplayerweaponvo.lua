@@ -217,11 +217,11 @@ function slot3.GetCurrentWeapon(slot0)
 end
 
 function slot3.GetHeadWeapon(slot0)
-	return slot0:GetCurrentWeapon() or slot0._chargingList[1]
+	return slot0:GetCurrentWeapon() or slot0._chargingList[1] or slot0._overHeatList[1]
 end
 
-function slot3.IsMainType(slot0)
-	return true
+function slot3.GetCurrentWeaponIconIndex(slot0)
+	return 0
 end
 
 function slot3.Plus(slot0, slot1)

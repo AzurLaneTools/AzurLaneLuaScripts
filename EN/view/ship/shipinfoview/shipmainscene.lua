@@ -129,6 +129,7 @@ end
 
 function slot0.updateRecordEquipments(slot0, slot1)
 	slot0.shipDetailView:UpdateRecordEquipments(slot1)
+	slot0.shipDetailView:UpdateRecordSpWeapons(slot1)
 end
 
 function slot0.setModPanel(slot0, slot1)

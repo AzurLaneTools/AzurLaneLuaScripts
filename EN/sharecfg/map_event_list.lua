@@ -3046,6 +3046,56 @@ pg.map_event_list = {
 		help_pictures = {},
 		help_open = cc
 	},
+	[2200071] = {
+		help_open = 1,
+		chapter_id = 2200071,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_fc_1",
+			"helpbg/battle_fc_2"
+		}
+	},
+	[2200072] = {
+		help_open = 0,
+		chapter_id = 2200072,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_fc_1",
+			"helpbg/battle_fc_2"
+		}
+	},
+	[2200073] = {
+		help_open = 0,
+		chapter_id = 2200073,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_fc_1",
+			"helpbg/battle_fc_2"
+		}
+	},
+	[2200074] = {
+		help_open = 0,
+		chapter_id = 2200074,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_fc_1",
+			"helpbg/battle_fc_2"
+		}
+	},
+	[2200075] = {
+		help_open = 0,
+		chapter_id = 2200075,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_fc_1",
+			"helpbg/battle_fc_2"
+		}
+	},
 	all = {
 		1401,
 		1402,
@@ -3231,6 +3281,11 @@ pg.map_event_list = {
 		1680024,
 		1680025,
 		1680026,
-		1680041
+		1680041,
+		2200071,
+		2200072,
+		2200073,
+		2200074,
+		2200075
 	}
 }

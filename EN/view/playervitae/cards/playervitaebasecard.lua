@@ -24,8 +24,8 @@ function slot0.UpdatePosition(slot0, slot1)
 	slot0._tf:SetSiblingIndex(slot1 - 1)
 end
 
-function slot0.Update(slot0, slot1, slot2)
-	slot0:OnUpdate(slot1, slot2)
+function slot0.Update(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0:OnUpdate(slot1, slot2, slot3, slot4, slot5)
 	slot0:UpdatePosition(slot1)
 end
 

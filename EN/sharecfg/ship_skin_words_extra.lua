@@ -10957,6 +10957,88 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[403130] = {
+		upgrade = "",
+		feeling3 = "",
+		feeling5 = "",
+		main = "",
+		expedition = "",
+		win_mvp = "",
+		feeling4 = "",
+		unlock = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		feeling1 = "",
+		id = 403130,
+		lose = "",
+		login = {
+			{
+				1100,
+				"Welcome back, Commander! Hehehe, I want my daily hug now!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Zzz... Zzzzz... The Commander's still not home... I just wanna see you again..."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'll do whatever it takes for my friends, especially my best friend, the Commander!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hehehe, this makes me happy..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Honestly, I don't like fighting much... But I know we have to defeat the baddies so me and my friends can all play together every day!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Oh. Don't worry about me, Commander! I'm a good girl and I'd never distract you when you're trying to work!|Do you want some snacks too? Okay! ...Oh, wait, I need to take the steel hands off...|I've made lots of new friends, but I promise I'll never forget about you, Commander! Because you're my best friend ever!|Hey, look, it's Little Renown! Renown, over here! ...Huh? She's ignoring me... Was that really not Renown after all?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I love it when you hug me..."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Do you have new missions, Commander? I wanna help with them, even if just a little!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete. Hehehe, even if it wasn't much, I did manage to help!"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Hehehe, I've gotten better with my steel hands... Oops! I gripped too hard and squashed your mail! S-sorry..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hm? What's special about this part of me? Do you do this with everyone else too...?"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -11123,6 +11205,7 @@ pg.ship_skin_words_extra = {
 		404050,
 		403020,
 		401160,
-		101110
+		101110,
+		403130
 	}
 }

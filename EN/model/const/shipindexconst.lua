@@ -268,6 +268,7 @@ slot0.ExtraAwakening = bit.lshift(1, 5)
 slot0.ExtraAwakening2 = bit.lshift(1, 6)
 slot0.ExtraSpecial = bit.lshift(1, 7)
 slot0.ExtraProposeSkin = bit.lshift(1, 8)
+slot0.ExtraUniqueSpWeapon = bit.lshift(1, 9)
 slot0.ExtraIndexs = {
 	slot0.ExtraSkin,
 	slot0.ExtraRemould,
@@ -277,7 +278,8 @@ slot0.ExtraIndexs = {
 	slot0.ExtraAwakening,
 	slot0.ExtraAwakening2,
 	slot0.ExtraSpecial,
-	slot0.ExtraProposeSkin
+	slot0.ExtraProposeSkin,
+	slot0.ExtraUniqueSpWeapon
 }
 slot0.ExtraAll = IndexConst.BitAll(slot0.ExtraIndexs)
 
@@ -293,7 +295,8 @@ slot0.ExtraNames = {
 	"index_awakening",
 	"index_awakening2",
 	"index_special",
-	"index_propose_skin"
+	"index_propose_skin",
+	"index_spweapon"
 }
 
 function slot0.filterByExtra(slot0, slot1)
@@ -319,6 +322,8 @@ function slot0.filterByExtra(slot0, slot1)
 		return slot0:isSpecialFilter()
 	elseif slot1 == uv0.ExtraProposeSkin then
 		return slot0:hasProposeSkin()
+	elseif slot1 == uv0.ExtraUniqueSpWeapon then
+		return slot0:HasUniqueSpWeapon()
 	end
 
 	return false

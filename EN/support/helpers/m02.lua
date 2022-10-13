@@ -1458,6 +1458,25 @@ function openDestroyEquip()
 	})
 end
 
+function OpenSpWeaponPage()
+	if pg.m02:hasMediator(EquipmentMediator.__cname) then
+		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(EquipmentMediator) and slot2.data.shipId then
+			pg.m02:sendNotification(GAME.REMOVE_LAYERS, {
+				context = slot2
+			})
+		else
+			pg.m02:sendNotification(EquipmentMediator.SWITCH_TO_SPWEAPON_PAGE)
+
+			return
+		end
+	end
+
+	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.EQUIPSCENE, {
+		warp = StoreHouseConst.WARP_TO_WEAPON,
+		mode = StoreHouseConst.SPWEAPON
+	})
+end
+
 function openDockyardClear()
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 		blockLock = true,

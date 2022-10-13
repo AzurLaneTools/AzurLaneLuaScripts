@@ -93,6 +93,18 @@ function slot0.initScrollRect(slot0)
 					type = DROP_TYPE_ITEM,
 					id = Goods.COMMANDER_BAG_SIZE_ITEM
 				}).id
+			elseif slot0 == "spweapon_bag_size" then
+				if EquipmentProxy.MAX_SPWEAPON_BAG <= getProxy(EquipmentProxy):GetSpWeaponCapacity() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("charge_equip_bag_max"))
+
+					return
+				end
+
+				slot2 = ({
+					count = 1,
+					type = DROP_TYPE_ITEM,
+					id = Goods.SPWEAPON_BAG_SIZE_ITEM
+				}).id
 			else
 				slot1 = {
 					id = uv0.goodsVO:getConfig("effect_args")[1],

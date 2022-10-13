@@ -118,6 +118,10 @@ function slot0.getTargetLevel(slot0)
 	return math.min(slot0.level + slot0.isDayUnlock, #slot0.targets)
 end
 
+function slot0.GetLevel(slot0)
+	return slot0.level
+end
+
 function slot0.CanGetAward(slot0)
 	return slot0:CanGetNextAward() and (function ()
 		slot0, slot1, slot2 = uv0:GetResProgress()

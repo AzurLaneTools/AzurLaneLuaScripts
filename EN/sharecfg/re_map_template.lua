@@ -35,19 +35,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100016,
-			307061,
-			60
+		drop_gain = {
+			{
+				2100016,
+				4,
+				307061,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					307061
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					2,
@@ -81,7 +87,8 @@ pg.re_map_template = {
 			66,
 			100
 		},
-		character_gain = {},
+		drop_gain = {},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{
@@ -141,19 +148,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100036,
-			205071,
-			60
+		drop_gain = {
+			{
+				2100036,
+				4,
+				205071,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					205071
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -187,7 +200,8 @@ pg.re_map_template = {
 			66,
 			100
 		},
-		character_gain = {},
+		drop_gain = {},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{
@@ -248,19 +262,25 @@ pg.re_map_template = {
 			87,
 			100
 		},
-		character_gain = {
-			2100058,
-			401461,
-			60
+		drop_gain = {
+			{
+				2100058,
+				4,
+				401461,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					401461
 				},
 				"B4、D4"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -312,19 +332,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100076,
-			105121,
-			60
+		drop_gain = {
+			{
+				2100076,
+				4,
+				105121,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					105121
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -376,19 +402,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100096,
-			801011,
-			60
+		drop_gain = {
+			{
+				2100096,
+				4,
+				801011,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					801011
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					2,
@@ -440,19 +472,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100116,
-			301491,
-			60
+		drop_gain = {
+			{
+				2100116,
+				4,
+				301491,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					301491
 				},
 				"B2、D2"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -486,7 +524,8 @@ pg.re_map_template = {
 			66,
 			100
 		},
-		character_gain = {},
+		drop_gain = {},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{
@@ -546,19 +585,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100136,
-			305071,
-			60
+		drop_gain = {
+			{
+				2100136,
+				4,
+				305071,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					305071
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -592,7 +637,8 @@ pg.re_map_template = {
 			66,
 			100
 		},
-		character_gain = {},
+		drop_gain = {},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{
@@ -638,19 +684,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100156,
-			205051,
-			60
+		drop_gain = {
+			{
+				2100156,
+				4,
+				205051,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					205051
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -688,7 +740,16 @@ pg.re_map_template = {
 			80,
 			100
 		},
-		character_gain = {},
+		drop_gain = {
+			{},
+			{
+				2200045,
+				3,
+				89200,
+				60
+			}
+		},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{
@@ -749,19 +810,25 @@ pg.re_map_template = {
 			87,
 			100
 		},
-		character_gain = {
-			2100178,
-			605021,
-			60
+		drop_gain = {
+			{
+				2100178,
+				4,
+				605021,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					605021
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -795,7 +862,8 @@ pg.re_map_template = {
 			66,
 			100
 		},
-		character_gain = {},
+		drop_gain = {},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{
@@ -857,19 +925,25 @@ pg.re_map_template = {
 			70,
 			90
 		},
-		character_gain = {
-			2100196,
-			108031,
-			60
+		drop_gain = {
+			{
+				2100196,
+				4,
+				108031,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					108031
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -883,6 +957,76 @@ pg.re_map_template = {
 					11021
 				},
 				"D3"
+			}
+		}
+	},
+	[18] = {
+		memory_group = 177,
+		name = "浮樱影华常驻复刻",
+		activity_type = 1,
+		id = 18,
+		bg = "temp_fuying",
+		order = 18,
+		config_data = {
+			2100201,
+			2100202,
+			2100203,
+			2100204,
+			2100205,
+			2100206,
+			2100211,
+			2100212,
+			2100213,
+			2100214,
+			2100215,
+			2100216
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		drop_gain = {
+			{
+				2100216,
+				4,
+				302211,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					302211
+				},
+				"B3、D3"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11025
+				},
+				"D3"
+			},
+			{
+				{
+					2,
+					11018
+				},
+				"D2"
 			}
 		}
 	},
@@ -902,6 +1046,7 @@ pg.re_map_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

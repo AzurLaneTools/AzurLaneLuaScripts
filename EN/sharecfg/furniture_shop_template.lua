@@ -225,6 +225,41 @@ pg.furniture_shop_template = {
 			}
 		}
 	},
+	[236] = {
+		not_for_sale = 0,
+		gem_price = 150,
+		new = 1,
+		dorm_icon_price = 0,
+		id = 236,
+		discount = 0,
+		discount_time = "",
+		time = {
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[200003] = {
 		not_for_sale = 0,
 		gem_price = 100,
@@ -55966,6 +56001,7 @@ pg.furniture_shop_template = {
 		122,
 		123,
 		211,
+		236,
 		200003,
 		200001,
 		200002,

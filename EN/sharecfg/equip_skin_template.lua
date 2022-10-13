@@ -17823,6 +17823,244 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[656] = {
+		name = "Dynamic Kick Shell",
+		bullet_name = "zidan_yuedongfeiti",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Yes, I'm not even using 0.01% of my full power.",
+		themeid = 39,
+		id = 656,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "94211",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[657] = {
+		name = "Overpowered Explosion Shell",
+		bullet_name = "paodan_tutuhuoqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Much like a certain red-robed sorceress, Laffey tires out immediately after casting this devastating spell.",
+		themeid = 39,
+		id = 657,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "94212",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[658] = {
+		name = "Warrior's Axe Torpedo",
+		bullet_name = "yulei_zhanshizhifu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "The party had to grind for a good while to earn the gold to buy Z23 this new axe.",
+		themeid = 39,
+		id = 658,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "94221",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[659] = {
+		name = "Hero's Shield",
+		bullet_name = "",
+		desc = "This legendary shield is impervious to the Demon King's magic! Although, the party never even needed it.",
+		type = 1,
+		themeid = 39,
+		id = 659,
+		orbit_combat = "shebei_yongzhezhidun",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_yongzhezhidunui",
+		icon = "94241",
+		mirror = 0,
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				5,
+				-1.57,
+				0
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				215,
+				-558
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[660] = {
+		name = "Soaring Slime (Torpedo)",
+		bullet_name = "feiji_shilaimu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Don't worry, this one is on your side!",
+		themeid = 39,
+		id = 660,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "94231",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_zhanshizhifu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[661] = {
+		name = "Soaring Slime (Fighter)",
+		bullet_name = "feiji_shilaimu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Don't worry, this one is on your side!",
+		themeid = 39,
+		id = 661,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_tutuhuoqiu",
+		orbit_ui = "",
+		icon = "94231",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[662] = {
+		name = "Soaring Slime (Bomber)",
+		bullet_name = "feiji_shilaimu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "Don't worry, this one is on your side!",
+		themeid = 39,
+		id = 662,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_tutuhuoqiu",
+		orbit_ui = "",
+		icon = "94231",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "Joypad Shell (P)",
 		bullet_name = "Nep_bullet_shizi",
@@ -20322,6 +20560,13 @@ pg.equip_skin_template = {
 		653,
 		654,
 		655,
+		656,
+		657,
+		658,
+		659,
+		660,
+		661,
+		662,
 		1001,
 		1002,
 		1003,

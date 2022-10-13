@@ -1095,13 +1095,16 @@ function slot0.buildRemasterInfo(slot0)
 	slot0.remasterInfo = {}
 
 	for slot4, slot5 in ipairs(pg.re_map_template.all) do
-		if #pg.re_map_template[slot5].character_gain > 0 then
-			slot7, slot8, slot9 = unpack(slot6)
-			slot0.remasterInfo[slot7] = {
-				count = 0,
-				receive = false,
-				max = slot9
-			}
+		for slot9, slot10 in ipairs(pg.re_map_template[slot5].drop_gain) do
+			if #slot10 > 0 then
+				slot11, slot12, slot13, slot14 = unpack(slot10)
+				slot0.remasterInfo[slot11] = defaultValue(slot0.remasterInfo[slot11], {})
+				slot0.remasterInfo[slot11][slot9] = {
+					count = 0,
+					receive = false,
+					max = slot14
+				}
+			end
 		end
 	end
 end
@@ -1119,20 +1122,29 @@ function slot0.addRemasterPassCount(slot0, slot1)
 		return
 	end
 
-	if slot2.count < slot2.max then
-		slot2.count = slot2.count + 1
+	slot2 = nil
 
+	for slot6, slot7 in pairs(slot0.remasterInfo[slot1]) do
+		if slot7.count < slot7.max then
+			slot7.count = slot7.count + 1
+			slot2 = true
+		end
+	end
+
+	if slot2 then
 		slot0:sendNotification(uv0.CHAPTER_REMASTER_INFO_UPDATED)
 	end
 end
 
-function slot0.markRemasterPassReceive(slot0, slot1)
-	if not slot0.remasterInfo[slot1] then
+function slot0.markRemasterPassReceive(slot0, slot1, slot2)
+	slot3 = slot0.remasterInfo[slot1][slot2]
+
+	if not slot0.remasterInfo[slot1][slot2] then
 		return
 	end
 
-	if not slot2.receive then
-		slot2.receive = true
+	if not slot3.receive then
+		slot3.receive = true
 
 		slot0:sendNotification(uv0.CHAPTER_REMASTER_INFO_UPDATED)
 	end
@@ -1140,8 +1152,10 @@ end
 
 function slot0.anyRemasterAwardCanReceive(slot0)
 	for slot4, slot5 in pairs(slot0.remasterInfo) do
-		if slot5.count == slot5.max and not slot5.receive then
-			return slot4
+		for slot9, slot10 in pairs(slot5) do
+			if not slot10.receive and slot10.max <= slot10.count then
+				return true
+			end
 		end
 	end
 

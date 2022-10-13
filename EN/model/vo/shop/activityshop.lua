@@ -134,13 +134,13 @@ end
 
 function slot0.GetEnterVoice(slot0)
 	if slot0.config.config_client.enter then
-		return slot1[1], slot1[2]
+		return slot1[1], slot1[2], slot1[3]
 	end
 end
 
 function slot0.GetPurchaseVoice(slot0)
 	if slot0.config.config_client.purchase then
-		return slot1[1], slot1[2]
+		return slot1[1], slot1[2], slot1[3]
 	end
 end
 

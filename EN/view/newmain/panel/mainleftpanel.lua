@@ -97,7 +97,18 @@ function slot0.UpdateWordBtn(slot0, slot1)
 end
 
 function slot0.UpdateChangeSkinBtn(slot0)
-	setActive(slot0.changeSkinBtn, #getProxy(PlayerProxy):getRawData().characters > 1)
+	slot1 = nil
+
+	if getProxy(SettingsProxy):IsOpenRandomFlagShip() then
+		slot3 = getProxy(SettingsProxy)
+		slot1 = _.select(slot3:GetRandomFlagShipList(), function (slot0)
+			return getProxy(BayProxy):RawGetShipById(slot0) ~= nil
+		end)
+	else
+		slot1 = getProxy(PlayerProxy):getRawData().characters
+	end
+
+	setActive(slot0.changeSkinBtn, #slot1 > 1)
 end
 
 function slot0.GetDirection(slot0)

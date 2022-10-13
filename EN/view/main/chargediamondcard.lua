@@ -75,58 +75,58 @@ function slot0.updateForMonthTF(slot0, slot1, slot2)
 	slot10 = slot0.monthTF:Find("Price/Icon")
 
 	setText(slot0.monthTF:Find("Tip/Text"), i18n("monthly_card_tip"))
-	setText(slot0.monthTF:Find("ResCountText"), "x" .. slot1:getConfig("gem"))
+	setText(slot0.monthTF:Find("ResCountText"), "x" .. slot1:getConfig("gem") + slot1:getConfig("extra_gem"))
 
-	slot11 = slot1:getConfig("money")
+	slot12 = slot1:getConfig("money")
 
-	setText(slot0.monthTF:Find("Price/Text"), math.floor(slot11 / 100) .. "." .. slot11 - math.floor(slot11 / 100) * 100)
+	setText(slot0.monthTF:Find("Price/Text"), math.floor(slot12 / 100) .. "." .. slot12 - math.floor(slot12 / 100) * 100)
 
 	if PLATFORM_CODE == PLATFORM_CHT then
 		setActive(slot10, not slot1:IsLocalPrice())
 	end
 
 	if #slot1:getConfig("display") == 0 then
-		slot12 = slot1:getConfig("extra_service_item")
+		slot13 = slot1:getConfig("extra_service_item")
 	end
 
-	if slot12 and #slot12 > 0 then
-		slot13 = {}
+	if slot13 and #slot13 > 0 then
+		slot14 = {}
 
-		for slot17, slot18 in ipairs(slot12) do
-			table.insert(slot13, {
-				type = slot18[1],
-				id = slot18[2],
-				count = slot18[3]
+		for slot18, slot19 in ipairs(slot13) do
+			table.insert(slot14, {
+				type = slot19[1],
+				id = slot19[2],
+				count = slot19[3]
 			})
 		end
 
-		slot14 = UIItemList.New(slot7, slot6)
+		slot15 = UIItemList.New(slot7, slot6)
 
-		slot14:make(function (slot0, slot1, slot2)
+		slot15:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				updateDrop(slot2, uv0[slot1 + 1])
 			end
 		end)
-		slot14:align(#slot13)
+		slot15:align(#slot14)
 	end
 
-	if slot2:getCardById(VipCard.MONTH) and not slot13:isExpire() then
-		slot16 = math.floor((slot13:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
+	if slot2:getCardById(VipCard.MONTH) and not slot14:isExpire() then
+		slot17 = math.floor((slot14:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
 
-		setActive(slot8, (slot1:getConfig("limit_arg") or 0) < slot16)
-		setText(slot9, i18n("charge_month_card_lefttime_tip", slot16))
+		setActive(slot8, (slot1:getConfig("limit_arg") or 0) < slot17)
+		setText(slot9, i18n("charge_month_card_lefttime_tip", slot17))
 	else
 		setActive(slot8, false)
 	end
 
-	slot14 = MonthCardOutDateTipPanel.GetShowMonthCardTag()
-	slot16 = slot0.monthTF
+	slot15 = MonthCardOutDateTipPanel.GetShowMonthCardTag()
+	slot17 = slot0.monthTF
 
-	setActive(slot16:Find("monthcard_tag"), slot14)
+	setActive(slot17:Find("monthcard_tag"), slot15)
 
-	slot16 = slot0.monthTF
+	slot17 = slot0.monthTF
 
-	setActive(slot16:Find("NewTag"), not slot14)
+	setActive(slot17:Find("NewTag"), not slot15)
 	onButton(slot0.parentContext, slot3, function ()
 		triggerButton(uv0.tr)
 	end, SFX_PANEL)

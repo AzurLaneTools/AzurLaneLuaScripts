@@ -68554,6 +68554,164 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	},
+	[16090] = {
+		desc_get = "",
+		name = "Metal Gauntlet Mash!",
+		id = 16090,
+		type = 1,
+		max_level = 10,
+		desc = "Every 15s after the battle starts: fires a $1 special barrage (DMG is based on the skill's level). Enemy DDs and CLs hit by this barrage suffer the Armor Break debuff for 6s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[16100] = {
+		desc_get = "",
+		name = "For My Friends!",
+		id = 16100,
+		type = 3,
+		max_level = 10,
+		desc = "When the battle starts: increases this ship's FP and TRP by $1 for each afloat ship in your Vanguard. While at least 1 ship in your Vanguard has 50.0% or less max HP remaining: increases this ship's DMG dealt by $2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -96244,6 +96402,148 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	},
+	[1010510] = {
+		desc_get = "",
+		name = "Revolyutsiya+",
+		id = 1010510,
+		type = 3,
+		max_level = 10,
+		desc = "Increases your Vanguard's DMG dealt by $1. Every 20s: fires a $3 special barrage (DMG is based on the skill's level) and increases this ship's FP and TRP by $2 for 10s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"35.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[1010610] = {
 		desc_get = "",
 		name = "Burn Order+",
@@ -97686,110 +97986,101 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	},
-	[1110140] = {
+	[1090040] = {
 		desc_get = "",
-		name = "<color=#a2a2a2>Eagle's Tears+</color>",
-		id = 1110140,
-		type = 3,
+		name = "Wolf Pack Formation - U-557",
+		id = 1090040,
+		type = 1,
 		max_level = 10,
-		desc = "<color=#a2a2a2>(Locked)Once per battle, when one of your ships (excluding this ship) falls below 20.0% max HP as a result of DMG taken: restores $1 max HP to that ship and fires a special barrage (DMG is based on the skill's level). When this ship fires her Main Guns: 50.0% chance to restore $2 max HP to each ship in your Vanguard.</color>",
+		desc = "Increases this boat's TRP, ACC, and RLD by $1 for each Iron Blood SS in the same fleet. When this boat leaves the battle: fires a $2 special barrage based on the number of hits this boat scored with her torpedoes (DMG is based on the skill's level).",
 		system_transform = {
-			[3.0] = 1010145
+			[11.0] = 3500
 		},
 		world_death_mark = {
 			1
 		},
 		desc_get_add = {
 			{
-				"5%",
-				"15%"
+				"1.5%",
+				"6.0%"
 			},
 			{
-				"4%",
-				"10%"
+				"Lv.1",
+				"Lv.10"
 			}
 		},
 		desc_add = {
 			{
 				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
 					"5.0%",
-					"+1.1%"
+					"+0.5%"
 				},
 				{
-					"6.1%",
-					"+1.1%"
+					"5.5%",
+					"+0.5%"
 				},
 				{
-					"7.2%",
-					"+1.1%"
-				},
-				{
-					"8.3%",
-					"+1.1%"
-				},
-				{
-					"9.4%",
-					"+1.1%"
-				},
-				{
-					"10.5%",
-					"+1.1%"
-				},
-				{
-					"11.6%",
-					"+1.1%"
-				},
-				{
-					"12.7%",
-					"+1.1%"
-				},
-				{
-					"13.8%",
-					"+1.2%"
-				},
-				{
-					"15.0%"
+					"6.0%"
 				}
 			},
 			{
 				{
-					"4.0%",
-					"+0.6%"
+					"Lv.1"
 				},
 				{
-					"4.6%",
-					"+0.6%"
+					"Lv.2"
 				},
 				{
-					"5.2%",
-					"+0.8%"
+					"Lv.3"
 				},
 				{
-					"6.0%",
-					"+0.6%"
+					"Lv.4"
 				},
 				{
-					"6.6%",
-					"+0.6%"
+					"Lv.5"
 				},
 				{
-					"7.2%",
-					"+0.8%"
+					"Lv.6"
 				},
 				{
-					"8.0%",
-					"+0.6%"
+					"Lv.7"
 				},
 				{
-					"8.6%",
-					"+0.6%"
+					"Lv.8"
 				},
 				{
-					"9.2%",
-					"+0.8%"
+					"Lv.9"
 				},
 				{
-					"10.0%"
+					"Lv.10"
 				}
 			}
 		}
@@ -99703,6 +99994,114 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[1110140] = {
+		desc_get = "",
+		name = "<color=#a2a2a2>Eagle's Tears+</color>",
+		id = 1110140,
+		type = 3,
+		max_level = 10,
+		desc = "<color=#a2a2a2>(Locked)Once per battle, when one of your ships (excluding this ship) falls below 20.0% max HP as a result of DMG taken: restores $1 max HP to that ship and fires a special barrage (DMG is based on the skill's level). When this ship fires her Main Guns: 50.0% chance to restore $2 max HP to each ship in your Vanguard.</color>",
+		system_transform = {
+			[3.0] = 1010145
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"4%",
+				"10%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -100595,6 +100994,8 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		16060,
 		16070,
 		16080,
+		16090,
+		16100,
 		18010,
 		18040,
 		18050,
@@ -101302,6 +101703,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		1010140,
 		1010390,
 		1010410,
+		1010510,
 		1010610,
 		1010690,
 		1010730,
@@ -101313,7 +101715,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		1090010,
 		1090020,
 		1090030,
-		1110140,
+		1090040,
 		1110390,
 		1110410,
 		1110610,
@@ -101341,6 +101743,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		1902100,
 		1902110,
 		1902120,
-		1902130
+		1902130,
+		1110140
 	}
 }

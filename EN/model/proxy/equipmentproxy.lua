@@ -3,13 +3,14 @@ slot0.EQUIPMENT_ADDED = "equipment added"
 slot0.EQUIPMENT_UPDATED = "equipment updated"
 slot0.EQUIPMENT_SKIN_UPDATED = "equipment skin updated"
 slot0.SPWEAPONS_UPDATED = "spweapons updated"
+slot0.MAX_SPWEAPON_BAG = 2000
 
 function slot0.register(slot0)
 	slot0.data = {}
 	slot0.equipmentSkinIds = {}
 	slot0.shipIdListInTimeLimit = {}
 	slot0.spWeapons = {}
-	slot0.spWeaponBagSize = 0
+	slot0.spWeaponCapacity = 0
 
 	slot0:on(14001, function (slot0)
 		uv0.data.equipments = {}
@@ -27,7 +28,7 @@ function slot0.register(slot0)
 			uv0:AddSpWeapon(SpWeapon.CreateByNet(slot5))
 		end
 
-		uv0.spWeaponCapacity = slot0.spweapon_bag_size
+		uv0:AddSpWeaponCapacity(slot0.spweapon_bag_size)
 	end)
 	slot0:on(14101, function (slot0)
 		for slot4, slot5 in ipairs(slot0.equip_skin_list) do
@@ -319,8 +320,69 @@ function slot0.StaticGetSpWeapon(slot0, slot1)
 	return slot0 and slot0 > 0 and getProxy(BayProxy):getShipById(slot0) and slot2:GetSpWeapon() or getProxy(EquipmentProxy):GetSpWeaponByUid(slot1), nil
 end
 
+function slot0.GetSameTypeSpWeapon(slot0, slot1)
+	slot2 = nil
+	slot3 = slot1:GetConfigID()
+	slot4 = nil
+
+	while slot3 ~= 0 do
+		if SpWeapon.New({
+			id = slot3
+		}):GetRarity() ~= slot1:GetRarity() then
+			break
+		end
+
+		for slot8, slot9 in pairs(slot0:GetSpWeapons()) do
+			if slot9:GetConfigID() == slot3 then
+				slot2 = slot9
+
+				break
+			end
+		end
+
+		if slot2 then
+			break
+		else
+			slot3 = slot4:GetNextUpgradeID()
+		end
+	end
+
+	if not slot2 then
+		slot5 = slot1:GetPrevUpgradeID()
+		slot6 = nil
+
+		while slot5 ~= 0 do
+			if SpWeapon.New({
+				id = slot5
+			}):GetRarity() ~= slot1:GetRarity() then
+				break
+			end
+
+			for slot10, slot11 in pairs(slot0:GetSpWeapons()) do
+				if slot11:GetConfigID() == slot5 then
+					slot2 = slot11
+
+					break
+				end
+			end
+
+			if slot2 then
+				break
+			else
+				slot5 = slot6:GetPrevUpgradeID()
+			end
+		end
+	end
+
+	return slot2
+end
+
 function slot0.GetSpWeaponCapacity(slot0)
 	return slot0.spWeaponCapacity
+end
+
+function slot0.AddSpWeaponCapacity(slot0, slot1)
+	slot0.spWeaponCapacity = slot0.spWeaponCapacity + slot1
 end
 
 function slot0.GetSpWeaponCount(slot0)

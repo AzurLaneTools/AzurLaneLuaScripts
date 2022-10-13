@@ -5308,6 +5308,26 @@ pg.skill_data_display = {
 		id = 16083,
 		name = "Follow the Trends"
 	},
+	[16090] = {
+		id = 16090,
+		name = "Metal Gauntlet Mash!"
+	},
+	[16100] = {
+		id = 16100,
+		name = "For My Friends!"
+	},
+	[16101] = {
+		id = 16101,
+		name = "For My Friends!"
+	},
+	[16102] = {
+		id = 16102,
+		name = "For My Friends!"
+	},
+	[16105] = {
+		id = 16105,
+		name = "For My Friends!"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -8632,6 +8652,10 @@ pg.skill_data_display = {
 		id = 200040,
 		name = "Ashen Might - Lull"
 	},
+	[200102] = {
+		id = 200102,
+		name = "ENDLESS SLASH"
+	},
 	[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -8672,6 +8696,10 @@ pg.skill_data_display = {
 		id = 1010340,
 		name = "Armored Carrier+"
 	},
+	[1010511] = {
+		id = 1010511,
+		name = "Revolyutsiya+"
+	},
 	[1010580] = {
 		id = 1010580,
 		name = "Vampire's Kiss+"
@@ -8679,6 +8707,18 @@ pg.skill_data_display = {
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
+	},
+	[1090042] = {
+		id = 1090042,
+		name = "A Few 1-Cent Coins"
+	},
+	[1090043] = {
+		id = 1090043,
+		name = "A Fistful of 1-Cent Coins"
+	},
+	[1090044] = {
+		id = 1090044,
+		name = "A Boatload of 1-Cent Coins"
 	},
 	all = {
 		4,
@@ -10008,6 +10048,11 @@ pg.skill_data_display = {
 		16081,
 		16082,
 		16083,
+		16090,
+		16100,
+		16101,
+		16102,
+		16105,
 		18010,
 		18040,
 		18041,
@@ -10839,6 +10884,7 @@ pg.skill_data_display = {
 		200008,
 		200038,
 		200040,
+		200102,
 		1011540,
 		1011541,
 		1090010,
@@ -10849,7 +10895,11 @@ pg.skill_data_display = {
 		1090032,
 		1090033,
 		1010340,
+		1010511,
 		1010580,
-		1090020
+		1090020,
+		1090042,
+		1090043,
+		1090044
 	}
 }
