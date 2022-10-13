@@ -353,6 +353,7 @@ function slot0.initUI(slot0)
 	slot0.models = {}
 	slot0.anims = {}
 	slot0.modelIds = {}
+	slot0.clickModelTime = {}
 
 	for slot4 = 1, #uv0 do
 		slot5 = slot4
@@ -364,22 +365,47 @@ function slot0.initUI(slot0)
 
 		slot11:GetSpineChar(slot9:getPrefab(), true, function (slot0)
 			slot0.transform.localScale = Vector3.one
-			slot0.transform.localPosition = Vector3(uv0 * -230, 0, 0)
+			slot0.transform.localPosition = Vector3(0, 0, 0)
+			slot0.transform.anchorMin = Vector2(0.5, 0)
+			slot0.transform.anchorMax = Vector2(0.5, 0)
 
-			slot0.transform:SetParent(uv1.char, false)
-			table.insert(uv1.modelIds, uv2)
-			table.insert(uv1.models, slot0)
-			table.insert(uv1.anims, slot0:GetComponent(typeof(SpineAnimUI)))
+			slot0.transform:SetParent(findTF(uv0.char, uv1), false)
+			table.insert(uv0.modelIds, uv2)
+			table.insert(uv0.models, slot0)
+			table.insert(uv0.anims, slot0:GetComponent(typeof(SpineAnimUI)))
 
-			if #uv1.anims == #uv3 then
-				if uv1.charMaoxian then
-					uv1.charMaoxian = false
+			if #uv0.anims == #uv3 then
+				if uv0.charMaoxian then
+					uv0.charMaoxian = false
 
-					uv1:changeCharAction(uv4, 0, nil)
+					uv0:changeCharAction(uv4, 0, nil)
 				else
-					uv1:changeCharAction(uv5, 0, nil)
+					uv0:changeCharAction(uv5, 0, nil)
 				end
 			end
+
+			table.insert(uv0.clickModelTime, 0)
+			onButton(uv0._binder, findTF(uv0.char, uv1).transform, function ()
+				if not uv0 or not uv1 or uv2.inAnimatedFlag then
+					return
+				end
+
+				if Time.time - uv2.clickModelTime[uv3] < 3 then
+					return
+				end
+
+				uv2.clickModelTime[uv3] = Time.time
+
+				if LeanTween.isTweening(go(uv2.cellPos)) then
+					return
+				end
+
+				slot0 = uv2
+
+				slot0:setModelAnim(uv0, uv4, 1, function ()
+					uv0:setModelAnim(uv1, uv2, 0, nil)
+				end)
+			end, SFX_PANEL)
 		end)
 	end
 end
@@ -503,10 +529,11 @@ end
 function slot0.activityDataUpdata(slot0)
 	slot2 = ActivityPtData.New(getProxy(ActivityProxy):getActivityById(slot0.activityId))
 	slot3, slot4, slot5 = slot2:GetResProgress()
+	slot6 = slot2:GetLevel()
 	slot7 = slot2:CanGetAward()
 	slot8 = slot2:CanGetNextAward()
 
-	if 20 - slot2:GetLevel() < math.floor(slot3 / 500) then
+	if 20 - slot6 < math.floor(slot3 / 500) - slot6 then
 		slot10 = slot9
 	end
 

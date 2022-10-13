@@ -4023,9 +4023,9 @@ pg.pay_data_display = {
 		limit_args = {}
 	},
 	[4904] = {
-		subject = "特许巡游凭证",
+		subject = "特許巡遊憑證",
 		limit_group = 0,
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
 		type = 0,
 		limit_arg = 1,
 		name = "特許巡遊憑證（五期）",
@@ -4041,7 +4041,7 @@ pg.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.battlepass5",
 		first_pay_double = 0,
 		extra_service = 4,
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·曉限定换装和其他奖励",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵:曉限定換裝和其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.battlepass5",
 		extra_service_item = {
 			{
