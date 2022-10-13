@@ -3,43 +3,66 @@ slot0.story = false
 slot1 = 312011
 slot2 = 312010
 slot3 = "kaibaoxiang_boss"
-slot4 = "unknown3"
+slot4 = "kaibaoxiang_putong"
+slot5 = "unknown3"
 slot0.battle = false
-slot5 = {
+slot6 = {
 	201211,
 	401231,
 	301051,
 	101171
 }
-slot6 = {
+slot7 = {
 	201217,
 	431232,
 	331055,
 	131171
 }
-slot7 = 0.6
-slot8 = 100
-slot9 = "dafuweng_walk"
-slot10 = "stand"
-slot11 = "dafuweng_stand"
-slot12 = "dafuweng_jump"
-slot13 = "dafuweng_run"
-slot14 = "dafuweng_touch"
-slot15 = "maoxian_baoxiang"
-slot16 = "maoxian_gold"
-slot17 = "maoxian_item"
-slot18 = "maoxian_oil"
-slot19 = 35
-slot20 = 1
-slot21 = 2
-slot22 = "back"
-slot23 = "mid"
-slot24 = "front"
-slot25 = 2
-slot26 = 1920
-slot27 = 1080
-slot28 = false
-slot29 = 18
+slot8 = 0.6
+slot9 = 100
+slot10 = "dafuweng_walk"
+slot11 = "stand"
+slot12 = "dafuweng_stand"
+slot13 = "dafuweng_jump"
+slot14 = "dafuweng_run"
+slot15 = "dafuweng_touch"
+slot16 = "maoxian_baoxiang"
+slot17 = "maoxian_gold"
+slot18 = "maoxian_item"
+slot19 = "maoxian_oil"
+slot20 = 35
+slot21 = 1
+slot22 = 2
+slot23 = "back"
+slot24 = "mid"
+slot25 = "front"
+slot26 = 2
+slot27 = 1920
+slot28 = 1080
+slot29 = false
+slot30 = 0
+slot31 = {
+	700,
+	1400,
+	2100,
+	2800,
+	3500,
+	4200,
+	4900,
+	5600,
+	6300,
+	7000,
+	9000,
+	9650,
+	10200,
+	10900,
+	11600,
+	12300,
+	13000,
+	13800,
+	14500,
+	15430
+}
 
 function slot0.getUIName(slot0)
 	return "MonopolyPtUI"
@@ -70,14 +93,16 @@ function slot0.initMap(slot0)
 		slot0:createMap("ground_5")
 
 		if MonopolyPtScene.battle then
-			slot1 = slot0:getPtData()
-			slot2, slot3 = slot1:GetResProgress()
+			LeanTween.delayedCall(go(slot0._tf), 1, System.Action(function ()
+				slot0 = uv0:getPtData()
+				slot1, slot2 = slot0:GetResProgress()
 
-			pg.m02:sendNotification(GAME.ACT_NEW_PT, {
-				cmd = 1,
-				activity_id = slot1:GetId(),
-				arg1 = slot3
-			})
+				pg.m02:sendNotification(GAME.ACT_NEW_PT, {
+					cmd = 1,
+					activity_id = slot0:GetId(),
+					arg1 = slot2
+				})
+			end))
 
 			if slot0.baoxiangModel then
 				slot0:setModelAnim(slot0.baoxiangModel:GetComponent(typeof(SpineAnimUI)), "boss_kaiqi", 1, function ()
@@ -96,6 +121,22 @@ function slot0.initMap(slot0)
 		end
 	elseif slot0.useCount >= 20 then
 		slot0:createMap("ground_5")
+	end
+
+	if slot0.useCount > 0 then
+		if MonopolyPtScene.battle and slot0.useCount >= 19 then
+			slot0:updateMap(uv1[#uv1])
+		else
+			slot0:updateMap(uv1[slot0.useCount])
+		end
+
+		for slot4 = 1, 20 do
+			slot0.translate.anchoredPosition = Vector2(slot0.mid.anchoredPosition.x + slot0.distance, 0)
+
+			if slot0.mapTf:InverseTransformPoint(slot0.translate.position).x <= uv2 - 600 then
+				slot0:createMap()
+			end
+		end
 	end
 
 	if slot0.useCount == 0 and not MonopolyPtScene.story then
@@ -118,8 +159,28 @@ function slot0.initMap(slot0)
 	end
 end
 
+slot32 = {
+	1,
+	1,
+	1,
+	2,
+	3,
+	4,
+	4,
+	4,
+	5
+}
+
 function slot0.createMap(slot0, slot1)
-	if slot1 == "ground_2" or slot1 == "ground_3" or slot1 == "ground_5" then
+	if not slot0.mapIndexs then
+		slot0.mapIndexs = Clone(uv0)
+	end
+
+	if #slot0.mapIndexs == 0 then
+		return
+	end
+
+	if "ground_" .. table.remove(slot0.mapIndexs, 1) == "ground_2" or slot1 == "ground_3" or slot1 == "ground_5" then
 		if not slot0.onceMap then
 			slot0.onceMap = {}
 		end
@@ -166,14 +227,16 @@ function slot0.createMap(slot0, slot1)
 		slot0.char:SetAsLastSibling()
 	end
 
-	if slot1 == "ground_2" or slot1 == "ground_5" then
+	if slot1 == "ground_2" then
 		slot0.housePosition = findTF(slot5, "house/img").position
+	elseif slot1 == "ground_5" then
+		slot0.endPosition = findTF(slot5, "house/img").position
 	end
 
 	if slot1 == "ground_2" then
 		slot8 = Ship.New({
-			configId = uv0,
-			skin_id = uv1
+			configId = uv1,
+			skin_id = uv2
 		})
 		slot10 = PoolMgr.GetInstance()
 
@@ -189,7 +252,7 @@ function slot0.createMap(slot0, slot1)
 		if slot0.useCount <= 19 and not MonopolyPtScene.battle then
 			slot8 = PoolMgr.GetInstance()
 
-			slot8:GetSpineChar(uv3, true, function (slot0)
+			slot8:GetSpineChar(uv4, true, function (slot0)
 				uv0.enemyModel = slot0
 				uv0.enemyModel.transform.localScale = Vector3(0.4, 0.4, 0.4)
 				uv0.enemyModel.transform.localPosition = Vector3.zero
@@ -200,7 +263,7 @@ function slot0.createMap(slot0, slot1)
 		else
 			slot8 = PoolMgr.GetInstance()
 
-			slot8:GetSpineChar(uv4, true, function (slot0)
+			slot8:GetSpineChar(uv5, true, function (slot0)
 				uv0.baoxiangModel = slot0
 				uv0.baoxiangModel.transform.localScale = Vector3(0.3, 0.3, 0.3)
 				uv0.baoxiangModel.transform.localPosition = Vector3.zero
@@ -233,6 +296,7 @@ end
 
 function slot0.initData(slot0)
 	slot0.distance = 0
+	slot0.moveDistance = 0
 	slot0.activityId = slot0.contextData.config_id
 	slot0.leftCount = 0
 	slot0.inAnimatedFlag = false
@@ -289,6 +353,7 @@ function slot0.initUI(slot0)
 	slot0.models = {}
 	slot0.anims = {}
 	slot0.modelIds = {}
+	slot0.clickModelTime = {}
 
 	for slot4 = 1, #uv0 do
 		slot5 = slot4
@@ -300,22 +365,47 @@ function slot0.initUI(slot0)
 
 		slot11:GetSpineChar(slot9:getPrefab(), true, function (slot0)
 			slot0.transform.localScale = Vector3.one
-			slot0.transform.localPosition = Vector3(uv0 * -230, 0, 0)
+			slot0.transform.localPosition = Vector3(0, 0, 0)
+			slot0.transform.anchorMin = Vector2(0.5, 0)
+			slot0.transform.anchorMax = Vector2(0.5, 0)
 
-			slot0.transform:SetParent(uv1.char, false)
-			table.insert(uv1.modelIds, uv2)
-			table.insert(uv1.models, slot0)
-			table.insert(uv1.anims, slot0:GetComponent(typeof(SpineAnimUI)))
+			slot0.transform:SetParent(findTF(uv0.char, uv1), false)
+			table.insert(uv0.modelIds, uv2)
+			table.insert(uv0.models, slot0)
+			table.insert(uv0.anims, slot0:GetComponent(typeof(SpineAnimUI)))
 
-			if #uv1.anims == #uv3 then
-				if uv1.charMaoxian then
-					uv1.charMaoxian = false
+			if #uv0.anims == #uv3 then
+				if uv0.charMaoxian then
+					uv0.charMaoxian = false
 
-					uv1:changeCharAction(uv4, 0, nil)
+					uv0:changeCharAction(uv4, 0, nil)
 				else
-					uv1:changeCharAction(uv5, 0, nil)
+					uv0:changeCharAction(uv5, 0, nil)
 				end
 			end
+
+			table.insert(uv0.clickModelTime, 0)
+			onButton(uv0._binder, findTF(uv0.char, uv1).transform, function ()
+				if not uv0 or not uv1 or uv2.inAnimatedFlag then
+					return
+				end
+
+				if Time.time - uv2.clickModelTime[uv3] < 3 then
+					return
+				end
+
+				uv2.clickModelTime[uv3] = Time.time
+
+				if LeanTween.isTweening(go(uv2.cellPos)) then
+					return
+				end
+
+				slot0 = uv2
+
+				slot0:setModelAnim(uv0, uv4, 1, function ()
+					uv0:setModelAnim(uv1, uv2, 0, nil)
+				end)
+			end, SFX_PANEL)
 		end)
 	end
 end
@@ -439,10 +529,11 @@ end
 function slot0.activityDataUpdata(slot0)
 	slot2 = ActivityPtData.New(getProxy(ActivityProxy):getActivityById(slot0.activityId))
 	slot3, slot4, slot5 = slot2:GetResProgress()
+	slot6 = slot2:GetLevel()
 	slot7 = slot2:CanGetAward()
 	slot8 = slot2:CanGetNextAward()
 
-	if 20 - slot2:GetLevel() < math.floor(slot3 / 500) then
+	if 20 - slot6 < math.floor(slot3 / 500) - slot6 then
 		slot10 = slot9
 	end
 
@@ -482,27 +573,25 @@ function slot0.move(slot0, slot1, slot2)
 	slot3 = {}
 
 	table.insert(slot3, function (slot0)
-		slot1 = nil
-
-		if uv0.useCount < 9 then
-			slot1 = 800
-		elseif uv0.useCount > 10 then
-			slot1 = 800
+		if uv0.useCount >= #uv1 then
+			uv0.useCount = #uv1 - 1
 		end
 
+		slot1 = uv1[uv0.useCount + 1] - uv0.moveDistance
+
 		if uv0.useCount == 9 and uv0.housePosition then
-			slot1 = uv0.mid:InverseTransformPoint(uv0.housePosition).x - uv0.char.anchoredPosition.x
-		elseif uv0.useCount == 19 and uv0.housePosition then
-			slot1 = uv0.mid:InverseTransformPoint(uv0.housePosition).x - uv0.char.anchoredPosition.x
+			-- Nothing
+		elseif uv0.useCount == 19 and uv0.endPosition then
+			-- Nothing
 		elseif uv0.useCount == 10 then
-			uv0:createCell(1600)
+			uv0:createCell(slot1)
 		else
 			uv0:createCell(slot1)
 		end
 
 		slot3 = 0
 
-		uv0:changeCharAction(uv1, 0, nil)
+		uv0:changeCharAction(uv2, 0, nil)
 
 		slot4 = slot1 / (slot1 / 250 / 0.6)
 		slot5 = 0
@@ -526,38 +615,74 @@ function slot0.move(slot0, slot1, slot2)
 				slot0 = uv0:getStoryData(uv0.useCount + 1)
 			end
 
-			slot1 = uv0:getBattle(uv0.useCount + 1)
+			slot1 = uv0
+			slot1 = slot1:getBattle(uv0.useCount + 1)
+			slot2 = uv0.useCount + 1
+			slot3 = uv0
 
-			if uv0:getPtAwardData(uv0.useCount + 1)[1] == 1 and slot2[2] == 1 then
-				slot3 = uv0
+			slot3:changeCharAction(uv1, 0, nil)
 
-				slot3:setModelAnim(uv0.anims[1], uv1, 1, function ()
-					uv0:setModelAnim(uv0.anims[1], uv1, 0)
-				end)
-			elseif slot2[1] == 1 and slot2[2] == 2 then
-				slot3 = uv0
+			function slot3()
+				if uv0:getPtAwardData(uv1)[1] == 1 and slot0[2] == 1 then
+					slot1 = uv0
 
-				slot3:setModelAnim(uv0.anims[1], uv3, 1, function ()
-					uv0:setModelAnim(uv0.anims[1], uv1, 0)
-				end)
-			else
-				slot3 = uv0
+					slot1:setModelAnim(uv0.anims[1], uv2, 1, function ()
+						uv0:setModelAnim(uv0.anims[1], uv1, 0)
+					end)
+				elseif slot0[1] == 1 and slot0[2] == 2 then
+					slot1 = uv0
 
-				slot3:setModelAnim(uv0.anims[1], uv4, 1, function ()
-					uv0:setModelAnim(uv0.anims[1], uv1, 0)
-				end)
+					slot1:setModelAnim(uv0.anims[1], uv4, 1, function ()
+						uv0:setModelAnim(uv0.anims[1], uv1, 0)
+					end)
+				elseif slot0[1] == 2 and slot0[2] == 54016 then
+					slot1 = uv0
+
+					slot1:setModelAnim(uv0.anims[1], uv5, 1, function ()
+						uv0:setModelAnim(uv0.anims[1], uv1, 0)
+					end)
+				else
+					slot1 = uv0
+
+					slot1:setModelAnim(uv0.anims[1], uv6, 1, function ()
+						uv0:setModelAnim(uv0.anims[1], uv1, 0)
+					end)
+				end
+
+				for slot4 = 2, #uv0.anims do
+					slot5 = uv0
+
+					slot5:setModelAnim(uv0.anims[slot4], uv6, 1, function ()
+						uv0:setModelAnim(uv0.anims[uv1], uv2, 0)
+					end)
+				end
 			end
 
-			for slot6 = 2, #uv0.anims do
-				slot7 = uv0
+			if uv0.putongModel then
+				slot4 = uv0.putongModel
+				slot6 = uv0
 
-				slot7:setModelAnim(uv0.anims[slot6], uv5, 1, function ()
-					uv0:setModelAnim(uv0.anims[uv1], uv2, 0)
+				slot6:setModelAnim(slot4:GetComponent(typeof(SpineAnimUI)), "putong_kaiqi", 1, function ()
+					if uv0 then
+						uv1:setModelAnim(uv0, "putong_kai", 0, nil)
+					end
 				end)
+
+				uv0.putongModel = nil
 			end
 
 			if slot0 and tonumber(slot0) ~= 0 then
-				pg.NewStoryMgr.GetInstance():Play(slot0, uv6, true, true)
+				slot4 = pg.NewStoryMgr.GetInstance()
+
+				slot4:Play(slot0, function ()
+					if uv0 then
+						uv0()
+					end
+
+					LeanTween.delayedCall(go(uv1._tf), 1, System.Action(function ()
+						uv0()
+					end))
+				end, true, true)
 			elseif uv0.useCount == 19 and tonumber(slot1) ~= 0 and not MonopolyPtScene.battle then
 				MonopolyPtScene.battle = true
 
@@ -566,17 +691,8 @@ function slot0.move(slot0, slot1, slot2)
 					stageId = tonumber(slot1)
 				})
 			else
-				if uv0.baoxiangModel then
-					slot3 = uv0.baoxiangModel
-					slot5 = uv0
-
-					slot5:setModelAnim(slot3:GetComponent(typeof(SpineAnimUI)), "boss_kaiqi", 1, function ()
-						if uv0 then
-							setActive(uv0, false)
-						end
-					end)
-
-					uv0.baoxiangModel = nil
+				if slot3 then
+					slot3()
 				end
 
 				LeanTween.delayedCall(go(uv0._tf), 1, System.Action(function ()
@@ -646,9 +762,9 @@ function slot0.createCell(slot0, slot1, slot2)
 					slot0.transform.localPosition = Vector3.zero
 
 					slot0.transform:SetParent(findTF(uv0, "baoxiang"), false)
-					uv1:setModelAnim(slot0:GetComponent(typeof(SpineAnimUI)), "boss_guan", 0, nil)
+					uv1:setModelAnim(slot0:GetComponent(typeof(SpineAnimUI)), "putong_guan", 0, nil)
 
-					uv1.baoxiangModel = slot0
+					uv1.putongModel = slot0
 				else
 					table.insert(uv1.baoxiangCells, slot0)
 					setActive(slot0, false)
@@ -741,10 +857,7 @@ function slot0.updateMap(slot0, slot1, slot2)
 		end
 	end
 
-	if slot3.x <= uv0 - 600 and not slot2 then
-		slot1 = 0
-	end
-
+	slot0.moveDistance = slot0.moveDistance + slot1
 	slot0.back.anchoredPosition = Vector2(slot0.back.anchoredPosition.x - slot1, 0)
 	slot0.mid.anchoredPosition = Vector2(slot0.mid.anchoredPosition.x - slot1, 0)
 	slot0.front.anchoredPosition = Vector2(slot0.front.anchoredPosition.x - slot1, 0)
@@ -824,11 +937,11 @@ function slot0.willExit(slot0)
 	end
 
 	if slot0.baoxiangModel then
-		PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0.baoxiangModel)
+		PoolMgr.GetInstance():ReturnSpineChar(uv2, slot0.baoxiangModel)
 	end
 
 	if slot0.mingShimodel then
-		PoolMgr.GetInstance():ReturnSpineChar(uv2, slot0.mingShimodel)
+		PoolMgr.GetInstance():ReturnSpineChar(uv3, slot0.mingShimodel)
 	end
 
 	for slot4 = 1, #slot0.models do

@@ -33,10 +33,16 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if not slot8 and getProxy(EquipmentProxy):GetSpWeaponCapacity() <= getProxy(EquipmentProxy):GetSpWeaponCount() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_bag_no_enough"))
+	if not slot8 then
+		if not slot9:GetSpWeapon() then
+			return
+		end
 
-		return
+		if getProxy(EquipmentProxy):GetSpWeaponCapacity() <= getProxy(EquipmentProxy):GetSpWeaponCount() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_bag_no_enough"))
+
+			return
+		end
 	end
 
 	if slot8 then

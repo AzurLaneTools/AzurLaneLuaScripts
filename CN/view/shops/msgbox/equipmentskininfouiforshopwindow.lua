@@ -11,6 +11,10 @@ function slot0.OnLoaded(slot0)
 	slot0.displayDescTxt = slot0:findTF("info/display_panel/desc", slot0.displayPanel):GetComponent(typeof(Text))
 	slot0.playBtn = slot0:findTF("info/play_btn", slot0.displayPanel)
 	slot0.confirmBtn = slot0._tf:Find("display/actions/confirm")
+
+	setText(slot0:findTF("display/top/bg/infomation/title"), i18n("words_information"))
+	setText(slot0:findTF("display/actions/cancel/upgrade"), i18n("msgbox_text_cancel"))
+	setText(slot0:findTF("display/actions/confirm/change"), i18n("shop_word_exchange"))
 end
 
 function slot0.OnInit(slot0)

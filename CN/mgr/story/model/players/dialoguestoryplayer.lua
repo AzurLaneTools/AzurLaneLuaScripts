@@ -684,6 +684,12 @@ function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
 			slot6[slot10].material = slot0.glitchArtMaterial
 		end
 	end
+
+	if slot4 and GameObject.Find("/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/SpriteMask") and slot6.activeInHierarchy then
+		setActive(slot6, false)
+
+		slot0.spriteMask = slot6
+	end
 end
 
 function slot0.UpdateContent(slot0, slot1, slot2)
@@ -833,6 +839,14 @@ function slot0.Puase(slot0)
 
 	if slot0.typewriterSpeed ~= 0 then
 		slot0.typewriter:setSpeed(100000000)
+	end
+end
+
+function slot0.OnClear(slot0)
+	if slot0.spriteMask then
+		setActive(slot0.spriteMask, true)
+
+		slot0.spriteMask = nil
 	end
 end
 

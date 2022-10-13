@@ -39,9 +39,12 @@ function slot0.execute(slot0, slot1)
 
 		slot8:setEquipmentRecord(slot6.id, slot8.equipmentRecords)
 
-		slot10[slot4] = slot8:GetSpWeapon()
+		if not LOCK_SP_WEAPON then
+			slot10[slot4] = slot8:GetSpWeapon()
 
-		slot8:SetSpWeaponRecord(slot6.id, slot10)
+			slot8:SetSpWeaponRecord(slot6.id, slot10)
+		end
+
 		slot7:updateShip(slot8)
 	elseif slot5 == 2 then
 		slot11 = getProxy(EquipmentProxy)
@@ -109,26 +112,37 @@ function slot0.execute(slot0, slot1)
 				end
 			end
 
-			table.insert(slot1, function (slot0)
-				slot1 = uv0:GetSpWeapon()
+			if not LOCK_SP_WEAPON then
+				table.insert(slot1, function (slot0)
+					slot1 = uv0:GetSpWeapon()
 
-				if uv1 then
-					if not uv2 then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_noequip"))
-					elseif not slot1 or slot1:GetUID() ~= uv2:GetUID() then
+					if uv1 then
+						if not uv2 then
+							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_noequip"))
+
+							return
+						elseif not slot1 or slot1:GetUID() ~= uv2:GetUID() then
+							uv3:sendNotification(GAME.EQUIP_SPWEAPON_TO_SHIP, {
+								spWeaponUid = uv2:GetUID(),
+								shipId = uv4,
+								callback = slot0
+							})
+
+							return
+						end
+					elseif slot1 then
 						uv3:sendNotification(GAME.EQUIP_SPWEAPON_TO_SHIP, {
-							spWeaponUid = uv2:GetUID(),
 							shipId = uv4,
 							callback = slot0
 						})
+
+						return
 					end
-				else
-					uv3:sendNotification(GAME.EQUIP_SPWEAPON_TO_SHIP, {
-						shipId = uv4,
-						callback = slot0
-					})
-				end
-			end)
+
+					slot0()
+				end)
+			end
+
 			seriesAsync(slot1)
 		end
 

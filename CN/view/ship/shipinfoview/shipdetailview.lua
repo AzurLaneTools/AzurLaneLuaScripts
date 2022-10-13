@@ -945,6 +945,10 @@ function slot0.UpdateRecordEquipments(slot0, slot1)
 end
 
 function slot0.UpdateRecordSpWeapons(slot0, slot1)
+	if LOCK_SP_WEAPON then
+		return
+	end
+
 	slot2 = slot0:GetShipVO()
 	slot2 = slot2:GetSpWeaponRecord(slot0.shareData.player.id)
 

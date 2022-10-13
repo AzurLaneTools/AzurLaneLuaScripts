@@ -44,9 +44,16 @@ function slot0.OnUpdateFlush(slot0)
 
 	slot1, slot2, slot3 = slot0.ptData:GetLevelProgress()
 	slot4, slot5, slot6 = slot0.ptData:GetResProgress()
+	slot7 = slot0.ptData:GetLevel()
 
-	if 20 - slot0.ptData:GetLevel() < math.floor(slot4 / 500) then
+	if 20 - slot7 < math.floor(slot4 / 500) - slot7 then
 		slot9 = slot8
+	end
+
+	if slot8 == 0 then
+		setActive(findTF(slot0._tf, "AD/clear"), true)
+	else
+		setActive(findTF(slot0._tf, "AD/clear"), false)
 	end
 
 	setActive(findTF(slot0._tf, "AD/count"), slot9 > 0)
