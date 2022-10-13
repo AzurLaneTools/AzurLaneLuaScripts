@@ -24326,7 +24326,7 @@ pg.activity_template = {
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
-			buildship_tip = "Rate UP for Noshiro、Kazagumo、Suruga and more！",
+			buildship_tip = "Rate UP for Kazagumo、Suruga、Ryuuhou and more！",
 			rate_tip = {
 				"<color=#ffde38>Super Rare</color>：7%",
 				"<color=#d797ff>Elite</color>：12%",
@@ -24338,7 +24338,7 @@ pg.activity_template = {
 				" ",
 				"<color=#ffde38>Suruga</color>：2.0%(<color=#92fc63>up!</color>)",
 				" ",
-				"<color=#ffde38>Noshiro</color>：0.5%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>Noshiro</color>：0.5%",
 				" ",
 				"<color=#d797ff>Shirayuki</color>：2.5%(<color=#92fc63>up!</color>)",
 				" ",

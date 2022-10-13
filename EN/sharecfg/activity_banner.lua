@@ -183,7 +183,7 @@ pg.activity_banner = {
 			"scene level",
 			{
 				open_remaster = true,
-				isSP = true
+				isSP = false
 			}
 		},
 		time = {
