@@ -19605,26 +19605,26 @@ cs.gametip = {
 	},
 	random_ship_frequse_mode = {
 		729371,
-		109,
+		102,
 		true
 	},
 	random_ship_locked_mode = {
-		729480,
+		729473,
 		99,
 		true
 	},
 	littleSpee_npc = {
-		729579,
+		729572,
 		1583,
 		true
 	},
 	random_flag_ship = {
-		731162,
+		731155,
 		96,
 		true
 	},
 	random_flag_ship_changskinBtn_label = {
-		731258,
+		731251,
 		111,
 		true
 	}

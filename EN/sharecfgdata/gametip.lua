@@ -21734,7 +21734,7 @@ _G.pg.base.gametip.random_ship_and_skin_title = {
 }
 
 _G.pg.base.gametip.random_ship_frequse_mode = {
-	tip = "Frequently used ships"
+	tip = "Favorite ships"
 }
 
 _G.pg.base.gametip.random_ship_locked_mode = {
