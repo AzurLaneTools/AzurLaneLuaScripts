@@ -23,6 +23,7 @@ function slot0.init(slot0)
 
 	slot0.consumeSpweapons = {}
 	slot0.consumeItems = {}
+	slot0.loader = AutoLoader.New()
 end
 
 function slot0.InitUI(slot0)
@@ -35,6 +36,7 @@ function slot0.InitUI(slot0)
 	slot0.equipmentPanelIcon1 = slot0:findTF("Container/Equiptpl", slot0.equipmentPanel)
 	slot0.equipmentPanelIcon2 = slot0:findTF("Container/Equiptpl2", slot0.equipmentPanel)
 	slot0.equipmentPanelArrow = slot0:findTF("Container/Slot", slot0.equipmentPanel)
+	slot0.craftTargetCount = slot0:findTF("TotalCount", slot0.equipmentPanel)
 	slot0.materialPanel = slot0:findTF("MaterialPanel", slot0.rightPanel)
 	slot0.materialPanelAttrList = slot0:findTF("ScrollView/List", slot0.materialPanel)
 	slot0.materialPanelExpLv = slot0:findTF("ExpLv", slot0.materialPanel)
@@ -87,6 +89,10 @@ function slot0.InitUI(slot0)
 	slot0.leftPanelFilterButton = slot0:findTF("Equips/Top/Filter", slot0.leftPanel)
 
 	setText(slot0:findTF("TipText", slot0.leftPanel), i18n("spweapon_ui_helptext"))
+	setText(slot0:findTF("Ship/Detail", slot0.equipmentPanel), i18n("spweapon_tip_view"))
+	setText(slot0:findTF("Ship/Title", slot0.equipmentPanel), i18n("spweapon_tip_ship"))
+	setText(slot0:findTF("ShipType/Title", slot0.equipmentPanel), i18n("spweapon_tip_type"))
+	setText(slot0.craftTargetCount:Find("Tip"), i18n("spweapon_tip_owned", ""))
 	Canvas.ForceUpdateCanvases()
 end
 
@@ -156,79 +162,19 @@ function slot0.didEnter(slot0)
 	end)
 	onButton(slot0, slot0.leftPanelClearSelectButton, function ()
 		table.clear(uv0.consumeItems)
-		uv0:UpdateAll()
+		uv0:UpdateAll(true)
 	end, SFX_CANCEL)
 
-	slot0.leftPanelEquipScrollComp.isStart = true
-
-	slot0.leftPanelEquipScrollComp:EndLayout()
+	function slot0.leftPanelEquipScrollComp.onInitItem(slot0)
+		ClearTweenItemAlphaAndWhite(slot0.gameObject)
+	end
 
 	function slot0.leftPanelEquipScrollComp.onUpdateItem(slot0, slot1)
-		slot1 = tf(slot1)
+		uv0:UpdateEquipItemByIndex(slot0, slot1)
+	end
 
-		onButton(uv0, slot1, function ()
-			if uv0:GetSelectSpWeapon(uv0.candicateSpweapons[uv1]) then
-				return
-			end
-
-			if uv0.ptMax then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_upgrade"))
-
-				return true
-			end
-
-			seriesAsync({
-				function (slot0)
-					if not uv0:IsImportant() then
-						return slot0()
-					end
-
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						modal = true,
-						type = MSGBOX_TYPE_CONFIRM_DELETE,
-						title = pg.MsgboxMgr.TITLE_INFORMATION,
-						weight = LayerWeightConst.TOP_LAYER,
-						onYes = slot0,
-						data = {
-							name = uv0:GetName()
-						}
-					})
-				end,
-				function ()
-					table.insert(uv0.consumeSpweapons, uv1)
-					uv0:UpdateAll()
-				end
-			})
-		end)
-		onButton(uv0, slot1:Find("IconTpl/Reduce"), function ()
-			if not uv0:GetSelectSpWeapon(uv0.candicateSpweapons[uv1]) then
-				return
-			end
-
-			table.removebyvalue(uv0.consumeSpweapons, slot1)
-			uv0:UpdateAll()
-		end)
-
-		slot2 = uv0.candicateSpweapons[slot0 + 1]
-
-		updateSpWeapon(slot1:Find("IconTpl"), slot2)
-		setScrollText(slot1:Find("Mask/NameText"), slot2:GetName())
-
-		slot3 = slot2:GetShipId()
-
-		setActive(slot1:Find("EquipShip"), slot3)
-
-		if slot3 and slot3 > 0 then
-			setImageSprite(slot1:Find("EquipShip/Image"), LoadSprite("qicon/" .. getProxy(BayProxy):getShipById(slot3):getPainting()))
-		end
-
-		slot4 = uv0:GetSelectSpWeapon(slot2)
-
-		setActive(slot1:Find("IconTpl/Reduce"), slot4)
-
-		if slot4 then
-			setText(slot1:Find("IconTpl/Reduce/Text"), 1)
-		end
+	function slot0.leftPanelEquipScrollComp.onReturnItem(slot0, slot1)
+		ClearTweenItemAlphaAndWhite(go(slot1))
 	end
 
 	slot0.leftPanelItemRect:make(function (slot0, slot1, slot2)
@@ -240,14 +186,14 @@ function slot0.didEnter(slot0)
 					slot0()
 				end
 
-				uv0:UpdateAll()
+				uv0:UpdateAll(true)
 			end, nil, true, true, 0.15, SFX_PANEL)
 			pressPersistTrigger(slot2:Find("IconTpl/Reduce"), 0.5, function (slot0)
 				if uv0:UpdateSelectMaterial(uv0.candicateMaterials[uv1].id, -1) then
 					slot0()
 				end
 
-				uv0:UpdateAll()
+				uv0:UpdateAll(true)
 			end, nil, true, true, 0.15, SFX_PANEL)
 		elseif slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.candicateMaterials[slot1]
@@ -272,6 +218,78 @@ function slot0.didEnter(slot0)
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or Clone(uv1)
 
 	slot0:UpdateAll()
+end
+
+function slot0.UpdateEquipItemByIndex(slot0, slot1, slot2)
+	TweenItemAlphaAndWhite(slot2)
+	slot0:UpdateEquipItem(slot0.candicateSpweapons[slot1 + 1], slot2)
+end
+
+function slot0.UpdateEquipItem(slot0, slot1, slot2)
+	slot3 = tf(slot2)
+
+	onButton(slot0, slot3, function ()
+		if uv0:GetSelectSpWeapon(uv1) then
+			return
+		end
+
+		if uv0.ptMax then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_upgrade"))
+
+			return true
+		end
+
+		seriesAsync({
+			function (slot0)
+				if not uv0:IsImportant() then
+					return slot0()
+				end
+
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					modal = true,
+					type = MSGBOX_TYPE_CONFIRM_DELETE,
+					title = pg.MsgboxMgr.TITLE_INFORMATION,
+					weight = LayerWeightConst.TOP_LAYER,
+					onYes = slot0,
+					data = {
+						name = uv0:GetName()
+					}
+				})
+			end,
+			function ()
+				table.insert(uv0.consumeSpweapons, uv1)
+				uv0:UpdateAll(true)
+				uv0:UpdateEquipItem(uv1, uv2)
+			end
+		})
+	end)
+	onButton(slot0, slot3:Find("IconTpl/Reduce"), function ()
+		if not uv0:GetSelectSpWeapon(uv1) then
+			return
+		end
+
+		table.removebyvalue(uv0.consumeSpweapons, slot0)
+		uv0:UpdateEquipItem(uv1, uv2)
+		uv0:UpdateAll(true)
+	end)
+	updateSpWeapon(slot3:Find("IconTpl"), slot1)
+	setScrollText(slot3:Find("Mask/NameText"), slot1:GetName())
+
+	slot4 = slot1:GetShipId()
+
+	setActive(slot3:Find("EquipShip"), slot4)
+
+	if slot4 and slot4 > 0 then
+		setImageSprite(slot3:Find("EquipShip/Image"), LoadSprite("qicon/" .. getProxy(BayProxy):getShipById(slot4):getPainting()))
+	end
+
+	slot5 = slot0:GetSelectSpWeapon(slot1)
+
+	setActive(slot3:Find("IconTpl/Reduce"), slot5)
+
+	if slot5 then
+		setText(slot3:Find("IconTpl/Reduce/Text"), 1)
+	end
 end
 
 function slot0.UpdateSelectPt(slot0)
@@ -474,21 +492,21 @@ function slot0.AutoSelectMaterials(slot0)
 
 	_.each(slot8 and slot9 or slot4, function (slot0)
 		uv0:UpdateSelectMaterial(slot0.id, slot0.count)
-		uv0:UpdateAll()
+		uv0:UpdateAll(true)
 	end)
 end
 
-function slot0.UpdateAll(slot0)
+function slot0.UpdateAll(slot0, slot1)
 	slot0.craftMode = not slot0.spWeaponVO:IsReal() and uv0 or uv1
 
 	slot0:UpdateSelectPt()
 
-	slot1 = slot0.craftMode == uv1 and slot0.nextSpWeaponVO:GetConfigID() ~= slot0.spWeaponVO:GetConfigID()
+	slot2 = slot0.craftMode == uv1 and slot0.nextSpWeaponVO:GetConfigID() ~= slot0.spWeaponVO:GetConfigID()
 
-	setActive(slot0.equipmentPanelIcon2, slot1)
-	setActive(slot0.equipmentPanelArrow, slot1)
+	setActive(slot0.equipmentPanelIcon2, slot2)
+	setActive(slot0.equipmentPanelArrow, slot2)
 
-	if slot1 then
+	if slot2 then
 		updateSpWeapon(slot0.equipmentPanelIcon1, slot0.spWeaponVO)
 		updateSpWeapon(slot0.equipmentPanelIcon2, slot0.nextSpWeaponVO)
 		slot0:UpdateAttrs(slot0.materialPanelAttrList, slot0.spWeaponVO, slot0.nextSpWeaponVO)
@@ -497,9 +515,68 @@ function slot0.UpdateAll(slot0)
 		slot0:UpdateAttrs(slot0.materialPanelAttrList, slot0.nextSpWeaponVO)
 	end
 
+	setText(slot0.equipmentPanel:Find("Name"), slot0.nextSpWeaponVO:GetName())
+
+	slot3 = slot0.nextSpWeaponVO:IsUnique()
+
+	setActive(slot0.equipmentPanel:Find("ShipType"), not slot3)
+	setActive(slot0.equipmentPanel:Find("Ship"), slot3)
+
+	if slot3 then
+		slot5 = ShipGroup.getDefaultShipConfig(slot0.nextSpWeaponVO:GetUniqueGroup()) and slot4.id or nil
+
+		assert(slot5 and slot5 > 0)
+
+		if slot5 and slot5 > 0 then
+			slot0.loader:GetSprite("qicon/" .. Ship.New({
+				configId = slot5
+			}):getPainting(), nil, slot0.equipmentPanel:Find("Ship/Icon/Image"))
+
+			function slot7()
+				uv0:emit(BaseUI.ON_DROP, {
+					type = DROP_TYPE_SHIP,
+					id = uv1
+				})
+			end
+
+			slot0.equipmentPanel:Find("Ship/Detail"):GetComponent("RichText"):AddListener(slot7)
+			onButton(slot0, slot0.equipmentPanel:Find("Ship/Icon"), slot7)
+		end
+	else
+		slot4 = ShipType.FilterOverQuZhuType(_.filter(slot0.nextSpWeaponVO:GetWearableShipTypes(), function (slot0)
+			return table.contains(ShipType.AllShipType, slot0)
+		end))
+		slot8 = "ShipType/List"
+
+		CustomIndexLayer.Clone2Full(slot0.equipmentPanel:Find(slot8), #slot4)
+
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.loader:GetSprite("shiptype", ShipType.Type2CNLabel(slot9), slot0.equipmentPanel:Find("ShipType/List"):GetChild(slot8 - 1))
+		end
+	end
+
 	slot0:UpdateExpBar()
 	slot0:UpdateMaterials()
-	slot0:UpdatePtMaterials()
+	slot0:UpdatePtMaterials(slot1)
+	slot0:UpdateCraftTargetCount()
+end
+
+function slot0.UpdateCraftTargetCount(slot0)
+	setActive(slot0.craftTargetCount, slot0.craftMode == uv0)
+
+	if not slot0.craftMode == uv0 then
+		return
+	end
+
+	slot3 = slot0.craftTargetCount
+
+	setText(slot3:Find("Text"), _.reduce(slot0.spWeaponList, 0, function (slot0, slot1)
+		if uv0.nextSpWeaponVO:GetOrigin() == slot1:GetOrigin() then
+			slot0 = slot0 + 1
+		end
+
+		return slot0
+	end))
 end
 
 function slot0.UpdateAttrs(slot0, slot1, slot2, slot3)
@@ -508,13 +585,119 @@ function slot0.UpdateAttrs(slot0, slot1, slot2, slot3)
 	if slot0.craftMode == uv0 then
 		slot4 = SpWeaponHelper.TransformCompositeInfo(slot2)
 		slot5 = slot2:GetSkillGroup()
+		slot3 = slot2
 	elseif slot0.craftMode == uv1 then
 		slot3 = slot3 or slot2
 		slot4 = SpWeaponHelper.TransformUpgradeInfo(slot2, slot3)
 		slot5 = slot3:GetSkillGroup()
 	end
 
-	updateSpWeaponUpgradeInfo(slot1, slot4, slot5)
+	slot0:UpdateSpWeaponUpgradeInfo(slot1, slot4, slot5, slot3)
+end
+
+function slot0.UpdateSpWeaponUpgradeInfo(slot0, slot1, slot2, slot3, slot4)
+	removeAllChildren(slot1:Find("attrs"))
+
+	function slot6(slot0, slot1)
+		slot2 = slot0:Find("base")
+
+		setText(slot2:Find("name"), slot1.name)
+		setActive(slot2:Find("value"), true)
+		setText(slot2:Find("value"), slot1.value)
+		setActive(slot2:Find("effect"), false)
+		setActive(slot2:Find("value/up"), slot1.compare and slot1.compare > 0)
+		setActive(slot2:Find("value/down"), slot1.compare and slot1.compare < 0)
+		triggerToggle(slot2, slot1.lock_open)
+
+		if not slot1.lock_open and slot1.sub and #slot1.sub > 0 then
+			GetComponent(slot2, typeof(Toggle)).enabled = true
+		else
+			setActive(slot2:Find("name/close"), false)
+			setActive(slot2:Find("name/open"), false)
+
+			GetComponent(slot2, typeof(Toggle)).enabled = false
+		end
+	end
+
+	(function (slot0, slot1, slot2)
+		for slot6, slot7 in ipairs(slot2) do
+			uv0(cloneTplTo(slot1, slot0), slot7)
+		end
+	end)(slot1:Find("attrs"), slot1:Find("attr_tpl"), slot2)
+
+	slot8 = {}
+
+	if slot3[1].skillId > 0 then
+		table.insert(slot8, {
+			name = i18n("spweapon_attr_effect"),
+			effect = slot3[1]
+		})
+	end
+
+	if slot3[2].skillId > 0 then
+		table.insert(slot8, {
+			isSkill = true,
+			name = i18n("spweapon_attr_skillupgrade"),
+			effect = slot3[2]
+		})
+	end
+
+	function slot9(slot0, slot1)
+		slot2 = slot0:Find("base")
+		slot4 = slot1.effect
+
+		setText(slot2:Find("name"), slot1.name)
+		setActive(slot2:Find("value"), false)
+		setActive(slot2:Find("effect"), true)
+
+		slot5 = getSkillName(slot4.skillId)
+
+		if not slot4.unlock then
+			slot5 = setColorStr(slot5, "#a2a2a2")
+
+			setTextColor(slot2:Find("effect"), SummerFeastScene.TransformColor("a2a2a2"))
+		else
+			setTextColor(slot2:Find("effect"), SummerFeastScene.TransformColor("FFDE00"))
+		end
+
+		slot2:Find("effect"):GetComponent("RichText"):AddListener(function (slot0, slot1)
+			if slot0 == "displaySkill" then
+				slot2 = getSkillDesc(uv0.skillId, uv0.lv)
+
+				if not uv0.unlock then
+					slot2 = setColorStr(i18n("spweapon_tip_skill_locked") .. slot2, "#a2a2a2")
+				end
+
+				if not uv1.isSkill then
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						type = MSGBOX_TYPE_SINGLE_ITEM,
+						drop = {
+							type = DROP_TYPE_SPWEAPON,
+							id = uv2:GetConfigID()
+						},
+						name = uv3,
+						content = slot2
+					})
+				else
+					uv4:emit(SpWeaponUpgradeMediator.ON_SKILLINFO, uv0.skillId, uv0.unlock, 10)
+				end
+			end
+		end)
+		setText(slot2:Find("effect"), "<material=underline event=displaySkill>" .. slot5 .. "</material>")
+		setActive(slot2:Find("value/up"), false)
+		setActive(slot2:Find("value/down"), false)
+		triggerToggle(slot2, false)
+		setActive(slot2:Find("name/close"), false)
+		setActive(slot2:Find("name/open"), false)
+
+		GetComponent(slot2, typeof(Toggle)).enabled = false
+	end
+
+	(function (slot0, slot1, slot2)
+		for slot6, slot7 in ipairs(slot2) do
+			uv0(cloneTplTo(slot1, slot0), slot7)
+		end
+	end)(slot1:Find("attrs"), slot5, slot8)
 end
 
 function slot0.UpdateExpBar(slot0)
@@ -641,7 +824,7 @@ function slot0.UpdateMaterials(slot0)
 	setButtonEnabled(slot0.materialPanelButton, not slot0.upgradeMaxLevel)
 end
 
-function slot0.UpdatePtMaterials(slot0)
+function slot0.UpdatePtMaterials(slot0, slot1)
 	slot0.candicateMaterials = _.map(uv0, function (slot0)
 		return uv0.itemVOs[slot0] or Item.New({
 			count = 0,
@@ -653,39 +836,43 @@ function slot0.UpdatePtMaterials(slot0)
 		return slot0.id < slot1.id
 	end)
 
-	slot1 = table.equal(slot0.contextData.indexDatas, uv1)
+	slot2 = table.equal(slot0.contextData.indexDatas, uv1)
 
-	setActive(slot0.leftPanelFilterButton:Find("Off"), slot1)
+	setActive(slot0.leftPanelFilterButton:Find("Off"), slot2)
 
-	slot5 = "On"
+	slot6 = "On"
 
-	setActive(slot0.leftPanelFilterButton:Find(slot5), not slot1)
+	setActive(slot0.leftPanelFilterButton:Find(slot6), not slot2)
 
 	slot0.candicateSpweapons = {}
 
-	for slot5, slot6 in pairs(slot0.spWeaponList) do
-		if slot6:GetUID() ~= slot0.spWeaponVO:GetUID() and IndexConst.filterSpWeaponByType(slot6, slot0.contextData.indexDatas.typeIndex) and IndexConst.filterSpWeaponByRarity(slot6, slot0.contextData.indexDatas.rarityIndex) then
-			table.insert(slot0.candicateSpweapons, slot6)
+	for slot6, slot7 in pairs(slot0.spWeaponList) do
+		if slot7:GetUID() ~= slot0.spWeaponVO:GetUID() and IndexConst.filterSpWeaponByType(slot7, slot0.contextData.indexDatas.typeIndex) and IndexConst.filterSpWeaponByRarity(slot7, slot0.contextData.indexDatas.rarityIndex) then
+			table.insert(slot0.candicateSpweapons, slot7)
 		end
 	end
 
-	slot2 = SpWeaponSortCfg
-	slot3 = true
+	slot3 = SpWeaponSortCfg
+	slot4 = true
 
 	table.sort(slot0.candicateSpweapons, function (slot0, slot1)
 		return uv0.sortFunc(slot0, slot1, uv0.sort[1], uv1)
 	end)
 	slot0.leftPanelItemRect:align(#slot0.candicateMaterials)
-	slot0.leftPanelEquipScrollComp:SetTotalCount(#slot0.candicateSpweapons)
+
+	if not slot1 then
+		slot0.leftPanelEquipScrollComp:SetTotalCount(#slot0.candicateSpweapons)
+	end
+
 	setActive(slot0.leftPanelAutoSelectButton:Find("On"), not slot0.ptMax)
 	setActive(slot0.leftPanelAutoSelectButton:Find("Off"), slot0.ptMax)
 	setButtonEnabled(slot0.leftPanelAutoSelectButton, not slot0.ptMax)
 
-	slot4 = #slot0.consumeItems > 0
+	slot5 = #slot0.consumeItems > 0
 
-	setActive(slot0.leftPanelClearSelectButton:Find("On"), slot4)
-	setActive(slot0.leftPanelClearSelectButton:Find("Off"), not slot4)
-	setButtonEnabled(slot0.leftPanelClearSelectButton, slot4)
+	setActive(slot0.leftPanelClearSelectButton:Find("On"), slot5)
+	setActive(slot0.leftPanelClearSelectButton:Find("Off"), not slot5)
+	setButtonEnabled(slot0.leftPanelClearSelectButton, slot5)
 end
 
 function slot0.UpdateSelectMaterial(slot0, slot1, slot2)
@@ -747,6 +934,7 @@ end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0.loader:Clear()
 end
 
 return slot0

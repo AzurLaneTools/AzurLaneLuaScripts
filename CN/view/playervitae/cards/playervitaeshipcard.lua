@@ -19,6 +19,8 @@ function slot0.OnInit(slot0)
 	slot0.randomTr = slot0._tf:Find("mask1")
 	slot0.randomSkinBtn = slot0.randomTr:Find("random_skin")
 	slot0.randomShipBtn = slot0.randomTr:Find("random_ship")
+	slot0.tipTime = 0
+	slot0.nativeTr = slot0._tf:Find("mask_2")
 	slot1 = slot0.editTr:Find("tpl")
 	slot0.btns = {
 		PlayerVitaeSpineBtn.New(slot1, PlayerVitaeBaseBtn.VEC_TYPE),
@@ -34,6 +36,15 @@ function slot0.OnInit(slot0)
 			return
 		end
 
+		if not uv0.canClick then
+			if uv0:ShouldTip() then
+				uv0:SetNextTipTime()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_forbidden"))
+			end
+
+			return
+		end
+
 		uv0:emit(PlayerVitaeMediator.CHANGE_PAINT, uv0.displayShip)
 	end, SFX_PANEL)
 
@@ -42,6 +53,15 @@ function slot0.OnInit(slot0)
 	slot0:RegisterEvent()
 	setText(slot0.randomSkinBtn:Find("Text"), i18n("random_ship_skin_label"))
 	setText(slot0.randomShipBtn:Find("Text"), i18n("random_ship_label"))
+	setText(slot0.changskinBtn:Find("Text"), i18n("random_flag_ship_changskinBtn_label"))
+end
+
+function slot0.ShouldTip(slot0)
+	return slot0.tipTime <= pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+function slot0.SetNextTipTime(slot0)
+	slot0.tipTime = pg.TimeMgr.GetInstance():GetServerTime() + 3
 end
 
 function slot0.RegisterEvent(slot0)
@@ -50,6 +70,15 @@ function slot0.RegisterEvent(slot0)
 
 	slot1:AddBeginDragFunc(function ()
 		if uv0.inEdit then
+			return
+		end
+
+		if not uv0.canClick then
+			if uv0:ShouldTip() then
+				uv0:SetNextTipTime()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_forbidden"))
+			end
+
 			return
 		end
 
@@ -63,6 +92,10 @@ function slot0.RegisterEvent(slot0)
 			return
 		end
 
+		if not uv0.canClick then
+			return
+		end
+
 		slot2 = uv0:Change2RectPos(uv0._tf.parent, slot1.position)
 		uv0._tf.localPosition = Vector3(slot2.x, uv0._tf.localPosition.y, 0)
 
@@ -70,6 +103,10 @@ function slot0.RegisterEvent(slot0)
 	end)
 	slot1:AddDragEndFunc(function (slot0, slot1)
 		if uv0.inEdit then
+			return
+		end
+
+		if not uv0.canClick then
 			return
 		end
 
@@ -83,21 +120,25 @@ function slot0.Change2RectPos(slot0, slot1, slot2)
 	return LuaHelper.ScreenToLocal(slot1, slot2, GameObject.Find("OverlayCamera"):GetComponent("Camera"))
 end
 
-function slot0.OnUpdate(slot0, slot1, slot2)
+function slot0.OnUpdate(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0.canClick = slot4 ~= PlayerVitaeShipsPage.RANDOM_FLAG_SHIP_PAGE
 	slot0.slotIndex = slot1
 	slot0.typeIndex = slot2
-	slot0.playerInfo = getProxy(PlayerProxy):getRawData()
-	slot4 = getProxy(BayProxy):RawGetShipById(slot0.playerInfo.characters[slot2])
+	slot0.shipIds = slot3
+	slot0.pageType = slot4
+	slot0.native = slot5
+	slot7 = getProxy(BayProxy):RawGetShipById(slot3[slot2])
 
-	if not slot0.displayShip or slot0.displayShip.skinId ~= slot4.skinId then
-		slot0:UpdateShip(slot4)
+	if not slot0.displayShip or slot0.displayShip.skinId ~= slot7.skinId then
+		slot0:UpdateShip(slot7)
 	end
 
-	setActive(slot0.changskinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot4))
+	setActive(slot0.changskinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot7))
+	setActive(slot0.nativeTr, slot0.canClick and slot0.native)
 end
 
 function slot0.Refresh(slot0)
-	slot0:OnUpdate(slot0.slotIndex, slot0.typeIndex)
+	slot0:OnUpdate(slot0.slotIndex, slot0.typeIndex, slot0.shipIds, slot0.pageType, slot0.native)
 
 	if isActive(slot0.editTr) then
 		slot0:UpdateBtns()
@@ -209,6 +250,8 @@ function slot0.EditCard(slot0, slot1)
 	slot0:UpdateBtns()
 
 	slot0.inEdit = slot1
+
+	setActive(slot0.nativeTr, slot0.canClick and slot0.native and not slot0.inEdit)
 end
 
 function slot0.UpdateBtns(slot0)

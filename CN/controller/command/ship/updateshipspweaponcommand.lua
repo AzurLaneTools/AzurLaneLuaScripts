@@ -2,55 +2,56 @@ slot0 = class("UpdateShipSpWeaponCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot4 = slot2.shipId
-	slot5 = getProxy(BayProxy)
-	slot6 = getProxy(EquipmentProxy)
-	slot7 = nil
+	slot5 = slot2.callback
+	slot6 = getProxy(BayProxy)
+	slot7 = getProxy(EquipmentProxy)
+	slot8 = nil
 
 	if (slot1:getBody().spWeaponUid or 0) and slot3 ~= 0 then
-		slot7 = slot6:GetSpWeaponByUid(slot3)
+		slot8 = slot7:GetSpWeaponByUid(slot3)
 
-		assert(slot7, "不存在该特殊兵装" .. slot3)
+		assert(slot8, "不存在该特殊兵装" .. slot3)
 
-		if not slot7 then
+		if not slot8 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_equipToShip_error_noEquip"))
 
 			return
 		end
 	end
 
-	if slot5:getShipById(slot4) == nil then
+	if slot6:getShipById(slot4) == nil then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot4))
 
 		return
 	end
 
-	slot9, slot10 = ShipStatus.ShipStatusCheck("onModify", slot8)
+	slot10, slot11 = ShipStatus.ShipStatusCheck("onModify", slot9)
 
-	if not slot9 then
-		pg.TipsMgr.GetInstance():ShowTips(slot10)
+	if not slot10 then
+		pg.TipsMgr.GetInstance():ShowTips(slot11)
 
 		return
 	end
 
-	if not slot7 and getProxy(EquipmentProxy):GetSpWeaponCapacity() <= getProxy(EquipmentProxy):GetSpWeaponCount() then
+	if not slot8 and getProxy(EquipmentProxy):GetSpWeaponCapacity() <= getProxy(EquipmentProxy):GetSpWeaponCount() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_bag_no_enough"))
 
 		return
 	end
 
-	if slot7 then
-		slot11, slot12 = slot8:CanEquipSpWeapon(slot7)
+	if slot8 then
+		slot12, slot13 = slot9:CanEquipSpWeapon(slot8)
 
-		if not slot11 then
-			pg.TipsMgr.GetInstance():ShowTips(slot12)
+		if not slot12 then
+			pg.TipsMgr.GetInstance():ShowTips(slot13)
 
 			return
 		end
 	end
 
-	slot11 = pg.ConnectionMgr.GetInstance()
+	slot12 = pg.ConnectionMgr.GetInstance()
 
-	slot11:Send(14201, {
+	slot12:Send(14201, {
 		spweapon_id = slot3,
 		ship_id = slot4
 	}, 14202, function (slot0)
@@ -82,6 +83,8 @@ function slot0.execute(slot0, slot1)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_equipToShip", slot0.result))
 		end
+
+		existCall(uv6)
 	end)
 end
 

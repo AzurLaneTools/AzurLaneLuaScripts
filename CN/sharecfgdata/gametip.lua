@@ -3249,6 +3249,26 @@ _G.pg.base.gametip.spweapon_activity_ui_text2 = {
 	tip = "*「特殊兵装核心」「兵装强化石」可用于特殊兵装系统"
 }
 
+_G.pg.base.gametip.spweapon_tip_skill_locked = {
+	tip = "（未解锁）"
+}
+
+_G.pg.base.gametip.spweapon_tip_owned = {
+	tip = "已拥有：$1"
+}
+
+_G.pg.base.gametip.spweapon_tip_view = {
+	tip = "<material=underline event=displayDetail>点击查看</material>"
+}
+
+_G.pg.base.gametip.spweapon_tip_ship = {
+	tip = "适配角色"
+}
+
+_G.pg.base.gametip.spweapon_tip_type = {
+	tip = "适配舰种"
+}
+
 _G.pg.base.gametip.stage_beginStage_error = {
 	tip = "开始关卡失败:"
 }
@@ -6087,6 +6107,10 @@ _G.pg.base.gametip.shop_extendship_success = {
 
 _G.pg.base.gametip.shop_extendequip_success = {
 	tip = "装备栏位扩展成功"
+}
+
+_G.pg.base.gametip.shop_spweapon_success = {
+	tip = "特殊兵装栏位扩展成功"
 }
 
 _G.pg.base.gametip.naval_academy_res_desc_cateen = {
@@ -10020,15 +10044,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:175} 建造追加！"
+	tip = "巴尔的摩(μ兵装) 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:50}、{namecode:203} 等角色建造追加！"
+	tip = "黛朵(μ兵装)、塔什干(μ兵装) 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "U-110 建造追加！"
+	tip = "{namecode:190}、大青花鱼(μ兵装) 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -13097,6 +13121,25 @@ _G.pg.base.gametip.secretary_help = {
 		},
 		{
 			info = "6. 在主界面可以通过切换功能，切换当前展示的秘书舰\n"
+		},
+		{
+			info = "· 随机秘书组功能说明：\n"
+		},
+		{
+			info = "1. 随机秘书组功能开启后，将从常用角色或锁定角色中随机选取角色，作为随机秘书组"
+		},
+		{
+			info = "2.随机秘书组于每天8点和19点进行更换，可随机角色不足时，功能自动关闭"
+		},
+		{
+			info = [[
+3.在随机秘书组功能开启期间，仅有原秘书组最左侧的秘书舰可以获得秘书舰好感加成
+·可以查看原秘书组角色，并对其进行更换、拖动操作
+·不可对随机秘书组角色进行更换、拖动操作
+·回港时将随机展示一名随机秘书组成员]]
+		},
+		{
+			info = "4.关闭随机秘书组功能后，将还原为原秘书组角色"
 		}
 	}
 }
@@ -13788,6 +13831,10 @@ _G.pg.base.gametip.index_awakening = {
 
 _G.pg.base.gametip.index_not_lvmax = {
 	tip = "未满级"
+}
+
+_G.pg.base.gametip.index_spweapon = {
+	tip = "专属兵装"
 }
 
 _G.pg.base.gametip.decodegame_gametip = {
@@ -17569,7 +17616,7 @@ _G.pg.base.gametip.world_boss_maintenance = {
 }
 
 _G.pg.base.gametip.world_boss_inbattle = {
-	tip = "当前处于信标·META作战中，不可前往"
+	tip = "当前处于战斗中，不可前往"
 }
 
 _G.pg.base.gametip.world_automode_title_1 = {
@@ -21301,6 +21348,10 @@ _G.pg.base.gametip.technology_queue_in_doublecheck = {
 	tip = "确定将该科研项目加入研究队列吗，加入队列的研究项目将顺序完成，不可取消"
 }
 
+_G.pg.base.gametip.playervtae_setting_btn_label = {
+	tip = "前往设置"
+}
+
 _G.pg.base.gametip.technology_queue_in_success = {
 	tip = "加入队列成功"
 }
@@ -21490,4 +21541,96 @@ _G.pg.base.gametip.cook_game_noshiro = {
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "每成功上两个甜品额外加1分"
+}
+
+_G.pg.base.gametip.random_ship_on = {
+	tip = "已开启随机秘书组功能"
+}
+
+_G.pg.base.gametip.random_ship_off_0 = {
+	tip = "当前可随机角色数量不足，已自动关闭随机秘书组功能"
+}
+
+_G.pg.base.gametip.random_ship_off = {
+	tip = "已关闭随机秘书组功能，秘书组角色已还原"
+}
+
+_G.pg.base.gametip.random_ship_forbidden = {
+	tip = "已开启随机秘书组功能，不可对随机秘书组进行操作"
+}
+
+_G.pg.base.gametip.random_ship_now = {
+	tip = "查看原秘书组"
+}
+
+_G.pg.base.gametip.random_ship_label = {
+	tip = "随机秘书组"
+}
+
+_G.pg.base.gametip.player_vitae_skin_setting = {
+	tip = "换装设置面板"
+}
+
+_G.pg.base.gametip.random_ship_tips1 = {
+	tip = "随机秘书组将于每日8点和19点进行随机"
+}
+
+_G.pg.base.gametip.random_ship_tips2 = {
+	tip = "可以对原秘书组角色进行更换"
+}
+
+_G.pg.base.gametip.random_ship_before = {
+	tip = "返回随机秘书组"
+}
+
+_G.pg.base.gametip.random_ship_and_skin_title = {
+	tip = "秘书组角色随机范围"
+}
+
+_G.pg.base.gametip.random_ship_frequse_mode = {
+	tip = "常用角色"
+}
+
+_G.pg.base.gametip.random_ship_locked_mode = {
+	tip = "已锁定角色"
+}
+
+_G.pg.base.gametip.littleSpee_npc = {
+	tip = {
+		{
+			info = "「“围剿”小斯佩伯爵」说明："
+		},
+		{
+			info = "1.活动期间，玩家可获得临时npc角色「小斯佩」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+		},
+		{
+			info = "2.活动期间，击破普通难度主线第三章及之后章节旗舰，可获得「情报点」奖励，解析「情报点」可累积临时npc角色「小斯佩」的友好度。"
+		},
+		{
+			info = "3.上阵「小斯佩」参与战斗，且未被击沉，可获得双倍「情报点」。"
+		},
+		{
+			info = "4.10月19日为止，每日解锁1个可达成的友好度阶段。"
+		},
+		{
+			info = "5.在活动结束前累计获得1000点友好度，可领取奖励并将临时角色「小斯佩」转化为永久角色。"
+		},
+		{
+			info = "6.活动结束后，未完成转化的临时角色「小斯佩」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+		},
+		{
+			info = "7.npc角色无法参与大型作战。"
+		},
+		{
+			info = "8.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
+		}
+	}
+}
+
+_G.pg.base.gametip.random_flag_ship = {
+	tip = "随机秘书舰"
+}
+
+_G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
+	tip = "更换换装"
 }

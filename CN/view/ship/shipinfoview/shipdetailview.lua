@@ -70,6 +70,13 @@ function slot0.InitDetail(slot0)
 	slot0.recordPanel = slot0.detailPanel:Find("record_panel")
 	slot1 = slot0.recordPanel
 	slot0.unloadAllBtn = slot1:Find("frame/unload_all")
+	slot0.recordBars = _.map({
+		1,
+		2,
+		3
+	}, function (slot0)
+		return uv0.recordPanel:Find("frame/container"):GetChild(slot0 - 1)
+	end)
 	slot0.recordBtns = {
 		slot0.recordPanel:Find("frame/container/record_1/record_btn"),
 		slot0.recordPanel:Find("frame/container/record_2/record_btn"),
@@ -674,7 +681,7 @@ function slot0.UpdateEquipments(slot0, slot1)
 
 	onButton(slot0, slot0.spWeaponSlot, function ()
 		if not uv0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_locked"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_skill_locked"))
 
 			return
 		elseif uv1 then
@@ -868,6 +875,8 @@ function slot0.displayRecordPanel(slot0)
 	for slot4, slot5 in ipairs(slot0.recordEquipmentsTFs) do
 		slot0:UpdateRecordEquipments(slot4)
 	end
+
+	slot0:UpdateRecordSpWeapons()
 end
 
 function slot0.CloseRecordPanel(slot0, slot1)
@@ -933,6 +942,42 @@ function slot0.UpdateRecordEquipments(slot0, slot1)
 			removeOnButton(slot13)
 		end
 	end
+end
+
+function slot0.UpdateRecordSpWeapons(slot0, slot1)
+	slot2 = slot0:GetShipVO()
+	slot2 = slot2:GetSpWeaponRecord(slot0.shareData.player.id)
+
+	table.Foreach(slot0.recordBars, function (slot0, slot1)
+		if uv0 and slot0 ~= uv0 then
+			return
+		end
+
+		slot2 = uv1[slot0]
+		slot3 = slot1:Find("SpSlot")
+
+		setActive(slot3:Find("Lock"), not uv2:GetShipVO():IsSpweaponUnlock())
+		setActive(slot3:Find("Icon"), slot2)
+		setActive(slot3:Find("IconShadow"), slot2)
+
+		if slot2 then
+			UpdateSpWeaponSlot(slot3, slot2)
+
+			slot5 = not slot2:IsReal() or slot2:GetShipId() ~= nil and slot2:GetShipId() ~= uv2:GetShipVO().id
+
+			setActive(slot3:Find("Icon/tip"), slot5)
+
+			if slot5 then
+				onButton(uv2, slot3, function ()
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_nofreeequip"))
+				end, SFX_PANEL)
+			else
+				removeOnButton(slot3)
+			end
+		else
+			removeOnButton(slot3)
+		end
+	end)
 end
 
 function slot0.UpdatePreferenceTag(slot0)

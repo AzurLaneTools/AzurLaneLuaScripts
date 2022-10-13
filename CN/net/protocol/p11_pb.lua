@@ -50,10 +50,6 @@ slot2 = {
 	SC_11003_REFUND_SHOP_INFO_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11003_CARTOON_READ_MARK_FIELD = slot0.FieldDescriptor(),
 	SC_11003_CARTOON_COLLECT_MARK_FIELD = slot0.FieldDescriptor(),
-	SC_11003_RANDOM_SKIN_FIELD = slot0.FieldDescriptor(),
-	RANDOM_SKIN_DATA_SLOTSFLAG_FIELD = slot0.FieldDescriptor(),
-	RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD = slot0.FieldDescriptor(),
-	RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD = slot0.FieldDescriptor(),
 	SC_11004_RESOURCE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11005_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_11005_ID_FIELD = slot0.FieldDescriptor(),
@@ -245,7 +241,6 @@ SC_11000 = slot0.Descriptor()
 CS_11001 = slot0.Descriptor()
 SC_11002 = slot0.Descriptor()
 SC_11003 = slot0.Descriptor()
-RANDOM_SKIN_DATA = slot0.Descriptor()
 SC_11004 = slot0.Descriptor()
 CS_11005 = slot0.Descriptor()
 SC_11006 = slot0.Descriptor()
@@ -780,16 +775,6 @@ slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD.has_default_value = false
 slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD.default_value = {}
 slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD.type = 13
 slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD.cpp_type = 3
-slot2.SC_11003_RANDOM_SKIN_FIELD.name = "random_skin"
-slot2.SC_11003_RANDOM_SKIN_FIELD.full_name = "p11.sc_11003.random_skin"
-slot2.SC_11003_RANDOM_SKIN_FIELD.number = 41
-slot2.SC_11003_RANDOM_SKIN_FIELD.index = 40
-slot2.SC_11003_RANDOM_SKIN_FIELD.label = 2
-slot2.SC_11003_RANDOM_SKIN_FIELD.has_default_value = false
-slot2.SC_11003_RANDOM_SKIN_FIELD.default_value = nil
-slot2.SC_11003_RANDOM_SKIN_FIELD.message_type = RANDOM_SKIN_DATA
-slot2.SC_11003_RANDOM_SKIN_FIELD.type = 11
-slot2.SC_11003_RANDOM_SKIN_FIELD.cpp_type = 10
 SC_11003.name = "sc_11003"
 SC_11003.full_name = "p11.sc_11003"
 SC_11003.nested_types = {}
@@ -834,49 +819,10 @@ SC_11003.fields = {
 	slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD,
 	slot2.SC_11003_REFUND_SHOP_INFO_LIST_FIELD,
 	slot2.SC_11003_CARTOON_READ_MARK_FIELD,
-	slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD,
-	slot2.SC_11003_RANDOM_SKIN_FIELD
+	slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD
 }
 SC_11003.is_extendable = false
 SC_11003.extensions = {}
-slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD.name = "slotsflag"
-slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD.full_name = "p11.random_skin_data.slotsflag"
-slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD.number = 1
-slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD.index = 0
-slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD.label = 3
-slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD.has_default_value = false
-slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD.default_value = {}
-slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD.type = 13
-slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD.cpp_type = 3
-slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD.name = "shipTimestamp"
-slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD.full_name = "p11.random_skin_data.shipTimestamp"
-slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD.number = 2
-slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD.index = 1
-slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD.label = 2
-slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD.has_default_value = false
-slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD.default_value = 0
-slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD.type = 13
-slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD.cpp_type = 3
-slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD.name = "skinTimestamp"
-slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD.full_name = "p11.random_skin_data.skinTimestamp"
-slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD.number = 3
-slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD.index = 2
-slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD.label = 2
-slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD.has_default_value = false
-slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD.default_value = 0
-slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD.type = 13
-slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD.cpp_type = 3
-RANDOM_SKIN_DATA.name = "random_skin_data"
-RANDOM_SKIN_DATA.full_name = "p11.random_skin_data"
-RANDOM_SKIN_DATA.nested_types = {}
-RANDOM_SKIN_DATA.enum_types = {}
-RANDOM_SKIN_DATA.fields = {
-	slot2.RANDOM_SKIN_DATA_SLOTSFLAG_FIELD,
-	slot2.RANDOM_SKIN_DATA_SHIPTIMESTAMP_FIELD,
-	slot2.RANDOM_SKIN_DATA_SKINTIMESTAMP_FIELD
-}
-RANDOM_SKIN_DATA.is_extendable = false
-RANDOM_SKIN_DATA.extensions = {}
 slot2.SC_11004_RESOURCE_LIST_FIELD.name = "resource_list"
 slot2.SC_11004_RESOURCE_LIST_FIELD.full_name = "p11.sc_11004.resource_list"
 slot2.SC_11004_RESOURCE_LIST_FIELD.number = 1
@@ -3463,7 +3409,6 @@ keyvalue = slot0.Message(KEYVALUE)
 keyvaluelist = slot0.Message(KEYVALUELIST)
 mulkeyvalue = slot0.Message(MULKEYVALUE)
 noticeinfo = slot0.Message(NOTICEINFO)
-random_skin_data = slot0.Message(RANDOM_SKIN_DATA)
 resource = slot0.Message(RESOURCE)
 return_user_info = slot0.Message(RETURN_USER_INFO)
 sc_11000 = slot0.Message(SC_11000)

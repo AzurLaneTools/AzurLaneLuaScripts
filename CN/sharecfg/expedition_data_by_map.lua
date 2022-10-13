@@ -16018,6 +16018,50 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200070] = {
+		map = 2200070,
+		name = "激唱的Universe|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "idol-WISHNESS-inst",
+		enter_story = "JICHANG1",
+		ani_name = "Map_1370001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1370001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -16382,6 +16426,7 @@ pg.expedition_data_by_map = {
 		2200030,
 		2200040,
 		2200050,
-		2200060
+		2200060,
+		2200070
 	}
 }

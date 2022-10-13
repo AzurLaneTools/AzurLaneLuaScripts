@@ -7,8 +7,14 @@ slot0.CHANGE_PAINTS = "PlayerVitaeMediator:CHANGE_PAINTS"
 slot0.CHANGE_PAINT = "PlayerVitaeMediator:CHANGE_PAINT"
 slot0.CHANGE_RANDOM_SETTING = "PlayerVitaeMediator:CHANGE_RANDOM_SETTING"
 slot0.GO_SCENE = "PlayerVitaeMediator:GO_SCENE"
+slot0.ON_SWITCH_RANDOM_FLAG_SHIP_BTN = "PlayerVitaeMediator:ON_SWITCH_RANDOM_FLAG_SHIP_BTN"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ON_SWITCH_RANDOM_FLAG_SHIP_BTN, function (slot0, slot1)
+		uv0:sendNotification(GAME.RANDOM_FLAG_SHIP, {
+			isOn = slot1
+		})
+	end)
 	slot0:bind(uv0.GO_SCENE, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GO_SCENE, slot1, slot2)
 	end)

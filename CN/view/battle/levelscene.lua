@@ -1178,36 +1178,48 @@ function slot0.updateRemasterInfo(slot0)
 		return
 	end
 
-	slot2 = slot0.contextData.map:isRemaster() and pg.re_map_template[slot0.contextData.map:getRemaster()].character_gain
+	slot1 = getProxy(ChapterProxy)
+	slot2 = nil
 
-	setActive(slot0.remasterAwardBtn, slot2 and #slot2 > 0 and checkExist(getProxy(ChapterProxy).remasterInfo[slot2[1]], {
-		"receive"
-	}) == false)
+	if slot0.contextData.map:getRemaster() and #pg.re_map_template[slot3].drop_gain > 0 then
+		for slot7, slot8 in ipairs(pg.re_map_template[slot3].drop_gain) do
+			if #slot8 > 0 and slot1.remasterInfo[slot8[1]][slot7].receive == false then
+				slot2 = {
+					slot7,
+					slot8
+				}
 
-	if isActive(slot0.remasterAwardBtn) then
-		slot3, slot4, slot5 = unpack(slot2)
-		slot6 = slot1.remasterInfo[slot3]
+				break
+			end
+		end
+	end
 
-		setText(slot0.remasterAwardBtn:Find("Text"), slot6.count .. "/" .. slot5)
+	setActive(slot0.remasterAwardBtn, slot2)
+
+	if slot2 then
+		slot5, slot6, slot7, slot8 = unpack(slot2[2])
+		slot9 = slot1.remasterInfo[slot5][slot2[1]]
+
+		setText(slot0.remasterAwardBtn:Find("Text"), slot9.count .. "/" .. slot8)
 		updateDrop(slot0.remasterAwardBtn:Find("IconTpl"), {
-			type = DROP_TYPE_SHIP,
-			id = slot4
+			type = slot6,
+			id = slot7
 		})
-		setActive(slot0.remasterAwardBtn:Find("tip"), slot5 <= slot6.count)
+		setActive(slot0.remasterAwardBtn:Find("tip"), slot8 <= slot9.count)
 		onButton(slot0, slot0.remasterAwardBtn, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideYes = true,
 				hideNo = true,
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = {
-					type = DROP_TYPE_SHIP,
-					id = uv0
+					type = uv0,
+					id = uv1
 				},
 				weight = LayerWeightConst.TOP_LAYER,
 				remaster = {
-					word = i18n("level_remaster_tip4", pg.chapter_template[uv1].chapter_name),
-					number = uv2.count .. "/" .. uv3,
-					btn_text = i18n(uv2.count < uv3 and "level_remaster_tip2" or "level_remaster_tip3"),
+					word = i18n("level_remaster_tip4", pg.chapter_template[uv2].chapter_name),
+					number = uv3.count .. "/" .. uv4,
+					btn_text = i18n(uv3.count < uv4 and "level_remaster_tip2" or "level_remaster_tip3"),
 					btn_call = function ()
 						if uv0.count < uv1 then
 							slot1, slot2 = uv3:getMapById(pg.chapter_template[uv2].map):isUnlock()
@@ -1218,7 +1230,7 @@ function slot0.updateRemasterInfo(slot0)
 								uv4:ShowSelectedMap(slot0)
 							end
 						else
-							uv4:emit(LevelMediator2.ON_CHAPTER_REMASTER_AWARD, uv2)
+							uv4:emit(LevelMediator2.ON_CHAPTER_REMASTER_AWARD, uv2, uv5)
 						end
 					end
 				}

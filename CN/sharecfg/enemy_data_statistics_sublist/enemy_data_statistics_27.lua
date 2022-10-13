@@ -2771,48 +2771,48 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[90676] = {
+	[90671] = {
 		cannon = 0,
-		name = "仲裁者·赫米忒·IX",
-		type = 5,
+		name = "马格德堡",
+		type = 2,
 		speed_growth = 0,
-		battle_unit_type = 90,
+		battle_unit_type = 49,
 		air = 0,
 		air_growth = 0,
-		friendly_cld = 0,
 		durability = 99999,
+		friendly_cld = 0,
 		armor = 0,
-		id = 90676,
+		id = 90671,
 		bubble_fx = "",
 		dodge_growth = 0,
-		icon = "sairenboss5",
+		icon = "magedebao",
 		star = 0,
 		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
 		torpedo = 0,
 		luck_growth = 0,
-		icon_type = 5,
+		icon_type = 2,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		hit_growth = 0,
-		speed = 20,
+		speed = 25,
 		luck = 0,
 		antisub = 0,
-		scale = 135,
-		wave_fx = "shenyuan4_move",
-		prefab = "sairenboss5",
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "magedebao",
 		cannon_growth = 0,
 		pilot_ai_template_id = 10001,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
 		hit = 0,
-		nationality = 99,
+		nationality = 4,
 		durability_growth = 0,
 		antiaircraft = 0,
 		antiaircraft_growth = 0,
-		armor_type = 3,
+		armor_type = 1,
 		world_enhancement = {
 			0,
 			0,
@@ -2832,32 +2832,37 @@ pg.enemy_data_statistics_27 = {
 			0,
 			0
 		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
 		bound_bone = {
 			cannon = {
 				{
-					1.9,
-					1.55,
+					1.17,
+					0.88,
 					0
 				}
 			},
 			vicegun = {
 				{
-					-0.21,
-					1.4,
+					1.11,
+					1.01,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.19,
-					0.13,
+					0,
+					0,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					1.83,
-					1.38,
+					1.16,
+					1.12,
 					0
 				}
 			}
@@ -2869,9 +2874,9 @@ pg.enemy_data_statistics_27 = {
 					{
 						"smoke",
 						{
-							-0.45,
-							2.26,
-							0.53
+							-0.46,
+							2.47,
+							-0.568
 						}
 					}
 				}
@@ -2880,8 +2885,8 @@ pg.enemy_data_statistics_27 = {
 		fx_container = {
 			{
 				0,
-				1.99185,
-				1.15
+				0,
+				0
 			},
 			{
 				0,
@@ -2890,8 +2895,8 @@ pg.enemy_data_statistics_27 = {
 			},
 			{
 				0,
-				0.75,
-				-1.299
+				0,
+				0
 			},
 			{
 				0,
@@ -2901,8 +2906,7 @@ pg.enemy_data_statistics_27 = {
 		},
 		specific_fx_scale = {},
 		appear_fx = {
-			"bossguangxiao",
-			"appearBig"
+			"appearQ"
 		},
 		position_offset = {
 			0,
@@ -2910,7 +2914,7 @@ pg.enemy_data_statistics_27 = {
 			0
 		},
 		hp_bar = {
-			200,
+			150,
 			4
 		},
 		equipment_list = {},
@@ -2918,48 +2922,48 @@ pg.enemy_data_statistics_27 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[90677] = {
+	[90672] = {
 		cannon = 0,
-		name = "夕云级量产型T2",
-		type = 1,
+		name = "阿达尔伯特亲王",
+		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 49,
 		air = 0,
 		air_growth = 0,
 		durability = 99999,
-		friendly_cld = 1,
+		friendly_cld = 0,
 		armor = 0,
-		id = 90677,
+		id = 90672,
 		bubble_fx = "",
 		dodge_growth = 0,
-		icon = "sr_xiyundanchuan",
+		icon = "adaerbote",
 		star = 0,
 		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
 		torpedo = 0,
 		luck_growth = 0,
-		icon_type = 0,
+		icon_type = 3,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
-		scale = 200,
-		wave_fx = "danchuanlanghuazhong2",
-		prefab = "sr_xiyundanchuan",
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "adaerbote",
 		cannon_growth = 0,
-		pilot_ai_template_id = 20005,
+		pilot_ai_template_id = 10001,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
 		hit = 0,
-		nationality = 3,
+		nationality = 4,
 		durability_growth = 0,
 		antiaircraft = 0,
 		antiaircraft_growth = 0,
-		armor_type = 1,
+		armor_type = 2,
 		world_enhancement = {
 			0,
 			0,
@@ -2970,7 +2974,7 @@ pg.enemy_data_statistics_27 = {
 			0
 		},
 		cld_box = {
-			13,
+			5.5,
 			7.5,
 			8
 		},
@@ -2987,42 +2991,43 @@ pg.enemy_data_statistics_27 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.62,
-					1.27,
+					1.43,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.39,
+					0.96,
 					0
 				}
 			},
 			torpedo = {
 				{
-					1.36,
-					0.33,
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.53,
+					1.18,
 					0
 				}
 			}
 		},
 		smoke = {
 			{
-				70,
+				50,
 				{
 					{
 						"smoke",
 						{
-							1.035,
-							0.869,
-							0.099
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.964,
-							1.16,
-							-0.022
+							-0.4,
+							2.45,
+							0
 						}
 					}
 				}
@@ -3040,9 +3045,9 @@ pg.enemy_data_statistics_27 = {
 				0
 			},
 			{
-				1,
-				0.2,
-				-0.3464
+				0,
+				0,
+				0
 			},
 			{
 				0,
@@ -3052,7 +3057,7 @@ pg.enemy_data_statistics_27 = {
 		},
 		specific_fx_scale = {},
 		appear_fx = {
-			"appearsmall"
+			"appearQ"
 		},
 		position_offset = {
 			0,
@@ -3060,7 +3065,7 @@ pg.enemy_data_statistics_27 = {
 			0
 		},
 		hp_bar = {
-			200,
+			150,
 			4
 		},
 		equipment_list = {},

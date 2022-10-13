@@ -4,15 +4,16 @@ _G.pg.base.spweapon_data_statistics[1010100] = {
 	value_2_random = 3,
 	type = 1,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 5,
+	effect_id_display = 901020,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1010100,
 	next = 1010101,
 	upgrade_id = 1,
 	value_2 = 3,
 	icon = "1010100",
-	effect_id = 1901020,
+	effect_id = 0,
 	attribute_2 = "dodge",
 	rarity = 2,
 	unique = 0,
@@ -138,15 +139,16 @@ _G.pg.base.spweapon_data_statistics[1010120] = {
 	value_2_random = 3,
 	type = 1,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 14,
+	effect_id_display = 901020,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1010120,
 	next = 1010121,
 	upgrade_id = 21,
 	value_2 = 7,
 	icon = "1010100",
-	effect_id = 1901020,
+	effect_id = 0,
 	attribute_2 = "dodge",
 	rarity = 3,
 	unique = 0,
@@ -260,6 +262,7 @@ _G.pg.base.spweapon_data_statistics[1010130] = {
 	value_2 = 12,
 	value_1 = 20,
 	base = 1010120,
+	effect_id_display = 901020,
 	next = 0,
 	upgrade_id = 31,
 	id = 1010130,
@@ -273,15 +276,16 @@ _G.pg.base.spweapon_data_statistics[1010200] = {
 	value_2_random = 3,
 	type = 1,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 8,
+	effect_id_display = 901010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1010200,
 	next = 1010201,
 	upgrade_id = 1,
 	value_2 = 1,
 	icon = "1010200",
-	effect_id = 1901010,
+	effect_id = 0,
 	attribute_2 = "hit",
 	rarity = 2,
 	unique = 0,
@@ -406,15 +410,16 @@ _G.pg.base.spweapon_data_statistics[1010220] = {
 	value_2_random = 3,
 	type = 1,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 20,
+	effect_id_display = 901010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1010220,
 	next = 1010221,
 	upgrade_id = 21,
 	value_2 = 5,
 	icon = "1010200",
-	effect_id = 1901010,
+	effect_id = 0,
 	attribute_2 = "hit",
 	rarity = 3,
 	unique = 0,
@@ -526,6 +531,7 @@ _G.pg.base.spweapon_data_statistics[1010230] = {
 	value_2 = 7,
 	value_1 = 30,
 	base = 1010220,
+	effect_id_display = 901010,
 	next = 0,
 	upgrade_id = 31,
 	id = 1010230,
@@ -539,15 +545,16 @@ _G.pg.base.spweapon_data_statistics[1020100] = {
 	value_2_random = 3,
 	type = 2,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 6,
+	effect_id_display = 901010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1020100,
 	next = 1020101,
 	upgrade_id = 1,
 	value_2 = 1,
 	icon = "1020100",
-	effect_id = 1901010,
+	effect_id = 0,
 	attribute_2 = "reload",
 	rarity = 2,
 	unique = 0,
@@ -673,15 +680,16 @@ _G.pg.base.spweapon_data_statistics[1020120] = {
 	value_2_random = 3,
 	type = 2,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 14,
+	effect_id_display = 901010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1020120,
 	next = 1020121,
 	upgrade_id = 21,
 	value_2 = 5,
 	icon = "1020100",
-	effect_id = 1901010,
+	effect_id = 0,
 	attribute_2 = "reload",
 	rarity = 3,
 	unique = 0,
@@ -795,6 +803,7 @@ _G.pg.base.spweapon_data_statistics[1020130] = {
 	value_2 = 9,
 	value_1 = 20,
 	base = 1020120,
+	effect_id_display = 901010,
 	next = 0,
 	upgrade_id = 31,
 	id = 1020130,
@@ -808,15 +817,16 @@ _G.pg.base.spweapon_data_statistics[1030100] = {
 	value_2_random = 3,
 	type = 3,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 3,
+	effect_id_display = 902010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1030100,
 	next = 1030101,
 	upgrade_id = 1,
 	value_2 = 4,
 	icon = "1030100",
-	effect_id = 1902010,
+	effect_id = 0,
 	attribute_2 = "antiaircraft",
 	rarity = 2,
 	unique = 0,
@@ -943,15 +953,16 @@ _G.pg.base.spweapon_data_statistics[1030120] = {
 	value_2_random = 3,
 	type = 3,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 10,
+	effect_id_display = 902010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1030120,
 	next = 1030121,
 	upgrade_id = 21,
 	value_2 = 14,
 	icon = "1030100",
-	effect_id = 1902010,
+	effect_id = 0,
 	attribute_2 = "antiaircraft",
 	rarity = 3,
 	unique = 0,
@@ -1065,6 +1076,7 @@ _G.pg.base.spweapon_data_statistics[1030130] = {
 	value_2 = 21,
 	value_1 = 15,
 	base = 1030120,
+	effect_id_display = 902010,
 	next = 0,
 	upgrade_id = 31,
 	id = 1030130,
@@ -1078,15 +1090,16 @@ _G.pg.base.spweapon_data_statistics[1040100] = {
 	value_2_random = 3,
 	type = 4,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 7,
+	effect_id_display = 901020,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1040100,
 	next = 1040101,
 	upgrade_id = 1,
 	value_2 = 4,
 	icon = "1040100",
-	effect_id = 1901020,
+	effect_id = 0,
 	attribute_2 = "torpedo",
 	rarity = 2,
 	unique = 0,
@@ -1213,15 +1226,16 @@ _G.pg.base.spweapon_data_statistics[1040120] = {
 	value_2_random = 3,
 	type = 4,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 13,
+	effect_id_display = 901020,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1040120,
 	next = 1040121,
 	upgrade_id = 21,
 	value_2 = 10,
 	icon = "1040100",
-	effect_id = 1901020,
+	effect_id = 0,
 	attribute_2 = "torpedo",
 	rarity = 3,
 	unique = 0,
@@ -1336,6 +1350,7 @@ _G.pg.base.spweapon_data_statistics[1040130] = {
 	value_2 = 15,
 	value_1 = 20,
 	base = 1040120,
+	effect_id_display = 901020,
 	next = 0,
 	upgrade_id = 31,
 	id = 1040130,
@@ -1349,15 +1364,16 @@ _G.pg.base.spweapon_data_statistics[1050100] = {
 	value_2_random = 3,
 	type = 5,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 6,
+	effect_id_display = 902020,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1050100,
 	next = 1050101,
 	upgrade_id = 1,
 	value_2 = 5,
 	icon = "1050100",
-	effect_id = 1902020,
+	effect_id = 0,
 	attribute_2 = "antiaircraft",
 	rarity = 2,
 	unique = 0,
@@ -1484,15 +1500,16 @@ _G.pg.base.spweapon_data_statistics[1050120] = {
 	value_2_random = 3,
 	type = 5,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 12,
+	effect_id_display = 902020,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1050120,
 	next = 1050121,
 	upgrade_id = 21,
 	value_2 = 12,
 	icon = "1050100",
-	effect_id = 1902020,
+	effect_id = 0,
 	attribute_2 = "antiaircraft",
 	rarity = 3,
 	unique = 0,
@@ -1607,6 +1624,7 @@ _G.pg.base.spweapon_data_statistics[1050130] = {
 	value_2 = 18,
 	value_1 = 19,
 	base = 1050120,
+	effect_id_display = 902020,
 	next = 0,
 	upgrade_id = 31,
 	id = 1050130,
@@ -1620,15 +1638,16 @@ _G.pg.base.spweapon_data_statistics[1060100] = {
 	value_2_random = 3,
 	type = 6,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 4,
+	effect_id_display = 902030,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1060100,
 	next = 1060101,
 	upgrade_id = 1,
 	value_2 = 4,
 	icon = "1060100",
-	effect_id = 1902030,
+	effect_id = 0,
 	attribute_2 = "dodge",
 	rarity = 2,
 	unique = 0,
@@ -1755,15 +1774,16 @@ _G.pg.base.spweapon_data_statistics[1060120] = {
 	value_2_random = 3,
 	type = 6,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 10,
+	effect_id_display = 902030,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1060120,
 	next = 1060121,
 	upgrade_id = 21,
 	value_2 = 10,
 	icon = "1060100",
-	effect_id = 1902030,
+	effect_id = 0,
 	attribute_2 = "dodge",
 	rarity = 3,
 	unique = 0,
@@ -1877,6 +1897,7 @@ _G.pg.base.spweapon_data_statistics[1060130] = {
 	value_2 = 17,
 	value_1 = 15,
 	base = 1060120,
+	effect_id_display = 902030,
 	next = 0,
 	upgrade_id = 31,
 	id = 1060130,
@@ -1890,15 +1911,16 @@ _G.pg.base.spweapon_data_statistics[1060200] = {
 	value_2_random = 3,
 	type = 6,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 5,
+	effect_id_display = 902040,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1060200,
 	next = 1060201,
 	upgrade_id = 1,
 	value_2 = 5,
 	icon = "1060200",
-	effect_id = 1902040,
+	effect_id = 0,
 	attribute_2 = "antiaircraft",
 	rarity = 2,
 	unique = 0,
@@ -2025,15 +2047,16 @@ _G.pg.base.spweapon_data_statistics[1060220] = {
 	value_2_random = 3,
 	type = 6,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 14,
+	effect_id_display = 902040,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1060220,
 	next = 1060221,
 	upgrade_id = 21,
 	value_2 = 11,
 	icon = "1060200",
-	effect_id = 1902040,
+	effect_id = 0,
 	attribute_2 = "antiaircraft",
 	rarity = 3,
 	unique = 0,
@@ -2148,6 +2171,7 @@ _G.pg.base.spweapon_data_statistics[1060230] = {
 	value_2 = 17,
 	value_1 = 20,
 	base = 1060220,
+	effect_id_display = 902040,
 	next = 0,
 	upgrade_id = 31,
 	id = 1060230,
@@ -2161,15 +2185,16 @@ _G.pg.base.spweapon_data_statistics[1070100] = {
 	value_2_random = 3,
 	type = 7,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 7,
+	effect_id_display = 902050,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1070100,
 	next = 1070101,
 	upgrade_id = 1,
 	value_2 = 5,
 	icon = "1070100",
-	effect_id = 1902050,
+	effect_id = 0,
 	attribute_2 = "antiaircraft",
 	rarity = 2,
 	unique = 0,
@@ -2296,15 +2321,16 @@ _G.pg.base.spweapon_data_statistics[1070120] = {
 	value_2_random = 3,
 	type = 7,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 17,
+	effect_id_display = 902050,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1070120,
 	next = 1070121,
 	upgrade_id = 21,
 	value_2 = 11,
 	icon = "1070100",
-	effect_id = 1902050,
+	effect_id = 0,
 	attribute_2 = "antiaircraft",
 	rarity = 3,
 	unique = 0,
@@ -2419,6 +2445,7 @@ _G.pg.base.spweapon_data_statistics[1070130] = {
 	value_2 = 17,
 	value_1 = 25,
 	base = 1070120,
+	effect_id_display = 902050,
 	next = 0,
 	upgrade_id = 31,
 	id = 1070130,
@@ -2432,15 +2459,16 @@ _G.pg.base.spweapon_data_statistics[1070200] = {
 	value_2_random = 3,
 	type = 7,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 7,
+	effect_id_display = 902060,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1070200,
 	next = 1070201,
 	upgrade_id = 1,
 	value_2 = 5,
 	icon = "1070200",
-	effect_id = 1902060,
+	effect_id = 0,
 	attribute_2 = "dodge",
 	rarity = 2,
 	unique = 0,
@@ -2567,15 +2595,16 @@ _G.pg.base.spweapon_data_statistics[1070220] = {
 	value_2_random = 3,
 	type = 7,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 17,
+	effect_id_display = 902060,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1070220,
 	next = 1070221,
 	upgrade_id = 21,
 	value_2 = 11,
 	icon = "1070200",
-	effect_id = 1902060,
+	effect_id = 0,
 	attribute_2 = "dodge",
 	rarity = 3,
 	unique = 0,
@@ -2690,6 +2719,7 @@ _G.pg.base.spweapon_data_statistics[1070230] = {
 	value_2 = 17,
 	value_1 = 25,
 	base = 1070220,
+	effect_id_display = 902060,
 	next = 0,
 	upgrade_id = 31,
 	id = 1070230,
@@ -2703,15 +2733,16 @@ _G.pg.base.spweapon_data_statistics[1080100] = {
 	value_2_random = 3,
 	type = 8,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 1,
+	effect_id_display = 902070,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1080100,
 	next = 1080101,
 	upgrade_id = 1,
 	value_2 = 2,
 	icon = "1080100",
-	effect_id = 1902070,
+	effect_id = 0,
 	attribute_2 = "dodge",
 	rarity = 2,
 	unique = 0,
@@ -2834,15 +2865,16 @@ _G.pg.base.spweapon_data_statistics[1080120] = {
 	value_2_random = 3,
 	type = 8,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 5,
+	effect_id_display = 902070,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1080120,
 	next = 1080121,
 	upgrade_id = 21,
 	value_2 = 10,
 	icon = "1080100",
-	effect_id = 1902070,
+	effect_id = 0,
 	attribute_2 = "dodge",
 	rarity = 3,
 	unique = 0,
@@ -2957,6 +2989,7 @@ _G.pg.base.spweapon_data_statistics[1080130] = {
 	value_2 = 15,
 	value_1 = 10,
 	base = 1080120,
+	effect_id_display = 902070,
 	next = 0,
 	upgrade_id = 31,
 	id = 1080130,
@@ -2970,15 +3003,16 @@ _G.pg.base.spweapon_data_statistics[1080200] = {
 	value_2_random = 3,
 	type = 8,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 10,
+	effect_id_display = 902080,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1080200,
 	next = 1080201,
 	upgrade_id = 1,
 	value_2 = 1,
 	icon = "1080200",
-	effect_id = 1902080,
+	effect_id = 0,
 	attribute_2 = "hit",
 	rarity = 2,
 	unique = 0,
@@ -3103,15 +3137,16 @@ _G.pg.base.spweapon_data_statistics[1080220] = {
 	value_2_random = 3,
 	type = 8,
 	value_1_random = 5,
-	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	value_1 = 24,
+	effect_id_display = 902080,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的量产型兵装",
 	id = 1080220,
 	next = 1080221,
 	upgrade_id = 21,
 	value_2 = 3,
 	icon = "1080200",
-	effect_id = 1902080,
+	effect_id = 0,
 	attribute_2 = "hit",
 	rarity = 3,
 	unique = 0,
@@ -3224,6 +3259,7 @@ _G.pg.base.spweapon_data_statistics[1080230] = {
 	value_2 = 5,
 	value_1 = 35,
 	base = 1080220,
+	effect_id_display = 902080,
 	next = 0,
 	upgrade_id = 31,
 	id = 1080230,
@@ -3237,9 +3273,10 @@ _G.pg.base.spweapon_data_statistics[10000] = {
 	value_2_random = 5,
 	type = 1,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 11,
+	effect_id_display = 901010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10000,
 	next = 10001,
 	upgrade_id = 101,
@@ -3258,7 +3295,7 @@ _G.pg.base.spweapon_data_statistics[10000] = {
 	skill_upgrade = {
 		{
 			0,
-			1110410
+			1010410
 		}
 	},
 	label = {}
@@ -3386,9 +3423,10 @@ _G.pg.base.spweapon_data_statistics[10020] = {
 	value_2_random = 5,
 	type = 2,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 11,
+	effect_id_display = 901020,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10020,
 	next = 10021,
 	upgrade_id = 101,
@@ -3407,7 +3445,7 @@ _G.pg.base.spweapon_data_statistics[10020] = {
 	skill_upgrade = {
 		{
 			0,
-			1110610
+			1010610
 		}
 	},
 	label = {}
@@ -3535,9 +3573,10 @@ _G.pg.base.spweapon_data_statistics[10040] = {
 	value_2_random = 5,
 	type = 4,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 10,
+	effect_id_display = 902090,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10040,
 	next = 10041,
 	upgrade_id = 101,
@@ -3556,7 +3595,7 @@ _G.pg.base.spweapon_data_statistics[10040] = {
 	skill_upgrade = {
 		{
 			0,
-			1110390
+			1010390
 		}
 	},
 	label = {}
@@ -3684,9 +3723,10 @@ _G.pg.base.spweapon_data_statistics[10060] = {
 	value_2_random = 5,
 	type = 6,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 13,
+	effect_id_display = 902100,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10060,
 	next = 10061,
 	upgrade_id = 101,
@@ -3705,7 +3745,7 @@ _G.pg.base.spweapon_data_statistics[10060] = {
 	skill_upgrade = {
 		{
 			0,
-			1110140
+			1010140
 		}
 	},
 	label = {}
@@ -3833,9 +3873,10 @@ _G.pg.base.spweapon_data_statistics[10080] = {
 	value_2_random = 5,
 	type = 8,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 11,
+	effect_id_display = 902110,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10080,
 	next = 10081,
 	upgrade_id = 101,
@@ -3854,7 +3895,7 @@ _G.pg.base.spweapon_data_statistics[10080] = {
 	skill_upgrade = {
 		{
 			0,
-			1111380
+			1011380
 		}
 	},
 	label = {}
@@ -3982,9 +4023,10 @@ _G.pg.base.spweapon_data_statistics[10100] = {
 	value_2_random = 5,
 	type = 6,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 13,
+	effect_id_display = 902020,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10100,
 	next = 10101,
 	upgrade_id = 101,
@@ -4003,7 +4045,7 @@ _G.pg.base.spweapon_data_statistics[10100] = {
 	skill_upgrade = {
 		{
 			0,
-			1111540
+			1011540
 		}
 	},
 	label = {}
@@ -4128,9 +4170,10 @@ _G.pg.base.spweapon_data_statistics[10120] = {
 	value_2_random = 5,
 	type = 7,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 17,
+	effect_id_display = 902120,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10120,
 	next = 10121,
 	upgrade_id = 101,
@@ -4149,7 +4192,7 @@ _G.pg.base.spweapon_data_statistics[10120] = {
 	skill_upgrade = {
 		{
 			0,
-			1190010
+			1090010
 		}
 	},
 	label = {}
@@ -4276,9 +4319,10 @@ _G.pg.base.spweapon_data_statistics[10140] = {
 	value_2_random = 5,
 	type = 7,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 22,
+	effect_id_display = 902060,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10140,
 	next = 10141,
 	upgrade_id = 101,
@@ -4297,7 +4341,7 @@ _G.pg.base.spweapon_data_statistics[10140] = {
 	skill_upgrade = {
 		{
 			0,
-			1110690
+			1010690
 		}
 	},
 	label = {}
@@ -4424,9 +4468,10 @@ _G.pg.base.spweapon_data_statistics[10160] = {
 	value_2_random = 5,
 	type = 1,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 9,
+	effect_id_display = 901010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10160,
 	next = 10161,
 	upgrade_id = 101,
@@ -4445,7 +4490,7 @@ _G.pg.base.spweapon_data_statistics[10160] = {
 	skill_upgrade = {
 		{
 			0,
-			1112670
+			1012670
 		}
 	},
 	label = {}
@@ -4573,9 +4618,10 @@ _G.pg.base.spweapon_data_statistics[10180] = {
 	value_2_random = 5,
 	type = 1,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 11,
+	effect_id_display = 902070,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10180,
 	next = 10181,
 	upgrade_id = 101,
@@ -4594,7 +4640,7 @@ _G.pg.base.spweapon_data_statistics[10180] = {
 	skill_upgrade = {
 		{
 			0,
-			1110730
+			1010730
 		}
 	},
 	label = {}
@@ -4722,9 +4768,10 @@ _G.pg.base.spweapon_data_statistics[10200] = {
 	value_2_random = 5,
 	type = 7,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 17,
+	effect_id_display = 902130,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10200,
 	next = 10201,
 	upgrade_id = 101,
@@ -4743,7 +4790,7 @@ _G.pg.base.spweapon_data_statistics[10200] = {
 	skill_upgrade = {
 		{
 			0,
-			1110340
+			1010340
 		}
 	},
 	label = {}
@@ -4870,9 +4917,10 @@ _G.pg.base.spweapon_data_statistics[10220] = {
 	value_2_random = 5,
 	type = 1,
 	value_1_random = 20,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 100,
+	effect_id_display = 901010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10220,
 	next = 10221,
 	upgrade_id = 101,
@@ -4891,7 +4939,7 @@ _G.pg.base.spweapon_data_statistics[10220] = {
 	skill_upgrade = {
 		{
 			0,
-			1110580
+			1010580
 		}
 	},
 	label = {}
@@ -5019,9 +5067,10 @@ _G.pg.base.spweapon_data_statistics[10240] = {
 	value_2_random = 5,
 	type = 2,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 9,
+	effect_id_display = 901010,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10240,
 	next = 10241,
 	upgrade_id = 101,
@@ -5040,7 +5089,7 @@ _G.pg.base.spweapon_data_statistics[10240] = {
 	skill_upgrade = {
 		{
 			0,
-			1190020
+			1090020
 		}
 	},
 	label = {}
@@ -5168,9 +5217,10 @@ _G.pg.base.spweapon_data_statistics[10260] = {
 	value_2_random = 5,
 	type = 2,
 	value_1_random = 10,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	value_1 = 11,
+	effect_id_display = 901020,
 	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
 	id = 10260,
 	next = 10261,
 	upgrade_id = 101,
@@ -5189,7 +5239,7 @@ _G.pg.base.spweapon_data_statistics[10260] = {
 	skill_upgrade = {
 		{
 			0,
-			1190030
+			1090030
 		}
 	},
 	label = {}
@@ -5307,6 +5357,306 @@ _G.pg.base.spweapon_data_statistics[10270] = {
 		{
 			4091,
 			1090030
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10280] = {
+	tech = 0,
+	name = "一分钱硬币（大量）",
+	value_2_random = 5,
+	type = 8,
+	value_1_random = 10,
+	value_1 = 11,
+	effect_id_display = 902110,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
+	id = 10280,
+	next = 10281,
+	upgrade_id = 101,
+	value_2 = 2,
+	icon = "10280",
+	effect_id = 902110,
+	attribute_2 = "reload",
+	rarity = 4,
+	unique = 40803,
+	important = 2,
+	prev = 0,
+	attribute_1 = "torpedo",
+	usability = {
+		8
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090040
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10281] = {
+	prev = 10280,
+	base = 10280,
+	next = 10282,
+	upgrade_id = 102,
+	id = 10281,
+	value_2 = 3,
+	value_1 = 12,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10282] = {
+	prev = 10281,
+	base = 10280,
+	next = 10283,
+	upgrade_id = 103,
+	id = 10282,
+	value_2 = 3,
+	value_1 = 13,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10283] = {
+	prev = 10282,
+	base = 10280,
+	next = 10284,
+	upgrade_id = 104,
+	id = 10283,
+	value_2 = 4,
+	value_1 = 14,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10284] = {
+	prev = 10283,
+	base = 10280,
+	next = 10285,
+	upgrade_id = 105,
+	id = 10284,
+	value_2 = 4,
+	value_1 = 15,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10285] = {
+	prev = 10284,
+	base = 10280,
+	next = 10286,
+	upgrade_id = 106,
+	id = 10285,
+	value_2 = 5,
+	value_1 = 16,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10286] = {
+	prev = 10285,
+	base = 10280,
+	next = 10287,
+	upgrade_id = 107,
+	id = 10286,
+	value_2 = 5,
+	value_1 = 17,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10287] = {
+	prev = 10286,
+	base = 10280,
+	next = 10288,
+	upgrade_id = 108,
+	id = 10287,
+	value_2 = 6,
+	value_1 = 18,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10288] = {
+	prev = 10287,
+	base = 10280,
+	next = 10289,
+	upgrade_id = 109,
+	id = 10288,
+	value_2 = 6,
+	value_1 = 19,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10289] = {
+	prev = 10288,
+	base = 10280,
+	next = 10290,
+	upgrade_id = 110,
+	id = 10289,
+	value_2 = 7,
+	value_1 = 20,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10290] = {
+	base = 10280,
+	prev = 10289,
+	next = 0,
+	upgrade_id = 111,
+	id = 10290,
+	value_2 = 7,
+	value_1 = 22,
+	level = 11,
+	skill_upgrade = {
+		{
+			3611,
+			1090040
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10300] = {
+	tech = 0,
+	name = "皮罗什基",
+	value_2_random = 5,
+	type = 2,
+	value_1_random = 10,
+	value_1 = 11,
+	effect_id_display = 901020,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
+	id = 10300,
+	next = 10301,
+	upgrade_id = 101,
+	value_2 = 8,
+	icon = "10300",
+	effect_id = 901020,
+	attribute_2 = "dodge",
+	rarity = 4,
+	unique = 70201,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1010510
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10301] = {
+	prev = 10300,
+	base = 10300,
+	next = 10302,
+	upgrade_id = 102,
+	id = 10301,
+	value_2 = 9,
+	value_1 = 12,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10302] = {
+	prev = 10301,
+	base = 10300,
+	next = 10303,
+	upgrade_id = 103,
+	id = 10302,
+	value_2 = 9,
+	value_1 = 13,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10303] = {
+	prev = 10302,
+	base = 10300,
+	next = 10304,
+	upgrade_id = 104,
+	id = 10303,
+	value_2 = 10,
+	value_1 = 14,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10304] = {
+	prev = 10303,
+	base = 10300,
+	next = 10305,
+	upgrade_id = 105,
+	id = 10304,
+	value_2 = 10,
+	value_1 = 15,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10305] = {
+	prev = 10304,
+	base = 10300,
+	next = 10306,
+	upgrade_id = 106,
+	id = 10305,
+	value_2 = 11,
+	value_1 = 16,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10306] = {
+	prev = 10305,
+	base = 10300,
+	next = 10307,
+	upgrade_id = 107,
+	id = 10306,
+	value_2 = 11,
+	value_1 = 17,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10307] = {
+	prev = 10306,
+	base = 10300,
+	next = 10308,
+	upgrade_id = 108,
+	id = 10307,
+	value_2 = 12,
+	value_1 = 18,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10308] = {
+	prev = 10307,
+	base = 10300,
+	next = 10309,
+	upgrade_id = 109,
+	id = 10308,
+	value_2 = 13,
+	value_1 = 19,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10309] = {
+	prev = 10308,
+	base = 10300,
+	next = 10310,
+	upgrade_id = 110,
+	id = 10309,
+	value_2 = 14,
+	value_1 = 20,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10310] = {
+	base = 10300,
+	prev = 10309,
+	next = 0,
+	upgrade_id = 111,
+	id = 10310,
+	value_2 = 15,
+	value_1 = 22,
+	level = 11,
+	skill_upgrade = {
+		{
+			10510,
+			1010510
 		}
 	}
 }

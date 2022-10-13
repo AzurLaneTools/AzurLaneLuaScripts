@@ -2,11 +2,22 @@ slot0 = class("LevelStageView", import("..base.BaseSubView"))
 
 function slot0.Ctor(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
+
+	slot0.isFrozen = nil
+
 	slot0:bind(LevelUIConst.ON_FROZEN, function ()
 		uv0.isFrozen = true
+
+		if uv0.cgComp then
+			uv0.cgComp.blocksRaycasts = false
+		end
 	end)
 	slot0:bind(LevelUIConst.ON_UNFROZEN, function ()
 		uv0.isFrozen = nil
+
+		if uv0.cgComp then
+			uv0.cgComp.blocksRaycasts = true
+		end
 	end)
 end
 
@@ -31,6 +42,9 @@ function slot0.OnInit(slot0)
 	slot0.loader = AutoLoader.New()
 
 	setActive(slot0._tf, true)
+
+	slot0.cgComp = GetOrAddComponent(slot0._go, typeof(CanvasGroup))
+	slot0.cgComp.blocksRaycasts = not slot0.isFrozen
 end
 
 function slot0.OnDestroy(slot0)

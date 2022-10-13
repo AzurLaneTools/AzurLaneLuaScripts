@@ -160,7 +160,9 @@ function slot0.setCharacterSetting(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getCurrentSecretaryIndex(slot0)
-	if PlayerPrefs.GetInt("currentSecretaryIndex", 1) > #getProxy(PlayerProxy):getRawData().characters then
+	slot2, slot3 = PlayerVitaeShipsPage.GetSlotMaxCnt()
+
+	if slot3 < PlayerPrefs.GetInt("currentSecretaryIndex", 1) then
 		slot0:setCurrentSecretaryIndex(1)
 
 		return 1
@@ -170,7 +172,9 @@ function slot0.getCurrentSecretaryIndex(slot0)
 end
 
 function slot0.rotateCurrentSecretaryIndex(slot0)
-	if #getProxy(PlayerProxy):getData().characters < PlayerPrefs.GetInt("currentSecretaryIndex", 1) + 1 then
+	slot2, slot3 = PlayerVitaeShipsPage.GetSlotMaxCnt()
+
+	if slot3 < PlayerPrefs.GetInt("currentSecretaryIndex", 1) + 1 then
 		slot1 = 1
 	end
 
@@ -645,6 +649,68 @@ function slot0.UpdateNewGemFurnitureValue(slot0)
 		PlayerPrefs.SetString(getProxy(PlayerProxy):getRawData().id .. "IsTipNewGenFurniture", table.concat(slot0.newGemFurniture, "#"))
 		PlayerPrefs.Save()
 	end
+end
+
+function slot0.GetRandomFlagShipList(slot0)
+	if slot0.randomFlagShipList then
+		return slot0.randomFlagShipList
+	end
+
+	slot1 = getProxy(PlayerProxy)
+	slot0.randomFlagShipList = _.map(string.split(PlayerPrefs.GetString("RandomFlagShipList" .. slot1:getRawData().id, ""), "#"), function (slot0)
+		return tonumber(slot0)
+	end)
+
+	return slot0.randomFlagShipList
+end
+
+function slot0.IsRandomFlagShip(slot0, slot1)
+	if not slot0.randomFlagShipMap then
+		slot0.randomFlagShipMap = {}
+
+		for slot5, slot6 in ipairs(slot0:GetRandomFlagShipList()) do
+			slot0.randomFlagShipMap[slot6] = true
+		end
+	end
+
+	return slot0.randomFlagShipMap[slot1] == true
+end
+
+function slot0.IsOpenRandomFlagShip(slot0)
+	slot2 = getProxy(BayProxy)
+
+	return #slot0:GetRandomFlagShipList() > 0 and _.any(slot1, function (slot0)
+		return uv0:RawGetShipById(slot0) ~= nil
+	end)
+end
+
+function slot0.UpdateRandomFlagShipList(slot0, slot1)
+	slot0.randomFlagShipMap = nil
+	slot0.randomFlagShipList = slot1
+
+	PlayerPrefs.SetString("RandomFlagShipList" .. getProxy(PlayerProxy):getRawData().id, table.concat(slot1, "#"))
+	PlayerPrefs.Save()
+end
+
+function slot0.GetPrevRandomFlagShipTime(slot0)
+	if slot0.prevRandomFlagShipTime then
+		return slot0.prevRandomFlagShipTime
+	end
+
+	slot0.prevRandomFlagShipTime = PlayerPrefs.GetInt("RandomFlagShipTime" .. getProxy(PlayerProxy):getRawData().id, 0)
+
+	return slot0.prevRandomFlagShipTime
+end
+
+function slot0.SetPrevRandomFlagShipTime(slot0, slot1)
+	if slot0.prevRandomFlagShipTime == slot1 then
+		return
+	end
+
+	slot0.prevRandomFlagShipTime = slot1
+
+	PlayerPrefs.SetInt("RandomFlagShipTime" .. getProxy(PlayerProxy):getRawData().id, slot1)
+	PlayerPrefs.Save()
 end
 
 return slot0

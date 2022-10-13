@@ -94,7 +94,7 @@ function slot0.execute(slot0, slot1)
 			uv2 = math.min(uv2, uv7)
 
 			if getProxy(EquipmentProxy):GetSpWeaponCapacity() <= getProxy(EquipmentProxy):GetSpWeaponCount() then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_bag_no_enough"))
+				NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), OpenSpWeaponPage, gotoChargeScene)
 
 				return
 			end
