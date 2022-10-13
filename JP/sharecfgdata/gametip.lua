@@ -3622,7 +3622,7 @@ _G.pg.base.gametip.spweapon_tip_skill_locked = {
 }
 
 _G.pg.base.gametip.spweapon_tip_owned = {
-	tip = "所持中：$1"
+	tip = "所持数：$1"
 }
 
 _G.pg.base.gametip.spweapon_tip_view = {
@@ -3630,7 +3630,7 @@ _G.pg.base.gametip.spweapon_tip_view = {
 }
 
 _G.pg.base.gametip.spweapon_tip_ship = {
-	tip = "装備艦船"
+	tip = "専用装備"
 }
 
 _G.pg.base.gametip.spweapon_tip_type = {
@@ -10062,7 +10062,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「鹩(μ兵装)」「アルバコア(μ兵装)」常設実装！"
+	tip = "「大鳳(μ兵装)」「アルバコア(μ兵装)」常設実装！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {

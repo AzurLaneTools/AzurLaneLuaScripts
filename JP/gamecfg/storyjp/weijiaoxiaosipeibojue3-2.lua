@@ -119,7 +119,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			expression = 7,
 			side = 2,
 			say = "海をスイーツの海にする…それが私の願い……",
@@ -131,7 +131,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			expression = 3,
 			side = 2,
 			say = "それが叶えられないなら……",
@@ -143,7 +143,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			expression = 1,
 			side = 2,
 			say = "ここで海と一体になって、甘いスイーツの世界に行くの！",
@@ -171,7 +171,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			expression = 2,
 			side = 2,
 			say = "じゃあね！青き海を守る艦船たち！",

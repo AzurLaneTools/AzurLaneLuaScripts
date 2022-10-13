@@ -65,7 +65,7 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			say = "お菓子は渡さないわ…",
 			painting = {
 				alpha = 0.3,
@@ -82,7 +82,7 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			say = "ビールとソーセージだけじゃなく、お菓子も大事……それをみんなが分かっていないんだもん",
 			painting = {
 				alpha = 0.3,
@@ -99,7 +99,7 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			say = "だから計画を立てたの。海をお菓子…スイーツでいっぱいにする計画を！",
 			painting = {
 				alpha = 0.3,
@@ -116,7 +116,7 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			say = "もう最終段階になっているわ",
 			painting = {
 				alpha = 0.3,
@@ -130,7 +130,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			expression = 6,
 			side = 2,
 			say = "あとちょっとで海はお菓子に覆われる……誰も私を止められないのっ",
@@ -186,7 +186,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "シュペーちゃん",
 			expression = 1,
 			side = 2,
 			say = "じゃ、じゃあかかってきて。シュペーも強いよ。痛くしても泣かないでね…！",
