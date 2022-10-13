@@ -21,6 +21,7 @@ slot0.PASS_ITEM = 4
 slot0.EQUIP_BAG_SIZE_ITEM = 59100
 slot0.SHIP_BAG_SIZE_ITEM = 59101
 slot0.COMMANDER_BAG_SIZE_ITEM = 59114
+slot0.SPWEAPON_BAG_SIZE_ITEM = 59360
 slot0.Tec_Ship_Gift_Type = 3
 slot0.Tec_Ship_Gift_Arg = {
 	High = 1,

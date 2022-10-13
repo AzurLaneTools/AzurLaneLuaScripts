@@ -5761,6 +5761,10 @@ _G.pg.base.gametip.shop_extendequip_success = {
 	tip = "裝備欄位擴充成功"
 }
 
+_G.pg.base.gametip.shop_spweapon_success = {
+	tip = "特殊兵裝欄位擴充成功"
+}
+
 _G.pg.base.gametip.naval_academy_res_desc_cateen = {
 	tip = "少女們進食的地方，升級設施可以提高每日<color=#A9F548>燃油的產量</color>和<color=#A9F548>庫存上限</color>"
 }
@@ -12311,6 +12315,25 @@ _G.pg.base.gametip.secretary_help = {
 		},
 		{
 			info = "6. 在主介面可以通過切換功能，切換當前展示的秘書艦\n"
+		},
+		{
+			info = "· 隨機秘書組功能說明：\n"
+		},
+		{
+			info = "1. 隨機秘書組功能開啟後，將從常用角色或鎖定角色中隨機選取角色，作為隨機秘書組"
+		},
+		{
+			info = "2.隨機秘書組於每天8點和19點進行更換，可隨機角色不足時，功能自動關閉"
+		},
+		{
+			info = [[
+3.在隨機秘書組功能開啟期間，僅有原秘書組最左側的秘書艦可以獲得秘書艦好感加成
+·可以查看原秘書組角色，並對其進行更換、拖動操作
+·不可對隨機秘書組角色進行更換、拖動操作
+·回港時將隨機展示一名隨機秘書組成員]]
+		},
+		{
+			info = "4.關閉隨機秘書組功能後，將還原為原秘書組角色"
 		}
 	}
 }
@@ -13010,6 +13033,10 @@ _G.pg.base.gametip.index_awakening = {
 
 _G.pg.base.gametip.index_not_lvmax = {
 	tip = "未滿級"
+}
+
+_G.pg.base.gametip.index_spweapon = {
+	tip = "专属兵装"
 }
 
 _G.pg.base.gametip.decodegame_gametip = {
@@ -19773,4 +19800,64 @@ _G.pg.base.gametip.cook_game_noshiro = {
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "每成功上兩個甜點額外加1分"
+}
+
+_G.pg.base.gametip.random_ship_on = {
+	tip = "已開啟隨機秘書組功能"
+}
+
+_G.pg.base.gametip.random_ship_off_0 = {
+	tip = "當前可隨機角色數量不足，已自動關閉隨機秘書組功能"
+}
+
+_G.pg.base.gametip.random_ship_off = {
+	tip = "已關閉隨機秘書組功能，秘書組角色已還原"
+}
+
+_G.pg.base.gametip.random_ship_forbidden = {
+	tip = "已開啟隨機秘書組功能，不可對隨機秘書組進行操作"
+}
+
+_G.pg.base.gametip.random_ship_now = {
+	tip = "查看原秘書組"
+}
+
+_G.pg.base.gametip.random_ship_label = {
+	tip = "隨機秘書組"
+}
+
+_G.pg.base.gametip.player_vitae_skin_setting = {
+	tip = "換裝設置面板"
+}
+
+_G.pg.base.gametip.random_ship_tips1 = {
+	tip = "隨機秘書組將於每日8點和19點進行隨機"
+}
+
+_G.pg.base.gametip.random_ship_tips2 = {
+	tip = "可以對原秘書組角色進行更換"
+}
+
+_G.pg.base.gametip.random_ship_before = {
+	tip = "返回隨機秘書組"
+}
+
+_G.pg.base.gametip.random_ship_and_skin_title = {
+	tip = "秘書組角色隨機範圍"
+}
+
+_G.pg.base.gametip.random_ship_frequse_mode = {
+	tip = "常用角色"
+}
+
+_G.pg.base.gametip.random_ship_locked_mode = {
+	tip = "已鎖定角色"
+}
+
+_G.pg.base.gametip.random_flag_ship = {
+	tip = "隨機秘書艦"
+}
+
+_G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
+	tip = "更換換裝"
 }

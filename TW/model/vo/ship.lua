@@ -292,7 +292,11 @@ function slot0.getName(slot0)
 end
 
 function slot0.GetDefaultName(slot0)
-	return HXSet.hxLan(pg.ship_data_statistics[slot0.configId].name)
+	if slot0:isRemoulded() then
+		return HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
+	else
+		return HXSet.hxLan(pg.ship_data_statistics[slot0.configId].name)
+	end
 end
 
 function slot0.getShipName(slot0)
@@ -1977,6 +1981,46 @@ function slot0.getEquipmentRecord(slot0, slot1)
 	return slot0.equipmentRecords
 end
 
+function slot0.SetSpWeaponRecord(slot0, slot1, slot2)
+	PlayerPrefs.SetString("spweapon_record" .. "_" .. slot1 .. "_" .. slot0.id, table.concat(_.map({
+		1,
+		2,
+		3
+	}, function (slot0)
+		if uv0[slot0] and slot1:GetUID() ~= 0 then
+			return slot1:GetUID() .. "," .. slot1:GetConfigID()
+		else
+			return "0,0"
+		end
+	end), ":"))
+	PlayerPrefs.Save()
+end
+
+function slot0.GetSpWeaponRecord(slot0, slot1)
+	return _.map(string.split(PlayerPrefs.GetString("spweapon_record" .. "_" .. slot1 .. "_" .. slot0.id, ""), ":"), function (slot0)
+		slot1 = string.split(slot0, ",")
+
+		assert(slot1)
+
+		slot2 = tonumber(slot1[1])
+
+		if not tonumber(slot1[2]) or slot3 == 0 then
+			return nil
+		end
+
+		if not getProxy(EquipmentProxy):GetSpWeaponByUid(slot2) then
+			slot6 = getProxy(BayProxy)
+			slot4 = _.detect(slot6:GetSpWeaponsInShips(), function (slot0)
+				return slot0:GetUID() == uv0
+			end)
+		end
+
+		return slot4 or SpWeapon.New({
+			id = slot3
+		})
+	end)
+end
+
 function slot0.hasEquipEquipmentSkin(slot0)
 	for slot4, slot5 in ipairs(slot0.equipments) do
 		if slot5 and slot5:hasSkin() then
@@ -2097,6 +2141,10 @@ function slot0.hasProposeSkin(slot0)
 	end
 
 	return false
+end
+
+function slot0.HasUniqueSpWeapon(slot0)
+	return tobool(pg.spweapon_data_statistics.get_id_list_by_unique[slot0:getGroupId()])
 end
 
 function slot0.getAircraftReloadCD(slot0)

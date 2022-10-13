@@ -53,16 +53,15 @@ function slot0.SetPainting(slot0)
 	if slot0.contextData.paintingView.name ~= slot1 then
 		slot4 = slot0.contextData.paintingView
 
-		slot4:Init(slot1, slot2, slot3)
+		slot4:Init(slot1, slot2, slot3, function ()
+			slot0, slot1, slot2 = uv0:GetPaintingEnterVoice()
 
-		slot4, slot5 = slot0:GetPaintingEnterVoice()
-		slot6 = slot0.contextData.paintingView
-
-		slot6:Chat(slot4, slot5, true)
+			uv0.contextData.paintingView:Chat(slot0, slot1, slot2, true)
+		end)
 		onButton(slot0, slot0.contextData.paintingView.touch, function ()
-			slot0, slot1 = uv0:GetPaintingTouchVoice()
+			slot0, slot1, slot2 = uv0:GetPaintingTouchVoice()
 
-			uv0.contextData.paintingView:Chat(slot0, slot1, false)
+			uv0.contextData.paintingView:Chat(slot0, slot1, slot2, false)
 		end, SFX_PANEL)
 	end
 end
@@ -86,9 +85,9 @@ function slot0.UpdateCommodity(slot0, slot1, slot2)
 	slot0:SetShop(slot1)
 	slot0:OnUpdateCommodity(slot1:GetCommodityById(slot2))
 
-	slot4, slot5 = slot0:GetPaintingCommodityUpdateVoice()
+	slot4, slot5, slot6 = slot0:GetPaintingCommodityUpdateVoice()
 
-	slot0.contextData.paintingView:Chat(slot4, slot5, true)
+	slot0.contextData.paintingView:Chat(slot4, slot5, slot6, true)
 end
 
 function slot0.OnClickCommodity(slot0, slot1, slot2)
@@ -104,7 +103,7 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 
 	slot4 = nil
 
-	((slot1:getConfig("num_limit") ~= 1 and slot1:getConfig("commodity_type") ~= 4 or slot0.contextData.singleWindow) and slot0.contextData.multiWindow):ExecuteAction("Open", slot1, function (slot0, slot1, slot2)
+	((slot3.type ~= DROP_TYPE_EQUIPMENT_SKIN or slot0.contextData.singleWindowForESkin) and (slot1:getConfig("num_limit") ~= 1 and slot1:getConfig("commodity_type") ~= 4 or slot0.contextData.singleWindow) and slot0.contextData.multiWindow):ExecuteAction("Open", slot1, function (slot0, slot1, slot2)
 		slot3 = {}
 
 		if slot0:getConfig("commodity_type") == 4 or uv0.shop.type == ShopArgs.ShopActivity then
@@ -175,21 +174,21 @@ function slot0.GetPaintingEnterVoice(slot0)
 	slot2 = string.split(pg.navalacademy_shoppingstreet_template[1].words_enter, "|")
 	slot3 = math.random(#slot2)
 
-	return slot2[slot3], "enter_" .. slot3
+	return slot2[slot3], "enter_" .. slot3, false
 end
 
 function slot0.GetPaintingCommodityUpdateVoice(slot0)
 	slot2 = string.split(pg.navalacademy_shoppingstreet_template[1].words_buy, "|")
 	slot3 = math.random(#slot2)
 
-	return slot2[slot3], "buy_" .. slot3
+	return slot2[slot3], "buy_" .. slot3, false
 end
 
 function slot0.GetPaintingTouchVoice(slot0)
 	slot2 = string.split(pg.navalacademy_shoppingstreet_template[1].words_touch, "|")
 	slot3 = math.random(#slot2)
 
-	return slot2[slot3], "touch_" .. slot3
+	return slot2[slot3], "touch_" .. slot3, false
 end
 
 function slot0.GetBg(slot0, slot1)

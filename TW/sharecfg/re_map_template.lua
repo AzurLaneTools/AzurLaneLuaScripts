@@ -35,19 +35,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100016,
-			307061,
-			60
+		drop_gain = {
+			{
+				2100016,
+				4,
+				307061,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					307061
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					2,
@@ -81,7 +87,8 @@ pg.re_map_template = {
 			66,
 			100
 		},
-		character_gain = {},
+		drop_gain = {},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{
@@ -141,19 +148,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100036,
-			205071,
-			60
+		drop_gain = {
+			{
+				2100036,
+				4,
+				205071,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					205071
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -187,7 +200,8 @@ pg.re_map_template = {
 			66,
 			100
 		},
-		character_gain = {},
+		drop_gain = {},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{
@@ -248,19 +262,25 @@ pg.re_map_template = {
 			87,
 			100
 		},
-		character_gain = {
-			2100058,
-			401461,
-			60
+		drop_gain = {
+			{
+				2100058,
+				4,
+				401461,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					401461
 				},
 				"B4、D4"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -312,19 +332,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100076,
-			105121,
-			60
+		drop_gain = {
+			{
+				2100076,
+				4,
+				105121,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					105121
 				},
 				"B3、D3"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -376,19 +402,25 @@ pg.re_map_template = {
 			78,
 			100
 		},
-		character_gain = {
-			2100116,
-			301491,
-			60
+		drop_gain = {
+			{
+				2100116,
+				4,
+				301491,
+				60
+			},
+			{}
 		},
-		drop_display = {
+		drop_display_sp = {
 			{
 				{
 					4,
 					301491
 				},
 				"B2、D2"
-			},
+			}
+		},
+		drop_display = {
 			{
 				{
 					4,
@@ -422,7 +454,8 @@ pg.re_map_template = {
 			66,
 			100
 		},
-		character_gain = {},
+		drop_gain = {},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{
@@ -464,7 +497,8 @@ pg.re_map_template = {
 			66,
 			100
 		},
-		character_gain = {},
+		drop_gain = {},
+		drop_display_sp = {},
 		drop_display = {
 			{
 				{

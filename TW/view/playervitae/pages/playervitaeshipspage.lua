@@ -2,6 +2,8 @@ slot0 = class("PlayerVitaeShipsPage", import("...base.BaseSubView"))
 slot1 = 1
 slot2 = 2
 slot3 = 3
+slot4 = 1
+slot0.RANDOM_FLAG_SHIP_PAGE = 2
 slot0.ON_BEGIN_DRAG_CARD = "PlayerVitaeShipsPage:ON_BEGIN_DRAG_CARD"
 slot0.ON_DRAGING_CARD = "PlayerVitaeShipsPage:ON_DRAGING_CARD"
 slot0.ON_DRAG_END_CARD = "PlayerVitaeShipsPage:ON_DRAG_END_CARD"
@@ -45,16 +47,15 @@ function slot0.OnLoaded(slot0)
 	slot0.lockTpl = slot0:findTF("frame/lockCard")
 	slot0.helpBtn = slot0:findTF("help_btn")
 	slot0.settingBtn = slot0:findTF("setting_btn")
-	slot1 = slot0.settingBtn
-	slot0.settingBtnOn = slot1:Find("on")
-	slot1 = slot0.settingBtn
-	slot0.settingBtnOff = slot1:Find("off")
+	slot0.settingBtnSlider = slot0:findTF("toggle/on", slot0.settingBtn)
 	slot0.randomBtn = slot0:findTF("ran_setting_btn")
-	slot1 = slot0.randomBtn
-	slot0.randomBtnOn = slot1:Find("on")
-	slot1 = slot0.randomBtn
-	slot0.randomBtnOff = slot1:Find("off")
+	slot0.randomBtnSlider = slot0:findTF("toggle/on", slot0.randomBtn)
 	slot0.settingSeceneBtn = slot0:findTF("setting_scene_btn")
+	slot0.nativeBtn = slot0:findTF("native_setting_btn")
+	slot0.nativeBtnOn = slot0.nativeBtn:Find("on")
+	slot0.nativeBtnOff = slot0.nativeBtn:Find("off")
+	slot0.tip = slot0:findTF("tip"):GetComponent(typeof(Text))
+	slot0.flagShipMark = slot0:findTF("flagship")
 
 	slot0:bind(uv0.ON_BEGIN_DRAG_CARD, function (slot0, slot1)
 		uv0:OnBeginDragCard(slot1)
@@ -65,11 +66,11 @@ function slot0.OnLoaded(slot0)
 	slot0:bind(uv0.ON_DRAG_END_CARD, function (slot0)
 		uv0:OnEndDragCard()
 	end)
-
-	if LOCK_RANDOM_SKIN_AND_SHIP then
-		setActive(slot0.randomBtn, false)
-		setText(slot0.settingSeceneBtn:Find("Text"), i18n("playervtae_setting_btn_label"))
-	end
+	setText(slot0.nativeBtnOn:Find("Text"), i18n("random_ship_before"))
+	setText(slot0.nativeBtnOff:Find("Text"), i18n("random_ship_now"))
+	setText(slot0.settingBtn:Find("Text"), i18n("player_vitae_skin_setting"))
+	setText(slot0.randomBtn:Find("Text"), i18n("random_ship_label"))
+	setText(slot0.settingSeceneBtn:Find("Text"), i18n("playervtae_setting_btn_label"))
 end
 
 function slot0.OnBeginDragCard(slot0, slot1)
@@ -149,45 +150,81 @@ function slot0.OnInit(slot0)
 	slot1 = false
 
 	onButton(slot0, slot0.settingBtn, function ()
-		if uv0.IsOpenEditForRandom then
-			triggerButton(uv0.randomBtn)
-		end
+		uv0 = not uv0
 
-		uv1 = not uv1
-
+		uv1:EditCards(uv0)
 		uv2()
-		uv0:EditCards(uv1)
 	end, SFX_PANEL)
 	(function ()
-		setActive(uv0.settingBtnOn, uv1)
-		setActive(uv0.settingBtnOff, not uv1)
+		setAnchoredPosition(uv0.settingBtnSlider, {
+			x = ({
+				68,
+				-68
+			})[uv1 and 1 or 2]
+		})
 	end)()
 
-	slot3 = false
+	slot3 = getProxy(SettingsProxy)
+	slot0.randomFlag = slot3:IsOpenRandomFlagShip()
+	slot0.nativeFlag = false
 
 	onButton(slot0, slot0.randomBtn, function ()
-		if LOCK_RANDOM_SKIN_AND_SHIP then
-			return
+		uv0.randomFlag = not uv0.randomFlag
+
+		if uv0.randomFlag then
+			if not MainRandomFlagShipSequence.New():Random() or #slot0 <= 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_off_0"))
+
+				uv0.randomFlag = not uv0.randomFlag
+
+				return
+			end
+
+			uv1:UpdateRandomFlagShipList(slot0)
+		else
+			uv1:UpdateRandomFlagShipList({})
+
+			uv0.nativeFlag = false
+
+			uv2()
 		end
 
-		if uv0.IsOpenEdit then
-			triggerButton(uv0.settingBtn)
-		end
-
-		uv1 = not uv1
-
-		uv2()
-		uv0:EditCardsForRandom(uv1)
+		uv0:SwitchToPage(uv0.randomFlag and uv3 or uv4)
+		uv5()
+		pg.TipsMgr.GetInstance():ShowTips(uv0.randomFlag and i18n("random_ship_on") or i18n("random_ship_off"))
+		uv0:emit(PlayerVitaeMediator.ON_SWITCH_RANDOM_FLAG_SHIP_BTN, uv0.randomFlag)
 	end, SFX_PANEL)
 	(function ()
-		setActive(uv0.randomBtnOn, uv1)
-		setActive(uv0.randomBtnOff, not uv1)
-		setActive(uv0.settingSeceneBtn, uv1)
+		setAnchoredPosition(uv0.randomBtnSlider, {
+			x = ({
+				68,
+				-68
+			})[uv0.randomFlag and 1 or 2]
+		})
+		setActive(uv0.nativeBtn, uv0.randomFlag)
+		setActive(uv0.flagShipMark, not uv0.randomFlag or uv0.nativeFlag)
+
+		if uv0.randomFlag and uv1 then
+			triggerButton(uv0.settingBtn)
+		end
+	end)()
+	onButton(slot0, slot0.nativeBtn, function ()
+		uv0.nativeFlag = not uv0.nativeFlag
+
+		uv1()
+		uv0:SwitchToPage(uv0.nativeFlag and uv2 or uv3)
+	end, SFX_PANEL)
+	(function ()
+		setActive(uv0.nativeBtnOn, uv0.nativeFlag)
+		setActive(uv0.nativeBtnOff, not uv0.nativeFlag)
+		setActive(uv0.flagShipMark, not uv0.randomFlag or uv0.nativeFlag)
+
+		if uv1 then
+			triggerButton(uv0.settingBtn)
+		end
 	end)()
 	onButton(slot0, slot0.settingSeceneBtn, function ()
-		if uv0.IsOpenEditForRandom then
-			triggerButton(uv0.randomBtn)
-		end
+		uv0.contextData.showSelectCharacters = true
 
 		uv0:emit(PlayerVitaeMediator.GO_SCENE, SCENE.SETTINGS, {
 			page = NewSettingsScene.PAGE_OPTION,
@@ -201,38 +238,65 @@ function slot0.OnInit(slot0)
 		{}
 	}
 
-	table.insert(slot0.cards[uv0], PlayerVitaeShipCard.New(slot0.shipTpl, slot0.event))
-	table.insert(slot0.cards[uv1], PlayerVitaeAddCard.New(slot0.emptyTpl, slot0.event))
-	table.insert(slot0.cards[uv2], PlayerVitaeLockCard.New(slot0.lockTpl, slot0.event))
+	table.insert(slot0.cards[uv2], PlayerVitaeShipCard.New(slot0.shipTpl, slot0.event))
+	table.insert(slot0.cards[uv3], PlayerVitaeAddCard.New(slot0.emptyTpl, slot0.event))
+	table.insert(slot0.cards[uv4], PlayerVitaeLockCard.New(slot0.lockTpl, slot0.event))
 end
 
 function slot0.Update(slot0)
-	slot0.max, slot0.unlockCnt = uv0.GetSlotMaxCnt()
+	slot2 = nil
 
-	slot0:UpdateCards(slot0:GetUnlockShipCnt())
+	slot0:SwitchToPage(slot0.randomFlag and slot0.nativeFlag and uv0 or getProxy(SettingsProxy):IsOpenRandomFlagShip() and uv1 or uv0)
 	slot0:Show()
 end
 
-function slot0.UpdateCards(slot0, slot1, slot2)
-	slot3 = {
+function slot0.SwitchToPage(slot0, slot1)
+	slot2 = nil
+
+	if slot1 == uv0 then
+		slot2 = _.select(getProxy(SettingsProxy):GetRandomFlagShipList(), function (slot0)
+			return getProxy(BayProxy):RawGetShipById(slot0) ~= nil
+		end)
+		slot0.tip.text = i18n("random_ship_tips1")
+
+		slot0:emit(PlayerVitaeScene.ON_PAGE_SWTICH, PlayerVitaeScene.PAGE_RANDOM_SHIPS)
+	elseif slot1 == uv1 then
+		slot2 = getProxy(PlayerProxy):getRawData().characters
+		slot0.tip.text = i18n("random_ship_tips2")
+
+		slot0:emit(PlayerVitaeScene.ON_PAGE_SWTICH, PlayerVitaeScene.PAGE_NATIVE_SHIPS)
+	end
+
+	slot0:Flush(slot2, slot1)
+	setActive(slot0.tip.gameObject, slot0.randomFlag)
+end
+
+function slot0.Flush(slot0, slot1, slot2)
+	slot0.max, slot0.unlockCnt = uv0.GetSlotMaxCnt()
+
+	slot0:UpdateCards(slot2, slot1, slot0:GetUnlockShipCnt(slot1))
+end
+
+function slot0.UpdateCards(slot0, slot1, slot2, slot3)
+	slot4 = {
 		0
 	}
-	slot4 = {}
+	slot5 = {}
 
-	for slot8, slot9 in ipairs(slot1) do
-		table.insert(slot4, function (slot0)
-			uv0:UpdateTypeCards(uv1, uv2, uv3, slot0)
+	for slot9, slot10 in ipairs(slot3) do
+		table.insert(slot5, function (slot0)
+			uv0:UpdateTypeCards(uv1, uv2, uv3, uv4, uv5, slot0)
 		end)
 	end
 
-	seriesAsync(slot4)
+	seriesAsync(slot5)
 end
 
-function slot0.UpdateTypeCards(slot0, slot1, slot2, slot3, slot4)
-	slot5 = {}
-	slot6 = slot0.cards[slot1]
+function slot0.UpdateTypeCards(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot7 = {}
+	slot8 = slot0.cards[slot3]
 
-	function slot7(slot0)
+	function slot9(slot0)
 		if not uv0[slot0] then
 			uv0[slot0] = uv0[1]:Clone()
 		end
@@ -240,11 +304,11 @@ function slot0.UpdateTypeCards(slot0, slot1, slot2, slot3, slot4)
 		uv1[1] = uv1[1] + 1
 
 		slot1:Enable()
-		slot1:Update(uv1[1], slot0)
+		slot1:Update(uv1[1], slot0, uv2, uv3, uv4.nativeFlag)
 	end
 
-	for slot11 = 1, slot2 do
-		table.insert(slot5, function (slot0)
+	for slot13 = 1, slot4 do
+		table.insert(slot7, function (slot0)
 			if uv0.exited then
 				return
 			end
@@ -254,22 +318,22 @@ function slot0.UpdateTypeCards(slot0, slot1, slot2, slot3, slot4)
 		end)
 	end
 
-	for slot11 = #slot6, slot2 + 1, -1 do
-		slot6[slot11]:Disable()
+	for slot13 = #slot8, slot4 + 1, -1 do
+		slot8[slot13]:Disable()
 	end
 
-	seriesAsync(slot5, slot4)
+	seriesAsync(slot7, slot6)
 end
 
-function slot0.GetUnlockShipCnt(slot0)
-	slot1 = 0
+function slot0.GetUnlockShipCnt(slot0, slot1)
 	slot2 = 0
 	slot3 = 0
-	slot2 = #getProxy(PlayerProxy):getRawData().characters
+	slot4 = 0
+	slot3 = #slot1
 
 	return {
-		slot2,
-		slot0.unlockCnt - slot2,
+		slot3,
+		slot0.unlockCnt - slot3,
 		slot0.max - slot0.unlockCnt
 	}
 end
@@ -345,6 +409,8 @@ function slot0.Hide(slot0)
 	end
 
 	Input.multiTouchEnabled = true
+
+	slot0:emit(PlayerVitaeScene.ON_PAGE_SWTICH, PlayerVitaeScene.PAGE_DEFAULT)
 end
 
 function slot0.OnDestroy(slot0)

@@ -35,6 +35,8 @@ function slot0.Load(slot0, slot1)
 	slot0.off = findTF(slot0.tf, "off")
 	slot0.block = findTF(slot0.tf, "block")
 	slot0.stateTr = findTF(slot0.tf, "state")
+	slot0.onTxt = findTF(slot0.tf, "on_Text")
+	slot0.offTxt = findTF(slot0.tf, "off_Text")
 
 	slot0:InitBtn()
 
@@ -103,6 +105,9 @@ function slot1(slot0, slot1)
 	else
 		setActive(slot0.off, not slot1)
 		setActive(slot0.on, slot1)
+
+		slot0.onTxt:GetComponent(typeof(Text)).text = "<color=" .. (slot1 and "#FFFFFFFF" or "#5A6177") .. ">ON</color>"
+		slot0.offTxt:GetComponent(typeof(Text)).text = "<color=" .. (slot1 and "#5A6177" or "#FFFFFFFF") .. ">OFF</color>"
 	end
 end
 

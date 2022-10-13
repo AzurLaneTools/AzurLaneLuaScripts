@@ -3,7 +3,7 @@ return {
 	name = "",
 	cd = 0,
 	painting = 1,
-	id = 15640,
+	id = 16102,
 	picture = "0",
 	castCV = "skill",
 	desc = "",
@@ -21,14 +21,10 @@ return {
 			casterAniEffect = "",
 			targetAniEffect = "",
 			target_choise = {
-				"TargetAllHelp",
-				"TargetShipTag"
+				"TargetSelf"
 			},
 			arg_list = {
-				buff_id = 15641,
-				ship_tag_list = {
-					"Illustrious-Class"
-				}
+				buff_id = 16101
 			}
 		},
 		{
@@ -36,14 +32,10 @@ return {
 			casterAniEffect = "",
 			targetAniEffect = "",
 			target_choise = {
-				"TargetAllHelp",
-				"TargetShipTag"
+				"TargetSelf"
 			},
 			arg_list = {
-				buff_id = 15642,
-				ship_tag_list = {
-					"Illustrious-Class"
-				}
+				buff_id = 16101
 			}
 		},
 		{
@@ -51,14 +43,10 @@ return {
 			casterAniEffect = "",
 			targetAniEffect = "",
 			target_choise = {
-				"TargetAllHelp",
-				"TargetShipTag"
+				"TargetSelf"
 			},
 			arg_list = {
-				buff_id = 15643,
-				ship_tag_list = {
-					"Illustrious-Class"
-				}
+				buff_id = 16101
 			}
 		}
 	}

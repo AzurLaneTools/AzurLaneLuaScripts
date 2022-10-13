@@ -279,5 +279,12 @@ pg.ship_spine_shift = {
 			-17,
 			3
 		}
+	},
+	sipeibojue_younv = {
+		spine = "sipeibojue_younv",
+		mainui_shift = {
+			0,
+			-12
+		}
 	}
 }

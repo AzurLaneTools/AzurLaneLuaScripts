@@ -65,8 +65,8 @@ function slot0.init(slot0)
 	setActive(slot0.rtGrid, true)
 
 	slot0.rtDragLayer = slot0.rtGrid:Find("DragLayer")
-	slot0.rtEnvBG = slot0:findTF("main/bg")
-	slot0.rtTop = slot0:findTF("top")
+	slot0.rtEnvBG = slot0._tf:Find("main/bg")
+	slot0.rtTop = slot0._tf:Find("top")
 	slot0.rtTopAtlas = slot0.rtTop:Find("adapt/top_chapter")
 
 	setActive(slot0.rtTopAtlas, false)
@@ -1816,10 +1816,14 @@ function slot0.BackToMap(slot0)
 end
 
 function slot0.DisplayEnv(slot0)
-	if nowWorld():GetActiveMap() and #slot1.config.map_bg > 0 then
-		GetImageSpriteFromAtlasAsync("world/map/" .. slot1.config.map_bg[1], "", slot0.rtEnvBG)
-	else
-		GetImageSpriteFromAtlasAsync("world/map/model_bg", "model_bg", slot0.rtEnvBG)
+	if slot0.rtEnvBG:GetComponent(typeof(Image)).sprite.name ~= (checkExist(nowWorld():GetActiveMap(), {
+		"config"
+	}, {
+		"map_bg"
+	}, {
+		1
+	}) or "model_bg") then
+		GetImageSpriteFromAtlasAsync("world/map/" .. slot1, slot1, slot0.rtEnvBG)
 	end
 end
 

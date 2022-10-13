@@ -13,3 +13,7 @@ function slot2.AppendWeapon(slot0, slot1)
 	slot1:SetAllInWeaponVO(slot0)
 	uv0.super.AppendWeapon(slot0, slot1)
 end
+
+function slot2.GetCurrentWeaponIconIndex(slot0)
+	return 3
+end

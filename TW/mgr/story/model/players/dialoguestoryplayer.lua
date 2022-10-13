@@ -24,6 +24,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.glitchArtMaterial = slot0:findTF("resource/material1"):GetComponent(typeof(Image)).material
 	slot0.maskMaterial = slot0:findTF("resource/material2"):GetComponent(typeof(Image)).material
 	slot0.glitchArtMaterialForPainting = slot0:findTF("resource/material3"):GetComponent(typeof(Image)).material
+	slot0.iconImage = slot0:findTF("front/icon"):GetComponent(typeof(Image))
 	slot0.typewriterSpeed = 0
 	slot0.defualtFontSize = slot0.conentTxt.fontSize
 	slot0.live2dChars = {}
@@ -121,8 +122,38 @@ function slot0.OnEnter(slot0, slot1, slot2, slot3)
 		end,
 		function (slot0)
 			uv0:FadeOutPrevPaiting(uv1, uv2, uv3)
+		end,
+		function (slot0)
+			uv0:UpdateIcon(uv1, slot0)
 		end
 	}, slot3)
+end
+
+function slot0.UpdateIcon(slot0, slot1, slot2)
+	if not slot1:ExistIcon() then
+		setActive(slot0.iconImage.gameObject, false)
+		slot2()
+
+		return
+	end
+
+	slot3 = slot1:GetIconData()
+	slot0.iconImage.sprite = LoadSprite(slot3.image)
+
+	slot0.iconImage:SetNativeSize()
+
+	slot4 = slot0.iconImage.gameObject.transform
+
+	if slot3.pos then
+		slot4.localPosition = Vector3(slot3.pos[1], slot3.pos[2], 0)
+	else
+		slot4.localPosition = Vector3.one
+	end
+
+	slot4.localScale = Vector3(slot3.scale or 1, slot3.scale or 1, 1)
+
+	setActive(slot0.iconImage.gameObject, true)
+	slot2()
 end
 
 function slot0.FadeOutPrevPaiting(slot0, slot1, slot2, slot3)
@@ -653,6 +684,12 @@ function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
 			slot6[slot10].material = slot0.glitchArtMaterial
 		end
 	end
+
+	if slot4 and GameObject.Find("/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/SpriteMask") and slot6.activeInHierarchy then
+		setActive(slot6, false)
+
+		slot0.spriteMask = slot6
+	end
 end
 
 function slot0.UpdateContent(slot0, slot1, slot2)
@@ -802,6 +839,14 @@ function slot0.Puase(slot0)
 
 	if slot0.typewriterSpeed ~= 0 then
 		slot0.typewriter:setSpeed(100000000)
+	end
+end
+
+function slot0.OnClear(slot0)
+	if slot0.spriteMask then
+		setActive(slot0.spriteMask, true)
+
+		slot0.spriteMask = nil
 	end
 end
 
