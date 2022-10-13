@@ -18,15 +18,15 @@ return {
 			hideui = {
 				{
 					ishide = true,
-					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Weapon_button_container/Skill_1"
 				},
 				{
 					ishide = true,
-					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Weapon_button_container/Skill_2"
 				},
 				{
 					ishide = true,
-					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Weapon_button_container/Skill_3"
 				}
 			}
 		},
@@ -83,7 +83,7 @@ return {
 			hideui = {
 				{
 					ishide = false,
-					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Weapon_button_container/Skill_2"
 				}
 			}
 		},
@@ -100,7 +100,7 @@ return {
 				text = slot0[4]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl",
+				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Weapon_button_container/Skill_2/ActCtl",
 				triggerType = {
 					3
 				}
@@ -127,7 +127,7 @@ return {
 			hideui = {
 				{
 					ishide = false,
-					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Weapon_button_container/Skill_1"
 				}
 			}
 		},
@@ -144,7 +144,7 @@ return {
 				text = slot0[6]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl",
+				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Weapon_button_container/Skill_1/ActCtl",
 				triggerType = {
 					3
 				}

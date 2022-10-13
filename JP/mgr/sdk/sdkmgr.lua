@@ -332,12 +332,114 @@ function slot0.UnlockAchievement(slot0)
 	slot0:Call("UnlockAchievement")
 end
 
+function slot0.IsBindFaceBook(slot0)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return slot0:Get("IsBindFaceBook")
+	end
+end
+
+function slot0.IsBindApple(slot0)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return slot0:Get("IsBindApple")
+	end
+end
+
+function slot0.IsBindGoogle(slot0)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return slot0:Get("IsBindGoogle")
+	end
+end
+
+function slot0.IsBindPhone(slot0)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return slot0:Get("IsBindPhone")
+	end
+end
+
+function slot0.IsBindGameCenter(slot0)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return false
+	end
+end
+
+function slot0.CanTriggerDeepLinking(slot0)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return slot0:Get("CanTriggerDeepLinking")
+	else
+		return false
+	end
+end
+
+function slot0.TriggerDeepLinking(slot0)
+	slot0:Call("TriggerDeepLinking")
+end
+
+function slot0.BindSocial(slot0, slot1)
+	if slot1 == 1 then
+		slot0:BindFaceBook()
+	elseif slot1 == 2 then
+		slot0:BindGoogle()
+	elseif slot1 == 3 then
+		slot0:BindPhone()
+	elseif slot1 == 4 then
+		-- Nothing
+	elseif slot1 == 5 then
+		slot0:BindApple()
+	end
+end
+
+function slot0.UnbindSocial(slot0, slot1)
+	if slot1 == 1 then
+		slot0:UnBindFaceBook()
+	elseif slot1 == 2 then
+		slot0:UnBindGoogle()
+	elseif slot1 == 3 then
+		slot0:UnBindPhone()
+	elseif slot1 == 4 then
+		-- Nothing
+	end
+end
+
+function slot0.BindFaceBook(slot0)
+	slot0:Call("BindFaceBook")
+end
+
+function slot0.BindApple(slot0)
+	slot0:Call("BindApple")
+end
+
+function slot0.BindGoogle(slot0)
+	slot0:Call("BindGoogle")
+end
+
+function slot0.BindPhone(slot0)
+	slot0:Call("BindPhone")
+end
+
+function slot0.UnBindFaceBook(slot0)
+	slot0:Call("UnBindFaceBook")
+end
+
+function slot0.UnBindGoogle(slot0)
+	slot0:Call("UnBindGoogle")
+end
+
+function slot0.UnBindPhone(slot0)
+	slot0:Call("UnBindPhone")
+end
+
 function slot0.ShowLicence(slot0)
 	slot0:Call("ShowLicence")
 end
 
 function slot0.ShowPrivate(slot0)
 	slot0:Call("ShowPrivate")
+end
+
+function slot0.GetProduct(slot0, slot1)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return slot0:Get("GetProduct", slot1)
+	end
 end
 
 function slot0.GetDeviceId(slot0)

@@ -250,7 +250,7 @@ function slot32.CreateWeaponUnit(slot0, slot1, slot2, slot3, slot4)
 		slot6 = uv2.Battle.BattleHammerHeadWeaponUnit.New()
 	elseif slot8 == uv1.EquipmentType.BOMBER_PRE_CAST_ALERT then
 		slot6 = uv2.Battle.BattleBombWeaponUnit.New()
-	elseif slot8 == uv1.EquipmentType.POINT_HIT_AND_LOCK or slot8 == uv1.EquipmentType.MANUAL_MISSILE then
+	elseif slot8 == uv1.EquipmentType.POINT_HIT_AND_LOCK or slot8 == uv1.EquipmentType.MANUAL_MISSILE or slot8 == uv1.EquipmentType.MANUAL_METEOR then
 		slot6 = uv2.Battle.BattlePointHitWeaponUnit.New()
 	elseif slot8 == uv1.EquipmentType.BEAM then
 		slot6 = uv2.Battle.BattleLaserUnit.New()

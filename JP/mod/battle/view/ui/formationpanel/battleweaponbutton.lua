@@ -2,6 +2,19 @@ ys = ys or {}
 slot1 = class("BattleWeaponButton")
 ys.Battle.BattleWeaponButton = slot1
 slot1.__name = "BattleWeaponButton"
+slot1.ICON_BY_INDEX = {
+	"cannon",
+	"torpedo",
+	"aircraft",
+	"submarine",
+	"dive",
+	"rise",
+	"boost",
+	"switch",
+	"special",
+	"aamissile",
+	"meteor"
+}
 
 function slot1.Ctor(slot0)
 	uv0.EventListener.AttachEventListener(slot0)
@@ -22,8 +35,23 @@ end
 
 function slot1.SetJam(slot0, slot1)
 	SetActive(slot0._jam, slot1)
-	SetActive(slot0._currentIcon, not slot1)
+	SetActive(slot0._icon, not slot1)
 	SetActive(slot0._progress, not slot1)
+end
+
+function slot1.SwitchIcon(slot0, slot1)
+	slot0._iconIndex = slot1
+	slot2 = uv0.ICON_BY_INDEX[slot1]
+
+	setImageSprite(slot0._unfill, LoadSprite("ui/CombatUI_atlas", "weapon_unfill_" .. slot2))
+	setImageSprite(slot0._filled, LoadSprite("ui/CombatUI_atlas", "filled_combined_" .. slot2))
+end
+
+function slot1.SwitchIconEffect(slot0, slot1)
+	slot2 = uv0.ICON_BY_INDEX[slot1]
+
+	setImageSprite(slot0._filledEffect, LoadSprite("ui/CombatUI_atlas", "filled_effect_" .. slot2), true)
+	setImageSprite(slot0._jam, LoadSprite("ui/CombatUI_atlas", "skill_jam_" .. slot2), true)
 end
 
 function slot1.ConfigSkin(slot0, slot1)
@@ -35,10 +63,8 @@ function slot1.ConfigSkin(slot0, slot1)
 	slot0._icon = slot1:Find("ActCtl/skill_icon")
 	slot0._filled = slot0._icon:Find("filled")
 	slot0._unfill = slot0._icon:Find("unfill")
-	slot0._currentIcon = slot0._icon
-	slot0._currentFilled = slot0._filled
-	slot0._currentUnfilled = slot0._unfill
-	slot0._text = slot1:Find("ActCtl/Count/CountText")
+	slot0._count = slot1:Find("ActCtl/Count")
+	slot0._text = slot0._count:Find("CountText")
 	slot0._selected = slot1:Find("ActCtl/selected")
 	slot0._unSelect = slot1:Find("ActCtl/unselect")
 	slot0._filledEffect = slot1:Find("ActCtl/filledEffect")
@@ -48,30 +74,12 @@ function slot1.ConfigSkin(slot0, slot1)
 	slot1.gameObject:SetActive(true)
 	slot0._block:SetActive(false)
 	slot0._progress.gameObject:SetActive(true)
-	slot0._text.gameObject:SetActive(false)
 
 	slot2 = slot0._filledEffect.gameObject
 
 	slot2:SetActive(false)
 	slot2:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 		SetActive(uv0._filledEffect, false)
-	end)
-
-	if slot0._skin:Find("ActCtl/skill_icon_switch") then
-		slot0:initSubIcon()
-	end
-end
-
-function slot1.initSubIcon(slot0)
-	slot0._subIcon = slot0._skin:Find("ActCtl/skill_icon_switch")
-	slot0._subFilled = slot0._subIcon:Find("filled")
-	slot0._subUnfill = slot0._subIcon:Find("unfill")
-	slot0._subFilledFX = slot0._skin:Find("ActCtl/subFilledEffect")
-	slot1 = slot0._subFilledFX.gameObject
-
-	slot1:SetActive(false)
-	slot1:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
-		SetActive(uv0._subFilledFX, false)
 	end)
 end
 
@@ -110,16 +118,12 @@ function slot1.OnUnSelect(slot0)
 end
 
 function slot1.OnFilled(slot0)
-	SetActive(slot0._currentFilled, true)
-	SetActive(slot0._currentUnfilled, false)
+	SetActive(slot0._filled, true)
+	SetActive(slot0._unfill, false)
 end
 
 function slot1.OnfilledEffect(slot0)
-	if slot0._progressInfo:IsMainType() then
-		SetActive(slot0._filledEffect, true)
-	else
-		SetActive(slot0._subFilledFX, true)
-	end
+	SetActive(slot0._filledEffect, true)
 end
 
 function slot1.OnOverLoadChange(slot0)
@@ -137,8 +141,8 @@ function slot1.OnOverLoadChange(slot0)
 end
 
 function slot1.OnUnfill(slot0)
-	SetActive(slot0._currentFilled, false)
-	SetActive(slot0._currentUnfilled, true)
+	SetActive(slot0._filled, false)
+	SetActive(slot0._unfill, true)
 end
 
 function slot1.SetProgressActive(slot0, slot1)
@@ -146,7 +150,7 @@ function slot1.SetProgressActive(slot0, slot1)
 end
 
 function slot1.SetTextActive(slot0, slot1)
-	slot0._text.gameObject:SetActive(slot1)
+	SetActive(slot0._count, slot1)
 end
 
 function slot1.SetProgressInfo(slot0, slot1)
@@ -163,19 +167,9 @@ end
 function slot1.OnCountChange(slot0)
 	slot0._countTxt.text = string.format("%d/%d", slot0._progressInfo:GetCount(), slot0._progressInfo:GetTotal())
 
-	if not slot0._progressInfo:IsMainType() then
-		slot0._currentIcon = slot0._subIcon
-		slot0._currentFilled = slot0._subFilled
-		slot0._currentUnfilled = slot0._subUnfill
-	else
-		slot0._currentIcon = slot0._icon
-		slot0._currentFilled = slot0._filled
-		slot0._currentUnfilled = slot0._unfill
-	end
-
-	if slot0._subIcon then
-		SetActive(slot0._subIcon, not slot0._progressInfo:IsMainType())
-		SetActive(slot0._icon, slot0._progressInfo:IsMainType())
+	if slot0._progressInfo:GetCurrentWeaponIconIndex() ~= slot0._iconIndex then
+		slot0:SwitchIcon(slot3)
+		slot0:SwitchIconEffect(slot3)
 	end
 end
 
@@ -251,6 +245,15 @@ function slot1.SetControllerActive(slot0, slot1)
 	slot2:RemovePointDownFunc()
 	slot2:RemovePointUpFunc()
 	slot2:RemovePointExitFunc()
+end
+
+function slot1.InitialAnima(slot0, slot1)
+	SetActive(slot0._btn, false)
+
+	slot0._leanID = LeanTween.delayedCall(slot1, System.Action(function ()
+		uv0._skin:GetComponent("Animator").enabled = true
+		uv0._leanID = nil
+	end))
 end
 
 function slot1.Update(slot0)

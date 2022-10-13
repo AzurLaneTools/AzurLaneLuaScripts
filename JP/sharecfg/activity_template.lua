@@ -4492,6 +4492,7 @@ pg.activity_template = {
 	[4508] = {
 		mark = 20220915,
 		title_res_tag = "eatFood",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 35,
@@ -4499,33 +4500,6 @@ pg.activity_template = {
 		config_data = "0",
 		config_client = "",
 		id = 4508,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "EatFoodPage",
 			ui_name = "EatFoodPage"
@@ -5070,41 +5044,15 @@ pg.activity_template = {
 	},
 	[4526] = {
 		mark = 20220915,
-		config_client = "",
 		title_res_tag = "huiliu",
+		time = "stop",
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 26,
+		config_client = "",
 		id = 4526,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			ui_name = "returnawardpage",
 			ui_name2 = "ReturnAward4RetrunerPage",
@@ -5154,84 +5102,32 @@ pg.activity_template = {
 	},
 	[4528] = {
 		mark = 20220915,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 55,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4528,
 		config_data = {
 			1,
 			2,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4530] = {
 		mark = 20220915,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 34,
 		is_show = 0,
 		config_data = "0",
+		title_res_tag = "",
 		id = 4530,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"wuzang_2",
@@ -5248,12 +5144,13 @@ pg.activity_template = {
 	},
 	[4531] = {
 		mark = 20220915,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4531,
 		config_data = {
@@ -5278,43 +5175,17 @@ pg.activity_template = {
 			{
 				17981
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4532] = {
 		mark = 20220915,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 67,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4532,
 		config_data = {
@@ -5322,71 +5193,18 @@ pg.activity_template = {
 			20,
 			21,
 			22
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4533] = {
 		mark = 20220915,
-		id = 4533,
 		title_res_tag = "zhaodaizhuang",
+		time = "stop",
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 27,
+		id = 4533,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FifthInvitePage",
 			ui_name = "FifthInvitePage"
@@ -5622,41 +5440,15 @@ pg.activity_template = {
 	},
 	[4538] = {
 		mark = 20220929,
-		config_client = "",
 		title_res_tag = "monopoly_car",
+		time = "stop",
 		type = 51,
 		login_pop = 0,
 		config_id = 7,
 		is_show = 30,
+		config_client = "",
 		id = 4538,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					9,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MonopolyCar2Page",
 			ui_name = "MonopolyCar2Page"
@@ -5705,21 +5497,39 @@ pg.activity_template = {
 	},
 	[4540] = {
 		mark = 20220929,
-		config_client = "",
 		title_res_tag = "equipbox_victory",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4540,
 		is_show = 31,
+		config_client = "",
 		id = 4540,
 		config_data = {},
+		page_info = {
+			class_name = "EquipBoxVictoryPtPage",
+			ui_name = "EquipBoxVictoryPtPage"
+		}
+	},
+	[4541] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4541,
+		config_data = {
+			17998
+		},
 		time = {
 			"timer",
 			{
 				{
 					2022,
-					9,
-					29
+					10,
+					13
 				},
 				{
 					0,
@@ -5731,7 +5541,50 @@ pg.activity_template = {
 				{
 					2022,
 					10,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				17998
+			}
+		}
+	},
+	[4542] = {
+		mark = 20221013,
+		id = 4542,
+		title_res_tag = "littlespee_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4542,
+		is_show = 22,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
 					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					27
 				},
 				{
 					23,
@@ -5741,8 +5594,450 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "EquipBoxVictoryPtPage",
-			ui_name = "EquipBoxVictoryPtPage"
+			class_name = "LittleSpeePage",
+			ui_name = "LittleSpeePage"
+		},
+		config_client = {
+			activateStory = "WEIJIAOXIAOSIPEIBOJUE2",
+			performStory = "51002",
+			story = {
+				{
+					"WEIJIAOXIAOSIPEIBOJUE1"
+				},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			}
+		}
+	},
+	[4543] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4543,
+		config_data = {
+			1877,
+			1878,
+			1879,
+			1880,
+			1881,
+			1882,
+			1883,
+			1884,
+			1885,
+			1886
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_yongzhe",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "mingshi_live2d",
+			pt_id = 281,
+			enter = {
+				"shop1",
+				"いらしゃいませ、にゃ！",
+				"login"
+			},
+			purchase = {
+				"shop3",
+				"まいどありだにゃ～",
+				"main_3"
+			}
+		}
+	},
+	[4544] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4544,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4545] = {
+		mark = 20221013,
+		id = 4545,
+		title_res_tag = "MonopolyEp_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4545,
+		is_show = 22,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyPtPage",
+			ui_name = "MonopolyPtPage"
+		},
+		config_client = {
+			story = {
+				{
+					0,
+					"YONGZHEDELVTU1"
+				},
+				{
+					5,
+					"YONGZHEDELVTU2"
+				},
+				{
+					10,
+					"YONGZHEDELVTU3"
+				},
+				{
+					15,
+					"YONGZHEDELVTU4"
+				}
+			},
+			battle = {
+				{
+					20,
+					"51003"
+				}
+			}
+		}
+	},
+	[4546] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4546,
+		config_data = {
+			17999,
+			18000,
+			18001,
+			18002,
+			18003,
+			18004,
+			18005,
+			18006,
+			18007,
+			18008,
+			18009,
+			18010,
+			18011,
+			18012,
+			18013,
+			18014
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4547] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 21,
+		is_show = 0,
+		config_client = "",
+		id = 4547,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4548] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4548",
+		id = 4548,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "駿河が常設実装！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%"
+			}
+		}
+	},
+	[4549] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4549",
+		id = 4549,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "能代、風雲などが常設実装！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：26%",
+				"ノーマル：55%"
+			}
+		}
+	},
+	[4550] = {
+		mark = 20221013,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4550",
+		id = 4550,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "タシュケント(μ兵装)、ダイドー(μ兵装)などの出現率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>大鳳(μ兵装)</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>タシュケント(μ兵装)</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>ダイドー(μ兵装)</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>アルバコア(μ兵装)</color>：2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>ボルチモア(μ兵装)</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
 		}
 	},
 	[7001] = {
@@ -9528,6 +9823,16 @@ pg.activity_template = {
 		4538,
 		4539,
 		4540,
+		4541,
+		4542,
+		4543,
+		4544,
+		4545,
+		4546,
+		4547,
+		4548,
+		4549,
+		4550,
 		7001,
 		7002,
 		7003,

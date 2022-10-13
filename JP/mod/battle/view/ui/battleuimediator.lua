@@ -109,6 +109,7 @@ function slot6.OpeningEffect(slot0, slot1, slot2)
 		end
 	end)
 	SetActive(slot0._ui._go, true)
+	slot0._skillView:ButtonInitialAnima()
 end
 
 function slot6.InitScene(slot0)

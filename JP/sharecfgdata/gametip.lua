@@ -3617,6 +3617,26 @@ _G.pg.base.gametip.spweapon_activity_ui_text2 = {
 	tip = "*「特殊装備コア」「特殊装備強化石」は特殊装備の製造・強化に使用します"
 }
 
+_G.pg.base.gametip.spweapon_tip_skill_locked = {
+	tip = "未開放"
+}
+
+_G.pg.base.gametip.spweapon_tip_owned = {
+	tip = "所持中：$1"
+}
+
+_G.pg.base.gametip.spweapon_tip_view = {
+	tip = "<material=underline event=displayDetail>タップで確認</material>"
+}
+
+_G.pg.base.gametip.spweapon_tip_ship = {
+	tip = "装備艦船"
+}
+
+_G.pg.base.gametip.spweapon_tip_type = {
+	tip = "装備艦種"
+}
+
 _G.pg.base.gametip.stage_beginStage_error = {
 	tip = "ステージ開始失敗:"
 }
@@ -6464,6 +6484,10 @@ _G.pg.base.gametip.shop_extendship_success = {
 
 _G.pg.base.gametip.shop_extendequip_success = {
 	tip = "倉庫拡張成功"
+}
+
+_G.pg.base.gametip.shop_spweapon_success = {
+	tip = "特殊装備所持数上限が増加しました"
 }
 
 _G.pg.base.gametip.naval_academy_res_desc_cateen = {
@@ -10030,15 +10054,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「駿河」常設実装！"
+	tip = "「ボルチモア(μ兵装)」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「能代」「風雲」などが常設実装！"
+	tip = "「ダイドー(μ兵装)」「タシュケント(μ兵装)」などが常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「U-110」常設実装！"
+	tip = "「鹩(μ兵装)」「アルバコア(μ兵装)」常設実装！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -13343,6 +13367,21 @@ _G.pg.base.gametip.secretary_help = {
 ・メイン画面で表示される秘書艦の着せ替え/背景/L2DアニメーションのON・OFFは秘書艦変更画面で変更できます。
 ・メイン画面左側の秘書艦表示変更ボタンで現在表示されている秘書艦を変更することができます。
 ]]
+		},
+		{
+			info = "· ランダム秘書艦とは：\nランダム秘書艦とは、メイン画面に表示される秘書艦・着せ替えを、元々秘書艦枠で設定した艦船とは関係なくランダムに変更できる機能です"
+		},
+		{
+			info = "1. ランダム秘書艦機能をONにすると、メイン画面に表示される艦船は所持している「ロック済」艦船と、「常用」に設定した艦船からランダムに選出されます\nまた、メイン画面に戻るたびに、表示艦船は現在選出されている表示艦船からランダムに1隻表示されます"
+		},
+		{
+			info = "2.ランダム秘書艦機能をONにすると、メイン画面に表示される艦船は毎日8時・19時にそれぞれ一度自動で変更されます。選出される艦船がランダム変更分より下回る場合、ランダム秘書艦機能は自動でOFFになります"
+		},
+		{
+			info = "3.ランダム秘書艦機能をONにすると、元々の秘書艦枠に設定されている「一番左」の艦船のみ、秘書艦の好感度UP効果が適用されます\n·また、ランダム秘書艦機能をONにしても、元々の秘書艦枠に設定されている艦船の確認・変更は行なえます\n·ランダム秘書艦機能をONにしている限り、ランダム秘書艦機能で設定されている表示艦船の表示枠変更、艦船変更は行えません"
+		},
+		{
+			info = "4.ランダム秘書艦機能をOFFにすると、表示艦船は元々の秘書艦枠に設定されている艦船に戻ります"
 		}
 	}
 }
@@ -14115,6 +14154,10 @@ _G.pg.base.gametip.index_awakening = {
 
 _G.pg.base.gametip.index_not_lvmax = {
 	tip = "ﾚﾍﾞﾙMAX未満"
+}
+
+_G.pg.base.gametip.index_spweapon = {
+	tip = "専用装備"
 }
 
 _G.pg.base.gametip.decodegame_gametip = {
@@ -21627,6 +21670,10 @@ _G.pg.base.gametip.technology_queue_in_doublecheck = {
 	tip = "研究項目を予定列に追加しますか？追加された予定列は順番通りに自動で完了していきます（予定から取り消すことができません）"
 }
 
+_G.pg.base.gametip.playervtae_setting_btn_label = {
+	tip = "詳細設定へ"
+}
+
 _G.pg.base.gametip.technology_queue_in_success = {
 	tip = "予定列に追加しました"
 }
@@ -21826,4 +21873,90 @@ _G.pg.base.gametip.cook_game_noshiro = {
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "2回正しく届ける度に1点追加"
+}
+
+_G.pg.base.gametip.random_ship_on = {
+	tip = "ランダム秘書艦機能をONにしました"
+}
+
+_G.pg.base.gametip.random_ship_off_0 = {
+	tip = "ランダム秘書艦機能で切り替える艦船が不足しているため、機能をOFFにしました"
+}
+
+_G.pg.base.gametip.random_ship_off = {
+	tip = "ランダム秘書艦機能をOFFにしました。秘書艦枠は元の設定に戻ります"
+}
+
+_G.pg.base.gametip.random_ship_forbidden = {
+	tip = "ランダム秘書艦機能をONにしているため、秘書艦枠を設定できません"
+}
+
+_G.pg.base.gametip.random_ship_now = {
+	tip = "秘書艦枠確認"
+}
+
+_G.pg.base.gametip.random_ship_label = {
+	tip = "ﾗﾝﾀﾞﾑ艦船"
+}
+
+_G.pg.base.gametip.player_vitae_skin_setting = {
+	tip = "着せ替え設定"
+}
+
+_G.pg.base.gametip.random_ship_tips1 = {
+	tip = "秘書艦枠の表示艦船は8時・19時にランダムで変更されます"
+}
+
+_G.pg.base.gametip.random_ship_tips2 = {
+	tip = "秘書艦枠の設定艦船を変更できます"
+}
+
+_G.pg.base.gametip.random_ship_before = {
+	tip = "ランダム秘書艦画面に戻る"
+}
+
+_G.pg.base.gametip.random_ship_and_skin_title = {
+	tip = "ランダム衣装変更"
+}
+
+_G.pg.base.gametip.random_ship_frequse_mode = {
+	tip = "常用艦船"
+}
+
+_G.pg.base.gametip.random_ship_locked_mode = {
+	tip = "ロック済艦船"
+}
+
+_G.pg.base.gametip.littleSpee_npc = {
+	tip = {
+		{
+			info = "■概要\n「追撃　シュペーちゃん」とは、イベント開始時に仮加入した【シュペーちゃん】の「友好度」を限定任務で入手できる「情報Pt」から変換し貯めることで、【シュペーちゃん】を正式加入させるイベントになります。"
+		},
+		{
+			info = "■遊び方\n1.イベント期間中、ノーマルメイン海域3章以降の敵中枢艦隊を撃破すると、「情報Pt」を入手できます。「情報Pt」はイベントページの「受取」ボタンで友好度に変換されます。\n味方戦闘艦隊に【シュペーちゃん】が編成されており、かつ敵中枢艦隊撃破時に【シュペーちゃん】が戦闘可能である場合、得られる「情報Pt」が2倍になります。"
+		},
+		{
+			info = "2.【シュペーちゃん】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、強化・限界突破素材への選択をすることができません。"
+		},
+		{
+			info = "3.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【シュペーちゃん】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【シュペーちゃん】は母港からいなくなります。\nまた、シュペーちゃんの強化・限界突破などに使用した素材は返還されません。"
+		},
+		{
+			info = "4.友好度報酬は10/19（水）まで毎日1段階ずつ解放されます。"
+		},
+		{
+			info = "5.仮加入状態の【シュペーちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
+		},
+		{
+			info = "6.仮加入状態の【シュペーちゃん】は大艦隊作戦には参加できません。"
+		}
+	}
+}
+
+_G.pg.base.gametip.random_flag_ship = {
+	tip = "ランダム秘書艦"
+}
+
+_G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
+	tip = "着せ替え変更"
 }

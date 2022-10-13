@@ -466,7 +466,7 @@ pg.login = {
 		id = 17,
 		login_static = "login",
 		login_cri = "",
-		bgm = "Aoi Hougeki-short",
+		bgm = "",
 		date = {
 			"timer",
 			{

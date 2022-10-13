@@ -5601,7 +5601,7 @@ pg.furniture_data_template = {
 		level = 1,
 		advice = 0,
 		effect = "",
-		tag = 6,
+		tag = 7,
 		comfortable = 4,
 		spine_action_replace = "",
 		picture = "",
@@ -5701,6 +5701,101 @@ pg.furniture_data_template = {
 			{
 				"wuzangxunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[235] = {
+		spine_extra = "",
+		describe = "異世界冒険アトラクションの記念グッズ。持ち主に幸運をもたらしてくれる…らしい？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "jinhaibaoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "黄金の勇者のつるぎ？",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 235,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jinhaibao",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[236] = {
+		spine_extra = "",
+		describe = "ナイスプライズで品質保証にゃ～。ただし強化は失敗する可能性もあるから気をつけるにゃ♪",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "duanzaoluicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "明石のアイテム強化炉",
+		comfortable = 5,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 236,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"duanzaolu",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
 			}
 		},
 		interAction_group = {}
@@ -106915,6 +107010,8 @@ pg.furniture_data_template = {
 			232,
 			233,
 			234,
+			235,
+			236,
 			100002,
 			100003,
 			100004,
@@ -107096,6 +107193,8 @@ pg.furniture_data_template = {
 			232,
 			233,
 			234,
+			235,
+			236,
 			100002,
 			100003,
 			100004,
@@ -113582,8 +113681,8 @@ pg.furniture_data_template = {
 			226,
 			231,
 			232,
-			233,
 			234,
+			235,
 			100002,
 			100003,
 			100004,
@@ -113630,6 +113729,8 @@ pg.furniture_data_template = {
 		},
 		[7] = {
 			223,
+			233,
+			236,
 			200001,
 			200002,
 			200003,
@@ -114406,6 +114507,8 @@ pg.furniture_data_template = {
 			231,
 			232,
 			234,
+			235,
+			236,
 			100002,
 			100004,
 			100005,
@@ -116782,6 +116885,8 @@ pg.furniture_data_template = {
 		232,
 		233,
 		234,
+		235,
+		236,
 		100002,
 		100003,
 		100004,

@@ -3,6 +3,8 @@ slot0.BEGIN_STAGE = "WorldMediaCollectionMediator BEGIN_STAGE"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.BEGIN_STAGE, function (slot0, slot1)
+		uv0.contextData.revertBgm = pg.CriMgr.GetInstance().bgmNow
+
 		uv0:sendNotification(GAME.BEGIN_STAGE, slot1)
 	end)
 end

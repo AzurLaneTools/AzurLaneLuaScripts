@@ -7,6 +7,16 @@ function slot0.getUIName(slot0)
 	return "WorldMediaCollectionUI"
 end
 
+function slot0.getBGM(slot0)
+	slot0.contextData.revertBgm = nil
+
+	if slot0.contextData.revertBgm then
+		return slot1
+	else
+		return uv0.super.getBGM(slot0)
+	end
+end
+
 function slot0.init(slot0)
 	slot0.top = slot0._tf:Find("Top")
 	slot0.viewContainer = slot0._tf:Find("Main")

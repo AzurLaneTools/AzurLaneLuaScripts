@@ -110,6 +110,12 @@ function slot0.ShipStatusToTag(slot0, slot1)
 			"red",
 			i18n("word_status_world")
 		}
+	elseif getProxy(SettingsProxy):IsRandomFlagShip(slot0.id) then
+		return {
+			"shipstatus",
+			"light_yellow",
+			i18n("random_flag_ship")
+		}
 	end
 end
 

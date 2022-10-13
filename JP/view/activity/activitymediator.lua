@@ -37,6 +37,7 @@ slot0.ON_BOBING_RESULT = "on bobing result"
 slot0.ACTIVITY_PERMANENT = "ActivityMediator.ACTIVITY_PERMANENT"
 slot0.FINISH_ACTIVITY_PERMANENT = "ActivityMediator.FINISH_ACTIVITY_PERMANENT"
 slot0.ON_SHAKE_BEADS_RESULT = "on shake beads result"
+slot0.GO_PERFORM_COMBAT = "ActivityMediator.GO_PERFORM_COMBAT"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -291,6 +292,13 @@ function slot0.register(slot0)
 		assert(slot1:canPermanentFinish(), "error permanent activity finish")
 		uv0:sendNotification(GAME.ACTIVITY_PERMANENT_FINISH, {
 			activity_id = slot1.id
+		})
+	end)
+	slot0:bind(uv0.GO_PERFORM_COMBAT, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.BEGIN_STAGE, {
+			system = SYSTEM_PERFORM,
+			stageId = slot1.stageId,
+			memory = slot1.memory
 		})
 	end)
 	slot0.viewComponent:setActivities(getProxy(ActivityProxy):getPanelActivities())

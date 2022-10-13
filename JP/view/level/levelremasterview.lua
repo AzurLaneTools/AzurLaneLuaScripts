@@ -78,54 +78,53 @@ function slot0.OnInit(slot0)
 						uv2:Hide()
 					end
 				end, slot14)
+
+				slot10 = nil
+
+				for slot14, slot15 in ipairs(slot3.drop_gain) do
+					if #slot15 > 0 and uv2.remasterInfo[slot15[1]][slot14].receive == false then
+						slot10 = {
+							slot14,
+							slot15
+						}
+
+						break
+					end
+				end
+
+				slot11 = underscore.rest(slot3.drop_display, 1)
+
+				if slot10 then
+					table.insert(slot11, 1, slot10)
+				elseif #slot3.drop_display_sp > 0 then
+					slot11 = table.mergeArray(slot3.drop_display_sp, slot11)
+				end
+
 				eachChild(slot8:Find("content"), function (slot0)
 					setActive(slot0, false)
 				end)
 
-				for slot14, slot15 in ipairs(slot3.drop_display) do
-					slot16 = slot10.childCount < slot14 and cloneTplTo(slot10:GetChild(0), slot10) or slot10:GetChild(slot14 - 1)
+				for slot16, slot17 in ipairs(slot11) do
+					setActive(slot12.childCount < slot16 and cloneTplTo(slot12:GetChild(0), slot12) or slot12:GetChild(slot16 - 1), true)
 
-					setActive(slot16, true)
-					updateDrop(slot16:Find("IconTpl"), {
-						type = slot15[1][1],
-						id = slot15[1][2]
-					})
-					onButton(uv0, slot16:Find("IconTpl"), function ()
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							hideYes = true,
-							hideNo = true,
-							type = MSGBOX_TYPE_SINGLE_ITEM,
-							drop = uv0,
-							weight = LayerWeightConst.TOP_LAYER,
-							remaster = {
-								word = i18n("level_remaster_tip1") .. uv1[2],
-								btn_text = i18n("text_confirm")
-							}
+					if slot10 and slot16 == 1 then
+						slot20, slot21, slot22, slot23 = unpack(slot10[2])
+
+						setActive(slot7, slot23 <= uv2.remasterInfo[slot20][slot10[1]].count)
+						setActive(slot18:Find("mark"), slot24.count < slot23)
+						setActive(slot18:Find("Slider"), slot24.count < slot23)
+						setActive(slot18:Find("achieve"), slot23 <= slot24.count)
+						setSlider(slot18:Find("Slider"), 0, slot23, slot24.count)
+						updateDrop(slot18:Find("IconTpl"), {
+							type = slot21,
+							id = slot22
 						})
-					end, SFX_PANEl)
-					setActive(slot16:Find("mark"), false)
-					setActive(slot16:Find("Slider"), false)
-					setActive(slot16:Find("achieve"), false)
-				end
-
-				if #slot3.character_gain > 0 then
-					slot11, slot12, slot13 = unpack(slot3.character_gain)
-
-					if not uv2.remasterInfo[slot11].receive then
-						setActive(slot7, slot13 <= slot14.count)
-						setActive(slot10:GetChild(0):Find("mark"), slot14.count < slot13)
-						setActive(slot15:Find("Slider"), slot14.count < slot13)
-						setActive(slot15:Find("achieve"), slot13 <= slot14.count)
-						setSlider(slot15:Find("Slider"), 0, slot13, slot14.count)
-						onButton(uv0, slot15:Find("IconTpl"), function ()
+						onButton(uv0, slot18:Find("IconTpl"), function ()
 							pg.MsgboxMgr.GetInstance():ShowMsgBox({
 								hideYes = true,
 								hideNo = true,
 								type = MSGBOX_TYPE_SINGLE_ITEM,
-								drop = {
-									type = DROP_TYPE_SHIP,
-									id = uv0
-								},
+								drop = uv0,
 								weight = LayerWeightConst.TOP_LAYER,
 								remaster = {
 									word = i18n("level_remaster_tip4", pg.chapter_template[uv1].chapter_name),
@@ -142,12 +141,33 @@ function slot0.OnInit(slot0)
 												uv4:Hide()
 											end
 										else
-											uv4:emit(LevelMediator2.ON_CHAPTER_REMASTER_AWARD, uv2)
+											uv4:emit(LevelMediator2.ON_CHAPTER_REMASTER_AWARD, uv2, uv5)
 										end
 									end
 								}
 							})
 						end, SFX_PANEl)
+					else
+						updateDrop(slot18:Find("IconTpl"), {
+							type = slot17[1][1],
+							id = slot17[1][2]
+						})
+						onButton(uv0, slot18:Find("IconTpl"), function ()
+							pg.MsgboxMgr.GetInstance():ShowMsgBox({
+								hideYes = true,
+								hideNo = true,
+								type = MSGBOX_TYPE_SINGLE_ITEM,
+								drop = uv0,
+								weight = LayerWeightConst.TOP_LAYER,
+								remaster = {
+									word = i18n("level_remaster_tip1") .. uv1[2],
+									btn_text = i18n("text_confirm")
+								}
+							})
+						end, SFX_PANEl)
+						setActive(slot18:Find("mark"), false)
+						setActive(slot18:Find("Slider"), false)
+						setActive(slot18:Find("achieve"), false)
 					end
 				end
 			end
@@ -228,11 +248,13 @@ function slot0.flush(slot0, slot1)
 				table.sort(uv0.temp, function (slot0, slot1)
 					return CompareFuncs(slot0, slot1, {
 						function (slot0)
-							if #slot0.character_gain > 0 then
-								slot1, slot2, slot3 = unpack(slot0.character_gain)
+							for slot4, slot5 in ipairs(slot0.drop_gain) do
+								if #slot5 > 0 then
+									slot6, slot7, slot8, slot9 = unpack(slot5)
 
-								if not uv0.remasterInfo[slot1].receive and slot3 <= slot4.count then
-									return 0
+									if not uv0.remasterInfo[slot6][slot4].receive and slot9 <= slot10.count then
+										return 0
+									end
 								end
 							end
 

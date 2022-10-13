@@ -239,6 +239,7 @@ function slot3.initComponent(slot0)
 	slot0._white = slot0._base:Find("white_button")
 
 	onButton(nil, slot0._white, function ()
+		uv0._dataProxy._fleetList[1]._scoutList[1]:UpdateHP(-20, {})
 	end, SFX_PANEL)
 	SetActive(slot0._white, true)
 end

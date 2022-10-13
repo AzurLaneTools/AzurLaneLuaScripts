@@ -15,7 +15,7 @@ return {
 			hideui = {
 				{
 					ishide = false,
-					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Weapon_button_container/Skill_3"
 				}
 			},
 			style = {
@@ -39,7 +39,7 @@ return {
 				text = slot0[2]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl",
+				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Weapon_button_container/Skill_3/ActCtl",
 				triggerType = {
 					3
 				}

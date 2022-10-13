@@ -2797,6 +2797,32 @@ pg.memory_group = {
 			2339
 		}
 	},
+	[227] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 227,
+		title = "勇者の旅路",
+		memories = {
+			2351,
+			2352,
+			2353,
+			2354,
+			2355
+		}
+	},
+	[228] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 228,
+		title = "シュペーちゃん追撃戦？",
+		memories = {
+			2361,
+			2362,
+			2363
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -4157,6 +4183,8 @@ pg.memory_group = {
 		224,
 		225,
 		226,
+		227,
+		228,
 		501,
 		502,
 		503,

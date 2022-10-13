@@ -6,6 +6,7 @@ slot0.CLOSE_DESIGN_LAYER = "EquipmentMediator:CLOSE_DESIGN_LAYER"
 slot0.OPEN_SPWEAPON_DESIGN = "EquipmentMediator:OPEN_SPWEAPON_DESIGN"
 slot0.CLOSE_SPWEAPON_DESIGN_LAYER = "EquipmentMediator:CLOSE_SPWEAPON_DESIGN_LAYER"
 slot0.BATCHDESTROY_MODE = "EquipmentMediator:BATCHDESTROY_MODE"
+slot0.SWITCH_TO_SPWEAPON_PAGE = "EquipmentMediator:SWITCH_TO_SPWEAPON_PAGE"
 slot0.ON_EQUIPMENT_SKIN_INFO = "EquipmentMediator:ON_EQUIPMENT_SKIN_INFO"
 slot0.ON_UNEQUIP_EQUIPMENT_SKIN = "EquipmentMediator:ON_UNEQUIP_EQUIPMENT_SKIN"
 slot0.ON_USE_ITEM = "EquipmentMediator:ON_USE_ITEM"
@@ -197,6 +198,7 @@ function slot0.listNotificationInterests(slot0)
 		BagProxy.ITEM_ADDED,
 		BagProxy.ITEM_UPDATED,
 		uv0.BATCHDESTROY_MODE,
+		uv0.SWITCH_TO_SPWEAPON_PAGE,
 		GAME.EQUIP_TO_SHIP_DONE,
 		GAME.REVERT_EQUIPMENT_DONE,
 		EquipmentProxy.EQUIPMENT_SKIN_UPDATED,
@@ -277,6 +279,8 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == uv0.BATCHDESTROY_MODE then
 		slot0.viewComponent:SwitchToDestroy()
+	elseif slot2 == uv0.SWITCH_TO_SPWEAPON_PAGE then
+		slot0.viewComponent:SwitchToSpWeaponStoreHouse()
 	elseif slot2 == GAME.REVERT_EQUIPMENT_DONE then
 		if #slot3.awards > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
