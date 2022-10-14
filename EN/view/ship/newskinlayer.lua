@@ -112,7 +112,6 @@ function slot0.setSkinPri(slot0, slot1)
 	slot0:recyclePainting()
 
 	slot0._skinConfig = pg.ship_skin_template[slot1]
-	slot0._wordsConfig = Ship.getShipWords(slot1)
 	slot3 = pg.ship_skin_template[slot1].ship_group
 	slot4 = pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1]
 	slot5 = nil
@@ -136,25 +135,26 @@ function slot0.setSkinPri(slot0, slot1)
 	setPaintingPrefabAsync(slot0._paintingTF, slot0._skinConfig.painting, "huode")
 
 	slot0._skinName.text = i18n("ship_newSkin_name", HXSet.hxLan(slot0._skinConfig.name))
-	slot6 = ""
-	slot7 = nil
+	slot6 = nil
+	slot7 = ""
+	slot8 = nil
 
-	if slot0._wordsConfig.unlock == "" then
-		slot6 = Ship.getWords(slot1, "drop_descrip")
+	if ShipWordHelper.RawGetWord(slot1, ShipWordHelper.WORD_TYPE_UNLOCK) == "" then
+		slot6, slot8, slot7 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_DROP)
 	else
-		slot6, slot7 = Ship.getWords(slot1, "unlock")
+		slot6, slot8, slot7 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_UNLOCK)
 	end
 
-	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot6, true), "desc/Text")
+	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot7, true), "desc/Text")
 
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 
 	SetActive(slot0._dialogue, false)
 	SetActive(slot0._dialogue, true)
 
-	slot8 = LeanTween.scale(slot0._dialogue, Vector3(1, 1, 1), 0.1)
+	slot9 = LeanTween.scale(slot0._dialogue, Vector3(1, 1, 1), 0.1)
 
-	slot8:setOnComplete(System.Action(function ()
+	slot9:setOnComplete(System.Action(function ()
 		setActive(uv0._shade, false)
 		setActive(uv0.clickTF, true)
 		uv0:voice(uv1)
@@ -171,7 +171,7 @@ function slot0.showExitTip(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot0.shipName = HXSet.hxLan(pg.ship_skin_template[Ship.getOriginalSkinId(slot0.contextData.skinId)].name)
+	slot0.shipName = HXSet.hxLan(pg.ship_skin_template[ShipWordHelper.GetDefaultSkin(slot0.contextData.skinId)].name)
 
 	onButton(slot0, slot0._viewBtn, function ()
 		uv0.isInView = true
