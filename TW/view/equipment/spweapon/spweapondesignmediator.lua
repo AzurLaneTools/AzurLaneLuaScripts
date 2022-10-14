@@ -17,6 +17,11 @@ function slot0.register(slot0)
 	end)
 	slot0.viewComponent:SetCraftList({})
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+
+	slot5 = slot0:getFacade():retrieveMediator(EquipmentMediator.__cname):getViewComponent()
+
+	slot0.viewComponent:SetParentTF(slot5._tf)
+	slot0.viewComponent:SetTopContainer(slot5.topPanel)
 end
 
 function slot0.BindEvent(slot0)

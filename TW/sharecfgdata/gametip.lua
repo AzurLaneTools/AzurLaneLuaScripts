@@ -19831,7 +19831,7 @@ _G.pg.base.gametip.player_vitae_skin_setting = {
 }
 
 _G.pg.base.gametip.random_ship_tips1 = {
-	tip = "隨機秘書組將於每日8點和19點進行隨機"
+	tip = "隨機秘書組將於每日8點和19點進行隨機更換"
 }
 
 _G.pg.base.gametip.random_ship_tips2 = {

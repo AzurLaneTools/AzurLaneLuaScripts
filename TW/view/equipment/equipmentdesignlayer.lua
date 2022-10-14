@@ -17,8 +17,6 @@ function slot0.setCapacity(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.parentTF = GameObject.Find("/UICamera/Canvas/UIMain/StoreHouseUI(Clone)")
-	slot0.equipmentView = slot0:findTF("equipment_scrollview", slot0.parentTF)
 	slot0.designScrollView = slot0:findTF("equipment_scrollview")
 	slot0.equipmentTpl = slot0:findTF("equipment_tpl")
 	slot0.equipmentContainer = slot0:findTF("equipment_grid", slot0.designScrollView)
@@ -36,11 +34,6 @@ function slot0.init(slot0)
 	slot0.tagContainer = slot0:findTF("adapt/mask/panel", slot0.indexPanel)
 	slot0.tagTpl = slot0:findTF("tpl", slot0.tagContainer)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
-
-	setActive(slot0.equipmentView, false)
-	setParent(slot0._tf, slot0.parentTF)
-	slot0._tf:SetSiblingIndex(slot0.equipmentView:GetSiblingIndex())
-
 	slot0.listEmptyTF = slot0:findTF("empty")
 
 	setActive(slot0.listEmptyTF, false)
@@ -53,6 +46,17 @@ function slot0.init(slot0)
 	})
 end
 
+function slot0.SetParentTF(slot0, slot1)
+	slot0.parentTF = slot1
+	slot0.equipmentView = slot0:findTF("equipment_scrollview", slot0.parentTF)
+
+	setActive(slot0.equipmentView, false)
+end
+
+function slot0.SetTopContainer(slot0, slot1)
+	slot0.topPanel = slot1
+end
+
 slot1 = {
 	"sort_default",
 	"sort_rarity",
@@ -60,8 +64,10 @@ slot1 = {
 }
 
 function slot0.didEnter(slot0)
+	setParent(slot0._tf, slot0.parentTF)
+	slot0._tf:SetSiblingIndex(slot0.equipmentView:GetSiblingIndex())
+
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
-	slot0.topPanel = GameObject.Find("/OverlayCamera/Overlay/UIMain/blur_panel/adapt/top")
 
 	setParent(slot0.top, slot0.topPanel)
 	slot0:initDesigns()

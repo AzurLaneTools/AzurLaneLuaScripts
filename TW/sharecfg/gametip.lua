@@ -17975,41 +17975,41 @@ cs.gametip = {
 	},
 	random_ship_tips1 = {
 		613789,
-		133,
+		139,
 		true
 	},
 	random_ship_tips2 = {
-		613922,
+		613928,
 		120,
 		true
 	},
 	random_ship_before = {
-		614042,
+		614048,
 		103,
 		true
 	},
 	random_ship_and_skin_title = {
-		614145,
+		614151,
 		117,
 		true
 	},
 	random_ship_frequse_mode = {
-		614262,
+		614268,
 		100,
 		true
 	},
 	random_ship_locked_mode = {
-		614362,
+		614368,
 		102,
 		true
 	},
 	random_flag_ship = {
-		614464,
+		614470,
 		95,
 		true
 	},
 	random_flag_ship_changskinBtn_label = {
-		614559,
+		614565,
 		111,
 		true
 	}
