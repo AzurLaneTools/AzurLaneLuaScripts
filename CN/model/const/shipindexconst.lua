@@ -268,7 +268,11 @@ slot0.ExtraAwakening = bit.lshift(1, 5)
 slot0.ExtraAwakening2 = bit.lshift(1, 6)
 slot0.ExtraSpecial = bit.lshift(1, 7)
 slot0.ExtraProposeSkin = bit.lshift(1, 8)
-slot0.ExtraUniqueSpWeapon = bit.lshift(1, 9)
+
+if not LOCK_SP_WEAPON then
+	slot0.ExtraUniqueSpWeapon = bit.lshift(1, 9)
+end
+
 slot0.ExtraIndexs = {
 	slot0.ExtraSkin,
 	slot0.ExtraRemould,
@@ -295,9 +299,12 @@ slot0.ExtraNames = {
 	"index_awakening",
 	"index_awakening2",
 	"index_special",
-	"index_propose_skin",
-	"index_spweapon"
+	"index_propose_skin"
 }
+
+if not LOCK_SP_WEAPON then
+	slot0.ExtraNames[11] = "index_spweapon"
+end
 
 function slot0.filterByExtra(slot0, slot1)
 	if not slot1 or slot1 == uv0.ExtraAll then
