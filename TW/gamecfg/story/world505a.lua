@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，周边区域内已无任何敌方反应。",
+			say = "分析模組同步中：指揮官，周邊區域內已無任何敵方反應。",
 			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在汇总战场情报————",
+			say = "正在匯總戰場情報————",
 			voice = "event:/tb/19/tb-19",
 			typewriter = {
 				speed = 0.05,
@@ -46,7 +46,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已完成：指挥官，除了我们之外，还有三个方向的舰队突破了塞壬防线，塞壬第一条防线正在瓦解中。",
+			say = "指令已完成：指揮官，除了我們之外，還有三個方向的艦隊突破了塞壬防線，塞壬第一條防線正在瓦解中。",
 			voice = "event:/tb/40/tb-40",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "进展很顺利呢。",
+			say = "進展很順利呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好！接下来就是第二条防线——贝法，有侦察情报了么？",
+			say = "很好！接下來就是第二條防線——貝法，有偵察情報了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，第一轮侦察已经结束。除了零星的敌人之外，没有发现塞壬布置防线的迹象。",
+			say = "陛下，第一輪偵察已經結束。除了零星的敵人之外，沒有發現塞壬佈置防線的跡象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？只有零星的敌人？不会吧……外围防御部署的那么严密，后面却没有部署第二条防线……？",
+			say = "哎？只有零星的敵人？不會吧……外圍防禦部署的那麼嚴密，後面卻沒有部署第二條防線……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道塞壬把所有力量都集中到外围防线了么…？",
+			say = "難道塞壬把所有力量都集中到外圍防線了嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有战略纵深，没有预留舰队，没有支援设施，一点击溃就全线溃败……？",
+			say = "沒有戰略縱深，沒有預留艦隊，沒有支援設施，一點擊潰就全線潰敗……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是什么蠢战术……塞壬是到现在还没睡醒么？！",
+			say = "這是什麼蠢戰術……塞壬是到現在還沒睡醒嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "假设塞壬真的因为某些原因做出了如此异常的部署，一个关键问题就回来了。",
+			say = "假設塞壬真的因為某些原因做出了如此異常的部署，一個關鍵問題就回來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "……敌人的数量对不上。",
+			say = "……敵人的數量對不上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬的舰队在本日总攻发起前应该并没有受到太大损伤，原本就算整个核心区被塞壬舰队填满也不为过。",
+			say = "塞壬的艦隊在本日總攻發起前應該並沒有受到太大損傷，原本就算整個核心區被塞壬艦隊填滿也不為過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "可是从现在的情况看，敌人的数量还是太少了……",
+			say = "可是從現在的情況看，敵人的數量還是太少了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都到这一步了塞壬还有隐藏实力的必要么……？想要突围的话之前有更好的时间点吧。",
+			say = "都到這一步了塞壬還有隱藏實力的必要嗎……？想要突圍的話之前有更好的時間點吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "通知各舰队提高警惕，一边扫荡零星的敌人，一边继续前进吧。",
+			say = "通知各艦隊提高警覺，一邊掃蕩零星的敵人，一邊繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

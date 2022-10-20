@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-ashes-theme",
 			dir = 1,
-			say = "应对及时，但是无效。在你发动攻击前，我的战术就已经成功了。",
+			say = "應對及時，但是無效。在妳發動攻擊前，我的戰術就已經成功了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "机关系统IX=XIV连协干扰机制，启动。",
+			say = "機關系統IX=XIV連協干擾機制，啟動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

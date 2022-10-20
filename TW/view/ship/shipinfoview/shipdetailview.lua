@@ -681,7 +681,7 @@ function slot0.UpdateEquipments(slot0, slot1)
 
 	onButton(slot0, slot0.spWeaponSlot, function ()
 		if not uv0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_skill_locked"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_locked"))
 
 			return
 		elseif uv1 then

@@ -2005,7 +2005,7 @@ function slot0.GetSpWeaponRecord(slot0, slot1)
 		slot2 = tonumber(slot1[1])
 
 		if not tonumber(slot1[2]) or slot3 == 0 then
-			return nil
+			return false
 		end
 
 		if not getProxy(EquipmentProxy):GetSpWeaponByUid(slot2) then

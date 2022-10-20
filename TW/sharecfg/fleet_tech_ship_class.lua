@@ -2088,6 +2088,17 @@ pg.fleet_tech_ship_class = {
 			60102
 		}
 	},
+	[60102] = {
+		shiptype = 1,
+		name = "詩人級",
+		nation = 6,
+		id = 60102,
+		t_level_1 = 130,
+		t_level = 5,
+		ships = {
+			60103
+		}
+	},
 	[60103] = {
 		shiptype = 1,
 		name = "西北風級",
@@ -2141,7 +2152,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		t_level = 7,
 		ships = {
-			60302
+			60302,
+			60303
 		}
 	},
 	[60302] = {
@@ -2722,6 +2734,7 @@ pg.fleet_tech_ship_class = {
 		50202,
 		50203,
 		60101,
+		60102,
 		60103,
 		60104,
 		60105,

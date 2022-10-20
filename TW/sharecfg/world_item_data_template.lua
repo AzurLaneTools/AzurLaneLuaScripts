@@ -75,6 +75,69 @@ pg.world_item_data_template = {
 			101
 		}
 	},
+	[103] = {
+		item_transform_item_type = 1,
+		name = "仲裁機關戰利品回收箱（小）",
+		item_transform_item_id = 3002,
+		display = "擊破仲裁機關量產型機體後回收的戰利品箱。作戰結束後將會自動轉換為100戰備物資兌換券。",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 100,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 103,
+		icon = "Props/Wsairencailiao3",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[104] = {
+		item_transform_item_type = 1,
+		name = "仲裁機關戰利品回收箱（中）",
+		item_transform_item_id = 3002,
+		display = "擊破仲裁機關量產型機體後回收的戰利品箱。作戰結束後將會自動轉換為200戰備物資兌換券。",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 200,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 104,
+		icon = "Props/Wsairencailiao1",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[105] = {
+		item_transform_item_type = 1,
+		name = "仲裁機關戰利品回收箱（大）",
+		item_transform_item_id = 3002,
+		display = "擊破仲裁機關量產型機體後回收的戰利品箱。作戰結束後將會自動轉換為500戰備物資兌換券。",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 500,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 105,
+		icon = "Props/Wsairencailiao2",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
 	[110] = {
 		item_transform_item_type = 1,
 		name = "塞壬能源儲存容器",
@@ -4150,6 +4213,9 @@ pg.world_item_data_template = {
 		100,
 		101,
 		102,
+		103,
+		104,
+		105,
 		110,
 		201,
 		202,

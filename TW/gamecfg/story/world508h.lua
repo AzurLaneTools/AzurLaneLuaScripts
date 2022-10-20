@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-arbitrator-type1",
-			say = "后勤舰队情况怎么样！",
+			say = "後勤艦隊情況怎麼樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "余烬及时采取了应对措施，总算是勉强撑住。",
+			say = "餘燼及時採取了應對措施，總算是勉強撐住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过我们这边就……暂时需要独自面对司特莲库斯的压力了。",
+			say = "不過我們這邊就……暫時需要獨自面對司特蓮庫斯的壓力了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "规格外的火力与防御，再加上一直在干扰水域的重力场……指挥官，战斗继续拖下去会很危险。",
+			say = "規格外的火力與防禦，再加上一直在干擾水域的重力場……指揮官，戰鬥繼續拖下去會很危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "必须尽快想出打破僵局的方法。",
+			say = "必須盡快想出打破僵局的方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 408020,
 			dir = 1,
 			actorName = "？？？",
-			say = "碧蓝航线的舰队……水下受到的干扰很小，也许从这里打击会有效。",
+			say = "碧藍航線的艦隊……水下受到的干擾很小，也許從這裡打擊會有效。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "你是……铁血的潜艇？！",
+			say = "妳是……鐵血的潛艇？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "是。铁血VIIB型潜艇，U-47。",
+			say = "是。鐵血VIIB型潛艇，U-47。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "铁血的潜艇怎么会出现在这里？",
+			say = "鐵血的潛艇怎麼會出現在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "在执行侦察任务途中，我被突然出现的不明冲击卷来了这里。",
+			say = "在執行偵察任務途中，我被突然出現的不明衝擊卷來了這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "在做出了如果不解决敌人我也无法离开的判断之后，决定主动向你们发起联络……",
+			say = "在做出了如果不解決敵人我也無法離開的判斷之後，決定主動向你們發起聯絡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "奇异点本身位于核心区的正中心，如果只是侦察任务的话是不可能被卷进来的。",
+			say = "奇異點本身位於核心區的正中心，如果只是偵察任務的話是不可能被捲進來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她绝对没有说实话……怎么办，指挥官？",
+			say = "她絕對沒有說實話……怎麼辦，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			},
 			options = {
 				{
-					content = "有疑点，但是——",
+					content = "有疑點，但是——",
 					flag = 1
 				}
 			}
@@ -216,7 +216,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "签订停火协议的目的就是为了应对塞壬的威胁，相信铁血不会在这种时候违约。",
+			say = "簽訂停火協議的目的就是為了應對塞壬的威脅，相信鐵血不會在這種時候違約。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "理性的选择，指挥官。",
+			say = "理性的選擇，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "全弹发射准备。仲裁机关，Auf wiedersehen……",
+			say = "全彈發射準備。仲裁機關，Auf wiedersehen……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

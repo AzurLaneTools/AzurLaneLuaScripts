@@ -11,7 +11,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬{namecode:94}一直保持在我方炮击范围边缘移动，既没有猛攻进攻，也没有完全停火。",
+			say = "餘燼飛龍一直保持在我方炮擊範圍邊緣移動，既沒有猛攻進攻，也沒有完全停火。",
 			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "保持着一个恰到好处的压力呢……",
+			say = "保持著一個恰到好處的壓力呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "指挥官，她正在通过这种方式改变着我们的航线，舰队距离中心区域越来越近了。",
+			say = "指揮官，她正在通過這種方式改變著我們的航線，艦隊距離中心區域越來越近了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "这么做究竟有什么意义呢……",
+			say = "這麼做究竟有什麼意義呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "太过接近的话塞壬也会对她发动攻击，她自己不也要两面作战。",
+			say = "太過接近的話塞壬也會對她發動攻擊，她自己不也要兩面作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "或许一面作战和两面作战对她来说都无所谓，将我们吸引过去这件事很重要…？",
+			say = "或許一面作戰和兩面作戰對她來說都無所謂，將我們吸引過去這件事很重要…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -156,7 +156,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "远方突然传来几声如轰雷一般的巨响。",
+			say = "遠方突然傳來幾聲如轟雷一般的巨響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这家伙、居然主动对塞壬要塞发起挑衅了啊！！！",
+			say = "這傢伙、居然主動對塞壬要塞發起挑釁了啊！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "然后塞壬也立刻进行了回应。风暴之中，无数的防御设施对余烬{namecode:94}发起了猛烈反击。",
+			say = "然後塞壬也立刻進行了回應。風暴之中，無數的防禦設施對餘燼飛龍發起了猛烈反擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那些像是浮岛要塞一类的东西以前只在镜面海域中偶尔见过，这么夸张的规模还是第一次见。",
+			say = "那些像是浮島要塞一類的東西以前只在鏡面海域中偶爾見過，這麼誇張的規模還是第一次見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "这才是正常塞壬守备核心区应该有的样子吧……",
+			say = "這才是正常塞壬守備核心區應該有的樣子吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在可以基本确定了，塞壬一直藏着的主力部队早已转移到了核心区域中。",
+			say = "現在可以基本確定了，塞壬一直藏著的主力部隊早已轉移到了核心區域中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "以前就有点感觉，塞壬还真擅长在恶劣气候中作战呢。",
+			say = "以前就有點感覺，塞壬還真擅長在惡劣氣候中作戰呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "正常来说没有人会想让舰队穿越猛烈的风暴吧，更不用说布置防御设施了……",
+			say = "正常來說沒有人會想讓艦隊穿越猛烈的風暴吧，更不用說佈置防禦設施了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "可是塞壬却反过来利用这一点，将风暴本身都变为了防御体系的一部分。",
+			say = "可是塞壬卻反過來利用這一點，將風暴本身都變為了防禦體系的一部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哟，原本你们是打算来执行侦察任务的吧，刚刚那几下就当做附赠~",
+			say = "喲，原本你們是打算來執行偵察任務的吧，剛剛那幾下就當做附贈~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "怎么样，挺壮观吧？",
+			say = "怎麼樣，挺壯觀吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………完全是在添乱！我们哪有余力一边和你作战一边应付塞壬！",
+			say = "………………完全是在添亂！我們哪有餘力一邊和你作戰一邊應付塞壬！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没有么……就算有些熟悉的感觉，终究也是幻影一逝。",
+			say = "沒有嗎……就算有些熟悉的感覺，終究也是幻影一逝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不好不好……无意中竟有些沉浸了。",
+			say = "不好不好……無意中竟有些沉浸了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谜语人行为禁止！",
+			say = "謎語人行為禁止！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………厌烦了，今天就到此为止吧，再见。",
+			say = "…………厭煩了，今天就到此為止吧，再見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，要打一场的也是你，打到一半要走的也是你，未免也太任性了吧！！！",
+			say = "喂，要打一場的是妳，打到一半要走的也是妳，未免也太任性了吧！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哼！如果想继续和余烬打交道的话，还是尽早习惯这种感觉比较好。",
+			say = "哼！如果想繼續和餘燼打交道的話，還是儘早習慣這種感覺比較好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬{namecode:94}的舰载机停止攻击了……她真是，完全不把我们放在眼里。",
+			say = "餘燼飛龍的艦載機停止攻擊了……她真是，完全不把我們放在眼裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伯明翰，保持冷静。从未知的对手身上获得的任何一点情报都是有益的。",
+			say = "伯明罕，保持冷靜。從未知的對手身上獲得的任何一點情報都是有益的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "如果是朋友的话，等到机会合适时抱怨一下也无妨。如果是敌人的话，过度轻视我们就将是她们失败的原因。",
+			say = "如果是朋友的話，等到機會合適時抱怨一下也無妨。如果是敵人的話，過度輕視我們就將是她們失敗的原因。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，塞壬舰队也向我们过来了，那些可不是我们现在能解决的规模哦！",
+			say = "指揮官，塞壬艦隊也向我們過來了，那些可不是我們現在能解決的規模哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "侦察到这种程度已经差不多了。",
+			say = "偵察到這種程度已經差不多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同感。实际见到的塞壬舰队与浮岛要塞规模都比从情报中了解的夸张了许多。",
+			say = "同感。實際見到的塞壬艦隊與浮島要塞規模都比從情報中了解的誇張了許多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "相信这些新情报足够让指挥部产生紧迫感了。",
+			say = "相信這些新情報足夠讓指揮部產生緊迫感了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "现在根本不是所谓的胜利已定……一但塞壬发动反击，战线铺开的我们才是最被动的一方。",
+			say = "現在根本不是所謂的勝利已定……一但塞壬發動反擊，戰線鋪開的我們才是最被動的一方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "领航员小姐，立刻联系最近的前哨站进行接应，我们撤退吧。",
+			say = "領航員小姐，立刻聯繫最近的前哨站進行接應，我們撤退吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

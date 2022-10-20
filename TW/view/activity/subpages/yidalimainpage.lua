@@ -91,12 +91,6 @@ function slot0.updateAwardBtn(slot0)
 end
 
 function slot0.submitFinishedTask(slot0)
-	for slot4, slot5 in ipairs(slot0.YDLtaskIDList) do
-		if slot0.taskProxy:getTaskById(slot5) and slot6:isFinish() and not slot6:isReceive() then
-			print("!!!!!!!!!!!!!20190907!!!!!!!YDLtaskIDList emit:" .. slot5)
-			slot0:emit(ActivityMediator.ON_TASK_SUBMIT, slot6)
-		end
-	end
 end
 
 function slot0.getFinalTaskStatus(slot0)

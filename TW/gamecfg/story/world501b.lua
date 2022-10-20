@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接收到来自前哨站的联络，通讯正在接入——",
+			say = "接收到來自前哨站的聯絡，通訊正在接入——",
 			voice = "event:/tb/33/tb-33",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "指挥官，我在附近海域发现了余烬信标存在的痕迹，你们的行动或许被余烬盯上了，请小心。",
+			say = "指揮官，我在附近海域發現了餘燼信標存在的痕跡，你們的行動或許被餘燼盯上了，請小心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "余烬么……明白。",
+			say = "餘燼嗎……明白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "指挥部的会议已经结束了么，有没有出什么问题？",
+			say = "指揮部的會議已經結束了嗎，有沒有出什麼問題？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "不用担心，指挥部是完全支持您的作战行动的。祝您行动顺利，一切小心。孟菲斯通信结束。",
+			say = "不用擔心，指揮部是完全支持您的作戰行動的。祝您行動順利，一切小心。曼非斯通信結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已确认：正在接受余烬信标情报。",
+			say = "指令已確認：正在接受餘燼信標情報。",
 			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
@@ -104,7 +104,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "解析完毕：正在将余烬信标定位区域显示在GM系统中，根据其信号特征推测为{namecode:94}.META。",
+			say = "解析完畢：正在將餘燼信標定位區域顯示在GM系統中，根據其訊號特徵推測為飛龍.META。",
 			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自从研究出余烬信标定位法之后，我们总算可以对于神出鬼没的余烬做出一些反制了~",
+			say = "自從研究出餘燼信標定位之後，我們總算可以對於神出鬼沒的餘燼做出一些反制了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "只可惜还不能进行精确定位。分析装置因为巨大到难以便携，实时定位也难以实现。",
+			say = "只可惜還不能進行精確定位。分析裝置因為巨大到難以便攜，實時定位也難以實現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "科研部门也在努力解决这些问题嘛……",
+			say = "科研部門也在努力解決這些問題嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是能做出个便携式余烬雷达多好~失去了隐身优势，余烬就不得不正面面对我们了吧。",
+			say = "要是能做出個便攜式餘燼雷達多好~失去了隱身優勢，餘燼就不得不正面面對我們了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有点反常啊……我们能检测到余烬信号的前提是余烬要在区域内进行一定强度的战斗。",
+			say = "有點反常啊……我們能檢測到餘燼訊號的前提是餘燼要在區域內進行一定強度的戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "之前我们已经用类似的方式锁定了余烬{namecode:94}好几次，对面应该多少有所察觉才是。",
+			say = "之前我們已經用類似的方式鎖定了餘燼飛龍好幾次，對面應該多少有所察覺才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是她还是在距离我们这么近的地方轻易暴露了自己的位置……",
+			say = "可是她還是在距離我們這麼近的地方輕易暴露了自己的位置……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你觉得对面是在主动暴露自己诱导我们过去？",
+			say = "你覺得對面是在主動暴露自己誘導我們過去？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也有同感……接下来怎么办？",
+			say = "我也有同感……接下來怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "既然她在主动诱导我们过去，就算现在无视其暗示，之后对面主动纠缠过来的可能性也很高。",
+			say = "既然她在主動誘導我們過去，就算現在無視其暗示，之後對面主動糾纏過來的可能性也很高。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与其变为敌暗我明，不如趁现在敌明我明的时候试探一下对方的意图。",
+			say = "與其變為敵暗我明，不如趁現在敵明我明的時候試探一下對方的意圖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "同意，不过能通过对话解决的话尽量不要战斗。",
+			say = "同意，不過能通過對話解決的話盡量不要戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当然……作为保险手段，领航员小姐，命令驻扎在前哨站的航空舰队舰载机升空待命，做好进行空中打击的准备。",
+			say = "當然……作為保險手段，領航員小姐，命令駐紮在前哨站的航空艦隊艦載機升空待命，做好進行空中打擊的準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已确认，正在向前哨站发送命令中。",
+			say = "指令已確認，正在向前哨站發送命令中。",
 			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
@@ -329,7 +329,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰队做好准备，我们去看个究竟吧。",
+			say = "艦隊做好準備，我們去看個究竟吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

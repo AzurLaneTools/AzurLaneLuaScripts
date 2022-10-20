@@ -7687,6 +7687,76 @@ pg.world_chapter_template_reset = {
 		reset_item = {},
 		reset_buff = {}
 	},
+	[430000] = {
+		id = 430000,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否確定從奇異點-核心海域離開？\n（離開後回到奇異點-核心海域需要再次消耗道具）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430010] = {
+		id = 430010,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否確定從普通難度：仲裁者·司特蓮庫斯·VIII中離開？\n（離開後當前作戰進度將會保留，本月內再次進入可繼續挑戰）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430020] = {
+		id = 430020,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否確定從普通難度：仲裁者·赫米忒·IX中離開？\n（離開後當前作戰進度將會保留，本月內再次進入可繼續挑戰）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430100] = {
+		id = 430100,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否確定從困難難度：仲裁者·天帕嵐斯·XIV中離開？\n（離開後當前作戰進度將會重置，已獲得的獎勵無法重複領取）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430110] = {
+		id = 430110,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否確定從困難難度：仲裁者·司特蓮庫斯·VIII中離開？\n（離開後當前作戰進度將會重置，已獲得的獎勵無法重複領取）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430120] = {
+		id = 430120,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否確定從困難難度：仲裁者·赫米忒·IX中離開？\n（離開後當前作戰進度將會重置，已獲得的獎勵無法重複領取）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430200] = {
+		id = 430200,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否確定從困難模擬戰：仲裁機關中離開？\n（離開後當前作戰進度將會重置）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
 	all = {
 		8000,
 		8030,
@@ -7906,6 +7976,13 @@ pg.world_chapter_template_reset = {
 		890140,
 		890150,
 		890160,
-		890170
+		890170,
+		430000,
+		430010,
+		430020,
+		430100,
+		430110,
+		430120,
+		430200
 	}
 }

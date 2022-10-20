@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "白鹰前哨站 翌日",
+			say = "白鷹前哨站 翌日",
 			dir = 1,
 			bgm = "blueocean-image",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "不妙啊……塞壬的袭击报告正在变得越来越频繁。",
+			say = "不妙啊……塞壬的襲擊報告正在變得越來越頻繁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "对于中心区域的总攻迟迟没有执行，塞壬就算再迟钝也应该反应过来了。",
+			say = "對於中心區域的總攻遲遲沒有執行，塞壬就算再遲鈍也應該反應過來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "不论发生什么事，今天在会议上绝对要让进攻计划实质性的定下来！",
+			say = "不論發生什麼事，今天在會議上絕對要讓進攻計劃實質性的定下來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "就这么下定决心准备前往会议室的时候————",
+			say = "就這麼下定決心準備前往會議室的時候————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "咚咚咚（敲门声）",
+			say = "咚咚咚（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了，指挥官。",
+			say = "打擾了，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,37 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "是企业啊。今天的会议你也要参加么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			bgName = "bg_port_chuanwu1",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "原本是有这个预定的，不过——指挥官，我们一起去侦察一下核心区吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_port_chuanwu1",
-			say = "好的，等我收拾一下资料……哈？侦察核心区？！",
+			say = "是企業啊。今天的會議你也要參加嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +151,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果不进行充足的情报侦察，之后的总攻可没办法顺利展开哦。",
+			say = "原本是有這個預定的，不過——指揮官，我們一起去偵察一下核心區吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +165,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "决定这个总攻的时间不就是开会的目的么……我们走了之后今天的会议要怎么办？",
+			say = "好的，等我收拾一下資料……哈？偵察核心區？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +181,37 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这件事，伊丽莎白说全部包在她身上就好，指挥官不必担心。",
+			say = "如果不進行充足的情報偵察，之後的總攻可沒辦法順利展開哦。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_port_chuanwu1",
+			say = "決定這個總攻的時間不就是開會的目的嗎……我們走了之後今天的會議要怎麼辦？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			bgName = "bg_port_chuanwu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "關於這件事，伊莉莎白說全部包在她身上就好，指揮官不必擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，就算今天的会议正常进行，你能保证今天之内得出结果么？",
+			say = "指揮官，就算今天的會議正常進行，你能保證今天之內得出結果嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "会尽力争取，不过……",
+			say = "會盡力爭取，不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "时不我待，与其在这里踌躇不前，不如果断出击打破僵局。",
+			say = "時不我待，與其在這裡躊躇不前，不如果斷出擊打破僵局。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前线相关的行动属于指挥官的负责范围内，流程上也完全没有问题。",
+			say = "前線相關的行動屬於指揮官的負責範圍內，流程上也完全沒有問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "……说的也是，那就这么办吧。休息了这么多天，也该活动一下了。",
+			say = "……說的也是，那就這麼辦吧。休息了這麼多天，也該活動一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，我就知道指挥官一定会同意这个方案的，我们稍后港口再见咯。",
+			say = "呵呵，我就知道指揮官一定會同意這個方案的，我們稍後港口再見囉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
 			blackBg = true,
-			say = "能够打破僵局的实质性的行动，就以这么意外的方式雷厉风行的决定下来了……",
+			say = "能夠打破僵局的實質性的行動，就以這麼意外的方式雷厲風行的決定下來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

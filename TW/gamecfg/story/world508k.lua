@@ -8,7 +8,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "刺眼的白光覆盖了视野，爆炸与冲击蹂躏着海天。",
+			say = "刺眼的白光覆蓋了視野，爆炸與衝擊蹂躪著海天。",
 			dir = 1,
 			bgm = "main-ashes-theme",
 			flashN = {
@@ -77,7 +77,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当一切都平静下来后，海域中剩下的只有死寂。",
+			say = "當一切都平靜下來後，海域中剩下的只有死寂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳咳……指挥官，您没事吧！",
+			say = "咳咳咳……指揮官，您沒事吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "还算没事，其他人呢？",
+			say = "還算沒事，其他人呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情况不是很好……不少受损严重的同伴在冲击中遭受了二次损伤。",
+			say = "情況不是很好……不少受損嚴重的同伴在衝擊中遭受了二次損傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "后勤舰队正在紧急处理，万幸的是没有出现掉队的人……",
+			say = "後勤艦隊正在緊急處理，萬幸的是沒有出現掉隊的人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "水面上的残骸倒是被刚才的冲击清理掉不少……接下来的撤离能更顺利了。",
+			say = "水面上的殘骸倒是被剛才的衝擊清理掉不少……接下來的撤離能更順利了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,22 +175,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这种规模的爆炸………………余烬那边没问题吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我们驶出的太远，已经不清楚那边的战况了。",
+			say = "這種規模的爆炸………………餘燼那邊沒問題吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +190,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过仲裁机关既然没追过来，说明作战应该还算顺利吧……",
+			say = "我們駛出的太遠，已經不清楚那邊的戰況了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "不過仲裁機關既然沒追過來，說明作戰應該還算順利吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "继续前进……尽快找出离开这里的航线。",
+			say = "繼續前進……盡快找出離開這裡的航線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "塞壬主力舰队已被全数消灭，剩下的只有和余烬激战的仲裁机关。",
+			say = "塞壬主力艦隊已被全數消滅，剩下的只有和餘燼激戰的仲裁機關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "重新集结舰队之后肃清奇异点内空间，NA海域的战斗就算彻底结束了……",
+			say = "重新集結艦隊之後肅清奇異點內空間，NA海域的戰鬥就算徹底結束了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在那之前，所有人一定要坚持住啊………………",
+			say = "在那之前，所有人一定要堅持住啊………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

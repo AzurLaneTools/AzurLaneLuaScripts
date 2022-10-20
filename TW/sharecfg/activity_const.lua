@@ -847,7 +847,7 @@ pg.activity_const = {
 		act_id = 40676
 	},
 	SPECIAL_WEAPON_ACT_ID = {
-		act_id = 4426
+		act_id = 45043
 	},
 	SPRING_FESTIVAL_CARD_2022_ID = {
 		act_id = 40520

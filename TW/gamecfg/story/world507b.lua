@@ -8,7 +8,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这一片塞壬残骸还在燃烧，看起来刚被摧毁不久。",
+			say = "這一片塞壬殘骸還在燃燒，看起來剛被摧毀不久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

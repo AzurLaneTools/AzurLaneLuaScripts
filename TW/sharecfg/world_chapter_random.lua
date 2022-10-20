@@ -2332,6 +2332,182 @@ pg.world_chapter_random = {
 			0
 		}
 	},
+	[260] = {
+		entrance_ui = 1,
+		name = "Chapter5-1",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 260,
+		reset_auto_complete = 0,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2600,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[261] = {
+		entrance_ui = 1,
+		name = "Chapter5-2",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 261,
+		reset_auto_complete = 0,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2610,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[262] = {
+		entrance_ui = 1,
+		name = "Chapter5-3",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 262,
+		reset_auto_complete = 0,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2620,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[263] = {
+		entrance_ui = 1,
+		name = "Chapter5-4",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 263,
+		reset_auto_complete = 0,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2630,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[264] = {
+		entrance_ui = 1,
+		name = "Chapter5-5",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 264,
+		reset_auto_complete = 0,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2640,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[265] = {
+		entrance_ui = 1,
+		name = "Chapter5-6 I",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 265,
+		reset_auto_complete = 0,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2650,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[266] = {
+		entrance_ui = 1,
+		name = "Chapter5-6 II",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 266,
+		reset_auto_complete = 0,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2660,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[267] = {
+		entrance_ui = 1,
+		name = "Chapter5-6 III",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 267,
+		reset_auto_complete = 0,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2670,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
 	[301] = {
 		entrance_ui = 1,
 		name = "劇情海域(暫不使用）",
@@ -9378,7 +9554,7 @@ pg.world_chapter_random = {
 	},
 	[40000] = {
 		entrance_ui = 2,
-		name = "蟲洞",
+		name = "核心區前哨站",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 40000,
@@ -9396,6 +9572,226 @@ pg.world_chapter_random = {
 		open_stage = {
 			200,
 			200
+		}
+	},
+	[43000] = {
+		entrance_ui = 2,
+		name = "普通難度：仲裁者·天帕嵐斯·XIV",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43000,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430000,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43001] = {
+		entrance_ui = 2,
+		name = "普通難度：仲裁者·司特蓮庫斯·VIII",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43001,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430010,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43002] = {
+		entrance_ui = 2,
+		name = "普通難度：仲裁者·赫米忒·IX",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43002,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430020,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43010] = {
+		entrance_ui = 2,
+		name = "困難難度：仲裁者·天帕嵐斯·XIV",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43010,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430100,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43011] = {
+		entrance_ui = 2,
+		name = "困難難度：仲裁者·司特蓮庫斯·VIII",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43011,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430110,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43012] = {
+		entrance_ui = 2,
+		name = "困難難度：仲裁者·赫米忒·IX",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43012,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430120,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43020] = {
+		entrance_ui = 2,
+		name = "困難模擬戰：仲裁機關",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43020,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430200,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[44000] = {
+		entrance_ui = 2,
+		name = "模擬戰：代行者XIV「Equilibrium」",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 44000,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				440000,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			180,
+			180
+		}
+	},
+	[44001] = {
+		entrance_ui = 2,
+		name = "模擬戰：代行者VIII「Determination」",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 44001,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				440010,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			180,
+			180
+		}
+	},
+	[44002] = {
+		entrance_ui = 2,
+		name = "模擬戰：代行者IX「Exploration」",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 44002,
+		reset_auto_complete = 0,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				440020,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			180,
+			180
 		}
 	},
 	all = {
@@ -9505,6 +9901,14 @@ pg.world_chapter_random = {
 		233,
 		234,
 		235,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
 		301,
 		400,
 		401,
@@ -9766,6 +10170,16 @@ pg.world_chapter_random = {
 		89015,
 		89016,
 		89017,
-		40000
+		40000,
+		43000,
+		43001,
+		43002,
+		43010,
+		43011,
+		43012,
+		43020,
+		44000,
+		44001,
+		44002
 	}
 }

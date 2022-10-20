@@ -106,7 +106,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[610] = {
-		name = "未公開檔案",
+		name = "魔方的奧秘",
 		id_2 = "061",
 		name_abbreviate = "8",
 		type = 3,
@@ -121,7 +121,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[710] = {
-		name = "未公開檔案",
+		name = "代號：CodeG",
 		id_2 = "071",
 		name_abbreviate = "9",
 		type = 3,
@@ -151,7 +151,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[910] = {
-		name = "未公開檔案",
+		name = "機密紀錄I",
 		id_2 = "091",
 		name_abbreviate = "11",
 		type = 5,

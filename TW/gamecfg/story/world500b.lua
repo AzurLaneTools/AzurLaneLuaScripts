@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "blueocean-image",
-			say = "前面的好像是孟菲斯和，谢菲尔德……？",
+			say = "前面的好像是曼非斯和，謝菲爾德……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "感觉谢菲尔德一直有一种与皇家女仆队其他成员不同的神秘气场，不知道她们正在聊些什么。",
+			say = "感覺謝菲爾德一直有一種與皇家女僕隊其他成員不同的神秘氣場，不知道她們正在聊些什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "还是算了",
+					content = "還是算了",
 					flag = 2
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 2,
-			say = "既然会议已经结束，孟菲斯和谢菲尔德也许是在谈一些私人话题，就不打扰她们了。",
+			say = "既然會議已經結束，曼非斯和謝菲爾德也許是在談一些私人話題，就不打擾她們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "指挥官？",
+			say = "指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 2,
-			say = "啊，被发现了。",
+			say = "啊，被發現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事情就拜托你了，我还要赶去其他地方，就先……",
+			say = "事情就拜託妳了，我還要趕去其他地方，就先……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这不是害——指挥官大人么，刚才的会上还真是辛苦您了。",
+			say = "……這不是害——指揮官大人嗎，剛才的會上還真是辛苦您了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是把那些杂音抛诸脑后，好好休息一下放空大脑比较好哦，那么我就此告退。",
+			say = "還是把那些雜音拋諸腦後，好好休息一下放空大腦比較好哦，那麼我就此告退。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "谢菲尔德头也不回的离开了……",
+			say = "謝菲爾德頭也不回的離開了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "指挥官，今天一天也辛苦了~现在是在散步中？",
+			say = "指揮官，今天一天也辛苦了~現在是在散步中？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "稍微散散心……你们在讨论什么事情么？",
+			say = "稍微散散心……妳們在討論什麼事情嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，谢菲有一些事希望我能调查一下。",
+			say = "嗯，謝菲有一些事希望我能調查一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "虽然不是什么需要向指挥官保密的事，不过我想等到有确切结论之后再跟你说。",
+			say = "雖然不是什麼需要向指揮官保密的事，不過我想等到有確切結論之後再跟你說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "是和今天会议上发生的事有关么？",
+			say = "是和今天會議上發生的事有關嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "差不多吧……再怎么说今天也太过分了。",
+			say = "差不多吧……再怎麼說今天也太過分了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "参会人员和议题完全改变，我们却丝毫不知情……简直就像专门来算计我们的一样。",
+			say = "參會人員和議題完全改變，我們卻絲毫不知情……簡直就像專門來算計我們的一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "没错。一场原本应该是总攻计划讨论会的会议，却在到场之后发现变为了META与塞壬研究讨论会。",
+			say = "沒錯。一場原本應該是總攻計劃討論會的會議，卻在到場之後發現變為了META與塞壬研究討論會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本只是有些趋势而已，没想到这次会做得那么过分……",
+			say = "原本只是有些趨勢而已，沒想到這次會做得那麼過分……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "趋势，是指？",
+			say = "趨勢，是指？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "本次作战开始至今，战斗进展非常顺利。不论是对于塞壬，还是对于新出现的余烬，我们都在节节胜利。",
+			say = "本次作戰開始至今，戰鬥進展非常順利。不論是對於塞壬，還是對於新出現的餘燼，我們都在節節勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官一直在前线可能不太清楚……现在后方很多地方已经提前陷入欢庆胜利的狂欢气氛中了哦。",
+			say = "指揮官一直在前線可能不太清楚……現在後方很多地方已經提前陷入歡慶勝利的狂歡氣氛中了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "狂欢……明明每次都是余烬主动避免缠斗我们才能平安返回的吧。",
+			say = "狂歡……明明每次都是餘燼主動避免纏鬥我們才能平安返回的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "余烬的实力与压迫力……这些事情就算作为情报知道了，不亲身经历一下也不会有什么实感的。",
+			say = "餘燼的實力與壓迫力……這些事情就算作為情報知道了，不親身經歷一下也不會有什麼實感的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "更何况这些事一般人根本不会清楚。后方能看到的只有一次次胜利，以及我们在战斗中获得的无数战利品。",
+			say = "更何況這些事一般人根本不會清楚。後方能看到的只有一次次勝利，以及我們在戰鬥中獲得的無數戰利品。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "在这种气氛的推动下，原本还算冷静的各地司令部和指挥部中也出现了很多希望推进对于塞壬研究的声音。",
+			say = "在這種氣氛的推動下，原本還算冷靜的各地司令部和指揮部中也出現了很多希望推進對於塞壬研究的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "甚至连“塞壬的战斗力不值一提，指挥部应该将科研任务的优先级摆在作战任务之上。”这种极端观点也在不知不觉中出现了。",
+			say = "甚至連“塞壬的戰鬥力不值一提，指揮部應該將科研任務的優先級擺在作戰任務之上。”這種極端觀點也在不知不覺中出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "没想到事情居然严重到了这种程度……",
+			say = "沒想到事情居然嚴重到了這種程度……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然细节还在调查中，不过刚才的会议内容变动大概也和这些事有关吧。",
+			say = "雖然細節還在調查中，不過剛才的會議內容變動大概也和這些事有關吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "想要从塞壬手中夺回海洋——对于舰船来说，我们只有这一个愿望。",
+			say = "想要從塞壬手中奪回海洋——對於艦船來說，我們只有這一個願望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "相信指挥部和各地司令部也一定是这样想的。",
+			say = "相信指揮部和各地司令部也一定是這樣想的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家拥有相同的目标，却在达成目标的过程中产生了分歧……真是一件可悲而又熟悉的事不是么？",
+			say = "大家擁有相同的目標，卻在達成目標的過程中產生了分歧……真是一件可悲而又熟悉的事不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "谢菲尔德会来特意通知，说明伊丽莎白已经知道这个情况了……她是想让我们解决这个问题么？",
+			say = "謝菲爾德會來特意通知，說明伊莉莎白已經知道這個情況了……她是想讓我們解決這個問題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实……",
+			say = "其實……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "并非如此，指挥官大人。",
+			say = "並非如此，指揮官大人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下只是希望您能够切身了解一下角落中发生的事，对于战场背后的角落能有点直接认识而已。",
+			say = "陛下只是希望您能夠切身了解一下角落中發生的事，對於戰場背後的角落能有點直接認識而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于事情本身，陛下计划亲自解决这些问题。",
+			say = "至於事情本身，陛下計劃親自解決這些問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊，谢菲？！不要突然吓人呀……你不是走了么？",
+			say = "哇啊啊，謝菲？！不要突然嚇人呀……妳不是走了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉，看你们聊天太有趣，不知不觉多听了一会儿。",
+			say = "抱歉，看你們聊天太有趣，不知不覺多聽了一會兒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时不时就会觉得……谢菲你简直就像特工一样！",
+			say = "時不時就會覺得……謝菲妳簡直就像特工一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有的事，我只是普普通通的皇家女仆而已。",
+			say = "沒有的事，我只是普普通通的皇家女僕而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,22 +641,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "说起来，最近开会一次也没有见过伊丽莎白……她究竟打算做什么事？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "“反正也没什么意思，本王还有更重要的事要做！”陛下在说了这句话之后就把所有会议的日程推掉了。",
+			say = "說起來，最近開會一次也沒有見過伊莉莎白……她究竟打算做什麼事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +656,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为女仆的我肯定不会清楚陛下的计划，接下来只是我个人的推测——",
+			say = "“反正也沒什麼意思，本王還有更重要的事要做！”陛下在說了這句話之後就把所有會議的日程推掉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +671,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果陛下次次会议都到场的话，指挥官大人就见不到任何分歧了吧。",
+			say = "作為女僕的我肯定不會清楚陛下的計劃，接下來只是我個人的推測——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,20 +686,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后那些分歧被压抑的人大概会无休止的找借口掣肘下去，事情就难办了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			say = "确实可能会出现这种情况……",
+			say = "如果陛下次次會議都到場的話，指揮官大人就見不到任何分歧了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +701,35 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，情况大概就是这样。总而言之，指挥官大人明天也请继续加油吧。",
+			say = "然後那些分歧被壓抑的人大概會無休止的找藉口掣肘下去，事情就難辦了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			say = "確實可能會出現這種情況……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "總之，情況大概就是這樣。總而言之，指揮官大人明天也請繼續加油吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

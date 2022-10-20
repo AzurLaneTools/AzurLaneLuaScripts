@@ -4556,6 +4556,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[212] = {
+		spine_extra = "",
+		describe = "仿照NA海域中心奇異點內環境製作的金屬雕塑——授予在「NA海域大型作戰」行動中獲得傑出成就者的紀念章",
+		gain_by = "火燼餘輝",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "bigworldxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "NA海域紀念章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 212,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"bigworldxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[214] = {
 		spine_extra = "",
 		describe = "散發著美味的香氣…？",
@@ -89359,6 +89402,7 @@ pg.furniture_data_template = {
 			206,
 			208,
 			210,
+			212,
 			214,
 			215,
 			222,
@@ -89485,6 +89529,7 @@ pg.furniture_data_template = {
 			206,
 			208,
 			210,
+			212,
 			214,
 			215,
 			222,
@@ -94979,6 +95024,7 @@ pg.furniture_data_template = {
 			208,
 			209,
 			210,
+			212,
 			214,
 			215,
 			222,
@@ -95654,6 +95700,7 @@ pg.furniture_data_template = {
 			203,
 			208,
 			210,
+			212,
 			222,
 			100002,
 			100004,
@@ -97650,6 +97697,7 @@ pg.furniture_data_template = {
 		208,
 		209,
 		210,
+		212,
 		214,
 		215,
 		222,

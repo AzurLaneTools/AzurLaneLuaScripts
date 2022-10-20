@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "警告：前方海域出现异常气象特征，建议保持距离。",
+			say = "警告：前方海域出現異常氣象特徵，建議保持距離。",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "风暴之中夹杂着风暴…………真是奇怪的景象。",
+			say = "風暴之中夾雜著風暴…………真是奇怪的景象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仿佛在匀速旋转，又仿佛是静止的……企业、指挥官，你们有没有种熟悉的感觉！？！",
+			say = "彷彿在勻速旋轉，又彷佛是靜止的……企業、指揮官，你們有沒有種熟悉的感覺！ ？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯，绝对没错。前方的风暴是一个奇异点。",
+			say = "……嗯，絕對沒錯。前方的風暴是一個奇異點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "哎？不是整个大风暴是奇异点，而是大风暴包裹着的小风暴是奇异点……？",
+			say = "哎？不是整個大風暴是奇異點，而是大風暴包裹著的小風暴是奇異點……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。怪不得之前进入的时候没有接近奇异点的感觉……整个大风暴不过是隐藏中心奇异点的手段而已啊。",
+			say = "沒錯。怪不得之前進入的時候沒有接近奇異點的感覺……整個大風暴不過是隱藏中心奇異點的手段而已啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大风暴的存在也干扰了我们的探测设备，所以我们一直无法确定NA海域中是否有奇异点的存在……",
+			say = "大風暴的存在也干擾了我們的探測設備，所以我們一直無法確定NA海域中是否有奇異點的存在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "真狡猾啊……不过……",
+			say = "真狡猾啊……不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "咦？等等……这个大风暴不是塞壬生成的么？而奇异点是余烬开启的吧？",
+			say = "咦？等等……這個大風暴不是塞壬生成的嗎？而奇異點是餘燼開啟的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬和塞壬是敌对关系，为什么塞壬要帮助余烬隐藏奇异点的存在……？",
+			say = "餘燼和塞壬是敵對關係，為什麼塞壬要幫助餘燼隱藏奇異點的存在……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这我就不清楚了……话说，你们觉没觉得周围空气好差啊。",
+			say = "這我就不清楚了……話說，你們覺不覺得周圍空氣好差啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像是有点……从刚才出现预警之后，空气中就出现了一些漂浮的黑色结晶。",
+			say = "好像是有點……從剛才出現預警之後，空氣中就出現了一些漂浮的黑色結晶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "可以进行成分分析么，领航员小姐？",
+			say = "可以進行成分分析嗎，領航員小姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已确认，正在分析中——————",
+			say = "指令已確認，正在分析中——————",
 			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
@@ -230,7 +230,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析完毕：虽然形态有些不同，但空气中的黑色结晶在性质上与科研部门进行余烬信标解析的参照物一致。",
+			say = "分析完畢：雖然形態有些不同，但空氣中的黑色結晶在性質上與科研部門進行餘燼信標解析的參照物一致。",
 			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "空气中的黑色结晶可以理解为余烬在此处激烈战斗后留下的存在痕迹。",
+			say = "空氣中的黑色結晶可以理解為餘燼在此處激烈戰鬥後留下的存在痕跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这种位置上激烈战斗……哼，希望这次能有机会亲自见见一见那几位神秘的余烬成员。",
+			say = "在這種位置上激烈戰鬥……哼，希望這次能有機會親自見見一見那幾位神秘的餘燼成員。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊丽莎白！你不会是因为这种事才改变计划强行凑过来的吧！",
+			say = "伊莉莎白！妳不會是因為這種事才改變計劃強行湊過來的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比起冷冰冰的资料和他人的分析结果，有些事还是要自己亲自看一看，有些人还是要自己亲自谈一谈比较好。",
+			say = "比起冷冰冰的資料和他人的分析結果，有些事還是要自己親自看一看，有些人還是要自己親自談一談比較好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒是你，最近花在资料上的时间是不是有点太长了哦~",
+			say = "倒是妳，最近花在資料上的時間是不是有點太長了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……整天宅在后方城堡，只是偶尔！来一次前线的女王陛下没资格对我说教吧！",
+			say = "……整天宅在後方城堡，只是偶爾來一次前線的女王陛下沒資格對我說教吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼。贝法，去前方收集一些样本，本王要带回去仔细分析！",
+			say = "哼。貝法，去前方收集一些樣本，本王要帶回去仔細分析！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：前方风暴中心出现高能反应，建议舰队立刻规避。",
+			say = "警告：前方風暴中心出現高能反應，建議艦隊立刻規避。",
 			voice = "event:/tb/16/tb-16",
 			flashout = {
 				black = true,
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，样品收集完成了么，我们该回去了。",
+			say = "貝法，樣品收集完成了嗎，我們該回去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法——————",
+			say = "貝法——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：风暴中心的高能反应正在持续增强，预计冲击将在十秒后抵达。10，9，8，7……",
+			say = "警告：風暴中心的高能反應正在持續增強，預計衝擊將在十秒後抵達。 10，9，8，7……",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "糟糕……来不及规避了！！",
+			say = "糟糕……來不及躲避了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "即使在指挥舰中也能清晰感受到，一股愈发猛烈的力量正在将海面上的舰队连同海水一起吸向风暴的方向。",
+			say = "即使在指揮艦中也能清晰感受到，一股愈發猛烈的力量正在將海面上的艦隊連同海水一起吸向風暴的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "用最大航速仍然无法脱离！指挥官小心，我们要被吸过去了！",
+			say = "用最大航速仍然無法脫離！指揮官小心，我們要被吸過去了！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,

@@ -2115,6 +2115,595 @@ pg.world_task_data = {
 			100
 		}
 	},
+	[2600] = {
+		server_type = 1,
+		name = "Chapter5-1",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2600,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "具有致幻效果的海霧打亂了艦隊陣型，電子設備也遭遇了強烈干擾。總之先集合失散的同伴，再決定之後的行動內容。",
+		priority = 10,
+		complete_stage = 110,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "主線任務Chapter5-1",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			32
+		},
+		following_random = {
+			260
+		},
+		task_event = {},
+		complete_parameter = {
+			2601
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2601] = {
+		server_type = 1,
+		name = "Chapter5-2",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2601,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "具有致幻效果的海霧打亂了艦隊陣型，電子設備也遭遇了強烈干擾。總之先集合失散的同伴，再決定之後的行動內容。",
+		priority = 10,
+		complete_stage = 120,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "主線任務Chapter5-2",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			159
+		},
+		following_random = {
+			261
+		},
+		task_event = {},
+		complete_parameter = {
+			2602
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2602] = {
+		server_type = 1,
+		name = "Chapter5-3",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2602,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "具有致幻效果的海霧打亂了艦隊陣型，電子設備也遭遇了強烈干擾。總之先集合失散的同伴，再決定之後的行動內容。",
+		priority = 10,
+		complete_stage = 130,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "主線任務Chapter5-3",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			156
+		},
+		following_random = {
+			262
+		},
+		task_event = {},
+		complete_parameter = {
+			2603
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2603] = {
+		server_type = 1,
+		name = "Chapter5-4",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2603,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "具有致幻效果的海霧打亂了艦隊陣型，電子設備也遭遇了強烈干擾。總之先集合失散的同伴，再決定之後的行動內容。",
+		priority = 10,
+		complete_stage = 140,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "主線任務Chapter5-4",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			113
+		},
+		following_random = {
+			263
+		},
+		task_event = {},
+		complete_parameter = {
+			2604
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2604] = {
+		server_type = 1,
+		name = "Chapter5-5",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2604,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "具有致幻效果的海霧打亂了艦隊陣型，電子設備也遭遇了強烈干擾。總之先集合失散的同伴，再決定之後的行動內容。",
+		priority = 10,
+		complete_stage = 150,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "主線任務Chapter5-5",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			157
+		},
+		following_random = {
+			264
+		},
+		task_event = {},
+		complete_parameter = {
+			2605
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2605] = {
+		server_type = 1,
+		name = "Chapter5-6 I",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2605,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "具有致幻效果的海霧打亂了艦隊陣型，電子設備也遭遇了強烈干擾。總之先集合失散的同伴，再決定之後的行動內容。",
+		priority = 10,
+		complete_stage = 160,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "主線任務Chapter5-6 I",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {
+			265
+		},
+		task_event = {},
+		complete_parameter = {
+			2606
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2606] = {
+		server_type = 1,
+		name = "Chapter5-6 II",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2606,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "具有致幻效果的海霧打亂了艦隊陣型，電子設備也遭遇了強烈干擾。總之先集合失散的同伴，再決定之後的行動內容。",
+		priority = 10,
+		complete_stage = 170,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "主線任務Chapter5-6 II",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {
+			266
+		},
+		task_event = {},
+		complete_parameter = {
+			2607
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2607] = {
+		server_type = 1,
+		name = "Chapter5-6 III",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2607,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "具有致幻效果的海霧打亂了艦隊陣型，電子設備也遭遇了強烈干擾。總之先集合失散的同伴，再決定之後的行動內容。",
+		priority = 10,
+		complete_stage = 180,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "主線任務Chapter5-6 III",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {
+			267
+		},
+		task_event = {},
+		complete_parameter = {
+			4100
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				5,
+				212,
+				1
+			},
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
 	[3101] = {
 		server_type = 2,
 		name = "NO.Q2A7L塞壬實驗場調查 ",
@@ -2871,24 +3460,24 @@ pg.world_task_data = {
 		},
 		reset_task = {}
 	},
-	[4001] = {
-		server_type = 3,
-		name = "調查蟲洞1",
-		continuity = 0,
-		type = 5,
+	[4100] = {
+		server_type = 1,
+		name = "模擬戰：代行者XIV",
+		continuity = 1,
+		type = 0,
 		log_text = "",
 		intimacy = 0,
 		sharing = 1,
-		id = 4001,
+		id = 4100,
 		complete_condition = 8,
 		exp = 0,
-		rare_task_text = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
+		rare_task_text = "作為仲裁機關應對的一環，前往模擬戰海域，與代行者XIV「Equilibrium」交戰",
 		priority = 10,
 		complete_stage = 0,
 		complete_parameter_num = 1,
 		target_map_lock = 0,
 		task_ed = "",
-		description = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
+		description = "前往模擬戰海域，與代行者XIV「Equilibrium」交戰",
 		item_retrieve = 1,
 		need_level = 0,
 		auto_complete = 1,
@@ -2896,309 +3485,279 @@ pg.world_task_data = {
 		rare_task_icon = "tbniang",
 		task_op = "",
 		countdown = 0,
-		drop = 1005001,
+		drop = 1003601,
 		rank = 0,
 		task_panel_BG = "",
 		need_task_complete = 0,
 		condition_text = "",
-		task_random_enter = {
-			154
+		task_random_enter = {},
+		task_target_map = {
+			0
 		},
-		task_target_map = {},
 		following_region = {},
-		following_map = {},
-		following_random = {},
+		following_map = {
+			84
+		},
+		following_random = {
+			44000
+		},
 		task_event = {},
 		complete_parameter = {
-			7000000
+			7000301
 		},
 		next_task = {
-			4002
+			4101
 		},
 		task_goto = {
 			3
 		},
 		show = {
 			{
-				12,
-				103,
-				2
-			}
-		},
-		reset_task = {}
-	},
-	[4002] = {
-		server_type = 3,
-		name = "調查蟲洞2",
-		continuity = 0,
-		type = 5,
-		log_text = "",
-		intimacy = 0,
-		sharing = 1,
-		id = 4002,
-		complete_condition = 8,
-		exp = 0,
-		rare_task_text = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		priority = 10,
-		complete_stage = 0,
-		complete_parameter_num = 1,
-		target_map_lock = 0,
-		task_ed = "",
-		description = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		item_retrieve = 1,
-		need_level = 0,
-		auto_complete = 1,
-		task_icon = "",
-		rare_task_icon = "tbniang",
-		task_op = "",
-		countdown = 0,
-		drop = 1005002,
-		rank = 0,
-		task_panel_BG = "",
-		need_task_complete = 0,
-		condition_text = "",
-		task_random_enter = {
-			154
-		},
-		task_target_map = {},
-		following_region = {},
-		following_map = {},
-		following_random = {},
-		task_event = {},
-		complete_parameter = {
-			7000001
-		},
-		next_task = {
-			4003
-		},
-		task_goto = {
-			3
-		},
-		show = {
+				2,
+				30114,
+				15
+			},
 			{
 				12,
-				103,
-				2
-			}
-		},
-		reset_task = {}
-	},
-	[4003] = {
-		server_type = 3,
-		name = "調查蟲洞3",
-		continuity = 0,
-		type = 5,
-		log_text = "",
-		intimacy = 0,
-		sharing = 1,
-		id = 4003,
-		complete_condition = 8,
-		exp = 0,
-		rare_task_text = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		priority = 10,
-		complete_stage = 0,
-		complete_parameter_num = 1,
-		target_map_lock = 0,
-		task_ed = "",
-		description = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		item_retrieve = 1,
-		need_level = 0,
-		auto_complete = 1,
-		task_icon = "",
-		rare_task_icon = "tbniang",
-		task_op = "",
-		countdown = 0,
-		drop = 1005003,
-		rank = 0,
-		task_panel_BG = "",
-		need_task_complete = 0,
-		condition_text = "",
-		task_random_enter = {
-			154
-		},
-		task_target_map = {},
-		following_region = {},
-		following_map = {},
-		following_random = {},
-		task_event = {},
-		complete_parameter = {
-			7000000
-		},
-		next_task = {
-			4004
-		},
-		task_goto = {
-			3
-		},
-		show = {
-			{
-				12,
-				103,
-				2
-			}
-		},
-		reset_task = {}
-	},
-	[4004] = {
-		server_type = 3,
-		name = "調查蟲洞4",
-		continuity = 0,
-		type = 5,
-		log_text = "",
-		intimacy = 0,
-		sharing = 1,
-		id = 4004,
-		complete_condition = 8,
-		exp = 0,
-		rare_task_text = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		priority = 10,
-		complete_stage = 0,
-		complete_parameter_num = 1,
-		target_map_lock = 0,
-		task_ed = "",
-		description = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		item_retrieve = 1,
-		need_level = 0,
-		auto_complete = 1,
-		task_icon = "",
-		rare_task_icon = "tbniang",
-		task_op = "",
-		countdown = 0,
-		drop = 1005004,
-		rank = 0,
-		task_panel_BG = "",
-		need_task_complete = 0,
-		condition_text = "",
-		task_random_enter = {
-			154
-		},
-		task_target_map = {},
-		following_region = {},
-		following_map = {},
-		following_random = {},
-		task_event = {},
-		complete_parameter = {
-			7000002
-		},
-		next_task = {},
-		task_goto = {
-			3
-		},
-		show = {
-			{
-				12,
-				103,
-				2
-			}
-		},
-		reset_task = {}
-	},
-	[4005] = {
-		server_type = 3,
-		name = "調查蟲洞5",
-		continuity = 0,
-		type = 5,
-		log_text = "",
-		intimacy = 0,
-		sharing = 1,
-		id = 4005,
-		complete_condition = 8,
-		exp = 0,
-		rare_task_text = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		priority = 10,
-		complete_stage = 0,
-		complete_parameter_num = 1,
-		target_map_lock = 0,
-		task_ed = "",
-		description = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		item_retrieve = 1,
-		need_level = 0,
-		auto_complete = 1,
-		task_icon = "",
-		rare_task_icon = "tbniang",
-		task_op = "",
-		countdown = 0,
-		drop = 1005005,
-		rank = 0,
-		task_panel_BG = "",
-		need_task_complete = 0,
-		condition_text = "",
-		task_random_enter = {
-			154
-		},
-		task_target_map = {},
-		following_region = {},
-		following_map = {},
-		following_random = {},
-		task_event = {},
-		complete_parameter = {
-			7000000
-		},
-		next_task = {},
-		task_goto = {
-			3
-		},
-		show = {
-			{
-				12,
-				103,
-				2
-			}
-		},
-		reset_task = {}
-	},
-	[4006] = {
-		server_type = 3,
-		name = "調查蟲洞6",
-		continuity = 0,
-		type = 5,
-		log_text = "",
-		intimacy = 0,
-		sharing = 1,
-		id = 4006,
-		complete_condition = 8,
-		exp = 0,
-		rare_task_text = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		priority = 10,
-		complete_stage = 0,
-		complete_parameter_num = 1,
-		target_map_lock = 0,
-		task_ed = "",
-		description = "調查位於<color=#92fc63>NA海域西中心</color>的蟲洞???",
-		item_retrieve = 1,
-		need_level = 0,
-		auto_complete = 1,
-		task_icon = "",
-		rare_task_icon = "tbniang",
-		task_op = "",
-		countdown = 0,
-		drop = 1005006,
-		rank = 0,
-		task_panel_BG = "",
-		need_task_complete = 0,
-		condition_text = "",
-		task_random_enter = {
-			154
-		},
-		task_target_map = {},
-		following_region = {},
-		following_map = {},
-		following_random = {},
-		task_event = {},
-		complete_parameter = {
-			7000002
-		},
-		next_task = {},
-		task_goto = {
-			3
-		},
-		show = {
-			{
-				12,
-				104,
+				2006,
 				1
 			}
 		},
+		reset_task = {}
+	},
+	[4101] = {
+		server_type = 1,
+		name = "模擬戰：代行者VIII",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4101,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "作為仲裁機關應對的一環，前往模擬戰海域，與代行者VIII「Determination」交戰",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往模擬戰海域，與代行者VIII「Determination」交戰",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003602,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			114
+		},
+		following_random = {
+			44001
+		},
+		task_event = {},
+		complete_parameter = {
+			7000311
+		},
+		next_task = {
+			4102
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				12,
+				2006,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[4102] = {
+		server_type = 1,
+		name = "模擬戰：代行者IX",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4102,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "作為仲裁機關應對的一環，前往模擬戰海域，與代行者IX「Exploration」交戰",
+		priority = 10,
+		complete_stage = 200,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往模擬戰海域，與代行者IX「Exploration」交戰",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003603,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			32
+		},
+		following_random = {
+			44001
+		},
+		task_event = {},
+		complete_parameter = {
+			7000321
+		},
+		next_task = {
+			4200
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				12,
+				2015,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[4200] = {
+		server_type = 3,
+		name = "普通作戰：仲裁機關",
+		continuity = 0,
+		type = 7,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4200,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往NA海域中心，擊破來襲的仲裁者復制機體",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往NA海域中心，擊破來襲的仲裁者量產型機體",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			154
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {},
+		task_event = {},
+		complete_parameter = {
+			7000400
+		},
+		next_task = {
+			4201
+		},
+		task_goto = {
+			3
+		},
+		show = {},
+		reset_task = {
+			200,
+			300
+		}
+	},
+	[4201] = {
+		server_type = 3,
+		name = "困難作戰：仲裁機關",
+		continuity = 0,
+		type = 7,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4201,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往NA海域中心，擊破來襲的仲裁者強化複製機體",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往NA海域中心，擊破來襲的仲裁者強化量產型機體",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			154
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {},
+		task_event = {},
+		complete_parameter = {
+			7000401
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {},
 		reset_task = {}
 	},
 	[10000] = {
@@ -7141,6 +7700,14 @@ pg.world_task_data = {
 		2304,
 		2305,
 		2310,
+		2600,
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2607,
 		3101,
 		3102,
 		3103,
@@ -7153,12 +7720,11 @@ pg.world_task_data = {
 		3304,
 		3401,
 		3402,
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		4006,
+		4100,
+		4101,
+		4102,
+		4200,
+		4201,
 		10000,
 		10001,
 		10002,

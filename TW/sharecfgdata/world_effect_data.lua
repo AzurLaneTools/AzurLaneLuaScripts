@@ -28,6 +28,108 @@ _G.pg.base.world_effect_data[2] = {
 	autoflag = {}
 }
 
+_G.pg.base.world_effect_data[20] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 20,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"month",
+			5
+		},
+		23,
+		24
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[23] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 23,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		15,
+		0,
+		3,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[24] = {
+	autocomplete = 0,
+	effect_type = 1004,
+	effective_num = 0,
+	id = 24,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0.2,
+		0.05,
+		0.02,
+		{
+			255,
+			255,
+			255,
+			31
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[25] = {
+	autocomplete = 0,
+	effect_type = 1004,
+	effective_num = 0,
+	id = 25,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0.2,
+		0.05,
+		0.2,
+		{
+			255,
+			0,
+			0,
+			63
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[26] = {
+	autocomplete = 0,
+	effect_type = 1004,
+	effective_num = 0,
+	id = 26,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0.2,
+		0.05,
+		0.02,
+		{
+			0,
+			127,
+			0,
+			31
+		}
+	},
+	autoflag = {}
+}
+
 _G.pg.base.world_effect_data[32] = {
 	autocomplete = 0,
 	effect_type = 50,
@@ -48538,6 +48640,2341 @@ _G.pg.base.world_effect_data[251807] = {
 	sound_effects = "",
 	effect_paramater = {
 		"W849012"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260000] = {
+	autocomplete = 0,
+	effect_type = 5,
+	effective_num = 0,
+	id = 260000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		2600,
+		10000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 260001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26050,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 260002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260100] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 260100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		26011,
+		26011,
+		26011,
+		26012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260101] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 260101,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26010,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260102] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 260102,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260110] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 260110,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD500B"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260111] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 260111,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26051
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260112] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 260112,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26051,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260113] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 260113,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260114] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 260114,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26010,
+		26013
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260115] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 260115,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26011,
+		26012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260500] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 260500,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD500A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260501] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 260501,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26015,
+		26010
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260510] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 260510,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD500C"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260511] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 260511,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W203000"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260512] = {
+	autocomplete = 0,
+	effect_type = 5,
+	effective_num = 0,
+	id = 260512,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		2601,
+		10000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[260513] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 260513,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			32,
+			{
+				0,
+				0
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261000] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 261000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD501A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261001] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 261001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26110
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 261002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26110,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261003] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 261003,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261100] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 261100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD501B"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261101] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 261101,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26120
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261102] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 261102,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26120,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261103] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 261103,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261200] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 261200,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD501C"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261201] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 261201,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26125
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261202] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 261202,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26125,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261203] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 261203,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD501C"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261204] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 261204,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26125,
+		26160
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261205] = {
+	autocomplete = 0,
+	effect_type = 1,
+	effective_num = 0,
+	id = 261205,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		312610,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261206] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 261206,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W203000"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261207] = {
+	autocomplete = 0,
+	effect_type = 5,
+	effective_num = 0,
+	id = 261207,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		2602,
+		10000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[261208] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 261208,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			159,
+			{
+				0,
+				0
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[262000] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 262000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD502A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[262001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 262001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26210,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[262002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 262002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[262100] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 262100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD502A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[262101] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 262101,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W203000"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[262102] = {
+	autocomplete = 0,
+	effect_type = 5,
+	effective_num = 0,
+	id = 262102,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		2603,
+		10000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[262103] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 262103,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			156,
+			{
+				0,
+				0
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263000] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 263000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26310
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 263001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26310,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 263002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263100] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 263100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD503A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263101] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 263101,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263102] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 263102,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26311
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263103] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 263103,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26311,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263104] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 263104,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263110] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 263110,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD503B"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263111] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 263111,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W203000"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263112] = {
+	autocomplete = 0,
+	effect_type = 5,
+	effective_num = 0,
+	id = 263112,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		2604,
+		10000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[263113] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 263113,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			113,
+			{
+				0,
+				0
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264000] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 264000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD504A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26469,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264002] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26460
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264003] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264003,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26469,
+		0.1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264004] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264004,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26461
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264005] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264005,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26469,
+		0.1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264006] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264006,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26462
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264007] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264007,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26469,
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264008] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264008,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26410
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264009] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264009,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26410,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264010] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264010,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264011] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264011,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26465,
+		26466,
+		26467
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264020] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264020,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264021] = {
+	autocomplete = 0,
+	effect_type = 5,
+	effective_num = 0,
+	id = 264021,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		2605,
+		10000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264022] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 264022,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W203000"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264023] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 264023,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			157,
+			{
+				0,
+				0
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264100] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26415,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264101] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 264101,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD504B"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264102] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 264102,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		15,
+		0,
+		3,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264103] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 264103,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26415,
+		26419
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264104] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264104,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26420
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264105] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264105,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26420,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264106] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264106,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264200] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 264200,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD504C"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264201] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264201,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26420,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264202] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 264202,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		15,
+		0,
+		3,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264203] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 264203,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26426
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264204] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264204,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26430
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264205] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264205,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26430,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264206] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264206,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264300] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 264300,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD504D"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264301] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264301,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26431,
+		26432
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264302] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264302,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26431,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264303] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264303,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26432,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264304] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 264304,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD504E"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264305] = {
+	autocomplete = 0,
+	effect_type = 1004,
+	effective_num = 0,
+	id = 264305,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0.2,
+		0.25,
+		0.2,
+		{
+			255,
+			0,
+			0,
+			63
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264306] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264306,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26455,
+		26455,
+		26456,
+		26450
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264307] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264307,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26450,
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264308] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264308,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264400] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 264400,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD500A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264401] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 264401,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26445,
+		26450,
+		26455,
+		26455,
+		26456
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264402] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264402,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26445,
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264403] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 264403,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD500A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264404] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 264404,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264550] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 264550,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		312640,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[264551] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 264551,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		264000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265000] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 265000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD505A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265001] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 265001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26510
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 265002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26510,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265003] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 265003,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265100] = {
+	autocomplete = 0,
+	effect_type = 1001,
+	effective_num = 0,
+	id = 265100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26515,
+		6
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265101] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 265101,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26515,
+		1.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265102] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 265102,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD505B"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265103] = {
+	autocomplete = 0,
+	effect_type = 5,
+	effective_num = 0,
+	id = 265103,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		2606,
+		10000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265104] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 265104,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W203001"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[265105] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 265105,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			266,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[266000] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 266000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD506A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[266001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 266001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26610,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[266002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 266002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[266100] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 266100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		26611,
+		26611,
+		26611,
+		26612
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[266110] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 266110,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD506B"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[266111] = {
+	autocomplete = 0,
+	effect_type = 5,
+	effective_num = 0,
+	id = 266111,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		2607,
+		10000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[266112] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 266112,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W203001"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[266113] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 266113,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			267,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267000] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 267000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD507A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267001] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 267001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26710
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		26710,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267003] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267003,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267100] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267101] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 267101,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD507B"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267102] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 267102,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26711
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267103] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267103,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26711,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267104] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267104,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267110] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267110,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267111] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 267111,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD507C"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267112] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 267112,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26712
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267113] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267113,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26712,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267114] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267114,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267120] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267120,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267121] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 267121,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD507D"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267122] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267122,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267123] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 267123,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD507E"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267124] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 267124,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26730
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267125] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267125,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26730,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267126] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267126,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267300] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 267300,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26740
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267301] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 267301,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26770,
+		26771,
+		26772,
+		26773,
+		26774,
+		26775
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267302] = {
+	autocomplete = 0,
+	effect_type = 1004,
+	effective_num = 0,
+	id = 267302,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0.2,
+		0.25,
+		0.2,
+		{
+			255,
+			0,
+			0,
+			63
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267303] = {
+	autocomplete = 0,
+	effect_type = 1014,
+	effective_num = 0,
+	id = 267303,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		312670
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267304] = {
+	autocomplete = 0,
+	effect_type = 5,
+	effective_num = 0,
+	id = 267304,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		4100,
+		10000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267305] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 267305,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W267000"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267306] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 267306,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			1,
+			1,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267307] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 267307,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		26775,
+		1.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267310] = {
+	autocomplete = 0,
+	effect_type = 1014,
+	effective_num = 0,
+	id = 267310,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		312670
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[267600] = {
+	autocomplete = 0,
+	effect_type = 28,
+	effective_num = 0,
+	id = 267600,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				0
+			},
+			{
+				0
+			},
+			1021
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[269200] = {
+	autocomplete = 0,
+	effect_type = 7,
+	effective_num = 0,
+	id = 269200,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		1003501
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[269210] = {
+	autocomplete = 0,
+	effect_type = 7,
+	effective_num = 0,
+	id = 269210,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		1003502
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[269220] = {
+	autocomplete = 0,
+	effect_type = 7,
+	effective_num = 0,
+	id = 269220,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		1003503
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[269230] = {
+	autocomplete = 0,
+	effect_type = 7,
+	effective_num = 0,
+	id = 269230,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		1003504
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[269240] = {
+	autocomplete = 0,
+	effect_type = 7,
+	effective_num = 0,
+	id = 269240,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		1003505
 	},
 	autoflag = {}
 }
@@ -130164,6 +132601,276 @@ _G.pg.base.world_effect_data[1315002] = {
 	autoflag = {}
 }
 
+_G.pg.base.world_effect_data[1315010] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315010,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315010,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315011] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315011,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315011,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315012] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315012,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315012,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315015] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315015,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315015,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315016] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315016,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315016,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315017] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315017,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315017,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315020] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315020,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315020,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315021] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315021,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315021,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315022] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315022,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315022,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315025] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315025,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315025,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315026] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315026,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315026,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315027] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315027,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315027,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315030] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315030,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315030,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315031] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315031,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315031,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315032] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315032,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315032,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315033] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315033,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315033,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315034] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315034,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315034,
+		-1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[1315035] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 1315035,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		315035,
+		-1
+	},
+	autoflag = {}
+}
+
 _G.pg.base.world_effect_data[1320001] = {
 	autocomplete = 0,
 	effect_type = 1,
@@ -181679,6 +184386,829 @@ _G.pg.base.world_effect_data[61061402] = {
 	autoflag = {}
 }
 
+_G.pg.base.world_effect_data[70000000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70000000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000001,
+		7000001,
+		7000001,
+		7000001,
+		7000001,
+		7000001,
+		7000001,
+		7000001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000100] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70000100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"task",
+			4200
+		},
+		70000102,
+		70000109
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000101] = {
+	autocomplete = 0,
+	effect_type = 27,
+	effective_num = 0,
+	id = 70000101,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700002",
+		{
+			{
+				1,
+				0
+			}
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000102] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70000102,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"month",
+			0
+		},
+		70000106,
+		{
+			"month",
+			1
+		},
+		70000103,
+		{
+			"month",
+			2
+		},
+		70000104,
+		{
+			"month",
+			3
+		},
+		70000105,
+		{
+			"month",
+			4
+		},
+		70000103,
+		{
+			"month",
+			5
+		},
+		70000104,
+		{
+			"month",
+			6
+		},
+		70000105,
+		{
+			"month",
+			7
+		},
+		70000103,
+		{
+			"month",
+			8
+		},
+		70000104,
+		{
+			"month",
+			9
+		},
+		70000105,
+		{
+			"month",
+			10
+		},
+		70000103,
+		{
+			"month",
+			11
+		},
+		70000104,
+		70000105
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000103] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70000103,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			43000,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000104] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70000104,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			43001,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000105] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70000105,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			43002,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000106] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70000106,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			43002,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000109] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70000109,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000011
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000110] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70000110,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"task",
+			4201
+		},
+		70000112,
+		70000119
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000111] = {
+	autocomplete = 0,
+	effect_type = 27,
+	effective_num = 0,
+	id = 70000111,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700002",
+		{
+			{
+				1,
+				0
+			}
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000112] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70000112,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"month",
+			0
+		},
+		70000116,
+		{
+			"month",
+			1
+		},
+		70000113,
+		{
+			"month",
+			2
+		},
+		70000114,
+		{
+			"month",
+			3
+		},
+		70000115,
+		{
+			"month",
+			4
+		},
+		70000113,
+		{
+			"month",
+			5
+		},
+		70000114,
+		{
+			"month",
+			6
+		},
+		70000115,
+		{
+			"month",
+			7
+		},
+		70000113,
+		{
+			"month",
+			8
+		},
+		70000114,
+		{
+			"month",
+			9
+		},
+		70000115,
+		{
+			"month",
+			10
+		},
+		70000113,
+		{
+			"month",
+			11
+		},
+		70000114,
+		70000115
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000113] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70000113,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			43010,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000114] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70000114,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			43011,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000115] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70000115,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			43012,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000116] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70000116,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			43012,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000119] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70000119,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000120] = {
+	autocomplete = 0,
+	effect_type = 27,
+	effective_num = 0,
+	id = 70000120,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700002",
+		{
+			{
+				1,
+				0
+			}
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000121] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70000121,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			43020,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000320] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70000320,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000003,
+		7000002
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000400] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70000400,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700030"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000410] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70000410,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700031"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000420] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70000420,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700032"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000500] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70000500,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7000000,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000501] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70000501,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700030"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000502] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70000502,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000503] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70000503,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000000,
+		7000010
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70000504] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70000504,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70001000] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70001000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000000,
+		7000001,
+		7000002,
+		7000003,
+		7000004,
+		7000005,
+		7000011,
+		7000012,
+		7000013,
+		7000021,
+		7000022,
+		7000023,
+		7000101,
+		7000111,
+		7000112,
+		7000113,
+		7000114,
+		7000115,
+		7000116,
+		7000121,
+		7000122,
+		7000123,
+		7000124,
+		7000125,
+		7000126,
+		7000127,
+		7000051,
+		7000052,
+		7000053,
+		7000054,
+		7000055,
+		7000056,
+		7000061,
+		7000062,
+		7000063,
+		7000064,
+		7000065,
+		7000066,
+		7000071,
+		7000200,
+		7000201,
+		7000202,
+		7000203
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70001001] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70001001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000000,
+		7000001,
+		7000002,
+		7000003,
+		7000004,
+		7000005,
+		7000011,
+		7000012,
+		7000013,
+		7000021,
+		7000022,
+		7000023,
+		7000101,
+		7000111,
+		7000112,
+		7000113,
+		7000114,
+		7000115,
+		7000116,
+		7000121,
+		7000122,
+		7000123,
+		7000124,
+		7000125,
+		7000126,
+		7000127,
+		7000051,
+		7000052,
+		7000053,
+		7000054,
+		7000055,
+		7000056,
+		7000061,
+		7000062,
+		7000063,
+		7000064,
+		7000065,
+		7000066,
+		7000071,
+		7000200,
+		7000201,
+		7000202,
+		7000203
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70001002] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70001002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70001010] = {
+	autocomplete = 0,
+	effect_type = 45,
+	effective_num = 0,
+	id = 70001010,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70001011] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70001011,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"task",
+			4200
+		},
+		70000004,
+		{
+			"task",
+			4102
+		},
+		70000001,
+		{
+			"task",
+			4101
+		},
+		70000002,
+		{
+			"task",
+			4100
+		},
+		70000003,
+		70001012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70001012] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70001012,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			40000,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70001100] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70001100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000101
+	},
+	autoflag = {}
+}
+
 _G.pg.base.world_effect_data[70002000] = {
 	autocomplete = 0,
 	effect_type = 36,
@@ -182091,6 +185621,11270 @@ _G.pg.base.world_effect_data[70002132] = {
 			1293561,
 			1
 		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003000] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70003000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7000010,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003001] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70003001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7000010,
+		7000011
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003002] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70003002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7000040,
+		7000041
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003003] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70003003,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700031"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003004] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70003004,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003100] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70003100,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7000011,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003101] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70003101,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7000011,
+		7000012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003102] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70003102,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7000041,
+		7000042
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003103] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70003103,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700032"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70003104] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70003104,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100000] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70100000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70100001,
+			1
+		},
+		{
+			70100002,
+			1
+		},
+		{
+			70100003,
+			1
+		},
+		{
+			70100004,
+			1
+		},
+		{
+			70100005,
+			1
+		},
+		{
+			70100006,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100002] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010002
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100003] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010003
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100004] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100004,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010004
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100005] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100005,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010005
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100006] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100006,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010006
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100010] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70100010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000051,
+		7000052,
+		7000053,
+		7000054,
+		7000055,
+		7000056,
+		7000061,
+		7000062,
+		7000063,
+		7000064,
+		7000065,
+		7000066,
+		7000071
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100011] = {
+	autocomplete = 0,
+	effect_type = 38,
+	effective_num = 0,
+	id = 70100011,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1,
+		{
+			7010011,
+			7010012,
+			7010013,
+			7010014,
+			7010015,
+			7010016
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100012] = {
+	autocomplete = 0,
+	effect_type = 38,
+	effective_num = 0,
+	id = 70100012,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		2,
+		{
+			7010021,
+			7010022,
+			7010023,
+			7010024,
+			7010025,
+			7010026
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100013] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70100013,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000011,
+		7000012,
+		7000013
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100020] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70100020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000011,
+		7000012,
+		7000013
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000102
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7013101,
+		7013101,
+		7013101,
+		7013101,
+		7013101,
+		7013101,
+		7013101,
+		7013101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100100] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70100100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7010011
+			},
+			1
+		},
+		70100111,
+		{
+			"max",
+			{
+				7010012
+			},
+			1
+		},
+		70100112,
+		{
+			"max",
+			{
+				7010013
+			},
+			1
+		},
+		70100113,
+		{
+			"max",
+			{
+				7010014
+			},
+			1
+		},
+		70100114,
+		{
+			"max",
+			{
+				7010015
+			},
+			1
+		},
+		70100115,
+		{
+			"max",
+			{
+				7010016
+			},
+			1
+		},
+		70100116,
+		{
+			"max",
+			{
+				7010021
+			},
+			1
+		},
+		70100121,
+		{
+			"max",
+			{
+				7010022
+			},
+			1
+		},
+		70100122,
+		{
+			"max",
+			{
+				7010023
+			},
+			1
+		},
+		70100123,
+		{
+			"max",
+			{
+				7010024
+			},
+			1
+		},
+		70100124,
+		{
+			"max",
+			{
+				7010025
+			},
+			1
+		},
+		70100125,
+		{
+			"max",
+			{
+				7010026
+			},
+			1
+		},
+		70100126,
+		70100101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100101] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70100101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70100102,
+			70
+		},
+		{
+			70127000,
+			30
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100102] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100102,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100111] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100111,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011100
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100112] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100112,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011200
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100113] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100113,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011300
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100114] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100114,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011400
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100115] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100115,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011500
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100116] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100116,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011600
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100121] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100121,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012100
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100122] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100122,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012200
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100123] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100123,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012300
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100124] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100124,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012400
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100125] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100125,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012500
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100126] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100126,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012600
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100200] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010103
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100201] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010110,
+		7010110,
+		7010110,
+		7010110
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100202] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100202,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010120,
+		7010120,
+		7010120,
+		7010120
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100203] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100203,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010130,
+		7010130,
+		7010130,
+		7010130
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100204] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100204,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010140,
+		7010140,
+		7010140,
+		7010140
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100205] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100205,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010150,
+		7010150,
+		7010150,
+		7010150
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100206] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100206,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010160,
+		7010160,
+		7010160,
+		7010160
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100210] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70100210,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70100211,
+			1
+		},
+		{
+			70100212,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100211] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100211,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111,
+		7010111
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100212] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100212,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112,
+		7010112
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100220] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70100220,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70100221,
+			1
+		},
+		{
+			70100222,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100221] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100221,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121,
+		7010121
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100222] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100222,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122,
+		7010122
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100230] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70100230,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70100231,
+			1
+		},
+		{
+			70100232,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100231] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100231,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131,
+		7010131
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100232] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100232,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132,
+		7010132
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100240] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70100240,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70100241,
+			1
+		},
+		{
+			70100242,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100241] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100241,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141,
+		7010141
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100242] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100242,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142,
+		7010142
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100250] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70100250,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70100251,
+			1
+		},
+		{
+			70100252,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100251] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100251,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151,
+		7010151
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100252] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100252,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152,
+		7010152
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100260] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70100260,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70100261,
+			1
+		},
+		{
+			70100262,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100261] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100261,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161,
+		7010161
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100262] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100262,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162,
+		7010162
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100270] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70100270,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7010201
+			},
+			1
+		},
+		70100271,
+		{
+			"max",
+			{
+				7010202
+			},
+			1
+		},
+		70100272,
+		{
+			"max",
+			{
+				7010203
+			},
+			1
+		},
+		70100273,
+		{
+			"max",
+			{
+				7010204
+			},
+			1
+		},
+		70100274,
+		0
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100271] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100271,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100272] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100272,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010205,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100273] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100273,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206,
+		7010206
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100274] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100274,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010208,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207,
+		7010207
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100300] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100300,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010200,
+		7010200,
+		7010200,
+		7010200
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100301] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70100301,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70100302,
+			1
+		},
+		{
+			70100303,
+			1
+		},
+		{
+			70100304,
+			1
+		},
+		{
+			70100305,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100302] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100302,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010201
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100303] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100303,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010202
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100304] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100304,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010203
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100305] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70100305,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010204
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100311] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100311,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010211
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100312] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100312,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010212
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100313] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100313,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010213
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100314] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100314,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010214
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100315] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100315,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010215
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100316] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100316,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010216
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100321] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100321,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010221
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100322] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100322,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010222
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100323] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100323,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010223
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100324] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70100324,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010224
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100400] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70100400,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000011
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100401] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70100401,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000011
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100402] = {
+	autocomplete = 0,
+	effect_type = 1004,
+	effective_num = 0,
+	id = 70100402,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0.2,
+		0.05,
+		0.2,
+		{
+			255,
+			0,
+			0,
+			63
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100403] = {
+	autocomplete = 0,
+	effect_type = 51,
+	effective_num = 0,
+	id = 70100403,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			7011011,
+			7011021
+		},
+		{
+			7011012,
+			7011022
+		},
+		{
+			7011013,
+			7011023
+		},
+		{
+			7011014,
+			7011024
+		},
+		{
+			7011110,
+			7011120
+		},
+		{
+			7011210,
+			7011220
+		},
+		{
+			7011310,
+			7011320
+		},
+		{
+			7011410,
+			7011420
+		},
+		{
+			7011510,
+			7011520
+		},
+		{
+			7011610,
+			7011620
+		},
+		{
+			7012110,
+			7012120
+		},
+		{
+			7012211,
+			7012221
+		},
+		{
+			7012212,
+			7012222
+		},
+		{
+			7012213,
+			7012223
+		},
+		{
+			7012214,
+			7012224
+		},
+		{
+			7012215,
+			7012225
+		},
+		{
+			7012310,
+			7012320
+		},
+		{
+			7012410,
+			7012420
+		},
+		{
+			7012511,
+			7012520
+		},
+		{
+			7012512,
+			7012523
+		},
+		{
+			7012513,
+			7012526
+		},
+		{
+			7012610,
+			7012620
+		},
+		{
+			7012711,
+			7012721
+		},
+		{
+			7012712,
+			7012722
+		},
+		{
+			7012713,
+			7012723
+		},
+		{
+			7012714,
+			7012724
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100404] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70100404,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7000000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100405] = {
+	autocomplete = 0,
+	effect_type = 27,
+	effective_num = 0,
+	id = 70100405,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700000",
+		{
+			{
+				1,
+				0
+			}
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100410] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70100410,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100411] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70100411,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100412] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70100412,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010205,
+		7010206,
+		7010207,
+		7010208
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100413] = {
+	autocomplete = 0,
+	effect_type = 27,
+	effective_num = 0,
+	id = 70100413,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700000",
+		{
+			{
+				1,
+				0
+			}
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100420] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70100420,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000013
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100421] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70100421,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000013
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100422] = {
+	autocomplete = 0,
+	effect_type = 1004,
+	effective_num = 0,
+	id = 70100422,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0.2,
+		0.05,
+		0.2,
+		{
+			255,
+			0,
+			0,
+			63
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100423] = {
+	autocomplete = 0,
+	effect_type = 51,
+	effective_num = 0,
+	id = 70100423,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			7011021,
+			7011031
+		},
+		{
+			7011022,
+			7011032
+		},
+		{
+			7011023,
+			7011033
+		},
+		{
+			7011024,
+			7011034
+		},
+		{
+			7011120,
+			7011130
+		},
+		{
+			7011220,
+			7011230
+		},
+		{
+			7011320,
+			7011330
+		},
+		{
+			7011420,
+			7011430
+		},
+		{
+			7011520,
+			7011530
+		},
+		{
+			7011620,
+			7011630
+		},
+		{
+			7012120,
+			7012130
+		},
+		{
+			7012221,
+			7012231
+		},
+		{
+			7012222,
+			7012232
+		},
+		{
+			7012223,
+			7012233
+		},
+		{
+			7012224,
+			7012234
+		},
+		{
+			7012225,
+			7012235
+		},
+		{
+			7012320,
+			7012330
+		},
+		{
+			7012420,
+			7012430
+		},
+		{
+			7012521,
+			7012531
+		},
+		{
+			7012522,
+			7012532
+		},
+		{
+			7012524,
+			7012534
+		},
+		{
+			7012525,
+			7012535
+		},
+		{
+			7012527,
+			7012537
+		},
+		{
+			7012528,
+			7012538
+		},
+		{
+			7012620,
+			7012630
+		},
+		{
+			7012721,
+			7012731
+		},
+		{
+			7012722,
+			7012732
+		},
+		{
+			7012723,
+			7012733
+		},
+		{
+			7012724,
+			70127234
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100424] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70100424,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7013101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100425] = {
+	autocomplete = 0,
+	effect_type = 27,
+	effective_num = 0,
+	id = 70100425,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700000",
+		{
+			{
+				1,
+				0
+			}
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100430] = {
+	autocomplete = 0,
+	effect_type = 15,
+	effective_num = 0,
+	id = 70100430,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		6
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100431] = {
+	autocomplete = 0,
+	effect_type = 51,
+	effective_num = 0,
+	id = 70100431,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			7010201,
+			7010200
+		},
+		{
+			7010202,
+			7010200
+		},
+		{
+			7010203,
+			7010200
+		},
+		{
+			7010204,
+			7010200
+		},
+		{
+			7010103,
+			7010104
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70100432] = {
+	autocomplete = 0,
+	effect_type = 27,
+	effective_num = 0,
+	id = 70100432,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700000",
+		{
+			{
+				1,
+				0
+			}
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110000] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70110000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70110001,
+			1
+		},
+		{
+			70110002,
+			1
+		},
+		{
+			70110003,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70110001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110002] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70110002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011002
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110003] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70110003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011003
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110004] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70110004,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011004
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110011] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70110011,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011011,
+		7011011,
+		7011011
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110012] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70110012,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011012,
+		7011012,
+		7011012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110013] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70110013,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011013,
+		7011013,
+		7011013
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110014] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70110014,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011014,
+		7011014,
+		7011014
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110031] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70110031,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7011031
+			},
+			3
+		},
+		0,
+		70110032
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110032] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70110032,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011041
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110033] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70110033,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7011032
+			},
+			3
+		},
+		0,
+		70110034
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110034] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70110034,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011042
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110035] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70110035,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7011033
+			},
+			3
+		},
+		0,
+		70110036
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110036] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70110036,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011043
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110037] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70110037,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7011034
+			},
+			3
+		},
+		0,
+		70110038
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110038] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70110038,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011044
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70110100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70110101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70110200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70110201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70110201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70111000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70111000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011110
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70111010] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70111010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70111020] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70111020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70111030] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70111030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70111100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70111100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000111
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70111101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70111101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000111
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70111200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70111200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000111
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70111201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70111201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000111
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70112000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70112000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011210
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70112010] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70112010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70112020] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70112020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70112030] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70112030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70112100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70112100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000112
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70112101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70112101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000112
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70112200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70112200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000112
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70112201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70112201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000112
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70113000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70113000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011310
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70113010] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70113010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70113020] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70113020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70113030] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70113030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70113100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70113100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000113
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70113101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70113101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000113
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70113200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70113200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000113
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70113201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70113201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000113
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70114000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70114000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011410
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70114010] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70114010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70114020] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70114020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70114030] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70114030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70114100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70114100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000114
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70114101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70114101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000114
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70114200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70114200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000114
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70114201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70114201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000114
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70115000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70115000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011510
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70115010] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70115010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70115020] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70115020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70115030] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70115030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70115100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70115100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000115
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70115101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70115101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000115
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70115200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70115200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000115
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70115201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70115201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000115
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70116000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70116000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7011610
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70116010] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70116010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70116020] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70116020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70116030] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70116030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70116100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70116100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000116
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70116101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70116101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000116
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70116200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70116200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000116
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70116201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70116201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000116
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70120000] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70120000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7010010
+			},
+			1
+		},
+		0,
+		70120001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70120001] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70120001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"item",
+			104,
+			1
+		},
+		70120002,
+		70120002
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70120002] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70120002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			0,
+			80
+		},
+		{
+			70131000,
+			20
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70120010] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70120010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010010
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70121000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70121000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012110,
+		7012110
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70121010] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70121010,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			6104,
+			50
+		},
+		{
+			0,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70121020] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70121020,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			6104,
+			50
+		},
+		{
+			0,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70121030] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70121030,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			6104,
+			50
+		},
+		{
+			0,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70121100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70121100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000121
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70121101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70121101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000121
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70121200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70121200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000121
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70121201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70121201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000121
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122000] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70122000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70122001,
+			1
+		},
+		{
+			70122002,
+			1
+		},
+		{
+			70122003,
+			1
+		},
+		{
+			70122004,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012201
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122002] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012202
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122003] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012203
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122004] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122004,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012204
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122005] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122005,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012205
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122011] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122011,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012211
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122012] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122012,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012212
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122013] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122013,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012213
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122014] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122014,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012214
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122015] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122015,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012215
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122090] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70122090,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012291
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70122100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000122
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70122101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000122
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70122200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000122
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70122201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70122201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000122
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70123000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012310
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123001] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70123001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				-1
+			},
+			{
+				-1
+			},
+			6,
+			1
+		},
+		{
+			{
+				-1
+			},
+			{
+				0
+			},
+			6,
+			1
+		},
+		{
+			{
+				-1
+			},
+			{
+				1
+			},
+			6,
+			1
+		},
+		{
+			{
+				0
+			},
+			{
+				-1
+			},
+			6,
+			1
+		},
+		{
+			{
+				0
+			},
+			{
+				1
+			},
+			6,
+			1
+		},
+		{
+			{
+				1
+			},
+			{
+				-1
+			},
+			6,
+			1
+		},
+		{
+			{
+				1
+			},
+			{
+				0
+			},
+			6,
+			1
+		},
+		{
+			{
+				1
+			},
+			{
+				1
+			},
+			6,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123010] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70123010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000021
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123020] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70123020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000022
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123030] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70123030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000023
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70123100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000123
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70123101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000123
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70123200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000123,
+		7000021,
+		7000022,
+		7000023
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70123201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000123,
+		7000021,
+		7000022,
+		7000023
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123202] = {
+	autocomplete = 0,
+	effect_type = 15,
+	effective_num = 0,
+	id = 70123202,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		6
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123301] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70123301,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				0
+			},
+			{
+				0
+			},
+			6,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123302] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70123302,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				0
+			},
+			{
+				0
+			},
+			6,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70123303] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70123303,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				0
+			},
+			{
+				0
+			},
+			6,
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012410
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124010] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012401
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124020] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012402,
+		7012402
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124030] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70124030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012403,
+		7012403,
+		7012403
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70124100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000124
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70124101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000124
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70124200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000124
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70124201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000124
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124300] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70124300,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70124301,
+			1
+		},
+		{
+			70124302,
+			1
+		},
+		{
+			70124303,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124301] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124301,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012411
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124302] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124302,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012412
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124303] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124303,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012413
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124304] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124304,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012414
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124310] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70124310,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70124311,
+			1
+		},
+		{
+			70124312,
+			1
+		},
+		{
+			70124313,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124311] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124311,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012431
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124312] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124312,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012432
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124313] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124313,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012433
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70124314] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70124314,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012434
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012510
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125010] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70125010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70125011,
+			1
+		},
+		{
+			70125012,
+			1
+		},
+		{
+			70125013,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125011] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125011,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012511
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125012] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125012,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012512
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125013] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125013,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012513
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125020] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70125020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70125021,
+			1
+		},
+		{
+			70125022,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012521
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012522
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125023] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70125023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70125024,
+			1
+		},
+		{
+			70125025,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125024] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125024,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012524
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125025] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125025,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012525
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125026] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70125026,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70125027,
+			1
+		},
+		{
+			70125028,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125027] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125027,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012527
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125028] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125028,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012528
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125031] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125031,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012531
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125032] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125032,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012532
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125034] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125034,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012534
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125035] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125035,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012535
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125037] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125037,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012537
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125038] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70125038,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012538
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70125100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000125
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70125101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000125
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70125200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000125,
+		7000024,
+		7000025,
+		7000026
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70125201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000125,
+		7000024,
+		7000025,
+		7000026
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125301] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70125301,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000024
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125302] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70125302,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000026
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70125303] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70125303,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000025
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70126000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012610
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126010] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70126010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012640
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126020] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70126020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012661
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126030] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70126030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012650,
+		7012662,
+		7012663
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70126100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000126
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70126101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000126
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70126200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000126
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70126201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000126
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126300] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70126300,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70126301,
+			1
+		},
+		{
+			70126302,
+			1
+		},
+		{
+			70126303,
+			1
+		},
+		{
+			70126304,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126301] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70126301,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012641
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126302] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70126302,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012642
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126303] = {
+	autocomplete = 0,
+	effect_type = 12,
+	effective_num = 0,
+	id = 70126303,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012643
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126304] = {
+	autocomplete = 0,
+	effect_type = 13,
+	effective_num = 0,
+	id = 70126304,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012644
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126310] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70126310,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70126311,
+			1
+		},
+		{
+			70126312,
+			1
+		},
+		{
+			70126313,
+			1
+		},
+		{
+			70126314,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126311] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70126311,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012651
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126312] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70126312,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012652
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126313] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70126313,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012653
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126314] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70126314,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012654
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70126315] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70126315,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012655
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70127000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012700
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70127001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012701,
+		7012701,
+		7012702
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127002] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70127002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7012731,
+				7012732,
+				7012733,
+				7012734
+			},
+			2
+		},
+		0,
+		70127310
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127100] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70127100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000127
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70127101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000127
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127200] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70127200,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000127
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127201] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70127201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000127
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127300] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70127300,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70127301,
+			1
+		},
+		{
+			70127302,
+			1
+		},
+		{
+			70127303,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127301] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70127301,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012711
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127302] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70127302,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012712
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127303] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70127303,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012713
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127304] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70127304,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012714
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127310] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70127310,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70127311,
+			1
+		},
+		{
+			70127312,
+			1
+		},
+		{
+			70127313,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127311] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70127311,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012741
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127312] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70127312,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012742
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127313] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70127313,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012743
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70127314] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70127314,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7012744
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70131000] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70131000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7013100
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70131001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70131001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7013101,
+		7013101,
+		7013101,
+		7013101,
+		7013101,
+		7013101,
+		7013101,
+		7013101,
+		7013102
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70131030] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70131030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70131031,
+			1
+		},
+		{
+			70131032,
+			1
+		},
+		{
+			70131033,
+			1
+		},
+		{
+			70131034,
+			1
+		},
+		{
+			70131035,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70131031] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70131031,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7013131
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70131032] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70131032,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7013132
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70131033] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70131033,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7013133
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70131034] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70131034,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7013134
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70131035] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70131035,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7013135
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70131999] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70131999,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7010031
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200000] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70200000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70200001,
+			1
+		},
+		{
+			70200002,
+			1
+		},
+		{
+			70200003,
+			1
+		},
+		{
+			70200004,
+			1
+		},
+		{
+			70200005,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200002] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020002
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200003] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020003
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200004] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200004,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020004
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200005] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200005,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020005
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200010] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70200010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000201,
+		7000202,
+		7000203
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200011] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70200011,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020011,
+		7020012,
+		7020013
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200012] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70200012,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000200
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200020] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70200020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020100,
+		7020100,
+		7020100,
+		7020100,
+		7020100,
+		7020100,
+		7020100,
+		7020100,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101,
+		7020101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200021] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70200021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020104,
+		7020104,
+		7020104,
+		7020104,
+		7020105,
+		7020105
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200022] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70200022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020102,
+		7020103,
+		7020103,
+		7020103,
+		7020103,
+		7020103,
+		7020103,
+		7020103,
+		7020103,
+		7020103
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200023] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70200023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020500,
+		7020500
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200024] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70200024,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020410,
+		7020410,
+		7020410,
+		7020410,
+		7020411,
+		7020411
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200031] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200031,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200032] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200032,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021002
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200033] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200033,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021003
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200034] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200034,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021004
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200035] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200035,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021005
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200040] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70200040,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000200
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200041] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70200041,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200050] = {
+	autocomplete = 0,
+	effect_type = 46,
+	effective_num = 0,
+	id = 70200050,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0,
+		12,
+		12,
+		2010
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200051] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70200051,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020101
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200052] = {
+	autocomplete = 0,
+	effect_type = 51,
+	effective_num = 0,
+	id = 70200052,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			7020100,
+			7020110
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200053] = {
+	autocomplete = 0,
+	effect_type = 27,
+	effective_num = 0,
+	id = 70200053,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700000",
+		{
+			{
+				1,
+				0
+			}
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200054] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70200054,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020120
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200055] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70200055,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7020120,
+		0.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200060] = {
+	autocomplete = 0,
+	effect_type = 51,
+	effective_num = 0,
+	id = 70200060,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			7020102,
+			7020112
+		},
+		{
+			7020103,
+			7020113
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200100] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70200100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7020011
+			},
+			1
+		},
+		70200101,
+		{
+			"max",
+			{
+				7020012
+			},
+			1
+		},
+		70200102,
+		{
+			"max",
+			{
+				7020013
+			},
+			1
+		},
+		70200103,
+		70200104
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200101] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70200101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7020001,
+				7021001
+			},
+			1
+		},
+		70200202,
+		{
+			"max",
+			{
+				7020002,
+				7021002
+			},
+			1
+		},
+		70200202,
+		{
+			"max",
+			{
+				7020003,
+				7021003
+			},
+			1
+		},
+		70200201,
+		{
+			"max",
+			{
+				7020004,
+				7021004
+			},
+			1
+		},
+		70200201,
+		{
+			"max",
+			{
+				7020005,
+				7021005
+			},
+			1
+		},
+		70200203,
+		0
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200102] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70200102,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"max",
+			{
+				7020001,
+				7021001
+			},
+			1
+		},
+		70200303,
+		{
+			"max",
+			{
+				7020002,
+				7021002
+			},
+			1
+		},
+		70200302,
+		{
+			"max",
+			{
+				7020003,
+				7021003
+			},
+			1
+		},
+		70200301,
+		{
+			"max",
+			{
+				7020004,
+				7021004
+			},
+			1
+		},
+		70200302,
+		{
+			"max",
+			{
+				7020005,
+				7021005
+			},
+			1
+		},
+		70200303,
+		0
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200103] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200103,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020400
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200104] = {
+	autocomplete = 0,
+	effect_type = 28,
+	effective_num = 0,
+	id = 70200104,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				0
+			},
+			{
+				0
+			},
+			2010
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200201] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200201,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020201
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200202] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200202,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020202
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200203] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200203,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020203
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200301] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200301,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020301
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200302] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200302,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020302
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200303] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200303,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020303
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200401] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200401,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020131
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200402] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200402,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020132
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70200403] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70200403,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020133
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70203001] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70203001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000024
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70203002] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70203002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000026
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70203003] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70203003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000025
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70203010] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70203010,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000024,
+		7000025,
+		7000026
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70203011] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70203011,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000024,
+		7000025,
+		7000026
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70204001] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70204001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000022
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70204002] = {
+	autocomplete = 0,
+	effect_type = 15,
+	effective_num = 0,
+	id = 70204002,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		6
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70204010] = {
+	autocomplete = 0,
+	effect_type = 31,
+	effective_num = 0,
+	id = 70204010,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000022
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70204011] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70204011,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000022
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70204021] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70204021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				0
+			},
+			{
+				0
+			},
+			6,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70204022] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70204022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				0
+			},
+			{
+				0
+			},
+			6,
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70205000] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70205000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70205001,
+			1
+		},
+		{
+			70205002,
+			1
+		},
+		{
+			70205003,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70205001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70205001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020501
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70205002] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70205002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020502
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70205003] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70205003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020503
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70205004] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70205004,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7020504
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70210000] = {
+	autocomplete = 0,
+	effect_type = 36,
+	effective_num = 0,
+	id = 70210000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			70210001,
+			1
+		},
+		{
+			70210002,
+			1
+		},
+		{
+			70210003,
+			1
+		},
+		{
+			70210004,
+			1
+		},
+		{
+			70210005,
+			1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70210001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70210001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70210002] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70210002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021002
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70210003] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70210003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021003
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70210004] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70210004,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021004
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70210005] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70210005,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7021005
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70222000] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70222000,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7022000,
+		7022010
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70222001] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70222001,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000300
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70222100] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70222100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7022001,
+		7022011
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70222101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70222101,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000300
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70222500] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 70222500,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		15,
+		0,
+		3,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70222501] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70222501,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7022340
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70222502] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70222502,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7022350
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70222503] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70222503,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7022350,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70222504] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70222504,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700010"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223050] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70223050,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7022300
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223150] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70223150,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7022310
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223250] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70223250,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7022320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223350] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70223350,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7022330
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223500] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70223500,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000301
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223501] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70223501,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000300
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223502] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70223502,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000301
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223503] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70223503,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7022002,
+		7022012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223504] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70223504,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700120"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70223505] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70223505,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			1,
+			1,
+			{
+				0,
+				0
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70225000] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70225000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700100"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70225001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70225001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7022200,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70225002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70225002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7022210,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70225003] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70225003,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700110"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70225004] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70225004,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232000] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70232000,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7023003,
+		7023013
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232001] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70232001,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000310
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232100] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70232100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7023002,
+		7023012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70232101,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000310
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232200] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70232200,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7023001,
+		7023011
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232201] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70232201,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000310
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232500] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 70232500,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		15,
+		0,
+		3,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232501] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70232501,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7023300
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232502] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70232502,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7023350
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232503] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70232503,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7023350,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70232504] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70232504,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700010"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70233500] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70233500,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000311
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70233501] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70233501,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000310
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70233502] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70233502,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000311
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70233503] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70233503,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7023004,
+		7023014
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70233504] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70233504,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700121"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70233505] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70233505,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			1,
+			1,
+			{
+				0,
+				0
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70235000] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70235000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700101"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70235001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70235001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7023220,
+		0.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70235002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70235002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7023210,
+		0.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70235003] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70235003,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7023200,
+		0.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70235004] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70235004,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700110"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70235005] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70235005,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242000] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70242000,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7024002,
+		7024012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242001] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70242001,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242100] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70242100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7024001,
+		7024011
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242101] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70242101,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242200] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70242200,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7024000,
+		7024010
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242201] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70242201,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242500] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 70242500,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		15,
+		0,
+		3,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242501] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70242501,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7024300
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242502] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70242502,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7024350
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242503] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70242503,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7024350,
+		0.8
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70242504] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70242504,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700010"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70243500] = {
+	autocomplete = 0,
+	effect_type = 25,
+	effective_num = 0,
+	id = 70243500,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000321
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70243501] = {
+	autocomplete = 0,
+	effect_type = 26,
+	effective_num = 0,
+	id = 70243501,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7000320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70243502] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70243502,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000321
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70243503] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70243503,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7023004,
+		7023014
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70243504] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70243504,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700122"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70243505] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70243505,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			1,
+			1,
+			{
+				0,
+				0
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70245000] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70245000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700102"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70245001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70245001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7024220,
+		0.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70245002] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70245002,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7024210,
+		0.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70245003] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70245003,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7024200,
+		0.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70245004] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70245004,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		"W700110"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70245005] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70245005,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300000] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70300000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"month",
+			1
+		},
+		70300001,
+		{
+			"month",
+			2
+		},
+		70300002,
+		{
+			"month",
+			3
+		},
+		70300003,
+		{
+			"month",
+			4
+		},
+		70300001,
+		{
+			"month",
+			5
+		},
+		70300002,
+		{
+			"month",
+			6
+		},
+		70300003,
+		{
+			"month",
+			7
+		},
+		70300001,
+		{
+			"month",
+			8
+		},
+		70300002,
+		{
+			"month",
+			9
+		},
+		70300003,
+		{
+			"month",
+			10
+		},
+		70300001,
+		{
+			"month",
+			11
+		},
+		70300002,
+		70300003
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300001] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7030040
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300002] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7030050
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300003] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7030060
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300010] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70300010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"month",
+			1
+		},
+		70300011,
+		{
+			"month",
+			2
+		},
+		70300012,
+		{
+			"month",
+			3
+		},
+		70300013,
+		{
+			"month",
+			4
+		},
+		70300011,
+		{
+			"month",
+			5
+		},
+		70300012,
+		{
+			"month",
+			6
+		},
+		70300013,
+		{
+			"month",
+			7
+		},
+		70300011,
+		{
+			"month",
+			8
+		},
+		70300012,
+		{
+			"month",
+			9
+		},
+		70300013,
+		{
+			"month",
+			10
+		},
+		70300011,
+		{
+			"month",
+			11
+		},
+		70300012,
+		70300013
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300011] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300011,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7030041
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300012] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300012,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7030051
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300013] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300013,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7030061
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300016] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70300016,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000400,
+		7000410
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300017] = {
+	autocomplete = 0,
+	effect_type = 21,
+	effective_num = 0,
+	id = 70300017,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7000401,
+		7000411
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300020] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70300020,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7030021,
+		7030021,
+		7030021,
+		7030021,
+		7030021,
+		7030021,
+		7030021,
+		7030021
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300100] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70300100,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700020"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300110] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70300110,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700021"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300120] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70300120,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"W700022"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300210] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70300210,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD500A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300211] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70300211,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			40000,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300220] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70300220,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD500A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300221] = {
+	autocomplete = 0,
+	effect_type = 3,
+	effective_num = 0,
+	id = 70300221,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			40000,
+			{
+				-1,
+				-1
+			},
+			2
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300400] = {
+	autocomplete = 0,
+	effect_type = 43,
+	effective_num = 0,
+	id = 70300400,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD500A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300401] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300401,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300402] = {
+	autocomplete = 0,
+	effect_type = 2,
+	effective_num = 0,
+	id = 70300402,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		"WORLD500A"
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300403] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300403,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030120
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300404] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300404,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030120,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300405] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300405,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030110,
+		7030110,
+		7030110
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300406] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300406,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030120,
+		0.4
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300407] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300407,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030111,
+		7030111,
+		7030111
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300408] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300408,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030120,
+		0.3
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300409] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300409,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030112,
+		7030112,
+		7030112,
+		7030112
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300410] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300410,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030120,
+		0.2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300411] = {
+	autocomplete = 0,
+	effect_type = 39,
+	effective_num = 0,
+	id = 70300411,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030120,
+		7031000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300500] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300500,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300501] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 70300501,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		15,
+		90,
+		2,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300502] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 70300502,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		10,
+		90,
+		2,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300503] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300503,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300504] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 70300504,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		25,
+		90,
+		2,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300505] = {
+	autocomplete = 0,
+	effect_type = 1003,
+	effective_num = 0,
+	id = 70300505,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		18,
+		90,
+		2,
+		2
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300506] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300506,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030031,
+		7030031,
+		7030031,
+		7030031,
+		7030031,
+		7030031,
+		7030031,
+		7030031,
+		7030036,
+		7030036,
+		7030036
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300600] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300600,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		1
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300601] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300601,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030301,
+		7030301
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300602] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300602,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300603] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300603,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030302,
+		7030302
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300604] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300604,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300605] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300605,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030303,
+		7030303
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300606] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70300606,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300700] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300700,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030070
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300701] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70300701,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				-5
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-4
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				-4
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-4
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				-4
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				4
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-5
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-4
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				4
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				5
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-5
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-4
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				4
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				5
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-4
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				4
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				5
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				5
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				5
+			},
+			{
+				1
+			},
+			0
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300702] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70300702,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7031000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300800] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70300800,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030080
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300801] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70300801,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				-5
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-4
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				-4
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-4
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				-3
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				-2
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				-4
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				4
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-5
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-4
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				4
+			},
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				5
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-5
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-4
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				4
+			},
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				5
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-4
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				4
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				-3
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				3
+			},
+			{
+				3
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				-2
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				1
+			},
+			0
+		},
+		{
+			{
+				4
+			},
+			{
+				2
+			},
+			0
+		},
+		{
+			{
+				5
+			},
+			{
+				-1
+			},
+			0
+		},
+		{
+			{
+				5
+			},
+			{
+				0
+			},
+			0
+		},
+		{
+			{
+				5
+			},
+			{
+				1
+			},
+			0
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70300802] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70300802,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7031100
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310000] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70310000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"month",
+			0
+		},
+		70310015,
+		{
+			"month",
+			1
+		},
+		70310001,
+		{
+			"month",
+			2
+		},
+		70310002,
+		{
+			"month",
+			3
+		},
+		70310003,
+		{
+			"month",
+			4
+		},
+		70310004,
+		{
+			"month",
+			5
+		},
+		70310005,
+		{
+			"month",
+			6
+		},
+		70310006,
+		{
+			"month",
+			7
+		},
+		70310007,
+		{
+			"month",
+			8
+		},
+		70310008,
+		{
+			"month",
+			9
+		},
+		70310009,
+		{
+			"month",
+			10
+		},
+		70310010,
+		{
+			"month",
+			11
+		},
+		70310011,
+		70310012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032000
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310002] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032001
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310003] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032002
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310004] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310004,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032003
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310005] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310005,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032004
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310006] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310006,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032005
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310007] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310007,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032006
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310008] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310008,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032007
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310009] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310009,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032008
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310010] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032009
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310011] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310011,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032010
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310012] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310012,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032011
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310015] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70310015,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032015
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310030] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70310030,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7031004
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70310031] = {
+	autocomplete = 0,
+	effect_type = 11,
+	effective_num = 0,
+	id = 70310031,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7031004
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311000] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70311000,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"month",
+			0
+		},
+		70311015,
+		{
+			"month",
+			1
+		},
+		70311001,
+		{
+			"month",
+			2
+		},
+		70311002,
+		{
+			"month",
+			3
+		},
+		70311003,
+		{
+			"month",
+			4
+		},
+		70311004,
+		{
+			"month",
+			5
+		},
+		70311005,
+		{
+			"month",
+			6
+		},
+		70311006,
+		{
+			"month",
+			7
+		},
+		70311007,
+		{
+			"month",
+			8
+		},
+		70311008,
+		{
+			"month",
+			9
+		},
+		70311009,
+		{
+			"month",
+			10
+		},
+		70311010,
+		{
+			"month",
+			11
+		},
+		70311011,
+		70311012
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311001] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311001,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032020
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311002] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311002,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032021
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311003] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311003,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032022
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311004] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311004,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032023
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311005] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311005,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032024
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311006] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311006,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032025
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311007] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311007,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032026
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311008] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311008,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032027
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311009] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311009,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032028
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311010] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311010,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032029
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311011] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311011,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032030
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311012] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311012,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032031
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311015] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311015,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032035
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311100] = {
+	autocomplete = 0,
+	effect_type = 35,
+	effective_num = 0,
+	id = 70311100,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			"month",
+			0
+		},
+		70311115,
+		{
+			"month",
+			1
+		},
+		70311101,
+		{
+			"month",
+			2
+		},
+		70311102,
+		{
+			"month",
+			3
+		},
+		70311103,
+		{
+			"month",
+			4
+		},
+		70311104,
+		{
+			"month",
+			5
+		},
+		70311105,
+		{
+			"month",
+			6
+		},
+		70311106,
+		{
+			"month",
+			7
+		},
+		70311107,
+		{
+			"month",
+			8
+		},
+		70311108,
+		{
+			"month",
+			9
+		},
+		70311109,
+		{
+			"month",
+			10
+		},
+		70311110,
+		{
+			"month",
+			11
+		},
+		70311111,
+		70311112
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311101] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311101,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032040
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311102] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311102,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032041
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311103] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311103,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032042
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311104] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311104,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032043
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311105] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311105,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032044
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311106] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311106,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032045
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311107] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311107,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032046
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311108] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311108,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032047
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311109] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311109,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032048
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311110] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311110,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032049
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311111] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311111,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032050
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311112] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311112,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032051
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70311115] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 70311115,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		7032055
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70312000] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70312000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				-1
+			},
+			{
+				-2
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				2
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-2
+			},
+			1,
+			0,
+			1
+		},
+		{
+			{
+				0
+			},
+			{
+				2
+			},
+			1,
+			0,
+			-1
+		},
+		{
+			{
+				0
+			},
+			{
+				4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-3
+			},
+			1,
+			0,
+			1
+		},
+		{
+			{
+				2
+			},
+			{
+				-2
+			},
+			1,
+			0,
+			1
+		},
+		{
+			{
+				2
+			},
+			{
+				2
+			},
+			1,
+			0,
+			-1
+		},
+		{
+			{
+				2
+			},
+			{
+				3
+			},
+			1,
+			0,
+			-1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70312100] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70312100,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				-1
+			},
+			{
+				-2
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				-1
+			},
+			{
+				2
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				-2
+			},
+			1,
+			0,
+			1
+		},
+		{
+			{
+				0
+			},
+			{
+				2
+			},
+			1,
+			0,
+			-1
+		},
+		{
+			{
+				0
+			},
+			{
+				4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				2
+			},
+			{
+				-3
+			},
+			1,
+			0,
+			1
+		},
+		{
+			{
+				2
+			},
+			{
+				-2
+			},
+			1,
+			0,
+			1
+		},
+		{
+			{
+				2
+			},
+			{
+				2
+			},
+			1,
+			0,
+			-1
+		},
+		{
+			{
+				2
+			},
+			{
+				3
+			},
+			1,
+			0,
+			-1
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70312200] = {
+	autocomplete = 0,
+	effect_type = 23,
+	effective_num = 0,
+	id = 70312200,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		{
+			{
+				0
+			},
+			{
+				-4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				0
+			},
+			{
+				4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				-4
+			},
+			1,
+			1,
+			0
+		},
+		{
+			{
+				1
+			},
+			{
+				4
+			},
+			1,
+			1,
+			0
+		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70313000] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70313000,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030021
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70313001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70313001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7030021,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70313010] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70313010,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030022
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70313011] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70313011,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7030022,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70313020] = {
+	autocomplete = 0,
+	effect_type = 9,
+	effective_num = 0,
+	id = 70313020,
+	log_text = "",
+	autoactivate = 0,
+	sound_effects = "",
+	effect_paramater = {
+		7030023
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70313021] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70313021,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7030023,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320000] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320000,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032000,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320001] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320001,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		0,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320010] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320010,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032001,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320020] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320020,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032002,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320030] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320030,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032003,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320040] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320040,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032004,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320050] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320050,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032005,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320060] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320060,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032006,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320070] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320070,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032007,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320080] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320080,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032008,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320090] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320090,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032009,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320100] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320100,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032010,
+		0.5
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[70320110] = {
+	autocomplete = 0,
+	effect_type = 1002,
+	effective_num = 0,
+	id = 70320110,
+	log_text = "",
+	autoactivate = 1,
+	sound_effects = "",
+	effect_paramater = {
+		7032011,
+		0.5
 	},
 	autoflag = {}
 }
@@ -244093,6 +258887,48 @@ _G.pg.base.world_effect_data[115100020] = {
 	autoflag = {}
 }
 
+_G.pg.base.world_effect_data[115100021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115100021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9220
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115100022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115100022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115100023] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115100023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9420
+	},
+	autoflag = {}
+}
+
 _G.pg.base.world_effect_data[115100030] = {
 	autocomplete = 0,
 	effect_type = 36,
@@ -245191,6 +260027,48 @@ _G.pg.base.world_effect_data[115200020] = {
 	autoflag = {}
 }
 
+_G.pg.base.world_effect_data[115200021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115200021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9220
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115200022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115200022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115200023] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115200023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9420
+	},
+	autoflag = {}
+}
+
 _G.pg.base.world_effect_data[115200030] = {
 	autocomplete = 0,
 	effect_type = 36,
@@ -246285,6 +261163,48 @@ _G.pg.base.world_effect_data[115300020] = {
 			115300023,
 			1
 		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115300021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115300021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9220
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115300022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115300022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115300023] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115300023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9420
 	},
 	autoflag = {}
 }
@@ -247535,6 +262455,48 @@ _G.pg.base.world_effect_data[115400020] = {
 	autoflag = {}
 }
 
+_G.pg.base.world_effect_data[115400021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115400021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9220
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115400022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115400022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115400023] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115400023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9420
+	},
+	autoflag = {}
+}
+
 _G.pg.base.world_effect_data[115400030] = {
 	autocomplete = 0,
 	effect_type = 36,
@@ -248537,6 +263499,48 @@ _G.pg.base.world_effect_data[115500020] = {
 			115500023,
 			1
 		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115500021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115500021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9220
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115500022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115500022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115500023] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115500023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9420
 	},
 	autoflag = {}
 }
@@ -249639,6 +264643,48 @@ _G.pg.base.world_effect_data[115600020] = {
 	autoflag = {}
 }
 
+_G.pg.base.world_effect_data[115600021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115600021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9220
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115600022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115600022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115600023] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115600023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9420
+	},
+	autoflag = {}
+}
+
 _G.pg.base.world_effect_data[115600030] = {
 	autocomplete = 0,
 	effect_type = 36,
@@ -250733,6 +265779,48 @@ _G.pg.base.world_effect_data[115700020] = {
 			115700023,
 			1
 		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115700021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115700021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9220
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115700022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115700022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115700023] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115700023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9420
 	},
 	autoflag = {}
 }
@@ -251835,6 +266923,48 @@ _G.pg.base.world_effect_data[115800020] = {
 	autoflag = {}
 }
 
+_G.pg.base.world_effect_data[115800021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115800021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9220
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115800022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115800022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115800023] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115800023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9420
+	},
+	autoflag = {}
+}
+
 _G.pg.base.world_effect_data[115800030] = {
 	autocomplete = 0,
 	effect_type = 36,
@@ -252929,6 +268059,48 @@ _G.pg.base.world_effect_data[115900020] = {
 			115900023,
 			1
 		}
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115900021] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115900021,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9220
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115900022] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115900022,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9320
+	},
+	autoflag = {}
+}
+
+_G.pg.base.world_effect_data[115900023] = {
+	autocomplete = 0,
+	effect_type = 10,
+	effective_num = 0,
+	id = 115900023,
+	log_text = "",
+	autoactivate = 2,
+	sound_effects = "",
+	effect_paramater = {
+		9420
 	},
 	autoflag = {}
 }

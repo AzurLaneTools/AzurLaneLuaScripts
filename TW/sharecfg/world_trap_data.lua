@@ -121,6 +121,49 @@ pg.world_trap_data = {
 		desc = "區域內的海面正在燃燒，進入後艦隊會進入燃燒狀態，每次行動將會受到一定傷害。燃燒狀態將會持續若干行動輪。",
 		trap_range = {}
 	},
+	[200] = {
+		buff_id = 600,
+		name = "EMP干擾TYPEII",
+		obstacle = 2,
+		repeat_trap = 2,
+		trap_fx = "zhongcaizhe_zhonglichang_slg",
+		trap_type = 1,
+		id = 200,
+		desc = "區域中存在周期性的EMP衝擊，進入後將會使得艦隊進入移動異常狀態，每次行動移動範圍將會降低。",
+		trap_range = {
+			3,
+			3,
+			2
+		}
+	},
+	[201] = {
+		buff_id = 601,
+		name = "EMP干擾TYPEI",
+		obstacle = 2,
+		repeat_trap = 2,
+		trap_fx = "zhongcaizhe_shandianqiang",
+		trap_type = 2,
+		id = 201,
+		desc = "區域中存在周期性的EMP衝擊，進入後將會使得艦隊進入移動異常狀態，無法準確前往目標區域。",
+		trap_range = {
+			2
+		}
+	},
+	[202] = {
+		buff_id = 320,
+		name = "異常燃燒海域",
+		obstacle = 2,
+		repeat_trap = 2,
+		trap_fx = "SLG_huo02",
+		trap_type = 0,
+		id = 202,
+		desc = "區域內的海面正在燃燒，進入後艦隊會進入燃燒狀態，每次行動將會受到一定傷害。燃燒狀態將會持續若干行動輪。",
+		trap_range = {
+			1,
+			1,
+			1
+		}
+	},
 	[1001] = {
 		buff_id = 311,
 		name = "EMP干擾TYPEI",
@@ -408,6 +451,9 @@ pg.world_trap_data = {
 		102,
 		103,
 		110,
+		200,
+		201,
+		202,
 		1001,
 		1002,
 		1003,

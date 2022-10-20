@@ -20,6 +20,12 @@ function slot0.OnFirstFlush(slot0)
 			page = "activity"
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0.getBtn, function ()
+		uv0:emit(ActivityMediator.EVENT_OPERATION, {
+			cmd = 1,
+			activity_id = uv0.activity.id
+		})
+	end, SFX_PANEL)
 
 	slot0.step = slot0:findTF("AD/step")
 	slot0.progress = slot0:findTF("AD/progress")
@@ -39,16 +45,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 
 	setActive(slot0.battleBtn, isActive(slot0.battleBtn) and slot0.inTime)
-end
-
-function slot0.Switch(slot0, slot1)
 	slot0:UpdateAwardGot()
-	onButton(slot0, slot0.getBtn, function ()
-		uv0:emit(ActivityMediator.EVENT_OPERATION, {
-			cmd = 1,
-			activity_id = uv0.activity.id
-		})
-	end, SFX_PANEL)
 end
 
 function slot0.UpdateAwardGot(slot0)

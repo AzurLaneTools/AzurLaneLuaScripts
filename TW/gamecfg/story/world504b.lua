@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "警告：指挥官，前方发现未知巨型设施，推测为塞壬的某种新型要塞火炮。",
+			say = "警告：指揮官，前方發現未知巨型設施，推測為塞壬的某種新型要塞火炮。",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么夸张的东西居然是要塞炮…………？！如果被击中了就算战列舰也顶不住吧！",
+			say = "那麼誇張的東西居然是要塞炮…………？！如果被擊中了就算戰列艦也頂不住吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,22 +41,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "必须在出现实质损伤前将其解决掉，为此——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "需要点强大的集中火力对吧？哼~这点小事完全没问题！",
+			say = "必須在出現實質損傷前將其解決掉，為此——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +56,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "乔治五世，你们到位了么？",
+			say = "需要點強大的集中火力對吧？哼~這點小事完全沒問題！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "喬治五世，妳們到位了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "向您致敬女王陛下，皇家火力打击群已就位。",
+			say = "向您致敬女王陛下，皇家火力打擊群已就位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，前方的巨型要塞炮请放心交由我们进行处理。",
+			say = "指揮官，前方的巨型要塞炮請放心交由我們進行處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "不论是何种防御设施，都将在吾等的齐射之下粉碎，来一次死亡与鲜血的华丽绽放吧。",
+			say = "不論是何種防禦設施，都將在吾等的齊射之下粉碎，來一次死亡與鮮血的華麗綻放吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "目标锁定完成。让塞壬切身感受一下KGV的力量，舰队齐射准备。",
+			say = "目標鎖定完成。讓塞壬切身感受一下KGV的力量，艦隊齊射準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 205090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "炮击准备完毕，开火————————！",
+			say = "炮擊準備完畢，開火————————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {

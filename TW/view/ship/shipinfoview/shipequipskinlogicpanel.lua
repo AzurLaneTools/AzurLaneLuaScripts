@@ -16,6 +16,7 @@ function slot0.init(slot0)
 		slot0:findTF("equipment_l/equipment/equipment_l1"),
 		slot0:findTF("equipment_l/equipment/equipment_l2")
 	}
+	slot0.spweaponNormalTF = slot0:findTF("equipment_b/equipment")
 	slot0.equipmentR = slot0:findTF("equipment_r/equipment")
 	slot0.equipmentL = slot0:findTF("equipment_l/equipment")
 	slot0.skinR = slot0:findTF("equipment_r/skin")
@@ -46,6 +47,8 @@ function slot0.init(slot0)
 	for slot4 = 1, #slot0.equipmentNormalTFs do
 		setText(findTF(slot0.equipmentNormalTFs[slot4], "empty/tip"), i18n("equip_add"))
 	end
+
+	setText(findTF(slot0.spweaponNormalTF, "empty/tip"), i18n("equip_add"))
 end
 
 function slot0.setLabelResource(slot0, slot1)

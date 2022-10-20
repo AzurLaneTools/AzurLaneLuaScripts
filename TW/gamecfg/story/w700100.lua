@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "指令接收中：指挥官，现在开始进行迎击仲裁者·天帕岚斯·XIV的特殊准备模拟战。",
+			say = "指令接收中：指揮官，現在開始進行迎擊仲裁者·天帕嵐斯·XIV的特殊準備模擬戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "请带领舰队击败设定于模拟战海域中的代行者XIV「Equilibrium」吧。",
+			say = "請帶領艦隊擊敗設定於模擬戰海域中的代行者XIV「Equilibrium」吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -117,12 +117,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "蒼龍·META",
 		painting = "canglong",
 		boss_level_id = 46,
 		id = 4,
 		meta_id = 970703,
+		item_id = 100000,
 		description = {
 			{
 				"焰舞花札",
@@ -133,32 +134,6 @@ pg.world_joint_boss_template = {
 				"燃燼之海",
 				2,
 				"將整片海域圍困在熊熊烈火之中，敵人觸碰火焰後會受到點燃效果。"
-			}
-		},
-		state = {
-			{
-				{
-					2022,
-					7,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -174,10 +149,65 @@ pg.world_joint_boss_template = {
 			1.7
 		}
 	},
+	{
+		item_id = 100000,
+		name = "格奈森瑙·META",
+		painting = "genaisennao",
+		boss_level_id = 61,
+		id = 5,
+		meta_id = 970401,
+		description = {
+			{
+				"焰光之鍊",
+				2,
+				"戰鬥中使用特殊的火焰鎖鏈攻擊敵人，敵方單位觸碰鎖鏈會持續受到減速效果。"
+			},
+			{
+				"潛航魚雷",
+				1,
+				"戰鬥中會不斷釋放出在水下航行的大型魚雷，在觸碰敵方主力時會造成大量傷害。"
+			}
+		},
+		state = {
+			{
+				{
+					2022,
+					10,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-58.2,
+			634.2
+		},
+		p_offset_other = {
+			480,
+			635
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		5
 	}
 }

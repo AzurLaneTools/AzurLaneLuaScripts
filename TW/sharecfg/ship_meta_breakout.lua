@@ -253,7 +253,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704011] = {
-		breakout_view = "习得技能【逐光之焰·格奈森瑙】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "習得技能【逐光之焰·格奈森瑙】/主炮底座+1/主炮效率提高5%",
 		gold = 1000,
 		breakout_id = 9704012,
 		repair = 0,
@@ -270,7 +270,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704012] = {
-		breakout_view = "装备特殊副炮/主炮效率提高10%",
+		breakout_view = "裝備特殊副炮/主炮效率提高10%",
 		gold = 3000,
 		breakout_id = 9704013,
 		repair = 0,
@@ -286,7 +286,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704013] = {
-		breakout_view = "【逐光之焰·格奈森瑙】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【逐光之焰·格奈森瑙】升級/主炮底座+1/主炮效率提高15%",
 		gold = 10000,
 		breakout_id = 9704014,
 		repair = 0,
@@ -304,7 +304,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704014] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,

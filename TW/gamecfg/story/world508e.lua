@@ -11,7 +11,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬的火力还……真是夸张…………我们全员加起来的航空火力都无法跟余烬的{namecode:94}相提并论……",
+			say = "餘燼的火力還……真是誇張…………我們全員加起來的航空火力都無法跟餘燼的飛龍相提並論……",
 			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "不过我们和余烬方舟的火力差不多哦！",
+			say = "不過我們和餘燼方舟的火力差不多哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来余烬舰队成员彼此之间的战斗力也存在较大差别，并不是都是那样战斗力强到反常。",
+			say = "看來餘燼艦隊成員彼此之間的戰鬥力也存在較大差別，並不是都是那樣戰鬥力強到反常。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "嘿嘿，作战收获情报加一条~",
+			say = "嘿嘿，作戰收穫情報加一條~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "就是这条情报在这种场合下真不知道应该算好消息还是坏消息……",
+			say = "就是這條情報在這種場合下真不知道應該算好消息還是壞消息……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仲裁机关深不可测的实力真令人发毛……难怪强如余烬也会对它们如此忌惮。",
+			say = "仲裁機關深不可測的實力真令人發毛……難怪強如餘燼也會對它們如此忌憚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "此处实验舰队呈现出高于预测值的战斗力，十分有趣的现象。",
+			say = "此處實驗艦隊呈現出高於預測值的戰鬥力，十分有趣的現象。",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "经过之前的战斗，参数不是已经修正过了么？",
+			say = "經過之前的戰鬥，參數不是已經修正過了麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "修正过了，然后依然产生了偏差——很有趣吧？",
+			say = "修正過了，然後依然產生了偏差——很有趣吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "司特莲库斯，改变重力场环境。",
+			say = "司特蓮庫斯，改變重力場環境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "机关系统IX=VIII连协干扰机制，启动。",
+			say = "機關系統IX=VIII連協干擾機制，啟動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

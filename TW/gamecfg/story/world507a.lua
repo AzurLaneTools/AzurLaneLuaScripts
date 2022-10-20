@@ -9,11 +9,11 @@ return {
 			actor = 900227,
 			stopbgm = true,
 			bgName = "bg_burningsea_1",
-			actorName = "企业·META",
+			actorName = "企業·META",
 			dir = 1,
 			side = 2,
 			nameColor = "#ffa500",
-			say = "感觉怎么样？",
+			say = "感覺怎麼樣？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			actor = 9707020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "有种熟悉又讨厌的感觉……",
+			say = "有種熟悉又討厭的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哦对，来到这个阶段的实验场你还是第一次。",
+			say = "哦對，來到這個階段的實驗場妳還是第一次。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 9707020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你们已经经历了很多次了么……？",
+			say = "妳們已經經歷了很多次了嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "差不多算是吧~别忘了我们之间彼此不谈论过去的约定哦。",
+			say = "差不多算是吧~別忘了我們之間彼此不談論過去的約定哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,8 +123,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "闲聊到此为止，敌人开始行动了。",
+			actorName = "企業·META",
+			say = "閒聊到此為止，敵人開始行動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这么做果然还是太招摇了，这样下去仲裁机关到达也只是时间问题了哦。",
+			say = "這麼做果然還是太招搖啦，這麼下去仲裁機關到達也只是時間問題了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,8 +157,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "既然决定留在这里，不管在哪里开都一样。",
+			actorName = "企業·META",
+			say = "既然決定留在這裡，不管在哪裡開都一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,8 +174,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "直到奇异点稳定之前，用任何方式拖下去……就是你们接下来的任务。",
+			actorName = "企業·META",
+			say = "直到奇異點穩定之前，用任何方式拖下去……就是妳們接下來的任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 202120,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "指挥官大人，感觉好些了么？",
+			say = "指揮官大人，感覺好些了嗎？",
 			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
 			flashout = {
@@ -221,7 +221,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "感觉好多了——",
+			say = "感覺好多了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,11 +232,11 @@ return {
 			},
 			options = {
 				{
-					content = "多亏贝法的照顾。",
+					content = "多虧貝法的照顧。",
 					flag = 1
 				},
 				{
-					content = "多亏女灶神的治疗。",
+					content = "多虧女灶神的治療。",
 					flag = 2
 				}
 			}
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "这是贝法作为女仆分内的工作，指挥官大人请不用客气。",
+			say = "這是貝法作為女僕分內的工作，指揮官大人請不用客氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "呵呵，能在这种状况下遭遇到女灶神小姐的后勤舰队，我们的运气还真是出奇的好呢~",
+			say = "呵呵，能在這種狀況下遭遇到女灶神小姐的後勤艦隊，我們的運氣還真是出奇的好呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂……那边的庶民！梦也做的也差不多了吧？",
+			say = "喂……那邊的庶民！夢也做的也差不多了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "外面出现了十分不得了的情况，我觉得你还是出来看看比较好！",
+			say = "外面出現了十分不得了的情況，我覺得你還是出來看看比較好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "来到船舱外，映入眼帘的是一幅令人震惊的景象。",
+			say = "來到船艙外，映入眼簾的是一幅令人震驚的景象。",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -346,7 +346,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "以咫尺的眼前为起点，以虚幻的地平线为终点。放眼望去，映入眼帘之物皆是漂浮的残骸。",
+			say = "以咫尺的眼前為起點，以虛幻的地平線為終點。放眼望去，映入眼簾之物皆是漂浮的殘骸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "密度之大，需要舰队维持单纵阵，依靠量产型战列舰开路才能勉强继续前行。",
+			say = "密度之大，需要艦隊維持單縱陣，依靠量產型戰列艦開路才能勉強繼續前行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这种情况是半小时前开始出现的。",
+			say = "指揮官，這種情況是半小時前開始出現的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "原本舰队一边戒备着敌人一边前进，可是预想中的伏击没有到来，取而代之的就是这些……残骸。",
+			say = "原本艦隊一邊戒備著敵人一邊前進，可是預想中的伏擊沒有到來，取而代之的就是這些……殘骸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最开始只是随着海水飘来的一片、两片……然后是一团、两团……",
+			say = "最開始只是隨著海水飄來的一片、兩片……然後是一團、兩團……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "仅仅在半个小时内，舰队就被残骸彻底包围了。",
+			say = "僅僅在半個小時內，艦隊就被殘骸徹底包圍了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如此惨烈的景象我也是第一次见。从这些残骸的量级上来看……与其说是战场，不如说更像是……",
+			say = "如此慘烈的景象我也是第一次見。從這些殘骸的量級上來看……與其說是戰場，不如說更像是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "坟场……",
+			say = "墳場……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "视野之中不存在任何敌人，存在的只是一望无际的残骸。",
+			say = "視野之中不存在任何敵人，存在的只是一望無際的殘骸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "残骸相互堆叠着，静静漂浮在诡异的海面上。",
+			say = "殘骸相互堆疊著，靜靜漂浮在詭異的海面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "虽然不时有碎片被舰队推开，相互刮擦发出朽钝的撞击声，但也很快继续归于宁静。",
+			say = "雖然不時有碎片被艦隊推開，相互刮擦發出朽鈍的撞擊聲，但也很快繼續歸於寧靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "以眼前的氛围来说，称这里为坟场或许最为恰当。",
+			say = "以眼前的氛圍來說，稱這裡為墳場或許最為恰當。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰队保持阵型规避残骸前进。派出全部侦察机，尽快搞清海域状况。",
+			say = "艦隊保持陣型規避殘骸前進。派出全部偵察機，盡快搞清海域狀況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

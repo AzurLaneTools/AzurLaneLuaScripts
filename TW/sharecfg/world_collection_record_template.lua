@@ -670,6 +670,226 @@ pg.world_collection_record_template = {
 		condition = "前往第一章-第六節第二個探索點",
 		story = "WORLD9901A"
 	},
+	[100076] = {
+		type = 1,
+		name = "泥沼",
+		id = 100076,
+		mask = "bg/bg_memory",
+		group_ID = 1,
+		icon = "memory_dashijie",
+		condition = "進入第五章-第一節內的前哨站",
+		story = "WORLD500A"
+	},
+	[100077] = {
+		type = 1,
+		name = "分歧",
+		id = 100077,
+		mask = "bg/bg_memory",
+		group_ID = 2,
+		icon = "memory_dashijie",
+		condition = "前往第一個探索點",
+		story = "WORLD500B"
+	},
+	[100078] = {
+		type = 1,
+		name = "雷霆",
+		id = 100078,
+		mask = "bg/bg_memory",
+		group_ID = 3,
+		icon = "memory_dashijie",
+		condition = "再次進入第五章-第一節內的前哨站",
+		story = "WORLD500C"
+	},
+	[100079] = {
+		type = 1,
+		name = "英雄",
+		id = 100079,
+		mask = "bg/bg_memory",
+		group_ID = 4,
+		icon = "memory_dashijie",
+		condition = "開始第五章-第二節",
+		story = "WORLD501A"
+	},
+	[100080] = {
+		type = 1,
+		name = "信標",
+		id = 100080,
+		mask = "bg/bg_memory",
+		group_ID = 5,
+		icon = "memory_dashijie",
+		condition = "前往第一個探索點",
+		story = "WORLD501B"
+	},
+	[100081] = {
+		type = 1,
+		name = "熟悉感",
+		id = 100081,
+		mask = "bg/bg_memory",
+		group_ID = 6,
+		icon = "memory_dashijie",
+		condition = "遭遇飛龍·META",
+		story = "WORLD501C"
+	},
+	[100082] = {
+		type = 1,
+		name = "幻影",
+		id = 100082,
+		mask = "bg/bg_memory",
+		group_ID = 7,
+		icon = "memory_dashijie",
+		condition = "開始第五章-第三節",
+		story = "WORLD502A"
+	},
+	[100083] = {
+		type = 1,
+		name = "下定決心",
+		id = 100083,
+		mask = "bg/bg_memory",
+		group_ID = 8,
+		icon = "memory_dashijie",
+		condition = "前往第五章-第四節第一個探索點",
+		story = "WORLD503A"
+	},
+	[100084] = {
+		type = 1,
+		name = "茶會",
+		id = 100084,
+		mask = "bg/bg_memory",
+		group_ID = 9,
+		icon = "memory_dashijie",
+		condition = "進入第五章-第四節內的前哨站",
+		story = "WORLD503B"
+	},
+	[100085] = {
+		type = 1,
+		name = "總攻開始",
+		id = 100085,
+		mask = "bg/bg_memory",
+		group_ID = 10,
+		icon = "memory_dashijie",
+		condition = "開始第五章-第五節",
+		story = "WORLD504A"
+	},
+	[100086] = {
+		type = 1,
+		name = "炮擊支援群",
+		id = 100086,
+		mask = "bg/bg_memory",
+		group_ID = 11,
+		icon = "memory_dashijie",
+		condition = "前往第一個探索點",
+		story = "WORLD504B"
+	},
+	[100087] = {
+		type = 1,
+		name = "游擊支援群",
+		id = 100087,
+		mask = "bg/bg_memory",
+		group_ID = 12,
+		icon = "memory_dashijie",
+		condition = "前往第二個探索點",
+		story = "WORLD504C"
+	},
+	[100088] = {
+		type = 1,
+		name = "航空支援群",
+		id = 100088,
+		mask = "bg/bg_memory",
+		group_ID = 13,
+		icon = "memory_dashijie",
+		condition = "前往第三個探索點",
+		story = "WORLD504D"
+	},
+	[100089] = {
+		type = 1,
+		name = "測試者量產機",
+		id = 100089,
+		mask = "bg/bg_memory",
+		group_ID = 14,
+		icon = "memory_dashijie",
+		condition = "前往第四個探索點",
+		story = "WORLD504E"
+	},
+	[100090] = {
+		type = 1,
+		name = "圓環",
+		id = 100090,
+		mask = "bg/bg_memory",
+		group_ID = 15,
+		icon = "memory_dashijie",
+		condition = "開始第五章-第六節",
+		story = "WORLD505A"
+	},
+	[100091] = {
+		type = 1,
+		name = "另一個奇異點",
+		id = 100091,
+		mask = "bg/bg_memory",
+		group_ID = 16,
+		icon = "memory_dashijie",
+		condition = "前往第一個探索點",
+		story = "WORLD505B"
+	},
+	[100092] = {
+		type = 1,
+		name = "邀約",
+		id = 100092,
+		mask = "bg/bg_memory",
+		group_ID = 17,
+		icon = "memory_dashijie",
+		condition = "開始第五章-第七節",
+		story = "WORLD506A"
+	},
+	[100093] = {
+		type = 1,
+		name = "戰場維修艦",
+		id = 100093,
+		mask = "bg/bg_memory",
+		group_ID = 18,
+		icon = "memory_dashijie",
+		condition = "前往第一個探索點",
+		story = "WORLD506B"
+	},
+	[100094] = {
+		type = 1,
+		name = "排異",
+		id = 100094,
+		mask = "bg/bg_memory",
+		group_ID = 19,
+		icon = "memory_dashijie",
+		condition = "開始第五章-第八節",
+		story = "WORLD507A"
+	},
+	[100095] = {
+		type = 1,
+		name = "交匯之地",
+		id = 100095,
+		mask = "bg/bg_memory",
+		group_ID = 20,
+		icon = "memory_dashijie",
+		condition = "前往第一個探索點",
+		story = "WORLD507E"
+	},
+	[100096] = {
+		type = 2,
+		name = "BAD-恍然",
+		id = 100096,
+		mask = "bg/bg_memory",
+		group_ID = 21,
+		icon = "memory_dashijie",
+		condition = "前往第二個探索點",
+		story = "312671"
+	},
+	[100097] = {
+		type = 2,
+		name = "TRUE-新的開端",
+		id = 100097,
+		mask = "bg/bg_memory",
+		group_ID = 22,
+		icon = "memory_dashijie",
+		condition = "前往第二個探索點",
+		story = "312672"
+	},
 	all = {
 		100001,
 		100002,
@@ -737,6 +957,28 @@ pg.world_collection_record_template = {
 		100064,
 		100065,
 		100066,
-		100071
+		100071,
+		100076,
+		100077,
+		100078,
+		100079,
+		100080,
+		100081,
+		100082,
+		100083,
+		100084,
+		100085,
+		100086,
+		100087,
+		100088,
+		100089,
+		100090,
+		100091,
+		100092,
+		100093,
+		100094,
+		100095,
+		100096,
+		100097
 	}
 }

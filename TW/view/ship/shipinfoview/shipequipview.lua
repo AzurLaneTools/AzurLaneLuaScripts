@@ -168,7 +168,7 @@ function slot0.UpdateEquipments(slot0, slot1)
 		end
 	end
 
-	setActive(slot0.equipmentB, slot1:IsSpweaponUnlock() and PLATFORM_CODE ~= PLATFORM_CHT and not LOCK_SP_WEAPON)
+	setActive(slot0.equipmentB, slot1:IsSpweaponUnlock() and not LOCK_SP_WEAPON)
 	slot0:UpdateSpWeaponPanel(slot1:GetSpWeapon())
 end
 

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-4",
 			dir = 1,
-			say = "唔……指挥官，你看到这些浮岛要塞有没有联想到什么？",
+			say = "唔……指揮官，你看到這些浮島要塞有沒有聯想到什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "突然出现的铁血浮岛要塞群——",
+			say = "突然出現的鐵血浮島要塞群——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，本王早就知道她们在研究类似的技术，没想到已经取得如此不容小觑的地步了！",
+			say = "哼，本王早就知道她們在研究類似的技術，沒想到已經取得如此不容小覷的地步了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "塞壬之所以能牢牢地掌控着海洋，很大原因就是依托各种早已设置在海中的防御体系。",
+			say = "塞壬之所以能牢牢地掌控著海洋，很大原因就是依托各種早已設置在海中的防禦體系。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果铁血想效仿的话……",
+			say = "如果鐵血想效仿的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那可大事不好！要是铁血效仿塞壬使用浮岛要塞对关键航线进行封锁，我们可就真吃不消了……",
+			say = "那可大事不好！要是鐵血效仿塞壬使用浮島要塞對關鍵航線進行封鎖，我們可就真吃不消了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！虽然现在它们只对塞壬发动了袭击，但谁知道今后会发生什么事呢！！",
+			say = "沒錯！雖然現在它們只對塞壬發動了襲擊，但誰知道今後會發生什麼事呢！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "一个必须引起重视问题……",
+			say = "一個必須引起重視的問題……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：前方发现多个强烈信号反应，推测为复数塞壬测试者。",
+			say = "警告：前方發現多個強烈訊號反應，推測為複數塞壬測試者。",
 			voice = "event:/tb/16/tb-16",
 			flashout = {
 				black = true,
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？终于连我们也遇到了么？！",
+			say = "咦？終於連我們也遇到了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……在一次战斗中出现复数测试者的情况十分罕见。",
+			say = "唔……在一次戰鬥中出現複數測試者的情況十分罕見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "根据此前舰队汇报的情况，所有测试者的战斗力和防护能力都很强，但似乎指挥系统有些问题。",
+			say = "根據此前艦隊匯報的情況，所有測試者的戰鬥力和防護能力都很強，但似乎指揮系統有些問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉并不像是塞壬人型指挥单位应该有的样子，倒更像是……量产机体一类的存在。",
+			say = "感覺並不像是塞壬人型指揮單位應該有的樣子，倒更像是……量產機體一類的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "听起来很像是塞壬会做出来的事情……",
+			say = "聽起來很像是塞壬會做出來的事情……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然这些东西出来了，也就意味着我们已经遇到这条防线上最顽固的敌人了吧？",
+			say = "既然這些東西出來了，也就意味著我們已經遇到這條防線上最頑固的敵人了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "嘿嘿~感觉一路上都没怎么动手，就拿这些量产型测试者试一试手感好了！",
+			say = "嘿嘿~感覺一路上都沒怎麼動手，就拿這些量產型測試者試一試手感好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

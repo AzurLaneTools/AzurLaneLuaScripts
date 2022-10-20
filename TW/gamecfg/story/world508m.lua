@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "SailAwayJustice-inst",
 			dir = 1,
-			say = "切…………还保留着这种程度的战斗力么。",
+			say = "切…………還保留著這種程度的戰鬥力嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "该战斗状态是一种类似超载的极限压榨行为，无法长期维持。",
+			say = "該戰鬥狀態是一種類似超載的極限壓榨行為，無法長期維持。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "VIII，你退到后方回复，这里交给我。她们是没有胜利的可能的。",
+			say = "VIII，妳退到後方回復，這裡交給我。她們是沒有勝利的可能的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "等等，目标的能量反应还在增加，这是要做什么………………？",
+			say = "等等，目標的能量反應還在增加，這是要做什麼………………？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "她想引发爆炸……一场能够把我们和周围所有实验素材都炸上天的大爆炸。",
+			say = "她想引發爆炸……一場能夠把我們和周圍所有實驗素材都炸上天的大爆炸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "重新计算开始——嗯，没关系。",
+			say = "重新計算開始——嗯，沒關係。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "在奇异点内承受这种规模的爆炸，就算是我们也要受到一些损伤。不过相应的，引发爆炸的人更加无法幸免，至少余烬的{namecode:94}就在此结束了。",
+			say = "在奇異點內承受這種規模的爆炸，就算是我們也要受到一些損傷。不過相應的，引發爆炸的人更加無法倖免，至少餘燼的飛龍就在此結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "在爆炸结束后，我们依然有能力收拾残局。",
+			say = "在爆炸結束後，我們依然有能力收拾殘局。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "可是，那边的实验素材可经受不住这样冲击。",
+			say = "可是，那邊的實驗素材可經受不住這樣衝擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "没错，大概会在千分之一到千分之三秒内被蒸发干净。",
+			say = "沒錯，大概會在千分之一到千分之三秒內被蒸發乾淨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你们觉得零为什么对这里那么在意，以至于特意要我们避免过度干涉实验场中的其他存在？",
+			say = "妳們覺得零為什麼對這裡那麼在意，以至於特意要我們避免過度干涉實驗場中的其他存在？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不清楚，也没兴趣。",
+			say = "不清楚，也沒興趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呵……不论原因如何，{namecode:94}引发的爆炸一定会对这里造成无法逆转的毁灭性伤害，我们的胜利也没有意义了。",
+			say = "呵……不論原因如何，飛龍引發的爆炸一定會對這裡造成無法逆轉的毀滅性傷害，我們的勝利也沒有意義了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "之前她在旋涡外乱转的时候我都看着呢……原来是算准了这一点才把那些实验素材拖进来的么。",
+			say = "之前她在旋渦外亂轉的時候我都看著呢……原來是算準了這一點才把那些實驗素材拖進來的嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "彼此厮杀了这么久，如果不是因为零这次的特别命令，她们什么时候见吾等留情过？",
+			say = "彼此廝殺了這麼久，如果不是因為零這次的特別命令，她們什麼時候見吾等留情過？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "就当是她们蒙到的好了。没想到能成功威胁到我们的行动……",
+			say = "就當是她們蒙到的好了。沒想到能成功威脅到我們的行動……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这次就先这样，撤退了。XIV，进行掩护。",
+			say = "這次就先這樣，撤退了。XIV，進行掩護。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啧……是，命令执行。",
+			say = "嘖……是，命令執行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

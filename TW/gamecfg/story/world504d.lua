@@ -11,7 +11,7 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，陛下，周边区域中的塞壬舰队与设施已经被我们清理干净了。",
+			say = "指揮官，陛下，周邊區域中的塞壬艦隊與設施已經被我們清理乾淨了。",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "塞壬机群姑且还是抵抗了一下，不过在我等航空力量的打击下，也没有比舰队坚持更长时间。",
+			say = "塞壬機群姑且還是抵抗了一下，不過在我等航空力量的打擊下，也沒有比艦隊堅持更長時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "毕竟平台起飞的弱点就在于——只要消灭了平台，也就无法起飞了嘛~",
+			say = "畢竟平台起飛的弱點就在於——只要消滅了平台，也就無法起飛了嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "我们会继续向下一处区域移动，祝各位作战顺利。",
+			say = "我們會繼續向下一處區域移動，祝各位作戰順利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这种时候才切身感觉到这次总攻舰队的夸张规模呀……",
+			say = "在這種時候才切身感覺到這次總攻艦隊的誇張規模呀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊……我们都还没怎么出手周边敌人已经被清理得差不多了。",
+			say = "是啊……我們都還沒怎麼出手周邊敵人已經被清理得差不多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是有种气势如虹的感觉呢！",
+			say = "真是有種氣勢如虹的感覺呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "刚刚的是鹰和英仙座……？皇家把极地航线的舰队也调过来了么？",
+			say = "剛剛的是鷹和英仙座……？皇家把極地航線的艦隊也掉過來了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "眼神和反应值得夸奖！没错~是本王把她们调过来的！",
+			say = "眼神和反應值得誇獎！沒錯~是本王把她們調過來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "北方联合会在大型作战期间采取稳健的防守策略，在NA海域中也与赤色中轴顺利实现了停火。",
+			say = "北方聯合會在大型作戰期間採取穩健的防守策略，在NA海域中也與赤色中軸順利實現了停火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "短时间内抽调极地航线上的舰队并不会对于极地战况产生影响——陛下是这么判断的。",
+			say = "短時間內抽調極地航線上的艦隊並不會對於極地戰況產生影響——陛下是這麼判斷的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在正是作战的关键时刻，皇家会集结所有力量，一举荡平NA海域的塞壬威胁！",
+			say = "現在正是作戰的關鍵時刻，皇家會集結所有力量，一舉蕩平NA海域的塞壬威脅！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

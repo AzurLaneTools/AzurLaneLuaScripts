@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "今天的前哨站内也是一片平静，犹如一潭死水。",
+			say = "今天的前哨站內也是一片平靜，猶如一潭死水。",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "时间已经过去了十日，总攻依然没有开始。",
+			say = "時間已經過去了十日，總攻依然沒有開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "翻看明日日程，从上到下依然写满了会议两个字。",
+			say = "翻看明日日程，從上到下依然寫滿了會議兩個字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "舰队集结多时，总攻方针却怎么也定不下来……箭已在弦却迟而不发可不是好现象。",
+			say = "艦隊集結多時，總攻方針卻怎麼也定不下來……箭已在弦卻遲而不發可不是好現象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "不过，也不能完全怪指挥部过于官僚么……",
+			say = "不過，也不能完全怪指揮部過於官僚嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "白鹰前哨站 十日前",
+			say = "白鷹前哨站 十日前",
 			dir = 1,
 			bgm = "xinnong-3",
 			flashout = {
@@ -127,11 +127,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警报音————",
+			say = "警報音————",
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "刚刚的是，警报音……？",
+			say = "剛剛的是，警報音……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，深夜打扰了。指挥官还没休息么？",
+			say = "抱歉，深夜打擾了。指揮官還沒休息嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "稍微完善一下进攻的细节再睡……总攻方案一直定不下来可不行。出什么事了么？",
+			say = "稍微完善一下進攻的細節再睡……總攻方案一直定不下來可不行。出什麼事了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这样，海域中心的旋涡内部突然出现了异常现象。",
+			say = "是這樣，海域中心的旋渦內部突然出現了異常現象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是刚从前线发来的侦察情报，请过目。",
+			say = "這是剛從前線發來的偵察情報，請過目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……巨大的要塞群出现在了风暴边缘。原本以为只是异常气象的中心区域现在变为了风暴与要塞的混合体……？",
+			say = "……巨大的要塞群出現在了風暴邊緣。原本以為只是異常氣象的中心區域現在變為了風暴與要塞的混合體……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在确认了这一情况后我们本想继续深入调查，结果侦察机被密不透风的要塞火力瞬间摧毁了。",
+			say = "在確認了這一情況後我們本想繼續深入調查，結果偵察機被密不透風的要塞火力瞬間摧毀了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "塞壬除了一直在避战的主力舰队之外，居然还修建有这种规模的防御设施，这还是……",
+			say = "塞壬除了一直在避戰的主力艦隊之外，居然還修建有這種規模的防禦設施，這還是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，这个新情况超出了我们所有人的心里预估。",
+			say = "嗯，這個新情況超出了我們所有人的心裡預估。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "有进攻的迹象么？",
+			say = "有進攻的跡象嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还没有。但是以防万一，我已经提高了基地的警戒等级，现在舰队正在紧急集结中。",
+			say = "還沒有。但是以防萬一，我已經提高了基地的警戒等級，現在艦隊正在緊急集結中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "很好，我们也去指挥室吧。中心海域要塞的出现不可能毫无意义，我们必须得尽快做好准备才行。",
+			say = "很好，我們也去指揮室吧。中心海域要塞的出現不可能毫無意義，我們必須得盡快做好準備才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……指挥官，指挥部发来了预计在半小时后召开紧急会议的联络，您也需要参加。",
+			say = "唔……指揮官，指揮部發來了預計在半小時後召開緊急會議的聯絡，您也需要參加。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实我原本是来通知这件事的……",
+			say = "其實我原本是來通知這件事的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "啊……说的也是。发生了这种突发事件，指挥部肯定要协调所有系统进行应对……",
+			say = "啊……說的也是。發生了這種突發事件，指揮部肯定要協調所有系統進行應對……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "那在会议期间基地的防御和情报收集就拜托你们了。",
+			say = "那在會議期間基地的防禦和情報收集就拜託你們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，我立刻出海指挥，指挥官也尽快前往会议室吧。",
+			say = "沒問題，我立刻出海指揮，指揮官也盡快前往會議室吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "唉……看来之前做好的作战计划怕是要全部作废了……",
+			say = "唉……看來之前做好的作戰計劃怕是要全部作廢了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "虽然预想到会出现一定程度的争执，但如此复杂与漫长的会议还是太过夸张了……",
+			say = "雖然預想到會出現一定程度的爭執，但如此復雜與漫長的會議還是太過誇張了……",
 			dir = 1,
 			bgm = "blueocean-image",
 			flashout = {
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "在中心要塞的气势压迫下，想要一鼓作气冲破防线的激进派与围困塞壬逐步推进的稳健派争论不休。",
+			say = "在中心要塞的氣勢壓迫下，想要一鼓作氣沖破防線的激進派與圍困塞壬逐步推進的穩健派爭論不休。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "甚至还出现了希望抽调主力舰队进行科研任务，对塞壬展开深入研究的革新派……",
+			say = "甚至還出現了希望抽調主力艦隊進行科研任務，對塞壬展開深入研究的革新派……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
 			blackBg = true,
-			say = "感觉在漫长的讨论中会议已经逐渐偏离了最初的主题，如果明天能得出一个切实有效的结论就好了……",
+			say = "感覺在漫長的討論中會議已經逐漸偏離了最初的主題，如果明天能得出一個切實有效的結論就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

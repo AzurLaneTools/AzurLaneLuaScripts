@@ -16234,6 +16234,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[490] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 6,
+		handbook_type = 0,
+		index_id = 439,
+		code = 490,
+		group_type = 60103,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：神聖的悲喜劇",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[541] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -16368,6 +16399,37 @@ pg.ship_data_group = {
 		index_id = 446,
 		code = 413,
 		group_type = 60302,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：神聖的悲喜劇",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[489] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 6,
+		handbook_type = 0,
+		index_id = 447,
+		code = 489,
+		group_type = 60303,
 		trans_type = 0,
 		property_hexagon = {
 			"B",
@@ -19414,6 +19476,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30007] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30007,
+		code = 30007,
+		group_type = 970401,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9704011
+					}
+				},
+				0
+			}
+		}
+	},
 	[30008] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -19915,11 +20011,13 @@ pg.ship_data_group = {
 		506,
 		504,
 		505,
+		490,
 		541,
 		501,
 		414,
 		542,
 		413,
+		489,
 		500,
 		410,
 		411,
@@ -20013,6 +20111,7 @@ pg.ship_data_group = {
 		30004,
 		30005,
 		30006,
+		30007,
 		30008,
 		30010,
 		30011

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "main-arbitrationsystem-theme",
 			dir = 1,
-			say = "奇怪……这些残骸不但新旧不一，还有大量根本无法判断来源……",
+			say = "奇怪……這些殘骸不但新舊不一，還有大量根本無法判斷來源……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "NA海域中的风暴才出现了数月时间，怎么会积累这么庞大的残骸？",
+			say = "NA海域中的風暴才出現了數月時間，怎麼會積累這麼龐大的殘骸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们说……NA海域中塞壬主力的最终归宿不会就在这里吧……",
+			say = "你們說……NA海域中塞壬主力的最終歸宿不會就在這裡吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是认为塞壬的主力舰队其实早就已经在奇异点中损失殆尽了么？",
+			say = "妳是認為塞壬的主力艦隊其實早就已經在奇異點中損失殆盡了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "没错，企业前辈。",
+			say = "沒錯，企業前輩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以此为基础进行反推，不论是开战之前的兵力收缩，战争中的薄弱抵抗，还是外强中干的最后防线。",
+			say = "以此為基礎進行反推，不論是開戰之前的兵力收縮，戰爭中的薄弱抵抗，還是外強中乾的最後防線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "塞壬进行这一切怪异部署的原因只有一个————NA海域中的塞壬被余烬从中心开花了。",
+			say = "塞壬進行這一切怪異部署的原因只有一個————NA海域中的塞壬被餘燼從中心開花了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇异点内随处飘荡的残骸就是塞壬在全力抵抗的证明。",
+			say = "奇異點內隨處飄蕩的殘骸就是塞壬在全力抵抗的證明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "说起来……决定发起作战的契机就是NA海域中出现的风暴和塞壬异常的兵力收缩。",
+			say = "說起來……決定發起作戰的契機就是NA海域中出現的風暴和塞壬異常的兵力收縮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是歪打正着选了个好时机啊……",
+			say = "真是歪打正著選了個好時機啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "不过……就算所有新残骸都是余烬的手笔，那些旧残骸依然解释不了。",
+			say = "不過……就算所有新殘骸都是餘燼的手筆，那些舊殘骸依然解釋不了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有些残骸明显是我们的风格。虽然发现的数量不算多，但等比例换算到整个区域中依然是庞大的数量。",
+			say = "有些殘骸明顯是我們的風格。雖然發現的數量不算多，但等比例換算到整個區域中依然是龐大的數量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "我们可没有过这么大规模损失的报告哦。",
+			say = "我們可沒有過這麼大規模損失的報告哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "也许是把海底的残骸一起卷进来了……？",
+			say = "也許是把海底的殘骸一起捲進來了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算把塞壬出现之后的所有损失加在一起恐怕也不够。",
+			say = "就算把塞壬出現之後的所有損失加在一起恐怕也不夠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "这片残骸仿佛是无穷无尽的，不论侦察机怎么飞，总有更多的残骸出现在前方。",
+			say = "這片殘骸彷彿是無窮無盡的，不論偵察機怎麼飛，總有更多的殘骸出現在前方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "甚至连来的方向也已经没有干净的海域了，我们就像突然掉进一片无边无际的残骸海中央一样。",
+			say = "甚至連其他方向也已經沒有乾淨的海域了，我們就像突然掉進一片無邊無際的殘骸海中央一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~这个问题我也许可以回答~！",
+			say = "哼哼~這個問題我也許可以回答~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……萨拉托加？",
+			say = "……薩拉托加？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "奇异点的内部空间与外界空间不同——我最近看到了一个这样的理论哦！",
+			say = "奇異點的內部空間與外界空間不同——我最近看到了一個這樣的理論哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么不同……？",
+			say = "有什麼不同……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇异点并不是一个拥有固定体积的三维空间，而是某种更为复杂的体现。",
+			say = "奇異點並不是一個擁有固定體積的三維空間，而是某種更為複雜的體現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "作为其性质的体现，奇异点内的空间可能存在有严重的观察者效应————",
+			say = "作為其性質的體現，奇異點內的空間可能存在有嚴重的觀察者效應————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！本王也想起来了，确实有一个这样的理论！",
+			say = "啊！本王也想起來了，確實有一個這樣的理論！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "等等！这可是萨拉妹妹先想起来的，你可不许抢答！",
+			say = "等等！這可是薩拉妹妹先想起來的，妳可不許搶答！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "提出这个理论的可是皇家科学家！",
+			say = "提出這個理論的可是皇家科學家！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "……这种事怎么都好吧！而且你真的有好好看过论文里的内容么……",
+			say = "……這種事怎麼都好吧！而且妳真的有好好看過論文裡的內容嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法肯定好好看过了！",
+			say = "貝法肯定好好看過了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好吧……你继续你继续。",
+			say = "好、好吧……妳繼續妳繼續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "哼~根据论文中的观点，奇异点的内部空间会随着我们的观测进行延伸与扩张。",
+			say = "哼~根據論文中的觀點，奇異點的內部空間會隨著我們的觀測進行延伸與擴張。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们看到的空间巨大，可能只是我们看的太远了。继续侦察下去的话，也许真的会陷入无尽残骸之中也说不定。",
+			say = "我們看到的空間巨大，可能只是我們看的太遠了。繼續偵察下去的話，也許真的會陷入無盡殘骸之中也說不定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "当然~既然塞壬和余烬都可以在这里正常出入，说明这里一定拥有某种规则……",
+			say = "當然~既然塞壬和餘燼都可以在這裡正常出入，說明這裡一定擁有某種規則……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我觉得不如主动缩小观测范围。回收侦察机，关闭雷达，仅依靠我们的视距沿着这条狭窄的航线前进，说不定就能离开这里了！",
+			say = "我覺得不如主動縮小觀測範圍。回收偵察機，關閉雷達，僅依靠我們的視距沿著這條狹窄的航線前進，說不定就能離開這裡了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,11 +533,11 @@ return {
 			},
 			options = {
 				{
-					content = "原来如此！",
+					content = "原來如此！",
 					flag = 1
 				},
 				{
-					content = "听不明白…",
+					content = "聽不明白…",
 					flag = 2
 				}
 			}
@@ -548,7 +548,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "不愧是聪明的指挥官~！",
+			say = "不愧是聰明的指揮官~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "没关系，这里就相信一回聪颖的萨拉妹妹吧~！",
+			say = "沒關係，這裡就相信一回聰穎的薩拉妹妹吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

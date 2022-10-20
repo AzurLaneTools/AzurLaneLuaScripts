@@ -8417,6 +8417,27 @@ _G.pg.base.item_data_statistics[21006] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21007] = {
+	display = "格奈森瑙·META的專用性能提升裝置，可在「META研究室」-「能量激活」中使用。",
+	name = "結晶：格奈森瑙·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21007,
+	is_world = 0,
+	icon = "Props/21007",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21008] = {
 	display = "{namecode:221}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。 ",
 	name = "結晶：{namecode:221}",
@@ -8642,6 +8663,27 @@ _G.pg.base.item_data_statistics[21904] = {
 	id = 21904,
 	is_world = 0,
 	icon = "Props/21904",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21905] = {
+	display = "於「信標·META」戰鬥中收集的數據，可以提升格奈森瑙·META同步率。",
+	name = "同步值：格奈森瑙·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21905,
+	is_world = 0,
+	icon = "Props/21905",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31983,6 +32025,299 @@ _G.pg.base.item_data_statistics[52033] = {
 		{
 			2,
 			11033,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52040] = {
+	display = "有機率獲得以下特殊兵裝",
+	name = "未知特殊兵裝",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52040,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52041] = {
+	display = "有機率獲得以下特殊兵裝",
+	name = "未知特殊兵裝",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52041,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			21,
+			1010100,
+			1
+		},
+		{
+			21,
+			1010200,
+			1
+		},
+		{
+			21,
+			1020100,
+			1
+		},
+		{
+			21,
+			1030100,
+			1
+		},
+		{
+			21,
+			1040100,
+			1
+		},
+		{
+			21,
+			1050100,
+			1
+		},
+		{
+			21,
+			1060100,
+			1
+		},
+		{
+			21,
+			1060200,
+			1
+		},
+		{
+			21,
+			1070100,
+			1
+		},
+		{
+			21,
+			1070200,
+			1
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		},
+		{
+			21,
+			1010120,
+			1
+		},
+		{
+			21,
+			1010220,
+			1
+		},
+		{
+			21,
+			1020120,
+			1
+		},
+		{
+			21,
+			1030120,
+			1
+		},
+		{
+			21,
+			1040120,
+			1
+		},
+		{
+			21,
+			1050120,
+			1
+		},
+		{
+			21,
+			1060120,
+			1
+		},
+		{
+			21,
+			1060220,
+			1
+		},
+		{
+			21,
+			1070120,
+			1
+		},
+		{
+			21,
+			1070220,
+			1
+		},
+		{
+			21,
+			1080120,
+			1
+		},
+		{
+			21,
+			1080220,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52050] = {
+	display = "有機率獲得以下兵裝重置核心",
+	name = "未知兵裝重置核心",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52050,
+	is_world = 0,
+	icon = "Props/15020",
+	display_icon = {
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52051] = {
+	display = "有機率獲得以下兵裝強化石",
+	name = "未知兵裝強化石",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52051,
+	is_world = 0,
+	icon = "Props/15016",
+	display_icon = {
+		{
+			2,
+			15017,
+			1
+		},
+		{
+			2,
+			15016,
+			1
+		},
+		{
+			2,
+			15015,
 			1
 		}
 	},
@@ -132761,6 +133096,27 @@ _G.pg.base.item_data_statistics[59195] = {
 	id = 59195,
 	is_world = 0,
 	icon = "Props/xunliandianshu",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59196] = {
+	display = "用於『神聖的悲喜劇』活動兌換，活動結束後將會消失",
+	name = "帝國的榮光",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59196,
+	is_world = 0,
+	icon = "Props/yidali_pt",
 	display_icon = {},
 	price = {},
 	index = {},

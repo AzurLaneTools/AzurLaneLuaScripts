@@ -91087,6 +91087,872 @@ _G.pg.base.task_data_template[16219] = {
 	}
 }
 
+_G.pg.base.task_data_template[16251] = {
+	name = "『意大利复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 94301,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16251,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59196,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16252] = {
+	name = "『意大利复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 94302,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16252,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59196,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[16253] = {
+	name = "『意大利复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 94303,
+	type = 36,
+	desc = "通關1次任意困難關卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16253,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59196,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16254] = {
+	name = "『意大利复刻』通关A1/C1",
+	guild_coin_award = 0,
+	award = 94304,
+	type = 6,
+	desc = "擊敗A1或C1敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16254,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260001,
+		1260021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59196,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40890
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16255] = {
+	name = "『意大利复刻』通关A2/C2",
+	guild_coin_award = 0,
+	award = 94305,
+	type = 6,
+	desc = "擊敗A2或C2敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16255,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260002,
+		1260022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59196,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40890
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16256] = {
+	name = "『意大利复刻』通关A3/C3",
+	guild_coin_award = 0,
+	award = 94306,
+	type = 6,
+	desc = "擊敗A3或C3敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16256,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260003,
+		1260023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59196,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40890
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16257] = {
+	name = "『意大利复刻』通关B1/D1",
+	guild_coin_award = 0,
+	award = 94307,
+	type = 6,
+	desc = "擊敗B1或D1敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16257,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260006,
+		1260026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59196,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40891
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16258] = {
+	name = "『意大利复刻』通关B2/D2",
+	guild_coin_award = 0,
+	award = 94308,
+	type = 6,
+	desc = "擊敗B2或D2敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16258,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260007,
+		1260027
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59196,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40891
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16259] = {
+	name = "『意大利复刻』通关B3/D3",
+	guild_coin_award = 0,
+	award = 94309,
+	type = 6,
+	desc = "擊敗B3或D3敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16259,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260008,
+		1260028
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59196,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40891
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16260] = {
+	name = "『意大利复刻』通关SP",
+	guild_coin_award = 0,
+	award = 94310,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1260031",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16260,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1260025,
+			chapterId = 1260031
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16261] = {
+	name = "『意大利复刻』通关D3",
+	guild_coin_award = 0,
+	award = 94311,
+	type = 6,
+	desc = "通關D3<color=#92fc63>（勳章無法重複獲得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1260028",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16261,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			151,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1260012,
+			chapterId = 1260028
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16262] = {
+	name = "『意大利复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 94312,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16262,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260001,
+		1260021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40890
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16263] = {
+	name = "『意大利复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 94313,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16263,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260002,
+		1260022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40890
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16264] = {
+	name = "『意大利复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 94314,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16264,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260003,
+		1260023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40890
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16265] = {
+	name = "『意大利复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 94315,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16265,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260006,
+		1260026
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40891
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16266] = {
+	name = "『意大利复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 94316,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16266,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260007,
+		1260027
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40891
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16267] = {
+	name = "『意大利复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 94317,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16267,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1260008,
+		1260028
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			40891
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16268] = {
+	name = "『意大利复刻』三星通关总任务",
+	guild_coin_award = 0,
+	award = 94318,
+	type = 6,
+	desc = "完成所有任務後可領取獎勵",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16268,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		16262,
+		16263,
+		16264,
+		16265,
+		16266,
+		16267
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			603011,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16269] = {
+	name = "『意大利复刻』0121登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 94358,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16269,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			184,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[16280] = {
 	name = "2021情人节送家具活动1",
 	guild_coin_award = 0,
@@ -114156,6 +115022,514 @@ _G.pg.base.task_data_template[17716] = {
 	},
 	scene = {
 		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[17733] = {
+	name = "特殊兵装支援活动任务1",
+	guild_coin_award = 0,
+	award = 96231,
+	type = 26,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17733,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			20
+		},
+		{
+			2,
+			15016,
+			200
+		},
+		{
+			21,
+			1010100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17734] = {
+	name = "特殊兵装支援活动任务2",
+	guild_coin_award = 0,
+	award = 96232,
+	type = 26,
+	desc = "艦隊出擊，獲得3次勝利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17734,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			100
+		},
+		{
+			2,
+			15015,
+			1000
+		},
+		{
+			21,
+			1010200,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17735] = {
+	name = "特殊兵装支援活动任务3",
+	guild_coin_award = 0,
+	award = 96233,
+	type = 26,
+	desc = "建造艦船1次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17735,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15020,
+			20
+		},
+		{
+			2,
+			15021,
+			10
+		},
+		{
+			21,
+			1020100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17736] = {
+	name = "特殊兵装支援活动任务4",
+	guild_coin_award = 0,
+	award = 96234,
+	type = 26,
+	desc = "後宅補充食物1次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17736,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15017,
+			15
+		},
+		{
+			21,
+			1030100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17737] = {
+	name = "特殊兵装支援活动任务5",
+	guild_coin_award = 0,
+	award = 96235,
+	type = 26,
+	desc = "艦隊出擊，進行1次每日挑戰",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17737,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			2,
+			15020,
+			10
+		},
+		{
+			21,
+			1040100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17738] = {
+	name = "特殊兵装支援活动任务6",
+	guild_coin_award = 0,
+	award = 96236,
+	type = 26,
+	desc = "艦隊出擊，通關主線困難海域1次",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17738,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			2,
+			15015,
+			1000
+		},
+		{
+			21,
+			1050100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17739] = {
+	name = "特殊兵装支援活动任务7",
+	guild_coin_award = 0,
+	award = 96237,
+	type = 26,
+	desc = "提交大艦隊籌備1次",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17739,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			21,
+			1060100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17740] = {
+	name = "特殊兵装支援活动任务8",
+	guild_coin_award = 0,
+	award = 96238,
+	type = 26,
+	desc = "執行軍事委託1次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17740,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15020,
+			10
+		},
+		{
+			2,
+			15021,
+			10
+		},
+		{
+			21,
+			1060200,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17741] = {
+	name = "特殊兵装支援活动任务9",
+	guild_coin_award = 0,
+	award = 96239,
+	type = 26,
+	desc = "參與1次軍事演習",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17741,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15016,
+			50
+		},
+		{
+			2,
+			15015,
+			1000
+		},
+		{
+			21,
+			1070100,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17742] = {
+	name = "特殊兵装支援活动任务10",
+	guild_coin_award = 0,
+	award = 96240,
+	type = 26,
+	desc = "進行1次科研",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17742,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15020,
+			10
+		},
+		{
+			2,
+			15021,
+			10
+		},
+		{
+			21,
+			1070200,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17743] = {
+	name = "特殊兵装支援活动任务11",
+	guild_coin_award = 0,
+	award = 96241,
+	type = 26,
+	desc = "艦隊出擊，大型作戰中任意海域戰鬥1次",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17743,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			20
+		},
+		{
+			21,
+			1080100,
+			1
+		},
+		{
+			21,
+			1080200,
+			1
+		}
 	}
 }
 

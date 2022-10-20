@@ -3027,6 +3027,263 @@ _G.pg.base.gametip.shop_entendShipYard_error = {
 	tip = "擴充船塢失敗:"
 }
 
+_G.pg.base.gametip.spweapon_attr_effect = {
+	tip = "兵裝效果"
+}
+
+_G.pg.base.gametip.spweapon_attr_skillupgrade = {
+	tip = "技能強化"
+}
+
+_G.pg.base.gametip.spweapon_help_storage = {
+	tip = {
+		{
+			info = [[
+※ 特殊兵裝系統說明
+完成三階突破的角色，可以解鎖<color=#92fc63>特殊兵裝欄位</color>，裝備<color=#92fc63>特殊兵裝</color>
+*方案艦、海上傳奇艦船和META艦船不需要完成三階突破，直接解鎖特殊兵裝欄位
+
+可以通過<color=#92fc63>「兵裝訓練」</color>，或<color=#92fc63>特殊兵裝製造</color>獲得特殊兵裝
+特殊兵裝能夠給角色帶來<color=#92fc63>屬性加成</color>，當特殊兵裝強化至特定等級時，能夠解鎖<color=#92fc63>「兵裝效果」</color>
+特殊兵裝的屬性加成值包括固定屬性和隨機加成，每件特殊兵裝隨機加成的範圍是固定的。隨機加成可以通過<color=#92fc63>「屬性改裝」</color>進行隨機重置。強化、突破等操作只影響固定屬性數值
+部分角色擁有<color=#92fc63>專屬特殊兵裝</color>，專屬特殊兵裝只有對應的角色可以裝備
+除了<color=#92fc63>屬性加成</color>、<color=#92fc63>「兵裝效果」</color>外，專屬特殊兵裝強化至特定等級可以獲得<color=#92fc63>「技能強化」</color>，強化角色技能效果
+
+
+特殊斬擊
+特殊斬擊是一種較為特殊的「兵裝效果」
+戰鬥中角色帶有特殊斬擊時，會根據先鋒角色特殊斬擊的類型和數量，觸發不同樣式的斬擊
+特殊斬擊可以消除敵人的部分攻擊彈幕，斬擊可消除的彈幕類型與斬擊的樣式相關
+特殊斬擊的準備時間是15秒，當特殊斬擊就緒後，先鋒角色受到攻擊時，或就緒完成後5秒先鋒角色未受到攻擊，都會觸發特殊斬擊，斬擊觸發後需要重新準備
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.spweapon_tip_upgrade = {
+	tip = "強化點數已經達到上限"
+}
+
+_G.pg.base.gametip.spweapon_tip_attr_modify = {
+	tip = "需要選擇 保留屬性 或 替換屬性 後，才能再次進行屬性改裝"
+}
+
+_G.pg.base.gametip.spweapon_tip_materal_no_enough = {
+	tip = "材料不足"
+}
+
+_G.pg.base.gametip.spweapon_tip_gold_no_enough = {
+	tip = "物資不足"
+}
+
+_G.pg.base.gametip.spweapon_tip_pt_no_enough = {
+	tip = "突破所需經驗不足，請選擇強化材料"
+}
+
+_G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
+	tip = "製造所需經驗不足，請選擇強化材料"
+}
+
+_G.pg.base.gametip.spweapon_tip_bag_no_enough = {
+	tip = "特殊兵裝倉庫容量不足"
+}
+
+_G.pg.base.gametip.spweapon_tip_create_sussess = {
+	tip = "獲得特殊兵裝:<color=#92fc63>$1 X1</color>"
+}
+
+_G.pg.base.gametip.spweapon_tip_group_error = {
+	tip = "裝備失敗，不符合裝備要求"
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_overflow = {
+	tip = "將會溢出<color=#ff5c5c>$1</color>的強化點數，是否確認？"
+}
+
+_G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
+	tip = "請確認突破消耗材料後進行突破"
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_materal_check = {
+	tip = "請確認改造消耗材料後進行改造"
+}
+
+_G.pg.base.gametip.spweapon_tip_transform_attrmax = {
+	tip = "隨機屬性已達到最大值"
+}
+
+_G.pg.base.gametip.spweapon_tip_locked = {
+	tip = "角色完成三階突破後解鎖<color=#92fc63>特殊兵裝欄位</color>"
+}
+
+_G.pg.base.gametip.spweapon_tip_unload = {
+	tip = "特殊兵裝已卸載至倉庫中"
+}
+
+_G.pg.base.gametip.spweapon_ui_level = {
+	tip = "強化等級"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax = {
+	tip = "強化等級已滿"
+}
+
+_G.pg.base.gametip.spweapon_ui_levelmax2 = {
+	tip = "已到達強化上限"
+}
+
+_G.pg.base.gametip.spweapon_ui_need_resource = {
+	tip = "需要素材:"
+}
+
+_G.pg.base.gametip.spweapon_ui_ptitem = {
+	tip = "強化石"
+}
+
+_G.pg.base.gametip.spweapon_ui_spweapon = {
+	tip = "特殊兵裝"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform = {
+	tip = "改裝"
+}
+
+_G.pg.base.gametip.spweapon_ui_transform_attr_text = {
+	tip = "屬性改裝可以對特殊兵裝的屬性隨機加成部分進行重置，在該兵裝的屬性隨機加成範圍內生成新的隨機加成值"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr = {
+	tip = "保留屬性"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr = {
+	tip = "替換屬性"
+}
+
+_G.pg.base.gametip.spweapon_ui_autoselect = {
+	tip = "自動選擇"
+}
+
+_G.pg.base.gametip.spweapon_ui_cancelselect = {
+	tip = "取消選擇"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_quZhu = {
+	tip = "驅逐"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qinXun = {
+	tip = "輕巡"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhongXun = {
+	tip = "重巡"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_zhanLie = {
+	tip = "戰列"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
+	tip = "航母"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_weiXiu = {
+	tip = "維修"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_qianTing = {
+	tip = "潛艇"
+}
+
+_G.pg.base.gametip.spweapon_ui_index_shipType_other = {
+	tip = "其他"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
+	tip = "<color=#92fc63>替換屬性</color>將改變該特殊兵裝的屬性加成數值"
+}
+
+_G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
+	tip = "是否確定<color=#92fc63>替換屬性</color>？"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text1 = {
+	tip = "<color=#ffde38>保留屬性</color>將保留該特殊兵裝的屬性加成數值\n放棄改裝屬性變動"
+}
+
+_G.pg.base.gametip.spweapon_ui_change_attr_text2 = {
+	tip = "是否確定<color=#ffde38>保留屬性</color>？"
+}
+
+_G.pg.base.gametip.spweapon_ui_create_exp = {
+	tip = "製造所需經驗:"
+}
+
+_G.pg.base.gametip.spweapon_ui_upgrade_exp = {
+	tip = "強化所需經驗:"
+}
+
+_G.pg.base.gametip.spweapon_ui_breakout_exp = {
+	tip = "突破所需經驗:"
+}
+
+_G.pg.base.gametip.spweapon_ui_create = {
+	tip = "製造"
+}
+
+_G.pg.base.gametip.spweapon_ui_storage = {
+	tip = "倉庫"
+}
+
+_G.pg.base.gametip.spweapon_ui_empty = {
+	tip = "無裝備"
+}
+
+_G.pg.base.gametip.spweapon_ui_create_button = {
+	tip = "製 造"
+}
+
+_G.pg.base.gametip.spweapon_ui_helptext = {
+	tip = "*特殊兵裝需要消耗「特殊兵裝核心」「物資」以及「強化材料」進行製造，強化和突破\n 請選擇「強化石」或「特殊兵裝」作為材料以滿足強化經驗要求"
+}
+
+_G.pg.base.gametip.spweapon_ui_effect_tag = {
+	tip = "特殊兵裝效果"
+}
+
+_G.pg.base.gametip.spweapon_ui_skill_tag = {
+	tip = "技能專屬強化"
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text1 = {
+	tip = ""
+}
+
+_G.pg.base.gametip.spweapon_activity_ui_text2 = {
+	tip = ""
+}
+
+_G.pg.base.gametip.spweapon_tip_skill_locked = {
+	tip = "（未解鎖）"
+}
+
+_G.pg.base.gametip.spweapon_tip_owned = {
+	tip = "已擁有：$1"
+}
+
+_G.pg.base.gametip.spweapon_tip_view = {
+	tip = "<material=underline event=displayDetail>點擊查看</material>"
+}
+
+_G.pg.base.gametip.spweapon_tip_ship = {
+	tip = "適用角色"
+}
+
+_G.pg.base.gametip.spweapon_tip_type = {
+	tip = "適用艦種"
+}
+
 _G.pg.base.gametip.stage_beginStage_error = {
 	tip = "開始關卡失敗:"
 }
@@ -3860,7 +4117,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2022.7.28-2022.10.20</color>期間限時開放「蒼龍·META」的挑戰，在此期間指揮官可挑戰「蒼龍·META」累計其同步值獲取<color=#92fc63>「蒼龍·META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2022.10.20-2023.1.12</color>期間限時開放「格奈森瑙·META」的挑戰，在此期間指揮官可挑戰「格奈森瑙·META」累計其同步值獲取<color=#92fc63>「格奈森瑙·META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
@@ -3889,7 +4146,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境順暢</color>
 
 6.火力支援
-隨著信標·META挑戰的進行，從第31天開始，即2022.8.27~2022.10.20期間，艦隊挑戰「蒼龍·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
+隨著信標·META挑戰的進行，從第31天開始，即2022.11.19~2023.1.12期間，艦隊挑戰「格奈森瑙·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
 ※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
@@ -5681,13 +5938,15 @@ _G.pg.base.gametip.help_daily_task = {
 	tip = {
 		{
 			info = [[
+※ 兵裝訓練開啟時間：每天開放，每週最多可挑戰兩次
+◆ 敵方會使用<color=#92fc63>特殊煙霧彈</color>，降低受到來自我方主力編隊單位的傷害，我方主力編隊單位的命中率大幅降低
+◆ 敵方會使用<color=#92fc63>特殊斬擊</color>，清除部分炮擊和魚雷彈幕
+
 ※ 破交作戰開啟時間：每天開放，每週最多可挑戰兩次
 ◆ 破交作戰模式下，指揮官將操縱<color=#92fc63>潛艇編隊</color>出戰
 ◆ 不同的<color=#92fc63>魚雷武器</color>將為<color=#92fc63>裝備艦船</color>提供不同數量的<color=#92fc63>彈藥</color>
 <color=#92fc63>◆ 魚雷設備</color>將為<color=#92fc63>裝備艦船</color>提供額外的<color=#92fc63>彈藥</color>
-◆ 破交作戰模式下，<color=#92fc63>所有潛艇技能</color>不生效，潛艇的全彈
-發射、專屬彈幕通過<color=#92fc63>特殊攻擊按鈕</color>觸發(<color=#92fc63>速科夫專屬彈幕</color>
-通過<color=#92fc63>上浮</color>觸發，每場戰鬥僅限1次)
+◆ 破交作戰模式下，<color=#92fc63>所有潛艇技能</color>不生效，潛艇的全彈發射、專屬彈幕通過<color=#92fc63>特殊攻擊按鈕</color>觸發(<color=#92fc63>速科夫專屬彈幕</color>通過<color=#92fc63>上浮</color>觸發，每場戰鬥僅限1次)
 ◆ 破交作戰模式下，全彈發射、專屬彈幕<color=#92fc63>傷害提高</color>
 ◆ 計分方式：
 ◆ 通關基礎分：<color=#92fc63>100</color>分
@@ -5697,23 +5956,22 @@ _G.pg.base.gametip.help_daily_task = {
 ◆ A評價：<color=#92fc63>100</color>分
 ◆ B評價：<color=#92fc63>70</color>分
 
-※商船護送開啟時間為：每週一、週四、週日
+※ 商船護送開啟時間為：每週一、週四、週日
 
-※海域突進開啟時間為：每週二、週五、週日
+※ 海域突進開啟時間為：每週二、週五、週日
 
-※斬首行動開啟時間為：每週三、週六、週日
+※ 斬首行動開啟時間為：每週三、週六、週日
 
-※ 戰術研修開啟時間為：每日開放
-◆ <color=#92fc63>航空</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>航空兵器</color>能造成
-巨量傷害
-◆ <color=#92fc63>炮擊</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>炮擊兵器</color>能造成
-巨量傷害
-◆ <color=#92fc63>雷擊</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>魚雷兵器</color>能造成
-巨量傷害※快速挑戰功能將在獲得對應關卡的S勝後開啟
+※ 戰術研修開啟時間為：每天開放
+◆ <color=#92fc63>航空</color> 敵方旗艦擁有極高的耐久，使用<color= #92fc63>航空兵器</color>能造成巨量傷害
+◆ <color=#92fc63>炮擊</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>炮擊兵器</color>能造成巨量傷害
+◆ <color=#92fc63>雷擊</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>魚雷兵器</color>能造成巨量傷害
+
+※快速挑戰功能將在獲得對應關卡的S勝後開啟
 ◆快速挑戰可以<color=#92fc63>直接獲得</color>每日挑戰關卡中應得的全部掉落獎勵
 ◆快速挑戰<color=#92fc63>不消耗</color>石油，不會獲得任何指揮官經驗、艦船經驗，也不會影響艦船的心情與好感度，同時不計入個人訊息中的作戰次數
-◆快速挑戰可以完成出征獲得勝利、以B/A/S勝通關、進行/完成每日挑戰，擊敗小/中/大型艦隊，累計從日常關卡中獲得道具的任務
-◆請注意，快速挑戰<color=#92fc63>無法完成</color>個人角色任務。]]
+◆快速挑戰可以完成出擊獲得勝利、以B/A/S勝通關、進行/完成每日挑戰，擊敗小/中/大型艦隊，累計從日常關卡中獲得道具的任務
+◆請注意，快速挑戰<color=#92fc63>無法完成</color>個人角色任務。 ]]
 		}
 	}
 }
@@ -7049,6 +7307,7 @@ _G.pg.base.gametip.ship_remould_warning_303154 = {
 <color=#92fc63>【主武器（輕巡主炮）】</color>變更為
 <color=#92fc63>【主武器（重巡主炮）】</color>欄位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看詳情</material></color>
 <color=#92fc63>【主武器】</color>欄的裝備將被卸下
+<color=#92fc63>【特殊兵裝】</color>欄的兵裝將被卸下
 是否確認繼續操作？]]
 }
 
@@ -9359,7 +9618,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "島風、葛城、由良、海風 建造機率UP！"
+	tip = "波拉、扎拉、文琴佐·焦貝蒂、可畏、朱利奧·凱撒 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -13036,7 +13295,7 @@ _G.pg.base.gametip.index_not_lvmax = {
 }
 
 _G.pg.base.gametip.index_spweapon = {
-	tip = "专属兵装"
+	tip = "專屬兵裝"
 }
 
 _G.pg.base.gametip.decodegame_gametip = {

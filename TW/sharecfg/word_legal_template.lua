@@ -717,7 +717,18 @@ function temp()
 		["奈"] = {
 			["森"] = {
 				["瑙"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -1821,6 +1832,9 @@ function temp()
 		},
 		["夕"] = {
 			this = true
+		},
+		["拉"] = {
+			this = true
 		}
 	}
 end
@@ -1868,6 +1882,19 @@ function temp()
 		},
 		["月"] = {
 			this = true
+		},
+		["琴"] = {
+			["佐"] = {
+				["·"] = {
+					["焦"] = {
+						["貝"] = {
+							["蒂"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

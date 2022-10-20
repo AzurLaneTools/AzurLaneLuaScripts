@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-ashes-theme",
 			dir = 1,
-			say = "不要让它们完成布局，在代行者完成隐匿之前将其消灭掉！",
+			say = "不要讓它們完成佈局，在代行者完成隱匿之前將其消滅掉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "明白，这些杂鱼就交给我————",
+			say = "明白，這些雜魚就交給我————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

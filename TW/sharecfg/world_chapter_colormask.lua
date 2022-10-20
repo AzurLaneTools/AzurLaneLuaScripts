@@ -1311,7 +1311,13 @@ pg.world_chapter_colormask = {
 				44002
 			}
 		},
-		stage_chapter = {},
+		stage_chapter = {
+			{
+				100,
+				109,
+				260
+			}
+		},
 		sairen_chapter = {
 			30011
 		},

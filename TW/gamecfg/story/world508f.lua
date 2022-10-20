@@ -11,7 +11,7 @@ return {
 			actor = 9707020,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不妙，这样下去可不妙……仲裁机关相互协作之后战斗难度可不是一变三这么简单！",
+			say = "不妙，這樣下去可不妙……仲裁機關相互協作之後戰鬥難度可不是一變三這麼簡單！",
 			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
@@ -23,11 +23,11 @@ return {
 			},
 			options = {
 				{
-					content = "不要放弃",
+					content = "不要放棄",
 					flag = 1
 				},
 				{
-					content = "继续战斗",
+					content = "繼續戰鬥",
 					flag = 2
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "你这家伙倒是意外的冷静啊。",
+			say = "你這傢伙倒是意外的冷靜啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "危险的战斗毕竟也经历过不少了……越是危急就越不能放弃，坚持战斗才有希望。",
+			say = "危險的戰鬥畢竟也經歷過不少了……越是危急就越不能放棄，堅持戰鬥才有希望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "阵型变换，受损严重的舰船移动到二线。女灶神，现在已经到了战斗的关键时刻，不用有所保留，尽全力为大家维修吧。",
+			say = "陣型變換，受損嚴重的艦船移動到二線。女灶神，現在已經到了戰鬥的關鍵時刻，不用有所保留，盡全力為大家維修吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "交给我吧！只要后勤舰队还存在，就不会让任何同伴倒下的！",
+			say = "交給我吧！只要後勤艦隊還存在，就不會讓任何同伴倒下的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，给本王顶上。",
+			say = "皇家艦隊，給本王頂上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遵命。陛下，请您退后。",
+			say = "遵命。陛下，請您退後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业前辈你的航空甲板……请先去进行紧急维护，这里就暂时交给我们吧！",
+			say = "企業前輩妳的航空甲板……請先去進行緊急維護，這裡就暫時交給我們吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我不会勉强的……有劳了。",
+			say = "嗯，我不會勉強的……有勞了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "你们也退下去整备一下吧？",
+			say = "妳們也退下去整備一下吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "居然叫我们退后？你未免也太自信了。",
+			say = "居然叫我們退後？你未免也太自信了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "以你们与仲裁机关的实力差，只要我们停止进攻，你们会被瞬间全灭的。",
+			say = "以你們與仲裁機關的實力差，只要我們停止進攻，你們會被瞬間全滅的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "没错~放心放心，我们还轮不到你来担心。",
+			say = "沒錯~放心放心，我們還輪不到你來擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过……稍微拉开些距离调整一下进攻节奏顺便补给一下好像也不错？",
+			say = "不過……稍微拉開些距離調整一下進攻節奏順便補給一下好像也不錯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "{namecode:94}……？",
+			say = "飛龍……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "哈哈哈，好久没享受过大舰队协同作战，都快忘记这些战术选择了。",
+			say = "哈哈哈，好久沒享受過大艦隊協同作戰，都快忘記這些戰術選擇了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "我们的后勤资源你们可以在这场战斗中随意使用。让我们继续战斗吧！",
+			say = "我們的後勤資源妳們可以在這場戰鬥中隨意使用。讓我們繼續戰鬥吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

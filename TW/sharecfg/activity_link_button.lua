@@ -4,7 +4,7 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_all",
 		type = 3,
-		text_pic = "",
+		text_pic = "text_event_all",
 		id = 1,
 		group_id = 1,
 		pic = "event_all",
@@ -14,8 +14,8 @@ pg.activity_link_button = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -26,8 +26,8 @@ pg.activity_link_button = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					3
 				},
 				{
 					23,
@@ -63,7 +63,7 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_map",
 		type = 0,
-		text_pic = "",
+		text_pic = "text_event_map",
 		id = 10,
 		group_id = 2,
 		pic = "event_map",
@@ -73,8 +73,8 @@ pg.activity_link_button = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -85,8 +85,8 @@ pg.activity_link_button = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					3
 				},
 				{
 					23,

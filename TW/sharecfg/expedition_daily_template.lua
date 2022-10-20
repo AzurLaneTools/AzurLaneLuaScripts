@@ -237,11 +237,54 @@ pg.expedition_daily_template = {
 			}
 		}
 	},
+	[701] = {
+		tips = "兵裝訓練每天開啟，每週上限兩次",
+		limit_type = 2,
+		des = "與貝爾法斯特進行特殊兵裝戰鬥訓練，完成訓練可獲得特殊兵裝或特殊兵裝材料",
+		limit_time = 2,
+		id = 701,
+		title = "兵裝訓練",
+		pic = "daily7",
+		sort = "5",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		expedition_and_lv_limit_list = {
+			{
+				7000,
+				35
+			},
+			{
+				7001,
+				75
+			}
+		}
+	},
+	[801] = {
+		tips = "該副本暫未開放，敬請期待",
+		limit_type = 0,
+		des = "該副本暫未開放，敬請期待",
+		limit_time = 0,
+		id = 801,
+		title = "敬請期待",
+		pic = "daily4",
+		sort = "7",
+		weekday = {},
+		expedition_and_lv_limit_list = {}
+	},
 	all = {
 		201,
 		301,
 		401,
 		501,
-		601
+		601,
+		701,
+		801
 	}
 }

@@ -11,7 +11,7 @@ return {
 			actor = 106010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这里是长岛，现在为您转达指挥部的消息……",
+			say = "指揮官，這裡是長島，現在為您轉達指揮部的消息……",
 			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			actor = 106010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，您已经到达皇家的前哨站了么？",
+			say = "咦，您已經到達皇家的前哨站了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			},
 			options = {
 				{
-					content = "顺利抵达。",
+					content = "順利抵達。",
 					flag = 1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "嘿嘿，感觉皇家的前哨站怎么样~？",
+			say = "嘿嘿，感覺皇家的前哨站怎麼樣~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,36 +63,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "虽然在外部结构上和白鹰的差不多，不过内部装潢怎么说呢，非常有皇家的感觉……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 106010,
-			nameColor = "#a9f548",
-			side = 2,
-			paintingNoise = true,
-			dir = 1,
-			say = "肯定又加了不少像副本Boss房间中一样的华丽装饰吧，我懂的，懂的~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			say = "……所以指挥部的消息是？",
+			say = "雖然在外部結構上和白鷹的差不多，不過內部裝潢怎麼說呢，非常有皇家的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +79,20 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "唔……不好，不能在重要频道闲聊。",
+			say = "肯定又加了不少像副本Boss房間中一樣的華麗裝飾吧，我懂的，懂的~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			say = "……所以指揮部的消息是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,33 +108,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "是好消息哦。在仔细评估了您的侦察报告后，指挥部正式决定执行总攻前的准备工作了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			say = "终于可以从无尽的会议里解放出来了……真是个好消息。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			say = "接下来需要我这边做什么？",
+			say = "唔……不好，不能在重要頻道閒聊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +124,33 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "啊，目前还不需要您出马啦。",
+			say = "是好消息哦。在仔細評估了您的偵察報告後，指揮部正式決定執行總攻前的準備工作了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			say = "終於可以從無盡的會議裡解放出來了……真是個好消息。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			say = "接下來需要我這邊做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +166,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "指挥部正在安排舰队对其他方向的外围区域进行侦察，后勤准备工作也才刚刚启动。",
+			say = "啊，目前還不需要您出馬啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,33 +182,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "在这些完成之前，指挥官就在皇家前哨站里好好休息，享受总攻开始前的短暂闲暇吧~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			say = "塞壬战斗能力比预期要高，彻底侦察之后才能保证制定出合理的方案，这样安排也算合理。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			say = "不过……为什么这次的联络员是长岛，孟菲斯呢？",
+			say = "指揮部正在安排艦隊對其他方向的外圍區域進行偵察，後勤準備工作也才剛剛剛啟動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +198,33 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "孟菲斯啊……嘿嘿，她正在执行调动命令中……具体内容您很快就会知道了~",
+			say = "在這些完成之前，指揮官就在皇家前哨站裡好好休息，享受總攻開始前的短暫閒暇吧~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			say = "塞壬戰鬥能力比預期要高，徹底偵察之後才能保證制定出合理的方案，這樣安排也算合理。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			say = "不過……為什麼這次的聯絡員是長島，曼非斯呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +240,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "那么就这样，祝您度过愉快的一天，长岛通话结束。",
+			say = "曼非斯啊……嘿嘿，她正在執行調動命令中……具體內容您很快就會知道了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +256,23 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "呼……好紧张啊……啊！机器还没关闭么————",
+			say = "那麼就這樣，祝您度過愉快的一天，長島通話結束。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 106010,
+			nameColor = "#a9f548",
+			side = 2,
+			paintingNoise = true,
+			dir = 1,
+			say = "呼……好緊張啊……啊！機器還沒關閉嗎————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "虽然还有一些疑问……但是机会难得，就好好休息一下吧。",
+			say = "雖然還有一些疑問……但是機會難得，就好好休息一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

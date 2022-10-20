@@ -27807,8 +27807,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -27819,8 +27819,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -27842,8 +27842,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -27854,8 +27854,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -27877,8 +27877,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -27889,8 +27889,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -27912,8 +27912,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -27924,8 +27924,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -27947,8 +27947,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -27959,8 +27959,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -27982,8 +27982,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -27994,8 +27994,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28017,8 +28017,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28029,8 +28029,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28052,8 +28052,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28064,8 +28064,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28087,8 +28087,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28099,8 +28099,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28122,8 +28122,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28134,8 +28134,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28157,8 +28157,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28169,8 +28169,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28192,8 +28192,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28204,8 +28204,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28227,8 +28227,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28239,8 +28239,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28262,8 +28262,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28274,8 +28274,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28297,8 +28297,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28309,8 +28309,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28332,8 +28332,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28344,8 +28344,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28367,8 +28367,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28379,8 +28379,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28402,8 +28402,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28414,8 +28414,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28437,8 +28437,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28449,8 +28449,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28472,8 +28472,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28484,8 +28484,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28507,8 +28507,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28519,8 +28519,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28542,8 +28542,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28554,8 +28554,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28577,8 +28577,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28589,8 +28589,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28612,8 +28612,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28624,8 +28624,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28647,8 +28647,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28659,8 +28659,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28682,8 +28682,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28694,8 +28694,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28717,8 +28717,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28729,8 +28729,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28752,8 +28752,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28764,8 +28764,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28787,8 +28787,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28799,8 +28799,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,
@@ -28822,8 +28822,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					0,
@@ -28834,8 +28834,8 @@ pg.furniture_shop_template = {
 			{
 				{
 					2022,
-					10,
-					5
+					11,
+					2
 				},
 				{
 					23,

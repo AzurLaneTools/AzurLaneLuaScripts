@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-ashes-theme",
 			dir = 1,
-			say = "基于不明原因，损伤比预期的效果降低了7.3%……有趣。",
+			say = "基於不明原因，損傷比預期的效果降低了7.3%……有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "{namecode:94}……我的武器系统被干扰，现在开始紧急维修，拜托你掩护了。",
+			say = "飛龍……我的武器系統被干擾，現在開始緊急維修，拜託妳掩護了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "啧，这倒是个新招……",
+			say = "嘖，這倒是個新招……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "打击群准备，用火力压制敌人，争取时间！",
+			say = "打擊群準備，用火力壓制敵人，爭取時間！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战列舰编队听候命令。",
+			say = "戰列艦編隊聽候命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "空袭准备也完成了，让我们狠狠打回去吧~！",
+			say = "空襲準備也完成了，讓我們狠狠打回去吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "哟？这种规模的联合打击真是好久不见，我也有些兴奋了，加我一个————！",
+			say = "喲？這種規模的聯合打擊真是好久不見，我也有些興奮了，加我一個————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
