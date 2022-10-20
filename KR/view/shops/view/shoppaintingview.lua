@@ -1,18 +1,18 @@
 slot0 = class("ShopPaintingView")
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0._painting = slot1
 	slot0._paintingInitPos = slot0._painting.anchoredPosition
 	slot0._paintingOffsetMin = Vector2(slot0._painting.offsetMin.x, slot0._painting.offsetMin.y)
 	slot0._paintingOffsetMax = Vector2(slot0._painting.offsetMax.x, slot0._painting.offsetMax.y)
 	slot0.touch = slot0._painting:Find("paint_touch")
-	slot0.chat = slot0._painting:Find("chat")
+	slot0.chat = slot2
 	slot0.chatText = slot0.chat:Find("Text")
 	slot0.name = nil
 	slot0.chatting = false
 end
 
-function slot0.Init(slot0, slot1, slot2, slot3)
+function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 	slot0:UnLoad()
 
 	slot0.name = slot1
@@ -27,11 +27,15 @@ function slot0.Init(slot0, slot1, slot2, slot3)
 		slot0._painting.offsetMax = slot0._paintingOffsetMax
 	end
 
-	slot0:Load(slot3)
+	slot0:Load(slot3, slot4)
 end
 
-function slot0.Load(slot0, slot1)
-	setPaintingPrefabAsync(slot0._painting, slot0.name, slot1 or "chuanwu")
+function slot0.Load(slot0, slot1, slot2)
+	slot3 = nil
+	slot3 = (slot0.name ~= "mingshi_live2d" or ShopMingShiPainting.New(slot0._painting)) and ShopMeshPainting.New(slot0._painting)
+	slot0.iShopPainting = slot3
+
+	slot3:Load(slot0.name, slot1, slot2)
 end
 
 function slot0.setSecretaryPos(slot0, slot1)
@@ -40,8 +44,18 @@ function slot0.setSecretaryPos(slot0, slot1)
 	end
 end
 
-function slot0.Chat(slot0, slot1, slot2, slot3)
-	if not slot0.chatting or slot3 then
+function slot0.Chat(slot0, slot1, slot2, slot3, slot4)
+	function slot5()
+		if uv0 then
+			uv1:ShowShipWord(uv0)
+		end
+
+		if uv2 and uv1.iShopPainting then
+			uv1.iShopPainting:Action(uv2)
+		end
+	end
+
+	if not slot0.chatting or slot4 then
 		slot0:StopChat()
 
 		if slot2 then
@@ -50,10 +64,10 @@ function slot0.Chat(slot0, slot1, slot2, slot3)
 					uv0._cueInfo = slot0.cueInfo
 				end
 
-				if uv1 then
-					uv0:ShowShipWord(uv1)
-				end
+				uv1()
 			end)
+		else
+			slot5()
 		end
 	end
 end
@@ -111,12 +125,20 @@ function slot0.StopChat(slot0)
 end
 
 function slot0.PlayCV(slot0, slot1, slot2)
-	slot3 = "event:/cv/shop/" .. slot1
+	slot3, slot4 = nil
+
+	if slot0.name == "mingshi_live2d" then
+		slot3 = "cv-chargeShop"
+		slot4 = slot1
+	else
+		slot3 = "cv-shop"
+		slot4 = slot1
+	end
 
 	slot0:StopCV()
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot3, slot2)
+	pg.CriMgr.GetInstance():PlayCV_V3(slot3, slot4, slot2)
 
-	slot0._currentVoice = slot3
+	slot0._currentVoice = voiceContent
 end
 
 function slot0.StopCV(slot0)
@@ -129,10 +151,11 @@ function slot0.StopCV(slot0)
 end
 
 function slot0.UnLoad(slot0)
-	if slot0.name then
-		retPaintingPrefab(slot0._painting, slot1)
+	if slot0.iShopPainting and slot0.name then
+		slot0.iShopPainting:UnLoad(slot0.name)
 
 		slot0.name = nil
+		slot0.iShopPainting = nil
 	end
 end
 

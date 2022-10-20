@@ -17823,6 +17823,244 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[656] = {
+		name = "다이나믹 킥 총알",
+		bullet_name = "zidan_yuedongfeiti",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "필살기, 다이나믹 킥...! 아, 스킬 목표가 잘못되었네요.",
+		themeid = 39,
+		id = 656,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "94211",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[657] = {
+		name = "파워 익스플로전 포탄",
+		bullet_name = "paodan_tutuhuoqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "지휘관을 향해, Explosion……Zzzzz",
+		themeid = 39,
+		id = 657,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "94212",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[658] = {
+		name = "워리어 액스 어뢰",
+		bullet_name = "yulei_zhanshizhifu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "열심히 재화를 벌어서 장비를 갖춰야해요!",
+		themeid = 39,
+		id = 658,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "94221",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[659] = {
+		name = "용자의 방패",
+		bullet_name = "",
+		desc = "용자의 팀이 반드시 마왕을 타도할 거에요!",
+		type = 1,
+		themeid = 39,
+		id = 659,
+		orbit_combat = "shebei_yongzhezhidun",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_yongzhezhidunui",
+		icon = "94241",
+		mirror = 0,
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				5,
+				-1.57,
+				0
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				215,
+				-558
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[660] = {
+		name = "윙 슬라임(어뢰)",
+		bullet_name = "feiji_shilaimu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "난 사악한 슬라임이 아니야",
+		themeid = 39,
+		id = 660,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		icon = "94231",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_zhanshizhifu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[661] = {
+		name = "윙 슬라임(전투)",
+		bullet_name = "feiji_shilaimu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "난 사악한 슬라임이 아니야.",
+		themeid = 39,
+		id = 661,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_tutuhuoqiu",
+		orbit_ui = "",
+		icon = "94231",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[662] = {
+		name = "윙 슬라임(폭격)",
+		bullet_name = "feiji_shilaimu",
+		orbit_ui_bound = "",
+		type = 1,
+		desc = "난 사악한 슬라임이 아니야.",
+		themeid = 39,
+		id = 662,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_tutuhuoqiu",
+		orbit_ui = "",
+		icon = "94231",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "십자키 포탄(보라)",
 		bullet_name = "Nep_bullet_shizi",
@@ -20895,6 +21133,13 @@ pg.equip_skin_template = {
 		653,
 		654,
 		655,
+		656,
+		657,
+		658,
+		659,
+		660,
+		661,
+		662,
 		1001,
 		1002,
 		1003,

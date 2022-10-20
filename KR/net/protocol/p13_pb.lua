@@ -174,11 +174,13 @@ slot2 = {
 	CS_13505_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_13506_REMAP_COUNT_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_13507_CHAPTER_ID_FIELD = slot0.FieldDescriptor(),
+	CS_13507_POS_FIELD = slot0.FieldDescriptor(),
 	SC_13508_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_13508_DROP_LIST_FIELD = slot0.FieldDescriptor(),
 	FLEETDUTYKEYVALUEPAIR_KEY_FIELD = slot0.FieldDescriptor(),
 	FLEETDUTYKEYVALUEPAIR_VALUE_FIELD = slot0.FieldDescriptor(),
 	REMAPCOUNT_CHAPTER_ID_FIELD = slot0.FieldDescriptor(),
+	REMAPCOUNT_POS_FIELD = slot0.FieldDescriptor(),
 	REMAPCOUNT_COUNT_FIELD = slot0.FieldDescriptor(),
 	REMAPCOUNT_FLAG_FIELD = slot0.FieldDescriptor()
 }
@@ -2393,12 +2395,22 @@ slot2.CS_13507_CHAPTER_ID_FIELD.has_default_value = false
 slot2.CS_13507_CHAPTER_ID_FIELD.default_value = 0
 slot2.CS_13507_CHAPTER_ID_FIELD.type = 13
 slot2.CS_13507_CHAPTER_ID_FIELD.cpp_type = 3
+slot2.CS_13507_POS_FIELD.name = "pos"
+slot2.CS_13507_POS_FIELD.full_name = "p13.cs_13507.pos"
+slot2.CS_13507_POS_FIELD.number = 2
+slot2.CS_13507_POS_FIELD.index = 1
+slot2.CS_13507_POS_FIELD.label = 2
+slot2.CS_13507_POS_FIELD.has_default_value = false
+slot2.CS_13507_POS_FIELD.default_value = 0
+slot2.CS_13507_POS_FIELD.type = 13
+slot2.CS_13507_POS_FIELD.cpp_type = 3
 CS_13507.name = "cs_13507"
 CS_13507.full_name = "p13.cs_13507"
 CS_13507.nested_types = {}
 CS_13507.enum_types = {}
 CS_13507.fields = {
-	slot2.CS_13507_CHAPTER_ID_FIELD
+	slot2.CS_13507_CHAPTER_ID_FIELD,
+	slot2.CS_13507_POS_FIELD
 }
 CS_13507.is_extendable = false
 CS_13507.extensions = {}
@@ -2468,10 +2480,19 @@ slot2.REMAPCOUNT_CHAPTER_ID_FIELD.has_default_value = false
 slot2.REMAPCOUNT_CHAPTER_ID_FIELD.default_value = 0
 slot2.REMAPCOUNT_CHAPTER_ID_FIELD.type = 13
 slot2.REMAPCOUNT_CHAPTER_ID_FIELD.cpp_type = 3
+slot2.REMAPCOUNT_POS_FIELD.name = "pos"
+slot2.REMAPCOUNT_POS_FIELD.full_name = "p13.remapcount.pos"
+slot2.REMAPCOUNT_POS_FIELD.number = 2
+slot2.REMAPCOUNT_POS_FIELD.index = 1
+slot2.REMAPCOUNT_POS_FIELD.label = 2
+slot2.REMAPCOUNT_POS_FIELD.has_default_value = false
+slot2.REMAPCOUNT_POS_FIELD.default_value = 0
+slot2.REMAPCOUNT_POS_FIELD.type = 13
+slot2.REMAPCOUNT_POS_FIELD.cpp_type = 3
 slot2.REMAPCOUNT_COUNT_FIELD.name = "count"
 slot2.REMAPCOUNT_COUNT_FIELD.full_name = "p13.remapcount.count"
-slot2.REMAPCOUNT_COUNT_FIELD.number = 2
-slot2.REMAPCOUNT_COUNT_FIELD.index = 1
+slot2.REMAPCOUNT_COUNT_FIELD.number = 3
+slot2.REMAPCOUNT_COUNT_FIELD.index = 2
 slot2.REMAPCOUNT_COUNT_FIELD.label = 2
 slot2.REMAPCOUNT_COUNT_FIELD.has_default_value = false
 slot2.REMAPCOUNT_COUNT_FIELD.default_value = 0
@@ -2479,8 +2500,8 @@ slot2.REMAPCOUNT_COUNT_FIELD.type = 13
 slot2.REMAPCOUNT_COUNT_FIELD.cpp_type = 3
 slot2.REMAPCOUNT_FLAG_FIELD.name = "flag"
 slot2.REMAPCOUNT_FLAG_FIELD.full_name = "p13.remapcount.flag"
-slot2.REMAPCOUNT_FLAG_FIELD.number = 3
-slot2.REMAPCOUNT_FLAG_FIELD.index = 2
+slot2.REMAPCOUNT_FLAG_FIELD.number = 4
+slot2.REMAPCOUNT_FLAG_FIELD.index = 3
 slot2.REMAPCOUNT_FLAG_FIELD.label = 2
 slot2.REMAPCOUNT_FLAG_FIELD.has_default_value = false
 slot2.REMAPCOUNT_FLAG_FIELD.default_value = 0
@@ -2492,6 +2513,7 @@ REMAPCOUNT.nested_types = {}
 REMAPCOUNT.enum_types = {}
 REMAPCOUNT.fields = {
 	slot2.REMAPCOUNT_CHAPTER_ID_FIELD,
+	slot2.REMAPCOUNT_POS_FIELD,
 	slot2.REMAPCOUNT_COUNT_FIELD,
 	slot2.REMAPCOUNT_FLAG_FIELD
 }

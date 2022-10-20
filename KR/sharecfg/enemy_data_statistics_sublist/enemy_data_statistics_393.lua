@@ -1,5 +1,313 @@
 pg = pg or {}
 pg.enemy_data_statistics_393 = {
+	[295057] = {
+		cannon = 205,
+		name = "소류·META(Tier.12)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 442,
+		hit_growth = 0,
+		dodge = 24,
+		base = 90536,
+		durability_growth = 0,
+		antiaircraft = 344,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 17,
+		hit = 85,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 750000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295057,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295058] = {
+		cannon = 215,
+		name = "소류·META(Tier.13)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 456,
+		hit_growth = 0,
+		dodge = 26,
+		base = 90536,
+		durability_growth = 0,
+		antiaircraft = 358,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 18,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 930000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295058,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295059] = {
+		cannon = 225,
+		name = "소류·META(Tier.14)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 470,
+		hit_growth = 0,
+		dodge = 28,
+		base = 90536,
+		durability_growth = 0,
+		antiaircraft = 372,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 19,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 1140000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295059,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295060] = {
+		cannon = 235,
+		name = "소류·META(Tier.15)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 484,
+		hit_growth = 0,
+		dodge = 30,
+		base = 90536,
+		durability_growth = 0,
+		antiaircraft = 386,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 20,
+		hit = 105,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 1380000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295060,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295061] = {
+		cannon = 202,
+		name = "그나이제나우·META(Tier.1)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 11,
+		base = 90600,
+		durability_growth = 0,
+		antiaircraft = 176,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 10,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 88,
+		durability = 50000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295061,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 1
+			}
+		}
+	},
+	[295062] = {
+		cannon = 214,
+		name = "그나이제나우·META(Tier.2)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 12,
+		base = 90600,
+		durability_growth = 0,
+		antiaircraft = 190,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 10,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 97,
+		durability = 54000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295062,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 1
+			}
+		}
+	},
+	[295063] = {
+		cannon = 227,
+		name = "그나이제나우·META(Tier.3)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 13,
+		base = 90600,
+		durability_growth = 0,
+		antiaircraft = 204,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 10,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 106,
+		durability = 58000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295063,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 1
+			}
+		}
+	},
+	[295064] = {
+		cannon = 240,
+		name = "그나이제나우·META(Tier.4)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 14,
+		base = 90600,
+		durability_growth = 0,
+		antiaircraft = 218,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 10,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 115,
+		durability = 70000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295064,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
 	[295065] = {
 		cannon = 254,
 		name = "그나이제나우·META(Tier.5)",
@@ -489,334 +797,6 @@ pg.enemy_data_statistics_393 = {
 			{
 				ID = 50510,
 				LV = 1
-			}
-		}
-	},
-	[295077] = {
-		cannon = 195,
-		name = "샤른호르스트·META(Tier.2)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 12,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 190,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 15,
-		hit = 40,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 108,
-		durability = 54000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295077,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 1
-			}
-		}
-	},
-	[295078] = {
-		cannon = 207,
-		name = "샤른호르스트·META(Tier.3)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 13,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 204,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 15,
-		hit = 45,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 118,
-		durability = 58000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295078,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 1
-			}
-		}
-	},
-	[295079] = {
-		cannon = 220,
-		name = "샤른호르스트·META(Tier.4)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 14,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 218,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 15,
-		hit = 50,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 128,
-		durability = 70000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295079,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 2
-			}
-		}
-	},
-	[295080] = {
-		cannon = 233,
-		name = "샤른호르스트·META(Tier.5)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 15,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 232,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 15,
-		hit = 55,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 138,
-		durability = 110000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295080,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 2
-			}
-		}
-	},
-	[295081] = {
-		cannon = 247,
-		name = "샤른호르스트·META(Tier.6)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 16,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 246,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 16,
-		hit = 60,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 148,
-		durability = 150000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295081,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 2
-			}
-		}
-	},
-	[295082] = {
-		cannon = 261,
-		name = "샤른호르스트·META(Tier.7)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 17,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 260,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 17,
-		hit = 65,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 158,
-		durability = 230000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295082,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[295083] = {
-		cannon = 276,
-		name = "샤른호르스트·META(Tier.8)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 18,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 274,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 18,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 168,
-		durability = 310000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295083,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[295084] = {
-		cannon = 291,
-		name = "샤른호르스트·META(Tier.9)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 19,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 288,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 19,
-		hit = 75,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 178,
-		durability = 390000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295084,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 3
 			}
 		}
 	}

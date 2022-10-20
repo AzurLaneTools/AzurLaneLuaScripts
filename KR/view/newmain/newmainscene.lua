@@ -32,15 +32,7 @@ function slot0.PlayBGM(slot0)
 end
 
 function slot0.GetFlagShip(slot0)
-	slot1 = getProxy(PlayerProxy)
-	slot3 = slot1:getRawData()
-	slot4 = getProxy(SettingsProxy):getCurrentSecretaryIndex()
-
-	if slot1:getFlag("battle") then
-		slot2:setCurrentSecretaryIndex(math.random(#slot3.characters))
-	end
-
-	return getProxy(BayProxy):RawGetShipById(slot3.characters[slot4])
+	return getProxy(PlayerProxy):getRawData():GetFlagShip()
 end
 
 function slot0.PlayBgm(slot0, slot1)
@@ -195,12 +187,12 @@ function slot0.SwitchToNextShip(slot0)
 		return
 	end
 
-	if slot0.iconView.ship.skinId ~= getProxy(BayProxy):RawGetShipById(getProxy(PlayerProxy):getRawData().characters[getProxy(SettingsProxy):rotateCurrentSecretaryIndex()]).skinId then
-		slot0.bgView:Refresh(slot3)
-		slot0:PlayBgm(slot3)
-		slot0.iconView:Refresh(slot3)
-		slot0.paintingView:Refresh(slot3, false)
-		slot0.effectView:Refresh(slot3)
+	if slot0.iconView.ship.skinId ~= getProxy(PlayerProxy):getRawData():GetNextFlagShip().skinId then
+		slot0.bgView:Refresh(slot2)
+		slot0:PlayBgm(slot2)
+		slot0.iconView:Refresh(slot2)
+		slot0.paintingView:Refresh(slot2, false)
+		slot0.effectView:Refresh(slot2)
 	end
 end
 

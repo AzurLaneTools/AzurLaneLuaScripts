@@ -22,28 +22,44 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot0:fun(slot5, 1, slot6)
+	slot11 = getProxy(EquipmentProxy):GetSpWeaponCapacity()
+	slot12 = getProxy(EquipmentProxy):GetSpWeaponCount()
+
+	if slot5:GetSpWeapon() and slot11 <= slot12 then
+		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), OpenSpWeaponPage, gotoChargeScene)
+
+		return
+	end
+
+	slot0:fun(slot5, 1, slot6, function ()
+		if uv0 then
+			uv1:sendNotification(GAME.EQUIP_SPWEAPON_TO_SHIP, {
+				shipId = uv2
+			})
+		end
+	end)
 end
 
-function slot0.fun(slot0, slot1, slot2, slot3)
+function slot0.fun(slot0, slot1, slot2, slot3, slot4)
 	if slot3 < slot2 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequip_all_success"))
 		slot0:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, slot1)
+		existCall(slot4)
 
 		return
 	end
 
-	slot4 = getProxy(BayProxy)
+	slot5 = getProxy(BayProxy)
 
 	if not slot1:getEquip(slot2) then
-		slot0:fun(slot1, slot2 + 1, slot3)
+		slot0:fun(slot1, slot2 + 1, slot3, slot4)
 
 		return
 	end
 
-	slot6 = pg.ConnectionMgr.GetInstance()
+	slot7 = pg.ConnectionMgr.GetInstance()
 
-	slot6:Send(12006, {
+	slot7:Send(12006, {
 		equip_id = 0,
 		type = 0,
 		ship_id = slot1.id,
@@ -53,7 +69,7 @@ function slot0.fun(slot0, slot1, slot2, slot3)
 			uv0:updateEquip(uv1, nil)
 			uv2:updateShip(uv0)
 			getProxy(EquipmentProxy):addEquipment(uv3)
-			uv4:fun(uv0, uv1 + 1, uv5)
+			uv4:fun(uv0, uv1 + 1, uv5, uv6)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
 		end

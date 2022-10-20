@@ -41,6 +41,10 @@ function slot0.GetConfigID(slot0)
 	return slot0.configId
 end
 
+function slot0.GetOrigin(slot0)
+	return slot0:getConfig("base") or slot0:GetConfigID()
+end
+
 function slot0.IsImportant(slot0)
 	return slot0:getConfig("important") == 2
 end
@@ -91,6 +95,10 @@ function slot0.GetEffect(slot0)
 	return slot0:getConfig("effect_id")
 end
 
+function slot0.GetDisplayEffect(slot0)
+	return slot0:getConfig("effect_id_display")
+end
+
 function slot0.GetUpgradableSkillIds(slot0)
 	return slot0:getConfig("skill_upgrade")
 end
@@ -129,34 +137,42 @@ function slot0.GetSkill(slot0)
 end
 
 function slot0.GetSkillInfo(slot0)
-	return {
+	slot1.unlock = ({
 		lv = 1,
-		skillId = slot0:GetEffect()
-	}
+		skillId = slot0:GetDisplayEffect()
+	}).skillId == slot0:GetEffect()
+
+	return slot1
 end
 
 function slot0.GetUpgradableSkillInfo(slot0)
 	slot1 = 0
 	slot2 = 1
+	slot3 = false
 
 	if slot0:GetShipId() then
-		slot5, slot6 = slot0:GetActiveUpgradableSkill(getProxy(BayProxy):getShipById(slot3))
-		slot1 = slot5 or slot1
+		slot6, slot7 = slot0:GetActiveUpgradableSkill(getProxy(BayProxy):getShipById(slot4))
 
-		if slot4 and slot4.skills[slot6] then
-			slot2 = slot7.level or slot2
+		if slot6 then
+			slot1 = slot6
+
+			if slot5 and slot5.skills[slot7] then
+				slot2 = slot8.level or slot2
+			end
+
+			slot3 = true
 		end
 	end
 
-	if slot1 == 0 and slot0:GetUpgradableSkillIds()[1] then
-		slot1 = slot4[2] or slot1
+	if slot1 == 0 and slot0:GetUpgradableSkillIds()[1] and slot5[2] then
+		slot1 = slot5[2]
+		slot3 = slot5[1] ~= 0
 	end
-
-	slot4 = slot1 > 0 and getSkillConfig(slot1) or nil
 
 	return {
 		skillId = slot1,
-		lv = slot2
+		lv = slot2,
+		unlock = slot3
 	}
 end
 

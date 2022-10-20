@@ -145,7 +145,7 @@ function slot7.setWeapon(slot0, slot1)
 				for slot7 = 1, uv0[uv1] do
 					slot9 = uv2:AddWeapon(slot0, slot1, slot2, uv3, uv1):GetTemplateData().type
 
-					if slot7 <= uv4 and (slot9 == uv5.POINT_HIT_AND_LOCK or slot9 == uv5.MANUAL_MISSILE or slot9 == uv5.MANUAL_TORPEDO or slot9 == uv5.DISPOSABLE_TORPEDO) then
+					if slot7 <= uv4 and (slot9 == uv5.POINT_HIT_AND_LOCK or slot9 == uv5.MANUAL_MISSILE or slot9 == uv5.MANUAL_METEOR or slot9 == uv5.MANUAL_TORPEDO or slot9 == uv5.DISPOSABLE_TORPEDO) then
 						slot8:SetModifyInitialCD()
 					end
 
@@ -216,7 +216,7 @@ function slot7.AddWeapon(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot7:SetEquipmentLabel(slot2)
 	end
 
-	if slot7:GetTemplateData().type == uv1.POINT_HIT_AND_LOCK or slot8 == uv1.MANUAL_MISSILE then
+	if slot7:GetTemplateData().type == uv1.POINT_HIT_AND_LOCK or slot8 == uv1.MANUAL_METEOR or slot8 == uv1.MANUAL_MISSILE then
 		slot0._chargeList[#slot0._chargeList + 1] = slot7
 
 		slot0._weaponQueue:AppendChargeWeapon(slot7)
@@ -263,7 +263,7 @@ function slot7.RemoveWeapon(slot0, slot1)
 				break
 			end
 		end
-	elseif slot2 ~= uv1.POINT_HIT_AND_LOCK then
+	elseif slot2 ~= uv1.POINT_HIT_AND_LOCK and slot2 ~= uv1.MANUAL_METEOR then
 		if slot2 == uv1.MANUAL_MISSILE then
 			-- Nothing
 		elseif slot2 == uv1.MANUAL_TORPEDO then
@@ -341,7 +341,7 @@ function slot7.RemoveWeaponByLabel(slot0, slot1)
 				break
 			end
 		end
-	elseif slot3 ~= uv0.POINT_HIT_AND_LOCK then
+	elseif slot3 ~= uv0.POINT_HIT_AND_LOCK and slot3 ~= uv0.MANUAL_METEOR then
 		if slot3 == uv0.MANUAL_MISSILE then
 			-- Nothing
 		elseif slot3 == uv0.MANUAL_TORPEDO then

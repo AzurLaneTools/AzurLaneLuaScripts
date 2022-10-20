@@ -1,7 +1,8 @@
 slot0 = class("SpWeaponUpgradeMediator", import("view.base.ContextMediator"))
-slot0.EQUIPMENT_UPGRADE = "EquipUpgradeMediator:EQUIPMENT_UPGRADE"
-slot0.EQUIPMENT_COMPOSITE = "EquipUpgradeMediator:EQUIPMENT_COMPOSITE"
-slot0.OPEN_EQUIPMENT_INDEX = "EquipUpgradeMediator:OPEN_EQUIPMENT_INDEX"
+slot0.EQUIPMENT_UPGRADE = "SpWeaponUpgradeMediator:EQUIPMENT_UPGRADE"
+slot0.EQUIPMENT_COMPOSITE = "SpWeaponUpgradeMediator:EQUIPMENT_COMPOSITE"
+slot0.OPEN_EQUIPMENT_INDEX = "SpWeaponUpgradeMediator:OPEN_EQUIPMENT_INDEX"
+slot0.ON_SKILLINFO = "SpWeaponUpgradeMediator:ON_SKILLINFO"
 
 function slot0.register(slot0)
 	slot0:BindEvent()
@@ -21,7 +22,13 @@ function slot0.register(slot0)
 end
 
 function slot0.UpdateSpWeapons(slot0)
-	slot0.viewComponent:SetSpWeaponList(_.values(getProxy(EquipmentProxy):GetSpWeapons()))
+	slot1 = getProxy(BayProxy):GetSpWeaponsInShips()
+
+	for slot6, slot7 in ipairs(_.values(getProxy(EquipmentProxy):GetSpWeapons())) do
+		table.insert(slot1, slot7)
+	end
+
+	slot0.viewComponent:SetSpWeaponList(slot1)
 end
 
 function slot0.BindEvent(slot0)
@@ -45,6 +52,19 @@ function slot0.BindEvent(slot0)
 			viewComponent = CustomIndexLayer,
 			mediator = CustomIndexMediator,
 			data = slot1
+		}))
+	end)
+	slot0:bind(uv0.ON_SKILLINFO, function (slot0, slot1, slot2, slot3)
+		uv0:addSubLayers(Context.New({
+			mediator = SkillInfoMediator,
+			viewComponent = SpWeaponSkillInfoLayer,
+			data = {
+				unlock = slot2,
+				skillId = slot1,
+				skillOnShip = {
+					level = slot3
+				}
+			}
 		}))
 	end)
 end
@@ -86,6 +106,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateRes(getProxy(PlayerProxy):getData())
 	elseif slot2 == EquipmentProxy.SPWEAPONS_UPDATED then
 		slot0:UpdateSpWeapons()
+		slot0.viewComponent:UpdateCraftTargetCount()
 	end
 end
 

@@ -66,6 +66,12 @@ function slot1.onBulletHit(slot0, slot1, slot2, slot3)
 	end
 end
 
+function slot1.onAttach(slot0, slot1, slot2)
+	onDelayTick(function ()
+		uv0.super.onAttach(uv1, uv2, uv3)
+	end, 0.03)
+end
+
 function slot1.onTrigger(slot0, slot1, slot2)
 	if slot0:CalcNumber(slot1) > 0 then
 		slot3 = math.floor(slot3 * slot1:GetAttrByName("healingRate"))

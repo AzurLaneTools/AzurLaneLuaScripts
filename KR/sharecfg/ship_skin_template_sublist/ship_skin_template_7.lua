@@ -1,5 +1,221 @@
 pg = pg or {}
 pg.ship_skin_template_7 = {
+	[205031] = {
+		ship_group = 20503,
+		name = "달의 마녀 ",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = 19,
+		bg = "",
+		id = 205031,
+		group_index = 1,
+		prefab = "naerxun_2",
+		painting = "naerxun_2",
+		shop_id = 70116,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 8,
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "이 의상……하아, 됐어. 모처럼 만의 축제인데, 여흥이 없으면 분위기가 깨질 거 아냐. 말해두겠지만, 딱히 참가하고 싶어서 온 건 아니라고! ",
+		voice_actor = 13,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2,
+					0.88,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.98,
+					0.89,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.58,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.44,
+							-0.09
+						}
+					}
+				}
+			}
+		}
+	},
+	[205032] = {
+		ship_group = 20503,
+		name = "파랑과 금빛의 여름 라이트",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "114",
+		id = 205032,
+		group_index = 2,
+		prefab = "naerxun_3",
+		painting = "naerxun_3",
+		shop_id = 70691,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 10,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "…너, 제대로 즐기고 있는 거 맞아? 모처럼 불러냈는데, 네가 즐겁지 않으면 꿈자리가 사나우니까, 제대로 좀 즐겨봐! 뒤 좀 보라고? 응? 앗…!",
+		voice_actor = 13,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.684,
+					1.128,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.657,
+					1.048,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.447,
+							2.357,
+							-0.09
+						}
+					}
+				}
+			}
+		}
+	},
 	[205040] = {
 		ship_group = 20504,
 		name = "로드니",
@@ -9786,236 +10002,6 @@ pg.ship_skin_template_7 = {
 						{
 							-0.45,
 							2.442,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301040] = {
-		ship_group = 30104,
-		name = "미유키",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301040,
-		group_index = 0,
-		prefab = "shenxue",
-		painting = "shenxue",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "특I형 후부키급 구축함 4번함 - 미유키",
-		voice_actor = 342,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.628,
-					1.241,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.482,
-					1.155,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.491,
-					1.043,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.4,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301041] = {
-		ship_group = 30104,
-		name = "쇼핑 데이트 타임",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "160",
-		id = 301041,
-		group_index = 1,
-		prefab = "shenxue_2",
-		painting = "shenxue_2",
-		shop_id = 70743,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 17,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관, 이쪽 건 더 싸지 않을까…? 음… 예산이 좀 남아서 여러가지 더 살 수 있을 거야. 게, 게다가 미유키도 지휘관이랑 좀 더 쇼핑을 즐기고 싶… 아무것도 아니야…///",
-		voice_actor = 342,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.629,
-					1.327,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.482,
-					1.189,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.353,
-					0.897,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.391,
-							2.297,
 							0
 						}
 					}

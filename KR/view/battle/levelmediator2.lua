@@ -422,9 +422,10 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ENTER_WORLD, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
 	end)
-	slot0:bind(uv0.ON_CHAPTER_REMASTER_AWARD, function (slot0, slot1)
+	slot0:bind(uv0.ON_CHAPTER_REMASTER_AWARD, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.CHAPTER_REMASTER_AWARD_RECEIVE, {
-			chapterId = slot1
+			chapterId = slot1,
+			pos = slot2
 		})
 	end)
 	slot0:bind(uv0.ON_OPEN_ACT_BOSS_BATTLE, function (slot0)

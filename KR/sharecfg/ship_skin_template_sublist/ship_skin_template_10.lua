@@ -1,5 +1,235 @@
 pg = pg or {}
 pg.ship_skin_template_10 = {
+	[302070] = {
+		ship_group = 30207,
+		name = "유라",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 302070,
+		group_index = 0,
+		prefab = "youliang",
+		painting = "youliang",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "나가라급 경순양함 4번함・유라",
+		voice_actor = 287,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.328,
+					1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.261,
+					1.019,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.004,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.441,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.25,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[302071] = {
+		ship_group = 30207,
+		name = "이중 유혹?",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 302071,
+		group_index = 1,
+		prefab = "youliang_2",
+		painting = "youliang_2",
+		shop_id = 70594,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 16,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "음...... 이 옷차림은 정말 대담해 보여요, 게다가 부끄럽고...... 저, 지휘관님, 지금 제 모습 좀 이상하지 않나요...?",
+		voice_actor = 287,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.48,
+					0.981,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.47,
+					1.009,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.009,
+					0.004,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.48,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.25,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[302080] = {
 		ship_group = 30208,
 		name = "키누",
@@ -9994,234 +10224,6 @@ pg.ship_skin_template_10 = {
 						{
 							-0.38,
 							2.24,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304070] = {
-		ship_group = 30407,
-		name = "꼬마 아마기",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 304070,
-		group_index = 0,
-		prefab = "tiancheng_younv",
-		painting = "tiancheng_younv",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "아마기급 순양전함 1번함 - 아마기",
-		voice_actor = 104,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.473,
-					1.002,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.47,
-					0.999,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.003,
-					-0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.485,
-					1.001,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.426,
-							2.297,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305010] = {
-		ship_group = 30501,
-		name = "후소",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 305010,
-		group_index = 0,
-		prefab = "fusang",
-		painting = "fusang",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 22,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "후소형 전함 1번함·후소",
-		voice_actor = 71,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.1,
-					1.3,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.1,
-					0.43,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.27,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.1,
-					0.43,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.42,
 							0
 						}
 					}

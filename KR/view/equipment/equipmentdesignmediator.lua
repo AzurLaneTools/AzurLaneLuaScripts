@@ -20,6 +20,17 @@ function slot0.register(slot0)
 	slot3 = slot0.viewComponent
 
 	slot3:setPlayer(slot2:getData())
+
+	slot3 = slot0:getFacade()
+	slot3 = slot3:retrieveMediator(EquipmentMediator.__cname)
+	slot4 = slot3:getViewComponent()
+	slot5 = slot0.viewComponent
+
+	slot5:SetParentTF(slot4._tf)
+
+	slot5 = slot0.viewComponent
+
+	slot5:SetTopContainer(slot4.topPanel)
 	slot0:bind(uv0.MAKE_EQUIPMENT, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.COMPOSITE_EQUIPMENT, {
 			id = slot1,

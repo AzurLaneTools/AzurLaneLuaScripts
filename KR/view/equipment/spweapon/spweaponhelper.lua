@@ -6,23 +6,23 @@ function slot1(slot0, slot1)
 	end
 
 	slot3 = slot1.name
+	slot4 = slot1.value
 
-	setActive(slot2, slot1.value or slot1.effect)
+	setActive(slot2, slot4)
 
-	if not slot4 and not slot5 then
+	if not slot4 then
 		return
 	end
 
 	setText(slot2.Find(slot2, "name"), slot3)
 
 	if not IsNil(slot2.Find(slot2, "value")) then
-		setActive(slot2.Find(slot2, "value"), slot4)
-		setText(slot2.Find(slot2, "value"), slot4)
+		setActive(slot2:Find("value"), slot4)
+		setText(slot2:Find("value"), slot4)
 	end
 
 	if not IsNil(slot2.Find(slot2, "effect")) then
-		setActive(slot2.Find(slot2, "effect"), slot5)
-		setText(slot2.Find(slot2, "effect"), slot5)
+		setActive(slot2.Find(slot2, "effect"), false)
 	end
 
 	setActive(slot2:Find("value/up"), slot1.compare and slot1.compare > 0)
@@ -75,18 +75,30 @@ function updateSpWeaponInfo(slot0, slot1, slot2)
 	slot4 = {}
 
 	if slot2[1].skillId > 0 then
+		slot5 = getSkillDesc(slot2[1].skillId, slot2[1].lv)
+
+		if not slot2[1].unlock then
+			slot5 = setColorStr(i18n("spweapon_tip_skill_locked") .. slot5, "#a2a2a2")
+		end
+
 		table.insert(slot4, {
 			name = i18n("spweapon_attr_effect"),
-			value = setColorStr(getSkillName(slot2[1].skillId), "#FFDE00FF"),
-			desc = getSkillDesc(slot2[1].skillId, slot2[1].lv)
+			value = setColorStr(getSkillName(slot2[1].skillId), slot2[1].unlock and "#FFDE00FF" or "#A2A2A2"),
+			desc = slot5
 		})
 	end
 
 	if slot2[2].skillId > 0 then
+		slot5 = getSkillDesc(slot2[2].skillId, slot2[2].lv)
+
+		if not slot2[2].unlock then
+			slot5 = setColorStr(i18n("spweapon_tip_skill_locked") .. slot5, "#a2a2a2")
+		end
+
 		table.insert(slot4, {
 			name = i18n("spweapon_attr_skillupgrade"),
-			value = setColorStr(getSkillName(slot2[2].skillId), "#FFDE00FF"),
-			desc = getSkillDesc(slot2[2].skillId, slot2[2].lv)
+			value = setColorStr(getSkillName(slot2[2].skillId), slot2[2].unlock and "#FFDE00FF" or "#A2A2A2"),
+			desc = slot5
 		})
 	end
 
@@ -129,28 +141,6 @@ function updateSpWeaponInfo(slot0, slot1, slot2)
 		setActive(slot14:Find("sub"), slot8[slot13] and not slot7[slot13])
 		setImageAlpha(slot14, not slot7[slot13] and not slot8[slot13] and 0.3 or 1)
 	end
-end
-
-function updateSpWeaponUpgradeInfo(slot0, slot1, slot2)
-	uv0(slot0.Find(slot0, "attrs"), slot0.Find(slot0, "attr_tpl"), slot1)
-
-	slot4 = {}
-
-	if slot2[1].skillId > 0 then
-		table.insert(slot4, {
-			name = i18n("spweapon_attr_effect"),
-			effect = getSkillName(slot2[1].skillId)
-		})
-	end
-
-	if slot2[2].skillId > 0 then
-		table.insert(slot4, {
-			name = i18n("spweapon_attr_skillupgrade"),
-			effect = getSkillName(slot2[2].skillId)
-		})
-	end
-
-	uv1(slot0.Find(slot0, "attrs"), slot3, slot4)
 end
 
 function slot6(slot0)

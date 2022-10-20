@@ -2202,7 +2202,7 @@ pg.activity_shop_extra = {
 		id = 92,
 		num = 1,
 		num_limit = 1,
-		order = 15,
+		order = 721,
 		scene = {
 			"crusing",
 			{}
@@ -2212,7 +2212,7 @@ pg.activity_shop_extra = {
 				{
 					2022,
 					10,
-					1
+					8
 				},
 				{
 					0,
@@ -2223,8 +2223,8 @@ pg.activity_shop_extra = {
 			{
 				{
 					2022,
-					11,
-					30
+					12,
+					7
 				},
 				{
 					23,

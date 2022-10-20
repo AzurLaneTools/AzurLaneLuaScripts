@@ -255,14 +255,12 @@ function slot0.execute(slot0, slot1)
 
 				if uv0.effect_args == ShopArgs.EffecetShipBagSize then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("shop_extendship_success"))
-				end
-
-				if uv0.effect_args == ShopArgs.EffecetEquipBagSize then
+				elseif uv0.effect_args == ShopArgs.EffecetEquipBagSize then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("shop_extendequip_success"))
-				end
-
-				if uv0.effect_args == ShopArgs.EffectCommanderBagSize then
+				elseif uv0.effect_args == ShopArgs.EffectCommanderBagSize then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("shop_extendcommander_success"))
+				elseif uv0.effect_args == ShopArgs.EffectSpWeaponBagSize then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("shop_spweapon_success"))
 				end
 
 				uv3:sendNotification(GAME.SHOPPING_DONE, {

@@ -1,5 +1,238 @@
 pg = pg or {}
 pg.ship_skin_template_12 = {
+	[307071] = {
+		ship_group = 30707,
+		name = "금단의 연회",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "107",
+		id = 307071,
+		group_index = 1,
+		prefab = "dafeng_2",
+		painting = "dafeng_2",
+		shop_id = 70104,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = 14,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관님, 옷 갈아입는데 그렇게 시간이 걸리다니, {namecode:97}에게 어울리는 옷을 고르시느라 고생하신 건가요…? 후후, 지휘관님이 어떤 모습을 하셔도, {namecode:97}는 전부 좋아한답니다♡",
+		voice_actor = 145,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			-30,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.74,
+					1.24,
+					0
+				}
+			},
+			plane = {
+				{
+					0.7,
+					1.16,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		}
+	},
+	[307072] = {
+		ship_group = 30707,
+		name = "봉황의 노래",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "128",
+		id = 307072,
+		group_index = 2,
+		prefab = "dafeng_4",
+		painting = "dafeng_4",
+		shop_id = 70302,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = 14,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "우후후. 크리스마스와 정월을 그냥 넘긴 것은 설날에 지휘관님의 시선을 사로잡겠다는 다이호의 비책—— 지휘관님, 다이호가 준비한 공연을 즐겨주세요❤",
+		voice_actor = 145,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			-10,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.93,
+					1.24,
+					0
+				}
+			},
+			plane = {
+				{
+					0.02,
+					0.06,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		}
+	},
 	[307073] = {
 		ship_group = 30707,
 		name = "사랑의 파트너",
@@ -4504,6 +4737,122 @@ pg.ship_skin_template_12 = {
 						{
 							-0.82,
 							1.8,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[331055] = {
+		ship_group = 30105,
+		name = "다이나믹 킥！",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "158",
+		id = 331055,
+		group_index = 15,
+		prefab = "lingbo_15",
+		painting = "lingbo_15",
+		shop_id = 70761,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "필살, 다이나믹 킥!… 아, 스킬 목표가 잘못되었네요… 죄송해요, 다시 해봐도 될까요?",
+		voice_actor = 32,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.92,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.95,
+					1.03,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.008,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					1.26,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.24,
 							0
 						}
 					}
@@ -9558,361 +9907,6 @@ pg.ship_skin_template_12 = {
 							0.6,
 							2.59,
 							-0.38
-						}
-					}
-				}
-			}
-		}
-	},
-	[402029] = {
-		ship_group = 40202,
-		name = "카를스루에·改",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 402029,
-		group_index = 9,
-		prefab = "kaersilue_g",
-		painting = "kaersilue_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9997,
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관, 봐봐 이 새 장비! 엄청 강해 보이는데다가 도색도 번쩍번쩍해! 이제 폭풍을 만나도 괜찮을…지도!",
-		voice_actor = 78,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.16,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.1,
-					0.19,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.16,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.43,
-							2.52,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[402030] = {
-		ship_group = 40203,
-		name = "쾰른",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 402030,
-		group_index = 0,
-		prefab = "kelong",
-		painting = "kelong",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "쾨니히스베르크급 경순양함·쾰른",
-		voice_actor = 78,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.92,
-					0.75,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.92,
-					0.75,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.23,
-					0.23,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.44,
-					0.94,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.57,
-							0.81,
-							-0.568
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.606,
-							-0.472
-						}
-					}
-				}
-			}
-		}
-	},
-	[402039] = {
-		ship_group = 40203,
-		name = "쾰른·改 ",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 402039,
-		group_index = 9,
-		prefab = "kelong_g",
-		painting = "kelong_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9997,
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "네, 이전보다 더욱 능숙하게 집무를 보좌해드릴 수 있을 것 같아요. 지휘관님, 안심해주세요. 저를 중요한 직책에 임명하신 지휘관님의 기대, 쾰른은 절대로 배신하지 않을게요. ",
-		voice_actor = 78,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.24,
-					0.389,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.216,
-					0.372,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.008,
-					0.041,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.25,
-					0.4,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.401,
-							-0.472
 						}
 					}
 				}

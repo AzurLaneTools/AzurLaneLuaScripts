@@ -128277,6 +128277,164 @@ _G.pg.base.aircraft_template[630060] = {
 	}
 }
 
+_G.pg.base.aircraft_template[630206] = {
+	attack_power = 2,
+	name = "【2022异世界勇者】带魔王 史莱姆浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_shilaimu",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 630206,
+	icon = "feiji_shilaimu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 20000,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 12,
+		stay = 2
+	},
+	weapon_ID = {
+		630208
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[630207] = {
+	attack_power = 2,
+	name = "【2022异世界勇者】带魔王 史莱姆浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_shilaimu",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	nationality = 3,
+	id = 630207,
+	icon = "feiji_shilaimu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 20000,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 12,
+		stay = 2
+	},
+	weapon_ID = {
+		630209
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.base.aircraft_template[650010] = {
 	attack_power = 2,
 	name = "【2020法系活动A2】精英贝亚恩级量产型 战斗机",

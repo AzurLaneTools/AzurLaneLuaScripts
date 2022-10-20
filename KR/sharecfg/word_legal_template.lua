@@ -7113,6 +7113,11 @@ function temp()
 					["셔"] = {
 						this = true
 					}
+				},
+				["슈"] = {
+					["피"] = {
+						this = true
+					}
 				}
 			}
 		}

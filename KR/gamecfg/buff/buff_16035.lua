@@ -12,7 +12,7 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
-	time = 10,
+	time = 5,
 	color = "red",
 	picture = "",
 	desc = "",

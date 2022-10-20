@@ -3354,6 +3354,26 @@ _G.pg.base.gametip.spweapon_activity_ui_text2 = {
 	tip = "*「특수 장비 코어」, 「특수 장비 강화석」은 특수 장비 제작, 강화에 사용됩니다."
 }
 
+_G.pg.base.gametip.spweapon_tip_skill_locked = {
+	tip = "(미해제)"
+}
+
+_G.pg.base.gametip.spweapon_tip_owned = {
+	tip = "보유중: $1"
+}
+
+_G.pg.base.gametip.spweapon_tip_view = {
+	tip = "<material=underline event=displayDetail>상세 확인</material>"
+}
+
+_G.pg.base.gametip.spweapon_tip_ship = {
+	tip = "장비 함선"
+}
+
+_G.pg.base.gametip.spweapon_tip_type = {
+	tip = "장비 함종"
+}
+
 _G.pg.base.gametip.stage_beginStage_error = {
 	tip = "스테이지 개시 실패："
 }
@@ -6114,6 +6134,10 @@ _G.pg.base.gametip.shop_extendship_success = {
 
 _G.pg.base.gametip.shop_extendequip_success = {
 	tip = "창고 확장 성공"
+}
+
+_G.pg.base.gametip.shop_spweapon_success = {
+	tip = "특수 장비 슬롯 확장 성공"
 }
 
 _G.pg.base.gametip.naval_academy_res_desc_cateen = {
@@ -9758,15 +9782,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:175} 건조추가！"
+	tip = "볼티모어(μ장비) 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:50}、{namecode:203} 건조추가！"
+	tip = "다이도(μ장비), 타슈켄트(μ장비) 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "U-110 건조 추가!"
+	tip = "{namecode:190}, 알바코어(μ장비) 건조 추가!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -12905,6 +12929,25 @@ _G.pg.base.gametip.secretary_help = {
 		},
 		{
 			info = "6. 메인 화면에서 전환 기능을 통해 현재 나타난 비서함을 변경할 수 있습니다.\n"
+		},
+		{
+			info = "· 랜덤 비서함 기능 설명:\n"
+		},
+		{
+			info = "1. 랜덤 비서함 기능 설정 후, 상용 캐릭터 또는 고정 캐릭터 중 랜덤 비서함 캐릭터를 랜덤으로 선택합니다."
+		},
+		{
+			info = "2. 랜덤 비서함은 매일 8시와 19시마다 변경되며, 랜덤 설정 가능한 캐릭터가 부족할 경우, 기능이 자동 해제됩니다."
+		},
+		{
+			info = [[
+3. 랜덤 비서함 기능 설정 기간 동안, 기존 비서함 캐릭터 중 가장 왼쪽의 비서함은 비서함 호감도 보너스를 획득합니다.
+·기존 비서함 캐릭터를 확인할 수 있으며 변경, 드래그 조작이 가능합니다.
+·랜덤 비서함 캐릭터는 변경, 드래그 조작이 불가능합니다.
+·모항 귀환 시 랜덤 비서함 멤버 중 1명이 랜덤으로 나타납니다.]]
+		},
+		{
+			info = "4. 랜덤 비서함 기능 해제 후, 기존 비서함 캐릭터로 되돌아옵니다."
 		}
 	}
 }
@@ -13597,6 +13640,10 @@ _G.pg.base.gametip.index_awakening = {
 
 _G.pg.base.gametip.index_not_lvmax = {
 	tip = "레벨 부족"
+}
+
+_G.pg.base.gametip.index_spweapon = {
+	tip = "특수 장비"
 }
 
 _G.pg.base.gametip.decodegame_gametip = {
@@ -17226,7 +17273,7 @@ _G.pg.base.gametip.world_boss_maintenance = {
 }
 
 _G.pg.base.gametip.world_boss_inbattle = {
-	tip = "현재 비콘·META 작전 중. 이동 불가."
+	tip = "현재 전투 중, 이동 불가."
 }
 
 _G.pg.base.gametip.world_automode_title_1 = {
@@ -20903,6 +20950,10 @@ _G.pg.base.gametip.technology_queue_in_doublecheck = {
 	tip = "해당 연구 항목을 대열에 추가하시겠습니까? 대열에 추가된 연구 항목은 순서대로 완료되며 취소할 수 없습니다."
 }
 
+_G.pg.base.gametip.playervtae_setting_btn_label = {
+	tip = "설정하기"
+}
+
 _G.pg.base.gametip.technology_queue_in_success = {
 	tip = "대열 추가 성공"
 }
@@ -21092,4 +21143,96 @@ _G.pg.base.gametip.cook_game_noshiro = {
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "디저트 2개 전달 성공 시마다 1점 추가 득점"
+}
+
+_G.pg.base.gametip.random_ship_on = {
+	tip = "랜덤 비서함 기능 설정됨"
+}
+
+_G.pg.base.gametip.random_ship_off_0 = {
+	tip = "현재 랜덤 설정 가능한 캐릭터 수량이 부족하여 랜덤 비서함 기능이 자동 해제되었습니다."
+}
+
+_G.pg.base.gametip.random_ship_off = {
+	tip = "랜덤 비서함 기능 해제됨. 비서함 캐릭터가 복귀하였습니다."
+}
+
+_G.pg.base.gametip.random_ship_forbidden = {
+	tip = "랜덤 비서함 기능 설정됨. 랜덤 비서함 조작 불가."
+}
+
+_G.pg.base.gametip.random_ship_now = {
+	tip = "기존 비서함 확인"
+}
+
+_G.pg.base.gametip.random_ship_label = {
+	tip = "랜덤 비서함"
+}
+
+_G.pg.base.gametip.player_vitae_skin_setting = {
+	tip = "스킨 설정"
+}
+
+_G.pg.base.gametip.random_ship_tips1 = {
+	tip = "랜덤 비서함은 매일 8시와 19시에 랜덤으로 변경됩니다."
+}
+
+_G.pg.base.gametip.random_ship_tips2 = {
+	tip = "기존 비서함을 변경할 수 있습니다."
+}
+
+_G.pg.base.gametip.random_ship_before = {
+	tip = "랜덤 비서함으로 돌아가기"
+}
+
+_G.pg.base.gametip.random_ship_and_skin_title = {
+	tip = "비서팀 캐릭터 랜덤 범위"
+}
+
+_G.pg.base.gametip.random_ship_frequse_mode = {
+	tip = "상용 캐릭터"
+}
+
+_G.pg.base.gametip.random_ship_locked_mode = {
+	tip = "캐릭터 고정"
+}
+
+_G.pg.base.gametip.littleSpee_npc = {
+	tip = {
+		{
+			info = "「꼬마 그라프 슈피 추격전 설명:"
+		},
+		{
+			info = "1. 이벤트 기간 동안 임시 NPC 캐릭터 「꼬마 슈피」를 획득할 수 있습니다. 임시 캐릭터는 서약, 퇴역 및 강화 재료로 선택이 불가능합니다."
+		},
+		{
+			info = "2. 이벤트 기간 동안, 일반 난이도 메인 스테이지 제3장 이후의 해역의 기함을 처치하면 「정보Pt」 보상을 획득합니다. 「정보Pt」를 분석하면 임시 NPC 캐릭터 「꼬마 슈피」의 호감도가 누적됩니다."
+		},
+		{
+			info = "3. 「꼬마 슈피」와 함께 스테이지에 출격 및 클리어 후 생존 시 「정보Pt」를 2배로 획득합니다."
+		},
+		{
+			info = "4. 10월 26일까지 매일 달성 가능한 호감도 단계가 1개씩 해제됩니다."
+		},
+		{
+			info = "5. 이벤트 종료 전까지 호감도 1000 누적 획득 시, 보상을 수령하며 임시 캐릭터 「꼬마 슈피」가 영구 캐릭터로 전환됩니다."
+		},
+		{
+			info = "6. 이벤트 종료 후, 전환되지 않은 임시 캐릭터 「꼬마 슈피」는 모항을 떠나며 이미 소모한 강화, 돌파 등 육성 재료는 반환되지 않습니다."
+		},
+		{
+			info = "7. NPC 캐릭터는 대형 작전에 참여할 수 없습니다."
+		},
+		{
+			info = "8. NPC 캐릭터는 대함대 작전 내의 사건 파견, 지원 파견, 보스전에 참여할 수 없습니다."
+		}
+	}
+}
+
+_G.pg.base.gametip.random_flag_ship = {
+	tip = "랜덤 비서함"
+}
+
+_G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
+	tip = "스킨 변경"
 }

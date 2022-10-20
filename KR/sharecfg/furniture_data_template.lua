@@ -5249,7 +5249,7 @@ pg.furniture_data_template = {
 		level = 1,
 		advice = 0,
 		effect = "",
-		tag = 6,
+		tag = 7,
 		comfortable = 4,
 		spine_action_replace = "",
 		picture = "",
@@ -5349,6 +5349,101 @@ pg.furniture_data_template = {
 			{
 				"wuzangxunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[235] = {
+		spine_extra = "",
+		describe = "이세계를 모험했다는 증명. 얻는 자에게 행운이 따를지도?",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "jinhaibaoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "선택 받은 자의 골든 소드(?)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 235,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jinhaibao",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[236] = {
+		spine_extra = "",
+		describe = "좋은 물건 싸게 판다냥. 상도의 역시 중요시한다냥~ 강화는 확률이 따르니, 신중해라냥~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "duanzaoluicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "장비 강화 용광로",
+		comfortable = 5,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 236,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"duanzaolu",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
 			}
 		},
 		interAction_group = {}
@@ -8199,6 +8294,84 @@ pg.furniture_data_template = {
 					"event:/ui/meow"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100042] = {
+		spine_extra = "",
+		describe = "평범한 빗자루가 아니에요! ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "마법 빗자루 2022 ",
+		themeId = 0,
+		icon = "feixingsaozhouicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100042,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingsaozhou",
+				"normal",
+				nil,
+				true
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -106174,6 +106347,8 @@ pg.furniture_data_template = {
 			232,
 			233,
 			234,
+			235,
+			236,
 			100002,
 			100003,
 			100004,
@@ -106214,6 +106389,7 @@ pg.furniture_data_template = {
 			100039,
 			100040,
 			100041,
+			100042,
 			200001,
 			200002,
 			200003,
@@ -106345,6 +106521,8 @@ pg.furniture_data_template = {
 			232,
 			233,
 			234,
+			235,
+			236,
 			100002,
 			100003,
 			100004,
@@ -106385,6 +106563,7 @@ pg.furniture_data_template = {
 			100039,
 			100040,
 			100041,
+			100042,
 			200001,
 			200002,
 			200003,
@@ -112811,8 +112990,8 @@ pg.furniture_data_template = {
 			225,
 			226,
 			232,
-			233,
 			234,
+			235,
 			100002,
 			100003,
 			100004,
@@ -112853,11 +113032,14 @@ pg.furniture_data_template = {
 			100039,
 			100040,
 			100041,
+			100042,
 			54104,
 			54105
 		},
 		[7] = {
 			213,
+			233,
+			236,
 			200001,
 			200002,
 			200003,
@@ -113621,6 +113803,8 @@ pg.furniture_data_template = {
 			226,
 			232,
 			234,
+			235,
+			236,
 			100002,
 			100004,
 			100005,
@@ -115175,6 +115359,7 @@ pg.furniture_data_template = {
 			100022,
 			100030,
 			100034,
+			100042,
 			30123,
 			35128,
 			36125,
@@ -115987,6 +116172,8 @@ pg.furniture_data_template = {
 		232,
 		233,
 		234,
+		235,
+		236,
 		100002,
 		100003,
 		100004,
@@ -116027,6 +116214,7 @@ pg.furniture_data_template = {
 		100039,
 		100040,
 		100041,
+		100042,
 		200001,
 		200002,
 		200003,

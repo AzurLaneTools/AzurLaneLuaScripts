@@ -134793,6 +134793,328 @@ _G.pg.base.equip_data_statistics[630060] = {
 	label = {}
 }
 
+_G.pg.base.equip_data_statistics[630221] = {
+	tech = 1,
+	name = "【2022异世界勇者】拉菲-兔兔火球主炮",
+	speciality = "투사",
+	type = 4,
+	rarity = 1,
+	ammo = 5,
+	damage = "16 x 2",
+	nationality = 0,
+	descrip = "默认装备",
+	id = 630221,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630221
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630222] = {
+	rarity = 4,
+	name = "【2022异世界勇者】标枪 普通斩击子弹",
+	speciality = "추적",
+	type = 3,
+	tech = 3,
+	ammo = 2,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630222,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "1",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630222
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		5
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630223] = {
+	rarity = 5,
+	name = "【2022异世界勇者】标枪 消弹蓄力斩击鱼雷",
+	speciality = "뇌격",
+	type = 5,
+	tech = 3,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630223,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630223
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630224] = {
+	rarity = 4,
+	name = "【2022异世界勇者】绫波 普通气功波子弹",
+	speciality = "추적",
+	type = 3,
+	tech = 3,
+	ammo = 2,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630224,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "1",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630224
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		5
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630225] = {
+	rarity = 5,
+	name = "【2022异世界勇者】绫波 蓄力气功波鱼雷",
+	speciality = "뇌격",
+	type = 5,
+	tech = 3,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630225,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630225
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630226] = {
+	rarity = 4,
+	name = "【2022异世界勇者】Z23 普通近身战斧挥砍",
+	speciality = "추적",
+	type = 3,
+	tech = 3,
+	ammo = 2,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630226,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "1",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630226
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		5
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630227] = {
+	rarity = 5,
+	name = "【2022异世界勇者】Z23 远程战斧鱼雷",
+	speciality = "뇌격",
+	type = 5,
+	tech = 3,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630227,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630227
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630228] = {
+	rarity = 4,
+	name = "【2022异世界勇者】空武器",
+	speciality = "추적",
+	type = 2,
+	tech = 3,
+	ammo = 2,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630228,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "1",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630228
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		5
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
 _G.pg.base.equip_data_statistics[650601] = {
 	tech = 0,
 	name = "【2020法系活动剧情用】双联装155mm主炮Mle1920",

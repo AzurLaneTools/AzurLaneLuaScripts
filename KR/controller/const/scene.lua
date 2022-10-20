@@ -25,10 +25,10 @@ SCENE = {
 	SKINSHOP = "scene skinshop",
 	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	LEVEL = "scene level",
+	MONOPOLY_PT = "MONOPOLY_PT",
 	BACKYARD_THEME_TEMPLATE = "backyard theme template",
-	CLASS = "scene class",
 	NEWYEAR_SQUARE = "newyear square",
-	SUMMARY = "summary",
+	CLASS = "scene class",
 	MUSIC_FESTIVAL = "music festival",
 	MONOPOLY_WORLD = "MONOPOLY WORLD",
 	DAILYLEVEL = "scene dailylevel",
@@ -53,7 +53,7 @@ SCENE = {
 	VOTE = "scene vote",
 	LOGIN = "scene login",
 	PHYSICS2D_TEST = "physics2d test",
-	MAINUI = "scene mainUI",
+	SUMMARY = "summary",
 	MUSIC_FESTIVAL2 = "music festival 2",
 	REDPACKEY = "scene RED PACKEY",
 	ACTIVITY = "scene activity",
@@ -93,11 +93,12 @@ SCENE = {
 	WORLD_COLLECTION = "world collection",
 	SNAPSHOT = "snapshot",
 	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
-	RESOLVESHIPS = "scene resolve ships",
+	MAINUI = "scene mainUI",
 	SELTECHNOLOGY = "seltechnology",
-	SHIPINFO = "scene shipinfo",
+	RESOLVESHIPS = "scene resolve ships",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
+	SHIPINFO = "scene shipinfo",
 	WORLD_FORMATION = "scene world formation",
 	CHARGE_MENU = "scene charge_menu",
 	EQUIPSCENE = "scene equip",
@@ -544,6 +545,10 @@ slot0 = {
 	[SCENE.BACKHILL_CAMPUSFESTIVAL_2022] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
 		slot0.viewComponent = BackHillCampusFestival2022Scene
+	end,
+	[SCENE.MONOPOLY_PT] = function (slot0, slot1)
+		slot0.mediator = MonopolyPtMediator
+		slot0.viewComponent = MonopolyPtScene
 	end
 }
 

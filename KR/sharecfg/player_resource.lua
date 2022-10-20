@@ -890,6 +890,16 @@ pg.player_resource = {
 		name = "union8_pt",
 		itemid = 59348
 	},
+	[280] = {
+		id = 280,
+		name = "xiaosipei_pt",
+		itemid = 59350
+	},
+	[281] = {
+		id = 281,
+		name = "yongzhe_pt",
+		itemid = 59351
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1640,6 +1650,12 @@ pg.player_resource = {
 		union8_pt = {
 			279
 		},
+		xiaosipei_pt = {
+			280
+		},
+		yongzhe_pt = {
+			281
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1949,6 +1965,8 @@ pg.player_resource = {
 		277,
 		278,
 		279,
+		280,
+		281,
 		950,
 		951,
 		952,

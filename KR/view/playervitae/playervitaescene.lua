@@ -1,4 +1,8 @@
 slot0 = class("PlayerVitaeScene", import("..base.BaseUI"))
+slot0.ON_PAGE_SWTICH = "PlayerVitaeScene:ON_PAGE_SWTICH"
+slot0.PAGE_DEFAULT = 1
+slot0.PAGE_NATIVE_SHIPS = 2
+slot0.PAGE_RANDOM_SHIPS = 3
 
 function slot0.getUIName(slot0)
 	return "PlayerVitaeUI"
@@ -45,7 +49,7 @@ function slot0.GetPlayer(slot0)
 end
 
 function slot0.GetFlagShip(slot0)
-	return getProxy(BayProxy):RawGetShipById(slot0:GetPlayer().character)
+	return slot0:GetPlayer():GetFlagShip()
 end
 
 function slot0.init(slot0)
@@ -57,6 +61,9 @@ function slot0.init(slot0)
 	slot0.painting = slot0:findTF("adapt/paint")
 	slot0.switchSkinBtn = slot0:findTF("adapt/swichSkin_btn")
 	slot0.replaceBtn = slot0:findTF("adapt/replace_btn")
+	slot0.titlt = slot0:findTF("top/frame/title")
+	slot0.titltNative = slot0:findTF("top/frame/title_native")
+	slot0.titltRandom = slot0:findTF("top/frame/title_random")
 	slot1 = slot0:findTF("detail")
 	slot0.detailCg = GetOrAddComponent(slot1, typeof(CanvasGroup))
 	slot2 = slot0:findTF("adapt/tpl")
@@ -66,7 +73,7 @@ function slot0.init(slot0)
 		PlayerVitaeBMGBtn.New(slot2),
 		PlayerVitaeLive2dBtn.New(slot2)
 	}
-	slot0.shipsPage = PlayerVitaeShipsPage.New(slot0._tf, slot0.event)
+	slot0.shipsPage = PlayerVitaeShipsPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.detailPage = PlayerVitaeDetailPage.New(slot1, slot0.event, slot0.contextData)
 	slot0.contextData.renamePage = PlayerVitaeRenamePage.New(slot0._tf, slot0.event)
 	slot0.topFrame = slot0:findTF("top/frame")
@@ -99,6 +106,11 @@ function slot0.didEnter(slot0)
 		uv0.shipsPage:ExecuteAction("Update")
 		uv0:ShowOrHideMainView(false)
 	end, SFX_PANEL)
+	slot0:bind(uv0.ON_PAGE_SWTICH, function (slot0, slot1)
+		setActive(uv0.titlt, slot1 == uv1.PAGE_DEFAULT)
+		setActive(uv0.titltNative, slot1 == uv1.PAGE_NATIVE_SHIPS)
+		setActive(uv0.titltRandom, slot1 == uv1.PAGE_RANDOM_SHIPS)
+	end)
 
 	slot1 = false
 
@@ -114,6 +126,7 @@ function slot0.didEnter(slot0)
 
 	slot0:UpdatePainting()
 	slot0.detailPage:ExecuteAction("Show", slot0:GetPlayer(), slot1)
+	slot0:emit(uv0.ON_PAGE_SWTICH, uv0.PAGE_DEFAULT)
 end
 
 function slot0.DoEnterAnimation(slot0)

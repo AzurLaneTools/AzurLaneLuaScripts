@@ -28,16 +28,16 @@ end
 
 function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_button")
-	slot0.frame = slot0:findTF("frame")
-	slot0.toggleTpl = slot0:getTpl("frame/bottom/scrollrect/tpl")
-	slot0.scrollrect = slot0:findTF("frame/bottom/scrollrect")
-	slot0.toggleContainer = slot0:findTF("frame/bottom/scrollrect/toggle_list")
-	slot0.pageContainer = slot0:findTF("frame/viewContainer")
+	slot0.frame = slot0:findTF("blur_panel/frame")
+	slot0.toggleTpl = slot0:getTpl("blur_panel/frame/bottom/scrollrect/tpl")
+	slot0.scrollrect = slot0:findTF("blur_panel/frame/bottom/scrollrect")
+	slot0.toggleContainer = slot0:findTF("blur_panel/frame/bottom/scrollrect/toggle_list")
+	slot0.pageContainer = slot0:findTF("blur_panel/frame/viewContainer")
 	slot0.stamp = slot0:findTF("stamp")
-	slot0.switchBtn = slot0:findTF("frame/switch_btn")
-	slot0.skinBtn = slot0:findTF("frame/skin_btn")
-	slot0.rightArr = slot0:findTF("frame/bottom/right_arr")
-	slot0.leftArr = slot0:findTF("frame/bottom/left_arr")
+	slot0.switchBtn = slot0:findTF("blur_panel/frame/switch_btn")
+	slot0.skinBtn = slot0:findTF("blur_panel/frame/skin_btn")
+	slot0.rightArr = slot0:findTF("blur_panel/frame/bottom/right_arr")
+	slot0.leftArr = slot0:findTF("blur_panel/frame/bottom/left_arr")
 	slot0.pages = {
 		[uv0.TYPE_ACTIVITY] = ActivityShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
 		[uv0.TYPE_SHOP_STREET] = StreetShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
@@ -50,12 +50,14 @@ function slot0.init(slot0)
 	}
 	slot0.contextData.singleWindow = ShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
-	slot0.contextData.paintingView = ShopPaintingView.New(slot0:findTF("paint"))
+	slot0.contextData.singleWindowForESkin = EquipmentSkinInfoUIForShopWindow.New(slot0._tf, slot0.event)
+	slot0.contextData.paintingView = ShopPaintingView.New(slot0:findTF("paint"), slot0:findTF("blur_panel/chat"))
 
 	slot0.contextData.paintingView:setSecretaryPos(slot0:findTF("secretaryPos"))
 
 	slot0.contextData.bgView = ShopBgView.New(slot0:findTF("bg"))
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60038, slot0.pageContainer)
+	slot0.blurPanel = slot0:findTF("blur_panel")
 end
 
 function slot0.didEnter(slot0)
@@ -325,6 +327,12 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
+	if slot0.contextData.singleWindowForESkin:GetLoaded() and slot0.contextData.singleWindowForESkin:isShowing() then
+		slot0.contextData.singleWindowForESkin:Hide()
+
+		return
+	end
+
 	triggerButton(slot0.backBtn)
 end
 
@@ -352,11 +360,13 @@ function slot0.willExit(slot0)
 	slot0:UnBlurView()
 	slot0.contextData.singleWindow:Destroy()
 	slot0.contextData.multiWindow:Destroy()
+	slot0.contextData.singleWindowForESkin:Destroy()
 	slot0.contextData.paintingView:Dispose()
 	slot0.contextData.bgView:Dispose()
 
 	slot0.contextData.singleWindow = nil
 	slot0.contextData.multiWindow = nil
+	slot0.contextData.singleWindowForESkin = nil
 	slot0.contextData.paintingView = nil
 	slot0.contextData.bgView = nil
 	slot0.pages = nil

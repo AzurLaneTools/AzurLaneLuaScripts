@@ -1,5 +1,127 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
+	[201101] = {
+		ship_group = 20110,
+		name = "해변의 십자성",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		id = 201101,
+		group_index = 1,
+		prefab = "xiaotiane_2",
+		painting = "xiaotiane_2",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 6,
+		illustrator = 17,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "우으, 후드 언니가 보내준 수영복, 조금 꽉 끼어… 에? 새러토가와 비치발리볼? ……지… 이길 수 있나유?",
+		voice_actor = 46,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.1,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.04,
+					0.22,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.1,
+					0.66,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.309,
+							0.832,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.269,
+							2.82,
+							-0.52
+						}
+					}
+				}
+			}
+		}
+	},
 	[201102] = {
 		ship_group = 20110,
 		name = "성야의 찬송가 ",
@@ -2326,6 +2448,115 @@ pg.ship_skin_template_5 = {
 		ship_l2d_id = "",
 		tag = {
 			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					1.012,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.004,
+					0.016,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.188,
+					0.988,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201217] = {
+		ship_group = 20121,
+		name = "업적 달성？！",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "158",
+		id = 201217,
+		group_index = 7,
+		prefab = "biaoqiang_8",
+		painting = "biaoqiang_8",
+		shop_id = 70759,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "하아…… 하아…… 드디어 손에 넣었네요! 용자의…… 아, 거, 걱정 마세요! 겉으로 보기엔 좀 이상할지 몰라도, 공격력은 확실히 상승했으니까요!",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
 		},
 		live2d_offset = {
 			0,
@@ -9991,234 +10222,6 @@ pg.ship_skin_template_5 = {
 						{
 							-0.47,
 							2.353,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202160] = {
-		ship_group = 20216,
-		name = "피지",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 202160,
-		group_index = 0,
-		prefab = "feiji",
-		painting = "feiji",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 6,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "피지급 경순양함 - 피지 (HMS Fiji)",
-		voice_actor = 97,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.13,
-					0.8,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.13,
-					0.78,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.14,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.18,
-					0.7,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.36,
-							2.38,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202161] = {
-		ship_group = 20216,
-		name = "패션 스타일?",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 202161,
-		group_index = 1,
-		prefab = "feiji_2",
-		painting = "feiji_2",
-		shop_id = 70195,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9,
-		illustrator = 6,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관, 오래 기다렸어? 아하하... 여자는 외출 준비하는데 시간이 오래 걸린다구, 알았지~? 자, 손 잡고, 출발~ 히힛",
-		voice_actor = 97,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.014,
-					1.013,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.935,
-					1.009,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.026,
-					0.077,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.93,
-					1.024,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.35,
-							2.45,
 							0
 						}
 					}

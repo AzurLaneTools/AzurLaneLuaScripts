@@ -1396,5 +1396,16 @@ pg.effect_offset = {
 			0,
 			-1
 		}
+	},
+	heisewuqi_stg = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
 	}
 }

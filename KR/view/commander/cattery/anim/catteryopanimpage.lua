@@ -32,6 +32,11 @@ function slot0.AddPlan(slot0, slot1)
 
 	slot6:Action(slot2, slot3, slot4, slot5, function ()
 		uv0.doAnim = false
+
+		if uv0.exited then
+			return
+		end
+
 		uv0.timer = Timer.New(function ()
 			uv0:Hide()
 			uv1:Hide()
@@ -75,6 +80,8 @@ function slot0.OnDestroy(slot0)
 
 	slot0.homeExpAnim:Dispose()
 	slot0.homeAndCommanderAnim:Dispose()
+
+	slot0.exited = true
 end
 
 return slot0
