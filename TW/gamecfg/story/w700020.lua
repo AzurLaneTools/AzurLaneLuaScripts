@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前正在进行普通难度仲裁机关作战。",
+			say = "當前正在進行普通難度仲裁機關作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "离开后当前作战进度将会保留，本月内再次进入可继续挑战。",
+			say = "離開後當前作戰進度將會保留，本月內再次進入可繼續挑戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "击破普通难度仲裁机关后，将会开启困难难度仲裁机关作战。",
+			say = "擊破普通難度仲裁機關後，將會開啟困難難度仲裁機關作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

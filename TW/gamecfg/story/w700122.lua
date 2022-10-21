@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "结果确认中：代行者IX「Exploration」已被击败，模拟战海域已全部完成，即将开启正式作战。",
+			say = "結果確認中：代行者IX「Exploration」已被擊敗，模擬戰海域已全部完成，即將開啟正式作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

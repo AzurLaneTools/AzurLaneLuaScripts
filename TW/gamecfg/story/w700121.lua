@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "结果确认中：代行者VIII「Determination」已被击败，可以前往下一处模拟战海域。",
+			say = "結果確認中：代行者VIII「Determination」已被擊敗，可以前往下一處模擬戰海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

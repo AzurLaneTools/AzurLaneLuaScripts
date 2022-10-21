@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前正在进行困难难度仲裁机关作战。",
+			say = "當前正在進行困難難度仲裁機關作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "离开后当前作战进度将会重置，已获得的奖励无法重复领取，且当前海域中无法使用舰队维护指令。",
+			say = "離開後當前作戰進度將會重置，已獲得的獎勵無法重複領取，且當前海域中無法使用艦隊維護指令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "彻底击破敌人后可获得丰厚奖励。",
+			say = "徹底擊破敵人后可獲得豐厚獎勵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
