@@ -169819,8 +169819,8 @@ _G.pg.base.item_data_statistics[59351] = {
 }
 
 _G.pg.base.item_data_statistics[59360] = {
-	display = "장비 창고 10칸 확장",
-	name = "장비 창고 확장",
+	display = "특수 장비 창고 10칸 확장 ",
+	name = "특수 장비 창고 확장 ",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,

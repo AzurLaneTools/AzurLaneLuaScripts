@@ -216,7 +216,7 @@ return {
 			side = 2,
 			actor = 431232,
 			dir = 1,
-			say = "………… 저, 제 워리어 액스가 깨졌다고요!?",
+			say = "………… 워, 워리어 액스가 깨졌다니!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			actor = 431232,
 			dir = 1,
-			say = "지갑도…… 텅 비어버렸다고요!",
+			say = "지갑도…… 텅 비어버렸는데!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			actor = 431232,
 			dir = 1,
-			say = "다시 파밍부터 하러 가야겠네요…… 으아아…………",
+			say = "다시 파밍부터 하러 가야겠네…… 으아아…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
