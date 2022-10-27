@@ -86,11 +86,11 @@ pg.ship_data_create_material = {
 			"",
 			"Common：30%",
 			"",
-			"<color=#ffde38>Brünhilde</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Albion</color>：2.0%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>Blücher</color>：0.5%",
+			"<color=#ffde38>Janus</color>：2.0%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#d797ff>Z16</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Manchester</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

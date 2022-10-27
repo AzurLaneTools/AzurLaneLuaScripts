@@ -3476,6 +3476,10 @@ _G.pg.base.gametip.spweapon_tip_unload = {
 	tip = "The Augment Module has been returned to your Depot."
 }
 
+_G.pg.base.gametip.spweapon_tip_sail_locked = {
+	tip = "The Augment Module slot for this ship type is currently unavailable."
+}
+
 _G.pg.base.gametip.spweapon_ui_level = {
 	tip = "Upgrade Level"
 }
@@ -10156,7 +10160,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Build 200 times to receive a guaranteed copy of Musashi! (Up to 4 copies can be claimed this way)"
+	tip = "Rate UP for Albion,Janus and Manchester!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12048,6 +12052,10 @@ _G.pg.base.gametip.returner_push_tip = {
 
 _G.pg.base.gametip.returner_match_tip = {
 	tip = "A <color=#FF5C5C>random Active Commander's</color> UID will be input and you will become eligible for Returnee Missions. Would you like to continue?"
+}
+
+_G.pg.base.gametip.return_lock_tip = {
+	tip = "This feature is under maintenance until November 17th."
 }
 
 _G.pg.base.gametip.challenge_help = {
@@ -18874,7 +18882,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 _G.pg.base.gametip.cruise_task_phase = {
-	tip = "Progress Level"
+	tip = "Progress PTS | Stage. $1 "
 }
 
 _G.pg.base.gametip.cruise_task_tips = {
@@ -21780,4 +21788,20 @@ _G.pg.base.gametip.random_flag_ship = {
 
 _G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
 	tip = "Change Skins"
+}
+
+_G.pg.base.gametip.expedition_drop_use_out = {
+	tip = "You've obtained all the daily bonus rewards for this difficulty."
+}
+
+_G.pg.base.gametip.expedition_extra_drop_tip = {
+	tip = "Bonus Tickets:"
+}
+
+_G.pg.base.gametip.ex_pass_use = {
+	tip = "Using:"
+}
+
+_G.pg.base.gametip.defense_formation_tip_npc = {
+	tip = "Your 1st fleet cannot be set as an exercise fleet because it contains a temporary recruit."
 }

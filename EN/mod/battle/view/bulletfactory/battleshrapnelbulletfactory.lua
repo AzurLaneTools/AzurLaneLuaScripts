@@ -121,24 +121,35 @@ function slot3.bulletSplit(slot0, slot1)
 			slot15 = slot13.bullet_ID
 			slot17 = slot13.inheritAngle
 			slot18 = slot13.reaim
-			slot20 = nil
-			slot20 = uv1.Battle[slot13.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
+			slot19 = slot13.rotateOffset
+			slot21 = nil
+			slot21 = uv1.Battle[slot13.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
 				slot4 = uv0:CreateBulletUnit(uv1, uv2, uv3, Vector3.zero)
 
 				slot4:OverrideCorrectedDMG(uv4.damage)
 				slot4:SetOffsetPriority(slot3)
-				slot4:SetShiftInfo(slot0, slot1)
 
-				slot5 = uv5
-
-				if uv6 == uv7.INHERIT_ANGLE then
-					slot5 = uv8:GetYAngle()
-				elseif uv6 == uv7.INHERIT_SPEED_NORMALIZE then
-					slot5 = uv8:GetCurrentYAngle()
+				if uv5 then
+					slot5 = math.sqrt(slot0 * slot0 + slot1 * slot1)
+					slot7 = math.rad(uv6:GetYAngle())
+					slot8 = math.atan2(slot1, slot0) + slot7
+					slot9 = math.abs(math.cos(slot7))
+					slot0 = slot5 * math.cos(slot8) * (0.5 + 0.5 * slot9)
+					slot1 = slot5 * math.sin(slot8) * (2 - slot9)
 				end
 
-				if uv9 then
-					if uv10.Battle.BattleTargetChoise.TargetHarmNearest(uv8)[1] == nil then
+				slot4:SetShiftInfo(slot0, slot1)
+
+				slot5 = uv7
+
+				if uv8 == uv9.INHERIT_ANGLE then
+					slot5 = uv6:GetYAngle()
+				elseif uv8 == uv9.INHERIT_SPEED_NORMALIZE then
+					slot5 = uv6:GetCurrentYAngle()
+				end
+
+				if uv10 then
+					if uv11.Battle.BattleTargetChoise.TargetHarmNearest(uv6)[1] == nil then
 						slot4:SetRotateInfo(nil, slot5, slot2)
 					else
 						slot4:SetRotateInfo(slot6:GetBeenAimedPosition(), slot5, slot2)
@@ -147,7 +158,7 @@ function slot3.bulletSplit(slot0, slot1)
 					slot4:SetRotateInfo(nil, slot5, slot2)
 				end
 
-				uv7.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv11:GetTf(), slot4, uv11:GetPosition())
+				uv9.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv12:GetTf(), slot4, uv12:GetPosition())
 			end, function ()
 				uv0:Destroy()
 				uv1:SplitFinishCount()
@@ -157,9 +168,9 @@ function slot3.bulletSplit(slot0, slot1)
 				end
 			end, slot14)
 
-			slot2:CacheChildEimtter(slot20)
-			slot20:Ready()
-			slot20:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot14).angle)
+			slot2:CacheChildEimtter(slot21)
+			slot21:Ready()
+			slot21:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot14).angle)
 		end
 	end
 

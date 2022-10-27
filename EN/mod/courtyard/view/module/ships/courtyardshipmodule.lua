@@ -46,6 +46,14 @@ function slot0.OnInit(slot0)
 	setActive(slot0.shadow, true)
 end
 
+function slot0.AdjustYForInteraction(slot0)
+	slot0.model.localPosition = Vector3(0, 0, 0)
+end
+
+function slot0.ResetYForInteraction(slot0)
+	slot0.model.localPosition = Vector3(0, 25, 0)
+end
+
 function slot0.GetSpine(slot0)
 	return slot0.spineAnimUI.gameObject.transform
 end
@@ -216,11 +224,14 @@ function slot0.StartInterAction(slot0, slot1)
 
 	slot5 = slot1:GetScale()
 	slot0.model.localScale = Vector3(slot1:GetOwner():GetNormalDirection() * slot5.x, slot5.y, slot5.z)
+
+	slot0:AdjustYForInteraction()
 end
 
 function slot0.StopInterAction(slot0)
 	setActive(slot0.shadow, true)
 	slot0:ResetTransform()
+	slot0:ResetYForInteraction()
 end
 
 function slot0.ResetTransform(slot0)

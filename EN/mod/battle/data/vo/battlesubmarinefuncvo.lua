@@ -9,7 +9,6 @@ slot3 = slot0.Battle.BattleSubmarineFuncVO
 function slot3.Ctor(slot0, slot1)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
-	slot0._isOverLoad = false
 	slot0._current = slot1
 	slot0._defaultMax = slot1
 	slot0._active = true
@@ -65,25 +64,6 @@ end
 
 function slot3.IsOverLoad(slot0)
 	return slot0._current < slot0._max
-end
-
-function slot3.GetNextTimeStamp(slot0)
-	slot1 = nil
-
-	if #slot0._chargingList > 0 then
-		tiemStampB = slot0._chargingList[1]:GetReloadFinishTimeStamp()
-
-		for slot5, slot6 in ipairs(slot0._chargingList) do
-			tiemStampB = slot1:GetReloadFinishTimeStamp()
-
-			if slot6:GetReloadFinishTimeStamp() < tiemStampB then
-				slot1 = slot6
-				tiemStampB = slot7
-			end
-		end
-	end
-
-	return tiemStampB
 end
 
 function slot3.DispatchOverLoadChange(slot0)

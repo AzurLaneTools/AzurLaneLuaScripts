@@ -900,6 +900,11 @@ pg.player_resource = {
 		name = "yongzhe_pt",
 		itemid = 59351
 	},
+	[282] = {
+		id = 282,
+		name = "skinTicket39",
+		itemid = 59354
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -999,6 +1004,16 @@ pg.player_resource = {
 		id = 2013,
 		name = "worldboss630_ticket",
 		itemid = 59324
+	},
+	[2014] = {
+		id = 2014,
+		name = "contribution_worldboss6301",
+		itemid = 59352
+	},
+	[2015] = {
+		id = 2015,
+		name = "worldboss630_ticket1",
+		itemid = 59353
 	},
 	[3000] = {
 		id = 3000,
@@ -1656,6 +1671,9 @@ pg.player_resource = {
 		yongzhe_pt = {
 			281
 		},
+		skinTicket39 = {
+			282
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1715,6 +1733,12 @@ pg.player_resource = {
 		},
 		worldboss630_ticket = {
 			2013
+		},
+		contribution_worldboss6301 = {
+			2014
+		},
+		worldboss630_ticket1 = {
+			2015
 		},
 		guild_boss_damage = {
 			3000
@@ -1967,6 +1991,7 @@ pg.player_resource = {
 		279,
 		280,
 		281,
+		282,
 		950,
 		951,
 		952,
@@ -1987,6 +2012,8 @@ pg.player_resource = {
 		2011,
 		2012,
 		2013,
+		2014,
+		2015,
 		3000,
 		3001,
 		3002,

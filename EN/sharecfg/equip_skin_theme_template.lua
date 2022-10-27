@@ -804,6 +804,30 @@ pg.equip_skin_theme_template = {
 			662
 		}
 	},
+	[40] = {
+		id = 40,
+		name = "Spectral Festival",
+		ids = {
+			670,
+			671,
+			672,
+			673,
+			674,
+			675,
+			676,
+			677,
+			678,
+			679,
+			680,
+			681,
+			682,
+			683,
+			684,
+			685,
+			686,
+			687
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -885,6 +909,7 @@ pg.equip_skin_theme_template = {
 		37,
 		38,
 		39,
+		40,
 		101,
 		102,
 		199

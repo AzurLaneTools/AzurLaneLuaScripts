@@ -34,14 +34,14 @@ function slot1.AwakeForAWhile(slot0)
 	end
 
 	BrightnessHelper.SetScreenBrightness(slot0.originalBrightnessValue)
-	slot0:SetDelayTask()
+	slot0:SetDelayTask(BrightnessHelper.GetValue())
 end
 
-function slot1.SetDelayTask(slot0)
+function slot1.SetDelayTask(slot0, slot1)
 	slot0:ClearTask()
 
 	slot0.task = Timer.New(function ()
-		BrightnessHelper.SetScreenBrightness(uv0.DarkModeBrightness)
+		BrightnessHelper.SetScreenBrightness(math.min(uv0.DarkModeBrightness, uv1))
 	end, uv0.AutoIntoDarkModeTime)
 
 	slot0.task:Start()
@@ -62,9 +62,10 @@ function slot1.EnterManualMode(slot0)
 		return
 	end
 
-	slot0.originalBrightnessValue = math.max(BrightnessHelper.GetValue(), 0.1)
+	slot1 = BrightnessHelper.GetValue()
+	slot0.originalBrightnessValue = math.max(slot1, 0.1)
 
-	BrightnessHelper.SetScreenBrightness(uv0.DarkModeBrightness)
+	BrightnessHelper.SetScreenBrightness(math.min(uv0.DarkModeBrightness, slot1))
 
 	slot0.manulStatus = true
 end

@@ -17,6 +17,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.iconShip = findTF(slot0.content, "ship_icon"):GetComponent(typeof(Image))
 	slot0.imageBg = findTF(slot0.content, "bg"):GetComponent(typeof(Image))
 	slot0.labelName = findTF(slot0.content, "info/name_mask/name")
+	slot0.mask2D = GetOrAddComponent(findTF(slot0.content, "info/name_mask"), typeof(RectMask2D))
 	slot0.iconType = findTF(slot0.content, "info/top/type"):GetComponent(typeof(Image))
 	slot0.ringTF = findTF(slot0.content, "front/ring")
 	slot0.ringMetaTF = findTF(slot0.content, "front/ring_meta")
@@ -93,6 +94,10 @@ function slot0.flush(slot0)
 	else
 		setActive(slot0.ringTF, false)
 		setActive(slot0.ringMetaTF, false)
+	end
+
+	if not slot0.mask2D.enabled then
+		slot0.mask2D.enabled = true
 	end
 end
 

@@ -87,7 +87,7 @@ function slot0.register(slot0)
 		end
 
 		uv1:sendNotification(GAME.BEGIN_STAGE, {
-			actID = 0,
+			actId = 0,
 			bossId = uv1.contextData.bossId,
 			system = SYSTEM_WORLD_BOSS
 		})

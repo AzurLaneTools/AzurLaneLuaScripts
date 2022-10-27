@@ -3,7 +3,7 @@ ys.Battle.BattleGateChallenge = slot0
 slot0.__name = "BattleGateChallenge"
 
 function slot0.Entrance(slot0, slot1)
-	slot3 = slot0.actID
+	slot3 = slot0.actId
 	slot4 = getProxy(PlayerProxy)
 	slot5 = getProxy(BayProxy)
 	slot8 = pg.battle_cost_template[SYSTEM_CHALLENGE].oil_cost > 0

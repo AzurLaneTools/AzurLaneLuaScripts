@@ -9,6 +9,7 @@ slot0.ON_CHALLENGE_RANK = "BattleResultMediator:ON_CHALLENGE_RANK"
 slot0.ON_CHALLENGE_SHARE = "BattleResultMediator:ON_CHALLENGE_SHARE"
 slot0.ON_CHALLENGE_DEFEAT_SCENE = "BattleResultMediator:ON_CHALLENGE_DEFEAT_SCENE"
 slot0.DIRECT_EXIT = "BattleResultMediator:DIRECT_EXIT"
+slot0.REENTER_STAGE = "BattleResultMediator:REENTER_STAGE"
 slot0.OPEN_FAIL_TIP_LAYER = "BattleResultMediator:OPEN_FAIL_TIP_LAYER"
 slot0.PRE_BATTLE_FAIL_EXIT = "BattleResultMediator:PRE_BATTLE_FAIL_EXIT"
 
@@ -282,10 +283,24 @@ function slot0.register(slot0)
 	slot0:bind(uv0.DIRECT_EXIT, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_BACK)
 	end)
+	slot0:bind(uv0.REENTER_STAGE, function (slot0)
+		uv0:sendNotification(GAME.BEGIN_STAGE, {
+			stageId = uv0.contextData.stageId,
+			mainFleetId = uv0.contextData.mainFleetId,
+			system = uv0.contextData.system,
+			actId = uv0.contextData.actId,
+			rivalId = uv0.contextData.rivalId
+		})
+	end)
 	slot0:bind(uv0.PRE_BATTLE_FAIL_EXIT, function (slot0)
 		if uv0 == SYSTEM_SCENARIO then
 			getProxy(ChapterProxy):StopAutoFight()
 		end
+	end)
+	slot0:bind(GAME.ACT_BOSS_EXCHANGE_TICKET, function (slot0, slot1)
+		uv0:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET, {
+			stageId = slot1
+		})
 	end)
 
 	slot9 = 0
@@ -349,7 +364,8 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		GAME.BEGIN_STAGE_DONE
+		GAME.BEGIN_STAGE_DONE,
+		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE
 	}
 end
 
@@ -358,6 +374,8 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.COMBATLOAD, slot3)
+	elseif slot2 == GAME.ACT_BOSS_EXCHANGE_TICKET_DONE then
+		existCall(slot0.viewComponent.OnActBossExchangeTicket, slot0.viewComponent)
 	end
 end
 

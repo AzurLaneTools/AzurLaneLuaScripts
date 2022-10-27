@@ -10,6 +10,7 @@ slot0.SN = 7
 slot0.FF = 8
 slot0.MNF = 9
 slot0.FR = 10
+slot0.MOT = 96
 slot0.META = 97
 slot0.BURIN = 98
 slot0.LINK = 100
@@ -37,13 +38,14 @@ function slot0.Nation2Print(slot0)
 			"ff",
 			"mnf",
 			"ff",
+			[96.0] = "mot",
 			[108.0] = "um",
-			[101.0] = "np",
 			[104.0] = "um",
-			[98.0] = "cm",
 			[97.0] = "meta",
-			[107.0] = "um",
 			[102.0] = "bili",
+			[101.0] = "np",
+			[107.0] = "um",
+			[98.0] = "cm",
 			[106.0] = "um",
 			[103.0] = "um",
 			[105.0] = "um"
@@ -67,13 +69,14 @@ function slot0.Nation2Side(slot0)
 			"West",
 			"West",
 			"West",
+			[96.0] = "West",
 			[108.0] = "Jp",
-			[101.0] = "Jp",
 			[104.0] = "West",
-			[98.0] = "West",
 			[97.0] = "Meta",
-			[107.0] = "Imas",
 			[102.0] = "Cn",
+			[101.0] = "Jp",
+			[107.0] = "Imas",
+			[98.0] = "West",
 			[106.0] = "Jp",
 			[103.0] = "Jp",
 			[105.0] = "Jp"
@@ -97,13 +100,14 @@ function slot0.Nation2BG(slot0)
 			"bg/bg_church",
 			"bg/bg_church",
 			"bg/bg_church",
+			[96.0] = "bg/bg_church",
 			[108.0] = "bg/bg_church",
-			[101.0] = "bg/bg_church",
 			[104.0] = "bg/bg_church",
-			[98.0] = "bg/bg_church",
 			[97.0] = "bg/bg_church_meta",
-			[107.0] = "bg/bg_church_imas",
 			[102.0] = "bg/bg_church",
+			[101.0] = "bg/bg_church",
+			[107.0] = "bg/bg_church_imas",
+			[98.0] = "bg/bg_church",
 			[106.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church",
 			[105.0] = "bg/bg_church"
@@ -127,6 +131,7 @@ function slot0.Nation2Name(slot0)
 			i18n("word_shipNation_ziyou"),
 			i18n("word_shipNation_weixi"),
 			i18n("word_shipNation_yuanwei"),
+			[96] = i18n("word_shipNation_mot"),
 			[97] = i18n("word_shipNation_meta"),
 			[98] = i18n("word_shipNation_other"),
 			[101] = i18n("word_shipNation_np"),
@@ -157,6 +162,7 @@ function slot0.Nation2facionName(slot0)
 			i18n("guild_faction_blhx"),
 			i18n("guild_faction_cszz"),
 			i18n("guild_faction_blhx"),
+			[96] = i18n("guild_faction_unknown"),
 			[97] = i18n("guild_faction_meta"),
 			[98] = i18n("guild_faction_unknown"),
 			[101] = i18n("guild_faction_unknown"),

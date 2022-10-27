@@ -5437,6 +5437,27 @@ _G.pg.base.item_data_statistics[11052] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[11053] = {
+	display = "Sea Fury T0 Design",
+	name = "Sea Fury T0 Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11053,
+	is_world = 0,
+	icon = "Equips/27300",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[13000] = {
 	display = "T0 Twin 381mm Main Gun - Variant Design",
 	name = "T0 Twin 381mm Main Gun - Variant Design",
@@ -14405,6 +14426,121 @@ _G.pg.base.item_data_statistics[30338] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30339] = {
+	display = "Contains a random gear skin.",
+	name = "Gear Skin Box (Halloween)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30339,
+	is_world = 0,
+	icon = "Props/appearanceboxwansheng",
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "Contains 1 random Cruise Mission gear skin.",
 	name = "Random Gear Skin Box",
@@ -15955,6 +16091,118 @@ _G.pg.base.item_data_statistics[30511] = {
 		{
 			9,
 			237,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30512] = {
+	display = "Can be opened to receive 1 Spectral Festival gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Halloween)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30512,
+	is_world = 0,
+	icon = "Props/appearanceboxwanshengzixuan",
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
 			1
 		}
 	},
@@ -164846,6 +165094,147 @@ _G.pg.base.item_data_statistics[58718] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58719] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58719,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58720] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58720,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58721] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58721,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			11053,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "EXP is required to level up",
 	name = "Ship EXP",
@@ -169586,6 +169975,90 @@ _G.pg.base.item_data_statistics[59351] = {
 	id = 59351,
 	is_world = 0,
 	icon = "Props/hero_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59352] = {
+	display = "Earned by participating in the \"Fight On, Royal Maids! (Part 3)\" event. Earning a certain amount will allow you to claim Individual Rewards.",
+	name = "Contribution Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59352,
+	is_world = 0,
+	icon = "Props/albion_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59353] = {
+	display = "A ticket used to access the EX stage in the \"Fight On, Royal Maids! (Part 3)\" event. Can also be used to gain more Reward Sorties.",
+	name = "Bonus Ticket",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59353,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59354] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the October 12th) ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59354,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59355] = {
+	display = "Contains the following pieces of gear from the Tempesta faction:2x 12-Pounder Long Guns1x Round Shot1x Sail Components",
+	name = "Tempesta Gear Pack",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59355,
+	is_world = 0,
+	icon = "Props/jvfengdekuizeng",
 	display_icon = {},
 	price = {},
 	index = {},

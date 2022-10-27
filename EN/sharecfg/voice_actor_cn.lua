@@ -1351,5 +1351,21 @@ pg.voice_actor_CN = {
 	[343] = {
 		code = 343,
 		actor_name = "Mayu Sagara"
+	},
+	[344] = {
+		code = 344,
+		actor_name = "Nao Shiraki"
+	},
+	[345] = {
+		code = 345,
+		actor_name = "Hina Kino"
+	},
+	[346] = {
+		code = 346,
+		actor_name = "Aimi Tanaka"
+	},
+	[347] = {
+		code = 347,
+		actor_name = "Tomomi Tanaka"
 	}
 }

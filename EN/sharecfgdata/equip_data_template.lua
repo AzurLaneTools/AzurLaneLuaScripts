@@ -1803,7 +1803,8 @@ _G.pg.base.equip_data_template[560] = {
 		17,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -2293,7 +2294,8 @@ _G.pg.base.equip_data_template[580] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -2783,7 +2785,8 @@ _G.pg.base.equip_data_template[600] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -3391,7 +3394,8 @@ _G.pg.base.equip_data_template[620] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -3999,7 +4003,8 @@ _G.pg.base.equip_data_template[640] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -4607,7 +4612,8 @@ _G.pg.base.equip_data_template[660] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -5097,7 +5103,8 @@ _G.pg.base.equip_data_template[680] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -5587,7 +5594,8 @@ _G.pg.base.equip_data_template[700] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -6077,7 +6085,8 @@ _G.pg.base.equip_data_template[720] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -6688,7 +6697,8 @@ _G.pg.base.equip_data_template[740] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -8130,7 +8140,8 @@ _G.pg.base.equip_data_template[800] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -8561,7 +8572,8 @@ _G.pg.base.equip_data_template[820] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -10356,7 +10368,8 @@ _G.pg.base.equip_data_template[880] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -11435,7 +11448,8 @@ _G.pg.base.equip_data_template[960] = {
 		12,
 		17,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -12521,7 +12535,8 @@ _G.pg.base.equip_data_template[1000] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -12761,7 +12776,8 @@ _G.pg.base.equip_data_template[1020] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -13193,7 +13209,8 @@ _G.pg.base.equip_data_template[1040] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -13800,7 +13817,8 @@ _G.pg.base.equip_data_template[1060] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -14394,7 +14412,9 @@ _G.pg.base.equip_data_template[1100] = {
 	id = 1100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -14500,7 +14520,9 @@ _G.pg.base.equip_data_template[1120] = {
 	id = 1120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -14722,7 +14744,9 @@ _G.pg.base.equip_data_template[1140] = {
 	id = 1140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -15197,7 +15221,9 @@ _G.pg.base.equip_data_template[1160] = {
 	id = 1160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -15800,7 +15826,8 @@ _G.pg.base.equip_data_template[1200] = {
 		12,
 		17,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -15917,7 +15944,8 @@ _G.pg.base.equip_data_template[1220] = {
 		12,
 		17,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -16150,7 +16178,8 @@ _G.pg.base.equip_data_template[1240] = {
 		12,
 		17,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -16640,7 +16669,8 @@ _G.pg.base.equip_data_template[1260] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -17239,7 +17269,8 @@ _G.pg.base.equip_data_template[1300] = {
 		8,
 		17,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -17351,7 +17382,8 @@ _G.pg.base.equip_data_template[1320] = {
 		8,
 		17,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -17579,7 +17611,8 @@ _G.pg.base.equip_data_template[1340] = {
 		8,
 		17,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -18069,7 +18102,8 @@ _G.pg.base.equip_data_template[1400] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -18306,7 +18340,8 @@ _G.pg.base.equip_data_template[1420] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -18735,7 +18770,8 @@ _G.pg.base.equip_data_template[1440] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -19331,7 +19367,8 @@ _G.pg.base.equip_data_template[1500] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -19556,7 +19593,8 @@ _G.pg.base.equip_data_template[1520] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -19973,7 +20011,8 @@ _G.pg.base.equip_data_template[1540] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -20569,7 +20608,8 @@ _G.pg.base.equip_data_template[1600] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -20678,7 +20718,8 @@ _G.pg.base.equip_data_template[1620] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -20787,7 +20828,8 @@ _G.pg.base.equip_data_template[1640] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -21051,7 +21093,9 @@ _G.pg.base.equip_data_template[1700] = {
 	id = 1700,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -21157,7 +21201,9 @@ _G.pg.base.equip_data_template[1720] = {
 	id = 1720,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -21263,7 +21309,9 @@ _G.pg.base.equip_data_template[1740] = {
 	id = 1740,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -21526,7 +21574,9 @@ _G.pg.base.equip_data_template[1760] = {
 	id = 1760,
 	equip_limit = 1760,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -22119,7 +22169,9 @@ _G.pg.base.equip_data_template[1800] = {
 	id = 1800,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -22225,7 +22277,9 @@ _G.pg.base.equip_data_template[1820] = {
 	id = 1820,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -22447,7 +22501,9 @@ _G.pg.base.equip_data_template[1840] = {
 	id = 1840,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -23872,7 +23928,9 @@ _G.pg.base.equip_data_template[2000] = {
 	id = 2000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -23978,7 +24036,9 @@ _G.pg.base.equip_data_template[2020] = {
 	id = 2020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -24200,7 +24260,9 @@ _G.pg.base.equip_data_template[2040] = {
 	id = 2040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -24689,7 +24751,8 @@ _G.pg.base.equip_data_template[2100] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -24810,7 +24873,8 @@ _G.pg.base.equip_data_template[2120] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -25047,7 +25111,8 @@ _G.pg.base.equip_data_template[2140] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -25525,7 +25590,8 @@ _G.pg.base.equip_data_template[2200] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -25634,7 +25700,8 @@ _G.pg.base.equip_data_template[2220] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -25859,7 +25926,8 @@ _G.pg.base.equip_data_template[2240] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -26337,7 +26405,8 @@ _G.pg.base.equip_data_template[2300] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -26446,7 +26515,8 @@ _G.pg.base.equip_data_template[2320] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -26671,7 +26741,8 @@ _G.pg.base.equip_data_template[2340] = {
 	level = 1,
 	ship_type_forbidden = {
 		6,
-		7
+		7,
+		22
 	},
 	trans_use_item = {
 		{
@@ -28433,7 +28504,8 @@ _G.pg.base.equip_data_template[2600] = {
 		10,
 		12,
 		13,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -28856,7 +28928,8 @@ _G.pg.base.equip_data_template[2620] = {
 		10,
 		12,
 		13,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -29291,7 +29364,8 @@ _G.pg.base.equip_data_template[2640] = {
 		10,
 		12,
 		13,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -29895,7 +29969,8 @@ _G.pg.base.equip_data_template[2700] = {
 		12,
 		13,
 		17,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -30128,7 +30203,8 @@ _G.pg.base.equip_data_template[2720] = {
 		12,
 		13,
 		17,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -30553,7 +30629,8 @@ _G.pg.base.equip_data_template[2740] = {
 		12,
 		13,
 		17,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -31147,7 +31224,9 @@ _G.pg.base.equip_data_template[2800] = {
 	id = 2800,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17001,
@@ -31636,7 +31715,8 @@ _G.pg.base.equip_data_template[2900] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -31757,7 +31837,8 @@ _G.pg.base.equip_data_template[2920] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -31994,7 +32075,8 @@ _G.pg.base.equip_data_template[2940] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -32484,7 +32566,8 @@ _G.pg.base.equip_data_template[3000] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -32721,7 +32804,8 @@ _G.pg.base.equip_data_template[3020] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -33150,7 +33234,8 @@ _G.pg.base.equip_data_template[3040] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -33760,7 +33845,8 @@ _G.pg.base.equip_data_template[3100] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -34252,7 +34338,8 @@ _G.pg.base.equip_data_template[3120] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -34862,7 +34949,8 @@ _G.pg.base.equip_data_template[3140] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -35469,7 +35557,8 @@ _G.pg.base.equip_data_template[3200] = {
 		17,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -36076,7 +36165,8 @@ _G.pg.base.equip_data_template[3220] = {
 		17,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -36567,7 +36657,8 @@ _G.pg.base.equip_data_template[3300] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -37178,7 +37269,8 @@ _G.pg.base.equip_data_template[3400] = {
 		17,
 		18,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -37789,7 +37881,8 @@ _G.pg.base.equip_data_template[3500] = {
 		17,
 		18,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -38282,7 +38375,8 @@ _G.pg.base.equip_data_template[3520] = {
 		17,
 		18,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -38775,7 +38869,8 @@ _G.pg.base.equip_data_template[3540] = {
 		17,
 		18,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -39740,7 +39835,8 @@ _G.pg.base.equip_data_template[3580] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -41272,6 +41368,3367 @@ _G.pg.base.equip_data_template[3631] = {
 	}
 }
 
+_G.pg.base.equip_data_template[3640] = {
+	destory_gold = 16,
+	trans_use_gold = 20,
+	next = 3641,
+	type = 10,
+	group = 3640,
+	restore_gold = 0,
+	important = 2,
+	prev = 0,
+	id = 3640,
+	equip_limit = 0,
+	level = 1,
+	ship_type_forbidden = {},
+	trans_use_item = {
+		{
+			17001,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {},
+	upgrade_formula_id = {}
+}
+
+_G.pg.base.equip_data_template[3641] = {
+	next = 3642,
+	destory_gold = 21,
+	trans_use_gold = 60,
+	base = 3640,
+	id = 3641,
+	prev = 3640,
+	restore_gold = 20,
+	level = 2,
+	trans_use_item = {
+		{
+			17001,
+			3
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			1
+		},
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			1
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3642] = {
+	next = 3643,
+	destory_gold = 36,
+	trans_use_gold = 100,
+	base = 3640,
+	id = 3642,
+	prev = 3641,
+	restore_gold = 80,
+	level = 3,
+	trans_use_item = {
+		{
+			17001,
+			5
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			2
+		},
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			4
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3643] = {
+	next = 3644,
+	destory_gold = 61,
+	trans_use_gold = 160,
+	base = 3640,
+	id = 3643,
+	prev = 3642,
+	restore_gold = 180,
+	level = 4,
+	trans_use_item = {
+		{
+			17002,
+			8
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3644] = {
+	next = 3645,
+	destory_gold = 101,
+	trans_use_gold = 220,
+	base = 3640,
+	id = 3644,
+	prev = 3643,
+	restore_gold = 340,
+	level = 5,
+	trans_use_item = {
+		{
+			17002,
+			11
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			3
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			8
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3645] = {
+	next = 3646,
+	destory_gold = 156,
+	trans_use_gold = 280,
+	base = 3640,
+	id = 3645,
+	prev = 3644,
+	restore_gold = 560,
+	level = 6,
+	trans_use_item = {
+		{
+			17002,
+			14
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			6
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			19
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3646] = {
+	next = 3647,
+	destory_gold = 226,
+	trans_use_gold = 360,
+	base = 3640,
+	id = 3646,
+	prev = 3645,
+	restore_gold = 840,
+	level = 7,
+	trans_use_item = {
+		{
+			17003,
+			18
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3647] = {
+	next = 3648,
+	destory_gold = 316,
+	trans_use_gold = 440,
+	base = 3640,
+	id = 3647,
+	prev = 3646,
+	restore_gold = 1200,
+	level = 8,
+	trans_use_item = {
+		{
+			17003,
+			22
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			5
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			18
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3648] = {
+	next = 3649,
+	destory_gold = 426,
+	trans_use_gold = 520,
+	base = 3640,
+	id = 3648,
+	prev = 3647,
+	restore_gold = 1640,
+	level = 9,
+	trans_use_item = {
+		{
+			17003,
+			26
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			10
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			40
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3649] = {
+	next = 3650,
+	destory_gold = 556,
+	trans_use_gold = 600,
+	base = 3640,
+	id = 3649,
+	prev = 3648,
+	restore_gold = 2160,
+	level = 10,
+	trans_use_item = {
+		{
+			17003,
+			30
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			16
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			66
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3650] = {
+	next = 3651,
+	destory_gold = 706,
+	trans_use_gold = 700,
+	base = 3640,
+	id = 3650,
+	prev = 3649,
+	restore_gold = 2760,
+	level = 11,
+	trans_use_item = {
+		{
+			17004,
+			35
+		},
+		{
+			17990,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			24
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3651] = {
+	next = 0,
+	destory_gold = 881,
+	trans_use_gold = 0,
+	base = 3640,
+	id = 3651,
+	prev = 3650,
+	restore_gold = 3460,
+	level = 12,
+	trans_use_item = {},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			24
+		},
+		{
+			17004,
+			9
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		},
+		{
+			17004,
+			35
+		},
+		{
+			17990,
+			1
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3660] = {
+	destory_gold = 25,
+	trans_use_gold = 20,
+	next = 3661,
+	type = 10,
+	group = 3660,
+	restore_gold = 0,
+	important = 2,
+	prev = 0,
+	id = 3660,
+	equip_limit = 0,
+	level = 1,
+	ship_type_forbidden = {
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22
+	},
+	trans_use_item = {
+		{
+			17001,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17003,
+			1
+		}
+	},
+	restore_item = {},
+	upgrade_formula_id = {}
+}
+
+_G.pg.base.equip_data_template[3661] = {
+	next = 3662,
+	destory_gold = 30,
+	trans_use_gold = 60,
+	base = 3660,
+	id = 3661,
+	prev = 3660,
+	restore_gold = 20,
+	level = 2,
+	trans_use_item = {
+		{
+			17001,
+			3
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			1
+		},
+		{
+			17003,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			1
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3662] = {
+	next = 3663,
+	destory_gold = 45,
+	trans_use_gold = 100,
+	base = 3660,
+	id = 3662,
+	prev = 3661,
+	restore_gold = 80,
+	level = 3,
+	trans_use_item = {
+		{
+			17001,
+			5
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			2
+		},
+		{
+			17003,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			4
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3663] = {
+	next = 3664,
+	destory_gold = 70,
+	trans_use_gold = 160,
+	base = 3660,
+	id = 3663,
+	prev = 3662,
+	restore_gold = 180,
+	level = 4,
+	trans_use_item = {
+		{
+			17002,
+			8
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17003,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3664] = {
+	next = 3665,
+	destory_gold = 110,
+	trans_use_gold = 220,
+	base = 3660,
+	id = 3664,
+	prev = 3663,
+	restore_gold = 340,
+	level = 5,
+	trans_use_item = {
+		{
+			17002,
+			11
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			2
+		},
+		{
+			17003,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			8
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3665] = {
+	next = 3666,
+	destory_gold = 165,
+	trans_use_gold = 280,
+	base = 3660,
+	id = 3665,
+	prev = 3664,
+	restore_gold = 560,
+	level = 6,
+	trans_use_item = {
+		{
+			17002,
+			14
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			5
+		},
+		{
+			17003,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			19
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3666] = {
+	next = 3667,
+	destory_gold = 235,
+	trans_use_gold = 360,
+	base = 3660,
+	id = 3666,
+	prev = 3665,
+	restore_gold = 840,
+	level = 7,
+	trans_use_item = {
+		{
+			17003,
+			18
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			8
+		},
+		{
+			17003,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3667] = {
+	next = 3668,
+	destory_gold = 325,
+	trans_use_gold = 440,
+	base = 3660,
+	id = 3667,
+	prev = 3666,
+	restore_gold = 1200,
+	level = 8,
+	trans_use_item = {
+		{
+			17003,
+			22
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			8
+		},
+		{
+			17003,
+			6
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			18
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3668] = {
+	next = 3669,
+	destory_gold = 435,
+	trans_use_gold = 520,
+	base = 3660,
+	id = 3668,
+	prev = 3667,
+	restore_gold = 1640,
+	level = 9,
+	trans_use_item = {
+		{
+			17003,
+			26
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			8
+		},
+		{
+			17003,
+			11
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			40
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3669] = {
+	next = 3670,
+	destory_gold = 565,
+	trans_use_gold = 600,
+	base = 3660,
+	id = 3669,
+	prev = 3668,
+	restore_gold = 2160,
+	level = 10,
+	trans_use_item = {
+		{
+			17003,
+			30
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			8
+		},
+		{
+			17003,
+			17
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			66
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3670] = {
+	next = 3671,
+	destory_gold = 715,
+	trans_use_gold = 800,
+	base = 3660,
+	id = 3670,
+	prev = 3669,
+	restore_gold = 2760,
+	level = 11,
+	trans_use_item = {
+		{
+			17004,
+			35
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			8
+		},
+		{
+			17003,
+			25
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3671] = {
+	next = 3672,
+	destory_gold = 915,
+	trans_use_gold = 1000,
+	base = 3660,
+	id = 3671,
+	prev = 3670,
+	restore_gold = 3560,
+	level = 12,
+	trans_use_item = {
+		{
+			17004,
+			40
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			8
+		},
+		{
+			17003,
+			25
+		},
+		{
+			17004,
+			9
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		},
+		{
+			17004,
+			35
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3672] = {
+	next = 3673,
+	destory_gold = 1165,
+	trans_use_gold = 1200,
+	base = 3660,
+	id = 3672,
+	prev = 3671,
+	restore_gold = 4560,
+	level = 13,
+	trans_use_item = {
+		{
+			17004,
+			45
+		},
+		{
+			17990,
+			5
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			8
+		},
+		{
+			17003,
+			25
+		},
+		{
+			17004,
+			19
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		},
+		{
+			17004,
+			75
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3673] = {
+	next = 0,
+	destory_gold = 1465,
+	trans_use_gold = 0,
+	base = 3660,
+	id = 3673,
+	prev = 3672,
+	restore_gold = 5760,
+	level = 14,
+	trans_use_item = {},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			8
+		},
+		{
+			17003,
+			25
+		},
+		{
+			17004,
+			30
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		},
+		{
+			17004,
+			120
+		},
+		{
+			17990,
+			5
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3680] = {
+	destory_gold = 9,
+	trans_use_gold = 20,
+	next = 3681,
+	type = 1,
+	group = 3680,
+	restore_gold = 0,
+	important = 1,
+	prev = 0,
+	id = 3680,
+	equip_limit = 0,
+	level = 1,
+	ship_type_forbidden = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19,
+		20,
+		21
+	},
+	trans_use_item = {
+		{
+			17011,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			1
+		}
+	},
+	restore_item = {},
+	upgrade_formula_id = {}
+}
+
+_G.pg.base.equip_data_template[3681] = {
+	next = 3682,
+	destory_gold = 14,
+	trans_use_gold = 60,
+	base = 3680,
+	id = 3681,
+	prev = 3680,
+	restore_gold = 20,
+	level = 2,
+	trans_use_item = {
+		{
+			17011,
+			3
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			2
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			1
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3682] = {
+	next = 3683,
+	destory_gold = 29,
+	trans_use_gold = 100,
+	base = 3680,
+	id = 3682,
+	prev = 3681,
+	restore_gold = 80,
+	level = 3,
+	trans_use_item = {
+		{
+			17011,
+			5
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			4
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3683] = {
+	next = 3684,
+	destory_gold = 54,
+	trans_use_gold = 160,
+	base = 3680,
+	id = 3683,
+	prev = 3682,
+	restore_gold = 180,
+	level = 4,
+	trans_use_item = {
+		{
+			17012,
+			8
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			4
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3684] = {
+	next = 3685,
+	destory_gold = 94,
+	trans_use_gold = 220,
+	base = 3680,
+	id = 3684,
+	prev = 3683,
+	restore_gold = 340,
+	level = 5,
+	trans_use_item = {
+		{
+			17012,
+			11
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			4
+		},
+		{
+			17012,
+			2
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			8
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3685] = {
+	next = 3686,
+	destory_gold = 149,
+	trans_use_gold = 280,
+	base = 3680,
+	id = 3685,
+	prev = 3684,
+	restore_gold = 560,
+	level = 6,
+	trans_use_item = {
+		{
+			17012,
+			14
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			4
+		},
+		{
+			17012,
+			5
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			19
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3686] = {
+	next = 0,
+	destory_gold = 219,
+	trans_use_gold = 0,
+	base = 3680,
+	id = 3686,
+	prev = 3685,
+	restore_gold = 840,
+	level = 7,
+	trans_use_item = {},
+	destory_item = {
+		{
+			17011,
+			4
+		},
+		{
+			17012,
+			8
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3700] = {
+	destory_gold = 16,
+	trans_use_gold = 20,
+	next = 3701,
+	type = 1,
+	group = 3700,
+	restore_gold = 0,
+	important = 1,
+	prev = 0,
+	id = 3700,
+	equip_limit = 0,
+	level = 1,
+	ship_type_forbidden = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19,
+		20,
+		21
+	},
+	trans_use_item = {
+		{
+			17011,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17012,
+			1
+		}
+	},
+	restore_item = {},
+	upgrade_formula_id = {}
+}
+
+_G.pg.base.equip_data_template[3701] = {
+	next = 3702,
+	destory_gold = 21,
+	trans_use_gold = 60,
+	base = 3700,
+	id = 3701,
+	prev = 3700,
+	restore_gold = 20,
+	level = 2,
+	trans_use_item = {
+		{
+			17011,
+			3
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			1
+		},
+		{
+			17012,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			1
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3702] = {
+	next = 3703,
+	destory_gold = 36,
+	trans_use_gold = 100,
+	base = 3700,
+	id = 3702,
+	prev = 3701,
+	restore_gold = 80,
+	level = 3,
+	trans_use_item = {
+		{
+			17011,
+			5
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			2
+		},
+		{
+			17012,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			4
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3703] = {
+	next = 3704,
+	destory_gold = 61,
+	trans_use_gold = 160,
+	base = 3700,
+	id = 3703,
+	prev = 3702,
+	restore_gold = 180,
+	level = 4,
+	trans_use_item = {
+		{
+			17012,
+			8
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3704] = {
+	next = 3705,
+	destory_gold = 101,
+	trans_use_gold = 220,
+	base = 3700,
+	id = 3704,
+	prev = 3703,
+	restore_gold = 340,
+	level = 5,
+	trans_use_item = {
+		{
+			17012,
+			11
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			3
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			8
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3705] = {
+	next = 3706,
+	destory_gold = 156,
+	trans_use_gold = 280,
+	base = 3700,
+	id = 3705,
+	prev = 3704,
+	restore_gold = 560,
+	level = 6,
+	trans_use_item = {
+		{
+			17012,
+			14
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			6
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			19
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3706] = {
+	next = 3707,
+	destory_gold = 226,
+	trans_use_gold = 360,
+	base = 3700,
+	id = 3706,
+	prev = 3705,
+	restore_gold = 840,
+	level = 7,
+	trans_use_item = {
+		{
+			17013,
+			18
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			9
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3707] = {
+	next = 3708,
+	destory_gold = 316,
+	trans_use_gold = 440,
+	base = 3700,
+	id = 3707,
+	prev = 3706,
+	restore_gold = 1200,
+	level = 8,
+	trans_use_item = {
+		{
+			17013,
+			22
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			9
+		},
+		{
+			17013,
+			5
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			18
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3708] = {
+	next = 3709,
+	destory_gold = 426,
+	trans_use_gold = 520,
+	base = 3700,
+	id = 3708,
+	prev = 3707,
+	restore_gold = 1640,
+	level = 9,
+	trans_use_item = {
+		{
+			17013,
+			26
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			9
+		},
+		{
+			17013,
+			10
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			40
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3709] = {
+	next = 3710,
+	destory_gold = 556,
+	trans_use_gold = 600,
+	base = 3700,
+	id = 3709,
+	prev = 3708,
+	restore_gold = 2160,
+	level = 10,
+	trans_use_item = {
+		{
+			17013,
+			30
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			9
+		},
+		{
+			17013,
+			16
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			66
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3710] = {
+	next = 0,
+	destory_gold = 706,
+	trans_use_gold = 0,
+	base = 3700,
+	id = 3710,
+	prev = 3709,
+	restore_gold = 2760,
+	level = 11,
+	trans_use_item = {},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			9
+		},
+		{
+			17013,
+			24
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			96
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3720] = {
+	destory_gold = 25,
+	trans_use_gold = 20,
+	next = 3721,
+	type = 1,
+	group = 3720,
+	restore_gold = 0,
+	important = 2,
+	prev = 0,
+	id = 3720,
+	equip_limit = 0,
+	level = 1,
+	ship_type_forbidden = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19,
+		20,
+		21
+	},
+	trans_use_item = {
+		{
+			17011,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17013,
+			1
+		}
+	},
+	restore_item = {},
+	upgrade_formula_id = {}
+}
+
+_G.pg.base.equip_data_template[3721] = {
+	next = 3722,
+	destory_gold = 30,
+	trans_use_gold = 60,
+	base = 3720,
+	id = 3721,
+	prev = 3720,
+	restore_gold = 20,
+	level = 2,
+	trans_use_item = {
+		{
+			17011,
+			3
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			1
+		},
+		{
+			17013,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			1
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3722] = {
+	next = 3723,
+	destory_gold = 45,
+	trans_use_gold = 100,
+	base = 3720,
+	id = 3722,
+	prev = 3721,
+	restore_gold = 80,
+	level = 3,
+	trans_use_item = {
+		{
+			17011,
+			5
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			2
+		},
+		{
+			17013,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			4
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3723] = {
+	next = 3724,
+	destory_gold = 70,
+	trans_use_gold = 160,
+	base = 3720,
+	id = 3723,
+	prev = 3722,
+	restore_gold = 180,
+	level = 4,
+	trans_use_item = {
+		{
+			17012,
+			8
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17013,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3724] = {
+	next = 3725,
+	destory_gold = 110,
+	trans_use_gold = 220,
+	base = 3720,
+	id = 3724,
+	prev = 3723,
+	restore_gold = 340,
+	level = 5,
+	trans_use_item = {
+		{
+			17012,
+			11
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			2
+		},
+		{
+			17013,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			8
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3725] = {
+	next = 3726,
+	destory_gold = 165,
+	trans_use_gold = 280,
+	base = 3720,
+	id = 3725,
+	prev = 3724,
+	restore_gold = 560,
+	level = 6,
+	trans_use_item = {
+		{
+			17012,
+			14
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			5
+		},
+		{
+			17013,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			19
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3726] = {
+	next = 3727,
+	destory_gold = 235,
+	trans_use_gold = 360,
+	base = 3720,
+	id = 3726,
+	prev = 3725,
+	restore_gold = 840,
+	level = 7,
+	trans_use_item = {
+		{
+			17013,
+			18
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			8
+		},
+		{
+			17013,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3727] = {
+	next = 3728,
+	destory_gold = 325,
+	trans_use_gold = 440,
+	base = 3720,
+	id = 3727,
+	prev = 3726,
+	restore_gold = 1200,
+	level = 8,
+	trans_use_item = {
+		{
+			17013,
+			22
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			8
+		},
+		{
+			17013,
+			6
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			18
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3728] = {
+	next = 3729,
+	destory_gold = 435,
+	trans_use_gold = 520,
+	base = 3720,
+	id = 3728,
+	prev = 3727,
+	restore_gold = 1640,
+	level = 9,
+	trans_use_item = {
+		{
+			17013,
+			26
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			8
+		},
+		{
+			17013,
+			11
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			40
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3729] = {
+	next = 3730,
+	destory_gold = 565,
+	trans_use_gold = 600,
+	base = 3720,
+	id = 3729,
+	prev = 3728,
+	restore_gold = 2160,
+	level = 10,
+	trans_use_item = {
+		{
+			17013,
+			30
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			8
+		},
+		{
+			17013,
+			17
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			66
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3730] = {
+	next = 3731,
+	destory_gold = 715,
+	trans_use_gold = 800,
+	base = 3720,
+	id = 3730,
+	prev = 3729,
+	restore_gold = 2760,
+	level = 11,
+	trans_use_item = {
+		{
+			17014,
+			35
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			8
+		},
+		{
+			17013,
+			25
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			96
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3731] = {
+	next = 3732,
+	destory_gold = 915,
+	trans_use_gold = 1000,
+	base = 3720,
+	id = 3731,
+	prev = 3730,
+	restore_gold = 3560,
+	level = 12,
+	trans_use_item = {
+		{
+			17014,
+			40
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			8
+		},
+		{
+			17013,
+			25
+		},
+		{
+			17014,
+			9
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			96
+		},
+		{
+			17014,
+			35
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3732] = {
+	next = 3733,
+	destory_gold = 1165,
+	trans_use_gold = 1200,
+	base = 3720,
+	id = 3732,
+	prev = 3731,
+	restore_gold = 4560,
+	level = 13,
+	trans_use_item = {
+		{
+			17014,
+			45
+		},
+		{
+			17990,
+			5
+		}
+	},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			8
+		},
+		{
+			17013,
+			25
+		},
+		{
+			17014,
+			19
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			96
+		},
+		{
+			17014,
+			75
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3733] = {
+	next = 0,
+	destory_gold = 1465,
+	trans_use_gold = 0,
+	base = 3720,
+	id = 3733,
+	prev = 3732,
+	restore_gold = 5760,
+	level = 14,
+	trans_use_item = {},
+	destory_item = {
+		{
+			17011,
+			3
+		},
+		{
+			17012,
+			8
+		},
+		{
+			17013,
+			25
+		},
+		{
+			17014,
+			30
+		}
+	},
+	restore_item = {
+		{
+			17011,
+			9
+		},
+		{
+			17012,
+			33
+		},
+		{
+			17013,
+			96
+		},
+		{
+			17014,
+			120
+		},
+		{
+			17990,
+			5
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3740] = {
+	destory_gold = 16,
+	trans_use_gold = 20,
+	next = 3741,
+	type = 10,
+	group = 3740,
+	restore_gold = 0,
+	important = 2,
+	prev = 0,
+	id = 3740,
+	equip_limit = 3740,
+	level = 1,
+	ship_type_forbidden = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19,
+		20,
+		21
+	},
+	trans_use_item = {
+		{
+			17001,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {},
+	upgrade_formula_id = {}
+}
+
+_G.pg.base.equip_data_template[3741] = {
+	next = 3742,
+	destory_gold = 21,
+	trans_use_gold = 60,
+	base = 3740,
+	id = 3741,
+	prev = 3740,
+	restore_gold = 20,
+	level = 2,
+	trans_use_item = {
+		{
+			17001,
+			3
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			1
+		},
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			1
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3742] = {
+	next = 3743,
+	destory_gold = 36,
+	trans_use_gold = 100,
+	base = 3740,
+	id = 3742,
+	prev = 3741,
+	restore_gold = 80,
+	level = 3,
+	trans_use_item = {
+		{
+			17001,
+			5
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			2
+		},
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			4
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3743] = {
+	next = 3744,
+	destory_gold = 61,
+	trans_use_gold = 160,
+	base = 3740,
+	id = 3743,
+	prev = 3742,
+	restore_gold = 180,
+	level = 4,
+	trans_use_item = {
+		{
+			17002,
+			8
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3744] = {
+	next = 3745,
+	destory_gold = 101,
+	trans_use_gold = 220,
+	base = 3740,
+	id = 3744,
+	prev = 3743,
+	restore_gold = 340,
+	level = 5,
+	trans_use_item = {
+		{
+			17002,
+			11
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			3
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			8
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3745] = {
+	next = 3746,
+	destory_gold = 156,
+	trans_use_gold = 280,
+	base = 3740,
+	id = 3745,
+	prev = 3744,
+	restore_gold = 560,
+	level = 6,
+	trans_use_item = {
+		{
+			17002,
+			14
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			6
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			19
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3746] = {
+	next = 3747,
+	destory_gold = 226,
+	trans_use_gold = 360,
+	base = 3740,
+	id = 3746,
+	prev = 3745,
+	restore_gold = 840,
+	level = 7,
+	trans_use_item = {
+		{
+			17003,
+			18
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3747] = {
+	next = 3748,
+	destory_gold = 316,
+	trans_use_gold = 440,
+	base = 3740,
+	id = 3747,
+	prev = 3746,
+	restore_gold = 1200,
+	level = 8,
+	trans_use_item = {
+		{
+			17003,
+			22
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			5
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			18
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3748] = {
+	next = 3749,
+	destory_gold = 426,
+	trans_use_gold = 520,
+	base = 3740,
+	id = 3748,
+	prev = 3747,
+	restore_gold = 1640,
+	level = 9,
+	trans_use_item = {
+		{
+			17003,
+			26
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			10
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			40
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3749] = {
+	next = 3750,
+	destory_gold = 556,
+	trans_use_gold = 600,
+	base = 3740,
+	id = 3749,
+	prev = 3748,
+	restore_gold = 2160,
+	level = 10,
+	trans_use_item = {
+		{
+			17003,
+			30
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			16
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			66
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3750] = {
+	next = 3751,
+	destory_gold = 706,
+	trans_use_gold = 700,
+	base = 3740,
+	id = 3750,
+	prev = 3749,
+	restore_gold = 2760,
+	level = 11,
+	trans_use_item = {
+		{
+			17004,
+			35
+		},
+		{
+			17990,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			24
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3751] = {
+	next = 0,
+	destory_gold = 881,
+	trans_use_gold = 0,
+	base = 3740,
+	id = 3751,
+	prev = 3750,
+	restore_gold = 3460,
+	level = 12,
+	trans_use_item = {},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			24
+		},
+		{
+			17004,
+			9
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		},
+		{
+			17004,
+			35
+		},
+		{
+			17990,
+			1
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3760] = {
+	destory_gold = 16,
+	trans_use_gold = 20,
+	next = 3761,
+	type = 10,
+	group = 3760,
+	restore_gold = 0,
+	important = 2,
+	prev = 0,
+	id = 3760,
+	equip_limit = 3760,
+	level = 1,
+	ship_type_forbidden = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19,
+		20,
+		21
+	},
+	trans_use_item = {
+		{
+			17001,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {},
+	upgrade_formula_id = {}
+}
+
+_G.pg.base.equip_data_template[3761] = {
+	next = 3762,
+	destory_gold = 21,
+	trans_use_gold = 60,
+	base = 3760,
+	id = 3761,
+	prev = 3760,
+	restore_gold = 20,
+	level = 2,
+	trans_use_item = {
+		{
+			17001,
+			3
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			1
+		},
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			1
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3762] = {
+	next = 3763,
+	destory_gold = 36,
+	trans_use_gold = 100,
+	base = 3760,
+	id = 3762,
+	prev = 3761,
+	restore_gold = 80,
+	level = 3,
+	trans_use_item = {
+		{
+			17001,
+			5
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			2
+		},
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			4
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3763] = {
+	next = 3764,
+	destory_gold = 61,
+	trans_use_gold = 160,
+	base = 3760,
+	id = 3763,
+	prev = 3762,
+	restore_gold = 180,
+	level = 4,
+	trans_use_item = {
+		{
+			17002,
+			8
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3764] = {
+	next = 3765,
+	destory_gold = 101,
+	trans_use_gold = 220,
+	base = 3760,
+	id = 3764,
+	prev = 3763,
+	restore_gold = 340,
+	level = 5,
+	trans_use_item = {
+		{
+			17002,
+			11
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			3
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			8
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3765] = {
+	next = 3766,
+	destory_gold = 156,
+	trans_use_gold = 280,
+	base = 3760,
+	id = 3765,
+	prev = 3764,
+	restore_gold = 560,
+	level = 6,
+	trans_use_item = {
+		{
+			17002,
+			14
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			6
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			19
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3766] = {
+	next = 3767,
+	destory_gold = 226,
+	trans_use_gold = 360,
+	base = 3760,
+	id = 3766,
+	prev = 3765,
+	restore_gold = 840,
+	level = 7,
+	trans_use_item = {
+		{
+			17003,
+			18
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3767] = {
+	next = 3768,
+	destory_gold = 316,
+	trans_use_gold = 440,
+	base = 3760,
+	id = 3767,
+	prev = 3766,
+	restore_gold = 1200,
+	level = 8,
+	trans_use_item = {
+		{
+			17003,
+			22
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			5
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			18
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3768] = {
+	next = 3769,
+	destory_gold = 426,
+	trans_use_gold = 520,
+	base = 3760,
+	id = 3768,
+	prev = 3767,
+	restore_gold = 1640,
+	level = 9,
+	trans_use_item = {
+		{
+			17003,
+			26
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			10
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			40
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3769] = {
+	next = 3770,
+	destory_gold = 556,
+	trans_use_gold = 600,
+	base = 3760,
+	id = 3769,
+	prev = 3768,
+	restore_gold = 2160,
+	level = 10,
+	trans_use_item = {
+		{
+			17003,
+			30
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			16
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			66
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3770] = {
+	next = 3771,
+	destory_gold = 706,
+	trans_use_gold = 700,
+	base = 3760,
+	id = 3770,
+	prev = 3769,
+	restore_gold = 2760,
+	level = 11,
+	trans_use_item = {
+		{
+			17004,
+			35
+		},
+		{
+			17990,
+			1
+		}
+	},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			24
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		}
+	}
+}
+
+_G.pg.base.equip_data_template[3771] = {
+	next = 0,
+	destory_gold = 881,
+	trans_use_gold = 0,
+	base = 3760,
+	id = 3771,
+	prev = 3770,
+	restore_gold = 3460,
+	level = 12,
+	trans_use_item = {},
+	destory_item = {
+		{
+			17001,
+			3
+		},
+		{
+			17002,
+			9
+		},
+		{
+			17003,
+			24
+		},
+		{
+			17004,
+			9
+		}
+	},
+	restore_item = {
+		{
+			17001,
+			9
+		},
+		{
+			17002,
+			33
+		},
+		{
+			17003,
+			96
+		},
+		{
+			17004,
+			35
+		},
+		{
+			17990,
+			1
+		}
+	}
+}
+
 _G.pg.base.equip_data_template[4000] = {
 	destory_gold = 1,
 	trans_use_gold = 20,
@@ -41298,7 +44755,8 @@ _G.pg.base.equip_data_template[4000] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -41419,7 +44877,8 @@ _G.pg.base.equip_data_template[4020] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -41540,7 +44999,8 @@ _G.pg.base.equip_data_template[4040] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -41818,7 +45278,8 @@ _G.pg.base.equip_data_template[4100] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -41939,7 +45400,8 @@ _G.pg.base.equip_data_template[4120] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -42176,7 +45638,8 @@ _G.pg.base.equip_data_template[4140] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -42668,7 +46131,8 @@ _G.pg.base.equip_data_template[4200] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -42791,7 +46255,8 @@ _G.pg.base.equip_data_template[4220] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -43030,7 +46495,8 @@ _G.pg.base.equip_data_template[4240] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -43522,7 +46988,8 @@ _G.pg.base.equip_data_template[4300] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -43645,7 +47112,8 @@ _G.pg.base.equip_data_template[4320] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -43884,7 +47352,8 @@ _G.pg.base.equip_data_template[4340] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -44362,7 +47831,9 @@ _G.pg.base.equip_data_template[5000] = {
 	id = 5000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -44468,7 +47939,9 @@ _G.pg.base.equip_data_template[5020] = {
 	id = 5020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -44574,7 +48047,9 @@ _G.pg.base.equip_data_template[5040] = {
 	id = 5040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -44837,7 +48312,9 @@ _G.pg.base.equip_data_template[5100] = {
 	id = 5100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -44943,7 +48420,9 @@ _G.pg.base.equip_data_template[5120] = {
 	id = 5120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -45165,7 +48644,9 @@ _G.pg.base.equip_data_template[5140] = {
 	id = 5140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -45640,7 +49121,9 @@ _G.pg.base.equip_data_template[5200] = {
 	id = 5200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -45862,7 +49345,9 @@ _G.pg.base.equip_data_template[5220] = {
 	id = 5220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -46276,7 +49761,9 @@ _G.pg.base.equip_data_template[5240] = {
 	id = 5240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -46869,7 +50356,9 @@ _G.pg.base.equip_data_template[5300] = {
 	id = 5300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -46975,7 +50464,9 @@ _G.pg.base.equip_data_template[5320] = {
 	id = 5320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -47081,7 +50572,9 @@ _G.pg.base.equip_data_template[5340] = {
 	id = 5340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -47344,7 +50837,9 @@ _G.pg.base.equip_data_template[5400] = {
 	id = 5400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -47450,7 +50945,9 @@ _G.pg.base.equip_data_template[5420] = {
 	id = 5420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -47672,7 +51169,9 @@ _G.pg.base.equip_data_template[5440] = {
 	id = 5440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -48147,7 +51646,9 @@ _G.pg.base.equip_data_template[5500] = {
 	id = 5500,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -48253,7 +51754,9 @@ _G.pg.base.equip_data_template[5520] = {
 	id = 5520,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -48475,7 +51978,9 @@ _G.pg.base.equip_data_template[5540] = {
 	id = 5540,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -48950,7 +52455,9 @@ _G.pg.base.equip_data_template[6000] = {
 	id = 6000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -49056,7 +52563,9 @@ _G.pg.base.equip_data_template[6020] = {
 	id = 6020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -49162,7 +52671,9 @@ _G.pg.base.equip_data_template[6040] = {
 	id = 6040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -49425,7 +52936,9 @@ _G.pg.base.equip_data_template[6100] = {
 	id = 6100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -49531,7 +53044,9 @@ _G.pg.base.equip_data_template[6120] = {
 	id = 6120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -49637,7 +53152,9 @@ _G.pg.base.equip_data_template[6140] = {
 	id = 6140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -49900,7 +53417,9 @@ _G.pg.base.equip_data_template[7000] = {
 	id = 7000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -50006,7 +53525,9 @@ _G.pg.base.equip_data_template[7020] = {
 	id = 7020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -50112,7 +53633,9 @@ _G.pg.base.equip_data_template[7040] = {
 	id = 7040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -50375,7 +53898,9 @@ _G.pg.base.equip_data_template[7100] = {
 	id = 7100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -50481,7 +54006,9 @@ _G.pg.base.equip_data_template[7120] = {
 	id = 7120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -50587,7 +54114,9 @@ _G.pg.base.equip_data_template[7140] = {
 	id = 7140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -50850,7 +54379,9 @@ _G.pg.base.equip_data_template[7200] = {
 	id = 7200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -50956,7 +54487,9 @@ _G.pg.base.equip_data_template[7220] = {
 	id = 7220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -51178,7 +54711,9 @@ _G.pg.base.equip_data_template[7240] = {
 	id = 7240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -51655,7 +55190,8 @@ _G.pg.base.equip_data_template[7300] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -52249,7 +55785,9 @@ _G.pg.base.equip_data_template[7320] = {
 	id = 7320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -52528,7 +56066,8 @@ _G.pg.base.equip_data_template[7340] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -52792,7 +56331,9 @@ _G.pg.base.equip_data_template[11000] = {
 	id = 11000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -52898,7 +56439,9 @@ _G.pg.base.equip_data_template[11020] = {
 	id = 11020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -53004,7 +56547,9 @@ _G.pg.base.equip_data_template[11040] = {
 	id = 11040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -53267,7 +56812,9 @@ _G.pg.base.equip_data_template[11060] = {
 	id = 11060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -53532,7 +57079,9 @@ _G.pg.base.equip_data_template[11100] = {
 	id = 11100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -53638,7 +57187,9 @@ _G.pg.base.equip_data_template[11120] = {
 	id = 11120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -53860,7 +57411,9 @@ _G.pg.base.equip_data_template[11140] = {
 	id = 11140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -54337,7 +57890,9 @@ _G.pg.base.equip_data_template[11160] = {
 	id = 11160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -54814,7 +58369,9 @@ _G.pg.base.equip_data_template[11200] = {
 	id = 11200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -55036,7 +58593,9 @@ _G.pg.base.equip_data_template[11220] = {
 	id = 11220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -55450,7 +59009,9 @@ _G.pg.base.equip_data_template[11240] = {
 	id = 11240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -56045,7 +59606,9 @@ _G.pg.base.equip_data_template[12000] = {
 	id = 12000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -56151,7 +59714,9 @@ _G.pg.base.equip_data_template[12020] = {
 	id = 12020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -56257,7 +59822,9 @@ _G.pg.base.equip_data_template[12040] = {
 	id = 12040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -56520,7 +60087,9 @@ _G.pg.base.equip_data_template[12060] = {
 	id = 12060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -56785,7 +60354,9 @@ _G.pg.base.equip_data_template[12100] = {
 	id = 12100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -56891,7 +60462,9 @@ _G.pg.base.equip_data_template[12120] = {
 	id = 12120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -57113,7 +60686,9 @@ _G.pg.base.equip_data_template[12140] = {
 	id = 12140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -57590,7 +61165,9 @@ _G.pg.base.equip_data_template[12160] = {
 	id = 12160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -58185,7 +61762,9 @@ _G.pg.base.equip_data_template[12200] = {
 	id = 12200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -58780,7 +62359,8 @@ _G.pg.base.equip_data_template[13000] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -58889,7 +62469,8 @@ _G.pg.base.equip_data_template[13020] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -58998,7 +62579,8 @@ _G.pg.base.equip_data_template[13040] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -59264,7 +62846,8 @@ _G.pg.base.equip_data_template[13060] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -59532,7 +63115,8 @@ _G.pg.base.equip_data_template[13100] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -59641,7 +63225,8 @@ _G.pg.base.equip_data_template[13120] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -59866,7 +63451,8 @@ _G.pg.base.equip_data_template[13140] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -60346,7 +63932,8 @@ _G.pg.base.equip_data_template[13160] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -60942,7 +64529,9 @@ _G.pg.base.equip_data_template[14000] = {
 	id = 14000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -61164,7 +64753,9 @@ _G.pg.base.equip_data_template[14020] = {
 	id = 14020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -61578,7 +65169,9 @@ _G.pg.base.equip_data_template[14040] = {
 	id = 14040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -62171,7 +65764,9 @@ _G.pg.base.equip_data_template[14100] = {
 	id = 14100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -62277,7 +65872,9 @@ _G.pg.base.equip_data_template[14120] = {
 	id = 14120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -62383,7 +65980,9 @@ _G.pg.base.equip_data_template[14140] = {
 	id = 14140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -62646,7 +66245,9 @@ _G.pg.base.equip_data_template[14160] = {
 	id = 14160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -63123,7 +66724,9 @@ _G.pg.base.equip_data_template[14180] = {
 	id = 14180,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -63388,7 +66991,9 @@ _G.pg.base.equip_data_template[14200] = {
 	id = 14200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -63494,7 +67099,9 @@ _G.pg.base.equip_data_template[14220] = {
 	id = 14220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -63716,7 +67323,9 @@ _G.pg.base.equip_data_template[14240] = {
 	id = 14240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -64193,7 +67802,9 @@ _G.pg.base.equip_data_template[14260] = {
 	id = 14260,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -64670,7 +68281,9 @@ _G.pg.base.equip_data_template[14300] = {
 	id = 14300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -64776,7 +68389,9 @@ _G.pg.base.equip_data_template[14320] = {
 	id = 14320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -64998,7 +68613,9 @@ _G.pg.base.equip_data_template[14340] = {
 	id = 14340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -65475,7 +69092,9 @@ _G.pg.base.equip_data_template[14360] = {
 	id = 14360,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -66070,7 +69689,9 @@ _G.pg.base.equip_data_template[14380] = {
 	id = 14380,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -66547,7 +70168,9 @@ _G.pg.base.equip_data_template[14400] = {
 	id = 14400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -66769,7 +70392,9 @@ _G.pg.base.equip_data_template[14420] = {
 	id = 14420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -67183,7 +70808,9 @@ _G.pg.base.equip_data_template[14440] = {
 	id = 14440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -67776,7 +71403,9 @@ _G.pg.base.equip_data_template[14460] = {
 	id = 14460,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -68369,7 +71998,9 @@ _G.pg.base.equip_data_template[14500] = {
 	id = 14500,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -68962,7 +72593,9 @@ _G.pg.base.equip_data_template[14520] = {
 	id = 14520,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -69557,7 +73190,9 @@ _G.pg.base.equip_data_template[15000] = {
 	id = 15000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -69663,7 +73298,9 @@ _G.pg.base.equip_data_template[15020] = {
 	id = 15020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -69885,7 +73522,9 @@ _G.pg.base.equip_data_template[15040] = {
 	id = 15040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -70360,7 +73999,9 @@ _G.pg.base.equip_data_template[15060] = {
 	id = 15060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -70837,7 +74478,9 @@ _G.pg.base.equip_data_template[15100] = {
 	id = 15100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -71059,7 +74702,9 @@ _G.pg.base.equip_data_template[15120] = {
 	id = 15120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -71473,7 +75118,9 @@ _G.pg.base.equip_data_template[15140] = {
 	id = 15140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -72069,7 +75716,9 @@ _G.pg.base.equip_data_template[15160] = {
 	id = 15160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -72664,7 +76313,9 @@ _G.pg.base.equip_data_template[15200] = {
 	id = 15200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -72929,7 +76580,9 @@ _G.pg.base.equip_data_template[15220] = {
 	id = 15220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -73407,7 +77060,9 @@ _G.pg.base.equip_data_template[15240] = {
 	id = 15240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -74013,7 +77668,8 @@ _G.pg.base.equip_data_template[15500] = {
 		12,
 		13,
 		17,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -74489,7 +78145,9 @@ _G.pg.base.equip_data_template[16000] = {
 	id = 16000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -74595,7 +78253,9 @@ _G.pg.base.equip_data_template[16020] = {
 	id = 16020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -74701,7 +78361,9 @@ _G.pg.base.equip_data_template[16040] = {
 	id = 16040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -74966,7 +78628,9 @@ _G.pg.base.equip_data_template[16060] = {
 	id = 16060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -75443,7 +79107,9 @@ _G.pg.base.equip_data_template[16080] = {
 	id = 16080,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -76038,7 +79704,9 @@ _G.pg.base.equip_data_template[16100] = {
 	id = 16100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -76144,7 +79812,9 @@ _G.pg.base.equip_data_template[16120] = {
 	id = 16120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -76366,7 +80036,9 @@ _G.pg.base.equip_data_template[16140] = {
 	id = 16140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -76843,7 +80515,9 @@ _G.pg.base.equip_data_template[16160] = {
 	id = 16160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -77320,7 +80994,9 @@ _G.pg.base.equip_data_template[16200] = {
 	id = 16200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -77426,7 +81102,9 @@ _G.pg.base.equip_data_template[16220] = {
 	id = 16220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -77648,7 +81326,9 @@ _G.pg.base.equip_data_template[16240] = {
 	id = 16240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -78125,7 +81805,9 @@ _G.pg.base.equip_data_template[16300] = {
 	id = 16300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -78231,7 +81913,9 @@ _G.pg.base.equip_data_template[16320] = {
 	id = 16320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -78453,7 +82137,9 @@ _G.pg.base.equip_data_template[16340] = {
 	id = 16340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -78930,7 +82616,9 @@ _G.pg.base.equip_data_template[16400] = {
 	id = 16400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -79152,7 +82840,9 @@ _G.pg.base.equip_data_template[16420] = {
 	id = 16420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -79566,7 +83256,9 @@ _G.pg.base.equip_data_template[16440] = {
 	id = 16440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -80164,7 +83856,8 @@ _G.pg.base.equip_data_template[17000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -80272,7 +83965,8 @@ _G.pg.base.equip_data_template[17020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -80380,7 +84074,8 @@ _G.pg.base.equip_data_template[17040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -80645,7 +84340,8 @@ _G.pg.base.equip_data_template[17060] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -81240,7 +84936,8 @@ _G.pg.base.equip_data_template[17080] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -81719,7 +85416,8 @@ _G.pg.base.equip_data_template[17100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -81827,7 +85525,8 @@ _G.pg.base.equip_data_template[17120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -82051,7 +85750,8 @@ _G.pg.base.equip_data_template[17140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -82530,7 +86230,8 @@ _G.pg.base.equip_data_template[17200] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -82638,7 +86339,8 @@ _G.pg.base.equip_data_template[17220] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -82862,7 +86564,8 @@ _G.pg.base.equip_data_template[17240] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -83341,7 +87044,8 @@ _G.pg.base.equip_data_template[17260] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -83936,7 +87640,8 @@ _G.pg.base.equip_data_template[17300] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -84160,7 +87865,8 @@ _G.pg.base.equip_data_template[17320] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -84576,7 +88282,8 @@ _G.pg.base.equip_data_template[17340] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -85173,7 +88880,8 @@ _G.pg.base.equip_data_template[17360] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -85770,7 +89478,8 @@ _G.pg.base.equip_data_template[17380] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -86367,7 +90076,8 @@ _G.pg.base.equip_data_template[17400] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -86846,7 +90556,8 @@ _G.pg.base.equip_data_template[18000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -86954,7 +90665,8 @@ _G.pg.base.equip_data_template[18020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -87062,7 +90774,8 @@ _G.pg.base.equip_data_template[18040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -87327,7 +91040,8 @@ _G.pg.base.equip_data_template[18060] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -87922,7 +91636,8 @@ _G.pg.base.equip_data_template[18100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -88030,7 +91745,8 @@ _G.pg.base.equip_data_template[18120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -88254,7 +91970,8 @@ _G.pg.base.equip_data_template[18140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -88733,7 +92450,8 @@ _G.pg.base.equip_data_template[18180] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -89328,7 +93046,8 @@ _G.pg.base.equip_data_template[18220] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -89926,7 +93645,8 @@ _G.pg.base.equip_data_template[19000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -90034,7 +93754,8 @@ _G.pg.base.equip_data_template[19020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -90142,7 +93863,8 @@ _G.pg.base.equip_data_template[19040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -90409,7 +94131,8 @@ _G.pg.base.equip_data_template[19060] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -91004,7 +94727,8 @@ _G.pg.base.equip_data_template[19100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -91112,7 +94836,8 @@ _G.pg.base.equip_data_template[19120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -91336,7 +95061,8 @@ _G.pg.base.equip_data_template[19140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -91815,7 +95541,8 @@ _G.pg.base.equip_data_template[19160] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -92412,7 +96139,8 @@ _G.pg.base.equip_data_template[19200] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -92636,7 +96364,8 @@ _G.pg.base.equip_data_template[19220] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -93052,7 +96781,8 @@ _G.pg.base.equip_data_template[19240] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -93648,7 +97378,9 @@ _G.pg.base.equip_data_template[21000] = {
 	id = 21000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -93754,7 +97486,9 @@ _G.pg.base.equip_data_template[21020] = {
 	id = 21020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -93860,7 +97594,9 @@ _G.pg.base.equip_data_template[21040] = {
 	id = 21040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -94123,7 +97859,9 @@ _G.pg.base.equip_data_template[21100] = {
 	id = 21100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -94229,7 +97967,9 @@ _G.pg.base.equip_data_template[21120] = {
 	id = 21120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -94335,7 +98075,9 @@ _G.pg.base.equip_data_template[21140] = {
 	id = 21140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -94600,7 +98342,9 @@ _G.pg.base.equip_data_template[21160] = {
 	id = 21160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -95077,7 +98821,9 @@ _G.pg.base.equip_data_template[21200] = {
 	id = 21200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -95183,7 +98929,9 @@ _G.pg.base.equip_data_template[21220] = {
 	id = 21220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -95405,7 +99153,9 @@ _G.pg.base.equip_data_template[21240] = {
 	id = 21240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -95882,7 +99632,9 @@ _G.pg.base.equip_data_template[21300] = {
 	id = 21300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -95988,7 +99740,9 @@ _G.pg.base.equip_data_template[21320] = {
 	id = 21320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -96094,7 +99848,9 @@ _G.pg.base.equip_data_template[21340] = {
 	id = 21340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -96359,7 +100115,9 @@ _G.pg.base.equip_data_template[21400] = {
 	id = 21400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -96465,7 +100223,9 @@ _G.pg.base.equip_data_template[21420] = {
 	id = 21420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -96687,7 +100447,9 @@ _G.pg.base.equip_data_template[21440] = {
 	id = 21440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -97164,7 +100926,9 @@ _G.pg.base.equip_data_template[21460] = {
 	id = 21460,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -97759,7 +101523,9 @@ _G.pg.base.equip_data_template[21500] = {
 	id = 21500,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -97865,7 +101631,9 @@ _G.pg.base.equip_data_template[21520] = {
 	id = 21520,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -98087,7 +101855,9 @@ _G.pg.base.equip_data_template[21540] = {
 	id = 21540,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -98564,7 +102334,9 @@ _G.pg.base.equip_data_template[21600] = {
 	id = 21600,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -99157,7 +102929,9 @@ _G.pg.base.equip_data_template[22000] = {
 	id = 22000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -99263,7 +103037,9 @@ _G.pg.base.equip_data_template[22020] = {
 	id = 22020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -99369,7 +103145,9 @@ _G.pg.base.equip_data_template[22040] = {
 	id = 22040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -99632,7 +103410,9 @@ _G.pg.base.equip_data_template[22060] = {
 	id = 22060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -99897,7 +103677,9 @@ _G.pg.base.equip_data_template[22100] = {
 	id = 22100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -100003,7 +103785,9 @@ _G.pg.base.equip_data_template[22120] = {
 	id = 22120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -100225,7 +104009,9 @@ _G.pg.base.equip_data_template[22140] = {
 	id = 22140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -100702,7 +104488,9 @@ _G.pg.base.equip_data_template[22200] = {
 	id = 22200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -100808,7 +104596,9 @@ _G.pg.base.equip_data_template[22220] = {
 	id = 22220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -101030,7 +104820,9 @@ _G.pg.base.equip_data_template[22240] = {
 	id = 22240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -101507,7 +105299,9 @@ _G.pg.base.equip_data_template[22260] = {
 	id = 22260,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -102102,7 +105896,9 @@ _G.pg.base.equip_data_template[22280] = {
 	id = 22280,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -102697,7 +106493,8 @@ _G.pg.base.equip_data_template[23000] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -102806,7 +106603,8 @@ _G.pg.base.equip_data_template[23020] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -103031,7 +106829,8 @@ _G.pg.base.equip_data_template[23040] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -103509,7 +107308,8 @@ _G.pg.base.equip_data_template[23100] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -104105,7 +107905,8 @@ _G.pg.base.equip_data_template[23120] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -104701,7 +108502,8 @@ _G.pg.base.equip_data_template[23200] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -105297,7 +109099,9 @@ _G.pg.base.equip_data_template[24000] = {
 	id = 24000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -105519,7 +109323,9 @@ _G.pg.base.equip_data_template[24020] = {
 	id = 24020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -105933,7 +109739,9 @@ _G.pg.base.equip_data_template[24040] = {
 	id = 24040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -106528,7 +110336,9 @@ _G.pg.base.equip_data_template[24060] = {
 	id = 24060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -107005,7 +110815,9 @@ _G.pg.base.equip_data_template[24100] = {
 	id = 24100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -107111,7 +110923,9 @@ _G.pg.base.equip_data_template[24120] = {
 	id = 24120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -107333,7 +111147,9 @@ _G.pg.base.equip_data_template[24140] = {
 	id = 24140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -107808,7 +111624,9 @@ _G.pg.base.equip_data_template[24160] = {
 	id = 24160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -108403,7 +112221,9 @@ _G.pg.base.equip_data_template[24200] = {
 	id = 24200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -108625,7 +112445,9 @@ _G.pg.base.equip_data_template[24220] = {
 	id = 24220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -109039,7 +112861,9 @@ _G.pg.base.equip_data_template[24240] = {
 	id = 24240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -109634,7 +113458,9 @@ _G.pg.base.equip_data_template[24300] = {
 	id = 24300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -109856,7 +113682,9 @@ _G.pg.base.equip_data_template[24320] = {
 	id = 24320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -110270,7 +114098,9 @@ _G.pg.base.equip_data_template[24340] = {
 	id = 24340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -110865,7 +114695,9 @@ _G.pg.base.equip_data_template[25000] = {
 	id = 25000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -111130,7 +114962,9 @@ _G.pg.base.equip_data_template[25020] = {
 	id = 25020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -111608,7 +115442,9 @@ _G.pg.base.equip_data_template[25040] = {
 	id = 25040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -112204,7 +116040,9 @@ _G.pg.base.equip_data_template[25100] = {
 	id = 25100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -112310,7 +116148,9 @@ _G.pg.base.equip_data_template[25120] = {
 	id = 25120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -112532,7 +116372,9 @@ _G.pg.base.equip_data_template[25140] = {
 	id = 25140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -113007,7 +116849,9 @@ _G.pg.base.equip_data_template[25200] = {
 	id = 25200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -113602,7 +117446,9 @@ _G.pg.base.equip_data_template[25300] = {
 	id = 25300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -114211,7 +118057,8 @@ _G.pg.base.equip_data_template[25800] = {
 		13,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -114805,7 +118652,9 @@ _G.pg.base.equip_data_template[26000] = {
 	id = 26000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -114911,7 +118760,9 @@ _G.pg.base.equip_data_template[26020] = {
 	id = 26020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -115017,7 +118868,9 @@ _G.pg.base.equip_data_template[26040] = {
 	id = 26040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -115282,7 +119135,9 @@ _G.pg.base.equip_data_template[26060] = {
 	id = 26060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -115759,7 +119614,9 @@ _G.pg.base.equip_data_template[26100] = {
 	id = 26100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -115865,7 +119722,9 @@ _G.pg.base.equip_data_template[26120] = {
 	id = 26120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -116087,7 +119946,9 @@ _G.pg.base.equip_data_template[26140] = {
 	id = 26140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -116564,7 +120425,9 @@ _G.pg.base.equip_data_template[26200] = {
 	id = 26200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -116786,7 +120649,9 @@ _G.pg.base.equip_data_template[26220] = {
 	id = 26220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -117200,7 +121065,9 @@ _G.pg.base.equip_data_template[26240] = {
 	id = 26240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -117795,7 +121662,9 @@ _G.pg.base.equip_data_template[26300] = {
 	id = 26300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -117901,7 +121770,9 @@ _G.pg.base.equip_data_template[26320] = {
 	id = 26320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -118123,7 +121994,9 @@ _G.pg.base.equip_data_template[26340] = {
 	id = 26340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -118600,7 +122473,9 @@ _G.pg.base.equip_data_template[26360] = {
 	id = 26360,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -119077,7 +122952,9 @@ _G.pg.base.equip_data_template[26400] = {
 	id = 26400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -119183,7 +123060,9 @@ _G.pg.base.equip_data_template[26420] = {
 	id = 26420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -119405,7 +123284,9 @@ _G.pg.base.equip_data_template[26440] = {
 	id = 26440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -119882,7 +123763,9 @@ _G.pg.base.equip_data_template[26460] = {
 	id = 26460,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -120359,7 +124242,9 @@ _G.pg.base.equip_data_template[26500] = {
 	id = 26500,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -120581,7 +124466,9 @@ _G.pg.base.equip_data_template[26520] = {
 	id = 26520,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -120995,7 +124882,9 @@ _G.pg.base.equip_data_template[26540] = {
 	id = 26540,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -121590,7 +125479,9 @@ _G.pg.base.equip_data_template[26600] = {
 	id = 26600,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -122185,7 +126076,9 @@ _G.pg.base.equip_data_template[26620] = {
 	id = 26620,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -122780,7 +126673,9 @@ _G.pg.base.equip_data_template[26640] = {
 	id = 26640,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -123375,7 +127270,9 @@ _G.pg.base.equip_data_template[26660] = {
 	id = 26660,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -123969,7 +127866,8 @@ _G.pg.base.equip_data_template[27000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -124077,7 +127975,8 @@ _G.pg.base.equip_data_template[27020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -124301,7 +128200,8 @@ _G.pg.base.equip_data_template[27040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -124780,7 +128680,8 @@ _G.pg.base.equip_data_template[27060] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -125377,7 +129278,8 @@ _G.pg.base.equip_data_template[27100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -125601,7 +129503,8 @@ _G.pg.base.equip_data_template[27120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -126017,7 +129920,8 @@ _G.pg.base.equip_data_template[27140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -126614,7 +130518,8 @@ _G.pg.base.equip_data_template[27200] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -126722,7 +130627,8 @@ _G.pg.base.equip_data_template[27220] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -126830,7 +130736,8 @@ _G.pg.base.equip_data_template[27240] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -127095,7 +131002,8 @@ _G.pg.base.equip_data_template[27260] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -127362,7 +131270,8 @@ _G.pg.base.equip_data_template[27300] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -127959,7 +131868,8 @@ _G.pg.base.equip_data_template[27320] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -128556,7 +132466,8 @@ _G.pg.base.equip_data_template[28000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -128664,7 +132575,8 @@ _G.pg.base.equip_data_template[28020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -128888,7 +132800,8 @@ _G.pg.base.equip_data_template[28040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -129367,7 +133280,8 @@ _G.pg.base.equip_data_template[28060] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -129962,7 +133876,8 @@ _G.pg.base.equip_data_template[28100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -130186,7 +134101,8 @@ _G.pg.base.equip_data_template[28120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -130602,7 +134518,8 @@ _G.pg.base.equip_data_template[28140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -131199,7 +135116,8 @@ _G.pg.base.equip_data_template[28200] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -131796,7 +135714,8 @@ _G.pg.base.equip_data_template[28220] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -132393,7 +136312,8 @@ _G.pg.base.equip_data_template[28300] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -132501,7 +136421,8 @@ _G.pg.base.equip_data_template[28320] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -132725,7 +136646,8 @@ _G.pg.base.equip_data_template[28340] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -133204,7 +137126,8 @@ _G.pg.base.equip_data_template[28400] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -133801,7 +137724,8 @@ _G.pg.base.equip_data_template[29000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -133909,7 +137833,8 @@ _G.pg.base.equip_data_template[29020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -134017,7 +137942,8 @@ _G.pg.base.equip_data_template[29040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -134282,7 +138208,8 @@ _G.pg.base.equip_data_template[29100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -134390,7 +138317,8 @@ _G.pg.base.equip_data_template[29120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -134614,7 +138542,8 @@ _G.pg.base.equip_data_template[29140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -135093,7 +139022,8 @@ _G.pg.base.equip_data_template[29200] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -135690,7 +139620,8 @@ _G.pg.base.equip_data_template[29300] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -136284,7 +140215,9 @@ _G.pg.base.equip_data_template[30000] = {
 	id = 30000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -136547,7 +140480,9 @@ _G.pg.base.equip_data_template[31000] = {
 	id = 31000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -136769,7 +140704,9 @@ _G.pg.base.equip_data_template[31020] = {
 	id = 31020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -137183,7 +141120,9 @@ _G.pg.base.equip_data_template[31040] = {
 	id = 31040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -137778,7 +141717,9 @@ _G.pg.base.equip_data_template[31060] = {
 	id = 31060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -138255,7 +142196,9 @@ _G.pg.base.equip_data_template[31100] = {
 	id = 31100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -138361,7 +142304,9 @@ _G.pg.base.equip_data_template[31120] = {
 	id = 31120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -138467,7 +142412,9 @@ _G.pg.base.equip_data_template[31140] = {
 	id = 31140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -138730,7 +142677,9 @@ _G.pg.base.equip_data_template[31160] = {
 	id = 31160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -138995,7 +142944,9 @@ _G.pg.base.equip_data_template[31180] = {
 	id = 31180,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -139472,7 +143423,9 @@ _G.pg.base.equip_data_template[31200] = {
 	id = 31200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -139578,7 +143531,9 @@ _G.pg.base.equip_data_template[31220] = {
 	id = 31220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -139800,7 +143755,9 @@ _G.pg.base.equip_data_template[31240] = {
 	id = 31240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -140277,7 +144234,9 @@ _G.pg.base.equip_data_template[31260] = {
 	id = 31260,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -140542,7 +144501,9 @@ _G.pg.base.equip_data_template[31280] = {
 	id = 31280,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -141019,7 +144980,9 @@ _G.pg.base.equip_data_template[32000] = {
 	id = 32000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -141125,7 +145088,9 @@ _G.pg.base.equip_data_template[32020] = {
 	id = 32020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -141231,7 +145196,9 @@ _G.pg.base.equip_data_template[32040] = {
 	id = 32040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -141494,7 +145461,9 @@ _G.pg.base.equip_data_template[32060] = {
 	id = 32060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -141759,7 +145728,9 @@ _G.pg.base.equip_data_template[32100] = {
 	id = 32100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -141865,7 +145836,9 @@ _G.pg.base.equip_data_template[32120] = {
 	id = 32120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -142087,7 +146060,9 @@ _G.pg.base.equip_data_template[32140] = {
 	id = 32140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -142564,7 +146539,9 @@ _G.pg.base.equip_data_template[32200] = {
 	id = 32200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -142786,7 +146763,9 @@ _G.pg.base.equip_data_template[32220] = {
 	id = 32220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -143200,7 +147179,9 @@ _G.pg.base.equip_data_template[32240] = {
 	id = 32240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -143795,7 +147776,9 @@ _G.pg.base.equip_data_template[32260] = {
 	id = 32260,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -144390,7 +148373,9 @@ _G.pg.base.equip_data_template[32300] = {
 	id = 32300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -144496,7 +148481,9 @@ _G.pg.base.equip_data_template[32320] = {
 	id = 32320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -144718,7 +148705,9 @@ _G.pg.base.equip_data_template[32340] = {
 	id = 32340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -145197,7 +149186,8 @@ _G.pg.base.equip_data_template[33000] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -145306,7 +149296,8 @@ _G.pg.base.equip_data_template[33020] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -145531,7 +149522,8 @@ _G.pg.base.equip_data_template[33040] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -146009,7 +150001,8 @@ _G.pg.base.equip_data_template[33060] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -146607,7 +150600,8 @@ _G.pg.base.equip_data_template[33080] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -147086,7 +151080,8 @@ _G.pg.base.equip_data_template[33100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		3
+		3,
+		22
 	},
 	trans_use_item = {
 		{
@@ -147680,7 +151675,9 @@ _G.pg.base.equip_data_template[34000] = {
 	id = 34000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -147786,7 +151783,9 @@ _G.pg.base.equip_data_template[34020] = {
 	id = 34020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -147892,7 +151891,9 @@ _G.pg.base.equip_data_template[34040] = {
 	id = 34040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -148155,7 +152156,9 @@ _G.pg.base.equip_data_template[34060] = {
 	id = 34060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -148420,7 +152423,9 @@ _G.pg.base.equip_data_template[34100] = {
 	id = 34100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -148526,7 +152531,9 @@ _G.pg.base.equip_data_template[34120] = {
 	id = 34120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -148748,7 +152755,9 @@ _G.pg.base.equip_data_template[34140] = {
 	id = 34140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -149225,7 +153234,9 @@ _G.pg.base.equip_data_template[34160] = {
 	id = 34160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -149820,7 +153831,9 @@ _G.pg.base.equip_data_template[34180] = {
 	id = 34180,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -150415,7 +154428,9 @@ _G.pg.base.equip_data_template[34200] = {
 	id = 34200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -150829,7 +154844,9 @@ _G.pg.base.equip_data_template[34220] = {
 	id = 34220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -151255,7 +155272,9 @@ _G.pg.base.equip_data_template[34240] = {
 	id = 34240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -151848,7 +155867,9 @@ _G.pg.base.equip_data_template[34300] = {
 	id = 34300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -152325,7 +156346,9 @@ _G.pg.base.equip_data_template[35000] = {
 	id = 35000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -152431,7 +156454,9 @@ _G.pg.base.equip_data_template[35020] = {
 	id = 35020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -152537,7 +156562,9 @@ _G.pg.base.equip_data_template[35040] = {
 	id = 35040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -152800,7 +156827,9 @@ _G.pg.base.equip_data_template[35100] = {
 	id = 35100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -152906,7 +156935,9 @@ _G.pg.base.equip_data_template[35120] = {
 	id = 35120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -153128,7 +157159,9 @@ _G.pg.base.equip_data_template[35140] = {
 	id = 35140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -153605,7 +157638,9 @@ _G.pg.base.equip_data_template[35160] = {
 	id = 35160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -154082,7 +158117,9 @@ _G.pg.base.equip_data_template[35200] = {
 	id = 35200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -154304,7 +158341,9 @@ _G.pg.base.equip_data_template[35220] = {
 	id = 35220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -154718,7 +158757,9 @@ _G.pg.base.equip_data_template[35240] = {
 	id = 35240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -155313,7 +159354,9 @@ _G.pg.base.equip_data_template[35260] = {
 	id = 35260,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -155908,7 +159951,9 @@ _G.pg.base.equip_data_template[35300] = {
 	id = 35300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -156322,7 +160367,9 @@ _G.pg.base.equip_data_template[35320] = {
 	id = 35320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -156748,7 +160795,9 @@ _G.pg.base.equip_data_template[35340] = {
 	id = 35340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -157341,7 +161390,9 @@ _G.pg.base.equip_data_template[35400] = {
 	id = 35400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -157447,7 +161498,9 @@ _G.pg.base.equip_data_template[35420] = {
 	id = 35420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -157669,7 +161722,9 @@ _G.pg.base.equip_data_template[35440] = {
 	id = 35440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -158144,7 +162199,9 @@ _G.pg.base.equip_data_template[35460] = {
 	id = 35460,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -158621,7 +162678,9 @@ _G.pg.base.equip_data_template[35500] = {
 	id = 35500,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -158843,7 +162902,9 @@ _G.pg.base.equip_data_template[35520] = {
 	id = 35520,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -159257,7 +163318,9 @@ _G.pg.base.equip_data_template[35540] = {
 	id = 35540,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -159852,7 +163915,9 @@ _G.pg.base.equip_data_template[35560] = {
 	id = 35560,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -160447,7 +164512,9 @@ _G.pg.base.equip_data_template[35580] = {
 	id = 35580,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -161042,7 +165109,9 @@ _G.pg.base.equip_data_template[36100] = {
 	id = 36100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -161148,7 +165217,9 @@ _G.pg.base.equip_data_template[36120] = {
 	id = 36120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -161254,7 +165325,9 @@ _G.pg.base.equip_data_template[36140] = {
 	id = 36140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -161517,7 +165590,9 @@ _G.pg.base.equip_data_template[36200] = {
 	id = 36200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -161623,7 +165698,9 @@ _G.pg.base.equip_data_template[36220] = {
 	id = 36220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -161845,7 +165922,9 @@ _G.pg.base.equip_data_template[36240] = {
 	id = 36240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -162322,7 +166401,9 @@ _G.pg.base.equip_data_template[36300] = {
 	id = 36300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -162428,7 +166509,9 @@ _G.pg.base.equip_data_template[36320] = {
 	id = 36320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -162650,7 +166733,9 @@ _G.pg.base.equip_data_template[36340] = {
 	id = 36340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -163127,7 +167212,9 @@ _G.pg.base.equip_data_template[36360] = {
 	id = 36360,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -163722,7 +167809,9 @@ _G.pg.base.equip_data_template[36400] = {
 	id = 36400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -163828,7 +167917,9 @@ _G.pg.base.equip_data_template[36420] = {
 	id = 36420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -164050,7 +168141,9 @@ _G.pg.base.equip_data_template[36440] = {
 	id = 36440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -164527,7 +168620,9 @@ _G.pg.base.equip_data_template[36500] = {
 	id = 36500,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -164633,7 +168728,9 @@ _G.pg.base.equip_data_template[36520] = {
 	id = 36520,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -164855,7 +168952,9 @@ _G.pg.base.equip_data_template[36540] = {
 	id = 36540,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -165332,7 +169431,9 @@ _G.pg.base.equip_data_template[36560] = {
 	id = 36560,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -165925,7 +170026,9 @@ _G.pg.base.equip_data_template[36580] = {
 	id = 36580,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -166402,7 +170505,9 @@ _G.pg.base.equip_data_template[36600] = {
 	id = 36600,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -166508,7 +170613,9 @@ _G.pg.base.equip_data_template[36620] = {
 	id = 36620,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -166730,7 +170837,9 @@ _G.pg.base.equip_data_template[36640] = {
 	id = 36640,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -167207,7 +171316,9 @@ _G.pg.base.equip_data_template[36660] = {
 	id = 36660,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -167802,7 +171913,9 @@ _G.pg.base.equip_data_template[36700] = {
 	id = 36700,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -168396,7 +172509,8 @@ _G.pg.base.equip_data_template[37000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -168504,7 +172618,8 @@ _G.pg.base.equip_data_template[37020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -168612,7 +172727,8 @@ _G.pg.base.equip_data_template[37040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -168877,7 +172993,8 @@ _G.pg.base.equip_data_template[37100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -168985,7 +173102,8 @@ _G.pg.base.equip_data_template[37120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -169209,7 +173327,8 @@ _G.pg.base.equip_data_template[37140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -169688,7 +173807,8 @@ _G.pg.base.equip_data_template[37160] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -170167,7 +174287,8 @@ _G.pg.base.equip_data_template[37200] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -170391,7 +174512,8 @@ _G.pg.base.equip_data_template[37220] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -170807,7 +174929,8 @@ _G.pg.base.equip_data_template[37240] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -171404,7 +175527,8 @@ _G.pg.base.equip_data_template[37300] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -171628,7 +175752,8 @@ _G.pg.base.equip_data_template[37320] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -172044,7 +176169,8 @@ _G.pg.base.equip_data_template[37340] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -172641,7 +176767,8 @@ _G.pg.base.equip_data_template[37400] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -173237,7 +177364,9 @@ _G.pg.base.equip_data_template[37420] = {
 	id = 37420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17041,
@@ -173714,7 +177843,9 @@ _G.pg.base.equip_data_template[37440] = {
 	id = 37440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17041,
@@ -174192,7 +178323,8 @@ _G.pg.base.equip_data_template[38000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -174300,7 +178432,8 @@ _G.pg.base.equip_data_template[38020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -174408,7 +178541,8 @@ _G.pg.base.equip_data_template[38040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -174673,7 +178807,8 @@ _G.pg.base.equip_data_template[38060] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -174940,7 +179075,8 @@ _G.pg.base.equip_data_template[38100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -175048,7 +179184,8 @@ _G.pg.base.equip_data_template[38120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -175272,7 +179409,8 @@ _G.pg.base.equip_data_template[38140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -175751,7 +179889,8 @@ _G.pg.base.equip_data_template[38160] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -176230,7 +180369,8 @@ _G.pg.base.equip_data_template[38200] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -176454,7 +180594,8 @@ _G.pg.base.equip_data_template[38220] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -176870,7 +181011,8 @@ _G.pg.base.equip_data_template[38240] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -177467,7 +181609,8 @@ _G.pg.base.equip_data_template[38300] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -178062,7 +182205,8 @@ _G.pg.base.equip_data_template[39000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -178170,7 +182314,8 @@ _G.pg.base.equip_data_template[39020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -178394,7 +182539,8 @@ _G.pg.base.equip_data_template[39040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -178873,7 +183019,8 @@ _G.pg.base.equip_data_template[39060] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -179352,7 +183499,8 @@ _G.pg.base.equip_data_template[39100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -179576,7 +183724,8 @@ _G.pg.base.equip_data_template[39120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -179992,7 +184141,8 @@ _G.pg.base.equip_data_template[39140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -180589,7 +184739,8 @@ _G.pg.base.equip_data_template[39160] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -181185,7 +185336,9 @@ _G.pg.base.equip_data_template[39200] = {
 	id = 39200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17041,
@@ -181291,7 +185444,9 @@ _G.pg.base.equip_data_template[39220] = {
 	id = 39220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17041,
@@ -181513,7 +185668,9 @@ _G.pg.base.equip_data_template[39240] = {
 	id = 39240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17041,
@@ -181990,7 +186147,9 @@ _G.pg.base.equip_data_template[39300] = {
 	id = 39300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17041,
@@ -182487,7 +186646,8 @@ _G.pg.base.equip_data_template[39320] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -183084,7 +187244,8 @@ _G.pg.base.equip_data_template[39340] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -183678,7 +187839,9 @@ _G.pg.base.equip_data_template[41000] = {
 	id = 41000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -183784,7 +187947,9 @@ _G.pg.base.equip_data_template[41020] = {
 	id = 41020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -183890,7 +188055,9 @@ _G.pg.base.equip_data_template[41040] = {
 	id = 41040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -184153,7 +188320,9 @@ _G.pg.base.equip_data_template[41060] = {
 	id = 41060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -184630,7 +188799,9 @@ _G.pg.base.equip_data_template[41100] = {
 	id = 41100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -184736,7 +188907,9 @@ _G.pg.base.equip_data_template[41120] = {
 	id = 41120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -184958,7 +189131,9 @@ _G.pg.base.equip_data_template[41140] = {
 	id = 41140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -185435,7 +189610,9 @@ _G.pg.base.equip_data_template[41160] = {
 	id = 41160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -186030,7 +190207,9 @@ _G.pg.base.equip_data_template[42000] = {
 	id = 42000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -186136,7 +190315,9 @@ _G.pg.base.equip_data_template[42020] = {
 	id = 42020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -186358,7 +190539,9 @@ _G.pg.base.equip_data_template[42040] = {
 	id = 42040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -186835,7 +191018,9 @@ _G.pg.base.equip_data_template[42060] = {
 	id = 42060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -187312,7 +191497,9 @@ _G.pg.base.equip_data_template[42080] = {
 	id = 42080,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -187907,7 +192094,9 @@ _G.pg.base.equip_data_template[42100] = {
 	id = 42100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -188013,7 +192202,9 @@ _G.pg.base.equip_data_template[42120] = {
 	id = 42120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -188235,7 +192426,9 @@ _G.pg.base.equip_data_template[42140] = {
 	id = 42140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -188710,7 +192903,9 @@ _G.pg.base.equip_data_template[42200] = {
 	id = 42200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -188816,7 +193011,9 @@ _G.pg.base.equip_data_template[42220] = {
 	id = 42220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -189038,7 +193235,9 @@ _G.pg.base.equip_data_template[42240] = {
 	id = 42240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -189515,7 +193714,9 @@ _G.pg.base.equip_data_template[42300] = {
 	id = 42300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -189621,7 +193822,9 @@ _G.pg.base.equip_data_template[42340] = {
 	id = 42340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -190100,7 +194303,8 @@ _G.pg.base.equip_data_template[43000] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -190325,7 +194529,8 @@ _G.pg.base.equip_data_template[43020] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -190742,7 +194947,8 @@ _G.pg.base.equip_data_template[43040] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -191338,7 +195544,8 @@ _G.pg.base.equip_data_template[43060] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -191936,7 +196143,8 @@ _G.pg.base.equip_data_template[43080] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -192530,7 +196738,9 @@ _G.pg.base.equip_data_template[43100] = {
 	id = 43100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -192636,7 +196846,9 @@ _G.pg.base.equip_data_template[43120] = {
 	id = 43120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -192858,7 +197070,9 @@ _G.pg.base.equip_data_template[43140] = {
 	id = 43140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -193333,7 +197547,9 @@ _G.pg.base.equip_data_template[44000] = {
 	id = 44000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -193439,7 +197655,9 @@ _G.pg.base.equip_data_template[44020] = {
 	id = 44020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -193661,7 +197879,9 @@ _G.pg.base.equip_data_template[44040] = {
 	id = 44040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -194136,7 +198356,9 @@ _G.pg.base.equip_data_template[44100] = {
 	id = 44100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -194358,7 +198580,9 @@ _G.pg.base.equip_data_template[44120] = {
 	id = 44120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -194772,7 +198996,9 @@ _G.pg.base.equip_data_template[44140] = {
 	id = 44140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -195367,7 +199593,9 @@ _G.pg.base.equip_data_template[44200] = {
 	id = 44200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -195960,7 +200188,9 @@ _G.pg.base.equip_data_template[44300] = {
 	id = 44300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -196554,7 +200784,8 @@ _G.pg.base.equip_data_template[44400] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		3
+		3,
+		22
 	},
 	trans_use_item = {
 		{
@@ -197148,7 +201379,9 @@ _G.pg.base.equip_data_template[45000] = {
 	id = 45000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -197254,7 +201487,9 @@ _G.pg.base.equip_data_template[45020] = {
 	id = 45020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -197476,7 +201711,9 @@ _G.pg.base.equip_data_template[45040] = {
 	id = 45040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -197953,7 +202190,9 @@ _G.pg.base.equip_data_template[45100] = {
 	id = 45100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -198175,7 +202414,9 @@ _G.pg.base.equip_data_template[45120] = {
 	id = 45120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -198589,7 +202830,9 @@ _G.pg.base.equip_data_template[45140] = {
 	id = 45140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -199185,7 +203428,9 @@ _G.pg.base.equip_data_template[45200] = {
 	id = 45200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -199599,7 +203844,9 @@ _G.pg.base.equip_data_template[45220] = {
 	id = 45220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -200025,7 +204272,9 @@ _G.pg.base.equip_data_template[45240] = {
 	id = 45240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -200621,7 +204870,9 @@ _G.pg.base.equip_data_template[45300] = {
 	id = 45300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -200727,7 +204978,9 @@ _G.pg.base.equip_data_template[45320] = {
 	id = 45320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -200949,7 +205202,9 @@ _G.pg.base.equip_data_template[45340] = {
 	id = 45340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -201424,7 +205679,9 @@ _G.pg.base.equip_data_template[45400] = {
 	id = 45400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -201646,7 +205903,9 @@ _G.pg.base.equip_data_template[45420] = {
 	id = 45420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -202060,7 +206319,9 @@ _G.pg.base.equip_data_template[45440] = {
 	id = 45440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -202655,7 +206916,9 @@ _G.pg.base.equip_data_template[46000] = {
 	id = 46000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -202761,7 +207024,9 @@ _G.pg.base.equip_data_template[46020] = {
 	id = 46020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -202867,7 +207132,9 @@ _G.pg.base.equip_data_template[46040] = {
 	id = 46040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -203132,7 +207399,9 @@ _G.pg.base.equip_data_template[46060] = {
 	id = 46060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -203609,7 +207878,9 @@ _G.pg.base.equip_data_template[46100] = {
 	id = 46100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -203715,7 +207986,9 @@ _G.pg.base.equip_data_template[46120] = {
 	id = 46120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -203821,7 +208094,9 @@ _G.pg.base.equip_data_template[46140] = {
 	id = 46140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -204084,7 +208359,9 @@ _G.pg.base.equip_data_template[46200] = {
 	id = 46200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -204190,7 +208467,9 @@ _G.pg.base.equip_data_template[46220] = {
 	id = 46220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -204412,7 +208691,9 @@ _G.pg.base.equip_data_template[46240] = {
 	id = 46240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -204889,7 +209170,9 @@ _G.pg.base.equip_data_template[46260] = {
 	id = 46260,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -205366,7 +209649,9 @@ _G.pg.base.equip_data_template[46300] = {
 	id = 46300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -205588,7 +209873,9 @@ _G.pg.base.equip_data_template[46320] = {
 	id = 46320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -206002,7 +210289,9 @@ _G.pg.base.equip_data_template[46340] = {
 	id = 46340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -206597,7 +210886,9 @@ _G.pg.base.equip_data_template[46360] = {
 	id = 46360,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -207192,7 +211483,9 @@ _G.pg.base.equip_data_template[46400] = {
 	id = 46400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -207786,7 +212079,8 @@ _G.pg.base.equip_data_template[47000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -207894,7 +212188,8 @@ _G.pg.base.equip_data_template[47020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -208118,7 +212413,8 @@ _G.pg.base.equip_data_template[47040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -208597,7 +212893,8 @@ _G.pg.base.equip_data_template[47060] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -208862,7 +213159,8 @@ _G.pg.base.equip_data_template[47080] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -209341,7 +213639,8 @@ _G.pg.base.equip_data_template[47100] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -209565,7 +213864,8 @@ _G.pg.base.equip_data_template[47120] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -209981,7 +214281,8 @@ _G.pg.base.equip_data_template[47140] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -210578,7 +214879,8 @@ _G.pg.base.equip_data_template[47160] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -211173,7 +215475,8 @@ _G.pg.base.equip_data_template[48000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -211440,7 +215743,8 @@ _G.pg.base.equip_data_template[48020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -211919,7 +216223,8 @@ _G.pg.base.equip_data_template[48040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -212516,7 +216821,8 @@ _G.pg.base.equip_data_template[49000] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -212624,7 +216930,8 @@ _G.pg.base.equip_data_template[49020] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -212848,7 +217155,8 @@ _G.pg.base.equip_data_template[49040] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -213327,7 +217635,8 @@ _G.pg.base.equip_data_template[49060] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -213591,7 +217900,9 @@ _G.pg.base.equip_data_template[85000] = {
 	id = 85000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -213813,7 +218124,9 @@ _G.pg.base.equip_data_template[85040] = {
 	id = 85040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -214406,7 +218719,9 @@ _G.pg.base.equip_data_template[85060] = {
 	id = 85060,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -214628,7 +218943,9 @@ _G.pg.base.equip_data_template[85120] = {
 	id = 85120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -214850,7 +219167,9 @@ _G.pg.base.equip_data_template[85140] = {
 	id = 85140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -215264,7 +219583,9 @@ _G.pg.base.equip_data_template[85160] = {
 	id = 85160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -215857,7 +220178,9 @@ _G.pg.base.equip_data_template[85180] = {
 	id = 85180,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -215963,7 +220286,9 @@ _G.pg.base.equip_data_template[85200] = {
 	id = 85200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -216185,7 +220510,9 @@ _G.pg.base.equip_data_template[85220] = {
 	id = 85220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -216660,7 +220987,9 @@ _G.pg.base.equip_data_template[85260] = {
 	id = 85260,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -216882,7 +221211,9 @@ _G.pg.base.equip_data_template[85280] = {
 	id = 85280,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -217357,7 +221688,9 @@ _G.pg.base.equip_data_template[85300] = {
 	id = 85300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -217579,7 +221912,9 @@ _G.pg.base.equip_data_template[85320] = {
 	id = 85320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -217993,7 +222328,9 @@ _G.pg.base.equip_data_template[85360] = {
 	id = 85360,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -218099,7 +222436,9 @@ _G.pg.base.equip_data_template[85380] = {
 	id = 85380,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -218321,7 +222660,9 @@ _G.pg.base.equip_data_template[85400] = {
 	id = 85400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -218796,7 +223137,9 @@ _G.pg.base.equip_data_template[85420] = {
 	id = 85420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -219059,7 +223402,9 @@ _G.pg.base.equip_data_template[85440] = {
 	id = 85440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -219322,7 +223667,9 @@ _G.pg.base.equip_data_template[85460] = {
 	id = 85460,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -219545,7 +223892,8 @@ _G.pg.base.equip_data_template[85520] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		3
+		3,
+		22
 	},
 	trans_use_item = {
 		{
@@ -220140,7 +224488,8 @@ _G.pg.base.equip_data_template[85540] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -220737,7 +225086,8 @@ _G.pg.base.equip_data_template[85560] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -232610,7 +236960,8 @@ _G.pg.base.equip_data_template[89380] = {
 		12,
 		17,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -233797,7 +238148,9 @@ _G.pg.base.equip_data_template[90000] = {
 	id = 90000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -233903,7 +238256,9 @@ _G.pg.base.equip_data_template[90020] = {
 	id = 90020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -234009,7 +238364,9 @@ _G.pg.base.equip_data_template[90040] = {
 	id = 90040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -234272,7 +238629,9 @@ _G.pg.base.equip_data_template[90100] = {
 	id = 90100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -234494,7 +238853,9 @@ _G.pg.base.equip_data_template[90120] = {
 	id = 90120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -234908,7 +239269,9 @@ _G.pg.base.equip_data_template[90140] = {
 	id = 90140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -235501,7 +239864,9 @@ _G.pg.base.equip_data_template[90200] = {
 	id = 90200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -235607,7 +239972,9 @@ _G.pg.base.equip_data_template[90220] = {
 	id = 90220,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -235713,7 +240080,9 @@ _G.pg.base.equip_data_template[90240] = {
 	id = 90240,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -235976,7 +240345,9 @@ _G.pg.base.equip_data_template[90300] = {
 	id = 90300,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -236082,7 +240453,9 @@ _G.pg.base.equip_data_template[90320] = {
 	id = 90320,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -236304,7 +240677,9 @@ _G.pg.base.equip_data_template[90340] = {
 	id = 90340,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -236780,7 +241155,8 @@ _G.pg.base.equip_data_template[90360] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		3
+		3,
+		22
 	},
 	trans_use_item = {
 		{
@@ -237374,7 +241750,9 @@ _G.pg.base.equip_data_template[90400] = {
 	id = 90400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -237596,7 +241974,9 @@ _G.pg.base.equip_data_template[90420] = {
 	id = 90420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -238010,7 +242390,9 @@ _G.pg.base.equip_data_template[90440] = {
 	id = 90440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -238603,7 +242985,9 @@ _G.pg.base.equip_data_template[90500] = {
 	id = 90500,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -238709,7 +243093,9 @@ _G.pg.base.equip_data_template[90600] = {
 	id = 90600,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -239302,7 +243688,9 @@ _G.pg.base.equip_data_template[90700] = {
 	id = 90700,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -239408,7 +243796,9 @@ _G.pg.base.equip_data_template[90720] = {
 	id = 90720,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -239630,7 +244020,9 @@ _G.pg.base.equip_data_template[90740] = {
 	id = 90740,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -240105,7 +244497,9 @@ _G.pg.base.equip_data_template[90780] = {
 	id = 90780,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -240368,7 +244762,9 @@ _G.pg.base.equip_data_template[90800] = {
 	id = 90800,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -240632,7 +245028,8 @@ _G.pg.base.equip_data_template[90820] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -240897,7 +245294,8 @@ _G.pg.base.equip_data_template[90840] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -241163,7 +245561,8 @@ _G.pg.base.equip_data_template[90860] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -241388,7 +245787,8 @@ _G.pg.base.equip_data_template[90880] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -241805,7 +246205,8 @@ _G.pg.base.equip_data_template[90900] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -242399,7 +246800,9 @@ _G.pg.base.equip_data_template[91000] = {
 	id = 91000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -242994,7 +247397,8 @@ _G.pg.base.equip_data_template[91100] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -243103,7 +247507,8 @@ _G.pg.base.equip_data_template[91120] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -243328,7 +247733,8 @@ _G.pg.base.equip_data_template[91140] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -243804,7 +248210,9 @@ _G.pg.base.equip_data_template[91180] = {
 	id = 91180,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17041,
@@ -244026,7 +248434,9 @@ _G.pg.base.equip_data_template[91200] = {
 	id = 91200,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17041,
@@ -244502,7 +248912,8 @@ _G.pg.base.equip_data_template[91220] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -244979,7 +249390,8 @@ _G.pg.base.equip_data_template[91240] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -246181,7 +250593,9 @@ _G.pg.base.equip_data_template[95000] = {
 	id = 95000,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -246403,7 +250817,9 @@ _G.pg.base.equip_data_template[95020] = {
 	id = 95020,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -246817,7 +251233,9 @@ _G.pg.base.equip_data_template[95040] = {
 	id = 95040,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -247410,7 +251828,9 @@ _G.pg.base.equip_data_template[95100] = {
 	id = 95100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -247632,7 +252052,9 @@ _G.pg.base.equip_data_template[95120] = {
 	id = 95120,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -248046,7 +252468,9 @@ _G.pg.base.equip_data_template[95140] = {
 	id = 95140,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -248639,7 +253063,9 @@ _G.pg.base.equip_data_template[95160] = {
 	id = 95160,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -249234,7 +253660,8 @@ _G.pg.base.equip_data_template[95200] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -249459,7 +253886,8 @@ _G.pg.base.equip_data_template[95220] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -249876,7 +254304,8 @@ _G.pg.base.equip_data_template[95240] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -250472,7 +254901,8 @@ _G.pg.base.equip_data_template[95300] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -250581,7 +255011,8 @@ _G.pg.base.equip_data_template[95320] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -250806,7 +255237,8 @@ _G.pg.base.equip_data_template[95340] = {
 	level = 1,
 	ship_type_forbidden = {
 		8,
-		17
+		17,
+		22
 	},
 	trans_use_item = {
 		{
@@ -251282,7 +255714,9 @@ _G.pg.base.equip_data_template[95400] = {
 	id = 95400,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -251388,7 +255822,9 @@ _G.pg.base.equip_data_template[95420] = {
 	id = 95420,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -251610,7 +256046,9 @@ _G.pg.base.equip_data_template[95440] = {
 	id = 95440,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -252085,7 +256523,9 @@ _G.pg.base.equip_data_template[95460] = {
 	id = 95460,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -252348,7 +256788,9 @@ _G.pg.base.equip_data_template[95480] = {
 	id = 95480,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -252611,7 +257053,9 @@ _G.pg.base.equip_data_template[95500] = {
 	id = 95500,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -252717,7 +257161,9 @@ _G.pg.base.equip_data_template[95520] = {
 	id = 95520,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -252939,7 +257385,9 @@ _G.pg.base.equip_data_template[95540] = {
 	id = 95540,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17031,
@@ -253414,7 +257862,9 @@ _G.pg.base.equip_data_template[95560] = {
 	id = 95560,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -253520,7 +257970,9 @@ _G.pg.base.equip_data_template[95600] = {
 	id = 95600,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -253742,7 +258194,9 @@ _G.pg.base.equip_data_template[95620] = {
 	id = 95620,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -254156,7 +258610,9 @@ _G.pg.base.equip_data_template[95640] = {
 	id = 95640,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -254749,7 +259205,9 @@ _G.pg.base.equip_data_template[95700] = {
 	id = 95700,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17021,
@@ -254972,7 +259430,8 @@ _G.pg.base.equip_data_template[95720] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -255080,7 +259539,8 @@ _G.pg.base.equip_data_template[95740] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -255304,7 +259764,8 @@ _G.pg.base.equip_data_template[95760] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -255781,7 +260242,8 @@ _G.pg.base.equip_data_template[95800] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -255889,7 +260351,8 @@ _G.pg.base.equip_data_template[95820] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -256113,7 +260576,8 @@ _G.pg.base.equip_data_template[95840] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10
+		10,
+		22
 	},
 	trans_use_item = {
 		{
@@ -256603,7 +261067,8 @@ _G.pg.base.equip_data_template[95900] = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	},
 	trans_use_item = {
 		{
@@ -257197,7 +261662,9 @@ _G.pg.base.equip_data_template[95920] = {
 	id = 95920,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -257419,7 +261886,9 @@ _G.pg.base.equip_data_template[95940] = {
 	id = 95940,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -257833,7 +262302,9 @@ _G.pg.base.equip_data_template[95960] = {
 	id = 95960,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,
@@ -258440,7 +262911,8 @@ _G.pg.base.equip_data_template[96000] = {
 		12,
 		17,
 		18,
-		19
+		19,
+		22
 	},
 	trans_use_item = {
 		{
@@ -259034,7 +263506,9 @@ _G.pg.base.equip_data_template[96100] = {
 	id = 96100,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		22
+	},
 	trans_use_item = {
 		{
 			17011,

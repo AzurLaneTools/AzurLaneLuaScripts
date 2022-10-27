@@ -58,9 +58,14 @@ function slot0.AddNode(slot0, slot1)
 	slot1:RefreshSelf()
 end
 
+function slot0.RemoveNode(slot0, slot1)
+	table.removebyvalue(slot0.nodes, slot1)
+	slot0.redDotMgr:UnRegisterRedDotNode(slot1)
+end
+
 function slot0.Refresh(slot0)
 	for slot4, slot5 in ipairs(slot0.nodes) do
-		if isa(slot5, SelfRefreshRedDotNode) then
+		if slot5.Resume then
 			slot5:Resume()
 		end
 	end
@@ -70,7 +75,7 @@ end
 
 function slot0.Disable(slot0)
 	for slot4, slot5 in ipairs(slot0.nodes) do
-		if isa(slot5, SelfRefreshRedDotNode) then
+		if slot5.Puase then
 			slot5:Puase()
 		end
 	end

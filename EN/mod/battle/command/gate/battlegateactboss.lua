@@ -7,7 +7,7 @@ function slot0.Entrance(slot0, slot1)
 		return
 	end
 
-	slot2 = slot0.actID
+	slot2 = slot0.actId
 	slot3 = getProxy(PlayerProxy)
 	slot4 = getProxy(BayProxy)
 	slot5 = getProxy(FleetProxy)
@@ -47,7 +47,7 @@ function slot0.Entrance(slot0, slot1)
 			})
 		end
 
-		if uv3.enter_energy_cost > 0 and not exFlag then
+		if uv3.enter_energy_cost > 0 then
 			slot1 = pg.gameset.battle_consume_energy.key_value
 
 			for slot5, slot6 in ipairs(uv4) do
@@ -76,7 +76,7 @@ function slot0.Exit(slot0, slot1)
 	slot2 = pg.battle_cost_template[SYSTEM_ACT_BOSS]
 	slot4 = getProxy(BayProxy)
 	slot5 = slot0.statistics._battleScore
-	slot8 = getProxy(FleetProxy):getActivityFleets()[slot0.actID][slot0.mainFleetId]
+	slot8 = getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId]
 	slot9 = 0
 	slot10 = {}
 	slot9 = slot8:getEndCost().oil
@@ -121,9 +121,15 @@ function slot0.Exit(slot0, slot1)
 		slot3 = ys.Battle.BattleConst.BattleScore.C < uv4
 		slot4 = uv1.GenerateCommanderExp(slot0, uv5)
 
-		uv1.GeneralPlayerCosume(SYSTEM_ACT_BOSS, slot3, uv6, slot0.player_exp, exFlag)
+		uv1.GeneralPlayerCosume(SYSTEM_ACT_BOSS, slot3, uv6, slot0.player_exp)
+
+		slot5 = nil
 
 		if slot3 then
+			slot5 = (function ()
+				return getProxy(ActivityProxy):getActivityById(uv0.actId).data1KeyValueList[1][uv0.stageId] == 1 and slot0.data1KeyValueList[2][slot1] <= 0
+			end)()
+
 			uv1:sendNotification(GAME.ACT_BOSS_NORMAL_UPDATE, {
 				stageId = uv2.stageId
 			})
@@ -136,7 +142,8 @@ function slot0.Exit(slot0, slot1)
 			drops = slot1,
 			commanderExps = slot4,
 			result = slot0.result,
-			extraDrops = slot2
+			extraDrops = slot2,
+			isLastBonus = slot5
 		})
 	end)
 end

@@ -7,7 +7,7 @@ function slot0.Entrance(slot0, slot1)
 		return
 	end
 
-	slot2 = slot0.actID
+	slot2 = slot0.actId
 	slot3 = getProxy(PlayerProxy)
 	slot4 = getProxy(BayProxy)
 	slot5 = pg.battle_cost_template[SYSTEM_WORLD_BOSS]

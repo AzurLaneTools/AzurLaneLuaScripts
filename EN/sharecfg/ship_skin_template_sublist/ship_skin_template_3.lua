@@ -5342,6 +5342,120 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105021] = {
+		ship_group = 10502,
+		name = "Piratey Transformation!",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "162",
+		id = 105021,
+		group_index = 1,
+		prefab = "ekelahema_2",
+		painting = "ekelahema_2",
+		shop_id = 70766,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 8,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Howdy, Commander! Oh, this outfit? I've been super into this kind of stuff lately! I even added some jack-o-lanterns for extra ambiance and had some Manjuus help out. So what's the verdict? Pretty cool, isn't it?",
+		voice_actor = 73,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					0.91,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.051,
+					0.768,
+					0
+				},
+				{
+					1.1,
+					0.75,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					1.12,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.23,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[105029] = {
 		ship_group = 10502,
 		name = "Oklahoma (Retrofit)",
@@ -9777,115 +9891,6 @@ pg.ship_skin_template_3 = {
 						{
 							-0.61,
 							2.26,
-							-0.6
-						}
-					}
-				}
-			}
-		}
-	},
-	[107033] = {
-		ship_group = 10703,
-		name = "Virtual Idol",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "210",
-		id = 107033,
-		group_index = 3,
-		prefab = "salatuojia_4",
-		painting = "salatuojia_4",
-		shop_id = 70179,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9999,
-		illustrator = 10,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "HAI DOMO~! I’m the virtual idol, Saratoga! Well, Commander, what do you think? I asked Kizuna AI to make this dress specifically for me, modeled after her outfit!",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.26,
-					1.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.25,
-					1.1,
-					0
-				}
-			},
-			plane = {
-				{
-					1.24,
-					1.06,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.36,
 							-0.6
 						}
 					}

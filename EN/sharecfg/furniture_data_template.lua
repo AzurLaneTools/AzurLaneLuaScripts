@@ -6510,6 +6510,58 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100020] = {
+		effect = "",
+		name = "Cosmos Projector",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Somewhere amid all the glimmers you may see... a pale blue dot.",
+		tag = 6,
+		icon = "starlighticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100020,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"starlight",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					nil,
+					nil,
+					"bg1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100021] = {
 		effect = "",
 		name = "Bouncy Ball",
@@ -7267,6 +7319,84 @@ pg.furniture_data_template = {
 			{
 				"kaoyuCharControl"
 			}
+		},
+		interAction_group = {}
+	},
+	[100042] = {
+		effect = "",
+		name = "",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "",
+		themeId = 0,
+		icon = "feixingsaozhouicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100042,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingsaozhou",
+				"normal",
+				nil,
+				true
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -97955,6 +98085,7 @@ pg.furniture_data_template = {
 			100017,
 			100018,
 			100019,
+			100020,
 			100021,
 			100022,
 			100023,
@@ -97966,6 +98097,7 @@ pg.furniture_data_template = {
 			100030,
 			100031,
 			100032,
+			100042,
 			200001,
 			200002,
 			200003,
@@ -98115,6 +98247,7 @@ pg.furniture_data_template = {
 			100017,
 			100018,
 			100019,
+			100020,
 			100021,
 			100022,
 			100023,
@@ -98126,6 +98259,7 @@ pg.furniture_data_template = {
 			100030,
 			100031,
 			100032,
+			100042,
 			200001,
 			200002,
 			200003,
@@ -104101,6 +104235,7 @@ pg.furniture_data_template = {
 			100017,
 			100018,
 			100019,
+			100020,
 			100021,
 			100022,
 			100023,
@@ -104112,6 +104247,7 @@ pg.furniture_data_template = {
 			100030,
 			100031,
 			100032,
+			100042,
 			31101,
 			54104,
 			54105
@@ -104856,6 +104992,7 @@ pg.furniture_data_template = {
 			100016,
 			100017,
 			100018,
+			100020,
 			100023,
 			100025,
 			100026,
@@ -106266,6 +106403,7 @@ pg.furniture_data_template = {
 			100021,
 			100022,
 			100030,
+			100042,
 			30123,
 			35128,
 			37121,
@@ -107056,6 +107194,7 @@ pg.furniture_data_template = {
 		100017,
 		100018,
 		100019,
+		100020,
 		100021,
 		100022,
 		100023,
@@ -107067,6 +107206,7 @@ pg.furniture_data_template = {
 		100030,
 		100031,
 		100032,
+		100042,
 		200001,
 		200002,
 		200003,

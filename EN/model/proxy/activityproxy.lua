@@ -94,6 +94,9 @@ function slot0.register(slot0)
 			activity = slot1
 		})
 	end)
+	slot0:on(11290, function (slot0)
+		uv0.refluxFlag = slot0.flag
+	end)
 
 	slot0.requestTime = {}
 end

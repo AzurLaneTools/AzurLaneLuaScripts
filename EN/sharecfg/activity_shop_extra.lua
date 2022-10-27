@@ -2271,7 +2271,7 @@ pg.activity_shop_extra = {
 		id = 92,
 		num = 1,
 		num_limit = 1,
-		order = 8523,
+		order = 8522,
 		scene = {
 			"crusing",
 			{}

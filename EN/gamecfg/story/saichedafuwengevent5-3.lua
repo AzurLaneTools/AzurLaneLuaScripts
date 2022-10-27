@@ -1,7 +1,7 @@
 return {
 	id = "SAICHEDAFUWENGEVENT5-3",
 	mode = 2,
-	fadein = 1.5,
+	skipTip = false,
 	once = true,
 	scripts = {
 		{

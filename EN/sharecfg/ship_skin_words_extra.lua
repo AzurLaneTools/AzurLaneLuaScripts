@@ -11039,6 +11039,274 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[206070] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		feeling1 = "",
+		upgrade = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		battle = "",
+		id = 206070,
+		lose = "",
+		profile = "",
+		headtouch = "",
+		login = {
+			{
+				1100,
+				"I want to be a more capable secretary like Elder Centaur... Oh, Commander, I'm awaiting your orders."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Phew... It really does take lots of consistent effort to live up to my Elders' expectations. Nevertheless, the unblemished Albion thusly claims this victory!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Well done, Commander. As for the after-action report... You'd like me to handle it? Naturally, I'd be delighted to!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"While Elder Centaur tends to take after our other Elders and follow what they do, I prefer to learn from them instead. Indeed, I prefer using my brain, just as you do."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"If I could instruct the others in my unique fighting style, we could perhaps implement new tactics in battle. It's certainly not because I want to be called an Elder myself or anything. Heehee.|Elder Enterprise really can do just about anything... Though if there's any area I can exceed her in, it's probably cooking, housework, or making my way through the forests like Centaur... Um, huh...?|Commander, could you tell me what your favourite book is? I was planning on studying your tastes, just as I have been doing with the other Elders here.|Secretary duties aren't so difficult after all now that I've gotten used to things. The bigger issue is how I can take the initiative... I suppose I'll start by taking on some of the Commander's work... Yes, I think that's exactly what I should do."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I shall indulge the inquisitive Commander's curiosity. Please, take my hand and hold it tight."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commander, the girls have returned from their commission~ Heehee, that's not the whispers of the wind you're hearing, but rather my breath~ Did you enjoy it?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Yes, Commander. Our hearts are connected, now and forever."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, did you need me? I know you didn't call for me, but I could just feel it. As our hearts are now connected, I heard your desires upon the wind... Oh, m-my apologies for getting worked up on my own... Umm... love you, my dear."
+			}
+		}
+	},
+	[201350] = {
+		feeling4 = "",
+		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		win_mvp = "",
+		home = "",
+		unlock = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 201350,
+		login = {
+			{
+				1100,
+				"Don't worry, Janus, you've already done this a whole bunch of times before... Ah, Commander, welcome back!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Commander, I'll be fine! I'm... not afraid of failure anymore like I used to be!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander... D-do you still want to read my diary? I, I suppose that isn't an impossible proposition... Alright, I'm leaving a bookmark right here... But! You're absolutely not allowed to look past the marked page!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Are you sure I can come talk to you whenever I want? ...I, I see. I'll try my best to find a suitable time to come bother you then... Gah, that came out wrong! I didn't mean it that way...|Whenever I found myself too afraid to move forward, I used to try to encourage myself to keep my spirits up. But now, with you and my other friends at my side, I have all the courage I need and no longer need to resort to that. Ehehe."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission team has returned. Please allow me to come with you as well! I... I can do this now!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Commander, the new missions are... Y-yes, if you require my assistance, I'll do my best to help out!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I, I still don't think... I can handle stuff like this yet... Ugh..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"\"The day we exchanged oaths was the happiest day of my life... I have to work harder in every aspect of my life so that this happiness may last forever! ...Oh, but if I let the Commander read this, then everything I wrote before will... >///<\""
+			}
+		}
+	},
+	[202090] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 202090,
+		login = {
+			{
+				1100,
+				"Oh, Master! You've come so early I don't have time to clean the office... Ya know what? I'll just do it alongside me secretary duties♪"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Hang on, Master! Lemme pop the champagne for you... There! Hehehe, here's to our victory!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome ba– A gift for me? You really shouldn't have... I-is there anything I can do to repay you?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Ya want a boxed lunch? Okay, I'll try... No, I'll give it me best shot! I'm not wholly incapable of cooking or anything! Seriously!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hm-hmm♪ What's up, Master? Heheh, looking for your pen? It's in the right drawer. I found it just earlier while cleaning.|Southampton! Moving stuff around, are ya? Lemme give you a hand!|I'd bet Gloucester would be a better maid than me in many ways... But it's alright 'cos there's also bound to be things she can't do that I'm right capable of!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Master! I can get this done proper for ya!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I guess a scolding isn't going to stop you... Ahahah... You're a dead stubborn one, Master~"
+			}
+		}
+	},
+	[9600010] = {
+		unlock = "",
+		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		skill = "",
+		feeling4 = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		id = 9600010,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Look who's back! Let's team up and get this paperwork done lightning-quick!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Commander, I trust you to divvy up our booty!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Those who do the most work get the biggest cut!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Port law article four! Be good and switch off the light before going to bed! Which means no worky-work either! Nighttime means leisure time!|While I do hate gambling, I'm not opposed to making bets. On that note, I bet I can win your heart with just one single date! Wanna find out?|nil|Booze? God no! Just taking a whiff of that stuff makes my head spin, and drinking it leaves me out cold until morning... In other words, keep it away from me.|I'd like one small favour from you, Commander... That you don't pull an all-nighter! Back in the day when curfews were in place, people got on just fine, didn't they? So, absolutely no staying up late tonight! Got it?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you're on board with it, we can make up some quick excuse and get out of here right now... Come on, you still don't have the courage?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete! When it comes to my cut... I don't need material stuff, just some break time to smell the roses!"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Here's a letter for you! And no, it's not a wanted list. But if you did become an outlaw, you can always flee to some barren corner of the earth."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"L-look, even I shy away from some stuff..."
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -11206,6 +11474,10 @@ pg.ship_skin_words_extra = {
 		403020,
 		401160,
 		101110,
-		403130
+		403130,
+		206070,
+		201350,
+		202090,
+		9600010
 	}
 }

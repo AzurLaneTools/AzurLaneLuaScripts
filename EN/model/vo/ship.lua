@@ -1294,7 +1294,13 @@ function slot0.IsMaxStarByTmpID(slot0)
 end
 
 function slot0.IsSpweaponUnlock(slot0)
-	return slot0:CanAccumulateExp()
+	if slot0:getShipType() == ShipType.FengFanS then
+		return false, "spweapon_tip_sail_locked"
+	elseif not slot0:CanAccumulateExp() then
+		return false, "spweapon_tip_locked"
+	else
+		return true
+	end
 end
 
 function slot0.getModProperties(slot0, slot1)
@@ -2233,7 +2239,7 @@ function slot0.GetSpWeaponRecord(slot0, slot1)
 		slot2 = tonumber(slot1[1])
 
 		if not tonumber(slot1[2]) or slot3 == 0 then
-			return nil
+			return false
 		end
 
 		if not getProxy(EquipmentProxy):GetSpWeaponByUid(slot2) then
@@ -2468,6 +2474,32 @@ function slot0.IsSpWeaponForbidden(slot0, slot1)
 	end
 
 	return false
+end
+
+function slot0.GetMapStrikeAnim(slot0)
+	switch(TeamType.GetTeamFromShipType(slot0:getShipType()), {
+		[TeamType.Main] = function ()
+			if ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrier, uv0) then
+				uv1 = "AirStrikeUI"
+			elseif ShipType.ContainInLimitBundle(ShipType.BundleBattleShip, uv0) then
+				uv1 = "CannonUI"
+			end
+		end,
+		[TeamType.Vanguard] = function ()
+			if ShipType.IsTypeQuZhu(uv0) then
+				uv1 = "SubTorpedoUI"
+			end
+		end,
+		[TeamType.Submarine] = function ()
+			if uv0:getNation() == Nation.MOT then
+				uv1 = "CannonUI"
+			else
+				uv1 = "SubTorpedoUI"
+			end
+		end
+	})
+
+	return nil
 end
 
 return slot0

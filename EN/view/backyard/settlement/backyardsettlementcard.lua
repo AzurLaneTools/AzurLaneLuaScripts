@@ -22,6 +22,10 @@ function slot0.UpdateInfo(slot0, slot1)
 
 	slot2:SetText(slot1:getName())
 	LoadSpriteAtlasAsync("HeroHrzIcon/" .. slot1:getPainting(), "", function (slot0)
+		if uv0.exited then
+			return
+		end
+
 		uv0.icon.sprite = slot0
 	end)
 end
@@ -96,6 +100,8 @@ function slot0.Dispose(slot0)
 	if LeanTween.isTweening(slot0.additionTF.gameObject) then
 		LeanTween.cancel(slot0.additionTF.gameObject)
 	end
+
+	slot0.exited = true
 end
 
 return slot0
