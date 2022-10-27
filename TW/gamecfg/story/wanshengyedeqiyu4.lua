@@ -119,7 +119,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，很驚訝麼？今天的曼非斯可是“萬聖之夜的魔女”喲。",
+			say = "呵呵，很驚訝嗎？今天的曼非斯可是“萬聖之夜的魔女”喲。",
 			painting = {
 				alpha = 0.3,
 				time = 1

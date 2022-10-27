@@ -192,7 +192,7 @@ return {
 			hidePaintEquip = true,
 			actor = 202091,
 			nameColor = "#A9F548FF",
-			say = "指揮官，歡迎來到曼徹斯特的私人醫護室“魅魔之愛”，在這裡一定能帶給你帶來超棒的休息體驗喲~",
+			say = "指揮官，歡迎來到曼徹斯特的私人醫護室“魅魔之愛”，在這裡一定能給你帶來超棒的休息體驗喲~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintEquip = true,
 			actor = 202091,
 			nameColor = "#A9F548FF",
-			say = "還有惡魔的尾巴呢哦~沒有人規定惡魔不能成為白衣天使吧。",
+			say = "還有惡魔的尾巴哦~沒有人規定惡魔不能成為白衣天使吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			hidePaintEquip = true,
 			actor = 202091,
 			nameColor = "#A9F548FF",
-			say = "魅魔護士曼徹斯特會好好照你的哦~",
+			say = "魅魔護士曼徹斯特會好好照顧你的哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

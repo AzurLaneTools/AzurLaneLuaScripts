@@ -284,17 +284,12 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_BACK)
 	end)
 	slot0:bind(uv0.REENTER_STAGE, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.TRANSITION, {
-			loadUI = "CombatLoadUI",
-			afterLoadFunc = function ()
-				uv0:sendNotification(GAME.BEGIN_STAGE, {
-					stageId = uv0.contextData.stageId,
-					mainFleetId = uv0.contextData.mainFleetId,
-					system = uv0.contextData.system,
-					actId = uv0.contextData.actId,
-					rivalId = uv0.contextData.rivalId
-				})
-			end
+		uv0:sendNotification(GAME.BEGIN_STAGE, {
+			stageId = uv0.contextData.stageId,
+			mainFleetId = uv0.contextData.mainFleetId,
+			system = uv0.contextData.system,
+			actId = uv0.contextData.actId,
+			rivalId = uv0.contextData.rivalId
 		})
 	end)
 	slot0:bind(uv0.PRE_BATTLE_FAIL_EXIT, function (slot0)

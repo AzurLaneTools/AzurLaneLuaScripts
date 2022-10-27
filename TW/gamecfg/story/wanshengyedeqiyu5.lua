@@ -162,7 +162,7 @@ return {
 			},
 			options = {
 				{
-					content = "我是這裡的指揮官，你是哪位？",
+					content = "我是這裡的指揮官，妳是哪位？",
 					flag = 1
 				}
 			}
@@ -234,7 +234,7 @@ return {
 			},
 			options = {
 				{
-					content = "所以……其實你是偷偷混進來的吧？",
+					content = "所以……其實妳是偷偷混進來的吧？",
 					flag = 1
 				}
 			}
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "……沒人攔截的原因，恐怕是你這身海盜的衣服恰好隱藏在了萬聖節的鬼怪之中了吧。",
+			say = "……沒人攔截的原因，恐怕是妳這身海盜的衣服恰好隱藏在了萬聖節的鬼怪之中了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "在這之前，首先應該解釋一下你的身份問題吧？",
+			say = "在這之前，首先應該解釋一下妳的身份問題吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "……看來也沒有更好的辦法了。如果只是想玩的話，歡迎你，海盜小姐。",
+			say = "……看來也沒有更好的辦法了。如果只是想玩的話，歡迎妳，海盜小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "接過傳單，上面寫著「最先找到會場內寶藏之人，將會獲得一周的甜點免費暢享券喵~」",
+			say = "接過傳單，上面寫著「最先找到會場內寶藏之人，將會獲得一週的甜點免費暢享券喵~」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

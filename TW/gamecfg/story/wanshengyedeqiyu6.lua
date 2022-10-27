@@ -319,7 +319,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈？！你在說什麼怪話，你自己不也是海盜嗎？",
+			say = "哈？！妳在說什麼怪話，妳自己不也是海盜嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再說了，你誰啊，我幹嘛要聽你的？",
+			say = "再說了，妳誰啊，我幹嘛要聽妳的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			actor = 105021,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "這個問題應該是我問你才對，你是誰，基於什麼目的混入港區接近指揮官的？ ！",
+			say = "這個問題應該是我問妳才對，妳是誰，基於什麼目的混入港區接近指揮官的？ ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "沒事沒事~你這人倒是忠心耿耿的，我很滿意。當船長，手下沒有這樣的人可不行啊~",
+			say = "沒事沒事~妳這人倒是忠心耿耿的，我很滿意。當船長，手下沒有這樣的人可不行啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很棒！決定了，就由你來做我的大副吧！",
+			say = "很棒！決定了，就由妳來做我的大副吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
-			say = "……你這人，得立刻跟奧克拉荷馬解釋清楚才行，不然馬上就有一整支艦隊來抓捕你了！",
+			say = "……妳這人，得立刻跟奧克拉荷馬解釋清楚才行，不然馬上就有一整支艦隊來抓捕妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
-			say = "你不尋寶了嗎？",
+			say = "妳不尋寶了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

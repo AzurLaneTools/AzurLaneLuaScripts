@@ -521,7 +521,7 @@ return {
 			hidePaintEquip = true,
 			actor = 201351,
 			nameColor = "#A9F548FF",
-			say = "咦，原來指揮官留意到它跑開的方向了嗎？謝謝指揮官！",
+			say = "咦，原來指揮官留意到牠跑開的方向了嗎？謝謝指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
