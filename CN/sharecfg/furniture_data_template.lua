@@ -9533,6 +9533,84 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100043] = {
+		spine_extra = "",
+		describe = "“作死”乃本能！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "紧急操作按钮",
+		themeId = 0,
+		icon = "feixianganniuicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100043,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixianganniu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "没错，尽情地向你的女仆撒娇吧…“主人”~",
@@ -114664,6 +114742,7 @@ pg.furniture_data_template = {
 			100040,
 			100041,
 			100042,
+			100043,
 			200001,
 			200002,
 			200003,
@@ -114869,6 +114948,7 @@ pg.furniture_data_template = {
 			100040,
 			100041,
 			100042,
+			100043,
 			200001,
 			200002,
 			200003,
@@ -121819,6 +121899,7 @@ pg.furniture_data_template = {
 			100040,
 			100041,
 			100042,
+			100043,
 			31101,
 			54101,
 			54102,
@@ -122671,7 +122752,8 @@ pg.furniture_data_template = {
 			100038,
 			100039,
 			100040,
-			100041
+			100041,
+			100043
 		},
 		[2] = {
 			120,
@@ -125237,6 +125319,7 @@ pg.furniture_data_template = {
 		100040,
 		100041,
 		100042,
+		100043,
 		200001,
 		200002,
 		200003,

@@ -129,13 +129,20 @@ function slot0.OpSwitchMap(slot0, slot1, slot2)
 			uv0:Apply()
 
 			slot2 = uv1:GetActiveMap()
+			slot3 = uv1
 
-			uv1:TriggerAutoFight(uv1.isAutoSwitch or World.ReplacementMapType(uv1:GetActiveEntrance(), slot2) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area"))
+			slot3:TriggerAutoFight(uv1.isAutoSwitch or World.ReplacementMapType(uv1:GetActiveEntrance(), slot2) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area"))
 			assert(slot2, "active map not exist")
-			master:LoadMap(slot2, slot0)
+			parallelAsync({
+				function (slot0)
+					master:DisplayEnv(slot0)
+				end,
+				function (slot0)
+					master:LoadMap(uv0, slot0)
+				end
+			}, slot0)
 		end)
 		table.insert(slot6, function (slot0)
-			master:DisplayEnv()
 			master:DisplayMap()
 			master:DisplayMapUI()
 			master:UpdateMapUI()
@@ -1422,9 +1429,10 @@ function slot0.OpReqSubDone(slot0, slot1)
 	slot2:SetReqCDTime(WorldConst.OpReqSub, slot7:GetServerTime())
 
 	slot4 = slot2:GetSubmarineFleet()
+	slot4 = slot4:GetFlagShipVO()
 	slot5 = master
 
-	slot5:DoStrikeAnim("SubTorpedoUI", slot4:GetFlagShipVO(), function ()
+	slot5:DoStrikeAnim(slot4:GetMapStrikeAnim(), slot4, function ()
 		uv0:Apply()
 
 		if master.subCallback then
@@ -1790,7 +1798,6 @@ function slot0.OpSwitchInMap(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
-		master:DisplayEnv()
 		master:DisplayMap()
 		master:DisplayMapUI()
 		master:UpdateMapUI()
@@ -1808,34 +1815,30 @@ function slot0.OpSwitchInMap(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.OpSwitchOutMap(slot0, slot1, slot2)
-	table.insert({}, function (slot0)
+function slot0.OpSwitchOutMap(slot0, slot1)
+	slot2 = {}
+
+	table.insert(slot2, function (slot0)
 		master:EaseOutMapUI(slot0)
 	end)
-
-	if slot2 then
-		table.insert(slot3, slot2)
-	end
-
-	table.insert(slot3, function (slot0)
+	table.insert(slot2, function (slot0)
 		master:HideMap()
 		master:HideMapUI()
 
 		return slot0()
 	end)
-	table.insert(slot3, function (slot0)
+	table.insert(slot2, function (slot0)
 		uv0:OpDone()
 
 		return slot0()
 	end)
-	seriesAsync(slot3, slot1)
+	seriesAsync(slot2, slot1)
 end
 
 function slot0.OpSwitchInWorld(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
-		master:DisplayEnv()
 		master:DisplayAtlas()
 		master:DisplayAtlasUI()
 
@@ -1852,27 +1855,24 @@ function slot0.OpSwitchInWorld(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.OpSwitchOutWorld(slot0, slot1, slot2)
-	table.insert({}, function (slot0)
+function slot0.OpSwitchOutWorld(slot0, slot1)
+	slot2 = {}
+
+	table.insert(slot2, function (slot0)
 		master:EaseOutAtlasUI(slot0)
 	end)
-
-	if slot2 then
-		table.insert(slot3, slot2)
-	end
-
-	table.insert(slot3, function (slot0)
+	table.insert(slot2, function (slot0)
 		master:HideAtlas()
 		master:HideAtlasUI()
 
 		return slot0()
 	end)
-	table.insert(slot3, function (slot0)
+	table.insert(slot2, function (slot0)
 		uv0:OpDone()
 
 		return slot0()
 	end)
-	seriesAsync(slot3, slot1)
+	seriesAsync(slot2, slot1)
 end
 
 function slot0.OpRedeploy(slot0)

@@ -1148,6 +1148,11 @@ function temp()
 			["郡"] = {
 				this = true
 			}
+		},
+		["斯"] = {
+			["佩"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -1495,6 +1500,11 @@ function temp()
 							}
 						}
 					}
+				}
+			},
+			["比"] = {
+				["恩"] = {
+					this = true
 				}
 			}
 		},
@@ -2979,6 +2989,11 @@ function temp()
 							}
 						}
 					}
+				}
+			},
+			["财"] = {
+				["富"] = {
+					this = true
 				}
 			}
 		}
@@ -6009,6 +6024,32 @@ function temp()
 	uv0["鳄"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["雅"] = {
+		["努"] = {
+			["斯"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["曼"] = {
+		["彻"] = {
+			["斯"] = {
+				["特"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

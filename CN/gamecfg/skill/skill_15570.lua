@@ -28,6 +28,16 @@ return {
 				buff_id = 15572,
 				delay = 20
 			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			target_choise = "TargetSelf",
+			targetAniEffect = "",
+			arg_list = {
+				buff_id = 15574,
+				delay = 20
+			}
 		}
 	}
 }

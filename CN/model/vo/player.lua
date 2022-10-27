@@ -465,9 +465,9 @@ function slot0.addResources(slot0, slot1)
 			slot0[slot5] = math.min(slot0[slot5] + slot6, slot0:getMaxGold())
 		elseif slot5 == "oil" then
 			slot0[slot5] = math.min(slot0[slot5] + slot6, slot0:getMaxOil())
-		elseif slot5 == "chargeGem" then
+		elseif slot5 == "gem" then
 			slot0.chargeGem = slot0:getChargeGem() + slot6
-		elseif slot5 == "gem" or slot5 == "freeGem" then
+		elseif slot5 == "freeGem" then
 			slot0.awardGem = slot0:getFreeGem() + slot6
 		elseif slot5 == id2res(WorldConst.ResourceID) then
 			slot0[slot5] = math.min(slot0[slot5] + slot6, pg.gameset.world_resource_max.key_value)

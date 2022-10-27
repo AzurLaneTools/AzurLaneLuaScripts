@@ -502,6 +502,10 @@ function slot2.onTakeHealing(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
+function slot2.onOverHealing(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
 function slot2.damageCheck(slot0, slot1)
 	return slot0:damageAttrRequire(slot1.damageAttr) and slot0:damageReasonRequire(slot1.damageReason)
 end

@@ -29,7 +29,8 @@ slot0.MainShipType = {
 }
 slot0.SubShipType = {
 	ShipType.QianTing,
-	ShipType.QianMu
+	ShipType.QianMu,
+	ShipType.FengFanS
 }
 slot0.VanguardMax = 3
 slot0.MainMax = 3

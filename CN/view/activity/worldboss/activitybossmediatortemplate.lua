@@ -133,11 +133,11 @@ function slot0.BindEvent(slot0)
 
 		uv2:addSubLayers(Context.New({
 			mediator = PreCombatMediator,
-			viewComponent = PreCombatLayer,
+			viewComponent = ActivityBossPrecombatLayer,
 			data = {
 				system = slot5,
 				stageId = slot6,
-				actID = uv1.id,
+				actId = uv1.id,
 				fleets = slot7,
 				OnConfirm = function (slot0)
 					if not uv0.contextData.activity:checkBattleTimeInBossAct() then
@@ -148,7 +148,7 @@ function slot0.BindEvent(slot0)
 
 					slot2 = getProxy(PlayerProxy):getRawData():getResource(uv0.contextData.TicketID) > 0 and (uv0.contextData.stageTickets[uv1] or 0) <= 0
 
-					if not getProxy(SettingsProxy):isTipActBossExchangeTicket() and slot2 then
+					if getProxy(SettingsProxy):isTipActBossExchangeTicket() == nil and slot2 then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							hideYes = true,
 							noText = "text_inconsume",
@@ -158,6 +158,8 @@ function slot0.BindEvent(slot0)
 									text = "text_consume",
 									sound = SFX_CONFIRM,
 									onCallback = function ()
+										getProxy(SettingsProxy):setActBossExchangeTicketTip(1)
+
 										uv0.contextData.ready2battleCb = uv1
 
 										uv0:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET, {
@@ -171,6 +173,7 @@ function slot0.BindEvent(slot0)
 								}
 							},
 							onNo = function ()
+								getProxy(SettingsProxy):setActBossExchangeTicketTip(0)
 								uv0()
 							end,
 							onClose = function ()
@@ -268,11 +271,11 @@ function slot0.BindEvent(slot0)
 
 				uv3:addSubLayers(Context.New({
 					mediator = PreCombatMediator,
-					viewComponent = PreCombatLayer,
+					viewComponent = ActivityBossPrecombatLayer,
 					data = {
 						system = slot1,
 						stageId = slot2,
-						actID = uv4.id,
+						actId = uv4.id,
 						fleets = slot3,
 						OnConfirm = function (slot0)
 							if not uv0.contextData.activity:checkBattleTimeInBossAct() then
@@ -408,6 +411,9 @@ function slot0.BindEvent(slot0)
 			stageId = slot1,
 			exitCallback = slot2
 		})
+	end)
+	slot0:bind(PreCombatMediator.BEGIN_STAGE_PROXY, function (slot0, slot1)
+		uv0:sendNotification(PreCombatMediator.BEGIN_STAGE_PROXY, slot1)
 	end)
 end
 

@@ -247,5 +247,9 @@ pg.voice_bgm = {
 	BackHillCampusFestival2022Scene = {
 		default_bgm = "blueocean-image",
 		bgm = "blueocean-image"
+	},
+	ActivityBossAlbionScene = {
+		default_bgm = "theme-royalknights-battle",
+		bgm = "theme-royalknights-battle"
 	}
 }

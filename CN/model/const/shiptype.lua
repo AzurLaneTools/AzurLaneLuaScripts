@@ -17,6 +17,7 @@ slot0.ChaoXun = 18
 slot0.Yunshu = 19
 slot0.DaoQuV = 20
 slot0.DaoQuM = 21
+slot0.FengFanS = 22
 slot0.YuLeiTing = 14
 slot0.JinBi = 15
 slot0.ZiBao = 16
@@ -36,7 +37,8 @@ slot0.AllShipType = {
 	12,
 	19,
 	20,
-	21
+	21,
+	22
 }
 slot0.SpecificTypeTable = {
 	auxiliary = "AUX",
@@ -76,7 +78,8 @@ function slot0.Type2Print(slot0)
 			"chaoxun",
 			"yunshu",
 			"daoquv",
-			"daoqum"
+			"daoqum",
+			"fengfans"
 		}
 	end
 
@@ -106,7 +109,8 @@ function slot0.Type2BattlePrint(slot0)
 			"battle_zhanlie",
 			"battle_yunshu",
 			"battle_daoqu",
-			"battle_daoqu"
+			"battle_daoqu",
+			"battle_fengfans"
 		}
 	end
 
@@ -136,7 +140,8 @@ function slot0.Type2CNLabel(slot0)
 			"label_18",
 			"label_22",
 			"label_23",
-			"label_23"
+			"label_23",
+			"label_24"
 		}
 	end
 
@@ -159,7 +164,8 @@ slot0.BundleList = {
 	},
 	qian = {
 		slot0.QianTing,
-		slot0.QianMu
+		slot0.QianMu,
+		slot0.FengFanS
 	},
 	zhong = {
 		slot0.ZhongXun,

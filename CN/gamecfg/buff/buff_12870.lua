@@ -32,7 +32,8 @@ return {
 				},
 				ship_type_list = {
 					8,
-					17
+					17,
+					22
 				}
 			}
 		},

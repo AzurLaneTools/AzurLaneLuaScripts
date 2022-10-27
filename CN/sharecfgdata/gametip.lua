@@ -3105,6 +3105,10 @@ _G.pg.base.gametip.spweapon_tip_unload = {
 	tip = "特殊兵装已卸载至仓库中 "
 }
 
+_G.pg.base.gametip.spweapon_tip_sail_locked = {
+	tip = "该舰艇类型的特殊兵装栏位暂未开放"
+}
+
 _G.pg.base.gametip.spweapon_ui_level = {
 	tip = "强化等级"
 }
@@ -5004,6 +5008,10 @@ _G.pg.base.gametip.word_shipNation_link = {
 
 _G.pg.base.gametip.word_shipNation_ssss = {
 	tip = "SSSS"
+}
+
+_G.pg.base.gametip.word_shipNation_mot = {
+	tip = "飓风"
 }
 
 _G.pg.base.gametip.word_reset = {
@@ -10040,7 +10048,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:84}(最多4次)"
+	tip = "阿尔比恩、雅努斯等角色 建造概率UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10972,7 +10980,7 @@ _G.pg.base.gametip.world_boss_help = {
 8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中获得过「贡献值」的玩家可以获得相应奖励
 9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如果活动结束时耐久未被耗尽，则会根据据点推进进度，为在演习中获得过「贡献值」的玩家发放对应进度的奖励
 10.活动期间，可以领取个人贡献奖励，个人贡献奖励需要当据点攻略进度和拥有的「贡献值」达到指定要求后才能领取
-11.6月30日维护后-7月14日维护前可以参与演习战斗，奖励领取的截止时间为7月20日23:59:59]]
+11.10月27日维护后-11月10日维护前可以参与演习战斗，奖励领取的截止时间为11月16日23:59:59]]
 		},
 		{
 			info = [[
@@ -11975,6 +11983,10 @@ _G.pg.base.gametip.returner_push_tip = {
 
 _G.pg.base.gametip.returner_match_tip = {
 	tip = "匹配后,您将随机绑定一名系统中召集者的UID信息,点击确定后直接绑定<color=#FF5C5C>无法变更</color>,是否确定绑定？"
+}
+
+_G.pg.base.gametip.return_lock_tip = {
+	tip = "当前功能正在维护中，预计于11月17日解锁"
 }
 
 _G.pg.base.gametip.challenge_help = {
@@ -21633,4 +21645,20 @@ _G.pg.base.gametip.random_flag_ship = {
 
 _G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
 	tip = "更换换装"
+}
+
+_G.pg.base.gametip.expedition_drop_use_out = {
+	tip = "本日该难度额外收益次数已用尽！"
+}
+
+_G.pg.base.gametip.expedition_extra_drop_tip = {
+	tip = "额外收益次数："
+}
+
+_G.pg.base.gametip.ex_pass_use = {
+	tip = "使用"
+}
+
+_G.pg.base.gametip.defense_formation_tip_npc = {
+	tip = "第一舰队中存在<color=#92fc63>临时加入的角色</color>， 无法编入演习队伍"
 }

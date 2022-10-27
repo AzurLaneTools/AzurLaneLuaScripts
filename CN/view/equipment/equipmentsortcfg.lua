@@ -180,7 +180,8 @@ return {
 		},
 		{
 			types = {
-				Nation.CM
+				Nation.CM,
+				Nation.MOT
 			}
 		}
 	},

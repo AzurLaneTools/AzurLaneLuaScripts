@@ -2565,6 +2565,15 @@ pg.drop_data_restore = {
 		drop_id = 98200,
 		target_id = 105011
 	},
+	[5015] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 1,
+		id = 5015,
+		resource_num = 2000,
+		drop_id = 65194,
+		target_id = 101271
+	},
 	[6000] = {
 		target_type = 5,
 		type = 1,
@@ -2860,6 +2869,7 @@ pg.drop_data_restore = {
 		5012,
 		5013,
 		5014,
+		5015,
 		6000
 	}
 }

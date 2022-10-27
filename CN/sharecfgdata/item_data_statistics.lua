@@ -5605,6 +5605,27 @@ _G.pg.base.item_data_statistics[11052] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[11053] = {
+	display = "海怒T0设计图 ",
+	name = "海怒T0设计图 ",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11053,
+	is_world = 0,
+	icon = "Equips/27300",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[12000] = {
 	display = "九三式纯氧鱼雷T3设计图",
 	name = "九三式纯氧鱼雷T3设计图",
@@ -14736,6 +14757,121 @@ _G.pg.base.item_data_statistics[30338] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30339] = {
+	display = "可以获得一件随机的幽灵狂欢风格外观装备",
+	name = "外观装备箱(万圣)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30339,
+	is_world = 0,
+	icon = "Props/appearanceboxwansheng",
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "可以随机获得一件本次世界巡游限定外观装备",
 	name = "外观装备箱(世界巡游)",
@@ -16286,6 +16422,118 @@ _G.pg.base.item_data_statistics[30511] = {
 		{
 			9,
 			237,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30512] = {
+	display = "使用后可从「幽灵狂欢」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(万圣)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30512,
+	is_world = 0,
+	icon = "Props/appearanceboxwanshengzixuan",
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
 			1
 		}
 	},
@@ -173454,6 +173702,147 @@ _G.pg.base.item_data_statistics[58718] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58719] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58719,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58720] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58720,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58721] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58721,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			11053,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "参与角色将获得经验值",
 	name = "角色经验",
@@ -178446,6 +178835,94 @@ _G.pg.base.item_data_statistics[59351] = {
 	id = 59351,
 	is_world = 0,
 	icon = "Props/hero_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59352] = {
+	display = "参与「战斗！皇家女仆队3rd？」获得的点数，累计一定程度可以领取报酬",
+	name = "贡献值",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59352,
+	is_world = 0,
+	icon = "Props/albion_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59353] = {
+	display = "参与「战斗！皇家女仆队3rd？」EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	name = "特别挑战券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59353,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59354] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59354,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59355] = {
+	display = [[
+包含以下飓风阵营装备：
+<color=#ffde38>12磅长管炮x2</color>
+<color=#d797ff>球形实心弹x1</color>
+<color=#d797ff>帆索组件x1</color>]],
+	name = "飓风的馈赠",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59355,
+	is_world = 0,
+	icon = "Props/jvfengdekuizeng",
 	display_icon = {},
 	price = {},
 	index = {},

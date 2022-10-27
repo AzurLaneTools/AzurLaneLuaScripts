@@ -137,16 +137,30 @@ function slot0.Register(slot0)
 		uv0:emit(DefenseFormationMedator.REMOVE_SHIP, slot0, slot1)
 	end)
 
-	slot1 = slot0._formationLogic
+	function slot1(slot0)
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("defense_formation_tip_npc"),
+			onYes = slot0,
+			onNo = slot0
+		})
+	end
 
-	slot1:AddCheckRemove(function (slot0, slot1, slot2, slot3, slot4)
+	slot2 = slot0._formationLogic
+
+	slot2:AddCheckRemove(function (slot0, slot1, slot2, slot3, slot4)
 		if not slot3:canRemove(slot2) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot2:getName(), "", Fleet.C_TEAM_NAME[slot4]))
 			slot0()
 		elseif table.getCount(slot3.mainShips) == 1 and slot4 == TeamType.Main or table.getCount(slot3.vanguardShips) == 1 and slot4 == TeamType.Vanguard then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("exercise_clear_fleet_tip"),
-				onYes = slot1,
+				onYes = function ()
+					if not getProxy(FleetProxy):getFleetById(1):ExistActNpcShip() then
+						uv0()
+					else
+						uv1(uv2)
+					end
+				end,
 				onNo = slot0
 			})
 		else
@@ -160,9 +174,9 @@ function slot0.Register(slot0)
 		end
 	end)
 
-	slot1 = slot0._formationLogic
+	slot2 = slot0._formationLogic
 
-	slot1:AddGridTipClick(function (slot0, slot1)
+	slot2:AddGridTipClick(function (slot0, slot1)
 		uv0:emit(DefenseFormationMedator.CHANGE_FLEET_SHIP, nil, slot0)
 	end)
 end

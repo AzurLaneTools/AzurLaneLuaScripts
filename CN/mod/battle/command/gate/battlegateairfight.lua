@@ -19,7 +19,7 @@ function slot0.Exit(slot0, slot1)
 		slot4 = 0
 
 		for slot9 = 1, slot2:getConfig("config_client")[1] do
-			slot4 = slot4 + slot2:getKVPList(1, slot9) or 0
+			slot4 = slot4 + (slot2:getKVPList(1, slot9) or 0)
 		end
 
 		slot6 = pg.TimeMgr.GetInstance()

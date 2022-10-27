@@ -234,6 +234,42 @@ pg.extraenemy_template = {
 			}
 		}
 	},
+	{
+		mail_title = "world_boss_title_8",
+		name = "阿尔比恩 ",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 8,
+		background = "",
+		reward = {
+			98343,
+			98344,
+			98345,
+			98346
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				11053,
+				5
+			},
+			{
+				3,
+				3660,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -241,6 +277,7 @@ pg.extraenemy_template = {
 		4,
 		5,
 		6,
-		7
+		7,
+		8
 	}
 }

@@ -10,15 +10,23 @@ end
 
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._buffIDList = slot0._tempData.arg_list.buff_id_list
+	slot0._check_target = slot0._tempData.arg_list.check_target
+	slot0._minTargetNumber = slot0._tempData.arg_list.minTargetNumber or 0
+	slot0._maxTargetNumber = slot0._tempData.arg_list.maxTargetNumber or 10000
 end
 
 function slot1.onTrigger(slot0, slot1, slot2, slot3)
-	slot7 = slot2
-	slot8 = slot3
+	uv0.super.onTrigger(slot0, slot1, slot2, slot3)
 
-	uv0.super.onTrigger(slot0, slot1, slot7, slot8)
-
-	for slot7, slot8 in ipairs(slot0._buffIDList) do
-		slot1:RemoveBuff(slot8)
+	if slot0._check_target then
+		if slot0._minTargetNumber <= #slot0:getTargetList(slot1, slot0._check_target, slot0._tempData.arg_list, slot3) and slot5 <= slot0._maxTargetNumber then
+			for slot9, slot10 in ipairs(slot0._buffIDList) do
+				slot1:RemoveBuff(slot10)
+			end
+		end
+	else
+		for slot7, slot8 in ipairs(slot0._buffIDList) do
+			slot1:RemoveBuff(slot8)
+		end
 	end
 end

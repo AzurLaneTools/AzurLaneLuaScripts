@@ -168,7 +168,7 @@ function slot0.UpdateEquipments(slot0, slot1)
 		end
 	end
 
-	setActive(slot0.equipmentB, slot1:IsSpweaponUnlock() and PLATFORM_CODE ~= PLATFORM_CHT and not LOCK_SP_WEAPON)
+	setActive(slot0.equipmentB, slot1:IsSpweaponUnlock() and not LOCK_SP_WEAPON)
 	slot0:UpdateSpWeaponPanel(slot1:GetSpWeapon())
 end
 
@@ -415,8 +415,7 @@ function slot0.UpdateSpWeaponPanel(slot0, slot1)
 
 	setActive(findTF(slot2, "info"), slot1)
 	setActive(findTF(slot2, "empty"), not slot1)
-
-	slot5 = slot0:GetShipVO()
+	assert(slot0:GetShipVO())
 
 	if slot1 then
 		UpdateSpWeaponSlot(slot3, slot1, {
@@ -491,7 +490,7 @@ function slot0.UpdateSpWeaponPanel(slot0, slot1)
 				return
 			end
 
-			uv1:emit(ShipMainMediator.ON_SELECT_SPWEAPON, index)
+			uv1:emit(ShipMainMediator.ON_SELECT_SPWEAPON)
 		end
 	end, SFX_UI_DOCKYARD_EQUIPADD)
 end

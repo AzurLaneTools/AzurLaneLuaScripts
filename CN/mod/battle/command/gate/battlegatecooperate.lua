@@ -7,7 +7,7 @@ function slot0.Entrance(slot0, slot1)
 		return
 	end
 
-	slot2 = slot0.actID
+	slot2 = slot0.actId
 	slot3 = getProxy(PlayerProxy)
 	slot4 = getProxy(BayProxy)
 	slot5 = getProxy(FleetProxy)
@@ -87,12 +87,12 @@ function slot0.Exit(slot0, slot1)
 	slot6 = 0
 	slot7 = 0
 	slot8 = nil
-	slot11 = getProxy(FleetProxy):getActivityFleets()[slot0.actID][slot0.mainFleetId]
+	slot11 = getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId]
 	slot8 = bayProxy:getShipsByFleet(slot11)
 	slot7 = slot11:getEndCost().oil
 
 	if slot0.statistics.submarineAid then
-		if slot3:getActivityFleets()[slot0.actID][Fleet.SUBMARINE_FLEET_ID] then
+		if slot3:getActivityFleets()[slot0.actId][Fleet.SUBMARINE_FLEET_ID] then
 			for slot20, slot21 in ipairs(bayProxy:getShipsByFleet(slot15)) do
 				if slot0.statistics[slot21.id] then
 					table.insert(slot8, slot21)

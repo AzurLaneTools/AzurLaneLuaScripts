@@ -14,7 +14,11 @@ function slot0.onRegister(slot0)
 	slot0._screenRatio = PlayerPrefs.GetFloat("SetScreenRatio", ADAPT_TARGET)
 	slot0.storyAutoPlayCode = PlayerPrefs.GetInt("story_autoplay_flag", 0)
 	NotchAdapt.CheckNotchRatio = slot0._screenRatio
-	slot0.nextTipActBossExchangeTicket = nil
+	slot0._nextTipActBossTime = PlayerPrefs.GetInt("ActBossTipLastTime", 0)
+
+	if GetZeroTime() <= slot0._nextTipActBossTime then
+		slot0.nextTipActBossExchangeTicket = PlayerPrefs.GetInt("ActBossTip", 0)
+	end
 
 	slot0:resetEquipSceneIndex()
 
@@ -57,15 +61,6 @@ function slot0.GetWorldFlag(slot0, slot1)
 	end
 
 	return slot0.worldFlag[slot1]
-end
-
-function slot0.Reset(slot0)
-	slot0:resetEquipSceneIndex()
-	slot0:resetActivityLayerIndex()
-
-	slot0.isStopBuildSpeedupReamind = false
-
-	slot0:RestoreFrameRate()
 end
 
 function slot0.GetDockYardLockBtnFlag(slot0)
@@ -375,10 +370,27 @@ function slot0.isTipAutoBattle(slot0)
 end
 
 function slot0.setActBossExchangeTicketTip(slot0, slot1)
+	if slot0.nextTipActBossExchangeTicket == slot1 then
+		return
+	end
+
 	slot0.nextTipActBossExchangeTicket = slot1
+
+	if slot0._nextTipActBossTime < GetZeroTime() then
+		slot0._nextTipActBossTime = slot2
+
+		PlayerPrefs.SetInt("ActBossTipLastTime", slot2)
+	end
+
+	PlayerPrefs.SetInt("ActBossTip", slot1)
+	PlayerPrefs.Save()
 end
 
 function slot0.isTipActBossExchangeTicket(slot0)
+	if slot0._nextTipActBossTime < pg.TimeMgr.GetInstance():GetServerTime() then
+		return nil
+	end
+
 	return slot0.nextTipActBossExchangeTicket
 end
 
@@ -711,6 +723,19 @@ function slot0.SetPrevRandomFlagShipTime(slot0, slot1)
 
 	PlayerPrefs.SetInt("RandomFlagShipTime" .. getProxy(PlayerProxy):getRawData().id, slot1)
 	PlayerPrefs.Save()
+end
+
+function slot0.Reset(slot0)
+	slot0:resetEquipSceneIndex()
+	slot0:resetActivityLayerIndex()
+
+	slot0.isStopBuildSpeedupReamind = false
+
+	slot0:RestoreFrameRate()
+
+	slot0.randomFlagShipList = nil
+	slot0.prevRandomFlagShipTime = nil
+	slot0.randomFlagShipMap = nil
 end
 
 return slot0

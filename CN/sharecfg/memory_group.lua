@@ -2833,6 +2833,35 @@ pg.memory_group = {
 			2363
 		}
 	},
+	[229] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 229,
+		title = "战斗！皇家女仆队3rd？ ",
+		memories = {
+			2378,
+			2379,
+			2380,
+			2381,
+			2382
+		}
+	},
+	[230] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 230,
+		title = "万圣夜的「奇遇」",
+		memories = {
+			2383,
+			2384,
+			2385,
+			2386,
+			2387,
+			2388
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -4062,6 +4091,22 @@ pg.memory_group = {
 			2347
 		}
 	},
+	[579] = {
+		icon = "title_chara_huayue",
+		subtype = 0,
+		type = 3,
+		id = 579,
+		title = "花之语",
+		memories = {
+			2371,
+			2372,
+			2373,
+			2374,
+			2375,
+			2376,
+			2377
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4196,6 +4241,8 @@ pg.memory_group = {
 		226,
 		227,
 		228,
+		229,
+		230,
 		501,
 		502,
 		503,
@@ -4271,6 +4318,7 @@ pg.memory_group = {
 		575,
 		576,
 		577,
-		578
+		578,
+		579
 	}
 }
