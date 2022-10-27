@@ -133963,6 +133963,27 @@ _G.pg.base.item_data_statistics[59246] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59247] = {
+	display = "收集7次後，可以得到限定換裝「Candy Magic！」",
+	name = "魔法棒棒糖",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59247,
+	is_world = 0,
+	icon = "props/candymagic",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59251] = {
 	display = "用於『交匯世界的弧光』活動兌換，活動結束後將會消失",
 	name = "弧光結晶",
@@ -134503,6 +134524,31 @@ _G.pg.base.item_data_statistics[59349] = {
 	id = 59349,
 	is_world = 0,
 	icon = "Props/houshancailiao5",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59355] = {
+	display = [[
+包含以下颶風陣營裝備：
+<color=#ffde38>12磅長管炮 X2</color>
+<color=#d797ff>球形實心彈 X1</color>
+<color=#d797ff>帆索組件 X1</color>]],
+	name = "颶風的饋贈",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59355,
+	is_world = 0,
+	icon = "Props/jvfengdekuizeng",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -143976,6 +144022,27 @@ _G.pg.base.item_data_statistics[80030] = {
 	id = 80030,
 	is_world = 0,
 	icon = "Props/union_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[80031] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 80031,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},

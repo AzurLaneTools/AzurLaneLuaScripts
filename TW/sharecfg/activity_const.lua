@@ -869,5 +869,8 @@ pg.activity_const = {
 	},
 	INVITATION_JP_FIFTH = {
 		act_id = 40799
+	},
+	ACTIVITY_BOSS_ALBION = {
+		act_id = 4552
 	}
 }

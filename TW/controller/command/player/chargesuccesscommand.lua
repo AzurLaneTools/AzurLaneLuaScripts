@@ -11,7 +11,7 @@ function slot0.execute(slot0, slot1)
 
 	if slot2.gem > 0 then
 		slot9:addResources({
-			chargeGem = slot5
+			gem = slot5
 		})
 	end
 

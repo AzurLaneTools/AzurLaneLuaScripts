@@ -1,5 +1,129 @@
 pg = pg or {}
 pg.ship_skin_template_8 = {
+	[206071] = {
+		ship_group = 20607,
+		name = "銀月下的夜之眷屬",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "156",
+		id = 206071,
+		group_index = 1,
+		prefab = "aerbien_2",
+		painting = "aerbien_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70764,
+		shop_type_id = 8,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "1",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "啊，嗯，这，这样一直盯着我看的话…啊，这姑且算是夜之眷属的装扮，那个，指挥官？总之…能先请您跪下吗？",
+		voice_actor = 344,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.08,
+					1.13,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.04,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.39,
+					1.35,
+					0
+				}
+			},
+			plane = {
+				{
+					1.42,
+					1.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.21,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
 	[207010] = {
 		ship_group = 20701,
 		name = "鷹",

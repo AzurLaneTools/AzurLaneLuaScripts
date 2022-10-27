@@ -171,7 +171,7 @@ function slot0.register(slot0)
 			viewComponent = ChallengePreCombatLayer,
 			data = {
 				system = SYSTEM_CHALLENGE,
-				actID = uv1.id,
+				actId = uv1.id,
 				mode = slot1,
 				func = function ()
 					uv0:tryBattle()
@@ -209,7 +209,7 @@ function slot0.handleNotification(slot0, slot1)
 			viewComponent = ChallengePreCombatLayer,
 			data = {
 				system = SYSTEM_CHALLENGE,
-				actID = slot5:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id,
+				actId = slot5:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id,
 				mode = slot7,
 				func = function ()
 					uv0:tryBattle()

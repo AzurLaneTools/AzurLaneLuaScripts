@@ -667,30 +667,31 @@ function slot0.UpdateEquipments(slot0, slot1)
 	end
 
 	slot0.lastShipVo = slot1.id
+	slot5, slot6 = slot1:IsSpweaponUnlock()
 
-	setActive(slot0.spWeaponSlot:Find("Lock"), not slot1:IsSpweaponUnlock())
+	setActive(slot0.spWeaponSlot:Find("Lock"), not slot5)
 
-	slot6 = slot1:GetSpWeapon()
+	slot7 = slot1:GetSpWeapon()
 
-	setActive(slot0.spWeaponSlot:Find("Icon"), slot6)
-	setActive(slot0.spWeaponSlot:Find("IconShadow"), slot6)
+	setActive(slot0.spWeaponSlot:Find("Icon"), slot7)
+	setActive(slot0.spWeaponSlot:Find("IconShadow"), slot7)
 
-	if slot6 then
-		UpdateSpWeaponSlot(slot0.spWeaponSlot, slot6)
+	if slot7 then
+		UpdateSpWeaponSlot(slot0.spWeaponSlot, slot7)
 	end
 
 	onButton(slot0, slot0.spWeaponSlot, function ()
 		if not uv0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_locked"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n(uv1))
 
 			return
-		elseif uv1 then
-			uv2:emit(BaseUI.ON_SPWEAPON, {
+		elseif uv2 then
+			uv3:emit(BaseUI.ON_SPWEAPON, {
 				type = EquipmentInfoMediator.TYPE_SHIP,
-				shipId = uv2:GetShipVO().id
+				shipId = uv3:GetShipVO().id
 			})
 		else
-			uv2:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.EQUIPMENT)
+			uv3:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.EQUIPMENT)
 		end
 	end, SFX_PANEL)
 end

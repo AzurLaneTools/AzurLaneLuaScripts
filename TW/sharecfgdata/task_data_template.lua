@@ -87010,7 +87010,8 @@ _G.pg.base.task_data_template[16058] = {
 		1001,
 		1002,
 		1003,
-		1004
+		1004,
+		1005
 	},
 	open_need = {},
 	award_display = {
@@ -116471,6 +116472,442 @@ _G.pg.base.task_data_template[17997] = {
 			221,
 			2
 		}
+	}
+}
+
+_G.pg.base.task_data_template[18021] = {
+	name = "万圣节皇家财富号任务1",
+	guild_coin_award = 0,
+	award = 98366,
+	type = 26,
+	desc = "艦隊出擊，以S評價通關10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18021,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18022] = {
+	name = "万圣节皇家财富号任务2",
+	guild_coin_award = 0,
+	award = 98367,
+	type = 26,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18022,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18023] = {
+	name = "万圣节皇家财富号任务3",
+	guild_coin_award = 0,
+	award = 98368,
+	type = 26,
+	desc = "參與2次軍事演習",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18023,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18024] = {
+	name = "万圣节皇家财富号任务4",
+	guild_coin_award = 0,
+	award = 98369,
+	type = 26,
+	desc = "完成軍事委託2次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18024,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18025] = {
+	name = "万圣节皇家财富号任务5",
+	guild_coin_award = 0,
+	award = 98370,
+	type = 26,
+	desc = "退役2艘艦船",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18025,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18026] = {
+	name = "万圣节皇家财富号任务6",
+	guild_coin_award = 0,
+	award = 98371,
+	type = 26,
+	desc = "完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18026,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18027] = {
+	name = "万圣节皇家财富号任务7",
+	guild_coin_award = 0,
+	award = 98372,
+	type = 26,
+	desc = "艦船強化5次 ",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18027,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18028] = {
+	name = "万圣节皇家财富号任务8",
+	guild_coin_award = 0,
+	award = 98373,
+	type = 26,
+	desc = "進行2次戰術訓練",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18028,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18030] = {
+	name = "万圣节皇家财富号任务9",
+	guild_coin_award = 0,
+	award = 98375,
+	type = 26,
+	desc = "後宅補充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18030,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18031] = {
+	name = "万圣节皇家财富号任务10",
+	guild_coin_award = 0,
+	award = 98376,
+	type = 26,
+	desc = "建造艦船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18031,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18032] = {
+	name = "万圣节皇家财富号任务11",
+	guild_coin_award = 0,
+	award = 98378,
+	type = 26,
+	desc = "打開任意科技箱1個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18032,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59355,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18034] = {
+	name = "万圣节皇家财富号任务12",
+	guild_coin_award = 0,
+	award = 98379,
+	type = 26,
+	desc = "擊敗旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18034,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			9600011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 
@@ -162017,5 +162454,41 @@ _G.pg.base.task_data_template[80362] = {
 	},
 	scene = {
 		"HARD_MAP"
+	}
+}
+
+_G.pg.base.task_data_template[80363] = {
+	name = "2022万圣节皮肤体验卷",
+	guild_coin_award = 0,
+	award = 300572,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80363,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80031,
+			2
+		}
 	}
 }

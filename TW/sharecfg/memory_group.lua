@@ -1955,6 +1955,21 @@ pg.memory_group = {
 			2062
 		}
 	},
+	[230] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 230,
+		title = "萬聖夜的「奇遇」",
+		memories = {
+			2383,
+			2384,
+			2385,
+			2386,
+			2387,
+			2388
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3136,6 +3151,7 @@ pg.memory_group = {
 		205,
 		212,
 		213,
+		230,
 		501,
 		502,
 		503,

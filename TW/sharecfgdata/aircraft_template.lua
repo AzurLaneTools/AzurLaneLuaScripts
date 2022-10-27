@@ -17854,7 +17854,7 @@ _G.pg.base.aircraft_template[37170] = {
 	spawn_brownian = 1,
 	weapon_ID = {
 		50050,
-		50560,
+		50570,
 		52150
 	}
 }
@@ -17867,7 +17867,7 @@ _G.pg.base.aircraft_template[37171] = {
 	spawn_brownian = 1,
 	weapon_ID = {
 		50051,
-		50561,
+		50571,
 		52151
 	}
 }
@@ -50653,7 +50653,7 @@ _G.pg.base.aircraft_template[83170] = {
 	spawn_brownian = 1,
 	weapon_ID = {
 		50050,
-		50560
+		50570
 	}
 }
 
@@ -50665,7 +50665,7 @@ _G.pg.base.aircraft_template[83171] = {
 	spawn_brownian = 1,
 	weapon_ID = {
 		50051,
-		50561
+		50571
 	}
 }
 

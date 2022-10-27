@@ -5945,6 +5945,85 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100018] = {
+		belong = 1,
+		describe = "做好清涼一下的心理準備了嗎~？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "迷你水世界 ",
+		tag = 6,
+		icon = "shuiqiuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100018,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuiqiuB",
+				"normal"
+			},
+			{
+				"shuiqiuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"action",
+						"tuozhuai2"
+					},
+					"tuozhuai2"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				-2.1,
+				-58.5
+			}
+		},
+		animator = {
+			{
+				"shuiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		spine_extra = "",
 		describe = "到處都是破洞的地板，注意不要踩到洞裡啊",
@@ -89421,6 +89500,7 @@ pg.furniture_data_template = {
 			100015,
 			100016,
 			100017,
+			100018,
 			12002,
 			12102,
 			12103,
@@ -89548,6 +89628,7 @@ pg.furniture_data_template = {
 			100015,
 			100016,
 			100017,
+			100018,
 			12002,
 			12102,
 			12103,
@@ -95042,6 +95123,7 @@ pg.furniture_data_template = {
 			100015,
 			100016,
 			100017,
+			100018,
 			54104,
 			54105
 		},
@@ -95712,7 +95794,8 @@ pg.furniture_data_template = {
 			100013,
 			100014,
 			100016,
-			100017
+			100017,
+			100018
 		},
 		[2] = {
 			122,
@@ -97716,6 +97799,7 @@ pg.furniture_data_template = {
 		100015,
 		100016,
 		100017,
+		100018,
 		1001,
 		1002,
 		1101,

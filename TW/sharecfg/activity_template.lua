@@ -628,13 +628,13 @@ pg.activity_template = {
 		}
 	},
 	[8009] = {
-		mark = 20220421,
+		mark = 20220414,
 		config_client = "",
 		title_res_tag = "newserver_main",
 		type = 3,
 		login_pop = 0,
 		config_id = 24,
-		is_show = 26,
+		is_show = 15,
 		id = 8009,
 		config_data = {},
 		time = {
@@ -644,7 +644,7 @@ pg.activity_template = {
 					{
 						2022,
 						5,
-						12
+						5
 					},
 					{
 						0,
@@ -659,7 +659,7 @@ pg.activity_template = {
 					{
 						2022,
 						4,
-						21
+						14
 					},
 					{
 						0,
@@ -671,7 +671,7 @@ pg.activity_template = {
 					{
 						2022,
 						5,
-						11
+						4
 					},
 					{
 						23,
@@ -687,7 +687,7 @@ pg.activity_template = {
 		}
 	},
 	[8010] = {
-		mark = 20220421,
+		mark = 20220414,
 		title_res_tag = "",
 		page_info = "",
 		type = 30,
@@ -706,7 +706,7 @@ pg.activity_template = {
 					{
 						2022,
 						5,
-						12
+						5
 					},
 					{
 						0,
@@ -721,7 +721,7 @@ pg.activity_template = {
 					{
 						2022,
 						4,
-						21
+						14
 					},
 					{
 						0,
@@ -733,7 +733,7 @@ pg.activity_template = {
 					{
 						2022,
 						5,
-						11
+						4
 					},
 					{
 						23,
@@ -20573,7 +20573,7 @@ pg.activity_template = {
 		type = 87,
 		login_pop = 0,
 		config_id = 40831,
-		is_show = 28,
+		is_show = 26,
 		id = 40831,
 		config_data = {},
 		time = {
@@ -20615,7 +20615,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 9,
-		is_show = 27,
+		is_show = 25,
 		config_data = {},
 		time = {
 			"timer",
@@ -21306,6 +21306,239 @@ pg.activity_template = {
 					23,
 					59,
 					59
+				}
+			}
+		}
+	},
+	[40905] = {
+		mark = 20221027,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40905,
+		config_data = {
+			80363
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40906] = {
+		mark = 20221027,
+		id = 40906,
+		title_res_tag = "mengfeisipifu",
+		type = 74,
+		login_pop = 0,
+		config_id = 40906,
+		is_show = 27,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MemphisHalloweenPage",
+			ui_name = "memphishalloweenpage"
+		},
+		config_client = {
+			story = {
+				{
+					"MENGFEISIWANSHENG1"
+				},
+				{
+					"MENGFEISIWANSHENG2"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG3"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG4"
+				},
+				{
+					"MENGFEISIWANSHENG5"
+				}
+			}
+		}
+	},
+	[40907] = {
+		mark = 20221027,
+		config_client = "",
+		title_res_tag = "sign_halloween",
+		type = 57,
+		login_pop = 0,
+		config_id = 25,
+		is_show = 27,
+		id = 40907,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SignHalloweenPage",
+			ui_name = "SignHalloweenPage"
+		}
+	},
+	[40908] = {
+		mark = 20221027,
+		id = 40908,
+		title_res_tag = "royal_fortune",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 27,
+		config_data = {
+			{
+				18021,
+				18022
+			},
+			{
+				18023,
+				18024
+			},
+			{
+				18025,
+				18026
+			},
+			{
+				18027,
+				18028
+			},
+			{
+				18030,
+				18031
+			},
+			{
+				18032,
+				18034
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					10,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "RoyalFortunePage",
+			ui_name = "RoyalFortunePage"
+		},
+		config_client = {
+			story = {
+				{
+					"WANSHENGYEDEQIYU1"
+				},
+				{
+					"WANSHENGYEDEQIYU2"
+				},
+				{
+					"WANSHENGYEDEQIYU3"
+				},
+				{
+					"WANSHENGYEDEQIYU4"
+				},
+				{
+					"WANSHENGYEDEQIYU5"
+				},
+				{
+					"WANSHENGYEDEQIYU6"
 				}
 			}
 		}
@@ -22703,7 +22936,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 25,
 		config_id = 3,
-		is_show = 27,
+		is_show = 26,
 		id = 45043,
 		config_data = {
 			{
@@ -23765,6 +23998,10 @@ pg.activity_template = {
 		40902,
 		40903,
 		40904,
+		40905,
+		40906,
+		40907,
+		40908,
 		45000,
 		45001,
 		45002,

@@ -134,7 +134,11 @@ function slot0.UpdateMedals(slot0)
 		slot9 = slot8 == 1 and slot0.medalTpl or cloneTplTo(slot0.medalTpl, slot0.medalTpl.parent)
 
 		LoadSpriteAsync("medal/s_" .. pg.medal_template[slot1[slot2 - slot8 + 1]].icon, function (slot0)
-			slot1 = uv0:Find("icon"):GetComponent(typeof(Image))
+			if uv0.exited then
+				return
+			end
+
+			slot1 = uv1:Find("icon"):GetComponent(typeof(Image))
 			slot1.sprite = slot0
 
 			slot1:SetNativeSize()
@@ -156,6 +160,10 @@ function slot0.UpdatePower(slot0)
 		uv0.emblemIcon:SetNativeSize()
 	end)
 	LoadSpriteAsync("emblem/n_" .. slot2, function (slot0)
+		if uv0.exited then
+			return
+		end
+
 		uv0.emblemTxt.sprite = slot0
 
 		uv0.emblemTxt:SetNativeSize()

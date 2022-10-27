@@ -1,122 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
-	[202031] = {
-		ship_group = 20203,
-		name = "晚會女王",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "107",
-		id = 202031,
-		group_index = 1,
-		prefab = "ajiakesi_2",
-		painting = "ajiakesi_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70099,
-		shop_type_id = 7,
-		air_bomb_skin = "",
-		illustrator = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "呵呵呵，看你那目瞪口呆的樣子，沒有枉費我換上這身禮服呢。過來，指揮官，我來為你倒一杯酒吧~",
-		voice_actor = 34,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-1.02,
-					1.43,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.99,
-					1.5,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.19,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-1.01,
-					1.43,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.39,
-							2.47,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[202032] = {
 		ship_group = 20203,
 		name = "節日的“特別獎勵”",
@@ -1401,6 +1284,238 @@ pg.ship_skin_template_6 = {
 			}
 		},
 		smoke = {}
+	},
+	[202090] = {
+		ship_group = 20209,
+		name = "曼徹斯特 ",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202090,
+		group_index = 0,
+		prefab = "manchesite",
+		painting = "manchesite",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "1",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "格罗斯特级轻巡洋舰—曼彻斯特",
+		voice_actor = 347,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.18,
+					0.91,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					0.72,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.07,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202091] = {
+		ship_group = 20209,
+		name = "白衣“惡魔”的狂歡夜",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "156",
+		id = 202091,
+		group_index = 1,
+		prefab = "manchesite_3",
+		painting = "manchesite_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70765,
+		shop_type_id = 8,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "1",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "主人，到打针的时间了！嗯…到哪去了呢…那就在等主人来之前先看看这个病床躺起来感觉如何……哇！？主人您怎么来了？",
+		voice_actor = 347,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.18,
+					0.91,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					0.72,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.16,
+							0
+						}
+					}
+				}
+			}
+		}
 	},
 	[202100] = {
 		ship_group = 20210,

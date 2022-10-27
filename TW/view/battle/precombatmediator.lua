@@ -7,6 +7,7 @@ slot0.OPEN_SHIP_INFO = "PreCombatMediator:OPEN_SHIP_INFO"
 slot0.REMOVE_SHIP = "PreCombatMediator:REMOVE_SHIP"
 slot0.CHANGE_FLEET_SHIPS_ORDER = "PreCombatMediator:CHANGE_FLEET_SHIPS_ORDER"
 slot0.CHANGE_FLEET_SHIP = "PreCombatMediator:CHANGE_FLEET_SHIP"
+slot0.BEGIN_STAGE_PROXY = "PreCombatMediator:BEGIN_STAGE_PROXY"
 slot0.ON_AUTO = "PreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "PreCombatMediator:ON_SUB_AUTO"
 slot0.GET_CHAPTER_DROP_SHIP_LIST = "PreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST"
@@ -66,7 +67,7 @@ function slot0.register(slot0)
 			end
 		end
 
-		if pg.activity_event_worldboss[getProxy(ActivityProxy):getActivityById(slot0.contextData.actID):getConfig("config_id")] then
+		if pg.activity_event_worldboss[getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):getConfig("config_id")] then
 			slot0.viewComponent:SetTicketItemID(slot11.ticket)
 		end
 	elseif slot2 == SYSTEM_SUB_ROUTINE then
@@ -149,9 +150,6 @@ function slot0.register(slot0)
 			if uv0.contextData.customFleet then
 				uv0.contextData.func()
 			else
-				slot0 = nil
-				slot0 = (not uv0.contextData.rivalId or uv0.contextData.rivalId) and uv0.contextData.stageId
-
 				seriesAsync({
 					function (slot0)
 						if uv0.contextData.OnConfirm then
@@ -161,34 +159,28 @@ function slot0.register(slot0)
 						end
 					end,
 					function ()
-						uv0:sendNotification(GAME.BEGIN_STAGE, {
-							stageId = uv1,
-							mainFleetId = uv2,
-							system = uv0.contextData.system,
-							actID = uv0.contextData.actID,
-							rivalId = uv0.contextData.rivalId
-						})
+						uv0.viewComponent:emit(uv1.BEGIN_STAGE_PROXY, uv2)
 					end
 				})
 			end
 		end
 
-		if uv1 == SYSTEM_DUEL then
+		if uv2 == SYSTEM_DUEL then
 			slot2()
 		else
 			slot3, slot4 = nil
 
-			if uv1 == SYSTEM_HP_SHARE_ACT_BOSS or uv1 == SYSTEM_BOSS_EXPERIMENT or uv1 == SYSTEM_ACT_BOSS then
-				slot3 = uv2[1]
+			if uv2 == SYSTEM_HP_SHARE_ACT_BOSS or uv2 == SYSTEM_BOSS_EXPERIMENT or uv2 == SYSTEM_ACT_BOSS then
+				slot3 = uv3[1]
 				slot4 = "ship_energy_low_warn_no_exp"
 			else
-				slot3 = uv3:getFleetById(slot1)
+				slot3 = uv4:getFleetById(slot1)
 			end
 
 			slot5 = {}
 
 			for slot9, slot10 in ipairs(slot3.ships) do
-				table.insert(slot5, uv4:getShipById(slot10))
+				table.insert(slot5, uv5:getShipById(slot10))
 			end
 
 			if slot3.name == "" or slot6 == nil then
@@ -201,6 +193,17 @@ function slot0.register(slot0)
 				end
 			end, nil, slot4)
 		end
+	end)
+	slot0:bind(uv0.BEGIN_STAGE_PROXY, function (slot0, slot1)
+		slot2 = nil
+
+		uv0:sendNotification(GAME.BEGIN_STAGE, {
+			stageId = (not uv0.contextData.rivalId or uv0.contextData.rivalId) and uv0.contextData.stageId,
+			mainFleetId = slot1,
+			system = uv0.contextData.system,
+			actId = uv0.contextData.actId,
+			rivalId = uv0.contextData.rivalId
+		})
 	end)
 end
 
@@ -221,7 +224,7 @@ function slot0.refreshEdit(slot0, slot1)
 
 	if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
 		slot3 = nil
-		slot3 = (slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2:getActivityFleets()[slot0.contextData.actID]) and slot2:getData()
+		slot3 = (slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2:getActivityFleets()[slot0.contextData.actId]) and slot2:getData()
 		slot3[slot1.id] = slot1
 
 		slot0.viewComponent:SetFleets(slot3)
@@ -233,7 +236,7 @@ end
 function slot0.commitEdit(slot0, slot1)
 	if getProxy(FleetProxy).EdittingFleet == nil or slot3:isFirstFleet() or slot3:isLegalToFight() == true then
 		if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
-			slot2:commitActivityFleet(slot0.contextData.actID)
+			slot2:commitActivityFleet(slot0.contextData.actId)
 			slot1()
 		else
 			slot2:commitEdittingFleet(slot1)
@@ -285,7 +288,8 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
 		PlayerProxy.UPDATED,
-		GAME.BEGIN_STAGE_ERRO
+		GAME.BEGIN_STAGE_ERRO,
+		PreCombatMediator.BEGIN_STAGE_PROXY
 	}
 end
 
@@ -296,14 +300,18 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:SetPlayerInfo(getProxy(PlayerProxy):getData())
-	elseif slot2 == GAME.BEGIN_STAGE_ERRO and slot3 == 3 then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			hideNo = true,
-			content = i18n("battle_preCombatMediator_timeout"),
-			onYes = function ()
-				uv0.viewComponent:emit(BaseUI.ON_CLOSE)
-			end
-		})
+	elseif slot2 == GAME.BEGIN_STAGE_ERRO then
+		if slot3 == 3 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				content = i18n("battle_preCombatMediator_timeout"),
+				onYes = function ()
+					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+				end
+			})
+		end
+	elseif slot2 == PreCombatMediator.BEGIN_STAGE_PROXY then
+		slot0.viewComponent:emit(PreCombatMediator.BEGIN_STAGE_PROXY, slot3)
 	end
 end
 

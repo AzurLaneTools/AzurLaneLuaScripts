@@ -438,56 +438,70 @@ function slot0.RemoveWorldListener(slot0)
 end
 
 function slot0.SetInMap(slot0, slot1, slot2)
-	slot3 = slot1 and function (slot0)
-		uv0:LoadMap(nowWorld():GetActiveMap(), slot0)
-	end or function (slot0)
-		uv0:LoadAtlas(slot0)
-	end
-
 	if slot1 then
 		slot2 = defaultValue(slot2, function ()
 			uv0:Op("OpInteractive")
 		end)
 	end
 
-	slot4 = {}
-
 	if slot0.inMap == slot1 then
-		table.insert(slot4, slot3)
-	else
-		slot0:StopAnim()
-
-		if slot0.inMap then
-			table.insert(slot4, function (slot0)
-				uv0:Op("OpSwitchOutMap", slot0, uv1)
-			end)
-		elseif slot0.inMap ~= nil then
-			table.insert(slot4, function (slot0)
-				uv0:Op("OpSwitchOutWorld", slot0, uv1)
-			end)
-		else
-			table.insert(slot4, slot3)
-		end
-
-		if slot1 then
-			table.insert(slot4, function (slot0)
-				uv0:Op("OpSwitchInMap", slot0)
-			end)
-		else
-			table.insert(slot4, function (slot0)
-				uv0:Op("OpSwitchInWorld", slot0)
-			end)
-		end
-
-		table.insert(slot4, function (slot0)
-			uv0:PlayBGM()
-			slot0()
-		end)
-
-		slot0.inMap = slot1
+		return existCall(slot2)
 	end
 
-	seriesAsync(slot4, slot2)
+	slot3 = {}
+	slot4 = {}
+
+	slot0:StopAnim()
+
+	if slot0.inMap then
+		table.insert(slot3, function (slot0)
+			uv0:Op("OpSwitchOutMap", slot0)
+		end)
+	elseif slot0.inMap ~= nil then
+		table.insert(slot3, function (slot0)
+			uv0:Op("OpSwitchOutWorld", slot0)
+		end)
+	end
+
+	table.insert(slot3, function (slot0)
+		slot1 = uv0
+
+		slot1:Op("OpCall", function (slot0)
+			parallelAsync(uv0, function ()
+				uv0()
+
+				return uv1()
+			end)
+		end)
+	end)
+	table.insert(slot4, function (slot0)
+		uv0:DisplayEnv(slot0)
+	end)
+
+	if slot1 then
+		table.insert(slot4, function (slot0)
+			uv0:LoadMap(nowWorld():GetActiveMap(), slot0)
+		end)
+		table.insert(slot3, function (slot0)
+			uv0:Op("OpSwitchInMap", slot0)
+		end)
+	else
+		table.insert(slot4, function (slot0)
+			uv0:LoadAtlas(slot0)
+		end)
+		table.insert(slot3, function (slot0)
+			uv0:Op("OpSwitchInWorld", slot0)
+		end)
+	end
+
+	table.insert(slot3, function (slot0)
+		uv0:PlayBGM()
+		slot0()
+	end)
+
+	slot0.inMap = slot1
+
+	seriesAsync(slot3, slot2)
 end
 
 function slot0.GetInMap(slot0)
@@ -1815,7 +1829,9 @@ function slot0.BackToMap(slot0)
 	slot0:Op("OpSetInMap", true)
 end
 
-function slot0.DisplayEnv(slot0)
+function slot0.DisplayEnv(slot0, slot1)
+	slot3 = {}
+
 	if slot0.rtEnvBG:GetComponent(typeof(Image)).sprite.name ~= (checkExist(nowWorld():GetActiveMap(), {
 		"config"
 	}, {
@@ -1823,8 +1839,16 @@ function slot0.DisplayEnv(slot0)
 	}, {
 		1
 	}) or "model_bg") then
-		GetImageSpriteFromAtlasAsync("world/map/" .. slot1, slot1, slot0.rtEnvBG)
+		table.insert(slot3, function (slot0)
+			GetSpriteFromAtlasAsync("world/map/" .. uv0, uv0, function (slot0)
+				setImageSprite(uv0.rtEnvBG, slot0)
+
+				return uv1()
+			end)
+		end)
 	end
+
+	seriesAsync(slot3, slot1)
 end
 
 function slot0.ScreenPos2MapPos(slot0, slot1)
@@ -2292,6 +2316,9 @@ function slot0.StartAutoSwitch(slot0)
 		if not slot0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip4"))
 		else
+			getProxy(MetaCharacterProxy):setMetaTacticsInfoOnStart()
+			triggerToggle(uv0.wsMapRight.toggleSkipPrecombat, true)
+			PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(SYSTEM_WORLD), 1)
 			uv0:Op("OpAutoSwitchMap")
 		end
 	end)

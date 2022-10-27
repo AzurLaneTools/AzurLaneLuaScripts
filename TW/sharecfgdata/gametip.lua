@@ -3120,6 +3120,10 @@ _G.pg.base.gametip.spweapon_tip_unload = {
 	tip = "特殊兵裝已卸載至倉庫中"
 }
 
+_G.pg.base.gametip.spweapon_tip_sail_locked = {
+	tip = "該艦艇類型的特殊兵裝欄位暫未開放"
+}
+
 _G.pg.base.gametip.spweapon_ui_level = {
 	tip = "強化等級"
 }
@@ -4983,6 +4987,10 @@ _G.pg.base.gametip.word_shipNation_link = {
 
 _G.pg.base.gametip.word_shipNation_ssss = {
 	tip = "SSSS"
+}
+
+_G.pg.base.gametip.word_shipNation_mot = {
+	tip = "颶風"
 }
 
 _G.pg.base.gametip.word_reset = {
@@ -11439,6 +11447,10 @@ _G.pg.base.gametip.returner_match_tip = {
 	tip = "配對後,您將隨機綁定一名系統中召集者的UID訊息,點擊確定後直接綁定<color=#FF5C5C>無法變更</color>,是否確定綁定？"
 }
 
+_G.pg.base.gametip.return_lock_tip = {
+	tip = "當前功能正在維護中，預計於11月17日解鎖"
+}
+
 _G.pg.base.gametip.challenge_help = {
 	tip = {
 		{
@@ -15678,22 +15690,14 @@ _G.pg.base.gametip.help_candymagic = {
 			info = [[
 活動規則：
 活動期間每日可獲得一次可用次數，可用次數最多可以疊加7次
-1.在有可用次數的情況下參與並結束糖果與魔法之夜會消
-耗掉可用次數並獲得簽到次數，集齊7次簽到次數可以獲
-得「拉德福特」限定換裝
-2.在沒有可用次數的情況下進行糖果與魔法之夜不會獲得
-簽到次數
-3.因為其他原因中途退出小遊戲不會消耗可用次數，同時
-也不會獲得任何獎勵
+1.在有可用次數的情況下參與並結束糖果與魔法之夜會消耗掉可用次數並獲得簽到次數，集齊7次簽到次數可以獲得「拉德福特」限定換裝
+2.在沒有可用次數的情況下進行糖果與魔法之夜不會獲得簽到次數
+3.因為其他原因中途退出小遊戲不會消耗可用次數，同時也不會獲得任何獎勵
 小遊戲玩法：
-1.指揮官控制拉德福特左右移動接取天上掉下的糖果，接
-到糖果可以獲得分數，漏接糖果會扣除一顆生命值
-2.指揮官需要特別注意掉下的南瓜炸彈，接到南瓜炸彈也
-會扣除一顆生命值
-3.拉德福特一共有三顆生命值，全部扣除後遊戲結束並進
-行結算
-4.遊戲中會出現幽靈啾啾，拉德福特被附身後會降低移動
-速度，當幽靈啾啾靠近時點擊畫面右側手電可以驅逐幽靈啾啾]]
+1.指揮官控制拉德福特左右移動接取天上掉下的糖果，接到糖果可以獲得分數，漏接糖果會扣除一顆生命值
+2.指揮官需要特別注意掉下的南瓜炸彈，接到南瓜炸彈也會扣除一顆生命值
+3.拉德福特一共有三顆生命值，全部扣除後遊戲結束並進行結算
+4.遊戲中會出現幽靈啾啾，拉德福特被附身後會降低移動速度，當幽靈啾啾靠近時點擊畫面右側手電可以驅逐幽靈啾啾]]
 		}
 	}
 }
@@ -20119,4 +20123,20 @@ _G.pg.base.gametip.random_flag_ship = {
 
 _G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
 	tip = "更換換裝"
+}
+
+_G.pg.base.gametip.expedition_drop_use_out = {
+	tip = "本日該難度額外收益次數已用盡！"
+}
+
+_G.pg.base.gametip.expedition_extra_drop_tip = {
+	tip = "額外收益次數："
+}
+
+_G.pg.base.gametip.ex_pass_use = {
+	tip = "使用"
+}
+
+_G.pg.base.gametip.defense_formation_tip_npc = {
+	tip = "第一艦隊中存在<color=#92fc63>臨時加入的角色</color>， 無法編入演習隊伍"
 }

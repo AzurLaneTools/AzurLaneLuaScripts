@@ -38,7 +38,6 @@ function slot0.CommonInit(slot0)
 	slot0._startBtn = slot0:findTF("right/start")
 	slot0._costContainer = slot0:findTF("right/start/cost_container")
 	slot0._popup = slot0._costContainer:Find("popup")
-	slot0._ticket = slot0._costContainer:Find("ticket")
 	slot0._costText = slot0._popup:Find("Text")
 	slot0._moveLayer = slot0:findTF("moveLayer")
 	slot1 = slot0:findTF("middle")
@@ -576,33 +575,11 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.displayFleetInfo(slot0)
-	slot1 = slot0._currentFleetVO:GetPropertiesSum()
-
-	setActive(slot0._costContainer, slot5 ~= SYSTEM_DUEL)
+	setActive(slot0._costContainer, slot4 ~= SYSTEM_DUEL)
 	uv0.tweenNumText(slot0._costText, pg.battle_cost_template[slot0.contextData.system].oil_cost == 0 and 0 or slot0._currentFleetVO:GetCostSum().oil)
 	uv0.tweenNumText(slot0._vanguardGS, slot0._currentFleetVO:GetGearScoreSum(TeamType.Vanguard))
 	uv0.tweenNumText(slot0._mainGS, slot0._currentFleetVO:GetGearScoreSum(TeamType.Main))
-
-	slot8 = nil
-
-	if slot0._ticketItemID then
-		setImageSprite(slot0._ticket:Find("icon"), GetSpriteFromAtlas(itemId2icon(pg.player_resource[slot0._ticketItemID].itemid), ""))
-	end
-
-	if slot5 == SYSTEM_BOSS_EXPERIMENT then
-		setActive(slot0._ticket, true)
-		setText(slot0._ticket:Find("Text"), 0)
-	elseif slot5 == SYSTEM_HP_SHARE_ACT_BOSS then
-		setActive(slot0._ticket, true)
-		setText(slot0._ticket:Find("Text"), 1)
-	end
-
-	if slot5 == SYSTEM_ACT_BOSS or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_BOSS_EXPERIMENT then
-		setText(slot0._fleetNameText, Fleet.DEFAULT_NAME_BOSS_ACT[slot0._currentFleetVO.id])
-	else
-		setText(slot0._fleetNameText, uv0.defaultFleetName(slot0._currentFleetVO))
-	end
-
+	setText(slot0._fleetNameText, uv0.defaultFleetName(slot0._currentFleetVO))
 	setText(slot0._fleetNumText, slot0._currentFleetVO.id)
 end
 

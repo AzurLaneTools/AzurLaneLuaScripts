@@ -30,7 +30,7 @@ function slot0.register(slot0)
 			exitCallback = uv0.contextData.exitCallback,
 			system = uv1,
 			statistics = slot1,
-			actID = uv0.contextData.actId,
+			actId = uv0.contextData.actId,
 			mode = uv0.contextData.mode
 		})
 	end)
@@ -1051,6 +1051,7 @@ function slot0.handleNotification(slot0, slot1)
 					result = slot3.result,
 					extraDrops = slot3.extraDrops,
 					extraBuffList = slot8,
+					isLastBonus = slot3.isLastBonus,
 					mode = slot0.contextData.mode,
 					cmdArgs = slot0.contextData.cmdArgs
 				}

@@ -1,113 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101390] = {
-		ship_group = 10139,
-		name = "馬拉尼",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101390,
-		group_index = 0,
-		prefab = "malani",
-		painting = "malani",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "佛萊契爾級驅逐艦—馬拉尼，舷號DD-528",
-		voice_actor = 166,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.85,
-					0.802,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.85,
-					0.782,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.149,
-					0.047,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101392] = {
 		ship_group = 10139,
 		name = "東煌之儀",
@@ -8464,6 +8356,231 @@ pg.ship_skin_template_2 = {
 						{
 							-0.7,
 							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102253] = {
+		ship_group = 10225,
+		name = "絢爛繽紛花火夜",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "143",
+		id = 102253,
+		group_index = 3,
+		prefab = "biluokexi_5",
+		painting = "biluokexi_5",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70474,
+		shop_type_id = 2,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "聽說異鄉的節日活動能看到華麗的煙火，就選了一套能搭配的服裝，這身感覺如何？…人比煙火好看？哼哼，總不能讓煙火搶了在指揮官面前的風頭嘛！開玩笑的，哈哈哈",
+		voice_actor = 217,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.24,
+					0.904,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.252,
+					0.908,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.259,
+					0.919,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.7,
+							2.474,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102260] = {
+		ship_group = 10226,
+		name = "雷諾",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102260,
+		group_index = 0,
+		prefab = "linuo",
+		painting = "linuo",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "亞特蘭大級輕巡洋艦—雷諾，舷號CL-96",
+		voice_actor = 231,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.211,
+					1.069,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.282,
+					1.091,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.388,
+					1.106,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.17,
 							0
 						}
 					}

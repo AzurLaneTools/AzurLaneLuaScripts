@@ -1888,7 +1888,7 @@ pg.activity_ins_ship_group_template = {
 	[10502] = {
 		ship_group = 10502,
 		name = "Oklahoma",
-		sculpture = "ekelahema"
+		sculpture = "Ekelahema_2"
 	},
 	[30504] = {
 		ship_group = 30504,
@@ -1904,6 +1904,41 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 10206,
 		name = "Atlanta",
 		sculpture = "yatelanda"
+	},
+	[20135] = {
+		ship_group = 20135,
+		name = "Janus",
+		sculpture = "Yanusi_3"
+	},
+	[20607] = {
+		ship_group = 20607,
+		name = "Albion",
+		sculpture = "Aerbien_2"
+	},
+	[20209] = {
+		ship_group = 20209,
+		name = "Manchester",
+		sculpture = "manchesite_3"
+	},
+	[21301] = {
+		ship_group = 21301,
+		name = "Erebus",
+		sculpture = "heianjie"
+	},
+	[21302] = {
+		ship_group = 21302,
+		name = "Terror",
+		sculpture = "kongbu"
+	},
+	[20210] = {
+		ship_group = 20210,
+		name = "Gloucester",
+		sculpture = "geluosite"
+	},
+	[10513] = {
+		ship_group = 10513,
+		name = "Washington",
+		sculpture = "huashengdun"
 	},
 	all = {
 		30701,
@@ -2286,6 +2321,13 @@ pg.activity_ins_ship_group_template = {
 		10502,
 		30504,
 		10207,
-		10206
+		10206,
+		20135,
+		20607,
+		20209,
+		21301,
+		21302,
+		20210,
+		10513
 	}
 }

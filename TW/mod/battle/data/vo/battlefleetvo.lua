@@ -1049,8 +1049,16 @@ function slot8.ShiftManualSub(slot0)
 		end
 	end
 
+	if uv1.GetCurrent(slot0._manualSubUnit, "oxyMax") <= 0 then
+		slot0._submarineDiveVO:SetActive(false)
+		slot0._submarineFloatVO:SetActive(false)
+	else
+		slot0._submarineDiveVO:SetActive(true)
+		slot0._submarineFloatVO:SetActive(true)
+	end
+
 	for slot8, slot9 in ipairs(slot0._manualSubBench) do
-		slot9:SetPosition(uv1.SUB_BENCH_POS[slot8])
+		slot9:SetPosition(uv2.SUB_BENCH_POS[slot8])
 		slot9:SetMainUnitStatic(true)
 		slot9:ChangeOxygenState(uv0.Battle.OxyState.STATE_FREE_BENCH)
 	end

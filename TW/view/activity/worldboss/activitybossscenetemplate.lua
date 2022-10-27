@@ -161,6 +161,35 @@ function slot0.didEnter(slot0)
 	end
 
 	slot0:EnterAnim()
+
+	if slot0.contextData.msg then
+		slot1 = slot0.contextData.msg.param
+
+		switch(slot0.contextData.msg.type, {
+			lastBonus = function ()
+				pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0)
+			end,
+			oil = function ()
+				if not ItemTipPanel.ShowOilBuyTip(uv0) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
+				end
+			end,
+			shipCapacity = function ()
+				BeginStageCommand.DockOverload()
+			end,
+			energy = function ()
+				Fleet.EnergyCheck(_.map(_.values(uv0.ships), function (slot0)
+					return getProxy(BayProxy):getShipById(slot0)
+				end), Fleet.DEFAULT_NAME_BOSS_ACT[uv0.id], function (slot0)
+					if slot0 then
+						uv0:emit(PreCombatMediator.BEGIN_STAGE_PROXY, uv1.id)
+					end
+				end)
+			end
+		})
+
+		slot0.contextData.msg = nil
+	end
 end
 
 function slot0.UpdateView(slot0)
@@ -173,11 +202,13 @@ function slot0.CheckStory(slot0)
 	slot2 = slot0.contextData.activity
 
 	table.SerialIpairsAsync(slot2:getConfig("config_client").story, function (slot0, slot1, slot2)
-		if uv0.contextData.bossHP < slot1[1] + ((slot0 == 1 or slot1[1] == 0) and 1 or 0) then
+		if uv0.contextData.bossHP < slot1[1] + ((slot0 == 1 or slot1[1] == 0) and 1 or 0) and not pg.NewStoryMgr:GetInstance():IsPlayed(slot1[2]) then
 			uv1:Play(slot1[2], slot2)
-		else
-			slot2()
+
+			return
 		end
+
+		slot2()
 	end)
 end
 

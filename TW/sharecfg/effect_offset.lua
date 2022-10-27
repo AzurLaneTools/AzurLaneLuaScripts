@@ -187,6 +187,17 @@ pg.effect_offset = {
 			0
 		}
 	},
+	Shield_1 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-1.25,
+			0
+		}
+	},
 	DEF = {
 		mirror = false,
 		y_scale = false,
