@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>一　来自{namecode:29}的赠礼</size>",
+					"花之语\n\n<size=45>一　来自榵的赠礼</size>",
 					1
 				}
 			}
