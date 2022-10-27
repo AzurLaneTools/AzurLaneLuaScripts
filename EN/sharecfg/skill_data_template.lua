@@ -68760,7 +68760,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 16110,
 		type = 3,
 		max_level = 10,
-		desc = "Increases this ship's FP, TRP, and ASW by $1. When the battle starts, if there are 3 or more Royal Navy ships in your fleet: deploys a barrier (lasts 20s; can negate DMG equal to up to $2 of the recipient's max HP) around your Royal Navy DD(s); if the barrier is destroyed rather than expiring, decreases the barrier recipient's DMG taken by $1 for 20s. When sortied with another J-class DD: increases your J-class DDs' FP, TRP, and ACC by $1.",
+		desc = "Increases this ship's FP, TRP, and ASW by $1. When the battle starts, if there are 3 or more Royal Navy ships in your fleet: deploys a barrier (lasts 20s; can negate DMG equal to up to $2 of the recipient's max HP) around your Royal Navy DD(s); if the barrier is destroyed or expires, decreases the barrier recipient's DMG taken by $1 for 20s. When sortied with another J-class DD: increases your J-class DDs' FP, TRP, and ACC by $1.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -69024,7 +69024,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 16140,
 		type = 2,
 		max_level = 10,
-		desc = "Decreases the loading time of this ship's 1st wave of torpedoes by $1, but decreases the DMG dealt by her next wave by $2. When this ship takes DMG from a torpedo: 75.0% chance to restore 1.0% of this ship's max HP once every second for 8s (this effect can only activate once per battle; this HP recovery effect will be interrupted if this ship's \"Multitasking Maid\" skill activates during it).",
+		desc = "Decreases the loading time of this ship's 1st wave of torpedoes by $1, but decreases the DMG dealt by this wave by $2. When this ship takes DMG from a torpedo: 75.0% chance to restore 1.0% of this ship's max HP once every second for 8s (this effect can only activate once per battle; this HP recovery effect will be interrupted if this ship's \"Multitasking Maid\" skill activates during it).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -69696,7 +69696,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[16200] = {
 		desc_get = "",
-		name = "Guardian of the Deep",
+		name = "皇家财富撤退用buff",
 		id = 16200,
 		type = 1,
 		max_level = 10,

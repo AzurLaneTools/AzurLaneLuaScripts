@@ -35203,7 +35203,7 @@ _G.pg.base.ship_data_breakout[807014] = {
 
 _G.pg.base.ship_data_breakout[808011] = {
 	use_gold = 500,
-	breakout_view = "Unlock All Out Assault/Main gun efficiency +5% ",
+	breakout_view = "Unlock All Out Assault/Main gun efficiency +5%",
 	use_char_num = 1,
 	use_char = 80801,
 	breakout_id = 808012,
@@ -36203,7 +36203,7 @@ _G.pg.base.ship_data_breakout[9600012] = {
 
 _G.pg.base.ship_data_breakout[9600013] = {
 	use_gold = 10000,
-	breakout_view = "Improve All Out Assault/Main gun efficiency +10%/Main gun base +1",
+	breakout_view = "Improve All Out Assault/Main gun efficiency +10%/Main gun base +1/Improve Hunting range",
 	use_char_num = 2,
 	use_char = 960001,
 	breakout_id = 9600014,

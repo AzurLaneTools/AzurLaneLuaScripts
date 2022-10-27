@@ -42,7 +42,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 11,
-		actor_name = "Kuno Misaki"
+		actor_name = "Misaki Kuno"
 	},
 	{
 		code = 12,
@@ -50,7 +50,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 13,
-		actor_name = "Yuuki Kuwahara"
+		actor_name = "Yuuki Kuwahara"
 	},
 	{
 		code = 14,
@@ -570,7 +570,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 143,
-		actor_name = "Sakai Yoshie "
+		actor_name = "Yoshie Sakai"
 	},
 	{
 		code = 144,
@@ -582,11 +582,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 146,
-		actor_name = "Atsumi Tanezaki "
+		actor_name = "Atsumi Tanezaki"
 	},
 	{
 		code = 147,
-		actor_name = "Inami Anju"
+		actor_name = "Anju Inami"
 	},
 	{
 		code = 148,
@@ -594,7 +594,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 149,
-		actor_name = "Kaori Mizuhashi "
+		actor_name = "Kaori Mizuhashi"
 	},
 	{
 		code = 150,
@@ -702,7 +702,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 176,
-		actor_name = "Kizuna AI "
+		actor_name = "Kizuna AI"
 	},
 	{
 		code = 177,
@@ -718,7 +718,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 180,
-		actor_name = "Natsume Iwasa "
+		actor_name = "Natsume Iwasa"
 	},
 	{
 		code = 181,
@@ -742,11 +742,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 186,
-		actor_name = "Yanagihara Kanako"
+		actor_name = "Kanako Yanagihara"
 	},
 	{
 		code = 187,
-		actor_name = "Mano Ayumi"
+		actor_name = "Ayumi Mano"
 	},
 	{
 		code = 188,
@@ -818,15 +818,15 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 205,
-		actor_name = "Yuki Shion "
+		actor_name = "Yuki Shion"
 	},
 	{
 		code = 206,
-		actor_name = "Shirakami Fubuki"
+		actor_name = "Fubuki Shirakami"
 	},
 	{
 		code = 207,
-		actor_name = "Natsuiro Matsuri"
+		actor_name = "Matsuri Natsuiro"
 	},
 	{
 		code = 208,
@@ -862,11 +862,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 216,
-		actor_name = "Takeda Mariko"
+		actor_name = "Mariko Takeda"
 	},
 	{
 		code = 217,
-		actor_name = "Komatsu Kaoru"
+		actor_name = "Kaoru Komatsu"
 	},
 	{
 		code = 218,
@@ -918,7 +918,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 230,
-		actor_name = "Takeda Rarisa Tago "
+		actor_name = "Takeda Rarisa Tago"
 	},
 	{
 		code = 231,
@@ -974,11 +974,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 244,
-		actor_name = "Sekine Hitomi"
+		actor_name = "Hitomi Sekine"
 	},
 	{
 		code = 245,
-		actor_name = "Koiwai Kotori"
+		actor_name = "Kotori Koiwai"
 	},
 	{
 		code = 246,
@@ -986,27 +986,27 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 247,
-		actor_name = "Amano Satomi"
+		actor_name = "Satomi Amano"
 	},
 	{
 		code = 248,
-		actor_name = "Haruka Takahashi "
+		actor_name = "Haruka Takahashi"
 	},
 	{
 		code = 249,
-		actor_name = "Yukina Shiomi "
+		actor_name = "Yukina Shiomi"
 	},
 	{
 		code = 250,
-		actor_name = "Houko Kuwashima "
+		actor_name = "Houko Kuwashima"
 	},
 	{
 		code = 251,
-		actor_name = "Ai Nonaka  "
+		actor_name = "Ai Nonaka"
 	},
 	{
 		code = 252,
-		actor_name = "Mai Aizawa "
+		actor_name = "Mai Aizawa"
 	},
 	{
 		code = 253,
@@ -1014,75 +1014,75 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 254,
-		actor_name = "Hara Yumi "
+		actor_name = "Yumi Hara"
 	},
 	{
 		code = 255,
-		actor_name = "Nitta Hiyori "
+		actor_name = "Hiyori Nitta"
 	},
 	{
 		code = 256,
-		actor_name = "Nanase Ayaka "
+		actor_name = "Ayaka Nanase"
 	},
 	{
 		code = 257,
-		actor_name = "Kimura Chisa "
+		actor_name = "Chisa Kimura"
 	},
 	{
 		code = 258,
-		actor_name = "Tono Hikaru "
+		actor_name = "Hikaru Tono"
 	},
 	{
 		code = 259,
-		actor_name = "Nishimoto Rimi"
+		actor_name = "Rimi Nishimoto"
 	},
 	{
 		code = 260,
-		actor_name = "Morishima Yuuka "
+		actor_name = "Yuuka Morishima"
 	},
 	{
 		code = 261,
-		actor_name = "Haruna Asami "
+		actor_name = "Ayaka Fujimoto"
 	},
 	{
 		code = 262,
-		actor_name = "Yoshioka Misaki"
+		actor_name = "Misaki Yoshioka"
 	},
 	{
 		code = 263,
-		actor_name = "Kakimura Momoki "
+		actor_name = "Momoki Kakimura"
 	},
 	{
 		code = 264,
-		actor_name = "Yamada  Marina "
+		actor_name = "Marina Yamada"
 	},
 	{
 		code = 265,
-		actor_name = "Kozakai  Yurie"
+		actor_name = "Yurie Kozakai"
 	},
 	{
 		code = 266,
-		actor_name = "Ogino Hazuki "
+		actor_name = "Hazuki Ogino"
 	},
 	{
 		code = 267,
-		actor_name = "Sugiura Shiori "
+		actor_name = "Shiori Sugiura"
 	},
 	{
 		code = 268,
-		actor_name = "Eino Airi "
+		actor_name = "Airi Eino"
 	},
 	{
 		code = 269,
-		actor_name = "Koga Aoi "
+		actor_name = "Aoi Koga"
 	},
 	{
 		code = 270,
-		actor_name = "Hirata Hiromi "
+		actor_name = "Hiromi Hirata"
 	},
 	{
 		code = 271,
-		actor_name = "Tanaka Takako "
+		actor_name = "Takako Tanaka"
 	},
 	{
 		code = 272,
@@ -1098,135 +1098,135 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 275,
-		actor_name = "Mineuchi Tomomi "
+		actor_name = "Tomomi Mineuchi"
 	},
 	{
 		code = 276,
-		actor_name = "Yū Sasahara"
+		actor_name = "Sasahara Yuu"
 	},
 	{
 		code = 277,
-		actor_name = "Namiki Sakura"
+		actor_name = "Sakura Namiki"
 	},
 	{
 		code = 278,
-		actor_name = "Minami Wakana"
+		actor_name = "Wakana Minami"
 	},
 	{
 		code = 279,
-		actor_name = "Itou Ayasa"
+		actor_name = "Ayasa Itou"
 	},
 	{
 		code = 280,
-		actor_name = "Misawa Sachika"
+		actor_name = "Sachika Misawa"
 	},
 	{
 		code = 281,
-		actor_name = "Wakabayashi Naomi "
+		actor_name = "Naomi Wakabayashi"
 	},
 	{
 		code = 282,
-		actor_name = "Kono Hiyori "
+		actor_name = "Hiyori Kono"
 	},
 	{
 		code = 283,
-		actor_name = "Suzumoto Akiho "
+		actor_name = "Akiho Suzumoto"
 	},
 	{
 		code = 284,
-		actor_name = "Hayami Saori "
+		actor_name = "Saori Hayami"
 	},
 	{
 		code = 285,
-		actor_name = "Kawai Haruna"
+		actor_name = "Haruna Kawai"
 	},
 	{
 		code = 286,
-		actor_name = "Toda Megumi "
+		actor_name = "Megumi Toda"
 	},
 	{
 		code = 287,
-		actor_name = "Noguchi Ruriko "
+		actor_name = "Ruriko Noguchi"
 	},
 	{
 		code = 288,
-		actor_name = "Serizawa Yu"
+		actor_name = "Yu Serizawa"
 	},
 	{
 		code = 289,
-		actor_name = "Fujiwara Natsumi"
+		actor_name = "Natsumi Fujiwara"
 	},
 	{
 		code = 290,
-		actor_name = "Minami Fujii "
+		actor_name = "Minami Fujii"
 	},
 	{
 		code = 291,
-		actor_name = "Maeda Kaori"
+		actor_name = "Kaori Maeda"
 	},
 	{
 		code = 292,
-		actor_name = "Shimada Aino"
+		actor_name = "Aino Shimada"
 	},
 	{
 		code = 293,
-		actor_name = "Miyamoto Yume "
+		actor_name = "Yume Miyamoto"
 	},
 	{
 		code = 294,
-		actor_name = "Mimori Suzuko "
+		actor_name = "Suzuko Mimori"
 	},
 	{
 		code = 295,
-		actor_name = "Wakayama Shion"
+		actor_name = "Shion Wakayama"
 	},
 	{
 		code = 296,
-		actor_name = "Anzai Chika "
+		actor_name = "Chika Anzai"
 	},
 	{
 		code = 297,
-		actor_name = "Hara Natsuko"
+		actor_name = "Natsuko Hara"
 	},
 	{
 		code = 298,
-		actor_name = "Matsuda Satsumi "
+		actor_name = "Satsumi Matsuda"
 	},
 	{
 		code = 299,
-		actor_name = "Hieda Nene"
+		actor_name = "Nene Hieda"
 	},
 	{
 		code = 300,
-		actor_name = "Nomura Mayuka"
+		actor_name = "Mayuka Nomura"
 	},
 	{
 		code = 301,
-		actor_name = "Date Arisa"
+		actor_name = "Arisa Date"
 	},
 	{
 		code = 302,
-		actor_name = "Kazama Mayuko"
+		actor_name = "Mayuko Kazama"
 	},
 	{
 		code = 303,
-		actor_name = "Ayase Yuu"
+		actor_name = "Yuu Ayase"
 	},
 	{
 		code = 304,
-		actor_name = "Hanai Miharu "
+		actor_name = "Miharu Hanai"
 	},
 	{
 		code = 305,
-		actor_name = "Akaneya Himika "
+		actor_name = "Himika Akaneya"
 	},
 	{
 		code = 306,
-		actor_name = "Kubota Miyu"
+		actor_name = "Miyu Kubota"
 	},
 	{
 		code = 307,
-		actor_name = "Shibasaki Noriko "
+		actor_name = "Noriko Shibasaki"
 	},
 	{
 		code = 308,
@@ -1234,103 +1234,103 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 309,
-		actor_name = "Nichika Ōmori"
+		actor_name = "Nichika Oomori"
 	},
 	{
 		code = 310,
-		actor_name = "Inoue Honoka"
+		actor_name = "Honoka Inoue"
 	},
 	{
 		code = 311,
-		actor_name = "Tanaka Yuki"
+		actor_name = "Yuki Tanaka"
 	},
 	{
 		code = 312,
-		actor_name = "Mikami Shiori"
+		actor_name = "Shiori Mikami"
 	},
 	{
 		code = 313,
-		actor_name = "Sekine Akira"
+		actor_name = "Akira Sekine"
 	},
 	{
 		code = 314,
-		actor_name = "Sugiyama Riho"
+		actor_name = "Riho Sugiyama"
 	},
 	{
 		code = 315,
-		actor_name = "Nakashima Yuki"
+		actor_name = "Yuki Nakashima"
 	},
 	{
 		code = 316,
-		actor_name = "Satou Miyuki"
+		actor_name = "Miyuki Satou"
 	},
 	{
 		code = 317,
-		actor_name = "Itou Miku"
+		actor_name = "Miku Itou"
 	},
 	{
 		code = 318,
-		actor_name = "Hayase Marika"
+		actor_name = "Marika Hayase"
 	},
 	{
 		code = 319,
-		actor_name = "Toujou Hisako"
+		actor_name = "Hisako Toujou"
 	},
 	[325] = {
 		code = 325,
-		actor_name = "Tsuji Ayumi"
+		actor_name = "Ayumi Tsuji"
 	},
 	[326] = {
 		code = 326,
-		actor_name = "Fujii Yukiyo"
+		actor_name = "Yukiyo Fujii"
 	},
 	[327] = {
 		code = 327,
-		actor_name = "Murakami Manatsu"
+		actor_name = "Manatsu Murakami"
 	},
 	[328] = {
 		code = 328,
-		actor_name = "Asakura Momo"
+		actor_name = "Momo Asakura"
 	},
 	[329] = {
 		code = 329,
-		actor_name = "Yuzuki Ryouka"
+		actor_name = "Ryouka Yuzuki"
 	},
 	[330] = {
 		code = 330,
-		actor_name = "Senbongi Sayaka"
+		actor_name = "Sayaka Senbongi"
 	},
 	[331] = {
 		code = 331,
-		actor_name = "Kondou Yui"
+		actor_name = "Yui Kondou"
 	},
 	[332] = {
 		code = 332,
-		actor_name = "Maruoka Wakana"
+		actor_name = "Wakana Maruoka"
 	},
 	[333] = {
 		code = 333,
-		actor_name = "Sashide Maria"
+		actor_name = "Maria Sashide"
 	},
 	[334] = {
 		code = 334,
-		actor_name = "Natsuyoshi Yuuko"
+		actor_name = "Yuuko Natsuyoshi"
 	},
 	[335] = {
 		code = 335,
-		actor_name = "Maekawa Ryouko"
+		actor_name = "Ryouko Maekawa"
 	},
 	[336] = {
 		code = 336,
-		actor_name = "Houmoto Akina"
+		actor_name = "Akina Houmoto"
 	},
 	[337] = {
 		code = 337,
-		actor_name = "Aimi "
+		actor_name = "Aimi"
 	},
 	[338] = {
 		code = 338,
-		actor_name = "Ookizaki Saeo"
+		actor_name = "Saeo Ookizaki"
 	},
 	[339] = {
 		code = 339,

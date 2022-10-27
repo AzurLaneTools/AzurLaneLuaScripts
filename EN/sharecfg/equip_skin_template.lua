@@ -18418,7 +18418,7 @@ pg.equip_skin_template = {
 		}
 	},
 	[681] = {
-		name = "Spooky Pumpkin Carriage",
+		name = "Spooky Pumpkin Carriage (Bomber)",
 		bullet_name = "feiji_youlingnanguache",
 		orbit_ui_bound = "",
 		type = 1,

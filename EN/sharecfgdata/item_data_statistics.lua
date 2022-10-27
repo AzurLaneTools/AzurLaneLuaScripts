@@ -170024,7 +170024,7 @@ _G.pg.base.item_data_statistics[59353] = {
 }
 
 _G.pg.base.item_data_statistics[59354] = {
-	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the October 12th) ends.",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the November 9th) ends.",
 	name = "Rental Outfit Voucher",
 	max_num = 0,
 	type = 98,
@@ -170045,7 +170045,11 @@ _G.pg.base.item_data_statistics[59354] = {
 }
 
 _G.pg.base.item_data_statistics[59355] = {
-	display = "Contains the following pieces of gear from the Tempesta faction:2x 12-Pounder Long Guns1x Round Shot1x Sail Components",
+	display = [[
+Contains the following pieces of gear from the Tempesta faction:
+<color=#ffde38>2x 12-Pounder Long Guns</color>
+<color=#d797ff>1x Round Shot</color>
+<color=#d797ff>1x Sail Components</color>]],
 	name = "Tempesta Gear Pack",
 	max_num = 0,
 	type = 98,

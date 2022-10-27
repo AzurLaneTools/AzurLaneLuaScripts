@@ -1,17 +1,4 @@
 slot0 = class("BattleContributionResultLayer", import(".BattleActivityBossResultLayer"))
-slot0.DURATION_WIN_FADE_IN = 0.5
-slot0.DURATION_LOSE_FADE_IN = 1.5
-slot0.DURATION_GRADE_LAST = 1.5
-slot0.DURATION_MOVE = 0.7
-slot0.DURATION_WIN_SCALE = 0.7
-slot0.STATE_DEFEAT = "state_defeat"
-slot0.STATE_CLEAR = "state_clear"
-slot0.STATE_CONTINUE = "state_continue"
-slot0.STATE_QUIT = "state_quit"
-
-function slot0.getUIName(slot0)
-	return "BattleResultUI"
-end
 
 function slot0.setActId(slot0, slot1)
 	slot0._actID = slot1

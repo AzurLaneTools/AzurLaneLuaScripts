@@ -149,6 +149,17 @@ return {
 			},
 			arg_list = {
 				group = 60110,
+				attr = "DMG_TAG_EHC_N_99",
+				number = 0.1
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				group = 60110,
 				attr = "DMG_TAG_EHC_N_101",
 				number = 0.1
 			}

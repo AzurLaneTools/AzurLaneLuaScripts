@@ -5418,6 +5418,10 @@ _G.pg.base.gametip.word_shipNation_ssss = {
 	tip = "SSSS"
 }
 
+_G.pg.base.gametip.word_shipNation_mot = {
+	tip = "Tempesta"
+}
+
 _G.pg.base.gametip.word_reset = {
 	tip = "Reset"
 }
@@ -10160,7 +10164,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Albion,Janus and Manchester!"
+	tip = "Rate UP for Albion, Janus and Manchester!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -21795,13 +21799,13 @@ _G.pg.base.gametip.expedition_drop_use_out = {
 }
 
 _G.pg.base.gametip.expedition_extra_drop_tip = {
-	tip = "Bonus Tickets:"
+	tip = "Reward Sorties:"
 }
 
 _G.pg.base.gametip.ex_pass_use = {
-	tip = "Using:"
+	tip = "Use:"
 }
 
 _G.pg.base.gametip.defense_formation_tip_npc = {
-	tip = "Your 1st fleet cannot be set as an exercise fleet because it contains a temporary recruit."
+	tip = "Your 1st fleet cannot be set as an exercise fleet because it contains a <color=#92fc63>temporary recruit</color>."
 }
