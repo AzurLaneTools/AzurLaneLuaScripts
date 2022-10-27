@@ -8902,6 +8902,54 @@ pg.activity_ins_template = {
 			3090
 		}
 	},
+	{
+		ship_group = 20135,
+		name = "Janus",
+		sculpture = "Yanusi_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 338,
+		id = 338,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20607,
+		name = "Albion",
+		sculpture = "Aerbien_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 339,
+		id = 339,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20209,
+		name = "Manchester",
+		sculpture = "manchesite_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 340,
+		id = 340,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10502,
+		name = "Oklahoma",
+		sculpture = "Ekelahema_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 341,
+		id = 341,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -9239,6 +9287,10 @@ pg.activity_ins_template = {
 		334,
 		335,
 		336,
-		337
+		337,
+		338,
+		339,
+		340,
+		341
 	}
 }

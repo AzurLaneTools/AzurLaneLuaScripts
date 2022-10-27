@@ -1,5 +1,222 @@
 pg = pg or {}
 pg.enemy_data_statistics_68 = {
+	[10105200] = {
+		cannon = 145,
+		name = "トネ",
+		antiaircraft_growth = 3600,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 9,
+		luck = 0,
+		id = 10105200,
+		cannon_growth = 2400,
+		reload_growth = 0,
+		dodge_growth = 126,
+		reload = 150,
+		star = 5,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 4,
+		speed = 16,
+		base = 90206,
+		durability = 1800,
+		armor_growth = 0,
+		torpedo_growth = 3456,
+		antiaircraft = 180,
+		hit_growth = 210,
+		armor = 0,
+		air_growth = 0,
+		torpedo = 98,
+		antisub = 0,
+		durability_growth = 34000,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {
+			100201,
+			311072,
+			311075,
+			311076
+		}
+	},
+	[10105300] = {
+		cannon = 155,
+		name = "キリシマ",
+		antiaircraft_growth = 4680,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		air_growth = 0,
+		dodge = 4,
+		speed = 16,
+		luck = 0,
+		id = 10105300,
+		reload_growth = 0,
+		dodge_growth = 66,
+		fog_fx = "",
+		star = 5,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 4,
+		cannon_growth = 3300,
+		base = 90222,
+		durability = 2200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 225,
+		hit_growth = 210,
+		armor = 0,
+		reload = 150,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 38000,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							0.87,
+							0.28
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.62,
+							1.31
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			100201,
+			311077,
+			311078,
+			311089
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 1
+			}
+		}
+	},
+	[10105400] = {
+		cannon = 225,
+		name = "アカギ",
+		antiaircraft_growth = 5148,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 225,
+		air_growth = 2000,
+		dodge = 6,
+		speed = 18,
+		luck = 0,
+		id = 10105400,
+		reload_growth = 0,
+		dodge_growth = 90,
+		fog_fx = "",
+		star = 6,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 5,
+		cannon_growth = 0,
+		base = 90239,
+		durability = 3000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 245,
+		hit_growth = 210,
+		armor = 0,
+		reload = 150,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 50000,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.39,
+							1,
+							-0.21
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.326,
+							1.256,
+							-0.046
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {
+			100201,
+			311079,
+			311081,
+			311082,
+			311083,
+			311090
+		}
+	},
 	[10105401] = {
 		cannon = 225,
 		name = "カガ",
@@ -682,145 +899,6 @@ pg.enemy_data_statistics_68 = {
 				ID = 50510,
 				LV = 1
 			}
-		}
-	},
-	[102015] = {
-		cannon = 88,
-		name = "戦艦ヒエイ",
-		antiaircraft_growth = 1521,
-		speed_growth = 0,
-		reload = 150,
-		air = 0,
-		fog_fx = "",
-		dodge = 0,
-		speed = 15,
-		luck = 0,
-		id = 102015,
-		reload_growth = 0,
-		dodge_growth = 0,
-		air_growth = 0,
-		star = 5,
-		hit = 8,
-		antisub_growth = 0,
-		rarity = 4,
-		cannon_growth = 1638,
-		base = 90119,
-		durability = 1120,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 32,
-		hit_growth = 120,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 28730,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 55,
-		fx_container = {
-			{
-				1.47,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.1,
-				0.137,
-				-0.7175
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		appear_fx = {
-			"appearbig"
-		},
-		equipment_list = {
-			300007,
-			312025
-		}
-	},
-	[102016] = {
-		cannon = 45,
-		name = "量産型自爆ボート",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		pilot_ai_template_id = 80000,
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 102016,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 2,
-		hit = 81,
-		antisub_growth = 0,
-		rarity = 1,
-		fog_fx = "",
-		base = 90080,
-		durability = 72,
-		armor_growth = 0,
-		torpedo_growth = 900,
-		antiaircraft = 0,
-		hit_growth = 1200,
-		armor = 0,
-		speed = 30,
-		torpedo = 22,
-		antisub = 0,
-		durability_growth = 1785,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			300003
-		}
-	},
-	[102017] = {
-		cannon = 0,
-		name = "輸送艦",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		pilot_ai_template_id = 20001,
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 2,
-		hit = 8,
-		antisub_growth = 0,
-		rarity = 1,
-		fog_fx = "",
-		base = 90090,
-		durability = 420,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 0,
-		hit_growth = 120,
-		armor = 0,
-		speed = 30,
-		torpedo = 0,
-		id = 102017,
-		durability_growth = 7200,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		appear_fx = {
-			"appearsmall"
 		}
 	}
 }

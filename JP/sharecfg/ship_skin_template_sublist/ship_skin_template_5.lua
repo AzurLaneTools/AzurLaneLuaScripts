@@ -1,5 +1,125 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
+	[201100] = {
+		ship_group = 20110,
+		name = "シグニット",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201100,
+		group_index = 0,
+		prefab = "xiaotiane",
+		painting = "xiaotiane",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 17,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "C級駆逐艦・シグニット（H83)",
+		voice_actor = 46,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.038,
+					0.62,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.129,
+					0.348,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.038,
+					0.62,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.309,
+							0.832,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.269,
+							2.82,
+							-0.52
+						}
+					}
+				}
+			}
+		}
+	},
 	[201101] = {
 		ship_group = 20110,
 		name = "海辺の十字星",
@@ -5573,6 +5693,239 @@ pg.ship_skin_template_5 = {
 			}
 		}
 	},
+	[201350] = {
+		ship_group = 20135,
+		name = "ジェーナス",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201350,
+		group_index = 0,
+		prefab = "yanusi",
+		painting = "yanusi",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Jクラス駆逐艦――ジェーナス",
+		voice_actor = 345,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.661,
+					1.246,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.45,
+					1.57,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.14,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201351] = {
+		ship_group = 20135,
+		name = "怖がりのランタンナイト",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "156",
+		id = 201351,
+		group_index = 1,
+		prefab = "yanusi_3",
+		painting = "yanusi_3",
+		shop_id = 70763,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 8,
+		illustrator = -1,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "だ、大丈夫よジェーナス、ハロウィンのお化けなんて嘘だから……ひゃぅ！？ね、猫ちゃん！？あぅぅ…ジャーヴィスちゃん、指揮官、助けて……！",
+		voice_actor = 345,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.6,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.48,
+					1.272,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.513,
+							2.111,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		}
+	},
 	[202010] = {
 		ship_group = 20201,
 		name = "リアンダー",
@@ -7814,6 +8167,236 @@ pg.ship_skin_template_5 = {
 			}
 		}
 	},
+	[202090] = {
+		ship_group = 20209,
+		name = "マンチェスター",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202090,
+		group_index = 0,
+		prefab = "manchesite",
+		painting = "manchesite",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "グロスター級軽巡洋艦――マンチェスター",
+		voice_actor = 347,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.18,
+					0.91,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					0.72,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.07,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202091] = {
+		ship_group = 20209,
+		name = "スケアリー・ナイト・ケア",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "156",
+		id = 202091,
+		group_index = 1,
+		prefab = "manchesite_3",
+		painting = "manchesite_3",
+		shop_id = 70765,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 8,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ご主人さまーそろそろお注射の時間だよー！ん…どこにもいないね…じゃあご主人さまがやってくるまでベッドの寝心地を確認して……きゃぅ！？ごごご主人さま？？",
+		voice_actor = 347,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.18,
+					0.91,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					0.72,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.16,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202100] = {
 		ship_group = 20210,
 		name = "グロスター",
@@ -9611,619 +10194,6 @@ pg.ship_skin_template_5 = {
 						{
 							-0.271,
 							0.371,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202150] = {
-		ship_group = 20215,
-		name = "オーロラ",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 202150,
-		group_index = 0,
-		prefab = "ouruola",
-		painting = "ouruola",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "アリシューザ級軽巡洋艦・オーロラ（HMS Aurora）",
-		voice_actor = 90,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.03,
-					0.874,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.014,
-					0.844,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.157,
-					0.069,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.01,
-					0.77,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.44,
-							2.32,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202151] = {
-		ship_group = 20215,
-		name = "春の語り",
-		bullet_skin_secondary = "",
-		hand_id = 9,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "102",
-		id = 202151,
-		group_index = 1,
-		prefab = "ouruola_2",
-		painting = "ouruola_2",
-		shop_id = 70043,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "この日のために結構準備しましたわ。指揮官さん、私の「評書」（ひょうしょ）、お聞きになりますか？",
-		voice_actor = 90,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.112,
-					0.896,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.103,
-					0.869,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.168,
-					0.071,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.077,
-					0.825,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202152] = {
-		ship_group = 20215,
-		name = "黎明に捧げる賛歌",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "107",
-		id = 202152,
-		group_index = 2,
-		prefab = "ouruola_3",
-		painting = "ouruola_3",
-		shop_id = 70097,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "音楽は人の心をも動かす特別な力を持っているとずっと信じています。だから私、ヴァイオリンを少し勉強してみました。指揮官さん、ぜひ聞いてください",
-		voice_actor = 90,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.93,
-					1.33,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.73,
-					1.34,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.168,
-					0.071,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.8,
-					1.31,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202153] = {
-		ship_group = 20215,
-		name = "渝城秘技",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "128",
-		id = 202153,
-		group_index = 3,
-		prefab = "ouruola_4",
-		painting = "ouruola_4",
-		shop_id = 70314,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
-		illustrator = 1,
-		lip_smoothing = 0,
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "「東煌（どんふぁん）に伝わる歴史ある川劇（せんげき）の秘技・変面（へんめん）、今ここに！」――ふふ、指揮官さん、こんな感じであってるのでしょうか？",
-		voice_actor = 90,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			48,
-			-169,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.1,
-					1.08,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.11,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.09,
-					1.07,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.2,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 12.58,
-			propose = 2.5,
-			main_1 = 0.73,
-			home = 3.68,
-			expedition = 1.67,
-			mail = 1.78,
-			mission_complete = 1.58,
-			mission = 1.77,
-			touch2 = 6,
-			main_2 = 0.5,
-			touch = 0,
-			main_3 = 0.58
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-30,
-				30
-			},
-			ParamBodyAngleX = {
-				-5,
-				5
-			}
-		}
-	},
-	[202158] = {
-		ship_group = 20215,
-		name = "吉日凰単",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 202158,
-		group_index = 8,
-		prefab = "ouruola_h",
-		painting = "ouruola_h",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9998,
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指揮官さん、どうぞおくつろぎください。ここは指揮官さんだけとゆっくり過ごすための「特別な場所」――なんて、冗談ですよ。少しドキドキしました？ふふふ",
-		voice_actor = 90,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			48,
-			-169,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.123,
-					1.01,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.194,
-					1.001,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.003,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.179,
-					0.995,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.353,
 							0
 						}
 					}

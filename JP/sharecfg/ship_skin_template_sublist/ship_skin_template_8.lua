@@ -1,5 +1,843 @@
 pg = pg or {}
 pg.ship_skin_template_8 = {
+	[213042] = {
+		ship_group = 21304,
+		name = "ミスチーフ・レッド",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 213042,
+		group_index = 2,
+		prefab = "abeikelongbi_3",
+		painting = "abeikelongbi_3",
+		shop_id = 70585,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 16,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "今のうちにこの激辛チリペッパーで……イヒヒ、完成！誰が「当たって」しまうかな～し、指揮官？！今、何も見てなかった……だよね？イヒヒ～",
+		voice_actor = 105,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.383,
+					3.526,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.311,
+					1.612,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.267,
+					1.567,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.535,
+							2.433,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		}
+	},
+	[301010] = {
+		ship_group = 30101,
+		name = "吹雪",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301010,
+		group_index = 0,
+		prefab = "chuixue",
+		painting = "chuixue",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "特Ⅰ型駆逐艦一番艦・吹雪",
+		voice_actor = 116,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.98,
+					1.05,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.98,
+					1.05,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.25,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.98,
+					1.05,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301011] = {
+		ship_group = 30101,
+		name = "遅刻五分前",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 301011,
+		group_index = 1,
+		prefab = "chuixue_2",
+		painting = "chuixue_2",
+		shop_id = 70055,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 4,
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "うわっ！ち、遅刻しちゃう！！わ、ワンワンもはやくついてきてよー！はぁ…はぁ…なんで妹たちは誰も私を起こしてくれないんだぁぁ！",
+		voice_actor = 116,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.03,
+					0.8,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.02,
+					0.78,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0.83,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301012] = {
+		ship_group = 30101,
+		name = "看板娘ブッキー",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301012,
+		group_index = 2,
+		prefab = "chuixue_4",
+		painting = "chuixue_4",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "「い、いらっしゃいませ！ただいまキャンペーン開催中！」――あ、あれ？「かわいくセクシーな看板娘」ってこんな感じだっけ…？思ってたのと違くない？…それに暑いし……",
+		voice_actor = 116,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.03,
+					0.8,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.02,
+					0.78,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0.83,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301013] = {
+		ship_group = 30101,
+		name = "Music Pixy",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "107",
+		id = 301013,
+		group_index = 3,
+		prefab = "chuixue_3",
+		painting = "chuixue_3",
+		shop_id = 70096,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = 2,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官、見て見て！これ、どうかな？……って服じゃないよ！このチューバのことだよ！指揮官に聞かせちゃおうかなー？ ",
+		voice_actor = 116,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			15,
+			-95,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.39,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.39,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-1.17,
+					3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
+	[301014] = {
+		ship_group = 30101,
+		name = "スノーストーム！",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "120",
+		id = 301014,
+		group_index = 4,
+		prefab = "chuixue_5",
+		painting = "chuixue_5",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 11,
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "世界を驚かせる特型アイドル――吹雪、登場！",
+		voice_actor = 116,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.992,
+					0.992,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.996,
+					0.987,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.004,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.996,
+					0.997,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301015] = {
+		ship_group = 30101,
+		name = "ドタバタウェイトレス",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301015,
+		group_index = 5,
+		prefab = "chuixue_6",
+		painting = "chuixue_6",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "いらっしゃいませ！あ、指揮官！実は今ここでバイトしてるんだけどまだ実習中だから――わわ！？ふぅ…あ、危なかった……",
+		voice_actor = 116,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.317,
+					1.201,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.244,
+					1.157,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.283,
+					1.129,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301020] = {
 		ship_group = 30102,
 		name = "白雪",
@@ -9341,810 +10179,6 @@ pg.ship_skin_template_8 = {
 						{
 							-0.54,
 							2.59,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301319] = {
-		ship_group = 30131,
-		name = "松風改",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301319,
-		group_index = 9,
-		prefab = "songfeng_g",
-		painting = "songfeng_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9997,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "んっしょ…この扇子大きすぎて、まだ慣れないな……あ、そうそう、指揮官ちょっとこっち来て～扇いであげるからさ～～まあまあ遠慮しない遠慮しない～",
-		voice_actor = 51,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.27,
-					1.12,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.31,
-					1.14,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.31,
-					1.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.59,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301320] = {
-		ship_group = 30132,
-		name = "睦月",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301320,
-		group_index = 0,
-		prefab = "muyue",
-		painting = "muyue",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 34,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "睦月型駆逐艦一番艦・睦月",
-		voice_actor = 49,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.21,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.34,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301321] = {
-		ship_group = 30132,
-		name = "トナカイさん発進！",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "100",
-		id = 301321,
-		group_index = 1,
-		prefab = "muyue_2",
-		painting = "muyue_2",
-		shop_id = 70029,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 1,
-		illustrator = 34,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "しゅきかん、めりーくりすます！きょうも睦月がいいこしているよ！うぅ…サンタさんいつくるの…？？睦月、ねむいよぉ……",
-		voice_actor = 49,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.68,
-					1.26,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.68,
-					1.26,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.02,
-					0.17,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.68,
-					1.26,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.97,
-							2.41,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301322] = {
-		ship_group = 30132,
-		name = "アメさん祭り！",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "114",
-		id = 301322,
-		group_index = 2,
-		prefab = "muyue_3",
-		painting = "muyue_3",
-		shop_id = 70224,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 10,
-		illustrator = 34,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "しゅきかん、睦月、ゆかたきがえた！えへへ、しゅきかんとおまつり～睦月、アメさんたっくさんもらっちゃうよー！",
-		voice_actor = 49,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.202,
-					0.948,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.194,
-					0.915,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.16,
-					0.881,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.667,
-							2.351,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301323] = {
-		ship_group = 30132,
-		name = "春節アメさん！",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "127",
-		id = 301323,
-		group_index = 3,
-		prefab = "muyue_4",
-		painting = "muyue_4",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
-		illustrator = 34,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "このひにもういっかい「あけおめー」といったらごほうびもらえるってきいた！えへへ、アメさん、たくさんもらえるといいな！",
-		voice_actor = 49,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.06,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.194,
-					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.19,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.667,
-							2.21,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301329] = {
-		ship_group = 30132,
-		name = "睦月改",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301329,
-		group_index = 9,
-		prefab = "muyue_g",
-		painting = "muyue_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9997,
-		illustrator = 34,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "しゅきかん、睦月かいぞうしゅうりょー！アメさんあげる！うん？しゅきかんは睦月にやさしいから、睦月のアメさんしゅきかんにあげる！",
-		voice_actor = 49,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.711,
-					0.658,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.21,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.665,
-							2.175,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301330] = {
-		ship_group = 30133,
-		name = "如月",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301330,
-		group_index = 0,
-		prefab = "ruyue",
-		painting = "ruyue",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 34,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "睦月型駆逐艦二番艦・如月",
-		voice_actor = 49,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.27,
-					0.57,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.27,
-					0.57,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.09,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.27,
-					0.57,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.43,
 							0
 						}
 					}

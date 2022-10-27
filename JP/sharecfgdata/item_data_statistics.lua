@@ -5395,6 +5395,27 @@ _G.pg.base.item_data_statistics[11052] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[11053] = {
+	display = "シーフューリーT0設計図",
+	name = "シーフューリーT0設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11053,
+	is_world = 0,
+	icon = "Equips/27300",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[13000] = {
 	display = "381mm連装砲.改T0設計図",
 	name = "381mm連装砲.改T0設計図",
@@ -14387,6 +14408,121 @@ _G.pg.base.item_data_statistics[30338] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30339] = {
+	display = "ランダムの装備外装を入手可能",
+	name = "装備外装箱（ハロウィン）",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30339,
+	is_world = 0,
+	icon = "Props/appearanceboxwansheng",
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
 	name = "ランダム装備外装",
@@ -15937,6 +16073,118 @@ _G.pg.base.item_data_statistics[30511] = {
 		{
 			9,
 			237,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30512] = {
+	display = "使用すると、装備外装（ゴーストカーニバル）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（ハロウィン）",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30512,
+	is_world = 0,
+	icon = "Props/appearanceboxwanshengzixuan",
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
 			1
 		}
 	},
@@ -172203,6 +172451,147 @@ _G.pg.base.item_data_statistics[58718] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58719] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58719,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58720] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58720,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58721] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58721,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			11053,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "参加キャラは経験値を獲得できます",
 	name = "経験値",
@@ -177153,6 +177542,94 @@ _G.pg.base.item_data_statistics[59351] = {
 	id = 59351,
 	is_world = 0,
 	icon = "Props/hero_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59352] = {
+	display = "イベント「戦え！ロイヤルメイド隊3rd」で得られるイベントポイント。イベントバナーで「累計Pt報酬」を入手可能",
+	name = "演習Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59352,
+	is_world = 0,
+	icon = "Props/albion_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59353] = {
+	display = "「戦え！ロイヤルメイド隊3rd」EXステージ出撃、もしくはボーナス出撃回数回復時に使用可能",
+	name = "特別戦闘券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59353,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59354] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2022.11.9メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2022.11.9まで）",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59354,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59355] = {
+	display = [[
+下記テンペスタ用の装備を入手できます：
+<color=#ffde38>12ポンドロングキャノン ×2</color>
+<color=#d797ff>球型砲丸　×1</color>
+<color=#d797ff>帆綱パーツ　×1</color>]],
+	name = "テンペスタ兵装セット",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59355,
+	is_world = 0,
+	icon = "Props/jvfengdekuizeng",
 	display_icon = {},
 	price = {},
 	index = {},

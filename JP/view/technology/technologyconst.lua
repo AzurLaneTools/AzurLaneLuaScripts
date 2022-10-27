@@ -84,7 +84,8 @@ slot0.TypeOrder = {
 	{
 		ShipType.WeiXiu,
 		ShipType.ZhongPao,
-		ShipType.Yunshu
+		ShipType.Yunshu,
+		ShipType.FengFanS
 	}
 }
 slot0.TypeResName = {

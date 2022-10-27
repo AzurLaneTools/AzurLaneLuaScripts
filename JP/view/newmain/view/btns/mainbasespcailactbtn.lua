@@ -27,6 +27,10 @@ function slot0.Init(slot0)
 			uv0._tf = Object.Instantiate(slot0, uv0.parentTf).transform
 			slot1 = uv0
 
+			slot1:OnRegister()
+
+			slot1 = uv0
+
 			slot1:OnInit()
 			onButton(uv0, uv0._tf, function ()
 				uv0:OnClick()
@@ -42,6 +46,8 @@ function slot0.Clear(slot0)
 		Destroy(slot0._tf.gameObject)
 
 		slot0._tf = nil
+
+		slot0:OnClear()
 	end
 end
 
@@ -62,7 +68,13 @@ end
 function slot0.OnClick(slot0)
 end
 
+function slot0.OnRegister(slot0)
+end
+
 function slot0.OnInit(slot0)
+end
+
+function slot0.OnClear(slot0)
 end
 
 return slot0

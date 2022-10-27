@@ -28455,6 +28455,290 @@ _G.pg.base.task_data_template[5807] = {
 	}
 }
 
+_G.pg.base.task_data_template[5811] = {
+	name = "花の贈り物",
+	guild_coin_award = 0,
+	award = 5583,
+	type = 5,
+	desc = "魚雷天ぷらを3個準備する（消費）",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5812",
+	auto_commit = 0,
+	story_id = "HUAYUE1",
+	id = 5811,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5812] = {
+	name = "花に囲まれて",
+	guild_coin_award = 0,
+	award = 5584,
+	type = 5,
+	desc = "任意の艦を10回強化する",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5813",
+	auto_commit = 0,
+	scene = "",
+	id = 5812,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5813] = {
+	name = "思いは密かに芽生える",
+	guild_coin_award = 0,
+	award = 5585,
+	type = 5,
+	desc = "花月を含めた艦隊で出撃し、20回勝利する",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "5814",
+	auto_commit = 0,
+	scene = "",
+	id = 5813,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5814] = {
+	name = "乙女の真心",
+	guild_coin_award = 0,
+	award = 5586,
+	type = 5,
+	desc = "花月を含めた艦隊で3回デイリーチャレンジをクリアする",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "5815",
+	auto_commit = 0,
+	scene = "",
+	id = 5814,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5815] = {
+	name = "君がいて幸せ",
+	guild_coin_award = 0,
+	award = 5587,
+	type = 5,
+	desc = "花月の親密度が100に到達",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "5816",
+	auto_commit = 0,
+	scene = "",
+	id = 5815,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5816] = {
+	name = "近づいてくる幸せの足音",
+	guild_coin_award = 0,
+	award = 5588,
+	type = 5,
+	desc = "花月を3回限界突破する",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "5817",
+	auto_commit = 0,
+	scene = "",
+	id = 5816,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5817] = {
+	name = "空に咲く花は幸福を告げる",
+	guild_coin_award = 0,
+	award = 5589,
+	type = 5,
+	desc = "花月のレベルが100に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5817,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困難・近海演習",
 	guild_coin_award = 0,
@@ -184396,6 +184680,708 @@ _G.pg.base.task_data_template[18014] = {
 	}
 }
 
+_G.pg.base.task_data_template[18015] = {
+	name = "『英系共斗』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 98380,
+	type = 6,
+	desc = "装備外装箱（ハロウィン）を20個開ける",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30339",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18015,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30512,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18016] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务1",
+	guild_coin_award = 0,
+	award = 98309,
+	type = 36,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18016,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18017] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务2",
+	guild_coin_award = 0,
+	award = 98310,
+	type = 36,
+	desc = "任意のハードステージを1回クリアせよ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18017,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18018] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务3",
+	guild_coin_award = 0,
+	award = 98311,
+	type = 36,
+	desc = "任意のハードステージを3回クリアせよ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18018,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18019] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务4",
+	guild_coin_award = 0,
+	award = 98312,
+	type = 36,
+	desc = "『戦え！ロイヤルメイド隊3rd』特別ステージ5回クリア",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18019,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1689001,
+		1689002,
+		1689003,
+		1689004
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
+	}
+}
+
+_G.pg.base.task_data_template[18020] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务5",
+	guild_coin_award = 0,
+	award = 98313,
+	type = 36,
+	desc = "『戦え！ロイヤルメイド隊3rd』特別ステージ10回クリア",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18020,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1689001,
+		1689002,
+		1689003,
+		1689004
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
+	}
+}
+
+_G.pg.base.task_data_template[18021] = {
+	name = "万圣节皇家财富号任务1",
+	guild_coin_award = 0,
+	award = 98366,
+	type = 26,
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18021,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18022] = {
+	name = "万圣节皇家财富号任务2",
+	guild_coin_award = 0,
+	award = 98367,
+	type = 26,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18022,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18023] = {
+	name = "万圣节皇家财富号任务3",
+	guild_coin_award = 0,
+	award = 98368,
+	type = 26,
+	desc = "演習を2回行う",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18023,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18024] = {
+	name = "万圣节皇家财富号任务4",
+	guild_coin_award = 0,
+	award = 98369,
+	type = 26,
+	desc = "「軍事委託」を2回遂行する",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18024,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18025] = {
+	name = "万圣节皇家财富号任务5",
+	guild_coin_award = 0,
+	award = 98370,
+	type = 26,
+	desc = "艦を2隻「退役」して、艦隊を再編せよ！",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18025,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18026] = {
+	name = "万圣节皇家财富号任务6",
+	guild_coin_award = 0,
+	award = 98371,
+	type = 26,
+	desc = "「デイリーチャレンジ」を三回行う ",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18026,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18027] = {
+	name = "万圣节皇家财富号任务7",
+	guild_coin_award = 0,
+	award = 98372,
+	type = 26,
+	desc = "艦を5回強化する",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18027,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18028] = {
+	name = "万圣节皇家财富号任务8",
+	guild_coin_award = 0,
+	award = 98373,
+	type = 26,
+	desc = "戦術教室で戦術訓練を2回行う",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18028,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18030] = {
+	name = "万圣节皇家财富号任务9",
+	guild_coin_award = 0,
+	award = 98375,
+	type = 26,
+	desc = "寮舎で食糧を5回補充する",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18030,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18031] = {
+	name = "万圣节皇家财富号任务10",
+	guild_coin_award = 0,
+	award = 98376,
+	type = 26,
+	desc = "艦を2隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18031,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18032] = {
+	name = "万圣节皇家财富号任务11",
+	guild_coin_award = 0,
+	award = 98378,
+	type = 26,
+	desc = "装備箱を1個開ける",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18032,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59355,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18034] = {
+	name = "万圣节皇家财富号任务12",
+	guild_coin_award = 0,
+	award = 98379,
+	type = 26,
+	desc = "敵中枢艦隊を3回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18034,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			9600011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18035] = {
+	name = "『万圣节』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98381,
+	type = 6,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18035,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			282,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "戦闘勝利-日常",
 	guild_coin_award = 0,
@@ -192353,6 +193339,516 @@ _G.pg.base.task_data_template[35181] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35182] = {
+	name = "【常驻活动】贝利万圣节皮肤1",
+	guild_coin_award = 0,
+	award = 65181,
+	type = 26,
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35182,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35183] = {
+	name = "【常驻活动】贝利万圣节皮肤1",
+	guild_coin_award = 0,
+	award = 65182,
+	type = 26,
+	desc = "装備強化を2回行う",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35183,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35184] = {
+	name = "【常驻活动】贝利万圣节皮肤2",
+	guild_coin_award = 0,
+	award = 65183,
+	type = 26,
+	desc = "軍事委託を2回行う",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35184,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35185] = {
+	name = "【常驻活动】贝利万圣节皮肤2",
+	guild_coin_award = 0,
+	award = 65184,
+	type = 26,
+	desc = "艦を2隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35185,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35186] = {
+	name = "【常驻活动】贝利万圣节皮肤3",
+	guild_coin_award = 0,
+	award = 65185,
+	type = 26,
+	desc = "艦を2隻退役する",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35186,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35187] = {
+	name = "【常驻活动】贝利万圣节皮肤3",
+	guild_coin_award = 0,
+	award = 65186,
+	type = 26,
+	desc = "デイリーチャレンジを3回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35187,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35188] = {
+	name = "【常驻活动】贝利万圣节皮肤4",
+	guild_coin_award = 0,
+	award = 65187,
+	type = 26,
+	desc = "通常海域ハードを2回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35188,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35189] = {
+	name = "【常驻活动】贝利万圣节皮肤4",
+	guild_coin_award = 0,
+	award = 65188,
+	type = 26,
+	desc = "艦を5回強化する",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35189,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35190] = {
+	name = "【常驻活动】贝利万圣节皮肤5",
+	guild_coin_award = 0,
+	award = 65189,
+	type = 26,
+	desc = "寮舎で食糧を5回補充する",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35190,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50003,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35191] = {
+	name = "【常驻活动】贝利万圣节皮肤5",
+	guild_coin_award = 0,
+	award = 65190,
+	type = 26,
+	desc = "任意の敵艦を20隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35191,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35192] = {
+	name = "【常驻活动】贝利万圣节皮肤6",
+	guild_coin_award = 0,
+	award = 65191,
+	type = 26,
+	desc = "艦を2隻「建造」せよ！",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35192,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35193] = {
+	name = "【常驻活动】贝利万圣节皮肤6",
+	guild_coin_award = 0,
+	award = 65192,
+	type = 26,
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35193,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35194] = {
+	name = "【常驻活动】贝利万圣节皮肤7",
+	guild_coin_award = 0,
+	award = 65193,
+	type = 26,
+	desc = "敵中枢艦隊を3回撃破せよ！",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35194,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35195] = {
+	name = "【常驻活动】贝利万圣节皮肤7",
+	guild_coin_award = 0,
+	award = 65194,
+	type = 26,
+	desc = "戦術教室で戦術訓練を2回遂行せよ！",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35195,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			101271,
+			1
+		}
 	}
 }
 

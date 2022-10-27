@@ -5,7 +5,7 @@ function slot0.GetEventName(slot0)
 end
 
 function slot0.GetActivityID(slot0)
-	return nil
+	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and slot1.id
 end
 
 function slot0.OnInit(slot0)

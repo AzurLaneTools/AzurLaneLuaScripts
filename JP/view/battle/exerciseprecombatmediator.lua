@@ -64,7 +64,10 @@ function slot0.register(slot0)
 		uv0:refreshEdit(slot1)
 	end)
 	slot0:bind(uv0.REMOVE_SHIP, function (slot0, slot1, slot2)
-		FormationMediator.removeShipFromFleet(slot2, slot1)
+		slot2:removeShip(slot1)
+
+		getProxy(FleetProxy).EdittingFleet = slot2
+
 		uv0:refreshEdit(slot2)
 	end)
 	slot0:bind(uv0.OPEN_SHIP_INFO, function (slot0, slot1, slot2)
@@ -142,7 +145,7 @@ function slot0.register(slot0)
 							stageId = uv1,
 							mainFleetId = uv2,
 							system = uv0.contextData.system,
-							actID = uv0.contextData.actID,
+							actId = uv0.contextData.actId,
 							rivalId = uv0.contextData.rivalId
 						})
 					end
@@ -190,7 +193,6 @@ function slot0.changeFleet(slot0, slot1)
 
 	slot0.viewComponent:SetCurrentFleet(slot1)
 	slot0.viewComponent:UpdateFleetView(true)
-	slot0.viewComponent:SetFleetStepper()
 end
 
 function slot0.refreshEdit(slot0, slot1)
@@ -198,7 +200,7 @@ function slot0.refreshEdit(slot0, slot1)
 
 	if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
 		slot3 = nil
-		slot3 = (slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2:getActivityFleets()[slot0.contextData.actID]) and slot2:getData()
+		slot3 = (slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2:getActivityFleets()[slot0.contextData.actId]) and slot2:getData()
 		slot3[slot1.id] = slot1
 
 		slot0.viewComponent:SetFleets(slot3)
@@ -210,7 +212,7 @@ end
 function slot0.commitEdit(slot0, slot1)
 	if getProxy(FleetProxy).EdittingFleet == nil or slot3:isFirstFleet() or slot3:isLegalToFight() == true then
 		if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
-			slot2:commitActivityFleet(slot0.contextData.actID)
+			slot2:commitActivityFleet(slot0.contextData.actId)
 			slot1()
 		else
 			slot2:commitEdittingFleet(slot1)
@@ -218,8 +220,8 @@ function slot0.commitEdit(slot0, slot1)
 	elseif #slot3.ships == 0 then
 		slot2:commitEdittingFleet(slot1)
 
-		if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
-			slot0:changeFleet(1)
+		if slot0.contextData.system == SYSTEM_SUB_ROUTINE then
+			-- Nothing
 		end
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -234,10 +236,8 @@ function slot0.commitEdit(slot0, slot1)
 				if uv0.id == FleetProxy.PVP_FLEET_ID then
 					uv1:commitEdittingFleet()
 					uv2:changeFleet(FleetProxy.PVP_FLEET_ID)
-					uv2.viewComponent:swtichToPreviewMode()
 				else
 					uv1:commitEdittingFleet(uv3)
-					uv2:changeFleet(1)
 				end
 			end
 		})

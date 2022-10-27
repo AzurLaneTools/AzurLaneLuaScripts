@@ -539,10 +539,18 @@ function slot0.RemoveBullet(slot0, slot1, slot2)
 	Object.Destroy(slot0.bulletList[slot1]._go)
 	table.remove(slot0.bulletList, slot1)
 
-	if slot2 and slot3:GetMissFXID() and slot4 ~= "" then
-		slot5, slot6 = slot0.seaFXPool:GetFX(slot4)
+	if slot2 then
+		slot4 = slot3:GetMissFXID()
 
-		pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, slot3:GetPosition() + slot6, true)
+		if slot0.equipSkinId > 0 and pg.equip_skin_template[slot0.equipSkinId].hit_fx_name ~= "" then
+			slot4 = slot5.hit_fx_name
+		end
+
+		if slot4 and slot4 ~= "" then
+			slot5, slot6 = slot0.seaFXPool:GetFX(slot4)
+
+			pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, slot3:GetPosition() + slot6, true)
+		end
 	end
 end
 

@@ -8649,6 +8649,84 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100042] = {
+		spine_extra = "",
+		describe = "普通のホウキじゃないピョ！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "マジックホウキ改",
+		themeId = 0,
+		icon = "feixingsaozhouicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100042,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingsaozhou",
+				"normal",
+				nil,
+				true
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "「これがあなたの望む光景を叶えるもの、あなたが一時的な快楽を得られるシチュエーション」",
@@ -107052,6 +107130,7 @@ pg.furniture_data_template = {
 			100039,
 			100040,
 			100041,
+			100042,
 			200001,
 			200002,
 			200003,
@@ -107235,6 +107314,7 @@ pg.furniture_data_template = {
 			100039,
 			100040,
 			100041,
+			100042,
 			200001,
 			200002,
 			200003,
@@ -113723,6 +113803,7 @@ pg.furniture_data_template = {
 			100039,
 			100040,
 			100041,
+			100042,
 			31101,
 			54104,
 			54105
@@ -116054,6 +116135,7 @@ pg.furniture_data_template = {
 			100022,
 			100030,
 			100034,
+			100042,
 			30123,
 			35128,
 			36125,
@@ -116927,6 +117009,7 @@ pg.furniture_data_template = {
 		100039,
 		100040,
 		100041,
+		100042,
 		200001,
 		200002,
 		200003,

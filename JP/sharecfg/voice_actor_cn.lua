@@ -1331,5 +1331,21 @@ pg.voice_actor_CN = {
 	[343] = {
 		code = 343,
 		actor_name = "相良茉優"
+	},
+	[344] = {
+		code = 344,
+		actor_name = "白城なお"
+	},
+	[345] = {
+		code = 345,
+		actor_name = "木野日菜"
+	},
+	[346] = {
+		code = 346,
+		actor_name = "田中あいみ"
+	},
+	[347] = {
+		code = 347,
+		actor_name = "田中那実"
 	}
 }

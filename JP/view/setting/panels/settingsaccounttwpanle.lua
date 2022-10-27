@@ -30,7 +30,8 @@ function slot0.OnInit(slot0)
 		slot0.faceBookBtn,
 		slot0.googleBtn,
 		slot0.phoneBtn,
-		slot0.gamecenterBtn
+		slot0.gamecenterBtn,
+		slot0.appleBtn
 	}) do
 		slot14 = slot8[slot12]
 

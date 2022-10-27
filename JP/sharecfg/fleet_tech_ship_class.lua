@@ -638,7 +638,8 @@ pg.fleet_tech_ship_class = {
 			20122,
 			20124,
 			20125,
-			20134
+			20134,
+			20135
 		}
 	},
 	[20109] = {
@@ -820,6 +821,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 47,
 		t_level = 7,
 		ships = {
+			20209,
 			20210
 		}
 	},
@@ -1052,7 +1054,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 65,
 		t_level = 7,
 		ships = {
-			20604
+			20604,
+			20607
 		}
 	},
 	[20605] = {

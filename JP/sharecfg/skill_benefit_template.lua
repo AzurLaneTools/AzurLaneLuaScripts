@@ -2194,6 +2194,18 @@ pg.skill_benefit_template = {
 		},
 		world_extra_effect = {}
 	},
+	[6012001] = {
+		id = 6012001,
+		skill_id = 60120,
+		lv = 1,
+		type = 2,
+		limit = {},
+		effect = {
+			1,
+			0
+		},
+		world_extra_effect = {}
+	},
 	[80018001] = {
 		id = 80018001,
 		skill_id = 800180,
@@ -2486,6 +2498,7 @@ pg.skill_benefit_template = {
 		1951008,
 		1951009,
 		1951010,
+		6012001,
 		80018001,
 		80018002,
 		80018003,

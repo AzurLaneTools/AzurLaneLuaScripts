@@ -22,7 +22,13 @@ function slot0.register(slot0)
 end
 
 function slot0.UpdateSpWeapons(slot0)
-	slot0.viewComponent:SetSpWeaponList(_.values(getProxy(EquipmentProxy):GetSpWeapons()))
+	slot1 = getProxy(BayProxy):GetSpWeaponsInShips()
+
+	for slot6, slot7 in ipairs(_.values(getProxy(EquipmentProxy):GetSpWeapons())) do
+		table.insert(slot1, slot7)
+	end
+
+	slot0.viewComponent:SetSpWeaponList(slot1)
 end
 
 function slot0.BindEvent(slot0)
