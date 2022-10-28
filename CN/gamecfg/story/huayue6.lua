@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "四季轮转，时光飞逝，悄然间又是一年新春到了。",
+			say = "四季轮转，时光飞逝，悄然又是一年新春。",
 			bgm = "story-china",
 			flashout = {
 				black = true,

@@ -79347,7 +79347,8 @@ _G.pg.base.ship_data_statistics[201341] = {
 	},
 	tag_list = {
 		"J-Class",
-		"Jervis"
+		"Jervis",
+		"Jersey Skill"
 	}
 }
 
@@ -79473,7 +79474,8 @@ _G.pg.base.ship_data_statistics[201342] = {
 	},
 	tag_list = {
 		"J-Class",
-		"Jervis"
+		"Jervis",
+		"Jersey Skill"
 	}
 }
 
@@ -79599,7 +79601,8 @@ _G.pg.base.ship_data_statistics[201343] = {
 	},
 	tag_list = {
 		"J-Class",
-		"Jervis"
+		"Jervis",
+		"Jersey Skill"
 	}
 }
 
@@ -79725,7 +79728,8 @@ _G.pg.base.ship_data_statistics[201344] = {
 	},
 	tag_list = {
 		"J-Class",
-		"Jervis"
+		"Jervis",
+		"Jersey Skill"
 	}
 }
 
@@ -79850,7 +79854,8 @@ _G.pg.base.ship_data_statistics[201351] = {
 		{}
 	},
 	tag_list = {
-		"J-Class"
+		"J-Class",
+		"Jersey Skill"
 	}
 }
 
@@ -79975,7 +79980,8 @@ _G.pg.base.ship_data_statistics[201352] = {
 		{}
 	},
 	tag_list = {
-		"J-Class"
+		"J-Class",
+		"Jersey Skill"
 	}
 }
 
@@ -80100,7 +80106,8 @@ _G.pg.base.ship_data_statistics[201353] = {
 		{}
 	},
 	tag_list = {
-		"J-Class"
+		"J-Class",
+		"Jersey Skill"
 	}
 }
 
@@ -80225,7 +80232,8 @@ _G.pg.base.ship_data_statistics[201354] = {
 		{}
 	},
 	tag_list = {
-		"J-Class"
+		"J-Class",
+		"Jersey Skill"
 	}
 }
 

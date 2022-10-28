@@ -1,9 +1,5 @@
 slot0 = class("BattleExperimentResultLayer", import(".BattleContributionResultLayer"))
 
-function slot0.getUIName(slot0)
-	return "BattleResultUI"
-end
-
 function slot0.setPoint(slot0)
 	slot0._contributionPoint = 0
 end

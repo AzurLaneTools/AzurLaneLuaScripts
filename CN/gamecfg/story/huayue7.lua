@@ -173,7 +173,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "烟花……也是一种美丽有绚烂的花呀……",
+			say = "烟花……也是一种美丽又绚烂的花呀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是即便如此，却依然能够给人带来温暖与幸福的感觉……",
+			say = "但是即便如此，也依然能够给人带来温暖与幸福的感觉……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好不容易终于决定想跟指挥官吐露心声的……结果还被您抢先了！",
+			say = "好不容易决定想跟指挥官吐露心声的……结果还被您抢先了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不过您既然已经说出来了，那{namecode:29}心里也就有了答案……",
+			say = "不、不过既然您已经说出来了，那{namecode:29}心里也就有了答案……",
 			painting = {
 				alpha = 0.3,
 				time = 1

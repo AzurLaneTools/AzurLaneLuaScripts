@@ -124,7 +124,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "茉莉的话，一会跟参观到这里之后，就可以顺势提出给指挥官做一壶茉莉花茶……",
+			say = "茉莉的话，一会跟指挥官参观到这里之后，就可以顺势提出给指挥官做一壶茉莉花茶……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
