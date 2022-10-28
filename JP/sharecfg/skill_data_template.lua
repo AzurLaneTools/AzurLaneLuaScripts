@@ -9115,7 +9115,7 @@ pg.skill_data_template = {
 		id = 60100,
 		type = 0,
 		max_level = 0,
-		desc = "ロイヤル艦船が装備している場合、装備艦船の回避が5%アップ",
+		desc = "ロイヤル艦船が装備している場合、戦闘中、装備艦船の回避率が5%アップ",
 		system_transform = {},
 		world_death_mark = {
 			1
