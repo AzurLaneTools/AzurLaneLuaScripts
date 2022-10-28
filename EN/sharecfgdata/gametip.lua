@@ -11077,11 +11077,11 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>- Overview -</color>"
 		},
 		{
-			info = "During the Angel of the Iris event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
+			info = "During Fight On, Royal Maids! (Part 3) event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 		},
 		{
 			info = [[
-During the event period, you will play on a special stage and face off against an exercise fleet led by the aircraft carrier Joffre.
+During the event period, you will play on a special stage and face off against an exercise fleet led by the light aircraft carrier Albion.
 All Commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
 Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
 Be aware that you will not be able to claim this reward if your Mailbox is completely full (i.e. you have 1,000 mail stored).
@@ -11106,7 +11106,7 @@ Be aware that you will not be able to claim this reward if your Mailbox is compl
 4. <color=#92fc63>Oil</color> will be consumed when you sortie for and win on the event stage. When you complete the map, you receive <color=#92fc63>EXP</color> and <color=#92fc63>clear rewards</color> as per usual, and Morale changes will take effect.
 · Note that the EX difficulty also imposes a <color=#92fc63>60-second time limit</color>. Your EX difficulty run concludes when you run out of time, when you defeat the boss, or when your Flagship sinks.
 · Shipgirls do not suffer a Morale penalty from being sunk on the event stage.
-5. You can deploy <color=#92fc63>submarines</color> and <color=#92fc63>Meowfficers</color> on EX difficulty. Calling in your submarines during a battle will cost Oil.
+5. You can deploy <color=#92fc63>a Submarine Fleet</color> and <color=#92fc63>Meowfficers</color> on EX difficulty. Calling in your Submarine Fleet during a battle will cost Oil.
 6. You can play on Easy, Normal, and Hard difficulty <color=#92fc63>as much as you like</color>, but you will need to spend a <color=#92fc63>Bonus Ticket</color> each time you wish to do a run on <color=#92fc63>EX difficulty</color>.
 ]]
 		},
@@ -11122,7 +11122,7 @@ Be aware that you will not be able to claim this reward if your Mailbox is compl
 		{
 			info = [[
 <color=#ff5c5c>- Miscellaneous Info -</color>
-1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed, <color=#ff5c5c>but you will not receive any rewards or CP</color>.
+1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed,<color=#ff5c5c>but you will not receive any rewards or CP</color>.
 2. We recommend you play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.
 3. You can do practice runs of EX mode from the Formation screen. Practice runs do not cost Bonus Tickets or Oil, and do not affect your shipgirls' Morale, but they do not award EXP or rewards either. 
 4. A Reward Sortie will <color=#92fc63>not be deducted from your daily 15</color> if you choose to abort a run partway through on Easy, Normal, or Hard difficulty.

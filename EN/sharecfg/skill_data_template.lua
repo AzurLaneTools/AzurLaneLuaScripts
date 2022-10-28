@@ -9134,7 +9134,7 @@ pg.skill_data_template = {
 		id = 60100,
 		type = 0,
 		max_level = 0,
-		desc = "When equipped by a Royal Navy ship: increases that ship's EVA by 5.0%.",
+		desc = "When equipped by a Royal Navy ship: increases that ship's Evasion Rate by 5.0%.",
 		system_transform = {},
 		world_death_mark = {
 			1

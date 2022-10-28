@@ -114,7 +114,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[11011] = {
-		desc_world = "When assigned as the Command Cat: increases your Vanguard's TRP by a small amount based on the Directives stat.",
+		desc_world = "When assigned as the Command Cat: increases your DD's TRP by a small amount based on the Directives stat.",
 		name = "Bite Their Fingers",
 		next_id = 11012,
 		exp = 1,
