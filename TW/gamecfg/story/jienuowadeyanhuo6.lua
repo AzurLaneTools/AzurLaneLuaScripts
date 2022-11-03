@@ -11,7 +11,7 @@ return {
 			actor = 603020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "居然是鸢尾教国的突袭……都这么晚的时间了。",
+			say = "居然是鳶尾教國的突襲……都這麼晚的時間了。",
 			bgm = "level-french1",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "哈啊……好困，她们难道都不睡的么——",
+			say = "哈啊……好睏，她們難道都不睡的嗎——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "也不知道是向着哪个港口去的，",
+			say = "也不知道是向著哪個港口去的，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "总之按照利托里奥大人的调动命令去指定位置待机就好吧……",
+			say = "總之按照利托里奧大人的調動命令去指定位置待機就好吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -129,7 +129,7 @@ return {
 			actor = 603020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "敌、敌袭？！难道是在路上遭遇了？！",
+			say = "敵、敵襲？！難道是在路上遭遇了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 603020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……这么倒霉？！各舰注意，准备战斗！",
+			say = "……這麼倒霉？！各艦注意，準備戰鬥！",
 			effects = {
 				{
 					active = true,

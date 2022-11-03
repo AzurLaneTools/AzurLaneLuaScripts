@@ -108171,6 +108171,59 @@ _G.pg.base.equip_data_statistics[78212] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[78221] = {
+	type = 1,
+	name = "全彈發射-蘇弗朗級I",
+	speciality = "無",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 78221,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		78221
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[78222] = {
+	id = 78222,
+	name = "全彈發射-蘇弗朗級II",
+	base = 78221,
+	weapon_id = {
+		78222
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[79011] = {
 	type = 1,
 	name = "專屬彈幕-英格蘭I",
@@ -121025,6 +121078,97 @@ _G.pg.base.equip_data_statistics[91013] = {
 	base = 91000,
 	weapon_id = {
 		91013
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91100] = {
+	tech = 1,
+	name = "雙聯裝203mm主炮Mle1924",
+	speciality = "锁定",
+	type = 3,
+	descrip = "说明未填写",
+	ammo = 2,
+	damage = "24 x 4",
+	nationality = 8,
+	rarity = 2,
+	id = 91100,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 5,
+	icon = "51100",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1416
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1416
+		},
+		{
+			4,
+			1205
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		91100
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[91101] = {
+	id = 91101,
+	damage = "26 x 4",
+	base = 91100,
+	weapon_id = {
+		91101
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91102] = {
+	id = 91102,
+	damage = "28 x 4",
+	base = 91100,
+	weapon_id = {
+		91102
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91103] = {
+	id = 91103,
+	damage = "30 x 4",
+	base = 91100,
+	weapon_id = {
+		91103
 	},
 	hidden_skill_id = {}
 }

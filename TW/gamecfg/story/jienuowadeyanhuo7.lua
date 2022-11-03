@@ -10,7 +10,7 @@ return {
 			bgm = "battle-boss-italy",
 			side = 2,
 			bgName = "bg_renaya",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
@@ -78,7 +78,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇……这次不光是通讯和动力模块，连电力系统都被打出了损伤。",
+			say = "哇……這次不光是通訊和動力模組，連電力系統都被打出了損傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她回去之后不大修一下是不行了……",
+			say = "她回去之後不大修一下是不行了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是我的实力哦，最优秀的重巡洋舰可不是说说而已。",
+			say = "這就是我的實力哦，最優秀的重巡洋艦可不是說說而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过你的身手也不差，稍微有点出乎我的意料了……看来你在后方的时候也没有疏于训练啊。",
+			say = "不過妳的身手也不差，稍微有點出乎我的意料了……看來妳在後方的時候也沒有疏於訓練啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是自然！我也是教廷的骑士，不论身处何地何职，战斗的本领可不能落下。",
+			say = "那是自然！我也是教廷的騎士，不論身處何地何職，戰鬥的本領可不能落下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过和你还差不少啦……我已经深刻认识到差距了！",
+			say = "不過和妳還差不少啦……我已經深刻認識到差距了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~请继续加油努力哦。",
+			say = "哼哼~請繼續加油努力哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们不期待战斗，但是战火既已燃烧——",
+			say = "我們不期待戰鬥，但是戰火既已燃燒——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为圣教骑士，我们能做的唯有拼死奋战，为敌人降下名为正义的审判，为祖国带来胜利与凯旋。",
+			say = "作為聖教騎士，我們能做的唯有拼死奮戰，為敵人降下名為正義的審判，為祖國帶來勝利與凱旋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那——刚刚已经被你击垮的那位敌人，你打算怎么办？",
+			say = "那——剛剛已經被妳擊垮的那位敵人，你打算怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你觉得怎么办好呢，“大参谋”？",
+			say = "……妳覺得怎麼辦好呢，“大參謀”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和之前一样吧，本次行动中她已经无法对我们构成威胁，等同于被“消灭”了。",
+			say = "和之前一樣吧，本次行動中她已經無法對我們構成威脅，等同於被“消滅”了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就听你的吧，“大参谋”。",
+			say = "那就聽妳的吧，“大參謀”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~那就继续加速前进！看起来没有撒丁舰队会比我们更早到达目的地了。",
+			say = "好~那就繼續加速前進！看起來沒有薩丁艦隊會比我們更早到達目的地了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "等待我们的只有空虚的港口，继续加速向前——！",
+			say = "等待我們的只有空虛的港口，繼續加速向前——！",
 			effects = {
 				{
 					active = true,

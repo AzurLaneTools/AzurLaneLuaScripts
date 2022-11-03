@@ -286,7 +286,7 @@ pg.activity_const = {
 		act_id = 40457
 	},
 	ACTIVITY_ID_US_SKIRMISH = {
-		act_id = 337
+		act_id = 40922
 	},
 	FRANCE_RE_MAIN = {
 		act_id = 40450
@@ -592,7 +592,7 @@ pg.activity_const = {
 		act_id = 40251
 	},
 	SANDIEGO_REFORM_RE = {
-		act_id = 494
+		act_id = 40918
 	},
 	SN_MAIN_PAGE = {
 		act_id = 40253
@@ -664,7 +664,7 @@ pg.activity_const = {
 		act_id = 40228
 	},
 	ACTIVITY_ID_US_SKIRMISH_RE = {
-		act_id = 940
+		act_id = 40922
 	},
 	SUMMER_REMAKE = {
 		act_id = 40147
@@ -676,7 +676,7 @@ pg.activity_const = {
 		act_id = 30186
 	},
 	SANDIEGO_REFORM = {
-		act_id = 45030
+		act_id = 40918
 	},
 	SKIN_YAMASHIRO_II = {
 		act_id = 45018

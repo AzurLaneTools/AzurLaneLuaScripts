@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "福煦，一支小规模舰队正在向我们接近。",
+			say = "福熙，一支小規模艦隊正在向我們接近。",
 			bgm = "level-french1",
 			flashin = {
 				delay = 0.5,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			actor = 903010,
 			dir = 1,
-			say = "我们的计划不可能暴露，难道是撒丁帝国正在返航的巡逻队么。",
+			say = "我們的計劃不可能暴露，難道是薩丁帝國正在返航的巡邏隊嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			actor = 903010,
 			dir = 1,
-			say = "居然在这种半道上的地方遇到还真是……",
+			say = "居然在這種半路上的地方遇到還真是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是她们的不幸啊。",
+			say = "真是她們的不幸啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			actor = 903020,
 			dir = 1,
-			say = "只要消灭所有的目击者，就依然是一次完美的突袭行动————",
+			say = "只要消滅所有的目擊者，就依然是一次完美的突襲行動————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你们是……鸢尾教国的舰队？",
+			say = "妳們是……鳶尾教國的艦隊？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			actor = 603010,
 			dir = 1,
-			say = "请各位止步，相信你们已经知道我们现在的立场了。",
+			say = "請各位止步，相信妳們已經知道我們現在的立場了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "虽然不知道各位正驶向何方，但如果觉得我会轻易地放你们过去就大错特错了。",
+			say = "雖然不知道各位正駛向何方，但如果覺得我會輕易地放妳們過去就大錯特錯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "……这就是你们的回应么，我知道了。撒丁帝国舰队，准备迎击！",
+			say = "……這就是妳們的回應嗎，我知道了。薩丁帝國艦隊，準備迎擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

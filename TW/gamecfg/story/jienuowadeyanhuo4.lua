@@ -51,7 +51,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "被压制了，情况……不容乐观。",
+			say = "被壓制了，情況……不容樂觀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "既然如此的话，就算牺牲在这里也要……",
+			say = "既然如此的話，就算犧牲在這裡也要……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "面对不利战况没有选择撤退，而是打算死战到底么。",
+			say = "面對不利戰況沒有選擇撤退，而是打算死戰到底嗎。",
 			flashout = {
 				black = true,
 				dur = 0.15,
@@ -118,7 +118,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实是位值得尊敬的对手，而且比想象中难缠……继续纠缠下去的话就算取胜也要花太长时间了。",
+			say = "確實是位值得尊敬的對手，而且比想像中難纏……繼續糾纏下去的話就算取勝也要花太長時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿尔及利亚，我觉得现在这个程度就差不多了吧？",
+			say = "阿爾及利亞，我覺得現在這個程度就差不多了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚才重点破坏了她的通讯和移动模块，本次行动中她已经没法为我们带来更多威胁，等同于被“消灭”了。",
+			say = "剛才重點破壞了她的通訊和移動模組，本次行動中她已經沒法為我們帶來更多威脅，等同於被“消滅”了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……那就听你的吧，“大参谋”。",
+			say = "……那就聽妳的吧，“大參謀”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿~既然遭遇了撒丁巡逻队，我们的存在本身怕是瞒不住了。",
+			say = "嘿嘿~既然遭遇了薩丁巡邏隊，我們的存在本身怕是瞞不住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过她们一时半会恐怕还搞不清我们的目的。",
+			say = "不過她們一時半會恐怕還搞不清我們的目的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是不要太小看撒丁帝国比较好哦。",
+			say = "還是不要太小看薩丁帝國比較好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那假设，有人猜到了我们的目的。但是按照撒丁帝国一贯以来的效率，恐怕一时半会也难以形成有效应对吧？",
+			say = "那假設，有人猜到了我們的目的。但是按照薩丁帝國一貫以來的效率，恐怕一時半會也難以形成有效應對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个倒是……毕竟“夜晚”是撒丁帝国的休息时间呢。",
+			say = "這個倒是……畢竟“夜晚”是薩丁帝國休息的時間呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "所以我们依然有机可乘，只不过速度，就要快一些了哦——",
+			say = "所以我們依然有機可乘，只不過速度，就要快一些了哦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

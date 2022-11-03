@@ -15,7 +15,7 @@ return {
 			bgm = "story-french1",
 			actor = 903020,
 			nameColor = "#a9f548",
-			say = "又有敌方舰队接近了，规模比之前大得多哦。",
+			say = "又有敵方艦隊接近了，規模比之前大得多哦。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -41,7 +41,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……时间也已经接近拂晓，夜幕对我们的掩护很快要消失了。",
+			say = "嗯……時間也已經接近拂曉，夜幕對我們的掩護很快要消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "见好就收，撤退吧。",
+			say = "見好就收，撤退吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "需要联系第二舰队么？",
+			say = "需要聯繫第二艦隊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用，她们会自行决断的。",
+			say = "不用，她們會自行決斷的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，那我们只要顾好自己就行了。",
+			say = "很好，那我們只要顧好自己就行了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "作战行动已经结束。各舰注意，掉转航向停止射击，我们返航——",
+			say = "作戰行動已經結束。各艦注意，掉轉航向停止射擊，我們返航——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

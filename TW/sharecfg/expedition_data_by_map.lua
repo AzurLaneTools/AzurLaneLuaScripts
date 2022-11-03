@@ -4913,7 +4913,7 @@ pg.expedition_data_by_map = {
 		ani_controller = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 0,
+		on_activity = 40922,
 		ui_type = 1,
 		bg = "Map_1230005",
 		destory_icon_suffix = "blue",
@@ -8837,6 +8837,50 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1580001] = {
+		map = 1580001,
+		name = "杰諾瓦的焰火|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-french1",
+		enter_story = "",
+		ani_name = "Map_1580001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40920,
+		ui_type = 1,
+		bg = "Map_1580001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1590001] = {
 		map = 1590001,
 		name = "交匯世界的弧光|| ||CHAPTER EX||E.X.",
@@ -9800,6 +9844,140 @@ pg.expedition_data_by_map = {
 				-465
 			}
 		}
+	},
+	[2100080] = {
+		map = 2100080,
+		name = "光與影的鳶尾之華-前篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "FAXI01",
+		ani_name = "map_1140001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1140001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100090,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100081] = {
+		map = 2100081,
+		name = "光與影的鳶尾之華-後篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Level-french2",
+		enter_story = "FAXI05",
+		ani_name = "map_1140002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1140002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100091,
+		clouds_pos = {}
+	},
+	[2100090] = {
+		map = 2100090,
+		name = "光與影的鳶尾之華-前篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "FAXI01",
+		ani_name = "map_1140002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1140002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100080,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100091] = {
+		map = 2100091,
+		name = "光與影的鳶尾之華-後篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Level-french2",
+		enter_story = "FAXI05",
+		ani_name = "map_1140003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1140003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100081,
+		clouds_pos = {}
 	},
 	[2100100] = {
 		map = 2100100,
@@ -11018,6 +11196,7 @@ pg.expedition_data_by_map = {
 		1560012,
 		1560025,
 		1560026,
+		1580001,
 		1590001,
 		1590002,
 		1590003,
@@ -11040,6 +11219,10 @@ pg.expedition_data_by_map = {
 		2100061,
 		2100070,
 		2100071,
+		2100080,
+		2100081,
+		2100090,
+		2100091,
 		2100100,
 		2100101,
 		2100110,

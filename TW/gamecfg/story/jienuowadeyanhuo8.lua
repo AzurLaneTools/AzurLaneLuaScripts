@@ -10,7 +10,7 @@ return {
 			bgm = "airRaidAlarm",
 			side = 2,
 			bgName = "bg_renaya",
-			say = "伴随着接连不断的炮击声，撒丁港口各处都燃烧了起来。",
+			say = "伴隨著接連不斷的炮擊聲，薩丁港口各處都燃燒了起來。",
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			say = "直到此时，警报声才响彻天空。",
+			say = "直到此時，警報聲才響徹天空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真厉害……",
+			say = "真厲害……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊，能疏忽到这种程度……反而让人产生敬佩之情了。",
+			say = "是啊，能疏忽到這種程度……反而讓人產生敬佩之情了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然防御舰队的部署是显而易见的问题，但是没想到……岸防设施的疏忽才是更大问题。",
+			say = "雖然防禦艦隊的部署是顯而易見的問題，但是沒想到……岸防設施的疏忽才是更大問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看起来撒丁帝国也没有完全做好与我们的战争准备呢。",
+			say = "看起來薩丁帝國也沒有完全做好與我們的戰爭準備呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "即便如此……撒丁还是选择站在了我们的对立面……",
+			say = "即便如此……薩丁還是選擇站在了我們的對立面……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而这就是我们做出的回应，现在就是她们要付出的代价。",
+			say = "而這就是我們做出的回應，現在就是她們要付出的代價。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……就是火力太弱了些，刚才和扎拉的一战里我们量产型损失了不少啊。",
+			say = "……就是火力太弱了些，剛才和扎拉的一戰裡我們量產型損失了不少啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟她也是重巡洋舰，在判断打不赢我们之后就一直对着量产型舰队全力开火。",
+			say = "畢竟她也是重巡洋艦，在判斷打不贏我們之後就一直對著量產型艦隊全力開火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在打击舰队被削弱了很多，恐怕很难达到十分理想的效果。",
+			say = "現在打擊艦隊被削弱了很多，恐怕很難達到十分理想的效果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我们成功发动了袭击——作为一个回应行动本身来说已经成功了。",
+			say = "不過我們成功發動了襲擊——作為一個回應行動本身來說已經成功了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "在更多的撒丁帝国舰队赶来之前，尽可能扩大战果吧~",
+			say = "在更多的薩丁帝國艦隊趕來之前，盡可能擴大戰果吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

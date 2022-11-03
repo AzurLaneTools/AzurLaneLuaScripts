@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「每当教国陷入危难，吾辈的鹫旗便会迎风飘扬」</size>",
+					"<size=51>「每當教國陷入危難，吾輩的鷲旗便會迎風飄揚」</size>",
 					1
 				},
 				{
-					"<size=51>「追寻宝剑的指引」</size>",
+					"<size=51>「追尋寶劍的指引」</size>",
 					2
 				},
 				{
-					"<size=51>「吾辈总是自凯旋门而出，又在凯旋门下归来」</size>",
+					"<size=51>「吾輩總是自凱旋門而出，又在凱旋門下歸來」</size>",
 					3
 				},
 				{
-					"<size=51>「如今，吾辈将再次出击」</size>",
+					"<size=51>「如今，吾輩將再次出擊」</size>",
 					4
 				},
 				{
-					"<size=51>「请再一次指引吾辈吧」</size>",
+					"<size=51>「請再一次指引吾輩吧」</size>",
 					5
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "某日·鸢尾教国军港内",
+			say = "某日·鳶尾教國軍港內",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "撒丁帝国最后还是彻底倒向赤色中轴了么……虽说也是意料之中的事。",
+			say = "薩丁帝國最後還是徹底倒向赤色中軸了嗎……雖說也是意料之中的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战场的局势总是瞬息万变的，昨日的盟友也许就是明日的敌人~",
+			say = "戰場的局勢總是瞬息萬變的，昨日的盟友也許就是明日的敵人~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这也是一直以来的历史规律了嘛。",
+			say = "這也是一直以來的歷史規律了嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "道理是这样……不过至少希望撒丁帝国可以装作“中立”，哪怕冷眼旁观吧。",
+			say = "道理是這樣……不過至少希望薩丁帝國可以裝作“中立”，哪怕冷眼旁觀吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "事情已经发生，现在说什么都晚了！",
+			say = "事情已經發生，現在說什麼都晚了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放轻松些啊阿尔及利亚，这么眉头紧缩唉声叹气太不像你的风格了。",
+			say = "放輕鬆些啊阿爾及利亞，這麼眉頭緊皺唉聲嘆氣太不像妳的風格了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……突然有些好奇在你眼里我是什么样的风格了。",
+			say = "……突然有些好奇在妳眼裡我是什麼樣的風格了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……要更加优雅，更加胸有成竹一些？",
+			say = "嗯……要更加優雅，更加胸有成竹一些？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在我们处于铁血和撒丁的两面夹击之中，局势上恐怕没有多少优雅的余地了…",
+			say = "現在我們處於鐵血和薩丁的兩面夾擊之中，局勢上恐怕沒有多少優雅的餘地了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "猜猜看我为什么突然过来？",
+			say = "猜猜看我為什麼突然過來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你为什么突然过来？",
+			say = "妳為什麼突然過來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "教廷司令部决定对突然倒戈的撒丁帝国进行一次严厉回应，因此准备了一次秘密的突袭计划。",
+			say = "教廷司令部決定對突然倒戈的薩丁帝國進行一次嚴厲回應，因此準備了一次秘密的突襲計劃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你这次过来就是为了将这份计划变为行动的。",
+			say = "妳這次過來就是為了將這份計劃變為行動的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好准？！就是准到这种程度反而有些没意思了……",
+			say = "好準？！就是準到這種程度反而有些沒意思了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不是你让我猜的么。言归正传，行动的具体内容是什么？",
+			say = "……不是妳讓我猜的嗎。言歸正傳，行動的具體內容是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一次针对撒丁帝国港口的奇袭作战哦。",
+			say = "一次針對薩丁帝國港口的奇襲作戰哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "撒丁帝国舰队的优势与弱点我们都很清楚，如果能在这种时候破坏她们的补给的话——",
+			say = "薩丁帝國艦隊的優勢與弱點我們都很清楚，如果能在這種時候破壞她們的補給的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一段时间内撒丁的舰队就别想出门了。考虑到她们的布防情况……确实有可乘之机。",
+			say = "一段時間內薩丁的艦隊就別想出門了。考慮到她們的佈防情況……確實有可乘之機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只不过……皇家海军呢，这一次也得不到她们的支援么？",
+			say = "只不過……皇家海軍呢，這一次也得不到她們的支援嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾~是的。要是想听回应的正文我可以背给你听哦。",
+			say = "很遺憾~是的。要是想聽回應的正文我可以背給你哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次又是怎么说的……？",
+			say = "這次又是怎麼說的……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“鉴于每况日下的局势，在本土的支援抵达之前，皇家舰队没有参与计划外作战行动的能力。”",
+			say = "“鑑於每況日下的局勢，在本土的支援抵達之前，皇家艦隊沒有參與計劃外作戰行動的能力。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她们甚至还建议我们要谨慎考虑作战计划，不要轻举妄动呢。",
+			say = "她們甚至還建議我們要謹慎考慮作戰計劃，不要輕舉妄動呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然如此——审判庭的人呢？",
+			say = "既然如此——審判庭的人呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽说是奇袭行动，但也不至于到需要让你这个大参谋亲自参与的程度吧。",
+			say = "雖說是奇襲行動，但也不至於到需要讓妳這個大參謀親自參與的程度吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "审判庭的事我也不清楚，大概是有其他任务吧，而且最近的教廷司令部经常喜欢做一些神神秘秘的部署……",
+			say = "審判庭的事我也不清楚，大概是有其他任務吧，而且最近的教廷司令部經常喜歡做一些神神秘秘的部署……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……看来，这次只能靠我们了啊。",
+			say = "……看來，這次只能靠我們了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "应该说“至少还有我们”才对吧！而且这次我可是主动请缨的，不要搞错了~",
+			say = "應該說“至少還有我們”才對吧！而且這次我可是主動請纓的，不要搞錯了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也承认这次多少有些冒险的成分在里面，不过这已经是我们能够选择的范围内战机最好的一个了哦。",
+			say = "我也承認這次多少有些冒險的成分在裡面，不過這已經是我們能夠選擇的範圍內戰機最好的一個了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有！刚刚那个“大参谋”的称呼是什么啊！",
+			say = "還有！剛剛那個“大參謀”的稱呼是什麼啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我确实最近在司令部呆的时间比较长，也确实偶尔会参与些作战计划的制定……不过和大参谋还差得远呢！",
+			say = "我確實最近在司令部待的時間比較長，也確實偶爾會參與些作戰計劃的制定……不過和大參謀還差得遠呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比参谋力，我觉得还是我的作战力更突出一些~",
+			say = "相比參謀力，我覺得還是我的作戰力更突出一些~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作战开始时间是几点？",
+			say = "作戰開始時間是幾點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "傍晚出发凌晨抵达，借助夜幕的掩护展开奇袭。",
+			say = "傍晚出發凌晨抵達，借助夜幕的掩護展開奇襲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那到时候我就好好期待一下你的实力了哦，“大参谋”。",
+			say = "那到時候我就好好期待一下你的實力了哦，“大參謀”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所·以·说——“大参谋”这个称呼！",
+			say = "所·以·說——“大參謀”這個稱呼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵~好像一不小心叫习惯了，暂时改不过来了哦，“大参谋”？",
+			say = "呵呵~好像一不小心叫習慣了，暫時改不過來了哦，“大參謀”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "阿尔及利亚———————！",
+			say = "阿爾及利亞———————！",
 			effects = {
 				{
 					active = true,

@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "福煦，又发现了一支撒丁帝国舰队哦。",
+			say = "福熙，又發現了一支薩丁帝國艦隊哦。",
 			bgm = "story-french1",
 			flashin = {
 				delay = 0.5,
@@ -40,7 +40,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今晚还真是热闹啊……行动方向呢？",
+			say = "今晚還真是熱鬧啊……行動方向呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "似乎跟我们的目的地相同。",
+			say = "似乎跟我們的目的地相同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不是冲着我们来的，而是和我们一样在赶路，也就意味着……",
+			say = "不是衝著我們來的，而是和我們一樣在趕路，也就意味著……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "撒丁帝国判断出了我们的企图，并且正在采取应对手段。",
+			say = "薩丁帝國判斷出了我們的企圖，並且正在採取應對手段。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实稍微低估了撒丁的判断力和执行力呀……",
+			say = "確實稍微低估了薩丁的判斷力和執行力呀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过既然应对手段是急急忙忙从外面调动舰队回来，反过来就说明港口本身的空虚的。",
+			say = "不過既然應對手段是急急忙忙從外面調動艦隊回來，反過來就說明港口本身是空虛的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然奇袭暴露了，但是只要跑的够快我们还有机会！",
+			say = "雖然奇襲暴露了，但是只要跑的夠快我們還有機會！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这支舰队怎么办？",
+			say = "這支艦隊怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们在航速上没有明显优势，既然目的地相同，迟早都要碰上吧。",
+			say = "我們在航速上沒有明顯優勢，既然目的地相同，遲早都要碰上吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "趁对面还没发现，先下手为强！",
+			say = "趁對面還沒發現，先下手為強！",
 			effects = {
 				{
 					active = true,

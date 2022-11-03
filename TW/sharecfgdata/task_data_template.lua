@@ -95771,6 +95771,333 @@ _G.pg.base.task_data_template[16492] = {
 	}
 }
 
+_G.pg.base.task_data_template[16500] = {
+	name = "『箱庭疗法复刻』风暴前夕前哨战任务1",
+	guild_coin_award = 0,
+	award = 94830,
+	type = 26,
+	desc = "通過作戰「風暴前夕」P1",
+	count_inherit = 0,
+	sub_type = 29,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1242017",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16500,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			1011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1250022
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16501] = {
+	name = "『箱庭疗法复刻』风暴前夕前哨战任务2",
+	guild_coin_award = 0,
+	award = 94831,
+	type = 26,
+	desc = "通過作戰「風暴前夕」P2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1250031",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16501,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			1011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1250022
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16502] = {
+	name = "『箱庭疗法复刻』风暴前夕前哨战任务3",
+	guild_coin_award = 0,
+	award = 94832,
+	type = 26,
+	desc = "通過作戰「風暴前夕」P3",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16502,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		2103
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			1011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1250022
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16503] = {
+	name = "『箱庭疗法复刻』风暴前夕前哨战任务4",
+	guild_coin_award = 0,
+	award = 94833,
+	type = 26,
+	desc = "通過作戰「風暴前夕」P4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1250032",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16503,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			1011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1250022
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16504] = {
+	name = "『箱庭疗法复刻』风暴前夕前哨战任务5",
+	guild_coin_award = 0,
+	award = 94834,
+	type = 26,
+	desc = "通過作戰「風暴前夕」P5",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1250033",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16504,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			1011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1250022
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16505] = {
+	name = "『箱庭疗法复刻』风暴前夕前哨战任务6",
+	guild_coin_award = 0,
+	award = 94835,
+	type = 26,
+	desc = "通過作戰「風暴前夕」P6",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16505,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		2107
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			1011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1250022
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16506] = {
+	name = "『箱庭疗法复刻』风暴前夕前哨战任务7",
+	guild_coin_award = 0,
+	award = 94836,
+	type = 26,
+	desc = "通過作戰「風暴前夕」P7",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1250034",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16506,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			1011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1250022
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16507] = {
+	name = "『箱庭疗法复刻』风暴前夕前哨战任务8",
+	guild_coin_award = 0,
+	award = 94837,
+	type = 26,
+	desc = "獲得7份「作戰報告」",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "1011",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16507,
+	target_num = 7,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			3,
+			760,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[16560] = {
 	name = "『意大利V2』-日常建造",
 	guild_coin_award = 0,
@@ -107889,6 +108216,324 @@ _G.pg.base.task_data_template[17186] = {
 		"ACTIVITY_MAP",
 		{
 			40735
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17188] = {
+	name = "『福煦SP』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 96369,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17188,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			225,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17189] = {
+	name = "『福熙SP』通关SP1",
+	guild_coin_award = 0,
+	award = 96374,
+	type = 6,
+	desc = "通關SP1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1580001",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17190",
+	auto_commit = 0,
+	story_id = "",
+	id = 17189,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1580001,
+			chapterId = 1580001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17190] = {
+	name = "『福熙SP』通关SP2",
+	guild_coin_award = 0,
+	award = 96375,
+	type = 6,
+	desc = "通關SP2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1580002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17191",
+	auto_commit = 0,
+	story_id = "",
+	id = 17190,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1580001,
+			chapterId = 1580002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17191] = {
+	name = "『福熙SP』通关SP3",
+	guild_coin_award = 0,
+	award = 96376,
+	type = 6,
+	desc = "通關SP3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1580003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17191,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1580001,
+			chapterId = 1580003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17192] = {
+	name = "『福熙SP』SP1三星",
+	guild_coin_award = 0,
+	award = 96377,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1580001",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17193",
+	auto_commit = 0,
+	story_id = "",
+	id = 17192,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1580001,
+			chapterId = 1580001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17193] = {
+	name = "『福熙SP』SP2三星",
+	guild_coin_award = 0,
+	award = 96378,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1580002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "17194",
+	auto_commit = 0,
+	story_id = "",
+	id = 17193,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1580001,
+			chapterId = 1580002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17194] = {
+	name = "『福熙SP』SP3三星",
+	guild_coin_award = 0,
+	award = 96379,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1580003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17194,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1580001,
+			chapterId = 1580003
 		}
 	}
 }

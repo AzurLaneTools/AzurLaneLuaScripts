@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斜阳西下，从夕暮笼罩的鸢尾教国港口中陆续驶出两支舰队，各自向着不同的方向前进着。",
+			say = "斜陽西下，從夕暮籠罩的鳶尾教國港口中陸續駛出兩支艦隊，各自向著不同的方向前進著。",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "派遣第二支舰队倒是我最开始没想到的部分，这下也能让撒丁帝国品尝一下多线遇敌的滋味了。",
+			say = "派遣第二支艦隊倒是我最開始沒想到的部分，這下也能讓薩丁帝國品嚐一下多線遇敵的滋味了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~既然是突袭，自然要把出其不意的精神贯彻到底。双份的舰队，双倍的惊喜~",
+			say = "哼哼~既然是突襲，自然要把出其不意的精神貫徹到底。雙份的艦隊，雙倍的驚喜~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要能让敌人在双线遇袭中产生混乱，我们的行动也就成功一半了。",
+			say = "只要能讓敵人在雙線遇襲中產生混亂，我們的行動也就成功一半了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另一半嘛，就要看我们的炮击能给对面带来多少损失了~",
+			say = "另一半嘛，就要看我們的炮擊能給對面帶來多少損失了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "趁着夜色出航吧！到时候撒丁帝国的家伙们也许还在酣睡中也说不定。",
+			say = "趁著夜色出航吧！到時候薩丁帝國的傢伙們也許還在酣睡中也說不定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那些设施可都是固定靶！可不要打偏了哦。",
+			say = "那些設施都是固定靶！可不要打偏了哦。",
 			effects = {
 				{
 					active = true,

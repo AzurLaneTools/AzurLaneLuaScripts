@@ -4169,6 +4169,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17228,6 +17239,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17294,6 +17316,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17323,6 +17356,17 @@ pg.ship_data_group = {
 				"限時活動：光與影的鳶尾之華",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -17551,6 +17595,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17589,6 +17644,17 @@ pg.ship_data_group = {
 				"限時活動：光與影的鳶尾之華",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -17684,6 +17750,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17742,6 +17819,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：穹頂下的聖詠曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[524] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 9,
+		handbook_type = 0,
+		index_id = 500,
+		code = 524,
+		group_type = 90301,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：杰諾瓦的焰火",
 				{
 					""
 				},
@@ -17808,6 +17916,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17837,6 +17956,17 @@ pg.ship_data_group = {
 				"限時活動：光與影的鳶尾之華",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -20089,6 +20219,7 @@ pg.ship_data_group = {
 		394,
 		481,
 		456,
+		524,
 		455,
 		352,
 		353,

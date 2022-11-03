@@ -9630,15 +9630,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "長門、鈴谷 建造追加！"
+	tip = "讓·巴爾、麻薩諸塞、敦克爾克 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "三隈 建造追加！"
+	tip = "惡毒、凱旋、倔强、福爾班、勒馬爾 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "伊13 建造追加！"
+	tip = "速科夫 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
