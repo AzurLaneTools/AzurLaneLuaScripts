@@ -4556,6 +4556,9 @@ function temp()
 			["班"] = {
 				this = true
 			}
+		},
+		["煦"] = {
+			this = true
 		}
 	}
 end

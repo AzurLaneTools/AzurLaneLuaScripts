@@ -240,7 +240,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那——剛剛已經被妳擊垮的那位敵人，你打算怎麼辦？",
+			say = "那——剛剛已經被妳擊垮的那位敵人，妳打算怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

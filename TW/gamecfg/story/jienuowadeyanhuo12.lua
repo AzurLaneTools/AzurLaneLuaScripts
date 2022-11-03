@@ -567,7 +567,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "這次作戰還沒徹底結束呢，你就在想下次的事了？",
+			say = "這次作戰還沒徹底結束呢，妳就在想下次的事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，聖教騎士阿爾及利亞在此起誓，我將奪回你所失去之物，為教廷與同伴奮戰至最後一刻。",
+			say = "嗯，聖教騎士阿爾及利亞在此起誓，我將奪回妳所失去之物，為教廷與同伴奮戰至最後一刻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

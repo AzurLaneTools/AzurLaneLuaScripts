@@ -441,7 +441,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遺憾~是的。要是想聽回應的正文我可以背給你哦。",
+			say = "很遺憾~是的。要是想聽回應的正文我可以背給妳哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那到時候我就好好期待一下你的實力了哦，“大參謀”。",
+			say = "那到時候我就好好期待一下妳的實力了哦，“大參謀”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

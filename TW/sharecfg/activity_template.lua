@@ -20955,13 +20955,12 @@ pg.activity_template = {
 	},
 	[40899] = {
 		mark = 20221020,
-		config_client = "",
+		id = 40899,
 		title_res_tag = "yidali_pt",
 		type = 74,
 		login_pop = 0,
 		config_id = 40899,
 		is_show = 22,
-		id = 40899,
 		config_data = {},
 		time = {
 			"timer",
@@ -20993,6 +20992,9 @@ pg.activity_template = {
 		page_info = {
 			class_name = "YidaliPTPage",
 			ui_name = "yidaliptpage"
+		},
+		config_client = {
+			linkActID = 40890
 		}
 	},
 	[40900] = {
@@ -21058,6 +21060,7 @@ pg.activity_template = {
 		},
 		config_client = {
 			16268,
+			shopLinkActID = 40898,
 			linkActID = 40890
 		}
 	},
@@ -21207,7 +21210,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 40916,
-		is_show = 24,
+		is_show = 29,
 		id = 40916,
 		config_data = {},
 		time = {
@@ -21290,7 +21293,7 @@ pg.activity_template = {
 		type = 45,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 23,
+		is_show = 28,
 		config_data = {
 			{
 				{
@@ -21506,7 +21509,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 25,
+		is_show = 30,
 		id = 40922,
 		config_data = {
 			{

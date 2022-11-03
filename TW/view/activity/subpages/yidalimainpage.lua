@@ -11,7 +11,16 @@ function slot0.OnFirstFlush(slot0)
 	slot0.fight = slot0:findTF("fight", slot0.btnList)
 
 	onButton(slot0, slot0.fight, function ()
-		uv0:emit(ActivityMediator.BATTLE_OPERA)
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+	end, SFX_PANEL)
+
+	slot0.shop = slot0:findTF("shop", slot0.btnList)
+
+	onButton(slot0, slot0.shop, function ()
+		uv0:emit(ActivityMediator.GO_SHOPS_LAYER, {
+			actId = 40898,
+			warp = NewShopsScene.TYPE_ACTIVITY
+		})
 	end, SFX_PANEL)
 
 	slot0.build = slot0:findTF("build", slot0.btnList)
