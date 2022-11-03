@@ -2747,6 +2747,35 @@ pg.memory_group = {
 			2363
 		}
 	},
+	[229] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 229,
+		title = "싸워라! 로열 메이드 3rd?",
+		memories = {
+			2378,
+			2379,
+			2380,
+			2381,
+			2382
+		}
+	},
+	[230] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 230,
+		title = "핼러윈 밤의 '기묘한 만남'",
+		memories = {
+			2383,
+			2384,
+			2385,
+			2386,
+			2387,
+			2388
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3976,6 +4005,22 @@ pg.memory_group = {
 			2347
 		}
 	},
+	[579] = {
+		icon = "title_chara_huayue",
+		subtype = 0,
+		type = 3,
+		id = 579,
+		title = "꽃말",
+		memories = {
+			2371,
+			2372,
+			2373,
+			2374,
+			2375,
+			2376,
+			2377
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4105,6 +4150,8 @@ pg.memory_group = {
 		226,
 		227,
 		228,
+		229,
+		230,
 		501,
 		502,
 		503,
@@ -4180,6 +4227,7 @@ pg.memory_group = {
 		575,
 		576,
 		577,
-		578
+		578,
+		579
 	}
 }

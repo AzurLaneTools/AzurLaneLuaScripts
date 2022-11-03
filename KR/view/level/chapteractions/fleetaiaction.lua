@@ -102,11 +102,9 @@ end
 function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 	if slot1:getFleetIndex(FleetType.Normal, slot0.line.row, slot0.line.column) then
 		if slot1:isPlayingWithBombEnemy() then
-			if ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrierm, slot1:getMapShip(slot1.fleets[slot4]):getShipType()) then
-				slot2.viewComponent:doPlayStrikeAnim(slot6, "AirStrikeUI", slot3)
-			else
-				slot2.viewComponent:doPlayStrikeAnim(slot6, "CannonUI", slot3)
-			end
+			slot6 = slot1:getMapShip(slot1.fleets[slot4])
+
+			slot2.viewComponent:doPlayStrikeAnim(slot6, slot6:GetMapStrikeAnim(), slot3)
 		elseif slot0.actType == ChapterConst.ActType_Poison then
 			slot3()
 		else
@@ -120,11 +118,9 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 
 				if slot6.attachment == ChapterConst.AttachLandbase then
 					if pg.land_based_template[slot6.attachmentId].type == ChapterConst.LBCoastalGun then
-						if ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrier, slot1:getMapShip(slot5):getShipType()) then
-							slot2.viewComponent:doPlayStrikeAnim(slot8, "AirStrikeUI", slot3)
-						else
-							slot2.viewComponent:doPlayStrikeAnim(slot8, "CannonUI", slot3)
-						end
+						slot8 = slot1:getMapShip(slot5)
+
+						slot2.viewComponent:doPlayStrikeAnim(slot8, slot8:GetMapStrikeAnim(), slot3)
 					else
 						assert(false)
 					end
@@ -146,23 +142,32 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 				slot11:doPlayCommander(slot10, function ()
 					if uv0:GetType() == FleetSkill.TypeAttack then
 						slot0 = uv0
+						slot1 = nil
 
-						function slot1()
+						switch(slot0:GetArgs()[1], {
+							airfight = function ()
+								uv0 = "AirStrikeUI"
+							end,
+							torpedo = function ()
+								uv0 = "SubTorpedoUI"
+							end,
+							cannon = function ()
+								uv0 = "CannonUI"
+							end
+						})
+						assert(slot1)
+
+						slot2 = uv1.viewComponent
+						slot4 = uv2
+
+						slot2:doPlayStrikeAnim(slot4:getStrikeAnimShip(uv3, slot1), slot1, function ()
 							uv0.viewComponent:strikeEnemy(uv1.target, uv2, uv3)
-						end
+						end)
 
-						if slot0:GetArgs()[1] == "airfight" then
-							uv1.viewComponent:doPlayStrikeAnim(uv5:getCVship(uv6), "AirStrikeUI", slot1)
-						elseif slot0[1] == "torpedo" then
-							uv1.viewComponent:doPlayStrikeAnim(uv5:getTorpedoShip(uv6), "SubTorpedoUI", slot1)
-						elseif slot0[1] == "cannon" then
-							uv1.viewComponent:doPlayStrikeAnim(uv5:getBBship(uv6), "CannonUI", slot1)
-						else
-							assert(false)
-						end
-					else
-						assert(false)
+						return
 					end
+
+					assert(false)
 				end)
 
 				return

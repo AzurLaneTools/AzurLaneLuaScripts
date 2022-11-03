@@ -175,20 +175,13 @@ function slot0.Register(slot0)
 
 	slot1:AddCheckRemove(function (slot0, slot1, slot2, slot3, slot4)
 		if uv0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and uv0.contextData.system ~= SYSTEM_ACT_BOSS and uv0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
-			if not slot3:canRemove(slot2) then
-				slot5, slot6 = slot3:getShipPos(slot2)
-
-				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot2:getConfigTable().name, slot3.name, Fleet.C_TEAM_NAME[slot6]))
-				slot0()
-			else
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					zIndex = -100,
-					hideNo = false,
-					content = i18n("battle_preCombatLayer_quest_leaveFleet", slot2:getConfigTable().name),
-					onYes = slot1,
-					onNo = slot0
-				})
-			end
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				zIndex = -100,
+				hideNo = false,
+				content = i18n("battle_preCombatLayer_quest_leaveFleet", slot2:getConfigTable().name),
+				onYes = slot1,
+				onNo = slot0
+			})
 		else
 			slot0()
 		end
@@ -445,8 +438,9 @@ function slot0.didEnter(slot0)
 					content = i18n("battle_preCombatLayer_save_march"),
 					onYes = function ()
 						uv0:emit(ExercisePreCombatMediator.ON_COMMIT_EDIT, function ()
+							uv0._formationLogic:SwitchToPreviewMode()
 							pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
-							uv0()
+							uv1()
 						end)
 					end,
 					weight = LayerWeightConst.TOP_LAYER

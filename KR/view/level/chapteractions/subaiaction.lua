@@ -95,8 +95,9 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 				return slot0.row == uv0.target.row and slot0.column == uv0.target.column
 			end)
 			slot9 = "-" .. (slot6.data - (slot1:GetRawChapterCell(slot6.row, slot6.column) and slot7.data or 0)) / 100 .. "%"
+			slot10 = slot1.fleets[slot4]:getShips(false)[1]
 
-			slot2.viewComponent:doPlayStrikeAnim(slot1:getTorpedoShip(slot1.fleets[slot4]), "SubTorpedoUI", function ()
+			slot2.viewComponent:doPlayStrikeAnim(slot10, slot10:GetMapStrikeAnim(), function ()
 				uv0.viewComponent:strikeEnemy(uv1.target, uv2, uv3)
 			end)
 

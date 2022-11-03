@@ -34,7 +34,7 @@ pg.activity_const = {
 		act_id = 4528
 	},
 	ACTIVITY_BOSS_PT_ID = {
-		act_id = 4437
+		act_id = 4554
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -863,5 +863,8 @@ pg.activity_const = {
 	},
 	INVITATION_JP_FIFTH = {
 		act_id = 4533
+	},
+	ACTIVITY_BOSS_ALBION = {
+		act_id = 4552
 	}
 }

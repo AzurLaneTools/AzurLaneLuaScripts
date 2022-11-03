@@ -5626,6 +5626,27 @@ _G.pg.base.item_data_statistics[11052] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[11053] = {
+	display = "시퓨리 T0 설계도",
+	name = "시퓨리 T0 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11053,
+	is_world = 0,
+	icon = "Equips/27300",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[12000] = {
 	display = "93식 산소어뢰 T3 설계도",
 	name = "93식 산소어뢰 T3 설계도",
@@ -14731,6 +14752,121 @@ _G.pg.base.item_data_statistics[30338] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30339] = {
+	display = "유령 파티 스타일 장비스킨 1가지 랜덤 획득 가능",
+	name = "장비스킨 상자(핼러윈)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30339,
+	is_world = 0,
+	icon = "Props/appearanceboxwansheng",
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
 	name = "장비스킨 상자(월드 투어)",
@@ -16281,6 +16417,118 @@ _G.pg.base.item_data_statistics[30511] = {
 		{
 			9,
 			237,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30512] = {
+	display = "사용 시 「유령 파티」 테마 장비스킨 중 1가지 임의로 선택 획득 가능",
+	name = "지향형 장비스킨 상자(핼러윈)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30512,
+	is_world = 0,
+	icon = "Props/appearanceboxwanshengzixuan",
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
 			1
 		}
 	},
@@ -164946,6 +165194,147 @@ _G.pg.base.item_data_statistics[58718] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58719] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58719,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58720] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58720,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58721] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58721,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			11053,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 	name = "경험치",
@@ -169812,6 +170201,94 @@ _G.pg.base.item_data_statistics[59351] = {
 	id = 59351,
 	is_world = 0,
 	icon = "Props/hero_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59352] = {
+	display = "「싸워라! 로열 메이드 3rd?」 참여 시 얻는 포인트. 누적하여 보상 수령 가능",
+	name = "공헌도",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59352,
+	is_world = 0,
+	icon = "Props/albion_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59353] = {
+	display = "「싸워라! 로열 메이드 3rd?」 EX 스테이지 참가용. 일반 스테이지의 추가 보상 횟수를 증가시킬 수도 있다.",
+	name = "특별 도전권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59353,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59354] = {
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59354,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59355] = {
+	display = [[
+다음 템페스타 진영 장비가 포함되어 있다:
+<color=#ffde38>12파운드 캐논x2</color>
+<color=#d797ff>원형 솔리드탄x1</color>
+<color=#d797ff>용총줄 부품x1</color>]],
+	name = "템페스타의 선물",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59355,
+	is_world = 0,
+	icon = "Props/jvfengdekuizeng",
 	display_icon = {},
 	price = {},
 	index = {},

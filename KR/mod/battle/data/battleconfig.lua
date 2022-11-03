@@ -264,7 +264,8 @@ slot0.SHIP_TYPE_ACCURACY_ENHANCE = {
 	[ShipType.ChaoXun] = "accuracyToShipType_18",
 	[ShipType.Yunshu] = "accuracyToShipType_19",
 	[ShipType.DaoQuV] = "accuracyToShipType_20",
-	[ShipType.DaoQuM] = "accuracyToShipType_21"
+	[ShipType.DaoQuM] = "accuracyToShipType_21",
+	[ShipType.FengFanS] = "accuracyToShipType_22"
 }
 slot0.OXY_RAID_BASE_LINE_PVE = -20
 slot0.OXY_RAID_BASE_LINE_PVP = -20

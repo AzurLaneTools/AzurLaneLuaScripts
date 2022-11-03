@@ -226,7 +226,12 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot14)
 
 		slot7 = slot14.isHeal
-		slot1 = slot14.damage
+
+		if math.max(0, slot0._currentHP + slot14.damage - slot0:GetMaxHP()) > 0 then
+			slot0:TriggerBuff(uv0.BuffEffectType.ON_OVER_HEALING, {
+				overHealing = slot15
+			})
+		end
 	end
 
 	slot14 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))

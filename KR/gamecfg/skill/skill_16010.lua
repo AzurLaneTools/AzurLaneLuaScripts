@@ -7,72 +7,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					duration = 5
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
-				targetAniEffect = "",
-				arg_list = {
-					duration = 5.5
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
-				targetAniEffect = "",
-				arg_list = {
-					duration = 6
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
-				targetAniEffect = "",
-				arg_list = {
-					duration = 6.5
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
-				targetAniEffect = "",
-				arg_list = {
-					duration = 7
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
-				targetAniEffect = "",
-				arg_list = {
-					duration = 7.5
+					duration = 8
 				}
 			}
 		}
@@ -98,7 +33,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					duration = 8.5
+					duration = 8
 				}
 			}
 		}
@@ -111,7 +46,72 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					duration = 9
+					duration = 8
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillSonar",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					duration = 8
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillSonar",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					duration = 8
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillSonar",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					duration = 8
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillSonar",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					duration = 8
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillSonar",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					duration = 8
 				}
 			}
 		}

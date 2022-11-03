@@ -7,7 +7,7 @@ function slot0.Entrance(slot0, slot1)
 		return
 	end
 
-	slot2 = slot0.actID
+	slot2 = slot0.actId
 	slot3 = getProxy(PlayerProxy)
 	slot4 = getProxy(BayProxy)
 	slot5 = getProxy(FleetProxy)
@@ -44,8 +44,7 @@ function slot0.Entrance(slot0, slot1)
 
 	slot1.ShipVertify()
 	BeginStageCommand.SendRequest(SYSTEM_HP_SHARE_ACT_BOSS, slot8, {
-		slot21,
-		attachData
+		slot21
 	}, function (slot0)
 		if uv0 then
 			uv1:consume({
@@ -58,7 +57,7 @@ function slot0.Entrance(slot0, slot1)
 			[id2res(uv3)] = 1
 		})
 
-		if uv4.enter_energy_cost > 0 and not exFlag then
+		if uv4.enter_energy_cost > 0 then
 			slot2 = pg.gameset.battle_consume_energy.key_value
 
 			for slot6, slot7 in ipairs(uv5) do
@@ -86,7 +85,7 @@ end
 function slot0.Exit(slot0, slot1)
 	slot2 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS]
 	slot4 = getProxy(BayProxy)
-	slot7 = getProxy(FleetProxy):getActivityFleets()[slot0.actID][slot0.mainFleetId]
+	slot7 = getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId]
 	slot8 = 0
 	slot9 = {}
 	slot8 = slot7:getEndCost().oil
@@ -140,7 +139,7 @@ function slot0.Exit(slot0, slot1)
 		uv2.statistics.mvpShipID = slot0.mvp
 		slot1, slot2 = uv1:GeneralLoot(slot0)
 
-		uv1.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv4, uv6, slot0.player_exp, exFlag)
+		uv1.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv4, uv6, slot0.player_exp)
 		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_HP_SHARE_ACT_BOSS,
 			statistics = uv2.statistics,

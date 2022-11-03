@@ -360,6 +360,32 @@ pg.activity_task_permanent = {
 			35181
 		}
 	},
+	[6015] = {
+		gametip = "베일리 한정 스킨 「장난스러운 베일리」 획득 가능",
+		banner_route = "permanent_beili",
+		gametip_extra = "7일만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6015,
+		activity_name = "장난스런 핼러윈",
+		over_task_id = "",
+		eliminate_task_id = {
+			35182,
+			35183,
+			35184,
+			35185,
+			35186,
+			35187,
+			35188,
+			35189,
+			35190,
+			35191,
+			35192,
+			35193,
+			35194,
+			35195
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -375,6 +401,7 @@ pg.activity_task_permanent = {
 		6011,
 		6012,
 		6013,
-		6014
+		6014,
+		6015
 	}
 }

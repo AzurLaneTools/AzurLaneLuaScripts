@@ -809,4 +809,16 @@ function slot0.getInvestSums(slot0)
 	end), 0.6666666666666666)
 end
 
+function slot0.ExistActNpcShip(slot0)
+	slot1 = getProxy(BayProxy)
+
+	for slot5, slot6 in ipairs(slot0.ships) do
+		if slot1:RawGetShipById(slot6) and slot7:isActivityNpc() then
+			return true
+		end
+	end
+
+	return false
+end
+
 return slot0

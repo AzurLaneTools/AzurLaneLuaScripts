@@ -270,7 +270,7 @@ function slot0.didEnter(slot0)
 			uv0:filterEquipment()
 		end
 	end, SFX_PANEL)
-	setActive(slot0.equipmentToggle:Find("spweapon"), PLATFORM_CODE ~= PLATFORM_CHT and not LOCK_SP_WEAPON)
+	setActive(slot0.equipmentToggle:Find("spweapon"), not LOCK_SP_WEAPON)
 	onToggle(slot0, slot0.designTabs[uv3], function (slot0)
 		if slot0 then
 			uv0.contextData.designPage = uv1
@@ -595,7 +595,7 @@ function slot0.didEnter(slot0)
 			uv0:emit(EquipmentMediator.CLOSE_SPWEAPON_DESIGN_LAYER)
 		end
 
-		setActive(uv0.designTabRoot, slot0 and PLATFORM_CODE ~= PLATFORM_CHT and not LOCK_SP_WEAPON)
+		setActive(uv0.designTabRoot, slot0 and not LOCK_SP_WEAPON)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.filterBusyToggle, function (slot0)
 		uv0:SetShowBusyFlag(slot0)

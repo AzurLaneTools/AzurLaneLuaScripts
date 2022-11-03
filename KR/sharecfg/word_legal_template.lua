@@ -6499,6 +6499,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["비"] = {
+			["온"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -8606,6 +8611,11 @@ function temp()
 			["린"] = {
 				this = true
 			}
+		},
+		["너"] = {
+			["스"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -9085,6 +9095,15 @@ function temp()
 		},
 		["마"] = {
 			this = true
+		},
+		["열"] = {
+			[" "] = {
+				["포"] = {
+					["춘"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -10601,6 +10620,20 @@ function temp()
 	uv0["&"] = {
 		["&"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["맨"] = {
+		["체"] = {
+			["스"] = {
+				["터"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

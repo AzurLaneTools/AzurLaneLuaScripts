@@ -28455,6 +28455,290 @@ _G.pg.base.task_data_template[5807] = {
 	}
 }
 
+_G.pg.base.task_data_template[5811] = {
+	name = "1.꽃에서 온 선물",
+	guild_coin_award = 0,
+	award = 5583,
+	type = 5,
+	desc = "어뢰 튀김을 3개 제출한다",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5812",
+	auto_commit = 0,
+	story_id = "HUAYUE1",
+	id = 5811,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5812] = {
+	name = "2.꽃에 둘러싸인 채",
+	guild_coin_award = 0,
+	award = 5584,
+	type = 5,
+	desc = "임의의 함선소녀를 10회 강화한다",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5813",
+	auto_commit = 0,
+	scene = "",
+	id = 5812,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5813] = {
+	name = "3.마음 속 숨겨진 감정",
+	guild_coin_award = 0,
+	award = 5585,
+	type = 5,
+	desc = "하나즈키를 포함한 함대를 출격시켜\n20회 승리한다.",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "5814",
+	auto_commit = 0,
+	scene = "",
+	id = 5813,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5814] = {
+	name = "4.소녀의 진실한 마음",
+	guild_coin_award = 0,
+	award = 5586,
+	type = 5,
+	desc = "하나즈키를 포함한 함대로 데일리 챌린지를\n3회 클리어한다.",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "5815",
+	auto_commit = 0,
+	scene = "",
+	id = 5814,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5815] = {
+	name = "5.지워지지 않는 그리움",
+	guild_coin_award = 0,
+	award = 5587,
+	type = 5,
+	desc = "하나즈키의 호감도를 100까지 달성한다.",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "5816",
+	auto_commit = 0,
+	scene = "",
+	id = 5815,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5816] = {
+	name = "6.행복이 찾아온다.",
+	guild_coin_award = 0,
+	award = 5588,
+	type = 5,
+	desc = "하나즈키의 한계돌파를 3회 진행한다.",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "5817",
+	auto_commit = 0,
+	scene = "",
+	id = 5816,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5817] = {
+	name = "7.눈앞의 행복을 소중히 여기기",
+	guild_coin_award = 0,
+	award = 5589,
+	type = 5,
+	desc = "하나즈키의 레벨을 100까지 달성한다.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "huayue",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "HUAYUE7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30182",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5817,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "어려움·근해 연습 ",
 	guild_coin_award = 0,
@@ -175159,6 +175443,708 @@ _G.pg.base.task_data_template[18014] = {
 	}
 }
 
+_G.pg.base.task_data_template[18015] = {
+	name = "『英系共斗』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 98380,
+	type = 6,
+	desc = "장비스킨 상자(핼러윈) 20개 오픈",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "30339",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18015,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30512,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18016] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务1",
+	guild_coin_award = 0,
+	award = 98309,
+	type = 36,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18016,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18017] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务2",
+	guild_coin_award = 0,
+	award = 98310,
+	type = 36,
+	desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18017,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18018] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务3",
+	guild_coin_award = 0,
+	award = 98311,
+	type = 36,
+	desc = "임의의 메인 스테이지 어려움 모드를 3회 클리어",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18018,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18019] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务4",
+	guild_coin_award = 0,
+	award = 98312,
+	type = 36,
+	desc = "『싸워라! 로열 메이드 3rd?』 임의의 난이도 스테이지 5회 클리어",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18019,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1689001,
+		1689002,
+		1689003,
+		1689004
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
+	}
+}
+
+_G.pg.base.task_data_template[18020] = {
+	name = "2022阿尔比恩世界BOSS挑战券任务5",
+	guild_coin_award = 0,
+	award = 98313,
+	type = 36,
+	desc = "『싸워라! 로열 메이드 3rd?』 임의의 난이도 스테이지 10회 클리어",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18020,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1689001,
+		1689002,
+		1689003,
+		1689004
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2015,
+			1
+		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
+	}
+}
+
+_G.pg.base.task_data_template[18021] = {
+	name = "万圣节皇家财富号任务1",
+	guild_coin_award = 0,
+	award = 98366,
+	type = 26,
+	desc = "함대를 출격시켜, S랭크로 10회 승리하라!",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18021,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18022] = {
+	name = "万圣节皇家财富号任务2",
+	guild_coin_award = 0,
+	award = 98367,
+	type = 26,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18022,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18023] = {
+	name = "万圣节皇家财富号任务3",
+	guild_coin_award = 0,
+	award = 98368,
+	type = 26,
+	desc = "연습전 2회 진행",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18023,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18024] = {
+	name = "万圣节皇家财富号任务4",
+	guild_coin_award = 0,
+	award = 98369,
+	type = 26,
+	desc = "군사 의뢰를 2회 완수한다.",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18024,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18025] = {
+	name = "万圣节皇家财富号任务5",
+	guild_coin_award = 0,
+	award = 98370,
+	type = 26,
+	desc = "함선을 2척 「퇴역」시켜서 함대를 재정비하라!",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18025,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18026] = {
+	name = "万圣节皇家财富号任务6",
+	guild_coin_award = 0,
+	award = 98371,
+	type = 26,
+	desc = "군사 의뢰 3회 완료",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18026,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18027] = {
+	name = "万圣节皇家财富号任务7",
+	guild_coin_award = 0,
+	award = 98372,
+	type = 26,
+	desc = "함선 강화 5회 진행",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18027,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18028] = {
+	name = "万圣节皇家财富号任务8",
+	guild_coin_award = 0,
+	award = 98373,
+	type = 26,
+	desc = "전술학원에서 전술훈련을 2번 수행한다",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18028,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18030] = {
+	name = "万圣节皇家财富号任务9",
+	guild_coin_award = 0,
+	award = 98375,
+	type = 26,
+	desc = "숙소 식량 보충 5회",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18030,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18031] = {
+	name = "万圣节皇家财富号任务10",
+	guild_coin_award = 0,
+	award = 98376,
+	type = 26,
+	desc = "건조를 2회 진행한다.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18031,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18032] = {
+	name = "万圣节皇家财富号任务11",
+	guild_coin_award = 0,
+	award = 98378,
+	type = 26,
+	desc = "장비 상자를 1개 오픈한다",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18032,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59355,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18034] = {
+	name = "万圣节皇家财富号任务12",
+	guild_coin_award = 0,
+	award = 98379,
+	type = 26,
+	desc = "함대를 출격시켜, 전투에서 3번 승리하라!",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18034,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			9600011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18035] = {
+	name = "『万圣节』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98381,
+	type = 6,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18035,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			282,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "전투승리-일상",
 	guild_coin_award = 0,
@@ -182616,6 +183602,516 @@ _G.pg.base.task_data_template[35181] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35182] = {
+	name = "【常驻活动】贝利万圣节皮肤1",
+	guild_coin_award = 0,
+	award = 65181,
+	type = 26,
+	desc = "함대를 출격시켜, S랭크로 10회 승리하라!",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35182,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35183] = {
+	name = "【常驻活动】贝利万圣节皮肤1",
+	guild_coin_award = 0,
+	award = 65182,
+	type = 26,
+	desc = "장비를 2번 강화한다",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35183,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35184] = {
+	name = "【常驻活动】贝利万圣节皮肤2",
+	guild_coin_award = 0,
+	award = 65183,
+	type = 26,
+	desc = "군사의뢰를 2회 완성하라!",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35184,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35185] = {
+	name = "【常驻活动】贝利万圣节皮肤2",
+	guild_coin_award = 0,
+	award = 65184,
+	type = 26,
+	desc = "건조를 2회 진행한다.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35185,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35186] = {
+	name = "【常驻活动】贝利万圣节皮肤3",
+	guild_coin_award = 0,
+	award = 65185,
+	type = 26,
+	desc = "함선을 2척 퇴역시킨다.",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35186,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35187] = {
+	name = "【常驻活动】贝利万圣节皮肤3",
+	guild_coin_award = 0,
+	award = 65186,
+	type = 26,
+	desc = "데일리 챌린지를 3회 실시하라!",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35187,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35188] = {
+	name = "【常驻活动】贝利万圣节皮肤4",
+	guild_coin_award = 0,
+	award = 65187,
+	type = 26,
+	desc = "임의의 메인 해역 어려움 스테이지 2회 클리어",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35188,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35189] = {
+	name = "【常驻活动】贝利万圣节皮肤4",
+	guild_coin_award = 0,
+	award = 65188,
+	type = 26,
+	desc = "함선을 5번 강화한다.",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35189,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35190] = {
+	name = "【常驻活动】贝利万圣节皮肤5",
+	guild_coin_award = 0,
+	award = 65189,
+	type = 26,
+	desc = "숙소에서 식량을 5회 보충한다.",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35190,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50003,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35191] = {
+	name = "【常驻活动】贝利万圣节皮肤5",
+	guild_coin_award = 0,
+	award = 65190,
+	type = 26,
+	desc = "임의의 함선을 20척 격파한다",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35191,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35192] = {
+	name = "【常驻活动】贝利万圣节皮肤6",
+	guild_coin_award = 0,
+	award = 65191,
+	type = 26,
+	desc = "건조를 2회 진행한다.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35192,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35193] = {
+	name = "【常驻活动】贝利万圣节皮肤6",
+	guild_coin_award = 0,
+	award = 65192,
+	type = 26,
+	desc = "함대를 출격시켜, S랭크로 10회 승리하라!",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35193,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35194] = {
+	name = "【常驻活动】贝利万圣节皮肤7",
+	guild_coin_award = 0,
+	award = 65193,
+	type = 26,
+	desc = "적 기함 3회 처치",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35194,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35195] = {
+	name = "【常驻活动】贝利万圣节皮肤7",
+	guild_coin_award = 0,
+	award = 65194,
+	type = 26,
+	desc = "전술학원에서 전술훈련을 2번 수행한다",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35195,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			101271,
+			1
+		}
 	}
 }
 

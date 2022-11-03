@@ -604,6 +604,40 @@ pg.ship_data_by_type = {
 			55
 		}
 	},
+	[22] = {
+		distory_resource_gold_ratio = 12,
+		energy_recover_time_ratio = 1,
+		team_limit = 3,
+		fix_resource_gold = 8,
+		distory_resource_oil_ratio = 0,
+		energy_recover_food_ratio = 0.09,
+		ship_type = 22,
+		type_name = "범선",
+		team_type = "submarine",
+		property_filter = {
+			"durability",
+			"cannon",
+			"torpedo"
+		},
+		strengthen_choose_type = {
+			1,
+			8,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			10,
+			9,
+			6,
+			7,
+			12
+		},
+		arena_buff = {
+			55
+		}
+	},
 	all = {
 		1,
 		2,
@@ -622,6 +656,7 @@ pg.ship_data_by_type = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	}
 }

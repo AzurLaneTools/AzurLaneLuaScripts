@@ -2191,44 +2191,10 @@ function slot0.getMapShip(slot0, slot1)
 	return slot2
 end
 
-function slot0.getTorpedoShip(slot0, slot1)
-	slot2 = nil
-
-	if slot1:getFleetType() == FleetType.Submarine then
-		slot2 = slot1:getShipsByTeam(TeamType.Submarine, false)[1]
-	elseif slot1:getFleetType() == FleetType.Normal then
-		slot2 = _.detect(slot1:getShipsByTeam(TeamType.Vanguard, false), function (slot0)
-			return ShipType.IsTypeQuZhu(slot0:getShipType())
-		end) or _.detect(slot1:getShipsByTeam(TeamType.Main, false), function (slot0)
-			return ShipType.IsTypeQuZhu(slot0:getShipType())
-		end)
-	end
-
-	return slot2
-end
-
-function slot0.getCVship(slot0, slot1)
-	slot2 = nil
-
-	if slot1:getFleetType() == FleetType.Normal then
-		slot2 = _.detect(slot1:getShipsByTeam(TeamType.Main, false), function (slot0)
-			return ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrier, slot0:getShipType())
-		end)
-	end
-
-	return slot2
-end
-
-function slot0.getBBship(slot0, slot1)
-	slot2 = nil
-
-	if slot1:getFleetType() == FleetType.Normal then
-		slot2 = _.detect(slot1:getShipsByTeam(TeamType.Main, false), function (slot0)
-			return ShipType.ContainInLimitBundle(ShipType.BundleBattleShip, slot0:getShipType())
-		end)
-	end
-
-	return slot2
+function slot0.getStrikeAnimShip(slot0, slot1, slot2)
+	return underscore.detect(slot1:getShips(false), function (slot0)
+		return slot0:GetMapStrikeAnim() == uv0
+	end)
 end
 
 function slot0.GetSubmarineFleet(slot0)

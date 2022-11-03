@@ -3210,6 +3210,10 @@ _G.pg.base.gametip.spweapon_tip_unload = {
 	tip = "특수 장비가 창고로 반환되었습니다."
 }
 
+_G.pg.base.gametip.spweapon_tip_sail_locked = {
+	tip = "해당 함종은 특수 장비 슬롯이 잠시 개방되지 않습니다."
+}
+
 _G.pg.base.gametip.spweapon_ui_level = {
 	tip = "강화 레벨"
 }
@@ -5090,6 +5094,10 @@ _G.pg.base.gametip.word_shipNation_link = {
 
 _G.pg.base.gametip.word_shipNation_ssss = {
 	tip = "SSSS"
+}
+
+_G.pg.base.gametip.word_shipNation_mot = {
+	tip = "템페스타"
 }
 
 _G.pg.base.gametip.word_reset = {
@@ -9778,7 +9786,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "건조 200회 누적 시마다 UR 함선 {namecode:84} 획득 가능(최대 4회)"
+	tip = "알비온, 재너스 등 캐릭터 건조 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10727,12 +10735,9 @@ _G.pg.base.gametip.world_boss_help = {
 수 없습니다.</color><color=#ff5c5c> 반드시 원활한 네트워크 환경에서 「EX」 연습 
 전투를 진행해 주세요.</color>
 3. 「이지」, 「노멀」, 「하드 」 연습 전투 시, 네트워크
- 중단이나 중도 퇴장 등으로 전투가 중단되면 전투 상황이 
-저장되며, 「추가 수익 횟수」로는 보상을 획득할 수
-없습니다.
+ 중단이나 중도 퇴장 등으로 전투가 중단되면 「추가 수익 횟수」가 보류되며, 보상은 획득할 수 없습니다.
 4. 모든 난이도의 연습 전투에서는 중상을 입어도 함선 소녀의 
-기분이 변화하지 않으며, 이 외의 경우에는 정상적으로 기분이 
-변화합니다.
+기분이 변화하지 않으며, 이 외의 경우에는 정상적으로 기분이 변화합니다.
 5. 모든 난이도의 연습 전투에서는 연료를 소모하며, 지휘관, 
 출격 함선 소녀, 지휘냥 경험치를 획득합니다. 
 ]]
@@ -10771,7 +10776,7 @@ _G.pg.base.gametip.world_boss_help = {
 10. 이벤트 기간 동안 개인 공헌 보상을 획득할 수 있으며, 
 개인 공헌 보상은 거점 공략 진도와 보유한 「공헌도」가 일정 
 수치를 달성한 이후 수령할 수 있습니다.
-11. 7.7~7.21 기간 동안 연습 전투에 참여할 수 있으며, 7월 27일 23:59:59까지 보상을 수령할 수 있습니다.]]
+11. 11.3~11.17 기간 동안 연습 전투에 참여할 수 있으며, 11월 23일 23:59:59까지 보상을 수령할 수 있습니다.]]
 		},
 		{
 			info = [[
@@ -11759,6 +11764,10 @@ _G.pg.base.gametip.returner_push_tip = {
 
 _G.pg.base.gametip.returner_match_tip = {
 	tip = "매칭 후, 랜덤으로 시스템에 있는 모집자의 UID 정보와 연결됩니다. 확인을 터치해 연결하면 <color=#FF5C5C>변경할 수 없습니다.</color> 연결 하시겠습니까?"
+}
+
+_G.pg.base.gametip.return_lock_tip = {
+	tip = "기능 점검 중. 11월 24일 해제 예정"
 }
 
 _G.pg.base.gametip.challenge_help = {
@@ -21235,4 +21244,20 @@ _G.pg.base.gametip.random_flag_ship = {
 
 _G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
 	tip = "스킨 변경"
+}
+
+_G.pg.base.gametip.expedition_drop_use_out = {
+	tip = "금일 해당 난이도의 추가 수익 횟수를 모두 사용하였습니다!"
+}
+
+_G.pg.base.gametip.expedition_extra_drop_tip = {
+	tip = "추가 수익 횟수:"
+}
+
+_G.pg.base.gametip.ex_pass_use = {
+	tip = "사용"
+}
+
+_G.pg.base.gametip.defense_formation_tip_npc = {
+	tip = "제1함대에 <color=#92fc63>임시 가입한 캐릭터</color>가 존재하여 연습전 함대에 편성할 수 없습니다."
 }

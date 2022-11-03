@@ -1,4 +1,63 @@
-slot0 = class("BattleGuildBossResultLayer", import(".BattleContributionResultLayer"))
+slot0 = class("BattleGuildBossResultLayer", import(".BattleResultLayer"))
+
+function slot0.showRightBottomPanel(slot0)
+	uv0.super.showRightBottomPanel(slot0)
+	SetActive(slot0._rightBottomPanel, false)
+
+	slot1 = slot0._blurConatiner:Find("activitybossConfirmPanel")
+
+	setActive(slot1, true)
+	onButton(slot0, slot1:Find("statisticsBtn"), function ()
+		triggerButton(uv0._statisticsBtn)
+	end, SFX_PANEL)
+	setText(slot1:Find("confirmBtn/Image"), i18n("text_confirm"))
+	onButton(slot0, slot1:Find("confirmBtn"), function ()
+		triggerButton(uv0._confirmBtn)
+	end, SFX_CONFIRM)
+	setText(slot1:Find("confirmBtn/Image"), i18n("text_confirm"))
+end
+
+function slot0.didEnter(slot0)
+	uv0.super.didEnter(slot0)
+	slot0:setPoint()
+end
+
+function slot0.setGradeLabel(slot0)
+	setActive(slot0:findTF("grade/Xyz/bg13"), false)
+	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0:findTF("grade/Xyz/bg14"), false)
+end
+
+function slot0.rankAnimaFinish(slot0)
+	setActive(slot0._conditionBGNormal, false)
+	setActive(slot0._conditionBGContribute, true)
+	slot0:setCondition(i18n("battle_result_total_damage"), slot0.contextData.statistics.specificDamage, COLOR_BLUE)
+	slot0:setCondition(i18n("battle_result_contribution"), slot0._contributionPoint, COLOR_YELLOW)
+	table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
+		uv0._stateFlag = uv1.STATE_REPORTED
+
+		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+	end)).id)
+
+	slot0._stateFlag = uv0.STATE_REPORT
+end
+
+function slot0.setCondition(slot0, slot1, slot2, slot3)
+	slot4 = cloneTplTo(slot0._conditionContributeTpl, slot0._conditionContainer)
+
+	setActive(slot4, false)
+
+	slot5 = nil
+	slot4:Find("text"):GetComponent(typeof(Text)).text = setColorStr(slot1, "#FFFFFFFF")
+	slot4:Find("value"):GetComponent(typeof(Text)).text = setColorStr(slot2, slot3)
+
+	if slot0._conditionContainer.childCount - 1 > 0 then
+		table.insert(slot0._delayLeanList, LeanTween.delayedCall(uv0.CONDITIONS_FREQUENCE * slot8, System.Action(function ()
+			setActive(uv0, true)
+		end)).id)
+	else
+		setActive(slot4, true)
+	end
+end
 
 function slot0.setActId(slot0, slot1)
 end

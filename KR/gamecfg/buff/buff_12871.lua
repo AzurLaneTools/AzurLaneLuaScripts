@@ -32,7 +32,7 @@ return {
 					"TargetShipTag"
 				},
 				ship_tag_list = {
-					"Ryuho"
+					"Ryuhou"
 				}
 			}
 		},
@@ -60,7 +60,7 @@ return {
 					"TargetShipTag"
 				},
 				ship_tag_list = {
-					"Ryuho"
+					"Ryuhou"
 				}
 			}
 		}

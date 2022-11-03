@@ -153,13 +153,29 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot3(uv3)
 		end
 
+		function slot5()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("defense_formation_tip_npc"),
+				onYes = function ()
+					uv0(false)
+				end,
+				onNo = function ()
+					uv0(false)
+				end
+			})
+		end
+
 		if #slot0 > 0 then
 			slot4(true)
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("exercise_clear_fleet_tip"),
 				onYes = function ()
-					uv0(true)
+					if not getProxy(FleetProxy):getFleetById(1):ExistActNpcShip() then
+						uv0(true)
+					else
+						uv1()
+					end
 				end,
 				onNo = function ()
 					uv0(false)
