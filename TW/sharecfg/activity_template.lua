@@ -21060,7 +21060,6 @@ pg.activity_template = {
 		},
 		config_client = {
 			16268,
-			shopLinkActID = 40898,
 			linkActID = 40890
 		}
 	},
