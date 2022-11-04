@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"\n\n<size=45>4. 소녀의 진실한 마음</size>",
+					"꽃말\n\n<size=45>4. 소녀의 진실한 마음</size>",
 					1
 				}
 			}
