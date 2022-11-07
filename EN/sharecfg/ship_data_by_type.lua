@@ -612,7 +612,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.09,
 		ship_type = 22,
-		type_name = "IX",
+		type_name = "Sailing Frigate",
 		team_type = "submarine",
 		property_filter = {
 			"durability",

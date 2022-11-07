@@ -71772,7 +71772,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 18460,
 		type = 1,
 		max_level = 10,
-		desc = "When this ship launches an Airstrike: $1 chance to inflict 234 DMG to all enemies and reduce their SPD to 0 for 2.5s, returning to normal over 1.5s.",
+		desc = "When this ship launches an Airstrike: $1 chance to inflict 234 DMG to all enemies and gradually reduce their SPD to 0 over 2.5s, then returning to normal instantly after 1.5s.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -76284,7 +76284,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 19460,
 		type = 1,
 		max_level = 10,
-		desc = "When this ship launches an Airstrike: $1 chance to inflict 234 DMG to all enemies and reduce their Speed to 0 for 2.5s, restored to normal over 1s.",
+		desc = "When this ship launches an Airstrike: $1 chance to inflict 234 DMG to all enemies and gradually reduce their SPD to 0 over 2.5s, then returning to normal instantly after 1s.",
 		system_transform = {},
 		world_death_mark = {
 			1

@@ -8869,7 +8869,7 @@ _G.pg.base.ship_skin_words[105120] = {
 	vote = "",
 	hp_warning = "Sisters, hold on!",
 	id = 105120,
-	detail = "Being stared like that makes a bit shy...",
+	detail = "Being stared like that makes me a bit shy...",
 	couple_encourage = {}
 }
 
@@ -36477,7 +36477,7 @@ _G.pg.base.ship_skin_words[306090] = {
 	feeling4 = "Oh, the things I'd do for a lap pillow from Chitose right now♡. Seeing she isn't around right now, I guess I'll need a temporary replacement... Hm, maybe the Commander who's slacking off right now. Hey, if you don't want the others to find out you're slacking off, give up your lap to me~ Hehehe... Mmn~",
 	unlock = "Hehe, looks like I've kept you waiting! I am the renowned seaplane carrier– err, I mean, aircraft carrier, Chiyoda! In any case, I'll be staying here! Right, right, is my sister Chitose here as well?",
 	feeling5 = "Y-yeah, I, I guess I've gotten pretty close to you... What would Chitose say if she saw you pampering me like this? Hm... If she saw us like this, she'd probably say, \"I love both of you, so it's fine.\" or something. Yeah, she'd definitely say something like that! Hahaha!",
-	main = "Taaake that! ...Hmm? No reaction... Commander, sometimes you're so much like Chitose, it's honestly quite a letdown...|Doesn't Chitose have really silky hair that smells just divine? Actually, I'm the one who takes care of it everyday.|Whenever we rehearse the dance with Yamashiro and Fusou, some kind of trouble always occurs... Like something falling, or flying off somewhere. But really? I find it find it all to be pretty funny!",
+	main = "Taaake that! ...Hmm? No reaction... Commander, sometimes you're so much like Chitose, it's honestly quite a letdown...|Doesn't Chitose have really silky hair that smells just divine? Actually, I'm the one who takes care of it everyday.|Whenever we rehearse the dance with Yamashiro and Fusou, some kind of trouble always occurs... Like something falling, or flying off somewhere. But really? I find it all to be pretty funny!",
 	battle = "Let's kick some fine enemy butt on this wonderful day!",
 	upgrade = "Oooh~ I really want to show the new and improved Chiyoda off to Chitose♡",
 	voice_key = 30609,
