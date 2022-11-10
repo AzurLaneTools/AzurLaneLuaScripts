@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然啦，虽然是我是海盗，不过诚信有时候也是很重要的哦！",
+			say = "当然啦，虽然说我是海盗，不过诚信有时候也是很重要的哦！",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

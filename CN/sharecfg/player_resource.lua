@@ -905,6 +905,21 @@ pg.player_resource = {
 		name = "skinTicket39",
 		itemid = 59354
 	},
+	[283] = {
+		id = 283,
+		name = "dexiv3_pt2",
+		itemid = 59357
+	},
+	[284] = {
+		id = 284,
+		name = "skinTicket40",
+		itemid = 59359
+	},
+	[285] = {
+		id = 285,
+		name = "newserver_pt_221110",
+		itemid = 59362
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1674,6 +1689,15 @@ pg.player_resource = {
 		skinTicket39 = {
 			282
 		},
+		dexiv3_pt2 = {
+			283
+		},
+		skinTicket40 = {
+			284
+		},
+		newserver_pt_221110 = {
+			285
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1992,6 +2016,9 @@ pg.player_resource = {
 		280,
 		281,
 		282,
+		283,
+		284,
+		285,
 		950,
 		951,
 		952,

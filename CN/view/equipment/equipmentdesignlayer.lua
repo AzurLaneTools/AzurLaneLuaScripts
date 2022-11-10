@@ -450,35 +450,35 @@ function slot0.getDesignVO(slot0, slot1)
 	return slot2
 end
 
-function slot0.filter(slot0, slot1)
+function slot0.filter(slot0, slot1, slot2)
 	GetSpriteFromAtlasAsync("ui/commonui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
 		setImageSprite(uv0.indexBtn, slot0, true)
 	end)
 
-	slot4 = {}
-	slot5 = slot0.asc
+	slot5 = {}
+	slot6 = slot0.asc
 
-	for slot9, slot10 in ipairs(pg.compose_data_template.all) do
-		if slot0:getItemById(pg.compose_data_template[slot10].material_id).count > 0 then
-			table.insert(slot4, slot10)
+	for slot10, slot11 in ipairs(pg.compose_data_template.all) do
+		if slot0:getItemById(pg.compose_data_template[slot11].material_id).count > 0 then
+			table.insert(slot5, slot11)
 		end
 	end
 
-	slot6 = {}
-	slot7 = table.mergeArray({}, {
+	slot7 = {}
+	slot8 = table.mergeArray({}, {
 		slot0.contextData.indexDatas.equipPropertyIndex,
 		slot0.contextData.indexDatas.equipPropertyIndex2
 	}, true)
 
-	for slot11, slot12 in pairs(slot4) do
-		if IndexConst.filterEquipByType(slot0:getDesignVO(slot12), slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot13, slot7) and IndexConst.filterEquipAmmo1(slot13, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot13, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot13, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot13, slot0.contextData.indexDatas.rarityIndex) then
-			table.insert(slot6, slot12)
+	for slot12, slot13 in pairs(slot5) do
+		if IndexConst.filterEquipByType(slot0:getDesignVO(slot13), slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot14, slot8) and IndexConst.filterEquipAmmo1(slot14, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot14, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot14, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot14, slot0.contextData.indexDatas.rarityIndex) then
+			table.insert(slot7, slot13)
 		end
 	end
 
 	if slot1 == 1 then
-		if slot5 then
-			table.sort(slot6, function (slot0, slot1)
+		if slot6 then
+			table.sort(slot7, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).canMake == uv0:getDesignVO(slot1).canMake then
 					if slot2.equipmentCfg.rarity == slot3.equipmentCfg.rarity then
 						return slot2.equipmentCfg.id < slot3.equipmentCfg.id
@@ -490,7 +490,7 @@ function slot0.filter(slot0, slot1)
 				end
 			end)
 		else
-			table.sort(slot6, function (slot0, slot1)
+			table.sort(slot7, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).canMake == uv0:getDesignVO(slot1).canMake then
 					if slot2.equipmentCfg.rarity == slot3.equipmentCfg.rarity then
 						return slot2.equipmentCfg.id < slot3.equipmentCfg.id
@@ -504,7 +504,7 @@ function slot0.filter(slot0, slot1)
 		end
 	elseif slot1 == 2 then
 		if slot0.asc then
-			table.sort(slot6, function (slot0, slot1)
+			table.sort(slot7, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).equipmentCfg.rarity == uv0:getDesignVO(slot1).equipmentCfg.rarity then
 					return slot2.equipmentCfg.id < slot2.equipmentCfg.id
 				end
@@ -512,7 +512,7 @@ function slot0.filter(slot0, slot1)
 				return slot2.equipmentCfg.rarity < slot3.equipmentCfg.rarity
 			end)
 		else
-			table.sort(slot6, function (slot0, slot1)
+			table.sort(slot7, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).equipmentCfg.rarity == uv0:getDesignVO(slot1).equipmentCfg.rarity then
 					return slot2.equipmentCfg.id < slot2.equipmentCfg.id
 				end
@@ -522,7 +522,7 @@ function slot0.filter(slot0, slot1)
 		end
 	elseif slot1 == 3 then
 		if slot0.asc then
-			table.sort(slot6, function (slot0, slot1)
+			table.sort(slot7, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).itemCount == uv0:getDesignVO(slot1).itemCount then
 					return slot2.equipmentCfg.id < slot3.equipmentCfg.id
 				end
@@ -530,7 +530,7 @@ function slot0.filter(slot0, slot1)
 				return slot2.itemCount < slot3.itemCount
 			end)
 		else
-			table.sort(slot6, function (slot0, slot1)
+			table.sort(slot7, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).itemCount == uv0:getDesignVO(slot1).itemCount then
 					return slot2.equipmentCfg.id < slot3.equipmentCfg.id
 				end
@@ -540,10 +540,10 @@ function slot0.filter(slot0, slot1)
 		end
 	end
 
-	slot0.desginIds = slot6
+	slot0.desginIds = slot7
 
-	slot0.scollRect:SetTotalCount(#slot6, 0)
-	setActive(slot0.listEmptyTF, #slot6 <= 0)
+	slot0.scollRect:SetTotalCount(#slot7, slot2 and -1 or 0)
+	setActive(slot0.listEmptyTF, #slot7 <= 0)
 	Canvas.ForceUpdateCanvases()
 	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv0[slot1]))
 	setActive(slot0.sortImgAsc, slot0.asc)

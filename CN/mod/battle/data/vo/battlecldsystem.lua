@@ -274,8 +274,6 @@ function slot7.UpdateAOECld(slot0, slot1)
 		end
 
 		slot0:HandleAreaCldWithVehicle(slot1, slot7)
-		slot1:ClearCLDList()
-		slot0:HandleAreaCldWithVehicle(slot1, slot7)
 	elseif slot3 == uv0.AOEField.BULLET then
 		slot8 = nil
 
@@ -290,8 +288,6 @@ function slot7.UpdateAOECld(slot0, slot1)
 			end
 		end
 
-		slot1:ClearCLDList()
-		slot0:HandleAreaCldWithVehicle(slot1, slot7)
 		slot0:HandleAreaCldWithAircraft(slot1, slot7)
 	end
 end
@@ -329,10 +325,6 @@ function slot7.HandleAreaCldWithVehicle(slot0, slot1, slot2)
 		end
 
 		if slot13 and not slot1:IsOutOfAngle(slot12) then
-			slot1:AppendCldObj(slot10)
-		end
-
-		if flag then
 			slot1:AppendCldObj(slot10)
 		end
 	end

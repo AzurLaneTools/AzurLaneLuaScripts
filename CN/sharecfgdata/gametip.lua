@@ -10048,7 +10048,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "阿尔比恩、雅努斯等角色 建造概率UP!"
+	tip = "彼得·史特拉塞、海因里希亲王等角色 建造概率UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

@@ -3,14 +3,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 2,
 		goods_purchase_limit = 30,
-		goods_rarity = 1,
+		goods_icon = "Props/54011",
 		type = 2,
 		group = 10000,
 		num = 10,
 		goods_name = "强化部件T1",
 		goods_type = 2,
 		id = 1,
-		goods_icon = "Props/54011",
+		is_ship = 0,
+		goods_rarity = 1,
 		order = 30,
 		goods = {
 			17001,
@@ -23,14 +24,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 5,
-		goods_rarity = 2,
+		goods_icon = "Props/17002",
 		type = 2,
 		group = 10001,
 		num = 10,
 		goods_name = "通用部件T2",
 		goods_type = 1,
 		id = 2,
-		goods_icon = "Props/17002",
+		is_ship = 0,
+		goods_rarity = 2,
 		order = 29,
 		goods = {
 			17002
@@ -39,14 +41,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 5,
-		goods_rarity = 2,
+		goods_icon = "Props/17012",
 		type = 2,
 		group = 10002,
 		num = 10,
 		goods_name = "主炮部件T2",
 		goods_type = 1,
 		id = 3,
-		goods_icon = "Props/17012",
+		is_ship = 0,
+		goods_rarity = 2,
 		order = 25,
 		goods = {
 			17012
@@ -55,14 +58,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 5,
-		goods_rarity = 2,
+		goods_icon = "Props/17022",
 		type = 2,
 		group = 10003,
 		num = 10,
 		goods_name = "鱼雷部件T2",
 		goods_type = 1,
 		id = 4,
-		goods_icon = "Props/17022",
+		is_ship = 0,
+		goods_rarity = 2,
 		order = 26,
 		goods = {
 			17022
@@ -71,14 +75,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 5,
-		goods_rarity = 2,
+		goods_icon = "Props/17032",
 		type = 2,
 		group = 10004,
 		num = 10,
 		goods_name = "防空炮部件T2",
 		goods_type = 1,
 		id = 5,
-		goods_icon = "Props/17032",
+		is_ship = 0,
+		goods_rarity = 2,
 		order = 27,
 		goods = {
 			17032
@@ -87,14 +92,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 5,
-		goods_rarity = 2,
+		goods_icon = "Props/17042",
 		type = 2,
 		group = 10005,
 		num = 10,
 		goods_name = "舰载机部件T2",
 		goods_type = 1,
 		id = 6,
-		goods_icon = "Props/17042",
+		is_ship = 0,
+		goods_rarity = 2,
 		order = 28,
 		goods = {
 			17042
@@ -103,14 +109,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 5,
-		goods_rarity = 2,
+		goods_icon = "Props/54012",
 		type = 2,
 		group = 10006,
 		num = 10,
 		goods_name = "强化部件T2",
 		goods_type = 2,
 		id = 7,
-		goods_icon = "Props/54012",
+		is_ship = 0,
+		goods_rarity = 2,
 		order = 24,
 		goods = {
 			17002,
@@ -123,14 +130,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 4,
-		goods_rarity = 3,
+		goods_icon = "Props/17003",
 		type = 2,
 		group = 10007,
 		num = 5,
 		goods_name = "通用部件T3",
 		goods_type = 1,
 		id = 8,
-		goods_icon = "Props/17003",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 23,
 		goods = {
 			17003
@@ -139,14 +147,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 4,
-		goods_rarity = 3,
+		goods_icon = "Props/17013",
 		type = 2,
 		group = 10008,
 		num = 5,
 		goods_name = "主炮部件T3",
 		goods_type = 1,
 		id = 9,
-		goods_icon = "Props/17013",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 19,
 		goods = {
 			17013
@@ -155,14 +164,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 4,
-		goods_rarity = 3,
+		goods_icon = "Props/17023",
 		type = 2,
 		group = 10009,
 		num = 5,
 		goods_name = "鱼雷部件T3",
 		goods_type = 1,
 		id = 10,
-		goods_icon = "Props/17023",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 20,
 		goods = {
 			17023
@@ -171,14 +181,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 4,
-		goods_rarity = 3,
+		goods_icon = "Props/17033",
 		type = 2,
 		group = 10010,
 		num = 5,
 		goods_name = "防空炮部件T3",
 		goods_type = 1,
 		id = 11,
-		goods_icon = "Props/17033",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 21,
 		goods = {
 			17033
@@ -187,14 +198,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 4,
-		goods_rarity = 3,
+		goods_icon = "Props/17043",
 		type = 2,
 		group = 10011,
 		num = 5,
 		goods_name = "舰载机部件T3",
 		goods_type = 1,
 		id = 12,
-		goods_icon = "Props/17043",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 22,
 		goods = {
 			17043
@@ -203,14 +215,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 5,
-		goods_rarity = 3,
+		goods_icon = "Props/54013",
 		type = 2,
 		group = 10012,
 		num = 5,
 		goods_name = "强化部件T3",
 		goods_type = 2,
 		id = 13,
-		goods_icon = "Props/54013",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 18,
 		goods = {
 			17003,
@@ -223,14 +236,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 24,
-		goods_rarity = 2,
+		goods_icon = "Props/54031",
 		type = 2,
 		group = 10013,
 		num = 1,
 		goods_name = "改造图纸T1",
 		goods_type = 2,
 		id = 14,
-		goods_icon = "Props/54031",
+		is_ship = 0,
+		goods_rarity = 2,
 		order = 16,
 		goods = {
 			18001,
@@ -242,14 +256,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 60,
 		goods_purchase_limit = 12,
-		goods_rarity = 3,
+		goods_icon = "Props/54032",
 		type = 2,
 		group = 10014,
 		num = 1,
 		goods_name = "改造图纸T2",
 		goods_type = 2,
 		id = 15,
-		goods_icon = "Props/54032",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 15,
 		goods = {
 			18002,
@@ -261,14 +276,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 100,
 		goods_purchase_limit = 4,
-		goods_rarity = 4,
+		goods_icon = "Props/54033",
 		type = 2,
 		group = 10015,
 		num = 1,
 		goods_name = "改造图纸T3",
 		goods_type = 2,
 		id = 16,
-		goods_icon = "Props/54033",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 14,
 		goods = {
 			18003,
@@ -280,14 +296,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 6,
 		goods_purchase_limit = 6,
-		goods_rarity = 3,
+		goods_icon = "Props/16002",
 		type = 2,
 		group = 10016,
 		num = 1,
 		goods_name = "舰艇攻击教材T2",
 		goods_type = 1,
 		id = 17,
-		goods_icon = "Props/16002",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 11,
 		goods = {
 			16002
@@ -296,14 +313,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 6,
 		goods_purchase_limit = 6,
-		goods_rarity = 3,
+		goods_icon = "Props/16012",
 		type = 2,
 		group = 10017,
 		num = 1,
 		goods_name = "舰艇防御教材T2",
 		goods_type = 1,
 		id = 18,
-		goods_icon = "Props/16012",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 12,
 		goods = {
 			16012
@@ -312,14 +330,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 6,
 		goods_purchase_limit = 6,
-		goods_rarity = 3,
+		goods_icon = "Props/16022",
 		type = 2,
 		group = 10018,
 		num = 1,
 		goods_name = "舰艇辅助教材T2",
 		goods_type = 1,
 		id = 19,
-		goods_icon = "Props/16022",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 13,
 		goods = {
 			16022
@@ -328,14 +347,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 6,
 		goods_purchase_limit = 2,
-		goods_rarity = 4,
+		goods_icon = "Props/16003",
 		type = 2,
 		group = 10019,
 		num = 1,
 		goods_name = "舰艇攻击教材T3",
 		goods_type = 1,
 		id = 20,
-		goods_icon = "Props/16003",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 8,
 		goods = {
 			16003
@@ -344,14 +364,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 6,
 		goods_purchase_limit = 2,
-		goods_rarity = 4,
+		goods_icon = "Props/16013",
 		type = 2,
 		group = 10020,
 		num = 1,
 		goods_name = "舰艇防御教材T3",
 		goods_type = 1,
 		id = 21,
-		goods_icon = "Props/16013",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 9,
 		goods = {
 			16013
@@ -360,14 +381,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 6,
 		goods_purchase_limit = 2,
-		goods_rarity = 4,
+		goods_icon = "Props/16023",
 		type = 2,
 		group = 10021,
 		num = 1,
 		goods_name = "舰艇辅助教材T3",
 		goods_type = 1,
 		id = 22,
-		goods_icon = "Props/16023",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 10,
 		goods = {
 			16023
@@ -376,14 +398,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 20,
 		goods_purchase_limit = 15,
-		goods_rarity = 4,
+		goods_icon = "Props/42030",
 		type = 2,
 		group = 10022,
 		num = 1,
 		goods_name = "定向蓝图・四期",
 		goods_type = 1,
 		id = 23,
-		goods_icon = "Props/42030",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 5,
 		goods = {
 			42030
@@ -392,14 +415,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 20,
 		goods_purchase_limit = 5,
-		goods_rarity = 5,
+		goods_icon = "Props/42036",
 		type = 2,
 		group = 10023,
 		num = 1,
 		goods_name = "高级定向蓝图・四期",
 		goods_type = 1,
 		id = 24,
-		goods_icon = "Props/42036",
+		is_ship = 0,
+		goods_rarity = 5,
 		order = 4,
 		goods = {
 			42036
@@ -408,14 +432,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 6,
 		goods_purchase_limit = 24,
-		goods_rarity = 3,
+		goods_icon = "Props/huangjialiaoli",
 		type = 2,
 		group = 10024,
 		num = 1,
 		goods_name = "皇家料理",
 		goods_type = 1,
 		id = 25,
-		goods_icon = "Props/huangjialiaoli",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 7,
 		goods = {
 			50005
@@ -424,14 +449,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 10,
 		goods_purchase_limit = 12,
-		goods_rarity = 3,
+		goods_icon = "Props/manhanquanxi",
 		type = 2,
 		group = 10025,
 		num = 1,
 		goods_name = "满汉全席",
 		goods_type = 1,
 		id = 26,
-		goods_icon = "Props/manhanquanxi",
+		is_ship = 0,
+		goods_rarity = 3,
 		order = 6,
 		goods = {
 			50006
@@ -440,14 +466,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 2,
-		goods_rarity = 4,
+		goods_icon = "squareIcon/kin",
 		type = 4,
 		group = 20001,
 		num = 1,
 		goods_name = "试作型布里MKII",
 		goods_type = 1,
 		id = 27,
-		goods_icon = "squareIcon/kin",
+		is_ship = 1,
+		goods_rarity = 4,
 		order = 2,
 		goods = {
 			100011
@@ -456,14 +483,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 30,
 		goods_purchase_limit = 10,
-		goods_rarity = 3,
+		goods_icon = "squareIcon/gin",
 		type = 4,
 		group = 20002,
 		num = 1,
 		goods_name = "泛用型布里",
 		goods_type = 1,
 		id = 28,
-		goods_icon = "squareIcon/gin",
+		is_ship = 1,
+		goods_rarity = 3,
 		order = 3,
 		goods = {
 			100001
@@ -472,14 +500,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20003,
 		num = 1,
 		goods_name = "SSR驱逐",
 		goods_type = 2,
 		id = 29,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 0,
 		goods = {
 			401461
@@ -488,14 +517,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20003,
 		num = 1,
 		goods_name = "SSR轻巡",
 		goods_type = 2,
 		id = 30,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 0,
 		goods = {
 			102081
@@ -504,14 +534,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20003,
 		num = 1,
 		goods_name = "SSR重巡",
 		goods_type = 2,
 		id = 31,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 0,
 		goods = {
 			303111,
@@ -522,14 +553,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20003,
 		num = 1,
 		goods_name = "SSR战列",
 		goods_type = 2,
 		id = 32,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 0,
 		goods = {
 			204031,
@@ -542,14 +574,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20003,
 		num = 1,
 		goods_name = "SSR航母",
 		goods_type = 2,
 		id = 33,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 0,
 		goods = {
 			107061
@@ -558,14 +591,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20004,
 		num = 1,
 		goods_name = "SSR驱逐",
 		goods_type = 2,
 		id = 34,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 1,
 		goods = {
 			401461
@@ -574,14 +608,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20004,
 		num = 1,
 		goods_name = "SSR轻巡",
 		goods_type = 2,
 		id = 35,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 1,
 		goods = {
 			102081
@@ -590,14 +625,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20004,
 		num = 1,
 		goods_name = "SSR重巡",
 		goods_type = 2,
 		id = 36,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 1,
 		goods = {
 			303111,
@@ -608,14 +644,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20004,
 		num = 1,
 		goods_name = "SSR战列",
 		goods_type = 2,
 		id = 37,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 1,
 		goods = {
 			204031,
@@ -628,14 +665,15 @@ pg.honormedal_goods_list = {
 	{
 		price = 80,
 		goods_purchase_limit = 1,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		type = 4,
 		group = 20004,
 		num = 1,
 		goods_name = "SSR航母",
 		goods_type = 2,
 		id = 38,
-		goods_icon = "Props/54000",
+		is_ship = 0,
+		goods_rarity = 4,
 		order = 1,
 		goods = {
 			107061

@@ -11188,127 +11188,127 @@ pg.activity_ins_language = {
 		value = "一点也不辛苦哦？反而还被治愈了呢～"
 	},
 	ins_338 = {
-		value = ""
+		value = "这下你们也是“会魔法的猫”了~"
 	},
 	ins_discuss_338_1 = {
-		value = ""
+		value = "小家伙们都很可爱呢！"
 	},
 	ins_reply_338_1_1 = {
-		value = ""
+		value = "参加活动的时候，有这些孩子们一起…就比较不会紧张了，大概…"
 	},
 	ins_reply_338_1_2 = {
-		value = ""
+		value = "哦哦，加油啊雅努斯！"
 	},
 	ins_discuss_338_2 = {
-		value = ""
+		value = "小心，小猫咪们太兴奋的话，可是会控制不住的哦。"
 	},
 	ins_reply_338_2_1 = {
-		value = ""
+		value = "大家都是乖孩子，应、应该不会的吧……？"
 	},
 	ins_discuss_338_3 = {
-		value = ""
+		value = "Nice猫耳！呼呼，皇家全员猫耳化计划推进得很顺利呀~"
 	},
 	ins_reply_338_3_1 = {
-		value = ""
+		value = "欸？虽然不太明白，总、总之雅努斯会努力的？"
 	},
 	ins_op_338_1_1 = {
-		value = ""
+		value = "会放什么魔法呢？"
 	},
 	op_reply_338_1_1 = {
-		value = ""
+		value = "嗯……让人觉得可爱的魔法……？"
 	},
 	ins_339 = {
-		value = ""
+		value = "今天的阿尔比恩是“后辈恶魔”哦？"
 	},
 	ins_discuss_339_1 = {
-		value = ""
+		value = "嗯？“后辈恶魔”是……？"
 	},
 	ins_reply_339_1_1 = {
-		value = ""
+		value = "每个遇到的人都是阿尔比恩的前辈，所以是“后辈恶魔”哦，半人马前辈。"
 	},
 	ins_reply_339_1_2 = {
-		value = ""
+		value = "原、原来如此… 啊，不用叫我“前辈”的，总觉得怪怪的……"
 	},
 	ins_reply_339_1_3 = {
-		value = ""
+		value = "好的，半人马前辈~"
 	},
 	ins_discuss_339_2 = {
-		value = ""
+		value = "哦哦？这样的话，无论对谁都能理直气壮地恶作剧或者要糖果了呢！"
 	},
 	ins_reply_339_2_1 = {
-		value = ""
+		value = "虽然感觉“前辈”和“长辈”还是不太一样，不过…既然都这么说了，阿贝克隆比前辈，trick or treat！"
 	},
 	ins_reply_339_2_2 = {
-		value = ""
+		value = "唔？！居然中招了！？"
 	},
 	ins_op_339_1_1 = {
-		value = ""
+		value = "万圣节的装扮？"
 	},
 	op_reply_339_1_1 = {
-		value = ""
+		value = "是正式的万圣节装扮哦，指挥官“前辈”。"
 	},
 	ins_340 = {
-		value = ""
+		value = "啊哈哈，好像搞砸了呢……"
 	},
 	ins_discuss_340_1 = {
-		value = ""
+		value = "是在…炼制什么魔药吗？"
 	},
 	ins_reply_340_1_1 = {
-		value = ""
+		value = "唔，如果我说这是在做南瓜粥，你会相信我吗……？"
 	},
 	ins_reply_340_1_2 = {
-		value = ""
+		value = "是……叫做“南瓜粥”的特别魔药吗？"
 	},
 	ins_reply_340_1_3 = {
-		value = ""
+		value = "哎，就当作是吧！"
 	},
 	ins_discuss_340_2 = {
-		value = ""
+		value = "所以才和你说厨房的事交给别人就好……"
 	},
 	ins_reply_340_2_1 = {
-		value = ""
+		value = "哎呀~人总是要挑战一下自己的嘛~"
 	},
 	ins_reply_340_2_2 = {
-		value = ""
+		value = "哈啊…你等会，我去陪你一起收拾吧。"
 	},
 	ins_reply_340_2_3 = {
-		value = ""
+		value = "呜…谢谢你格罗斯特！"
 	},
 	ins_op_340_1_1 = {
-		value = ""
+		value = "相当……特别的颜色呢。"
 	},
 	op_reply_340_1_1 = {
-		value = ""
+		value = "说、说不定喝一口能有什么奇效？…对不起我开玩笑的……"
 	},
 	ins_341 = {
-		value = ""
+		value = "南瓜大炮，发射！"
 	},
 	ins_discuss_341_1 = {
-		value = ""
+		value = "哈哈！在万圣夜以南瓜炮弹一决胜负，好像挺不错！"
 	},
 	ins_reply_341_1_1 = {
-		value = ""
+		value = "哦哦，燃起来啦！"
 	},
 	ins_discuss_341_2 = {
-		value = ""
+		value = "虽然感觉万圣夜应该不是这样的，不过算了，这样好像也挺刺激的！"
 	},
 	ins_reply_341_2_1 = {
-		value = ""
+		value = "嘿嘿，热热闹闹的多好~"
 	},
 	ins_discuss_341_3 = {
-		value = ""
+		value = "南瓜啊……要是能炸成糖果雨多好……"
 	},
 	ins_reply_341_3_1 = {
-		value = ""
+		value = "唔？好像也不是不能试试？"
 	},
 	ins_reply_341_3_2 = {
-		value = ""
+		value = "欸？真的可以吗？"
 	},
 	ins_op_341_1_1 = {
-		value = ""
+		value = "南瓜炮击战，似乎很值得期待。"
 	},
 	op_reply_341_1_1 = {
-		value = ""
+		value = "哈哈，果然指挥官也觉得这个很棒吧！"
 	},
 	all = {
 		ins_op_1_1_1,

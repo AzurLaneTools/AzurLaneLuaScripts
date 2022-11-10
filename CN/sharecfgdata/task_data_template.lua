@@ -191438,6 +191438,971 @@ _G.pg.base.task_data_template[18035] = {
 	}
 }
 
+_G.pg.base.task_data_template[18040] = {
+	name = "『德系V3复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 98390,
+	type = 36,
+	desc = "建造舰船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18040,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18041] = {
+	name = "『德系V3复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 98391,
+	type = 36,
+	desc = "舰队出征，获得15次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18041,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18042] = {
+	name = "『德系V3复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 98392,
+	type = 36,
+	desc = "通关1次任意困难关卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18042,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18043] = {
+	name = "『德系V3复刻』- 日常活动关卡",
+	guild_coin_award = 0,
+	award = 98393,
+	type = 36,
+	desc = "通过1次任意活动关卡 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18043,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460002,
+		1460003,
+		1460004,
+		1460005,
+		1460006,
+		1460021,
+		1460022,
+		1460023,
+		1460024,
+		1460025,
+		1460026,
+		1460041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4299
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18044] = {
+	name = "『德系V3复刻』A1/C1通关一次",
+	guild_coin_award = 0,
+	award = 98394,
+	type = 6,
+	desc = "击败A1或C1旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18044,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18045] = {
+	name = "『德系V3复刻』A2/C2通关一次",
+	guild_coin_award = 0,
+	award = 98395,
+	type = 6,
+	desc = "击败A2或C2旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18045,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18046] = {
+	name = "『德系V3复刻』A3/C3通关一次",
+	guild_coin_award = 0,
+	award = 98396,
+	type = 6,
+	desc = "击败A3或C3旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18046,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18047] = {
+	name = "『德系V3复刻』B1/D1通关一次",
+	guild_coin_award = 0,
+	award = 98397,
+	type = 6,
+	desc = "击败B1或D1旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18047,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18048] = {
+	name = "『德系V3复刻』B2/D2通关一次",
+	guild_coin_award = 0,
+	award = 98398,
+	type = 6,
+	desc = "击败B2或D2旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18048,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18049] = {
+	name = "『德系V3复刻』B3/D3通关一次",
+	guild_coin_award = 0,
+	award = 98399,
+	type = 6,
+	desc = "击败B3或D3旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18049,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18050] = {
+	name = "『德系V3复刻』通关SP",
+	guild_coin_award = 0,
+	award = 98400,
+	type = 6,
+	desc = "通关SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460041",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18050,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460025,
+			chapterId = 1460041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18051] = {
+	name = "『德系V3复刻』通关D3",
+	guild_coin_award = 0,
+	award = 98401,
+	type = 6,
+	desc = "通关D3<color=#92fc63>（勋章无法重复获得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460026",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18051,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			189,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460012,
+			chapterId = 1460026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18052] = {
+	name = "『德系V3复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 98402,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18053",
+	auto_commit = 0,
+	story_id = "",
+	id = 18052,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18053] = {
+	name = "『德系V3复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 98403,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18054",
+	auto_commit = 0,
+	story_id = "",
+	id = 18053,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18054] = {
+	name = "『德系V3复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 98404,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18055",
+	auto_commit = 0,
+	story_id = "",
+	id = 18054,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18055] = {
+	name = "『德系V3复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 98405,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18056",
+	auto_commit = 0,
+	story_id = "",
+	id = 18055,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18056] = {
+	name = "『德系V3复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 98406,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18057",
+	auto_commit = 0,
+	story_id = "",
+	id = 18056,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18057] = {
+	name = "『德系V3复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 98407,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18057,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18058] = {
+	name = "『德系V3复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98408,
+	type = 6,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18058,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			284,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18059] = {
+	name = "『德系V3复刻』通关EX",
+	guild_coin_award = 0,
+	award = 98440,
+	type = 6,
+	desc = "通关EX",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460051",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18059,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460026,
+			chapterId = 1460051
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30101] = {
 	name = "战斗胜利-日常",
 	guild_coin_award = 0,
@@ -237404,6 +238369,5588 @@ _G.pg.base.task_data_template[55330] = {
 	}
 }
 
+_G.pg.base.task_data_template[55331] = {
+	name = "【2022年11月新服狂欢】【每日】任务1",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 36,
+	desc = "舰队出征，消灭敌方旗舰3次。",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55331,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55332] = {
+	name = "【2022年11月新服狂欢】【每日】任务2",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 36,
+	desc = "建造舰船1次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55332,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55333] = {
+	name = "【2022年11月新服狂欢】【每日】任务3",
+	guild_coin_award = 0,
+	award = 98441,
+	type = 36,
+	desc = "舰队出征，进行1次每日挑战。",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55333,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55334] = {
+	name = "【2022年11月新服狂欢】【每日】任务4",
+	guild_coin_award = 0,
+	award = 98441,
+	type = 36,
+	desc = "舰队出征，通关主线困难海域1次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55334,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55335] = {
+	name = "【2022年11月新服狂欢】【每日】任务5",
+	guild_coin_award = 0,
+	award = 98441,
+	type = 36,
+	desc = "参与1次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55335,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55336] = {
+	name = "【2022年11月新服狂欢】【每日】任务6",
+	guild_coin_award = 0,
+	award = 98441,
+	type = 36,
+	desc = "执行军事委托1次。",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55336,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55337] = {
+	name = "【2022年11月新服狂欢】【每日】任务7",
+	guild_coin_award = 0,
+	award = 98441,
+	type = 36,
+	desc = "进行1次科研。",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55337,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			200
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55338] = {
+	name = "【2022年11月新服狂欢】通关1-4",
+	guild_coin_award = 0,
+	award = 98441,
+	type = 26,
+	desc = "通关1-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "104",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55338,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1,
+			chapterId = 104
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55339] = {
+	name = "【2022年11月新服狂欢】通关2-2",
+	guild_coin_award = 0,
+	award = 98441,
+	type = 26,
+	desc = "通关2-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "202",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55339,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2,
+			chapterId = 202
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55340] = {
+	name = "【2022年11月新服狂欢】通关2-4",
+	guild_coin_award = 0,
+	award = 98441,
+	type = 26,
+	desc = "通关2-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "204",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55340,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2,
+			chapterId = 204
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55341] = {
+	name = "【2022年11月新服狂欢】通关3-2",
+	guild_coin_award = 0,
+	award = 98441,
+	type = 26,
+	desc = "通关3-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "302",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55341,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 3,
+			chapterId = 302
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55342] = {
+	name = "【2022年11月新服狂欢】通关3-4",
+	guild_coin_award = 0,
+	award = 98451,
+	type = 26,
+	desc = "通关3-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "304",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55342,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			207021,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 3,
+			chapterId = 304
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55343] = {
+	name = "【2022年11月新服狂欢】通关4-2",
+	guild_coin_award = 0,
+	award = 98442,
+	type = 26,
+	desc = "通关4-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "402",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55343,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 4,
+			chapterId = 402
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55344] = {
+	name = "【2022年11月新服狂欢】通关4-4",
+	guild_coin_award = 0,
+	award = 98442,
+	type = 26,
+	desc = "通关4-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "404",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55344,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 4,
+			chapterId = 404
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55345] = {
+	name = "【2022年11月新服狂欢】通关5-2",
+	guild_coin_award = 0,
+	award = 98442,
+	type = 26,
+	desc = "通关5-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "502",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55345,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 5,
+			chapterId = 502
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55346] = {
+	name = "【2022年11月新服狂欢】通关5-4",
+	guild_coin_award = 0,
+	award = 98442,
+	type = 26,
+	desc = "通关5-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "504",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55346,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 5,
+			chapterId = 504
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55347] = {
+	name = "【2022年11月新服狂欢】通关6-2",
+	guild_coin_award = 0,
+	award = 98444,
+	type = 26,
+	desc = "通关6-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "602",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55347,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 6,
+			chapterId = 602
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55348] = {
+	name = "【2022年11月新服狂欢】通关6-4",
+	guild_coin_award = 0,
+	award = 98452,
+	type = 26,
+	desc = "通关6-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "604",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55348,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			408021,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 6,
+			chapterId = 604
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55349] = {
+	name = "【2022年11月新服狂欢】通关7-2",
+	guild_coin_award = 0,
+	award = 98444,
+	type = 26,
+	desc = "通关7-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "702",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55349,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 7,
+			chapterId = 702
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55350] = {
+	name = "【2022年11月新服狂欢】通关7-4",
+	guild_coin_award = 0,
+	award = 98444,
+	type = 26,
+	desc = "通关7-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "704",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55350,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 7,
+			chapterId = 704
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55351] = {
+	name = "【2022年11月新服狂欢】通关8-2",
+	guild_coin_award = 0,
+	award = 98445,
+	type = 26,
+	desc = "通关8-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "802",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55351,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			800
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 8,
+			chapterId = 802
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55352] = {
+	name = "【2022年11月新服狂欢】通关8-4",
+	guild_coin_award = 0,
+	award = 98445,
+	type = 26,
+	desc = "通关8-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "804",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55352,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			800
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 8,
+			chapterId = 804
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55353] = {
+	name = "【2022年11月新服狂欢】通关9-2",
+	guild_coin_award = 0,
+	award = 98447,
+	type = 26,
+	desc = "通关9-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "902",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55353,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 9,
+			chapterId = 902
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55354] = {
+	name = "【2022年11月新服狂欢】通关9-4",
+	guild_coin_award = 0,
+	award = 98447,
+	type = 26,
+	desc = "通关9-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "904",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55354,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 9,
+			chapterId = 904
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55355] = {
+	name = "【2022年11月新服狂欢】通关10-2",
+	guild_coin_award = 0,
+	award = 98448,
+	type = 26,
+	desc = "通关10-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1002",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55355,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			2000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 10,
+			chapterId = 1002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55356] = {
+	name = "【2022年11月新服狂欢】通关10-4",
+	guild_coin_award = 0,
+	award = 98453,
+	type = 26,
+	desc = "通关10-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1004",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55356,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			202201,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 10,
+			chapterId = 1004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55357] = {
+	name = "【2022年11月新服狂欢】通关11-2",
+	guild_coin_award = 0,
+	award = 98449,
+	type = 26,
+	desc = "通关11-2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1102",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55357,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			3000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 11,
+			chapterId = 1102
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55358] = {
+	name = "【2022年11月新服狂欢】通关11-4",
+	guild_coin_award = 0,
+	award = 98450,
+	type = 26,
+	desc = "通关11-4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "1104",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55358,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			5000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 11,
+			chapterId = 1104
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55359] = {
+	name = "【2022年11月新服狂欢】大舰队商店兑换角色",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "在大舰队商店兑换1个海伦娜。",
+	count_inherit = 0,
+	sub_type = 151,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "102051",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55359,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55360] = {
+	name = "【2022年11月新服狂欢】军事演习1",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【1/20】参与1次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55360,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55361] = {
+	name = "【2022年11月新服狂欢】军事演习2",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【2/20】参与4次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55361,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55362] = {
+	name = "【2022年11月新服狂欢】军事演习3",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【3/20】参与10次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55362,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55363] = {
+	name = "【2022年11月新服狂欢】军事演习4",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【4/20】参与20次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55363,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55364] = {
+	name = "【2022年11月新服狂欢】军事演习5",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【5/20】参与30次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55364,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55365] = {
+	name = "【2022年11月新服狂欢】军事演习6",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【6/20】参与40次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55365,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55366] = {
+	name = "【2022年11月新服狂欢】军事演习7",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【7/20】参与50次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55366,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55367] = {
+	name = "【2022年11月新服狂欢】军事演习8",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【8/20】参与60次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55367,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55368] = {
+	name = "【2022年11月新服狂欢】军事演习9",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【9/20】参与70次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55368,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55369] = {
+	name = "【2022年11月新服狂欢】军事演习10",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【10/20】参与80次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55369,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55370] = {
+	name = "【2022年11月新服狂欢】军事演习11",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【11/20】参与90次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55370,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55371] = {
+	name = "【2022年11月新服狂欢】军事演习12",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【12/20】参与100次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55371,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55372] = {
+	name = "【2022年11月新服狂欢】军事演习13",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【13/20】参与110次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55372,
+	target_num = 110,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55373] = {
+	name = "【2022年11月新服狂欢】军事演习14",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【14/20】参与120次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55373,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55374] = {
+	name = "【2022年11月新服狂欢】军事演习15",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【15/20】参与130次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55374,
+	target_num = 130,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55375] = {
+	name = "【2022年11月新服狂欢】军事演习16",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【16/20】参与140次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55375,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55376] = {
+	name = "【2022年11月新服狂欢】军事演习17",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【17/20】参与150次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55376,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55377] = {
+	name = "【2022年11月新服狂欢】军事演习18",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【18/20】参与160次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55377,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55378] = {
+	name = "【2022年11月新服狂欢】军事演习19",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【19/20】参与180次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55378,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55379] = {
+	name = "【2022年11月新服狂欢】军事演习20",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【20/20】参与200次军事演习。",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55360,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55379,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55380] = {
+	name = "【2022年11月新服狂欢】获得胜利1",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【1/20】舰队出征，获得1次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55380,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55381] = {
+	name = "【2022年11月新服狂欢】获得胜利2",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【2/20】舰队出征，获得4次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55381,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55382] = {
+	name = "【2022年11月新服狂欢】获得胜利3",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【3/20】舰队出征，获得10次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55382,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55383] = {
+	name = "【2022年11月新服狂欢】获得胜利4",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【4/20】舰队出征，获得20次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55383,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55384] = {
+	name = "【2022年11月新服狂欢】获得胜利5",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【5/20】舰队出征，获得30次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55384,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55385] = {
+	name = "【2022年11月新服狂欢】获得胜利6",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【6/20】舰队出征，获得40次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55385,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55386] = {
+	name = "【2022年11月新服狂欢】获得胜利7",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【7/20】舰队出征，获得50次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55386,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55387] = {
+	name = "【2022年11月新服狂欢】获得胜利8",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【8/20】舰队出征，获得60次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55387,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55388] = {
+	name = "【2022年11月新服狂欢】获得胜利9",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【9/20】舰队出征，获得70次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55388,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55389] = {
+	name = "【2022年11月新服狂欢】获得胜利10",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【10/20】舰队出征，获得80次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55389,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55390] = {
+	name = "【2022年11月新服狂欢】获得胜利11",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【11/20】舰队出征，获得90次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55390,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55391] = {
+	name = "【2022年11月新服狂欢】获得胜利12",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【12/20】舰队出征，获得100次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55391,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55392] = {
+	name = "【2022年11月新服狂欢】获得胜利13",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【13/20】舰队出征，获得110次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55392,
+	target_num = 110,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55393] = {
+	name = "【2022年11月新服狂欢】获得胜利14",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【14/20】舰队出征，获得120次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55393,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55394] = {
+	name = "【2022年11月新服狂欢】获得胜利15",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【15/20】舰队出征，获得130次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55394,
+	target_num = 130,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55395] = {
+	name = "【2022年11月新服狂欢】获得胜利16",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【16/20】舰队出征，获得140次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55395,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55396] = {
+	name = "【2022年11月新服狂欢】获得胜利17",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【17/20】舰队出征，获得150次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55396,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55397] = {
+	name = "【2022年11月新服狂欢】获得胜利18",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【18/20】舰队出征，获得160次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55397,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55398] = {
+	name = "【2022年11月新服狂欢】获得胜利19",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【19/20】舰队出征，获得180次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55398,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55399] = {
+	name = "【2022年11月新服狂欢】获得胜利20",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【20/20】舰队出征，获得200次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55380,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55399,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[55400] = {
+	name = "【2022年11月新服狂欢】击沉敌人1",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【1/20】击沉任意敌人10艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55400,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55401] = {
+	name = "【2022年11月新服狂欢】击沉敌人2",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【2/20】击沉任意敌人40艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55401,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55402] = {
+	name = "【2022年11月新服狂欢】击沉敌人3",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【3/20】击沉任意敌人100艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55402,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55403] = {
+	name = "【2022年11月新服狂欢】击沉敌人4",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【4/20】击沉任意敌人200艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55403,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55404] = {
+	name = "【2022年11月新服狂欢】击沉敌人5",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【5/20】击沉任意敌人400艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55404,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55405] = {
+	name = "【2022年11月新服狂欢】击沉敌人6",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【6/20】击沉任意敌人600艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55405,
+	target_num = 600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55406] = {
+	name = "【2022年11月新服狂欢】击沉敌人7",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【7/20】击沉任意敌人800艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55406,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55407] = {
+	name = "【2022年11月新服狂欢】击沉敌人8",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【8/20】击沉任意敌人1000艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55407,
+	target_num = 1000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55408] = {
+	name = "【2022年11月新服狂欢】击沉敌人9",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【9/20】击沉任意敌人1200艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55408,
+	target_num = 1200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55409] = {
+	name = "【2022年11月新服狂欢】击沉敌人10",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【10/20】击沉任意敌人1400艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55409,
+	target_num = 1400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55410] = {
+	name = "【2022年11月新服狂欢】击沉敌人11",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【11/20】击沉任意敌人1600艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55410,
+	target_num = 1600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55411] = {
+	name = "【2022年11月新服狂欢】击沉敌人12",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【12/20】击沉任意敌人1800艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55411,
+	target_num = 1800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55412] = {
+	name = "【2022年11月新服狂欢】击沉敌人13",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【13/20】击沉任意敌人2000艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55412,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55413] = {
+	name = "【2022年11月新服狂欢】击沉敌人14",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【14/20】击沉任意敌人2200艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55413,
+	target_num = 2200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55414] = {
+	name = "【2022年11月新服狂欢】击沉敌人15",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【15/20】击沉任意敌人2400艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55414,
+	target_num = 2400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55415] = {
+	name = "【2022年11月新服狂欢】击沉敌人16",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【16/20】击沉任意敌人2600艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55415,
+	target_num = 2600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55416] = {
+	name = "【2022年11月新服狂欢】击沉敌人17",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【17/20】击沉任意敌人2800艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55416,
+	target_num = 2800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55417] = {
+	name = "【2022年11月新服狂欢】击沉敌人18",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【18/20】击沉任意敌人3200艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55417,
+	target_num = 3200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55418] = {
+	name = "【2022年11月新服狂欢】击沉敌人19",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【19/20】击沉任意敌人3600艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55418,
+	target_num = 3600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55419] = {
+	name = "【2022年11月新服狂欢】击沉敌人20",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【20/20】击沉任意敌人4000艘。",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55400,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55419,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55420] = {
+	name = "【2022年11月新服狂欢】技能战术训练1",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【1/20】进行战术训练1次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55420,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55421] = {
+	name = "【2022年11月新服狂欢】技能战术训练2",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【2/20】进行战术训练4次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55421,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55422] = {
+	name = "【2022年11月新服狂欢】技能战术训练3",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【3/20】进行战术训练10次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55422,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55423] = {
+	name = "【2022年11月新服狂欢】技能战术训练4",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【4/20】进行战术训练20次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55423,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55424] = {
+	name = "【2022年11月新服狂欢】技能战术训练5",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【5/20】进行战术训练30次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55424,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55425] = {
+	name = "【2022年11月新服狂欢】技能战术训练6",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【6/20】进行战术训练40次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55425,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55426] = {
+	name = "【2022年11月新服狂欢】技能战术训练7",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【7/20】进行战术训练50次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55426,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55427] = {
+	name = "【2022年11月新服狂欢】技能战术训练8",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【8/20】进行战术训练60次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55427,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55428] = {
+	name = "【2022年11月新服狂欢】技能战术训练9",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【9/20】进行战术训练70次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55428,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55429] = {
+	name = "【2022年11月新服狂欢】技能战术训练10",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【10/20】进行战术训练80次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55420,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55429,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55430] = {
+	name = "【2022年11月新服狂欢】技能战术训练11",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【11/20】进行战术训练90次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55430,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55431] = {
+	name = "【2022年11月新服狂欢】技能战术训练12",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【12/20】进行战术训练100次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55431,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55432] = {
+	name = "【2022年11月新服狂欢】技能战术训练13",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【13/20】进行战术训练110次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55432,
+	target_num = 110,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55433] = {
+	name = "【2022年11月新服狂欢】技能战术训练14",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【14/20】进行战术训练120次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55433,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55434] = {
+	name = "【2022年11月新服狂欢】技能战术训练15",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【15/20】进行战术训练130次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55434,
+	target_num = 130,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55435] = {
+	name = "【2022年11月新服狂欢】技能战术训练16",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【16/20】进行战术训练140次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55435,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55436] = {
+	name = "【2022年11月新服狂欢】技能战术训练17",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【17/20】进行战术训练150次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55436,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55437] = {
+	name = "【2022年11月新服狂欢】技能战术训练18",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【18/20】进行战术训练160次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55437,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55438] = {
+	name = "【2022年11月新服狂欢】技能战术训练19",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【19/20】进行战术训练180次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55438,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55439] = {
+	name = "【2022年11月新服狂欢】技能战术训练20",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【20/20】进行战术训练200次。",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55430,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55439,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55440] = {
+	name = "【2022年11月新服狂欢】建造舰船1",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【1/10】建造舰船1次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55440,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55441] = {
+	name = "【2022年11月新服狂欢】建造舰船2",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【2/10】建造舰船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55441,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55442] = {
+	name = "【2022年11月新服狂欢】建造舰船3",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【3/10】建造舰船6次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55442,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55443] = {
+	name = "【2022年11月新服狂欢】建造舰船4",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【4/10】建造舰船10次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55443,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55444] = {
+	name = "【2022年11月新服狂欢】建造舰船5",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【5/10】建造舰船15次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55444,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55445] = {
+	name = "【2022年11月新服狂欢】建造舰船6",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【6/10】建造舰船20次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55445,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55446] = {
+	name = "【2022年11月新服狂欢】建造舰船7",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【7/10】建造舰船25次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55446,
+	target_num = 25,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55447] = {
+	name = "【2022年11月新服狂欢】建造舰船8",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【8/10】建造舰船30次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55447,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55448] = {
+	name = "【2022年11月新服狂欢】建造舰船9",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【9/10】建造舰船35次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55448,
+	target_num = 35,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55449] = {
+	name = "【2022年11月新服狂欢】建造舰船10",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【10/10】建造舰船40次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55440,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55449,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55450] = {
+	name = "【2022年11月新服狂欢】100级舰船数量1",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【1/10】1名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55450,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55451] = {
+	name = "【2022年11月新服狂欢】100级舰船数量2",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【2/10】2名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55451,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55452] = {
+	name = "【2022年11月新服狂欢】100级舰船数量3",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【3/10】3名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55452,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55453] = {
+	name = "【2022年11月新服狂欢】100级舰船数量4",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【4/10】6名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55453,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55454] = {
+	name = "【2022年11月新服狂欢】100级舰船数量5",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【5/10】8名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55454,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55455] = {
+	name = "【2022年11月新服狂欢】100级舰船数量6",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【6/10】10名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55455,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55456] = {
+	name = "【2022年11月新服狂欢】100级舰船数量7",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【7/10】12名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55456,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55457] = {
+	name = "【2022年11月新服狂欢】100级舰船数量8",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【8/10】14名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55457,
+	target_num = 14,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55458] = {
+	name = "【2022年11月新服狂欢】100级舰船数量9",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【9/10】16名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55458,
+	target_num = 16,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55459] = {
+	name = "【2022年11月新服狂欢】100级舰船数量10",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【10/10】18名角色等级达到100级。",
+	count_inherit = 0,
+	sub_type = 1017,
+	target_id_2 = "100",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55450,
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 55459,
+	target_num = 18,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55460] = {
+	name = "【2022年11月新服狂欢】训练指挥喵1",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【1/10】训练指挥喵1只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55460,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55461] = {
+	name = "【2022年11月新服狂欢】训练指挥喵2",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【2/10】训练指挥喵2只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55461,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55462] = {
+	name = "【2022年11月新服狂欢】训练指挥喵3",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【3/10】训练指挥喵4只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55462,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55463] = {
+	name = "【2022年11月新服狂欢】训练指挥喵4",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【4/10】训练指挥喵6只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55463,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55464] = {
+	name = "【2022年11月新服狂欢】训练指挥喵5",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【5/10】训练指挥喵8只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55464,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55465] = {
+	name = "【2022年11月新服狂欢】训练指挥喵6",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【6/10】训练指挥喵10只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55465,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55466] = {
+	name = "【2022年11月新服狂欢】训练指挥喵7",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【7/10】训练指挥喵12只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55466,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55467] = {
+	name = "【2022年11月新服狂欢】训练指挥喵8",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【8/10】训练指挥喵14只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55467,
+	target_num = 14,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55468] = {
+	name = "【2022年11月新服狂欢】训练指挥喵9",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【9/10】训练指挥喵16只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55468,
+	target_num = 16,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55469] = {
+	name = "【2022年11月新服狂欢】训练指挥喵10",
+	guild_coin_award = 0,
+	award = 98446,
+	type = 26,
+	desc = "【10/10】训练指挥喵20只。",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55460,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55469,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			1000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55470] = {
+	name = "【2022年11月新服狂欢】通关主线困难1",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【1/10】舰队出征，通关主线困难海域1次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55470,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55471] = {
+	name = "【2022年11月新服狂欢】通关主线困难2",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【2/10】舰队出征，通关主线困难海域3次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55471,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55472] = {
+	name = "【2022年11月新服狂欢】通关主线困难3",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【3/10】舰队出征，通关主线困难海域6次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55472,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55473] = {
+	name = "【2022年11月新服狂欢】通关主线困难4",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【4/10】舰队出征，通关主线困难海域10次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55473,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55474] = {
+	name = "【2022年11月新服狂欢】通关主线困难5",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【5/10】舰队出征，通关主线困难海域15次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55474,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55475] = {
+	name = "【2022年11月新服狂欢】通关主线困难6",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【6/10】舰队出征，通关主线困难海域20次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55475,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55476] = {
+	name = "【2022年11月新服狂欢】通关主线困难7",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【7/10】舰队出征，通关主线困难海域25次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55476,
+	target_num = 25,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55477] = {
+	name = "【2022年11月新服狂欢】通关主线困难8",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【8/10】舰队出征，通关主线困难海域30次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55477,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55478] = {
+	name = "【2022年11月新服狂欢】通关主线困难9",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【9/10】舰队出征，通关主线困难海域35次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55478,
+	target_num = 35,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[55479] = {
+	name = "【2022年11月新服狂欢】通关主线困难10",
+	guild_coin_award = 0,
+	award = 98443,
+	type = 26,
+	desc = "【10/10】舰队出征，通关主线困难海域40次。",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 55470,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 55479,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			285,
+			500
+		}
+	}
+}
+
 _G.pg.base.task_data_template[60011] = {
 	name = "海王星开启研发前置任务",
 	guild_coin_award = 0,
@@ -238099,7 +244646,7 @@ _G.pg.base.task_data_template[60028] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交3万物资",
+	desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#92fc63>3万</color>物资",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
