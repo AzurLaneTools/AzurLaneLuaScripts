@@ -218764,7 +218764,7 @@ _G.pg.base.task_data_template[60279] = {
 }
 
 _G.pg.base.task_data_template[70001] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -218794,7 +218794,7 @@ _G.pg.base.task_data_template[70001] = {
 }
 
 _G.pg.base.task_data_template[70002] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -218824,7 +218824,7 @@ _G.pg.base.task_data_template[70002] = {
 }
 
 _G.pg.base.task_data_template[70003] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -218854,7 +218854,7 @@ _G.pg.base.task_data_template[70003] = {
 }
 
 _G.pg.base.task_data_template[70011] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -218886,7 +218886,7 @@ _G.pg.base.task_data_template[70011] = {
 }
 
 _G.pg.base.task_data_template[70012] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -218918,7 +218918,7 @@ _G.pg.base.task_data_template[70012] = {
 }
 
 _G.pg.base.task_data_template[70013] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -218950,7 +218950,7 @@ _G.pg.base.task_data_template[70013] = {
 }
 
 _G.pg.base.task_data_template[70021] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -218980,7 +218980,7 @@ _G.pg.base.task_data_template[70021] = {
 }
 
 _G.pg.base.task_data_template[70022] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -219010,7 +219010,7 @@ _G.pg.base.task_data_template[70022] = {
 }
 
 _G.pg.base.task_data_template[70023] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -219040,7 +219040,7 @@ _G.pg.base.task_data_template[70023] = {
 }
 
 _G.pg.base.task_data_template[70031] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -219070,7 +219070,7 @@ _G.pg.base.task_data_template[70031] = {
 }
 
 _G.pg.base.task_data_template[70032] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
@@ -219100,7 +219100,7 @@ _G.pg.base.task_data_template[70032] = {
 }
 
 _G.pg.base.task_data_template[70033] = {
-	name = "Fleet Misson ",
+	name = "Fleet Mission",
 	guild_coin_award = 0,
 	award = 0,
 	type = 12,
