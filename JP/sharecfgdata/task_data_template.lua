@@ -185552,7 +185552,7 @@ _G.pg.base.task_data_template[18043] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4299
+			4565
 		}
 	}
 }
