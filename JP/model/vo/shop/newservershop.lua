@@ -5,34 +5,44 @@ function slot0.Ctor(slot0, slot1)
 	slot0.stopTime = slot1.stop_time
 	slot0.goods = {}
 	slot0.phases = {}
+	slot0.activityId = slot1.id
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1.goods) do
 		slot2[slot7.id] = NewServerCommodity.New(slot7)
 	end
 
-	for slot7, slot8 in pairs(pg.newserver_shop_template.get_id_list_by_unlock_time) do
-		slot0.goods[slot7] = slot0:WrapPhaseGoods(slot8, slot2)
+	slot4 = {}
+	slot8 = "config_data"
 
-		table.insert(slot0.phases, slot7)
+	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivityById(slot0.activityId):getConfig(slot8)) do
+		slot4[slot9] = true
+	end
+
+	for slot9, slot10 in pairs(pg.newserver_shop_template.get_id_list_by_unlock_time) do
+		slot0.goods[slot9] = slot0:WrapPhaseGoods(slot10, slot2, slot4)
+
+		table.insert(slot0.phases, slot9)
 	end
 end
 
 function slot0.GetPtId(slot0)
-	return pg.newserver_shop_template[pg.newserver_shop_template.all[1]].resource_type
+	return pg.newserver_shop_template[getProxy(ActivityProxy):getActivityById(slot0.activityId):getConfig("config_data")[1]].resource_type
 end
 
-function slot0.WrapPhaseGoods(slot0, slot1, slot2)
-	slot3 = {}
+function slot0.WrapPhaseGoods(slot0, slot1, slot2, slot3)
+	slot4 = {}
 
-	for slot7, slot8 in ipairs(slot1) do
-		slot10 = slot2[slot8] or NewServerCommodity.New({
-			id = slot8
-		})
-		slot3[slot10.id] = slot10
+	for slot8, slot9 in ipairs(slot1) do
+		if slot3[slot9] then
+			slot11 = slot2[slot9] or NewServerCommodity.New({
+				id = slot9
+			})
+			slot4[slot11.id] = slot11
+		end
 	end
 
-	return slot3
+	return slot4
 end
 
 function slot0.GetStartTime(slot0)

@@ -163,92 +163,92 @@ return {
 	sort = {
 		{
 			sortFuncs = {
-				IndexConst.sortByCfgAsc("rarity"),
-				IndexConst.sortByCfg("rarity")
+				ShipIndexConst.sortByCfgAsc("rarity"),
+				ShipIndexConst.sortByCfg("rarity")
 			},
 			name = ShipIndexConst.SortNames[1]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByFieldAsc("level"),
-				IndexConst.sortByField("level")
+				ShipIndexConst.sortByFieldAsc("level"),
+				ShipIndexConst.sortByField("level")
 			},
 			name = ShipIndexConst.SortNames[2]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByCombatPowerAsc,
-				IndexConst.sortByCombatPower
+				ShipIndexConst.sortByCombatPowerAsc,
+				ShipIndexConst.sortByCombatPower
 			},
 			name = ShipIndexConst.SortNames[3]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByFieldAsc("createTime"),
-				IndexConst.sortByField("createTime")
+				ShipIndexConst.sortByFieldAsc("createTime"),
+				ShipIndexConst.sortByField("createTime")
 			},
 			name = ShipIndexConst.SortNames[4]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByIntimacyAsc,
-				IndexConst.sortByIntimacy
+				ShipIndexConst.sortByIntimacyAsc,
+				ShipIndexConst.sortByIntimacy
 			},
 			name = ShipIndexConst.SortNames[5]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByPropertyAsc("cannon"),
-				IndexConst.sortByProperty("cannon")
+				ShipIndexConst.sortByPropertyAsc("cannon"),
+				ShipIndexConst.sortByProperty("cannon")
 			},
 			name = ShipIndexConst.SortPropertyNames[2]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByPropertyAsc("air"),
-				IndexConst.sortByProperty("air")
+				ShipIndexConst.sortByPropertyAsc("air"),
+				ShipIndexConst.sortByProperty("air")
 			},
 			name = ShipIndexConst.SortPropertyNames[3]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByPropertyAsc("dodge"),
-				IndexConst.sortByProperty("dodge")
+				ShipIndexConst.sortByPropertyAsc("dodge"),
+				ShipIndexConst.sortByProperty("dodge")
 			},
 			name = ShipIndexConst.SortPropertyNames[4]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByPropertyAsc("antiaircraft"),
-				IndexConst.sortByProperty("antiaircraft")
+				ShipIndexConst.sortByPropertyAsc("antiaircraft"),
+				ShipIndexConst.sortByProperty("antiaircraft")
 			},
 			name = ShipIndexConst.SortPropertyNames[5]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByPropertyAsc("torpedo"),
-				IndexConst.sortByProperty("torpedo")
+				ShipIndexConst.sortByPropertyAsc("torpedo"),
+				ShipIndexConst.sortByProperty("torpedo")
 			},
 			name = ShipIndexConst.SortPropertyNames[6]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByPropertyAsc("reload"),
-				IndexConst.sortByProperty("reload")
+				ShipIndexConst.sortByPropertyAsc("reload"),
+				ShipIndexConst.sortByProperty("reload")
 			},
 			name = ShipIndexConst.SortPropertyNames[7]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByPropertyAsc("durability"),
-				IndexConst.sortByProperty("durability")
+				ShipIndexConst.sortByPropertyAsc("durability"),
+				ShipIndexConst.sortByProperty("durability")
 			},
 			name = ShipIndexConst.SortPropertyNames[8]
 		},
 		{
 			sortFuncs = {
-				IndexConst.sortByPropertyAsc("antisub"),
-				IndexConst.sortByProperty("antisub")
+				ShipIndexConst.sortByPropertyAsc("antisub"),
+				ShipIndexConst.sortByProperty("antisub")
 			},
 			name = ShipIndexConst.SortPropertyNames[9]
 		}

@@ -6,20 +6,57 @@ slot0.TOGGLE_CHAR = 0
 slot0.TOGGLE_LINK = 1
 slot0.TOGGLE_BLUEPRINT = 2
 slot0.ShipIndex = {
-	display = {
-		index = IndexConst.FlagRange2Bits(IndexConst.IndexAll, IndexConst.IndexOther),
-		camp = IndexConst.FlagRange2Bits(IndexConst.CampAll, IndexConst.CampOther),
-		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity5)
+	typeIndex = ShipIndexConst.TypeAll,
+	campIndex = ShipIndexConst.CampAll,
+	rarityIndex = ShipIndexConst.RarityAll
+}
+slot0.ShipIndexData = {
+	customPanels = {
+		typeIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.TypeIndexs,
+			names = ShipIndexConst.TypeNames
+		},
+		campIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.CampIndexs,
+			names = ShipIndexConst.CampNames
+		},
+		rarityIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.RarityIndexs,
+			names = ShipIndexConst.RarityNames
+		}
 	},
-	index = IndexConst.Flags2Bits({
-		IndexConst.IndexAll
-	}),
-	camp = IndexConst.Flags2Bits({
-		IndexConst.CampAll
-	}),
-	rarity = IndexConst.Flags2Bits({
-		IndexConst.RarityAll
-	})
+	groupList = {
+		{
+			dropdown = false,
+			titleTxt = "indexsort_index",
+			titleENTxt = "indexsort_indexeng",
+			tags = {
+				"typeIndex"
+			}
+		},
+		{
+			dropdown = false,
+			titleTxt = "indexsort_camp",
+			titleENTxt = "indexsort_campeng",
+			tags = {
+				"campIndex"
+			}
+		},
+		{
+			dropdown = false,
+			titleTxt = "indexsort_rarity",
+			titleENTxt = "indexsort_rarityeng",
+			tags = {
+				"rarityIndex"
+			}
+		}
+	}
 }
 
 function slot0.setShipGroups(slot0, slot1)
@@ -104,29 +141,28 @@ function slot0.didEnter(slot0)
 		uv0:updateCardList()
 	end)
 	onButton(slot0, slot0.indexBtn, function ()
-		slot0 = Clone(uv0.ShipIndex.display)
+		slot0 = Clone(uv0.ShipIndexData)
 
 		if uv1.toggleType == uv0.TOGGLE_LINK then
-			slot0.camp = nil
+			slot0.customPanels.campIndex = nil
+			slot0.groupList[2] = nil
 		end
 
-		uv1:emit(uv0.ON_INDEX, {
-			display = slot0,
-			index = uv0.ShipIndex.index,
-			camp = uv0.ShipIndex.camp,
-			rarity = uv0.ShipIndex.rarity,
-			callback = function (slot0)
-				uv0.ShipIndex.index = slot0.index
+		slot0.indexDatas = Clone(uv0.ShipIndex)
 
-				if slot0.camp then
-					uv0.ShipIndex.camp = slot0.camp
-				end
+		function slot0.callback(slot0)
+			uv0.ShipIndex.typeIndex = slot0.typeIndex
 
-				uv0.ShipIndex.rarity = slot0.rarity
-
-				uv1:updateCardList()
+			if slot0.campIndex then
+				uv0.ShipIndex.campIndex = slot0.campIndex
 			end
-		}, SFX_PANEL)
+
+			uv0.ShipIndex.rarityIndex = slot0.rarityIndex
+
+			uv1:updateCardList()
+		end
+
+		uv1:emit(uv0.ON_INDEX, slot0)
 	end)
 	triggerToggle(slot0.toggleChar, true)
 end
@@ -154,7 +190,7 @@ function slot0.updateCardList(slot0)
 		return pg.ship_data_group[slot0].handbook_type == uv0.toggleType
 	end)
 
-	if uv0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and uv0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and uv0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) and slot0.toggleType == uv0.TOGGLE_CHAR then
+	if uv0.ShipIndex.typeIndex == ShipIndexConst.TypeAll and uv0.ShipIndex.rarityIndex == ShipIndexConst.RarityAll and uv0.ShipIndex.campIndex == ShipIndexConst.CampAll and slot0.toggleType == uv0.TOGGLE_CHAR then
 		for slot6, slot7 in ipairs(slot2) do
 			slot9 = nil
 			slot10 = false
@@ -179,10 +215,10 @@ function slot0.updateCardList(slot0)
 
 				if ShipGroup.New({
 					id = slot8.group_type
-				}) and IndexConst.filterByIndex(slot9, uv0.ShipIndex.index) and IndexConst.filterByRarity(slot9, uv0.ShipIndex.rarity) then
+				}) and ShipIndexConst.filterByType(slot9, uv0.ShipIndex.typeIndex) and ShipIndexConst.filterByRarity(slot9, uv0.ShipIndex.rarityIndex) then
 					slot11 = Nation.IsLinkType(slot9:getNation())
 
-					if slot0.toggleType == uv0.TOGGLE_CHAR and not slot11 and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
+					if slot0.toggleType == uv0.TOGGLE_CHAR and not slot11 and ShipIndexConst.filterByCamp(slot9, uv0.ShipIndex.campIndex) then
 						slot1[#slot1 + 1] = {
 							showTrans = false,
 							code = uv1(slot0.toggleType, slot11, slot7),
@@ -194,7 +230,7 @@ function slot0.updateCardList(slot0)
 							code = uv1(slot0.toggleType, slot11, slot7),
 							group = slot10
 						}
-					elseif slot0.toggleType == uv0.TOGGLE_BLUEPRINT and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
+					elseif slot0.toggleType == uv0.TOGGLE_BLUEPRINT and ShipIndexConst.filterByCamp(slot9, uv0.ShipIndex.campIndex) then
 						slot1[#slot1 + 1] = {
 							showTrans = false,
 							code = uv1(slot0.toggleType, slot11, slot7),

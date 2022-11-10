@@ -10,20 +10,57 @@ function slot0.getUIName(slot0)
 end
 
 slot0.ShipIndex = {
-	display = {
-		index = IndexConst.FlagRange2Bits(IndexConst.IndexAll, IndexConst.IndexOther),
-		camp = IndexConst.FlagRange2Bits(IndexConst.CampAll, IndexConst.CampOther),
-		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity4)
+	typeIndex = ShipIndexConst.TypeAll,
+	campIndex = ShipIndexConst.CampAll,
+	rarityIndex = ShipIndexConst.RarityAll
+}
+slot0.ShipIndexData = {
+	customPanels = {
+		typeIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.TypeIndexs,
+			names = ShipIndexConst.TypeNames
+		},
+		campIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.CampIndexs,
+			names = ShipIndexConst.CampNames
+		},
+		rarityIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.RarityIndexs,
+			names = ShipIndexConst.RarityNames
+		}
 	},
-	index = IndexConst.Flags2Bits({
-		IndexConst.IndexAll
-	}),
-	camp = IndexConst.Flags2Bits({
-		IndexConst.CampAll
-	}),
-	rarity = IndexConst.Flags2Bits({
-		IndexConst.RarityAll
-	})
+	groupList = {
+		{
+			dropdown = false,
+			titleTxt = "indexsort_index",
+			titleENTxt = "indexsort_indexeng",
+			tags = {
+				"typeIndex"
+			}
+		},
+		{
+			dropdown = false,
+			titleTxt = "indexsort_camp",
+			titleENTxt = "indexsort_campeng",
+			tags = {
+				"campIndex"
+			}
+		},
+		{
+			dropdown = false,
+			titleTxt = "indexsort_rarity",
+			titleENTxt = "indexsort_rarityeng",
+			tags = {
+				"rarityIndex"
+			}
+		}
+	}
 }
 
 function slot0.OnInit(slot0)
@@ -85,24 +122,22 @@ function slot0.initUI(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.indexBtn, function ()
-		uv1:emit(PrayPoolConst.CLICK_INDEX_BTN, {
-			display = Clone(uv0.ShipIndex.display),
-			index = uv0.ShipIndex.index,
-			camp = uv0.ShipIndex.camp,
-			rarity = uv0.ShipIndex.rarity,
-			callback = function (slot0)
-				uv0.ShipIndex.index = slot0.index
+		slot0 = Clone(uv0.ShipIndexData)
+		slot0.indexDatas = Clone(uv0.ShipIndex)
 
-				if slot0.camp then
-					uv0.ShipIndex.camp = slot0.camp
-				end
+		function slot0.callback(slot0)
+			uv0.ShipIndex.typeIndex = slot0.typeIndex
+			uv0.ShipIndex.rarityIndex = slot0.rarityIndex
 
-				uv0.ShipIndex.rarity = slot0.rarity
-
-				uv1:fliteShipIDList()
-				uv1:updateShipList(uv1.fliteList)
+			if slot0.campIndex then
+				uv0.ShipIndex.campIndex = slot0.campIndex
 			end
-		})
+
+			uv1:fliteShipIDList()
+			uv1:updateShipList(uv1.fliteList)
+		end
+
+		uv1:emit(PrayPoolConst.CLICK_INDEX_BTN, slot0)
 	end)
 end
 
@@ -198,23 +233,41 @@ end
 function slot0.updateShipList(slot0, slot1)
 	slot2 = slot0.prayProxy:getSelectedShipIDList()
 
+	table.sort(slot1, function (slot0, slot1)
+		slot3 = getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot1].group_type)
+
+		if not getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot0].group_type) and slot3 then
+			return true
+		else
+			return false
+		end
+	end)
+
 	function slot0.shipListSC.onUpdateItem(slot0, slot1)
 		slot2 = uv0[slot0 + 1]
 
 		GetImageSpriteFromAtlasAsync("SquareIcon/" .. Ship.getPaintingName(slot2), "", uv1:findTF("BG/Icon", slot1))
 
-		slot6 = ShipRarity.Rarity2Print(pg.ship_data_statistics[slot2].rarity)
+		slot4 = uv1:findTF("BG/GroupLocked", slot1)
 
-		setFrame(uv1:findTF("BG/Frame", slot1), slot6)
-		setImageSprite(uv1:findTF("BG", slot1), GetSpriteFromAtlas("weaponframes", "bg" .. slot6))
+		if pg.ship_data_template[slot2].group_type and slot6 > 0 then
+			setActive(slot4, not getProxy(CollectionProxy):getShipGroup(slot6))
+		else
+			setActive(slot4, false)
+		end
+
+		slot9 = ShipRarity.Rarity2Print(pg.ship_data_statistics[slot2].rarity)
+
+		setFrame(uv1:findTF("BG/Frame", slot1), slot9)
+		setImageSprite(uv1:findTF("BG", slot1), GetSpriteFromAtlas("weaponframes", "bg" .. slot9))
 		setText(uv1:findTF("NameBG/NameText", slot1), shortenString(pg.ship_data_statistics[slot2].name, 6))
 
-		slot10 = uv1:findTF("BG/SelectedImg", slot1)
+		slot13 = uv1:findTF("BG/SelectedImg", slot1)
 
 		if table.indexof(uv2, slot2, 1) then
-			SetActive(slot10, true)
+			SetActive(slot13, true)
 		else
-			SetActive(slot10, false)
+			SetActive(slot13, false)
 		end
 
 		onButton(uv1, slot1, function ()
@@ -271,9 +324,9 @@ function slot0.fliteShipIDList(slot0)
 	end
 
 	for slot6, slot7 in ipairs(slot0.orderFullList) do
-		if not table.indexof(slot2, slot7, 1) and IndexConst.filterByIndex(ShipGroup.New({
+		if not table.indexof(slot2, slot7, 1) and ShipIndexConst.filterByType(ShipGroup.New({
 			id = math.modf(slot7 / 10)
-		}), uv0.ShipIndex.index) and IndexConst.filterByRarity(slot9, uv0.ShipIndex.rarity) and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
+		}), uv0.ShipIndex.typeIndex) and ShipIndexConst.filterByRarity(slot9, uv0.ShipIndex.rarityIndex) and ShipIndexConst.filterByCamp(slot9, uv0.ShipIndex.campIndex) then
 			slot1[#slot1 + 1] = slot7
 		end
 	end

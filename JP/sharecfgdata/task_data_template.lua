@@ -185382,6 +185382,971 @@ _G.pg.base.task_data_template[18035] = {
 	}
 }
 
+_G.pg.base.task_data_template[18040] = {
+	name = "『德系V3复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 98390,
+	type = 36,
+	desc = "3回建造する",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18040,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18041] = {
+	name = "『德系V3复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 98391,
+	type = 36,
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18041,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18042] = {
+	name = "『德系V3复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 98392,
+	type = 36,
+	desc = "通常海域ハードを1回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18042,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18043] = {
+	name = "『德系V3复刻』- 日常活动关卡",
+	guild_coin_award = 0,
+	award = 98393,
+	type = 36,
+	desc = "任意のイベントステージを1回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18043,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460002,
+		1460003,
+		1460004,
+		1460005,
+		1460006,
+		1460021,
+		1460022,
+		1460023,
+		1460024,
+		1460025,
+		1460026,
+		1460041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4299
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18044] = {
+	name = "『德系V3复刻』A1/C1通关一次",
+	guild_coin_award = 0,
+	award = 98394,
+	type = 6,
+	desc = "A1かC1を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18044,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18045] = {
+	name = "『德系V3复刻』A2/C2通关一次",
+	guild_coin_award = 0,
+	award = 98395,
+	type = 6,
+	desc = "A2かC2を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18045,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18046] = {
+	name = "『德系V3复刻』A3/C3通关一次",
+	guild_coin_award = 0,
+	award = 98396,
+	type = 6,
+	desc = "A3かC3を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18046,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18047] = {
+	name = "『德系V3复刻』B1/D1通关一次",
+	guild_coin_award = 0,
+	award = 98397,
+	type = 6,
+	desc = "B1かD1を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18047,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18048] = {
+	name = "『德系V3复刻』B2/D2通关一次",
+	guild_coin_award = 0,
+	award = 98398,
+	type = 6,
+	desc = "B2かD2を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18048,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18049] = {
+	name = "『德系V3复刻』B3/D3通关一次",
+	guild_coin_award = 0,
+	award = 98399,
+	type = 6,
+	desc = "B3かD3を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18049,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18050] = {
+	name = "『德系V3复刻』通关SP",
+	guild_coin_award = 0,
+	award = 98400,
+	type = 6,
+	desc = "イベントステージSPをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460041",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18050,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460025,
+			chapterId = 1460041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18051] = {
+	name = "『德系V3复刻』通关D3",
+	guild_coin_award = 0,
+	award = 98401,
+	type = 6,
+	desc = "D3クリア(2個目は取得できません)",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460026",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18051,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			189,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460012,
+			chapterId = 1460026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18052] = {
+	name = "『德系V3复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 98402,
+	type = 6,
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18053",
+	auto_commit = 0,
+	story_id = "",
+	id = 18052,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18053] = {
+	name = "『德系V3复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 98403,
+	type = 6,
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18054",
+	auto_commit = 0,
+	story_id = "",
+	id = 18053,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18054] = {
+	name = "『德系V3复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 98404,
+	type = 6,
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18055",
+	auto_commit = 0,
+	story_id = "",
+	id = 18054,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18055] = {
+	name = "『德系V3复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 98405,
+	type = 6,
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18056",
+	auto_commit = 0,
+	story_id = "",
+	id = 18055,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18056] = {
+	name = "『德系V3复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 98406,
+	type = 6,
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18057",
+	auto_commit = 0,
+	story_id = "",
+	id = 18056,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18057] = {
+	name = "『德系V3复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 98407,
+	type = 6,
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18057,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18058] = {
+	name = "『德系V3复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98408,
+	type = 6,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18058,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			284,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18059] = {
+	name = "『德系V3复刻』通关EX",
+	guild_coin_award = 0,
+	award = 98440,
+	type = 6,
+	desc = "EXステージをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460051",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18059,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460026,
+			chapterId = 1460051
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "戦闘勝利-日常",
 	guild_coin_award = 0,

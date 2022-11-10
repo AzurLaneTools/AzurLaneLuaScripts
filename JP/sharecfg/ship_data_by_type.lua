@@ -10,11 +10,6 @@ pg.ship_data_by_type = {
 		ship_type = 1,
 		type_name = "駆逐",
 		team_type = "vanguard",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			1,
 			8,
@@ -44,11 +39,6 @@ pg.ship_data_by_type = {
 		ship_type = 2,
 		type_name = "軽巡",
 		team_type = "vanguard",
-		property_filter = {
-			"durability",
-			"cannon",
-			"antiaircraft"
-		},
 		strengthen_choose_type = {
 			1,
 			2,
@@ -78,11 +68,6 @@ pg.ship_data_by_type = {
 		ship_type = 3,
 		type_name = "重巡",
 		team_type = "vanguard",
-		property_filter = {
-			"durability",
-			"cannon",
-			"antiaircraft"
-		},
 		strengthen_choose_type = {
 			1,
 			2,
@@ -112,11 +97,6 @@ pg.ship_data_by_type = {
 		ship_type = 4,
 		type_name = "巡戦",
 		team_type = "main",
-		property_filter = {
-			"durability",
-			"cannon",
-			"armor"
-		},
 		strengthen_choose_type = {
 			5,
 			4,
@@ -146,11 +126,6 @@ pg.ship_data_by_type = {
 		ship_type = 5,
 		type_name = "戦艦",
 		team_type = "main",
-		property_filter = {
-			"durability",
-			"cannon",
-			"armor"
-		},
 		strengthen_choose_type = {
 			5,
 			4,
@@ -180,11 +155,6 @@ pg.ship_data_by_type = {
 		ship_type = 6,
 		type_name = "軽母",
 		team_type = "main",
-		property_filter = {
-			"durability",
-			"air",
-			"antiaircraft"
-		},
 		strengthen_choose_type = {
 			7,
 			6,
@@ -214,11 +184,6 @@ pg.ship_data_by_type = {
 		ship_type = 7,
 		type_name = "空母",
 		team_type = "main",
-		property_filter = {
-			"durability",
-			"air",
-			"antiaircraft"
-		},
 		strengthen_choose_type = {
 			7,
 			6,
@@ -248,11 +213,6 @@ pg.ship_data_by_type = {
 		ship_type = 8,
 		type_name = "潜水",
 		team_type = "submarine",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			1,
 			2,
@@ -280,11 +240,6 @@ pg.ship_data_by_type = {
 		ship_type = 9,
 		type_name = "航巡",
 		team_type = "vanguard",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			7,
 			6,
@@ -314,11 +269,6 @@ pg.ship_data_by_type = {
 		ship_type = 10,
 		type_name = "航戦",
 		team_type = "main",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			7,
 			6,
@@ -348,11 +298,6 @@ pg.ship_data_by_type = {
 		ship_type = 11,
 		type_name = "雷巡",
 		team_type = "vanguard",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			1,
 			8,
@@ -382,11 +327,6 @@ pg.ship_data_by_type = {
 		ship_type = 12,
 		type_name = "工作",
 		team_type = "main",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			1,
 			2,
@@ -414,11 +354,6 @@ pg.ship_data_by_type = {
 		ship_type = 13,
 		type_name = "砲艦",
 		team_type = "main",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			5,
 			4,
@@ -446,11 +381,6 @@ pg.ship_data_by_type = {
 		ship_type = 17,
 		type_name = "潜母 ",
 		team_type = "submarine",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			1,
 			2,
@@ -478,11 +408,6 @@ pg.ship_data_by_type = {
 		ship_type = 18,
 		type_name = "超巡",
 		team_type = "vanguard",
-		property_filter = {
-			"durability",
-			"cannon",
-			"antiaircraft"
-		},
 		strengthen_choose_type = {
 			1,
 			2,
@@ -512,11 +437,6 @@ pg.ship_data_by_type = {
 		ship_type = 19,
 		type_name = "運送",
 		team_type = "vanguard",
-		property_filter = {
-			"durability",
-			"cannon",
-			"antiaircraft"
-		},
 		strengthen_choose_type = {
 			1,
 			2,
@@ -546,11 +466,6 @@ pg.ship_data_by_type = {
 		ship_type = 20,
 		type_name = "ミ駆",
 		team_type = "vanguard",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			1,
 			8,
@@ -580,11 +495,6 @@ pg.ship_data_by_type = {
 		ship_type = 21,
 		type_name = "ミ駆",
 		team_type = "main",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			1,
 			8,
@@ -614,29 +524,22 @@ pg.ship_data_by_type = {
 		ship_type = 22,
 		type_name = "風帆",
 		team_type = "submarine",
-		property_filter = {
-			"durability",
-			"cannon",
-			"torpedo"
-		},
 		strengthen_choose_type = {
 			1,
-			8,
 			2,
 			11,
 			3,
 			4,
 			5,
 			13,
+			8,
 			10,
 			9,
 			6,
 			7,
 			12
 		},
-		arena_buff = {
-			55
-		}
+		arena_buff = {}
 	},
 	all = {
 		1,

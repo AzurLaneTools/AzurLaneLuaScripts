@@ -3,8 +3,8 @@ slot0 = class("PrayPoolMediator", import("..base.ContextMediator"))
 function slot0.register(slot0)
 	slot0:bind(PrayPoolConst.CLICK_INDEX_BTN, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
-			mediator = IndexMediator,
-			viewComponent = IndexLayer,
+			viewComponent = CustomIndexLayer,
+			mediator = CustomIndexMediator,
 			data = slot1
 		}))
 	end)

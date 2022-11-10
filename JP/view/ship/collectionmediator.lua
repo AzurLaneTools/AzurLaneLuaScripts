@@ -31,8 +31,8 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(CollectionScene.ON_INDEX, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
-			mediator = IndexMediator,
-			viewComponent = IndexLayer,
+			viewComponent = CustomIndexLayer,
+			mediator = CustomIndexMediator,
 			data = slot1
 		}))
 	end)

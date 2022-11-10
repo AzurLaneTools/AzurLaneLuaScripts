@@ -8906,49 +8906,107 @@ pg.activity_ins_template = {
 		ship_group = 20135,
 		name = "Janus",
 		sculpture = "Yanusi_3",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_338",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/20221027_yanusi_Z2wQWVJxppr797YU.png",
 		group_id = 338,
 		id = 338,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				10,
+				27
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3096,
+			3099,
+			3101
+		}
 	},
 	{
 		ship_group = 20607,
 		name = "Albion",
 		sculpture = "Aerbien_2",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_339",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/20221027_aerbien_BXeJmWr8GWwRVpfC.png",
 		group_id = 339,
 		id = 339,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				10,
+				28
+			},
+			{
+				18,
+				23,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3106,
+			3110
+		}
 	},
 	{
 		ship_group = 20209,
 		name = "Manchester",
 		sculpture = "manchesite_3",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_340",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/20221027_manchesite_G8jyDYz6Rk7WEyMS.png",
 		group_id = 340,
 		id = 340,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				10,
+				29
+			},
+			{
+				18,
+				35,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3116,
+			3120
+		}
 	},
 	{
 		ship_group = 10502,
 		name = "Oklahoma",
 		sculpture = "Ekelahema_2",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_341",
+		picture_persist = "https://blhxstatic.yo-star.com/pic/20221027_ekelahema_sm7Xw4BX8SqeySfW.png",
 		group_id = 341,
 		id = 341,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				10,
+				31
+			},
+			{
+				19,
+				5,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3127,
+			3129,
+			3131
+		}
 	},
 	all = {
 		1,

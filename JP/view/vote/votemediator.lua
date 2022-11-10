@@ -32,8 +32,8 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_FILTER, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
-			viewComponent = IndexLayer,
-			mediator = IndexMediator,
+			viewComponent = CustomIndexLayer,
+			mediator = CustomIndexMediator,
 			data = slot1
 		}))
 	end)

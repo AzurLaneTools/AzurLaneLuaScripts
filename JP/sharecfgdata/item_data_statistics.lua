@@ -18556,6 +18556,73 @@ _G.pg.base.item_data_statistics[40128] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40129] = {
+	display = "購入すると材料が大量に入手できます",
+	name = "指揮官応援パック",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40129,
+	is_world = 0,
+	icon = "ChargeIcon/support5",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40901] = {
 	display = "ランダムに正月シリーズの着せ替え衣装、装備外装箱×3、ダイヤ×2018、キューブ×8、家具コイン×100、高速建造材×4が入手できます",
 	name = "福袋",
@@ -177636,6 +177703,90 @@ _G.pg.base.item_data_statistics[59355] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59356] = {
+	display = "「作戦準備・鉄血」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59356,
+	is_world = 0,
+	icon = "Props/xunliandianshu_t",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59357] = {
+	display = "「虚畳なりし限象」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "鉄血キー",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59357,
+	is_world = 0,
+	icon = "Props/DexiV3_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59358] = {
+	display = "イベント「虚畳なりし限象」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	name = "建造支援チケット",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4571,
+	id = 59358,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59359] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2022.11.16メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2022.11.16まで）",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59359,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59360] = {
 	display = "特殊装備所持数上限が10アップ",
 	name = "特殊装備倉庫＋",
@@ -177651,6 +177802,27 @@ _G.pg.base.item_data_statistics[59360] = {
 	id = 59360,
 	is_world = 0,
 	icon = "props/spweapon_expand",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59362] = {
+	display = "新人指揮官キャンペーンのショップでアイテムと交換できます（キャンペーン期間終了後に削除されます）",
+	name = "新人キャンペーンPt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59362,
+	is_world = 0,
+	icon = "Props/newserver_pt",
 	display_icon = {},
 	price = {},
 	index = {},

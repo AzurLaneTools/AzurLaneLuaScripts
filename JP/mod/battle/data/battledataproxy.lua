@@ -1892,7 +1892,7 @@ function slot8.SpawnEnvironment(slot0, slot1)
 	slot11 = 0
 	slot12 = nil
 
-	slot3:SetAOEData((#slot1.cld_data ~= 1 or slot0:SpawnLastingColumnArea(slot9, slot10, slot5, slot1.cld_data[1], slot11, slot6, slot7, false, slot1.prefab, slot8)) and slot0:SpawnLastingCubeArea(slot9, slot10, slot5, slot1.cld_data[1], slot1.cld_data[2], slot11, slot6, slot7, false, slot1.prefab, slot8))
+	slot3:SetAOEData((#slot1.cld_data ~= 1 or slot0:SpawnLastingColumnArea(slot9, slot10, slot5, slot1.cld_data[1], slot11, slot6, slot7, false, slot1.prefab, slot8, true)) and slot0:SpawnLastingCubeArea(slot9, slot10, slot5, slot1.cld_data[1], slot1.cld_data[2], slot11, slot6, slot7, false, slot1.prefab, slot8, true))
 
 	slot0._environmentList[slot2] = slot3
 

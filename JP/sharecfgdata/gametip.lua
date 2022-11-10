@@ -10058,7 +10058,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「アルビオン」「ジェーナス」などの出現率UP！"
+	tip = "「ペーター·シュトラッサー」「プリンツ·ハインリヒ」などの出現率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
