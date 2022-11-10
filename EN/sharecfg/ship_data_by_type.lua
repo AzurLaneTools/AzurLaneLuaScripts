@@ -621,22 +621,20 @@ pg.ship_data_by_type = {
 		},
 		strengthen_choose_type = {
 			1,
-			8,
 			2,
 			11,
 			3,
 			4,
 			5,
 			13,
+			8,
 			10,
 			9,
 			6,
 			7,
 			12
 		},
-		arena_buff = {
-			55
-		}
+		arena_buff = {}
 	},
 	all = {
 		1,

@@ -7,39 +7,79 @@ slot0.ON_INDEX = "event on index"
 slot0.UPDATE_RED_POINT = "CollectionScene:UPDATE_RED_POINT"
 slot0.ShipOrderAsc = false
 slot0.ShipIndex = {
-	display = {
-		index = IndexConst.FlagRange2Bits(IndexConst.IndexAll, IndexConst.IndexOther),
-		camp = IndexConst.FlagRange2Bits(IndexConst.CampAll, IndexConst.CampOther),
-		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity5),
-		extra = IndexConst.FlagRange2Bits(IndexConst.ExtraAll, IndexConst.ExtraNotObtained)
+	typeIndex = ShipIndexConst.TypeAll,
+	campIndex = ShipIndexConst.CampAll,
+	rarityIndex = ShipIndexConst.RarityAll,
+	collExtraIndex = ShipIndexConst.CollExtraAll
+}
+slot0.ShipIndexData = {
+	customPanels = {
+		typeIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.TypeIndexs,
+			names = ShipIndexConst.TypeNames
+		},
+		campIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.CampIndexs,
+			names = ShipIndexConst.CampNames
+		},
+		rarityIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.RarityIndexs,
+			names = ShipIndexConst.RarityNames
+		},
+		collExtraIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.CollExtraIndexs,
+			names = ShipIndexConst.CollExtraNames
+		}
 	},
-	index = IndexConst.Flags2Bits({
-		IndexConst.IndexAll
-	}),
-	camp = IndexConst.Flags2Bits({
-		IndexConst.CampAll
-	}),
-	rarity = IndexConst.Flags2Bits({
-		IndexConst.RarityAll
-	}),
-	extra = IndexConst.Flags2Bits({
-		IndexConst.ExtraAll
-	})
+	groupList = {
+		{
+			dropdown = false,
+			titleTxt = "indexsort_index",
+			titleENTxt = "indexsort_indexeng",
+			tags = {
+				"typeIndex"
+			}
+		},
+		{
+			dropdown = false,
+			titleTxt = "indexsort_camp",
+			titleENTxt = "indexsort_campeng",
+			tags = {
+				"campIndex"
+			}
+		},
+		{
+			dropdown = false,
+			titleTxt = "indexsort_rarity",
+			titleENTxt = "indexsort_rarityeng",
+			tags = {
+				"rarityIndex"
+			}
+		},
+		{
+			dropdown = false,
+			titleTxt = "indexsort_extraindex",
+			titleENTxt = "indexsort_indexeng",
+			tags = {
+				"collExtraIndex"
+			}
+		}
+	}
 }
 slot0.MANGA_INDEX = 4
 slot0.GALLERY_INDEX = 5
 slot0.MUSIC_INDEX = 6
 
 function slot0.isDefaultStatus(slot0)
-	return uv0.ShipIndex.index == IndexConst.Flags2Bits({
-		IndexConst.IndexAll
-	}) and (uv0.ShipIndex.camp == IndexConst.Flags2Bits({
-		IndexConst.CampAll
-	}) or slot0.contextData.toggle == 1 and slot0.contextData.cardToggle == 2) and uv0.ShipIndex.rarity == IndexConst.Flags2Bits({
-		IndexConst.RarityAll
-	}) and uv0.ShipIndex.extra == IndexConst.Flags2Bits({
-		IndexConst.ExtraAll
-	})
+	return uv0.ShipIndex.typeIndex == ShipIndexConst.TypeAll and (uv0.ShipIndex.campIndex == ShipIndexConst.CampAll or slot0.contextData.toggle == 1 and slot0.contextData.cardToggle == 2) and uv0.ShipIndex.rarityIndex == ShipIndexConst.RarityAll and uv0.ShipIndex.collExtraIndex == ShipIndexConst.CollExtraAll
 end
 
 function slot0.getUIName(slot0)
@@ -354,17 +394,24 @@ function slot0.initIndexPanel(slot0)
 	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
 
 	onButton(slot0, slot0.indexBtn, function ()
-		slot0 = Clone(uv0.ShipIndex)
+		slot0 = Clone(uv0.ShipIndexData)
 
 		if uv1.contextData.toggle == 1 and uv1.contextData.cardToggle == 2 then
-			slot0.display.camp = nil
-			slot0.camp = nil
+			slot0.customPanels.campIndex = nil
+			slot0.groupList[2] = nil
 		end
 
+		slot0.indexDatas = Clone(uv0.ShipIndex)
+
 		function slot0.callback(slot0)
-			for slot4, slot5 in pairs(slot0) do
-				uv0.ShipIndex[slot4] = slot5
+			uv0.ShipIndex.typeIndex = slot0.typeIndex
+
+			if slot0.campIndex then
+				uv0.ShipIndex.campIndex = slot0.campIndex
 			end
+
+			uv0.ShipIndex.rarityIndex = slot0.rarityIndex
+			uv0.ShipIndex.collExtraIndex = slot0.collExtraIndex
 
 			uv1:initCardPanel()
 		end
@@ -477,9 +524,9 @@ function slot0.cardFilter(slot0)
 	table.sort(slot1)
 
 	for slot5, slot6 in ipairs(slot1) do
-		if IndexConst.filterByIndex(slot0.shipGroups[pg.ship_data_group[slot6].group_type] or ShipGroup.New({
+		if ShipIndexConst.filterByType(slot0.shipGroups[pg.ship_data_group[slot6].group_type] or ShipGroup.New({
 			id = slot7.group_type
-		}), uv0.ShipIndex.index) and (slot0.contextData.cardToggle == 2 or IndexConst.filterByCamp(slot8, uv0.ShipIndex.camp)) and slot0.contextData.cardToggle == 4 == Nation.IsMeta(ShipGroup.getDefaultShipConfig(slot7.group_type).nationality) and IndexConst.filterByRarity(slot8, uv0.ShipIndex.rarity) and IndexConst.filterByExtra(slot8, uv0.ShipIndex.extra) then
+		}), uv0.ShipIndex.typeIndex) and (slot0.contextData.cardToggle == 2 or ShipIndexConst.filterByCamp(slot8, uv0.ShipIndex.campIndex)) and slot0.contextData.cardToggle == 4 == Nation.IsMeta(ShipGroup.getDefaultShipConfig(slot7.group_type).nationality) and ShipIndexConst.filterByRarity(slot8, uv0.ShipIndex.rarityIndex) and ShipIndexConst.filterByCollExtra(slot8, uv0.ShipIndex.collExtraIndex) then
 			slot0.codeShips[#slot0.codeShips + 1] = {
 				showTrans = false,
 				id = slot6,
@@ -500,10 +547,10 @@ function slot0.transFilter(slot0)
 	table.sort(slot1)
 
 	for slot5, slot6 in ipairs(slot1) do
-		if pg.ship_data_trans[pg.ship_data_group[slot6].group_type] and IndexConst.filterByIndex(slot0.shipGroups[slot7.group_type] or ShipGroup.New({
+		if pg.ship_data_trans[pg.ship_data_group[slot6].group_type] and ShipIndexConst.filterByType(slot0.shipGroups[slot7.group_type] or ShipGroup.New({
 			remoulded = true,
 			id = slot7.group_type
-		}), uv0.ShipIndex.index) and IndexConst.filterByCamp(slot8, uv0.ShipIndex.camp) and IndexConst.filterByRarity(slot8, uv0.ShipIndex.rarity) and IndexConst.filterByExtra(slot8, uv0.ShipIndex.extra) then
+		}), uv0.ShipIndex.typeIndex) and ShipIndexConst.filterByCamp(slot8, uv0.ShipIndex.campIndex) and ShipIndexConst.filterByRarity(slot8, uv0.ShipIndex.rarityIndex) and ShipIndexConst.filterByCollExtra(slot8, uv0.ShipIndex.collExtraIndex) then
 			slot0.codeShips[#slot0.codeShips + 1] = {
 				showTrans = true,
 				id = slot6,

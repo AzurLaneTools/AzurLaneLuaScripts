@@ -2221,8 +2221,8 @@ function slot0.SetSpWeaponRecord(slot0, slot1, slot2)
 		2,
 		3
 	}, function (slot0)
-		if uv0[slot0] and slot1:GetUID() ~= 0 then
-			return slot1:GetUID() .. "," .. slot1:GetConfigID()
+		if uv0[slot0] then
+			return (slot1:GetUID() or 0) .. "," .. slot1:GetConfigID()
 		else
 			return "0,0"
 		end
@@ -2479,7 +2479,9 @@ end
 function slot0.GetMapStrikeAnim(slot0)
 	switch(TeamType.GetTeamFromShipType(slot0:getShipType()), {
 		[TeamType.Main] = function ()
-			if ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrier, uv0) then
+			if ShipType.IsTypeQuZhu(uv0) then
+				uv1 = "SubTorpedoUI"
+			elseif ShipType.ContainInLimitBundle(ShipType.BundleAircraftCarrier, uv0) then
 				uv1 = "AirStrikeUI"
 			elseif ShipType.ContainInLimitBundle(ShipType.BundleBattleShip, uv0) then
 				uv1 = "CannonUI"

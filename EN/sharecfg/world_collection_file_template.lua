@@ -1107,6 +1107,413 @@ According to a spokesperson, this exercise is an annual naval review and has no 
 		content = "...A summit was held between various factions to negotiate a response to mounting geopolitical tensions. The contents of the multi-hour summit were not disclosed. Additionally, there was no questioning period, joint presentations, or press conferences held after the summit. According to people familiar with the matter, the summit was held in silence from beginning to end.\nBecause no substantial content has been made public, we cannot analyze the results of the actual talks. However, the fact that the summit only lasted three hours while attempting to tackle such a crucial topic suggests that there may have been some problems in play. There are only two likely scenarios for why the summit lasted such a short time: First, the opinions of all the parties are quite unified, and the summit ended smoothly; Second, the opinions of the parties are far too different, and the summit would not serve any purpose. Taking into account the silence of the parties' participants following the summit, the second scenario seems more likely...",
 		pic = "10106"
 	},
+	[11101] = {
+		id = 11101,
+		name = "Communication Log: Discussions and Debates",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 1,
+		content = [[
+To Aoste,
+
+...To be frank, the question as to whether or not artificial intelligence will eventually supersede humanity is not one I have an answer for.
+
+From an evolutionary perspective, natural selection dictates that all organisms fight for survival, with the fittest species among them surviving. By these rules, countless species have risen and fallen, and there is no guarantee that humans will be the ultimate victors.
+
+But before talking about "superseding," we must first ask if AI can fit into the definition of living organisms.
+
+One definition of a living organism is a self-evolving system that can spontaneously undergo entropic changes for the purpose of promulgating itself. In a broader sense, the process of producing new individuals based on itself can be called "reproduction." Under this definition, the "vector" of life itself is not as important as its ability to undergo self-evolution in response to stochastic changes in entropy.
+
+Ultimately, I agree with the view that any system, whether biological or artificially created, can be considered a living organism as long as it has a sense of self and is capable of thought. In other words, a true AI is in fact a living organism - and that's a hill I'm willing to die on.
+
+But things get more complicated when you dig deeper. If the purpose of AI is to create a living organism that has a sense of self similar to humans but with greater cognitive capacity, will that lifeform be superior to humans? And will it "replace" us?
+
+If true AI did exist, how do you think it would answer this question?
+
+Looking forward to your response,
+
+Anzeel]],
+		pic = ""
+	},
+	[11102] = {
+		id = 11102,
+		name = "Communication Log: Regarding Memory and Emotion",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 2,
+		content = [[
+Anzeel,
+
+...I don't deny that emotions are a requisite component of "true" AIs, but I would like to offer a few remarks regarding the topics of emotions, metacognition, and the definition of life that you have raised.
+
+First and foremost, when considering the process of evoking emotions from memories, human beings can experience a gamut of emotions by retrieving memories stored in the brain. We know that AIs can replicate this process if they have the same cognitive protocols of storage and retrieval.
+
+The problem is, memories stored in the human brain can deteriorate or change over time, and the technology to implant or manipulate those memories are still a pipe dream at this point. The inverse is true when it comes to artificial intelligence. Information stored in AI databanks does not degrade over time, and it is well within our technological capacity to input and manipulate that data. In other words, AI memories can be created synthetically.
+
+Following this logic, emotions in AI can reliably be created by inputting a specific set of memories. Don't you think your idea of having them imitate human growth and development to accumulate "memories" is somewhat inefficient?
+
+Best,
+
+Aoste]],
+		pic = "11102"
+	},
+	[11103] = {
+		id = 11103,
+		name = "Communication Log: A Small Argument",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 3,
+		content = [[
+Anzeel,
+
+...Sorry about last time. I had no idea you were so invested in that topic.
+
+Regarding my commentary about artificial intelligence at that time, I definitely could have been more careful with my choice of words. Even in a hypothetical environment, if we are to treat AI as living organisms, we must not ignore the fundamental rights to which they are entitled.
+
+You are right - just like humans, an AI's memory is also valuable. If it were possible to perfectly manipulate human memories, that would spell the end of human civilization. However, if true AI is to exist in this world, there is another problem that we must first solve.
+
+I'd like to discuss this topic with you further over dinner tonight, if you don't mind. How about Granate? It's not too far away, and their paella is absolutely divine. Let's meet up at the university's main entrance after classes are over today. I've come up with a few things that might be of interest to you.
+
+Best,
+
+Aoste]],
+		pic = ""
+	},
+	[11104] = {
+		id = 11104,
+		name = "Communication Log: A Lesser-Seen Side",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 4,
+		content = [[
+Aoste, 
+There's something I need to tell you,
+ZXCDFERsddRRergfegwef2R#$W#TT#%ERFERF
+————
+Reply to Anzeel (Anzeel_thebest@personal.edu)
+Hm?
+Nevermind, I guess I won't pry.
+————
+Reply to Aoste (Aoste_mailbox@personal.edu)
+Sorry!
+I had to step outside for some urgent business, and I guess the cat hopped onto the keyboard... He can be quite the prankster at times.
+Oh, and that's what I wanted to tell you - I got a kitty cat!
+Attachment: Cat(0)_2.png
+————
+Reply to Anzeel (Anzeel_thebest@personal.edu)
+Oh? Haha... What a cute little guy.
+————
+Reply to Aoste (Aoste_mailbox@personal.edu)
+I wonder if I can teach him to do housework and stuff... Maybe there'll be some progress by the time we graduate!
+————
+Reply to Anzeel (Anzeel_thebest@personal.edu)
+...Good luck with that.]],
+		pic = "11104"
+	},
+	[11105] = {
+		id = 11105,
+		name = "Communication Log: Across the World",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 5,
+		content = [[
+Anzeel:
+
+...I know you've been considering going to the Northern Parliament to continue your studies, but I honestly wouldn't expect too much. Considering the current geopolitical climate, even though restrictions on work and travel have loosened up, there are still prominent rivalries across both sides of the aisle. If you haven't already laid the necessary groundwork, your research trip application will likely be denied before it ever reaches the other side. Even if it does get through somehow, only headaches await you after that.
+
+As for the information you're interested in, I happen to know someone who might be able to give you your answers. Have you ever heard of someone by the name of Dr. Sophia Alekseyevna Glushkov, a neuroscientist at the Northern Parliament Academy of Sciences? Not too long ago, my advisor and I worked with her on another joint project, and we've developed a good working relationship. I'd be glad to introduce the two of you to each other.
+
+Good luck on your research,
+
+Aoste]],
+		pic = "11105"
+	},
+	[11106] = {
+		id = 11106,
+		name = "Communication Log: Registration",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 6,
+		content = [[
+Shiiiiiiiiit... I need your help here, Aoste. You're the only one I can count on!
+Anzeel
+————
+Reply to Anzeel (Anzeel_thebest@personal.edu)
+What's wrong? Oh, right... I think I get it. Weren't you so proud of yourself last night for setting 3 alarm clocks?
+————
+Reply to Aoste (Aoste_mailbox@personal.edu)
+That was a completely different matter, okay? In any case... I completely missed my course registration deadline! Aoste! Dr. Aoste! Aoste, the Great Magister! Please help me out, or I'm not going to have enough credits to graduate!
+————
+Reply to Anzeel (Anzeel_thebest@personal.edu)
+I had a feeling this was going to happen... Anyway, try signing out and logging back into the system.
+————
+Reply to Aoste (Aoste_mailbox@personal.edu)
+What?! Everything's already been set? How did you do that? Did you hack into the system??
+————
+Reply to Anzeel (Anzeel_thebest@personal.edu)
+No, I just ran a script. I mentioned it before, but I wrote this thing to submit the registration for you in case you were getting too close to missing the deadline. Anyway, it's too late to change anything now, so don't come complaining to me if you don't like your classes...  
+————
+Reply to Aoste (Aoste_mailbox@personal.edu)
+Woohoo! Thankyouthankyouthankyouthankyou! I really owe you big time! Dinner's on me next time, okay?]],
+		pic = ""
+	},
+	[11107] = {
+		id = 11107,
+		name = "Communication Log: Research Opportunity",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 7,
+		content = [[
+Aoste,
+
+...I can't believe how young Dr. Sophia is. It's crazy that she's already a professor at the NPAS at this age. But thanks a ton for the recommendation! You've done me another huge favor!
+
+As for the other thing, the joint research you mentioned earlier between Sevcosmos and a private company... That was actually a military contractor? I'm not going to complain, but as you know, energy research isn't exactly my forte. I'm way more interested in the actual meaningful stuff than... aerospace R&D, you know? You're more cut out than I am for this kind of stuff, but I'd feel bad wasting this opportunity you've landed for me.
+
+I've already submitted my application, so I guess the only thing to do now is to wait and hope for some good news.
+
+Best,
+
+Anzeel]],
+		pic = ""
+	},
+	[11108] = {
+		id = 11108,
+		name = "Communication Log: Graduation",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 8,
+		content = [[
+Aoste,
+
+...Hey, would you like to be my partner at the graduation ball later on?
+Look, I know you're going to look at me funny, but neither of us are good with this kind of stuff so there's nothing to judge...
+
+To be entirely honest, I just want to get out of the party. But, it's hard to avoid unwanted attention when I'm by myself.
+I'm trying to finish up my research, and I don't have time to be wasting on events like these.
+I don't want to have any regrets when I leave this place.
+
+If you do feel like showing up though, please try to at least look the part. No lab coats. ...Though, that's also a reminder for myself.
+
+See you at the entrance at 4 PM.
+
+Let me know if you're on board.
+
+Anzeel]],
+		pic = ""
+	},
+	[11501] = {
+		id = 11501,
+		name = "Communication Log: To the Colonel",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 1,
+		content = [[
+Dear Colonel Archer,
+
+...As a researcher, I consider Enterprise as more than just an experimental subject to observe. She's also my child.
+
+I can't even begin to express how proud of her I am, which is why I'm also worried about her future. I am just a mere scientist who knows little more than research and experimentation, but I can sense the power that girl has and the impact she will have on the entire world.
+
+And if that power were to be used for war... If even I know about it, how can you, the military, not also know?
+
+That is why I want to hear your thoughts about this whole thing. You're the most upstanding officer I know in the military, so... what does the Federation think of Enterprise? How much do they plan to intervene in this research? In other words, when do they plan to send her off to war?
+
+...I know that day will come, sooner or later. I just hope that on that day, she will step onto the battlefield as a soldier and compatriot, rather than as some sort of weapon. Please, give these girls the rights and the glory they deserve.
+
+I look forward to hearing from you.
+
+Anzeel]],
+		pic = ""
+	},
+	[11502] = {
+		id = 11502,
+		name = "Communication Log: The Military's Plans I",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 2,
+		content = [[
+To Dr. Anzeel:
+
+...First of all, we fully understand your concerns, and I would like to personally meet with you to discuss these issues.
+
+The bottom line is, the military is already aware of your research and will make their move soon. The timeline has been shifted up - the power demonstrated by Code G during that exercise was just as shocking to them as it was to me.
+
+However, there is a silver lining to all this. The question of her status is still being discussed, and there is no immediate plan to use her on the battlefield. Very likely, the question of mass producibility is the military's top priority at this moment. If Wisdom Cubes can be constructed more efficiently, there will undoubtedly be a new military revolution that fundamentally overturns centuries of human warfare. They will redefine military doctrine for the next hundred years.
+
+Rest assured, Doctor. We will do everything we can to improve the treatment of Code G so that she is seen as a warrior, rather than as a weapon.
+
+Best,
+
+John]],
+		pic = "11502"
+	},
+	[11503] = {
+		id = 11503,
+		name = "Communication Log: The Military's Plans II",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 3,
+		content = [[
+Dear Colonel Archer,
+
+Division 13, the special mooring and safekeeping facility established to bridge the gap between shipgirls and humans and develop mutual rapport, has finally paid off after so much hard work. After the commencement ceremony, Enterprise, as well as all other shipgirls, will finally be recognized as people just like us, not solely weapons of war.
+
+Enterprise is not the type to wear her heart on her sleeves, and I've long been worried that she wouldn't be able to handle all the pressure that's been building up. But after seeing her confidence and the smile on her face today, my worries completely flew away.
+
+Of course, our work is far from over. This achievement is only the first step of many, and the next step is to push for the revision of certain laws and policies as soon as possible. Until the rights of shipgirls are recognized in the same way human rights are, we cannot truly feel at ease.
+
+But... I'm still worried about the current geopolitical situation. We've been locked in a tense stalemate for quite a long time now... Colonel, is war with the Revolutionary Front inevitable?
+
+Anzeel]],
+		pic = ""
+	},
+	[11504] = {
+		id = 11504,
+		name = "Communication Log: Battle Preparations",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 4,
+		content = [[
+To Dr. Anzeel:
+
+Your concern is understandable, but I believe cooler heads will prevail.
+
+As you know, the Federation's military officers are rather hawkish, but nobody wants another full-blown World War to break out. Cube technology has been improving our lives day by day, and we can't just throw that all away. As far as I can tell, the other side has already shifted the brunt of their research toward environmental remodeling projects.
+
+Having that said, I would expect this push-and-pull to continue for a period of time, given that none of us can envision reconciliation any time soon...
+
+I do believe your heart is in the right place, Doctor, and I will do everything in my capacity to support your cause. I may not be able to change any laws, but I can introduce you to a number of my more politically-involved acquaintances. Given that election season is in full swing, once the savvier politicians get a glimpse of the potential of the shipgirls, they will be sure to support us.
+
+On an unrelated note, have you heard about the "major earthquake" that occurred in the Bermudas? While I was digging for information on some classified servers, I encountered a "strange problem" that you might be able to shed some light on.
+
+Last but not least, how is Enterprise doing these days? I haven't heard anything about her and the other girls from the Naval HQ recently, but I'd love to hear more about them the next time we get the chance.
+
+Best,
+
+John]],
+		pic = ""
+	},
+	[13101] = {
+		id = 13101,
+		name = "Communication Log: Tsunami Warning",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 1,
+		content = [[
+......
+East Coast Tsunami Warning Notification System:
+Start Time: Thursday ■/■ 10:00
+End Time: Thursday ■/■ 12:00
+Source: O.F. National Weather Service
+––Fw:Wife––
+Gather all our stuff, grab the kids, and run!
+A large earthquake-like phenomenon was observed in the Bermudas! According to the Warning Notification System, a terrible tsunami is approaching, one that could endanger everyone along the East Coast!
+The government is expected to issue an emergency evacuation order soon, so please collect all your valuables and wait in the driveway until then! I'm heading out right now, and will be back in about ten minutes!
+Don't forget the emergency kit with our cash and cards!
+Love you!
+......]],
+		pic = "13101"
+	},
+	[13102] = {
+		id = 13102,
+		name = "Municipal Record: PD's Report and Recommendations",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 2,
+		content = [[
+......
+Quarterly Report:
+■ Quarter ■■ Situation Report ■■ City Police Department
+The number of incidents this quarter increased by 476% from the previous quarter, with a significant increase after the Bermuda disaster. Among them, two types of incidents have had a sharp uptick in frequency.
+1) Incidents caused by malfunction of electronic equipment throughout the jurisdiction. Power outages, explosions, fires, sudden shutdowns or malfunctions of various electronic devices such as medical equipment, including causes not limited to loss of power or unstable power supply. Due to a wide variety of equipment and models affected, we have eliminated the possibility of manufacturing defects in specific products as a cause for this uptick. The possibility of terrorism cannot be ruled out.
+
+2) Violent crime. A particularly notable trend is a tendency to commit violent acts in a state of mental confusion. Additionally, according to some of the officers on-site, similar testimony has been provided by eyewitnesses confirming the presence of this phenomenon. In addition to a general deterioration in public safety following the disaster, it has been pointed out that a new hallucinogenic drug has started flowing into the city, and is likely related to the uptick in these incidents. Investigations into the composition of the drug are currently underway.
+
+We would like to propose several measures to combat the deterioration of public safety following the disaster.
+1) Mitigate the failure of electronic equipment by inspecting the city's infrastructure, repairing problematic areas, and replacing parts as necessary.
+2) Request federal assistance in order to strengthen investigations into potential terrorist activities targeting electronic devices and infrastructure, as well investigations into the new hallucinogenic drugs.
+3) Due to the tsunami's contamination of the urban water supply, that a public health emergency be declared, and to request research institutes in and around the district to cooperate with this investigation.
+......
+
+Currently, all personnel that otherwise would've been on vacation have returned to their posts to combat this urgent situation.
+..................]],
+		pic = "13102"
+	},
+	[13103] = {
+		id = 13103,
+		name = "Media Record: Independent Media",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 3,
+		content = [[
+...I'm sure our readers are all familiar with what's been going on lately - yes, the unexplainable explosion of electronic devices and the sudden uptick in people going mad all throughout the East Coast after the Bermuda disaster!
+
+As usual, the government tried to explain away these incidents, claiming that the disaster affected critical infrastructure and that the mass madness was caused by the influx of a new hallucinogenic drug. Sure, a tsunami might be able to destroy a subway station or a billboard, but how can it cause the tablet or computer inside your own home to explode? Also, allow me to point you to the incident where 20 people were arrested from Warehouse #5 last month, all of them were full-time employees of a business conglomerate, with one even being a middle manager! Why would so many people like that need to get together to do drugs?
+
+If you're already familiar with all the facts up to this point, you've probably already reached your own conclusions. What we can say for certain is that none of this is an accident, and we will do the responsible thing in bringing you the truth - that all of these events, including the earthquake in the Bermudas itself, have been part of the government's plan!
+Do not allow yourself to be fooled! All of this chaos has been an experiment from the government!
+
+An anonymous source with knowledge of this experiment informed us that the Federation government has been conducting weapon tests on offshore platforms in the Bermudas, and those weapons were the cause of the massive earthquake.
+Fortunately, this source has assured us that they will continue to update us with the latest and most important developments!
+
+Stay tuned for more news about these mysterious weapon tests, as well as the latest shocking developments!]],
+		pic = ""
+	},
+	[13104] = {
+		id = 13104,
+		name = "Media Record: Official Response",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 4,
+		content = [[
+......
+"They are nothing more than baseless conspiracy theories!"
+At a press conference, an Eagle Union spokesman responded that the Northern Parliament's allegations were completely unfounded and irresponsible.
+The spokesman added that monitoring data from this sea area showed radiation levels to be within normal limits following the tsunami's occurrence, and explained that the phenomenon was nothing more than a natural disaster rather than something man-made.
+
+Several geologists made remarks in support of this statement, expressing their view that earthquakes of this sort with a shallow epicenter and extremely strong seismic intensity are rare but not unheard of. The International Marine Environment Protection Organization has also announced that it would closely monitor the impact of the earthquake on the surrounding marine environment...]],
+		pic = ""
+	},
+	[13105] = {
+		id = 13105,
+		name = "Media Record: Trends in the Business World",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 5,
+		content = [[
+A salvage company's contractual breach may be a major setback to the ocean economy
+––View Full Article––
+
+Recently, a major salvage company breached a contract in a way that has caught the attention of marine-based businesses around the world.
+
+According to a notice posted on the official website of the Hercules Ocean Exploration Company, the lease agreement of certain salvage vessels under the company's name was temporarily terminated due to internal shifts in the company. Certain lawyers have pointed out that this unreasonable unilateral contractual termination will result in a massive penalty that, based on the company's financial data from its previous fiscal year, the Hercules Company will be unable to pay.
+
+However, at the time of this article's publication, the Hercules Ocean Exploration Company's stock price has remained stable, and the company's board of directors has already released a public statement that the liquidation for the penalty was already completed at the end of the aforementioned lease agreement. It is unclear at this time how the company managed to raise this amount of money, but according to someone familiar with the company's internal operations, an "unnamed individual" provided crucial assistance in paying off this sum.
+
+The company's fleet featured a new model of salvage ship powered by the E-Cube, and these ships quickly made a major impact on the global salvaging business. However, the company's withdrawal from this sector could be a prime opportunity for other businesses to step in. This need is even more evident, as governments around the world have been dedicating large amounts of time and resources into researching and raising sunken ships...]],
+		pic = ""
+	},
+	[13106] = {
+		id = 13106,
+		name = "Board Post: Secret Experiment?",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 6,
+		content = [[
+Discussion: What is the Eagle Union's secret experiment? [Anonymous mode is enabled for this thread]
+––Displaying Full Thread––
+1 Anonymous 18:05
+What exactly is the Eagle Union up to? Everyone there knows something's going on already, right? I'm here to tell everyone here exactly what this secret experiment is! It's an experiment being conducted by the Eagle Union, and being kept top secret! Pretty fascinating stuff, huh? Bet you didn't know that! Anyway, feel free to leave comments or questions below!
+2 Anonymous [Reply]
+Spam bots made their way here too, huh
+3 Anonymous
+This stopped being funny 10 years ago
+4 Anonymous
+Locked. Tired of seeing this shit.
+......]],
+		pic = ""
+	},
 	[14101] = {
 		id = 14101,
 		name = "Mysterious Photo",
@@ -1273,6 +1680,56 @@ I'm actually a double-agent myself lul]],
 		content = "...Last night, the spokespeople from both sides of the aisle suddenly became silent, a drastic shift following months of posturing and argument. Preliminary evidence shows that a major naval base responsible for the logistical support of the exercises started showing signs of large-scale mobilization of medical supplies overnight. Several submersible salvaging ships formerly moored at the port were also said to be leaving the base one after another. This source said that the two sides may have exchanged fire during the confrontation. Other anonymous sources have stated that while the Eagle Union's fleet did sustain some damage, this was not due to an act of war but rather was an unfortunate tragedy caused by \"technical failures.\" A video of what appeared to be the scene of the confrontation briefly appeared on social media, showing a black tornado passing through a Eagle Union warship, causing it to explode violently. The video has since been taken down.\nIn any case, the only thing that is clear right now is that the Northern Parliament's fleet have gradually begun withdrawing from NA waters. Though neither side has issued any official announcements, we can be sure that the tense confrontation will move towards resolution...",
 		pic = "14201"
 	},
+	[14205] = {
+		id = 14205,
+		name = "Media Record: False Alarm",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 5,
+		content = [[
+......
+Missile false alarm terrifies local residents
+Today at 8:07 AM (HS-AI Time Zone), an emergency broadcast was issued to all residents of H.S. State, with the following message: "A nuclear missile is approaching H.S. State. A nuclear missile is approaching H.S. State. Please enter your nearest bunker immediately. This is not a drill."
+This was quickly identified as a false alarm, and three minutes later, the Oceanic Federation Command notified the National Guard that there was no incoming missile.
+
+At 8:18 AM, 11 minutes later, the state government corrected the notification and issued another emergency broadcast stating that the previous broadcast was a false alarm. The H.S. Emergency Preparedness Service said that the alert was sent out due to staff error, but this incident had already caused a number of problems, adding to the state's already turbulent year.
+
+Users on the internet were quick to make fun of this incident, but for the locals, the false alarm was nothing short of terrifying and mind-boggling. Almost immediately, people began drawing parallels between the series of inexplicable accidents and the mysterious incident at the training site in the Bermudas.
+
+Can the gag orders issued by the Oceanic Federation and the Revolutionary Front really prevent the widespread societal unrest from deteriorating further?
+......]],
+		pic = "14205"
+	},
+	[14206] = {
+		id = 14206,
+		name = "Media Record: Expert Interview",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 6,
+		content = [[
+......
+Host: Now with the world's attention focused on the tension between the Oceanic Federation and the Revolutionary Front, how likely do you think it is that we'll get another global war in the near future?
+
+Expert: This is war we're talking about, and I think a lot of these concerns are overblown. If either side truly wanted to start a war, the day of the accident would've been the best time to do it. But despite that, both sides have actually demonstrated more restraint since the accident, increasing the distance between their fleets with no signs of saber-rattling present.
+
+Host: Who do you think has the upper hand right now?
+
+Expert: Given the strength of the forces on both sides, it's truly difficult to say which is superior... One popular view is that because the strength of the training fleets stationed in the Bermudas is evenly matched, this balance of power has largely suppressed the possibility of an actual confrontation.
+
+Host: There have been rumors circulating around that the Federation's fleet has suffered serious damage due to the accident.
+
+Expert: You hear plenty of conspiracy theories out there, but rumors are just that - rumors. Hypothetically speaking, if the Federation's fleet had suffered so much damage, there would be no reason for the Revolutionary Front to hide that information.
+
+Host: Thank you. Next, I'd like to talk about the missile false alarm incident in H.S. the other day...
+
+––Latest Comment: 21:05––
+Anonymous: are there any "experts" out there who don't just talk in circles about a whole bunch of nothing?
+Anonymous: For real. What a waste of time.
+Anonymous: Wasn't there some expert on last time who predicted that we'd be seeing the two fleets going at each other on camera by now?
+Anonymous: the only conclusion is, both fleets are toast. the world now belongs to the cats.
+............]],
+		pic = ""
+	},
 	all = {
 		1101,
 		1102,
@@ -1346,6 +1803,24 @@ I'm actually a double-agent myself lul]],
 		10104,
 		10105,
 		10106,
+		11101,
+		11102,
+		11103,
+		11104,
+		11105,
+		11106,
+		11107,
+		11108,
+		11501,
+		11502,
+		11503,
+		11504,
+		13101,
+		13102,
+		13103,
+		13104,
+		13105,
+		13106,
 		14101,
 		14102,
 		14103,
@@ -1355,6 +1830,8 @@ I'm actually a double-agent myself lul]],
 		14201,
 		14202,
 		14203,
-		14204
+		14204,
+		14205,
+		14206
 	}
 }

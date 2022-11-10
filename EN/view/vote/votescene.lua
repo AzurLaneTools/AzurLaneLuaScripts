@@ -1,19 +1,56 @@
 slot0 = class("VoteScene", import("..base.BaseUI"))
 slot0.ShipIndex = {
-	display = {
-		index = IndexConst.FlagRange2Bits(IndexConst.IndexAll, IndexConst.IndexOther),
-		camp = IndexConst.FlagRange2Bits(IndexConst.CampAll, IndexConst.CampOther),
-		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity5)
+	typeIndex = ShipIndexConst.TypeAll,
+	campIndex = ShipIndexConst.CampAll,
+	rarityIndex = ShipIndexConst.RarityAll
+}
+slot0.ShipIndexData = {
+	customPanels = {
+		typeIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.TypeIndexs,
+			names = ShipIndexConst.TypeNames
+		},
+		campIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.CampIndexs,
+			names = ShipIndexConst.CampNames
+		},
+		rarityIndex = {
+			blueSeleted = true,
+			mode = CustomIndexLayer.Mode.AND,
+			options = ShipIndexConst.RarityIndexs,
+			names = ShipIndexConst.RarityNames
+		}
 	},
-	index = IndexConst.Flags2Bits({
-		IndexConst.IndexAll
-	}),
-	camp = IndexConst.Flags2Bits({
-		IndexConst.CampAll
-	}),
-	rarity = IndexConst.Flags2Bits({
-		IndexConst.RarityAll
-	})
+	groupList = {
+		{
+			dropdown = false,
+			titleTxt = "indexsort_index",
+			titleENTxt = "indexsort_indexeng",
+			tags = {
+				"typeIndex"
+			}
+		},
+		{
+			dropdown = false,
+			titleTxt = "indexsort_camp",
+			titleENTxt = "indexsort_campeng",
+			tags = {
+				"campIndex"
+			}
+		},
+		{
+			dropdown = false,
+			titleTxt = "indexsort_rarity",
+			titleENTxt = "indexsort_rarityeng",
+			tags = {
+				"rarityIndex"
+			}
+		}
+	}
 }
 
 function slot0.getUIName(slot0)
@@ -91,19 +128,18 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.helpBtn, slot0.voteGroup:getConfig("help_text") and slot4 ~= "")
 	onButton(slot0, slot0.filterBtn, function ()
-		uv0:emit(VoteMediator.ON_FILTER, {
-			display = uv1.ShipIndex.display,
-			index = uv1.ShipIndex.index,
-			camp = uv1.ShipIndex.camp,
-			rarity = uv1.ShipIndex.rarity,
-			callback = function (slot0)
-				uv0.ShipIndex.index = slot0.index
-				uv0.ShipIndex.camp = slot0.camp
-				uv0.ShipIndex.rarity = slot0.rarity
+		slot0 = Clone(uv0.ShipIndexData)
+		slot0.indexDatas = Clone(uv0.ShipIndex)
 
-				uv1:initShips()
-			end
-		})
+		function slot0.callback(slot0)
+			uv0.ShipIndex.typeIndex = slot0.typeIndex
+			uv0.ShipIndex.rarityIndex = slot0.rarityIndex
+			uv0.ShipIndex.campIndex = slot0.campIndex
+
+			uv1:initShips()
+		end
+
+		uv1:emit(VoteMediator.ON_FILTER, slot0)
 	end, SFX_PANEL)
 	slot0:updateMainview(true)
 	slot0:initTitles()
@@ -154,9 +190,9 @@ function slot0.initShips(slot0)
 	slot0.displays = {}
 
 	for slot4, slot5 in ipairs(slot0.voteShips) do
-		if uv0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and uv0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and uv0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) then
+		if uv0.ShipIndex.typeIndex == ShipIndexConst.TypeAll and uv0.ShipIndex.rarityIndex == ShipIndexConst.RarityAll and uv0.ShipIndex.campIndex == ShipIndexConst.CampAll then
 			table.insert(slot0.displays, slot5)
-		elseif IndexConst.filterByIndex(slot5.shipVO, uv0.ShipIndex.index) and IndexConst.filterByRarity(slot6, uv0.ShipIndex.rarity) and IndexConst.filterByCamp(slot6, uv0.ShipIndex.camp) then
+		elseif ShipIndexConst.filterByType(slot5.shipVO, uv0.ShipIndex.typeIndex) and ShipIndexConst.filterByRarity(slot6, uv0.ShipIndex.rarityIndex) and ShipIndexConst.filterByCamp(slot6, uv0.ShipIndex.campIndex) then
 			table.insert(slot0.displays, slot5)
 		end
 	end

@@ -18,14 +18,15 @@ function slot0.execute(slot0, slot1)
 			slot1 = NewServerShop.New({
 				start_time = slot0.start_time,
 				stop_time = slot0.stop_time,
-				goods = slot0.goods
+				goods = slot0.goods,
+				id = uv0.id
 			})
 
 			getProxy(ShopsProxy):SetNewServerShop(slot1)
-			uv0(slot1)
-			uv1:sendNotification(GAME.GET_NEW_SERVER_SHOP_DONE)
+			uv1(slot1)
+			uv2:sendNotification(GAME.GET_NEW_SERVER_SHOP_DONE)
 		else
-			uv0()
+			uv1()
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end
 	end)

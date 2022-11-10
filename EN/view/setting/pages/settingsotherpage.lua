@@ -52,6 +52,10 @@ function slot0.GetPanels(slot0)
 		table.insert(slot1, SettingsAgreementPanle)
 
 		if LuaHelper.GetCHPackageType() == 1 then
+			if CSharpVersion >= 50 and not LOCK_SDK_SERVIVE then
+				table.insert(slot1, SettingsServicePanle)
+			end
+
 			table.insert(slot1, SettingsAccountCHPanle)
 		end
 	end

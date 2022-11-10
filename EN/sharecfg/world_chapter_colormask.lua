@@ -1099,7 +1099,12 @@ pg.world_chapter_colormask = {
 				20003
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10017,
+				20021
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30009
@@ -1309,6 +1314,10 @@ pg.world_chapter_colormask = {
 			{
 				4102,
 				44002
+			},
+			{
+				10018,
+				20021
 			}
 		},
 		stage_chapter = {
@@ -1512,7 +1521,12 @@ pg.world_chapter_colormask = {
 				20003
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10019,
+				20022
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30013
@@ -1613,6 +1627,10 @@ pg.world_chapter_colormask = {
 			{
 				2200,
 				220
+			},
+			{
+				10025,
+				20021
 			}
 		},
 		stage_chapter = {},
@@ -1805,7 +1823,12 @@ pg.world_chapter_colormask = {
 				20002
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10026,
+				20021
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30016
@@ -2495,7 +2518,12 @@ pg.world_chapter_colormask = {
 				20003
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10022,
+				20020
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30023
@@ -2787,7 +2815,12 @@ pg.world_chapter_colormask = {
 				20003
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10021,
+				20020
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30026
@@ -2881,7 +2914,12 @@ pg.world_chapter_colormask = {
 				20003
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10023,
+				20020
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30027
@@ -3280,6 +3318,10 @@ pg.world_chapter_colormask = {
 			{
 				2201,
 				221
+			},
+			{
+				10027,
+				20021
 			}
 		},
 		stage_chapter = {},
@@ -3383,6 +3425,10 @@ pg.world_chapter_colormask = {
 			{
 				2205,
 				225
+			},
+			{
+				10015,
+				20021
 			}
 		},
 		stage_chapter = {},
@@ -3479,7 +3525,12 @@ pg.world_chapter_colormask = {
 				20002
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10024,
+				20020
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30033
@@ -3581,6 +3632,10 @@ pg.world_chapter_colormask = {
 			{
 				4100,
 				44000
+			},
+			{
+				10028,
+				20021
 			}
 		},
 		stage_chapter = {},
@@ -3681,7 +3736,12 @@ pg.world_chapter_colormask = {
 				20004
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10016,
+				20021
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30035
@@ -3783,6 +3843,10 @@ pg.world_chapter_colormask = {
 			{
 				2204,
 				224
+			},
+			{
+				10014,
+				20020
 			}
 		},
 		stage_chapter = {},
@@ -3971,7 +4035,12 @@ pg.world_chapter_colormask = {
 				20002
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10013,
+				20020
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30038
@@ -4064,7 +4133,12 @@ pg.world_chapter_colormask = {
 				20003
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10012,
+				20020
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30039
@@ -4639,6 +4713,10 @@ pg.world_chapter_colormask = {
 			{
 				2203,
 				223
+			},
+			{
+				10029,
+				20022
 			}
 		},
 		stage_chapter = {},
@@ -5034,6 +5112,10 @@ pg.world_chapter_colormask = {
 			{
 				2603,
 				263
+			},
+			{
+				10020,
+				20020
 			}
 		},
 		stage_chapter = {},
@@ -6311,7 +6393,12 @@ pg.world_chapter_colormask = {
 				20004
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10011,
+				20020
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30062
@@ -6407,7 +6494,12 @@ pg.world_chapter_colormask = {
 				20003
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				10010,
+				20020
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30063

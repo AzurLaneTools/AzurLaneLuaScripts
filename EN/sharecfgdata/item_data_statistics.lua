@@ -18167,6 +18167,73 @@ _G.pg.base.item_data_statistics[40128] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40129] = {
+	display = "Contains loads of valuable rewards.",
+	name = "Commander Support Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40129,
+	is_world = 0,
+	icon = "ChargeIcon/support5",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40903] = {
 	display = "Shougatsu Lucky Bag contains 1 x Kimono Ship skin, 2019 x Gems, 20 x T3 General Parts, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
 	name = "Shougatsu Lucky Bag (2019) ",
@@ -170063,6 +170130,90 @@ Contains the following pieces of gear from the Tempesta faction:
 	id = 59355,
 	is_world = 0,
 	icon = "Props/jvfengdekuizeng",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59356] = {
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	name = "Training Points",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59356,
+	is_world = 0,
+	icon = "Props/xunliandianshu_t",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59357] = {
+	display = "Used to exchange for items in \"Inverted Orthant.\" Will be removed after the event ends. ",
+	name = "Iron Blood Key",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59357,
+	is_world = 0,
+	icon = "Props/DexiV3_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59358] = {
+	display = "A limited construction ticket for use during the \"Inverted Orthant\" event. Removed after the event ends.",
+	name = "Shipbuilding Support Ticket",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4571,
+	id = 59358,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59359] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until November 16th) ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59359,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},

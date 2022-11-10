@@ -5371,6 +5371,655 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4560] = {
+		mark = 20221110,
+		config_client = "",
+		title_res_tag = "dexiV3_frame_re",
+		type = 87,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 24,
+		id = 4560,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DexiV3FrameRePage",
+			ui_name = "DexiV3FrameRePage"
+		}
+	},
+	[4561] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 8,
+		is_show = 0,
+		config_client = "",
+		id = 4561,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4562] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4562,
+		config_data = {
+			1495001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4563] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 283,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4563,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4564] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4564,
+		config_data = {
+			18040,
+			18041,
+			18042,
+			18043,
+			18044,
+			18045,
+			18046,
+			18047,
+			18048,
+			18049,
+			18050,
+			18051,
+			18052,
+			18053,
+			18054,
+			18055,
+			18056,
+			18057,
+			18059
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4565] = {
+		mark = 20221110,
+		id = 4565,
+		title_res_tag = "DexiV3_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 26,
+		config_data = {
+			1460001,
+			1460002,
+			1460003,
+			1460021,
+			1460022,
+			1460023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DexiV3MainPage",
+			ui_name = "DexiV3MainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4566] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4566,
+		config_data = {
+			1460004,
+			1460005,
+			1460006,
+			1460024,
+			1460025,
+			1460026,
+			1460041,
+			1460051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4567] = {
+		mark = 20221110,
+		config_client = "",
+		title_res_tag = "DexiV3_Pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4567,
+		is_show = 25,
+		id = 4567,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DexiV3PtPage",
+			ui_name = "DexiV3PtPage"
+		}
+	},
+	[4568] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4568,
+		config_data = {
+			1887,
+			1888,
+			1889,
+			1890,
+			1891,
+			1892,
+			1893,
+			1894,
+			1895,
+			1896,
+			1897,
+			1898,
+			1899,
+			1900,
+			1901,
+			1902,
+			1903,
+			1904,
+			1905,
+			1906,
+			1907
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_fuxiangxianzuozhan",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 283,
+			painting = "U37_pt",
+			outline = {
+				0,
+				0,
+				0,
+				1
+			}
+		}
+	},
+	[4569] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 4569,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4570] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31977,100}]",
+		config_client = "",
+		id = 4570,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4571] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4571,
+		config_data = {
+			4
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			59358
+		}
+	},
+	[4572] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4572,
+		config_data = {
+			18058
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4573] = {
+		mark = 20221110,
+		config_client = "",
+		title_res_tag = "dexiV3_login",
+		type = 3,
+		login_pop = 0,
+		config_id = 32,
+		is_show = 23,
+		id = 4573,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DexiV3LoginPage",
+			ui_name = "DexiV3LoginPage"
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -6059,6 +6708,123 @@ pg.activity_template = {
 						2022,
 						10,
 						5
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
+		}
+	},
+	[8029] = {
+		mark = 20221110,
+		config_client = "",
+		title_res_tag = "newserver_main",
+		type = 3,
+		login_pop = 0,
+		config_id = 24,
+		is_show = 15,
+		id = 8029,
+		config_data = {},
+		time = {
+			{
+				"olduser",
+				{
+					{
+						2022,
+						12,
+						8
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2022,
+						11,
+						10
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2022,
+						12,
+						7
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewServerLogin2Page",
+			ui_name = "NewServerLogin2Page"
+		}
+	},
+	[8030] = {
+		mark = 20221110,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 8030,
+		config_data = {
+			103
+		},
+		time = {
+			{
+				"olduser",
+				{
+					{
+						2022,
+						12,
+						8
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2022,
+						11,
+						10
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2022,
+						12,
+						7
 					},
 					{
 						23,
@@ -25076,6 +25842,20 @@ pg.activity_template = {
 		4557,
 		4558,
 		4559,
+		4560,
+		4561,
+		4562,
+		4563,
+		4564,
+		4565,
+		4566,
+		4567,
+		4568,
+		4569,
+		4570,
+		4571,
+		4572,
+		4573,
 		7001,
 		7002,
 		7003,
@@ -25087,6 +25867,8 @@ pg.activity_template = {
 		8010,
 		8019,
 		8020,
+		8029,
+		8030,
 		2051,
 		2052,
 		2053,

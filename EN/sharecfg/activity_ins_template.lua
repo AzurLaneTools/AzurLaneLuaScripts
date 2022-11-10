@@ -9242,54 +9242,112 @@ pg.activity_ins_template = {
 	{
 		ship_group = 20135,
 		name = "Janus",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_338",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/20221027_yanusi_Z2wQWVJxppr797YU.png",
+		is_active = 0,
 		sculpture = "Yanusi_3",
 		id = 338,
 		group_id = 338,
 		order = 34,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				10,
+				27
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3096,
+			3099,
+			3101
+		}
 	},
 	{
 		ship_group = 20607,
 		name = "Albion",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_339",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/20221027_aerbien_BXeJmWr8GWwRVpfC.png",
+		is_active = 0,
 		sculpture = "Aerbien_2",
 		id = 339,
 		group_id = 339,
 		order = 34,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				10,
+				28
+			},
+			{
+				18,
+				23,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3106,
+			3110
+		}
 	},
 	{
 		ship_group = 20209,
 		name = "Manchester",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_340",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/20221027_manchesite_G8jyDYz6Rk7WEyMS.png",
+		is_active = 0,
 		sculpture = "manchesite_3",
 		id = 340,
 		group_id = 340,
 		order = 34,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				10,
+				29
+			},
+			{
+				18,
+				35,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3116,
+			3120
+		}
 	},
 	{
 		ship_group = 10502,
 		name = "Oklahoma",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_341",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/20221027_ekelahema_sm7Xw4BX8SqeySfW.png",
+		is_active = 0,
 		sculpture = "Ekelahema_2",
 		id = 341,
 		group_id = 341,
 		order = 34,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				10,
+				31
+			},
+			{
+				19,
+				5,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3127,
+			3129,
+			3131
+		}
 	},
 	all = {
 		1,

@@ -11188,127 +11188,127 @@ pg.activity_ins_language = {
 		value = "I loved their company too. It almost felt like they were nicer to me than I was to them."
 	},
 	ins_338 = {
-		value = ""
+		value = "I got the kitties all dressed up for Halloween!"
 	},
 	ins_discuss_338_1 = {
-		value = ""
+		value = "aww cute!! (≧▽≦)"
 	},
 	ins_reply_338_1_1 = {
-		value = ""
+		value = "Hopefully they'll make trick-or-treating feel less stressful for me..."
 	},
 	ins_reply_338_1_2 = {
-		value = ""
+		value = "I'm sure they will! good luck tonight janus (^.^)b"
 	},
 	ins_discuss_338_2 = {
-		value = ""
+		value = "Just don't expect too much from them. Cats are whimsical creatures."
 	},
 	ins_reply_338_2_1 = {
-		value = ""
+		value = "That's true... but these cats are well-behaved and wouldn't do that. Probably..."
 	},
 	ins_discuss_338_3 = {
-		value = ""
+		value = "Nice cat ears~ My grand catification plan is progressing swimmingly >:3"
 	},
 	ins_reply_338_3_1 = {
-		value = ""
+		value = "I'm... not sure what you're talking about, but I'm happy to hear it I guess?"
 	},
 	ins_op_338_1_1 = {
-		value = ""
+		value = "Ah, you've started a little witch a-cat-demia."
 	},
 	op_reply_338_1_1 = {
-		value = ""
+		value = "Hehe, I guess you could say that. They'll make great purr-cerers one day."
 	},
 	ins_339 = {
-		value = ""
+		value = "Tonight I am not simply Albion, I am Albion the Devil Childe."
 	},
 	ins_discuss_339_1 = {
-		value = ""
+		value = "Does that mean you're the Childe of a devil, or a devil who is a Childe?"
 	},
 	ins_reply_339_1_1 = {
-		value = ""
+		value = "Well, the two aren't mutually exclusive, are they? The latter might be a more apt description, however."
 	},
 	ins_reply_339_1_2 = {
-		value = ""
+		value = "That is a good point. Perhaps next year I will dress up as your Elder devil counterpart."
 	},
 	ins_reply_339_1_3 = {
-		value = ""
+		value = "Or we could be dark elves, or faeries. Whatever the case, I suppose you'll always be my Elder."
 	},
 	ins_discuss_339_2 = {
-		value = ""
+		value = "Bet you're gonna make a killing trick or treating in that spicy getup~"
 	},
 	ins_reply_339_2_1 = {
-		value = ""
+		value = "I hope so! It'll feel strange eliciting treats from my Elders, but that is in the spirit of the holiday, so... Trick or treat, Elder Abercrombie!"
 	},
 	ins_reply_339_2_2 = {
-		value = ""
+		value = "Aw shoot, I should've kept my gob shut!"
 	},
 	ins_op_339_1_1 = {
-		value = ""
+		value = "How delightfully devilish."
 	},
 	op_reply_339_1_1 = {
-		value = ""
+		value = "Thank you, Commander. I hope you'll be ready to give out treats, or be subject to a trick when I stop by."
 	},
 	ins_340 = {
-		value = ""
+		value = "umm. this is mingin so I clearly did something wrong."
 	},
 	ins_discuss_340_1 = {
-		value = ""
+		value = "What were you making? Some sort of potion?"
 	},
 	ins_reply_340_1_1 = {
-		value = ""
+		value = "would you believe me if I said pumpkin risotto?"
 	},
 	ins_reply_340_1_2 = {
-		value = ""
+		value = "Pumpkin risotto sounds like a potion to me..."
 	},
 	ins_reply_340_1_3 = {
-		value = ""
+		value = "you know what, yeah. it's a potion."
 	},
 	ins_discuss_340_2 = {
-		value = ""
+		value = "What have I told you about leaving the cooking to the professionals?"
 	},
 	ins_reply_340_2_1 = {
-		value = ""
+		value = "I know I know but I won't improve if I don't practice, will I?"
 	},
 	ins_reply_340_2_2 = {
-		value = ""
+		value = "Forget it, I'll do it for you. Wait in the kitchen and don't touch anything else."
 	},
 	ins_reply_340_2_3 = {
-		value = ""
+		value = "oh, cheers!"
 	},
 	ins_op_340_1_1 = {
-		value = ""
+		value = "I'm impressed you managed to turn it green..."
 	},
 	op_reply_340_1_1 = {
-		value = ""
+		value = "green's healthy though, innit? I wouldn't touch it with a ten foot pole though."
 	},
 	ins_341 = {
-		value = ""
+		value = "Fire cannons! Jack-o'-lanturn them to scrap!"
 	},
 	ins_discuss_341_1 = {
-		value = ""
+		value = "Hah! I know I'd be scared if I saw a mighty big pumpkin flying right at me."
 	},
 	ins_reply_341_1_1 = {
-		value = ""
+		value = "Right? That's what gave me the idea."
 	},
 	ins_discuss_341_2 = {
-		value = ""
+		value = "A direct hit from that would knock somebody's teeth out. I approve."
 	},
 	ins_reply_341_2_1 = {
-		value = ""
+		value = "Don't be silly! If we can take cannon shells, we can handle a few pumpkins."
 	},
 	ins_discuss_341_3 = {
-		value = ""
+		value = "It'd be cooler if we could fire candy through the cannon instead..."
 	},
 	ins_reply_341_3_1 = {
-		value = ""
+		value = "Who says we can't? Manjuus, load the candy corn and chocolate!"
 	},
 	ins_reply_341_3_2 = {
-		value = ""
+		value = "Oh yeah! Sweet!"
 	},
 	ins_op_341_1_1 = {
-		value = ""
+		value = "Are you thinking what I'm thinking, Oklahoma?"
 	},
 	op_reply_341_1_1 = {
-		value = ""
+		value = "A team battle with pumpkin cannons on both sides? That'd be the best Halloween activity ever!"
 	},
 	all = {
 		ins_op_1_1_1,

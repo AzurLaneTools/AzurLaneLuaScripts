@@ -10164,7 +10164,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Albion, Janus and Manchester!"
+	tip = "Rate UP for Peter Strasser, Prinz Heinrich, Nürnberg and Weser!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

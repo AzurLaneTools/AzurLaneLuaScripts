@@ -168871,6 +168871,971 @@ _G.pg.base.task_data_template[18035] = {
 	}
 }
 
+_G.pg.base.task_data_template[18040] = {
+	name = "『德系V3复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 98390,
+	type = 36,
+	desc = "Build 3 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18040,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18041] = {
+	name = "『德系V3复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 98391,
+	type = 36,
+	desc = "Sortie and obtain 15 victories.",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18041,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18042] = {
+	name = "『德系V3复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 98392,
+	type = 36,
+	desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18042,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18043] = {
+	name = "『德系V3复刻』- 日常活动关卡",
+	guild_coin_award = 0,
+	award = 98393,
+	type = 36,
+	desc = "Clear any event stage 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18043,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460002,
+		1460003,
+		1460004,
+		1460005,
+		1460006,
+		1460021,
+		1460022,
+		1460023,
+		1460024,
+		1460025,
+		1460026,
+		1460041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18044] = {
+	name = "『德系V3复刻』A1/C1通关一次",
+	guild_coin_award = 0,
+	award = 98394,
+	type = 6,
+	desc = "Clear A1 or C1 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18044,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18045] = {
+	name = "『德系V3复刻』A2/C2通关一次",
+	guild_coin_award = 0,
+	award = 98395,
+	type = 6,
+	desc = "Clear A2 or C2 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18045,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18046] = {
+	name = "『德系V3复刻』A3/C3通关一次",
+	guild_coin_award = 0,
+	award = 98396,
+	type = 6,
+	desc = "Clear A3 or C3 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18046,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18047] = {
+	name = "『德系V3复刻』B1/D1通关一次",
+	guild_coin_award = 0,
+	award = 98397,
+	type = 6,
+	desc = "Clear B1 or D1 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18047,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18048] = {
+	name = "『德系V3复刻』B2/D2通关一次",
+	guild_coin_award = 0,
+	award = 98398,
+	type = 6,
+	desc = "Clear B2 or D2 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18048,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18049] = {
+	name = "『德系V3复刻』B3/D3通关一次",
+	guild_coin_award = 0,
+	award = 98399,
+	type = 6,
+	desc = "Clear B3 or D3 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18049,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18050] = {
+	name = "『德系V3复刻』通关SP",
+	guild_coin_award = 0,
+	award = 98400,
+	type = 6,
+	desc = "Clear SP.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460041",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18050,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460025,
+			chapterId = 1460041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18051] = {
+	name = "『德系V3复刻』通关D3",
+	guild_coin_award = 0,
+	award = 98401,
+	type = 6,
+	desc = "Clear D3 Stage<color=#92fc63> (can only be obtained once) </color> .",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460026",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18051,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			189,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460012,
+			chapterId = 1460026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18052] = {
+	name = "『德系V3复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 98402,
+	type = 6,
+	desc = "Complete A1 or C1 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18053",
+	auto_commit = 0,
+	story_id = "",
+	id = 18052,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18053] = {
+	name = "『德系V3复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 98403,
+	type = 6,
+	desc = "Complete A2 or C2 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18054",
+	auto_commit = 0,
+	story_id = "",
+	id = 18053,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18054] = {
+	name = "『德系V3复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 98404,
+	type = 6,
+	desc = "Complete A3 or C3 with 3 stars..",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18055",
+	auto_commit = 0,
+	story_id = "",
+	id = 18054,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18055] = {
+	name = "『德系V3复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 98405,
+	type = 6,
+	desc = "Complete B1 or D1 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18056",
+	auto_commit = 0,
+	story_id = "",
+	id = 18055,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18056] = {
+	name = "『德系V3复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 98406,
+	type = 6,
+	desc = "Complete B2 or D2 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18057",
+	auto_commit = 0,
+	story_id = "",
+	id = 18056,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18057] = {
+	name = "『德系V3复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 98407,
+	type = 6,
+	desc = "Complete B3 or D3 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18057,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18058] = {
+	name = "『德系V3复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98408,
+	type = 6,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18058,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			284,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18059] = {
+	name = "『德系V3复刻』通关EX",
+	guild_coin_award = 0,
+	award = 98440,
+	type = 6,
+	desc = "Clear EX.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460051",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18059,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460026,
+			chapterId = 1460051
+		}
+	}
+}
+
 _G.pg.base.task_data_template[31013] = {
 	name = "投票日常建造",
 	guild_coin_award = 0,
@@ -207883,7 +208848,7 @@ _G.pg.base.task_data_template[60012] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Royal Navy Vanguard ships. ",
+	desc = "<color=#a2a2a2>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Royal Navy Vanguard ships. ",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -207938,7 +208903,7 @@ _G.pg.base.task_data_template[60013] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+	desc = "<color=#a2a2a2>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
 	count_inherit = 0,
 	sub_type = 110,
 	target_id_2 = "",
@@ -207968,7 +208933,7 @@ _G.pg.base.task_data_template[60014] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -208000,9 +208965,9 @@ _G.pg.base.task_data_template[60015] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
-The first draft of the design has been complete.<color=#797979>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
+The first draft of the design has been complete.<color=#a2a2a2>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
 
- — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Royal Navy Vanguard ships. ]],
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Royal Navy Vanguard ships.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -208061,7 +209026,7 @@ _G.pg.base.task_data_template[60016] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
-<color=#797979>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
 
  — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
 	count_inherit = 0,
@@ -208095,7 +209060,7 @@ _G.pg.base.task_data_template[60017] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -208125,7 +209090,7 @@ _G.pg.base.task_data_template[60018] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -208155,7 +209120,7 @@ _G.pg.base.task_data_template[60019] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -208248,7 +209213,7 @@ _G.pg.base.task_data_template[60022] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Royal Navy Main Fleet ships. ",
+	desc = "<color=#a2a2a2>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Royal Navy Main Fleet ships. ",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -208311,7 +209276,7 @@ _G.pg.base.task_data_template[60023] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+	desc = "<color=#a2a2a2>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
 	count_inherit = 0,
 	sub_type = 110,
 	target_id_2 = "",
@@ -208341,7 +209306,7 @@ _G.pg.base.task_data_template[60024] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Battleship Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Battleship Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -208373,7 +209338,7 @@ _G.pg.base.task_data_template[60025] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
-The first draft of the design has been complete.<color=#797979>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
+The first draft of the design has been complete.<color=#a2a2a2>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
 
  — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Royal Navy Main Fleet ships. ]],
 	count_inherit = 0,
@@ -208442,7 +209407,7 @@ _G.pg.base.task_data_template[60026] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
-<color=#797979>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
 
  — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
 	count_inherit = 0,
@@ -208476,7 +209441,7 @@ _G.pg.base.task_data_template[60027] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Battleship Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Battleship Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -208506,7 +209471,7 @@ _G.pg.base.task_data_template[60028] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>30,000</color> Coins (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>30,000</color> Coins (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -208536,7 +209501,7 @@ _G.pg.base.task_data_template[60029] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -208621,7 +209586,7 @@ _G.pg.base.task_data_template[60032] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Sakura Empire Vanguard ships. ",
+	desc = "<color=#a2a2a2>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Sakura Empire Vanguard ships. ",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -208676,7 +209641,7 @@ _G.pg.base.task_data_template[60033] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+	desc = "<color=#a2a2a2>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
 	count_inherit = 0,
 	sub_type = 110,
 	target_id_2 = "",
@@ -208706,7 +209671,7 @@ _G.pg.base.task_data_template[60034] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -208739,9 +209704,9 @@ _G.pg.base.task_data_template[60035] = {
 	desc = [[
 <color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
 
-The first draft of the design has been complete.<color=#797979>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
+The first draft of the design has been complete.<color=#a2a2a2>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
 
- — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Sakura Empire Vanguard ships. ]],
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Sakura Empire Vanguard ships.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -208800,7 +209765,7 @@ _G.pg.base.task_data_template[60036] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
-<color=#797979>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
 
  — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
 	count_inherit = 0,
@@ -208834,7 +209799,7 @@ _G.pg.base.task_data_template[60037] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -208864,7 +209829,7 @@ _G.pg.base.task_data_template[60038] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -208894,7 +209859,7 @@ _G.pg.base.task_data_template[60039] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -208987,7 +209952,7 @@ _G.pg.base.task_data_template[60042] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Sakura Empire Main Fleet ships. ",
+	desc = "<color=#a2a2a2>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Sakura Empire Main Fleet ships. ",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -209050,7 +210015,7 @@ _G.pg.base.task_data_template[60043] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+	desc = "<color=#a2a2a2>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
 	count_inherit = 0,
 	sub_type = 110,
 	target_id_2 = "",
@@ -209080,7 +210045,7 @@ _G.pg.base.task_data_template[60044] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Battleship Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Battleship Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -209112,9 +210077,9 @@ _G.pg.base.task_data_template[60045] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
-The first draft of the design has been complete.<color=#797979>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
+The first draft of the design has been complete.<color=#a2a2a2>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
 
- — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Sakura Empire Main Fleet ships. ]],
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Sakura Empire Main Fleet ships.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -209181,7 +210146,7 @@ _G.pg.base.task_data_template[60046] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
-<color=#797979>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
 
  — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
 	count_inherit = 0,
@@ -209215,7 +210180,7 @@ _G.pg.base.task_data_template[60047] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Battleship Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Battleship Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -209245,7 +210210,7 @@ _G.pg.base.task_data_template[60048] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>30,000</color> Coins (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>30,000</color> Coins (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -209275,7 +210240,7 @@ _G.pg.base.task_data_template[60049] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -209360,7 +210325,7 @@ _G.pg.base.task_data_template[60052] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Iron Blood Vanguard ships. ",
+	desc = "<color=#a2a2a2>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Iron Blood Vanguard ships. ",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -209415,7 +210380,7 @@ _G.pg.base.task_data_template[60053] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+	desc = "<color=#a2a2a2>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
 	count_inherit = 0,
 	sub_type = 110,
 	target_id_2 = "",
@@ -209445,7 +210410,7 @@ _G.pg.base.task_data_template[60054] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -209477,9 +210442,9 @@ _G.pg.base.task_data_template[60055] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
-The first draft of the design has been complete.<color=#797979>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
+The first draft of the design has been complete.<color=#a2a2a2>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
 
- — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Iron Blood Vanguard ships. ]],
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Iron Blood Vanguard ships.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -209538,7 +210503,7 @@ _G.pg.base.task_data_template[60056] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
-<color=#797979>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
 
  — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
 	count_inherit = 0,
@@ -209572,7 +210537,7 @@ _G.pg.base.task_data_template[60057] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -209602,7 +210567,7 @@ _G.pg.base.task_data_template[60058] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -209632,7 +210597,7 @@ _G.pg.base.task_data_template[60059] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -209717,7 +210682,7 @@ _G.pg.base.task_data_template[60062] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Eagle Union Vanguard ships. ",
+	desc = "<color=#a2a2a2>Enough data must be gathered to ensure a smooth development process, and the most practical and effective data comes from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Eagle Union Vanguard ships. ",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -209772,7 +210737,7 @@ _G.pg.base.task_data_template[60063] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+	desc = "<color=#a2a2a2>Investment in engineering is essential for materialization through development. If we can apply the results of basic research to cutting-edge technology, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
 	count_inherit = 0,
 	sub_type = 110,
 	target_id_2 = "",
@@ -209802,7 +210767,7 @@ _G.pg.base.task_data_template[60064] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, thorough comparisons between it and existing blueprints must first be made.</color>\n\n — Gather <color=#92fc63>10</color> T2 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -209834,9 +210799,9 @@ _G.pg.base.task_data_template[60065] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
-The first draft of the design has been complete.<color=#797979>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
+The first draft of the design has been complete.<color=#a2a2a2>In order to verify to what extent the design's specs can be realized, more combat data must be gathered.</color>
 
- — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Eagle Union Vanguard ships. ]],
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Eagle Union Vanguard ships.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -209895,7 +210860,7 @@ _G.pg.base.task_data_template[60066] = {
 	type = 8,
 	desc = [[
 <color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
-<color=#797979>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
 
  — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
 	count_inherit = 0,
@@ -209929,7 +210894,7 @@ _G.pg.base.task_data_template[60067] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, a solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We're hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Cruiser Retrofit Blueprints (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -209959,7 +210924,7 @@ _G.pg.base.task_data_template[60068] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1002,
 	target_id_2 = "",
@@ -209989,7 +210954,7 @@ _G.pg.base.task_data_template[60069] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#797979>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
+	desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Submit\" will use up these resources.)",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",

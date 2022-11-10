@@ -521,7 +521,7 @@ function slot8(slot0, slot1)
 		setTextEN(slot6, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_EMOJI then
 		setTextEN(slot6, slot1.drop.cfg.item_desc)
-	elseif type == DROP_TYPE_LOVE_LETTER then
+	elseif slot1.drop.type == DROP_TYPE_LOVE_LETTER then
 		desc = string.gsub(slot1.drop.cfg.display, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
 
 		setText(slot6, SwitchSpecialChar(HXSet.hxLan(desc), true))

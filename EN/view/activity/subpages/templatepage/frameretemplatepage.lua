@@ -12,57 +12,37 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDataSetting(slot0)
-	if slot0.ptData then
-		slot0.ptData:Update(slot0.activity)
-	else
-		slot0.ptData = ActivityPtData.New(slot0.activity)
-	end
+	slot0.avatarConfig = pg.activity_event_avatarframe[slot0.activity:getConfig("config_id")]
 end
 
 function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.battleBtn, function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
-			page = "activity"
-		})
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
-		slot0 = {}
-		slot3 = getProxy(PlayerProxy):getData()
-
-		if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot1.id == PlayerConst.ResGold and slot3:GoldMax(slot1.count) then
-			table.insert(slot0, function (slot0)
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("gold_max_tip_title") .. i18n("award_max_warning"),
-					onYes = slot0
-				})
-			end)
-		end
-
-		seriesAsync(slot0, function ()
-			slot0, slot1 = uv0.ptData:GetResProgress()
-
-			uv0:emit(ActivityMediator.EVENT_PT_OPERATION, {
-				cmd = 1,
-				activity_id = uv0.ptData:GetId(),
-				arg1 = slot1
-			})
-		end)
+		uv0:emit(ActivityMediator.EVENT_OPERATION, {
+			cmd = 1,
+			activity_id = uv0.activity.id
+		})
 	end, SFX_PANEL)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot2 = slot0.ptData:CanGetNextAward()
+	if slot0.avatarConfig.target < slot0.activity.data1 then
+		slot1 = slot2 or slot1
+	end
 
-	setActive(slot0.battleBtn, not slot0.ptData:CanGetAward() and slot2)
-	setActive(slot0.getBtn, slot1)
-	setActive(slot0.gotBtn, not slot2)
-	setActive(slot0.frameGot, not slot2)
+	setText(slot0.step, slot1 / slot2 >= 1 and setColorStr(slot1, COLOR_GREEN) or slot1)
+	setText(slot0.progress, "/" .. slot2)
+	setFillAmount(slot0.bar, slot3)
 
-	slot3, slot4, slot5 = slot0.ptData:GetResProgress()
+	slot4 = slot2 <= slot1
+	slot5 = slot0.activity.data2 >= 1
 
-	setText(slot0.step, slot5 >= 1 and setColorStr(slot3, COLOR_GREEN) or slot3)
-	setText(slot0.progress, "/" .. slot4)
-	setFillAmount(slot0.bar, slot3 / slot4)
+	setActive(slot0.battleBtn, not slot4)
+	setActive(slot0.getBtn, not slot5 and slot4)
+	setActive(slot0.gotBtn, slot5)
+	setActive(slot0.frameGot, slot5)
 end
 
 return slot0
