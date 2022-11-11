@@ -8869,7 +8869,7 @@ _G.pg.base.ship_skin_words[105120] = {
 	vote = "",
 	hp_warning = "Sisters, hold on!",
 	id = 105120,
-	detail = "Being stared like that makes a bit shy...",
+	detail = "Being stared like that makes me a bit shy...",
 	couple_encourage = {}
 }
 
