@@ -15712,6 +15712,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},

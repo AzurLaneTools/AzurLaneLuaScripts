@@ -6529,7 +6529,7 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
-			59327
+			59358
 		}
 	},
 	[4572] = {
