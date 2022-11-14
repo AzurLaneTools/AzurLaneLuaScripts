@@ -2334,14 +2334,14 @@ pg.skill_world_display = {
 	[800121] = {
 		desc_get = "",
 		id = 800121,
-		desc = "[Operation Siren only] \nActivates Ashen Might - Helena I once every 15 times the Main Guns are fired. ",
+		desc = "[Operation Siren only] \nActivates Ashen Might - Helena I once every 15 times the Main Guns are fired.  When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800122] = {
 		desc_get = "",
 		id = 800122,
-		desc = "[Operation Siren only] \nActivates Ashen Might - Helena II once every 10 times the Main Guns are fired.",
+		desc = "[Operation Siren only] \nActivates Ashen Might - Helena II once every 10 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},

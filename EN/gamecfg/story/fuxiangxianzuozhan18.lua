@@ -228,7 +228,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "......",
