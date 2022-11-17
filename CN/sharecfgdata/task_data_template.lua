@@ -245775,13 +245775,12 @@ _G.pg.base.task_data_template[56051] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
 	quick_finish = 0,
 	level = 1,
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56051,
 	target_num = 1,
 	fix_task = 0,
@@ -245793,7 +245792,13 @@ _G.pg.base.task_data_template[56051] = {
 		}
 	},
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SHOP",
+		{
+			warp = "sham"
+		}
+	}
 }
 
 _G.pg.base.task_data_template[56052] = {
@@ -245990,20 +245995,22 @@ _G.pg.base.task_data_template[56072] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56072,
 	target_num = 7,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SELTECHNOLOGY"
+	}
 }
 
 _G.pg.base.task_data_template[56073] = {
@@ -246050,20 +246057,22 @@ _G.pg.base.task_data_template[56081] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56081,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"LEVEL"
+	}
 }
 
 _G.pg.base.task_data_template[56082] = {
@@ -246080,20 +246089,22 @@ _G.pg.base.task_data_template[56082] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56082,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"LEVEL"
+	}
 }
 
 _G.pg.base.task_data_template[56083] = {
@@ -246140,13 +246151,12 @@ _G.pg.base.task_data_template[56091] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
 	quick_finish = 0,
 	level = 1,
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56091,
 	target_num = 1,
 	fix_task = 0,
@@ -246156,7 +246166,10 @@ _G.pg.base.task_data_template[56091] = {
 		3
 	},
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SPWEAPON_STOREHOUSE"
+	}
 }
 
 _G.pg.base.task_data_template[56092] = {
@@ -246173,20 +246186,22 @@ _G.pg.base.task_data_template[56092] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "3",
 	quick_finish = 0,
 	level = 1,
-	target_id = "3",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56092,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SPWEAPON_STOREHOUSE"
+	}
 }
 
 _G.pg.base.task_data_template[56093] = {
@@ -246203,13 +246218,12 @@ _G.pg.base.task_data_template[56093] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
 	quick_finish = 0,
 	level = 1,
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56093,
 	target_num = 1,
 	fix_task = 0,
@@ -246219,7 +246233,10 @@ _G.pg.base.task_data_template[56093] = {
 		3
 	},
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SPWEAPON_STOREHOUSE"
+	}
 }
 
 _G.pg.base.task_data_template[56101] = {
@@ -246266,20 +246283,22 @@ _G.pg.base.task_data_template[56102] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56102,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"LEVEL"
+	}
 }
 
 _G.pg.base.task_data_template[56103] = {
@@ -246296,20 +246315,22 @@ _G.pg.base.task_data_template[56103] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56103,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"LEVEL"
+	}
 }
 
 _G.pg.base.task_data_template[60011] = {

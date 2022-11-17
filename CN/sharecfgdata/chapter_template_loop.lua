@@ -405261,7 +405261,6 @@ _G.pg.base.chapter_template_loop[2100221] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100221,
 	uifx = "",
 	scale = {
@@ -405269,67 +405268,76 @@ _G.pg.base.chapter_template_loop[2100221] = {
 		0.53,
 		1.5
 	},
+	chapter_fx = {
+		Meiximiwu_SLGbaitian = {
+			offset = {
+				-22,
+				-279,
+				-142
+			}
+		}
+	},
 	limitation = {},
 	property_limitation = {},
 	expedition_id_weight_list = {
 		{
-			1330001,
+			1350001,
 			15,
 			0
 		},
 		{
-			1330002,
+			1350002,
 			20,
 			0
 		},
 		{
-			1330003,
+			1350003,
 			30,
 			1
 		},
 		{
-			1330004,
+			1350004,
 			15,
 			0
 		},
 		{
-			1330005,
+			1350005,
 			20,
 			0
 		},
 		{
-			1330006,
+			1350006,
 			30,
 			1
 		},
 		{
-			1330007,
+			1350007,
 			15,
 			0
 		},
 		{
-			1330008,
+			1350008,
 			20,
 			0
 		},
 		{
-			1330009,
+			1350009,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1330010,
-		1330011,
-		1330012
+		1350010,
+		1350011,
+		1350012
 	},
 	elite_expedition_list = {
-		1330005,
-		1330008
+		1350005,
+		1350008
 	},
 	ai_expedition_list = {
-		1330302
+		1350302
 	},
 	patrolai_expedition_list = {
 		1
@@ -405338,7 +405346,7 @@ _G.pg.base.chapter_template_loop[2100221] = {
 		1
 	},
 	boss_expedition_id = {
-		1330013
+		1350013
 	},
 	enemy_refresh = {
 		1,
@@ -405365,16 +405373,76 @@ _G.pg.base.chapter_template_loop[2100221] = {
 	},
 	grids = {
 		{
+			8,
+			8,
+			true,
+			4
+		},
+		{
+			8,
+			7,
+			false,
+			0
+		},
+		{
+			8,
 			6,
-			10,
+			true,
+			4
+		},
+		{
+			8,
+			5,
+			true,
+			4
+		},
+		{
+			8,
+			4,
+			false,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			4
+		},
+		{
+			7,
+			8,
 			true,
 			0
 		},
 		{
-			6,
-			9,
+			7,
+			7,
 			true,
-			4
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			6
+		},
+		{
+			7,
+			5,
+			true,
+			6
+		},
+		{
+			7,
+			4,
+			false,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
 		},
 		{
 			6,
@@ -405386,253 +405454,157 @@ _G.pg.base.chapter_template_loop[2100221] = {
 			6,
 			7,
 			true,
-			6
+			1
 		},
 		{
 			6,
 			6,
-			true,
-			4
-		},
-		{
-			6,
-			5,
-			true,
-			6
-		},
-		{
-			6,
-			4,
-			false,
-			0
-		},
-		{
-			6,
-			3,
-			true,
-			6
-		},
-		{
-			6,
-			2,
 			true,
 			0
 		},
 		{
 			6,
-			1,
-			true,
-			6
-		},
-		{
 			5,
-			10,
-			true,
-			8
-		},
-		{
-			5,
-			9,
-			false,
-			0
-		},
-		{
-			5,
-			8,
 			true,
 			12
 		},
 		{
-			5,
-			7,
-			true,
-			0
-		},
-		{
-			5,
 			6,
-			true,
-			6
-		},
-		{
-			5,
-			5,
-			true,
-			0
-		},
-		{
-			5,
 			4,
-			false,
-			0
-		},
-		{
-			5,
-			3,
-			true,
-			0
-		},
-		{
-			5,
-			2,
-			true,
-			1
-		},
-		{
-			5,
-			1,
-			true,
-			0
-		},
-		{
-			4,
-			10,
-			true,
-			0
-		},
-		{
-			4,
-			9,
-			true,
-			0
-		},
-		{
-			4,
-			8,
-			true,
-			0
-		},
-		{
-			4,
-			7,
-			true,
-			0
-		},
-		{
-			4,
-			6,
-			true,
-			16
-		},
-		{
-			4,
-			5,
-			true,
-			0
-		},
-		{
-			4,
-			4,
-			true,
-			0
-		},
-		{
-			4,
-			3,
-			true,
-			0
-		},
-		{
-			4,
-			2,
-			true,
-			0
-		},
-		{
-			4,
-			1,
-			true,
-			6
-		},
-		{
-			3,
-			10,
 			true,
 			8
 		},
 		{
-			3,
-			9,
-			false,
-			0
-		},
-		{
-			3,
-			8,
-			false,
-			0
-		},
-		{
-			3,
-			7,
-			false,
-			0
-		},
-		{
-			3,
 			6,
+			3,
 			true,
 			6
 		},
 		{
-			3,
+			5,
+			8,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
 			5,
 			true,
-			0
+			16
 		},
 		{
-			3,
+			5,
 			4,
-			false,
-			0
+			true,
+			8
 		},
 		{
+			5,
 			3,
-			3,
+			true,
+			8
+		},
+		{
+			4,
+			8,
 			true,
 			0
 		},
 		{
-			3,
-			2,
+			4,
+			7,
 			true,
 			1
 		},
 		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			12
+		},
+		{
+			4,
+			4,
+			false,
+			0
+		},
+		{
+			4,
 			3,
-			1,
 			true,
 			0
 		},
 		{
-			2,
-			10,
+			3,
+			8,
+			true,
+			6
+		},
+		{
+			3,
+			7,
 			true,
 			0
 		},
 		{
-			2,
-			9,
+			3,
+			6,
 			true,
-			4
+			6
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			6
 		},
 		{
 			2,
 			8,
-			true,
+			false,
 			0
 		},
 		{
 			2,
 			7,
 			true,
-			6
+			0
 		},
 		{
 			2,
 			6,
 			true,
-			4
+			0
 		},
 		{
 			2,
@@ -405643,62 +405615,50 @@ _G.pg.base.chapter_template_loop[2100221] = {
 		{
 			2,
 			4,
-			false,
+			true,
 			0
 		},
 		{
 			2,
 			3,
 			true,
-			6
-		},
-		{
-			2,
-			2,
-			true,
 			0
-		},
-		{
-			2,
-			1,
-			true,
-			6
 		}
 	},
 	float_items = {
 		{
-			5,
-			9,
-			"1x1_2_maoxi_normal",
-			0,
-			7
+			8,
+			7,
+			"meixiv3_normal_1x1_2",
+			6,
+			38
 		},
 		{
-			5,
+			7,
 			4,
-			"1x2_1_maoxi_normal",
-			0,
-			-33
+			"meixiv3_normal_1x2_2",
+			5,
+			-32
 		},
 		{
 			3,
-			8,
-			"2x1_1_maoxi_normal",
-			8,
-			7
+			4,
+			"meixiv3_normal_2x2_2",
+			45,
+			-22
 		},
 		{
 			2,
+			8,
+			"meixiv3_normal_1x1_1",
 			4,
-			"1x2_2_maoxi_normal",
-			0,
-			-8
+			22
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_normal",
+		"sea_meixiv3_normal",
 		45,
 		20,
 		27,
@@ -405748,7 +405708,6 @@ _G.pg.base.chapter_template_loop[2100222] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100222,
 	uifx = "",
 	scale = {
@@ -405756,67 +405715,76 @@ _G.pg.base.chapter_template_loop[2100222] = {
 		0.53,
 		1.5
 	},
+	chapter_fx = {
+		Meiximiwu_SLGbaitian = {
+			offset = {
+				-36,
+				-201,
+				-220
+			}
+		}
+	},
 	limitation = {},
 	property_limitation = {},
 	expedition_id_weight_list = {
 		{
-			1330101,
+			1350101,
 			15,
 			0
 		},
 		{
-			1330102,
+			1350102,
 			20,
 			0
 		},
 		{
-			1330103,
+			1350103,
 			30,
 			1
 		},
 		{
-			1330104,
+			1350104,
 			15,
 			0
 		},
 		{
-			1330105,
+			1350105,
 			20,
 			0
 		},
 		{
-			1330106,
+			1350106,
 			30,
 			1
 		},
 		{
-			1330107,
+			1350107,
 			15,
 			0
 		},
 		{
-			1330108,
+			1350108,
 			20,
 			0
 		},
 		{
-			1330109,
+			1350109,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1330110,
-		1330111,
-		1330112
+		1350110,
+		1350111,
+		1350112
 	},
 	elite_expedition_list = {
-		1330105,
-		1330108
+		1350105,
+		1350108
 	},
 	ai_expedition_list = {
-		1330304
+		1350304
 	},
 	patrolai_expedition_list = {
 		1
@@ -405825,7 +405793,7 @@ _G.pg.base.chapter_template_loop[2100222] = {
 		1
 	},
 	boss_expedition_id = {
-		1330113
+		1350113
 	},
 	enemy_refresh = {
 		1,
@@ -405855,19 +405823,19 @@ _G.pg.base.chapter_template_loop[2100222] = {
 			8,
 			8,
 			true,
-			6
+			8
 		},
 		{
 			8,
 			7,
 			true,
-			0
+			8
 		},
 		{
 			8,
 			6,
 			true,
-			4
+			6
 		},
 		{
 			8,
@@ -405879,7 +405847,7 @@ _G.pg.base.chapter_template_loop[2100222] = {
 			8,
 			4,
 			true,
-			0
+			4
 		},
 		{
 			8,
@@ -405888,120 +405856,102 @@ _G.pg.base.chapter_template_loop[2100222] = {
 			0
 		},
 		{
+			7,
 			8,
-			2,
 			true,
 			8
 		},
 		{
 			7,
-			8,
+			7,
 			true,
 			0
 		},
 		{
 			7,
-			7,
-			true,
-			12
-		},
-		{
-			7,
 			6,
 			true,
-			6
+			0
 		},
 		{
 			7,
 			5,
-			true,
+			false,
 			0
 		},
 		{
 			7,
 			4,
-			false,
+			true,
 			0
 		},
 		{
 			7,
 			3,
-			true,
-			6
-		},
-		{
-			7,
-			2,
-			true,
-			0
-		},
-		{
-			6,
-			8,
-			true,
-			6
-		},
-		{
-			6,
-			7,
-			true,
-			6
-		},
-		{
-			6,
-			6,
-			true,
-			1
-		},
-		{
-			6,
-			5,
-			true,
-			0
-		},
-		{
-			6,
-			4,
-			false,
-			0
-		},
-		{
-			6,
-			3,
-			false,
-			0
-		},
-		{
-			6,
-			2,
 			true,
 			4
 		},
 		{
-			5,
-			8,
-			true,
-			0
-		},
-		{
-			5,
-			7,
-			true,
-			0
-		},
-		{
-			5,
 			6,
-			true,
+			8,
+			false,
 			0
 		},
 		{
-			5,
-			5,
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
 			true,
 			16
 		},
 		{
+			6,
+			5,
+			true,
+			6
+		},
+		{
+			6,
+			4,
+			true,
+			12
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			false,
+			0
+		},
+		{
+			5,
+			7,
+			false,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
 			5,
 			4,
 			true,
@@ -406014,112 +405964,94 @@ _G.pg.base.chapter_template_loop[2100222] = {
 			6
 		},
 		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
 			4,
 			8,
-			true,
-			0
-		},
-		{
-			4,
-			7,
-			false,
-			0
-		},
-		{
-			4,
-			6,
-			false,
-			0
-		},
-		{
-			4,
-			5,
-			true,
-			0
-		},
-		{
-			4,
-			4,
 			true,
 			1
 		},
 		{
 			4,
-			3,
+			7,
 			true,
 			0
 		},
 		{
 			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			1
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			6
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			false,
+			0
+		},
+		{
 			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
 			true,
 			12
 		},
 		{
-			3,
-			8,
-			true,
-			0
-		},
-		{
-			3,
-			7,
-			false,
-			0
-		},
-		{
-			3,
-			6,
-			false,
-			0
-		},
-		{
-			3,
-			5,
-			true,
-			6
-		},
-		{
-			3,
-			4,
-			true,
-			6
-		},
-		{
-			3,
-			3,
-			false,
-			0
-		},
-		{
-			3,
-			2,
-			true,
-			6
-		},
-		{
-			2,
-			8,
-			true,
-			8
-		},
-		{
-			2,
-			7,
-			true,
-			0
-		},
-		{
 			2,
 			6,
 			true,
-			6
+			0
 		},
 		{
 			2,
@@ -406131,48 +406063,78 @@ _G.pg.base.chapter_template_loop[2100222] = {
 			2,
 			4,
 			true,
-			0
+			6
 		},
 		{
 			2,
 			3,
-			false,
+			true,
 			0
 		},
 		{
-			2,
-			2,
+			1,
+			8,
+			true,
+			6
+		},
+		{
+			1,
+			7,
 			true,
 			4
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			6
+		},
+		{
+			1,
+			3,
+			true,
+			0
 		}
 	},
 	float_items = {
 		{
-			6,
-			4,
-			"2x2_1_maoxi_normal",
-			-39,
-			-25
+			7,
+			5,
+			"meixiv3_normal_1x1_1",
+			0,
+			21
+		},
+		{
+			5,
+			7,
+			"meixiv3_normal_2x2_1",
+			64,
+			-32
 		},
 		{
 			3,
-			6,
-			"2x2_2_maoxi_normal",
-			56,
-			-40
-		},
-		{
-			2,
-			3,
-			"1x2_3_maoxi_normal",
-			15,
-			-13
+			5,
+			"meixiv3_normal_3x1_1",
+			-109,
+			25
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_normal",
+		"sea_meixiv3_normal",
 		45,
 		20,
 		3,
@@ -406222,7 +406184,6 @@ _G.pg.base.chapter_template_loop[2100223] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100223,
 	uifx = "",
 	scale = {
@@ -406230,68 +406191,76 @@ _G.pg.base.chapter_template_loop[2100223] = {
 		0.53,
 		1.5
 	},
+	chapter_fx = {
+		Meiximiwu_SLGbaitian = {
+			offset = {
+				27,
+				-160,
+				-261
+			}
+		}
+	},
 	limitation = {},
 	property_limitation = {},
 	expedition_id_weight_list = {
 		{
-			1330201,
+			1350201,
 			15,
 			0
 		},
 		{
-			1330202,
+			1350202,
 			20,
 			0
 		},
 		{
-			1330203,
+			1350203,
 			30,
 			1
 		},
 		{
-			1330204,
+			1350204,
 			15,
 			0
 		},
 		{
-			1330205,
+			1350205,
 			20,
 			0
 		},
 		{
-			1330206,
+			1350206,
 			30,
 			1
 		},
 		{
-			1330207,
+			1350207,
 			15,
 			0
 		},
 		{
-			1330208,
+			1350208,
 			20,
 			0
 		},
 		{
-			1330209,
+			1350209,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1330210,
-		1330211,
-		1330212
+		1350210,
+		1350211,
+		1350212
 	},
 	elite_expedition_list = {
-		1330205,
-		1330208
+		1350205,
+		1350208
 	},
 	ai_expedition_list = {
-		1330306,
-		1330308
+		1350306
 	},
 	patrolai_expedition_list = {
 		1
@@ -406300,7 +406269,7 @@ _G.pg.base.chapter_template_loop[2100223] = {
 		1
 	},
 	boss_expedition_id = {
-		1330213
+		1350213
 	},
 	enemy_refresh = {
 		1,
@@ -406328,12 +406297,6 @@ _G.pg.base.chapter_template_loop[2100223] = {
 	grids = {
 		{
 			7,
-			10,
-			true,
-			8
-		},
-		{
-			7,
 			9,
 			true,
 			0
@@ -406348,159 +406311,123 @@ _G.pg.base.chapter_template_loop[2100223] = {
 			7,
 			7,
 			true,
-			0
+			6
 		},
 		{
 			7,
 			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			6
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			8
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
 			true,
 			12
 		},
 		{
-			7,
-			5,
+			6,
+			3,
 			true,
-			6
-		},
-		{
-			7,
-			4,
-			false,
 			0
 		},
 		{
-			7,
-			3,
+			5,
+			9,
 			true,
 			6
 		},
 		{
-			7,
-			2,
+			5,
+			8,
 			true,
-			4
+			0
 		},
 		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
 			6,
-			10,
 			true,
 			8
 		},
 		{
-			6,
-			9,
-			true,
-			0
-		},
-		{
-			6,
-			8,
-			true,
-			6
-		},
-		{
-			6,
-			7,
-			true,
-			0
-		},
-		{
-			6,
-			6,
-			true,
-			0
-		},
-		{
-			6,
+			5,
 			5,
 			true,
-			6
-		},
-		{
-			6,
-			4,
-			false,
 			0
 		},
 		{
-			6,
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
 			3,
+			true,
+			6
+		},
+		{
+			4,
+			9,
 			true,
 			4
 		},
 		{
-			6,
-			2,
-			true,
-			6
-		},
-		{
-			5,
-			10,
-			true,
-			6
-		},
-		{
-			5,
-			9,
-			true,
-			16
-		},
-		{
-			5,
-			8,
-			false,
-			0
-		},
-		{
-			5,
-			7,
-			true,
-			0
-		},
-		{
-			5,
-			6,
-			true,
-			16
-		},
-		{
-			5,
-			5,
-			true,
-			0
-		},
-		{
-			5,
-			4,
-			true,
-			0
-		},
-		{
-			5,
-			3,
-			true,
-			0
-		},
-		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
-			4,
-			10,
-			true,
-			0
-		},
-		{
-			4,
-			9,
-			true,
-			6
-		},
-		{
 			4,
 			8,
 			true,
@@ -406510,19 +406437,19 @@ _G.pg.base.chapter_template_loop[2100223] = {
 			4,
 			7,
 			true,
-			6
+			1
 		},
 		{
 			4,
 			6,
 			true,
-			0
+			8
 		},
 		{
 			4,
 			5,
-			false,
-			0
+			true,
+			1
 		},
 		{
 			4,
@@ -406533,18 +406460,6 @@ _G.pg.base.chapter_template_loop[2100223] = {
 		{
 			4,
 			3,
-			true,
-			1
-		},
-		{
-			4,
-			2,
-			true,
-			1
-		},
-		{
-			3,
-			10,
 			true,
 			4
 		},
@@ -406552,139 +406467,170 @@ _G.pg.base.chapter_template_loop[2100223] = {
 			3,
 			9,
 			true,
+			6
+		},
+		{
+			3,
+			8,
+			true,
 			0
 		},
 		{
 			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			16
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			6
+		},
+		{
+			2,
+			9,
+			false,
+			0
+		},
+		{
+			2,
 			8,
 			true,
 			12
 		},
 		{
-			3,
+			2,
 			7,
 			true,
 			0
 		},
 		{
-			3,
+			2,
 			6,
 			true,
-			0
+			6
 		},
 		{
-			3,
+			2,
 			5,
 			true,
-			6
-		},
-		{
-			3,
-			4,
-			true,
 			0
 		},
 		{
-			3,
-			3,
-			true,
-			1
-		},
-		{
-			3,
 			2,
+			4,
 			true,
-			1
+			12
 		},
 		{
 			2,
-			10,
-			true,
-			6
-		},
-		{
-			2,
-			9,
+			3,
 			false,
 			0
 		},
 		{
-			2,
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
 			8,
 			false,
 			0
 		},
 		{
-			2,
+			1,
 			7,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			4
+		},
+		{
+			1,
+			5,
+			true,
+			6
+		},
+		{
+			1,
+			4,
 			false,
 			0
 		},
 		{
-			2,
-			6,
-			true,
-			0
-		},
-		{
-			2,
-			5,
-			true,
-			0
-		},
-		{
-			2,
-			4,
-			true,
-			6
-		},
-		{
-			2,
+			1,
 			3,
-			true,
+			false,
 			0
-		},
-		{
-			2,
-			2,
-			true,
-			6
 		}
 	},
 	float_items = {
 		{
-			6,
-			4,
-			"1x2_1_maoxi_normal",
-			6,
-			-39
+			7,
+			3,
+			"meixiv3_normal_1x1_1",
+			3,
+			27
 		},
 		{
-			5,
-			8,
-			"1x1_2_maoxi_normal",
-			0,
-			4
-		},
-		{
-			4,
-			5,
-			"1x1_1_maoxi_normal",
-			0,
-			0
+			6,
+			7,
+			"meixiv3_normal_3x1_1",
+			98,
+			25
 		},
 		{
 			2,
 			9,
-			"2x1_1_maoxi_normal",
-			-102,
-			0
+			"meixiv3_normal_1x1_2",
+			10,
+			27
+		},
+		{
+			1,
+			8,
+			"meixiv3_normal_1x1_1",
+			3,
+			27
+		},
+		{
+			1,
+			3,
+			"meixiv3_normal_2x2_2",
+			38,
+			-18
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_normal",
+		"sea_meixiv3_normal",
 		45,
 		20,
 		-9,
@@ -406734,7 +406680,6 @@ _G.pg.base.chapter_template_loop[2100224] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100224,
 	uifx = "",
 	scale = {
@@ -406742,68 +406687,77 @@ _G.pg.base.chapter_template_loop[2100224] = {
 		0.53,
 		1.5
 	},
+	chapter_fx = {
+		Meiximiwu_SLGbaitian = {
+			offset = {
+				51,
+				-295,
+				-126
+			}
+		}
+	},
 	limitation = {},
 	property_limitation = {},
 	expedition_id_weight_list = {
 		{
-			1331001,
+			1351001,
 			15,
 			0
 		},
 		{
-			1331002,
+			1351002,
 			20,
 			0
 		},
 		{
-			1331003,
+			1351003,
 			30,
 			1
 		},
 		{
-			1331004,
+			1351004,
 			15,
 			0
 		},
 		{
-			1331005,
+			1351005,
 			20,
 			0
 		},
 		{
-			1331006,
+			1351006,
 			30,
 			1
 		},
 		{
-			1331007,
+			1351007,
 			15,
 			0
 		},
 		{
-			1331008,
+			1351008,
 			20,
 			0
 		},
 		{
-			1331009,
+			1351009,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1331010,
-		1331011,
-		1331012
+		1351010,
+		1351011,
+		1351012
 	},
 	elite_expedition_list = {
-		1331005,
-		1331008
+		1351005,
+		1351008
 	},
 	ai_expedition_list = {
-		1331302,
-		1331304
+		1351302,
+		1351304
 	},
 	patrolai_expedition_list = {
 		1
@@ -406812,7 +406766,7 @@ _G.pg.base.chapter_template_loop[2100224] = {
 		1
 	},
 	boss_expedition_id = {
-		1331013
+		1351013
 	},
 	enemy_refresh = {
 		1,
@@ -406841,382 +406795,375 @@ _G.pg.base.chapter_template_loop[2100224] = {
 	grids = {
 		{
 			8,
+			10,
+			true,
+			0
+		},
+		{
 			8,
+			9,
+			true,
+			6
+		},
+		{
+			8,
+			8,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			6
+		},
+		{
+			8,
+			6,
+			true,
+			0
+		},
+		{
+			8,
+			5,
 			true,
 			4
 		},
 		{
 			8,
-			7,
-			true,
-			0
-		},
-		{
-			8,
-			6,
-			false,
-			0
-		},
-		{
-			8,
-			5,
-			false,
-			0
-		},
-		{
-			8,
 			4,
-			true,
-			6
-		},
-		{
-			8,
-			3,
-			true,
-			0
-		},
-		{
-			8,
-			2,
-			true,
-			1
-		},
-		{
-			8,
-			1,
-			true,
-			1
-		},
-		{
-			7,
-			8,
-			true,
-			0
-		},
-		{
-			7,
-			7,
-			true,
-			6
-		},
-		{
-			7,
-			6,
-			false,
-			0
-		},
-		{
-			7,
-			5,
-			false,
-			0
-		},
-		{
-			7,
-			4,
-			true,
-			0
-		},
-		{
-			7,
-			3,
-			true,
-			0
-		},
-		{
-			7,
-			2,
-			true,
-			6
-		},
-		{
-			7,
-			1,
-			true,
-			1
-		},
-		{
-			6,
-			8,
-			true,
-			6
-		},
-		{
-			6,
-			7,
-			true,
-			12
-		},
-		{
-			6,
-			6,
-			true,
-			0
-		},
-		{
-			6,
-			5,
-			true,
-			6
-		},
-		{
-			6,
-			4,
-			true,
-			0
-		},
-		{
-			6,
-			3,
-			true,
-			6
-		},
-		{
-			6,
-			2,
-			true,
-			0
-		},
-		{
-			6,
-			1,
-			false,
-			0
-		},
-		{
-			5,
-			8,
-			false,
-			0
-		},
-		{
-			5,
-			7,
-			true,
-			0
-		},
-		{
-			5,
-			6,
-			true,
-			0
-		},
-		{
-			5,
-			5,
-			true,
-			0
-		},
-		{
-			5,
-			4,
-			true,
-			16
-		},
-		{
-			5,
-			3,
-			true,
-			4
-		},
-		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
-			5,
-			1,
-			false,
-			0
-		},
-		{
-			4,
-			8,
-			false,
-			0
-		},
-		{
-			4,
-			7,
-			true,
-			0
-		},
-		{
-			4,
-			6,
-			true,
-			6
-		},
-		{
-			4,
-			5,
-			true,
-			6
-		},
-		{
-			4,
-			4,
-			true,
-			0
-		},
-		{
-			4,
-			3,
-			false,
-			0
-		},
-		{
-			4,
-			2,
-			true,
-			6
-		},
-		{
-			4,
-			1,
-			true,
-			0
-		},
-		{
-			3,
-			8,
-			true,
-			0
-		},
-		{
-			3,
-			7,
-			true,
-			0
-		},
-		{
-			3,
-			6,
-			false,
-			0
-		},
-		{
-			3,
-			5,
-			true,
-			0
-		},
-		{
-			3,
-			4,
-			true,
-			6
-		},
-		{
-			3,
-			3,
-			false,
-			0
-		},
-		{
-			3,
-			2,
-			false,
-			0
-		},
-		{
-			3,
-			1,
-			true,
-			6
-		},
-		{
-			2,
-			8,
 			true,
 			8
 		},
 		{
-			2,
+			8,
+			3,
+			true,
+			8
+		},
+		{
 			7,
-			true,
-			0
-		},
-		{
-			2,
-			6,
-			true,
-			0
-		},
-		{
-			2,
-			5,
+			10,
 			true,
 			6
 		},
 		{
-			2,
+			7,
+			9,
+			true,
+			6
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			12
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
 			4,
 			true,
 			0
 		},
 		{
-			2,
+			7,
 			3,
 			true,
-			6
+			8
 		},
 		{
-			2,
-			2,
+			6,
+			10,
 			true,
 			0
 		},
 		{
-			2,
-			1,
+			6,
+			9,
 			true,
-			12
-		}
-	},
-	float_items = {
+			0
+		},
 		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
 			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			6
+		},
+		{
+			6,
 			5,
-			"2x2_2_maoxi_hard",
-			61,
-			-47
+			true,
+			16
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			4
 		},
 		{
 			5,
-			1,
-			"1x2_2_maoxi_hard",
-			0,
-			-28
+			10,
+			false,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			12
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			6
+		},
+		{
+			5,
+			3,
+			false,
+			0
+		},
+		{
+			4,
+			10,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			0
 		},
 		{
 			4,
 			8,
-			"1x2_1_maoxi_hard",
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			6
+		},
+		{
+			4,
+			3,
+			false,
+			0
+		},
+		{
+			3,
+			10,
+			true,
+			1
+		},
+		{
+			3,
 			9,
-			-43
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			6
 		},
 		{
 			3,
 			6,
-			"1x1_2_maoxi_hard",
-			0,
-			2
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			12
+		},
+		{
+			3,
+			4,
+			true,
+			0
 		},
 		{
 			3,
 			3,
-			"2x2_1_maoxi_hard",
-			-38,
-			-19
+			true,
+			4
+		},
+		{
+			2,
+			10,
+			true,
+			1
+		},
+		{
+			2,
+			9,
+			true,
+			1
+		},
+		{
+			2,
+			8,
+			false,
+			0
+		},
+		{
+			2,
+			7,
+			false,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			6
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			4
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			7,
+			"meixiv3_normal_1x2_1",
+			9,
+			-29
+		},
+		{
+			5,
+			10,
+			"meixiv3_normal_1x1_1",
+			3,
+			27
+		},
+		{
+			4,
+			3,
+			"meixiv3_normal_1x2_2",
+			-1,
+			-27
+		},
+		{
+			2,
+			7,
+			"meixiv3_normal_2x1_1",
+			52,
+			3
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_normal",
+		"sea_meixiv3_normal",
 		45,
 		20,
 		8,
@@ -407266,7 +407213,6 @@ _G.pg.base.chapter_template_loop[2100225] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100225,
 	uifx = "",
 	scale = {
@@ -407274,68 +407220,77 @@ _G.pg.base.chapter_template_loop[2100225] = {
 		0.53,
 		1.5
 	},
+	chapter_fx = {
+		Meiximiwu_SLGbaitian = {
+			offset = {
+				-21,
+				-233,
+				-188
+			}
+		}
+	},
 	limitation = {},
 	property_limitation = {},
 	expedition_id_weight_list = {
 		{
-			1331101,
+			1351101,
 			15,
 			0
 		},
 		{
-			1331102,
+			1351102,
 			20,
 			0
 		},
 		{
-			1331103,
+			1351103,
 			30,
 			1
 		},
 		{
-			1331104,
+			1351104,
 			15,
 			0
 		},
 		{
-			1331105,
+			1351105,
 			20,
 			0
 		},
 		{
-			1331106,
+			1351106,
 			30,
 			1
 		},
 		{
-			1331107,
+			1351107,
 			15,
 			0
 		},
 		{
-			1331108,
+			1351108,
 			20,
 			0
 		},
 		{
-			1331109,
+			1351109,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1331110,
-		1331111,
-		1331112
+		1351110,
+		1351111,
+		1351112
 	},
 	elite_expedition_list = {
-		1331105,
-		1331108
+		1351105,
+		1351108
 	},
 	ai_expedition_list = {
-		1331306,
-		1331308
+		1351306,
+		1351308
 	},
 	patrolai_expedition_list = {
 		1
@@ -407344,7 +407299,7 @@ _G.pg.base.chapter_template_loop[2100225] = {
 		1
 	},
 	boss_expedition_id = {
-		1331113
+		1351113
 	},
 	enemy_refresh = {
 		1,
@@ -407372,28 +407327,70 @@ _G.pg.base.chapter_template_loop[2100225] = {
 	},
 	grids = {
 		{
+			9,
 			8,
-			7,
 			true,
-			8
+			4
 		},
 		{
-			8,
+			9,
+			7,
+			true,
+			0
+		},
+		{
+			9,
 			6,
 			true,
 			0
 		},
 		{
-			8,
+			9,
 			5,
 			true,
 			6
 		},
 		{
+			9,
+			4,
+			true,
+			0
+		},
+		{
+			9,
+			3,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			true,
+			6
+		},
+		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			4
+		},
+		{
+			8,
+			5,
+			false,
+			0
+		},
+		{
 			8,
 			4,
 			true,
-			6
+			4
 		},
 		{
 			8,
@@ -407402,154 +407399,154 @@ _G.pg.base.chapter_template_loop[2100225] = {
 			0
 		},
 		{
+			7,
 			8,
-			2,
+			true,
+			6
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			false,
+			0
+		},
+		{
+			7,
+			5,
+			false,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			6
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			16
+		},
+		{
+			6,
+			6,
 			true,
 			8
 		},
 		{
+			6,
+			5,
+			true,
+			8
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			true,
+			12
+		},
+		{
+			5,
 			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			12
+		},
+		{
+			4,
+			8,
+			false,
+			0
+		},
+		{
+			4,
 			7,
 			true,
 			4
 		},
 		{
-			7,
+			4,
 			6,
 			true,
 			1
 		},
 		{
-			7,
-			5,
-			true,
-			0
-		},
-		{
-			7,
 			4,
-			true,
-			0
-		},
-		{
-			7,
-			3,
+			5,
 			true,
 			1
 		},
 		{
-			7,
-			2,
-			true,
-			0
-		},
-		{
-			6,
-			7,
-			false,
-			0
-		},
-		{
-			6,
-			6,
-			true,
-			0
-		},
-		{
-			6,
-			5,
-			true,
-			6
-		},
-		{
-			6,
 			4,
-			true,
-			6
-		},
-		{
-			6,
-			3,
-			true,
-			0
-		},
-		{
-			6,
-			2,
-			true,
-			4
-		},
-		{
-			5,
-			7,
-			true,
-			6
-		},
-		{
-			5,
-			6,
-			true,
-			0
-		},
-		{
-			5,
-			5,
-			false,
-			0
-		},
-		{
-			5,
 			4,
 			false,
 			0
 		},
 		{
-			5,
+			4,
 			3,
 			false,
 			0
 		},
 		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
-			4,
-			7,
-			true,
-			6
-		},
-		{
-			4,
-			6,
-			true,
-			0
-		},
-		{
-			4,
-			5,
-			true,
-			16
-		},
-		{
-			4,
-			4,
-			true,
-			16
-		},
-		{
-			4,
 			3,
-			true,
+			8,
+			false,
 			0
-		},
-		{
-			4,
-			2,
-			true,
-			6
 		},
 		{
 			3,
@@ -407561,7 +407558,7 @@ _G.pg.base.chapter_template_loop[2100225] = {
 			3,
 			6,
 			true,
-			6
+			0
 		},
 		{
 			3,
@@ -407572,128 +407569,122 @@ _G.pg.base.chapter_template_loop[2100225] = {
 		{
 			3,
 			4,
-			true,
-			6
-		},
-		{
-			3,
-			3,
-			true,
+			false,
 			0
 		},
 		{
 			3,
+			3,
+			false,
+			0
+		},
+		{
 			2,
+			8,
 			true,
 			6
 		},
 		{
 			2,
 			7,
-			false,
+			true,
 			0
 		},
 		{
 			2,
 			6,
-			false,
+			true,
 			0
 		},
 		{
 			2,
 			5,
 			true,
-			12
+			0
 		},
 		{
 			2,
 			4,
 			true,
-			6
+			0
 		},
 		{
 			2,
 			3,
-			false,
-			0
-		},
-		{
-			2,
-			2,
-			true,
-			0
-		},
-		{
-			1,
-			7,
 			true,
 			6
 		},
 		{
 			1,
-			6,
-			true,
-			0
-		},
-		{
-			1,
-			5,
+			8,
 			true,
 			4
 		},
 		{
 			1,
+			7,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			12
+		},
+		{
+			1,
+			5,
+			true,
+			12
+		},
+		{
+			1,
 			4,
 			true,
-			0
+			6
 		},
 		{
 			1,
 			3,
-			false,
-			0
-		},
-		{
-			1,
-			2,
 			true,
-			12
+			4
 		}
 	},
 	float_items = {
 		{
-			6,
 			7,
-			"1x1_1_maoxi_hard",
-			0,
-			0
-		},
-		{
 			5,
-			3,
-			"2x1_1_maoxi_hard",
-			88,
-			14
+			"meixiv3_normal_2x2_2",
+			43,
+			-22
 		},
 		{
-			2,
-			6,
-			"2x2_1_maoxi_hard",
-			68,
-			-26
-		},
-		{
-			1,
-			3,
-			"1x2_3_maoxi_hard",
+			4,
+			8,
+			"meixiv3_normal_1x1_2",
 			11,
-			-7
+			26
+		},
+		{
+			3,
+			7,
+			"meixiv3_normal_2x1_1",
+			55,
+			3
+		},
+		{
+			3,
+			3,
+			"meixiv3_normal_2x2_1",
+			46,
+			-18
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_normal",
+		"sea_meixiv3_normal",
 		45,
 		20,
 		-128,
@@ -407743,7 +407734,6 @@ _G.pg.base.chapter_template_loop[2100226] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100226,
 	uifx = "",
 	scale = {
@@ -407751,68 +407741,77 @@ _G.pg.base.chapter_template_loop[2100226] = {
 		0.53,
 		1.5
 	},
+	chapter_fx = {
+		Meiximiwu_SLGbaitian = {
+			offset = {
+				-21,
+				-261,
+				-222
+			}
+		}
+	},
 	limitation = {},
 	property_limitation = {},
 	expedition_id_weight_list = {
 		{
-			1331201,
+			1351201,
 			15,
 			0
 		},
 		{
-			1331202,
+			1351202,
 			20,
 			0
 		},
 		{
-			1331203,
+			1351203,
 			30,
 			1
 		},
 		{
-			1331204,
+			1351204,
 			15,
 			0
 		},
 		{
-			1331205,
+			1351205,
 			20,
 			0
 		},
 		{
-			1331206,
+			1351206,
 			30,
 			1
 		},
 		{
-			1331207,
+			1351207,
 			15,
 			0
 		},
 		{
-			1331208,
+			1351208,
 			20,
 			0
 		},
 		{
-			1331209,
+			1351209,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1331210,
-		1331211,
-		1331212
+		1351210,
+		1351211,
+		1351212
 	},
 	elite_expedition_list = {
-		1331205,
-		1331208
+		1351205,
+		1351208
 	},
 	ai_expedition_list = {
-		1331310,
-		1331312
+		1351310,
+		1351312
 	},
 	patrolai_expedition_list = {
 		1
@@ -407821,7 +407820,7 @@ _G.pg.base.chapter_template_loop[2100226] = {
 		1
 	},
 	boss_expedition_id = {
-		1331213
+		1351213
 	},
 	enemy_refresh = {
 		1,
@@ -407849,118 +407848,190 @@ _G.pg.base.chapter_template_loop[2100226] = {
 	},
 	grids = {
 		{
-			7,
+			9,
 			9,
 			true,
 			0
 		},
 		{
-			7,
-			8,
-			true,
-			6
-		},
-		{
-			7,
-			7,
-			true,
-			0
-		},
-		{
-			7,
-			6,
-			true,
-			0
-		},
-		{
-			7,
-			5,
-			true,
-			6
-		},
-		{
-			7,
-			4,
-			true,
-			0
-		},
-		{
-			7,
-			3,
-			true,
-			6
-		},
-		{
-			7,
-			2,
-			true,
-			0
-		},
-		{
-			6,
 			9,
-			true,
-			6
-		},
-		{
-			6,
 			8,
 			true,
+			12
+		},
+		{
+			9,
+			7,
+			true,
 			6
 		},
 		{
-			6,
-			7,
-			false,
-			0
-		},
-		{
-			6,
+			9,
 			6,
 			true,
 			0
 		},
 		{
-			6,
+			9,
 			5,
 			true,
-			4
-		},
-		{
-			6,
-			4,
-			true,
 			6
 		},
 		{
-			6,
+			9,
+			4,
+			true,
+			12
+		},
+		{
+			9,
 			3,
 			true,
 			0
 		},
 		{
-			6,
-			2,
-			true,
-			6
-		},
-		{
-			5,
+			8,
 			9,
-			false,
-			0
+			true,
+			4
 		},
 		{
-			5,
+			8,
 			8,
 			true,
 			0
 		},
 		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			6
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			4
+		},
+		{
+			7,
+			9,
+			false,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			6
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			6
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			1
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			1
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			false,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			4
+		},
+		{
+			5,
+			8,
+			true,
+			6
+		},
+		{
 			5,
 			7,
 			true,
-			4
+			0
 		},
 		{
 			5,
@@ -407971,178 +408042,154 @@ _G.pg.base.chapter_template_loop[2100226] = {
 		{
 			5,
 			5,
-			false,
+			true,
 			0
 		},
 		{
 			5,
 			4,
-			false,
-			0
-		},
-		{
-			5,
-			3,
-			false,
-			0
-		},
-		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
-			4,
-			9,
-			true,
-			0
-		},
-		{
-			4,
-			8,
-			true,
-			0
-		},
-		{
-			4,
-			7,
 			true,
 			6
 		},
 		{
-			4,
-			6,
-			true,
-			0
-		},
-		{
-			4,
 			5,
+			3,
 			true,
 			4
 		},
 		{
 			4,
-			4,
-			true,
-			6
-		},
-		{
-			4,
-			3,
-			true,
-			0
-		},
-		{
-			4,
-			2,
-			true,
-			0
-		},
-		{
-			3,
-			9,
-			true,
-			6
-		},
-		{
-			3,
-			8,
-			true,
-			1
-		},
-		{
-			3,
-			7,
-			true,
-			0
-		},
-		{
-			3,
-			6,
-			true,
-			0
-		},
-		{
-			3,
-			5,
-			true,
-			0
-		},
-		{
-			3,
-			4,
-			true,
-			0
-		},
-		{
-			3,
-			3,
-			true,
-			1
-		},
-		{
-			3,
-			2,
-			true,
-			6
-		},
-		{
-			2,
-			9,
-			true,
-			0
-		},
-		{
-			2,
-			8,
-			true,
-			6
-		},
-		{
-			2,
-			7,
-			false,
-			0
-		},
-		{
-			2,
-			6,
-			true,
-			0
-		},
-		{
-			2,
-			5,
-			true,
-			0
-		},
-		{
-			2,
-			4,
-			false,
-			0
-		},
-		{
-			2,
-			3,
-			true,
-			6
-		},
-		{
-			2,
-			2,
-			true,
-			0
-		},
-		{
-			1,
 			9,
 			true,
 			12
 		},
 		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			8
+		},
+		{
+			4,
+			6,
+			true,
+			8
+		},
+		{
+			4,
+			5,
+			true,
+			8
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			12
+		},
+		{
+			3,
+			9,
+			false,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			false,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			false,
+			0
+		},
+		{
+			2,
+			9,
+			false,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			4
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			false,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			6
+		},
+		{
 			1,
 			8,
 			true,
@@ -408151,81 +408198,82 @@ _G.pg.base.chapter_template_loop[2100226] = {
 		{
 			1,
 			7,
-			false,
-			0
+			true,
+			6
 		},
 		{
 			1,
 			6,
 			true,
-			8
+			0
 		},
 		{
 			1,
 			5,
 			true,
-			8
+			6
 		},
 		{
 			1,
 			4,
-			false,
+			true,
 			0
 		},
 		{
 			1,
 			3,
 			true,
-			0
-		},
-		{
-			1,
-			2,
-			true,
-			12
+			6
 		}
 	},
 	float_items = {
 		{
-			6,
 			7,
-			"1x1_2_maoxi_hard",
-			0,
-			5
+			9,
+			"meixiv3_normal_1x1_2",
+			11,
+			30
 		},
 		{
-			5,
-			9,
-			"1x1_1_maoxi_hard",
-			0,
+			6,
+			8,
+			"meixiv3_normal_2x1_1",
+			53,
 			0
 		},
 		{
+			6,
+			3,
+			"meixiv3_normal_2x2_2",
+			32,
+			-22
+		},
+		{
+			3,
 			5,
-			4,
-			"2x1_1_maoxi_hard",
-			11,
-			14
+			"meixiv3_normal_3x1_1",
+			102,
+			27
 		},
 		{
-			1,
-			7,
-			"1x2_1_maoxi_hard",
-			8,
-			-25
+			2,
+			9,
+			"meixiv3_normal_1x2_2",
+			9,
+			-37
 		},
 		{
-			1,
-			4,
-			"1x2_1_maoxi_hard",
-			8,
-			-25
+			2,
+			3,
+			"meixiv3_normal_1x2_1",
+			3,
+			-10
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_normal",
+		"sea_meixiv3_normal",
 		45,
 		20,
 		-128,
@@ -408275,13 +408323,21 @@ _G.pg.base.chapter_template_loop[2100231] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100231,
 	uifx = "",
 	scale = {
 		0.34,
 		0.53,
 		1.5
+	},
+	chapter_fx = {
+		Meiximiwu_SLGyewan = {
+			offset = {
+				18,
+				-75.8,
+				-297.1
+			}
+		}
 	},
 	limitation = {
 		{
@@ -408328,65 +408384,64 @@ _G.pg.base.chapter_template_loop[2100231] = {
 	},
 	expedition_id_weight_list = {
 		{
-			1332001,
+			1352001,
 			15,
 			0
 		},
 		{
-			1332002,
+			1352002,
 			20,
 			0
 		},
 		{
-			1332003,
+			1352003,
 			30,
 			1
 		},
 		{
-			1332004,
+			1352004,
 			15,
 			0
 		},
 		{
-			1332005,
+			1352005,
 			20,
 			0
 		},
 		{
-			1332006,
+			1352006,
 			30,
 			1
 		},
 		{
-			1332007,
+			1352007,
 			15,
 			0
 		},
 		{
-			1332008,
+			1352008,
 			20,
 			0
 		},
 		{
-			1332009,
+			1352009,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1332010,
-		1332011,
-		1332012
+		1352010,
+		1352011,
+		1352012
 	},
 	elite_expedition_list = {
-		1332006,
-		1332008
+		1352006,
+		1352008
 	},
 	ai_expedition_list = {
-		1332302,
-		1332304,
-		1332306
+		1352302,
+		1352304
 	},
 	patrolai_expedition_list = {
 		1
@@ -408395,7 +408450,7 @@ _G.pg.base.chapter_template_loop[2100231] = {
 		1
 	},
 	boss_expedition_id = {
-		1332013
+		1352013
 	},
 	enemy_refresh = {
 		1,
@@ -408422,16 +408477,76 @@ _G.pg.base.chapter_template_loop[2100231] = {
 	},
 	grids = {
 		{
+			8,
+			8,
+			true,
+			4
+		},
+		{
+			8,
+			7,
+			false,
+			0
+		},
+		{
+			8,
 			6,
-			10,
+			true,
+			4
+		},
+		{
+			8,
+			5,
+			true,
+			4
+		},
+		{
+			8,
+			4,
+			false,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			4
+		},
+		{
+			7,
+			8,
 			true,
 			0
 		},
 		{
-			6,
-			9,
+			7,
+			7,
 			true,
-			4
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			6
+		},
+		{
+			7,
+			5,
+			true,
+			6
+		},
+		{
+			7,
+			4,
+			false,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
 		},
 		{
 			6,
@@ -408443,253 +408558,157 @@ _G.pg.base.chapter_template_loop[2100231] = {
 			6,
 			7,
 			true,
-			6
+			1
 		},
 		{
 			6,
 			6,
-			true,
-			4
-		},
-		{
-			6,
-			5,
-			true,
-			6
-		},
-		{
-			6,
-			4,
-			false,
-			0
-		},
-		{
-			6,
-			3,
-			true,
-			6
-		},
-		{
-			6,
-			2,
 			true,
 			0
 		},
 		{
 			6,
-			1,
-			true,
-			6
-		},
-		{
 			5,
-			10,
-			true,
-			8
-		},
-		{
-			5,
-			9,
-			false,
-			0
-		},
-		{
-			5,
-			8,
 			true,
 			12
 		},
 		{
-			5,
-			7,
-			true,
-			0
-		},
-		{
-			5,
 			6,
-			true,
-			6
-		},
-		{
-			5,
-			5,
-			true,
-			0
-		},
-		{
-			5,
 			4,
-			false,
-			0
-		},
-		{
-			5,
-			3,
-			true,
-			0
-		},
-		{
-			5,
-			2,
-			true,
-			1
-		},
-		{
-			5,
-			1,
-			true,
-			0
-		},
-		{
-			4,
-			10,
-			true,
-			0
-		},
-		{
-			4,
-			9,
-			true,
-			0
-		},
-		{
-			4,
-			8,
-			true,
-			0
-		},
-		{
-			4,
-			7,
-			true,
-			0
-		},
-		{
-			4,
-			6,
-			true,
-			16
-		},
-		{
-			4,
-			5,
-			true,
-			0
-		},
-		{
-			4,
-			4,
-			true,
-			0
-		},
-		{
-			4,
-			3,
-			true,
-			0
-		},
-		{
-			4,
-			2,
-			true,
-			0
-		},
-		{
-			4,
-			1,
-			true,
-			6
-		},
-		{
-			3,
-			10,
 			true,
 			8
 		},
 		{
-			3,
-			9,
-			false,
-			0
-		},
-		{
-			3,
-			8,
-			false,
-			0
-		},
-		{
-			3,
-			7,
-			false,
-			0
-		},
-		{
-			3,
 			6,
+			3,
 			true,
 			6
 		},
 		{
-			3,
+			5,
+			8,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
 			5,
 			true,
-			0
+			16
 		},
 		{
-			3,
+			5,
 			4,
-			false,
-			0
+			true,
+			8
 		},
 		{
+			5,
 			3,
-			3,
+			true,
+			8
+		},
+		{
+			4,
+			8,
 			true,
 			0
 		},
 		{
-			3,
-			2,
+			4,
+			7,
 			true,
 			1
 		},
 		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			12
+		},
+		{
+			4,
+			4,
+			false,
+			0
+		},
+		{
+			4,
 			3,
-			1,
 			true,
 			0
 		},
 		{
-			2,
-			10,
+			3,
+			8,
+			true,
+			6
+		},
+		{
+			3,
+			7,
 			true,
 			0
 		},
 		{
-			2,
-			9,
+			3,
+			6,
 			true,
-			4
+			6
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			6
 		},
 		{
 			2,
 			8,
-			true,
+			false,
 			0
 		},
 		{
 			2,
 			7,
 			true,
-			6
+			0
 		},
 		{
 			2,
 			6,
 			true,
-			4
+			0
 		},
 		{
 			2,
@@ -408700,62 +408719,50 @@ _G.pg.base.chapter_template_loop[2100231] = {
 		{
 			2,
 			4,
-			false,
+			true,
 			0
 		},
 		{
 			2,
 			3,
 			true,
-			6
-		},
-		{
-			2,
-			2,
-			true,
 			0
-		},
-		{
-			2,
-			1,
-			true,
-			6
 		}
 	},
 	float_items = {
 		{
-			5,
-			9,
-			"1x1_2_maoxi_normal",
-			0,
-			7
+			8,
+			7,
+			"meixiv3_hard_1x1_2",
+			6,
+			38
 		},
 		{
-			5,
+			7,
 			4,
-			"1x2_1_maoxi_normal",
-			0,
-			-33
+			"meixiv3_hard_1x2_2",
+			5,
+			-32
 		},
 		{
 			3,
-			8,
-			"2x1_1_maoxi_normal",
-			8,
-			7
+			4,
+			"meixiv3_hard_2x2_2",
+			45,
+			-22
 		},
 		{
 			2,
+			8,
+			"meixiv3_hard_1x1_1",
 			4,
-			"1x2_2_maoxi_normal",
-			0,
-			-8
+			22
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_hard",
+		"sea_meixiv3_hard",
 		45,
 		20,
 		27,
@@ -408805,13 +408812,21 @@ _G.pg.base.chapter_template_loop[2100232] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100232,
 	uifx = "",
 	scale = {
 		0.34,
 		0.53,
 		1.5
+	},
+	chapter_fx = {
+		Meiximiwu_SLGyewan = {
+			offset = {
+				-36,
+				-133.5,
+				-391.5
+			}
+		}
 	},
 	limitation = {
 		{
@@ -408858,65 +408873,64 @@ _G.pg.base.chapter_template_loop[2100232] = {
 	},
 	expedition_id_weight_list = {
 		{
-			1332101,
+			1352101,
 			15,
 			0
 		},
 		{
-			1332102,
+			1352102,
 			20,
 			0
 		},
 		{
-			1332103,
+			1352103,
 			30,
 			1
 		},
 		{
-			1332104,
+			1352104,
 			15,
 			0
 		},
 		{
-			1332105,
+			1352105,
 			20,
 			0
 		},
 		{
-			1332106,
+			1352106,
 			30,
 			1
 		},
 		{
-			1332107,
+			1352107,
 			15,
 			0
 		},
 		{
-			1332108,
+			1352108,
 			20,
 			0
 		},
 		{
-			1332109,
+			1352109,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1332110,
-		1332111,
-		1332112
+		1352110,
+		1352111,
+		1352112
 	},
 	elite_expedition_list = {
-		1332106,
-		1332108
+		1352106,
+		1352108
 	},
 	ai_expedition_list = {
-		1332308,
-		1332310,
-		1332312
+		1352306,
+		1352308
 	},
 	patrolai_expedition_list = {
 		1
@@ -408925,7 +408939,7 @@ _G.pg.base.chapter_template_loop[2100232] = {
 		1
 	},
 	boss_expedition_id = {
-		1332113
+		1352113
 	},
 	enemy_refresh = {
 		1,
@@ -408955,19 +408969,19 @@ _G.pg.base.chapter_template_loop[2100232] = {
 			8,
 			8,
 			true,
-			6
+			8
 		},
 		{
 			8,
 			7,
 			true,
-			0
+			8
 		},
 		{
 			8,
 			6,
 			true,
-			4
+			6
 		},
 		{
 			8,
@@ -408979,7 +408993,7 @@ _G.pg.base.chapter_template_loop[2100232] = {
 			8,
 			4,
 			true,
-			0
+			4
 		},
 		{
 			8,
@@ -408988,120 +409002,102 @@ _G.pg.base.chapter_template_loop[2100232] = {
 			0
 		},
 		{
+			7,
 			8,
-			2,
 			true,
 			8
 		},
 		{
 			7,
-			8,
+			7,
 			true,
 			0
 		},
 		{
 			7,
-			7,
-			true,
-			12
-		},
-		{
-			7,
 			6,
 			true,
-			6
+			0
 		},
 		{
 			7,
 			5,
-			true,
+			false,
 			0
 		},
 		{
 			7,
 			4,
-			false,
+			true,
 			0
 		},
 		{
 			7,
 			3,
-			true,
-			6
-		},
-		{
-			7,
-			2,
-			true,
-			0
-		},
-		{
-			6,
-			8,
-			true,
-			6
-		},
-		{
-			6,
-			7,
-			true,
-			6
-		},
-		{
-			6,
-			6,
-			true,
-			1
-		},
-		{
-			6,
-			5,
-			true,
-			0
-		},
-		{
-			6,
-			4,
-			false,
-			0
-		},
-		{
-			6,
-			3,
-			false,
-			0
-		},
-		{
-			6,
-			2,
 			true,
 			4
 		},
 		{
-			5,
-			8,
-			true,
-			0
-		},
-		{
-			5,
-			7,
-			true,
-			0
-		},
-		{
-			5,
 			6,
-			true,
+			8,
+			false,
 			0
 		},
 		{
-			5,
-			5,
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
 			true,
 			16
 		},
 		{
+			6,
+			5,
+			true,
+			6
+		},
+		{
+			6,
+			4,
+			true,
+			12
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			false,
+			0
+		},
+		{
+			5,
+			7,
+			false,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
 			5,
 			4,
 			true,
@@ -409114,112 +409110,94 @@ _G.pg.base.chapter_template_loop[2100232] = {
 			6
 		},
 		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
 			4,
 			8,
-			true,
-			0
-		},
-		{
-			4,
-			7,
-			false,
-			0
-		},
-		{
-			4,
-			6,
-			false,
-			0
-		},
-		{
-			4,
-			5,
-			true,
-			0
-		},
-		{
-			4,
-			4,
 			true,
 			1
 		},
 		{
 			4,
-			3,
+			7,
 			true,
 			0
 		},
 		{
 			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			1
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			6
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			false,
+			0
+		},
+		{
 			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
 			true,
 			12
 		},
 		{
-			3,
-			8,
-			true,
-			0
-		},
-		{
-			3,
-			7,
-			false,
-			0
-		},
-		{
-			3,
-			6,
-			false,
-			0
-		},
-		{
-			3,
-			5,
-			true,
-			6
-		},
-		{
-			3,
-			4,
-			true,
-			6
-		},
-		{
-			3,
-			3,
-			false,
-			0
-		},
-		{
-			3,
-			2,
-			true,
-			6
-		},
-		{
-			2,
-			8,
-			true,
-			8
-		},
-		{
-			2,
-			7,
-			true,
-			0
-		},
-		{
 			2,
 			6,
 			true,
-			6
+			0
 		},
 		{
 			2,
@@ -409231,48 +409209,78 @@ _G.pg.base.chapter_template_loop[2100232] = {
 			2,
 			4,
 			true,
-			0
+			6
 		},
 		{
 			2,
 			3,
-			false,
+			true,
 			0
 		},
 		{
-			2,
-			2,
+			1,
+			8,
+			true,
+			6
+		},
+		{
+			1,
+			7,
 			true,
 			4
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			6
+		},
+		{
+			1,
+			3,
+			true,
+			0
 		}
 	},
 	float_items = {
 		{
-			6,
-			4,
-			"2x2_1_maoxi_normal",
-			-39,
-			-25
+			7,
+			5,
+			"meixiv3_hard_1x1_1",
+			0,
+			21
+		},
+		{
+			5,
+			7,
+			"meixiv3_hard_2x2_1",
+			64,
+			-32
 		},
 		{
 			3,
-			6,
-			"2x2_2_maoxi_normal",
-			56,
-			-40
-		},
-		{
-			2,
-			3,
-			"1x2_3_maoxi_normal",
-			15,
-			-13
+			5,
+			"meixiv3_hard_3x1_1",
+			-109,
+			25
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_hard",
+		"sea_meixiv3_hard",
 		45,
 		20,
 		3,
@@ -409322,13 +409330,21 @@ _G.pg.base.chapter_template_loop[2100233] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100233,
 	uifx = "",
 	scale = {
 		0.34,
 		0.53,
 		1.5
+	},
+	chapter_fx = {
+		Meiximiwu_SLGyewan = {
+			offset = {
+				-27,
+				-82,
+				-459.1
+			}
+		}
 	},
 	limitation = {
 		{
@@ -409375,65 +409391,65 @@ _G.pg.base.chapter_template_loop[2100233] = {
 	},
 	expedition_id_weight_list = {
 		{
-			1332201,
+			1352201,
 			15,
 			0
 		},
 		{
-			1332202,
+			1352202,
 			20,
 			0
 		},
 		{
-			1332203,
+			1352203,
 			30,
 			1
 		},
 		{
-			1332204,
+			1352204,
 			15,
 			0
 		},
 		{
-			1332205,
+			1352205,
 			20,
 			0
 		},
 		{
-			1332206,
+			1352206,
 			30,
 			1
 		},
 		{
-			1332207,
+			1352207,
 			15,
 			0
 		},
 		{
-			1332208,
+			1352208,
 			20,
 			0
 		},
 		{
-			1332209,
+			1352209,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1332210,
-		1332211,
-		1332212
+		1352210,
+		1352211,
+		1352212
 	},
 	elite_expedition_list = {
-		1332206,
-		1332208
+		1352206,
+		1352208
 	},
 	ai_expedition_list = {
-		1332314,
-		1332316,
-		1332318
+		1352310,
+		1352312,
+		1352314
 	},
 	patrolai_expedition_list = {
 		1
@@ -409442,7 +409458,7 @@ _G.pg.base.chapter_template_loop[2100233] = {
 		1
 	},
 	boss_expedition_id = {
-		1332213
+		1352213
 	},
 	enemy_refresh = {
 		1,
@@ -409470,12 +409486,6 @@ _G.pg.base.chapter_template_loop[2100233] = {
 	grids = {
 		{
 			7,
-			10,
-			true,
-			8
-		},
-		{
-			7,
 			9,
 			true,
 			0
@@ -409490,159 +409500,123 @@ _G.pg.base.chapter_template_loop[2100233] = {
 			7,
 			7,
 			true,
-			0
+			6
 		},
 		{
 			7,
 			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			6
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			8
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
 			true,
 			12
 		},
 		{
-			7,
-			5,
+			6,
+			3,
 			true,
-			6
-		},
-		{
-			7,
-			4,
-			false,
 			0
 		},
 		{
-			7,
-			3,
+			5,
+			9,
 			true,
 			6
 		},
 		{
-			7,
-			2,
+			5,
+			8,
 			true,
-			4
+			0
 		},
 		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
 			6,
-			10,
 			true,
 			8
 		},
 		{
-			6,
-			9,
-			true,
-			0
-		},
-		{
-			6,
-			8,
-			true,
-			6
-		},
-		{
-			6,
-			7,
-			true,
-			0
-		},
-		{
-			6,
-			6,
-			true,
-			0
-		},
-		{
-			6,
+			5,
 			5,
 			true,
-			6
-		},
-		{
-			6,
-			4,
-			false,
 			0
 		},
 		{
-			6,
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
 			3,
+			true,
+			6
+		},
+		{
+			4,
+			9,
 			true,
 			4
 		},
 		{
-			6,
-			2,
-			true,
-			6
-		},
-		{
-			5,
-			10,
-			true,
-			6
-		},
-		{
-			5,
-			9,
-			true,
-			16
-		},
-		{
-			5,
-			8,
-			false,
-			0
-		},
-		{
-			5,
-			7,
-			true,
-			0
-		},
-		{
-			5,
-			6,
-			true,
-			16
-		},
-		{
-			5,
-			5,
-			true,
-			0
-		},
-		{
-			5,
-			4,
-			true,
-			0
-		},
-		{
-			5,
-			3,
-			true,
-			0
-		},
-		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
-			4,
-			10,
-			true,
-			0
-		},
-		{
-			4,
-			9,
-			true,
-			6
-		},
-		{
 			4,
 			8,
 			true,
@@ -409652,19 +409626,19 @@ _G.pg.base.chapter_template_loop[2100233] = {
 			4,
 			7,
 			true,
-			6
+			1
 		},
 		{
 			4,
 			6,
 			true,
-			0
+			8
 		},
 		{
 			4,
 			5,
-			false,
-			0
+			true,
+			1
 		},
 		{
 			4,
@@ -409675,18 +409649,6 @@ _G.pg.base.chapter_template_loop[2100233] = {
 		{
 			4,
 			3,
-			true,
-			1
-		},
-		{
-			4,
-			2,
-			true,
-			1
-		},
-		{
-			3,
-			10,
 			true,
 			4
 		},
@@ -409694,139 +409656,170 @@ _G.pg.base.chapter_template_loop[2100233] = {
 			3,
 			9,
 			true,
+			6
+		},
+		{
+			3,
+			8,
+			true,
 			0
 		},
 		{
 			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			16
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			6
+		},
+		{
+			2,
+			9,
+			false,
+			0
+		},
+		{
+			2,
 			8,
 			true,
 			12
 		},
 		{
-			3,
+			2,
 			7,
 			true,
 			0
 		},
 		{
-			3,
+			2,
 			6,
 			true,
-			0
+			6
 		},
 		{
-			3,
+			2,
 			5,
 			true,
-			6
-		},
-		{
-			3,
-			4,
-			true,
 			0
 		},
 		{
-			3,
-			3,
-			true,
-			1
-		},
-		{
-			3,
 			2,
+			4,
 			true,
-			1
+			12
 		},
 		{
 			2,
-			10,
-			true,
-			6
-		},
-		{
-			2,
-			9,
+			3,
 			false,
 			0
 		},
 		{
-			2,
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
 			8,
 			false,
 			0
 		},
 		{
-			2,
+			1,
 			7,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			4
+		},
+		{
+			1,
+			5,
+			true,
+			6
+		},
+		{
+			1,
+			4,
 			false,
 			0
 		},
 		{
-			2,
-			6,
-			true,
-			0
-		},
-		{
-			2,
-			5,
-			true,
-			0
-		},
-		{
-			2,
-			4,
-			true,
-			6
-		},
-		{
-			2,
+			1,
 			3,
-			true,
+			false,
 			0
-		},
-		{
-			2,
-			2,
-			true,
-			6
 		}
 	},
 	float_items = {
 		{
-			6,
-			4,
-			"1x2_1_maoxi_normal",
-			6,
-			-39
+			7,
+			3,
+			"meixiv3_hard_1x1_1",
+			3,
+			27
 		},
 		{
-			5,
-			8,
-			"1x1_2_maoxi_normal",
-			0,
-			4
-		},
-		{
-			4,
-			5,
-			"1x1_1_maoxi_normal",
-			0,
-			0
+			6,
+			7,
+			"meixiv3_hard_3x1_1",
+			98,
+			25
 		},
 		{
 			2,
 			9,
-			"2x1_1_maoxi_normal",
-			-102,
-			0
+			"meixiv3_hard_1x1_2",
+			10,
+			27
+		},
+		{
+			1,
+			8,
+			"meixiv3_hard_1x1_1",
+			3,
+			27
+		},
+		{
+			1,
+			3,
+			"meixiv3_hard_2x2_2",
+			38,
+			-18
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_hard",
+		"sea_meixiv3_hard",
 		45,
 		20,
 		-9,
@@ -409876,13 +409869,21 @@ _G.pg.base.chapter_template_loop[2100234] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100234,
 	uifx = "",
 	scale = {
 		0.34,
 		0.53,
 		1.5
+	},
+	chapter_fx = {
+		Meiximiwu_SLGyewan = {
+			offset = {
+				88,
+				-67.1,
+				-300.3
+			}
+		}
 	},
 	limitation = {
 		{
@@ -409929,65 +409930,65 @@ _G.pg.base.chapter_template_loop[2100234] = {
 	},
 	expedition_id_weight_list = {
 		{
-			1333001,
+			1353001,
 			15,
 			0
 		},
 		{
-			1333002,
+			1353002,
 			20,
 			0
 		},
 		{
-			1333003,
+			1353003,
 			30,
 			1
 		},
 		{
-			1333004,
+			1353004,
 			15,
 			0
 		},
 		{
-			1333005,
+			1353005,
 			20,
 			0
 		},
 		{
-			1333006,
+			1353006,
 			30,
 			1
 		},
 		{
-			1333007,
+			1353007,
 			15,
 			0
 		},
 		{
-			1333008,
+			1353008,
 			20,
 			0
 		},
 		{
-			1333009,
+			1353009,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1333010,
-		1333011,
-		1333012
+		1353010,
+		1353011,
+		1353012
 	},
 	elite_expedition_list = {
-		1333006,
-		1333008
+		1353006,
+		1353008
 	},
 	ai_expedition_list = {
-		1333302,
-		1333304,
-		1333306
+		1353302,
+		1353304,
+		1353306
 	},
 	patrolai_expedition_list = {
 		1
@@ -409996,7 +409997,7 @@ _G.pg.base.chapter_template_loop[2100234] = {
 		1
 	},
 	boss_expedition_id = {
-		1333013
+		1353013
 	},
 	enemy_refresh = {
 		1,
@@ -410025,382 +410026,375 @@ _G.pg.base.chapter_template_loop[2100234] = {
 	grids = {
 		{
 			8,
+			10,
+			true,
+			0
+		},
+		{
 			8,
+			9,
+			true,
+			6
+		},
+		{
+			8,
+			8,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			6
+		},
+		{
+			8,
+			6,
+			true,
+			0
+		},
+		{
+			8,
+			5,
 			true,
 			4
 		},
 		{
 			8,
-			7,
-			true,
-			0
-		},
-		{
-			8,
-			6,
-			false,
-			0
-		},
-		{
-			8,
-			5,
-			false,
-			0
-		},
-		{
-			8,
 			4,
-			true,
-			6
-		},
-		{
-			8,
-			3,
-			true,
-			0
-		},
-		{
-			8,
-			2,
-			true,
-			1
-		},
-		{
-			8,
-			1,
-			true,
-			1
-		},
-		{
-			7,
-			8,
-			true,
-			0
-		},
-		{
-			7,
-			7,
-			true,
-			6
-		},
-		{
-			7,
-			6,
-			false,
-			0
-		},
-		{
-			7,
-			5,
-			false,
-			0
-		},
-		{
-			7,
-			4,
-			true,
-			0
-		},
-		{
-			7,
-			3,
-			true,
-			0
-		},
-		{
-			7,
-			2,
-			true,
-			6
-		},
-		{
-			7,
-			1,
-			true,
-			1
-		},
-		{
-			6,
-			8,
-			true,
-			6
-		},
-		{
-			6,
-			7,
-			true,
-			12
-		},
-		{
-			6,
-			6,
-			true,
-			0
-		},
-		{
-			6,
-			5,
-			true,
-			6
-		},
-		{
-			6,
-			4,
-			true,
-			0
-		},
-		{
-			6,
-			3,
-			true,
-			6
-		},
-		{
-			6,
-			2,
-			true,
-			0
-		},
-		{
-			6,
-			1,
-			false,
-			0
-		},
-		{
-			5,
-			8,
-			false,
-			0
-		},
-		{
-			5,
-			7,
-			true,
-			0
-		},
-		{
-			5,
-			6,
-			true,
-			0
-		},
-		{
-			5,
-			5,
-			true,
-			0
-		},
-		{
-			5,
-			4,
-			true,
-			16
-		},
-		{
-			5,
-			3,
-			true,
-			4
-		},
-		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
-			5,
-			1,
-			false,
-			0
-		},
-		{
-			4,
-			8,
-			false,
-			0
-		},
-		{
-			4,
-			7,
-			true,
-			0
-		},
-		{
-			4,
-			6,
-			true,
-			6
-		},
-		{
-			4,
-			5,
-			true,
-			6
-		},
-		{
-			4,
-			4,
-			true,
-			0
-		},
-		{
-			4,
-			3,
-			false,
-			0
-		},
-		{
-			4,
-			2,
-			true,
-			6
-		},
-		{
-			4,
-			1,
-			true,
-			0
-		},
-		{
-			3,
-			8,
-			true,
-			0
-		},
-		{
-			3,
-			7,
-			true,
-			0
-		},
-		{
-			3,
-			6,
-			false,
-			0
-		},
-		{
-			3,
-			5,
-			true,
-			0
-		},
-		{
-			3,
-			4,
-			true,
-			6
-		},
-		{
-			3,
-			3,
-			false,
-			0
-		},
-		{
-			3,
-			2,
-			false,
-			0
-		},
-		{
-			3,
-			1,
-			true,
-			6
-		},
-		{
-			2,
-			8,
 			true,
 			8
 		},
 		{
-			2,
+			8,
+			3,
+			true,
+			8
+		},
+		{
 			7,
+			10,
+			true,
+			6
+		},
+		{
+			7,
+			9,
+			true,
+			6
+		},
+		{
+			7,
+			8,
 			true,
 			0
 		},
 		{
-			2,
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
 			6,
 			true,
 			12
 		},
 		{
-			2,
+			7,
 			5,
 			true,
-			6
+			0
 		},
 		{
-			2,
+			7,
 			4,
 			true,
 			0
 		},
 		{
-			2,
+			7,
 			3,
 			true,
-			6
+			8
 		},
 		{
-			2,
-			2,
+			6,
+			10,
 			true,
 			0
 		},
 		{
-			2,
-			1,
+			6,
+			9,
 			true,
-			12
-		}
-	},
-	float_items = {
+			0
+		},
 		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
 			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			6
+		},
+		{
+			6,
 			5,
-			"2x2_2_maoxi_hard",
-			61,
-			-47
+			true,
+			16
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			4
 		},
 		{
 			5,
-			1,
-			"1x2_2_maoxi_hard",
-			0,
-			-28
+			10,
+			false,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			12
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			6
+		},
+		{
+			5,
+			3,
+			false,
+			0
+		},
+		{
+			4,
+			10,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			0
 		},
 		{
 			4,
 			8,
-			"1x2_1_maoxi_hard",
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			6
+		},
+		{
+			4,
+			3,
+			false,
+			0
+		},
+		{
+			3,
+			10,
+			true,
+			1
+		},
+		{
+			3,
 			9,
-			-43
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			6
 		},
 		{
 			3,
 			6,
-			"1x1_2_maoxi_hard",
-			0,
-			2
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			12
+		},
+		{
+			3,
+			4,
+			true,
+			0
 		},
 		{
 			3,
 			3,
-			"2x2_1_maoxi_hard",
-			-38,
-			-19
+			true,
+			4
+		},
+		{
+			2,
+			10,
+			true,
+			1
+		},
+		{
+			2,
+			9,
+			true,
+			1
+		},
+		{
+			2,
+			8,
+			false,
+			0
+		},
+		{
+			2,
+			7,
+			false,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			6
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			4
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			7,
+			"meixiv3_hard_1x2_1",
+			9,
+			-29
+		},
+		{
+			5,
+			10,
+			"meixiv3_hard_1x1_1",
+			3,
+			27
+		},
+		{
+			4,
+			3,
+			"meixiv3_hard_1x2_2",
+			-1,
+			-27
+		},
+		{
+			2,
+			7,
+			"meixiv3_hard_2x1_1",
+			52,
+			3
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_hard",
+		"sea_meixiv3_hard",
 		45,
 		20,
 		8,
@@ -410450,13 +410444,21 @@ _G.pg.base.chapter_template_loop[2100235] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100235,
 	uifx = "",
 	scale = {
 		0.34,
 		0.53,
 		1.5
+	},
+	chapter_fx = {
+		Meiximiwu_SLGyewan = {
+			offset = {
+				-21,
+				-76.2,
+				-338.3
+			}
+		}
 	},
 	limitation = {
 		{
@@ -410503,65 +410505,65 @@ _G.pg.base.chapter_template_loop[2100235] = {
 	},
 	expedition_id_weight_list = {
 		{
-			1333101,
+			1353101,
 			15,
 			0
 		},
 		{
-			1333102,
+			1353102,
 			20,
 			0
 		},
 		{
-			1333103,
+			1353103,
 			30,
 			1
 		},
 		{
-			1333104,
+			1353104,
 			15,
 			0
 		},
 		{
-			1333105,
+			1353105,
 			20,
 			0
 		},
 		{
-			1333106,
+			1353106,
 			30,
 			1
 		},
 		{
-			1333107,
+			1353107,
 			15,
 			0
 		},
 		{
-			1333108,
+			1353108,
 			20,
 			0
 		},
 		{
-			1333109,
+			1353109,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1333110,
-		1333111,
-		1333112
+		1353110,
+		1353111,
+		1353112
 	},
 	elite_expedition_list = {
-		1333106,
-		1333108
+		1353106,
+		1353108
 	},
 	ai_expedition_list = {
-		1333308,
-		1333310,
-		1333312
+		1353308,
+		1353310,
+		1353312
 	},
 	patrolai_expedition_list = {
 		1
@@ -410570,7 +410572,7 @@ _G.pg.base.chapter_template_loop[2100235] = {
 		1
 	},
 	boss_expedition_id = {
-		1333113
+		1353113
 	},
 	enemy_refresh = {
 		1,
@@ -410600,28 +410602,70 @@ _G.pg.base.chapter_template_loop[2100235] = {
 	},
 	grids = {
 		{
+			9,
 			8,
-			7,
 			true,
-			8
+			4
 		},
 		{
-			8,
+			9,
+			7,
+			true,
+			0
+		},
+		{
+			9,
 			6,
 			true,
 			0
 		},
 		{
-			8,
+			9,
 			5,
 			true,
 			6
 		},
 		{
+			9,
+			4,
+			true,
+			0
+		},
+		{
+			9,
+			3,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			true,
+			6
+		},
+		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			4
+		},
+		{
+			8,
+			5,
+			false,
+			0
+		},
+		{
 			8,
 			4,
 			true,
-			6
+			4
 		},
 		{
 			8,
@@ -410630,154 +410674,154 @@ _G.pg.base.chapter_template_loop[2100235] = {
 			0
 		},
 		{
+			7,
 			8,
-			2,
+			true,
+			6
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			false,
+			0
+		},
+		{
+			7,
+			5,
+			false,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			6
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			16
+		},
+		{
+			6,
+			6,
 			true,
 			8
 		},
 		{
+			6,
+			5,
+			true,
+			8
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			true,
+			12
+		},
+		{
+			5,
 			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			12
+		},
+		{
+			4,
+			8,
+			false,
+			0
+		},
+		{
+			4,
 			7,
 			true,
 			4
 		},
 		{
-			7,
+			4,
 			6,
 			true,
 			1
 		},
 		{
-			7,
-			5,
-			true,
-			0
-		},
-		{
-			7,
 			4,
-			true,
-			0
-		},
-		{
-			7,
-			3,
+			5,
 			true,
 			1
 		},
 		{
-			7,
-			2,
-			true,
-			0
-		},
-		{
-			6,
-			7,
-			false,
-			0
-		},
-		{
-			6,
-			6,
-			true,
-			0
-		},
-		{
-			6,
-			5,
-			true,
-			6
-		},
-		{
-			6,
 			4,
-			true,
-			6
-		},
-		{
-			6,
-			3,
-			true,
-			0
-		},
-		{
-			6,
-			2,
-			true,
-			4
-		},
-		{
-			5,
-			7,
-			true,
-			6
-		},
-		{
-			5,
-			6,
-			true,
-			0
-		},
-		{
-			5,
-			5,
-			false,
-			0
-		},
-		{
-			5,
 			4,
 			false,
 			0
 		},
 		{
-			5,
+			4,
 			3,
 			false,
 			0
 		},
 		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
-			4,
-			7,
-			true,
-			6
-		},
-		{
-			4,
-			6,
-			true,
-			0
-		},
-		{
-			4,
-			5,
-			true,
-			16
-		},
-		{
-			4,
-			4,
-			true,
-			16
-		},
-		{
-			4,
 			3,
-			true,
+			8,
+			false,
 			0
-		},
-		{
-			4,
-			2,
-			true,
-			6
 		},
 		{
 			3,
@@ -410789,7 +410833,7 @@ _G.pg.base.chapter_template_loop[2100235] = {
 			3,
 			6,
 			true,
-			6
+			0
 		},
 		{
 			3,
@@ -410800,128 +410844,122 @@ _G.pg.base.chapter_template_loop[2100235] = {
 		{
 			3,
 			4,
-			true,
-			6
+			false,
+			0
 		},
 		{
 			3,
 			3,
-			true,
-			12
+			false,
+			0
 		},
 		{
-			3,
 			2,
+			8,
 			true,
 			6
 		},
 		{
 			2,
 			7,
-			false,
+			true,
 			0
 		},
 		{
 			2,
 			6,
-			false,
+			true,
 			0
 		},
 		{
 			2,
 			5,
 			true,
-			12
+			0
 		},
 		{
 			2,
 			4,
 			true,
-			6
+			0
 		},
 		{
 			2,
 			3,
-			false,
-			0
-		},
-		{
-			2,
-			2,
-			true,
-			0
-		},
-		{
-			1,
-			7,
 			true,
 			6
 		},
 		{
 			1,
-			6,
-			true,
-			0
-		},
-		{
-			1,
-			5,
+			8,
 			true,
 			4
 		},
 		{
 			1,
+			7,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			12
+		},
+		{
+			1,
+			5,
+			true,
+			12
+		},
+		{
+			1,
 			4,
 			true,
-			0
+			6
 		},
 		{
 			1,
 			3,
-			false,
-			0
-		},
-		{
-			1,
-			2,
 			true,
-			12
+			4
 		}
 	},
 	float_items = {
 		{
-			6,
 			7,
-			"1x1_1_maoxi_hard",
-			0,
-			0
-		},
-		{
 			5,
-			3,
-			"2x1_1_maoxi_hard",
-			88,
-			14
+			"meixiv3_hard_2x2_2",
+			43,
+			-22
 		},
 		{
-			2,
-			6,
-			"2x2_1_maoxi_hard",
-			68,
-			-26
-		},
-		{
-			1,
-			3,
-			"1x2_3_maoxi_hard",
+			4,
+			8,
+			"meixiv3_hard_1x1_2",
 			11,
-			-7
+			26
+		},
+		{
+			3,
+			7,
+			"meixiv3_hard_2x1_1",
+			55,
+			3
+		},
+		{
+			3,
+			3,
+			"meixiv3_hard_2x2_1",
+			46,
+			-18
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_hard",
+		"sea_meixiv3_hard",
 		45,
 		20,
 		-128,
@@ -410971,13 +411009,21 @@ _G.pg.base.chapter_template_loop[2100236] = {
 	is_ambush = 0,
 	time = 43200,
 	slg_effect = "",
-	chapter_fx = "",
 	id = 2100236,
 	uifx = "",
 	scale = {
 		0.34,
 		0.53,
 		1.5
+	},
+	chapter_fx = {
+		Meiximiwu_SLGyewan = {
+			offset = {
+				139.9,
+				-73.9,
+				-318.4
+			}
+		}
 	},
 	limitation = {
 		{
@@ -411024,65 +411070,65 @@ _G.pg.base.chapter_template_loop[2100236] = {
 	},
 	expedition_id_weight_list = {
 		{
-			1333201,
+			1353201,
 			15,
 			0
 		},
 		{
-			1333202,
+			1353202,
 			20,
 			0
 		},
 		{
-			1333203,
+			1353203,
 			30,
 			1
 		},
 		{
-			1333204,
+			1353204,
 			15,
 			0
 		},
 		{
-			1333205,
+			1353205,
 			20,
 			0
 		},
 		{
-			1333206,
+			1353206,
 			30,
 			1
 		},
 		{
-			1333207,
+			1353207,
 			15,
 			0
 		},
 		{
-			1333208,
+			1353208,
 			20,
 			0
 		},
 		{
-			1333209,
+			1353209,
 			30,
 			1
 		}
 	},
 	ambush_expedition_list = {},
 	guarder_expedition_list = {
-		1333210,
-		1333211,
-		1333212
+		1353210,
+		1353211,
+		1353212
 	},
 	elite_expedition_list = {
-		1333206,
-		1333208
+		1353206,
+		1353208
 	},
 	ai_expedition_list = {
-		1333314,
-		1333316,
-		1333318
+		1353314,
+		1353316,
+		1353318
 	},
 	patrolai_expedition_list = {
 		1
@@ -411091,7 +411137,7 @@ _G.pg.base.chapter_template_loop[2100236] = {
 		1
 	},
 	boss_expedition_id = {
-		1333213
+		1353213
 	},
 	enemy_refresh = {
 		1,
@@ -411121,118 +411167,190 @@ _G.pg.base.chapter_template_loop[2100236] = {
 	},
 	grids = {
 		{
-			7,
+			9,
 			9,
 			true,
 			0
 		},
 		{
-			7,
+			9,
 			8,
-			true,
-			6
-		},
-		{
-			7,
-			7,
-			true,
-			0
-		},
-		{
-			7,
-			6,
 			true,
 			12
 		},
 		{
-			7,
-			5,
-			true,
-			6
-		},
-		{
-			7,
-			4,
-			true,
-			0
-		},
-		{
-			7,
-			3,
-			true,
-			6
-		},
-		{
-			7,
-			2,
-			true,
-			0
-		},
-		{
-			6,
 			9,
-			true,
-			6
-		},
-		{
-			6,
-			8,
-			true,
-			6
-		},
-		{
-			6,
 			7,
-			false,
-			0
+			true,
+			6
 		},
 		{
-			6,
+			9,
 			6,
 			true,
 			0
 		},
 		{
-			6,
+			9,
 			5,
 			true,
-			4
-		},
-		{
-			6,
-			4,
-			true,
 			6
 		},
 		{
-			6,
+			9,
+			4,
+			true,
+			12
+		},
+		{
+			9,
 			3,
 			true,
 			0
 		},
 		{
-			6,
-			2,
-			true,
-			6
-		},
-		{
-			5,
+			8,
 			9,
-			false,
-			0
+			true,
+			4
 		},
 		{
-			5,
+			8,
 			8,
 			true,
 			0
 		},
 		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			6
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			4
+		},
+		{
+			7,
+			9,
+			false,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			6
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			6
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			1
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			1
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			false,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			4
+		},
+		{
+			5,
+			8,
+			true,
+			6
+		},
+		{
 			5,
 			7,
 			true,
-			4
+			0
 		},
 		{
 			5,
@@ -411243,178 +411361,154 @@ _G.pg.base.chapter_template_loop[2100236] = {
 		{
 			5,
 			5,
-			false,
+			true,
 			0
 		},
 		{
 			5,
 			4,
-			false,
-			0
-		},
-		{
-			5,
-			3,
-			false,
-			0
-		},
-		{
-			5,
-			2,
-			true,
-			0
-		},
-		{
-			4,
-			9,
-			true,
-			0
-		},
-		{
-			4,
-			8,
-			true,
-			0
-		},
-		{
-			4,
-			7,
 			true,
 			6
 		},
 		{
-			4,
-			6,
-			true,
-			0
-		},
-		{
-			4,
 			5,
+			3,
 			true,
 			4
 		},
 		{
 			4,
-			4,
-			true,
-			6
-		},
-		{
-			4,
-			3,
-			true,
-			0
-		},
-		{
-			4,
-			2,
-			true,
-			0
-		},
-		{
-			3,
-			9,
-			true,
-			6
-		},
-		{
-			3,
-			8,
-			true,
-			1
-		},
-		{
-			3,
-			7,
-			true,
-			0
-		},
-		{
-			3,
-			6,
-			true,
-			0
-		},
-		{
-			3,
-			5,
-			true,
-			0
-		},
-		{
-			3,
-			4,
-			true,
-			0
-		},
-		{
-			3,
-			3,
-			true,
-			1
-		},
-		{
-			3,
-			2,
-			true,
-			6
-		},
-		{
-			2,
-			9,
-			true,
-			0
-		},
-		{
-			2,
-			8,
-			true,
-			6
-		},
-		{
-			2,
-			7,
-			false,
-			0
-		},
-		{
-			2,
-			6,
-			true,
-			0
-		},
-		{
-			2,
-			5,
-			true,
-			0
-		},
-		{
-			2,
-			4,
-			false,
-			0
-		},
-		{
-			2,
-			3,
-			true,
-			6
-		},
-		{
-			2,
-			2,
-			true,
-			0
-		},
-		{
-			1,
 			9,
 			true,
 			12
 		},
 		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			8
+		},
+		{
+			4,
+			6,
+			true,
+			8
+		},
+		{
+			4,
+			5,
+			true,
+			8
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			12
+		},
+		{
+			3,
+			9,
+			false,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			false,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			false,
+			0
+		},
+		{
+			2,
+			9,
+			false,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			4
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			false,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			6
+		},
+		{
 			1,
 			8,
 			true,
@@ -411423,81 +411517,82 @@ _G.pg.base.chapter_template_loop[2100236] = {
 		{
 			1,
 			7,
-			false,
-			0
+			true,
+			6
 		},
 		{
 			1,
 			6,
 			true,
-			8
+			0
 		},
 		{
 			1,
 			5,
 			true,
-			8
+			6
 		},
 		{
 			1,
 			4,
-			false,
+			true,
 			0
 		},
 		{
 			1,
 			3,
 			true,
-			0
-		},
-		{
-			1,
-			2,
-			true,
-			12
+			6
 		}
 	},
 	float_items = {
 		{
-			6,
 			7,
-			"1x1_2_maoxi_hard",
-			0,
-			5
+			9,
+			"meixiv3_hard_1x1_2",
+			11,
+			30
 		},
 		{
-			5,
-			9,
-			"1x1_1_maoxi_hard",
-			0,
+			6,
+			8,
+			"meixiv3_hard_2x1_1",
+			53,
 			0
 		},
 		{
+			6,
+			3,
+			"meixiv3_hard_2x2_2",
+			32,
+			-22
+		},
+		{
+			3,
 			5,
-			4,
-			"2x1_1_maoxi_hard",
-			11,
-			14
+			"meixiv3_hard_3x1_1",
+			102,
+			27
 		},
 		{
-			1,
-			7,
-			"1x2_1_maoxi_hard",
-			8,
-			-25
+			2,
+			9,
+			"meixiv3_hard_1x2_2",
+			9,
+			-37
 		},
 		{
-			1,
-			4,
-			"1x2_1_maoxi_hard",
-			8,
-			-25
+			2,
+			3,
+			"meixiv3_hard_1x2_1",
+			3,
+			-10
 		}
 	},
 	ambush_event_ratio = {},
 	ambush_ratio_extra = {},
 	theme = {
-		"sea_maozi_hard",
+		"sea_meixiv3_hard",
 		45,
 		20,
 		-128,
