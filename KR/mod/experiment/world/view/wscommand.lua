@@ -2304,20 +2304,17 @@ function slot0.OpAutoSwitchMap(slot0, slot1)
 				slot5, slot4 = unpack(slot9[math.floor(math.random() * #slot9) + 1])
 			end
 		elseif slot7 == "only" then
-			slot9 = slot2:GetActiveMap()
+			slot5 = slot2:GetActiveEntrance()
+			slot8 = slot2:GetActiveEntrance()
 
-			if slot2:GetActiveEntrance().id == 2 and slot9.id == 2 then
-				assert(master.onlySwitchInfo, "without only switch info")
+			assert(slot8:GetBaseMapId() and slot8.config.complete_chapter[1])
 
-				slot4, slot5 = unpack(master.onlySwitchInfo)
-				master.onlySwitchInfo = nil
+			if slot2:GetActiveMap().id == slot10 then
+				slot4 = slot2:GetMap(slot11)
+			elseif slot9.id == slot11 then
+				slot4 = slot2:GetMap(slot10)
 			else
-				master.onlySwitchInfo = {
-					slot9,
-					slot8
-				}
-				slot5 = slot2:GetEntrance(2)
-				slot4 = slot2:GetMap(2)
+				assert(false)
 			end
 		end
 	else

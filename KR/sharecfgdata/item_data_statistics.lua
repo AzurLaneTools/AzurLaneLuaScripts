@@ -13143,7 +13143,7 @@ _G.pg.base.item_data_statistics[30324] = {
 }
 
 _G.pg.base.item_data_statistics[30325] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (2021설날 시리즈) ",
+	display = "경하신년 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비 스킨 상자(2021설날)",
 	max_num = 0,
 	type = 11,
@@ -13373,7 +13373,7 @@ _G.pg.base.item_data_statistics[30326] = {
 }
 
 _G.pg.base.item_data_statistics[30327] = {
-	display = "아이돌 마스터 스타일 장비스킨 1개 랜덤 획득",
+	display = "아이돌 마스터 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비스킨 상자(아이돌 마스터)",
 	max_num = 0,
 	type = 11,
@@ -13488,7 +13488,7 @@ _G.pg.base.item_data_statistics[30327] = {
 }
 
 _G.pg.base.item_data_statistics[30328] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (웨스턴) ",
+	display = "웨스턴 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비스킨 상자(웨스턴)",
 	max_num = 0,
 	type = 11,
@@ -13603,7 +13603,7 @@ _G.pg.base.item_data_statistics[30328] = {
 }
 
 _G.pg.base.item_data_statistics[30329] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (워터파크)",
+	display = "워터파크 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비 스킨 상자(워터파크)",
 	max_num = 0,
 	type = 11,
@@ -13718,7 +13718,7 @@ _G.pg.base.item_data_statistics[30329] = {
 }
 
 _G.pg.base.item_data_statistics[30330] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (SSSS)",
+	display = "SSSS 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비 스킨 상자(SSSS)",
 	max_num = 0,
 	type = 11,
@@ -13833,7 +13833,7 @@ _G.pg.base.item_data_statistics[30330] = {
 }
 
 _G.pg.base.item_data_statistics[30331] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (메이드 카페)",
+	display = "메이드 카페 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비 스킨 상자(메이드 카페)",
 	max_num = 0,
 	type = 11,
@@ -13948,7 +13948,7 @@ _G.pg.base.item_data_statistics[30331] = {
 }
 
 _G.pg.base.item_data_statistics[30332] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (2022설날 시리즈) ",
+	display = "이스트 글림 경지 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비 스킨 상자(2022설날)",
 	max_num = 0,
 	type = 11,
@@ -14063,7 +14063,7 @@ _G.pg.base.item_data_statistics[30332] = {
 }
 
 _G.pg.base.item_data_statistics[30333] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (블러드 문) ",
+	display = "붉은 달의 밤 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비 스킨 상자(블러드 문)",
 	max_num = 0,
 	type = 11,
@@ -14178,7 +14178,7 @@ _G.pg.base.item_data_statistics[30333] = {
 }
 
 _G.pg.base.item_data_statistics[30334] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (이스트 글림 패션)",
+	display = "이스트 글림 패션 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비 스킨 상자(이스트 글림 패션)",
 	max_num = 0,
 	type = 11,
@@ -14293,7 +14293,7 @@ _G.pg.base.item_data_statistics[30334] = {
 }
 
 _G.pg.base.item_data_statistics[30335] = {
-	display = "랜덤한 장비 스킨을 입수할 수 있다. (동화 세계)",
+	display = "동화 세계 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비스킨 상자(동화 세계)",
 	max_num = 0,
 	type = 11,
@@ -16090,7 +16090,7 @@ _G.pg.base.item_data_statistics[30508] = {
 }
 
 _G.pg.base.item_data_statistics[30509] = {
-	display = "「메탈 블러드의 의지」 스타일 장비 스킨 중 1가지 임의로 선택 획득 가능",
+	display = "사용 시 「메탈 블러드의 의지」 테마 장비스킨 중 1가지 선택하여 획득 가능",
 	name = "지향형 장비 스킨 상자(메탈 블러드의 의지)",
 	max_num = 0,
 	type = 13,
@@ -18649,6 +18649,73 @@ _G.pg.base.item_data_statistics[40128] = {
 			1,
 			1,
 			30000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40129] = {
+	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
+	name = "지휘관 지원 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40129,
+	is_world = 0,
+	icon = "ChargeIcon/support5",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
 		}
 	},
 	price = {},
@@ -170289,6 +170356,90 @@ _G.pg.base.item_data_statistics[59355] = {
 	id = 59355,
 	is_world = 0,
 	icon = "Props/jvfengdekuizeng",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59356] = {
+	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐.",
+	name = "훈련PT",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59356,
+	is_world = 0,
+	icon = "Props/xunliandianshu_t",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59357] = {
+	display = "「부상한 작전」 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "철혈의 열쇠",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59357,
+	is_world = 0,
+	icon = "Props/DexiV3_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59358] = {
+	display = "「부상한 작전」 이벤트 한정 복각에서 획득. 한정 건조 무료 1회 진행 가능(이벤트 종료 후 사라짐)",
+	name = "1회 건조권",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4571,
+	id = 59358,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59359] = {
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환 가능합니다.",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59359,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},

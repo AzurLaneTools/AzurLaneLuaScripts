@@ -28002,7 +28002,7 @@ _G.pg.base.task_data_template[5794] = {
 	guild_coin_award = 0,
 	award = 5572,
 	type = 5,
-	desc = "파먀티 메르쿠리야를 포함한 함대로 데일리 챌린지를 3회 클리어한다\t",
+	desc = "파먀티 메르쿠리야를 포함한 함대로 데일리 챌린지를 3회 클리어한다",
 	count_inherit = 0,
 	sub_type = 19,
 	target_id_2 = "",
@@ -47809,7 +47809,7 @@ _G.pg.base.task_data_template[13722] = {
 	guild_coin_award = 0,
 	award = 8736,
 	type = 26,
-	desc = "적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -47883,7 +47883,7 @@ _G.pg.base.task_data_template[13724] = {
 	guild_coin_award = 0,
 	award = 8738,
 	type = 26,
-	desc = "적 중요함대를 5회 격파하라!",
+	desc = "적 기함 5회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -48497,7 +48497,7 @@ _G.pg.base.task_data_template[13741] = {
 	guild_coin_award = 0,
 	award = 8789,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 5번 격파하라! ",
+	desc = "함대를 출격시켜, 적 중요함대를 5번 격파하라!",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -54776,7 +54776,7 @@ _G.pg.base.task_data_template[13920] = {
 	guild_coin_award = 0,
 	award = 90283,
 	type = 26,
-	desc = " +6 강화 장비 12개 보유",
+	desc = "+6 강화 장비 12개 보유",
 	count_inherit = 0,
 	sub_type = 44,
 	target_id_2 = "6",
@@ -54812,7 +54812,7 @@ _G.pg.base.task_data_template[13921] = {
 	guild_coin_award = 0,
 	award = 90284,
 	type = 26,
-	desc = " +6 강화 장비 24개 보유",
+	desc = "+6 강화 장비 24개 보유",
 	count_inherit = 0,
 	sub_type = 44,
 	target_id_2 = "6",
@@ -54848,7 +54848,7 @@ _G.pg.base.task_data_template[13922] = {
 	guild_coin_award = 0,
 	award = 90285,
 	type = 26,
-	desc = " +8 강화 장비 24개 보유",
+	desc = "+8 강화 장비 24개 보유",
 	count_inherit = 0,
 	sub_type = 44,
 	target_id_2 = "8",
@@ -57207,7 +57207,7 @@ _G.pg.base.task_data_template[13985] = {
 	guild_coin_award = 0,
 	award = 8964,
 	type = 6,
-	desc = "콜라보 이벤트 해역의 모든 스토리를 개방한다 ",
+	desc = "콜라보 이벤트 해역의 모든 스토리를 개방한다",
 	count_inherit = 0,
 	sub_type = 1005,
 	target_id_2 = "",
@@ -64721,7 +64721,7 @@ _G.pg.base.task_data_template[14206] = {
 	guild_coin_award = 0,
 	award = 90635,
 	type = 36,
-	desc = "임무 설명: 특별연습에 5회 참여한다. ",
+	desc = "임무 설명: 특별연습에 5회 참여한다.",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -67913,7 +67913,7 @@ _G.pg.base.task_data_template[14290] = {
 	guild_coin_award = 0,
 	award = 90740,
 	type = 6,
-	desc = "전투에서 50번 승리하라! ",
+	desc = "전투에서 50번 승리하라!",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -67951,7 +67951,7 @@ _G.pg.base.task_data_template[14291] = {
 	guild_coin_award = 0,
 	award = 90741,
 	type = 6,
-	desc = "전투에서 80번 승리하라! ",
+	desc = "전투에서 80번 승리하라!",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -67989,7 +67989,7 @@ _G.pg.base.task_data_template[14292] = {
 	guild_coin_award = 0,
 	award = 90742,
 	type = 6,
-	desc = "전투에서 120번 승리하라! ",
+	desc = "전투에서 120번 승리하라!",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -68027,7 +68027,7 @@ _G.pg.base.task_data_template[14293] = {
 	guild_coin_award = 0,
 	award = 90743,
 	type = 6,
-	desc = "전투에서 200번 승리하라! ",
+	desc = "전투에서 200번 승리하라!",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -68217,7 +68217,7 @@ _G.pg.base.task_data_template[14298] = {
 	guild_coin_award = 0,
 	award = 90748,
 	type = 6,
-	desc = "건조를 5회 진행한다. ",
+	desc = "건조를 5회 진행한다.",
 	count_inherit = 0,
 	sub_type = 30,
 	target_id_2 = "",
@@ -68253,7 +68253,7 @@ _G.pg.base.task_data_template[14299] = {
 	guild_coin_award = 0,
 	award = 90749,
 	type = 6,
-	desc = "건조를 20회 진행한다. ",
+	desc = "건조를 20회 진행한다.",
 	count_inherit = 0,
 	sub_type = 30,
 	target_id_2 = "",
@@ -68577,7 +68577,7 @@ _G.pg.base.task_data_template[14308] = {
 	guild_coin_award = 0,
 	award = 90758,
 	type = 6,
-	desc = "군사 의뢰를 10회 완수한다. ",
+	desc = "군사 의뢰를 10회 완수한다.",
 	count_inherit = 0,
 	sub_type = 80,
 	target_id_2 = "",
@@ -68613,7 +68613,7 @@ _G.pg.base.task_data_template[14309] = {
 	guild_coin_award = 0,
 	award = 90759,
 	type = 6,
-	desc = "군사 의뢰를 20회 완수한다. ",
+	desc = "군사 의뢰를 20회 완수한다.",
 	count_inherit = 0,
 	sub_type = 80,
 	target_id_2 = "",
@@ -68649,7 +68649,7 @@ _G.pg.base.task_data_template[14310] = {
 	guild_coin_award = 0,
 	award = 90760,
 	type = 6,
-	desc = "군사 의뢰를 30회 완수한다. ",
+	desc = "군사 의뢰를 30회 완수한다.",
 	count_inherit = 0,
 	sub_type = 80,
 	target_id_2 = "",
@@ -68685,7 +68685,7 @@ _G.pg.base.task_data_template[14311] = {
 	guild_coin_award = 0,
 	award = 90761,
 	type = 6,
-	desc = "군사 의뢰를 50회 완수한다. ",
+	desc = "군사 의뢰를 50회 완수한다.",
 	count_inherit = 0,
 	sub_type = 80,
 	target_id_2 = "",
@@ -68721,7 +68721,7 @@ _G.pg.base.task_data_template[14312] = {
 	guild_coin_award = 0,
 	award = 90762,
 	type = 36,
-	desc = "전투에서 25번 승리하라! ",
+	desc = "전투에서 25번 승리하라!",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -68797,7 +68797,7 @@ _G.pg.base.task_data_template[14314] = {
 	guild_coin_award = 0,
 	award = 90764,
 	type = 36,
-	desc = "건조를 3회 진행한다. ",
+	desc = "건조를 3회 진행한다.",
 	count_inherit = 0,
 	sub_type = 30,
 	target_id_2 = "",
@@ -68905,7 +68905,7 @@ _G.pg.base.task_data_template[14317] = {
 	guild_coin_award = 0,
 	award = 90767,
 	type = 36,
-	desc = "군사 의뢰를 5회 완수한다. ",
+	desc = "군사 의뢰를 5회 완수한다.",
 	count_inherit = 0,
 	sub_type = 80,
 	target_id_2 = "",
@@ -71410,7 +71410,7 @@ _G.pg.base.task_data_template[14384] = {
 	guild_coin_award = 0,
 	award = 90826,
 	type = 26,
-	desc = "함대를 출격시켜, 전투에서 3번 승리하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -73394,7 +73394,7 @@ _G.pg.base.task_data_template[14559] = {
 	guild_coin_award = 0,
 	award = 91059,
 	type = 26,
-	desc = "함대를 출격시켜, 전투에서 3번 승리하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -77835,7 +77835,7 @@ _G.pg.base.task_data_template[14770] = {
 	guild_coin_award = 0,
 	award = 91329,
 	type = 26,
-	desc = "기함 3회 격침",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -78816,7 +78816,7 @@ _G.pg.base.task_data_template[14803] = {
 	guild_coin_award = 0,
 	award = 91363,
 	type = 26,
-	desc = "기함 3회 격침",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -81493,7 +81493,7 @@ _G.pg.base.task_data_template[14940] = {
 	guild_coin_award = 0,
 	award = 91549,
 	type = 26,
-	desc = "함선 1회 건조 ",
+	desc = "함선 1회 건조",
 	count_inherit = 0,
 	sub_type = 30,
 	target_id_2 = "",
@@ -81853,7 +81853,7 @@ _G.pg.base.task_data_template[14950] = {
 	guild_coin_award = 0,
 	award = 91559,
 	type = 26,
-	desc = "연습전 2회 진행 ",
+	desc = "연습전 2회 진행",
 	count_inherit = 0,
 	sub_type = 27,
 	target_id_2 = "",
@@ -83290,7 +83290,7 @@ _G.pg.base.task_data_template[14995] = {
 	guild_coin_award = 0,
 	award = 91738,
 	type = 26,
-	desc = "연습을 2번 수행하라! ",
+	desc = "연습을 2번 수행하라!",
 	count_inherit = 0,
 	sub_type = 27,
 	target_id_2 = "",
@@ -83470,7 +83470,7 @@ _G.pg.base.task_data_template[15000] = {
 	guild_coin_award = 0,
 	award = 91743,
 	type = 26,
-	desc = "전술훈련을 2희 진행한다 ",
+	desc = "전술훈련을 2희 진행한다",
 	count_inherit = 0,
 	sub_type = 71,
 	target_id_2 = "",
@@ -83650,7 +83650,7 @@ _G.pg.base.task_data_template[15005] = {
 	guild_coin_award = 0,
 	award = 91748,
 	type = 26,
-	desc = "적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -83688,7 +83688,7 @@ _G.pg.base.task_data_template[15006] = {
 	guild_coin_award = 0,
 	award = 91749,
 	type = 26,
-	desc = "전술훈련을 2희 진행한다 ",
+	desc = "전술훈련을 2희 진행한다",
 	count_inherit = 0,
 	sub_type = 71,
 	target_id_2 = "",
@@ -84696,7 +84696,7 @@ _G.pg.base.task_data_template[15029] = {
 	guild_coin_award = 0,
 	award = 91819,
 	type = 36,
-	desc = "『저편을 건너온 물결』 임의의 난이도 해역 5회 클리어 ",
+	desc = "『저편을 건너온 물결』 임의의 난이도 해역 5회 클리어",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -84739,7 +84739,7 @@ _G.pg.base.task_data_template[15030] = {
 	guild_coin_award = 0,
 	award = 91820,
 	type = 36,
-	desc = "『저편을 건너온 물결』 임의의 난이도 해역 10회 클리어 ",
+	desc = "『저편을 건너온 물결』 임의의 난이도 해역 10회 클리어",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -87168,7 +87168,7 @@ _G.pg.base.task_data_template[15124] = {
 	guild_coin_award = 0,
 	award = 92021,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -87498,7 +87498,7 @@ _G.pg.base.task_data_template[15138] = {
 	guild_coin_award = 0,
 	award = 92049,
 	type = 6,
-	desc = "T1클리어 ",
+	desc = "T1클리어",
 	count_inherit = 0,
 	sub_type = 1020,
 	target_id_2 = "",
@@ -87550,7 +87550,7 @@ _G.pg.base.task_data_template[15139] = {
 	guild_coin_award = 0,
 	award = 92051,
 	type = 6,
-	desc = "T2클리어 ",
+	desc = "T2클리어",
 	count_inherit = 0,
 	sub_type = 1020,
 	target_id_2 = "",
@@ -87602,7 +87602,7 @@ _G.pg.base.task_data_template[15140] = {
 	guild_coin_award = 0,
 	award = 92053,
 	type = 6,
-	desc = "T3클리어 ",
+	desc = "T3클리어",
 	count_inherit = 0,
 	sub_type = 1020,
 	target_id_2 = "",
@@ -87654,7 +87654,7 @@ _G.pg.base.task_data_template[15141] = {
 	guild_coin_award = 0,
 	award = 92054,
 	type = 6,
-	desc = "T4클리어 ",
+	desc = "T4클리어",
 	count_inherit = 0,
 	sub_type = 1020,
 	target_id_2 = "",
@@ -87706,7 +87706,7 @@ _G.pg.base.task_data_template[15142] = {
 	guild_coin_award = 0,
 	award = 92056,
 	type = 6,
-	desc = "T5클리어 ",
+	desc = "T5클리어",
 	count_inherit = 0,
 	sub_type = 1020,
 	target_id_2 = "",
@@ -87758,7 +87758,7 @@ _G.pg.base.task_data_template[15143] = {
 	guild_coin_award = 0,
 	award = 92058,
 	type = 6,
-	desc = "T6클리어 ",
+	desc = "T6클리어",
 	count_inherit = 0,
 	sub_type = 1020,
 	target_id_2 = "",
@@ -87810,7 +87810,7 @@ _G.pg.base.task_data_template[15144] = {
 	guild_coin_award = 0,
 	award = 92060,
 	type = 6,
-	desc = "SP클리어 ",
+	desc = "SP클리어",
 	count_inherit = 0,
 	sub_type = 1020,
 	target_id_2 = "",
@@ -88175,7 +88175,7 @@ _G.pg.base.task_data_template[15158] = {
 	guild_coin_award = 0,
 	award = 92133,
 	type = 6,
-	desc = "「오오카미 미오」모항 정식 가입 ",
+	desc = "「오오카미 미오」모항 정식 가입",
 	count_inherit = 0,
 	sub_type = 39,
 	target_id_2 = "",
@@ -88414,7 +88414,7 @@ _G.pg.base.task_data_template[15164] = {
 	guild_coin_award = 0,
 	award = 92139,
 	type = 6,
-	desc = "한정 장비<팀 엠블렘>획득 및 +10까지 강화한다 ",
+	desc = "한정 장비<팀 엠블렘>획득 및 +10까지 강화한다",
 	count_inherit = 0,
 	sub_type = 45,
 	target_id_2 = "",
@@ -90977,7 +90977,7 @@ _G.pg.base.task_data_template[15208] = {
 	guild_coin_award = 0,
 	award = 92197,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -91127,7 +91127,7 @@ _G.pg.base.task_data_template[15212] = {
 	guild_coin_award = 0,
 	award = 92220,
 	type = 26,
-	desc = "군사의뢰를 2번 수행한다 ",
+	desc = "군사의뢰를 2번 수행한다",
 	count_inherit = 0,
 	sub_type = 80,
 	target_id_2 = "",
@@ -91563,7 +91563,7 @@ _G.pg.base.task_data_template[15224] = {
 	guild_coin_award = 0,
 	award = 92233,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -93512,7 +93512,7 @@ _G.pg.base.task_data_template[15290] = {
 	guild_coin_award = 0,
 	award = 92410,
 	type = 26,
-	desc = "함대를 출격시켜, 적 주력함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -102305,7 +102305,7 @@ _G.pg.base.task_data_template[15662] = {
 	guild_coin_award = 0,
 	award = 93206,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -103453,7 +103453,7 @@ _G.pg.base.task_data_template[15700] = {
 	guild_coin_award = 0,
 	award = 93300,
 	type = 26,
-	desc = "적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -103599,7 +103599,7 @@ _G.pg.base.task_data_template[15704] = {
 	guild_coin_award = 0,
 	award = 93304,
 	type = 26,
-	desc = "전술훈련을 2희 진행한다 ",
+	desc = "전술훈련을 2희 진행한다",
 	count_inherit = 0,
 	sub_type = 71,
 	target_id_2 = "",
@@ -103851,7 +103851,7 @@ _G.pg.base.task_data_template[15711] = {
 	guild_coin_award = 0,
 	award = 93311,
 	type = 26,
-	desc = "연습을 2번 수행하라! ",
+	desc = "연습을 2번 수행하라!",
 	count_inherit = 0,
 	sub_type = 27,
 	target_id_2 = "",
@@ -109552,7 +109552,7 @@ _G.pg.base.task_data_template[15881] = {
 	guild_coin_award = 0,
 	award = 93678,
 	type = 26,
-	desc = "함대를 출격시켜, 전투에서 3번 승리하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -115158,7 +115158,7 @@ _G.pg.base.task_data_template[16042] = {
 	guild_coin_award = 0,
 	award = 93781,
 	type = 26,
-	desc = "기함 3회 격파",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -115698,7 +115698,7 @@ _G.pg.base.task_data_template[16055] = {
 	guild_coin_award = 0,
 	award = 93794,
 	type = 26,
-	desc = "기함 3회 격파",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -118650,7 +118650,7 @@ _G.pg.base.task_data_template[16141] = {
 	guild_coin_award = 0,
 	award = 94176,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -121945,7 +121945,7 @@ _G.pg.base.task_data_template[16286] = {
 	guild_coin_award = 0,
 	award = 94572,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -129183,7 +129183,7 @@ _G.pg.base.task_data_template[16592] = {
 	guild_coin_award = 0,
 	award = 95135,
 	type = 26,
-	desc = "기함 3회 격침",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -130220,7 +130220,7 @@ _G.pg.base.task_data_template[16618] = {
 	guild_coin_award = 0,
 	award = 95156,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -130599,7 +130599,7 @@ _G.pg.base.task_data_template[16628] = {
 	guild_coin_award = 0,
 	award = 95166,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -132205,7 +132205,7 @@ _G.pg.base.task_data_template[16667] = {
 	guild_coin_award = 0,
 	award = 95253,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132277,7 +132277,7 @@ _G.pg.base.task_data_template[16669] = {
 	guild_coin_award = 0,
 	award = 95255,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132349,7 +132349,7 @@ _G.pg.base.task_data_template[16671] = {
 	guild_coin_award = 0,
 	award = 95257,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132421,7 +132421,7 @@ _G.pg.base.task_data_template[16673] = {
 	guild_coin_award = 0,
 	award = 95259,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132493,7 +132493,7 @@ _G.pg.base.task_data_template[16675] = {
 	guild_coin_award = 0,
 	award = 95261,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132565,7 +132565,7 @@ _G.pg.base.task_data_template[16677] = {
 	guild_coin_award = 0,
 	award = 95263,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132637,7 +132637,7 @@ _G.pg.base.task_data_template[16679] = {
 	guild_coin_award = 0,
 	award = 95265,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132709,7 +132709,7 @@ _G.pg.base.task_data_template[16681] = {
 	guild_coin_award = 0,
 	award = 95267,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132781,7 +132781,7 @@ _G.pg.base.task_data_template[16683] = {
 	guild_coin_award = 0,
 	award = 95269,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132853,7 +132853,7 @@ _G.pg.base.task_data_template[16685] = {
 	guild_coin_award = 0,
 	award = 95271,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132925,7 +132925,7 @@ _G.pg.base.task_data_template[16687] = {
 	guild_coin_award = 0,
 	award = 95273,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -132997,7 +132997,7 @@ _G.pg.base.task_data_template[16689] = {
 	guild_coin_award = 0,
 	award = 95275,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -133069,7 +133069,7 @@ _G.pg.base.task_data_template[16691] = {
 	guild_coin_award = 0,
 	award = 95277,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -133141,7 +133141,7 @@ _G.pg.base.task_data_template[16693] = {
 	guild_coin_award = 0,
 	award = 95279,
 	type = 26,
-	desc = "通关3次任意困难关卡 ",
+	desc = "通关3次任意困难关卡",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -133177,7 +133177,7 @@ _G.pg.base.task_data_template[16694] = {
 	guild_coin_award = 0,
 	award = 95324,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -133537,7 +133537,7 @@ _G.pg.base.task_data_template[16702] = {
 	guild_coin_award = 0,
 	award = 95377,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -136469,7 +136469,7 @@ _G.pg.base.task_data_template[16803] = {
 	guild_coin_award = 0,
 	award = 95546,
 	type = 36,
-	desc = "『저편을 건너온 물결』 임의의 난이도 해역 5회 클리어 ",
+	desc = "『저편을 건너온 물결』 임의의 난이도 해역 5회 클리어",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -136512,7 +136512,7 @@ _G.pg.base.task_data_template[16804] = {
 	guild_coin_award = 0,
 	award = 95547,
 	type = 36,
-	desc = "『저편을 건너온 물결』 임의의 난이도 해역 10회 클리어 ",
+	desc = "『저편을 건너온 물결』 임의의 난이도 해역 10회 클리어",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -137888,7 +137888,7 @@ _G.pg.base.task_data_template[16855] = {
 	guild_coin_award = 0,
 	award = 95851,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -140486,7 +140486,7 @@ _G.pg.base.task_data_template[16987] = {
 	guild_coin_award = 0,
 	award = 96056,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -143337,7 +143337,7 @@ _G.pg.base.task_data_template[17046] = {
 	guild_coin_award = 0,
 	award = 96162,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -144339,7 +144339,7 @@ _G.pg.base.task_data_template[17130] = {
 	guild_coin_award = 0,
 	award = 96250,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -147767,7 +147767,7 @@ _G.pg.base.task_data_template[17256] = {
 	guild_coin_award = 0,
 	award = 96610,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -147877,7 +147877,7 @@ _G.pg.base.task_data_template[17259] = {
 	guild_coin_award = 0,
 	award = 96613,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -148131,7 +148131,7 @@ _G.pg.base.task_data_template[17266] = {
 	guild_coin_award = 0,
 	award = 96620,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -151178,7 +151178,7 @@ _G.pg.base.task_data_template[17340] = {
 	guild_coin_award = 0,
 	award = 96832,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -152120,7 +152120,7 @@ _G.pg.base.task_data_template[17366] = {
 	guild_coin_award = 0,
 	award = 96847,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -153787,7 +153787,7 @@ _G.pg.base.task_data_template[17406] = {
 	guild_coin_award = 0,
 	award = 96930,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -154196,7 +154196,7 @@ _G.pg.base.task_data_template[17416] = {
 	guild_coin_award = 0,
 	award = 96956,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -158275,7 +158275,7 @@ _G.pg.base.task_data_template[17522] = {
 	guild_coin_award = 0,
 	award = 97298,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -161405,7 +161405,7 @@ _G.pg.base.task_data_template[17601] = {
 	guild_coin_award = 0,
 	award = 97377,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -164650,7 +164650,7 @@ _G.pg.base.task_data_template[17732] = {
 	guild_coin_award = 0,
 	award = 97599,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -166145,7 +166145,7 @@ _G.pg.base.task_data_template[17768] = {
 	guild_coin_award = 0,
 	award = 97684,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -167360,7 +167360,7 @@ _G.pg.base.task_data_template[17807] = {
 	guild_coin_award = 0,
 	award = 97756,
 	type = 26,
-	desc = "적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -168673,7 +168673,7 @@ _G.pg.base.task_data_template[17841] = {
 	guild_coin_award = 0,
 	award = 97842,
 	type = 6,
-	desc = "함대를 출격시켜, 적 중요함대를 50번 격파하라! ",
+	desc = "함대를 출격시켜, 적 중요함대를 50번 격파하라!",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -168927,7 +168927,7 @@ _G.pg.base.task_data_template[17848] = {
 	guild_coin_award = 0,
 	award = 97849,
 	type = 36,
-	desc = "전투에서 25번 승리하라! ",
+	desc = "전투에서 25번 승리하라!",
 	count_inherit = 0,
 	sub_type = 20,
 	target_id_2 = "",
@@ -168965,7 +168965,7 @@ _G.pg.base.task_data_template[17849] = {
 	guild_coin_award = 0,
 	award = 97850,
 	type = 36,
-	desc = "함대를 출격시켜, 적 중요함대를 5번 격파하라! ",
+	desc = "함대를 출격시켜, 적 중요함대를 5번 격파하라!",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -169111,7 +169111,7 @@ _G.pg.base.task_data_template[17853] = {
 	guild_coin_award = 0,
 	award = 97854,
 	type = 36,
-	desc = "군사 의뢰를 5회 완수한다. ",
+	desc = "군사 의뢰를 5회 완수한다.",
 	count_inherit = 0,
 	sub_type = 80,
 	target_id_2 = "",
@@ -169758,7 +169758,7 @@ _G.pg.base.task_data_template[17868] = {
 	guild_coin_award = 0,
 	award = 97908,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -169904,7 +169904,7 @@ _G.pg.base.task_data_template[17872] = {
 	guild_coin_award = 0,
 	award = 97912,
 	type = 26,
-	desc = "전술훈련을 2희 진행한다 ",
+	desc = "전술훈련을 2희 진행한다",
 	count_inherit = 0,
 	sub_type = 71,
 	target_id_2 = "",
@@ -170734,7 +170734,7 @@ _G.pg.base.task_data_template[17892] = {
 	guild_coin_award = 0,
 	award = 98005,
 	type = 26,
-	desc = "적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -171460,7 +171460,7 @@ _G.pg.base.task_data_template[17912] = {
 	guild_coin_award = 0,
 	award = 98004,
 	type = 26,
-	desc = "적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -173951,7 +173951,7 @@ _G.pg.base.task_data_template[17975] = {
 	guild_coin_award = 0,
 	award = 98167,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -174276,7 +174276,7 @@ _G.pg.base.task_data_template[17983] = {
 	guild_coin_award = 0,
 	award = 98187,
 	type = 26,
-	desc = "함대를 출격시켜, 적 중요함대를 3회 격파하라!",
+	desc = "적 기함 3회 처치",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -176141,6 +176141,971 @@ _G.pg.base.task_data_template[18035] = {
 			1,
 			282,
 			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18040] = {
+	name = "『德系V3复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 98390,
+	type = 36,
+	desc = "함선 건조를 3회 진행한다",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18040,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18041] = {
+	name = "『德系V3复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 98391,
+	type = 36,
+	desc = "함대를 출격시켜 15회 승리한다.",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18041,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18042] = {
+	name = "『德系V3复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 98392,
+	type = 36,
+	desc = "임의의 어려움 난이도 메인 스테이지를 1회 클리어한다.",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18042,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18043] = {
+	name = "『德系V3复刻』- 日常活动关卡",
+	guild_coin_award = 0,
+	award = 98393,
+	type = 36,
+	desc = "임의의 이벤트 해역을 1번 클리어",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18043,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460002,
+		1460003,
+		1460004,
+		1460005,
+		1460006,
+		1460021,
+		1460022,
+		1460023,
+		1460024,
+		1460025,
+		1460026,
+		1460041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18044] = {
+	name = "『德系V3复刻』A1/C1通关一次",
+	guild_coin_award = 0,
+	award = 98394,
+	type = 6,
+	desc = "A1 혹은 C1 기함을 1번 격파하라",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18044,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18045] = {
+	name = "『德系V3复刻』A2/C2通关一次",
+	guild_coin_award = 0,
+	award = 98395,
+	type = 6,
+	desc = "A2 혹은 C2 기함을 1번 격파하라",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18045,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18046] = {
+	name = "『德系V3复刻』A3/C3通关一次",
+	guild_coin_award = 0,
+	award = 98396,
+	type = 6,
+	desc = "A3 혹은 C3 기함을 1번 격파하라",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18046,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18047] = {
+	name = "『德系V3复刻』B1/D1通关一次",
+	guild_coin_award = 0,
+	award = 98397,
+	type = 6,
+	desc = "B1 혹은 D1 기함을 1번 격파하라",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18047,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18048] = {
+	name = "『德系V3复刻』B2/D2通关一次",
+	guild_coin_award = 0,
+	award = 98398,
+	type = 6,
+	desc = "B2 혹은 D2 기함을 1번 격파하라",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18048,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18049] = {
+	name = "『德系V3复刻』B3/D3通关一次",
+	guild_coin_award = 0,
+	award = 98399,
+	type = 6,
+	desc = "B3 혹은 D4 기함을 1번 격파하라",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18049,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18050] = {
+	name = "『德系V3复刻』通关SP",
+	guild_coin_award = 0,
+	award = 98400,
+	type = 6,
+	desc = "SP 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460041",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18050,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460025,
+			chapterId = 1460041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18051] = {
+	name = "『德系V3复刻』通关D3",
+	guild_coin_award = 0,
+	award = 98401,
+	type = 6,
+	desc = "D3 클리어 <color=#92fc63>(훈장은 중복 획득할 수 없습니다)</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460026",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18051,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			189,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460012,
+			chapterId = 1460026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18052] = {
+	name = "『德系V3复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 98402,
+	type = 6,
+	desc = "A1 혹은 C1을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18053",
+	auto_commit = 0,
+	story_id = "",
+	id = 18052,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18053] = {
+	name = "『德系V3复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 98403,
+	type = 6,
+	desc = "A2 혹은 C2을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18054",
+	auto_commit = 0,
+	story_id = "",
+	id = 18053,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18054] = {
+	name = "『德系V3复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 98404,
+	type = 6,
+	desc = "A3 혹은 C3을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18055",
+	auto_commit = 0,
+	story_id = "",
+	id = 18054,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4565
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18055] = {
+	name = "『德系V3复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 98405,
+	type = 6,
+	desc = "B1 혹은 D1을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18056",
+	auto_commit = 0,
+	story_id = "",
+	id = 18055,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18056] = {
+	name = "『德系V3复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 98406,
+	type = 6,
+	desc = "B2 혹은 D2을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "18057",
+	auto_commit = 0,
+	story_id = "",
+	id = 18056,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18057] = {
+	name = "『德系V3复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 98407,
+	type = 6,
+	desc = "B3 혹은 D3을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18057,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4566
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18058] = {
+	name = "『德系V3复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98408,
+	type = 6,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18058,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			284,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18059] = {
+	name = "『德系V3复刻』通关EX",
+	guild_coin_award = 0,
+	award = 98440,
+	type = 6,
+	desc = "EX 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "1460051",
+	quick_finish = 0,
+	level = 10,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18059,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460026,
+			chapterId = 1460051
 		}
 	}
 }
@@ -211742,7 +212707,7 @@ _G.pg.base.task_data_template[50115] = {
 	guild_coin_award = 0,
 	award = 9315,
 	type = 36,
-	desc = "임의의 어려움 난이도 메인 스테이지를 1회 클리어한다. ",
+	desc = "임의의 어려움 난이도 메인 스테이지를 1회 클리어한다.",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -211886,7 +212851,7 @@ _G.pg.base.task_data_template[51004] = {
 	guild_coin_award = 0,
 	award = 8795,
 	type = 26,
-	desc = " '수호의 의지' 를 3개 모은다.",
+	desc = "수호의 의지' 를 3개 모은다.",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -212030,7 +212995,7 @@ _G.pg.base.task_data_template[51014] = {
 	guild_coin_award = 0,
 	award = 90776,
 	type = 26,
-	desc = " '수호의 의지' 를 3개 모은다.",
+	desc = "수호의 의지' 를 3개 모은다.",
 	count_inherit = 0,
 	sub_type = 1000,
 	target_id_2 = "",
@@ -214833,7 +215798,7 @@ _G.pg.base.task_data_template[60012] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -214944,7 +215909,7 @@ _G.pg.base.task_data_template[60015] = {
 <color=#92fc63>「로열 네이비 선봉 기술 테스트 I」을 완료하여야 한다.</color>
 도면 설계의 초고가 완성되었다.<color=#a2a2a2>카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color> 축적한다. ]],
+――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color> 축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -214994,7 +215959,7 @@ _G.pg.base.task_data_template[60016] = {
 	award = 0,
 	type = 8,
 	desc = [[
-<color=#92fc63>「전술 이론 연구Ⅰ」을 완료하여야  한다.</color>
+<color=#92fc63>「전술 이론 연구Ⅰ」을 완료하여야 한다.</color>
 <color=#a2a2a2>기본 설계의 다음 과정은 수정, 개선 및 최적화로써, 성공적으로 완료하게 된다면 초기 단계에서 실현하지 못했던 아이디어를 실현할 수 있는 큰 기회가 찾아올 것이다.</color>
 
 ――「과학연구」로 임의의 연구 항목을 <color=#92fc63>8회</color> 완료한다.]],
@@ -215182,7 +216147,7 @@ _G.pg.base.task_data_template[60022] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 주력 함선의 누적 획득 경험치를<color=#92fc63>1000000</color> 축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 주력 함선의 누적 획득 경험치를<color=#92fc63>1000000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -215309,7 +216274,7 @@ _G.pg.base.task_data_template[60025] = {
 <color=#92fc63>「로열 네이비 주력 기술 테스트 I」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 로열 네이비 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다. ]],
+――함대를 출격시켜, 로열 네이비 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -215547,7 +216512,7 @@ _G.pg.base.task_data_template[60032] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -215658,7 +216623,7 @@ _G.pg.base.task_data_template[60035] = {
 <color=#92fc63>「사쿠라 엠파이어 선봉 기술 테스트 I」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다. ]],
+――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -215896,7 +216861,7 @@ _G.pg.base.task_data_template[60042] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63> 1000000 </color>축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63> 1000000 </color>축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -216023,7 +216988,7 @@ _G.pg.base.task_data_template[60045] = {
 <color=#92fc63>「사쿠라 엠파이어 주력 기술 테스트 I」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 사쿠라 엠파이어 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다. ]],
+――함선을 출격시켜, 사쿠라 엠파이어 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -216261,7 +217226,7 @@ _G.pg.base.task_data_template[60052] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 메탈 블러드 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 메탈 블러드 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -216372,7 +217337,7 @@ _G.pg.base.task_data_template[60055] = {
 <color=#92fc63>「메탈 블러드 선봉 기술 테스트 I」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 메탈 블러드 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다. ]],
+――함선을 출격시켜, 메탈 블러드 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -216594,7 +217559,7 @@ _G.pg.base.task_data_template[60062] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -216705,7 +217670,7 @@ _G.pg.base.task_data_template[60065] = {
 <color=#92fc63>「이글 유니온 선봉 기술 테스트 I」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다. ]],
+――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -216910,7 +217875,7 @@ _G.pg.base.task_data_template[60072] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -217021,7 +217986,7 @@ _G.pg.base.task_data_template[60075] = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다. ]],
+――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -217226,7 +218191,7 @@ _G.pg.base.task_data_template[60082] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -217353,7 +218318,7 @@ _G.pg.base.task_data_template[60085] = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 이글 유니온 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다. ]],
+――함선을 출격시켜, 이글 유니온 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -217574,7 +218539,7 @@ _G.pg.base.task_data_template[60092] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -217685,7 +218650,7 @@ _G.pg.base.task_data_template[60095] = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다. ]],
+――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -217890,7 +218855,7 @@ _G.pg.base.task_data_template[60102] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1200000</color> 축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1200000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -218017,7 +218982,7 @@ _G.pg.base.task_data_template[60105] = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2400000 </color>축적한다. ]],
+――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2400000 </color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -218222,7 +219187,7 @@ _G.pg.base.task_data_template[60112] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 8,
-	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 메탈 블러드 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1200000</color> 축적한다. ",
+	desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 메탈 블러드 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1200000</color> 축적한다.",
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -218349,7 +219314,7 @@ _G.pg.base.task_data_template[60115] = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 메탈 블러드 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63> 2400000 </color>축적한다. ]],
+――함선을 출격시켜, 메탈 블러드 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63> 2400000 </color>축적한다.]],
 	count_inherit = 0,
 	sub_type = 1041,
 	target_id_2 = "",
@@ -223589,7 +224554,7 @@ _G.pg.base.task_data_template[60256] = {
 	award = 0,
 	type = 8,
 	desc = [[
-<color=#92fc63>「전술 이론 연구Ⅰ」을 완료하여야  한다.</color>
+<color=#92fc63>「전술 이론 연구Ⅰ」을 완료하여야 한다.</color>
 <color=#a2a2a2>기본 설계의 다음 과정은 수정, 개선 및 최적화로써, 성공적으로 완료하게 된다면 초기 단계에서 실현하지 못했던 아이디어를 실현할 수 있는 큰 기회가 찾아올 것이다.</color>
 
 ――「과학연구」로 임의의 연구 항목을 <color=#92fc63>8회</color> 완료한다.]],
@@ -227363,7 +228328,7 @@ _G.pg.base.task_data_template[999990] = {
 	guild_coin_award = 0,
 	award = 91549,
 	type = 26,
-	desc = "함선 1회 건조 ",
+	desc = "함선 1회 건조",
 	count_inherit = 0,
 	sub_type = 30,
 	target_id_2 = "",
@@ -227723,7 +228688,7 @@ _G.pg.base.task_data_template[1000000] = {
 	guild_coin_award = 0,
 	award = 91559,
 	type = 26,
-	desc = "연습전 2회 진행 ",
+	desc = "연습전 2회 진행",
 	count_inherit = 0,
 	sub_type = 27,
 	target_id_2 = "",

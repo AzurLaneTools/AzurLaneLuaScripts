@@ -745,9 +745,9 @@ pg.world_item_data_template = {
 	},
 	[2051] = {
 		item_transform_item_type = 0,
-		name = "파일 해역 기록기2",
+		name = "파일 좌표 기록기2",
 		item_transform_item_id = 0,
-		display = "분석 후 파일 임무를 획득할 수 있으며, 지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		display = "분석 후 일련의 파일 임무를 획득하며, 해당하는 해역에서 임무 완료 시 총 10개의 파일을 회수할 수 있다(142-5 ~ 142-6, 111-1 ~ 111-8). <color=#ff5c5c>이 아이템은 1회만 구매 가능하며, 대형 작전의 주기적 초기화에 따라 초기화되지 않는다. 구매 후 자동 사용된다. 파일 임무는 동시에 하나만 수령할 수 있다.</color>",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -764,9 +764,9 @@ pg.world_item_data_template = {
 	},
 	[2052] = {
 		item_transform_item_type = 0,
-		name = "파일 해역 기록기3",
+		name = "파일 좌표 기록기3",
 		item_transform_item_id = 0,
-		display = "분석 후 파일 임무를 획득할 수 있으며, 지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		display = "분석 후 일련의 파일 임무를 획득하며, 해당하는 해역에서 임무 완료 시 총 10개의 파일을 회수할 수 있다(115-1 ~ 115-4, 131-1 ~ 131-6). <color=#ff5c5c>이 아이템은 1회만 구매 가능하며, 대형 작전의 주기적 초기화에 따라 초기화되지 않는다. 구매 후 자동 사용된다. 파일 임무는 동시에 하나만 수령할 수 있다.</color>",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",

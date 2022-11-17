@@ -9786,7 +9786,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "알비온, 재너스 등 캐릭터 건조 확률 UP!"
+	tip = "페터 슈트라서, 프린츠 하인리히 등 캐릭터 건조 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
