@@ -8543,6 +8543,27 @@ _G.pg.base.item_data_statistics[21011] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21013] = {
+	display = "特倫托·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	name = "結晶：特倫托·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21013,
+	is_world = 0,
+	icon = "Props/21013",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用於提升艦裝火炮性能的稀有材料，可在「META研究室」-「艦裝強化」中使用。",
 	name = "結晶化熱強鋼",
@@ -12829,6 +12850,90 @@ _G.pg.base.item_data_statistics[30404] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30405] = {
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	name = "外觀裝備箱(世界巡遊)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30405,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2014,
+			1
+		},
+		{
+			9,
+			2015,
+			1
+		},
+		{
+			9,
+			2017,
+			1
+		},
+		{
+			9,
+			2018,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30406] = {
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	name = "外觀裝備箱(世界巡遊)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30406,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2014,
+			1
+		},
+		{
+			9,
+			2016,
+			1
+		},
+		{
+			9,
+			2017,
+			1
+		},
+		{
+			9,
+			2018,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用後可從「炎炎夏日」主題外觀裝備中任意選擇一種獲得1個",
 	name = "定向外觀裝備箱(夏末)",
@@ -13254,6 +13359,118 @@ _G.pg.base.item_data_statistics[30505] = {
 		{
 			9,
 			157,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30508] = {
+	display = "使用後可從「薩丁風情」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(薩丁)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30508,
+	is_world = 0,
+	icon = "Props/appearanceboxsadingzixuan",
+	display_icon = {
+		{
+			9,
+			160,
+			1
+		},
+		{
+			9,
+			161,
+			1
+		},
+		{
+			9,
+			162,
+			1
+		},
+		{
+			9,
+			163,
+			1
+		},
+		{
+			9,
+			164,
+			1
+		},
+		{
+			9,
+			165,
+			1
+		},
+		{
+			9,
+			166,
+			1
+		},
+		{
+			9,
+			167,
+			1
+		},
+		{
+			9,
+			168,
+			1
+		},
+		{
+			9,
+			169,
+			1
+		},
+		{
+			9,
+			170,
+			1
+		},
+		{
+			9,
+			171,
+			1
+		},
+		{
+			9,
+			172,
+			1
+		},
+		{
+			9,
+			173,
+			1
+		},
+		{
+			9,
+			174,
+			1
+		},
+		{
+			9,
+			175,
+			1
+		},
+		{
+			9,
+			176,
+			1
+		},
+		{
+			9,
+			177,
 			1
 		}
 	},
@@ -15420,6 +15637,979 @@ _G.pg.base.item_data_statistics[40128] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40129] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "指揮官支援包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40129,
+	is_world = 0,
+	icon = "ChargeIcon/support5",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40701] = {
+	display = "購買禮包可獲得心智魔方x10、快速完成工具x5",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40701,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40702] = {
+	display = "購買禮包可獲得心智魔方x20、快速完成工具x10",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40702,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40703] = {
+	display = "購買禮包可獲得泛用型布里x1、艦艇演習數據T1x200",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40703,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			1
+		},
+		{
+			2,
+			16501,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40704] = {
+	display = "購買禮包可獲得泛用型布里x2、艦艇演習數據T2x50",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40704,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			2
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40705] = {
+	display = "購買禮包可獲得隨機教材T3x3、隨機教材T2x9、隨機改造圖紙T2x8",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40705,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi3",
+	display_icon = {
+		{
+			2,
+			54006,
+			3
+		},
+		{
+			2,
+			54005,
+			9
+		},
+		{
+			2,
+			54050,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40706] = {
+	display = "購買禮包可獲得隨機教材T4x3、隨機教材T3x9、隨機改造圖紙T3x8",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40706,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi3",
+	display_icon = {
+		{
+			2,
+			54007,
+			3
+		},
+		{
+			2,
+			54006,
+			9
+		},
+		{
+			2,
+			54051,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40707] = {
+	display = "購買禮包可獲得心智單元x150、隨機科技箱T4x4",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40707,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			150
+		},
+		{
+			2,
+			54034,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40708] = {
+	display = "購買禮包可獲得心智單元x300、隨機科技箱T4x8",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40708,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			300
+		},
+		{
+			2,
+			54034,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40709] = {
+	display = "購買禮包可獲得核心數據x150、定向部件T3x30",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40709,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			150
+		},
+		{
+			2,
+			30113,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40710] = {
+	display = "購買禮包可獲得核心數據x300、定向部件T3x60",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40710,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			300
+		},
+		{
+			2,
+			30113,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40711] = {
+	display = "購買禮包可獲得定向部件T4x5、艦隊幣x300",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40711,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			1,
+			8,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40712] = {
+	display = "購買禮包可獲得定向部件T4x15、艦隊幣x800",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40712,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			1,
+			8,
+			800
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40713] = {
+	display = "購買禮包可獲得試作型布里MKIIx1、家具幣x100",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40713,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40714] = {
+	display = "購買禮包可獲得試作型布里MKIIx2、家具幣x300",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40714,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			1,
+			6,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40715] = {
+	display = "購買禮包可獲得功勳x2000、皇家料理x6",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40715,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi8",
+	display_icon = {
+		{
+			1,
+			3,
+			2000
+		},
+		{
+			2,
+			50005,
+			6
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40716] = {
+	display = "購買禮包可獲得功勳x4000、滿漢全席x3",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40716,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi8",
+	display_icon = {
+		{
+			1,
+			3,
+			4000
+		},
+		{
+			2,
+			50006,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40717] = {
+	display = "購買禮包可獲得榮譽勳章x80、石油x500",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40717,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			80
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40718] = {
+	display = "購買禮包可獲得榮譽勳章x200、石油x1000",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40718,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			200
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40719] = {
+	display = "購買禮包可獲得特殊兵裝核心x5、兵裝強化石T2x15",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40719,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			5
+		},
+		{
+			2,
+			15016,
+			15
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40720] = {
+	display = "購買禮包可獲得特殊兵裝核心x10、兵裝強化石T3x3",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40720,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15017,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40721] = {
+	display = "購買禮包可獲得喵箱SSR型x1、喵箱訓練加速工具x120",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40721,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			1
+		},
+		{
+			2,
+			20010,
+			120
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40722] = {
+	display = "購買禮包可獲得喵箱SSR型x2、喵箱訓練加速工具x240",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40722,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			2
+		},
+		{
+			2,
+			20010,
+			240
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40723] = {
+	display = "購買禮包可獲得高級定向藍圖·三期x2、石油x500",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40723,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi12",
+	display_icon = {
+		{
+			2,
+			42026,
+			2
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40724] = {
+	display = "購買禮包可獲得高級定向藍圖·三期x4、石油x1000",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40724,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi12",
+	display_icon = {
+		{
+			2,
+			42026,
+			4
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40725] = {
+	display = "購買禮包可獲得裝備研發物資箱T2x20、裝備研發物資箱T3x5",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40725,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi13",
+	display_icon = {
+		{
+			2,
+			150001,
+			20
+		},
+		{
+			2,
+			150002,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40726] = {
+	display = "購買禮包可獲得裝備研發物資箱T3x10、研發圖紙SSR型x4",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40726,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi13",
+	display_icon = {
+		{
+			2,
+			150002,
+			10
+		},
+		{
+			2,
+			30914,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40727] = {
+	display = "購買禮包可獲得高效作戰指令書x10、石油x500",
+	name = "回歸補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40727,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			10
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40728] = {
+	display = "購買禮包可獲得高效作戰指令書x20、石油x1000",
+	name = "回歸豪華禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40728,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			20
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40908] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2020，外觀裝備箱(小豬)*3(直接開啟)，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "新年福袋2020",
@@ -15601,6 +16791,103 @@ _G.pg.base.item_data_statistics[40918] = {
 			7,
 			801072,
 			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40921] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "回歸禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40921,
+	is_world = 0,
+	icon = "Props/support6",
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			200
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		},
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			2,
+			30113,
+			60
+		},
+		{
+			1,
+			3,
+			20000
+		},
+		{
+			2,
+			59900,
+			1000
 		}
 	},
 	price = {},
@@ -134048,6 +135335,27 @@ _G.pg.base.item_data_statistics[59206] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59207] = {
+	display = "用於『箱庭療法』復刻活動兌換，活動結束後將會消失",
+	name = "戰鬥之星·黑",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59207,
+	is_world = 0,
+	icon = "Props/newmeixipt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59208] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
@@ -134972,6 +136280,27 @@ _G.pg.base.item_data_statistics[59290] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59293] = {
+	display = "參與『世界巡遊』(2022.12.1~2023.1.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59293,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59301] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
@@ -135281,6 +136610,48 @@ _G.pg.base.item_data_statistics[59349] = {
 	id = 59349,
 	is_world = 0,
 	icon = "Props/houshancailiao5",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59350] = {
+	display = "用於「“圍剿”小施佩伯爵」活動提升角色好感，活動結束後將會消失",
+	name = "情報點",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59350,
+	is_world = 0,
+	icon = "Props/little_spee_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59351] = {
+	display = "用於「勇者的旅途」活動兌換，活動結束後將會消失",
+	name = "勇者金幣",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59351,
+	is_world = 0,
+	icon = "Props/hero_pt",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -135621,6 +136992,27 @@ _G.pg.base.item_data_statistics[59615] = {
 	id = 59615,
 	is_world = 0,
 	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59616] = {
+	display = "用於『回流活動』累計點數獲得獎勵，活動結束後將會消失",
+	name = "作戰點數",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 6,
+	link_id = 0,
+	id = 59616,
+	is_world = 0,
+	icon = "Props/xinhuiliupt",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -144806,6 +146198,27 @@ _G.pg.base.item_data_statistics[80031] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[80032] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 80032,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[81000] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2022，高級定向藍圖・三期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	name = "2022新年福袋·II",
@@ -145565,6 +146978,48 @@ _G.pg.base.item_data_statistics[150003] = {
 		{
 			2,
 			18123,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[150004] = {
+	display = "有機率獲得以下META艦裝修復物資",
+	name = "未知META艦裝修復物資",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 150004,
+	is_world = 0,
+	icon = "Props/150004",
+	display_icon = {
+		{
+			2,
+			21101,
+			1
+		},
+		{
+			2,
+			21111,
+			1
+		},
+		{
+			2,
+			21121,
+			1
+		},
+		{
+			2,
+			21131,
 			1
 		}
 	},

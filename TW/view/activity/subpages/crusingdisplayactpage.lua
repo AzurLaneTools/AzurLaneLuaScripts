@@ -24,7 +24,7 @@ function slot0.OnInit(slot0)
 		end
 
 		uv0.LTBase = LeanTween.alpha(uv0.bgBase, slot0 and 1 or 0, 0.5).uniqueId
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 
 	slot0.togglePay = slot1:Find("toggle_pay")
 
@@ -34,7 +34,7 @@ function slot0.OnInit(slot0)
 		end
 
 		uv0.LTPay = LeanTween.alpha(uv0.bgPay, slot0 and 1 or 0, 0.5).uniqueId
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 
 	slot0.btnPay = slot1:Find("unlock_panel/btn_unlock")
 

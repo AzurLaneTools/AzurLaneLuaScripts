@@ -340,7 +340,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}指了指旁边正释放着绿意的两丛花——当然，距离真正开花还有很长时间了。",
+			say = "{namecode:29}指了指旁边正释放着绿意的两丛花——当然，距离真正开花还有很长时间就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

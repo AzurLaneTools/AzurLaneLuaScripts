@@ -1424,6 +1424,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[509] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 33,
+		code = 509,
+		group_type = 10146,
+		trans_type = 0,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：箱庭療法",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[417] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -1606,6 +1637,37 @@ pg.ship_data_group = {
 						projectName = "light",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[508] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 38,
+		code = 508,
+		group_type = 10145,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：箱庭療法",
+				{
+					""
 				},
 				0
 			}
@@ -15124,6 +15186,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[568] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 4,
+		handbook_type = 0,
+		index_id = 398,
+		code = 568,
+		group_type = 40313,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：“圍剿”小施佩伯爵",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[248] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -19773,6 +19866,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30013] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30013,
+		code = 30013,
+		group_type = 970301,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9703010
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -19806,10 +19933,12 @@ pg.ship_data_group = {
 		375,
 		355,
 		365,
+		509,
 		417,
 		15,
 		13,
 		427,
+		508,
 		444,
 		28,
 		29,
@@ -20140,6 +20269,7 @@ pg.ship_data_group = {
 		422,
 		479,
 		483,
+		568,
 		248,
 		249,
 		250,
@@ -20277,6 +20407,7 @@ pg.ship_data_group = {
 		30007,
 		30008,
 		30010,
-		30011
+		30011,
+		30013
 	}
 }

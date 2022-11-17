@@ -9,7 +9,7 @@ return {
 			actorName = "魔王",
 			side = 2,
 			bgm = "login-2022401jp",
-			say = "嚯嚯嚯，居然活着来到我的城堡了么。",
+			say = "嚯嚯嚯，居然活著來到我的城堡了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 			nameColor = "#ff5c5c",
 			actorName = "魔王",
 			side = 2,
-			say = "但是，接下来本魔王会亲自来当你们的对手！",
+			say = "但是，接下來本魔王會親自來當妳們的對手！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			nameColor = "#ff5c5c",
 			actorName = "魔王",
 			side = 2,
-			say = "你们的冒险就在此结束吧————",
+			say = "妳們的冒險就在此結束吧————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

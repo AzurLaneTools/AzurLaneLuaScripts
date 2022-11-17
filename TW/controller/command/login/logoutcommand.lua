@@ -106,6 +106,7 @@ function slot0.execute(slot0, slot1)
 			uv0.facade:removeProxy(AppreciateProxy.__cname)
 			uv0.facade:removeProxy(MetaCharacterProxy.__cname)
 			uv0.facade:removeProxy(AvatarFrameProxy.__cname)
+			uv0.facade:removeProxy(RefluxProxy.__cname)
 		end
 	})
 

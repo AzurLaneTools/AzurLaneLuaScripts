@@ -129,6 +129,10 @@ function slot0.IsYunPackage(slot0)
 	return PLATFORM_CODE == PLATFORM_CH and slot0:GetChannelUID() == "yun"
 end
 
+function slot0.Service(slot0)
+	slot0:Call("Service")
+end
+
 function slot0.IsAUPackage(slot0)
 	return PLATFORM_CODE == PLATFORM_JP and slot0:GetChannelUID() == "2"
 end
@@ -159,6 +163,10 @@ end
 
 function slot0.CheckPretest(slot0)
 	return slot0:Get("CheckPretest")
+end
+
+function slot0.CheckGoogleSimulator(slot0)
+	return slot0:Get("CheckGoogleSimulator")
 end
 
 function slot0.CheckWorldTest(slot0)

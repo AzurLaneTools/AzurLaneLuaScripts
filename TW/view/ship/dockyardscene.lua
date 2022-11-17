@@ -724,9 +724,9 @@ end
 function slot0.SortShips(slot0, slot1)
 	table.sort(slot0.shipVOs, function (slot0, slot1)
 		if pg.GuideMgr.GetInstance():isRuning() then
-			return IndexConst.sortForGuider(slot0, slot1)
+			return ShipIndexConst.sortForGuider(slot0, slot1)
 		elseif uv0.isFormTactics then
-			return IndexConst.sortByPriorityFullSkill(slot0, slot1, uv1)
+			return ShipIndexConst.sortByPriorityFullSkill(slot0, slot1, uv1)
 		elseif uv0.contextData.mode == uv2.MODE_OVERVIEW or uv0.contextData.mode == uv2.MODE_SELECT then
 			if slot0.activityNpc == slot1.activityNpc then
 				return uv1(slot0, slot1)

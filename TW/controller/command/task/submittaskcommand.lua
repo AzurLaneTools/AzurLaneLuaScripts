@@ -96,6 +96,12 @@ function slot0.execute(slot0, slot1)
 					taskId = uv2.id
 				})
 
+				if uv2:getConfig("type") == Task.TYPE_REFLUX then
+					getProxy(RefluxProxy):addPtAfterSubTasks({
+						uv2
+					})
+				end
+
 				if uv2:getConfig("type") ~= 8 then
 					uv0:removeTask(uv2)
 				else

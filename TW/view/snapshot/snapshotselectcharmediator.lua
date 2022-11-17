@@ -13,8 +13,8 @@ function slot0.register(slot0)
 	slot3:setProposeList(slot2:getProposeGroupList())
 	slot0:bind(SnapshotSelectCharLayer.ON_INDEX, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
-			mediator = IndexMediator,
-			viewComponent = IndexLayer,
+			viewComponent = CustomIndexLayer,
+			mediator = CustomIndexMediator,
 			data = slot1
 		}))
 	end)

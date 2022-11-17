@@ -126,7 +126,7 @@ function slot0.didEnter(slot0)
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n(uv0.activity:getConfig("config_client").tips[2])
 		})
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 
 	slot0.maps = {
 		(function (slot0)

@@ -905,6 +905,21 @@ pg.player_resource = {
 		name = "skinTicket39",
 		itemid = 59354
 	},
+	[283] = {
+		id = 283,
+		name = "dexiv3_pt2",
+		itemid = 59357
+	},
+	[284] = {
+		id = 284,
+		name = "skinTicket40",
+		itemid = 59359
+	},
+	[285] = {
+		id = 285,
+		name = "newserver_pt_221110",
+		itemid = 59362
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1130,6 +1145,11 @@ pg.player_resource = {
 		name = "Twouxiang_pt",
 		itemid = 59143
 	},
+	[30853] = {
+		id = 30853,
+		name = "skin_rerun_pt_us2022",
+		itemid = 0
+	},
 	[40296] = {
 		id = 40296,
 		name = "Twomamori2",
@@ -1204,6 +1224,11 @@ pg.player_resource = {
 		id = 40905,
 		name = "tw_2022wanshengjie",
 		itemid = 80031
+	},
+	[40934] = {
+		id = 40934,
+		name = "skinTicket40934",
+		itemid = 80032
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -1749,6 +1774,15 @@ pg.player_resource = {
 		skinTicket39 = {
 			282
 		},
+		dexiv3_pt2 = {
+			283
+		},
+		skinTicket40 = {
+			284
+		},
+		newserver_pt_221110 = {
+			285
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1884,6 +1918,9 @@ pg.player_resource = {
 		Twouxiang_pt = {
 			40275
 		},
+		skin_rerun_pt_us2022 = {
+			30853
+		},
 		Twomamori2 = {
 			40296
 		},
@@ -1928,6 +1965,9 @@ pg.player_resource = {
 		},
 		tw_2022wanshengjie = {
 			40905
+		},
+		skinTicket40934 = {
+			40934
 		}
 	},
 	all = {
@@ -2112,6 +2152,9 @@ pg.player_resource = {
 		280,
 		281,
 		282,
+		283,
+		284,
+		285,
 		950,
 		951,
 		952,
@@ -2157,6 +2200,7 @@ pg.player_resource = {
 		4276,
 		100004,
 		40275,
+		30853,
 		40296,
 		40461,
 		45037,
@@ -2171,6 +2215,7 @@ pg.player_resource = {
 		40730,
 		40731,
 		40807,
-		40905
+		40905,
+		40934
 	}
 }

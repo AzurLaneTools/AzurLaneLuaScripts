@@ -9,7 +9,7 @@ return {
 			actor = 102200,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家开火的时候注意，不要打到甜品运输船了！",
+			say = "大家開火的時候注意，不要打到甜點運輸船了！",
 			bgm = "login-2022401us",
 			painting = {
 				alpha = 0.3,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 102190,
 			dir = 1,
-			say = "……那些裂缝好像不是我们打的……是小斯佩自己在破坏那些运输船！",
+			say = "……那些裂縫好像不是我們打的……是小施佩自己在破壞那些運輸船！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 102210,
 			dir = 1,
-			say = "啊啊啊啊，运输船都裂开了，甜品都流进海里了！",
+			say = "啊啊啊啊，運輸船都裂開了，甜點都流進海裡了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 207090,
 			dir = 1,
-			say = "……然后海水本身正在变成甜品？！",
+			say = "……然后海水本身正在變成甜點？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 304070,
 			dir = 1,
-			say = "…………好甜，好好喝……（咕噜）",
+			say = "…………好甜，好好喝……（咕嚕）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			actor = 307090,
 			dir = 1,
-			say = "呜啊啊{namecode:161}姐姐，这个不能喝啊！",
+			say = "嗚啊啊天城姐姐，這個不能喝啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			actor = 107990,
 			dir = 1,
-			say = "这究竟是……你究竟做了什么？！",
+			say = "這究竟是……你究竟做了什麼？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,10 +119,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小施佩",
 			expression = 7,
 			side = 2,
-			say = "将大海，变为甜品之海，我原本是这么计划的……",
+			say = "將大海，變為甜點之海，我原本是這麼計劃的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,10 +131,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小施佩",
 			expression = 3,
 			side = 2,
-			say = "可惜不能如愿了…………",
+			say = "可惜不能如願了…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,10 +143,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小施佩",
 			expression = 1,
 			side = 2,
-			say = "这样的话，我就要在此自沉，沉入无穷无尽的甜品之海里！",
+			say = "這樣的話，我就要在此自沉，沉入無窮無盡的甜點之海裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,10 +171,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小施佩",
 			expression = 2,
 			side = 2,
-			say = "再见了，我不会再回来了——",
+			say = "再見了，我不會再回來了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "就这样，甜品危机得到了解决。",
+			say = "就這樣，甜點危機得到了解決。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在小斯佩自沉的地方，到现在也会涌出源源不断的甜品，成为了广受好评的旅游胜地。",
+			say = "在小施佩自沉的地方，到現在也會湧出源源不斷的甜點，成為了廣受好評的旅遊勝地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "至于小斯佩，有人说她已经前往甜品的世界了，有人说她被小欧根救了回去。",
+			say = "至於小施佩，有人說她已經前往甜點的世界了，有人說她被小歐根救了回去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "不论如何，没有人再见过她的身影。",
+			say = "不論如何，沒有人再見過她的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "总而言之，有些故事没有开端，有些故事没有结尾。而有些故事，就是这样结束了————",
+			say = "總而言之，有些故事沒有開端，有些故事沒有結尾。而有些故事，就是這樣結束了————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,19 +256,19 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"主演：小斯佩",
+					"主演：小施佩",
 					1
 				},
 				{
-					"友情协助：",
+					"友情協助：",
 					2
 				},
 				{
-					"小克利夫兰 小海伦娜 小企业 小柴郡 小圣地亚哥",
+					"小克里夫蘭 小克里夫蘭 小企業 小柴郡 小聖地牙哥",
 					3
 				},
 				{
-					"小声望 小光辉 小凰 小鲟 小鳐 小加加(?)",
+					"小聲望 小光輝 小赤城 小比叡 小加加(?)",
 					4
 				},
 				{
@@ -280,7 +280,7 @@ return {
 					6
 				},
 				{
-					"*本活动中没有任何小舰船受到伤害，请放心观看和参与",
+					"*本活動中沒有任何小艦船受到傷害，請放心觀看和參與",
 					7
 				}
 			}

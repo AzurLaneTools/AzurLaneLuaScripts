@@ -7,7 +7,7 @@ return {
 			actor = 102200,
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "抓住你了！抢夺甜品的犯人！",
+			say = "抓住妳了！搶奪甜點的犯人！",
 			dir = 1,
 			bgm = "login-2022401us",
 			painting = {
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哼哼哼~还是当场抓获，剩下的事就去监狱里交代吧。",
+			say = "哼哼哼~還是當場抓獲，剩下的事就去監獄裡交代吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "立刻放下武器把甜品交出来，否则……我们就要被迫采取武力措施了。",
+			say = "立刻放下武器把甜點交出來，否則……我們就要被迫採取武力措施了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,8 +65,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
-			say = "我是不会把甜品交出来的哟。",
+			actorName = "小施佩",
+			say = "我是不會把甜點交出來的喲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,8 +82,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
-			say = "铁血也不止是啤酒和香肠，明明甜品也很重要……但是很少有人注意到这一点。",
+			actorName = "小施佩",
+			say = "鐵血也不止是啤酒和香腸，明明甜點也很重要……但是很少有人注意到這一點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,8 +99,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
-			say = "……所以我制定了一个计划，一个可以把大海变成甜品的伟大计划！",
+			actorName = "小施佩",
+			say = "……所以我制定了一個計劃，一個可以把大海變成甜點的偉大計劃！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,8 +116,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
-			say = "现在已经进行到最后一步了……",
+			actorName = "小施佩",
+			say = "現在已經進行到最後一步了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,10 +130,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小施佩",
 			expression = 6,
 			side = 2,
-			say = "很快，大海就要被甜品覆盖了……不要阻止我！",
+			say = "很快，大海就要被甜點覆蓋了……不要阻止我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 107990,
 			side = 2,
-			say = "……虽然没太听懂，但是我感觉到了危险。",
+			say = "……雖然沒太聽懂，但是我感覺到了危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 102210,
 			side = 2,
-			say = "甜品是很重要，但是大海也很重要哦！",
+			say = "甜點是很重要，但是大海也很重要哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 304070,
 			side = 2,
-			say = "……蔚蓝的大海让人心旷神怡，而且也是海鲜赖以生存的家园……",
+			say = "……蔚藍的大海讓人心曠神怡，而且也是海鮮賴以生存的家園……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 304070,
 			side = 2,
-			say = "不会让你肆意妄为的……！",
+			say = "不會讓妳肆意妄為的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,10 +186,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小施佩",
 			expression = 1,
 			side = 2,
-			say = "那就放马过来吧。我可是很强的，被打疼了也不许哭哦~",
+			say = "那就放馬過來吧。我可是很強的，被打疼了也不許哭哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

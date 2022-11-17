@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "有些故事没有开端，有些故事没有结尾。而有些故事，就这样发生了————",
+			say = "有些故事沒有開端，有些故事沒有結尾。而有些故事，就這樣發生了————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "■■■■年■月■日 海域坐标■■■■ ■■■■",
+			say = "■■■■年■月■日 海域坐標■■■■ ■■■■",
 			bgm = "login-2022401jp",
 			flashout = {
 				black = true,
@@ -46,7 +46,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "轰————————————！",
+			say = "轟————————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "敌袭出现了？！海伦娜，你没事吧！",
+			say = "敵襲出現了？！海倫娜，妳沒事吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			actor = 102190,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我没事……但是货物又被抢走了！",
+			say = "我沒事……但是貨物又被搶走了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			actor = 102200,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么会这样………已经是本周第三次袭击了。",
+			say = "怎麼會這樣………已經是本週第三次襲擊了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			actor = 102200,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再这样下去，我们的甜品供应就要彻底中断了啊！",
+			say = "再這樣下去，我們的甜點供應就要徹底中斷了啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			actor = 102210,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "主动出击啊，主动出击！事到如今只能主动出击了！",
+			say = "主動出擊啊，主動出擊！事到如今只能主動出擊了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			actor = 102210,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们一定要把抢夺货船的人抓出来！",
+			say = "我們一定要把搶奪貨船的人抓出來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			actor = 102190,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之还是先收集情报吧……没有情报的话是抓不到犯人的哦。",
+			say = "總之還是先收集情報吧……沒有情報的話是抓不到犯人的哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			actor = 102200,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就这么决定了，我带领更多的量产型加强护航力度。",
+			say = "那就這麼決定了，我帶領更多的量產型加強護航力度。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 102200,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海伦娜去跟其他阵营交换情报。甜品供应中断的话，其他阵营应该也很困扰才是。",
+			say = "海倫娜去跟其他陣營交換情報。甜點供應中斷的話，其他陣營應該也很困擾才是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "圣地亚哥就负责去写给萨拉托加的报告好了！也许她那边会知道什么事！",
+			say = "聖地牙哥就負責去寫給薩拉托加的報告好了！也許她那邊會知道什麼事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "了解啦~！给小加加写报告的事就交给我吧！",
+			say = "了解啦~！給小加加寫報告的事就交給我吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 403130,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "呼呼呼……甜品，美味的甜品……",
+			say = "呼呼呼……甜點，美味的甜點……",
 			painting = {
 				alpha = 0.3,
 				time = 1

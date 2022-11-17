@@ -1461,7 +1461,7 @@ pg.battlepass_task_group = {
 	[52] = {
 		id = 52,
 		group_mask = 2,
-		time = 8,
+		time = 5,
 		task_group = {
 			{
 				41523
@@ -1489,7 +1489,7 @@ pg.battlepass_task_group = {
 	[53] = {
 		id = 53,
 		group_mask = 3,
-		time = 15,
+		time = 12,
 		task_group = {
 			{
 				41530
@@ -1517,7 +1517,7 @@ pg.battlepass_task_group = {
 	[54] = {
 		id = 54,
 		group_mask = 4,
-		time = 22,
+		time = 19,
 		task_group = {
 			{
 				41537
@@ -1545,7 +1545,7 @@ pg.battlepass_task_group = {
 	[55] = {
 		id = 55,
 		group_mask = 5,
-		time = 29,
+		time = 26,
 		task_group = {
 			{
 				41544
@@ -1573,7 +1573,7 @@ pg.battlepass_task_group = {
 	[56] = {
 		id = 56,
 		group_mask = 6,
-		time = 36,
+		time = 33,
 		task_group = {
 			{
 				41551
@@ -1601,7 +1601,7 @@ pg.battlepass_task_group = {
 	[57] = {
 		id = 57,
 		group_mask = 7,
-		time = 43,
+		time = 40,
 		task_group = {
 			{
 				41558
@@ -1629,7 +1629,7 @@ pg.battlepass_task_group = {
 	[58] = {
 		id = 58,
 		group_mask = 8,
-		time = 50,
+		time = 47,
 		task_group = {
 			{
 				41565

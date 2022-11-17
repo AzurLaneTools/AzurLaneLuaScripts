@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "story-richang-2",
-			say = "村庄·郊外",
+			say = "村莊·郊外",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -16,7 +16,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "勇者一行人在村庄接受了村民的委托，前往郊外消灭一群肆虐田地的魔物。",
+			say = "勇者一行人在村莊接受了村民的委託，前往郊外消滅一群肆虐田地的魔物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 131171,
 			dir = 1,
-			say = "MP恢复完毕……魔物群，看招……",
+			say = "MP恢復完畢……魔物群，看招……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,9 +40,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "拉菲 使用 Explosion 对魔物A 造成了 999点伤害，魔物A被打倒了。",
+			say = "拉菲 使用 Explosion 對魔物A 造成了 999點傷害，魔物A被打倒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,9 +55,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "拉菲 使用 Explosion 对魔物B 造成了 999点伤害，魔物B被打倒了。",
+			say = "拉菲 使用 Explosion 對魔物B 造成了 999點傷害，魔物B被打倒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "……[前略]拉菲 使用 Explosion 对魔物Z 造成了 999点伤害，魔物Z被打倒了。",
+			say = "……[前略]拉菲 使用 Explosion 對魔物Z 造成了 999點傷害，魔物Z被打倒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "完成委托 田地中肆虐的魔物，获得了金钱100G，获得了道具 村民们的盛情款待。",
+			say = "完成委託 田地中肆虐的魔物，獲得了金錢100G，獲得了道具 村民們的盛情款待。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,9 +112,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "拉菲 等级提升至 Lv50法师。",
+			say = "拉菲 等級提升至 Lv50法師。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			actor = 131171,
 			dir = 1,
-			say = "委托……完成。",
+			say = "委託……完成。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……MP用光了，剩下就交给你们……拉菲，先睡了zZZZ……",
+			say = "……MP用光了，剩下就交給妳們……拉菲，先睡了zZZZ……",
 			painting = {
 				alpha = 0.3,
 				time = 1

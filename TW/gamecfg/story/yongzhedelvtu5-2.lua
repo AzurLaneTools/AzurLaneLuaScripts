@@ -6,9 +6,9 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			bgm = "login-2022401jp",
-			say = "标枪 使用 亿万斩击 对魔王 造成了100000000点伤害，魔王被击败了。",
+			say = "標槍 使用 億萬斬擊 對魔王 造成了100000000點傷害，魔王被擊敗了。",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			nameColor = "#ff5c5c",
 			actorName = "魔王",
 			side = 2,
-			say = "怎、怎么可能……本魔王居然被击败了！！！！",
+			say = "怎、怎麼可能……本魔王居然被擊敗了！！！！",
 			effects = {
 				{
 					active = true,
@@ -85,8 +85,8 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			actorName = "系统提示",
-			say = "获得了道具 魔王宝物库的钥匙。",
+			actorName = "系統提示",
+			say = "獲得了道具 魔王寶物庫的鑰匙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 201217,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个就是…………只有传说级的勇者才能使用的传说级武器？！",
+			say = "這個就是…………只有傳說級的勇者才能使用的傳說級武器？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			actor = 201217,
 			dir = 1,
-			say = "…………虽然看起来有点奇怪，但是攻击力确实提升了？！",
+			say = "…………雖然看起來有點奇怪，但是攻擊力確實提升了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			actor = 201217,
 			dir = 1,
-			say = "哎嘿嘿，这样也不错呢~！",
+			say = "哎嘿嘿，這樣也不錯呢~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,9 +163,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "就这样，魔王被消灭了，世界迎来了和平。",
+			say = "就這樣，魔王被消滅了，世界迎來了和平。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
 			say = "——THE END——",
 			typewriter = {

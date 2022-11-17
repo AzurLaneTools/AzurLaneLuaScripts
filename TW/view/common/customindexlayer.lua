@@ -70,7 +70,7 @@ function slot0.InitGroup(slot0)
 	slot0.updateList = {}
 	slot0.simpleDropdownDic = {}
 
-	for slot4, slot5 in ipairs(slot0.contextData.groupList) do
+	for slot4, slot5 in pairs(slot0.contextData.groupList) do
 		if slot5.dropdown then
 			slot0:InitDropdown(slot5)
 		else

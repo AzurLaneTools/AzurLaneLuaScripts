@@ -355,7 +355,7 @@ function slot0.setAttachment(slot0, slot1, slot2, slot3)
 	})
 	onButton(slot0, slot1, function ()
 		uv0:emit(uv1.ON_DROP, uv2)
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 end
 
 function slot0.updateMail(slot0, slot1)

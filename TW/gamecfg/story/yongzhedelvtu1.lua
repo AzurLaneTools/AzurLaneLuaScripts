@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "story-richang-2",
-			say = "这是某一天，在游戏世界中发生的故事——",
+			say = "這是某一天，在遊戲世界中發生的故事——",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -25,7 +25,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在这个世界中，魔王带领着魔物日复一日的肆虐着大地，人民过着悲惨的生活。",
+			say = "在這個世界中，魔王帶領著魔物日復一日的肆虐著大地，人民過著悲慘的生活。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "为了拯救世界，勇者标枪与同伴们踏上了讨伐魔王的旅途——",
+			say = "為了拯救世界，勇者標槍與同伴們踏上了討伐魔王的旅途——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "获得了金钱 100G，获得了道具 通向魔王城的地图。",
+			say = "獲得了金錢 100G，獲得了道具 通向魔王城的地圖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,9 +69,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "标枪 Lv1勇者，加入了队伍。",
+			say = "標槍 Lv1勇者，加入了隊伍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,9 +79,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "拉菲 Lv1法师，加入了队伍。",
+			say = "拉菲 Lv1法師，加入了隊伍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,9 +89,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "{namecode:6} Lv1格斗家，加入了队伍。",
+			say = "綾波 Lv1格鬥家，加入了隊伍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,9 +99,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "Z23  Lv1战士，加入了队伍。",
+			say = "Z23  Lv1戰士，加入了隊伍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

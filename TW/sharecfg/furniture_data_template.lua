@@ -4845,6 +4845,101 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[235] = {
+		spine_extra = "",
+		describe = "異世界冒險的證明，似乎能為持有者帶來好運？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "jinhaibaoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "黃金的幸運之劍(?)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 235,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jinhaibao",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[236] = {
+		spine_extra = "",
+		describe = "物美價廉，童叟無欺喵~強化有機率，投入需謹慎喵~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "duanzaoluicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "裝備強化爐",
+		comfortable = 5,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 236,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"duanzaolu",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "飛高高～飛高高～…唔！？太高了太高了！！QAQ",
@@ -6020,6 +6115,56 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"shuiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100019] = {
+		spine_extra = "",
+		describe = "唔，這是…誰家的鷹醬？",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "yingicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "鷹醬 ",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100019,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ying",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					100
+				},
+				"walk"
 			}
 		},
 		interAction_group = {}
@@ -89486,6 +89631,8 @@ pg.furniture_data_template = {
 			215,
 			222,
 			233,
+			235,
+			236,
 			100002,
 			100003,
 			100004,
@@ -89501,6 +89648,7 @@ pg.furniture_data_template = {
 			100016,
 			100017,
 			100018,
+			100019,
 			12002,
 			12102,
 			12103,
@@ -89614,6 +89762,8 @@ pg.furniture_data_template = {
 			215,
 			222,
 			233,
+			235,
+			236,
 			100002,
 			100003,
 			100004,
@@ -89629,6 +89779,7 @@ pg.furniture_data_template = {
 			100016,
 			100017,
 			100018,
+			100019,
 			12002,
 			12102,
 			12103,
@@ -95109,6 +95260,7 @@ pg.furniture_data_template = {
 			214,
 			215,
 			222,
+			235,
 			100002,
 			100003,
 			100004,
@@ -95124,11 +95276,13 @@ pg.furniture_data_template = {
 			100016,
 			100017,
 			100018,
+			100019,
 			54104,
 			54105
 		},
 		[7] = {
 			233,
+			236,
 			13101,
 			13126,
 			13127,
@@ -95784,6 +95938,8 @@ pg.furniture_data_template = {
 			210,
 			212,
 			222,
+			235,
+			236,
 			100002,
 			100004,
 			100005,
@@ -97116,7 +97272,8 @@ pg.furniture_data_template = {
 			94119
 		},
 		[14] = {
-			214
+			214,
+			100019
 		},
 		[13] = {
 			100015,
@@ -97785,6 +97942,8 @@ pg.furniture_data_template = {
 		215,
 		222,
 		233,
+		235,
+		236,
 		100002,
 		100003,
 		100004,
@@ -97800,6 +97959,7 @@ pg.furniture_data_template = {
 		100016,
 		100017,
 		100018,
+		100019,
 		1001,
 		1002,
 		1101,

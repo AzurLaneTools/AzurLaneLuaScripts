@@ -117,6 +117,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2022.8.18-2022.11.13）",
 		scene = {}
 	},
+	[209] = {
+		time_limit_type = 0,
+		name = "限界的挑戰者IX",
+		gain_by = "",
+		id = 209,
+		time_second = 0,
+		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2022.11.17-2023.2.12）",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "召集者",
@@ -329,6 +338,7 @@ pg.item_data_frame = {
 		206,
 		207,
 		208,
+		209,
 		300,
 		301,
 		302,

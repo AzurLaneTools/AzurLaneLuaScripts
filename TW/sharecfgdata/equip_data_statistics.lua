@@ -45593,6 +45593,191 @@ _G.pg.base.equip_data_statistics[22273] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[22280] = {
+	tech = 0,
+	name = "試作型四聯裝152mm主炮",
+	speciality = "鎖定",
+	type = 2,
+	descrip = "說明未填寫",
+	ammo = 1,
+	damage = "",
+	nationality = 2,
+	rarity = 6,
+	id = 22280,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 65,
+	icon = "22280",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1110
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1110
+		},
+		{
+			4,
+			1114
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		22280
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.base.equip_data_statistics[22281] = {
+	id = 22281,
+	base = 22280,
+	weapon_id = {
+		22281
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22282] = {
+	id = 22282,
+	base = 22280,
+	weapon_id = {
+		22282
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22283] = {
+	id = 22283,
+	base = 22280,
+	weapon_id = {
+		22283
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22284] = {
+	id = 22284,
+	base = 22280,
+	weapon_id = {
+		22284
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22285] = {
+	id = 22285,
+	base = 22280,
+	weapon_id = {
+		22285
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22286] = {
+	id = 22286,
+	base = 22280,
+	weapon_id = {
+		22286
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22287] = {
+	id = 22287,
+	base = 22280,
+	weapon_id = {
+		22287
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22288] = {
+	id = 22288,
+	base = 22280,
+	weapon_id = {
+		22288
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22289] = {
+	id = 22289,
+	base = 22280,
+	weapon_id = {
+		22289
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22290] = {
+	id = 22290,
+	base = 22280,
+	weapon_id = {
+		22290
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22291] = {
+	id = 22291,
+	anti_siren = 100,
+	damage = "25 x 4",
+	base = 22280,
+	weapon_id = {
+		22291
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22292] = {
+	id = 22292,
+	anti_siren = 200,
+	damage = "25 x 4",
+	base = 22280,
+	weapon_id = {
+		22292
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[22293] = {
+	id = 22293,
+	anti_siren = 300,
+	damage = "25 x 4",
+	base = 22280,
+	weapon_id = {
+		22293
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[23000] = {
 	tech = 1,
 	name = "雙聯裝203mm主炮",
@@ -112299,6 +112484,59 @@ _G.pg.base.equip_data_statistics[79872] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[79931] = {
+	type = 1,
+	name = "专属弹幕-特伦托.METAI",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79931,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60871
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79932] = {
+	id = 79932,
+	name = "专属弹幕-特伦托.METAII",
+	base = 79931,
+	weapon_id = {
+		60872
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[79981] = {
 	type = 1,
 	name = "专属弹幕-皇家财富I",
@@ -127483,6 +127721,328 @@ _G.pg.base.equip_data_statistics[630060] = {
 	part_sub = {
 		6,
 		7
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630221] = {
+	tech = 1,
+	name = "【2022异世界勇者】拉菲-兔兔火球主炮",
+	speciality = "跨射",
+	type = 4,
+	rarity = 1,
+	ammo = 5,
+	damage = "16 x 2",
+	nationality = 0,
+	descrip = "默认装备",
+	id = 630221,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630221
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630222] = {
+	rarity = 4,
+	name = "【2022异世界勇者】标枪 普通斩击子弹",
+	speciality = "锁定",
+	type = 3,
+	tech = 3,
+	ammo = 2,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630222,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "1",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630222
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		5
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630223] = {
+	rarity = 5,
+	name = "【2022异世界勇者】标枪 消弹蓄力斩击鱼雷",
+	speciality = "雷击",
+	type = 5,
+	tech = 3,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630223,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630223
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630224] = {
+	rarity = 4,
+	name = "【2022异世界勇者】绫波 普通气功波子弹",
+	speciality = "锁定",
+	type = 3,
+	tech = 3,
+	ammo = 2,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630224,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "1",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630224
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		5
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630225] = {
+	rarity = 5,
+	name = "【2022异世界勇者】绫波 蓄力气功波鱼雷",
+	speciality = "雷击",
+	type = 5,
+	tech = 3,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630225,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630225
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630226] = {
+	rarity = 4,
+	name = "【2022异世界勇者】Z23 普通近身战斧挥砍",
+	speciality = "锁定",
+	type = 3,
+	tech = 3,
+	ammo = 2,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630226,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "1",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630226
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		5
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630227] = {
+	rarity = 5,
+	name = "【2022异世界勇者】Z23 远程战斧鱼雷",
+	speciality = "雷击",
+	type = 5,
+	tech = 3,
+	ammo = 5,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630227,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630227
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630228] = {
+	rarity = 4,
+	name = "【2022异世界勇者】空武器",
+	speciality = "锁定",
+	type = 2,
+	tech = 3,
+	ammo = 2,
+	nationality = 3,
+	descrip = "说明未填写",
+	id = 630228,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 25,
+	icon = "1",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		630228
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		5
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		5
 	},
 	equip_parameters = {},
 	label = {}

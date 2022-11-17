@@ -1947,6 +1947,45 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[88] = {
+		commodity_type = 7,
+		activity = 45905,
+		commodity_id = 399033,
+		id = 88,
+		num = 1,
+		num_limit = 1,
+		order = 800,
+		scene = {
+			"crusing",
+			{}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[89] = {
 		commodity_type = 7,
 		activity = 40763,
@@ -2186,6 +2225,7 @@ pg.activity_shop_extra = {
 			84,
 			85,
 			86,
+			88,
 			89,
 			5001,
 			5002,
@@ -2251,6 +2291,7 @@ pg.activity_shop_extra = {
 		84,
 		85,
 		86,
+		88,
 		89,
 		5001,
 		5002,

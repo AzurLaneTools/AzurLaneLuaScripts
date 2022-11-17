@@ -19,8 +19,8 @@ function slot0.OnDataSetting(slot0)
 
 	slot0.endTime = slot0.activity.stopTime
 
-	if type(slot0.activity:getConfig("config_client")) == "table" then
-		slot0.endTime = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1)
+	if slot0.activity:getConfig("config_client") and slot1[1] and type(slot1[1]) == "table" then
+		slot0.endTime = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[1])
 	end
 end
 

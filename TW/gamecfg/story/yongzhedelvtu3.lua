@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "story-richang-2",
-			say = "边境城镇·铁匠铺",
+			say = "邊境城鎮·鐵匠鋪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,9 +15,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "为了迎接更加困难的战斗，首先强化一下装备吧。",
+			say = "為了迎接更加困難的戰鬥，首先強化一下裝備吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,16 +26,16 @@ return {
 		{
 			actor = 312010,
 			nameColor = "#A9F548FF",
-			actorName = "武器店老板",
+			actorName = "武器店老闆",
 			side = 2,
-			say = "欢迎惠顾~勇者大人，强化一次100G喵，是否要进行一次强化喵？",
+			say = "歡迎惠顧~勇者大人，強化一次100G喵，是否要進行一次強化喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "确定",
+					content = "確定",
 					flag = 1
 				},
 				{
@@ -47,17 +47,17 @@ return {
 		{
 			actor = 312010,
 			nameColor = "#A9F548FF",
-			actorName = "武器店老板",
+			actorName = "武器店老闆",
 			side = 2,
 			optionFlag = 2,
-			say = "勇者大人，现在是教学时间，不可以取消强化喵~",
+			say = "勇者大人，現在是教學時間，不可以取消強化喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "确定",
+					content = "確定",
 					flag = 1
 				}
 			}
@@ -65,9 +65,9 @@ return {
 		{
 			actor = 312010,
 			nameColor = "#A9F548FF",
-			actorName = "武器店老板",
+			actorName = "武器店老闆",
 			side = 2,
-			say = "请稍后喵~",
+			say = "請稍候喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,9 +75,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "失去了金钱100G，当前剩余金钱100G，获得了道具 战士之斧+1。",
+			say = "失去了金錢100G，當前剩餘金錢100G，獲得了道具 戰士之斧+1。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,16 +103,16 @@ return {
 		{
 			actor = 312010,
 			nameColor = "#A9F548FF",
-			actorName = "武器店老板",
+			actorName = "武器店老闆",
 			side = 2,
-			say = "强化成功了喵，是否继续进行强化喵？",
+			say = "強化成功了喵，是否繼續進行強化喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "确定",
+					content = "確定",
 					flag = 1
 				},
 				{
@@ -124,17 +124,17 @@ return {
 		{
 			actor = 312010,
 			nameColor = "#A9F548FF",
-			actorName = "武器店老板",
+			actorName = "武器店老闆",
 			side = 2,
 			optionFlag = 2,
-			say = "欸~继续强化的成功概率有99%喵？只要继续强化，勇者大人就可以变得更强了喵？",
+			say = "欸~繼續強化的成功機率有99%喵？只要繼續強化，勇者大人就可以變得更強了喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "确定",
+					content = "確定",
 					flag = 1
 				}
 			}
@@ -142,9 +142,9 @@ return {
 		{
 			actor = 312010,
 			nameColor = "#A9F548FF",
-			actorName = "武器店老板",
+			actorName = "武器店老闆",
 			side = 2,
-			say = "请稍后喵~",
+			say = "請稍候喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,9 +152,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "系統提示",
 			nameColor = "#A9F548FF",
-			say = "失去了金钱100G，当前剩余金钱0G，失去了道具 战士之斧+1。",
+			say = "失去了金錢100G，當前剩餘金錢0G，失去了道具 戰士之斧+1。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,9 +180,9 @@ return {
 		{
 			actor = 312010,
 			nameColor = "#A9F548FF",
-			actorName = "武器店老板",
+			actorName = "武器店老闆",
 			side = 2,
-			say = "真是不走运啊勇敢大人，强化失败了喵~",
+			say = "真是不走運啊勇敢大人，強化失敗了喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,9 +191,9 @@ return {
 		{
 			actor = 312010,
 			nameColor = "#A9F548FF",
-			actorName = "武器店老板",
+			actorName = "武器店老闆",
 			side = 2,
-			say = "不过不用担心，只要拿着新装备和钱来，我随时可以帮你进行强化喵~",
+			say = "不過不用擔心，只要拿著新裝備和錢來，我隨時可以幫你進行強化喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,9 +202,9 @@ return {
 		{
 			actor = 312010,
 			nameColor = "#A9F548FF",
-			actorName = "武器店老板",
+			actorName = "武器店老闆",
 			side = 2,
-			say = "是否选择新的装备继续强化喵？",
+			say = "是否選擇新的裝備繼續強化喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			actor = 431232,
 			dir = 1,
-			say = "…………我，我的战士之斧碎掉了？！",
+			say = "…………我，我的戰士之斧碎掉了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			actor = 431232,
 			dir = 1,
-			say = "钱包也……归零了？！",
+			say = "錢包也……歸零了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			actor = 431232,
 			dir = 1,
-			say = "接下来要重新开始赚钱了啊……呜呜呜…………",
+			say = "接下來要重新開始賺錢了啊……嗚嗚嗚…………",
 			painting = {
 				alpha = 0.3,
 				time = 1

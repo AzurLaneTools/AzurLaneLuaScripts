@@ -302,5 +302,14 @@ return {
 	end,
 	GameShare = function (slot0, slot1)
 		uv0:ShareWithImage("Azur Lane", slot0, slot1)
+	end,
+	Service = function ()
+		if not getProxy(PlayerProxy) then
+			return
+		end
+
+		slot1 = slot0:getRawData()
+
+		uv0:Service(slot1.id, slot1:GetName(), "")
 	end
 }

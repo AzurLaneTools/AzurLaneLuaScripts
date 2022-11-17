@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 40772
+		act_id = 40936
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -872,5 +872,8 @@ pg.activity_const = {
 	},
 	ACTIVITY_BOSS_ALBION = {
 		act_id = 4552
+	},
+	PIXEL_DRAW_MING = {
+		act_id = 4574
 	}
 }

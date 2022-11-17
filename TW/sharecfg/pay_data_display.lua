@@ -882,6 +882,151 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[44] = {
+		subject = "回歸禮包",
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到郵箱，請注意查收。",
+		type = 1,
+		limit_arg = 1,
+		name = "回歸禮包",
+		name_display = "回歸禮包",
+		type_order = 2,
+		extra_gem = 0,
+		id = 44,
+		money = 670,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "support5",
+		id_str = "com.hkmanjuu.azurlane.libao4",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得大量材料獎勵",
+		airijp_id = "com.yostarjp.azurlane.diamond133",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				15003,
+				20
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				200
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			},
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				2,
+				30113,
+				60
+			},
+			{
+				1,
+				3,
+				20000
+			},
+			{
+				2,
+				59900,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					11,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				2,
+				16502,
+				200
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[4001] = {
 		subject = "GP限時補給 ",
 		limit_group = 0,
@@ -4095,6 +4240,79 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[4905] = {
+		subject = "特許巡遊憑證",
+		limit_group = 0,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		type = 0,
+		limit_arg = 1,
+		name = "特許巡遊憑證（六期）",
+		name_display = "特許巡遊憑證",
+		type_order = 4,
+		extra_gem = 0,
+		id = 4905,
+		money = 330,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.hkmanjuu.azurlane.battlepass6",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵:曉限定換裝和其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.battlepass6",
+		extra_service_item = {
+			{
+				1,
+				4006,
+				1500
+			},
+			{
+				8,
+				59292,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4006,
+				1500
+			}
+		},
+		sub_display = {
+			45905,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	all = {
 		1,
 		2,
@@ -4110,6 +4328,7 @@ pg.pay_data_display = {
 		21,
 		22,
 		23,
+		44,
 		4001,
 		4002,
 		4003,
@@ -4146,6 +4365,7 @@ pg.pay_data_display = {
 		4901,
 		4902,
 		4903,
-		4904
+		4904,
+		4905
 	}
 }
