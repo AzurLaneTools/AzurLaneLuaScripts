@@ -49,6 +49,7 @@ function slot0.findUI(slot0)
 	slot0.detailExtraDrop = slot0:findTF("goods/extra_drop", slot0.detailWindow)
 	slot0.detailRmb = slot0:findTF("prince_bg/contain/icon_rmb", slot0.detailWindow)
 	slot0.detailGem = slot0:findTF("prince_bg/contain/icon_gem", slot0.detailWindow)
+	slot0.detailGold = slot0:findTF("prince_bg/contain/icon_gold", slot0.detailWindow)
 	slot0.detailPrice = slot0:findTF("prince_bg/contain/Text", slot0.detailWindow)
 	slot0.detailTag = slot0:findTF("goods/tag", slot0.detailWindow)
 	slot0.detailTags = {}
@@ -125,6 +126,7 @@ function slot0.updatePanel(slot0)
 	slot11 = slot0.panelConfig.tagType
 	slot12 = slot0.panelConfig.normalTip
 	slot13 = slot0.panelConfig.extraDrop
+	slot14 = slot0.panelConfig.isForceGold
 
 	if slot0.detailNormalTip then
 		setActive(slot0.detailNormalTip, slot12)
@@ -145,8 +147,8 @@ function slot0.updatePanel(slot0)
 	setActive(slot0.detailTag, slot11 > 0)
 
 	if slot11 > 0 then
-		for slot17, slot18 in ipairs(slot0.detailTags) do
-			setActive(slot18, slot17 == slot11)
+		for slot18, slot19 in ipairs(slot0.detailTags) do
+			setActive(slot19, slot18 == slot11)
 		end
 	end
 
@@ -172,14 +174,15 @@ function slot0.updatePanel(slot0)
 		setActive(slot0.detailRmb, slot8)
 	end
 
-	setActive(slot0.detailGem, not slot8)
+	setActive(slot0.detailGem, not slot8 and not slot14)
+	setActive(slot0.detailGold, not isActive(slot0.detailRmb) and not isActive(slot0.detailGem))
 	setText(slot0.detailPrice, slot7)
 
 	if slot0.extraDesc ~= nil then
-		slot14 = slot0.panelConfig.descExtra or ""
+		slot15 = slot0.panelConfig.descExtra or ""
 
-		setActive(slot0.extraDesc, #slot14 > 0)
-		setText(slot0.extraDesc, slot14)
+		setActive(slot0.extraDesc, #slot15 > 0)
+		setText(slot0.extraDesc, slot15)
 	end
 
 	if slot0.detailContain then
@@ -190,37 +193,37 @@ function slot0.updatePanel(slot0)
 			onButton(slot0, slot0.detailItem, function ()
 			end, SFX_PANEL)
 
-			slot14, slot15 = contentWrap(slot4.cfg.name, 10, 2)
+			slot15, slot16 = contentWrap(slot4.cfg.name, 10, 2)
 
-			if slot14 then
-				slot15 = slot15 .. "..."
+			if slot15 then
+				slot16 = slot16 .. "..."
 			end
 
-			setText(slot0:findTF("name", slot0.detailItem), slot15)
+			setText(slot0:findTF("name", slot0.detailItem), slot16)
 			setText(slot0.detailTip, slot3)
 		end
 
 		setText(slot0.extraTip, slot5)
 
-		for slot17 = #slot6, slot0.detailItemList.childCount - 1 do
-			Destroy(slot0.detailItemList:GetChild(slot17))
+		for slot18 = #slot6, slot0.detailItemList.childCount - 1 do
+			Destroy(slot0.detailItemList:GetChild(slot18))
 		end
 
-		for slot17 = slot0.detailItemList.childCount, #slot6 - 1 do
+		for slot18 = slot0.detailItemList.childCount, #slot6 - 1 do
 			cloneTplTo(slot0.detailItem, slot0.detailItemList)
 		end
 
-		for slot17 = 1, #slot6 do
-			updateDrop(slot0.detailItemList:GetChild(slot17 - 1), slot6[slot17])
+		for slot18 = 1, #slot6 do
+			updateDrop(slot0.detailItemList:GetChild(slot18 - 1), slot6[slot18])
 
-			slot19, slot20 = contentWrap(slot6[slot17].cfg.name, 8, 2)
+			slot20, slot21 = contentWrap(slot6[slot18].cfg.name, 8, 2)
 
-			if slot19 then
-				slot20 = slot20 .. "..."
+			if slot20 then
+				slot21 = slot21 .. "..."
 			end
 
-			setText(slot0:findTF("name", slot18), slot20)
-			onButton(slot0, slot18, function ()
+			setText(slot0:findTF("name", slot19), slot21)
+			onButton(slot0, slot19, function ()
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = true,
 					type = MSGBOX_TYPE_SINGLE_ITEM,

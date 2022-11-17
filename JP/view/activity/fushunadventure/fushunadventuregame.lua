@@ -834,7 +834,7 @@ function slot0.ShowResultWindow(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 
 	slot0.resultHighestScoreTxt.text = slot0.highestScore
 	slot0.resultScoreTxt.text = slot0.score

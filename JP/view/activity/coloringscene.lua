@@ -8,6 +8,8 @@ slot5 = Vector2(49, -436.12)
 function slot0.getUIName(slot0)
 	if (getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and slot1.id or 0) == ActivityConst.PIXEL_DRAW_ILLUSTRIOUS then
 		return "ColoringIllustriousUI"
+	elseif slot2 == ActivityConst.PIXEL_DRAW_MING then
+		return "ColoringMingUI"
 	else
 		assert(false, "Not Found PixelDraw Activity")
 	end

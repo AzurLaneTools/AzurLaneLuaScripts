@@ -17,7 +17,7 @@ end
 function slot0.OnInit(slot0)
 	onButton(slot0, slot0.shopBtn, function ()
 		uv0:emit(BuildShipMediator.ON_SUPPORT_SHOP)
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 end
 
 function slot0.Flush(slot0)

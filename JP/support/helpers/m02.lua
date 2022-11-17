@@ -788,7 +788,7 @@ function updateShip(slot0, slot1, slot2)
 		setGray(slot7, true, true)
 	end
 
-	GetImageSpriteFromAtlasAsync(slot2.Q and "QIcon/" or "SquareIcon/" .. slot4, "", findTF(slot0, "icon_bg/icon"))
+	GetImageSpriteFromAtlasAsync((slot2.Q and "QIcon/" or "SquareIcon/") .. slot4, "", findTF(slot0, "icon_bg/icon"))
 
 	if findTF(slot0, "icon_bg/lv") then
 		setActive(slot11, not slot1.isNpc)

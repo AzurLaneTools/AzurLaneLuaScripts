@@ -77,7 +77,7 @@ function slot0.didEnter(slot0)
 		else
 			pg.TipsMgr.GetInstance(i18n("world_daily_task_lock"))
 		end
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 	slot0:OnUpdateDailyTask()
 	triggerToggle(slot0.toggleAll, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)

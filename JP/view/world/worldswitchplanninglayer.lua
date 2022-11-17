@@ -100,7 +100,7 @@ function slot0.init(slot0)
 			if slot2 then
 				uv6:saveConfig()
 			end
-		end, SFX_PANEl)
+		end, SFX_PANEL)
 	end)
 
 	slot6 = pg.gameset.joint_boss_ticket.description
@@ -188,7 +188,7 @@ function slot0.init(slot0)
 				if slot0 then
 					uv0.setFlag(uv1)
 				end
-			end, SFX_PANEl)
+			end, SFX_PANEL)
 		end
 	end
 

@@ -2708,10 +2708,11 @@ _G.pg.base.gametip.coloring_help_tip = {
 ・絵が完成（着色枠を全て着色・「空白絵」は除く）す
 ると、報酬を入手することができます。
 ・おえかき完成の報酬一覧：
-No.1 汎用強化パーツ×4 No.2 ランダム教科書T3 x3 
-No.3 リトル・イラストリアス  
+No.1 ランダム教科書T3×3 
+No.2 汎用パーツT3 x4 
+No.3 「島へようこそ！」  
 ・イベント終了後、未使用の絵の具はリセットされます
-・9月3日（土）まで毎日新しい絵が一枚ずつ解放され
+・11月19日(土)まで毎日新しい絵が一枚ずつ解放され
 ます。]]
 		}
 	}
@@ -3622,7 +3623,7 @@ _G.pg.base.gametip.spweapon_activity_ui_text2 = {
 }
 
 _G.pg.base.gametip.spweapon_tip_skill_locked = {
-	tip = "未開放"
+	tip = "【未開放】"
 }
 
 _G.pg.base.gametip.spweapon_tip_owned = {
@@ -9460,6 +9461,10 @@ _G.pg.base.gametip.charge_scene_buy_confirm = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
 }
 
+_G.pg.base.gametip.charge_scene_buy_confirm_gold = {
+	tip = "<icon name=gold w=0.7 h=0.7/>資金<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
+}
+
 _G.pg.base.gametip.charge_scene_batch_buy_tip = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n$4を<color=$3>$2</color>個購入しますか？"
 }
@@ -10062,15 +10067,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ボルチモア(μ兵装)」常設実装！"
+	tip = "「ブレマートン」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ダイドー(μ兵装)」「タシュケント(μ兵装)」などが常設実装！"
+	tip = "「リノ」「イングラハム」「クーパー」「Z2」などが常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「大鳳(μ兵装)」「アルバコア(μ兵装)」常設実装！"
+	tip = "「イントレピッド」「ノーチラス」常設実装！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -21952,4 +21957,36 @@ _G.pg.base.gametip.ex_pass_use = {
 
 _G.pg.base.gametip.defense_formation_tip_npc = {
 	tip = "仮加入の艦船が第一艦隊に編成されているため、演習編成には編成できません"
+}
+
+_G.pg.base.gametip.pgs_login_tip = {
+	tip = "ゲストアカウント以外のゲームアカウントは自動でPGSアカウントに連携されます。\nPGSアカウントを通して複数の端末からログインすることができます。"
+}
+
+_G.pg.base.gametip.pgs_login_binding_exist1 = {
+	tip = "このアカウントは既に他のPGSアカウントと連携されています。\n連携するPGSアカウントを変更しますか？"
+}
+
+_G.pg.base.gametip.pgs_login_binding_exist2 = {
+	tip = "このPGSアカウントは既に他のゲームアカウントと連携されています。\n連携するゲームアカウントを変更しますか？"
+}
+
+_G.pg.base.gametip.pgs_login_binding_exist3 = {
+	tip = "このゲームアカウントは既に他のPGSアカウントと連携されています。\nまた、変更先のPGSアカウントは既に他のゲームアカウントと連携されています。\nゲームアカウント・PGSアカウントの連携先を変更しますか？"
+}
+
+_G.pg.base.gametip.pgs_binding_account = {
+	tip = "連携中のPGSアカウント"
+}
+
+_G.pg.base.gametip.pgs_unbind = {
+	tip = "PGSアカウントの連携解除"
+}
+
+_G.pg.base.gametip.pgs_unbind_tip1 = {
+	tip = "ログイン中のゲームアカウントとPGSアカウントの連携を解除しますか？"
+}
+
+_G.pg.base.gametip.pgs_unbind_tip2 = {
+	tip = "ログイン中のゲームアカウントはPGSアカウントと連携されています。\n他の連携をすべて解除すると、PGSアカウントとの連携も解除されます。"
 }

@@ -65,7 +65,7 @@ function slot0.OnInit(slot0)
 		uv0.isSwitch = slot0
 
 		uv0:updateValue()
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 end
 
 function slot0.GetBlueprintNeed(slot0, slot1)

@@ -31,7 +31,7 @@ function slot0.SkipToActivity(slot0)
 end
 
 function slot0.SkipToReFluxActivity(slot0)
-	if getProxy(ActivityProxy):findRefluxAutoActivity() then
+	if getProxy(RefluxProxy):isCanSign() and slot1:isInRefluxTime() then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.REFLUX)
 
 		return false

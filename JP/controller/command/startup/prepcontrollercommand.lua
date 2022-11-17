@@ -404,6 +404,9 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.EQUIP_SPWEAPON_TO_SHIP, UpdateShipSpWeaponCommand)
 	slot0.facade:registerCommand(GAME.EQUIP_SPWEAPON_FROM_SHIP, EquipSpWeaponFromShipCommand)
 	slot0.facade:registerCommand(GAME.AVATAR_FRAME_AWARD, AvatarFrameAwardCommand)
+	slot0.facade:registerCommand(GAME.REFLUX_REQUEST_DATA, RefluxRequestDataCommand)
+	slot0.facade:registerCommand(GAME.REFLUX_SIGN, RefluxSignCommand)
+	slot0.facade:registerCommand(GAME.REFLUX_GET_PT_AWARD, RefluxGetPTAwardCommand)
 end
 
 return slot0

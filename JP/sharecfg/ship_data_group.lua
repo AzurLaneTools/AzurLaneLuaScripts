@@ -1725,9 +1725,20 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼 ",
+				"イベント：闇靄払う銀翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -1787,9 +1798,20 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼 ",
+				"イベント：闇靄払う銀翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -2031,9 +2053,20 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼 ",
+				"イベント：闇靄払う銀翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -2643,9 +2676,20 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼 ",
+				"イベント：闇靄払う銀翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -3480,20 +3524,29 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"イベント：闇に堕ちた青き翼",
+				{
+					""
+				},
+				0
+			},
+			{
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"イベント：闇に堕ちた青き翼",
+				"勲章交換（ランダムで出現）",
 				{
-					""
+					"SHOP",
+					{
+						warp = 8
+					}
 				},
 				0
 			}
@@ -3711,9 +3764,20 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼 ",
+				"イベント：闇靄払う銀翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -4264,20 +4328,29 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"イベント：闇に堕ちた青き翼",
+				{
+					""
+				},
+				0
+			},
+			{
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"イベント：闇に堕ちた青き翼",
+				"勲章交換（ランダムで出現）",
 				{
-					""
+					"SHOP",
+					{
+						warp = 8
+					}
 				},
 				0
 			}
@@ -4306,20 +4379,29 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"イベント：闇に堕ちた青き翼",
+				{
+					""
+				},
+				0
+			},
+			{
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"イベント：闇に堕ちた青き翼",
+				"勲章交換（ランダムで出現）",
 				{
-					""
+					"SHOP",
+					{
+						warp = 8
+					}
 				},
 				0
 			}
@@ -4625,9 +4707,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼 ",
+				"イベント：闇靄払う銀翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -5144,9 +5236,20 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼 ",
+				"イベント：闇靄払う銀翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -5476,9 +5579,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼 ",
+				"イベント：闇靄払う銀翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -5634,9 +5747,20 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼 ",
+				"イベント：闇靄払う銀翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -6476,6 +6600,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6502,9 +6637,19 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：輝ける峡湾の星",
+				"イベント：フィヨルド·ハンター",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -6766,12 +6911,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -7531,12 +7685,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -7955,17 +8118,6 @@ pg.ship_data_group = {
 					""
 				},
 				0
-			},
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -8137,12 +8289,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -12416,20 +12577,29 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"イベント：墨染まりし鋼の桜",
+				{
+					""
+				},
+				0
+			},
+			{
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"イベント：墨染まりし鋼の桜",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			}
@@ -12458,20 +12628,29 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"イベント：墨染まりし鋼の桜",
+				{
+					""
+				},
+				0
+			},
+			{
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"イベント：墨染まりし鋼の桜",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			}
@@ -15071,12 +15250,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"勲章交換（ランダムで出現）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -15113,12 +15301,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"勲章交換（ランダムで出現）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -15648,6 +15845,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16136,17 +16344,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
@@ -16159,9 +16356,9 @@ pg.ship_data_group = {
 			{
 				"勲章交換（ランダムで出現）",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -16631,22 +16828,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -17881,12 +18077,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -20062,12 +20267,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"勲章交換（ランダムで出現）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -20474,12 +20688,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"勲章交換（ランダムで出現）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0

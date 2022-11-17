@@ -386,6 +386,38 @@ pg.activity_task_permanent = {
 			35195
 		}
 	},
+	[6016] = {
+		gametip = "「Z23」の着せ替えをGET!",
+		banner_route = "permanent_z23",
+		gametip_extra = "最速10日間で入手",
+		over_pt = 0,
+		task_extra = "",
+		id = 6016,
+		activity_name = "36年Z組　ニーミ先生",
+		over_task_id = "",
+		eliminate_task_id = {
+			35196,
+			35197,
+			35198,
+			35199,
+			35200,
+			35201,
+			35202,
+			35203,
+			35204,
+			35205,
+			35206,
+			35207,
+			35208,
+			35209,
+			35210,
+			35211,
+			35212,
+			35213,
+			35214,
+			35215
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -402,6 +434,7 @@ pg.activity_task_permanent = {
 		6012,
 		6013,
 		6014,
-		6015
+		6015,
+		6016
 	}
 }

@@ -55,6 +55,12 @@ function slot0.execute(slot0, slot1)
 
 			SubmitTaskCommand.AddGuildLivness(slot7)
 
+			if slot7:getConfig("type") == Task.TYPE_REFLUX then
+				getProxy(RefluxProxy):addPtAfterSubTasks({
+					slot7
+				})
+			end
+
 			if slot7:getConfig("type") ~= 8 then
 				uv0:removeTask(slot7)
 			else

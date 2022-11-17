@@ -18623,6 +18623,912 @@ _G.pg.base.item_data_statistics[40129] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40701] = {
+	display = "購入するとキューブ×10、高速建造材×5を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40701,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40702] = {
+	display = "購入するとキューブ×20、高速建造材×10を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40702,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40703] = {
+	display = "購入すると汎用型ブリ×1、艦船経験値パックT1×200を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40703,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			1
+		},
+		{
+			2,
+			16501,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40704] = {
+	display = "購入すると汎用型ブリ×2、艦船経験値パックT2×50を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40704,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			2
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40705] = {
+	display = "購入するとランダム教科書T3×3、ランダム教科書T2×9、ランダム改造図T2×8を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40705,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi3",
+	display_icon = {
+		{
+			2,
+			54006,
+			3
+		},
+		{
+			2,
+			54005,
+			9
+		},
+		{
+			2,
+			54050,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40706] = {
+	display = "購入するとランダム教科書T4×3、ランダム教科書T3×9、ランダム改造図T3×8を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40706,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi3",
+	display_icon = {
+		{
+			2,
+			54007,
+			3
+		},
+		{
+			2,
+			54006,
+			9
+		},
+		{
+			2,
+			54051,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40707] = {
+	display = "購入するとメンタルユニット×150、ランダム装備箱T4×4を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40707,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			150
+		},
+		{
+			2,
+			54034,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40708] = {
+	display = "購入するとメンタルユニット×300、ランダム装備箱T4×8を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40708,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			300
+		},
+		{
+			2,
+			54034,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40709] = {
+	display = "購入するとコアデータ×150、指向性強化パーツT3×30を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40709,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			150
+		},
+		{
+			2,
+			30113,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40710] = {
+	display = "購入するとコアデータ×300、指向性強化パーツT3×60を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40710,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			300
+		},
+		{
+			2,
+			30113,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40711] = {
+	display = "購入すると指向性強化パーツT4×5、貢献Pt×300を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40711,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			1,
+			8,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40712] = {
+	display = "購入すると指向性強化パーツT4×15、貢献Pt×800を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40712,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			1,
+			8,
+			800
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40713] = {
+	display = "購入すると試作型ブリMKII×1、家具コイン×100を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40713,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40714] = {
+	display = "購入すると試作型ブリMKII×2、家具コイン×300を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40714,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			1,
+			6,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40715] = {
+	display = "購入すると戦果pt×2000、王家グルメ×6を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40715,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi8",
+	display_icon = {
+		{
+			1,
+			3,
+			2000
+		},
+		{
+			2,
+			50005,
+			6
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40716] = {
+	display = "購入すると戦果pt×4000、フルコース×3を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40716,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi8",
+	display_icon = {
+		{
+			1,
+			3,
+			4000
+		},
+		{
+			2,
+			50006,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40717] = {
+	display = "購入すると勲章×80、燃料×500を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40717,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			80
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40718] = {
+	display = "購入すると勲章×200、燃料×1000を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40718,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			200
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40719] = {
+	display = "購入すると特殊装備コア×5、特殊装備強化石T2×15を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40719,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			5
+		},
+		{
+			2,
+			15016,
+			15
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40720] = {
+	display = "購入すると特殊装備コア×10、特殊装備強化石T3×3を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40720,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15017,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40721] = {
+	display = "購入するとネコハコSSR×1、ネコハコ加速材×120を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40721,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			1
+		},
+		{
+			2,
+			20010,
+			120
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40722] = {
+	display = "購入するとネコハコSSR×2、ネコハコ加速材×240を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40722,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			2
+		},
+		{
+			2,
+			20010,
+			240
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40723] = {
+	display = "購入すると上級指向型強化ユニット·四期目×2、燃料×500を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40723,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi12",
+	display_icon = {
+		{
+			2,
+			42036,
+			2
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40724] = {
+	display = "購入すると上級指向型強化ユニット·四期目×4、燃料×1000を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40724,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi12",
+	display_icon = {
+		{
+			2,
+			42036,
+			4
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40725] = {
+	display = "購入すると開発資材箱T2×20、開発資材箱T3×5を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40725,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi13",
+	display_icon = {
+		{
+			2,
+			150001,
+			20
+		},
+		{
+			2,
+			150002,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40726] = {
+	display = "購入すると開発資材箱T3×10、開発用兵装設計図SSR×4を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40726,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi13",
+	display_icon = {
+		{
+			2,
+			150002,
+			10
+		},
+		{
+			2,
+			30914,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40727] = {
+	display = "購入すると大作戦指令書×10、燃料×500を入手できます",
+	name = "カムバック補給",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40727,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			10
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40728] = {
+	display = "購入すると大作戦指令書×20、燃料×1000を入手できます",
+	name = "カムバック補給プレミアム",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40728,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			20
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40901] = {
 	display = "ランダムに正月シリーズの着せ替え衣装、装備外装箱×3、ダイヤ×2018、キューブ×8、家具コイン×100、高速建造材×4が入手できます",
 	name = "福袋",
@@ -19691,6 +20597,103 @@ _G.pg.base.item_data_statistics[40920] = {
 			1,
 			6,
 			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40921] = {
+	display = "購入すると材料が大量に入手できます",
+	name = "カムバックパック",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40921,
+	is_world = 0,
+	icon = "Props/support6",
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			200
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		},
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			2,
+			30113,
+			60
+		},
+		{
+			1,
+			3,
+			20000
+		},
+		{
+			2,
+			59900,
+			1000
 		}
 	},
 	price = {},
@@ -178144,6 +179147,27 @@ _G.pg.base.item_data_statistics[59615] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59616] = {
+	display = "カムバック任務をこなして入手できるイベントPt。カムバックキャンペーン期間終了後に削除されます",
+	name = "カムバックPt",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 6,
+	link_id = 0,
+	id = 59616,
+	is_world = 0,
+	icon = "Props/xinhuiliupt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59621] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -187603,6 +188627,153 @@ _G.pg.base.item_data_statistics[60268] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[60269] = {
+	display = "絵の具A",
+	name = "絵の具A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60269,
+	is_world = 0,
+	icon = "props/draw_a",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60270] = {
+	display = "絵の具B",
+	name = "絵の具B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60270,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60271] = {
+	display = "絵の具C",
+	name = "絵の具C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60271,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60272] = {
+	display = "絵の具D",
+	name = "絵の具D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60272,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60273] = {
+	display = "絵の具E",
+	name = "絵の具E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60273,
+	is_world = 0,
+	icon = "props/draw_e",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60274] = {
+	display = "絵の具F",
+	name = "絵の具F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60274,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60275] = {
+	display = "絵の具G",
+	name = "絵の具G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60275,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "大舰队作战伤害数值，仅用于大舰队BOSS伤害结算",
 	name = "伤害值",
@@ -190729,6 +191900,48 @@ _G.pg.base.item_data_statistics[150003] = {
 		{
 			2,
 			18123,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[150004] = {
+	display = "ランダムで下記のMETA艦船強化資材を入手できます",
+	name = "ランダムMETA艦船強化資材",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 150004,
+	is_world = 0,
+	icon = "Props/150004",
+	display_icon = {
+		{
+			2,
+			21101,
+			1
+		},
+		{
+			2,
+			21111,
+			1
+		},
+		{
+			2,
+			21121,
+			1
+		},
+		{
+			2,
+			21131,
 			1
 		}
 	},

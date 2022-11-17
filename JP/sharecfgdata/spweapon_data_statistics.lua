@@ -5660,3 +5660,302 @@ _G.pg.base.spweapon_data_statistics[10310] = {
 		}
 	}
 }
+
+_G.pg.base.spweapon_data_statistics[10320] = {
+	tech = 0,
+	name = "ルーちゃんとピーちゃん",
+	value_2_random = 5,
+	type = 1,
+	value_1_random = 10,
+	value_1 = 9,
+	effect_id_display = 901010,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	id = 10320,
+	next = 10321,
+	upgrade_id = 101,
+	value_2 = 4,
+	icon = "10320",
+	effect_id = 901010,
+	attribute_2 = "hit",
+	rarity = 4,
+	unique = 80103,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1011700
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10321] = {
+	prev = 10320,
+	base = 10320,
+	next = 10322,
+	upgrade_id = 102,
+	id = 10321,
+	value_2 = 5,
+	value_1 = 10,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10322] = {
+	prev = 10321,
+	base = 10320,
+	next = 10323,
+	upgrade_id = 103,
+	id = 10322,
+	value_2 = 5,
+	value_1 = 11,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10323] = {
+	prev = 10322,
+	base = 10320,
+	next = 10324,
+	upgrade_id = 104,
+	id = 10323,
+	value_2 = 6,
+	value_1 = 12,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10324] = {
+	prev = 10323,
+	base = 10320,
+	next = 10325,
+	upgrade_id = 105,
+	id = 10324,
+	value_2 = 6,
+	value_1 = 13,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10325] = {
+	prev = 10324,
+	base = 10320,
+	next = 10326,
+	upgrade_id = 106,
+	id = 10325,
+	value_2 = 7,
+	value_1 = 14,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10326] = {
+	prev = 10325,
+	base = 10320,
+	next = 10327,
+	upgrade_id = 107,
+	id = 10326,
+	value_2 = 7,
+	value_1 = 15,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10327] = {
+	prev = 10326,
+	base = 10320,
+	next = 10328,
+	upgrade_id = 108,
+	id = 10327,
+	value_2 = 8,
+	value_1 = 16,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10328] = {
+	prev = 10327,
+	base = 10320,
+	next = 10329,
+	upgrade_id = 109,
+	id = 10328,
+	value_2 = 8,
+	value_1 = 17,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10329] = {
+	prev = 10328,
+	base = 10320,
+	next = 10330,
+	upgrade_id = 110,
+	id = 10329,
+	value_2 = 9,
+	value_1 = 18,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10330] = {
+	base = 10320,
+	prev = 10329,
+	next = 0,
+	upgrade_id = 111,
+	id = 10330,
+	value_2 = 10,
+	value_1 = 20,
+	level = 11,
+	skill_upgrade = {
+		{
+			11700,
+			1011700
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10340] = {
+	tech = 0,
+	name = "鸞鳳流麗",
+	value_2_random = 2,
+	type = 7,
+	value_1_random = 10,
+	value_1 = 22,
+	effect_id_display = 902140,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	id = 10340,
+	next = 10341,
+	upgrade_id = 101,
+	value_2 = 1,
+	icon = "10340",
+	effect_id = 902140,
+	attribute_2 = "luck",
+	rarity = 4,
+	unique = 30707,
+	important = 2,
+	prev = 0,
+	attribute_1 = "air",
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			1011620
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10341] = {
+	prev = 10340,
+	base = 10340,
+	next = 10342,
+	upgrade_id = 102,
+	id = 10341,
+	value_2 = 1,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10342] = {
+	prev = 10341,
+	base = 10340,
+	next = 10343,
+	upgrade_id = 103,
+	id = 10342,
+	value_2 = 2,
+	value_1 = 23,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10343] = {
+	prev = 10342,
+	base = 10340,
+	next = 10344,
+	upgrade_id = 104,
+	id = 10343,
+	value_2 = 2,
+	value_1 = 23,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10344] = {
+	prev = 10343,
+	base = 10340,
+	next = 10345,
+	upgrade_id = 105,
+	id = 10344,
+	value_2 = 3,
+	value_1 = 24,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10345] = {
+	prev = 10344,
+	base = 10340,
+	next = 10346,
+	upgrade_id = 106,
+	id = 10345,
+	value_2 = 3,
+	value_1 = 25,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10346] = {
+	prev = 10345,
+	base = 10340,
+	next = 10347,
+	upgrade_id = 107,
+	id = 10346,
+	value_2 = 4,
+	value_1 = 26,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10347] = {
+	prev = 10346,
+	base = 10340,
+	next = 10348,
+	upgrade_id = 108,
+	id = 10347,
+	value_2 = 4,
+	value_1 = 27,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10348] = {
+	prev = 10347,
+	base = 10340,
+	next = 10349,
+	upgrade_id = 109,
+	id = 10348,
+	value_2 = 5,
+	value_1 = 28,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10349] = {
+	prev = 10348,
+	base = 10340,
+	next = 10350,
+	upgrade_id = 110,
+	id = 10349,
+	value_2 = 5,
+	value_1 = 29,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10350] = {
+	base = 10340,
+	prev = 10349,
+	next = 0,
+	upgrade_id = 111,
+	id = 10350,
+	value_2 = 6,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			11620,
+			1011620
+		}
+	}
+}

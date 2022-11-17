@@ -1145,6 +1145,11 @@ pg.player_resource = {
 		name = "Twouxiang_pt",
 		itemid = 59143
 	},
+	[30853] = {
+		id = 30853,
+		name = "skin_rerun_pt_us2022",
+		itemid = 0
+	},
 	get_id_list_by_name = {
 		gold = {
 			1
@@ -1832,6 +1837,9 @@ pg.player_resource = {
 		},
 		Twouxiang_pt = {
 			40275
+		},
+		skin_rerun_pt_us2022 = {
+			30853
 		}
 	},
 	all = {
@@ -2063,6 +2071,7 @@ pg.player_resource = {
 		4186,
 		4276,
 		100004,
-		40275
+		40275,
+		30853
 	}
 }
