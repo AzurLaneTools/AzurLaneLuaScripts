@@ -63,6 +63,8 @@ function slot0.GetConfig(slot0, slot1)
 end
 
 function slot0.GetIcon(slot0, slot1)
+	assert(slot0 ~= DROP_TYPE_SHIP, "舰船类型不应该用GetIcon, ID:" .. slot1)
+
 	return uv0.GetConfig(slot0, slot1).icon
 end
 

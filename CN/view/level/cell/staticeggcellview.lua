@@ -84,16 +84,15 @@ function slot2.RefreshEnemyTplIcons(slot0, slot1, slot2)
 		table.insertto(slot4, slot1.bufficon)
 	end
 
-	_.each(_.filter(slot2:GetWeather(slot0.line.row, slot0.line.column), function (slot0)
-		return slot0 == ChapterConst.FlagWeatherFog
-	end), function (slot0)
-		table.insert(uv0, pg.weather_data_template[slot0].buff_icon)
-	end)
+	slot10 = slot0.line.row
 
-	if #slot4 == 0 then
-		setActive(slot3, false)
+	function slot9(slot0)
+		return slot0 == ChapterConst.FlagWeatherFog
 	end
 
+	_.each(_.filter(slot2:GetWeather(slot10, slot0.line.column), slot9), function (slot0)
+		table.insert(uv0, pg.weather_data_template[slot0].buff_icon)
+	end)
 	setActive(slot3, true)
 	LevelGrid.AlignListContainer(slot3, #slot4)
 

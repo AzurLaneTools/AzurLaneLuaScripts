@@ -2636,5 +2636,14 @@ pg.gameset = {
 	report_level_limit = {
 		description = "",
 		key_value = 75
+	},
+	return_player_set = {
+		key_value = 0,
+		description = {
+			10,
+			30,
+			90,
+			14
+		}
 	}
 }

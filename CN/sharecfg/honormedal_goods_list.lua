@@ -511,7 +511,9 @@ pg.honormedal_goods_list = {
 		goods_rarity = 4,
 		order = 0,
 		goods = {
-			401461
+			401461,
+			801011,
+			901111
 		}
 	},
 	{
@@ -547,7 +549,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			303111,
 			303121,
-			403031
+			403031,
+			103131
 		}
 	},
 	{
@@ -568,7 +571,9 @@ pg.honormedal_goods_list = {
 			205021,
 			205061,
 			305111,
-			405021
+			405021,
+			105121,
+			105131
 		}
 	},
 	{
@@ -585,7 +590,9 @@ pg.honormedal_goods_list = {
 		goods_rarity = 4,
 		order = 0,
 		goods = {
-			107061
+			107061,
+			307051,
+			307061
 		}
 	},
 	{
@@ -602,7 +609,9 @@ pg.honormedal_goods_list = {
 		goods_rarity = 4,
 		order = 1,
 		goods = {
-			401461
+			401461,
+			801011,
+			901111
 		}
 	},
 	{
@@ -638,7 +647,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			303111,
 			303121,
-			403031
+			403031,
+			103131
 		}
 	},
 	{
@@ -659,7 +669,9 @@ pg.honormedal_goods_list = {
 			205021,
 			205061,
 			305111,
-			405021
+			405021,
+			105121,
+			105131
 		}
 	},
 	{
@@ -676,7 +688,9 @@ pg.honormedal_goods_list = {
 		goods_rarity = 4,
 		order = 1,
 		goods = {
-			107061
+			107061,
+			307051,
+			307061
 		}
 	},
 	all = {

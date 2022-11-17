@@ -317,15 +317,18 @@ function slot0.getEquipmentSkins(slot0, slot1, slot2)
 		return {}
 	end
 
-	slot6 = _.map(getProxy(EquipmentProxy):getSkinsByTypes(slot1:getSkinTypes(slot2)), function (slot0)
+	slot4 = slot1:getEquip(slot2) and {
+		slot3:getType()
+	} or slot1:getSkinTypes(slot2)
+	slot8 = _.map(getProxy(EquipmentProxy):getSkinsByTypes(slot4), function (slot0)
 		return {
 			isSkin = true,
 			id = slot0.id,
 			count = slot0.count
 		}
 	end)
-	slot7 = ipairs
-	slot8 = _.map(getProxy(BayProxy):getEquipmentSkinInShips(slot1, slot1:getSkinTypes(slot2)), function (slot0)
+	slot9 = ipairs
+	slot10 = _.map(getProxy(BayProxy):getEquipmentSkinInShips(slot1, slot4), function (slot0)
 		return {
 			isSkin = true,
 			count = 1,
@@ -335,11 +338,11 @@ function slot0.getEquipmentSkins(slot0, slot1, slot2)
 		}
 	end) or {}
 
-	for slot10, slot11 in slot7(slot8) do
-		table.insert(slot6, slot11)
+	for slot12, slot13 in slot9(slot10) do
+		table.insert(slot8, slot13)
 	end
 
-	return slot6
+	return slot8
 end
 
 function slot0.nextPage(slot0, slot1, slot2)

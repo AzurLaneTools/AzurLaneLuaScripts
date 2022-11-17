@@ -92,6 +92,10 @@ pg.arena_data_shop = {
 			{
 				43029,
 				300
+			},
+			{
+				43030,
+				300
 			}
 		},
 		commodity_list_5 = {
@@ -192,6 +196,14 @@ pg.arena_data_shop = {
 			{
 				33044,
 				50
+			},
+			{
+				43031,
+				300
+			},
+			{
+				43032,
+				300
 			}
 		},
 		refresh_price = {

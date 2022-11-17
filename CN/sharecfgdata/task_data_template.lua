@@ -28739,6 +28739,290 @@ _G.pg.base.task_data_template[5817] = {
 	}
 }
 
+_G.pg.base.task_data_template[5821] = {
+	name = "情书",
+	guild_coin_award = 0,
+	award = 5590,
+	type = 5,
+	desc = "提交3个《鱼雷天妇罗》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "bulvxieer",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "50003",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "5822",
+	auto_commit = 0,
+	story_id = "BULVXIEER1",
+	id = 5821,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5822] = {
+	name = "无法被打湿的爱意",
+	guild_coin_award = 0,
+	award = 5591,
+	type = 5,
+	desc = "强化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "bulvxieer",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "BULVXIEER2",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "5823",
+	auto_commit = 0,
+	scene = "",
+	id = 5822,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5823] = {
+	name = "比阳光更绚烂的热情",
+	guild_coin_award = 0,
+	award = 5592,
+	type = 5,
+	desc = "布吕歇尔上阵出击(关卡)胜利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "bulvxieer",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "BULVXIEER3",
+	quick_finish = 0,
+	level = 1,
+	target_id = "40302",
+	priority_type = 0,
+	next_task = "5824",
+	auto_commit = 0,
+	scene = "",
+	id = 5823,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5824] = {
+	name = "比港区更远的地方",
+	guild_coin_award = 0,
+	award = 5593,
+	type = 5,
+	desc = "布吕歇尔上阵完成3次每日挑战",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "bulvxieer",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "BULVXIEER4",
+	quick_finish = 0,
+	level = 1,
+	target_id = "40302",
+	priority_type = 0,
+	next_task = "5825",
+	auto_commit = 0,
+	scene = "",
+	id = 5824,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5825] = {
+	name = "落雪与拥抱",
+	guild_coin_award = 0,
+	award = 5594,
+	type = 5,
+	desc = "布吕歇尔好感度达到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "bulvxieer",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "BULVXIEER5",
+	quick_finish = 0,
+	level = 1,
+	target_id = "40302",
+	priority_type = 0,
+	next_task = "5826",
+	auto_commit = 0,
+	scene = "",
+	id = 5825,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5826] = {
+	name = "闪烁于星光之下",
+	guild_coin_award = 0,
+	award = 5595,
+	type = 5,
+	desc = "布吕歇尔突破至满星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "bulvxieer",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "BULVXIEER6",
+	quick_finish = 0,
+	level = 1,
+	target_id = "40302",
+	priority_type = 0,
+	next_task = "5827",
+	auto_commit = 0,
+	scene = "",
+	id = 5826,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5827] = {
+	name = "新的一天，新的约会",
+	guild_coin_award = 0,
+	award = 5596,
+	type = 5,
+	desc = "布吕歇尔等级达到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "bulvxieer",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	story_id = "BULVXIEER7",
+	quick_finish = 0,
+	level = 1,
+	target_id = "40302",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5827,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困难·近海演习",
 	guild_coin_award = 0,
@@ -192403,6 +192687,438 @@ _G.pg.base.task_data_template[18059] = {
 	}
 }
 
+_G.pg.base.task_data_template[18060] = {
+	name = "明石展会皮肤复刻耗油1",
+	guild_coin_award = 0,
+	award = 98462,
+	type = 6,
+	desc = "累计消耗石油500",
+	count_inherit = 18061,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "18061",
+	auto_commit = 0,
+	story_id = "",
+	id = 18060,
+	target_num = 500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60269,
+			100
+		},
+		{
+			8,
+			60270,
+			60
+		},
+		{
+			8,
+			60271,
+			80
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18061] = {
+	name = "明石展会皮肤复刻耗油2",
+	guild_coin_award = 0,
+	award = 98463,
+	type = 6,
+	desc = "累计消耗石油1000",
+	count_inherit = 18062,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "18062",
+	auto_commit = 0,
+	story_id = "",
+	id = 18061,
+	target_num = 1000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60273,
+			6
+		},
+		{
+			8,
+			60274,
+			20
+		},
+		{
+			8,
+			60275,
+			93
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18062] = {
+	name = "明石展会皮肤复刻耗油3",
+	guild_coin_award = 0,
+	award = 98464,
+	type = 6,
+	desc = "累计消耗石油1500",
+	count_inherit = 18063,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "18063",
+	auto_commit = 0,
+	story_id = "",
+	id = 18062,
+	target_num = 1500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60269,
+			157
+		},
+		{
+			8,
+			60270,
+			60
+		},
+		{
+			8,
+			60271,
+			86
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18063] = {
+	name = "明石展会皮肤复刻耗油4",
+	guild_coin_award = 0,
+	award = 98465,
+	type = 6,
+	desc = "累计消耗石油2000",
+	count_inherit = 18064,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "18064",
+	auto_commit = 0,
+	story_id = "",
+	id = 18063,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60269,
+			70
+		},
+		{
+			8,
+			60270,
+			10
+		},
+		{
+			8,
+			60271,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18064] = {
+	name = "明石展会皮肤复刻耗油5",
+	guild_coin_award = 0,
+	award = 98466,
+	type = 6,
+	desc = "累计消耗石油2500",
+	count_inherit = 18065,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "18065",
+	auto_commit = 0,
+	story_id = "",
+	id = 18064,
+	target_num = 2500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60273,
+			40
+		},
+		{
+			8,
+			60274,
+			20
+		},
+		{
+			8,
+			60275,
+			9
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18065] = {
+	name = "明石展会皮肤复刻耗油6",
+	guild_coin_award = 0,
+	award = 98467,
+	type = 6,
+	desc = "累计消耗石油3000",
+	count_inherit = 18066,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "18066",
+	auto_commit = 0,
+	story_id = "",
+	id = 18065,
+	target_num = 3000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60269,
+			110
+		},
+		{
+			8,
+			60270,
+			30
+		},
+		{
+			8,
+			60271,
+			95
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18066] = {
+	name = "明石展会皮肤复刻耗油7",
+	guild_coin_award = 0,
+	award = 98468,
+	type = 6,
+	desc = "累计消耗石油4000",
+	count_inherit = 18067,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "18067",
+	auto_commit = 0,
+	story_id = "",
+	id = 18066,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60272,
+			84
+		},
+		{
+			8,
+			60273,
+			15
+		},
+		{
+			8,
+			60274,
+			25
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18067] = {
+	name = "明石展会皮肤复刻耗油8",
+	guild_coin_award = 0,
+	award = 98469,
+	type = 6,
+	desc = "累计消耗石油5000",
+	count_inherit = 18068,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "18068",
+	auto_commit = 0,
+	story_id = "",
+	id = 18067,
+	target_num = 5000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60269,
+			138
+		},
+		{
+			8,
+			60270,
+			49
+		},
+		{
+			8,
+			60271,
+			33
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18068] = {
+	name = "明石展会皮肤复刻耗油9",
+	guild_coin_award = 0,
+	award = 98470,
+	type = 6,
+	desc = "累计消耗石油6000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18068,
+	target_num = 6000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60269,
+			100
+		},
+		{
+			8,
+			60270,
+			90
+		},
+		{
+			8,
+			60271,
+			40
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[30101] = {
 	name = "战斗胜利-日常",
 	guild_coin_award = 0,
@@ -201382,6 +202098,732 @@ _G.pg.base.task_data_template[35195] = {
 		{
 			7,
 			101271,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35196] = {
+	name = "【常驻活动】z23教师皮肤活动1",
+	guild_coin_award = 0,
+	award = 65195,
+	type = 26,
+	desc = "舰队出征，以S评价通关10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35196,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35197] = {
+	name = "【常驻活动】z23教师皮肤活动2",
+	guild_coin_award = 0,
+	award = 65196,
+	type = 26,
+	desc = "强化装备2次",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35197,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35198] = {
+	name = "【常驻活动】z23教师皮肤活动3",
+	guild_coin_award = 0,
+	award = 65197,
+	type = 26,
+	desc = "完成2次委托 ",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35198,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35199] = {
+	name = "【常驻活动】z23教师皮肤活动4",
+	guild_coin_award = 0,
+	award = 65198,
+	type = 26,
+	desc = "进行2次演习",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35199,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35200] = {
+	name = "【常驻活动】z23教师皮肤活动5",
+	guild_coin_award = 0,
+	award = 65199,
+	type = 26,
+	desc = "退役2艘舰船",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35200,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35201] = {
+	name = "【常驻活动】z23教师皮肤活动6",
+	guild_coin_award = 0,
+	award = 65200,
+	type = 26,
+	desc = "完成3次每日挑战 ",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35201,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54012,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35202] = {
+	name = "【常驻活动】z23教师皮肤活动7",
+	guild_coin_award = 0,
+	award = 65201,
+	type = 26,
+	desc = "进行2次战术训练",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35202,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35203] = {
+	name = "【常驻活动】z23教师皮肤活动8",
+	guild_coin_award = 0,
+	award = 65202,
+	type = 26,
+	desc = "强化舰船5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35203,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54021,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35204] = {
+	name = "【常驻活动】z23教师皮肤活动9",
+	guild_coin_award = 0,
+	award = 65203,
+	type = 26,
+	desc = "击沉任意敌人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35204,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35205] = {
+	name = "【常驻活动】z23教师皮肤活动10",
+	guild_coin_award = 0,
+	award = 65204,
+	type = 26,
+	desc = "后宅补充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35205,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50003,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35206] = {
+	name = "【常驻活动】z23教师皮肤活动11",
+	guild_coin_award = 0,
+	award = 65205,
+	type = 26,
+	desc = "舰队出征，通过任意困难关卡2次",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35206,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35207] = {
+	name = "【常驻活动】z23教师皮肤活动12",
+	guild_coin_award = 0,
+	award = 65206,
+	type = 26,
+	desc = "打开任意科技箱1个",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35207,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54001,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35208] = {
+	name = "【常驻活动】z23教师皮肤活动13",
+	guild_coin_award = 0,
+	award = 65207,
+	type = 26,
+	desc = "舰队出征，消灭敌方旗舰3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35208,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35209] = {
+	name = "【常驻活动】z23教师皮肤活动14",
+	guild_coin_award = 0,
+	award = 65208,
+	type = 26,
+	desc = "进行2次战术训练",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35209,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35210] = {
+	name = "【常驻活动】z23教师皮肤活动15",
+	guild_coin_award = 0,
+	award = 65209,
+	type = 26,
+	desc = "舰队出征，以S评价通关10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "0",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35210,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35211] = {
+	name = "【常驻活动】z23教师皮肤活动16",
+	guild_coin_award = 0,
+	award = 65210,
+	type = 26,
+	desc = "分解5件装备",
+	count_inherit = 0,
+	sub_type = 41,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35211,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15003,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35212] = {
+	name = "【常驻活动】z23教师皮肤活动17",
+	guild_coin_award = 0,
+	award = 65211,
+	type = 26,
+	desc = "建造舰船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35212,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35213] = {
+	name = "【常驻活动】z23教师皮肤活动18",
+	guild_coin_award = 0,
+	award = 65212,
+	type = 26,
+	desc = "退役2艘舰船",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35213,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35214] = {
+	name = "【常驻活动】z23教师皮肤活动19",
+	guild_coin_award = 0,
+	award = 65213,
+	type = 26,
+	desc = "强化装备2次",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35214,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[35215] = {
+	name = "【常驻活动】z23教师皮肤活动20",
+	guild_coin_award = 0,
+	award = 65214,
+	type = 26,
+	desc = "完成2次委托 ",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 35215,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			401231,
 			1
 		}
 	}
@@ -243949,6 +245391,925 @@ _G.pg.base.task_data_template[55479] = {
 			500
 		}
 	}
+}
+
+_G.pg.base.task_data_template[56011] = {
+	name = "【新回流任务第一天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "舰队出征，消灭敌方旗舰15次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56011,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56012] = {
+	name = "【新回流任务第一天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "建造舰船10次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56012,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56013] = {
+	name = "【新回流任务第一天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "舰船强化30次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56013,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56021] = {
+	name = "【新回流任务第二天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "使用100个舰艇演习数据T1",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	target_id = "16501",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 56021,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[56022] = {
+	name = "【新回流任务第二天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "拥有满星舰船独角兽",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56022,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		206034,
+		206134
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56023] = {
+	name = "【新回流任务第二天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "完成12次每日挑战",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56023,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56031] = {
+	name = "【新回流任务第三天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "进行15次战术训练",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56031,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56032] = {
+	name = "【新回流任务第三天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "对任意角色进行1次改造",
+	count_inherit = 0,
+	sub_type = 1018,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56032,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56033] = {
+	name = "【新回流任务第三天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "拥有一艘100级及以上舰船独角兽",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "20603",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56033,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56041] = {
+	name = "【新回流任务第四天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "拥有一艘等级上限为105级及以上舰船独角兽",
+	count_inherit = 0,
+	sub_type = 1045,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "20603",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56041,
+	target_num = 105,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56042] = {
+	name = "【新回流任务第四天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "打开任意科技箱5次",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56042,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56043] = {
+	name = "【新回流任务第四天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "通过任意主线困难关卡10次",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "10101",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56043,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56051] = {
+	name = "【新回流任务第五天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "核心商店兑换一式穿甲弹",
+	count_inherit = 0,
+	sub_type = 152,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56051,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			3,
+			600
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56052] = {
+	name = "【新回流任务第五天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "拥有3件强化至+6的精锐及以上品质装备",
+	count_inherit = 0,
+	sub_type = 44,
+	target_id_2 = "6",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "3",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56052,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56053] = {
+	name = "【新回流任务第五天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "参与50次军事演习",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56053,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56061] = {
+	name = "【新回流任务第六天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "提交大舰队筹备15次",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56061,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56062] = {
+	name = "【新回流任务第六天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "在舰队商店兑换5个通用部件T4",
+	count_inherit = 0,
+	sub_type = 151,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "17004",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56062,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56063] = {
+	name = "【新回流任务第六天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "将一式穿甲弹强化至+11",
+	count_inherit = 0,
+	sub_type = 45,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "611",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56063,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56071] = {
+	name = "【新回流任务第七天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "完成15次科研",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56071,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56072] = {
+	name = "【新回流任务第七天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "使用蓝图或使用物资代替蓝图进行方案舰开发7次",
+	count_inherit = 0,
+	sub_type = 191,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56072,
+	target_num = 7,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56073] = {
+	name = "【新回流任务第七天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "训练10个喵箱",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56073,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56081] = {
+	name = "【新回流任务第八天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "舰队出征，大型作战中任意海域战斗1次",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56081,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56082] = {
+	name = "【新回流任务第八天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "舰队出征，大型作战中压制任意海域1个",
+	count_inherit = 0,
+	sub_type = 310,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56082,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56083] = {
+	name = "【新回流任务第八天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "使用装备研发制作任意装备1件",
+	count_inherit = 0,
+	sub_type = 46,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56083,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56091] = {
+	name = "【新回流任务第九天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "通过制造获得任意一件精锐及以上品质特殊兵装",
+	count_inherit = 0,
+	sub_type = 200,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56091,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		">=",
+		3
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56092] = {
+	name = "【新回流任务第九天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "将任意精锐及以上品质兵装强化至+10",
+	count_inherit = 0,
+	sub_type = 201,
+	target_id_2 = "10",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "3",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56092,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56093] = {
+	name = "【新回流任务第九天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "重构1次任意精锐及以上品质兵装",
+	count_inherit = 0,
+	sub_type = 202,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56093,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		">=",
+		3
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56101] = {
+	name = "【新回流任务第十天】任务1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "执行50次军事委托",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56101,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56102] = {
+	name = "【新回流任务第十天】任务2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "解析1次本期信标作战",
+	count_inherit = 0,
+	sub_type = 311,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56102,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[56103] = {
+	name = "【新回流任务第十天】任务3",
+	guild_coin_award = 0,
+	award = 0,
+	type = 15,
+	desc = "协助其他指挥官进行1次本期信标作战",
+	count_inherit = 0,
+	sub_type = 309,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	story_id = "",
+	quick_finish = 0,
+	level = 1,
+	target_id = "0",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 56103,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
 }
 
 _G.pg.base.task_data_template[60011] = {

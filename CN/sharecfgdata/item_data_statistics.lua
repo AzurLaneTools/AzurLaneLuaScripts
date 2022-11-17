@@ -19062,6 +19062,912 @@ _G.pg.base.item_data_statistics[40129] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40701] = {
+	display = "购买礼包可获得心智魔方x10、快速完成工具x5",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40701,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40702] = {
+	display = "购买礼包可获得心智魔方x20、快速完成工具x10",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40702,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40703] = {
+	display = "购买礼包可获得泛用型布里x1、舰艇演习数据T1x200",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40703,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			1
+		},
+		{
+			2,
+			16501,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40704] = {
+	display = "购买礼包可获得泛用型布里x2、舰艇演习数据T2x50",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40704,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			2
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40705] = {
+	display = "购买礼包可获得随机教材T3x3、随机教材T2x9、随机改造图纸T2x8",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40705,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi3",
+	display_icon = {
+		{
+			2,
+			54006,
+			3
+		},
+		{
+			2,
+			54005,
+			9
+		},
+		{
+			2,
+			54050,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40706] = {
+	display = "购买礼包可获得随机教材T4x3、随机教材T3x9、随机改造图纸T3x8",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40706,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi3",
+	display_icon = {
+		{
+			2,
+			54007,
+			3
+		},
+		{
+			2,
+			54006,
+			9
+		},
+		{
+			2,
+			54051,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40707] = {
+	display = "购买礼包可获得心智单元x150、随机科技箱T4x4",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40707,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			150
+		},
+		{
+			2,
+			54034,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40708] = {
+	display = "购买礼包可获得心智单元x300、随机科技箱T4x8",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40708,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			300
+		},
+		{
+			2,
+			54034,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40709] = {
+	display = "购买礼包可获得核心数据x150、定向部件T3x30",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40709,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			150
+		},
+		{
+			2,
+			30113,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40710] = {
+	display = "购买礼包可获得核心数据x300、定向部件T3x60",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40710,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			300
+		},
+		{
+			2,
+			30113,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40711] = {
+	display = "购买礼包可获得定向部件T4x5、舰队币x300",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40711,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			1,
+			8,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40712] = {
+	display = "购买礼包可获得定向部件T4x15、舰队币x800",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40712,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			1,
+			8,
+			800
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40713] = {
+	display = "购买礼包可获得试作型布里MKIIx1、家具币x100",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40713,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40714] = {
+	display = "购买礼包可获得试作型布里MKIIx2、家具币x300",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40714,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			1,
+			6,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40715] = {
+	display = "购买礼包可获得功勋x2000、皇家料理x6",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40715,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi8",
+	display_icon = {
+		{
+			1,
+			3,
+			2000
+		},
+		{
+			2,
+			50005,
+			6
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40716] = {
+	display = "购买礼包可获得功勋x4000、满汉全席x3",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40716,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi8",
+	display_icon = {
+		{
+			1,
+			3,
+			4000
+		},
+		{
+			2,
+			50006,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40717] = {
+	display = "购买礼包可获得荣誉勋章x80、石油x500",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40717,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			80
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40718] = {
+	display = "购买礼包可获得荣誉勋章x200、石油x1000",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40718,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			200
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40719] = {
+	display = "购买礼包可获得特殊兵装核心x5、兵装强化石T2x15",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40719,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			5
+		},
+		{
+			2,
+			15016,
+			15
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40720] = {
+	display = "购买礼包可获得特殊兵装核心x10、兵装强化石T3x3",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40720,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15017,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40721] = {
+	display = "购买礼包可获得喵箱SSR型x1、喵箱训练加速工具x120",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40721,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			1
+		},
+		{
+			2,
+			20010,
+			120
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40722] = {
+	display = "购买礼包可获得喵箱SSR型x2、喵箱训练加速工具x240",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40722,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			2
+		},
+		{
+			2,
+			20010,
+			240
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40723] = {
+	display = "购买礼包可获得高级定向蓝图·四期x2、石油x500",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40723,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi12",
+	display_icon = {
+		{
+			2,
+			42036,
+			2
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40724] = {
+	display = "购买礼包可获得高级定向蓝图·四期x4、石油x1000",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40724,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi12",
+	display_icon = {
+		{
+			2,
+			42036,
+			4
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40725] = {
+	display = "购买礼包可获得装备研发物资箱T2x20、装备研发物资箱T3x5",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40725,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi13",
+	display_icon = {
+		{
+			2,
+			150001,
+			20
+		},
+		{
+			2,
+			150002,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40726] = {
+	display = "购买礼包可获得装备研发物资箱T3x10、研发图纸SSR型x4",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40726,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi13",
+	display_icon = {
+		{
+			2,
+			150002,
+			10
+		},
+		{
+			2,
+			30914,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40727] = {
+	display = "购买礼包可获得高效作战指令书x10、石油x500",
+	name = "回归补给礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40727,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			10
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40728] = {
+	display = "购买礼包可获得高效作战指令书x20、石油x1000",
+	name = "回归豪华礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40728,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			20
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40801] = {
 	display = "恭喜您达成播放量1000，感谢您对碧蓝航线的支持！可获得石油储备箱(500)*1",
 	name = "激励计划梯度奖励(1000)",
@@ -20265,6 +21171,103 @@ _G.pg.base.item_data_statistics[40920] = {
 			1,
 			6,
 			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40921] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "回归礼包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40921,
+	is_world = 0,
+	icon = "Props/support6",
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			200
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		},
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			2,
+			30113,
+			60
+		},
+		{
+			1,
+			3,
+			20000
+		},
+		{
+			2,
+			59900,
+			1000
 		}
 	},
 	price = {},
@@ -179458,6 +180461,27 @@ _G.pg.base.item_data_statistics[59615] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59616] = {
+	display = "用于「回流活动」累计点数获得奖励，活动结束后将会消失",
+	name = "作战点数",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 6,
+	link_id = 0,
+	id = 59616,
+	is_world = 0,
+	icon = "Props/xinhuiliupt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59621] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",
@@ -189072,6 +190096,153 @@ _G.pg.base.item_data_statistics[60268] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[60269] = {
+	display = "颜料A，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60269,
+	is_world = 0,
+	icon = "props/draw_a",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60270] = {
+	display = "颜料B，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60270,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60271] = {
+	display = "颜料C，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60271,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60272] = {
+	display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60272,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60273] = {
+	display = "颜料E，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60273,
+	is_world = 0,
+	icon = "props/draw_e",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60274] = {
+	display = "颜料F，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60274,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60275] = {
+	display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60275,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "大舰队作战伤害数值，仅用于大舰队BOSS伤害结算",
 	name = "伤害值",
@@ -192164,6 +193335,48 @@ _G.pg.base.item_data_statistics[150003] = {
 		{
 			2,
 			18123,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[150004] = {
+	display = "有几率获得以下META舰装修复物资",
+	name = "未知META舰装修复物资",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 150004,
+	is_world = 0,
+	icon = "Props/150004",
+	display_icon = {
+		{
+			2,
+			21101,
+			1
+		},
+		{
+			2,
+			21111,
+			1
+		},
+		{
+			2,
+			21121,
+			1
+		},
+		{
+			2,
+			21131,
 			1
 		}
 	},

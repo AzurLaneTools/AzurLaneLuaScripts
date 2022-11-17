@@ -31,7 +31,7 @@ function slot0.Update(slot0)
 
 			uv0:GetLoader():GetSprite("enemies/" .. uv1.prefab, "", findTF(slot0, "icon"))
 			setActive(findTF(slot0, "lv"), false)
-			setActive(findTF(slot0, "titleContain"), false)
+			setActive(findTF(slot0, "titleContain/bg_boss"), false)
 			setActive(findTF(slot0, "damage_count"), false)
 			setActive(findTF(slot0, "fighting"), false)
 
@@ -41,6 +41,16 @@ function slot0.Update(slot0)
 		end)
 	elseif slot1.flag == 1 and slot0.state ~= uv0.StateDead then
 		slot0.state = uv0.StateDead
+
+		if not IsNil(slot0.enemy) then
+			slot3 = slot0.enemy
+
+			setActive(findTF(slot3, "lv"), true)
+			setActive(findTF(slot3, "titleContain"), true)
+			setActive(findTF(slot3, "damage_count"), true)
+			setActive(findTF(slot3, "fighting"), true)
+		end
+
 		slot0.enemy = nil
 
 		slot0:ClearLoader()
@@ -72,6 +82,19 @@ function slot0.Update(slot0)
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
 		end
 	end
+end
+
+function slot0.DestroyGO(slot0)
+	if not IsNil(slot0.enemy) then
+		slot1 = slot0.enemy
+
+		setActive(findTF(slot1, "lv"), true)
+		setActive(findTF(slot1, "titleContain"), true)
+		setActive(findTF(slot1, "damage_count"), true)
+		setActive(findTF(slot1, "fighting"), true)
+	end
+
+	uv0.super.DestroyGO(slot0)
 end
 
 return slot0

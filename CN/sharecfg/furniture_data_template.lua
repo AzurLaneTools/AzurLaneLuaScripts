@@ -6521,6 +6521,86 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[237] = {
+		spine_extra = "",
+		describe = "让我们带着满满的爱与热情，继续杨帆起航~啾！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "两千日的舞台",
+		themeId = 0,
+		icon = "2000daysicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 5,
+		picture = "",
+		canputon = 0,
+		id = 237,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"2000daysB",
+				"normal"
+			},
+			{
+				"2000daysT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					107030
+				},
+				"furniture",
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -114700,6 +114780,7 @@ pg.furniture_data_template = {
 			234,
 			235,
 			236,
+			237,
 			100001,
 			100002,
 			100003,
@@ -114906,6 +114987,7 @@ pg.furniture_data_template = {
 			234,
 			235,
 			236,
+			237,
 			100001,
 			100002,
 			100003,
@@ -121857,6 +121939,7 @@ pg.furniture_data_template = {
 			232,
 			234,
 			235,
+			237,
 			100001,
 			100002,
 			100003,
@@ -122722,6 +122805,7 @@ pg.furniture_data_template = {
 			234,
 			235,
 			236,
+			237,
 			100001,
 			100002,
 			100004,
@@ -125277,6 +125361,7 @@ pg.furniture_data_template = {
 		234,
 		235,
 		236,
+		237,
 		100001,
 		100002,
 		100003,

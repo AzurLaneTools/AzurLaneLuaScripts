@@ -312,6 +312,7 @@ function slot0.insertShip(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getTeamByName(slot3)
 
 	if slot0:isFull() or slot0:containShip(slot1) or not slot1:isAvaiable() or TeamType.GetTeamShipMax(slot3) <= #slot4 then
+		error("fleet insert error")
 		pg.TipsMgr.GetInstance():ShowTips("fleet insert error")
 	else
 		slot2 = slot2 or #slot4 + 1

@@ -2362,11 +2362,11 @@ _G.pg.base.gametip.coloring_help_tip = {
 5.颜料可通过活动任务累计消耗石油获得。
 6.完成上色可以获得奖励。
 7.各图完成奖励明细如下：
-	完成图1获得T3通用改造部件 x4；
-	完成图2获得T3随机教材 x3；
-	完成图3获得小光辉 x1。
+	完成图1获得T3随机教材 x3；
+	完成图2获得T3通用改造部件 x4；
+	完成图3获得换装「茗_在A1摊位喵！」 x1。
 8.活动结束后，未消耗的颜料会被清除。
-9.到<color=#92fc63>9月3日</color>为止每天解锁一个可完成的绘图。]]
+9.到<color=#92fc63>11月19日</color>为止每天解锁一个可完成的绘图。]]
 		}
 	}
 }
@@ -9448,6 +9448,10 @@ _G.pg.base.gametip.charge_scene_buy_confirm = {
 	tip = "是否使用<color=#92fc63FF>$1钻石</color>购买<color=#92fc63FF>$2</color>"
 }
 
+_G.pg.base.gametip.charge_scene_buy_confirm_gold = {
+	tip = "是否使用<color=#92fc63FF>$1物资</color>购买<color=#92fc63FF>$2</color>"
+}
+
 _G.pg.base.gametip.charge_scene_batch_buy_tip = {
 	tip = "是否使用<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>钻石购买<color=$3>$2</color>个$4"
 }
@@ -10052,15 +10056,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "巴尔的摩(μ兵装) 建造追加！"
+	tip = "布莱默顿 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "黛朵(μ兵装)、塔什干(μ兵装) 建造追加！"
+	tip = "里诺、英格拉罕、库珀、Z2等角色 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:190}、大青花鱼(μ兵装) 建造追加！"
+	tip = "无畏、鹦鹉螺 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
