@@ -21178,41 +21178,15 @@ pg.activity_template = {
 	},
 	[40916] = {
 		mark = 20221103,
-		config_client = "",
 		title_res_tag = "fuxu_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 40916,
 		is_show = 24,
+		config_client = "",
 		id = 40916,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					11,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					11,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FuxuPtPage",
 			ui_name = "FuxuPtPage"
@@ -21261,12 +21235,13 @@ pg.activity_template = {
 	},
 	[40918] = {
 		mark = 20221103,
-		id = 40918,
 		title_res_tag = "shengdiyagefuke",
+		time = "stop",
 		type = 45,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 23,
+		id = 40918,
 		config_data = {
 			{
 				{
@@ -21285,33 +21260,6 @@ pg.activity_template = {
 				8973
 			},
 			7
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					11,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					11,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "SandiegoReformPage",
@@ -21343,7 +21291,7 @@ pg.activity_template = {
 	},
 	[40919] = {
 		mark = 20221103,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -21351,75 +21299,23 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 40919,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					11,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					11,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 40919
 	},
 	[40920] = {
 		mark = 20221103,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 40920,
 		config_data = {
 			1580001,
 			1580002,
 			1580003
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					11,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					11,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -22170,7 +22066,7 @@ pg.activity_template = {
 		},
 		config_client = {
 			16538,
-			buildLinkActID = 946
+			buildLinkActID = 40933
 		}
 	},
 	[40932] = {
@@ -22201,7 +22097,7 @@ pg.activity_template = {
 				{
 					2022,
 					12,
-					7
+					1
 				},
 				{
 					23,

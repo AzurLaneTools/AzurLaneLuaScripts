@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 207090,
 			dir = 1,
-			say = "……然后海水本身正在變成甜點？！",
+			say = "……然後海水本身正在變成甜點？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			actor = 107990,
 			dir = 1,
-			say = "這究竟是……你究竟做了什麼？！",
+			say = "這究竟是……妳究竟做了什麼？！",
 			painting = {
 				alpha = 0.3,
 				time = 1

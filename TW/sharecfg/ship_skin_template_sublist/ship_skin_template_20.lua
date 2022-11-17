@@ -6013,7 +6013,7 @@ pg.ship_skin_template_20 = {
 	},
 	[399033] = {
 		ship_group = 39903,
-		name = "北風馬戲團",
+		name = "鴿子與魔術之夜",
 		bullet_skin_secondary = "",
 		hand_id = 6,
 		bgm = "",

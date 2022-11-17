@@ -102,6 +102,12 @@ pg.skin_page_template = {
 		res = "shuiyi",
 		english_name = "Home Relaxation"
 	},
+	[21] = {
+		id = 21,
+		name = "舞蹈空間",
+		res = "wudao",
+		english_name = "Rhythm & Steps"
+	},
 	[9997] = {
 		id = 9997,
 		name = "改造",
@@ -138,6 +144,7 @@ pg.skin_page_template = {
 		16,
 		17,
 		20,
+		21,
 		9997,
 		9998,
 		9999

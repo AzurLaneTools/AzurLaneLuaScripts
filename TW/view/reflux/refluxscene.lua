@@ -24,7 +24,7 @@ function slot0.didEnter(slot0)
 	end
 
 	if not slot0:tryOpenLetterView() then
-		triggerToggle(slot0.toggleList[uv0.Sign], true)
+		slot0:tryAutoOpenLastView()
 	end
 
 	slot0:updateDay()
@@ -149,6 +149,15 @@ function slot0.switchPage(slot0, slot1)
 		end
 
 		slot0.curViewIndex = slot1
+		slot0.contextData.lastViewIndex = slot1
+	end
+end
+
+function slot0.tryAutoOpenLastView(slot0)
+	if slot0.contextData.lastViewIndex then
+		triggerToggle(slot0.toggleList[slot0.contextData.lastViewIndex], true)
+	else
+		triggerToggle(slot0.toggleList[uv0.Sign], true)
 	end
 end
 

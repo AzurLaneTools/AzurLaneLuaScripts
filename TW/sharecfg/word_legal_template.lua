@@ -635,7 +635,18 @@ function temp()
 		},
 		["倫"] = {
 			["托"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1304,6 +1315,19 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["倫"] = {
+			["·"] = {
+				M = {
+					["·"] = {
+						["桑"] = {
+							["拿"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -1701,6 +1725,11 @@ function temp()
 		},
 		["柴"] = {
 			["郡"] = {
+				this = true
+			}
+		},
+		["施"] = {
+			["佩"] = {
 				this = true
 			}
 		}
@@ -5359,6 +5388,24 @@ function temp()
 	uv0["葛"] = {
 		["城"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["史"] = {
+		["蒂"] = {
+			["芬"] = {
+				["·"] = {
+					["波"] = {
+						["特"] = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
