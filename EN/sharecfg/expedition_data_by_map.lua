@@ -15002,7 +15002,7 @@ pg.expedition_data_by_map = {
 	},
 	[2200050] = {
 		map = 2200050,
-		name = "The Smoldering South Sea|| ||CHAPTER SP||S.P.",
+		name = "The Solomon Ranger|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",

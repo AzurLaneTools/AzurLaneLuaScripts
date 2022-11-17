@@ -3507,17 +3507,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Medal Shop (when listed)",
 				{
 					"SHOP",
@@ -4311,17 +4300,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Medal Shop (when listed)",
 				{
 					"SHOP",
@@ -4369,17 +4347,6 @@ pg.ship_data_group = {
 				"Event: Fallen Wings",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Heavy Ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
 				},
 				0
 			},
@@ -6874,17 +6841,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Guild shop exchange",
 				{
 					"SHOP",
@@ -7652,17 +7608,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Guild shop exchange",
 				{
 					"SHOP",
@@ -8088,17 +8033,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Medal Shop (when listed)",
 				{
 					"SHOP",
@@ -8284,17 +8218,6 @@ pg.ship_data_group = {
 				"Event: Winter's Crown",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Light Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			},
@@ -9750,17 +9673,6 @@ pg.ship_data_group = {
 				"Event: Lunar New Year",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Light/Special Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
 				},
 				0
 			}
@@ -12553,17 +12465,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Requisition (random chance)",
 				{
 					"GETBOAT",
@@ -12605,12 +12506,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15175,17 +15075,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Special Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Medal Shop (when listed)",
 				{
 					"SHOP",
@@ -15233,17 +15122,6 @@ pg.ship_data_group = {
 				"Event: Visitors Dyed in Red",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Special Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
 				},
 				0
 			},
@@ -16291,17 +16169,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Requisition (random chance)",
 				{
 					"GETBOAT",
@@ -16782,17 +16649,6 @@ pg.ship_data_group = {
 				"Event: Divergent Chessboard",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Heavy Ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
 				},
 				0
 			},
@@ -18031,17 +17887,6 @@ pg.ship_data_group = {
 				"Event: Divergent Chessboard",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Special Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
 				},
 				0
 			},
@@ -20232,17 +20077,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Medal Shop (when listed)",
 				{
 					"SHOP",
@@ -20660,17 +20494,6 @@ pg.ship_data_group = {
 				"Event: Iris of Light and Dark",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			},

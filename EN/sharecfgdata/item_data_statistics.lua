@@ -17080,7 +17080,7 @@ _G.pg.base.item_data_statistics[40014] = {
 
 _G.pg.base.item_data_statistics[40015] = {
 	display = "Contains loads of valuable rewards.",
-	name = "New Commanders Support Pack IV ",
+	name = "New Commanders Support Pack IV",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -17600,7 +17600,7 @@ _G.pg.base.item_data_statistics[40100] = {
 
 _G.pg.base.item_data_statistics[40102] = {
 	display = "Contains loads of valuable rewards.",
-	name = "Red Dyed\nRaiders Supplies",
+	name = "Red Dyed Raiders Supplies",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 2000,
@@ -17755,7 +17755,7 @@ _G.pg.base.item_data_statistics[40106] = {
 
 _G.pg.base.item_data_statistics[40107] = {
 	display = "Contains loads of valuable rewards.",
-	name = "Limited \nRaiders Supplies",
+	name = "Limited Raiders Supplies",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 3000,
@@ -17782,7 +17782,7 @@ _G.pg.base.item_data_statistics[40107] = {
 
 _G.pg.base.item_data_statistics[40108] = {
 	display = "Contains loads of valuable rewards.",
-	name = "Limited \nConstruction Supplies",
+	name = "Limited Construction Supplies",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -17819,7 +17819,7 @@ _G.pg.base.item_data_statistics[40108] = {
 
 _G.pg.base.item_data_statistics[40109] = {
 	display = "Contains loads of valuable rewards.",
-	name = "Divergent Chessboard \nSupplies ",
+	name = "Divergent Chessboard Supplies",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 3000,
@@ -17846,7 +17846,7 @@ _G.pg.base.item_data_statistics[40109] = {
 
 _G.pg.base.item_data_statistics[40113] = {
 	display = "Contains loads of valuable rewards.",
-	name = "Fallen Wings\nStrategic Supplies",
+	name = "Fallen Wings Strategic Supplies",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 2000,
@@ -17873,7 +17873,7 @@ _G.pg.base.item_data_statistics[40113] = {
 
 _G.pg.base.item_data_statistics[40114] = {
 	display = "Contains loads of valuable rewards.",
-	name = "Fallen Wings\nConstruction Supplies",
+	name = "Fallen Wings Construction Supplies",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -171597,7 +171597,7 @@ _G.pg.base.item_data_statistics[59614] = {
 
 _G.pg.base.item_data_statistics[59615] = {
 	display = "Earned through completing homecoming missions. Will be removed after the event period ends.",
-	name = "Ballot ",
+	name = "Homecoming Points",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -180485,7 +180485,7 @@ _G.pg.base.item_data_statistics[60259] = {
 }
 
 _G.pg.base.item_data_statistics[60269] = {
-	display = "Pigment A used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	display = "Pigment A used during Akashi's Fanbook event. Disappears after event has ended.",
 	name = "Pigment A",
 	max_num = 0,
 	type = 0,
@@ -180506,7 +180506,7 @@ _G.pg.base.item_data_statistics[60269] = {
 }
 
 _G.pg.base.item_data_statistics[60270] = {
-	display = "Pigment B used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	display = "Pigment B used during Akashi's Fanbook event. Disappears after event has ended.",
 	name = "Pigment B",
 	max_num = 0,
 	type = 0,
@@ -180527,7 +180527,7 @@ _G.pg.base.item_data_statistics[60270] = {
 }
 
 _G.pg.base.item_data_statistics[60271] = {
-	display = "Pigment C used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	display = "Pigment C used during Akashi's Fanbook event. Disappears after event has ended.",
 	name = "Pigment C",
 	max_num = 0,
 	type = 0,
@@ -180548,7 +180548,7 @@ _G.pg.base.item_data_statistics[60271] = {
 }
 
 _G.pg.base.item_data_statistics[60272] = {
-	display = "Pigment D used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	display = "Pigment D used during Akashi's Fanbook event. Disappears after event has ended.",
 	name = "Pigment D",
 	max_num = 0,
 	type = 0,
@@ -180569,7 +180569,7 @@ _G.pg.base.item_data_statistics[60272] = {
 }
 
 _G.pg.base.item_data_statistics[60273] = {
-	display = "Pigment E used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	display = "Pigment E used during Akashi's Fanbook event. Disappears after event has ended.",
 	name = "Pigment E",
 	max_num = 0,
 	type = 0,
@@ -180590,7 +180590,7 @@ _G.pg.base.item_data_statistics[60273] = {
 }
 
 _G.pg.base.item_data_statistics[60274] = {
-	display = "Pigment F used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	display = "Pigment F used during Akashi's Fanbook event. Disappears after event has ended.",
 	name = "Pigment F",
 	max_num = 0,
 	type = 0,
@@ -180611,7 +180611,7 @@ _G.pg.base.item_data_statistics[60274] = {
 }
 
 _G.pg.base.item_data_statistics[60275] = {
-	display = "Pigment G used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	display = "Pigment G used during Akashi's Fanbook event. Disappears after event has ended.",
 	name = "Pigment G",
 	max_num = 0,
 	type = 0,
@@ -182077,7 +182077,7 @@ The available outfits and their rarities are as follows:
 （<color=#92fc72>8.3%</color>）Emden - White-Black Partita<color=#92fc63> Live2D</color>;
 （<color=#92fc73>8.3%</color>）Ägir - Iron Blood's Dragon Maid<color=#92fc63> Live2D</color>;
 （<color=#92fc74>8.3%</color>）Roon - Viridescent Lullaby<color=#92fc63> Live2D</color>]],
-	name = "Random Ship skin ",
+	name = "Random Ship skin",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,

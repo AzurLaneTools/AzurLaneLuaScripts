@@ -22567,7 +22567,7 @@ pg.skill_data_template = {
 		id = 11620,
 		type = 1,
 		max_level = 10,
-		desc = "When this ship's Airstrike has finished loading: randomly launches an additional Ryuusei, Suisei, or Saiun airstrike. The other two airstrikes each have a $1 chance to proc (Saiuns will not attack, but will increase your Main Fleet's DMG by 10.0% for 8s when launched). ",
+		desc = "When this ship's Airstrike has finished loading: $1 chance to launch an additional Ryusei, Suisei, or Saiun airstrike. Each proc chance is independent of the others. (The Saiuns will not attack, but they will increase your Main Fleet's DMG by 10.0% for 8s when launched.)",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -98652,7 +98652,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 1011620,
 		type = 1,
 		max_level = 10,
-		desc = "When this ship's airstrike has finished loading: launches 2 additional randomly chosen airstrikes consisting of either Ryusei, Suisei, or Saiun squadrons, with a $1 chance to launch the remaining squadron not chosen. (Saiuns do not attack, instead increasing your Main Fleet's DMG dealt by 10.0% for 8s when launched.)",
+		desc = "When this ship's airstrike has finished loading: launches 2 additional randomly chosen airstrikes consisting of Ryusei, Suisei, or Saiun squadrons, with a $1 chance to launch the remaining squadron not chosen. (Saiuns do not attack, instead increasing your Main Fleet's DMG dealt by 10.0% for 8s when launched.)",
 		system_transform = {},
 		world_death_mark = {
 			1

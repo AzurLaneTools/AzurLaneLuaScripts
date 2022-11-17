@@ -2705,18 +2705,18 @@ _G.pg.base.gametip.coloring_help_tip = {
 		},
 		{
 			info = [[
-1. Each cell of the Coloring Book is marked with a number that corresponds to the paint color of the same number. Select the paint color from the palette on the right and click on the cell to color it. 
+1. Each cell of the Fanbook is marked with a number that corresponds to the pigment color of the same number. Select the pigment color from the palette on the right and click on the cell to color it. 
 2. The drawing area can be zoomed in and out by stretching or pinching with two fingers. 
-3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no paint of that color left. 
-4. Coloring each cell will consume paint. If no paint is left, no more cells may be colored. 
-5. Paint can be obtained by completing event missions to consume a total amount of oil. 
-6. Completing pages in the Coloring Book will grant rewards. 
+3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no pigment of that color left. 
+4. Coloring each cell will consume pigment. If no pigment is left, no more cells may be colored. 
+5. Pigments can be obtained by completing event missions to consume a total amount of oil. 
+6. Completing pages in the Fanbook will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: T3 General Parts x4
-	 Complete Page 2: Random T3 Skill Book x3
-	 Complete Page 3: Little Illustrious x1;
-8. After the event ends, unused paint will be removed.
-9. One new page will be unlocked every day up to September 3rd.]]
+	 Complete Page 1: Random T3 Skill Books x3
+	 Complete Page 2: T3 General Parts x4
+	 Complete Page 3: Akashi's limited skin "Welcome to AzurCon";
+8. After the event ends, unused pigments will be removed.
+9. One new page will be unlocked every day up to November 19th.]]
 		}
 	}
 }
@@ -9570,7 +9570,7 @@ _G.pg.base.gametip.charge_scene_buy_confirm = {
 }
 
 _G.pg.base.gametip.charge_scene_buy_confirm_gold = {
-	tip = "Spend <color=#A9F548FF>$1 Gems</color> to buy <color=#A9F548FF>$2</color>?"
+	tip = "Spend <color=#A9F548FF>$1 Gold</color> to buy <color=#A9F548FF>$2</color>?"
 }
 
 _G.pg.base.gametip.charge_scene_batch_buy_tip = {
@@ -10172,11 +10172,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Tashkent μ, Dido μ added to standard build pool ! "
+	tip = "Baltimore μ added to standard build pool ! "
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Baltimore μ added to standard build pool ! "
+	tip = "Tashkent μ, Dido μ added to standard build pool ! "
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -20398,6 +20398,19 @@ _G.pg.base.gametip.attrset_input_ill = {
 	tip = "Input error."
 }
 
+_G.pg.base.gametip.blackfriday_help = {
+	tip = {
+		{
+			info = [[
+Event Rules:
+1. During the event, the purchase of each limited rerun outfit will unlock 1 Tier of the reward list that you can claim immediately.
+2. The event's limited furniture is also purchasable in the Dorm. If you've bought the furniture before claiming your reward from the event, then when you claim the reward, the rewarded limited furniture will be converted into Gems of the same value automatically.
+3. If the number of rerun outfits you do not own is less than 6, you will get the corresponding Tier rewards from Akashi's Fire Sale directly.
+4. Purchasing the Black Friday Lucky Bag (2022) will unlock 1 Tier of the reward list no matter if you get a new skin or a skin you already have.]]
+		}
+	}
+}
+
 _G.pg.base.gametip.eventshop_time_hint = {
 	tip = "Available in exchange shop till $1"
 }
@@ -21815,19 +21828,19 @@ _G.pg.base.gametip.defense_formation_tip_npc = {
 }
 
 _G.pg.base.gametip.pgs_login_tip = {
-	tip = "A PGS account allows you to log in to your game account on multiple devices.All your game accounts (excluding guest accounts) are automatically bound to your PGS account."
+	tip = "A PGS account allows you to log in to your game account on multiple devices. All your game accounts (excluding guest accounts) are automatically bound to your PGS account."
 }
 
 _G.pg.base.gametip.pgs_login_binding_exist1 = {
-	tip = "This game account is already bound to another PGS account.Would you like to rebind it to your current PGS account?"
+	tip = "This game account is already bound to another PGS account. Would you like to rebind it to your current PGS account?"
 }
 
 _G.pg.base.gametip.pgs_login_binding_exist2 = {
-	tip = "This PGS account is already bound to another game account.Would you like to rebind it to your current game account?"
+	tip = "This PGS account is already bound to another game account. Would you like to rebind it to your current game account?"
 }
 
 _G.pg.base.gametip.pgs_login_binding_exist3 = {
-	tip = "This game account is already bound to another PGS account, and your current PGS account is also bound to another game account.Would you like to rebound your game and/or PGS account?"
+	tip = "This game account is already bound to another PGS account, and your current PGS account is also bound to another game account. Would you like to rebound your game and/or PGS account?"
 }
 
 _G.pg.base.gametip.pgs_binding_account = {
@@ -21843,5 +21856,5 @@ _G.pg.base.gametip.pgs_unbind_tip1 = {
 }
 
 _G.pg.base.gametip.pgs_unbind_tip2 = {
-	tip = "Your game account is bound to your PGS account.Removing all your other account binds will also remove your bind to your PGS account."
+	tip = "Your game account is bound to your PGS account. Removing all your other account binds will also remove your bind to your PGS account."
 }

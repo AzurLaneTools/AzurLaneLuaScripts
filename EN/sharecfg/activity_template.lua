@@ -26309,12 +26309,12 @@ pg.activity_template = {
 		config_client = {
 			id = 3,
 			bg = "loadingbg/bg_build_3_act",
-			buildship_tip = "Baltimore μ  added to standard build pool ! ",
+			buildship_tip = "Suruga added to standard build pool!",
 			rate_tip = {
-				"<color=#ffde38>Super Rare</color>：7%",
-				"<color=#d797ff>Elite</color>：12%",
-				"<color=#3dc6ff>Rare</color>：51%",
-				"Common：30%"
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Common: 30%"
 			}
 		}
 	},
@@ -26358,12 +26358,12 @@ pg.activity_template = {
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
-			buildship_tip = "Tashkent μ, Dido μ added to standard build pool ! ",
+			buildship_tip = "Noshiro, Kazagumo, Shirayuki and Kasumi added to standard build pool!",
 			rate_tip = {
-				"<color=#ffde38>Super Rare</color>：7%",
-				"<color=#d797ff>Elite</color>：12%",
-				"<color=#3dc6ff>Rare</color>：51%",
-				"Common：30%"
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Common: 30%"
 			}
 		}
 	},
@@ -26407,17 +26407,17 @@ pg.activity_template = {
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
-			buildship_tip = "Rate UP for Taihou μ, Tashkent μ, Dido μ, Albacore μ, Baltimore μ and more !",
+			buildship_tip = "Rate UP for Taihou μ, Tashkent μ, Dido μ and more!",
 			rate_tip = {
-				"<color=#ffde38>Super Rare</color>：7%",
-				"<color=#d797ff>Elite</color>：12%",
-				"<color=#3dc6ff>Rare</color>：51%",
-				"Common：30%",
-				"<color=#ffde38>Taihou μ </color>：2.0%(<color=#92FC63>up</color>)",
-				"<color=#ffde38>Tashkent μ </color>：2.0%(<color=#92FC63>up</color>)",
-				"<color=#ffde38>Dido μ </color>：2.0%(<color=#92FC63>up</color>)",
-				"<color=#d797ff>Albacore μ </color>：2.5%(<color=#92FC63>up</color>)",
-				"<color=#d797ff>Baltimore μ </color>：2.5%(<color=#92FC63>up</color>)"
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Common: 30%",
+				"<color=#ffde38>Taihou μ </color>: 2.0%(<color=#92FC63>up</color>)",
+				"<color=#ffde38>Tashkent μ </color>: 2.0%(<color=#92FC63>up</color>)",
+				"<color=#ffde38>Dido μ </color>: 2.0%(<color=#92FC63>up</color>)",
+				"<color=#d797ff>Albacore μ </color>: 2.5%(<color=#92FC63>up</color>)",
+				"<color=#d797ff>Baltimore μ </color>: 2.5%(<color=#92FC63>up</color>)"
 			}
 		}
 	},

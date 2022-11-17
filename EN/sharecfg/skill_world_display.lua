@@ -2334,7 +2334,7 @@ pg.skill_world_display = {
 	[800121] = {
 		desc_get = "",
 		id = 800121,
-		desc = "[Operation Siren only] \nActivates Ashen Might - Helena I once every 15 times the Main Guns are fired.  When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 3.0%.",
+		desc = "[Operation Siren only] \nActivates Ashen Might - Helena I once every 15 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},

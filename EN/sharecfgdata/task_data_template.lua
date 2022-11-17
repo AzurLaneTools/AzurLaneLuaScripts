@@ -28973,7 +28973,7 @@ _G.pg.base.task_data_template[5827] = {
 	guild_coin_award = 0,
 	award = 5596,
 	type = 5,
-	desc = "Fully Limit Break Blücher to Level 100.",
+	desc = "Get Blücher to Level 100.",
 	count_inherit = 0,
 	sub_type = 1013,
 	target_id_2 = "",
@@ -178733,7 +178733,7 @@ _G.pg.base.task_data_template[35196] = {
 	guild_coin_award = 0,
 	award = 65195,
 	type = 26,
-	desc = "Sortie and obtain 10 S-rank victories",
+	desc = "Sortie and obtain 10 victories with S-rating.",
 	count_inherit = 0,
 	sub_type = 24,
 	target_id_2 = "",
@@ -178807,7 +178807,7 @@ _G.pg.base.task_data_template[35198] = {
 	guild_coin_award = 0,
 	award = 65197,
 	type = 26,
-	desc = "Complete 2 commissions",
+	desc = "Complete 2 commissions.",
 	count_inherit = 0,
 	sub_type = 80,
 	target_id_2 = "",
@@ -178843,7 +178843,7 @@ _G.pg.base.task_data_template[35199] = {
 	guild_coin_award = 0,
 	award = 65198,
 	type = 26,
-	desc = "Participate in 2 PvP exercises",
+	desc = "Conduct 2 exercises.",
 	count_inherit = 0,
 	sub_type = 27,
 	target_id_2 = "",
@@ -178879,7 +178879,7 @@ _G.pg.base.task_data_template[35200] = {
 	guild_coin_award = 0,
 	award = 65199,
 	type = 26,
-	desc = "Retire 2 ships",
+	desc = "Retire 2 ships.",
 	count_inherit = 0,
 	sub_type = 31,
 	target_id_2 = "",
@@ -178915,7 +178915,7 @@ _G.pg.base.task_data_template[35201] = {
 	guild_coin_award = 0,
 	award = 65200,
 	type = 26,
-	desc = "Complete 3 daily challenges",
+	desc = "Complete 3 daily challenges.",
 	count_inherit = 0,
 	sub_type = 26,
 	target_id_2 = "",
@@ -179023,7 +179023,7 @@ _G.pg.base.task_data_template[35204] = {
 	guild_coin_award = 0,
 	award = 65203,
 	type = 26,
-	desc = "Sink 20 enemy vessels",
+	desc = "Defeat 20 enemies.",
 	count_inherit = 0,
 	sub_type = 11,
 	target_id_2 = "",
@@ -179059,7 +179059,7 @@ _G.pg.base.task_data_template[35205] = {
 	guild_coin_award = 0,
 	award = 65204,
 	type = 26,
-	desc = "Restock supplies in the dorm 5 times",
+	desc = "Restock snacks in your dorm 5 times.",
 	count_inherit = 0,
 	sub_type = 61,
 	target_id_2 = "",
@@ -179095,7 +179095,7 @@ _G.pg.base.task_data_template[35206] = {
 	guild_coin_award = 0,
 	award = 65205,
 	type = 26,
-	desc = "Sortie and complete 2 Hard Mode maps",
+	desc = "Sortie and clear 2 Hard Mode Stages.",
 	count_inherit = 0,
 	sub_type = 182,
 	target_id_2 = "",
@@ -179131,7 +179131,7 @@ _G.pg.base.task_data_template[35207] = {
 	guild_coin_award = 0,
 	award = 65206,
 	type = 26,
-	desc = "Open 1 tech box",
+	desc = "Open 1 Tech Box.",
 	count_inherit = 0,
 	sub_type = 50,
 	target_id_2 = "",
@@ -179167,7 +179167,7 @@ _G.pg.base.task_data_template[35208] = {
 	guild_coin_award = 0,
 	award = 65207,
 	type = 26,
-	desc = "Sortie and defeat 3 enemy flagships",
+	desc = "Sortie and defeat 3 Boss Fleets.",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -179241,7 +179241,7 @@ _G.pg.base.task_data_template[35210] = {
 	guild_coin_award = 0,
 	award = 65209,
 	type = 26,
-	desc = "Sortie and obtain 10 S-rank victories",
+	desc = "Sortie and obtain 10 victories with S-rating.",
 	count_inherit = 0,
 	sub_type = 24,
 	target_id_2 = "",
@@ -179279,7 +179279,7 @@ _G.pg.base.task_data_template[35211] = {
 	guild_coin_award = 0,
 	award = 65210,
 	type = 26,
-	desc = "Disassemble 5 pieces of equipment",
+	desc = "Scrap 5 pieces of gear.",
 	count_inherit = 0,
 	sub_type = 41,
 	target_id_2 = "",
@@ -179351,7 +179351,7 @@ _G.pg.base.task_data_template[35213] = {
 	guild_coin_award = 0,
 	award = 65212,
 	type = 26,
-	desc = "Retire 2 ships",
+	desc = "Retire 2 ships.",
 	count_inherit = 0,
 	sub_type = 31,
 	target_id_2 = "",
@@ -179423,7 +179423,7 @@ _G.pg.base.task_data_template[35215] = {
 	guild_coin_award = 0,
 	award = 65214,
 	type = 26,
-	desc = "Complete 2 commissions",
+	desc = "Complete 2 commissions.",
 	count_inherit = 0,
 	sub_type = 80,
 	target_id_2 = "",
@@ -210483,7 +210483,7 @@ _G.pg.base.task_data_template[56033] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 15,
-	desc = "Raise Unicorn to Level 100.",
+	desc = "Get Unicorn to Level 100.",
 	count_inherit = 0,
 	sub_type = 1013,
 	target_id_2 = "",
@@ -210612,13 +210612,12 @@ _G.pg.base.task_data_template[56051] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
 	quick_finish = 0,
 	level = 1,
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56051,
 	target_num = 1,
 	fix_task = 0,
@@ -210630,7 +210629,13 @@ _G.pg.base.task_data_template[56051] = {
 		}
 	},
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SHOP",
+		{
+			warp = "sham"
+		}
+	}
 }
 
 _G.pg.base.task_data_template[56052] = {
@@ -210698,7 +210703,7 @@ _G.pg.base.task_data_template[56061] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 15,
-	desc = "Complete Resource Contribution 15 times in Guild.",
+	desc = "Contribute 15 times to your Guild Logistics.",
 	count_inherit = 0,
 	sub_type = 402,
 	target_id_2 = "",
@@ -210827,20 +210832,22 @@ _G.pg.base.task_data_template[56072] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56072,
 	target_num = 7,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SHIPBLUEPRINT"
+	}
 }
 
 _G.pg.base.task_data_template[56073] = {
@@ -210878,7 +210885,7 @@ _G.pg.base.task_data_template[56081] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 15,
-	desc = "Sortie in Operation Siren and conduct 1 battle.",
+	desc = "Sortie and complete 1 battle in Operation Siren.",
 	count_inherit = 0,
 	sub_type = 304,
 	target_id_2 = "",
@@ -210887,20 +210894,22 @@ _G.pg.base.task_data_template[56081] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56081,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"LEVEL"
+	}
 }
 
 _G.pg.base.task_data_template[56082] = {
@@ -210908,7 +210917,7 @@ _G.pg.base.task_data_template[56082] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 15,
-	desc = "Sortie in Operation Siren and secure any Zone.",
+	desc = "Sortie and secure any Zone in Operation Siren.",
 	count_inherit = 0,
 	sub_type = 310,
 	target_id_2 = "",
@@ -210917,20 +210926,22 @@ _G.pg.base.task_data_template[56082] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56082,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"LEVEL"
+	}
 }
 
 _G.pg.base.task_data_template[56083] = {
@@ -210977,13 +210988,12 @@ _G.pg.base.task_data_template[56091] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
 	quick_finish = 0,
 	level = 1,
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56091,
 	target_num = 1,
 	fix_task = 0,
@@ -210993,7 +211003,10 @@ _G.pg.base.task_data_template[56091] = {
 		3
 	},
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SPWEAPON_STOREHOUSE"
+	}
 }
 
 _G.pg.base.task_data_template[56092] = {
@@ -211010,20 +211023,22 @@ _G.pg.base.task_data_template[56092] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "3",
 	quick_finish = 0,
 	level = 1,
-	target_id = "3",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56092,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SPWEAPON_STOREHOUSE"
+	}
 }
 
 _G.pg.base.task_data_template[56093] = {
@@ -211040,13 +211055,12 @@ _G.pg.base.task_data_template[56093] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
 	quick_finish = 0,
 	level = 1,
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56093,
 	target_num = 1,
 	fix_task = 0,
@@ -211056,7 +211070,10 @@ _G.pg.base.task_data_template[56093] = {
 		3
 	},
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SPWEAPON_STOREHOUSE"
+	}
 }
 
 _G.pg.base.task_data_template[56101] = {
@@ -211103,20 +211120,22 @@ _G.pg.base.task_data_template[56102] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56102,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"LEVEL"
+	}
 }
 
 _G.pg.base.task_data_template[56103] = {
@@ -211133,20 +211152,22 @@ _G.pg.base.task_data_template[56103] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56103,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"LEVEL"
+	}
 }
 
 _G.pg.base.task_data_template[60011] = {
