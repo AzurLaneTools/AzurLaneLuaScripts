@@ -1,10 +1,7 @@
 slot0 = class("MainActTraingCampBtn", import(".MainBaseSpcailActBtn"))
 
 function slot0.InShowTime(slot0)
-	slot1 = TrainingCampScene.isNormalActOn()
-	slot2 = TrainingCampScene.isTecActOn()
-
-	return false
+	return TrainingCampScene.isNormalActOn() or TrainingCampScene.isTecActOn()
 end
 
 function slot0.GetUIName(slot0)
