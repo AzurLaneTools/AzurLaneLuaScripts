@@ -866,5 +866,8 @@ pg.activity_const = {
 	},
 	ACTIVITY_BOSS_ALBION = {
 		act_id = 4552
+	},
+	PIXEL_DRAW_MING = {
+		act_id = 4574
 	}
 }

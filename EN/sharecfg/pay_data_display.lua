@@ -905,7 +905,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2021
 			},
 			{
@@ -1010,7 +1010,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2020
 			},
 			{
@@ -1367,7 +1367,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2022
 			},
 			{
@@ -1430,7 +1430,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2022
 			},
 			{
@@ -1472,7 +1472,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2021
 			},
 			{
@@ -1535,7 +1535,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2021
 			},
 			{
@@ -1577,7 +1577,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2022
 			},
 			{
@@ -1640,7 +1640,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2022
 			},
 			{
@@ -1682,7 +1682,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2021
 			},
 			{
@@ -1745,7 +1745,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2021
 			},
 			{
@@ -1787,7 +1787,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2022
 			},
 			{
@@ -1850,7 +1850,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2022
 			},
 			{
@@ -1892,7 +1892,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2021
 			},
 			{
@@ -1955,7 +1955,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2021
 			},
 			{
@@ -1997,7 +1997,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2021
 			},
 			{
@@ -2060,7 +2060,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2021
 			},
 			{
@@ -2102,7 +2102,7 @@ pg.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2022
 			},
 			{
@@ -2161,6 +2161,256 @@ pg.pay_data_display = {
 			{
 				2,
 				69920,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[44] = {
+		subject = "Welcome Back Pack",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Welcome Back Pack",
+		name_display = "Welcome Back Pack",
+		type_order = 2,
+		extra_gem = 0,
+		id = 44,
+		money = 1799,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "support6",
+		id_str = "com.yostaren.azurlane.diamond179",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains loads of valuable rewads.",
+		airijp_id = "com.yostaren.azurlane.diamond179",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				15003,
+				20
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				200
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			},
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				2,
+				30113,
+				60
+			},
+			{
+				1,
+				3,
+				20000
+			},
+			{
+				2,
+				59900,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					11,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				2,
+				16502,
+				200
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[139] = {
+		subject = "Black Friday Lucky Bag (2022)",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_arg = 1,
+		name = "Black Friday Lucky Bag (2022)",
+		name_display = "Black Friday Lucky Bag (2022)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 139,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai77",
+		id_str = "com.yostaren.azurlane.diamond177",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		airijp_id = "com.yostaren.azurlane.diamond177",
+		extra_service_item = {
+			{
+				2,
+				69976,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					11,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69976,
 				1
 			},
 			{
@@ -2511,7 +2761,7 @@ pg.pay_data_display = {
 					1
 				},
 				{
-					1,
+					0,
 					0,
 					0
 				}
@@ -7371,6 +7621,8 @@ pg.pay_data_display = {
 		39,
 		42,
 		43,
+		44,
+		139,
 		1000,
 		1001,
 		1002,

@@ -74,7 +74,7 @@ function slot0.addTranDrop(slot0, slot1)
 				type = DROP_TYPE_RESOURCE,
 				id = slot1.resource_type,
 				count = slot1.resource_num * (slot0.number or slot0.count),
-				name = Item.GetName(DROP_TYPE_RESOURCE, slot1.resource_type) .. "(" .. Item.GetName(slot1.target_type, slot1.target_id) .. ")"
+				name = Item.GetName(DROP_TYPE_RESOURCE, slot1.resource_type) .. "(" .. HXSet.hxLan(Item.GetName(slot1.target_type, slot1.target_id)) .. ")"
 			})
 		elseif slot0.type == DROP_TYPE_RESOURCE then
 			slot4 = ActivityConst.ACTIVITY_TYPE_PT_CRUSING

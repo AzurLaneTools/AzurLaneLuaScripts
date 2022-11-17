@@ -8732,6 +8732,30 @@ pg.skill_data_display = {
 		id = 1010732,
 		name = "The Demon+"
 	},
+	[1011620] = {
+		id = 1011620,
+		name = "Predestined Launch+"
+	},
+	[1011621] = {
+		id = 1011621,
+		name = "Predestined Launch+"
+	},
+	[1011622] = {
+		id = 1011622,
+		name = "Predestined Launch+"
+	},
+	[1011623] = {
+		id = 1011623,
+		name = "Predestined Launch+"
+	},
+	[1011624] = {
+		id = 1011624,
+		name = "Predestined Launch+"
+	},
+	[1011625] = {
+		id = 1011625,
+		name = "Predestined Launch+"
+	},
 	[1090030] = {
 		id = 1090030,
 		name = "Anti-Air Mode - Montpelier"
@@ -10960,6 +10984,12 @@ pg.skill_data_display = {
 		1090010,
 		1010731,
 		1010732,
+		1011620,
+		1011621,
+		1011622,
+		1011623,
+		1011624,
+		1011625,
 		1090030,
 		1090031,
 		1090032,

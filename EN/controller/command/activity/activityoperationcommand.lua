@@ -37,6 +37,8 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
+	print(slot2.activity_id, slot2.cmd, slot2.arg1, slot2.arg2)
+
 	slot5 = pg.ConnectionMgr.GetInstance()
 
 	slot5:Send(11202, {

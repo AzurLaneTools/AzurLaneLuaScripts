@@ -1043,7 +1043,7 @@ function slot0.updateModPanel(slot0)
 		})
 		onButton(slot0, slot0.itemInfoIcon, function ()
 			ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", HXSet.hxLan(uv0:getConfig("name"))))
-		end, SFX_PANEl)
+		end, SFX_PANEL)
 		setScrollText(findTF(slot0.itemInfo, "name/Text"), HXSet.hxLan(slot4:getConfig("name")))
 		setText(slot0.itemInfoCount, i18n("tec_tip_material_stock") .. ":" .. slot4.count)
 
@@ -1257,7 +1257,7 @@ function slot0.updateFittingPanel(slot0)
 		})
 		onButton(slot0, slot0.fittingItemInfoIcon, function ()
 			ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", HXSet.hxLan(uv0:getConfig("name"))))
-		end, SFX_PANEl)
+		end, SFX_PANEL)
 
 		slot10 = slot0.fittingItemInfo
 

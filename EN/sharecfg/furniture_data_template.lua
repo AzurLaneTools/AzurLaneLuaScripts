@@ -5230,6 +5230,137 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[237] = {
+		effect = "",
+		name = "两千日的舞台",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "让我们带着满满的爱与热情，继续杨帆起航~啾！",
+		themeId = 0,
+		icon = "2000daysicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		tag = 6,
+		comfortable = 5,
+		belong = 1,
+		canputon = 0,
+		id = 237,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"2000daysB",
+				"normal"
+			},
+			{
+				"2000daysT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					107030
+				},
+				"furniture",
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[238] = {
+		effect = "",
+		name = "Fountain of Gems",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Thank you for your patronyage~",
+		tag = 7,
+		icon = "zuanshipenquanicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 238,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zuanshipenquan",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -98068,6 +98199,8 @@ pg.furniture_data_template = {
 			234,
 			235,
 			236,
+			237,
+			238,
 			100002,
 			100003,
 			100004,
@@ -98230,6 +98363,8 @@ pg.furniture_data_template = {
 			234,
 			235,
 			236,
+			237,
+			238,
 			100002,
 			100003,
 			100004,
@@ -104218,6 +104353,7 @@ pg.furniture_data_template = {
 			232,
 			234,
 			235,
+			237,
 			100002,
 			100003,
 			100004,
@@ -104256,6 +104392,7 @@ pg.furniture_data_template = {
 			211,
 			233,
 			236,
+			238,
 			200001,
 			200002,
 			200003,
@@ -104979,6 +105116,7 @@ pg.furniture_data_template = {
 			234,
 			235,
 			236,
+			237,
 			100002,
 			100004,
 			100005,
@@ -105015,6 +105153,7 @@ pg.furniture_data_template = {
 			206,
 			209,
 			211,
+			238,
 			200001,
 			200002,
 			200003,
@@ -107177,6 +107316,8 @@ pg.furniture_data_template = {
 		234,
 		235,
 		236,
+		237,
+		238,
 		100002,
 		100003,
 		100004,

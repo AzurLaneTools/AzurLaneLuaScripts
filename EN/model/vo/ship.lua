@@ -2485,6 +2485,8 @@ function slot0.GetMapStrikeAnim(slot0)
 				uv1 = "AirStrikeUI"
 			elseif ShipType.ContainInLimitBundle(ShipType.BundleBattleShip, uv0) then
 				uv1 = "CannonUI"
+			else
+				uv1 = "CannonUI"
 			end
 		end,
 		[TeamType.Vanguard] = function ()

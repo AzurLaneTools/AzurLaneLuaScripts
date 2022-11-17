@@ -16541,7 +16541,7 @@ _G.pg.base.item_data_statistics[40000] = {
 }
 
 _G.pg.base.item_data_statistics[40004] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Construction Supplies",
 	max_num = 0,
 	type = 17,
@@ -16578,7 +16578,7 @@ _G.pg.base.item_data_statistics[40004] = {
 }
 
 _G.pg.base.item_data_statistics[40005] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Lv. 10 Pack",
 	max_num = 0,
 	type = 17,
@@ -16625,7 +16625,7 @@ _G.pg.base.item_data_statistics[40005] = {
 }
 
 _G.pg.base.item_data_statistics[40006] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Lv. 20 Pack",
 	max_num = 0,
 	type = 17,
@@ -16672,7 +16672,7 @@ _G.pg.base.item_data_statistics[40006] = {
 }
 
 _G.pg.base.item_data_statistics[40007] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Lv. 30 Pack",
 	max_num = 0,
 	type = 17,
@@ -16734,7 +16734,7 @@ _G.pg.base.item_data_statistics[40007] = {
 }
 
 _G.pg.base.item_data_statistics[40008] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Lv. 50 Pack",
 	max_num = 0,
 	type = 17,
@@ -16838,7 +16838,7 @@ _G.pg.base.item_data_statistics[40009] = {
 }
 
 _G.pg.base.item_data_statistics[40012] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "New Commanders Support Pack I",
 	max_num = 0,
 	type = 17,
@@ -16900,7 +16900,7 @@ _G.pg.base.item_data_statistics[40012] = {
 }
 
 _G.pg.base.item_data_statistics[40013] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "New Commanders Support Pack II",
 	max_num = 0,
 	type = 17,
@@ -16987,7 +16987,7 @@ _G.pg.base.item_data_statistics[40013] = {
 }
 
 _G.pg.base.item_data_statistics[40014] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "New Commanders Support Pack III",
 	max_num = 0,
 	type = 17,
@@ -17079,7 +17079,7 @@ _G.pg.base.item_data_statistics[40014] = {
 }
 
 _G.pg.base.item_data_statistics[40015] = {
-	display = "This pack contains a large amount of resources to help kick-start your career. ",
+	display = "Contains loads of valuable rewards.",
 	name = "New Commanders Support Pack IV ",
 	max_num = 0,
 	type = 17,
@@ -17161,7 +17161,7 @@ _G.pg.base.item_data_statistics[40015] = {
 }
 
 _G.pg.base.item_data_statistics[40016] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "PR Voucher & Blueprint Bundle - Series 1",
 	max_num = 0,
 	type = 17,
@@ -17193,7 +17193,7 @@ _G.pg.base.item_data_statistics[40016] = {
 }
 
 _G.pg.base.item_data_statistics[40017] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "PR Voucher - Series 1",
 	max_num = 0,
 	type = 17,
@@ -17220,7 +17220,7 @@ _G.pg.base.item_data_statistics[40017] = {
 }
 
 _G.pg.base.item_data_statistics[40018] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "PR Blueprint Pack - Series 1",
 	max_num = 0,
 	type = 17,
@@ -17247,7 +17247,7 @@ _G.pg.base.item_data_statistics[40018] = {
 }
 
 _G.pg.base.item_data_statistics[40019] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "PR Voucher & Blueprint Bundle - Series 2",
 	max_num = 0,
 	type = 17,
@@ -17279,7 +17279,7 @@ _G.pg.base.item_data_statistics[40019] = {
 }
 
 _G.pg.base.item_data_statistics[40020] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "PR Voucher - Series 2",
 	max_num = 0,
 	type = 17,
@@ -17306,7 +17306,7 @@ _G.pg.base.item_data_statistics[40020] = {
 }
 
 _G.pg.base.item_data_statistics[40021] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "PR Blueprint Pack - Series 2",
 	max_num = 0,
 	type = 17,
@@ -17333,7 +17333,7 @@ _G.pg.base.item_data_statistics[40021] = {
 }
 
 _G.pg.base.item_data_statistics[40022] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "Commander Level Boost Pack",
 	max_num = 0,
 	type = 17,
@@ -17520,7 +17520,7 @@ _G.pg.base.item_data_statistics[40022] = {
 }
 
 _G.pg.base.item_data_statistics[40023] = {
-	display = "Contains a large amount of supplies.",
+	display = "Contains loads of valuable rewards.",
 	name = "Skill Book Pack",
 	max_num = 0,
 	type = 17,
@@ -17599,7 +17599,7 @@ _G.pg.base.item_data_statistics[40100] = {
 }
 
 _G.pg.base.item_data_statistics[40102] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Red Dyed\nRaiders Supplies",
 	max_num = 0,
 	type = 17,
@@ -17658,7 +17658,7 @@ _G.pg.base.item_data_statistics[40103] = {
 }
 
 _G.pg.base.item_data_statistics[40104] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Limited Build Supplies",
 	max_num = 0,
 	type = 17,
@@ -17695,7 +17695,7 @@ _G.pg.base.item_data_statistics[40104] = {
 }
 
 _G.pg.base.item_data_statistics[40105] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Limited Strategic Supplies",
 	max_num = 0,
 	type = 17,
@@ -17754,7 +17754,7 @@ _G.pg.base.item_data_statistics[40106] = {
 }
 
 _G.pg.base.item_data_statistics[40107] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Limited \nRaiders Supplies",
 	max_num = 0,
 	type = 17,
@@ -17781,7 +17781,7 @@ _G.pg.base.item_data_statistics[40107] = {
 }
 
 _G.pg.base.item_data_statistics[40108] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Limited \nConstruction Supplies",
 	max_num = 0,
 	type = 17,
@@ -17818,7 +17818,7 @@ _G.pg.base.item_data_statistics[40108] = {
 }
 
 _G.pg.base.item_data_statistics[40109] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Divergent Chessboard \nSupplies ",
 	max_num = 0,
 	type = 17,
@@ -17845,7 +17845,7 @@ _G.pg.base.item_data_statistics[40109] = {
 }
 
 _G.pg.base.item_data_statistics[40113] = {
-	display = "This pack contains plentiful supplies ",
+	display = "Contains loads of valuable rewards.",
 	name = "Fallen Wings\nStrategic Supplies",
 	max_num = 0,
 	type = 17,
@@ -17872,7 +17872,7 @@ _G.pg.base.item_data_statistics[40113] = {
 }
 
 _G.pg.base.item_data_statistics[40114] = {
-	display = "This pack contains plentiful supplies ",
+	display = "Contains loads of valuable rewards.",
 	name = "Fallen Wings\nConstruction Supplies",
 	max_num = 0,
 	type = 17,
@@ -17909,7 +17909,7 @@ _G.pg.base.item_data_statistics[40114] = {
 }
 
 _G.pg.base.item_data_statistics[40117] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Limited Strategic Supplies",
 	max_num = 0,
 	type = 17,
@@ -17936,7 +17936,7 @@ _G.pg.base.item_data_statistics[40117] = {
 }
 
 _G.pg.base.item_data_statistics[40118] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Limited Build Supplies",
 	max_num = 0,
 	type = 17,
@@ -18131,7 +18131,7 @@ _G.pg.base.item_data_statistics[40126] = {
 }
 
 _G.pg.base.item_data_statistics[40128] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Limited Build Supplies II",
 	max_num = 0,
 	type = 17,
@@ -18227,6 +18227,912 @@ _G.pg.base.item_data_statistics[40129] = {
 			2,
 			16023,
 			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40701] = {
+	display = "Contains 10x Wisdom Cubes and 5x Quick Finishers.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40701,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40702] = {
+	display = "Contains 20x Wisdom Cubes and 10x Quick Finishers.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40702,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40703] = {
+	display = "Contains 1x Universal Bulin and 200x T1 EXP Data Packs.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40703,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			1
+		},
+		{
+			2,
+			16501,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40704] = {
+	display = "Contains 2x Universal Bulins and 50x T2 EXP Data Packs.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40704,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			2
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40705] = {
+	display = "Contains 3x random T3 Skill Books, 9x random T2 Skill Books, and 8x random T2 Retrofit Blueprints.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40705,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi3",
+	display_icon = {
+		{
+			2,
+			54006,
+			3
+		},
+		{
+			2,
+			54005,
+			9
+		},
+		{
+			2,
+			54050,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40706] = {
+	display = "Contains 3x random T4 Skill Books, 9x random T3 Skill Books, and 8x random T3 Retrofit Blueprints.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40706,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi3",
+	display_icon = {
+		{
+			2,
+			54007,
+			3
+		},
+		{
+			2,
+			54006,
+			9
+		},
+		{
+			2,
+			54051,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40707] = {
+	display = "Contains 150x Cognitive Chips and 4x random T4 Tech Boxes.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40707,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			150
+		},
+		{
+			2,
+			54034,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40708] = {
+	display = "Contains 300x Cognitive Chips and 8x random T4 Tech Boxes.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40708,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			300
+		},
+		{
+			2,
+			54034,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40709] = {
+	display = "Contains 150x Core Data and 30x Universal T3 Parts.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40709,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			150
+		},
+		{
+			2,
+			30113,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40710] = {
+	display = "Contains 300x Core Data and 60x Universal T3 Parts.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40710,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			300
+		},
+		{
+			2,
+			30113,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40711] = {
+	display = "Contains 5x Universal T4 Parts and 300x Guild Tokens.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40711,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			1,
+			8,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40712] = {
+	display = "Contains 15x Universal T4 Parts and 800x Guild Tokens.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40712,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			1,
+			8,
+			800
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40713] = {
+	display = "Contains 1x Prototype Bulin MKII and 100x Decor Tokens.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40713,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40714] = {
+	display = "Contains 2x Prototype Bulins MKII and 300x Decor Tokens.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40714,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			1,
+			6,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40715] = {
+	display = "Contains 2,000x Merits and 6x Royal Gourmets.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40715,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi8",
+	display_icon = {
+		{
+			1,
+			3,
+			2000
+		},
+		{
+			2,
+			50005,
+			6
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40716] = {
+	display = "Contains 4,000x Merits and 3x Full Courses.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40716,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi8",
+	display_icon = {
+		{
+			1,
+			3,
+			4000
+		},
+		{
+			2,
+			50006,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40717] = {
+	display = "Contains 80x Medals of Honor and 500x Oil.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40717,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			80
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40718] = {
+	display = "Contains 200x Medals of Honor and 1,000x Oil.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40718,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			200
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40719] = {
+	display = "Contains 5x Augment Module Cores and 15x T2 Augment Module Stones.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40719,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			5
+		},
+		{
+			2,
+			15016,
+			15
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40720] = {
+	display = "Contains 10x Augment Module Cores and 3x T3 Augment Module Stones.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40720,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15017,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40721] = {
+	display = "Contains 1x Super Rare Cat Box and 120x Cat Box Quick Finishers.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40721,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			1
+		},
+		{
+			2,
+			20010,
+			120
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40722] = {
+	display = "Contains 2x Super Rare Cat Boxes and 240x Cat Box Quick Finishers.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40722,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			2
+		},
+		{
+			2,
+			20010,
+			240
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40723] = {
+	display = "Contains 2x Special General Blueprints - Series 4 and 500x Oil.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40723,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi12",
+	display_icon = {
+		{
+			2,
+			42036,
+			2
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40724] = {
+	display = "Contains 4x Special General Blueprints - Series 4 and 1,000x Oil.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40724,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi12",
+	display_icon = {
+		{
+			2,
+			42036,
+			4
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40725] = {
+	display = "Contains 20x T2 Development Materials Containers and 5x T3 Development Materials Containers.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40725,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi13",
+	display_icon = {
+		{
+			2,
+			150001,
+			20
+		},
+		{
+			2,
+			150002,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40726] = {
+	display = "Contains 10x T3 Development Materials Containers and 4x SR Gear Design Plans.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40726,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi13",
+	display_icon = {
+		{
+			2,
+			150002,
+			10
+		},
+		{
+			2,
+			30914,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40727] = {
+	display = "Contains 10x High-Efficiency Combat Logistics Plans and 500x Oil.",
+	name = "Homecoming Supply Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40727,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			10
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40728] = {
+	display = "Contains 20x High-Efficiency Combat Logistics Plans and 1,000x Oil.",
+	name = "Luxurious Homecoming Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40728,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			20
+		},
+		{
+			1,
+			2,
+			1000
 		}
 	},
 	price = {},
@@ -19153,6 +20059,103 @@ _G.pg.base.item_data_statistics[40920] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40921] = {
+	display = "Contains loads of valuable rewards.",
+	name = "Welcome Back Pack",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40921,
+	is_world = 0,
+	icon = "Props/support6",
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			200
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		},
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			2,
+			30113,
+			60
+		},
+		{
+			1,
+			3,
+			20000
+		},
+		{
+			2,
+			59900,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40951] = {
 	display = "Nep's Lucky Bag contains 1 x Nep Ship skin, 3 x Nep Gear skins, 8 x Wisdom Cubes, 4 x Quick Finishers, 100 x Decor Tokens, and 2018 x Gems",
 	name = "Nep's Lucky Bag ",
@@ -19441,7 +20444,7 @@ _G.pg.base.item_data_statistics[40956] = {
 }
 
 _G.pg.base.item_data_statistics[40957] = {
-	display = "Contains loads of valuable rewards",
+	display = "Contains loads of valuable rewards.",
 	name = "Lunar New Year Limited Build Supplies",
 	max_num = 0,
 	type = 17,
@@ -20691,6 +21694,63 @@ _G.pg.base.item_data_statistics[40980] = {
 			2,
 			15003,
 			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40981] = {
+	display = "Contains 1 Random Outfit, 2022 Gems, 50 Cognitive Chips, 35 Wisdom Cubes, 2 Special General Blueprints - Series 5, 12 Quick Finishers, and 100 Decor Tokens ",
+	name = "Black Friday Lucky Bag (2022)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40981,
+	is_world = 0,
+	icon = "Props/fudai77",
+	display_icon = {
+		{
+			2,
+			69976,
+			1
+		},
+		{
+			1,
+			4,
+			2022
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			35
+		},
+		{
+			2,
+			15003,
+			12
 		},
 		{
 			1,
@@ -170536,7 +171596,7 @@ _G.pg.base.item_data_statistics[59614] = {
 }
 
 _G.pg.base.item_data_statistics[59615] = {
-	display = "A ballot for the 2019 Azur Lane Popularity Poll. Will disappear after every step of the vote (Qualifiers, Groups, each Group vote, Finals Comeback, and Finals) has concluded. ",
+	display = "Earned through completing homecoming missions. Will be removed after the event period ends.",
 	name = "Ballot ",
 	max_num = 0,
 	type = 0,
@@ -170550,6 +171610,27 @@ _G.pg.base.item_data_statistics[59615] = {
 	id = 59615,
 	is_world = 0,
 	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59616] = {
+	display = "Earned through completing homecoming missions. Will be removed after the event period ends.",
+	name = "Homecoming Points",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 6,
+	link_id = 0,
+	id = 59616,
+	is_world = 0,
+	icon = "Props/xinhuiliupt",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179403,6 +180484,153 @@ _G.pg.base.item_data_statistics[60259] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[60269] = {
+	display = "Pigment A used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	name = "Pigment A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60269,
+	is_world = 0,
+	icon = "props/draw_a",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60270] = {
+	display = "Pigment B used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	name = "Pigment B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60270,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60271] = {
+	display = "Pigment C used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	name = "Pigment C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60271,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60272] = {
+	display = "Pigment D used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	name = "Pigment D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60272,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60273] = {
+	display = "Pigment E used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	name = "Pigment E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60273,
+	is_world = 0,
+	icon = "props/draw_e",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60274] = {
+	display = "Pigment F used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	name = "Pigment F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60274,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60275] = {
+	display = "Pigment G used during the Dreams of Love and Peace event. Disappears after event has ended.",
+	name = "Pigment G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60275,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "Damage Rating from Guild battles and is also counted for Guild boss damage total",
 	name = "Damage Rating ",
@@ -180825,6 +182053,41 @@ The available outfits and their rarities are as follows:
 	virtual_type = 0,
 	link_id = 0,
 	id = 69975,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[69976] = {
+	display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+（<color=#92fc63>8.5%</color>）Prinz Eugen - Final Lap<color=#92fc63> Live2D</color>;
+（<color=#92fc64>8.5%</color>）Enterprise - Wind Catcher<color=#92fc63> Live2D</color>;
+（<color=#92fc65>8.3%</color>）Reno - Reno Bunnino<color=#92fc63> Live2D</color>;
+（<color=#92fc66>8.3%</color>）North Carolina - The Heart's Desire<color=#92fc63> Live2D</color>;
+（<color=#92fc67>8.3%</color>）Shimakaze - World's Speediest Bunny Waitress<color=#92fc63> Live2D</color>;
+（<color=#92fc68>8.3%</color>）Le Malin - Listless Lapin<color=#92fc63> Live2D</color>;
+（<color=#92fc69>8.3%</color>）Ulrich von Hutten - Mayhem Maid<color=#92fc63> Live2D</color>;
+（<color=#92fc70>8.3%</color>）Prinz Adalbert - After-Hours Service<color=#92fc63> Live2D</color>;
+（<color=#92fc71>8.3%</color>）Kronshtadt - Begin the Rush!<color=#92fc63> Live2D</color>;
+（<color=#92fc72>8.3%</color>）Emden - White-Black Partita<color=#92fc63> Live2D</color>;
+（<color=#92fc73>8.3%</color>）Ägir - Iron Blood's Dragon Maid<color=#92fc63> Live2D</color>;
+（<color=#92fc74>8.3%</color>）Roon - Viridescent Lullaby<color=#92fc63> Live2D</color>]],
+	name = "Random Ship skin ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69976,
 	is_world = 0,
 	icon = "Props/clothIcon",
 	display_icon = {},
@@ -183554,6 +184817,48 @@ _G.pg.base.item_data_statistics[150003] = {
 		{
 			2,
 			18123,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[150004] = {
+	display = "Can be used to receive a random selection of the following META ship upgrade materials.",
+	name = "Random META Ship Upgrade Materials",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 150004,
+	is_world = 0,
+	icon = "Props/150004",
+	display_icon = {
+		{
+			2,
+			21101,
+			1
+		},
+		{
+			2,
+			21111,
+			1
+		},
+		{
+			2,
+			21121,
+			1
+		},
+		{
+			2,
+			21131,
 			1
 		}
 	},

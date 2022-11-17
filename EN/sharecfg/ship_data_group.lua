@@ -3516,6 +3516,26 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -4300,6 +4320,26 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -4339,6 +4379,26 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -6823,6 +6883,26 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Guild shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -7581,6 +7661,26 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Guild shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -7997,6 +8097,26 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8174,6 +8294,26 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Guild shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -10056,6 +10196,16 @@ pg.ship_data_group = {
 				"Event: Universe in Unison",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -12409,6 +12559,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -15024,6 +15184,26 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15063,6 +15243,26 @@ pg.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -16605,6 +16805,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Guild shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16762,6 +16972,16 @@ pg.ship_data_group = {
 				"Event: Universe in Unison",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -17821,6 +18041,26 @@ pg.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Guild shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -20001,6 +20241,26 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -20413,6 +20673,26 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -20473,6 +20753,16 @@ pg.ship_data_group = {
 				"Event: Universe in Unison",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}

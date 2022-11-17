@@ -161,6 +161,8 @@ function slot0.mainHandler(slot0, slot1)
 		})
 	end
 
+	slot0:sendNotification(GAME.REFLUX_REQUEST_DATA)
+
 	slot25 = nowWorld()
 
 	if pg.TimeMgr.GetInstance():GetServerWeek() == 1 then

@@ -146,7 +146,7 @@ function slot0.OnInit(slot0)
 									end
 								}
 							})
-						end, SFX_PANEl)
+						end, SFX_PANEL)
 					else
 						updateDrop(slot18:Find("IconTpl"), {
 							type = slot17[1][1],
@@ -164,7 +164,7 @@ function slot0.OnInit(slot0)
 									btn_text = i18n("text_confirm")
 								}
 							})
-						end, SFX_PANEl)
+						end, SFX_PANEL)
 						setActive(slot18:Find("mark"), false)
 						setActive(slot18:Find("Slider"), false)
 						setActive(slot18:Find("achieve"), false)

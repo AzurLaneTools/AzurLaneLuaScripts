@@ -97091,6 +97091,20 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902140] = {
+		desc_get = "",
+		name = "Honed Aviation Skills",
+		id = 902140,
+		type = 3,
+		max_level = 1,
+		desc = "When equipped by a ship: increases that ship's Dive Bomber and Torpedo Bomber gear slot efficiencies by 10.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -98596,6 +98610,254 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 				},
 				{
 					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1011620] = {
+		desc_get = "",
+		name = "Predestined Launch+",
+		id = 1011620,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship's airstrike has finished loading: launches 2 additional randomly chosen airstrikes consisting of either Ryusei, Suisei, or Saiun squadrons, with a $1 chance to launch the remaining squadron not chosen. (Saiuns do not attack, instead increasing your Main Fleet's DMG dealt by 10.0% for 8s when launched.)",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%",
+					"+1.6%"
+				},
+				{
+					"21.6%",
+					"+1.6%"
+				},
+				{
+					"23.2%",
+					"+1.8%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[1011700] = {
+		desc_get = "",
+		name = "Bold But Reckless+",
+		id = 1011700,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's EVA by $2, FP by $3, and SPD by 3. Every 20s: $1 chance to launch a $4 special barrage (DMG is based on the skill's level); if there is another Iris Libre or Vichya Dominion ship in your Vanguard: fires this barrage 3s after the battle starts.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"6%",
+				"12%"
+			},
+			{
+				"13.0%",
+				"25.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%",
+					"+0.6%"
+				},
+				{
+					"10.6%",
+					"+0.6%"
+				},
+				{
+					"11.2%",
+					"+0.8%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"13.0%",
+					"+1.3%"
+				},
+				{
+					"14.3%",
+					"+1.3%"
+				},
+				{
+					"15.6%",
+					"+1.4%"
+				},
+				{
+					"17.0%",
+					"+1.3%"
+				},
+				{
+					"18.3%",
+					"+1.3%"
+				},
+				{
+					"19.6%",
+					"+1.4%"
+				},
+				{
+					"21.0%",
+					"+1.3%"
+				},
+				{
+					"22.3%",
+					"+1.3%"
+				},
+				{
+					"23.6%",
+					"+1.4%"
+				},
+				{
+					"25.0%"
 				}
 			},
 			{
@@ -100754,6 +101016,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		902110,
 		902120,
 		902130,
+		902140,
 		1010140,
 		1010390,
 		1010410,
@@ -100766,6 +101029,8 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		1010340,
 		1010580,
 		1012670,
+		1011620,
+		1011700,
 		1090010,
 		1090020,
 		1090030,

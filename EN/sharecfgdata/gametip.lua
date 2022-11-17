@@ -9569,6 +9569,10 @@ _G.pg.base.gametip.charge_scene_buy_confirm = {
 	tip = "Spend <color=#A9F548FF>$1 Gems</color> to buy <color=#A9F548FF>$2</color>?"
 }
 
+_G.pg.base.gametip.charge_scene_buy_confirm_gold = {
+	tip = "Spend <color=#A9F548FF>$1 Gems</color> to buy <color=#A9F548FF>$2</color>?"
+}
+
 _G.pg.base.gametip.charge_scene_batch_buy_tip = {
 	tip = "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>gems to buy <color=$3>$2</color>$4?"
 }
@@ -10168,15 +10172,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Suruga added to standard build pool!"
+	tip = "Tashkent μ, Dido μ added to standard build pool ! "
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Noshiro, Kazagumo, Shirayuki and Kasumi added to standard build pool!"
+	tip = "Baltimore μ added to standard build pool ! "
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Ryuuhou added to standard build pool!"
+	tip = "Taihou μ, Albacore μ added to standard build pool ! "
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -21808,4 +21812,36 @@ _G.pg.base.gametip.ex_pass_use = {
 
 _G.pg.base.gametip.defense_formation_tip_npc = {
 	tip = "Your 1st fleet cannot be set as an exercise fleet because it contains a <color=#92fc63>temporary recruit</color>."
+}
+
+_G.pg.base.gametip.pgs_login_tip = {
+	tip = "A PGS account allows you to log in to your game account on multiple devices.All your game accounts (excluding guest accounts) are automatically bound to your PGS account."
+}
+
+_G.pg.base.gametip.pgs_login_binding_exist1 = {
+	tip = "This game account is already bound to another PGS account.Would you like to rebind it to your current PGS account?"
+}
+
+_G.pg.base.gametip.pgs_login_binding_exist2 = {
+	tip = "This PGS account is already bound to another game account.Would you like to rebind it to your current game account?"
+}
+
+_G.pg.base.gametip.pgs_login_binding_exist3 = {
+	tip = "This game account is already bound to another PGS account, and your current PGS account is also bound to another game account.Would you like to rebound your game and/or PGS account?"
+}
+
+_G.pg.base.gametip.pgs_binding_account = {
+	tip = "Your account is bound to:"
+}
+
+_G.pg.base.gametip.pgs_unbind = {
+	tip = "Unbind PGS Account"
+}
+
+_G.pg.base.gametip.pgs_unbind_tip1 = {
+	tip = "Are you sure you want to unbind your game account from your PGS account?"
+}
+
+_G.pg.base.gametip.pgs_unbind_tip2 = {
+	tip = "Your game account is bound to your PGS account.Removing all your other account binds will also remove your bind to your PGS account."
 }

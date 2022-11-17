@@ -223,25 +223,26 @@ end
 
 function slot0.updateGiftGoodsVOList(slot0)
 	slot0.giftGoodsVOList = {}
+	slot1 = RefluxShopView.getAllRefluxPackID()
 
-	for slot5, slot6 in pairs(pg.pay_data_display.all) do
-		if slot1[slot6].extra_service == Goods.ITEM_BOX or slot8 == Goods.PASS_ITEM then
+	for slot6, slot7 in pairs(pg.pay_data_display.all) do
+		if not table.contains(slot1, slot7) and (slot2[slot7].extra_service == Goods.ITEM_BOX or slot9 == Goods.PASS_ITEM) then
 			if Goods.Create({
-				shop_id = slot6
+				shop_id = slot7
 			}, Goods.TYPE_CHARGE):isTecShipGift() then
-				if slot9:isTecShipShowGift() and slot0:fliteTecShipGift(slot9) then
-					table.insert(slot0.giftGoodsVOList, slot9)
+				if slot10:isTecShipShowGift() and slot0:fliteTecShipGift(slot10) then
+					table.insert(slot0.giftGoodsVOList, slot10)
 				end
 			else
-				table.insert(slot0.giftGoodsVOList, slot9)
+				table.insert(slot0.giftGoodsVOList, slot10)
 			end
 		end
 	end
 
-	for slot6, slot7 in pairs(pg.shop_template.all) do
-		if slot2[slot7].genre == "gift_package" then
+	for slot7, slot8 in pairs(pg.shop_template.all) do
+		if not table.contains(slot1, slot8) and slot3[slot8].genre == "gift_package" then
 			table.insert(slot0.giftGoodsVOList, Goods.Create({
-				shop_id = slot7
+				shop_id = slot8
 			}, Goods.TYPE_GIFT_PACKAGE))
 		end
 	end

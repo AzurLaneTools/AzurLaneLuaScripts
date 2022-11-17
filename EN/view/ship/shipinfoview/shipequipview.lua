@@ -180,52 +180,60 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 	setActive(slot5, slot2)
 	setActive(findTF(slot4, "empty"), not slot2)
 
-	slot9 = nil
+	slot9 = {}
 
 	for slot13, slot14 in pairs(slot0:GetShipVO().skills) do
 		if ys.Battle.BattleDataFunction.GetBuffTemplate(slot14.id, slot14.level).shipInfoScene and slot15.shipInfoScene.equip then
-			slot9 = slot15.shipInfoScene.equip
+			for slot19, slot20 in ipairs(slot15.shipInfoScene.equip) do
+				table.insert(slot9, slot20)
+			end
 		end
 	end
 
-	slot10 = findTF(slot4, "panel_title/type")
-
-	if findTF(slot4, "skin_icon") then
-		setActive(slot11, slot2 and slot2:hasSkin())
+	if slot8:GetSpWeapon() and slot10:GetEffect() ~= 0 and ys.Battle.BattleDataFunction.GetBuffTemplate(slot10:GetEffect(), 1).shipInfoScene and slot12.shipInfoScene.equip then
+		for slot16, slot17 in ipairs(slot12.shipInfoScene.equip) do
+			table.insert(slot9, slot17)
+		end
 	end
 
-	slot10:GetComponent(typeof(Text)).text = EquipType.LabelToName(EquipType.Types2Title(slot1, slot8.configId))
+	slot11 = findTF(slot4, "panel_title/type")
+
+	if findTF(slot4, "skin_icon") then
+		setActive(slot12, slot2 and slot2:hasSkin())
+	end
+
+	slot11:GetComponent(typeof(Text)).text = EquipType.LabelToName(EquipType.Types2Title(slot1, slot8.configId))
 
 	if slot2 then
 		setActive(slot7, not slot2:isDevice())
 
 		if not slot2:isDevice() then
-			slot14 = pg.ship_data_statistics[slot8.configId]
-			slot16 = slot8:getEquipProficiencyByPos(slot1) and slot15 * 100 or 0
-			slot17 = false
+			slot15 = pg.ship_data_statistics[slot8.configId]
+			slot17 = slot8:getEquipProficiencyByPos(slot1) and slot16 * 100 or 0
+			slot18 = false
 
-			if not (slot8:getFlag("inWorld") and slot0.contextData.fromMediatorName == WorldMediator.__cname and WorldConst.FetchWorldShip(slot8.id):IsBroken()) and slot9 then
-				for slot22, slot23 in ipairs(slot9) do
-					if slot0:equipmentCheck(slot23) and slot0.equipmentEnhance(slot23, slot2) then
-						slot16 = slot16 + slot23.number
-						slot17 = true
+			if not (slot8:getFlag("inWorld") and slot0.contextData.fromMediatorName == WorldMediator.__cname and WorldConst.FetchWorldShip(slot8.id):IsBroken()) then
+				for slot23, slot24 in ipairs(slot9) do
+					if slot0:equipmentCheck(slot24) and slot0.equipmentEnhance(slot24, slot2) then
+						slot17 = slot17 + slot24.number
+						slot18 = true
 					end
 				end
 			end
 
-			if slot16 - calcFloor(slot16) > 1e-09 then
-				slot16 = string.format("%.1f", slot16)
+			if slot17 - calcFloor(slot17) > 1e-09 then
+				slot17 = string.format("%.1f", slot17)
 				GetComponent(findTF(slot7, "Text"), typeof(Text)).fontSize = 45
 			else
 				GetComponent(findTF(slot7, "Text"), typeof(Text)).fontSize = 50
 			end
 
-			setButtonText(slot7, slot17 and setColorStr(slot16 .. "%", COLOR_GREEN) or slot16 .. "%")
+			setButtonText(slot7, slot18 and setColorStr(slot17 .. "%", COLOR_GREEN) or slot17 .. "%")
 		end
 
 		updateEquipment(slot0:findTF("IconTpl", slot5), slot2)
 
-		slot15 = slot2.config.name
+		slot16 = slot2.config.name
 
 		if slot2.config.ammo_icon[1] then
 			setActive(findTF(slot5, "cont/icon_ammo"), true)
@@ -234,15 +242,15 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 			setActive(findTF(slot5, "cont/icon_ammo"), false)
 		end
 
-		setScrollText(slot0.equipmentPanels[slot1]:Find("info/cont/name_mask/name"), slot15)
+		setScrollText(slot0.equipmentPanels[slot1]:Find("info/cont/name_mask/name"), slot16)
 		eachChild(slot5:Find("attrs"), function (slot0)
 			setActive(slot0, false)
 		end)
 
-		slot17 = underscore.filter(slot2:GetPropertiesInfo().attrs, function (slot0)
+		slot18 = underscore.filter(slot2:GetPropertiesInfo().attrs, function (slot0)
 			return not slot0.type or slot0.type ~= AttributeType.AntiSiren
 		end)
-		slot19 = slot2.config.skill_id[1] and slot2:isDevice() and {
+		slot20 = slot2.config.skill_id[1] and slot2:isDevice() and {
 			1,
 			2,
 			5
@@ -253,49 +261,49 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 			3
 		}
 
-		for slot23, slot24 in ipairs(slot19) do
-			slot25 = slot16:Find("attr_" .. slot24)
-			slot26 = findTF(slot25, "panel")
-			slot27 = findTF(slot25, "lock")
+		for slot24, slot25 in ipairs(slot20) do
+			slot26 = slot17:Find("attr_" .. slot25)
+			slot27 = findTF(slot26, "panel")
+			slot28 = findTF(slot26, "lock")
 
-			setActive(slot25, true)
+			setActive(slot26, true)
 
-			if slot24 == 5 then
-				setText(slot26:Find("values/value"), "")
+			if slot25 == 5 then
+				setText(slot27:Find("values/value"), "")
 
-				slot28 = getSkillName(slot18)
+				slot29 = getSkillName(slot19)
 
-				if PLATFORM_CODE == PLATFORM_US and string.len(slot28) > 15 then
-					GetComponent(slot26:Find("values/value_1"), typeof(Text)).fontSize = 24
+				if PLATFORM_CODE == PLATFORM_US and string.len(slot29) > 15 then
+					GetComponent(slot27:Find("values/value_1"), typeof(Text)).fontSize = 24
 				end
 
-				setText(slot26:Find("values/value_1"), getSkillName(slot18))
-				setActive(slot27, false)
-			elseif #slot17 > 0 then
-				slot28 = table.remove(slot17, 1)
+				setText(slot27:Find("values/value_1"), getSkillName(slot19))
+				setActive(slot28, false)
+			elseif #slot18 > 0 then
+				slot29 = table.remove(slot18, 1)
 
-				if slot2:isAircraft() and slot28.type == AttributeType.CD then
-					slot28 = slot8:getAircraftReloadCD()
+				if slot2:isAircraft() and slot29.type == AttributeType.CD then
+					slot29 = slot8:getAircraftReloadCD()
 				end
 
-				slot29, slot30 = Equipment.GetInfoTrans(slot28, slot8)
+				slot30, slot31 = Equipment.GetInfoTrans(slot29, slot8)
 
-				setText(slot26:Find("tag"), slot29)
+				setText(slot27:Find("tag"), slot30)
 
-				if #string.split(tostring(slot30), "/") >= 2 then
-					setText(slot26:Find("values/value"), slot31[1] .. "/")
-					setText(slot26:Find("values/value_1"), slot31[2])
+				if #string.split(tostring(slot31), "/") >= 2 then
+					setText(slot27:Find("values/value"), slot32[1] .. "/")
+					setText(slot27:Find("values/value_1"), slot32[2])
 				else
-					setText(slot26:Find("values/value"), slot30)
-					setText(slot26:Find("values/value_1"), "")
+					setText(slot27:Find("values/value"), slot31)
+					setText(slot27:Find("values/value_1"), "")
 				end
 
-				setActive(slot27, false)
+				setActive(slot28, false)
 			else
-				setText(slot26:Find("tag"), "")
-				setText(slot26:Find("values/value"), "")
-				setText(slot26:Find("values/value_1"), "")
-				setActive(slot27, true)
+				setText(slot27:Find("tag"), "")
+				setText(slot27:Find("values/value"), "")
+				setText(slot27:Find("values/value_1"), "")
+				setActive(slot28, true)
 			end
 		end
 
