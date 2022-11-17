@@ -55,9 +55,8 @@ function slot0.initUI(slot0)
 	slot0.packTpl = slot0:findTF("PackTpl")
 	slot0.packContainerTF = slot0:findTF("Container")
 	slot0.packItemList = UIItemList.New(slot0.packContainerTF, slot0.packTpl)
-	slot2 = slot0.packItemList
 
-	slot2:make(function (slot0, slot1, slot2)
+	slot0.packItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot1 = slot1 + 1
 
@@ -67,6 +66,14 @@ function slot0.initUI(slot0)
 
 	slot0.packTimerList = {}
 	slot0.packNextTimerList = {}
+	slot4 = tf(Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0]))
+
+	setActive(slot0:findTF("icon_bg/count", slot4), true)
+	setParent(slot4, slot0.itemTpl)
+	setLocalScale(slot4, {
+		x = 0.45,
+		y = 0.45
+	})
 end
 
 function slot0.updateData(slot0)
@@ -107,18 +114,32 @@ function slot0.updateOutline(slot0)
 end
 
 function slot0.updateItem(slot0, slot1, slot2)
-	slot3 = slot0:findTF("Icon", slot1)
-	slot6 = slot2.id or slot2[2]
+	slot3 = slot0:findTF("Frame", slot1)
+	slot4 = slot0:findTF("Icon", slot1)
+	slot7 = slot2.id or slot2[2]
 
 	setText(slot0:findTF("Count", slot1), slot2.count or slot2[3])
 
 	if (slot2.type or slot2[1]) ~= DROP_TYPE_SHIP then
-		setImageSprite(slot3, LoadSprite(Item.GetIcon(slot5, slot6)))
+		setImageSprite(slot4, LoadSprite(Item.GetIcon(slot6, slot7)))
 	else
-		setImageSprite(slot3, LoadSprite("QIcon/" .. Ship.New({
-			configId = slot6
+		setImageSprite(slot4, LoadSprite("QIcon/" .. Ship.New({
+			configId = slot7
 		}):getPainting()))
 	end
+
+	setActive(slot3, false)
+	setActive(slot4, false)
+	setActive(slot5, false)
+
+	slot9 = slot0:findTF("CommonItemTemplate(Clone)", slot1)
+
+	setActive(slot9, true)
+	updateDrop(slot9, {
+		type = slot6,
+		id = slot7,
+		count = slot8
+	})
 end
 
 function slot0.updatePack(slot0, slot1, slot2, slot3)

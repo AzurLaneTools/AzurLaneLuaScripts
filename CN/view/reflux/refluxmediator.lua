@@ -80,7 +80,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		if slot0:isCanUpdateView(slot0.viewComponent.ptView) then
-			slot0.viewComponent.ptView:updateAfterServer()
+			slot0.viewComponent.ptView:updateUI()
 		end
 
 		slot0.viewComponent:updateRedPotList()
