@@ -210958,20 +210958,22 @@ _G.pg.base.task_data_template[56083] = {
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
-	story_id = "",
+	target_id = "0",
 	quick_finish = 0,
 	level = 1,
-	target_id = "0",
 	priority_type = 0,
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56083,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},
-	award_display = {}
+	award_display = {},
+	scene = {
+		"SELTECHNOLOGY"
+	}
 }
 
 _G.pg.base.task_data_template[56091] = {

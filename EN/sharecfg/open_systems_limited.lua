@@ -18,7 +18,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "Grand Fleet",
+		name = "Guild",
 		story_id = "SYG002",
 		id = 3,
 		mediator = "NewGuildMediator",
