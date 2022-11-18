@@ -22399,12 +22399,12 @@ pg.activity_template = {
 			pt_id = 281,
 			enter = {
 				"shop1",
-				"欢迎光临喵",
+				"歡迎光臨喵",
 				"login"
 			},
 			purchase = {
 				"shop3",
-				"谢谢惠顾喵~！",
+				"謝謝惠顧喵~！",
 				"main_3"
 			}
 		}
