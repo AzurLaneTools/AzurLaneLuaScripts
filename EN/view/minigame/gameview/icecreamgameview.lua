@@ -111,7 +111,6 @@ function slot0.didEnter(slot0)
 	slot0:initTimer()
 	slot0:initUI()
 	slot0:initGameUI()
-	slot0:updateMainUI()
 	slot0:openMainUI()
 end
 

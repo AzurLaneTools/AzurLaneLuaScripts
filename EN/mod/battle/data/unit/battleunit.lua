@@ -970,6 +970,9 @@ function slot9.AddBuff(slot0, slot1, slot2)
 
 			if slot7 <= slot6 then
 				slot5:Stack(slot0)
+
+				slot4.stack_count = slot5:GetStack()
+
 				slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_STACK, slot4))
 			else
 				slot0:RemoveBuff(slot3)
@@ -1018,6 +1021,18 @@ function slot9.UpdateBuff(slot0, slot1)
 
 		if not slot0:IsAlive() then
 			break
+		end
+	end
+end
+
+function slot9.ConsumeBuffStack(slot0, slot1, slot2)
+	if slot0:GetBuff(slot1) then
+		if not slot2 then
+			slot0:RemoveBuff(slot1)
+		elseif math.max(0, slot3:GetStack() - slot2) == 0 then
+			slot0:RemoveBuff(slot1)
+		else
+			slot3:UpdateStack(slot0, slot5)
 		end
 	end
 end

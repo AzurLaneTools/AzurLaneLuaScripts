@@ -35,7 +35,7 @@ function slot0.OnInit(slot0)
 		uv0:Emit("PlayFurnitureVoice", uv0.furniture.id)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.bgVoiceBtn, function ()
-		uv0:Emit("PlayFurnitureVoice", uv0.furniture.id)
+		uv0:Emit("PlayFurnitureBg", uv0.furniture.id)
 		setActive(uv0.bgVoiceMark, uv0.furniture:GetMusicData())
 	end, SFX_PANEL)
 end
@@ -46,8 +46,11 @@ function slot0.Show(slot0, slot1)
 	slot0.furniture = slot1
 	slot2, slot3 = slot1:ExistVoice()
 
-	setActive(slot0.voiceBtn, slot2 and slot3 == 1)
-	setActive(slot0.bgVoiceBtn, slot2 and slot3 == 2)
+	setActive(slot0.voiceBtn, slot2 and (slot3 == 1 or slot3 == 3))
+	setActive(slot0.bgVoiceBtn, slot2 and (slot3 == 2 or slot3 == 3))
+	setAnchoredPosition(slot0.voiceBtn, {
+		y = slot3 == 3 and -72 or -22
+	})
 	setActive(slot0.bgVoiceMark, slot0.furniture:GetMusicData())
 	LoadSpriteAsync("FurnitureIcon/" .. slot1:GetIcon(), function (slot0)
 		if not uv0.exited then

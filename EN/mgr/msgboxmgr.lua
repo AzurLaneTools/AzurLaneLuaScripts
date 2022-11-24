@@ -527,6 +527,8 @@ function slot8(slot0, slot1)
 		setText(slot6, SwitchSpecialChar(HXSet.hxLan(desc), true))
 	elseif slot1.drop.type == DROP_TYPE_META_PT then
 		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+	elseif slot1.drop.type == DROP_TYPE_RYZA_DROP then
+		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
 	else
 		assert(false, "can not handle this type>>" .. slot1.drop.type)
 	end

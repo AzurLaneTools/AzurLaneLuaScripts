@@ -193,7 +193,7 @@ pg.error_message = {
 		desc = "An error has occured; please try again,"
 	},
 	[4206] = {
-		desc = "This gift has already been claimed,"
+		desc = "You can't obtain any more."
 	},
 	[4207] = {
 		desc = "No gift redemption URL,"

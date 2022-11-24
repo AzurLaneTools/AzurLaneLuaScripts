@@ -86,10 +86,10 @@ end
 function slot2.StartEggCellView(slot0, slot1, slot2)
 	if ChapterConst.EnemySize[slot1.type] == 99 then
 		setActive(slot0.tfBossIcon, true)
-		slot0:GetLoader():GetSprite("ui/share/ship_gizmos_atlas", "enemy_boss", slot0.tfBossIcon)
+		slot0:GetLoader():GetSpriteQuiet("ui/share/ship_gizmos_atlas", "enemy_boss", slot0.tfBossIcon)
 	elseif ChapterConst.EnemySize[slot1.type] == 98 then
 		setActive(slot0.tfBossIcon, true)
-		slot0:GetLoader():GetSprite("ui/share/ship_gizmos_atlas", "enemy_elite", slot0.tfBossIcon)
+		slot0:GetLoader():GetSpriteQuiet("ui/share/ship_gizmos_atlas", "enemy_elite", slot0.tfBossIcon)
 	else
 		setActive(slot0.tfBossIcon, false)
 	end

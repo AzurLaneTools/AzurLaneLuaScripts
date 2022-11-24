@@ -18,6 +18,12 @@ function slot0.OnInit(slot0)
 	slot0.animator.enabled = slot1
 
 	setActive(slot0._tf:Find("Tip"), slot1)
+
+	slot0._tf.localScale = slot0.isScale and Vector3(0.85, 0.85, 1) or Vector3(1, 1, 1)
+
+	setAnchoredPosition(slot0._tf, {
+		y = slot0.isScale and -950 or -752.5
+	})
 end
 
 return slot0

@@ -23,6 +23,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.important = slot1.important
 	slot0.branchCode = slot1.optionFlag
 	slot0.nextScriptName = slot1.jumpto
+	slot0.eventDelay = slot1.eventDelay or 0
 end
 
 function slot0.OldPhotoEffect(slot0)
@@ -175,6 +176,14 @@ end
 
 function slot0.GetNextScriptName(slot0)
 	return slot0.nextScriptName
+end
+
+function slot0.ShouldDelayEvent(slot0)
+	return slot0.eventDelay and slot0.eventDelay > 0
+end
+
+function slot0.GetEventDelayTime(slot0)
+	return slot0.eventDelay
 end
 
 return slot0

@@ -15,8 +15,9 @@ end
 function slot1.onBulletHitFunc(slot0, slot1, slot2)
 	slot6 = uv0.GetDataProxy()
 	slot7 = slot0:GetBulletData()
+	slot8 = slot7:GetTemplate()
 
-	uv1.Battle.PlayBattleSFX(slot7:GetTemplate().hit_sfx)
+	uv1.Battle.PlayBattleSFX(slot7:GetHitSFX())
 	slot7:BuffTrigger(uv1.Battle.BattleConst.BuffEffectType.ON_TORPEDO_BULLET_BANG, {
 		_bullet = slot7,
 		equipIndex = slot7:GetWeapon():GetEquipmentIndex(),

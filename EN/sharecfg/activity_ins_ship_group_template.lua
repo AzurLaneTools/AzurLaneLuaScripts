@@ -1940,6 +1940,31 @@ pg.activity_ins_ship_group_template = {
 		name = "Washington",
 		sculpture = "huashengdun"
 	},
+	[1090001] = {
+		ship_group = 1090001,
+		name = "Reisalin Stout",
+		sculpture = "laisha"
+	},
+	[1090002] = {
+		ship_group = 1090002,
+		name = "Klaudia Valentz",
+		sculpture = "keluodiya"
+	},
+	[1090003] = {
+		ship_group = 1090003,
+		name = "Patricia Abelheim",
+		sculpture = "patelixia"
+	},
+	[1090005] = {
+		ship_group = 1090005,
+		name = "Serri Glaus",
+		sculpture = "saili"
+	},
+	[1090004] = {
+		ship_group = 1090004,
+		name = "Lila Decyrus",
+		sculpture = "lila"
+	},
 	all = {
 		30701,
 		30702,
@@ -2328,6 +2353,11 @@ pg.activity_ins_ship_group_template = {
 		21301,
 		21302,
 		20210,
-		10513
+		10513,
+		1090001,
+		1090002,
+		1090003,
+		1090005,
+		1090004
 	}
 }

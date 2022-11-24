@@ -1517,6 +1517,72 @@ pg.battle_environment_behaviour_template = {
 			}
 		}
 	},
+	[10025] = {
+		id = 10025,
+		name = "巨炮嵌套配置2",
+		behaviour_list = {
+			{
+				FX_ID = "yaosaizidan02",
+				reload_time = 100,
+				type = 1,
+				offset = {
+					-15,
+					0,
+					145
+				}
+			},
+			{
+				hp_rate = 0.01,
+				damage = 0,
+				type = 2,
+				delay = 1,
+				reload_time = 4
+			}
+		}
+	},
+	[10026] = {
+		id = 10026,
+		name = "莱莎联动炮击",
+		behaviour_list = {
+			{
+				rounds = 5,
+				reload_time = 8,
+				offset_time = 0,
+				type = 6,
+				content = {
+					count = 1,
+					alert = {
+						alert_fx = "AlertArea",
+						range = 20
+					},
+					child_prefab = {
+						life_time = 3,
+						behaviours = 10025,
+						cld_data = {
+							20
+						}
+					}
+				},
+				route = {
+					{
+						count = 3
+					},
+					{
+						count = 3
+					},
+					{
+						count = 3
+					},
+					{
+						count = 3
+					},
+					{
+						count = 3
+					}
+				}
+			}
+		}
+	},
 	[10100] = {
 		id = 10100,
 		name = "大世界仲裁者战斗_开场随机雷电",

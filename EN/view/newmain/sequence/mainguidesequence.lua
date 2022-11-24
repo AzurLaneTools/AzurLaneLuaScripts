@@ -54,6 +54,67 @@ slot1 = {
 		args = function ()
 			return {}
 		end
+	},
+	{
+		id = "NG0030",
+		condition = function ()
+			if not tobool(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)) then
+				return false
+			end
+
+			return getProxy(ChapterProxy):getChapterById(1690005) and slot2:isClear()
+		end,
+		args = function ()
+			slot0 = getProxy(ChapterProxy)
+
+			return slot0:getMapById(slot0:getLastMapForActivity()):getConfig("type") == Map.ACTIVITY_HARD and {
+				1,
+				3
+			} or {
+				1,
+				2,
+				3
+			}
+		end
+	},
+	{
+		id = "NG0031",
+		condition = function ()
+			return pg.NewStoryMgr.GetInstance():IsPlayed("NG0030")
+		end,
+		args = function ()
+			slot0 = PlayerPrefs.GetInt("ryza_task_help_" .. getProxy(PlayerProxy):getRawData().id, 0) == 0
+
+			warning(slot0)
+
+			return slot0 and {
+				1,
+				2
+			} or {
+				1
+			}
+		end
+	},
+	{
+		id = "NG0032_1",
+		condition = function ()
+			return pg.NewStoryMgr.GetInstance():IsPlayed("NG0031")
+		end,
+		args = function ()
+			return PlayerPrefs.GetInt("first_enter_ryza_atelier_" .. getProxy(PlayerProxy):getRawData().id, 0) == 0 and {
+				1,
+				2
+			} or {
+				1
+			}
+		end,
+		nextOne = function ()
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_RYZA) and not slot0:isEnd() and table.contains(slot0.data1_list, 56205) then
+				return "NG0032_2", {}
+			else
+				return nil
+			end
+		end
 	}
 }
 
@@ -98,7 +159,24 @@ function slot0.Execute(slot0, slot1)
 	slot6 = pg.GuideMgr.GetInstance()
 
 	slot6:play(slot3, slot5, function ()
+		if uv0.nextOne then
+			slot0, slot1 = uv0.nextOne()
+
+			uv1:PlayNextOne(slot0, slot1)
+		end
 	end, slot1)
+end
+
+function slot0.PlayNextOne(slot0, slot1, slot2)
+	if not slot1 then
+		return
+	end
+
+	pg.GuideMgr.GetInstance():play(slot1, slot2, function ()
+	end)
+	pg.m02:sendNotification(GAME.STORY_UPDATE, {
+		storyId = slot1
+	})
 end
 
 return slot0

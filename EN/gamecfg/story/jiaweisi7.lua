@@ -327,7 +327,7 @@ return {
 					flag = 2
 				},
 				{
-					content = "………………",
+					content = "Say nothing",
 					flag = 3
 				}
 			}
@@ -379,7 +379,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "Say nothing",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

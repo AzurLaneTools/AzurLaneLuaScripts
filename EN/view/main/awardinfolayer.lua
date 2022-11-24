@@ -1,6 +1,7 @@
 slot0 = class("AwardInfoLayer", import("..base.BaseUI"))
 slot0.TITLE = {
 	COMMANDER = "commander",
+	RYZA = "ryza",
 	ITEM = "item",
 	SHIP = "ship",
 	REVERT = "revert",

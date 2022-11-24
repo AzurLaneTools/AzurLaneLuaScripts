@@ -747,7 +747,7 @@ _G.pg.base.gametip.word_shipType_weiXiu = {
 }
 
 _G.pg.base.gametip.word_shipType_other = {
-	tip = "Other"
+	tip = "Misc"
 }
 
 _G.pg.base.gametip.word_shipType_all = {
@@ -1063,7 +1063,7 @@ _G.pg.base.gametip.word_equipment_intensify = {
 }
 
 _G.pg.base.gametip.word_equipment_special = {
-	tip = "Other "
+	tip = "Misc"
 }
 
 _G.pg.base.gametip.word_primary_weapons = {
@@ -3557,7 +3557,7 @@ _G.pg.base.gametip.spweapon_ui_index_shipType_qianTing = {
 }
 
 _G.pg.base.gametip.spweapon_ui_index_shipType_other = {
-	tip = "Other"
+	tip = "Misc"
 }
 
 _G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
@@ -5131,7 +5131,7 @@ _G.pg.base.gametip.attribute_dodge_limit = {
 }
 
 _G.pg.base.gametip.attribute_intimacy = {
-	tip = "Intimacy"
+	tip = "Affinity"
 }
 
 _G.pg.base.gametip.attribute_max_distance_damage = {
@@ -5367,7 +5367,7 @@ _G.pg.base.gametip.word_shipNation_beiLian = {
 }
 
 _G.pg.base.gametip.word_shipNation_other = {
-	tip = "Other"
+	tip = "Misc"
 }
 
 _G.pg.base.gametip.word_shipNation_np = {
@@ -5420,6 +5420,10 @@ _G.pg.base.gametip.word_shipNation_ssss = {
 
 _G.pg.base.gametip.word_shipNation_mot = {
 	tip = "Tempesta"
+}
+
+_G.pg.base.gametip.word_shipNation_ryza = {
+	tip = "Atelier Ryza"
 }
 
 _G.pg.base.gametip.word_reset = {
@@ -6438,7 +6442,7 @@ Completing a Daily Raid stage with an S rating will unlock the quick battle opti
 - Quick battle allows you to challenge that stage multiple times at once.
 - Carrying out quick battles will skip the battle and grant you rewards according to the number of battles carried out.
 - Quick battles do not consume Oil, but also do not grant Commander or Ship EXP.
-- Quick battles will not affect the Morale or Affection of your ships.
+- Quick battles will not affect the Morale or Affinity of your ships.
 - Quick battle sortie victories will not affect your number of victories or victory rate on your profile page.
 - Quick battles count towards the progress of certain missions such as:
   Obtain victory with a B/A/S rating.
@@ -8784,7 +8788,7 @@ _G.pg.base.gametip.backyard_sort_tag_size = {
 }
 
 _G.pg.base.gametip.backyard_filter_tag_other = {
-	tip = "Other"
+	tip = "Misc"
 }
 
 _G.pg.base.gametip.word_status_inFight = {
@@ -10168,7 +10172,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Peter Strasser, Prinz Heinrich, Nürnberg and Weser!"
+	tip = "Rate UP for Reisalin Stout,Patricia Abelheim and more!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11859,7 +11863,7 @@ _G.pg.base.gametip.index_shipType_qianTing = {
 }
 
 _G.pg.base.gametip.index_other = {
-	tip = "Other"
+	tip = "Misc"
 }
 
 _G.pg.base.gametip.index_rare2 = {
@@ -15687,7 +15691,7 @@ _G.pg.base.gametip.guild_get_report_failed = {
 }
 
 _G.pg.base.gametip.guild_report_get_all = {
-	tip = "Claim All"
+	tip = "Collect All"
 }
 
 _G.pg.base.gametip.guild_can_not_get_tip = {
@@ -17929,7 +17933,7 @@ _G.pg.base.gametip.LevelSignal = {
 }
 
 _G.pg.base.gametip.LevelSignal_go = {
-	tip = "Sortie"
+	tip = "Confirm"
 }
 
 _G.pg.base.gametip.LevelSignal_search = {
@@ -18435,7 +18439,7 @@ _G.pg.base.gametip.memory_activity_daily = {
 }
 
 _G.pg.base.gametip.memory_activity_others = {
-	tip = "Other"
+	tip = "Misc"
 }
 
 _G.pg.base.gametip.battle_end_title = {
@@ -20374,6 +20378,66 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2212 = {
+	tip = "Complete Cruise Missions between 12/1/2022 00:00 – 1/31/2023 23:59 to receive <color=#854748>Fortune META META</color> and other rewards!"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2212 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+12/1/2022 00:00 – 1/31/2023 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Fortune META META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Cleveland, "Southbound Journey"
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2212 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "Reset"
 }
@@ -21430,7 +21494,7 @@ _G.pg.base.gametip.report_type_3_1 = {
 }
 
 _G.pg.base.gametip.report_type_other = {
-	tip = "Other"
+	tip = "Misc"
 }
 
 _G.pg.base.gametip.report_type_other_1 = {
@@ -21857,4 +21921,388 @@ _G.pg.base.gametip.pgs_unbind_tip1 = {
 
 _G.pg.base.gametip.pgs_unbind_tip2 = {
 	tip = "Your game account is bound to your PGS account. Removing all your other account binds will also remove your bind to your PGS account."
+}
+
+_G.pg.base.gametip.word_item = {
+	tip = "Item"
+}
+
+_G.pg.base.gametip.word_tool = {
+	tip = "Tool"
+}
+
+_G.pg.base.gametip.word_other = {
+	tip = "Misc"
+}
+
+_G.pg.base.gametip.ryza_word_equip = {
+	tip = "Gear"
+}
+
+_G.pg.base.gametip.ryza_rest_produce_count = {
+	tip = "Synthesis Attempts:"
+}
+
+_G.pg.base.gametip.ryza_composite_confirm = {
+	tip = "Do you want to synthesize $2x $1?"
+}
+
+_G.pg.base.gametip.ryza_composite_confirm_single = {
+	tip = "Do you want to synthesize $1?"
+}
+
+_G.pg.base.gametip.ryza_composite_count = {
+	tip = "Quantity:"
+}
+
+_G.pg.base.gametip.ryza_toggle_only_composite = {
+	tip = "Display Available Only"
+}
+
+_G.pg.base.gametip.ryza_tip_select_recipe = {
+	tip = "Select a recipe on the left"
+}
+
+_G.pg.base.gametip.ryza_tip_put_materials = {
+	tip = "Tap on the circle to add synthesis materials ($1/$2)"
+}
+
+_G.pg.base.gametip.ryza_tip_composite_unlock = {
+	tip = "The Synthesis system will be unlocked after clearing event stage T5."
+}
+
+_G.pg.base.gametip.ryza_tip_unlock_all_tools = {
+	tip = "Recipes will be unlocked after obtaining all gathering tools."
+}
+
+_G.pg.base.gametip.ryza_material_not_enough = {
+	tip = "Key materials are missing. Tap Begin Synthesis to see which materials you need."
+}
+
+_G.pg.base.gametip.ryza_tip_composite_invalid = {
+	tip = "You can no longer synthesize this recipe."
+}
+
+_G.pg.base.gametip.ryza_tip_max_composite_count = {
+	tip = "You do not have enough synthesis materials."
+}
+
+_G.pg.base.gametip.ryza_tip_no_item = {
+	tip = "You don't have any synthesis materials."
+}
+
+_G.pg.base.gametip.ryza_ui_show_acess = {
+	tip = "How\nto Get"
+}
+
+_G.pg.base.gametip.ryza_tip_no_recipe = {
+	tip = "No recipes available."
+}
+
+_G.pg.base.gametip.ryza_tip_item_access = {
+	tip = "Tap on a material's icon to check how to obtain it."
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain_tip = {
+	tip = "Core Upgrades available through Synthesis."
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_upgrade = {
+	tip = "Upgrade"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_replace = {
+	tip = "Replace"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_limit = {
+	tip = "Maxed"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_already_active_tip = {
+	tip = "Slotted"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff = {
+	tip = "Boosts will be applied to your fleets on the following stages: TH1-5, SP, EX."
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain = {
+	tip = "Unowned"
+}
+
+_G.pg.base.gametip.ryza_tip_control = {
+	tip = "Place Cores into the circles to obtain various boost effects."
+}
+
+_G.pg.base.gametip.ryza_tip_main = {
+	tip = {
+		{
+			info = [[
+Event Info:
+The limited collab event, ""The Alchemist and the Archipelago of Secrets,"" is available from <color=#92fc63>11/24 to 12/7</color>!
+1. Clear event stages to obtain Crystal Clusters, which can be exchanged for great rewards. You'll also receive milestone rewards for collecting lots of Crystal Clusters.
+2. Play the ""Operation Hot Spring"" minigame for a total of 7 days to obtain the <color=#92fc63>Small Hot Spring</color> limited furniture, as well as exclusive collab gear skins.
+3. Request Board: During the event, you will be able to take on a variety of different requests. Complete them to obtain <color=#92fc63>special Synthesis materials</color> as well as limited furniture! Furthermore, completing a certain number of requests will grant buffs to your fleets during the event period!
+New requests will be posted every day until 11/30.
+4. Synthesis: During the event, convert the materials obtained from Gathering Sites and completing Requests into brand new items using the Synthesis system! Follow recipes to create great items such as <color=#92fc63>exclusive commemorative furniture</color>, <color=#92fc63>unique collab gear</color>, and <color=#92fc63>Augment Modules for collab characters</color>!
+5. Brand new skins are available at the Outfit Store.
+6. Exclusive collab characters can be obtained from Limited Construction.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battle_levelScene_ryza_lock = {
+	tip = "Gathering Site stages will unlock after clearing T5 - The Home Stretch."
+}
+
+_G.pg.base.gametip.ryza_tip_toast_item_got = {
+	tip = "Materials"
+}
+
+_G.pg.base.gametip.ryza_composite_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_4",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_control_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_control",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_mini_game = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_level_desc = {
+	tip = "Reputation "
+}
+
+_G.pg.base.gametip.ryza_task_tag_explore = {
+	tip = "Expl. "
+}
+
+_G.pg.base.gametip.ryza_task_tag_battle = {
+	tip = "Hunt"
+}
+
+_G.pg.base.gametip.ryza_task_tag_dalegate = {
+	tip = "Comm. "
+}
+
+_G.pg.base.gametip.ryza_task_tag_develop = {
+	tip = "Res. "
+}
+
+_G.pg.base.gametip.ryza_task_detail_content = {
+	tip = "Description"
+}
+
+_G.pg.base.gametip.ryza_task_detail_award = {
+	tip = "Rewards"
+}
+
+_G.pg.base.gametip.ryza_task_go = {
+	tip = "Confirm"
+}
+
+_G.pg.base.gametip.ryza_task_get = {
+	tip = "Collect"
+}
+
+_G.pg.base.gametip.ryza_task_get_all = {
+	tip = "Collect All"
+}
+
+_G.pg.base.gametip.ryza_task_confirm = {
+	tip = "Confirm"
+}
+
+_G.pg.base.gametip.ryza_task_cancel = {
+	tip = "Cancel"
+}
+
+_G.pg.base.gametip.ryza_task_level_num = {
+	tip = "Rep. Level"
+}
+
+_G.pg.base.gametip.ryza_task_level_add = {
+	tip = "Rep. Bonuses"
+}
+
+_G.pg.base.gametip.ryza_task_submit = {
+	tip = "Submit"
+}
+
+_G.pg.base.gametip.ryza_task_detail = {
+	tip = "Check"
+}
+
+_G.pg.base.gametip.ryza_composite_words = {
+	tip = {
+		{
+			"ryza_atellier1",
+			"What should I make?"
+		},
+		{
+			"ryza_atellier2",
+			"What should I put in?"
+		},
+		{
+			"ryza_atellier3",
+			"Let's try something new!"
+		},
+		{
+			"ryza_atellier4",
+			"Should I throw in the materials first and decide what to make later?"
+		},
+		{
+			"ryza_atellier5",
+			"This looks good!"
+		},
+		{
+			"ryza_atellier6",
+			"I bet this'll make something awesome!"
+		},
+		{
+			"ryza_atellier7",
+			"Yup, this'll do the trick!"
+		},
+		{
+			"ryza_atellier8",
+			"I'm sure hope this works."
+		},
+		{
+			"ryza_atellier9",
+			"Okay, here we go!"
+		},
+		{
+			"ryza_atellier10",
+			"Tadah! I think this looks right?"
+		},
+		{
+			"ryza_atellier11",
+			"Yes! It's finished!"
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_task_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_task_2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

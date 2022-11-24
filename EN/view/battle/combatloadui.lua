@@ -460,6 +460,10 @@ function slot0.Preload(slot0)
 	slot1:AddPreloadResource(slot1.GetCommonResource())
 	slot1:AddPreloadResource(slot1.GetBuffResource())
 
+	if pg.battle_cost_template[slot0.contextData.system].global_buff_effected > 0 then
+		uv0.addGlobalBuffRes()
+	end
+
 	for slot11, slot12 in ipairs(slot7) do
 		slot1:AddPreloadCV(slot12)
 	end
@@ -490,6 +494,18 @@ function slot0.addCommanderBuffRes(slot0)
 	for slot5, slot6 in ipairs(slot0) do
 		for slot11, slot12 in ipairs(slot1.GetCommanderResource(slot6)) do
 			slot1:AddPreloadResource(slot12)
+		end
+	end
+end
+
+function slot0.addGlobalBuffRes()
+	slot2 = ys.Battle.BattleResourceManager.GetInstance()
+
+	for slot6, slot7 in ipairs(_.map(BuffHelper.GetBattleBuffs(), function (slot0)
+		return slot0:getConfig("benefit_effect")
+	end)) do
+		for slot12, slot13 in ipairs(ys.Battle.BattleDataFunction.GetResFromBuff(tonumber(slot7), 1, {})) do
+			slot2:AddPreloadResource(slot13)
 		end
 	end
 end

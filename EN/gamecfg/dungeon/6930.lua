@@ -78,28 +78,6 @@ return {
 								0,
 								55
 							}
-						},
-						{
-							monsterTemplateID = 999550,
-							moveCast = true,
-							delay = 0,
-							score = 0,
-							corrdinate = {
-								-10,
-								0,
-								35
-							}
-						},
-						{
-							monsterTemplateID = 999550,
-							moveCast = true,
-							delay = 0,
-							score = 0,
-							corrdinate = {
-								-10,
-								0,
-								75
-							}
 						}
 					}
 				},

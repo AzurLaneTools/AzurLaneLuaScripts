@@ -5361,6 +5361,55 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[239] = {
+		effect = "",
+		name = "Ruins Explorer Sculpture",
+		gain_by = "The Alchemist and the Archipelago of Secrets",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A sculpture made from materials gathered among the ruins, commemorating the glorious adventure you've had. Obtained from the collab event The Alchemist and the Archipelago of Secrets.\"...Yup, this is also a barrel!\"",
+		tag = 6,
+		icon = "lianjinxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 239,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			3,
+			{
+				"event:/cv/furniture/ryzavoice"
+			},
+			{
+				"ryza-az-theme"
+			}
+		},
+		spine = {
+			{
+				"lianjinxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -7453,6 +7502,90 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100033] = {
+		effect = "",
+		name = "Antigrav Simulator",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "W-woah, we're taking off!",
+		themeId = 0,
+		icon = "shizhongjiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100033,
+		can_rotate = 0,
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongjiB",
+				"normal"
+			},
+			{
+				"shizhongjiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					9.3,
+					34.04
+				},
+				{
+					100,
+					92
+				},
+				"chuanmo/shizhongji_mask"
+			},
+			{
+				0,
+				-44
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	[100042] = {
 		effect = "",
 		name = "",
@@ -7528,6 +7661,86 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100044] = {
+		effect = "",
+		name = "火堆",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "稍微…休息一下啾……",
+		themeId = 0,
+		icon = "jiujiuyinghuoicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100044,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiujiuyinghuoB",
+				"normal"
+			},
+			{
+				"jiujiuyinghuoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit2",
+						0,
+						"sit"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"sit1",
+						"sit"
+					},
+					"sit"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -98088,6 +98301,1890 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[95001] = {
+		icon = "dibanljicon",
+		name = "Atelier Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 95,
+		picture = "lj/dibanlj",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Step inside Ryza's atelier and have an adventurous look around!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 4,
+		comfortable = 4,
+		canputon = 0,
+		id = 95001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95002] = {
+		icon = "qiangbiljicon",
+		name = "Atelier Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 95,
+		picture = "lj/qiangbilj",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Step inside Ryza's atelier and have an adventurous look around!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 3,
+		comfortable = 4,
+		canputon = 0,
+		id = 95002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95101] = {
+		effect = "",
+		name = "Wooden Tea Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/chajilj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "When you want a tea party but don't want to leave the atelier.",
+		tag = 1,
+		icon = "chajiljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95101,
+		can_rotate = 0,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95102] = {
+		effect = "",
+		name = "Storage Cabinet A",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/chuwugui1lj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Gotta make the most of the space you have!",
+		tag = 1,
+		icon = "chuwugui1ljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95102,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95103] = {
+		effect = "",
+		name = "Storage Cabinet B",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/chuwugui2lj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Gotta make the most of the space you have!",
+		tag = 1,
+		icon = "chuwugui2ljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95103,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95104] = {
+		effect = "",
+		name = "Storage Cabinet C",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/chuwugui3lj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Gotta make the most of the space you have!",
+		tag = 1,
+		icon = "chuwugui3ljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95104,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95105] = {
+		effect = "",
+		name = "Storage Shelf",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/chuwugui4lj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Be careful when you're on the ladder.",
+		tag = 1,
+		icon = "chuwugui4ljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95105,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95106] = {
+		effect = "",
+		name = "Small Cupboard",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/chuwugui5lj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Filled with various alchemy materials.",
+		tag = 1,
+		icon = "chuwugui5ljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95106,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95107] = {
+		effect = "",
+		name = "Small Box",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/chuwuxianglj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A humble storage container. Only Ryza knows what's inside.",
+		tag = 1,
+		icon = "chuwuxiangljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95108] = {
+		effect = "",
+		name = "Great Elemental's Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "lj/dajinglingyizilj",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "While it's not very comfortable at all, it does project an air of dominance.",
+		tag = 1,
+		icon = "dajinglingyiziljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95108,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18,
+					-21.5
+				},
+				{
+					-1,
+					1
+				},
+				"lj/dajinglingyizilj_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95109] = {
+		effect = "",
+		name = "Atelier Couch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "lj/dashafalj",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A big-ish couch. Great for relaxing and napping alike.",
+		tag = 1,
+		icon = "dashafaljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95109,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-6.4,
+					20
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95110] = {
+		effect = "",
+		name = "Giant Weasel Doll",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/dayoubuoulj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't be alarmed, it's just a very realistic doll.",
+		tag = 1,
+		icon = "dayoubuouljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95110,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95111] = {
+		effect = "",
+		name = "Small Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "lj/dengzilj",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A run-of-the-mill stool. You wish it had a backrest.",
+		tag = 1,
+		icon = "dengziljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95111,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13.8,
+					48.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95112] = {
+		effect = "",
+		name = "Big Rug",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/ditanlj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A much bigger rug. It makes the atelier feel a bit more fancy.",
+		tag = 1,
+		icon = "ditanljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95112,
+		can_rotate = 0,
+		size = {
+			16,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95113] = {
+		effect = "",
+		name = "Celestial Body Model",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/fuyoutianqiulj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Its rings move in mysterious, unpredictable ways.",
+		tag = 1,
+		icon = "fuyoutianqiuljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95114] = {
+		effect = "",
+		name = "Duplication Cauldron",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/fuzhifulj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A curious contraption.",
+		tag = 1,
+		icon = "fuzhifuljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95115] = {
+		effect = "",
+		name = "Atelier Desk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/gongzuotailj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The place where Ryza keeps her journal.",
+		tag = 1,
+		icon = "gongzuotailjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95115,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95116] = {
+		effect = "",
+		name = "Horned Sheep Doll",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/jiaomianyangbuoulj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It won't drop any wool no matter how much you hit it.",
+		tag = 1,
+		icon = "jiaomianyangbuouljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95117] = {
+		effect = "",
+		name = "Fireplace",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/lianjinlvlj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Keeps the atelier warm and cozy.",
+		tag = 1,
+		icon = "lianjinlvljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95118] = {
+		effect = "",
+		name = "Atelier Staircase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/loutilj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Of course there's a second floor!",
+		tag = 1,
+		icon = "loutiljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95118,
+		can_rotate = 0,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95119] = {
+		effect = "",
+		name = "Atelier Forge",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/luzilj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Need to buff up your weapons? Look no further.",
+		tag = 1,
+		icon = "luziljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95119,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95120] = {
+		effect = "",
+		name = "Atelier Rug",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/mentanlj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A small rug to spice up a modest floor.",
+		tag = 1,
+		icon = "mentanljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95120,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95121] = {
+		effect = "",
+		name = "Pile of Stuff",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/muzhichuwuxianglj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Getting to the boxes on the bottom is a huge chore.",
+		tag = 1,
+		icon = "muzhichuwuxiangljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95121,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95122] = {
+		effect = "",
+		name = "Wooden Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/muzhixiaozhuolj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Covered in huge stacks of paper.",
+		tag = 1,
+		icon = "muzhixiaozhuoljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95122,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95123] = {
+		effect = "",
+		name = "Small Bookcase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/shujialj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Easier to reach than the big bookcase, but with less space for books.",
+		tag = 1,
+		icon = "shujialjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95123,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95124] = {
+		effect = "",
+		name = "Atelier Mini-Sofas",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/xiaoshafalj",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Smaller than the couch, but every bit as cushy.",
+		tag = 1,
+		icon = "xiaoshafaljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95124,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95126] = {
+		effect = "",
+		name = "Small Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/xiaozhuozilj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's small, but that's no reason to be mean to it.",
+		tag = 1,
+		icon = "xiaozhuoziljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95126,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95127] = {
+		effect = "",
+		name = "Atelier Workbench",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/yijiepingzhuolj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The flasks are durable and can be brought with you on adventures.",
+		tag = 1,
+		icon = "yijiepingzhuoljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95127,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95128] = {
+		effect = "",
+		name = "Small Hot Spring",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "lj/yuchilj",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A bit like an indoor swimming pool. The heating element is durable and reliable.",
+		tag = 1,
+		icon = "yuchiljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95128,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-23.6,
+					-47.5
+				},
+				{
+					-1,
+					1
+				},
+				"lj/yuchilj_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95129] = {
+		effect = "",
+		name = "Atelier Potted Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/zaipei1lj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Because every room could use a bit of green.",
+		tag = 1,
+		icon = "zaipei1ljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95129,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95130] = {
+		effect = "",
+		name = "Atelier House Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/zaipei2lj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Conveniently small so you can put it just about anywhere.",
+		tag = 1,
+		icon = "zaipei2ljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95130,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95131] = {
+		effect = "",
+		name = "Atelier Alchemy Cauldron",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "lj/ziyaoguolj",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "How does alchemy work? It's hard to explain.",
+		tag = 1,
+		icon = "ziyaoguoljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95131,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-1.5,
+					-34.9
+				},
+				{
+					-1,
+					1
+				},
+				"lj/ziyaoguolj_using",
+				0,
+				{
+					{
+						-1.2,
+						16.2
+					},
+					{
+						197.3,
+						450
+					},
+					"lj/ziyaoguolj_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95132] = {
+		effect = "",
+		name = "Alchemy Platform",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The heart of Ryza's atelier. This is where the magic happens.",
+		themeId = 95,
+		icon = "lvyaoguoljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		belong = 1,
+		canputon = 0,
+		id = 95132,
+		can_rotate = 0,
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lvyaoguoljB",
+				"normal"
+			},
+			{
+				"lvyaoguoljT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					5.9,
+					38.8
+				},
+				{
+					197.3,
+					450
+				},
+				"lj/ziyaoguolj_mask",
+				{
+					-20,
+					156
+				}
+			},
+			{
+				2.8,
+				-37
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"wash",
+				{
+					307074
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[95133] = {
+		effect = "",
+		name = "Siren Alchemy Cauldron",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It looks fairly normal, but it was made with Siren technology!",
+		tag = 7,
+		icon = "hongyaoguoljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95133,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hongyaoguolj",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95134] = {
+		effect = "",
+		name = "Siren Alchemy Cannon",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "An engraving on it reads, \"Belongs to Purity.\" It's not a functional cannon... or so we hope, at least.",
+		tag = 7,
+		icon = "lianjindapaoljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95134,
+		can_rotate = 0,
+		size = {
+			7,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lianjindapaolj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95140] = {
+		effect = "",
+		name = "Giant Manuscript",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A tome so heavy that nobody can lift it. Written in an unknown language.",
+		tag = 7,
+		icon = "shubenljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95140,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shubenlj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95141] = {
+		effect = "",
+		name = "Decorative Treasure Chest",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Everyone knows the excitement of opening one of these.",
+		tag = 7,
+		icon = "baoxiangljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95141,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baoxianglj",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95142] = {
+		effect = "",
+		name = "Blue Puni Doll",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "People sometimes forget it's just a doll on account of how real it looks.",
+		tag = 7,
+		icon = "puniljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95142,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"punilj",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95143] = {
+		effect = "",
+		name = "Atelier Bookcase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/dashujialj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What better way to show that you're smart than with rows and rows of books?",
+		tag = 1,
+		icon = "dashujialjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95143,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95144] = {
+		effect = "",
+		name = "Barrel",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 95,
+		count = 10,
+		is_3d_obj = 0,
+		describe = "Yup, that's a barrel!",
+		tag = 7,
+		icon = "mutongljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 95144,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mutonglj",
+				"normal",
+				{
+					"action",
+					false,
+					[4] = {
+						"event:/ui/ryza1",
+						"event:/ui/ryza2",
+						"event:/ui/ryza3",
+						"event:/ui/ryza4",
+						"event:/ui/ryza5"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95301] = {
+		effect = "",
+		name = "Atelier Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/chuanghulj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A great source for lots of natural light.",
+		tag = 5,
+		icon = "chuanghuljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 95301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95302] = {
+		effect = "",
+		name = "Atelier Sign",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/guapailj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "In essence, a repurposed blackboard.",
+		tag = 5,
+		icon = "guapailjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 95302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95303] = {
+		effect = "",
+		name = "Atelier Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/menglj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This intricate wooden door lends a sense of dignity to the atelier.",
+		tag = 5,
+		icon = "mengljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 95303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95304] = {
+		effect = "",
+		name = "Bedroom Loft",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/woshilj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The best place to be after a day of back-breaking work!",
+		tag = 5,
+		icon = "woshiljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 95304,
+		can_rotate = 0,
+		size = {
+			14,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95305] = {
+		effect = "",
+		name = "Atelier Photo Frames",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 95,
+		is_get_time_note = 0,
+		picture = "lj/xiangkuanglj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Photo frames decorating the alchemist's atelier.",
+		tag = 5,
+		icon = "xiangkuangljicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 95305,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -98201,6 +100298,7 @@ pg.furniture_data_template = {
 			236,
 			237,
 			238,
+			239,
 			100002,
 			100003,
 			100004,
@@ -98230,7 +100328,9 @@ pg.furniture_data_template = {
 			100030,
 			100031,
 			100032,
+			100033,
 			100042,
+			100044,
 			200001,
 			200002,
 			200003,
@@ -98365,6 +100465,7 @@ pg.furniture_data_template = {
 			236,
 			237,
 			238,
+			239,
 			100002,
 			100003,
 			100004,
@@ -98394,7 +100495,9 @@ pg.furniture_data_template = {
 			100030,
 			100031,
 			100032,
+			100033,
 			100042,
+			100044,
 			200001,
 			200002,
 			200003,
@@ -102698,6 +104801,98 @@ pg.furniture_data_template = {
 			94304,
 			94305,
 			94306
+		},
+		[95] = {
+			95001,
+			95002,
+			95101,
+			95102,
+			95103,
+			95104,
+			95105,
+			95106,
+			95107,
+			95108,
+			95109,
+			95110,
+			95111,
+			95112,
+			95113,
+			95114,
+			95115,
+			95116,
+			95117,
+			95118,
+			95119,
+			95120,
+			95121,
+			95122,
+			95123,
+			95124,
+			95126,
+			95127,
+			95128,
+			95129,
+			95130,
+			95131,
+			95132,
+			95133,
+			95134,
+			95140,
+			95141,
+			95142,
+			95143,
+			95144,
+			95301,
+			95302,
+			95303,
+			95304,
+			95305,
+			95001,
+			95002,
+			95101,
+			95102,
+			95103,
+			95104,
+			95105,
+			95106,
+			95107,
+			95108,
+			95109,
+			95110,
+			95111,
+			95112,
+			95113,
+			95114,
+			95115,
+			95116,
+			95117,
+			95118,
+			95119,
+			95120,
+			95121,
+			95122,
+			95123,
+			95124,
+			95126,
+			95127,
+			95128,
+			95129,
+			95130,
+			95131,
+			95132,
+			95133,
+			95134,
+			95140,
+			95141,
+			95142,
+			95143,
+			95144,
+			95301,
+			95302,
+			95303,
+			95304,
+			95305
 		}
 	},
 	get_id_list_by_tag = {
@@ -104103,7 +106298,38 @@ pg.furniture_data_template = {
 			94114,
 			94115,
 			94116,
-			94117
+			94117,
+			95101,
+			95102,
+			95103,
+			95104,
+			95105,
+			95106,
+			95107,
+			95108,
+			95109,
+			95110,
+			95111,
+			95112,
+			95113,
+			95114,
+			95115,
+			95116,
+			95117,
+			95118,
+			95119,
+			95120,
+			95121,
+			95122,
+			95123,
+			95124,
+			95126,
+			95127,
+			95128,
+			95129,
+			95130,
+			95131,
+			95143
 		},
 		{
 			1108,
@@ -104354,6 +106580,7 @@ pg.furniture_data_template = {
 			234,
 			235,
 			237,
+			239,
 			100002,
 			100003,
 			100004,
@@ -104383,7 +106610,9 @@ pg.furniture_data_template = {
 			100030,
 			100031,
 			100032,
+			100033,
 			100042,
+			100044,
 			31101,
 			54104,
 			54105
@@ -104522,7 +106751,14 @@ pg.furniture_data_template = {
 			90117,
 			91129,
 			94119,
-			94120
+			94120,
+			95132,
+			95133,
+			95134,
+			95140,
+			95141,
+			95142,
+			95144
 		},
 		[4] = {
 			1001,
@@ -104598,7 +106834,8 @@ pg.furniture_data_template = {
 			91001,
 			92001,
 			93001,
-			94001
+			94001,
+			95001
 		},
 		[3] = {
 			1002,
@@ -104675,7 +106912,8 @@ pg.furniture_data_template = {
 			91002,
 			92002,
 			93002,
-			94002
+			94002,
+			95002
 		},
 		[5] = {
 			1301,
@@ -104942,7 +107180,12 @@ pg.furniture_data_template = {
 			94303,
 			94304,
 			94305,
-			94306
+			94306,
+			95301,
+			95302,
+			95303,
+			95304,
+			95305
 		}
 	},
 	get_id_list_by_type = {
@@ -105021,7 +107264,8 @@ pg.furniture_data_template = {
 			91002,
 			92002,
 			93002,
-			94002
+			94002,
+			95002
 		},
 		[7] = {
 			1,
@@ -105117,6 +107361,7 @@ pg.furniture_data_template = {
 			235,
 			236,
 			237,
+			239,
 			100002,
 			100004,
 			100005,
@@ -105137,7 +107382,9 @@ pg.furniture_data_template = {
 			100027,
 			100028,
 			100029,
-			100031
+			100031,
+			100033,
+			100044
 		},
 		[2] = {
 			120,
@@ -106529,7 +108776,43 @@ pg.furniture_data_template = {
 			94115,
 			94116,
 			94117,
-			94120
+			94120,
+			95101,
+			95102,
+			95103,
+			95104,
+			95105,
+			95106,
+			95107,
+			95108,
+			95109,
+			95110,
+			95111,
+			95113,
+			95114,
+			95115,
+			95116,
+			95117,
+			95118,
+			95119,
+			95121,
+			95122,
+			95123,
+			95124,
+			95126,
+			95127,
+			95128,
+			95129,
+			95130,
+			95131,
+			95132,
+			95133,
+			95134,
+			95140,
+			95141,
+			95142,
+			95143,
+			95144
 		},
 		[11] = {
 			131,
@@ -106655,7 +108938,8 @@ pg.furniture_data_template = {
 			91001,
 			92001,
 			93001,
-			94001
+			94001,
+			95001
 		},
 		[5] = {
 			1101,
@@ -106777,7 +109061,9 @@ pg.furniture_data_template = {
 			91125,
 			91128,
 			93117,
-			93119
+			93119,
+			95112,
+			95120
 		},
 		[3] = {
 			1108,
@@ -107183,7 +109469,12 @@ pg.furniture_data_template = {
 			94303,
 			94304,
 			94305,
-			94306
+			94306,
+			95301,
+			95302,
+			95303,
+			95304,
+			95305
 		},
 		[8] = {
 			17121
@@ -107318,6 +109609,7 @@ pg.furniture_data_template = {
 		236,
 		237,
 		238,
+		239,
 		100002,
 		100003,
 		100004,
@@ -107347,7 +109639,9 @@ pg.furniture_data_template = {
 		100030,
 		100031,
 		100032,
+		100033,
 		100042,
+		100044,
 		200001,
 		200002,
 		200003,
@@ -109433,6 +111727,51 @@ pg.furniture_data_template = {
 		94303,
 		94304,
 		94305,
-		94306
+		94306,
+		95001,
+		95002,
+		95101,
+		95102,
+		95103,
+		95104,
+		95105,
+		95106,
+		95107,
+		95108,
+		95109,
+		95110,
+		95111,
+		95112,
+		95113,
+		95114,
+		95115,
+		95116,
+		95117,
+		95118,
+		95119,
+		95120,
+		95121,
+		95122,
+		95123,
+		95124,
+		95126,
+		95127,
+		95128,
+		95129,
+		95130,
+		95131,
+		95132,
+		95133,
+		95134,
+		95140,
+		95141,
+		95142,
+		95143,
+		95144,
+		95301,
+		95302,
+		95303,
+		95304,
+		95305
 	}
 }

@@ -44,6 +44,26 @@ return {
 					1
 				}
 			end
+		},
+		{
+			id = "NG0030",
+			condition = function ()
+				if not tobool(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)) then
+					return false
+				end
+
+				return getProxy(ChapterProxy):getChapterById(1690005) and slot2:isClear()
+			end,
+			args = function ()
+				slot0 = getProxy(ChapterProxy)
+
+				return slot0:getMapById(slot0:getLastMapForActivity()):getConfig("type") == Map.ACTIVITY_HARD and {
+					3
+				} or {
+					2,
+					3
+				}
+			end
 		}
 	},
 	ChallengeMainScene = {

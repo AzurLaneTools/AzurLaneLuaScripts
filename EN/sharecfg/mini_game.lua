@@ -1318,6 +1318,80 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "RyzaMiniGameView",
+		name = "莱莎炸弹小游戏",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 43,
+		hub_id = 36,
+		request_data = 0,
+		simple_config_data = {
+			story = {
+				{
+					"LAISHARICHANG1"
+				},
+				{
+					"LAISHARICHANG2"
+				},
+				{
+					"LAISHARICHANG3"
+				},
+				{
+					"LAISHARICHANG4"
+				},
+				{
+					"LAISHARICHANG5"
+				},
+				{
+					"LAISHARICHANG6"
+				},
+				{
+					"LAISHARICHANG7"
+				}
+			},
+			drop_ids = {
+				{
+					2,
+					30341,
+					1
+				},
+				{
+					5,
+					95144,
+					1
+				},
+				{
+					2,
+					30341,
+					1
+				},
+				{
+					9,
+					1218,
+					1
+				},
+				{
+					2,
+					30341,
+					1
+				},
+				{
+					2,
+					30341,
+					1
+				},
+				{
+					5,
+					95128,
+					1
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1360,6 +1434,7 @@ pg.mini_game = {
 		39,
 		40,
 		41,
-		42
+		42,
+		43
 	}
 }

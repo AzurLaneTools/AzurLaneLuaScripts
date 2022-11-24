@@ -13182,6 +13182,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -22112,6 +22123,192 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[10091] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 109,
+		handbook_type = 1,
+		index_id = 10091,
+		code = 10091,
+		group_type = 1090001,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Alchemist and the Archipelago of Secrets",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10092] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 6,
+		nationality = 109,
+		handbook_type = 1,
+		index_id = 10092,
+		code = 10092,
+		group_type = 1090002,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Alchemist and the Archipelago of Secrets",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10093] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 5,
+		nationality = 109,
+		handbook_type = 1,
+		index_id = 10093,
+		code = 10093,
+		group_type = 1090003,
+		trans_type = 0,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Alchemist and the Archipelago of Secrets",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10094] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 109,
+		handbook_type = 1,
+		index_id = 10094,
+		code = 10094,
+		group_type = 1090004,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Alchemist and the Archipelago of Secrets",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10095] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 7,
+		nationality = 109,
+		handbook_type = 1,
+		index_id = 10095,
+		code = 10095,
+		group_type = 1090005,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Alchemist and the Archipelago of Secrets",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10096] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 18,
+		nationality = 109,
+		handbook_type = 1,
+		index_id = 10096,
+		code = 10096,
+		group_type = 1090006,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Alchemist and the Archipelago of Secrets",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[20001] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -23540,6 +23737,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30016] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30016,
+		code = 30016,
+		group_type = 970102,
+		trans_type = 0,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Cruise Missions",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701021
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -24086,6 +24317,12 @@ pg.ship_data_group = {
 		10085,
 		10086,
 		10087,
+		10091,
+		10092,
+		10093,
+		10094,
+		10095,
+		10096,
 		20001,
 		20002,
 		20003,
@@ -24127,6 +24364,7 @@ pg.ship_data_group = {
 		30012,
 		30013,
 		30014,
-		30015
+		30015,
+		30016
 	}
 }

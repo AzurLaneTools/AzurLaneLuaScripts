@@ -1789,6 +1789,106 @@ pg.strategy_data_template = {
 		desc = "All ships take 3.0% less DMG. At regular intervals, all ships either gain a shield that can block a number of shells, or restore a small amount of HP.",
 		arg = {}
 	},
+	[200079] = {
+		buff_id = 0,
+		name = "The Land of Beginnings",
+		type = 10,
+		iconSize = "",
+		id = 200079,
+		icon = "200079",
+		desc = "Obtainable materials: Nameless Grass, Wing Plant, Blood Taun (Silent Sickle required).",
+		arg = {}
+	},
+	[200080] = {
+		buff_id = 0,
+		name = "The Underworld Grove",
+		type = 10,
+		iconSize = "",
+		id = 200080,
+		icon = "200080",
+		desc = "Obtainable materials: Lightning Ore, Star Fragment, Septrin (Golden Axe required).",
+		arg = {}
+	},
+	[200081] = {
+		buff_id = 0,
+		name = "The Castle of Strife",
+		type = 10,
+		iconSize = "",
+		id = 200081,
+		icon = "200081",
+		desc = "Obtainable materials: Small Crystals, Burning Sand, Magma Powder (Blue Bomb Rod required).",
+		arg = {}
+	},
+	[200082] = {
+		buff_id = 0,
+		name = "The Desolate Capital",
+		type = 10,
+		iconSize = "",
+		id = 200082,
+		icon = "200082",
+		desc = "Obtainable materials: Pourpremoule, Sardine, Lake Master (Divine Fishing Rod required).",
+		arg = {}
+	},
+	[200083] = {
+		buff_id = 0,
+		name = "The Central Foundation",
+		type = 10,
+		iconSize = "",
+		id = 200083,
+		icon = "200083",
+		desc = "Obtainable materials: Strange Crystal Ore, Strange Armor Plate, Strange Energy Core (Laser Cutter required).",
+		arg = {}
+	},
+	[200084] = {
+		buff_id = 0,
+		name = "Silent Sickle",
+		type = 10,
+		iconSize = "",
+		id = 200084,
+		icon = "200084",
+		desc = "An improved tool for gathering grass and flowers. It's been modified to make gathering easier, and reaps everything as quietly and lightly as the wind.",
+		arg = {}
+	},
+	[200085] = {
+		buff_id = 0,
+		name = "Golden Axe",
+		type = 10,
+		iconSize = "",
+		id = 200085,
+		icon = "200085",
+		desc = "An improved tool for splitting firewood and cutting down trees for lumber. It's been modified for better balance and sharpness, making gathering easier than ever.",
+		arg = {}
+	},
+	[200086] = {
+		buff_id = 0,
+		name = "Blue Bomb Rod",
+		type = 10,
+		iconSize = "",
+		id = 200086,
+		icon = "200086",
+		desc = "A stronger version of the Bomb Rod. The jewel at the tip is blue now, and it can destroy rocks and crystals more easily.",
+		arg = {}
+	},
+	[200087] = {
+		buff_id = 0,
+		name = "Divine Fishing Rod",
+		type = 10,
+		iconSize = "",
+		id = 200087,
+		icon = "200087",
+		desc = "An improved Fishing Rod. Fish will no longer flee from it, and some will even be more attracted to it than usual.",
+		arg = {}
+	},
+	[200088] = {
+		buff_id = 0,
+		name = "Laser Cutter",
+		type = 10,
+		iconSize = "",
+		id = 200088,
+		icon = "200088",
+		desc = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
+		arg = {}
+	},
 	all = {
 		1,
 		2,
@@ -1964,6 +2064,16 @@ pg.strategy_data_template = {
 		200067,
 		200070,
 		200074,
-		200078
+		200078,
+		200079,
+		200080,
+		200081,
+		200082,
+		200083,
+		200084,
+		200085,
+		200086,
+		200087,
+		200088
 	}
 }

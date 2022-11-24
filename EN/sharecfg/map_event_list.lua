@@ -87,6 +87,75 @@ pg.map_event_list = {
 			"helpbg/battle_suligao_10"
 		}
 	},
+	[1160001] = {
+		help_open = 0,
+		chapter_id = 1160001,
+		event_list = {
+			44,
+			60,
+			61
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1160002] = {
+		help_open = 0,
+		chapter_id = 1160002,
+		event_list = {
+			28,
+			29,
+			30,
+			32,
+			33,
+			34,
+			35,
+			62,
+			63,
+			64
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/uta_mapevent_1"
+		}
+	},
+	[1160003] = {
+		help_open = 1,
+		chapter_id = 1160003,
+		event_list = {
+			20,
+			21,
+			22,
+			24,
+			25,
+			65,
+			66
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/uta_mapevent_2"
+		}
+	},
+	[1160004] = {
+		help_open = 1,
+		chapter_id = 1160004,
+		event_list = {
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			67,
+			68,
+			69
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/uta_mapevent_3"
+		}
+	},
 	[1220001] = {
 		help_open = 1,
 		chapter_id = 1220001,
@@ -2902,6 +2971,7 @@ pg.map_event_list = {
 		help_pictures = {}
 	},
 	[1680001] = {
+		help_open = 0,
 		chapter_id = 1680001,
 		event_list = {
 			733
@@ -2909,10 +2979,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			733
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680002] = {
+		help_open = 0,
 		chapter_id = 1680002,
 		event_list = {
 			734
@@ -2920,10 +2990,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			735
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680003] = {
+		help_open = 0,
 		chapter_id = 1680003,
 		event_list = {
 			736
@@ -2931,10 +3001,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			737
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680004] = {
+		help_open = 0,
 		chapter_id = 1680004,
 		event_list = {
 			738
@@ -2942,10 +3012,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			739
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680005] = {
+		help_open = 0,
 		chapter_id = 1680005,
 		event_list = {
 			740
@@ -2953,10 +3023,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			741
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680006] = {
+		help_open = 0,
 		chapter_id = 1680006,
 		event_list = {
 			742
@@ -2964,10 +3034,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			731
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680021] = {
+		help_open = 0,
 		chapter_id = 1680021,
 		event_list = {
 			733
@@ -2975,10 +3045,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			733
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680022] = {
+		help_open = 0,
 		chapter_id = 1680022,
 		event_list = {
 			734
@@ -2986,10 +3056,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			735
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680023] = {
+		help_open = 0,
 		chapter_id = 1680023,
 		event_list = {
 			736
@@ -2997,10 +3067,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			737
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680024] = {
+		help_open = 0,
 		chapter_id = 1680024,
 		event_list = {
 			738
@@ -3008,10 +3078,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			739
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680025] = {
+		help_open = 0,
 		chapter_id = 1680025,
 		event_list = {
 			740
@@ -3019,10 +3089,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			741
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680026] = {
+		help_open = 0,
 		chapter_id = 1680026,
 		event_list = {
 			742
@@ -3030,10 +3100,10 @@ pg.map_event_list = {
 		event_list_loop = {
 			731
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
 	},
 	[1680041] = {
+		help_open = 0,
 		chapter_id = 1680041,
 		event_list = {
 			731,
@@ -3043,8 +3113,203 @@ pg.map_event_list = {
 			731,
 			732
 		},
-		help_pictures = {},
-		help_open = cc
+		help_pictures = {}
+	},
+	[1690005] = {
+		help_open = 0,
+		chapter_id = 1690005,
+		event_list = {
+			748,
+			749,
+			750,
+			751,
+			752,
+			753,
+			754,
+			755,
+			756,
+			757,
+			758,
+			759,
+			760,
+			761,
+			762,
+			763,
+			764,
+			765,
+			766,
+			767,
+			768,
+			769,
+			770,
+			771
+		},
+		event_list_loop = {
+			748,
+			749,
+			750,
+			751,
+			752,
+			753,
+			754,
+			755,
+			756,
+			757,
+			758,
+			759,
+			760,
+			761,
+			762,
+			763,
+			764,
+			765,
+			766,
+			767,
+			768,
+			769,
+			770,
+			771
+		},
+		help_pictures = {
+			"helpbg/battle_lianjin_jupao"
+		}
+	},
+	[1690021] = {
+		help_open = 1,
+		chapter_id = 1690021,
+		event_list = {
+			785,
+			786,
+			795
+		},
+		event_list_loop = {
+			785,
+			786,
+			795
+		},
+		help_pictures = {
+			"helpbg/battle_lianjin_caijidian"
+		}
+	},
+	[1690022] = {
+		help_open = 1,
+		chapter_id = 1690022,
+		event_list = {
+			787,
+			788,
+			796
+		},
+		event_list_loop = {
+			787,
+			788,
+			796
+		},
+		help_pictures = {
+			"helpbg/battle_lianjin_caijidian"
+		}
+	},
+	[1690023] = {
+		help_open = 1,
+		chapter_id = 1690023,
+		event_list = {
+			789,
+			790,
+			797
+		},
+		event_list_loop = {
+			789,
+			790,
+			797
+		},
+		help_pictures = {
+			"helpbg/battle_lianjin_caijidian"
+		}
+	},
+	[1690024] = {
+		help_open = 1,
+		chapter_id = 1690024,
+		event_list = {
+			791,
+			792,
+			798
+		},
+		event_list_loop = {
+			791,
+			792,
+			798
+		},
+		help_pictures = {
+			"helpbg/battle_lianjin_caijidian"
+		}
+	},
+	[1690025] = {
+		help_open = 1,
+		chapter_id = 1690025,
+		event_list = {
+			793,
+			794,
+			799
+		},
+		event_list_loop = {
+			793,
+			794,
+			799
+		},
+		help_pictures = {
+			"helpbg/battle_lianjin_caijidian"
+		}
+	},
+	[1690031] = {
+		help_open = 1,
+		chapter_id = 1690031,
+		event_list = {
+			743,
+			744,
+			745,
+			746,
+			747
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_lianjin_jupao"
+		}
+	},
+	[1690041] = {
+		help_open = 0,
+		chapter_id = 1690041,
+		event_list = {
+			772,
+			773,
+			774,
+			775,
+			776,
+			777,
+			778,
+			779,
+			780,
+			781,
+			782,
+			783,
+			784
+		},
+		event_list_loop = {
+			772,
+			773,
+			774,
+			775,
+			776,
+			777,
+			778,
+			779,
+			780,
+			781,
+			782,
+			783,
+			784
+		},
+		help_pictures = {
+			"helpbg/battle_lianjin_jupao"
+		}
 	},
 	[2200071] = {
 		help_open = 1,
@@ -3141,6 +3406,10 @@ pg.map_event_list = {
 		1402,
 		1403,
 		1404,
+		1160001,
+		1160002,
+		1160003,
+		1160004,
 		1220001,
 		1220002,
 		1220003,
@@ -3322,6 +3591,14 @@ pg.map_event_list = {
 		1680025,
 		1680026,
 		1680041,
+		1690005,
+		1690021,
+		1690022,
+		1690023,
+		1690024,
+		1690025,
+		1690031,
+		1690041,
 		2200071,
 		2200072,
 		2200073,

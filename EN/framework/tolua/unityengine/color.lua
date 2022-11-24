@@ -262,6 +262,10 @@ function slot5.buttonDisabled()
 	return uv0.New(0.7843137254901961, 0.7843137254901961, 0.7843137254901961, 0.5)
 end
 
+function slot5.ReisalinGold()
+	return uv0.New(1, 0.90196, 0.50196, 1)
+end
+
 function slot5.gamma(slot0)
 	return uv0.New(uv1.LinearToGammaSpace(slot0.r), uv1.LinearToGammaSpace(slot0.g), uv1.LinearToGammaSpace(slot0.b), slot0.a)
 end

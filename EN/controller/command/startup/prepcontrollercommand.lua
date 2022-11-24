@@ -407,6 +407,9 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.REFLUX_REQUEST_DATA, RefluxRequestDataCommand)
 	slot0.facade:registerCommand(GAME.REFLUX_SIGN, RefluxSignCommand)
 	slot0.facade:registerCommand(GAME.REFLUX_GET_PT_AWARD, RefluxGetPTAwardCommand)
+	slot0.facade:registerCommand(GAME.REQUEST_ATELIER, AtelierRequestCommand)
+	slot0.facade:registerCommand(GAME.COMPOSITE_ATELIER_RECIPE, AtelierCompositeCommand)
+	slot0.facade:registerCommand(GAME.UPDATE_ATELIER_BUFF, AtelierRefreshBuffCommand)
 end
 
 return slot0

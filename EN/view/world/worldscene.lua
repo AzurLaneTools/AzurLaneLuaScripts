@@ -1322,14 +1322,14 @@ function slot0.NewMapRight(slot0, slot1)
 							pg.MsgboxMgr.GetInstance():ShowMsgBox({
 								content = i18n("world_instruction_submarine_2", setColorStr(uv0, COLOR_GREEN)),
 								onYes = function ()
-									PlayerPrefs.SetInt("autoSubIsAcitve" .. "_" .. SYSTEM_WORLD, 1)
+									PlayerPrefs.SetInt("autoSubIsAcitve" .. AutoSubCommand.GetAutoSubMark(SYSTEM_WORLD), 1)
 									uv0:Op("OpReqSub", uv1)
 								end,
 								onNo = slot0
 							})
 						end)
 					else
-						PlayerPrefs.SetInt("autoSubIsAcitve" .. "_" .. SYSTEM_WORLD, 1)
+						PlayerPrefs.SetInt("autoSubIsAcitve" .. AutoSubCommand.GetAutoSubMark(SYSTEM_WORLD), 1)
 						table.insert(slot1, function (slot0)
 							uv0:Op("OpReqSub", slot0)
 						end)

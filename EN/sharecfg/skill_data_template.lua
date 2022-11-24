@@ -9170,6 +9170,244 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[60130] = {
+		desc_get = "",
+		name = "Inflict Burns",
+		id = 60130,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Reisalin Stout: 10s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts a special Burn and the Item Mark debuff to enemies hit for 5s. If equipped in the second gear slot: the character equipping this gear gains a special Secondary Gun (attacks from this Secondary Gun are not treated as Item attacks).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60140] = {
+		desc_get = "",
+		name = "Slowdown",
+		id = 60140,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Reisalin Stout: 15s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts the Item Mark debuff to enemies hit for 5s and decreases their SPD by 30.0% for 5s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60150] = {
+		desc_get = "",
+		name = "Senselessness",
+		id = 60150,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Reisalin Stout: 20s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts the Item Mark debuff to enemies hit for 5s and decreases their Crit Rate by 10.0% for 5s. If equipped in the third gear slot: the character equipping this gear gains a special Anti-Air Gun (attacks from this Anti-Air Gun are not treated as Item attacks).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60160] = {
+		desc_get = "",
+		name = "Maximum Wind",
+		id = 60160,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Reisalin Stout: 25s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts the Item Mark debuff to enemies hit for 5s; If \"Grand Bomb,\" \"Crystal Ice Bomb,\" \"Laute Plajig,\" and \"Wirbel Luft\" are all equipped together: increases this ship's FP and TRP by 10.0% and activates \"Core Drive - Four-Star Aurora\" 30s after the battle starts.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60170] = {
+		desc_get = "",
+		name = "Core Drive - Four-Star Aurora",
+		id = 60170,
+		type = 0,
+		max_level = 0,
+		desc = "核心驱动—四星极光技能占用",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60180] = {
+		desc_get = "",
+		name = "Echoing Seas",
+		id = 60180,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by an \"Atelier Ryza\" collab character: 20s after the battle starts, performs an Item attack that inflicts the Item Mark debuff to enemies hit for 5s and decreases their Crit Rate by 10.0% for 5s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60190] = {
+		desc_get = "",
+		name = "Bubbly Prison",
+		id = 60190,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by an \"Atelier Ryza\" collab character: 30s after the battle starts, performs an Item attack that inflicts the Item Mark debuff to enemies hit for 5s and decreases their EVA by 10.0% for 5s. If \"Genesis Hammer\" and \"Bubble Bullet\" are both equipped together: 35s after the battle starts, activates \"Core Drive - Gravity Press.\"",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60200] = {
+		desc_get = "",
+		name = "Core Drive - Gravity Press",
+		id = 60200,
+		type = 0,
+		max_level = 0,
+		desc = "核心驱动—重力挤压技能占用",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60210] = {
+		desc_get = "",
+		name = "Infinite Explosion",
+		id = 60210,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by an \"Atelier Ryza\" collab character: 30s after the battle starts, deducts 30 HP from this ship and performs an Item attack that inflicts the Item Mark debuff to enemies hit for 5s and decreases their FP, TRP, and AVI by 3.0% for 30s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60220] = {
+		desc_get = "",
+		name = "Evasion Up",
+		id = 60220,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by an \"Atelier Ryza\" collab character: 40s after the battle starts, performs an Item attack that inflicts the Item Mark debuff to enemies hit for 5s and increases their DMG taken by 5.0% for 10s. If \"Apocalypse\" and \"N/A\" are both equipped together: activates \"Core Drive - Testament Meteor\" 50s after the battle starts.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60230] = {
+		desc_get = "",
+		name = "Core Drive - Testament Meteor",
+		id = 60230,
+		type = 0,
+		max_level = 0,
+		desc = "核心驱动—遗言陨石技能占用",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60240] = {
+		desc_get = "",
+		name = "Evasion Up",
+		id = 60240,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by an \"Atelier Ryza\" collab character: when the battle starts, increases all your \"Atelier Ryza\" collab characters' Evasion Rate by 3.0% for 50s. If \"Mystic Robe\" and \"Elixir\" are both equipped together: when the battle starts, activates \"Core Drive - Angelic Embrace\" and deploys barriers around the frontmost ship in your Vanguard (barrier last 20s and can negate DMG equal to 5.0% of the equipping character's max HP).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60250] = {
+		desc_get = "",
+		name = "HP Recovery",
+		id = 60250,
+		type = 0,
+		max_level = 0,
+		desc = "Once per battle, when equipped by an \"Atelier Ryza\" collab character: 50s after the battle starts, all your \"Atelier Ryza\" collab characters recover 5.0% of their max HP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60260] = {
+		desc_get = "",
+		name = "Core Drive - Angelic Embrace",
+		id = 60260,
+		type = 0,
+		max_level = 0,
+		desc = "核心驱动—天使的拥抱占用",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60270] = {
+		desc_get = "",
+		name = "Glorious Melody",
+		id = 60270,
+		type = 0,
+		max_level = 0,
+		desc = "Changes the BGM when equipped. If additional gear that changes the BGM is equipped at the same time, only a randomly chosen one will take effect.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60280] = {
+		desc_get = "",
+		name = "道具命中",
+		id = 60280,
+		type = 0,
+		max_level = 0,
+		desc = "道具2级共通buff-赋予5秒道具命中状态",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60281] = {
+		desc_get = "",
+		name = "道具发动",
+		id = 60281,
+		type = 0,
+		max_level = 0,
+		desc = "道具2级共通buff-道具发动指示",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -92134,6 +92372,2198 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	},
+	[109010] = {
+		desc_get = "",
+		name = "Shining Blast",
+		id = 109010,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship's Item attack hits an enemy, if this ship has 6 or more AP: consumes 6 AP and activates \"Shining Blast\" $1 (DMG is based on the skill's level; 3s cooldown between activations).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109020] = {
+		desc_get = "",
+		name = "Alchemy Teacher",
+		id = 109020,
+		type = 3,
+		max_level = 10,
+		desc = "When sortied with one or more \"Atelier Ryza\" collab characters, makes their Item attacks stronger and increases their Crit Rate by $1; enemies who have been Item Marked take $2 more DMG from \"Atelier Ryza\" collab characters.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[109030] = {
+		desc_get = "",
+		name = "Grand Chariot",
+		id = 109030,
+		type = 1,
+		max_level = 10,
+		desc = "Every 4 times this ship fires her Main Guns: this ship gains 8 AP. Increases this ship's FP, AA, and EVA by $1.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[109040] = {
+		desc_get = "",
+		name = "Grand Chariot+",
+		id = 109040,
+		type = 1,
+		max_level = 10,
+		desc = "Every 4 times this ship fires her Main Guns: this ship gains 10 AP. Increases this ship's FP, AA, and EVA by $1. The second time this ship's \"Shining Blast\" skill activates, activates \"Fatal Drive - Grand Chariot\" $2 (DMG is based on the level of this shi",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109050] = {
+		desc_get = "",
+		name = "Frozen Lily",
+		id = 109050,
+		type = 3,
+		max_level = 10,
+		desc = "Every 10s, if this ship has 10 or more AP: consumes 10 AP and activates \"Frozen Lily\" $1 (DMG is based on the skill's level). Enemies hit by this skill are slowed by 15.0% for 5s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109060] = {
+		desc_get = "",
+		name = "Blessed Melody",
+		id = 109060,
+		type = 2,
+		max_level = 10,
+		desc = "When the battle starts: this ship gains 10 AP, all ships in your fleet recover $1 of their max HP, and all your \"Atelier Ryza\" collab characters recover an additional 2.0% of their max HP. When this ship launches an Airstrike: your Vanguard recovers $2 of",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"5.0%"
+			},
+			{
+				"1.5%",
+				"5.0%"
+			},
+			{
+				"1.5%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[109070] = {
+		desc_get = "",
+		name = "White Requiem",
+		id = 109070,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AVI and ACC by $1. Every 8s: this ship gains 8 AP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[109080] = {
+		desc_get = "",
+		name = "White Requiem+",
+		id = 109080,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AVI and ACC by $1. Every 8s: this ship gains 8 AP. The second time this ship's \"Frozen Lily\" skill activates, activates \"Fatal Drive - White Requiem\" $2 (DMG is based on the level of this ship's \"White Requiem\" skill).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109090] = {
+		desc_get = "",
+		name = "Red Flame Slash",
+		id = 109090,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns, if this ship has 10 or more AP: consumes 10 AP and activates \"Red Flame Slash\" $1 (DMG is based on the skill's level). The slashing part of this attack always deals Critical DMG; this ship recovers HP equal to $2 of the",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[109100] = {
+		desc_get = "",
+		name = "Arms Enchantment",
+		id = 109100,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's EVA by $2. Increases this ship's DMG dealt (by up to 20.0%) the lower her current HP is. Increases \"Atelier Ryza\" collab characters' Crit Rate by $1 against enemies who have been Item Marked. The first time one of your Main Fleet \"At",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[109110] = {
+		desc_get = "",
+		name = "Flawless Desire",
+		id = 109110,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. Every 9s: this ship gains 5 AP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[109120] = {
+		desc_get = "",
+		name = "Flawless Desire+",
+		id = 109120,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. Every 9s: this ship gains 10 AP. The second time this ship's \"Red Flame Slash\" skill activates, activates \"Fatal Drive - Flawless Desire\" $2 (DMG is based on the level of this ship's \"Flawless Desire\" skill).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109130] = {
+		desc_get = "",
+		name = "Wild Growth",
+		id = 109130,
+		type = 3,
+		max_level = 10,
+		desc = "When this ship gains a stack of Wood Element: activates \"Wild Growth\" $1 (DMG is based on the skill's level; 5s cooldown between activations).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109140] = {
+		desc_get = "",
+		name = "Spirit Gift",
+		id = 109140,
+		type = 2,
+		max_level = 10,
+		desc = "Your \"Atelier Ryza\" collab characters take $1 less cannon and torpedo DMG from enemies who have been Item Marked. When an AP-consuming skill activates, or when this ship launches an Airstrike: this ship gains 1 stack of Wood Element (only 1 Wood Element c",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"2.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.09%"
+				},
+				{
+					"1.09%",
+					"+0.09%"
+				},
+				{
+					"1.18%",
+					"+0.12%"
+				},
+				{
+					"1.3%",
+					"+0.09%"
+				},
+				{
+					"1.39%",
+					"+0.09%"
+				},
+				{
+					"1.48%",
+					"+0.12%"
+				},
+				{
+					"1.6%",
+					"+0.12%"
+				},
+				{
+					"1.72%",
+					"+0.12%"
+				},
+				{
+					"1.84%",
+					"+0.16%"
+				},
+				{
+					"2.0%"
+				}
+			}
+		}
+	},
+	[109150] = {
+		desc_get = "",
+		name = "Eternity Bloom",
+		id = 109150,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an Airstrike: this ship gains 5 AP. Increases this ship's AVI by 5.0% and AA by $1.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[109160] = {
+		desc_get = "",
+		name = "Eternity Bloom+",
+		id = 109160,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an Airstrike: this ship gains 5 AP. Increases this ship's AVI by 5.0% and AA by $1. Once per battle, when this ship has gained 5 stacks of Wood Element: resets all stacks and activates \"Fatal Drive - Eternity Bloom\" $2 (DMG is base",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109170] = {
+		desc_get = "",
+		name = "Elemental Link",
+		id = 109170,
+		type = 3,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns, if this ship has 5 or more AP: consumes 5 AP and this ship gains a fire, ice, lightning, or wind Elemental Spirit (chosen randomly) and performs a $1 elemental attack of the corresponding element (5s cooldown between ac",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109180] = {
+		desc_get = "",
+		name = "Elemental Power",
+		id = 109180,
+		type = 3,
+		max_level = 10,
+		desc = "Every 10s: increases this ship's EVA by $1 (can be stacked up to 3 times). Increases this ship's DMG dealt by $2 for each Elemental Spirit she possesses.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"5.0%"
+			},
+			{
+				"1.0%",
+				"3.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			}
+		}
+	},
+	[109190] = {
+		desc_get = "",
+		name = "Einzelkampf",
+		id = 109190,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Torpedoes: this ship gains 8 AP. Increases this ship's FP and TRP by $1.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[109200] = {
+		desc_get = "",
+		name = "Einzelkampf+",
+		id = 109200,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Torpedoes: this ship gains 10 AP. Increases this ship's FP and TRP by $1. The fourth time this ship's \"Elemental Link\" skill activates: removes all Elemental Spirits and activates \"Fatal Drive - Einzelkampf\" $2 (DMG is based on th",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109210] = {
+		desc_get = "",
+		name = "Dark Spirit",
+		id = 109210,
+		type = 1,
+		max_level = 10,
+		desc = "Every 6 times this ship fires her Secondary Gun, if she has 10 or more AP: consumes 10 AP and activates \"Dark Spirit\" $1. When the battle starts, if this ship is in the frontmost position of your Vanguard and there are other ships afloat in your Vanguard ",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[109220] = {
+		desc_get = "",
+		name = "Holy Trail",
+		id = 109220,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's AA and EVA by $1. When the battle starts, if this ship is in the frontmost position of your Vanguard and there are other ships afloat in your Vanguard: adds a Light Element to the ship in the rearmost position of your Vanguard whenev",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[109230] = {
+		desc_get = "",
+		name = "Luna Judgment",
+		id = 109230,
+		type = 1,
+		max_level = 10,
+		desc = "Every 4 times this ship fires her Main Guns: this ship gains 10 AP. Increases this ship's DMG dealt against Sirens by $1.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[109240] = {
+		desc_get = "",
+		name = "Luna Judgment+",
+		id = 109240,
+		type = 1,
+		max_level = 10,
+		desc = "Every 2 times this ship fires her Main Guns: this ship gains 10 AP. Increases this ship's DMG dealt against Sirens by $1. The third time this ship's \"Dark Spirit\" skill activates: activates \"Fatal Drive - Luna Judgment\" $2 (DMG is based on the level of this ship's \"Luna Judgment\" skill) and adds a Luna Element to all \"Atelier Ryza\" collab characters excluding this one. Within 3s of gaining a Luna Element, if that character takes DMG that would sink her: that character does not sink, recovers 3.0% of her max HP, and evades all attacks for 3s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[109250] = {
+		desc_get = "",
+		name = "Reisalin Stout",
+		id = 109250,
+		type = 1,
+		max_level = 1,
+		desc = "",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[109310] = {
+		desc_get = "",
+		name = "Radiance",
+		id = 109310,
+		type = 1,
+		max_level = 1,
+		desc = "Activates the effect of a random Item when the battle starts.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[109320] = {
+		desc_get = "",
+		name = "Ray of Light",
+		id = 109320,
+		type = 1,
+		max_level = 1,
+		desc = "The ship with this gear equipped has a 50.0% chance of gaining 10 AP when her Item effect activates.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[109330] = {
+		desc_get = "",
+		name = "Proud Act",
+		id = 109330,
+		type = 1,
+		max_level = 1,
+		desc = "When the ship with this gear equipped falls below 30.0% max HP as a result of DMG taken: increases that ship's Evasion Rate by 5.0% until the battle ends.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[109340] = {
+		desc_get = "",
+		name = "Blooming Flowers",
+		id = 109340,
+		type = 1,
+		max_level = 1,
+		desc = "When the battle starts: the ship with this gear equipped takes 5.0% less DMG and deals 10.0% more DMG for 50s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[109350] = {
+		desc_get = "",
+		name = "Elemental Song",
+		id = 109350,
+		type = 1,
+		max_level = 1,
+		desc = "When the ship with this gear equipped gains an Elemental Spirit: decreases her DMG taken by 2.0% (can be stacked up to 4 times; this buff persists even if all Elemental Spirits are removed).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[109360] = {
+		desc_get = "",
+		name = "Immortal Lily",
+		id = 109360,
+		type = 1,
+		max_level = 1,
+		desc = "Once per battle, when the ship with this gear equipped takes DMG that would sink her: 50.0% chance to negate that DMG and for this ship to evade all attacks for 5s, after which she recovers 200 HP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[800010] = {
 		desc_get = "",
 		name = "Shadowflame Torch",
@@ -96881,6 +99311,264 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800610] = {
+		desc_get = "",
+		name = "Eyes of Fate",
+		id = 800610,
+		type = 1,
+		max_level = 10,
+		desc = "When a ship in your Vanguard is attacked: performs a special slashing attack (can only active up to twice per battle; 10s cooldown between activations). After this attack has been performed 2 times: every 10s, fires a $1 special barrage (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800620] = {
+		desc_get = "",
+		name = "Fortune and Causality",
+		id = 800620,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's DMG dealt (by up to $1) the lower her current HP is. When any other ship in your fleet falls below 50.0% max HP as a result of DMG taken: once per battle, fires a $2 special barrage and replaces this ship's \"Cinders of Hope\" barrage with this skill's $2 special barrage. When this special barrage fires: increases this ship's FP, TRP, and RLD by $3 (does not stack).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[800631] = {
+		desc_get = "",
+		name = "Cinders of Hope - Fortune",
+		id = 800631,
+		type = 3,
+		max_level = 1,
+		desc = "Every 15 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 800635
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800632] = {
+		desc_get = "",
+		name = "Cinders of Hope - Fortune",
+		id = 800632,
+		type = 3,
+		max_level = 1,
+		desc = "Every 10 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 800637
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800635] = {
+		desc_get = "",
+		name = "Cinders of Hope - Fortune",
+		id = 800635,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		system_transform = {
+			[51.0] = 800635
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800637] = {
+		desc_get = "",
+		name = "Cinders of Hope - Fortune",
+		id = 800637,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+		system_transform = {
+			[51.0] = 800637
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -99677,6 +102365,23 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		60100,
 		60110,
 		60120,
+		60130,
+		60140,
+		60150,
+		60160,
+		60170,
+		60180,
+		60190,
+		60200,
+		60210,
+		60220,
+		60230,
+		60240,
+		60250,
+		60260,
+		60270,
+		60280,
+		60281,
 		7000,
 		9010,
 		9020,
@@ -100896,6 +103601,37 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		108150,
 		108160,
 		108170,
+		109010,
+		109020,
+		109030,
+		109040,
+		109050,
+		109060,
+		109070,
+		109080,
+		109090,
+		109100,
+		109110,
+		109120,
+		109130,
+		109140,
+		109150,
+		109160,
+		109170,
+		109180,
+		109190,
+		109200,
+		109210,
+		109220,
+		109230,
+		109240,
+		109250,
+		109310,
+		109320,
+		109330,
+		109340,
+		109350,
+		109360,
 		800010,
 		800020,
 		800030,
@@ -101001,6 +103737,12 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		800602,
 		800605,
 		800607,
+		800610,
+		800620,
+		800631,
+		800632,
+		800635,
+		800637,
 		901010,
 		901020,
 		902010,

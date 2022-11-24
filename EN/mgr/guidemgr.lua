@@ -24,6 +24,7 @@ function slot0.Init(slot0, slot1)
 
 	slot0.managerState = uv0.MANAGER_STATE.LOADING
 	slot0.sceneStore = {}
+	slot0.uisetGos = {}
 
 	PoolMgr.GetInstance():GetUI("GuideUI", true, function (slot0)
 		uv0._go = slot0
@@ -643,6 +644,17 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 		end
 	end
 
+	function slot5()
+		onButton(uv0, uv0._go, function ()
+			uv0:finishCurrEvent(uv1, uv2)
+
+			if uv1.style and uv1.style.scene then
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE[uv1.style.scene])
+			end
+		end, SFX_PANEL)
+		setButtonEnabled(uv0._go, uv3)
+	end
+
 	if slot1.style then
 		slot0:updateContent(slot1)
 
@@ -656,17 +668,34 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 					uv0:endGuider()
 				end
 			})
+			slot5()
+		elseif slot1.style.uiset then
+			slot6 = {}
+
+			for slot10, slot11 in ipairs(slot1.style.uiset) do
+				table.insert(slot6, function (slot0)
+					uv0.finder:Search({
+						path = uv1.path,
+						delay = uv1.delay,
+						pathIndex = uv1.pathIndex,
+						found = function (slot0)
+							table.insert(uv0.uisetGos, uv0:cloneGO(go(slot0), uv0._tf, uv1))
+							uv2()
+						end,
+						notFound = function ()
+							uv0:endGuider()
+						end
+					})
+				end)
+			end
+
+			seriesAsync(slot6, slot5)
+		else
+			slot5()
 		end
+	else
+		slot5()
 	end
-
-	onButton(slot0, slot0._go, function ()
-		uv0:finishCurrEvent(uv1, uv2)
-
-		if uv1.style and uv1.style.scene then
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE[uv1.style.scene])
-		end
-	end, SFX_PANEL)
-	setButtonEnabled(slot0._go, slot2)
 end
 
 function slot0.updateContent(slot0, slot1)
@@ -931,7 +960,7 @@ function slot0.cloneGO(slot0, slot1, slot2, slot3)
 end
 
 function slot0.setFinger(slot0, slot1, slot2)
-	SetActive(slot0.fingerTF, true)
+	SetActive(slot0.fingerTF, not slot2.fingerPos or not slot2.fingerPos.hideFinger)
 
 	slot5 = slot2.scale and 1 / slot2.scale or 1
 	slot0.fingerTF.localScale = Vector3(slot5, slot5, 1)
@@ -1052,6 +1081,16 @@ function slot0.finishCurrEvent(slot0, slot1, slot2)
 		Destroy(slot0.cloneTarget)
 
 		slot0.cloneTarget = nil
+	end
+
+	if #slot0.uisetGos > 0 then
+		for slot6 = #slot0.uisetGos, 1, -1 do
+			Destroy(slot0.uisetGos[slot6])
+
+			slot0.uisetGos[slot6] = nil
+		end
+
+		slot0.uisetGos = {}
 	end
 
 	if slot0.targetTimer then

@@ -66,6 +66,14 @@ function slot0.Battle.IUnitState.AddInterruptState(slot0, slot1, slot2)
 	assert(false, slot0.__name .. ".AddInterruptState: this function must be override!")
 end
 
+function slot0.Battle.IUnitState.AddSkillStartState(slot0, slot1, slot2)
+	assert(false, slot0.__name .. ".AddSkillStartState: this function must be override!")
+end
+
+function slot0.Battle.IUnitState.AddSkillEndState(slot0, slot1, slot2)
+	assert(false, slot0.__name .. ".AddSkillEndState: this function must be override!")
+end
+
 function slot0.Battle.IUnitState.OnTrigger(slot0, slot1)
 	assert(false, slot0.__name .. ".OnTrigger: this function must be override!")
 end

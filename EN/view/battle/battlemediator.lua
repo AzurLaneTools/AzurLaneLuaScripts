@@ -360,7 +360,7 @@ function slot0.GenBattleData(slot0)
 	slot1.bossConfigId = slot0.contextData.bossConfigId
 
 	if pg.battle_cost_template[slot0.contextData.system].global_buff_effected > 0 then
-		slot1.GlobalBuffIDs = _.map(BuffHelper.GetBattleBuffs(), function (slot0)
+		slot1.GlobalBuffIDs = _.map(BuffHelper.GetBattleBuffs(slot2), function (slot0)
 			return slot0:getConfig("benefit_effect")
 		end) or {}
 	end

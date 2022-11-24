@@ -190,3 +190,55 @@ end
 function calcFloor(slot0)
 	return math.floor(slot0 + 1e-09)
 end
+
+function getCompareFuncByPunctuation(slot0)
+	slot1 = math.compareFuncList or {
+		["="] = function (slot0, slot1)
+			return slot0 == slot1
+		end,
+		["=="] = function (slot0, slot1)
+			return slot0 == slot1
+		end,
+		[">="] = function (slot0, slot1)
+			return slot1 <= slot0
+		end,
+		["<="] = function (slot0, slot1)
+			return slot0 <= slot1
+		end,
+		[">"] = function (slot0, slot1)
+			return slot1 < slot0
+		end,
+		["<"] = function (slot0, slot1)
+			return slot0 < slot1
+		end,
+		["!="] = function (slot0, slot1)
+			return slot0 ~= slot1
+		end,
+		["~="] = function (slot0, slot1)
+			return slot0 ~= slot1
+		end
+	}
+	math.compareFuncList = slot1
+
+	return slot1[slot0]
+end
+
+function getArithmeticFuncByOperator(slot0)
+	slot1 = math.arithmeticFuncList or {
+		["+"] = function (slot0, slot1)
+			return slot0 + slot1
+		end,
+		["-"] = function (slot0, slot1)
+			return slot0 - slot1
+		end,
+		["*"] = function (slot0, slot1)
+			return slot0 * slot1
+		end,
+		["/"] = function (slot0, slot1)
+			return slot0 / slot1
+		end
+	}
+	math.arithmeticFuncList = slot1
+
+	return slot1[slot0]
+end
