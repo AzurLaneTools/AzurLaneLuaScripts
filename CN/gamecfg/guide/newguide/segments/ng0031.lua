@@ -66,19 +66,18 @@ return {
 			}
 		},
 		{
-			alpha = 0.2,
 			waitScene = "AwardInfoLayer",
 			code = {
 				1
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)",
+				path = "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/close",
 				triggerType = {
 					1
 				},
 				fingerPos = {
-					posY = -334.6,
-					posX = 563.51
+					posY = -43.62,
+					posX = 114.51
 				}
 			}
 		},

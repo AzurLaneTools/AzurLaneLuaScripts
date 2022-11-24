@@ -671,4 +671,26 @@ function slot0.getEnterReadyActivity(slot0)
 	end
 end
 
+function slot0.AtelierActivityAllSlotIsEmpty(slot0)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) or slot1:isEnd() then
+		return false
+	end
+
+	for slot6, slot7 in pairs(slot1:GetSlots()) do
+		if slot7[1] ~= 0 then
+			return false
+		end
+	end
+
+	return true
+end
+
+function slot0.OwnAtelierActivityItemCnt(slot0, slot1, slot2)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) or slot3:isEnd() then
+		return false
+	end
+
+	return slot3:GetItems()[slot1] and slot2 <= slot5.count
+end
+
 return slot0

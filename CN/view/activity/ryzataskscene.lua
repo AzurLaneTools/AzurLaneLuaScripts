@@ -18,15 +18,16 @@ slot15 = "ryza_task_cancel"
 slot16 = "ryza_task_level_num"
 slot17 = "ryza_task_level_add"
 slot18 = "ryza_task_empty_tag"
-slot19 = "ui/ryzaicon_atlas"
+slot19 = "sub_item_warning"
+slot20 = "ui/ryzaicon_atlas"
 
 function slot0.getUIName(slot0)
 	return "RyzaTaskUI"
 end
 
-slot20 = 4
-slot21 = 5
-slot22 = 4
+slot21 = 4
+slot22 = 5
+slot23 = 4
 
 function slot0.init(slot0)
 	slot0.activityId = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_RYZA).id
@@ -73,6 +74,7 @@ function slot0.init(slot0)
 	slot0.pointStarTpl = findTF(slot0.pointPanel, "levelStar/starTpl")
 	slot0.pointAdd = findTF(slot0.pointPanel, "add")
 	slot0.pointClose = findTF(slot0.pointPanel, "btnClose")
+	slot0.pointMask = findTF(slot0.pointPanel, "mask")
 	slot0.submitPanel = findTF(slot3, "submitPanel")
 	slot0.submitDisplayContent = findTF(slot0.submitPanel, "itemDisplay/viewport/content")
 	slot0.submitConfirm = findTF(slot0.submitPanel, "btnComfirm")
@@ -99,9 +101,10 @@ function slot0.init(slot0)
 	setText(findTF(slot0.btnGetAll, "text"), i18n(uv9))
 	setText(findTF(slot0.submitPanel, "btnComfirm/text"), i18n(uv10))
 	setText(findTF(slot0.submitPanel, "btnCancel/text"), i18n(uv11))
+	setText(findTF(slot0.submitPanel, "bg/text"), i18n(uv12))
 	setText(findTF(slot0.pointPanel, "title"), i18n(uv0))
-	setText(findTF(slot0.pointPanel, "levelNum/text"), i18n(uv12))
-	setText(findTF(slot0.pointPanel, "levelBuff/text"), i18n(uv13))
+	setText(findTF(slot0.pointPanel, "levelNum/text"), i18n(uv13))
+	setText(findTF(slot0.pointPanel, "levelBuff/text"), i18n(uv14))
 
 	slot0.pointStarTfs = {}
 	slot4 = slot0.pointLevelStar.sizeDelta.x
@@ -295,6 +298,9 @@ function slot0.didEnter(slot0)
 		uv0:emit(RyzaTaskMediator.TASK_GO, {
 			taskVO = Task.New(uv0.selectTask)
 		})
+	end, SOUND_BACK)
+	onButton(slot0, slot0.pointMask, function ()
+		setActive(uv0.pointPanel, false)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.pointClose, function ()
 		setActive(uv0.pointPanel, false)
