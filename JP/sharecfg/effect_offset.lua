@@ -1474,17 +1474,6 @@ pg.effect_offset = {
 			0
 		}
 	},
-	jingling_mu = {
-		mirror = false,
-		y_scale = false,
-		container_index = 2,
-		top_cover_offset = false,
-		offset = {
-			0,
-			-2,
-			0
-		}
-	},
 	jingling_feng = {
 		mirror = false,
 		y_scale = false,

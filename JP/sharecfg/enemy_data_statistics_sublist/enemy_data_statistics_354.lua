@@ -587,7 +587,7 @@ pg.enemy_data_statistics_354 = {
 	},
 	[16305301] = {
 		cannon = 362,
-		name = "迷之敌人！",
+		name = "謎のピュリっち！？",
 		hit_growth = 0,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -630,7 +630,7 @@ pg.enemy_data_statistics_354 = {
 	},
 	[16306001] = {
 		cannon = 750,
-		name = "古代遗迹守护者POWERMAX型",
+		name = "古代遺跡守護者マックスパワー",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -676,7 +676,7 @@ pg.enemy_data_statistics_354 = {
 	},
 	[16306002] = {
 		cannon = 750,
-		name = "古代遗迹守护者POWERMAX型-第二形态",
+		name = "古代遺跡守護者マックスパワー-第二形態",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,

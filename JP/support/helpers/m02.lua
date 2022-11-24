@@ -3420,3 +3420,11 @@ function NewPos(slot0, slot1)
 
 	return slot2
 end
+
+slot25 = nil
+
+function Timekeeping()
+	warning(Time.realtimeSinceStartup - (uv0 or Time.realtimeSinceStartup))
+
+	uv0 = Time.realtimeSinceStartup
+end

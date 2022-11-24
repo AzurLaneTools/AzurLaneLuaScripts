@@ -86,6 +86,10 @@ function slot0.GetBackYardExpBuffs()
 	return slot0
 end
 
+function slot0.GetShipModExpBuff()
+	return getProxy(ActivityProxy):getShipModExpActivity()
+end
+
 function slot0.GetBackYardPlayerBuffs()
 	slot0 = {}
 

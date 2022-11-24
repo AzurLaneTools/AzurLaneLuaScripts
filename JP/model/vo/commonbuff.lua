@@ -30,6 +30,10 @@ function slot0.RookieBattleExpUsage(slot0)
 	return slot0:getConfig("benefit_type") == BuffUsageConst.ROOKIEBATTLEEXP
 end
 
+function slot0.ShipModExpUsage(slot0)
+	return slot0:getConfig("benefit_type") == BuffUsageConst.SHIP_MOD_EXP
+end
+
 function slot0.GetRookieBattleExpMaxLevel(slot0)
 	return slot0:getConfig("benefit_condition")[3]
 end

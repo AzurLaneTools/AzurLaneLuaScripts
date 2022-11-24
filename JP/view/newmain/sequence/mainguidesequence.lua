@@ -96,7 +96,7 @@ slot1 = {
 		end
 	},
 	{
-		id = "NG0032",
+		id = "NG0032_1",
 		condition = function ()
 			return pg.NewStoryMgr.GetInstance():IsPlayed("NG0031")
 		end,
@@ -107,18 +107,13 @@ slot1 = {
 			} or {
 				1
 			}
-		end
-	},
-	{
-		id = "NG0033",
-		condition = function ()
-			return pg.NewStoryMgr.GetInstance():IsPlayed("NG0032")
 		end,
-		args = function ()
-			return {
-				1,
-				2
-			}
+		nextOne = function ()
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_RYZA) and not slot0:isEnd() and table.contains(slot0.data1_list, 56205) then
+				return "NG0032_2", {}
+			else
+				return nil
+			end
 		end
 	}
 }
@@ -164,7 +159,24 @@ function slot0.Execute(slot0, slot1)
 	slot6 = pg.GuideMgr.GetInstance()
 
 	slot6:play(slot3, slot5, function ()
+		if uv0.nextOne then
+			slot0, slot1 = uv0.nextOne()
+
+			uv1:PlayNextOne(slot0, slot1)
+		end
 	end, slot1)
+end
+
+function slot0.PlayNextOne(slot0, slot1, slot2)
+	if not slot1 then
+		return
+	end
+
+	pg.GuideMgr.GetInstance():play(slot1, slot2, function ()
+	end)
+	pg.m02:sendNotification(GAME.STORY_UPDATE, {
+		storyId = slot1
+	})
 end
 
 return slot0

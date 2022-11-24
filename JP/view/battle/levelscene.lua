@@ -1655,7 +1655,7 @@ function slot0.tryPlayMapStory(slot0)
 			slot0()
 		end,
 		function (slot0)
-			if isActive(uv0.actAtelierBuffBtn) and pg.NewStoryMgr.GetInstance():IsPlayed("NG0033") then
+			if isActive(uv0.actAtelierBuffBtn) and getProxy(ActivityProxy):AtelierActivityAllSlotIsEmpty() and getProxy(ActivityProxy):OwnAtelierActivityItemCnt(34, 1) then
 				slot2 = nil
 
 				pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0034", (not (PlayerPrefs.GetInt("first_enter_ryza_buff_" .. getProxy(PlayerProxy):getRawData().id, 0) == 0) or {

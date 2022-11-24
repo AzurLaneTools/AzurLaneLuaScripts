@@ -286,5 +286,12 @@ pg.ship_spine_shift = {
 			0,
 			-12
 		}
+	},
+	aierbin_3 = {
+		spine = "aierbin_3",
+		mainui_shift = {
+			24,
+			-84
+		}
 	}
 }

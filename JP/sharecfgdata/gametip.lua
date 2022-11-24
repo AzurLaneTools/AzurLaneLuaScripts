@@ -22078,7 +22078,7 @@ _G.pg.base.gametip.ryza_word_equip = {
 }
 
 _G.pg.base.gametip.ryza_rest_produce_count = {
-	tip = "残り調合可能数："
+	tip = "残り調合可能数：$1"
 }
 
 _G.pg.base.gametip.ryza_composite_confirm = {

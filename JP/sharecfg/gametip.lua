@@ -19345,241 +19345,241 @@ cs.gametip = {
 	},
 	ryza_rest_produce_count = {
 		796102,
-		111,
+		113,
 		true
 	},
 	ryza_composite_confirm = {
-		796213,
+		796215,
 		119,
 		true
 	},
 	ryza_composite_confirm_single = {
-		796332,
+		796334,
 		119,
 		true
 	},
 	ryza_composite_count = {
-		796451,
+		796453,
 		99,
 		true
 	},
 	ryza_toggle_only_composite = {
-		796550,
+		796552,
 		108,
 		true
 	},
 	ryza_tip_select_recipe = {
-		796658,
+		796660,
 		128,
 		true
 	},
 	ryza_tip_put_materials = {
-		796786,
+		796788,
 		160,
 		true
 	},
 	ryza_tip_composite_unlock = {
-		796946,
+		796948,
 		167,
 		true
 	},
 	ryza_tip_unlock_all_tools = {
-		797113,
+		797115,
 		128,
 		true
 	},
 	ryza_material_not_enough = {
-		797241,
+		797243,
 		194,
 		true
 	},
 	ryza_tip_composite_invalid = {
-		797435,
+		797437,
 		142,
 		true
 	},
 	ryza_tip_max_composite_count = {
-		797577,
+		797579,
 		156,
 		true
 	},
 	ryza_tip_no_item = {
-		797733,
+		797735,
 		119,
 		true
 	},
 	ryza_ui_show_acess = {
-		797852,
+		797854,
 		104,
 		true
 	},
 	ryza_tip_no_recipe = {
-		797956,
+		797958,
 		124,
 		true
 	},
 	ryza_tip_item_access = {
-		798080,
+		798082,
 		148,
 		true
 	},
 	ryza_tip_control_buff_not_obtain_tip = {
-		798228,
+		798230,
 		143,
 		true
 	},
 	ryza_tip_control_buff_upgrade = {
-		798371,
+		798373,
 		99,
 		true
 	},
 	ryza_tip_control_buff_replace = {
-		798470,
+		798472,
 		99,
 		true
 	},
 	ryza_tip_control_buff_limit = {
-		798569,
+		798571,
 		103,
 		true
 	},
 	ryza_tip_control_buff_already_active_tip = {
-		798672,
+		798674,
 		113,
 		true
 	},
 	ryza_tip_control_buff = {
-		798785,
+		798787,
 		153,
 		true
 	},
 	ryza_tip_control_buff_not_obtain = {
-		798938,
+		798940,
 		105,
 		true
 	},
 	ryza_tip_control = {
-		799043,
+		799045,
 		135,
 		true
 	},
 	ryza_tip_main = {
-		799178,
+		799180,
 		1454,
 		true
 	},
 	battle_levelScene_ryza_lock = {
-		800632,
+		800634,
 		172,
 		true
 	},
 	ryza_tip_toast_item_got = {
-		800804,
+		800806,
 		99,
 		true
 	},
 	ryza_composite_help_tip = {
-		800903,
+		800905,
 		476,
 		true
 	},
 	ryza_control_help_tip = {
-		801379,
+		801381,
 		296,
 		true
 	},
 	ryza_mini_game = {
-		801675,
+		801677,
 		351,
 		true
 	},
 	ryza_task_level_desc = {
-		802026,
+		802028,
 		96,
 		true
 	},
 	ryza_task_tag_explore = {
-		802122,
+		802124,
 		91,
 		true
 	},
 	ryza_task_tag_battle = {
-		802213,
+		802215,
 		90,
 		true
 	},
 	ryza_task_tag_dalegate = {
-		802303,
+		802305,
 		92,
 		true
 	},
 	ryza_task_tag_develop = {
-		802395,
+		802397,
 		91,
 		true
 	},
 	ryza_task_detail_content = {
-		802486,
+		802488,
 		94,
 		true
 	},
 	ryza_task_detail_award = {
-		802580,
+		802582,
 		92,
 		true
 	},
 	ryza_task_go = {
-		802672,
+		802674,
 		82,
 		true
 	},
 	ryza_task_get = {
-		802754,
+		802756,
 		83,
 		true
 	},
 	ryza_task_get_all = {
-		802837,
+		802839,
 		93,
 		true
 	},
 	ryza_task_confirm = {
-		802930,
+		802932,
 		87,
 		true
 	},
 	ryza_task_cancel = {
-		803017,
+		803019,
 		86,
 		true
 	},
 	ryza_task_level_num = {
-		803103,
+		803105,
 		98,
 		true
 	},
 	ryza_task_level_add = {
-		803201,
+		803203,
 		95,
 		true
 	},
 	ryza_task_submit = {
-		803296,
+		803298,
 		86,
 		true
 	},
 	ryza_task_detail = {
-		803382,
+		803384,
 		86,
 		true
 	},
 	ryza_composite_words = {
-		803468,
+		803470,
 		720,
 		true
 	},
 	ryza_task_help_tip = {
-		804188,
+		804190,
 		471,
 		true
 	}
