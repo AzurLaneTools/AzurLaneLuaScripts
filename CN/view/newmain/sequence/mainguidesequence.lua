@@ -115,28 +115,6 @@ slot1 = {
 				return nil
 			end
 		end
-	},
-	{
-		id = "NG0033",
-		condition = function ()
-			slot0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
-			slot3 = slot0:GetItems()[4]
-
-			return slot0 and not slot0:isEnd() and pg.NewStoryMgr.GetInstance():IsPlayed("NG0032_2") and slot3 and slot3.count > 0 and _.all({
-				1,
-				2,
-				3,
-				5
-			}, function (slot0)
-				return uv0[slot0] == nil or uv0[slot0].count == 0
-			end)
-		end,
-		args = function ()
-			return {
-				1,
-				2
-			}
-		end
 	}
 }
 

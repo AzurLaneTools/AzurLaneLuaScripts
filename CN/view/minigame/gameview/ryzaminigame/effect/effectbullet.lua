@@ -40,7 +40,7 @@ function slot0.InitUI(slot0, slot1)
 end
 
 function slot0.GetSpeedDis(slot0)
-	return 3
+	return 2
 end
 
 function slot0.TimeUpdate(slot0, slot1)

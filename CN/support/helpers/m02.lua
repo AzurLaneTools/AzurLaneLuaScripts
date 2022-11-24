@@ -3423,7 +3423,7 @@ end
 slot25 = nil
 
 function Timekeeping()
-	warning((uv0 or Time.realtimeSinceStartup) - uv0)
+	warning(Time.realtimeSinceStartup - (uv0 or Time.realtimeSinceStartup))
 
 	uv0 = Time.realtimeSinceStartup
 end

@@ -37129,8 +37129,8 @@ _G.pg.base.ship_data_breakout[10900042] = {
 	pre_id = 10900041,
 	use_item = {},
 	weapon_ids = {
-		33000,
-		33000
+		106,
+		106
 	}
 }
 
@@ -37146,7 +37146,8 @@ _G.pg.base.ship_data_breakout[10900043] = {
 	pre_id = 10900042,
 	use_item = {},
 	weapon_ids = {
-		33000
+		106,
+		106
 	}
 }
 

@@ -668,7 +668,9 @@ function slot0.handleNotification(slot0, slot1)
 
 					seriesAsync({
 						function (slot0)
-							getProxy(ChapterProxy):AddExtendChapterDataArray(uv0.id, "TotalDrops", uv1)
+							getProxy(ChapterProxy):AddExtendChapterDataArray(uv0.id, "TotalDrops", _.filter(uv1, function (slot0)
+								return slot0.type ~= DROP_TYPE_STRATEGY
+							end))
 							uv2.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
 								items = uv1,
 								title = uv3,

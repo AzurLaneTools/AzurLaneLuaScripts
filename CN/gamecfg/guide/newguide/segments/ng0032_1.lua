@@ -7,6 +7,7 @@ return {
 				1
 			},
 			ui = {
+				delay = 1,
 				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActAtelierBtn",
 				triggerType = {
 					1
@@ -15,6 +16,9 @@ return {
 					posY = -34.31,
 					posX = 50
 				}
+			},
+			baseui = {
+				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActAtelierBtn"
 			},
 			style = {
 				text = "让我们来看看炼金工坊出现了哪些可以调和的配方",

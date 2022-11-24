@@ -98,10 +98,6 @@ function slot0.startModShip(slot0)
 end
 
 function slot0.setShip(slot0, slot1)
-	if slot0.shipVO and slot0.shipVO.id ~= slot1.id then
-		slot0:switchToPage()
-	end
-
 	slot0.shipVO = slot1
 
 	slot0:initSelectedShips()
@@ -347,9 +343,13 @@ function slot0.tweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7
 end
 
 function slot0.getBuffExp()
-	return _.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
-		return slot0:getConfig("benefit_type") == "character_strengthen_exp"
-	end) and slot0:getConfig("benefit_effect") / 100 or 0
+	slot1 = 0
+
+	for slot5, slot6 in ipairs(BuffHelper.GetShipModExpBuff()) do
+		slot1 = math.max(slot6 and slot6:getConfig("benefit_effect") / 100 or 0, slot1)
+	end
+
+	return slot1
 end
 
 function slot0.getModExpAdditions(slot0, slot1)
