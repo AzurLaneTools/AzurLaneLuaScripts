@@ -1,7 +1,7 @@
 slot0 = class("MainActRefluxBtn", import(".MainBaseSpcailActBtn"))
 
 function slot0.InShowTime(slot0)
-	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) and not slot1:isEnd() or getProxy(ActivityProxy).refluxFlag == 1
+	return getProxy(RefluxProxy):isActive()
 end
 
 function slot0.GetUIName(slot0)
@@ -9,15 +9,7 @@ function slot0.GetUIName(slot0)
 end
 
 function slot0.OnClick(slot0)
-	if getProxy(ActivityProxy).refluxFlag == 0 then
-		slot0.event:emit(NewMainMediator.GO_SCENE, SCENE.REFLUX)
-	elseif slot1 == 1 then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			hideNo = true,
-			content = i18n("return_lock_tip"),
-			weight = LayerWeightConst.TOP_LAYER
-		})
-	end
+	slot0.event:emit(NewMainMediator.GO_SCENE, SCENE.REFLUX)
 end
 
 function slot0.OnRegister(slot0)

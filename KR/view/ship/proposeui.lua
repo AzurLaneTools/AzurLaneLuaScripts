@@ -84,7 +84,7 @@ function slot0.init(slot0)
 		})
 		onButton(slot0, slot1:Find("icon_" .. slot6), function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
-		end, SFX_PANEl)
+		end, SFX_PANEL)
 	end
 
 	slot5 = slot0.exchangePanel
@@ -363,7 +363,7 @@ function slot0.onUpdateItemCount(slot0)
 		setActive(slot0.window:Find("ringCount/icon/btn_exchange"), slot2)
 		onButton(slot0, slot0.window:Find("ringCount/icon/btn_exchange"), function ()
 			uv0:showExchangePanel()
-		end, SFX_PANEl)
+		end, SFX_PANEL)
 	end
 end
 

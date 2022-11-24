@@ -19,10 +19,10 @@ end
 function slot0.StartEggCellView(slot0, slot1, slot2)
 	if ChapterConst.EnemySize[slot1.type] == 99 then
 		setActive(slot0.tfBossIcon, true)
-		slot0:GetLoader():GetSprite("ui/share/ship_gizmos_atlas", "enemy_boss", slot0.tfBossIcon)
+		slot0:GetLoader():GetSpriteQuiet("ui/share/ship_gizmos_atlas", "enemy_boss", slot0.tfBossIcon)
 	elseif ChapterConst.EnemySize[slot1.type] == 98 then
 		setActive(slot0.tfBossIcon, true)
-		slot0:GetLoader():GetSprite("ui/share/ship_gizmos_atlas", "enemy_elite", slot0.tfBossIcon)
+		slot0:GetLoader():GetSpriteQuiet("ui/share/ship_gizmos_atlas", "enemy_elite", slot0.tfBossIcon)
 	else
 		setActive(slot0.tfBossIcon, false)
 	end
@@ -86,16 +86,15 @@ function slot0.RefreshEnemyTplIcons(slot0, slot1, slot2, slot3)
 		table.insertto(slot5, slot1.bufficon)
 	end
 
-	_.each(_.filter(slot2:GetWeather(slot3.row, slot3.column), function (slot0)
-		return slot0 == ChapterConst.FlagWeatherFog
-	end), function (slot0)
-		table.insert(uv0, pg.weather_data_template[slot0].buff_icon)
-	end)
+	slot11 = slot3.row
 
-	if #slot5 == 0 then
-		setActive(slot4, false)
+	function slot10(slot0)
+		return slot0 == ChapterConst.FlagWeatherFog
 	end
 
+	_.each(_.filter(slot2:GetWeather(slot11, slot3.column), slot10), function (slot0)
+		table.insert(uv0, pg.weather_data_template[slot0].buff_icon)
+	end)
 	setActive(slot4, true)
 	LevelGrid.AlignListContainer(slot4, #slot5)
 

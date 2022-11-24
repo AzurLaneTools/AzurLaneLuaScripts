@@ -13,8 +13,9 @@ pg.activity_event_pt = {
 		id_2 = 580,
 		link_id = 0,
 		pt_list = "",
-		id = 580,
+		convert_pay = "",
 		pt = 154,
+		id = 580,
 		target = {
 			3000
 		},
@@ -43,8 +44,9 @@ pg.activity_event_pt = {
 		id_2 = 640,
 		link_id = 0,
 		pt_list = "",
-		id = 640,
+		convert_pay = "",
 		pt = 163,
+		id = 640,
 		target = {
 			100,
 			300,
@@ -362,8 +364,9 @@ pg.activity_event_pt = {
 		id_2 = 4261,
 		link_id = 0,
 		pt_list = "",
-		id = 4261,
+		convert_pay = "",
 		pt = 239,
+		id = 4261,
 		target = {
 			2800
 		},
@@ -392,8 +395,9 @@ pg.activity_event_pt = {
 		id_2 = 4270,
 		link_id = 0,
 		pt_list = "",
-		id = 4270,
+		convert_pay = "",
 		pt = 240,
+		id = 4270,
 		target = {
 			100,
 			300,
@@ -690,6 +694,7 @@ pg.activity_event_pt = {
 		id_2 = 4276,
 		link_id = 0,
 		id = 4276,
+		convert_pay = "",
 		pt = 4276,
 		target = {
 			1,
@@ -774,8 +779,9 @@ pg.activity_event_pt = {
 		id_2 = 4278,
 		link_id = 0,
 		pt_list = "",
-		id = 4278,
+		convert_pay = "",
 		pt = 242,
+		id = 4278,
 		target = {
 			100,
 			300,
@@ -897,6 +903,7 @@ pg.activity_event_pt = {
 		id_2 = 4282,
 		link_id = 0,
 		id = 4282,
+		convert_pay = "",
 		pt = 3007,
 		target = {
 			100,
@@ -1387,8 +1394,9 @@ pg.activity_event_pt = {
 		id_2 = 4288,
 		link_id = 0,
 		pt_list = "",
-		id = 4288,
+		convert_pay = "",
 		pt = 243,
+		id = 4288,
 		target = {
 			100,
 			300,
@@ -1685,8 +1693,9 @@ pg.activity_event_pt = {
 		id_2 = 4297,
 		link_id = 0,
 		pt_list = "",
-		id = 4297,
+		convert_pay = "",
 		pt = 245,
+		id = 4297,
 		target = {
 			100,
 			300,
@@ -1906,8 +1915,9 @@ pg.activity_event_pt = {
 		id_2 = 4302,
 		link_id = 0,
 		pt_list = "",
-		id = 4302,
+		convert_pay = "",
 		pt = 248,
+		id = 4302,
 		target = {
 			3000
 		},
@@ -1936,8 +1946,9 @@ pg.activity_event_pt = {
 		id_2 = 4307,
 		link_id = 0,
 		pt_list = "",
-		id = 4307,
+		convert_pay = "",
 		pt = 247,
+		id = 4307,
 		target = {
 			100,
 			200,
@@ -2008,8 +2019,9 @@ pg.activity_event_pt = {
 		id_2 = 4316,
 		link_id = 0,
 		pt_list = "",
-		id = 4316,
+		convert_pay = "",
 		pt = 250,
+		id = 4316,
 		target = {
 			3000
 		},
@@ -2038,8 +2050,9 @@ pg.activity_event_pt = {
 		id_2 = 4325,
 		link_id = 0,
 		pt_list = "",
-		id = 4325,
+		convert_pay = "",
 		pt = 251,
+		id = 4325,
 		target = {
 			100,
 			300,
@@ -2336,8 +2349,9 @@ pg.activity_event_pt = {
 		id_2 = 4330,
 		link_id = 0,
 		pt_list = "",
-		id = 4330,
+		convert_pay = "",
 		pt = 253,
+		id = 4330,
 		target = {
 			1000,
 			2000,
@@ -2408,8 +2422,9 @@ pg.activity_event_pt = {
 		id_2 = 4340,
 		link_id = 0,
 		pt_list = "",
-		id = 4340,
+		convert_pay = "",
 		pt = 255,
+		id = 4340,
 		target = {
 			2800
 		},
@@ -2438,8 +2453,9 @@ pg.activity_event_pt = {
 		id_2 = 4342,
 		link_id = 0,
 		pt_list = "",
-		id = 4342,
+		convert_pay = "",
 		pt = 0,
+		id = 4342,
 		target = {
 			10,
 			30,
@@ -2503,8 +2519,9 @@ pg.activity_event_pt = {
 		id_2 = 4406,
 		link_id = 0,
 		pt_list = "",
-		id = 4406,
+		convert_pay = "",
 		pt = 260,
+		id = 4406,
 		target = {
 			100,
 			300,
@@ -2801,8 +2818,9 @@ pg.activity_event_pt = {
 		id_2 = 4413,
 		link_id = 0,
 		pt_list = "",
-		id = 4413,
+		convert_pay = "",
 		pt = 263,
+		id = 4413,
 		target = {
 			1000,
 			2000,
@@ -2873,8 +2891,9 @@ pg.activity_event_pt = {
 		id_2 = 4430,
 		link_id = 0,
 		pt_list = "",
-		id = 4430,
+		convert_pay = "",
 		pt = 265,
+		id = 4430,
 		target = {
 			100,
 			300,
@@ -2996,8 +3015,9 @@ pg.activity_event_pt = {
 		id_2 = 4437,
 		link_id = 4435,
 		pt_list = "",
-		id = 4437,
+		convert_pay = "",
 		pt = 2012,
+		id = 4437,
 		target = {
 			400,
 			600,
@@ -3180,8 +3200,9 @@ pg.activity_event_pt = {
 		id_2 = 4453,
 		link_id = 0,
 		pt_list = "",
-		id = 4453,
+		convert_pay = "",
 		pt = 269,
+		id = 4453,
 		target = {
 			100,
 			300,
@@ -3401,8 +3422,9 @@ pg.activity_event_pt = {
 		id_2 = 4476,
 		link_id = 0,
 		pt_list = "",
-		id = 4476,
+		convert_pay = "",
 		pt = 271,
+		id = 4476,
 		target = {
 			100,
 			300,
@@ -3699,8 +3721,9 @@ pg.activity_event_pt = {
 		id_2 = 4489,
 		link_id = 0,
 		pt_list = "",
-		id = 4489,
+		convert_pay = "",
 		pt = 274,
+		id = 4489,
 		target = {
 			100,
 			300,
@@ -3997,8 +4020,9 @@ pg.activity_event_pt = {
 		id_2 = 4501,
 		link_id = 0,
 		pt_list = "",
-		id = 4501,
+		convert_pay = "",
 		pt = 276,
+		id = 4501,
 		target = {
 			100,
 			200,
@@ -4216,8 +4240,9 @@ pg.activity_event_pt = {
 		id_2 = 4509,
 		link_id = 0,
 		pt_list = "",
-		id = 4509,
+		convert_pay = "",
 		pt = 277,
+		id = 4509,
 		target = {
 			100,
 			300,
@@ -4514,8 +4539,9 @@ pg.activity_event_pt = {
 		id_2 = 4540,
 		link_id = 0,
 		pt_list = "",
-		id = 4540,
+		convert_pay = "",
 		pt = 0,
+		id = 4540,
 		target = {
 			10,
 			20,
@@ -4586,8 +4612,9 @@ pg.activity_event_pt = {
 		id_2 = 4542,
 		link_id = 0,
 		pt_list = "",
-		id = 4542,
+		convert_pay = "",
 		pt = 280,
+		id = 4542,
 		target = {
 			100,
 			200,
@@ -4658,8 +4685,9 @@ pg.activity_event_pt = {
 		id_2 = 4545,
 		link_id = 0,
 		pt_list = "",
-		id = 4545,
+		convert_pay = "",
 		pt = 281,
+		id = 4545,
 		target = {
 			500,
 			1000,
@@ -4821,8 +4849,9 @@ pg.activity_event_pt = {
 		id_2 = 4554,
 		link_id = 4552,
 		pt_list = "",
-		id = 4554,
+		convert_pay = "",
 		pt = 2014,
+		id = 4554,
 		target = {
 			400,
 			600,
@@ -5005,8 +5034,9 @@ pg.activity_event_pt = {
 		id_2 = 4567,
 		link_id = 0,
 		pt_list = "",
-		id = 4567,
+		convert_pay = "",
 		pt = 283,
+		id = 4567,
 		target = {
 			100,
 			300,
@@ -5226,8 +5256,9 @@ pg.activity_event_pt = {
 		id_2 = 6006,
 		link_id = 0,
 		pt_list = "",
-		id = 6006,
+		convert_pay = "",
 		pt = 0,
+		id = 6006,
 		target = {
 			100,
 			250,
@@ -5298,8 +5329,9 @@ pg.activity_event_pt = {
 		id_2 = 6010,
 		link_id = 0,
 		pt_list = "",
-		id = 6010,
+		convert_pay = "",
 		pt = 0,
+		id = 6010,
 		target = {
 			100,
 			200,
@@ -5384,8 +5416,9 @@ pg.activity_event_pt = {
 		id_2 = 20172,
 		link_id = 0,
 		pt_list = "",
-		id = 20176,
+		convert_pay = "",
 		pt = 123,
+		id = 20176,
 		target = {
 			100,
 			300,
@@ -5668,8 +5701,9 @@ pg.activity_event_pt = {
 		id_2 = 20193,
 		link_id = 0,
 		pt_list = "",
-		id = 20200,
+		convert_pay = "",
 		pt = 126,
+		id = 20200,
 		target = {
 			100,
 			300,
@@ -5966,8 +6000,9 @@ pg.activity_event_pt = {
 		id_2 = 20205,
 		link_id = 0,
 		pt_list = "",
-		id = 20205,
+		convert_pay = "",
 		pt = 127,
+		id = 20205,
 		target = {
 			100,
 			200,
@@ -6040,8 +6075,9 @@ pg.activity_event_pt = {
 		id_2 = 20215,
 		link_id = 0,
 		pt_list = "",
-		id = 20220,
+		convert_pay = "",
 		pt = 106,
+		id = 20220,
 		target = {
 			500,
 			1000,
@@ -6275,8 +6311,9 @@ pg.activity_event_pt = {
 		id_2 = 20231,
 		link_id = 0,
 		pt_list = "",
-		id = 20236,
+		convert_pay = "",
 		pt = 131,
+		id = 20236,
 		target = {
 			100,
 			300,
@@ -6573,8 +6610,9 @@ pg.activity_event_pt = {
 		id_2 = 20239,
 		link_id = 0,
 		pt_list = "",
-		id = 20239,
+		convert_pay = "",
 		pt = 2,
+		id = 20239,
 		target = {
 			500,
 			1000,
@@ -6668,8 +6706,9 @@ pg.activity_event_pt = {
 		id_2 = 20242,
 		link_id = 0,
 		pt_list = "",
-		id = 20241,
+		convert_pay = "",
 		pt = 132,
+		id = 20241,
 		target = {
 			100,
 			300,
@@ -6854,8 +6893,9 @@ pg.activity_event_pt = {
 		id_2 = 20248,
 		link_id = 0,
 		pt_list = "",
-		id = 20249,
+		convert_pay = "",
 		pt = 950,
+		id = 20249,
 		target = {
 			100,
 			300,
@@ -7152,8 +7192,9 @@ pg.activity_event_pt = {
 		id_2 = 20259,
 		link_id = 0,
 		pt_list = "",
-		id = 20259,
+		convert_pay = "",
 		pt = 134,
+		id = 20259,
 		target = {
 			3000
 		},
@@ -7184,8 +7225,9 @@ pg.activity_event_pt = {
 		id_2 = 20260,
 		link_id = 0,
 		pt_list = "",
-		id = 20271,
+		convert_pay = "",
 		pt = 133,
+		id = 20271,
 		target = {
 			100,
 			300,
@@ -7482,8 +7524,9 @@ pg.activity_event_pt = {
 		id_2 = 20280,
 		link_id = 20278,
 		pt_list = "",
-		id = 20280,
+		convert_pay = "",
 		pt = 2002,
+		id = 20280,
 		target = {
 			400,
 			600,
@@ -7666,8 +7709,9 @@ pg.activity_event_pt = {
 		id_2 = 20298,
 		link_id = 0,
 		pt_list = "",
-		id = 20298,
+		convert_pay = "",
 		pt = 0,
+		id = 20298,
 		target = {
 			100,
 			250,
@@ -7738,8 +7782,9 @@ pg.activity_event_pt = {
 		id_2 = 20308,
 		link_id = 0,
 		pt_list = "",
-		id = 20308,
+		convert_pay = "",
 		pt = 137,
+		id = 20308,
 		target = {
 			100,
 			200,
@@ -8183,8 +8228,9 @@ pg.activity_event_pt = {
 		id_2 = 20320,
 		link_id = 0,
 		pt_list = "",
-		id = 20320,
+		convert_pay = "",
 		pt = 2,
+		id = 20320,
 		target = {
 			500,
 			1000,
@@ -8299,12 +8345,13 @@ pg.activity_event_pt = {
 		target_buff = "",
 		type = 1,
 		drop_display = "",
+		id = 20329,
 		end_time = "",
 		buff_group = "",
 		buff_time = "",
 		id_2 = 20329,
 		link_id = 0,
-		id = 20329,
+		convert_pay = "",
 		pt = 138,
 		target = {
 			100,
@@ -8620,8 +8667,9 @@ pg.activity_event_pt = {
 		id_2 = 20336,
 		link_id = 0,
 		pt_list = "",
-		id = 20336,
+		convert_pay = "",
 		pt = 139,
+		id = 20336,
 		target = {
 			100,
 			200,
@@ -8692,8 +8740,9 @@ pg.activity_event_pt = {
 		id_2 = 20346,
 		link_id = 0,
 		pt_list = "",
-		id = 20346,
+		convert_pay = "",
 		pt = 121,
+		id = 20346,
 		target = {
 			100,
 			300,
@@ -8990,8 +9039,9 @@ pg.activity_event_pt = {
 		id_2 = 20351,
 		link_id = 0,
 		pt_list = "",
-		id = 20351,
+		convert_pay = "",
 		pt = 140,
+		id = 20351,
 		target = {
 			3000
 		},
@@ -9022,8 +9072,9 @@ pg.activity_event_pt = {
 		id_2 = 20362,
 		link_id = 0,
 		pt_list = "",
-		id = 20362,
+		convert_pay = "",
 		pt = 141,
+		id = 20362,
 		target = {
 			100,
 			300,
@@ -9320,8 +9371,9 @@ pg.activity_event_pt = {
 		id_2 = 20372,
 		link_id = 20370,
 		pt_list = "",
-		id = 20372,
+		convert_pay = "",
 		pt = 2004,
+		id = 20372,
 		target = {
 			400,
 			600,
@@ -9504,8 +9556,9 @@ pg.activity_event_pt = {
 		id_2 = 20383,
 		link_id = 0,
 		pt_list = "",
-		id = 20383,
+		convert_pay = "",
 		pt = 142,
+		id = 20383,
 		target = {
 			3400
 		},
@@ -9536,8 +9589,9 @@ pg.activity_event_pt = {
 		id_2 = 20394,
 		link_id = 0,
 		pt_list = "",
-		id = 20394,
+		convert_pay = "",
 		pt = 143,
+		id = 20394,
 		target = {
 			100,
 			300,
@@ -9855,8 +9909,9 @@ pg.activity_event_pt = {
 		id_2 = 20402,
 		link_id = 0,
 		pt_list = "",
-		id = 20402,
+		convert_pay = "",
 		pt = 146,
+		id = 20402,
 		target = {
 			100,
 			300,
@@ -10020,8 +10075,9 @@ pg.activity_event_pt = {
 		id_2 = 20406,
 		link_id = 0,
 		pt_list = "",
-		id = 20406,
+		convert_pay = "",
 		pt = 145,
+		id = 20406,
 		target = {
 			100,
 			300,
@@ -10143,8 +10199,9 @@ pg.activity_event_pt = {
 		id_2 = 20413,
 		link_id = 0,
 		pt_list = "",
-		id = 20413,
+		convert_pay = "",
 		pt = 148,
+		id = 20413,
 		target = {
 			2800
 		},
@@ -10175,8 +10232,9 @@ pg.activity_event_pt = {
 		id_2 = 20429,
 		link_id = 0,
 		pt_list = "",
-		id = 20429,
+		convert_pay = "",
 		pt = 149,
+		id = 20429,
 		target = {
 			100,
 			300,
@@ -10494,8 +10552,9 @@ pg.activity_event_pt = {
 		id_2 = 20439,
 		link_id = 0,
 		pt_list = "",
-		id = 20439,
+		convert_pay = "",
 		pt = 2,
+		id = 20439,
 		target = {
 			500,
 			1000,
@@ -10589,8 +10648,9 @@ pg.activity_event_pt = {
 		id_2 = 20440,
 		link_id = 0,
 		pt_list = "",
-		id = 20440,
+		convert_pay = "",
 		pt = 130,
+		id = 20440,
 		target = {
 			100,
 			300,
@@ -10887,8 +10947,9 @@ pg.activity_event_pt = {
 		id_2 = 20447,
 		link_id = 0,
 		pt_list = "",
-		id = 20447,
+		convert_pay = "",
 		pt = 151,
+		id = 20447,
 		target = {
 			100,
 			300,
@@ -11204,8 +11265,9 @@ pg.activity_event_pt = {
 		id_2 = 20451,
 		link_id = 0,
 		pt_list = "",
-		id = 20451,
+		convert_pay = "",
 		pt = 152,
+		id = 20451,
 		target = {
 			100,
 			200,
@@ -11276,8 +11338,9 @@ pg.activity_event_pt = {
 		id_2 = 20459,
 		link_id = 0,
 		pt_list = "",
-		id = 20459,
+		convert_pay = "",
 		pt = 154,
+		id = 20459,
 		target = {
 			3000
 		},
@@ -11306,8 +11369,9 @@ pg.activity_event_pt = {
 		id_2 = 20466,
 		link_id = 0,
 		pt_list = "",
-		id = 20466,
+		convert_pay = "",
 		pt = 159,
+		id = 20466,
 		target = {
 			100,
 			300,
@@ -11625,8 +11689,9 @@ pg.activity_event_pt = {
 		id_2 = 20488,
 		link_id = 0,
 		pt_list = "",
-		id = 20488,
+		convert_pay = "",
 		pt = 161,
+		id = 20488,
 		target = {
 			100,
 			300,
@@ -11748,8 +11813,9 @@ pg.activity_event_pt = {
 		id_2 = 20497,
 		link_id = 0,
 		pt_list = "",
-		id = 20497,
+		convert_pay = "",
 		pt = 162,
+		id = 20497,
 		target = {
 			3000
 		},
@@ -11778,8 +11844,9 @@ pg.activity_event_pt = {
 		id_2 = 20503,
 		link_id = 0,
 		pt_list = "",
-		id = 20503,
+		convert_pay = "",
 		pt = 163,
+		id = 20503,
 		target = {
 			100,
 			300,
@@ -12097,8 +12164,9 @@ pg.activity_event_pt = {
 		id_2 = 20522,
 		link_id = 0,
 		pt_list = "",
-		id = 20522,
+		convert_pay = "",
 		pt = 166,
+		id = 20522,
 		target = {
 			100,
 			300,
@@ -12395,8 +12463,9 @@ pg.activity_event_pt = {
 		id_2 = 20530,
 		link_id = 20528,
 		pt_list = "",
-		id = 20530,
+		convert_pay = "",
 		pt = 2006,
+		id = 20530,
 		target = {
 			400,
 			600,
@@ -12579,8 +12648,9 @@ pg.activity_event_pt = {
 		id_2 = 20537,
 		link_id = 0,
 		pt_list = "",
-		id = 20537,
+		convert_pay = "",
 		pt = 169,
+		id = 20537,
 		target = {
 			3600
 		},
@@ -12609,8 +12679,9 @@ pg.activity_event_pt = {
 		id_2 = 20552,
 		link_id = 0,
 		pt_list = "",
-		id = 20552,
+		convert_pay = "",
 		pt = 171,
+		id = 20552,
 		target = {
 			100,
 			300,
@@ -12907,8 +12978,9 @@ pg.activity_event_pt = {
 		id_2 = 20572,
 		link_id = 0,
 		pt_list = "",
-		id = 20572,
+		convert_pay = "",
 		pt = 172,
+		id = 20572,
 		target = {
 			100,
 			300,
@@ -13030,8 +13102,9 @@ pg.activity_event_pt = {
 		id_2 = 20576,
 		link_id = 0,
 		pt_list = "",
-		id = 20576,
+		convert_pay = "",
 		pt = 0,
+		id = 20576,
 		target = {
 			100,
 			250,
@@ -13094,12 +13167,13 @@ pg.activity_event_pt = {
 		unlock_story = "",
 		pt_list = "",
 		type = 1,
+		id = 20581,
 		end_time = "",
 		pic_list = "",
 		buff_time = "",
 		id_2 = 20581,
 		link_id = 0,
-		id = 20581,
+		convert_pay = "",
 		pt = 175,
 		target = {
 			100,
@@ -13455,8 +13529,9 @@ pg.activity_event_pt = {
 		id_2 = 20597,
 		link_id = 0,
 		pt_list = "",
-		id = 20597,
+		convert_pay = "",
 		pt = 176,
+		id = 20597,
 		target = {
 			100,
 			200,
@@ -13520,12 +13595,13 @@ pg.activity_event_pt = {
 		drop_display = "",
 		type = 1,
 		pt_list = "",
+		id = 20606,
 		end_time = "",
 		pic_list = "",
 		buff_time = "stop",
 		id_2 = 20606,
 		link_id = 0,
-		id = 20606,
+		convert_pay = "",
 		pt = 177,
 		target = {
 			100,
@@ -13862,6 +13938,7 @@ pg.activity_event_pt = {
 		id_2 = 20621,
 		link_id = 0,
 		id = 20621,
+		convert_pay = "",
 		pt = 3001,
 		target = {
 			100,
@@ -14290,8 +14367,9 @@ pg.activity_event_pt = {
 		id_2 = 20631,
 		link_id = 0,
 		pt_list = "",
-		id = 20631,
+		convert_pay = "",
 		pt = 179,
+		id = 20631,
 		target = {
 			3400
 		},
@@ -14320,8 +14398,9 @@ pg.activity_event_pt = {
 		id_2 = 20635,
 		link_id = 0,
 		pt_list = "",
-		id = 20635,
+		convert_pay = "",
 		pt = 0,
+		id = 20635,
 		target = {
 			100,
 			250,
@@ -14392,8 +14471,9 @@ pg.activity_event_pt = {
 		id_2 = 20641,
 		link_id = 0,
 		pt_list = "",
-		id = 20641,
+		convert_pay = "",
 		pt = 180,
+		id = 20641,
 		target = {
 			100,
 			300,
@@ -14711,8 +14791,9 @@ pg.activity_event_pt = {
 		id_2 = 20653,
 		link_id = 0,
 		pt_list = "",
-		id = 20653,
+		convert_pay = "",
 		pt = 182,
+		id = 20653,
 		target = {
 			3000
 		},
@@ -14743,8 +14824,9 @@ pg.activity_event_pt = {
 		id_2 = 20661,
 		link_id = 0,
 		pt_list = "",
-		id = 20661,
+		convert_pay = "",
 		pt = 183,
+		id = 20661,
 		target = {
 			100,
 			300,
@@ -15041,8 +15123,9 @@ pg.activity_event_pt = {
 		id_2 = 20669,
 		link_id = 0,
 		pt_list = "",
-		id = 20669,
+		convert_pay = "",
 		pt = 0,
+		id = 20669,
 		target = {
 			10,
 			25,
@@ -15113,8 +15196,9 @@ pg.activity_event_pt = {
 		id_2 = 20678,
 		link_id = 0,
 		pt_list = "",
-		id = 20678,
+		convert_pay = "",
 		pt = 186,
+		id = 20678,
 		target = {
 			1000
 		},
@@ -15143,8 +15227,9 @@ pg.activity_event_pt = {
 		id_2 = 20681,
 		link_id = 0,
 		pt_list = "",
-		id = 20681,
+		convert_pay = "",
 		pt = 157,
+		id = 20681,
 		target = {
 			100,
 			300,
@@ -15308,8 +15393,9 @@ pg.activity_event_pt = {
 		id_2 = 20683,
 		link_id = 0,
 		pt_list = "",
-		id = 20683,
+		convert_pay = "",
 		pt = 2,
+		id = 20683,
 		target = {
 			500,
 			1000,
@@ -15401,8 +15487,9 @@ pg.activity_event_pt = {
 		id_2 = 20685,
 		link_id = 0,
 		pt_list = "",
-		id = 20685,
+		convert_pay = "",
 		pt = 187,
+		id = 20685,
 		target = {
 			3000
 		},
@@ -15433,8 +15520,9 @@ pg.activity_event_pt = {
 		id_2 = 20693,
 		link_id = 0,
 		pt_list = "",
-		id = 20693,
+		convert_pay = "",
 		pt = 188,
+		id = 20693,
 		target = {
 			100,
 			300,
@@ -15752,8 +15840,9 @@ pg.activity_event_pt = {
 		id_2 = 20699,
 		link_id = 0,
 		pt_list = "",
-		id = 20699,
+		convert_pay = "",
 		pt = 191,
+		id = 20699,
 		target = {
 			600,
 			1200,
@@ -15845,8 +15934,9 @@ pg.activity_event_pt = {
 		id_2 = 20700,
 		link_id = 0,
 		pt_list = "",
-		id = 20700,
+		convert_pay = "",
 		pt = 192,
+		id = 20700,
 		target = {
 			600,
 			1200,
@@ -15938,8 +16028,9 @@ pg.activity_event_pt = {
 		id_2 = 20720,
 		link_id = 0,
 		pt_list = "",
-		id = 20720,
+		convert_pay = "",
 		pt = 194,
+		id = 20720,
 		target = {
 			100,
 			300,
@@ -16236,8 +16327,9 @@ pg.activity_event_pt = {
 		id_2 = 20723,
 		link_id = 0,
 		pt_list = "",
-		id = 20723,
+		convert_pay = "",
 		pt = 2,
+		id = 20723,
 		target = {
 			500,
 			1000,
@@ -16331,6 +16423,7 @@ pg.activity_event_pt = {
 		id_2 = 20728,
 		link_id = 0,
 		id = 20728,
+		convert_pay = "",
 		pt = 3003,
 		target = {
 			100,
@@ -16759,8 +16852,9 @@ pg.activity_event_pt = {
 		id_2 = 20731,
 		link_id = 0,
 		pt_list = "",
-		id = 20731,
+		convert_pay = "",
 		pt = 193,
+		id = 20731,
 		target = {
 			3400
 		},
@@ -16791,8 +16885,9 @@ pg.activity_event_pt = {
 		id_2 = 20739,
 		link_id = 0,
 		pt_list = "",
-		id = 20739,
+		convert_pay = "",
 		pt = 196,
+		id = 20739,
 		target = {
 			100,
 			300,
@@ -17110,8 +17205,9 @@ pg.activity_event_pt = {
 		id_2 = 20743,
 		link_id = 0,
 		pt_list = "",
-		id = 20743,
+		convert_pay = "",
 		pt = 198,
+		id = 20743,
 		target = {
 			100,
 			200,
@@ -17182,8 +17278,9 @@ pg.activity_event_pt = {
 		id_2 = 20754,
 		link_id = 0,
 		pt_list = "",
-		id = 20754,
+		convert_pay = "",
 		pt = 199,
+		id = 20754,
 		target = {
 			3400
 		},
@@ -17214,8 +17311,9 @@ pg.activity_event_pt = {
 		id_2 = 20759,
 		link_id = 0,
 		pt_list = "",
-		id = 20759,
+		convert_pay = "",
 		pt = 201,
+		id = 20759,
 		target = {
 			100,
 			300,
@@ -17533,8 +17631,9 @@ pg.activity_event_pt = {
 		id_2 = 20762,
 		link_id = 0,
 		pt_list = "",
-		id = 20762,
+		convert_pay = "",
 		pt = 200,
+		id = 20762,
 		target = {
 			100,
 			300,
@@ -17698,8 +17797,9 @@ pg.activity_event_pt = {
 		id_2 = 20766,
 		link_id = 0,
 		pt_list = "",
-		id = 20766,
+		convert_pay = "",
 		pt = 203,
+		id = 20766,
 		target = {
 			100,
 			200,
@@ -17770,8 +17870,9 @@ pg.activity_event_pt = {
 		id_2 = 20782,
 		link_id = 0,
 		pt_list = "",
-		id = 20782,
+		convert_pay = "",
 		pt = 206,
+		id = 20782,
 		target = {
 			3000
 		},
@@ -17802,8 +17903,9 @@ pg.activity_event_pt = {
 		id_2 = 20796,
 		link_id = 0,
 		pt_list = "",
-		id = 20796,
+		convert_pay = "",
 		pt = 208,
+		id = 20796,
 		target = {
 			100,
 			300,
@@ -18100,6 +18202,7 @@ pg.activity_event_pt = {
 		id_2 = 20799,
 		link_id = 0,
 		id = 20799,
+		convert_pay = "",
 		pt = 3004,
 		target = {
 			100,
@@ -18526,8 +18629,9 @@ pg.activity_event_pt = {
 		id_2 = 20803,
 		link_id = 20801,
 		pt_list = "",
-		id = 20803,
+		convert_pay = "",
 		pt = 2008,
+		id = 20803,
 		target = {
 			400,
 			600,
@@ -18710,8 +18814,9 @@ pg.activity_event_pt = {
 		id_2 = 20807,
 		link_id = 0,
 		pt_list = "",
-		id = 20807,
+		convert_pay = "",
 		pt = 215,
+		id = 20807,
 		target = {
 			100,
 			300,
@@ -19035,8 +19140,9 @@ pg.activity_event_pt = {
 		id_2 = 20820,
 		link_id = 0,
 		pt_list = "",
-		id = 20820,
+		convert_pay = "",
 		pt = 217,
+		id = 20820,
 		target = {
 			2800
 		},
@@ -19067,8 +19173,9 @@ pg.activity_event_pt = {
 		id_2 = 20833,
 		link_id = 0,
 		pt_list = "",
-		id = 20833,
+		convert_pay = "",
 		pt = 211,
+		id = 20833,
 		target = {
 			100,
 			300,
@@ -19386,8 +19493,9 @@ pg.activity_event_pt = {
 		id_2 = 20842,
 		link_id = 0,
 		pt_list = "",
-		id = 20842,
+		convert_pay = "",
 		pt = 219,
+		id = 20842,
 		target = {
 			3200
 		},
@@ -19418,8 +19526,9 @@ pg.activity_event_pt = {
 		id_2 = 20854,
 		link_id = 0,
 		pt_list = "",
-		id = 20854,
+		convert_pay = "",
 		pt = 212,
+		id = 20854,
 		target = {
 			100,
 			300,
@@ -19716,6 +19825,7 @@ pg.activity_event_pt = {
 		id_2 = 20874,
 		link_id = 0,
 		id = 20874,
+		convert_pay = "",
 		pt = 3005,
 		target = {
 			100,
@@ -20206,8 +20316,9 @@ pg.activity_event_pt = {
 		id_2 = 20880,
 		link_id = 0,
 		pt_list = "",
-		id = 20880,
+		convert_pay = "",
 		pt = 222,
+		id = 20880,
 		target = {
 			3000
 		},
@@ -20236,8 +20347,9 @@ pg.activity_event_pt = {
 		id_2 = 20894,
 		link_id = 0,
 		pt_list = "",
-		id = 20894,
+		convert_pay = "",
 		pt = 226,
+		id = 20894,
 		target = {
 			100,
 			300,
@@ -20359,8 +20471,9 @@ pg.activity_event_pt = {
 		id_2 = 20885,
 		link_id = 0,
 		pt_list = "",
-		id = 20885,
+		convert_pay = "",
 		pt = 223,
+		id = 20885,
 		target = {
 			100,
 			300,
@@ -20657,8 +20770,9 @@ pg.activity_event_pt = {
 		id_2 = 20910,
 		link_id = 0,
 		pt_list = "",
-		id = 20910,
+		convert_pay = "",
 		pt = 227,
+		id = 20910,
 		target = {
 			100,
 			300,
@@ -20955,8 +21069,9 @@ pg.activity_event_pt = {
 		id_2 = 20914,
 		link_id = 0,
 		pt_list = "",
-		id = 20914,
+		convert_pay = "",
 		pt = 229,
+		id = 20914,
 		target = {
 			100,
 			200,
@@ -21029,8 +21144,9 @@ pg.activity_event_pt = {
 		id_2 = 20916,
 		link_id = 0,
 		pt_list = "",
-		id = 20916,
+		convert_pay = "",
 		pt = 0,
+		id = 20916,
 		target = {
 			100,
 			250,
@@ -21101,6 +21217,7 @@ pg.activity_event_pt = {
 		id_2 = 20917,
 		link_id = 0,
 		id = 20917,
+		convert_pay = "",
 		pt = 4186,
 		target = {
 			1,
@@ -21185,8 +21302,9 @@ pg.activity_event_pt = {
 		id_2 = 20920,
 		link_id = 0,
 		pt_list = "",
-		id = 20920,
+		convert_pay = "",
 		pt = 230,
+		id = 20920,
 		target = {
 			2800
 		},
@@ -21215,8 +21333,9 @@ pg.activity_event_pt = {
 		id_2 = 20942,
 		link_id = 0,
 		pt_list = "",
-		id = 20942,
+		convert_pay = "",
 		pt = 232,
+		id = 20942,
 		target = {
 			100,
 			300,
@@ -21513,8 +21632,9 @@ pg.activity_event_pt = {
 		id_2 = 20944,
 		link_id = 0,
 		pt_list = "",
-		id = 20944,
+		convert_pay = "",
 		pt = 0,
+		id = 20944,
 		target = {
 			10,
 			25,
@@ -21585,6 +21705,7 @@ pg.activity_event_pt = {
 		id_2 = 20945,
 		link_id = 0,
 		id = 20945,
+		convert_pay = "",
 		pt = 3006,
 		target = {
 			100,
@@ -22075,8 +22196,9 @@ pg.activity_event_pt = {
 		id_2 = 20949,
 		link_id = 0,
 		pt_list = "",
-		id = 20949,
+		convert_pay = "",
 		pt = 234,
+		id = 20949,
 		target = {
 			1000
 		},
@@ -22105,8 +22227,9 @@ pg.activity_event_pt = {
 		id_2 = 20958,
 		link_id = 20956,
 		pt_list = "",
-		id = 20958,
+		convert_pay = "",
 		pt = 2010,
+		id = 20958,
 		target = {
 			400,
 			600,
@@ -22289,8 +22412,9 @@ pg.activity_event_pt = {
 		id_2 = 20977,
 		link_id = 0,
 		pt_list = "",
-		id = 20977,
+		convert_pay = "",
 		pt = 236,
+		id = 20977,
 		target = {
 			100,
 			300,
@@ -22510,8 +22634,9 @@ pg.activity_event_pt = {
 		id_2 = 20983,
 		link_id = 0,
 		pt_list = "",
-		id = 20983,
+		convert_pay = "",
 		pt = 237,
+		id = 20983,
 		target = {
 			3400
 		},
@@ -22542,8 +22667,9 @@ pg.activity_event_pt = {
 		id_2 = 29019,
 		link_id = 0,
 		pt_list = "",
-		id = 29019,
+		convert_pay = "",
 		pt = 1001,
+		id = 29019,
 		target = {
 			200,
 			400,
@@ -22880,8 +23006,9 @@ pg.activity_event_pt = {
 		id_2 = 29020,
 		link_id = 0,
 		pt_list = "",
-		id = 29020,
+		convert_pay = "",
 		pt = 1001,
+		id = 29020,
 		target = {
 			200,
 			400,
@@ -23218,8 +23345,9 @@ pg.activity_event_pt = {
 		id_2 = 29021,
 		link_id = 0,
 		pt_list = "",
-		id = 29021,
+		convert_pay = "",
 		pt = 1001,
+		id = 29021,
 		target = {
 			200,
 			400,
@@ -23556,8 +23684,9 @@ pg.activity_event_pt = {
 		id_2 = 29022,
 		link_id = 0,
 		pt_list = "",
-		id = 29022,
+		convert_pay = "",
 		pt = 1001,
+		id = 29022,
 		target = {
 			200,
 			400,
@@ -23894,8 +24023,9 @@ pg.activity_event_pt = {
 		id_2 = 29023,
 		link_id = 0,
 		pt_list = "",
-		id = 29023,
+		convert_pay = "",
 		pt = 1001,
+		id = 29023,
 		target = {
 			200,
 			400,
@@ -24232,8 +24362,9 @@ pg.activity_event_pt = {
 		id_2 = 29024,
 		link_id = 0,
 		pt_list = "",
-		id = 29024,
+		convert_pay = "",
 		pt = 1001,
+		id = 29024,
 		target = {
 			200,
 			400,
@@ -24570,8 +24701,9 @@ pg.activity_event_pt = {
 		id_2 = 29025,
 		link_id = 0,
 		pt_list = "",
-		id = 29025,
+		convert_pay = "",
 		pt = 1001,
+		id = 29025,
 		target = {
 			200,
 			400,
@@ -24908,8 +25040,9 @@ pg.activity_event_pt = {
 		id_2 = 29026,
 		link_id = 0,
 		pt_list = "",
-		id = 29026,
+		convert_pay = "",
 		pt = 1001,
+		id = 29026,
 		target = {
 			200,
 			400,
@@ -25246,8 +25379,9 @@ pg.activity_event_pt = {
 		id_2 = 29027,
 		link_id = 0,
 		pt_list = "",
-		id = 29027,
+		convert_pay = "",
 		pt = 1001,
+		id = 29027,
 		target = {
 			200,
 			400,

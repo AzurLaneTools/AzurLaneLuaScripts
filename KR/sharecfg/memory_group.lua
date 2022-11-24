@@ -4021,6 +4021,22 @@ pg.memory_group = {
 			2377
 		}
 	},
+	[580] = {
+		icon = "title_chara_bulvxieer",
+		subtype = 0,
+		type = 3,
+		id = 580,
+		title = "애정 공세!",
+		memories = {
+			2391,
+			2392,
+			2393,
+			2394,
+			2395,
+			2396,
+			2397
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4228,6 +4244,7 @@ pg.memory_group = {
 		576,
 		577,
 		578,
-		579
+		579,
+		580
 	}
 }

@@ -401,8 +401,8 @@ function slot0.GetEncoreSkins(slot0)
 	slot1 = getProxy(ActivityProxy)
 
 	function slot2(slot0)
-		if type(slot0:getConfig("config_client")) == "table" then
-			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1) <= pg.TimeMgr.GetInstance():GetServerTime()
+		if slot0:getConfig("config_client") and slot1[1] and type(slot1[1]) == "table" then
+			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[1]) <= pg.TimeMgr.GetInstance():GetServerTime()
 		else
 			return slot0:isEnd()
 		end

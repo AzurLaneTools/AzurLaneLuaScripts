@@ -94,9 +94,6 @@ function slot0.register(slot0)
 			activity = slot1
 		})
 	end)
-	slot0:on(11290, function (slot0)
-		uv0.refluxFlag = slot0.flag
-	end)
 
 	slot0.requestTime = {}
 end
@@ -260,7 +257,7 @@ function slot0.findNextAutoActivity(slot0)
 	for slot7, slot8 in ipairs(slot0:getPanelActivities()) do
 		if slot8:isShow() and not slot8.autoActionForbidden then
 			if slot8:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
-				if slot8.data1 < #pg.activity_7_day_sign[slot8:getConfig("config_id")].front_drops and not slot2:IsSameDay(slot3, slot8.data2) then
+				if slot8.data1 < #pg.activity_7_day_sign[slot8:getConfig("config_id")].front_drops and not slot2:IsSameDay(slot3, slot8.data2) and slot8.data2 < slot3 then
 					slot1 = slot8
 
 					break
@@ -299,6 +296,16 @@ function slot0.findNextAutoActivity(slot0)
 					slot1 = slot8
 				end
 			elseif slot8.id == ActivityConst.SHADOW_PLAY_ID and slot8.clientData1 == 0 and (getProxy(TaskProxy):getTaskById(slot8:getConfig("config_data")[1]) or slot11:getFinishTaskById(slot10)) and not slot12:isReceive() then
+				slot1 = slot8
+
+				break
+			end
+		end
+	end
+
+	if not slot1 then
+		for slot7, slot8 in pairs(slot0.data) do
+			if not slot8:isShow() and slot8:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN and slot8.data1 < #pg.activity_7_day_sign[slot8:getConfig("config_id")].front_drops and not slot2:IsSameDay(slot3, slot8.data2) and slot8.data2 < slot3 then
 				slot1 = slot8
 
 				break

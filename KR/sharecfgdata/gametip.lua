@@ -2470,11 +2470,11 @@ _G.pg.base.gametip.coloring_help_tip = {
 5. 물감은 이벤트 임무 연료 누적 소모로 획득할 수 있습니다.
 6. 색칠 완료 시 보상을 획득합니다.
 7. 완료 보상 목록:
-	1번 그림: 범용 부속 T3x4
-	2번 그림: 랜덤 교본 T3x3
-	3번 그림: 꼬마 일러스트리어스x1
+	1번 그림: 랜덤 교본 T3x3
+	2번 그림: 범용 부속 T3x4
+	3번 그림: 스킨 「아카시 특별 판매중이다냥!」x1
 8. 이벤트 종료 후 사용하지 않은 물감은 사라집니다.
-9. 9월 10일 전 매일 완성 가능한 그림이 하나씩 해제됩니다.]]
+9. 12월 7일 전 매일 완성 가능한 그림이 하나씩 해제됩니다.]]
 		}
 	}
 }
@@ -9180,6 +9180,10 @@ _G.pg.base.gametip.sos_lock = {
 
 _G.pg.base.gametip.charge_scene_buy_confirm = {
 	tip = "<color=#92fc63FF>$1다이아</color>을(를) 사용하여 <color=#92fc63FF>$2</color>을(를) 구매하시겠습니까?"
+}
+
+_G.pg.base.gametip.charge_scene_buy_confirm_gold = {
+	tip = "<color=#92fc63FF>$1 물자</color>를 사용하여 <color=#92fc63FF>$2</color>을(를) 구매하시겠습니까?"
 }
 
 _G.pg.base.gametip.charge_scene_batch_buy_tip = {
@@ -21260,4 +21264,36 @@ _G.pg.base.gametip.ex_pass_use = {
 
 _G.pg.base.gametip.defense_formation_tip_npc = {
 	tip = "제1함대에 <color=#92fc63>임시 가입한 캐릭터</color>가 존재하여 연습전 함대에 편성할 수 없습니다."
+}
+
+_G.pg.base.gametip.pgs_login_tip = {
+	tip = "게스트 계정이 아닌 경우 PGS 계정과 자동으로 연동됩니다. PGS 계정을 통해 다른 설비에서 로그인할 수 있습니다."
+}
+
+_G.pg.base.gametip.pgs_login_binding_exist1 = {
+	tip = "게임 계정이 다른 PGS 계정과 연동 중입니다. 현재 로그인한 PGS 계정으로 연동을 변경하시겠습니까?"
+}
+
+_G.pg.base.gametip.pgs_login_binding_exist2 = {
+	tip = "현재 PGS 계정은 다른 게임 계정과 연동 중입니다. 연동을 변경하시겠습니까?"
+}
+
+_G.pg.base.gametip.pgs_login_binding_exist3 = {
+	tip = "현재 게임 계정은 다른 PGS 계정과 연동 중이며, 현재 PGS 계정은 다른 게임 계정과 연동 중입니다. 연동을 변경하시겠습니까?"
+}
+
+_G.pg.base.gametip.pgs_binding_account = {
+	tip = "연동된 계정:"
+}
+
+_G.pg.base.gametip.pgs_unbind = {
+	tip = "PGS 계정 연동 해제"
+}
+
+_G.pg.base.gametip.pgs_unbind_tip1 = {
+	tip = "현재 게임 계정을 PGS 계정과 연동 해제하시겠습니까?"
+}
+
+_G.pg.base.gametip.pgs_unbind_tip2 = {
+	tip = "현재 게임 계정은 PGS 계정과 연동 중입니다. PGS 이외의 기타 연동 방식을 해제할 경우, PGS 계정도 자동으로 연동 해제됩니다."
 }

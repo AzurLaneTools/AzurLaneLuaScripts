@@ -1750,6 +1750,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -1810,6 +1821,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 어둠을 쫓는 은익",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -2054,6 +2076,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 어둠을 쫓는 은익",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -2674,6 +2707,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 어둠을 쫓는 은익",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -3515,12 +3559,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -3742,6 +3795,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 어둠을 쫓는 은익",
 				{
 					""
+				},
+				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -4299,12 +4363,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -4341,12 +4414,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -4656,6 +4738,16 @@ pg.ship_data_group = {
 				"한정 이벤트: 어둠을 쫓는 은익",
 				{
 					""
+				},
+				0
+			},
+			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -5177,6 +5269,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5495,6 +5598,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5651,6 +5764,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 어둠을 쫓는 은익",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -6497,6 +6621,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6526,6 +6661,16 @@ pg.ship_data_group = {
 				"이벤트 : 피오르드의 별",
 				{
 					""
+				},
+				0
+			},
+			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -6794,12 +6939,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"함대 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -7559,12 +7713,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"함대 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -7956,12 +8119,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -8136,12 +8308,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"함대 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -10017,6 +10198,16 @@ pg.ship_data_group = {
 				"한정 이벤트: 격창의 유니버스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"코어 교환 획득",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -12395,20 +12586,29 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"소형함 건조",
+				"이벤트 : 검게 물든 강철의 벚꽃",
+				{
+					""
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"이벤트 : 검게 물든 강철의 벚꽃",
+				"함대 상점 교환",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			}
@@ -12437,20 +12637,29 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"소형함 건조",
+				"이벤트 : 검게 물든 강철의 벚꽃",
+				{
+					""
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"이벤트 : 검게 물든 강철의 벚꽃",
+				"함대 상점 교환",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			}
@@ -15055,12 +15264,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"특형함 건조",
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15090,19 +15308,28 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트 : 홍염의 방문자",
+				"작전 파일: 홍염의 방문자",
 				{
-					""
+					"LEVEL"
 				},
 				0
 			},
 			{
-				"특형함 건조",
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15639,6 +15866,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16127,18 +16365,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"명예 훈장 교환(확률 갱신)",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
@@ -16622,22 +16849,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"명예 훈장 교환(확률 갱신)",
+				"함대 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = "guild"
 					}
 				},
 				0
@@ -16798,6 +17024,16 @@ pg.ship_data_group = {
 				"한정 이벤트: 격창의 유니버스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"코어 교환 획득",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -17851,12 +18087,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"특형함 건조",
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"함대 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -20022,12 +20267,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -20414,12 +20668,21 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"훈장 상점 교환(랜덤 갱신)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"훈장 지원(랜덤 갱신)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -20483,6 +20746,16 @@ pg.ship_data_group = {
 				"한정 이벤트: 격창의 유니버스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}

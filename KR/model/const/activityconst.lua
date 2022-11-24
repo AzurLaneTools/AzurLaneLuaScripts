@@ -180,6 +180,8 @@ function slot0.BBRule(slot0)
 	return slot2
 end
 
+slot0.BLACK_FRIDAY_ACT_ID = 30853
+slot0.BLACK_FRIDAY_SIGNIN_ACT_ID = 30854
 slot0.PageIdLink = {
 	[slot0.IDOL_INS_ID] = slot0.IDOL_PT_ID,
 	[slot0.POCKY_SKIN_PT] = slot0.POCKY_SKIN_LOGIN,
@@ -188,7 +190,8 @@ slot0.PageIdLink = {
 	[slot0.POCKY_SKIN_FINAL] = slot0.POCKY_SKIN_LOGIN,
 	[slot0.NEW_ORLEANS_TASK] = slot0.NEW_ORLEANS_LOGIN,
 	[slot0.WWF_NING_PT_ID] = slot0.WWF_TASK_ID,
-	[slot0.WWF_PING_PT_ID] = slot0.WWF_TASK_ID
+	[slot0.WWF_PING_PT_ID] = slot0.WWF_TASK_ID,
+	[slot0.BLACK_FRIDAY_SIGNIN_ACT_ID] = slot0.BLACK_FRIDAY_ACT_ID
 }
 
 return slot0

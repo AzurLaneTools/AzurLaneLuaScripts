@@ -18723,6 +18723,912 @@ _G.pg.base.item_data_statistics[40129] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40701] = {
+	display = "패키지 구매 시 성정 큐브x10, 고속 건조재x5 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40701,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40702] = {
+	display = "패키지 구매 시 성정 큐브x20, 고속 건조재x10 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40702,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi1",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40703] = {
+	display = "패키지 구매 시 범용형 부린x1, 함선 연습 데이터 T1x200 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40703,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			1
+		},
+		{
+			2,
+			16501,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40704] = {
+	display = "패키지 구매 시 범용형 부린x2, 함선 연습 데이터 T2x50 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40704,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi2",
+	display_icon = {
+		{
+			4,
+			100001,
+			2
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40705] = {
+	display = "패키지 구매 시 랜덤 교본 T3x3, 랜덤 교본 T2x9, 랜덤 개조 도면 T2x8 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40705,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi3",
+	display_icon = {
+		{
+			2,
+			54006,
+			3
+		},
+		{
+			2,
+			54005,
+			9
+		},
+		{
+			2,
+			54050,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40706] = {
+	display = "패키지 구매 시 랜덤 교본 T4x3, 랜덤 교본 T3x9, 랜덤 개조 도면 T3x8 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40706,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi3",
+	display_icon = {
+		{
+			2,
+			54007,
+			3
+		},
+		{
+			2,
+			54006,
+			9
+		},
+		{
+			2,
+			54051,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40707] = {
+	display = "패키지 구매 시 성정 유닛x150, 랜덤 장비 상자 T4x4 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40707,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			150
+		},
+		{
+			2,
+			54034,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40708] = {
+	display = "패키지 구매 시 성정 유닛x300, 랜덤 장비 상자 T4x8 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40708,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi4",
+	display_icon = {
+		{
+			2,
+			15008,
+			300
+		},
+		{
+			2,
+			54034,
+			8
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40709] = {
+	display = "패키지 구매 시 코어 데이터x150, 지향형 부속 T3x30 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40709,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			150
+		},
+		{
+			2,
+			30113,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40710] = {
+	display = "패키지 구매 시 코어 데이터x300, 지향형 부속 T3x60 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40710,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi5",
+	display_icon = {
+		{
+			2,
+			59900,
+			300
+		},
+		{
+			2,
+			30113,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40711] = {
+	display = "패키지 구매 시 지향형 부속 T4x5, 함대 코인x300 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40711,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			1,
+			8,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40712] = {
+	display = "패키지 구매 시 지향형 부속 T4x15, 함대 코인x800 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40712,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi6",
+	display_icon = {
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			1,
+			8,
+			800
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40713] = {
+	display = "패키지 구매 시 시제형 부린 MKIIx1, 가구 코인x100 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40713,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40714] = {
+	display = "패키지 구매 시 시제형 부린 MKIIx2, 가구 코인x300 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40714,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi7",
+	display_icon = {
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			1,
+			6,
+			300
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40715] = {
+	display = "패키지 구매 시 공훈x2000, 정어리 파이x6 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40715,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi8",
+	display_icon = {
+		{
+			1,
+			3,
+			2000
+		},
+		{
+			2,
+			50005,
+			6
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40716] = {
+	display = "패키지 구매 시 공훈x4000, 풀 코스 요리x3 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40716,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi8",
+	display_icon = {
+		{
+			1,
+			3,
+			4000
+		},
+		{
+			2,
+			50006,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40717] = {
+	display = "패키지 구매 시 명예 훈장x80, 연료x500 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40717,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			80
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40718] = {
+	display = "패키지 구매 시 명예 훈장x200, 연료x1000 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40718,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi9",
+	display_icon = {
+		{
+			2,
+			15001,
+			200
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40719] = {
+	display = "패키지 구매 시 특수 장비 코어x5, 특수 장비 강화석 T2x15 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40719,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			5
+		},
+		{
+			2,
+			15016,
+			15
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40720] = {
+	display = "패키지 구매 시 특수 장비 코어x10, 특수 장비 강화석 T3x3 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40720,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi10",
+	display_icon = {
+		{
+			2,
+			15014,
+			10
+		},
+		{
+			2,
+			15017,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40721] = {
+	display = "패키지 구매 시 냥박스 SSR형x1, 냥박스 가속 아이템x120 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40721,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			1
+		},
+		{
+			2,
+			20010,
+			120
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40722] = {
+	display = "패키지 구매 시 냥박스 SSR형x2, 냥박스 가속 아이템x240 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40722,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi11",
+	display_icon = {
+		{
+			2,
+			20013,
+			2
+		},
+		{
+			2,
+			20010,
+			240
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40723] = {
+	display = "패키지 구매 시 고급 지향형 강화 유닛·제4기x2, 연료x500 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40723,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi12",
+	display_icon = {
+		{
+			2,
+			42036,
+			2
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40724] = {
+	display = "패키지 구매 시 고급 지향형 강화 유닛·제4기x4, 연료x1000 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40724,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi12",
+	display_icon = {
+		{
+			2,
+			42036,
+			4
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40725] = {
+	display = "패키지 구매 시 장비 개발 물자 상자 T2x20, 장비 개발 물자 상자 T3x5 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40725,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi13",
+	display_icon = {
+		{
+			2,
+			150001,
+			20
+		},
+		{
+			2,
+			150002,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40726] = {
+	display = "패키지 구매 시 장비 개발 물자 상자 T3x10, 개발 도면 SSR형x4 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40726,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi13",
+	display_icon = {
+		{
+			2,
+			150002,
+			10
+		},
+		{
+			2,
+			30914,
+			4
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40727] = {
+	display = "패키지 구매 시 고효율 작전 명령서x10, 연료x500 획득 가능",
+	name = "복귀 보급 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40727,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuwuzi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			10
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40728] = {
+	display = "패키지 구매 시 고효율 작전 명령서x20, 연료x1000 획득 가능",
+	name = "복귀 호화 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40728,
+	is_world = 0,
+	icon = "ChargeIcon/huiliuzuanshi14",
+	display_icon = {
+		{
+			2,
+			61001,
+			20
+		},
+		{
+			1,
+			2,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40902] = {
 	display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2019 다이아, 성정 유닛 50개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
 	name = "아카시 패키지",
@@ -19687,6 +20593,103 @@ _G.pg.base.item_data_statistics[40920] = {
 			1,
 			6,
 			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40921] = {
+	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
+	name = "복귀 패키지",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40921,
+	is_world = 0,
+	icon = "Props/support6",
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			200
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		},
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			2,
+			30113,
+			60
+		},
+		{
+			1,
+			3,
+			20000
+		},
+		{
+			2,
+			59900,
+			1000
 		}
 	},
 	price = {},
@@ -170782,6 +171785,27 @@ _G.pg.base.item_data_statistics[59615] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59616] = {
+	display = "「복귀 이벤트」에서 점수를 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
+	name = "작전 점수",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 6,
+	link_id = 0,
+	id = 59616,
+	is_world = 0,
+	icon = "Props/xinhuiliupt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59621] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -179606,6 +180630,153 @@ _G.pg.base.item_data_statistics[60268] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[60269] = {
+	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60269,
+	is_world = 0,
+	icon = "props/draw_a",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60270] = {
+	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60270,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60271] = {
+	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60271,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60272] = {
+	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60272,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60273] = {
+	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60273,
+	is_world = 0,
+	icon = "props/draw_e",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60274] = {
+	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60274,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60275] = {
+	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4574,
+	id = 60275,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "대함대 작전 대미지 수치. 대함대 보스 대미지 결산용",
 	name = "대미지 수치",
@@ -182864,6 +184035,48 @@ _G.pg.base.item_data_statistics[150003] = {
 		{
 			2,
 			18123,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[150004] = {
+	display = "랜덤으로 아래 META 함선 강화 자재를 입수할 수 있습니다.",
+	name = "랜덤 META 함선 강화 자재",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 150004,
+	is_world = 0,
+	icon = "Props/150004",
+	display_icon = {
+		{
+			2,
+			21101,
+			1
+		},
+		{
+			2,
+			21111,
+			1
+		},
+		{
+			2,
+			21121,
+			1
+		},
+		{
+			2,
+			21131,
 			1
 		}
 	},
