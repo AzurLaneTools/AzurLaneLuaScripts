@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"炼金术师与秘密遗迹群岛-日常篇\n\n<size=45>二 神奇的炼金术！</size>",
+					"The Alchemist and the Archipelago of Secrets - Peaceful Port Days\n\n<size=45>2 Amazing Alchemy</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			bgm = "ryza-12",
-			say = "港区·莱莎的炼金工房（暂设）",
+			say = "Port - Ryza's (Temporary) Atelier",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在惊心动魄的冒险结束之后，生活又恢复了平静的日常。",
+			say = "Now that that rollercoaster of an adventure is over, peace and quiet has slowly but surely returned to port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "听说回家的装置似乎还要维修一段时间……",
+			say = "I guess it'll be a while before we'll have the portal device back to our world up and running again...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "不过这里的指挥官真是大方啊，不但免费提供了房间，而且只要去港区食堂的话吃饭也是免费……",
+			say = "But until then, at least we have roofs over our heads and three meals a day, courtesy of the port cafeteria and the Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "王都也有炼金工房和咖啡，不过在这里竟然也不用担心衣食住行和工房的事，真是太好了～",
+			say = "I've gotten used to not having to worry about rent and the like, and I'm just glad that's not about to change.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "呼呼呼，今天用炼金术调合些什么好呢♪——",
+			say = "Aaanyway, let's see what we can synthesize today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:/battle/hit/cirt",
 			typewriter = {
 				speed = 0.05,
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嗯？是有客人么？请进————",
+			say = "Hmm? Customers? Come in, it's unlocked!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "莱莎，打扰了~",
+			say = "Heyo, Ryza! Good seeing you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "打扰了！",
+			say = "Hope we don't come at a bad time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎来到莱莎的炼金工房（暂设），两位和阿尔弗雷多一样都是撒丁帝国的同伴吧？",
+			say = "Welcome to my (temporary) atelier, Alfredo! I don't think I've met your friends before. Are they your fellow Sardegnians?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没错没错~我是达·芬奇，旁边的是托里拆利。",
+			say = "Bingo! I'm Leonardo da Vinci, and this here is Torricelli.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "嗯……莱莎小姐，你好……",
+			say = "Hehe, hehehe... Nice meeting you, Ryza...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "托里拆利小姐你好——哇啊……！",
+			say = "Nice meeting you too! ...Whoa, are you okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "看起来一副严重睡眠不足的样子，托里拆利小姐你没事吧！",
+			say = "You look like you haven't slept for days, and you're staggering about the place...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "啊哈哈……不用担心我，我一直就是这样的状态……",
+			say = "Hehehe... Don't worry about it... It's just how I look...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "比起这个，炼金术士小姐，让我们开始工作吧……",
+			say = "Besides, we've got work to do, Miss Alchemist...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "好啊~不过工作是指……？",
+			say = "Work? What work?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "欸？阿尔弗雷多昨天没有跟你说么？",
+			say = "The bombs, remember? Didn't Alfredo tell you yesterday?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊？！这个不应该是达·芬奇来说么……？",
+			say = "Me?! I thought you were gonna tell her, Teach!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "……我理解现状了，其实我们今天过来是有一件事想拜托莱莎小姐……",
+			say = "It's no wonder Ryza doesn't know... Hehehe... See, we wanted to ask you for a favor...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嗯嗯嗯……原来如此，为了开发温泉，需要威力很大的炸弹对吧！",
+			say = "Hmm, I see. So you need some really powerful bombs to clear some rocks and build a hot spring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没错，那里的岩石十分坚硬，需要相当威力的炸弹才行。",
+			say = "Yup. The rocks are apparently stupidly sturdy, so we need a big boom to get rid of 'em.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "我想想……也许有一个可行的超强力炸弹配方……",
+			say = "Makes sense. I think I know just the synthesis recipe to make something like that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嘿嘿，最近来了之后看到了很多新素材也有了新灵感，正好想做点什么……嗯，就拿这个试试吧！",
+			say = "Besides, I've wanted to make something out of the heaps of new ingredients I've discovered since I arrived here... So that's what I'm gonna do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嗯…强力的炸弹的话…要用的素材是……",
+			say = "Let's see here... Ingredients to make powerful bombs...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "莱莎拿起一张便签纸，在上面飞快地写了一串名字。",
+			say = "Ryza places a sheet of paper on her desk and starts writing on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "看啊，达·芬奇、托里拆利，这就是炼金术配方！",
+			say = "Whoa, did you see that? That's how an alchemist comes up with a recipe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这就是炼金术配方……简直像某种咒文一样……",
+			say = "This is crazy... Looks almost like some sort of magic incantation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "用这些材料相互反应真的可以做出炸弹么……？",
+			say = "So... the things you wrote down can make bombs if they resonate with each other...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "可以哦！",
+			say = "Probably!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "不过现在工坊刚刚成立，还没收集过素材，可以拜托大家跟我一起去找么！",
+			say = "Only problem is, I don't have any ingredients yet since I just set up my atelier. On that note, wanna come with me and look for some?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算还没记住素材的名字，依靠描述应该也能找到对应素材的！",
+			say = "While I haven't memorized all the names you use for them yet, I'm sure we'll find most ingredients based on descriptions and stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "当然没问题，原本就是我们先来麻烦你的。",
+			say = "Sure, we'll come along. You're doing us a favor, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "向导就包在我身上吧，没有人比我更熟悉港区周边的各种隐秘地点了√",
+			say = "And if you need a guide, I'm your girl! Nobody knows the port's secret spots like I do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "顺便也让托里拆利见一见阳光~我们这就出发吧？",
+			say = "This is a good chance to make Torricelli catch some sunlight, too. Why don't we head out right away?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "这一切都是为了能见识到炼金术的牺牲……",
+			say = "Ugh... All my sacrifices are in the name of learning alchemy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			stopbgm = true,
-			say = "在四人的不懈努力下，制作炸弹所需要的材料收集完成了。",
+			say = "After a lot of hard work, the girls manage to gather the ingredients needed to – hopefully – make bombs.",
 			bgm = "ryza-1",
 			typewriter = {
 				speed = 0.05,
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "哈啊……在外面活动果然是一件让人讨厌的事情啊……",
+			say = "*pant pant*... I hate going outside...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "各位辛苦了！接下来就看我的炼金术吧！",
+			say = "Nice work, everyone! Now it's finally time to do alchemy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "莱莎把刚刚收集到的材料倒入了那口巨大的炼金釜中，开始搅拌起来。",
+			say = "Ryza puts all the ingredients in her huge cauldron and starts mixing them together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于要开始了……神秘的炼金术……",
+			say = "Hehe, hehehehehe... So this is the secret to alchemy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -810,7 +810,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "托里拆利，站远一点……我感觉有什么不得了的东西要出现了！",
+			say = "Get back, Torricelli! I've got a feeling this is not gonna work out the way we hope!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -828,7 +828,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "没错没错~！就是这种感觉！要做出很厉害的东西了！",
+			say = "Oh yeah! I know this vibe! This synthesis is gonna be a good one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			side = 2,
-			say = "伴随着嘭的一声，炼金釜中散发出了奇异的光芒。",
+			say = "Then, with a bang, the cauldron releases a bewildering light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,7 +872,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，做到了！",
+			say = "Bingo! It's done!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,7 +890,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这个可是，一看就让人能感觉到这是个相当危险的东西呢……",
+			say = "Geesh. That looked like it was gonna end in disaster...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -908,7 +908,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "明明看起来毫不相关的材料，却能变成意想不到的东西，其中究竟蕴含着何种科学原理……",
+			say = "You took a bunch of random ingredients and combined them into something else entirely... Alchemy is like witchcraft to me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,7 +926,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "哼哼，只要用炼金术的话什么都能做出来哦！不对，好像有点说的太过了……",
+			say = "Heheh! Yup, you can use it to make anything! Okay, maybe not literally anything, but it's pretty close.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "炸弹只要这么多就可以了么？",
+			say = "So, do you reckon this is all the bombs you'll need?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -961,7 +961,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "唔……就算威力足够大恐怕也不够用。请稍等，我再去按照配方收集一些材料来！",
+			say = "Hmm... They look strong enough, but we could use some more just to be safe. Wait here, I'll get some more ingredients!",
 			painting = {
 				alpha = 0.3,
 				time = 1

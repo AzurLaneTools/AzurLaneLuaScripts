@@ -666,23 +666,23 @@ pg.skill_data_display = {
 	},
 	[60210] = {
 		id = 60210,
-		name = "Infinite Explosion"
+		name = "Soulstealer's Engraving"
 	},
 	[60211] = {
 		id = 60211,
-		name = "Infinite Explosion"
+		name = "Soulstealer's Engraving"
 	},
 	[60220] = {
 		id = 60220,
-		name = "Evasion Up"
+		name = "Infinite Explosion"
 	},
 	[60221] = {
 		id = 60221,
-		name = "Evasion Up"
+		name = "Infinite Explosion"
 	},
 	[60222] = {
 		id = 60222,
-		name = "Evasion Up"
+		name = "Core Drive - Testament Meteor"
 	},
 	[60230] = {
 		id = 60230,
@@ -8346,7 +8346,7 @@ pg.skill_data_display = {
 	},
 	[109141] = {
 		id = 109141,
-		name = "Spirit Gift"
+		name = "Gained Wood Element"
 	},
 	[109150] = {
 		id = 109150,

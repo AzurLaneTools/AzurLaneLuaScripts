@@ -14563,7 +14563,7 @@ _G.pg.base.item_data_statistics[30339] = {
 }
 
 _G.pg.base.item_data_statistics[30340] = {
-	display = "Contains a random gear skin.",
+	display = "Contains a random Alchemist's Workshop-themed gear skin.",
 	name = "Gear Skin Box (Atelier Ryza)",
 	max_num = 0,
 	type = 11,
@@ -14678,7 +14678,7 @@ _G.pg.base.item_data_statistics[30340] = {
 }
 
 _G.pg.base.item_data_statistics[30341] = {
-	display = "Contains a random gear skin.",
+	display = "Contains a random Alchemist's Workshop-themed gear skin.",
 	name = "Random Gear Skin Box (Atelier Ryza)",
 	max_num = 0,
 	type = 13,
@@ -16614,8 +16614,8 @@ _G.pg.base.item_data_statistics[30513] = {
 }
 
 _G.pg.base.item_data_statistics[30514] = {
-	display = "Can be opened to receive 1 白鹰 gear skin of your choosing.",
-	name = "Selection Gear Skin Box (白鹰)",
+	display = "Can be opened to receive 1 Eagle Union Staples gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Eagle Union)",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -167431,7 +167431,7 @@ _G.pg.base.item_data_statistics[58733] = {
 }
 
 _G.pg.base.item_data_statistics[58734] = {
-	display = "Chance to receive following designs",
+	display = "Chance to receive following ships from this stage",
 	name = "Mystery Ship",
 	max_num = 0,
 	type = 99,
@@ -168678,7 +168678,7 @@ _G.pg.base.item_data_statistics[58749] = {
 }
 
 _G.pg.base.item_data_statistics[58750] = {
-	display = "Contains a random Alchemist's Workshop-themed gear skin.",
+	display = "Chance to receive following gear skins",
 	name = "Random Gear Skin Box (Atelier Ryza)",
 	max_num = 0,
 	type = 99,
@@ -173244,7 +173244,7 @@ _G.pg.base.item_data_statistics[59295] = {
 }
 
 _G.pg.base.item_data_statistics[59296] = {
-	display = "A currency earned from completing Cruise Missions during the seasonal campaign (12/1/2022 – 1/31/2022), used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign (12/1/2022 – 1/31/2023), used to obtain milestone rewards. Will disappear after the campaign season ends.",
 	name = "Progress Point",
 	max_num = 0,
 	type = 0,
@@ -174319,8 +174319,8 @@ _G.pg.base.item_data_statistics[59360] = {
 }
 
 _G.pg.base.item_data_statistics[59363] = {
-	display = "Used to exchange for items in \"The Alchemist and the Archipelago of Secrets.\" Will be removed after the event ends. ",
-	name = "Crystal Cluster",
+	display = "A token of recognition earned from completing requests on the \"Request Board.\" Will be removed when the collab event ends.",
+	name = "Port Reputation",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -174341,7 +174341,7 @@ _G.pg.base.item_data_statistics[59363] = {
 
 _G.pg.base.item_data_statistics[59364] = {
 	display = "A token of recognition earned from completing requests. Will be removed when the collab event ends.",
-	name = "Port Reputation",
+	name = "Crystal Cluster",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,

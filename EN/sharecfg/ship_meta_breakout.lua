@@ -64,7 +64,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701021] = {
-		breakout_view = "Learn Cinders of Hope - Fortune/Main gun efficiency +5%",
+		breakout_view = "Learn Cinders of Hope - Fortune/Main Gun efficiency +5%",
 		gold = 500,
 		breakout_id = 9701022,
 		repair = 0,

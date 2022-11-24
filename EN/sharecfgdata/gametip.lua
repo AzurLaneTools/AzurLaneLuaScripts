@@ -10172,7 +10172,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Reisalin Stout,Patricia Abelheim and more!"
+	tip = "Rate UP for Reisalin Stout, Patricia Abelheim and more!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -20379,7 +20379,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 _G.pg.base.gametip.battlepass_main_tip_2212 = {
-	tip = "Complete Cruise Missions between 12/1/2022 00:00 – 1/31/2023 23:59 to receive <color=#854748>Fortune META META</color> and other rewards!"
+	tip = "Complete Cruise Missions between 12/1/2022 00:00 – 1/31/2023 23:59 to receive <color=#854747>Fortune META</color> and other rewards!"
 }
 
 _G.pg.base.gametip.battlepass_main_help_2212 = {
@@ -20392,7 +20392,7 @@ Cruise Missions Seasonal Campaign
 - Overview -
 "Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
 Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
-Fortune META META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Cleveland, "Southbound Journey"
+Fortune META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Cleveland, "Southbound Journey"
 
 - How to Play -
 · Two types of missions will be released at the same time at the start of the campaign season:
@@ -21940,7 +21940,7 @@ _G.pg.base.gametip.ryza_word_equip = {
 }
 
 _G.pg.base.gametip.ryza_rest_produce_count = {
-	tip = "Synthesis Attempts:"
+	tip = "Synthesis Attempts: $1"
 }
 
 _G.pg.base.gametip.ryza_composite_confirm = {
@@ -22040,9 +22040,9 @@ _G.pg.base.gametip.ryza_tip_main = {
 		{
 			info = [[
 Event Info:
-The limited collab event, ""The Alchemist and the Archipelago of Secrets,"" is available from <color=#92fc63>11/24 to 12/7</color>!
+The limited collab event, "The Alchemist and the Archipelago of Secrets," is available from <color=#92fc63>11/24 to 12/7</color>!
 1. Clear event stages to obtain Crystal Clusters, which can be exchanged for great rewards. You'll also receive milestone rewards for collecting lots of Crystal Clusters.
-2. Play the ""Operation Hot Spring"" minigame for a total of 7 days to obtain the <color=#92fc63>Small Hot Spring</color> limited furniture, as well as exclusive collab gear skins.
+2. Play the "Operation Hot Spring" minigame for a total of 7 days to obtain the <color=#92fc63>Small Hot Spring</color> limited furniture, as well as exclusive collab gear skins.
 3. Request Board: During the event, you will be able to take on a variety of different requests. Complete them to obtain <color=#92fc63>special Synthesis materials</color> as well as limited furniture! Furthermore, completing a certain number of requests will grant buffs to your fleets during the event period!
 New requests will be posted every day until 11/30.
 4. Synthesis: During the event, convert the materials obtained from Gathering Sites and completing Requests into brand new items using the Synthesis system! Follow recipes to create great items such as <color=#92fc63>exclusive commemorative furniture</color>, <color=#92fc63>unique collab gear</color>, and <color=#92fc63>Augment Modules for collab characters</color>!
@@ -22053,7 +22053,7 @@ New requests will be posted every day until 11/30.
 }
 
 _G.pg.base.gametip.battle_levelScene_ryza_lock = {
-	tip = "Gathering Site stages will unlock after clearing T5 - The Home Stretch."
+	tip = "Gathering Site stages will unlock after clearing <color=#92fc63>T5 - The Home Stretch</color>."
 }
 
 _G.pg.base.gametip.ryza_tip_toast_item_got = {
@@ -22163,11 +22163,11 @@ _G.pg.base.gametip.ryza_mini_game = {
 }
 
 _G.pg.base.gametip.ryza_task_level_desc = {
-	tip = "Reputation "
+	tip = "Rep. "
 }
 
 _G.pg.base.gametip.ryza_task_tag_explore = {
-	tip = "Expl. "
+	tip = "Expl."
 }
 
 _G.pg.base.gametip.ryza_task_tag_battle = {
@@ -22175,11 +22175,11 @@ _G.pg.base.gametip.ryza_task_tag_battle = {
 }
 
 _G.pg.base.gametip.ryza_task_tag_dalegate = {
-	tip = "Comm. "
+	tip = "Comm."
 }
 
 _G.pg.base.gametip.ryza_task_tag_develop = {
-	tip = "Res. "
+	tip = "Res."
 }
 
 _G.pg.base.gametip.ryza_task_detail_content = {

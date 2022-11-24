@@ -12974,7 +12974,7 @@ pg.expedition_data_by_map = {
 	},
 	[1690002] = {
 		map = 1690002,
-		name = "The Archipelago of Secrets·Gathering Site|| ||CHAPTER EX||E.X.",
+		name = "The Archipelago of Secrets - Gathering Site|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13018,7 +13018,7 @@ pg.expedition_data_by_map = {
 	},
 	[1690003] = {
 		map = 1690003,
-		name = "The Archipelago of Secrets·SP|| ||CHAPTER EX||E.X.",
+		name = "The Archipelago of Secrets - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -13062,7 +13062,7 @@ pg.expedition_data_by_map = {
 	},
 	[1690004] = {
 		map = 1690004,
-		name = "The Archipelago of Secrets·EX|| ||CHAPTER EX||E.X.",
+		name = "The Archipelago of Secrets - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

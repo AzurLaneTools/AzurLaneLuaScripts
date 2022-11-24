@@ -61586,7 +61586,7 @@ _G.pg.base.ship_skin_words[10900010] = {
 				1090002
 			},
 			1,
-			" I'm glad we get to go on another adventure together, Klaudia!",
+			"I'm glad we get to go on another adventure together, Klaudia!",
 			0
 		},
 		{
@@ -61594,7 +61594,7 @@ _G.pg.base.ship_skin_words[10900010] = {
 				1090004
 			},
 			1,
-			" I'm counting on you, Lila!",
+			"I'm counting on you, Lila!",
 			0
 		},
 		{
@@ -61602,7 +61602,7 @@ _G.pg.base.ship_skin_words[10900010] = {
 				1090003
 			},
 			1,
-			" Patty, how've you been?",
+			"Patty, how've you been?",
 			0
 		}
 	}
@@ -61679,7 +61679,7 @@ _G.pg.base.ship_skin_words[10900020] = {
 				1090001
 			},
 			1,
-			" I'm so happy to see you again, Ryza!",
+			"I'm so happy to see you again, Ryza!",
 			0
 		},
 		{
@@ -61687,7 +61687,7 @@ _G.pg.base.ship_skin_words[10900020] = {
 				1090004
 			},
 			1,
-			" Miss Lila, I'll support you!",
+			"Miss Lila, I'll support you!",
 			0
 		},
 		{
@@ -61695,7 +61695,7 @@ _G.pg.base.ship_skin_words[10900020] = {
 				1090005
 			},
 			1,
-			" I'll let you know if I find anything, Miss Serri.",
+			"I'll let you know if I find anything, Miss Serri.",
 			0
 		}
 	}
@@ -61772,7 +61772,7 @@ _G.pg.base.ship_skin_words[10900030] = {
 				1090001
 			},
 			1,
-			" New place, same old Miss Ryza.",
+			"New place, same old Miss Ryza.",
 			0
 		},
 		{
@@ -61780,7 +61780,7 @@ _G.pg.base.ship_skin_words[10900030] = {
 				1090004
 			},
 			1,
-			" So this is how Oren warriors fight...",
+			"So this is how Oren warriors fight...",
 			0
 		},
 		{
@@ -61788,7 +61788,7 @@ _G.pg.base.ship_skin_words[10900030] = {
 				1090005
 			},
 			1,
-			" You know, Miss Serri's age... Eep! Nevermind!",
+			"You know, Miss Serri's age... Eep! Nevermind!",
 			0
 		}
 	}
@@ -61865,7 +61865,7 @@ _G.pg.base.ship_skin_words[10900040] = {
 				1090001
 			},
 			1,
-			" I'll handle this, Ryza!",
+			"I'll handle this, Ryza!",
 			0
 		},
 		{
@@ -61873,7 +61873,7 @@ _G.pg.base.ship_skin_words[10900040] = {
 				1090003
 			},
 			1,
-			" You're in good form, Patricia.",
+			"You're in good form, Patricia.",
 			0
 		},
 		{
@@ -61881,7 +61881,7 @@ _G.pg.base.ship_skin_words[10900040] = {
 				1090005
 			},
 			1,
-			" Let us both fulfill our duties, Serri.",
+			"Let us both fulfill our duties, Serri.",
 			0
 		}
 	}
@@ -61958,7 +61958,7 @@ _G.pg.base.ship_skin_words[10900050] = {
 				1090004
 			},
 			1,
-			" I won't give up either, Lila.",
+			"I won't give up either, Lila.",
 			0
 		},
 		{
@@ -61966,7 +61966,7 @@ _G.pg.base.ship_skin_words[10900050] = {
 				1090003
 			},
 			1,
-			" Patricia, I expect you to keep my secret.",
+			"Patricia, I expect you to keep my secret.",
 			0
 		},
 		{
@@ -61974,7 +61974,7 @@ _G.pg.base.ship_skin_words[10900050] = {
 				1090002
 			},
 			1,
-			" Klaudia, have you seen any unusual plants?",
+			"Klaudia, have you seen any unusual plants?",
 			0
 		}
 	}
@@ -62051,7 +62051,7 @@ _G.pg.base.ship_skin_words[10900060] = {
 				1090001
 			},
 			1,
-			" A most curious alchemist you are, Ryza.",
+			"A most curious alchemist you are, Ryza.",
 			0
 		},
 		{
@@ -62059,7 +62059,7 @@ _G.pg.base.ship_skin_words[10900060] = {
 				1090004
 			},
 			1,
-			" Impressive, Whitefang comrade. How reliable!",
+			"Impressive, Whitefang comrade. How reliable!",
 			0
 		},
 		{
@@ -62067,7 +62067,7 @@ _G.pg.base.ship_skin_words[10900060] = {
 				1090005
 			},
 			1,
-			" I pray that your dream becomes reality, Serri.",
+			"I pray that your dream becomes reality, Serri.",
 			0
 		}
 	}

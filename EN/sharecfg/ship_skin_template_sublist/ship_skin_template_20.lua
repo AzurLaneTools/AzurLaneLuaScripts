@@ -2820,7 +2820,7 @@ pg.ship_skin_template_20 = {
 	},
 	[10900010] = {
 		ship_group = 1090001,
-		name = "ReisalinStout",
+		name = "Reisalin Stout",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",

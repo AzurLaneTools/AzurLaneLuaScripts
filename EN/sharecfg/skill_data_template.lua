@@ -9176,7 +9176,7 @@ pg.skill_data_template = {
 		id = 60130,
 		type = 0,
 		max_level = 0,
-		desc = "When equipped by Reisalin Stout: 10s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts a special Burn and the Item Mark debuff to enemies hit for 5s. If equipped in the second gear slot: the character equipping this gear's Torpedo is replaced with a Special Torpedo (attacks from this Torpedo are not treated as Item attacks).",
+		desc = "When equipped by Reisalin Stout: 10s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts a special Burn and the Item Mark debuff to enemies hit for 5s. If equipped in the second gear slot: the character equipping this gear gains a special Secondary Gun (attacks from this Secondary Gun are not treated as Item attacks).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -9204,7 +9204,7 @@ pg.skill_data_template = {
 		id = 60150,
 		type = 0,
 		max_level = 0,
-		desc = "When equipped by Reisalin Stout: 20s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts the Item Mark debuff to enemies hit for 5s and decreases their Crit Rate by 10.0% for 5s. If equipped in the third gear slot: the character equipping this gear's Anti-Air Gun is replaced with a Special Anti-Air Gun (attacks from this Anti-Air Gun are not treated as Item attacks).",
+		desc = "When equipped by Reisalin Stout: 20s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts the Item Mark debuff to enemies hit for 5s and decreases their Crit Rate by 10.0% for 5s. If equipped in the third gear slot: the character equipping this gear gains a special Anti-Air Gun (attacks from this Anti-Air Gun are not treated as Item attacks).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -9284,7 +9284,7 @@ pg.skill_data_template = {
 	},
 	[60210] = {
 		desc_get = "",
-		name = "Infinite Explosion",
+		name = "Soulstealer's Engraving",
 		id = 60210,
 		type = 0,
 		max_level = 0,
@@ -9298,7 +9298,7 @@ pg.skill_data_template = {
 	},
 	[60220] = {
 		desc_get = "",
-		name = "Evasion Up",
+		name = "Infinite Explosion",
 		id = 60220,
 		type = 0,
 		max_level = 0,
@@ -92606,7 +92606,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109040,
 		type = 1,
 		max_level = 10,
-		desc = "Every 4 times this ship fires her Main Guns: this ship gains 10 AP. Increases this ship's FP, AA, and EVA by $1. The second time this ship's \"Shining Blast\" skill activates, activates \"Fatal Drive - Grand Chariot\" $2 (DMG is based on the level of this shi",
+		desc = "Every 4 times this ship fires her Main Guns: this ship gains 10 AP. Increases this ship's FP, AA, and EVA by $1. The second time this ship's \"Shining Blast\" skill activates, activates \"Fatal Drive - Grand Chariot\" $2 (DMG is based on the level of this ship's \"Grand Chariot\" skill).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -92773,7 +92773,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109060,
 		type = 2,
 		max_level = 10,
-		desc = "When the battle starts: this ship gains 10 AP, all ships in your fleet recover $1 of their max HP, and all your \"Atelier Ryza\" collab characters recover an additional 2.0% of their max HP. When this ship launches an Airstrike: your Vanguard recovers $2 of",
+		desc = "When the battle starts: this ship gains 10 AP, all ships in your fleet recover $1 of their max HP, and all your \"Atelier Ryza\" collab characters recover an additional 2.0% of their max HP. When this ship launches an Airstrike: your Vanguard recovers $2 of their max HP and all your \"Atelier Ryza\" collab characters recover an additional 2.0% of their max HP. Once per battle, when a ship in your fleet falls below 30.0% max HP as a result of DMG taken: this ship gains 10 AP and that ship recovers $3 of her max HP.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -93091,7 +93091,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109090,
 		type = 1,
 		max_level = 10,
-		desc = "When this ship fires her Main Guns, if this ship has 10 or more AP: consumes 10 AP and activates \"Red Flame Slash\" $1 (DMG is based on the skill's level). The slashing part of this attack always deals Critical DMG; this ship recovers HP equal to $2 of the",
+		desc = "When this ship fires her Main Guns, if this ship has 10 or more AP: consumes 10 AP and activates \"Red Flame Slash\" $1 (DMG is based on the skill's level). The slashing part of this attack always deals Critical DMG; this ship recovers HP equal to $2 of the DMG dealt to the enemy.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -93197,7 +93197,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109100,
 		type = 3,
 		max_level = 10,
-		desc = "Increases this ship's EVA by $2. Increases this ship's DMG dealt (by up to 20.0%) the lower her current HP is. Increases \"Atelier Ryza\" collab characters' Crit Rate by $1 against enemies who have been Item Marked. The first time one of your Main Fleet \"At",
+		desc = "Increases this ship's EVA by $2. Increases this ship's DMG dealt (by up to 20.0%) the lower her current HP is. Increases \"Atelier Ryza\" collab characters' Crit Rate by $1 against enemies who have been Item Marked. The first time one of your Main Fleet \"Atelier Ryza\" collab characters use an AP-consuming skill: increases that skill's power.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -93531,7 +93531,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109140,
 		type = 2,
 		max_level = 10,
-		desc = "Your \"Atelier Ryza\" collab characters take $1 less cannon and torpedo DMG from enemies who have been Item Marked. When an AP-consuming skill activates, or when this ship launches an Airstrike: this ship gains 1 stack of Wood Element (only 1 Wood Element c",
+		desc = "Your \"Atelier Ryza\" collab characters take $1 less cannon and torpedo DMG from enemies who have been Item Marked. When an AP-consuming skill activates, or when this ship launches an Airstrike: this ship gains 1 stack of Wood Element (only 1 Wood Element can be gained per second; up to 5 stacks can be stored). Increases this ship's DMG dealt by $2 and decreases her DMG taken by 1.0% for each stack of Wood Element.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -93698,7 +93698,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109160,
 		type = 1,
 		max_level = 10,
-		desc = "When this ship launches an Airstrike: this ship gains 5 AP. Increases this ship's AVI by 5.0% and AA by $1. Once per battle, when this ship has gained 5 stacks of Wood Element: resets all stacks and activates \"Fatal Drive - Eternity Bloom\" $2 (DMG is base",
+		desc = "When this ship launches an Airstrike: this ship gains 5 AP. Increases this ship's AVI by 5.0% and AA by $1. Once per battle, when this ship has gained 5 stacks of Wood Element: resets all stacks and activates \"Fatal Drive - Eternity Bloom\" $2 (DMG is based on the level of this ship's \"Eternity Bloom\" skill).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -93804,7 +93804,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109170,
 		type = 3,
 		max_level = 10,
-		desc = "When this ship fires her Main Guns, if this ship has 5 or more AP: consumes 5 AP and this ship gains a fire, ice, lightning, or wind Elemental Spirit (chosen randomly) and performs a $1 elemental attack of the corresponding element (5s cooldown between ac",
+		desc = "When this ship fires her Main Guns, if this ship has 5 or more AP: consumes 5 AP and this ship gains a fire, ice, lightning, or wind Elemental Spirit (chosen randomly) and performs a $1 elemental attack of the corresponding element (5s cooldown between activations).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -94032,7 +94032,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109200,
 		type = 1,
 		max_level = 10,
-		desc = "When this ship fires her Torpedoes: this ship gains 10 AP. Increases this ship's FP and TRP by $1. The fourth time this ship's \"Elemental Link\" skill activates: removes all Elemental Spirits and activates \"Fatal Drive - Einzelkampf\" $2 (DMG is based on th",
+		desc = "When this ship fires her Torpedoes: this ship gains 10 AP. Increases this ship's FP and TRP by $1. The fourth time this ship's \"Elemental Link\" skill activates: removes all Elemental Spirits and activates \"Fatal Drive - Einzelkampf\" $2 (DMG is based on the level of this ship's \"Einzelkampf\" skill).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -94138,7 +94138,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109210,
 		type = 1,
 		max_level = 10,
-		desc = "Every 6 times this ship fires her Secondary Gun, if she has 10 or more AP: consumes 10 AP and activates \"Dark Spirit\" $1. When the battle starts, if this ship is in the frontmost position of your Vanguard and there are other ships afloat in your Vanguard ",
+		desc = "Every 6 times this ship fires her Secondary Gun, if she has 10 or more AP: consumes 10 AP and activates \"Dark Spirit\" $1. When the battle starts, if this ship is in the frontmost position of your Vanguard and there are other ships afloat in your Vanguard when \"Dark Spirit\" activates: adds a Dark Element to the ship in the rearmost position; if this ship is NOT in the frontmost position when \"Dark Spirit\" activates: adds a Dark Element to the ship in the frontmost position. A ship with a Dark Element takes 50 DMG and deals $2 more DMG for 5s.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -94244,7 +94244,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 109220,
 		type = 2,
 		max_level = 10,
-		desc = "Increases this ship's AA and EVA by $1. When the battle starts, if this ship is in the frontmost position of your Vanguard and there are other ships afloat in your Vanguard: adds a Light Element to the ship in the rearmost position of your Vanguard whenev",
+		desc = "Increases this ship's AA and EVA by $1. When the battle starts, if this ship is in the frontmost position of your Vanguard and there are other ships afloat in your Vanguard: adds a Light Element to the ship in the rearmost position of your Vanguard whenever an Item attack hits an enemy; if this ship is NOT in the frontmost position: adds a Light Element to the ship in the frontmost position whenever an Item attack hits an enemy. A ship with a Light Element recovers 5.0% of her max HP. This skill has a 12s cooldown between activations.",
 		system_transform = {},
 		world_death_mark = {
 			1

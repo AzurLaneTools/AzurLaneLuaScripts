@@ -1075,7 +1075,7 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Obtained by gathering 10,000 Crystal Clusters. This item is required to make the Ruins Explorer Sculpture.",
-		name = "Crystal Cluster",
+		name = "Crystal Cluster Badge",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1330,7 +1330,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Sparkling Reverie Augment Module. Can be used in synthesis.",
+		display = "A core component of Augment Module - Sparkling Reverie. Can be used in synthesis.",
 		name = "Sparkling Reverie Module",
 		type = 3,
 		benefit_buff = "",
@@ -1357,7 +1357,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Astrumnox Augment Module. Can be used in synthesis.",
+		display = "A core component of Augment Module - Astrumnox. Can be used in synthesis.",
 		name = "Astrumnox Module",
 		type = 3,
 		benefit_buff = "",
@@ -1384,7 +1384,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Grand Floracion Augment Module. Can be used in synthesis.",
+		display = "A core component of Augment Module - Grand Floracion. Can be used in synthesis.",
 		name = "Grand Floracion Module",
 		type = 3,
 		benefit_buff = "",
@@ -1411,7 +1411,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Edel Schwert Augment Module. Can be used in synthesis.",
+		display = "A core component of Augment Module - Edel Schwert. Can be used in synthesis.",
 		name = "Edel Schwert Module",
 		type = 3,
 		benefit_buff = "",
@@ -1438,7 +1438,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Elder Lily Augment Module. Can be used in synthesis.",
+		display = "A core component of Augment Module - Elder Lily. Can be used in synthesis.",
 		name = "Elder Lily Module",
 		type = 3,
 		benefit_buff = "",
@@ -1465,7 +1465,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Oren Herald Augment Module. Can be used in synthesis.",
+		display = "A core component of Augment Module - Oren Herald. Can be used in synthesis.",
 		name = "Oren Herald Module",
 		type = 3,
 		benefit_buff = "",
@@ -1492,7 +1492,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Grand Bomb Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Grand Bomb. Can be used in synthesis.",
 		name = "Grand Bomb Module",
 		type = 3,
 		benefit_buff = "",
@@ -1518,7 +1518,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Crystal Ice Bomb Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Crystal Ice Bomb. Can be used in synthesis.",
 		name = "Crystal Ice Bomb Module",
 		type = 3,
 		benefit_buff = "",
@@ -1544,7 +1544,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Laute Plajig Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Laute Plajig. Can be used in synthesis.",
 		name = "Laute Plajig Module",
 		type = 3,
 		benefit_buff = "",
@@ -1570,7 +1570,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Wirbel Luft Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Wirbel Luft. Can be used in synthesis.",
 		name = "Wirbel Luft Module",
 		type = 3,
 		benefit_buff = "",
@@ -1596,7 +1596,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Genesis Hammer Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Genesis Hammer. Can be used in synthesis.",
 		name = "Genesis Hammer Module",
 		type = 3,
 		benefit_buff = "",
@@ -1623,7 +1623,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Bubble Bullet Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Bubble Bullet. Can be used in synthesis.",
 		name = "Bubble Bullet Module",
 		type = 3,
 		benefit_buff = "",
@@ -1650,7 +1650,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the N/A Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - N/A. Can be used in synthesis.",
 		name = "N/A Module",
 		type = 3,
 		benefit_buff = "",
@@ -1677,7 +1677,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Apocalypse Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Apocalypse. Can be used in synthesis.",
 		name = "Apocalypse Module",
 		type = 3,
 		benefit_buff = "",
@@ -1706,7 +1706,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Mystic Robe Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Mystic Robe. Can be used in synthesis.",
 		name = "Mystic Robe Module",
 		type = 3,
 		benefit_buff = "",
@@ -1733,7 +1733,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Elixir Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Elixir. Can be used in synthesis.",
 		name = "Elixir Module",
 		type = 3,
 		benefit_buff = "",
@@ -1760,7 +1760,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "A core component of the Energianica Augment Module. Can be used in synthesis.",
+		display = "A core component of Auxiliary Gear - Energianica. Can be used in synthesis.",
 		name = "Energianica Module",
 		type = 3,
 		benefit_buff = "",
