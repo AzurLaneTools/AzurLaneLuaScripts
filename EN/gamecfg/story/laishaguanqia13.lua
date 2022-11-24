@@ -15,7 +15,7 @@ return {
 			actor = 101490,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "锵锵锵~我的DATA-857已经成功完成任务了，第三把钥匙找到了哦！",
+			say = "Good news! Thanks to Data 857's hard work, the third key is now in our hands!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			side = 2,
-			say = "获得道具：「遗迹之钥·争斗之城」",
+			say = "Item obtained: Castle of Strife Key",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哇哦……不愧是英格拉罕，不容小觑啊！",
+			say = "Nice! Hats off to Ingraham's engineering!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "喂！这时候应该夸奖的是我布里斯托尔吧！",
+			say = "Hey, where's my praise? I did something too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900050,
-			say = "我们这里也有收获哦。给，莱莎。",
+			say = "We found something as well. Have a look, Ryza.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "这个是新的舰装的炼金配方？看上去……好像是帕蒂的诶！",
+			say = "This... looks like a new rigging recipe. Yeah, I think it's for Patty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？居然真的连我的也有么……会做成什么款式，稍微有些令人期待呢。",
+			say = "Huh? They really made one for me? Now I'm curious to see how it looks.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "咦，莉拉小姐和赛莉小姐是从哪里找到这份配方的？我的DATA-857在扫描的时候居然没有发现！",
+			say = "Wait, where'd you find that recipe? Nothing like that turned up on any of Data 857's scans.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "其实，在来到这里之后总感觉有些同胞的气息。刚才顺着这股气息搜寻的时候就找到了这个配方。",
+			say = "Ever since we arrived here, Serri and I have sensed the traces of Oren presence. We decided to follow the trail they'd left behind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是一个还基本保留着原形的庭院一样的地方，配方就直接放在那里，而不是在某个宝箱里面。",
+			say = "It led us to a comparatively typical garden, and that's where we found the recipe. It wasn't hidden in a chest, it was just lying there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "……难道这个遗迹跟欧兰族也有关系么？如果是这样的话，岂不是说欧兰族在很早以前就与塞壬接触过了？",
+			say = "You think the Oren have something to do with these ruins? Like maybe they made contact with the Sirens long, long ago?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "这也是我感觉到费解的地方。我并不记得以前有来过此地，或者有听过其他族人到过这里。",
+			say = "I seriously doubt that. Serri and I have never been here before, and neither has anyone else of our kind as far as we know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "也许是塞壬在复制这里的时候，不小心从数据库里把类似的东西混进去了吧？",
+			say = "Perhaps, when the Sirens recreated this place, they also incorporated data from the Oren in some way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "就和之前模仿你们家乡的森林和融合了菲尔弗萨的量产型一样。",
+			say = "After all, they did model areas after your birthplaces, and create mass-produced ships with elements of the Philuscha.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "感觉谜团又多了一分呢……",
+			say = "Sounds like we have another mystery to solve.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈……遗迹中的故事，也不是每次都一定能得到答案的呢。",
+			say = "Ahahah... I mean, nobody ever said we'd figure out ALL the ruins' mysteries in the end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "不，这就是最后一片拼图！结合现有的信息，伟大的调查员布里斯托尔已经得出结论了！",
+			say = "Quite the opposite, Alfredo – this is the final piece of the puzzle! Ace investigator Bristol has found the answer that explains everything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……欸？好厉害，靠这些零散的信息就能得出结论么？！",
+			say = "What? You've really figured it out with that little info to go on? That's amazing.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "你究竟发现了什么，布里斯托尔阁下！",
+			say = "By all means, let us hear the truth you've unearthed, Bristol!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哼哼哼，这件事就要从很久很久之前说起了~",
+			say = "Heheh! Hear it you shall! Lend me your ears, everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯嗯……",
+			say = "I'm listening.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "在很久很久以前，塞壬占据了这片海域，并在其基础上建造了自己的镜面海域与基地。",
+			say = "You see, a long time ago, the Sirens occupied this very sea and built a base. There they schemed, concocting evil plans...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "它们一直在这里进行着自己阴暗的计划，直到有一天，从天上落下了一颗陨石！",
+			say = "That is, until one day... when a meteorite came crashing down from the sky!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……陨石？",
+			say = "A... A meteorite?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "没错！一颗巨大的陨石从天而降，只用了一瞬间就摧毁了塞壬精心布置的基地！",
+			say = "Yes, a meteor! This colossal hunk of space debris leveled their entire base, undoing all their efforts in an instant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "塞壬就这样，在没有防备的时候一下子全部被摧毁了，也就是我们只见到了大量塞壬残骸的原因！",
+			say = "They had no way of defending themselves and were all wiped out. That is why their wrecks litter the whole area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "但如果真的是陨石所致的话，附近应该会有陨石坑才对，陨石坑又在哪里呢？",
+			say = "If a meteorite impact caused all this, shouldn't there be a crater where it struck?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "碑文上提到南方为失落之都！也就是说南方原本也是有一座小岛的，但是为什么我们什么都没看到？",
+			say = "The monument mentioned a Desolate Capital, remember? The text implies there was once an island to the south. Now, however, we can't see any trace of such a thing. The reason being...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "因为那座小岛已经因为受到陨石的直接撞击而沉入大海了！",
+			say = "The meteorite impact completely obliterated it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……虽然听起来有些不可思议，但是逻辑上居然能够自洽。",
+			say = "That's an extremely contrived theory... but all the pieces are there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "欧兰族和这件事又有什么关系呢？",
+			say = "If we assume you're correct, then where do the Oren fit into the picture?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是我觉得最有趣的部分~",
+			say = "Why, I'm glad you asked! That's the most interesting part.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "巨大陨石的撞击干扰了塞壬正在进行的实验，庞大的能量从被破坏的装置中泄露出来，生成了一道连通不同世界的门。",
+			say = "The meteorite impact caused a huge energy discharge from one of the Sirens' experimental machines on the site. By some freak accident, that discharge opened a portal to another dimension!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "而欧兰族的人就是这么被卷进来的！",
+			say = "And it's through that portal that the Oren were forcibly warped here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "原本正在做自己事情的她们对于突然被卷入不同世界的事感到很生气，于是消灭了剩下的塞壬。",
+			say = "Obviously, the Oren were furious about having been thrown into a foreign world, and they took out their rage on whatever Sirens survived the impact.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "因为欧兰族不喜欢炼金术士，所以把炼金配方扔得到处都是，然后留下了碑文，又通过门回去了！",
+			say = "Since we know they don't like alchemists, they scattered the recipes all over the place, erected a monument, and then went back to their home world!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "这就是过去发生的真相！",
+			say = "And that, ladies and younger ladies, is the truth that was buried here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "这部分好像有点勉强……就算是欧兰族，应该也没那么容易能够轻易战胜武装到牙齿的塞壬舰队。",
+			say = "I can see where you're coming from, but without riggings, I seriously doubt even the Oren could simply wipe out a fleet of Sirens armed to the teeth.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -766,7 +766,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "碑文和炼金配方的事好像也不太合理。如果说欧兰族扔下了炼金配方，那炼金配方原本是谁准备的呢？",
+			say = "The monument and alchemy recipe don't sit well with me, either. Even presuming that the Oren left them behind, who in the world could have prepared them beforehand?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "唔……看来这个假说还有不少需要完善的地方，等我再仔细思考一下哦~毕竟假说就是要等人去完善的嘛！",
+			say = "Urk… Okay, so my deductions are a little rough around the edges. Just let me think a little longer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "我有一个建议，在这片不知道什么时候就会发生爆炸的战场废墟上停留实在是太危险了……我们还是先回起始之地怎么样？",
+			say = "While we've put this conversation aside for this moment, why don't we return to the Land of Beginnings for the time being? This was a battlefield, so there's no telling what might explode at any given time. It would be dangerous to remain here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -821,7 +821,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "嗯，说得对，先回去好好休息，吃饱了肚子才有精力继续想~",
+			say = "Agreed! Let's go back and take a break! I need brain food and energy before I can put my thinking cap on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -839,7 +839,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "那就准备晚饭吧。之前作为炼金素材钓上来的鱼还有很多呢，要煮还是要烤随你们哦！",
+			say = "Sounds like a good time to eat. I've still got plenty of fish left over from alchemy. Cook it, broil it, the sky's the limit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好诶！烤鱼，烤鱼————",
+			say = "Hooray! Broiled fish, broiled fish!",
 			painting = {
 				alpha = 0.3,
 				time = 1

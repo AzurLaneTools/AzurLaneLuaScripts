@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_1",
 			stopbgm = true,
-			say = "傍晚时分，结束了水下迷宫探索的一行人带着满载而归的战利品返回了起始之地。",
+			say = "Come evening, the girls had returned from their search at the bottom of the sea, bringing with them plenty of spoils.",
 			bgm = "ryza-12",
 			flashout = {
 				black = true,
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_1",
 			side = 2,
-			say = "获得道具：「遗迹之钥·失落之都」",
+			say = "Item obtained: Desolate Capital Key",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "第四把钥匙，科洛蒂娅的舰装配方，还有大量各种各样的素材，真是大丰收~",
+			say = "The fourth key, a rigging recipe for Klaudia, and a whole load of ingredients to boot. What a haul!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "有种决战前突然获得了大量补给品的感觉呢。",
+			say = "It feels like they let us have all the supplies we could ask for before our final battle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "获得这么慷慨的收获，总感觉之后会有一场硬仗啊……",
+			say = "There must be a reason they're giving us all these handy items... We must be headed to an extremely tough final fight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊……现在钥匙都收集好了，剩下的就是去核心区了。",
+			say = "You betcha. At least now that we have all the keys, our next goal is clear - take the Central Foundation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "希望明天去的时候，核心区的火力能稍微弱一点……",
+			say = "Maybe this time their defenses won't shoot at us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "或许……收集完四把钥匙并不是谜题的全部……",
+			say = "Hmm... Something tells me that it's not smooth sailing from here on just because we got all the keys.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当时在进攻的路上我仔细观察了门，上面并没有能插入四把钥匙的地方。",
+			say = "Take the barrier, for instance. Where are we even supposed to stick these keys to disable it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "我觉得，也许应该是需要用四把钥匙再做出一个可以打开门的东西出来……",
+			say = "I wouldn't be surprised if we had to use the keys to make something completely new.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "我需要在工房里再思考一下，然后把科洛蒂娅的舰装也做出来。",
+			say = "Actually, I'll go back to my atelier and think it over for a bit. Oh, and synthesize Klaudia's rigging, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "大家可以先去休息不用在这里陪我哦，今天也辛苦了~！",
+			say = "You girls can stay here and rest for the time being. You deserve it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好哦~那我们就先去休息一下，顺便准备晚餐！",
+			say = "Gotcha. I'll just kick back for a while then start making dinner!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "呼呼呼，今晚就吃{namecode:175}阁下的储备好了，大家一起来一顿重樱风的料理！",
+			say = "Wonderful! I propose making use of Suruga's rations and cooking up some Sakura Empire cuisine tonight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "莱莎小姐也辛苦了，不知道科洛蒂娅小姐的舰装在完成后会是什么样子，真令人期待呢。",
+			say = "Great work today, Miss Ryza. I can't wait to see what Miss Klaudia's rigging looks like.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嗯~我马上就去做哦~",
+			say = "You won't have to wait for long!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			say = "一段时间后的海滩边——",
+			say = "A short while later, at the beach...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "科洛蒂娅，我做的舰装怎么样？有没有什么在意的地方？",
+			say = "How does the rigging feel, Klaudia? Anything look wrong with it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "完全没问题！谢谢你能做的这么漂亮，就像精美的艺术品一样！",
+			say = "Not at all, it's beautiful through and through! Almost like a piece of art. Thanks for making it for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嘿嘿…多亏了大家一起找到配方和素材嘛。",
+			say = "Heheh. The others deserve credit too for finding the recipe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "能写出配方的人也很厉害呢，居然能设计出这样兼顾美观与战斗力的装备。",
+			say = "As does whoever made these recipes. My hat's off to the person who came up with equipment that has both stellar form and function.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "是啊……",
+			say = "I agree, it's– Hey, is that a plane?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			say = "轰隆隆（飞机引擎声）——",
+			say = "WRRRRRR!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "这下，终于连科洛蒂娅也有舰装了。怎么样，我拜托可畏小姐把舰载机飞过来了哦，要不要试试？",
+			say = "Heh-heh, yes it is. Since you have your own rigging now, I went and asked Formidable if we could borrow one of her planes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "莱莎……！",
+			say = "Ryza, I... Wow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "反正之前看布里斯托尔和阿尔弗雷多玩得那么开心，我也按耐不住想试一试的冲动了。",
+			say = "Tell you the truth, after seeing Alfredo and Bristol having a great time, I wanna give it a try. Want to fly with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "我也……我也想试一试！",
+			say = "Yes! I'd love to!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "了解~那就拜托你了哦，可畏小姐。",
+			say = "Awesome! Alright, Formidable, we're good to go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "本次航班即将出航，请各位乘客系好安全带，在夕阳之中，尽情享受本次空中之旅吧——",
+			say = "Ahem... This is Captain Formidable of Royal Navy Airlines speaking. The airplane will take off momentarily. Please fasten your ropes and enjoy your flight through the golden evening sky.",
 			painting = {
 				alpha = 0.3,
 				time = 1

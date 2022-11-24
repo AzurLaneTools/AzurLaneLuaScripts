@@ -15,10 +15,10 @@ pg.ship_data_create_material = {
 		icon = "build_1",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Common：30%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%"
 		}
 	},
 	{
@@ -36,10 +36,10 @@ pg.ship_data_create_material = {
 		icon = "build_2",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：26%",
-			"Common：55%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 26%",
+			"Common: 55%"
 		}
 	},
 	{
@@ -57,10 +57,10 @@ pg.ship_data_create_material = {
 		icon = "build_3",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Common：30%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%"
 		}
 	},
 	{
@@ -112,10 +112,10 @@ pg.ship_data_create_material = {
 		icon = "build_5",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Common：30%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%"
 		}
 	},
 	{
@@ -133,10 +133,10 @@ pg.ship_data_create_material = {
 		icon = "build_6",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Common：30%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%"
 		}
 	},
 	{
@@ -154,10 +154,10 @@ pg.ship_data_create_material = {
 		icon = "build_7",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：26%",
-			"Common：55%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 26%",
+			"Common: 55%"
 		}
 	},
 	{
@@ -175,10 +175,10 @@ pg.ship_data_create_material = {
 		icon = "build_8",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Common：30%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%"
 		}
 	},
 	{
@@ -196,11 +196,11 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		exchange_ship_id = 0,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：26%",
-			"Common：55%",
-			"<color=#d797ff>Tartu</color>：1.4%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 26%",
+			"Common: 55%",
+			"<color=#d797ff>Tartu</color>: 1.4%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
@@ -218,23 +218,23 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		exchange_ship_id = 305101,
 		rate_tip = {
-			"<color=#ff5e39>Ultra Rare</color>：1.2%",
+			"<color=#ff5e39>Ultra Rare</color>: 1.2%",
 			"",
-			"<color=#ffde38>Super Rare</color>：7%",
+			"<color=#ffde38>Super Rare</color>: 7%",
 			"",
-			"<color=#d797ff>Elite</color>：12%",
+			"<color=#d797ff>Elite</color>: 12%",
 			"",
-			"<color=#3dc6ff>Rare</color>：51%",
+			"<color=#3dc6ff>Rare</color>: 51%",
 			"",
-			"Common：28.8%",
+			"Common: 28.8%",
 			"",
-			"<color=#ff5e39>Musashi</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>Musashi</color>: 1.2%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>Sakawa</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Sakawa</color>: 2%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>Wakatsuki</color>：0.5%",
+			"<color=#ffde38>Wakatsuki</color>: 0.5%",
 			"",
-			"<color=#d797ff>Haguro</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Haguro</color>: 2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
@@ -252,10 +252,10 @@ pg.ship_data_create_material = {
 		icon = "build_11",
 		exchange_ship_id = 107061,
 		rate_tip = {
-			"<color=#ffde38>Super Rare</color>：7%",
-			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Common：30%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%"
 		}
 	},
 	all = {

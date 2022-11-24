@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
-			say = "过去的片段————",
+			say = "Mirror Sea - In the past",
 			bgm = "ryza-1",
 			flashout = {
 				black = true,
@@ -41,8 +41,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "这个就是返回装置，通过这个装置后就能回到你来的地方了。",
+			actorName = "Purity",
+			say = "Here's the teleporter. Use this, and it'll plop you right back where you came from.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,8 +59,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "回去之后，这里发生的事对于你来说就会像做了一场梦一样。",
+			actorName = "Purity",
+			say = "And shazam, everything that happened here will seem like it was just a dream.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,8 +77,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "在那边醒来之后，应该过不了一会就会像真正的梦一样彻底从记忆中消失吧。",
+			actorName = "Purity",
+			say = "You might even forget everything the second you wake up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,8 +95,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "当然了，这个世界的物品你也是一个都带不回去的哦，也包括舰装。除非——",
+			actorName = "Purity",
+			say = "Also, you can't take anything from this world with you once you leave, not even your rigging. Orrrrrr...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,8 +112,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "你选择加入我！加入我，你就能保留新获得的力量——",
+			actorName = "Purity",
+			say = "If you decide to join forces with the great and generous Purity, then you'll be able to keep your current powers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,8 +140,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "怎么样，收下这个象征反抗军成员的徽章，加入我净化亲的反抗组织，为破坏测试者的奇怪实验出一份力吧！",
+			actorName = "Purity",
+			say = "Whaddya say? You get this sweet resistance badge, and we can destroy all of Tester's stupid experiments together. Sweet deal, dont'cha think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "虽然看似一场梦，也能像对待梦一样任其在记忆中消散——",
+			say = "The sensation of a dream, with all its ephemerality...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "但这一切的原理，其实并不是梦吧？",
+			say = "But the principle behind all this has nothing to do with dreams, correct?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "你们用某种方式劫持了妾身的意识，或者说……灵魂？也正因此，物质造物才无法由妾身被劫持的意识带回去是么？",
+			say = "You have only spirited our consciousnesses, or perhaps our souls, or... something, into this world. As such, we can bring nothing physical home with us. Is that accurate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,8 +222,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "这个要解释起来就复杂了，而且这可是我们的核心技术，不能随随便便就向你透露~",
+			actorName = "Purity",
+			say = "Look, explaining it all would take ages. Besides, this is important Siren technology we're talking about. I can't share any secrets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,8 +240,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "不过你要是加入我的话，特别破例告诉你也不是不可以哦？",
+			actorName = "Purity",
+			say = "...Buuut, I could consider telling you if you agreed to be my partner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "呼呼，虽然汝这个人还不错，不过妾身还有属于自己的使命，是时候让这场梦结束了。",
+			say = "Haha! You are a pleasant companion, but I'm afraid I have my own duties to tend to. Besides… now seems an apt time to awaken from this dream.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "不过汝的那个徽章，妾身倒是挺有兴趣的。",
+			say = "Still, I find myself interested in this badge of yours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,8 +294,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "嗯？……感觉你话里有话啊。就算是净化亲也没办法通过这扇门让你把徽章带回去哦？",
+			actorName = "Purity",
+			say = "Huh? Kinda sounds like you're implying something here... But even the mighty Purity can't send you home with a badge.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,8 +310,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			side = 2,
-			actorName = "净化亲",
-			say = "不过只是有兴趣留下些许旅途的痕迹的话……我倒是有一个办法能让你不会忘得那么彻底。",
+			actorName = "Purity",
+			say = "Though... If you just want proof of your adventure here, I can make it so you don't forget everything entirely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,8 +324,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "也许在某日的梦境中能再次完整回想起来也说不定？这个方案你觉得怎么样~",
+			actorName = "Purity",
+			say = "I can make it juuust so that, randomly, you might find yourself starting to remember something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "留存在回忆中的宝物么……那就如此办吧。",
+			say = "A treasure remaining in my memories, hm? That doesn't sound bad at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,8 +359,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "了解~",
+			actorName = "Purity",
+			say = "Okay, it's a deal!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有一件事，汝之前提到的关于两个世界时间不同步的事，是真的么？",
+			say = "But I do have one question. Was it true when you said that the flow of time here differs from that of my own world?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,8 +394,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "是哦。虽然你在这边呆了好几天了，不过等你回去之后，时间大概会和你来之前没什么变化哦？",
+			actorName = "Purity",
+			say = "Yep! It's been a few days here, but I think only a few seconds or minutes have passed in your world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "真是奇妙……",
+			say = "How mysterious...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,8 +429,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "那我还有别的事要做，你也急着回去，我们就在此分别吧。你先请？",
+			actorName = "Purity",
+			say = "So, a girl's got stuff to do, but weren't you in a hurry to get home? I can send you back first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "不用，倘若汝有事在身，先走就是。妾身在回去之前还想四处逛一下。",
+			say = "If you're busy, then tend to your own matters first. I'd like to take another look around before I leave.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,8 +464,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "行行~反正门已经启动了，操作指令我也刻在底座上了，你走的时候对着看就行，很简单的哦。",
+			actorName = "Purity",
+			say = "Really? Well, be my guest! I've activated the teleporter, and I left how-to instructions on the pedestal there. It's easy, so do it yourself if you wanna.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "嗯，那就在这里告别吧。希望汝能够一路顺风，今后继续按照汝之目标，坚定地走下去。",
+			say = "Right. Then I suppose this is goodbye. I pray that you will have the willpower and the good fortune to see your goals through.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,8 +500,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "……我不太擅长正式的告别啊。那就……你也一样！也许后会有期也许后会无期，拜拜——",
+			actorName = "Purity",
+			say = "...Wh-why are you being all nice now?! Makes my skin crawl... Y-you too, okay?! Good luck, or whatever!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
-			say = "遗迹群岛·起始之地 翌日",
+			say = "Land of Beginnings - The following day",
 			bgmDelay = 2,
 			bgm = "ryza-4",
 			typewriter = {
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "莱莎小姐，钥匙的制作怎么样了？",
+			say = "Miss Ryza, did you learn anything new about the keys?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "哼哼，我已经制作完成了哦。你们看~",
+			say = "Heheh. Yeah, I figured out what to do with them. I made this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_1",
 			side = 2,
-			say = "获得道具：「遗迹之钥·核心之所」",
+			say = "Item obtained: Central Foundation Key",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "这个是…………一张门卡？",
+			say = "A... keycard, I presume?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "居然是用之前的那四把钥匙制作出来的么……？",
+			say = "You mean you synthesized that by combining the four keys?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯！我那天的观察肯定没错，用这个的话绝对能打开核心区的那扇大门！",
+			say = "That's right! This might be just the ticket to getting us across that barrier with no keyholes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "虽然这几天看了不少莱莎的炼金术，但不论看多少次都还是感觉不可思议啊……",
+			say = "I've seen you perform alchemy several times over the past few days, but even now, you never fail to amaze me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "既然关键道具已经制作完毕，那我一会就通知大家出发。",
+			say = "If we've gathered all the items we need, I'll let everyone know so we can move out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "可畏小姐，等攻略了核心之所后，我们就要离开这里了吧。",
+			say = "...So all that's left to do now is reach the control center, then we'll be able to go home?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "至少碑文上是这么写的，虽然不知道会不会这么顺利就是了。",
+			say = "If everything goes well and the monument is to be believed, yes. Though, I thought you'd be more thrilled about the prospects of being able to go home...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "所以这就是在这座临时炼金工房里的最后一次调合了吗……稍微有点感伤。",
+			say = "You know, this might be the last thing I synthesize from this temporary atelier. It's a rather bittersweet feeling...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "这口奇怪的黑色炼金锅其实还蛮好用的，以后就再也用不了啊……",
+			say = "I thought this cauldron looked pretty dark and sinister at first, but it sure has come in handy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "如果舍不得的话，你直接带走不就好了？",
+			say = "If you've grown that attached to it, why not bring it with you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "这口锅实在是太重了……就算现在能依靠舰装把它抬起来，也不能带着它去战斗嘛……",
+			say = "Huh? I can't lug something that heavy with me, can I? Even if I found some way to carry it, I'd basically just be lumbering around the battlefield...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "咳……看来莱莎还没有太熟悉舰装的便利之处啊。",
+			say = "L-lumbering, you say? Well... Uhh, it's only natural you haven't mastered your rigging yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "虽然经过检查，你利用炼金术配方制作的舰装与我们所使用的在内部结构上有些区别，少了很多非战斗用功能。",
+			say = "It's true that your riggings were synthesized through alchemy and have somewhat different properties than ours, but I suspect they should also have similar non-combat functionalities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "不过货仓似乎还是存在的。只是一个大锅而已，利用货仓就可以很轻松的把它一起带走哦？",
+			say = "For example, there should be ample room to carry something the size of this cauldron.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "比如像这样——",
+			say = "Allow me to show you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "舰、舰装居然还能这么使用么……？……好……好神奇，就像次元口袋一样。",
+			say = "Whoa, I had no idea a rigging could do that! It's like having your own pocket dimension!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -916,7 +916,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "说起来……之前大家开茶会时吃的东西，还有量产舰什么的，是不是也是之前存在这个里面的？",
+			say = "So, wait, is this how you stored the supplies for that tea party earlier, and where you pulled those mass-produced ships from?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -934,7 +934,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "没错，舰装可不光只有作为武器的功能哦。",
+			say = "Right you are. A rigging is not just a weapon, but also comes in handy in all sorts of occasions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -952,7 +952,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "太厉害了……有了这么神奇的存储空间，以后出门冒险想携带多少素材都没问题了！",
+			say = "Woah, this is totally wild... Just imagine all the materials I'd be able to bring with me on my adventures if I had something like this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -970,7 +970,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "那就首先收好炼金锅，然后不带留恋地向前方进发吧。",
+			say = "Heehee. Now that your cauldron and other possessions are packed, shall we leave for the Central Foundation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -988,7 +988,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嗯，就这样！让我们向着最后的未知之地进发吧！",
+			say = "Yeah, let's go! Onwards to the mysterious final destination!",
 			painting = {
 				alpha = 0.3,
 				time = 1
