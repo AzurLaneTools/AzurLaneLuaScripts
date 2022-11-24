@@ -720,11 +720,7 @@ function slot0.refreshShipModeExpBuff(slot0)
 			end
 
 			for slot14, slot15 in ipairs(slot10) do
-				if ActivityBuff.New(slot8.id, slot15):RookieBattleExpUsage() then
-					if getProxy(PlayerProxy):getRawData().level < slot16:GetRookieBattleExpMaxLevel() then
-						table.insert(slot2, slot16)
-					end
-				elseif slot16:isAddedBuff() then
+				if ActivityBuff.New(slot8.id, slot15):ShipModExpUsage() and slot16:isActivate() then
 					table.insert(slot2, slot16)
 				end
 			end
@@ -742,9 +738,13 @@ function slot0.getShipModExpActivity(slot0)
 		slot0:refreshShipModeExpBuff()
 	end
 
-	return underscore.filter(slot0.shipModeExpbuffs, function (slot0)
-		return slot0:ShipModExpUsage()
-	end)
+	if underscore.any(slot0.shipModeExpbuffs, function (slot0)
+		return not slot0:isActivate()
+	end) then
+		slot0:refreshShipModeExpBuff()
+	end
+
+	return slot0.shipModeExpbuffs
 end
 
 return slot0

@@ -33,12 +33,22 @@ function slot0.isActivate(slot0)
 	slot1 = false
 
 	if getProxy(ActivityProxy):getActivityById(slot0.activityId) and not slot3:isEnd() then
-		if slot0:getConfig("benefit_condition")[1] == "lv" then
-			slot1 = uv0(getProxy(PlayerProxy):getRawData().level, slot4[2], slot4[3])
-		end
+		if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUFF then
+			if slot0:RookieBattleExpUsage() then
+				if getProxy(PlayerProxy):getRawData().level < slot0:GetRookieBattleExpMaxLevel() then
+					slot1 = true
+				end
+			elseif slot0:isAddedBuff() then
+				slot1 = true
+			end
+		else
+			if slot0:getConfig("benefit_condition")[1] == "lv" then
+				slot1 = uv0(getProxy(PlayerProxy):getRawData().level, slot4[2], slot4[3])
+			end
 
-		if slot4 == "" or slot4[1] == "activity" then
-			slot1 = true
+			if slot4 == "" or slot4[1] == "activity" then
+				slot1 = true
+			end
 		end
 	end
 

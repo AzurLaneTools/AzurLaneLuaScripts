@@ -36844,7 +36844,7 @@ _G.pg.base.ship_data_breakout[10900021] = {
 	breakout_id = 10900022,
 	use_char_num = 1,
 	use_char = 1090002,
-	breakout_view = "攻撃機数+1/戦闘機補正+5%",
+	breakout_view = "攻撃機数+1/攻撃機補正+5%",
 	level = 10,
 	id = 10900021,
 	icon = "10001",
@@ -36861,7 +36861,7 @@ _G.pg.base.ship_data_breakout[10900022] = {
 	breakout_id = 10900023,
 	use_char_num = 1,
 	use_char = 1090002,
-	breakout_view = "攻撃隊上限+1/戦闘機数+1/戦闘機補正+10%",
+	breakout_view = "攻撃隊上限+1/戦闘機数+1/攻撃機補正+10%",
 	level = 30,
 	id = 10900022,
 	icon = "10001",
@@ -36880,7 +36880,7 @@ _G.pg.base.ship_data_breakout[10900023] = {
 	breakout_id = 10900024,
 	use_char_num = 2,
 	use_char = 1090002,
-	breakout_view = "戦闘機数+1/戦闘機補正+5%",
+	breakout_view = "戦闘機数+1/攻撃機補正+15%",
 	level = 70,
 	id = 10900023,
 	icon = "10001",
@@ -37003,8 +37003,8 @@ _G.pg.base.ship_data_breakout[10900042] = {
 	pre_id = 10900041,
 	use_item = {},
 	weapon_ids = {
-		33000,
-		33000
+		106,
+		106
 	}
 }
 
@@ -37020,7 +37020,8 @@ _G.pg.base.ship_data_breakout[10900043] = {
 	pre_id = 10900042,
 	use_item = {},
 	weapon_ids = {
-		33000
+		106,
+		106
 	}
 }
 

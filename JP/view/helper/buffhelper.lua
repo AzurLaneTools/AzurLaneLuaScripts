@@ -12,11 +12,7 @@ function slot1(slot0, slot1)
 			end
 
 			for slot7, slot8 in ipairs(slot3) do
-				if ActivityBuff.New(slot1.id, slot8):RookieBattleExpUsage() then
-					if getProxy(PlayerProxy):getRawData().level < slot9:GetRookieBattleExpMaxLevel() then
-						table.insert(slot0, slot9)
-					end
-				elseif slot9:isAddedBuff() then
+				if ActivityBuff.New(slot1.id, slot8):isActivate() then
 					table.insert(slot0, slot9)
 				end
 			end

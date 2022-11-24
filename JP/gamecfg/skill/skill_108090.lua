@@ -26,7 +26,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -58,7 +58,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -90,7 +90,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -122,7 +122,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -154,7 +154,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -186,7 +186,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -218,7 +218,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -250,7 +250,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -282,7 +282,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -314,7 +314,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 61520
+					weapon_id = 61518
 				}
 			}
 		}
@@ -361,7 +361,7 @@ return {
 			target_choise = "TargetNil",
 			targetAniEffect = "",
 			arg_list = {
-				weapon_id = 61520
+				weapon_id = 61518
 			}
 		}
 	}
