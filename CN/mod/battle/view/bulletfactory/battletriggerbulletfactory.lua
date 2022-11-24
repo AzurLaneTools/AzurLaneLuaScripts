@@ -40,7 +40,7 @@ function slot1.OutRangeFunc(slot0)
 			end
 		end
 
-		uv6.Battle.PlayBattleSFX(uv7.hit_sfx)
+		uv6.Battle.PlayBattleSFX(uv5:GetHitSFX())
 		uv4:SpawnEffect(uv7.hit_fx, uv5:GetExplodePostion())
 	end):SetDiveFilter(slot0:GetDiveFilter())
 	slot4:RemoveBulletUnit(slot0:GetUniqueID())

@@ -3102,7 +3102,7 @@ _G.pg.base.gametip.spweapon_tip_locked = {
 }
 
 _G.pg.base.gametip.spweapon_tip_unload = {
-	tip = "特殊兵装已卸载至仓库中 "
+	tip = "特殊兵装已卸载至仓库中"
 }
 
 _G.pg.base.gametip.spweapon_tip_sail_locked = {
@@ -5012,6 +5012,10 @@ _G.pg.base.gametip.word_shipNation_ssss = {
 
 _G.pg.base.gametip.word_shipNation_mot = {
 	tip = "飓风"
+}
+
+_G.pg.base.gametip.word_shipNation_ryza = {
+	tip = "Atelier Ryza"
 }
 
 _G.pg.base.gametip.word_reset = {
@@ -10052,7 +10056,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "彼得·史特拉塞、海因里希亲王等角色 建造概率UP!"
+	tip = "莱莎琳・斯托特、帕特莉夏・阿贝尔海姆等角色 建造概率UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -20373,6 +20377,83 @@ _G.pg.base.gametip.cruise_task_help_2210 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2212 = {
+	tip = "2022.12.1-2023.1.31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「命运女神·META」</color>在内的丰富奖励"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2212 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2022.12.1-2023.1.31)
+
+·<color=#92fc63>开放时间</color>
+    2022.12.1 0点 ~ 2023.1.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「命运女神·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·五期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>克利夫兰换装「南方之旅</color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即1.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2212 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2022.12.1 0点 ~ 2023.1.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -20398,11 +20479,11 @@ _G.pg.base.gametip.attrset_input_ill = {
 }
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "兑换时间截止至$1维护 "
+	tip = "兑换时间截止至$1维护"
 }
 
 _G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
-	tip = "购买后将获得每件家具各1件。 "
+	tip = "购买后将获得每件家具各1件。"
 }
 
 _G.pg.base.gametip.purchase_backyard_theme_desc_for_all = {
@@ -21229,7 +21310,7 @@ _G.pg.base.gametip.eva_comment_send_null = {
 }
 
 _G.pg.base.gametip.report_sent_thank = {
-	tip = "举报信息已成功发送，感谢您为净化游戏环境作出贡献 "
+	tip = "举报信息已成功发送，感谢您为净化游戏环境作出贡献"
 }
 
 _G.pg.base.gametip.report_ship_cannot_comment = {
@@ -21237,15 +21318,15 @@ _G.pg.base.gametip.report_ship_cannot_comment = {
 }
 
 _G.pg.base.gametip.report_cannot_comment = {
-	tip = "您已被禁止评论，请联系客服进行处理 "
+	tip = "您已被禁止评论，请联系客服进行处理"
 }
 
 _G.pg.base.gametip.report_sent_title = {
-	tip = "举报 "
+	tip = "举报"
 }
 
 _G.pg.base.gametip.report_sent_desc = {
-	tip = "请选择举报类型（单选） "
+	tip = "请选择举报类型（单选）"
 }
 
 _G.pg.base.gametip.report_type_1 = {
@@ -21417,7 +21498,7 @@ _G.pg.base.gametip.item_is_max_cnt = {
 }
 
 _G.pg.base.gametip.level_fleet_ship_desc = {
-	tip = "可出击舰队数： "
+	tip = "可出击舰队数："
 }
 
 _G.pg.base.gametip.level_fleet_sub_desc = {
@@ -21471,7 +21552,7 @@ _G.pg.base.gametip.unlock_date_tip = {
 }
 
 _G.pg.base.gametip.guild_duty_shoule_be_deputy_commander = {
-	tip = "舰队司令仅能从副司令成员中任命 "
+	tip = "舰队司令仅能从副司令成员中任命"
 }
 
 _G.pg.base.gametip.guild_deputy_commander_cnt_is_full = {
@@ -21665,4 +21746,389 @@ _G.pg.base.gametip.ex_pass_use = {
 
 _G.pg.base.gametip.defense_formation_tip_npc = {
 	tip = "第一舰队中存在<color=#92fc63>临时加入的角色</color>， 无法编入演习队伍"
+}
+
+_G.pg.base.gametip.word_item = {
+	tip = "道具"
+}
+
+_G.pg.base.gametip.word_tool = {
+	tip = "工具"
+}
+
+_G.pg.base.gametip.word_other = {
+	tip = "其他"
+}
+
+_G.pg.base.gametip.ryza_word_equip = {
+	tip = "装备"
+}
+
+_G.pg.base.gametip.ryza_rest_produce_count = {
+	tip = "剩余可调合数量：$1"
+}
+
+_G.pg.base.gametip.ryza_composite_confirm = {
+	tip = "是否确认调合 $1 * $2？"
+}
+
+_G.pg.base.gametip.ryza_composite_confirm_single = {
+	tip = "是否确认调合 $1？"
+}
+
+_G.pg.base.gametip.ryza_composite_count = {
+	tip = "制作个数："
+}
+
+_G.pg.base.gametip.ryza_toggle_only_composite = {
+	tip = "仅显示可调合"
+}
+
+_G.pg.base.gametip.ryza_tip_select_recipe = {
+	tip = "点击左侧配方列表选择配方"
+}
+
+_G.pg.base.gametip.ryza_tip_put_materials = {
+	tip = "点击材料环放入对应材料($1/$2)"
+}
+
+_G.pg.base.gametip.ryza_tip_composite_unlock = {
+	tip = "炼金工房准备中，通关T5后开放"
+}
+
+_G.pg.base.gametip.ryza_tip_unlock_all_tools = {
+	tip = "获取全部工具后解锁配方合成"
+}
+
+_G.pg.base.gametip.ryza_material_not_enough = {
+	tip = "素材不足，点击开始调合可查看所需素材"
+}
+
+_G.pg.base.gametip.ryza_tip_composite_invalid = {
+	tip = "此配方调合次数已达到上限"
+}
+
+_G.pg.base.gametip.ryza_tip_max_composite_count = {
+	tip = "当前已达到最大可调合数量"
+}
+
+_G.pg.base.gametip.ryza_tip_no_item = {
+	tip = "-暂未获得任何素材-"
+}
+
+_G.pg.base.gametip.ryza_ui_show_acess = {
+	tip = "查看\n获取途径"
+}
+
+_G.pg.base.gametip.ryza_tip_no_recipe = {
+	tip = "-暂无可调合配方-"
+}
+
+_G.pg.base.gametip.ryza_tip_item_access = {
+	tip = "点击道具图标可查看获取途径"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain_tip = {
+	tip = "前往炼金工房调合获得"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_upgrade = {
+	tip = "提升"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_replace = {
+	tip = "替换"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_limit = {
+	tip = "已达上限"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_already_active_tip = {
+	tip = "已放入"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff = {
+	tip = "加成适用于TH1~TH5、A.SP、EX关卡"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain = {
+	tip = "未拥有"
+}
+
+_G.pg.base.gametip.ryza_tip_control = {
+	tip = "将核心放入圆形控制盘中获取效果加成"
+}
+
+_G.pg.base.gametip.ryza_tip_main = {
+	tip = {
+		{
+			info = [[
+活动简介：
+<color=#92fc63>11.24-12.08维护</color>期间开启限时活动「炼金术士与秘密遗迹群岛」
+1.通过特别作战获取「遗迹水晶簇」，在「噗尼养成」和「补给商店」处兑换丰厚奖励
+2.完成「温泉开发战」DAY7可获得限定家具<color=#92fc63>小型温泉</color>与限定外观装备等奖励
+注意：每日开放1回新游戏，总计7回
+3.「港区委托板」：活动期间完成委托板的任务可以获取<color=#92fc63>特殊调合素材</color>与限定家具等奖励，还可以获得港区声望获得加成效果
+注意：到11.30为止，每日都会出现新的委托任务
+4.「炼金工房」：活动期间通过关卡与活动获得炼金素材，在炼金工房中调合获得纪念家具<color=#92fc63>「遗迹冒险之证」</color>、<color=#92fc63>联动角色特殊兵装</color>、<color=#92fc63>联动限定设备装备</color>等奖励
+5.「换装商店」：购买限时换装
+6.「限时建造」：建造限时角色]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battle_levelScene_ryza_lock = {
+	tip = "需要<color=#92fc63>通关普通模式</color>才可进入素材关卡"
+}
+
+_G.pg.base.gametip.ryza_tip_toast_item_got = {
+	tip = "素材收集"
+}
+
+_G.pg.base.gametip.ryza_composite_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_4",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_control_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_control",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_mini_game = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_level_desc = {
+	tip = "港区声望"
+}
+
+_G.pg.base.gametip.ryza_task_tag_explore = {
+	tip = "探索"
+}
+
+_G.pg.base.gametip.ryza_task_tag_battle = {
+	tip = "讨伐"
+}
+
+_G.pg.base.gametip.ryza_task_tag_dalegate = {
+	tip = "委托"
+}
+
+_G.pg.base.gametip.ryza_task_tag_develop = {
+	tip = "研究"
+}
+
+_G.pg.base.gametip.ryza_task_detail_content = {
+	tip = "内容"
+}
+
+_G.pg.base.gametip.ryza_task_detail_award = {
+	tip = "报酬"
+}
+
+_G.pg.base.gametip.ryza_task_go = {
+	tip = "前往"
+}
+
+_G.pg.base.gametip.ryza_task_get = {
+	tip = "领取"
+}
+
+_G.pg.base.gametip.ryza_task_get_all = {
+	tip = "全部领取"
+}
+
+_G.pg.base.gametip.ryza_task_confirm = {
+	tip = "确认"
+}
+
+_G.pg.base.gametip.ryza_task_cancel = {
+	tip = "取消"
+}
+
+_G.pg.base.gametip.ryza_task_level_num = {
+	tip = "声望等级"
+}
+
+_G.pg.base.gametip.ryza_task_level_add = {
+	tip = "声望加成"
+}
+
+_G.pg.base.gametip.ryza_task_submit = {
+	tip = "提交"
+}
+
+_G.pg.base.gametip.ryza_task_detail = {
+	tip = "查看"
+}
+
+_G.pg.base.gametip.ryza_composite_words = {
+	tip = {
+		{
+			"ryza_atellier1",
+			"做些什么好呢~"
+		},
+		{
+			"ryza_atellier2",
+			"放些什么好呢~"
+		},
+		{
+			"ryza_atellier3",
+			"各种各样的东西都想试试呢~"
+		},
+		{
+			"ryza_atellier4",
+			"先把材料放进去再考虑做什么也不错吧~"
+		},
+		{
+			"ryza_atellier5",
+			"这个感觉不错~"
+		},
+		{
+			"ryza_atellier6",
+			"好像能做出很厉害的东西呢！"
+		},
+		{
+			"ryza_atellier7",
+			"嗯嗯，就是这种感觉！"
+		},
+		{
+			"ryza_atellier8",
+			"会不会顺利呢~"
+		},
+		{
+			"ryza_atellier9",
+			"好，上吧！"
+		},
+		{
+			"ryza_atellier10",
+			"锵~！就是这种感觉吧~？"
+		},
+		{
+			"ryza_atellier11",
+			"太好了，完成了！"
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_task_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_task_2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

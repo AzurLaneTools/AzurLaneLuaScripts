@@ -1084,11 +1084,25 @@ function slot0.addModAttrExp(slot0, slot1, slot2)
 		return
 	end
 
-	if slot3 < (slot0:getModProperties(slot1) + slot2) / slot0:getModExpRatio(slot1) then
+	if slot0:getModProperties(slot1) + slot2 > slot3 * slot0:getModExpRatio(slot1) then
 		slot0.strengthList[slot1] = slot3 * slot4
 	else
 		slot0.strengthList[slot1] = slot5 + slot2
 	end
+end
+
+function slot0.getNeedModExp(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(ShipModAttr.ID_TO_ATTR) do
+		if slot0:getModAttrTopLimit(slot6) == 0 then
+			slot1[slot6] = 0
+		else
+			slot1[slot6] = slot7 * slot0:getModExpRatio(slot6) - slot0:getModProperties(slot6)
+		end
+	end
+
+	return slot1
 end
 
 function slot0.attrVertify(slot0)

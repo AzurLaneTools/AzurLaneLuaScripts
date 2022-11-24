@@ -94,7 +94,7 @@ end
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:onBackPressed()
-	end, SFX_CANCAL)
+	end, SFX_CANCEL)
 	onButton(slot0, slot0.letterBtn, function ()
 		uv0:switchLetter()
 	end, SFX_PANEL)

@@ -12,6 +12,7 @@ function slot3.Ctor(slot0, slot1, slot2)
 	slot0._weaponID = slot0._tempData.arg_list.weapon_id
 	slot0._emitter = slot0._tempData.arg_list.emitter
 	slot0._useSkin = slot0._tempData.arg_list.useSkin
+	slot0._equipIndex = slot0._tempData.arg_list.equip_index or -1
 	slot0._atkAttrConvert = slot0._tempData.arg_list.attack_attribute_convert
 end
 
@@ -19,9 +20,13 @@ function slot3.SetWeaponSkin(slot0, slot1)
 	slot0._modelID = slot1
 end
 
+function slot3.IsFinaleEffect(slot0)
+	return true
+end
+
 function slot3.DoDataEffect(slot0, slot1, slot2)
 	if slot0._weapon == nil then
-		slot0._weapon = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1)
+		slot0._weapon = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1, nil, slot0._equipIndex)
 
 		if BATTLE_DEBUG and (slot0._weapon:GetType() == uv1.EquipmentType.INTERCEPT_AIRCRAFT or slot0._weapon:GetType() == uv1.EquipmentType.STRIKE_AIRCRAFT) then
 			slot0._weapon:GetATKAircraftList()
@@ -41,6 +46,10 @@ function slot3.DoDataEffect(slot0, slot1, slot2)
 
 	function slot3()
 		uv0._weapon:Clear()
+
+		if uv0._finaleCallback then
+			uv0._finaleCallback()
+		end
 	end
 
 	if slot0._atkAttrConvert then

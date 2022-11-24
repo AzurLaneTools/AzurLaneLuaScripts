@@ -8150,6 +8150,102 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70171] = {
+		id = 70171,
+		name = "2022莱莎联动ESP 净化者退到后方",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = 10,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70172] = {
+		id = 70172,
+		name = "2022莱莎联动ESP 净化者退到后方",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -5,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70173] = {
+		id = 70173,
+		name = "2022莱莎联动EX BOSS复位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -5,
+					z = 45
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70174] = {
+		id = 70174,
+		name = "2022莱莎联动EX BOSS向前移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -20,
+					z = 45
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

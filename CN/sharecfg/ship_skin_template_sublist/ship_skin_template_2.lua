@@ -3852,6 +3852,122 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102095] = {
+		ship_group = 10209,
+		name = "南方之旅",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "149",
+		id = 102095,
+		group_index = 5,
+		prefab = "kelifulan_6",
+		painting = "kelifulan_6",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "能到平时没法轻易来的地方，还挺让人兴奋的！指挥官，难得的旅行，我们去吃各种好吃的，看各种稀奇的东西吧！",
+		voice_actor = 40,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.127,
+					0.986,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.103,
+					0.955,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.012,
+					0.024,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.168,
+					1.209,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.536,
+							2.334,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102098] = {
 		ship_group = 10209,
 		name = "心动一刻",
@@ -10061,126 +10177,6 @@ pg.ship_skin_template_2 = {
 						{
 							0.293,
 							0.826,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[103030] = {
-		ship_group = 10303,
-		name = "北安普敦",
-		bullet_skin_secondary = "",
-		hand_id = 3,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 103030,
-		group_index = 0,
-		prefab = "beianpudun",
-		painting = "beianpudun",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 7,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "北安普顿级重巡洋舰—北安普顿，舷号CA-26",
-		voice_actor = 27,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.476,
-					1.335,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.958,
-					0.903,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.958,
-					0.903,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.76,
-							0.58,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.45,
-							0.46,
 							0
 						}
 					}

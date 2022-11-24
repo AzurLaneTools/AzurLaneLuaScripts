@@ -208,6 +208,7 @@ function slot10.SetTemplateData(slot0, slot1)
 	})
 
 	slot0:SetModleID(slot1.modle_ID, uv0.ORIGNAL_RES)
+	slot0:SetSFXID(slot0._tempData.hit_sfx, slot0._tempData.miss_sfx)
 	slot0:ResetVelocity()
 
 	slot0._pierceCount = slot1.pierce_count
@@ -243,8 +244,18 @@ function slot10.SetModleID(slot0, slot1, slot2, slot3)
 	slot0._modleID = slot1
 	slot0._mirrorSkin = slot2
 
-	if slot3 then
+	if slot3 and slot3 ~= "" then
 		slot0._tempData.hit_fx = slot3
+	end
+end
+
+function slot10.SetSFXID(slot0, slot1, slot2)
+	if slot1 then
+		slot0._hitSFX = slot1
+	end
+
+	if slot2 then
+		slot0._missSFX = slot2
 	end
 end
 
@@ -507,6 +518,14 @@ end
 
 function slot10.GetType(slot0)
 	return slot0._tempData.type
+end
+
+function slot10.GetHitSFX(slot0)
+	return slot0._hitSFX
+end
+
+function slot10.GetMissSFX(slot0)
+	return slot0._missSFX
 end
 
 function slot10.GetOutBound(slot0)

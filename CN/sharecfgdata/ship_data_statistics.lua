@@ -308838,6 +308838,510 @@ _G.pg.base.ship_data_statistics[9701014] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[9701021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "命运女神·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701020,
+	english_name = "Fortune.META",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		301,
+		27,
+		73,
+		30,
+		0,
+		77,
+		0,
+		55,
+		69,
+		43,
+		68,
+		47
+	},
+	attrs_growth = {
+		5180,
+		343,
+		923,
+		411,
+		0,
+		534,
+		0,
+		771,
+		1021,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"FortuneMETA",
+		"F-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "命运女神·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701020,
+	english_name = "Fortune.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		374,
+		34,
+		91,
+		37,
+		0,
+		77,
+		0,
+		55,
+		69,
+		43,
+		68,
+		59
+	},
+	attrs_growth = {
+		5180,
+		343,
+		923,
+		411,
+		0,
+		534,
+		0,
+		771,
+		1021,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"FortuneMETA",
+		"F-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "命运女神·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701020,
+	english_name = "Fortune.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		521,
+		47,
+		127,
+		52,
+		0,
+		77,
+		0,
+		55,
+		69,
+		43,
+		68,
+		82
+	},
+	attrs_growth = {
+		5180,
+		343,
+		923,
+		411,
+		0,
+		534,
+		0,
+		771,
+		1021,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"FortuneMETA",
+		"F-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "命运女神·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701020,
+	english_name = "Fortune.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		741,
+		68,
+		181,
+		74,
+		0,
+		77,
+		0,
+		55,
+		69,
+		43,
+		68,
+		117
+	},
+	attrs_growth = {
+		5180,
+		343,
+		923,
+		411,
+		0,
+		534,
+		0,
+		771,
+		1021,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"FortuneMETA",
+		"F-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[9702011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -341331,6 +341835,3038 @@ _G.pg.base.ship_data_statistics[10800074] = {
 	},
 	tag_list = {
 		"SSSS"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900011] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莱莎琳·斯托特",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 10900010,
+	english_name = "Reisalin Stout",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 10900011,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		740,
+		27,
+		71,
+		72,
+		0,
+		73,
+		0,
+		56,
+		30,
+		35,
+		66,
+		40
+	},
+	attrs_growth = {
+		19858,
+		362,
+		900,
+		1496,
+		0,
+		505,
+		0,
+		816,
+		681,
+		0,
+		0,
+		463
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		211
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.5,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"RyzaSelf"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900012] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莱莎琳·斯托特",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 10900010,
+	english_name = "Reisalin Stout",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 10900012,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		920,
+		34,
+		89,
+		90,
+		0,
+		73,
+		0,
+		56,
+		30,
+		35,
+		66,
+		50
+	},
+	attrs_growth = {
+		19858,
+		362,
+		900,
+		1496,
+		0,
+		505,
+		0,
+		816,
+		681,
+		0,
+		0,
+		463
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		212
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.5,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"RyzaSelf"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900013] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莱莎琳·斯托特",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 10900010,
+	english_name = "Reisalin Stout",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 10900013,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1281,
+		47,
+		124,
+		125,
+		0,
+		73,
+		0,
+		56,
+		30,
+		35,
+		66,
+		70
+	},
+	attrs_growth = {
+		19858,
+		362,
+		900,
+		1496,
+		0,
+		505,
+		0,
+		816,
+		681,
+		0,
+		0,
+		463
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		213
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.6,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"RyzaSelf"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900014] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莱莎琳·斯托特",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 10900010,
+	english_name = "Reisalin Stout",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 10900014,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1823,
+		67,
+		177,
+		179,
+		0,
+		73,
+		0,
+		56,
+		30,
+		35,
+		66,
+		99
+	},
+	attrs_growth = {
+		19858,
+		362,
+		900,
+		1496,
+		0,
+		505,
+		0,
+		816,
+		681,
+		0,
+		0,
+		463
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		214
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.6,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"RyzaSelf"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "科洛蒂娅·巴兰茨",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 10900020,
+	english_name = "Klaudia Valentz",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1008,
+		0,
+		0,
+		49,
+		77,
+		71,
+		0,
+		32,
+		19,
+		28,
+		54,
+		20
+	},
+	attrs_growth = {
+		27068,
+		0,
+		0,
+		1068,
+		958,
+		488,
+		0,
+		471,
+		412,
+		0,
+		0,
+		244
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"KlaudiaHA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "科洛蒂娅·巴兰茨",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 10900020,
+	english_name = "Klaudia Valentz",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1254,
+		0,
+		0,
+		61,
+		96,
+		71,
+		0,
+		32,
+		19,
+		28,
+		54,
+		25
+	},
+	attrs_growth = {
+		27068,
+		0,
+		0,
+		1068,
+		958,
+		488,
+		0,
+		471,
+		412,
+		0,
+		0,
+		244
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.05,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"KlaudiaHA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "科洛蒂娅·巴兰茨",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 10900020,
+	english_name = "Klaudia Valentz",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1746,
+		0,
+		0,
+		85,
+		134,
+		71,
+		0,
+		32,
+		19,
+		28,
+		54,
+		35
+	},
+	attrs_growth = {
+		27068,
+		0,
+		0,
+		1068,
+		958,
+		488,
+		0,
+		471,
+		412,
+		0,
+		0,
+		244
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.15,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"KlaudiaHA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "科洛蒂娅·巴兰茨",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 10900020,
+	english_name = "Klaudia Valentz",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2484,
+		0,
+		0,
+		122,
+		191,
+		71,
+		0,
+		32,
+		19,
+		28,
+		54,
+		50
+	},
+	attrs_growth = {
+		27068,
+		0,
+		0,
+		1068,
+		958,
+		488,
+		0,
+		471,
+		412,
+		0,
+		0,
+		244
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"KlaudiaHA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900031] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "帕特莉夏·阿贝尔海姆",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 10900030,
+	english_name = "Patricia Abelheim",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10900031,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1390,
+		83,
+		0,
+		66,
+		0,
+		57,
+		0,
+		24,
+		8,
+		30,
+		52,
+		0
+	},
+	attrs_growth = {
+		37320,
+		1017,
+		0,
+		1387,
+		0,
+		395,
+		0,
+		345,
+		244,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900032] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "帕特莉夏·阿贝尔海姆",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 10900030,
+	english_name = "Patricia Abelheim",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10900032,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1729,
+		104,
+		0,
+		82,
+		0,
+		57,
+		0,
+		24,
+		8,
+		30,
+		52,
+		0
+	},
+	attrs_growth = {
+		37320,
+		1017,
+		0,
+		1387,
+		0,
+		395,
+		0,
+		345,
+		244,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900033] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "帕特莉夏·阿贝尔海姆",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 10900030,
+	english_name = "Patricia Abelheim",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10900033,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2407,
+		145,
+		0,
+		115,
+		0,
+		57,
+		0,
+		24,
+		8,
+		30,
+		52,
+		0
+	},
+	attrs_growth = {
+		37320,
+		1017,
+		0,
+		1387,
+		0,
+		395,
+		0,
+		345,
+		244,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900034] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "帕特莉夏·阿贝尔海姆",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 10900030,
+	english_name = "Patricia Abelheim",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10900034,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3424,
+		207,
+		0,
+		164,
+		0,
+		57,
+		0,
+		24,
+		8,
+		30,
+		52,
+		0
+	},
+	attrs_growth = {
+		37320,
+		1017,
+		0,
+		1387,
+		0,
+		395,
+		0,
+		345,
+		244,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900041] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莉拉·德西亚斯",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 10900040,
+	english_name = "Lila Decyrus",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900041,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		701,
+		51,
+		47,
+		39,
+		0,
+		66,
+		0,
+		43,
+		19,
+		24,
+		46,
+		0
+	},
+	attrs_growth = {
+		18807,
+		681,
+		639,
+		841,
+		0,
+		454,
+		0,
+		622,
+		412,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		211
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900042] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莉拉·德西亚斯",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 10900040,
+	english_name = "Lila Decyrus",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900042,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		872,
+		64,
+		59,
+		49,
+		0,
+		66,
+		0,
+		43,
+		19,
+		24,
+		46,
+		0
+	},
+	attrs_growth = {
+		18807,
+		681,
+		639,
+		841,
+		0,
+		454,
+		0,
+		622,
+		412,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		212
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900043] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莉拉·德西亚斯",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 10900040,
+	english_name = "Lila Decyrus",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900043,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1214,
+		89,
+		82,
+		68,
+		0,
+		66,
+		0,
+		43,
+		19,
+		24,
+		46,
+		0
+	},
+	attrs_growth = {
+		18807,
+		681,
+		639,
+		841,
+		0,
+		454,
+		0,
+		622,
+		412,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		213
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.45,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900044] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "莉拉·德西亚斯",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 10900040,
+	english_name = "Lila Decyrus",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900044,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1726,
+		126,
+		117,
+		96,
+		0,
+		66,
+		0,
+		43,
+		19,
+		24,
+		46,
+		0
+	},
+	attrs_growth = {
+		18807,
+		681,
+		639,
+		841,
+		0,
+		454,
+		0,
+		622,
+		412,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		214
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.6,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900051] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "赛莉·古劳斯",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 10900050,
+	english_name = "Serri Glaus",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900051,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1097,
+		0,
+		0,
+		56,
+		75,
+		51,
+		0,
+		35,
+		11,
+		28,
+		40,
+		0
+	},
+	attrs_growth = {
+		29463,
+		0,
+		0,
+		1202,
+		942,
+		353,
+		0,
+		505,
+		295,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"serri_spw_off"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900052] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "赛莉·古劳斯",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 10900050,
+	english_name = "Serri Glaus",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900052,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1365,
+		0,
+		0,
+		70,
+		94,
+		51,
+		0,
+		35,
+		11,
+		28,
+		40,
+		0
+	},
+	attrs_growth = {
+		29463,
+		0,
+		0,
+		1202,
+		942,
+		353,
+		0,
+		505,
+		295,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"serri_spw_off"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900053] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "赛莉·古劳斯",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 10900050,
+	english_name = "Serri Glaus",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900053,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1900,
+		0,
+		0,
+		97,
+		131,
+		51,
+		0,
+		35,
+		11,
+		28,
+		40,
+		0
+	},
+	attrs_growth = {
+		29463,
+		0,
+		0,
+		1202,
+		942,
+		353,
+		0,
+		505,
+		295,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"serri_spw_off"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900054] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "赛莉·古劳斯",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 10900050,
+	english_name = "Serri Glaus",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900054,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2703,
+		0,
+		0,
+		139,
+		186,
+		51,
+		0,
+		35,
+		11,
+		28,
+		40,
+		0
+	},
+	attrs_growth = {
+		29463,
+		0,
+		0,
+		1202,
+		942,
+		353,
+		0,
+		505,
+		295,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.25,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"serri_spw_off"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900061] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "卡菈·伊迪亚斯",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 10900060,
+	english_name = "Kala Ideas",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900061,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1099,
+		52,
+		0,
+		43,
+		0,
+		60,
+		0,
+		43,
+		7,
+		22.4,
+		59,
+		0
+	},
+	attrs_growth = {
+		29513,
+		698,
+		0,
+		925,
+		0,
+		412,
+		0,
+		631,
+		236,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.9,
+		0.35,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"KalaSelf"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900062] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "卡菈·伊迪亚斯",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 10900060,
+	english_name = "Kala Ideas",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900062,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1367,
+		65,
+		0,
+		53,
+		0,
+		60,
+		0,
+		43,
+		7,
+		22.4,
+		59,
+		0
+	},
+	attrs_growth = {
+		29513,
+		698,
+		0,
+		925,
+		0,
+		412,
+		0,
+		631,
+		236,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		0.35,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"KalaSelf"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900063] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "卡菈·伊迪亚斯",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 10900060,
+	english_name = "Kala Ideas",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900063,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1903,
+		90,
+		0,
+		74,
+		0,
+		60,
+		0,
+		43,
+		7,
+		22.4,
+		59,
+		0
+	},
+	attrs_growth = {
+		29513,
+		698,
+		0,
+		925,
+		0,
+		412,
+		0,
+		631,
+		236,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		0.45,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"KalaSelf"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10900064] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "卡菈·伊迪亚斯",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 10900060,
+	english_name = "Kala Ideas",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 109,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10900064,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2708,
+		129,
+		0,
+		106,
+		0,
+		60,
+		0,
+		43,
+		7,
+		22.4,
+		59,
+		0
+	},
+	attrs_growth = {
+		29513,
+		698,
+		0,
+		925,
+		0,
+		412,
+		0,
+		631,
+		236,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		0.45,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RYZA",
+		"KalaSelf"
 	}
 }
 

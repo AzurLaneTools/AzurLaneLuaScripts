@@ -17,6 +17,7 @@ slot0.TYPES = {
 	MEMORY_REVIEW = 19,
 	ACT_RETURN = 16,
 	COMMANDER = 10,
+	RYZA_TASK = 21,
 	EVENT = 15,
 	BUILD = 4,
 	SERVER = 12,
@@ -127,6 +128,9 @@ function slot0.BindConditions(slot0)
 	end)
 	slot0:BindCondition(uv0.TYPES.NEW_SERVER, function ()
 		return NewServerCarnivalScene.isTip()
+	end)
+	slot0:BindCondition(uv0.TYPES.RYZA_TASK, function ()
+		return getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.RYZA_TASK)
 	end)
 end
 

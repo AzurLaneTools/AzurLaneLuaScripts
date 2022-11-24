@@ -109,10 +109,11 @@ function slot0.UpdateView(slot0)
 		end
 
 		slot1 = slot1 + 1
+		slot4 = uv1[slot1]
 
 		setText(slot2:Find("Name"), AttributeType.Type2Name(uv3[slot1]))
-		setText(slot2:Find("Values/Min/Value"), 1)
-		setText(slot2:Find("Values/Max/Value"), uv1[slot1])
+		setText(slot2:Find("Values/Min/Value"), math.min(1, slot4))
+		setText(slot2:Find("Values/Max/Value"), slot4)
 		setText(slot2:Find("Values/Current/Value1"), uv0[slot1])
 		setText(slot2:Find("Values/Current/Value2"), uv2[slot1])
 		setActive(slot2:Find("Values/Current/Symbol"), uv4)

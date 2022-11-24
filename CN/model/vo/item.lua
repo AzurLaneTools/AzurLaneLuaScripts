@@ -59,6 +59,8 @@ function slot0.GetConfig(slot0, slot1)
 		return slot2(pg.item_data_chat[slot1])
 	elseif slot0 == DROP_TYPE_SPWEAPON then
 		return slot2(pg.spweapon_data_statistics[slot1])
+	elseif slot0 == DROP_TYPE_RYZA_DROP then
+		return slot2(pg.activity_ryza_item[slot1])
 	end
 end
 

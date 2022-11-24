@@ -276,7 +276,12 @@ end
 
 function slot0.GetFleet(slot0, slot1)
 	slot3 = nil
-	slot3 = (uv0 ~= slot0:BossId2FleetKey(slot1) or slot0.fleetForArchives) and slot0.fleet
+	slot3 = (uv0 ~= slot0:BossId2FleetKey(slot1) or slot0.fleetForArchives) and slot0.fleet or Fleet.New({
+		0,
+		id = 1,
+		name = i18n("world_boss_fleet"),
+		ship_list = {}
+	})
 
 	for slot7 = #slot3.ships, 1, -1 do
 		if not getProxy(BayProxy):getShipById(slot3.ships[slot7]) then

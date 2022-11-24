@@ -9,6 +9,8 @@ function slot0.Create(slot0)
 		return CollectionEventActivity.New(slot0)
 	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 		return ReturnerActivity.New(slot0)
+	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_ATELIER_LINK then
+		return AtelierActivity.New(slot0)
 	else
 		return Activity.New(slot0)
 	end

@@ -51,9 +51,9 @@ end
 
 function slot8.TriggerBattleInitBuffs(slot0)
 	for slot4, slot5 in pairs(slot0._fleetList) do
-		for slot10, slot11 in ipairs(slot5:GetUnitList()) do
-			slot11:TriggerBuff(uv0.BuffEffectType.ON_INIT_GAME)
-		end
+		slot6 = slot5:GetUnitList()
+
+		slot5:FleetBuffTrigger(uv0.BuffEffectType.ON_INIT_GAME)
 	end
 end
 
@@ -74,7 +74,7 @@ function slot8.TirggerBattleStartBuffs(slot0)
 				uv1:AddBuff(uv0.Battle.BattleBuffUnit.New(slot0))
 			end)
 			underscore.each(slot0._battleInitData.GlobalBuffIDs or {}, function (slot0)
-				uv1:AddBuff(uv0.Battle.BattleBuffUnit.New(slot0))
+				uv1:AddBuff(uv0.Battle.BattleBuffUnit.New(tonumber(slot0)))
 			end)
 
 			if slot0._battleInitData.MapAuraSkills then

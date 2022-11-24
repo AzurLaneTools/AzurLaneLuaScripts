@@ -1,17 +1,18 @@
 ys = ys or {}
 slot0 = ys
+slot1 = slot0.Battle.BattleFormulas
 slot0.Battle.BattleBuffEffect = class("BattleBuffEffect")
 slot0.Battle.BattleBuffEffect.__name = "BattleBuffEffect"
-slot1 = slot0.Battle.BattleUnitEvent
-slot2 = slot0.Battle.BattleBuffEffect
-slot2.FX_TYPE_NOR = 0
-slot2.FX_TYPE_MOD_ATTR = 1
-slot2.FX_TYPE_CASTER = 2
-slot2.FX_TYPE_LINK = 3
-slot2.FX_TYPE_MOD_VELOCTIY = 4
-slot2.FX_TYPE_DOT = 5
+slot2 = slot0.Battle.BattleUnitEvent
+slot3 = slot0.Battle.BattleBuffEffect
+slot3.FX_TYPE_NOR = 0
+slot3.FX_TYPE_MOD_ATTR = 1
+slot3.FX_TYPE_CASTER = 2
+slot3.FX_TYPE_LINK = 3
+slot3.FX_TYPE_MOD_VELOCTIY = 4
+slot3.FX_TYPE_DOT = 5
 
-function slot2.Ctor(slot0, slot1)
+function slot3.Ctor(slot0, slot1)
 	slot0._tempData = Clone(slot1)
 	slot0._type = slot0._tempData.type
 	slot0._quota = slot0._tempData.arg_list.quota or -1
@@ -25,21 +26,24 @@ function slot2.Ctor(slot0, slot1)
 	slot0._bulletTagRequire = slot2.bulletTag
 	slot0._buffStateIDRequire = slot2.buff_state_id
 	slot0._cloakRequire = slot2.cloak_state
+	slot0._fleetAttrRequire = slot2.fleetAttr
+	slot0._fleetAttrDeltaRequire = slot2.fleetAttrDelta
+	slot0._stackRequire = slot2.stack_require
 
 	slot0:ConfigHPTrigger()
 	slot0:ConfigAttrTrigger()
 	slot0:SetActive()
 end
 
-function slot2.GetEffectType(slot0)
+function slot3.GetEffectType(slot0)
 	return uv0.FX_TYPE_NOR
 end
 
-function slot2.GetPopConfig(slot0)
+function slot3.GetPopConfig(slot0)
 	return slot0._tempData.pop
 end
 
-function slot2.HaveQuota(slot0)
+function slot3.HaveQuota(slot0)
 	if slot0._quota == 0 then
 		return false
 	else
@@ -47,11 +51,11 @@ function slot2.HaveQuota(slot0)
 	end
 end
 
-function slot2.GetEffectAttachData(slot0)
+function slot3.GetEffectAttachData(slot0)
 	return nil
 end
 
-function slot2.ConfigHPTrigger(slot0)
+function slot3.ConfigHPTrigger(slot0)
 	slot1 = slot0._tempData.arg_list
 	slot0._hpUpperBound = slot1.hpUpperBound
 	slot0._hpLowerBound = slot1.hpLowerBound
@@ -72,43 +76,43 @@ function slot2.ConfigHPTrigger(slot0)
 	slot0._dhpSmallerMaxhp = slot1.dhpSmallerMaxhp
 end
 
-function slot2.ConfigAttrTrigger(slot0)
+function slot3.ConfigAttrTrigger(slot0)
 	slot1 = slot0._tempData.arg_list
 	slot0._attrLowerBound = slot1.attrLowerBound
 	slot0._attrUpperBound = slot1.attrUpperBound
 	slot0._attrInterval = slot1.attrInterval
 end
 
-function slot2.SetCaster(slot0, slot1)
+function slot3.SetCaster(slot0, slot1)
 	slot0._caster = slot1
 end
 
-function slot2.SetCommander(slot0, slot1)
+function slot3.SetCommander(slot0, slot1)
 	slot0._commander = slot1
 end
 
-function slot2.SetBullet(slot0, slot1)
+function slot3.SetBullet(slot0, slot1)
 end
 
-function slot2.SetArgs(slot0, slot1, slot2)
+function slot3.SetArgs(slot0, slot1, slot2)
 end
 
-function slot2.SetOrb(slot0)
+function slot3.SetOrb(slot0)
 end
 
-function slot2.Trigger(slot0, slot1, slot2, slot3, slot4)
+function slot3.Trigger(slot0, slot1, slot2, slot3, slot4)
 	slot0:__slot1_None__(slot2, slot3, slot4)
 end
 
-function slot2.onAttach(slot0, slot1, slot2)
+function slot3.onAttach(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onRemove(slot0, slot1, slot2)
+function slot3.onRemove(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onBuffAdded(slot0, slot1, slot2, slot3)
+function slot3.onBuffAdded(slot0, slot1, slot2, slot3)
 	if not slot0:buffStateRequire(slot3.buffID) then
 		return
 	end
@@ -116,7 +120,7 @@ function slot2.onBuffAdded(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onBuffRemoved(slot0, slot1, slot2, slot3)
+function slot3.onBuffRemoved(slot0, slot1, slot2, slot3)
 	if not slot0:buffStateRequire(slot3.buffID) then
 		return
 	end
@@ -124,15 +128,15 @@ function slot2.onBuffRemoved(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onUpdate(slot0, slot1, slot2)
+function slot3.onUpdate(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onStack(slot0, slot1, slot2)
+function slot3.onStack(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onBulletHit(slot0, slot1, slot2, slot3)
+function slot3.onBulletHit(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -140,11 +144,11 @@ function slot2.onBulletHit(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onTeammateBulletHit(slot0, slot1, slot2, slot3)
+function slot3.onTeammateBulletHit(slot0, slot1, slot2, slot3)
 	slot0:onBulletHit(slot1, slot2, slot3)
 end
 
-function slot2.onBeHit(slot0, slot1, slot2, slot3)
+function slot3.onBeHit(slot0, slot1, slot2, slot3)
 	if slot0._behit then
 		if slot0._behit.damage_type == slot3.weaponType and slot0._behit.bullet_type == slot3.bulletType then
 			slot0:onTrigger(slot1, slot2)
@@ -154,7 +158,7 @@ function slot2.onBeHit(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.onFire(slot0, slot1, slot2, slot3)
+function slot3.onFire(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -162,7 +166,7 @@ function slot2.onFire(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onCombo(slot0, slot1, slot2, slot3)
+function slot3.onCombo(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -177,7 +181,35 @@ function slot2.onCombo(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.equipIndexRequire(slot0, slot1)
+function slot3.stackRequire(slot0, slot1)
+	if slot0._stackRequire then
+		return uv0.simpleCompare(slot0._stackRequire, slot1:GetStack())
+	else
+		return true
+	end
+end
+
+function slot3.fleetAttrRequire(slot0, slot1)
+	if slot0._fleetAttrRequire then
+		if slot1:GetFleetVO() then
+			return uv0.parseCompare(slot0._fleetAttrRequire, slot1:GetFleetVO():GetFleetAttr())
+		else
+			return false
+		end
+	end
+
+	return true
+end
+
+function slot3.fleetAttrDelatRequire(slot0, slot1)
+	if slot0._fleetAttrDeltaRequire then
+		return slot1 and uv0.simpleCompare(slot0._fleetAttrDeltaRequire, slot1)
+	end
+
+	return true
+end
+
+function slot3.equipIndexRequire(slot0, slot1)
 	if not slot0._indexRequire then
 		return true
 	else
@@ -191,7 +223,7 @@ function slot2.equipIndexRequire(slot0, slot1)
 	end
 end
 
-function slot2.ammoRequire(slot0, slot1)
+function slot3.ammoRequire(slot0, slot1)
 	if not slot0._ammoTypeRequire then
 		return true
 	elseif not slot1:GetWeaponByIndex(slot0._ammoIndexRequire) or slot2:GetPrimalAmmoType() ~= slot0._ammoTypeRequire then
@@ -201,7 +233,7 @@ function slot2.ammoRequire(slot0, slot1)
 	end
 end
 
-function slot2.bulletTagRequire(slot0, slot1)
+function slot3.bulletTagRequire(slot0, slot1)
 	if not slot0._bulletTagRequire then
 		return true
 	else
@@ -215,7 +247,7 @@ function slot2.bulletTagRequire(slot0, slot1)
 	end
 end
 
-function slot2.buffStateRequire(slot0, slot1)
+function slot3.buffStateRequire(slot0, slot1)
 	if not slot0._buffStateIDRequire then
 		return true
 	else
@@ -223,75 +255,75 @@ function slot2.buffStateRequire(slot0, slot1)
 	end
 end
 
-function slot2.onWeaponSteday(slot0, slot1, slot2, slot3)
+function slot3.onWeaponSteday(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
-function slot2.onChargeWeaponFire(slot0, slot1, slot2, slot3)
+function slot3.onChargeWeaponFire(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
-function slot2.onTorpedoWeaponFire(slot0, slot1, slot2, slot3)
+function slot3.onTorpedoWeaponFire(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
-function slot2.onAntiAirWeaponFireFar(slot0, slot1, slot2, slot3)
+function slot3.onAntiAirWeaponFireFar(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
-function slot2.onAntiAirWeaponFireNear(slot0, slot1, slot2, slot3)
+function slot3.onAntiAirWeaponFireNear(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
-function slot2.onManualMissileFire(slot0, slot1, slot2, slot3)
+function slot3.onManualMissileFire(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
-function slot2.onAllInStrike(slot0, slot1, slot2, slot3)
+function slot3.onAllInStrike(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
-function slot2.onAllInStrikeSteady(slot0, slot1, slot2, slot3)
+function slot3.onAllInStrikeSteady(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
-function slot2.onWeaonInterrupt(slot0, slot1, slot2, slot3)
+function slot3.onWeaonInterrupt(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onWeaponSuccess(slot0, slot1, slot2, slot3)
+function slot3.onWeaponSuccess(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onChargeWeaponReady(slot0, slot1, slot2, slot3)
+function slot3.onChargeWeaponReady(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onManualTorpedoReady(slot0, slot1, slot2, slot3)
+function slot3.onManualTorpedoReady(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onAirAssistReady(slot0, slot1, slot2, slot3)
+function slot3.onAirAssistReady(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onManualMissileReady(slot0, slot1, slot2, slot3)
+function slot3.onManualMissileReady(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onTorpedoButtonPush(slot0, slot1, slot2, slot3)
+function slot3.onTorpedoButtonPush(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onBeforeFatalDamage(slot0, slot1, slot2)
+function slot3.onBeforeFatalDamage(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onAircraftCreate(slot0, slot1, slot2, slot3)
+function slot3.onAircraftCreate(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onFriendlyAircraftDying(slot0, slot1, slot2, slot3)
+function slot3.onFriendlyAircraftDying(slot0, slot1, slot2, slot3)
 	if slot0._tempData.arg_list.templateID then
 		if slot3.unit:GetTemplateID() == slot0._tempData.arg_list.templateID then
 			slot0:onTrigger(slot1, slot2)
@@ -301,11 +333,11 @@ function slot2.onFriendlyAircraftDying(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.onFriendlyShipDying(slot0, slot1, slot2)
+function slot3.onFriendlyShipDying(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onFoeAircraftDying(slot0, slot1, slot2, slot3)
+function slot3.onFoeAircraftDying(slot0, slot1, slot2, slot3)
 	if slot0._tempData.arg_list.inside then
 		if not slot1:GetFleetVO():GetFleetAntiAirWeapon():IsOutOfRange(slot3.unit) then
 			slot0:onTrigger(slot1, slot2)
@@ -319,7 +351,7 @@ function slot2.onFoeAircraftDying(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.onFoeDying(slot0, slot1, slot2, slot3)
+function slot3.onFoeDying(slot0, slot1, slot2, slot3)
 	if slot0._tempData.arg_list.killer then
 		if slot0:killerRequire(slot0._tempData.arg_list.killer, slot3.killer, slot1) then
 			slot0:onTrigger(slot1, slot2)
@@ -333,11 +365,11 @@ function slot2.onFoeDying(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.onSink(slot0, slot1, slot2)
+function slot3.onSink(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.killerRequire(slot0, slot1, slot2, slot3)
+function slot3.killerRequire(slot0, slot1, slot2, slot3)
 	if not slot2 then
 		return false
 	end
@@ -366,7 +398,7 @@ function slot2.killerRequire(slot0, slot1, slot2, slot3)
 	return false
 end
 
-function slot2.victimRequire(slot0, slot1, slot2, slot3)
+function slot3.victimRequire(slot0, slot1, slot2, slot3)
 	if slot2:ContainsLabelTag(slot1) then
 		return true
 	else
@@ -374,59 +406,59 @@ function slot2.victimRequire(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.onInitGame(slot0, slot1, slot2)
+function slot3.onInitGame(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onStartGame(slot0, slot1, slot2)
+function slot3.onStartGame(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onManual(slot0, slot1, slot2)
+function slot3.onManual(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onAutoBot(slot0, slot1, slot2)
+function slot3.onAutoBot(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onFlagShip(slot0, slot1, slot2)
+function slot3.onFlagShip(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onUpperConsort(slot0, slot1, slot2)
+function slot3.onUpperConsort(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onLowerConsort(slot0, slot1, slot2)
+function slot3.onLowerConsort(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onLeader(slot0, slot1, slot2)
+function slot3.onLeader(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onCenter(slot0, slot1, slot2)
+function slot3.onCenter(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onRear(slot0, slot1, slot2)
+function slot3.onRear(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onSubLeader(slot0, slot1, slot2)
+function slot3.onSubLeader(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onUpperSubConsort(slot0, slot1, slot2)
+function slot3.onUpperSubConsort(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onLowerSubConsort(slot0, slot1, slot2)
+function slot3.onLowerSubConsort(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onBulletCollide(slot0, slot1, slot2, slot3)
+function slot3.onBulletCollide(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -434,7 +466,7 @@ function slot2.onBulletCollide(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onBombBulletBang(slot0, slot1, slot2, slot3)
+function slot3.onBombBulletBang(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -442,7 +474,7 @@ function slot2.onBombBulletBang(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onTorpedoBulletBang(slot0, slot1, slot2, slot3)
+function slot3.onTorpedoBulletBang(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -450,7 +482,7 @@ function slot2.onTorpedoBulletBang(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onBulletHitBefore(slot0, slot1, slot2, slot3)
+function slot3.onBulletHitBefore(slot0, slot1, slot2, slot3)
 	if slot0._behit then
 		if slot0._behit.damage_type == slot3.weaponType and slot0._behit.bullet_type == slot3.bulletType then
 			slot0:onTrigger(slot1, slot2)
@@ -460,7 +492,7 @@ function slot2.onBulletHitBefore(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.onBulletCreate(slot0, slot1, slot2, slot3)
+function slot3.onBulletCreate(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -468,15 +500,15 @@ function slot2.onBulletCreate(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onChargeWeaponBulletCreate(slot0, slot1, slot2, slot3)
+function slot3.onChargeWeaponBulletCreate(slot0, slot1, slot2, slot3)
 	slot0:onBulletCreate(slot1, slot2, slot3)
 end
 
-function slot2.onTorpedoWeaponBulletCreate(slot0, slot1, slot2, slot3)
+function slot3.onTorpedoWeaponBulletCreate(slot0, slot1, slot2, slot3)
 	slot0:onBulletCreate(slot1, slot2, slot3)
 end
 
-function slot2.onInternalBulletCreate(slot0, slot1, slot2, slot3)
+function slot3.onInternalBulletCreate(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -484,7 +516,7 @@ function slot2.onInternalBulletCreate(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onManualBulletCreate(slot0, slot1, slot2, slot3)
+function slot3.onManualBulletCreate(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -492,25 +524,29 @@ function slot2.onManualBulletCreate(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onTakeDamage(slot0, slot1, slot2, slot3)
+function slot3.onTakeDamage(slot0, slot1, slot2, slot3)
 	if slot0:damageCheck(slot3) then
 		slot0:onTrigger(slot1, slot2, slot3)
 	end
 end
 
-function slot2.onTakeHealing(slot0, slot1, slot2, slot3)
+function slot3.onTakeHealing(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onOverHealing(slot0, slot1, slot2, slot3)
+function slot3.onOverHealing(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.damageCheck(slot0, slot1)
+function slot3.onFleetAttrUpdate(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
+function slot3.damageCheck(slot0, slot1)
 	return slot0:damageAttrRequire(slot1.damageAttr) and slot0:damageReasonRequire(slot1.damageReason)
 end
 
-function slot2.damageAttrRequire(slot0, slot1)
+function slot3.damageAttrRequire(slot0, slot1)
 	if not slot0._damageAttrRequire or table.contains(slot0._damageAttrRequire, slot1) then
 		return true
 	else
@@ -518,7 +554,7 @@ function slot2.damageAttrRequire(slot0, slot1)
 	end
 end
 
-function slot2.damageReasonRequire(slot0, slot1)
+function slot3.damageReasonRequire(slot0, slot1)
 	if not slot0._damageReasonRequire or table.contains(slot0._damageReasonRequire, slot1) then
 		return true
 	else
@@ -526,7 +562,7 @@ function slot2.damageReasonRequire(slot0, slot1)
 	end
 end
 
-function slot2.hpIntervalRequire(slot0, slot1, slot2)
+function slot3.hpIntervalRequire(slot0, slot1, slot2)
 	if slot0._hpUpperBound == nil and slot0._hpLowerBound == nil then
 		return true
 	end
@@ -552,7 +588,7 @@ function slot2.hpIntervalRequire(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.dhpRequire(slot0, slot1, slot2)
+function slot3.dhpRequire(slot0, slot1, slot2)
 	if slot0._dHPGreater then
 		return slot2 * slot0._dHPGreater > 0 and math.abs(slot0._dHPGreater) < math.abs(slot2)
 	elseif slot0._dHPGreaterMaxHP then
@@ -566,7 +602,7 @@ function slot2.dhpRequire(slot0, slot1, slot2)
 	end
 end
 
-function slot2.attrIntervalRequire(slot0, slot1)
+function slot3.attrIntervalRequire(slot0, slot1)
 	slot2 = true
 
 	if slot0._attrUpperBound and slot0._attrUpperBound <= slot1 then
@@ -580,113 +616,113 @@ function slot2.attrIntervalRequire(slot0, slot1)
 	return slot2
 end
 
-function slot2.onHPRatioUpdate(slot0, slot1, slot2, slot3)
+function slot3.onHPRatioUpdate(slot0, slot1, slot2, slot3)
 	if slot0:hpIntervalRequire(slot1:GetHPRate(), slot3.dHP) and slot0:dhpRequire(slot1:GetMaxHP(), slot5) then
 		slot0:doOnHPRatioUpdate(slot1, slot2, slot3)
 	end
 end
 
-function slot2.onFriendlyHpRatioUpdate(slot0, slot1, slot2, slot3)
+function slot3.onFriendlyHpRatioUpdate(slot0, slot1, slot2, slot3)
 	if slot0:hpIntervalRequire(slot3.unit:GetHPRate(), slot3.dHP) and slot0:dhpRequire(slot4:GetMaxHP(), slot5) then
 		slot0:doOnHPRatioUpdate(slot1, slot2, slot3)
 	end
 end
 
-function slot2.onTeammateHpRatioUpdate(slot0, slot1, slot2, slot3)
+function slot3.onTeammateHpRatioUpdate(slot0, slot1, slot2, slot3)
 	slot0:onFriendlyHpRatioUpdate(slot1, slot2, slot3)
 end
 
-function slot2.onBulletKill(slot0, slot1, slot2)
+function slot3.onBulletKill(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot2.onBattleBuffCount(slot0, slot1, slot2, slot3)
+function slot3.onBattleBuffCount(slot0, slot1, slot2, slot3)
 	if slot3.buffFX:GetCountType() == slot0._countType and slot0:onTrigger(slot1, slot2) ~= "overheat" then
 		slot4:ResetCount()
 	end
 end
 
-function slot2.onShieldBroken(slot0, slot1, slot2, slot3)
+function slot3.onShieldBroken(slot0, slot1, slot2, slot3)
 	if slot3.shieldBuffID == slot0._tempData.arg_list.shieldBuffID then
 		slot0:onTrigger(slot1, slot2)
 	end
 end
 
-function slot2.onTrigger(slot0, slot1, slot2, slot3)
+function slot3.onTrigger(slot0, slot1, slot2, slot3)
 	if slot0._quota > 0 then
 		slot0._quota = slot0._quota - 1
 	end
 end
 
-function slot2.doOnHPRatioUpdate(slot0, slot1, slot2, slot3)
+function slot3.doOnHPRatioUpdate(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.doOnFriendlyHPRatioUpdate(slot0, slot1, slot2, slot3)
+function slot3.doOnFriendlyHPRatioUpdate(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubmarineDive(slot0, slot1, slot2, slot3)
+function slot3.onSubmarineDive(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubmarineRaid(slot0, slot1, slot2, slot3)
+function slot3.onSubmarineRaid(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubmarineFloat(slot0, slot1, slot2, slot3)
+function slot3.onSubmarineFloat(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubmarineRetreat(slot0, slot1, slot2, slot3)
+function slot3.onSubmarineRetreat(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubmarineAid(slot0, slot1, slot2, slot3)
+function slot3.onSubmarineAid(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubmarinFreeDive(slot0, slot1, slot2, slot3)
+function slot3.onSubmarinFreeDive(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubmarinFreeFloat(slot0, slot1, slot2, slot3)
+function slot3.onSubmarinFreeFloat(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubmarineFreeSpecial(slot0, slot1, slot2, slot3)
+function slot3.onSubmarineFreeSpecial(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubDetected(slot0, slot1, slot2, slot3)
+function slot3.onSubDetected(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onSubUnDetected(slot0, slot1, slot2, slot3)
+function slot3.onSubUnDetected(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onAntiSubHateChain(slot0, slot1, slot2, slot3)
+function slot3.onAntiSubHateChain(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, attach)
 end
 
-function slot2.onRetreat(slot0, slot1, slot2, slot3)
+function slot3.onRetreat(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 
-function slot2.onCloakUpdate(slot0, slot1, slot2, slot3)
+function slot3.onCloakUpdate(slot0, slot1, slot2, slot3)
 	if slot0:cloakStateRequire(slot3.cloakState) then
 		slot0:onTrigger(slot1, slot2, slot3)
 	end
 end
 
-function slot2.onTeammateCloakUpdate(slot0, slot1, slot2, slot3)
+function slot3.onTeammateCloakUpdate(slot0, slot1, slot2, slot3)
 	if slot0:cloakStateRequire(slot3.cloakState) then
 		slot0:onTrigger(slot1, slot2, slot3)
 	end
 end
 
-function slot2.cloakStateRequire(slot0, slot1)
+function slot3.cloakStateRequire(slot0, slot1)
 	if not slot0._cloakRequire then
 		return true
 	else
@@ -694,14 +730,14 @@ function slot2.cloakStateRequire(slot0, slot1)
 	end
 end
 
-function slot2.Interrupt(slot0)
+function slot3.Interrupt(slot0)
 end
 
-function slot2.Clear(slot0)
+function slot3.Clear(slot0)
 	slot0._commander = nil
 end
 
-function slot2.getTargetList(slot0, slot1, slot2, slot3, slot4)
+function slot3.getTargetList(slot0, slot1, slot2, slot3, slot4)
 	if type(slot2) == "string" then
 		slot2 = {
 			slot2
@@ -723,7 +759,7 @@ function slot2.getTargetList(slot0, slot1, slot2, slot3, slot4)
 	return slot6
 end
 
-function slot2.commanderRequire(slot0, slot1)
+function slot3.commanderRequire(slot0, slot1)
 	if slot0._tempData.arg_list.CMDBuff_id then
 		slot2, slot3 = uv0.Battle.BattleDataProxy.GetInstance():GetCommanderBuff()
 		slot4 = nil
@@ -743,29 +779,29 @@ function slot2.commanderRequire(slot0, slot1)
 	end
 end
 
-function slot2.IsActive(slot0)
+function slot3.IsActive(slot0)
 	return slot0._isActive
 end
 
-function slot2.SetActive(slot0)
+function slot3.SetActive(slot0)
 	slot0._isActive = true
 end
 
-function slot2.NotActive(slot0)
+function slot3.NotActive(slot0)
 	slot0._isActive = false
 end
 
-function slot2.IsLock(slot0)
+function slot3.IsLock(slot0)
 	return slot0._isLock
 end
 
-function slot2.SetLock(slot0)
+function slot3.SetLock(slot0)
 	slot0._isLock = true
 end
 
-function slot2.NotLock(slot0)
+function slot3.NotLock(slot0)
 	slot0._isLock = false
 end
 
-function slot2.Dispose(slot0)
+function slot3.Dispose(slot0)
 end

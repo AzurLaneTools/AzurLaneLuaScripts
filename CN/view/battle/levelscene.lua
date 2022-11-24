@@ -168,6 +168,10 @@ function slot0.initUI(slot0)
 
 	setActive(slot0.actEliteBtn, false)
 
+	slot0.actRyzaBtn = slot0:findTF("buttons/btn_ryza", slot0.leftChapter)
+
+	setActive(slot0.actRyzaBtn, false)
+
 	slot0.actExtraBtn = slot0:findTF("buttons/btn_act_extra", slot0.leftChapter)
 	slot0.actExtraBtnAnim = slot0:findTF("usm", slot0.actExtraBtn)
 	slot0.remasterBtn = slot0:findTF("buttons/btn_remaster", slot0.leftChapter)
@@ -195,7 +199,6 @@ function slot0.initUI(slot0)
 	slot0.activityBtn = slot0:findTF("event_btns/activity_btn", slot0.rightChapter)
 	slot0.ptTotal = slot0:findTF("event_btns/pt_text", slot0.rightChapter)
 	slot0.ticketTxt = slot0:findTF("event_btns/tickets/Text", slot0.rightChapter)
-	slot0.actExchangeShopBtn = slot0:findTF("event_btns/btn_exchange", slot0.rightChapter)
 	slot0.signalBtn = slot0:findTF("btn_signal", slot0.rightChapter)
 
 	setActive(slot0.signalBtn, false)
@@ -204,7 +207,12 @@ function slot0.initUI(slot0)
 	slot0.btnNext = slot0:findTF("btn_next", slot0.rightChapter)
 	slot0.btnNextCol = slot0:findTF("btn_next/next_image", slot0.rightChapter)
 	slot0.countDown = slot0:findTF("event_btns/count_down", slot0.rightChapter)
-	slot0.actExtraRank = slot0:findTF("event_btns/act_extra_rank", slot0.rightChapter)
+
+	setActive(slot0:findTF("event_btns/BottomList", slot0.rightChapter), true)
+
+	slot0.actExchangeShopBtn = slot0:findTF("event_btns/BottomList/btn_exchange", slot0.rightChapter)
+	slot0.actAtelierBuffBtn = slot0:findTF("event_btns/BottomList/btn_control_center", slot0.rightChapter)
+	slot0.actExtraRank = slot0:findTF("event_btns/BottomList/act_extra_rank", slot0.rightChapter)
 
 	setActive(slot0.rightChapter, true)
 	setActive(slot0.remasterAwardBtn, false)
@@ -1125,20 +1133,26 @@ function slot0.updateActivityBtns(slot0)
 			setActive(slot0.actExtraBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
+		slot16 = ChapterConst.IsAtelierMap(slot0.contextData.map)
+
 		setActive(slot0.actEliteBtn, checkExist(slot0.contextData.map:getBindMap(), {
 			"isHardMap"
-		}) and slot6 ~= Map.ACTIVITY_HARD)
+		}) and slot6 ~= Map.ACTIVITY_HARD and not slot16)
+		setActive(slot0.actRyzaBtn, slot15 and slot6 ~= Map.ACTIVITY_HARD and slot16)
 		setActive(slot0.actNormalBtn, slot6 ~= Map.ACTIVITY_EASY)
 		setActive(slot0.actExtraRank, slot6 == Map.ACT_EXTRA)
 		setActive(slot0.actExchangeShopBtn, not slot3 and slot2 and not ActivityConst.HIDE_PT_PANELS)
+		setActive(slot0.actAtelierBuffBtn, AtelierActivity.IsActivityBuffMap(slot0.contextData.map) and not slot3 and slot2 and not ActivityConst.HIDE_PT_PANELS)
 		setActive(slot0.ptTotal, not slot3 and slot2 and not ActivityConst.HIDE_PT_PANELS and slot0.ptActivity and not slot0.ptActivity:isEnd())
 		slot0:updateActivityRes()
 	else
 		setActive(slot0.actExtraBtn, false)
 		setActive(slot0.actEliteBtn, false)
+		setActive(slot0.actRyzaBtn, false)
 		setActive(slot0.actNormalBtn, false)
 		setActive(slot0.actExtraRank, false)
 		setActive(slot0.actExchangeShopBtn, false)
+		setActive(slot0.actAtelierBuffBtn, false)
 		setActive(slot0.ptTotal, false)
 	end
 
@@ -1317,6 +1331,13 @@ function slot0.registerActBtn(slot0)
 
 		uv0:emit(LevelMediator2.GO_ACT_SHOP)
 	end, SFX_UI_CLICK)
+	onButton(slot0, slot0.actAtelierBuffBtn, function ()
+		if uv0:isfrozen() then
+			return
+		end
+
+		uv0:emit(LevelMediator2.SHOW_ATELIER_BUFF)
+	end, SFX_UI_CLICK)
 
 	slot1 = getProxy(ChapterProxy)
 
@@ -1345,7 +1366,7 @@ function slot0.registerActBtn(slot0)
 		return slot3[slot4]
 	end
 
-	onButton(slot0, slot0.actEliteBtn, function ()
+	function slot3()
 		if uv0:isfrozen() then
 			return
 		end
@@ -1357,7 +1378,10 @@ function slot0.registerActBtn(slot0)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(slot3)
 		end
-	end, SFX_PANEL)
+	end
+
+	onButton(slot0, slot0.actEliteBtn, slot3, SFX_PANEL)
+	onButton(slot0, slot0.actRyzaBtn, slot3, SFX_PANEL)
 	onButton(slot0, slot0.actNormalBtn, function ()
 		if uv0:isfrozen() then
 			return
@@ -1629,6 +1653,20 @@ function slot0.tryPlayMapStory(slot0)
 			end
 
 			slot0()
+		end,
+		function (slot0)
+			if isActive(uv0.actAtelierBuffBtn) and pg.NewStoryMgr.GetInstance():IsPlayed("NG0033") then
+				slot2 = nil
+
+				pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0034", (not (PlayerPrefs.GetInt("first_enter_ryza_buff_" .. getProxy(PlayerProxy):getRawData().id, 0) == 0) or {
+					1,
+					2
+				}) and {
+					1
+				})
+			else
+				slot0()
+			end
 		end,
 		function (slot0)
 			if uv0.exited then

@@ -18,7 +18,7 @@ function slot1.MakeModel(slot0, slot1, slot2)
 		slot1:AddTempModel(slot0:GetTempGOPool():GetObject())
 	end
 
-	uv0.Battle.PlayBattleSFX(slot4.hit_sfx)
+	uv0.Battle.PlayBattleSFX(slot3:GetHitSFX())
 	slot1:SetSpawn(slot2)
 	slot1:SetFXFunc(function (slot0, slot1, slot2)
 		slot3 = slot0:GetBulletData()

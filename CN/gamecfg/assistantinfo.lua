@@ -34,6 +34,10 @@ slot1.assistantEvents = {
 		action = "main_5",
 		dialog = "main_5"
 	},
+	idleRandom9 = {
+		action = "main_7",
+		dialog = "main_7"
+	},
 	event_complete = {
 		action = "complete",
 		dialog = "expedition"
@@ -94,7 +98,8 @@ slot1.assistantTouchEvents = {
 		"idleRandom3",
 		"idleRandom4",
 		"idleRandom5",
-		"idleRandom6"
+		"idleRandom6",
+		"idleRandom9"
 	}
 }
 slot1.useNewTouchEventShip = {
@@ -170,7 +175,8 @@ slot1.IdleEvents = {
 	"idleRandom3",
 	"idleRandom4",
 	"idleRandom5",
-	"idleRandom6"
+	"idleRandom6",
+	"idleRandom9"
 }
 slot1.PaintingTouchEvents = {
 	"TouchBody",
@@ -179,7 +185,8 @@ slot1.PaintingTouchEvents = {
 	"idleRandom3",
 	"idleRandom4",
 	"idleRandom5",
-	"idleRandom6"
+	"idleRandom6",
+	"idleRandom9"
 }
 slot1.PaintingTouchParts = {
 	["1"] = "TouchSpecial",

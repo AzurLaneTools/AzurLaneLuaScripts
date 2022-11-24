@@ -945,71 +945,81 @@ function slot0.getWorldRecommendShip(slot0, slot1, slot2)
 end
 
 function slot0.getModRecommendShip(slot0, slot1, slot2)
-	slot3 = pg.ShipFlagMgr.GetInstance()
-	slot3 = slot3:FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_2, underscore.keys(slot0.data))
-
-	function slot4(slot0)
-		return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
-	end
-
-	slot5 = {}
-
-	for slot9, slot10 in pairs(slot0.data) do
-		if slot4(slot10) then
-			table.insert(slot5, slot10)
-		end
-	end
-
-	slot8 = pg.ship_data_by_type[slot1:getConfig("type")].strengthen_choose_type
-	slot9 = {
-		function (slot0)
-			return slot0:isSameKind(uv0) and 0 or 1
-		end,
-		function (slot0)
-			return table.indexof(uv0, slot0:getConfig("type"))
-		end
-	}
-
-	table.sort(slot5, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, uv0)
+	slot8 = underscore.map(slot2, function (slot0)
+		return uv0.data[slot0]
 	end)
 
-	slot10 = {}
-
-	for slot14, slot15 in pairs(slot2) do
-		table.insert(slot10, slot0.data[slot15])
+	for slot8, slot9 in pairs(ShipModLayer.getModExpAdditions(Clone(slot1), slot8)) do
+		slot4:addModAttrExp(slot8, slot9)
 	end
 
-	for slot14, slot15 in ipairs(slot5) do
-		if #slot10 == 12 then
+	slot6 = 0
+
+	for slot10, slot11 in pairs(slot4:getNeedModExp()) do
+		slot6 = slot6 + slot11
+	end
+
+	slot7 = {}
+
+	for slot11, slot12 in pairs(slot0.data) do
+		if slot12:isSameKind(slot1) then
+			slot7.sameKind = slot7.sameKind or {}
+
+			table.insert(slot7.sameKind, slot12)
+		else
+			slot7[slot13] = slot7[slot12:getShipType()] or {}
+
+			table.insert(slot7[slot13], slot12)
+		end
+	end
+
+	slot12 = pg.ship_data_by_type[slot1:getConfig("type")].strengthen_choose_type
+
+	for slot12, slot13 in ipairs(table.mergeArray({
+		"sameKind"
+	}, slot12)) do
+		if #slot3 == 12 or slot6 == 0 then
 			break
 		end
 
-		for slot21, slot22 in pairs(ShipModLayer.getModExpAdditions(Clone(slot1), slot10)) do
-			slot16:addModAttrExp(slot21, slot22)
+		slot14 = slot7[slot13] or {}
+		slot15 = {}
+		slot17 = pg.ShipFlagMgr.GetInstance()
+		slot19 = ShipStatus.FILTER_SHIPS_FLAGS_2
+		slot20 = underscore.map
+
+		for slot19, slot20 in ipairs(slot17:FilterShips(slot19, slot20(slot14, function (slot0)
+			return slot0.id
+		end))) do
+			slot15[slot20] = true
 		end
 
-		slot19 = {}
-
-		for slot23, slot24 in pairs(ShipModLayer.getModExpAdditions(slot16, {
-			slot15
-		})) do
-			if slot24 > 0 then
-				table.insert(slot19, {
-					attrName = slot23,
-					value = slot24
-				})
+		for slot19, slot20 in ipairs(underscore.filter(slot14, function (slot0)
+			return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not uv2[slot0.id]
+		end)) do
+			if #slot3 == 12 or slot6 == 0 then
+				break
 			end
-		end
 
-		if not underscore.all(slot19, function (slot0)
-			return uv0:leftModAdditionPoint(slot0.attrName) == 0
-		end) then
-			table.insert(slot10, slot15)
+			slot22 = false
+
+			for slot26, slot27 in pairs(ShipModLayer.getModExpAdditions(slot4, {
+				slot20
+			})) do
+				if slot27 > 0 and slot5[slot26] > 0 then
+					slot22 = true
+					slot6 = slot6 - math.min(slot5[slot26], slot27)
+					slot5[slot26] = math.max(slot5[slot26] - slot27, 0)
+				end
+			end
+
+			if slot22 then
+				table.insert(slot3, slot20)
+			end
 		end
 	end
 
-	return underscore.map(slot10, function (slot0)
+	return underscore.map(slot3, function (slot0)
 		return slot0.id
 	end)
 end

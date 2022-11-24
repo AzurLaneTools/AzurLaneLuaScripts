@@ -515,6 +515,11 @@ slot0.AirDominance = {
 		color = Color.New(0.615686274509804, 0.9215686274509803, 0.14901960784313725)
 	}
 }
+
+function slot0.IsAtelierMap(slot0)
+	return slot0:getConfig("on_activity") == ActivityConst.RYZA_MAP_ACT_ID
+end
+
 chapter_skip_battle = PlayerPrefs.GetInt("chapter_skip_battle") or 0
 
 function switch_chapter_skip_battle()

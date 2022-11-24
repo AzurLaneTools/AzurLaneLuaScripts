@@ -12,4 +12,14 @@ function slot0.GetCommodities(slot0)
 	assert(false)
 end
 
+function slot0.IsPurchaseAll(slot0)
+	for slot5, slot6 in pairs(slot0:GetCommodities()) do
+		if slot6:canPurchase() then
+			return false
+		end
+	end
+
+	return true
+end
+
 return slot0

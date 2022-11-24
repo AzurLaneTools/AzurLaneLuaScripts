@@ -29,6 +29,8 @@ function slot0.IsShowTip(slot0)
 		return slot0:IsShowTip4SummerPark()
 	elseif slot1 == ActivityConst.MINIGAME_CAKEMAKING then
 		return slot0:IsShowTip4CampusFestival2022()
+	elseif slot1 == ActivityConst.MINIGAME_RYZA then
+		return slot0:IsShowTipRyzaLink()
 	end
 end
 
@@ -43,6 +45,8 @@ function slot0.CustomOnClick(slot0)
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.BACKHILL_SUMMERPARK_2022)
 	elseif slot1 == ActivityConst.MINIGAME_CAKEMAKING then
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.BACKHILL_CAMPUSFESTIVAL_2022)
+	elseif slot1 == ActivityConst.MINIGAME_RYZA then
+		slot0:emit(NewMainMediator.GO_SCENE, SCENE.RYZA_URBAN_AREA)
 	else
 		slot0:OnClick()
 	end
@@ -101,6 +105,16 @@ function slot0.IsShowTip4CampusFestival2022(slot0)
 		end
 
 		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
+	end)()
+end
+
+function slot0.IsShowTipRyzaLink(slot0)
+	return (function ()
+		return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_RYZA)
+	end)() or (function ()
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.RYZA_PT))
+	end)() or (function ()
+		return getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.RYZA_TASK)
 	end)()
 end
 

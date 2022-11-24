@@ -34,6 +34,14 @@ function slot3.Effect(slot0, slot1, slot2, slot3)
 	end
 end
 
+function slot3.IsFinaleEffect(slot0)
+	return false
+end
+
+function slot3.SetFinaleCallback(slot0, slot1)
+	slot0._finaleCallback = slot1
+end
+
 function slot3.AniEffect(slot0, slot1, slot2)
 	slot3 = slot2:GetPosition()
 	slot4 = slot1:GetPosition()

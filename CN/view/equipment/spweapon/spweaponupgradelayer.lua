@@ -847,7 +847,7 @@ function slot0.UpdatePtMaterials(slot0, slot1)
 	slot0.candicateSpweapons = {}
 
 	for slot6, slot7 in pairs(slot0.spWeaponList) do
-		if slot7:GetUID() ~= slot0.spWeaponVO:GetUID() and not slot7:GetShipId() and IndexConst.filterSpWeaponByType(slot7, slot0.contextData.indexDatas.typeIndex) and IndexConst.filterSpWeaponByRarity(slot7, slot0.contextData.indexDatas.rarityIndex) then
+		if slot7:GetUID() ~= slot0.spWeaponVO:GetUID() and not slot7:IsUnCraftable() and not slot7:GetShipId() and IndexConst.filterSpWeaponByType(slot7, slot0.contextData.indexDatas.typeIndex) and IndexConst.filterSpWeaponByRarity(slot7, slot0.contextData.indexDatas.rarityIndex) then
 			table.insert(slot0.candicateSpweapons, slot7)
 		end
 	end

@@ -100,7 +100,7 @@ function slot0.RefreshEnemyTplIcons(slot0, slot1, slot2, slot3)
 
 	for slot10, slot11 in ipairs(slot5) do
 		if #slot11 > 0 then
-			slot0:GetLoader():GetSprite("ui/share/ship_gizmos_atlas", slot11, slot4:GetChild(slot10 - 1))
+			slot0:GetLoader():GetSpriteQuiet("ui/share/ship_gizmos_atlas", slot11, slot4:GetChild(slot10 - 1))
 		end
 	end
 end

@@ -4254,6 +4254,79 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[1007] = {
+		subject = "特许巡游凭证",
+		limit_group = 0,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		limit_arg = 1,
+		name = "特许巡游凭证(2022.12)",
+		name_display = "特许巡游凭证",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1007,
+		money = 68,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass8",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·克利夫兰限定换装和其他奖励",
+		airijp_id = "com.yostarjp.azurlane.seasonpass8",
+		extra_service_item = {
+			{
+				1,
+				4008,
+				1500
+			},
+			{
+				8,
+				59297,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4008,
+				1500
+			}
+		},
+		sub_display = {
+			7008,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[2001] = {
 		subject = "最高方案研发礼包(一期)",
 		limit_group = 1,
@@ -4978,6 +5051,7 @@ pg.pay_data_display = {
 		1004,
 		1005,
 		1006,
+		1007,
 		2001,
 		2002,
 		2003,

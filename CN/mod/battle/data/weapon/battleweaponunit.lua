@@ -171,11 +171,14 @@ function slot8.SetSkinData(slot0, slot1)
 	if slot7 ~= "" then
 		slot0._skinHitFX = slot7
 	end
+
+	slot0._skinHixSFX, slot0._skinMissSFX = uv0.GetEquipSkinSFX(slot0._skinID)
 end
 
 function slot8.SetDerivateSkin(slot0, slot1)
 	slot0._derivateSkinID = slot1
-	slot2, slot0._derivateBullet, slot0._derivateTorpedo, slot0._derivateBoom = uv0.GetEquipSkin(slot0._derivateSkinID)
+	slot2, slot0._derivateBullet, slot0._derivateTorpedo, slot0._derivateBoom, slot6, slot0._derviateHitFX = uv0.GetEquipSkin(slot0._derivateSkinID)
+	slot0._skinHixSFX, slot0._skinMissSFX = uv0.GetEquipSkinSFX(slot0._derivateSkinID)
 end
 
 function slot8.GetSkinID(slot0)
@@ -185,12 +188,14 @@ end
 function slot8.setBulletSkin(slot0, slot1, slot2)
 	if slot0._derivateSkinID then
 		if uv0.GetBulletTmpDataFromID(slot2).type == uv1.BulletType.BOMB then
-			slot1:SetModleID(slot0._derivateBoom)
+			slot1:SetModleID(slot0._derivateBoom, nil, slot0._derviateHitFX)
 		elseif slot3 == uv1.BulletType.TORPEDO then
-			slot1:SetModleID(slot0._derivateTorpedo)
+			slot1:SetModleID(slot0._derivateTorpedo, nil, slot0._derviateHitFX)
 		else
-			slot1:SetModleID(slot0._derivateBullet)
+			slot1:SetModleID(slot0._derivateBullet, nil, slot0._derviateHitFX)
 		end
+
+		slot1:SetSFXID(slot0._skinHixSFX, slot0._skinMissSFX)
 	elseif slot0._modelID then
 		slot3 = 0
 
@@ -199,6 +204,7 @@ function slot8.setBulletSkin(slot0, slot1, slot2)
 		end
 
 		slot1:SetModleID(slot0._modelID, slot3, slot0._skinHitFX)
+		slot1:SetSFXID(slot0._skinHixSFX, slot0._skinMissSFX)
 	end
 end
 

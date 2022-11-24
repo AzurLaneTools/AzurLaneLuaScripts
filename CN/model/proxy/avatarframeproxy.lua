@@ -4,25 +4,60 @@ slot0.FRAME_TASK_TIME_OUT = "frame task time out"
 
 function slot0.register(slot0)
 	slot0.avatarFrames = {}
+	slot0.actTasks = {}
 
 	slot0:on(20201, function (slot0)
-		uv0.avatarFrames = uv0:actList(slot0.info)
+		print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+		for slot4, slot5 in ipairs(slot0.info) do
+			slot7 = slot5.tasks
+
+			if pg.activity_template[slot5.act_id].type == ActivityConst.ACTIVITY_TYPE_TASK_RYZA then
+				getProxy(ActivityTaskProxy):initActList(slot6, slot7)
+			end
+		end
+
+		uv0.avatarFrames = uv0:initList(slot0.info)
 	end)
 	slot0:on(20202, function (slot0)
+		for slot4, slot5 in ipairs(slot0.info) do
+			slot7 = slot5.tasks
+
+			if pg.activity_template[slot5.act_id].type == ActivityConst.ACTIVITY_TYPE_TASK_RYZA then
+				getProxy(ActivityTaskProxy):updateActList(slot6, slot7)
+			end
+		end
+
 		uv0:update(slot0.info)
 		uv0.facade:sendNotification(uv1.FRAME_TASK_UPDATED)
 	end)
 	slot0:on(20203, function (slot0)
+		for slot4, slot5 in ipairs(slot0.info) do
+			slot7 = slot5.tasks
+
+			if pg.activity_template[slot5.act_id].type == ActivityConst.ACTIVITY_TYPE_TASK_RYZA then
+				getProxy(ActivityTaskProxy):addActList(slot6, slot7)
+			end
+		end
+
 		uv0:addData(slot0.info)
 		uv0.facade:sendNotification(uv1.FRAME_TASK_UPDATED)
 	end)
 	slot0:on(20204, function (slot0)
+		for slot4, slot5 in ipairs(slot0.info) do
+			slot7 = slot5.tasks
+
+			if pg.activity_template[slot5.act_id].type == ActivityConst.ACTIVITY_TYPE_TASK_RYZA then
+				getProxy(ActivityTaskProxy):removeActList(slot6, slot7)
+			end
+		end
+
 		uv0:removeData(slot0.info)
 		uv0.facade:sendNotification(uv1.FRAME_TASK_UPDATED)
 	end)
 end
 
-function slot0.actList(slot0, slot1)
+function slot0.initList(slot0, slot1)
 	if not slot1 then
 		return {}
 	end
@@ -30,16 +65,18 @@ function slot0.actList(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
-		table.insert(slot2, {
-			actId = slot7.act_id,
-			tasks = slot0:taskList(slot7)
-		})
+		if pg.activity_template[slot7.act_id].type == ActivityConst.ACTIVITY_TYPE_PT_OTHER then
+			table.insert(slot2, {
+				actId = slot8,
+				tasks = slot0:initTask(slot7)
+			})
+		end
 	end
 
 	return slot2
 end
 
-function slot0.taskList(slot0, slot1)
+function slot0.initTask(slot0, slot1)
 	slot2 = slot1.act_id
 
 	if not slot1.tasks or #slot3 == 0 then
@@ -61,10 +98,12 @@ end
 
 function slot0.update(slot0, slot1)
 	for slot5 = 1, #slot1 do
-		slot6 = slot1[slot5].act_id
+		slot8 = slot1[slot5].tasks
 
-		for slot11, slot12 in ipairs(slot1[slot5].tasks) do
-			slot0:updateAvatarTask(slot6, slot12)
+		if pg.activity_template[slot1[slot5].act_id].type == ActivityConst.ACTIVITY_TYPE_PT_OTHER then
+			for slot12, slot13 in ipairs(slot8) do
+				slot0:updateAvatarTask(slot6, slot13)
+			end
 		end
 	end
 end
@@ -83,10 +122,12 @@ end
 
 function slot0.addData(slot0, slot1)
 	for slot5 = 1, #slot1 do
-		slot6 = slot1[slot5].act_id
+		slot7 = slot1[slot5].tasks
 
-		for slot11, slot12 in ipairs(slot1[slot5].tasks) do
-			slot0:addAvatarTask(slot6, slot0:createAvatarFrameTask(slot6, slot12))
+		if pg.activity_template[slot1[slot5].act_id].type == ActivityConst.ACTIVITY_TYPE_PT_OTHER then
+			for slot12, slot13 in ipairs(slot7) do
+				slot0:addAvatarTask(slot6, slot0:createAvatarFrameTask(slot6, slot13))
+			end
 		end
 	end
 end
@@ -107,10 +148,12 @@ end
 
 function slot0.removeData(slot0, slot1)
 	for slot5 = 1, #slot1 do
-		slot6 = slot1[slot5].act_id
+		slot7 = slot1[slot5].tasks
 
-		for slot11, slot12 in ipairs(slot1[slot5].tasks) do
-			slot0:removeAvatarTask(slot6, slot12.id)
+		if pg.activity_template[slot1[slot5].act_id].type == ActivityConst.ACTIVITY_TYPE_PT_OTHER then
+			for slot12, slot13 in ipairs(slot7) do
+				slot0:removeAvatarTask(slot6, slot13.id)
+			end
 		end
 	end
 end

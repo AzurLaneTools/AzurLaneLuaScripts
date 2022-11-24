@@ -145,7 +145,11 @@ function slot5.AddFX(slot0, slot1, slot2, slot3, slot4)
 	end, slot3)
 
 	if slot2 then
-		slot0._cacheFXList[slot1] = slot5
+		slot6 = slot0._cacheFXList[slot1] or {}
+
+		table.insert(slot6, slot5)
+
+		slot0._cacheFXList[slot1] = slot6
 	end
 
 	slot0._allFX[slot5] = true
@@ -162,12 +166,11 @@ function slot5.RemoveFX(slot0, slot1)
 end
 
 function slot5.RemoveCacheFX(slot0, slot1)
-	if slot0._cacheFXList[slot1] ~= nil then
-		slot0._allFX[slot2] = nil
+	if slot0._cacheFXList[slot1] ~= nil and #slot2 > 0 then
+		slot3 = table.remove(slot2)
+		slot0._allFX[slot3] = nil
 
-		uv0.GetInstance():DestroyOb(slot2)
-
-		slot0._cacheFXList[slot1] = nil
+		uv0.GetInstance():DestroyOb(slot3)
 	end
 end
 

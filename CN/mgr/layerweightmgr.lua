@@ -425,7 +425,7 @@ function slot1.CheckRecycleAdaptObj(slot0, slot1, slot2)
 
 			SetActive(slot3, false)
 		else
-			Destory(slot3)
+			Destroy(slot3)
 		end
 	end
 end
