@@ -550,6 +550,17 @@ pg.effect_offset = {
 			0
 		}
 	},
+	Tainted = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
 	jiguang_shouji = {
 		mirror = false,
 		y_scale = false,
@@ -639,6 +650,17 @@ pg.effect_offset = {
 		}
 	},
 	Pojia01 = {
+		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1,
+			0
+		}
+	},
+	Pojia02 = {
 		mirror = false,
 		y_scale = false,
 		container_index = -1,
@@ -1416,6 +1438,94 @@ pg.effect_offset = {
 		offset = {
 			0,
 			0,
+			0
+		}
+	},
+	jingling_huo = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-2,
+			3,
+			0
+		}
+	},
+	jingling_an = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-2.5,
+			1,
+			0
+		}
+	},
+	jingling_bing = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-2,
+			-1,
+			0
+		}
+	},
+	jingling_mu = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	jingling_feng = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			2,
+			-1,
+			0
+		}
+	},
+	jingling_guang = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			2.5,
+			1,
+			0
+		}
+	},
+	jingling_lei = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			2,
+			3,
+			0
+		}
+	},
+	jingling_yue = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			4,
 			0
 		}
 	}

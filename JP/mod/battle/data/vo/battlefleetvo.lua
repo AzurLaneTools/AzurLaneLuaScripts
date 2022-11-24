@@ -110,6 +110,12 @@ function slot8.DispatchSonarScan(slot0, slot1)
 	}))
 end
 
+function slot8.FleetBuffTrigger(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot0._unitList) do
+		slot7:TriggerBuff(slot1, slot2)
+	end
+end
+
 function slot8.FreeMainUnit(slot0, slot1)
 	if slot0._mainUnitFree then
 		return
@@ -479,6 +485,10 @@ function slot8.Dispose(slot0)
 	slot0._buffList = nil
 	slot0._indieSonarList = nil
 	slot0._scoutAimBias = nil
+
+	slot0._fleetAttr:Dispose()
+
+	slot0._fleetAttr = nil
 end
 
 function slot8.refreshFleetFormation(slot0, slot1)
@@ -562,6 +572,7 @@ function slot8.init(slot0)
 	slot0._blockCast = 0
 	slot0._buffList = {}
 
+	slot0:AttachFleetAttr()
 	slot0:SetMotionSource()
 end
 
@@ -791,10 +802,7 @@ function slot8.CastTorpedo(slot0)
 
 	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_READY then
 		slot1:Prepar()
-
-		for slot5, slot6 in ipairs(slot0._unitList) do
-			slot6:TriggerBuff(uv0.BuffEffectType.ON_TORPEDO_BUTTON_PUSH)
-		end
+		slot0:FleetBuffTrigger(uv0.BuffEffectType.ON_TORPEDO_BUTTON_PUSH)
 	end
 end
 
@@ -1155,6 +1163,14 @@ function slot8.GetFleetBuffList(slot0)
 	return slot0._buffList
 end
 
+function slot8.AttachFleetAttr(slot0)
+	slot0._fleetAttr = uv0.Battle.BattleFleetAttrComponent.New(slot0)
+end
+
+function slot8.GetFleetAttr(slot0)
+	return slot0._fleetAttr
+end
+
 function slot8.Jamming(slot0, slot1)
 	if slot1 then
 		slot0._chargeWeaponVO:StartJamming()
@@ -1178,11 +1194,7 @@ function slot8.UpdateHorizon(slot0)
 end
 
 function slot8.AutoBotUpdated(slot0, slot1)
-	slot2 = slot1 and uv0.BuffEffectType.ON_AUTOBOT or uv0.BuffEffectType.ON_MANUAL
-
-	for slot6, slot7 in ipairs(slot0._unitList) do
-		slot7:TriggerBuff(slot2)
-	end
+	slot0:FleetBuffTrigger(slot1 and uv0.BuffEffectType.ON_AUTOBOT or uv0.BuffEffectType.ON_MANUAL)
 end
 
 function slot8.CloakFatalExpose(slot0)

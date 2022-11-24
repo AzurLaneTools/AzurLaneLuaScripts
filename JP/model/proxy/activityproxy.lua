@@ -68,7 +68,16 @@ function slot0.register(slot0)
 			uv0:InitActivityBossData(uv0.data[slot3.id])
 		end
 
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
+		slot4 = pg.ShipFlagMgr.GetInstance()
+
+		slot4:UpdateFlagShips("inElite")
+		(function ()
+			if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) then
+				return
+			end
+
+			uv0:sendNotification(GAME.REQUEST_ATELIER, slot0.id)
+		end)()
 	end)
 	slot0:on(11201, function (slot0)
 		slot1 = Activity.Create(slot0.activity_info)

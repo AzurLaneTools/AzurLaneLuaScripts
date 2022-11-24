@@ -1120,6 +1120,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100021] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "フォーチュン(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100021,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100022] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "フォーチュン(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100022,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100023] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "フォーチュン(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100023,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100024] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "フォーチュン(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100024,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100025] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "フォーチュン(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100025,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1149,6 +1189,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200004,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200021] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊で1回勝利する",
+		id = 200021,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200022] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200022,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200023] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200023,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200024] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200024,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1293,9 +1365,18 @@ pg.task_meta_data_template = {
 		100003,
 		100004,
 		100005,
+		100021,
+		100022,
+		100023,
+		100024,
+		100025,
 		200001,
 		200002,
 		200003,
-		200004
+		200004,
+		200021,
+		200022,
+		200023,
+		200024
 	}
 }

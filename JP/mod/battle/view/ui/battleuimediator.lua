@@ -210,6 +210,10 @@ function slot6.InitCameraGestureSlider(slot0)
 	slot0._cameraUtil:SwitchCameraPos("FOLLOW_GESTURE")
 end
 
+function slot6.InitAlchemistAPView(slot0)
+	slot0._alchemistAP = uv0.Battle.BattleReisalinAPView.New(slot0._ui:findTF("APPanel"))
+end
+
 function slot6.InitGuide(slot0)
 end
 
@@ -266,6 +270,7 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._userFleet:UnregisterEventListener(slot0, uv0.MANUAL_SUBMARINE_SHIFT)
 	slot0._userFleet:UnregisterEventListener(slot0, uv0.FLEET_BLIND)
 	slot0._userFleet:UnregisterEventListener(slot0, uv0.FLEET_HORIZON_UPDATE)
+	slot0._userFleet:UnregisterEventListener(slot0, uv0.UPDATE_FLEET_ATTR)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UI_FX)
@@ -384,6 +389,7 @@ function slot6.onCommonInit(slot0, slot1)
 	slot0._userFleet:RegisterEventListener(slot0, uv3.POINT_HIT_CANCEL, slot0.onPointHitSight)
 	slot0._userFleet:RegisterEventListener(slot0, uv2.MANUAL_SUBMARINE_SHIFT, slot0.onManualSubShift)
 	slot0._userFleet:RegisterEventListener(slot0, uv2.FLEET_BLIND, slot0.onFleetBlind)
+	slot0._userFleet:RegisterEventListener(slot0, uv2.UPDATE_FLEET_ATTR, slot0.onFleetAttrUpdate)
 
 	slot0._sightView = uv0.Battle.BattleOpticalSightView.New(slot0._ui:findTF("ChargeAreaContainer"))
 
@@ -421,6 +427,10 @@ function slot6.onAddUnit(slot0, slot1)
 		slot0:registerNPCUnitEvent(slot3)
 	elseif slot2 == uv0.UnitType.PLAYER_UNIT and slot3:IsMainFleetUnit() and slot3:GetIFF() == uv1.FRIENDLY_CODE then
 		slot0:registerPlayerMainUnitEvent(slot3)
+	end
+
+	if table.contains(uv1.ALCHEMIST_AP_UI, slot3:GetTemplate().nationality) and slot3:GetIFF() == uv1.FRIENDLY_CODE then
+		slot0:InitAlchemistAPView()
 	end
 end
 
@@ -566,6 +576,17 @@ function slot6.onFleetHorizonUpdate(slot0, slot1)
 	slot0._inkView:UpdateHollow(slot1.Dispatcher:GetUnitList())
 end
 
+function slot6.onFleetAttrUpdate(slot0, slot1)
+	if slot0._alchemistAP then
+		slot2 = slot1.Dispatcher
+		slot4 = slot1.Data.value
+
+		if slot1.Data.attr == slot0._alchemistAP:GetAttrName() then
+			slot0._alchemistAP:UpdateAP(slot4)
+		end
+	end
+end
+
 function slot6.OnAddUIFX(slot0, slot1)
 	slot0:AddUIFX(slot1.Data.orderDiff, slot1.Data.FXID, slot1.Data.position, slot1.Data.localScale)
 end
@@ -693,6 +714,12 @@ function slot6.Dispose(slot0)
 		slot0._inkView:Dispose()
 
 		slot0._inkView = nil
+	end
+
+	if slot0._alchemistAP then
+		slot0._alchemistAP:Dispose()
+
+		slot0._alchemistAP = nil
 	end
 
 	uv0.super.Dispose(slot0)

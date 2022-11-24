@@ -108,12 +108,24 @@ pg.character_voice = {
 			0
 		}
 	},
+	main7 = {
+		resource_key = "main_7",
+		key = "main7",
+		voice_name = "メイン7",
+		spine_action = "normal",
+		profile_index = 10,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
 	touch = {
 		resource_key = "touch_1",
 		key = "touch",
 		voice_name = "タッチ",
 		spine_action = "touch",
-		profile_index = 10,
+		profile_index = 11,
 		l2d_action = "touch_body",
 		unlock_condition = {
 			0,
@@ -125,7 +137,7 @@ pg.character_voice = {
 		key = "touch2",
 		voice_name = "タッチ2",
 		spine_action = "tuozhuai",
-		profile_index = 11,
+		profile_index = 12,
 		l2d_action = "touch_special",
 		unlock_condition = {
 			0,
@@ -137,7 +149,7 @@ pg.character_voice = {
 		key = "headtouch",
 		voice_name = "タッチ3",
 		spine_action = "tuozhuai2",
-		profile_index = 12,
+		profile_index = 13,
 		l2d_action = "touch_head",
 		unlock_condition = {
 			0,
@@ -149,7 +161,7 @@ pg.character_voice = {
 		key = "mission",
 		voice_name = "任務",
 		spine_action = "move",
-		profile_index = 13,
+		profile_index = 14,
 		l2d_action = "mission",
 		unlock_condition = {
 			0,
@@ -161,7 +173,7 @@ pg.character_voice = {
 		key = "mission_complete",
 		voice_name = "任務完了",
 		spine_action = "victory",
-		profile_index = 14,
+		profile_index = 15,
 		l2d_action = "mission_complete",
 		unlock_condition = {
 			0,
@@ -173,7 +185,7 @@ pg.character_voice = {
 		key = "mail",
 		voice_name = "メール",
 		spine_action = "victory",
-		profile_index = 15,
+		profile_index = 16,
 		l2d_action = "mail",
 		unlock_condition = {
 			0,
@@ -185,7 +197,7 @@ pg.character_voice = {
 		key = "home",
 		voice_name = "母港帰還",
 		spine_action = "walk",
-		profile_index = 16,
+		profile_index = 17,
 		l2d_action = "home",
 		unlock_condition = {
 			0,
@@ -197,7 +209,7 @@ pg.character_voice = {
 		key = "feeling1",
 		voice_name = "失望",
 		spine_action = "normal",
-		profile_index = 17,
+		profile_index = 18,
 		l2d_action = "",
 		unlock_condition = {
 			1,
@@ -209,7 +221,7 @@ pg.character_voice = {
 		key = "feeling2",
 		voice_name = "知り合い",
 		spine_action = "normal",
-		profile_index = 18,
+		profile_index = 19,
 		l2d_action = "",
 		unlock_condition = {
 			1,
@@ -221,7 +233,7 @@ pg.character_voice = {
 		key = "feeling3",
 		voice_name = "友好",
 		spine_action = "normal",
-		profile_index = 19,
+		profile_index = 20,
 		l2d_action = "",
 		unlock_condition = {
 			1,
@@ -233,7 +245,7 @@ pg.character_voice = {
 		key = "feeling4",
 		voice_name = "好き",
 		spine_action = "normal",
-		profile_index = 20,
+		profile_index = 21,
 		l2d_action = "",
 		unlock_condition = {
 			1,
@@ -245,7 +257,7 @@ pg.character_voice = {
 		key = "feeling5",
 		voice_name = "ラブ",
 		spine_action = "normal",
-		profile_index = 21,
+		profile_index = 22,
 		l2d_action = "",
 		unlock_condition = {
 			1,
@@ -257,7 +269,7 @@ pg.character_voice = {
 		key = "propose",
 		voice_name = "ケッコン",
 		spine_action = "normal",
-		profile_index = 22,
+		profile_index = 23,
 		l2d_action = "wedding",
 		unlock_condition = {
 			2,
@@ -269,7 +281,7 @@ pg.character_voice = {
 		key = "expedition",
 		voice_name = "委託完了",
 		spine_action = "victory",
-		profile_index = 23,
+		profile_index = 24,
 		l2d_action = "complete",
 		unlock_condition = {
 			0,
@@ -281,7 +293,7 @@ pg.character_voice = {
 		key = "upgrade",
 		voice_name = "強化成功",
 		spine_action = "victory",
-		profile_index = 24,
+		profile_index = 25,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -293,7 +305,7 @@ pg.character_voice = {
 		key = "battle",
 		voice_name = "戦闘開始",
 		spine_action = "attack",
-		profile_index = 25,
+		profile_index = 26,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -305,7 +317,7 @@ pg.character_voice = {
 		key = "win_mvp",
 		voice_name = "勝利",
 		spine_action = "victory",
-		profile_index = 26,
+		profile_index = 27,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -317,7 +329,7 @@ pg.character_voice = {
 		key = "lose",
 		voice_name = "失敗",
 		spine_action = "dead",
-		profile_index = 27,
+		profile_index = 28,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -329,7 +341,7 @@ pg.character_voice = {
 		key = "skill",
 		voice_name = "スキル",
 		spine_action = "skill",
-		profile_index = 28,
+		profile_index = 29,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -341,7 +353,7 @@ pg.character_voice = {
 		key = "hp_warning",
 		voice_name = "損傷大",
 		spine_action = "dead",
-		profile_index = 29,
+		profile_index = 30,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -353,7 +365,7 @@ pg.character_voice = {
 		key = "link1",
 		voice_name = "掛け合い1",
 		spine_action = "attcak",
-		profile_index = 30,
+		profile_index = 31,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -365,7 +377,7 @@ pg.character_voice = {
 		key = "link2",
 		voice_name = "掛け合い2",
 		spine_action = "attcak",
-		profile_index = 31,
+		profile_index = 32,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -377,7 +389,7 @@ pg.character_voice = {
 		key = "link3",
 		voice_name = "掛け合い3",
 		spine_action = "attcak",
-		profile_index = 32,
+		profile_index = 33,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -389,7 +401,7 @@ pg.character_voice = {
 		key = "link4",
 		voice_name = "掛け合い4",
 		spine_action = "attcak",
-		profile_index = 33,
+		profile_index = 34,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -401,7 +413,7 @@ pg.character_voice = {
 		key = "link5",
 		voice_name = "掛け合い5",
 		spine_action = "attcak",
-		profile_index = 34,
+		profile_index = 35,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -413,7 +425,7 @@ pg.character_voice = {
 		key = "link6",
 		voice_name = "掛け合い6",
 		spine_action = "attcak",
-		profile_index = 35,
+		profile_index = 36,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -425,7 +437,7 @@ pg.character_voice = {
 		key = "profile",
 		voice_name = "図鑑",
 		spine_action = "stand2",
-		profile_index = 36,
+		profile_index = 37,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -437,10 +449,130 @@ pg.character_voice = {
 		key = "link7",
 		voice_name = "掛け合い7",
 		spine_action = "attcak",
-		profile_index = 37,
+		profile_index = 38,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
+			0
+		}
+	},
+	ryza_item1 = {
+		resource_key = "ryza_item1",
+		key = "ryza_item1",
+		voice_name = "素材入手1",
+		spine_action = "stand",
+		profile_index = 39,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	ryza_item2 = {
+		resource_key = "ryza_item2",
+		key = "ryza_item2",
+		voice_name = "素材入手2",
+		spine_action = "stand",
+		profile_index = 40,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	ryza_item3 = {
+		resource_key = "ryza_item3",
+		key = "ryza_item3",
+		voice_name = "素材入手3",
+		spine_action = "stand",
+		profile_index = 41,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	ryza_item4 = {
+		resource_key = "ryza_item4",
+		key = "ryza_item4",
+		voice_name = "素材入手4",
+		spine_action = "stand",
+		profile_index = 42,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	ryza_item5 = {
+		resource_key = "ryza_item5",
+		key = "ryza_item5",
+		voice_name = "素材入手5",
+		spine_action = "stand",
+		profile_index = 43,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	ryza_shop1 = {
+		resource_key = "ryza_shop1",
+		key = "ryza_shop1",
+		voice_name = "ショップ1",
+		spine_action = "stand",
+		profile_index = 44,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	ryza_shop2 = {
+		resource_key = "ryza_shop2",
+		key = "ryza_shop2",
+		voice_name = "ショップ2",
+		spine_action = "stand",
+		profile_index = 45,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	ryza_shop3 = {
+		resource_key = "ryza_shop3",
+		key = "ryza_shop3",
+		voice_name = "ショップ3",
+		spine_action = "stand",
+		profile_index = 46,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	ryza_shop4 = {
+		resource_key = "ryza_shop4",
+		key = "ryza_shop4",
+		voice_name = "ショップ4",
+		spine_action = "stand",
+		profile_index = 47,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	ryza_shop5 = {
+		resource_key = "ryza_shop5",
+		key = "ryza_shop5",
+		voice_name = "ショップ5",
+		spine_action = "stand",
+		profile_index = 48,
+		l2d_action = "",
+		unlock_condition = {
+			0,
 			0
 		}
 	}

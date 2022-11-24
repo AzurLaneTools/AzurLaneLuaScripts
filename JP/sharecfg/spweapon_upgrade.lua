@@ -548,6 +548,187 @@ pg.spweapon_upgrade = {
 			}
 		}
 	},
+	[10001] = {
+		upgrade_use_pt = 120,
+		create_use_gold = 10000,
+		create_use_pt = 3000,
+		id = 10001,
+		upgrade_use_gold = 200,
+		upgrade_supply_pt = 900,
+		create_use_item = {
+			{
+				15014,
+				15
+			}
+		},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10002] = {
+		upgrade_use_pt = 180,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10002,
+		upgrade_use_gold = 400,
+		upgrade_supply_pt = 972,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10003] = {
+		upgrade_use_pt = 240,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10003,
+		upgrade_use_gold = 600,
+		upgrade_supply_pt = 1080,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10004] = {
+		upgrade_use_pt = 300,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10004,
+		upgrade_use_gold = 800,
+		upgrade_supply_pt = 1224,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10005] = {
+		upgrade_use_pt = 360,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10005,
+		upgrade_use_gold = 1000,
+		upgrade_supply_pt = 1404,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10006] = {
+		upgrade_use_pt = 480,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10006,
+		upgrade_use_gold = 1200,
+		upgrade_supply_pt = 1620,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10007] = {
+		upgrade_use_pt = 660,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10007,
+		upgrade_use_gold = 1400,
+		upgrade_supply_pt = 1908,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10008] = {
+		upgrade_use_pt = 900,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10008,
+		upgrade_use_gold = 1600,
+		upgrade_supply_pt = 2304,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10009] = {
+		upgrade_use_pt = 1200,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10009,
+		upgrade_use_gold = 1800,
+		upgrade_supply_pt = 2844,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10010] = {
+		upgrade_use_pt = 1560,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10010,
+		upgrade_use_gold = 2000,
+		upgrade_supply_pt = 3564,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
+	[10011] = {
+		upgrade_use_pt = 0,
+		create_use_gold = 0,
+		create_use_pt = 0,
+		id = 10011,
+		upgrade_use_gold = 0,
+		upgrade_supply_pt = 4500,
+		create_use_item = {},
+		upgrade_use_item = {},
+		reset_use_item = {
+			{
+				15021,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -581,6 +762,17 @@ pg.spweapon_upgrade = {
 		108,
 		109,
 		110,
-		111
+		111,
+		10001,
+		10002,
+		10003,
+		10004,
+		10005,
+		10006,
+		10007,
+		10008,
+		10009,
+		10010,
+		10011
 	}
 }

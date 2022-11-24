@@ -81,7 +81,7 @@ function slot0.addListener(slot0)
 		else
 			uv0:closeView()
 		end
-	end, SFX_CANCAL)
+	end, SFX_CANCEL)
 	onButton(slot0, slot0.backBGTF, function ()
 		if uv0:isChanged() then
 			slot3 = uv0

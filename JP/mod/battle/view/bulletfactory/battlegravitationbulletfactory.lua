@@ -19,8 +19,9 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 
 	slot5 = slot3:GetTemplate().hit_type
 	slot7 = slot0:GetBulletData()
+	slot8 = slot7:GetTemplate()
 
-	uv1.Battle.PlayBattleSFX(slot7:GetTemplate().hit_sfx)
+	uv1.Battle.PlayBattleSFX(slot7:GetHitSFX())
 
 	slot11 = slot7:GetTemplate().extra_param.buff_id
 

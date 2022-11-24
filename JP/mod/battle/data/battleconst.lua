@@ -104,7 +104,9 @@ slot0.ActionName = {
 	RAID = "attack_swim",
 	RAIDLEFT = "attack_swim_left",
 	INTERRUPT = "break",
-	DIVING = "xiaqian"
+	DIVING = "xiaqian",
+	SKILL_START = "skill_start",
+	SKILL_END = "skill_end"
 }
 slot0.ActionLoop = {
 	attack = false,
@@ -126,7 +128,9 @@ slot0.ActionLoop = {
 	swim_left = true,
 	swim_attack = false,
 	swim_attack_left = false,
-	xiaqian = false
+	xiaqian = false,
+	skill_start = false,
+	skill_end = false
 }
 slot0.CldType = {
 	BULLET = "bullet",
@@ -296,7 +300,8 @@ slot0.BuffEffectType = {
 	ON_ANTI_SUB_HATE_CHAIN = "onAntiSubHateChain",
 	ON_RECORD = "onRecord",
 	ON_CLOAK_UPDATE = "onCloakUpdate",
-	ON_TEAMMATE_CLOAK_UPDATE = "onTeammateCloakUpdate"
+	ON_TEAMMATE_CLOAK_UPDATE = "onTeammateCloakUpdate",
+	ON_FLEET_ATTR_UPDATE = "onFleetAttrUpdate"
 }
 slot0.FXContainerIndex = {
 	"center",

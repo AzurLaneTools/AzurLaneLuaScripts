@@ -45,7 +45,21 @@ function slot0.setSecretaryPos(slot0, slot1)
 end
 
 function slot0.Chat(slot0, slot1, slot2, slot3, slot4)
-	function slot5()
+	slot5 = 1
+
+	if type(slot1) == "table" then
+		slot1 = slot1[math.random(1, #slot1)]
+	end
+
+	if type(slot2) == "table" then
+		slot2 = slot2[slot5]
+	end
+
+	if type(slot3) == "table" then
+		slot3 = slot3[slot5]
+	end
+
+	function slot6()
 		if uv0 then
 			uv1:ShowShipWord(uv0)
 		end
@@ -67,7 +81,7 @@ function slot0.Chat(slot0, slot1, slot2, slot3, slot4)
 				uv1()
 			end)
 		else
-			slot5()
+			slot6()
 		end
 	end
 end
@@ -129,6 +143,9 @@ function slot0.PlayCV(slot0, slot1, slot2)
 
 	if slot0.name == "mingshi_live2d" then
 		slot3 = "cv-chargeShop"
+		slot4 = slot1
+	elseif string.find(slot1, "ryza_shop") then
+		slot3 = "cv-1090002"
 		slot4 = slot1
 	else
 		slot3 = "cv-shop"

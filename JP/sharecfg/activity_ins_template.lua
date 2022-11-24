@@ -9008,6 +9008,66 @@ pg.activity_ins_template = {
 			3131
 		}
 	},
+	{
+		ship_group = 1090001,
+		name = "Reisalin Stout",
+		sculpture = "laisha",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 342,
+		id = 342,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1090002,
+		name = "Klaudia Valentz",
+		sculpture = "keluodiya",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 343,
+		id = 343,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1090003,
+		name = "Patricia Abelheim",
+		sculpture = "patelixia",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 344,
+		id = 344,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1090005,
+		name = "Serri Glaus",
+		sculpture = "saili",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 345,
+		id = 345,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1090004,
+		name = "Lila Decyrus",
+		sculpture = "lila",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 346,
+		id = 346,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -9349,6 +9409,11 @@ pg.activity_ins_template = {
 		338,
 		339,
 		340,
-		341
+		341,
+		342,
+		343,
+		344,
+		345,
+		346
 	}
 }

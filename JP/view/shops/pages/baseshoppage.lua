@@ -85,7 +85,13 @@ function slot0.UpdateCommodity(slot0, slot1, slot2)
 	slot0:SetShop(slot1)
 	slot0:OnUpdateCommodity(slot1:GetCommodityById(slot2))
 
-	slot4, slot5, slot6 = slot0:GetPaintingCommodityUpdateVoice()
+	slot4, slot5, slot6 = nil
+
+	if slot1:IsPurchaseAll() then
+		slot4, slot5, slot6 = slot0:GetPaintingAllPurchaseVoice()
+	else
+		slot4, slot5, slot6 = slot0:GetPaintingCommodityUpdateVoice()
+	end
 
 	slot0.contextData.paintingView:Chat(slot4, slot5, slot6, true)
 end
@@ -182,6 +188,10 @@ function slot0.GetPaintingCommodityUpdateVoice(slot0)
 	slot3 = math.random(#slot2)
 
 	return slot2[slot3], "buy_" .. slot3, false
+end
+
+function slot0.GetPaintingAllPurchaseVoice(slot0)
+	return nil, , 
 end
 
 function slot0.GetPaintingTouchVoice(slot0)

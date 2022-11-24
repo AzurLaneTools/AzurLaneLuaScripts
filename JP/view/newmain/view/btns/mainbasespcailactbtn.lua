@@ -8,16 +8,18 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.isloading = false
 end
 
-function slot0.Init(slot0)
+function slot0.Init(slot0, slot1)
+	slot0.isScale = slot1
+
 	if slot0.isloading then
 		return
 	end
 
 	if not slot0._tf then
 		slot0.isloading = true
-		slot1 = ResourceMgr.Inst
+		slot2 = ResourceMgr.Inst
 
-		slot1:getAssetAsync("ui/" .. slot0:GetUIName(), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot2:getAssetAsync("ui/" .. slot0:GetUIName(), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			uv0.isloading = false
 
 			if uv0.exited then
@@ -35,10 +37,16 @@ function slot0.Init(slot0)
 			onButton(uv0, uv0._tf, function ()
 				uv0:OnClick()
 			end, SFX_MAIN)
+
+			if uv0.shouldHide then
+				setActive(uv0._tf, false)
+			end
 		end), true, true)
 	else
 		slot0:OnInit()
 	end
+
+	slot0:CheckHide()
 end
 
 function slot0.Clear(slot0)
@@ -56,6 +64,22 @@ function slot0.Dispose(slot0)
 
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Clear()
+end
+
+function slot0.Refresh(slot0)
+	slot0:CheckHide()
+end
+
+function slot0.CheckHide(slot0)
+	if slot0.shouldHide and not IsNil(slot0._tf) then
+		setActive(slot0._tf, true)
+	end
+
+	slot0.shouldHide = false
+end
+
+function slot0.Disable(slot0)
+	slot0.shouldHide = true
 end
 
 function slot0.InShowTime(slot0)

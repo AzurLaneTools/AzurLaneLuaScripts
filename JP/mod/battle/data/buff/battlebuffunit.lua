@@ -95,7 +95,8 @@ function slot3.UpdateStack(slot0, slot1, slot2)
 	slot0:SetRemoveTime()
 	slot1:DispatchEvent(uv1.Event.New(uv2.BUFF_STACK, {
 		unit_id = slot1:GetUniqueID(),
-		buff_id = slot0._id
+		buff_id = slot0._id,
+		stack_count = slot0._stack
 	}))
 end
 

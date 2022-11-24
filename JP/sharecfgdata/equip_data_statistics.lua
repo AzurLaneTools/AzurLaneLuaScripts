@@ -4144,6 +4144,142 @@ _G.pg.base.equip_data_statistics[465] = {
 	}
 }
 
+_G.pg.base.equip_data_statistics[466] = {
+	tech = 3,
+	name = "火球替换鱼雷",
+	speciality = "雷击",
+	type = 5,
+	descrip = "默认装备",
+	ammo = 4,
+	damage = "152 x 4",
+	nationality = 4,
+	rarity = 5,
+	id = 466,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1803
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1803
+		},
+		{
+			4,
+			1403
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		466
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"ST",
+		"TP",
+		"QUAD"
+	}
+}
+
+_G.pg.base.equip_data_statistics[467] = {
+	rarity = 5,
+	name = "雷球替换防空",
+	speciality = "防空",
+	type = 6,
+	tech = 0,
+	ammo = 5,
+	nationality = 2,
+	descrip = "说明未填写",
+	id = 467,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		467
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"ST",
+		"AA"
+	}
+}
+
 _G.pg.base.equip_data_statistics[500] = {
 	type = 10,
 	name = "ビーバーズエムブレム",
@@ -104549,264 +104685,6 @@ _G.pg.base.equip_data_statistics[61505] = {
 	label = {}
 }
 
-_G.pg.base.equip_data_statistics[61506] = {
-	type = 1,
-	name = "日服生放用-天海春香演示弹幕(粉色徽章+应援棒鱼雷)",
-	speciality = "なし",
-	tech = 1,
-	rarity = 1,
-	ammo = 10,
-	nationality = 0,
-	descrip = "スキル弾幕",
-	id = 61506,
-	value_3 = 0,
-	value_2 = 0,
-	icon = "1",
-	value_1 = "0",
-	torpedo_ammo = 0,
-	property_rate = {},
-	ammo_icon = {},
-	ammo_info = {},
-	equip_info = {},
-	weapon_id = {
-		61506
-	},
-	skill_id = {},
-	hidden_skill_id = {},
-	part_main = {
-		1,
-		19,
-		20,
-		21
-	},
-	part_sub = {
-		2,
-		3,
-		4,
-		5,
-		8,
-		13,
-		18
-	},
-	equip_parameters = {},
-	label = {}
-}
-
-_G.pg.base.equip_data_statistics[61507] = {
-	type = 1,
-	name = "日服生放用-三浦梓演示弹幕(转圈团子头)",
-	speciality = "なし",
-	tech = 1,
-	rarity = 1,
-	ammo = 10,
-	nationality = 0,
-	descrip = "スキル弾幕",
-	id = 61507,
-	value_3 = 0,
-	value_2 = 0,
-	icon = "1",
-	value_1 = "0",
-	torpedo_ammo = 0,
-	property_rate = {},
-	ammo_icon = {},
-	ammo_info = {},
-	equip_info = {},
-	weapon_id = {
-		61507
-	},
-	skill_id = {},
-	hidden_skill_id = {},
-	part_main = {
-		1,
-		19,
-		20,
-		21
-	},
-	part_sub = {
-		2,
-		3,
-		4,
-		5,
-		8,
-		13,
-		18
-	},
-	equip_parameters = {},
-	label = {}
-}
-
-_G.pg.base.equip_data_statistics[61508] = {
-	type = 1,
-	name = "日服生放用-秋月律子演示弹幕(双色类黛朵)",
-	speciality = "なし",
-	tech = 1,
-	rarity = 1,
-	ammo = 10,
-	nationality = 0,
-	descrip = "スキル弾幕",
-	id = 61508,
-	value_3 = 0,
-	value_2 = 0,
-	icon = "1",
-	value_1 = "0",
-	torpedo_ammo = 0,
-	property_rate = {},
-	ammo_icon = {},
-	ammo_info = {},
-	equip_info = {},
-	weapon_id = {
-		61508
-	},
-	skill_id = {},
-	hidden_skill_id = {},
-	part_main = {
-		1,
-		19,
-		20,
-		21
-	},
-	part_sub = {
-		2,
-		3,
-		4,
-		5,
-		8,
-		13,
-		18
-	},
-	equip_parameters = {},
-	label = {}
-}
-
-_G.pg.base.equip_data_statistics[61509] = {
-	type = 1,
-	name = "日服生放用-双海亚美演示弹幕(花朵鱼雷弹幕)",
-	speciality = "なし",
-	tech = 1,
-	rarity = 1,
-	ammo = 10,
-	nationality = 0,
-	descrip = "スキル弾幕",
-	id = 61509,
-	value_3 = 0,
-	value_2 = 0,
-	icon = "1",
-	value_1 = "0",
-	torpedo_ammo = 0,
-	property_rate = {},
-	ammo_icon = {},
-	ammo_info = {},
-	equip_info = {},
-	weapon_id = {
-		61509
-	},
-	skill_id = {},
-	hidden_skill_id = {},
-	part_main = {
-		1,
-		19,
-		20,
-		21
-	},
-	part_sub = {
-		2,
-		3,
-		4,
-		5,
-		8,
-		13,
-		18
-	},
-	equip_parameters = {},
-	label = {}
-}
-
-_G.pg.base.equip_data_statistics[61510] = {
-	type = 1,
-	name = "日服生放用-双海真美演示弹幕(口红鱼雷弹幕)",
-	speciality = "なし",
-	tech = 1,
-	rarity = 1,
-	ammo = 10,
-	nationality = 0,
-	descrip = "スキル弾幕",
-	id = 61510,
-	value_3 = 0,
-	value_2 = 0,
-	icon = "1",
-	value_1 = "0",
-	torpedo_ammo = 0,
-	property_rate = {},
-	ammo_icon = {},
-	ammo_info = {},
-	equip_info = {},
-	weapon_id = {
-		61510
-	},
-	skill_id = {},
-	hidden_skill_id = {},
-	part_main = {
-		1,
-		19,
-		20,
-		21
-	},
-	part_sub = {
-		2,
-		3,
-		4,
-		5,
-		8,
-		13,
-		18
-	},
-	equip_parameters = {},
-	label = {}
-}
-
-_G.pg.base.equip_data_statistics[61528] = {
-	type = 1,
-	name = "日服生放用-喀琅施塔得弹幕",
-	speciality = "なし",
-	tech = 1,
-	rarity = 1,
-	ammo = 10,
-	nationality = 0,
-	descrip = "スキル弾幕",
-	id = 61528,
-	value_3 = 0,
-	value_2 = 0,
-	icon = "1",
-	value_1 = "0",
-	torpedo_ammo = 0,
-	property_rate = {},
-	ammo_icon = {},
-	ammo_info = {},
-	equip_info = {},
-	weapon_id = {
-		61528
-	},
-	skill_id = {},
-	hidden_skill_id = {},
-	part_main = {
-		1,
-		19,
-		20,
-		21
-	},
-	part_sub = {
-		2,
-		3,
-		4,
-		5,
-		8,
-		13,
-		18
-	},
-	equip_parameters = {},
-	label = {}
-}
-
 _G.pg.base.equip_data_statistics[66200] = {
 	type = 1,
 	name = "0",
@@ -115792,6 +115670,59 @@ _G.pg.base.equip_data_statistics[79982] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[79991] = {
+	type = 1,
+	name = "专属弹幕-命运女神METAI",
+	speciality = "なし",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "スキル弾幕",
+	id = 79991,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		79991
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79992] = {
+	id = 79992,
+	name = "专属弹幕-命运女神METAII",
+	base = 79991,
+	weapon_id = {
+		79992
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[85000] = {
 	tech = 1,
 	name = "130mm連装砲B-2LM",
@@ -122211,6 +122142,1544 @@ _G.pg.base.equip_data_statistics[89413] = {
 	anti_siren = 300,
 	value_1 = "640",
 	base = 89400,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89420] = {
+	type = 10,
+	name = "グランフラム",
+	speciality = "无",
+	tech = 0,
+	value_2 = 1,
+	ammo = 10,
+	nationality = 109,
+	descrip = "絶大な威力を持つ火属性爆弾。敵にダメージを与える",
+	rarity = 5,
+	attribute_1 = "torpedo",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89420,
+	icon = "89420",
+	value_1 = "25",
+	attribute_2 = "dodge",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60130
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV",
+		"FIRETP"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89421] = {
+	id = 89421,
+	value_2 = 1,
+	value_1 = "26",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89422] = {
+	id = 89422,
+	value_2 = 2,
+	value_1 = "27",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89423] = {
+	id = 89423,
+	value_2 = 3,
+	value_1 = "28",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89424] = {
+	id = 89424,
+	value_2 = 4,
+	value_1 = "29",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89425] = {
+	id = 89425,
+	value_2 = 5,
+	value_1 = "30",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89426] = {
+	id = 89426,
+	value_2 = 6,
+	value_1 = "31",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89427] = {
+	id = 89427,
+	value_2 = 7,
+	value_1 = "32",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89428] = {
+	id = 89428,
+	value_2 = 8,
+	value_1 = "33",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89429] = {
+	id = 89429,
+	value_2 = 9,
+	value_1 = "34",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89430] = {
+	id = 89430,
+	value_2 = 10,
+	value_1 = "35",
+	base = 89420,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89431] = {
+	value_2 = 11,
+	anti_siren = 100,
+	base = 89420,
+	id = 89431,
+	value_1 = "37",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89432] = {
+	value_2 = 12,
+	anti_siren = 200,
+	base = 89420,
+	id = 89432,
+	value_1 = "39",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89433] = {
+	value_2 = 13,
+	anti_siren = 300,
+	base = 89420,
+	id = 89433,
+	value_1 = "41",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89440] = {
+	type = 10,
+	name = "クライスタルレヘルン",
+	speciality = "无",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "絶大な威力を持つ氷属性爆弾。敵にダメージを与える",
+	nationality = 109,
+	rarity = 5,
+	id = 89440,
+	value_3 = 0,
+	attribute_1 = "dodge",
+	icon = "89440",
+	value_1 = "13",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60140
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89441] = {
+	id = 89441,
+	value_1 = "15",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89442] = {
+	id = 89442,
+	value_1 = "17",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89443] = {
+	id = 89443,
+	value_1 = "19",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89444] = {
+	id = 89444,
+	value_1 = "21",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89445] = {
+	id = 89445,
+	value_1 = "23",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89446] = {
+	id = 89446,
+	value_1 = "25",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89447] = {
+	id = 89447,
+	value_1 = "27",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89448] = {
+	id = 89448,
+	value_1 = "29",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89449] = {
+	id = 89449,
+	value_1 = "31",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89450] = {
+	id = 89450,
+	value_1 = "34",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89451] = {
+	id = 89451,
+	anti_siren = 100,
+	value_1 = "36",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89452] = {
+	id = 89452,
+	anti_siren = 200,
+	value_1 = "38",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89453] = {
+	id = 89453,
+	anti_siren = 300,
+	value_1 = "40",
+	base = 89440,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89460] = {
+	type = 10,
+	name = "ラウトプラジグ",
+	speciality = "无",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "絶大な威力を持つ雷属性爆弾。敵にダメージを与える",
+	nationality = 109,
+	rarity = 5,
+	id = 89460,
+	value_3 = 0,
+	attribute_1 = "antiaircraft",
+	icon = "89460",
+	value_1 = "40",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60150
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV",
+		"THUNDERAA"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89461] = {
+	id = 89461,
+	value_1 = "41",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89462] = {
+	id = 89462,
+	value_1 = "42",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89463] = {
+	id = 89463,
+	value_1 = "43",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89464] = {
+	id = 89464,
+	value_1 = "44",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89465] = {
+	id = 89465,
+	value_1 = "45",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89466] = {
+	id = 89466,
+	value_1 = "46",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89467] = {
+	id = 89467,
+	value_1 = "48",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89468] = {
+	id = 89468,
+	value_1 = "50",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89469] = {
+	id = 89469,
+	value_1 = "52",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89470] = {
+	id = 89470,
+	value_1 = "55",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89471] = {
+	id = 89471,
+	anti_siren = 100,
+	value_1 = "58",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89472] = {
+	id = 89472,
+	anti_siren = 200,
+	value_1 = "60",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89473] = {
+	id = 89473,
+	anti_siren = 300,
+	value_1 = "65",
+	base = 89460,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89480] = {
+	type = 10,
+	name = "ヴィアベールルフト",
+	speciality = "无",
+	tech = 0,
+	value_2 = 1,
+	ammo = 10,
+	nationality = 109,
+	descrip = "絶大な威力を持つ風属性爆弾。敵にダメージを与える",
+	rarity = 5,
+	attribute_1 = "durability",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89480,
+	icon = "89480",
+	value_1 = "100",
+	attribute_2 = "speed",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60160
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89481] = {
+	id = 89481,
+	value_1 = "130",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89482] = {
+	id = 89482,
+	value_1 = "160",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89483] = {
+	id = 89483,
+	value_1 = "190",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89484] = {
+	id = 89484,
+	value_2 = 2,
+	value_1 = "220",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89485] = {
+	id = 89485,
+	value_2 = 2,
+	value_1 = "250",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89486] = {
+	id = 89486,
+	value_2 = 2,
+	value_1 = "280",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89487] = {
+	id = 89487,
+	value_2 = 3,
+	value_1 = "310",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89488] = {
+	id = 89488,
+	value_2 = 3,
+	value_1 = "340",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89489] = {
+	id = 89489,
+	value_2 = 3,
+	value_1 = "370",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89490] = {
+	id = 89490,
+	value_2 = 4,
+	value_1 = "400",
+	base = 89480,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89491] = {
+	value_2 = 4,
+	anti_siren = 100,
+	base = 89480,
+	id = 89491,
+	value_1 = "424",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89492] = {
+	value_2 = 4,
+	anti_siren = 200,
+	base = 89480,
+	id = 89492,
+	value_1 = "448",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89493] = {
+	value_2 = 4,
+	anti_siren = 300,
+	base = 89480,
+	id = 89493,
+	value_1 = "472",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89500] = {
+	type = 10,
+	name = "エリキシル剤",
+	speciality = "无",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "あらゆるケガ、病気の治療はもちろん、死すらも凌駕する超強力な薬。一握りの錬金術士にしか作ることのできない、錬金術の究極技術の一つとされている",
+	nationality = 109,
+	rarity = 5,
+	id = 89500,
+	value_3 = 0,
+	attribute_1 = "air",
+	icon = "89500",
+	value_1 = "40",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60250
+	},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7,
+		10
+	},
+	part_sub = {
+		6,
+		7,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89501] = {
+	id = 89501,
+	value_1 = "46",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89502] = {
+	id = 89502,
+	value_1 = "52",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89503] = {
+	id = 89503,
+	value_1 = "58",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89504] = {
+	id = 89504,
+	value_1 = "64",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89505] = {
+	id = 89505,
+	value_1 = "70",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89506] = {
+	id = 89506,
+	value_1 = "76",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89507] = {
+	id = 89507,
+	value_1 = "82",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89508] = {
+	id = 89508,
+	value_1 = "88",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89509] = {
+	id = 89509,
+	value_1 = "94",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89510] = {
+	id = 89510,
+	value_1 = "100",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89511] = {
+	id = 89511,
+	anti_siren = 100,
+	value_1 = "106",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89512] = {
+	id = 89512,
+	anti_siren = 200,
+	value_1 = "112",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89513] = {
+	id = 89513,
+	anti_siren = 300,
+	value_1 = "118",
+	base = 89500,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89520] = {
+	type = 10,
+	name = "神秘の羽衣",
+	speciality = "无",
+	tech = 0,
+	value_2 = 2,
+	ammo = 10,
+	nationality = 109,
+	descrip = "神秘的な色合いを持つ羽衣。透き通るほど薄い布だが、広げることによりありとあらゆる攻撃から身を守ることができる",
+	rarity = 5,
+	attribute_1 = "air",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89520,
+	icon = "89520",
+	value_1 = "18",
+	attribute_2 = "dodge",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60240
+	},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7,
+		10
+	},
+	part_sub = {
+		6,
+		7,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89521] = {
+	id = 89521,
+	value_2 = 2,
+	value_1 = "22",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89522] = {
+	id = 89522,
+	value_2 = 3,
+	value_1 = "26",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89523] = {
+	id = 89523,
+	value_2 = 3,
+	value_1 = "30",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89524] = {
+	id = 89524,
+	value_2 = 3,
+	value_1 = "34",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89525] = {
+	id = 89525,
+	value_2 = 4,
+	value_1 = "39",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89526] = {
+	id = 89526,
+	value_2 = 4,
+	value_1 = "43",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89527] = {
+	id = 89527,
+	value_2 = 4,
+	value_1 = "47",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89528] = {
+	id = 89528,
+	value_2 = 5,
+	value_1 = "51",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89529] = {
+	id = 89529,
+	value_2 = 5,
+	value_1 = "55",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89530] = {
+	id = 89530,
+	value_2 = 6,
+	value_1 = "60",
+	base = 89520,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89531] = {
+	value_2 = 6,
+	anti_siren = 100,
+	base = 89520,
+	id = 89531,
+	value_1 = "65",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89532] = {
+	value_2 = 6,
+	anti_siren = 200,
+	base = 89520,
+	id = 89532,
+	value_1 = "68",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89533] = {
+	value_2 = 7,
+	anti_siren = 300,
+	base = 89520,
+	id = 89533,
+	value_1 = "77",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89540] = {
+	type = 10,
+	name = "アポカリプス",
+	speciality = "无",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "絶大な威力を持つアイテム。敵のステータスを下げることができるが、使用時に使用者の耐久を消費する",
+	nationality = 109,
+	rarity = 5,
+	id = 89540,
+	value_3 = 0,
+	attribute_1 = "cannon",
+	icon = "89540",
+	value_1 = "24",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60210
+	},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {
+		4,
+		5,
+		10,
+		13
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89541] = {
+	id = 89541,
+	value_1 = "27",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89542] = {
+	id = 89542,
+	value_1 = "31",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89543] = {
+	id = 89543,
+	value_1 = "34",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89544] = {
+	id = 89544,
+	value_1 = "38",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89545] = {
+	id = 89545,
+	value_1 = "42",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89546] = {
+	id = 89546,
+	value_1 = "45",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89547] = {
+	id = 89547,
+	value_1 = "49",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89548] = {
+	id = 89548,
+	value_1 = "52",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89549] = {
+	id = 89549,
+	value_1 = "56",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89550] = {
+	id = 89550,
+	value_1 = "60",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89551] = {
+	id = 89551,
+	anti_siren = 100,
+	value_1 = "63",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89552] = {
+	id = 89552,
+	anti_siren = 200,
+	value_1 = "67",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89553] = {
+	id = 89553,
+	anti_siren = 300,
+	value_1 = "70",
+	base = 89540,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89560] = {
+	type = 10,
+	name = "Ｎ／Ａ",
+	speciality = "无",
+	tech = 0,
+	value_2 = 4,
+	ammo = 10,
+	nationality = 109,
+	descrip = "絶大な威力を持つ爆弾。敵の防御力を下げることができる",
+	rarity = 5,
+	attribute_1 = "cannon",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89560,
+	icon = "89560",
+	value_1 = "18",
+	attribute_2 = "hit",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60220
+	},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {
+		4,
+		5,
+		10,
+		13
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89561] = {
+	id = 89561,
+	value_2 = 4,
+	value_1 = "20",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89562] = {
+	id = 89562,
+	value_2 = 5,
+	value_1 = "23",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89563] = {
+	id = 89563,
+	value_2 = 5,
+	value_1 = "26",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89564] = {
+	id = 89564,
+	value_2 = 6,
+	value_1 = "28",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89565] = {
+	id = 89565,
+	value_2 = 7,
+	value_1 = "31",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89566] = {
+	id = 89566,
+	value_2 = 7,
+	value_1 = "34",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89567] = {
+	id = 89567,
+	value_2 = 8,
+	value_1 = "36",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89568] = {
+	id = 89568,
+	value_2 = 8,
+	value_1 = "39",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89569] = {
+	id = 89569,
+	value_2 = 9,
+	value_1 = "42",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89570] = {
+	id = 89570,
+	value_2 = 10,
+	value_1 = "45",
+	base = 89560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89571] = {
+	value_2 = 10,
+	anti_siren = 100,
+	base = 89560,
+	id = 89571,
+	value_1 = "47",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89572] = {
+	value_2 = 11,
+	anti_siren = 200,
+	base = 89560,
+	id = 89572,
+	value_1 = "50",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89573] = {
+	value_2 = 11,
+	anti_siren = 300,
+	base = 89560,
+	id = 89573,
+	value_1 = "53",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89580] = {
+	type = 10,
+	name = "創世の槌",
+	speciality = "无",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "おもいきり打ち付けることで、大地を激しく揺らすことができる槌。大地が揺れる際に空気が震え、天がいななくことが創世を思わせるため、このような名がついた",
+	nationality = 109,
+	rarity = 5,
+	id = 89580,
+	value_3 = 0,
+	attribute_1 = "torpedo",
+	icon = "89580",
+	value_1 = "28",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60180
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89581] = {
+	id = 89581,
+	value_1 = "32",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89582] = {
+	id = 89582,
+	value_1 = "36",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89583] = {
+	id = 89583,
+	value_1 = "40",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89584] = {
+	id = 89584,
+	value_1 = "44",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89585] = {
+	id = 89585,
+	value_1 = "49",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89586] = {
+	id = 89586,
+	value_1 = "53",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89587] = {
+	id = 89587,
+	value_1 = "57",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89588] = {
+	id = 89588,
+	value_1 = "61",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89589] = {
+	id = 89589,
+	value_1 = "65",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89590] = {
+	id = 89590,
+	value_1 = "70",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89591] = {
+	id = 89591,
+	anti_siren = 100,
+	value_1 = "74",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89592] = {
+	id = 89592,
+	anti_siren = 200,
+	value_1 = "78",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89593] = {
+	id = 89593,
+	anti_siren = 300,
+	value_1 = "82",
+	base = 89580,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89600] = {
+	type = 10,
+	name = "泡雲の弾丸",
+	speciality = "无",
+	tech = 0,
+	value_2 = 6,
+	ammo = 10,
+	nationality = 109,
+	descrip = "銃身を必要としない弾丸。先端を対象に向けて弾くと、弾は上空を飛び回ったのち、対象に一直線に向かっていき、着弾すると同時に爆発する",
+	rarity = 5,
+	attribute_1 = "hit",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89600,
+	icon = "89600",
+	value_1 = "10",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60190
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89601] = {
+	id = 89601,
+	value_2 = 7,
+	value_1 = "11",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89602] = {
+	id = 89602,
+	value_2 = 8,
+	value_1 = "13",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89603] = {
+	id = 89603,
+	value_2 = 9,
+	value_1 = "14",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89604] = {
+	id = 89604,
+	value_2 = 10,
+	value_1 = "16",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89605] = {
+	id = 89605,
+	value_2 = 11,
+	value_1 = "17",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89606] = {
+	id = 89606,
+	value_2 = 12,
+	value_1 = "19",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89607] = {
+	id = 89607,
+	value_2 = 13,
+	value_1 = "20",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89608] = {
+	id = 89608,
+	value_2 = 14,
+	value_1 = "22",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89609] = {
+	id = 89609,
+	value_2 = 15,
+	value_1 = "23",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89610] = {
+	id = 89610,
+	value_2 = 17,
+	value_1 = "25",
+	base = 89600,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89611] = {
+	value_2 = 18,
+	anti_siren = 100,
+	base = 89600,
+	id = 89611,
+	value_1 = "26",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89612] = {
+	value_2 = 19,
+	anti_siren = 200,
+	base = 89600,
+	id = 89612,
+	value_1 = "28",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89613] = {
+	value_2 = 20,
+	anti_siren = 300,
+	base = 89600,
+	id = 89613,
+	value_1 = "29",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89620] = {
+	type = 10,
+	name = "エネルジアニカ",
+	speciality = "无",
+	tech = 0,
+	value_2 = 12,
+	ammo = 10,
+	nationality = 109,
+	descrip = "意思が形となって音を奏でるハーモニカ。吹く者はもちろん、その音色を聞く者に対しても様々な力を与えてくれる",
+	rarity = 5,
+	attribute_1 = "antiaircraft",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89620,
+	icon = "89620",
+	value_1 = "14",
+	attribute_2 = "hit",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60270
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89621] = {
+	id = 89621,
+	value_2 = 13,
+	value_1 = "16",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89622] = {
+	id = 89622,
+	value_2 = 15,
+	value_1 = "18",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89623] = {
+	id = 89623,
+	value_2 = 17,
+	value_1 = "20",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89624] = {
+	id = 89624,
+	value_2 = 19,
+	value_1 = "22",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89625] = {
+	id = 89625,
+	value_2 = 21,
+	value_1 = "24",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89626] = {
+	id = 89626,
+	value_2 = 22,
+	value_1 = "26",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89627] = {
+	id = 89627,
+	value_2 = 24,
+	value_1 = "28",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89628] = {
+	id = 89628,
+	value_2 = 26,
+	value_1 = "30",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89629] = {
+	id = 89629,
+	value_2 = 28,
+	value_1 = "32",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89630] = {
+	id = 89630,
+	value_2 = 30,
+	value_1 = "35",
+	base = 89620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89631] = {
+	value_2 = 31,
+	anti_siren = 100,
+	base = 89620,
+	id = 89631,
+	value_1 = "37",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89632] = {
+	value_2 = 33,
+	anti_siren = 200,
+	base = 89620,
+	id = 89632,
+	value_1 = "39",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89633] = {
+	value_2 = 35,
+	anti_siren = 300,
+	base = 89620,
+	id = 89633,
+	value_1 = "41",
 	hidden_skill_id = {}
 }
 

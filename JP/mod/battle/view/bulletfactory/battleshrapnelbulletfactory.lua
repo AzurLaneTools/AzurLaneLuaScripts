@@ -82,7 +82,7 @@ function slot3.onBulletHitFunc(slot0, slot1, slot2)
 		end
 	end
 
-	uv1.Battle.PlayBattleSFX(slot6.hit_sfx)
+	uv1.Battle.PlayBattleSFX(slot4:GetHitSFX())
 
 	if slot6.extra_param.rangeAA then
 		uv0.areaSplit(slot0)

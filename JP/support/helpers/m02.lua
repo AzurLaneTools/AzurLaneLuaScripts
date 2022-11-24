@@ -1178,6 +1178,12 @@ function updateDrop(slot0, slot1, slot2)
 			configId = tonumber(slot4.ship_group .. "1"),
 			skin_id = slot1.id
 		}), slot2)
+	elseif slot3 == DROP_TYPE_RYZA_DROP then
+		slot5 = slot4.display
+
+		updateRyzaItem(slot0, AtelierMaterial.New({
+			configId = slot1.id
+		}), slot2)
 	end
 
 	slot1.cfg = slot4
@@ -1338,6 +1344,18 @@ function updateEquipmentSkin(slot0, slot1, slot2)
 	uv1(slot0, slot1.name, slot2)
 	uv2(slot0, slot1.count)
 	uv3(slot0, slot1.rarity, slot2)
+end
+
+function updateRyzaItem(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+	slot3 = ItemRarity.Rarity2Print(slot1:GetRarity())
+
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot3))
+	setFrame(findTF(slot0, "icon_bg/frame"), slot3)
+	GetImageSpriteFromAtlasAsync(slot1:GetIconPath(), "", findTF(slot0, "icon_bg/icon"))
+	uv0(slot0, false)
+	uv1(slot0, HXSet.hxLan(slot1:GetName()), slot2)
+	uv2(slot0, slot1:GetRarity(), slot2)
 end
 
 function getDropRarity(slot0)
@@ -3125,13 +3143,21 @@ function updateEquipUpgradeInfo(slot0, slot1, slot2)
 end
 
 function setCanvasOverrideSorting(slot0, slot1)
+	slot2 = slot0.parent
+
 	slot0.SetParent(slot0, pg.LayerWeightMgr.GetInstance().uiOrigin, false)
-	setActive(slot0, true)
 
-	GetOrAddComponent(slot0, typeof(Canvas)).overrideSorting = slot1
+	if isActive(slot0) then
+		GetOrAddComponent(slot0, typeof(Canvas)).overrideSorting = slot1
+	else
+		setActive(slot0, true)
 
-	slot0.SetParent(slot0, slot0.parent, false)
-	setActive(slot0, isActive(slot0))
+		GetOrAddComponent(slot0, typeof(Canvas)).overrideSorting = slot1
+
+		setActive(slot0, false)
+	end
+
+	slot0.SetParent(slot0, slot2, false)
 end
 
 function createNewGameObject(slot0, slot1)
@@ -3362,4 +3388,35 @@ function parseTimeConfig(slot0)
 	else
 		return slot0
 	end
+end
+
+function NewPos(slot0, slot1)
+	assert(slot0 and slot1)
+
+	slot2 = setmetatable({
+		x = slot0,
+		y = slot1
+	}, {
+		__add = function (slot0, slot1)
+			return NewPos(slot0.x + slot1.x, slot0.y + slot1.y)
+		end,
+		__sub = function (slot0, slot1)
+			return NewPos(slot0.x - slot1.x, slot0.y - slot1.y)
+		end,
+		__mul = function (slot0, slot1)
+			return NewPos(slot0.x * slot1, slot0.y * slot1)
+		end,
+		__eq = function (slot0, slot1)
+			return slot0.x == slot1.x and slot0.y == slot1.y
+		end,
+		__tostring = function (slot0)
+			return slot0.x .. "_" .. slot0.y
+		end
+	})
+
+	function slot2.SqrMagnitude(slot0)
+		return slot0.x * slot0.x + slot0.y * slot0.y
+	end
+
+	return slot2
 end

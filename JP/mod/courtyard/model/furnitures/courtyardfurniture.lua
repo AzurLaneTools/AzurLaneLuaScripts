@@ -66,21 +66,30 @@ function slot0.GetLevel(slot0)
 	return slot0.config.level
 end
 
-function slot0.InitMusicData(slot0)
-	slot2 = type(slot0.config.can_trigger[2]) == "table" and slot1[2] or {
-		slot1[2]
+function slot0._InitMusicData(slot0, slot1, slot2, slot3, slot4)
+	slot5 = type(slot2) == "table" and slot2 or {
+		slot2
 	}
-	slot3 = type(slot1[3]) == "table" and slot1[3] or {
-		slot1[3]
+	slot6 = type(slot3) == "table" and slot3 or {
+		slot3
 	}
 
-	for slot7, slot8 in ipairs(slot2) do
+	for slot10, slot11 in ipairs(slot5) do
 		table.insert(slot0.musicDatas, {
-			voice = slot8,
-			voiceType = slot1[1],
-			action = slot3[slot7],
-			effect = slot1[4]
+			voice = slot11,
+			voiceType = slot1,
+			action = slot6[slot10],
+			effect = slot4
 		})
+	end
+end
+
+function slot0.InitMusicData(slot0)
+	if slot0.config.can_trigger[1] == 3 then
+		slot0:_InitMusicData(1, slot1[2][1], slot1[2][2], slot1[2][3])
+		slot0:_InitMusicData(2, slot1[3][1], slot1[3][2], slot1[3][3])
+	else
+		slot0:_InitMusicData(slot1[1], slot1[2], slot1[3], slot1[4])
 	end
 end
 
@@ -90,7 +99,7 @@ function slot0.Init(slot0, slot1, slot2)
 end
 
 function slot0.DisableRotation(slot0)
-	return slot0.config.can_rotate ~= 0
+	return slot0.config.can_rotate ~= 0 or slot0:IsType(Furniture.TYPE_WALL) or slot0:IsType(Furniture.TYPE_WALL_MAT)
 end
 
 function slot0.IsType(slot0, slot1)
@@ -233,7 +242,11 @@ end
 
 function slot0.GetTouchSound(slot0)
 	if slot0:CanTouch() then
-		return slot0.config.spine[1][3][4]
+		if type(slot0.config.spine[1][3][4]) == "table" then
+			return slot1[math.random(1, #slot1)]
+		else
+			return slot1
+		end
 	end
 end
 
@@ -348,9 +361,13 @@ function slot0.ChangeState(slot0, slot1)
 	if slot1 == uv0.STATE_TOUCH and slot0:GetTouchPrepareAction() then
 		slot0:_ChangeState(uv0.STATE_TOUCH_PREPARE)
 	elseif slot1 == uv0.STATE_PLAY_MUSIC then
-		slot0.musicData = slot0.musicDatas[math.random(1, #slot0.musicDatas)]
+		if #_.select(slot0.musicDatas, function (slot0)
+			return slot0.voiceType == 2
+		end) > 0 then
+			slot0.musicData = slot2[math.random(1, #slot2)]
 
-		slot0:_ChangeState(slot1)
+			slot0:_ChangeState(slot1)
+		end
 	elseif slot1 == uv0.STATE_STOP_MUSIC then
 		slot0:_ChangeState(uv0.STATE_IDLE)
 

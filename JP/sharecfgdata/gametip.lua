@@ -5363,6 +5363,10 @@ _G.pg.base.gametip.word_shipNation_mot = {
 	tip = "テンペスタ"
 }
 
+_G.pg.base.gametip.word_shipNation_ryza = {
+	tip = "ライザのアトリエ２／３"
+}
+
 _G.pg.base.gametip.word_reset = {
 	tip = "クリア"
 }
@@ -10063,7 +10067,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ペーター·シュトラッサー」「プリンツ·ハインリヒ」などの出現率UP！"
+	tip = "「ライザリン・シュタウト」「パトリツィア・アーベルハイム」などの出現率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -20590,6 +20594,72 @@ _G.pg.base.gametip.cruise_task_help_2210 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2212 = {
+	tip = "<size=24>2022.12.1-2023.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「ハンター(META)」</color>などを入手可能！</size>"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2212 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2022.12.1（木）0:00～2023.1.31（火）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「フォーチュン(META)」、SP報酬からは軽巡洋艦「クリーブランド」の限定着せ替え「南方の旅路」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+　①通常報酬
+　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+　②SP報酬
+　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません厖
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2212 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません……
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "リセット"
 }
@@ -21989,4 +22059,400 @@ _G.pg.base.gametip.pgs_unbind_tip1 = {
 
 _G.pg.base.gametip.pgs_unbind_tip2 = {
 	tip = "ログイン中のゲームアカウントはPGSアカウントと連携されています。\n他の連携をすべて解除すると、PGSアカウントとの連携も解除されます。"
+}
+
+_G.pg.base.gametip.word_item = {
+	tip = "アイテム"
+}
+
+_G.pg.base.gametip.word_tool = {
+	tip = "採取道具"
+}
+
+_G.pg.base.gametip.word_other = {
+	tip = "素材関連"
+}
+
+_G.pg.base.gametip.ryza_word_equip = {
+	tip = "特殊装備"
+}
+
+_G.pg.base.gametip.ryza_rest_produce_count = {
+	tip = "残り調合可能数："
+}
+
+_G.pg.base.gametip.ryza_composite_confirm = {
+	tip = "$1 × $2 を調合しますか？"
+}
+
+_G.pg.base.gametip.ryza_composite_confirm_single = {
+	tip = "$1を調合しますか？"
+}
+
+_G.pg.base.gametip.ryza_composite_count = {
+	tip = "調合個数："
+}
+
+_G.pg.base.gametip.ryza_toggle_only_composite = {
+	tip = "調合可能のみ"
+}
+
+_G.pg.base.gametip.ryza_tip_select_recipe = {
+	tip = "左のレシピを選択してください"
+}
+
+_G.pg.base.gametip.ryza_tip_put_materials = {
+	tip = "サークルをタップし調合素材を投入してください($1/$2)"
+}
+
+_G.pg.base.gametip.ryza_tip_composite_unlock = {
+	tip = "調合システムはイベントステージT5クリアで開放されます"
+}
+
+_G.pg.base.gametip.ryza_tip_unlock_all_tools = {
+	tip = "採取道具全て調合すると開放"
+}
+
+_G.pg.base.gametip.ryza_material_not_enough = {
+	tip = "調合素材が不足しています。調合開始をタップすると不足素材を確認できます"
+}
+
+_G.pg.base.gametip.ryza_tip_composite_invalid = {
+	tip = "このレシピはこれ以上調合できません"
+}
+
+_G.pg.base.gametip.ryza_tip_max_composite_count = {
+	tip = "調合素材が不足しているため、調合できません"
+}
+
+_G.pg.base.gametip.ryza_tip_no_item = {
+	tip = "調合素材を所持していません"
+}
+
+_G.pg.base.gametip.ryza_ui_show_acess = {
+	tip = "入手方法\nを確認"
+}
+
+_G.pg.base.gametip.ryza_tip_no_recipe = {
+	tip = "調合できるレシピはありません"
+}
+
+_G.pg.base.gametip.ryza_tip_item_access = {
+	tip = "素材アイコンタップで入手方法を確認できます"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain_tip = {
+	tip = "強化コアは調合で入手できます"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_upgrade = {
+	tip = "強化"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_replace = {
+	tip = "変更"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_limit = {
+	tip = "配置上限"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_already_active_tip = {
+	tip = "配置済"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff = {
+	tip = "強化効果はTH1～TH5、SP、EXステージに適用されます"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain = {
+	tip = "未所持"
+}
+
+_G.pg.base.gametip.ryza_tip_control = {
+	tip = "強化コアを配置して強化効果を入手可能"
+}
+
+_G.pg.base.gametip.ryza_tip_main = {
+	tip = {
+		{
+			info = [[
+イベント紹介：
+<color=#92fc63>11.24-12.08メンテナンス</color>期間限定コラボイベント「錬金術士と謎の遺跡群島」が開催！
+1.イベントステージをクリアし「遺跡水晶クラスター」を手に入れ、イベントショップ交換報酬とPt累計入手数報酬を手に入れよう！
+2.ミニゲーム「温泉開発戦」を7日間プレイし、コラボ限定家具<color=#92fc63>「ミニ温泉」</color>とコラボ装備外装をGET!
+3.「依頼任務」：裏山の「依頼任務」で出現する任務をクリアすると、<color=#92fc63>特殊調合素材</color>や限定家具をGET！さらに任務を一定数クリアすると、イベント期間中艦隊全体に強化効果を付与可能！
+11/30（水）まで毎日新しい依頼任務が開放されます。
+4.「調合」：イベント期間中、採取地ステージや依頼任務などで手に入れた素材は調合システムで新しいアイテムに変換可能！記念家具<color=#92fc63>「遺跡冒険記念」</color>、<color=#92fc63>コラボキャラ特殊装備</color>、<color=#92fc63>コラボ設備兵装</color>などのアイテムを入手可能！
+5.「着せ替え」：着せ替えショップに移動できます
+6.「限定建造」：期間限定建造画面に移動できます]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battle_levelScene_ryza_lock = {
+	tip = "採取地ステージはイベントステージT5クリアで開放されます"
+}
+
+_G.pg.base.gametip.ryza_tip_toast_item_got = {
+	tip = "調合素材"
+}
+
+_G.pg.base.gametip.ryza_composite_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_4",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_control_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_control",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_mini_game = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_level_desc = {
+	tip = "母港評価"
+}
+
+_G.pg.base.gametip.ryza_task_tag_explore = {
+	tip = "探索"
+}
+
+_G.pg.base.gametip.ryza_task_tag_battle = {
+	tip = "討伐"
+}
+
+_G.pg.base.gametip.ryza_task_tag_dalegate = {
+	tip = "依頼"
+}
+
+_G.pg.base.gametip.ryza_task_tag_develop = {
+	tip = "研究"
+}
+
+_G.pg.base.gametip.ryza_task_detail_content = {
+	tip = "内容"
+}
+
+_G.pg.base.gametip.ryza_task_detail_award = {
+	tip = "報酬"
+}
+
+_G.pg.base.gametip.ryza_task_go = {
+	tip = "確認"
+}
+
+_G.pg.base.gametip.ryza_task_get = {
+	tip = "受取"
+}
+
+_G.pg.base.gametip.ryza_task_get_all = {
+	tip = "一括受取"
+}
+
+_G.pg.base.gametip.ryza_task_confirm = {
+	tip = "確定"
+}
+
+_G.pg.base.gametip.ryza_task_cancel = {
+	tip = "戻る"
+}
+
+_G.pg.base.gametip.ryza_task_level_num = {
+	tip = "評価レベル"
+}
+
+_G.pg.base.gametip.ryza_task_level_add = {
+	tip = "評価効果"
+}
+
+_G.pg.base.gametip.ryza_task_submit = {
+	tip = "提出"
+}
+
+_G.pg.base.gametip.ryza_task_detail = {
+	tip = "確認"
+}
+
+_G.pg.base.gametip.ryza_composite_words = {
+	tip = {
+		{
+			"ryza_atellier1",
+			"何を作ろうかな？"
+		},
+		{
+			"ryza_atellier2",
+			"何を入れようかな？"
+		},
+		{
+			"ryza_atellier3",
+			"色々試してみよう！"
+		},
+		{
+			"ryza_atellier4",
+			"材料を入れてから作るものを考えようかな？"
+		},
+		{
+			"ryza_atellier5",
+			"いい感じ！"
+		},
+		{
+			"ryza_atellier6",
+			"すごいものができそう！"
+		},
+		{
+			"ryza_atellier7",
+			"うんうん、この感じ！"
+		},
+		{
+			"ryza_atellier8",
+			"うまくいくかなあ"
+		},
+		{
+			"ryza_atellier9",
+			"よーし、いくよ！"
+		},
+		{
+			"ryza_atellier10",
+			"じゃーん！こんな感じ？"
+		},
+		{
+			"ryza_atellier11",
+			"よし、できた！"
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_4",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

@@ -472,6 +472,14 @@ function slot32.GetEquipSkin(slot0)
 	return slot1.bullet_name, slot1.derivate_bullet, slot1.derivate_torpedo, slot1.derivate_boom, slot1.fire_fx_name, slot1.hit_fx_name
 end
 
+function slot32.GetEquipSkinSFX(slot0)
+	assert(uv0[slot0] ~= nil, ">>equip_skin_template<< 找不到装备皮肤配置：id = " .. slot0)
+
+	slot1 = uv0[slot0]
+
+	return slot1.hit_sfx, slot1.miss_sfx
+end
+
 function slot32.GetSpecificGuildBossEnemyList(slot0, slot1)
 	slot4 = {}
 

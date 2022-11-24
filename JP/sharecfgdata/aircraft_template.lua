@@ -208087,6 +208087,682 @@ _G.pg.base.aircraft_template[3029308] = {
 	}
 }
 
+_G.pg.base.aircraft_template[3030315] = {
+	id = 3030315,
+	name = "【2022莱莎联动T1】航母蛋船轰炸机",
+	base = 1001066,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003221
+	}
+}
+
+_G.pg.base.aircraft_template[3030316] = {
+	id = 3030316,
+	name = "【2022莱莎联动T1】航母蛋船战斗机",
+	base = 1001071,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3030338] = {
+	id = 3030338,
+	name = "【2022莱莎联动T1】航母人形轰炸机",
+	base = 1004186,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003221
+	}
+}
+
+_G.pg.base.aircraft_template[3030339] = {
+	id = 3030339,
+	name = "【2022莱莎联动T1】航母人形鱼雷机",
+	base = 1004191,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002226
+	}
+}
+
+_G.pg.base.aircraft_template[3031315] = {
+	id = 3031315,
+	name = "【2022莱莎联动T2】航母蛋船轰炸机",
+	base = 1001067,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003222
+	}
+}
+
+_G.pg.base.aircraft_template[3031316] = {
+	id = 3031316,
+	name = "【2022莱莎联动T2】航母蛋船战斗机",
+	base = 1001072,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3031338] = {
+	id = 3031338,
+	name = "【2022莱莎联动T2】航母人形轰炸机",
+	base = 1004187,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003222
+	}
+}
+
+_G.pg.base.aircraft_template[3031339] = {
+	id = 3031339,
+	name = "【2022莱莎联动T2】航母人形鱼雷机",
+	base = 1004192,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002227
+	}
+}
+
+_G.pg.base.aircraft_template[3032315] = {
+	id = 3032315,
+	name = "【2022莱莎联动T3】航母蛋船轰炸机",
+	base = 1001068,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003223
+	}
+}
+
+_G.pg.base.aircraft_template[3032316] = {
+	id = 3032316,
+	name = "【2022莱莎联动T3】航母蛋船战斗机",
+	base = 1001073,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3032338] = {
+	id = 3032338,
+	name = "【2022莱莎联动T3】航母人形轰炸机",
+	base = 1004188,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003223
+	}
+}
+
+_G.pg.base.aircraft_template[3032339] = {
+	id = 3032339,
+	name = "【2022莱莎联动T3】航母人形鱼雷机",
+	base = 1004193,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002228
+	}
+}
+
+_G.pg.base.aircraft_template[3033315] = {
+	id = 3033315,
+	name = "【2022莱莎联动T4】航母蛋船轰炸机",
+	base = 1001069,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003224
+	}
+}
+
+_G.pg.base.aircraft_template[3033316] = {
+	id = 3033316,
+	name = "【2022莱莎联动T4】航母蛋船战斗机",
+	base = 1001074,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3033338] = {
+	id = 3033338,
+	name = "【2022莱莎联动T4】航母人形轰炸机",
+	base = 1004189,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003224
+	}
+}
+
+_G.pg.base.aircraft_template[3033339] = {
+	id = 3033339,
+	name = "【2022莱莎联动T4】航母人形鱼雷机",
+	base = 1004194,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002229
+	}
+}
+
+_G.pg.base.aircraft_template[3033346] = {
+	attack_power = 2,
+	name = "【2022莱莎联动T4】BOSS 古代遗迹执棋者 战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3033346,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3033349,
+		3033355
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3033347] = {
+	attack_power = 2,
+	name = "【2022莱莎联动T4】BOSS 古代遗迹执棋者 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3033347,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3033350
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3033348] = {
+	attack_power = 2,
+	name = "【2022莱莎联动T4】BOSS 古代遗迹执棋者 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3033348,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		3033351,
+		3033352
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3035315] = {
+	id = 3035315,
+	name = "【2022莱莎联动T5/ESP/TH1~5】航母蛋船轰炸机",
+	base = 1001070,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003225
+	}
+}
+
+_G.pg.base.aircraft_template[3035316] = {
+	id = 3035316,
+	name = "【2022莱莎联动T5/ESP/TH1~5】航母蛋船战斗机",
+	base = 1001075,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3035338] = {
+	id = 3035338,
+	name = "【2022莱莎联动T5/ESP/TH1~5】航母人形轰炸机",
+	base = 1004190,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003225
+	}
+}
+
+_G.pg.base.aircraft_template[3035339] = {
+	id = 3035339,
+	name = "【2022莱莎联动T5/ESP/TH1~5】航母人形鱼雷机",
+	base = 1004195,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002230
+	}
+}
+
+_G.pg.base.aircraft_template[3035346] = {
+	id = 3035346,
+	name = "【2022莱莎联动T5/ESP/TH1~5】精英航母人形特殊飞机",
+	base = 1003290,
+	model_ID = "fuyoupao2",
+	icon = "fuyoupao2",
+	weapon_ID = {
+		3035347
+	}
+}
+
+_G.pg.base.aircraft_template[3037401] = {
+	attack_power = 2,
+	name = "【2022莱莎联动TH4】BOSS 古代遗迹执棋者 战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3037401,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3037404,
+		3037411
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3037402] = {
+	attack_power = 2,
+	name = "【2022莱莎联动TH4】BOSS 古代遗迹执棋者 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3037402,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3037405
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3037403] = {
+	attack_power = 2,
+	name = "【2022莱莎联动TH4】BOSS 古代遗迹执棋者 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3037403,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		3037406,
+		3037407
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 if rawget(uv0[slot1], "base") ~= nil then
 	rawset(slot2, "base", nil)
 	setmetatable(slot2, {
