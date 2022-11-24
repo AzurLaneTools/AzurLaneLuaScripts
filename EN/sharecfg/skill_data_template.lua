@@ -9176,7 +9176,7 @@ pg.skill_data_template = {
 		id = 60130,
 		type = 0,
 		max_level = 0,
-		desc = "When equipped by Reisalin Stout: 10s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts a special Burn and the Item Mark debuff to enemies hit for 5s. If equipped in the second gear slot: the character equipping this gear gains a special Secondary Gun (attacks from this Secondary Gun are not treated as Item attacks).",
+		desc = "When equipped by Reisalin Stout: 10s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts a special Burn and the Item Mark debuff to enemies hit for 5s. If equipped in the second gear slot: the character equipping this gear's Torpedo is replaced with a Special Torpedo (attacks from this Torpedo are not treated as Item attacks).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -9204,7 +9204,7 @@ pg.skill_data_template = {
 		id = 60150,
 		type = 0,
 		max_level = 0,
-		desc = "When equipped by Reisalin Stout: 20s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts the Item Mark debuff to enemies hit for 5s and decreases their Crit Rate by 10.0% for 5s. If equipped in the third gear slot: the character equipping this gear gains a special Anti-Air Gun (attacks from this Anti-Air Gun are not treated as Item attacks).",
+		desc = "When equipped by Reisalin Stout: 20s after the battle starts, performs an Item attack (DMG is based on the equipping character's FP) that inflicts the Item Mark debuff to enemies hit for 5s and decreases their Crit Rate by 10.0% for 5s. If equipped in the third gear slot: the character equipping this gear's Anti-Air Gun is replaced with a Special Anti-Air Gun (attacks from this Anti-Air Gun are not treated as Item attacks).",
 		system_transform = {},
 		world_death_mark = {
 			1
