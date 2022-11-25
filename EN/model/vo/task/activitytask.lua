@@ -51,7 +51,7 @@ function slot0.getProgress(slot0)
 				end
 			end
 		elseif slot0.type == 6 and slot0.subType == 1001 then
-			slot1 = getProxy(PlayerProxy):getData()[pg.player_resource[tonumber(slot0:getConfig("target_id"))].name]
+			slot1 = getProxy(ActivityProxy):getActivityById(tonumber(slot0:getConfig("target_id_2"))).data1 or 0
 		else
 			slot1 = slot0.progress
 		end
@@ -115,7 +115,7 @@ function slot0.isNew(slot0)
 	end
 
 	if slot0.actType == ActivityConst.ACTIVITY_TYPE_TASK_RYZA then
-		if slot0.groupIndex ~= 1 and PlayerPrefs.GetInt("ryza_task_" .. slot0.id) ~= 1 then
+		if slot0.groupIndex ~= 1 and PlayerPrefs.GetInt("ryza_task_" .. getProxy(PlayerProxy):getRawData().id .. "_" .. slot0.id) ~= 1 then
 			return true
 		end
 
@@ -126,8 +126,8 @@ function slot0.isNew(slot0)
 end
 
 function slot0.changeNew(slot0)
-	if slot0.actType == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and slot0.groupIndex ~= 1 and PlayerPrefs.GetInt("ryza_task_" .. slot0.id) ~= 1 then
-		PlayerPrefs.SetInt("ryza_task_" .. slot0.id, 1)
+	if slot0.actType == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and slot0.groupIndex ~= 1 and PlayerPrefs.GetInt("ryza_task_" .. getProxy(PlayerProxy):getRawData().id .. "_" .. slot0.id) ~= 1 then
+		PlayerPrefs.SetInt("ryza_task_" .. getProxy(PlayerProxy):getRawData().id .. "_" .. slot0.id, 1)
 	end
 end
 

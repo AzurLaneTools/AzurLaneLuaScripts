@@ -113,12 +113,17 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.UpdateView(slot0)
+	slot2 = _.all(slot0.activity:GetSlots(), function (slot0)
+		return slot0[1] > 0
+	end)
+
+	setActive(slot0._tf:Find("Panel/Full"), slot2)
+
+	slot0.slotFull = slot2
+
 	table.Foreach(slot0.slotTfs, function (slot0, slot1)
 		uv0:UpdateSlot(slot1, slot0)
 	end)
-	setActive(slot0._tf:Find("Panel/Full"), _.all(slot0.activity:GetSlots(), function (slot0)
-		return slot0[1] > 0
-	end))
 
 	slot3 = slot0.contextData.selectIndex and slot1[slot0.contextData.selectIndex]
 
@@ -191,6 +196,10 @@ function slot0.UpdateView(slot0)
 	end
 end
 
+function slot0.PlayFullEffect(slot0)
+	slot0:LoadingOn()
+end
+
 function slot0.UpdateSlot(slot0, slot1, slot2)
 	slot3 = slot0.activity:GetSlots()[slot2]
 	slot4 = slot3[1]
@@ -203,23 +212,29 @@ function slot0.UpdateSlot(slot0, slot1, slot2)
 	setActive(slot1:Find("LinkActive"), slot7)
 	setActive(slot1:Find("Diamond"), slot4 > 0)
 
+	slot9 = false
+
 	if slot8 then
 		setActive(slot1:Find("Avaliable/Selecting"), slot7)
 		setActive(slot1:Find("Avaliable/Item"), slot4 > 0)
+		setActive(slot1:Find("Avaliable/Item"):GetChild(2), slot0.slotFull)
 		setActive(slot1:Find("Avaliable/Image"), slot4 == 0)
 
 		if slot4 > 0 then
-			slot9 = AtelierMaterial.New({
+			slot9 = #AtelierMaterial.New({
 				configId = slot4
-			})
-			slot11 = CommonBuff.New({
-				id = slot9:GetBuffs()[math.min(#slot9:GetBuffs(), slot5)]
+			}):GetBuffs() == slot5
+			slot12 = CommonBuff.New({
+				id = slot10:GetBuffs()[math.min(#slot10:GetBuffs(), slot5)]
 			})
 
-			slot0.loader:GetSpriteQuiet(slot11:getConfig("icon"), "", slot1:Find("Avaliable/Item/Image"))
-			setText(slot1:Find("Avaliable/Item/Name/Text"), slot11:getConfig("name"))
+			slot0.loader:GetSpriteQuiet(slot12:getConfig("icon"), "", slot1:Find("Avaliable/Item/Image"))
+			setText(slot1:Find("Avaliable/Item/Name/Text"), slot12:getConfig("name"))
 		end
 	end
+
+	setActive(slot1:Find("Link/3"), slot9)
+	setActive(slot1:Find("Link/1"), not slot9 and slot5 > 0)
 end
 
 function slot0.OnUpdateAtelierBuff(slot0)
@@ -231,9 +246,9 @@ function slot0.PlayLevelUpAnim(slot0)
 	slot0:CleanTween()
 
 	slot1 = slot0.slotTfs[slot0.contextData.selectIndex]
-	slot2 = slot1:Find("Avaliable/LevelUp")
+	slot2 = slot1:Find("Avaliable/LevelUp/Image")
 
-	setActive(slot2, true)
+	setActive(slot2.parent, true)
 
 	slot3 = slot2.anchoredPosition.y
 
@@ -252,7 +267,7 @@ function slot0.PlayLevelUpAnim(slot0)
 		setAnchoredPosition(uv0, {
 			y = uv1
 		})
-		setActive(uv0, false)
+		setActive(uv0.parent, false)
 	end)).id
 end
 
@@ -264,9 +279,30 @@ function slot0.CleanTween(slot0)
 	LeanTween.cancel(slot0.tweenId, true)
 end
 
+function slot0.LoadingOn(slot0)
+	if slot0.animating then
+		return
+	end
+
+	slot0.animating = true
+
+	pg.UIMgr.GetInstance():LoadingOn(false)
+end
+
+function slot0.LoadingOff(slot0)
+	if not slot0.animating then
+		return
+	end
+
+	pg.UIMgr.GetInstance():LoadingOff()
+
+	slot0.animating = false
+end
+
 function slot0.willExit(slot0)
 	slot0.loader:Clear()
 	slot0:CleanTween()
+	slot0:LoadingOff()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 

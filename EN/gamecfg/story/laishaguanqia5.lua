@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "(Wow, I'm really jumping to conclusions here! Obviously, the Sirens just turned salt water into fresh water. I don't know WHY they'd do that, but...)",
+			say = "(Wow, she's really jumping to conclusions here! Obviously, the Sirens just turned salt water into fresh water. I don't know WHY they'd do that, but...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "That means getting drinking water won't be a problem! Plus, I can even use to synthesize stuff.",
+			say = "That means getting drinking water won't be a problem! Plus, I can even use it to synthesize stuff.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

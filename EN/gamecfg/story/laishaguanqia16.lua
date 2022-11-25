@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "Guess so. But don't be so reckless last time!",
+			say = "Guess so. But don't be so reckless next time!",
 			painting = {
 				alpha = 0.3,
 				time = 1

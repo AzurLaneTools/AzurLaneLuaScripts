@@ -70,29 +70,22 @@ function slot0.TimeUpdate(slot0, slot1)
 
 			if not slot0.wanderPos then
 				slot0.wanderPos = slot0.pos
-				slot0.wanderRealPos = slot0.realPos
+				slot0.wanderDir = NewPos(0, 0)
 				slot0.wanderTime = 1.5
 			end
 
 			if slot0.wanderTime <= slot1 then
-				slot0.wanderRealPos = slot0.wanderPos + NewPos(math.random() * 2 - 1, math.random() * 2 - 1) * slot0.wander
+				slot0.wanderDir = (slot0.wanderPos + NewPos(math.random() * 2 - 1, math.random() * 2 - 1) * slot0.wander - slot0.realPos):Normalize()
 			end
 
-			if uv0.super.MoveDelta(slot0, slot5 * (math.sqrt((slot0.wanderRealPos - slot0.realPos):SqrMagnitude()) == 0 and 0 or 1 / slot6), math.min(slot6, slot0:GetSpeedDis() * slot1)).x == 0 then
-				slot0.wanderRealPos.x = slot0.realPos.x
-			end
-
-			if slot4.y == 0 then
-				slot0.wanderRealPos.y = slot0.realPos.y
-			end
-
-			if slot4.x == 0 and slot4.y == 0 then
+			if uv0.super.MoveDelta(slot0, slot0.wanderDir, slot0:GetSpeedDis() * slot1).x == 0 and slot4.y == 0 then
 				slot0.wanderTime = slot0.wanderTime - slot1
-				slot3 = NewPos(0, 0)
 			else
 				slot0.wanderTime = 1.5
-				slot3 = slot4 * 1 / math.sqrt(slot4:SqrMagnitude())
 			end
+
+			slot0.wanderDir = slot4:Normalize()
+			slot3 = slot0.wanderDir
 		end
 
 		if slot3.x == 0 and slot3.y == 0 then
@@ -139,7 +132,7 @@ end
 
 function slot0.ClearWander(slot0)
 	slot0.wanderPos = nil
-	slot0.wanderRealPos = nil
+	slot0.wanderDir = nil
 	slot0.wanderTime = nil
 end
 

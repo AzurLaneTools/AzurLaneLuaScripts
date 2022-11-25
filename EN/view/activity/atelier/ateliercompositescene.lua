@@ -61,7 +61,7 @@ function slot0.init(slot0)
 	setActive(slot0.layerEmpty, false)
 	setActive(slot0.layerStoreHouse, false)
 	setActive(slot0.chat, false)
-	pg.ViewUtils.SetSortingOrder(slot0._tf:Find("BG"):GetChild(0), -1)
+	pg.ViewUtils.SetSortingOrder(slot0._tf:Find("Mask/BG"):GetChild(0), -1)
 	setText(slot0._tf:Find("Empty/Bar/Text"), i18n("ryza_tip_composite_unlock"))
 	setText(slot0.layerFormula:Find("Frame/Filter/Text"), i18n("ryza_toggle_only_composite"))
 	setText(slot0.layerFormula:Find("Frame/Empty"), i18n("ryza_tip_no_recipe"))
@@ -375,7 +375,7 @@ function slot0.UpdateFormulaItem(slot0, slot1, slot2)
 	setActive(slot3:Find("Completed"), not slot9)
 
 	if slot9 then
-		slot8 = setColorStr(slot8, uv1.IsFormualCanComposite(slot4, slot0.activity) and "#4fb3a3" or "#d55a54")
+		setTextColor(slot3:Find("BG/Count"), SummerFeastScene.TransformColor(uv1.IsFormualCanComposite(slot4, slot0.activity) and "4fb3a3" or "d55a54"))
 	end
 
 	setText(slot3:Find("BG/Count"), slot8)
@@ -544,7 +544,7 @@ function slot0.InitFormula(slot0, slot1)
 		id = slot1:GetProduction()[2]
 	})
 	setText(slot2:Find("Name"), slot1:GetName())
-	setText(slot2:Find("Description"), slot1:GetDesc())
+	setText(slot2:Find("Description/Text"), slot1:GetDesc())
 
 	slot4 = tostring(slot1:GetMaxLimit() - slot1:GetUsedCount())
 
@@ -1268,10 +1268,6 @@ function slot0.ShowCompositeConfirmWindow(slot0)
 	end)
 	onButton(slot0, slot0.layerCompositeConfirm:Find("Window/Confirm"), function ()
 		uv0:emit(GAME.COMPOSITE_ATELIER_RECIPE, uv1, uv2)
-		uv0:DispalyChat({
-			"ryza_atellier10",
-			"ryza_atellier11"
-		})
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/ui/ryza_atellier_ui_6")
 	end, SFX_PANEL)
 
@@ -1416,6 +1412,13 @@ function slot0.OnCompositeResult(slot0, slot1)
 			slot0 = uv0
 
 			slot0:ShowCompositeResult(uv1)
+
+			slot0 = uv0
+
+			slot0:DispalyChat({
+				"ryza_atellier10",
+				"ryza_atellier11"
+			})
 
 			slot0 = uv0
 			slot0 = slot0:managedTween(LeanTween.alphaCanvas, nil, GetComponent(uv0._tf, typeof(CanvasGroup)), 1, uv2)
@@ -1771,6 +1774,7 @@ function slot0.willExit(slot0)
 	slot0.loader:Clear()
 	slot0:LoadingOff()
 	slot0:HideChat()
+	slot0:ClearSound()
 	slot0:HideStoreHouseWindow()
 	slot0:HideMaterialsPreview()
 	slot0:HideCompositeResult()

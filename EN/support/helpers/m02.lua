@@ -3458,6 +3458,14 @@ function NewPos(slot0, slot1)
 		return slot0.x * slot0.x + slot0.y * slot0.y
 	end
 
+	function slot2.Normalize(slot0)
+		if slot0:SqrMagnitude() > 1e-05 then
+			return slot0 * 1 / math.sqrt(slot1)
+		else
+			return NewPos(0, 0)
+		end
+	end
+
 	return slot2
 end
 
