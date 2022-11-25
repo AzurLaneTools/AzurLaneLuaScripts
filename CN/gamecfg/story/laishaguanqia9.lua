@@ -303,7 +303,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莱沙就连塞壬制作出来的异世界素材也能用在炼金术里呢。",
+			say = "莱莎就连塞壬制作出来的异世界素材也能用在炼金术里呢。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
