@@ -22417,25 +22417,13 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/ryza_composite_1",
+				atlas = "helpbg/ryza_task_1",
 				path = ""
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/ryza_composite_2",
-				path = ""
-			}
-		},
-		{
-			icon = {
-				atlas = "helpbg/ryza_composite_3",
-				path = ""
-			}
-		},
-		{
-			icon = {
-				atlas = "helpbg/ryza_composite_4",
+				atlas = "helpbg/ryza_task_2",
 				path = ""
 			}
 		},

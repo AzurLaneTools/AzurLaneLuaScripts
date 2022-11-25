@@ -113037,7 +113037,7 @@ _G.pg.base.ship_data_template[10900054] = {
 
 _G.pg.base.ship_data_template[10900061] = {
 	oil_at_end = 7,
-	star_max = 5,
+	star_max = 6,
 	oil_at_start = 1,
 	type = 18,
 	max_level = 70,
@@ -113083,7 +113083,7 @@ _G.pg.base.ship_data_template[10900061] = {
 
 _G.pg.base.ship_data_template[10900062] = {
 	oil_at_end = 9,
-	star_max = 5,
+	star_max = 6,
 	oil_at_start = 1,
 	type = 18,
 	max_level = 80,
@@ -113129,7 +113129,7 @@ _G.pg.base.ship_data_template[10900062] = {
 
 _G.pg.base.ship_data_template[10900063] = {
 	oil_at_end = 11,
-	star_max = 5,
+	star_max = 6,
 	oil_at_start = 1,
 	type = 18,
 	max_level = 90,
@@ -113175,7 +113175,7 @@ _G.pg.base.ship_data_template[10900063] = {
 
 _G.pg.base.ship_data_template[10900064] = {
 	oil_at_end = 13,
-	star_max = 5,
+	star_max = 6,
 	oil_at_start = 1,
 	type = 18,
 	max_level = 100,

@@ -19580,7 +19580,7 @@ cs.gametip = {
 	},
 	ryza_task_help_tip = {
 		804190,
-		471,
+		345,
 		true
 	}
 }

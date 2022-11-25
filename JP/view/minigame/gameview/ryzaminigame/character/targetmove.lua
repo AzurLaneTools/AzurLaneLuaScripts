@@ -88,10 +88,20 @@ function slot0.MoveUpdate(slot0, slot1)
 
 	slot0:UpdatePosition()
 
-	if math.abs((slot0.realPos - slot0.pos + slot1).x) >= 0.5 or math.abs(slot2.y) >= 0.5 then
-		slot2.x = math.abs(slot2.x) < 0.5 and 0 or slot2.x < 0 and -1 or 1
-		slot2.y = math.abs(slot2.y) < 0.5 and 0 or slot2.y < 0 and -1 or 1
+	slot2 = slot0.realPos - slot0.pos
 
+	for slot6, slot7 in ipairs({
+		"x",
+		"y"
+	}) do
+		if math.abs(slot2[slot7]) > 0.5 then
+			slot2[slot7] = slot2[slot7] < 0 and -1 or 1
+		else
+			slot2[slot7] = 0
+		end
+	end
+
+	if slot2.x ~= 0 or slot2.y ~= 0 then
 		slot0:UpdatePos(slot0.pos + slot2)
 	end
 end
@@ -106,48 +116,79 @@ function slot0.MoveDelta(slot0, slot1, slot2)
 		return NewPos(0, 0)
 	end
 
-	slot3 = slot1 * slot2
-	slot4 = slot0.realPos - slot0.pos
-	slot5 = ipairs
-	slot6 = slot1.x < slot1.y and {
-		"y",
-		"x"
-	} or {
-		"x",
-		"y"
+	function slot3(slot0)
+		slot1 = slot0 - uv0.realPos
+
+		if slot1.x * slot1.x < 1 and slot1.y * slot1.y < 1 then
+			return true
+		else
+			return uv0.responder:GetCellPassability(slot0)
+		end
+	end
+
+	slot4 = {
+		x = {
+			0,
+			0
+		},
+		y = {
+			0,
+			0
+		}
 	}
 
-	for slot8, slot9 in slot5(slot6) do
-		slot10 = uv0[slot9]
+	for slot8, slot9 in ipairs({
+		"x",
+		"y"
+	}) do
+		for slot13, slot14 in ipairs({
+			-1,
+			1
+		}) do
+			slot15 = NewPos(slot0.pos.x, slot0.pos.y)
+			slot15[slot9] = slot15[slot9] + slot14
 
-		if slot3[slot9] ~= 0 and slot4[slot9] * (slot4[slot9] + slot3[slot9]) <= 0 then
-			slot11[slot9] = NewPos(slot0.pos.x, slot0.pos.y)[slot9] + (slot3[slot9] < 0 and -1 or 1)
-
-			if not slot0.responder:GetCellPassability(slot11) then
-				slot3[slot9] = -slot4[slot9]
-			elseif slot4[slot10] + slot3[slot10] ~= 0 then
-				slot11[slot10] = slot11[slot10] + (slot4[slot10] + slot3[slot10] < 0 and -1 or 1)
-
-				if slot0.responder:GetCellPassability(slot11) then
-					-- Nothing
-				elseif slot4[slot10] * (slot4[slot10] + slot3[slot10]) <= 0 then
-					slot3[slot10] = -slot4[slot10]
-				elseif slot4[slot10] * slot3[slot10] <= 0 then
-					if slot4[slot10] * slot4[slot10] < slot2 * slot2 then
-						slot3[slot10] = -slot4[slot10]
-						slot3[slot9] = (slot3[slot9] < 0 and -1 or 1) * math.sqrt(slot2 * slot2 - slot3[slot10] * slot3[slot10])
-					else
-						slot3[slot9] = -slot4[slot9]
-						slot3[slot10] = (-slot4[slot10] < 0 and -1 or 1) * math.sqrt(slot2 * slot2 - slot3[slot9] * slot3[slot9])
-					end
-				else
-					slot3[slot9] = -slot4[slot9]
-				end
+			if slot3(slot15) then
+				slot4[slot9][slot13] = slot4[slot9][slot13] + slot14
 			end
 		end
 	end
 
-	return slot3
+	slot6 = slot0.realPos - slot0.pos + slot1 * slot2
+	slot6.x = math.clamp(slot6.x, unpack(slot4.x))
+	slot6.y = math.clamp(slot6.y, unpack(slot4.y))
+
+	if slot6.x == 0 and slot6.y == 0 then
+		return slot6 - slot5
+	elseif slot6.x == 0 then
+		slot6.y = math.clamp(slot5.y + slot1.y * slot2, unpack(slot4.y))
+
+		return slot6 - slot5
+	elseif slot6.y == 0 then
+		slot6.x = math.clamp(slot5.x + slot1.x * slot2, unpack(slot4.x))
+
+		return slot6 - slot5
+	elseif not slot3(NewPos(slot0.pos.x + (slot6.x < 0 and -1 or 1), slot0.pos.y + (slot6.y < 0 and -1 or 1))) then
+		key = slot1.y * slot1.y > slot1.x * slot1.x and "y" or "x"
+		slot8 = uv0[key]
+		slot9 = NewPos(0, 0)
+
+		if slot5[slot8] * slot5[slot8] > slot2 * slot2 then
+			slot9[key] = -slot5[key]
+			slot9[slot8] = (-slot5[slot8] < 0 and -1 or 1) * math.sqrt(slot2 * slot2 - slot9[key] * slot9[key])
+		else
+			slot9[slot8] = -slot5[slot8]
+			slot9[key] = (slot1[key] < 0 and -1 or 1) * math.sqrt(slot2 * slot2 - slot9[slot8] * slot9[slot8])
+		end
+
+		slot6 = slot5 + slot9
+		slot6.x = math.clamp(slot6.x, unpack(slot4.x))
+		slot6.y = math.clamp(slot6.y, unpack(slot4.y))
+
+		return slot6 - slot5
+	else
+		return slot1 * slot2
+	end
 end
 
 function slot0.GetMoveInfo(slot0)

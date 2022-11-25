@@ -5666,8 +5666,13 @@ pg.expedition_activity_template = {
 	},
 	[1694014] = {
 		id = 1694014,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4580,
+				287
+			}
+		}
 	},
 	[1695013] = {
 		id = 1695013,
