@@ -22258,7 +22258,7 @@ _G.pg.base.gametip.ryza_composite_words = {
 		},
 		{
 			"ryza_atellier8",
-			"I'm sure hope this works."
+			"I sure hope this works."
 		},
 		{
 			"ryza_atellier9",

@@ -57765,7 +57765,7 @@ _G.pg.base.ship_skin_words[9701020] = {
 	touch2 = "Mmgh... Is this... yet another trial imposed upon me by fate...?",
 	voice_key_2 = -1,
 	skill = "P-please forgive me...",
-	drop_descrip = "Well met, Commander. My name is Fortune. Please don't worry about these ch-chains... They're there to... keep my power in check.",
+	drop_descrip = "",
 	mail = "Commander, there's new mail waiting for you... Um, unfortunately, I cannot hand it to you myself...",
 	touch = "Umm, if these interest you that much, I suppose it's fine for you to touch them... I am capable of restraining myself...",
 	profile = "I was given the name of \"Fortune,\" but in the end, it was I who was dragged down by fate... Um, if you insist on asking about these chains... They're, um, a self-imposed failsafe so that I do not harm those close to me...",
@@ -61561,7 +61561,7 @@ _G.pg.base.ship_skin_words[10900010] = {
 	touch2 = "...I was just thinking about testing out this new bomb I synthesized.",
 	voice_key_2 = -1,
 	skill = "You're all going down!",
-	drop_descrip = "Hey there! I'm Reisalin Stout, but you can just call me Ryza. I'm not really sure what this whole \"shipgirl \" thing is, but I'm sure I'll figure it out eventually... In any case, it's a pleasure to meet you!",
+	drop_descrip = "",
 	mail = "A letter's come in! I wonder what's in it~",
 	touch = "You want to know what can be made with alchemy? Hmm... I'm not sure how to sum it up neatly, but you can make pretty much anything as long as you have the right materials.",
 	profile = "I'm the alchemist, Reisalin Stout, but all my friends just call me Ryza. Alchemy is a pretty profound thing, you know. With enough creativity, you can turn even the simplest things into all kinds of neat stuff!",
@@ -61586,7 +61586,7 @@ _G.pg.base.ship_skin_words[10900010] = {
 				1090002
 			},
 			1,
-			"I'm glad we get to go on another adventure together, Klaudia!",
+			" I'm glad we get to go on another adventure together, Klaudia!",
 			0
 		},
 		{
@@ -61594,7 +61594,7 @@ _G.pg.base.ship_skin_words[10900010] = {
 				1090004
 			},
 			1,
-			"I'm counting on you, Lila!",
+			" I'm counting on you, Lila!",
 			0
 		},
 		{
@@ -61602,7 +61602,7 @@ _G.pg.base.ship_skin_words[10900010] = {
 				1090003
 			},
 			1,
-			"Patty, how've you been?",
+			" Patty, how've you been?",
 			0
 		}
 	}
@@ -61654,7 +61654,7 @@ _G.pg.base.ship_skin_words[10900020] = {
 	touch2 = "If you keep this up, it's going to be awkward being around you in the future.",
 	voice_key_2 = -1,
 	skill = "Take this!",
-	drop_descrip = "It's a pleasure to meet you. My name is Klaudia Valentz, and due to various circumstances, it seems that I'll be staying here for the time being. Please let me know if there's anything I can help with!",
+	drop_descrip = "",
 	mail = "Commander, there's mail for you. I left it on your desk, so please have a look as soon as possible.",
 	touch = "I've never been good at making friends... But thanks to the kindness everyone here at port has shown me, I've been having a great time and feel right at home.",
 	profile = "My name is Klaudia Valentz. Back in my world, I used to work for my father, a traveling merchant. When I arrived here, I was so worried I'd never be able to see Ryza and the others ever again, but I'm so glad we were able to be reunited!",
@@ -61679,7 +61679,7 @@ _G.pg.base.ship_skin_words[10900020] = {
 				1090001
 			},
 			1,
-			"I'm so happy to see you again, Ryza!",
+			" I'm so happy to see you again, Ryza!",
 			0
 		},
 		{
@@ -61687,7 +61687,7 @@ _G.pg.base.ship_skin_words[10900020] = {
 				1090004
 			},
 			1,
-			"Miss Lila, I'll support you!",
+			" Miss Lila, I'll support you!",
 			0
 		},
 		{
@@ -61695,7 +61695,7 @@ _G.pg.base.ship_skin_words[10900020] = {
 				1090005
 			},
 			1,
-			"I'll let you know if I find anything, Miss Serri.",
+			" I'll let you know if I find anything, Miss Serri.",
 			0
 		}
 	}
@@ -61747,7 +61747,7 @@ _G.pg.base.ship_skin_words[10900030] = {
 	touch2 = "...Do you want to be cut down?",
 	voice_key_2 = -1,
 	skill = "I'll show you what I'm made of!",
-	drop_descrip = "Are you the Commander I've heard so much about? My name is Patricia Abelheim, but you can call me Patty. It's a pleasure to meet you. I suppose I will be counting on you for the time being.",
+	drop_descrip = "",
 	mail = "Hmm, something just arrived in the mail... Oh, I wonder if it's a letter for the Commander.",
 	touch = "Eek, a bug! ...Th-thank you for brushing it off of me, Commander. I'm no good with bugs...",
 	profile = "My name is Patricia Abelheim. In my world, I was the daughter of a low-ranking noble family. As my father, a knight, provided me tutelage in swordsmanship, I am fairly confident in my skills. What's that? You'd like to see my techniques? Well, I suppose if the opportunity arises...",
@@ -61772,7 +61772,7 @@ _G.pg.base.ship_skin_words[10900030] = {
 				1090001
 			},
 			1,
-			"New place, same old Miss Ryza.",
+			" New place, same old Miss Ryza.",
 			0
 		},
 		{
@@ -61780,7 +61780,7 @@ _G.pg.base.ship_skin_words[10900030] = {
 				1090004
 			},
 			1,
-			"So this is how Oren warriors fight...",
+			" So this is how Oren warriors fight...",
 			0
 		},
 		{
@@ -61788,7 +61788,7 @@ _G.pg.base.ship_skin_words[10900030] = {
 				1090005
 			},
 			1,
-			"You know, Miss Serri's age... Eep! Nevermind!",
+			" You know, Miss Serri's age... Eep! Nevermind!",
 			0
 		}
 	}
@@ -61840,7 +61840,7 @@ _G.pg.base.ship_skin_words[10900040] = {
 	touch2 = "I see. So you've made your peace.",
 	voice_key_2 = -1,
 	skill = "This ends now! You're no match for me!",
-	drop_descrip = "I am Lila Decyrus, an Oren warrior... I may have become a \"heavy cruiser\" now, but that won't hamper my ability in battle. So long as I stay here, I will carry out my duties as a warrior in your service.",
+	drop_descrip = "",
 	mail = "Commander, a missive of some sort has arrived. The sender is unknown... but the contents don't seem to be suspicious.",
 	touch = "You want to become stronger? Well, I don't mind teaching you the warrior's code. In exchange... show me around the port, alright?",
 	profile = "I am Lila Decyrus, an Oren warrior of the Whitefang clan. I have been traveling the world to fulfill an oath I made with my clan. Even if this may be a journey with no end... I will still continue to press onward.",
@@ -61865,7 +61865,7 @@ _G.pg.base.ship_skin_words[10900040] = {
 				1090001
 			},
 			1,
-			"I'll handle this, Ryza!",
+			" I'll handle this, Ryza!",
 			0
 		},
 		{
@@ -61873,7 +61873,7 @@ _G.pg.base.ship_skin_words[10900040] = {
 				1090003
 			},
 			1,
-			"You're in good form, Patricia.",
+			" You're in good form, Patricia.",
 			0
 		},
 		{
@@ -61881,7 +61881,7 @@ _G.pg.base.ship_skin_words[10900040] = {
 				1090005
 			},
 			1,
-			"Let us both fulfill our duties, Serri.",
+			" Let us both fulfill our duties, Serri.",
 			0
 		}
 	}
@@ -61933,7 +61933,7 @@ _G.pg.base.ship_skin_words[10900050] = {
 	touch2 = "...What are you doing?",
 	voice_key_2 = -1,
 	skill = "I will handle this.",
-	drop_descrip = "I am Serri of the Oren. I seem to be an aircraft carrier of some sort now. By the way, have you seen any seeds...?",
+	drop_descrip = "",
 	mail = "A letter has arrived. I wonder who it's from.",
 	touch = "Why is my skin so smooth? Nothing in particular comes to mind, but If I had to guess... it might have something to do with my clan's secret herbal smoothie that I drink every day.",
 	profile = "I am Serri Glaus, an Oren of the Green Plume clan. I ended up here while on a journey to find something... What was I searching for? The seed of a certain plant.",
@@ -61958,7 +61958,7 @@ _G.pg.base.ship_skin_words[10900050] = {
 				1090004
 			},
 			1,
-			"I won't give up either, Lila.",
+			" I won't give up either, Lila.",
 			0
 		},
 		{
@@ -61966,7 +61966,7 @@ _G.pg.base.ship_skin_words[10900050] = {
 				1090003
 			},
 			1,
-			"Patricia, I expect you to keep my secret.",
+			" Patricia, I expect you to keep my secret.",
 			0
 		},
 		{
@@ -61974,7 +61974,7 @@ _G.pg.base.ship_skin_words[10900050] = {
 				1090002
 			},
 			1,
-			"Klaudia, have you seen any unusual plants?",
+			" Klaudia, have you seen any unusual plants?",
 			0
 		}
 	}
@@ -62026,7 +62026,7 @@ _G.pg.base.ship_skin_words[10900060] = {
 	touch2 = "I've lived long enough now that it'll take far from this to disturb me...but I think a tongue-lashing is in order.",
 	voice_key_2 = -1,
 	skill = "Hah! Prepare thyselves!",
-	drop_descrip = "Oho. What sort of interesting person would summon me? My name is Kala Ideas, and I am the chief of the Wave Tuner clan. Perhaps I shall sojourn in this world for a spell, just as you desired.",
+	drop_descrip = "",
 	mail = "Oho. Commander, you've got mail. A love letter, perhaps... What? It's not?",
 	touch = "This port is brimming with young ladies. Say, Commander, which is your... Oh? Is that topic taboo? Your life isn't an easy one, I see.",
 	profile = "I am Kala Ideas, chief of the Oren Songwave clan. The circumstances of my arrival may have been out of my hands, but a world with culture and history beyond my knowledge is fascinating indeed. I have been enjoying my time here.",
@@ -62051,7 +62051,7 @@ _G.pg.base.ship_skin_words[10900060] = {
 				1090001
 			},
 			1,
-			"A most curious alchemist you are, Ryza.",
+			" A most curious alchemist you are, Ryza.",
 			0
 		},
 		{
@@ -62059,7 +62059,7 @@ _G.pg.base.ship_skin_words[10900060] = {
 				1090004
 			},
 			1,
-			"Impressive, Whitefang comrade. How reliable!",
+			" Impressive, Whitefang comrade. How reliable!",
 			0
 		},
 		{
@@ -62067,7 +62067,7 @@ _G.pg.base.ship_skin_words[10900060] = {
 				1090005
 			},
 			1,
-			"I pray that your dream becomes reality, Serri.",
+			" I pray that your dream becomes reality, Serri.",
 			0
 		}
 	}

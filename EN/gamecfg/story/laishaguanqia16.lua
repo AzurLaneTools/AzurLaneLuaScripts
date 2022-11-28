@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			say = "The girls launched an assault on the island, but hardly made any headway the in face of the Siren defenses.",
+			say = "The girls launched an assault on the island, but hardly made any headway in the face of the Siren defenses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -19985,11 +19985,11 @@ cs.gametip = {
 	},
 	ryza_composite_words = {
 		746660,
-		706,
+		704,
 		true
 	},
 	ryza_task_help_tip = {
-		747366,
+		747364,
 		345,
 		true
 	}
