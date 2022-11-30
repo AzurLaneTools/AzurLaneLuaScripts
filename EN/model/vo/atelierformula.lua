@@ -93,8 +93,8 @@ function slot0.IsFormualCanComposite(slot0, slot1)
 
 	function slot7(slot0)
 		for slot4, slot5 in ipairs(uv0.all) do
-			if (uv1[slot5] or uv2[slot5]) and slot6.count > 0 and slot0:CanUseMaterial(slot6) then
-				uv3(slot6)
+			if (uv1[slot5] or uv2[slot5]) and slot6.count > 0 and slot0:CanUseMaterial(slot6, uv3) then
+				uv4(slot6)
 
 				return
 			end

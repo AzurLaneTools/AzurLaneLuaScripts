@@ -226425,11 +226425,10 @@ _G.pg.base.task_data_template[56201] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1690001",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56201,
 	target_num = 1,
 	fix_task = 0,
@@ -226456,6 +226455,14 @@ _G.pg.base.task_data_template[56201] = {
 			286,
 			100
 		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690001,
+			mapIdx = 1690001,
+			openChapterId = 1690001
+		}
 	}
 }
 
@@ -226478,11 +226485,10 @@ _G.pg.base.task_data_template[56202] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1690002",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56202,
 	target_num = 1,
 	fix_task = 0,
@@ -226509,6 +226515,14 @@ _G.pg.base.task_data_template[56202] = {
 			286,
 			100
 		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690002,
+			mapIdx = 1690001,
+			openChapterId = 1690002
+		}
 	}
 }
 
@@ -226531,11 +226545,10 @@ _G.pg.base.task_data_template[56203] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1690003",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56203,
 	target_num = 1,
 	fix_task = 0,
@@ -226562,6 +226575,14 @@ _G.pg.base.task_data_template[56203] = {
 			286,
 			100
 		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690003,
+			mapIdx = 1690001,
+			openChapterId = 1690003
+		}
 	}
 }
 
@@ -226584,11 +226605,10 @@ _G.pg.base.task_data_template[56204] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1690004",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56204,
 	target_num = 1,
 	fix_task = 0,
@@ -226615,6 +226635,14 @@ _G.pg.base.task_data_template[56204] = {
 			286,
 			100
 		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690004,
+			mapIdx = 1690001,
+			openChapterId = 1690004
+		}
 	}
 }
 
@@ -226637,11 +226665,10 @@ _G.pg.base.task_data_template[56205] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1690005",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56205,
 	target_num = 1,
 	fix_task = 0,
@@ -226683,6 +226710,14 @@ _G.pg.base.task_data_template[56205] = {
 			286,
 			100
 		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690005,
+			mapIdx = 1690001,
+			openChapterId = 1690005
+		}
 	}
 }
 
@@ -226705,11 +226740,10 @@ _G.pg.base.task_data_template[56206] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1696013",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56206,
 	target_num = 10,
 	fix_task = 0,
@@ -226736,6 +226770,14 @@ _G.pg.base.task_data_template[56206] = {
 			286,
 			200
 		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690021,
+			mapIdx = 1690002,
+			openChapterId = 1690021
+		}
 	}
 }
 
@@ -226758,11 +226800,10 @@ _G.pg.base.task_data_template[56207] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1697013",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56207,
 	target_num = 10,
 	fix_task = 0,
@@ -226789,6 +226830,14 @@ _G.pg.base.task_data_template[56207] = {
 			286,
 			200
 		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690022,
+			mapIdx = 1690002,
+			openChapterId = 1690022
+		}
 	}
 }
 
@@ -226811,11 +226860,10 @@ _G.pg.base.task_data_template[56208] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1698013",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56208,
 	target_num = 10,
 	fix_task = 0,
@@ -226842,6 +226890,14 @@ _G.pg.base.task_data_template[56208] = {
 			286,
 			200
 		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690023,
+			mapIdx = 1690002,
+			openChapterId = 1690023
+		}
 	}
 }
 
@@ -226864,11 +226920,10 @@ _G.pg.base.task_data_template[56209] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1699013",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56209,
 	target_num = 10,
 	fix_task = 0,
@@ -226895,6 +226950,14 @@ _G.pg.base.task_data_template[56209] = {
 			286,
 			200
 		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690024,
+			mapIdx = 1690002,
+			openChapterId = 1690024
+		}
 	}
 }
 
@@ -226917,11 +226980,10 @@ _G.pg.base.task_data_template[56210] = {
 	level = 1,
 	ryza_icon = "shoes",
 	priority_type = 0,
-	story_id = "",
 	target_id = "1694014",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 56210,
 	target_num = 10,
 	fix_task = 0,
@@ -226947,6 +227009,14 @@ _G.pg.base.task_data_template[56210] = {
 			1,
 			286,
 			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			chapterId = 1690025,
+			mapIdx = 1690002,
+			openChapterId = 1690025
 		}
 	}
 }

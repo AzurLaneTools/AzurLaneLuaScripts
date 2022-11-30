@@ -2955,11 +2955,11 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
-		id_str = "com.bilibili.blhx.battlepass8",
+		id_str = "com.yostaren.azurlane.passport10",
 		first_pay_double = 0,
 		extra_service = 4,
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		airijp_id = "com.yostarjp.azurlane.seasonpass8",
+		airijp_id = "com.yostaren.azurlane.passport10",
 		extra_service_item = {
 			{
 				1,

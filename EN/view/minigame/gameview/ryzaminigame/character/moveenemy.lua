@@ -4,7 +4,7 @@ function slot0.InitUI(slot0, slot1)
 	slot0.hp = slot1.hp or 3
 	slot0.hpMax = slot0.hp
 	slot0.speed = slot1.speed or 1
-	slot0.search = slot1.search or 5
+	slot0.search = slot1.search or 4
 	slot0.wander = slot1.wander or 3
 	slot0.mainTarget = slot0.rtScale:Find("main")
 

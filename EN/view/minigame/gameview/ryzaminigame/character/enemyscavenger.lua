@@ -3,7 +3,7 @@ slot0 = class("EnemyScavenger", import("view.miniGame.gameView.RyzaMiniGame.char
 function slot0.InitUI(slot0, slot1)
 	uv0.super.InitUI(slot0, slot1)
 
-	slot0.hp = slot1.hp or 2
+	slot0.hp = slot1.hp or 1
 	slot0.hpMax = slot0.hp
 	slot0.speed = slot1.speed or 1
 	slot0.skillCD = 0

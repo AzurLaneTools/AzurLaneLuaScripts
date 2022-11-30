@@ -4,9 +4,9 @@ slot0.SkillDistance = 7
 function slot0.InitUI(slot0, slot1)
 	uv0.super.InitUI(slot0, slot1)
 
-	slot0.hp = slot1.hp or 3
+	slot0.hp = slot1.hp or 2
 	slot0.hpMax = slot0.hp
-	slot0.speed = slot1.speed or 4
+	slot0.speed = slot1.speed or 3
 	slot0.skillCD = 0
 	slot0.skillDis = 0
 	slot0.rate = slot1.rate or 2

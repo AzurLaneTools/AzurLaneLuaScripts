@@ -1,6 +1,6 @@
 slot0 = class("EnemyBossChaser", import("view.miniGame.gameView.RyzaMiniGame.character.EnemyChaser"))
 slot0.WeaponName = "Laser"
-slot0.ConfigSkillCD = 5
+slot0.ConfigSkillCD = 10
 slot0.StatusOffset = setmetatable({}, {
 	__index = function (slot0, slot1)
 		return {
@@ -13,7 +13,7 @@ slot0.StatusOffset = setmetatable({}, {
 function slot0.InitUI(slot0, slot1)
 	uv0.super.InitUI(slot0, slot1)
 
-	slot0.hp = slot1.hp or 6
+	slot0.hp = slot1.hp or 4
 	slot0.hpMax = slot0.hp
 	slot0.speed = slot1.speed or 3
 	slot0.damageDic = {}
