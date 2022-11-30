@@ -141,15 +141,15 @@ slot0.attrs = {
 		},
 		Scavenger = {
 			speed = 1,
-			hp = 2
+			hp = 1
 		},
 		BOSS_Scavenger = {
 			speed = 2,
-			hp = 5
+			hp = 3
 		},
 		Chaser = {
 			speed = 2,
-			hp = 2
+			hp = 1
 		}
 	},
 	BoomLevel_2 = {
@@ -162,19 +162,19 @@ slot0.attrs = {
 		},
 		Scavenger = {
 			speed = 1,
-			hp = 2
+			hp = 1
 		},
 		Conductor = {
 			speed = 3,
-			hp = 3
+			hp = 2
 		},
 		Smasher = {
 			speed = 2,
-			hp = 3
+			hp = 2
 		},
 		Chaser = {
 			speed = 2,
-			hp = 2
+			hp = 1
 		}
 	},
 	BoomLevel_3 = {
@@ -187,19 +187,19 @@ slot0.attrs = {
 		},
 		BOSS_Smasher = {
 			speed = 3,
-			hp = 6
+			hp = 4
 		},
 		Smasher = {
 			speed = 2,
-			hp = 3
+			hp = 2
 		},
 		Chaser = {
 			speed = 2,
-			hp = 2
+			hp = 1
 		},
 		Scavenger = {
 			speed = 1,
-			hp = 2
+			hp = 1
 		}
 	},
 	BoomLevel_4 = {
@@ -212,15 +212,15 @@ slot0.attrs = {
 		},
 		Smasher = {
 			speed = 2,
-			hp = 3
+			hp = 2
 		},
 		Chaser = {
 			speed = 2,
-			hp = 2
+			hp = 1
 		},
 		Navigator = {
-			speed = 4,
-			hp = 3
+			speed = 3,
+			hp = 2
 		}
 	},
 	BoomLevel_5 = {
@@ -233,19 +233,19 @@ slot0.attrs = {
 		},
 		BOSS_Conductor = {
 			speed = 4,
-			hp = 6
+			hp = 4
 		},
 		Conductor = {
 			speed = 3,
-			hp = 3
+			hp = 2
 		},
 		Smasher = {
 			speed = 2,
-			hp = 3
+			hp = 2
 		},
 		Navigator = {
-			speed = 4,
-			hp = 3
+			speed = 3,
+			hp = 2
 		}
 	},
 	BoomLevel_6 = {
@@ -257,20 +257,20 @@ slot0.attrs = {
 			bomb = 3
 		},
 		BOSS_Navigator = {
-			speed = 5,
-			hp = 6
+			speed = 4,
+			hp = 4
 		},
 		Conductor = {
 			speed = 3,
-			hp = 3
+			hp = 2
 		},
 		Smasher = {
 			speed = 2,
-			hp = 3
+			hp = 2
 		},
 		Navigator = {
-			speed = 4,
-			hp = 3
+			speed = 3,
+			hp = 2
 		}
 	},
 	BoomLevel_7 = {
@@ -283,23 +283,23 @@ slot0.attrs = {
 		},
 		BOSS_Chaser = {
 			speed = 3,
-			hp = 6
+			hp = 4
 		},
 		Conductor = {
-			speed = 3,
-			hp = 3
+			speed = 2,
+			hp = 2
 		},
 		Smasher = {
 			speed = 2,
-			hp = 3
+			hp = 2
 		},
 		Navigator = {
-			speed = 4,
-			hp = 3
+			speed = 3,
+			hp = 2
 		},
 		Chaser = {
 			speed = 2,
-			hp = 2
+			hp = 1
 		}
 	},
 	BoomLevel_8 = {

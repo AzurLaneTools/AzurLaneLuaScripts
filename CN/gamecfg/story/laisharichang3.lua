@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "看到{namecode:66}小姐的展现出的技术更是让我深刻感受到了差距。",
+			say = "看到{namecode:66}小姐展现出的技术更是让我深刻感受到了差距。",
 			painting = {
 				alpha = 0.3,
 				time = 1

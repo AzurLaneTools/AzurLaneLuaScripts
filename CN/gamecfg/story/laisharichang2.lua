@@ -890,7 +890,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这个可是，一看就让人能感觉到这是个相当危险的东西呢……",
+			say = "这个可是，一看就能让人感觉到是相当危险的东西呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1

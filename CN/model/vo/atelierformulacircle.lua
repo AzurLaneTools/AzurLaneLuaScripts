@@ -92,7 +92,21 @@ function slot0.GetFormulaId(slot0)
 	return slot0:getConfig("recipe_id")
 end
 
-function slot0.CanUseMaterial(slot0, slot1)
+function slot0.CanUseMaterial(slot0, slot1, slot2)
+	function slot3()
+		if uv0:GetProduction()[1] ~= DROP_TYPE_RYZA_DROP then
+			return false
+		end
+
+		if uv0:GetProduction()[2] == uv1:GetConfigID() then
+			return true
+		end
+
+		return AtelierMaterial.New({
+			configId = uv0:GetProduction()[2]
+		}):GetType() == AtelierMaterial.TYPE.NEUTRALIZER and uv1:GetType() == AtelierMaterial.TYPE.NEUTRALIZER and slot0:GetLevel() == uv1:GetLevel()
+	end
+
 	if slot0:GetType() == uv0.TYPE.BASE or slot0:GetType() == uv0.TYPE.SAIREN then
 		return slot0:GetLimitItemID() == slot1:GetConfigID()
 	elseif slot0:GetType() == uv0.TYPE.NORMAL then
@@ -104,9 +118,17 @@ function slot0.CanUseMaterial(slot0, slot1)
 			return false
 		end
 
+		if slot3() then
+			return false
+		end
+
 		return slot1:GetLevel() == slot0:GetLevel()
 	elseif slot0:GetType() == uv0.TYPE.ANY then
 		if slot1:GetType() ~= AtelierMaterial.TYPE.NORMAL and slot1:GetType() ~= AtelierMaterial.TYPE.NEUTRALIZER and slot1:GetType() ~= AtelierMaterial.TYPE.SAIREN then
+			return false
+		end
+
+		if slot3() then
 			return false
 		end
 

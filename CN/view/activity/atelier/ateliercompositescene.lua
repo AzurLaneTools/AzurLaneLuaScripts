@@ -717,11 +717,11 @@ function slot0.InitFormula(slot0, slot1)
 					slot1 = slot0.Data
 
 					for slot5, slot6 in ipairs(uv0.all) do
-						if (uv1[slot6] or uv2[slot6]) and slot7.count > 0 and slot7:IsNormal() and slot1:CanUseMaterial(slot7) then
-							uv3(slot7)
-							uv4()
+						if (uv1[slot6] or uv2[slot6]) and slot7.count > 0 and slot7:IsNormal() and slot1:CanUseMaterial(slot7, uv3) then
+							uv4(slot7)
 							uv5()
-							uv6:FillNodeAndPlayAnim(slot0, AtelierMaterial.New({
+							uv6()
+							uv7:FillNodeAndPlayAnim(slot0, AtelierMaterial.New({
 								count = 1,
 								configId = slot7:GetConfigID()
 							}), true)
@@ -730,7 +730,7 @@ function slot0.InitFormula(slot0, slot1)
 						end
 					end
 
-					uv7 = true
+					uv8 = true
 				end
 
 				_.each(uv0, function (slot0)
@@ -1142,10 +1142,11 @@ end
 function slot0.UpdateCandicatePanel(slot0)
 	slot0.candicates = {}
 	slot1 = slot0.activity:GetItems()
-	slot3 = _.map(AtelierMaterial.bindConfigTable().all, function (slot0)
+	slot2 = slot0.activity:GetFormulas()[slot0.contextData.formulaId]
+	slot4 = _.map(AtelierMaterial.bindConfigTable().all, function (slot0)
 		if uv1.candicateTarget.Data:CanUseMaterial(uv0[slot0] or AtelierMaterial.New({
 			configId = slot0
-		})) then
+		}), uv2) then
 			if uv0[slot0] then
 				slot1 = AtelierMaterial.New({
 					configId = slot0,
@@ -1164,14 +1165,14 @@ function slot0.UpdateCandicatePanel(slot0)
 		end
 	end)
 
-	table.sort(slot3, function (slot0, slot1)
+	table.sort(slot4, function (slot0, slot1)
 		if slot0.count * slot1.count == 0 and slot0.count - slot1.count ~= 0 then
 			return slot0.count < slot1.count
 		else
 			return slot0:GetConfigID() < slot1:GetConfigID()
 		end
 	end)
-	_.each(slot3, function (slot0)
+	_.each(slot4, function (slot0)
 		slot4 = 1
 
 		for slot4 = 1, math.max(slot0.count, slot4) do
@@ -1188,18 +1189,21 @@ function slot0.UpdateCandicateItem(slot0, slot1, slot2)
 	setActive(slot3:Find("IconBG/Lack"), slot4.count <= 0)
 	onButton(slot0, slot3, function ()
 		if uv0 then
-			uv1:ShowItemDetail(uv2)
+			uv1 = CreateShell(uv1)
+			uv1.count = false
+
+			uv2:ShowItemDetail(uv1)
 		else
-			uv1:DispalyChat({
+			uv2:DispalyChat({
 				"ryza_atellier5",
 				"ryza_atellier6",
 				"ryza_atellier7"
 			})
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/ui/ryza_atellier_ui_2")
 
-			slot0 = uv1.candicateTarget
+			slot0 = uv2.candicateTarget
 
-			uv1:HideCandicatePanel()
+			uv2:HideCandicatePanel()
 			seriesAsync({
 				function (slot0)
 					uv0:FillNodeAndPlayAnim(uv1, AtelierMaterial.New({
@@ -1532,10 +1536,12 @@ function slot0.ShowMaterialsPreview(slot0)
 
 	slot1 = slot0.activity
 	slot1 = slot1:GetItems()
-	slot2 = AtelierMaterial.bindConfigTable()
-	slot5 = {}
+	slot2 = slot0.activity
+	slot2 = slot2:GetFormulas()[slot0.contextData.formulaId]
+	slot3 = AtelierMaterial.bindConfigTable()
+	slot6 = {}
 
-	function slot6(slot0)
+	function slot7(slot0)
 		slot1 = uv0[slot0:GetConfigID()] or Clone(uv1[slot0:GetConfigID()])
 
 		assert(slot1, "Using Unexist material")
@@ -1547,23 +1553,32 @@ function slot0.ShowMaterialsPreview(slot0)
 	_.each(slot0.nodeList, function (slot0)
 		if slot0.Data:GetType() == uv0.TYPE.BASE or slot1:GetType() == uv0.TYPE.SAIREN then
 			if (uv1[slot1:GetLimitItemID()] or uv2[slot2]) and slot3.count > 0 then
-				table.insert(uv3, AtelierMaterial.New({
+				slot4 = AtelierMaterial.New({
 					configId = slot2
-				}))
+				})
+				slot4.count = false
+
+				table.insert(uv3, slot4)
 				uv4(slot3)
 			else
-				table.insert(uv5, AtelierMaterial.New({
+				slot4 = AtelierMaterial.New({
 					configId = slot2
-				}))
+				})
+				slot4.count = false
+
+				table.insert(uv5, slot4)
 			end
 		end
 	end)
 
-	function slot7(slot0)
+	function slot8(slot0)
 		if slot0.Instance then
-			table.insert(uv0, AtelierMaterial.New({
+			slot1 = AtelierMaterial.New({
 				configId = slot0.Instance:GetConfigID()
-			}))
+			})
+			slot1.count = false
+
+			table.insert(uv0, slot1)
 			uv1(slot0.Instance)
 
 			return
@@ -1575,13 +1590,16 @@ function slot0.ShowMaterialsPreview(slot0)
 		for slot6, slot7 in ipairs(uv2.all) do
 			if (uv3[slot7] or uv4[slot7] or AtelierMaterial.New({
 				configId = slot7
-			})):IsNormal() and slot1:CanUseMaterial(slot8) then
+			})):IsNormal() and slot1:CanUseMaterial(slot8, uv5) then
 				slot2 = slot2 or slot7
 
 				if slot8.count > 0 then
-					table.insert(uv0, AtelierMaterial.New({
+					slot9 = AtelierMaterial.New({
 						configId = slot7
-					}))
+					})
+					slot9.count = false
+
+					table.insert(uv0, slot9)
 					uv1(slot8)
 
 					return
@@ -1589,9 +1607,12 @@ function slot0.ShowMaterialsPreview(slot0)
 			end
 		end
 
-		table.insert(uv5, AtelierMaterial.New({
+		slot3 = AtelierMaterial.New({
 			configId = slot2
-		}))
+		})
+		slot3.count = false
+
+		table.insert(uv6, slot3)
 	end
 
 	_.each(slot0.nodeList, function (slot0)
@@ -1605,12 +1626,12 @@ function slot0.ShowMaterialsPreview(slot0)
 		end
 	end)
 
-	function slot8(slot0, slot1)
+	function slot9(slot0, slot1)
 		return slot0:GetConfigID() < slot1:GetConfigID()
 	end
 
-	table.sort({}, slot8)
-	table.sort({}, slot8)
+	table.sort({}, slot9)
+	table.sort({}, slot9)
 	(function ()
 		setActive(uv0.layerMaterialsPreview:Find("Frame/Scroll/Content/Owned/List").parent, #uv1 > 0)
 

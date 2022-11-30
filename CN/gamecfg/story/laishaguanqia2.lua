@@ -1390,7 +1390,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "应该没问题！毕竟我们经历过好几个了不起的大冒险，也打倒过“蚀之女王”这样的厉害的魔物哦！",
+			say = "应该没问题！毕竟我们经历过好几个了不起的大冒险，也打倒过“蚀之女王”这样厉害的魔物哦！",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

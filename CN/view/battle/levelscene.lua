@@ -54,6 +54,12 @@ function slot0.preload(slot0, slot1)
 
 	if slot0.contextData.mapIdx and slot0.contextData.chapterId and slot2:getChapterById(slot0.contextData.chapterId):getConfig("map") == slot0.contextData.mapIdx then
 		slot0.contextData.chapterVO = slot3
+
+		if slot3.active then
+			assert(not slot0.contextData.openChapterId or slot0.contextData.openChapterId == slot0.contextData.chapterId)
+
+			slot0.contextData.openChapterId = nil
+		end
 	end
 
 	slot3, slot4 = slot0:GetInitializeMap()
@@ -2032,6 +2038,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 	slot0.leftCanvasGroup.blocksRaycasts = false
 	slot0.rightCanvasGroup.blocksRaycasts = false
 
+	warning("Switchtochapter")
 	assert(not slot0.levelStageView, "LevelStageView Exists On SwitchToChapter")
 	slot0:DestroyLevelStageView()
 

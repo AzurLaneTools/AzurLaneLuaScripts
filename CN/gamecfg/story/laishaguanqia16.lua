@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "我只是受一点擦伤，稍微处理一下就好，不用让其他人太担心。",
+			say = "我只是受了一点擦伤，稍微处理一下就好，不用让其他人太担心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
