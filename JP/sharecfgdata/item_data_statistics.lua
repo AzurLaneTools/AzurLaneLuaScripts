@@ -16609,7 +16609,7 @@ _G.pg.base.item_data_statistics[30514] = {
 	link_id = 0,
 	id = 30514,
 	is_world = 0,
-	icon = "Props/appearanceboxbaiying",
+	icon = "Props/appearanceboxbaiyingzixuan",
 	display_icon = {
 		{
 			9,

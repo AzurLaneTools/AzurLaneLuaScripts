@@ -59,6 +59,7 @@ function slot0.UpdateItemDetail(slot0)
 			end
 
 			uv1:emit(GAME.GO_SCENE, SCENE.LEVEL, {
+				openChapterId = uv0.chapterid,
 				chapterId = uv0.chapterid,
 				mapIdx = slot1.id
 			})
@@ -111,7 +112,7 @@ function slot0.UpdateRyzaItem(slot0, slot1, slot2, slot3)
 	end
 
 	if not IsNil(slot1:Find("Text")) then
-		setText(slot1:Find("Text"), slot2.count)
+		setText(slot1:Find("Text"), slot2.count or "")
 	end
 end
 

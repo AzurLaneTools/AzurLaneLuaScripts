@@ -1,6 +1,6 @@
 slot0 = class("EnemyChaser", import("view.miniGame.gameView.RyzaMiniGame.character.MoveEnemy"))
 slot0.WeaponName = "Bullet"
-slot0.ConfigSkillCD = 5
+slot0.ConfigSkillCD = 10
 slot0.StatusOffset = {
 	Attack_E = {
 		1,
@@ -23,7 +23,7 @@ slot0.StatusOffset = {
 function slot0.InitUI(slot0, slot1)
 	uv0.super.InitUI(slot0, slot1)
 
-	slot0.hp = slot1.hp or 2
+	slot0.hp = slot1.hp or 1
 	slot0.hpMax = slot0.hp
 	slot0.speed = slot1.speed or 2
 	slot0.skillCD = 0

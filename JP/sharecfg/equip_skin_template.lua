@@ -23113,116 +23113,137 @@ pg.equip_skin_template = {
 	},
 	[2025] = {
 		hit_sfx = "",
-		bullet_name = "",
+		bullet_name = "paodan_shaizi",
 		orbit_ui_bound = "",
 		type = 1,
-		name = "主炮占坑",
+		name = "マジックサイコロ砲弾",
 		orbit_combat = "",
 		themeid = 101,
-		desc = "占坑",
+		desc = "当たらなかったらノーカウントピョ！",
 		ship_config_id = 100011,
 		derivate_boom = "",
 		orbit_ui = "",
 		mirror = 0,
-		weapon_ids = "",
-		icon = "96431",
 		id = 2025,
+		icon = "96431",
 		orbit_hidden_action = "",
 		miss_sfx = "",
 		rarity = 4,
 		orbit_combat_bound = "",
 		derivate_bullet = "",
 		fire_fx_name = "",
-		hit_fx_name = "",
+		hit_fx_name = "paodan_shaizi_hit",
 		orbit_ui_back = 0,
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			1,
-			2,
-			3
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
 		}
 	},
 	[2026] = {
 		hit_sfx = "",
-		bullet_name = "",
+		bullet_name = "yulei_kapai",
 		orbit_ui_bound = "",
 		type = 1,
-		name = "鱼雷占坑",
+		name = "マジックカード魚雷",
 		orbit_combat = "",
 		themeid = 101,
-		desc = "占坑",
+		desc = "見えるピョ！あなたが持っているカードは－－",
 		ship_config_id = 100011,
 		derivate_boom = "",
 		orbit_ui = "",
 		mirror = 0,
-		weapon_ids = "",
-		icon = "96432",
 		id = 2026,
+		icon = "96432",
 		orbit_hidden_action = "",
 		miss_sfx = "",
 		rarity = 4,
 		orbit_combat_bound = "",
 		derivate_bullet = "",
 		fire_fx_name = "",
-		hit_fx_name = "",
+		hit_fx_name = "zidan_kapai_hit",
 		orbit_ui_back = 0,
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			1,
-			2,
-			3
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
 		}
 	},
 	[2027] = {
 		hit_sfx = "",
 		bullet_name = "",
-		orbit_ui_bound = "",
+		name = "マジックマント",
 		type = 1,
-		name = "设备占坑",
-		orbit_combat = "",
+		orbit_combat = "shebei_moshudoupeng",
 		themeid = 101,
-		desc = "占坑",
+		mirror = 0,
+		desc = "こ、このマント…動くピョ！？",
 		ship_config_id = 100011,
 		derivate_boom = "",
-		orbit_ui = "",
-		mirror = 0,
-		weapon_ids = "",
-		icon = "96433",
+		orbit_ui = "shebei_moshudoupengui",
 		id = 2027,
-		orbit_hidden_action = "",
+		icon = "96433",
 		miss_sfx = "",
 		rarity = 4,
-		orbit_combat_bound = "",
 		derivate_bullet = "",
 		fire_fx_name = "",
 		hit_fx_name = "",
-		orbit_ui_back = 0,
+		orbit_ui_back = 1,
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			1,
-			2,
-			3
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				1.3,
+				-1.61,
+				-1.01
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				140,
+				-150
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
 		}
 	},
 	[2028] = {
 		hit_sfx = "",
-		bullet_name = "",
+		bullet_name = "zidan_yingbi02",
 		orbit_ui_bound = "",
 		type = 1,
-		name = "子弹占坑",
+		name = "マジックコイン弾",
 		orbit_combat = "",
 		themeid = 101,
-		desc = "占坑",
+		desc = "魂をかけるピョ！",
 		ship_config_id = 100011,
 		derivate_boom = "",
 		orbit_ui = "",
 		mirror = 0,
-		weapon_ids = "",
-		icon = "96434",
 		id = 2028,
+		icon = "96434",
 		orbit_hidden_action = "",
 		miss_sfx = "",
 		rarity = 4,
@@ -23237,6 +23258,10 @@ pg.equip_skin_template = {
 			1,
 			2,
 			3
+		},
+		weapon_ids = {
+			101,
+			101
 		}
 	},
 	all = {

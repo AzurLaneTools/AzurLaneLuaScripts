@@ -20595,7 +20595,7 @@ _G.pg.base.gametip.cruise_task_help_2210 = {
 }
 
 _G.pg.base.gametip.battlepass_main_tip_2212 = {
-	tip = "<size=24>2022.12.1-2023.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「ハンター(META)」</color>などを入手可能！</size>"
+	tip = "<size=23>2022.12.1-2023.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「フォーチュン(META)」</color>などを入手可能！</size>"
 }
 
 _G.pg.base.gametip.battlepass_main_help_2212 = {
