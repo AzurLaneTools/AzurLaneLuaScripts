@@ -4138,6 +4138,79 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[1007] = {
+		subject = "특허 투어 패스",
+		limit_group = 0,
+		descrip_extra = "*임무를 통해 대응 투어 진도 달성 후 획득 가능",
+		type = 0,
+		limit_arg = 1,
+		name = "특허 투어 패스(2022.12)",
+		name_display = "특허 투어 패스",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1007,
+		money = 12000,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "alkrgift49",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "1500 투어 PT 획득 가능. 특허 투어 패스 보상·클리블랜드 한정 스킨 및 기타 보상 해제 ",
+		airijp_id = "com.yostarjp.azurlane.seasonpass8",
+		extra_service_item = {
+			{
+				1,
+				4008,
+				1500
+			},
+			{
+				8,
+				59297,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4008,
+				1500
+			}
+		},
+		sub_display = {
+			7008,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[2001] = {
 		subject = "PR함 개발 패키지(제1기)",
 		limit_group = 1,
@@ -4861,6 +4934,7 @@ pg.pay_data_display = {
 		1004,
 		1005,
 		1006,
+		1007,
 		2001,
 		2002,
 		2003,

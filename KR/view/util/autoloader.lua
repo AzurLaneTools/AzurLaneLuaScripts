@@ -4,12 +4,14 @@ slot2 = false
 slot3 = import("view.util.RequestPackages.LoadPrefabRequestPackage")
 slot4 = import("view.util.RequestPackages.LoadReferenceRequestPackage")
 slot5 = import("view.util.RequestPackages.LoadLive2dRequestPackage")
-slot6 = import("view.util.RequestPackages.GetSpineRequestPackage")
-slot7 = import("view.util.RequestPackages.GetPrefabRequestPackage")
-slot8 = import("view.util.RequestPackages.GetSpriteRequestPackage")
-slot9 = import("view.util.RequestPackages.ReturnPrefabRequestPackage")
-slot10 = import("view.util.RequestPackages.ReturnSpineRequestPackage")
-slot11 = import("view.util.RequestPackages.DestroyAtlasPoolRequestPackage")
+slot6 = import("view.util.RequestPackages.LoadBundleRequesetPackage")
+slot7 = import("view.util.RequestPackages.GetSpineRequestPackage")
+slot8 = import("view.util.RequestPackages.GetPrefabRequestPackage")
+slot9 = import("view.util.RequestPackages.GetSpriteRequestPackage")
+slot10 = import("view.util.RequestPackages.ReturnPrefabRequestPackage")
+slot11 = import("view.util.RequestPackages.ReturnSpineRequestPackage")
+slot12 = import("view.util.RequestPackages.UnloadBundleRequesetPackage")
+slot13 = import("view.util.RequestPackages.DestroyAtlasPoolRequestPackage")
 slot0.PartLoading = bit.lshift(1, 0)
 slot0.PartLoaded = bit.lshift(1, 1)
 
@@ -146,34 +148,24 @@ end
 
 function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
 	slot3:GetComponent(typeof(Image)).enabled = false
-	slot6 = tf(slot3)
 
-	slot0:GetSpriteDirect(slot1, slot2 or "", function (slot0)
-		uv0.enabled = true
-		uv0.sprite = slot0
-
-		if uv1 then
-			uv0:SetNativeSize()
-		end
-	end, slot6)
-
-	return slot6
+	return slot0:GetSpriteQuiet(slot1, slot2, slot3, slot4)
 end
 
 function slot0.GetSpriteQuiet(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot3:GetComponent(typeof(Image))
-	slot6 = tf(slot3)
+	slot5 = tf(slot3)
 
 	slot0:GetSpriteDirect(slot1, slot2 or "", function (slot0)
-		uv0.enabled = true
-		uv0.sprite = slot0
+		slot1 = uv0:GetComponent(typeof(Image))
+		slot1.enabled = true
+		slot1.sprite = slot0
 
 		if uv1 then
-			uv0:SetNativeSize()
+			slot1:SetNativeSize()
 		end
-	end, slot6)
+	end, slot5)
 
-	return slot6
+	return slot5
 end
 
 function slot0.GetSpriteDirect(slot0, slot1, slot2, slot3, slot4)
@@ -310,6 +302,27 @@ end
 
 function slot0.DestroyAtlas(slot0, slot1)
 	slot0:ClearRequest(slot1)
+end
+
+function slot0.LoadBundle(slot0, slot1, slot2)
+	slot3 = slot0:GenerateUID4LoadingRequest()
+	slot4 = nil
+	slot4 = uv0.New(slot1, function (slot0)
+		uv0._loadingRequest[uv1] = nil
+		uv0._returnRequest[uv1] = uv2.New(uv3)
+
+		existCall(uv4, slot0)
+	end)
+
+	if uv2 then
+		print("AutoLoader Loading Bundle: " .. slot1 .. " ;")
+	end
+
+	slot0._loadingRequest[slot3] = slot4
+
+	slot4:Start()
+
+	return slot3
 end
 
 function slot0.GetRequestPackage(slot0, slot1, slot2)

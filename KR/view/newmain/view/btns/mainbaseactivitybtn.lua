@@ -49,6 +49,7 @@ end
 
 function slot0.Init(slot0, slot1)
 	slot0._tf = slot0:NewGameObject()
+	slot0._tf.gameObject.name = slot0.__cname
 	slot2 = slot0._tf
 	slot2 = slot2:Find("Image")
 	slot0.image = slot2:GetComponent(typeof(Image))

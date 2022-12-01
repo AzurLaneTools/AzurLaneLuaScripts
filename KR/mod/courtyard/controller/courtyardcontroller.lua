@@ -194,6 +194,10 @@ function slot0.PlayFurnitureVoice(slot0, slot1)
 	slot0.storey:PlayFurnitureVoice(slot1)
 end
 
+function slot0.PlayFurnitureBg(slot0, slot1)
+	slot0.storey:PlayFurnitureBg(slot1)
+end
+
 function slot0.UnSelectFurniture(slot0, slot1)
 	slot0.storey:UnSelectFurniture(slot1)
 end

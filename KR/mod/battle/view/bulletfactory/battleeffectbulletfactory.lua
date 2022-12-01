@@ -15,8 +15,9 @@ end
 function slot1.onBulletHitFunc(slot0, slot1, slot2)
 	slot3 = uv0.GetDataProxy()
 	slot4 = slot0:GetBulletData()
+	slot5 = slot4:GetTemplate()
 
-	uv1.Battle.PlayBattleSFX(slot4:GetTemplate().hit_sfx)
+	uv1.Battle.PlayBattleSFX(slot4:GetHitSFX())
 
 	if not slot4:IsFlare() then
 		slot4:spawnArea()

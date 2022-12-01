@@ -53,8 +53,9 @@ end
 
 function slot1.onBulletHitFunc(slot0, slot1, slot2)
 	slot3 = slot0:GetBulletData()
+	slot4 = slot3:GetTemplate()
 
-	uv0.Battle.PlayBattleSFX(slot3:GetTemplate().hit_sfx)
+	uv0.Battle.PlayBattleSFX(slot3:GetHitSFX())
 
 	slot5, slot6 = uv1.GetFXPool():GetFX(slot0:GetFXID())
 

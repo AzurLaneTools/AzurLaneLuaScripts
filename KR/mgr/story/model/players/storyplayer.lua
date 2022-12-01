@@ -147,6 +147,15 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 			}, slot0)
 		end,
 		function (slot0)
+			if not uv0:ShouldDelayEvent() then
+				slot0()
+
+				return
+			end
+
+			uv1:DelayCall(uv0:GetEventDelayTime(), slot0)
+		end,
+		function (slot0)
 			function slot1()
 				uv0.isRegisterEvent = true
 

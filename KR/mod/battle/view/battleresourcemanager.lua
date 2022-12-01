@@ -707,8 +707,7 @@ function slot5.GetCommonResource()
 		uv0.GetUIPath("SkillPainting"),
 		uv0.GetUIPath("MonsterAppearUI"),
 		uv0.GetUIPath("CombatHPBar"),
-		uv0.GetUIPath("CombatHPPop"),
-		uv0.GetBulletPath("Bulletelc")
+		uv0.GetUIPath("CombatHPPop")
 	}
 end
 

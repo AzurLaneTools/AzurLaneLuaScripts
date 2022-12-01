@@ -1367,5 +1367,17 @@ pg.voice_actor_CN = {
 	[347] = {
 		code = 347,
 		actor_name = "Tomomi Tanaka"
+	},
+	[348] = {
+		code = 348,
+		actor_name = "Yuri Noguchi"
+	},
+	[349] = {
+		code = 349,
+		actor_name = "Haruka Terui"
+	},
+	[350] = {
+		code = 350,
+		actor_name = "Hina Yomiya"
 	}
 }

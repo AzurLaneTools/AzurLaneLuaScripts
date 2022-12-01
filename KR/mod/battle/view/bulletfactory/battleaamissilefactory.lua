@@ -32,7 +32,7 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 		return
 	end
 
-	uv0.Battle.PlayBattleSFX(slot5.hit_sfx)
+	uv0.Battle.PlayBattleSFX(slot3:GetHitSFX())
 
 	slot8, slot9 = uv1.GetFXPool():GetFX(slot0:GetFXID())
 

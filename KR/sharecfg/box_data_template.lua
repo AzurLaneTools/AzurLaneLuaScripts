@@ -448,6 +448,86 @@ pg.box_data_template = {
 		icon = "event5",
 		effect_id = 94010
 	},
+	[10119] = {
+		id = 10119,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_feng",
+		effect_id = 77807
+	},
+	[10120] = {
+		id = 10120,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_feng",
+		effect_id = 77808
+	},
+	[10121] = {
+		id = 10121,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_lei",
+		effect_id = 77809
+	},
+	[10122] = {
+		id = 10122,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_lei",
+		effect_id = 77810
+	},
+	[10123] = {
+		id = 10123,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_huo",
+		effect_id = 77811
+	},
+	[10124] = {
+		id = 10124,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_huo",
+		effect_id = 77812
+	},
+	[10125] = {
+		id = 10125,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_bing",
+		effect_id = 77813
+	},
+	[10126] = {
+		id = 10126,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_bing",
+		effect_id = 77814
+	},
+	[10127] = {
+		id = 10127,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_sairen",
+		effect_id = 77815
+	},
+	[10128] = {
+		id = 10128,
+		name = "采集点",
+		type = 1,
+		effect_arg = 1,
+		icon = "laisha_chuanson_sairen",
+		effect_id = 77816
+	},
 	[20001] = {
 		id = 20001,
 		name = "장애물",
@@ -513,6 +593,16 @@ pg.box_data_template = {
 		10116,
 		10117,
 		10118,
+		10119,
+		10120,
+		10121,
+		10122,
+		10123,
+		10124,
+		10125,
+		10126,
+		10127,
+		10128,
 		20001
 	}
 }

@@ -49,6 +49,8 @@ function slot0.isUnlock(slot0)
 				return true
 			elseif slot4 then
 				return false, i18n("battle_levelScene_close")
+			elseif ChapterConst.IsAtelierMap(slot0) and slot0:isHardMap() then
+				return false, i18n("battle_levelScene_ryza_lock")
 			else
 				return false, i18n("battle_levelScene_lock")
 			end

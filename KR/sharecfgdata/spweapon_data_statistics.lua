@@ -8,13 +8,14 @@ _G.pg.base.spweapon_data_statistics[1010100] = {
 	effect_id_display = 901020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비 ",
-	id = 1010100,
+	uncraftable = 0,
 	next = 1010101,
 	upgrade_id = 1,
 	value_2 = 3,
 	icon = "1010100",
 	effect_id = 0,
 	attribute_2 = "dodge",
+	id = 1010100,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -143,13 +144,14 @@ _G.pg.base.spweapon_data_statistics[1010120] = {
 	effect_id_display = 901020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1010120,
+	uncraftable = 0,
 	next = 1010121,
 	upgrade_id = 21,
 	value_2 = 7,
 	icon = "1010100",
 	effect_id = 0,
 	attribute_2 = "dodge",
+	id = 1010120,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -280,13 +282,14 @@ _G.pg.base.spweapon_data_statistics[1010200] = {
 	effect_id_display = 901010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1010200,
+	uncraftable = 0,
 	next = 1010201,
 	upgrade_id = 1,
 	value_2 = 1,
 	icon = "1010200",
 	effect_id = 0,
 	attribute_2 = "hit",
+	id = 1010200,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -414,13 +417,14 @@ _G.pg.base.spweapon_data_statistics[1010220] = {
 	effect_id_display = 901010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1010220,
+	uncraftable = 0,
 	next = 1010221,
 	upgrade_id = 21,
 	value_2 = 5,
 	icon = "1010200",
 	effect_id = 0,
 	attribute_2 = "hit",
+	id = 1010220,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -549,13 +553,14 @@ _G.pg.base.spweapon_data_statistics[1020100] = {
 	effect_id_display = 901010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1020100,
+	uncraftable = 0,
 	next = 1020101,
 	upgrade_id = 1,
 	value_2 = 1,
 	icon = "1020100",
 	effect_id = 0,
 	attribute_2 = "reload",
+	id = 1020100,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -684,13 +689,14 @@ _G.pg.base.spweapon_data_statistics[1020120] = {
 	effect_id_display = 901010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1020120,
+	uncraftable = 0,
 	next = 1020121,
 	upgrade_id = 21,
 	value_2 = 5,
 	icon = "1020100",
 	effect_id = 0,
 	attribute_2 = "reload",
+	id = 1020120,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -821,13 +827,14 @@ _G.pg.base.spweapon_data_statistics[1030100] = {
 	effect_id_display = 902010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1030100,
+	uncraftable = 0,
 	next = 1030101,
 	upgrade_id = 1,
 	value_2 = 4,
 	icon = "1030100",
 	effect_id = 0,
 	attribute_2 = "antiaircraft",
+	id = 1030100,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -957,13 +964,14 @@ _G.pg.base.spweapon_data_statistics[1030120] = {
 	effect_id_display = 902010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1030120,
+	uncraftable = 0,
 	next = 1030121,
 	upgrade_id = 21,
 	value_2 = 14,
 	icon = "1030100",
 	effect_id = 0,
 	attribute_2 = "antiaircraft",
+	id = 1030120,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -1094,13 +1102,14 @@ _G.pg.base.spweapon_data_statistics[1040100] = {
 	effect_id_display = 901020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1040100,
+	uncraftable = 0,
 	next = 1040101,
 	upgrade_id = 1,
 	value_2 = 4,
 	icon = "1040100",
 	effect_id = 0,
 	attribute_2 = "torpedo",
+	id = 1040100,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -1230,13 +1239,14 @@ _G.pg.base.spweapon_data_statistics[1040120] = {
 	effect_id_display = 901020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1040120,
+	uncraftable = 0,
 	next = 1040121,
 	upgrade_id = 21,
 	value_2 = 10,
 	icon = "1040100",
 	effect_id = 0,
 	attribute_2 = "torpedo",
+	id = 1040120,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -1368,13 +1378,14 @@ _G.pg.base.spweapon_data_statistics[1050100] = {
 	effect_id_display = 902020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1050100,
+	uncraftable = 0,
 	next = 1050101,
 	upgrade_id = 1,
 	value_2 = 5,
 	icon = "1050100",
 	effect_id = 0,
 	attribute_2 = "antiaircraft",
+	id = 1050100,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -1504,13 +1515,14 @@ _G.pg.base.spweapon_data_statistics[1050120] = {
 	effect_id_display = 902020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1050120,
+	uncraftable = 0,
 	next = 1050121,
 	upgrade_id = 21,
 	value_2 = 12,
 	icon = "1050100",
 	effect_id = 0,
 	attribute_2 = "antiaircraft",
+	id = 1050120,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -1642,13 +1654,14 @@ _G.pg.base.spweapon_data_statistics[1060100] = {
 	effect_id_display = 902030,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1060100,
+	uncraftable = 0,
 	next = 1060101,
 	upgrade_id = 1,
 	value_2 = 4,
 	icon = "1060100",
 	effect_id = 0,
 	attribute_2 = "dodge",
+	id = 1060100,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -1778,13 +1791,14 @@ _G.pg.base.spweapon_data_statistics[1060120] = {
 	effect_id_display = 902030,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1060120,
+	uncraftable = 0,
 	next = 1060121,
 	upgrade_id = 21,
 	value_2 = 10,
 	icon = "1060100",
 	effect_id = 0,
 	attribute_2 = "dodge",
+	id = 1060120,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -1915,13 +1929,14 @@ _G.pg.base.spweapon_data_statistics[1060200] = {
 	effect_id_display = 902040,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1060200,
+	uncraftable = 0,
 	next = 1060201,
 	upgrade_id = 1,
 	value_2 = 5,
 	icon = "1060200",
 	effect_id = 0,
 	attribute_2 = "antiaircraft",
+	id = 1060200,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -2051,13 +2066,14 @@ _G.pg.base.spweapon_data_statistics[1060220] = {
 	effect_id_display = 902040,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1060220,
+	uncraftable = 0,
 	next = 1060221,
 	upgrade_id = 21,
 	value_2 = 11,
 	icon = "1060200",
 	effect_id = 0,
 	attribute_2 = "antiaircraft",
+	id = 1060220,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -2189,13 +2205,14 @@ _G.pg.base.spweapon_data_statistics[1070100] = {
 	effect_id_display = 902050,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1070100,
+	uncraftable = 0,
 	next = 1070101,
 	upgrade_id = 1,
 	value_2 = 5,
 	icon = "1070100",
 	effect_id = 0,
 	attribute_2 = "antiaircraft",
+	id = 1070100,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -2325,13 +2342,14 @@ _G.pg.base.spweapon_data_statistics[1070120] = {
 	effect_id_display = 902050,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1070120,
+	uncraftable = 0,
 	next = 1070121,
 	upgrade_id = 21,
 	value_2 = 11,
 	icon = "1070100",
 	effect_id = 0,
 	attribute_2 = "antiaircraft",
+	id = 1070120,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -2463,13 +2481,14 @@ _G.pg.base.spweapon_data_statistics[1070200] = {
 	effect_id_display = 902060,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1070200,
+	uncraftable = 0,
 	next = 1070201,
 	upgrade_id = 1,
 	value_2 = 5,
 	icon = "1070200",
 	effect_id = 0,
 	attribute_2 = "dodge",
+	id = 1070200,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -2599,13 +2618,14 @@ _G.pg.base.spweapon_data_statistics[1070220] = {
 	effect_id_display = 902060,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1070220,
+	uncraftable = 0,
 	next = 1070221,
 	upgrade_id = 21,
 	value_2 = 11,
 	icon = "1070200",
 	effect_id = 0,
 	attribute_2 = "dodge",
+	id = 1070220,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -2737,13 +2757,14 @@ _G.pg.base.spweapon_data_statistics[1080100] = {
 	effect_id_display = 902070,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1080100,
+	uncraftable = 0,
 	next = 1080101,
 	upgrade_id = 1,
 	value_2 = 2,
 	icon = "1080100",
 	effect_id = 0,
 	attribute_2 = "dodge",
+	id = 1080100,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -2869,13 +2890,14 @@ _G.pg.base.spweapon_data_statistics[1080120] = {
 	effect_id_display = 902070,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1080120,
+	uncraftable = 0,
 	next = 1080121,
 	upgrade_id = 21,
 	value_2 = 10,
 	icon = "1080100",
 	effect_id = 0,
 	attribute_2 = "dodge",
+	id = 1080120,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -3007,13 +3029,14 @@ _G.pg.base.spweapon_data_statistics[1080200] = {
 	effect_id_display = 902080,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1080200,
+	uncraftable = 0,
 	next = 1080201,
 	upgrade_id = 1,
 	value_2 = 1,
 	icon = "1080200",
 	effect_id = 0,
 	attribute_2 = "hit",
+	id = 1080200,
 	rarity = 2,
 	unique = 0,
 	important = 1,
@@ -3141,13 +3164,14 @@ _G.pg.base.spweapon_data_statistics[1080220] = {
 	effect_id_display = 902080,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 양산형 특수 장비",
-	id = 1080220,
+	uncraftable = 0,
 	next = 1080221,
 	upgrade_id = 21,
 	value_2 = 3,
 	icon = "1080200",
 	effect_id = 0,
 	attribute_2 = "hit",
+	id = 1080220,
 	rarity = 3,
 	unique = 0,
 	important = 1,
@@ -3277,13 +3301,14 @@ _G.pg.base.spweapon_data_statistics[10000] = {
 	effect_id_display = 901010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10000,
+	uncraftable = 0,
 	next = 10001,
 	upgrade_id = 101,
 	value_2 = 7,
 	icon = "10000",
 	effect_id = 901010,
 	attribute_2 = "hit",
+	id = 10000,
 	rarity = 4,
 	unique = 10117,
 	important = 2,
@@ -3427,13 +3452,14 @@ _G.pg.base.spweapon_data_statistics[10020] = {
 	effect_id_display = 901020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10020,
+	uncraftable = 0,
 	next = 10021,
 	upgrade_id = 101,
 	value_2 = 8,
 	icon = "10020",
 	effect_id = 901020,
 	attribute_2 = "reload",
+	id = 10020,
 	rarity = 4,
 	unique = 20212,
 	important = 2,
@@ -3577,13 +3603,14 @@ _G.pg.base.spweapon_data_statistics[10040] = {
 	effect_id_display = 902090,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10040,
+	uncraftable = 0,
 	next = 10041,
 	upgrade_id = 101,
 	value_2 = 10,
 	icon = "10040",
 	effect_id = 902090,
 	attribute_2 = "cannon",
+	id = 10040,
 	rarity = 4,
 	unique = 40303,
 	important = 2,
@@ -3727,13 +3754,14 @@ _G.pg.base.spweapon_data_statistics[10060] = {
 	effect_id_display = 902100,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10060,
+	uncraftable = 0,
 	next = 10061,
 	upgrade_id = 101,
 	value_2 = 5,
 	icon = "10060",
 	effect_id = 902100,
 	attribute_2 = "reload",
+	id = 10060,
 	rarity = 4,
 	unique = 10504,
 	important = 2,
@@ -3877,13 +3905,14 @@ _G.pg.base.spweapon_data_statistics[10080] = {
 	effect_id_display = 902110,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10080,
+	uncraftable = 0,
 	next = 10081,
 	upgrade_id = 101,
 	value_2 = 2,
 	icon = "10080",
 	effect_id = 902110,
 	attribute_2 = "reload",
+	id = 10080,
 	rarity = 4,
 	unique = 30803,
 	important = 2,
@@ -4027,13 +4056,14 @@ _G.pg.base.spweapon_data_statistics[10100] = {
 	effect_id_display = 902020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10100,
+	uncraftable = 0,
 	next = 10101,
 	upgrade_id = 101,
 	value_2 = 4,
 	icon = "10100",
 	effect_id = 902020,
 	attribute_2 = "hit",
+	id = 10100,
 	rarity = 4,
 	unique = 90501,
 	important = 2,
@@ -4174,13 +4204,14 @@ _G.pg.base.spweapon_data_statistics[10120] = {
 	effect_id_display = 902120,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10120,
+	uncraftable = 0,
 	next = 10121,
 	upgrade_id = 101,
 	value_2 = 11,
 	icon = "10120",
 	effect_id = 902120,
 	attribute_2 = "antiaircraft",
+	id = 10120,
 	rarity = 4,
 	unique = 20706,
 	important = 2,
@@ -4323,13 +4354,14 @@ _G.pg.base.spweapon_data_statistics[10140] = {
 	effect_id_display = 902060,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10140,
+	uncraftable = 0,
 	next = 10141,
 	upgrade_id = 101,
 	value_2 = 4,
 	icon = "10140",
 	effect_id = 902060,
 	attribute_2 = "reload",
+	id = 10140,
 	rarity = 4,
 	unique = 40701,
 	important = 2,
@@ -4472,13 +4504,14 @@ _G.pg.base.spweapon_data_statistics[10160] = {
 	effect_id_display = 901010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10160,
+	uncraftable = 0,
 	next = 10161,
 	upgrade_id = 101,
 	value_2 = 4,
 	icon = "10160",
 	effect_id = 901010,
 	attribute_2 = "hit",
+	id = 10160,
 	rarity = 4,
 	unique = 60102,
 	important = 2,
@@ -4622,13 +4655,14 @@ _G.pg.base.spweapon_data_statistics[10180] = {
 	effect_id_display = 902070,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10180,
+	uncraftable = 0,
 	next = 10181,
 	upgrade_id = 101,
 	value_2 = 7,
 	icon = "10180",
 	effect_id = 902070,
 	attribute_2 = "hit",
+	id = 10180,
 	rarity = 4,
 	unique = 30105,
 	important = 2,
@@ -4772,13 +4806,14 @@ _G.pg.base.spweapon_data_statistics[10200] = {
 	effect_id_display = 902130,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10200,
+	uncraftable = 0,
 	next = 10201,
 	upgrade_id = 101,
 	value_2 = 11,
 	icon = "10200",
 	effect_id = 902130,
 	attribute_2 = "hit",
+	id = 10200,
 	rarity = 4,
 	unique = 20703,
 	important = 2,
@@ -4921,13 +4956,14 @@ _G.pg.base.spweapon_data_statistics[10220] = {
 	effect_id_display = 901010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10220,
+	uncraftable = 0,
 	next = 10221,
 	upgrade_id = 101,
 	value_2 = 9,
 	icon = "10220",
 	effect_id = 901010,
 	attribute_2 = "cannon",
+	id = 10220,
 	rarity = 4,
 	unique = 20123,
 	important = 2,
@@ -5071,13 +5107,14 @@ _G.pg.base.spweapon_data_statistics[10240] = {
 	effect_id_display = 901010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10240,
+	uncraftable = 0,
 	next = 10241,
 	upgrade_id = 101,
 	value_2 = 9,
 	icon = "10240",
 	effect_id = 901010,
 	attribute_2 = "hit",
+	id = 10240,
 	rarity = 4,
 	unique = 40202,
 	important = 2,
@@ -5221,13 +5258,14 @@ _G.pg.base.spweapon_data_statistics[10260] = {
 	effect_id_display = 901020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10260,
+	uncraftable = 0,
 	next = 10261,
 	upgrade_id = 101,
 	value_2 = 8,
 	icon = "10260",
 	effect_id = 901020,
 	attribute_2 = "hit",
+	id = 10260,
 	rarity = 4,
 	unique = 10214,
 	important = 2,
@@ -5371,13 +5409,14 @@ _G.pg.base.spweapon_data_statistics[10280] = {
 	effect_id_display = 902110,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10280,
+	uncraftable = 0,
 	next = 10281,
 	upgrade_id = 101,
 	value_2 = 2,
 	icon = "10280",
 	effect_id = 902110,
 	attribute_2 = "reload",
+	id = 10280,
 	rarity = 4,
 	unique = 40803,
 	important = 2,
@@ -5521,13 +5560,14 @@ _G.pg.base.spweapon_data_statistics[10300] = {
 	effect_id_display = 901020,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10300,
+	uncraftable = 0,
 	next = 10301,
 	upgrade_id = 101,
 	value_2 = 8,
 	icon = "10300",
 	effect_id = 901020,
 	attribute_2 = "dodge",
+	id = 10300,
 	rarity = 4,
 	unique = 70201,
 	important = 2,
@@ -5671,13 +5711,14 @@ _G.pg.base.spweapon_data_statistics[10320] = {
 	effect_id_display = 901010,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10320,
+	uncraftable = 0,
 	next = 10321,
 	upgrade_id = 101,
 	value_2 = 4,
 	icon = "10320",
 	effect_id = 901010,
 	attribute_2 = "hit",
+	id = 10320,
 	rarity = 4,
 	unique = 80103,
 	important = 2,
@@ -5821,13 +5862,14 @@ _G.pg.base.spweapon_data_statistics[10340] = {
 	effect_id_display = 902140,
 	level = 1,
 	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	id = 10340,
+	uncraftable = 0,
 	next = 10341,
 	upgrade_id = 101,
 	value_2 = 1,
 	icon = "10340",
 	effect_id = 902140,
 	attribute_2 = "luck",
+	id = 10340,
 	rarity = 4,
 	unique = 30707,
 	important = 2,
@@ -5956,6 +5998,907 @@ _G.pg.base.spweapon_data_statistics[10350] = {
 		{
 			11620,
 			1011620
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10360] = {
+	tech = 0,
+	name = "스파클 레버리에",
+	value_2_random = 0,
+	type = 2,
+	value_1_random = 0,
+	value_1 = 21,
+	effect_id_display = 109310,
+	level = 1,
+	descrip = "라이잘린 슈타우트가 사용하는 무기.\n강한 빛을 발하는 지팡이. 아무것도 하지 않아도 눈부신 빛을 유지한다. 그 빛을 받으면 착용자와 주위 사람들까지 마음이 밝아지는 것 같다고 한다.",
+	uncraftable = 1,
+	next = 10361,
+	upgrade_id = 101,
+	value_2 = 13,
+	icon = "10360",
+	effect_id = 109310,
+	attribute_2 = "reload",
+	id = 10360,
+	rarity = 4,
+	unique = 1090001,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			109040
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10361] = {
+	prev = 10360,
+	base = 10360,
+	next = 10362,
+	upgrade_id = 102,
+	id = 10361,
+	value_2 = 14,
+	value_1 = 22,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10362] = {
+	prev = 10361,
+	base = 10360,
+	next = 10363,
+	upgrade_id = 103,
+	id = 10362,
+	value_2 = 14,
+	value_1 = 23,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10363] = {
+	prev = 10362,
+	base = 10360,
+	next = 10364,
+	upgrade_id = 104,
+	id = 10363,
+	value_2 = 15,
+	value_1 = 24,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10364] = {
+	prev = 10363,
+	base = 10360,
+	next = 10365,
+	upgrade_id = 105,
+	id = 10364,
+	value_2 = 15,
+	value_1 = 25,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10365] = {
+	prev = 10364,
+	base = 10360,
+	next = 10366,
+	upgrade_id = 106,
+	id = 10365,
+	value_2 = 16,
+	value_1 = 26,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10366] = {
+	prev = 10365,
+	base = 10360,
+	next = 10367,
+	upgrade_id = 107,
+	id = 10366,
+	value_2 = 16,
+	value_1 = 27,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10367] = {
+	prev = 10366,
+	base = 10360,
+	next = 10368,
+	upgrade_id = 108,
+	id = 10367,
+	value_2 = 17,
+	value_1 = 28,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10368] = {
+	prev = 10367,
+	base = 10360,
+	next = 10369,
+	upgrade_id = 109,
+	id = 10368,
+	value_2 = 18,
+	value_1 = 29,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10369] = {
+	prev = 10368,
+	base = 10360,
+	next = 10370,
+	upgrade_id = 110,
+	id = 10369,
+	value_2 = 19,
+	value_1 = 30,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10370] = {
+	base = 10360,
+	prev = 10369,
+	next = 0,
+	upgrade_id = 111,
+	id = 10370,
+	value_2 = 20,
+	value_1 = 32,
+	level = 11,
+	skill_upgrade = {
+		{
+			109030,
+			109040
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10380] = {
+	tech = 0,
+	name = "아스트룸 녹스",
+	value_2_random = 0,
+	type = 7,
+	value_1_random = 0,
+	value_1 = 32,
+	effect_id_display = 109320,
+	level = 1,
+	descrip = "클라우디아 발렌츠가 사용하는 무기.\n쏜 화살이 어둠 속에서 별처럼 빛난다고 해서 붙여진 이름이다. 어둠 속에서 이 활로 쏜 화살이 날아오면 간담이 서늘해질 것이다.",
+	uncraftable = 1,
+	next = 10381,
+	upgrade_id = 101,
+	value_2 = 9,
+	icon = "10380",
+	effect_id = 109320,
+	attribute_2 = "reload",
+	id = 10380,
+	rarity = 4,
+	unique = 1090002,
+	important = 2,
+	prev = 0,
+	attribute_1 = "air",
+	usability = {
+		6
+	},
+	skill_upgrade = {
+		{
+			0,
+			109080
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10381] = {
+	prev = 10380,
+	base = 10380,
+	next = 10382,
+	upgrade_id = 102,
+	id = 10381,
+	value_2 = 10,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10382] = {
+	prev = 10381,
+	base = 10380,
+	next = 10383,
+	upgrade_id = 103,
+	id = 10382,
+	value_2 = 10,
+	value_1 = 33,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10383] = {
+	prev = 10382,
+	base = 10380,
+	next = 10384,
+	upgrade_id = 104,
+	id = 10383,
+	value_2 = 11,
+	value_1 = 33,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10384] = {
+	prev = 10383,
+	base = 10380,
+	next = 10385,
+	upgrade_id = 105,
+	id = 10384,
+	value_2 = 11,
+	value_1 = 34,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10385] = {
+	prev = 10384,
+	base = 10380,
+	next = 10386,
+	upgrade_id = 106,
+	id = 10385,
+	value_2 = 12,
+	value_1 = 35,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10386] = {
+	prev = 10385,
+	base = 10380,
+	next = 10387,
+	upgrade_id = 107,
+	id = 10386,
+	value_2 = 12,
+	value_1 = 36,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10387] = {
+	prev = 10386,
+	base = 10380,
+	next = 10388,
+	upgrade_id = 108,
+	id = 10387,
+	value_2 = 13,
+	value_1 = 37,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10388] = {
+	prev = 10387,
+	base = 10380,
+	next = 10389,
+	upgrade_id = 109,
+	id = 10388,
+	value_2 = 13,
+	value_1 = 38,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10389] = {
+	prev = 10388,
+	base = 10380,
+	next = 10390,
+	upgrade_id = 110,
+	id = 10389,
+	value_2 = 14,
+	value_1 = 39,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10390] = {
+	base = 10380,
+	prev = 10389,
+	next = 0,
+	upgrade_id = 111,
+	id = 10390,
+	value_2 = 15,
+	value_1 = 40,
+	level = 11,
+	skill_upgrade = {
+		{
+			109070,
+			109080
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10400] = {
+	tech = 0,
+	name = "에델 슈발트",
+	value_2_random = 0,
+	type = 6,
+	value_1_random = 0,
+	value_1 = 23,
+	effect_id_display = 109330,
+	level = 1,
+	descrip = "파트리샤 아벨하임이 사용하는 무기.\n검이 의지를 가지고 스스로 사용자를 선택한다고 한다. 고결한 혼을 지니고 있지 않으면, 아무리 뛰어난 실력자라도 다룰 수 없다.",
+	uncraftable = 1,
+	next = 10401,
+	upgrade_id = 101,
+	value_2 = 9,
+	icon = "10400",
+	effect_id = 109330,
+	attribute_2 = "hit",
+	id = 10400,
+	rarity = 4,
+	unique = 1090003,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		5
+	},
+	skill_upgrade = {
+		{
+			0,
+			109120
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10401] = {
+	prev = 10400,
+	base = 10400,
+	next = 10402,
+	upgrade_id = 102,
+	id = 10401,
+	value_1 = 24,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10402] = {
+	prev = 10401,
+	base = 10400,
+	next = 10403,
+	upgrade_id = 103,
+	id = 10402,
+	value_1 = 25,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10403] = {
+	prev = 10402,
+	base = 10400,
+	next = 10404,
+	upgrade_id = 104,
+	id = 10403,
+	value_1 = 26,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10404] = {
+	prev = 10403,
+	base = 10400,
+	next = 10405,
+	upgrade_id = 105,
+	id = 10404,
+	value_2 = 10,
+	value_1 = 27,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10405] = {
+	prev = 10404,
+	base = 10400,
+	next = 10406,
+	upgrade_id = 106,
+	id = 10405,
+	value_2 = 10,
+	value_1 = 28,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10406] = {
+	prev = 10405,
+	base = 10400,
+	next = 10407,
+	upgrade_id = 107,
+	id = 10406,
+	value_2 = 10,
+	value_1 = 29,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10407] = {
+	prev = 10406,
+	base = 10400,
+	next = 10408,
+	upgrade_id = 108,
+	id = 10407,
+	value_2 = 10,
+	value_1 = 30,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10408] = {
+	prev = 10407,
+	base = 10400,
+	next = 10409,
+	upgrade_id = 109,
+	id = 10408,
+	value_2 = 11,
+	value_1 = 31,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10409] = {
+	prev = 10408,
+	base = 10400,
+	next = 10410,
+	upgrade_id = 110,
+	id = 10409,
+	value_2 = 11,
+	value_1 = 33,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10410] = {
+	base = 10400,
+	prev = 10409,
+	next = 0,
+	upgrade_id = 111,
+	id = 10410,
+	value_2 = 11,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			109110,
+			109120
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10420] = {
+	tech = 0,
+	name = "오렌 헬딘",
+	value_2_random = 0,
+	type = 4,
+	value_1_random = 0,
+	value_1 = 12,
+	effect_id_display = 109350,
+	level = 1,
+	descrip = "릴라 디자이어스가 사용하는 무기.\n일찍이 오렌족이 사용하던 전통 무기 중 하나. 장비 시 주위 자연에 깃든 정령들이 힘을 준다고 한다.",
+	uncraftable = 1,
+	next = 10421,
+	upgrade_id = 101,
+	value_2 = 5,
+	icon = "10420",
+	effect_id = 109350,
+	attribute_2 = "hit",
+	id = 10420,
+	rarity = 4,
+	unique = 1090004,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		3
+	},
+	skill_upgrade = {
+		{
+			0,
+			109200
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10421] = {
+	prev = 10420,
+	base = 10420,
+	next = 10422,
+	upgrade_id = 102,
+	id = 10421,
+	value_2 = 6,
+	value_1 = 14,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10422] = {
+	prev = 10421,
+	base = 10420,
+	next = 10423,
+	upgrade_id = 103,
+	id = 10422,
+	value_2 = 7,
+	value_1 = 16,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10423] = {
+	prev = 10422,
+	base = 10420,
+	next = 10424,
+	upgrade_id = 104,
+	id = 10423,
+	value_2 = 8,
+	value_1 = 18,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10424] = {
+	prev = 10423,
+	base = 10420,
+	next = 10425,
+	upgrade_id = 105,
+	id = 10424,
+	value_2 = 9,
+	value_1 = 20,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10425] = {
+	prev = 10424,
+	base = 10420,
+	next = 10426,
+	upgrade_id = 106,
+	id = 10425,
+	value_2 = 10,
+	value_1 = 22,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10426] = {
+	prev = 10425,
+	base = 10420,
+	next = 10427,
+	upgrade_id = 107,
+	id = 10426,
+	value_2 = 11,
+	value_1 = 24,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10427] = {
+	prev = 10426,
+	base = 10420,
+	next = 10428,
+	upgrade_id = 108,
+	id = 10427,
+	value_2 = 12,
+	value_1 = 26,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10428] = {
+	prev = 10427,
+	base = 10420,
+	next = 10429,
+	upgrade_id = 109,
+	id = 10428,
+	value_2 = 13,
+	value_1 = 28,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10429] = {
+	prev = 10428,
+	base = 10420,
+	next = 10430,
+	upgrade_id = 110,
+	id = 10429,
+	value_2 = 14,
+	value_1 = 30,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10430] = {
+	base = 10420,
+	prev = 10429,
+	next = 0,
+	upgrade_id = 111,
+	id = 10430,
+	value_2 = 15,
+	value_1 = 32,
+	level = 11,
+	skill_upgrade = {
+		{
+			109190,
+			109200
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10440] = {
+	tech = 0,
+	name = "그랜 플로라시온",
+	value_2_random = 0,
+	type = 7,
+	value_1_random = 0,
+	value_1 = 22,
+	effect_id_display = 109340,
+	level = 1,
+	descrip = "세리 글로스가 사용하는 무기.\n“꽃의 현자”라 불렸던 인물이 착용했다는 팔찌. 착용자가 길을 걷기만 해도 주위의 꽃이 만개하기 때문에 “꽃의 현자”의 주변은 언제나 꽃밭이었다고 한다.",
+	uncraftable = 1,
+	next = 10441,
+	upgrade_id = 101,
+	value_2 = 11,
+	icon = "10440",
+	effect_id = 109340,
+	attribute_2 = "hit",
+	id = 10440,
+	rarity = 4,
+	unique = 1090005,
+	important = 2,
+	prev = 0,
+	attribute_1 = "air",
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			109160
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10441] = {
+	prev = 10440,
+	base = 10440,
+	next = 10442,
+	upgrade_id = 102,
+	id = 10441,
+	value_2 = 12,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10442] = {
+	prev = 10441,
+	base = 10440,
+	next = 10443,
+	upgrade_id = 103,
+	id = 10442,
+	value_2 = 12,
+	value_1 = 23,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10443] = {
+	prev = 10442,
+	base = 10440,
+	next = 10444,
+	upgrade_id = 104,
+	id = 10443,
+	value_2 = 13,
+	value_1 = 23,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10444] = {
+	prev = 10443,
+	base = 10440,
+	next = 10445,
+	upgrade_id = 105,
+	id = 10444,
+	value_2 = 13,
+	value_1 = 24,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10445] = {
+	prev = 10444,
+	base = 10440,
+	next = 10446,
+	upgrade_id = 106,
+	id = 10445,
+	value_2 = 14,
+	value_1 = 25,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10446] = {
+	prev = 10445,
+	base = 10440,
+	next = 10447,
+	upgrade_id = 107,
+	id = 10446,
+	value_2 = 14,
+	value_1 = 26,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10447] = {
+	prev = 10446,
+	base = 10440,
+	next = 10448,
+	upgrade_id = 108,
+	id = 10447,
+	value_2 = 15,
+	value_1 = 27,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10448] = {
+	prev = 10447,
+	base = 10440,
+	next = 10449,
+	upgrade_id = 109,
+	id = 10448,
+	value_2 = 15,
+	value_1 = 28,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10449] = {
+	prev = 10448,
+	base = 10440,
+	next = 10450,
+	upgrade_id = 110,
+	id = 10449,
+	value_2 = 16,
+	value_1 = 29,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10450] = {
+	base = 10440,
+	prev = 10449,
+	next = 0,
+	upgrade_id = 111,
+	id = 10450,
+	value_2 = 17,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			109150,
+			109160
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10460] = {
+	tech = 0,
+	name = "엘더 릴리",
+	value_2_random = 0,
+	type = 4,
+	value_1_random = 0,
+	value_1 = 180,
+	effect_id_display = 109360,
+	level = 1,
+	descrip = "칼라 이데아스가 사용하는 무기. \n칼라 이데아스가 사용하는 무기.\n괴상한 모양의 전투용 망치. 평평한 부분 반대쪽의 조형물은 순전히 멋을 내기 위한 것이다.",
+	uncraftable = 1,
+	next = 10461,
+	upgrade_id = 101,
+	value_2 = 5,
+	icon = "10460",
+	effect_id = 109360,
+	attribute_2 = "dodge",
+	id = 10460,
+	rarity = 4,
+	unique = 1090006,
+	important = 2,
+	prev = 0,
+	attribute_1 = "durability",
+	usability = {
+		18
+	},
+	skill_upgrade = {
+		{
+			0,
+			109240
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10461] = {
+	prev = 10460,
+	base = 10460,
+	next = 10462,
+	upgrade_id = 102,
+	id = 10461,
+	value_2 = 6,
+	value_1 = 190,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10462] = {
+	prev = 10461,
+	base = 10460,
+	next = 10463,
+	upgrade_id = 103,
+	id = 10462,
+	value_2 = 7,
+	value_1 = 200,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10463] = {
+	prev = 10462,
+	base = 10460,
+	next = 10464,
+	upgrade_id = 104,
+	id = 10463,
+	value_2 = 8,
+	value_1 = 210,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10464] = {
+	prev = 10463,
+	base = 10460,
+	next = 10465,
+	upgrade_id = 105,
+	id = 10464,
+	value_2 = 9,
+	value_1 = 220,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10465] = {
+	prev = 10464,
+	base = 10460,
+	next = 10466,
+	upgrade_id = 106,
+	id = 10465,
+	value_2 = 10,
+	value_1 = 230,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10466] = {
+	prev = 10465,
+	base = 10460,
+	next = 10467,
+	upgrade_id = 107,
+	id = 10466,
+	value_2 = 11,
+	value_1 = 240,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10467] = {
+	prev = 10466,
+	base = 10460,
+	next = 10468,
+	upgrade_id = 108,
+	id = 10467,
+	value_2 = 12,
+	value_1 = 250,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10468] = {
+	prev = 10467,
+	base = 10460,
+	next = 10469,
+	upgrade_id = 109,
+	id = 10468,
+	value_2 = 13,
+	value_1 = 260,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10469] = {
+	prev = 10468,
+	base = 10460,
+	next = 10470,
+	upgrade_id = 110,
+	id = 10469,
+	value_2 = 14,
+	value_1 = 270,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10470] = {
+	base = 10460,
+	prev = 10469,
+	next = 0,
+	upgrade_id = 111,
+	id = 10470,
+	value_2 = 15,
+	value_1 = 280,
+	level = 11,
+	skill_upgrade = {
+		{
+			109230,
+			109240
 		}
 	}
 }

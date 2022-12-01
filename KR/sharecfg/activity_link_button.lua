@@ -4,14 +4,14 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_all",
 		type = 3,
-		text_pic = "",
+		text_pic = "text_event_all",
 		id = 1,
 		group_id = 1,
 		pic = "event_all",
 		order = 1,
 		time = {
 			"default",
-			4565
+			4580
 		}
 	},
 	{
@@ -40,7 +40,7 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_map",
 		type = 0,
-		text_pic = "",
+		text_pic = "text_event_map",
 		id = 10,
 		group_id = 2,
 		pic = "event_map",
@@ -60,7 +60,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4530
+			4584
 		}
 	},
 	[30] = {
@@ -137,6 +137,22 @@ pg.activity_link_button = {
 		group_id = 7,
 		order = 1
 	},
+	[80] = {
+		type = 2,
+		name = "event_Atelier",
+		text_pic = "text_event_Atelier",
+		id = 80,
+		group_id = 8,
+		pic = "event_Atelier",
+		order = 1,
+		time = {
+			"default",
+			4581
+		},
+		param = {
+			"ATELIER_COMPOSITE"
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -160,6 +176,9 @@ pg.activity_link_button = {
 		},
 		event_aprilFool = {
 			70
+		},
+		event_Atelier = {
+			80
 		}
 	},
 	all = {
@@ -171,6 +190,7 @@ pg.activity_link_button = {
 		30,
 		40,
 		60,
-		70
+		70,
+		80
 	}
 }

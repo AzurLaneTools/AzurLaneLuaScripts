@@ -5,22 +5,26 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
+	slot0.initPos = nil
 	slot3 = slot1:Find("actBtn")
+	slot0.linkBtnTop = slot0._tf.parent:Find("link_top")
 	slot4 = slot0._tf.parent
-	slot0.linkBtnTop = slot4:Find("link_top")
+	slot0.eventPanel = slot4:Find("eventPanel")
 	slot0.activityBtns = {
 		MainActSummaryBtn.New(slot3, slot2),
 		MainActEscortBtn.New(slot3, slot2),
 		MainActMapBtn.New(slot3, slot2),
 		MainActLotteryBtn.New(slot3, slot2),
 		MainActBossBtn.New(slot3, slot2),
-		MainActBackHillBtn.New(slot3, slot2)
+		MainActBackHillBtn.New(slot3, slot2),
+		MainActAtelierBtn.New(slot3, slot2)
 	}
 	slot0.specailBtns = {
 		MainActInsBtn.New(slot3.parent, slot2),
 		MainActTraingCampBtn.New(slot0.linkBtnTop:Find("layout"), slot2),
 		MainActRefluxBtn.New(slot0.linkBtnTop:Find("layout"), slot2),
-		MainActNewServerBtn.New(slot0.linkBtnTop:Find("layout"), slot2)
+		MainActNewServerBtn.New(slot0.linkBtnTop:Find("layout"), slot2),
+		MainActDelegationBtn.New(slot0.eventPanel, slot2)
 	}
 
 	slot0:Register()
@@ -69,14 +73,6 @@ function slot0.OnRemoveLayer(slot0, slot1)
 end
 
 function slot0.Init(slot0)
-	for slot4, slot5 in ipairs(slot0.specailBtns) do
-		if slot5:InShowTime() then
-			slot5:Init()
-		else
-			slot5:Clear()
-		end
-	end
-
 	slot1 = {}
 	slot2 = {}
 
@@ -102,16 +98,39 @@ function slot0.Init(slot0)
 
 	assert(#slot1 <= 4, "活动按钮不能超过4个")
 
-	slot4 = slot3 <= 3 and 1 or 0.8
-	slot0._tf.localScale = Vector3(slot4, slot4, 1)
+	slot4 = slot3 <= 3
+	slot5 = slot4 and 1 or 0.85
+	slot0._tf.localScale = Vector3(slot5, slot5, 1)
+	slot0.initPos = slot0.initPos or slot0._tf.localPosition
+	slot0._tf.localPosition = slot0.initPos + Vector3(0, slot4 and 0 or 33, 0)
+
+	for slot10, slot11 in ipairs(slot0.specailBtns) do
+		if slot11:InShowTime() then
+			slot11:Init(not slot4)
+		else
+			slot11:Clear()
+		end
+	end
 end
 
 function slot0.Refresh(slot0)
 	slot0:Init()
+
+	for slot4, slot5 in ipairs(slot0.specailBtns) do
+		if slot5:InShowTime() then
+			slot5:Refresh()
+		end
+	end
 end
 
 function slot0.Disable(slot0)
 	slot0.lposX = nil
+
+	for slot4, slot5 in ipairs(slot0.specailBtns) do
+		if slot5:InShowTime() then
+			slot5:Disable()
+		end
+	end
 end
 
 function slot0.Fold(slot0, slot1, slot2)

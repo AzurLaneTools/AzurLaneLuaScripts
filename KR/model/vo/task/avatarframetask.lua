@@ -87,7 +87,10 @@ function slot0.getConfig(slot0, slot1)
 			return
 		end
 
-		slot3 = slot0:getTypeData(slot2, slot0.id)
+		if not slot0:getTypeData(slot2, slot0.id) then
+			return
+		end
+
 		slot4 = Clone(slot2.award_display)
 		slot4[1][3] = slot3.award_num
 		slot0.configData = {

@@ -549,6 +549,14 @@ function setLocalRotation(slot0, slot1)
 	tf(slot0).localRotation = slot1
 end
 
+function setLocalEulerAngles(slot0, slot1)
+	slot2 = tf(slot0).localEulerAngles
+	slot1.x = slot1.x or slot2.x
+	slot1.y = slot1.y or slot2.y
+	slot1.z = slot1.z or slot2.z
+	tf(slot0).localEulerAngles = slot1
+end
+
 function ActivateInputField(slot0)
 	GetComponent(slot0, typeof(InputField)):ActivateInputField()
 end

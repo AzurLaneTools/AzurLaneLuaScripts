@@ -5100,6 +5100,10 @@ _G.pg.base.gametip.word_shipNation_mot = {
 	tip = "템페스타"
 }
 
+_G.pg.base.gametip.word_shipNation_ryza = {
+	tip = "Atelier Ryza"
+}
+
 _G.pg.base.gametip.word_reset = {
 	tip = "초기화"
 }
@@ -9790,7 +9794,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "페터 슈트라서, 프린츠 하인리히 등 캐릭터 건조 확률 UP!"
+	tip = "라이잘린 슈타우트,파트리샤 아벨하임  등 함선 건조 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -20021,6 +20025,83 @@ _G.pg.base.gametip.cruise_task_help_2210 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2212 = {
+	tip = "2022.12.8-2023.2.7까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「포춘·META·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
+}
+
+_G.pg.base.gametip.battlepass_main_help_2212 = {
+	tip = {
+		{
+			info = [[
+월드 투어(2022.12.8-2023.2.7)
+
+·<color=#92fc63>개방 기간</color>
+ 2022.12.8-2023.2.7
+
+·<color=#92fc63>투어 진도 설명</color>
+(1)이벤트 기간 동안, 투어 임무를 통해「투어 PT」를 획득할 수 있습니다.
+(2)투어 임무는 시간에 따라 개방됩니다.
+(3)「투어 PT」를 100 획득할 때마다 투어 진도가 1씩 증가합니다.
+(4)투어 진도 상승 후, 해당 레벨 보상을 획득할 수 있으며, 투어 진도는 최고 100까지 달성할 수 있습니다.
+
+·<color=#92fc63>보상 규칙</color>
+투어 진도 보상은 2가지로 나뉘어집니다:
+(1)기본 투어 보상: <color=#ff5c5c>「포춘·META·META」</color>, <color=#ff5c5c>성정 큐브</color>, <color=#ff5c5c>고급 지향형 강화 유닛·제5기</color> 등
+ 지정 투어 진도 도달 시, 기본 투어 보상을 즉시 수령할 수 있습니다.
+(2)특허 투어 보상: <color=#ff5c5c>클리블랜드 「남부 여행」</color>, <color=#ff5c5c>다이아</color> 등
+ 「특허 투어 패스」 구매 및 지정 투어 진도 도달 시, 특허 투어 보상을 수령할 수 있습니다.
+ 주의: 「특허 투어 패스」 구매 후, 기본 투어 보상 수령에 영향을 끼치지 않습니다.
+
+·<color=#92fc63>「특허 투어 패스」설명</color>
+(1)「특허 투어 패스」는 「상점」-「특혜 패키지」에서 구매할 수 있으며, 구매 즉시 <color=#ff5c5c>1500</color> 「투어 PT」를 획득하며 특허 투어 보상이 해제됩니다.
+（2）「특허 투어 패스」는 <color=#ff5c5c>이벤트 종료 1시간 전</color> 판매가 중지됩니다(2.7 22:59:59). 구매 시간에 주의해 주세요.
+
+·<color=#92fc63>임무 설명</color>
+투어 임무는 2가지로 나뉘어집니다:
+(1)주간 임무 
+ 투어 임무에 8세트 주간 임무가 존재합니다. 이벤트 시작 후 1주차 임무가 해제되며, 이후 월요일 0시마다 다음 주간 임무가 해제됩니다.
+(2)S.P. 임무
+ S.P. 임무는 특수 임무로, 이벤트 시작 후 모든 임무가 해제됩니다.
+(3)투어 임무는 해제 후 자동으로 접수되며, 임무 완성 조건 만족 시, 자동 완성 및 보상을 획득합니다.
+
+·<color=#92fc63>「투어 임무 완료 쿠폰」설명</color>
+(1)「투어 임무 완료 쿠폰」은 투어 임무 화면에서 사용할 수 있으며, 일정 수량의「투어 임무 완료 쿠폰」을 소비하여 대부분의 투어 임무를 즉시 완료할 수 있습니다.
+(2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
+(3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
+(4)「투어 임무 완료 쿠폰」은 이번 이벤트 종료 시 사라지지 않습니다.
+
+·<color=#ff5c5c>특별 알림</color>
+(1)이번 월드 투어 이벤트 종료 후, 모든 투어 임무는 진행이 불가하며, 모든 투어 보상을 수령할 수 없습니다. 각 지휘관 여러분께서는 반드시 이벤트 시간을 주의하여 미리 보상을 수령해 주시기 바랍니다.
+(2)투어 진도, [특허 투어 패스]는 이번 월드 투어 이벤트에서만 효력이 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2212 = {
+	tip = {
+		{
+			info = [[
+투어 임무 설명
+
+·<color=#92fc63>개방 기간</color>
+ 2022.12.8-2023.2.7
+
+·<color=#92fc63>투어 임무는 2가지로 나뉘어집니다.</color>
+(1)주간 임무
+ 투어 임무에 8세트 주간 임무가 존재합니다. 이벤트 시작 후 1주차 임무가 해제되며, 이후 월요일 0시마다 다음 주간 임무가 해제됩니다.
+(2)S.P. 임무
+ S.P. 임무는 특수 임무로, 이벤트 시작 후 모든 임무가 해제됩니다.
+(3)투어 임무는 해제 후 자동으로 접수되며, 임무 완성 조건 만족 시, 자동 완성 및 보상을 획득합니다.
+
+·<color=#92fc63>「투어 임무 완료 쿠폰」설명</color>
+(1)「투어 임무 완료 쿠폰」은 투어 임무 화면에서 사용할 수 있으며, 일정 수량의「투어 임무 완료 쿠폰」을 소비하여 주간 투어 임무를 즉시 완료할 수 있습니다.
+(2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
+(3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
+(4)「투어 임무 완료 쿠폰」은 <color=#92fc63>이번 이벤트 종료 시 사라지지 않습니다.</color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "초기화"
 }
@@ -21296,4 +21377,389 @@ _G.pg.base.gametip.pgs_unbind_tip1 = {
 
 _G.pg.base.gametip.pgs_unbind_tip2 = {
 	tip = "현재 게임 계정은 PGS 계정과 연동 중입니다. PGS 이외의 기타 연동 방식을 해제할 경우, PGS 계정도 자동으로 연동 해제됩니다."
+}
+
+_G.pg.base.gametip.word_item = {
+	tip = "아이템"
+}
+
+_G.pg.base.gametip.word_tool = {
+	tip = "채집 아이템"
+}
+
+_G.pg.base.gametip.word_other = {
+	tip = "기타"
+}
+
+_G.pg.base.gametip.ryza_word_equip = {
+	tip = "장비"
+}
+
+_G.pg.base.gametip.ryza_rest_produce_count = {
+	tip = "잔여 조합 가능 수: $1"
+}
+
+_G.pg.base.gametip.ryza_composite_confirm = {
+	tip = "$1 * $2을(를) 조합하시겠습니까?"
+}
+
+_G.pg.base.gametip.ryza_composite_confirm_single = {
+	tip = "$1을(를) 조합하시겠습니까?"
+}
+
+_G.pg.base.gametip.ryza_composite_count = {
+	tip = "제작 개수:"
+}
+
+_G.pg.base.gametip.ryza_toggle_only_composite = {
+	tip = "조합 가능만 표시"
+}
+
+_G.pg.base.gametip.ryza_tip_select_recipe = {
+	tip = "왼쪽 레시피 리스트에서 레시피 선택"
+}
+
+_G.pg.base.gametip.ryza_tip_put_materials = {
+	tip = "서클을 터치해 재료 투입 ($1/$2)"
+}
+
+_G.pg.base.gametip.ryza_tip_composite_unlock = {
+	tip = "아틀리에 준비 중. T5 클리어 후 개방"
+}
+
+_G.pg.base.gametip.ryza_tip_unlock_all_tools = {
+	tip = "모든 아이템 획득 후 레시피 합성 해제"
+}
+
+_G.pg.base.gametip.ryza_material_not_enough = {
+	tip = "소재 부족. 조합하기 터치 시 모든 소재 확인 가능"
+}
+
+_G.pg.base.gametip.ryza_tip_composite_invalid = {
+	tip = "레시피 조합 가능 횟수가 최대치에 도달했습니다."
+}
+
+_G.pg.base.gametip.ryza_tip_max_composite_count = {
+	tip = "조합 가능 수 최대치에 도달했습니다."
+}
+
+_G.pg.base.gametip.ryza_tip_no_item = {
+	tip = "-획득한 소재가 없습니다-"
+}
+
+_G.pg.base.gametip.ryza_ui_show_acess = {
+	tip = "획득 경로\n확인"
+}
+
+_G.pg.base.gametip.ryza_tip_no_recipe = {
+	tip = "-조합 가능 레시피 없음-"
+}
+
+_G.pg.base.gametip.ryza_tip_item_access = {
+	tip = "아이템 아이콘 터치 시 획득 경로 확인 가능"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain_tip = {
+	tip = "아틀리에에서 조합하여 획득"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_upgrade = {
+	tip = "업그레이드"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_replace = {
+	tip = "교체"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_limit = {
+	tip = "최대치 도달"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_already_active_tip = {
+	tip = "투입함"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff = {
+	tip = "TH1~TH5, A.SP, EX 스테이지 내 효과 보너스 적용"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain = {
+	tip = "미보유"
+}
+
+_G.pg.base.gametip.ryza_tip_control = {
+	tip = "코어를 서클에 투입 시 효과 보너스 획득"
+}
+
+_G.pg.base.gametip.ryza_tip_main = {
+	tip = {
+		{
+			info = [[
+이벤트 설명:
+<color=#92fc63>12.1-12.15 업데이트 전</color>까지 한정 이벤트 「연금술사와 비밀 유적 군도」가 오픈됩니다.
+1. 특별 작전을 클리어하여 「수정 클러스터」 획득 후, 「푸니 양육」과 「보급 상점」에서 풍부한 보상과 교환할 수 있습니다.
+2. 「온천 개발 작전」 DAY7 완료 시 한정 가구 <color=#92fc63>소형 온천</color> 및 한정 장비스킨 등 보상을 획득할 수 있습니다.
+주의: 게임은 매일 1회씩 새로 개방됩니다. 총7회.
+3. 「모항 의뢰판」: 이벤트 기간 동안 의뢰판의 임무를 완료하여 <color=#92fc63>특수 조합 소재</color>와 한정 가구 등 보상을 획득할 수 있으며, 모항 명성을 쌓아 보너스 효과를 얻을 수 있습니다.
+주의: 12.7일까지, 매일 새로운 의뢰 임무가 등장합니다.
+4. 「아틀리에」: 이벤트 기간 동안 스테이지 완료 및 이벤트를 통해 연금 소재를 획득하여 아틀리에에서 기념 가구 <color=#92fc63>「유적 모험의 증명」</color>, <color=#92fc63>콜라보 캐릭터 특수 장비</color>, <color=#92fc63>콜라보 한정 설비</color> 등의 보상을 조합하여 획득할 수 있습니다.
+5. 「교환 상점」: 한정 스킨 구매 가능
+6. 「한정 건조」: 한정 캐릭터 건조 가능]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battle_levelScene_ryza_lock = {
+	tip = "<color=#92fc63>일반 모드 클리어</color> 후 소재 스테이지에 진입할 수 있습니다."
+}
+
+_G.pg.base.gametip.ryza_tip_toast_item_got = {
+	tip = "소재 수집"
+}
+
+_G.pg.base.gametip.ryza_composite_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_4",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_control_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_control",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_mini_game = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_level_desc = {
+	tip = "모항 명성"
+}
+
+_G.pg.base.gametip.ryza_task_tag_explore = {
+	tip = "탐색"
+}
+
+_G.pg.base.gametip.ryza_task_tag_battle = {
+	tip = "토벌"
+}
+
+_G.pg.base.gametip.ryza_task_tag_dalegate = {
+	tip = "의뢰"
+}
+
+_G.pg.base.gametip.ryza_task_tag_develop = {
+	tip = "연구"
+}
+
+_G.pg.base.gametip.ryza_task_detail_content = {
+	tip = "내용"
+}
+
+_G.pg.base.gametip.ryza_task_detail_award = {
+	tip = "보상"
+}
+
+_G.pg.base.gametip.ryza_task_go = {
+	tip = "이동"
+}
+
+_G.pg.base.gametip.ryza_task_get = {
+	tip = "수령"
+}
+
+_G.pg.base.gametip.ryza_task_get_all = {
+	tip = "일괄 수령"
+}
+
+_G.pg.base.gametip.ryza_task_confirm = {
+	tip = "확인"
+}
+
+_G.pg.base.gametip.ryza_task_cancel = {
+	tip = "취소"
+}
+
+_G.pg.base.gametip.ryza_task_level_num = {
+	tip = "명성 레벨"
+}
+
+_G.pg.base.gametip.ryza_task_level_add = {
+	tip = "명성 보너스"
+}
+
+_G.pg.base.gametip.ryza_task_submit = {
+	tip = "제출"
+}
+
+_G.pg.base.gametip.ryza_task_detail = {
+	tip = "확인"
+}
+
+_G.pg.base.gametip.ryza_composite_words = {
+	tip = {
+		{
+			"ryza_atellier1",
+			"뭘 만들어볼까나~"
+		},
+		{
+			"ryza_atellier2",
+			"뭘 넣어볼까~"
+		},
+		{
+			"ryza_atellier3",
+			"이것저것 다 시험해보고 싶네~"
+		},
+		{
+			"ryza_atellier4",
+			"우선 재료부터 넣고 생각해봐도 좋겠어~"
+		},
+		{
+			"ryza_atellier5",
+			"이거 괜찮은 것 같아~"
+		},
+		{
+			"ryza_atellier6",
+			"엄청 대단한 걸 만들 수 있을 것 같아!"
+		},
+		{
+			"ryza_atellier7",
+			"으음, 바로 이런 느낌이야!"
+		},
+		{
+			"ryza_atellier8",
+			"순조롭겠지~?"
+		},
+		{
+			"ryza_atellier9",
+			"좋아, 시작하자!"
+		},
+		{
+			"ryza_atellier10",
+			"쨘~! 이런 느낌인 거지~?"
+		},
+		{
+			"ryza_atellier11",
+			"좋았어, 완성이야!"
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_task_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_task_2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

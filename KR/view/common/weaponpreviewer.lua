@@ -444,24 +444,24 @@ function slot0.createEmitterCannon(slot0, slot1, slot2, slot3)
 
 		if uv3.equipSkinId > 0 then
 			slot7 = pg.equip_skin_template[uv3.equipSkinId]
-			slot8, slot9, slot10, slot11 = ys.Battle.BattleDataFunction.GetEquipSkin(uv3.equipSkinId)
-			slot14 = nil
+			slot8, slot9, slot10, slot11, slot12, slot13 = ys.Battle.BattleDataFunction.GetEquipSkin(uv3.equipSkinId)
+			slot16 = nil
 
-			if slot6:GetType() == ys.Battle.BattleConst.BulletType.CANNON or slot12 == slot13.BOMB then
+			if slot6:GetType() == ys.Battle.BattleConst.BulletType.CANNON or slot14 == slot15.BOMB then
 				if _.any(EquipType.CannonEquipTypes, function (slot0)
 					return table.contains(uv0.equip_type, slot0)
 				end) then
 					slot6:SetModleID(slot8)
 				elseif slot9 and #slot9 > 0 then
-					slot6:SetModleID(slot9)
+					slot6:SetModleID(slot9, nil, slot13)
 				elseif slot11 and #slot11 > 0 then
-					slot6:SetModleID(slot11)
+					slot6:SetModleID(slot11, nil, slot13)
 				end
-			elseif slot12 == slot13.TORPEDO then
+			elseif slot14 == slot15.TORPEDO then
 				if table.contains(slot7.equip_type, EquipType.Torpedo) then
 					slot6:SetModleID(slot8)
 				elseif slot10 and #slot10 > 0 then
-					slot6:SetModleID(slot10)
+					slot6:SetModleID(slot10, nil, slot13)
 				end
 			end
 		end
@@ -476,7 +476,11 @@ function slot0.createEmitterCannon(slot0, slot1, slot2, slot3)
 			uv0:AddRotateScript()
 
 			if tf(slot0).parent then
-				tf(slot0).parent = nil
+				slot1.parent = nil
+			end
+
+			if slot1:Find("bullet_random") and slot2:GetComponent(typeof(SpineAnim)) then
+				slot2:GetComponent(typeof(SpineAnim)):SetAction(tostring(math.random(3)), 0, false)
 			end
 
 			uv0:SetSpawn(uv1.boneList[uv2])

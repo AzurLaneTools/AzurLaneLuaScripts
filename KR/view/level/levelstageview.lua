@@ -19,6 +19,18 @@ function slot0.Ctor(slot0, ...)
 			uv0.cgComp.blocksRaycasts = true
 		end
 	end)
+
+	slot0.toastQueue = {}
+
+	slot0:bind(LevelUIConst.ADD_TOAST_QUEUE, function (slot0, slot1)
+		table.insert(uv0.toastQueue, slot1)
+
+		if #uv0.toastQueue > 1 then
+			return
+		end
+
+		uv0:Toast()
+	end)
 end
 
 function slot0.getUIName(slot0)
@@ -57,6 +69,7 @@ function slot0.OnDestroy(slot0)
 	slot0:ClearSubViews()
 	slot0:DestroyAutoFightPanel()
 	slot0:DestroyWinConditionPanel()
+	slot0:DestroyToast()
 	slot0.loader:Clear()
 end
 
@@ -1924,16 +1937,27 @@ function slot0.SafeCheck(slot0)
 end
 
 function slot0.TryAutoFight(slot0)
+	slot2 = slot0.contextData.map
+
 	if not slot0.contextData.chapterVO:IsAutoFight() then
 		return
 	end
 
-	if slot1:GetFleetofDuty(tobool(_.detect(slot1:GetAllEnemies(), function (slot0)
+	slot4 = _.detect(slot1:GetAllEnemies(), function (slot0)
 		return slot0.attachment == ChapterConst.AttachBoss
-	end))) and slot4.id ~= slot1.fleet.id then
+	end)
+	slot5 = nil
+
+	if ChapterConst.IsAtelierMap(slot2) then
+		slot5 = _.filter(slot1:findChapterCells(ChapterConst.AttachBox), function (slot0)
+			return slot0.flag ~= ChapterConst.CellFlagDisabled
+		end)
+	end
+
+	if slot1:GetFleetofDuty(tobool(slot4)) and slot6.id ~= slot1.fleet.id then
 		slot0:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpSwitch,
-			id = slot4.id
+			id = slot6.id
 		})
 		slot0:tryAutoTrigger()
 
@@ -1946,31 +1970,41 @@ function slot0.TryAutoFight(slot0)
 		return
 	end
 
-	if slot3 then
-		slot5, slot6 = slot1:FindBossPath(ChapterConst.SubjectPlayer, slot4.line, slot3)
-		slot7 = {}
-		slot8 = nil
+	if slot5 and #slot5 > 0 then
+		slot3 = _.map(slot5, function (slot0)
+			slot1, slot2 = uv0:findPath(ChapterConst.SubjectPlayer, uv1.line, slot0)
 
-		for slot12, slot13 in ipairs(slot6) do
-			table.insert(slot7, slot13)
+			return {
+				target = slot0,
+				priority = slot1,
+				path = slot2
+			}
+		end)
+	elseif slot4 then
+		slot7, slot8 = slot1:FindBossPath(ChapterConst.SubjectPlayer, slot6.line, slot4)
+		slot9 = {}
+		slot10 = nil
 
-			if slot1:existEnemy(ChapterConst.SubjectPlayer, slot13.row, slot13.column) then
-				slot5 = slot12
-				slot8 = slot13
+		for slot14, slot15 in ipairs(slot8) do
+			table.insert(slot9, slot15)
+
+			if slot1:existEnemy(ChapterConst.SubjectPlayer, slot15.row, slot15.column) then
+				slot7 = slot14
+				slot10 = slot15
 
 				break
 			end
 		end
 
-		slot2 = {
+		slot3 = {
 			{
-				target = slot8 or slot3,
-				priority = slot5 or 0,
-				path = slot7
+				target = slot10 or slot4,
+				priority = slot7 or 0,
+				path = slot9
 			}
 		}
 	else
-		function slot5(slot0)
+		function slot7(slot0)
 			slot1 = slot0.target
 
 			assert(pg.expedition_data_template[slot1.attachmentId], "expedition_data_template not exist: " .. slot1.attachmentId)
@@ -1982,7 +2016,7 @@ function slot0.TryAutoFight(slot0)
 			return ChapterConst.EnemyPreference[slot2.type]
 		end
 
-		table.sort(_.map(slot2, function (slot0)
+		table.sort(_.map(slot3, function (slot0)
 			slot1, slot2 = uv0:findPath(ChapterConst.SubjectPlayer, uv1.line, slot0)
 
 			return {
@@ -2003,14 +2037,14 @@ function slot0.TryAutoFight(slot0)
 		end)
 	end
 
-	if slot2[1] and slot5.priority < PathFinding.PrioObstacle then
-		slot6 = slot5.target
+	if slot3[1] and slot7.priority < PathFinding.PrioObstacle then
+		slot8 = slot7.target
 
 		slot0:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpMove,
-			id = slot4.id,
-			arg1 = slot6.row,
-			arg2 = slot6.column
+			id = slot6.id,
+			arg1 = slot8.row,
+			arg2 = slot8.column
 		})
 	else
 		pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_errors_tip"))
@@ -2056,6 +2090,36 @@ function slot0.DestroyAutoFightPanel(slot0)
 	slot0.autoFightPanel:Destroy()
 
 	slot0.autoFightPanel = nil
+end
+
+function slot0.DestroyToast(slot0)
+	if not slot0.toastPanel then
+		return
+	end
+
+	slot0.toastPanel:Destroy()
+
+	slot0.toastPanel = nil
+end
+
+function slot0.Toast(slot0)
+	slot0:DestroyToast()
+
+	if not table.remove(slot0.toastQueue, 1) then
+		return
+	end
+
+	slot0.toastPanel = slot1.Class.New(slot0)
+	slot2 = slot0.toastPanel
+
+	slot2:Load()
+
+	slot0.toastPanel.contextData.settings = slot1
+	slot2 = slot0.toastPanel.buffer
+
+	slot2:Play(function ()
+		uv0:Toast()
+	end)
 end
 
 function slot0.HandleShowMsgBox(slot0, slot1)

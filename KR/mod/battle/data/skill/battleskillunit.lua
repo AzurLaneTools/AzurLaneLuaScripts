@@ -18,6 +18,7 @@ function slot3.Ctor(slot0, slot1, slot2)
 		slot0._effectList[slot6] = uv0.Battle[slot7.type].New(slot7, slot2)
 	end
 
+	slot0._finaleEffectCount = 0
 	slot0._dataProxy = uv0.Battle.BattleDataProxy.GetInstance()
 end
 
@@ -64,10 +65,18 @@ function slot3.Cast(slot0, slot1, slot2)
 	slot6 = slot0._attachData
 
 	for slot10, slot11 in ipairs(slot0._effectList) do
-		slot12 = slot11:GetTarget(slot1, slot0)
-		slot0._lastEffectTarget = slot12
+		slot0._lastEffectTarget = slot11:GetTarget(slot1, slot0)
 
 		slot11:SetCommander(slot2)
+
+		if slot11:IsFinaleEffect() then
+			slot0._finaleEffectCount = slot0._finaleEffectCount + 1
+
+			slot11:SetFinaleCallback(function ()
+				uv0:callbackCount(uv1)
+			end)
+		end
+
 		slot11:Effect(slot1, slot12, slot6)
 	end
 
@@ -78,6 +87,10 @@ function slot3.Cast(slot0, slot1, slot2)
 			offset = slot7.offset,
 			posFun = slot7.posFun
 		}))
+	end
+
+	if slot0._tempData.action then
+		slot1:StateChange(uv0.Battle.UnitState.STATE_SKILL_START)
 	end
 end
 
@@ -94,6 +107,14 @@ end
 function slot3.Clear(slot0)
 	for slot4, slot5 in ipairs(slot0._effectList) do
 		slot5:Clear()
+	end
+end
+
+function slot3.callbackCount(slot0, slot1)
+	slot0._finaleEffectCount = slot0._finaleEffectCount - 1
+
+	if slot0._finaleEffectCount == 0 and slot0._tempData.action then
+		slot1:StateChange(uv0.Battle.UnitState.STATE_SKILL_END)
 	end
 end
 

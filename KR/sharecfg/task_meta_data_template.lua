@@ -1120,6 +1120,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100021] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "포춘·META를 사용해 승리 1회",
+		id = 100021,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100022] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "포춘·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 100022,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100023] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "포춘·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 100023,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100024] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "포춘·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 100024,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100025] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "포춘·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 100025,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1149,6 +1189,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "대형 작전에서 헌터·META를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200004,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200021] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "대형 작전에서 포춘·META를 사용해 1회 승리",
+		id = 200021,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200022] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "대형 작전에서 포춘·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 200022,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200023] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "대형 작전에서 포춘·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 200023,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200024] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "대형 작전에서 포춘·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 200024,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1293,9 +1365,18 @@ pg.task_meta_data_template = {
 		100003,
 		100004,
 		100005,
+		100021,
+		100022,
+		100023,
+		100024,
+		100025,
 		200001,
 		200002,
 		200003,
-		200004
+		200004,
+		200021,
+		200022,
+		200023,
+		200024
 	}
 }

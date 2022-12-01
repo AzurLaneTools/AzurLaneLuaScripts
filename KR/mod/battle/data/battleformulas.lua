@@ -607,3 +607,58 @@ function slot0.RandomDelta(slot0)
 		return 0
 	end
 end
+
+function slot0.simpleCompare(slot0, slot1)
+	slot2, slot3 = string.find(slot0, "%p+")
+
+	return getCompareFuncByPunctuation(string.sub(slot0, slot2, slot3))(slot1, tonumber(string.sub(slot0, slot3 + 1, #slot0)))
+end
+
+function slot0.parseCompare(slot0, slot1)
+	slot2, slot3 = string.find(slot0, "%p+")
+	slot6 = string.sub(slot0, slot3 + 1, #slot0)
+
+	return getCompareFuncByPunctuation(string.sub(slot0, slot2, slot3))(tonumber(string.sub(slot0, 1, slot2 - 1)) or slot1:GetCurrent(slot5), tonumber(slot6) or slot1:GetCurrent(slot6))
+end
+
+function slot0.parseFormula(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+
+	for slot7 in string.gmatch(slot0, "%w+%.?%w*") do
+		table.insert(slot2, slot7)
+	end
+
+	for slot7 in string.gmatch(slot0, "[^%w%.]") do
+		table.insert(slot3, slot7)
+	end
+
+	slot4 = {}
+	slot5 = {}
+	slot6 = 1
+	slot7 = tonumber(slot2[1]) or slot1:GetCurrent(slot7)
+
+	for slot11, slot12 in ipairs(slot3) do
+		slot13 = tonumber(slot2[slot6 + 1]) or slot1:GetCurrent(slot2[slot6])
+
+		if slot12 == "+" or slot12 == "-" then
+			table.insert(slot5, slot7)
+
+			slot7 = slot13
+
+			table.insert(slot4, slot12)
+		elseif slot12 == "*" or slot12 == "/" then
+			slot7 = getArithmeticFuncByOperator(slot12)(slot7, slot13)
+		end
+	end
+
+	table.insert(slot5, slot7)
+
+	slot8 = slot5[1]
+
+	while slot6 < #slot5 do
+		slot8 = getArithmeticFuncByOperator(slot4[slot6])(slot8, slot5[slot6 + 1])
+	end
+
+	return slot8
+end

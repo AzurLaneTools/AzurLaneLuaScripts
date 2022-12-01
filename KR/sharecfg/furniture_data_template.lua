@@ -5448,6 +5448,55 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[239] = {
+		spine_extra = "",
+		describe = "유적에서 회수한 소재로 제작한 정교한 조형물. 놀라움으로 가득한 비밀 유적 군도에서의 모험——「연금술사와 비밀 유적 군도」 이벤트 기념 \n「……음, 이것도 나무통이네!」",
+		gain_by = "연금술사와 비밀 유적 군도",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "lianjinxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "유적 모험의 증명",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 239,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			3,
+			{
+				"event:/cv/furniture/ryzavoice"
+			},
+			{
+				"ryza-az-theme"
+			}
+		},
+		spine = {
+			{
+				"lianjinxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -106312,6 +106361,1890 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[95001] = {
+		spine_extra = "",
+		describe = "신비한 연금공방에서 함께 탐구해요!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "공방 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanljicon",
+		spine_action_replace = "",
+		picture = "lj/dibanlj",
+		comfortable = 4,
+		canputon = 0,
+		id = 95001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95002] = {
+		spine_extra = "",
+		describe = "신비한 연금공방에서 함께 탐구해요!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "공방 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiljicon",
+		spine_action_replace = "",
+		picture = "lj/qiangbilj",
+		comfortable = 4,
+		canputon = 0,
+		id = 95002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95101] = {
+		spine_extra = "",
+		describe = "실내 애프터눈 티 파티를 열기에 좋아요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chajiljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "목재 차 테이블",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/chajilj",
+		canputon = 0,
+		id = 95101,
+		can_rotate = 0,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95102] = {
+		spine_extra = "",
+		describe = "진열할 수 있는 곳은 모두 이용해야죠.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuwugui1ljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐비닛A",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/chuwugui1lj",
+		canputon = 0,
+		id = 95102,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95103] = {
+		spine_extra = "",
+		describe = "진열할 수 있는 곳은 모두 이용해야죠.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuwugui2ljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐비닛B",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/chuwugui2lj",
+		canputon = 0,
+		id = 95103,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95104] = {
+		spine_extra = "",
+		describe = "진열할 수 있는 곳은 모두 이용해야죠.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuwugui3ljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐비닛C",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/chuwugui3lj",
+		canputon = 0,
+		id = 95104,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95105] = {
+		spine_extra = "",
+		describe = "캐비닛에 함부로 오르지 마세요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuwugui4ljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "캐비닛",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/chuwugui4lj",
+		canputon = 0,
+		id = 95105,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95106] = {
+		spine_extra = "",
+		describe = "연금 재료를 넣어둔 작은 캐비닛.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuwugui5ljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "소형 캐비닛",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/chuwugui5lj",
+		canputon = 0,
+		id = 95106,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95107] = {
+		spine_extra = "",
+		describe = "소박한 수납함. 안에 뭐가 들어있을까요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuwuxiangljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "수납함",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/chuwuxianglj",
+		canputon = 0,
+		id = 95107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95108] = {
+		spine_extra = "",
+		describe = "위엄 넘치는 디자인을 위해 앉는 부분을 딱딱하게 만들었어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dajinglingyiziljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "대정령의 의자",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/dajinglingyizilj",
+		canputon = 0,
+		id = 95108,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18,
+					-21.5
+				},
+				{
+					-1,
+					1
+				},
+				"lj/dajinglingyizilj_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95109] = {
+		spine_extra = "",
+		describe = "대형 사이즈 소파. 가끔은 침대 대신 쓸 수 있어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dashafaljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 대형 소파",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/dashafalj",
+		canputon = 0,
+		id = 95109,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-6.4,
+					20
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95110] = {
+		spine_extra = "",
+		describe = "족제비 모습의 인형. 정말 그냥 인형이에요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dayoubuouljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "족제비 인형",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "lj/dayoubuoulj",
+		canputon = 0,
+		id = 95110,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95111] = {
+		spine_extra = "",
+		describe = "소박한 목재 의자. 발 디딜 틈이 없을 때 잠시 쉬어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dengziljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 목재 의자",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/dengzilj",
+		canputon = 0,
+		id = 95111,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13.8,
+					48.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95112] = {
+		spine_extra = "",
+		describe = "대형 사이즈 러그. 방안에 색다른 분위기를 만들어줘요.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditanljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "대형 러그",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/ditanlj",
+		canputon = 0,
+		id = 95112,
+		can_rotate = 0,
+		size = {
+			16,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95113] = {
+		spine_extra = "",
+		describe = "말도 안 되는 변화를 만들어 낼 수 있는 것 같아요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fuyoutianqiuljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "천체 모형",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/fuyoutianqiulj",
+		canputon = 0,
+		id = 95113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95114] = {
+		spine_extra = "",
+		describe = "아이템을 복제할 수 있는 신기한 장치.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fuzhifuljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "복제 가마",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/fuzhifulj",
+		canputon = 0,
+		id = 95114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95115] = {
+		spine_extra = "",
+		describe = "일기가 놓여 있는 검소한 작업용 테이블.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gongzuotailjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "작업실 테이블",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/gongzuotailj",
+		canputon = 0,
+		id = 95115,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95116] = {
+		spine_extra = "",
+		describe = "양 모습의 인형. 털은 빠지지 않아요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiaomianyangbuouljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "양 인형",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "lj/jiaomianyangbuoulj",
+		canputon = 0,
+		id = 95116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95117] = {
+		spine_extra = "",
+		describe = "방안의 추위를 날려버려요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "lianjinlvljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "난로",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/lianjinlvlj",
+		canputon = 0,
+		id = 95117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95118] = {
+		spine_extra = "",
+		describe = "공방은 당연히 2층이 있죠!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "loutiljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 계단",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/loutilj",
+		canputon = 0,
+		id = 95118,
+		can_rotate = 0,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95119] = {
+		spine_extra = "",
+		describe = "한걸음씩 무기를 강화해요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "luziljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "단조로",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/luzilj",
+		canputon = 0,
+		id = 95119,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95120] = {
+		spine_extra = "",
+		describe = "작은 사이즈의 러그. 소박한 바닥에 색다른 포인트를 줘요.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "mentanljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "소형 러그",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/mentanlj",
+		canputon = 0,
+		id = 95120,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95121] = {
+		spine_extra = "",
+		describe = "아래 깔린 상자 안의 물건을 찾으려면 많은 노력이 필요해요……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "muzhichuwuxiangljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "연금 잡동사니",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/muzhichuwuxianglj",
+		canputon = 0,
+		id = 95121,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95122] = {
+		spine_extra = "",
+		describe = "작은 탁자. 서류로 가득해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "muzhixiaozhuoljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "목재 테이블",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/muzhixiaozhuolj",
+		canputon = 0,
+		id = 95122,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95123] = {
+		spine_extra = "",
+		describe = "서적들을 꽂아둔 작은 책장. 커다란 책장보다 책을 찾기가 편리해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shujialjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "소형 책장",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/shujialj",
+		canputon = 0,
+		id = 95123,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95124] = {
+		spine_extra = "",
+		describe = "작은 사이즈의 소파. 앉으면 대형 소파만큼이나 푹신하고 편안해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaoshafaljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 소형 소파",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/xiaoshafalj",
+		canputon = 0,
+		id = 95124,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95126] = {
+		spine_extra = "",
+		describe = "몇 가지 물건만 놓인 작은 나무 테이블.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaozhuoziljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "소형 목재 테이블",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/xiaozhuozilj",
+		canputon = 0,
+		id = 95126,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95127] = {
+		spine_extra = "",
+		describe = "다양한 채집 지역으로 갈 수 있는 채집 지역 조합기가 놓인 워크벤치",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yijiepingzhuoljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "워크벤치",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/yijiepingzhuolj",
+		canputon = 0,
+		id = 95127,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95128] = {
+		spine_extra = "",
+		describe = "조그만 온천. 가열 장치는 연금술로 만들어져 내구성과 신뢰성이 있어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yuchiljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "소형 온천",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/yuchilj",
+		canputon = 0,
+		id = 95128,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-23.6,
+					-47.5
+				},
+				{
+					-1,
+					1
+				},
+				"lj/yuchilj_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95129] = {
+		spine_extra = "",
+		describe = "실내를 장식하는 화분. 작업실을 푸르게 해줘요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zaipei1ljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 화분",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/zaipei1lj",
+		canputon = 0,
+		id = 95129,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95130] = {
+		spine_extra = "",
+		describe = "작업실의 화분. 작고 배치하기 쉬워요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zaipei2ljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 작은 화분",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/zaipei2lj",
+		canputon = 0,
+		id = 95130,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95131] = {
+		spine_extra = "",
+		describe = "그래서…… 연금술의 원리는 대체 뭘까요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ziyaoguoljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "연금 냄비",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/ziyaoguolj",
+		canputon = 0,
+		id = 95131,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-1.5,
+					-34.9
+				},
+				{
+					-1,
+					1
+				},
+				"lj/ziyaoguolj_using",
+				0,
+				{
+					{
+						-1.2,
+						16.2
+					},
+					{
+						197.3,
+						450
+					},
+					"lj/ziyaoguolj_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95132] = {
+		spine_extra = "",
+		describe = "연금공방의 심장, 미지와 기적이 탄생하는 곳.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "연금 작업장",
+		themeId = 95,
+		icon = "lvyaoguoljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 95132,
+		can_rotate = 0,
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lvyaoguoljB",
+				"normal"
+			},
+			{
+				"lvyaoguoljT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					5.9,
+					38.8
+				},
+				{
+					197.3,
+					450
+				},
+				"lj/ziyaoguolj_mask",
+				{
+					-20,
+					156
+				}
+			},
+			{
+				2.8,
+				-37
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"wash",
+				{
+					307074
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[95133] = {
+		spine_extra = "",
+		describe = "연금 냄비. 세이렌 스타일이에요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "hongyaoguoljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "세이렌식 연금 냄비",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 95133,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hongyaoguolj",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95134] = {
+		spine_extra = "",
+		describe = "적혀 있는 이름이…… 퓨리? 진짜 대포는 아니겠죠, 아마도……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "lianjindapaoljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "세이렌식 연금 대포",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 95134,
+		can_rotate = 0,
+		size = {
+			7,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lianjindapaolj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95140] = {
+		spine_extra = "",
+		describe = "손에 들고 볼 수 없는 커다란 원고. 쓰여있는 글자를 단번에 이해하기 어려워요……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "shubenljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "커다란 원고",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 95140,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shubenlj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95141] = {
+		spine_extra = "",
+		describe = "보물상자에요! 상자를 열고 싶은 유혹을 떨치기 어렵죠.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "baoxiangljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "보물상자",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 95141,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baoxianglj",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95142] = {
+		spine_extra = "",
+		describe = "마물이지만 귀여운 외모 때문에 위협을 느끼는 사람이 없어요. 만지면 매끄럽고 차가워요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "puniljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "푸니 인형",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 95142,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"punilj",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95143] = {
+		spine_extra = "",
+		describe = "책이 가득 진열된 큰 책장은 언제나 지식의 위엄을 발산해요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dashujialjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "스탠드형 책장",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/dashujialj",
+		canputon = 0,
+		id = 95143,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95144] = {
+		spine_extra = "",
+		describe = "나무통!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 95,
+		is_3d_obj = 0,
+		count = 10,
+		tag = 7,
+		icon = "mutongljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "나무통",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 95144,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mutonglj",
+				"normal",
+				{
+					"action",
+					false,
+					[4] = {
+						"event:/ui/ryza1",
+						"event:/ui/ryza2",
+						"event:/ui/ryza3",
+						"event:/ui/ryza4",
+						"event:/ui/ryza5"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[95301] = {
+		spine_extra = "",
+		describe = "창문이 클수록 햇빛이 잘 들어와요.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuanghuljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 창문",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "lj/chuanghulj",
+		canputon = 0,
+		id = 95301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95302] = {
+		spine_extra = "",
+		describe = "쉽게 고칠 수 있는 작은 간판.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guapailjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 간판",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/guapailj",
+		canputon = 0,
+		id = 95302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95303] = {
+		spine_extra = "",
+		describe = "중후함이 느껴지는 정제된 나무문.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "mengljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 대문",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/menglj",
+		canputon = 0,
+		id = 95303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95304] = {
+		spine_extra = "",
+		describe = "하루의 피로를 푸는 곳!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "woshiljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "침실",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "lj/woshilj",
+		canputon = 0,
+		id = 95304,
+		can_rotate = 0,
+		size = {
+			14,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[95305] = {
+		spine_extra = "",
+		describe = "연금 공방을 장식하는 액자",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 95,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "xiangkuangljicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공방 액자",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "lj/xiangkuanglj",
+		canputon = 0,
+		id = 95305,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -106427,6 +108360,7 @@ pg.furniture_data_template = {
 			234,
 			235,
 			236,
+			239,
 			100002,
 			100003,
 			100004,
@@ -106602,6 +108536,7 @@ pg.furniture_data_template = {
 			234,
 			235,
 			236,
+			239,
 			100002,
 			100003,
 			100004,
@@ -111282,6 +113217,98 @@ pg.furniture_data_template = {
 			94304,
 			94305,
 			94306
+		},
+		[95] = {
+			95001,
+			95002,
+			95101,
+			95102,
+			95103,
+			95104,
+			95105,
+			95106,
+			95107,
+			95108,
+			95109,
+			95110,
+			95111,
+			95112,
+			95113,
+			95114,
+			95115,
+			95116,
+			95117,
+			95118,
+			95119,
+			95120,
+			95121,
+			95122,
+			95123,
+			95124,
+			95126,
+			95127,
+			95128,
+			95129,
+			95130,
+			95131,
+			95132,
+			95133,
+			95134,
+			95140,
+			95141,
+			95142,
+			95143,
+			95144,
+			95301,
+			95302,
+			95303,
+			95304,
+			95305,
+			95001,
+			95002,
+			95101,
+			95102,
+			95103,
+			95104,
+			95105,
+			95106,
+			95107,
+			95108,
+			95109,
+			95110,
+			95111,
+			95112,
+			95113,
+			95114,
+			95115,
+			95116,
+			95117,
+			95118,
+			95119,
+			95120,
+			95121,
+			95122,
+			95123,
+			95124,
+			95126,
+			95127,
+			95128,
+			95129,
+			95130,
+			95131,
+			95132,
+			95133,
+			95134,
+			95140,
+			95141,
+			95142,
+			95143,
+			95144,
+			95301,
+			95302,
+			95303,
+			95304,
+			95305
 		}
 	},
 	get_id_list_by_tag = {
@@ -112810,7 +114837,38 @@ pg.furniture_data_template = {
 			94114,
 			94115,
 			94116,
-			94117
+			94117,
+			95101,
+			95102,
+			95103,
+			95104,
+			95105,
+			95106,
+			95107,
+			95108,
+			95109,
+			95110,
+			95111,
+			95112,
+			95113,
+			95114,
+			95115,
+			95116,
+			95117,
+			95118,
+			95119,
+			95120,
+			95121,
+			95122,
+			95123,
+			95124,
+			95126,
+			95127,
+			95128,
+			95129,
+			95130,
+			95131,
+			95143
 		},
 		{
 			1108,
@@ -113072,6 +115130,7 @@ pg.furniture_data_template = {
 			232,
 			234,
 			235,
+			239,
 			100002,
 			100003,
 			100004,
@@ -113258,7 +115317,14 @@ pg.furniture_data_template = {
 			90117,
 			91129,
 			94119,
-			94120
+			94120,
+			95132,
+			95133,
+			95134,
+			95140,
+			95141,
+			95142,
+			95144
 		},
 		[4] = {
 			1001,
@@ -113339,7 +115405,8 @@ pg.furniture_data_template = {
 			91001,
 			92001,
 			93001,
-			94001
+			94001,
+			95001
 		},
 		[3] = {
 			1002,
@@ -113421,7 +115488,8 @@ pg.furniture_data_template = {
 			91002,
 			92002,
 			93002,
-			94002
+			94002,
+			95002
 		},
 		[5] = {
 			1301,
@@ -113702,7 +115770,12 @@ pg.furniture_data_template = {
 			94303,
 			94304,
 			94305,
-			94306
+			94306,
+			95301,
+			95302,
+			95303,
+			95304,
+			95305
 		}
 	},
 	get_id_list_by_type = {
@@ -113786,7 +115859,8 @@ pg.furniture_data_template = {
 			91002,
 			92002,
 			93002,
-			94002
+			94002,
+			95002
 		},
 		[7] = {
 			1,
@@ -113886,6 +115960,7 @@ pg.furniture_data_template = {
 			234,
 			235,
 			236,
+			239,
 			100002,
 			100004,
 			100005,
@@ -115428,7 +117503,43 @@ pg.furniture_data_template = {
 			94115,
 			94116,
 			94117,
-			94120
+			94120,
+			95101,
+			95102,
+			95103,
+			95104,
+			95105,
+			95106,
+			95107,
+			95108,
+			95109,
+			95110,
+			95111,
+			95113,
+			95114,
+			95115,
+			95116,
+			95117,
+			95118,
+			95119,
+			95121,
+			95122,
+			95123,
+			95124,
+			95126,
+			95127,
+			95128,
+			95129,
+			95130,
+			95131,
+			95132,
+			95133,
+			95134,
+			95140,
+			95141,
+			95142,
+			95143,
+			95144
 		},
 		[11] = {
 			131,
@@ -115562,7 +117673,8 @@ pg.furniture_data_template = {
 			91001,
 			92001,
 			93001,
-			94001
+			94001,
+			95001
 		},
 		[5] = {
 			1101,
@@ -115690,7 +117802,9 @@ pg.furniture_data_template = {
 			91125,
 			91128,
 			93117,
-			93119
+			93119,
+			95112,
+			95120
 		},
 		[3] = {
 			1108,
@@ -116116,7 +118230,12 @@ pg.furniture_data_template = {
 			94303,
 			94304,
 			94305,
-			94306
+			94306,
+			95301,
+			95302,
+			95303,
+			95304,
+			95305
 		},
 		[8] = {
 			17121
@@ -116256,6 +118375,7 @@ pg.furniture_data_template = {
 		234,
 		235,
 		236,
+		239,
 		100002,
 		100003,
 		100004,
@@ -118545,6 +120665,51 @@ pg.furniture_data_template = {
 		94303,
 		94304,
 		94305,
-		94306
+		94306,
+		95001,
+		95002,
+		95101,
+		95102,
+		95103,
+		95104,
+		95105,
+		95106,
+		95107,
+		95108,
+		95109,
+		95110,
+		95111,
+		95112,
+		95113,
+		95114,
+		95115,
+		95116,
+		95117,
+		95118,
+		95119,
+		95120,
+		95121,
+		95122,
+		95123,
+		95124,
+		95126,
+		95127,
+		95128,
+		95129,
+		95130,
+		95131,
+		95132,
+		95133,
+		95134,
+		95140,
+		95141,
+		95142,
+		95143,
+		95144,
+		95301,
+		95302,
+		95303,
+		95304,
+		95305
 	}
 }

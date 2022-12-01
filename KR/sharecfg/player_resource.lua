@@ -920,6 +920,21 @@ pg.player_resource = {
 		name = "newserver_pt_221110",
 		itemid = 59362
 	},
+	[286] = {
+		id = 286,
+		name = "ryza_task_pt",
+		itemid = 59363
+	},
+	[287] = {
+		id = 287,
+		name = "ryza_pt",
+		itemid = 59364
+	},
+	[288] = {
+		id = 288,
+		name = "skinTicket41",
+		itemid = 59365
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1124,6 +1139,11 @@ pg.player_resource = {
 		id = 4007,
 		name = "battlepass_7",
 		itemid = 59295
+	},
+	[4008] = {
+		id = 4008,
+		name = "battlepass_8",
+		itemid = 59296
 	},
 	[4186] = {
 		id = 4186,
@@ -1703,6 +1723,15 @@ pg.player_resource = {
 		newserver_pt_221110 = {
 			285
 		},
+		ryza_task_pt = {
+			286
+		},
+		ryza_pt = {
+			287
+		},
+		skinTicket41 = {
+			288
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1825,6 +1854,9 @@ pg.player_resource = {
 		},
 		battlepass_7 = {
 			4007
+		},
+		battlepass_8 = {
+			4008
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -2027,6 +2059,9 @@ pg.player_resource = {
 		283,
 		284,
 		285,
+		286,
+		287,
+		288,
 		950,
 		951,
 		952,
@@ -2068,6 +2103,7 @@ pg.player_resource = {
 		4005,
 		4006,
 		4007,
+		4008,
 		4186,
 		4276,
 		100004,

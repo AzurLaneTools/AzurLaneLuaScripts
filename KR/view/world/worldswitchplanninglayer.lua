@@ -23,7 +23,7 @@ function slot0.init(slot0)
 
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:closeView()
-	end, SFX_CANCAL)
+	end, SFX_CANCEL)
 
 	slot1 = slot0.rtWindow
 	slot0.btnCancel = slot1:Find("button_container/custom_button_2")
@@ -32,7 +32,7 @@ function slot0.init(slot0)
 	setText(slot2:Find("pic"), i18n("text_cancel"))
 	onButton(slot0, slot0.btnCancel, function ()
 		uv0:closeView()
-	end, SFX_CANCAL)
+	end, SFX_CANCEL)
 
 	slot1 = slot0.rtWindow
 	slot0.btnConfirm = slot1:Find("button_container/custom_button_1")

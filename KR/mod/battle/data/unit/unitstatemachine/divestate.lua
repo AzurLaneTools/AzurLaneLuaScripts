@@ -60,6 +60,13 @@ end
 function slot1.AddDivingState(slot0, slot1, slot2)
 end
 
+function slot1.AddSkillStartState(slot0, slot1, slot2)
+	slot1:OnSkillStartState()
+end
+
+function slot1.AddSkillEndState(slot0, slot1, slot2)
+end
+
 function slot1.OnTrigger(slot0, slot1)
 end
 

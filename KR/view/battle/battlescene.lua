@@ -188,14 +188,19 @@ function slot0.appendSkill(slot0, slot1, slot2, slot3, slot4)
 			slot14 = (slot12 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or uv1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(uv0.IN_VIEW_FRIEND_SKILL_OFFSET))) and uv1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(uv0.IN_VIEW_FOE_SKILL_OFFSET))
 			slot9.position = Vector3(slot14.x, slot14.y, -2)
 
+			if Screen.width * 0.5 < rtf(slot9).rect.width * 0.5 + slot9.anchoredPosition.x then
+				slot19.x = slot20 - rtf(slot9).rect.width
+				slot9.anchoredPosition = slot19
+			end
+
 			if slot0._preSkillTF then
 				slot0.handleSkillFloatCld(slot0._preSkillTF, slot9)
 			end
 
 			slot0._preSkillTF = slot9
-			slot18 = slot9:GetComponent(typeof(DftAniEvent))
+			slot22 = slot9:GetComponent(typeof(DftAniEvent))
 
-			slot18:SetEndEvent(function (slot0)
+			slot22:SetEndEvent(function (slot0)
 				uv0._preSkillTF = nil
 
 				uv1:Recycle(uv2)

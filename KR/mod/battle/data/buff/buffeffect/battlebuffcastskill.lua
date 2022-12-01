@@ -119,6 +119,18 @@ function slot1.castSkill(slot0, slot1, slot2, slot3)
 		return "check attach data"
 	end
 
+	if not slot0:fleetAttrRequire(slot1) then
+		return "check fleet attr"
+	end
+
+	if slot0._fleetAttrDeltaRequire and slot2 and not slot0:fleetAttrDelatRequire(slot2.delta) then
+		return "check fleet attr delta"
+	end
+
+	if not slot0:stackRequire(slot3) then
+		return "check buff stack"
+	end
+
 	slot9 = slot0._tempData.arg_list
 
 	uv1.super.onTrigger(slot0, slot1)
