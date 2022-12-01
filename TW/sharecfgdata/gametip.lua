@@ -9634,7 +9634,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "萊莎琳·斯托特、派翠夏‧阿貝爾海姆、莉拉·德西亞斯、賽莉‧古勞斯 建造機率UP！"
+	tip = "萊莎琳·斯托特、派翠夏·阿貝爾海姆、莉拉·德西亞斯、賽莉·古勞斯 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

@@ -8849,7 +8849,7 @@ pg.ship_skin_template_17 = {
 	},
 	[900198] = {
 		ship_group = 900195,
-		name = "維托里奧‧維內托 ",
+		name = "維托里奧·維內托 ",
 		bullet_skin_secondary = "",
 		hand_id = 1,
 		bgm = "",

@@ -41,7 +41,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "萊莎小姐，妳在看什麼呢？找到什麼有趣的東西了麼？",
+			say = "萊莎小姐，妳在看什麼呢？找到什麼有趣的東西了嗎？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哼哼哼，我已經完全理解了！看啊看啊，我剛剛抓到的這只蜘蛛也是素材吧！",
+			say = "哼哼哼，我已經完全理解了！看啊看啊，我剛剛抓到的這隻蜘蛛也是素材吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "這大概就是石碑裡說的新的力量了吧……等到完成之後，也許我們就能和你們一樣在海面上戰鬥了！",
+			say = "這大概就是石碑裡說的新的力量了吧……等到完成之後，也許我們就能和妳們一樣在海面上戰鬥了！",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -951,7 +951,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然會是這樣嗎？！可是駿河小姐你看，艦裝的調和已經完成了哦……對不起！",
+			say = "居然會是這樣嗎？！可是駿河小姐妳看，艦裝的調和已經完成了哦……對不起！",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

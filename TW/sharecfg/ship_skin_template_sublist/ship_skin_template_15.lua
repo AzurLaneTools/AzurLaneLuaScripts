@@ -2132,7 +2132,7 @@ pg.ship_skin_template_15 = {
 	},
 	[601060] = {
 		ship_group = 60106,
-		name = "尼科洛索·達‧雷科",
+		name = "尼科洛索·達·雷科",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -2161,7 +2161,7 @@ pg.ship_skin_template_15 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "航海家級驅逐艦—尼科洛索·達‧雷科",
+		desc = "航海家級驅逐艦—尼科洛索·達·雷科",
 		voice_actor = 269,
 		spine_offset = "",
 		gyro = 0,

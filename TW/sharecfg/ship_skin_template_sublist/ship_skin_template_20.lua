@@ -1672,7 +1672,7 @@ pg.ship_skin_template_20 = {
 	},
 	[10900030] = {
 		ship_group = 1090003,
-		name = "派翠夏‧阿貝爾海姆",
+		name = "派翠夏·阿貝爾海姆",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -1701,7 +1701,7 @@ pg.ship_skin_template_20 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "您就是指揮官嗎？我是派翠夏‧阿貝爾海姆。叫我帕蒂就行了。看來暫時要受您照顧了，請多關照。",
+		desc = "您就是指揮官嗎？我是派翠夏·阿貝爾海姆。叫我帕蒂就行了。看來暫時要受您照顧了，請多關照。",
 		voice_actor = 241,
 		spine_offset = "",
 		gyro = 0,
@@ -2110,7 +2110,7 @@ pg.ship_skin_template_20 = {
 	},
 	[10900050] = {
 		ship_group = 1090005,
-		name = "賽莉‧古勞斯",
+		name = "賽莉·古勞斯",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",

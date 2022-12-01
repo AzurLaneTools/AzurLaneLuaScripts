@@ -12683,8 +12683,8 @@ _G.pg.base.item_data_statistics[30330] = {
 }
 
 _G.pg.base.item_data_statistics[30340] = {
-	display = "可以獲得一件隨機的鍊金工坊風格外觀裝備",
-	name = "外觀裝備箱(鍊金工坊)",
+	display = "可以獲得一件隨機的鍊金工房風格外觀裝備",
+	name = "外觀裝備箱(鍊金工房)",
 	max_num = 0,
 	type = 11,
 	drop_oil_max = 0,
@@ -12798,8 +12798,8 @@ _G.pg.base.item_data_statistics[30340] = {
 }
 
 _G.pg.base.item_data_statistics[30341] = {
-	display = "可以獲得一件隨機的鍊金工坊風格外觀裝備",
-	name = "未知外觀裝備箱(鍊金工坊)",
+	display = "可以獲得一件隨機的鍊金工房風格外觀裝備",
+	name = "未知外觀裝備箱(鍊金工房)",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -13707,8 +13707,8 @@ _G.pg.base.item_data_statistics[30508] = {
 }
 
 _G.pg.base.item_data_statistics[30513] = {
-	display = "使用後可從「鍊金工坊」主題外觀裝備中任意選擇一種獲得1個",
-	name = "定向外觀裝備箱(鍊金工坊)",
+	display = "使用後可從「鍊金工房」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(鍊金工房)",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,

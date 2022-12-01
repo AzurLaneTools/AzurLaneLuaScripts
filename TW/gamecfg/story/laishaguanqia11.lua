@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "妳們發現了妳，天空的顏色改變了哦。",
+			say = "妳們發現了嗎，天空的顏色改變了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1

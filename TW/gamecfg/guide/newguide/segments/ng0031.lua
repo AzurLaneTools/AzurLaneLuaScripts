@@ -17,7 +17,7 @@ return {
 				}
 			},
 			style = {
-				text = "先在港区委托板中，领取一些炼金素材",
+				text = "先在港區委託板中，領取一些鍊金素材",
 				mode = 1,
 				posY = 197.47,
 				dir = 1,
@@ -58,7 +58,7 @@ return {
 				}
 			},
 			style = {
-				text = "获取通关T5后的素材",
+				text = "獲取通關T5後的素材",
 				mode = 1,
 				posY = -212.73,
 				dir = 1,
@@ -97,7 +97,7 @@ return {
 				}
 			},
 			style = {
-				text = "返回主界面",
+				text = "返回主介面",
 				mode = 1,
 				posY = 311.92,
 				dir = 1,

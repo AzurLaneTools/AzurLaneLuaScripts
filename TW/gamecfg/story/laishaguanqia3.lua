@@ -718,7 +718,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……如果這裡是異世界的話，可畏，你們要小心，從剛才的敵人中我感受到了菲爾弗薩的氣息。",
+			say = "……如果這裡是異世界的話，可畏，妳們要小心，從剛才的敵人中我感受到了菲爾弗薩的氣息。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -736,7 +736,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也許它們也用和我們相似的方法來到你們的世界了。",
+			say = "也許它們也用和我們相似的方法來到妳們的世界了。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "菲爾弗薩……是指在原本的世界裡與你們一直戰鬥的敵人嗎？",
+			say = "菲爾弗薩……是指在原本的世界裡與妳們一直戰鬥的敵人嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
