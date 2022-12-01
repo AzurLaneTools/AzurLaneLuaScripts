@@ -14889,7 +14889,7 @@ _G.pg.base.item_data_statistics[30339] = {
 }
 
 _G.pg.base.item_data_statistics[30340] = {
-	display = "연금공방 스타일 장비스킨 1가지 랜덤 획득 가능",
+	display = "아틀리에 스타일 장비스킨 1가지 랜덤 획득 가능",
 	name = "장비스킨 상자(아틀리에)",
 	max_num = 0,
 	type = 11,
@@ -16940,8 +16940,8 @@ _G.pg.base.item_data_statistics[30513] = {
 }
 
 _G.pg.base.item_data_statistics[30514] = {
-	display = "使用后可从「白鹰风格」主题外观装备中任意选择一种获得1个",
-	name = "定向外观装备箱(白鹰)",
+	display = "사용 시「이글 유니온」 스타일 장비스킨 중 1가지 선택 획득 가능",
+	name = "지향형 장비스킨 상자(이글 유니온)",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -168721,7 +168721,7 @@ _G.pg.base.item_data_statistics[58749] = {
 }
 
 _G.pg.base.item_data_statistics[58750] = {
-	display = "有几率获得以下装备外观之一",
+	display = "확률적으로 장비스킨 1가지 획득",
 	name = "장비스킨 상자(아틀리에)",
 	max_num = 0,
 	type = 99,
@@ -174509,7 +174509,7 @@ _G.pg.base.item_data_statistics[59363] = {
 }
 
 _G.pg.base.item_data_statistics[59364] = {
-	display = "「연금술사와 유적 군도」 이벤트에서 모항 명성 상승용. 이벤트 종료 후 사라짐.",
+	display = "「연금술사와 비밀 유적 군도」 이벤트에서 모항 명성 상승용. 이벤트 종료 후 사라짐.",
 	name = "수정 클러스터",
 	max_num = 0,
 	type = 98,

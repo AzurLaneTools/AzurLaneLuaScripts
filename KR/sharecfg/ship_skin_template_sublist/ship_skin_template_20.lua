@@ -3641,7 +3641,7 @@ pg.ship_skin_template_20 = {
 	},
 	[10900010] = {
 		ship_group = 1090001,
-		name = "라이잘린 슈타우트",
+		name = "라이잘린 스타우트",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -3669,7 +3669,7 @@ pg.ship_skin_template_20 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "안녕! 라이잘린 슈타우트라고 해. 라이자라고 불러줘! 아직 함선이란게 뭔지 잘 모르겠지만…… 때가 되면 다 해결되겠지! 앞으로 잘 부탁할게!",
+		desc = "안녕! 라이잘린 스타우트라고 해. 라이자라고 불러줘! 아직 함선이란게 뭔지 잘 모르겠지만…… 때가 되면 다 해결되겠지! 앞으로 잘 부탁할게!",
 		voice_actor = 348,
 		spine_offset = "",
 		gyro = 0,

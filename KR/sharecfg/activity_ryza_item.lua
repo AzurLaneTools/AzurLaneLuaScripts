@@ -17,7 +17,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 4
 		}
 	},
@@ -37,7 +37,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 3
 		}
 	},
@@ -58,7 +58,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 2
 		}
 	},
@@ -79,7 +79,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 1
 		}
 	},
@@ -102,7 +102,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 5
 		}
 	},
@@ -825,7 +825,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 210
 		},
 		normal_circle = {
@@ -851,7 +851,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 220
 		},
 		normal_circle = {
@@ -877,7 +877,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 230
 		},
 		normal_circle = {
@@ -903,7 +903,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 240
 		},
 		normal_circle = {
@@ -929,7 +929,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 250
 		},
 		normal_circle = {
@@ -958,7 +958,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 260
 		},
 		normal_circle = {
@@ -1068,7 +1068,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 190
 		}
 	},
@@ -1116,7 +1116,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 포격, 항공, 뇌장 속성 증가 효과 획득",
+		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 포격, 항공, 뇌장 속성 증가 효과 획득",
 		name = "공격력 향상 코어",
 		type = 5,
 		prop_level = 2,
@@ -1132,7 +1132,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 270
 		},
 		benefit_buff = {
@@ -1143,7 +1143,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 대미지 감소 효과 획득",
+		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 대미지 감소 효과 획득",
 		name = "방어력 향상 코어",
 		type = 5,
 		prop_level = 2,
@@ -1159,7 +1159,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 280
 		},
 		benefit_buff = {
@@ -1170,7 +1170,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 내구도 회복 효과 획득",
+		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 내구도 회복 효과 획득",
 		name = "자동 회복 코어",
 		type = 5,
 		prop_level = 2,
@@ -1186,7 +1186,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 290
 		},
 		benefit_buff = {
@@ -1197,7 +1197,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 함선의 내구도가 20% 이하일 경우 회복 효과 획득",
+		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 함선의 내구도가 20% 이하일 경우 회복 효과 획득",
 		name = "긴급 회복 코어",
 		type = 5,
 		prop_level = 2,
@@ -1213,7 +1213,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 300
 		},
 		benefit_buff = {
@@ -1224,7 +1224,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 공격 탄막 지원 효과 획득",
+		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 공격 탄막 지원 효과 획득",
 		name = "화력 지원 코어",
 		type = 5,
 		prop_level = 2,
@@ -1240,7 +1240,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 310
 		},
 		benefit_buff = {
@@ -1251,7 +1251,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 부상 탄막 지원 효과 획득",
+		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 부상 탄막 지원 효과 획득",
 		name = "부상 지원 코어",
 		type = 5,
 		prop_level = 2,
@@ -1267,7 +1267,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 320
 		},
 		benefit_buff = {
@@ -1278,7 +1278,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 경험치 상승 효과 획득",
+		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 경험치 상승 효과 획득",
 		name = "경험치 향상 코어",
 		type = 5,
 		prop_level = 2,
@@ -1294,7 +1294,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 330
 		},
 		benefit_buff = {
@@ -1305,7 +1305,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 호감도 상승 효과 획득",
+		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 호감도 상승 효과 획득",
 		name = "호감도 향상 코어",
 		type = 5,
 		prop_level = 2,
@@ -1321,7 +1321,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"획득 경로: 연금공방",
+			"획득 경로: 아틀리에",
 			recipeid = 340
 		},
 		benefit_buff = {
@@ -1330,7 +1330,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "특수 무기 [스파클 레버리에]의 코어 모듈. 빠질 수 없는 소재로, 연금공방에서 [스파클 레버리에]의 조합에 사용할 수 있다.",
+		display = "특수 무기 [스파클 레버리에]의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 [스파클 레버리에]의 조합에 사용할 수 있다.",
 		name = "모듈-스파클 레버리에",
 		type = 3,
 		benefit_buff = "",

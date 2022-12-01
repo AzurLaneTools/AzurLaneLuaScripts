@@ -9794,7 +9794,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "라이잘린 슈타우트,파트리샤 아벨하임  등 함선 건조 확률 UP!"
+	tip = "라이잘린 스타우트,파트리샤 아벨하임  등 함선 건조 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

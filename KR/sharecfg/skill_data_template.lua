@@ -9386,7 +9386,7 @@ pg.skill_data_template = {
 		id = 60281,
 		type = 0,
 		max_level = 0,
-		desc = "",
+		desc = "道具2级共通buff-道具发动指示",
 		system_transform = {},
 		world_death_mark = {
 			1

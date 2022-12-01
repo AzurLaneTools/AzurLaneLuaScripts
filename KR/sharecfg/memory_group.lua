@@ -2781,7 +2781,7 @@ pg.memory_group = {
 		subtype = 2,
 		type = 2,
 		id = 231,
-		title = "연금술사와 비밀 유적군도 - \"일상편\"",
+		title = "연금술사와 비밀 유적군도 - '일상편'",
 		memories = {
 			2401,
 			2402,
@@ -2797,7 +2797,7 @@ pg.memory_group = {
 		subtype = 2,
 		type = 2,
 		id = 232,
-		title = "연금술사와 비밀 유적군도 - \"스테이지 편\"",
+		title = "연금술사와 비밀 유적군도 - '스테이지 편'",
 		memories = {
 			2411,
 			2412,

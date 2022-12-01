@@ -720,7 +720,7 @@ pg.enemy_data_statistics_362 = {
 	},
 	[16306001] = {
 		cannon = 750,
-		name = "고대 유적 수호자 POWERMAX형",
+		name = "수수께끼의 적!",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -766,7 +766,7 @@ pg.enemy_data_statistics_362 = {
 	},
 	[16306002] = {
 		cannon = 750,
-		name = "고대 유적 수호자 POWERMAX형-제2형태",
+		name = "고대 유적 수호자 POWERMAX형",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
