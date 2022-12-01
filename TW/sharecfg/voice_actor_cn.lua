@@ -1216,6 +1216,10 @@ pg.voice_actor_CN = {
 		code = 321,
 		actor_name = "多多poi "
 	},
+	[326] = {
+		code = 326,
+		actor_name = "藤井雪代"
+	},
 	[338] = {
 		code = 338,
 		actor_name = "大木咲繪子"
@@ -1223,5 +1227,17 @@ pg.voice_actor_CN = {
 	[346] = {
 		code = 346,
 		actor_name = "田中愛美"
+	},
+	[348] = {
+		code = 348,
+		actor_name = "野口百合"
+	},
+	[349] = {
+		code = 349,
+		actor_name = "照井春佳"
+	},
+	[350] = {
+		code = 350,
+		actor_name = "羊宮妃那"
 	}
 }

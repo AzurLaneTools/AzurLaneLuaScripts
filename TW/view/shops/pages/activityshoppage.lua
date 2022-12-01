@@ -39,6 +39,12 @@ function slot0.GetPaintingCommodityUpdateVoice(slot0)
 	return slot2, slot1, slot3
 end
 
+function slot0.GetPaintingAllPurchaseVoice(slot0)
+	slot1, slot2, slot3 = slot0.shop:GetPurchaseAllVoice()
+
+	return slot2, slot1, slot3
+end
+
 function slot0.GetPaintingTouchVoice(slot0)
 end
 

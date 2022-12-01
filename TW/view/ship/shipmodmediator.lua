@@ -72,8 +72,7 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		GAME.MOD_SHIP_DONE,
-		ShipMainMediator.NEXTSHIP
+		GAME.MOD_SHIP_DONE
 	}
 end
 
@@ -102,8 +101,6 @@ function slot0.handleNotification(slot0, slot1)
 				}
 			}))
 		end
-	elseif slot2 == ShipMainMediator.NEXTSHIP then
-		slot0.viewComponent:setShip(getProxy(BayProxy):getShipById(slot3))
 	end
 end
 

@@ -4993,6 +4993,10 @@ _G.pg.base.gametip.word_shipNation_mot = {
 	tip = "颶風"
 }
 
+_G.pg.base.gametip.word_shipNation_ryza = {
+	tip = "Atelier Ryza"
+}
+
 _G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
@@ -9630,7 +9634,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "艾倫·M·桑拿、史蒂芬·波特、阿拉巴馬、巴爾的摩、艾爾文、伯明罕 建造機率UP！"
+	tip = "萊莎琳·斯托特、派翠夏‧阿貝爾海姆、莉拉·德西亞斯、賽莉‧古勞斯 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -20252,4 +20256,389 @@ _G.pg.base.gametip.ex_pass_use = {
 
 _G.pg.base.gametip.defense_formation_tip_npc = {
 	tip = "第一艦隊中存在<color=#92fc63>臨時加入的角色</color>， 無法編入演習隊伍"
+}
+
+_G.pg.base.gametip.word_item = {
+	tip = "道具"
+}
+
+_G.pg.base.gametip.word_tool = {
+	tip = "工具"
+}
+
+_G.pg.base.gametip.word_other = {
+	tip = "其他"
+}
+
+_G.pg.base.gametip.ryza_word_equip = {
+	tip = "裝備"
+}
+
+_G.pg.base.gametip.ryza_rest_produce_count = {
+	tip = "剩餘可調合數量：$1"
+}
+
+_G.pg.base.gametip.ryza_composite_confirm = {
+	tip = "是否確認調合 $1 * $2？"
+}
+
+_G.pg.base.gametip.ryza_composite_confirm_single = {
+	tip = "是否確認調合 $1？"
+}
+
+_G.pg.base.gametip.ryza_composite_count = {
+	tip = "製作個數："
+}
+
+_G.pg.base.gametip.ryza_toggle_only_composite = {
+	tip = "僅顯示可調合"
+}
+
+_G.pg.base.gametip.ryza_tip_select_recipe = {
+	tip = "點擊左側配方列表選擇配方"
+}
+
+_G.pg.base.gametip.ryza_tip_put_materials = {
+	tip = "點擊材料環放入對應材料($1/$2)"
+}
+
+_G.pg.base.gametip.ryza_tip_composite_unlock = {
+	tip = "鍊金工房準備中，通關T5後開放"
+}
+
+_G.pg.base.gametip.ryza_tip_unlock_all_tools = {
+	tip = "獲取全部工具後解鎖配方合成"
+}
+
+_G.pg.base.gametip.ryza_material_not_enough = {
+	tip = "素材不足，點擊開始調合可查看所需素材"
+}
+
+_G.pg.base.gametip.ryza_tip_composite_invalid = {
+	tip = "此配方調合次數已達到上限"
+}
+
+_G.pg.base.gametip.ryza_tip_max_composite_count = {
+	tip = "當前已達到最大可調合數量"
+}
+
+_G.pg.base.gametip.ryza_tip_no_item = {
+	tip = "-暫未獲得任何素材-"
+}
+
+_G.pg.base.gametip.ryza_ui_show_acess = {
+	tip = "查看\n獲取途徑"
+}
+
+_G.pg.base.gametip.ryza_tip_no_recipe = {
+	tip = "-暫無可調合配方-"
+}
+
+_G.pg.base.gametip.ryza_tip_item_access = {
+	tip = "點擊道具圖標可查看獲取途徑"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain_tip = {
+	tip = "前往鍊金工房調合獲得"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_upgrade = {
+	tip = "提升"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_replace = {
+	tip = "替換"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_limit = {
+	tip = "已達上限"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_already_active_tip = {
+	tip = "已放入"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff = {
+	tip = "加成適用於TH1~TH5、A.SP、EX關卡"
+}
+
+_G.pg.base.gametip.ryza_tip_control_buff_not_obtain = {
+	tip = "未擁有"
+}
+
+_G.pg.base.gametip.ryza_tip_control = {
+	tip = "將核心放入圓形控制盤中獲取效果加成"
+}
+
+_G.pg.base.gametip.ryza_tip_main = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>12.01-12.15維護</color>期間開啟限時活動「鍊金術士與秘密遺跡群島」
+1.通過特別作戰獲取「遺跡水晶簇」，在「噗尼養成」和「補給商店」處兌換豐厚獎勵
+2.完成「溫泉開發戰」DAY7可獲得限定傢俱<color=#92fc63>小型溫泉</color>與限定外觀裝備等獎勵
+注意：每日開放1回新遊戲，總計7回
+3.「港區委託板」：活動期間完成委託板的任務可以獲取<color=#92fc63>特殊調合素材</color>與限定傢俱等獎勵，還可以獲得港區聲望獲得加成效果
+注意：到12.7為止，每日都會出現新的委託任務
+4.「鍊金工房」：活動期間通過關卡與活動獲得鍊金素材，在鍊金工房中調合獲得紀念傢俱<color=#92fc63>「遺跡冒險之證」</color>、<color=#92fc63>聯動角色特殊兵裝</color>、<color=#92fc63>聯動限定設備裝備</color>等獎勵
+5.「換裝商店」：購買限時換裝
+6.「限時建造」：建造限時角色]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battle_levelScene_ryza_lock = {
+	tip = "需要<color=#92fc63>通關普通模式</color>才可進入素材關卡"
+}
+
+_G.pg.base.gametip.ryza_tip_toast_item_got = {
+	tip = "素材收集"
+}
+
+_G.pg.base.gametip.ryza_composite_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_composite_4",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_control_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_control",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_mini_game = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_mini_game_2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_level_desc = {
+	tip = "港區聲望"
+}
+
+_G.pg.base.gametip.ryza_task_tag_explore = {
+	tip = "探索"
+}
+
+_G.pg.base.gametip.ryza_task_tag_battle = {
+	tip = "討伐"
+}
+
+_G.pg.base.gametip.ryza_task_tag_dalegate = {
+	tip = "委託"
+}
+
+_G.pg.base.gametip.ryza_task_tag_develop = {
+	tip = "研究"
+}
+
+_G.pg.base.gametip.ryza_task_detail_content = {
+	tip = "內容"
+}
+
+_G.pg.base.gametip.ryza_task_detail_award = {
+	tip = "報酬"
+}
+
+_G.pg.base.gametip.ryza_task_go = {
+	tip = "前往"
+}
+
+_G.pg.base.gametip.ryza_task_get = {
+	tip = "領取"
+}
+
+_G.pg.base.gametip.ryza_task_get_all = {
+	tip = "全部領取"
+}
+
+_G.pg.base.gametip.ryza_task_confirm = {
+	tip = "確認"
+}
+
+_G.pg.base.gametip.ryza_task_cancel = {
+	tip = "取消"
+}
+
+_G.pg.base.gametip.ryza_task_level_num = {
+	tip = "聲望等級"
+}
+
+_G.pg.base.gametip.ryza_task_level_add = {
+	tip = "聲望加成"
+}
+
+_G.pg.base.gametip.ryza_task_submit = {
+	tip = "提交"
+}
+
+_G.pg.base.gametip.ryza_task_detail = {
+	tip = "查看"
+}
+
+_G.pg.base.gametip.ryza_composite_words = {
+	tip = {
+		{
+			"ryza_atellier1",
+			"做些什麼好呢~"
+		},
+		{
+			"ryza_atellier2",
+			"放些什麼好呢~"
+		},
+		{
+			"ryza_atellier3",
+			"各種各樣的東西都想試試呢~"
+		},
+		{
+			"ryza_atellier4",
+			"先把材料放進去再考慮做什麼也不錯吧~"
+		},
+		{
+			"ryza_atellier5",
+			"這個感覺不錯~"
+		},
+		{
+			"ryza_atellier6",
+			"好像能做出很厲害的東西呢！"
+		},
+		{
+			"ryza_atellier7",
+			"嗯嗯，就是這種感覺！"
+		},
+		{
+			"ryza_atellier8",
+			"會不會順利呢~"
+		},
+		{
+			"ryza_atellier9",
+			"好，上吧！"
+		},
+		{
+			"ryza_atellier10",
+			"鏘~！就是這種感覺吧~？"
+		},
+		{
+			"ryza_atellier11",
+			"太好了，完成了！"
+		}
+	}
+}
+
+_G.pg.base.gametip.ryza_task_help_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/ryza_task_1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/ryza_task_2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

@@ -45,11 +45,11 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 			end
 
 			pg.EffectMgr.GetInstance():PlayBattleEffect(slot11, Vector3((math.random() - 0.5) * slot13.x, 0, slot13.z * slot14):Add(slot6:GetPosition()):Add(slot12), true)
-			uv2.Battle.PlayBattleSFX(slot5.miss_sfx)
+			uv2.Battle.PlayBattleSFX(slot4:GetMissSFX())
 		else
 			slot10 = slot6:AddFX(slot0:GetFXID())
 
-			uv2.Battle.PlayBattleSFX(slot5.hit_sfx)
+			uv2.Battle.PlayBattleSFX(slot4:GetHitSFX())
 
 			slot12 = slot0:GetPosition() - slot6:GetPosition()
 			slot12.x = slot12.x * slot7:GetDirection()
@@ -75,10 +75,12 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 end
 
 function slot2.onBulletMissFunc(slot0)
+	slot1 = slot0:GetBulletData()
+	slot2 = slot1:GetTemplate()
 	slot3, slot4 = uv0.GetFXPool():GetFX(slot0:GetMissFXID())
 
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot3, slot4:Add(slot0:GetPosition()), true)
-	uv1.Battle.PlayBattleSFX(slot0:GetBulletData():GetTemplate().miss_sfx)
+	uv1.Battle.PlayBattleSFX(slot1:GetMissSFX())
 end
 
 function slot2.MakeModel(slot0, slot1, slot2, slot3, slot4)

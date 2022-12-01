@@ -875,5 +875,17 @@ pg.activity_const = {
 	},
 	PIXEL_DRAW_MING = {
 		act_id = 4574
+	},
+	MINIGAME_RYZA = {
+		act_id = 40952
+	},
+	RYZA_PT = {
+		act_id = 40955
+	},
+	RYZA_MAP_ACT_ID = {
+		act_id = 40948
+	},
+	RYZA_TASK = {
+		act_id = 40950
 	}
 }

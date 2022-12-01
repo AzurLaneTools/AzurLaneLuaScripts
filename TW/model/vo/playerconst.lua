@@ -170,6 +170,12 @@ function slot0.addTranDrop(slot0, slot1)
 				id = slot0.id,
 				extra = slot0.count or slot0.number
 			})
+		elseif slot0.type == DROP_TYPE_RYZA_DROP then
+			return Item.New({
+				type = slot0.type,
+				id = slot0.id,
+				count = slot0.number or slot0.count
+			})
 		end
 
 		return Item.New({

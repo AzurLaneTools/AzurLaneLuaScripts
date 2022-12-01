@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		default_bgm = "main",
+		default_bgm = "ryza-1",
 		bgm = "main"
 	},
 	HoloLiveLinkLinkSelectScene = {
@@ -33,8 +33,8 @@ pg.voice_bgm = {
 		bgm = "cw-level"
 	},
 	CourtYardScene = {
-		default_bgm = "backyard",
-		bgm = "backyard"
+		default_bgm = "ryza-13",
+		bgm = "ryza-13"
 	},
 	BattleScene = {
 		default_bgm = "battle-1",
@@ -61,7 +61,7 @@ pg.voice_bgm = {
 		bgm = "backyard"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "ryza-1",
 		bgm = "login"
 	},
 	NewPlayerScene = {
@@ -69,8 +69,8 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	NewMainScene = {
-		default_bgm = "main",
-		bgm = "main"
+		default_bgm = "ryza-13",
+		bgm = "ryza-13"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -113,11 +113,11 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "main",
+		default_bgm = "ryza-2",
 		bgm = "main"
 	},
 	SkinShopScene = {
-		default_bgm = "main",
+		default_bgm = "ryza-az-pv",
 		bgm = "main"
 	},
 	BuildShipScene = {
@@ -251,5 +251,25 @@ pg.voice_bgm = {
 	ActivityBossAlbionScene = {
 		default_bgm = "theme-royalknights-battle",
 		bgm = "theme-royalknights-battle"
+	},
+	RyzaMiniGameView = {
+		default_bgm = "ryza-5",
+		bgm = "ryza-5"
+	},
+	RyzaUrbanAreaScene = {
+		default_bgm = "ryza-4",
+		bgm = "ryza-4"
+	},
+	RyzaTaskScene = {
+		default_bgm = "ryza-2",
+		bgm = "ryza-2"
+	},
+	AtelierCompositeScene = {
+		default_bgm = "ryza-10",
+		bgm = "ryza-10"
+	},
+	AtelierBuffLayer = {
+		default_bgm = "ryza-12",
+		bgm = "ryza-12"
 	}
 }

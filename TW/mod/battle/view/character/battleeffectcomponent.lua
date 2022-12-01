@@ -31,6 +31,9 @@ function slot5.Dispose(slot0)
 		slot0._owner:RemoveBlink(slot5)
 	end
 
+	slot0._effectList = nil
+	slot0._buffLastEffects = nil
+
 	uv0.EventListener.DetachEventListener(slot0)
 end
 
@@ -87,69 +90,12 @@ function slot5.onBuffAdd(slot0, slot1)
 end
 
 function slot5.DoWhenAddBuff(slot0, slot1)
+	slot2 = slot1.Data.buff_id
 	slot3 = slot1.Data.buff_level
 
-	assert(uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1.Data.buff_id) ~= nil, "Cann't find buff Config, buffId :" .. slot2)
-
-	if slot4.init_effect and slot4.init_effect ~= "" then
-		slot5 = slot4.init_effect
-
-		if slot4.skin_adapt then
-			slot5 = uv1.SkinAdaptFXID(slot5, slot0._owner:GetUnitData():GetSkinID())
-		end
-
-		slot0._owner:AddFX(slot5)
-	end
-
-	if slot4.last_effect ~= nil and slot4.last_effect ~= "" then
-		slot0._buffLastEffects[slot2] = slot0._owner:AddFX(slot4.last_effect)
-
-		if slot4.last_effect_cld_scale or slot4.last_effect_cld_angle then
-			slot6 = nil
-			slot7 = slot4[slot3] or slot4.effect_list
-
-			for slot11, slot12 in ipairs(slot7) do
-				if slot12.arg_list.cld_data then
-					slot6 = slot12
-
-					break
-				end
-			end
-
-			if slot6 then
-				if slot4.last_effect_cld_scale then
-					slot9 = slot5.transform.localScale
-
-					if slot6.arg_list.cld_data.box.range then
-						slot9.x = slot9.x * slot8.range
-						slot9.y = slot9.y * slot8.range
-						slot9.z = slot9.z * slot8.range
-					else
-						slot9.x = slot9.x * slot8[1]
-						slot9.y = slot9.y * slot8[2]
-						slot9.z = slot9.z * slot8[3]
-					end
-
-					slot5.transform.localScale = slot9
-				end
-
-				if slot4.last_effect_cld_angle then
-					slot5.transform:Find("scale/sector"):GetComponent(typeof(Renderer)).material:SetInt("_AngleControl", (360 - slot6.arg_list.cld_data.angle) * 0.5 - 5)
-				end
-
-				if slot4.last_effect_bound_bone and slot0._owner:GetBoneList()[slot4.last_effect_bound_bone] then
-					slot5.transform.localPosition = slot8[1]
-				end
-			end
-		end
-
-		slot5:SetActive(true)
-	end
-
-	if slot4.blink then
-		slot5 = slot4.blink
-		slot0._blinkIDList[slot2] = slot0._owner:AddBlink(slot5[1], slot5[2], slot5[3], slot5[4], slot5[5])
-	end
+	slot0:addInitFX(slot2)
+	slot0:addLastFX(slot2)
+	slot0:addBlink(slot2)
 end
 
 function slot5.onBuffStack(slot0, slot1)
@@ -157,24 +103,116 @@ function slot5.onBuffStack(slot0, slot1)
 end
 
 function slot5.DoWhenStackBuff(slot0, slot1)
-	assert(uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1.Data.buff_id) ~= nil, "Cann't find buff Config, buffId :" .. slot2)
+	slot2 = slot1.Data.buff_id
 
-	if slot3.init_effect ~= nil and slot3.init_effect ~= "" then
-		slot0._owner:AddFX(slot3.init_effect)
+	slot0:addInitFX(slot2)
+
+	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot2).last_effect ~= "" and slot3.last_effect_stack then
+		if slot1.Data.stack_count > #slot0._buffLastEffects[slot2] then
+			slot0:addLastFX(slot2)
+		elseif slot4 < slot5 then
+			slot6 = slot5 - slot4
+
+			while slot6 > 0 do
+				slot0:removeLastFX(slot2)
+
+				slot6 = slot6 - 1
+			end
+		end
 	end
 end
 
 function slot5.onBuffRemove(slot0, slot1)
-	if slot0._buffLastEffects[slot1.Data.buff_id] ~= nil then
-		slot0._buffLastEffects[slot2] = nil
+	if slot0._buffLastEffects[slot1.Data.buff_id] then
+		slot3 = #slot0._buffLastEffects[slot2]
 
-		slot0._owner:RemoveFX(slot3)
+		while slot3 > 0 do
+			slot0:removeLastFX(slot2)
+
+			slot3 = slot3 - 1
+		end
 	end
 
 	if slot0._blinkIDList[slot2] then
-		slot0._owner:RemoveBlink(slot4)
+		slot0._owner:RemoveBlink(slot3)
 
 		slot0._blinkIDList[slot2] = nil
+	end
+end
+
+function slot5.addInitFX(slot0, slot1)
+	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1).init_effect and slot2.init_effect ~= "" then
+		slot3 = slot2.init_effect
+
+		if slot2.skin_adapt then
+			slot3 = uv1.SkinAdaptFXID(slot3, slot0._owner:GetUnitData():GetSkinID())
+		end
+
+		slot0._owner:AddFX(slot3)
+	end
+end
+
+function slot5.removeLastFX(slot0, slot1)
+	if slot0._buffLastEffects[slot1] ~= nil and #slot2 > 0 then
+		slot0._owner:RemoveFX(table.remove(slot2))
+	end
+end
+
+function slot5.addLastFX(slot0, slot1)
+	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1).last_effect ~= nil and slot2.last_effect ~= "" then
+		slot4 = slot0._buffLastEffects[slot1] or {}
+
+		table.insert(slot4, slot0._owner:AddFX(slot2.last_effect))
+
+		slot0._buffLastEffects[slot1] = slot4
+
+		if slot2.last_effect_cld_scale or slot2.last_effect_cld_angle then
+			slot5 = nil
+			slot6 = slot2[buffLv] or slot2.effect_list
+
+			for slot10, slot11 in ipairs(slot6) do
+				if slot11.arg_list.cld_data then
+					slot5 = slot11
+
+					break
+				end
+			end
+
+			if slot5 then
+				if slot2.last_effect_cld_scale then
+					slot8 = slot3.transform.localScale
+
+					if slot5.arg_list.cld_data.box.range then
+						slot8.x = slot8.x * slot7.range
+						slot8.y = slot8.y * slot7.range
+						slot8.z = slot8.z * slot7.range
+					else
+						slot8.x = slot8.x * slot7[1]
+						slot8.y = slot8.y * slot7[2]
+						slot8.z = slot8.z * slot7[3]
+					end
+
+					slot3.transform.localScale = slot8
+				end
+
+				if slot2.last_effect_cld_angle then
+					slot3.transform:Find("scale/sector"):GetComponent(typeof(Renderer)).material:SetInt("_AngleControl", (360 - slot5.arg_list.cld_data.angle) * 0.5 - 5)
+				end
+
+				if slot2.last_effect_bound_bone and slot0._owner:GetBoneList()[slot2.last_effect_bound_bone] then
+					slot3.transform.localPosition = slot7[1]
+				end
+			end
+		end
+
+		slot3:SetActive(true)
+	end
+end
+
+function slot5.addBlink(slot0, slot1)
+	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1).blink then
+		slot3 = slot2.blink
+		slot0._blinkIDList[slot1] = slot0._owner:AddBlink(slot3[1], slot3[2], slot3[3], slot3[4], slot3[5])
 	end
 end
 

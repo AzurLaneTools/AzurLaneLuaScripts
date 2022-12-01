@@ -1120,6 +1120,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100021] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "使用命运女神.META获得1次胜利",
+		id = 100021,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100022] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "使用命运女神.META击破等级>30的敌方1次",
+		id = 100022,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100023] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "使用命运女神.META击破等级>55的敌方1次",
+		id = 100023,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100024] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "使用命运女神.META击破等级>80的敌方1次",
+		id = 100024,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100025] = {
+		target_id_2 = "970102",
+		sub_type = 180,
+		desc = "使用命运女神.META击破等级>100的敌方1次",
+		id = 100025,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1149,6 +1189,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用猎人.META击破等级>100的敌方1次",
 		id = 200004,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200021] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "大型作战内使用命运女神.META获得1次胜利",
+		id = 200021,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200022] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "大型作战内使用命运女神.META击破等级>70的敌方1次",
+		id = 200022,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200023] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "大型作战内使用命运女神.META击破等级>90的敌方1次",
+		id = 200023,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200024] = {
+		target_id_2 = "970102",
+		sub_type = 302,
+		desc = "大型作战内使用命运女神.META击破等级>100的敌方1次",
+		id = 200024,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1293,9 +1365,18 @@ pg.task_meta_data_template = {
 		100003,
 		100004,
 		100005,
+		100021,
+		100022,
+		100023,
+		100024,
+		100025,
 		200001,
 		200002,
 		200003,
-		200004
+		200004,
+		200021,
+		200022,
+		200023,
+		200024
 	}
 }

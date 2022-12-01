@@ -8,8 +8,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.recoders = {}
 	slot0.playName = nil
 	slot0.waitForStop = false
+	slot0.defaultBgm = pg.voice_bgm.CourtYardScene.default_bgm
 
-	slot0:PlayVoice("backyard")
+	slot0:PlayVoice(slot0.defaultBgm)
 end
 
 function slot0.Play(slot0, slot1, slot2)
@@ -74,7 +75,7 @@ end
 function slot0.Reset(slot0)
 	slot0.recoders = {}
 
-	slot0:PlayVoice("backyard")
+	slot0:PlayVoice(slot0.defaultBgm)
 end
 
 function slot0.PlayVoice(slot0, slot1, slot2)

@@ -2,8 +2,9 @@ slot0 = class("ShipWordHelper")
 slot1 = pg.ship_skin_template
 slot2 = pg.ship_skin_words
 slot3 = pg.ship_skin_words_extra
-slot4 = pg.character_voice
-slot5 = pg.voice_actor_CN
+slot4 = pg.ship_skin_words_add
+slot5 = pg.character_voice
+slot6 = pg.voice_actor_CN
 slot0.WORD_TYPE_MAIN = "main"
 slot0.WORD_TYPE_SKILL = "skill"
 slot0.WORD_TYPE_UNLOCK = "unlock"
@@ -29,22 +30,18 @@ slot0.CVBattleKey = {
 	warcry = "warcry",
 	link7 = "link7"
 }
-slot6 = false
+slot7 = false
 
-function slot7(...)
+function slot8(...)
 	if uv0 and IsUnityEditor then
 		print(...)
 	end
 end
 
-function slot8(slot0)
+function slot9(slot0)
 	if not slot0 or slot0 == "" or slot0 == "nil" then
 		return true
 	end
-end
-
-function slot9(slot0)
-	return uv0[slot0] ~= nil
 end
 
 function slot10(slot0)
@@ -52,10 +49,14 @@ function slot10(slot0)
 end
 
 function slot11(slot0)
+	return uv0[slot0] ~= nil
+end
+
+function slot12(slot0)
 	return ShipGroup.getDefaultSkin(uv0[slot0].ship_group).id
 end
 
-function slot12(slot0, slot1)
+function slot13(slot0, slot1)
 	if type(slot0 or "") == "table" then
 		return slot0
 	else
@@ -66,7 +67,7 @@ function slot12(slot0, slot1)
 	end
 end
 
-function slot13(slot0, slot1, slot2, slot3)
+function slot14(slot0, slot1, slot2, slot3)
 	slot5 = uv1(slot0) and slot0 or uv0(slot0)
 	slot6 = uv2[slot5]
 
@@ -89,7 +90,7 @@ function slot13(slot0, slot1, slot2, slot3)
 	return slot6
 end
 
-function slot14(slot0, slot1, slot2)
+function slot15(slot0, slot1, slot2)
 	slot1 = slot1 or 0
 	slot3 = nil
 
@@ -108,7 +109,7 @@ function slot14(slot0, slot1, slot2)
 	end
 end
 
-function slot15(slot0, slot1, slot2, slot3, slot4)
+function slot16(slot0, slot1, slot2, slot3, slot4)
 	if not uv2[uv1(slot0) and slot0 or uv0(slot0)] then
 		return nil
 	end
@@ -126,7 +127,7 @@ function slot15(slot0, slot1, slot2, slot3, slot4)
 	return uv4(slot8, slot3, slot2)
 end
 
-function slot16(slot0)
+function slot17(slot0)
 	slot1 = pg.ship_skin_words[slot0]
 	slot3 = PlayerPrefs.GetInt(CV_LANGUAGE_KEY .. uv0[slot0].ship_group)
 
@@ -144,7 +145,7 @@ function slot0.GetLanguageSetting(slot0)
 	return uv0(slot0)
 end
 
-function slot17(slot0, slot1, slot2)
+function slot18(slot0, slot1, slot2)
 	slot3 = "event:/cv/" .. slot1 .. "/" .. slot0
 
 	if slot2 then
@@ -154,7 +155,7 @@ function slot17(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot18(slot0, slot1)
+function slot19(slot0, slot1)
 	if not uv0[slot1] then
 		return -1
 	end
@@ -168,7 +169,7 @@ function slot18(slot0, slot1)
 	return slot4
 end
 
-function slot19(slot0, slot1, slot2, slot3, slot4)
+function slot20(slot0, slot1, slot2, slot3, slot4)
 	if slot0 then
 		slot5, slot6 = nil
 		slot8 = uv0(slot1) == 2 and slot0.voice_key_2 or slot0.voice_key
@@ -192,11 +193,11 @@ function slot19(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot20(slot0, slot1, slot2)
+function slot21(slot0, slot1, slot2)
 	return uv0.ExistDifferentWord(slot0, slot1, slot2) and uv1[slot0].voice_key == uv0.CV_KEY_BAN_NEW
 end
 
-function slot21(slot0, slot1)
+function slot22(slot0, slot1)
 	slot1 = slot1 or -1
 
 	if not uv0[slot0] or not slot2.main_extra or slot2.main_extra == "" or type(slot2.main_extra) == "table" and #slot2.main_extra == 0 then
@@ -221,28 +222,50 @@ function slot21(slot0, slot1)
 	return slot3, slot4
 end
 
+slot23 = nil
+
+function slot23(slot0, slot1)
+	if not uv0[slot0] then
+		return
+	end
+
+	if not slot2[slot1] and uv1[slot0] and uv1[slot0][slot1] then
+		if uv2(slot0) ~= slot0 then
+			uv3(slot4, slot1)
+		end
+
+		setmetatable(uv0[slot0], {
+			__index = function (slot0, slot1)
+				return uv0[uv1][slot1]
+			end
+		})
+	end
+end
+
 function slot0.GetWordAndCV(slot0, slot1, slot2, slot3, slot4)
+	uv0(slot0, slot1)
+
 	slot5, slot6, slot7 = nil
-	slot10, slot11 = uv0(slot0, slot1, {
+	slot10, slot11 = uv1(slot0, slot1, {
 		slot2
 	}, slot4, {
 		false
 	})
 
-	if not uv1(slot10) then
+	if not uv2(slot10) then
 		slot5 = slot10
-		slot6 = uv2(slot0, slot1, slot9)
+		slot6 = uv3(slot0, slot1, slot9)
 	else
-		slot6 = uv2(slot0, slot1, {
+		slot6 = uv3(slot0, slot1, {
 			slot2
 		}, {
 			false
 		})
 
-		if uv3.WORD_TYPE_MAIN == slot1 then
+		if uv4.WORD_TYPE_MAIN == slot1 then
 			slot12 = nil
 			slot13 = {}
-			slot14, slot13 = uv4(slot0, slot4)
+			slot14, slot13 = uv5(slot0, slot4)
 
 			if slot14 then
 				slot9 = {
@@ -260,18 +283,18 @@ function slot0.GetWordAndCV(slot0, slot1, slot2, slot3, slot4)
 				slot14 = slot6[slot1]
 			end
 
-			slot7 = slot13 and slot13[uv5(slot14, slot9)]
+			slot7 = slot13 and slot13[uv6(slot14, slot9)]
 		elseif slot6 then
-			slot5 = uv5(slot6[slot1], slot9)
+			slot5 = uv6(slot6[slot1], slot9)
 		end
 	end
 
 	slot12, slot13 = nil
 
-	if not uv6(slot0, slot1, slot2) then
-		slot12, slot15 = uv7(slot6, slot0, slot1, slot9, not slot8[1])
+	if not uv7(slot0, slot1, slot2) then
+		slot12, slot15 = uv8(slot6, slot0, slot1, slot9, not slot8[1])
 
-		if slot15 and not uv1(slot10) and slot11 then
+		if slot15 and not uv2(slot10) and slot11 then
 			slot13 = slot13 .. "_ex" .. slot11
 		elseif slot13 and slot7 then
 			slot13 = slot13 .. "_ex" .. slot7
@@ -286,7 +309,7 @@ function slot0.GetWordAndCV(slot0, slot1, slot2, slot3, slot4)
 		slot5 = slot5 and HXSet.hxLan(slot5)
 	end
 
-	uv8("cv:", slot13, "cvkey:", slot12, "word:", slot5)
+	uv9("cv:", slot13, "cvkey:", slot12, "word:", slot5)
 
 	return slot12, slot13, slot5
 end

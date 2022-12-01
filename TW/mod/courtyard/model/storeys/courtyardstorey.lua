@@ -500,25 +500,26 @@ function slot0.CheckFurnitureTouchBG(slot0, slot1)
 end
 
 function slot0.PlayFurnitureVoice(slot0, slot1)
-	slot3, slot4 = slot0.furnitures[slot1]:ExistVoice()
-	slot5 = nil
+	if #_.select(slot0.furnitures[slot1].musicDatas, function (slot0)
+		return slot0.voiceType == 1
+	end) > 0 then
+		slot4 = slot3[math.random(1, #slot3)]
 
-	if slot4 == 2 then
-		slot5 = slot0:StopPrevFurnitureVoice()
+		slot0:DispatchEvent(CourtYardEvent.ON_ITEM_PLAY_MUSIC, slot4.voice, slot4.voiceType)
 	end
+end
 
-	if slot5 and slot5.id == slot2.id then
+function slot0.PlayFurnitureBg(slot0, slot1)
+	slot2 = slot0.furnitures[slot1]
+
+	if slot0:StopPrevFurnitureVoice() and slot3.id == slot2.id then
 		return
 	end
 
 	slot2:ChangeState(CourtYardFurniture.STATE_PLAY_MUSIC)
 
-	slot6 = slot2:GetMusicData()
-
-	slot0:DispatchEvent(CourtYardEvent.ON_ITEM_PLAY_MUSIC, slot6.voice, slot6.voiceType)
-
-	if slot6.voiceType == 1 then
-		slot2:ChangeState(CourtYardFurniture.STATE_STOP_MUSIC)
+	if slot2:GetMusicData() then
+		slot0:DispatchEvent(CourtYardEvent.ON_ITEM_PLAY_MUSIC, slot4.voice, slot4.voiceType)
 	end
 end
 

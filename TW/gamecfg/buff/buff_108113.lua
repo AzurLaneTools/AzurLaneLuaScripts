@@ -27,7 +27,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				weapon_id = 61523
+				weapon_id = 61517
 			}
 		}
 	}

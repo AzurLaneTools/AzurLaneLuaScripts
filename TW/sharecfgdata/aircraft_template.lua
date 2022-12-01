@@ -2050,6 +2050,386 @@ _G.pg.base.aircraft_template[151] = {
 	}
 }
 
+_G.pg.base.aircraft_template[152] = {
+	attack_power = 2,
+	name = "默认鸢尾水侦",
+	type = 3,
+	accuracy = 23,
+	model_ID = "FBA19",
+	ACC_growth = 0,
+	crash_DMG = 9,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 152,
+	icon = "FBA19",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1023,
+	speed = 46,
+	max_hp = 27,
+	scale = 1,
+	weapon_ID = {
+		145
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[153] = {
+	attack_power = 2,
+	name = "默认北联战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "pt1",
+	ACC_growth = 0,
+	crash_DMG = 9,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 153,
+	icon = "pt1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1075,
+	speed = 50,
+	max_hp = 28,
+	scale = 1,
+	weapon_ID = {
+		134
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.72,
+			-0.15,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[154] = {
+	attack_power = 2,
+	name = "默认北联鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "pt1",
+	ACC_growth = 0,
+	crash_DMG = 9,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 154,
+	icon = "pt1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 973,
+	speed = 48,
+	max_hp = 25,
+	scale = 1,
+	weapon_ID = {
+		135
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[155] = {
+	attack_power = 2,
+	name = "默认北联轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "pt1",
+	ACC_growth = 0,
+	crash_DMG = 9,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 155,
+	icon = "pt1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1126,
+	speed = 46,
+	max_hp = 29,
+	scale = 1,
+	weapon_ID = {
+		139
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[156] = {
+	attack_power = 2,
+	name = "默认北联战斗机-自动防空",
+	type = 1,
+	accuracy = 23,
+	model_ID = "pt1",
+	ACC_growth = 0,
+	crash_DMG = 9,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 156,
+	icon = "pt1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1075,
+	speed = 50,
+	max_hp = 28,
+	scale = 1,
+	weapon_ID = {
+		134
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.72,
+			-0.15,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.base.aircraft_template[444] = {
 	attack_power = 2,
 	name = "支援武器煌翼炎龙",
@@ -159372,6 +159752,2691 @@ _G.pg.base.aircraft_template[1003195] = {
 	}
 }
 
+_G.pg.base.aircraft_template[1003286] = {
+	attack_power = 2,
+	name = "【精英】梦境执棋者 浮游炮 I",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 57,
+	dodge = 1,
+	nationality = 3,
+	id = 1003286,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2040,
+	speed = 70,
+	max_hp = 800,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		1003291
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1003287] = {
+	attack_power = 2,
+	name = "【精英】梦境执棋者 浮游炮 II",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 75,
+	dodge = 1,
+	nationality = 3,
+	id = 1003287,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 70,
+	max_hp = 800,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		1003292
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1003288] = {
+	attack_power = 2,
+	name = "【精英】梦境执棋者 浮游炮 III",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 95,
+	dodge = 1,
+	nationality = 3,
+	id = 1003288,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2720,
+	speed = 70,
+	max_hp = 800,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		1003293
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1003289] = {
+	attack_power = 2,
+	name = "【精英】梦境执棋者 浮游炮 IV",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 117,
+	dodge = 1,
+	nationality = 3,
+	id = 1003289,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3060,
+	speed = 70,
+	max_hp = 800,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		1003294
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1003290] = {
+	attack_power = 2,
+	name = "【精英】梦境执棋者 浮游炮 V",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 141,
+	dodge = 1,
+	nationality = 3,
+	id = 1003290,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 70,
+	max_hp = 800,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		1003295
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004066] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型轰炸机T1 (飞机 I",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004066,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 90,
+	scale = 0.75,
+	weapon_ID = {
+		1002076
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004067] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型轰炸机T1 (飞机 II",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 90,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004067,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 120,
+	scale = 0.75,
+	weapon_ID = {
+		1002077
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004068] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型轰炸机T1 (飞机 III",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 115,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004068,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 150,
+	scale = 0.75,
+	weapon_ID = {
+		1002078
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004069] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型轰炸机T1 (飞机 IV",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 145,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004069,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3420,
+	speed = 30,
+	max_hp = 180,
+	scale = 0.75,
+	weapon_ID = {
+		1002079
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004070] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型轰炸机T1 (飞机 V",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 180,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004070,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 30,
+	max_hp = 210,
+	scale = 0.75,
+	weapon_ID = {
+		1002080
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004071] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型战斗机T1 (飞机 I",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 41,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004071,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 33,
+	max_hp = 74,
+	scale = 0.75,
+	weapon_ID = {
+		1002081,
+		1002086
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004072] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型战斗机T1 (飞机 II",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 53,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004072,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 98,
+	scale = 0.75,
+	weapon_ID = {
+		1002082,
+		1002087
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004073] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型战斗机T1 (飞机 III",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 67,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004073,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 33,
+	max_hp = 122,
+	scale = 0.75,
+	weapon_ID = {
+		1002083,
+		1002088
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004074] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型战斗机T1 (飞机 IV",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 83,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004074,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 33,
+	max_hp = 146,
+	scale = 0.75,
+	weapon_ID = {
+		1002084,
+		1002089
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004075] = {
+	attack_power = 2,
+	name = "量产型塞壬航母IV型战斗机T1 (飞机 V",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 103,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004075,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 33,
+	max_hp = 170,
+	scale = 0.75,
+	weapon_ID = {
+		1002085,
+		1002090
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004186] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 轰炸机T3 I",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004186,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 100,
+	scale = 0.75,
+	weapon_ID = {
+		1002221
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004187] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 轰炸机T3 II",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 96,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004187,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 130,
+	scale = 0.75,
+	weapon_ID = {
+		1002222
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004188] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 轰炸机T3 III",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 121,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004188,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 160,
+	scale = 0.75,
+	weapon_ID = {
+		1002223
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004189] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 轰炸机T3 IV",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 151,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004189,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3420,
+	speed = 30,
+	max_hp = 190,
+	scale = 0.75,
+	weapon_ID = {
+		1002224
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004190] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 轰炸机T3 V",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 186,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004190,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 30,
+	max_hp = 220,
+	scale = 0.75,
+	weapon_ID = {
+		1002225
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004191] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 鱼雷机T3 I",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 63,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004191,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2040,
+	speed = 33,
+	max_hp = 93,
+	scale = 0.75,
+	weapon_ID = {
+		1002226
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004192] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 鱼雷机T3 II",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 81,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004192,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 119,
+	scale = 0.75,
+	weapon_ID = {
+		1002227
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004193] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 鱼雷机T3 III",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 101,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004193,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2720,
+	speed = 33,
+	max_hp = 146,
+	scale = 0.75,
+	weapon_ID = {
+		1002228
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004194] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 鱼雷机T3 IV",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 123,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004194,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3060,
+	speed = 33,
+	max_hp = 173,
+	scale = 0.75,
+	weapon_ID = {
+		1002229
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1004195] = {
+	attack_power = 2,
+	name = "【精英】执棋者IV型 鱼雷机T3 V",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_6",
+	ACC_growth = 0,
+	crash_DMG = 147,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1004195,
+	icon = "sairenfeiji_6",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 33,
+	max_hp = 200,
+	scale = 0.75,
+	weapon_ID = {
+		1002230
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005655] = {
+	attack_power = 2,
+	name = "量产型塞壬航母轰炸机T1 (飞机 I",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005655,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 80,
+	scale = 0.75,
+	weapon_ID = {
+		1005665
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005656] = {
+	attack_power = 2,
+	name = "量产型塞壬航母轰炸机T1 (飞机 II",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005656,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		1005666
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005657] = {
+	attack_power = 2,
+	name = "量产型塞壬航母轰炸机T1 (飞机 III",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005657,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		1005667
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005658] = {
+	attack_power = 2,
+	name = "量产型塞壬航母轰炸机T1 (飞机 IV",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005658,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3420,
+	speed = 30,
+	max_hp = 170,
+	scale = 0.75,
+	weapon_ID = {
+		1005668
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005659] = {
+	attack_power = 2,
+	name = "量产型塞壬航母轰炸机T1 (飞机 V",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005659,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 30,
+	max_hp = 200,
+	scale = 0.75,
+	weapon_ID = {
+		1005669
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005660] = {
+	attack_power = 2,
+	name = "量产型塞壬航母战斗机T1 (飞机 I",
+	type = 1,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005660,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 33,
+	max_hp = 64,
+	scale = 0.75,
+	weapon_ID = {
+		1005670,
+		1005675
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005661] = {
+	attack_power = 2,
+	name = "量产型塞壬航母战斗机T1 (飞机 II",
+	type = 1,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005661,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 88,
+	scale = 0.75,
+	weapon_ID = {
+		1005671,
+		1005676
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005662] = {
+	attack_power = 2,
+	name = "量产型塞壬航母战斗机T1 (飞机 III",
+	type = 1,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005662,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 33,
+	max_hp = 112,
+	scale = 0.75,
+	weapon_ID = {
+		1005672,
+		1005677
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005663] = {
+	attack_power = 2,
+	name = "量产型塞壬航母战斗机T1 (飞机 IV",
+	type = 1,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005663,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 33,
+	max_hp = 136,
+	scale = 0.75,
+	weapon_ID = {
+		1005673,
+		1005678
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1005664] = {
+	attack_power = 2,
+	name = "量产型塞壬航母战斗机T1 (飞机 V",
+	type = 1,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1005664,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 33,
+	max_hp = 160,
+	scale = 0.75,
+	weapon_ID = {
+		1005674,
+		1005679
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.base.aircraft_template[1100765] = {
 	attack_power = 2,
 	name = "美系舰载-战斗机I（大世界通用飞机）",
@@ -186629,6 +189694,682 @@ _G.pg.base.aircraft_template[2967044] = {
 	weapon_ID = {
 		2967054,
 		2967064
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3030315] = {
+	id = 3030315,
+	name = "【2022莱莎联动T1】航母蛋船轰炸机",
+	base = 1001066,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003221
+	}
+}
+
+_G.pg.base.aircraft_template[3030316] = {
+	id = 3030316,
+	name = "【2022莱莎联动T1】航母蛋船战斗机",
+	base = 1001071,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3030338] = {
+	id = 3030338,
+	name = "【2022莱莎联动T1】航母人形轰炸机",
+	base = 1004186,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003221
+	}
+}
+
+_G.pg.base.aircraft_template[3030339] = {
+	id = 3030339,
+	name = "【2022莱莎联动T1】航母人形鱼雷机",
+	base = 1004191,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002226
+	}
+}
+
+_G.pg.base.aircraft_template[3031315] = {
+	id = 3031315,
+	name = "【2022莱莎联动T2】航母蛋船轰炸机",
+	base = 1001067,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003222
+	}
+}
+
+_G.pg.base.aircraft_template[3031316] = {
+	id = 3031316,
+	name = "【2022莱莎联动T2】航母蛋船战斗机",
+	base = 1001072,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3031338] = {
+	id = 3031338,
+	name = "【2022莱莎联动T2】航母人形轰炸机",
+	base = 1004187,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003222
+	}
+}
+
+_G.pg.base.aircraft_template[3031339] = {
+	id = 3031339,
+	name = "【2022莱莎联动T2】航母人形鱼雷机",
+	base = 1004192,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002227
+	}
+}
+
+_G.pg.base.aircraft_template[3032315] = {
+	id = 3032315,
+	name = "【2022莱莎联动T3】航母蛋船轰炸机",
+	base = 1001068,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003223
+	}
+}
+
+_G.pg.base.aircraft_template[3032316] = {
+	id = 3032316,
+	name = "【2022莱莎联动T3】航母蛋船战斗机",
+	base = 1001073,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3032338] = {
+	id = 3032338,
+	name = "【2022莱莎联动T3】航母人形轰炸机",
+	base = 1004188,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003223
+	}
+}
+
+_G.pg.base.aircraft_template[3032339] = {
+	id = 3032339,
+	name = "【2022莱莎联动T3】航母人形鱼雷机",
+	base = 1004193,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002228
+	}
+}
+
+_G.pg.base.aircraft_template[3033315] = {
+	id = 3033315,
+	name = "【2022莱莎联动T4】航母蛋船轰炸机",
+	base = 1001069,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003224
+	}
+}
+
+_G.pg.base.aircraft_template[3033316] = {
+	id = 3033316,
+	name = "【2022莱莎联动T4】航母蛋船战斗机",
+	base = 1001074,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3033338] = {
+	id = 3033338,
+	name = "【2022莱莎联动T4】航母人形轰炸机",
+	base = 1004189,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003224
+	}
+}
+
+_G.pg.base.aircraft_template[3033339] = {
+	id = 3033339,
+	name = "【2022莱莎联动T4】航母人形鱼雷机",
+	base = 1004194,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002229
+	}
+}
+
+_G.pg.base.aircraft_template[3033346] = {
+	attack_power = 2,
+	name = "【2022莱莎联动T4】BOSS 古代遗迹执棋者 战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3033346,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3033349,
+		3033355
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3033347] = {
+	attack_power = 2,
+	name = "【2022莱莎联动T4】BOSS 古代遗迹执棋者 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3033347,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3033350
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3033348] = {
+	attack_power = 2,
+	name = "【2022莱莎联动T4】BOSS 古代遗迹执棋者 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3033348,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		3033351,
+		3033352
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3035315] = {
+	id = 3035315,
+	name = "【2022莱莎联动T5/ESP/TH1~5】航母蛋船轰炸机",
+	base = 1001070,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003225
+	}
+}
+
+_G.pg.base.aircraft_template[3035316] = {
+	id = 3035316,
+	name = "【2022莱莎联动T5/ESP/TH1~5】航母蛋船战斗机",
+	base = 1001075,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin"
+}
+
+_G.pg.base.aircraft_template[3035338] = {
+	id = 3035338,
+	name = "【2022莱莎联动T5/ESP/TH1~5】航母人形轰炸机",
+	base = 1004190,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1003225
+	}
+}
+
+_G.pg.base.aircraft_template[3035339] = {
+	id = 3035339,
+	name = "【2022莱莎联动T5/ESP/TH1~5】航母人形鱼雷机",
+	base = 1004195,
+	model_ID = "sairenfeiji_lianjin",
+	icon = "sairenfeiji_lianjin",
+	weapon_ID = {
+		1002230
+	}
+}
+
+_G.pg.base.aircraft_template[3035346] = {
+	id = 3035346,
+	name = "【2022莱莎联动T5/ESP/TH1~5】精英航母人形特殊飞机",
+	base = 1003290,
+	model_ID = "fuyoupao2",
+	icon = "fuyoupao2",
+	weapon_ID = {
+		3035347
+	}
+}
+
+_G.pg.base.aircraft_template[3037401] = {
+	attack_power = 2,
+	name = "【2022莱莎联动TH4】BOSS 古代遗迹执棋者 战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3037401,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3037404,
+		3037411
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3037402] = {
+	attack_power = 2,
+	name = "【2022莱莎联动TH4】BOSS 古代遗迹执棋者 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3037402,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3037405
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3037403] = {
+	attack_power = 2,
+	name = "【2022莱莎联动TH4】BOSS 古代遗迹执棋者 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3037403,
+	icon = "sairenfeiji_lianjin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		3037406,
+		3037407
 	},
 	position_offset = {
 		0,

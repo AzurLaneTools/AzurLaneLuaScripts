@@ -291,11 +291,15 @@ function slot0.GetWearableShipTypes(slot0)
 end
 
 function slot0.IsCraftable(slot0)
-	return slot0:GetUpgradeConfig().create_use_gold > 0
+	return not slot0:IsUnCraftable() and slot0:GetUpgradeConfig().create_use_gold > 0
 end
 
 function slot0.GetUpgradeConfig(slot0)
 	return pg.spweapon_upgrade[slot0:getConfig("upgrade_id")]
+end
+
+function slot0.IsUnCraftable(slot0)
+	return slot0:getConfig("uncraftable") == 1
 end
 
 function slot0.CalculateHistoryPt(slot0, slot1)

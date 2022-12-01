@@ -9093,6 +9093,144 @@ pg.activity_ins_language = {
 	op_reply_294_1_2 = {
 		value = "嘿嘿，是吧是吧~下次指揮官也來拍一組嘛~"
 	},
+	ins_342 = {
+		value = "嗯哼，要放點什麼材料好呢~"
+	},
+	ins_discuss_342_1 = {
+		value = "雖然聽說過，但實際看到後更覺得不可思議了！"
+	},
+	ins_reply_342_1_1 = {
+		value = "這些材料究竟是經過什麼反應才能變成毫不相關的產物的……？"
+	},
+	ins_reply_342_1_2 = {
+		value = "嘿嘿，這就是鍊金術的神奇之處！"
+	},
+	ins_discuss_342_2 = {
+		value = "在這裡也能看到萊莎鍊金的熟悉身影呢~"
+	},
+	ins_reply_342_2_1 = {
+		value = "畢竟無論在哪裡，我都是鍊金術士嘛~"
+	},
+	ins_discuss_342_3 = {
+		value = "魔女的大鍋……？"
+	},
+	ins_reply_342_3_1 = {
+		value = "是大鍋沒錯啦，不過這個是鍊金鍋哦？可以用這個做出來不少道具呢"
+	},
+	ins_op_342_1_1 = {
+		value = "什麼都能做出來嗎？"
+	},
+	op_reply_342_1_1 = {
+		value = "只要有合適的素材……大概都可以吧~"
+	},
+	ins_343 = {
+		value = "能幫上忙真是太好了~"
+	},
+	ins_discuss_343_1 = {
+		value = "科洛蒂婭細心又聰明！幫大忙了喵！"
+	},
+	ins_reply_343_1_1 = {
+		value = "沒有的事，我才是有很多東西需要向明石小姐和不知火小姐學習呢~"
+	},
+	ins_discuss_343_2 = {
+		value = "居然如此熟練…科洛蒂婭小姐，不容小覷……"
+	},
+	ins_reply_343_2_1 = {
+		value = "呵呵，我畢竟也是商人家的女兒嘛"
+	},
+	ins_discuss_343_3 = {
+		value = "科洛蒂婭也已經適應這邊了呢，真是太好了！"
+	},
+	ins_reply_343_3_1 = {
+		value = "嗯。一起加油吧，萊莎"
+	},
+	ins_op_343_1_1 = {
+		value = "真是可靠啊"
+	},
+	op_reply_343_1_1 = {
+		value = "指揮官過獎了，我只是盡力做一些能幫得上忙的事情而已~"
+	},
+	ins_344 = {
+		value = "在新的世界，學到了許多新的知識——"
+	},
+	ins_discuss_344_1 = {
+		value = "認真又勤奮，派翠夏是任何老師都歡迎的好孩子啊。"
+	},
+	ins_reply_344_1_1 = {
+		value = "感謝賓夕法尼亞老師的熱心指導！"
+	},
+	ins_discuss_344_2 = {
+		value = "啊哈哈，要不要參加點課程外的活動呀？比如園藝社，或是籃球隊？"
+	},
+	ins_reply_344_2_1 = {
+		value = "感覺很有意思呢。我會好好想一下的！"
+	},
+	ins_reply_344_2_2 = {
+		value = "啊哈哈…也不用那麼認真，放鬆點參加就好了~"
+	},
+	ins_op_344_1_1 = {
+		value = "很有幹勁的樣子"
+	},
+	op_reply_344_1_1 = {
+		value = "無論在哪裡，能學到新的知識總是很棒的。"
+	},
+	ins_345 = {
+		value = "異世界的諸多未知植物……有趣。"
+	},
+	ins_discuss_345_1 = {
+		value = "賽莉小姐對花花草草真的很感興趣呢~"
+	},
+	ins_reply_345_1_1 = {
+		value = "感謝耐心的花卉講解，花月小姐。"
+	},
+	ins_reply_345_1_2 = {
+		value = "只是一點舉手之勞而已，沒什麼的~"
+	},
+	ins_discuss_345_2 = {
+		value = "賽莉也對植物感興趣嗎？我最近剛入手了一批新的種子，打算種新的盆栽，要不要一起來種點？"
+	},
+	ins_reply_345_2_1 = {
+		value = "種子……？我能去看看嗎？"
+	},
+	ins_reply_345_2_2 = {
+		value = "非常歡迎！"
+	},
+	ins_op_345_1_1 = {
+		value = "要是能發現妳想找的種子就好了。"
+	},
+	op_reply_345_1_1 = {
+		value = "指揮官，還有這裡的大家…果然都是好人呢。"
+	},
+	ins_346 = {
+		value = "除了艦裝的適應練習，平時的身體鍛煉也不能落下。"
+	},
+	ins_discuss_346_1 = {
+		value = "在健身房出汗的感覺，還不錯吧？"
+	},
+	ins_reply_346_1_1 = {
+		value = "居然有如此多用於鍛煉的設備，看來這個世界的人們也很注重磨礪自己。"
+	},
+	ins_discuss_346_2 = {
+		value = "莉拉小姐的戰鬥令人印象深刻！下次還能約妳一起演習嗎？"
+	},
+	ins_reply_346_2_1 = {
+		value = "當然，我也從與妳的切磋中學到了許多。"
+	},
+	ins_discuss_346_3 = {
+		value = "來自異世界的戰士…嗎，真是令人敬佩的自律精神。"
+	},
+	ins_reply_346_3_1 = {
+		value = "同為戰鬥為生的戰士，不來切磋一番嗎？"
+	},
+	ins_reply_346_3_2 = {
+		value = "共同演習？若是指揮官批准的話……"
+	},
+	ins_op_346_1_1 = {
+		value = "莉拉小姐對自己真嚴格呢。"
+	},
+	op_reply_346_1_1 = {
+		value = "身為戰士，只有時刻鍛煉自己才能變得更強。"
+	},
 	all = {
 		ins_op_1_1_1,
 		ins_op_1_1_2,
@@ -12124,6 +12262,52 @@ pg.activity_ins_language = {
 		ins_op_294_1_1,
 		op_reply_294_1_1,
 		ins_op_294_1_2,
-		op_reply_294_1_2
+		op_reply_294_1_2,
+		ins_342,
+		ins_discuss_342_1,
+		ins_reply_342_1_1,
+		ins_reply_342_1_2,
+		ins_discuss_342_2,
+		ins_reply_342_2_1,
+		ins_discuss_342_3,
+		ins_reply_342_3_1,
+		ins_op_342_1_1,
+		op_reply_342_1_1,
+		ins_343,
+		ins_discuss_343_1,
+		ins_reply_343_1_1,
+		ins_discuss_343_2,
+		ins_reply_343_2_1,
+		ins_discuss_343_3,
+		ins_reply_343_3_1,
+		ins_op_343_1_1,
+		op_reply_343_1_1,
+		ins_344,
+		ins_discuss_344_1,
+		ins_reply_344_1_1,
+		ins_discuss_344_2,
+		ins_reply_344_2_1,
+		ins_reply_344_2_2,
+		ins_op_344_1_1,
+		op_reply_344_1_1,
+		ins_345,
+		ins_discuss_345_1,
+		ins_reply_345_1_1,
+		ins_reply_345_1_2,
+		ins_discuss_345_2,
+		ins_reply_345_2_1,
+		ins_reply_345_2_2,
+		ins_op_345_1_1,
+		op_reply_345_1_1,
+		ins_346,
+		ins_discuss_346_1,
+		ins_reply_346_1_1,
+		ins_discuss_346_2,
+		ins_reply_346_2_1,
+		ins_discuss_346_3,
+		ins_reply_346_3_1,
+		ins_reply_346_3_2,
+		ins_op_346_1_1,
+		op_reply_346_1_1
 	}
 }

@@ -336,7 +336,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 194
+		key_value = 287
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1888,7 +1888,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 40934
+		key_value = 288
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2464,7 +2464,7 @@ pg.gameset = {
 					5
 				},
 				"bg_main_night",
-				"idom-Tender"
+				"ryza-3"
 			},
 			{
 				{
@@ -2472,7 +2472,7 @@ pg.gameset = {
 					8
 				},
 				"bg_main_twilight",
-				"idom-MainBGM"
+				"ryza-13"
 			},
 			{
 				{
@@ -2480,7 +2480,7 @@ pg.gameset = {
 					16
 				},
 				"bg_main_day",
-				"idom-MainBGM"
+				"ryza-13"
 			},
 			{
 				{
@@ -2488,7 +2488,7 @@ pg.gameset = {
 					19
 				},
 				"bg_main_twilight",
-				"idom-MainBGM"
+				"ryza-13"
 			},
 			{
 				{
@@ -2496,7 +2496,7 @@ pg.gameset = {
 					24
 				},
 				"bg_main_night",
-				"idom-Tender"
+				"ryza-3"
 			}
 		}
 	},

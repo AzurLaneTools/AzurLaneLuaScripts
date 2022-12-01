@@ -9183,6 +9183,182 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1690001] = {
+		map = 1690001,
+		name = "秘密遺跡群島|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "ryza-az-theme",
+		enter_story = "LAISHAGUANQIA1",
+		ani_name = "Map_1690001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40948,
+		ui_type = 1,
+		bg = "Map_1690001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1690002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1690002] = {
+		map = 1690002,
+		name = "秘密遺跡群島·採集地|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "ryza-5",
+		enter_story = "",
+		ani_name = "Map_1690002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40948,
+		ui_type = 1,
+		bg = "Map_1690002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1690001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1690003] = {
+		map = 1690003,
+		name = "秘密遺跡群島·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "ryza-az-theme",
+		enter_story = "",
+		ani_name = "Map_1690002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40948,
+		ui_type = 1,
+		bg = "Map_1690002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1690002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1690004] = {
+		map = 1690004,
+		name = "秘密遺跡群島·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "ryza-az-theme",
+		enter_story = "",
+		ani_name = "Map_1690002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40948,
+		ui_type = 1,
+		bg = "Map_1690002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1690002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -11203,6 +11379,10 @@ pg.expedition_data_by_map = {
 		1630001,
 		1630002,
 		1630003,
+		1690001,
+		1690002,
+		1690003,
+		1690004,
 		2100000,
 		2100001,
 		2100010,

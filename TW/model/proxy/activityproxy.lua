@@ -20,6 +20,7 @@ function slot0.register(slot0)
 		uv0.data = {}
 		uv0.params = {}
 		uv0.hxList = {}
+		uv0.shipModExpActs = {}
 
 		if slot0.hx_list then
 			for slot4, slot5 in ipairs(slot0.hx_list) do
@@ -39,11 +40,15 @@ function slot0.register(slot0)
 					uv0:updateActivityFleet(slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_PARAMETER then
 					uv0:addActivityParameter(slot6)
+				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BUFF then
+					table.insert(uv0.shipModExpActs, slot6.id)
 				end
 
 				uv0.data[slot5.id] = slot6
 			end
 		end
+
+		uv0:refreshShipModeExpBuff()
 
 		for slot4, slot5 in pairs(uv0.data) do
 			uv0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
@@ -68,7 +73,16 @@ function slot0.register(slot0)
 			uv0:InitActivityBossData(uv0.data[slot3.id])
 		end
 
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
+		slot4 = pg.ShipFlagMgr.GetInstance()
+
+		slot4:UpdateFlagShips("inElite")
+		(function ()
+			if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) then
+				return
+			end
+
+			uv0:sendNotification(GAME.REQUEST_ATELIER, slot0.id)
+		end)()
 	end)
 	slot0:on(11201, function (slot0)
 		slot1 = Activity.Create(slot0.activity_info)
@@ -379,6 +393,11 @@ function slot0.addActivity(slot0, slot1)
 	slot0.data[slot1.id] = slot1
 
 	slot0.facade:sendNotification(uv0.ACTIVITY_ADDED, slot1:clone())
+
+	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUFF then
+		table.insert(slot0.shipModExpActs, slot1.id)
+		slot0:refreshShipModeExpBuff()
+	end
 end
 
 function slot0.deleteActivityById(slot0, slot1)
@@ -660,6 +679,72 @@ function slot0.getEnterReadyActivity(slot0)
 			return slot0.data[slot2[slot7]]
 		end
 	end
+end
+
+function slot0.AtelierActivityAllSlotIsEmpty(slot0)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) or slot1:isEnd() then
+		return false
+	end
+
+	for slot6, slot7 in pairs(slot1:GetSlots()) do
+		if slot7[1] ~= 0 then
+			return false
+		end
+	end
+
+	return true
+end
+
+function slot0.OwnAtelierActivityItemCnt(slot0, slot1, slot2)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) or slot3:isEnd() then
+		return false
+	end
+
+	return slot3:GetItems()[slot1] and slot2 <= slot5.count
+end
+
+function slot0.refreshShipModeExpBuff(slot0)
+	slot1 = {}
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0.shipModExpActs) do
+		if slot0.data[slot7] and not slot8:isEnd() then
+			table.insert(slot1, slot7)
+
+			slot10 = {}
+
+			if slot8:getConfig("config_id") == 0 then
+				slot10 = slot8:getConfig("config_data")
+			else
+				table.insert(slot10, slot9)
+			end
+
+			for slot14, slot15 in ipairs(slot10) do
+				if ActivityBuff.New(slot8.id, slot15):ShipModExpUsage() and slot16:isActivate() then
+					table.insert(slot2, slot16)
+				end
+			end
+		end
+	end
+
+	slot0.shipModeExpbuffs = slot2
+	slot0.shipModExpActs = slot1
+end
+
+function slot0.getShipModExpActivity(slot0)
+	if underscore.any(slot0.shipModExpActs, function (slot0)
+		return not uv0.data[slot0] or uv0.data[slot0]:isEnd()
+	end) then
+		slot0:refreshShipModeExpBuff()
+	end
+
+	if underscore.any(slot0.shipModeExpbuffs, function (slot0)
+		return not slot0:isActivate()
+	end) then
+		slot0:refreshShipModeExpBuff()
+	end
+
+	return slot0.shipModeExpbuffs
 end
 
 return slot0

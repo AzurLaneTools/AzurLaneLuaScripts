@@ -95,7 +95,7 @@ pg.commander_ability_template = {
 		id = 111,
 		group_id = 11,
 		icon = "xunyang_paoji_1",
-		desc = "<color=#5caafc>輕巡、重巡</color>炮擊提高5點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>炮擊提高5點",
 		add = {
 			{
 				1,
@@ -116,6 +116,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>炮擊",
+				5
+			},
+			{
+				"<超巡>炮擊",
 				5
 			}
 		}
@@ -128,7 +132,7 @@ pg.commander_ability_template = {
 		id = 112,
 		group_id = 11,
 		icon = "xunyang_paoji_2",
-		desc = "<color=#5caafc>輕巡、重巡</color>炮擊提高7點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>炮擊提高7點",
 		add = {
 			{
 				1,
@@ -149,6 +153,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>炮擊",
+				7
+			},
+			{
+				"<超巡>炮擊",
 				7
 			}
 		}
@@ -161,7 +169,7 @@ pg.commander_ability_template = {
 		id = 113,
 		group_id = 11,
 		icon = "xunyang_paoji_3",
-		desc = "<color=#5caafc>輕巡、重巡</color>炮擊提高10點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>炮擊提高10點",
 		add = {
 			{
 				1,
@@ -182,6 +190,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>炮擊",
+				10
+			},
+			{
+				"<超巡>炮擊",
 				10
 			}
 		}
@@ -1913,7 +1925,7 @@ pg.commander_ability_template = {
 		id = 721,
 		group_id = 72,
 		icon = "xunyang_naijiu_1",
-		desc = "<color=#5caafc>輕巡、重巡</color>耐久提高50點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>耐久提高50點",
 		add = {
 			{
 				1,
@@ -1934,6 +1946,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>耐久",
+				50
+			},
+			{
+				"<超巡>耐久",
 				50
 			}
 		}
@@ -1946,7 +1962,7 @@ pg.commander_ability_template = {
 		id = 722,
 		group_id = 72,
 		icon = "xunyang_naijiu_2",
-		desc = "<color=#5caafc>輕巡、重巡</color>耐久提高70點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>耐久提高70點",
 		add = {
 			{
 				1,
@@ -1967,6 +1983,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>耐久",
+				70
+			},
+			{
+				"<超巡>耐久",
 				70
 			}
 		}
@@ -1979,7 +1999,7 @@ pg.commander_ability_template = {
 		id = 723,
 		group_id = 72,
 		icon = "xunyang_naijiu_3",
-		desc = "<color=#5caafc>輕巡、重巡</color>耐久提高100點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>耐久提高100點",
 		add = {
 			{
 				1,
@@ -2000,6 +2020,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>耐久",
+				100
+			},
+			{
+				"<超巡>耐久",
 				100
 			}
 		}
@@ -2786,7 +2810,7 @@ pg.commander_ability_template = {
 		id = 921,
 		group_id = 92,
 		icon = "xunyang_one_1",
-		desc = "<color=#5caafc>戰列、戰巡、正航、航戰</color>機動提高1點",
+		desc = "<color=#5caafc>戰列、戰巡、正航、航戰、超巡</color>機動提高1點",
 		add = {
 			{
 				1,
@@ -2817,7 +2841,7 @@ pg.commander_ability_template = {
 		id = 922,
 		group_id = 92,
 		icon = "xunyang_one_2",
-		desc = "<color=#5caafc>戰列、戰巡、正航、航戰</color>機動提高2點",
+		desc = "<color=#5caafc>戰列、戰巡、正航、航戰、超巡</color>機動提高2點",
 		add = {
 			{
 				1,
@@ -2848,7 +2872,7 @@ pg.commander_ability_template = {
 		id = 923,
 		group_id = 92,
 		icon = "xunyang_one_3",
-		desc = "<color=#5caafc>戰列、戰巡、正航、航戰</color>機動提高3點",
+		desc = "<color=#5caafc>戰列、戰巡、正航、航戰、超巡</color>機動提高3點",
 		add = {
 			{
 				1,
@@ -3011,7 +3035,7 @@ pg.commander_ability_template = {
 		id = 2011,
 		group_id = 201,
 		icon = "xunyang_one_1",
-		desc = "<color=#5caafc>輕巡、重巡</color>炮擊提高5點、雷擊提高5點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>炮擊提高5點、雷擊提高5點",
 		add = {
 			{
 				1,
@@ -3046,11 +3070,19 @@ pg.commander_ability_template = {
 				5
 			},
 			{
+				"<超巡>炮擊",
+				5
+			},
+			{
 				"<輕巡>雷擊",
 				5
 			},
 			{
 				"<重巡>雷擊",
+				5
+			},
+			{
+				"<超巡>雷擊",
 				5
 			}
 		}
@@ -3063,7 +3095,7 @@ pg.commander_ability_template = {
 		id = 2012,
 		group_id = 201,
 		icon = "xunyang_one_2",
-		desc = "<color=#5caafc>輕巡、重巡</color>炮擊提高7點、雷擊提高7點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>炮擊提高7點、雷擊提高7點",
 		add = {
 			{
 				1,
@@ -3098,11 +3130,19 @@ pg.commander_ability_template = {
 				7
 			},
 			{
+				"<超巡>炮擊",
+				7
+			},
+			{
 				"<輕巡>雷擊",
 				7
 			},
 			{
 				"<重巡>雷擊",
+				7
+			},
+			{
+				"<超巡>雷擊",
 				7
 			}
 		}
@@ -3115,7 +3155,7 @@ pg.commander_ability_template = {
 		id = 2013,
 		group_id = 201,
 		icon = "xunyang_one_3",
-		desc = "<color=#5caafc>輕巡、重巡</color>炮擊提高10點、雷擊提高10點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>炮擊提高10點、雷擊提高10點",
 		add = {
 			{
 				1,
@@ -3150,11 +3190,19 @@ pg.commander_ability_template = {
 				10
 			},
 			{
+				"<超巡>炮擊",
+				10
+			},
+			{
 				"<輕巡>雷擊",
 				10
 			},
 			{
 				"<重巡>雷擊",
+				10
+			},
+			{
+				"<超巡>雷擊",
 				10
 			}
 		}
@@ -4829,7 +4877,7 @@ pg.commander_ability_template = {
 		id = 5011,
 		group_id = 501,
 		icon = "jiandibizhan",
-		desc = "<color=#5caafc>輕巡、重巡</color>炮擊提高10點、裝填提高12點",
+		desc = "<color=#5caafc>輕巡、重巡、超巡</color>炮擊提高10點、裝填提高12點",
 		add = {
 			{
 				1,
@@ -4864,11 +4912,19 @@ pg.commander_ability_template = {
 				10
 			},
 			{
+				"<超巡>炮擊",
+				10
+			},
+			{
 				"<輕巡>裝填",
 				12
 			},
 			{
 				"<重巡>裝填",
+				12
+			},
+			{
+				"<超巡>裝填",
 				12
 			}
 		}

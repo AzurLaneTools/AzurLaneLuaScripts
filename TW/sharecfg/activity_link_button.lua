@@ -14,8 +14,8 @@ pg.activity_link_button = {
 			{
 				{
 					2022,
-					11,
-					17
+					12,
+					1
 				},
 				{
 					0,
@@ -27,7 +27,7 @@ pg.activity_link_button = {
 				{
 					2022,
 					12,
-					1
+					15
 				},
 				{
 					23,
@@ -73,8 +73,8 @@ pg.activity_link_button = {
 			{
 				{
 					2022,
-					11,
-					17
+					12,
+					1
 				},
 				{
 					0,
@@ -86,7 +86,7 @@ pg.activity_link_button = {
 				{
 					2022,
 					12,
-					1
+					15
 				},
 				{
 					23,
@@ -107,7 +107,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			40810
+			40952
 		}
 	},
 	[30] = {
@@ -182,6 +182,22 @@ pg.activity_link_button = {
 		group_id = 7,
 		order = 1
 	},
+	[80] = {
+		type = 2,
+		name = "event_Atelier",
+		text_pic = "text_event_Atelier",
+		id = 80,
+		group_id = 8,
+		pic = "event_Atelier",
+		order = 1,
+		time = {
+			"default",
+			40949
+		},
+		param = {
+			"ATELIER_COMPOSITE"
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -205,6 +221,9 @@ pg.activity_link_button = {
 		},
 		event_aprilFool = {
 			70
+		},
+		event_Atelier = {
+			80
 		}
 	},
 	all = {
@@ -216,6 +235,7 @@ pg.activity_link_button = {
 		30,
 		40,
 		60,
-		70
+		70,
+		80
 	}
 }

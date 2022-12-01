@@ -6556,6 +6556,71 @@ pg.activity_ins_template = {
 			2643
 		}
 	},
+	[342] = {
+		ship_group = 1090001,
+		name = "Reisalin Stout",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "laisha",
+		id = 342,
+		group_id = 342,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[343] = {
+		ship_group = 1090002,
+		name = "Klaudia Valentz",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "keluodiya",
+		id = 343,
+		group_id = 343,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[344] = {
+		ship_group = 1090003,
+		name = "Patricia Abelheim",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "patelixia",
+		id = 344,
+		group_id = 344,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[345] = {
+		ship_group = 1090005,
+		name = "Serri Glaus",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "saili",
+		id = 345,
+		group_id = 345,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[346] = {
+		ship_group = 1090004,
+		name = "Lila Decyrus",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "lila",
+		id = 346,
+		group_id = 346,
+		order = 16,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -6795,6 +6860,11 @@ pg.activity_ins_template = {
 		291,
 		292,
 		293,
-		294
+		294,
+		342,
+		343,
+		344,
+		345,
+		346
 	}
 }

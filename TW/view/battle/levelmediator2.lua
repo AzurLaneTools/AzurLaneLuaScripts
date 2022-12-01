@@ -42,6 +42,7 @@ slot0.GET_CHAPTER_DROP_SHIP_LIST = "LevelMediator2:GET_CHAPTER_DROP_SHIP_LIST"
 slot0.ON_CHAPTER_REMASTER_AWARD = "LevelMediator2:ON_CHAPTER_REMASTER_AWARD"
 slot0.ENTER_WORLD = "LevelMediator2:ENTER_WORLD"
 slot0.ON_OPEN_ACT_BOSS_BATTLE = "LevelMediator2:ON_OPEN_ACT_BOSS_BATTLE"
+slot0.SHOW_ATELIER_BUFF = "LevelMediator2:SHOW_ATELIER_BUFF"
 
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
@@ -295,6 +296,12 @@ function slot0.register(slot0)
 				end) and slot2.id
 			})
 		end
+	end)
+	slot0:bind(uv0.SHOW_ATELIER_BUFF, function (slot0)
+		uv0:addSubLayers(Context.New({
+			mediator = AtelierBuffMediator,
+			viewComponent = AtelierBuffLayer
+		}))
 	end)
 	slot0:bind(uv0.ON_SHIP_DETAIL, function (slot0, slot1)
 		uv0.contextData.selectedChapterVO = slot1.chapter
@@ -610,7 +617,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot4 = nil
 			slot4 = coroutine.create(function ()
 				slot1 = uv0.win
-				slot2 = uv1.contextData.chapterVO or uv0.chapterVO
+				slot3 = (uv1.contextData.chapterVO or uv0.chapterVO):IsAutoFight()
 
 				if uv0.type == ChapterConst.OpRetreat and uv0.exittype and uv0.exittype == ChapterConst.ExitFromMap then
 					uv1.viewComponent:setChapter(nil)
@@ -621,7 +628,7 @@ function slot0.handleNotification(slot0, slot1)
 				end
 
 				if slot0 == ChapterConst.OpRetreat and slot2:existOni() and slot2:checkOniState() then
-					uv1.viewComponent:displaySpResult(slot3, uv2)
+					uv1.viewComponent:displaySpResult(slot4, uv2)
 					coroutine.yield()
 				end
 
@@ -630,12 +637,44 @@ function slot0.handleNotification(slot0, slot1)
 					coroutine.yield()
 				end
 
-				if uv0.items and #slot3 > 0 then
+				slot5 = nil
+
+				if uv0.items and #slot4 > 0 then
+					if slot0 == ChapterConst.OpBox then
+						slot6 = slot2.fleet.line
+
+						if pg.box_data_template[slot2:getChapterCell(slot6.row, slot6.column).attachmentId].type == ChapterConst.BoxDrop and ChapterConst.IsAtelierMap(uv1.contextData.map) and #_.filter(slot4, function (slot0)
+							return slot0.type == DROP_TYPE_RYZA_DROP
+						end) > 0 then
+							slot5 = AwardInfoLayer.TITLE.RYZA
+
+							if AtelierMaterial.New({
+								configId = slot9[math.random(#slot9)].id
+							}):GetVoices() and #slot12 > 0 then
+								slot13 = slot12[math.random(#slot12)]
+								slot14, slot15, slot16 = ShipWordHelper.GetWordAndCV(slot13[1], slot13[2], nil, PLATFORM_CODE ~= PLATFORM_US)
+
+								uv1.viewComponent:emit(LevelUIConst.ADD_TOAST_QUEUE, {
+									iconScale = 0.75,
+									Class = LevelStageAtelierMaterialToast,
+									title = i18n("ryza_tip_toast_item_got"),
+									desc = slot16,
+									voice = slot15,
+									icon = slot13[3]
+								})
+							end
+						end
+					end
+
 					seriesAsync({
 						function (slot0)
-							uv0.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
+							getProxy(ChapterProxy):AddExtendChapterDataArray(uv0.id, "TotalDrops", _.filter(uv1, function (slot0)
+								return slot0.type ~= DROP_TYPE_STRATEGY
+							end))
+							uv2.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
 								items = uv1,
-								closeOnCompleted = uv2:IsAutoFight(),
+								title = uv3,
+								closeOnCompleted = uv4,
 								removeFunc = slot0
 							})
 						end,
@@ -659,9 +698,9 @@ function slot0.handleNotification(slot0, slot1)
 				assert(slot2)
 
 				if slot0 == ChapterConst.OpSkipBattle then
-					slot4 = uv1.viewComponent.levelStageView
+					slot6 = uv1.viewComponent.levelStageView
 
-					slot4:tryAutoAction(function ()
+					slot6:tryAutoAction(function ()
 						if not uv0.viewComponent.levelStageView then
 							return
 						end
@@ -669,9 +708,9 @@ function slot0.handleNotification(slot0, slot1)
 						uv0.viewComponent.levelStageView:tryAutoTrigger()
 					end)
 				elseif slot0 == ChapterConst.OpPreClear then
-					slot4 = uv1.viewComponent.levelStageView
+					slot6 = uv1.viewComponent.levelStageView
 
-					slot4:tryAutoAction(function ()
+					slot6:tryAutoAction(function ()
 						if not uv0.viewComponent.levelStageView then
 							return
 						end
@@ -680,13 +719,13 @@ function slot0.handleNotification(slot0, slot1)
 					end)
 				elseif slot0 == ChapterConst.OpRetreat then
 					if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
-						slot5 = {}
+						slot7 = {}
 
-						if slot4:getContextByMediator(ChapterPreCombatMediator) then
-							table.insert(slot5, slot6)
+						if slot6:getContextByMediator(ChapterPreCombatMediator) then
+							table.insert(slot7, slot8)
 						end
 
-						_.each(slot5, function (slot0)
+						_.each(slot7, function (slot0)
 							uv0:sendNotification(GAME.REMOVE_LAYERS, {
 								context = slot0
 							})
@@ -699,7 +738,7 @@ function slot0.handleNotification(slot0, slot1)
 						return
 					end
 
-					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN) and not slot6.autoActionForbidden and not slot6.achieved and slot6.data1 == 7 and slot2.id == 204 and slot2:isClear() then
+					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN) and not slot8.autoActionForbidden and not slot8.achieved and slot8.data1 == 7 and slot2.id == 204 and slot2:isClear() then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							modal = true,
 							hideNo = true,
@@ -775,33 +814,33 @@ function slot0.handleNotification(slot0, slot1)
 				elseif slot0 == ChapterConst.OpAmbush then
 					uv1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpBox then
-					slot4 = slot2.fleet.line
+					slot6 = slot2.fleet.line
 
-					if pg.box_data_template[slot2:getChapterCell(slot4.row, slot4.column).attachmentId].type == ChapterConst.BoxAirStrike then
+					if pg.box_data_template[slot2:getChapterCell(slot6.row, slot6.column).attachmentId].type == ChapterConst.BoxAirStrike then
 						uv1.viewComponent:doPlayAirStrike(ChapterConst.SubjectChampion, false, uv2)
 						coroutine.yield()
 
 						if uv0.aiActs and #uv0.aiActs > 0 then
-							slot7 = uv0.aiActs[1].commanderSkillEffectId
-							slot8 = slot2.fleet:findCommanderBySkillId(slot7)
+							slot9 = uv0.aiActs[1].commanderSkillEffectId
+							slot10 = slot2.fleet:findCommanderBySkillId(slot9)
 
-							assert(slot8, "can not find commander by skill: " .. slot7)
-							uv1.viewComponent:doPlayCommander(slot8, uv2)
+							assert(slot10, "can not find commander by skill: " .. slot9)
+							uv1.viewComponent:doPlayCommander(slot10, uv2)
 							coroutine.yield()
 							uv1.viewComponent:easeAvoid(uv1.viewComponent.grid.cellFleets[slot2.fleets[slot2.findex].id].tf.position, uv2)
 							coroutine.yield()
 						end
-					elseif slot6.type == ChapterConst.BoxTorpedo then
+					elseif slot8.type == ChapterConst.BoxTorpedo then
 						if slot2.fleet:canClearTorpedo() then
 							pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_destroy_torpedo"))
 						else
 							uv1.viewComponent:doPlayTorpedo(uv2)
 							coroutine.yield()
 						end
-					elseif slot6.type == ChapterConst.BoxBanaiDamage then
+					elseif slot8.type == ChapterConst.BoxBanaiDamage then
 						uv1.viewComponent:doPlayAirStrike(ChapterConst.SubjectChampion, false, uv2)
 						coroutine.yield()
-					elseif slot6.type == ChapterConst.BoxLavaDamage then
+					elseif slot8.type == ChapterConst.BoxLavaDamage then
 						uv1.viewComponent:doPlayAnim("AirStrikeLava", function (slot0)
 							setActive(slot0, false)
 							uv0()
@@ -810,9 +849,9 @@ function slot0.handleNotification(slot0, slot1)
 						coroutine.yield()
 					end
 
-					slot7 = uv1.viewComponent.levelStageView
+					slot9 = uv1.viewComponent.levelStageView
 
-					slot7:tryAutoAction(function ()
+					slot9:tryAutoAction(function ()
 						if not uv0.viewComponent.levelStageView then
 							return
 						end
@@ -824,9 +863,9 @@ function slot0.handleNotification(slot0, slot1)
 				elseif slot0 == ChapterConst.OpSwitch then
 					uv1.viewComponent.grid:adjustCameraFocus()
 				elseif slot0 == ChapterConst.OpEnemyRound then
-					slot4 = uv1
+					slot6 = uv1
 
-					slot4:playAIActions(uv0.aiActs, uv0.extraFlag, function ()
+					slot6:playAIActions(uv0.aiActs, uv0.extraFlag, function ()
 						slot0 = uv0.viewComponent.levelStageView
 
 						slot0:updateBombPanel(true)
@@ -848,18 +887,18 @@ function slot0.handleNotification(slot0, slot1)
 					uv1.viewComponent.grid:OnChangeSubAutoAttack()
 				elseif slot0 == ChapterConst.OpStrategy then
 					if uv0.arg1 == ChapterConst.StrategyExchange then
-						for slot9, slot10 in ipairs(slot2.fleet:findSkills(FleetSkill.TypeStrategy)) do
-							if slot10:GetType() == FleetSkill.TypeStrategy and slot10:GetArgs()[1] == ChapterConst.StrategyExchange then
-								uv1.viewComponent:doPlayCommander(slot2.fleet:findCommanderBySkillId(slot10.id))
+						for slot11, slot12 in ipairs(slot2.fleet:findSkills(FleetSkill.TypeStrategy)) do
+							if slot12:GetType() == FleetSkill.TypeStrategy and slot12:GetArgs()[1] == ChapterConst.StrategyExchange then
+								uv1.viewComponent:doPlayCommander(slot2.fleet:findCommanderBySkillId(slot12.id))
 
 								break
 							end
 						end
 					end
 
-					slot5 = uv1
+					slot7 = uv1
 
-					slot5:playAIActions(uv0.aiActs, uv0.extraFlag, function ()
+					slot7:playAIActions(uv0.aiActs, uv0.extraFlag, function ()
 						uv0.viewComponent.levelStageView:SwitchMissileBottomStagePanel(false)
 						uv0.viewComponent.grid:HideMissileAimingMark()
 						uv0.viewComponent.grid:updateQuadCells(ChapterConst.QuadStateNormal)

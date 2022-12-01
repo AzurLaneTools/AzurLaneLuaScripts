@@ -13,6 +13,8 @@ slot0.Battle.UnitState.STATE_SKILL = "STATE_SKILL"
 slot0.Battle.UnitState.STATE_VICTORY = "STATE_VICTORY"
 slot0.Battle.UnitState.STATE_STAND = "STATE_STAND"
 slot0.Battle.UnitState.STATE_INTERRUPT = "STATE_INTERRUPT"
+slot0.Battle.UnitState.STATE_SKILL_START = "STATE_SKILL_START"
+slot0.Battle.UnitState.STATE_SKILL_END = "STATE_SKILL_END"
 slot0.Battle.UnitState.STATE_DIVING = "STATE_DIVING"
 slot0.Battle.UnitState.STATE_DIVE = "STATE_DIVE"
 slot0.Battle.UnitState.STATE_DIVELEFT = "STATE_DIVELEFT"
@@ -32,6 +34,8 @@ function slot0.Battle.UnitState.Ctor(slot0, slot1)
 	slot0._standState = uv0.Battle.StandState.New()
 	slot0._spellState = uv0.Battle.SpellState.New()
 	slot0._interruptState = uv0.Battle.InterruptState.New()
+	slot0._skillStartState = uv0.Battle.SkillStartState.New()
+	slot0._skillEndState = uv0.Battle.SkillEndState.New()
 	slot0._diveState = uv0.Battle.DiveState.New()
 	slot0._diveLeftState = uv0.Battle.DiveLeftState.New()
 	slot0._raidState = uv0.Battle.RaidState.New()
@@ -67,6 +71,10 @@ function slot0.Battle.UnitState.ChangeState(slot0, slot1, slot2)
 		slot0._currentState:AddDiveState(slot0)
 	elseif slot1 == slot0.STATE_DIVELEFT then
 		slot0._currentState:AddDiveLeftState(slot0)
+	elseif slot1 == slot0.STATE_SKILL_START then
+		slot0._currentState:AddSkillStartState(slot0)
+	elseif slot1 == slot0.STATE_SKILL_END then
+		slot0._currentState:AddSkillEndState(slot0)
 	else
 		assert(false, slot0._target.__name .. "'s state machine, unexcepted state: " .. slot1)
 	end
@@ -158,6 +166,18 @@ function slot0.Battle.UnitState.OnInterruptState(slot0)
 	slot0._currentState = slot0._interruptState
 
 	slot0:SendAction(uv0.INTERRUPT)
+end
+
+function slot0.Battle.UnitState.OnSkillStartState(slot0)
+	slot0._currentState = slot0._skillStartState
+
+	slot0:SendAction(uv0.SKILL_START)
+end
+
+function slot0.Battle.UnitState.OnSkillEndState(slot0)
+	slot0._currentState = slot0._skillEndState
+
+	slot0:SendAction(uv0.SKILL_END)
 end
 
 function slot0.Battle.UnitState.ChangeToMoveState(slot0)
