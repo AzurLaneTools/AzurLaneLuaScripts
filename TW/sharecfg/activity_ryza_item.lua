@@ -254,7 +254,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"產出途徑：採集地- 「TH3-争斗之城」",
+			"產出途徑：採集地- 「TH3-爭鬥之城」",
 			chapterid = 1690023
 		},
 		got_voice = {
@@ -510,7 +510,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"產出途徑：採集地- 「TH2-异界之森」",
+			"產出途徑：採集地- 「TH2-異界之森」",
 			chapterid = 1690022
 		},
 		got_voice = {

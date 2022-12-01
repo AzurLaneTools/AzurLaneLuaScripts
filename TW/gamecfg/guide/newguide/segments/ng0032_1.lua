@@ -21,7 +21,7 @@ return {
 				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActAtelierBtn"
 			},
 			style = {
-				text = "让我们来看看炼金工坊出现了哪些可以调和的配方",
+				text = "讓我們來看看鍊金工房出現了哪些可以調合的配方",
 				mode = 1,
 				posY = 0,
 				dir = 1,
@@ -52,7 +52,7 @@ return {
 				1
 			},
 			style = {
-				text = "拥有工具后，可以从采集地获得更多种类与数量的素材\n制作全部工具后将会解锁更多配方",
+				text = "擁有工具後，可以從採集地獲得更多種類與數量的素材\n製作全部工具後將會解鎖更多配方",
 				mode = 1,
 				posY = 0,
 				dir = -1,

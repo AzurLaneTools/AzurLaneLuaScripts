@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "布里斯托爾，我覺得你差不多也該換一個新的假說了……",
+			say = "布里斯托爾，我覺得妳差不多也該換一個新的假說了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
