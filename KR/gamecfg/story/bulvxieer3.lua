@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "자, 지휘관, 이건 네 꺼야~",
+			say = "자, 지휘관, 이건 지휘관꺼야~",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

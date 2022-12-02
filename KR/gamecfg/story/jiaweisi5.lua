@@ -100,7 +100,7 @@ return {
 			},
 			options = {
 				{
-					content = "걱정되나요?",
+					content = "걱정돼?",
 					flag = 1
 				}
 			}

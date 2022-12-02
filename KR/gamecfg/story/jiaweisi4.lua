@@ -493,7 +493,7 @@ return {
 			},
 			options = {
 				{
-					content = "같이 재너스의 훈련을 보러 가볼까요?",
+					content = "같이 재너스의 훈련을 보러 가볼까?",
 					flag = 2
 				}
 			}

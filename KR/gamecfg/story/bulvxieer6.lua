@@ -110,7 +110,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "하지만 네가 보고 싶어서 잠이 오지 않는다구~!",
+			say = "하지만 지휘관이 보고 싶어서 잠이 오지 않는다구~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
