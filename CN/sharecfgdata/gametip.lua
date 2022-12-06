@@ -14134,7 +14134,7 @@ _G.pg.base.gametip.ship_book = {
 }
 
 _G.pg.base.gametip.month_sign_resign = {
-	tip = "由于4月4日全港区停服，为指挥官补发一日签到奖励"
+	tip = "由于12月6日全港区停服，为指挥官补发一日签到奖励"
 }
 
 _G.pg.base.gametip.collect_tip = {
@@ -21865,7 +21865,7 @@ _G.pg.base.gametip.ryza_tip_main = {
 		{
 			info = [[
 活动简介：
-<color=#92fc63>11.24-12.08维护</color>期间开启限时活动「炼金术士与秘密遗迹群岛」
+<color=#92fc63>11.24-12.09 23:59:59</color>期间开启限时活动「炼金术士与秘密遗迹群岛」
 1.通过特别作战获取「遗迹水晶簇」，在「噗尼养成」和「补给商店」处兑换丰厚奖励
 2.完成「温泉开发战」DAY7可获得限定家具<color=#92fc63>小型温泉</color>与限定外观装备等奖励
 注意：每日开放1回新游戏，总计7回

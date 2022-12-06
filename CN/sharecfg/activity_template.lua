@@ -46,7 +46,10 @@ pg.activity_template = {
 		page_info = {
 			ui_name = "monthsignpage",
 			ui_name2 = "monthsignpage_special",
-			class_name = "MonthSignPage"
+			class_name = "MonthSignPage",
+			sub_ui = {
+				"MonthSignReSignUI"
+			}
 		}
 	},
 	[7] = {
@@ -6522,7 +6525,7 @@ pg.activity_template = {
 				{
 					2022,
 					12,
-					8
+					9
 				},
 				{
 					23,
@@ -6668,7 +6671,7 @@ pg.activity_template = {
 				{
 					2022,
 					12,
-					8
+					9
 				},
 				{
 					23,
@@ -6793,7 +6796,7 @@ pg.activity_template = {
 				{
 					2022,
 					12,
-					8
+					9
 				},
 				{
 					23,
@@ -6831,7 +6834,7 @@ pg.activity_template = {
 				{
 					2022,
 					12,
-					8
+					9
 				},
 				{
 					23,
@@ -6888,7 +6891,7 @@ pg.activity_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -6945,7 +6948,7 @@ pg.activity_template = {
 				{
 					2022,
 					12,
-					8
+					9
 				},
 				{
 					23,
@@ -7233,7 +7236,7 @@ pg.activity_template = {
 				{
 					2022,
 					12,
-					8
+					9
 				},
 				{
 					23,
@@ -7272,7 +7275,7 @@ pg.activity_template = {
 				{
 					2022,
 					12,
-					8
+					9
 				},
 				{
 					23,
@@ -9315,7 +9318,7 @@ pg.activity_template = {
 					{
 						2022,
 						12,
-						8
+						9
 					},
 					{
 						23,
@@ -9434,7 +9437,7 @@ pg.activity_template = {
 					{
 						2022,
 						12,
-						8
+						9
 					},
 					{
 						23,

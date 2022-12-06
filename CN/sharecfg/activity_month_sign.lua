@@ -2807,7 +2807,7 @@ pg.activity_month_sign = {
 	},
 	{
 		id = 12,
-		resign_count = 0,
+		resign_count = 1,
 		day_and_drop = {
 			{
 				5,

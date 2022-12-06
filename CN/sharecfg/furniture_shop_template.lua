@@ -52455,7 +52455,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52490,7 +52490,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52525,7 +52525,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52560,7 +52560,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52595,7 +52595,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52630,7 +52630,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52665,7 +52665,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52700,7 +52700,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52735,7 +52735,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52770,7 +52770,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52805,7 +52805,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52840,7 +52840,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52875,7 +52875,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52910,7 +52910,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52945,7 +52945,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -52980,7 +52980,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53015,7 +53015,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53050,7 +53050,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53085,7 +53085,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53120,7 +53120,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53155,7 +53155,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53190,7 +53190,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53225,7 +53225,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53260,7 +53260,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53295,7 +53295,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53330,7 +53330,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53365,7 +53365,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53400,7 +53400,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53435,7 +53435,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53470,7 +53470,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53505,7 +53505,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53540,7 +53540,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,
@@ -53575,7 +53575,7 @@ pg.furniture_shop_template = {
 				{
 					2022,
 					12,
-					7
+					9
 				},
 				{
 					23,

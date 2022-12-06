@@ -9687,7 +9687,7 @@ pg.furniture_data_template = {
 		picture = "",
 		canputon = 0,
 		id = 100043,
-		can_rotate = 0,
+		can_rotate = 1,
 		size = {
 			3,
 			3
