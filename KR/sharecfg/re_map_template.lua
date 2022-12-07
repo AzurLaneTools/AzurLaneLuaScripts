@@ -299,7 +299,7 @@ pg.re_map_template = {
 	},
 	[7] = {
 		memory_group = 115,
-		name = "어둠에 떨어진 푸른 날개 상시 복각",
+		name = "坠落之翼常驻复刻 ",
 		activity_type = 1,
 		id = 7,
 		bg = "temp_zhuiluo",
