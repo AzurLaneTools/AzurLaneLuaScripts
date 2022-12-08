@@ -3776,6 +3776,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5622,6 +5633,17 @@ pg.ship_data_group = {
 				"Event: Universe in Unison",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -8148,6 +8170,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -9673,6 +9706,17 @@ pg.ship_data_group = {
 				"Event: Lunar New Year",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12473,6 +12517,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Guild shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12511,6 +12565,16 @@ pg.ship_data_group = {
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Guild shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -15219,6 +15283,17 @@ pg.ship_data_group = {
 				"Event: Universe in Unison",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -19503,6 +19578,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23771,6 +23857,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30017] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30017,
+		code = 30017,
+		group_type = 970503,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"META Lab - Coordinate Analysis",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9705031
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -24365,6 +24485,7 @@ pg.ship_data_group = {
 		30013,
 		30014,
 		30015,
-		30016
+		30016,
+		30017
 	}
 }

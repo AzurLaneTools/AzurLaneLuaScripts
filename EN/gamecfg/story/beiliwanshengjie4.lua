@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Regardless, I’m not interested.",
+			say = "Regardless, I'm not interested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Pfft, here you go again. You were all like “I’m not interested” during the summer time as well.",
+			say = "Pfft, here you go again. You were all like \"I'm not interested\" during the summer time as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Alright, so now it’s finally Halloween~ Let's all get together and have fun with everyone!",
+			say = "Alright, so now it's finally Halloween~ Let's all get together and have fun with everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "As it so happens, I’ve got a witch costume on hand right here~",
+			say = "As it so happens, I've got a witch costume on hand right here~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Where did you get this...h-hold on, at least let me change into it myself!",
+			say = "Where did you get this... H-hold on, at least let me change into it myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sigh...such a troublemaker...that Rodney. Half the time I don’t know what goes on in that mind of hers.",
+			say = "Sigh... Rodney is such a troublemaker... Half the time I don't know what goes on in that mind of hers.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -255,7 +255,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“Three Witches” whatever...it’s just a gossip. Let’s walk around and deal with it.",
+			say = "\"Three witches\" whatever... it's just a gossip. Let's walk around and deal with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "Is Ms. Nelson also one of the \"virtuous witches\" who is looking for the “Miss ghost”?",
+			say = "Is Ms. Nelson also one of the \"virtuous witches\" who is looking for the \"Miss Ghost\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Ha? Um, yea, sure...",
+			say = "Ha? Um, yeah, sure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Then let’s head to the warehouse, Bailey heard Miss ghost is there!",
+			say = "Then let's head to the warehouse, Bailey heard Miss Ghost is there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "(Even though it’ll surely be a prank, it’s not good to leave these kids alone and not help...I’ll follow them then).",
+			say = "(Even though it'll surely be a prank, it's not good to leave these kids alone without help... I'll follow them then)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

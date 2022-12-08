@@ -27,6 +27,12 @@ function slot0.Ctor(slot0, slot1, slot2)
 		MainActDelegationBtn.New(slot0.eventPanel, slot2)
 	}
 
+	if pg.SdkMgr.GetInstance():CheckAudit() then
+		slot0.specailBtns = {
+			MainActTraingCampBtn.New(slot0.linkBtnTop:Find("layout"), slot2)
+		}
+	end
+
 	slot0:Register()
 end
 

@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 101271,
 			nameColor = "#a9f548",
-			say = "If Miss ghost can’t find her way home, then that’s so pitiful...",
+			say = "If Miss Ghost can't find her way home, then that's so pitiful...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wait there, Bailey will help you for sure! “Pretty”, “Lucky”, let’s go!",
+			say = "Wait there, Bailey will help you for sure! \"Pretty\", \"Lucky\", let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmm…saying is one thing, but where exactly is Miss ghost hiding?",
+			say = "Hmm... Speaking of which, where exactly is Miss Ghost hiding?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -108,7 +108,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Also ghosts can fly, right? But Rabbit Alien cannot fly...",
+			say = "Also ghosts can fly, right? But people from Planet Bunny cannot fly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Well, if only the broom could carry her and let her fly like a witch.",
+			say = "Well, if only the broom could carry me and let me fly like a witch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hey, did you hear? Rumor has it the warehouse at home port is haunted!",
+			say = "Hey, did you hear? Rumor has it the warehouse at port is haunted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "How is that possible! Even though it’s Halloween, but actual ghosts shouldn’t exist!",
+			say = "How is that possible! I know it's Halloween, but actual ghosts shouldn't exist!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(Warehouse? Ghosts? Could it be…)",
+			say = "(Warehouse? Ghosts? Could it be...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = " “Pretty”, “Lucky”, let’s head over there!",
+			say = " \"Pretty\", \"Lucky\", let's head over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Although, “Three virtuous witches”...if you count Bailey as one of them, then who are the other two...",
+			say = "Although, \"three virtuous witches\"... If one counts Bailey as one of them, then who are the other two...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "Hey...ghosts or whatever, they seems so scary. B-but...",
+			say = "Hey... Ghosts or whatever, they seem so scary. B-but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "It’s tiresome to impersonate voices of multiple people...",
+			say = "It's tiresome to impersonate voices of multiple people...",
 			flashout = {
 				black = true,
 				dur = 0.5,

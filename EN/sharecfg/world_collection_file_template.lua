@@ -1394,6 +1394,42 @@ Best,
 John]],
 		pic = ""
 	},
+	[11505] = {
+		id = 11505,
+		name = "Communication Log: Investigation Machinery Request",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 5,
+		content = [[
+Dear Colonel Archer,
+I don't know how else to put this, but you have a dangerous situation on your hands.
+There's not a lot of information for me to work with right now, but I can say one thing for sure: the energy that destroyed your unmanned submarines was not of natural origin. This energy might've been amplified by the seismic waves, but it also could've caused the earthquake to begin with.
+The damage caused by this phenomenon is also extremely concerning to me. You may have already noticed this already, but the newer, E-Cube-powered submarines sustained more damage than submarines powered by traditional energy sources.
+In any case, there is nothing I can do without first obtaining all of your research documents. If that's too much to ask for, then I at least need to know what experiments your team was performing with the Wisdom Cubes, or what modifications were made to the cubes during their work.
+I won't have any definitive answers until I get to see the damages to the submarine cores in person, so I've submitted an application for an on-site investigation. Colonel, this is a warning: you must not allow the military to make any rash moves before I elucidate the nature of this energy.
+Lastly, I would appreciate it if you could nudge the application process forward a bit faster.
+I look forward to hearing from you.
+Anzeel]],
+		pic = ""
+	},
+	[11506] = {
+		id = 11506,
+		name = "Communication Log: Out of Time",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 6,
+		content = [[
+To Dr. Anzeel:
+I understand your concerns, but unfortunately, we don't have enough time left.
+Our experiments in the Bermudas over the past few days have attracted the attention of the Revolutionary Front.
+We have reliable intel that the Northern Parliament submarines that went missing just a few days prior have appeared in our vicinity. Additionally, the RF has mobilized its fleet stationed in the Antilles. I suspect that, in a matter of days to weeks, we will be surrounded by our "friendly" neighbors who plan to conduct exercises "with no particular target in mind."
+Our problems also don't end there. Firstly, the army's opinions are divided on how to ensure your safety in light of the RF's activity. Secondly, the issue of how to move the large equipment you need for your investigation to the salvage site is also still being carefully evaluated. After all, our goals will be completely exposed once the RF sees the equipment.
+In any case, I will try my best to get you permission for an on-site investigation, but best case scenario, it'll have to occur simultaneously with the salvage operation.
+Let's keep our fingers crossed.
+Best,
+John]],
+		pic = ""
+	},
 	[13101] = {
 		id = 13101,
 		name = "Communication Log: Tsunami Warning",
@@ -1512,6 +1548,112 @@ This stopped being funny 10 years ago
 4 Anonymous
 Locked. Tired of seeing this shit.
 ......]],
+		pic = ""
+	},
+	[13201] = {
+		id = 13201,
+		name = "Confidential Record: Participant's Log",
+		subTitle = "Confidentiality Level: II",
+		is_classified = 0,
+		group_ID = 1,
+		content = [[
+■■/■■/■■■■ - Report by: Master Sergeant Winster
+......
+An undersea earthquake of unknown cause occurred in the Bermudas today, creating a tsunami that inflicted severe damage to our floating dock. Several research vessels were also lost in the tsunami's wake.
+Fortunately, our communication lines were successfully reestablished after a brief downtime. Repairs to the dock are also underway.
+Experts say this type of earthquake is "exceedingly rare" and the seismic waves were "unprecedented"... Those damn crackpot scientists. I've heard about their weird experiments on the platform, and now look what's happened!
+Those research vessels have something to do with that earthquake, mark my words...
+It's well into the night, and I still haven't gotten a dispatch order. People need rescuing out there, so what are we waiting for? Is the top brass going to let them die?]],
+		pic = "13201"
+	},
+	[13202] = {
+		id = 13202,
+		name = "Confidential Record: Earthquake Investigation Report",
+		subTitle = "Confidentiality Level: III",
+		is_classified = 0,
+		group_ID = 2,
+		content = [[
+In conclusion, the earthquake was indeed not of natural origin.
+While all equipment near the epicenter suffered severe damage, some measuring instruments in the floating dock did manage to survive the event. The data recovered from these instruments show that another earthquake, lower in intensity and with a shallower hypocenter, occurred 90 seconds before the "main" earthquake.
+At present, the most probable scenario is that, prior to the earthquake, there was a tremendous burst of energy at the location believed to be the hypocenter. This immediately destroyed the research platform and subsequently caused the earthquake.
+With our analysis of the recovered data and examination of the affected area, we have identified the cause of the energy burst. The first fluctuations originated from Platform No. ■, which conducts research into ■■■■■■■■ ■■ ■■■ ■■■■■ ■■ ■■■■■ ■■■ ■■■■■ ■■■■■ ■■ ■■■■■ ■■■ ■■■■ ■■■■■■■■■■■ ■■■■■■■...]],
+		pic = ""
+	},
+	[13203] = {
+		id = 13203,
+		name = "Confidential Record: Salvage Team Audiotape",
+		subTitle = "Confidentiality Level: II",
+		is_classified = 0,
+		group_ID = 3,
+		content = [[
+......
+- Holy [REDACTED]... What happened today was [REDACTED] insane!
+- [REDACTED] drone broke literally minutes after I sent it out! That [REDACTED] was the latest and greatest money can buy!
+- This isn't [REDACTED], man! Geiger counter and [REDACTED] didn't make a single noise!
+- I'm 100% sure there's no radiation down here. The [REDACTED] value is lower than average!
+- So now what? All the equipment is FUBAR. I tried everything! The salvage drone, the salvage mini-ship, the military submersible... All of 'em broke within fifteen minutes, just like the [REDACTED]!
+- You know the weirdest part? The old stuff lasted the longest.
+- I'm telling you, man! Something is wrong with that wreck! It's gotta be [REDACTED] or something!
+- You what? You're sending in a diver?
+- [REDACTED] [REDACTED] [REDACTED]
+......]],
+		pic = "13203"
+	},
+	[13204] = {
+		id = 13204,
+		name = "Confidential Record: Incident Site Audiotape",
+		subTitle = "Confidentiality Level: III",
+		is_classified = 0,
+		group_ID = 4,
+		content = [[
+————Playing audio recording————
+- Oh god... Poor Tom. Something terrible happened after he went down there.
+- It took pretty much the whole team working together to get him back up.
+- When we got him out of the water, it was like he had been possessed. First time in my life seeing someone go insane right in front of my eyes.
+- All I can do is pray he at least remembers his own name when he wakes up...
+- Wait, where are we going? You're taking him to the hospital, right?
+————End of audio recording————
+
+Despite the diver taking every possible safety precaution during this salvage operation, his health monitoring systems triggered an alarm within about ten minutes after entering the wreckage.
+After his rescue, it was discovered that all his electronic equipment was broken, and the diver showed signs of extreme mental disturbance. The diver has since been transferred to the nearest research institute for treatment and observation.
+As stated in the previous report, it is advised to not send in any more divers until the conditions of this site are better understood...]],
+		pic = ""
+	},
+	[13205] = {
+		id = 13205,
+		name = "Confidential Record: Salvaged Data Log",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 5,
+		content = [[
+————Project: [DATA CORRUPTED]————
+————Experiment No.: [DATA CORRUPTED]————
+...[DATA CORRUPTED]experiment 37, this time improving the Cube building process by using the new [DATA CORRUPTED]...
+...[DATA CORRUPTED]The experiment is progressing smoothly. Thanks to the aforementioned addition, th[DATA CORRUPTED]...
+...[DATA CORRUPTED]the cut casing displays significantly increased power output a[DATA CORRUPTED]...
+...[DATA CORRUPTED]All values normal. The casing remains stable for [DATA CORRUPTED]...
+...[DATA CORRUPTED]The experiment is a resounding succe[DATA CORRUPTED]...
+...[DATA CORRUPTED], thus, all the conditions have been met to proceed to the next stage[DATA CORRUPTED]...
+...[DATA CORRUPTED]experiment to extract more power than has ever been attempted before [DATA CORRUPTED]...
+...[DATA CORRUPTED]o ascertain the E-Cube's maximum stored energy[DATA CORRUPTED]...]],
+		pic = "13205"
+	},
+	[13206] = {
+		id = 13206,
+		name = "Confidential Record: Postmortem Investigation Report",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 6,
+		content = [[
+…The convoy sent to refloat the platform broadcasted a distress signal before all contact was lost. Naval servicemen stationed on the floating dock near the disaster site were immediately dispatched to investigate and begin a rescue mission.
+
+According to a sergeant who was among the first responders, only a handful of the several dozen vessels in the convoy were found, and all of those vessels were either on fire or had capsized.
+
+Thanks to the heroic efforts of the rescue team, one sole survivor was found inside a freezer aboard a salvage vessel that sustained comparatively little damage. Unfortunately, this survivor displayed severe mental disturbance and was transported to the nearest research facility for medical observation and treatment. The individual remains in an uncommunicative state.
+
+A follow-up investigation revealed numerous signs of fighting aboard the salvage ship, suggesting that a riot had broken out immediately before the incident. Findings indicate that a person had set fire to the galley, which then spread throughout the rest of the ship. It is possible that this riot is connected to the outbreaks of mass hysteria reported on the East Coast.
+
+The records gathered from the ship suggest that, just prior to the incident, the crew had managed to recover an object of substantial importance from the sunken platform. As this object was not found aboard the ship during the investigation, it is likely that it sunk to the ocean floor once again...]],
 		pic = ""
 	},
 	[14101] = {
@@ -1730,6 +1872,369 @@ Anonymous: the only conclusion is, both fleets are toast. the world now belongs 
 ............]],
 		pic = ""
 	},
+	[14301] = {
+		id = 14301,
+		name = "Media Record: Top Articles at Time of Incident",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 1,
+		content = [[
+......
+Trending article excerpt 1:
+Vacation Season is Here!
+...Looking to go on a family vacation? We've compiled the top 10 best travel destinations based on your votes! Whether you're looking for a cozy cove of Mother Nature, or a beach with warm sunshine and even warmer service, we've got you covered! Click the link below and leave a comment and you have the chance to win an all-inclusive 7-day vacation package!
+
+Destination number 10...
+————————
+Trending article excerpt 2:
+Legendary Rockstar Announces His Return
+...This rockstar's debut single set the world on fire, but his blaze of glory fizzled out following a big debt scandal. Completely out of nowhere, he announced his comeback today, along with a new album of 5 to-be hit songs. All websites offering preorders are currently down due to the overwhelming amount of people trying to access them. In an interview, his manager blamed the website administrators, saying "Those guys, they have no idea how big he is. They way underestimated how passionate his fans are." Several of these sites have stated they will reopen preorders very soon, after server upgrades and maintenance...]],
+		pic = ""
+	},
+	[14302] = {
+		id = 14302,
+		name = "Life and Society: Bulletin Board Regarding KAN-SEN",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 2,
+		content = [[
+......
+Discussion: Where has ******* gone? [Locked - Hidden]
+No. 1 Anonymous (ID:jCHklgGsO) 17:26
+It's been ages and we haven't heard a word from her... Where is she? I need to know...
+
+No. 2 Anonymous (ID:PCoxDdKsp) 17:27
+yeah it's weird. i've searched a million things and found jack shit. where IS *******?
+
+No. 3 Anonymous (ID:nUfhvbFmD) 17:27 
+Literally WHO are you talking about?
+
+No.4 BANNED USER
+(USER WAS BANNED FOR THIS POST)
+
+No. 5 Anonymous (ID:jCHklgGsO) 17:28
+>>3 I'm talking about *******!
+
+No. 6 Anonymous (ID:jCHklgGsO) 17:28
+>>5 Angry_cat.png ARE THEY CENSORING HER NAME NOW??? *******
+
+No. 7 Anonymous (ID:nUfhvbFmD) 17:28 
+Welp, this thread's getting deleted.
+......]],
+		pic = ""
+	},
+	[14303] = {
+		id = 14303,
+		name = "Life and Society: Deep Web Forum Excerpts",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 3,
+		content = [[
+......
+—PO.Kraken - 36 h. ago
+Guys, this whole thing is one huge conspiracy. I got some info from a friend - he says there's been a lot of activity at the pier lately. Guess what? They're moving warship wrecks around. The standoff with RF never ended. If anything, it's escalated into a full-blown war. BHR could possibly already be dead, but I'm gonna keep digging. I don't buy that BS about her "disappearing."
+
+—RichardMyBeloved - 36 h. ago
+I heard that same thing about some wrecks from a guy I know who works up in the NP. hackerbro, you got anything?
+
+—Walnut - 36 h. ago
+Dunno if it's related but apparently they took some Colonel Archer's family hostage.
+Also, someone's after me, so I'm gonna lay low for a bit.
+Kraken, this is important, so listen. They've got their eyes on you too. Do NOT go to the port tomorrow.
+
+—PO.Kraken - 35 h. ago
+Appreciate the warning but that's not gonna stop me. I WILL blow the lid off this thing.
+
+—RichardMyBeloved - 15 min. ago
+yo kraken, you still alive? you haven't said anything for like 2 days
+
+—Walnut - 9 min. ago
+Saw them arrest him on the security cam footage. I warned him, but he wouldn't listen...
+Richy, you're good for now, but keep an eye out anyway.
+I'll hit you up later. There's people on my tail and I'm trying to shake them.
+......]],
+		pic = "14303"
+	},
+	[14304] = {
+		id = 14304,
+		name = "Confidential Record: Interrogation",
+		subTitle = "Confidentiality Level: I",
+		is_classified = 0,
+		group_ID = 4,
+		content = [[
+......
+- We know you took photos. How's playing detective working out for you?
+-- (silence)
+- Listen to me. You've laid hands on things you shouldn't have. Give it over. Now.
+-- So that means... It's all true, huh?
+- Don't dodge the question, Sergeant. This is an order.
+- (takes a deep breath) Let's take a step back. What else did you take pictures of?
+-- That's everything...
+- Good. You're a smart man, Sergeant.
+- Look, I know how you feel. You and your friends are patriots, trying to do what's right for the country. But...
+- It's a good thing you're in the Navy. You've still got options. But your military career... it's over.
+- You're going to retire for medical reasons. You'll keep your pay.
+- You can keep the truth too, but you're never to speak a word of it to anyone. Understand?
+-- ...Yessir.
+- Good. You may leave.
+- (silence)
+- This part of my job makes me sick.
+......]],
+		pic = ""
+	},
+	[14305] = {
+		id = 14305,
+		name = "Media Record: Diplomatic Breakthrough",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 5,
+		content = [[
+...Our dear viewers, we have news from our on-site reporter. At 14 minutes past midnight, the meeting with the Revolutionary Front regarding the chain of incidents in the Bermudas came to a close.
+
+A representative of the Northern Parliament's armed forces stated that the Revolutionary Front's meeting with the Oceanic Federation was "constructive and friendly." After both sides had provided their accounts, they said that the rising tension in the Bermudas was all caused by "a series of misunderstandings."
+
+Our reporter was told that the confrontation there ended peacefully, and that the rumors about both sides preparing for war were completely false.
+
+A high-ranking Oceanic Federation official confirmed this statement and went on to praise the Northern Parliament for its measured, peace-promoting stance on the matter. This official also said that both parties are fully committed to maintaining world peace, and that a hotline between the two sides has been established to help prevent similar confrontations in the future.
+
+Both the Revolutionary Front and the Oceanic Federation have signed a memorandum concerning this matter. More details will follow later this afternoon...]],
+		pic = ""
+	},
+	[14306] = {
+		id = 14306,
+		name = "Media Record: Temporary No-Sail Zone",
+		subTitle = "",
+		is_classified = 0,
+		group_ID = 6,
+		content = [[
+——————
+
+THIS IS A MESSAGE TO ALL SHIPS AND PLANES PASSING THROUGH THE VICINITY OF SAMOS ISLAND.
+
+The following sea and air spaces have been designated for an Oceanic Federation military exercise beginning at 0700 today:
+
+The quadrangle enclosed by N 32° 44', W 66° 40'; N 33° 45', W 65° 21'; N 32° 58', W 65° 24'; and N 32° 09', W 66° 30'.
+
+The quadrangle enclosed by N 33° 38', W 63° 51'; N 33° 12', W 63° 02'; N 32° 39', W 63° 31'; and N 33° 09', W 64° 21'.
+
+The pentagon enclosed by N 32° 12', W 63° 10'; N 32° 38', W 59° 36'; N 31° 42', W 55° 04'; N 30° 52', W 56° 45'; and N 31° 29', W 63° 40'.
+
+The pentagon enclosed by N 33° 17', W 65° 36'; N 33° 13', W 64° 20'; N 30° 59', W 63° 51'; N 30° 36', W 64° 06'; and N 30° 49', W 65° 31'.
+
+The quadrangle enclosed by N 31° 49', W 66° 50'; N 31° 39', W 66° 11'; N 30° 55', W 66° 26'; and N 31° 37', W 66° 29'.
+
+These sea and air spaces will be bombarded for seven days. All passage into and through these spaces by sea and air craft is forbidden until the exercise is completed.
+
+
+
+The following sea and air space has been designated for an exercise by the Revolutionary Front:
+
+The quadrangle enclosed by N 32° 35', W 58° 58; N 32° 18', W 53° 03'; N 30° 41', W 53° 42'; and N 30° 49', W 58° 59'.
+
+All sea and air craft traveling near these forbidden areas should maintain functional transmissions, particularly reception, and retain the following contact in case of emergency...]],
+		pic = "14306"
+	},
+	[14401] = {
+		id = 14401,
+		name = "Archives: Investigation Committee",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 1,
+		content = [[
+Resolution Establishing the Richard Incident Investigation Committee
+
+...Per the Department of Defense's request, a special investigation committee is to be established in service of researching the chain of accidents caused by Division 13 KAN-SEN Bon Homme Richard during Oceanic Federation military exercises on ■■/■■/■■■■. Furthermore, by their suggestion, this will henceforth be referred to as the Richard Affair.
+
+The committee will consist of a total of 144 members in relevant fields, including personnel from the Department of Defense, Joint Chiefs of Staff, and Executive Office, as well as select representatives from the Supreme Court, Court of Appeals for the Armed Forces, Federal Council and Secretariats, Military Affairs Committee, and National Academy of Sciences.
+
+The investigation committee will be headquartered on Samos Island. The first meeting is to be held before ■■/■■ this year, though the exact date is to be decided based on the progress of the preliminary investigation.
+
+Until the aforementioned meeting, executive authority of the committee will be held by three representatives, one from each of the Department of Defense, Joint Chiefs of Staff, and the Executive Office.
+
+After the passage of this resolution, leadership of the committee will, on behalf of the committee:
+1. Have full authority and responsibility over the investigation of this affair.
+2. Designate Samos Island and the surrounding region as a control zone and evacuate all except members of the committee.
+3. On a weekly basis...
+......]],
+		pic = ""
+	},
+	[14402] = {
+		id = 14402,
+		name = "Archives: Master Sergeant's Audio Recording",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 2,
+		content = [[
+—Report by: Master Sergeant Simon Winster
+- 9:00
+- The salvage operation is nearly complete.
+- We ended up making more of a mess down here than there was to begin with.
+- It's the kind of joke nobody can laugh at...
+- I don't know what this "box" we're salvaging now is, but it's got fleets from half of the entire world coming for it.
+...
+- 16:22
+- Hold fast and take it slow! That's right, just like any other fishing trip!
+- Damn it all! Who's ever heard of every machine in the operation breaking?! And damn the idiot who decided we have to haul this thing up with sheer manpower!
+- Don't lose your head! I can see the robot arm shaking from here!
+- How many times have I told you to stop believing every conspiracy theory you see on the internet?!
+- Take this sensor, read those numbers properly, and make sure you remember them. Then, our job's done. Got it?
+- What's that? You said the sensor's broken? Hell, I'm not even surprised at this point.
+- Our shift's about done. I'll tell the guys on the next shift to bring a new sensor.
+...
+- 03:17
+- Come again? You want me to hand that box over to Division 13?
+- I'm sorry, sir, but that's not the order I was given. I don't care if the general told you...
+- This is... O-oh, nevermind then.
+- Right this way, Miss Richard. Let's finish up this shift change!]],
+		pic = "14402"
+	},
+	[14403] = {
+		id = 14403,
+		name = "Archives: Bon Homme Richard's Post",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 3,
+		content = [[
+Bon Homme Richard
+@Richard_NavyOfficial  – 1 month ago
+Here I come, Samos Island~!
+Maybe you've heard the news, but I got a temporary transfer to Division 13 to join the Oceanic Federation's military exercise in the Bermudas!
+(If you haven't heard, click this link here!)
+I won't be able to post after the exercise starts, so this is my last message until this thing is gone!
+
+P.S., For the next five hours after this post, I'll be on Samos for one last bit of fun in the sun before things get busy! If you happen to run into me, I'll be glad to give out autographs. No photos though!
+
+Remember, everyone: No matter how busy you are, don't forget to enjoy yourself every now and then!]],
+		pic = "14403"
+	},
+	[14404] = {
+		id = 14404,
+		name = "Archives: Survivor's Interrogation Records",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 4,
+		content = [[
+The subject of this recording is a survivor of the second fleet.
+After rehabilitation, he has recovered enough to respond to basic questions, though he will sporadically lapse into an abnormal state.
+As such, it is difficult to confirm the veracity of his testimony.
+
+——————
+- Do you remember your name?
+-- N-no... Don't come any closer!
+- Calm down, my friend. I'm going to stay outside. I won't come in.
+- Do you remember what happened before you fell into the water?
+-- It was a tornado! That's it, I saw it... A black tornado!
+-- Ahahahahah! She said she'd destroy everything! She said she was going to take me away!
+- Who is "she?"
+-- Bon Homme Richard! I saw her smiling! I heard her whispering to me!
+- So... Bon Homme Richard was inside the black tornado, and she smiled and spoke to you?
+-- No! No, no, no, no! You don't know, you don't know anything! She WAS the black tornado! The tornado smiled and talked to me!
+-- But then, I fell in the water, and... I don't remember anything after that.
+- Thank you. Get some rest, my friend.
+......]],
+		pic = "14404"
+	},
+	[14405] = {
+		id = 14405,
+		name = "Archives: Fleet Captain's Statement",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 5,
+		content = [[
+A portion of the contents has been bleeped out to protect confidential military information.
+——————
+- Your cooperation is much appreciated, Colonel [bleep]. Could you start by telling us about what was happening at the time?
+-- Show me that investigation warrant again first.
+-- Alright, it looks authentic. Fair warning, though, I don't know that I can give you a full picture of the entire incident.
+-- Put this on the record not as absolute fact, but as a personal perspective.
+- Of course. Now, I'd like you to begin.
+-- (silence)
+-- That day... the sixth and second fleets were dispatched on a joint mission, per the exercise plan. But then, we... heard a huge explosion far away.
+-- At first, I'd thought that it was a misfired missile, or the RF had started their bombardment exercise nearby. But we realized it came from a Division 13 ship next to the second fleet. Their flagship had... exploded, I guess.
+-- Actually, exploded isn't the right word. When we turned around, their flagship was just gone. In its place was a black tornado, out of nowhere.
+- Did this black tornado attack our fleet?
+-- I can't say for certain, but... That thing did start moving toward the nearest warship. Almost like it had a mind of its own. And then, we got a message from the second fleet's flagship. They said, "Stamp out rebellion."
+-- From there, the black tornado grew into a large-scale hurricane that enveloped the RF's fleet along with us. That was when utter chaos broke out. Everyone started firing on each other until they sank. It was so horrifying that I thought it was the onset of a new world war...
+- Was the sixth fleet you were in affected by the black tornado?
+-- There was enough distance between us and the black tornado to let us get away, but shortly after the tornado appeared, all our gauges and electronics malfunctioned. Then, our communication equipment went down, followed by the power system, and then—[bleep]—]],
+		pic = ""
+	},
+	[14406] = {
+		id = 14406,
+		name = "Archives: Relatives' Statements",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 6,
+		content = [[
+......
+- It's a pleasure to meet you. I believe you are Colonel Archer's father, Philip?
+-- You know damn well who I am. You people transferred us here in the first place.
+- My apologies, sir, but consider it a formality. We were given orders to bring your family here for protection purposes. You may know this already, but I'm a friend of John's. I volunteered for this mission myself.
+-- Sure, I know that. But I've got nothing to tell you. John hasn't come back in a long time, and he never talks about work in the first place.
+......
+- Mrs. Archer, I have a question for you now. Have you noticed anything unusual about your husband?
+-- Of course not! I haven't seen him in so long. If there's anything unusual, it's that you refuse to tell me anything about him.
+-- What in the world happened to my John?
+- We're trying to figure that out too, ma'am. That's why we need your cooperation.
+-- I know you won't tell me, but he was part of some secret plan, wasn't he? Something must have happened to him, right?!
+- I'm sorry, ma'am, but if you'd please just answer me...
+......
+-- There was an accident in the Bermudas; it's all over the internet, you know.
+- If you watched the news, you would know that those are baseless rumors.
+-- Is that so? Then why did you cut off the internet at our apartment? You even had our cell service shut off! Scared of us learning something, huh?
+- It was a necessary precaution to keep everyone safe.
+- Ahem... Hello, young man. You are Colonel Archer's son, yes? I have some questions—
+......]],
+		pic = ""
+	},
+	[14407] = {
+		id = 14407,
+		name = "Archives: Officer's Statement",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 7,
+		content = [[
+......
+- So, you received a message from the Enterprise, then cooperated with the Revolutionary Front in a joint operation. Is that correct?
+-- That is correct.
+- Do you understand that not only was this operation unauthorized, but also that Captain Archer of the Enterprise did not have the authority to bypass the flagship and give you orders directly?
+-- Do you have any idea what kind of situation we were in, Mr. Investigator?
+-- The second fleet was burning up and there was a massive storm raging. Our comms were completely busted. You can't maintain radio contact with the flagship when every man is fighting just to stay alive. Do you understand what I'm saying? The chain of command had completely and utterly disintegrated.
+-- What Captain Archer did was take over command to reorganize the fleet and mount a counterattack. Did I obey his orders, you ask? Yes. And I would do it again.
+-- I would follow any order if it would get us out of that hellscape alive.
+- Did Captain Archer contact the Revolutionary Front first? Did he tell them he wished to cooperate?
+-- No. They contacted him. I think they wanted revenge for their fallen comrades, just as we did.
+- You said he intended to "mount a counterattack." Against what, exactly? The tornado, a force of nature? If so, are you implying he already knew what had caused the incident?
+-- Mr. Investigator... What are you getting at?
+-- If you're trying to get me to incriminate Captain Archer, then I will not answer any more of your questions.
+......]],
+		pic = ""
+	},
+	[14408] = {
+		id = 14408,
+		name = "Archives: Submarine Action Report",
+		subTitle = "Confidentiality Level: V",
+		is_classified = 0,
+		group_ID = 8,
+		content = [[
+......
+0430: This is Sonar Room. Seas are calm. Looks like the fighting is over.
+0514: Attention, all units: lift level 1 alert. Begin damage inspection and report casualties.
+0625: Looks like only equipment using Cube technology has broken? Doesn't make any sense... We're lucky our lady New Jersey hasn't undergone Cube retrofitting yet.
+0626: Attention, all units: do not attempt to repair or use any equipment powered by Cubes.
+0700: This is Sonar Room. Spotted a damaged RF submarine. Keeping eyes on it.
+0713: RF submarine has left our sector. No longer a threat. Maintaining a low profile.
+0842: Uhh, orders from HQ to track the Enterprise? Verifying orders.
+0900: I need to know what's happening on the surface. Officer, take over radio monitoring for me.
+0910: Attention, all units: surface to combat depth. Load number one torpedo tubes. Load the second and third tubes with decoys.
+0924: Lord Almighty... May these poor souls rest in peace.
+1001: Submersible has spotted the Enterprise, currently on the move. Radioing her now.
+1010: There's... no response. Something is wrong. Radioing HQ again to verify the tracking order.
+1025: Enterprise is picking up speed, course terminus unknown. Will do the same and continue tracking.
+1200: HQ, the Enterprise has left our tracking range. Last recorded speed: 55 knots and still accelerating... Someone please tell me this is all a big joke.
+......]],
+		pic = ""
+	},
 	all = {
 		1101,
 		1102,
@@ -1815,12 +2320,20 @@ Anonymous: the only conclusion is, both fleets are toast. the world now belongs 
 		11502,
 		11503,
 		11504,
+		11505,
+		11506,
 		13101,
 		13102,
 		13103,
 		13104,
 		13105,
 		13106,
+		13201,
+		13202,
+		13203,
+		13204,
+		13205,
+		13206,
 		14101,
 		14102,
 		14103,
@@ -1832,6 +2345,20 @@ Anonymous: the only conclusion is, both fleets are toast. the world now belongs 
 		14203,
 		14204,
 		14205,
-		14206
+		14206,
+		14301,
+		14302,
+		14303,
+		14304,
+		14305,
+		14306,
+		14401,
+		14402,
+		14403,
+		14404,
+		14405,
+		14406,
+		14407,
+		14408
 	}
 }

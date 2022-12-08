@@ -147,8 +147,8 @@ function slot0.GetBuffsForMainUI()
 
 		for slot10, slot11 in ipairs(getProxy(PlayerProxy):getRawData().buff_list) do
 			if table.indexof(slot5, slot11.id, 1) then
-				if pg.TimeMgr.GetInstance():GetServerTime() < slot11.timestamp and ActivityBuff.New(slot3.id, slot11.id, slot11.timestamp):checkShow() then
-					table.insert(slot1, slot14)
+				if pg.TimeMgr.GetInstance():GetServerTime() < slot11.timestamp and ActivityBuff.New(slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME).id, slot11.id, slot11.timestamp):checkShow() then
+					table.insert(slot1, slot15)
 				end
 
 				break
@@ -162,8 +162,8 @@ function slot0.GetBuffsForMainUI()
 
 		for slot11, slot12 in ipairs(getProxy(PlayerProxy):getRawData().buff_list) do
 			if table.indexof(slot6, slot12.id, 1) then
-				if pg.TimeMgr.GetInstance():GetServerTime() < slot12.timestamp and ActivityBuff.New(slot4.id, slot12.id, slot12.timestamp):checkShow() then
-					table.insert(slot1, slot15)
+				if pg.TimeMgr.GetInstance():GetServerTime() < slot12.timestamp and ActivityBuff.New(slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME).id, slot12.id, slot12.timestamp):checkShow() then
+					table.insert(slot1, slot16)
 				end
 
 				break

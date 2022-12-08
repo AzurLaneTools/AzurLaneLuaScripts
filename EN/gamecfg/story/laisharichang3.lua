@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_nepu1",
-			bgm = "ryza-11",
+			bgm = "story-1",
 			say = "Port - Training Area",
 			flashout = {
 				black = true,

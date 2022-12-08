@@ -1160,6 +1160,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100031] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "Win 1 battle with Arizona META in your fleet.",
+		id = 100031,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100032] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Arizona META in your fleet.",
+		id = 100032,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100033] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Arizona META in your fleet.",
+		id = 100033,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100034] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Arizona META in your fleet.",
+		id = 100034,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100035] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Arizona META in your fleet.",
+		id = 100035,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1221,6 +1261,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Fortune META in your fleet.",
 		id = 200024,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200031] = {
+		target_id_2 = "970503",
+		sub_type = 302,
+		desc = "Win 1 battle in Operation Siren with Arizona META in your fleet.",
+		id = 200031,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200032] = {
+		target_id_2 = "970503",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Arizona META in your fleet.",
+		id = 200032,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200033] = {
+		target_id_2 = "970503",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Arizona META in your fleet.",
+		id = 200033,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200034] = {
+		target_id_2 = "970503",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Arizona META in your fleet.",
+		id = 200034,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1370,6 +1442,11 @@ pg.task_meta_data_template = {
 		100023,
 		100024,
 		100025,
+		100031,
+		100032,
+		100033,
+		100034,
+		100035,
 		200001,
 		200002,
 		200003,
@@ -1377,6 +1454,10 @@ pg.task_meta_data_template = {
 		200021,
 		200022,
 		200023,
-		200024
+		200024,
+		200031,
+		200032,
+		200033,
+		200034
 	}
 }

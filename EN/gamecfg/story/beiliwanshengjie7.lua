@@ -26,7 +26,7 @@ return {
 			bgm = "story-1",
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "Finally, I’m back on the ground...",
+			say = "Finally, I'm back on the ground...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "We’ve finally caught up to you, Miss ghost!",
+			say = "We've finally caught up to you, Miss Ghost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "What’d you all think! That was Sara’s amazing airplane maneuvering skills!",
+			say = "What'd you all think! That was Sara's amazing airplane maneuvering skills!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			actorName = "???",
-			say = "“Hey, did you hear? Rumor has it the warehouse in Port area is haunted!”... ",
+			say = "\"Hey, did you hear? Rumor has it the warehouse in port is haunted!\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			actorName = "???",
-			say = "“How is that possible!”... “Even though it’s Halloween, actual ghosts shouldn’t exist!”",
+			say = "\"How is that possible!\"... \"Even though it's Halloween, actual ghosts shouldn't exist!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Well that...Yuubari just collected all of them. She said for the next test, they still need to be adjusted...",
+			say = "Well that... Yuubari just collected all of them. She said for the next test, they still need to be adjusted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Is this typical for Halloween...I mean I knew it was going to be a prank, but I didn’t expect you girls to use the research tech from our Port laboratory.",
+			say = "Is this typical for Halloween... I mean I knew it was going to be a prank, but I didn't expect you girls to use the research tech from our port laboratory",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Relax relax, we should consider this “Happy Halloween Trick or Treat” to be a success, nyaa~",
+			say = "Relax relax, we should consider this \"Happy Halloween Trick or Treat\" to be a success, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "This is the pumpkin pie prepared by Kagerou? Great, let’s dig in everyone~",
+			say = "This is the pumpkin pie prepared by Kagerou? Great, let's dig in everyone~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Wow, this turned out actually not bad...ah! Rodney! You knew all along from the beginning!",
+			say = "Wow, this turned out actually not bad... Ah! Rodney! You knew all along from the beginning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,11 +453,10 @@ return {
 		},
 		{
 			actor = 312010,
-			side = 2,
-			bgName = "bg_night",
 			nameColor = "#a9f548",
+			bgName = "bg_night",
 			dir = 1,
-			say = "Hmm…after such a public showing, those witch costumes must be sold out by now, Akashi is such a genius!",
+			say = "Hmm... After such a public showing, those witch costumes must be sold out by now, Akashi is such a genius!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +498,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Meow?! Pur...Nyaa~ There’s not much time left for Halloween, please take advantage and enjoy the remainder of your time!",
+			say = "Meow?! Pur... Nya~ There's not much time left for Halloween, please take advantage and enjoy the remainder of your time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +548,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "wait wait,Don’t change the subject! ",
+			say = "Wait wait! Don't change the subject! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

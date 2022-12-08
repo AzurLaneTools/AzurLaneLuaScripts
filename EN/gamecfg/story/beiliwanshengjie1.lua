@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "Wow~ It’s so big!",
+			say = "Wow~ It's so big!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "Is this the “Super Pumpkin Lantern” that we’re showing off today?",
+			say = "Is this the \"Super Pumpkin Lantern\" that we're showing off today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Sure is! The pumpkin was home grown and then carved out! With everyone’s help, we were able to create such an awesome pumpkin lantern!",
+			say = "Sure is! The pumpkin was home grown and then carved out! With everyone's help, we were able to create such an awesome pumpkin lantern!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Oh, I just can’t wait, let’s try out these effects, quickly!",
+			say = "Oh, I just can't wait, let's try out these effects, quickly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...Strange? Nothing’s happening? Could the lantern be malfunctioning?",
+			say = "...Strange? Nothing's happening? Could the lantern be malfunctioning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "Oh...this seems troublesome, the party will start shortly tonight...",
+			say = "Oh... This seems troublesome, the party will start shortly tonight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "There seems to be something inside...the pumpkin’s mouth...",
+			say = "There seems to be something inside...the pumpkin's mouth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Eh? Oh,gosh,you’re right! There’s a note!",
+			say = "Eh? Oh, gosh, you're right! There's a note!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "“We have lost a ghost mingling amongst us at this Halloween party, only the combined power of three virtuous witches can send it home.”",
+			say = "\"We have lost a ghost mingling amongst us at this Halloween party, only the combined power of three virtuous witches can send it home.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hehe, it’s time! Here comes the witch from the Rabbit Planet!",
+			say = "Hehe, it's time! Here comes the witch from Planet Bunny!",
 			effects = {
 				{
 					active = true,
@@ -363,7 +363,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Let the rabbit witch help out Bailey!",
+			say = "Let Bailey the rabbit witch help out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

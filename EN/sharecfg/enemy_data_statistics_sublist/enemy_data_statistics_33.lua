@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_33 = {
+	[771] = {
+		cannon = 162,
+		battle_unit_type = 95,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 20006,
+		air = 0,
+		speed = 27,
+		dodge = 80,
+		id = 771,
+		cannon_growth = 0,
+		rarity = 5,
+		reload_growth = 0,
+		dodge_growth = 0,
+		armor = 0,
+		star = 6,
+		hit = 92,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90282,
+		durability = 200000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		luck = 88,
+		torpedo = 220,
+		durability_growth = 0,
+		antisub = 0,
+		antiaircraft = 360,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[800] = {
 		cannon = 25,
 		name = "Novice Corvette",
@@ -1072,44 +1110,6 @@ pg.enemy_data_statistics_33 = {
 			300160,
 			300167,
 			300168
-		}
-	},
-	[834] = {
-		cannon = 100,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20011,
-		air = 0,
-		rarity = 4,
-		dodge = 0,
-		torpedo = 220,
-		durability_growth = 0,
-		antiaircraft = 40,
-		reload_growth = 0,
-		dodge_growth = 0,
-		hit_growth = 0,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 60,
-		base = 90248,
-		durability = 3600,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		speed = 20,
-		luck = 0,
-		id = 834,
-		antiaircraft_growth = 0,
-		antisub = 160,
-		armor = 0,
-		fog_fx = "",
-		equipment_list = {
-			300160,
-			300167,
-			300169
 		}
 	}
 }

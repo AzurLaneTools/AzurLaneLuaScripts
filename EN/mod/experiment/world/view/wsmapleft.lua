@@ -228,7 +228,9 @@ function slot0.OnUpdateSubmarineSupport(slot0)
 	setActive(slot0.rtSubBar, slot1:IsSubmarineSupporting())
 
 	if slot1:GetSubmarineFleet() then
-		setText(slot0.rtAmmo, slot2:GetAmmo() .. "/" .. slot2:GetTotalAmmo())
+		slot3, slot4 = slot2:GetAmmo()
+
+		setText(slot0.rtAmmo, slot3 .. "/" .. slot4)
 		setGray(slot0.rtSubBar, slot2:GetAmmo() <= 0, true)
 	end
 end

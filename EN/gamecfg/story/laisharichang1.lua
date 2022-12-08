@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			bgm = "ryza-11",
+			bgm = "story-1",
 			say = "This story takes place after the trouble in the Mirror Sea. It was an ordinary day like any other...",
 			flashout = {
 				black = true,

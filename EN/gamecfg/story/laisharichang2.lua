@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			bgm = "ryza-12",
+			bgm = "story-1",
 			say = "Port - Ryza's (Temporary) Atelier",
 			flashout = {
 				black = true,
@@ -716,7 +716,7 @@ return {
 			bgName = "bg_story_task",
 			stopbgm = true,
 			say = "After a lot of hard work, the girls manage to gather the ingredients needed to – hopefully – make bombs.",
-			bgm = "ryza-1",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

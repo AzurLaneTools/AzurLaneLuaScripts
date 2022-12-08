@@ -8468,6 +8468,10 @@ pg.skill_data_display = {
 		id = 200026,
 		name = "Paralyzing Advance "
 	},
+	[200203] = {
+		id = 200203,
+		name = "Yesterday Once More"
+	},
 	[800010] = {
 		id = 800010,
 		name = "Shadowflame Torch"
@@ -8948,6 +8952,30 @@ pg.skill_data_display = {
 		id = 800622,
 		name = "Fortune and Causality"
 	},
+	[800652] = {
+		id = 800652,
+		name = "No More Tears"
+	},
+	[800653] = {
+		id = 800653,
+		name = "No More Tears"
+	},
+	[800654] = {
+		id = 800654,
+		name = "No More Tears+"
+	},
+	[800656] = {
+		id = 800656,
+		name = "No More Tears"
+	},
+	[800662] = {
+		id = 800662,
+		name = "Yesterday Once More"
+	},
+	[800664] = {
+		id = 800664,
+		name = "Yesterday Once More"
+	},
 	[1010140] = {
 		id = 1010140,
 		name = "Eagle's Tears+"
@@ -9068,6 +9096,18 @@ pg.skill_data_display = {
 		id = 200143,
 		name = "Heaven's Black Cave"
 	},
+	[200159] = {
+		id = 200159,
+		name = "占坑损管LV1"
+	},
+	[200161] = {
+		id = 200161,
+		name = "占坑损管LV2"
+	},
+	[200163] = {
+		id = 200163,
+		name = "占坑损管LV3"
+	},
 	[200167] = {
 		id = 200167,
 		name = "Core Upgrade - Covering Fire Lv.1"
@@ -9115,6 +9155,14 @@ pg.skill_data_display = {
 	[200194] = {
 		id = 200194,
 		name = "Core Upgrade - Damage Control Lv.3"
+	},
+	[200201] = {
+		id = 200201,
+		name = "Pearl's Tears"
+	},
+	[200202] = {
+		id = 200202,
+		name = "Oh... This is..."
 	},
 	[1011540] = {
 		id = 1011540,
@@ -11322,6 +11370,7 @@ pg.skill_data_display = {
 		109241,
 		109242,
 		200026,
+		200203,
 		800010,
 		800020,
 		800021,
@@ -11442,6 +11491,12 @@ pg.skill_data_display = {
 		800620,
 		800621,
 		800622,
+		800652,
+		800653,
+		800654,
+		800656,
+		800662,
+		800664,
 		1010140,
 		1010143,
 		1010144,
@@ -11472,6 +11527,9 @@ pg.skill_data_display = {
 		200120,
 		200121,
 		200143,
+		200159,
+		200161,
+		200163,
 		200167,
 		200168,
 		200171,
@@ -11484,6 +11542,8 @@ pg.skill_data_display = {
 		200192,
 		200193,
 		200194,
+		200201,
+		200202,
 		1011540,
 		1011541,
 		1090010,

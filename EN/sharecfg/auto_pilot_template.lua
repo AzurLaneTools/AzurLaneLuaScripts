@@ -9003,6 +9003,52 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[75020] = {
+		id = 75020,
+		name = "黑亚利桑那 开幕弹移动方式",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1.5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -5,
+					moveCount = 240,
+					duration = 2,
+					X1 = -20,
+					stopCount = 90
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -5,
+					z = 55
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[80000] = {
 		id = 80000,
 		name = "自爆船AI",

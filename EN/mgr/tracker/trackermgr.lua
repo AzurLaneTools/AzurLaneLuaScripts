@@ -54,6 +54,8 @@ function slot0.Ctor(slot0)
 		slot1 = require("Mgr.Tracker.AiriUSTracker")
 	elseif PLATFORM_CODE == PLATFORM_KR then
 		slot1 = require("Mgr.Tracker.KwxyKrTracker")
+	elseif PLATFORM_CODE == PLATFORM_CHT then
+		slot1 = require("Mgr.Tracker.YongshiTracker")
 	end
 
 	if slot1 then

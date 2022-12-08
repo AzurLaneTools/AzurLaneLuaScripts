@@ -31,6 +31,16 @@ return {
 			arg_list = {
 				count = 1
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "Pearl's-Tears"
+			}
 		}
 	}
 }

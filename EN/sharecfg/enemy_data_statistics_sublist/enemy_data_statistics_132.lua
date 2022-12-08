@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_132 = {
+	[10101007] = {
+		cannon = 18,
+		battle_unit_type = 60,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		speed = 20,
+		dodge = 11,
+		id = 10101007,
+		cannon_growth = 1400,
+		rarity = 3,
+		reload_growth = 0,
+		dodge_growth = 156,
+		armor = 0,
+		star = 3,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90181,
+		durability = 1100,
+		armor_growth = 0,
+		torpedo_growth = 5400,
+		luck_growth = 0,
+		hit_growth = 210,
+		luck = 0,
+		torpedo = 95,
+		durability_growth = 29500,
+		antisub = 0,
+		antiaircraft = 50,
+		antiaircraft_growth = 2120,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			561008,
+			561009
+		}
+	},
 	[10101008] = {
 		cannon = 10,
 		battle_unit_type = 60,
@@ -791,116 +831,6 @@ pg.enemy_data_statistics_132 = {
 			562006,
 			562007,
 			562008
-		}
-	},
-	[10102007] = {
-		cannon = 25,
-		antiaircraft_growth = 2200,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 18,
-		dodge = 6,
-		luck = 0,
-		id = 10102007,
-		cannon_growth = 2400,
-		reload_growth = 0,
-		dodge_growth = 84,
-		reload = 150,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		rarity = 4,
-		base = 90213,
-		durability = 1960,
-		armor_growth = 0,
-		torpedo_growth = 1920,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 35,
-		durability_growth = 52000,
-		antisub = 0,
-		antiaircraft = 40,
-		battle_unit_type = 60,
-		bound_bone = {
-			cannon = {
-				{
-					-0.53,
-					0.802,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.235,
-					0.484,
-					0
-				},
-				{
-					0.847,
-					0.34,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.227,
-					0.408,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.235,
-					0.484,
-					0
-				},
-				{
-					0.847,
-					0.34,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.531,
-							0.427,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.711,
-							0.361,
-							0
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			562009,
-			562010,
-			562011,
-			562012
 		}
 	}
 }

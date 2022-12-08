@@ -64,7 +64,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701021] = {
-		breakout_view = "Learn Cinders of Hope - Fortune/Main Gun efficiency +5%",
+		breakout_view = "Unlock Cinders of Hope - Fortune/Main Gun efficiency +5%",
 		gold = 500,
 		breakout_id = 9701022,
 		repair = 0,
@@ -127,7 +127,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702011] = {
-		breakout_view = "Learn Ashen Might - Helena I/Main gun efficiency +5%",
+		breakout_view = "Unlock Ashen Might – Helena/Main gun efficiency +5%",
 		gold = 1000,
 		breakout_id = 9702012,
 		repair = 0,
@@ -190,7 +190,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702021] = {
-		breakout_view = "Learn Framework of Logic - Memphis I/All weapons' efficiency +2%",
+		breakout_view = "Unlock Framework of Logic – Memphis/All weapons' efficiency +2%",
 		gold = 500,
 		breakout_id = 9702022,
 		repair = 0,
@@ -223,7 +223,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9702023] = {
-		breakout_view = "Framework of Logic - Memphis II/All weapons' efficiency +5%",
+		breakout_view = "Improve Framework of Logic – Memphis/All weapons' efficiency +5%",
 		gold = 2500,
 		breakout_id = 9702024,
 		repair = 0,
@@ -253,7 +253,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703011] = {
-		breakout_view = "Learn Flickering Light – Trento I/Main gun efficiency +5%",
+		breakout_view = "Unlock Flickering Light – Trento/Main gun efficiency +5%",
 		gold = 500,
 		breakout_id = 9703012,
 		repair = 0,
@@ -580,7 +580,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705011] = {
-		breakout_view = "Learn skill Ashen Might/Main gun base +1/Main gun efficiency +5%",
+		breakout_view = "Unlock Ashen Might – Fusou/Main gun base +1/Main gun efficiency +5%",
 		gold = 500,
 		breakout_id = 9705012,
 		repair = 0,
@@ -615,7 +615,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9705013] = {
-		breakout_view = "Improve skill Ashen Might/Main gun base +1/Main gun efficiency +15%",
+		breakout_view = "Improve Ashen Might – Fusou/Main gun base +1/Main gun efficiency +15%",
 		gold = 2500,
 		breakout_id = 9705014,
 		repair = 0,
@@ -647,7 +647,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705021] = {
-		breakout_view = "Learn skill Flickering Light/Main gun base +1/Main gun efficiency +5%",
+		breakout_view = "Unlock Flickering Light – Yamashiro/Main gun base +1/Main gun efficiency +5%",
 		gold = 500,
 		breakout_id = 9705022,
 		repair = 0,
@@ -682,7 +682,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9705023] = {
-		breakout_view = "Improve skill Flickering Light/Main gun efficiency +15%",
+		breakout_view = "Improve Flickering Light – Yamashiro/Main gun efficiency +15%",
 		gold = 2500,
 		breakout_id = 9705024,
 		repair = 0,
@@ -712,8 +712,75 @@ pg.ship_meta_breakout = {
 		pre_id = 9705023,
 		weapon_ids = {}
 	},
+	[9705031] = {
+		breakout_view = "Unlock Framework of Logic – Arizona/Main gun base +1/Main gun efficiency +5%",
+		gold = 1000,
+		breakout_id = 9705032,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9705031,
+		item1 = 21017,
+		pre_id = 0,
+		weapon_ids = {
+			14100,
+			14100
+		}
+	},
+	[9705032] = {
+		breakout_view = "Secondary Gun base +2/Main gun efficiency +10%",
+		gold = 3000,
+		breakout_id = 9705033,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9705032,
+		item1 = 21017,
+		pre_id = 9705031,
+		weapon_ids = {
+			11100,
+			11100,
+			11100
+		}
+	},
+	[9705033] = {
+		breakout_view = "Improve Framework of Logic – Arizona/Main gun efficiency +15%",
+		gold = 10000,
+		breakout_id = 9705034,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9705033,
+		item1 = 21017,
+		pre_id = 9705032,
+		weapon_ids = {
+			14100,
+			14100,
+			14100
+		}
+	},
+	[9705034] = {
+		breakout_view = "N/A",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9705034,
+		item1 = 21017,
+		pre_id = 9705033,
+		weapon_ids = {}
+	},
 	[9706011] = {
-		breakout_view = "Learn skill Ashen Might/All Torpedo Bombers +1/Aircraft efficiency +3%",
+		breakout_view = "Unlock Ashen Might – Hiyou/All Torpedo Bombers +1/Aircraft efficiency +3%",
 		gold = 500,
 		breakout_id = 9706012,
 		repair = 0,
@@ -749,7 +816,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9706013] = {
-		breakout_view = "Improve skill Ashen Might/All Dive Bombers +2/Aircraft efficiency +7%",
+		breakout_view = "ImproveAshen Might – Hiyou/All Dive Bombers +2/Aircraft efficiency +7%",
 		gold = 2500,
 		breakout_id = 9706014,
 		repair = 0,
@@ -782,7 +849,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9706021] = {
-		breakout_view = "Learn skill Ashen Might/All Dive Bombers +1/Aircraft efficiency +3%",
+		breakout_view = "Unlock Ashen Might – Junyou/All Dive Bombers +1/Aircraft efficiency +3%",
 		gold = 500,
 		breakout_id = 9706022,
 		repair = 0,
@@ -818,7 +885,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9706023] = {
-		breakout_view = "Improve skill Ashen Might/All Torpedo Bombers +1/Aircraft efficiency +7%",
+		breakout_view = "Improve Ashen Might – Junyou/All Torpedo Bombers +1/Aircraft efficiency +7%",
 		gold = 2500,
 		breakout_id = 9706024,
 		repair = 0,
@@ -851,7 +918,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707011] = {
-		breakout_view = "Learn skill Ashen Might/All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
+		breakout_view = "Unlock Ashen Might·Hiryuu/All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
 		gold = 1000,
 		breakout_id = 9707012,
 		repair = 0,
@@ -887,7 +954,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707013] = {
-		breakout_view = "Improve skill Ashen Might/All aircraft +1/Torpedo Bomber efficiency +15%",
+		breakout_view = "Improve Ashen Might·Hiryuu/All aircraft +1/Torpedo Bomber efficiency +15%",
 		gold = 10000,
 		breakout_id = 9707014,
 		repair = 0,
@@ -920,7 +987,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707021] = {
-		breakout_view = "Learn skill Ashen Might/All Torpedo Bombers +1/Torpedo Bomber efficiency +3%",
+		breakout_view = "Unlock Ashen Might – Ark Royal/All Torpedo Bombers +1/Torpedo Bomber efficiency +3%",
 		gold = 1000,
 		breakout_id = 9707022,
 		repair = 0,
@@ -956,7 +1023,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707023] = {
-		breakout_view = "Improve skill Ashen Might/All Torpedo Bombers +1/Torpedo Bomber efficiency +7%",
+		breakout_view = "Improve Ashen Might – Ark Royal/All Torpedo Bombers +1/Torpedo Bomber efficiency +7%",
 		gold = 10000,
 		breakout_id = 9707024,
 		repair = 0,
@@ -989,7 +1056,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707031] = {
-		breakout_view = "Learn skill Flickering Light/All Dive Bombers +1/Dive Bombers efficiency +5%",
+		breakout_view = "Unlock Flickering Light – Souryuu/All Dive Bombers +1/Dive Bombers efficiency +5%",
 		gold = 1000,
 		breakout_id = 9707032,
 		repair = 0,
@@ -1025,7 +1092,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707033] = {
-		breakout_view = "Improve skill Flickering Light/All aircraft +1/Dive Bombers efficiency +15%",
+		breakout_view = "Improve Flickering Light – Souryuu/All aircraft +1/Dive Bombers efficiency +15%",
 		gold = 10000,
 		breakout_id = 9707034,
 		repair = 0,
@@ -1102,6 +1169,10 @@ pg.ship_meta_breakout = {
 		9705022,
 		9705023,
 		9705024,
+		9705031,
+		9705032,
+		9705033,
+		9705034,
 		9706011,
 		9706012,
 		9706013,

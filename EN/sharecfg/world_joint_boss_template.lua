@@ -92,7 +92,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "Souryuu META",
 		painting = "canglong",
 		boss_level_id = 46,
@@ -112,16 +112,16 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			818,
-			1268.1,
-			1.7,
-			1.7
+			-36.45481,
+			610.5,
+			0.95,
+			0.95
 		},
 		p_offset_other = {
-			1424,
-			1267.9,
-			1.7,
-			1.7
+			296,
+			610,
+			0.95,
+			0.95
 		}
 	},
 	{
@@ -221,12 +221,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "Renown META",
 		painting = "shengwang",
 		boss_level_id = 106,
 		id = 8,
 		meta_id = 970404,
+		item_id = 100000,
 		description = {
 			{
 				"Meteor Shower",
@@ -249,12 +250,44 @@ pg.world_joint_boss_template = {
 				"This ship can launch huge lava projectiles, inflicting huge damage to Main Fleet ships they come in contact with as well as rendering aircraft carriers Detected."
 			}
 		},
+		p_offset = {
+			-49.8,
+			589.5,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			388,
+			586.2,
+			0.9,
+			0.9
+		}
+	},
+	{
+		item_id = 100000,
+		name = "Arizona META",
+		painting = "yalisangna",
+		boss_level_id = 121,
+		id = 9,
+		meta_id = 970503,
+		description = {
+			{
+				"Contagious Lament",
+				2,
+				"This ship summons a blue fog during battle. Ships inside this fog have reduced SPD and take more DMG.\nThe fog's debuffs <color=#92fc63>become stronger the longer your ships remain inside the fog</color>. The debuffs gradually disappear once your ships exit the fog."
+			},
+			{
+				"Sea of Black Tears",
+				1,
+				"When an enemy ship's max HP falls below 50.0%, she begins recovering HP for the rest of the battle.\nWhen an enemy ship's max HP falls below 20.0%, <color=#92fc63>all her HP recovery will instead be dealt as DMG.</color>"
+			}
+		},
 		state = {
 			{
 				{
 					2022,
-					9,
-					1
+					12,
+					8
 				},
 				{
 					0,
@@ -264,9 +297,9 @@ pg.world_joint_boss_template = {
 			},
 			{
 				{
-					2022,
-					12,
-					7
+					2023,
+					3,
+					8
 				},
 				{
 					23,
@@ -296,6 +329,7 @@ pg.world_joint_boss_template = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }

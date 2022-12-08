@@ -196,6 +196,10 @@ pg.arena_data_shop = {
 			{
 				33044,
 				50
+			},
+			{
+				33080,
+				100
 			}
 		},
 		refresh_price = {

@@ -15454,7 +15454,8 @@ _G.pg.base.ship_data_template[105011] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15498,7 +15499,8 @@ _G.pg.base.ship_data_template[105012] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15543,7 +15545,8 @@ _G.pg.base.ship_data_template[105013] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15588,7 +15591,8 @@ _G.pg.base.ship_data_template[105014] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15633,7 +15637,8 @@ _G.pg.base.ship_data_template[105021] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15677,7 +15682,8 @@ _G.pg.base.ship_data_template[105022] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15722,7 +15728,8 @@ _G.pg.base.ship_data_template[105023] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15767,7 +15774,8 @@ _G.pg.base.ship_data_template[105024] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15812,7 +15820,8 @@ _G.pg.base.ship_data_template[105031] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15855,7 +15864,8 @@ _G.pg.base.ship_data_template[105032] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15899,7 +15909,8 @@ _G.pg.base.ship_data_template[105033] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15943,7 +15954,8 @@ _G.pg.base.ship_data_template[105034] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -15987,7 +15999,8 @@ _G.pg.base.ship_data_template[105041] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16030,7 +16043,8 @@ _G.pg.base.ship_data_template[105042] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16074,7 +16088,8 @@ _G.pg.base.ship_data_template[105043] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16118,7 +16133,8 @@ _G.pg.base.ship_data_template[105044] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16162,7 +16178,8 @@ _G.pg.base.ship_data_template[105071] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16205,7 +16222,8 @@ _G.pg.base.ship_data_template[105072] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16249,7 +16267,8 @@ _G.pg.base.ship_data_template[105073] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16293,7 +16312,8 @@ _G.pg.base.ship_data_template[105074] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16337,7 +16357,8 @@ _G.pg.base.ship_data_template[105081] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16380,7 +16401,8 @@ _G.pg.base.ship_data_template[105082] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16424,7 +16446,8 @@ _G.pg.base.ship_data_template[105083] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16468,7 +16491,8 @@ _G.pg.base.ship_data_template[105084] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16512,7 +16536,8 @@ _G.pg.base.ship_data_template[105091] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16555,7 +16580,8 @@ _G.pg.base.ship_data_template[105092] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16599,7 +16625,8 @@ _G.pg.base.ship_data_template[105093] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16643,7 +16670,8 @@ _G.pg.base.ship_data_template[105094] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16687,7 +16715,8 @@ _G.pg.base.ship_data_template[105101] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16732,7 +16761,8 @@ _G.pg.base.ship_data_template[105102] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16778,7 +16808,8 @@ _G.pg.base.ship_data_template[105103] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16824,7 +16855,8 @@ _G.pg.base.ship_data_template[105104] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16870,7 +16902,8 @@ _G.pg.base.ship_data_template[105111] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16913,7 +16946,8 @@ _G.pg.base.ship_data_template[105112] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -16957,7 +16991,8 @@ _G.pg.base.ship_data_template[105113] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17001,7 +17036,8 @@ _G.pg.base.ship_data_template[105114] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17045,7 +17081,8 @@ _G.pg.base.ship_data_template[105121] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17090,7 +17127,8 @@ _G.pg.base.ship_data_template[105122] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17136,7 +17174,8 @@ _G.pg.base.ship_data_template[105123] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17182,7 +17221,8 @@ _G.pg.base.ship_data_template[105124] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17228,7 +17268,8 @@ _G.pg.base.ship_data_template[105131] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17273,7 +17314,8 @@ _G.pg.base.ship_data_template[105132] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17319,7 +17361,8 @@ _G.pg.base.ship_data_template[105133] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17365,7 +17408,8 @@ _G.pg.base.ship_data_template[105134] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17411,7 +17455,8 @@ _G.pg.base.ship_data_template[105141] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17456,7 +17501,8 @@ _G.pg.base.ship_data_template[105142] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17502,7 +17548,8 @@ _G.pg.base.ship_data_template[105143] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17548,7 +17595,8 @@ _G.pg.base.ship_data_template[105144] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17594,7 +17642,8 @@ _G.pg.base.ship_data_template[105171] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17641,7 +17690,8 @@ _G.pg.base.ship_data_template[105172] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17689,7 +17739,8 @@ _G.pg.base.ship_data_template[105173] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17737,7 +17788,8 @@ _G.pg.base.ship_data_template[105174] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17785,7 +17837,8 @@ _G.pg.base.ship_data_template[105191] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17830,7 +17883,8 @@ _G.pg.base.ship_data_template[105192] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17876,7 +17930,8 @@ _G.pg.base.ship_data_template[105193] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17922,7 +17977,8 @@ _G.pg.base.ship_data_template[105194] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -17968,7 +18024,8 @@ _G.pg.base.ship_data_template[105201] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -18013,7 +18070,8 @@ _G.pg.base.ship_data_template[105202] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -18059,7 +18117,8 @@ _G.pg.base.ship_data_template[105203] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -18105,7 +18164,8 @@ _G.pg.base.ship_data_template[105204] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -35777,7 +35837,8 @@ _G.pg.base.ship_data_template[204011] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -35820,7 +35881,8 @@ _G.pg.base.ship_data_template[204012] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -35864,7 +35926,8 @@ _G.pg.base.ship_data_template[204013] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -35908,7 +35971,8 @@ _G.pg.base.ship_data_template[204014] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -35952,7 +36016,8 @@ _G.pg.base.ship_data_template[204021] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -35995,7 +36060,8 @@ _G.pg.base.ship_data_template[204022] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36039,7 +36105,8 @@ _G.pg.base.ship_data_template[204023] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36083,7 +36150,8 @@ _G.pg.base.ship_data_template[204024] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36127,7 +36195,8 @@ _G.pg.base.ship_data_template[204031] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36170,7 +36239,8 @@ _G.pg.base.ship_data_template[204032] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36214,7 +36284,8 @@ _G.pg.base.ship_data_template[204033] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36258,7 +36329,8 @@ _G.pg.base.ship_data_template[204034] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36302,7 +36374,8 @@ _G.pg.base.ship_data_template[204041] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36347,7 +36420,8 @@ _G.pg.base.ship_data_template[204042] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36393,7 +36467,8 @@ _G.pg.base.ship_data_template[204043] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36439,7 +36514,8 @@ _G.pg.base.ship_data_template[204044] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36486,7 +36562,8 @@ _G.pg.base.ship_data_template[205011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36530,7 +36607,8 @@ _G.pg.base.ship_data_template[205012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36575,7 +36653,8 @@ _G.pg.base.ship_data_template[205013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36620,7 +36699,8 @@ _G.pg.base.ship_data_template[205014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36665,7 +36745,8 @@ _G.pg.base.ship_data_template[205021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36710,7 +36791,8 @@ _G.pg.base.ship_data_template[205022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36756,7 +36838,8 @@ _G.pg.base.ship_data_template[205023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36802,7 +36885,8 @@ _G.pg.base.ship_data_template[205024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36848,7 +36932,8 @@ _G.pg.base.ship_data_template[205124] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10,
@@ -36895,7 +36980,8 @@ _G.pg.base.ship_data_template[205031] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36939,7 +37025,8 @@ _G.pg.base.ship_data_template[205032] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -36984,7 +37071,8 @@ _G.pg.base.ship_data_template[205033] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37029,7 +37117,8 @@ _G.pg.base.ship_data_template[205034] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37074,7 +37163,8 @@ _G.pg.base.ship_data_template[205041] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37118,7 +37208,8 @@ _G.pg.base.ship_data_template[205042] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37163,7 +37254,8 @@ _G.pg.base.ship_data_template[205043] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37208,7 +37300,8 @@ _G.pg.base.ship_data_template[205044] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37253,7 +37346,8 @@ _G.pg.base.ship_data_template[205051] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37299,7 +37393,8 @@ _G.pg.base.ship_data_template[205052] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37346,7 +37441,8 @@ _G.pg.base.ship_data_template[205053] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37393,7 +37489,8 @@ _G.pg.base.ship_data_template[205054] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37440,7 +37537,8 @@ _G.pg.base.ship_data_template[205061] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37484,7 +37582,8 @@ _G.pg.base.ship_data_template[205062] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37529,7 +37628,8 @@ _G.pg.base.ship_data_template[205063] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37574,7 +37674,8 @@ _G.pg.base.ship_data_template[205064] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37619,7 +37720,8 @@ _G.pg.base.ship_data_template[205071] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37665,7 +37767,8 @@ _G.pg.base.ship_data_template[205072] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37712,7 +37815,8 @@ _G.pg.base.ship_data_template[205073] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37759,7 +37863,8 @@ _G.pg.base.ship_data_template[205074] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37806,7 +37911,8 @@ _G.pg.base.ship_data_template[205091] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37852,7 +37958,8 @@ _G.pg.base.ship_data_template[205092] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37899,7 +38006,8 @@ _G.pg.base.ship_data_template[205093] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37946,7 +38054,8 @@ _G.pg.base.ship_data_template[205094] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -37993,7 +38102,8 @@ _G.pg.base.ship_data_template[205101] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38039,7 +38149,8 @@ _G.pg.base.ship_data_template[205102] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38086,7 +38197,8 @@ _G.pg.base.ship_data_template[205103] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38133,7 +38245,8 @@ _G.pg.base.ship_data_template[205104] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38180,7 +38293,8 @@ _G.pg.base.ship_data_template[205111] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38226,7 +38340,8 @@ _G.pg.base.ship_data_template[205112] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38273,7 +38388,8 @@ _G.pg.base.ship_data_template[205113] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38320,7 +38436,8 @@ _G.pg.base.ship_data_template[205114] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38367,7 +38484,8 @@ _G.pg.base.ship_data_template[205131] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38415,7 +38533,8 @@ _G.pg.base.ship_data_template[205132] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38464,7 +38583,8 @@ _G.pg.base.ship_data_template[205133] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -38513,7 +38633,8 @@ _G.pg.base.ship_data_template[205134] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -57993,7 +58114,8 @@ _G.pg.base.ship_data_template[304011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58037,7 +58159,8 @@ _G.pg.base.ship_data_template[304012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58082,7 +58205,8 @@ _G.pg.base.ship_data_template[304013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58127,7 +58251,8 @@ _G.pg.base.ship_data_template[304014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58172,7 +58297,8 @@ _G.pg.base.ship_data_template[304021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58216,7 +58342,8 @@ _G.pg.base.ship_data_template[304022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58261,7 +58388,8 @@ _G.pg.base.ship_data_template[304023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58306,7 +58434,8 @@ _G.pg.base.ship_data_template[304024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58351,7 +58480,8 @@ _G.pg.base.ship_data_template[304031] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58395,7 +58525,8 @@ _G.pg.base.ship_data_template[304032] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58440,7 +58571,8 @@ _G.pg.base.ship_data_template[304033] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58485,7 +58617,8 @@ _G.pg.base.ship_data_template[304034] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58530,7 +58663,8 @@ _G.pg.base.ship_data_template[304041] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58574,7 +58708,8 @@ _G.pg.base.ship_data_template[304042] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58619,7 +58754,8 @@ _G.pg.base.ship_data_template[304043] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58664,7 +58800,8 @@ _G.pg.base.ship_data_template[304044] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58709,7 +58846,8 @@ _G.pg.base.ship_data_template[304051] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58757,7 +58895,8 @@ _G.pg.base.ship_data_template[304052] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58806,7 +58945,8 @@ _G.pg.base.ship_data_template[304053] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58855,7 +58995,8 @@ _G.pg.base.ship_data_template[304054] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58904,7 +59045,8 @@ _G.pg.base.ship_data_template[304061] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58950,7 +59092,8 @@ _G.pg.base.ship_data_template[304062] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -58997,7 +59140,8 @@ _G.pg.base.ship_data_template[304063] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59044,7 +59188,8 @@ _G.pg.base.ship_data_template[304064] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59091,7 +59236,8 @@ _G.pg.base.ship_data_template[304071] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59137,7 +59283,8 @@ _G.pg.base.ship_data_template[304072] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59184,7 +59331,8 @@ _G.pg.base.ship_data_template[304073] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59231,7 +59379,8 @@ _G.pg.base.ship_data_template[304074] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59278,7 +59427,8 @@ _G.pg.base.ship_data_template[305011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59323,7 +59473,8 @@ _G.pg.base.ship_data_template[305012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59369,7 +59520,8 @@ _G.pg.base.ship_data_template[305013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59415,7 +59567,8 @@ _G.pg.base.ship_data_template[305014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59461,7 +59614,8 @@ _G.pg.base.ship_data_template[305021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59506,7 +59660,8 @@ _G.pg.base.ship_data_template[305022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59552,7 +59707,8 @@ _G.pg.base.ship_data_template[305023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59598,7 +59754,8 @@ _G.pg.base.ship_data_template[305024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59644,7 +59801,8 @@ _G.pg.base.ship_data_template[305031] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59689,7 +59847,8 @@ _G.pg.base.ship_data_template[305032] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59735,7 +59894,8 @@ _G.pg.base.ship_data_template[305033] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59781,7 +59941,8 @@ _G.pg.base.ship_data_template[305034] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59827,7 +59988,8 @@ _G.pg.base.ship_data_template[305041] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59874,7 +60036,8 @@ _G.pg.base.ship_data_template[305042] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59922,7 +60085,8 @@ _G.pg.base.ship_data_template[305043] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -59970,7 +60134,8 @@ _G.pg.base.ship_data_template[305044] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60018,7 +60183,8 @@ _G.pg.base.ship_data_template[305051] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60064,7 +60230,8 @@ _G.pg.base.ship_data_template[305052] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60111,7 +60278,8 @@ _G.pg.base.ship_data_template[305053] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60158,7 +60326,8 @@ _G.pg.base.ship_data_template[305054] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60205,7 +60374,8 @@ _G.pg.base.ship_data_template[305061] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60249,7 +60419,8 @@ _G.pg.base.ship_data_template[305062] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60294,7 +60465,8 @@ _G.pg.base.ship_data_template[305063] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60339,7 +60511,8 @@ _G.pg.base.ship_data_template[305064] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60384,7 +60557,8 @@ _G.pg.base.ship_data_template[305071] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60430,7 +60604,8 @@ _G.pg.base.ship_data_template[305072] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60477,7 +60652,8 @@ _G.pg.base.ship_data_template[305073] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60524,7 +60700,8 @@ _G.pg.base.ship_data_template[305074] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60571,7 +60748,8 @@ _G.pg.base.ship_data_template[305081] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60617,7 +60795,8 @@ _G.pg.base.ship_data_template[305082] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60664,7 +60843,8 @@ _G.pg.base.ship_data_template[305083] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60711,7 +60891,8 @@ _G.pg.base.ship_data_template[305084] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60758,7 +60939,8 @@ _G.pg.base.ship_data_template[305101] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60807,7 +60989,8 @@ _G.pg.base.ship_data_template[305102] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60857,7 +61040,8 @@ _G.pg.base.ship_data_template[305103] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -60907,7 +61091,8 @@ _G.pg.base.ship_data_template[305104] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -61144,7 +61329,8 @@ _G.pg.base.ship_data_template[305121] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -61190,7 +61376,8 @@ _G.pg.base.ship_data_template[305122] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -61237,7 +61424,8 @@ _G.pg.base.ship_data_template[305123] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -61284,7 +61472,8 @@ _G.pg.base.ship_data_template[305124] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -61331,7 +61520,8 @@ _G.pg.base.ship_data_template[305141] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -61377,7 +61567,8 @@ _G.pg.base.ship_data_template[305142] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -61424,7 +61615,8 @@ _G.pg.base.ship_data_template[305143] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -61471,7 +61663,8 @@ _G.pg.base.ship_data_template[305144] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -66456,7 +66649,8 @@ _G.pg.base.ship_data_template[310014] = {
 		12
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -66507,7 +66701,8 @@ _G.pg.base.ship_data_template[310024] = {
 		12
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -66558,7 +66753,8 @@ _G.pg.base.ship_data_template[310034] = {
 		12
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -66608,7 +66804,8 @@ _G.pg.base.ship_data_template[310044] = {
 		12
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -73694,7 +73891,8 @@ _G.pg.base.ship_data_template[404011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -73739,7 +73937,8 @@ _G.pg.base.ship_data_template[404012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -73785,7 +73984,8 @@ _G.pg.base.ship_data_template[404013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -73832,7 +74032,8 @@ _G.pg.base.ship_data_template[404014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -73879,7 +74080,8 @@ _G.pg.base.ship_data_template[404021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -73924,7 +74126,8 @@ _G.pg.base.ship_data_template[404022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -73970,7 +74173,8 @@ _G.pg.base.ship_data_template[404023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74017,7 +74221,8 @@ _G.pg.base.ship_data_template[404024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74065,7 +74270,8 @@ _G.pg.base.ship_data_template[404031] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74114,7 +74320,8 @@ _G.pg.base.ship_data_template[404032] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74164,7 +74371,8 @@ _G.pg.base.ship_data_template[404033] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74214,7 +74422,8 @@ _G.pg.base.ship_data_template[404034] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74264,7 +74473,8 @@ _G.pg.base.ship_data_template[404041] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74313,7 +74523,8 @@ _G.pg.base.ship_data_template[404042] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74363,7 +74574,8 @@ _G.pg.base.ship_data_template[404043] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74413,7 +74625,8 @@ _G.pg.base.ship_data_template[404044] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74462,7 +74675,8 @@ _G.pg.base.ship_data_template[404051] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74508,7 +74722,8 @@ _G.pg.base.ship_data_template[404052] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74555,7 +74770,8 @@ _G.pg.base.ship_data_template[404053] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74602,7 +74818,8 @@ _G.pg.base.ship_data_template[404054] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74649,7 +74866,8 @@ _G.pg.base.ship_data_template[405011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74698,7 +74916,8 @@ _G.pg.base.ship_data_template[405012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74748,7 +74967,8 @@ _G.pg.base.ship_data_template[405013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74798,7 +75018,8 @@ _G.pg.base.ship_data_template[405014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74848,7 +75069,8 @@ _G.pg.base.ship_data_template[405021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74893,7 +75115,8 @@ _G.pg.base.ship_data_template[405022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74939,7 +75162,8 @@ _G.pg.base.ship_data_template[405023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -74986,7 +75210,8 @@ _G.pg.base.ship_data_template[405024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -75033,7 +75258,8 @@ _G.pg.base.ship_data_template[405031] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -75081,7 +75307,8 @@ _G.pg.base.ship_data_template[405032] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -75130,7 +75357,8 @@ _G.pg.base.ship_data_template[405033] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -75179,7 +75407,8 @@ _G.pg.base.ship_data_template[405034] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -75229,7 +75458,8 @@ _G.pg.base.ship_data_template[405041] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -75276,7 +75506,8 @@ _G.pg.base.ship_data_template[405042] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -75324,7 +75555,8 @@ _G.pg.base.ship_data_template[405043] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -75372,7 +75604,8 @@ _G.pg.base.ship_data_template[405044] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -83767,7 +84000,8 @@ _G.pg.base.ship_data_template[605011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -83815,7 +84049,8 @@ _G.pg.base.ship_data_template[605012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -83864,7 +84099,8 @@ _G.pg.base.ship_data_template[605013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -83913,7 +84149,8 @@ _G.pg.base.ship_data_template[605014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -83962,7 +84199,8 @@ _G.pg.base.ship_data_template[605021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84008,7 +84246,8 @@ _G.pg.base.ship_data_template[605022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84055,7 +84294,8 @@ _G.pg.base.ship_data_template[605023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84102,7 +84342,8 @@ _G.pg.base.ship_data_template[605024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84149,7 +84390,8 @@ _G.pg.base.ship_data_template[605031] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84197,7 +84439,8 @@ _G.pg.base.ship_data_template[605032] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84246,7 +84489,8 @@ _G.pg.base.ship_data_template[605033] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84295,7 +84539,8 @@ _G.pg.base.ship_data_template[605034] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84343,7 +84588,8 @@ _G.pg.base.ship_data_template[605051] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84386,7 +84632,8 @@ _G.pg.base.ship_data_template[605052] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84430,7 +84677,8 @@ _G.pg.base.ship_data_template[605053] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84474,7 +84722,8 @@ _G.pg.base.ship_data_template[605054] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84518,7 +84767,8 @@ _G.pg.base.ship_data_template[605061] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84563,7 +84813,8 @@ _G.pg.base.ship_data_template[605062] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84609,7 +84860,8 @@ _G.pg.base.ship_data_template[605063] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -84655,7 +84907,8 @@ _G.pg.base.ship_data_template[605064] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88309,7 +88562,8 @@ _G.pg.base.ship_data_template[705011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88355,7 +88609,8 @@ _G.pg.base.ship_data_template[705012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88402,7 +88657,8 @@ _G.pg.base.ship_data_template[705013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88449,7 +88705,8 @@ _G.pg.base.ship_data_template[705014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88496,7 +88753,8 @@ _G.pg.base.ship_data_template[705041] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88542,7 +88800,8 @@ _G.pg.base.ship_data_template[705042] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88589,7 +88848,8 @@ _G.pg.base.ship_data_template[705043] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88636,7 +88896,8 @@ _G.pg.base.ship_data_template[705044] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88683,7 +88944,8 @@ _G.pg.base.ship_data_template[705051] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88729,7 +88991,8 @@ _G.pg.base.ship_data_template[705052] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88776,7 +89039,8 @@ _G.pg.base.ship_data_template[705053] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88823,7 +89087,8 @@ _G.pg.base.ship_data_template[705054] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88870,7 +89135,8 @@ _G.pg.base.ship_data_template[705061] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88916,7 +89182,8 @@ _G.pg.base.ship_data_template[705062] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -88963,7 +89230,8 @@ _G.pg.base.ship_data_template[705063] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -89010,7 +89278,8 @@ _G.pg.base.ship_data_template[705064] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -90939,7 +91208,8 @@ _G.pg.base.ship_data_template[805011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -90987,7 +91257,8 @@ _G.pg.base.ship_data_template[805012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -91035,7 +91306,8 @@ _G.pg.base.ship_data_template[805013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -91083,7 +91355,8 @@ _G.pg.base.ship_data_template[805014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93164,7 +93437,8 @@ _G.pg.base.ship_data_template[904011] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93207,7 +93481,8 @@ _G.pg.base.ship_data_template[904012] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93250,7 +93525,8 @@ _G.pg.base.ship_data_template[904013] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93293,7 +93569,8 @@ _G.pg.base.ship_data_template[904014] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93338,7 +93615,8 @@ _G.pg.base.ship_data_template[905011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93384,7 +93662,8 @@ _G.pg.base.ship_data_template[905012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93430,7 +93709,8 @@ _G.pg.base.ship_data_template[905013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93476,7 +93756,8 @@ _G.pg.base.ship_data_template[905014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93523,7 +93804,8 @@ _G.pg.base.ship_data_template[905031] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93569,7 +93851,8 @@ _G.pg.base.ship_data_template[905032] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93615,7 +93898,8 @@ _G.pg.base.ship_data_template[905033] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93661,7 +93945,8 @@ _G.pg.base.ship_data_template[905034] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -93974,7 +94259,8 @@ _G.pg.base.ship_data_template[900006] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10,
@@ -94015,7 +94301,8 @@ _G.pg.base.ship_data_template[900007] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10,
@@ -94287,7 +94574,8 @@ _G.pg.base.ship_data_template[900045] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10,
@@ -94333,7 +94621,8 @@ _G.pg.base.ship_data_template[900046] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10,
@@ -94423,7 +94712,8 @@ _G.pg.base.ship_data_template[900133] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -94469,7 +94759,8 @@ _G.pg.base.ship_data_template[900134] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -95108,7 +95399,8 @@ _G.pg.base.ship_data_template[900194] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -95455,7 +95747,8 @@ _G.pg.base.ship_data_template[900244] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -95548,7 +95841,8 @@ _G.pg.base.ship_data_template[900246] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -95734,7 +96028,8 @@ _G.pg.base.ship_data_template[900250] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -95780,7 +96075,8 @@ _G.pg.base.ship_data_template[900251] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -95871,7 +96167,8 @@ _G.pg.base.ship_data_template[900253] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96010,7 +96307,8 @@ _G.pg.base.ship_data_template[900256] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96056,7 +96354,8 @@ _G.pg.base.ship_data_template[900257] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96238,7 +96537,8 @@ _G.pg.base.ship_data_template[900261] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96283,7 +96583,8 @@ _G.pg.base.ship_data_template[900262] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96330,7 +96631,8 @@ _G.pg.base.ship_data_template[900263] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96469,7 +96771,8 @@ _G.pg.base.ship_data_template[900266] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96516,7 +96819,8 @@ _G.pg.base.ship_data_template[900267] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96752,7 +97056,8 @@ _G.pg.base.ship_data_template[900272] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96849,7 +97154,8 @@ _G.pg.base.ship_data_template[900274] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -96896,7 +97202,8 @@ _G.pg.base.ship_data_template[900275] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -97041,7 +97348,8 @@ _G.pg.base.ship_data_template[900278] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -97135,7 +97443,8 @@ _G.pg.base.ship_data_template[900280] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -97230,7 +97539,8 @@ _G.pg.base.ship_data_template[900282] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -97390,7 +97700,8 @@ _G.pg.base.ship_data_template[900303] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -97427,7 +97738,8 @@ _G.pg.base.ship_data_template[900304] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -97466,7 +97778,8 @@ _G.pg.base.ship_data_template[900305] = {
 	},
 	equip_3 = {
 		1,
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -97807,7 +98120,8 @@ _G.pg.base.ship_data_template[900318] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -97901,7 +98215,8 @@ _G.pg.base.ship_data_template[900320] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -98508,7 +98823,8 @@ _G.pg.base.ship_data_template[900345] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -98644,7 +98960,8 @@ _G.pg.base.ship_data_template[900351] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -98978,7 +99295,8 @@ _G.pg.base.ship_data_template[900358] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10,
@@ -99539,7 +99857,8 @@ _G.pg.base.ship_data_template[900908] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -99685,7 +100004,8 @@ _G.pg.base.ship_data_template[900911] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -99736,7 +100056,8 @@ _G.pg.base.ship_data_template[900912] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -100869,7 +101190,8 @@ _G.pg.base.ship_data_template[9704011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -100914,7 +101236,8 @@ _G.pg.base.ship_data_template[9704012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -100962,7 +101285,8 @@ _G.pg.base.ship_data_template[9704013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101010,7 +101334,8 @@ _G.pg.base.ship_data_template[9704014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101057,7 +101382,8 @@ _G.pg.base.ship_data_template[9704021] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101101,7 +101427,8 @@ _G.pg.base.ship_data_template[9704022] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101148,7 +101475,8 @@ _G.pg.base.ship_data_template[9704023] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101195,7 +101523,8 @@ _G.pg.base.ship_data_template[9704024] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101242,7 +101571,8 @@ _G.pg.base.ship_data_template[9704031] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101286,7 +101616,8 @@ _G.pg.base.ship_data_template[9704032] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101333,7 +101664,8 @@ _G.pg.base.ship_data_template[9704033] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101380,7 +101712,8 @@ _G.pg.base.ship_data_template[9704034] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101427,7 +101760,8 @@ _G.pg.base.ship_data_template[9704041] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101471,7 +101805,8 @@ _G.pg.base.ship_data_template[9704042] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101518,7 +101853,8 @@ _G.pg.base.ship_data_template[9704043] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101565,7 +101901,8 @@ _G.pg.base.ship_data_template[9704044] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101613,7 +101950,8 @@ _G.pg.base.ship_data_template[9705011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101658,7 +101996,8 @@ _G.pg.base.ship_data_template[9705012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101706,7 +102045,8 @@ _G.pg.base.ship_data_template[9705013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101754,7 +102094,8 @@ _G.pg.base.ship_data_template[9705014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101802,7 +102143,8 @@ _G.pg.base.ship_data_template[9705021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101847,7 +102189,8 @@ _G.pg.base.ship_data_template[9705022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101895,7 +102238,8 @@ _G.pg.base.ship_data_template[9705023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101943,7 +102287,8 @@ _G.pg.base.ship_data_template[9705024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -101963,6 +102308,195 @@ _G.pg.base.ship_data_template[9705024] = {
 	},
 	hide_buff_list = {
 		1,
+		340
+	}
+}
+
+_G.pg.base.ship_data_template[9705031] = {
+	oil_at_end = 16,
+	star_max = 6,
+	oil_at_start = 1,
+	type = 5,
+	max_level = 100,
+	strengthen_id = 970503,
+	equip_id_3 = 0,
+	equip_id_2 = 0,
+	equip_id_1 = 0,
+	group_type = 970503,
+	id = 9705031,
+	can_get_proficency = 1,
+	star = 3,
+	energy = 150,
+	specific_type = {},
+	equip_1 = {
+		4
+	},
+	equip_2 = {
+		1
+	},
+	equip_3 = {
+		6,
+		21
+	},
+	equip_4 = {
+		10
+	},
+	equip_5 = {
+		10
+	},
+	airassist_time = {},
+	buff_list = {},
+	buff_list_display = {
+		800640,
+		800650,
+		800660,
+		800671
+	},
+	hide_buff_list = {
+		340
+	}
+}
+
+_G.pg.base.ship_data_template[9705032] = {
+	oil_at_end = 16,
+	star_max = 6,
+	oil_at_start = 1,
+	type = 5,
+	max_level = 100,
+	strengthen_id = 970503,
+	equip_id_3 = 0,
+	equip_id_2 = 0,
+	equip_id_1 = 0,
+	group_type = 970503,
+	id = 9705032,
+	can_get_proficency = 1,
+	star = 4,
+	energy = 150,
+	specific_type = {},
+	equip_1 = {
+		4
+	},
+	equip_2 = {
+		1
+	},
+	equip_3 = {
+		6,
+		21
+	},
+	equip_4 = {
+		10
+	},
+	equip_5 = {
+		10
+	},
+	airassist_time = {},
+	buff_list = {
+		800671
+	},
+	buff_list_display = {
+		800640,
+		800650,
+		800660,
+		800671
+	},
+	hide_buff_list = {
+		1,
+		340
+	}
+}
+
+_G.pg.base.ship_data_template[9705033] = {
+	oil_at_end = 16,
+	star_max = 6,
+	oil_at_start = 1,
+	type = 5,
+	max_level = 100,
+	strengthen_id = 970503,
+	equip_id_3 = 0,
+	equip_id_2 = 0,
+	equip_id_1 = 0,
+	group_type = 970503,
+	id = 9705033,
+	can_get_proficency = 1,
+	star = 5,
+	energy = 150,
+	specific_type = {},
+	equip_1 = {
+		4
+	},
+	equip_2 = {
+		1
+	},
+	equip_3 = {
+		6,
+		21
+	},
+	equip_4 = {
+		10
+	},
+	equip_5 = {
+		10
+	},
+	airassist_time = {},
+	buff_list = {
+		800671
+	},
+	buff_list_display = {
+		800640,
+		800650,
+		800660,
+		800671
+	},
+	hide_buff_list = {
+		1,
+		340
+	}
+}
+
+_G.pg.base.ship_data_template[9705034] = {
+	oil_at_end = 16,
+	star_max = 6,
+	oil_at_start = 1,
+	type = 5,
+	max_level = 100,
+	strengthen_id = 970503,
+	equip_id_3 = 0,
+	equip_id_2 = 0,
+	equip_id_1 = 0,
+	group_type = 970503,
+	id = 9705034,
+	can_get_proficency = 1,
+	star = 6,
+	energy = 150,
+	specific_type = {},
+	equip_1 = {
+		4
+	},
+	equip_2 = {
+		1
+	},
+	equip_3 = {
+		6,
+		21
+	},
+	equip_4 = {
+		10
+	},
+	equip_5 = {
+		10
+	},
+	airassist_time = {},
+	buff_list = {
+		800672
+	},
+	buff_list_display = {
+		800640,
+		800650,
+		800660,
+		800672
+	},
+	hide_buff_list = {
+		2,
 		340
 	}
 }
@@ -103109,7 +103643,8 @@ _G.pg.base.ship_data_template[900916] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -103159,7 +103694,8 @@ _G.pg.base.ship_data_template[900917] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -103408,7 +103944,8 @@ _G.pg.base.ship_data_template[900922] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -103508,7 +104045,8 @@ _G.pg.base.ship_data_template[900924] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -105671,7 +106209,8 @@ _G.pg.base.ship_data_template[10400041] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -105717,7 +106256,8 @@ _G.pg.base.ship_data_template[10400042] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -105764,7 +106304,8 @@ _G.pg.base.ship_data_template[10400043] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -105811,7 +106352,8 @@ _G.pg.base.ship_data_template[10400044] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -107342,7 +107884,8 @@ _G.pg.base.ship_data_template[10600021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -107388,7 +107931,8 @@ _G.pg.base.ship_data_template[10600022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -107435,7 +107979,8 @@ _G.pg.base.ship_data_template[10600023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -107482,7 +108027,8 @@ _G.pg.base.ship_data_template[10600024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -107881,7 +108427,8 @@ _G.pg.base.ship_data_template[10600051] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -107927,7 +108474,8 @@ _G.pg.base.ship_data_template[10600052] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -107974,7 +108522,8 @@ _G.pg.base.ship_data_template[10600053] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -108021,7 +108570,8 @@ _G.pg.base.ship_data_template[10600054] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -108823,7 +109373,8 @@ _G.pg.base.ship_data_template[10700031] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -108868,7 +109419,8 @@ _G.pg.base.ship_data_template[10700032] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -108914,7 +109466,8 @@ _G.pg.base.ship_data_template[10700033] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -108960,7 +109513,8 @@ _G.pg.base.ship_data_template[10700034] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -109915,7 +110469,8 @@ _G.pg.base.ship_data_template[10800021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -109963,7 +110518,8 @@ _G.pg.base.ship_data_template[10800022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -110012,7 +110568,8 @@ _G.pg.base.ship_data_template[10800023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -110061,7 +110618,8 @@ _G.pg.base.ship_data_template[10800024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -110832,7 +111390,8 @@ _G.pg.base.ship_data_template[10800071] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -110878,7 +111437,8 @@ _G.pg.base.ship_data_template[10800072] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -110925,7 +111485,8 @@ _G.pg.base.ship_data_template[10800073] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -110972,7 +111533,8 @@ _G.pg.base.ship_data_template[10800074] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -111429,7 +111991,8 @@ _G.pg.base.ship_data_template[10900031] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -111477,7 +112040,8 @@ _G.pg.base.ship_data_template[10900032] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -111526,7 +112090,8 @@ _G.pg.base.ship_data_template[10900033] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -111575,7 +112140,8 @@ _G.pg.base.ship_data_template[10900034] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -112380,7 +112946,8 @@ _G.pg.base.ship_data_template[299021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -112427,7 +112994,8 @@ _G.pg.base.ship_data_template[299022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -112476,7 +113044,8 @@ _G.pg.base.ship_data_template[299023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -112525,7 +113094,8 @@ _G.pg.base.ship_data_template[299024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -112760,7 +113330,8 @@ _G.pg.base.ship_data_template[399021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -112807,7 +113378,8 @@ _G.pg.base.ship_data_template[399022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -112856,7 +113428,8 @@ _G.pg.base.ship_data_template[399023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -112905,7 +113478,8 @@ _G.pg.base.ship_data_template[399024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -113521,7 +114095,8 @@ _G.pg.base.ship_data_template[199021] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -113567,7 +114142,8 @@ _G.pg.base.ship_data_template[199022] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -113615,7 +114191,8 @@ _G.pg.base.ship_data_template[199023] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -113663,7 +114240,8 @@ _G.pg.base.ship_data_template[199024] = {
 		1
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -114099,7 +114677,8 @@ _G.pg.base.ship_data_template[499021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -114148,7 +114727,8 @@ _G.pg.base.ship_data_template[499022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -114199,7 +114779,8 @@ _G.pg.base.ship_data_template[499023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -114250,7 +114831,8 @@ _G.pg.base.ship_data_template[499024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -114301,7 +114883,8 @@ _G.pg.base.ship_data_template[999011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -114348,7 +114931,8 @@ _G.pg.base.ship_data_template[999012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -114396,7 +114980,8 @@ _G.pg.base.ship_data_template[999013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -114444,7 +115029,8 @@ _G.pg.base.ship_data_template[999014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -115057,7 +115643,8 @@ _G.pg.base.ship_data_template[499041] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -115104,7 +115691,8 @@ _G.pg.base.ship_data_template[499042] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -115153,7 +115741,8 @@ _G.pg.base.ship_data_template[499043] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -115202,7 +115791,8 @@ _G.pg.base.ship_data_template[499044] = {
 		5
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -115252,7 +115842,8 @@ _G.pg.base.ship_data_template[899021] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -115299,7 +115890,8 @@ _G.pg.base.ship_data_template[899022] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -115347,7 +115939,8 @@ _G.pg.base.ship_data_template[899023] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -115395,7 +115988,8 @@ _G.pg.base.ship_data_template[899024] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -116234,7 +116828,8 @@ _G.pg.base.ship_data_template[699011] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -116283,7 +116878,8 @@ _G.pg.base.ship_data_template[699012] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -116334,7 +116930,8 @@ _G.pg.base.ship_data_template[699013] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -116385,7 +116982,8 @@ _G.pg.base.ship_data_template[699014] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -116630,7 +117228,8 @@ _G.pg.base.ship_data_template[499071] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -116677,7 +117276,8 @@ _G.pg.base.ship_data_template[499072] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -116726,7 +117326,8 @@ _G.pg.base.ship_data_template[499073] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10
@@ -116775,7 +117376,8 @@ _G.pg.base.ship_data_template[499074] = {
 		2
 	},
 	equip_3 = {
-		6
+		6,
+		21
 	},
 	equip_4 = {
 		10

@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			say = "Port area, Warehouse",
+			say = "Port - Warehouse",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Miss ghost~! Come out, come out! Everyone is worried about you!",
+			say = "Miss Ghost~! Come out, come out! Everyone is worried about you",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:48}",
-			say = "If you shout like that, you’ll scare her away...",
+			say = "If you shout like that, you'll scare her away...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "Also, it’s dark in here, I feel like something ominous will...",
+			say = "Also, it's dark in here, I feel like something ominous will...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Miss ghost——! Hurry...huh? What’s over there? A coffin?",
+			say = "Miss Ghost——! Hurry... huh? What's over there? A coffin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Let’s open it first! Allow me!",
+			say = "Let's open it first! Allow me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "You are...Terror?",
+			say = "You are... Terror?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sigh…I need to practice more on how to scare people.",
+			say = "Sigh... I need to practice more on how to scare people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…Why are you in a coffin, Terror?",
+			say = "...Why are you in a coffin, Terror?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wait, why is there a coffin in the warehouse in the first place...",
+			say = "Wait, why is there a coffin in the warehouse in the first place..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "She’s running away! Chase her!",
+			say = "She's running away! Chase her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Wait...take this. It is “Witch’s Broomstick”.",
+			say = "Wait... Take this. These are \"Witch's Broomsticks\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Wow, exactly one broomstick per person...we must catch up to that ghost!",
+			say = "Wow, exactly one broomstick per person... We must catch up to that ghost",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Don’t think you can easily escape from us! I’m coming for ya!!",
+			say = "Don't think you can easily escape from us! I'm coming for ya!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

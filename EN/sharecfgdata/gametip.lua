@@ -4503,9 +4503,9 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>9/1/22 to 12/7/22</color>, challenge Renown META
+From <color=#92fc63>12/8/22 to 3/9/23</color>, challenge Arizona META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Renown META</color> as well
+to obtain the limited character, <color=#92fc63>Arizona META</color> as well
 as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
@@ -6362,7 +6362,19 @@ used as the main gun of Battleships and Battlecruisers
 • Different Carriers can carry different aircrafts
 
 • Equipment avatars change animation effects
-(Equipment avatars do not take storage space) ]]
+(Equipment avatars do not take storage space)
+
+Anti-Air Gun Update (December 8th, 2022):
+
+Anti-air guns are now split into two categories: long range and short range.
+
+Short range AA guns can be used by all shipgirls with an AA gun slot, regardless of their hull classification.
+These guns fire at any enemy aircraft that enters your fleet's circular AA range.
+
+Long range AA guns can only be equipped by battleships (BBs), battlecruisers (BCs), and aviation battleships (BBVs).
+In contrast to short range AA guns, these guns have a forward-facing, cone-shaped range. Much like short range AA guns, they fire automatically at any enemy aircraft that enters their range.
+The cone originates from one of the shipgirls with the AA gun equipped, prioritizing your flagship if applicable. Sortieing with multiple shipgirls equipped with long range AA guns increases the power of their AA fire.
+Unlike short range AA guns, the shots fired from long range AA guns inflict damage simultaneously to all enemy aircraft within range. ]]
 		}
 	}
 }
@@ -11338,6 +11350,10 @@ _G.pg.base.gametip.text_retreat = {
 	tip = "Retreat"
 }
 
+_G.pg.base.gametip.text_goto = {
+	tip = "Confirm"
+}
+
 _G.pg.base.gametip.level_scene_title_word_1 = {
 	tip = "Recon value:"
 }
@@ -14955,6 +14971,18 @@ _G.pg.base.gametip.equip_info_31 = {
 	tip = "FR "
 }
 
+_G.pg.base.gametip.equip_info_32 = {
+	tip = "Target Leading"
+}
+
+_G.pg.base.gametip.equip_info_33 = {
+	tip = "Standard RoF"
+}
+
+_G.pg.base.gametip.equip_info_34 = {
+	tip = "Intercept RoF"
+}
+
 _G.pg.base.gametip.equip_info_extralevel_0 = {
 	tip = "Level 0"
 }
@@ -17575,6 +17603,18 @@ _G.pg.base.gametip.world_automode_title_2 = {
 	tip = ""
 }
 
+_G.pg.base.gametip.world_automode_treasure_1 = {
+	tip = "Unlock by purchasing \"Hidden Zone Data Logger.\""
+}
+
+_G.pg.base.gametip.world_automode_treasure_2 = {
+	tip = "Unlock by using \"Hidden Zone Data Logger.\""
+}
+
+_G.pg.base.gametip.world_automode_treasure_3 = {
+	tip = "Can be purchased after Operation Siren resets."
+}
+
 _G.pg.base.gametip.world_automode_cancel = {
 	tip = "Cancel"
 }
@@ -17597,6 +17637,10 @@ _G.pg.base.gametip.world_automode_start_tip3 = {
 
 _G.pg.base.gametip.world_automode_start_tip4 = {
 	tip = "Unable to leave this zone."
+}
+
+_G.pg.base.gametip.world_automode_start_tip5 = {
+	tip = "Cannot be activated here. Please go to a Secured Zone first and try again."
 }
 
 _G.pg.base.gametip.world_automode_setting_1 = {
@@ -17681,6 +17725,30 @@ _G.pg.base.gametip.world_automode_setting_all_4_1 = {
 
 _G.pg.base.gametip.world_automode_setting_all_4_2 = {
 	tip = "NO"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1 = {
+	tip = "Auto-Search by Corrosion Level"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_1 = {
+	tip = "3 and under"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_2 = {
+	tip = "4"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_3 = {
+	tip = "5"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_4 = {
+	tip = "6"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_5 = {
+	tip = "All"
 }
 
 _G.pg.base.gametip.world_collection_task_tip_1 = {

@@ -433,52 +433,6 @@ function slot0.GetOtherShips(slot0)
 	return slot2
 end
 
-function slot0.CompareRecommendShip(slot0, slot1, slot2)
-	slot4 = slot0:GetRecommendShipNation()
-	slot6 = slot0:GetRecommendShipTypes()
-
-	return slot0:SeriesSort({
-		function (slot0, slot1)
-			if (table.contains(uv0, slot0.nation) and 1 or 0) == (table.contains(uv0, slot1.nation) and 1 or 0) then
-				return -1
-			else
-				return slot3 < slot2
-			end
-		end,
-		function (slot0, slot1)
-			if (table.contains(uv0, slot0.type) and 1 or 0) == (table.contains(uv0, slot1.type) and 1 or 0) then
-				return -1
-			else
-				return slot3 < slot2
-			end
-		end,
-		function (slot0, slot1)
-			if slot0.level == slot1.level then
-				return -1
-			else
-				return slot1.level < slot0.level
-			end
-		end,
-		function (slot0, slot1)
-			return slot1.power < slot0.power
-		end
-	}, slot1, slot2)
-end
-
-function slot0.SeriesSort(slot0, slot1, slot2, slot3)
-	slot5 = nil
-
-	return (function (slot0)
-		assert(uv0[slot0])
-
-		if uv0[slot0](uv1, uv2) == -1 then
-			return uv3(slot0 + 1)
-		else
-			return slot1
-		end
-	end)(1)
-end
-
 function slot0.RecordFormationTip(slot0)
 	if slot0:GetCanFormationIndex() > 0 then
 		PlayerPrefs.SetInt("guild_mission_formation_tip" .. slot0.configId, slot1)

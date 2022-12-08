@@ -905,6 +905,12 @@ pg.gameset = {
 			"GWORLDS06"
 		}
 	},
+	world_story_treasure_item = {
+		key_value = 0,
+		description = {
+			"GWORLDS08"
+		}
+	},
 	world_expedition_level = {
 		key_value = 0,
 		description = {
@@ -1413,7 +1419,11 @@ pg.gameset = {
 			1901,
 			1902,
 			1904,
-			1905
+			1905,
+			1002001,
+			1002002,
+			1002004,
+			1002005
 		}
 	},
 	world_planning_stop_event2 = {
@@ -1428,6 +1438,20 @@ pg.gameset = {
 			1406,
 			1407,
 			1408
+		}
+	},
+	world_planning_stop_event3 = {
+		key_value = 0,
+		description = {
+			1000090,
+			1000100,
+			1000105,
+			1000200,
+			1000204,
+			1000300,
+			1000306,
+			1000400,
+			1000404
 		}
 	},
 	world_daily_task_pool = {
@@ -2589,7 +2613,7 @@ pg.gameset = {
 		key_value = 43200
 	},
 	naval_academy_theme = {
-		description = "autumn",
+		description = "winter",
 		key_value = 0
 	},
 	package_lv = {

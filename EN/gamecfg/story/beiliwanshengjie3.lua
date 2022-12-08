@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:48}",
-			say = "Eh? Nagara-chan? How did you know——",
+			say = "Eh? Nagara? How did you know——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:48}",
-			say = "I, I really can’t do it, ghosts are just too much for me...",
+			say = "I, I really can't do it, ghosts are just too much for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "But, if Miss ghost can’t find her way back home, then she’ll wander the port area forever.",
+			say = "But, if Miss Ghost can't find her way back home, then she'll wander the port area forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "What if one day you bump into Miss ghost, wouldn’t it be more troublesome then?",
+			say = "What if one day you bump into Miss Ghost, wouldn't it be more troublesome then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "Think about it this way, if you help the ghosts return home, wouldn't there be less to worry about?",
+			say = "Think about it this way, if you help the ghosts return home, wouldn't there be less to worry about",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:48}",
-			say = "Hmm…yea, That's true...",
+			say = "Hmm... yeah, That's true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "Huh?... So it turned out to be Bailey, you are the…Witch?",
+			say = "Huh? ...So it turned out to be Bailey, you are... the witch?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "Miss ghost…? Um, yes, yes I was umm searching for Miss ghost.",
+			say = "Miss Ghost...? Um, yes, yes I was umm searching for Miss Ghost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Then why don’t you join me and we’ll head to the warehouse together. Let’s go~",
+			say = "Then why don't you join me and we'll head to the warehouse together. Let's go~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			blackBg = true,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "(If I got someone to come along...then I’ll be less afraid!)",
+			say = "(If I got someone to come along... then I'll be less afraid!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

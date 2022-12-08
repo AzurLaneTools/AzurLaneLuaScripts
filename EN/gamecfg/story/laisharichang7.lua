@@ -19,7 +19,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "ryza-12",
+			bgm = "story-1",
 			blackBg = true,
 			say = "Now, after all that labor, the hot spring inn is finally complete.",
 			flashout = {

@@ -99569,6 +99569,379 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800640] = {
+		desc_get = "",
+		name = "Melancholy Whispers",
+		id = 800640,
+		type = 3,
+		max_level = 10,
+		desc = "During battle, deploys \"Jamming Field - Arizona META.\" Enemies within this field take $1 more DMG and have their SPD decreased by $2; the SPD debuff fades over 3s upon leaving this field.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"50.0%",
+				"80.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80.0%"
+				}
+			}
+		}
+	},
+	[800650] = {
+		desc_get = "",
+		name = "No More Tears",
+		id = 800650,
+		type = 2,
+		max_level = 10,
+		desc = "During battle, when a surface ship in your fleet recovers 5.0% or more of her max HP in one activation: restores $1 of this ship's max HP and fires a $2 special barrage (DMG is based on the skill's level; 12s cooldown between activations). Once per battle, when a ship in your surface fleet has taken DMG exceeding 30.0% of her max HP, or when a ship in your surface fleet falls below 30.0% of her max HP: this skill's special barrage gains a SHS attack that creates \"Jamming Field - Arizona META\" (lasts 3s) at the location it hits.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800660] = {
+		desc_get = "",
+		name = "Yesterday Once More",
+		id = 800660,
+		type = 3,
+		max_level = 10,
+		desc = "When this ship fires her Secondary Guns: $1 chance to fire an additional attack (this effect cannot activate again until this ship sinks an enemy, or after a 10s cooldown). Increases RLD by $2 for all your ships with a \"Framework of Logic\" skill and increases this ship's FP by $2. When this ship fires her Main Guns while sortied with a ship that has the \"Pearl's Tears\" equipped: 50.0% chance to restore 6.0% max HP to the ship in your Vanguard with the lowest percentage HP remaining.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[800671] = {
+		desc_get = "",
+		name = "Framework of Logic - Arizona I",
+		id = 800671,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 3.0%.",
+		system_transform = {
+			[51.0] = 800675
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800672] = {
+		desc_get = "",
+		name = "Framework of Logic - Arizona II",
+		id = 800672,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 5.0%.",
+		system_transform = {
+			[51.0] = 800677
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800675] = {
+		desc_get = "",
+		name = "Framework of Logic - Arizona I",
+		id = 800675,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 3.0%.",
+		system_transform = {
+			[51.0] = 800675
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800677] = {
+		desc_get = "",
+		name = "Framework of Logic - Arizona II",
+		id = 800677,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 5.0%.",
+		system_transform = {
+			[51.0] = 800677
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -103743,6 +104116,13 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		800632,
 		800635,
 		800637,
+		800640,
+		800650,
+		800660,
+		800671,
+		800672,
+		800675,
+		800677,
 		901010,
 		901020,
 		902010,

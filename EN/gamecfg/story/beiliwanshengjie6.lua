@@ -84,7 +84,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Huff...puff...I can’t believe we chased her all the way to the rooftop...",
+			say = "Huff... puff... I can't believe we chased her all the way to the rooftop...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "I, I can’t run any longer...",
+			say = "I, I can't run any longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "There’s nowhere left for you to run. Who are you exactly? What are you up to?",
+			say = "There's nowhere left for you to run. Who are you exactly? What are you up to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Miss ghost, Bailey and the others are not here to scare you, we’ve come all the way here to help you!",
+			say = "Miss Ghost, Bailey and the others are not here to scare you, we've come all the way here to help you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:48}",
-			say = "Wh-what now! We can’t fly…",
+			say = "Wh-what now! We can't fly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "F...Fly! I just got this broomstick! Could it be time for me to...jump!",
+			say = "F-Fly! I just got this broomstick! Could it be time for me to... jump!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wa-wait! Wait wait wait, you’ll fall off the roof if you jump.",
+			say = "Wa-wait! Wait wait wait, you'll fall off the roof if you jump.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:48}",
-			say = "She...she’s flying….she’s ACTUALLY flying?!",
+			say = "She... she's flying... She's ACTUALLY flying?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmph, don’t think that you can escape this time!",
+			say = "Hmph, don't think that you can escape this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "No way, what’s with this broomstick...",
+			say = "No way, what's with this broomstick...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hahaha~ I’m now a flying Witch~ Quick, come join me Isuzu, Nelson~",
+			say = "Hahaha~ I'm now a flying witch~ Quick, come join me Isuzu, Nelson~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:48}",
-			say = "Wahahaha! I’m actually flying! I...am...flying!",
+			say = "Wahahaha! I'm actually flying! I... am... flying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "Broomstick, catch up to them…!",
+			say = "Broomstick, catch up to them...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Rodney?! …Yeeha~",
+			say = "Rodney?! ...Yeeha~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "Go and enjoy this feeling of flying, this is a once in a lifetime experience. Hold on tight. Have fun, sisters~",
+			say = "Go and enjoy this feeling of flying, this is a once in a lifetime experience. Hold on tight. Have fun, sisters",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

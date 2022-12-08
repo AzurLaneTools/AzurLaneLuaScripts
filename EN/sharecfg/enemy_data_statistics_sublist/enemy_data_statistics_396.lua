@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.enemy_data_statistics_396 = {
+	[294051] = {
+		cannon = 7,
+		hit_growth = 228,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 5,
+		air = 0,
+		speed = 36,
+		dodge = 26,
+		id = 294051,
+		cannon_growth = 576,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 320,
+		luck = 10,
+		star = 5,
+		hit = 15,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 63,
+		base = 90423,
+		durability = 158,
+		armor_growth = 0,
+		torpedo_growth = 5064,
+		luck_growth = 0,
+		antiaircraft_growth = 2016,
+		armor = 0,
+		durability_growth = 63000,
+		antiaircraft = 25,
+		antisub = 0,
+		battle_unit_type = 90,
+		scale = 150,
+		world_enhancement = {
+			45,
+			4.4,
+			0.2,
+			0.5,
+			0.7,
+			0.7,
+			0.7
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
 	[294052] = {
 		cannon = 15,
 		hit_growth = 228,
@@ -1873,166 +1919,6 @@ pg.enemy_data_statistics_396 = {
 		specific_fx_scale = {},
 		appear_fx = {
 			"appearbig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[294300] = {
-		cannon = 12,
-		name = "Arbiter: Strength VIII",
-		type = 3,
-		speed_growth = 0,
-		battle_unit_type = 90,
-		air = 0,
-		air_growth = 0,
-		friendly_cld = 0,
-		durability = 220,
-		armor = 0,
-		id = 294300,
-		bubble_fx = "",
-		dodge_growth = 240,
-		icon = "sairenboss6",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 10,
-		luck_growth = 0,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 1050,
-		hit_growth = 150,
-		speed = 26,
-		luck = 45,
-		antisub = 0,
-		scale = 135,
-		wave_fx = "movewave",
-		prefab = "sairenboss6",
-		cannon_growth = 980,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 19,
-		reload_growth = 0,
-		hit = 13,
-		nationality = 99,
-		durability_growth = 96800,
-		antiaircraft = 31,
-		antiaircraft_growth = 2460,
-		armor_type = 2,
-		world_enhancement = {
-			111,
-			1.8,
-			0.9,
-			0,
-			0,
-			1,
-			0.7
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.606,
-					0.501,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.333,
-					0.635,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.333,
-					0.635,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.333,
-					0.635,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							0.55,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.82,
-							2.19,
-							-0.4
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearBig"
 		},
 		position_offset = {
 			0,

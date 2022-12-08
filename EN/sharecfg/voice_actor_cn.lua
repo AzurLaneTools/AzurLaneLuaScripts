@@ -1330,7 +1330,7 @@ pg.voice_actor_CN = {
 	},
 	[338] = {
 		code = 338,
-		actor_name = "Saeo Ookizaki"
+		actor_name = "Saeko Ooki"
 	},
 	[339] = {
 		code = 339,

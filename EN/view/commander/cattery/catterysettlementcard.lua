@@ -119,12 +119,12 @@ function slot0.LoadCommander(slot0, slot1)
 
 	slot0.painting = slot1:getPainting()
 
-	setPaintingPrefab(slot0.char, slot0.painting, "result")
+	setCommanderPaintingPrefab(slot0.char, slot0.painting, "result")
 end
 
 function slot0.ReturnCommander(slot0)
 	if slot0.painting then
-		retPaintingPrefab(slot0.char, slot0.painting)
+		retCommanderPaintingPrefab(slot0.char, slot0.painting)
 
 		slot0.painting = nil
 	end

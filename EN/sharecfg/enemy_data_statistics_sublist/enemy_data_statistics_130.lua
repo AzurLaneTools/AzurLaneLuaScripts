@@ -1,5 +1,96 @@
 pg = pg or {}
 pg.enemy_data_statistics_130 = {
+	[10093009] = {
+		cannon = 0,
+		hit_growth = 210,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 4,
+		air = 50,
+		speed = 15,
+		dodge = 13,
+		luck = 0,
+		id = 10093009,
+		cannon_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 192,
+		reload = 150,
+		star = 4,
+		hit = 16,
+		antisub_growth = 0,
+		air_growth = 2880,
+		torpedo = 0,
+		base = 90256,
+		durability = 1480,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 80,
+		armor = 0,
+		durability_growth = 72500,
+		antiaircraft = 45,
+		antisub = 0,
+		antiaircraft_growth = 2880,
+		bound_bone = {
+			cannon = {
+				{
+					0.6,
+					0.6,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.38,
+					0.6,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.472,
+							0.233,
+							0.467
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.42,
+							1.7,
+							2.07
+						}
+					}
+				}
+			}
+		},
+		equipment_list = {
+			550041,
+			550042,
+			550043,
+			550044,
+			550045,
+			550046
+		}
+	},
 	[10093101] = {
 		cannon = 0,
 		reload = 150,
@@ -1082,46 +1173,6 @@ pg.enemy_data_statistics_130 = {
 		equipment_list = {
 			550062,
 			100349
-		}
-	},
-	[10095003] = {
-		cannon = 70,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 1800,
-		rarity = 3,
-		air = 0,
-		torpedo = 25,
-		dodge = 0,
-		durability_growth = 46000,
-		antiaircraft = 120,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		hit_growth = 144,
-		star = 3,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 35,
-		base = 90125,
-		durability = 2000,
-		armor_growth = 0,
-		torpedo_growth = 1250,
-		luck_growth = 0,
-		speed = 15,
-		armor = 0,
-		id = 10095003,
-		antiaircraft_growth = 1400,
-		antisub = 0,
-		fog_fx = "",
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100206,
-			100519,
-			535002
 		}
 	}
 }

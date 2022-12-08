@@ -1095,6 +1095,11 @@ pg.player_resource = {
 		name = "synchronize_fanji1",
 		itemid = 21908
 	},
+	[3010] = {
+		id = 3010,
+		name = "synchronize_fanji2",
+		itemid = 21909
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -1828,6 +1833,9 @@ pg.player_resource = {
 		synchronize_fanji1 = {
 			3009
 		},
+		synchronize_fanji2 = {
+			3010
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -2094,6 +2102,7 @@ pg.player_resource = {
 		3007,
 		3008,
 		3009,
+		3010,
 		3106,
 		3137,
 		4001,

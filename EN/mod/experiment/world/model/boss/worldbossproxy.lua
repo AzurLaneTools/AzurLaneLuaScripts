@@ -74,6 +74,12 @@ function slot0.Setup(slot0, slot1)
 	slot0.isFetched = false
 end
 
+function slot0.CheckRemouldShip(slot0, slot1)
+	if slot0.fleet and slot0.fleetForArchives then
+		slot0:GenFleet()
+	end
+end
+
 function slot0.FriendSupported(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() < slot0.friendSupport
 end
@@ -261,17 +267,32 @@ function slot0.GenFleet(slot0)
 end
 
 function slot0.GetCacheShips(slot0, slot1)
-	slot4 = {}
+	function slot2(slot0, slot1)
+		if TeamType.GetTeamShipMax(slot0:getTeamType()) < slot1 + 1 then
+			return true
+		end
 
-	if string.split(PlayerPrefs.GetString(slot1 .. getProxy(PlayerProxy):getRawData().id), "|") and #slot3 > 0 and (#slot3 ~= 1 or slot3[1] ~= "") then
-		for slot8, slot9 in ipairs(slot3) do
-			if getProxy(BayProxy):getShipById(tonumber(slot9)) then
-				table.insert(slot4, slot10)
+		return false
+	end
+
+	slot5 = {}
+	slot6 = {
+		[TeamType.Vanguard] = 0,
+		[TeamType.Main] = 0,
+		[TeamType.Submarine] = 0
+	}
+
+	if string.split(PlayerPrefs.GetString(slot1 .. getProxy(PlayerProxy):getRawData().id), "|") and #slot4 > 0 and (#slot4 ~= 1 or slot4[1] ~= "") then
+		for slot10, slot11 in ipairs(slot4) do
+			if getProxy(BayProxy):getShipById(tonumber(slot11)) and not slot2(slot13, slot6[slot13:getTeamType()]) then
+				slot6[slot14] = slot6[slot14] + 1
+
+				table.insert(slot5, slot12)
 			end
 		end
 	end
 
-	return slot4
+	return slot5
 end
 
 function slot0.GetFleet(slot0, slot1)

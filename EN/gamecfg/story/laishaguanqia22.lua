@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "Mirror Sea - In the past",
-			bgm = "ryza-1",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -518,7 +518,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "Land of Beginnings - The following day",
 			bgmDelay = 2,
-			bgm = "ryza-4",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
