@@ -1263,9 +1263,9 @@ pg.world_item_data_template = {
 	},
 	[2122] = {
 		item_transform_item_type = 0,
-		name = "绝密实验计划",
+		name = "T3 Ordnance Testing Report",
 		item_transform_item_id = 0,
-		display = "购买后能得到1个[绝密实验计划]，可用于进行装备研发。",
+		display = "Buy to receive T3 Ordnance Testing Report.",
 		log_text = "",
 		sort_priority = 2,
 		usage = "usage_drop",
