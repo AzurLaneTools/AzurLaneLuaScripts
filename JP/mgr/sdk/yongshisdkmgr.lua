@@ -219,6 +219,9 @@ return {
 	BindCPU = function ()
 		uv0:callSdkApi("bindCpu", nil)
 	end,
+	DeleteAccount = function ()
+		uv0:Delete()
+	end,
 	OnAndoridBackPress = function ()
 		PressBack()
 	end,

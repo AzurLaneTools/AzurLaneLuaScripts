@@ -43,6 +43,10 @@ function slot0.execute(slot0, slot1)
 			slot10 = true
 			slot6 = slot17
 		end
+	elseif slot9 == 2003 then
+		slot5 = Task.TASK_PROGRESS_UPDATE
+		slot10 = true
+		slot6 = 1
 	elseif slot9 == 2010 or slot9 == 2011 then
 		slot5 = Task.TASK_PROGRESS_APPEND
 		slot10 = true
@@ -72,6 +76,7 @@ function slot0.execute(slot0, slot1)
 			end
 
 			uv3:updateTask(uv1)
+			uv4:sendNotification(GAME.SHARE_TASK_FINISHED)
 		end
 	end)
 end

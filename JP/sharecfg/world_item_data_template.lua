@@ -162,6 +162,29 @@ pg.world_item_data_template = {
 			7
 		}
 	},
+	[120] = {
+		item_transform_item_type = 0,
+		name = "秘密海域情報記録装置",
+		item_transform_item_id = 0,
+		display = "上層部より支給された、秘密海域の情報を全て登録した記録装置。使用するとセイレーン作戦リセットまで全ての秘密海域を偵察済み状態にし、さらに秘密海域では自動攻略モードを適用できるようになります",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_world_flag",
+		grid_num = 1,
+		item_transform_item_number = 0,
+		open_box = "",
+		item_transform_num = 0,
+		rarity = 3,
+		id = 120,
+		icon = "Props/W120",
+		expired_date = "",
+		usage_arg = {
+			1
+		},
+		item_origin = {
+			101
+		}
+	},
 	[201] = {
 		item_transform_item_type = 0,
 		name = "応急修理箱",
@@ -783,9 +806,9 @@ pg.world_item_data_template = {
 	},
 	[2053] = {
 		item_transform_item_type = 0,
-		name = "档案坐标记录仪4",
+		name = "秘密情報任務開放・Ⅳ",
 		item_transform_item_id = 0,
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "購入すると、追加情報を獲得できる「情報任務」「情報エリア」を開放できます。任務をクリアすると新しい10個（115-5,115-6,144-1から144-8まで）の秘密情報が閲覧できるようになります。「秘密情報任務開放・Ⅱ」は一回しか購入できず、また関連任務をすべてクリアしていないと、「秘密情報任務開放」を新たに購入できません",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -802,9 +825,9 @@ pg.world_item_data_template = {
 	},
 	[2054] = {
 		item_transform_item_type = 0,
-		name = "档案坐标记录仪5",
+		name = "秘密情報任務開放・Ⅴ",
 		item_transform_item_id = 0,
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "購入すると、追加情報を獲得できる「情報任務」「情報エリア」を開放できます。任務をクリアすると新しい12個（132-1から132-6まで,143-1から143-6まで）の秘密情報が閲覧できるようになります。「秘密情報任務開放・Ⅲ」は一回しか購入できず、また関連任務をすべてクリアしていないと、「秘密情報任務開放」を新たに購入できません",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -821,9 +844,9 @@ pg.world_item_data_template = {
 	},
 	[2055] = {
 		item_transform_item_type = 0,
-		name = "档案坐标记录仪6",
+		name = "秘密情報任務開放・Ⅵ",
 		item_transform_item_id = 0,
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "使用すると、セイレーン海域マップで秘密情報を回収できる任務座標が出現します",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -840,9 +863,9 @@ pg.world_item_data_template = {
 	},
 	[2056] = {
 		item_transform_item_type = 0,
-		name = "档案坐标记录仪7",
+		name = "秘密情報任務開放・Ⅶ",
 		item_transform_item_id = 0,
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "使用すると、セイレーン海域マップで秘密情報を回収できる任務座標が出現します",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -859,9 +882,9 @@ pg.world_item_data_template = {
 	},
 	[2057] = {
 		item_transform_item_type = 0,
-		name = "档案坐标记录仪8",
+		name = "秘密情報任務開放・Ⅷ",
 		item_transform_item_id = 0,
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "使用すると、セイレーン海域マップで秘密情報を回収できる任務座標が出現します",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -878,9 +901,9 @@ pg.world_item_data_template = {
 	},
 	[2058] = {
 		item_transform_item_type = 0,
-		name = "档案坐标记录仪9",
+		name = "秘密情報任務開放・Ⅸ",
 		item_transform_item_id = 0,
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "使用すると、セイレーン海域マップで秘密情報を回収できる任務座標が出現します",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -897,9 +920,9 @@ pg.world_item_data_template = {
 	},
 	[2059] = {
 		item_transform_item_type = 0,
-		name = "档案坐标记录仪10",
+		name = "秘密情報任務開放・Ⅹ",
 		item_transform_item_id = 0,
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "使用すると、セイレーン海域マップで秘密情報を回収できる任務座標が出現します",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -4217,6 +4240,7 @@ pg.world_item_data_template = {
 		104,
 		105,
 		110,
+		120,
 		201,
 		202,
 		203,

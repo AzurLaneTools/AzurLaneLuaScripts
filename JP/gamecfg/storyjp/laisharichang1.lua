@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			bgm = "ryza-11",
+			bgm = "story-1",
 			say = "これは鏡面海域での事件が終わった後の、穏やかな日常の物語――",
 			flashout = {
 				black = true,

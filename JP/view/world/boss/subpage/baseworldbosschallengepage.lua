@@ -175,7 +175,7 @@ function slot0.UpdatePainting(slot0, slot1)
 		slot2.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot1, "title" .. slot0:GetResSuffix())
 
 		slot2:SetNativeSize()
-		setPaintingPrefabAsync(slot0.painting, slot0.groupId, "lihuisha")
+		setMetaPaintingPrefabAsync(slot0.painting, slot0.groupId, "lihuisha")
 
 		if pg.world_joint_boss_template[WorldBossConst.MetaId2BossId(slot0.groupId)].p_offset_other or uv0[slot0.groupId] then
 			setAnchoredPosition(slot0.painting, {
@@ -435,7 +435,7 @@ function slot0.removeBattleTimer(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	retPaintingPrefab(slot0.painting, slot0.groupId)
+	retMetaPaintingPrefab(slot0.painting, slot0.groupId)
 	slot0:RemoveListeners(slot0.proxy)
 	slot0:removeBattleTimer()
 	slot0.scrollRect:Dispose()

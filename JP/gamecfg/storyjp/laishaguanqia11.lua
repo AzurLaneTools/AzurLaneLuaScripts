@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "遺跡の鏡面海域・「紛争の城」",
-			bgm = "ryza-8",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,

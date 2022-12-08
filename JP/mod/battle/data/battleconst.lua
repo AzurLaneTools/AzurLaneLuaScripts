@@ -204,7 +204,8 @@ slot0.BulletOutBound = {
 	COMMON = 0,
 	EXIST = 1,
 	RANDOM = 2,
-	VISION = 3
+	VISION = 3,
+	SPLIT = 4
 }
 slot0.AOEField = {
 	SURFACE = 1,

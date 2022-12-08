@@ -17,6 +17,7 @@ slot0.Fields = {
 	arg2 = "number",
 	effect = "table",
 	applied = "boolean",
+	skipDisplay = "boolean",
 	destMapId = "number",
 	id = "number",
 	trap = "number",

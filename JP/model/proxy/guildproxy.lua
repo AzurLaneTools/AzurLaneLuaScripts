@@ -528,13 +528,29 @@ function slot0.GetRecommendShipsForMission(slot0, slot1)
 			})
 		end
 
+		slot6 = slot1:GetRecommendShipNation()
+		slot7 = slot1:GetRecommendShipTypes()
+
 		table.sort(slot5, function (slot0, slot1)
-			return uv0:CompareRecommendShip(slot0, slot1)
+			return CompareFuncs(slot0, slot1, {
+				function (slot0)
+					return table.contains(uv0, slot0.nation) and 0 or 1
+				end,
+				function (slot0)
+					return table.contains(uv0, slot0.type) and 0 or 1
+				end,
+				function (slot0)
+					return -slot0.level
+				end,
+				function (slot0)
+					return -slot0.power
+				end
+			})
 		end)
 
-		for slot9, slot10 in ipairs(slot5) do
-			if GuildEventMediator.OnCheckMissionShip(slot1.id, slot2, slot10) then
-				table.insert(slot2, slot10.id)
+		for slot11, slot12 in ipairs(slot5) do
+			if GuildEventMediator.OnCheckMissionShip(slot1.id, slot2, slot12) then
+				table.insert(slot2, slot12.id)
 			end
 
 			if #slot2 == 4 then
@@ -583,54 +599,57 @@ function slot0.GetRecommendShipsForEliteMission(slot0, slot1)
 	slot9 = slot1:GetEffectAttr()
 
 	function slot10(slot0, slot1)
-		if (slot0.attrs[uv0] or 0) == (slot1.attrs[uv0] or 0) then
-			if slot0.level == slot1.level then
-				return slot1.power < slot0.power
-			else
-				return slot1.level < slot0.level
+		return CompareFuncs(slot0, slot1, {
+			function (slot0)
+				return uv0:MatchAttr(slot0) and 0 or 1
+			end,
+			function (slot0)
+				return uv0:MatchNation(slot0) and 0 or 1
+			end,
+			function (slot0)
+				return uv0:MatchShipType(slot0) and 0 or 1
+			end,
+			function (slot0)
+				return -(uv0.attrs[uv1] or 0)
+			end,
+			function (slot0)
+				return -slot0.level
+			end,
+			function (slot0)
+				return -slot0.power
 			end
-		else
-			return slot3 < slot2
-		end
+		})
 	end
 
-	function slot11(slot0, slot1)
-		if 0 + (uv0:MatchAttr(slot0) and 1000 or 0) + (uv0:MatchNation(slot0) and 100 or 0) + (uv0:MatchShipType(slot0) and 10 or 0) == 0 + (uv0:MatchAttr(slot1) and 1000 or 0) + (uv0:MatchNation(slot1) and 100 or 0) + (uv0:MatchShipType(slot1) and 10 or 0) then
-			return uv1(slot0, slot1)
-		else
-			return slot3 < slot2
-		end
-	end
+	slot11 = slot1:GetSquadronTargetCnt()
 
-	slot12 = slot1:GetSquadronTargetCnt()
+	if #slot6 > 0 and slot11 > 0 then
+		table.sort(slot6, slot10)
 
-	if #slot6 > 0 and slot12 > 0 then
-		table.sort(slot6, slot11)
-
-		for slot16 = 1, slot12 do
-			slot8(slot6[slot16])
+		for slot15 = 1, slot11 do
+			slot8(slot6[slot15])
 		end
 	end
 
 	if #slot2 < 4 and #slot7 > 0 then
-		table.sort(slot7, slot11)
+		table.sort(slot7, slot10)
 
-		for slot16 = 1, #slot7 do
+		for slot15 = 1, #slot7 do
 			if #slot2 == 4 then
 				break
 			end
 
-			slot8(slot7[slot16])
+			slot8(slot7[slot15])
 		end
 	end
 
-	if #slot2 < 4 and slot12 > 0 and slot12 < #slot6 then
-		for slot16 = slot12 + 1, #slot6 do
+	if #slot2 < 4 and slot11 > 0 and slot11 < #slot6 then
+		for slot15 = slot11 + 1, #slot6 do
 			if #slot2 == 4 then
 				break
 			end
 
-			slot8(slot6[slot16])
+			slot8(slot6[slot15])
 		end
 	end
 

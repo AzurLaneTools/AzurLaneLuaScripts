@@ -6,7 +6,7 @@ slot3 = {
 	end,
 	__call = function (slot0, slot1)
 		return uv0({
-			value = value or 0
+			value = slot1 or 0
 		}, uv1)
 	end,
 	New = function (slot0)

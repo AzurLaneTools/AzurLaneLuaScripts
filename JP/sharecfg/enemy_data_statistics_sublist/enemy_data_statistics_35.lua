@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.enemy_data_statistics_35 = {
+	[911] = {
+		cannon = 10,
+		name = "スカベンジャーⅠ型",
+		reload = 150,
+		fog_fx = "",
+		base = 90248,
+		air = 0,
+		battle_unit_type = 51,
+		dodge = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 0,
+		torpedo = 40,
+		durability = 3200,
+		antiaircraft = 200,
+		speed = 20,
+		armor = 0,
+		id = 911,
+		equipment_list = {
+			531001,
+			531002,
+			531003,
+			531004
+		}
+	},
 	[912] = {
 		cannon = 10,
 		name = "チェイサーⅠ型",
@@ -728,47 +753,6 @@ pg.enemy_data_statistics_35 = {
 			311007,
 			311008,
 			311092
-		}
-	},
-	[1003] = {
-		cannon = 6,
-		name = "カゲロウ",
-		antiaircraft_growth = 1638,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		air_growth = 0,
-		dodge = 15,
-		luck = 0,
-		id = 1003,
-		cannon_growth = 468,
-		reload_growth = 0,
-		dodge_growth = 222,
-		reload = 150,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 2,
-		fog_fx = "",
-		base = 90169,
-		durability = 160,
-		armor_growth = 0,
-		torpedo_growth = 4491,
-		antiaircraft = 20,
-		hit_growth = 210,
-		armor = 0,
-		speed = 24,
-		torpedo = 54,
-		antisub = 0,
-		durability_growth = 7800,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
-			100411
 		}
 	}
 }

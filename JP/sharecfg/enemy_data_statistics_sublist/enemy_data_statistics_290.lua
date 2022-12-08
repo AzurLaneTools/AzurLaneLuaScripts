@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_290 = {
+	[15104301] = {
+		cannon = 315,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		battle_unit_type = 95,
+		air = 320,
+		base = 90582,
+		dodge = 20,
+		durability_growth = 0,
+		antiaircraft = 460,
+		speed = 18,
+		reload_growth = 0,
+		dodge_growth = 228,
+		luck = 30,
+		antiaircraft_growth = 0,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		torpedo = 0,
+		durability = 155000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 270,
+		armor = 0,
+		fog_fx = "",
+		id = 15104301,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			820501,
+			820502,
+			820503,
+			820504,
+			820505,
+			820506
+		}
+	},
 	[15104401] = {
 		cannon = 180,
 		reload = 150,
@@ -751,54 +793,6 @@ pg.enemy_data_statistics_290 = {
 		buff_list = {
 			{
 				ID = 8637,
-				LV = 0
-			}
-		}
-	},
-	[15200150] = {
-		cannon = 75,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		battle_unit_type = 95,
-		air = 0,
-		base = 90378,
-		dodge = 14,
-		durability_growth = 0,
-		speed = 18,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 198,
-		icon = "teluntuo",
-		luck_growth = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		torpedo = 55,
-		durability = 5200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 85,
-		hit_growth = 210,
-		armor = 0,
-		antiaircraft_growth = 0,
-		fog_fx = "",
-		id = 15200150,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			830001,
-			830002,
-			830003,
-			830004,
-			830005
-		},
-		buff_list = {
-			{
-				ID = 8526,
 				LV = 0
 			}
 		}

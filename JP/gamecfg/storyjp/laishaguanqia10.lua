@@ -12,7 +12,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
 			say = "鏡面海域・過去",
-			bgm = "ryza-11",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -276,7 +276,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "遺跡の鏡面海域・「始まりの地」",
 			bgmDelay = 2,
-			bgm = "ryza-13",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

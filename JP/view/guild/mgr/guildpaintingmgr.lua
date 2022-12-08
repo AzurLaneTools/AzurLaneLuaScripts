@@ -6,7 +6,9 @@ function slot0.Enter(slot0, slot1)
 	slot0._tf = slot1
 end
 
-function slot0.Update(slot0, slot1, slot2)
+function slot0.Update(slot0, slot1, slot2, slot3)
+	slot0.isShipPainting = slot3
+
 	slot0:Show()
 
 	if slot0.name == slot1 then
@@ -14,7 +16,12 @@ function slot0.Update(slot0, slot1, slot2)
 	end
 
 	slot0:Clear()
-	setPaintingPrefabAsync(slot0._tf, slot1, "chuanwu")
+
+	if slot0.isShipPainting then
+		setPaintingPrefabAsync(slot0._tf, slot1, "chuanwu")
+	else
+		setGuildPaintingPrefabAsync(slot0._tf, slot1, "chuanwu")
+	end
 
 	slot0.name = slot1
 
@@ -37,7 +44,11 @@ end
 
 function slot0.Clear(slot0)
 	if slot0.name then
-		retPaintingPrefab(slot0._tf, slot0.name)
+		if slot0.isShipPainting then
+			retPaintingPrefab(slot0._tf, slot0.name)
+		else
+			retGuildPaintingPrefab(slot0._tf, slot0.name)
+		end
 
 		slot0.name = nil
 	end

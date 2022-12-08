@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "ryza-5",
+			bgm = "ryza-az-theme",
 			side = 2,
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",

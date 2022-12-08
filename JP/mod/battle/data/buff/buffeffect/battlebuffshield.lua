@@ -15,13 +15,7 @@ end
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._number = slot0._tempData.arg_list.number or 0
 	slot0._maxHPRatio = slot3.maxHPRatio or 0
-
-	if slot3.casterMaxHPRatio then
-		slot0._casterMaxHPRatio = slot3.casterMaxHPRatio * 0.0001
-	else
-		slot0._casterMaxHPRatio = 0
-	end
-
+	slot0._casterMaxHPRatio = slot3.casterMaxHPRatio or 0
 	slot0._shield = slot0:CalcNumber(slot1)
 end
 

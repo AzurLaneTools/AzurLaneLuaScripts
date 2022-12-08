@@ -7,7 +7,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 100
+					casterMaxHPRatio = 0.01
 				}
 			}
 		}
@@ -20,7 +20,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 120
+					casterMaxHPRatio = 0.012
 				}
 			}
 		}
@@ -33,7 +33,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 140
+					casterMaxHPRatio = 0.014
 				}
 			}
 		}
@@ -46,7 +46,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 160
+					casterMaxHPRatio = 0.016
 				}
 			}
 		}
@@ -59,7 +59,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 180
+					casterMaxHPRatio = 0.018
 				}
 			}
 		}
@@ -72,7 +72,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 210
+					casterMaxHPRatio = 0.021
 				}
 			}
 		}
@@ -85,7 +85,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 240
+					casterMaxHPRatio = 0.024
 				}
 			}
 		}
@@ -98,7 +98,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 270
+					casterMaxHPRatio = 0.027
 				}
 			}
 		}
@@ -111,7 +111,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 310
+					casterMaxHPRatio = 0.031
 				}
 			}
 		}
@@ -124,7 +124,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					casterMaxHPRatio = 350
+					casterMaxHPRatio = 0.035
 				}
 			}
 		}
@@ -145,7 +145,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				casterMaxHPRatio = 100
+				casterMaxHPRatio = 0.01
 			}
 		}
 	}

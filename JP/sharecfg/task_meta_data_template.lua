@@ -1160,6 +1160,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100031] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "アリゾナ(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100031,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100032] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "アリゾナ(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100032,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100033] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "アリゾナ(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100033,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100034] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "アリゾナ(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100034,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100035] = {
+		target_id_2 = "970503",
+		sub_type = 180,
+		desc = "アリゾナ(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100035,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1221,6 +1261,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200024,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200031] = {
+		target_id_2 = "970503",
+		sub_type = 302,
+		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊で1回勝利する",
+		id = 200031,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200032] = {
+		target_id_2 = "970503",
+		sub_type = 302,
+		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200032,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200033] = {
+		target_id_2 = "970503",
+		sub_type = 302,
+		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200033,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200034] = {
+		target_id_2 = "970503",
+		sub_type = 302,
+		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200034,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1370,6 +1442,11 @@ pg.task_meta_data_template = {
 		100023,
 		100024,
 		100025,
+		100031,
+		100032,
+		100033,
+		100034,
+		100035,
 		200001,
 		200002,
 		200003,
@@ -1377,6 +1454,10 @@ pg.task_meta_data_template = {
 		200021,
 		200022,
 		200023,
-		200024
+		200024,
+		200031,
+		200032,
+		200033,
+		200034
 	}
 }

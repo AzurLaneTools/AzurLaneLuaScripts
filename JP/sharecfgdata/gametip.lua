@@ -4480,8 +4480,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2022.9.1-2022.12.8</color>
-META戦・レナウン(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2022.12.8-2023.3.9</color>
+META戦・アリゾナ(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -5096,7 +5096,7 @@ _G.pg.base.gametip.skill = {
 }
 
 _G.pg.base.gametip.cd_normal = {
-	tip = "基本速度"
+	tip = "基本攻速"
 }
 
 _G.pg.base.gametip.intensify = {
@@ -6322,7 +6322,17 @@ _G.pg.base.gametip.help_equipment = {
 • 空母は装備枠の種類によって違う艦載機を装備可能
 
 • 装備外装は発射する弾幕の見た目を変更可能。
-（装備外装は倉庫枠を消費しません）    ]]
+（装備外装は倉庫枠を消費しません）    対空砲について（2022/12/8アップデート後）：
+
+対空砲は装備枠の対空火器枠にのみ装備できる兵装の一種で、【近距離】【遠距離】の二種類のタイプがあります。
+
+【近距離】タイプの対空砲は、艦種問わず「対空兵装」枠に装備可能です。
+戦闘中、味方対空攻撃範囲内に入った全ての敵機に対して自動で対空攻撃を行います。
+
+【遠距離】タイプの対空砲は、「戦艦」「巡洋戦艦」「航空戦艦」のみが装備可能です。
+戦闘中、味方艦隊に戦闘可能な、【遠距離】タイプの対空砲を装備している艦船がいる限り、その艦船の一隻か・旗艦が装備している場合旗艦から、前方の扇状の範囲内に侵入してきた敵機に対して対空射撃を行います。
+この対空射撃は射撃を行う艦船が装備している対空砲のみならず、味方が装備している全ての【遠距離】タイプの対空砲によって強化されます。
+【近距離】タイプの対空砲による対空攻撃と違い、この対空射撃によって発射される砲弾は一定の範囲内にある全ての敵機にダメージを与えます。]]
 		}
 	}
 }
@@ -11243,6 +11253,10 @@ _G.pg.base.gametip.text_retreat = {
 	tip = "撤 退"
 }
 
+_G.pg.base.gametip.text_goto = {
+	tip = "出撃へ"
+}
+
 _G.pg.base.gametip.level_scene_title_word_1 = {
 	tip = "索敵値:"
 }
@@ -15056,6 +15070,18 @@ _G.pg.base.gametip.equip_info_31 = {
 	tip = "攻速"
 }
 
+_G.pg.base.gametip.equip_info_32 = {
+	tip = "偏差射撃補正"
+}
+
+_G.pg.base.gametip.equip_info_33 = {
+	tip = "迎撃標準攻速"
+}
+
+_G.pg.base.gametip.equip_info_34 = {
+	tip = "迎撃攻速"
+}
+
 _G.pg.base.gametip.equip_info_extralevel_0 = {
 	tip = "レベル0"
 }
@@ -17570,7 +17596,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することが出来ます。
 
-※<color=#92fc63>2022.9.1-2022.12.8</color>レナウン(META) META戦開放期間は「レナウン・META」の解析Ptを入手できます。
+※<color=#92fc63>2022.12.8-2023.3.9</color>アリゾナ(META) META戦開放期間は「アリゾナ・META」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -17719,6 +17745,18 @@ _G.pg.base.gametip.world_automode_title_2 = {
 	tip = "OPERATION"
 }
 
+_G.pg.base.gametip.world_automode_treasure_1 = {
+	tip = "「秘密海域情報記録装置」購入で開放"
+}
+
+_G.pg.base.gametip.world_automode_treasure_2 = {
+	tip = "「秘密海域情報記録装置」使用で開放"
+}
+
+_G.pg.base.gametip.world_automode_treasure_3 = {
+	tip = "セイレーン作戦リセット後に購入可能です"
+}
+
 _G.pg.base.gametip.world_automode_cancel = {
 	tip = "戻る"
 }
@@ -17741,6 +17779,10 @@ _G.pg.base.gametip.world_automode_start_tip3 = {
 
 _G.pg.base.gametip.world_automode_start_tip4 = {
 	tip = "このエリアからは移動できません"
+}
+
+_G.pg.base.gametip.world_automode_start_tip5 = {
+	tip = "確保済みのエリアでのみ使用できます"
 }
 
 _G.pg.base.gametip.world_automode_setting_1 = {
@@ -17825,6 +17867,30 @@ _G.pg.base.gametip.world_automode_setting_all_4_1 = {
 
 _G.pg.base.gametip.world_automode_setting_all_4_2 = {
 	tip = "OFF"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1 = {
+	tip = "確保必要エリアの脅威度"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_1 = {
+	tip = "3以下"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_2 = {
+	tip = "4"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_3 = {
+	tip = "5"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_4 = {
+	tip = "6"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_5 = {
+	tip = "全て"
 }
 
 _G.pg.base.gametip.world_collection_task_tip_1 = {

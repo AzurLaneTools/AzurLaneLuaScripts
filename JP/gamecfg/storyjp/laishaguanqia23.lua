@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "カードキーを「扉」に設置された装置に差し込むと、周囲にあったセイレーンの防衛施設の作動が停止し、海面上に1本の航路が現れた。",
-			bgm = "ryza-5",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,

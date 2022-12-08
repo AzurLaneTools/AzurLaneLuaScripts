@@ -769,6 +769,173 @@ pg.enemy_data_statistics_30 = {
 		random_nub = {},
 		buff_list = {}
 	},
+	[90718] = {
+		cannon = 0,
+		name = "アリゾナ(META)",
+		type = 5,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 90718,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "yalisangna_alter",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 4,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "yalisangna_alter",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 97,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.051,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.051,
+					1.083,
+					0
+				},
+				{
+					1.432,
+					0.75,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.051,
+					1.083,
+					0
+				},
+				{
+					1.432,
+					0.75,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.74,
+							0.372,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.227,
+							0.657,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[611] = {
 		cannon = 22,
 		name = "トネ",
@@ -1517,51 +1684,6 @@ pg.enemy_data_statistics_30 = {
 			314069,
 			314070,
 			100571
-		}
-	},
-	[643] = {
-		cannon = 250,
-		name = "リュウジョウ",
-		antiaircraft_growth = 3485,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 334,
-		air_growth = 6000,
-		dodge = 11,
-		luck = 0,
-		id = 643,
-		cannon_growth = 1224,
-		reload_growth = 0,
-		dodge_growth = 162,
-		speed = 22,
-		star = 6,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 5,
-		reload = 150,
-		base = 90235,
-		durability = 5500,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 42,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 74800,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100201,
-			100351,
-			314073,
-			314074,
-			314075,
-			314076,
-			314077
 		}
 	}
 }

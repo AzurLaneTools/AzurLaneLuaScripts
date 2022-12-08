@@ -1,5 +1,89 @@
 pg = pg or {}
 pg.enemy_data_statistics_242 = {
+	[14100302] = {
+		cannon = 95,
+		hit_growth = 210,
+		rarity = 2,
+		speed_growth = 0,
+		luck = 5,
+		air = 0,
+		id = 14100302,
+		reload = 150,
+		antiaircraft = 115,
+		battle_unit_type = 95,
+		dodge_growth = 132,
+		icon = "miaogaodc",
+		star = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90113,
+		durability = 5400,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		armor = 0,
+		antisub = 0,
+		scale = 240,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20004,
+		fog_fx = "",
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 50,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.35,
+							1.17,
+							0.51
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.39,
+							1.41,
+							0.54
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.02,
+							1.82,
+							0.76
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			710021,
+			710022,
+			710024
+		}
+	},
 	[14101001] = {
 		cannon = 8,
 		reload = 150,
@@ -1082,69 +1166,6 @@ pg.enemy_data_statistics_242 = {
 			1101027,
 			1101032,
 			1100492
-		}
-	},
-	[14102006] = {
-		cannon = 8,
-		name = "量産型タイホウ級",
-		hit_growth = 216,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 59,
-		air_growth = 2250,
-		icon_type = 7,
-		armor = 0,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90131,
-		durability = 3420,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		id = 14102006,
-		cannon_growth = 550,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 15,
-		torpedo = 0,
-		durability_growth = 54400,
-		antiaircraft = 75,
-		antiaircraft_growth = 2200,
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1,
-				0.2,
-				-0.3464
-			},
-			{
-				0,
-				-1,
-				2.2
-			}
-		},
-		equipment_list = {
-			1101027,
-			1100797,
-			1100802,
-			1101022
 		}
 	}
 }

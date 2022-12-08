@@ -23,7 +23,8 @@ slot10 = {
 	"",
 	"JP",
 	"KR",
-	"US"
+	"US",
+	""
 }
 
 function slot11(slot0)

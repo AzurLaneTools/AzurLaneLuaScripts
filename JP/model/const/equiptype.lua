@@ -17,6 +17,7 @@ slot0.AntiSubAircraft = 15
 slot0.Helicopter = 17
 slot0.Goods = 18
 slot0.Missile = 20
+slot0.RangedAntiAircraft = 21
 slot0.AmmoType_1 = 1
 slot0.AmmoType_2 = 2
 slot0.AmmoType_3 = 3
@@ -116,7 +117,8 @@ slot2 = {
 	"equipment",
 	"equipment",
 	nil,
-	"missile"
+	"missile",
+	"antiair"
 }
 
 function slot0.Type2Name(slot0)
@@ -149,7 +151,8 @@ function slot0.type2Tag(slot0)
 			"14",
 			"15",
 			nil,
-			"16"
+			"16",
+			"6"
 		}
 	end
 
@@ -165,7 +168,7 @@ function slot0.type2Title(slot0, slot1)
 		return uv0[slot0]
 	elseif slot1 == uv1.Torpedo then
 		return uv0[3]
-	elseif slot1 == uv1.AntiAircraft then
+	elseif slot1 == uv1.AntiAircraft or slot1 == uv1.RangedAntiAircraft then
 		return uv0[4]
 	elseif slot1 >= 7 and slot1 <= 9 or slot1 == uv1.SeaPlane then
 		return uv1.Type2Name(slot1)
@@ -260,6 +263,8 @@ function slot9(slot0)
 		return table.contains(uv0, slot0)
 	end) then
 		return "equipment"
+	elseif #slot0 == 2 and table.contains(slot0, EquipType.AntiAircraft) and table.contains(slot0, EquipType.RangedAntiAircraft) then
+		return "antiair"
 	elseif _.all(slot0, function (slot0)
 		return table.contains(uv0, slot0)
 	end) then

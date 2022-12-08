@@ -29,6 +29,10 @@ function slot4.Ctor(slot0, slot1, slot2)
 end
 
 function slot4.Hit(slot0, slot1, slot2)
+	if slot0:GetTemplate().extra_param.rangeAA then
+		return
+	end
+
 	uv0.super.Hit(slot0, slot1, slot2)
 
 	slot0._pierceCount = slot0._pierceCount - 1

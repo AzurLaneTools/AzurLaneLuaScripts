@@ -37,3 +37,7 @@ require("Mgr/UserAgreementMgr")
 require("Mgr/BrightnessMgr")
 require("Mgr/ConfigTablePreloadMgr")
 require("Mgr/Fix/CameraFixMgr")
+
+if PLATFORM_CODE == PLATFORM_CHT then
+	require("Mgr/DeepLinking/YongshiDeepLinkingMgr")
+end

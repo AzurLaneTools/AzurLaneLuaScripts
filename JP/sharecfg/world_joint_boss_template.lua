@@ -92,7 +92,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "蒼龍(META)",
 		painting = "canglong",
 		boss_level_id = 46,
@@ -112,16 +112,16 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			818,
-			1268.1,
-			1.7,
-			1.7
+			-36.45481,
+			610.5,
+			0.95,
+			0.95
 		},
 		p_offset_other = {
-			1424,
-			1267.9,
-			1.7,
-			1.7
+			296,
+			610,
+			0.95,
+			0.95
 		}
 	},
 	{
@@ -221,12 +221,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "レナウン(META)",
 		painting = "shengwang",
 		boss_level_id = 106,
 		id = 8,
 		meta_id = 970404,
+		item_id = 100000,
 		description = {
 			{
 				"メテオレイン",
@@ -249,12 +250,44 @@ pg.world_joint_boss_template = {
 				"戦闘中、味方主力艦隊に接触すると大ダメージを与え、空母を発見状態にさせる巨大なラヴァスフィアを放つ"
 			}
 		},
+		p_offset = {
+			-49.8,
+			589.5,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			388,
+			586.2,
+			0.9,
+			0.9
+		}
+	},
+	{
+		item_id = 100000,
+		name = "アリゾナ(META)",
+		painting = "yalisangna",
+		boss_level_id = 121,
+		id = 9,
+		meta_id = 970503,
+		description = {
+			{
+				"広がる悲しみ",
+				2,
+				"戦闘中、青色の霧を出現させ、霧の中にいる艦船の速力が低下し、受けるダメージが上昇する。\n霧の効果は<color=#92fc63>中に滞在する時間とともに上昇する</color>。また、霧から離れると、霧による弱体化効果が徐々になくなる。"
+			},
+			{
+				"黒き波の涙",
+				1,
+				"任意の敵の艦船の耐久が50％を下回っている場合、その敵は戦闘中耐久が回復する。\n任意の敵の艦船の耐久が20％を下回っている場合、<color=#92fc63>その敵が受ける回復効果はダメージ効果になる。</color>"
+			}
+		},
 		state = {
 			{
 				{
 					2022,
-					9,
-					1
+					12,
+					8
 				},
 				{
 					0,
@@ -264,9 +297,9 @@ pg.world_joint_boss_template = {
 			},
 			{
 				{
-					2022,
-					12,
-					8
+					2023,
+					3,
+					9
 				},
 				{
 					23,
@@ -296,6 +329,7 @@ pg.world_joint_boss_template = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }

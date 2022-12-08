@@ -1517,5 +1517,27 @@ pg.effect_offset = {
 			4,
 			0
 		}
+	},
+	RedEyes = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = true,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	yalisangna_fangxing = {
+		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
 	}
 }

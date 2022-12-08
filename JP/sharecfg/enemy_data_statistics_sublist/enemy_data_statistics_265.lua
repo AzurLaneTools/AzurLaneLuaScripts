@@ -1,5 +1,62 @@
 pg = pg or {}
 pg.enemy_data_statistics_265 = {
+	[14603301] = {
+		cannon = 230,
+		hit_growth = 330,
+		bubble_fx = "",
+		speed_growth = 0,
+		rarity = 4,
+		air = 0,
+		luck = 25,
+		id = 14603301,
+		reload = 150,
+		antiaircraft = 250,
+		battle_unit_type = 95,
+		dodge_growth = 252,
+		star = 4,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90467,
+		durability = 78200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		armor = 0,
+		antisub = 0,
+		scale = 144,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		dodge = 20,
+		reload_growth = 0,
+		hit = 35,
+		torpedo = 180,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			773001,
+			773002,
+			773003,
+			773004,
+			773005
+		},
+		buff_list = {}
+	},
 	[14603302] = {
 		cannon = 270,
 		hit_growth = 330,
@@ -997,65 +1054,5 @@ pg.enemy_data_statistics_265 = {
 			1003195
 		},
 		buff_list = {}
-	},
-	[14604201] = {
-		cannon = 140,
-		hit_growth = 210,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		rarity = 3,
-		dodge = 11,
-		luck = 20,
-		id = 14604201,
-		cannon_growth = 2500,
-		reload_growth = 0,
-		dodge_growth = 156,
-		reload = 150,
-		star = 4,
-		hit = 16,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		base = 90468,
-		durability = 16730,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 3600,
-		armor = 0,
-		speed = 20,
-		torpedo = 0,
-		antisub = 0,
-		durability_growth = 326400,
-		antiaircraft = 175,
-		battle_unit_type = 90,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1003160,
-			1003165,
-			1003170,
-			1003175,
-			1003200
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 5
-			}
-		}
 	}
 }

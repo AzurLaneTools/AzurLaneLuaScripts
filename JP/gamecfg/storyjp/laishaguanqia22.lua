@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "鏡面海域・過去",
-			bgm = "ryza-1",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -518,7 +518,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "遺跡の鏡面海域・「始まりの地」　翌日",
 			bgmDelay = 2,
-			bgm = "ryza-4",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

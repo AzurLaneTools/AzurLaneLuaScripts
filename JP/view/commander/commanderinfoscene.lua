@@ -262,10 +262,10 @@ function slot0.updateCommander(slot0)
 
 	if slot1:getPainting() ~= slot0.painting then
 		if slot0.painting then
-			retPaintingPrefab(slot0.paintTF, slot0.painting)
+			retCommanderPaintingPrefab(slot0.paintTF, slot0.painting)
 		end
 
-		setPaintingPrefab(slot0.paintTF, slot2, "info")
+		setCommanderPaintingPrefab(slot0.paintTF, slot2, "info")
 
 		slot0.painting = slot2
 	end
@@ -317,7 +317,7 @@ function slot0.willExit(slot0)
 		slot5:exit()
 	end
 
-	retPaintingPrefab(slot0.paintTF, slot0.commanderVO:getPainting())
+	retCommanderPaintingPrefab(slot0.paintTF, slot0.commanderVO:getPainting())
 	slot0.treePanel:Destroy()
 	slot0.renamePanel:Destroy()
 	slot0.msgboxPage:Destroy()

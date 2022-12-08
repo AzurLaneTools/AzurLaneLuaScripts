@@ -94,6 +94,9 @@ function slot0.update(slot0, slot1)
 		slot0:flush()
 		slot0:flushDetail()
 	end
+
+	setActive(slot0.nameTF, false)
+	setActive(slot0.nameTF, true)
 end
 
 function slot0.updateDetail(slot0, slot1)

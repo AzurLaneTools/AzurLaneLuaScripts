@@ -544,7 +544,7 @@ function slot0.InitFormula(slot0, slot1)
 		id = slot1:GetProduction()[2]
 	})
 	setText(slot2:Find("Name"), slot1:GetName())
-	setText(slot2:Find("Description"), slot1:GetDesc())
+	setText(slot2:Find("Description/Text"), slot1:GetDesc())
 
 	slot4 = tostring(slot1:GetMaxLimit() - slot1:GetUsedCount())
 

@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.enemy_data_statistics_243 = {
+	[14102006] = {
+		cannon = 8,
+		name = "量産型タイホウ級",
+		hit_growth = 216,
+		speed_growth = 0,
+		fog_fx = "",
+		air = 59,
+		air_growth = 2250,
+		icon_type = 7,
+		armor = 0,
+		antisub = 0,
+		luck_growth = 0,
+		battle_unit_type = 65,
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90131,
+		durability = 3420,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 14102006,
+		cannon_growth = 550,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 15,
+		torpedo = 0,
+		durability_growth = 54400,
+		antiaircraft = 75,
+		antiaircraft_growth = 2200,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				-1,
+				2.2
+			}
+		},
+		equipment_list = {
+			1101027,
+			1100797,
+			1100802,
+			1101022
+		}
+	},
 	[14102007] = {
 		cannon = 60,
 		reload = 150,
@@ -843,44 +906,6 @@ pg.enemy_data_statistics_243 = {
 				ID = 50510,
 				LV = 1
 			}
-		}
-	},
-	[14200105] = {
-		cannon = 0,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		rarity = 3,
-		air = 31,
-		torpedo = 0,
-		dodge = 9,
-		durability_growth = 39200,
-		antiaircraft = 38,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 132,
-		hit_growth = 210,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 2574,
-		battle_unit_type = 60,
-		base = 90477,
-		durability = 890,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		speed = 22,
-		armor = 0,
-		id = 14200105,
-		antiaircraft_growth = 3168,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			1100025,
-			1100310,
-			729021,
-			729026
 		}
 	}
 }

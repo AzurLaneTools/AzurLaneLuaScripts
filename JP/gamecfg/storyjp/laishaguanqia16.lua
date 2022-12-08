@@ -264,7 +264,7 @@ return {
 			bgName = "bg_ryza_1",
 			say = "一行は無事撤退し、帰途についた。",
 			bgmDelay = 2,
-			bgm = "ryza-12",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

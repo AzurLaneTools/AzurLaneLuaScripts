@@ -7,7 +7,7 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = getProxy(WorldProxy)
 
-			slot1:NetUpdateWorld(slot0.world, slot0.vision_list or {}, uv0.camp)
+			slot1:NetUpdateWorld(slot0.world, slot0.global_flag_list or {}, uv0.camp)
 			slot1:NetUpdateWorldPressingAward(slot0.chapter_award)
 			slot1:NetUpdateWorldCountInfo(slot0.count_info)
 			slot1:NetUpdateWorldPortTaskMark(slot0.port_list, slot0.new_flag_port_list)

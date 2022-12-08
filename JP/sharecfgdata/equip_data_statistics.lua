@@ -575,7 +575,7 @@ _G.pg.base.equip_data_statistics[103] = {
 _G.pg.base.equip_data_statistics[104] = {
 	tech = 1,
 	name = "0",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	rarity = 1,
 	ammo = 5,
@@ -1832,6 +1832,68 @@ _G.pg.base.equip_data_statistics[155] = {
 		"SN",
 		"CV",
 		"DB"
+	}
+}
+
+_G.pg.base.equip_data_statistics[190] = {
+	tech = 1,
+	name = "测试远程 防空炮",
+	speciality = "近距離",
+	type = 6,
+	rarity = 1,
+	ammo = 5,
+	damage = "4/轮",
+	nationality = 0,
+	descrip = "默认装备",
+	id = 190,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		104
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"UN",
+		"ST",
+		"AA"
 	}
 }
 
@@ -3274,7 +3336,7 @@ _G.pg.base.equip_data_statistics[436] = {
 _G.pg.base.equip_data_statistics[437] = {
 	tech = 1,
 	name = "应瑞肇和自带防空炮",
-	speciality = "防空",
+	speciality = "近程",
 	type = 6,
 	rarity = 2,
 	ammo = 5,
@@ -3541,7 +3603,7 @@ _G.pg.base.equip_data_statistics[441] = {
 _G.pg.base.equip_data_statistics[442] = {
 	tech = 0,
 	name = "苍穹喷射机自带防空炮-类六联博福斯",
-	speciality = "防空",
+	speciality = "近程",
 	type = 6,
 	descrip = "说明未填写",
 	ammo = 5,
@@ -4001,7 +4063,7 @@ _G.pg.base.equip_data_statistics[459] = {
 _G.pg.base.equip_data_statistics[460] = {
 	rarity = 5,
 	name = "VIT自带防空炮-类六联博福斯+3",
-	speciality = "防空",
+	speciality = "近程",
 	type = 6,
 	tech = 0,
 	ammo = 5,
@@ -4216,7 +4278,7 @@ _G.pg.base.equip_data_statistics[466] = {
 _G.pg.base.equip_data_statistics[467] = {
 	rarity = 5,
 	name = "雷球替换防空",
-	speciality = "防空",
+	speciality = "近程",
 	type = 6,
 	tech = 0,
 	ammo = 5,
@@ -4457,7 +4519,8 @@ _G.pg.base.equip_data_statistics[520] = {
 	equip_parameters = {},
 	label = {
 		"USS",
-		"DEV"
+		"DEV",
+		"Pearl's-Tears"
 	}
 }
 
@@ -21259,7 +21322,7 @@ _G.pg.base.equip_data_statistics[5551] = {
 _G.pg.base.equip_data_statistics[6000] = {
 	tech = 1,
 	name = "12.7mm対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	rarity = 1,
 	ammo = 5,
@@ -21356,7 +21419,7 @@ _G.pg.base.equip_data_statistics[6003] = {
 _G.pg.base.equip_data_statistics[6020] = {
 	tech = 2,
 	name = "12.7mm対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -21454,7 +21517,7 @@ _G.pg.base.equip_data_statistics[6023] = {
 _G.pg.base.equip_data_statistics[6040] = {
 	tech = 3,
 	name = "12.7mm対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -21592,7 +21655,7 @@ _G.pg.base.equip_data_statistics[6047] = {
 _G.pg.base.equip_data_statistics[6100] = {
 	tech = 1,
 	name = "100mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	rarity = 1,
 	ammo = 5,
@@ -21689,7 +21752,7 @@ _G.pg.base.equip_data_statistics[6103] = {
 _G.pg.base.equip_data_statistics[6120] = {
 	tech = 2,
 	name = "100mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -21787,7 +21850,7 @@ _G.pg.base.equip_data_statistics[6123] = {
 _G.pg.base.equip_data_statistics[6140] = {
 	tech = 3,
 	name = "100mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -24989,6 +25052,202 @@ _G.pg.base.equip_data_statistics[11253] = {
 	base = 11240,
 	weapon_id = {
 		11253
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11260] = {
+	attribute_3 = "antiaircraft",
+	name = "試作型137mm連装両用砲Mk1",
+	speciality = "追尾",
+	type = 1,
+	tech = 0,
+	ammo = 1,
+	damage = "8 x 6",
+	nationality = 1,
+	descrip = "说明未填写",
+	rarity = 5,
+	value_3 = 10,
+	id = 11260,
+	value_2 = 35,
+	icon = "11260",
+	torpedo_ammo = 0,
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1011
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1011
+		},
+		{
+			4,
+			1024
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		11260
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {
+		4,
+		5,
+		13
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"DD",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[11261] = {
+	id = 11261,
+	damage = "9 x 6",
+	base = 11260,
+	weapon_id = {
+		11261
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11262] = {
+	id = 11262,
+	damage = "10 x 6",
+	base = 11260,
+	weapon_id = {
+		11262
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11263] = {
+	id = 11263,
+	damage = "11 x 6",
+	base = 11260,
+	weapon_id = {
+		11263
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11264] = {
+	id = 11264,
+	damage = "12 x 6",
+	base = 11260,
+	weapon_id = {
+		11264
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11265] = {
+	id = 11265,
+	damage = "13 x 6",
+	base = 11260,
+	weapon_id = {
+		11265
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11266] = {
+	id = 11266,
+	damage = "14 x 6",
+	base = 11260,
+	weapon_id = {
+		11266
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11267] = {
+	id = 11267,
+	damage = "15 x 6",
+	base = 11260,
+	weapon_id = {
+		11267
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11268] = {
+	id = 11268,
+	damage = "16 x 6",
+	base = 11260,
+	weapon_id = {
+		11268
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11269] = {
+	id = 11269,
+	damage = "17 x 6",
+	base = 11260,
+	weapon_id = {
+		11269
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11270] = {
+	id = 11270,
+	damage = "18 x 6",
+	base = 11260,
+	weapon_id = {
+		11270
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11271] = {
+	id = 11271,
+	anti_siren = 100,
+	damage = "18 x 6",
+	base = 11260,
+	weapon_id = {
+		11271
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11272] = {
+	id = 11272,
+	anti_siren = 200,
+	damage = "18 x 6",
+	base = 11260,
+	weapon_id = {
+		11272
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[11273] = {
+	id = 11273,
+	anti_siren = 300,
+	damage = "18 x 6",
+	base = 11260,
+	weapon_id = {
+		11273
 	},
 	hidden_skill_id = {}
 }
@@ -31644,7 +31903,7 @@ _G.pg.base.equip_data_statistics[15511] = {
 _G.pg.base.equip_data_statistics[16000] = {
 	tech = 1,
 	name = "20mmエリコン機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	rarity = 1,
 	ammo = 5,
@@ -31741,7 +32000,7 @@ _G.pg.base.equip_data_statistics[16003] = {
 _G.pg.base.equip_data_statistics[16020] = {
 	tech = 2,
 	name = "20mmエリコン機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -31839,7 +32098,7 @@ _G.pg.base.equip_data_statistics[16023] = {
 _G.pg.base.equip_data_statistics[16040] = {
 	tech = 3,
 	name = "20mmエリコン機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -31977,7 +32236,7 @@ _G.pg.base.equip_data_statistics[16047] = {
 _G.pg.base.equip_data_statistics[16060] = {
 	tech = 0,
 	name = "76mm高角砲改修型",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -32156,7 +32415,7 @@ _G.pg.base.equip_data_statistics[16071] = {
 _G.pg.base.equip_data_statistics[16080] = {
 	tech = 0,
 	name = "76mm連装RF砲Mk27",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -32357,7 +32616,7 @@ _G.pg.base.equip_data_statistics[16093] = {
 _G.pg.base.equip_data_statistics[16100] = {
 	tech = 1,
 	name = "20mm二連装エリコン機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -32455,7 +32714,7 @@ _G.pg.base.equip_data_statistics[16103] = {
 _G.pg.base.equip_data_statistics[16120] = {
 	tech = 2,
 	name = "20mm二連装エリコン機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -32583,7 +32842,7 @@ _G.pg.base.equip_data_statistics[16126] = {
 _G.pg.base.equip_data_statistics[16140] = {
 	tech = 3,
 	name = "20mm二連装エリコン機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -32762,7 +33021,7 @@ _G.pg.base.equip_data_statistics[16151] = {
 _G.pg.base.equip_data_statistics[16160] = {
 	tech = 0,
 	name = "20mm四連装エリコン機関砲Mk15",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -32941,7 +33200,7 @@ _G.pg.base.equip_data_statistics[16171] = {
 _G.pg.base.equip_data_statistics[16200] = {
 	tech = 1,
 	name = "四連装28mm対空機銃「シカゴピアノ」",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -33039,7 +33298,7 @@ _G.pg.base.equip_data_statistics[16203] = {
 _G.pg.base.equip_data_statistics[16220] = {
 	tech = 2,
 	name = "四連装28mm対空機銃「シカゴピアノ」",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -33167,7 +33426,7 @@ _G.pg.base.equip_data_statistics[16226] = {
 _G.pg.base.equip_data_statistics[16240] = {
 	tech = 3,
 	name = "四連装28mm対空機銃「シカゴピアノ」",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -33346,7 +33605,7 @@ _G.pg.base.equip_data_statistics[16251] = {
 _G.pg.base.equip_data_statistics[16300] = {
 	tech = 1,
 	name = "二連装ボフォース40mm機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -33444,7 +33703,7 @@ _G.pg.base.equip_data_statistics[16303] = {
 _G.pg.base.equip_data_statistics[16320] = {
 	tech = 2,
 	name = "二連装ボフォース40mm機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -33572,7 +33831,7 @@ _G.pg.base.equip_data_statistics[16326] = {
 _G.pg.base.equip_data_statistics[16340] = {
 	tech = 3,
 	name = "二連装ボフォース40mm機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -33751,7 +34010,7 @@ _G.pg.base.equip_data_statistics[16351] = {
 _G.pg.base.equip_data_statistics[16400] = {
 	tech = 1,
 	name = "四連装ボフォース40mm機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -33879,7 +34138,7 @@ _G.pg.base.equip_data_statistics[16406] = {
 _G.pg.base.equip_data_statistics[16420] = {
 	tech = 2,
 	name = "四連装ボフォース40mm機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -34047,7 +34306,7 @@ _G.pg.base.equip_data_statistics[16430] = {
 _G.pg.base.equip_data_statistics[16440] = {
 	tech = 3,
 	name = "四連装ボフォース40mm機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -34243,6 +34502,184 @@ _G.pg.base.equip_data_statistics[16453] = {
 		16453
 	},
 	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[16460] = {
+	attribute_3 = "cannon",
+	name = "127mm連装両用砲Mk12(時限信管)",
+	speciality = "遠距離",
+	type = 21,
+	tech = 0,
+	ammo = 5,
+	damage = "82/回",
+	nationality = 1,
+	descrip = "说明未填写",
+	rarity = 5,
+	value_3 = 10,
+	id = 16460,
+	value_2 = 35,
+	icon = "16460",
+	torpedo_ammo = 0,
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			11,
+			2003
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		{
+			13,
+			2003
+		}
+	},
+	weapon_id = {
+		16460
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10
+	},
+	part_sub = {
+		4,
+		5,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"ST",
+		"AAF"
+	}
+}
+
+_G.pg.base.equip_data_statistics[16461] = {
+	id = 16461,
+	damage = "93/回",
+	base = 16460,
+	weapon_id = {
+		16461
+	}
+}
+
+_G.pg.base.equip_data_statistics[16462] = {
+	id = 16462,
+	damage = "103/回",
+	base = 16460,
+	weapon_id = {
+		16462
+	}
+}
+
+_G.pg.base.equip_data_statistics[16463] = {
+	id = 16463,
+	damage = "114/回",
+	base = 16460,
+	weapon_id = {
+		16463
+	}
+}
+
+_G.pg.base.equip_data_statistics[16464] = {
+	id = 16464,
+	damage = "124/回",
+	base = 16460,
+	weapon_id = {
+		16464
+	}
+}
+
+_G.pg.base.equip_data_statistics[16465] = {
+	id = 16465,
+	damage = "135/回",
+	base = 16460,
+	weapon_id = {
+		16465
+	}
+}
+
+_G.pg.base.equip_data_statistics[16466] = {
+	id = 16466,
+	damage = "145/回",
+	base = 16460,
+	weapon_id = {
+		16466
+	}
+}
+
+_G.pg.base.equip_data_statistics[16467] = {
+	id = 16467,
+	damage = "156/回",
+	base = 16460,
+	weapon_id = {
+		16467
+	}
+}
+
+_G.pg.base.equip_data_statistics[16468] = {
+	id = 16468,
+	damage = "168/回",
+	base = 16460,
+	weapon_id = {
+		16468
+	}
+}
+
+_G.pg.base.equip_data_statistics[16469] = {
+	id = 16469,
+	damage = "180/回",
+	base = 16460,
+	weapon_id = {
+		16469
+	}
+}
+
+_G.pg.base.equip_data_statistics[16470] = {
+	id = 16470,
+	damage = "192/回",
+	base = 16460,
+	weapon_id = {
+		16470
+	}
+}
+
+_G.pg.base.equip_data_statistics[16471] = {
+	id = 16471,
+	anti_siren = 100,
+	damage = "192/回",
+	base = 16460,
+	weapon_id = {
+		16471
+	}
+}
+
+_G.pg.base.equip_data_statistics[16472] = {
+	id = 16472,
+	anti_siren = 200,
+	damage = "192/回",
+	base = 16460,
+	weapon_id = {
+		16472
+	}
+}
+
+_G.pg.base.equip_data_statistics[16473] = {
+	id = 16473,
+	anti_siren = 300,
+	damage = "192/回",
+	base = 16460,
+	weapon_id = {
+		16473
+	}
 }
 
 _G.pg.base.equip_data_statistics[17000] = {
@@ -38292,6 +38729,324 @@ _G.pg.base.equip_data_statistics[17411] = {
 	weapon_id = {
 		17411,
 		81411
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17420] = {
+	rarity = 5,
+	name = "試作型XF5U「フライングパンケーキ」",
+	speciality = "航空",
+	type = 7,
+	tech = 0,
+	ammo = 5,
+	nationality = 1,
+	descrip = "試作型XF5U「フライングパンケーキ」",
+	id = 17420,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "17420",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50660
+		},
+		{
+			5,
+			52760
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		17420,
+		81420
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"CV",
+		"FT"
+	}
+}
+
+_G.pg.base.equip_data_statistics[17421] = {
+	id = 17421,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50661
+		},
+		{
+			5,
+			52761
+		}
+	},
+	weapon_id = {
+		17421,
+		81421
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17422] = {
+	id = 17422,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50662
+		},
+		{
+			5,
+			52762
+		}
+	},
+	weapon_id = {
+		17422,
+		81422
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17423] = {
+	id = 17423,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50663
+		},
+		{
+			5,
+			52763
+		}
+	},
+	weapon_id = {
+		17423,
+		81423
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17424] = {
+	id = 17424,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50664
+		},
+		{
+			5,
+			52764
+		}
+	},
+	weapon_id = {
+		17424,
+		81424
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17425] = {
+	id = 17425,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50665
+		},
+		{
+			5,
+			52765
+		}
+	},
+	weapon_id = {
+		17425,
+		81425
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17426] = {
+	id = 17426,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50666
+		},
+		{
+			5,
+			52766
+		}
+	},
+	weapon_id = {
+		17426,
+		81426
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17427] = {
+	id = 17427,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50667
+		},
+		{
+			5,
+			52767
+		}
+	},
+	weapon_id = {
+		17427,
+		81427
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17428] = {
+	id = 17428,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50668
+		},
+		{
+			5,
+			52768
+		}
+	},
+	weapon_id = {
+		17428,
+		81428
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17429] = {
+	id = 17429,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50669
+		},
+		{
+			5,
+			52769
+		}
+	},
+	weapon_id = {
+		17429,
+		81429
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17430] = {
+	id = 17430,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50670
+		},
+		{
+			5,
+			52770
+		}
+	},
+	weapon_id = {
+		17430,
+		81430
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17431] = {
+	id = 17431,
+	anti_siren = 100,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50671
+		},
+		{
+			5,
+			52771
+		}
+	},
+	weapon_id = {
+		17431,
+		81431
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17432] = {
+	id = 17432,
+	anti_siren = 200,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50672
+		},
+		{
+			5,
+			52772
+		}
+	},
+	weapon_id = {
+		17432,
+		81432
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17433] = {
+	id = 17433,
+	anti_siren = 300,
+	base = 17420,
+	ammo_info = {
+		{
+			6,
+			50673
+		},
+		{
+			5,
+			52773
+		}
+	},
+	weapon_id = {
+		17433,
+		81433
 	},
 	hidden_skill_id = {}
 }
@@ -48139,6 +48894,200 @@ _G.pg.base.equip_data_statistics[23213] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[23220] = {
+	tech = 0,
+	name = "試作型203mm三連装砲Mark X",
+	speciality = "追尾",
+	type = 3,
+	descrip = "说明未填写",
+	ammo = 2,
+	damage = "28 x 6",
+	nationality = 2,
+	rarity = 5,
+	id = 23220,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "23220",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1425
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1425
+		},
+		{
+			4,
+			1214
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		23220
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[23221] = {
+	id = 23221,
+	damage = "30 x 6",
+	base = 23220,
+	weapon_id = {
+		23221
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23222] = {
+	id = 23222,
+	damage = "32 x 6",
+	base = 23220,
+	weapon_id = {
+		23222
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23223] = {
+	id = 23223,
+	damage = "34 x 6",
+	base = 23220,
+	weapon_id = {
+		23223
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23224] = {
+	id = 23224,
+	damage = "36 x 6",
+	base = 23220,
+	weapon_id = {
+		23224
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23225] = {
+	id = 23225,
+	damage = "38 x 6",
+	base = 23220,
+	weapon_id = {
+		23225
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23226] = {
+	id = 23226,
+	damage = "40 x 6",
+	base = 23220,
+	weapon_id = {
+		23226
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23227] = {
+	id = 23227,
+	damage = "42 x 6",
+	base = 23220,
+	weapon_id = {
+		23227
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23228] = {
+	id = 23228,
+	damage = "44 x 6",
+	base = 23220,
+	weapon_id = {
+		23228
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23229] = {
+	id = 23229,
+	damage = "46 x 6",
+	base = 23220,
+	weapon_id = {
+		23229
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23230] = {
+	id = 23230,
+	damage = "49 x 6",
+	base = 23220,
+	weapon_id = {
+		23230
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23231] = {
+	id = 23231,
+	anti_siren = 100,
+	damage = "49 x 6",
+	base = 23220,
+	weapon_id = {
+		23231
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23232] = {
+	id = 23232,
+	anti_siren = 200,
+	damage = "49 x 6",
+	base = 23220,
+	weapon_id = {
+		23232
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[23233] = {
+	id = 23233,
+	anti_siren = 300,
+	damage = "49 x 6",
+	base = 23220,
+	weapon_id = {
+		23233
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[24000] = {
 	tech = 1,
 	name = "356mm四連装砲",
@@ -51714,7 +52663,7 @@ _G.pg.base.equip_data_statistics[25813] = {
 _G.pg.base.equip_data_statistics[26000] = {
 	tech = 1,
 	name = "QF 2ポンド二連装ポンポン砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	rarity = 1,
 	ammo = 5,
@@ -51811,7 +52760,7 @@ _G.pg.base.equip_data_statistics[26003] = {
 _G.pg.base.equip_data_statistics[26020] = {
 	tech = 2,
 	name = "QF 2ポンド二連装ポンポン砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -51909,7 +52858,7 @@ _G.pg.base.equip_data_statistics[26023] = {
 _G.pg.base.equip_data_statistics[26040] = {
 	tech = 3,
 	name = "QF 2ポンド二連装ポンポン砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -52047,7 +52996,7 @@ _G.pg.base.equip_data_statistics[26047] = {
 _G.pg.base.equip_data_statistics[26060] = {
 	tech = 0,
 	name = "40mmボフォース連装対空機銃MarkI",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -52226,7 +53175,7 @@ _G.pg.base.equip_data_statistics[26071] = {
 _G.pg.base.equip_data_statistics[26100] = {
 	tech = 1,
 	name = "QF 2ポンド四連装ポンポン砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -52324,7 +53273,7 @@ _G.pg.base.equip_data_statistics[26103] = {
 _G.pg.base.equip_data_statistics[26120] = {
 	tech = 2,
 	name = "QF 2ポンド四連装ポンポン砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -52452,7 +53401,7 @@ _G.pg.base.equip_data_statistics[26126] = {
 _G.pg.base.equip_data_statistics[26140] = {
 	tech = 3,
 	name = "QF 2ポンド四連装ポンポン砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -52631,7 +53580,7 @@ _G.pg.base.equip_data_statistics[26151] = {
 _G.pg.base.equip_data_statistics[26200] = {
 	tech = 1,
 	name = "QF 2ポンド八連装ポンポン砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -52759,7 +53708,7 @@ _G.pg.base.equip_data_statistics[26206] = {
 _G.pg.base.equip_data_statistics[26220] = {
 	tech = 2,
 	name = "QF 2ポンド八連装ポンポン砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -52927,7 +53876,7 @@ _G.pg.base.equip_data_statistics[26230] = {
 _G.pg.base.equip_data_statistics[26240] = {
 	tech = 3,
 	name = "QF 2ポンド八連装ポンポン砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -53128,7 +54077,7 @@ _G.pg.base.equip_data_statistics[26253] = {
 _G.pg.base.equip_data_statistics[26300] = {
 	tech = 1,
 	name = "76mm高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -53226,7 +54175,7 @@ _G.pg.base.equip_data_statistics[26303] = {
 _G.pg.base.equip_data_statistics[26320] = {
 	tech = 2,
 	name = "76mm高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -53354,7 +54303,7 @@ _G.pg.base.equip_data_statistics[26326] = {
 _G.pg.base.equip_data_statistics[26340] = {
 	tech = 3,
 	name = "76mm高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -53533,7 +54482,7 @@ _G.pg.base.equip_data_statistics[26351] = {
 _G.pg.base.equip_data_statistics[26360] = {
 	tech = 0,
 	name = "20mmエリコン高角砲MkII",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -53712,7 +54661,7 @@ _G.pg.base.equip_data_statistics[26371] = {
 _G.pg.base.equip_data_statistics[26400] = {
 	tech = 1,
 	name = "102mm高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -53810,7 +54759,7 @@ _G.pg.base.equip_data_statistics[26403] = {
 _G.pg.base.equip_data_statistics[26420] = {
 	tech = 2,
 	name = "102mm高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -53938,7 +54887,7 @@ _G.pg.base.equip_data_statistics[26426] = {
 _G.pg.base.equip_data_statistics[26440] = {
 	tech = 3,
 	name = "102mm高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -54117,7 +55066,7 @@ _G.pg.base.equip_data_statistics[26451] = {
 _G.pg.base.equip_data_statistics[26460] = {
 	tech = 0,
 	name = "120mm対空砲MarkVIII",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -54296,7 +55245,7 @@ _G.pg.base.equip_data_statistics[26471] = {
 _G.pg.base.equip_data_statistics[26500] = {
 	tech = 1,
 	name = "113mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -54424,7 +55373,7 @@ _G.pg.base.equip_data_statistics[26506] = {
 _G.pg.base.equip_data_statistics[26520] = {
 	tech = 2,
 	name = "113mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -54592,7 +55541,7 @@ _G.pg.base.equip_data_statistics[26530] = {
 _G.pg.base.equip_data_statistics[26540] = {
 	tech = 3,
 	name = "113mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -54793,7 +55742,7 @@ _G.pg.base.equip_data_statistics[26553] = {
 _G.pg.base.equip_data_statistics[26600] = {
 	attribute_3 = "hit",
 	name = "連装ボフォース40mm機関砲STAAG",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	tech = 0,
 	ammo = 5,
@@ -54995,7 +55944,7 @@ _G.pg.base.equip_data_statistics[26613] = {
 _G.pg.base.equip_data_statistics[26620] = {
 	attribute_3 = "hit",
 	name = "連装ボフォース40mm機関砲「Hazemeyer」",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	tech = 0,
 	ammo = 5,
@@ -55197,7 +56146,7 @@ _G.pg.base.equip_data_statistics[26633] = {
 _G.pg.base.equip_data_statistics[26640] = {
 	attribute_3 = "cannon",
 	name = "134mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	tech = 0,
 	ammo = 5,
@@ -55399,7 +56348,7 @@ _G.pg.base.equip_data_statistics[26653] = {
 _G.pg.base.equip_data_statistics[26660] = {
 	tech = 0,
 	name = "六連装ボフォース40mm対空砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -55595,6 +56544,184 @@ _G.pg.base.equip_data_statistics[26673] = {
 		26673
 	},
 	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26680] = {
+	attribute_3 = "cannon",
+	name = "134mm連装高角砲(時限信管)",
+	speciality = "遠距離",
+	type = 21,
+	tech = 0,
+	ammo = 5,
+	damage = "90/回",
+	nationality = 2,
+	descrip = "说明未填写",
+	rarity = 5,
+	value_3 = 15,
+	id = 26680,
+	value_2 = 30,
+	icon = "26680",
+	torpedo_ammo = 0,
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			11,
+			2004
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		{
+			13,
+			2004
+		}
+	},
+	weapon_id = {
+		26680
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10
+	},
+	part_sub = {
+		4,
+		5,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"ST",
+		"AAF"
+	}
+}
+
+_G.pg.base.equip_data_statistics[26681] = {
+	id = 26681,
+	damage = "102/回",
+	base = 26680,
+	weapon_id = {
+		26681
+	}
+}
+
+_G.pg.base.equip_data_statistics[26682] = {
+	id = 26682,
+	damage = "113/回",
+	base = 26680,
+	weapon_id = {
+		26682
+	}
+}
+
+_G.pg.base.equip_data_statistics[26683] = {
+	id = 26683,
+	damage = "125/回",
+	base = 26680,
+	weapon_id = {
+		26683
+	}
+}
+
+_G.pg.base.equip_data_statistics[26684] = {
+	id = 26684,
+	damage = "136/回",
+	base = 26680,
+	weapon_id = {
+		26684
+	}
+}
+
+_G.pg.base.equip_data_statistics[26685] = {
+	id = 26685,
+	damage = "148/回",
+	base = 26680,
+	weapon_id = {
+		26685
+	}
+}
+
+_G.pg.base.equip_data_statistics[26686] = {
+	id = 26686,
+	damage = "159/回",
+	base = 26680,
+	weapon_id = {
+		26686
+	}
+}
+
+_G.pg.base.equip_data_statistics[26687] = {
+	id = 26687,
+	damage = "171/回",
+	base = 26680,
+	weapon_id = {
+		26687
+	}
+}
+
+_G.pg.base.equip_data_statistics[26688] = {
+	id = 26688,
+	damage = "184/回",
+	base = 26680,
+	weapon_id = {
+		26688
+	}
+}
+
+_G.pg.base.equip_data_statistics[26689] = {
+	id = 26689,
+	damage = "197/回",
+	base = 26680,
+	weapon_id = {
+		26689
+	}
+}
+
+_G.pg.base.equip_data_statistics[26690] = {
+	id = 26690,
+	damage = "211/回",
+	base = 26680,
+	weapon_id = {
+		26690
+	}
+}
+
+_G.pg.base.equip_data_statistics[26691] = {
+	id = 26691,
+	anti_siren = 100,
+	damage = "211/回",
+	base = 26680,
+	weapon_id = {
+		26691
+	}
+}
+
+_G.pg.base.equip_data_statistics[26692] = {
+	id = 26692,
+	anti_siren = 200,
+	damage = "211/回",
+	base = 26680,
+	weapon_id = {
+		26692
+	}
+}
+
+_G.pg.base.equip_data_statistics[26693] = {
+	id = 26693,
+	anti_siren = 300,
+	damage = "211/回",
+	base = 26680,
+	weapon_id = {
+		26693
+	}
 }
 
 _G.pg.base.equip_data_statistics[27000] = {
@@ -73006,7 +74133,7 @@ _G.pg.base.equip_data_statistics[35593] = {
 _G.pg.base.equip_data_statistics[36100] = {
 	tech = 1,
 	name = "25mm対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	rarity = 1,
 	ammo = 5,
@@ -73103,7 +74230,7 @@ _G.pg.base.equip_data_statistics[36103] = {
 _G.pg.base.equip_data_statistics[36120] = {
 	tech = 2,
 	name = "25mm対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -73201,7 +74328,7 @@ _G.pg.base.equip_data_statistics[36123] = {
 _G.pg.base.equip_data_statistics[36140] = {
 	tech = 3,
 	name = "25mm対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -73339,7 +74466,7 @@ _G.pg.base.equip_data_statistics[36147] = {
 _G.pg.base.equip_data_statistics[36200] = {
 	tech = 1,
 	name = "25mm連装対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -73437,7 +74564,7 @@ _G.pg.base.equip_data_statistics[36203] = {
 _G.pg.base.equip_data_statistics[36220] = {
 	tech = 2,
 	name = "25mm連装対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -73565,7 +74692,7 @@ _G.pg.base.equip_data_statistics[36226] = {
 _G.pg.base.equip_data_statistics[36240] = {
 	tech = 3,
 	name = "25mm連装対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -73744,7 +74871,7 @@ _G.pg.base.equip_data_statistics[36251] = {
 _G.pg.base.equip_data_statistics[36300] = {
 	tech = 1,
 	name = "25mm三連装対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -73842,7 +74969,7 @@ _G.pg.base.equip_data_statistics[36303] = {
 _G.pg.base.equip_data_statistics[36320] = {
 	tech = 2,
 	name = "25mm三連装対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -73970,7 +75097,7 @@ _G.pg.base.equip_data_statistics[36326] = {
 _G.pg.base.equip_data_statistics[36340] = {
 	tech = 3,
 	name = "25mm三連装対空機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -74149,7 +75276,7 @@ _G.pg.base.equip_data_statistics[36351] = {
 _G.pg.base.equip_data_statistics[36360] = {
 	tech = 0,
 	name = "25mm九六式三連装機銃（爆風避盾装備）",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -74350,7 +75477,7 @@ _G.pg.base.equip_data_statistics[36373] = {
 _G.pg.base.equip_data_statistics[36400] = {
 	tech = 1,
 	name = "毘式40mm連装機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -74448,7 +75575,7 @@ _G.pg.base.equip_data_statistics[36403] = {
 _G.pg.base.equip_data_statistics[36420] = {
 	tech = 2,
 	name = "毘式40mm連装機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -74576,7 +75703,7 @@ _G.pg.base.equip_data_statistics[36426] = {
 _G.pg.base.equip_data_statistics[36440] = {
 	tech = 3,
 	name = "毘式40mm連装機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -74755,7 +75882,7 @@ _G.pg.base.equip_data_statistics[36451] = {
 _G.pg.base.equip_data_statistics[36500] = {
 	tech = 1,
 	name = "76mm高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -74853,7 +75980,7 @@ _G.pg.base.equip_data_statistics[36503] = {
 _G.pg.base.equip_data_statistics[36520] = {
 	tech = 2,
 	name = "76mm高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -74981,7 +76108,7 @@ _G.pg.base.equip_data_statistics[36526] = {
 _G.pg.base.equip_data_statistics[36540] = {
 	tech = 3,
 	name = "76mm高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -75160,7 +76287,7 @@ _G.pg.base.equip_data_statistics[36551] = {
 _G.pg.base.equip_data_statistics[36560] = {
 	tech = 0,
 	name = "100mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -75361,7 +76488,7 @@ _G.pg.base.equip_data_statistics[36573] = {
 _G.pg.base.equip_data_statistics[36580] = {
 	tech = 0,
 	name = "80mm高射砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -75540,7 +76667,7 @@ _G.pg.base.equip_data_statistics[36591] = {
 _G.pg.base.equip_data_statistics[36600] = {
 	tech = 1,
 	name = "127mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -75638,7 +76765,7 @@ _G.pg.base.equip_data_statistics[36603] = {
 _G.pg.base.equip_data_statistics[36620] = {
 	tech = 2,
 	name = "127mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -75766,7 +76893,7 @@ _G.pg.base.equip_data_statistics[36626] = {
 _G.pg.base.equip_data_statistics[36640] = {
 	tech = 3,
 	name = "127mm連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -75945,7 +77072,7 @@ _G.pg.base.equip_data_statistics[36651] = {
 _G.pg.base.equip_data_statistics[36660] = {
 	tech = 0,
 	name = "127mm連装高角砲改",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -76146,7 +77273,7 @@ _G.pg.base.equip_data_statistics[36673] = {
 _G.pg.base.equip_data_statistics[36700] = {
 	tech = 0,
 	name = "試作型五式40mm高射機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -76342,6 +77469,183 @@ _G.pg.base.equip_data_statistics[36713] = {
 		36713
 	},
 	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[36720] = {
+	tech = 0,
+	name = "127mm連装高角砲改(時限信管)",
+	speciality = "遠距離",
+	type = 21,
+	descrip = "说明未填写",
+	ammo = 5,
+	damage = "81/回",
+	nationality = 3,
+	rarity = 5,
+	id = 36720,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "36720",
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			11,
+			2002
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		{
+			13,
+			2002
+		}
+	},
+	weapon_id = {
+		36720
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10
+	},
+	part_sub = {
+		4,
+		5,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"ST",
+		"AAF"
+	}
+}
+
+_G.pg.base.equip_data_statistics[36721] = {
+	id = 36721,
+	damage = "92/回",
+	base = 36720,
+	weapon_id = {
+		36721
+	}
+}
+
+_G.pg.base.equip_data_statistics[36722] = {
+	id = 36722,
+	damage = "102/回",
+	base = 36720,
+	weapon_id = {
+		36722
+	}
+}
+
+_G.pg.base.equip_data_statistics[36723] = {
+	id = 36723,
+	damage = "112/回",
+	base = 36720,
+	weapon_id = {
+		36723
+	}
+}
+
+_G.pg.base.equip_data_statistics[36724] = {
+	id = 36724,
+	damage = "123/回",
+	base = 36720,
+	weapon_id = {
+		36724
+	}
+}
+
+_G.pg.base.equip_data_statistics[36725] = {
+	id = 36725,
+	damage = "133/回",
+	base = 36720,
+	weapon_id = {
+		36725
+	}
+}
+
+_G.pg.base.equip_data_statistics[36726] = {
+	id = 36726,
+	damage = "143/回",
+	base = 36720,
+	weapon_id = {
+		36726
+	}
+}
+
+_G.pg.base.equip_data_statistics[36727] = {
+	id = 36727,
+	damage = "154/回",
+	base = 36720,
+	weapon_id = {
+		36727
+	}
+}
+
+_G.pg.base.equip_data_statistics[36728] = {
+	id = 36728,
+	damage = "166/回",
+	base = 36720,
+	weapon_id = {
+		36728
+	}
+}
+
+_G.pg.base.equip_data_statistics[36729] = {
+	id = 36729,
+	damage = "178/回",
+	base = 36720,
+	weapon_id = {
+		36729
+	}
+}
+
+_G.pg.base.equip_data_statistics[36730] = {
+	id = 36730,
+	damage = "190/回",
+	base = 36720,
+	weapon_id = {
+		36730
+	}
+}
+
+_G.pg.base.equip_data_statistics[36731] = {
+	id = 36731,
+	anti_siren = 100,
+	damage = "190/回",
+	base = 36720,
+	weapon_id = {
+		36731
+	}
+}
+
+_G.pg.base.equip_data_statistics[36732] = {
+	id = 36732,
+	anti_siren = 200,
+	damage = "190/回",
+	base = 36720,
+	weapon_id = {
+		36732
+	}
+}
+
+_G.pg.base.equip_data_statistics[36733] = {
+	id = 36733,
+	anti_siren = 300,
+	damage = "190/回",
+	base = 36720,
+	weapon_id = {
+		36733
+	}
 }
 
 _G.pg.base.equip_data_statistics[37000] = {
@@ -94599,7 +95903,7 @@ _G.pg.base.equip_data_statistics[45453] = {
 _G.pg.base.equip_data_statistics[46000] = {
 	tech = 1,
 	name = "20mm四連装MG機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	rarity = 1,
 	ammo = 5,
@@ -94696,7 +96000,7 @@ _G.pg.base.equip_data_statistics[46003] = {
 _G.pg.base.equip_data_statistics[46020] = {
 	tech = 2,
 	name = "20mm四連装MG機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・四連装20mmMG機銃",
 	ammo = 5,
@@ -94794,7 +96098,7 @@ _G.pg.base.equip_data_statistics[46023] = {
 _G.pg.base.equip_data_statistics[46040] = {
 	tech = 3,
 	name = "20mm四連装MG機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・四連装20mmMG機銃",
 	ammo = 5,
@@ -94932,7 +96236,7 @@ _G.pg.base.equip_data_statistics[46047] = {
 _G.pg.base.equip_data_statistics[46060] = {
 	tech = 0,
 	name = "88mmSKC32高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -95111,7 +96415,7 @@ _G.pg.base.equip_data_statistics[46071] = {
 _G.pg.base.equip_data_statistics[46100] = {
 	tech = 1,
 	name = "37mm機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	rarity = 1,
 	ammo = 5,
@@ -95208,7 +96512,7 @@ _G.pg.base.equip_data_statistics[46103] = {
 _G.pg.base.equip_data_statistics[46120] = {
 	tech = 2,
 	name = "37mm機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・37mm機銃",
 	ammo = 5,
@@ -95306,7 +96610,7 @@ _G.pg.base.equip_data_statistics[46123] = {
 _G.pg.base.equip_data_statistics[46140] = {
 	tech = 3,
 	name = "37mm機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・37mm機銃",
 	ammo = 5,
@@ -95444,7 +96748,7 @@ _G.pg.base.equip_data_statistics[46147] = {
 _G.pg.base.equip_data_statistics[46200] = {
 	tech = 1,
 	name = "37mm連装機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・37mm連装機銃",
 	ammo = 5,
@@ -95542,7 +96846,7 @@ _G.pg.base.equip_data_statistics[46203] = {
 _G.pg.base.equip_data_statistics[46220] = {
 	tech = 2,
 	name = "37mm連装機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・37mm連装機銃",
 	ammo = 5,
@@ -95670,7 +96974,7 @@ _G.pg.base.equip_data_statistics[46226] = {
 _G.pg.base.equip_data_statistics[46240] = {
 	tech = 3,
 	name = "37mm連装機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・37mm連装機銃",
 	ammo = 5,
@@ -95849,7 +97153,7 @@ _G.pg.base.equip_data_statistics[46251] = {
 _G.pg.base.equip_data_statistics[46260] = {
 	tech = 0,
 	name = "37mmFlak M43連装機銃",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -96028,7 +97332,7 @@ _G.pg.base.equip_data_statistics[46271] = {
 _G.pg.base.equip_data_statistics[46300] = {
 	tech = 1,
 	name = "105mmSKC連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・105mmSKC高角砲",
 	ammo = 5,
@@ -96156,7 +97460,7 @@ _G.pg.base.equip_data_statistics[46306] = {
 _G.pg.base.equip_data_statistics[46320] = {
 	tech = 2,
 	name = "105mmSKC連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・105mmSKC高角砲",
 	ammo = 5,
@@ -96324,7 +97628,7 @@ _G.pg.base.equip_data_statistics[46330] = {
 _G.pg.base.equip_data_statistics[46340] = {
 	tech = 3,
 	name = "105mmSKC連装高角砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "対空火器・105mmSKC高角砲",
 	ammo = 5,
@@ -96525,7 +97829,7 @@ _G.pg.base.equip_data_statistics[46353] = {
 _G.pg.base.equip_data_statistics[46360] = {
 	tech = 0,
 	name = "105mmSKC高角連装砲改修型",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -96723,10 +98027,187 @@ _G.pg.base.equip_data_statistics[46373] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[46380] = {
+	tech = 0,
+	name = "105mmSKC高角連装砲改修型(時限信管)",
+	speciality = "遠距離",
+	type = 21,
+	descrip = "说明未填写",
+	ammo = 5,
+	damage = "71/回",
+	nationality = 4,
+	rarity = 5,
+	id = 46380,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "46380",
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			11,
+			2002
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		{
+			13,
+			2002
+		}
+	},
+	weapon_id = {
+		46380
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10
+	},
+	part_sub = {
+		4,
+		5,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"ST",
+		"AAF"
+	}
+}
+
+_G.pg.base.equip_data_statistics[46381] = {
+	id = 46381,
+	damage = "80/回",
+	base = 46380,
+	weapon_id = {
+		46381
+	}
+}
+
+_G.pg.base.equip_data_statistics[46382] = {
+	id = 46382,
+	damage = "90/回",
+	base = 46380,
+	weapon_id = {
+		46382
+	}
+}
+
+_G.pg.base.equip_data_statistics[46383] = {
+	id = 46383,
+	damage = "99/回",
+	base = 46380,
+	weapon_id = {
+		46383
+	}
+}
+
+_G.pg.base.equip_data_statistics[46384] = {
+	id = 46384,
+	damage = "108/回",
+	base = 46380,
+	weapon_id = {
+		46384
+	}
+}
+
+_G.pg.base.equip_data_statistics[46385] = {
+	id = 46385,
+	damage = "117/回",
+	base = 46380,
+	weapon_id = {
+		46385
+	}
+}
+
+_G.pg.base.equip_data_statistics[46386] = {
+	id = 46386,
+	damage = "126/回",
+	base = 46380,
+	weapon_id = {
+		46386
+	}
+}
+
+_G.pg.base.equip_data_statistics[46387] = {
+	id = 46387,
+	damage = "135/回",
+	base = 46380,
+	weapon_id = {
+		46387
+	}
+}
+
+_G.pg.base.equip_data_statistics[46388] = {
+	id = 46388,
+	damage = "146/回",
+	base = 46380,
+	weapon_id = {
+		46388
+	}
+}
+
+_G.pg.base.equip_data_statistics[46389] = {
+	id = 46389,
+	damage = "156/回",
+	base = 46380,
+	weapon_id = {
+		46389
+	}
+}
+
+_G.pg.base.equip_data_statistics[46390] = {
+	id = 46390,
+	damage = "167/回",
+	base = 46380,
+	weapon_id = {
+		46390
+	}
+}
+
+_G.pg.base.equip_data_statistics[46391] = {
+	id = 46391,
+	anti_siren = 100,
+	damage = "167/回",
+	base = 46380,
+	weapon_id = {
+		46391
+	}
+}
+
+_G.pg.base.equip_data_statistics[46392] = {
+	id = 46392,
+	anti_siren = 200,
+	damage = "167/回",
+	base = 46380,
+	weapon_id = {
+		46392
+	}
+}
+
+_G.pg.base.equip_data_statistics[46393] = {
+	id = 46393,
+	anti_siren = 300,
+	damage = "167/回",
+	base = 46380,
+	weapon_id = {
+		46393
+	}
+}
+
 _G.pg.base.equip_data_statistics[46400] = {
 	tech = 0,
 	name = "試作型四連装30mm機関砲",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "说明未填写",
 	ammo = 5,
@@ -116059,7 +117540,7 @@ _G.pg.base.equip_data_statistics[85053] = {
 _G.pg.base.equip_data_statistics[85060] = {
 	tech = 1,
 	name = "100mm連装対空砲SM-5-1s",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -116665,7 +118146,7 @@ _G.pg.base.equip_data_statistics[85173] = {
 _G.pg.base.equip_data_statistics[85180] = {
 	tech = 1,
 	name = "37mm対空機関砲70-K",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -116763,7 +118244,7 @@ _G.pg.base.equip_data_statistics[85183] = {
 _G.pg.base.equip_data_statistics[85200] = {
 	tech = 2,
 	name = "37mm対空機関砲70-K",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -116891,7 +118372,7 @@ _G.pg.base.equip_data_statistics[85206] = {
 _G.pg.base.equip_data_statistics[85220] = {
 	tech = 3,
 	name = "37mm対空機関砲70-K",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -117070,7 +118551,7 @@ _G.pg.base.equip_data_statistics[85231] = {
 _G.pg.base.equip_data_statistics[85260] = {
 	tech = 2,
 	name = "100mm連装高角砲B-54",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -117198,7 +118679,7 @@ _G.pg.base.equip_data_statistics[85266] = {
 _G.pg.base.equip_data_statistics[85280] = {
 	tech = 3,
 	name = "100mm連装高角砲B-54",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -117646,7 +119127,7 @@ _G.pg.base.equip_data_statistics[85330] = {
 _G.pg.base.equip_data_statistics[85360] = {
 	tech = 1,
 	name = "100mm連装両用砲B-34 MZ-14",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -117744,7 +119225,7 @@ _G.pg.base.equip_data_statistics[85363] = {
 _G.pg.base.equip_data_statistics[85380] = {
 	tech = 2,
 	name = "100mm連装両用砲B-34 MZ-14",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -117872,7 +119353,7 @@ _G.pg.base.equip_data_statistics[85386] = {
 _G.pg.base.equip_data_statistics[85400] = {
 	tech = 3,
 	name = "100mm連装両用砲B-34 MZ-14",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -125847,6 +127328,130 @@ _G.pg.base.equip_data_statistics[90453] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[90460] = {
+	tech = 3,
+	name = "340mm四連装砲Mle1912",
+	speciality = "投射",
+	type = 4,
+	descrip = "说明未填写",
+	ammo = 3,
+	damage = "32 x 4",
+	nationality = 8,
+	rarity = 3,
+	id = 90460,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 12,
+	icon = "90460",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			2,
+			1550
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		90460
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"BB",
+		"MG"
+	}
+}
+
+_G.pg.base.equip_data_statistics[90461] = {
+	id = 90461,
+	damage = "37 x 4",
+	base = 90460,
+	weapon_id = {
+		90461
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90462] = {
+	id = 90462,
+	damage = "42 x 4",
+	base = 90460,
+	weapon_id = {
+		90462
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90463] = {
+	id = 90463,
+	damage = "47 x 4",
+	base = 90460,
+	weapon_id = {
+		90463
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90464] = {
+	id = 90464,
+	damage = "52 x 4",
+	base = 90460,
+	weapon_id = {
+		90464
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90465] = {
+	id = 90465,
+	damage = "58 x 4",
+	base = 90460,
+	weapon_id = {
+		90465
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90466] = {
+	id = 90466,
+	damage = "64 x 4",
+	base = 90460,
+	weapon_id = {
+		90466
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90467] = {
+	id = 90467,
+	damage = "70 x 4",
+	base = 90460,
+	weapon_id = {
+		90467
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[90500] = {
 	tech = 1,
 	name = "130mm連装砲Mle1935",
@@ -125946,10 +127551,498 @@ _G.pg.base.equip_data_statistics[90503] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[90540] = {
+	tech = 3,
+	name = "130mm連装砲Mle1935",
+	speciality = "追尾",
+	type = 1,
+	descrip = "说明未填写",
+	ammo = 2,
+	damage = "9 x 2",
+	nationality = 8,
+	rarity = 4,
+	id = 90540,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 25,
+	icon = "50500",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			2206
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			2206
+		},
+		{
+			4,
+			1011
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		90540
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"DD",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[90541] = {
+	id = 90541,
+	base = 90540,
+	weapon_id = {
+		90541
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90542] = {
+	id = 90542,
+	damage = "10 x 2",
+	base = 90540,
+	weapon_id = {
+		90542
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90543] = {
+	id = 90543,
+	damage = "11 x 2",
+	base = 90540,
+	weapon_id = {
+		90543
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90544] = {
+	id = 90544,
+	damage = "12 x 2",
+	base = 90540,
+	weapon_id = {
+		90544
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90545] = {
+	id = 90545,
+	damage = "13 x 2",
+	base = 90540,
+	weapon_id = {
+		90545
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90546] = {
+	id = 90546,
+	damage = "14 x 2",
+	base = 90540,
+	weapon_id = {
+		90546
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90547] = {
+	id = 90547,
+	damage = "15 x 2",
+	base = 90540,
+	weapon_id = {
+		90547
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90548] = {
+	id = 90548,
+	damage = "16 x 2",
+	base = 90540,
+	weapon_id = {
+		90548
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90549] = {
+	id = 90549,
+	damage = "17 x 2",
+	base = 90540,
+	weapon_id = {
+		90549
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90550] = {
+	id = 90550,
+	damage = "18 x 2",
+	base = 90540,
+	weapon_id = {
+		90550
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90551] = {
+	id = 90551,
+	anti_siren = 100,
+	damage = "18 x 2",
+	base = 90540,
+	weapon_id = {
+		90551
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90560] = {
+	tech = 3,
+	name = "37mm高射砲Mle1925",
+	speciality = "近距離",
+	type = 6,
+	descrip = "说明未填写",
+	ammo = 5,
+	damage = "17/轮",
+	nationality = 8,
+	rarity = 3,
+	id = 90560,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 11,
+	icon = "90560",
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		90560
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"DD",
+		"AA"
+	}
+}
+
+_G.pg.base.equip_data_statistics[90561] = {
+	id = 90561,
+	damage = "20/轮",
+	base = 90560,
+	weapon_id = {
+		90561
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90562] = {
+	id = 90562,
+	damage = "23/轮",
+	base = 90560,
+	weapon_id = {
+		90562
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90563] = {
+	id = 90563,
+	damage = "26/轮",
+	base = 90560,
+	weapon_id = {
+		90563
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90564] = {
+	id = 90564,
+	damage = "29/轮",
+	base = 90560,
+	weapon_id = {
+		90564
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90565] = {
+	id = 90565,
+	damage = "32/轮",
+	base = 90560,
+	weapon_id = {
+		90565
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90566] = {
+	id = 90566,
+	damage = "35/轮",
+	base = 90560,
+	weapon_id = {
+		90566
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90580] = {
+	tech = 3,
+	name = "二連装37mm高射砲Mle1933",
+	speciality = "近距離",
+	type = 6,
+	descrip = "说明未填写",
+	ammo = 5,
+	damage = "22/轮",
+	nationality = 8,
+	rarity = 4,
+	id = 90580,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 25,
+	icon = "90580",
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		90580
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"DD",
+		"AA"
+	}
+}
+
+_G.pg.base.equip_data_statistics[90581] = {
+	id = 90581,
+	damage = "25/轮",
+	base = 90580,
+	weapon_id = {
+		90581
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90582] = {
+	id = 90582,
+	damage = "28/轮",
+	base = 90580,
+	weapon_id = {
+		90582
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90583] = {
+	id = 90583,
+	damage = "31/轮",
+	base = 90580,
+	weapon_id = {
+		90583
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90584] = {
+	id = 90584,
+	damage = "34/轮",
+	base = 90580,
+	weapon_id = {
+		90584
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90585] = {
+	id = 90585,
+	damage = "37/轮",
+	base = 90580,
+	weapon_id = {
+		90585
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90586] = {
+	id = 90586,
+	damage = "40/轮",
+	base = 90580,
+	weapon_id = {
+		90586
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90587] = {
+	id = 90587,
+	damage = "43/轮",
+	base = 90580,
+	weapon_id = {
+		90587
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90588] = {
+	id = 90588,
+	damage = "46/轮",
+	base = 90580,
+	weapon_id = {
+		90588
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90589] = {
+	id = 90589,
+	damage = "49/轮",
+	base = 90580,
+	weapon_id = {
+		90589
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90590] = {
+	id = 90590,
+	damage = "52/轮",
+	base = 90580,
+	weapon_id = {
+		90590
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90591] = {
+	id = 90591,
+	anti_siren = 100,
+	damage = "52/轮",
+	base = 90580,
+	weapon_id = {
+		90591
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[90600] = {
 	tech = 0,
 	name = "二連装37mm高射砲Mle1936",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -126145,6 +128238,194 @@ _G.pg.base.equip_data_statistics[90613] = {
 		90613
 	},
 	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90620] = {
+	tech = 0,
+	name = "二連装57mm/L60ボフォース対空機関砲Mle1951",
+	speciality = "近距離",
+	type = 6,
+	descrip = "说明未填写",
+	ammo = 5,
+	damage = "56/回",
+	nationality = 8,
+	rarity = 6,
+	id = 90620,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 65,
+	icon = "50620",
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		90620
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"DD",
+		"AA"
+	}
+}
+
+_G.pg.base.equip_data_statistics[90621] = {
+	id = 90621,
+	damage = "63/回",
+	base = 90620,
+	weapon_id = {
+		90621
+	}
+}
+
+_G.pg.base.equip_data_statistics[90622] = {
+	id = 90622,
+	damage = "71/回",
+	base = 90620,
+	weapon_id = {
+		90622
+	}
+}
+
+_G.pg.base.equip_data_statistics[90623] = {
+	id = 90623,
+	damage = "78/回",
+	base = 90620,
+	weapon_id = {
+		90623
+	}
+}
+
+_G.pg.base.equip_data_statistics[90624] = {
+	id = 90624,
+	damage = "85/回",
+	base = 90620,
+	weapon_id = {
+		90624
+	}
+}
+
+_G.pg.base.equip_data_statistics[90625] = {
+	id = 90625,
+	damage = "92/回",
+	base = 90620,
+	weapon_id = {
+		90625
+	}
+}
+
+_G.pg.base.equip_data_statistics[90626] = {
+	id = 90626,
+	damage = "100/回",
+	base = 90620,
+	weapon_id = {
+		90626
+	}
+}
+
+_G.pg.base.equip_data_statistics[90627] = {
+	id = 90627,
+	damage = "107/回",
+	base = 90620,
+	weapon_id = {
+		90627
+	}
+}
+
+_G.pg.base.equip_data_statistics[90628] = {
+	id = 90628,
+	damage = "115/回",
+	base = 90620,
+	weapon_id = {
+		90628
+	}
+}
+
+_G.pg.base.equip_data_statistics[90629] = {
+	id = 90629,
+	damage = "123/回",
+	base = 90620,
+	weapon_id = {
+		90629
+	}
+}
+
+_G.pg.base.equip_data_statistics[90630] = {
+	id = 90630,
+	damage = "132/回",
+	base = 90620,
+	weapon_id = {
+		90630
+	}
+}
+
+_G.pg.base.equip_data_statistics[90631] = {
+	id = 90631,
+	anti_siren = 100,
+	damage = "132/回",
+	base = 90620,
+	weapon_id = {
+		90631
+	}
+}
+
+_G.pg.base.equip_data_statistics[90632] = {
+	id = 90632,
+	anti_siren = 200,
+	damage = "132/回",
+	base = 90620,
+	weapon_id = {
+		90632
+	}
+}
+
+_G.pg.base.equip_data_statistics[90633] = {
+	id = 90633,
+	anti_siren = 300,
+	damage = "132/回",
+	base = 90620,
+	weapon_id = {
+		90633
+	}
 }
 
 _G.pg.base.equip_data_statistics[90700] = {
@@ -126554,6 +128835,146 @@ _G.pg.base.equip_data_statistics[90751] = {
 	base = 90740,
 	weapon_id = {
 		90751
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90760] = {
+	tech = 3,
+	name = "138.6mm単装砲Mle1923",
+	speciality = "追尾",
+	type = 1,
+	descrip = "说明未填写",
+	ammo = 3,
+	damage = "4 x 4",
+	nationality = 8,
+	rarity = 3,
+	id = 90760,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 12,
+	icon = "90760",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			1,
+			2200
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			2200
+		},
+		{
+			4,
+			1025
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		90760
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"DD",
+		"MG"
+	}
+}
+
+_G.pg.base.equip_data_statistics[90761] = {
+	id = 90761,
+	damage = "5 x 4",
+	base = 90760,
+	weapon_id = {
+		90761
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90762] = {
+	id = 90762,
+	damage = "6 x 4",
+	base = 90760,
+	weapon_id = {
+		90762
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90763] = {
+	id = 90763,
+	damage = "7 x 4",
+	base = 90760,
+	weapon_id = {
+		90763
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90764] = {
+	id = 90764,
+	damage = "8 x 4",
+	base = 90760,
+	weapon_id = {
+		90764
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90765] = {
+	id = 90765,
+	damage = "9 x 4",
+	base = 90760,
+	weapon_id = {
+		90765
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90766] = {
+	id = 90766,
+	damage = "10 x 4",
+	base = 90760,
+	weapon_id = {
+		90766
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90767] = {
+	id = 90767,
+	damage = "11 x 4",
+	base = 90760,
+	weapon_id = {
+		90767
 	},
 	hidden_skill_id = {}
 }
@@ -127923,6 +130344,178 @@ _G.pg.base.equip_data_statistics[91103] = {
 	base = 91100,
 	weapon_id = {
 		91103
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91140] = {
+	tech = 3,
+	name = "203mm連装砲Mle1924",
+	speciality = "锁定",
+	type = 3,
+	descrip = "说明未填写",
+	ammo = 2,
+	damage = "28 x 4",
+	nationality = 8,
+	rarity = 4,
+	id = 91140,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 25,
+	icon = "51100",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1416
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1416
+		},
+		{
+			4,
+			1205
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		91140
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[91141] = {
+	id = 91141,
+	damage = "30 x 4",
+	base = 91140,
+	weapon_id = {
+		91141
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91142] = {
+	id = 91142,
+	damage = "32 x 4",
+	base = 91140,
+	weapon_id = {
+		91142
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91143] = {
+	id = 91143,
+	damage = "34 x 4",
+	base = 91140,
+	weapon_id = {
+		91143
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91144] = {
+	id = 91144,
+	damage = "36 x 4",
+	base = 91140,
+	weapon_id = {
+		91144
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91145] = {
+	id = 91145,
+	damage = "38 x 4",
+	base = 91140,
+	weapon_id = {
+		91145
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91146] = {
+	id = 91146,
+	damage = "40 x 4",
+	base = 91140,
+	weapon_id = {
+		91146
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91147] = {
+	id = 91147,
+	damage = "42 x 4",
+	base = 91140,
+	weapon_id = {
+		91147
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91148] = {
+	id = 91148,
+	damage = "44 x 4",
+	base = 91140,
+	weapon_id = {
+		91148
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91149] = {
+	id = 91149,
+	damage = "46 x 4",
+	base = 91140,
+	weapon_id = {
+		91149
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91150] = {
+	id = 91150,
+	damage = "48 x 4",
+	base = 91140,
+	weapon_id = {
+		91150
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91151] = {
+	id = 91151,
+	anti_siren = 100,
+	damage = "48 x 4",
+	base = 91140,
+	weapon_id = {
+		91151
 	},
 	hidden_skill_id = {}
 }
@@ -129549,7 +132142,7 @@ _G.pg.base.equip_data_statistics[95053] = {
 _G.pg.base.equip_data_statistics[95100] = {
 	tech = 1,
 	name = "90mm単装高角砲Model1939",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -129677,7 +132270,7 @@ _G.pg.base.equip_data_statistics[95106] = {
 _G.pg.base.equip_data_statistics[95120] = {
 	tech = 2,
 	name = "90mm単装高角砲Model1939",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -129845,7 +132438,7 @@ _G.pg.base.equip_data_statistics[95130] = {
 _G.pg.base.equip_data_statistics[95140] = {
 	tech = 3,
 	name = "90mm単装高角砲Model1939",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -130046,7 +132639,7 @@ _G.pg.base.equip_data_statistics[95153] = {
 _G.pg.base.equip_data_statistics[95160] = {
 	tech = 0,
 	name = "試作型90mm連装高角砲Model1939",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "0",
 	ammo = 5,
@@ -131783,7 +134376,7 @@ _G.pg.base.equip_data_statistics[95487] = {
 _G.pg.base.equip_data_statistics[95500] = {
 	tech = 1,
 	name = "37mm連装機銃Model1932",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "37mm連装機銃。対空兵装として使用可能",
 	ammo = 5,
@@ -131881,7 +134474,7 @@ _G.pg.base.equip_data_statistics[95503] = {
 _G.pg.base.equip_data_statistics[95520] = {
 	tech = 2,
 	name = "37mm連装機銃Model1932",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "37mm連装機銃。対空兵装として使用可能",
 	ammo = 5,
@@ -132009,7 +134602,7 @@ _G.pg.base.equip_data_statistics[95526] = {
 _G.pg.base.equip_data_statistics[95540] = {
 	tech = 3,
 	name = "37mm連装機銃Model1932",
-	speciality = "対空",
+	speciality = "近距離",
 	type = 6,
 	descrip = "37mm連装機銃。対空兵装として使用可能",
 	ammo = 5,
