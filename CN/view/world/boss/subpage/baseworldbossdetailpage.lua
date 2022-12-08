@@ -163,7 +163,7 @@ function slot0.UpdatePainting(slot0, slot1)
 		slot2.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot0.groupId, "title" .. slot0:GetResSuffix())
 
 		slot2:SetNativeSize()
-		setPaintingPrefabAsync(slot0.painting, slot0.groupId, "lihuisha", function ()
+		setMetaPaintingPrefabAsync(slot0.painting, slot0.groupId, "lihuisha", function ()
 			uv0:OnPaintingLoad()
 		end)
 
@@ -329,7 +329,7 @@ end
 function slot0.OnDestroy(slot0)
 	if slot0.groupId then
 		slot0:OnRetPaintingPrefab()
-		retPaintingPrefab(slot0.painting, slot0.groupId)
+		retMetaPaintingPrefab(slot0.painting, slot0.groupId)
 	end
 
 	slot0:RemoveGetAwardTimer()

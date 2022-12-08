@@ -1,5 +1,54 @@
 pg = pg or {}
 pg.enemy_data_statistics_338 = {
+	[15903301] = {
+		cannon = 280,
+		name = "噩梦映像-「KGV」",
+		hit_growth = 330,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		speed = 20,
+		dodge = 14,
+		antisub = 0,
+		cannon_growth = 0,
+		fog_fx = "",
+		reload_growth = 0,
+		dodge_growth = 196,
+		luck = 25,
+		reload = 150,
+		hit = 38,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 0,
+		base = 90516,
+		durability = 86200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		durability_growth = 0,
+		antiaircraft = 260,
+		id = 15903301,
+		battle_unit_type = 95,
+		scale = 180,
+		specific_fx_scale = {
+			heisewuqi_stg = 1.5
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ",
+			"heisewuqi_stg"
+		},
+		equipment_list = {
+			894301,
+			894302,
+			894303,
+			894304,
+			894305,
+			894306
+		}
+	},
 	[15903302] = {
 		cannon = 160,
 		name = "航母「Queen」-重装型",
@@ -794,45 +843,5 @@ pg.enemy_data_statistics_338 = {
 			"appearQ"
 		},
 		equipment_list = {}
-	},
-	[15908001] = {
-		cannon = 7,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 500,
-		pilot_ai_template_id = 20005,
-		air = 0,
-		battle_unit_type = 25,
-		dodge = 0,
-		base = 90445,
-		durability_growth = 5120,
-		antiaircraft = 25,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		luck = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 800,
-		torpedo = 30,
-		durability = 200,
-		armor_growth = 0,
-		torpedo_growth = 3000,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		id = 15908001,
-		fog_fx = "",
-		antisub = 0,
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			1100070,
-			1100180,
-			1100490
-		}
 	}
 }

@@ -16,7 +16,7 @@ return {
 				"onTakeDamage"
 			},
 			arg_list = {
-				casterMaxHPRatio = 500
+				casterMaxHPRatio = 0.05
 			}
 		}
 	}

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
 			say = "过去的片段————",
-			bgm = "ryza-11",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "遗迹群岛·起始之地",
 			bgmDelay = 2,
-			bgm = "ryza-6",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

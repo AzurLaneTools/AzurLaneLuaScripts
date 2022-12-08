@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.enemy_data_statistics_288 = {
+	[14904106] = {
+		cannon = 120,
+		battle_unit_type = 65,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		speed = 14,
+		dodge = 17,
+		id = 14904106,
+		cannon_growth = 3600,
+		rarity = 4,
+		reload_growth = 0,
+		dodge_growth = 170,
+		armor = 0,
+		star = 5,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90221,
+		durability = 9010,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 350,
+		luck = 0,
+		torpedo = 0,
+		durability_growth = 68000,
+		antisub = 0,
+		antiaircraft = 212,
+		antiaircraft_growth = 4680,
+		equipment_list = {
+			1100549,
+			1100684,
+			1100724,
+			1100734,
+			1100034
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
 	[14904201] = {
 		cannon = 130,
 		hit_growth = 210,
@@ -797,46 +843,6 @@ pg.enemy_data_statistics_288 = {
 			1100251,
 			1100466,
 			1100291
-		}
-	},
-	[15001003] = {
-		cannon = 12,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 1500,
-		pilot_ai_template_id = 20004,
-		air = 0,
-		battle_unit_type = 35,
-		dodge = 0,
-		base = 90572,
-		durability_growth = 16000,
-		antiaircraft = 35,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		luck = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 1000,
-		torpedo = 15,
-		durability = 270,
-		armor_growth = 0,
-		torpedo_growth = 1200,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		id = 15001003,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"appearsmall",
-			"ouxiang_xinxin_CA"
-		},
-		equipment_list = {
-			1100221,
-			1100601,
-			1100456
 		}
 	}
 }

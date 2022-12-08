@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_134",
 			stopbgm = true,
 			say = "过去的片段————",
-			bgm = "ryza-11",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -356,7 +356,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "遗迹群岛·起始之地 莱莎的临时炼金工房",
 			bgmDelay = 2,
-			bgm = "ryza-13",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "遗迹群岛·南方水面 潜航舰内",
 			bgmDelay = 1,
-			bgm = "ryza-9",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

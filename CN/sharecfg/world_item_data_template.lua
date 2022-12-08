@@ -162,6 +162,29 @@ pg.world_item_data_template = {
 			7
 		}
 	},
+	[120] = {
+		item_transform_item_type = 0,
+		name = "隐秘海域信息记录仪",
+		item_transform_item_id = 0,
+		display = "由指挥部特别制作，储存有全部隐秘海域资料的信息记录仪。使用以后将会自动侦察本期大型作战期间的所有隐秘海域，并解锁隐秘海域计划模式。",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_world_flag",
+		grid_num = 1,
+		item_transform_item_number = 0,
+		open_box = "",
+		item_transform_num = 0,
+		rarity = 3,
+		id = 120,
+		icon = "Props/W120",
+		expired_date = "",
+		usage_arg = {
+			1
+		},
+		item_origin = {
+			101
+		}
+	},
 	[201] = {
 		item_transform_item_type = 0,
 		name = "应急维修箱",
@@ -785,7 +808,7 @@ pg.world_item_data_template = {
 		item_transform_item_type = 0,
 		name = "档案坐标记录仪4",
 		item_transform_item_id = 0,
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "解析后可以获得一系列档案任务，前往对应海域完成任务可回收总计10份档案（115-5至115-6、144-1至144-8）。<color=#ff5c5c>该物品仅能购买1次，不会随大型作战周期性重置而重置，购买后将会自动使用。档案任务同一时间只能接取一组。</color>",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -804,7 +827,7 @@ pg.world_item_data_template = {
 		item_transform_item_type = 0,
 		name = "档案坐标记录仪5",
 		item_transform_item_id = 0,
-		display = "解析后可以接到档案任务，前往对应的档案海域完成任务，回收档案。 ",
+		display = "解析后可以获得一系列档案任务，前往对应海域完成任务可回收总计12份档案（131-1至131-6、143-1至143-6）。<color=#ff5c5c>该物品仅能购买1次，不会随大型作战周期性重置而重置，购买后将会自动使用。档案任务同一时间只能接取一组。</color>",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -4217,6 +4240,7 @@ pg.world_item_data_template = {
 		104,
 		105,
 		110,
+		120,
 		201,
 		202,
 		203,

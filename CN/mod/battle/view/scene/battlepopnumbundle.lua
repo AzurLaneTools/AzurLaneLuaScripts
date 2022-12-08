@@ -17,8 +17,8 @@ function slot4.Ctor(slot0, slot1, slot2)
 	slot0:init()
 end
 
-function slot4.InitPopScore(slot0)
-	slot0._allPool[uv0.POP_SCORE] = slot0:generateTempPool(uv0.POP_SCORE, slot0._container, skin, 1)
+function slot4.InitPopScore(slot0, slot1)
+	slot0._allPool[uv0.POP_SCORE] = slot0:generateTempPool(uv0.POP_SCORE, slot0._container, slot1, 1)
 end
 
 function slot4.GetContainer(slot0)
@@ -58,6 +58,14 @@ function slot4.GetPop(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot9:SetScale(slot7)
 
 	return slot9
+end
+
+function slot4.GetScorePop(slot0, slot1)
+	slot3 = slot0._allPool[uv0.POP_SCORE]:GetObject()
+
+	slot3:SetText(slot1)
+
+	return slot3
 end
 
 function slot4.generateTempPool(slot0, slot1, slot2, slot3, slot4)

@@ -9231,6 +9231,27 @@ _G.pg.base.item_data_statistics[21016] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21017] = {
+	display = "亚利桑那·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：亚利桑那·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21017,
+	is_world = 0,
+	icon = "Props/21017",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
 	name = "结晶化热强钢",
@@ -9477,6 +9498,27 @@ _G.pg.base.item_data_statistics[21908] = {
 	id = 21908,
 	is_world = 0,
 	icon = "Props/21908",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21909] = {
+	display = "于「信标·META」战斗中收集的数据，可以提升亚利桑那·META同步率。",
+	name = "同步值：亚利桑那·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21909,
+	is_world = 0,
+	icon = "Props/21909",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10585,6 +10627,27 @@ _G.pg.base.item_data_statistics[30204] = {
 			1
 		}
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30205] = {
+	display = "包含一件稀有的鸢尾装备研发初始装备",
+	name = "鸢尾装备研发支援箱",
+	max_num = 0,
+	type = 5,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30205,
+	is_world = 0,
+	icon = "Props/30205",
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {}

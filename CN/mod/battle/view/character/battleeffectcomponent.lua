@@ -65,24 +65,20 @@ function slot5.Update(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._effectList) do
 		slot6.currentTime = slot1 - slot6.startTime
 
-		slot0:_UpdateEffect(slot6)
+		slot0:updateEffect(slot6)
 	end
 end
 
 function slot5.onAddEffect(slot0, slot1)
-	slot0:DoAddEffect(slot1)
-end
-
-function slot5.DoAddEffect(slot0, slot1)
-	slot0:_AddEffect(slot1.Data)
+	slot0:addEffect(slot1.Data)
 end
 
 function slot5.onCancelEffect(slot0, slot1)
-	slot0:_CancelEffect(slot1.Data)
+	slot0:cancelEffect(slot1.Data)
 end
 
 function slot5.onDeactiveEffect(slot0, slot1)
-	slot0:_DeactiveEffect(slot1.Data)
+	slot0:deactiveEffect(slot1.Data)
 end
 
 function slot5.onBuffAdd(slot0, slot1)
@@ -216,8 +212,8 @@ function slot5.addBlink(slot0, slot1)
 	end
 end
 
-function slot5._AddEffect(slot0, slot1)
-	if slot0._effectList[slot1.index or slot0:_GetIndex()] then
+function slot5.addEffect(slot0, slot1)
+	if slot0._effectList[slot1.index or slot0:getIndex()] then
 		slot3.effect_go:SetActive(true)
 
 		slot3.effect_tf.localScale = slot3.effect_tf.localScale
@@ -230,24 +226,20 @@ function slot5._AddEffect(slot0, slot1)
 			posFun = slot1.posFun,
 			rotationFun = slot1.rotationFun,
 			startTime = pg.TimeMgr.GetInstance():GetCombatTime(),
-			effectFun = slot1.effectFun
+			fillFunc = slot1.fillFunc
 		}
 		slot0._effectList[slot2] = slot3
 
-		slot0:_UpdateEffect(slot3)
+		slot0:updateEffect(slot3)
 		pg.EffectMgr.GetInstance():PlayBattleEffect(slot4, slot4.transform.localPosition, false, function (slot0)
 			uv0._owner:RemoveFX(uv1)
-
-			if uv0._effectList[uv2] and uv0._effectList[uv2].effectFun then
-				uv0._effectList[uv2].effectFun()
-			end
 
 			uv0._effectList[uv2] = nil
 		end)
 	end
 end
 
-function slot5._CancelEffect(slot0, slot1)
+function slot5.cancelEffect(slot0, slot1)
 	if slot0._effectList[slot1.index] then
 		slot0._owner:RemoveFX(slot3.effect_go)
 
@@ -255,20 +247,19 @@ function slot5._CancelEffect(slot0, slot1)
 	end
 end
 
-function slot5._DeactiveEffect(slot0, slot1)
+function slot5.deactiveEffect(slot0, slot1)
 	if slot0._effectList[slot1.index] then
 		slot3.effect_go:SetActive(false)
 	end
 end
 
-function slot5._GetIndex(slot0)
-	slot1 = slot0._effectIndex + 1
-	slot0._effectIndex = slot1
+function slot5.getIndex(slot0)
+	slot0._effectIndex = slot0._effectIndex + 1
 
-	return slot1
+	return slot0._effectIndex
 end
 
-function slot5._UpdateEffect(slot0, slot1)
+function slot5.updateEffect(slot0, slot1)
 	if slot1.posFun then
 		slot1.effect_tf.localPosition = slot1.posFun(slot1.currentTime)
 	end
@@ -281,5 +272,12 @@ function slot5._UpdateEffect(slot0, slot1)
 		end
 
 		slot1.effect_tf.localEulerAngles = slot2
+	end
+
+	if slot1.fillFunc then
+		slot0._characterScaleX = slot0._characterScaleX or slot0._owner:GetTf().localScale.x
+		slot0._characterScaleZ = slot0._characterScaleZ or slot0._owner:GetTf().localScale.z
+		slot1.effect_tf.position, slot3, slot4 = slot1.fillFunc()
+		slot1.effect_tf.localScale = Vector3(slot3 / slot0._characterScaleX, 0, slot4 / slot0._characterScaleZ)
 	end
 end

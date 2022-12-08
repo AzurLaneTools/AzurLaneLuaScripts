@@ -4130,7 +4130,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2022.9.1-2022.12.8</color>期间限时开放「声望·META」的挑战，在此期间指挥官可挑战「声望·META」累计其同步值获取<color=#92fc63>「声望·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2022.12.8-2023.3.9</color>期间限时开放「亚利桑那·META」的挑战，在此期间指挥官可挑战「亚利桑那·META」累计其同步值获取<color=#92fc63>「亚利桑那·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -4159,7 +4159,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标·META挑战的进行，从第31天开始，即2022.10.2~2022.12.8期间，舰队挑战「声望·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
+随着信标·META挑战的进行，从第31天开始，即2023.1.9~2023.3.9期间，舰队挑战「亚利桑那·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
 ※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
@@ -5970,6 +5970,14 @@ _G.pg.base.gametip.help_equipment = {
 · 回避上限：舰载机被敌方防空舰攻击时回避其攻击的几率上限
 
 舰载机回避率由舰载机、装备舰载机的航母航空值和敌方防空舰防空值决定
+
+· 远程防空炮的防空机制说明：
+        远程防空炮仅有战列、战巡、航战类型角色的防空炮栏位可以装备
+将根据队伍中带有的远程防空炮的伤害、射速、索敌范围、索敌角度、伤害范围、瞄准提前量等参数，综合计算出一个实际攻击的远程防空炮
+        整合后的远程防空炮，将由一名装备了远程防空炮的角色发射，优先选择旗舰作为发射角色
+        远程防空炮通过综合后的索敌范围、索敌角度形成扇面形的索敌区域。敌方进入索敌区域后，会对其开火
+        远程防空炮开火时，会根据综合后的瞄准提前量，调整目标位置开火，对目标位置造成范围伤害（依据综合后的伤害范围）
+        远程防空炮对命中单位的伤害计算规则与近程防空炮一致
 
 · 外观装备可以用于改变对应的装备发射效果。
 （外观装备不占用仓库位置）   ]]
@@ -11205,6 +11213,10 @@ _G.pg.base.gametip.text_retreat = {
 	tip = "撤 退"
 }
 
+_G.pg.base.gametip.text_goto = {
+	tip = "前 往"
+}
+
 _G.pg.base.gametip.level_scene_title_word_1 = {
 	tip = "侦查值:"
 }
@@ -14236,7 +14248,7 @@ _G.pg.base.gametip.equipment_upgrade_equipped_unavailable = {
 }
 
 _G.pg.base.gametip.equipment_upgrade_initial_node = {
-	tip = "此装备不可由通过装备研发获取"
+	tip = "此装备不可通过装备研发获取"
 }
 
 _G.pg.base.gametip.equipment_upgrade_feedback_compose_tip = {
@@ -14953,6 +14965,18 @@ _G.pg.base.gametip.equip_info_30 = {
 
 _G.pg.base.gametip.equip_info_31 = {
 	tip = "空袭"
+}
+
+_G.pg.base.gametip.equip_info_32 = {
+	tip = "瞄准提前量"
+}
+
+_G.pg.base.gametip.equip_info_33 = {
+	tip = "迎击标准射速"
+}
+
+_G.pg.base.gametip.equip_info_34 = {
+	tip = "迎击射速"
 }
 
 _G.pg.base.gametip.equip_info_extralevel_0 = {
@@ -17494,9 +17518,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2022.9.1-2022.12.8</color>期间限时开放「声望·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「声望·META」角色</color>
+·<color=#92fc63>2022.12.8-2023.3.9</color>期间限时开放「亚利桑那·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「亚利桑那·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「声望·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「亚利桑那·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -17647,6 +17671,18 @@ _G.pg.base.gametip.world_automode_title_2 = {
 	tip = "OPERATION"
 }
 
+_G.pg.base.gametip.world_automode_treasure_1 = {
+	tip = "购买隐秘海域信息记录仪后解锁"
+}
+
+_G.pg.base.gametip.world_automode_treasure_2 = {
+	tip = "使用隐秘海域信息记录仪后解锁"
+}
+
+_G.pg.base.gametip.world_automode_treasure_3 = {
+	tip = "需要大型作战重置后才可购买"
+}
+
 _G.pg.base.gametip.world_automode_cancel = {
 	tip = "取消"
 }
@@ -17669,6 +17705,10 @@ _G.pg.base.gametip.world_automode_start_tip3 = {
 
 _G.pg.base.gametip.world_automode_start_tip4 = {
 	tip = "当前海域无法离开"
+}
+
+_G.pg.base.gametip.world_automode_start_tip5 = {
+	tip = "当前海域中无法启用，请先前往安全海域"
 }
 
 _G.pg.base.gametip.world_automode_setting_1 = {
@@ -17753,6 +17793,30 @@ _G.pg.base.gametip.world_automode_setting_all_4_1 = {
 
 _G.pg.base.gametip.world_automode_setting_all_4_2 = {
 	tip = "否"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1 = {
+	tip = "需要压制的侵蚀等级"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_1 = {
+	tip = "3及以下"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_2 = {
+	tip = "4"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_3 = {
+	tip = "5"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_4 = {
+	tip = "6"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_5 = {
+	tip = "全部"
 }
 
 _G.pg.base.gametip.world_collection_task_tip_1 = {

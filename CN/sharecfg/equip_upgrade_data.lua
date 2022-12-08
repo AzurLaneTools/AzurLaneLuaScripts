@@ -100,6 +100,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[11260] = {
+		coin_consume = 2500,
+		id = 11260,
+		upgrade_from = 11240,
+		target_id = 11260,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18117,
+				6
+			},
+			{
+				18103,
+				24
+			}
+		}
+	},
 	[12060] = {
 		coin_consume = 50,
 		id = 12060,
@@ -157,6 +177,26 @@ pg.equip_upgrade_data = {
 			{
 				18109,
 				21
+			}
+		}
+	},
+	[12200] = {
+		coin_consume = 2500,
+		id = 12200,
+		upgrade_from = 12160,
+		target_id = 12200,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18117,
+				6
+			},
+			{
+				18103,
+				24
 			}
 		}
 	},
@@ -377,6 +417,26 @@ pg.equip_upgrade_data = {
 			{
 				18106,
 				48
+			}
+		}
+	},
+	[14500] = {
+		coin_consume = 7500,
+		id = 14500,
+		upgrade_from = 14520,
+		target_id = 14500,
+		material_consume = {
+			{
+				18127,
+				6
+			},
+			{
+				18117,
+				20
+			},
+			{
+				18106,
+				20
 			}
 		}
 	},
@@ -760,6 +820,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[16460] = {
+		coin_consume = 5000,
+		id = 16460,
+		upgrade_from = 11240,
+		target_id = 16460,
+		material_consume = {
+			{
+				18121,
+				9
+			},
+			{
+				18106,
+				21
+			},
+			{
+				18114,
+				24
+			}
+		}
+	},
 	[17080] = {
 		coin_consume = 450,
 		id = 17080,
@@ -897,6 +977,26 @@ pg.equip_upgrade_data = {
 			{
 				18115,
 				9
+			}
+		}
+	},
+	[17420] = {
+		coin_consume = 2000,
+		id = 17420,
+		upgrade_from = 17240,
+		target_id = 17420,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18123,
+				2
+			},
+			{
+				18106,
+				20
 			}
 		}
 	},
@@ -1277,6 +1377,26 @@ pg.equip_upgrade_data = {
 			{
 				18103,
 				21
+			}
+		}
+	},
+	[23220] = {
+		coin_consume = 2500,
+		id = 23220,
+		upgrade_from = 23200,
+		target_id = 23220,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18117,
+				6
+			},
+			{
+				18103,
+				24
 			}
 		}
 	},
@@ -1757,6 +1877,26 @@ pg.equip_upgrade_data = {
 			{
 				18114,
 				12
+			}
+		}
+	},
+	[26680] = {
+		coin_consume = 5000,
+		id = 26680,
+		upgrade_from = 26640,
+		target_id = 26680,
+		material_consume = {
+			{
+				18121,
+				9
+			},
+			{
+				18106,
+				21
+			},
+			{
+				18114,
+				24
 			}
 		}
 	},
@@ -2320,6 +2460,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[33100] = {
+		coin_consume = 4000,
+		id = 33100,
+		upgrade_from = 34300,
+		target_id = 33100,
+		material_consume = {
+			{
+				18126,
+				7
+			},
+			{
+				18117,
+				10
+			},
+			{
+				18106,
+				48
+			}
+		}
+	},
 	[34060] = {
 		coin_consume = 50,
 		id = 34060,
@@ -2737,6 +2897,46 @@ pg.equip_upgrade_data = {
 			{
 				18114,
 				12
+			}
+		}
+	},
+	[36700] = {
+		coin_consume = 4500,
+		id = 36700,
+		upgrade_from = 36440,
+		target_id = 36700,
+		material_consume = {
+			{
+				18126,
+				8
+			},
+			{
+				18121,
+				10
+			},
+			{
+				18114,
+				48
+			}
+		}
+	},
+	[36720] = {
+		coin_consume = 5000,
+		id = 36720,
+		upgrade_from = 36660,
+		target_id = 36720,
+		material_consume = {
+			{
+				18121,
+				9
+			},
+			{
+				18106,
+				21
+			},
+			{
+				18114,
+				24
 			}
 		}
 	},
@@ -3300,6 +3500,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[44200] = {
+		coin_consume = 2500,
+		id = 44200,
+		upgrade_from = 44140,
+		target_id = 44200,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18117,
+				6
+			},
+			{
+				18103,
+				24
+			}
+		}
+	},
 	[45040] = {
 		coin_consume = 450,
 		id = 45040,
@@ -3540,6 +3760,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[46380] = {
+		coin_consume = 2500,
+		id = 46380,
+		upgrade_from = 46360,
+		target_id = 46380,
+		material_consume = {
+			{
+				18112,
+				4
+			},
+			{
+				18106,
+				8
+			},
+			{
+				18114,
+				6
+			}
+		}
+	},
 	[47040] = {
 		coin_consume = 450,
 		id = 47040,
@@ -3680,15 +3920,297 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[90540] = {
+		coin_consume = 450,
+		id = 90540,
+		upgrade_from = 90040,
+		target_id = 90540,
+		material_consume = {
+			{
+				18102,
+				18
+			},
+			{
+				18111,
+				15
+			},
+			{
+				18108,
+				15
+			}
+		}
+	},
+	[90740] = {
+		coin_consume = 450,
+		id = 90740,
+		upgrade_from = 90760,
+		target_id = 90740,
+		material_consume = {
+			{
+				18102,
+				18
+			},
+			{
+				18111,
+				15
+			},
+			{
+				18108,
+				15
+			}
+		}
+	},
+	[90140] = {
+		coin_consume = 2000,
+		id = 90140,
+		upgrade_from = 90740,
+		target_id = 90140,
+		material_consume = {
+			{
+				18117,
+				3
+			},
+			{
+				18112,
+				21
+			},
+			{
+				18109,
+				21
+			}
+		}
+	},
+	[90780] = {
+		coin_consume = 50,
+		id = 90780,
+		upgrade_from = 90800,
+		target_id = 90780,
+		material_consume = {
+			{
+				18101,
+				12
+			},
+			{
+				18110,
+				9
+			},
+			{
+				18107,
+				9
+			}
+		}
+	},
+	[90240] = {
+		coin_consume = 50,
+		id = 90240,
+		upgrade_from = 90800,
+		target_id = 90240,
+		material_consume = {
+			{
+				18101,
+				12
+			},
+			{
+				18110,
+				9
+			},
+			{
+				18107,
+				9
+			}
+		}
+	},
+	[91140] = {
+		coin_consume = 400,
+		id = 91140,
+		upgrade_from = 7340,
+		target_id = 91140,
+		material_consume = {
+			{
+				18102,
+				18
+			},
+			{
+				18111,
+				15
+			},
+			{
+				18108,
+				15
+			}
+		}
+	},
+	[90900] = {
+		coin_consume = 2000,
+		id = 90900,
+		upgrade_from = 91140,
+		target_id = 90900,
+		material_consume = {
+			{
+				18117,
+				3
+			},
+			{
+				18103,
+				21
+			},
+			{
+				18109,
+				21
+			}
+		}
+	},
+	[7300] = {
+		coin_consume = 2500,
+		id = 7300,
+		upgrade_from = 90900,
+		target_id = 7300,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18117,
+				6
+			},
+			{
+				18103,
+				24
+			}
+		}
+	},
+	[7340] = {
+		coin_consume = 50,
+		id = 7340,
+		upgrade_from = 90800,
+		target_id = 7340,
+		material_consume = {
+			{
+				18101,
+				12
+			},
+			{
+				18110,
+				9
+			},
+			{
+				18107,
+				9
+			}
+		}
+	},
+	[90340] = {
+		coin_consume = 450,
+		id = 90340,
+		upgrade_from = 90460,
+		target_id = 90340,
+		material_consume = {
+			{
+				18102,
+				18
+			},
+			{
+				18111,
+				15
+			},
+			{
+				18108,
+				15
+			}
+		}
+	},
+	[90440] = {
+		coin_consume = 2000,
+		id = 90440,
+		upgrade_from = 90340,
+		target_id = 90440,
+		material_consume = {
+			{
+				18117,
+				3
+			},
+			{
+				18103,
+				21
+			},
+			{
+				18106,
+				21
+			}
+		}
+	},
+	[90580] = {
+		coin_consume = 450,
+		id = 90580,
+		upgrade_from = 90560,
+		target_id = 90580,
+		material_consume = {
+			{
+				18105,
+				18
+			},
+			{
+				18102,
+				12
+			},
+			{
+				18113,
+				9
+			}
+		}
+	},
+	[90600] = {
+		coin_consume = 2000,
+		id = 90600,
+		upgrade_from = 90580,
+		target_id = 90600,
+		material_consume = {
+			{
+				18121,
+				3
+			},
+			{
+				18106,
+				21
+			},
+			{
+				18114,
+				18
+			}
+		}
+	},
+	[90620] = {
+		coin_consume = 10000,
+		id = 90620,
+		upgrade_from = 90600,
+		target_id = 90620,
+		material_consume = {
+			{
+				18122,
+				9
+			},
+			{
+				18106,
+				60
+			},
+			{
+				18114,
+				48
+			}
+		}
+	},
 	all = {
 		4340,
 		11060,
 		11140,
 		11160,
 		11240,
+		11260,
 		12060,
 		12140,
 		12160,
+		12200,
 		13060,
 		13140,
 		13160,
@@ -3700,6 +4222,7 @@ pg.equip_upgrade_data = {
 		14360,
 		14380,
 		14520,
+		14500,
 		15200,
 		15220,
 		15221,
@@ -3719,6 +4242,7 @@ pg.equip_upgrade_data = {
 		16440,
 		16441,
 		16442,
+		16460,
 		17080,
 		17140,
 		17240,
@@ -3726,6 +4250,7 @@ pg.equip_upgrade_data = {
 		17360,
 		17380,
 		17400,
+		17420,
 		18140,
 		18220,
 		18221,
@@ -3745,6 +4270,7 @@ pg.equip_upgrade_data = {
 		22240,
 		22260,
 		23200,
+		23220,
 		24040,
 		24060,
 		24160,
@@ -3769,6 +4295,7 @@ pg.equip_upgrade_data = {
 		26600,
 		26620,
 		26640,
+		26680,
 		27040,
 		27060,
 		27140,
@@ -3797,6 +4324,7 @@ pg.equip_upgrade_data = {
 		32340,
 		33060,
 		33080,
+		33100,
 		34060,
 		34140,
 		34160,
@@ -3818,6 +4346,8 @@ pg.equip_upgrade_data = {
 		36580,
 		36640,
 		36660,
+		36700,
+		36720,
 		37140,
 		37160,
 		37240,
@@ -3846,6 +4376,7 @@ pg.equip_upgrade_data = {
 		42340,
 		43060,
 		44140,
+		44200,
 		45040,
 		45140,
 		45141,
@@ -3858,12 +4389,27 @@ pg.equip_upgrade_data = {
 		46260,
 		46340,
 		46360,
+		46380,
 		47040,
 		47080,
 		47140,
 		48000,
 		48020,
 		48040,
-		49040
+		49040,
+		90540,
+		90740,
+		90140,
+		90780,
+		90240,
+		91140,
+		90900,
+		7300,
+		7340,
+		90340,
+		90440,
+		90580,
+		90600,
+		90620
 	}
 }

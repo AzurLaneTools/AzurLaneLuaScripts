@@ -3,7 +3,7 @@ slot0 = class("LogoutCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
-	if PLATFORM_CHT == PLATFORM_CODE and slot2.code ~= SDK_EXIT_CODE then
+	if PLATFORM ~= PLATFORM_WINDOWSEDITOR and PLATFORM_CHT == PLATFORM_CODE and slot2.code ~= SDK_EXIT_CODE then
 		pg.SdkMgr.GetInstance():LogoutSDK()
 
 		return

@@ -215,8 +215,4 @@ function slot0.setShipFlag(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.remove(slot0)
-	slot0.viewComponent:unPartialBlur()
-end
-
 return slot0

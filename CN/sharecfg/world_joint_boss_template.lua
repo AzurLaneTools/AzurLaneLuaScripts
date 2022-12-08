@@ -92,7 +92,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "蛟·META",
 		painting = "canglong",
 		boss_level_id = 46,
@@ -112,16 +112,16 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			818,
-			1268.1,
-			1.7,
-			1.7
+			-36.45481,
+			610.5,
+			0.95,
+			0.95
 		},
 		p_offset_other = {
-			1424,
-			1267.9,
-			1.7,
-			1.7
+			296,
+			610,
+			0.95,
+			0.95
 		}
 	},
 	{
@@ -221,12 +221,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "声望·META",
 		painting = "shengwang",
 		boss_level_id = 106,
 		id = 8,
 		meta_id = 970404,
+		item_id = 100000,
 		description = {
 			{
 				"流星火雨",
@@ -249,12 +250,44 @@ pg.world_joint_boss_template = {
 				"战斗中将会出现巨型熔岩形状球体，触碰敌方主力造成巨额伤害，并完全解除航母的隐蔽状态。"
 			}
 		},
+		p_offset = {
+			-49.8,
+			589.5,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			388,
+			586.2,
+			0.9,
+			0.9
+		}
+	},
+	{
+		item_id = 100000,
+		name = "亚利桑那·META",
+		painting = "yalisangna",
+		boss_level_id = 121,
+		id = 9,
+		meta_id = 970503,
+		description = {
+			{
+				"扩散的哀伤",
+				2,
+				"战斗中出现淡蓝色迷雾笼罩区域，敌方单位在迷雾中停留会降低航速，并受到伤害加深效果影响。\n迷雾的影响效果会随<color=#92fc63>敌方单位在迷雾中的持续停留时间而不断增加</color>，单位脱离迷雾范围后迷雾影响逐渐消失。"
+			},
+			{
+				"黑潮之泪",
+				1,
+				"任意敌方单位耐久低于50%时，其会受到额外的恢复效果。\n任意敌方单位耐久低于20%时，其受到的<color=#92fc63>所有恢复效果将被反转为伤害。</color>"
+			}
+		},
 		state = {
 			{
 				{
 					2022,
-					9,
-					1
+					12,
+					8
 				},
 				{
 					0,
@@ -264,9 +297,9 @@ pg.world_joint_boss_template = {
 			},
 			{
 				{
-					2022,
-					12,
-					8
+					2023,
+					3,
+					9
 				},
 				{
 					23,
@@ -296,6 +329,7 @@ pg.world_joint_boss_template = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }

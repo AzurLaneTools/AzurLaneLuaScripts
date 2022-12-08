@@ -85,4 +85,10 @@ function slot0.CalcResetExchangeResource(slot0)
 	return slot1
 end
 
+function slot0.GetItemsByType(slot0, slot1)
+	return underscore.filter(slot0:GetItemList(), function (slot0)
+		return slot0:getWorldItemType() == uv0
+	end)
+end
+
 return slot0

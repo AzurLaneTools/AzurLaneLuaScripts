@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			bgm = "ryza-12",
+			bgm = "story-1",
 			say = "港区附近·温泉岛",
 			flashout = {
 				black = true,

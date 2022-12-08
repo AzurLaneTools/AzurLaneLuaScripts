@@ -3885,6 +3885,33 @@ _G.pg.base.shop_template[31144] = {
 	}
 }
 
+_G.pg.base.shop_template[31080] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 1,
+	type = 2,
+	genre = "shopping_street",
+	desc = "900物资兑换1个鸢尾装备研发支援箱",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 31080,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30205
+	}
+}
+
 _G.pg.base.shop_template[31961] = {
 	is_auto_use = 1,
 	time_second = 0,
@@ -5367,6 +5394,33 @@ _G.pg.base.shop_template[33044] = {
 	limit_args = {},
 	effect_args = {
 		30044
+	}
+}
+
+_G.pg.base.shop_template[33080] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 3,
+	type = 2,
+	genre = "arena_shop",
+	desc = "400功勋兑换1个鸢尾装备研发支援箱",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 9,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 33080,
+	resource_num = 400,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30205
 	}
 }
 
@@ -64353,13 +64407,45 @@ _G.pg.base.shop_template[100012] = {
 	}
 }
 
+_G.pg.base.shop_template[100013] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 3002,
+	type = 12,
+	genre = "world",
+	desc = "隐秘海域记录仪",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100013,
+	resource_num = 1000,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		120
+	}
+}
+
 _G.pg.base.shop_template[100100] = {
 	is_auto_use = 0,
 	time_second = 0,
 	resource_type = 3002,
 	type = 20,
 	genre = "world_collection_task",
-	desc = "强力效能样本-恢复",
+	desc = "档案坐标记录仪1",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 0,
@@ -64449,5 +64535,71 @@ _G.pg.base.shop_template[100102] = {
 	effect_args = {
 		2052,
 		10020
+	}
+}
+
+_G.pg.base.shop_template[100103] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 3002,
+	type = 20,
+	genre = "world_collection_task",
+	desc = "档案坐标记录仪4",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100103,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		2053,
+		10030
+	}
+}
+
+_G.pg.base.shop_template[100104] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 3002,
+	type = 20,
+	genre = "world_collection_task",
+	desc = "档案坐标记录仪5",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100104,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		2054,
+		10040
 	}
 }

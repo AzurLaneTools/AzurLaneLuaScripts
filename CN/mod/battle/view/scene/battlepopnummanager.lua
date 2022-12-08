@@ -5,6 +5,8 @@ slot2 = slot0.Battle.BattleConst
 slot3 = singletonClass("BattlePopNumManager")
 slot0.Battle.BattlePopNumManager = slot3
 slot3.__name = "BattlePopNumManager"
+slot3.CONTAINER_HP = "HPTextContainer"
+slot3.CONTAINER_SCORE = "ScoreTextContainer"
 slot3.POP_SCORE = "score"
 slot3.POP_MISS = "miss"
 slot3.POP_HEAL = "heal"
@@ -61,7 +63,7 @@ end
 
 function slot3.InitialScorePool(slot0)
 	for slot4, slot5 in pairs(slot0._allBundlePool) do
-		slot5:InitPopScore()
+		slot5:GetObject():InitPopScore(slot0._popSkin)
 	end
 end
 

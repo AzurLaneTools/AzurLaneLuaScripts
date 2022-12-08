@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_137 = {
+	[10106102] = {
+		cannon = 13,
+		prefab = "srCL2",
+		reload = 150,
+		cannon_growth = 800,
+		speed_growth = 0,
+		air = 0,
+		rarity = 2,
+		dodge = 0,
+		torpedo = 24,
+		durability_growth = 11680,
+		antiaircraft = 45,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		star = 2,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 144,
+		base = 90124,
+		durability = 310,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		luck_growth = 0,
+		speed = 15,
+		armor = 0,
+		battle_unit_type = 30,
+		antisub = 0,
+		id = 10106102,
+		antiaircraft_growth = 1600,
+		fog_fx = "",
+		equipment_list = {
+			568011,
+			568012
+		}
+	},
 	[10106103] = {
 		cannon = 16,
 		prefab = "srCA2",
@@ -799,52 +836,6 @@ pg.enemy_data_statistics_137 = {
 			568411,
 			568421,
 			568431
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 2
-			}
-		}
-	},
-	[10106134] = {
-		cannon = 180,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 70050,
-		air = 0,
-		rarity = 6,
-		dodge = 11,
-		torpedo = 120,
-		durability_growth = 0,
-		antiaircraft = 360,
-		reload_growth = 0,
-		dodge_growth = 156,
-		hit_growth = 210,
-		star = 6,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 0,
-		base = 90261,
-		durability = 26500,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		speed = 18,
-		luck = 10,
-		id = 10106134,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			568191,
-			568193,
-			568194,
-			568195,
-			568196,
-			568197
 		},
 		buff_list = {
 			{

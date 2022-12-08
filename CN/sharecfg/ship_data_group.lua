@@ -23873,6 +23873,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30017] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 4,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30017,
+		code = 30017,
+		group_type = 970503,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：META研究室-资讯同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9705031
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -24475,6 +24509,7 @@ pg.ship_data_group = {
 		30013,
 		30014,
 		30015,
-		30016
+		30016,
+		30017
 	}
 }

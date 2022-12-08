@@ -1,17 +1,18 @@
 slot0 = class("WorldMapFleet", import(".WorldBaseFleet"))
 slot0.Fields = {
 	lossFlag = "number",
-	ammo = "number",
+	column = "number",
 	catSalvageList = "table",
 	catSalvageStep = "number",
 	index = "number",
-	column = "number",
-	catSalvageFrom = "number",
-	buffs = "table",
-	row = "number",
+	ammo = "number",
 	damageLevel = "number",
+	ammoMax = "number",
+	row = "number",
+	buffs = "table",
 	defeatEnemies = "number",
 	skills = "table",
+	catSalvageFrom = "number",
 	carries = "table"
 }
 slot0.EventUpdateLocation = "WorldMapFleet.EventUpdateLocation"
@@ -30,29 +31,29 @@ function slot0.GetName(slot0)
 end
 
 function slot0.DebugPrint(slot0)
-	slot10 = slot0:GetTotalAmmo()
-	slot3 = string.format("[第%s舰队] [id: %s] [位置: %s, %s] [弹药: %s/%s] [携带物: %s] [战损: %s] [buff: %s]", slot0.index, slot0.id, slot0.row, slot0.column, slot0:GetAmmo(), slot10, table.concat(_.map(slot0.carries, function (slot0)
+	slot3, slot12 = slot0:GetAmmo()
+	slot5 = string.format("[第%s舰队] [id: %s] [位置: %s, %s] [弹药: %s/%s] [携带物: %s] [战损: %s] [buff: %s]", slot0.index, slot0.id, slot0.row, slot0.column, slot3, slot12, table.concat(_.map(slot0.carries, function (slot0)
 		return "carries"
 	end), ", "), slot0.damageLevel, table.concat(_.map(slot0:GetBuffList(), function (slot0)
 		return slot0.id .. "#" .. slot0:GetFloor()
 	end), ", "))
-	slot4 = {
+	slot6 = {
 		[TeamType.Main] = "主力",
 		[TeamType.Vanguard] = "先锋",
 		[TeamType.Submarine] = "潜艇"
 	}
-	slot5 = {}
-	slot9 = true
+	slot7 = {}
+	slot11 = true
 
-	for slot9, slot10 in ipairs(slot0:GetShips(slot9)) do
-		slot11 = WorldConst.FetchShipVO(slot10.id)
+	for slot11, slot12 in ipairs(slot0:GetShips(slot11)) do
+		slot13 = WorldConst.FetchShipVO(slot12.id)
 
-		table.insert(slot5, string.format("\t\t[%s] [id: %s] [config_id: %s] [%s] [hp: %s%%] [buff: %s]" .. " <material=underline c=#A9F548 event=ShipProperty args=%s><color=#A9F548>属性</color></material>", slot11:getName(), slot11.id, slot11.configId, slot4[slot11:getTeamType()], slot10.hpRant / 100, table.concat(_.map(slot10:GetBuffList(), function (slot0)
+		table.insert(slot7, string.format("\t\t[%s] [id: %s] [config_id: %s] [%s] [hp: %s%%] [buff: %s]" .. " <material=underline c=#A9F548 event=ShipProperty args=%s><color=#A9F548>属性</color></material>", slot13:getName(), slot13.id, slot13.configId, slot6[slot13:getTeamType()], slot12.hpRant / 100, table.concat(_.map(slot12:GetBuffList(), function (slot0)
 			return slot0.id .. "#" .. slot0:GetFloor()
-		end), ", "), slot11.id))
+		end), ", "), slot13.id))
 	end
 
-	return slot3 .. "\n" .. table.concat(slot5, "\n")
+	return slot5 .. "\n" .. table.concat(slot7, "\n")
 end
 
 function slot0.Build(slot0)
@@ -87,6 +88,7 @@ function slot0.Setup(slot0, slot1)
 	slot0.row = slot1.pos.row
 	slot0.column = slot1.pos.column
 	slot0.ammo = slot1.bullet
+	slot0.ammoMax = slot1.bullet_max
 	slot0.damageLevel = math.clamp(slot1.damage_level, 0, #WorldConst.DamageBuffList)
 
 	_.each(slot1.attach_list, function (slot0)
@@ -271,7 +273,7 @@ function slot0.CheckChangeShip(slot0, slot1, slot2)
 end
 
 function slot0.GetAmmo(slot0)
-	return slot0.ammo
+	return slot0.ammo, slot0.ammoMax
 end
 
 function slot0.UseAmmo(slot0)
@@ -292,6 +294,7 @@ function slot0.RepairSubmarine(slot0)
 	end)
 
 	slot0.ammo = slot0:GetTotalAmmo()
+	slot0.ammoMax = slot0.ammo
 end
 
 function slot0.GetSpeed(slot0)

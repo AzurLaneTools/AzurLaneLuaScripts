@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "一段时间之后————",
-			bgm = "ryza-9",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,

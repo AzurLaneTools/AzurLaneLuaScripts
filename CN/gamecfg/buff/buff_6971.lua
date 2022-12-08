@@ -15,7 +15,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				casterMaxHPRatio = 300
+				casterMaxHPRatio = 0.03
 			}
 		}
 	}

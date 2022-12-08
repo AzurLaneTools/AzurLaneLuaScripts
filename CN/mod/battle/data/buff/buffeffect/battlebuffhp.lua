@@ -21,18 +21,16 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot5, slot6 = slot0._caster:GetHP()
 	slot0._maxHPRatio = slot0._tempData.arg_list.maxHPRatio or 0
 	slot0._maxHPNumber = slot4 * slot0._maxHPRatio
-	slot0._castMaxHPNumber = 0
-
-	if slot0._tempData.arg_list.casterMaxHPRatio then
-		slot0._castMaxHPNumber = slot0._tempData.arg_list.casterMaxHPRatio * 0.0001 * slot6
-	end
-
+	slot0._castMaxHPRatio = slot0._tempData.arg_list.casterMaxHPRatio or 0
+	slot0._castMaxHPNumber = slot0._castMaxHPRatio * slot6
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
 	slot0._damageConvert = 0
 
 	if slot0._tempData.arg_list.damageConvertRatio then
 		slot0._damageConvert = slot0._tempData.arg_list.damageConvertRatio * 0.0001
 	end
+
+	slot0._incorruptible = slot0._tempData.arg_list.incorrupt
 end
 
 function slot1.onBulletHit(slot0, slot1, slot2, slot3)
@@ -61,7 +59,8 @@ function slot1.onBulletHit(slot0, slot1, slot2, slot3)
 		slot1:UpdateHP(math.floor(slot3.damage * slot0._damageConvert * slot4), {
 			isMiss = false,
 			isCri = false,
-			isHeal = true
+			isHeal = true,
+			incorrupt = slot0._incorruptible
 		})
 	end
 end
@@ -80,7 +79,8 @@ function slot1.onTrigger(slot0, slot1, slot2)
 	slot1:UpdateHP(slot3, {
 		isMiss = false,
 		isCri = false,
-		isHeal = slot4
+		isHeal = slot4,
+		incorrupt = slot0._incorruptible
 	})
 end
 

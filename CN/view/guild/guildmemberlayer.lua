@@ -131,7 +131,7 @@ function slot0.LoadPainting(slot0, slot1)
 	pg.GuildPaintingMgr:GetInstance():Update(Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
-	}):getPainting(), Vector3(-484, 0, 0))
+	}):getPainting(), Vector3(-484, 0, 0), true)
 	setActive(slot0.btns[4], slot3 == GuildConst.DUTY_DEPUTY_COMMANDER and slot2 == GuildConst.DUTY_COMMANDER and slot1:isLongOffLine())
 
 	slot7 = (slot3 == GuildConst.DUTY_DEPUTY_COMMANDER or slot3 == GuildConst.DUTY_COMMANDER) and slot3 < slot2
