@@ -11254,7 +11254,7 @@ _G.pg.base.gametip.text_retreat = {
 }
 
 _G.pg.base.gametip.text_goto = {
-	tip = "出撃へ"
+	tip = "確 認"
 }
 
 _G.pg.base.gametip.level_scene_title_word_1 = {

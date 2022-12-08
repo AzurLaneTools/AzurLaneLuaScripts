@@ -1263,9 +1263,9 @@ pg.world_item_data_template = {
 	},
 	[2122] = {
 		item_transform_item_type = 0,
-		name = "絶密実験計画",
+		name = "兵装実験報告書Ⅲ",
 		item_transform_item_id = 0,
-		display = "購入すると兵装開発用素材「絶密実験計画」を入手可能",
+		display = "購入すると兵装開発用素材「兵装実験報告書Ⅲ」を入手可能",
 		log_text = "",
 		sort_priority = 2,
 		usage = "usage_drop",
