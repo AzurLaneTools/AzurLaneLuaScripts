@@ -127739,7 +127739,7 @@ _G.pg.base.equip_data_statistics[90560] = {
 	type = 6,
 	descrip = "说明未填写",
 	ammo = 5,
-	damage = "17/轮",
+	damage = "17/回",
 	nationality = 8,
 	rarity = 3,
 	id = 90560,
@@ -127802,7 +127802,7 @@ _G.pg.base.equip_data_statistics[90560] = {
 
 _G.pg.base.equip_data_statistics[90561] = {
 	id = 90561,
-	damage = "20/轮",
+	damage = "20/回",
 	base = 90560,
 	weapon_id = {
 		90561
@@ -127812,7 +127812,7 @@ _G.pg.base.equip_data_statistics[90561] = {
 
 _G.pg.base.equip_data_statistics[90562] = {
 	id = 90562,
-	damage = "23/轮",
+	damage = "23/回",
 	base = 90560,
 	weapon_id = {
 		90562
@@ -127822,7 +127822,7 @@ _G.pg.base.equip_data_statistics[90562] = {
 
 _G.pg.base.equip_data_statistics[90563] = {
 	id = 90563,
-	damage = "26/轮",
+	damage = "26/回",
 	base = 90560,
 	weapon_id = {
 		90563
@@ -127832,7 +127832,7 @@ _G.pg.base.equip_data_statistics[90563] = {
 
 _G.pg.base.equip_data_statistics[90564] = {
 	id = 90564,
-	damage = "29/轮",
+	damage = "29/回",
 	base = 90560,
 	weapon_id = {
 		90564
@@ -127842,7 +127842,7 @@ _G.pg.base.equip_data_statistics[90564] = {
 
 _G.pg.base.equip_data_statistics[90565] = {
 	id = 90565,
-	damage = "32/轮",
+	damage = "32/回",
 	base = 90560,
 	weapon_id = {
 		90565
@@ -127852,7 +127852,7 @@ _G.pg.base.equip_data_statistics[90565] = {
 
 _G.pg.base.equip_data_statistics[90566] = {
 	id = 90566,
-	damage = "35/轮",
+	damage = "35/回",
 	base = 90560,
 	weapon_id = {
 		90566
@@ -127867,7 +127867,7 @@ _G.pg.base.equip_data_statistics[90580] = {
 	type = 6,
 	descrip = "说明未填写",
 	ammo = 5,
-	damage = "22/轮",
+	damage = "22/回",
 	nationality = 8,
 	rarity = 4,
 	id = 90580,
@@ -127930,7 +127930,7 @@ _G.pg.base.equip_data_statistics[90580] = {
 
 _G.pg.base.equip_data_statistics[90581] = {
 	id = 90581,
-	damage = "25/轮",
+	damage = "25/回",
 	base = 90580,
 	weapon_id = {
 		90581
@@ -127940,7 +127940,7 @@ _G.pg.base.equip_data_statistics[90581] = {
 
 _G.pg.base.equip_data_statistics[90582] = {
 	id = 90582,
-	damage = "28/轮",
+	damage = "28/回",
 	base = 90580,
 	weapon_id = {
 		90582
@@ -127950,7 +127950,7 @@ _G.pg.base.equip_data_statistics[90582] = {
 
 _G.pg.base.equip_data_statistics[90583] = {
 	id = 90583,
-	damage = "31/轮",
+	damage = "31/回",
 	base = 90580,
 	weapon_id = {
 		90583
@@ -127960,7 +127960,7 @@ _G.pg.base.equip_data_statistics[90583] = {
 
 _G.pg.base.equip_data_statistics[90584] = {
 	id = 90584,
-	damage = "34/轮",
+	damage = "34/回",
 	base = 90580,
 	weapon_id = {
 		90584
@@ -127970,7 +127970,7 @@ _G.pg.base.equip_data_statistics[90584] = {
 
 _G.pg.base.equip_data_statistics[90585] = {
 	id = 90585,
-	damage = "37/轮",
+	damage = "37/回",
 	base = 90580,
 	weapon_id = {
 		90585
@@ -127980,7 +127980,7 @@ _G.pg.base.equip_data_statistics[90585] = {
 
 _G.pg.base.equip_data_statistics[90586] = {
 	id = 90586,
-	damage = "40/轮",
+	damage = "40/回",
 	base = 90580,
 	weapon_id = {
 		90586
@@ -127990,7 +127990,7 @@ _G.pg.base.equip_data_statistics[90586] = {
 
 _G.pg.base.equip_data_statistics[90587] = {
 	id = 90587,
-	damage = "43/轮",
+	damage = "43/回",
 	base = 90580,
 	weapon_id = {
 		90587
@@ -128000,7 +128000,7 @@ _G.pg.base.equip_data_statistics[90587] = {
 
 _G.pg.base.equip_data_statistics[90588] = {
 	id = 90588,
-	damage = "46/轮",
+	damage = "46/回",
 	base = 90580,
 	weapon_id = {
 		90588
@@ -128010,7 +128010,7 @@ _G.pg.base.equip_data_statistics[90588] = {
 
 _G.pg.base.equip_data_statistics[90589] = {
 	id = 90589,
-	damage = "49/轮",
+	damage = "49/回",
 	base = 90580,
 	weapon_id = {
 		90589
@@ -128020,7 +128020,7 @@ _G.pg.base.equip_data_statistics[90589] = {
 
 _G.pg.base.equip_data_statistics[90590] = {
 	id = 90590,
-	damage = "52/轮",
+	damage = "52/回",
 	base = 90580,
 	weapon_id = {
 		90590
@@ -128031,7 +128031,7 @@ _G.pg.base.equip_data_statistics[90590] = {
 _G.pg.base.equip_data_statistics[90591] = {
 	id = 90591,
 	anti_siren = 100,
-	damage = "52/轮",
+	damage = "52/回",
 	base = 90580,
 	weapon_id = {
 		90591
