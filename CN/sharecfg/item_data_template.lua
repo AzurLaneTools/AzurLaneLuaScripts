@@ -4649,8 +4649,8 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "[]",
 		id = 18126,
-		compose_number = 0,
-		target_id = 0
+		compose_number = 8,
+		target_id = 18127
 	},
 	[18127] = {
 		other_resource_cost = "[]",

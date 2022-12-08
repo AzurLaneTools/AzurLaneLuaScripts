@@ -137,11 +137,7 @@ end
 
 function slot0.UpdatePainting(slot0)
 	if slot0.bossMission:GetPainting() and slot2 ~= "" then
-		slot4 = PoolMgr.GetInstance()
-
-		slot4:GetPainting(slot2, true, function (slot0)
-			setParent(slot0, uv0.paintingTF:Find("fitter"), false)
-		end)
+		setGuildPaintingPrefab(slot0.paintingTF, slot2, nil, )
 	else
 		slot4 = slot1:GetEmenyId()
 

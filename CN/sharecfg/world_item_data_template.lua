@@ -1261,6 +1261,27 @@ pg.world_item_data_template = {
 		},
 		item_origin = {}
 	},
+	[2122] = {
+		item_transform_item_type = 0,
+		name = "绝密实验计划",
+		item_transform_item_id = 0,
+		display = "购买后能得到1个[绝密实验计划]，可用于进行装备研发。",
+		log_text = "",
+		sort_priority = 2,
+		usage = "usage_drop",
+		grid_num = 1,
+		item_transform_item_number = 0,
+		open_box = "",
+		item_transform_num = 0,
+		usage_arg = "1030023",
+		id = 2122,
+		icon = "Props/18127",
+		rarity = 5,
+		expired_date = "",
+		item_origin = {
+			100
+		}
+	},
 	[100011] = {
 		item_transform_item_type = 1,
 		name = "海域坐标:卡利比安海A",
@@ -4288,6 +4309,7 @@ pg.world_item_data_template = {
 		2119,
 		2120,
 		2121,
+		2122,
 		100011,
 		100012,
 		100013,

@@ -17,9 +17,6 @@ function slot3.SetArgs(slot0, slot1, slot2)
 	slot0._index = slot3.index
 	slot0._maxHPRatio = slot3.maxHPRatio or 0
 	slot0._casterMaxHPRatio = slot3.casterMaxHPRatio or 0
-
-	slot0:calcHPCount(slot1)
-
 	slot0._gunnerBonus = slot3.gunnerBonus
 
 	slot0:ResetCount()
@@ -105,6 +102,10 @@ function slot3.getCount(slot0, slot1)
 end
 
 function slot3.checkHPCount(slot0, slot1)
+	if not slot0._hpCountTarget then
+		slot0:calcHPCount(slot1)
+	end
+
 	if slot0._hpCountTarget <= slot0._count then
 		slot1:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
 			buffFX = slot0
