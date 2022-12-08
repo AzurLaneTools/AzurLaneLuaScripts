@@ -8665,7 +8665,7 @@ _G.pg.base.item_data_statistics[18125] = {
 }
 
 _G.pg.base.item_data_statistics[18126] = {
-	display = "保密级别为机密的实验计划书，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+	display = "保密级别为机密的实验计划书，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用\n*可消耗<color=#ffde38>8</color>个合成<color=#ffde38>1</color>个<color=#ff5e39>绝密实验计划</color>",
 	name = "机密实验计划",
 	max_num = 0,
 	type = 2,

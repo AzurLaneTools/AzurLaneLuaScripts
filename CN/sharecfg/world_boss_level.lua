@@ -2403,7 +2403,7 @@ pg.world_boss_level = {
 	{
 		id = 121,
 		enemy_id = 295121,
-		hp = 50000,
+		hp = 54000,
 		expedition_id = 296121,
 		drop_show_self = {
 			{
@@ -2423,7 +2423,7 @@ pg.world_boss_level = {
 	{
 		id = 122,
 		enemy_id = 295122,
-		hp = 54000,
+		hp = 58000,
 		expedition_id = 296122,
 		drop_show_self = {
 			{
@@ -2443,7 +2443,7 @@ pg.world_boss_level = {
 	{
 		id = 123,
 		enemy_id = 295123,
-		hp = 58000,
+		hp = 63000,
 		expedition_id = 296123,
 		drop_show_self = {
 			{
@@ -2463,7 +2463,7 @@ pg.world_boss_level = {
 	{
 		id = 124,
 		enemy_id = 295124,
-		hp = 70000,
+		hp = 76000,
 		expedition_id = 296124,
 		drop_show_self = {
 			{
@@ -2483,7 +2483,7 @@ pg.world_boss_level = {
 	{
 		id = 125,
 		enemy_id = 295125,
-		hp = 110000,
+		hp = 120000,
 		expedition_id = 296125,
 		drop_show_self = {
 			{
@@ -2503,7 +2503,7 @@ pg.world_boss_level = {
 	{
 		id = 126,
 		enemy_id = 295126,
-		hp = 150000,
+		hp = 160000,
 		expedition_id = 296126,
 		drop_show_self = {
 			{
@@ -2523,7 +2523,7 @@ pg.world_boss_level = {
 	{
 		id = 127,
 		enemy_id = 295127,
-		hp = 230000,
+		hp = 250000,
 		expedition_id = 296127,
 		drop_show_self = {
 			{
@@ -2543,7 +2543,7 @@ pg.world_boss_level = {
 	{
 		id = 128,
 		enemy_id = 295128,
-		hp = 310000,
+		hp = 340000,
 		expedition_id = 296128,
 		drop_show_self = {
 			{
@@ -2563,7 +2563,7 @@ pg.world_boss_level = {
 	{
 		id = 129,
 		enemy_id = 295129,
-		hp = 390000,
+		hp = 420000,
 		expedition_id = 296129,
 		drop_show_self = {
 			{
@@ -2583,7 +2583,7 @@ pg.world_boss_level = {
 	{
 		id = 130,
 		enemy_id = 295130,
-		hp = 480000,
+		hp = 520000,
 		expedition_id = 296130,
 		drop_show_self = {
 			{
@@ -2603,7 +2603,7 @@ pg.world_boss_level = {
 	{
 		id = 131,
 		enemy_id = 295131,
-		hp = 600000,
+		hp = 650000,
 		expedition_id = 296131,
 		drop_show_self = {
 			{
@@ -2623,7 +2623,7 @@ pg.world_boss_level = {
 	{
 		id = 132,
 		enemy_id = 295132,
-		hp = 780000,
+		hp = 840000,
 		expedition_id = 296132,
 		drop_show_self = {
 			{
@@ -2643,7 +2643,7 @@ pg.world_boss_level = {
 	{
 		id = 133,
 		enemy_id = 295133,
-		hp = 1000000,
+		hp = 1080000,
 		expedition_id = 296133,
 		drop_show_self = {
 			{
@@ -2663,7 +2663,7 @@ pg.world_boss_level = {
 	{
 		id = 134,
 		enemy_id = 295134,
-		hp = 1240000,
+		hp = 1340000,
 		expedition_id = 296134,
 		drop_show_self = {
 			{
@@ -2683,7 +2683,7 @@ pg.world_boss_level = {
 	{
 		id = 135,
 		enemy_id = 295135,
-		hp = 1480000,
+		hp = 1600000,
 		expedition_id = 296135,
 		drop_show_self = {
 			{
