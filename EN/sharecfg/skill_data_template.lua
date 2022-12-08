@@ -99681,7 +99681,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 800650,
 		type = 2,
 		max_level = 10,
-		desc = "During battle, when a surface ship in your fleet recovers 5.0% or more of her max HP in one activation: restores $1 of this ship's max HP and fires a $2 special barrage (DMG is based on the skill's level; 12s cooldown between activations). Once per battle, when a ship in your surface fleet has taken DMG exceeding 30.0% of her max HP, or when a ship in your surface fleet falls below 30.0% of her max HP: this skill's special barrage gains a SHS attack that creates \"Jamming Field - Arizona META\" (lasts 3s) at the location it hits.",
+		desc = "During battle, when a surface ship in your fleet recovers more than 5.0% of her max HP in one activation: restores $1 of this ship's max HP and fires a $2 special barrage (DMG is based on the skill's level; 12s cooldown between activations). Once per battle, when a ship in your surface fleet has taken DMG exceeding 30.0% of her max HP, or when a ship in your surface fleet falls below 30.0% of her max HP: this skill's special barrage gains a SHS attack that creates \"Jamming Field - Arizona META\" (lasts 3s) at the location it hits.",
 		system_transform = {},
 		world_death_mark = {
 			1

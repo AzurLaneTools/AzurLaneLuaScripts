@@ -2858,7 +2858,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295121] = {
 		cannon = 149,
-		name = "亚利桑那·META(Tier.1)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2899,7 +2899,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295122] = {
 		cannon = 162,
-		name = "亚利桑那·META(Tier.2)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2940,7 +2940,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295123] = {
 		cannon = 175,
-		name = "亚利桑那·META(Tier.3)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2981,7 +2981,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295124] = {
 		cannon = 188,
-		name = "亚利桑那·META(Tier.4)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3022,7 +3022,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295125] = {
 		cannon = 203,
-		name = "亚利桑那·META(Tier.5)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3063,7 +3063,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295126] = {
 		cannon = 217,
-		name = "亚利桑那·META(Tier.6)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3104,7 +3104,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295127] = {
 		cannon = 232,
-		name = "亚利桑那·META(Tier.7)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3145,7 +3145,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295128] = {
 		cannon = 248,
-		name = "亚利桑那·META(Tier.8)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3186,7 +3186,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295129] = {
 		cannon = 264,
-		name = "亚利桑那·META(Tier.9)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3227,7 +3227,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295130] = {
 		cannon = 280,
-		name = "亚利桑那·META(Tier.10)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3268,7 +3268,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295131] = {
 		cannon = 298,
-		name = "亚利桑那·META(Tier.11)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3309,7 +3309,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295132] = {
 		cannon = 315,
-		name = "亚利桑那·META(Tier.12)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3350,7 +3350,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295133] = {
 		cannon = 334,
-		name = "亚利桑那·META(Tier.13)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3391,7 +3391,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295134] = {
 		cannon = 353,
-		name = "亚利桑那·META(Tier.14)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3432,7 +3432,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295135] = {
 		cannon = 390,
-		name = "亚利桑那·META(Tier.15)",
+		name = "Arizona META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,

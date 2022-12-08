@@ -922,7 +922,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90718] = {
 		cannon = 0,
-		name = "亚利桑那·META",
+		name = "Arizona META",
 		type = 5,
 		speed_growth = 0,
 		battle_unit_type = 49,

@@ -8386,7 +8386,7 @@ _G.pg.base.item_data_statistics[18125] = {
 }
 
 _G.pg.base.item_data_statistics[18126] = {
-	display = "A field performance report on an experimental piece of ordnance. Used in the <color=#92fc63>Gear Laboratory</color>.",
+	display = "A field performance report on an experimental piece of ordnance. Used in the <color=#92fc63>Gear Lab</color>.\n*May use <color=#ffde38>8</color> to craft <color=#ffde38>1 T3 Ordnance Testing Report</color>.",
 	name = "T2 Ordnance Testing Report",
 	max_num = 0,
 	type = 2,
@@ -8954,7 +8954,7 @@ _G.pg.base.item_data_statistics[21016] = {
 
 _G.pg.base.item_data_statistics[21017] = {
 	display = "An item that increases the potential of Arizona META. Used in the META Lab during Somatic Activation.",
-	name = "META Crystal – Arizona ",
+	name = "META Crystal – Arizona",
 	max_num = 0,
 	type = 4,
 	drop_oil_max = 0,

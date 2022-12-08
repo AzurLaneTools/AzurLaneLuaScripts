@@ -31,7 +31,9 @@ function slot3.onTrigger(slot0, slot1, slot2)
 end
 
 function slot3.onFire(slot0, slot1, slot2, slot3)
-	uv0.super.onTrigger(slot0, slot1, slot2)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
 
 	slot0._count = slot0._count + 1
 

@@ -748,7 +748,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9705033] = {
-		breakout_view = "Improve Framework of Logic – Arizona/Main gun efficiency +15%",
+		breakout_view = "Improve Framework of Logic – Arizona/Main gun base +1/Main gun efficiency +15%",
 		gold = 10000,
 		breakout_id = 9705034,
 		repair = 0,
@@ -816,7 +816,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9706013] = {
-		breakout_view = "ImproveAshen Might – Hiyou/All Dive Bombers +2/Aircraft efficiency +7%",
+		breakout_view = "Improve Ashen Might – Hiyou/All Dive Bombers +2/Aircraft efficiency +7%",
 		gold = 2500,
 		breakout_id = 9706014,
 		repair = 0,
@@ -885,7 +885,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9706023] = {
-		breakout_view = "Improve Ashen Might – Junyou/All Torpedo Bombers +1/Aircraft efficiency +7%",
+		breakout_view = "Improve Ashen Might – Junyou/All Torpedo Bombers +2/Aircraft efficiency +7%",
 		gold = 2500,
 		breakout_id = 9706024,
 		repair = 0,
@@ -918,7 +918,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707011] = {
-		breakout_view = "Unlock Ashen Might·Hiryuu/All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
+		breakout_view = "Unlock Ashen Might - Hiryuu/All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
 		gold = 1000,
 		breakout_id = 9707012,
 		repair = 0,
@@ -954,7 +954,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707013] = {
-		breakout_view = "Improve Ashen Might·Hiryuu/All aircraft +1/Torpedo Bomber efficiency +15%",
+		breakout_view = "Improve Ashen Might - Hiryuu/All Aircraft +1/Torpedo Bomber efficiency +15%",
 		gold = 10000,
 		breakout_id = 9707014,
 		repair = 0,

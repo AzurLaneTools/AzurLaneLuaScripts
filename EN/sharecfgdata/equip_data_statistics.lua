@@ -39944,13 +39944,13 @@ _G.pg.base.equip_data_statistics[17411] = {
 
 _G.pg.base.equip_data_statistics[17420] = {
 	rarity = 5,
-	name = "Prototype XF5U \"Flying Pancake\"",
+	name = "Prototype XF5U \"Flying Flapjack\"",
 	speciality = "Air",
 	type = 7,
 	tech = 0,
 	ammo = 5,
 	nationality = 1,
-	descrip = "Prototype XF5U \"Flying Pancake\"",
+	descrip = "Prototype XF5U \"Flying Flapjack\"",
 	id = 17420,
 	torpedo_ammo = 0,
 	value_3 = 0,
@@ -50094,7 +50094,7 @@ _G.pg.base.equip_data_statistics[23213] = {
 
 _G.pg.base.equip_data_statistics[23220] = {
 	tech = 0,
-	name = "Triple Prototype 203mm Mark X Main Gun Mount",
+	name = "Prototype Triple 203mm Mk IX Main Gun Mount",
 	speciality = "Lock",
 	type = 3,
 	descrip = "No description",
