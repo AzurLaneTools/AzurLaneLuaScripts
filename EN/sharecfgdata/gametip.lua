@@ -4545,6 +4545,7 @@ uses no Oil.
 · You can have up to <color=#92fc63>3</color> Challenge attempts,
 resetting each day at midnight.
 Each META Showdown can have up to 30 participants.
+
 - Combat Instructions -
 · You cannot bring Meowfficers or submarines.
 · At the end of battle, no EXP is gained, and Morale
@@ -4559,7 +4560,7 @@ b. If challenging someone else's boss,
 a challenge attempt will be used, but no rewards
 will be granted.
 <color=#92fc63>Please make sure your network conditions are stable
-before attempting an META Showdown!</color>.
+before attempting an META Showdown!</color>
 
 - Artillery Support -
 From the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).

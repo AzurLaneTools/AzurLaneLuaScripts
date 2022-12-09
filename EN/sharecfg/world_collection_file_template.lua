@@ -2021,7 +2021,7 @@ The pentagon enclosed by N 32° 12', W 63° 10'; N 32° 38', W 59° 36'; N 31° 
 
 The pentagon enclosed by N 31° 17', W 65° 36'; N 31° 13', W 64° 20'; N 30° 59', W 63° 51'; N 30° 36', W 64° 06'; and N 30° 49', W 65° 31'.
 
-The quadrangle enclosed by N 31° 49', W 66° 50'; N 31° 39', W 66° 11'; N 30° 55', W 66° 26'; and N 31° 37', W 67° 15'.
+The quadrangle enclosed by N 31° 49', W 66° 50'; N 31° 39', W 66° 11'; N 30° 55', W 66° 26'; and N 31° 19', W 67° 15'.
 
 These sea and air spaces will be bombarded for seven days. All passage into and through these spaces by sea and air craft is forbidden until the exercise is completed.
 
