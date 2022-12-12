@@ -35943,7 +35943,8 @@ _G.pg.base.equip_data_statistics[16460] = {
 	label = {
 		"USS",
 		"ST",
-		"AAF"
+		"AAF",
+		"AA"
 	}
 }
 
@@ -57974,7 +57975,8 @@ _G.pg.base.equip_data_statistics[26680] = {
 	label = {
 		"HMS",
 		"ST",
-		"AAF"
+		"AAF",
+		"AA"
 	}
 }
 
@@ -79546,7 +79548,8 @@ _G.pg.base.equip_data_statistics[36720] = {
 	label = {
 		"IJN",
 		"ST",
-		"AAF"
+		"AAF",
+		"AA"
 	}
 }
 
@@ -100102,7 +100105,8 @@ _G.pg.base.equip_data_statistics[46380] = {
 	label = {
 		"KMS",
 		"ST",
-		"AAF"
+		"AAF",
+		"AA"
 	}
 }
 
