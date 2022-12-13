@@ -91,7 +91,6 @@ end
 
 function slot10.Spawn(slot0, slot1, slot2)
 	slot3 = nil
-	slot3 = (slot2 ~= nil or Vector3.zero) and (slot2:GetBeenAimedPosition() or slot2:GetPosition())
 	slot5 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, slot0:getAimPoint(slot2))
 
 	slot0:setBulletSkin(slot5, slot1)
@@ -101,9 +100,17 @@ function slot10.Spawn(slot0, slot1, slot2)
 end
 
 function slot10.getAimPoint(slot0, slot1)
-	slot2 = slot1:GetPosition()
+	slot2 = nil
 
-	return Vector3(slot2.x + slot0._aimOffset, 0, slot2.z)
+	if target then
+		slot3 = slot1:GetPosition()
+		slot2 = Vector3(slot3.x + slot0._aimOffset, 0, slot3.z)
+	else
+		slot3 = slot0:GetHost():GetPosition()
+		slot2 = Vector3(slot3.x + slot0._maxRangeSqr * slot0._hostIFF + slot0._aimOffset, 0, slot3.z)
+	end
+
+	return slot2
 end
 
 function slot10.GetCrewUnitList(slot0)
