@@ -2,6 +2,7 @@ slot0 = class("BattleDodgemResultLayer", import(".BattleResultLayer"))
 
 function slot0.didEnter(slot0)
 	setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
+	setText(findTF(slot0._conditions, "bg17"), i18n("battle_result_targets"))
 
 	slot3 = rtf(slot0._grade)
 	slot0._gradeUpperLeftPos = slot3.localPosition

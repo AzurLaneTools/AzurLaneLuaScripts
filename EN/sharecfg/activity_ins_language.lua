@@ -11311,142 +11311,142 @@ pg.activity_ins_language = {
 		value = "A team battle with pumpkin cannons on both sides? That'd be the best Halloween activity ever!"
 	},
 	ins_342 = {
-		value = ""
+		value = "Alright! Let's make something new!"
 	},
 	ins_discuss_342_1 = {
-		value = ""
+		value = "I love seeing you perform alchemy despite having no idea how any of it works!"
 	},
 	ins_reply_342_1_1 = {
-		value = ""
+		value = "how on earth did you turn those ingredients into something completely different..."
 	},
 	ins_reply_342_1_2 = {
-		value = ""
+		value = "That's what alchemy is all about! Isn't it amazing?"
 	},
 	ins_discuss_342_2 = {
-		value = ""
+		value = "Being thrown into another world won't stop you from synthesizing, huh?"
 	},
 	ins_reply_342_2_1 = {
-		value = ""
+		value = "Nope! Wherever I end up, I'll always be an alchemist."
 	},
 	ins_discuss_342_3 = {
-		value = ""
+		value = "Is that... a witch's cauldron?"
 	},
 	ins_reply_342_3_1 = {
-		value = ""
+		value = "Close! It's an alchemy cauldron. You put things in it, mix 'em, and out comes something new."
 	},
 	ins_op_342_1_1 = {
-		value = ""
+		value = "Is it true you can make just about everything?"
 	},
 	op_reply_342_1_1 = {
-		value = ""
+		value = "With the right ingredients... probably?"
 	},
 	ins_343 = {
-		value = ""
+		value = "I helped out at the store today."
 	},
 	ins_discuss_343_1 = {
-		value = ""
+		value = "I appreciate it, nya! Having a smart, diligent assistant makes all the difference, nya."
 	},
 	ins_reply_343_1_1 = {
-		value = ""
+		value = "I'm happy to help if it means learning new things from you and Shiranui."
 	},
 	ins_discuss_343_2 = {
-		value = ""
+		value = "Your expertise is evident. You give us both a run for our money."
 	},
 	ins_reply_343_2_1 = {
-		value = ""
+		value = "Heheh. I AM the daughter of a merchant, so yeah."
 	},
 	ins_discuss_343_3 = {
-		value = ""
+		value = "Looks like you're adapting well to life in this place. You love to see it!"
 	},
 	ins_reply_343_3_1 = {
-		value = ""
+		value = "Yup. I'm glad you're doing the same, Ryza."
 	},
 	ins_op_343_1_1 = {
-		value = ""
+		value = "Thanks for helping around the port."
 	},
 	op_reply_343_1_1 = {
-		value = ""
+		value = "Don't mention it. It's the least I could do."
 	},
 	ins_344 = {
-		value = ""
+		value = "With a new world comes new knowledge, and I have learned a lot of it."
 	},
 	ins_discuss_344_1 = {
-		value = ""
+		value = "Any teacher would love to teach someone as committed to learning as you, Patricia. Keep it up."
 	},
 	ins_reply_344_1_1 = {
-		value = ""
+		value = "You flatter me, Miss Pennsylvania. I am forever grateful for your guidance."
 	},
 	ins_discuss_344_2 = {
-		value = ""
+		value = "Studying's cool, but have you considered joining a club? The gardening and basketball clubs would welcome you ;D"
 	},
 	ins_reply_344_2_1 = {
-		value = ""
+		value = "Those do sound intriguing. I will give it some thought!"
 	},
 	ins_reply_344_2_2 = {
-		value = ""
+		value = "Hey, take your time. Just hit us up if you wanna give it a try."
 	},
 	ins_op_344_1_1 = {
-		value = ""
+		value = "Sounds like you're a model student."
 	},
 	op_reply_344_1_1 = {
-		value = ""
+		value = "You should always strive to learn new things wherever you go."
 	},
 	ins_345 = {
-		value = ""
+		value = "So many new plants I've never seen before... This world is fascinating."
 	},
 	ins_discuss_345_1 = {
-		value = ""
+		value = "It delights me to speak to someone who shares my passion for flowers."
 	},
 	ins_reply_345_1_1 = {
-		value = ""
+		value = "And I'm glad to speak to someone who can share her extensive knowledge about them."
 	},
 	ins_reply_345_1_2 = {
-		value = ""
+		value = "Think nothing of it. I'm happy to."
 	},
 	ins_discuss_345_2 = {
-		value = ""
+		value = "Oh, you dig plants too? I just got my hands on some new bonsai seedlings, you wanna plant some with me?"
 	},
 	ins_reply_345_2_1 = {
-		value = ""
+		value = "Seedlings? I'd like to have a look, at least."
 	},
 	ins_reply_345_2_2 = {
-		value = ""
+		value = "Sure thing! :D"
 	},
 	ins_op_345_1_1 = {
-		value = ""
+		value = "I hope you'll find the plant you're looking for."
 	},
 	op_reply_345_1_1 = {
-		value = ""
+		value = "Thank you. It's heartening to know people are rooting for you."
 	},
 	ins_346 = {
-		value = ""
+		value = "Rigging training is indispensible, but so is daily muscle training."
 	},
 	ins_discuss_346_1 = {
-		value = ""
+		value = "Feels good to work out, doesn't it?"
 	},
 	ins_reply_346_1_1 = {
-		value = ""
+		value = "Yeah. I'm also amazed how many exercise machines you have in this world."
 	},
 	ins_discuss_346_2 = {
-		value = ""
+		value = "The way you fight is profoundly impressive to me, Miss Lila! Could we spar together again later?"
 	},
 	ins_reply_346_2_1 = {
-		value = ""
+		value = "Sure. I'm always up for an opportunity to learn more from my fellow warriors."
 	},
 	ins_discuss_346_3 = {
-		value = ""
+		value = "You have the mindset of a truly formidable warrior. I respect that."
 	},
 	ins_reply_346_3_1 = {
-		value = ""
+		value = "As do you, Enterprise. I believe we both have things to learn from each other."
 	},
 	ins_reply_346_3_2 = {
-		value = ""
+		value = "Are you proposing a friendly exercise? I'm game as long as the Commander approves it."
 	},
 	ins_op_346_1_1 = {
-		value = ""
+		value = "You hold yourself to really high standards, don't you?"
 	},
 	op_reply_346_1_1 = {
-		value = ""
+		value = "As a warrior should. Training is the key to reaching new heights."
 	},
 	all = {
 		ins_op_1_1_1,

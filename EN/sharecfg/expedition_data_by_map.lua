@@ -15222,7 +15222,7 @@ pg.expedition_data_by_map = {
 	},
 	[2200060] = {
 		map = 2200060,
-		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
+		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",

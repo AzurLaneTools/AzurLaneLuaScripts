@@ -95259,11 +95259,11 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[800072] = {
 		desc_get = "",
-		name = "Ashen Might·Hiryuu II",
+		name = "Ashen Might - Hiryuu II",
 		id = 800072,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 5% more DMG. ",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG.",
 		system_transform = {
 			[51.0] = 800077
 		},
@@ -95291,11 +95291,11 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[800077] = {
 		desc_get = "",
-		name = "Ashen Might·Hiryuu II",
+		name = "Ashen Might - Hiryuu II",
 		id = 800077,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 5% more DMG. ",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG.",
 		system_transform = {
 			[51.0] = 800077
 		},
@@ -95323,11 +95323,11 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[800082] = {
 		desc_get = "",
-		name = "Ashen Might·Ark Royal II",
+		name = "Ashen Might - Ark Royal II",
 		id = 800082,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 5.0%.",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 8.0%.",
 		system_transform = {
 			[51.0] = 800087
 		},
@@ -95355,11 +95355,11 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[800087] = {
 		desc_get = "",
-		name = "Ashen Might·Ark Royal II",
+		name = "Ashen Might - Ark Royal II",
 		id = 800087,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 5.0%.",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 8.0%.",
 		system_transform = {
 			[51.0] = 800087
 		},

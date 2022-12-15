@@ -10197,7 +10197,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "U-110 added to standard build pool ! "
+	tip = "U-110 added to standard build pool!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -19729,7 +19729,7 @@ _G.pg.base.gametip.CurlingGame_tips1 = {
 			info = [[
 - Overview -
 · Strategically position the swole Meowfficer and slide the curling stone as close to the red circle as you can to score points.
-· A new round of Manjuu Curling will be unlocked every day at midnight up to January 4th. Complete them all to obtain Southampton's Afternoon Impromptu skin.
+· A new round of Manjuu Curling will be unlocked every day at midnight up to December 21st. Complete them all to obtain Southampton's Afternoon Impromptu skin.
 
 - How to Play -
 · Every round of Manjuu Curling consists of 3 curling stone slides. One new round a day is unlocked during the event period.
