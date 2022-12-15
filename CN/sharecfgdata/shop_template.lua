@@ -24878,9 +24878,9 @@ _G.pg.base.shop_template[70077] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -25446,9 +25446,9 @@ _G.pg.base.shop_template[70086] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -25885,9 +25885,9 @@ _G.pg.base.shop_template[70093] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -26480,9 +26480,9 @@ _G.pg.base.shop_template[70104] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -26765,9 +26765,9 @@ _G.pg.base.shop_template[70109] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -28258,9 +28258,9 @@ _G.pg.base.shop_template[70143] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -29356,9 +29356,9 @@ _G.pg.base.shop_template[70166] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -30040,9 +30040,9 @@ _G.pg.base.shop_template[70186] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -30404,9 +30404,9 @@ _G.pg.base.shop_template[70193] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -31219,9 +31219,9 @@ _G.pg.base.shop_template[70213] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -32026,9 +32026,9 @@ _G.pg.base.shop_template[70229] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -32078,9 +32078,9 @@ _G.pg.base.shop_template[70230] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -32311,9 +32311,9 @@ _G.pg.base.shop_template[70234] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -32388,9 +32388,9 @@ _G.pg.base.shop_template[70235] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -32465,9 +32465,9 @@ _G.pg.base.shop_template[70236] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -32750,9 +32750,9 @@ _G.pg.base.shop_template[70241] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -32827,9 +32827,9 @@ _G.pg.base.shop_template[70242] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -32956,9 +32956,9 @@ _G.pg.base.shop_template[70244] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -33347,9 +33347,9 @@ _G.pg.base.shop_template[70253] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -33611,9 +33611,9 @@ _G.pg.base.shop_template[70260] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -33690,9 +33690,9 @@ _G.pg.base.shop_template[70262] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -34320,9 +34320,9 @@ _G.pg.base.shop_template[70279] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -34372,9 +34372,9 @@ _G.pg.base.shop_template[70280] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -35062,9 +35062,9 @@ _G.pg.base.shop_template[70300] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -35166,9 +35166,9 @@ _G.pg.base.shop_template[70302] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -35218,9 +35218,9 @@ _G.pg.base.shop_template[70303] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -36027,9 +36027,9 @@ _G.pg.base.shop_template[70320] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -36131,9 +36131,9 @@ _G.pg.base.shop_template[70322] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -36183,9 +36183,9 @@ _G.pg.base.shop_template[70323] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -36391,9 +36391,9 @@ _G.pg.base.shop_template[70327] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -37067,9 +37067,9 @@ _G.pg.base.shop_template[70341] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -37562,9 +37562,9 @@ _G.pg.base.shop_template[70357] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -37666,9 +37666,9 @@ _G.pg.base.shop_template[70359] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -37718,9 +37718,9 @@ _G.pg.base.shop_template[70360] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -37822,9 +37822,9 @@ _G.pg.base.shop_template[70362] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -37874,9 +37874,9 @@ _G.pg.base.shop_template[70363] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -38186,9 +38186,9 @@ _G.pg.base.shop_template[70369] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -38812,9 +38812,9 @@ _G.pg.base.shop_template[70382] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -38864,9 +38864,9 @@ _G.pg.base.shop_template[70383] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -38916,9 +38916,9 @@ _G.pg.base.shop_template[70384] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39020,9 +39020,9 @@ _G.pg.base.shop_template[70386] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39124,9 +39124,9 @@ _G.pg.base.shop_template[70388] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39176,9 +39176,9 @@ _G.pg.base.shop_template[70389] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39436,9 +39436,9 @@ _G.pg.base.shop_template[70394] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39488,9 +39488,9 @@ _G.pg.base.shop_template[70395] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39540,9 +39540,9 @@ _G.pg.base.shop_template[70396] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39592,9 +39592,9 @@ _G.pg.base.shop_template[70397] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39644,9 +39644,9 @@ _G.pg.base.shop_template[70398] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39696,9 +39696,9 @@ _G.pg.base.shop_template[70399] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39827,9 +39827,9 @@ _G.pg.base.shop_template[70402] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -39931,9 +39931,9 @@ _G.pg.base.shop_template[70404] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -40010,9 +40010,9 @@ _G.pg.base.shop_template[70406] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -40270,9 +40270,9 @@ _G.pg.base.shop_template[70411] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -40374,9 +40374,9 @@ _G.pg.base.shop_template[70413] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -40478,9 +40478,9 @@ _G.pg.base.shop_template[70415] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -40530,9 +40530,9 @@ _G.pg.base.shop_template[70416] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -40582,9 +40582,9 @@ _G.pg.base.shop_template[70417] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -40661,9 +40661,9 @@ _G.pg.base.shop_template[70419] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -40740,9 +40740,9 @@ _G.pg.base.shop_template[70421] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -41089,9 +41089,9 @@ _G.pg.base.shop_template[70433] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -43054,9 +43054,9 @@ _G.pg.base.shop_template[70481] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -43295,9 +43295,9 @@ _G.pg.base.shop_template[70490] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -44389,7 +44389,7 @@ _G.pg.base.shop_template[70519] = {
 	desc = "购买皮肤:能代睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -44424,9 +44424,9 @@ _G.pg.base.shop_template[70519] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -44493,7 +44493,7 @@ _G.pg.base.shop_template[70521] = {
 	desc = "购买皮肤:利托里奥睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -44528,9 +44528,9 @@ _G.pg.base.shop_template[70521] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -44545,7 +44545,7 @@ _G.pg.base.shop_template[70522] = {
 	desc = "购买皮肤:伊吹睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -44580,9 +44580,9 @@ _G.pg.base.shop_template[70522] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -44867,9 +44867,9 @@ _G.pg.base.shop_template[70528] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -44919,9 +44919,9 @@ _G.pg.base.shop_template[70529] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -45023,9 +45023,9 @@ _G.pg.base.shop_template[70531] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -45647,9 +45647,9 @@ _G.pg.base.shop_template[70543] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -46219,9 +46219,9 @@ _G.pg.base.shop_template[70554] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -47423,9 +47423,9 @@ _G.pg.base.shop_template[70583] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -47735,9 +47735,9 @@ _G.pg.base.shop_template[70589] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -47787,9 +47787,9 @@ _G.pg.base.shop_template[70590] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -47839,9 +47839,9 @@ _G.pg.base.shop_template[70591] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -47995,9 +47995,9 @@ _G.pg.base.shop_template[70594] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48047,9 +48047,9 @@ _G.pg.base.shop_template[70595] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48151,9 +48151,9 @@ _G.pg.base.shop_template[70597] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48255,9 +48255,9 @@ _G.pg.base.shop_template[70599] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48307,9 +48307,9 @@ _G.pg.base.shop_template[70600] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48494,9 +48494,9 @@ _G.pg.base.shop_template[70606] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48573,9 +48573,9 @@ _G.pg.base.shop_template[70608] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48590,7 +48590,7 @@ _G.pg.base.shop_template[70609] = {
 	desc = "购买皮肤:马耶.布雷泽睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -48625,9 +48625,9 @@ _G.pg.base.shop_template[70609] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48642,7 +48642,7 @@ _G.pg.base.shop_template[70610] = {
 	desc = "购买皮肤:熊野睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -48677,9 +48677,9 @@ _G.pg.base.shop_template[70610] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48729,9 +48729,9 @@ _G.pg.base.shop_template[70611] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48746,7 +48746,7 @@ _G.pg.base.shop_template[70612] = {
 	desc = "购买皮肤:博伊西万圣节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -48781,9 +48781,9 @@ _G.pg.base.shop_template[70612] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48798,7 +48798,7 @@ _G.pg.base.shop_template[70613] = {
 	desc = "购买皮肤:福煦常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -48833,9 +48833,9 @@ _G.pg.base.shop_template[70613] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48885,9 +48885,9 @@ _G.pg.base.shop_template[70614] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -48937,9 +48937,9 @@ _G.pg.base.shop_template[70615] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -49353,9 +49353,9 @@ _G.pg.base.shop_template[70623] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -49405,9 +49405,9 @@ _G.pg.base.shop_template[70624] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -49457,9 +49457,9 @@ _G.pg.base.shop_template[70625] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -49613,9 +49613,9 @@ _G.pg.base.shop_template[70628] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -49665,9 +49665,9 @@ _G.pg.base.shop_template[70629] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -49769,9 +49769,9 @@ _G.pg.base.shop_template[70631] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -49873,9 +49873,9 @@ _G.pg.base.shop_template[70633] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -49925,9 +49925,9 @@ _G.pg.base.shop_template[70634] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50133,9 +50133,9 @@ _G.pg.base.shop_template[70638] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50289,9 +50289,9 @@ _G.pg.base.shop_template[70641] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50393,9 +50393,9 @@ _G.pg.base.shop_template[70643] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50445,9 +50445,9 @@ _G.pg.base.shop_template[70644] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50497,9 +50497,9 @@ _G.pg.base.shop_template[70645] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50549,9 +50549,9 @@ _G.pg.base.shop_template[70646] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50601,9 +50601,9 @@ _G.pg.base.shop_template[70647] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50653,9 +50653,9 @@ _G.pg.base.shop_template[70648] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50809,9 +50809,9 @@ _G.pg.base.shop_template[70651] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -50826,7 +50826,7 @@ _G.pg.base.shop_template[70652] = {
 	desc = "购买皮肤:里诺春节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -50861,9 +50861,9 @@ _G.pg.base.shop_template[70652] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51069,9 +51069,9 @@ _G.pg.base.shop_template[70656] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51173,9 +51173,9 @@ _G.pg.base.shop_template[70658] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51225,9 +51225,9 @@ _G.pg.base.shop_template[70659] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51277,9 +51277,9 @@ _G.pg.base.shop_template[70660] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51433,9 +51433,9 @@ _G.pg.base.shop_template[70663] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51606,7 +51606,7 @@ _G.pg.base.shop_template[70667] = {
 	desc = "购买皮肤:220224喀琅施塔得警察皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -51641,9 +51641,9 @@ _G.pg.base.shop_template[70667] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51658,7 +51658,7 @@ _G.pg.base.shop_template[70668] = {
 	desc = "购买皮肤:220224基辅警察皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -51693,9 +51693,9 @@ _G.pg.base.shop_template[70668] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51710,7 +51710,7 @@ _G.pg.base.shop_template[70669] = {
 	desc = "购买皮肤:220224伏尔加警察皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -51745,9 +51745,9 @@ _G.pg.base.shop_template[70669] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51762,7 +51762,7 @@ _G.pg.base.shop_template[70670] = {
 	desc = "购买皮肤:220224灵敏警察皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -51797,9 +51797,9 @@ _G.pg.base.shop_template[70670] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51814,7 +51814,7 @@ _G.pg.base.shop_template[70671] = {
 	desc = "购买皮肤:220224阿尔汉格尔斯克警察皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -51849,9 +51849,9 @@ _G.pg.base.shop_template[70671] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51866,7 +51866,7 @@ _G.pg.base.shop_template[70672] = {
 	desc = "购买皮肤:220224基洛夫警察皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -51901,9 +51901,9 @@ _G.pg.base.shop_template[70672] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51918,7 +51918,7 @@ _G.pg.base.shop_template[70673] = {
 	desc = "购买皮肤:220224塔林警察皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -51953,9 +51953,9 @@ _G.pg.base.shop_template[70673] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -51970,7 +51970,7 @@ _G.pg.base.shop_template[70674] = {
 	desc = "购买皮肤:220224阿芙乐尔警察皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52005,9 +52005,9 @@ _G.pg.base.shop_template[70674] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -52022,7 +52022,7 @@ _G.pg.base.shop_template[70675] = {
 	desc = "购买皮肤:220224威严警察皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52057,9 +52057,9 @@ _G.pg.base.shop_template[70675] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -52074,7 +52074,7 @@ _G.pg.base.shop_template[70676] = {
 	desc = "购买皮肤:220324庞培·马格诺校服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52109,9 +52109,9 @@ _G.pg.base.shop_template[70676] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -52126,7 +52126,7 @@ _G.pg.base.shop_template[70677] = {
 	desc = "购买皮肤:220324帝国校服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52161,9 +52161,9 @@ _G.pg.base.shop_template[70677] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -52178,7 +52178,7 @@ _G.pg.base.shop_template[70678] = {
 	desc = "购买皮肤:220324的里雅斯特校服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52213,9 +52213,9 @@ _G.pg.base.shop_template[70678] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -52438,7 +52438,7 @@ _G.pg.base.shop_template[70683] = {
 	desc = "购买皮肤:220428埃姆登吸血鬼(L2D)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52473,9 +52473,9 @@ _G.pg.base.shop_template[70683] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -52490,7 +52490,7 @@ _G.pg.base.shop_template[70684] = {
 	desc = "购买皮肤:220428吕佐夫吸血鬼(L2D)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52525,9 +52525,9 @@ _G.pg.base.shop_template[70684] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -52594,7 +52594,7 @@ _G.pg.base.shop_template[70686] = {
 	desc = "购买皮肤:220428埃尔宾吸血鬼",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52629,9 +52629,9 @@ _G.pg.base.shop_template[70686] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -52646,7 +52646,7 @@ _G.pg.base.shop_template[70687] = {
 	desc = "购买皮肤:220428约克吸血鬼",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52681,9 +52681,9 @@ _G.pg.base.shop_template[70687] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -52698,7 +52698,7 @@ _G.pg.base.shop_template[70688] = {
 	desc = "购买皮肤:220428图林根吸血鬼",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -52733,9 +52733,9 @@ _G.pg.base.shop_template[70688] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53010,7 +53010,7 @@ _G.pg.base.shop_template[70694] = {
 	desc = "购买皮肤:220526前卫女仆",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53045,9 +53045,9 @@ _G.pg.base.shop_template[70694] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53062,7 +53062,7 @@ _G.pg.base.shop_template[70695] = {
 	desc = "购买皮肤:220526贾维斯女仆",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53097,9 +53097,9 @@ _G.pg.base.shop_template[70695] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53114,7 +53114,7 @@ _G.pg.base.shop_template[70696] = {
 	desc = "购买皮肤:220526不挠女仆",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53149,9 +53149,9 @@ _G.pg.base.shop_template[70696] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53166,7 +53166,7 @@ _G.pg.base.shop_template[70697] = {
 	desc = "购买皮肤:220526复仇女仆",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53201,9 +53201,9 @@ _G.pg.base.shop_template[70697] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53322,7 +53322,7 @@ _G.pg.base.shop_template[70700] = {
 	desc = "购买皮肤:220526欧根亲王女仆",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53357,9 +53357,9 @@ _G.pg.base.shop_template[70700] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53374,7 +53374,7 @@ _G.pg.base.shop_template[70701] = {
 	desc = "购买皮肤:220526埃吉尔女仆",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53409,9 +53409,9 @@ _G.pg.base.shop_template[70701] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53478,7 +53478,7 @@ _G.pg.base.shop_template[70703] = {
 	desc = "购买皮肤:220601豪国风礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53513,9 +53513,9 @@ _G.pg.base.shop_template[70703] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53530,7 +53530,7 @@ _G.pg.base.shop_template[70704] = {
 	desc = "购买皮肤:220601博伊西国风礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53565,9 +53565,9 @@ _G.pg.base.shop_template[70704] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53582,7 +53582,7 @@ _G.pg.base.shop_template[70705] = {
 	desc = "购买皮肤:220601罗恩国风礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53617,9 +53617,9 @@ _G.pg.base.shop_template[70705] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53634,7 +53634,7 @@ _G.pg.base.shop_template[70706] = {
 	desc = "购买皮肤:220601提尔比茨国风礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53669,9 +53669,9 @@ _G.pg.base.shop_template[70706] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53738,7 +53738,7 @@ _G.pg.base.shop_template[70708] = {
 	desc = "购买皮肤:220601华盛顿国风礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53773,9 +53773,9 @@ _G.pg.base.shop_template[70708] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53790,7 +53790,7 @@ _G.pg.base.shop_template[70709] = {
 	desc = "购买皮肤:220630不屈童话",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53825,9 +53825,9 @@ _G.pg.base.shop_template[70709] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53842,7 +53842,7 @@ _G.pg.base.shop_template[70710] = {
 	desc = "购买皮肤:220630神通童话",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53877,9 +53877,9 @@ _G.pg.base.shop_template[70710] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53894,7 +53894,7 @@ _G.pg.base.shop_template[70711] = {
 	desc = "购买皮肤:220630霞飞童话",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53929,9 +53929,9 @@ _G.pg.base.shop_template[70711] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53946,7 +53946,7 @@ _G.pg.base.shop_template[70712] = {
 	desc = "购买皮肤:220630比洛克西童话",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -53981,9 +53981,9 @@ _G.pg.base.shop_template[70712] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -53998,7 +53998,7 @@ _G.pg.base.shop_template[70713] = {
 	desc = "购买皮肤:220630岛风童话",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54033,9 +54033,9 @@ _G.pg.base.shop_template[70713] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54050,7 +54050,7 @@ _G.pg.base.shop_template[70714] = {
 	desc = "购买皮肤:220714阿尔及利亚童话",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54085,9 +54085,9 @@ _G.pg.base.shop_template[70714] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54102,7 +54102,7 @@ _G.pg.base.shop_template[70715] = {
 	desc = "购买皮肤:220728大凤JK",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54137,9 +54137,9 @@ _G.pg.base.shop_template[70715] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54154,7 +54154,7 @@ _G.pg.base.shop_template[70716] = {
 	desc = "购买皮肤:220728罗马舞蹈",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54189,9 +54189,9 @@ _G.pg.base.shop_template[70716] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54206,7 +54206,7 @@ _G.pg.base.shop_template[70717] = {
 	desc = "购买皮肤:220728朱塞佩.加里波第舞蹈",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54241,9 +54241,9 @@ _G.pg.base.shop_template[70717] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54258,7 +54258,7 @@ _G.pg.base.shop_template[70718] = {
 	desc = "购买皮肤:220728莱昂纳多·达·芬奇舞蹈",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54293,9 +54293,9 @@ _G.pg.base.shop_template[70718] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54310,7 +54310,7 @@ _G.pg.base.shop_template[70719] = {
 	desc = "购买皮肤:220728埃曼努埃尔·佩萨格诺舞蹈",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54345,9 +54345,9 @@ _G.pg.base.shop_template[70719] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54414,7 +54414,7 @@ _G.pg.base.shop_template[70721] = {
 	desc = "购买皮肤:220728博尔扎诺舞蹈",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54449,9 +54449,9 @@ _G.pg.base.shop_template[70721] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54518,7 +54518,7 @@ _G.pg.base.shop_template[70723] = {
 	desc = "购买皮肤:220728熊野舞蹈",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54553,9 +54553,9 @@ _G.pg.base.shop_template[70723] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54726,7 +54726,7 @@ _G.pg.base.shop_template[70727] = {
 	desc = "购买皮肤:220818布伦希尔德运动会",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54761,9 +54761,9 @@ _G.pg.base.shop_template[70727] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54778,7 +54778,7 @@ _G.pg.base.shop_template[70728] = {
 	desc = "购买皮肤:220818布吕歇尔运动会",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -54813,9 +54813,9 @@ _G.pg.base.shop_template[70728] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -54986,7 +54986,7 @@ _G.pg.base.shop_template[70732] = {
 	desc = "购买皮肤:220818大黄蜂运动会",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -55021,9 +55021,9 @@ _G.pg.base.shop_template[70732] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -55090,7 +55090,7 @@ _G.pg.base.shop_template[70734] = {
 	desc = "购买皮肤:220818埃塞克斯美服周年",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -55125,9 +55125,9 @@ _G.pg.base.shop_template[70734] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}
@@ -55246,7 +55246,7 @@ _G.pg.base.shop_template[70737] = {
 	desc = "购买皮肤:220908埃姆登中秋节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
@@ -55281,9 +55281,9 @@ _G.pg.base.shop_template[70737] = {
 				22
 			},
 			{
-				23,
-				59,
-				59
+				9,
+				0,
+				0
 			}
 		}
 	}

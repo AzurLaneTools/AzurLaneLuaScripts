@@ -258,9 +258,9 @@ pg.furniture_shop_template = {
 					22
 				},
 				{
-					23,
-					59,
-					59
+					9,
+					0,
+					0
 				}
 			}
 		}
@@ -293,9 +293,9 @@ pg.furniture_shop_template = {
 					22
 				},
 				{
-					23,
-					59,
-					59
+					9,
+					0,
+					0
 				}
 			}
 		}
@@ -328,9 +328,9 @@ pg.furniture_shop_template = {
 					22
 				},
 				{
-					23,
-					59,
-					59
+					9,
+					0,
+					0
 				}
 			}
 		}
@@ -363,9 +363,9 @@ pg.furniture_shop_template = {
 					22
 				},
 				{
-					23,
-					59,
-					59
+					9,
+					0,
+					0
 				}
 			}
 		}
@@ -398,9 +398,9 @@ pg.furniture_shop_template = {
 					22
 				},
 				{
-					23,
-					59,
-					59
+					9,
+					0,
+					0
 				}
 			}
 		}

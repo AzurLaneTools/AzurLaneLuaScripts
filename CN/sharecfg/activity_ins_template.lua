@@ -8986,61 +8986,134 @@ pg.activity_ins_template = {
 		ship_group = 1090001,
 		name = "Reisalin Stout",
 		sculpture = "laisha",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_342",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20221124_laisha_F5XHKED3jtWDTQsu.png",
 		group_id = 342,
 		id = 342,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				11,
+				24
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3138,
+			3141,
+			3143
+		}
 	},
 	[343] = {
 		ship_group = 1090002,
 		name = "Klaudia Valentz",
 		sculpture = "keluodiya",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_343",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20221124_keluodiya2_JffZQFP6CDkG6CyX.png",
 		group_id = 343,
 		id = 343,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				11,
+				25
+			},
+			{
+				11,
+				32,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3148,
+			3150,
+			3152
+		}
 	},
 	[344] = {
 		ship_group = 1090003,
 		name = "Patricia Abelheim",
 		sculpture = "patelixia",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_344",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20221124_patelixia_MCC9pUcFt7DDvSkW.png",
 		group_id = 344,
 		id = 344,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				11,
+				26
+			},
+			{
+				16,
+				35,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3157,
+			3159
+		}
 	},
 	[345] = {
 		ship_group = 1090005,
 		name = "Serri Glaus",
 		sculpture = "saili",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_345",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20221124_saili_3g2TXunLFrHkEYWN.png",
 		group_id = 345,
 		id = 345,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				11,
+				27
+			},
+			{
+				9,
+				3,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3165,
+			3168
+		}
 	},
 	[346] = {
 		ship_group = 1090004,
 		name = "Lila Decyrus",
 		sculpture = "lila",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_346",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20221124_lila_K4xyhkeCXMaaE5ps.png",
 		group_id = 346,
 		id = 346,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2022,
+				11,
+				28
+			},
+			{
+				15,
+				36,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3174,
+			3176,
+			3178
+		}
 	},
 	all = {
 		1,
