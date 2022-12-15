@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "是·青·叶·做·的！",
+			say = "是·犹·做·的！",
 			painting = {
 				alpha = 0.3,
 				time = 1

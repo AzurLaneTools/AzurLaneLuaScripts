@@ -21779,10 +21779,10 @@ pg.activity_template = {
 			bg = "loadingbg/bg_build_1_act",
 			buildship_tip = "速科夫 建造追加！",
 			rate_tip = {
-				"<color=#ffde38>超稀有舰船</color>：7%",
-				"<color=#d797ff>精锐舰船</color>：12%",
-				"<color=#3dc6ff>稀有舰船</color>：51%",
-				"普通舰船：30%"
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%"
 			}
 		}
 	},
@@ -21828,10 +21828,10 @@ pg.activity_template = {
 			bg = "loadingbg/bg_build_2_act",
 			buildship_tip = "惡毒、凱旋、倔强、福爾班、勒馬爾 建造追加！",
 			rate_tip = {
-				"<color=#ffde38>超稀有舰船</color>：7%",
-				"<color=#d797ff>精锐舰船</color>：12%",
-				"<color=#3dc6ff>稀有舰船</color>：26%",
-				"普通舰船：55%"
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：26%",
+				"普通艦船：55%"
 			}
 		}
 	},

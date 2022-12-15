@@ -6559,67 +6559,140 @@ pg.activity_ins_template = {
 	[342] = {
 		ship_group = 1090001,
 		name = "Reisalin Stout",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_342",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_342.png",
+		is_active = 0,
 		sculpture = "laisha",
 		id = 342,
 		group_id = 342,
 		order = 16,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				12,
+				1
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3138,
+			3141,
+			3143
+		}
 	},
 	[343] = {
 		ship_group = 1090002,
 		name = "Klaudia Valentz",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_343",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_343.png",
+		is_active = 0,
 		sculpture = "keluodiya",
 		id = 343,
 		group_id = 343,
 		order = 16,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				12,
+				2
+			},
+			{
+				11,
+				32,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3148,
+			3150,
+			3152
+		}
 	},
 	[344] = {
 		ship_group = 1090003,
 		name = "Patricia Abelheim",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_344",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_344.png",
+		is_active = 0,
 		sculpture = "patelixia",
 		id = 344,
 		group_id = 344,
 		order = 16,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				12,
+				3
+			},
+			{
+				16,
+				35,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3157,
+			3159
+		}
 	},
 	[345] = {
 		ship_group = 1090005,
 		name = "Serri Glaus",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_345",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_345.png",
+		is_active = 0,
 		sculpture = "saili",
 		id = 345,
 		group_id = 345,
 		order = 16,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				12,
+				4
+			},
+			{
+				9,
+				3,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3165,
+			3168
+		}
 	},
 	[346] = {
 		ship_group = 1090004,
 		name = "Lila Decyrus",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_346",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_346.png",
+		is_active = 0,
 		sculpture = "lila",
 		id = 346,
 		group_id = 346,
 		order = 16,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				12,
+				5
+			},
+			{
+				15,
+				36,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3174,
+			3176,
+			3178
+		}
 	},
 	all = {
 		1,

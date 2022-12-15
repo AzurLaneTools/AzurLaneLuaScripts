@@ -1103,7 +1103,7 @@ end
 function slot0.SwitchCntPlusPlus(slot0)
 	slot0.switchCnt = slot0.switchCnt + 1
 
-	if slot0.switchCnt >= 8 then
+	if slot0.switchCnt >= 2 then
 		gcAll()
 
 		slot0.switchCnt = 0
