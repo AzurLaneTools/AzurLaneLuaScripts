@@ -369,6 +369,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「寂々なり雲海の如く、飄々なり雲霞の如し」</color>\nイベント「赫の涙月 菫の暁風」にて入手可能",
 		scene = {}
 	},
+	[323] = {
+		time_limit_type = 0,
+		name = "星海の環",
+		gain_by = "",
+		id = 323,
+		time_second = 0,
+		desc = "イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -483,6 +492,7 @@ pg.item_data_frame = {
 		320,
 		321,
 		322,
+		323,
 		401,
 		402,
 		403,

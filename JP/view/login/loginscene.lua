@@ -809,4 +809,10 @@ function slot0.playOpening(slot0, slot1)
 	slot0.onPlayingOP = true
 end
 
+function slot0.closeYostarAlertView(slot0)
+	if slot0.yostarAlertView and slot0.yostarAlertView:CheckState(BaseSubView.STATES.INITED) then
+		slot0.yostarAlertView:Destroy()
+	end
+end
+
 return slot0

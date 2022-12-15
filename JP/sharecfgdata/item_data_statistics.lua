@@ -16770,6 +16770,93 @@ _G.pg.base.item_data_statistics[30514] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30515] = {
+	display = "使用すると、装備外装（プラネットダンス）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（プラネットダンス）",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30515,
+	is_world = 0,
+	icon = "Props/appearanceboxxingchen",
+	display_icon = {
+		{
+			9,
+			2001,
+			1
+		},
+		{
+			9,
+			2002,
+			1
+		},
+		{
+			9,
+			2003,
+			1
+		},
+		{
+			9,
+			2004,
+			1
+		},
+		{
+			9,
+			2005,
+			1
+		},
+		{
+			9,
+			2006,
+			1
+		},
+		{
+			9,
+			2007,
+			1
+		},
+		{
+			9,
+			2008,
+			1
+		},
+		{
+			9,
+			2009,
+			1
+		},
+		{
+			9,
+			2010,
+			1
+		},
+		{
+			9,
+			2011,
+			1
+		},
+		{
+			9,
+			2012,
+			1
+		},
+		{
+			9,
+			2013,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	display = "各種パーツから一つ選択して入手できます",
 	name = "指向性強化パーツT4",
@@ -181969,6 +182056,27 @@ _G.pg.base.item_data_statistics[59365] = {
 	id = 59365,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59366] = {
+	display = "「作戦準備・星の海」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59366,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
 	display_icon = {},
 	price = {},
 	index = {},

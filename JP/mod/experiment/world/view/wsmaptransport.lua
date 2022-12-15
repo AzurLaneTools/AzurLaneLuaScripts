@@ -17,6 +17,10 @@ slot0.Listeners = {
 	onArrived = "OnArrived"
 }
 
+function slot0.GetResName()
+	return "world_cell_transport"
+end
+
 function slot0.GetName(slot0, slot1, slot2)
 	return "transport_" .. slot0 .. "_" .. slot1 .. "_" .. slot2
 end
@@ -29,6 +33,7 @@ function slot0.Setup(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.wsMapPath:AddListener(WSMapPath.EventStartTrip, slot0.onStartTrip)
 	slot0.wsMapPath:AddListener(WSMapPath.EventArrived, slot0.onArrived)
+	slot0:Init()
 end
 
 function slot0.Dispose(slot0)
@@ -36,26 +41,7 @@ function slot0.Dispose(slot0)
 	slot0.wsMapPath:RemoveListener(WSMapPath.EventArrived, slot0.onArrived)
 	slot0:DisposeUpdateTimer()
 	slot0:UpdateAlpha(1)
-	slot0:Unload()
 	slot0:Clear()
-end
-
-function slot0.Load(slot0)
-	slot1 = PoolMgr.GetInstance()
-
-	slot1:GetPrefab("world/object/world_cell_transport", "world_cell_transport", false, function (slot0)
-		uv0.transform = slot0.transform
-
-		uv0:Init()
-	end)
-end
-
-function slot0.Unload(slot0)
-	if slot0.transform then
-		PoolMgr.GetInstance():ReturnPrefab("world/object/world_cell_transport", "world_cell_transport", slot0.transform.gameObject)
-	end
-
-	slot0.transform = nil
 end
 
 function slot0.Init(slot0)

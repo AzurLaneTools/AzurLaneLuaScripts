@@ -19879,7 +19879,7 @@ _G.pg.base.gametip.CurlingGame_tips1 = {
 ■概要
 ミニゲーム「饅頭カーリング」とは、マッスルオフニャを操作し、SDキャラを表面上の赤枠内に滑らせて届け、得点を稼ぐミニゲームになります。
 
-1/4（火）まで毎日1回開放される試合を全部クリアすると、「サウサンプトン」の着せ替え「午後のクロチェット」を入手できます。
+12/21（水）まで毎日1回開放される試合を全部クリアすると、「サウサンプトン」の着せ替え「午後のクロチェット」を入手できます。
 
 ■遊び方
 ・マッスルオフニャを長押しすると、SDキャラの初期速度を変える事ができます（長押しするほどスピードが上昇します）、長押しを解除すると、SDキャラを滑らせることができます
@@ -22108,11 +22108,11 @@ _G.pg.base.gametip.pgs_login_binding_exist2 = {
 }
 
 _G.pg.base.gametip.pgs_login_binding_exist3 = {
-	tip = "このゲームアカウントは既に他のPGSアカウントと連携されています。\nまた、変更先のPGSアカウントは既に他のゲームアカウントと連携されています。\nゲームアカウント・PGSアカウントの連携先を変更しますか？"
+	tip = "このゲームアカウントは既に他のPGSアカウントと連携されています。\nまた、変更先のPGSアカウントは既に他のゲームアカウントと連携されています。\nゲームアカウント·PGSアカウントの連携先を変更しますか？"
 }
 
 _G.pg.base.gametip.pgs_binding_account = {
-	tip = "連携中のPGSアカウント"
+	tip = "連携中のPGSアカウント：$1"
 }
 
 _G.pg.base.gametip.pgs_unbind = {
@@ -22509,4 +22509,76 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_empty = {
+	tip = "ランダム秘書艦候補リストに艦船を追加しましょう"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
+	tip = "追加"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_remove = {
+	tip = "削除"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip1 = {
+	tip = "ランダム秘書艦は上記の艦船が表示されます"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip2 = {
+	tip = "キャラ総数"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_empty = {
+	tip = "ランダム秘書艦候補リストに艦船がいません"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_all = {
+	tip = "全て選択"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
+	tip = "艦船を選んで候補リストに追加できます"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_number = {
+	tip = "選択済み："
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_complete = {
+	tip = "候補リストに追加しました"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip2 = {
+	tip = "下記の艦船が候補リストに追加されます"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip1 = {
+	tip = "艦船を選んで候補リストから削除できます"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_complete = {
+	tip = "候補リストから削除しました"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip2 = {
+	tip = "下記の艦船が候補リストから削除されます"
+}
+
+_G.pg.base.gametip.index_dressed = {
+	tip = "着替実装済"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode = {
+	tip = "ランダム秘書艦候補リスト"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_title = {
+	tip = "艦船追加"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_title = {
+	tip = "艦船削除"
 }

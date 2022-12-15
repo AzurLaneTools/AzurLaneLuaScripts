@@ -418,6 +418,17 @@ pg.activity_task_permanent = {
 			35215
 		}
 	},
+	[6017] = {
+		gametip = "「マーブルヘッド」の着せ替えをGET!",
+		banner_route = "permanent_mabuerheide",
+		gametip_extra = "最速7日間で入手",
+		over_pt = 0,
+		task_extra = "",
+		id = 6017,
+		activity_name = "雪のチャーミングタイム",
+		over_task_id = "",
+		eliminate_task_id = {}
+	},
 	all = {
 		6000,
 		6001,
@@ -435,6 +446,7 @@ pg.activity_task_permanent = {
 		6013,
 		6014,
 		6015,
-		6016
+		6016,
+		6017
 	}
 }

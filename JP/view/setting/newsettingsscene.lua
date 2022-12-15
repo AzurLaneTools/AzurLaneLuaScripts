@@ -36,6 +36,18 @@ function slot0.OnSecondPwdStateChange(slot0)
 	end
 end
 
+function slot0.OnRandomFlagShipModeUpdate(slot0)
+	slot0:emit(SettingsRandomFlagShipAndSkinPanel.EVT_UPDTAE)
+end
+
+function slot0.GetPage(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.pages) do
+		if isa(slot6, slot1) then
+			return slot6
+		end
+	end
+end
+
 function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
 	slot1 = slot0:findTF("pages")

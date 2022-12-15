@@ -441,7 +441,13 @@ function slot0.showNextActivity(slot0)
 	end
 
 	if slot1:findNextAutoActivity() then
-		slot0.viewComponent:verifyTabs(slot2.id)
+		if slot2.id == ActivityConst.BLACK_FRIDAY_SIGNIN_ACT_ID then
+			slot0.contextData.showByNextAct = true
+
+			slot0.viewComponent:verifyTabs(ActivityConst.BLACK_FRIDAY_ACT_ID)
+		else
+			slot0.viewComponent:verifyTabs(slot2.id)
+		end
 
 		if slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
 			slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
