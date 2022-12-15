@@ -18,6 +18,10 @@ slot0.Listeners = {
 	onUpdateFogImage = "UpdateFogImage"
 }
 
+function slot0.GetResName()
+	return "world_cell"
+end
+
 function slot0.GetName(slot0, slot1)
 	return "cell_" .. slot0 .. "_" .. slot1
 end
@@ -32,6 +36,7 @@ function slot0.Setup(slot0, slot1, slot2)
 	slot0.cell:AddListener(WorldMapCell.EventUpdateDiscovered, slot0.onUpdate)
 	slot0.cell:AddListener(WorldMapCell.EventUpdateFog, slot0.onUpdate)
 	slot0.cell:AddListener(WorldMapCell.EventUpdateFogImage, slot0.onUpdateFogImage)
+	slot0:Init()
 end
 
 function slot0.Dispose(slot0)
@@ -66,26 +71,7 @@ function slot0.Dispose(slot0)
 	slot0.cell:RemoveListener(WorldMapCell.EventUpdateDiscovered, slot0.onUpdate)
 	slot0.cell:RemoveListener(WorldMapCell.EventUpdateFog, slot0.onUpdate)
 	slot0.cell:RemoveListener(WorldMapCell.EventUpdateFogImage, slot0.onUpdateFogImage)
-	slot0:Unload()
 	slot0:Clear()
-end
-
-function slot0.Load(slot0)
-	slot1 = PoolMgr.GetInstance()
-
-	slot1:GetPrefab("world/object/world_cell", "world_cell", false, function (slot0)
-		uv0.transform = slot0.transform
-
-		uv0:Init()
-	end)
-end
-
-function slot0.Unload(slot0)
-	if slot0.transform then
-		PoolMgr.GetInstance():ReturnPrefab("world/object/world_cell", "world_cell", slot0.transform.gameObject)
-	end
-
-	slot0.transform = nil
 end
 
 function slot1(slot0, slot1, slot2, slot3)

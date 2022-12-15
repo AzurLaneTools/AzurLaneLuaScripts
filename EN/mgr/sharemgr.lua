@@ -120,7 +120,12 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 	setText(slot11:Find("name/value"), slot6 and slot6.name or "")
 	setText(slot11:Find("server/value"), slot8 and slot8.name or "")
 	setText(slot11:Find("lv/value"), slot6.level)
-	setActive(slot11:Find("code_bg"), true)
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		setActive(slot11:Find("code_bg"), true)
+	else
+		setActive(slot11:Find("code_bg"), false)
+	end
 
 	slot11.anchoredPosition3D = Vector3(slot5.qrcode_location[1], slot5.qrcode_location[2], -100)
 	slot11.anchoredPosition = Vector2(slot5.qrcode_location[1], slot5.qrcode_location[2])

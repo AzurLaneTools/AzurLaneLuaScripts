@@ -41,16 +41,16 @@ function slot0.OnFirstFlush(slot0)
 			return
 		end
 
-		uv0:Switch()
+		uv0:Switch(slot0)
 	end, SFX_PANEL)
 
 	slot0.inPhase2 = slot0.timeStamp and pg.TimeMgr.GetInstance():GetServerTime() - slot0.timeStamp > 0
 
-	if slot0.inPhase2 then
-		triggerToggle(slot0.switchBtn, true)
-	end
+	triggerToggle(slot0.switchBtn, slot0.inPhase2)
 
-	setText(slot0:findTF("Text", slot0.gotTag), i18n("avatarframe_got"))
+	if not IsNil(slot0.gotTag:Find("Text")) then
+		setText(slot0.gotTag:Find("Text"), i18n("avatarframe_got"))
+	end
 end
 
 function slot0.OnUpdateFlush(slot0)
@@ -73,50 +73,53 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.target, not slot5)
 end
 
-function slot0.Switch(slot0)
+function slot0.Switch(slot0, slot1)
 	slot0.isSwitching = true
-	slot1 = GetOrAddComponent(slot0.phases[1], typeof(CanvasGroup))
-	slot4 = slot0.phases[2]
 
-	slot4:SetAsLastSibling()
+	setToggleEnabled(slot0.switchBtn, false)
 
-	slot5 = slot0.phases[1]
+	slot2, slot3 = nil
 
-	setActive(slot5:Find("Image"), false)
+	if slot1 then
+		slot3 = slot0.phases[2]
+		slot2 = slot0.phases[1]
+	else
+		slot3 = slot0.phases[1]
+		slot2 = slot0.phases[2]
+	end
 
-	slot4 = LeanTween.moveLocal(go(slot0.phases[1]), slot0.phases[2].localPosition, 0.4)
+	slot4 = GetOrAddComponent(slot2, typeof(CanvasGroup))
 
-	slot4:setOnComplete(System.Action(function ()
-		setActive(uv0.phases[1]:Find("label"), true)
+	slot3:SetAsLastSibling()
+	setActive(slot2:Find("Image"), false)
+
+	slot7 = LeanTween.moveLocal(go(slot2), slot3.localPosition, 0.4)
+
+	slot7:setOnComplete(System.Action(function ()
+		setActive(uv0:Find("label"), true)
 	end))
 
-	slot4 = LeanTween.value(go(slot0.phases[1]), 0, 1, 0.4)
+	slot7 = LeanTween.value(go(slot2), 0, 1, 0.4)
 
-	slot4:setOnUpdate(System.Action_float(function (slot0)
+	slot7:setOnUpdate(System.Action_float(function (slot0)
 		uv0.alpha = slot0
 	end))
+	setActive(slot3:Find("Image"), true)
 
-	slot5 = slot0.phases[2]
+	slot7 = GetOrAddComponent(slot3, typeof(CanvasGroup))
+	slot8 = LeanTween.value(go(slot3), 0, 1, 0.4)
 
-	setActive(slot5:Find("Image"), true)
-
-	slot4 = GetOrAddComponent(slot0.phases[2], typeof(CanvasGroup))
-	slot5 = LeanTween.value(go(slot0.phases[2]), 0, 1, 0.4)
-
-	slot5:setOnUpdate(System.Action_float(function (slot0)
+	slot8:setOnUpdate(System.Action_float(function (slot0)
 		uv0.alpha = slot0
 	end))
+	setActive(slot3:Find("label"), false)
 
-	slot6 = slot0.phases[2]
+	slot8 = LeanTween.moveLocal(go(slot3), slot2.localPosition, 0.4)
 
-	setActive(slot6:Find("label"), false)
-
-	slot5 = LeanTween.moveLocal(go(slot0.phases[2]), slot0.phases[1].localPosition, 0.4)
-
-	slot5:setOnComplete(System.Action(function ()
+	slot8:setOnComplete(System.Action(function ()
 		uv0.isSwitching = nil
-		uv0.phases[2] = uv0.phases[1]
-		uv0.phases[1] = uv0.phases[2]
+
+		setToggleEnabled(uv0.switchBtn, true)
 	end))
 end
 

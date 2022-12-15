@@ -24,6 +24,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.branchCode = slot1.optionFlag
 	slot0.nextScriptName = slot1.jumpto
 	slot0.eventDelay = slot1.eventDelay or 0
+	slot0.bgColor = slot1.bgColor or {
+		0,
+		0,
+		0
+	}
 end
 
 function slot0.OldPhotoEffect(slot0)
@@ -52,6 +57,10 @@ function slot0.GetFlashinData(slot0)
 	if slot0.flashin then
 		return slot0.flashin.alpha[1], slot0.flashin.alpha[2], slot0.flashin.dur, slot0.flashin.black, slot0.flashin.delay
 	end
+end
+
+function slot0.GetBgColor(slot0)
+	return Color.New(slot0.bgColor[1] or 0, slot0.bgColor[2] or 0, slot0.bgColor[3] or 0)
 end
 
 function slot0.IsBlackBg(slot0)

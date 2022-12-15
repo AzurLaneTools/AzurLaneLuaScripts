@@ -1030,6 +1030,35 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[19] = {
+		memory_group = 170,
+		name = "最珍贵的宝物常驻复刻",
+		activity_type = 2,
+		id = 19,
+		bg = "temp_u110",
+		order = 21,
+		config_data = {
+			2200061,
+			2200062,
+			2200063
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		drop_gain = {},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					11005
+				},
+				"SP3"
+			}
+		}
+	},
 	[20] = {
 		memory_group = 191,
 		name = "偶像二期常驻复刻",
@@ -1096,6 +1125,7 @@ pg.re_map_template = {
 		16,
 		17,
 		18,
+		19,
 		20
 	}
 }

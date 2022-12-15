@@ -6924,6 +6924,268 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4595] = {
+		mark = 20221215,
+		config_client = "",
+		title_res_tag = "meixi_ii_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 25,
+		id = 4595,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MeixiT2FramePage",
+			ui_name = "MeixiT2FramePage"
+		}
+	},
+	[4596] = {
+		mark = 20221215,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 22,
+		is_show = 0,
+		config_client = "",
+		id = 4596,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4597] = {
+		mark = 20221215,
+		id = 4597,
+		title_res_tag = "AmericanII_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 24,
+		config_data = {
+			{
+				18088,
+				18089
+			},
+			{
+				18090,
+				18091
+			},
+			{
+				18092,
+				18093
+			},
+			{
+				18094,
+				18095
+			},
+			{
+				18096,
+				18097
+			},
+			{
+				18098,
+				18099
+			},
+			{
+				18100,
+				18101
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AmericanIISkinPage",
+			ui_name = "AmericanIISkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"YIXIANGPIANZHEN1"
+				},
+				{
+					"YIXIANGPIANZHEN2"
+				},
+				{
+					"YIXIANGPIANZHEN3"
+				},
+				{
+					"YIXIANGPIANZHEN4"
+				},
+				{
+					"YIXIANGPIANZHEN5"
+				},
+				{
+					"YIXIANGPIANZHEN6"
+				},
+				{
+					"YIXIANGPIANZHEN7"
+				}
+			}
+		}
+	},
+	[4598] = {
+		mark = 20221215,
+		id = 4598,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 18,
+		is_show = 21,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ChampagneTecCatchupPage",
+			ui_name = "ChampagneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42025
+		}
+	},
+	[4601] = {
+		mark = 20221215,
+		title_res_tag = "curling_game",
+		type = 57,
+		login_pop = 0,
+		config_id = 38,
+		is_show = 22,
+		config_data = "0",
+		config_client = "",
+		id = 4601,
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CurlingGamePage",
+			ui_name = "CurlingGamePage"
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -9136,6 +9398,22 @@ pg.activity_template = {
 					"TEACHER7"
 				}
 			}
+		}
+	},
+	[6017] = {
+		mark = 20221215,
+		title_res_tag = "mabuerheidepifu_permanent",
+		time = "stop",
+		type = 74,
+		login_pop = 0,
+		config_id = 6017,
+		is_show = 10,
+		config_client = "",
+		id = 6017,
+		config_data = {},
+		page_info = {
+			class_name = "MabuerheideshengdanPermanentPage",
+			ui_name = "MabuerheideshengdanPermanentPage"
 		}
 	},
 	[100001] = {
@@ -27466,6 +27744,11 @@ pg.activity_template = {
 		4591,
 		4592,
 		4593,
+		4595,
+		4596,
+		4597,
+		4598,
+		4601,
 		7001,
 		7002,
 		7003,
@@ -27512,6 +27795,7 @@ pg.activity_template = {
 		6014,
 		6015,
 		6016,
+		6017,
 		100001,
 		100003,
 		100004,

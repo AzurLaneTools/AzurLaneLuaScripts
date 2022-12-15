@@ -14,8 +14,6 @@ function slot0.Execute(slot0, slot1)
 	slot3, slot4 = slot0:ShouldRandom()
 
 	if slot3 then
-		print(">>>>>>>>>>>>>>>>>>>>>random flag ship in ", slot4)
-
 		if not slot0:Random() or #slot5 == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_off_0"))
 			slot0:SynToCache({}, slot4)
@@ -63,6 +61,8 @@ function slot2(slot0, slot1)
 		return slot1:GetPreferenceTag() ~= 0
 	elseif slot0 == SettingsRandomFlagShipAndSkinPanel.SHIP_LOCKED then
 		return slot1:GetLockState() ~= 0
+	elseif slot0 == SettingsRandomFlagShipAndSkinPanel.COUSTOM then
+		-- Nothing
 	end
 
 	return true
@@ -80,21 +80,33 @@ function slot3(slot0, slot1)
 	end
 
 	slot3 = {}
+
+	if slot0 == SettingsRandomFlagShipAndSkinPanel.COUSTOM then
+		for slot7, slot8 in ipairs(getProxy(PlayerProxy):getRawData():GetCustomRandomShipList()) do
+			if getProxy(BayProxy):RawGetShipById(slot8) then
+				table.insert(slot3, slot9)
+			end
+		end
+	else
+		slot3 = getProxy(BayProxy):getRawData()
+	end
+
 	slot4 = {}
 	slot5 = {}
 	slot6 = {}
+	slot7 = {}
 
-	for slot10, slot11 in pairs(getProxy(BayProxy):getRawData()) do
-		if uv0(slot0, slot11) then
-			if slot1[slot11.groupId] then
-				slot2(slot5, slot6, slot11)
+	for slot11, slot12 in pairs(slot3) do
+		if uv0(slot0, slot12) then
+			if slot1[slot12.groupId] then
+				slot2(slot6, slot7, slot12)
 			else
-				slot2(slot3, slot4, slot11)
+				slot2(slot4, slot5, slot12)
 			end
 		end
 	end
 
-	return slot3, slot4, slot5, slot6
+	return slot4, slot5, slot6, slot7
 end
 
 function slot4(slot0)
@@ -110,10 +122,10 @@ function slot4(slot0)
 end
 
 function slot0.Random(slot0)
-	slot4, slot5 = PlayerVitaeShipsPage.GetSlotMaxCnt()
-	slot7, slot8, slot9, slot10 = uv1(SettingsRandomFlagShipAndSkinPanel.Bool2ShipFlag(getProxy(PlayerProxy):getRawData():GetCommonFlag(RANDOM_FLAG_SHIP_MODE)), uv0(getProxy(SettingsProxy):GetRandomFlagShipList()))
+	slot3, slot4 = PlayerVitaeShipsPage.GetSlotMaxCnt()
+	slot6, slot7, slot8, slot9 = uv1(getProxy(PlayerProxy):getRawData():GetRandomFlagShipMode(), uv0(getProxy(SettingsProxy):GetRandomFlagShipList()))
 
-	return slot0:RandomShips(slot5, slot7, slot8, slot9, slot10)
+	return slot0:RandomShips(slot4, slot6, slot7, slot8, slot9)
 end
 
 function slot0.RandomShips(slot0, slot1, slot2, slot3, slot4, slot5)

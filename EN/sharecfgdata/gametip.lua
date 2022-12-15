@@ -10197,7 +10197,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Taihou μ, Albacore μ added to standard build pool ! "
+	tip = "U-110 added to standard build pool ! "
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -22374,4 +22374,76 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_empty = {
+	tip = "You can add shipgirls to your secretary rotation list."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
+	tip = "Add"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_remove = {
+	tip = "Remove"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip1 = {
+	tip = "These shipgirls will appear as your random secretary."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip2 = {
+	tip = "Shipgirls:"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_empty = {
+	tip = "Your secretary rotation list is empty."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_all = {
+	tip = "Select All"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
+	tip = "Select a shipgirl to add her to your secretary rotation list."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_number = {
+	tip = "Selected:"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_complete = {
+	tip = "Shipgirls successfully added."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip2 = {
+	tip = "These shipgirls will be added to your secretary rotation list."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip1 = {
+	tip = "Select a shipgirl to remove her from your secretary rotation list."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_complete = {
+	tip = "Shipgirls successfully removed."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip2 = {
+	tip = "These shipgirls will be removed from your secretary rotation list."
+}
+
+_G.pg.base.gametip.index_dressed = {
+	tip = "Wearing Skin"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode = {
+	tip = "Secretary Rotation List"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_title = {
+	tip = "Add Shipgirls"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_title = {
+	tip = "Remove Shipgirls"
 }

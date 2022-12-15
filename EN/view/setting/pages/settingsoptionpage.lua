@@ -5,6 +5,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
+	slot0:OnBindEvent()
+
 	slot0.panelContainer = slot0:findTF("content")
 	slot0.panels = {}
 
@@ -13,12 +15,19 @@ function slot0.OnLoaded(slot0)
 	end
 
 	slot0.contentSizeFitter = slot0.panelContainer:GetComponent(typeof(ContentSizeFitter))
+	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
+	slot0.scrollrect = slot0._tf:GetComponent(typeof(ScrollRect))
 
 	slot0:InitPanels()
-
-	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
-
 	setActive(slot0._tf, true)
+end
+
+function slot0.OnBindEvent(slot0)
+	slot0:bind(SettingsRandomFlagShipAndSkinPanel.EVT_UPDTAE, function ()
+		if uv0:GetPanel(SettingsRandomFlagShipAndSkinPanel) then
+			slot0:OnRandomFlagshipFlagUpdate()
+		end
+	end)
 end
 
 function slot0.GetPanels(slot0)
@@ -55,17 +64,18 @@ end
 
 function slot0.InitPanels(slot0)
 	slot1 = {}
+	slot2 = GetOrAddComponent(slot0.contentSizeFitter, typeof(CanvasGroup))
+	slot0.scrollrect.enabled = false
 
-	for slot5, slot6 in ipairs(slot0.panels) do
+	for slot6, slot7 in ipairs(slot0.panels) do
 		table.insert(slot1, function (slot0)
 			uv0:Init(slot0)
 		end)
 	end
 
-	table.insert(slot1, function (slot0)
-		uv0:RebuildLayout(slot0)
-	end)
 	seriesAsync(slot1, function ()
+		uv0.scrollrect.enabled = true
+
 		uv0:OnInitPanle()
 	end)
 end

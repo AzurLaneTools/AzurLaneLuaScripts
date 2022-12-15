@@ -3,16 +3,29 @@ slot0 = class("BlackFridayWithSignInPage", import(".BlackFridayPage"))
 function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.signInMask = slot0:findTF("AD/signIn_mask")
 	slot0.signInUIlist = UIItemList.New(slot0:findTF("AD/signIn"), slot0:findTF("AD/signIn/award"))
+	slot0.toggles = {
+		slot0:findTF("AD/toggles/skin"),
+		slot0:findTF("AD/toggles/sign")
+	}
+	slot0.lockSignBtn = slot0:findTF("AD/toggles/sign/lock")
 end
 
 function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
+	onButton(slot0, slot0.lockSignBtn, function ()
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+	end, SFX_PANEL)
 
 	slot0.signInActId = slot0.activity:getConfig("config_client")[2]
 
 	slot0:FlushSignInInfo()
+
+	if slot0.contextData.showByNextAct then
+		slot0.contextData.showByNextAct = nil
+
+		triggerToggle(slot0.toggles[2], true)
+	end
 end
 
 function slot0.GetSignInAct(slot0)
@@ -26,7 +39,14 @@ function slot0.ClientSignInActIsEnd(slot0)
 end
 
 function slot0.FlushSignInInfo(slot0)
-	setActive(slot0.signInMask, not (slot0:GetSignInAct() and not slot1:isEnd()) and slot0:ClientSignInActIsEnd())
+	slot3 = pg.activity_template[slot0.signInActId]
+
+	if not (slot0:GetSignInAct() and not slot1:isEnd()) and slot0:ClientSignInActIsEnd() then
+		triggerToggle(slot0.toggles[1], true)
+		setToggleEnabled(slot0.toggles[2], false)
+	end
+
+	setActive(slot0.lockSignBtn, slot5)
 	slot0.signInUIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -41,7 +61,7 @@ function slot0.FlushSignInInfo(slot0)
 			end, SFX_PANEL)
 		end
 	end)
-	slot0.signInUIlist:align(#pg.activity_7_day_sign[pg.activity_template[slot0.signInActId].config_id].front_drops)
+	slot0.signInUIlist:align(#pg.activity_7_day_sign[slot3.config_id].front_drops)
 end
 
 function slot0.FlushSignAwardsState(slot0)

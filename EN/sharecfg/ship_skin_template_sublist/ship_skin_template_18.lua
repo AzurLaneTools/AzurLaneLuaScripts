@@ -9480,7 +9480,7 @@ pg.ship_skin_template_18 = {
 	},
 	[900308] = {
 		ship_group = 900308,
-		name = "Anzeel ",
+		name = "Dr. Anzeel",
 		bullet_skin_secondary = "",
 		hand_id = 14,
 		bgm = "",

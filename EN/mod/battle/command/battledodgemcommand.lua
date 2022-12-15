@@ -27,12 +27,6 @@ function slot3.DoPrologue(slot0)
 		end)
 		uv0._dataProxy:GetFleetByIFF(uv1.Battle.BattleConfig.FRIENDLY_CODE):FleetWarcry()
 	end)
-
-	slot2 = slot0._state:GetSceneMediator()
-
-	slot2:InitPopScorePool()
-	slot2:EnablePopContainer(uv0.Battle.BattlePopNumManager.CONTAINER_HP, false)
-	slot2:EnablePopContainer(uv0.Battle.BattlePopNumManager.CONTAINER_SCORE, true)
 	slot0._uiMediator:ShowDodgemScoreBar()
 end
 

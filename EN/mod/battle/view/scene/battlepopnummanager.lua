@@ -5,8 +5,7 @@ slot2 = slot0.Battle.BattleConst
 slot3 = singletonClass("BattlePopNumManager")
 slot0.Battle.BattlePopNumManager = slot3
 slot3.__name = "BattlePopNumManager"
-slot3.CONTAINER_HP = "HPTextContainer"
-slot3.CONTAINER_SCORE = "ScoreTextContainer"
+slot3.CONTAINER_CHARACTER_HP = "HPTextCharacterContainer"
 slot3.POP_SCORE = "score"
 slot3.POP_MISS = "miss"
 slot3.POP_HEAL = "heal"
@@ -61,10 +60,17 @@ function slot3.InitialBundlePool(slot0, slot1)
 	}, 4)
 end
 
-function slot3.InitialScorePool(slot0)
-	for slot4, slot5 in pairs(slot0._allBundlePool) do
-		slot5:GetObject():InitPopScore(slot0._popSkin)
-	end
+function slot3.InitialScorePool(slot0, slot1)
+	slot0._allBundlePool[uv0.Battle.BattlePopNumBundle.PRO] = pg.LuaObPool.New(uv0.Battle.BattlePopNumBundle, {
+		score = true,
+		containerTpl = slot1,
+		type = uv0.Battle.BattlePopNumBundle.PRO
+	}, 1)
+	slot0._allBundlePool[uv0.Battle.BattlePopNumBundle.SLIM] = pg.LuaObPool.New(uv0.Battle.BattlePopNumBundle, {
+		score = true,
+		containerTpl = slot1,
+		type = uv0.Battle.BattlePopNumBundle.SLIM
+	}, 2)
 end
 
 function slot3.Clear(slot0)

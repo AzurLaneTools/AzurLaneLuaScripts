@@ -407,13 +407,6 @@ function slot0.willExit(slot0)
 	slot0:OpDispose()
 	WSCommand.Unbind(slot0)
 	WBank:Recycle(WorldMapOp)
-
-	slot1 = pg.PoolMgr.GetInstance()
-
-	slot1:DestroyPrefab("world/object/world_cell", "world_cell")
-	slot1:DestroyPrefab("world/object/world_cell_quad", "world_cell_quad")
-	slot1:DestroyPrefab("world/object/world_cell_transport", "world_cell_transport")
-	slot1:DestroyPrefab("world/object/world_cell_item", "world_cell_item")
 end
 
 function slot0.SetPlayer(slot0, slot1)

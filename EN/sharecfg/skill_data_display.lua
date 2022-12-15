@@ -9252,6 +9252,10 @@ pg.skill_data_display = {
 		id = 1090044,
 		name = "A Boatload of 1-Cent Coins"
 	},
+	[1090050] = {
+		id = 1090050,
+		name = "Full Firepower - Nagara"
+	},
 	all = {
 		4,
 		10,
@@ -11565,6 +11569,7 @@ pg.skill_data_display = {
 		1090020,
 		1090042,
 		1090043,
-		1090044
+		1090044,
+		1090050
 	}
 }

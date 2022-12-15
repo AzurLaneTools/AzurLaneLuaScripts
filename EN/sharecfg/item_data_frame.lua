@@ -369,6 +369,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"From sea of cloud comes lonely rays, as fleeting as the morning haze. From its scabbard does heavenly sword draw, a violet flash sundering sky, earth, and all.\"</color>\nObtained from the \"Violet Tempest, Blooming Lycoris\" event.",
 		scene = {}
 	},
+	[323] = {
+		time_limit_type = 0,
+		name = "Sea of Stars Loop",
+		gain_by = "",
+		id = 323,
+		time_second = 0,
+		desc = "Obtained from a limited event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -456,6 +465,7 @@ pg.item_data_frame = {
 		320,
 		321,
 		322,
+		323,
 		406,
 		411,
 		412,

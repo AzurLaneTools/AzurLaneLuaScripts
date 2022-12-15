@@ -16788,6 +16788,93 @@ _G.pg.base.item_data_statistics[30514] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30515] = {
+	display = "使用后可从「星辰无垠」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(星辰无垠)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30515,
+	is_world = 0,
+	icon = "Props/appearanceboxxingchen",
+	display_icon = {
+		{
+			9,
+			2001,
+			1
+		},
+		{
+			9,
+			2002,
+			1
+		},
+		{
+			9,
+			2003,
+			1
+		},
+		{
+			9,
+			2004,
+			1
+		},
+		{
+			9,
+			2005,
+			1
+		},
+		{
+			9,
+			2006,
+			1
+		},
+		{
+			9,
+			2007,
+			1
+		},
+		{
+			9,
+			2008,
+			1
+		},
+		{
+			9,
+			2009,
+			1
+		},
+		{
+			9,
+			2010,
+			1
+		},
+		{
+			9,
+			2011,
+			1
+		},
+		{
+			9,
+			2012,
+			1
+		},
+		{
+			9,
+			2013,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	display = "Can be used to obtain a T4 Part of your choosing.",
 	name = "Universal T4 Part",
@@ -174438,6 +174525,27 @@ _G.pg.base.item_data_statistics[59365] = {
 	id = 59365,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59366] = {
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	name = "Training Points",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59366,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
 	display_icon = {},
 	price = {},
 	index = {},

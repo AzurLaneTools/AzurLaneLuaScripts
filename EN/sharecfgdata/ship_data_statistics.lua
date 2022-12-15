@@ -345342,7 +345342,8 @@ _G.pg.base.ship_data_statistics[199031] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"Anchorage"
 	}
 }
 
@@ -345469,7 +345470,8 @@ _G.pg.base.ship_data_statistics[199032] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"Anchorage"
 	}
 }
 
@@ -345596,7 +345598,8 @@ _G.pg.base.ship_data_statistics[199033] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"Anchorage"
 	}
 }
 
@@ -345723,7 +345726,8 @@ _G.pg.base.ship_data_statistics[199034] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"Anchorage"
 	}
 }
 

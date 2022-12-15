@@ -9408,6 +9408,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[60290] = {
+		desc_get = "",
+		name = "Realm of Oneiric Snow",
+		id = 60290,
+		type = 0,
+		max_level = 0,
+		desc = "Creates a snowy landscape when equipped by Anchorage.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -95249,7 +95263,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 800072,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG. ",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 5% more DMG. ",
 		system_transform = {
 			[51.0] = 800077
 		},
@@ -95281,7 +95295,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 800077,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG. ",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: this ship deals 5% more DMG. ",
 		system_transform = {
 			[51.0] = 800077
 		},
@@ -95313,7 +95327,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 800082,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 8.0%.",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 5.0%.",
 		system_transform = {
 			[51.0] = 800087
 		},
@@ -95345,7 +95359,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 800087,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 8.0%.",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 5.0%.",
 		system_transform = {
 			[51.0] = 800087
 		},
@@ -100166,6 +100180,20 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902150] = {
+		desc_get = "",
+		name = "Defensive Fire",
+		id = 902150,
+		type = 3,
+		max_level = 1,
+		desc = "Increases this ship's Secondary Gun gear slot efficiency by 30.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -101955,6 +101983,314 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	},
+	[1010530] = {
+		desc_get = "",
+		name = "Iron Blood Vanguard+",
+		id = 1010530,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's Main Gun gear slot efficiency by $2 and decreases her DMG taken by $3. When this ship fires her Main Guns: 5.0% chance to increase this ship's FP by $1 for 8s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[1010290] = {
+		desc_get = "",
+		name = "Royal Navy's Glory+",
+		id = 1010290,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: $1 chance to fire an improved forward-facing special barrage (DMG is based on the skill's level) and increase your Main Fleet's RLD by $2 for 8s.",
+		system_transform = {
+			[3.0] = 1010291
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"70.0%",
+				"100.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"70.0%",
+					"+3.3%"
+				},
+				{
+					"73.3%",
+					"+3.3%"
+				},
+				{
+					"76.6%",
+					"+3.3%"
+				},
+				{
+					"79.9%",
+					"+3.3%"
+				},
+				{
+					"83.2%",
+					"+3.3%"
+				},
+				{
+					"86.5%",
+					"+3.3%"
+				},
+				{
+					"89.8%",
+					"+3.3%"
+				},
+				{
+					"93.1%",
+					"+3.3%"
+				},
+				{
+					"96.4%",
+					"+3.6%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[1011670] = {
+		desc_get = "5s after this boat enters the battle, when she resurfaces, and when she leaves the battle: fires a $1 special torpedo barrage (DMG is based on the skill's level) that Burns enemies hit (Burn DMG is based on this boat's TRP stat).",
+		name = "Surpriiiiiiiise!+",
+		id = 1011670,
+		type = 1,
+		max_level = 10,
+		desc = "5s after this boat enters the battle, when she resurfaces, and when she leaves the battle: fires a $1 special torpedo barrage (DMG is based on the skill's level) that Burns enemies hit (Burn DMG is based on this boat's TRP stat).",
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -102462,6 +102798,299 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	},
+	[1090050] = {
+		desc_get = "",
+		name = "Full Firepower - Nagara",
+		id = 1090050,
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: $1 chance to increase this ship's FP by $2 for 10s. When this effect successfully activates: the ship in your Vanguard with the lowest percentage HP remaining recovers 1.5% of her max HP; if the recipient of this effect is any Sakura Empire ship other than Nagara: increases that ship's and Nagara's AA by $3 for 5s (if Nagara herself is the recipient, the AA buff only stacks once).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[1090060] = {
+		desc_get = "",
+		name = "Double Gun - Wichita",
+		id = 1090060,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's EVA by $2. When this ship fires her Main Guns: $1 chance to fire an additional attack, followed by a $3 special barrage (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15%",
+				"25%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -102755,6 +103384,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		60270,
 		60280,
 		60281,
+		60290,
 		7000,
 		9010,
 		9020,
@@ -104139,6 +104769,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		902120,
 		902130,
 		902140,
+		902150,
 		1010140,
 		1010390,
 		1010410,
@@ -104153,9 +104784,14 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		1012670,
 		1011620,
 		1011700,
+		1010530,
+		1010290,
+		1011670,
 		1090010,
 		1090020,
 		1090030,
-		1090040
+		1090040,
+		1090050,
+		1090060
 	}
 }

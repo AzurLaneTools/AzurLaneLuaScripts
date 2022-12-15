@@ -171,6 +171,15 @@ function slot0.Ctor(slot0, slot1)
 	slot0.mingshiflag = 0
 	slot0.mingshiCount = 0
 	slot0.chatMsgBanTime = slot1.chat_msg_ban_time or 0
+	slot0.randomShipMode = slot1.random_ship_mode or 0
+	slot0.customRandomShips = {}
+	slot4 = ipairs
+	slot5 = slot1.random_ship_list or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		table.insert(slot0.customRandomShips, slot8)
+	end
+
 	slot0.displayInfo = slot1.display or {}
 	slot0.attireInfo = {
 		[AttireConst.TYPE_ICON_FRAME] = slot0.iconFrame,
@@ -701,6 +710,36 @@ end
 
 function slot0.GetName(slot0)
 	return slot0.name
+end
+
+function slot0.GetRandomFlagShipMode(slot0)
+	if slot0.randomShipMode <= 0 then
+		if slot0:GetCommonFlag(RANDOM_FLAG_SHIP_MODE) then
+			slot0.randomShipMode = SettingsRandomFlagShipAndSkinPanel.SHIP_LOCKED
+		else
+			slot0.randomShipMode = SettingsRandomFlagShipAndSkinPanel.SHIP_FREQUENTLYUSED
+		end
+	end
+
+	return slot0.randomShipMode
+end
+
+function slot0.UpdateRandomFlagShipMode(slot0, slot1)
+	slot0.randomShipMode = slot1
+end
+
+function slot0.GetCustomRandomShipList(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.customRandomShips) do
+		table.insert(slot1, slot6)
+	end
+
+	return slot1
+end
+
+function slot0.UpdateCustomRandomShipList(slot0, slot1)
+	slot0.customRandomShips = slot1
 end
 
 return slot0

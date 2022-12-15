@@ -15220,6 +15220,50 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200060] = {
+		map = 2200060,
+		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "ZUIZHENGUIDEBAOWU1",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "purple",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1250001",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200070] = {
 		map = 2200070,
 		name = "Universe in Unison|| ||CHAPTER EX||E.X.",
@@ -15767,6 +15811,7 @@ pg.expedition_data_by_map = {
 		2200030,
 		2200040,
 		2200050,
+		2200060,
 		2200070,
 		9920001,
 		9920002,

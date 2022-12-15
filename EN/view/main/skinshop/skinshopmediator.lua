@@ -6,8 +6,22 @@ slot0.OPEN_ACTIVITY = "SkinShopMediator:OPEN_ACTIVITY"
 slot0.ON_SHOPPING_BY_ACT = "SkinShopMediator:ON_SHOPPING_BY_ACT"
 slot0.ON_BACKYARD_SHOP = "SkinShopMediator:ON_BACKYARD_SHOP"
 slot0.ON_ATLAS = "SkinShopMediator:ON_ATLAS"
+slot0.ON_INDEX = "SkinShopMediator:ON_INDEX"
+slot0.ON_RECORD_ANIM_PREVIEW_BTN = "SkinShopMediator:ON_RECORD_ANIM_PREVIEW_BTN"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ON_RECORD_ANIM_PREVIEW_BTN, function (slot0, slot1)
+		uv0:sendNotification(GAME.RECORD_SKIN_ANIM_PREVIEW, {
+			isOpen = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_INDEX, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = SkinIndexLayer,
+			mediator = CustomIndexMediator,
+			data = slot1
+		}))
+	end)
 	slot0:bind(uv0.ON_ATLAS, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINATALAS)
 	end)
