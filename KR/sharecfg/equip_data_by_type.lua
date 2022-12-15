@@ -144,6 +144,14 @@ pg.equip_data_by_type = {
 		compare_group = 1,
 		type_name2 = "미사일"
 	},
+	[21] = {
+		distory_resource_gold_ratio = 1,
+		equip_skin = 0,
+		type_name = "대공포",
+		equip_type = 21,
+		compare_group = 3,
+		type_name2 = "대공포"
+	},
 	all = {
 		1,
 		2,
@@ -162,6 +170,7 @@ pg.equip_data_by_type = {
 		15,
 		17,
 		18,
-		20
+		20,
+		21
 	}
 }

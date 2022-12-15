@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2022,
 					12,
-					15
+					14
 				},
 				{
 					23,
@@ -60,7 +60,7 @@ pg.activity_banner = {
 				{
 					2022,
 					12,
-					15
+					14
 				},
 				{
 					23,
@@ -214,18 +214,47 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4540",
-		time = "stop",
-		type = 3,
 		id = 7,
-		pic = "temp7"
+		pic = "temp7",
+		type = 2,
+		param = {
+			"equip transform"
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
-		param = "4538",
-		time = "stop",
-		type = 3,
 		id = 8,
-		pic = "temp8"
+		pic = "temp8",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene level"
+		}
 	},
 	{
 		param = "",
@@ -300,16 +329,16 @@ pg.activity_banner = {
 	},
 	get_id_list_by_type = {
 		[3] = {
-			1,
-			7,
-			8
+			1
 		},
 		[2] = {
 			2,
 			3,
 			4,
 			5,
-			6
+			6,
+			7,
+			8
 		},
 		[9] = {
 			9

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "카드키를 '문'에 설치된 장치에 꽂자, 주위에 있던 세이렌의 방어 시설이 작동을 멈췄고, 바다 위에는 항로가 하나 나타났다.",
-			bgm = "ryza-5",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,

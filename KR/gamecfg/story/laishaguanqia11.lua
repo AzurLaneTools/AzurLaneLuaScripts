@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "유적의 거울 해역·'투쟁의 성'",
-			bgm = "ryza-8",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,

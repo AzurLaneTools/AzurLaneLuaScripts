@@ -12,7 +12,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
 			say = "과거의 거울해역",
-			bgm = "ryza-11",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,

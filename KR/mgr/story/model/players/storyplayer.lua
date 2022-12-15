@@ -36,7 +36,7 @@ function slot0.Pause(slot0)
 	slot0.pause = true
 
 	slot0:PauseAllAnimation()
-	pg.ViewUtils.SetLayer(slot0.effectPanel, LayerMask.NameToLayer("UIHidden"))
+	pg.ViewUtils.SetLayer(slot0.effectPanel, Layer.UIHidden)
 end
 
 function slot0.Resume(slot0)

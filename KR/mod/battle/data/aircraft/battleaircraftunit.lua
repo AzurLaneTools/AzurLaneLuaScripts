@@ -517,3 +517,6 @@ end
 
 function slot6.GetRemoteBoundBone(slot0)
 end
+
+function slot6.ContainsLabelTag(slot0)
+end

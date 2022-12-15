@@ -62,7 +62,7 @@ slot1 = {
 				return false
 			end
 
-			return getProxy(ChapterProxy):getChapterById(1690005) and slot2:isClear()
+			return getProxy(ChapterProxy):getChapterById(1690005) and slot3:isClear() and slot2:getMapById(slot2:getLastMapForActivity())
 		end,
 		args = function ()
 			slot0 = getProxy(ChapterProxy)

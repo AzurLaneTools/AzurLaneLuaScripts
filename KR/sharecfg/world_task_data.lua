@@ -6004,6 +6004,1502 @@ pg.world_task_data = {
 		},
 		reset_task = {}
 	},
+	[10030] = {
+		server_type = 4,
+		name = "파일 임무115-5",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10030,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003731,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			63
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			63
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10031
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10031] = {
+		server_type = 4,
+		name = "파일 임무115-6",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10031,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003732,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			52
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			52
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10032
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10032] = {
+		server_type = 4,
+		name = "파일 임무144-1",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10032,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003733,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			141
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			141
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10033
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10033] = {
+		server_type = 4,
+		name = "파일 임무144-2",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10033,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003734,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			131
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			131
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10034
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10034] = {
+		server_type = 4,
+		name = "파일 임무144-3",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10034,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003735,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			133
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			133
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10035
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10035] = {
+		server_type = 4,
+		name = "파일 임무144-4",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10035,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003736,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			91
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			91
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10036
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10036] = {
+		server_type = 4,
+		name = "파일 임무144-5",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10036,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003737,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			84
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			84
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10037
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10037] = {
+		server_type = 4,
+		name = "파일 임무144-6",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10037,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003738,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			105
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			105
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10038
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10038] = {
+		server_type = 4,
+		name = "파일 임무144-7",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10038,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003739,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			41
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			41
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10039
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10039] = {
+		server_type = 4,
+		name = "파일 임무144-8",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10039,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003740,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			43
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			43
+		},
+		following_random = {
+			20022
+		},
+		task_event = {},
+		complete_parameter = {
+			2501002
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				2,
+				30915,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10040] = {
+		server_type = 4,
+		name = "파일 임무132-1",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10040,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003741,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			52
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			52
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10041
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10041] = {
+		server_type = 4,
+		name = "파일 임무132-2",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10041,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003742,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			61
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			61
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10042
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10042] = {
+		server_type = 4,
+		name = "파일 임무132-3",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10042,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003743,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			63
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			63
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10043
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10043] = {
+		server_type = 4,
+		name = "파일 임무132-4",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10043,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003744,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			65
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			65
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10044
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10044] = {
+		server_type = 4,
+		name = "파일 임무132-5 132-6",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10044,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003745,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			66
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			66
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10045
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10045] = {
+		server_type = 4,
+		name = "파일 임무143-1",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10045,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003746,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			32
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			32
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10046
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10046] = {
+		server_type = 4,
+		name = "파일 임무143-2",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10046,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003747,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			51
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			51
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10047
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10047] = {
+		server_type = 4,
+		name = "파일 임무143-3",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10047,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003748,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			53
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			53
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10048
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10048] = {
+		server_type = 4,
+		name = "파일 임무143-4",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10048,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003749,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			34
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			34
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10049
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10049] = {
+		server_type = 4,
+		name = "파일 임무143-5 143-6",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10049,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "지정 해역으로 이동하여 해역 내 모든 세이렌 함대를 처치하고 파일을 회수하라.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "지정 해역으로 이동하여 해역 내 파일을 회수하라.",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003750,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			33
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			33
+		},
+		following_random = {
+			20022
+		},
+		task_event = {},
+		complete_parameter = {
+			2501002
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				2,
+				30915,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				5
+			}
+		},
+		reset_task = {}
+	},
 	[210000] = {
 		server_type = 3,
 		name = "항로 점검·I",
@@ -9251,6 +10747,26 @@ pg.world_task_data = {
 		10027,
 		10028,
 		10029,
+		10030,
+		10031,
+		10032,
+		10033,
+		10034,
+		10035,
+		10036,
+		10037,
+		10038,
+		10039,
+		10040,
+		10041,
+		10042,
+		10043,
+		10044,
+		10045,
+		10046,
+		10047,
+		10048,
+		10049,
 		210000,
 		210100,
 		210200,

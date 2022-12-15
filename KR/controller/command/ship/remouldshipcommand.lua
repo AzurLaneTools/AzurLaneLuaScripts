@@ -306,6 +306,10 @@ function slot0.execute(slot0, slot1)
 						ship = uv1:getShipById(uv2),
 						awards = uv3
 					})
+
+					if nowWorld() and slot0:GetBossProxy() and slot1.isSetup then
+						slot1:CheckRemouldShip(ship)
+					end
 				end)
 
 				return

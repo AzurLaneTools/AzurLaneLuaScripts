@@ -4220,7 +4220,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 비콘·META 기능 설명
 
-1. <color=#92fc63>2022.7.7-2022.9.26점검 전</color>까지 「리펄스·META」의 도전이 한정 개방됩니다. 「리펄스·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「리펄스·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
+1. <color=#92fc63>2022.9.29-2022.12.22점검 전</color>까지 「리나운·META」의 도전이 한정 개방됩니다. 「리나운·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「리나운·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
  <color=#ff5c5c>주의: 동기화 수치는 기간 종료 후 사라집니다.</color>
 
 2. 「비콘 데이터」 획득 및 분석
@@ -4249,7 +4249,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>작전 참여 시 네트워크 환경을 원활히 유지해 주세요.</color>
 
 6.화력 지원
-비콘·META 도전 31일째부터, 즉 2022.8.6~2022.9.26 기간 동안, 함대가 「리펄스·META」에 도전 시 추가 화력 지원을 얻을 수 있습니다. 화력 지원은 적에게 대미지를 입히며, 지속 대미지의 특수 상태를 부여합니다. (버프 효과의 영향은 받지 않습니다.) 이번 비콘·META의 개방 기간이 증가함에 따라, 화력 지원의 대미지도 증가합니다.
+비콘·META 도전 31일째부터, 즉 2022.10.30~2022.12.22 기간 동안, 함대가 「리나운·META」에 도전 시 추가 화력 지원을 얻을 수 있습니다. 화력 지원은 적에게 대미지를 입히며, 지속 대미지의 특수 상태를 부여합니다. (버프 효과의 영향은 받지 않습니다.) 이번 비콘·META의 개방 기간이 증가함에 따라, 화력 지원의 대미지도 증가합니다.
 ※자신이 발견한 비콘·META 전투 중에서만 적용되며, 매번 도전 시마다 발동 가능합니다.]]
 		}
 	}
@@ -10997,6 +10997,10 @@ _G.pg.base.gametip.text_retreat = {
 	tip = "퇴각"
 }
 
+_G.pg.base.gametip.text_goto = {
+	tip = "확 인"
+}
+
 _G.pg.base.gametip.level_scene_title_word_1 = {
 	tip = "색적치:"
 }
@@ -14662,6 +14666,18 @@ _G.pg.base.gametip.equip_info_31 = {
 	tip = "공습"
 }
 
+_G.pg.base.gametip.equip_info_32 = {
+	tip = "편차 사격 보정"
+}
+
+_G.pg.base.gametip.equip_info_33 = {
+	tip = "영격 표준 공속"
+}
+
+_G.pg.base.gametip.equip_info_34 = {
+	tip = "영격 공속"
+}
+
 _G.pg.base.gametip.equip_info_extralevel_0 = {
 	tip = "레벨0"
 }
@@ -17149,9 +17165,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1. <color=#92fc63>정보 동기화</color>
-·<color=#92fc63>2022.7.7-2022.9.26점점 전</color>까지 「리펄스·META」의 「정보 동기화」가한정 개방됩니다. 「비콘·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「리펄스·META」 캐릭터</color>를 획득할 수 있습니다.
+·<color=#92fc63>2022.9.29-2022.12.22점점 전</color>까지 「리나운·META」의 「정보 동기화」가한정 개방됩니다. 「비콘·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「리나운·META」 캐릭터</color>를 획득할 수 있습니다.
 ·META 캐릭터 획득 후 캐릭터의 <color=#92fc63>「정보 동기화」</color> 모듈을 통해<color=#92fc63>기재된 시간</color> 동안 계속해서 육성 재료를 포함한 풍성한 보상을 획득할 수 있습니다.
-·주의:<color=#ff5c5c>「리펄스·META」의 「정보 동기화」는 기간 종료 후 잠시폐쇄되며, 이미 누적된 동기화 수치 역시 사라집니다</color>.
+·주의:<color=#ff5c5c>「리나운·META」의 「정보 동기화」는 기간 종료 후 잠시폐쇄되며, 이미 누적된 동기화 수치 역시 사라집니다</color>.
 
 2. <color=#92fc63>에너지 활성화</color>
 ·META 캐릭터가 지정된 레벨에 도달하면 해당되는 캐릭터 결정을 사용해 활성화를 진행할 수 있습니다. 활성화 후 캐릭터의 성급이 상승합니다.
@@ -17301,6 +17317,18 @@ _G.pg.base.gametip.world_automode_title_2 = {
 	tip = "OPERATION"
 }
 
+_G.pg.base.gametip.world_automode_treasure_1 = {
+	tip = "비밀 해역 기록기 구매 후 해제"
+}
+
+_G.pg.base.gametip.world_automode_treasure_2 = {
+	tip = "비밀 해역 기록기 사용 후 해제"
+}
+
+_G.pg.base.gametip.world_automode_treasure_3 = {
+	tip = "대형 작전 초기화 후 구매 가능"
+}
+
 _G.pg.base.gametip.world_automode_cancel = {
 	tip = "취소"
 }
@@ -17323,6 +17351,10 @@ _G.pg.base.gametip.world_automode_start_tip3 = {
 
 _G.pg.base.gametip.world_automode_start_tip4 = {
 	tip = "현재 해역 이탈 불가"
+}
+
+_G.pg.base.gametip.world_automode_start_tip5 = {
+	tip = "현재 해역에서 사용 불가. 안전 해역으로 이동하세요."
 }
 
 _G.pg.base.gametip.world_automode_setting_1 = {
@@ -17407,6 +17439,30 @@ _G.pg.base.gametip.world_automode_setting_all_4_1 = {
 
 _G.pg.base.gametip.world_automode_setting_all_4_2 = {
 	tip = "X"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1 = {
+	tip = "확보해야 할 위험 등급:"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_1 = {
+	tip = "3 이하"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_2 = {
+	tip = "4"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_3 = {
+	tip = "5"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_4 = {
+	tip = "6"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_5 = {
+	tip = "전부"
 }
 
 _G.pg.base.gametip.world_collection_task_tip_1 = {

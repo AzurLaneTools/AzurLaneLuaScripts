@@ -1,9 +1,13 @@
 slot0 = class("WorldSwitchPlanningMediator", import("view.base.ContextMediator"))
 slot0.OnConfirm = "WorldSwitchPlanningMediator.OnConfirm"
+slot0.OnMove = "WorldSwitchPlanningMediator.OnMove"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.OnConfirm, function (slot0)
 		uv0:sendNotification(WorldMediator.OnStartAutoSwitch)
+	end)
+	slot0:bind(uv0.OnMove, function (slot0, slot1)
+		uv0:sendNotification(WorldMediator.OnMoveAndOpenLayer, slot1)
 	end)
 end
 

@@ -9,7 +9,7 @@ slot0.Fields = {
 	inventoryProxy = "table",
 	staminaMgr = "table",
 	roundIndex = "number",
-	lowestHP = "table",
+	taskProxy = "table",
 	autoInfos = "table",
 	activateCount = "number",
 	fleets = "table",
@@ -21,13 +21,14 @@ slot0.Fields = {
 	achieveEntranceStar = "table",
 	baseCmdIds = "table",
 	resetAward = "table",
+	gobalFlag = "table",
 	forceLock = "boolean",
 	resetLimitTip = "boolean",
 	atlas = "table",
 	worldBossProxy = "table",
 	progress = "number",
 	globalBuffDic = "table",
-	taskProxy = "table",
+	lowestHP = "table",
 	treasureCount = "number",
 	defaultFleets = "table",
 	realm = "number",
@@ -95,6 +96,7 @@ function slot0.Build(slot0)
 	slot0.globalBuffDic = {}
 	slot0.pressingAwardDic = {}
 	slot0.lowestHP = {}
+	slot0.gobalFlag = {}
 	slot0.isAutoFight = false
 
 	slot0:InitAutoInfos()
@@ -1138,8 +1140,14 @@ function slot0.CheckSkipBattle(slot0)
 end
 
 function slot0.IsMapVisioned(slot0, slot1)
-	if slot0:GetActiveMap().id == slot1 and uv0.ReplacementMapType(slot0:GetActiveEntrance(), slot2) == "base_chapter" and slot2.isPressing then
-		return true
+	if slot0:GetActiveMap().id == slot1 then
+		slot4, slot5 = uv0.ReplacementMapType(slot0:GetActiveEntrance(), slot2)
+
+		if slot4 == "base_chapter" and slot2.isPressing then
+			return true
+		elseif slot4 == "teasure_chapter" and slot5 == i18n("area_yinmi") and slot0:GetGobalFlag("treasure_flag") then
+			return true
+		end
 	end
 
 	return slot0:IsMapPressingAwardFlag(slot1)
@@ -1223,6 +1231,18 @@ end
 
 function slot0.SetHistoryLowestHP(slot0, slot1, slot2)
 	slot0.lowestHP[slot1] = slot2
+end
+
+slot2 = {
+	treasure_flag = 1
+}
+
+function slot0.SetGlobalFlag(slot0, slot1, slot2)
+	slot0.gobalFlag[uv0[slot1]] = slot2
+end
+
+function slot0.GetGobalFlag(slot0, slot1)
+	return slot0.gobalFlag[uv0[slot1]]
 end
 
 return slot0

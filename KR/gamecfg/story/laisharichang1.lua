@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			bgm = "ryza-11",
+			bgm = "story-1",
 			say = "이것은 거울 해역 사건이 끝난 후, 평온한 일상의 이야기….",
 			flashout = {
 				black = true,

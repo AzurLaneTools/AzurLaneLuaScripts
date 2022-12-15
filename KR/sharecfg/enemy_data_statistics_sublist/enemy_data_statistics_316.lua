@@ -1,5 +1,62 @@
 pg = pg or {}
 pg.enemy_data_statistics_316 = {
+	[15603302] = {
+		cannon = 270,
+		hit_growth = 330,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 3,
+		air = 0,
+		speed = 20,
+		dodge = 14,
+		id = 15603302,
+		cannon_growth = 0,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 196,
+		luck = 25,
+		star = 4,
+		hit = 38,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 0,
+		base = 90468,
+		durability = 82100,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		durability_growth = 0,
+		antiaircraft = 260,
+		antisub = 0,
+		battle_unit_type = 95,
+		scale = 144,
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			873101,
+			873102,
+			873103,
+			873104,
+			873105,
+			873106,
+			873107
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 4
+			},
+			{
+				ID = 8924,
+				LV = 1
+			}
+		}
+	},
 	[15603303] = {
 		cannon = 270,
 		name = "악몽 투사-「전함」",
@@ -877,58 +934,6 @@ pg.enemy_data_statistics_316 = {
 			874901,
 			874902,
 			1100019
-		},
-		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15604112] = {
-		cannon = 74,
-		name = "악몽 투사-「경순양함」",
-		type = 2,
-		speed_growth = 0,
-		antiaircraft_growth = 3744,
-		air = 0,
-		rarity = 4,
-		armor = 0,
-		id = 15604112,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 55,
-		dodge_growth = 162,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90619,
-		durability = 5270,
-		armor_growth = 0,
-		torpedo_growth = 3366,
-		speed = 24,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 936,
-		fog_fx = "",
-		dodge = 11,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 112,
-		durability_growth = 33600,
-		antiaircraft = 255,
-		hit_growth = 210,
-		armor_type = 1,
-		specific_fx_scale = {},
-		appear_fx = {
-			"heisewuqi_stg",
-			"appearQ"
-		},
-		equipment_list = {
-			874903,
-			874904,
-			874905,
-			1100024
 		},
 		buff_list = {
 			{

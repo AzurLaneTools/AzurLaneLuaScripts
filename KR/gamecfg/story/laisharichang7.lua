@@ -19,7 +19,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "ryza-12",
+			bgm = "story-1",
 			blackBg = true,
 			say = "그리고 마침내 온천 시설이 완공되었다.",
 			flashout = {

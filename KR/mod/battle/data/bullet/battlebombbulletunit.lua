@@ -123,6 +123,27 @@ function slot3.SetTemplateData(slot0, slot1)
 	end
 
 	slot0._gravity = slot2.gravity or uv1.Battle.BattleConfig.GRAVITY
+	slot0._hitInterval = slot1.hit_type.interval or 0.2
+end
+
+function slot3.DealDamage(slot0)
+	slot0._nextDamageTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._hitInterval
+end
+
+function slot3.CanDealDamage(slot0)
+	if not slot0._nextDamageTime then
+		slot0._nextDamageTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._tempData.extra_param.alert_duration
+
+		return false
+	else
+		return slot0._nextDamageTime < pg.TimeMgr.GetInstance():GetCombatTime()
+	end
+end
+
+function slot3.HideBullet(slot0)
+	slot0._position.x = 0
+	slot0._position.y = 100
+	slot0._position.z = 0
 end
 
 function slot3.GetExplodePostion(slot0)

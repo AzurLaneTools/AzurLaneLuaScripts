@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_1",
 			stopbgm = true,
 			say = "유적의 거울 해역·'이계 숲'",
-			bgm = "ryza-7",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,

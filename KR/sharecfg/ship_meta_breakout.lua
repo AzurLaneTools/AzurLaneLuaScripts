@@ -712,6 +712,73 @@ pg.ship_meta_breakout = {
 		pre_id = 9705023,
 		weapon_ids = {}
 	},
+	[9705031] = {
+		breakout_view = "스킬 [구조의 이치·애리조나] 습득/주포 발사 수 +1/주포 효율 +5%",
+		gold = 1000,
+		breakout_id = 9705032,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9705031,
+		item1 = 21017,
+		pre_id = 0,
+		weapon_ids = {
+			14100,
+			14100
+		}
+	},
+	[9705032] = {
+		breakout_view = "부포 발사 수 +2 / 주포 효율 +10%",
+		gold = 3000,
+		breakout_id = 9705033,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9705032,
+		item1 = 21017,
+		pre_id = 9705031,
+		weapon_ids = {
+			11100,
+			11100,
+			11100
+		}
+	},
+	[9705033] = {
+		breakout_view = "[구조의 이치·애리조나] 업그레이드/주포 발사 수 +1/주포 효율 +15%",
+		gold = 10000,
+		breakout_id = 9705034,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9705033,
+		item1 = 21017,
+		pre_id = 9705032,
+		weapon_ids = {
+			14100,
+			14100,
+			14100
+		}
+	},
+	[9705034] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9705034,
+		item1 = 21017,
+		pre_id = 9705033,
+		weapon_ids = {}
+	},
 	[9706011] = {
 		breakout_view = "스킬 [섬멸의 횃불·{namecode:220}] 습득/모든 뇌격기+1/ 함재기 효율 +3%",
 		gold = 500,
@@ -1102,6 +1169,10 @@ pg.ship_meta_breakout = {
 		9705022,
 		9705023,
 		9705024,
+		9705031,
+		9705032,
+		9705033,
+		9705034,
 		9706011,
 		9706012,
 		9706013,

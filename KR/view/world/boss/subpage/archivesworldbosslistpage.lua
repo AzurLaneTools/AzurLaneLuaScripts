@@ -203,7 +203,7 @@ function slot0.ClickCard(slot0, slot1)
 end
 
 function slot0.UpdateMain(slot0, slot1)
-	setPaintingPrefabAsync(slot0.paintingTr, slot1.progress.id, "archives")
+	setMetaPaintingPrefabAsync(slot0.paintingTr, slot1.progress.id, "archives")
 
 	slot4 = slot1.id == WorldBossConst.GetArchivesId() or slot1.progress.metaPtData:IsMaxPt()
 

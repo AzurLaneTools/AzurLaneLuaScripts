@@ -17,6 +17,7 @@ function slot0.Ctor(slot0)
 	slot0.pluralIndex = 0
 	slot0.singleIndex = 0
 	slot0.paintingCount = 0
+	slot0.commanderPaintingCount = 0
 	slot0.preloads = {
 		shiptype = {
 			"battle_hangmu",
@@ -402,7 +403,7 @@ function slot0.ExcessPainting(slot0)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.pools_plural) do
-		if string.find(slot7, "painting/") == 1 then
+		if string.find(slot7, "painting/") and slot9 >= 1 then
 			table.insert(slot3, slot7)
 		end
 	end
@@ -429,6 +430,40 @@ function slot0.ExcessPainting(slot0)
 
 			uv0.Inst:ResUnloadAsync()
 		end
+	end
+end
+
+function slot0.GetPaintingWithPrefix(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot4 .. slot1
+	slot6 = slot5 .. slot1
+
+	slot0:FromPlural(slot5, slot1, slot2, 1, function (slot0)
+		slot0:SetActive(true)
+
+		if ShipExpressionHelper.DefaultFaceless(uv0) then
+			setActive(tf(slot0):Find("face"), true)
+		end
+
+		uv1(slot0)
+	end, true)
+end
+
+function slot0.ReturnPaintingWithPrefix(slot0, slot1, slot2, slot3)
+	slot5 = slot3 .. slot1 .. slot1
+
+	if IsNil(slot2) then
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
+	elseif slot0.pools_plural[slot5] then
+		if tf(slot2):Find("face") then
+			setActive(slot6, false)
+		end
+
+		slot2:SetActive(false)
+		slot2.transform:SetParent(slot0.root, false)
+		slot0.pools_plural[slot5]:Enqueue(slot2)
+		slot0:ExcessPainting()
+	else
+		uv0.Destroy(slot2, true)
 	end
 end
 

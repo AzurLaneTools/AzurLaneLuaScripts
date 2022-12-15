@@ -85,7 +85,10 @@ pg.activity_template = {
 		page_info = {
 			ui_name = "monthsignpage",
 			ui_name2 = "monthsignpage_special",
-			class_name = "MonthSignPage"
+			class_name = "MonthSignPage",
+			sub_ui = {
+				"MonthSignReSignUI"
+			}
 		}
 	},
 	{
@@ -4770,12 +4773,13 @@ pg.activity_template = {
 	},
 	[4580] = {
 		mark = 20221124,
-		id = 4580,
 		title_res_tag = "ryza_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 24,
+		id = 4580,
 		config_data = {
 			1690001,
 			1690002,
@@ -4789,33 +4793,6 @@ pg.activity_template = {
 			1690025,
 			1690041,
 			1690051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "RyzaMainPage",
@@ -4866,12 +4843,13 @@ pg.activity_template = {
 	},
 	[4582] = {
 		mark = 20221124,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 89,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4582,
 		config_data = {
 			{
@@ -4934,33 +4912,6 @@ pg.activity_template = {
 			{
 				56240,
 				56241
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		config_client = {
@@ -5031,12 +4982,13 @@ pg.activity_template = {
 	},
 	[4583] = {
 		mark = 20221124,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 30,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4583,
 		config_data = {
@@ -5060,72 +5012,19 @@ pg.activity_template = {
 			300098,
 			300099,
 			300100
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4584] = {
 		mark = 20221124,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 36,
 		is_show = 0,
 		config_data = "0",
+		title_res_tag = "",
 		id = 4584,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"bulisituoer",
@@ -5147,7 +5046,7 @@ pg.activity_template = {
 	},
 	[4585] = {
 		mark = 20221124,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -5155,43 +5054,18 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31961,100}]",
 		config_client = "",
-		id = 4585,
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4585
 	},
 	[4586] = {
 		mark = 20221124,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4586,
 		config_data = {
@@ -5212,33 +5086,6 @@ pg.activity_template = {
 			18085,
 			18086,
 			18087
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4587] = {
@@ -5486,12 +5333,13 @@ pg.activity_template = {
 	},
 	[4592] = {
 		mark = 20221124,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4592,
 		config_data = {
@@ -5500,73 +5348,20 @@ pg.activity_template = {
 			344,
 			345,
 			346
-		},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					11,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4593] = {
 		mark = 20221124,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4593,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[7004] = {
 		mark = 20220324,

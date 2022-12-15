@@ -4,13 +4,13 @@ slot0.UsageDrop = "usage_drop"
 slot0.UsageLoot = "usage_undefined"
 slot0.UsageHPRegenerate = "usage_world_healing"
 slot0.UsageHPRegenerateValue = "usage_world_healing_value"
-slot0.UsageAPRegenerate = "usage_movevalue"
 slot0.UsageRecoverAp = "usage_world_recoverAP"
 slot0.UsageWorldMap = "usage_world_map"
 slot0.UsageWorldItem = "usage_world_item"
 slot0.UsageWorldClean = "usage_world_clean"
 slot0.UsageWorldBuff = "usage_worldSLGbuff"
 slot0.UsageDropAppointed = "usage_drop_appointed"
+slot0.UsageWorldFlag = "usage_world_flag"
 slot0.MoneyId = 100
 slot0.PortMoneyId = 101
 
@@ -53,6 +53,10 @@ function slot0.getItemWorldBuff(slot0)
 	slot1 = slot0:getConfig("usage_arg")
 
 	return slot1[1], slot1[2]
+end
+
+function slot0.getItemFlagKey(slot0)
+	return slot0:getConfig("usage_arg")[1]
 end
 
 function slot0.isDesignDrawing(slot0)

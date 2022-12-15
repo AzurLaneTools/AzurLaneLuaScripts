@@ -134,7 +134,7 @@ end
 function slot0.NetFullUpdate(slot0, slot1)
 	slot0.isProtoLock = slot1.is_world_open == 0
 
-	slot0:NetUpdateWorld(slot1.world, slot1.vision_list, slot1.camp)
+	slot0:NetUpdateWorld(slot1.world, slot1.global_flag_list, slot1.camp)
 	slot0:NetUpdateWorldDefaultFleets(slot1.fleet_list)
 	slot0:NetUpdateWorldAchievements(slot1.target_list, slot1.target_fetch_list)
 	slot0:NetUpdateWorldCountInfo(slot1.count_info)
@@ -159,6 +159,11 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 		slot1.last_recover_timestamp,
 		slot1.action_power_fetch_count
 	})
+
+	slot4.gobalFlag = underscore.map(slot2, function (slot0)
+		return slot0 > 0
+	end)
+
 	slot4:GetAtlas():SetCostMapList(_.rest(slot1.chapter_list, 1))
 	slot4:GetAtlas():SetSairenEntranceList(_.rest(slot1.sairen_chapter, 1))
 	slot4:SetFleets(slot0:NetBuildMapFleetList(slot1.group_list))

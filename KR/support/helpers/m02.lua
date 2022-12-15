@@ -348,22 +348,213 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function retPaintingPrefab(slot0, slot1)
+function retPaintingPrefab(slot0, slot1, slot2)
 	if slot0 and slot1 then
-		if findTF(slot0, "fitter") and slot2.childCount > 0 and not IsNil(slot2.GetChild(slot2, 0)) then
-			if not IsNil(findTF(slot3, "Touch")) then
-				eachChild(slot4, function (slot0)
+		if findTF(slot0, "fitter") and slot3.childCount > 0 and not IsNil(slot3.GetChild(slot3, 0)) then
+			if not IsNil(findTF(slot4, "Touch")) then
+				eachChild(slot5, function (slot0)
 					if not IsNil(slot0.GetComponent(slot0, typeof(Button))) then
 						removeOnButton(slot0)
 					end
 				end)
 			end
 
-			PoolMgr.GetInstance():ReturnPainting(string.gsub(slot3.name, "%(Clone%)", ""), slot3.gameObject)
+			if not slot2 then
+				PoolMgr.GetInstance():ReturnPainting(string.gsub(slot4.name, "%(Clone%)", ""), slot4.gameObject)
+			else
+				PoolMgr.GetInstance():ReturnPaintingWithPrefix(string.gsub(slot4.name, "%(Clone%)", ""), slot4.gameObject, slot2)
+			end
 		end
 
 		uv0[slot0] = nil
 	end
+end
+
+function checkPaintingPrefab(slot0, slot1, slot2, slot3, slot4)
+	slot5 = findTF(slot0, "fitter")
+
+	assert(slot5, "请添加子物体fitter")
+	removeAllChildren(slot5)
+
+	slot6 = GetOrAddComponent(slot5, "PaintingScaler")
+	slot6.FrameName = slot2 or ""
+	slot6.Tween = 1
+	slot7 = slot4 or "painting/"
+	slot8 = slot1
+
+	if not slot3 and PathMgr.FileExists(PathMgr.getAssetBundle(slot7 .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+		slot1 = slot1 .. "_n"
+	end
+
+	return slot5, slot1, slot8
+end
+
+function onLoadedPaintingPrefab(slot0)
+	slot1 = slot0.paintingTF
+	slot3 = slot0.defaultPaintingName
+
+	setParent(slot1, slot0.fitterTF, false)
+
+	if not IsNil(findTF(slot1, "Touch")) then
+		setActive(slot4, false)
+	end
+
+	if not IsNil(findTF(slot1, "hx")) then
+		setActive(slot5, HXSet.isHx())
+	end
+
+	ShipExpressionHelper.SetExpression(slot2.GetChild(slot2, 0), slot3)
+end
+
+function onLoadedPaintingPrefabAsync(slot0)
+	slot1 = slot0.paintingTF
+	slot2 = slot0.fitterTF
+	slot4 = slot0.paintingName
+	slot5 = slot0.defaultPaintingName
+	slot6 = slot0.callback
+
+	if IsNil(slot0.objectOrTransform) or uv0[slot3] ~= slot4 then
+		PoolMgr.GetInstance():ReturnPainting(slot4, slot1)
+
+		return
+	else
+		setParent(slot1, slot2, false)
+
+		uv0[slot3] = nil
+
+		ShipExpressionHelper.SetExpression(slot1, slot5)
+	end
+
+	if not IsNil(findTF(slot1, "Touch")) then
+		setActive(slot7, false)
+	end
+
+	if not IsNil(findTF(slot1, "hx")) then
+		setActive(slot8, HXSet.isHx())
+	end
+
+	if slot6 then
+		slot6()
+	end
+end
+
+function setCommanderPaintingPrefab(slot0, slot1, slot2, slot3)
+	slot4, slot5, slot6 = checkPaintingPrefab(slot0, slot1, slot2, slot3)
+	slot7 = PoolMgr.GetInstance()
+
+	slot7:GetPaintingWithPrefix(slot5, false, function (slot0)
+		onLoadedPaintingPrefab({
+			paintingTF = slot0,
+			fitterTF = uv0,
+			defaultPaintingName = uv1
+		})
+	end, "commanderpainting/")
+end
+
+function setCommanderPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
+	slot5, slot6, slot7 = checkPaintingPrefab(slot0, slot1, slot2, slot4)
+	uv0[slot0] = slot6
+	slot8 = PoolMgr.GetInstance()
+
+	slot8:GetPaintingWithPrefix(slot6, true, function (slot0)
+		onLoadedPaintingPrefabAsync({
+			paintingTF = slot0,
+			fitterTF = uv0,
+			objectOrTransform = uv1,
+			paintingName = uv2,
+			defaultPaintingName = uv3,
+			callback = uv4
+		})
+	end, "commanderpainting/")
+end
+
+function retCommanderPaintingPrefab(slot0, slot1)
+	retPaintingPrefab(slot0, slot1, "commanderpainting/")
+end
+
+function setMetaPaintingPrefab(slot0, slot1, slot2, slot3)
+	slot4, slot5, slot6 = checkPaintingPrefab(slot0, slot1, slot2, slot3)
+	slot7 = PoolMgr.GetInstance()
+
+	slot7:GetPaintingWithPrefix(slot5, false, function (slot0)
+		onLoadedPaintingPrefab({
+			paintingTF = slot0,
+			fitterTF = uv0,
+			defaultPaintingName = uv1
+		})
+	end, "metapainting/")
+end
+
+function setMetaPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
+	slot5, slot6, slot7 = checkPaintingPrefab(slot0, slot1, slot2, slot4)
+	uv0[slot0] = slot6
+	slot8 = PoolMgr.GetInstance()
+
+	slot8:GetPaintingWithPrefix(slot6, true, function (slot0)
+		onLoadedPaintingPrefabAsync({
+			paintingTF = slot0,
+			fitterTF = uv0,
+			objectOrTransform = uv1,
+			paintingName = uv2,
+			defaultPaintingName = uv3,
+			callback = uv4
+		})
+	end, "metapainting/")
+end
+
+function retMetaPaintingPrefab(slot0, slot1)
+	retPaintingPrefab(slot0, slot1, "metapainting/")
+end
+
+function setGuildPaintingPrefab(slot0, slot1, slot2, slot3)
+	slot4, slot5, slot6 = checkPaintingPrefab(slot0, slot1, slot2, slot3)
+	slot7 = PoolMgr.GetInstance()
+
+	slot7:GetPaintingWithPrefix(slot5, false, function (slot0)
+		onLoadedPaintingPrefab({
+			paintingTF = slot0,
+			fitterTF = uv0,
+			defaultPaintingName = uv1
+		})
+	end, "guildpainting/")
+end
+
+function setGuildPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
+	slot5, slot6, slot7 = checkPaintingPrefab(slot0, slot1, slot2, slot4)
+	uv0[slot0] = slot6
+	slot8 = PoolMgr.GetInstance()
+
+	slot8:GetPaintingWithPrefix(slot6, true, function (slot0)
+		onLoadedPaintingPrefabAsync({
+			paintingTF = slot0,
+			fitterTF = uv0,
+			objectOrTransform = uv1,
+			paintingName = uv2,
+			defaultPaintingName = uv3,
+			callback = uv4
+		})
+	end, "guildpainting/")
+end
+
+function retGuildPaintingPrefab(slot0, slot1)
+	retPaintingPrefab(slot0, slot1, "guildpainting/")
+end
+
+function setShopPaintingPrefab(slot0, slot1, slot2, slot3)
+	slot4, slot5, slot6 = checkPaintingPrefab(slot0, slot1, slot2, slot3)
+	slot7 = PoolMgr.GetInstance()
+
+	slot7:GetPaintingWithPrefix(slot5, false, function (slot0)
+		onLoadedPaintingPrefab({
+			paintingTF = slot0,
+			fitterTF = uv0,
+			defaultPaintingName = uv1
+		})
+	end, "shoppainting/")
+end
+
+function retShopPaintingPrefab(slot0, slot1)
+	retPaintingPrefab(slot0, slot1, "shoppainting/")
 end
 
 function setColorCount(slot0, slot1, slot2)

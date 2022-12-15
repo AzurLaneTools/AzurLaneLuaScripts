@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.enemy_data_statistics_394 = {
+	[293011] = {
+		cannon = 7,
+		battle_unit_type = 90,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 4,
+		air = 0,
+		speed = 36,
+		dodge = 26,
+		id = 293011,
+		cannon_growth = 576,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 320,
+		luck = 10,
+		star = 4,
+		hit = 15,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 58,
+		base = 90248,
+		durability = 150,
+		armor_growth = 0,
+		torpedo_growth = 4608,
+		luck_growth = 0,
+		hit_growth = 228,
+		armor = 0,
+		durability_growth = 60000,
+		antiaircraft = 25,
+		antisub = 0,
+		antiaircraft_growth = 2016,
+		scale = 160,
+		world_enhancement = {
+			9.3,
+			5.4,
+			1.2,
+			0.6,
+			0.9,
+			0.9,
+			0
+		},
+		equipment_list = {
+			2029500,
+			2029501,
+			2029502,
+			2029503
+		},
+		random_equipment_list = {
+			{
+				2029511,
+				2029512,
+				2029513
+			},
+			{
+				2029521,
+				2029522
+			}
+		},
+		random_nub = {
+			1,
+			1
+		}
+	},
 	[293012] = {
 		cannon = 14,
 		battle_unit_type = 90,
@@ -980,60 +1043,6 @@ pg.enemy_data_statistics_394 = {
 			2029802,
 			2029803,
 			2029880
-		},
-		random_nub = {
-			1,
-			1
-		}
-	},
-	[293044] = {
-		cannon = 0,
-		antiaircraft_growth = 3744,
-		fog_fx = "",
-		speed_growth = 0,
-		rarity = 3,
-		air = 50,
-		speed = 18,
-		dodge = 6,
-		id = 293044,
-		wave_fx = "shenyuanxiaoguai_move",
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 80,
-		luck = 10,
-		star = 4,
-		hit = 8,
-		antisub_growth = 0,
-		air_growth = 4032,
-		reload = 150,
-		base = 90252,
-		durability = 338,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 126,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 135000,
-		antisub = 0,
-		antiaircraft = 47,
-		scale = 160,
-		battle_unit_type = 90,
-		world_enhancement = {
-			9.3,
-			1.9,
-			1.7,
-			0.7,
-			0.1,
-			2,
-			0.1
-		},
-		equipment_list = {
-			2029900,
-			2029901,
-			2029902,
-			2029903,
-			2029970
 		},
 		random_nub = {
 			1,

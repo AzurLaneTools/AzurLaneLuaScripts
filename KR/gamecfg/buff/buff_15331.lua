@@ -8,7 +8,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 100
+					casterMaxHPRatio = 0.01
 				}
 			}
 		}
@@ -22,7 +22,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 140
+					casterMaxHPRatio = 0.014
 				}
 			}
 		}
@@ -36,7 +36,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 180
+					casterMaxHPRatio = 0.018
 				}
 			}
 		}
@@ -50,7 +50,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 220
+					casterMaxHPRatio = 0.022
 				}
 			}
 		}
@@ -64,7 +64,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 260
+					casterMaxHPRatio = 0.026
 				}
 			}
 		}
@@ -78,7 +78,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 300
+					casterMaxHPRatio = 0.03
 				}
 			}
 		}
@@ -92,7 +92,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 350
+					casterMaxHPRatio = 0.035
 				}
 			}
 		}
@@ -106,7 +106,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 400
+					casterMaxHPRatio = 0.04
 				}
 			}
 		}
@@ -120,7 +120,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 450
+					casterMaxHPRatio = 0.045
 				}
 			}
 		}
@@ -134,7 +134,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					casterMaxHPRatio = 500
+					casterMaxHPRatio = 0.05
 				}
 			}
 		}
@@ -156,7 +156,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				casterMaxHPRatio = 100
+				casterMaxHPRatio = 0.01
 			}
 		}
 	}

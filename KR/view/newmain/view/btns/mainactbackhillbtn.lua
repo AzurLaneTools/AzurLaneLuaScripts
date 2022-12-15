@@ -47,7 +47,10 @@ function slot0.CustomOnClick(slot0)
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.BACKHILL_CAMPUSFESTIVAL_2022)
 	elseif slot1 == ActivityConst.MINIGAME_RYZA then
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.RYZA_URBAN_AREA)
+	elseif slot1 == ActivityConst.MINIGAME_CURLING then
+		slot0:emit(NewMainMediator.GO_SCENE, SCENE.NEWYEAR_BACKHILL_2022)
 	else
+		errorMsg("not bind backhill Activity id:", slot1 or "NIL")
 		slot0:OnClick()
 	end
 end

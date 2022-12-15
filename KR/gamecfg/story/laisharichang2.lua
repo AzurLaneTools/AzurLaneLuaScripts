@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			bgm = "ryza-12",
+			bgm = "story-1",
 			say = "모항·라이자의 아틀리에 (임시)",
 			flashout = {
 				black = true,

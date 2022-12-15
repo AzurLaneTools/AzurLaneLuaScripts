@@ -45,7 +45,8 @@ return {
 			spr = "index_antiaircraft",
 			tag = i18n("word_equipment_antiaircraft"),
 			types = {
-				EquipType.AntiAircraft
+				EquipType.AntiAircraft,
+				EquipType.RangedAntiAircraft
 			}
 		},
 		{

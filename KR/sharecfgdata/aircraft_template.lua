@@ -6634,6 +6634,239 @@ _G.pg.base.aircraft_template[17411] = {
 	}
 }
 
+_G.pg.base.aircraft_template[17420] = {
+	attack_power = 2,
+	name = "试作型XF5U飞碟",
+	type = 1,
+	accuracy = 23,
+	model_ID = "XF5U",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 0.303,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 17420,
+	icon = "XF5U",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 12,
+	hp_growth = 2371,
+	speed = 42,
+	max_hp = 62,
+	scale = 1,
+	weapon_ID = {
+		50660,
+		52760
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.25,
+				0
+			},
+			{
+				0.77,
+				1.48,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[17421] = {
+	max_hp = 71,
+	hp_growth = 2726,
+	base = 17420,
+	id = 17421,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50661,
+		52761
+	}
+}
+
+_G.pg.base.aircraft_template[17422] = {
+	max_hp = 80,
+	hp_growth = 3082,
+	base = 17420,
+	id = 17422,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50662,
+		52762
+	}
+}
+
+_G.pg.base.aircraft_template[17423] = {
+	max_hp = 89,
+	hp_growth = 3438,
+	base = 17420,
+	id = 17423,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50663,
+		52763
+	}
+}
+
+_G.pg.base.aircraft_template[17424] = {
+	max_hp = 99,
+	hp_growth = 3793,
+	base = 17420,
+	id = 17424,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50664,
+		52764
+	}
+}
+
+_G.pg.base.aircraft_template[17425] = {
+	max_hp = 108,
+	hp_growth = 4149,
+	base = 17420,
+	id = 17425,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50665,
+		52765
+	}
+}
+
+_G.pg.base.aircraft_template[17426] = {
+	max_hp = 117,
+	hp_growth = 4505,
+	base = 17420,
+	id = 17426,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50666,
+		52766
+	}
+}
+
+_G.pg.base.aircraft_template[17427] = {
+	max_hp = 126,
+	hp_growth = 4860,
+	base = 17420,
+	id = 17427,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50667,
+		52767
+	}
+}
+
+_G.pg.base.aircraft_template[17428] = {
+	max_hp = 136,
+	hp_growth = 5216,
+	base = 17420,
+	id = 17428,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50668,
+		52768
+	}
+}
+
+_G.pg.base.aircraft_template[17429] = {
+	max_hp = 145,
+	hp_growth = 5571,
+	base = 17420,
+	id = 17429,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50669,
+		52769
+	}
+}
+
+_G.pg.base.aircraft_template[17430] = {
+	max_hp = 154,
+	hp_growth = 5927,
+	base = 17420,
+	id = 17430,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50670,
+		52770
+	}
+}
+
+_G.pg.base.aircraft_template[17431] = {
+	max_hp = 163,
+	hp_growth = 6283,
+	base = 17420,
+	id = 17431,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50671,
+		52771
+	}
+}
+
+_G.pg.base.aircraft_template[17432] = {
+	max_hp = 173,
+	hp_growth = 6638,
+	base = 17420,
+	id = 17432,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50672,
+		52772
+	}
+}
+
+_G.pg.base.aircraft_template[17433] = {
+	max_hp = 182,
+	hp_growth = 6994,
+	base = 17420,
+	id = 17433,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50673,
+		52773
+	}
+}
+
 _G.pg.base.aircraft_template[18000] = {
 	attack_power = 2,
 	name = "TBD蹂躏者",
@@ -50196,6 +50429,225 @@ _G.pg.base.aircraft_template[81411] = {
 	weapon_ID = {
 		50551,
 		50751
+	}
+}
+
+_G.pg.base.aircraft_template[81420] = {
+	attack_power = 2,
+	name = "试作型XF5U飞碟",
+	type = 1,
+	accuracy = 23,
+	model_ID = "XF5U",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 0.303,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 81420,
+	icon = "XF5U",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 12,
+	hp_growth = 2371,
+	speed = 42,
+	max_hp = 62,
+	scale = 1,
+	weapon_ID = {
+		50660
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.25,
+				0
+			},
+			{
+				0.77,
+				1.48,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[81421] = {
+	max_hp = 71,
+	hp_growth = 2726,
+	base = 81420,
+	id = 81421,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50661
+	}
+}
+
+_G.pg.base.aircraft_template[81422] = {
+	max_hp = 80,
+	hp_growth = 3082,
+	base = 81420,
+	id = 81422,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50662
+	}
+}
+
+_G.pg.base.aircraft_template[81423] = {
+	max_hp = 89,
+	hp_growth = 3438,
+	base = 81420,
+	id = 81423,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50663
+	}
+}
+
+_G.pg.base.aircraft_template[81424] = {
+	max_hp = 99,
+	hp_growth = 3793,
+	base = 81420,
+	id = 81424,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50664
+	}
+}
+
+_G.pg.base.aircraft_template[81425] = {
+	max_hp = 108,
+	hp_growth = 4149,
+	base = 81420,
+	id = 81425,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50665
+	}
+}
+
+_G.pg.base.aircraft_template[81426] = {
+	max_hp = 117,
+	hp_growth = 4505,
+	base = 81420,
+	id = 81426,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50666
+	}
+}
+
+_G.pg.base.aircraft_template[81427] = {
+	max_hp = 126,
+	hp_growth = 4860,
+	base = 81420,
+	id = 81427,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50667
+	}
+}
+
+_G.pg.base.aircraft_template[81428] = {
+	max_hp = 136,
+	hp_growth = 5216,
+	base = 81420,
+	id = 81428,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50668
+	}
+}
+
+_G.pg.base.aircraft_template[81429] = {
+	max_hp = 145,
+	hp_growth = 5571,
+	base = 81420,
+	id = 81429,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50669
+	}
+}
+
+_G.pg.base.aircraft_template[81430] = {
+	max_hp = 154,
+	hp_growth = 5927,
+	base = 81420,
+	id = 81430,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50670
+	}
+}
+
+_G.pg.base.aircraft_template[81431] = {
+	max_hp = 163,
+	hp_growth = 6283,
+	base = 81420,
+	id = 81431,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50671
+	}
+}
+
+_G.pg.base.aircraft_template[81432] = {
+	max_hp = 173,
+	hp_growth = 6638,
+	base = 81420,
+	id = 81432,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50672
+	}
+}
+
+_G.pg.base.aircraft_template[81433] = {
+	max_hp = 182,
+	hp_growth = 6994,
+	base = 81420,
+	id = 81433,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50673
 	}
 }
 
