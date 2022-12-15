@@ -2913,6 +2913,22 @@ pg.memory_group = {
 			2436
 		}
 	},
+	[233] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 233,
+		title = "异向偏振",
+		memories = {
+			2441,
+			2442,
+			2443,
+			2444,
+			2445,
+			2446,
+			2447
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -4174,6 +4190,22 @@ pg.memory_group = {
 			2397
 		}
 	},
+	[581] = {
+		icon = "title_chara_aerfuleiduo",
+		subtype = 0,
+		type = 3,
+		id = 581,
+		title = "港区秘闻特别篇",
+		memories = {
+			2451,
+			2452,
+			2453,
+			2454,
+			2455,
+			2456,
+			2457
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4312,6 +4344,7 @@ pg.memory_group = {
 		230,
 		231,
 		232,
+		233,
 		501,
 		502,
 		503,
@@ -4389,6 +4422,7 @@ pg.memory_group = {
 		577,
 		578,
 		579,
-		580
+		580,
+		581
 	}
 }

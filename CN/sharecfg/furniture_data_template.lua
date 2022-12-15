@@ -6601,6 +6601,57 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[238] = {
+		spine_extra = "",
+		describe = "谢谢惠顾喵！无与伦比的感谢喵！ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "zuanshipenquanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "闪耀纪念喷泉 ",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 238,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zuanshipenquan",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[239] = {
 		spine_extra = "",
 		describe = "利用从遗迹中回收的素材制作的精美雕塑，纪念这一段充满惊喜的秘密遗迹群岛冒险之旅。——「炼金术士与秘密遗迹群岛」活动纪念\n「……嗯，这也是桶子！」",
@@ -116794,6 +116845,7 @@ pg.furniture_data_template = {
 			235,
 			236,
 			237,
+			238,
 			239,
 			100001,
 			100002,
@@ -117003,6 +117055,7 @@ pg.furniture_data_template = {
 			235,
 			236,
 			237,
+			238,
 			239,
 			100001,
 			100002,
@@ -124134,6 +124187,7 @@ pg.furniture_data_template = {
 			213,
 			233,
 			236,
+			238,
 			200001,
 			200002,
 			200003,
@@ -125012,6 +125066,7 @@ pg.furniture_data_template = {
 			206,
 			209,
 			213,
+			238,
 			200001,
 			200002,
 			200003,
@@ -127565,6 +127620,7 @@ pg.furniture_data_template = {
 		235,
 		236,
 		237,
+		238,
 		239,
 		100001,
 		100002,

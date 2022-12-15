@@ -5002,6 +5002,206 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[2012] = {
+		subject = "冬至礼包1",
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		limit_arg = 1,
+		name = "冬至礼包1",
+		name_display = "冬至礼包1",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2012,
+		money = 88,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "dongzhi1",
+		id_str = "com.bilibili.blhx.libao107",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得1280钻，定向部件T4x15和其他奖励",
+		airijp_id = "com.yostarjp.azurlane.package107",
+		extra_service_item = {
+			{
+				1,
+				14,
+				1280
+			},
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				17013,
+				10
+			},
+			{
+				2,
+				17023,
+				10
+			},
+			{
+				2,
+				17033,
+				10
+			},
+			{
+				2,
+				17043,
+				10
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				1280
+			},
+			{
+				2,
+				30114,
+				15
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[2013] = {
+		subject = "冬至礼包2",
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		limit_arg = 1,
+		name = "冬至礼包2",
+		name_display = "冬至礼包2",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2013,
+		money = 168,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "dongzhi2",
+		id_str = "com.bilibili.blhx.libao108",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得2480钻，定向外观装备箱(星辰无垠)x2和其他奖励",
+		airijp_id = "com.yostarjp.azurlane.package108",
+		extra_service_item = {
+			{
+				1,
+				14,
+				2480
+			},
+			{
+				2,
+				30515,
+				2
+			},
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			},
+			{
+				2,
+				15001,
+				60
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				2480
+			},
+			{
+				2,
+				30515,
+				2
+			},
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	all = {
 		1,
 		2,
@@ -5062,6 +5262,8 @@ pg.pay_data_display = {
 		2008,
 		2009,
 		2010,
-		2011
+		2011,
+		2012,
+		2013
 	}
 }

@@ -20,7 +20,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.EXCHANGECODE_USE_SUCCESS,
 		GAME.ON_GET_TRANSCODE,
 		GAME.ON_SOCIAL_LINKED,
-		GAME.ON_SOCIAL_UNLINKED
+		GAME.ON_SOCIAL_UNLINKED,
+		GAME.CHANGE_RANDOM_SHIP_MODE_DONE
 	}
 end
 
@@ -40,6 +41,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:OnSecondPwdStateChange()
 	elseif slot2 == uv0.OPEN_YOSTAR_ALERT_VIEW then
 		slot0.viewComponent:OpenYostarAlertView()
+	elseif slot2 == GAME.CHANGE_RANDOM_SHIP_MODE_DONE then
+		slot0.viewComponent:OnRandomFlagShipModeUpdate()
 	end
 end
 

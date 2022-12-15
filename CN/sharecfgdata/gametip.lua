@@ -7410,41 +7410,41 @@ _G.pg.base.gametip.ship_remould_warning_301874 = {
 _G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
 此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
-<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
-<color=#92fc63>【副武器】</color>栏的装备将被卸下
+<color=#92fc63>【副炮】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【副炮】</color>栏的装备将被卸下
 是否确认继续操作？]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_310024 = {
 	tip = [[
 此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
-<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
-<color=#92fc63>【副武器】</color>栏的装备将被卸下
+<color=#92fc63>【副炮】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【副炮】</color>栏的装备将被卸下
 是否确认继续操作？]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_310034 = {
 	tip = [[
 此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
-<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
-<color=#92fc63>【副武器】</color>栏的装备将被卸下
+<color=#92fc63>【副炮】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【副炮】</color>栏的装备将被卸下
 是否确认继续操作？]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_310044 = {
 	tip = [[
 此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
-<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
-<color=#92fc63>【副武器】</color>栏的装备将被卸下
+<color=#92fc63>【副炮】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【副炮】</color>栏的装备将被卸下
 是否确认继续操作？]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = [[
 此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
-<color=#92fc63>【主武器（轻巡主炮）】</color>变更为
-<color=#92fc63>【主武器（重巡主炮）】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
-<color=#92fc63>【主武器】</color>栏的装备将被卸下
+<color=#92fc63>【主炮（轻巡主炮）】</color>变更为
+<color=#92fc63>【主炮（重巡主炮）】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【主炮】</color>栏的装备将被卸下
 <color=#92fc63>【特殊兵装】</color>栏的兵装将被卸下
 是否确认继续操作？]]
 }
@@ -7456,9 +7456,9 @@ _G.pg.base.gametip.ship_remould_warning_402134 = {
 _G.pg.base.gametip.ship_remould_warning_702124 = {
 	tip = [[
 此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
-<color=#92fc63>【主武器（轻巡主炮）】</color>变更为
-<color=#92fc63>【主武器（驱逐主炮）】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
-<color=#92fc63>【主武器】</color>栏的装备将被卸下
+<color=#92fc63>【主炮（轻巡主炮）】</color>变更为
+<color=#92fc63>【主炮（驱逐主炮）】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【主炮】</color>栏的装备将被卸下
 是否确认继续操作？]]
 }
 
@@ -19737,7 +19737,7 @@ _G.pg.base.gametip.CurlingGame_tips1 = {
 		{
 			info = [[
 活动规则：
-1.<color=#92fc63>1月4日</color>为止每日0点开放<color=#92fc63>1</color>场新游戏，总计<color=#92fc63>7</color>场，可累计。完成7场游戏可以获得包括南安普顿限定皮肤在内的丰富奖励。
+1.<color=#92fc63>12月21日</color>为止每日0点开放<color=#92fc63>1</color>场新游戏，总计<color=#92fc63>7</color>场，可累计。完成7场游戏可以获得包括南安普顿限定皮肤在内的丰富奖励。
 游戏规则：
 1.每局游戏由三小局组成，最终得分为三小局的分数和
 2.按住左侧肌肉指挥喵可进行蓄力，上下移动可改变冰球发射的方向；松开后将会发射冰壶。冰壶碰到障碍则会根据碰撞角度进行反弹，<color=#92fc63>反弹时获得额外积分</color>
@@ -20540,6 +20540,19 @@ _G.pg.base.gametip.attrset_disable = {
 
 _G.pg.base.gametip.attrset_input_ill = {
 	tip = "输入不合法"
+}
+
+_G.pg.base.gametip.blackfriday_help = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.活动期间，每购买一件限时返场换装可解锁一个阶段的奖励
+2.「限定家具」可单独从家具商店购买，重复获得的
+「限定家具」会按照其商店售价自动折算为钻石
+3.可解锁换装数量无法满足礼品清单全部解锁条件的情况下，将直接解锁相差数量阶段的奖励]]
+		}
+	}
 }
 
 _G.pg.base.gametip.eventshop_time_hint = {
@@ -22195,4 +22208,76 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_empty = {
+	tip = "当前秘书舰列表为空，点击编辑按钮可添加角色"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
+	tip = "添加"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_remove = {
+	tip = "移除"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip1 = {
+	tip = "随机秘书组将从以上角色中随机"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip2 = {
+	tip = "角色总数："
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_empty = {
+	tip = "秘书舰列表中暂无角色"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_all = {
+	tip = "全部选中"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
+	tip = "选择角色添加至秘书舰列表"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_number = {
+	tip = "已选中："
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_complete = {
+	tip = "添加角色成功"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip2 = {
+	tip = "将添加以上角色进入秘书舰列表"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip1 = {
+	tip = "选择角色从秘书舰列表中移除"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_complete = {
+	tip = "移除角色成功"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip2 = {
+	tip = "将从秘书舰列表中移除以上角色"
+}
+
+_G.pg.base.gametip.index_dressed = {
+	tip = "已换装"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode = {
+	tip = "自定义秘书舰列表"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_title = {
+	tip = "添加角色"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_title = {
+	tip = "移除角色"
 }

@@ -369,6 +369,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「宁如镜湖，缥若云岚，天剑出鞘，万钧雷霆。」</color>\n「紫绛槿岚」活动获取",
 		scene = {}
 	},
+	[323] = {
+		time_limit_type = 0,
+		name = "星海之环",
+		gain_by = "",
+		id = 323,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -483,6 +492,7 @@ pg.item_data_frame = {
 		320,
 		321,
 		322,
+		323,
 		401,
 		402,
 		404,

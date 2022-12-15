@@ -17119,6 +17119,93 @@ _G.pg.base.item_data_statistics[30514] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30515] = {
+	display = "使用后可从「星辰无垠」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(星辰无垠)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30515,
+	is_world = 0,
+	icon = "Props/appearanceboxxingchen",
+	display_icon = {
+		{
+			9,
+			2001,
+			1
+		},
+		{
+			9,
+			2002,
+			1
+		},
+		{
+			9,
+			2003,
+			1
+		},
+		{
+			9,
+			2004,
+			1
+		},
+		{
+			9,
+			2005,
+			1
+		},
+		{
+			9,
+			2006,
+			1
+		},
+		{
+			9,
+			2007,
+			1
+		},
+		{
+			9,
+			2008,
+			1
+		},
+		{
+			9,
+			2009,
+			1
+		},
+		{
+			9,
+			2010,
+			1
+		},
+		{
+			9,
+			2011,
+			1
+		},
+		{
+			9,
+			2012,
+			1
+		},
+		{
+			9,
+			2013,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	display = "使用后可从T4部件中任意选择一种获得1个",
 	name = "定向部件T4",
@@ -18712,6 +18799,115 @@ _G.pg.base.item_data_statistics[40023] = {
 			2,
 			16023,
 			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40024] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "冬至礼包1",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40024,
+	is_world = 0,
+	icon = "ChargeIcon/dongzhi1",
+	display_icon = {
+		{
+			1,
+			14,
+			1280
+		},
+		{
+			2,
+			30114,
+			15
+		},
+		{
+			2,
+			17003,
+			10
+		},
+		{
+			2,
+			17013,
+			10
+		},
+		{
+			2,
+			17023,
+			10
+		},
+		{
+			2,
+			17033,
+			10
+		},
+		{
+			2,
+			17043,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40025] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "冬至礼包2",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40025,
+	is_world = 0,
+	icon = "ChargeIcon/dongzhi2",
+	display_icon = {
+		{
+			1,
+			14,
+			2480
+		},
+		{
+			2,
+			30515,
+			2
+		},
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		},
+		{
+			2,
+			15001,
+			60
+		},
+		{
+			1,
+			6,
+			100
 		}
 	},
 	price = {},
@@ -183283,6 +183479,27 @@ _G.pg.base.item_data_statistics[59365] = {
 	id = 59365,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59366] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59366,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
 	display_icon = {},
 	price = {},
 	index = {},

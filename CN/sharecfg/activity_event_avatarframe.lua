@@ -440,10 +440,22 @@ pg.activity_event_avatarframe = {
 			}
 		}
 	},
+	{
+		task_level = "",
+		start_time = "stop",
+		icon_frame = 323,
+		link_event = 0,
+		award_display = "",
+		target = 2800,
+		task_ship = "",
+		id = 5,
+		pt_id = 59366
+	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		5
 	}
 }

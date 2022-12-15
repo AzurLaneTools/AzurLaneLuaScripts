@@ -26,8 +26,6 @@ function slot5.Initialize(slot0)
 end
 
 function slot5.Init(slot0)
-	slot0:InitPopNumPool()
-
 	slot0._characterList = {}
 	slot0._bulletList = {}
 	slot0._particleBulletList = {}
@@ -55,13 +53,14 @@ function slot5.InitCamera(slot0)
 end
 
 function slot5.InitPopNumPool(slot0)
-	slot0._popNumPool = uv0.Battle.BattlePopNumManager.GetInstance()
+	slot0._popNumMgr = uv0.Battle.BattlePopNumManager.GetInstance()
+	slot2 = slot0._state:GetUI()
 
-	slot0._popNumPool:InitialBundlePool(slot0._state:GetUI():findTF("HPTextCharacterContainer/container"))
-end
-
-function slot5.InitPopScorePool(slot0)
-	slot0._popNumPool:InitialScorePool()
+	if slot0._dataProxy:GetInitData().battleType == SYSTEM_DODGEM then
+		slot0._popNumMgr:InitialScorePool(slot2:findTF(slot1.CONTAINER_CHARACTER_HP .. "/container"))
+	else
+		slot0._popNumMgr:InitialBundlePool(slot2:findTF(slot1.CONTAINER_CHARACTER_HP .. "/container"))
+	end
 end
 
 function slot5.InitFlagShipMark(slot0)
@@ -186,6 +185,7 @@ function slot5.onStageInitFinish(slot0, slot1)
 	slot0._leftFleet:RegisterEventListener(slot0, uv1.SONAR_UPDATE, slot0.onUpdateHostileSubmarine)
 	slot0._leftFleet:RegisterEventListener(slot0, uv1.ADD_AIM_BIAS, slot0.onAddAimBias)
 	slot0._leftFleet:RegisterEventListener(slot0, uv1.REMOVE_AIM_BIAS, slot0.onRemoveAimBias)
+	slot0:InitPopNumPool()
 end
 
 function slot5.onAddUnit(slot0, slot1)
@@ -602,7 +602,7 @@ function slot5.GetCharacterList(slot0)
 end
 
 function slot5.GetPopNumPool(slot0)
-	return slot0._popNumPool
+	return slot0._popNumMgr
 end
 
 function slot5.PauseCharacterAction(slot0, slot1)
@@ -730,7 +730,7 @@ function slot5.Clear(slot0)
 	slot0._arcEffectList = nil
 
 	uv0.Battle.BattleCharacterFXContainersPool.GetInstance():Clear()
-	slot0._popNumPool:Clear()
+	slot0._popNumMgr:Clear()
 	uv0.Battle.BattleHPBarManager.GetInstance():Clear()
 	uv0.Battle.BattleArrowManager.GetInstance():Clear()
 

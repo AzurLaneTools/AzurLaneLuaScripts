@@ -22134,8 +22134,8 @@ pg.transform_data_template = {
 		descrip = [[
 近代化改造完成
 
-改造后<color=#92fc63>【主武器】</color>装备栏位装备类型更改为<color=#92fc63>【重巡主炮】</color>
-原来的<color=#92fc63>【主武器】</color>栏位装备将被放入仓库
+改造后<color=#92fc63>【主炮（轻巡主炮）】</color>装备栏位装备类型更改为<color=#92fc63>【主炮（重巡主炮）】</color>
+原来的<color=#92fc63>【主炮（轻巡主炮）】</color>栏位装备将被放入仓库
 由于舰艇类型变化，原来的<color=#92fc63>【特殊兵装】</color>栏位兵装将被放入仓库
 改造后<color=#92fc63>【主炮底座+1】</color>、<color=#92fc63>【鱼雷底座-1】</color>
 改造后<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【全弹发射改】</color>
@@ -23372,7 +23372,7 @@ pg.transform_data_template = {
 
 改造后<color=#92fc63>【主炮底座-1】</color>
 改造后<color=#92fc63>主炮效率</color>提高20%
-改造后<color=#92fc63>【副武器】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
+改造后<color=#92fc63>【副炮】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
 在装备<color=#92fc63>【水上机】</color>的情况下，<color=#92fc63>【魟改】</color>可以进行<color=#92fc63>空中支援</color>]],
 		icon = "mt_red",
 		skill_id = 0,
@@ -23796,7 +23796,7 @@ pg.transform_data_template = {
 
 改造后<color=#92fc63>【主炮底座-1】</color>
 改造后<color=#92fc63>主炮效率</color>提高20%
-改造后<color=#92fc63>【副武器】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
+改造后<color=#92fc63>【副炮】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
 在装备<color=#92fc63>【水上机】</color>的情况下，<color=#92fc63>【鲼改】</color>可以进行<color=#92fc63>空中支援</color>]],
 		icon = "mt_red",
 		skill_id = 0,
@@ -24025,7 +24025,7 @@ pg.transform_data_template = {
 
 改造后<color=#92fc63>【主炮底座-1】</color>
 改造后<color=#92fc63>主炮效率</color>提高25%
-改造后<color=#92fc63>【副武器】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
+改造后<color=#92fc63>【副炮】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
 在装备<color=#92fc63>【水上机】</color>的情况下，<color=#92fc63>【鳌改】</color>可以进行<color=#92fc63>空中支援</color>]],
 		icon = "mt_red",
 		skill_id = 0,
@@ -24456,7 +24456,7 @@ pg.transform_data_template = {
 
 改造后<color=#92fc63>【主炮底座-1】</color>
 改造后<color=#92fc63>主炮效率</color>提高25%
-改造后<color=#92fc63>【副武器】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
+改造后<color=#92fc63>【副炮】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
 在装备<color=#92fc63>【水上机】</color>的情况下，<color=#92fc63>【螯改】</color>可以进行<color=#92fc63>空中支援</color>]],
 		icon = "mt_red",
 		skill_id = 0,
@@ -38252,7 +38252,11 @@ pg.transform_data_template = {
 		skin_id = 702029,
 		use_ship = 1,
 		level_limit = 85,
-		descrip = "近代化改造完成，炮击+35，防空+10",
+		descrip = [[
+近代化改造完成，炮击+35，防空+10
+
+改造后<color=#92fc63>【主炮（轻巡主炮）】</color>装备栏位装备类型更改为<color=#92fc63>【主炮（驱逐主炮）】</color>
+原来的<color=#92fc63>【主炮（轻巡主炮）】</color>栏位装备将被放入仓库]],
 		icon = "mt_red",
 		skill_id = 0,
 		condition_id = {

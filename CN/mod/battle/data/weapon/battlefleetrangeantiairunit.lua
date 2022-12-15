@@ -41,7 +41,7 @@ function slot10.init(slot0)
 		queue = 0,
 		action_index = "",
 		fire_sfx = "battle/cannon-air",
-		spawn_bound = "antiaircraft",
+		spawn_bound = uv0.AntiAirConfig.RangeAntiAirBone,
 		shakescreen = 0,
 		fire_fx_loop_type = 0,
 		attack_attribute = uv1.WeaponDamageAttr.AIR,

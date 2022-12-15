@@ -24,6 +24,9 @@ function slot0.onRegister(slot0)
 			uv0:sendNotification(GAME.GO_BACK, nil, slot1)
 		end
 	end)
+	slot0:bind(BaseUI.ON_RETURN, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_BACK, slot1)
+	end)
 	slot0:bind(BaseUI.ON_HOME, function (slot0)
 		if getProxy(ContextProxy):getCurrentContext():retriveLastChild() and slot3 ~= slot2 then
 			uv0:sendNotification(GAME.REMOVE_LAYERS, {

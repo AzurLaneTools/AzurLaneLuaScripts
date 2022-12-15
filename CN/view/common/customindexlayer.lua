@@ -60,6 +60,10 @@ function slot0.didEnter(slot0)
 
 	LeanTween.scale(slot0.panel, Vector3(1, 1, 1), 0.2)
 	slot0:InitGroup()
+	slot0:BlurPanel()
+end
+
+function slot0.BlurPanel(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 

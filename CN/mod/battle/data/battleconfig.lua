@@ -36,7 +36,8 @@ slot0.AntiAirConfig = {
 	Restore_Interval = 1,
 	Precast_duration = 0.25,
 	RangeBulletID = 2001,
-	RangeBarrageID = 1
+	RangeBarrageID = 1,
+	RangeAntiAirBone = "rangeantiaircraft"
 }
 slot0.AnitAirRepeaterConfig = {
 	const_A = 32,
@@ -76,6 +77,15 @@ slot0.CameraSizeChangeSpeed = 0.04
 slot0.AircraftHeight = 10
 slot0.AirFighterOffsetZ = 3
 slot0.AirFighterHeight = 10
+slot0.CommonBone = {
+	rangeantiaircraft = {
+		{
+			1.5,
+			1.1,
+			0
+		}
+	}
+}
 slot0.MaxLeft = -10000
 slot0.MaxRight = 10000
 slot0.BornOffset = Vector3(0, 0, 0.1)

@@ -285,6 +285,12 @@ function slot0.SetVisible(slot0, slot1)
 	end
 end
 
+function slot0.IgonreReactPos(slot0, slot1)
+	if slot0.liveCom then
+		slot0.liveCom:IgonreReactPos(slot1)
+	end
+end
+
 function slot0.updateShip(slot0, slot1)
 	if slot1 and slot0.live2dData and slot0.live2dData.ship then
 		slot0.live2dData.ship = slot1
