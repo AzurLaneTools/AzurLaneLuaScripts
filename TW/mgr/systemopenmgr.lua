@@ -66,10 +66,6 @@ function slot0.isOpenSystem(slot0, slot1, slot2)
 		return false
 	end
 
-	if slot2 == "WorldMediator" and WORLD_ENTER_LOCK then
-		return false
-	end
-
 	if slot2 == "CommandRoomMediator" then
 		return uv0(slot1)
 	else

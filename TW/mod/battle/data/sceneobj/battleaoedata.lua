@@ -280,6 +280,10 @@ function slot2.InitCldComponent(slot0)
 	slot0._cldComponent:SetActive(true)
 end
 
+function slot2.GetCldComponent(slot0)
+	return slot0._cldComponent
+end
+
 function slot2.DeactiveCldBox(slot0)
 	slot0._cldComponent:SetActive(false)
 end

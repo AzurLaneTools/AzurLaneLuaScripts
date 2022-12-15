@@ -264,7 +264,7 @@ return {
 			bgName = "bg_ryza_1",
 			say = "歸途中——",
 			bgmDelay = 2,
-			bgm = "ryza-12",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -464,7 +464,7 @@ function slot0.initItem(slot0, slot1)
 					uv0.itemResetPanel:Open(slot0)
 				end
 			})
-		elseif slot0 == WorldItem.UsageWorldClean then
+		elseif slot0 == WorldItem.UsageWorldClean or slot0 == WorldItem.UsageWorldFlag then
 			uv1.itemUsagePanel:Open({
 				item = uv0.itemVO,
 				onUse = function ()

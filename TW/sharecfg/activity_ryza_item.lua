@@ -17,7 +17,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 4
 		}
 	},
@@ -37,7 +37,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 3
 		}
 	},
@@ -58,7 +58,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 2
 		}
 	},
@@ -79,7 +79,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 1
 		}
 	},
@@ -102,7 +102,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 5
 		}
 	},
@@ -825,7 +825,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 210
 		},
 		normal_circle = {
@@ -851,7 +851,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 220
 		},
 		normal_circle = {
@@ -877,7 +877,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 230
 		},
 		normal_circle = {
@@ -903,7 +903,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 240
 		},
 		normal_circle = {
@@ -929,7 +929,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 250
 		},
 		normal_circle = {
@@ -958,7 +958,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 260
 		},
 		normal_circle = {
@@ -1068,7 +1068,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 190
 		}
 	},
@@ -1132,7 +1132,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 270
 		},
 		benefit_buff = {
@@ -1159,7 +1159,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 280
 		},
 		benefit_buff = {
@@ -1186,7 +1186,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 290
 		},
 		benefit_buff = {
@@ -1213,7 +1213,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 300
 		},
 		benefit_buff = {
@@ -1240,7 +1240,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 310
 		},
 		benefit_buff = {
@@ -1267,7 +1267,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 320
 		},
 		benefit_buff = {
@@ -1294,7 +1294,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 330
 		},
 		benefit_buff = {
@@ -1321,7 +1321,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"產出途徑：鍊金工坊調合獲得",
+			"產出途徑：鍊金工房調合獲得",
 			recipeid = 340
 		},
 		benefit_buff = {
@@ -1330,7 +1330,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵裝「閃耀夢想」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「閃耀夢想」的調合。",
+		display = "特殊兵裝「閃耀夢想」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「閃耀夢想」的調合。",
 		name = "模組-閃耀夢想",
 		type = 3,
 		benefit_buff = "",
@@ -1357,7 +1357,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵裝「暗夜星矢」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「暗夜星矢」的調合。",
+		display = "特殊兵裝「暗夜星矢」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「暗夜星矢」的調合。",
 		name = "模組-暗夜星矢",
 		type = 3,
 		benefit_buff = "",
@@ -1384,7 +1384,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵裝「百花盛開」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「百花盛開」的調合。",
+		display = "特殊兵裝「百花盛開」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「百花盛開」的調合。",
 		name = "模組-百花盛開",
 		type = 3,
 		benefit_buff = "",
@@ -1411,7 +1411,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵裝「愛瑟爾劍」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「愛瑟爾劍」的調合。",
+		display = "特殊兵裝「愛瑟爾劍」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「愛瑟爾劍」的調合。",
 		name = "模組-愛瑟爾劍",
 		type = 3,
 		benefit_buff = "",
@@ -1438,7 +1438,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵裝「百合長老」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「百合長老」的調合。",
+		display = "特殊兵裝「百合長老」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「百合長老」的調合。",
 		name = "模組-百合長老",
 		type = 3,
 		benefit_buff = "",
@@ -1465,7 +1465,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵裝「幽蘭爪」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「幽蘭爪」的調合。",
+		display = "特殊兵裝「幽蘭爪」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「幽蘭爪」的調合。",
 		name = "模組-幽蘭爪",
 		type = 3,
 		benefit_buff = "",
@@ -1492,7 +1492,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「炙烈炎燒」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「炙烈炎燒」的調合。",
+		display = "設備裝備「炙烈炎燒」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「炙烈炎燒」的調合。",
 		name = "模組-炙烈炎燒",
 		type = 3,
 		benefit_buff = "",
@@ -1518,7 +1518,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「結晶冰精」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「結晶冰精」的調合。",
+		display = "設備裝備「結晶冰精」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「結晶冰精」的調合。",
 		name = "模組-結晶冰精",
 		type = 3,
 		benefit_buff = "",
@@ -1544,7 +1544,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「震耳雷球」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「震耳雷球」的調合。",
+		display = "設備裝備「震耳雷球」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「震耳雷球」的調合。",
 		name = "模組-震耳雷球",
 		type = 3,
 		benefit_buff = "",
@@ -1570,7 +1570,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「渦旋風精」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「渦旋風精」的調合。",
+		display = "設備裝備「渦旋風精」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「渦旋風精」的調合。",
 		name = "模組-渦旋風精",
 		type = 3,
 		benefit_buff = "",
@@ -1596,7 +1596,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「創世之槌」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「創世之槌」的調合。",
+		display = "設備裝備「創世之槌」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「創世之槌」的調合。",
 		name = "模組-創世之槌",
 		type = 3,
 		benefit_buff = "",
@@ -1623,7 +1623,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「泡雲彈車」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「泡雲彈車」的調合。",
+		display = "設備裝備「泡雲彈車」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「泡雲彈車」的調合。",
 		name = "模組-泡雲彈車",
 		type = 3,
 		benefit_buff = "",
@@ -1650,7 +1650,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「Ｎ／Ａ」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「Ｎ／Ａ」的調合。",
+		display = "設備裝備「Ｎ／Ａ」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「Ｎ／Ａ」的調合。",
 		name = "模組-Ｎ／Ａ",
 		type = 3,
 		benefit_buff = "",
@@ -1677,7 +1677,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「默示錄」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「默示錄」的調合。",
+		display = "設備裝備「默示錄」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「默示錄」的調合。",
 		name = "模組-默示錄",
 		type = 3,
 		benefit_buff = "",
@@ -1706,7 +1706,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「神秘的羽衣」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「神秘的羽衣」的調合。",
+		display = "設備裝備「神秘的羽衣」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「神秘的羽衣」的調合。",
 		name = "模組-神秘的羽衣",
 		type = 3,
 		benefit_buff = "",
@@ -1733,7 +1733,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「萬靈藥劑」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「萬靈藥劑」的調合。",
+		display = "設備裝備「萬靈藥劑」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「萬靈藥劑」的調合。",
 		name = "模組-萬靈藥劑",
 		type = 3,
 		benefit_buff = "",
@@ -1760,7 +1760,7 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "設備裝備「形意口琴」的核心模組。作為配方中不可或缺的素材，可在鍊金工坊中用於「形意口琴」的調合。",
+		display = "設備裝備「形意口琴」的核心模組。作為配方中不可或缺的素材，可在鍊金工房中用於「形意口琴」的調合。",
 		name = "模組-形意口琴",
 		type = 3,
 		benefit_buff = "",

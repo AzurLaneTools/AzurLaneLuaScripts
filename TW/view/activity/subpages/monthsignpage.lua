@@ -98,8 +98,8 @@ function slot0.OnUpdateFlush(slot0)
 	end
 
 	if slot0.activity:getSpecialData("month_sign_awards") and #slot1 > 0 then
-		if not table.contains(MonthSignPage.MONTH_SIGN_SHOW, slot0.activity.id) then
-			table.insert(MonthSignPage.MONTH_SIGN_SHOW, slot0.activity.id)
+		if not table.contains(MonthSignPage.MONTH_SIGN_SHOW, slot0.activity.id .. ":" .. getProxy(PlayerProxy):getPlayerId()) then
+			table.insert(MonthSignPage.MONTH_SIGN_SHOW, slot0.activity.id .. ":" .. slot2)
 
 			if not slot0.monthSignReSignUI:GetLoaded() then
 				slot0.monthSignReSignUI:Load()

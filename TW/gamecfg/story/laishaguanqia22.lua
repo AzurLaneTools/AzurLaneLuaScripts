@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "過去的片段————",
-			bgm = "ryza-1",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -518,7 +518,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "遺跡群島·起始之地 翌日",
 			bgmDelay = 2,
-			bgm = "ryza-4",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "所以這就是在這座臨時鍊金工坊裡的最後一次調和了嗎……稍微有點感傷。",
+			say = "所以這就是在這座臨時鍊金工房裡的最後一次調合了嗎……稍微有點感傷。",
 			painting = {
 				alpha = 0.3,
 				time = 1

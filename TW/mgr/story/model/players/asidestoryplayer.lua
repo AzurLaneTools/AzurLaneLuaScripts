@@ -54,9 +54,11 @@ function slot0.PlayAside(slot0, slot1, slot2)
 			slot5 = slot3[2]
 
 			setText(slot2, HXSet.hxLan(slot3[1]))
-			setTextAlpha(slot2, 0)
+
+			GetOrAddComponent(slot2, typeof(CanvasGroup)).alpha = 0
+
 			table.insert(uv1, function (slot0)
-				uv0:TweenTextAlpha(uv1, 1, uv2.sequenceSpd, uv3, slot0)
+				uv0:TweenValueForcanvasGroup(uv1, 0, 1, uv2.sequenceSpd or 1, uv3, slot0)
 			end)
 
 			if uv4 ~= Mathf.Sign(slot2.localScale.x) then
@@ -78,8 +80,11 @@ function slot0.PlayDateSign(slot0, slot1, slot2)
 	slot6 = slot3[3] or {}
 
 	setText(slot0.dataTxt, HXSet.hxLan(slot3[1]))
-	setTextAlpha(slot0.dataTxt, 0)
-	slot0:TweenTextAlpha(slot0.dataTxt, 1, slot1.sequenceSpd or 1, slot3[2], slot2)
+
+	slot7 = GetOrAddComponent(slot0.dataTxt, typeof(CanvasGroup))
+	slot7.alpha = 0
+
+	slot0:TweenValueForcanvasGroup(slot7, 1, 0, slot1.sequenceSpd or 1, slot3[2], slot2)
 	setAnchoredPosition(slot0.dataTxt, Vector3(slot6[1], slot6[2], 0))
 end
 

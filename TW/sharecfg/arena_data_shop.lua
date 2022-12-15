@@ -40,6 +40,10 @@ pg.arena_data_shop = {
 			{
 				43010,
 				300
+			},
+			{
+				43015,
+				300
 			}
 		},
 		commodity_list_5 = {},

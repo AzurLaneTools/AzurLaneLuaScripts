@@ -11,6 +11,8 @@ end
 function slot1.OutRangeFunc(slot0)
 	slot1 = slot0:GetTemplate()
 	slot2 = slot1.hit_type
+	slot3 = uv0.GetDataProxy()
+	slot5 = slot0:GetDiveFilter()
 
 	slot0:BuffTrigger(uv1.Battle.BattleConst.BuffEffectType.ON_BOMB_BULLET_BANG, {
 		_bullet = slot0,
@@ -18,9 +20,43 @@ function slot1.OutRangeFunc(slot0)
 		bulletTag = slot0:GetExtraTag()
 	})
 
-	slot6 = nil
+	if slot1.extra_param.directDMG then
+		slot7 = slot0:GetTemplate().extra_param.buff_id
 
-	uv0.GetDataProxy():SpawnColumnArea(slot0:GetEffectField(), slot0:GetIFF(), slot0:GetExplodePostion(), slot2.range, slot2.time, function (slot0)
+		slot3:SpawnLastingColumnArea(slot0:GetEffectField(), slot0:GetIFF(), slot0:GetExplodePostion(), slot2.range, slot2.time, function (slot0)
+			if uv0:CanDealDamage() then
+				for slot4, slot5 in ipairs(slot0) do
+					if slot5.Active then
+						slot7 = uv1.GetSceneMediator():GetCharacter(slot5.UID):GetUnitData()
+
+						slot7:AddBuff(uv2.Battle.BattleBuffUnit.New(uv3))
+						uv4:HandleDirectDamage(slot7, uv5.directDMG, uv0)
+					end
+				end
+
+				uv0:DealDamage()
+			end
+		end, function (slot0)
+			if slot0.Active then
+				uv0:GetSceneMediator():GetCharacter(slot0.UID):GetUnitData():RemoveBuff(uv1)
+			end
+		end, false, slot0:GetTemplate().hit_fx, function (slot0)
+			for slot4, slot5 in ipairs(slot0) do
+				if slot5.Active and uv0:GetSceneMediator():GetCharacter(slot5.UID):GetUnitData():IsAlive() then
+					slot6:RemoveBuff(uv1)
+				end
+			end
+
+			uv2:RemoveBulletUnit(uv3:GetUniqueID())
+		end, true):SetDiveFilter(slot5)
+		slot0:HideBullet()
+
+		return
+	end
+
+	slot7 = nil
+
+	slot3:SpawnColumnArea(slot0:GetEffectField(), slot0:GetIFF(), slot0:GetExplodePostion(), slot2.range, slot2.time, function (slot0)
 		if uv0.decay then
 			uv1:UpdateDistanceInfo()
 		end
@@ -37,13 +73,13 @@ function slot1.OutRangeFunc(slot0)
 				uv3:HandleDamage(uv4, uv2.GetSceneMediator():GetCharacter(slot7):GetUnitData(), slot8)
 			end
 		end
-	end):SetDiveFilter(slot0:GetDiveFilter())
+	end):SetDiveFilter(slot5)
 
-	if slot1.extra_param.friendlyFire then
-		slot3:SpawnColumnArea(slot0:GetEffectField(), slot3.GetOppoSideCode(slot0:GetIFF()), slot0:GetExplodePostion(), slot2.range, slot2.time, slot7):SetDiveFilter(slot4)
+	if slot4.friendlyFire then
+		slot3:SpawnColumnArea(slot0:GetEffectField(), slot3.GetOppoSideCode(slot0:GetIFF()), slot0:GetExplodePostion(), slot2.range, slot2.time, slot8):SetDiveFilter(slot5)
 	end
 
-	slot6:SetIndiscriminate(slot1.extra_param.indiscriminate)
+	slot7:SetIndiscriminate(slot4.indiscriminate)
 	slot3:RemoveBulletUnit(slot0:GetUniqueID())
 end
 

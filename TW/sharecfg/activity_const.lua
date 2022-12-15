@@ -421,7 +421,7 @@ pg.activity_const = {
 		act_id = 424
 	},
 	WARSPITE_TRANS = {
-		act_id = 40218
+		act_id = 40970
 	},
 	HOLOLIVE_MAIN = {
 		act_id = 425

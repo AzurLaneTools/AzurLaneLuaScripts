@@ -162,6 +162,29 @@ pg.world_item_data_template = {
 			7
 		}
 	},
+	[120] = {
+		item_transform_item_type = 0,
+		name = "隱秘海域資訊紀錄儀",
+		item_transform_item_id = 0,
+		display = "由指揮部特別製作，儲存有全部隱秘海域資料的資訊紀錄儀。使用以後將會自動偵察本期大型作戰期間的所有隱秘海域，並解鎖隱秘海域計劃模式。",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_world_flag",
+		grid_num = 1,
+		item_transform_item_number = 0,
+		open_box = "",
+		item_transform_num = 0,
+		rarity = 3,
+		id = 120,
+		icon = "Props/W120",
+		expired_date = "",
+		usage_arg = {
+			1
+		},
+		item_origin = {
+			101
+		}
+	},
 	[201] = {
 		item_transform_item_type = 0,
 		name = "應急維修箱",
@@ -785,7 +808,7 @@ pg.world_item_data_template = {
 		item_transform_item_type = 0,
 		name = "檔案座標記錄儀4",
 		item_transform_item_id = 0,
-		display = "解析後可以接到檔案任務，前往對應的檔案海域完成任務，回收檔案。",
+		display = "解析後可以獲得一系列檔案任務，前往對應海域完成任務可回收總計10份檔案（115-5至115-6、144-1至144-8）。<color=#ff5c5c>該物品僅能購買1次，不會隨大型作戰週期性重置而重置，購買後將會自動使用。檔案任務同一時間只能接取一組。</color>",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -804,7 +827,7 @@ pg.world_item_data_template = {
 		item_transform_item_type = 0,
 		name = "檔案座標記錄儀5",
 		item_transform_item_id = 0,
-		display = "解析後可以接到檔案任務，前往對應的檔案海域完成任務，回收檔案。",
+		display = "解析後可以獲得一系列檔案任務，前往對應海域完成任務可回收總計10份檔案（131-1至131-6、143-1至143-6）。<color=#ff5c5c>該物品僅能購買1次，不會隨大型作戰週期性重置而重置，購買後將會自動使用。檔案任務同一時間只能接取一組。</color>",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",
@@ -4217,6 +4240,7 @@ pg.world_item_data_template = {
 		104,
 		105,
 		110,
+		120,
 		201,
 		202,
 		203,

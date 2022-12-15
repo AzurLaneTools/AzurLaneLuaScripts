@@ -166,7 +166,7 @@ function slot0.updateInfo(slot0, slot1)
 	slot0.skillTF.text = slot2:getSkills()[1]:getConfig("name")
 
 	LoadImageSpriteAsync("CommanderRarity/" .. Commander.rarity2Print(slot2:getRarity()), slot0.rarityTF, true)
-	setPaintingPrefab(slot0.paintTF, slot2:getPainting(), "get")
+	setCommanderPaintingPrefab(slot0.paintTF, slot2:getPainting(), "get")
 
 	slot0.painting = slot2
 
@@ -225,7 +225,7 @@ end
 function slot0.willExit(slot0)
 	slot0.treePanel:Destroy()
 	slot0.msgbox:Destroy()
-	retPaintingPrefab(slot0.paintTF, slot0.painting:getPainting())
+	retCommanderPaintingPrefab(slot0.paintTF, slot0.painting:getPainting())
 
 	if slot0.effect then
 		PoolMgr.GetInstance():ReturnUI("AL_zhihuimiao_zhipian", slot0.effect)

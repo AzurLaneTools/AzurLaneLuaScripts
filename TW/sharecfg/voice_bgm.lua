@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		default_bgm = "ryza-1",
+		default_bgm = "main",
 		bgm = "main"
 	},
 	HoloLiveLinkLinkSelectScene = {
@@ -33,8 +33,8 @@ pg.voice_bgm = {
 		bgm = "cw-level"
 	},
 	CourtYardScene = {
-		default_bgm = "ryza-13",
-		bgm = "ryza-13"
+		default_bgm = "backyard",
+		bgm = "backyard"
 	},
 	BattleScene = {
 		default_bgm = "battle-1",
@@ -61,7 +61,7 @@ pg.voice_bgm = {
 		bgm = "backyard"
 	},
 	LoginScene = {
-		default_bgm = "ryza-1",
+		default_bgm = "login",
 		bgm = "login"
 	},
 	NewPlayerScene = {
@@ -69,8 +69,8 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	NewMainScene = {
-		default_bgm = "ryza-13",
-		bgm = "ryza-13"
+		default_bgm = "main",
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -113,11 +113,11 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "ryza-2",
+		default_bgm = "main",
 		bgm = "main"
 	},
 	SkinShopScene = {
-		default_bgm = "ryza-az-pv",
+		default_bgm = "main",
 		bgm = "main"
 	},
 	BuildShipScene = {

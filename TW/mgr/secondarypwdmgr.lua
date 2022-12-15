@@ -17,9 +17,12 @@ function slot2()
 
 	slot0 = {
 		uv0.UNLOCK_SHIP,
-		uv0.UNLOCK_COMMANDER,
 		uv0.RESOLVE_EQUIPMENT
 	}
+
+	if PLATFORM_CODE ~= PLATFORM_US then
+		table.insert(slot0, 2, uv0.UNLOCK_COMMANDER)
+	end
 
 	if PLATFORM_CODE == PLATFORM_JP then
 		table.insert(slot0, uv0.CREATE_INHERIT)

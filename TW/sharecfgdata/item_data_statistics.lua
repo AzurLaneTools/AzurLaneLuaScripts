@@ -138933,6 +138933,27 @@ _G.pg.base.item_data_statistics[59254] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59256] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59256,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59263] = {
 	display = "用於『新歲祝福·壬寅』活動兌換，活動結束後將會消失",
 	name = "東煌結",
@@ -143565,6 +143586,27 @@ _G.pg.base.item_data_statistics[59978] = {
 	id = 59978,
 	is_world = 0,
 	icon = "props/z23draw_i",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59979] = {
+	display = "集齊7個可以獲得厭戰專屬改造道具-戰士的心得",
+	name = "歷戰之證",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 8,
+	link_id = 40970,
+	id = 59979,
+	is_world = 0,
+	icon = "Props/lizhanzhizheng",
 	display_icon = {},
 	price = {},
 	index = {},

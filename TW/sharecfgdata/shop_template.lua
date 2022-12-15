@@ -5262,6 +5262,33 @@ _G.pg.base.shop_template[43010] = {
 	}
 }
 
+_G.pg.base.shop_template[43015] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 3,
+	type = 4,
+	genre = "arena_shop",
+	desc = "8000功勋兑换谢菲尔德(μ兵装)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43015,
+	resource_num = 8000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		202251
+	}
+}
+
 _G.pg.base.shop_template[50002] = {
 	is_auto_use = 0,
 	time_second = 0,
@@ -24824,10 +24851,11 @@ _G.pg.base.shop_template[70259] = {
 	desc = "购买皮肤：埃尔德里奇偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 360,
+	order = 1200,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24838,32 +24866,6 @@ _G.pg.base.shop_template[70259] = {
 	limit_args = {},
 	effect_args = {
 		101264
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24876,10 +24878,11 @@ _G.pg.base.shop_template[70260] = {
 	desc = "购买皮肤：施佩伯爵偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 360,
+	order = 1200,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24890,32 +24893,6 @@ _G.pg.base.shop_template[70260] = {
 	limit_args = {},
 	effect_args = {
 		403054
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24928,10 +24905,11 @@ _G.pg.base.shop_template[70261] = {
 	desc = "购买皮肤：平海偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 360,
+	order = 1200,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24942,32 +24920,6 @@ _G.pg.base.shop_template[70261] = {
 	limit_args = {},
 	effect_args = {
 		502033
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24980,10 +24932,11 @@ _G.pg.base.shop_template[70262] = {
 	desc = "购买皮肤：宁海偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 360,
+	order = 1200,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24994,32 +24947,6 @@ _G.pg.base.shop_template[70262] = {
 	limit_args = {},
 	effect_args = {
 		502023
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -25032,10 +24959,11 @@ _G.pg.base.shop_template[70263] = {
 	desc = "购买皮肤：绫波偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 510,
+	order = 1700,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -25046,32 +24974,6 @@ _G.pg.base.shop_template[70263] = {
 	limit_args = {},
 	effect_args = {
 		301057
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -25084,10 +24986,11 @@ _G.pg.base.shop_template[70264] = {
 	desc = "购买皮肤：拉菲偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 510,
+	order = 1700,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -25098,32 +25001,6 @@ _G.pg.base.shop_template[70264] = {
 	limit_args = {},
 	effect_args = {
 		101176
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -25136,10 +25013,11 @@ _G.pg.base.shop_template[70265] = {
 	desc = "购买皮肤：Z23偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 510,
+	order = 1700,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -25150,32 +25028,6 @@ _G.pg.base.shop_template[70265] = {
 	limit_args = {},
 	effect_args = {
 		401236
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -41069,6 +40921,58 @@ _G.pg.base.shop_template[70624] = {
 	}
 }
 
+_G.pg.base.shop_template[70625] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:新奥尔良兔女郎",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 160,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70625,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		103121
+	},
+	time = {
+		{
+			{
+				2022,
+				12,
+				15
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2022,
+				12,
+				28
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[70665] = {
 	is_auto_use = 0,
 	time_second = 0,
@@ -52897,13 +52801,45 @@ _G.pg.base.shop_template[100012] = {
 	}
 }
 
+_G.pg.base.shop_template[100013] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 3002,
+	type = 12,
+	genre = "world",
+	desc = "隐秘海域记录仪",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100013,
+	resource_num = 1000,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		120
+	}
+}
+
 _G.pg.base.shop_template[100100] = {
 	is_auto_use = 0,
 	time_second = 0,
 	resource_type = 3002,
 	type = 20,
 	genre = "world_collection_task",
-	desc = "强力效能样本-恢复",
+	desc = "档案坐标记录仪1",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 0,
@@ -52993,5 +52929,71 @@ _G.pg.base.shop_template[100102] = {
 	effect_args = {
 		2052,
 		10020
+	}
+}
+
+_G.pg.base.shop_template[100103] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 3002,
+	type = 20,
+	genre = "world_collection_task",
+	desc = "档案坐标记录仪4",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100103,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		2053,
+		10030
+	}
+}
+
+_G.pg.base.shop_template[100104] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 3002,
+	type = 20,
+	genre = "world_collection_task",
+	desc = "档案坐标记录仪5",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100104,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		2054,
+		10040
 	}
 }

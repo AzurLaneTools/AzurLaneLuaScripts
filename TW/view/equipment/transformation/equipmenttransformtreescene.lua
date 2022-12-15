@@ -89,6 +89,8 @@ function slot0.didEnter(slot0)
 			slot0.contextData.nation = slot1
 			slot0.contextData.equipmentTypeIndex = slot2
 		end
+
+		slot0.contextData.targetEquipId = nil
 	end
 
 	slot0:InitPage()
@@ -107,17 +109,25 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.GetSortKeys(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0) do
-		table.insert(slot1, slot5)
-	end
+	slot1 = _.keys(slot0)
 
 	table.sort(slot1, function (slot0, slot1)
 		return slot0 < slot1
 	end)
 
 	return slot1
+end
+
+function slot0.GetSortTypes(slot0)
+	slot1 = _.values(slot0)
+
+	table.sort(slot1, function (slot0, slot1)
+		return slot0.id < slot1.id
+	end)
+
+	return _.map(slot1, function (slot0)
+		return slot0.category2
+	end)
 end
 
 function slot0.InitPage(slot0)
@@ -177,7 +187,7 @@ function slot0.UpdateNations(slot0)
 
 				uv0:UpdateEquipmentTypes()
 
-				slot1 = uv5.GetSortKeys(uv0.env.nationsTree[uv1])[1]
+				slot1 = uv5.GetSortTypes(uv0.env.nationsTree[uv1])[1]
 
 				if uv0.firstInit and uv0.contextData.equipmentTypeIndex and table.contains(slot0, slot2) then
 					slot1 = slot2
@@ -192,7 +202,7 @@ function slot0.UpdateNations(slot0)
 end
 
 function slot0.UpdateEquipmentTypes(slot0)
-	slot0.equipmentTypeToggles = slot0.Clone2Full(slot0.equipmentTypeToggleGroup, #uv0.GetSortKeys(slot0.env.nationsTree[slot0.contextData.nation]))
+	slot0.equipmentTypeToggles = slot0.Clone2Full(slot0.equipmentTypeToggleGroup, #uv0.GetSortTypes(slot0.env.nationsTree[slot0.contextData.nation]))
 
 	for slot5 = 1, #slot0.equipmentTypeToggles do
 		slot6 = slot0.equipmentTypeToggles[slot5]

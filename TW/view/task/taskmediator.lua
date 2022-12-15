@@ -126,9 +126,6 @@ function slot0.enterLevel(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
-end
-
 function slot0.listNotificationInterests(slot0)
 	return {
 		TaskProxy.TASK_ADDED,

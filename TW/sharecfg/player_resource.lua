@@ -1095,6 +1095,11 @@ pg.player_resource = {
 		name = "synchronize_fanji1",
 		itemid = 21908
 	},
+	[3010] = {
+		id = 3010,
+		name = "synchronize_fanji2",
+		itemid = 21909
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -1153,6 +1158,11 @@ pg.player_resource = {
 	[4276] = {
 		id = 4276,
 		name = "skin_rerun_pt1jp",
+		itemid = 0
+	},
+	[4599] = {
+		id = 4599,
+		name = "skin_rerun_pt_2022",
 		itemid = 0
 	},
 	[100004] = {
@@ -1908,6 +1918,9 @@ pg.player_resource = {
 		synchronize_fanji1 = {
 			3009
 		},
+		synchronize_fanji2 = {
+			3010
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -1943,6 +1956,9 @@ pg.player_resource = {
 		},
 		skin_rerun_pt1jp = {
 			4276
+		},
+		skin_rerun_pt_2022 = {
+			4599
 		},
 		skin_rerun_pt = {
 			100004
@@ -2222,6 +2238,7 @@ pg.player_resource = {
 		3007,
 		3008,
 		3009,
+		3010,
 		3106,
 		3137,
 		4001,
@@ -2234,6 +2251,7 @@ pg.player_resource = {
 		4008,
 		4186,
 		4276,
+		4599,
 		100004,
 		40275,
 		30853,

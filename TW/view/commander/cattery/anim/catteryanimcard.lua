@@ -52,7 +52,7 @@ function slot0.LoadCommander(slot0, slot1)
 
 	slot0.painting = slot1:getPainting()
 
-	setPaintingPrefab(slot0.char, slot0.painting, "result1")
+	setCommanderPaintingPrefab(slot0.char, slot0.painting, "result1")
 end
 
 function slot0.AdditionAnim(slot0, slot1, slot2)

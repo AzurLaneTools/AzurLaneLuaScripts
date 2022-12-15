@@ -15,6 +15,10 @@ function slot1.SetArgs(slot0, slot1, slot2)
 end
 
 function slot1.onTakeHealing(slot0, slot1, slot2, slot3)
+	if slot3.incorrupt then
+		return
+	end
+
 	slot4 = slot3.damage
 	slot5 = math.ceil(slot4 * slot0._corruptRate)
 	slot3.damage = slot4 - slot5

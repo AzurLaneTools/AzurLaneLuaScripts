@@ -55,6 +55,7 @@ slot0.EnemySize = {
 	[99.0] = 99
 }
 slot0.ResourceID = 3002
+slot0.SwitchPlainingItemId = 120
 slot0.ReqName = {
 	"OpReqMoveFleet",
 	"OpReqBox",

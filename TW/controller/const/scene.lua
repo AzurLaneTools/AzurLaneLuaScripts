@@ -99,10 +99,11 @@ SCENE = {
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
 	RYZA_TASK = "ryza task scene",
-	WORLD = "scene world",
+	RANDOM_DOCKYARD = "random dockyard",
 	CHARGE_MENU = "scene charge_menu",
-	WORLD_FORMATION = "scene world formation",
+	WORLD = "scene world",
 	EQUIPSCENE = "scene equip",
+	WORLD_FORMATION = "scene world formation",
 	SHIPINFO = "scene shipinfo",
 	DEPOTSCENE = "scene depot scene",
 	BACKHILL_CAMPUSFESTIVAL_2022 = "BACKHILL_CAMPUSFESTIVAL_2022",
@@ -384,7 +385,7 @@ slot0 = {
 	end,
 	[SCENE.SPRING_TOWN] = function (slot0, slot1)
 		slot0.mediator = NewYearFestivalMediator
-		slot0.viewComponent = SpringFestivalTownScene
+		slot0.viewComponent = SpringFestivalTownScene2
 	end,
 	[SCENE.SPRING_FESTIVAL_BACKHILL_2022] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
@@ -560,6 +561,10 @@ slot0 = {
 	[SCENE.RYZA_TASK] = function (slot0, slot1)
 		slot0.mediator = RyzaTaskMediator
 		slot0.viewComponent = RyzaTaskScene
+	end,
+	[SCENE.RANDOM_DOCKYARD] = function (slot0, slot1)
+		slot0.mediator = RandomDockYardMediator
+		slot0.viewComponent = RandomDockYardScene
 	end
 }
 

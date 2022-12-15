@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "隨著磁卡插入大門，海面上出現了一條無障礙的航路，周圍的防禦系統也停止了運作。",
-			bgm = "ryza-5",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,

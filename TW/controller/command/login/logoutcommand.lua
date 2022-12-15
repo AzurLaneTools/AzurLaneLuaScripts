@@ -110,7 +110,7 @@ function slot0.execute(slot0, slot1)
 		end
 	})
 
-	if PLATFORM ~= PLATFORM_WINDOWSEDITOR and slot2.code ~= SDK_EXIT_CODE then
+	if slot2.code ~= SDK_EXIT_CODE then
 		pg.SdkMgr.GetInstance():LogoutSDK(slot2.code)
 	end
 end

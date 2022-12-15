@@ -789,10 +789,10 @@ function slot0.updateCommanderInfo(slot0, slot1)
 	slot0:updateBg(slot2)
 
 	if slot0.painting then
-		retPaintingPrefab(slot0.paintingTF, slot0.painting:getPainting())
+		retCommanderPaintingPrefab(slot0.paintingTF, slot0.painting:getPainting())
 	end
 
-	setPaintingPrefab(slot0.paintingTF, slot2:getPainting(), "info")
+	setCommanderPaintingPrefab(slot0.paintingTF, slot2:getPainting(), "info")
 
 	slot0.painting = slot2
 end
@@ -988,7 +988,7 @@ function slot0.willExit(slot0)
 	end
 
 	if slot0.painting then
-		retPaintingPrefab(slot0.paintingTF, slot0.painting:getPainting())
+		retCommanderPaintingPrefab(slot0.paintingTF, slot0.painting:getPainting())
 	end
 
 	if slot0.mode == uv0.MODE_SELECT and slot0.contextData.maxCount > 1 then

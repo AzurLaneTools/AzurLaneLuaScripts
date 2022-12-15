@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			bgm = "ryza-12",
+			bgm = "story-1",
 			say = "港區·萊莎的鍊金工房（暫設）",
 			flashout = {
 				black = true,
@@ -716,7 +716,7 @@ return {
 			bgName = "bg_story_task",
 			stopbgm = true,
 			say = "在四人的不懈努力下，製作炸彈所需要的材料收集完成了。",
-			bgm = "ryza-1",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

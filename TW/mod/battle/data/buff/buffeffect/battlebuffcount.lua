@@ -12,10 +12,12 @@ end
 
 function slot3.SetArgs(slot0, slot1, slot2)
 	slot0._countTarget = slot0._tempData.arg_list.countTarget or 1
-	slot0._countType = slot0._tempData.arg_list.countType
-	slot0._weaponType = slot0._tempData.arg_list.weaponType
-	slot0._index = slot0._tempData.arg_list.index
-	slot0._gunnerBonus = slot0._tempData.arg_list.gunnerBonus
+	slot0._countType = slot3.countType
+	slot0._weaponType = slot3.weaponType
+	slot0._index = slot3.index
+	slot0._maxHPRatio = slot3.maxHPRatio or 0
+	slot0._casterMaxHPRatio = slot3.casterMaxHPRatio or 0
+	slot0._gunnerBonus = slot3.gunnerBonus
 
 	slot0:ResetCount()
 end
@@ -25,43 +27,43 @@ function slot3.onTrigger(slot0, slot1, slot2)
 
 	slot0._count = slot0._count + 1
 
-	if slot0:getCount(slot1) <= slot0._count then
-		slot1:TriggerBuff(uv1.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
-			buffFX = slot0
-		})
+	slot0:checkCount(slot1)
+end
+
+function slot3.onFire(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
 	end
+
+	slot0._count = slot0._count + 1
+
+	slot0:checkModCount(slot1)
 end
 
 function slot3.onTakeDamage(slot0, slot1, slot2, slot3)
 	if slot0:damageCheck(slot3) then
 		slot0._count = slot0._count + slot3.damage
 
-		if slot0._countTarget <= slot0._count then
-			slot1:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
-				buffFX = slot0
-			})
-		end
+		slot0:checkHPCount(slot1)
 	end
 end
 
 function slot3.onTakeHealing(slot0, slot1, slot2, slot3)
 	slot0._count = slot0._count + slot3.damage
 
-	if slot0:getCount(slot1) <= slot0._count then
-		slot1:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
-			buffFX = slot0
-		})
-	end
+	slot0:checkHPCount(slot1)
+end
+
+function slot3.onHPRatioUpdate(slot0, slot1, slot2, slot3)
+	slot0._count = slot0._count + math.abs(slot3.validDHP)
+
+	slot0:checkHPCount(slot1)
 end
 
 function slot3.onStack(slot0, slot1, slot2, slot3)
 	slot0._count = slot2:GetStack()
 
-	if slot0:getCount(slot1) <= slot0._count then
-		slot1:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
-			buffFX = slot0
-		})
-	end
+	slot0:checkCount(slot1)
 end
 
 function slot3.onBulletHit(slot0, slot1, slot2, slot3)
@@ -71,6 +73,18 @@ function slot3.onBulletHit(slot0, slot1, slot2, slot3)
 
 	slot0._count = slot0._count + slot3.damage
 
+	slot0:checkCount(slot1)
+end
+
+function slot3.checkCount(slot0, slot1)
+	if slot0._countTarget <= slot0._count then
+		slot1:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
+			buffFX = slot0
+		})
+	end
+end
+
+function slot3.checkModCount(slot0, slot1)
 	if slot0:getCount(slot1) <= slot0._count then
 		slot1:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
 			buffFX = slot0
@@ -87,6 +101,24 @@ function slot3.getCount(slot0, slot1)
 	end
 
 	return slot2
+end
+
+function slot3.checkHPCount(slot0, slot1)
+	if not slot0._hpCountTarget then
+		slot0:calcHPCount(slot1)
+	end
+
+	if slot0._hpCountTarget <= slot0._count then
+		slot1:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
+			buffFX = slot0
+		})
+	end
+end
+
+function slot3.calcHPCount(slot0, slot1)
+	slot2, slot3 = slot1:GetHP()
+	slot4, slot5 = slot0._caster:GetHP()
+	slot0._hpCountTarget = slot0._casterMaxHPRatio * slot5 + slot0._maxHPRatio * slot3 + slot0._countTarget
 end
 
 function slot3.GetCountType(slot0)

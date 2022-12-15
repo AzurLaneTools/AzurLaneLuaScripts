@@ -84,6 +84,12 @@ function slot0.UpdateItemDetail(slot0)
 
 			uv1:emit(AtelierMaterialDetailMediator.GO_RECIPE, uv0.recipeid)
 		elseif uv0.taskid then
+			if not getProxy(ActivityProxy):getActivityById(ActivityConst.RYZA_TASK) or slot0:isEnd() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+				return
+			end
+
 			uv1:emit(GAME.GO_SCENE, SCENE.RYZA_TASK, {
 				task_id = uv0.taskid
 			})

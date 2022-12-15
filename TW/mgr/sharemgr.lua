@@ -14,11 +14,11 @@ slot1.TypeCommander = 9
 slot1.TypeColoring = 10
 slot1.TypeChallenge = 11
 slot1.TypeInstagram = 12
-slot1.TypeTWCelebrationShare = 5000
 slot1.TypePizzahut = 13
 slot1.TypeSecondSummary = 14
 slot1.TypePoraisMedals = 15
 slot1.TypeIcecream = 16
+slot1.TypeTWCelebrationShare = 5000
 slot1.PANEL_TYPE_BLACK = 1
 slot1.PANEL_TYPE_PINK = 2
 slot1.ANCHORS_TYPE = {
@@ -70,7 +70,7 @@ function slot1.Init(slot0)
 end
 
 function slot1.Share(slot0, slot1, slot2, slot3)
-	if not CheckPermissionGranted(ANDROID_WRITE_EXTERNAL_PERMISSION) then
+	if PLATFORM_CODE == PLATFORM_CHT and not CheckPermissionGranted(ANDROID_WRITE_EXTERNAL_PERMISSION) then
 		uv0.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n1("指揮官，碧藍航線需要存儲權限才能分享是否打開？"),
 			onYes = function ()
@@ -120,7 +120,12 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 	setText(slot11:Find("name/value"), slot6 and slot6.name or "")
 	setText(slot11:Find("server/value"), slot8 and slot8.name or "")
 	setText(slot11:Find("lv/value"), slot6.level)
-	setActive(slot11:Find("code_bg"), true)
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		setActive(slot11:Find("code_bg"), true)
+	else
+		setActive(slot11:Find("code_bg"), false)
+	end
 
 	slot11.anchoredPosition3D = Vector3(slot5.qrcode_location[1], slot5.qrcode_location[2], -100)
 	slot11.anchoredPosition = Vector2(slot5.qrcode_location[1], slot5.qrcode_location[2])
@@ -172,8 +177,10 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 	elseif slot15:Take(slot13, slot0.screenshot) then
 		print("截图位置: " .. slot0.screenshot)
 		slot0:Show(slot5, slot3)
-	else
+	elseif PLATFORM_CODE == PLATFORM_CHT then
 		uv0.TipsMgr.GetInstance():ShowTips("截圖失敗")
+	else
+		uv0.TipsMgr.GetInstance():ShowTips("截图失败")
 	end
 
 	SetParent(slot11, slot0.tr, false)

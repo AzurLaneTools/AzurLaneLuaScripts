@@ -270,6 +270,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「願汝等揭開龍宮城中謎題，尋獲真正的寶藏」</color>\n「碧海光粼」活動獲取",
 		scene = {}
 	},
+	[317] = {
+		time_limit_type = 0,
+		name = "逆轉之虹",
+		gain_by = "逆轉彩虹之塔",
+		id = 317,
+		time_second = 0,
+		desc = "<color=#ffffff>「向上為神國，向下為冥府。穿越逆轉之虹，向著未知進發吧」</color>\n「逆轉彩虹之塔」活動獲取",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -355,6 +364,7 @@ pg.item_data_frame = {
 		314,
 		315,
 		316,
+		317,
 		401,
 		402,
 		414,

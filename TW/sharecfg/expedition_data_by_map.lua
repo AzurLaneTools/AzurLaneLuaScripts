@@ -10507,6 +10507,50 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200040] = {
+		map = 2200040,
+		name = "激奏的Polaris|| ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "azumaster-ins",
+		enter_story = "",
+		ani_name = "Map_1260001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1260001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[5100000] = {
 		map = 5100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -11411,6 +11455,7 @@ pg.expedition_data_by_map = {
 		2200010,
 		2200020,
 		2200030,
+		2200040,
 		5100000,
 		5100001,
 		5100010,

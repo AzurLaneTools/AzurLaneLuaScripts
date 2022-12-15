@@ -1400,10 +1400,7 @@ function slot0.EliteShipTypeFilter(slot0)
 	slot1 = slot1:getRawData()
 
 	function slot2(slot0, slot1, slot2)
-		slot1 = Clone(slot1)
-
-		ChapterProxy.SortRecommendLimitation(slot1)
-		warning(PrintTable(slot1))
+		ChapterProxy.SortRecommendLimitation(Clone(slot1))
 
 		for slot6, slot7 in ipairs(slot2) do
 			slot8 = nil

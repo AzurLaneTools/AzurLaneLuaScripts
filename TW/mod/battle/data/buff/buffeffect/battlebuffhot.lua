@@ -14,6 +14,7 @@ function slot0.Battle.BattleBuffHOT.SetArgs(slot0, slot1, slot2)
 	slot0._nextEffectTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._time
 	slot0._maxHPRatio = slot0._tempData.arg_list.maxHPRatio or 0
 	slot0._currentHPRatio = slot0._tempData.arg_list.currentHPRatio or 0
+	slot0._incorruptible = slot0._tempData.arg_list.incorrupt
 end
 
 function slot0.Battle.BattleBuffHOT.onStack(slot0, slot1, slot2)
@@ -24,7 +25,8 @@ function slot0.Battle.BattleBuffHOT.onUpdate(slot0, slot1, slot2, slot3)
 		slot1:UpdateHP(slot0:CalcNumber(slot1, slot2), {
 			isMiss = false,
 			isCri = false,
-			isHeal = true
+			isHeal = true,
+			incorrupt = slot0._incorruptible
 		})
 
 		if slot1:IsAlive() then
@@ -37,7 +39,8 @@ function slot0.Battle.BattleBuffHOT.onRemove(slot0, slot1, slot2)
 	slot1:UpdateHP(slot0:CalcNumber(slot1, slot2), {
 		isMiss = false,
 		isCri = false,
-		isHeal = true
+		isHeal = true,
+		incorrupt = slot0._incorruptible
 	})
 end
 

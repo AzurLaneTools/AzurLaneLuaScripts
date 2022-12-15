@@ -20,7 +20,7 @@ end
 function slot0.BuildConfig(slot0)
 	slot0.config = setmetatable({}, {
 		__index = function (slot0, slot1)
-			if slot1 == AttributeType.CD and (pg.equip_data_statistics[uv0.configId].weapon_id or pg.equip_data_template[uv0.configId].weapon_id) and #slot2 > 0 then
+			if slot1 == AttributeType.CD and pg.equip_data_statistics[uv0.configId].weapon_id and #slot2 > 0 then
 				return pg.weapon_property[slot2[1]] and slot3.reload_max
 			end
 
@@ -63,16 +63,30 @@ function slot0.CalcWeanponCD(slot0, slot1)
 	return string.format("%0.2f", ys.Battle.BattleFormulas.CalculateReloadTime(slot0 or 0, slot1 and slot1:getProperties().reload or 100))
 end
 
+slot2 = {
+	attribute_cd = "cd_normal",
+	equip_info_34 = "equip_info_33"
+}
+slot3 = nil
+
+function slot4(slot0)
+	if not uv0 then
+		uv0 = {}
+
+		for slot4, slot5 in pairs(uv1) do
+			uv0[i18n(slot4)] = i18n(slot5)
+		end
+	end
+
+	return uv0[slot0]
+end
+
 function slot0.GetInfoTrans(slot0, slot1)
 	slot2 = slot0.name
 	slot3 = slot0.value
 	slot4 = slot0.auxBoost
 
 	if slot0.type == AttributeType.CD then
-		if not slot1 then
-			slot2 = slot2 or i18n("cd_normal")
-		end
-
 		slot3 = uv0.CalcWeanponCD(slot3, slot1) .. "s" .. i18n("word_secondseach")
 	elseif slot0.type == AttributeType.AirDurability then
 		slot3 = math.floor(slot3[1] + slot3[2] * ((slot1 and slot1.level or 100) - 1) / 1000)
@@ -80,10 +94,16 @@ function slot0.GetInfoTrans(slot0, slot1)
 		slot3 = (math.floor(slot3 / 100) > 0 and "+" or slot3 < 0 and "-" or "") .. slot3 .. "%"
 	end
 
-	return slot2 or AttributeType.Type2Name(slot0.type), slot3 or "", slot4 and slot1 and table.contains(slot1:getSpecificType(), ShipType.SpecificTypeTable.auxiliary)
+	slot2 = slot2 or AttributeType.Type2Name(slot0.type)
+
+	if not slot1 then
+		slot2 = defaultValue(uv1(slot2), slot2)
+	end
+
+	return slot2, slot3 or "", slot4 and slot1 and table.contains(slot1:getSpecificType(), ShipType.SpecificTypeTable.auxiliary)
 end
 
-function slot2(slot0)
+function slot5(slot0)
 	if string.match(slot0, i18n("word_secondseach")) then
 		slot0 = string.gsub(slot0, i18n("word_secondseach"), "")
 	end
@@ -187,6 +207,20 @@ function slot0.GetPropertiesInfo(slot0)
 			type = AttributeType.CD,
 			value = slot1[AttributeType.CD]
 		})
+
+		if slot0:isAircraftExtend() and slot1.weapon_id then
+			slot3.sub = {}
+
+			for slot7, slot8 in ipairs(slot1.weapon_id) do
+				if pg.weapon_property[slot8].type == 11 then
+					table.insert(slot3.sub, {
+						name = i18n("equip_info_34"),
+						type = AttributeType.CD,
+						value = pg.weapon_property[slot8].reload_max
+					})
+				end
+			end
+		end
 	end
 
 	for slot6, slot7 in ipairs(slot0:GetAttributes()) do
@@ -245,7 +279,7 @@ function slot0.GetWeaponPageInfo(slot0, slot1, slot2)
 		if not slot3 then
 			slot0:GetWeaponInfo(slot10, slot2, slot5).sub = {}
 		else
-			table.insert(slot3.sub, slot0:GetWeaponInfo(slot10, slot2, slot5, index))
+			table.insert(slot3.sub, slot0:GetWeaponInfo(slot10, slot2, slot5))
 		end
 	end
 
@@ -255,80 +289,96 @@ end
 function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
 	slot4 = slot3 and pg.weapon_property[slot2].bullet_ID[1] or slot2
 
-	if slot1 == 1 then
-		return {
-			name = i18n("equip_ammo_type_" .. slot0.config[AttributeType.Ammo])
-		}
-	elseif slot1 == 2 then
-		return {
-			name = pg.weapon_property[slot2].name
-		}
-	elseif slot1 == 3 then
-		return {
-			type = AttributeType.Damage,
-			value = pg.weapon_property[slot2].damage
-		}
-	elseif slot1 == 4 then
-		return {
-			name = i18n("equip_info_6"),
-			value = pg.bullet_template[slot4].velocity
-		}
-	elseif slot1 == 5 then
-		return {
-			name = i18n("equip_info_7"),
-			value = pg.bullet_template[slot4].velocity
-		}
-	elseif slot1 == 6 then
-		slot5 = pg.bullet_template[slot4].damage_type
+	switch(slot1, {
+		function ()
+			uv0 = {
+				name = i18n("equip_ammo_type_" .. uv1.config[AttributeType.Ammo])
+			}
+		end,
+		function ()
+			uv0 = {
+				name = pg.weapon_property[uv1].name
+			}
+		end,
+		function ()
+			uv0 = {
+				type = AttributeType.Damage,
+				value = pg.weapon_property[uv1].damage
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("equip_info_6"),
+				value = pg.bullet_template[uv1].velocity
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("equip_info_7"),
+				value = pg.bullet_template[uv1].velocity
+			}
+		end,
+		function ()
+			slot0 = pg.bullet_template[uv0].damage_type
+			uv1 = {
+				name = i18n("equip_info_8"),
+				value = slot0[1] * 100 .. "-" .. slot0[2] * 100 .. "-" .. slot0[3] * 100
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("equip_info_9"),
+				value = pg.bullet_template[uv1].hit_type.range
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("equip_info_10"),
+				value = pg.weapon_property[uv1].range
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("equip_info_11"),
+				value = pg.weapon_property[uv1].angle
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("equip_info_12"),
+				value = (pg.bullet_template[uv1].extra_param.randomOffsetX or "0") .. "*" .. (pg.bullet_template[uv1].extra_param.randomOffsetZ or "0")
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("equip_info_13"),
+				value = uv1.config[AttributeType.Speciality]
+			}
+		end,
+		function ()
+			uv0 = {
+				type = AttributeType.CD,
+				value = pg.weapon_property[uv1].reload_max
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("attribute_max_distance_damage"),
+				value = (1 - pg.bullet_template[uv1].hit_type.decay) * 100 .. "%"
+			}
+		end
+	})
 
-		return {
-			name = i18n("equip_info_8"),
-			value = slot5[1] * 100 .. "-" .. slot5[2] * 100 .. "-" .. slot5[3] * 100
-		}
-	elseif slot1 == 7 then
-		return {
-			name = i18n("equip_info_9"),
-			value = pg.bullet_template[slot4].hit_type.range
-		}
-	elseif slot1 == 8 then
-		return {
-			name = i18n("equip_info_10"),
-			value = pg.weapon_property[slot2].range
-		}
-	elseif slot1 == 9 then
-		return {
-			name = i18n("equip_info_11"),
-			value = pg.weapon_property[slot2].angle
-		}
-	elseif slot1 == 10 then
-		return {
-			name = i18n("equip_info_12"),
-			value = (pg.bullet_template[slot4].extra_param.randomOffsetX or "0") .. "*" .. (pg.bullet_template[slot4].extra_param.randomOffsetZ or "0")
-		}
-	elseif slot1 == 11 then
-		return {
-			name = i18n("equip_info_13"),
-			value = slot0.config[AttributeType.Speciality]
-		}
-	elseif slot1 == 12 then
-		return {
-			type = AttributeType.CD,
-			value = pg.weapon_property[slot2].reload_max
-		}
-	elseif slot1 == 13 then
-		return {
-			name = i18n("attribute_max_distance_damage"),
-			value = (1 - pg.bullet_template[slot4].hit_type.decay) * 100 .. "%"
-		}
-	end
+	return nil
 end
 
-slot3 = {
+slot6 = {
 	nil,
 	nil,
 	true,
 	true,
-	true
+	true,
+	[13.0] = true
 }
 
 function slot0.GetEquipAttrPageInfo(slot0, slot1)
@@ -348,98 +398,117 @@ function slot0.GetEquipAttrPageInfo(slot0, slot1)
 end
 
 function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
-	if slot1 == 1 then
-		return {
-			name = i18n("equip_info_15"),
-			value = pg.weapon_property[slot2].min_range == 0 and slot3.range or slot3.min_range .. "-" .. slot3.range
-		}
-	elseif slot1 == 2 then
-		return {
-			name = i18n("equip_info_16"),
-			value = pg.weapon_property[slot2].angle
-		}
-	elseif slot1 == 3 then
-		slot3 = pg.bullet_template[slot2]
+	switch(slot1, {
+		function ()
+			uv1 = {
+				name = i18n("equip_info_15"),
+				value = pg.weapon_property[uv0].min_range == 0 and slot0.range or slot0.min_range .. "-" .. slot0.range
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("equip_info_16"),
+				value = pg.weapon_property[uv1].angle
+			}
+		end,
+		function ()
+			slot0 = pg.bullet_template[uv0]
+			uv1 = {
+				name = i18n("equip_info_17"),
+				value = slot0.range - slot0.range_offset .. "-" .. slot0.range + slot0.range_offset
+			}
+		end,
+		function ()
+			uv1 = {
+				name = i18n("equip_info_18"),
+				value = pg.barrage_template[uv0].random_angle and slot0.angle or math.abs(slot0.delta_angle) * slot0.primal_repeat
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("attribute_scatter"),
+				value = pg.bullet_template[uv1].extra_param.randomOffsetX
+			}
+		end,
+		function ()
+			uv0 = {
+				name = i18n("equip_info_19"),
+				value = Nation.Nation2Name(uv1.config.nationality)
+			}
+		end,
+		function ()
+			uv1 = {
+				name = i18n("equip_info_20"),
+				value = pg.aircraft_template[uv0.id].speed
+			}
+		end,
+		function ()
+			slot0 = pg.aircraft_template[uv0.id]
+			uv1 = {
+				name = i18n("equip_info_21"),
+				type = AttributeType.AirDurability,
+				value = {
+					slot0.max_hp,
+					slot0.hp_growth
+				}
+			}
+		end,
+		function ()
+			uv1 = {
+				name = i18n("equip_info_22"),
+				value = pg.aircraft_template[uv0.id].dodge_limit
+			}
+		end,
+		function ()
+			if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+				uv0 = {
+					name = i18n("equip_info_28"),
+					type = AttributeType.Corrected,
+					value = EquipmentRarity.Rarity2CorrectedLevel(uv1.config.rarity, uv1.config.level)
+				}
+			else
+				uv0 = {
+					name = i18n("equip_info_28"),
+					type = AttributeType.Corrected,
+					value = pg.weapon_property[uv2].corrected .. "%"
+				}
+			end
+		end,
+		function ()
+			if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+				uv0 = nil
+			else
+				uv0 = {
+					name = i18n("equip_info_29"),
+					value = AttributeType.Type2Name(({
+						AttributeType.Cannon,
+						AttributeType.Torpedo,
+						AttributeType.AntiAircraft,
+						AttributeType.Air,
+						AttributeType.AntiSub
+					})[pg.weapon_property[uv1].attack_attribute])
+				}
+			end
+		end,
+		function ()
+			if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+				uv0 = nil
+			else
+				uv0 = {
+					name = i18n("equip_info_30"),
+					value = pg.weapon_property[uv1].attack_attribute_ratio .. "%"
+				}
+			end
+		end,
+		function ()
+			uv1 = {
+				name = i18n("equip_info_32"),
+				value = math.abs(pg.bullet_template[uv0].extra_param.aim_offset)
+			}
+		end
+	})
 
-		return {
-			name = i18n("equip_info_17"),
-			value = slot3.range - slot3.range_offset .. "-" .. slot3.range + slot3.range_offset
-		}
-	elseif slot1 == 4 then
-		return {
-			name = i18n("equip_info_18"),
-			value = pg.barrage_template[slot2].random_angle and slot3.angle or math.abs(slot3.delta_angle) * slot3.primal_repeat
-		}
-	elseif slot1 == 5 then
-		return {
-			name = i18n("attribute_scatter"),
-			value = pg.bullet_template[slot2].extra_param.randomOffsetX
-		}
-	elseif slot1 == 6 then
-		return {
-			name = i18n("equip_info_19"),
-			value = Nation.Nation2Name(slot0.config.nationality)
-		}
-	elseif slot1 == 7 then
-		return {
-			name = i18n("equip_info_20"),
-			value = pg.aircraft_template[slot0.id].speed
-		}
-	elseif slot1 == 8 then
-		slot3 = pg.aircraft_template[slot0.id]
-
-		return {
-			name = i18n("equip_info_21"),
-			type = AttributeType.AirDurability,
-			value = {
-				slot3.max_hp,
-				slot3.hp_growth
-			}
-		}
-	elseif slot1 == 9 then
-		return {
-			name = i18n("equip_info_22"),
-			value = pg.aircraft_template[slot0.id].dodge_limit
-		}
-	elseif slot1 == 10 then
-		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-			return {
-				name = i18n("equip_info_28"),
-				type = AttributeType.Corrected,
-				value = EquipmentRarity.Rarity2CorrectedLevel(slot0.config.rarity, slot0.config.level)
-			}
-		else
-			return {
-				name = i18n("equip_info_28"),
-				type = AttributeType.Corrected,
-				value = pg.weapon_property[slot2].corrected .. "%"
-			}
-		end
-	elseif slot1 == 11 then
-		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-			return nil
-		else
-			return {
-				name = i18n("equip_info_29"),
-				value = AttributeType.Type2Name(({
-					AttributeType.Cannon,
-					AttributeType.Torpedo,
-					AttributeType.AntiAircraft,
-					AttributeType.Air,
-					AttributeType.AntiSub
-				})[pg.weapon_property[slot2].attack_attribute])
-			}
-		end
-	elseif slot1 == 12 then
-		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-			return nil
-		else
-			return {
-				name = i18n("equip_info_30"),
-				value = pg.weapon_property[slot2].attack_attribute_ratio .. "%"
-			}
-		end
-	end
+	return nil
 end
 
 function slot0.GetGearScore(slot0)

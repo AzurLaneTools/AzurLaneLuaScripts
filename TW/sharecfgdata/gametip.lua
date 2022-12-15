@@ -9638,15 +9638,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "讓·巴爾、麻薩諸塞、敦克爾克 建造追加！"
+	tip = "加斯科涅(μ兵裝)、希佩爾將軍(μ兵裝)  建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "惡毒、凱旋、倔强、福爾班、勒馬爾 建造追加！"
+	tip = "克里夫蘭(μ兵裝) 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "速科夫 建造追加！"
+	tip = "赤城(μ兵裝) 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -10607,7 +10607,7 @@ _G.pg.base.gametip.medal_notice_2 = {
 _G.pg.base.gametip.medal_help_tip = {
 	tip = {
 		{
-			info = "收藏室功能详情：\n"
+			info = "收藏室功能詳情：\n"
 		},
 		{
 			info = "-勋章："
@@ -10637,7 +10637,7 @@ _G.pg.base.gametip.medal_help_tip = {
 			info = "已领取的勋章可以通过在主介面左上角点击秘书舰头像，\n   再点击装扮按钮，设置是否佩戴 "
 		},
 		{
-			info = "·已佩戴的勋章会展示在个人信息页及履历详情中"
+			info = "·已佩戴的勋章会展示在个人信息页及履历詳情中"
 		},
 		{
 			info = "-其他"
@@ -10718,6 +10718,10 @@ _G.pg.base.gametip.text_exchange = {
 
 _G.pg.base.gametip.text_retreat = {
 	tip = "撤 退"
+}
+
+_G.pg.base.gametip.text_goto = {
+	tip = "前 往"
 }
 
 _G.pg.base.gametip.level_scene_title_word_1 = {
@@ -14247,6 +14251,18 @@ _G.pg.base.gametip.equip_info_31 = {
 	tip = "空襲"
 }
 
+_G.pg.base.gametip.equip_info_32 = {
+	tip = "瞄準提前量"
+}
+
+_G.pg.base.gametip.equip_info_33 = {
+	tip = "迎擊標準射速"
+}
+
+_G.pg.base.gametip.equip_info_34 = {
+	tip = "迎擊射速"
+}
+
 _G.pg.base.gametip.equip_info_extralevel_0 = {
 	tip = "等級0"
 }
@@ -16807,6 +16823,18 @@ _G.pg.base.gametip.world_automode_title_2 = {
 	tip = "OPERATION"
 }
 
+_G.pg.base.gametip.world_automode_treasure_1 = {
+	tip = "購買隱秘海域資訊紀錄儀後解鎖"
+}
+
+_G.pg.base.gametip.world_automode_treasure_2 = {
+	tip = "使用隱秘海域資訊紀錄儀後解鎖"
+}
+
+_G.pg.base.gametip.world_automode_treasure_3 = {
+	tip = "需要大型作戰重置後才可購買"
+}
+
 _G.pg.base.gametip.world_automode_cancel = {
 	tip = "取消"
 }
@@ -16829,6 +16857,10 @@ _G.pg.base.gametip.world_automode_start_tip3 = {
 
 _G.pg.base.gametip.world_automode_start_tip4 = {
 	tip = "當前海域無法離開"
+}
+
+_G.pg.base.gametip.world_automode_start_tip5 = {
+	tip = "當前海域中無法啟用，請先前往安全海域"
 }
 
 _G.pg.base.gametip.world_automode_setting_1 = {
@@ -16913,6 +16945,30 @@ _G.pg.base.gametip.world_automode_setting_all_4_1 = {
 
 _G.pg.base.gametip.world_automode_setting_all_4_2 = {
 	tip = "否"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1 = {
+	tip = "需要壓制的侵蝕等級"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_1 = {
+	tip = "3級以下"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_2 = {
+	tip = "4"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_3 = {
+	tip = "5"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_4 = {
+	tip = "6"
+}
+
+_G.pg.base.gametip.world_automode_setting_new_1_5 = {
+	tip = "全部"
 }
 
 _G.pg.base.gametip.world_collection_task_tip_1 = {
@@ -19980,7 +20036,7 @@ _G.pg.base.gametip.worldboss_rank_timer_label = {
 }
 
 _G.pg.base.gametip.technology_detail = {
-	tip = "查看详情"
+	tip = "查看詳情"
 }
 
 _G.pg.base.gametip.technology_mission_unfinish = {
@@ -20641,4 +20697,76 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_empty = {
+	tip = "當前秘書艦列表為空，點擊編輯按鈕可添加角色"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
+	tip = "添加"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_remove = {
+	tip = "移除"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip1 = {
+	tip = "隨機秘書組將從以上角色中隨機選取"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip2 = {
+	tip = "角色總數："
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_empty = {
+	tip = "秘書艦列表中暫無角色"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_all = {
+	tip = "全部選中"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
+	tip = "選擇角色添加至秘書艦列表"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_number = {
+	tip = "已選中："
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_complete = {
+	tip = "添加角色成功"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip2 = {
+	tip = "將添加以上角色進入秘書艦列表"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip1 = {
+	tip = "選擇角色從秘書艦列表中移除"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_complete = {
+	tip = "移除角色成功"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip2 = {
+	tip = "將從秘書艦列表中移除以上角色"
+}
+
+_G.pg.base.gametip.index_dressed = {
+	tip = "已換裝"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode = {
+	tip = "自定義秘書艦列表"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_title = {
+	tip = "添加角色"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_title = {
+	tip = "移除角色"
 }

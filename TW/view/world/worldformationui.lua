@@ -194,8 +194,7 @@ function slot0.updateSubAmm(slot0, slot1)
 	setActive(slot0._subAmm, slot1)
 
 	if slot1 then
-		slot2 = slot0.fleet:GetAmmo()
-		slot3 = slot0.fleet:GetTotalAmmo()
+		slot2, slot3 = slot0.fleet:GetAmmo()
 
 		setText(slot0:findTF("Text", slot0._subAmm), slot2 .. "/" .. slot3)
 		setSlider(slot0:findTF("Slider", slot0._subAmm), 0, slot3, slot2)

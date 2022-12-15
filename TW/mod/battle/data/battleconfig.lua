@@ -20,6 +20,9 @@ slot0.RANDOM_DAMAGE_MIN = 0
 slot0.RANDOM_DAMAGE_MAX = 2
 slot0.BASIC_TIME_SCALE = 1
 slot0.SPINE_SCALE = 2
+slot0.BULLET_UPPER_BOUND_VISION_OFFSET = 30
+slot0.BULLET_LEFT_BOUND_SPLIT_OFFSET = 8
+slot0.BULLET_LOWER_BOUND_SPLIT_OFFSET = 8
 slot0.CAMERA_INIT_POS = Vector3(0, 62, -10)
 slot0.CAMERA_SIZE = 20
 slot0.CAMERA_BASE_HEIGH = 8
@@ -32,8 +35,9 @@ slot0.AntiAirConfig = {
 	const_B = 40,
 	Restore_Interval = 1,
 	Precast_duration = 0.25,
-	RangeBulletID = 903,
-	RangeBarrageID = 1
+	RangeBulletID = 2001,
+	RangeBarrageID = 1,
+	RangeAntiAirBone = "rangeantiaircraft"
 }
 slot0.AnitAirRepeaterConfig = {
 	const_A = 32,
@@ -73,6 +77,15 @@ slot0.CameraSizeChangeSpeed = 0.04
 slot0.AircraftHeight = 10
 slot0.AirFighterOffsetZ = 3
 slot0.AirFighterHeight = 10
+slot0.CommonBone = {
+	rangeantiaircraft = {
+		{
+			1.5,
+			1.1,
+			0
+		}
+	}
+}
 slot0.MaxLeft = -10000
 slot0.MaxRight = 10000
 slot0.BornOffset = Vector3(0, 0, 0.1)

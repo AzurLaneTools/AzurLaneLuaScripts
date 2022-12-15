@@ -579,6 +579,54 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[14] = {
+		memory_group = 172,
+		name = "偶像一期常驻复刻",
+		activity_type = 2,
+		id = 14,
+		bg = "temp_ouxiang",
+		order = 14,
+		config_data = {
+			2200041,
+			2200042,
+			2200043,
+			2200044,
+			2200045
+		},
+		chapter_progress = {
+			20,
+			40,
+			60,
+			80,
+			100
+		},
+		drop_gain = {
+			{},
+			{
+				2200045,
+				3,
+				89200,
+				60
+			}
+		},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					30315
+				},
+				"SP1、SP2、SP3、SP4、SP5"
+			},
+			{
+				{
+					2,
+					11039
+				},
+				"SP5"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -589,6 +637,7 @@ pg.re_map_template = {
 		8,
 		9,
 		10,
-		12
+		12,
+		14
 	}
 }

@@ -407,13 +407,6 @@ function slot0.willExit(slot0)
 	slot0:OpDispose()
 	WSCommand.Unbind(slot0)
 	WBank:Recycle(WorldMapOp)
-
-	slot1 = pg.PoolMgr.GetInstance()
-
-	slot1:DestroyPrefab("world/object/world_cell", "world_cell")
-	slot1:DestroyPrefab("world/object/world_cell_quad", "world_cell_quad")
-	slot1:DestroyPrefab("world/object/world_cell_transport", "world_cell_transport")
-	slot1:DestroyPrefab("world/object/world_cell_item", "world_cell_item")
 end
 
 function slot0.SetPlayer(slot0, slot1)
@@ -2306,21 +2299,40 @@ function slot0.StartAutoSwitch(slot0)
 	slot2 = slot1:GetActiveEntrance()
 	slot3 = slot1:GetActiveMap()
 
-	if PlayerPrefs.GetInt("auto_switch_mode", 0) > 0 and PlayerPrefs.GetString("auto_switch_difficult_safe", "only") == "only" and World.ReplacementMapType(slot2, slot3) ~= "complete_chapter" then
+	if PlayerPrefs.GetInt("auto_switch_mode", 0) == WorldSwitchPlanningLayer.MODE_SAFE and PlayerPrefs.GetString("auto_switch_difficult_safe", "only") == "only" and World.ReplacementMapType(slot2, slot3) ~= "complete_chapter" then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip3"))
+
+		return
+	elseif PlayerPrefs.GetInt("auto_switch_mode", 0) == WorldSwitchPlanningLayer.MODE_TREASURE and not slot1:GetGobalFlag("treasure_flag") then
+		pg.TipsMgr.GetInstance():ShowTips("without auto switch flag")
 
 		return
 	end
 
 	slot0:QueryTransport(function (slot0)
 		if not slot0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip4"))
+			if PlayerPrefs.GetInt("auto_switch_mode", 0) == WorldSwitchPlanningLayer.MODE_TREASURE and World.ReplacementMapType(uv0, uv1) == "teasure_chapter" then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip5"))
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip4"))
+			end
 		else
 			getProxy(MetaCharacterProxy):setMetaTacticsInfoOnStart()
-			triggerToggle(uv0.wsMapRight.toggleSkipPrecombat, true)
+			triggerToggle(uv2.wsMapRight.toggleSkipPrecombat, true)
 			PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(SYSTEM_WORLD), 1)
-			uv0:Op("OpAutoSwitchMap")
+			uv2:Op("OpAutoSwitchMap")
 		end
+	end)
+end
+
+function slot0.MoveAndOpenLayer(slot0, slot1)
+	slot2 = {}
+
+	table.insert(slot2, function (slot0)
+		uv0:Op("OpSetInMap", uv1.inMap, slot0)
+	end)
+	seriesAsync(slot2, function ()
+		uv0:Op("OpOpenLayer", uv1.context)
 	end)
 end
 

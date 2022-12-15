@@ -8,7 +8,7 @@ slot7 = false
 slot8 = {}
 slot9, slot10, slot11, slot12 = nil
 slot1.needStartSend = false
-slot13, slot14 = nil
+slot13, slot14, slot15, slot16 = nil
 
 function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 	uv0.erroCode = slot4
@@ -30,18 +30,18 @@ function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 			uv9 = uv0.IPAddress.New()
 		end
 
-		pingDelay = -1
-		uv10 = true
-		uv11 = false
+		uv10 = -1
+		uv11 = true
+		uv12 = false
 
-		uv12()
+		uv13()
 		uv7:resetHBTimer()
 	end)
 	uv2.onData:AddListener(slot0.onData)
 	uv2.onError:AddListener(slot0.onError)
 	uv2.onDisconnected:AddListener(slot0.onDisconnected)
 
-	uv10 = true
+	uv11 = true
 
 	uv2:Connect()
 	originalPrint("connect to - " .. slot1 .. ":" .. slot2)
@@ -348,17 +348,17 @@ function slot1.resetHBTimer(slot0)
 	slot0:stopHBTimer()
 
 	uv0 = Timer.New(function ()
-		heartTime = TimeUtil.GetSystemTime()
+		uv0 = TimeUtil.GetSystemTime()
 
-		uv0:Send(10100, {
+		uv1:Send(10100, {
 			need_request = 1
 		}, 10101, function (slot0)
-			slot1 = TimeUtil.GetSystemTime() - heartTime
+			slot1 = TimeUtil.GetSystemTime() - uv0
 
-			if pingDelay == -1 then
-				pingDelay = slot1
+			if uv1 == -1 then
+				uv1 = slot1
 			else
-				pingDelay = (slot1 + pingDelay) / 2
+				uv1 = (slot1 + uv1) / 2
 			end
 		end, false)
 	end, HEART_BEAT_TIMEOUT, -1, true)
@@ -366,9 +366,13 @@ function slot1.resetHBTimer(slot0)
 	uv0:Start()
 end
 
-slot15 = 0
-slot16 = 2
-slot17, slot18 = nil
+function slot1.GetPingDelay(slot0)
+	return uv0
+end
+
+slot17 = 0
+slot18 = 2
+slot19, slot20 = nil
 
 function slot1.SetProxyHost(slot0, slot1, slot2)
 	uv0 = slot1

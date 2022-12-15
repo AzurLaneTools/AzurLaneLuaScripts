@@ -26,7 +26,6 @@ require("Mgr/SecondaryPWDMgr")
 require("Mgr/SystemGuideMgr")
 require("Mgr/Sdk/SdkMgr")
 require("Mgr/Tracker/TrackerMgr")
-require("Mgr/DeepLinking/YongshiDeepLinkingMgr")
 require("Mgr/Custom/DynamicBgMgr")
 require("Mgr/Custom/CpkPlayMgr")
 require("Mgr/OSS/OSSMgr")
@@ -38,3 +37,7 @@ require("Mgr/UserAgreementMgr")
 require("Mgr/BrightnessMgr")
 require("Mgr/ConfigTablePreloadMgr")
 require("Mgr/Fix/CameraFixMgr")
+
+if PLATFORM_CODE == PLATFORM_CHT then
+	require("Mgr/DeepLinking/YongshiDeepLinkingMgr")
+end

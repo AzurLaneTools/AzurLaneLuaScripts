@@ -643,9 +643,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[180] = {
-		display = "可以獲得一件隨機的鍊金工坊風格外觀裝備",
+		display = "可以獲得一件隨機的鍊金工房風格外觀裝備",
 		rarity = 4,
-		name = "裝備外觀箱(鍊金工坊)",
+		name = "裝備外觀箱(鍊金工房)",
 		type = 2,
 		id = 180,
 		item_num = 10,

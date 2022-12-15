@@ -12,7 +12,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
 			say = "過去的片段————",
-			bgm = "ryza-11",
+			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -269,7 +269,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "遺跡群島·起始之地 萊莎的臨時鍊金工房",
 			bgmDelay = 2,
-			bgm = "ryza-13",
+			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

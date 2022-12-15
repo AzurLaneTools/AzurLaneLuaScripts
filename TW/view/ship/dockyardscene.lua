@@ -24,8 +24,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
-
 	slot0._tf:SetAsLastSibling()
 
 	slot1 = slot0.contextData
@@ -52,19 +50,22 @@ function slot0.init(slot0)
 	slot0.onSelected = slot1.onSelected or function ()
 		warning("not implemented.")
 	end
-	slot0.settingBtn = slot0:findTF("blur_panel/adapt/left_length/frame/setting")
+	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.settingBtn = slot0.blurPanel:Find("adapt/left_length/frame/setting")
 	slot0.settingPanel = DockyardQuickSelectSettingPage.New(slot0._tf, slot0.event)
 
 	slot0.settingPanel:OnSettingChanged(function ()
 		uv0:unselecteAllShips()
 	end)
 
-	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0.blurPanel:Find("adapt/top")
 	slot0.sortBtn = slot0.topPanel:Find("sort_button")
 	slot0.sortImgAsc = slot0.sortBtn:Find("asc")
 	slot0.sortImgDesc = slot0.sortBtn:Find("desc")
 	slot0.leftTipsText = slot0.topPanel:Find("capacity")
+
+	setActive(slot0.leftTipsText, false)
+
 	slot0.preferenceBtn = slot0.topPanel:Find("preference_toggle")
 	slot0.indexBtn = slot0.topPanel:Find("index_button")
 	slot0.attrBtn = slot0.topPanel:Find("attr_toggle")
@@ -73,9 +74,6 @@ function slot0.init(slot0)
 	slot0.energyDescTF = slot0:findTF("energy_desc")
 	slot0.energyDescTextTF = slot0.energyDescTF:Find("Text")
 	slot0.selectPanel = slot0.blurPanel:Find("select_panel")
-
-	setActive(slot0.selectPanel, slot0.contextData.mode ~= uv0.MODE_WORLD)
-
 	slot0.bottomTipsText = slot0.selectPanel:Find("tip")
 	slot0.bottomTipsWithFrameText = slot0.selectPanel:Find("tipwithframe/Text")
 	slot0.awardTF = slot0.selectPanel:Find("bottom_info/bg_award")
@@ -90,8 +88,8 @@ function slot0.init(slot0)
 
 	setActive(slot0.worldPanel, slot0.contextData.mode == uv0.MODE_WORLD)
 
-	slot0.assultBtn = slot0:findTF("blur_panel/adapt/top/assult_btn")
-	slot0.stampBtn = slot0:findTF("stamp", slot0.topPanel)
+	slot0.assultBtn = slot0.blurPanel:Find("adapt/top/assult_btn")
+	slot0.stampBtn = slot0.topPanel:Find("stamp")
 	slot0.isRemouldOrUpgradeMode = slot0.contextData.mode == uv0.MODE_REMOULD or slot0.contextData.mode == uv0.MODE_UPGRADE
 
 	setActive(slot0.preferenceBtn, not slot0.isRemouldOrUpgradeMode)
@@ -101,33 +99,44 @@ function slot0.init(slot0)
 	setActive(slot0.modLeveFilter, slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.modLockFilter, slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.assultBtn, slot0.contextData.mode == uv0.MODE_GUILD_BOSS)
+	switch(slot0.contextData.mode, {
+		[uv0.MODE_OVERVIEW] = function ()
+			uv0.selecteEnabled = false
+		end,
+		[uv0.MODE_DESTROY] = function ()
+			uv0.selecteEnabled = true
+			uv0.blacklist = {}
+			uv0.destroyResList = UIItemList.New(uv0.awardTF, uv0.awardTF:Find("res"))
+		end,
+		[uv0.MODE_MOD] = function ()
+			uv0.selecteEnabled = true
 
-	if slot0.contextData.mode == uv0.MODE_OVERVIEW then
-		slot0.selecteEnabled = false
-	elseif slot0.contextData.mode == uv0.MODE_DESTROY then
-		slot0.selecteEnabled = true
-		slot0.destroyResList = UIItemList.New(slot0.awardTF, slot0:findTF("res", slot0.awardTF))
-	elseif slot0.contextData.mode == uv0.MODE_MOD then
-		slot0.selecteEnabled = true
+			setText(uv0.modAttrsTF:Find("title/Text"), i18n("word_mod_value"))
 
-		setText(slot0.modAttrsTF:Find("title/Text"), i18n("word_mod_value"))
+			uv0.modAttrContainer = uv0.modAttrsTF:Find("attrs")
+		end
+	}, function ()
+		uv0.selecteEnabled = true
+	end)
+	setActive(slot0.selectPanel, slot0.selecteEnabled and slot0.contextData.mode ~= uv0.MODE_WORLD)
+	setActive(slot0.worldPanel, slot0.contextData.mode == uv0.MODE_WORLD)
 
-		slot0.modAttrContainer = slot0.modAttrsTF:Find("attrs")
-	else
-		slot0.selecteEnabled = true
-	end
+	slot2 = slot0.contextData.mode == uv0.MODE_DESTROY
+
+	setActive(slot0.settingBtn, slot2)
+	setActive(slot0.selectPanel:Find("quick_select"), slot2)
 
 	slot0.destroyConfirmWindow = ShipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 
 	if slot0.contextData.priorEquipUpShipIDList and slot0.contextData.priorMode then
 		setActive(slot0.tipPanel, true)
 
-		slot2 = slot0:findTF("EquipUP", slot0.tipPanel)
+		slot3 = slot0:findTF("EquipUP", slot0.tipPanel)
 
-		setText(slot2, i18n("fightfail_choiceequip"))
+		setText(slot3, i18n("fightfail_choiceequip"))
 		setText(slot0:findTF("ShipUP", slot0.tipPanel), i18n("fightfail_choicestrengthen"))
-		setActive(slot2, slot0.contextData.priorMode == uv0.PRIOR_MODE_EQUIP_UP)
-		setActive(slot3, slot0.contextData.priorMode == uv0.PRIOR_MODE_SHIP_UP)
+		setActive(slot3, slot0.contextData.priorMode == uv0.PRIOR_MODE_EQUIP_UP)
+		setActive(slot4, slot0.contextData.priorMode == uv0.PRIOR_MODE_SHIP_UP)
 	end
 
 	if slot0.contextData.selectFriend then
@@ -161,21 +170,21 @@ function slot0.init(slot0)
 	slot0.scrollItems = {}
 
 	if _G[slot0.contextData.preView] then
-		slot0.sortIndex = slot2.sortIndex or ShipIndexConst.SortLevel
-		slot0.selectAsc = slot2.selectAsc or false
-		slot0.typeIndex = slot2.typeIndex or ShipIndexConst.TypeAll
-		slot0.campIndex = slot2.campIndex or ShipIndexConst.CampAll
-		slot0.rarityIndex = slot2.rarityIndex or ShipIndexConst.RarityAll
-		slot0.extraIndex = slot2.extraIndex or ShipIndexConst.ExtraAll
-		slot0.commonTag = slot2.commonTag or Ship.PREFERENCE_TAG_NONE
-	elseif slot0.contextData.sortData then
-		slot0.sortIndex = slot0.contextData.sortData.sort or ShipIndexConst.SortLevel
-		slot0.selectAsc = slot3.Asc or false
+		slot0.sortIndex = slot3.sortIndex or ShipIndexConst.SortLevel
+		slot0.selectAsc = slot3.selectAsc or false
 		slot0.typeIndex = slot3.typeIndex or ShipIndexConst.TypeAll
 		slot0.campIndex = slot3.campIndex or ShipIndexConst.CampAll
 		slot0.rarityIndex = slot3.rarityIndex or ShipIndexConst.RarityAll
 		slot0.extraIndex = slot3.extraIndex or ShipIndexConst.ExtraAll
 		slot0.commonTag = slot3.commonTag or Ship.PREFERENCE_TAG_NONE
+	elseif slot0.contextData.sortData then
+		slot0.sortIndex = slot0.contextData.sortData.sort or ShipIndexConst.SortLevel
+		slot0.selectAsc = slot4.Asc or false
+		slot0.typeIndex = slot4.typeIndex or ShipIndexConst.TypeAll
+		slot0.campIndex = slot4.campIndex or ShipIndexConst.CampAll
+		slot0.rarityIndex = slot4.rarityIndex or ShipIndexConst.RarityAll
+		slot0.extraIndex = slot4.extraIndex or ShipIndexConst.ExtraAll
+		slot0.commonTag = slot4.commonTag or Ship.PREFERENCE_TAG_NONE
 	else
 		slot0.selectAsc = DockyardScene.selectAsc or false
 		slot0.sortIndex = DockyardScene.sortIndex or ShipIndexConst.SortLevel
@@ -501,19 +510,15 @@ function slot0.updateBarInfo(slot0)
 	setActive(slot0.bottomTipsWithFrameText.parent, false)
 
 	if slot0.contextData.mode == uv0.MODE_WORLD or slot0.contextData.mode == uv0.MODE_GUILD_BOSS then
-		setActive(slot0.leftTipsText, false)
 		setText(slot0.bottomTipsText, "")
 	elseif slot0.contextData.leftTopInfo then
 		setText(slot0.bottomTipsText, i18n("dock_yard_left_tips", slot0.contextData.leftTopInfo))
-		setActive(slot0.leftTipsText, false)
 	elseif slot0.contextData.leftTopWithFrameInfo then
 		setActive(slot0.bottomTipsWithFrameText.parent, true)
 		setText(slot0.bottomTipsWithFrameText, slot0.contextData.leftTopWithFrameInfo)
 		setText(slot0.bottomTipsText, "")
-		setActive(slot0.leftTipsText, false)
 	elseif slot0.contextData.mode == uv0.MODE_REMOULD then
 		setText(slot0.bottomTipsText, "")
-		setActive(slot0.leftTipsText, false)
 	else
 		setText(slot0.bottomTipsText, "")
 		setActive(slot0.leftTipsText, true)
@@ -844,7 +849,10 @@ function slot0.didEnter(slot0)
 		uv0:updateItemDetailType()
 	end, SFX_PANEL)
 	triggerButton(slot1)
-	onButton(slot0, findTF(slot0.selectPanel, "cancel_button"), function ()
+
+	slot6 = slot0.selectPanel
+
+	onButton(slot0, slot6:Find("cancel_button"), function ()
 		if uv0.animating then
 			return
 		end
@@ -862,7 +870,10 @@ function slot0.didEnter(slot0)
 			return
 		end
 	end, SFX_CANCEL)
-	onButton(slot0, findTF(slot0.selectPanel, "confirm_button"), function ()
+
+	slot6 = slot0.selectPanel
+
+	onButton(slot0, slot6:Find("confirm_button"), function ()
 		if uv0.animating then
 			return
 		end
@@ -935,7 +946,10 @@ function slot0.didEnter(slot0)
 			end)
 		end
 	end, SFX_CONFIRM)
-	onButton(slot0, findTF(slot0.selectPanel, "quick_select"), function ()
+
+	slot6 = slot0.selectPanel
+
+	onButton(slot0, slot6:Find("quick_select"), function ()
 		if uv0.animating then
 			return
 		end
@@ -1218,10 +1232,6 @@ function slot0.OnSwitch(slot0, slot1, slot2, slot3)
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0.indexPanel and LeanTween.isTweening(go(slot0.indexPanel)) then
-		return
-	end
-
 	if slot0.destroyConfirmWindow:isShowing() then
 		slot0.destroyConfirmWindow:Hide()
 
@@ -1240,13 +1250,8 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.indexPanel and slot0.indexPanel.gameObject.activeSelf then
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		triggerButton(slot0.indexBtn)
-	else
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		slot0:back()
-	end
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
+	slot0:back()
 end
 
 function slot0.updateShipStatusById(slot0, slot1)
@@ -1405,7 +1410,7 @@ function slot0.updateSelected(slot0)
 	end
 
 	if slot0.selectedMax == 0 then
-		setText(findTF(slot0.selectPanel, "bottom_info/bg_input/count"), #slot0.selectedIds)
+		setText(slot0.selectPanel:Find("bottom_info/bg_input/count"), #slot0.selectedIds)
 	else
 		slot1 = #slot0.selectedIds
 
@@ -1415,13 +1420,13 @@ function slot0.updateSelected(slot0)
 			slot1 = #slot0.selectedIds == 10 and setColorStr(#slot0.selectedIds, COLOR_RED) or setColorStr(#slot0.selectedIds, COLOR_GREEN)
 		end
 
-		setText(findTF(slot0.selectPanel, "bottom_info/bg_input/count"), slot1 .. "/" .. slot0.selectedMax)
+		setText(slot0.selectPanel:Find("bottom_info/bg_input/count"), slot1 .. "/" .. slot0.selectedMax)
 	end
 
 	if #slot0.selectedIds < slot0.selectedMin then
-		setActive(findTF(slot0.selectPanel, "confirm_button/mask"), true)
+		setActive(slot0.selectPanel:Find("confirm_button/mask"), true)
 	else
-		setActive(findTF(slot0.selectPanel, "confirm_button/mask"), false)
+		setActive(slot0.selectPanel:Find("confirm_button/mask"), false)
 	end
 
 	if slot0.contextData.mode == uv0.MODE_MOD then
@@ -1554,10 +1559,6 @@ function slot0.updateShipCount(slot0, slot1)
 	setActive(slot0.listEmptyTF, #slot0.shipVOs <= 0)
 end
 
-function slot0.unPartialBlur(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
-end
-
 function slot0.ClearShipsBlackBlock(slot0)
 	if not slot0.shipVOsById then
 		return
@@ -1576,11 +1577,6 @@ function slot0.willExit(slot0)
 
 	if slot0.guildShipEquipmentsPage then
 		slot0.guildShipEquipmentsPage:Destroy()
-	end
-
-	if not IsNil(slot0.indexPanel) and isActive(slot0.indexPanel) then
-		setActive(slot0.indexPanel, false)
-		slot0.UIMgr:UnblurPanel(slot0.indexPanel, slot0._tf)
 	end
 
 	if slot0.settingPanel then
@@ -1639,22 +1635,8 @@ function slot0.willExit(slot0)
 
 		slot0.bulinTip = nil
 	end
-end
 
-function slot0.animationOut(slot0)
-	if slot0.onSelect then
-		shiftPanel(slot0.selectPanel, nil, -1 * slot0.selectPanel.rect.height, 0.3, 0, true, true)
-	end
-
-	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, 0.3, 0, true, true)
-end
-
-function slot0.animationIn(slot0)
-	if slot0.onSelect then
-		shiftPanel(slot0.selectPanel, nil, 0, 0.3, 0, true, true)
-	end
-
-	shiftPanel(slot0.topPanel, nil, 0, 0.3, 0, true, true)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
 function slot0.uiStartAnimating(slot0)
@@ -1662,22 +1644,8 @@ function slot0.uiStartAnimating(slot0)
 	slot2 = 0
 	slot3 = 0.3
 
-	if slot0.contextData.mode ~= uv0.MODE_OVERVIEW then
-		slot0.onSelect = true
-
+	if isActive(slot0.selectPanel) then
 		shiftPanel(slot0.selectPanel, nil, 0, slot3, slot2, true, true)
-	end
-
-	if not slot0.contextData.leftTopInfo and not slot0.contextData.mode == uv0.MODE_WORLD then
-		setActive(slot0.leftTipsText, false)
-
-		for slot7 = 1, 3 do
-			LeanTween.delayedCall(0.4 + 0.1 * slot7, System.Action(function ()
-				if uv0.leftTipsText then
-					setActive(uv0.leftTipsText, not go(uv0.leftTipsText).activeSelf)
-				end
-			end))
-		end
 	end
 end
 
@@ -1782,7 +1750,6 @@ function slot0.displayDestroyPanel(slot0)
 	end
 
 	if slot0.destroyPage and not slot0.destroyPage:GetLoaded() then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 		slot0.destroyPage:ExecuteAction("Refresh", slot0.selectedIds, slot0.shipVOsById)
 	elseif slot0.destroyPage then
 		slot0.destroyPage:Refresh(slot0.selectedIds, slot0.shipVOsById)
@@ -1791,7 +1758,6 @@ end
 
 function slot0.closeDestroyPanel(slot0)
 	if slot0.destroyPage and slot0.destroyPage:GetLoaded() and slot0.destroyPage:isShowing() then
-		pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel)
 		slot0.destroyPage:Hide()
 	end
 end

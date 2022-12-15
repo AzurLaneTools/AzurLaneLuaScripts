@@ -36,7 +36,7 @@ function slot0.Pause(slot0)
 	slot0.pause = true
 
 	slot0:PauseAllAnimation()
-	pg.ViewUtils.SetLayer(slot0.effectPanel, LayerMask.NameToLayer("UIHidden"))
+	pg.ViewUtils.SetLayer(slot0.effectPanel, Layer.UIHidden)
 end
 
 function slot0.Resume(slot0)
@@ -542,6 +542,8 @@ function slot0.UpdateBg(slot0, slot1)
 
 	slot0:ApplyOldPhotoEffect(slot1)
 	slot0:OnBgUpdate(slot1)
+
+	slot0.curtain:GetComponent(typeof(Image)).color = slot1:GetBgColor()
 end
 
 function slot0.ApplyOldPhotoEffect(slot0, slot1)
