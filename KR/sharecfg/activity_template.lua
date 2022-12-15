@@ -5965,58 +5965,15 @@ pg.activity_template = {
 	},
 	[8029] = {
 		mark = 20221110,
-		config_client = "",
 		title_res_tag = "newserver_main",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 24,
 		is_show = 15,
+		config_client = "",
 		id = 8029,
 		config_data = {},
-		time = {
-			{
-				"olduser",
-				{
-					{
-						2022,
-						12,
-						16
-					},
-					{
-						0,
-						0,
-						0
-					}
-				}
-			},
-			{
-				"timer",
-				{
-					{
-						2022,
-						11,
-						17
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2022,
-						12,
-						15
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewServerLogin2Page",
 			ui_name = "NewServerLogin2Page"
@@ -6024,60 +5981,17 @@ pg.activity_template = {
 	},
 	[8030] = {
 		mark = 20221110,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 30,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 8030,
 		config_data = {
 			103
-		},
-		time = {
-			{
-				"olduser",
-				{
-					{
-						2022,
-						12,
-						16
-					},
-					{
-						0,
-						0,
-						0
-					}
-				}
-			},
-			{
-				"timer",
-				{
-					{
-						2022,
-						11,
-						17
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2022,
-						12,
-						15
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
 		}
 	},
 	[6000] = {
