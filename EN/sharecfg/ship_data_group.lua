@@ -17891,6 +17891,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},

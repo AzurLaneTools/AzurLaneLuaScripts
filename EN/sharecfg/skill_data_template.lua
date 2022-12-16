@@ -99914,7 +99914,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 800672,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 5.0%.",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 8.0%.",
 		system_transform = {
 			[51.0] = 800677
 		},
@@ -99946,7 +99946,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 800677,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 5.0%.",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 8.0%.",
 		system_transform = {
 			[51.0] = 800677
 		},
@@ -101989,7 +101989,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		id = 1010530,
 		type = 1,
 		max_level = 10,
-		desc = "Increases this ship's Main Gun gear slot efficiency by $2 and decreases her DMG taken by $3. When this ship fires her Main Guns: 5.0% chance to increase this ship's FP by $1 for 8s.",
+		desc = "During battle, increases this ship's Main Gun gear slot efficiency by $2 and decreases her DMG taken by $3. When this ship fires her Main Guns: 5.0% chance to increase this ship's FP by $1 for 8s.",
 		system_transform = {},
 		world_death_mark = {
 			1
