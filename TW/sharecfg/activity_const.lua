@@ -826,7 +826,7 @@ pg.activity_const = {
 		act_id = 40981
 	},
 	MINIGAME_FIREWORK_2022 = {
-		act_id = 4204
+		act_id = 40989
 	},
 	BUILDING_NEWYEAR_2022 = {
 		act_id = 40987

@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "感覺好像什麼都沒說……不過妳是總指揮，聽你的囉。",
+			say = "感覺好像什麼都沒說……不過妳是總指揮，聽妳的囉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

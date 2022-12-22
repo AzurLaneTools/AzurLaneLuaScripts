@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "情況復雜，回去解釋。",
+			say = "情況複雜，回去解釋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "等等，你現在要撤退是因為那個塞壬仲裁機關拉沃斯，妳之前說沒有時間了指的也是這個？",
+			say = "等等，妳現在要撤退是因為那個塞壬仲裁機關拉沃斯，妳之前說沒有時間了指的也是這個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "怎麼都是這個反應……你已經是今天第二個說這句話的人了。",
+			say = "怎麼都是這個反應……妳已經是今天第二個說這句話的人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你不知道？",
+			say = "妳不知道？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "機會難得，你不想試一試嗎？",
+			say = "機會難得，妳不想試一試嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

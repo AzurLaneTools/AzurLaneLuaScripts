@@ -251,6 +251,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
+			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "结果等约克城将衣服重新整理好后，又花了不少时间，双方才重新平复心情……",

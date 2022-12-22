@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "格奈森瑙，來加入餘燼吧。我們會告訴妳力量的奧秘，我們會幫助你完成心中的複仇。",
+			say = "格奈森瑙，來加入餘燼吧。我們會告訴妳力量的奧秘，我們會幫助你完成心中的復仇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "復仇？聽起來就像是由失敗者組成的聯盟宣言啊。加入妳們，對塞壬進行複仇，然後呢？",
+			say = "復仇？聽起來就像是由失敗者組成的聯盟宣言啊。加入妳們，對塞壬進行復仇，然後呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "對於我們……你除了從只言片語中建立的臆想之外又了解些什麼？",
+			say = "對於我們……妳除了從只言片語中建立的臆想之外又了解些什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……呵，我想起來了，烏爾里希.馮.胡縢從以前開始就是一個這麼自大的人。",
+			say = "……呵，我想起來了，烏爾里希·馮·胡縢從以前開始就是一個這麼自大的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "如果那一天到來，我一定會心甘情願的接受。為了鐵血的理想和事業奉獻出最後一滴血，比起妳們單純的複仇要好千百倍。",
+			say = "如果那一天到來，我一定會心甘情願的接受。為了鐵血的理想和事業奉獻出最後一滴血，比起妳們單純的復仇要好千百倍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,7 +1011,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "可是，妳們為什麼徘徊不前了呢？我們的世界聽起來並不像妳們的目標，那裡究竟有什麼值得你們留戀的？",
+			say = "可是，妳們為什麼徘徊不前了呢？我們的世界聽起來並不像妳們的目標，那裡究竟有什麼值得妳們留戀的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +1076,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你們之前試圖在極地展開奇異點，之所以在最後關頭放棄也是因為顧慮到了指揮官。",
+			say = "妳們之前試圖在極地展開奇異點，之所以在最後關頭放棄也是因為顧慮到了指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,7 +1110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………妳在用激將法套我的話？！烏爾里希‧馮‧胡縢！妳還是這麼狡猾！！！",
+			say = "…………妳在用激將法套我的話？！烏爾里希·馮·胡縢！妳還是這麼狡猾！！！",
 			effects = {
 				{
 					active = true,

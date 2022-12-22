@@ -47,6 +47,8 @@ function slot0.getBullet(slot0)
 		if not table.contains(uv1.clearName, uv2) then
 			table.insert(uv1.clearName, uv2)
 		end
+
+		GetOrAddComponent(uv0, typeof(CanvasGroup)).blocksRaycasts = false
 	end)
 
 	return tf(nil)
@@ -61,6 +63,8 @@ function slot0.getEffect(slot0)
 		if not table.contains(uv1.clearName, uv2) then
 			table.insert(uv1.clearName, uv2)
 		end
+
+		GetOrAddComponent(uv0, typeof(CanvasGroup)).blocksRaycasts = false
 	end)
 
 	return tf(nil)

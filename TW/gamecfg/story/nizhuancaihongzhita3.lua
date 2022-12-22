@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "剛剛你進來的一瞬間就下潛逃跑了哦。",
+			say = "剛剛妳進來的一瞬間就下潛逃跑了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "任務還沒結束，希望你能把神經再多緊繃一會。",
+			say = "任務還沒結束，希望妳能把神經再多緊繃一會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "……其實是小鐵想要假期的哦！妳看小鐵都無精打采的，小鐵小鐵妳也是這麼想的對吧？",
+			say = "……其實是小鐵想要假期的哦！妳看小鐵都無精打采的，小鐵小鐵你也是這麼想的對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "哎……?我說了什麼奇怪的話嗎？！",
+			say = "哎……？我說了什麼奇怪的話嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

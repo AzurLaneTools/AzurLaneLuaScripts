@@ -28,6 +28,7 @@ function slot1(slot0, slot1, slot2)
 			slot4:setLineIndex(slot2:getLineIndex())
 			slot4:setGridIndex(slot2:getIndex())
 			slot4:setCamp(1)
+			slot4:setRaycast(true)
 			table.insert(slot0.chars, slot4)
 
 			return slot4
@@ -220,6 +221,7 @@ function slot1(slot0, slot1, slot2)
 
 			slot4:setParent(slot0.content, false, Vector2(math.random(BeachGuardConst.enemy_pos[1], BeachGuardConst.enemy_pos[2]) + slot5.x, slot5.y + BeachGuardConst.enemy_offset_y))
 			slot4:setCamp(2)
+			slot4:setRaycast(false)
 			table.insert(slot0.enemys, slot4)
 		end,
 		sortChar = function (slot0)

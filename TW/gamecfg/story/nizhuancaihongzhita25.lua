@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……被來回傳送的感覺習慣了之後還是蠻好玩的！請問我要怎麼回復那邊呢？",
+			say = "……被來回傳送的感覺習慣了之後還是蠻好玩的！請問我要怎麼回覆那邊呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

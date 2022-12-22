@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "格奈森瑙，我以腓特烈大帝的名義命令你，向鐵血再次效忠吧。",
+			say = "格奈森瑙，我以腓特烈大帝的名義命令妳，向鐵血再次效忠吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……細看之下，妳好像我也認不太清呢。名字叫烏爾里希.馮.胡縢對嗎？",
+			say = "……細看之下，妳好像我也認不太清呢。名字叫烏爾里希·馮·胡縢對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

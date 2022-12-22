@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "U-1206，妳來水面上看看，是和之前你見到的殘骸一樣的感覺嗎？",
+			say = "U-1206，妳來水面上看看，是和之前妳見到的殘骸一樣的感覺嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什麼都沒聽到欸，可能是你在水下聽得比較清楚吧。",
+			say = "什麼都沒聽到欸，可能是妳在水下聽得比較清楚吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

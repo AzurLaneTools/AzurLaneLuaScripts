@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "殘骸中都仔細檢查過了麼？",
+			say = "殘骸中都仔細檢查過了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "剛才救你的時候是她一直衝在最前面開路，消滅了絕大多數敵人哦！",
+			say = "剛才救妳的時候是她一直衝在最前面開路，消滅了絕大多數敵人哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再之後就是要派遣手下對你進行拆解的時間了啊……看來我們來的確實是千鈞一髮。",
+			say = "再之後就是要派遣手下對妳進行拆解的時間了啊……看來我們來的確實是千鈞一髮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

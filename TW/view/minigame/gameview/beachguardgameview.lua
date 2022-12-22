@@ -42,6 +42,16 @@ function slot0.didEnter(slot0)
 	setActive(slot0.bg, true)
 	slot0.menuUI:show(true)
 	slot0.menuUI:update(slot0:GetMGHubData())
+	slot0:PlayGuider("NG0035")
+end
+
+function slot0.PlayGuider(slot0, slot1)
+	if not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
+		pg.GuideMgr.GetInstance():play(slot1)
+		pg.m02:sendNotification(GAME.STORY_UPDATE, {
+			storyId = slot1
+		})
+	end
 end
 
 function slot0.initData(slot0)

@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……那請問我應該怎麼回復腓特烈大帝比較好？",
+			say = "……那請問我應該怎麼回覆腓特烈大帝比較好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "總之，最近諸事繁雜，都有勞你們了。",
+			say = "總之，最近諸事繁雜，都有勞妳們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "一切為了薩丁帝國的複興。",
+			say = "一切為了薩丁帝國的復興。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

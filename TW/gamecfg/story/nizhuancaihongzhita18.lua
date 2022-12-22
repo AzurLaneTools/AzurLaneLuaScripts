@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "正好，我也有事情要跟你說。沙恩霍斯特，我以腓特烈大帝的名義命令妳，向鐵血再次效忠吧。",
+			say = "正好，我也有事情要跟妳說。沙恩霍斯特，我以腓特烈大帝的名義命令妳，向鐵血再次效忠吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我得回憶一下，上次我怎麼受歡迎是在什麼時候呢？",
+			say = "我得回憶一下，上次我這麼受歡迎是在什麼時候呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
