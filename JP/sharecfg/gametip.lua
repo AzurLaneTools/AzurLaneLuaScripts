@@ -19845,136 +19845,136 @@ cs.gametip = {
 	},
 	pvzminigame_help = {
 		814869,
-		1533,
+		1534,
 		true
 	},
 	tips_yuandanhuoyue2023 = {
-		816402,
+		816403,
 		728,
 		true
 	},
 	beach_guard_chaijun = {
-		817130,
+		817131,
 		192,
 		true
 	},
 	beach_guard_jianye = {
-		817322,
+		817323,
 		167,
 		true
 	},
 	beach_guard_lituoliao = {
-		817489,
+		817490,
 		287,
 		true
 	},
 	beach_guard_bominghan = {
-		817776,
+		817777,
 		243,
 		true
 	},
 	beach_guard_nengdai = {
-		818019,
+		818020,
 		287,
 		true
 	},
 	beach_guard_m_craft = {
-		818306,
+		818307,
 		156,
 		true
 	},
 	beach_guard_m_atk = {
-		818462,
+		818463,
 		136,
 		true
 	},
 	beach_guard_m_guard = {
-		818598,
+		818599,
 		153,
 		true
 	},
 	beach_guard_m_craft_name = {
-		818751,
+		818752,
 		100,
 		true
 	},
 	beach_guard_m_atk_name = {
-		818851,
+		818852,
 		98,
 		true
 	},
 	beach_guard_m_guard_name = {
-		818949,
+		818950,
 		100,
 		true
 	},
 	beach_guard_e1 = {
-		819049,
+		819050,
 		99,
 		true
 	},
 	beach_guard_e2 = {
-		819148,
+		819149,
 		93,
 		true
 	},
 	beach_guard_e3 = {
-		819241,
+		819242,
 		96,
 		true
 	},
 	beach_guard_e4 = {
-		819337,
+		819338,
 		96,
 		true
 	},
 	beach_guard_e5 = {
-		819433,
+		819434,
 		96,
 		true
 	},
 	beach_guard_e6 = {
-		819529,
+		819530,
 		90,
 		true
 	},
 	beach_guard_e7 = {
-		819619,
+		819620,
 		102,
 		true
 	},
 	beach_guard_e1_desc = {
-		819721,
+		819722,
 		138,
 		true
 	},
 	beach_guard_e2_desc = {
-		819859,
+		819860,
 		165,
 		true
 	},
 	beach_guard_e3_desc = {
-		820024,
+		820025,
 		165,
 		true
 	},
 	beach_guard_e4_desc = {
-		820189,
+		820190,
 		174,
 		true
 	},
 	beach_guard_e5_desc = {
-		820363,
+		820364,
 		153,
 		true
 	},
 	beach_guard_e6_desc = {
-		820516,
+		820517,
 		318,
 		true
 	},
 	beach_guard_e7_desc = {
-		820834,
+		820835,
 		165,
 		true
 	}

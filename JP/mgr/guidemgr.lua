@@ -68,7 +68,8 @@ function slot0.Init(slot0, slot1)
 		uv0.managerState = uv1.MANAGER_STATE.IDLE
 		uv0.chars = {
 			uv0.styleTF1:Find("char"):GetComponent(typeof(Image)).sprite,
-			GetSpriteFromAtlas("ui/guide_atlas", "guide1")
+			GetSpriteFromAtlas("ui/guide_atlas", "guide1"),
+			GetSpriteFromAtlas("ui/share/guider_atlas", "amazon")
 		}
 		uv0.material = uv0._tf:Find("resources/material"):GetComponent(typeof(Image)).material
 
@@ -719,46 +720,66 @@ function slot0.updateContent(slot0, slot1)
 	end
 
 	slot9 = slot7:Find("char"):GetComponent(typeof(Image))
-	slot9.sprite = slot0.chars[slot2.char and slot2.char == "1" and 2 or 1]
+	slot10 = nil
+	slot10 = slot2.char and slot2.char == "1" and 2 or slot2.char and slot2.char == "amazon" and 3 or 1
+	slot9.sprite = slot0.chars[slot10]
 
 	slot9:SetNativeSize()
 
-	slot9.material = slot2.char and slot0.material
-	slot9.gameObject.transform.pivot = getSpritePivot(slot10)
-
-	setAnchoredPosition(slot9.gameObject.transform, {
-		x = slot8.x,
-		y = slot8.y
-	})
-
-	slot11 = slot3 == 1 and Vector3(1, 1, 1) or Vector3(-1, 1, 1)
-	slot7.localScale = slot11
-	slot7:Find("content").localScale = slot11
-
-	setText(slot12, HXSet.hxLan(slot2.text or ""))
-
-	if CHAT_POP_STR_LEN_MIDDLE < #slot12:GetComponent(typeof(Text)).text then
-		slot14.alignment = TextAnchor.MiddleLeft
+	if slot10 == 2 then
+		slot9.material = slot0.material
 	else
-		slot14.alignment = TextAnchor.MiddleCenter
+		slot9.material = nil
 	end
 
-	slot15 = slot14.preferredHeight + 120
+	slot9.gameObject.transform.pivot = getSpritePivot(slot11)
 
-	if slot4 == uv0.MODE2 and slot0.initChatBgH < slot15 then
-		slot7.sizeDelta = Vector2.New(slot7.sizeDelta.x, slot15)
+	if slot2.charPos then
+		setAnchoredPosition(slot9.gameObject.transform, {
+			x = slot2.charPos[1],
+			y = slot2.charPos[2]
+		})
+	else
+		setAnchoredPosition(slot9.gameObject.transform, {
+			x = slot8.x,
+			y = slot8.y
+		})
+	end
+
+	if slot2.charScale then
+		slot9.gameObject.transform.localScale = Vector3(slot2.charScale[1], slot2.charScale[2], 1)
+	else
+		slot9.gameObject.transform.localScale = Vector3(1, 1, 1)
+	end
+
+	slot12 = slot3 == 1 and Vector3(1, 1, 1) or Vector3(-1, 1, 1)
+	slot7.localScale = slot12
+	slot7:Find("content").localScale = slot12
+
+	setText(slot13, HXSet.hxLan(slot2.text or ""))
+
+	if CHAT_POP_STR_LEN_MIDDLE < #slot13:GetComponent(typeof(Text)).text then
+		slot15.alignment = TextAnchor.MiddleLeft
+	else
+		slot15.alignment = TextAnchor.MiddleCenter
+	end
+
+	slot16 = slot15.preferredHeight + 120
+
+	if slot4 == uv0.MODE2 and slot0.initChatBgH < slot16 then
+		slot7.sizeDelta = Vector2.New(slot7.sizeDelta.x, slot16)
 	else
 		slot7.sizeDelta = Vector2.New(slot7.sizeDelta.x, slot0.initChatBgH)
 	end
 
 	if slot4 == uv0.MODE1 then
-		slot16 = slot2.hand or {
+		slot17 = slot2.hand or {
 			w = 0,
 			x = -267,
 			y = -96
 		}
-		slot7:Find("hand").localPosition = Vector3(slot16.x, slot16.y, 0)
-		slot7:Find("hand").eulerAngles = Vector3(0, 0, slot16.w)
+		slot7:Find("hand").localPosition = Vector3(slot17.x, slot17.y, 0)
+		slot7:Find("hand").eulerAngles = Vector3(0, 0, slot17.w)
 	end
 
 	setAnchoredPosition(slot0.guiderTF, Vector2(slot5, slot6))

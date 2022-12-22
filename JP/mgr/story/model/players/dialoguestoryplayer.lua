@@ -298,9 +298,13 @@ function slot1(slot0, slot1, slot2)
 
 	slot5 = math.huge
 
-	for slot10 = 1, slot1:GetComponentsInChildren(typeof(Canvas)).Length do
-		if slot5 > slot6[slot10 - 1].sortingOrder - slot4 then
-			slot5 = slot12
+	if slot1:GetComponentsInChildren(typeof(Canvas)).Length == 0 then
+		slot5 = 0
+	else
+		for slot10 = 1, slot6.Length do
+			if slot5 > slot6[slot10 - 1].sortingOrder - slot4 then
+				slot5 = slot12
+			end
 		end
 	end
 

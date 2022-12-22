@@ -3395,12 +3395,12 @@ pg.ship_skin_template_4 = {
 		special_effects = {
 			"lihui_yuekechengII_2",
 			{
-				2418,
+				1585,
 				-99,
 				0
 			},
 			{
-				2
+				1.3
 			}
 		}
 	},

@@ -107,35 +107,10 @@ pg.activity_banner = {
 	{
 		id = 4,
 		pic = "temp9",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop"
-		},
-		time = {
-			{
-				{
-					2022,
-					12,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -344,35 +319,10 @@ pg.activity_banner = {
 	},
 	[91] = {
 		param = "",
-		id = 91,
-		pic = "temp98",
+		time = "stop",
 		type = 9,
-		time = {
-			{
-				{
-					2022,
-					12,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 91,
+		pic = "temp98"
 	},
 	[100] = {
 		param = "桂花糯|「桂花糯…もぐもぐ～中秋節、良い祝日！」<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
@@ -537,7 +487,7 @@ pg.activity_banner = {
 	[202] = {
 		param = "",
 		id = 202,
-		pic = "springfes",
+		pic = "newyear",
 		type = 13,
 		time = {
 			{

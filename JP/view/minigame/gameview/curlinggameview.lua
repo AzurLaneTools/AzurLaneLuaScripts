@@ -793,6 +793,18 @@ function slot0.didEnter(slot0)
 	slot0:initController()
 	slot0:updateMainUI()
 	slot0:openMainUI()
+	slot0:AutoFitScreen()
+end
+
+function slot0.AutoFitScreen(slot0)
+	slot6 = nil
+	slot6 = (1.7777777777777777 > Screen.width / Screen.height or math.clamp(1080 * slot1 / 2331, 1, 2)) and math.clamp(1920 / slot1 / slot0:findTF("bg_back").rect.height, 1, 2)
+
+	setLocalScale(slot0._tf, {
+		x = slot6,
+		y = slot6,
+		z = slot6
+	})
 end
 
 function slot0.initEvent(slot0)
