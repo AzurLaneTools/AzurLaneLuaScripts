@@ -9,6 +9,11 @@ slot0.Fields = {
 	theme = "table",
 	rtQuad = "userdata"
 }
+
+function slot0.GetResName()
+	return "world_cell_quad"
+end
+
 slot0.Listeners = {
 	onAddAttachment = "OnAddAttachment",
 	onUpdate = "Update",
@@ -22,26 +27,18 @@ end
 
 function slot0.Setup(slot0, slot1, slot2)
 	slot0.cell = slot1
-	slot3 = slot0.cell
 
-	slot3:AddListener(WorldMapCell.EventUpdateInFov, slot0.onUpdate)
-
-	slot3 = slot0.cell
-
-	slot3:AddListener(WorldMapCell.EventAddAttachment, slot0.onAddAttachment)
-
-	slot3 = slot0.cell
-
-	slot3:AddListener(WorldMapCell.EventRemoveAttachment, slot0.onRemoveAttachment)
-
-	slot3 = slot0.cell
-
-	slot3:AddListener(WorldMapCell.EventUpdateFog, slot0.onUpdate)
+	slot0.cell:AddListener(WorldMapCell.EventUpdateInFov, slot0.onUpdate)
+	slot0.cell:AddListener(WorldMapCell.EventAddAttachment, slot0.onAddAttachment)
+	slot0.cell:AddListener(WorldMapCell.EventRemoveAttachment, slot0.onRemoveAttachment)
+	slot0.cell:AddListener(WorldMapCell.EventUpdateFog, slot0.onUpdate)
 	_.each(slot0.cell.attachments, function (slot0)
 		uv0:OnAddAttachment(nil, uv0.cell, slot0)
 	end)
 
 	slot0.theme = slot2
+
+	slot0:Init()
 end
 
 function slot0.Dispose(slot0)
@@ -56,23 +53,7 @@ function slot0.Dispose(slot0)
 	_.each(slot0.cell.attachments, function (slot0)
 		uv0:OnRemoveAttachment(nil, uv0.cell, slot0)
 	end)
-	slot0:Unload()
 	slot0:Clear()
-end
-
-function slot0.Load(slot0)
-	PoolMgr.GetInstance():GetPrefab("world/object/world_cell_quad", "world_cell_quad", false, function (slot0)
-		uv0.transform = slot0.transform
-	end)
-	slot0:Init()
-end
-
-function slot0.Unload(slot0)
-	if slot0.transform then
-		PoolMgr.GetInstance():ReturnPrefab("world/object/world_cell_quad", "world_cell_quad", slot0.transform.gameObject)
-	end
-
-	slot0.transform = nil
 end
 
 function slot0.Init(slot0)

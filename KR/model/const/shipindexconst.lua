@@ -473,6 +473,9 @@ slot0.ExtraProposeSkin = bit.lshift(1, 8)
 
 if not LOCK_SP_WEAPON then
 	slot0.ExtraUniqueSpWeapon = bit.lshift(1, 9)
+	slot0.DRESSED = bit.lshift(1, 10)
+else
+	slot0.DRESSED = bit.lshift(1, 9)
 end
 
 slot0.ExtraIndexs = {
@@ -484,9 +487,15 @@ slot0.ExtraIndexs = {
 	slot0.ExtraAwakening,
 	slot0.ExtraAwakening2,
 	slot0.ExtraSpecial,
-	slot0.ExtraProposeSkin,
-	slot0.ExtraUniqueSpWeapon
+	slot0.ExtraProposeSkin
 }
+
+if not LOCK_SP_WEAPON then
+	table.insert(slot0.ExtraIndexs, slot0.ExtraUniqueSpWeapon)
+end
+
+table.insert(slot0.ExtraIndexs, slot0.DRESSED)
+
 slot0.ExtraAll = IndexConst.BitAll(slot0.ExtraIndexs)
 
 table.insert(slot0.ExtraIndexs, 1, slot0.ExtraAll)
@@ -507,6 +516,8 @@ slot0.ExtraNames = {
 if not LOCK_SP_WEAPON then
 	slot0.ExtraNames[11] = "index_spweapon"
 end
+
+table.insert(slot0.ExtraNames, "index_dressed")
 
 function slot0.filterByExtra(slot0, slot1)
 	if not slot1 or slot1 == uv0.ExtraAll then
@@ -533,6 +544,8 @@ function slot0.filterByExtra(slot0, slot1)
 		return slot0:hasProposeSkin()
 	elseif slot1 == uv0.ExtraUniqueSpWeapon then
 		return slot0:HasUniqueSpWeapon()
+	elseif slot1 == uv0.DRESSED then
+		return not slot0:IsDefaultSkin() and slot0:getRemouldSkinId() ~= slot0.skinId
 	end
 
 	return false

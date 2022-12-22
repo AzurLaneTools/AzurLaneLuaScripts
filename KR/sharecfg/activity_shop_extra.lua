@@ -1788,7 +1788,7 @@ pg.activity_shop_extra = {
 	},
 	[81] = {
 		commodity_type = 7,
-		activity = 20930,
+		activity = 4601,
 		commodity_id = 202072,
 		scene = "",
 		id = 81,
@@ -1798,9 +1798,9 @@ pg.activity_shop_extra = {
 		time = {
 			{
 				{
-					2021,
+					2022,
 					12,
-					29
+					22
 				},
 				{
 					0,
@@ -1810,9 +1810,9 @@ pg.activity_shop_extra = {
 			},
 			{
 				{
-					2022,
+					2023,
 					1,
-					13
+					12
 				},
 				{
 					23,

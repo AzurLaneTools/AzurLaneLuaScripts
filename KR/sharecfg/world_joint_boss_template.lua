@@ -92,7 +92,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "소류·META",
 		painting = "canglong",
 		boss_level_id = 46,
@@ -221,12 +221,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "리나운·META",
 		painting = "shengwang",
 		boss_level_id = 106,
 		id = 8,
 		meta_id = 970404,
+		item_id = 100000,
 		description = {
 			{
 				"메테오",
@@ -249,32 +250,6 @@ pg.world_joint_boss_template = {
 				"전투 중 거대한 용암 형태의 구체가 나타나며 적 주력함선에게 커다란 대미지를 입힌다. 또한 항공모함의 은폐 상태를 완전히 해제시킨다."
 			}
 		},
-		state = {
-			{
-				{
-					2022,
-					9,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-49.8,
 			589.5,
@@ -289,13 +264,12 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		item_id = 100000,
 		name = "애리조나·META",
 		painting = "yalisangna",
 		boss_level_id = 121,
 		id = 9,
 		meta_id = 970503,
-		item_id = 100000,
 		description = {
 			{
 				"퍼지는 슬픔",
@@ -306,6 +280,32 @@ pg.world_joint_boss_template = {
 				"흑조의 눈물",
 				1,
 				"임의의 적의 내구도가 50% 이하로 감소한 경우, 추가 회복 효과를 받는다.\n임의의 적의 내구도가 20% 이하로 감소한 경우, 받는 <color=#92fc63>모든 회복 효과가 대미지로 전환된다</color>."
+			}
+		},
+		state = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		p_offset = {

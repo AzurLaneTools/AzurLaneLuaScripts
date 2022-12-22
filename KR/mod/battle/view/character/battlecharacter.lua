@@ -59,14 +59,22 @@ function slot5.SetBoneList(slot0)
 
 	for slot5, slot6 in pairs(slot0._unitData:GetTemplate().bound_bone) do
 		if slot5 ~= "remote" then
-			for slot10, slot11 in ipairs(slot6) do
-				if type(slot11) == "table" then
-					slot12 = {
-						[#slot12 + 1] = Vector3(slot11[1], slot11[2], slot11[3])
-					}
-					slot0._boneList[slot5] = slot12
-				end
-			end
+			slot0:insertBondList(slot5, slot6)
+		end
+	end
+
+	for slot5, slot6 in pairs(uv0.CommonBone) do
+		slot0:insertBondList(slot5, slot6)
+	end
+end
+
+function slot5.insertBondList(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot2) do
+		if type(slot7) == "table" then
+			slot8 = {
+				[#slot8 + 1] = Vector3(slot7[1], slot7[2], slot7[3])
+			}
+			slot0._boneList[slot1] = slot8
 		end
 	end
 end
@@ -1036,6 +1044,10 @@ function slot5.UpdateHPPop(slot0)
 end
 
 function slot5._PlayHPPop(slot0, slot1)
+	if slot0._popNumBundle:IsScorePop() then
+		return
+	end
+
 	slot8 = slot0._popNumBundle:GetPop(slot1.isHeal, slot1.isCri, slot1.isMiss, slot1.dHP, slot1.font)
 
 	slot8:SetReferenceCharacter(slot0, slot1.posOffset or Vector3.zero)

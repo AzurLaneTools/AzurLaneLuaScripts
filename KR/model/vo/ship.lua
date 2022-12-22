@@ -1755,12 +1755,20 @@ function slot0.GetLockState(slot0)
 	return slot0.lockState
 end
 
+function slot0.IsLocked(slot0)
+	return slot0.lockState == uv0.LOCK_STATE_LOCK
+end
+
 function slot0.SetLockState(slot0, slot1)
 	slot0.lockState = slot1
 end
 
 function slot0.GetPreferenceTag(slot0)
 	return slot0.preferenceTag or 0
+end
+
+function slot0.IsPreferenceTag(slot0)
+	return slot0:GetPreferenceTag() == uv0.PREFERENCE_TAG_COMMON
 end
 
 function slot0.SetPreferenceTag(slot0, slot1)
@@ -2299,6 +2307,10 @@ function slot0.GetMapStrikeAnim(slot0)
 	})
 
 	return nil
+end
+
+function slot0.IsDefaultSkin(slot0)
+	return slot0.skinId == 0 or slot0.skinId == slot0:getConfig("skin_id")
 end
 
 return slot0

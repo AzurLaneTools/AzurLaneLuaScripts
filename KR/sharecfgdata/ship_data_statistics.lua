@@ -353129,7 +353129,7 @@ _G.pg.base.ship_data_statistics[199031] = {
 	type = 3,
 	oxy_cost = 0,
 	skin_id = 199030,
-	english_name = "USS Anchorage ",
+	english_name = "USS Anchorage",
 	attack_duration = 0,
 	star = 3,
 	oxy_recovery = 0,
@@ -353245,7 +353245,8 @@ _G.pg.base.ship_data_statistics[199031] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"Anchorage"
 	}
 }
 
@@ -353256,7 +353257,7 @@ _G.pg.base.ship_data_statistics[199032] = {
 	type = 3,
 	oxy_cost = 0,
 	skin_id = 199030,
-	english_name = "USS Anchorage ",
+	english_name = "USS Anchorage",
 	attack_duration = 0,
 	star = 4,
 	oxy_recovery = 0,
@@ -353372,7 +353373,8 @@ _G.pg.base.ship_data_statistics[199032] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"Anchorage"
 	}
 }
 
@@ -353383,7 +353385,7 @@ _G.pg.base.ship_data_statistics[199033] = {
 	type = 3,
 	oxy_cost = 0,
 	skin_id = 199030,
-	english_name = "USS Anchorage ",
+	english_name = "USS Anchorage",
 	attack_duration = 0,
 	star = 5,
 	oxy_recovery = 0,
@@ -353499,7 +353501,8 @@ _G.pg.base.ship_data_statistics[199033] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"Anchorage"
 	}
 }
 
@@ -353510,7 +353513,7 @@ _G.pg.base.ship_data_statistics[199034] = {
 	type = 3,
 	oxy_cost = 0,
 	skin_id = 199030,
-	english_name = "USS Anchorage ",
+	english_name = "USS Anchorage",
 	attack_duration = 0,
 	star = 6,
 	oxy_recovery = 0,
@@ -353626,7 +353629,8 @@ _G.pg.base.ship_data_statistics[199034] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"Anchorage"
 	}
 }
 

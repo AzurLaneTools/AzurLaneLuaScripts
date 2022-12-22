@@ -1665,7 +1665,7 @@ _G.pg.base.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip 
 }
 
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
-	tip = "출격시킬 함선을 배치했습니다."
+	tip = "캐릭터 추가 성공"
 }
 
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
@@ -4220,7 +4220,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 비콘·META 기능 설명
 
-1. <color=#92fc63>2022.9.29-2022.12.22점검 전</color>까지 「리나운·META」의 도전이 한정 개방됩니다. 「리나운·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「리나운·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
+1. <color=#92fc63>2022.12.22-2023.3.30점검 전</color>까지 「애리조나·META」의 도전이 한정 개방됩니다. 「애리조나·META」에 도전해 동기화 수치를 누적하여<color=#92fc63>「애리조나·META」 캐릭터</color> 및 기타 풍부한 보상을 획득할 수 있습니다.
  <color=#ff5c5c>주의: 동기화 수치는 기간 종료 후 사라집니다.</color>
 
 2. 「비콘 데이터」 획득 및 분석
@@ -4249,7 +4249,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>작전 참여 시 네트워크 환경을 원활히 유지해 주세요.</color>
 
 6.화력 지원
-비콘·META 도전 31일째부터, 즉 2022.10.30~2022.12.22 기간 동안, 함대가 「리나운·META」에 도전 시 추가 화력 지원을 얻을 수 있습니다. 화력 지원은 적에게 대미지를 입히며, 지속 대미지의 특수 상태를 부여합니다. (버프 효과의 영향은 받지 않습니다.) 이번 비콘·META의 개방 기간이 증가함에 따라, 화력 지원의 대미지도 증가합니다.
+비콘·META 도전 31일째부터, 즉 2022.12.22-2023.3.30 기간 동안, 함대가 「애리조나·META」에 도전 시 추가 화력 지원을 얻을 수 있습니다. 화력 지원은 적에게 대미지를 입히며, 지속 대미지의 특수 상태를 부여합니다. (버프 효과의 영향은 받지 않습니다.) 이번 비콘·META의 개방 기간이 증가함에 따라, 화력 지원의 대미지도 증가합니다.
 ※자신이 발견한 비콘·META 전투 중에서만 적용되며, 매번 도전 시마다 발동 가능합니다.]]
 		}
 	}
@@ -17165,7 +17165,7 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1. <color=#92fc63>정보 동기화</color>
-·<color=#92fc63>2022.9.29-2022.12.22점점 전</color>까지 「리나운·META」의 「정보 동기화」가한정 개방됩니다. 「비콘·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「리나운·META」 캐릭터</color>를 획득할 수 있습니다.
+·<color=#92fc63>2022.12.22-2023.3.30점점 전</color>까지 「리나운·META」의 「정보 동기화」가한정 개방됩니다. 「애리조나·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「애리조나·META」 캐릭터</color>를 획득할 수 있습니다.
 ·META 캐릭터 획득 후 캐릭터의 <color=#92fc63>「정보 동기화」</color> 모듈을 통해<color=#92fc63>기재된 시간</color> 동안 계속해서 육성 재료를 포함한 풍성한 보상을 획득할 수 있습니다.
 ·주의:<color=#ff5c5c>「리나운·META」의 「정보 동기화」는 기간 종료 후 잠시폐쇄되며, 이미 누적된 동기화 수치 역시 사라집니다</color>.
 
@@ -21818,4 +21818,76 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_empty = {
+	tip = "비서함 목록이 비어있습니다. 편집 버튼을 터치해 캐릭터를 추가하세요."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
+	tip = "추가"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_button_remove = {
+	tip = "삭제"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip1 = {
+	tip = "랜덤 비서함은 위의 캐릭터 중 랜덤 선택됩니다."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_tip2 = {
+	tip = "캐릭터 수:"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_main_empty = {
+	tip = "비서함 목록이 비어있습니다."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_all = {
+	tip = "모두 선택"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
+	tip = "선택한 캐릭터가 비서함 목록에 추가됩니다."
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_select_number = {
+	tip = "선택중:"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_complete = {
+	tip = "캐릭터 추가 성공"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_tip2 = {
+	tip = "위의 캐릭터 비서함 목록에 추가"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip1 = {
+	tip = "선택 캐릭터 비서함 목록에서 삭제"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_complete = {
+	tip = "캐릭터 삭제 성공"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_tip2 = {
+	tip = "비서함 목록에서 위의 캐릭터가 삭제됩니다."
+}
+
+_G.pg.base.gametip.index_dressed = {
+	tip = "스킨 교체"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode = {
+	tip = "커스텀 비서함 목록"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_add_title = {
+	tip = "캐릭터 추가"
+}
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_title = {
+	tip = "캐릭터 삭제"
 }

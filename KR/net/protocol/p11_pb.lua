@@ -50,6 +50,8 @@ slot2 = {
 	SC_11003_REFUND_SHOP_INFO_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11003_CARTOON_READ_MARK_FIELD = slot0.FieldDescriptor(),
 	SC_11003_CARTOON_COLLECT_MARK_FIELD = slot0.FieldDescriptor(),
+	SC_11003_RANDOM_SHIP_MODE_FIELD = slot0.FieldDescriptor(),
+	SC_11003_RANDOM_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11004_RESOURCE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11005_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_11005_ID_FIELD = slot0.FieldDescriptor(),
@@ -797,6 +799,24 @@ slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD.has_default_value = false
 slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD.default_value = {}
 slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD.type = 13
 slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD.cpp_type = 3
+slot2.SC_11003_RANDOM_SHIP_MODE_FIELD.name = "random_ship_mode"
+slot2.SC_11003_RANDOM_SHIP_MODE_FIELD.full_name = "p11.sc_11003.random_ship_mode"
+slot2.SC_11003_RANDOM_SHIP_MODE_FIELD.number = 41
+slot2.SC_11003_RANDOM_SHIP_MODE_FIELD.index = 40
+slot2.SC_11003_RANDOM_SHIP_MODE_FIELD.label = 2
+slot2.SC_11003_RANDOM_SHIP_MODE_FIELD.has_default_value = false
+slot2.SC_11003_RANDOM_SHIP_MODE_FIELD.default_value = 0
+slot2.SC_11003_RANDOM_SHIP_MODE_FIELD.type = 13
+slot2.SC_11003_RANDOM_SHIP_MODE_FIELD.cpp_type = 3
+slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.name = "random_ship_list"
+slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.full_name = "p11.sc_11003.random_ship_list"
+slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.number = 42
+slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.index = 41
+slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.label = 3
+slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.has_default_value = false
+slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.default_value = {}
+slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.type = 13
+slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.cpp_type = 3
 SC_11003.name = "sc_11003"
 SC_11003.full_name = "p11.sc_11003"
 SC_11003.nested_types = {}
@@ -841,7 +861,9 @@ SC_11003.fields = {
 	slot2.SC_11003_THEME_UPLOAD_NOT_ALLOWED_TIME_FIELD,
 	slot2.SC_11003_REFUND_SHOP_INFO_LIST_FIELD,
 	slot2.SC_11003_CARTOON_READ_MARK_FIELD,
-	slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD
+	slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD,
+	slot2.SC_11003_RANDOM_SHIP_MODE_FIELD,
+	slot2.SC_11003_RANDOM_SHIP_LIST_FIELD
 }
 SC_11003.is_extendable = false
 SC_11003.extensions = {}

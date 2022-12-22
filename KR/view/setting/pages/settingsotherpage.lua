@@ -46,7 +46,10 @@ function slot0.GetPanels(slot0)
 
 	if PLATFORM_CODE == PLATFORM_CHT then
 		table.insert(slot1, 1, SettingsAccountTwPanle)
-		table.insert(slot1, SettingsAccountCHTPanle)
+
+		if CSharpVersion >= 50 then
+			table.insert(slot1, SettingsAccountCHTPanle)
+		end
 	end
 
 	if PLATFORM_CODE == PLATFORM_CH then

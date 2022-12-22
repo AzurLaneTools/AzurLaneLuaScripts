@@ -724,7 +724,11 @@ function slot53(slot0, slot1)
 			slot0.rigbody.velocity = Vector2(-1.5, -1.5)
 		end,
 		Step = function (slot0)
-			slot1 = slot0._tf.anchoredPosition.y
+			if uv0 < slot0._tf.anchoredPosition.y or slot1 < -uv0 then
+				slot0.rigbody.velocity = Vector2.zero
+
+				return
+			end
 
 			if slot0.isForwardNorth then
 				if not slot0.isJumpDown and slot1 >= -470 then
@@ -770,6 +774,7 @@ function slot53(slot0, slot1)
 			slot0.animator.speed = 1
 		end
 	}
+	slot3 = 1000
 
 	slot2:Ctor()
 
@@ -788,6 +793,18 @@ function slot0.didEnter(slot0)
 	slot0:initController()
 	slot0:updateMainUI()
 	slot0:openMainUI()
+	slot0:AutoFitScreen()
+end
+
+function slot0.AutoFitScreen(slot0)
+	slot6 = nil
+	slot6 = (1.7777777777777777 > Screen.width / Screen.height or math.clamp(1080 * slot1 / 2331, 1, 2)) and math.clamp(1920 / slot1 / slot0:findTF("bg_back").rect.height, 1, 2)
+
+	setLocalScale(slot0._tf, {
+		x = slot6,
+		y = slot6,
+		z = slot6
+	})
 end
 
 function slot0.initEvent(slot0)
@@ -815,8 +832,16 @@ function slot0.initData(slot0)
 		slot1 = 60
 	end
 
+	if not Physics2D.autoSimulation then
+		slot0.needManualSimulate = true
+	end
+
 	slot0.timer = Timer.New(function ()
 		uv0:onTimer()
+
+		if uv0.needManualSimulate then
+			Physics2D.Simulate(1 / uv1)
+		end
 	end, 1 / slot1, -1)
 end
 
@@ -869,7 +894,7 @@ function slot0.initUI(slot0)
 		slot8.name = "item_" .. slot7
 
 		setParent(slot8, slot0:findTF("item_list/Viewport/Content", slot0.mainUI))
-		GetSpriteFromAtlasAsync("ui/curlinggameui_atlas", "text_" .. slot7, function (slot0)
+		GetSpriteFromAtlasAsync("ui/minigameui/curlinggameui_atlas", "text_" .. slot7, function (slot0)
 			setImageSprite(uv0:findTF("bg/text", uv1), slot0, true)
 		end)
 		setActive(slot8, true)

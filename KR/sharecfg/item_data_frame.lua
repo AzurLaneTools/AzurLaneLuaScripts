@@ -360,6 +360,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「호수처럼 평온하고, 안개처럼 가볍도다. 천검을 꺼내드니, 기세를 막을 수 없다.」</color>\n「짙은 자줏빛의 안개」 이벤트 획득",
 		scene = {}
 	},
+	[323] = {
+		time_limit_type = 0,
+		name = "별의 바다의 고리",
+		gain_by = "",
+		id = 323,
+		time_second = 0,
+		desc = "추후 이벤트를 통해 획득",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -446,6 +455,7 @@ pg.item_data_frame = {
 		320,
 		321,
 		322,
+		323,
 		401,
 		402,
 		413,

@@ -2,6 +2,7 @@ slot0 = class("BattleDodgemResultLayer", import(".BattleResultLayer"))
 
 function slot0.didEnter(slot0)
 	setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
+	setText(findTF(slot0._conditions, "bg17"), i18n("battle_result_targets"))
 
 	slot3 = rtf(slot0._grade)
 	slot0._gradeUpperLeftPos = slot3.localPosition
@@ -127,6 +128,7 @@ end
 function slot0.willExit(slot0)
 	LeanTween.cancel(go(slot0._tf))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)
 end
 
 return slot0

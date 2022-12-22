@@ -80,7 +80,9 @@ function slot0.Load(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
-		uv0:InitPlane()
+		uv0:InitPlane(slot0)
+	end)
+	table.insert(slot2, function (slot0)
 		uv0.wsMapResource:Load(slot0)
 	end)
 	table.insert(slot2, function (slot0)
@@ -102,96 +104,100 @@ function slot0.Unload(slot0)
 	end
 end
 
-function slot0.InitPlane(slot0)
-	PoolMgr.GetInstance():GetPrefab("world/object/world_plane", "world_plane", false, function (slot0)
+function slot0.InitPlane(slot0, slot1)
+	slot2 = PoolMgr.GetInstance()
+
+	slot2:GetPrefab("world/object/world_plane", "world_plane", true, function (slot0)
 		uv0.transform = slot0.transform
 
 		setActive(uv0.transform, false)
-	end)
 
-	slot0.rtQuads = slot0.transform:Find("quads")
-	slot0.rtItems = slot0.transform:Find("items")
-	slot0.rtCells = slot0.transform:Find("cells")
-	slot0.rtTop = slot0.transform:Find("top")
-	slot0.rtEffectA = slot0.transform:Find("effect-a-1-999")
-	slot0.rtEffectB = slot0.transform:Find("effect-b-1001-1999")
-	slot0.rtEffectC = slot0.transform:Find("effect-c-2001-2999")
+		uv0.rtQuads = uv0.transform:Find("quads")
+		uv0.rtItems = uv0.transform:Find("items")
+		uv0.rtCells = uv0.transform:Find("cells")
+		uv0.rtTop = uv0.transform:Find("top")
+		uv0.rtEffectA = uv0.transform:Find("effect-a-1-999")
+		uv0.rtEffectB = uv0.transform:Find("effect-b-1001-1999")
+		uv0.rtEffectC = uv0.transform:Find("effect-c-2001-2999")
 
-	assert(slot0.map and slot2.active, "map not exist or map not active.")
+		assert(uv0.map and slot1.active, "map not exist or map not active.")
 
-	slot3 = slot2.theme
-	slot4 = slot0.transform
-	slot4.name = "plane"
-	slot4.anchoredPosition3D = Vector3(slot3.offsetx, slot3.offsety, slot3.offsetz) + WorldConst.DefaultMapOffset
+		slot2 = slot1.theme
+		slot3 = uv0.transform
+		slot3.name = "plane"
+		slot3.anchoredPosition3D = Vector3(slot2.offsetx, slot2.offsety, slot2.offsetz) + WorldConst.DefaultMapOffset
 
-	setImageAlpha(slot4:Find("display"):Find("mask/sea"), 0)
-	GetSpriteFromAtlasAsync("chapter/pic/" .. slot3.assetSea, slot3.assetSea, function (slot0)
-		if uv0 then
-			setImageSprite(uv0, slot0, false)
-			setImageAlpha(uv0, 1)
-		end
-	end)
+		setImageAlpha(slot3:Find("display"):Find("mask/sea"), 0)
+		GetSpriteFromAtlasAsync("chapter/pic/" .. slot2.assetSea, slot2.assetSea, function (slot0)
+			if uv0 then
+				setImageSprite(uv0, slot0, false)
+				setImageAlpha(uv0, 1)
+			end
+		end)
 
-	slot7 = Vector2(10000, 10000)
-	slot8 = Vector2.zero
-	slot9 = Vector2(WorldConst.MaxColumn, WorldConst.MaxRow)
-	slot10 = Vector2(-WorldConst.MaxColumn, -WorldConst.MaxRow)
+		slot6 = Vector2(10000, 10000)
+		slot7 = Vector2.zero
+		slot8 = Vector2(WorldConst.MaxColumn, WorldConst.MaxRow)
+		slot9 = Vector2(-WorldConst.MaxColumn, -WorldConst.MaxRow)
 
-	for slot14 = 0, WorldConst.MaxRow - 1 do
-		for slot18 = 0, WorldConst.MaxColumn - 1 do
-			if slot2:GetCell(slot14, slot18) then
-				slot7.x = math.min(slot7.x, slot18)
-				slot7.y = math.min(slot7.y, WorldConst.MaxRow * 0.5 - slot14 - 1)
-				slot9.x = math.min(slot9.x, slot18)
-				slot9.y = math.min(slot9.y, slot14)
-				slot10.x = math.max(slot10.x, slot18)
-				slot10.y = math.max(slot10.y, slot14)
+		for slot13 = 0, WorldConst.MaxRow - 1 do
+			for slot17 = 0, WorldConst.MaxColumn - 1 do
+				if slot1:GetCell(slot13, slot17) then
+					slot6.x = math.min(slot6.x, slot17)
+					slot6.y = math.min(slot6.y, WorldConst.MaxRow * 0.5 - slot13 - 1)
+					slot8.x = math.min(slot8.x, slot17)
+					slot8.y = math.min(slot8.y, slot13)
+					slot9.x = math.max(slot9.x, slot17)
+					slot9.y = math.max(slot9.y, slot13)
+				end
 			end
 		end
-	end
 
-	slot11 = slot3.cellSize + slot3.cellSpace
-	slot7.x = slot7.x * slot11.x
-	slot7.y = slot7.y * slot11.y
-	slot8.x = (slot10.x - slot9.x + 1) * slot11.x
-	slot8.y = (slot10.y - slot9.y + 1) * slot11.y
-	slot5.anchoredPosition = slot7 + slot8 * 0.5
-	slot5.sizeDelta = slot8
-	slot13 = slot5:Find("linev")
-	slot14 = slot13:GetChild(0)
-	slot15 = slot13:GetComponent(typeof(GridLayoutGroup))
-	slot15.cellSize = Vector2(WorldConst.LineCross, slot5.sizeDelta.y)
-	slot15.spacing = Vector2(slot11.x - WorldConst.LineCross, 0)
-	slot15.padding.left = math.floor(slot15.spacing.x)
-	slot19 = 0
+		slot10 = slot2.cellSize + slot2.cellSpace
+		slot6.x = slot6.x * slot10.x
+		slot6.y = slot6.y * slot10.y
+		slot7.x = (slot9.x - slot8.x + 1) * slot10.x
+		slot7.y = (slot9.y - slot8.y + 1) * slot10.y
+		slot4.anchoredPosition = slot6 + slot7 * 0.5
+		slot4.sizeDelta = slot7
+		slot12 = slot4:Find("linev")
+		slot13 = slot12:GetChild(0)
+		slot14 = slot12:GetComponent(typeof(GridLayoutGroup))
+		slot14.cellSize = Vector2(WorldConst.LineCross, slot4.sizeDelta.y)
+		slot14.spacing = Vector2(slot10.x - WorldConst.LineCross, 0)
+		slot14.padding.left = math.floor(slot14.spacing.x)
+		slot18 = 0
 
-	for slot19 = slot13.childCount - 1, math.max(Vector2(math.floor(slot5.sizeDelta.x / slot11.x), math.floor(slot5.sizeDelta.y / slot11.y)).x - 1, slot19), -1 do
-		if slot19 > 0 then
-			Destroy(slot13:GetChild(slot19))
+		for slot18 = slot12.childCount - 1, math.max(Vector2(math.floor(slot4.sizeDelta.x / slot10.x), math.floor(slot4.sizeDelta.y / slot10.y)).x - 1, slot18), -1 do
+			if slot18 > 0 then
+				Destroy(slot12:GetChild(slot18))
+			end
 		end
-	end
 
-	for slot19 = slot13.childCount, slot12.x - 2 do
-		Instantiate(slot14).transform:SetParent(slot13, false)
-	end
-
-	slot16 = slot5:Find("lineh")
-	slot17 = slot16:GetChild(0)
-	slot18 = slot16:GetComponent(typeof(GridLayoutGroup))
-	slot18.cellSize = Vector2(slot5.sizeDelta.x, WorldConst.LineCross)
-	slot18.spacing = Vector2(0, slot11.y - WorldConst.LineCross)
-	slot18.padding.top = math.floor(slot18.spacing.y)
-	slot22 = 0
-
-	for slot22 = slot16.childCount - 1, math.max(slot12.y - 1, slot22), -1 do
-		if slot22 > 0 then
-			Destroy(slot16:GetChild(slot22))
+		for slot18 = slot12.childCount, slot11.x - 2 do
+			Instantiate(slot13).transform:SetParent(slot12, false)
 		end
-	end
 
-	for slot22 = slot16.childCount, slot12.y - 2 do
-		Instantiate(slot17).transform:SetParent(slot16, false)
-	end
+		slot15 = slot4:Find("lineh")
+		slot16 = slot15:GetChild(0)
+		slot17 = slot15:GetComponent(typeof(GridLayoutGroup))
+		slot17.cellSize = Vector2(slot4.sizeDelta.x, WorldConst.LineCross)
+		slot17.spacing = Vector2(0, slot10.y - WorldConst.LineCross)
+		slot17.padding.top = math.floor(slot17.spacing.y)
+		slot21 = 0
+
+		for slot21 = slot15.childCount - 1, math.max(slot11.y - 1, slot21), -1 do
+			if slot21 > 0 then
+				Destroy(slot15:GetChild(slot21))
+			end
+		end
+
+		for slot21 = slot15.childCount, slot11.y - 2 do
+			Instantiate(slot16).transform:SetParent(slot15, false)
+		end
+
+		uv1()
+	end)
 end
 
 function slot0.InitClutter(slot0)
@@ -403,41 +409,47 @@ end
 
 function slot0.NewQuad(slot0, slot1)
 	slot2 = WPool:Get(WSMapQuad)
+	slot2.transform = slot0.wsPool:Get(WSMapQuad.GetResName()).transform
+
+	slot2.transform:SetParent(slot0.rtQuads, false)
+
 	slot2.twTimer = slot0.twTimer
 
 	slot2:Setup(slot1, slot0.map.theme)
-	slot2:Load()
-	slot2.transform:SetParent(slot0.rtQuads, false)
 
 	return slot2
 end
 
 function slot0.DisposeQuad(slot0, slot1)
+	slot0.wsPool:Return(WSMapQuad.GetResName(), slot1.transform.gameObject)
 	WPool:Return(slot1)
 end
 
 function slot0.NewItem(slot0, slot1)
 	slot2 = WPool:Get(WSMapItem)
+	slot2.transform = slot0.wsPool:Get(WSMapItem.GetResName()).transform
 
-	slot2:Setup(slot1, slot0.map.theme)
-	slot2:Load()
 	slot2.transform:SetParent(slot0.rtItems, false)
+	slot2:Setup(slot1, slot0.map.theme)
 
 	return slot2
 end
 
 function slot0.DisposeItem(slot0, slot1)
+	slot0.wsPool:Return(WSMapItem.GetResName(), slot1.transform.gameObject)
 	WPool:Return(slot1)
 end
 
 function slot0.NewCell(slot0, slot1)
 	slot2 = WPool:Get(WSMapCell)
+	slot2.transform = slot0.wsPool:Get(WSMapCell.GetResName()).transform
+
+	slot2.transform:SetParent(slot0.rtCells, false)
+
 	slot2.wsMapResource = slot0.wsMapResource
 	slot2.wsTimer = slot0.wsTimer
 
 	slot2:Setup(slot0.map, slot1)
-	slot2:Load()
-	slot2.transform:SetParent(slot0.rtCells, false)
 	slot2.rtFog:SetParent(slot0.rtCells:Find("fogs"), true)
 	slot1:AddListener(WorldMapCell.EventAddAttachment, slot0.onAddAttachment)
 	slot1:AddListener(WorldMapCell.EventRemoveAttachment, slot0.onRemoveAttachment)
@@ -454,21 +466,25 @@ function slot0.DisposeCell(slot0, slot1)
 	slot2:RemoveListener(WorldMapCell.EventAddAttachment, slot0.onAddAttachment)
 	slot2:RemoveListener(WorldMapCell.EventRemoveAttachment, slot0.onRemoveAttachment)
 	slot2:RemoveListener(WorldMapCell.EventUpdateTerrain, slot0.onUpdateTerrain)
+	slot0.wsPool:Return(WSMapCell.GetResName(), slot1.transform.gameObject)
 	WPool:Return(slot1)
 end
 
 function slot0.NewTransport(slot0, slot1, slot2, slot3)
 	slot4 = WPool:Get(WSMapTransport)
+	slot4.transform = slot0.wsPool:Get(WSMapTransport.GetResName()).transform
+
+	slot4.transform:SetParent(slot0.rtQuads, false)
+
 	slot4.wsMapPath = slot0.wsMapPath
 
 	slot4:Setup(slot1, slot2, slot3, slot0.map)
-	slot4:Load()
-	slot4.transform:SetParent(slot0.rtQuads, false)
 
 	return slot4
 end
 
 function slot0.DisposeTransport(slot0, slot1)
+	slot0.wsPool:Return(WSMapTransport.GetResName(), slot1.transform.gameObject)
 	WPool:Return(slot1)
 end
 

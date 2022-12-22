@@ -17793,6 +17793,125 @@ _G.pg.base.equip_data_statistics[3771] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3780] = {
+	type = 10,
+	name = "눈 덮인 꿈",
+	speciality = "无",
+	tech = 0,
+	value_2 = 1,
+	ammo = 10,
+	nationality = 1,
+	descrip = "투명한 수정구 속의 산봉우리는 가볍게 흔들기만 해도 눈이 흩날린다.",
+	rarity = 4,
+	attribute_1 = "durability",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3780,
+	icon = "3780",
+	value_1 = "150",
+	attribute_2 = "luck",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60290
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3781] = {
+	id = 3781,
+	value_1 = "180",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3782] = {
+	id = 3782,
+	value_1 = "210",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3783] = {
+	id = 3783,
+	value_1 = "240",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3784] = {
+	id = 3784,
+	value_1 = "270",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3785] = {
+	id = 3785,
+	value_1 = "300",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3786] = {
+	id = 3786,
+	value_1 = "330",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3787] = {
+	id = 3787,
+	value_1 = "360",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3788] = {
+	id = 3788,
+	value_2 = 2,
+	value_1 = "390",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3789] = {
+	id = 3789,
+	value_2 = 2,
+	value_1 = "420",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3790] = {
+	id = 3790,
+	value_2 = 2,
+	value_1 = "450",
+	base = 3780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3791] = {
+	value_2 = 2,
+	anti_siren = 100,
+	base = 3780,
+	id = 3791,
+	value_1 = "475",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[4000] = {
 	tech = 1,
 	name = "기본형 폭뢰 발사기",

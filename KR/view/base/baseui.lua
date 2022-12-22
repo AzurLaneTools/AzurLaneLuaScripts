@@ -4,6 +4,7 @@ slot0.DID_ENTER = "BaseUI:DID_ENTER"
 slot0.AVALIBLE = "BaseUI:AVALIBLE"
 slot0.DID_EXIT = "BaseUI:DID_EXIT"
 slot0.ON_BACK = "BaseUI:ON_BACK"
+slot0.ON_RETURN = "BaseUI:ON_RETURN"
 slot0.ON_HOME = "BaseUI:ON_HOME"
 slot0.ON_CLOSE = "BaseUI:ON_CLOSE"
 slot0.ON_DROP = "BaseUI.ON_DROP"
@@ -157,7 +158,8 @@ slot0.optionsPath = {
 	"blur_container/adapt/top/title/option",
 	"blur_container/adapt/top/option",
 	"ForNorth/top/option",
-	"top/top_chapter/option"
+	"top/top_chapter/option",
+	"Main/blur_panel/adapt/top/option"
 }
 
 function slot0.onUILoaded(slot0, slot1)
